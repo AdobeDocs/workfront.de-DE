@@ -1,13 +1,15 @@
 ---
 product-area: reporting
-keywords: Benutzer, Delegierung, Bericht, Delegieren, Genehmigung
+keywords: Benutzer,Delegierung,Bericht,Delegieren,Genehmigung
 navigation-topic: create-and-manage-reports
-title: Erstellen eines Benutzerdelegierungsberichts
+title: Erstellen eines Berichts zur Benutzerdelegierung
 description: Erstellen eines Berichts zur Benutzerdelegierung
 author: Courtney
 feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 17%
@@ -22,14 +24,14 @@ ht-degree: 17%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider moving this to the Custom&nbsp;View, Filter, Grouping Samples section as an example of a report)</p>
 -->
 
-In Adobe Workfront können Benutzende Projekt-, Aufgaben- und Problem-Genehmigungen an andere Benutzende delegieren, um sicherzustellen, dass ihre Genehmigungen verwaltet werden, wenn sie abwesend sind. Benutzer mit einer Abo-Lizenz können einen Bericht zur Benutzerdelegierung erstellen, um Folgendes anzuzeigen:
+In Adobe Workfront können Benutzende Projekt-, Aufgaben- und Problem-Genehmigungen an andere Benutzende delegieren, um sicherzustellen, dass ihre Genehmigungen verwaltet werden, wenn sie abwesend sind. Benutzende mit einer Planlizenz können einen Bericht zur Benutzerdelegierung erstellen, um Folgendes anzuzeigen:
 
 * Wer hat seine Aufgaben-, Problem- und Projektgenehmigungen an einen anderen Benutzer delegiert?
-* Welche Benutzer haben Aufgaben-, Problem- und Projektgenehmigungen delegiert?
+* Welche Benutzenden haben Aufgaben-, Problem- und Projektgenehmigungen delegiert?
 
-* Die Termine, zu denen die Delegationen beginnen und enden
+* Die Daten, an denen die Delegationen beginnen und enden
 
-Weitere Informationen zum Delegieren von Genehmigungen finden Sie unter [Genehmigungsanforderung delegieren](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+Weitere Informationen zum Delegieren von Genehmigungen finden Sie unter [Delegieren von Genehmigungsanfragen](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">DRAFTED: To learn more about delegating work, see <a href="../../../workfront-basics/manage-your-account-and-profile/manage-time-off/personal-time-off.md" class="MCXref xref">Log personal time off and delegate your work</a>.</p>
@@ -59,12 +61,12 @@ Weitere Informationen zum Delegieren von Genehmigungen finden Sie unter [Genehmi
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfiguration auf Zugriffsebene</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten</p> <p>Bearbeitungszugriff auf Filter, Ansichten, Gruppierungen</p> </td> 
+   <td role="rowheader">Konfiguration der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
- <td> <p>Anzeigen von Berechtigungen für die Elemente, deren Genehmigungen delegiert werden, und für die an der Delegierung beteiligten Benutzer</p></td>  
+ <td> <p>Anzeigen von Berechtigungen für die Elemente, deren Genehmigungen delegiert wurden, und für die an der Delegierung beteiligten Benutzer</p></td>  
   </tr> 
  </tbody> 
 </table>
@@ -73,34 +75,34 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 +++
 
-## Erstellen eines Benutzerdelegierungsberichts
+## Erstellen eines Berichts zur Benutzerdelegierung
 
-1. Klicken Sie auf das **Hauptmenü**-Symbol ![Hauptmenü-Symbol &#x200B;](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront, und klicken Sie dann auf **Berichte**.
+1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront und dann auf **Berichte**.
 
-1. Klicken Sie auf **Neuer Bericht**, und wählen Sie dann **Benutzerdelegation** aus.
+1. Klicken Sie **Neuer Bericht** und wählen Sie dann **Benutzerdelegierung** aus.
 
    ![Benutzerdelegierung für neuen Bericht](assets/classic-new-report-user-delegation-350x644.png)
 
-   Die folgenden Felder werden in diesem Bericht standardmäßig angezeigt:
+   Die folgenden Felder werden standardmäßig in diesem Bericht angezeigt:
 
    | Feld | Beschreibung |
    |---|---|
    | **Von Benutzer** | Dies ist der Benutzer, der seine Aufgaben-, Problem- und Projektgenehmigungen an einen anderen Benutzer delegiert. |
-   | **An Benutzer** | Dies ist der Benutzer, dem Aufgaben-, Problem- und Projektgenehmigungen delegiert wurden. |
-   | **Startdatum** | Dies ist der Beginn der Abwesenheitszeit für den Benutzer, der die Delegationen gebildet hat. |
+   | **An Benutzer** | Hierbei handelt es sich um den Benutzer, dem Aufgaben-, Problem- und Projektgenehmigungen delegiert wurden. |
+   | **Startdatum** | Dies ist der Beginn der Abwesenheitszeit für den Benutzer, der die Delegationen vorgenommen hat. |
    | **Enddatum** | Dies ist das Ende der Abwesenheitszeit für den Benutzer, der die Delegierungen vorgenommen hat. |
 
    {style="table-layout:auto"}
 
-1. (Optional) Ändern Sie im Report Builder Folgendes:
+1. (Optional) Ändern Sie in Report Builder Folgendes:
 
    * Spalten (Ansicht)
    * Gruppierungen
    * Filter
    * Diagramm
 
-   Weitere Informationen zu diesen Features finden Sie unter [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   Weitere Informationen zu diesen Funktionen finden Sie unter [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Nachdem Sie die Erstellung des Berichts abgeschlossen haben, klicken Sie auf **Speichern + Schließen**.
+1. Nachdem Sie den Bericht fertig erstellt haben, klicken Sie auf **Speichern + Schließen**.
 
    Der Bericht wird angezeigt.

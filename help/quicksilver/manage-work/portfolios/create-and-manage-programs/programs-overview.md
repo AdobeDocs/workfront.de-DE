@@ -7,14 +7,16 @@ description: Ein Programm ist eine Sammlung von Projekten mit einheitlichen Merk
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1c64fe00-12e3-49f6-b864-b8f89ed9140d
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
-# Programmübersicht
+# Überblick über Programme
 
 <!-- Audited: 08/2025 -->
 
@@ -41,7 +43,7 @@ Sie müssen über die folgenden Zugriffsrechte verfügen, um Portfolios zu erste
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> <p>[!UICONTROL Standard]</p>
-   <p>[!UICONTROL -Plan]</p> </td> 
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -58,9 +60,10 @@ Sie müssen über die folgenden Zugriffsrechte verfügen, um Portfolios zu erste
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -88,7 +91,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
     </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 
 ## Überlegungen zur Arbeit mit Programmen
@@ -119,7 +123,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    * Ein Programm kann mehrere Projekte umfassen.
 
   Informationen zum Erstellen von Projekten und Portfolios finden Sie in den folgenden Artikeln:
-   * [Erstellen eines Projekts](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
+   * [Projekt erstellen](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
    * [Erstellen von Portfolios](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
 
 

@@ -1,19 +1,21 @@
 ---
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: Kunden-Support kontaktieren
+title: Kontaktieren des Kunden-Supports
 description: Als Adobe Workfront-Kunde können Sie sich telefonisch oder per Online-Übermittlung eines Tickets an das Kundensupportteam von Workfront wenden. Dieser Artikel enthält Anweisungen zur Kontaktaufnahme mit dem Support und zum Anzeigen und Verwalten Ihrer Support-Fälle.
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
-# Kunden-Support kontaktieren
+# Kontaktieren des Kunden-Supports
 
 <!--Audited: 12/2023-->
 
@@ -36,14 +38,14 @@ Als [!DNL Adobe Workfront]-Kunde können Sie sich telefonisch oder per Online-Ti
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td>Beliebig</td> 
   </tr> 
   <tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr> 
   </tr> 
   <tr> 
@@ -53,7 +55,7 @@ Als [!DNL Adobe Workfront]-Kunde können Sie sich telefonisch oder per Online-Ti
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,7 +67,8 @@ Sie können [!DNL Workfront Customer Support] 7 Tage die Woche, 24 Stunden am Ta
 * EMEA: +44 800 169 0454
 * Australien: +61 180 035 8683
 
-<!--Old numbers - before 2/10/2025:
+<!--
+Old numbers - before 2/10/2025:
 
 * US: 844-306-HELP(4357)
 * EMEA: +44 1256 274200
@@ -95,7 +98,7 @@ Sie können ein Support-Ticket über das Self-Service-[!DNL Experience League] e
 <!--1. To submit a case, select the option **[!UICONTROL Open a support case]**, then click **[!UICONTROL Sign] In**.-->
 
 1. Klicken Sie **[!UICONTROL Ticket öffnen]** in der linken Seitenleiste auf.
-Die Seite [!UICONTROL Erstellung eines &#x200B;]) wird geöffnet. Dort können Sie Ihren Produktnamen ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion] usw.), den Titel der Anfrage und die Fallbeschreibung eingeben.
+Die Seite [!UICONTROL Erstellung eines ]) wird geöffnet. Dort können Sie Ihren Produktnamen ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion] usw.), den Titel der Anfrage und die Fallbeschreibung eingeben.
 
    >[!TIP]
    >
@@ -111,7 +114,7 @@ Die Seite [!UICONTROL Erstellung eines &#x200B;]) wird geöffnet. Dort können S
 
 1. Laden Sie alle relevanten Dateien hoch und klicken Sie dann auf **[!UICONTROL Fall senden]**.
 
-   Der Fall wird übermittelt und die Seite &quot;[!UICONTROL &#x200B; Fälle] wird angezeigt.
+   Der Fall wird übermittelt und die Seite &quot;[!UICONTROL  Fälle] wird angezeigt.
 
    <!--
    [](assets/all-cases-list-exl-support-portal.png)
@@ -137,7 +140,8 @@ Wenn Sie Fragen oder Probleme beim Einreichen einer Anfrage haben, wenden Sie si
 1. (Optional) Um das Gehäuse zu schließen, klicken Sie auf die Schaltfläche **[!UICONTROL Fall schließen]**.
 
 
-<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737?profile.language=de)
+<!--
+drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
 
 - this is the information that was there before - pointing to WorkfrontOne: 
 

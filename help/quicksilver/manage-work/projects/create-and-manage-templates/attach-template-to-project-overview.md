@@ -3,19 +3,21 @@ content-type: overview
 product-area: templates
 keywords: überschreiben,Feld,überschrieben
 navigation-topic: templates-navigation-topic
-title: Überblick über das Anhängen einer Vorlage an ein Projekt
+title: Überblick über das Anfügen einer Vorlage an ein Projekt
 description: Wenn Sie eine Vorlage an ein vorhandenes Projekt anhängen, ändern Sie einige Informationen im Projekt entsprechend der Vorlage. Einige Informationen über das Projekt bleiben unverändert.
 author: Alina
 feature: Work Management
 exl-id: 7f0137b6-ce8e-4b66-ad55-e6dc2aae09d9
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1258'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
-# Überblick über das Anhängen einer Vorlage an ein Projekt
+# Überblick über das Anfügen einer Vorlage an ein Projekt
 
 Wenn Sie eine Vorlage an ein vorhandenes Projekt anhängen, ändern Sie einige Informationen im Projekt entsprechend der Vorlage. Einige Informationen über das Projekt bleiben unverändert.
 
@@ -327,7 +329,8 @@ In der folgenden Tabelle wird beschrieben, was standardmäßig mit Projektfelder
 
 
 
-<!--WRITER
+<!--
+WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <div>
 <h2> </h2>

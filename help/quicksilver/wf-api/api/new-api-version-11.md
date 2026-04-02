@@ -1,20 +1,22 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Neue Funktionen in der API-Version 11
+title: Neue Funktionen in der API-Version 11
 description: ReportBudgedHour wurde zur Adobe Workfront-API als Ressource für das Reporting hinzugefügt. Es enthält Referenzfelder, Kernfelder und Standardfelder, die in BudgetedHour nicht vorhanden sind.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b8826dc6-9791-49f6-923d-5a0c5392a8b0
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '3573'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-# Neue Funktionen in der API-Version 11
+# Neue Funktionen in der API-Version 11
 
 * [Ressourcen hinzugefügt](#added-resources)
 * [Entfernte Ressourcen](#removed-resources)
@@ -40,9 +42,11 @@ ht-degree: 2%
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginasaccessrule">LoginAsAccessRule</h3>
 -->
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -62,7 +66,7 @@ ht-degree: 2%
    <td> 
     <ul> 
      <li style="font-weight: bold;">Accessor</li> 
-     <li style="font-weight: bold;">Kunde</li> 
+     <li style="font-weight: bold;">Kundin bzw. Kunde</li> 
      <li style="font-weight: bold;">Benutzer  </li> 
     </ul> </td> 
   </tr> 
@@ -81,9 +85,11 @@ ht-degree: 2%
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginasadditionalrule">LoginAsAdditionalRule</h3>
 -->
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -120,9 +126,11 @@ ht-degree: 2%
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode" id="loginassettings">LoginAsSettings</h3>
 -->
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -188,7 +196,7 @@ ReportBudgedHour wurde zur Adobe Workfront-API als Ressource für das Reporting 
     <ul> 
      <li> <p style="font-weight: bold;">Projekt</p> <p>Das Projekt, dem eine ReportBudgetedHour zugeordnet ist.</p> </li> 
      <li> <p style="font-weight: bold;">Rolle</p> <p>Das Aufgabengebiet, dem eine ReportBudgetedHour zugeordnet ist.</p> </li> 
-     <li> <p style="font-weight: bold;">Benutzer</p> <p>Der Benutzer, dem eine ReportBudgetedHour zugeordnet ist.</p> </li> 
+     <li> <p style="font-weight: bold;">Benutzerin bzw. Benutzer</p> <p>Der Benutzer, dem eine ReportBudgetedHour zugeordnet ist.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -258,7 +266,7 @@ Für API v11 wurden keine Ressourcen entfernt.
      <li><a href="#note" class="MCXref xref">Hinweis</a> </li> 
      <li><a href="#optask" class="MCXref xref">OpTask</a> </li> 
      <li><a href="#parameter" class="MCXref xref">Parameter</a> </li> 
-     <li><a href="#portfolio" class="MCXref xref">Portfolio </a> </li> 
+     <li><a href="#portfolio" class="MCXref xref">Portfolio</a> </li> 
      <li><a href="#program" class="MCXref xref">Programm</a> </li> 
      <li><a href="#project" class="MCXref xref">Projekt</a> </li> 
      <li><a href="#proofapproval" class="MCXref xref">TestversandValidierung</a> </li> 
@@ -277,7 +285,8 @@ Für API v11 wurden keine Ressourcen entfernt.
      <li><a href="#templateassignment" class="MCXref xref">TemplateAssignment</a> </li> 
      <li><a href="#templatetask" class="MCXref xref">TemplateTask</a> </li> 
      <li><a href="#timesheet" class="MCXref xref">Arbeitszeittabelle</a> </li> 
-     <li><a href="#update" class="MCXref xref">Aktualisieren</a> </li> <!--
+     <li><a href="#update" class="MCXref xref">Aktualisieren</a> </li>
+     <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#user" class="MCXref xref">User</a> </li>
      --> 
      <li><a href="#usernote" class="MCXref xref">UserNote</a> </li> 
@@ -321,7 +330,7 @@ Wenn ein(e) Benutzende(r) keinen Zugriff auf ein Objekt in Workfront hat, das er
    <td>Direkte Felder</td> 
    <td> 
     <ul> 
-     <li> <p style="font-weight: bold;">Handlung</p> <p>Der mögliche Wert BUDGETING_INFORMATION wurde hinzugefügt. Dies ermöglicht es Benutzenden mit der Berechtigung, Prioritäten und Budgetstunden im Planer zu bearbeiten.  </p> </li> 
+     <li> <p style="font-weight: bold;">Aktion</p> <p>Der mögliche Wert BUDGETING_INFORMATION wurde hinzugefügt. Dies ermöglicht es Benutzenden mit der Berechtigung, Prioritäten und Budgetstunden im Planer zu bearbeiten.  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -349,7 +358,7 @@ Ein AccessRule-Objekt stellt einen Regelsatz in benutzerdefinierten Zugriffseben
 
 ### Genehmigung {#approval}
 
-Für ein bestimmtes Arbeitselement, z. B. eine Aufgabe, ein Dokument oder eine Arbeitszeittabelle, kann es erforderlich sein, dass ein Verantwortlicher oder ein anderer Benutzer das Arbeitselement abzeichnet. Ein Validierungsobjekt stellt die Aktion des Abzeichnens eines Arbeitselements dar.
+Für ein bestimmtes Arbeitselement, z. B. eine Aufgabe, ein Dokument oder eine Arbeitszeittabelle, kann es erforderlich sein, dass eine verantwortliche Person oder ein anderer Benutzer bzw. eine andere Benutzerin das Arbeitselement abzeichnet. Ein Validierungsobjekt stellt die Aktion des Abzeichnens eines Arbeitselements dar.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -580,7 +589,8 @@ Ein Customer-Objekt stellt eine Organisation dar, die eine Instanz von Workfront
        <li style="font-weight: normal;">CONDITION_OPTASK (Problembedingungen)  </li> 
       </ul> </li> 
     </ul> </td> 
-  </tr> <!--
+  </tr>
+  <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>Reference Fields</td> 
     <td> 
@@ -604,9 +614,11 @@ Ein Customer-Objekt stellt eine Organisation dar, die eine Instanz von Workfront
 
 Ein CustomerPreferences-Objekt stellt den Satz von Voreinstellungen dar, die ein Kunde für seine Workfront-Instanz festgelegt hat.
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -798,7 +810,7 @@ Ein OpTask-Objekt wird im Allgemeinen als Problem bezeichnet. Ein Problem ist ei
    <td>Suchfelder</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>Arbeit</p> <p style="font-weight: normal;">entfernt</p> </li> 
+     <li style="font-weight: bold;"> <p>Arbeit</p> <p style="font-weight: normal;">Entfernt</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -1057,7 +1069,7 @@ Ein ScheduledReport-Objekt stellt einen Bericht dar, der für die Bereitstellung
 
 ### ScoreCardQuestion {#scorecardquestion}
 
-Ein ScoreCardQuestion-Objekt stellt eine Frage dar, die zu einer Scorecard hinzugefügt wurde. Diese Fragen werden in der Regel vom Portfoliomanager bestimmt und ihre Antworten geben dem Portfolio die Möglichkeit zu verstehen, wie gut ein Projekt mit den Portfoliozielen übereinstimmt.
+Ein ScoreCardQuestion-Objekt stellt eine Frage dar, die zu einer Scorecard hinzugefügt wurde. Diese Fragen werden in der Regel vom Portfolio-Manager bestimmt, und die Antworten geben dem Manager die Möglichkeit zu verstehen, wie gut ein Projekt mit den Portfoliozielen übereinstimmt.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -1235,7 +1247,7 @@ Ein Arbeitszeittabellen-Objekt stellt eine virtuelle Arbeitszeitkarte dar, mit d
    <td>Kernfelder</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>objCode</p> <p style="font-weight: normal;">entfernt</p> </li> 
+     <li style="font-weight: bold;"> <p>objCode</p> <p style="font-weight: normal;">Entfernt</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -1275,9 +1287,11 @@ Arbeitselemente in Workfront können aktualisiert werden, um Benutzende über de
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A User object represents a person with an account in Workfront that can log in and interact with the system.</p>
 -->
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 

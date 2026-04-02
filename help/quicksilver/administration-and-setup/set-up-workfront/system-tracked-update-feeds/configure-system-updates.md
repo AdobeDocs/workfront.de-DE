@@ -3,19 +3,21 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
 title: Systemaktualisierungen konfigurieren
-description: Workfront generiert automatische Systemaktualisierungen im Bereich [!UICONTROL Updates“ eines &#x200B;], um die Änderungen aufzuzeichnen, die Benutzende am Objekt vornehmen. Als  [!DNL Workfront]  können Sie konfigurieren, welche Objektfelder und Aktionen  [!DNL Workfront]  Systemaktualisierungen aufgezeichnet werden sollen.
+description: Workfront generiert automatische Systemaktualisierungen im Bereich [!UICONTROL Updates“ eines ], um die Änderungen aufzuzeichnen, die Benutzende am Objekt vornehmen. Als  [!DNL Workfront]  können Sie konfigurieren, welche Objektfelder und Aktionen  [!DNL Workfront]  Systemaktualisierungen aufgezeichnet werden sollen.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '930'
-ht-degree: 8%
+ht-degree: 10%
 
 ---
 
-# Systemaktualisierungen konfigurieren
+# Konfigurieren von Systemaktualisierungen
 
 <!-- Audited: 08/2025 -->
 
@@ -27,9 +29,10 @@ The highlighted information on this page refers to functionality not yet general
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
-</div> -->
+</div>
+-->
 
-[!DNL Adobe Workfront] generiert automatische Systemaktualisierungen im Bereich [!UICONTROL Updates“ eines &#x200B;], um die folgenden Ereignisse aufzuzeichnen:
+[!DNL Adobe Workfront] generiert automatische Systemaktualisierungen im Bereich [!UICONTROL Updates“ eines ], um die folgenden Ereignisse aufzuzeichnen:
 
 * Änderungen, die Benutzer in einem Objektfeld vornehmen
 * Aktionen, die Benutzer für ein Objekt ausführen
@@ -48,7 +51,7 @@ Sie könnten beispielsweise alle Änderungen nachverfolgen [!DNL Workfront], die
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -61,7 +64,7 @@ Sie könnten beispielsweise alle Änderungen nachverfolgen [!DNL Workfront], die
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td><p>[!UICONTROL Standard]</p>
-   <p>[!UICONTROL -Plan]</p>
+   <p>[!UICONTROL Plan]</p>
    </td> 
   </tr>  
   <tr> 
@@ -75,7 +78,8 @@ Sie könnten beispielsweise alle Änderungen nachverfolgen [!DNL Workfront], die
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -96,7 +100,8 @@ Sie könnten beispielsweise alle Änderungen nachverfolgen [!DNL Workfront], die
    <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
-</table> -->
+</table>
+-->
 
 ## Bestimmen, welche Felder [!DNL Workfront] für einen Objekttyp nachverfolgt
 
@@ -137,7 +142,7 @@ Sie können Felder hinzufügen, die [!DNL Workfront] für einen bestimmten Objek
    * Problem
    * Portfolio
    * Programm
-   * Benutzerin bzw. Benutzer
+   * Benutzerin oder Benutzer
 
    Das Feld **Felder hinzufügen** wird für jedes ausgewählte Objekt geöffnet.
 1. Beginnen Sie im Feld **Felder hinzufügen** entweder mit der Eingabe eines integrierten (standardmäßigen) Felds oder eines benutzerdefinierten Felds für das Objekt und wählen Sie es aus, wenn es in der Liste angezeigt wird.
@@ -160,7 +165,7 @@ Sie können Felder entfernen, die das System nicht für einen bestimmten Objektt
 
 1. Wählen Sie auf **[!UICONTROL Registerkarte]** Getrackte Felder“ die Unterregisterkarte **[!UICONTROL Alle Felder]** aus. Sowohl die integrierten als auch die benutzerdefinierten Felder, die derzeit verfolgt werden, werden angezeigt.
 
-1. Wählen Sie das Feld aus, das Sie mit dem Tracking stoppen möchten, und klicken Sie dann auf das Symbol **[!UICONTROL Entfernen]** (Symbol ![&#x200B; entfernen](assets/remove-icon.png).
+1. Wählen Sie das Feld aus, das Sie mit dem Tracking stoppen möchten, und klicken Sie dann auf das Symbol **[!UICONTROL Entfernen]** (Symbol ![ entfernen](assets/remove-icon.png).
 
 1. Klicken Sie im angezeigten **[!UICONTROL Feld]** Feld entfernen“ zur Bestätigung auf **[!UICONTROL Ja,]** entfernen.
 

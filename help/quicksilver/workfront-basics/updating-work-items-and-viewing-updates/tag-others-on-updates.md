@@ -6,14 +6,16 @@ description: Beim Bereitstellen von Aktualisierungskommentaren für ein Adobe Wo
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '960'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-# Andere bei Aktualisierungen taggen
+# Markieren von anderen in Aktualisierungen
 
 <!--Audited: April, 2024-->
 
@@ -69,8 +71,8 @@ Anstatt diese Benutzer in das Objekt aufzunehmen, indem Sie sie ihm zuweisen ode
    <td role="rowheader"><strong>Adobe Workfront-Lizenz</strong></td> 
    <td> <p>Für Probleme und Dokumente:</p>
 
-<ul><li><p>Mitwirkender oder höher</p></li>
-   <li><p>Anfrage oder höher</p></li></ul>
+<ul><li><p>Mitwirkende oder höher</p></li>
+   <li><p>Anfragende oder höher</p></li></ul>
 
 <p>Für alle anderen Objekte:</p>
    <ul><li><p>Licht oder höher</p></li>
@@ -88,11 +90,12 @@ Anstatt diese Benutzer in das Objekt aufzunehmen, indem Sie sie ihm zuweisen ode
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie in [&#x200B; Dokumentation zu Zugriffsanforderungen für Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie in [ Dokumentation zu Zugriffsanforderungen für Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
  <col> 
  <col> 
@@ -115,9 +118,10 @@ Weitere Informationen finden Sie in [&#x200B; Dokumentation zu Zugriffsanforderu
    <td> <p>View or higher permissions to the objects where you want to post the reply</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
-## Andere bei Aktualisierungen taggen
+## Markieren von anderen in Aktualisierungen
 
 Sie können andere wie folgt mit Tags zu Aktualisierungen versehen:
 

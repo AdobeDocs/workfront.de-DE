@@ -6,14 +6,16 @@ description: Sie können mit den Mitgliedern Ihres Projektteams einfach über Ad
 author: Alina
 feature: Work Management
 exl-id: 2dadc10c-ffa8-4bb5-b2f1-14e2a8f0a7d6
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
-# Kommunikation mit Projektteammitgliedern
+# Kommunikation mit Mitgliedern des Projekt-Teams
 
 Sie können mit den Mitgliedern Ihres Projektteams einfach über Adobe Workfront kommunizieren.
 
@@ -21,7 +23,7 @@ Alle einem Projekt zugeordneten Benutzer werden aus dem Projektteam abgerufen. I
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,8 +37,8 @@ Alle einem Projekt zugeordneten Benutzer werden aus dem Projektteam abgerufen. I
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Mitwirkender oder höher</p> 
-   <p>Anfrage oder höher</p> </td> 
+   <td><p>Mitwirkende oder höher</p> 
+   <p>Anfragende oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -53,7 +55,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -78,7 +81,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    <td> <p>View or higher permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Senden einer E-Mail an ein Mitglied des Projektteams {#send-an-email-to-a-project-team-member}
 
@@ -87,7 +91,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    Um alle Mitglieder des Projektteams zu aktualisieren, klicken Sie **Alle aktualisieren** in der linken oberen Ecke der Liste der Mitglieder des Projektteams.
 
-   Oder
+   ODER
 
    Um bestimmte Mitglieder des Projektteams zu aktualisieren, wählen Sie einen oder mehrere Benutzer in der Liste aus und klicken Sie dann auf **Aktualisierung an Benutzer senden**.
 

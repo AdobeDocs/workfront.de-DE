@@ -6,10 +6,12 @@ description: Sie können Pläne im Rahmen der Verwendung des Workfront-Szenariop
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2399'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -27,7 +29,7 @@ Sie können Pläne im Rahmen der Verwendung der [!DNL Workfront Scenario Planner
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -63,7 +65,8 @@ Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugr
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -98,7 +101,8 @@ Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugr
    <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Erstellen oder Bearbeiten von Plänen
 
@@ -138,7 +142,7 @@ Eine Liste der vorhandenen Pläne, die Sie erstellt haben, wird im [!DNL Workfro
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate) </p>
    -->
 
-   Oder
+   ODER
 
    Klicken Sie **[!UICONTROL oben]** auf „Neuer Plan“, um einen Plan zu erstellen und mit Schritt 5 fortzufahren.
 
@@ -207,9 +211,9 @@ Eine Liste der vorhandenen Pläne, die Sie erstellt haben, wird im [!DNL Workfro
 
    | Dropdown-Menüoption | Beschreibung |
    |---|---|
-   | [!UICONTROL Monat] | Zeigt die Zeitleiste nach Monat an. Dies ist die Standard- und einzige Option für einen Ein-Jahres-Plan. |
+   | [!UICONTROL Month] | Zeigt die Zeitleiste nach Monat an. Dies ist die Standard- und einzige Option für einen Ein-Jahres-Plan. |
    | [!UICONTROL Quartal] | Zeigt die Zeitleiste nach Quartal an. Diese Option ist nur verfügbar, wenn [!UICONTROL Laufzeit] des Plans 3 oder 5 Jahre beträgt. Dies ist die Standardoption für einen 3-Jahres-Plan. |
-   | [!UICONTROL Jahr] | Zeigt die Zeitleiste nach Jahr an. Diese Option ist nur verfügbar, wenn [!UICONTROL Laufzeit] des Plans 5 Jahre beträgt. Dies ist die Standardoption für einen 5-Jahres-Plan. |
+   | [!UICONTROL Year] | Zeigt die Zeitleiste nach Jahr an. Diese Option ist nur verfügbar, wenn [!UICONTROL Laufzeit] des Plans 5 Jahre beträgt. Dies ist die Standardoption für einen 5-Jahres-Plan. |
 
 1. (Optional) Scrollen Sie von links nach rechts, um die gesamte Laufzeit des Plans anzuzeigen.
 1. (Optional) Klicken Sie auf die **[!UICONTROL Heute]**, um zum aktuellen Tag zurückzukehren.
@@ -253,7 +257,8 @@ Eine Liste der vorhandenen Pläne, die Sie erstellt haben, wird im [!DNL Workfro
         <li> <p><strong>[!UICONTROL Gesamt erforderlich]</strong> (für Stunden): Die Gesamtzahl der für alle Monate während der Laufzeit des Plans erforderlichen Stunden.</p> </li> 
         <li> <p><strong>[!UICONTROL Max. erforderlich]</strong> (für VZÄ): Die maximale Anzahl von VZÄ, die für einen der Monate während der Laufzeit des Plans erforderlich sind. </p> </li> 
        </ul> <p>Tipp: Die <span>maximale</span> Anzahl der VZÄ <span>oder die Gesamtanzahl der Stunden</span> die für dieses Aufgabengebiet erforderlich sind, wird angezeigt, nachdem Sie mit dem Hinzufügen von Initiativen begonnen haben. Informationen zum Hinzufügen von Initiativen zu einem Plan finden Sie unter <a href="../scenario-planner/create-and-edit-initiatives.md" class="MCXref xref">Erstellen und Bearbeiten von Initiativen im [!DNL Scenario Planner]</a>.</p> </td> 
-     </tr> <!--
+     </tr>
+     <!--
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">[!UICONTROL Avg utilization]</td> 
        <td> <p>(NOTE: this field was removed in 21.2 - May 2021) </p> <p>[!DNL Workfront] calculates the average utilization for each job role using the job role FTEs associated with initiatives (required) and the job role FTEs associated with the plan (available). </p> <p> [!DNL Workfront] calculates the job role utilization percentage for a plan using the following formula: </p> <p><code>Job role utilization percentage = Sum [(Required job roles for each month of the plan *100)/ (Available job roles for each month of the plan)] / Number of months in the Duration of the plan</code> </p> 
@@ -308,8 +313,8 @@ Eine Liste der vorhandenen Pläne, die Sie erstellt haben, wird im [!DNL Workfro
        </div> </td> 
       <td> <p><span>Je nachdem, ob Sie für Ihren Plan Stunden oder VZÄ verwendet haben, </span> Sie die monatliche Anzahl der für das Szenario erforderlichen Aufgabengebiets-VZÄ oder Stunden in den folgenden Feldern: </p> 
        <ul> 
-        <li> <p><strong>[!UICONTROL Erforderlich] (Max. &lt;Anzahl VZÄ&gt;)</strong>: Die Zahl in Klammern zeigt die maximale Anzahl von Rollen an, die für einen der Monate für das Szenario erforderlich sind. </p> </li> 
-        <li> <p><span><strong>[!UICONTROL Erforderlich] (Gesamtstundenzahl&gt;)</strong>: Die Zahl in Klammern gibt die Gesamtstundenzahl an, die für alle Monate im Szenario erforderlich ist.</span> </p> </li> 
+        <li> <p><strong>[!UICONTROL Erforderlich] (Max. &lt;Anzahl der FTEs&gt;)</strong>: Die Zahl in Klammern zeigt die maximale Anzahl von Rollen an, die für einen der Monate für das Szenario erforderlich sind. </p> </li> 
+        <li> <p><span><strong>[!UICONTROL Erforderlich] (Gesamtstundenzahl)</strong>: Die Zahl in Klammern gibt die Gesamtstundenzahl an, die für alle Monate des Szenarios erforderlich ist.</span> </p> </li> 
        </ul> <p>Tipp: Sie können die erforderliche Anzahl von VZÄ (<span> Stunden) </span> Aufgabengebiet nicht ändern. Diese Zahl wird für das Szenario ausgefüllt, nachdem Sie mit dem Hinzufügen von Initiativen und deren Aufgabengebiet-Anforderungen begonnen haben. </p> </td> 
      </tr> 
      <tr> 
@@ -322,7 +327,7 @@ Eine Liste der vorhandenen Pläne, die Sie erstellt haben, wird im [!DNL Workfro
        </div> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL -Auslastung] %</td> 
+      <td role="rowheader">[!UICONTROL-Auslastung] %</td> 
       <td> 
        <div> 
         <p>Der Prozentsatz der Nutzung zeigt an, wie viele der verfügbaren Aufgabengebiete tatsächlich für die Initiativen im Szenario verwendet (oder erforderlich) werden. </p> 
@@ -341,7 +346,7 @@ Eine Liste der vorhandenen Pläne, die Sie erstellt haben, wird im [!DNL Workfro
 
 1. Klicken Sie auf **[!UICONTROL Anwenden]**, um die Verteilung der monatlichen Aufgabengebiete zu speichern
 
-   Oder
+   ODER
 
    Klicken Sie **[!UICONTROL Abbrechen]**, um die Aufgabengebiet-Verteilerliste zu schließen und zum Szenario zurückzukehren.
 

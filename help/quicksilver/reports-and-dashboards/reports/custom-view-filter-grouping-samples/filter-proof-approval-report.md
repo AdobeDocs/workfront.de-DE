@@ -7,7 +7,9 @@ description: In einem Bericht zu Korrekturabzugsgenehmigungen können Sie den Fi
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e844d3ed-75ee-4a0f-a28c-a3d22f203502
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 13%
@@ -67,10 +69,10 @@ Sie können einen Filter für einen Bericht zu Korrekturabzugsgenehmigungen erst
    <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sarah: Add sub bullets for report creation.</p>
    -->
 
-   Um einen eigenen Bericht zu Korrekturabzugsgenehmigungen zu erstellen, klicken Sie auf das Symbol **Hauptmenü** (Symbol ![&#x200B; Hauptmenü](assets/main-menu-icon.png) in der oberen rechten Ecke oder auf das Symbol **Hauptmenü** ![Hauptmenüzeilen](assets/lines-main-menu.png) in der oberen linken Ecke, falls verfügbar, und klicken Sie dann auf **Berichte** ![Berichte](assets/reports-in-main-menu.png).
+   Um einen eigenen Bericht zu Korrekturabzugsgenehmigungen zu erstellen, klicken Sie auf das Symbol **Hauptmenü** (Symbol ![ Hauptmenü](assets/main-menu-icon.png) in der oberen rechten Ecke oder auf das Symbol **Hauptmenü** ![Hauptmenüzeilen](assets/lines-main-menu.png) in der oberen linken Ecke, falls verfügbar, und klicken Sie dann auf **Berichte** ![Berichte](assets/reports-in-main-menu.png).
 
 1. Klicken Sie **Neuer Bericht**. Die Liste der Objekttypen wird angezeigt.
-1. Klicken Sie **der Liste**&#x200B;Korrekturabzug-Genehmigung“.
+1. Klicken Sie **der Liste**Korrekturabzug-Genehmigung“.
 Report Builder wird geöffnet.
 1. Klicken Sie **Filter** und anschließend auf **Filterregel hinzufügen**.
 

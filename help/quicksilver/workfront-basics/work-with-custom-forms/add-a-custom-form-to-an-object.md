@@ -7,10 +7,12 @@ description: Sie können ein vorhandenes benutzerdefiniertes Formular zu jedem d
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '740'
-ht-degree: 4%
+ht-degree: 10%
 
 ---
 
@@ -51,8 +53,8 @@ Sie können ein benutzerdefiniertes Formular nur zu den Objekttypen hinzufügen,
   </tr> 
 <tr> 
   <td role="rowheader">Adobe Workfront-Lizenz</td> 
-  <td> <p>Mitwirkender oder höher</p>
- <p>Anfrage oder höher</p> 
+  <td> <p>Mitwirkende oder höher</p>
+ <p>Anfragende oder höher</p> 
 </td> 
  </tr> 
   <tr> 
@@ -71,7 +73,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -98,7 +101,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    <td> <p>Manage permissions to the object for which you want to attach a custom form.</p> <p>View or higher permissions to the custom form, with permission to <b>Attach to Custom Data</b> objects (projects, tasks, and issues). For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Share a custom form</a>.</p> <p>Important: If you do not have a Plan license with administrative access to  Custom  Forms, you must have specific permissions to at least view the custom form, as described in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Share a custom form</a>. These permissions must be granted to you even if the form is visible system-wide. </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Voraussetzungen
 
@@ -146,7 +150,8 @@ Sie können bis zu 10 benutzerdefinierte Formulare zu einem bestimmten Objekt hi
 Sie können benutzerdefinierte Formulare mehreren Objekten hinzufügen, indem Sie sie in einer Liste auswählen.
 
 <!--
-drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:-->
+drafted for bulk-editing projects. When it releases to Prod for projects, take "in the preview environment" and the yellow tags out. Add additional objects here in the same way when they become available:
+-->
 
 >[!NOTE]
 >
@@ -160,7 +165,7 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 
 1. Klicken Sie auf das **Mehr**-Menü ![Mehr-](assets/more-icon.png) und dann auf das **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png).
 
-   ODER
+   Oder
 
    Klicken Sie auf **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png) oben in der Liste.
 1. Klicken Sie **linken Bedienfeld** Benutzerdefinierte Forms&quot;.

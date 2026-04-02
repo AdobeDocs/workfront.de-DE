@@ -6,10 +6,12 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 567ab223-b282-4b98-9655-7b9766fba869
-source-git-commit: 7f3ca12d89a2a5fbebc12b3df8a40edbb17d0ead
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1156'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -18,11 +20,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Die Informationen in diesem Artikel beziehen sich auf Adobe Workfront Planning, eine zusätzliche Funktion von Adobe Workfront.
+>Die Informationen in diesem Artikel beziehen sich auf Adobe Workfront-Planung, eine zusätzliche Funktion von Adobe Workfront.
 >
 >Ihr Unternehmen muss über ein Workfront Planning Prime-Paket oder ein höheres Paket verfügen, um die in diesem Artikel empfohlenen Funktionen unterstützen zu können.
 >
->Eine Liste der Anforderungen für den Zugriff auf Workfront Planning finden Sie unter [Zugriffsübersicht für Adobe Workfront Planning](/help/quicksilver/planning/access/access-overview.md).
+>Eine Liste der Anforderungen für den Zugriff auf Workfront-Planung finden Sie unter [Überblick über den Zugriff auf Adobe Workfront-Planung](/help/quicksilver/planning/access/access-overview.md).
 > 
 >Allgemeine Informationen zu Workfront Planning finden Sie unter [Erste Schritte mit Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
@@ -103,9 +105,9 @@ Für Organisationen mit Anfragen mit hohem Volumen oder erweiterten Automatisier
 
 Für diesen Ansatz benötigen Sie eine Lizenz für Adobe Workfront Fusion.
 
-Weitere Informationen finden Sie [Einrichten und Verwalten von Workfront Fusion: Artikelindex](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
+Weitere Informationen finden Sie [Einrichten und Verwalten von Workfront Fusion: Artikelindex](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
 
-* Trigger **Übermittlungsereignisse verwenden** Da Formulare ein einziges, bereinigtes Übermittlungsereignis bieten, können sie als Trigger für Fusion-Automatisierungen verwendet werden. Ein Fusionsszenario kann eine Formularübermittlung erkennen und sofort ein verknüpftes Projekt in Workfront generieren.
+* **Übermittlungsereignisse verwenden** Da Formulare ein einziges, bereinigtes Übermittlungsereignis bieten, können sie als Trigger für Fusion-Automatisierungen verwendet werden. Ein Fusionsszenario kann eine Formularübermittlung erkennen und sofort ein verknüpftes Projekt in Workfront generieren.
 
 * **Feldwert-Trigger verwenden:** Für eine tiefere Automatisierung können Sie Fusion so konfigurieren, dass bestimmte Felder überwacht werden. Beispielsweise kann ein einfaches Kontrollkästchen mit der Bezeichnung „Bereit zur Ausführung“ als Katalysator dienen, der die Brücke automatisch in dem Moment herstellt, in dem sie aktiviert wird.
 
@@ -145,7 +147,8 @@ Indem Sie Absicht mit Handeln verbinden, können Sie wichtige geschäftliche Fra
 
 * **Überbrücken Sie diese Brücke nicht:** Wenn die Arbeit im Workflow-Modul beginnt, ohne dass eine Verknüpfung mit der Planung vorhanden ist, haben Sie einen „Schattenplan“ erstellt, der für Führungskräfte unsichtbar ist.
 
-<!--original content:
+<!--
+original content:
 
 # The Bridge: Connecting Strategic Intent to Projects 
 

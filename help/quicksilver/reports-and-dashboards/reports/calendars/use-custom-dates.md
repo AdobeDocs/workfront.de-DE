@@ -1,12 +1,14 @@
 ---
 product-area: calendars
 navigation-topic: calendars-navigation-topic
-title: Benutzerdefinierte Datumsfelder in einem Kalenderbericht verwenden
-description: Ein Kalenderbericht ist ein dynamischer Bericht, der eine visuelle Darstellung Ihrer Arbeit bietet. Sie können benutzerdefinierte Datumsfelder in einem Kalenderbericht für Aufgaben, Probleme und Projekte verwenden.
+title: Verwenden benutzerdefinierter Datumsfelder in einem Kalenderbericht
+description: Ein Kalenderbericht ist ein dynamischer Bericht, der Ihre Arbeit visuell darstellt. Sie können benutzerdefinierte Datumsfelder in einem Kalenderbericht für Aufgaben, Probleme und Projekte verwenden.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 40cc8628-7641-41ce-b8e5-7f5ed5ad36c7
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '630'
 ht-degree: 9%
@@ -15,7 +17,7 @@ ht-degree: 9%
 
 # Verwenden benutzerdefinierter Datumsfelder in einem Kalenderbericht
 
-Ein [!UICONTROL Kalender]-Bericht ist ein dynamischer Bericht, der eine visuelle Darstellung Ihrer Arbeit bietet. Sie können benutzerdefinierte Datumsfelder in einem Kalenderbericht für die folgenden Objekte verwenden:
+Ein [!UICONTROL Kalenderbericht] ist ein dynamischer Bericht, der Ihre Arbeit visuell darstellt. Sie können benutzerdefinierte Datumsfelder in einem Kalenderbericht für die folgenden Objekte verwenden:
 
 * Aufgaben
 * Probleme
@@ -58,15 +60,15 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 ## Voraussetzungen
 
 1. Sie müssen über benutzerdefinierte Datumsfelder und einen -Wert innerhalb des -Felds in Ihrer [!DNL Workfront] verfügen. Wenn Sie kein benutzerdefiniertes Formular mit benutzerdefinierten Datumsangaben eingerichtet haben, befolgen Sie die Anweisungen in [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-1. Hängen Sie das benutzerdefinierte Formular an ein Projekt, eine Aufgabe oder ein Problem an, das/das Sie dem Kalender hinzufügen möchten, und geben Sie ein Datum an. Weitere Informationen finden Sie unter [Benutzerdefiniertes Formular zu einem Objekt hinzufügen](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+1. Hängen Sie das benutzerdefinierte Formular an ein Projekt, eine Aufgabe oder ein Problem an, das/das Sie dem Kalender hinzufügen möchten, und geben Sie ein Datum an. Weitere Informationen finden Sie unter [Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
-## Gruppe von Elementen einrichten
+## Elementgruppe einrichten
 
-Sie können festlegen, wie die Elementgruppe im Kalender angezeigt werden soll.
+Sie können festlegen, wie die Gruppe von Elementen in Ihrem Kalender angezeigt werden soll.
 
 {{step1-to-calendars}}
 
-1. Wählen Sie den Kalender aus, dem Sie eine neue Gruppe von Elementen hinzufügen möchten, klicken Sie auf das Menü &quot;Mehr&quot; und dann auf **Bearbeiten**.
+1. Wählen Sie den Kalender aus, dem Sie eine neue Gruppe von Elementen hinzufügen möchten, klicken Sie auf das Menü Mehr und dann **Bearbeiten**.
 oder
 Klicken Sie auf **[!UICONTROL + Neuer]**, geben Sie den Projektnamen ein und klicken Sie dann auf **[!UICONTROL Erweiterte Elemente hinzufügen]**.
 
@@ -89,12 +91,12 @@ Klicken Sie auf **[!UICONTROL + Neuer]**, geben Sie den Projektnamen ein und kli
       <td>Wählen Sie eine Farbe für die Gruppe von Elementen. Alle Elemente werden im Kalenderbericht in der ausgewählten Farbe angezeigt.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL -Datumsfeld]</strong></td>
+      <td role="rowheader"><strong>[!UICONTROL Datumsfeld]</strong></td>
       <td>Wählen Sie <strong>[!UICONTROL Benutzerdefinierte Daten]</strong>.<br></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Im Kalender, show]</strong></td>
-      <td><p>Legen Sie fest, wie die Daten angezeigt werden sollen:</p>
+      <td role="rowheader"><strong>[!UICONTROL Im Kalender, anzeigen]</strong></td>
+      <td><p>Wählen Sie aus, wie die Daten angezeigt werden sollen:</p>
        <ul>
         <li><strong>[!UICONTROL Einzeldatum]</strong>: Der Kalender zeigt das Objekt an einem einzelnen Datum an.</li>
         <li><strong>[!UICONTROL Duration] (Anfang bis Ende)</strong>: Der Kalender zeigt das Objekt über einen Zeitraum von Tagen an.<br><p>Hinweis: Wenn Sie <strong>[!UICONTROL Duration]</strong> auswählen, muss das angegebene Enddatum nach dem Startdatum liegen, da das Element sonst nicht im Kalender angezeigt wird.</p></li>
@@ -109,20 +111,20 @@ Klicken Sie auf **[!UICONTROL + Neuer]**, geben Sie den Projektnamen ein und kli
 
 1. Fahren Sie mit dem folgenden Abschnitt fort.
 
-### Objekte zur Gruppe von Elementen hinzufügen
+### Hinzufügen von Objekten zur Gruppe von Elementen
 
-Nachdem Sie festgelegt haben, wie Elemente angezeigt werden sollen, müssen Sie die Objekte, die Sie im Kalender anzeigen möchten, der Gruppierung hinzufügen.
+Nachdem Sie eingerichtet haben, wie Elemente angezeigt werden sollen, müssen Sie die Objekte, die im Kalender angezeigt werden sollen, zur Gruppierung hinzufügen.
 
-1. In der **[!UICONTROL Was möchten Sie dem Kalender hinzufügen?Abschnitt]**, wählen Sie
+1. Im **[!UICONTROL Was möchten Sie dem Kalender hinzufügen?]** Sie den Abschnitt aus.
 
    * **[!UICONTROL Aufgaben]**
    * **[!UICONTROL Projekte]**
    * **[!UICONTROL Probleme]**
 
-1. Klicken Sie auf **[!UICONTROL Aufgaben hinzufügen]**, **[!UICONTROL Projekte hinzufügen]**, **[!UICONTROL Probleme hinzufügen]** oder **Zeit frei**, je nachdem, welchen Objekttyp Sie dem Kalender hinzufügen.
+1. Klicken Sie auf **[!UICONTROL Aufgaben hinzufügen]**, **[!UICONTROL Projekte hinzufügen]**, **[!UICONTROL Probleme hinzufügen]** oder **Urlaub** je nach Objekttyp, den Sie dem Kalender hinzufügen.
 
-1. Beginnen Sie im Dropdown-Menü mit der Eingabe des Feldnamens, und wählen Sie dann die Feldquelle des Objekts aus, das im Kalender angezeigt werden soll (z. B. **[!UICONTROL Verspätete Aufgaben]**).
-1. Legen Sie eine Bedingungsanweisung für die Kalendergruppierung fest.
+1. Geben Sie im Dropdown-Menü den Feldnamen ein und wählen Sie dann die Feldquelle des Objekts aus, das Sie im Kalender anzeigen möchten (z. B. **[!UICONTROL Aufgaben]**).
+1. Eine Bedingungsanweisung für die Kalendergruppierung festlegen.
 
 
    Informationen zum Festlegen von Bedingungen finden Sie unter [Filter und Bedingungsmodifikatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).

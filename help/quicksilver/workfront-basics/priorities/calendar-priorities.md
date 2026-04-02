@@ -1,19 +1,21 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Arbeiten im Prioritätskalender verwalten
+title: Verwalten Ihrer Arbeiten im Prioritätenkalender
 description: Verfolgen Sie Ihre Arbeit mit einem klaren, visuellen Kalender.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
-source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 4%
+ht-degree: 11%
 
 ---
 
-# Arbeiten im Prioritätskalender verwalten
+# Verwalten Ihrer Arbeiten im Prioritätenkalender
 
 Verfolgen Sie Ihre Arbeit einfach mit einem klaren, visuellen Kalender. Mit dem Prioritätskalender können Sie
 
@@ -28,7 +30,7 @@ Verfolgen Sie Ihre Arbeit einfach mit einem klaren, visuellen Kalender. Mit dem 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -152,7 +154,7 @@ Mit Priorität werden die Ihnen zugewiesenen Arbeitselemente angezeigt. Sie kön
    ![Kalendersymbol](assets/calendar-tab.png)
 1. Klicken Sie auf **Einstellungen** in der rechten Ecke des Kalenders.
 
-1. Wählen Sie auf **Registerkarte**&#x200B;Balkenstil) bis zu 5 Felder aus, die auf der Arbeitsaufgabenleiste im Kalender angezeigt werden sollen.
+1. Wählen Sie auf **Registerkarte**Balkenstil) bis zu 5 Felder aus, die auf der Arbeitsaufgabenleiste im Kalender angezeigt werden sollen.
    ![Musterleiste](assets/sample-task-for-field-config.png)
 
 1. Wählen Sie auf **Registerkarte** Farbe“ aus, wie Ihre Arbeitselemente angezeigt werden sollen. Wenn Sie beispielsweise **Projekt** auswählen, werden Ihre Arbeitselemente entsprechend der Farbe angezeigt, die dem Projekt in der Arbeitsliste zugewiesen wurde.

@@ -2,36 +2,38 @@
 product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: Konfigurieren von Kanban
-description: Sie können die folgenden Optionen für Kanban Agile-Teams während oder nach der Erstellung des Teams konfigurieren.
+description: Sie können die folgenden Optionen für agile Kanban-Teams während oder nach der Erstellung des Teams konfigurieren.
 author: Courtney
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1484'
 ht-degree: 4%
 
 ---
 
-# [!UICONTROL Kanban] konfigurieren
+# Konfigurieren von [!UICONTROL Kanban]
 
 <!--Audited: 12/2023-->
 
-Sie können ein agiles Team in [!DNL Adobe Workfront] erstellen, wie in [Ein agiles Team erstellen](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md) beschrieben. Beim Erstellen eines agilen Teams können Sie die Methodik auswählen, die das Team zum Abschließen seiner Arbeit verwendet. Sie können zwischen den folgenden Optionen wählen:
+Sie können ein Agile-Team in [!DNL Adobe Workfront] erstellen, wie in [Erstellen eines Agile-Teams](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md) beschrieben. Beim Erstellen eines agilen Teams können Sie die Methodik auswählen, die das Team verwendet, um seine Arbeit abzuschließen. Sie können aus den folgenden Optionen wählen:
 
 * Scrum
 * Kanban
 
-In diesem Artikel wird beschrieben, wie Sie die Einstellungen für ein Kanban-Team konfigurieren. Nachdem Sie ein agiles Team erstellt und die Kanban-Methode ausgewählt haben, können Sie in diesem Artikel die folgenden Einstellungen aktualisieren:
+In diesem Artikel wird beschrieben, wie Sie die Einstellungen für ein Kanban-Team konfigurieren. Nachdem Sie ein Agile-Team erstellt und die Kanban-Methode ausgewählt haben, können Sie diesen Artikel lesen, um die folgenden Einstellungen zu aktualisieren:
 
-* Gibt an, ob Geschichten in Punkten oder Stunden geschätzt werden.
-* Die Statusspalten auf dem agilen Storyboard
-* Zusätzliche Felder, die auf Story Cards auf dem agilen Storyboard angezeigt werden sollen
-* Grenzwert für die laufende Arbeit (WIP)
+* Ob Geschichten in Punkten oder Stunden geschätzt werden
+* Die Statusspalten im Agile-Story-Board
+* Zusätzliche Felder zur Anzeige auf Story-Karten im Agile-Story-Board
+* Das Limit für laufende Arbeiten (Work In Progress, WIP)
 * Automatisches Hinzufügen von Storys aus dem Rückstand
 * Wie lange Karten auf dem Kanban-Board bleiben
 
-Informationen zum Konfigurieren eines Scrum-Teams finden Sie unter [Scrum konfigurieren](../get-started-with-agile-in-workfront/configure-scrum.md).
+Informationen zum Konfigurieren eines Scrum-Teams finden Sie unter [Konfigurieren von Scrum](../get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Zugriffsanforderungen
 
@@ -80,13 +82,13 @@ So konfigurieren Sie, wie Storys für Ihr Agile-Team geschätzt werden:
 
    ![Team bearbeiten](assets/edit-team-settings-350x205.png)
 
-1. Wählen Sie im Abschnitt **[!UICONTROL Agile]** im Bereich **[!UICONTROL Geschichten schätzen in]** aus, ob Sie Punkte oder Stunden für die Schätzung der Größe (Arbeitslast) von Geschichten verwenden möchten. Wenn Sie Punkte auswählen, geben Sie an, wie viele Stunden 1 Punkt entsprechen sollen. (Der Standardwert ist 1 Punkt = 8 Stunden.) Dies ist die Anzahl der geplanten Stunden, die der Story hinzugefügt werden.
+1. Wählen Sie im Abschnitt **[!UICONTROL Agile]** im Bereich **[!UICONTROL Geschichten schätzen in]** aus, ob Sie Punkte oder Stunden für die Schätzung der Größe (Arbeitslast) von Geschichten verwenden möchten. Wenn Sie Punkte wählen, geben Sie an, wie viele Stunden 1 Punkt entsprechen. (Der Standardwert ist 1 Punkt = 8 Stunden.) Dies ist die Anzahl der geplanten Stunden, die der Story hinzugefügt werden.
 
-   **Beispiel:** Wenn Sie Geschichten in Punkten und 1 Punkt 8 Stunden schätzen möchten und eine Geschichte auf 3 Punkte geschätzt wird, werden der Geschichte 24 geplante Stunden hinzugefügt.
+   **Beispiel** Wenn Sie ausgewählt haben, dass Geschichten in Punkten geschätzt werden sollen, und 1 Punkt 8 Stunden entspricht und ein Geschoss auf 3 Punkte geschätzt wird, werden dem Geschoss 24 geplante Stunden hinzugefügt.
 
 1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
 
-## Konfigurieren von Statusspalten auf dem agilen Storyboard
+## Konfigurieren von Statusspalten im Agile-Story-Board
 
 Sie können die Status definieren, die im Story Board für das Agile-Team vorhanden sind. Dies sind die einzigen Status, die auf dem Storyboard angezeigt werden.
 
@@ -101,20 +103,20 @@ So definieren Sie die Status, die für das mit dem Agile-Team verknüpfte Story 
 
    ![Team bearbeiten](assets/edit-team-settings-350x205.png)
 
-1. Suchen Sie im Abschnitt **[!UICONTROL Agile]** den Bereich **[!UICONTROL Story Board]**.
+1. Suchen Sie im Abschnitt **[!UICONTROL Agile]** den Bereich **[!UICONTROL Story Board]** .
 
 1. (Optional) Klicken Sie auf **[!UICONTROL Spalte hinzufügen]**, um dem Storyboard eine zusätzliche Statusspalte hinzuzufügen.
-1. (Optional) Ziehen Sie eine beliebige Statusspalte mithilfe der Drag-and-Drop-Anzeige, um die Statusspalten auf dem Storyboard neu anzuordnen. Die erste Spalte kann nicht verschoben werden und Sie können keine weitere Spalte vor die erste Spalte ziehen.
+1. (Optional) Ziehen Sie eine beliebige Statusspalte mit der Drag-and-Drop-Anzeige, um die Statusspalten auf dem Storyboard neu anzuordnen. Die erste Spalte kann nicht verschoben werden und Sie können keine weitere Spalte vor die erste Spalte ziehen.
 
-   ![Ziehen und Ablegen](assets/agile-story-card-drag-and-drop.png)
+   ![Drag-and-Drop](assets/agile-story-card-drag-and-drop.png)
 
 1. Aufgabenstatus auswählen.
 
    >[!IMPORTANT]
    >
-   >Es sind nur gesperrte systemweite Status zur Auswahl verfügbar. Gruppenspezifische Status können nicht ausgewählt werden. Der Status der ersten Spalte entspricht immer **[!UICONTROL Neu]**.
+   >Es stehen nur gesperrte systemweite Status zur Auswahl. Gruppenspezifische Status können nicht ausgewählt werden. Der Status der ersten Spalte entspricht immer **[!UICONTROL Neu]**.
 
-   Sie können benutzerdefinierte Status hinzufügen, wenn sie von Ihrem [!DNL Workfront]-Administrator konfiguriert wurden. Weitere Informationen finden Sie unter [Status erstellen oder bearbeiten](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+   Sie können benutzerdefinierte Status hinzufügen, wenn sie von Ihrem [!DNL Workfront] konfiguriert wurden. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten eines Status](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
 
@@ -129,55 +131,55 @@ Standardmäßig werden die folgenden Datentypen auf der Story-Karte für Aufgabe
 * Dieser Link wird nur für Storys angezeigt, nicht für Teilaufgaben
 * Die Aufgaben- oder Problembeschreibung
 * Laufende Mittelbindung
-* Sie können den Prozentwert der abgeschlossenen Arbeit anzeigen und bearbeiten, indem Sie entweder den Prozentwert der abgeschlossenen Arbeit selbst oder die Anzahl der abgeschlossenen Punkte oder Stunden anpassen
+* Sie können den abgeschlossenen Prozentsatz anzeigen und bearbeiten, indem Sie entweder den abgeschlossenen Prozentsatz selbst oder die Anzahl der abgeschlossenen Punkte oder Stunden anpassen
 * Zugewiesene Benutzer
 
-Sie können zusätzliche Daten (einschließlich benutzerdefinierter Daten) auf Story Cards anzeigen. Sie können aus einer Reihe von Gründen zusätzliche Felder auf Storykarten anzeigen. Sie können z. B. die Kunden-ID anzeigen, wenn Sie an Storys für mehrere Kunden innerhalb der Iteration arbeiten, oder Sie möchten das Projektstartdatum oder das Projektfertigstellungsdatum anzeigen.
+Sie können zusätzliche Daten (einschließlich benutzerdefinierter Daten) auf Story-Karten anzeigen. Möglicherweise möchten Sie aus verschiedenen Gründen zusätzliche Felder auf Story-Karten anzeigen. Beispielsweise können Sie die Kunden-ID anzeigen, wenn Sie an Storys für mehrere Kunden innerhalb der Iteration arbeiten, oder Sie möchten das Projektstartdatum oder das Projektabschlussdatum anzeigen.
 
 >[!NOTE]
 >
->Wenn Sie ein benutzerdefiniertes Feld auf einer Textabschnittskarte verwenden, darf es keinen Punkt (Punkt) im Namen enthalten.
+>Wenn Sie ein benutzerdefiniertes Feld auf einer Story-Karte verwenden, darf es keinen Punkt (oder Punkt) im Namen enthalten.
 
-So konfigurieren Sie Storycards, die dem agilen Team zugewiesen sind, um zusätzliche Felder anzuzeigen:
+So konfigurieren Sie Story-Karten, die dem Agile-Team zugewiesen sind, um zusätzliche Felder anzuzeigen:
 
 {{step1-to-team}}
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Teams wechseln]** ![Teams wechseln](assets/switch-team-icon.png). Wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
+1. Klicken Sie auf **[!UICONTROL Team wechseln]**-Symbol ![Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
-1. Wählen Sie das agile Team aus, das Sie verwalten möchten.
-1. Klicken Sie auf das Menü **[!UICONTROL Mehr]** und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
+1. Wählen Sie das Agile-Team aus, das Sie verwalten möchten.
+1. Klicken Sie auf das **[!UICONTROL Mehr]**-Menü und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
 
    ![Team bearbeiten](assets/edit-team-settings-350x205.png)
 
-1. Geben Sie im Abschnitt **[!UICONTROL Agile]** einen Feldnamen ein, um nach diesem zu suchen.
+1. Geben Sie im Abschnitt **[!UICONTROL Agile]** einen Feldnamen ein, um es zu finden.
 
    ![Zusätzliche Felder](assets/agile-additional-fields-kanban.png)
 
 1. Wählen Sie den Namen des Felds aus, das Sie hinzufügen möchten.
-1. Geben Sie den **[!UICONTROL Anzeigenamen]** für das Feld ein, das auf dem Textabschnitt oder der Problemkarte angezeigt werden soll.
+1. Geben Sie den **[!UICONTROL Anzeigenamen]** für das Feld ein, das auf der Story- oder Problemkarte angezeigt werden soll.
 1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
 
-## Konfigurieren Sie das Limit für &quot;In Bearbeitung&quot; (WIP)
+## Konfigurieren Sie das Work In Progress (WIP)-Limit.
 
-Wenn Sie das WIP-Limit für ein Kanban-Team definieren, können Sie die Anzahl der Elemente steuern, an denen das Team gerade arbeitet, indem Sie die Anzahl der Aufgaben begrenzen, die in der Spalte [!UICONTROL Neu] oder [!UICONTROL In Bearbeitung] auf dem [!UICONTROL Kanban]-Dashboard angezeigt werden können.
+Wenn Sie die Fertigungsgrenze eines Kanban-Teams definieren, können Sie die Anzahl der Elemente steuern, an denen das Team derzeit arbeitet, indem Sie die Anzahl der Aufgaben begrenzen, die in der Spalte [!UICONTROL Neu] oder [!UICONTROL In Bearbeitung] auf der [!UICONTROL Kanban]-Pinnwand angezeigt werden können.
 
-Nachdem Sie das WIP-Limit für ein Kanban-Team konfiguriert haben, können Sie das WIP-Limit anzeigen und vom [!UICONTROL Kanban] Agile Storyboard aktualisieren, wie in [Verwalten des WIP-Limit (Work in Progress) für das [!UICONTROL Kanban]-Board](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md) beschrieben.
+Nachdem Sie die WIP-Beschränkung für ein Kanban-Team konfiguriert haben, können Sie die WIP-Beschränkung anzeigen und im Agile-Story-Board von [!UICONTROL Kanban] aktualisieren, wie in [Verwalten der Work In Progress (WIP)-Beschränkung auf dem [!UICONTROL Kanban]-Board](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md) beschrieben.
 
-So beschränken Sie die Fertigung für Ihr Kanban-Team:
+So beschränken Sie den laufenden Arbeitsaufwand für Ihr Kanban-Team:
 
 {{step1-to-team}}
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Teams wechseln]** ![Teams wechseln](assets/switch-team-icon.png). Wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
+1. Klicken Sie auf **[!UICONTROL Team wechseln]**-Symbol ![Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
 1. Wählen Sie das Kanban-Team aus, das Sie verwalten möchten.
-1. Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-menu.png) und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
+1. Klicken Sie auf die **** Mehr![](assets/more-menu.png) und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
 
    ![Team bearbeiten](assets/edit-team-settings-350x205.png)
 
 1. Stellen Sie **[!UICONTROL Abschnitt]** Agile“ im Abschnitt **[!UICONTROL Methodik]** sicher, dass Kanban ausgewählt ist.
 
 1. Geben Sie im Abschnitt **[!UICONTROL Storyboard]** im Feld **[!UICONTROL WIP-Limit]** die maximale Anzahl von Elementen an, die in jeder Spalte des Agile-Storyboards [!UICONTROL Kanban] zulässig ist. Sie können für jede Spalte ein anderes Limit festlegen. Die maximale Begrenzung, die Sie für jede Spalte festlegen können, beträgt 100.
-Wenn dieser Wert festgelegt ist, wird beim Überschreiten des Grenzwerts für jede Spalte [!UICONTROL &#x200B; Story Board eine Warnmeldung auf dem &#x200B;]-Board (Kanban) angezeigt. Diese Warnmeldung wird nur angezeigt, wenn das WIP-Limit zum ersten Mal überschritten wird. Diese Warnmeldung wird nicht in Spalten angezeigt, deren Status mit &quot;[!UICONTROL &quot; &#x200B;].
+Wenn dieser Wert festgelegt ist, wird beim Überschreiten des Grenzwerts für jede Spalte [!UICONTROL  Story Board eine Warnmeldung auf dem ]-Board (Kanban) angezeigt. Diese Warnmeldung wird nur angezeigt, wenn das WIP-Limit zum ersten Mal überschritten wird. Diese Warnmeldung wird nicht in Spalten angezeigt, deren Status mit &quot;[!UICONTROL &quot; ].
 Die WIP-Beschränkung ist lediglich eine visuelle Warnung und hindert Ihr Team nicht daran, mehr Elemente in einer Spalte als die von Ihnen festgelegte Beschränkung zu haben.
 
    ![WIP-Limit](assets/wip-limit-350x193.png)
@@ -192,10 +194,10 @@ Sie können Storys aus dem Rückstand so konfigurieren, dass sie automatisch der
 
 {{step1-to-team}}
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Teams wechseln]** ![Teams wechseln](assets/switch-team-icon.png). Wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
+1. Klicken Sie auf **[!UICONTROL Team wechseln]**-Symbol ![Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
 1. Wählen Sie das Kanban-Team aus, das Sie verwalten möchten.
-1. Klicken Sie auf das Menü **[!UICONTROL Mehr]** ![](assets/more-menu.png) und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
+1. Klicken Sie auf die **** Mehr![](assets/more-menu.png) und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
 
    ![Team bearbeiten](assets/edit-team-settings-350x205.png)
 
@@ -208,9 +210,9 @@ Wenn die Story mit der höchsten Priorität aus dem Rückstand hinzugefügt wird
 
 1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
 
-## Konfigurieren Sie, wie lange Karten auf der Kanban[!UICONTROL Pinnwand &#x200B;] bleiben
+## Konfigurieren Sie, wie lange Karten auf der Kanban[!UICONTROL Pinnwand ] bleiben
 
-Sie können auswählen, wie lange ausgefüllte Karten auf der [!UICONTROL Kanban]-Pinnwand bleiben. Aufgaben, die vom Kanban[!UICONTROL Board &#x200B;], können weiterhin im ursprünglichen Projekt aufgerufen werden.
+Sie können auswählen, wie lange ausgefüllte Karten auf der [!UICONTROL Kanban]-Pinnwand bleiben. Aufgaben, die vom Kanban[!UICONTROL Board ], können weiterhin im ursprünglichen Projekt aufgerufen werden.
 
 {{step1-to-team}}
 
@@ -222,5 +224,5 @@ Sie können auswählen, wie lange ausgefüllte Karten auf der [!UICONTROL Kanban
 
 1. Wählen Sie im Dropdown-Menü **[!UICONTROL Anzahl der Tage, die die abgeschlossenen Karten auf dem Kanban]** Board bleiben, einen Wert aus.
 
-   Sie können eine Zahl zwischen 1 und 30 Tagen wählen.
+   Sie können eine Zahl zwischen 1 und 30 Tagen auswählen.
 1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.

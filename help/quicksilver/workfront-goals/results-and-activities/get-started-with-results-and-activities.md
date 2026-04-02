@@ -7,10 +7,12 @@ description: Sie müssen einem Ziel Ergebnisse, Aktivitäten oder abgestimmte Zi
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 3%
+ht-degree: 12%
 
 ---
 
@@ -20,13 +22,14 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->Ihr Unternehmen könnte sich dafür entscheiden, weiterhin Adobe Workfront Goals zu verwenden, wenn es dieses Paket in der Vergangenheit gekauft hat. Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer.
+>Ihr Unternehmen kann sich dafür entscheiden, Adobe Workfront Goals weiterhin zu verwenden, wenn es dieses Paket in der Vergangenheit erworben hat. Weitere Informationen erhalten Sie bei Ihrer Kundenbetreuung.
 >
 >Adobe Workfront Goals ist nicht mehr erhältlich.
 >
->Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Weitere Informationen zum Zugriff auf Workfront Goals finden Sie unter [Voraussetzungen für die Verwendung von Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-<!--Old:
+<!--
+Old:
 
 >[!IMPORTANT]
 >
@@ -43,7 +46,8 @@ ht-degree: 3%
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   -->
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
 
 Wenn Sie ein Ziel erstellen, hat das Ziel den Status Entwurf . Informationen zum Erstellen von Zielen finden Sie unter [Erstellen von Zielen in Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
 
@@ -86,7 +90,7 @@ Beachten Sie beim Arbeiten mit Ergebnissen Folgendes:
 
 Weitere Informationen zu den Ergebnissen finden Sie in der Liste der Ähnlichkeiten zwischen Ergebnissen und Aktivitäten im Abschnitt [Ähnlichkeiten zwischen Ergebnissen, Aktivitäten und Projekten](#similarities-between-results-activities-and-projects) in diesem Artikel.
 
-## Aktivitätsübersicht
+## Überblick über Aktivitäten
 
 <!--
 This will have additional types in the future - add another section for types?
@@ -201,7 +205,7 @@ In der folgenden Tabelle werden Ähnlichkeiten und Unterschiede zwischen Ergebni
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
-  <tr> **&#x200B;**
+  <tr> ****
    <td>Sie bieten eine Reihe von Werten zwischen den Start- und Endwerten, die veranschaulichen, wie nahe Sie am Erreichen sind. Die Nähe zum Endwert berechnet einen Fortschrittswert für Ihr Ziel. </td> 
    <td>✔</td> 
    <td>✔</td> 

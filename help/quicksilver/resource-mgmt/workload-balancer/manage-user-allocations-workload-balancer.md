@@ -6,14 +6,16 @@ description: Als Ressourcen-Manager können Sie Benutzern Arbeit zuweisen und ih
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2864'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Verwalten von Benutzerzuweisungen im Workload Balancer
+# Verwalten von Benutzerzuordnungen im Workload Balancer
 
 <!-- Audited: 01/2024 -->
 
@@ -21,7 +23,7 @@ Als Ressourcen-Manager können Sie Benutzern Arbeit zuweisen und ihre täglichen
 
 ## Zugriffsanforderungen {#access-requirements}
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,12 +51,12 @@ Als Ressourcen-Manager können Sie Benutzern Arbeit zuweisen und ihre täglichen
   </tr> 
   <tr> 
    <td>Objektberechtigungen</td> 
-   <td> <p>Tragen Sie Berechtigungen oder höher bei, die Zuweisungen an die Aufgaben und Probleme enthalten, für die Sie Zuweisungen verwalten möchten. </p> <p>Oder </p> <p>Verwalten Sie zusätzlich zur Aktualisierung der Zuweisungen Berechtigungen für die Aufgaben, für die Sie die geplanten Stunden aktualisieren möchten. Informationen zum Aktualisieren der geplanten Stunden im Workload Balancer finden Sie im Abschnitt <a href="#update-task-planned-hours-when-managing-user-allocations">Aktualisieren der geplanten Stunden bei der Verwaltung </a> Benutzerzuweisungen) in diesem Artikel.</p> </td> 
+   <td> <p>Tragen Sie Berechtigungen oder höher bei, die Zuweisungen an die Aufgaben und Probleme enthalten, für die Sie Zuweisungen verwalten möchten. </p> <p>ODER </p> <p>Verwalten Sie zusätzlich zur Aktualisierung der Zuweisungen Berechtigungen für die Aufgaben, für die Sie die geplanten Stunden aktualisieren möchten. Informationen zum Aktualisieren der geplanten Stunden im Workload Balancer finden Sie im Abschnitt <a href="#update-task-planned-hours-when-managing-user-allocations">Aktualisieren der geplanten Stunden bei der Verwaltung </a> Benutzerzuweisungen) in diesem Artikel.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -68,13 +70,14 @@ In diesem Artikel wird beschrieben, wie Sie die täglichen, wöchentlichen oder 
 
 Sie können die Benutzerzuordnung im Workload-Balancer als Stunden oder als Prozentwert anzeigen. Sie können Stunden oder Prozentsätze anpassen.
 
-Benutzerzuweisungen sind in der Anzahl der geplanten Stunden eines Arbeitselements enthalten. Informationen zu den geplanten Stunden finden Sie unter [Übersicht über die geplanten Stunden](../../manage-work/tasks/task-information/planned-hours.md).
+Benutzerzuweisungen sind in der Anzahl der geplanten Stunden eines Arbeitselements enthalten. Informationen zu den geplanten Stunden finden Sie unter [Überblick über geplante Stunden](../../manage-work/tasks/task-information/planned-hours.md).
 
 Die für die Aufgabe geplanten Stunden werden für den Benutzer, der der Aufgabe zugewiesen ist, gleichmäßig auf alle Tage innerhalb der Aufgabendauer verteilt. Wenn eine Aufgabe beispielsweise eine Dauer von 5 Tagen und insgesamt 10 geplanten Stunden hat, beträgt die Anzahl der täglichen Zuweisungen für die Aufgabe 2 Stunden. Die wöchentliche Zuteilung beträgt 10 Stunden. Das bedeutet, dass ein(e) Benutzende(r) zwei Stunden pro Tag für die Arbeit an der Aufgabe zugewiesen ist. Sie können jedoch die tägliche Zuordnung für den Benutzer manuell über den Workload-Balancer ändern.
 
 >[!CAUTION]
 >
->Der Workload Balancer zeigt nur <!--up to 1000 Planned Hours per work item per user, and--> bis zu 1.000 Tage der Dauer eines Elements an. Die Zuweisungen im Workload Balancer werden als Null angezeigt, nachdem das Limit von 1.000 Tagen erreicht wurde. Es wird empfohlen, Aufgaben in kleinere Teilaufgaben <!--to accommodate a larger number of Planned Hours or--> für eine Dauer von mehr als 1000 Tagen zu unterteilen.
+>Der Workload Balancer zeigt nur <!--up to 1000 Planned Hours per work item per user, and--> bis zu 1.000 Tage der Dauer eines Elements an. Die Zuweisungen im Workload Balancer werden als Null angezeigt, nachdem das Limit von 1.000 Tagen erreicht wurde. Es wird empfohlen, Aufgaben für eine Dauer von mehr als 1000 Tagen in kleinere Teilaufgaben zu unterteilen.
+<!--to accommodate a larger number of Planned Hours or-->
 
 Beachten Sie Folgendes, wenn Sie im Workload Balancer tägliche, wöchentliche oder monatliche Zuweisungen für Aufgaben oder Probleme finden:
 
@@ -206,13 +209,13 @@ Im Rahmen der Zuweisung von Arbeit zu Benutzenden können Sie Benutzerzuweisunge
 
       >[!NOTE]
       >
-      >Der Workfront-Administrator entscheidet, welcher Zeitplan für die Berechnung der Benutzerkapazität im gesamten System im Bereich Ressourcenverwaltung unter „Setup“ verwendet werden soll. Weitere Informationen finden Sie unter [Voreinstellungen für die Ressourcenverwaltung konfigurieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+      >Der Workfront-Administrator entscheidet, welcher Zeitplan für die Berechnung der Benutzerkapazität im gesamten System im Bereich Ressourcenverwaltung unter „Setup“ verwendet werden soll. Weitere Informationen finden Sie unter [Konfigurieren von Voreinstellungen für das Ressourcen-Management](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 1. Klicken Sie auf das **Mehr** Menü ![Mehr](assets/qs-more-menu.png) für ein Arbeitselement und dann auf **Zuweisungen bearbeiten**.
 
    ![Mehr Menü für Arbeitselement](assets/more-menu-on-task-wb-nwe.png)
 
-   Oder
+   ODER
 
    Doppelklicken Sie auf den Tag, die Woche oder den Monat in der Leiste einer Aufgabe oder eines Problems.
 
@@ -243,7 +246,7 @@ Im Rahmen der Zuweisung von Arbeit zu Benutzenden können Sie Benutzerzuweisunge
 
      ![Sperrsymbol](assets/lock-icon-on-simple-task-in-the-balancer.png)
 
-   Weitere Informationen zu den Bedingungen, die erfüllt sein müssen, um die geplanten Stunden im Workload Balancer zu aktualisieren, finden Sie im Abschnitt [Aktualisieren der geplanten Stunden bei der Verwaltung &#x200B;](#update-task-planned-hours-when-managing-user-allocations) Benutzerzuweisungen) in diesem Artikel. Informationen zu den Aufgabendauer-Typen finden Sie [Übersicht über die Aufgabendauer und den &#x200B;](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)).
+   Weitere Informationen zu den Bedingungen, die erfüllt sein müssen, um die geplanten Stunden im Workload Balancer zu aktualisieren, finden Sie im Abschnitt [Aktualisieren der geplanten Stunden bei der Verwaltung ](#update-task-planned-hours-when-managing-user-allocations) Benutzerzuweisungen) in diesem Artikel. Informationen zu den Aufgabendauer-Typen finden Sie [Übersicht über die Aufgabendauer und den ](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)).
 
 1. (Bedingt) Wenn die Aufgabe mehr als einem Benutzer zugewiesen ist, wiederholen Sie diese Schritte für jeden Benutzer, der der Aufgabe zugewiesen ist, um die Zuordnungen für jeden Benutzer zu aktualisieren.
 
@@ -273,7 +276,7 @@ Dies ist möglich, wenn die folgenden Bedingungen vorliegen:
    * Verwalten Sie die Berechtigungen für die Aufgaben.
    * Aktualisieren Sie die geplanten Stunden im Zugriff auf den Workload Balancer im Bereich „Ressourcenverwaltung“ Ihrer Zugriffsebene.
 
-  Weitere Informationen zum Zugriff, der für die Verwendung des Workload Balancer erforderlich ist, finden Sie [&#x200B; Abschnitt &quot;](#access-requirements)&quot; in diesem Artikel.
+  Weitere Informationen zum Zugriff, der für die Verwendung des Workload Balancer erforderlich ist, finden Sie [ Abschnitt &quot;](#access-requirements)&quot; in diesem Artikel.
 
 * Die Aufgabe hat den Dauertyp „Einfach“.
 

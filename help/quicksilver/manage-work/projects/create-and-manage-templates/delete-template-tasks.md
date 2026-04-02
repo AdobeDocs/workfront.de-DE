@@ -7,14 +7,16 @@ description: Sie können Vorlagenaufgaben löschen, wenn sie nicht mehr benötig
 author: Alina
 feature: Work Management
 exl-id: dd733e9f-8045-4b65-828b-fe6aa40d973f
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '275'
-ht-degree: 2%
+ht-degree: 13%
 
 ---
 
-# Vorlagenaufgabe löschen
+# Löschen einer Vorlagenaufgabe
 
 Sie können Vorlagenaufgaben löschen, wenn sie nicht mehr benötigt werden. Aus der Vorlagenaufgabe erstellte Projektaufgaben werden nicht gelöscht oder geändert.
 
@@ -25,7 +27,7 @@ Sie können Vorlagenaufgaben löschen, wenn sie nicht mehr benötigt werden. Aus
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,7 +57,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -79,9 +82,10 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    <td> <p>Manage permissions for a template.</p> <p>You cannot share a template task.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
-## Vorlagenaufgabe löschen
+## Löschen einer Vorlagenaufgabe
 
 Sie können eine oder mehrere Vorlagenaufgaben stapelweise löschen.
 

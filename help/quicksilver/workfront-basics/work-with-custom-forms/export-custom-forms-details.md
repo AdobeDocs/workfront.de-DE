@@ -4,14 +4,16 @@ description: Sie können die Übersicht und die benutzerdefinierten Formularinfo
 author: Alina
 feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '579'
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
-# Exportieren benutzerdefinierter Formulare und Objektdetails
+# Exportieren von benutzerdefinierten Formularen und Objektdetails
 
 <!--Audited: 10/2025-->
 
@@ -48,7 +50,7 @@ Diese Funktion wird für die folgenden Objekte unterstützt:
   <tr> 
    <td role="rowheader"> <p>Adobe Workfront-Lizenz</p> </td> 
    <td><p>Für Probleme:</p>
-   <ul><li><p>Mitwirkender oder höher</p></li>
+   <ul><li><p>Mitwirkende oder höher</p></li>
    <li><p>Antragsteller oder höher</p> </li></ul>
    <p>Für Projekte und Aufgaben:</p>
    <ul><li><p>Licht oder höher</p></li>
@@ -70,7 +72,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -92,7 +95,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    <td> <p>View or higher permissions to the project, task, or issue whose form you want to export</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Voraussetzungen
 

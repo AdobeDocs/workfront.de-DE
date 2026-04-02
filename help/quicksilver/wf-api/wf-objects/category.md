@@ -7,10 +7,12 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 24c900ee-a8f1-458e-a18b-c098c6314e0c
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '270'
-ht-degree: 30%
+ht-degree: 32%
 
 ---
 
@@ -19,8 +21,10 @@ ht-degree: 30%
 
 <!-- Audited: 5/2025 -->
 
-<!--Fieldsclass: "java.lang.IllegalArgumentException",  
-message: "APIModel INTERNAL does not support field projectid (OpTask)"-->
+<!--
+Fieldsclass: "java.lang.IllegalArgumentException",  
+message: "APIModel INTERNAL does not support field projectid (OpTask)"
+-->
 
 <table style="table-layout:auto"> 
  <col width="100"> 
@@ -41,7 +45,7 @@ message: "APIModel INTERNAL does not support field projectid (OpTask)"-->
  </thead> 
  <tbody> 
   <tr> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID&quot;}"><strong>ID</strong> </td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID&quot;}"><strong>Kennung</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID&quot;}">ID</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">String</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Identifying GUID&quot;}">Identifizierungs-GUID</td> 
@@ -143,10 +147,10 @@ message: "APIModel INTERNAL does not support field projectid (OpTask)"-->
 
 | Name | Label | Typ | Objektcode eingeben |
 |---|---|---|---|
-| Kundin bzw. Kunde | Kundin bzw. Kunde | Kundin bzw. Kunde | KÜRZEN |
-| Eingegeben von | enteredBy | Benutzerin oder Benutzer | BENUTZER |
+| Kunde | Kundin bzw. Kunde | Kunde | KÜRZEN |
+| Eingegeben von | enteredBy | Benutzerin oder Benutzer | USER |
 | Gruppe | Gruppe | Gruppe | GRUPPE |
-| Zuletzt aktualisiert von | lastUpdatedBy | Benutzerin oder Benutzer | BENUTZER |
+| Zuletzt aktualisiert von | lastUpdatedBy | Benutzerin oder Benutzer | USER |
 
 
 ## Sammlungen

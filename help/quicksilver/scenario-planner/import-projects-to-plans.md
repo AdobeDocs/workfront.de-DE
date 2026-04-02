@@ -6,10 +6,12 @@ description: Sie können vorhandene Projekte in einen Plan importieren. Die impo
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1677'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -27,7 +29,7 @@ Sie können vorhandene Projekte in einen Plan importieren. Die importierten Proj
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -63,7 +65,8 @@ Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugr
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,7 +104,8 @@ Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugr
  </tbody> 
 </table>
 
-*For information, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+*For information, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Überlegungen zum Importieren von Projekten in Pläne als neue Initiativen
 
@@ -113,9 +117,9 @@ Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugr
 
 * Sie müssen mindestens über [!UICONTROL Ansicht]-Berechtigungen für die Projekte verfügen, um sie als neue Initiative in einen Plan importieren zu können.
 * Sie können dasselbe Projekt in mehrere Pläne importieren.
-* Die Projekte, die Sie importieren möchten, müssen Datumsangaben im Zeitrahmen Ihres Plans enthalten. Sie können keine Projekte importieren[!UICONTROL &#x200B; deren geplantes Abschlussdatum vor dem Start des Plans &#x200B;] oder deren [!UICONTROL geplantes Startdatum] nach dem Ende des Plans liegt.
+* Die Projekte, die Sie importieren möchten, müssen Datumsangaben im Zeitrahmen Ihres Plans enthalten. Sie können keine Projekte importieren[!UICONTROL  deren geplantes Abschlussdatum vor dem Start des Plans ] oder deren [!UICONTROL geplantes Startdatum] nach dem Ende des Plans liegt.
 * Sie können nicht mehr als 100 Projekte gleichzeitig importieren.
-* Einige Projektinformationen werden ebenfalls in den Plan importiert und werden zu Initiativinformationen. Informationen darüber, welche Projektinformationen in den Plan importiert werden und zu Initiativinformationen werden, finden Sie [&#x200B; Abschnitt „Projektinformationen in den Plan &#x200B;](#project-information-imported-into-the-plan)&quot; in diesem Artikel.
+* Einige Projektinformationen werden ebenfalls in den Plan importiert und werden zu Initiativinformationen. Informationen darüber, welche Projektinformationen in den Plan importiert werden und zu Initiativinformationen werden, finden Sie [ Abschnitt „Projektinformationen in den Plan ](#project-information-imported-into-the-plan)&quot; in diesem Artikel.
 * Änderungen an den verknüpften Projekten wirken sich nicht auf die Initiativen des Plans aus.
 * Änderungen an den Initiativen im Plan wirken sich nicht automatisch auf die Änderungen an den verknüpften Projekten aus. Änderungen an der Initiative wirken sich nur dann auf die verknüpften Projekte aus, wenn Sie die Initiative im Plan veröffentlichen. Informationen darüber, wie sich Veröffentlichungsinitiativen auf die verknüpften Projekte auswirken, finden Sie unter [Aktualisieren oder Erstellen von Projekten durch Veröffentlichung von Initiativen in der [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 * Beim Löschen einer Initiative, die durch den Import eines Projekts erstellt wurde, wird das Projekt nicht gelöscht.
@@ -160,12 +164,14 @@ Wenn Sie ein Projekt in einen Plan importieren, werden einige Projektinformation
      <li> <p>[!DNL Workfront] verwendet die Aufgabengebiete, die Aufgaben und Problemen zugewiesen sind, oder die Aufgabengebiete, mit denen die Benutzer im Projekt Aufgaben oder Problemen verknüpft sind, und überträgt sie nach Bedarf auf die neue Initiative. </p> </li> 
      <li> <p>Wenn der Plan für die Verwendung von FTEs eingerichtet ist, werden die geplanten Stunden, die den Aufgabengebieten für die Aufgaben und Probleme des Projekts zugeordnet sind, zunächst in FTEs konvertiert. Dieses VZÄ wird dann dem Aufgabengebiet der Initiative zugewiesen. <span>Die geplanten Stunden sind gleichmäßig auf [!DNL Workfront] verteilt. Wenn eine Aufgabe oder ein Problem mehrere Monate umfasst, wird die Anzahl der geplanten Stunden für jeden Monat während der Dauer der Initiative in monatliche VZÄ umgerechnet und auf jeden Monat der Initiative übertragen.</span></p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><span>Beispiel: Wenn eine Aufgabe im September einem Aufgabengebiet für 80 geplante Stunden zugewiesen wird, zeigt das importierte Aufgabengebiet im September 0,5 VZÄ für die Initiative an.</span> </p> </li> 
      <li> <p>[!DNL Workfront] Berechnet das FTE der erforderlichen Aufgabengebiete, die mit der Initiative verknüpft sind, nach folgender Formel:</p> <p><code>Required Job Role FTE (initiative) = Job Role assignment Planned Hours (</code><code>from tasks and issues on the project)/ 160</code> </p> <p>Tipp: Die [!DNL Scenario Planner] geht davon aus, dass ein Monat 160 Arbeitsstunden hat.</p> <p>Wenn beispielsweise ein Projekt eine Dauer von 1200 Minuten hat und ein Aufgabengebiet im Projekt mit 600 Minuten der geplanten Stunden verknüpft ist, beträgt ihr VZÄ 0,5. Beim Importieren des Projekts beträgt der erforderliche Aufgabengebiets-VZÄ der neu erstellten Initiative 0,5 für jeden Monat der Initiative. </p> </li> 
-     <li>Wenn einer Aufgabe im Projekt ein Aufgabengebiet mit null geplanten Stunden zugewiesen wird, ist der erforderliche VZÄ für das Aufgabengebiet der Initiative standardmäßig null. <!--
+     <li>Wenn einer Aufgabe im Projekt ein Aufgabengebiet mit null geplanten Stunden zugewiesen wird, ist der erforderliche VZÄ für das Aufgabengebiet der Initiative standardmäßig null.
+     <!--
        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
          (NOTE: this used to be 1, not zero in Production) 
        </MadCap:conditionalText>
-      --></li> 
-     <li>Wenn einer Aufgabe im Projekt mit einer Dauer von null  ein Aufgabengebiet zugewiesen wird, ist der erforderliche VZÄ (<span> Stunden) </span> Aufgabengebiet der Initiative standardmäßig null, auch wenn die Aufgabe über geplante Stunden verfügt. </li> 
+      -->
+      </li>
+     <li>Wenn einer Aufgabe im Projekt mit einer Dauer von null [!UICONTROL] ein Aufgabengebiet zugewiesen wird, ist der erforderliche VZÄ (<span> Stunden) </span> Aufgabengebiet der Initiative standardmäßig null, auch wenn die Aufgabe über geplante Stunden verfügt. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -212,7 +218,7 @@ Wenn Sie ein Projekt in einen Plan importieren, werden einige Projektinformation
 
    Beachten Sie Folgendes:
 
-   * Rechts neben dem Namen ![&#x200B; Initiative wird &#x200B;](assets/project-icon-sp.png) Projektsymbol (Projektsymbol) angezeigt.
+   * Rechts neben dem Namen ![ Initiative wird ](assets/project-icon-sp.png) Projektsymbol (Projektsymbol) angezeigt.
    * Wenn der Projektzeitplan die Dauer des Plans überschreitet, endet der Balken der Initiative mit einem spitzen Rand nach links (wenn das Startdatum vor dem Datum des Plans liegt) oder nach rechts (wenn das Enddatum nach dem Datum des Plans liegt).
 
      ![Projektleiste vor dem Startdatum](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)
@@ -242,7 +248,7 @@ Wenn Sie ein Projekt in einen Plan importieren, werden einige Projektinformation
       <td>Start- und Enddatum der Initiative. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL -Projekt]</td> 
+      <td role="rowheader">[!UICONTROL Projekt]</td> 
       <td> <p>Der [!UICONTROL Geplanter Start] und die [!UICONTROL Abschlussdaten] des verknüpften Projekts.</p> <p>Tipp: Wenn die [!UICONTROL Project]-Informationen fehlen, wurde das Projekt gelöscht.</p> </td> 
      </tr> 
     </tbody> 

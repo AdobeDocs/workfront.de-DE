@@ -1,25 +1,27 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
-title: Status von Textabschnitten im Kanban-Board aktualisieren
-description: Sie können den Status einer Story direkt vom Kanban-Board aus ändern, um den Fortschritt der Stories widerzuspiegeln.
+title: Status der Storys im Kanban-Board aktualisieren
+description: Sie können den Status einer Story direkt über das Kanban-Board ändern, um den Fortschritt der Storys widerzuspiegeln.
 author: Courtney
 feature: Agile
 exl-id: fd75ab8e-08c4-4643-bc67-aada5b5c005e
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 21%
 
 ---
 
-# Aktualisieren des Status von Storys auf dem Board [!UICONTROL Kanban]
+# Status der Storys auf dem Kanban[!UICONTROL Board ] aktualisieren
 
-Sie können den Status einer Story direkt vom [!UICONTROL Kanban]-Board aus ändern, um den Fortschritt der Stories widerzuspiegeln.
+Sie können den Status einer Story direkt über das Kanban[!UICONTROL Board ], um den Fortschritt der Stories widerzuspiegeln.
 
 >[!NOTE]
 >
->Nur im Abschnitt [!UICONTROL Story Board] im Bereich [!UICONTROL Team-Einstellungen] ausgewählte Status sind auf dem [!UICONTROL Kanban]-Board und im Status-Dropdown-Menü verfügbar. Weitere Informationen finden Sie unter [Kanban konfigurieren](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+>Nur Status, die im Abschnitt [!UICONTROL Story Board] im Bereich [!UICONTROL Team-Einstellungen] ausgewählt sind, sind auf dem [!UICONTROL Kanban]-Board und im Dropdown-Menü Status verfügbar. Weitere Informationen finden Sie unter [Konfigurieren von Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
 
 ## Zugriffsanforderungen
 
@@ -51,9 +53,9 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 {{step1-to-team}}
 
-1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues [!UICONTROL Kanban]-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
+1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Symbol Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues [!UICONTROL Kanban]-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
-1. Wechseln Sie zum Board [!UICONTROL Kanban], in dem Sie den Status eines Textabschnitts aktualisieren möchten.
-1. Ziehen Sie einen Textabschnitt aus einer Statusspalte auf dem Board [!UICONTROL Kanban] und in eine andere Spalte.
-Ein Textabschnitt verbleibt in der Spalte [!UICONTROL Vollständig] für zwei Wochen, nachdem er hinzugefügt wurde.
-   ![Textabschnitt in eine andere Spalte verschieben](assets/agile-storyboard-progress.png)
+1. Wechseln Sie zum [!UICONTROL Kanban]-Board, in dem Sie den Status einer Story aktualisieren möchten.
+1. Ziehen Sie eine Story aus einer Statusspalte auf das [!UICONTROL Kanban]Board und in eine andere Spalte.
+Eine Story verbleibt zwei Wochen lang in [!UICONTROL  Spalte ]Abgeschlossen“, nachdem sie hinzugefügt wurde.
+   ![Story in eine andere Spalte verschieben](assets/agile-storyboard-progress.png)

@@ -6,10 +6,12 @@ description: Suchen Sie die Ihnen zugewiesene Arbeit in Adobe Workfront, ohne Ad
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4abb3257-5f6a-45f6-933b-f3bfb3728f1c
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -21,13 +23,14 @@ Suchen Sie die Ihnen zugewiesene Arbeit in [!DNL Adobe Workfront], ohne die folg
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
- <!-- <tr> 
+ <!--
+  <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> Any</td> 
   </tr> 
@@ -36,7 +39,8 @@ Suchen Sie die Ihnen zugewiesene Arbeit in [!DNL Adobe Workfront], ohne die folg
    <td> 
    <p>Standard</p>
    <p>Work or higher</p> </td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
    <td role="rowheader">Zusätzliche Produkte</td> 
    <td>Sie müssen zusätzlich zu einer [!DNL Adobe Creative Cloud] über eine [!DNL Workfront]-Lizenz verfügen.</td> 
@@ -58,7 +62,7 @@ Mit [!UICONTROL Arbeitsliste] können Sie alle Ihnen zugewiesenen Aufgaben und P
 
 ### Gruppieren ähnlicher Arbeitselemente zusammen mit der Option [!DNL Sort By]
 
-Verwenden Sie die Option [!UICONTROL Sortieren nach], um ähnliche Elemente in der [!UICONTROL Arbeitsliste“ &#x200B;] gruppieren. Sie können sortieren nach:
+Verwenden Sie die Option [!UICONTROL Sortieren nach], um ähnliche Elemente in der [!UICONTROL Arbeitsliste“ ] gruppieren. Sie können sortieren nach:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -91,7 +95,7 @@ Verwenden Sie den [!UICONTROL Filter], um den Fokus auf bestimmte Arbeitselement
    <td> <p>Die erste Methode besteht darin, nur nach Arbeitselementtyp oder -attributen zu filtern:</p> 
     <ul> 
      <li><strong>Arbeitselement</strong>: Aufgaben, Teilaufgaben, Probleme oder persönliche Aufgaben</li> 
-     <li><strong>Arbeitsaufgabenstatus</strong>: [!UICONTROL , die gerade arbeitet], [!UICONTROL , bereit zum Start] oder [!UICONTROL , nicht bereit]</li> 
+     <li><strong>Arbeitsaufgabenstatus</strong>: [!UICONTROL, die gerade arbeitet], [!UICONTROL, bereit zum Start] oder [!UICONTROL, nicht bereit]</li> 
     </ul> <p>Die zweite Möglichkeit besteht darin, Arbeitselement und Arbeitselementstatus gemeinsam zu filtern. Sie können beispielsweise Aufgaben und [!UICONTROL Ready to Start] auswählen, um alle Aufgaben in Ihrer Auftragsliste zu finden, die bereit zur Arbeit sind.</p> <p>Sie können auch [!UICONTROL Field Match] verwenden, um nach einem bestimmten Element in Ihrem Filtersatz zu suchen. </p> </td> 
    <td> <img src="assets/copy-of-filter-p-350x603.png" style="width: 350;height: 603;"> </td> 
   </tr> 

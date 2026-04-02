@@ -6,7 +6,9 @@ description: Sie können Berichte in Adobe Workfront verwenden, um Informationen
 author: Courtney
 feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 11%
@@ -78,7 +80,7 @@ Sie können Ordner verwenden, um die von Ihnen erstellten Berichte zu organisier
 
 1. Geben Sie einen Namen für den neuen Ordner ein und drücken Sie dann die Eingabetaste.
 1. Fügen Sie im Ordner **Meine**&quot; Berichte zum Ordner „NEU“ hinzu.\
-   Informationen zum Hinzufügen eines Berichts zu einem neuen Ordner finden Sie [&#x200B; Abschnitt „Hinzufügen von Berichten zu &#x200B;](#add-reports-to-a-folder)&quot; in diesem Artikel.
+   Informationen zum Hinzufügen eines Berichts zu einem neuen Ordner finden Sie [ Abschnitt „Hinzufügen von Berichten zu ](#add-reports-to-a-folder)&quot; in diesem Artikel.
 
    >[!NOTE]
    >
@@ -92,7 +94,7 @@ Sie können Ordner verwenden, um die von Ihnen erstellten Berichte zu organisier
    ODER\
    Klicken Sie auf einen beliebigen unter dem Ordner **Meine Berichte** verschachtelten Ordner.
 
-1. Wählen Sie den Bericht aus und klicken Sie dann oben in ![&#x200B; Liste &#x200B;](assets/folder-icon.png) Ordnersymbol (Ordnersymbol).
+1. Wählen Sie den Bericht aus und klicken Sie dann oben in ![ Liste ](assets/folder-icon.png) Ordnersymbol (Ordnersymbol).
 
 1. Wählen Sie den Ordner aus, dem Sie den Bericht hinzufügen möchten.
 

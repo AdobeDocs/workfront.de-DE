@@ -6,14 +6,16 @@ description: Nachdem Sie Projekte und Initiativen miteinander verbunden haben, k
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '800'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# Rollenzuweisung für Projekte und Initiativen im [!UICONTROL Workload-Balancer“ &#x200B;]
+# Rollenzuweisung für Projekte und Initiativen im [!UICONTROL Workload-Balancer“ ]
 
 <!--Audited: 07/2024-->
 
@@ -25,7 +27,7 @@ Allgemeine Informationen zur Abstimmung von Ressourcen zwischen Projekten und In
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -61,7 +63,8 @@ Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugr
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -97,11 +100,12 @@ Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugr
    <td> <p> View or higher permission to a project.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
-## Rollenzuweisung für Projekte und Initiativen im [!UICONTROL Workload-Balancer“ &#x200B;]
+## Rollenzuweisung für Projekte und Initiativen im [!UICONTROL Workload-Balancer“ ]
 
-Wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] Lizenz erworben hat, können Sie die Ressourcenzuteilungen zwischen der Initiative und dem mit ihr verknüpften Projekt auf Projektebene (Workload [!UICONTROL ) &#x200B;].
+Wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] Lizenz erworben hat, können Sie die Ressourcenzuteilungen zwischen der Initiative und dem mit ihr verknüpften Projekt auf Projektebene (Workload [!UICONTROL ) ].
 
 1. (Bedingt) Verbinden eines Projekts mit einer Initiative mithilfe einer der in den folgenden Artikeln beschriebenen Methoden:
 
@@ -113,7 +117,7 @@ Wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] Lizenz erworben hat,
    >Wenn Sie Änderungen an den Ressourcen der Initiative vornehmen, müssen Sie das Szenario, zu dem die Initiative gehört, erneut veröffentlichen, damit die neuesten Ressourceninformationen der Initiative im Projekt aktualisiert werden.
 
 1. Wechseln Sie zu dem Projekt, in dem Sie die Zuordnung der Aufgabengebiete für das Projekt sowie für die zugehörige Initiative überprüfen möchten.
-1. Klicken Sie [!UICONTROL &#x200B; linken Bedienfeld &#x200B;]Workload Balancer“.
+1. Klicken Sie [!UICONTROL  linken Bedienfeld ]Workload Balancer“.
 
    Möglicherweise müssen Sie auf **[!UICONTROL Planung]** und dann auf **[!UICONTROL Zum Workload-Balancer wechseln]** klicken.
 
@@ -158,8 +162,8 @@ Wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] Lizenz erworben hat,
       <td>Die Anzahl der geplanten Stunden, die mit jedem Aufgabengebiet in den Aufgaben oder Problemen des Projekts für die Gesamtdauer des Projekts verknüpft sind. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL -Varianz]</td> 
-      <td> <p>Die Differenz zwischen den für die Initiative erforderlichen Stunden und den geplanten Stunden für die Arbeit am Projekt. [!DNL Workfront] berechnet die [!UICONTROL Variance] anhand der folgenden Formel:</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>Wenn Ressourcen für mehr Stunden als auf Initiative erforderlich eingeplant sind, ist die [!UICONTROL -Varianz] negativ und wird rot angezeigt. Das bedeutet, dass Ihre Ressourcen überlastet sind. </p> </td> 
+      <td role="rowheader">[!UICONTROL-Varianz]</td> 
+      <td> <p>Die Differenz zwischen den für die Initiative erforderlichen Stunden und den geplanten Stunden für die Arbeit am Projekt. [!DNL Workfront] berechnet die [!UICONTROL Variance] anhand der folgenden Formel:</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>Wenn Ressourcen für mehr Stunden als auf Initiative erforderlich eingeplant sind, ist die [!UICONTROL-Varianz] negativ und wird rot angezeigt. Das bedeutet, dass Ihre Ressourcen überlastet sind. </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -180,7 +184,7 @@ Wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] Lizenz erworben hat,
    * Reduzieren Sie die Anzahl der geplanten Stunden für ein Aufgabengebiet, das überlastet ist, oder fügen Sie den Aufgaben weitere Ressourcen hinzu und verteilen Sie mehr geplante Stunden auf die neuen Ressourcen. Sie können bei Aufgaben oder Problemen Zuweisungen oder die Anzahl der geplanten Stunden aktualisieren, wenn Sie sie bearbeiten. Weitere Informationen finden Sie in den folgenden Artikeln:
 
       * [Aufgaben bearbeiten](../manage-work/tasks/manage-tasks/edit-tasks.md)
-      * [Probleme bearbeiten](../manage-work/issues/manage-issues/edit-issues.md)
+      * [Bearbeiten von Problemen](../manage-work/issues/manage-issues/edit-issues.md)
 
      >[!NOTE]
      >
@@ -194,13 +198,13 @@ Wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] Lizenz erworben hat,
 
 1. (Optional) Klicken Sie auf das Dropdown-Symbol, um einen der Monate im Bedienfeld [!UICONTROL Rollenzuweisung] oder in der Zeitleiste des [!UICONTROL Workload-Balancer] zu erweitern.
 
-   ![Monat im Bedienfeld „Rollenzuweisung“ &#x200B;](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
+   ![Monat im Bedienfeld „Rollenzuweisung“ ](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
 
-   Die gleichen Informationen, die im Bereich &quot;[!UICONTROL &quot; angezeigt &#x200B;], werden auch für jeden Monat angezeigt.
+   Die gleichen Informationen, die im Bereich &quot;[!UICONTROL &quot; angezeigt ], werden auch für jeden Monat angezeigt.
 
    >[!TIP]
    >
-   >Die im Bedienfeld [!UICONTROL Rollenzuweisung] aufgelisteten Monate sind die Monate in der Zeitleiste, die auf dem Bildschirm im [!UICONTROL Workload Balancer“ &#x200B;]. Scrollen Sie in der Timeline vor und zurück, um zusätzliche Monate anzuzeigen.
+   >Die im Bedienfeld [!UICONTROL Rollenzuweisung] aufgelisteten Monate sind die Monate in der Zeitleiste, die auf dem Bildschirm im [!UICONTROL Workload Balancer“ ]. Scrollen Sie in der Timeline vor und zurück, um zusätzliche Monate anzuzeigen.
 
    <!--
    <li value="8" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p> </p> </li>

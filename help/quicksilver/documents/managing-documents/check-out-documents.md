@@ -6,7 +6,9 @@ description: Sie können ein Dokument auschecken, um zu verhindern, dass andere 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
-source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 8%
@@ -84,7 +86,7 @@ Wenn Sie über Verwaltungsberechtigungen für ein Dokument verfügen, können Si
 
 1. Klicken Sie auf das **Auschecken**-Symbol ![Auschecken-Symbol](assets/check-out-25x23.png).
 
-1. Rechts neben dem ![&#x200B; wird ein Sperrsymbol &#x200B;](assets/lock-icon-locked-qs.png)Sperrsymbol) angezeigt. Das Dokument bleibt nach der Abmeldung von Workfront ausgecheckt.
+1. Rechts neben dem ![ wird ein Sperrsymbol ](assets/lock-icon-locked-qs.png)Sperrsymbol) angezeigt. Das Dokument bleibt nach der Abmeldung von Workfront ausgecheckt.
 1. Nur der Benutzer, der das Dokument ausgecheckt hat, oder der Workfront-Administrator können das Dokument einchecken.
 
 ## Ausgecheckte Dokumente verwalten
@@ -108,6 +110,6 @@ Einchecken eines Dokuments:
 
 1. Wechseln Sie zum Bereich, in dem Ihr Dokument gespeichert ist, und wählen Sie das Dokument aus. 
 
-   Rechts neben dem ![&#x200B; wird ein Sperrsymbol &#x200B;](assets/lock-icon-locked-qs.png)Sperrsymbol) angezeigt.
+   Rechts neben dem ![ wird ein Sperrsymbol ](assets/lock-icon-locked-qs.png)Sperrsymbol) angezeigt.
 
-1. Klicken Sie auf **Symbol** Einchecken![&#x200B; (Einchecksymbol](assets/check-in-25x22.png).
+1. Klicken Sie auf **Symbol** Einchecken![ (Einchecksymbol](assets/check-in-25x22.png).

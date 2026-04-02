@@ -4,10 +4,12 @@ description: Workfront Goals hilft Ihnen bei der Definition, Kommunikation und d
 author: Alina
 feature: Workfront Goals
 exl-id: 9daa074e-94ce-4825-a058-722e53dbce51
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1349'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
@@ -18,13 +20,14 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Ihr Unternehmen könnte sich dafür entscheiden, weiterhin Adobe Workfront Goals zu verwenden, wenn es dieses Paket in der Vergangenheit gekauft hat. Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer.
+>Ihr Unternehmen kann sich dafür entscheiden, Adobe Workfront Goals weiterhin zu verwenden, wenn es dieses Paket in der Vergangenheit erworben hat. Weitere Informationen erhalten Sie bei Ihrer Kundenbetreuung.
 >
 >Adobe Workfront Goals ist nicht mehr erhältlich.
 >
->Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Weitere Informationen zum Zugriff auf Workfront Goals finden Sie unter [Voraussetzungen für die Verwendung von Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-<!--Old:
+<!--
+Old:
 >[!IMPORTANT]
 >
 >Your organization must have the following to use the functionality described in this article:
@@ -100,7 +103,7 @@ Beachten Sie beim Erstellen und Ausrichten von Zielen die folgenden Richtlinien:
 Informationen zum Erstellen und Ausrichten von Zielen finden Sie in den folgenden Artikeln:
 
 * [Erstellen von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/create-goals.md)
-* [Übersicht über die Zielausrichtung in Adobe Workfront Goals](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
+* [Überblick über die Zielausrichtung in Adobe Workfront Goals](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
 
 ### Ausrichten von Gruppen und Teams an der Strategie {#align-groups-and-teams-to-strategy}
 

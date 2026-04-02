@@ -6,10 +6,12 @@ description: Sie können die Agile-Funktionen für Ihr Projekt nutzen, ohne die 
 author: Alina, Courtney
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '314'
-ht-degree: 5%
+ht-degree: 19%
 
 ---
 
@@ -27,7 +29,7 @@ Weitere Informationen finden Sie unter [Arbeiten in einer Agile-Umgebung](../../
 
 +++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+Sie benötigen die folgenden Zugriffsrechte, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -59,11 +61,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--old:
+<!--
+old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -92,7 +95,8 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    <td> <p>View permissions to the project</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 
 ## Ein Projekt in der Board-Ansicht anzeigen
@@ -100,7 +104,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 Sie können sowohl die Aufgaben als auch die Probleme eines Projekts in einer Board-Ansicht anstelle einer Liste anzeigen, um die Agile-Funktionen für Ihre Projektentwicklung zu nutzen.
 
 1. Gehen Sie zu dem Projekt, das Sie gemäß der Agile-Methode verwalten möchten, und klicken Sie dann im linken Bereich **Aufgaben** oder **Probleme**.
-1. Klicken Sie auf **Symbol** Pinnwand-Ansicht![&#x200B; (](assets/board-icon-for-agile-view.png).
+1. Klicken Sie auf **Symbol** Pinnwand-Ansicht![ (](assets/board-icon-for-agile-view.png).
 
    Die Pinnwand-Ansicht des Projekts wird standardmäßig angezeigt.
 
@@ -109,7 +113,7 @@ Sie können sowohl die Aufgaben als auch die Probleme eines Projekts in einer Bo
 
 1. (Optional) Klicken Sie auf **Konfigurieren**, um Optionen für die Spalten und Karten festzulegen.
 
-   Weitere Informationen finden Sie unter [Verwalten von &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) und [Anpassen, welche Felder auf einer Karte angezeigt werden](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Beachten Sie, dass Sie keine Spaltenrichtlinien in der Pinnwand-Ansicht eines Projekts definieren können.
+   Weitere Informationen finden Sie unter [Verwalten von ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) und [Anpassen, welche Felder auf einer Karte angezeigt werden](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Beachten Sie, dass Sie keine Spaltenrichtlinien in der Pinnwand-Ansicht eines Projekts definieren können.
 
 1. (Optional) Um zur Listenansicht zurückzukehren, klicken Sie auf das Symbol **Liste** ![Symbol Liste](assets/list-icon.png).
 

@@ -6,7 +6,9 @@ description: Referenzieren von Sammlungen in einem Bericht
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2615'
 ht-degree: 3%
@@ -61,11 +63,11 @@ Eine Auflistung ist eine Liste von Objekten, die mit einem anderen Objekt verkn�
 
 Es bestehen die folgenden beiden Beziehungen zwischen Objekten in Workfront:
 
-* **Eine 1:1-Beziehung**: Ein Objekt kann jeweils nur mit einem anderen Objekt verknüpft werden.\
-  So kann ein Projekt beispielsweise nur mit jeweils einem Portfolio verknüpft werden.
+* **Eins-zu-eins-**: Ein Objekt kann jeweils nur mit einem anderen Objekt verknüpft werden.\
+  Beispielsweise kann ein Projekt jeweils nur mit einem Portfolio verknüpft werden.
 
-* **Eine 1:n-Beziehung**: Ein Objekt kann gleichzeitig mit mehreren anderen Objekten verknüpft werden.\
-  Ein Projekt kann beispielsweise mehrere Aufgaben umfassen. In diesem Fall bildet die Liste der Vorgänge eine Auflistung für das Projekt.
+* **Eins-zu-Viele-Beziehung**: Ein Objekt kann gleichzeitig mit mehreren anderen Objekten verknüpft werden.\
+  Beispielsweise kann ein Projekt mehrere Aufgaben haben. In diesem Fall bildet die Liste der Aufgaben eine Sammlung für das Projekt.
 
 >[!IMPORTANT]
 >
@@ -88,7 +90,7 @@ Weitere Informationen zur API Explorer-Tabelle finden Sie unter [API Explorer](.
 
 So erfahren Sie, über welche Sammlungen berichtet werden kann:
 
-1. Wechseln Sie zum [API-Explorer](../../../wf-api/general/api-explorer.md).
+1. Navigieren Sie zum [API-Explorer](../../../wf-api/general/api-explorer.md).
 1. Suchen Sie das Objekt Ihres Berichts.
 1. Wählen Sie die **Sammlungen** aus.
 
@@ -161,7 +163,7 @@ So fügen Sie eine Sammlungsspalte in einer Berichtsansicht hinzu:
 1. Navigieren Sie zurück zu Ihrem Bericht und klicken Sie auf der Registerkarte **Spalten (Ansicht** auf **Spalte hinzufügen**.
 1. Klicken Sie **In Textmodus wechseln**.
 1. Klicken Sie **Textmodus bearbeiten**.
-1. Wählen Sie den gesamten Text im Dialogfeld **Textmodus** aus, und entfernen Sie ihn. Fügen Sie dann den folgenden Code ein, wenn Sie auf ein Feld des Auflistungsobjekts verweisen:
+1. Wählen Sie den gesamten Text im **Textmodus**-Dialogfeld aus, entfernen Sie ihn und fügen Sie dann den folgenden Code ein, wenn Sie auf ein Feld des Sammlungsobjekts verweisen:
 
    ```
    valueformat=HTML
@@ -173,10 +175,10 @@ So fügen Sie eine Sammlungsspalte in einer Berichtsansicht hinzu:
    valuefield=collection object field
    ```
 
-1. Ersetzen Sie **Spaltenname** durch den Namen Ihrer Spalte in der Zeile `displayname`.
-1. Ersetzen Sie **den Namen des Auflistungsobjekts** durch den Namen des Auflistungsobjekts in der Zeile `listmethod`, wie er im [API-Explorer](../../../wf-api/general/api-explorer.md) angezeigt wird.
+1. Ersetzen **Spaltenname** durch den Namen Ihrer Spalte in der `displayname`.
+1. Ersetzen Sie **Sammlungsobjektname** durch den Namen Ihres Sammlungsobjekts in der `listmethod`, wie er im [API-Explorer) ](../../../wf-api/general/api-explorer.md).
 
-1. Ersetzen Sie das **Auflistungsobjektfeld** durch den Namen des Felds Ihres Auflistungsobjekts in der Zeile `valuefield`, wie er im [API-Explorer](../../../wf-api/general/api-explorer.md) angezeigt wird.
+1. Ersetzen Sie **Feld des Sammlungsobjekts** durch den Namen des Felds Ihres Sammlungsobjekts in der `valuefield`, wie er im [API-Explorer) ](../../../wf-api/general/api-explorer.md).
 
    Sie können **valueField** durch **valueExpression** ersetzen, wenn Sie einen benutzerdefinierten Ausdruck in Ihrer Ansicht erstellen möchten.
 
@@ -210,7 +212,7 @@ So fügen Sie eine Sammlungsspalte in einer Berichtsansicht hinzu:
      valueformat=HTML
      ```
 
-     Beachten Sie, dass Sie in einer Auflistung **Probleme** für die **listMethod**-Zeile anstelle von **opTasks** verwenden müssen, dem Datenbanknamen für Probleme. Informationen dazu, wann &quot;**&quot; und** &quot;**&quot; beim** von Problemen verwendet werden sollten, finden [&#x200B; unter „Verwenden von „OpTask“ und „Problem“ beim Referenzieren von Problemen](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md).
+     Beachten Sie, dass Sie in einer Auflistung **Probleme** für die **listMethod**-Zeile anstelle von **opTasks** verwenden müssen, dem Datenbanknamen für Probleme. Informationen dazu, wann &quot;**&quot; und** &quot;**&quot; beim** von Problemen verwendet werden sollten, finden [ unter „Verwenden von „OpTask“ und „Problem“ beim Referenzieren von Problemen](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md).
 
    * Wenn Sie eine Liste der Aufgaben in einem Projektbericht zusammen mit dem primären Bearbeiter anzeigen möchten, verwenden Sie eine **valueExpression**-Zeile, um auf die Namen der Aufgaben neben den Namen des primären Beauftragten zu verweisen, anstatt auf **valueField**.
 
@@ -235,11 +237,11 @@ So fügen Sie eine Sammlungsspalte in einer Berichtsansicht hinzu:
 
    ODER
 
-   Klicken Sie auf **Speichern + Schließen**, um den Bericht zu speichern.
+   Klicken Sie **Speichern + Schließen**, um den Bericht zu speichern.
 
-#### Grundlegendes zu den Zeilen einer Sammlung in der Ansicht im Textmodus
+#### Die Zeilen einer Sammlungsansicht im Textmodus verstehen
 
-Die Zeilen in einer Textmodusansicht für eine Sammlung werden in der folgenden Tabelle umrissen:
+Die Zeilen in einer Textmodusansicht für eine Sammlung sind in der folgenden Tabelle aufgeführt:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -266,7 +268,7 @@ Die Zeilen in einer Textmodusansicht für eine Sammlung werden in der folgenden 
   </tr> 
   <tr> 
    <td><code>listdelimiter=&lt;p&gt;</code> </td> 
-   <td> <p>Dies ist das Trennzeichen, das verwendet wird, um die Werte in Ihrer Liste zu trennen.<br>Es wird empfohlen, <code>&lt;p&gt;</code> zu verwenden, das einen Zeilenumbruch zwischen den Werten hinzufügt.</p> <p>Sie können auch Folgendes verwenden:</p> <p><code>&zwj;</code> (Joiner mit Nullbreite). Die Werte der Sammlung sind nicht voneinander getrennt.<br><strong>,</strong> =Kommatrennzeichen. Die Werte der Sammlung werden durch ein Komma getrennt, gefolgt von keinem Leerzeichen.<br><strong>/</strong> = Schrägstrich-Trennzeichen. Die Werte der Sammlung werden durch einen Schrägstrich getrennt.<br><strong>-</strong> = Bindestrich-Trennzeichen. Die Werte der Auflistung werden durch einen Strich getrennt.<br>Wenn diese Zeile leer gelassen wird, wird standardmäßig ein Komma gefolgt von einem Leerzeichen zwischen den Werten der Sammlung hinzugefügt.</p> </td> 
+   <td> <p>Dies ist das Trennzeichen, das verwendet wird, um die Werte in Ihrer Liste zu trennen.<br>Es wird empfohlen, <code>&lt;p&gt;</code> zu verwenden, das einen Zeilenumbruch zwischen den Werten hinzufügt.</p> <p>Sie können auch Folgendes verwenden:</p> <p><code>&amp;zwj;</code> (Joiner mit Nullbreite). Die Werte der Sammlung sind nicht voneinander getrennt.<br><strong>,</strong> =Kommatrennzeichen. Die Werte der Sammlung werden durch ein Komma getrennt, gefolgt von keinem Leerzeichen.<br><strong>/</strong> = Schrägstrich-Trennzeichen. Die Werte der Sammlung werden durch einen Schrägstrich getrennt.<br><strong>-</strong> = Bindestrich-Trennzeichen. Die Werte der Sammlung werden durch einen Bindestrich getrennt.<br>Wenn diese Zeile leer gelassen wird, wird standardmäßig ein Komma gefolgt von einem Leerzeichen zwischen den Werten der Sammlung hinzugefügt.</p> </td> 
   </tr> 
   <tr> 
    <td><code>displayname=</code><em>Spaltenname</em> </td> 
@@ -313,11 +315,11 @@ So fügen Sie einen Verweis auf eine Sammlung in einem Berichtsfilter hinzu:
 1. Klicken Sie auf das **Hauptmenü** (![-](assets/main-menu-icon.png)) und dann auf **Berichte**.
 1. Klicken Sie **Neuer Bericht**.
 1. Wählen Sie das Objekt Ihres Berichts aus.
-1. Navigieren Sie von Ihrem Bericht weg, und bestimmen Sie mithilfe des [API-Explorers](../../../wf-api/general/api-explorer.md), welche Sammlungen für das Objekt verfügbar sind, das Sie für Ihren Bericht ausgewählt haben.
+1. Navigieren Sie weg von Ihrem Bericht und ermitteln Sie mithilfe des [API-Explorers](../../../wf-api/general/api-explorer.md), welche Sammlungen für das Objekt verfügbar sind, das Sie für Ihren Bericht ausgewählt haben.
 
-   Weitere Informationen zum Auswählen des Objekts Ihrer Auflistung finden Sie im Abschnitt [Auflistungsobjekte und ihre Felder im API-Explorer suchen](#find-collection-objects-and-their-fields-in-the-api-explorer) in diesem Artikel.
+   Weitere Informationen zum Auswählen des Objekts Ihrer Sammlung finden Sie im Abschnitt [Suchen nach Sammlungsobjekten und ihren Feldern im API-Explorer](#find-collection-objects-and-their-fields-in-the-api-explorer) in diesem Artikel.
 
-   Notieren Sie sich den Namen des Objekts für die Auflistung.
+   Notieren Sie sich den Namen des -Objekts für die Auflistung.
 
 1. Navigieren Sie mithilfe [API-Explorers](../../../wf-api/general/api-explorer.md) zur Liste der Felder für das Objekt, das Sie in der Sammlung anzeigen möchten.
 
@@ -334,9 +336,9 @@ So fügen Sie einen Verweis auf eine Sammlung in einem Berichtsfilter hinzu:
    collection object name:collection object field_Mod=value of the modifier
    ```
 
-1. Ersetzen Sie **Sammlungsobjektname** durch den Namen Ihres Sammlungsobjekts, wie er im [API-Explorer) &#x200B;](../../../wf-api/general/api-explorer.md). Dieser Wert ist normalerweise die Pluralform des Sammlungsobjektnamens.
+1. Ersetzen Sie **Sammlungsobjektname** durch den Namen Ihres Sammlungsobjekts, wie er im [API-Explorer) ](../../../wf-api/general/api-explorer.md). Dieser Wert ist normalerweise die Pluralform des Sammlungsobjektnamens.
 
-1. Ersetzen Sie **Feld des Sammlungsobjekts** durch den Namen des Felds Ihres Sammlungsobjekts in , wie er im [API-Explorer) &#x200B;](../../../wf-api/general/api-explorer.md).
+1. Ersetzen Sie **Feld des Sammlungsobjekts** durch den Namen des Felds Ihres Sammlungsobjekts in , wie er im [API-Explorer) ](../../../wf-api/general/api-explorer.md).
 
 1. Ersetzen Sie **Wert des Sammlungsobjekts** durch den Wert des Sammlungsobjekts, wie er in Workfront angezeigt wird.
 1. Ersetzen Sie **Wert des Modifikators** durch einen gültigen Modifikator.
@@ -351,7 +353,7 @@ So fügen Sie einen Verweis auf eine Sammlung in einem Berichtsfilter hinzu:
 
    Dieser Bericht zeigt nur Projekte an, die mindestens eine Aufgabe mit dem Wort „Marketing“ in ihrem Namen haben.
 
-   ![Nur Marketingaufgaben im Projekt &#x200B;](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
+   ![Nur Marketing-Aufgaben im Projekt](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
 
 1. Verwenden Sie den folgenden Code, um nach dem Namen eines Problems zu filtern:
 
@@ -362,7 +364,7 @@ So fügen Sie einen Verweis auf eine Sammlung in einem Berichtsfilter hinzu:
 
    >[!TIP]
    >
-   >Beachten Sie, dass Sie anstelle von &quot;`issues`&quot; `optask` als Auflistungsobjektnamen verwenden müssen. So werden Probleme im API-Explorer angezeigt.
+   >Beachten Sie, dass Sie `issues` für den Namen des Sammlungsobjekts verwenden müssen, anstatt `optask` zu verwenden, wie Probleme im API-Explorer angezeigt werden.
 
 1. Klicken Sie auf **Fertig**.
 1. (Optional) Fahren Sie mit der Bearbeitung des Berichts fort.
@@ -395,7 +397,7 @@ So fügen Sie in der benutzerdefinierten Eingabeaufforderung eines Berichts eine
 1. Klicken Sie **Eingabeaufforderungen melden**.
 1. Klicken Sie **Eingabeaufforderung hinzufügen**.
 1. Klicken Sie **Benutzerdefinierte Eingabeaufforderung**.
-1. Geben Sie den Namen der Eingabeaufforderung im Feld **field**&#x200B;**name** an.
+1. Geben Sie den Namen der Eingabeaufforderung im Feld **field****name** an.
 
 1. Geben Sie eine **Dropdown-Elementbezeichnung** an.
 1. Geben Sie Folgendes im Feld **Bedingung** an:
@@ -405,8 +407,8 @@ So fügen Sie in der benutzerdefinierten Eingabeaufforderung eines Berichts eine
    ```
 
 1. (Optional) Geben Sie an, ob diese Auswahl in der Eingabeaufforderung standardmäßig angezeigt wird.
-1. Ersetzen Sie **Sammlungsobjektname** durch den Namen Ihres Sammlungsobjekts, wie er im [API-Explorer) &#x200B;](../../../wf-api/general/api-explorer.md). Dieser Wert ist normalerweise die Pluralform des Sammlungsobjektnamens.
-1. Ersetzen Sie **Feld des Sammlungsobjekts** durch den Namen des Felds Ihres Sammlungsobjekts, wie es im [API-Explorer) &#x200B;](../../../wf-api/general/api-explorer.md).
+1. Ersetzen Sie **Sammlungsobjektname** durch den Namen Ihres Sammlungsobjekts, wie er im [API-Explorer) ](../../../wf-api/general/api-explorer.md). Dieser Wert ist normalerweise die Pluralform des Sammlungsobjektnamens.
+1. Ersetzen Sie **Feld des Sammlungsobjekts** durch den Namen des Felds Ihres Sammlungsobjekts, wie es im [API-Explorer) ](../../../wf-api/general/api-explorer.md).
 1. Ersetzen Sie **Wert des Sammlungsobjekts** durch den Wert des Sammlungsobjekts, wie er in Workfront angezeigt wird.
 
    Wenn Sie beispielsweise nach Projekten filtern, in denen der Name der Aufgabe „Marketing“ enthält, ersetzen Sie **Sammlungsobjektwert** durch **Marketing**.

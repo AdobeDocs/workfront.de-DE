@@ -2,19 +2,21 @@
 product-area: projects;user-management
 keywords: Bearbeiten,Formulare,Rich,Text,Special,Format,Felder,Benutzerdefiniert,Informationen,Anpassen,Objekte
 navigation-topic: work-with-custom-forms
-title: Bearbeiten von Informationen in benutzerdefinierten Formularfeldern
+title: Bearbeiten von Informationen in Feldern in benutzerdefinierten Formularen
 description: Sie können Informationen in einem benutzerdefinierten Formular bearbeiten, nachdem das Formular mit einem Objekt verbunden wurde. Informationen zum Hinzufügen benutzerdefinierter Formulare zu Objekten finden Sie unter Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt.
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
-source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1222'
-ht-degree: 3%
+ht-degree: 6%
 
 ---
 
-# Bearbeiten von Informationen in benutzerdefinierten Formularfeldern
+# Bearbeiten von Informationen in Feldern in benutzerdefinierten Formularen
 
 <!--Audited: 10/2025-->
 
@@ -34,8 +36,8 @@ Sie können Informationen in einem benutzerdefinierten Formular bearbeiten, nach
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Workfront-Lizenz</p> </td> 
-   <td> <p>Mitwirkender oder höher</p> 
-   <p>Anfrage oder höher</p> </td> 
+   <td> <p>Mitwirkende oder höher</p> 
+   <p>Anfragende oder höher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -57,7 +59,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -84,7 +87,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
     </ul> <p>For information on requesting additional access for objects, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Voraussetzungen
 
@@ -100,7 +104,7 @@ Die Bearbeitung von Informationen in einem benutzerdefinierten Formular, das an 
 Informationen dazu, welche Objekte ein benutzerdefiniertes Formular haben können, finden Sie unter [Übersicht über benutzerdefinierte Formulare](../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
 
 1. Wechseln Sie zu einer beliebigen Liste von Objekten, für die Sie Informationen im benutzerdefinierten Formular bearbeiten möchten, mit Ausnahme einer Liste von Iterationen.
-1. Wählen Sie ein oder mehrere Objekte in der Liste aus und klicken Sie dann oben in **Liste auf** Bearbeiten![Symbol &#x200B;](assets/edit-icon.png)Bearbeiten“.
+1. Wählen Sie ein oder mehrere Objekte in der Liste aus und klicken Sie dann oben in **Liste auf** Bearbeiten![Symbol ](assets/edit-icon.png)Bearbeiten“.
 1. Klicken Sie **linken Bereich** Custom Forms&quot; im Feld **Objekt bearbeiten**.
 
    Wenn ein benutzerdefiniertes Formular an das -Objekt angehängt ist, wird der Name des Formulars als Bereich im Abschnitt **Benutzerdefinierte Forms** angezeigt.

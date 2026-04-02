@@ -8,7 +8,9 @@ description: Sie können Projekte mit Zielen verbinden, um den Fortschritt des Z
 author: Alina
 feature: Workfront Goals
 exl-id: 683c9cd9-6c7b-4d50-b326-b4000c9863e8
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 12%
@@ -81,7 +83,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -135,7 +138,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Überlegungen zum Verbinden von Projekten mit Zielen
 
@@ -154,7 +158,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 * Sie können den Fortschritt eines Projekts nicht manuell von dem Ziel aus aktualisieren, an das das Projekt angehängt ist. Stattdessen berechnet Workfront den Prozentsatz der Fertigstellung des Projekts und Workfront Goals berechnet den Zielfortschritt mithilfe dieses Prozentsatzes der Fertigstellung. Dadurch wird das Ziel in Echtzeit nach den prozentualen Aktualisierungen des Projekts aktualisiert.
 * Die Projektdauer kann außerhalb des Zeitraums eines Ziels liegen. Wenn ein Projekt länger als die Frist für das Ziel dauert, können Sie Ihr Ziel immer noch schließen und als abgeschlossen betrachten, aber das Ziel in Prozent abgeschlossen ist nicht 100 %. Der Prozentwert der Fertigstellung des Projekts wird nicht mehr auf dem Ziel aktualisiert.
 
-<!--this is no longer visible in the new redesigned interface for goals: logged a bug for this: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/63ceb049000080d30022aab9a359f6f1/updates - but confirmed that this will not be brought back at least for now - Jan 2023. 
+<!--
+this is no longer visible in the new redesigned interface for goals: logged a bug for this: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/63ceb049000080d30022aab9a359f6f1/updates - but confirmed that this will not be brought back at least for now - Jan 2023. 
 
 There is an indication on the goal list that the project no longer updates progress for the goal.
 

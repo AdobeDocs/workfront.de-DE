@@ -6,7 +6,9 @@ description: In diesem Artikel erfahren Sie mehr über die Richtlinien für die 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1004'
 ht-degree: 6%
@@ -30,7 +32,7 @@ Im Folgenden finden Sie Richtlinien zur Funktionsweise von Spaltenbreiten in Ado
 
 * Sie können die Spaltenbreite in Ihren Workfront-Listen und -Berichten an Ihre Anforderungen anpassen, je nachdem, welche Art von Informationen Sie in Spalten anzeigen möchten.
 
-  Sie können die Breite von Spalten vorübergehend ändern, während Sie eine Liste oder einen Bericht anzeigen, oder dauerhaft ändern, indem Sie die Breite der Spalte im View Builder anpassen. Informationen zum temporären Ändern der Spaltenbreite finden Sie im Abschnitt [Überlegungen beim temporären Ändern der Breite und Reihenfolge &#x200B;](#considerations-when-temporarily-modifying-the-width-and-order-of-columns) Spalten“ in diesem Artikel.
+  Sie können die Breite von Spalten vorübergehend ändern, während Sie eine Liste oder einen Bericht anzeigen, oder dauerhaft ändern, indem Sie die Breite der Spalte im View Builder anpassen. Informationen zum temporären Ändern der Spaltenbreite finden Sie im Abschnitt [Überlegungen beim temporären Ändern der Breite und Reihenfolge ](#considerations-when-temporarily-modifying-the-width-and-order-of-columns) Spalten“ in diesem Artikel.
 
 * Spalten, die in integrierten Ansichten angezeigt werden, haben Breiten, die zuvor von Workfront definiert wurden und hartcodiert sind. Um diese Breiten zu ändern, müssen Sie die Breite dieser Spalten mithilfe des Textmodus im View Builder manuell aktualisieren.
 
@@ -83,7 +85,7 @@ Sie können die Breite und Reihenfolge der Spalten in Ihren Berichten wie folgt 
 
 Sie können Spaltenrahmen ziehen, um die Spaltengröße zu ändern, und Spalten per Drag-and-Drop verschieben, um sie in den meisten Listen auf der gesamten Workfront-Site vorübergehend neu anzuordnen. Dazu gehören Berichte, Ansichten, Berichte zu Dashboards und die Gantt-Ansicht.
 
-Weitere Informationen zu Workfront-Listen finden Sie im Artikel &quot;[&#x200B; mit Listen in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Weitere Informationen zu Workfront-Listen finden Sie im Artikel &quot;[ mit Listen in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 * [Überlegungen beim vorübergehenden Ändern der Breite und Reihenfolge von Spalten](#considerations-when-temporarily-modifying-the-width-and-order-of-columns)
 * [Spaltengröße vorübergehend ändern](#resize-columns-temporarily)

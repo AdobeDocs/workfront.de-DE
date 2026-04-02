@@ -5,7 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '652'
 ht-degree: 7%
@@ -28,18 +30,18 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2025 ve
 
 Wir aktivieren einheitliche Genehmigungen, früher bekannt als „Neue Dokumentgenehmigungen“, in einem schrittweisen Rollout. Diese Funktion wird in den nächsten sechs Monaten automatisch in Ihrer Workfront-Instanz aktiviert.
 
-Einheitliche Genehmigungen ersetzen Genehmigungen für veraltete Dokumente und bieten die folgenden Funktionen direkt in einem Dokument:
+Einheitliche Genehmigungen ersetzen alte Dokumentgenehmigungen und bieten die folgenden Funktionen direkt in einem Dokument:
 
-* Benennen eines gesamten Workfront-Teams als Überprüfer oder Genehmiger
-* Termin für die Überprüfung oder Genehmigung festlegen
+* Ein ganzes Workfront-Team entweder als Prüfer oder als genehmigende Person bestimmen
+* Festlegen einer Frist für die Überprüfung oder Genehmigung
 * Erstellen und Wiederverwenden von Genehmigungsvorlagen
 * Verwenden neuer Versionen
 * Anzeigen mehrerer wichtiger Leistungsindikatoren für Ihre Genehmigungen in den Widgets der Workfront-Startseite
 * Verwenden von Arbeitsflächen-Dashboards zum Anzeigen von Berichtsdetails zu einheitlichen Genehmigungen
 
-Weitere Informationen finden Sie unter [Übersicht über die einheitlichen Genehmigungen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+Weitere Informationen finden Sie unter [Übersicht über einheitliche Genehmigungen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
-## Update für Desktop Proofing Viewer
+## Update der Desktop Proofing Viewer
 
 >[!NOTE]
 >
@@ -71,7 +73,7 @@ Workfront und GenStudio for Performance Marketing müssen in derselben IMS-Organ
 
 Weitere Informationen finden Sie unter [Erste Schritte mit der Integration von GenStudio for Performance Marketing und Workfront Proof](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md).
 
-## Update für Desktop Proofing Viewer
+## Update der Desktop Proofing Viewer
 
 Der Desktop Proofing Viewer wurde auf Version 2.1.48 aktualisiert.
 
@@ -84,36 +86,36 @@ Dieses Update ist sowohl für macOS als auch für Windows.
 
 >[!NOTE]
 >
->* Vorschauversion: 2. Juni 2025; Produktionsversion für alle Kunden: 2. Juni 2025
+>* Vorschau-Version: 2. Juni 2025; Produktionsversion für alle Kunden: 2. Juni 2025
 
-Google verbessert [die Sicherheitskontrollen](https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps) für Anwendungen von Drittanbietern, die auf Google Drive zugreifen, und erfordert, dass Anwendungen ein Einverständnismodell pro Benutzer verwenden. Daher müssen einzelne Elemente einzeln verknüpft sein, um in Workfront angezeigt zu werden. Weitere Informationen finden Sie unter [Dokumentintegrationen konfigurieren](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md).
+Google [ die Sicherheitskontrollen ](https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps) Drittanbieteranwendungen, die auf Google Drive zugreifen, und erfordert, dass Anwendungen ein Einverständnismodell pro Benutzer verwenden. Daher müssen einzelne Assets einzeln verknüpft werden, damit sie in Workfront sichtbar sind. Weitere Informationen [ Sie unter ](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md) von Dokumentintegrationen konfigurieren .
 
 Wichtige Funktionen, die unverändert bleiben:
 
-* Suchen und Filtern nach Elementen und Ordnern im Google Drive-Modus
+* Suchen und Filtern nach Assets und Ordnern über das Google Drive-Modal
 * Verknüpfen von Assets mit Workfront-Objekten von Google Drive
 * Hochladen von Assets in Google Drive über das Dropdown-Menü „Senden an“ auf der Dokumentseite
 * Anzeigen und Zugreifen auf die Ordnerstruktur im Bereich „Mein Laufwerk“ eines Benutzers
 * Verknüpfen einer neuen Version eines Assets von Google Drive mit einem vorhandenen Dokument in Workfront
 * Verknüpfen von Ordnern mit Workfront-Objekten von Google Drive
 * Hochladen von Assets in Google Drive durch Ziehen und Ablegen von Dokumenten in einen verknüpften Ordner
-* Neues Google Drive-Dokument in Workfront erstellen
+* Erstellen eines neuen Google Drive-Dokuments in Workfront
 
 
-## Schaltflächen für neue Dokumentgenehmigungsentscheidungen, die im Überprüfungsanzeiger verfügbar sind
+## Neue Schaltflächen für Dokumentgenehmigungsentscheidungen, die in der Proofing-Anzeige verfügbar sind
 
 >[!IMPORTANT]
 >
->Diese Funktion ist Teil einer phasengesteuerten Veröffentlichung und nur für bestimmte Kunden verfügbar.
+>Diese Funktion ist Teil einer stufenweisen Veröffentlichung und nur für bestimmte Kunden verfügbar.
 
 >[!NOTE]
 >
->* Vorschauversion: 10. April 2025; Produktionsversion für alle Kunden: 17. April 2025
+>* Vorschau-Version: 10. April 2025; Produktionsversion für alle Kunden: 17. April 2025
 
-Die Schaltflächen für die Entscheidung zur Genehmigung des neuen Dokuments werden jetzt im Überprüfungs-Viewer angezeigt. Wenn Sie jetzt einen einfachen Nachweis erstellen und dann Genehmiger und Überprüfer aus der Dokumentzusammenfassung hinzufügen, können diese ihre Entscheidung direkt im Überprüfungsanzeiger treffen.
+Die neuen Schaltflächen für die Entscheidung zur Dokumentgenehmigung werden jetzt in der Proofing-Anzeige angezeigt. Wenn Sie jetzt einen einfachen Korrekturabzug erstellen und genehmigende Personen und Prüfende aus der Dokumentzusammenfassung hinzufügen, können diese ihre Entscheidung direkt in der Korrekturabzugsansicht treffen.
 
-Früher mussten Sie den Überprüfungsanzeiger verlassen, um eine Entscheidung zu treffen.
+Zuvor mussten Sie die Proofing-Betrachter beenden, um eine Entscheidung zu treffen.
 
-Vor dieser Version erstellte Genehmigungen zeigen die Schaltflächen nicht im Überprüfungsanzeiger an.
+Bei Genehmigungen, die vor dieser Version erstellt wurden, werden die Schaltflächen in der Korrekturabzugsansicht nicht angezeigt.
 
-Weitere Informationen finden Sie unter [Gemeinsame Verwendung von Genehmigungen für neue Dokumente und Überprüfung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
+Weitere Informationen finden Sie unter [Verwenden von neuen Dokumentgenehmigungen und Proofing zusammen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).

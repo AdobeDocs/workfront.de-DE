@@ -1,11 +1,13 @@
 ---
 navigation-topic: use-lists
-title: Erste Schritte mit Listen in  [!DNL Adobe Workfront]
-description: Sie können Listen von Objekten in  [!DNL Adobe Workfront]  anzeigen, um Informationen zu ihnen abzurufen, z. B. ihr Start- und Fälligkeitsdatum, die ihnen zugewiesenen Benutzer und andere Objekte, die ihnen zugeordnet sind.
+title: Erste Schritte mit Listen in [!DNL Adobe Workfront]
+description: Sie können Listen von -Objekten in anzeigen [!DNL Adobe Workfront]  um Informationen über sie zu erhalten, z. B. ihr Start- und Fälligkeitsdatum, ihnen zugewiesene Benutzer und andere Objekte, die mit ihnen verknüpft sind.
 feature: Get Started with Workfront
 author: Courtney
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2301'
 ht-degree: 4%
@@ -16,11 +18,11 @@ ht-degree: 4%
 
 <!--Audited: 12/2025-->
 
-Sie können Listen von Objekten in [!DNL Adobe Workfront] anzeigen, um Informationen zu ihnen abzurufen, z. B. ihr Start- und Fälligkeitsdatum, ihnen zugewiesene Benutzer und andere Objekte, die ihnen zugeordnet sind.
+Sie können Listen von Objekten in [!DNL Adobe Workfront] anzeigen, um Informationen zu ihnen zu erhalten, z. B. ihr Start- und Fälligkeitsdatum, ihnen zugewiesene Benutzer und andere Objekte, die mit ihnen verknüpft sind.
 
-Im Folgenden sind einige Eigenschaften von Listen in [!DNL Workfront] aufgeführt:
+Im Folgenden finden Sie einige Merkmale von Listen in [!DNL Workfront]:
 
-* Führt die automatische Aktualisierung alle fünf Minuten auf, um Informationen zu aktualisieren, die andere Benutzer im System anderswo aktualisieren.
+* Listen werden automatisch alle fünf Minuten aktualisiert, um Informationen zu aktualisieren, die andere Benutzende im System an anderer Stelle aktualisieren.
 * Einige Bereiche in [!DNL Workfront] sind mit standardmäßigen Objektlisten vorkonfiguriert.
 
   Sie können die meisten dieser vorkonfigurierten Listen anpassen.
@@ -29,12 +31,12 @@ Im Folgenden sind einige Eigenschaften von Listen in [!DNL Workfront] aufgeführ
 
   Weitere Informationen zum Erstellen von Listen auf Systemebene finden Sie im Artikel [Erstellen, Bearbeiten und Freigeben von Standardfiltern, -ansichten und -gruppierungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
 
-* Im Folgenden sind die Listentypen in Workfront aufgeführt:
+* Im Folgenden finden Sie die Listentypen in Workfront:
 
    * Standardlisten
-   * Verbesserte Listen
+   * Erweiterte Listen
 
-  Weitere Informationen finden Sie im Abschnitt [Der Unterschied zwischen der Standardliste und der erweiterten Liste](#the-difference-between-the-standard-and-the-enhanced-lists) in diesem Artikel.
+  Weitere Informationen finden Sie im Abschnitt [Der Unterschied zwischen der Standard- und der erweiterten Liste](#the-difference-between-the-standard-and-the-enhanced-lists) in diesem Artikel.
 
 ## Zugriffsanforderungen
 
@@ -57,11 +59,11 @@ Im Folgenden sind einige Eigenschaften von Listen in [!DNL Workfront] aufgeführ
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Bearbeitungszugriff auf Filter, Ansichten, Gruppierungen </p> </td> 
+   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigung für einen Filter, eine Ansicht oder eine Gruppierung mit Zugriff auf die Freigabe anzeigen oder höher </p>  </td> 
+   <td> <p>Anzeigen von oder höheren Berechtigungen für einen Filter, eine Ansicht oder eine Gruppierung mit Zugriff auf die Freigabe </p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,7 +72,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 +++
 
-<!--Old access: 
+<!--
+Old access: 
 
 You must have the following access to perform the steps in this article:
 
@@ -102,11 +105,11 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 ## Objektlisten
 
-Im Folgenden sind einige Typen von Objektlisten aufgeführt, die Sie in [!DNL Workfront] finden können, sowie einige Bereiche, in denen sie standardmäßig angezeigt werden, wenn Sie über Rechte zum Anzeigen eines Objekts verfügen.
+Im Folgenden finden Sie einige Objektlisten, die Sie in [!DNL Workfront] finden können, sowie einige der Bereiche, in denen sie standardmäßig angezeigt werden, wenn Sie über die Berechtigung zum Anzeigen eines Objekts verfügen.
 
 >[!NOTE]
 >
->Diese Liste ist nicht umfassend. Jede dieser Objektlisten kann auch in einem Bericht oder in einem Dashboard angezeigt werden. Beispielsweise zeigt ein Projektbericht oder ein Dashboard, der bzw. das einen Projektbericht enthält, auch eine Liste von Projekten an.
+>Diese Liste ist nicht vollständig. Jede dieser Objektlisten kann auch in einem Bericht oder Dashboard angezeigt werden. Beispielsweise zeigt ein Projektbericht oder ein Dashboard, der bzw. das einen Projektbericht enthält, auch eine Liste der Projekte an.
 
 
 
@@ -116,7 +119,7 @@ Im Folgenden sind einige Typen von Objektlisten aufgeführt, die Sie in [!DNL Wo
  <thead> 
   <tr> 
    <th><strong>[!DNL Workfront] list</strong></th> 
-   <th><strong>Position der Objektliste</strong></th> 
+   <th><strong>Speicherort der Objektliste</strong></th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -131,12 +134,12 @@ Im Folgenden sind einige Typen von Objektlisten aufgeführt, die Sie in [!DNL Wo
    <td>Liste der Programme</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL -Portfolio] &gt;[!UICONTROL auf ein Portfolio klicken] &gt;[!UICONTROL -Programme]</p> </li> 
+     <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL klicken Sie auf ein Portfolio] &gt;[!UICONTROL Programme]</p> </li> 
      <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>[!UICONTROL Programme]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Liste der Projekte</td> 
+   <td>Projektliste</td> 
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Projekte]</p> </li> 
@@ -145,10 +148,10 @@ Im Folgenden sind einige Typen von Objektlisten aufgeführt, die Sie in [!DNL Wo
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Liste der Aufgaben</td> 
+   <td>Aufgabenliste</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL -Projekte] &gt;[!UICONTROL klicken auf ein Projekt] &gt; [!UICONTROL -Aufgaben]</p> </li> 
+     <li> <p>[!UICONTROL-Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt; [!UICONTROL-Aufgaben]</p> </li> 
      <li> <p>[!UICONTROL Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL Aufgaben] &gt;[!UICONTROL auf eine Aufgabe klicken] &gt;[!UICONTROL Unteraufgaben]</p> </li> 
      <li> <p>[!UICONTROL Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL Aufgaben] &gt;[!UICONTROL auf eine Aufgabe klicken] &gt; [!UICONTROL Vorgänger*]</p> </li> 
     </ul> </td> 
@@ -197,16 +200,16 @@ Im Folgenden sind einige Typen von Objektlisten aufgeführt, die Sie in [!DNL Wo
      <li> <p>[!UICONTROL Dokumente]</p> </li> 
      <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL auf ein Portfolio klicken] &gt; [!UICONTROL Dokumente]</p> </li> 
      <li> <p>[!UICONTROL Portfolios] &gt; [!UICONTROL auf ein Portfolio klicken] &gt;[!UICONTROL Programme] &gt;[!UICONTROL auf ein Programm klicken] &gt;[!UICONTROL Dokumente]</p> </li> 
-     <li> <p>[!UICONTROL -Projekte] &gt;[!UICONTROL klicken auf ein Projekt] &gt;[!UICONTROL -Dokumente]</p> </li> 
-     <li> <p>[!UICONTROL -Projekte] &gt;[!UICONTROL klicken auf ein Projekt] &gt;[!UICONTROL -Aufgaben] &gt;[!UICONTROL klicken auf eine Aufgabe] &gt; [!UICONTROL -Dokumente]</p> </li> 
-     <li> <p>[!UICONTROL -Projekte] &gt; [!UICONTROL klicken] auf ein Projekt &gt; [!UICONTROL -Probleme] &gt;[!UICONTROL klicken auf ein Problem] &gt; [!UICONTROL -Dokumente]</p> </li> 
+     <li> <p>[!UICONTROL-Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL-Dokumente]</p> </li> 
+     <li> <p>[!UICONTROL-Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL-Aufgaben] &gt;[!UICONTROL auf eine Aufgabe klicken] &gt; [!UICONTROL-Dokumente]</p> </li> 
+     <li> <p>[!UICONTROL Projekte] &gt; [!UICONTROL klicken] Ein Projekt &gt; [!UICONTROL Probleme] &gt;[!UICONTROL klicken Sie auf ein Problem] &gt; [!UICONTROL Dokumente]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Liste der Arbeitszeittabellen</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL -Arbeitszeittabellen] &gt; [!UICONTROL -Arbeitszeittabellen]*</p> </li> 
+     <li> <p>[!UICONTROL Arbeitszeittabellen] &gt; [!UICONTROL Alle Arbeitszeittabellen]*</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -227,24 +230,24 @@ Im Folgenden sind einige Typen von Objektlisten aufgeführt, die Sie in [!DNL Wo
    <td>Liste der Risiken</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL -Projekte] &gt;[!UICONTROL klicken auf ein Projekt] &gt;[!UICONTROL -Risiken]</p> </li> 
+     <li> <p>[!UICONTROL-Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL-Risiken]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Liste der Ausgaben</td> 
+   <td>Ausgabenliste</td> 
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Projekte] &gt;[!UICONTROL klicken] Sie auf ein Projekt &gt;[!UICONTROL Ausgaben]</p> </li> 
-     <li> <p>[!UICONTROL -Projekte] &gt; [!UICONTROL klicken auf ein Projekt] &gt;[!UICONTROL -Aufgaben] &gt;[!UICONTROL klicken auf eine Aufgabe] &gt;[!UICONTROL -Ausgaben]</p> </li> 
+     <li> <p>[!UICONTROL Projekte] &gt; [!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL Aufgaben] &gt;[!UICONTROL auf eine Aufgabe klicken] &gt;[!UICONTROL Ausgaben]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Liste der Stundeneinträge</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projekte] &gt; Klicken Sie auf ein Projekt</p> </li> 
-     <li> <p>[!UICONTROL -Projekte] &gt;[!UICONTROL klicken auf ein Projekt] &gt;[!UICONTROL -Aufgaben] &gt;[!UICONTROL klicken auf eine Aufgabe] &gt;[!UICONTROL -Stunden]</p> </li> 
-     <li> <p>[!UICONTROL Projects] &gt;[!UICONTROL click] a project &gt;[!UICONTROL Issues] &gt;[!UICONTROL click] a issue &gt;[!UICONTROL Hours]</p> </li>
+     <li> <p>[!UICONTROL Projekte] &gt;[!UICONTROL] Klicken Sie auf ein Projekt</p> </li> 
+     <li> <p>[!UICONTROL Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL Aufgaben] &gt;[!UICONTROL auf eine Aufgabe klicken] &gt;[!UICONTROL Stunden]</p> </li> 
+     <li> <p>[!UICONTROL Projekte] &gt;[!UICONTROL klicken] Ein Projekt &gt;[!UICONTROL Probleme] &gt;[!UICONTROL klicken] Ein Problem &gt;[!UICONTROL Stunden]</p> </li>
     </ul> </td> 
   </tr>
   <tr> 
@@ -258,19 +261,19 @@ Im Folgenden sind einige Typen von Objektlisten aufgeführt, die Sie in [!DNL Wo
     <td>Liste der Gruppen oder Untergruppen</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL -Setup] &gt;[!UICONTROL -Gruppen]</p> </li>
-     <li> <p>[!UICONTROL Setup] &gt;[!UICONTROL Groups] &gt;[!UICONTROL klicken Sie auf die übergeordnete Gruppe] &gt;[!UICONTROL -Untergruppen] </li> 
+     <li> <p>[!UICONTROL Setup] &gt;[!UICONTROL Groups]</p> </li>
+     <li> <p>[!UICONTROL Setup] &gt;[!UICONTROL Groups] &gt;[!UICONTROL klicken Sie auf die übergeordnete Gruppe] &gt;[!UICONTROL Subgroups] </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>Team-Liste</td> 
+   <td>Teamliste</td> 
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Setup] &gt;[!UICONTROL Teams]</p> </li> 
     </ul> </td> 
   </tr>
   <tr> 
-   <td>Liste der Unternehmen</td> 
+   <td>Liste der Gesellschaften</td> 
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Setup] &gt;[!UICONTROL Firmen]</p> </li> 
@@ -280,30 +283,30 @@ Im Folgenden sind einige Typen von Objektlisten aufgeführt, die Sie in [!DNL Wo
    <td>Liste der Zeitpläne</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL -Setup] &gt;[!UICONTROL -Zeitpläne]</p> </li> 
+     <li> <p>[!UICONTROL Setup] &gt;[!UICONTROL Zeitpläne]</p> </li> 
     </ul> </td> 
   </tr>
   <tr> 
-   <td>Liste der Layoutvorlagen</td> 
+   <td>Liste der Layout-Vorlagen</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL -Setup] &gt;[!UICONTROL -Layoutvorlagen]</p> </li> 
+     <li> <p>[!UICONTROL Setup] &gt;[!UICONTROL Layout-Vorlagen]</p> </li> 
     </ul> </td> 
   </tr>
  </tbody> 
 </table>
 
-*Sie können die Liste im angegebenen Bereich nicht anpassen. Ein [!DNL Workfront]-Administrator kann eine benutzerdefinierte Liste auf Systemebene erstellen. Sie können auch einen Bericht für dieses Objekt erstellen, wenn Sie auf der Zugriffsebene Zugriff zum Bearbeiten von Berichten haben.
+* Die Liste kann im angegebenen Bereich nicht angepasst werden. Ein [!DNL Workfront] kann eine benutzerdefinierte Liste auf Systemebene erstellen oder einen Bericht für dieses Objekt erstellen, wenn Sie auf Zugriffsebene Zugriff zum Bearbeiten von Berichten haben.
 
-## Elemente auflisten
+## Listenelemente
 
-Eine Liste enthält bestimmte Elemente, die ihr Format und die angezeigten Informationen definieren. Sie können verschiedene Systemlistenelemente finden, die standardmäßig verfügbar sind. Sie können auch benutzerdefinierte Elemente erstellen, die Ihren Anforderungen entsprechen.
+Eine Liste enthält bestimmte Elemente, die ihr Format und die angezeigten Informationen definieren. Es gibt mehrere Systemlistenelemente, die standardmäßig verfügbar sind. Sie können auch benutzerdefinierte Elemente erstellen, um Ihre Anforderungen zu erfüllen.
 
 >[!NOTE]
 >
->Wenn Sie einen neuen Filter, eine neue Ansicht oder eine neue Gruppierung aus einer Liste auswählen, bleibt diese Auswahl erhalten, selbst wenn Sie sich von [!DNL Workfront] abmelden oder Ihren Browser schließen.
+>Wenn Sie einen neuen Filter, eine neue Ansicht oder eine neue Gruppierung aus einer Liste auswählen, wird diese Auswahl auch dann beibehalten, wenn Sie sich von [!DNL Workfront] abmelden oder Ihren Browser schließen.
 
-Im Folgenden sind die Elemente einer Liste aufgeführt:
+Eine Liste umfasst die folgenden Elemente:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -317,15 +320,15 @@ Im Folgenden sind die Elemente einer Liste aufgeführt:
  <tbody> 
   <tr> 
    <td><strong>[!UICONTROL Filter]</strong></td> 
-   <td> <p>Filter verhindern, dass unnötige Informationen basierend auf den von Ihnen angegebenen Kriterien aus einer Liste entfernt werden. </p> <p>Weitere Informationen finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Übersicht über Filter</a>.</p> </td> 
+   <td> <p>Filter verhindern basierend auf den von Ihnen angegebenen Kriterien unnötige Informationen aus einer Liste. </p> <p>Weitere Informationen finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filter - Übersicht</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>[!UICONTROL Ansicht]</strong></td> 
-   <td> <p>Ansichten definieren, welche Felder (Spalten) auf dem Bildschirm angezeigt werden.</p> <p>Weitere Informationen finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Übersicht über Ansichten in [!DNL Adobe Workfront]</a>.</p> </td> 
+   <td> <p>In Ansichten wird festgelegt, welche Felder (Spalten) auf dem Bildschirm angezeigt werden.</p> <p>Weitere Informationen finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Ansichten - Übersicht in [!DNL Adobe Workfront]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>[!UICONTROL Gruppierung]</strong></td> 
-   <td> <p>Durch Gruppierungen werden die Objekte in der Liste anhand der von Ihnen angegebenen Kriterien in Bereiche getrennt.</p> <p>Beispielsweise können die Probleme in einer Liste in Abschnitten nach Status oder Priorität angezeigt werden.</p> <p>In einer Standardgruppierung können bis zu drei Ebenen von Gruppierungen vorhanden sein. Wenn Sie im Textmodus eine Gruppierung konfigurieren, können Sie eine vierte Ebene hinzufügen.</p> <p>Weitere Informationen zu Gruppierungen finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Gruppierungen - Übersicht in [!DNL Adobe Workfront]</a>.</p> <p>Weitere Informationen zum Textmodus finden Sie unter <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Textmodus - Übersicht</a>.</p> </td> 
+   <td> <p>Gruppierungen trennen die Objekte auf der Liste in Bereiche basierend auf den von Ihnen angegebenen Kriterien.</p> <p>Beispielsweise können die Probleme in einer Liste in Abschnitten nach Status oder Priorität angezeigt werden.</p> <p>In einer Standardgruppierung können bis zu drei Ebenen von Gruppierungen vorhanden sein. Wenn Sie im Textmodus eine Gruppierung konfigurieren, können Sie eine vierte Ebene hinzufügen.</p> <p>Weitere Informationen zu Gruppierungen finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Gruppierungen - Übersicht in [!DNL Adobe Workfront]</a>.</p> <p>Weitere Informationen zum Textmodus finden Sie unter <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Textmodus - Übersicht</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -345,7 +348,7 @@ Weitere Informationen zum Erstellen und Anpassen der Erstellungselemente von Lis
 
 ## Aktionen auflisten
 
-Sie können die folgenden Aktionen in einer Liste ausführen:
+Sie können die folgenden Aktionen in einer Liste abschließen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -367,19 +370,19 @@ Sie können die folgenden Aktionen in einer Liste ausführen:
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td><strong>Aktualisierung mit der [!UICONTROL Summary]</strong> </td> 
-   <td> <p>Aktualisieren Sie Aufgaben und Probleme auf Projektebene mithilfe des Bedienfelds [!UICONTROL Zusammenfassung].</p> <p><b>TIPP:</b></p> <p>Die Zusammenfassung ist nicht für alle Objekte verfügbar und nicht in den Aufgaben- oder Problemberichten.</p> <p>Weitere Informationen finden Sie unter <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Übersicht </a>.</p> </td> 
+   <td> <p>Aktualisieren Sie Aufgaben und Probleme auf Projektebene mithilfe des Bedienfelds [!UICONTROL Zusammenfassung].</p> <p><b>TIPP:</b></p> <p>Die Zusammenfassung ist nicht für alle Objekte verfügbar und auch nicht in Aufgaben- oder Problemberichten.</p> <p>Weitere Informationen finden Sie unter <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Übersicht</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Listenanzeige anpassen</strong> </td> 
-   <td> <p>Sie können das Erscheinungsbild einer Liste, die Spaltenanordnung, die Sortierreihenfolge von Elementen oder die Anzahl der angezeigten Elemente anpassen.</p> <p><b>HINWEIS:</b></p> <p>Änderungen an der Anzahl der Elemente, die auf einer Seite angezeigt werden sollen, werden zurückgesetzt, wenn Sie sich von [!DNL Workfront] abmelden oder Ihren Browser schließen. Änderungen können auch nach 8 Stunden rückgängig gemacht werden.</p> <p>Weitere Informationen finden Sie unter <a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">Ändern der Anzeige einer Liste</a>.</p> </td> 
+   <td> <p>Passen Sie das Erscheinungsbild einer Liste, die Spaltenanordnung, die Sortierreihenfolge der Elemente oder die Anzahl der angezeigten Elemente an.</p> <p><b>HINWEIS:</b></p> <p>Änderungen an der Anzahl der Elemente, die auf einer Seite angezeigt werden sollen, werden rückgängig gemacht, wenn Sie sich von [!DNL Workfront] abmelden oder Ihren Browser schließen. Änderungen können auch nach einem Zeitraum von 8 Stunden rückgängig gemacht werden.</p> <p>Weitere Informationen finden Sie unter <a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">Ändern der Anzeige einer Liste</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Schnellfilter</strong> </td> 
-   <td> <p>Mit einem Schnellfilter können Sie nur Elemente finden, die Ihnen wichtig sind, sodass Sie diese schnell überprüfen, aktualisieren oder für andere freigeben können.</p> <p><b>WICHTIG:</b></p> <p> Sie können nach Elementen suchen, die ein Suchwort enthalten, indem Sie den Schnellfilter verwenden, unabhängig davon, ob dieses Element auf Ihrem Bildschirm angezeigt wird oder nachdem Sie zum Ende der Seite gescrollt haben. Wenn Sie die Suchfunktionen Ihres Browsers verwenden, können Sie nur Elemente finden, die bereits auf dem Bildschirm sichtbar sind. Wenn Ihre Liste mehrere Seiten enthält, werden mit Schnellfiltern nur die Elemente auf der aktuellen Seite gesucht.</p> <p>Weitere Informationen finden Sie unter <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Anwenden des Schnellfilters auf eine Liste</a>.</p> </td> 
+   <td> <p>Wenden Sie einen Schnellfilter an, um nur Elemente zu finden, die für Sie wichtig sind, damit Sie sie schnell überprüfen, aktualisieren oder für andere freigeben können.</p> <p><b>WICHTIG:</b></p> <p> Sie können Elemente, die ein Suchwort enthalten, mithilfe des Schnellfilters finden, unabhängig davon, ob dieses Element auf Ihrem Bildschirm sichtbar ist oder angezeigt wird, nachdem Sie zum unteren Seitenrand gescrollt haben. Wenn Sie die Suchfunktionen Ihres Browsers verwenden, können Sie nur Elemente finden, die bereits auf dem Bildschirm sichtbar sind. Wenn Ihre Liste mehrere Seiten umfasst, finden Schnellfilter nur die Elemente auf der aktuellen Seite.</p> <p>Weitere Informationen finden Sie unter <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Anwenden des Schnellfilters auf eine Liste</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Exportieren</strong> </td> 
-   <td> <p>Eine Liste von Objekten aus [!DNL Workfront] exportieren. Wenn eine Liste mehr als 2000 Elemente enthält, ist das Exportieren der Liste die einzige Möglichkeit, alle Elemente auf einer Seite zu überprüfen.</p> <p>Weitere Informationen zum Exportieren einer Liste finden Sie unter <a href="../../../workfront-basics/navigate-workfront/use-lists/export-lists.md" class="MCXref xref">Exportieren einer Liste</a>. Weitere Informationen zu Exportformaten und -beschränkungen finden Sie unter <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Exportieren von Daten</a>.</p> </td> 
+   <td> <p>Exportiert eine Objektliste aus [!DNL Workfront]. Wenn eine Liste mehr als 2.000 Elemente enthält, ist der Export der Liste die einzige Möglichkeit, alle Elemente auf einer Seite zu überprüfen.</p> <p>Weitere Informationen zum Exportieren einer Liste finden Sie unter <a href="../../../workfront-basics/navigate-workfront/use-lists/export-lists.md" class="MCXref xref">Liste exportieren</a>. Weitere Informationen zu Exportformaten und -beschränkungen finden Sie unter <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Exportieren von Daten</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -411,22 +414,22 @@ In der folgenden Tabelle werden viele der in der Symbolleiste verfügbaren Symbo
   <tr> 
    <td> <img src="assets/qs-insert-task-below-icon-in-new-toolbar.png"> </td> 
    <td>[!UICONTROL Aufgabe unten einfügen]</td> 
-   <td> <p>Fügen Sie eine Aufgabe unter der ausgewählten Aufgabe ein.</p> <p>Dies ist nur für Aufgaben verfügbar. </p> </td> 
+   <td> <p>Fügt eine Aufgabe unterhalb der ausgewählten Aufgabe ein.</p> <p>Dies ist nur für Aufgaben verfügbar. </p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/edit-icon.png"> </td> 
    <td>[!UICONTROL Bearbeiten]</td> 
-   <td>Bearbeiten Sie das ausgewählte Element.</td> 
+   <td>Das ausgewählte Element bearbeiten.</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/copy-icon.png"> </td> 
    <td>[!UICONTROL Copy]</td> 
-   <td>Kopieren Sie das ausgewählte Element.</td> 
+   <td>Kopiert das ausgewählte Element.</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/delete.png"> </td> 
    <td>[!UICONTROL Löschen]</td> 
-   <td>Löschen Sie das ausgewählte Element.</td> 
+   <td>Löscht das ausgewählte Element.</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/qs-add-to-iteration-icon-in-new-toolbar-for-issues.png"> </td> 
@@ -455,18 +458,18 @@ In der folgenden Tabelle werden viele der in der Symbolleiste verfügbaren Symbo
   </tr> 
   <tr> 
    <td> <img src="assets/export.png"> </td> 
-   <td>[!UICONTROL -Export]</td> 
-   <td>Exportieren Sie die Liste in PDF-, Excel- oder tabulatorgetrennte Dateien.</td> 
+   <td>[!UICONTROL-Export]</td> 
+   <td>Exportieren Sie die Liste in Dateien mit PDF, Excel oder Tabulatoren.</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/qs-agile-icon-in-new-toolbar-task-list.png"> </td> 
    <td>[!UICONTROL Agile View]</td> 
-   <td>Zeigt die Liste in der agilen Ansicht an.<br>Diese Option ist nur für Aufgaben verfügbar.</td> 
+   <td>Zeigt die Liste in der Agile-Ansicht an.<br>Dies ist nur für Aufgaben verfügbar.</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/qs-gantt-chart-icon-in-new-toolbar.png"> </td> 
    <td>[!UICONTROL Gantt-Diagramm]</td> 
-   <td> <p>Zeigt die Liste in der [!UICONTROL Gantt Chart]-Ansicht an.</p> <p>Dies ist nur für Projekte und Aufgaben verfügbar.</p> </td> 
+   <td> <p>Liste in der Ansicht [!UICONTROL Gantt-Diagramm] anzeigen.</p> <p>Dies ist nur für Projekte und Aufgaben verfügbar.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-filter-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-filter-in-new-toolbar-with-blue-dot---small.png"> </p> </td> 
@@ -475,13 +478,13 @@ In der folgenden Tabelle werden viele der in der Symbolleiste verfügbaren Symbo
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-view-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-view-in-new-toolbar-with-blue-dot.png"> </p> </td> 
-   <td>Dropdown-Menü [!UICONTROL View]</td> 
-   <td> <p>Zeigt eine Liste mit Ansichten und zusätzliche Optionen zum Verwalten von Ansichten an, einschließlich der Erstellung einer Ansicht. </p> <p>Auf einem kleinen Bildschirm wird der Anzeigename durch das Symbol [!UICONTROL -Ansicht] ersetzt. Ein blauer Punkt wird auf dem Symbol [!UICONTROL View] angezeigt, wenn Sie eine andere Ansicht als "[!UICONTROL Standard]" anwenden.</p> </td> 
+   <td>[!UICONTROL Ansicht] Dropdown-Menü</td> 
+   <td> <p>Anzeigen einer Liste von Ansichten und zusätzlichen Optionen zum Verwalten von Ansichten, einschließlich der Erstellung einer Ansicht. </p> <p>Auf einem kleinen Bildschirm wird der Name der Ansicht durch das Symbol [!UICONTROL view] ersetzt. Wenn Sie eine andere Ansicht als "[!UICONTROL Standard]" anwenden, wird auf dem Symbol [!UICONTROL Ansicht] ein blauer Punkt angezeigt.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-grouping-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-grouping-in-new-toolbar-with-blue-dot.png"> </p> </td> 
-   <td>Dropdown-Menü [!UICONTROL Grouping]</td> 
-   <td> <p>Zeigt eine Liste von Gruppierungen an sowie zusätzliche Optionen zum Verwalten von Gruppierungen, einschließlich der Erstellung einer Gruppierung. </p> <p>Auf einem kleinen Bildschirm wird der Gruppierungsname durch das Symbol [!UICONTROL grouping] ersetzt. Auf dem Symbol [!UICONTROL Grouping] wird ein blauer Punkt angezeigt, wenn Sie eine andere Gruppierung als "[!UICONTROL Nothing]" anwenden.</p> </td> 
+   <td>Dropdown-Menü [!UICONTROL Gruppierung]</td> 
+   <td> <p>Zeigt eine Liste von Gruppierungen und zusätzliche Optionen zum Verwalten von Gruppierungen an, einschließlich der Erstellung einer Gruppierung. </p> <p>Auf einem kleinen Bildschirm wird der Gruppierungsname durch das Symbol [!UICONTROL grouping] ersetzt. Wenn Sie eine andere Gruppierung als "[!UICONTROL Nothing]" anwenden, wird auf dem Symbol [!UICONTROL Gruppierung] ein blauer Punkt angezeigt.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <img src="assets/qs-autosave-icon-in-new-toolbar-for-tasks.png"> </td> 
@@ -500,7 +503,7 @@ In der folgenden Tabelle werden viele der in der Symbolleiste verfügbaren Symbo
   </tr> 
   <tr> 
    <td> <img src="assets/comment-icon.png"> </td> 
-   <td>[!UICONTROL -Kommentar] /[!UICONTROL -Update]</td> 
+   <td>[!UICONTROL-Kommentar] /[!UICONTROL-Update]</td> 
    <td> <p>Geben Sie einen Kommentar oder eine Aktualisierung ein.</p> </td> 
   </tr> 
  </tbody> 
@@ -530,7 +533,7 @@ In der folgenden Tabelle sind die Ähnlichkeiten und Unterschiede zwischen Liste
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Nur ein [!DNL Workfront]-Administrator und Benutzer mit einer [!UICONTROL Plan]-Lizenz können sie erstellen.</p> </td> 
+   <td> <p>Nur ein [!DNL Workfront] und Benutzer mit einer [!UICONTROL Plan]-Lizenz können sie erstellen</p> </td> 
    <td> </td> 
    <td>✓**</td> 
   </tr> 
@@ -540,12 +543,12 @@ In der folgenden Tabelle sind die Ähnlichkeiten und Unterschiede zwischen Liste
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Anpassbar im Standardmodus</p> </td> 
+   <td> <p>Im Standardmodus anpassbar</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Anpassbar im Textmodus</p> </td> 
+   <td> <p>Im Textmodus anpassbar</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -570,17 +573,17 @@ In der folgenden Tabelle sind die Ähnlichkeiten und Unterschiede zwischen Liste
    <td> ✓ </td> 
   </tr> 
   <tr> 
-   <td> <p>Sie können die Übermittlung per E-Mail planen.</p> </td> 
+   <td> <p>Sie können den Versand in einer E-Mail planen</p> </td> 
    <td> </td> 
    <td>✓ </td> 
   </tr> 
   <tr> 
-   <td> <p>Sie können einer Layoutvorlage</p> </td> 
+   <td> <p>Sie können zu einer Layout-Vorlage hinzufügen</p> </td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Sie können sie benutzerdefinierten Abschnitten hinzufügen </p> </td> 
+   <td> <p>Sie können sie zu benutzerdefinierten Abschnitten hinzufügen </p> </td> 
    <td> </td> 
    <td>✓</td> 
   </tr> 
@@ -590,7 +593,7 @@ In der folgenden Tabelle sind die Ähnlichkeiten und Unterschiede zwischen Liste
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Sie können Eingabeaufforderungen verwenden, um ihre Anzeige anzupassen</p> </td> 
+   <td> <p>Sie können Eingabeaufforderungen verwenden, um anzupassen, was sie anzeigen</p> </td> 
    <td> </td> 
    <td>✓</td> 
   </tr> 
@@ -600,14 +603,14 @@ In der folgenden Tabelle sind die Ähnlichkeiten und Unterschiede zwischen Liste
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Sie können darin enthaltene Objekte inline bearbeiten</p> </td> 
+   <td> <p>Sie können Objekte darin inline bearbeiten</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
  </tbody> 
 </table>
 
-*Sie müssen Zugriff auf Filter, Ansichten und Gruppierungen haben, um sie erstellen zu können. Weitere Informationen finden Sie unter [Zugriff auf Filter, Ansichten und Gruppierungen gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+* Sie müssen Zugriff auf Filter, Ansichten und Gruppierungen haben, um sie erstellen zu können. Weitere Informationen finden Sie unter [Zugriff auf Filter, Ansichten und Gruppierungen gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
 **Sie müssen Zugriff auf Filter, Ansichten und Gruppierungen sowie auf Berichte, Dashboards und Kalender haben, um diese erstellen zu können. Weitere Informationen finden Sie unter [Zugriff auf Berichte, Dashboards und Kalender gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
@@ -661,7 +664,7 @@ Die folgende Tabelle zeigt einige der Unterschiede zwischen den standardmäßige
   </tr> 
   <tr> 
    <td><p>Sie können Änderungen der Zellfarbe auf Elemente in einer Liste anwenden</p></td>
-   <td><p>Die Zellenfarbänderungen können nicht auf Elemente in einer Liste angewendet werden. </p></td>
+   <td><p>Änderungen der Zellfarbe können nicht auf Elemente in einer Liste angewendet werden. </p></td>
    </td> 
    <td></td> 
   </tr> 
@@ -669,9 +672,11 @@ Die folgende Tabelle zeigt einige der Unterschiede zwischen den standardmäßige
 </table>
 
 <!--
-consider adding things like adding fields on the fly in an enhanced list when we will be able to do this-->
+consider adding things like adding fields on the fly in an enhanced list when we will be able to do this
+-->
 
-<!--old table: 
+<!--
+old table: 
 <table style="table-layout:auto"> 
  <col> 
  <col> 

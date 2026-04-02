@@ -6,7 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: 4f6909c2862f120c14798c089de52ac6679e7fd9
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 4%
@@ -24,7 +26,7 @@ In-App-Benachrichtigungen von Workfront Planning können empfangen werden, wenn 
 
   Informationen zum Tagging anderer Personen in einem Datensatzkommentar finden Sie unter [Verwalten von Datensatzkommentaren](/help/quicksilver/planning/records/manage-record-comments.md).
 * Jemand fragt nach Ihrer Berechtigung für den Zugriff auf eine Ansicht oder einen <!--<span class="preview">or record</span>-->
-* Jemand bestätigt, dass Ihr Zugriff für eine Ansicht oder einen <!--<span class="preview">or record</span>--> gewährt wurde <!--Isk confirmed there is no notification for denying permissions - did not test-->
+* Jemand bestätigt, dass Ihr Zugriff für eine Ansicht oder einen <!--<span class="preview">or record</span> Isk confirmed there is no notification for denying permissions - did not test--> gewährt wurde
 
 ## Zugriffsanforderungen
 

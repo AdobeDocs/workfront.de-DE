@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1994'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
-# Genehmigungsprozess bearbeiten
+# Bearbeiten eines Genehmigungsprozesses
 
 <!--Audited: 08/2025-->
 
@@ -37,7 +39,7 @@ Informationen zum Erstellen von Genehmigungsprozessen finden Sie unter [Erstelle
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,7 +57,7 @@ Informationen zum Erstellen von Genehmigungsprozessen finden Sie unter [Erstelle
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p>
- <p>Plan</p> 
+ <p>Abo</p> 
 </td> 
   </tr> 
   <tr> 
@@ -92,7 +94,8 @@ For this article, the old access was:
    <td> <p>Administrative access to Approval Processes if you are not a System Administrator</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Bearbeiten eines vorhandenen Genehmigungsprozesses
 
@@ -100,7 +103,7 @@ For this article, the old access was:
 
 1. (Bedingt) Wenn Sie einen Genehmigungsprozess auf Systemebene bearbeiten, klicken Sie im linken Bereich auf **Prozesse** > **Genehmigungen**.
 
-   Oder
+   ODER
 
    Wenn Sie einen Genehmigungsprozess auf Gruppenebene bearbeiten, gehen Sie wie folgt vor:
 
@@ -207,7 +210,7 @@ For this article, the old access was:
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p role="rowheader">Phase hinzufügen</p> </td> 
+      <td role="rowheader"> <p role="rowheader">Schritt hinzufügen</p> </td> 
       <td>(Optional) Fügen Sie dem Pfad einen weiteren Schritt hinzu, indem Sie die Optionen verwenden, die in den drei obigen Zeilen erläutert werden. Sie können dem Pfad so viele Phasen hinzufügen, wie Sie benötigen.</td> 
      </tr>
      <tr> 

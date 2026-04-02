@@ -1,19 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Dokumentieren des Entscheidungsstatus - Übersicht
+title: Überblick über den Entscheidungsstatus eines Dokuments
 description: Der Status der Dokumentenentscheidung wird aufgelistet und erläutert
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: fcdb935b148ed7f8b9c49476f099f8285e02b0b5
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '178'
-ht-degree: 5%
+ht-degree: 10%
 
 ---
 
-# Dokumentieren des Entscheidungsstatus - Übersicht
+# Überblick über den Entscheidungsstatus eines Dokuments
 
 Sie können den Status des Dokuments direkt in der Dokumentliste einsehen:
 
@@ -107,9 +109,11 @@ Die folgenden Status sind verfügbar:
                     </td>
                     <td>
                         <ul>
-                           <!--<li>
+                           <!--
+                           <li>
                                 <p>All approvals and reviews are complete</p>
-                            </li>-->
+                            </li>
+                            -->
                             <li>
                                 <p>Alle genehmigenden Personen haben möglicherweise Entscheidungen vom Typ „Genehmigt“ getroffen.
                             </li>

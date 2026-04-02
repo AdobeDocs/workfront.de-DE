@@ -6,14 +6,16 @@ description: Sie können die Lösung eines Problems manuell mit der Lösung eine
 author: Alina
 feature: Work Management
 exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 4%
+ht-degree: 12%
 
 ---
 
-# Die Lösung eines Problems manuell mit anderen Problemen, Aufgaben oder Projekten verknüpfen
+# Manuelles Verknüpfen der Lösung eines Problems mit anderen Problemen, Aufgaben oder Projekten
 
 <!--Audited: 08/2025-->
 
@@ -39,8 +41,8 @@ Weitere Informationen zum Auflösen und Auflösen von Objekten finden Sie unter 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Mitwirkender oder höher</p> 
-   <p>Anfrage oder höher</p> </td> 
+   <td><p>Mitwirkende oder höher</p> 
+   <p>Anfragende oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -53,11 +55,12 @@ Weitere Informationen zum Auflösen und Auflösen von Objekten finden Sie unter 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -80,7 +83,8 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    <td> <p>Manage permissions to the issue you link to another issue, task, or project</p> <p>View or higher permissions to the issue, task, or project you add to the existing issue</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Voraussetzungen
 
@@ -101,7 +105,7 @@ Bevor Sie beginnen, müssen Sie Folgendes tun:
 
    * **Projekt**
    * **Aufgabe**
-   * **Probleme**
+   * **Problem**
 
    Je nach ausgewähltem Objekt werden die folgenden Felder angezeigt:
 

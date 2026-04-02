@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Gruppierung: Vorgänge nach Portfolio, Programm und Projekt'
-description: Verwenden Sie diese Vorgangsgruppierung, um Vorgänge nach dem Portfolio, nach Programm und dann nach dem Projekt zu gruppieren, mit dem sie verknüpft sind.
+title: 'Gruppierung: Aufgaben nach Portfolio, Programm und Projekt'
+description: Verwenden Sie diese Aufgabengruppierung, um Aufgaben nach Portfolio, Programm und Projekt zu gruppieren, dem sie zugeordnet sind.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 8fdad6a1-54b3-4d3e-8f21-4f2efc2dc27a
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 23%
@@ -18,7 +20,7 @@ ht-degree: 23%
 
 <!--Audited: 10/2024-->
 
-Verwenden Sie diese Vorgangsgruppierung, um Vorgänge nach dem Portfolio, nach Programm und dann nach dem Projekt zu gruppieren, mit dem sie verknüpft sind.
+Verwenden Sie diese Aufgabengruppierung, um Aufgaben nach Portfolio, Programm und Projekt zu gruppieren, dem sie zugeordnet sind.
 
 ![Portfolio-Programmprojektgruppierung](assets/portfolio-program-project-grouping-for-tasks-350x120.png)
 
@@ -37,16 +39,16 @@ Verwenden Sie diese Vorgangsgruppierung, um Vorgänge nach dem Portfolio, nach P
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Anbieter oder Anforderung zum Ändern eines Filters </p>
-   <p>Standard oder Abo zum Ändern eines Berichts</p>
+   <p>Mitwirkender oder Anfrage zum Ändern eines Filters </p>
+   <p>Standard oder Plan zum Ändern eines Berichts</p>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Bearbeitungszugriff auf Filter, Ansichten, Gruppierungen zum Ändern eines Filters</p> </td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p>  </td> 
+   <td> <p>Verwalten von Berechtigungen für einen Bericht</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,15 +59,15 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 ## Aufgaben nach Portfolio, Programm und Projekt gruppieren
 
-So wenden Sie diese Gruppierung an:
+Um diese Gruppierung anzuwenden:
 
-1. Wechseln Sie zu einer Liste von Aufgaben.
-1. Wählen Sie im Dropdown-Menü **Gruppierung** die Option **Neue Gruppierung** aus.
-1. Klicken Sie auf **Gruppierung hinzufügen**.
+1. Zu einer Aufgabenliste gehen.
+1. Wählen Sie **Dropdown-Menü** Gruppierung“ **Neue Gruppierung** aus.
+1. Klicken Sie **Gruppierung hinzufügen**.
 
-1. Klicken Sie auf **In Textmodus wechseln**.
-1. Entfernen Sie den Text im Bereich **Gruppe nach**.
-1. Ersetzen Sie den Text durch folgenden Code:
+1. Klicken **Wechseln Sie in den Textmodus**.
+1. Entfernen Sie den Text im Bereich **Gruppieren nach**.
+1. Ersetzen Sie den Text durch den folgenden Code:
 
    ```
    group.0.linkedname=project
@@ -84,6 +86,6 @@ So wenden Sie diese Gruppierung an:
    textmode=true
    ```
 
-1. Klicken Sie auf **Fertig** > **Gruppierung speichern**.
-1. (Optional) Aktualisieren Sie den Gruppierungsnamen, und klicken Sie dann auf **Gruppierung speichern**.
+1. Klicken Sie **Fertig** > **Gruppierung speichern**.
+1. (Optional) Aktualisieren Sie den Gruppierungsnamen und klicken Sie dann auf **Gruppierung speichern**.
 

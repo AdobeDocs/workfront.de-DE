@@ -6,14 +6,16 @@ description: Sie können Benutzer aus einem Projekt entfernen, wenn sie nicht me
 author: Alina
 feature: Work Management
 exl-id: 3a75c78d-faed-41cd-a0a4-59504bb981af
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '510'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
-# Benutzer aus Projekten entfernen
+# Entfernen von Benutzenden aus Projekten
 
 Sie können Benutzer aus einem Projekt entfernen, wenn sie nicht mehr an der Fertigstellung der Arbeit am Projekt beteiligt sind. Das Entfernen von Benutzern aus Projekten wirkt sich auf Aufgaben- und Problemzuweisungen sowie auf Projektrollen aus. Entfernte Benutzer erhalten keine Benachrichtigungen mehr, die für das Projekt-Team vorgesehen sind. Weitere Informationen zu Benachrichtigungen für die Projekt-Teams finden Sie unter [Ereignistypen](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
@@ -21,7 +23,7 @@ Die mit einem Projekt verknüpften Benutzer werden im Bereich Personen eines Pro
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +36,7 @@ Die mit einem Projekt verknüpften Benutzer werden im Bereich Personen eines Pro
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p> 
-   <p>Plan</p> </td> 
+   <p>Abo</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -47,11 +49,12 @@ Die mit einem Projekt verknüpften Benutzer werden im Bereich Personen eines Pro
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -76,7 +79,8 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    <td> <p>Manage permissions on the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Wie sich das Entfernen eines Benutzers auf vorhandene Aufgaben, Probleme und Projekte auswirkt
 

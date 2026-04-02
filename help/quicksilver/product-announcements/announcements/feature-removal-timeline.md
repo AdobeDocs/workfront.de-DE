@@ -7,10 +7,12 @@ description: Verschiedene Funktionen werden aus dem Adobe Workfront-Produkt schr
 author: Luke
 feature: Product Announcements
 exl-id: 119d65c7-2925-4b36-832a-ee06a718ce7e
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
@@ -34,7 +36,7 @@ Verschiedene Funktionen werden aus dem Adobe Workfront-Produkt schrittweise entf
    <td> <p>Letzte Version mit neuen Funktionsverbesserungen in Classic mit Version 21.2</p> <p>Wird ab 31. März 2022 nicht mehr unterstützt</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Internet Explorer-Unterstützung</p> <p>Nachdem die Unterstützung für Internet Explorer eingestellt wurde, unterstützt Workfront jetzt offiziell Microsoft Edge. </p> <p>Weitere Informationen zu unterstützten Browsern finden Sie unter <a href="../../workfront-basics/workfront-browser-requirements.md" class="MCXref xref">Adobe Workfront-Browser-Anforderungen</a>.</p> </td> 
+   <td> <p>Unterstützung für Internet Explorer</p> <p>Nachdem die Unterstützung für Internet Explorer eingestellt wurde, unterstützt Workfront jetzt offiziell Microsoft Edge. </p> <p>Weitere Informationen zu unterstützten Browsern finden Sie unter <a href="../../workfront-basics/workfront-browser-requirements.md" class="MCXref xref">Adobe Workfront-Browser-Anforderungen</a>.</p> </td> 
    <td>Mit Version 21.1</td> 
    <td>Wird von Version 21.2 nicht mehr unterstützt</td> 
   </tr> 
@@ -44,7 +46,7 @@ Verschiedene Funktionen werden aus dem Adobe Workfront-Produkt schrittweise entf
    <td> <p>Wird ab dem 9. November 2020 nicht mehr unterstützt (mit Version 20.4)</p> <p>—</p> <p>Aus der Workfront-Plattform nach der ersten Jahreshälfte 2022 entfernt</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Legacy Workfront Fusion</p> <p>Workfront Fusion bietet ein verbessertes Erlebnis mit dem bisherigen Workfront Fusion-Tool.</p> <p>Weitere Informationen zu Workfront Fusion finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/workfront-fusion/using/home">Adobe Workfront Fusion</a>.</p> </td> 
+   <td> <p>Legacy Workfront Fusion</p> <p>Workfront Fusion bietet ein verbessertes Erlebnis mit dem bisherigen Workfront Fusion-Tool.</p> <p>Weitere Informationen zu Workfront Fusion finden Sie unter <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home">Adobe Workfront Fusion</a>.</p> </td> 
    <td> </td> 
    <td>Am 31. März 2021 aus der Workfront-Plattform entfernt</td> 
   </tr> 
@@ -52,19 +54,24 @@ Verschiedene Funktionen werden aus dem Adobe Workfront-Produkt schrittweise entf
    <td> <p>Flash</p> <p>In Workfront stehen jetzt verschiedene Tools als Ersatz für jedes Flash-basierte Tool zur Verfügung. Weitere Informationen finden Sie unter <a href="../../product-announcements/announcements/announcement-archive/replace-flash-tools.md" class="MCXref xref">Ersetzen von Flash-basierten Tools in Adobe Workfront</a>.</p> </td> 
    <td> </td> 
    <td> <p> </p> <p>Am 19. November 2020 aus der Workfront-Plattform entfernt</p> </td> 
-  </tr> <!--
+  </tr>
+  <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td> <p>Enhanced Authentication 1.0</p> <p>The method of migrating to the new Enhanced Authentication 2.0 depends on whether you are using Legacy Authentication or Enhanced Authentication 1.0. For more information, see <a href="../../administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md" class="MCXref xref">Enhanced Authentication overview</a>.</p> </td> 
     <td>&nbsp;</td> 
     <td>2021</td> 
    </tr>
-  --> <!--
+  -->
+  <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> <p>Allowlist updates </p> <!--
+    <td> <p>Allowlist updates </p>
+    <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Split</p>
-     --> <!--
+     -->
+     <!--
       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Email Service updated (MailGun)</p>
-     --> </td>
+     -->
+     </td>
 
 </tr>
 

@@ -6,7 +6,9 @@ description: Sie können durch die Erstellung von Berichten Zugriff auf die Info
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1816'
 ht-degree: 4%
@@ -46,12 +48,12 @@ Weitere Informationen zum Erstellen und Verwalten von Berichten, einschließlich
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfiguration auf Zugriffsebene</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten</p> <p>Bearbeitungszugriff auf Filter, Ansichten, Gruppierungen</p> </td> 
+   <td role="rowheader">Konfiguration der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Sie erhalten Verwaltungsberechtigungen für die Berichte, die Sie erstellen</p>  </td> 
+   <td> <p>Sie erhalten Verwaltungsberechtigungen für die von Ihnen erstellten Berichte</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -64,21 +66,21 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 {{step1-to-reports}}
 
-1. Klicken Sie auf **Neuer Bericht**, und wählen Sie dann den gewünschten Objekttyp für den Bericht aus.
+1. Klicken Sie **Neuer Bericht** und wählen Sie dann den Objekttyp aus, den Sie für den Bericht benötigen.
 
-   Der Report Builder wird geladen.
+   Report Builder wird geladen.
 
-   Spezifische Informationen zu verfügbaren Objektberichten finden Sie im Abschnitt [Berichte zu Objekten](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) im Artikel [Objekte in Adobe Workfront verstehen](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+   Spezifische Informationen zu verfügbaren Objektberichten finden Sie im Abschnitt [Berichte zu Objekten](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) im Artikel &quot;[ von Objekten in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
    ![Neuen Bericht auswählen](assets/nwe-select-new-report-350x666.png)
 
    >[!TIP]
    >
-   >Sie können einen Bericht auch erstellen, indem Sie eine Kopie eines vorhandenen Berichts erstellen. Weitere Informationen finden Sie unter [Erstellen einer Kopie eines Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+   >Sie können auch einen Bericht erstellen, indem Sie eine Kopie eines vorhandenen Berichts erstellen. Weitere Informationen finden Sie unter [Erstellen einer Berichtskopie](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
-1. (Optional) Um den Titel Ihres neuen Berichts zu bearbeiten, geben Sie Ihren gewünschten Berichtstitel in das Textfeld in der oberen linken Ecke des Berichts-Generators ein. Es wird empfohlen, nur UTF-8-Zeichen zu verwenden, um Kompatibilitätsprobleme zu vermeiden.
+1. (Optional) Um den Titel Ihres neuen Berichts zu bearbeiten, geben Sie den gewünschten Berichtstitel in das Textfeld oben links im Report Builder ein. Es wird empfohlen, nur UTF-8-Zeichen zu verwenden, um Kompatibilitätsprobleme zu vermeiden.
 
-1. Fügen Sie im Report Builder dem Bericht Folgendes hinzu:
+1. Fügen Sie in Report Builder Folgendes zu Ihrem Bericht hinzu:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -100,7 +102,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
      </tr> 
      <tr> 
       <td>Filter</td> 
-      <td> <p>Durch das Hinzufügen von Filterregeln zu Ihrem Bericht werden die Informationen bestimmt, die in Ihrem Bericht angezeigt werden.</p> <p>Informationen zum Hinzufügen eines Filters finden Sie unter <a href="#add-filters-to-a-report" class="MCXref xref">Hinzufügen von Filtern zu einem Bericht</a>.</p> </td> 
+      <td> <p>Durch das Hinzufügen von Filterregeln zu Ihrem Bericht werden die Informationen bestimmt, die Sie in Ihrem Bericht sehen.</p> <p>Informationen zum Hinzufügen eines Filters finden Sie unter <a href="#add-filters-to-a-report" class="MCXref xref">Hinzufügen von Filtern zu einem Bericht</a>.</p> </td> 
      </tr> 
      <tr> 
       <td>Diagramm</td> 
@@ -114,9 +116,9 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 ### Spalten (Ansicht) zu einem Bericht hinzufügen {#add-columns-view-to-a-report}
 
-1. Beginnen Sie mit der Erstellung eines Berichts, wie [&#x200B; Abschnitt „Erstellen eines &#x200B;](#create-a-report)&quot; in diesem Artikel beschrieben.
+1. Beginnen Sie mit der Erstellung eines Berichts, wie [ Abschnitt „Erstellen eines ](#create-a-report)&quot; in diesem Artikel beschrieben.
 1. Wählen Sie in Report Builder die Registerkarte **Spalten (Ansicht)**, um die Spalten zu identifizieren, die im Bericht angezeigt werden sollen.
-1. (Optional) Klicken Sie auf **Vorhandene Ansicht anwenden** und klicken Sie im Dropdown-Menü auf den Namen einer Ansicht, um eine vorhandene Ansicht zu verwenden.
+1. (Optional) Klicken Sie **Vorhandene Ansicht anwenden** und klicken Sie im Dropdown-Menü auf den Namen einer Ansicht, um eine vorhandene Ansicht zu verwenden.
 
    Weitere Informationen zum Erstellen einer Ansicht finden Sie unter [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
@@ -126,17 +128,17 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
    ODER
 
-   Um eine vorhandene Spalte zu ändern, klicken Sie auf die Spalte, klicken Sie auf das Symbol **Entfernen** ![Spaltensymbol entfernen](assets/remove-column-icon.png) rechts neben dem aktuellen Feld im Bereich **In diesem Spaltenfeld anzeigen** in der oberen linken Ecke des Berichts-Generators, und geben Sie ein neues Feld ein. Klicken Sie dann auf dieses Feld, wenn es in der Liste angezeigt wird.
+   Um eine vorhandene Spalte zu ändern, klicken Sie auf die Spalte, klicken Sie auf das **Entfernen**-Symbol ![Entfernen-Symbol](assets/remove-column-icon.png) rechts neben dem aktuellen Feld im Bereich **In diesem Spaltenfeld** anzeigen) in der linken oberen Ecke von Report Builder, und beginnen Sie mit der Eingabe eines neuen Felds. Klicken Sie dann auf das Feld, wenn es in der Liste angezeigt wird.
 
-   Weitere Informationen zu den Feldern, die in den Spalten angezeigt werden, finden Sie unter [Glossar der Adobe Workfront-Terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   Weitere Informationen zu den Feldern, die Sie in den Spalten sehen, finden Sie unter [Glossar der Adobe Workfront-Terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-   ![Spaltenvorlauf hinzufügen](assets/nwe-add-column-typeahead-350x459.png)
+   ![Spaltentypvervollständigung hinzufügen](assets/nwe-add-column-typeahead-350x459.png)
 
-1. (Optional) Wählen Sie im Bereich **Spalteneinstellungen** die Option **Nach dieser Spalte sortieren** aus, um die Werte in der Spalte entweder in aufsteigender oder in absteigender alphabetischer Reihenfolge zu sortieren. Geben Sie dann an, ob die Liste diese Spalte als erste Sortierung verwenden soll.
+1. (Optional) Klicken Sie im Bereich **Spalteneinstellungen** auf **Sortieren nach dieser Spalte**, um die Werte in der Spalte entweder in aufsteigender oder in absteigender alphabetischer Reihenfolge zu sortieren. Geben Sie dann an, ob die Liste diese Spalte als erste Sortierung verwenden soll.
 
-   Sie können mehrere Sortierebenen in einer Berichtsansicht haben, wenn Sie zuerst nach dem Wert in einer Spalte, dann nach dem Wert in einer zweiten Spalte usw. sortieren möchten.
+   Sie können in einer Berichtsansicht mehrere Sortierebenen haben, wenn Sie nach dem Wert in einer ersten Spalte, dem Wert in einer zweiten Spalte usw. sortieren möchten.
 
-   Wenn mehrere Ergebnisse gemäß den ersten Sortierkriterien identisch sind, werden sie in der Reihenfolge der zweiten Sortierkriterien sortiert. Wenn mehrere Ergebnisse nach dem ersten und zweiten Sortierkriterium identisch sind, werden sie nach dem dritten Sortierkriterium sortiert usw.
+   Wenn mehrere Ergebnisse nach den ersten Sortierkriterien identisch sind, werden sie in der Reihenfolge der zweiten Sortierkriterien sortiert. Wenn mehrere Ergebnisse nach dem ersten und zweiten Sortierkriterium identisch sind, werden sie nach dem dritten Sortierkriterium sortiert usw.
 
    >[!NOTE]
    >
@@ -159,9 +161,9 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
    >
    >* Alle Zahlen- und Währungsfelder mit Ausnahme der tatsächlichen Stunden (z. B. geplante oder Ist-Lohnkosten, geplante oder Ist-Ausgaben-Kosten, geplante oder Ist-Kosten, geplante Stunden) aggregieren nur die Werte für untergeordnete Aufgaben und eigenständige Aufgaben. Sie aggregieren nicht die Werte für die übergeordneten Aufgaben oder die übergeordneten Aufgaben.
    >* Tatsächliche Stunden aggregieren die Werte für die übergeordnete Hauptaufgabe und die eigenständigen Aufgaben. Sie aggregieren nicht die Zahlen für die übergeordneten Aufgaben oder die untergeordneten Aufgaben.
-   >* Benutzerdefinierte Datenfelder für Zahlen- und Währungswerte aggregieren alle Vorgänge: übergeordnete Elemente, untergeordnete Elemente, übergeordnete Elemente von übergeordneten Elementen und eigenständige Vorgänge.
+   >* Benutzerdefinierte Datenfelder für Zahlen- und Währungswerte aggregieren alle Aufgaben: Eltern, Kinder, Eltern von Eltern und eigenständige Aufgaben.
 
-   Weitere Informationen zur Verwendung von Gruppierungen in einem Bericht finden Sie unter [Übersicht über Gruppierungen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Weitere Informationen zur Verwendung von Gruppierungen in einem Bericht finden Sie unter [Gruppierungen - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. (Optional) Klicken Sie auf **Erweiterte Optionen**, um die folgenden Informationen für die Spalte anzugeben:
 
@@ -171,7 +173,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
     <tbody> 
      <tr> 
       <td role="rowheader">Benutzerdefiniertes Spalten-Label</td> 
-      <td> <p>Geben Sie eine benutzerdefinierte Bezeichnung für die Spalte an. Diese Beschriftung ersetzt die Standardbeschriftung.</p> </td> 
+      <td> <p>Geben Sie eine benutzerdefinierte Beschriftung für die Spalte an. Diese Beschriftung ersetzt die Standardbeschriftung.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Feldformat</td> 
@@ -179,24 +181,24 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
      </tr> 
      <tr> 
       <td role="rowheader">Diese Spalte im Dashboard anzeigen</td> 
-      <td> <p>Wählen Sie diese Option, um diese Spalte in einem Dashboard anzuzeigen, wenn der Bericht Seite an Seite mit einem anderen Bericht angezeigt wird. Wenn diese Option deaktiviert ist, wird diese Spalte nicht angezeigt, wenn der Bericht in einem Dashboard angezeigt wird, in dem Berichte nebeneinander angezeigt werden.</p> </td> 
+      <td> <p>Wählen Sie diese Option aus, um diese Spalte auf einem Dashboard anzuzeigen, wenn der Bericht Seite an Seite mit einem anderen Bericht angezeigt wird. Wenn diese Option deaktiviert ist, wird diese Spalte nicht angezeigt, wenn der Bericht in einem Dashboard angezeigt wird, in dem Berichte nebeneinander angezeigt werden.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Spaltenregeln</td> 
-      <td> <p>Klicken Sie auf <strong>Regel für diese Spalte hinzufügen</strong>, um der Spalte bedingte Formatierung hinzuzufügen. Nachdem Sie eine Regel hinzugefügt haben, können Sie Feld- und Textformate definieren, die festlegen, wie Felder angezeigt werden, die mit dieser Regel übereinstimmen. Klicken Sie auf <strong>Regel hinzufügen</strong>, nachdem Sie die Definition der Regel abgeschlossen haben. Weitere Informationen zur bedingten Formatierung in einer Ansicht finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md" class="MCXref xref">Bedingte Formatierung in Ansichten verwenden</a>.</p> </td> 
+      <td> <p>Klicken Sie <strong>Regel für diese Spalte hinzufügen</strong>, um der Spalte eine bedingte Formatierung hinzuzufügen. Nachdem Sie eine Regel hinzugefügt haben, können Sie Feld- und Textstile dafür definieren, wie Felder, die dieser Regel entsprechen, angezeigt werden. Klicken Sie <strong>Regel hinzufügen</strong> nachdem Sie die Definition der Regel abgeschlossen haben. Weitere Informationen zur bedingten Formatierung in einer Ansicht finden Sie unter <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md" class="MCXref xref">Verwenden der bedingten Formatierung in Ansichten</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicken Sie auf **Anwenden**, um Ihre bisherigen Änderungen anzuwenden, und fahren Sie mit der Bearbeitung des Berichts mit den folgenden Optionen fort.
+1. Klicken Sie **Übernehmen**, um Ihre bisherigen Änderungen anzuwenden und den Bericht mit den folgenden Optionen weiter zu bearbeiten.
 
-   Klicken Sie auf **Speichern + Schließen**, wenn Sie die Bearbeitung der Spalten im Bericht abgeschlossen haben und den Bericht speichern möchten.
+   Klicken Sie **Speichern + Schließen** wenn Sie mit der Bearbeitung der Spalten im Bericht fertig sind und den Bericht speichern möchten.
 
-### Hinzufügen von Gruppierungen zu einem Bericht {#add-groupings-to-a-report}
+### Gruppierungen zu einem Bericht hinzufügen {#add-groupings-to-a-report}
 
-1. Beginnen Sie mit dem Erstellen eines Berichts, wie im Abschnitt [Bericht erstellen](#create-a-report) in diesem Artikel beschrieben.
-1. Wählen Sie im Berichtsgenerator die Registerkarte **Gruppierungen** aus, um anzugeben, wie Sie Elemente im Bericht gruppieren möchten.
-1. Klicken Sie auf **Gruppierung hinzufügen**, um eine neue Gruppierung hinzuzufügen.
+1. Beginnen Sie mit der Erstellung eines Berichts, wie [ Abschnitt „Erstellen eines ](#create-a-report)&quot; in diesem Artikel beschrieben.
+1. Wählen Sie in Report Builder die Registerkarte **Gruppierungen**, um festzulegen, wie Sie Elemente im Bericht gruppieren möchten.
+1. Klicken Sie **Gruppierung hinzufügen**, um eine neue Gruppierung hinzuzufügen.
 
    ODER
 
@@ -204,54 +206,54 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
    ![Gruppierung hinzufügen](assets/nwe-add-grouping-350x230.png)
 
-1. Beginnen Sie mit der Eingabe des Felds, das Sie als Gruppierung hinzufügen möchten. Wenn das Feld verfügbar ist, wird es für jedes Objekt ausgefüllt, mit dem es verknüpft werden kann. Klicken Sie auf den Namen des Felds, um es dieser Gruppierung hinzuzufügen.
+1. Beginnen Sie, das Feld einzugeben, das Sie als Gruppierung hinzufügen möchten. Wenn das Feld verfügbar ist, wird es für jedes Objekt ausgefüllt, mit dem es verknüpft werden kann. Klicken Sie auf den Namen des Felds, um es dieser Gruppierung hinzuzufügen.
 1. (Optional) Sie können eine Gruppierung im Textmodus erstellen, indem Sie auf **In Textmodus wechseln** klicken. Weitere Informationen zum Textmodus finden Sie unter [Textmodus - Übersicht](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
    Weitere Informationen zum Erstellen neuer Gruppierungen finden Sie unter [Gruppierungen - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. (Optional) Wählen Sie **Diese Gruppierung standardmäßig reduzieren** aus, wenn die Ergebnisse in dieser Gruppierung reduziert anstatt erweitert angezeigt werden sollen.
 
-   Diese Einstellung ist standardmäßig deaktiviert, und die Ergebnisse der Gruppierung werden immer in einer erweiterten Liste angezeigt.
+   Diese Einstellung ist standardmäßig deaktiviert und die Gruppierungsergebnisse werden immer in einer erweiterten Liste angezeigt.
 
    >[!TIP]
    >
-   >* Wenn Sie beim Anzeigen einer Liste Gruppen manuell anpassen, merkt sich Workfront Ihre manuellen Einstellungen, bis Sie sich abmelden. Wenn Sie sich wieder anmelden, wird die Liste entsprechend dieser Einstellung angezeigt.
-   >* Die Ergebnisse einer Gruppierung werden immer erweitert angezeigt, nachdem sie von einem Diagrammelement aus darauf zugegriffen wurden.
+   >* Wenn Sie beim Anzeigen einer Liste Gruppierungen manuell anpassen, speichert Workfront Ihre manuellen Einstellungen, bis Sie sich abmelden. Beim erneuten Anmelden wird die Liste entsprechend dieser Einstellung angezeigt.
+   >* Die Ergebnisse einer Gruppierung werden immer erweitert angezeigt, nachdem über ein Diagrammelement darauf zugegriffen wurde.
 
-1. (Optional) Klicken Sie auf **Zu Matrixgruppierung wechseln**, um eine Matrixgruppierung zu erstellen und Ihre Ergebnisse in einem Rasterformat anzuzeigen.
+1. (Optional) Klicken Sie auf **Zu Matrix-Gruppierung wechseln**, um eine Matrix-Gruppierung zu erstellen und Ihre Ergebnisse in einem Rasterformat anzuzeigen.
 
    Weitere Informationen zum Erstellen eines Matrixberichts finden Sie unter [Erstellen eines Matrixberichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-1. Klicken Sie auf **Anwenden**, um Ihre bisherigen Änderungen anzuwenden, und fahren Sie mit der Bearbeitung des Berichts mit den folgenden Optionen fort.
+1. Klicken Sie **Übernehmen**, um Ihre bisherigen Änderungen anzuwenden und den Bericht mit den folgenden Optionen weiter zu bearbeiten.
 
-   Klicken Sie auf **Speichern + Schließen**, wenn Sie die Bearbeitung der Gruppierungen im Bericht abgeschlossen haben und den Bericht speichern möchten.
+   Klicken Sie **Speichern + Schließen** wenn Sie mit dem Bearbeiten der Gruppierungen im Bericht fertig sind und den Bericht speichern möchten.
 
-### Filter zu einem Bericht hinzufügen {#add-filters-to-a-report}
+### Hinzufügen von Filtern zu einem Bericht {#add-filters-to-a-report}
 
-1. Beginnen Sie mit dem Erstellen eines Berichts, wie im Abschnitt [Bericht erstellen](#create-a-report) in diesem Artikel beschrieben.
-1. Wählen Sie im Berichtsgenerator die Registerkarte **Filter** aus, um die Menge an Informationen anzugeben, die der Bericht enthalten soll.
-1. Klicken Sie auf **Filterregel hinzufügen**, um einen benutzerdefinierten Filter hinzuzufügen.\
+1. Beginnen Sie mit der Erstellung eines Berichts, wie [ Abschnitt „Erstellen eines ](#create-a-report)&quot; in diesem Artikel beschrieben.
+1. Wählen Sie in Report Builder die Registerkarte **Filter**, um die Menge an Informationen anzugeben, die der Bericht enthalten soll.
+1. Klicken Sie **Filterregel hinzufügen**, um einen benutzerdefinierten Filter hinzuzufügen.\
    ODER\
    Wählen **Vorhandenen Filter anwenden**, um einen vorhandenen Filter zu verwenden.
 
    ![Filter hinzufügen](assets/nwe-add-a-filter-350x93.png)
 
 1. Wenn Sie auf **Filterregel hinzufügen** geklickt haben, geben Sie das Feld ein, das Sie als Filter hinzufügen möchten. Wenn das Feld verfügbar ist, wird es für jedes Objekt ausgefüllt, mit dem es verknüpft werden kann. Klicken Sie auf den Namen des Felds, um es diesem Filter hinzuzufügen.\
-   Verwenden Sie Filtermodifizierer, um Ihren Filter zu erstellen. Weitere Informationen zu Filtermodifizierern finden Sie unter [Filter- und Bedingungsmodifizierer](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Verwenden Sie Filtermodifikatoren, um Ihren Filter zu erstellen. Weitere Informationen zu Filtermodifikatoren finden Sie unter [Filter- und Bedingungsmodifikatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
-   Weitere Informationen zum Erstellen neuer Filter finden Sie unter [Übersicht über Filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Weitere Informationen zum Erstellen neuer Filter finden Sie unter [Filter - Übersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Optional) Sie können einen Filter im Textmodus erstellen, indem Sie auf **In Textmodus wechseln** klicken.
 
-   Weitere Informationen zur Verwendung des Textmodus finden Sie unter [Übersicht über den Textmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+   Weitere Informationen zum Textmodus finden Sie unter [Textmodus - Übersicht](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-1. Klicken Sie auf **Anwenden**, wenn Sie die Bearbeitung der Filter im Bericht abgeschlossen haben, um Ihre bisherigen Änderungen anzuwenden, und fahren Sie mit der Bearbeitung des Berichts mit den folgenden Optionen fort.
+1. Klicken Sie **Anwenden** wenn Sie mit der Bearbeitung der Filter im Bericht fertig sind, um Ihre bisherigen Änderungen anzuwenden und mit der Bearbeitung des Berichts mit den folgenden Optionen fortzufahren.
 
    Klicken Sie **Speichern + Schließen** wenn der Bericht gespeichert werden soll und Sie den Bericht speichern möchten.
 
 ### Hinzufügen eines Diagramms zu einem Bericht {#add-a-chart-to-a-report}
 
-1. Beginnen Sie mit der Erstellung eines Berichts, wie [&#x200B; Abschnitt „Erstellen eines &#x200B;](#create-a-report)&quot; in diesem Artikel beschrieben.
+1. Beginnen Sie mit der Erstellung eines Berichts, wie [ Abschnitt „Erstellen eines ](#create-a-report)&quot; in diesem Artikel beschrieben.
 1. Wählen Sie in Report Builder die Registerkarte **Diagramm** und wählen Sie dann den Diagrammtyp aus, den Sie hinzufügen möchten.
 
    ![Diagramm hinzufügen](assets/nwe-add-a-chart-350x247.png)

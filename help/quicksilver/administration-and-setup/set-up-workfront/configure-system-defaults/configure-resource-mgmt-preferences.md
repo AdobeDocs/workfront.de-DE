@@ -8,10 +8,12 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '628'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -19,7 +21,8 @@ ht-degree: 0%
 
 <!-- Audited: 5/2025 -->
 
-<!--Linked to lots of articles for resource planning and LINKED TO CONTEXT SENSITIVE HELP - DO NOT CHANGE OR REMOVE!</p>
+<!--
+Linked to lots of articles for resource planning and LINKED TO CONTEXT SENSITIVE HELP - DO NOT CHANGE OR REMOVE!</p>
 Edit the first part, once they add more settings in the Res Management Preferences - right now, only the FTE calculation is the
 -->
 
@@ -27,7 +30,7 @@ Als [!DNL Adobe Workfront] können Sie die Voreinstellungen [!UICONTROL Ressourc
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,7 +43,7 @@ Als [!DNL Adobe Workfront] können Sie die Voreinstellungen [!UICONTROL Ressourc
   <tr> 
    <td>[!DNL Adobe Workfront] Lizenz</td> 
    <td><p>[!UICONTROL Standard]</p>
-       <p>[!UICONTROL -Plan]</p></td>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -49,7 +52,7 @@ Als [!DNL Adobe Workfront] können Sie die Voreinstellungen [!UICONTROL Ressourc
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -128,7 +131,7 @@ Informationen zur Planung und Planung von Ressourcen in [!DNL Workfront] finden 
       </div></li>      
       -->
 
-   * **Der Zeitplan des Benutzers**: [!DNL Workfront] verwendet den Zeitplan des Benutzers sowie den [!UICONTROL Standardzeitplan] des Systems, um den Wert „Verfügbar [!UICONTROL VZÄ] des Benutzers in Ressourcen-Management-Tools zu berechnen. Die verfügbaren Stunden werden nur gemäß dem Zeitplan des Benutzers berechnet, und der Wert des [!UICONTROL &#x200B; (VZÄ] des Benutzers wird ignoriert. Dies ist die Standardeinstellung.
+   * **Der Zeitplan des Benutzers**: [!DNL Workfront] verwendet den Zeitplan des Benutzers sowie den [!UICONTROL Standardzeitplan] des Systems, um den Wert „Verfügbar [!UICONTROL VZÄ] des Benutzers in Ressourcen-Management-Tools zu berechnen. Die verfügbaren Stunden werden nur gemäß dem Zeitplan des Benutzers berechnet, und der Wert des [!UICONTROL  (VZÄ] des Benutzers wird ignoriert. Dies ist die Standardeinstellung.
 
      Weitere Informationen finden Sie unter [Erstellen eines Zeitplans](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) und [Bearbeiten des Benutzerprofils](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
@@ -142,7 +145,7 @@ Informationen zur Planung und Planung von Ressourcen in [!DNL Workfront] finden 
      `User Available Hours = (Hours from the [!UICONTROL Schedule] of the User - Schedule Exceptions - Time off hours) * [!UICONTROL Work Time]`
 
 
-     Der verfügbare [!UICONTROL &#x200B; (VZÄ] für den Benutzer wird anhand der folgenden Formel berechnet:
+     Der verfügbare [!UICONTROL  (VZÄ] für den Benutzer wird anhand der folgenden Formel berechnet:
 
 
      `User Available [!UICONTROL FTE] = [(Hours from the [!UICONTROL Schedule] of the User - Schedule Exceptions - Time off hours) * [!UICONTROL Work Time]] / [!UICONTROL Default Schedule] hours`
@@ -158,7 +161,8 @@ Informationen zur Planung und Planung von Ressourcen in [!DNL Workfront] finden 
      >`User Weekly Available [!UICONTROL FTE] = [(30-2) * 0.5] / 40 = 0.35`
      >
 
-     <!--This used to be the calculation before we implemented the Work Time field: 
+     <!--
+      This used to be the calculation before we implemented the Work Time field: 
       
 
       The Available hours for the user are calculated by the following formula:

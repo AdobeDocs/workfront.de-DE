@@ -8,10 +8,12 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '805'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -37,7 +39,7 @@ Im Rahmen der Konfiguration Ihres Adobe Workfront-Systems können Sie im Abschni
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Standard</p> <p>Plan</p></td> 
+   <td><p>Standard</p> <p>Abo</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -46,7 +48,7 @@ Im Rahmen der Konfiguration Ihres Adobe Workfront-Systems können Sie im Abschni
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -76,14 +78,15 @@ So greifen Sie auf die Seite „Kundeninformationen“ zu:
 
      Informationen zum Hinzufügen der IP-Adressen zu Ihrer Zulassungsliste, über die Ihre Benutzer auf Workfront zugreifen können, finden Sie [Zulassungsliste Ihrer Firewall konfigurieren](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
-   * auf die Zulassungsliste setzen **E-Mail**
+   * **E-Mail**
 
-     Informationen zum Hinzufügen von E-Mails zu Ihrer Zulassungsliste auf die Zulassungsliste setzte finden Sie unter [Konfigurieren Ihrer E-Mail-](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+     Informationen zum Hinzufügen von E-Mails zu Ihrer Zulassungsliste finden Sie unter [Konfigurieren Ihrer E-Mail-](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
 
    <!--
    * **License**
 
-     For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).-->
+     For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+     -->
 
 ## Konfigurieren grundlegender Informationen {#configure-basic-info}
 

@@ -8,10 +8,12 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 20ebcb74c79aea67ea7cb1ba083dfea623fe7c16
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2228'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -19,12 +21,16 @@ ht-degree: 0%
 
 <!-- Audited: 2/2024 -->
 
-<!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
-Linked to Converting Issues.-->
+<!--
+DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
+Linked to Converting Issues.
+-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 Als [!DNL Adobe Workfront] können Sie systemweite Voreinstellungen für Aufgaben und Probleme konfigurieren. Diese Voreinstellungen beeinflussen die Art und Weise, wie Ihre Benutzerinnen und Benutzer Aufgaben und Probleme in [!DNL Workfront] erstellen.
@@ -34,7 +40,7 @@ Standardmäßig sind die Voreinstellungen für Aufgaben und Probleme gesperrt un
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,7 +53,7 @@ Standardmäßig sind die Voreinstellungen für Aufgaben und Probleme gesperrt un
   <tr> 
    <td>[!DNL Adobe Workfront] Lizenz</td> 
    <td><p>[!UICONTROL Standard]</p>
-       <p>[!UICONTROL -Plan]</p></td>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -56,7 +62,7 @@ Standardmäßig sind die Voreinstellungen für Aufgaben und Probleme gesperrt un
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -88,16 +94,16 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
     <td> <p>Legt das standardmäßige Startdatum für neue Aufgaben für Projektmanager fest. Das Startdatum für neue Aufgaben kann entweder das geplante Startdatum des Projekts oder der Tag sein, an dem die Aufgabe erstellt wird.</p> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader"> <p>[!UICONTROL Dauertyp] </p> </td> 
+    <td role="rowheader"> <p>[!UICONTROL Dauer – Typ] </p> </td> 
     <td> <p>Bestimmt das Verhältnis zwischen der Anzahl der Ressourcen (und ihrem jeweiligen Prozentsatz) und der Dauer des Gesamtaufwands für die Aufgabe. Weitere Informationen finden Sie unter <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">Aufgabendauer und Dauertypen</a></p> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL Umsatztyp]</td> 
+    <td role="rowheader">[!UICONTROL Umsatzart]</td> 
     <td> <p>Berechnet den geplanten und tatsächlichen Umsatz einer Aufgabe. Wenn der <strong>[!UICONTROL Revenue Type]</strong> auf <strong>[!UICONTROL Not Billable]</strong> festgelegt ist, erzeugen die geplanten Stunden und die tatsächlich aufgezeichneten Stunden keine Umsatzschätzung für die Aufgabe, und die Arbeit an der Aufgabe trägt nicht zum Umsatz auf Projektebene bei.</p>
          <p>Informationen zu den verschiedenen Umsatztypen finden Sie unter <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md">Übersicht über Abrechnung und Umsatz</a>.</p></td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL Kostentyp]</td> 
+    <td role="rowheader">[!UICONTROL Kostenart]</td> 
     <td> <p>Berechnet die geplanten Kosten und Istkosten für eine Aufgabe. Bei Festlegung auf <strong>[!UICONTROL Keine Kosten]</strong> erzeugen die geplanten Stunden und die aufgezeichneten tatsächlichen Stunden keine Schätzung der geplanten oder tatsächlichen Kosten für die Aufgabe, und die Arbeit an der Aufgabe trägt nicht zu den Kosten auf Projektebene bei.</p> </td> 
     </tr> 
   </tbody> 
@@ -154,11 +160,11 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 >
 >Diese Einstellung gilt auch für das Löschen von Projekten, für die Aufgaben oder Probleme mit Stunden protokolliert wurden. Diese Einstellung gilt nicht für das Löschen von Projekten, bei denen die Zeit direkt für das Projekt protokolliert wird.
 
-* Bei Auswahl dieser Option erhalten Sie eine informative Warnung, wenn Sie eine Aufgabe oder ein Problem löschen. Die Warnung erinnert Sie daran, dass Aufgaben oder Probleme, die Stunden protokolliert haben, entweder in das Projekt verschoben oder gelöscht werden. Sie können konfigurieren, ob die Stunden gelöscht oder in das Projekt verschoben werden[!UICONTROL &#x200B; indem Sie im Bereich „Arbeitszeittabelle und &#x200B;]&quot; von [!UICONTROL Setup“ &#x200B;]. Nachdem Sie bestätigt haben, dass Sie die Warnung gesehen haben, wird die Aufgabe oder das Problem gelöscht. Weitere Informationen zum Konfigurieren der Einstellungen für Arbeitszeittabellen und Stunden finden Sie unter [Konfigurieren von Arbeitszeittabellen- und Stundeneinstellungen](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+* Bei Auswahl dieser Option erhalten Sie eine informative Warnung, wenn Sie eine Aufgabe oder ein Problem löschen. Die Warnung erinnert Sie daran, dass Aufgaben oder Probleme, die Stunden protokolliert haben, entweder in das Projekt verschoben oder gelöscht werden. Sie können konfigurieren, ob die Stunden gelöscht oder in das Projekt verschoben werden[!UICONTROL  indem Sie im Bereich „Arbeitszeittabelle und ]&quot; von [!UICONTROL Setup“ ]. Nachdem Sie bestätigt haben, dass Sie die Warnung gesehen haben, wird die Aufgabe oder das Problem gelöscht. Weitere Informationen zum Konfigurieren der Einstellungen für Arbeitszeittabellen und Stunden finden Sie unter [Konfigurieren von Arbeitszeittabellen- und Stundeneinstellungen](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
   >[!TIP]
   >
-  >Wenn Sie ein Projekt mit Aufgaben und Problemen löschen, in denen Stunden protokolliert wurden, werden die protokollierten Stunden entweder gelöscht oder gemäß den Einstellungen im Bereich „Arbeitszeittabelle [!UICONTROL &#x200B; Stundeneinstellungen] von [!UICONTROL Setup] beibehalten. Beim Löschen eines Projekts wird keine Warnmeldung angezeigt.
+  >Wenn Sie ein Projekt mit Aufgaben und Problemen löschen, in denen Stunden protokolliert wurden, werden die protokollierten Stunden entweder gelöscht oder gemäß den Einstellungen im Bereich „Arbeitszeittabelle [!UICONTROL  Stundeneinstellungen] von [!UICONTROL Setup] beibehalten. Beim Löschen eines Projekts wird keine Warnmeldung angezeigt.
 
 * Wenn Sie diese Option deaktivieren, erhalten Sie eine unzulässige Warnung, wenn Sie eine Aufgabe oder ein Problem mit protokollierten Stunden löschen oder wenn Sie ein Projekt löschen, für dessen Aufgaben oder Probleme Stunden protokolliert wurden. Die Warnung gibt an, dass der Administrator nicht zulässt, dass Aufgaben oder Probleme mit protokollierten Stunden gelöscht werden. Die Aufgaben, Probleme oder Projekte, für die Stunden für Aufgaben und Probleme protokolliert wurden, können nicht gelöscht werden.
 
@@ -201,7 +207,7 @@ Wenn die Einstellung **[!UICONTROL Zulassen, dass Benutzer ihre Aufgaben und Pro
 
 Wenn diese Einstellung aktiviert ist, können Benutzer Folgendes sehen:
 
-* Die [!UICONTROL **Delegieren**] in ihren Widgets [!UICONTROL Meine &#x200B;]), [!UICONTROL Meine Aufgaben] oder [!UICONTROL Meine Probleme] im Bereich [!UICONTROL Home]. Dort können sie Aufgaben- und Problemzuweisungen delegieren.
+* Die [!UICONTROL **Delegieren**] in ihren Widgets [!UICONTROL Meine ]), [!UICONTROL Meine Aufgaben] oder [!UICONTROL Meine Probleme] im Bereich [!UICONTROL Home]. Dort können sie Aufgaben- und Problemzuweisungen delegieren.
 
   >[!NOTE]
   >

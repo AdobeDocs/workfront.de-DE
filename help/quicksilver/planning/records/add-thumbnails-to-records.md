@@ -6,19 +6,23 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '812'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
-# Hinzufügen einer Miniaturansicht zu einem Datensatz
+# Hinzufügen einer Miniaturansicht zu einem Eintrag
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -26,7 +30,7 @@ ht-degree: 0%
 Sie können in Adobe Workfront Planning Datensätze mit eindeutigen Miniaturansichten verknüpfen, um sie leicht erkennbar zu machen.
 
 Sie müssen Datensatztypen erstellen, bevor Sie Datensätze erstellen und bearbeiten können.
-Weitere Informationen finden Sie [Datensatztypen erstellen](/help/quicksilver/planning/architecture/create-record-types.md).
+Weitere Informationen finden Sie unter [Erstellen von Eintragstypen](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ## Zugriffsanforderungen
 
@@ -66,7 +70,8 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 +++   
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -122,7 +127,8 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> </td> 
   </tr> 
 </tbody> 
-</table> -->
+</table>
+-->
 
 
 ## Überlegungen zu Datensatzminiaturansichten
@@ -142,7 +148,7 @@ Beachten Sie Folgendes:
    * Die Datensatzleiste in der Zeitleisten -Ansicht.
    * Details und Vorschau des Datensatzes.
 
-## Hinzufügen einer Miniaturansicht zu einem Datensatz
+## Hinzufügen einer Miniaturansicht zu einem Eintrag
 
 Sie können eine Miniaturansicht wie folgt hinzufügen:
 
@@ -193,7 +199,8 @@ Sie können eine Miniaturansicht wie folgt hinzufügen:
    >
    >   You must enable the Thumbnail field in the table view to display thumbnails in this view. It is disabled by default.
 
-1. (Optional) To remove the thumbnail after it is saved, hover over the primary field and click the **More** menu ![More menu](assets/more-menu.png)> **Thumbnail** > the **Remove** icon ![Remove image icon](assets/remove-image-icon.png), then click **Save changes**. -->
+1. (Optional) To remove the thumbnail after it is saved, hover over the primary field and click the **More** menu ![More menu](assets/more-menu.png)> **Thumbnail** > the **Remove** icon ![Remove image icon](assets/remove-image-icon.png), then click **Save changes**.
+-->
 
 ### Hinzufügen einer Miniaturansicht zu einem Datensatz über die Detailseite
 
@@ -217,12 +224,12 @@ Sie können eine Miniaturansicht wie folgt hinzufügen:
 
 1. Datei per Drag-and-Drop ziehen, um sie als Miniatur hinzuzufügen
 
-   Oder
+   ODER
 
    Klicken Sie **Bilder durchsuchen** und suchen Sie dann nach einer Bilddatei, die Sie hinzufügen möchten. Die Datei muss auf Ihrem Computer gespeichert werden.
 
 1. (Optional) Verwenden Sie nach dem Hochladen des Bildes im Feld **Miniaturansicht aufzeichnen** das Größenänderungswerkzeug, um das Bild zuzuschneiden und seine Größe zu ändern.
-1. (Optional) Klicken Sie auf das Symbol **Neues Bild hochladen** (![&#x200B; Symbol Neues Bild hochladen](assets/upload-new-image-icon.png), um ein anderes Bild hochzuladen.
+1. (Optional) Klicken Sie auf das Symbol **Neues Bild hochladen** (![ Symbol Neues Bild hochladen](assets/upload-new-image-icon.png), um ein anderes Bild hochzuladen.
 1. (Optional) Klicken Sie auf die **Galerie** und dann auf ein Bild. Die Bildergalerie kann nicht geändert werden.
 
    ![Aufzeichnen des Miniaturfelds für die Galerie](assets/record-thumbnail-box-for-gallery.png)

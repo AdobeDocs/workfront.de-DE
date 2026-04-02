@@ -1,26 +1,28 @@
 ---
-title: Ersetzen von Flash-basierten Tools in Adobe Workfront
-description: Ersetzen von Flash-basierten Tools in Adobe Workfront
+title: Ersatz von Flash-basierten Tools in Adobe Workfront
+description: Ersatz von Flash-basierten Tools in Adobe Workfront
 author: Luke
 draft: Probably
 feature: Product Announcements
 exl-id: a0ca824d-aab8-4da2-97ed-0913a7f76d55
-source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2701'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Ersetzen von Flash-basierten Tools in Adobe Workfront
+# Ersatz von Flash-basierten Tools in Adobe Workfront
 
 Wir haben alle Flash-basierten Tools aus Adobe Workfront Classic entfernt.
 
-Ersatzwerkzeuge, die auf aktuellen Standards basieren, sind jetzt in Workfront verfügbar. Diese Änderungen entsprechen dem Ende der Unterstützung für Flash-Produkte, wie von Adobe angekündigt.
+Ersatzwerkzeuge, die auf aktuellen Standards basieren, sind jetzt in Workfront verfügbar. Diese Änderungen werden mit dem Ende der Unterstützung für Flash-Produkte, wie von Adobe angekündigt, abgestimmt.
 
 ## Wichtige Daten
 
-Die folgenden Termine sind für die Entfernung aller Flash-basierten Tools in Workfront wichtig:
+Die folgenden Daten sind wichtig für den Entfernungsprozess aller Flash-basierten Tools in Workfront:
 
 <!--
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>July 1, 2020</strong>: All Flash-based tools will be removed from all Workfront products for those customers who are not using them currently. </p>
@@ -43,11 +45,11 @@ Die folgenden Termine sind für die Entfernung aller Flash-basierten Tools in Wo
   </MadCap:conditionalText>
   -->
 
-## Alte Flash-basierte Tools
+## Ältere Flash-basierte Tools
 
 Die in den folgenden Abschnitten aufgeführten Tools wurden aus dem Workfront-System entfernt und durch neue Lösungen ersetzt.
 
-Informationen zu Ersatztools finden Sie unter [Ältere Flash-basierte Tools und deren Ersetzungen](#legacy-flash-based-tools-and-their-replacements) in diesem Artikel.
+Weitere Informationen zu Ersatztools finden Sie unter [Ältere Flash-basierte Tools und deren Ersetzungen](#legacy-flash-based-tools-and-their-replacements) in diesem Artikel.
 
 ### Ressourcenverwaltung
 
@@ -116,7 +118,7 @@ Der alte Proofing Viewer wurde durch den neuen Web Proofing Viewer und Desktop P
 Weitere Informationen finden Sie in den folgenden Ressourcen:
 
 * [Testsendungen im Web Proofing Viewer überprüfen](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md)
-* [Testsendungen im Desktop Proofing Viewer überprüfen](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
+* [Überprüfen von Korrekturabzügen im Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../workfront-proof/wp-work-proofsfiles/review-proofs-lpv/lpv-removed-2018.md" class="MCXref xref">Legacy proofing viewer removed in 2018.3</a> </li>
@@ -133,7 +135,7 @@ Weitere Informationen finden Sie in den folgenden Ressourcen:
 </div>
 -->
 
-## Alte Flash-basierte Tools und deren Ersatz {#legacy-flash-based-tools-and-their-replacements}
+## Ältere Flash-basierte Tools und deren Ersatz {#legacy-flash-based-tools-and-their-replacements}
 
 Sofern nicht anders angegeben, wurden alle alten Funktionen durch neue ersetzt, wie in der folgenden Tabelle dargestellt.
 
@@ -171,15 +173,17 @@ Sofern nicht anders angegeben, wurden alle alten Funktionen durch neue ersetzt, 
   </tr> 
   <tr> 
    <td> <p><strong>Ressourcenkalkulationen</strong> </p> <p>Die Registerkarte Ressourcenkalkulationen unter jedem alten Ressourcenpool diente demselben Zweck wie der Ressourcen-Budgetmanager, nur im Kontext eines alten Ressourcenpools. Dieses Tool wies dieselben Einschränkungen auf wie der Ressourcen-Budgetmanager und die alten Ressourcenpools: ungenaue Daten und manuelle Eingabe der Verfügbarkeit. </p> </td> 
-   <td> <p>Mit der automatischen Berechnung der Benutzerverfügbarkeit sind Ressourcenkalkulationen veraltet und wurden entfernt.</p> <p>Das Tool wird bei den Legacy-Ressourcenpools und den Legacy-Ressourcenkalkulationen im Business Case eines Projekts entfernt. <!--
+   <td> <p>Mit der automatischen Berechnung der Benutzerverfügbarkeit sind Ressourcenkalkulationen veraltet und wurden entfernt.</p> <p>Das Tool wird bei den Legacy-Ressourcenpools und den Legacy-Ressourcenkalkulationen im Business Case eines Projekts entfernt.
+   <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
        The Legacy Resource Estimates area on the Business Case of the project remains there in View-only mode at this time. 
       </MadCap:conditionalText>
-     --></p> </td> 
+     -->
+     </p> </td>
   </tr> 
   <tr> 
    <td> <p><strong>Kapazitätsplaner</strong> </p> <p>Der Kapazitätsplaner war ein Workfront-Tool für die Budgetierung von Ressourcen und die Priorisierung von Projekten in einem alten Ressourcenpool, je nach Verfügbarkeit der Ressourcen. Angesichts der Unvollständigkeit der Daten aus den Ressourcenkalkulationen und dem Ressourcenbudgetmanager, der die Informationen für den Kapazitätsplaner zur Verfügung stellte, musste die Projektpriorisierung mit der Verfügbarkeit der Nutzer abgeglichen werden.</p> <p>Die Verwendung eines einzigen alten Ressourcenpools, der alle Aufgabengebiete im System umfasste, war das häufigste Szenario, was zu Leistungsproblemen führte, da der Kapazitätsplaner versuchte, eine große Anzahl von Projekten zu laden.</p> </td> 
-   <td> <p><strong>Die Projektansicht des Ressourcenplaners</strong> </p> <p>In der projektbasierten Ansicht des Ressourcenplaners können Sie Ressourcen budgetieren und Projekte ähnlich wie zuvor im alten Kapazitätsplaner priorisieren. Im Gegensatz zum alten Tool werden jetzt mehr Daten unterstützt, wobei die verfügbaren Informationen präziser sind, indem sowohl die Ausfallzeiten der Benutzer als auch Zeitplanausnahmen berücksichtigt werden.</p> <p>Verfügbare, geplante und budgetierte Informationen sind auf einen Blick sichtbar, sodass Ressourcenmanager sehen können, ob genügend Mitarbeiter vorhanden sind, um die Arbeit zu erledigen, und ob die Projektpläne die anfänglichen Budgetschätzungen überschreiten.</p> <p> Informationen zur Verwendung der Projektansicht im Ressourcenplaner finden Sie unter <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Ressourcenplaner - Übersicht</a></p> <p><strong>Der Szenario-Planer</strong> </p> <p>Für die langfristige Kapazitätsplanung, was-wäre-wenn-Szenario-Modellierung und Priorisierung haben wir auch den Workfront-Szenario-Planer eingeführt. </p> <p>Der Szenario-Planer ist nur in der neuen Adobe Workfront-Version verfügbar und erfordert eine zusätzliche Lizenz. Weitere Informationen zum Workfront-Szenarioplaner finden Sie unter <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Szenarioplaner - Übersicht</a>. </p> </td> 
+   <td> <p><strong>Die Projektansicht des Ressourcenplaners</strong> </p> <p>In der projektbasierten Ansicht des Ressourcenplaners können Sie Ressourcen budgetieren und Projekte ähnlich wie zuvor im alten Kapazitätsplaner priorisieren. Im Gegensatz zum alten Tool werden jetzt mehr Daten unterstützt, wobei die verfügbaren Informationen präziser sind, indem sowohl die Ausfallzeiten der Benutzer als auch Zeitplanausnahmen berücksichtigt werden.</p> <p>Verfügbare, geplante und budgetierte Informationen sind auf einen Blick sichtbar, sodass Ressourcenmanager sehen können, ob genügend Mitarbeiter vorhanden sind, um die Arbeit zu erledigen, und ob die Projektpläne die anfänglichen Budgetschätzungen überschreiten.</p> <p> Informationen zur Verwendung der Projektansicht im Ressourcenplaner finden Sie unter <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Ressourcenplaner - Übersicht</a></p> <p><strong>Der Szenario-Planer</strong> </p> <p>Für die langfristige Kapazitätsplanung, was-wäre-wenn-Szenario-Modellierung und Priorisierung haben wir auch den Workfront-Szenario-Planer eingeführt. </p> <p>Der Szenario-Planer ist nur in der neuen Adobe Workfront-Version verfügbar und erfordert eine zusätzliche Lizenz. Weitere Informationen zum Workfront-Szenarienplaner finden Sie unter <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Überblick über den Szenarienplaner</a>. </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Legacy-Ressourcenkalkulationen (Business Case)</strong> </p> <p>Im Bereich Legacy-Ressourcenkalkulationen des Business Case können Sie im Rahmen der Projektplanung und Ressourcenanforderung eine bestimmte Menge an Arbeitsstunden und -kosten budgetieren. Diese Ansicht bot keinen Einblick in die Verfügbarkeit von Ressourcen, was zu ungefähren Anfragen nach Ressourcen und einer erhöhten Wahrscheinlichkeit für abgelehnte Projektarbeit führte.</p> </td> 
@@ -201,7 +205,7 @@ Sofern nicht anders angegeben, wurden alle alten Funktionen durch neue ersetzt, 
     <ul> 
      <li> <p><strong>Für die analytische Phase:</strong> </p> 
       <ul> 
-       <li> <p><strong>Der Workload-Balancer</strong>: Verwenden Sie den Workload-Balancer, um den Arbeitsaufwand der Benutzenden auf einer detaillierteren Ebene anzuzeigen. Wenn Sie den Workload Balancer verwenden, können Sie sehen, welche Benutzenden in ihrem Workload verfügbar sind, um die Aufgabe termingerecht abzuschließen. Dazu gehören Details zu Urlaubs- und Zeitplanausnahmen. </p> <p>Weitere Informationen zum Workload-Balancer finden Sie unter <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">Übersicht über den Workload-Balancer</a>.</p> </li> 
+       <li> <p><strong>Der Workload-Balancer</strong>: Verwenden Sie den Workload-Balancer, um den Arbeitsaufwand der Benutzenden auf einer detaillierteren Ebene anzuzeigen. Wenn Sie den Workload Balancer verwenden, können Sie sehen, welche Benutzenden in ihrem Workload verfügbar sind, um die Aufgabe termingerecht abzuschließen. Dazu gehören auch Angaben zu ihrer Ausfallzeit oder Zeitplanausnahmen. </p> <p>Weitere Informationen zum Workload-Balancer finden Sie unter <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">Übersicht über den Workload-Balancer</a>.</p> </li> 
        <li> <p><strong>Die Benutzeransicht des Ressourcenplaners</strong><strong>:</strong> Wenn Sie auf einer höheren Ebene verstehen möchten, welchen Projekten Ihre Benutzerinnen und Benutzer zugeordnet sind, verwenden Sie die Benutzeransicht des Ressourcenplaners. Auf diese Weise können Sie sehen, woran Benutzer arbeiten sowie ihre Über- und Unterzuordnung für einen bestimmten Zeitrahmen. Der Ressourcenplaner bietet außerdem eine Visualisierung der Gesamtzuordnung der Benutzenden als Ganzes sowie einen Einblick in die protokollierten tatsächlichen Stunden, was bei der Analyse des Fortschritts der durchgeführten Arbeit hilfreich ist. </p> <p>Informationen zur Verwendung der Benutzeransicht im Ressourcenplaner finden Sie im Abschnitt <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md#using" class="MCXref xref">Verwenden der Benutzeransicht zum Anzeigen verfügbarer, geplanter und tatsächlicher Stunden oder FTE-</a> in <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Ressourcenplaner - Übersicht</a></p> </li> 
       </ul> </li> 
      <li><strong>Für die taktische Phase:</strong> 
@@ -212,7 +216,8 @@ Sofern nicht anders angegeben, wurden alle alten Funktionen durch neue ersetzt, 
          <li>Benutzerzuweisungen für Arbeitselemente verwalten </li>
          <li>Geben Sie den Workload-Balancer für andere Benutzer frei, die möglicherweise keinen Einblick in den Bereich „Personen“ haben. Verwenden Sie die Funktion „Freigabe-Link“, um einen Link zum Workload-Balancer freizugeben und in benutzerdefinierte Dashboards einzubetten. Alle Benutzer mit Zugriff auf „Benutzer anzeigen“ können diese Dashboards anzeigen, wenn Sie sie freigeben.</li>
         </ul><p>Der Workload Balancer ist im Bereich Personen verfügbar. </p><p>Weitere Informationen zum Workload-Balancer finden Sie unter <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">Übersicht über den Workload-Balancer</a>.</p></li> 
-      </ul> <!--
+      </ul>
+      <!--
        <ul data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
         <li><strong>The Resource Scheduling Areas</strong><strong>:</strong> When assigning your resources to the actual work that must be completed, use the Resource Scheduling areas in the People or Team areas, or at the project level. These areas allow you to visualize and manage the users' workload by day and rectify any problems from one view using the following actions: 
          <ul>
@@ -228,7 +233,8 @@ Sofern nicht anders angegeben, wurden alle alten Funktionen durch neue ersetzt, 
           <li>User - the Allocation tab is eliminated as the same information can be accessed in the User View of the Resource Planner.</li>
          </ul></li> 
        </ul>
-      --> </li> 
+      -->
+      </li>
     </ul> </td> 
   </tr> 
   <tr> 
@@ -236,11 +242,11 @@ Sofern nicht anders angegeben, wurden alle alten Funktionen durch neue ersetzt, 
    <td> <p><strong>Gantt-Diagramm</strong> <strong>Aufgabenliste</strong></p> <p> Das neue HTML-basierte Gantt-Diagramm erfüllt denselben Zweck wie das alte Gantt-Diagramm. Benutzer können die Zeitleiste des Projekts visualisieren und Was-wäre-wenn-Szenario-Planung durchführen, ohne Änderungen an der Datenbank vorzunehmen, indem sie in der Aufgabenlisten-Symbolleiste auf die Option Manuelles Speichern wechseln. </p> <p>Das neue Gantt-Diagramm ist interaktiv, wenn Sie die Option Automatisches Speichern verwenden, mit der Sie Ihre Änderungen automatisch speichern können. </p> <p>Das neue Gantt-Diagramm Aufgabenliste basiert auf der neuesten Technologie und ist zuverlässig. Dieses neue Gantt-Diagramm befindet sich direkt auf der Aufgabenliste und ist während der Arbeit an der Aufgabenliste leicht zugänglich, ohne die Registerkarten wechseln oder die Ansicht ändern zu müssen. </p> <p>Obwohl das neue Gantt-Diagramm dieselben Funktionen wie das vorherige Diagramm bietet, gibt es einige Unterschiede bei den Funktionen im Vergleich zum alten Gantt-Diagramm. </p> <p> Die veraltete Unterregisterkarte Gantt in einer Liste von Vorlagenaufgaben in einer Vorlage, die veraltete Gantt-Ansicht in der Registerkarte Unteraufgaben einer Vorlagenaufgabe und das veraltete Gantt-Diagramm in einem Vorlagenaufgabenbericht wurden ebenfalls durch das HTML-basierte Gantt-Diagramm ersetzt. </p> <p>Wenn Sie das alte Gantt-Diagramm hauptsächlich für die einfache Ansicht und Schnellbearbeitungen verwenden und nicht das tatsächliche Diagramm verwenden, können Sie mit der neuen Option Timeline-Planung schnell Änderungen an wichtigen Planungsfeldern vornehmen. Sie können in der Aufgabenlisten-Symbolleiste Zeitleistenplanung anstelle von Automatisches Speichern auswählen.</p> <p>Weitere Informationen zum Speichern einer Aufgabenliste mithilfe der Option „Timeline-Planung“ finden Sie im Abschnitt „Manuelles Speichern von Änderungen in einer Aufgabenliste bei Auswahl der Option „Timeline-Planung“ im Artikel <a href="../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md" class="MCXref xref">Bearbeiten von Aufgaben in einer Liste</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Legacy-Gantt-Diagramm für eine Projektliste</strong> </p> <p>Das alte Gantt-Diagramm in der Projektliste bietet den Benutzern die Möglichkeit, Projekte und ihre Aufgaben in einer Ansicht zu sehen. Ohne den Kontext der Projektliste verlassen zu müssen, konnten Benutzer Details zu den Aufgaben in einem Projekt sowie zu den Abhängigkeiten zwischen den Projekten sehen. Das alte Gantt-Diagramm auf der Projektliste basierte auf der Flash-Technologie, die Sicherheitsrisiken darstellte. </p> </td> 
+   <td> <p><strong>Legacy-Gantt-Diagramm für eine Projektliste</strong> </p> <p>Das alte Gantt-Diagramm in der Projektliste bietet den Benutzern die Möglichkeit, Projekte und ihre Aufgaben in einer Ansicht zu sehen. Ohne den Kontext der Projektliste verlassen zu müssen, konnten Benutzer Details zu den Aufgaben in einem Projekt sowie zu den Abhängigkeiten zwischen den Projekten sehen. Das alte Gantt-Diagramm auf der Projektliste basierte auf Flash-Technologie, die Sicherheitsrisiken darstellte. </p> </td> 
    <td> <p><strong>Gantt-Diagramm, Projektliste</strong> </p> <p>Das HTML-basierte Gantt-Diagramm erfüllt denselben Zweck wie das veraltete Gantt-Diagramm. Benutzer können Projekte und ihre Aufgaben in einer Ansicht anzeigen, um Abhängigkeiten zwischen Projekten und Aufgaben visuell zu identifizieren. Das Gantt-Diagramm Projektliste befindet sich direkt auf der Projektliste. Das neue Gantt-Diagramm verfügt über eine moderne Benutzeroberfläche und basiert auf der neuesten Technologie.</p> <p>Weitere Informationen zur Projektliste Gantt-Diagramm finden Sie unter <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">Informationen im Gantt-Diagramm anzeigen </a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Freigeben von Dialogfeldern für Berichte, Kalender und Dokumente</strong> </p> <p>Beim Freigeben von Berichten, Kalendern und Dokumenten basierten die verwendeten Dialogfelder auf der Flash-Technologie.</p> </td> 
+   <td> <p><strong>Freigeben von Dialogfeldern für Berichte, Kalender und Dokumente</strong> </p> <p>Beim Freigeben von Berichten, Kalendern und Dokumenten basierten die verwendeten Dialogfelder auf Flash-Technologie.</p> </td> 
    <td> <p>Das Erlebnis beim Freigeben von Berichten, Kalendern und Dokumenten in Workfront hat sich nicht geändert. Das Erlebnis beruht jedoch nicht mehr auf Flash.</p> <p>Weitere Informationen zum Freigeben dieser Elemente finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Übersicht über Freigabeberechtigungen für Objekte</a>.</p> </td> 
   </tr> 
   <tr> 

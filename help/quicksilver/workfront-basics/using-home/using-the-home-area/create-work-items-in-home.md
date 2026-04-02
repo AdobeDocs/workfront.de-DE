@@ -2,30 +2,32 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: Erstellen von Arbeitselementen und Projekten im Bereich Startseite
-description: Sie können Arbeitselemente und Projekte über den Bereich "[!UICONTROL " &#x200B;].
+description: Sie können Arbeitselemente und Projekte über den Bereich "[!UICONTROL " ].
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
-# Erstellen von Arbeitselementen und Projekten im Bereich Startseite
+# Erstellen von Arbeitselementen und Projekten im Startseiten-Bereich
 
-Sie können Arbeitselemente und Projekte über den Bereich &quot;[!UICONTROL &quot; &#x200B;].
+Sie können Arbeitselemente und Projekte über den Bereich &quot;[!UICONTROL &quot; ].
 
 Von zu Hause aus haben Sie folgende Möglichkeiten
 
-* Anfragen senden
+* Senden von Anfragen
 * Hinzufügen von Aufgaben und Problemen zu bestimmten Projekten
 * Erstellen Sie Projekte aus einer Vorlage, einem leeren Projekt oder importieren Sie ein MS Project.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +41,7 @@ Von zu Hause aus haben Sie folgende Möglichkeiten
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz</strong></td> 
    <td>
     <p>Standard</p> 
-    <p>Arbeit oder höher</p> </td> 
+    <p>Work oder höher</p> </td> 
   </tr> 
     <tr> 
    <td role="rowheader"><strong>Konfigurationen der Zugriffsebene</strong></td> 
@@ -56,13 +58,13 @@ Von zu Hause aus haben Sie folgende Möglichkeiten
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
 ## Persönliches Aufgabenelement erstellen
 
-Sie können im Bereich „Startseite“ im Widget „Aufgaben[!UICONTROL &#x200B; persönliche &#x200B;] erstellen. Die Aufgaben sind persönliche Aufgaben, die Sie selbst erstellen.
+Sie können im Bereich „Startseite“ im Widget „Aufgaben[!UICONTROL  persönliche ] erstellen. Die Aufgaben sind persönliche Aufgaben, die Sie selbst erstellen.
 
 Sie und andere Benutzer können Ihre persönlichen Aufgaben in einem persönlichen Aufgabenbericht anzeigen. Von dort aus können sie sie bei Bedarf zu Projekten hinzufügen.
 
@@ -141,7 +143,7 @@ Sie können eine Anfrage direkt über den Bereich Startseite erstellen:
 
 Weitere Informationen zum Senden von Anfragen finden Sie unter [Erstellen und Senden von Anfragen](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-## Erstellen eines Projekts
+## Projekt erstellen
 
 Sie können ein Projekt direkt im Bereich Startseite erstellen:
 
@@ -164,7 +166,8 @@ Sie können ein Projekt direkt im Bereich Startseite erstellen:
 You can create a board directly from the Home area:
 
 1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
-1. (Conditional) Add the **Boards** widget to your home screen. Click **Customize**, and find **Boards**. -->
+1. (Conditional) Add the **Boards** widget to your home screen. Click **Customize**, and find **Boards**.
+-->
 
 
 
@@ -182,4 +185,5 @@ You can create a board directly from the Home area:
 1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. Go to the to-do widget.
 1. Edit the item name.
-1. Click on the **Date** icon ![Date icon](assets/date-icon.png) to add or adjust a due date. -->
+1. Click on the **Date** icon ![Date icon](assets/date-icon.png) to add or adjust a due date.
+-->

@@ -6,14 +6,16 @@ description: Sie können die Informationen einer Aufgabe anzeigen oder bearbeite
 author: Alina
 feature: Work Management
 exl-id: 4980b28f-914d-4cf9-813f-14983aac660b
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2104'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
-# Verwalten von Aufgabeninformationen im Bereich „Aufgabendetails - Übersicht“
+# Verwalten von Aufgabeninformationen im Bereich „Aufgabendetails – Überblick“
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, do it in both articles)</p>
@@ -27,7 +29,7 @@ In diesem Artikel wird beschrieben, wie Sie Informationen im Bereich Übersicht 
 
 * [Verwalten der Aufgabenfinanzen im Abschnitt „Aufgabendetails“](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 * [Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
-* [Verwalten benutzerdefinierter Formulare, die an Objekte angehängt sind](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
+* [Verwalten von benutzerdefinierten Formularen, die an Objekte angehängt sind](../../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
 
 ## Zugriffsanforderungen
 
@@ -69,7 +71,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -99,7 +102,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    <p>Manage permissions for the task to update all information in the Details section.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Bearbeiten von Aufgabeninformationen im Abschnitt „Aufgabendetails - Übersicht“
 
@@ -351,11 +355,11 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Intervallfrequenz</td> 
-      <td> <p>Wird nur für das übergeordnete Element der wiederkehrenden Aufgaben angezeigt. Dies ist die Häufigkeit, mit der die Aufgaben in der Wiederholung auftreten. Informationen zum Erstellen wiederkehrender Aufgaben finden Sie unter <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Wiederkehrende Aufgaben erstellen</a>. </p> </td> 
+      <td> <p>Wird nur für das übergeordnete Element der wiederkehrenden Aufgaben angezeigt. Dies ist die Häufigkeit, mit der die Aufgaben in der Intervall vorkommen. Informationen zum Erstellen wiederkehrender Aufgaben finden Sie unter <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Erstellen wiederkehrender Aufgaben</a>. </p> </td> 
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Dauer pro Termin</td> 
-      <td> <p>Wird nur für das übergeordnete Element der wiederkehrenden Aufgaben angezeigt. Angezeigt wird die Dauer jeder wiederkehrenden Aufgabe. Informationen zum Erstellen wiederkehrender Aufgaben finden Sie unter <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Wiederkehrende Aufgaben erstellen</a>. </p> <p><strong>NOTIZ</strong></p> <p> In einzelnen wiederkehrenden Aufgaben geänderte Dauer zeigt nicht den in diesem Feld angegebenen Wert an. </p> </td> 
+      <td> <p>Wird nur für das übergeordnete Element der wiederkehrenden Aufgaben angezeigt. Angezeigt wird die Dauer jeder wiederkehrenden Aufgabe. Informationen zum Erstellen wiederkehrender Aufgaben finden Sie unter <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Erstellen wiederkehrender Aufgaben</a>. </p> <p><strong>NOTIZ</strong></p> <p> In einzelnen wiederkehrenden Aufgaben geänderte Dauer zeigt nicht den in diesem Feld angegebenen Wert an. </p> </td> 
      </tr> 
     </tbody> 
    </table>

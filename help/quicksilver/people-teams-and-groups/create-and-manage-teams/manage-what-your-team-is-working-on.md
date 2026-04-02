@@ -6,7 +6,9 @@ description: Sie können eine Kalenderansicht der Aufgaben und Probleme sehen, a
 author: Courtney
 feature: People Teams and Groups
 exl-id: 4bdec4b9-18b0-4981-a067-f47e259bc708
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 6%
@@ -15,9 +17,9 @@ ht-degree: 6%
 
 # Verwalten, woran Ihr Team arbeitet
 
-Eine Liste der Elemente, an denen Ihr Team arbeitet, finden Sie [!UICONTROL &#x200B; Abschnitt &quot;]&quot; Ihres Teams.
+Eine Liste der Elemente, an denen Ihr Team arbeitet, finden Sie [!UICONTROL  Abschnitt &quot;]&quot; Ihres Teams.
 
-Im Abschnitt „Workload-Balancer“ Ihres Teams können Sie nicht zugewiesene Elemente zuweisen, aktuelle Zuweisungen anpassen [!UICONTROL . &#x200B;].
+Im Abschnitt „Workload-Balancer“ Ihres Teams können Sie nicht zugewiesene Elemente zuweisen, aktuelle Zuweisungen anpassen [!UICONTROL . ].
 
 Ausführliche Informationen zum Verwalten der Ihrem Team zugewiesenen Arbeit finden Sie unter [[!UICONTROL Workload-Balancer]](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 

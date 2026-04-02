@@ -9,7 +9,9 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 6%
@@ -67,7 +69,7 @@ So ändern Sie E-Mail-Benachrichtigungseinstellungen für mehrere Benutzer:
 
 1. Erweitern Sie eine Kategorie, um Benachrichtigungseinstellungen anzuzeigen, die sich auf diese Kategorie beziehen.
 
-   Wenn mindestens ein Benutzer aktiviert wurde und die Benachrichtigungen nicht mit den Benachrichtigungen der anderen ausgewählten Benutzer übereinstimmen, enthält das Kontrollkästchen Kategorie für diese Benachrichtigung eine horizontale Linie ![Linie anstelle &#x200B;](assets/straight-line-instead-of-checkmark.jpg) Kontrollkästchens.
+   Wenn mindestens ein Benutzer aktiviert wurde und die Benachrichtigungen nicht mit den Benachrichtigungen der anderen ausgewählten Benutzer übereinstimmen, enthält das Kontrollkästchen Kategorie für diese Benachrichtigung eine horizontale Linie ![Linie anstelle ](assets/straight-line-instead-of-checkmark.jpg) Kontrollkästchens.
 
 
 1. Klicken Sie auf eine Benachrichtigung, die Benutzerinnen und Benutzer entweder täglich oder sofort erhalten sollen, oder löschen Sie alle Benachrichtigungen, die sie nicht mehr erhalten sollen.
@@ -77,7 +79,7 @@ So ändern Sie E-Mail-Benachrichtigungseinstellungen für mehrere Benutzer:
    >   Für die Kategorie **Kommunikation** können Sie einzelne Benachrichtigungen nur für den sofortigen Versand auswählen. Sie müssen alle Benachrichtigungen auswählen, die in einer täglichen Zusammenfassung zugestellt werden sollen.
 
 
-1. Wenn Sie Benachrichtigungen ausgewählt haben, die als täglicher Digest gesendet werden sollen, wählen Sie die Uhrzeit des Tages aus, an dem der Digest zugestellt werden soll, oben im Abschnitt **Benachrichtigungen** im Menü **Tägliche Digest per E-Mail nach**.
+1. Wenn Sie Benachrichtigungen als tägliche Zusammenfassung gesendet haben, wählen Sie die Tageszeit, zu der die Zusammenfassung zugestellt werden soll, oben im Abschnitt **Benachrichtigungen** im Menü **Tägliche Zusammenfassung nach** aus.
 
    ![Tägliche Digest-Zeit](assets/daily-digest-time.png)
 

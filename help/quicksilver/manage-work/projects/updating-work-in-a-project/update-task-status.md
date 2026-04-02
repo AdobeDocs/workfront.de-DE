@@ -6,14 +6,16 @@ description: Sie können den Status einer Aufgabe aktualisieren, um andere darü
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '635'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
-# Aufgabenstatus aktualisieren
+# Aktualisieren des Aufgabenstatus
 
 <!--Audited: 10/2024-->
 
@@ -56,7 +58,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -82,7 +85,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    <td> <p>Manage permissions to the task</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Überlegungen zur Aktualisierung des Aufgabenstatus
 
@@ -129,7 +133,8 @@ So aktualisieren Sie den Aufgabenstatus in der Aufgabenkopfzeile manuell:
    >
    >  Nur Aufgabenzugewiesene können das Commit-Datum aktualisieren.
 
-<!--old functionality in old commenting: 
+<!--
+old functionality in old commenting: 
 
 1. Go to a task that you are assigned to for which you want to update the status.
 1. Click the **Status** field in the task header and select a new status. 
@@ -142,7 +147,8 @@ So aktualisieren Sie den Aufgabenstatus in der Aufgabenkopfzeile manuell:
    
    * To update the Commit Date of the task, expand the **Commit Date** drop-down calendar, and select a new Commit Date. 
    * To provide a visual indication of task completion, drag the bubble under Percent Complete or double-click it to enter a percent value.   
-     ![Drag the progress bar]](assets/drag-the-progress-bar-350x155.png)-->
+     ![Drag the progress bar]](assets/drag-the-progress-bar-350x155.png)
+     -->
 
 ## Aufgabenstatus automatisch aktualisieren
 

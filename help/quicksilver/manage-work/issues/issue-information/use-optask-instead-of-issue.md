@@ -6,14 +6,16 @@ description: Der Name eines Problems wird in der Adobe Workfront-Datenbank als �
 author: Alina
 feature: Work Management
 exl-id: 91107c04-616c-49b2-aa78-10e373d11f6b
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# „OpTask“ und „Problem“ beim Referenzieren von Problemen verwenden
+# Verwenden von „opTask“ und „issue“ beim Referenzieren von Problemen
 
 <!--Audited: 08/2025-->
 
@@ -29,12 +31,14 @@ Verwenden Sie den `opTask` Feldnamen beim Referenzieren von Problemen in den fol
 
   Weitere Informationen zur Verwendung des Textmodus in einem Bericht finden Sie unter [Textmodus - Übersicht](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-<!--* When you pull information about issues using our API.  
-  For more information about the Workfront API, see [Adobe Workfront API](../../../wf-api/workfront-api.md)-->
+<!--
+* When you pull information about issues using our API.  
+  For more information about the Workfront API, see [Adobe Workfront API](../../../wf-api/workfront-api.md)
+  -->
 
 * Beim Aktualisieren von Problemfeldern in einem Kickstart-Datenimportblatt.
 
-  Weitere Informationen zum Importieren von Daten in Workfront mithilfe einer Kickstart-[&#x200B; finden Sie unter „Importieren von Daten in Adobe Workfront mithilfe einer Kickstart-Vorlage](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Weitere Informationen zum Importieren von Daten in Workfront mithilfe einer Kickstart-[ finden Sie unter „Importieren von Daten in Adobe Workfront mithilfe einer Kickstart-Vorlage](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 ## `issue` Feldname
 

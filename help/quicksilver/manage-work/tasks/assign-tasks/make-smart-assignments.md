@@ -6,14 +6,16 @@ description: Sie können intelligente Zuweisungen verwenden, um zu ermitteln, we
 author: Lisa
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 5%
+ht-degree: 11%
 
 ---
 
-# Smart-Zuweisungen vornehmen
+# Erstellen intelligenter Arbeitsaufträge
 
 <!--Audited: 07/2024-->
 
@@ -54,11 +56,11 @@ Weitere Informationen über die Kriterien zur Bestimmung von Smart-Zuweisungen f
  </tbody>
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
-## Smart-Zuweisungen vornehmen
+## Erstellen intelligenter Arbeitsaufträge
 
 Smart-Zuweisungen sind an den meisten Stellen verfügbar, an denen Sie Zuweisungen in Workfront vornehmen können.
 
@@ -72,10 +74,12 @@ Smart-Zuweisungen sind an den meisten Stellen verfügbar, an denen Sie Zuweisung
 
 1. Platzieren Sie den Cursor im Feld Arbeitsaufträge und warten Sie zwei Sekunden.
 
-   <!--For issues, the smart assignments display in the following sections: 
+   <!--
+   For issues, the smart assignments display in the following sections: 
       * **Users and teams**
       * **Job roles**
-        ![Smart assignments issue header](assets/smart-assignments-issue-header.png)-->
+        ![Smart assignments issue header](assets/smart-assignments-issue-header.png)
+        -->
 
    Smart-Zuweisungen werden in den folgenden Abschnitten angezeigt<!--, depending on which phase of the algorithm's calculation identified the assignments-->:
 

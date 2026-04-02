@@ -6,10 +6,12 @@ description: Wenn Sie den Adobe Workfront-Szenarioplaner verwenden, können Sie 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1604'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -21,7 +23,7 @@ Wenn Sie den [!UICONTROL Adobe Workfront-Szenarioplaner] verwenden, können Sie 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -57,7 +59,8 @@ Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugr
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -93,7 +96,8 @@ Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugr
    <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Voraussetzungen
 
@@ -121,7 +125,7 @@ So erstellen Sie Initiativen von Grund auf:
 1. Klicken Sie auf den Namen des Plans, für den Sie eine Initiative erstellen möchten.
 1. Klicken Sie links neben **Initiative** das Symbol **[!UICONTROL +]**
 
-   Oder
+   ODER
 
    Klicken Sie auf das **[!UICONTROL Neue Initiative]** Dropdown-Menü und wählen Sie entweder **[!UICONTROL Neue Initiative]** oder **[!UICONTROL Projekte importieren].**
 
@@ -144,9 +148,9 @@ So erstellen Sie Initiativen von Grund auf:
 
    | Dropdown-Menüoption | Beschreibung |
    |---|---|
-   | [!UICONTROL Monat] | Zeigt die Zeitleiste nach Monat an. Dies ist die Standardoption für einen Ein-Jahres-Plan. |
+   | [!UICONTROL Month] | Zeigt die Zeitleiste nach Monat an. Dies ist die Standardoption für einen Ein-Jahres-Plan. |
    | [!UICONTROL Quartal] | Zeigt die Zeitleiste nach Quartal an. Diese Option ist nur verfügbar, wenn [!UICONTROL Laufzeit] des Plans 3 oder 5 Jahre beträgt. Dies ist die Standardoption für einen 3-Jahres-Plan. |
-   | [!UICONTROL Jahr] | Zeigt die Zeitleiste nach Jahr an. Diese Option ist nur verfügbar, wenn [!UICONTROL Laufzeit] des Plans 5 Jahre beträgt. Dies ist die Standardoption für einen 5-Jahres-Plan. |
+   | [!UICONTROL Year] | Zeigt die Zeitleiste nach Jahr an. Diese Option ist nur verfügbar, wenn [!UICONTROL Laufzeit] des Plans 5 Jahre beträgt. Dies ist die Standardoption für einen 5-Jahres-Plan. |
 
 
 1. (Optional) Scrollen Sie von links nach rechts, um die gesamte Dauer der Initiative anzuzeigen.

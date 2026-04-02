@@ -8,7 +8,9 @@ description: Wenn Benutzer benutzerdefinierte Felder regelmäßig aktualisieren 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e233ef28-c95a-42a1-b2eb-448dad5feddb
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 10%
@@ -70,7 +72,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Voraussetzungen
 
-Um einem benutzerdefinierten Formular ein berechnetes Feld hinzuzufügen, in dem der Bearbeitungsverlauf eines Felds angezeigt wird, müssen Sie zunächst Folgendes tun:
+Um einem benutzerdefinierten Formular ein berechnetes Feld hinzuzufügen, das den Bearbeitungsverlauf eines Felds anzeigt, müssen Sie zunächst Folgendes tun:
 
 * Erstellen eines benutzerdefinierten Formulars
 * Fügen Sie das Feld, dessen Verlauf Sie erfassen möchten, zum benutzerdefinierten Formular hinzu
@@ -85,8 +87,8 @@ Um einem benutzerdefinierten Formular ein berechnetes Feld hinzuzufügen, in dem
    1. Geben Sie einen **Titel** für das benutzerdefinierte Feld an. Sie können ihr beispielsweise den Namen „Anweisungen“ geben.
    1. Klicken Sie auf **Übernehmen**.
 
-1. Klicken Sie auf **Berechnet**, um dem Formular ein berechnetes benutzerdefiniertes Feld hinzuzufügen.
-1. Geben Sie eine **Bezeichnung** für das berechnete benutzerdefinierte Feld an. Nennen Sie ihn beispielsweise &quot;Instructions Edit History&quot;.
+1. Klicken Sie **Berechnet**, um dem Formular ein berechnetes benutzerdefiniertes Feld hinzuzufügen.
+1. Geben Sie einen **Titel** für das berechnete benutzerdefinierte Feld an. Sie können ihr beispielsweise den Namen „Anweisungen - Bearbeitungsverlauf“ geben.
 
    Dies ist das Feld, das alle Änderungen erfasst, die am ersten von Ihnen erstellten Feld vorgenommen wurden („Anweisungen„).
 
@@ -105,6 +107,6 @@ Um einem benutzerdefinierten Formular ein berechnetes Feld hinzuzufügen, in dem
 
 1. Klicken Sie auf **Speichern und schließen**.
 
-   Wenn Sie jetzt das benutzerdefinierte Formular an ein Objekt anhängen und dann jemand die Informationen im Feld **Anweisungen** ändert, zeigt das Feld **Anweisungen > Verlauf bearbeiten** den neuesten Wert, gefolgt vom aktuellen Datum in Klammern, und einen vertikalen Balken an. Wenn weitere Änderungen vorgenommen werden, werden diese Informationen auf die gleiche Weise hinzugefügt.
+   Wenn Sie nun das benutzerdefinierte Formular an ein Objekt anhängen und dann jemand die Informationen im Feld **Anweisungen** ändert, zeigt das Feld **Anweisungen - Bearbeitungsverlauf** den neuesten Wert an, gefolgt vom aktuellen Datum in Klammern und einem vertikalen Balken. Wenn weitere Änderungen vorgenommen werden, werden sie auf die gleiche Weise zu diesen Informationen hinzugefügt.
 
-   In der obigen Berechnung können Sie *Anweisungen* durch den genauen Namen Ihres einzeiligen Textfelds ersetzen, dessen Verlauf Sie verfolgen möchten, und **Anweisungen > Verlauf bearbeiten** durch den genauen Namen Ihres berechneten Felds.
+   Bei der obigen Berechnung können Sie *Anweisungen* durch den genauen Namen Ihres einzeiligen Textfelds, dessen Verlauf Sie verfolgen möchten, und **Anweisungen - Verlauf bearbeiten** durch den genauen Namen Ihres berechneten Felds ersetzen.

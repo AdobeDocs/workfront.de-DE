@@ -6,7 +6,9 @@ description: Sie können Ziele anzeigen, die Sie oder eine andere Person in Adob
 author: Alina
 feature: Workfront Goals
 exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1317'
 ht-degree: 7%
@@ -72,7 +74,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -123,7 +126,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Übersicht über Filter in Workfront Goals
 
@@ -193,9 +197,11 @@ Sie können einen Filter von Grund auf neu erstellen oder einen der integrierten
       <tbody> 
        <tr> 
         <td>Alle</td> 
-        <td> <p>Alle Ziele in Ihrem System, unabhängig davon, wer sie erstellt hat, welcher Zeitraum für sie ist oder wer der Eigentümer ist. Dies ist der Standardfilter und kann nicht bearbeitet werden. </p> <!--
+        <td> <p>Alle Ziele in Ihrem System, unabhängig davon, wer sie erstellt hat, welcher Zeitraum für sie ist oder wer der Eigentümer ist. Dies ist der Standardfilter und kann nicht bearbeitet werden. </p>
+        <!--
           <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: what the ALL filter displays might change; right now, it displays all, regardless of status, period, owner, etc)</p>
-         --> </td> 
+         -->
+         </td>
        </tr> 
        <tr> 
         <td>Persönlich</td> 

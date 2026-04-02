@@ -6,7 +6,9 @@ description: Sie können zwei Ziele manuell ausrichten oder die Ergebnisse und A
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 29%
@@ -66,7 +68,8 @@ Weitere Informationen finden Sie [Dokumentation zu Zugriffsanforderungen für Wo
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -117,7 +120,8 @@ Weitere Informationen finden Sie [Dokumentation zu Zugriffsanforderungen für Wo
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Voraussetzungen
 
@@ -165,7 +169,7 @@ Beachten Sie beim Konvertieren von Ergebnissen und Aktivitäten in Ziele Folgend
 
 1. Navigieren Sie zu einem Ziel mit einem Ergebnis oder einer Aktivität, die Sie in ein Ziel konvertieren möchten.
 1. Klicken Sie auf der Zielseite im linken Bereich **Fortschrittsanzeigen**.
-1. Wählen Sie ein Ergebnis oder eine Aktivität in der Liste der Fortschrittsindikatoren aus und klicken Sie dann oben in der Fortschrittsindikatorliste auf **In Ziel** Konvertieren![-Symbol &#x200B;](assets/convert-to-goal-icon-unshimmed.png)In Ziel konvertieren . Das Feld In Ziel konvertieren wird geöffnet.
+1. Wählen Sie ein Ergebnis oder eine Aktivität in der Liste der Fortschrittsindikatoren aus und klicken Sie dann oben in der Fortschrittsindikatorliste auf **In Ziel** Konvertieren![-Symbol ](assets/convert-to-goal-icon-unshimmed.png)In Ziel konvertieren . Das Feld In Ziel konvertieren wird geöffnet.
 
    ![In Zielfeld konvertieren](assets/convert-to-goal-box-unshimmed.png)
 1. Aktualisieren Sie die folgenden Informationen:

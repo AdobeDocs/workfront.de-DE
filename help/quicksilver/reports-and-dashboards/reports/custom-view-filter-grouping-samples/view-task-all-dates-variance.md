@@ -7,7 +7,9 @@ description: Diese Aufgabenansicht ähnelt der Ansicht „Alle Daten“, die mit
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 20df7cd8-113e-4c0d-b3f5-1def7db968a5
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '314'
 ht-degree: 14%
@@ -27,7 +29,7 @@ Diese Aufgabenansicht ähnelt der Ansicht „Alle Daten“, die mit Ihrem Adobe 
 
 Diese Ansicht zeigt ein Beispiel für berechnete Spalten, bei denen Sie die Werte aus zwei verschiedenen Spalten durch eine Berechnung verbinden können, um einen dritten Wert zu erhalten. In diesem Fall ziehen Sie das Datum 1 vom Datum 2 ab.
 
-Weitere Informationen zur Verwendung von Berechnungen in einer Ansicht finden Sie [&#x200B; Abschnitt „Übersicht über häufig verwendete Anwendungen für &#x200B;](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)&quot; in  [Übersicht über häufige Verwendungen für den Textmodus](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+Weitere Informationen zur Verwendung von Berechnungen in einer Ansicht finden Sie [ Abschnitt „Übersicht über häufig verwendete Anwendungen für ](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)&quot; in  [Übersicht über häufige Verwendungen für den Textmodus](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
 ![Aufgabe mit allen Datumsangaben anzeigen](assets/view-task-with-all-dates-variance.png)
 

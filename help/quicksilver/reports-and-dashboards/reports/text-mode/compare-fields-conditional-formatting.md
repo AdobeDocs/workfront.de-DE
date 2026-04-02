@@ -2,11 +2,13 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Vergleichen von Feldern in bedingter Formatierung
-description: Sie können bedingte Formatierungen verwenden, um zwei verschiedene Felder in einer Ansicht zu vergleichen und sie hervorzuheben, wenn bestimmte Kriterien zwischen den Feldern erfüllt sind.
+description: Sie können bedingte Formatierung verwenden, um zwei verschiedene Felder in einer Ansicht zu vergleichen und sie hervorzuheben, wenn bestimmte Kriterien zwischen den Feldern erfüllt sind.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: da4447ba-6e76-4701-88ee-87a30393bed9
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 12%
@@ -17,7 +19,7 @@ ht-degree: 12%
 
 <!-- Audited: 1/2025 -->
 
-Sie können bedingte Formatierungen verwenden, um zwei verschiedene Felder in einer Ansicht zu vergleichen und sie hervorzuheben, wenn bestimmte Kriterien zwischen den Feldern erfüllt sind.
+Sie können bedingte Formatierung verwenden, um zwei verschiedene Felder in einer Ansicht zu vergleichen und sie hervorzuheben, wenn bestimmte Kriterien zwischen den Feldern erfüllt sind.
 
 ## Zugriffsanforderungen
 
@@ -40,11 +42,11 @@ Sie können bedingte Formatierungen verwenden, um zwei verschiedene Felder in ei
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Bearbeitungszugriff auf Filter, Ansichten, Gruppierungen</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um die Ansicht in einem Bericht zu bearbeiten</p></td> 
+   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um die Ansicht in einem Bericht zu bearbeiten</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten, um die Ansicht in einem Bericht zu bearbeiten</p> <p>Berechtigungen für eine Ansicht verwalten</p></td> 
+   <td> <p>Verwalten der Berechtigungen für einen Bericht, um die Ansicht in einem Bericht zu bearbeiten</p> <p>Verwalten der Berechtigungen für eine Ansicht</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,29 +55,29 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 +++
 
-## Beispiel: Aktuelles Startdatum und geplantes Startdatum vergleichen
+## Beispiel: Tatsächliches Startdatum und Geplantes Startdatum vergleichen
 
-Wenn z. B. das tatsächliche Startdatum eines Vorgangs nach dem geplanten Startdatum liegt, können Sie die Spalte &quot;Geplantes Startdatum&quot; mithilfe der bedingten Formatierung markieren.
+Wenn beispielsweise das tatsächliche Startdatum einer Aufgabe nach dem geplanten Startdatum liegt, können Sie die Spalte Geplantes Startdatum mithilfe einer bedingten Formatierung hervorheben.
 
-So vergleichen Sie das geplante Startdatum und das tatsächliche Startdatum eines Vorgangs mithilfe der bedingten Formatierung:
+So vergleichen Sie das geplante Startdatum und das tatsächliche Startdatum einer Aufgabe mithilfe einer bedingten Formatierung:
 
-1. Wechseln Sie zu einer Aufgabenansicht oder einem Bericht.
-1. (Bedingt) Wenn Sie mit einem Bericht arbeiten, klicken Sie auf der Registerkarte **Spalten (Ansicht)** im Berichts-Editor auf den Header der Spalte, die Sie bedingt formatieren möchten, um sie auszuwählen.\
-   Wählen Sie beispielsweise die Spalte **Aktuelles Startdatum** aus, wenn Sie ihr die bedingte Formatierung hinzufügen möchten, indem Sie die Felder &quot;Geplantes Startdatum&quot; und &quot;Aktuelles Startdatum&quot; vergleichen.
+1. Gehe zu einer Aufgabenansicht oder einem Bericht.
+1. (Bedingt) Wenn Sie mit einem Bericht arbeiten, klicken Sie auf der Registerkarte **Spalten (Ansicht)** im Berichtseditor auf die Kopfzeile der Spalte, die Sie mit Bedingungen formatieren möchten, um sie auszuwählen.\
+   Wählen Sie beispielsweise die Spalte **Tatsächliches Startdatum** aus, um ihr die bedingte Formatierung hinzuzufügen, indem Sie die Felder Geplantes Startdatum und Tatsächliches Startdatum vergleichen.
 
-1. Klicken Sie auf **Erweiterte Optionen**, und klicken Sie dann auf **Regel für diese Spalte hinzufügen**.
+1. Klicken Sie **Erweiterte Optionen** und anschließend auf &quot;**für diese Spalte hinzufügen**.
 
-1. Geben Sie die Vergleichskriterien mithilfe vorhandener Werte aus dem Generator ein und geben Sie die bedingte Formatierung an.\
-   Beispielsweise möchten wir Aufgaben hervorheben, deren tatsächliches Startdatum nach dem geplanten Startdatum liegt (oder größer ist). Wählen Sie den Modifizierer &quot;Größer als&quot; und wählen Sie im Datumsfeld ein aktuelles Datum aus.
+1. Geben Sie die Vergleichskriterien mithilfe der vorhandenen Werte aus dem Builder ein und geben Sie Ihre bedingte Formatierung an.\
+   Beispielsweise möchten wir Aufgaben hervorheben, deren tatsächliches Startdatum nach dem geplanten Startdatum liegt (oder größer ist). Wählen Sie den Modifikator Größer als und danach im Datumsfeld ein tatsächliches Datum aus.
 
-   ![Bedingte Formatierung für das tatsächliche Startdatum](assets/cond-format-1-350x84.png)
+   ![Bedingte Formatierung für tatsächliches Startdatum](assets/cond-format-1-350x84.png)
 
-1. (Optional) Wählen Sie **Auf ganze Zeile anwenden**, wenn Sie die Formatierung auf die gesamte Zeile anwenden möchten.
+1. (Optional) Wählen Sie **Auf gesamte Zeile anwenden** aus, wenn Sie die Formatierung auf die gesamte Zeile anwenden möchten.
 1. Klicken Sie auf **Speichern**.
 
-1. Wählen Sie die Spalte **Aktuelles Startdatum** aus, und klicken Sie dann auf **In Textmodus wechseln**.
+1. Wählen Sie die **Tatsächliches Startdatum** aus und klicken Sie dann auf **In Textmodus wechseln**.
 
-1. Klicken Sie auf **Textmodus bearbeiten**, und fügen Sie dann die folgende Textzeile hinzu:
+1. Klicken Sie **Textmodus bearbeiten** und fügen Sie dann die folgende Textzeile hinzu:
 
    ```
    styledef.case.0.comparison.rightmethod= <field to compare>
@@ -89,16 +91,16 @@ So vergleichen Sie das geplante Startdatum und das tatsächliche Startdatum eine
 
    >[!NOTE]
    >
-   >Wenn Sie ein systemeigenes Workfront-Feld vergleichen, verwenden Sie die Kamelschreibungssyntax für den Feldnamen. Wenn Sie ein benutzerdefiniertes Feld vergleichen, verwenden Sie **DE:Actual Name des Felds** für das Namensfeld, das Sie mit dem ersten Feld vergleichen.\
-   >Wenn Sie beispielsweise das **Ist-Startdatum** mit einem benutzerdefinierten Feld mit der Bezeichnung **Lieferdatum** vergleichen, fügen Sie in Ihrem Textmoduscode die folgende Anweisung hinzu:
+   >Wenn Sie ein natives Workfront-Feld vergleichen, verwenden Sie die Binnenmajuskeln-Syntax für den Feldnamen. Wenn Sie ein benutzerdefiniertes Feld vergleichen, verwenden Sie **DE:Actual Name des Felds** für das Namensfeld, das Sie mit dem ersten Feld vergleichen.\
+   >Wenn Sie z. B. das **Tatsächliche Startdatum** mit einem benutzerdefinierten Feld mit der Bezeichnung **Versanddatum** vergleichen, fügen Sie die folgende Anweisung in Ihrem Textmodus-Code hinzu:
    >
    >`styledef.case.0.comparison.rightmethod=DE:Delivery Date`
 
-1. Stellen Sie sicher, dass die Codezeile &quot;`righttext`&quot; mit der Anweisung in der Codezeile &quot;`rightmethod`&quot; übereinstimmt.
+1. Stellen Sie sicher, dass die `righttext` Codezeile mit der Anweisung in der `rightmethod` Codezeile übereinstimmt.
 
    ![Bedingte Formatierung](assets/cond-format-2-350x171.png)
 
 1. Klicken Sie auf **Speichern**.
 1. Klicken Sie auf **Speichern + schließen**.
 
-   In der Spalte werden die Felder hervorgehoben, die Ihre Kriterien erfüllen.
+   In der Spalte werden die Felder hervorgehoben, die Ihren Kriterien entsprechen.

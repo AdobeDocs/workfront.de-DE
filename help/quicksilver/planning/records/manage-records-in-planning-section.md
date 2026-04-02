@@ -6,21 +6,25 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1767'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
 <!--add also Group and Company when they are available-->
 
-# Verwalten von Datensatzverbindungen aus Workfront-Objekten
+# Verwalten von Eintragsverbindungen aus Workfront-Objekten
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 {{planning-important-intro}}
 
@@ -66,7 +70,7 @@ Sie können Workfront-Planungsdatensätze in Workfront in den folgenden Bereiche
    <p>Zeigen Sie in Workfront Berechtigungen oder höhere Berechtigungen für ein Projekt, ein Portfolio oder ein Programm an</a> </p> 
    <p>In Workfront Planning:</p>
    <ul><li>Anzeigen von Berechtigungen für einen Arbeitsbereich und Datensatztyp zum Anzeigen verbundener Datensätze </li>
-   Oder
+   ODER
    <li> Beitragen von oder höhere Berechtigungen zu einem Arbeitsbereich und Datensatztyp, um Datensätze zu verbinden oder zu trennen</a></li></ul> 
    <p>Systemadministratoren haben Berechtigungen für alle Workfront Planning-Arbeitsbereiche, einschließlich der nicht erstellten</p> 
   </td>
@@ -79,7 +83,8 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 +++   
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
  <col>
  </col>
@@ -145,7 +150,8 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
   </td>
   </tr>
  </tbody>
-</table>-->
+</table>
+-->
 
 
 ## Verwalten von Datensätzen im Abschnitt Planung
@@ -156,8 +162,10 @@ Der Abschnitt Planung ist für die folgenden Workfront-Objekte verfügbar:
 * Projekt
 * Portfolio
 * Programm
-<!--* Group
-* Company-->
+<!--
+* Group
+* Company
+-->
 
 ### Überlegungen zum Planungsabschnitt von Workfront-Objekten
 
@@ -167,7 +175,7 @@ Beachten Sie Folgendes, wenn Sie Workfront-Planungsdatensätze im Planungsabschn
 
   Weitere Informationen finden Sie in den folgenden Artikeln:
 
-   * [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md)
+   * [Verbinden von Eintragstypen](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [Einträge verbinden](/help/quicksilver/planning/records/connect-records.md)
 * Sie können den Planungsabschnitt über ein Workfront-Objekt anzeigen, selbst wenn keine Datensätze mit dem Workfront-Objekt verknüpft sind.
 * Ein Datensatztyp wird nur dann im Bereich Planung eines Workfront-Objekts angezeigt, wenn Sie bei der Erstellung der Verbindung zwischen zwei Datensatztypen das entsprechende Feld in der Einstellung Verknüpfter Datensatztyp erstellen aktivieren.

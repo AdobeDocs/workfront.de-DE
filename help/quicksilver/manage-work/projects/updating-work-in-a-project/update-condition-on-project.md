@@ -6,14 +6,16 @@ description: Die Bedingung eines Projekts ist eine Markierung, die darauf platzi
 author: Alina
 feature: Work Management
 exl-id: 1f46386e-e1ae-4845-8cc4-09dd7d39076f
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 4%
+ht-degree: 8%
 
 ---
 
-# Aktualisierungsbedingung für ein Projekt
+# Aktualisieren der Bedingung für ein Projekt
 
 Die Bedingung eines Projekts ist eine Markierung, die darauf platziert wird und anzeigt, ob die damit verbundene Arbeit reibungslos verläuft oder ob Sie auf Hindernisse gestoßen sind. Dies unterscheidet sich vom Status des Projekts, der angibt, ob Sie aktiv daran arbeiten oder nicht.
 
@@ -37,7 +39,7 @@ Der Adobe Workfront-Administrator kann benutzerdefinierte Bedingungen für Ihre 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
   <p>Standard</p>
-   <p>Plan</p>
+   <p>Abo</p>
     </td> 
   </tr> 
   <tr> 
@@ -53,11 +55,12 @@ Der Adobe Workfront-Administrator kann benutzerdefinierte Bedingungen für Ihre 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -89,7 +92,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
      </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Bedingung automatisch festlegen
 

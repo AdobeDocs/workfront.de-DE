@@ -6,19 +6,23 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: 15ffe027c281782bcaa4df229badc134d91195a0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 2%
+ht-degree: 47%
 
 ---
 
 
 # Einträge: Artikelindex
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -26,23 +30,23 @@ Nachdem Sie Datensatztypen in Adobe Workfront Planning erstellt haben, können S
 
 In den folgenden Artikeln wird beschrieben, wie Sie Datensätze und deren Informationen in Adobe Workfront Planning erstellen und verwalten können:
 
-* [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md)
-* [Erstellen von Datensätzen durch Importieren von Informationen aus einer CSV- oder Excel-Datei](/help/quicksilver/planning/records/import-file-to-create-records.md)
-* [Erstellen von Workfront-Objekten aus Workfront Planning, während Sie sie mit Datensätzen verbinden](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
-* [Konfigurieren von Adobe Workfront Planning-Automatisierungen](/help/quicksilver/planning/records/configure-automations-to-create-records.md)
+* [Erstellen von Einträgen](/help/quicksilver/planning/records/create-records.md)
+* [Erstellen von Einträgen durch Importieren von Informationen aus einer CSV- oder Excel-Datei](/help/quicksilver/planning/records/import-file-to-create-records.md)
+* [Erstellen von Workfront-Objekten aus Workfront-Planung, während Sie sie mit Einträgen verbinden](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+* [Konfigurieren von Automatisierungen für Adobe Workfront-Planung](/help/quicksilver/planning/records/configure-automations-to-create-records.md)
 * [Erstellen von Objekten mithilfe von Adobe Workfront Planning-Datensatzautomatisierungen](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
-* [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md)
+* [Bearbeiten von Einträgen](/help/quicksilver/planning/records/edit-records.md)
 * [Löschen von Einträgen](/help/quicksilver/planning/records/delete-records.md)
-* [Gelöschte Einträge wiederherstellen](/help/quicksilver/planning/records/restore-deleted-records.md)
-* [Freigeben von Datensätzen über einen Link](/help/quicksilver/planning/records/share-records.md)
-* [Übersicht über verbundene Datensätze](/help/quicksilver/planning/records/connected-records-overview.md)
+* [Wiederherstellen gelöschter Einträge](/help/quicksilver/planning/records/restore-deleted-records.md)
+* [Freigeben von Einträgen über einen Link](/help/quicksilver/planning/records/share-records.md)
+* [Überblick über verbundene Einträge](/help/quicksilver/planning/records/connected-records-overview.md)
 * [Einträge verbinden](/help/quicksilver/planning/records/connect-records.md)
-* [Doppelte Einträge](/help/quicksilver/planning/records/copy-or-duplicate-records.md)
-* [Verwalten von Datensatzkommentaren](/help/quicksilver/planning/records/manage-record-comments.md)
-* [Übersicht über den Verlaufsabschnitt](/help/quicksilver/planning/records/history-section-overview.md)
-* [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
-* [Hinzufügen eines Cover-Bildes zu einem Datensatz](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
-* [Seiten-Layout des Datensatzes verwalten](/help/quicksilver/planning/records/manage-the-record-page.md)
-* [Exportieren der Details eines Datensatzes](/help/quicksilver/planning/records/export-the-record-page.md)
-* [Datensätze aus der Tabellenansicht exportieren](/help/quicksilver/planning/records/export-records-from-the-table-view.md)
+* [Duplizieren von Einträgen](/help/quicksilver/planning/records/copy-or-duplicate-records.md)
+* [Verwalten von Kommentaren zu Einträgen](/help/quicksilver/planning/records/manage-record-comments.md)
+* [Überblick über den Abschnitt „Verlauf“](/help/quicksilver/planning/records/history-section-overview.md)
+* [Hinzufügen einer Miniaturansicht zu einem Eintrag](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
+* [Hinzufügen eines Titelbilds zu einem Eintrag](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
+* [Verwalten des Layouts der Eintragsseite](/help/quicksilver/planning/records/manage-the-record-page.md)
+* [Exportieren der Details eines Eintrags](/help/quicksilver/planning/records/export-the-record-page.md)
+* [Exportieren von Einträgen aus der Tabellenansicht](/help/quicksilver/planning/records/export-records-from-the-table-view.md)
 * [Hinzufügen einer verbundenen Datensatzseite zu einem Datensatz](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)

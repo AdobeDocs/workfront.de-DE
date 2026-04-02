@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: approvals
-title: Genehmigungsanforderung delegieren
+title: Delegieren von Genehmigungsanfragen
 description: Durch das Delegieren von Genehmigungsanfragen können Sie einen anderen Benutzer zuweisen, der Ihre Anfragen für einen bestimmten Zeitraum genehmigt, z. B. wenn Sie im Urlaub abwesend sind.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 14360a82b0de65587a9413b58d9c69abb55fa29d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1193'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Genehmigungsanforderung delegieren
+# Delegieren von Genehmigungsanfragen
 
 Sie können die Ihnen zugewiesene Arbeit vorübergehend delegieren, während Sie abwesend sind. Sie können Aufgaben- und Problemzuweisungen oder Genehmigungsanfragen delegieren. In diesem Artikel wird beschrieben, wie Sie Genehmigungsanforderungen delegieren. Informationen zum Delegieren von Aufgaben- und Problemzuweisungen finden Sie unter [Delegieren von Aufgaben und Problemen](../../manage-work/delegate-work/how-to-delegate-work.md).
 
@@ -35,7 +37,7 @@ Sie können keine Genehmigungen für Arbeitszeittabellen, Dokumente oder Korrekt
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -57,7 +59,7 @@ Sie können keine Genehmigungen für Arbeitszeittabellen, Dokumente oder Korrekt
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -71,7 +73,7 @@ Während des festgelegten Genehmigungszeitraums hat der Benutzer, an den Sie ein
 
   >[!NOTE]
   >
-  > Der Adobe Workfront-Administrator kann den Zugriff von Benutzenden auf bestimmte Objekttypen einschränken. Wenn ein(e) Benutzende(r) keinen Zugriff auf einen Objekttyp hat und dem/r Benutzenden eine Genehmigung dieses Typs delegiert wird, hat der/die Benutzende keinen Lesezugriff auf das Objekt. Der Benutzer kann jedoch weiterhin Genehmigungsanfragen von der Seite **Startseite“ genehmigen oder**, wie unter &quot;[&#x200B; Arbeit“ &#x200B;](../../review-and-approve-work/manage-approvals/approving-work.md).\
+  > Der Adobe Workfront-Administrator kann den Zugriff von Benutzenden auf bestimmte Objekttypen einschränken. Wenn ein(e) Benutzende(r) keinen Zugriff auf einen Objekttyp hat und dem/r Benutzenden eine Genehmigung dieses Typs delegiert wird, hat der/die Benutzende keinen Lesezugriff auf das Objekt. Der Benutzer kann jedoch weiterhin Genehmigungsanfragen von der Seite **Startseite“ genehmigen oder**, wie unter &quot;[ Arbeit“ ](../../review-and-approve-work/manage-approvals/approving-work.md).\
   >Beispiel: Benutzer A gehört zu Gruppe A. Der Workfront-Administrator hat die Zugriffsrechte von Gruppe A eingeschränkt, sodass Benutzende in dieser Gruppe keine Aufgaben in Workfront sehen können. Wenn eine Aufgabengenehmigungsanfrage an einen Benutzer delegiert wird, kann Benutzer A die Aufgabe, mit der die Genehmigung verknüpft ist, nicht anzeigen. Benutzer A kann jedoch die Genehmigungsanfrage von der Startseite aus genehmigen oder ablehnen.
 
   Informationen dazu, wie der Workfront-Administrator den Zugriff auf Objekttypen in Setup beschränken kann, finden Sie unter  [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). 
@@ -154,7 +156,8 @@ So delegieren Sie Genehmigungen an einen anderen Benutzer:
 <!--
    Or
 
-   If your system or group administrator enabled task and issue delegation, click **Edit delegation**, then click **Delegate approvals**.   -->
+   If your system or group administrator enabled task and issue delegation, click **Edit delegation**, then click **Delegate approvals**.
+   -->
 
 1. (Bedingt) Führen Sie einen der folgenden Schritte aus:
 

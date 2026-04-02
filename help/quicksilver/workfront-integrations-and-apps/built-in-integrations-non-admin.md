@@ -2,19 +2,21 @@
 product-area: workfront-integrations
 keywords: adobe,box,dropbox,microsoft,sharepoint,slack,webdam,zoom
 navigation-topic: workfront-integrations-navigation-topic
-title: Übersicht über integrierte Adobe Workfront-Integrationen
+title: Überblick über native Adobe Workfront-Integrationen
 description: Sie können  [!DNL Adobe Workfront]  mit Anwendungen von Drittanbietern integrieren. Durch diese Integrationen kann die Nützlichkeit von  [!DNL Workfront]  erweitert und an die Anforderungen Ihres Unternehmens angepasst werden. Wenn Sie z. B. ein Kreativschaffender in der Marketing-Branche sind, können Sie das Adobe Creative Cloud-Add-in verwenden, um Assets direkt aus Photoshop in Workfront zu exportieren.
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 3%
+ht-degree: 49%
 
 ---
 
-# Übersicht über integrierte Adobe Workfront-Integrationen
+# Überblick über native Adobe Workfront-Integrationen
 
 <!-- Audited: 12/2023 -->
 
@@ -34,7 +36,7 @@ Die folgenden integrierten Integrationen sind derzeit in Workfront verfügbar.
    <td role="rowheader"> <p>Adobe Creative Cloud </p> <p> <img src="assets/creative-cloud-logo.png"> </p> </td> 
    <td> 
     <ul> 
-     <li>Integrieren Sie [!DNL Workfront] Kommentare und Genehmigungen in die folgenden Adobe Creative Cloud-Programme: 
+     <li>Integrieren Sie Kommentare und Genehmigungen in [!DNL Workfront] mit den folgenden Adobe Creative Cloud-Anwendungen: 
      <ul>
      <li>InDesign </li>
      <li>Illustrator </li>
@@ -43,7 +45,7 @@ Die folgenden integrierten Integrationen sind derzeit in Workfront verfügbar.
      <li>Premiere Pro </li>
      <li>After Effects </li>
      </ul>
-     <li><p>Herunterladen/Installieren von <a href="https://exchange.adobe.com/apps/browse/cc?page=1&product=All&q=workfront&sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
+     <li><p>Laden Sie <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a> herunter und installieren Sie es.</p></li></ul>
      <p>Informationen und Anweisungen finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Installieren des [!DNL Adobe Workfront]-Plug-ins für [!DNL Creative Cloud] Anwendungen</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -52,47 +54,50 @@ Die folgenden integrierten Integrationen sind derzeit in Workfront verfügbar.
     <ul> 
      <li>Automatisches Erstellen von Ordnern, die mit Workfront und Adobe Experience Manager verknüpft sind 
       <li>Synchronisieren von Metadaten für vorhandene verknüpfte Assets</p></li>
-      <li>Portfolio-, Programm-, Projekt-, Aufgaben-, Problem- und Dokumentmetadaten werden bei Änderungen in Workfront automatisch aktualisiert.</li>
+      <li>Automatisches Aktualisieren von Portfolio-, Programm-, Projekt-, Aufgaben-, Problem- und Dokumentmetadaten bei Änderungen in Workfront</li>
       <li>Einfaches Verbinden mehrerer Experience Manager Assets-Repositorys mit einer Workfront-Umgebung oder mehrerer Workfront-Umgebungen mit einem Experience Manager Assets-Repository über Organisations-IDs hinweg</li></ul>
-     <p>Weitere Informationen und Anweisungen finden Sie unter <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Übersicht über Adobe Experience Manager Assets-Integrationen</a></p> 
+     <p>Weitere Informationen und Anweisungen finden Sie unter <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Überblick über Adobe Experience Manager Assets-Integrationen</a></p> 
      </td>
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Box</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
+   <td role="rowheader"> <p>Feld</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
    <td> 
     <ul> 
-     <li>Dokumente und Ordner verknüpfen mit [!DNL Workfront]</li> 
+     <li>Verknüpfen von Dokumenten und Ordnern [!DNL Workfront]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Dropbox</p> <p> <img src="assets/dropbox-1-logo-png-transparent.png"> </p> </td> 
    <td> 
     <ul> 
-     <li>Dokumente und Ordner verknüpfen mit [!DNL Workfront]</li> 
+     <li>Verknüpfen von Dokumenten und Ordnern [!DNL Workfront]</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Google Drive</p> <p> <img src="assets/google-drive-logo.png"> </p> </td> 
    <td> 
     <ul> 
-     <li>Dokumente und Ordner verknüpfen mit [!DNL Workfront]</li> 
+     <li>Verknüpfen von Dokumenten und Ordnern [!DNL Workfront]</li> 
     </ul> </td> 
   </tr> 
-  <!--<tr> 
+  <!--
+  <tr> 
    <td role="rowheader">Microsoft Calendars (Office 365 / Outlook Live)</td> 
    <td> 
     <ul> 
      <li> <p>Integrate with a web-based version of Outlook in cloud-hosted Office 365 or Outlook Live. </p>
     </ul> </td> 
-  </tr>-->
+  </tr>
+  -->
   <tr> 
    <td role="rowheader"> <p>Microsoft OneDrive</p> <p> <img src="assets/microsoft-onedrive.png"> </p> </td> 
    <td> 
     <ul> 
-     <li>Dokumente und Ordner verknüpfen mit [!DNL Workfront]</li> 
+     <li>Verknüpfen von Dokumenten und Ordnern [!DNL Workfront]</li> 
     </ul> </td> 
   </tr> 
-  <!--<tr> 
+  <!--
+  <tr> 
    <td role="rowheader"> <p>Microsoft Outlook</p> <p> <img src="assets/outlook.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
@@ -101,25 +106,26 @@ Die folgenden integrierten Integrationen sind derzeit in Workfront verfügbar.
      <li>Create new tasks from an email </li> 
      <li>Comment on [!DNL Workfront] items </li> 
     </ul> </td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
-   <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p><b>HINWEIS</b>: Ab dem 1. Juli 2025 entfernt Microsoft die Unterstützung für die Desktop-App Classic Teams . Daher wird die Workfront-Integration mit Microsoft Teams nicht mehr unterstützt, sobald die Classic Teams-Desktop-App nicht mehr verfügbar ist. </p> </td> 
+   <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p><b>HINWEIS</b>: Ab 1. Juli 2025 wird die Classic Teams-Desktop-App von Microsoft nicht mehr unterstützt. Daher wird die Workfront-Integration mit Microsoft Teams nicht mehr unterstützt, sobald die Classic Teams-Desktop-App nicht mehr verfügbar ist. </p> </td> 
    <td> 
     <ul> 
      <li>Abrufen [!DNL Workfront] Benachrichtigungen in [!DNL Microsoft Teams] </li> 
-     <li>Genehmigungsentscheidungen treffen </li> 
-     <li>Nach [!DNL Workfront] Projekten, Aufgaben und Problemen suchen </li> 
-     <li>Persönliche [!DNL Workfront] erstellen </li> 
-     <li>[!DNL Workfront] Anfragen einreichen </li> 
+     <li>Treffen von Genehmigungsentscheidungen </li> 
+     <li>Suchen nach [!DNL Workfront]-Projekten, -Aufgaben und -Problemen </li> 
+     <li>Erstellen persönlicher Aufgaben in [!DNL Workfront] </li> 
+     <li>Einreichen von Anfragen in [!DNL Workfront] </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Slack</p> <p> <img src="assets/slacklogo.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>[!DNL Workfront]-Benachrichtigungen in [!DNL Slack] empfangen </li> 
+     <li>Erhalten von [!DNL Workfront]-Benachrichtigungen in [!DNL Slack] </li> 
      <li>Verwalten von Validierungen in Slack </li> 
-     <li>Erstellen [!DNL Workfront] Aufgaben und Probleme aus [!DNL Slack] </li> 
+     <li>Erstellen von [!DNL Workfront]-Aufgaben und -Problemen aus [!DNL Slack] </li> 
      <li>Kommentare aus Slack zu einem Projekt oder einer Aufgabe posten</li> 
     </ul> </td> 
   </tr> 
@@ -127,7 +133,7 @@ Die folgenden integrierten Integrationen sind derzeit in Workfront verfügbar.
    <td role="rowheader"> <p>Webdam</p> <p> <img src="assets/webdam-logo.png"> </p> </td> 
    <td> 
     <ul> 
-     <li>Dokumente und Ordner verknüpfen mit [!DNL Workfront]</li> 
+     <li>Verknüpfen von Dokumenten und Ordnern [!DNL Workfront]</li> 
     </ul> </td> 
   </tr> 
   <tr> 

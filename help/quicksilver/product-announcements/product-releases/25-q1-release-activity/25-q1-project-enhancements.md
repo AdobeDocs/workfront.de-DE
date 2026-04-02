@@ -5,7 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 998f3508-623e-471b-9ab7-bded5add6b5b
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '181'
 ht-degree: 27%
@@ -14,22 +16,22 @@ ht-degree: 27%
 
 # Verbesserungen bei Projekten im ersten Quartal 2025
 
-Auf dieser Seite werden alle Projektverbesserungen beschrieben, die mit der Version für das erste Quartal 2025 in der Preview-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
+Auf dieser Seite werden alle mit der Version vom ersten Quartal 2025 vorgenommenen Projektverbesserungen in der Vorschau-Umgebung beschrieben. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2025 des Versionszyklus verfügbar sind, finden Sie unter [Versionsüberblick für das erste Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
-## Relevantere Aufgaben wurden aus der Vorschau und Produktion für Fast Release-Umgebungen entfernt
+## Wichtigere Zuweisungen aus der Vorschau- und Produktionsumgebung für Fast Release-Umgebungen entfernt
 
 >[!NOTE]
 >
->Vorschauversion: 19. Dezember 2024; Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)
+>Vorschau-Version: 19. Dezember 2024; Produktionsversion für alle Kunden: Mit Version 25.1 (16. Januar 2025)
 
-Eine Funktion, die seit Dezember 2023 in der Preview-Umgebung und seit März 2024 in der Fast Release Production-Umgebung vorhanden ist, wurde entfernt. Die Funktionen haben beim Zuweisen von Aufgaben relevantere Vorschläge für intelligente Zuweisungen hinzugefügt.
+Eine Funktion, die sich seit Dezember 2023 in der Vorschau-Umgebung und seit März 2024 in der Fast-Release-Produktionsumgebung befindet, wurde jetzt entfernt. Die Funktionen haben beim Zuweisen von Aufgaben relevantere Smart-Assignment-Vorschläge hinzugefügt.
 
-Mit dieser Änderung funktionieren Smart-Zuweisungen in der Vorschau und der Fast Release Production jetzt auf die gleiche Weise wie in der Produktionsumgebung für alle Kunden in den folgenden Bereichen:
+Mit dieser Änderung funktionieren Smart Assignments jetzt in der Vorschau- und Schnellveröffentlichungsproduktion genauso wie in der Produktionsumgebung für alle Kunden in den folgenden Bereichen:
 
 * Beim Hinzufügen von Zuweisungen zu einer neuen Aufgabe
 
 * Beim Hinzufügen von Zuweisungen zu einer vorhandenen Aufgabe
 
-Weitere Informationen finden Sie unter [Übersicht über intelligente Zuweisungen](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+Weitere Informationen finden Sie unter [Smart Assignments - Übersicht](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).

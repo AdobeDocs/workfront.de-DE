@@ -6,7 +6,9 @@ description: Sie können die benutzerdefinierten Formulare eines Objekts in den 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 8b0d2e7f-cc92-4f43-a91c-ab2b2d8a1c01
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 9%
@@ -42,7 +44,7 @@ Sie können auf den Inhalt von benutzerdefinierten Formularen verweisen, die in 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten</p> <p>Bearbeitungszugriff auf Filter, Ansichten, Gruppierungen</p></td> 
+   <td> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
@@ -82,15 +84,15 @@ Weitere Informationen zum Erstellen eines Berichts finden Sie im Artikel [Erstel
 
 Sie können auf Informationen über benutzerdefinierte Formulare verweisen, wie z. B. den Namen aller benutzerdefinierten Formulare, die mit einem Objekt verknüpft sind.
 
-&#x200B; Je nach Element (Ansicht, Filter oder Gruppierung) können Sie einen der folgenden Verweise verwenden:
+&#x200B;Je nach Element (Ansicht, Filter oder Gruppierung) können Sie auf Folgendes verweisen:
 
-* Das primäre benutzerdefinierte Formular, das auf ein Objekt angewendet wurde:
+* Das primäre benutzerdefinierte Formular, das auf ein Objekt angewendet wird:
 
-  Dies ist das Formular, das zuerst auf der Seite Details des Objekts angezeigt wird.
+  Dies ist das Formular, das zuerst auf der Detailseite des -Objekts angezeigt wird.
 
-* Alle benutzerdefinierten Formulare (wenn mehrere benutzerdefinierte Formulare auf ein Objekt angewendet werden)
+* Alle benutzerdefinierten Formulare (wenn mehr als ein benutzerdefiniertes Formular auf ein Objekt angewendet wird)
 
-Sie können benutzerdefinierte Formulare in Ansichten, Filtern und Gruppierungen referenzieren:
+Sie können benutzerdefinierte Formulare für Ansichten, Filter und Gruppierungen referenzieren:
 
 * [Referenzieren von benutzerdefinierten Formularen in einer Berichtsansicht (Spalte)](#reference-custom-forms-in-a-report-view-column)
 * [Verweisen auf benutzerdefinierte Formulare in einem Berichtsfilter](#reference-custom-forms-in-a-report-filter)
@@ -111,12 +113,12 @@ So zeigen Sie nur das primäre benutzerdefinierte Formular an, das mit dem -Obje
 1. Erweitern Sie auf **Registerkarte** die Feldquelle **Kategorie** und klicken Sie dann auf den Feldnamen **Name**.\
    ![Kategoriename](assets/qs-category-name-column-2-350x248.png)
 
-### Verweisen auf benutzerdefinierte Formulare in einem Berichtsfilter {#reference-custom-forms-in-a-report-filter}
+### Referenzieren benutzerdefinierter Formulare in einem Berichtsfilter {#reference-custom-forms-in-a-report-filter}
 
 So filtern Sie nach allen benutzerdefinierten Formularen, die mit dem Objekttyp verknüpft sind:
 
-1. Beginnen Sie mit dem Erstellen eines Berichts, wie im Artikel [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) beschrieben.
-1. Erweitern Sie auf der Registerkarte **Filter** **Kategorien**, und klicken Sie dann auf **Name**.\
+1. Beginnen Sie mit der Erstellung eines Berichts, wie im Artikel [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) beschrieben.
+1. Erweitern Sie auf **Registerkarte** Filter **die Option Kategorien** und klicken Sie dann auf **Name**.\
    ![Filter für Kategorienamen](assets/qs-categories-name-filter-350x311.png)
 
 1. Wählen Sie den Bedingungsqualifizierer aus, den Sie verwenden möchten:
@@ -141,10 +143,10 @@ So filtern Sie nach allen benutzerdefinierten Formularen, die mit dem Objekttyp 
 So filtern Sie nur nach dem primären benutzerdefinierten Formular, das mit dem Objekttyp verknüpft ist:
 
 1. Beginnen Sie mit der Erstellung eines Berichts, wie im Artikel [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) beschrieben.
-1. Erweitern Sie auf der Registerkarte **Filter** die Feldquelle **Kategorie**, und klicken Sie dann auf den Feldnamen **Name**.\
+1. Erweitern Sie auf **Registerkarte** die Feldquelle **Kategorie** und klicken Sie dann auf den Feldnamen **Name**.\
    ![Filter für Kategorienamen](assets/qs-category-name-filter-350x437.png)
 
-1. Wählen Sie den Bedingungsbezeichner aus, den Sie verwenden möchten:
+1. Wählen Sie den Bedingungsqualifizierer aus, den Sie verwenden möchten:
 
    * Leer
    * Nicht leer

@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: task-information
-title: Aufgabenkostentyp aktualisieren
+title: Aktualisieren des Kostentyps für Aufgaben
 description: Die geplanten Kosten und Istkosten der Aufgaben sowie deren Lohnkosten werden durch den Kostentyp jeder Aufgabe bestimmt.
 author: Alina
 feature: Work Management
 exl-id: bc30ecab-7347-4dff-8e06-e8ea3f50d5b3
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 12%
+ht-degree: 19%
 
 ---
 
-# Aufgabenkostentyp aktualisieren
+# Aktualisieren des Kostentyps für Aufgaben
 
 Die geplanten Kosten und Istkosten der Aufgaben sowie deren Lohnkosten werden durch den Kostentyp jeder Aufgabe bestimmt.
 
@@ -36,7 +38,7 @@ Informationen zur Kostennachverfolgung in Adobe Workfront finden Sie unter [Kost
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p>
-   <p>Plan</p> </td> 
+   <p>Abo</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -53,7 +55,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -76,7 +79,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    <td> <p>Contribute or higher permissions to a project</p> <p>Manage permissions to a task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Konfigurieren des Kostentyps einer einzelnen Aufgabe
 
@@ -93,6 +97,6 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    * Benutzer pro Stunde
    * Stundensatz nach Funktion
 
-   Weitere Informationen zu den einzelnen Vorgangstypen finden Sie unter [Kosten &#x200B;](../../../manage-work/projects/project-finances/track-costs.md).
+   Weitere Informationen zu den einzelnen Vorgangstypen finden Sie unter [Kosten ](../../../manage-work/projects/project-finances/track-costs.md).
 
 1. Klicken Sie auf **Speichern** **Änderungen** **.**

@@ -6,22 +6,26 @@ description: Die Bedingung einer Aufgabe oder eines Problems ist eine Kennzeichn
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1070'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
-# Aktualisierungsbedingung für Aufgaben und Probleme
+# Aktualisieren der Bedingung für Aufgaben und Probleme
 
 <!--Audited: 07/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>-->
+<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+-->
 
 Die Bedingung einer Aufgabe oder eines Problems ist eine Kennzeichnung, die angibt, wie es sich entwickelt. Dies unterscheidet sich vom Status des Arbeitselements, der den aktuellen Entwicklungsstand des Elements angibt.
 
@@ -68,7 +72,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -100,7 +105,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
   </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Voraussetzungen
 
@@ -149,14 +155,16 @@ Sie können die Bedingung einer Aufgabe oder eines Problems in einem Aufgaben- o
 >Weitere Informationen finden Sie in den folgenden Artikeln:
 >
 >* [Übersicht](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [Passen Sie das Bedienfeld Zusammenfassung mithilfe einer Layout-Vorlage &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+>* [Passen Sie das Bedienfeld Zusammenfassung mithilfe einer Layout-Vorlage ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 
-<!--old Condition update - in the commenting stream: 
+<!--
+old Condition update - in the commenting stream: 
 Updating the Condition of a task or issue differs depending on whether you are assigned to it or not:
 
 * If you are using the legacy commenting experience, you can update the Condition in the Updates tab or in a list of tasks or issues if you are assigned to them. This is not supported in the new commenting experience. For information, see [New commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
-* You can update the Condition in a list of tasks or issues if you are not assigned to them, only if you have Manage permissions to them. In this case, you cannot update the Condition in the Update tab of the task or issue. -->
+* You can update the Condition in a list of tasks or issues if you are not assigned to them, only if you have Manage permissions to them. In this case, you cannot update the Condition in the Update tab of the task or issue.
+-->
 
 Sie können den Zustand von Aufgaben und Problemen in verschiedenen Bereichen von Workfront manuell aktualisieren. In den folgenden Abschnitten wird beschrieben, wie Sie den Zustand von Aufgaben und Problemen manuell aktualisieren können.
 

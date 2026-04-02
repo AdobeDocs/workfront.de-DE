@@ -6,10 +6,12 @@ description: Wenn Sie es nicht mehr benötigen, können Sie ein Projekt aus eine
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 3dfd10e6-bcd0-48fb-b6aa-6e08cc52b230
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '228'
-ht-degree: 6%
+ht-degree: 13%
 
 ---
 
@@ -38,7 +40,7 @@ Sie können ein Projekt aus einem Programm entfernen, indem Sie einen der folgen
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td><p>[!UICONTROL Standard]</p> 
-   <p>[!UICONTROL -Plan]</p> </td> 
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfiguration der Zugriffsebene</td> 
@@ -55,7 +57,8 @@ Sie können ein Projekt aus einem Programm entfernen, indem Sie einen der folgen
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -81,7 +84,8 @@ Sie können ein Projekt aus einem Programm entfernen, indem Sie einen der folgen
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)-->
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
+-->
 
 ## Entfernen eines Projekts aus einem Programm
 

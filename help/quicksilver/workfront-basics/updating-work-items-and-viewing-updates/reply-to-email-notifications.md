@@ -2,11 +2,13 @@
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Antworten auf E-Mail-Benachrichtigungen
-description: Sie können auf Workfront-E-Mail-Benachrichtigungen reagieren, die aus Kommentaren zu Projekten, Aufgaben, Problemen und anderen Objekten generiert wurden, um Antworten auf die Originalkommentare in der Adobe Workfront-Anwendung hinzuzufügen.
+description: Sie können auf Workfront-E-Mail-Benachrichtigungen antworten, die aus Kommentaren zu Projekten, Aufgaben, Problemen und anderen Objekten generiert wurden, um Antworten auf die ursprünglichen Kommentare in der Adobe Workfront-Anwendung hinzuzufügen.
 author: Courtney and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 7%
@@ -17,9 +19,9 @@ ht-degree: 7%
 
 <!-- Audited: April 2024-->
 
-Abhängig davon, wie Ihre E-Mail-Benachrichtigungen konfiguriert sind, erhalten Sie möglicherweise eine E-Mail-Benachrichtigung, wenn bestimmte Objekte, auf die Sie Zugriff haben, aktualisiert werden.
+Je nach Konfiguration Ihrer E-Mail-Benachrichtigungen erhalten Sie möglicherweise eine E-Mail-Benachrichtigung, wenn bestimmte Objekte, auf die Sie Zugriff haben, aktualisiert werden.
 
-Sie können auf folgende Weise auf eine Aktualisierung aus einer E-Mail-Benachrichtigung antworten:
+Sie können wie folgt auf eine Aktualisierung aus einer E-Mail-Benachrichtigung antworten:
 
 * Verwenden Sie die Schaltfläche Kommentar in der E-Mail, um zurück zu Workfront zu navigieren und im Bereich Updates auf die Aktualisierung zu antworten.
 * Beantworten Sie die E-Mail, die Sie erhalten. Ihre Antwort-E-Mail wird als Workfront-Antwort auf den ursprünglichen Kommentar hinzugefügt.
@@ -78,11 +80,12 @@ Sie können auf eine Workfront-E-Mail antworten, die aus Kommentaren zu den folg
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie in [&#x200B; Dokumentation zu Zugriffsanforderungen für Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie in [ Dokumentation zu Zugriffsanforderungen für Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
  <col> 
  <col> 
@@ -105,13 +108,14 @@ Weitere Informationen finden Sie in [&#x200B; Dokumentation zu Zugriffsanforderu
    <td> <p>View or higher permissions to the objects where you want to post the reply</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Auf eine Aktualisierung über eine E-Mail-Benachrichtigung antworten
 
-Wenn Sie eine E-Mail-Benachrichtigung erhalten, können Sie das zugeordnete Workfront-Objekt schnell aus der E-Mail-Benachrichtigung öffnen und eine Antwort direkt zum Kommunikationsthread hinzufügen.
+Wenn Sie eine E-Mail-Benachrichtigung erhalten, können Sie das zugehörige Workfront-Objekt schnell über die E-Mail-Benachrichtigung öffnen und eine Antwort direkt zum Kommunikations-Thread hinzufügen.
 
-1. Öffnen Sie die E-Mail-Benachrichtigung, die durch ein Update in Workfront generiert wurde.
+1. Öffnen Sie die durch ein Update in Workfront generierte E-Mail-Benachrichtigung.
 
    ![email.png](assets/email-350x202.png)
 1. Klicken Sie **der E** Mail-Benachrichtigung auf „Kommentar“.
@@ -126,15 +130,15 @@ Wenn Sie eine E-Mail-Benachrichtigung erhalten, können Sie das zugeordnete Work
 
    Die Antwort wird als neuer Kommentar zum Kommentar-Thread hinzugefügt.
 
-## Hinzufügen einer Aktualisierung zu einem Objekt durch Antworten auf eine E-Mail-Benachrichtigung
+## Hinzufügen einer Aktualisierung zu einem Objekt durch Beantworten einer E-Mail-Benachrichtigung
 
-Wenn Sie eine Workfront-E-Mail-Benachrichtigung erhalten, können Sie dem Kommunikationsthread schnell ein Update hinzufügen, ohne sich bei Workfront anzumelden.
+Wenn Sie eine Workfront-E-Mail-Benachrichtigung erhalten, können Sie schnell eine Aktualisierung zum Kommunikations-Thread hinzufügen, ohne sich bei Workfront anzumelden.
 
 >[!IMPORTANT]
 >
->* Sie müssen über die Berechtigung verfügen, mindestens das Objekt anzuzeigen, das die Aktualisierung ausgelöst hat, bevor Sie auf die E-Mail-Benachrichtigung antworten können.
+>* Sie müssen über die Berechtigung zum Anzeigen des Objekts verfügen, das die Aktualisierung ausgelöst hat, bevor Sie auf die E-Mail-Benachrichtigung antworten können.
 >
->* Um Übermittlungsfehler zu vermeiden, sollten Outlook-Benutzer den vorhandenen E-Mail-Inhalt löschen, bevor sie Ihre Antwort eingeben.
+>* Um Übermittlungsfehler zu vermeiden, sollten Outlook-Benutzer den vorhandenen E-Mail-Inhalt löschen, bevor Sie Ihre Antwort eingeben.
 
 So fügen Sie einer Workfront-E-Mail ein Update hinzu:
 
@@ -147,7 +151,7 @@ So fügen Sie einer Workfront-E-Mail ein Update hinzu:
 
 1. Geben Sie Ihr Update in die E-Mail-Antwort ein.
 
-   Anlagen sind nicht zulässig und Rich-Text-Formatierungen, die auf eine Aktualisierung in einer E-Mail angewendet wurden, werden bei der Aktualisierung nicht angezeigt, wenn sie auf der Registerkarte &quot;Updates&quot; angezeigt werden.
+   Anhänge sind nicht zulässig, und Rich-Text-Formatierungen, die auf eine Aktualisierung in einer E-Mail angewendet werden, werden nicht bei der Aktualisierung angezeigt, wenn sie auf der Registerkarte Aktualisierungen angezeigt werden.
 1. Klicken Sie auf **Senden**.
 
    Die Aktualisierung wird als Antwort zum Kommunikations-Thread des -Objekts hinzugefügt.

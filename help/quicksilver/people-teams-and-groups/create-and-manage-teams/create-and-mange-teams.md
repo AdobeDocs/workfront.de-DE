@@ -8,7 +8,9 @@ author: Courtney
 feature: People Teams and Groups
 recommendations: noDisplay, noCatalog
 exl-id: a5bf6aee-e41f-44d8-a377-baeea6a0a911
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '73'
 ht-degree: 13%
@@ -19,12 +21,12 @@ ht-degree: 13%
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Übersicht über Teams](../../people-teams-and-groups/create-and-manage-teams/teams-overview.md)
+* [Team-Übersicht](../../people-teams-and-groups/create-and-manage-teams/teams-overview.md)
 * [Team erstellen](../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)
-* [Agile Teams erstellen und verwalten](../../people-teams-and-groups/create-and-manage-teams/create-and-manage-agile-teams.md)
+* [Erstellen und Verwalten von Agile-Teams](../../people-teams-and-groups/create-and-manage-teams/create-and-manage-agile-teams.md)
 * [Teameinstellungen bearbeiten](../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)
-* [Verwalten, woran Ihr Team arbeitet](../../people-teams-and-groups/create-and-manage-teams/manage-what-your-team-is-working-on.md)
+* [Verwalten Sie, woran Ihr Team arbeitet](../../people-teams-and-groups/create-and-manage-teams/manage-what-your-team-is-working-on.md)
 * [Team deaktivieren](../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md)
 * [Konfigurieren der Schaltfläche [!UICONTROL Fertig] für Aufgaben](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
 * [Konfigurieren der Schaltfläche [!UICONTROL Fertig] für Probleme](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
-* [Ersetzen Sie die Schaltfläche [!UICONTROL Arbeit daran] durch eine Schaltfläche [!UICONTROL Start].](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)
+* [Ersetzen Sie [!UICONTROL  Schaltfläche „Bearbeiten] durch eine Schaltfläche [!UICONTROL Starten].](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)

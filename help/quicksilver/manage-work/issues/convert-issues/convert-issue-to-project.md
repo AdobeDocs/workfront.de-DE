@@ -6,14 +6,16 @@ description: Wenn nach dem Senden des Problems weitere Arbeit zum Abschließen d
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2009'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
-# Anfrage in ein Projekt konvertieren
+# Konvertieren eines Problems in ein Projekt
 
 <!--Audited: 08/2025-->
 
@@ -23,13 +25,13 @@ Sie können ein Problem mit in ein Projekt konvertieren, ohne eine Projektvorlag
 
 >[!IMPORTANT]
 >
->Um allgemeine Informationen zu Konvertierungsproblemen zu erhalten, empfehlen wir, auch den Artikel [Überblick über Konvertierungsprobleme in Adobe Workfront&quot; &#x200B;](../../../manage-work/issues/convert-issues/convert-issues.md).
+>Um allgemeine Informationen zu Konvertierungsproblemen zu erhalten, empfehlen wir, auch den Artikel [Überblick über Konvertierungsprobleme in Adobe Workfront&quot; ](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-Wenn Sie ein Projekt aus einer Anfrage erstellen, werden einige der Felder im Projekt aus anderen Objekten gefüllt. Weitere Informationen finden Sie im Abschnitt „Standardeinstellungen für neue Projekte“ im Artikel &quot;[&#x200B; erstellen](../../../manage-work/projects/create-projects/create-project.md).
+Wenn Sie ein Projekt aus einer Anfrage erstellen, werden einige der Felder im Projekt aus anderen Objekten gefüllt. Weitere Informationen finden Sie im Abschnitt „Standardeinstellungen für neue Projekte“ im Artikel &quot;[ erstellen](../../../manage-work/projects/create-projects/create-project.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +45,7 @@ Wenn Sie ein Projekt aus einer Anfrage erstellen, werden einige der Felder im Pr
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>
    <p>Standard</p> 
-    <p>Plan</p> </td> 
+    <p>Abo</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -56,11 +58,12 @@ Wenn Sie ein Projekt aus einer Anfrage erstellen, werden einige der Felder im Pr
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -92,7 +95,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 * Beim Konvertieren eines Problems in ein Projekt gibt es ein Verarbeitungslimit von 5 Minuten. Wenn an das Problem eine große Anzahl von Dokumenten angehängt ist und es nicht konvertiert werden kann, müssen Sie möglicherweise einige der Dokumente entfernen und erneut versuchen.
 
-## Anfrage in ein Projekt konvertieren
+## Konvertieren eines Problems in ein Projekt
 
 Sie können ein Problem in ein leeres Projekt konvertieren.
 
@@ -102,7 +105,7 @@ Sie können ein Problem in ein leeres Projekt konvertieren.
    * Um ein Problem in ein leeres Projekt zu konvertieren, klicken Sie auf den Namen des Problems, klicken Sie auf das Menü **[!UICONTROL Mehr]** ![Mehr](assets/more-icon.png) rechts neben dem Problemnamen und klicken Sie dann auf **[!UICONTROL In ein leeres Projekt konvertieren]**.
 
 
-     Oder
+     ODER
 
      Wählen Sie das Problem in der Problemliste aus, klicken Sie oben in der Liste auf **[!UICONTROL Mehr]** Menü ![Mehr](assets/more-icon.png) und klicken Sie dann auf **[!UICONTROL In ein leeres Projekt konvertieren]**.
 
@@ -167,7 +170,7 @@ Sie können ein Problem in ein leeres Projekt konvertieren.
    >
    >Wenn Sie sich entschieden haben, das ursprüngliche Problem zu löschen, ist das Problem jetzt ein Projekt.
    >   
-   >Oder
+   >ODER
    >  
    >Wenn Sie sich entschieden haben, die ursprüngliche Anfrage beizubehalten, ist die Anfrage jetzt mit dem neuen Projekt verknüpft und wird nach Abschluss des Projekts abgeschlossen.
    >
@@ -278,7 +281,7 @@ Sie können ein Problem mithilfe einer Vorlage in ein Projekt konvertieren.
       >
       >Wenn Sie sich entschieden haben, das ursprüngliche Problem zu löschen, ist das Problem jetzt ein Projekt.
       >   
-      >Oder
+      >ODER
       >  
       >Wenn Sie sich entschieden haben, die ursprüngliche Anfrage beizubehalten, ist die Anfrage jetzt mit dem neuen Projekt verknüpft und wird nach Abschluss des Projekts abgeschlossen.
       >

@@ -6,7 +6,9 @@ description: Sie können jede Aufgabe oder jedes Problem einem Kanban-Board hinz
 author: Courtney
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 9%
@@ -17,9 +19,9 @@ ht-degree: 9%
 
 <!-- Audited: 4/2025 -->
 
-Sie können jede Aufgabe oder jedes Problem zu einem Kanban[!UICONTROL Board hinzufügen] wenn Sie Verwaltungszugriff auf das Projekt haben. Beachten Sie Folgendes, wenn Sie eine Aufgabe oder ein Problem auf eine Kanban[!UICONTROL Pinnwand &#x200B;]:
+Sie können jede Aufgabe oder jedes Problem zu einem Kanban[!UICONTROL Board hinzufügen] wenn Sie Verwaltungszugriff auf das Projekt haben. Beachten Sie Folgendes, wenn Sie eine Aufgabe oder ein Problem auf eine Kanban[!UICONTROL Pinnwand ]:
 
-* Wenn die Aufgabe oder das Problem einem Agile-Team zugewiesen und in das Kanban-Board [!UICONTROL &#x200B; anderen Teams verschoben &#x200B;], ändert sich die Team-Zuweisung nicht.
+* Wenn die Aufgabe oder das Problem einem Agile-Team zugewiesen und in das Kanban-Board [!UICONTROL  anderen Teams verschoben ], ändert sich die Team-Zuweisung nicht.
 * Wenn die Aufgabe oder das Problem keinem Team zugewiesen ist, wird die Aufgabe oder das Problem dem Team zugewiesen, dem das Kanban-Board gehört.
 
 ## Zugriffsanforderungen
@@ -50,7 +52,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 ## Hinzufügen vorhandener Aufgaben oder Probleme aus einem Projekt
 
-So fügen Sie einer Kanban-Pinnwand aus [!UICONTROL &#x200B; Projekt eine Aufgabe oder &#x200B;] hinzu:
+So fügen Sie einer Kanban-Pinnwand aus [!UICONTROL  Projekt eine Aufgabe oder ] hinzu:
 
 {{step1-to-projects}}
 
@@ -68,7 +70,7 @@ So fügen Sie einer Kanban-Pinnwand aus [!UICONTROL &#x200B; Projekt eine Aufgab
 
 ## Hinzufügen vorhandener Aufgaben oder Probleme aus einem Bericht
 
-So fügen Sie einer Kanban-Pinnwand aus [!UICONTROL &#x200B; Bericht &#x200B;] Aufgabe oder Problem hinzu:
+So fügen Sie einer Kanban-Pinnwand aus [!UICONTROL  Bericht ] Aufgabe oder Problem hinzu:
 
 {{step1-to-reports}}
 

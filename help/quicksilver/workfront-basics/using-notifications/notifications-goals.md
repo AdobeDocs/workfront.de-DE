@@ -1,19 +1,21 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 'Benachrichtigungen: Ziele'
-description: 'Benachrichtigungen: Ziele'
+title: 'Benachrichtigungen: Goals'
+description: 'Benachrichtigungen: Goals'
 author: Courtney, Alina
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 2%
+ht-degree: 12%
 
 ---
 
-# Benachrichtigungen: Ziele
+# Benachrichtigungen: Goals
 
 Sie können Ihre E-Mail-Benachrichtigungen für Ereignisse aktivieren, die in [!DNL Adobe Workfront Goals] in Ihrem Profil auftreten. Benutzende mit einer [!UICONTROL Plan]-Lizenz können sie auch für andere Benutzende aktivieren. Weitere Informationen finden Sie unter [[!DNL Adobe Workfront] Benachrichtigungen](../../workfront-basics/using-notifications/wf-notifications.md).
 
@@ -23,7 +25,7 @@ Sie können Ihre E-Mail-Benachrichtigungen für Ereignisse aktivieren, die in [!
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: because there are conditions for who sees this, I added this from the How To articles/ template although this is not a How To. But I like the format, so I thought keeping it consistent might help users. We may decide to update this when we have access and prereq for overview-type articles)</p>
 -->
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,12 +38,12 @@ Sie können Ihre E-Mail-Benachrichtigungen für Ereignisse aktivieren, die in [!
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz</strong></td> 
    <td>
-   <p>Mitwirkender oder höher</p>
-    <p>Anfrage oder höher</p> </td> 
+   <p>Mitwirkende oder höher</p>
+    <p>Anfragende oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Zusätzliche Produkte</strong></td> 
-   <td>[!DNL Workfront Goals] <p>Weitere Informationen zu [!DNL Workfront Goals] finden Sie unter <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] - Übersicht</a>.</p> </td> 
+   <td>[!DNL Workfront Goals] <p>Weitere Informationen zu [!DNL Workfront Goals] finden Sie unter „Überblick über <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals]</a>“.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen der Zugriffsebene*</strong></td> 
@@ -56,7 +58,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Voraussetzungen
 
-* Der Benutzer, dessen [!DNL Goals] Benachrichtigungen Sie aktualisieren möchten, muss über eine Layout-Vorlage verfügen, die den [!DNL Goals] Bereich im [!UICONTROL Hauptmenü“ &#x200B;].
+* Der Benutzer, dessen [!DNL Goals] Benachrichtigungen Sie aktualisieren möchten, muss über eine Layout-Vorlage verfügen, die den [!DNL Goals] Bereich im [!UICONTROL Hauptmenü“ ].
 
 
 ## [!DNL Goals]-Benachrichtigungen im [!UICONTROL Benutzerprofil] Bereich
@@ -95,7 +97,8 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
   </tbody> 
 </table>
 
-<!--these were removed at some point: 
+<!--
+these were removed at some point: 
 
    <td><strong>Someone liked my comment on a Goal</strong></td> 
    <td> <p>The name of the person who liked the comment</p> <p>The Period of the goal </p> <p>The name of the goal</p> <p>The text of the comment </p> <p>The <strong>[!UICONTROL Open in web app]</strong> button which opens the [!UICONTROL Goal Details] panel</p> <p>The <strong>[!UICONTROL Change Notifications Settings]</strong> button which allows you to manage your notifications.</p> </td> 

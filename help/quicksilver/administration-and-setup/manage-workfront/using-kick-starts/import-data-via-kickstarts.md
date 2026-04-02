@@ -1,38 +1,40 @@
 ---
 user-type: administrator
 product-area: system-administration
-keywords: Kickstart,Kickstart,Kickstarts,Kickstarts
+keywords: Kickstart,Kick-Start,Kickstarts,Kick-Starts
 navigation-topic: use-kick-starts
 title: Importieren von Daten in Workfront mithilfe einer Kickstart-Vorlage
-description: Kickstarts sind speziell formatierte Excel-Arbeitsmappen, die Sie mit Daten füllen können, die Sie in Workfront importieren möchten. Adobe Workfront bietet eine Kickstart-Vorlage, die Sie dazu verwenden können, wie unter Kickstarts-Datenimport beschrieben.
+description: Kickstarts sind speziell formatierte Excel-Arbeitsmappen, die Sie mit Daten füllen können, die Sie in Workfront importieren möchten. Adobe Workfront bietet eine Kickstart-Vorlage, die Sie dazu verwenden können, wie unter „Datenimport über Kickstarts“ erläutert.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2828'
-ht-degree: 6%
+ht-degree: 100%
 
 ---
 
-# Daten mithilfe einer Kickstart-Vorlage in Workfront importieren
+# Importieren von Daten in Workfront mithilfe einer Kickstart-Vorlage
 
 <!--Audited: 12/2023-->
 
-Kickstarts sind speziell formatierte Excel-Arbeitsmappen, die Sie mit Daten füllen können, die Sie in Workfront importieren möchten. Adobe Workfront bietet eine Kickstart-Vorlage, die Sie dazu verwenden können, wie unter [Kickstarts-Datenimportprogramm“ &#x200B;](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md).
+Kickstarts sind speziell formatierte Excel-Arbeitsmappen, die Sie mit Daten füllen können, die Sie in Workfront importieren möchten. Adobe Workfront bietet eine Kickstart-Vorlage, die Sie dazu verwenden können, wie unter [Datenimport über Kickstarts](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md) erläutert.
 
-Dieser Prozess ist in drei Hauptaufgaben unterteilt:
+Dieses Verfahren ist in die folgenden drei Hauptaufgaben unterteilt:
 
-* Exportieren Sie zunächst eine Kickstart-Vorlage als Tabellendatei
-* Zweitens füllen Sie die Tabelle mit Ihren Daten
-* Schließlich importieren Sie die ausgefüllte Tabelle in Workfront
+* Zuerst exportieren Sie eine Kickstart-Vorlage als Arbeitsblattdatei
+* Dann füllen Sie das Arbeitsblatt mit Ihren Daten
+* Schließlich importieren Sie das ausgefüllte Arbeitsblatt in Workfront
 
-Jedes dieser Verfahren wird in der richtigen Reihenfolge in diesem Artikel beschrieben.
+Jedes dieser Verfahren wird in der entsprechenden Reihenfolge in diesem Artikel beschrieben.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,11 +47,11 @@ Jedes dieser Verfahren wird in der richtigen Reihenfolge in diesem Artikel besch
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
-   <td>Systemadministrator</td> 
+   <td>Systemadmin</td> 
   </tr> 
  </tbody> 
 </table>
@@ -60,30 +62,31 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Einschränkungen
 
-Sie können mithilfe einer Kickstart-Vorlage eine große Anzahl von Objekten in Workfront importieren. Beachten Sie jedoch die folgenden Einschränkungen:
+Mithilfe einer Kickstart-Vorlage können Sie eine große Anzahl an Objekten in Workfront importieren. Beachten Sie jedoch die folgenden Einschränkungen:
 
-* Durch das Importieren von Daten auf diese Weise werden Informationen zu Datensätzen, die bereits in Workfront vorhanden sind, nicht aktualisiert.
-* Sie können nur neue Datensätze und deren Informationen importieren.
-* Importieren Sie maximal 2.000 Datensätze gleichzeitig, um sicherzustellen, dass beim Import keine Zeitüberschreitung auftritt
+* Durch das Importieren von Daten auf diese Weise werden Informationen zu Einträgen nicht aktualisiert, die bereits in Workfront vorhanden sind.
+* Sie können nur neue Einträge und die zugehörigen Informationen importieren.
+* Importieren Sie maximal 2.000 Einträge gleichzeitig, um sicherzustellen, dass beim Import keine Zeitüberschreitung auftritt
 
-## Kickstart-Vorlage als Tabellendatei exportieren
+## Exportieren einer Kickstart-Vorlage als Arbeitsblattdatei
 
-Wenn Sie eine Kickstart-Vorlage exportieren, erhalten Sie eine leere Excel-Kalkulationstabellen-Arbeitsmappe. Nachdem die Tabelle auf Ihren Computer heruntergeladen wurde, können Sie sie verwenden, um Ihre Informationen einzutragen und sie dann wieder in Workfront zu importieren.
+Wenn Sie eine Kickstart-Vorlage exportieren, erhalten Sie eine leere Excel-Arbeitsmappe. Nachdem das Arbeitsblatt auf Ihren Computer heruntergeladen wurde, können Sie es mit Ihren Informationen füllen und anschließend wieder in Workfront importieren.
 
-Kickstart-Vorlage exportieren:
+So exportieren Sie eine Kickstart-Vorlage:
 
 {{step-1-to-setup}}
 
 <!--
-1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).  -->
+1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).
+-->
 
-1. Klicken Sie **System** > **Daten importieren (Kickstarts)**.
+1. Klicken Sie auf **System** > **Daten importieren (Kickstarts)**.
 
-1. Wählen Sie die Informationstypen aus, die Sie einbeziehen möchten.
+1. Wählen Sie die Art der Informationen aus, die Sie einbeziehen möchten.
 
-   Jede von Ihnen ausgewählte Option stellt eine Sammlung mehrerer Registerkarten im exportierten Arbeitsblatt dar. Wenn Sie beispielsweise die Option **Bericht** auswählen, werden alle erforderlichen Objekte zum Erstellen eines Berichts in die Tabelle aufgenommen (Ansichten, Filter, Gruppierungen, Berichte).
+   Jede von Ihnen ausgewählte Option stellt eine Sammlung mehrerer Registerkarten im exportierten Arbeitsblatt dar. Wenn Sie beispielsweise die Option **Bericht** auswählen, werden alle erforderlichen Objekte zum Erstellen eines Berichts in das Arbeitsblatt aufgenommen (Ansichten, Filter, Gruppierungen, Berichte).
 
-   Sie können alle unten aufgeführten Objekttypen verwenden, um Daten in Workfront zu importieren. (Die einzige Ausnahme ist die Option Zugriffsebenen . Das Datenblatt „Zugriffsebenen“ in einem Export wird zu Referenzzwecken bereitgestellt - es ermöglicht Ihnen, einem neuen Benutzerkonto eine Zugriffsebene per ID zuzuweisen.)
+   Sie können alle unten aufgeführten Objekttypen verwenden, um Daten in Workfront zu importieren. (Die einzige Ausnahme ist die Option „Zugriffsebenen“. Das Datenblatt „Zugriffsebenen“ in einem Export wird zu Referenzzwecken bereitgestellt – es ermöglicht Ihnen, einem neuen Benutzerkonto eine Zugriffsebene per ID zuzuweisen.)
 
    Die Vorlage für jeden Objekttyp kann in den folgenden Dateiformaten exportiert werden und enthält die folgenden Blätter:
 
@@ -95,17 +98,17 @@ Kickstart-Vorlage exportieren:
      <tr> 
       <th> <p><strong>Objekt</strong> </p> </th> 
       <th> <p><strong>Exportiert als</strong> </p> </th> 
-      <th> <p><strong>Tabellen in der exportierten Tabelle</strong> </p> </th> 
+      <th> <p><strong>Blätter im exportierten Arbeitsblatt</strong> </p> </th> 
      </tr> 
     </thead> 
     <tbody> 
      <tr> 
-      <td scope="col"> <p>Dashboard</p> <p>Alle öffentlich freigegebenen Dashboards im System können exportiert werden. Dashboards, die nicht systemweit freigegeben sind, können nicht exportiert werden. Sie können in einem Export bis zu 100 spezifische Dashboards auswählen.</p> </td> 
+      <td scope="col"> <p>Dashboard</p> <p>Alle öffentlich freigegebenen Dashboards im System können exportiert werden. Dashboards, die nicht systemweit freigegeben sind, können nicht exportiert werden. Sie können bis zu 100 Dashboards in einem einzelnen Export auswählen.</p> </td> 
       <td scope="col">Exportiert als ZIP-Datei</td> 
       <td scope="col"> <p>Parameter</p> <p>Beschreibender Text</p><p>Parameteroption</p> <p>Parametergruppe</p> <p>Kategorieparameter</p> <p>Kategorie</p> <p>Bericht</p> <p>Portal-Registerkarten-Abschnitt</p> <p>Dashboard</p> <p>Einstellungen</p> </td> 
      </tr> 
      <tr> 
-      <td scope="col"> <p>Bericht</p> <p>Alle Berichte im System können exportiert werden. Sie können bis zu 100 spezifische Berichte in einem Export auswählen.</p> <p>Kickstarts unterstützen keine Textmodusfilter oder Gruppierungen. Für einen erfolgreichen Export müssen die Berichtsfilter und Gruppierungen in den Standardmodus umgeschaltet werden.</p> </td> 
+      <td scope="col"> <p>Bericht</p> <p>Alle Berichte im System können exportiert werden. Sie können bis zu 100 Berichte in einem einzelnen Export auswählen.</p> <p>Kickstarts unterstützen keine Textmodusfilter oder Gruppierungen. Für einen erfolgreichen Export muss für Berichtsfilter und Gruppierungen in den Standardmodus gewechselt werden.</p> </td> 
       <td scope="col">Exportiert als ZIP-Datei </td> 
       <td scope="col"> <p scope="col">Parameter</p> <p scope="col">Beschreibender Text</p> <p scope="col">Parameteroption</p> <p scope="col">Parametergruppe</p> <p scope="col">Kategorieparameter</p> <p scope="col">Kategorie</p> <p scope="col">Bericht</p> <p scope="col">Einstellungen</p> </td> 
      </tr> 
@@ -132,12 +135,12 @@ Kickstart-Vorlage exportieren:
      <tr> 
       <td> <p>Team</p> </td> 
       <td scope="col"> <p>Exportiert als Excel-Datei</p> </td> 
-      <td> <p> Teammitglied</p> <p>Team</p> <p>Einstellungen </p> </td> 
+      <td> <p> Team-Mitglied</p> <p>Team</p> <p>Einstellungen </p> </td> 
      </tr> 
      <tr> 
-      <td> <p>Benutzerin bzw. Benutzer</p> </td> 
+      <td> <p>Benutzerin oder Benutzer</p> </td> 
       <td> <p>Exportiert als Excel-Datei. Um die vollständige Liste der Optionen anzuzeigen, klicken Sie auf <strong>Weitere Optionen</strong>.</p> </td> 
-      <td> <p>Benutzerin bzw. Benutzer</p> <p>Einstellungen</p> </td> 
+      <td> <p>Benutzerin oder Benutzer</p> <p>Einstellungen</p> </td> 
      </tr> 
      <tr> 
       <td>Zugriffsebene</td> 
@@ -162,7 +165,7 @@ Kickstart-Vorlage exportieren:
      <tr> 
       <td>Ausgabe</td> 
       <td>Exportiert als Excel-Datei</td> 
-      <td> <p> Kosten“</p> <p>Einstellungen </p> </td> 
+      <td> <p> Ausgabe</p> <p>Einstellungen </p> </td> 
      </tr> 
      <tr> 
       <td>Externe Seite</td> 
@@ -185,9 +188,9 @@ Kickstart-Vorlage exportieren:
       <td> <p> Gruppierung</p> <p>Einstellungen </p> </td> 
      </tr> 
      <tr> 
-      <td>Hour</td> 
+      <td>Stunde</td> 
       <td>Exportiert als Excel-Datei</td> 
-      <td> <p> Hour</p> <p>Einstellungen </p> </td> 
+      <td> <p> Stunde</p> <p>Einstellungen </p> </td> 
      </tr> 
      <tr> 
       <td>Problem</td> 
@@ -207,9 +210,9 @@ Kickstart-Vorlage exportieren:
      </tr>
 
    <tr> 
-      <td>Hinweis</td> 
+      <td>Notiz</td> 
       <td>Exportiert als Excel-Datei</td> 
-      <td> <p> Hinweis</p> <p>Einstellungen </p> </td> 
+      <td> <p> Notiz</p> <p>Einstellungen </p> </td> 
      </tr> 
      <tr> 
       <td>Portfolio</td> 
@@ -219,7 +222,7 @@ Kickstart-Vorlage exportieren:
      <tr> 
       <td>Projekt</td> 
       <td>Exportiert als Excel-Datei</td> 
-      <td> <p> Warteschlange</p> <p>Projekt</p> <p>Routingregel</p> <p>Warteschlangenthema</p> <p>Einstellungen </p> </td> 
+      <td> <p> Warteschlange</p> <p>Projekt</p> <p>Routing-Regel</p> <p>Warteschlangen-Thema</p> <p>Einstellungen </p> </td> 
      </tr> 
      <tr> 
       <td>Ressourcenkalkulation</td> 
@@ -249,7 +252,7 @@ Kickstart-Vorlage exportieren:
      <tr> 
       <td>Vorlage</td> 
       <td> Exportiert als Excel-Datei</td> 
-      <td> <p> Warteschlange</p> <p>Vorlage</p> <p>Routingregel</p> <p>Warteschlangenthema</p> <p>Einstellungen </p> </td> 
+      <td> <p> Warteschlange</p> <p>Vorlage</p> <p>Routing-Regel</p> <p>Warteschlangen-Thema</p> <p>Einstellungen </p> </td> 
      </tr> 
      <tr> 
       <td>Vorlagenzuweisung</td> 
@@ -264,7 +267,7 @@ Kickstart-Vorlage exportieren:
      <tr> 
       <td>Arbeitszeittabelle</td> 
       <td> Exportiert als Excel-Datei</td> 
-      <td> <p> Arbeitszeittabellen-Profil</p> <p>Arbeitszeittabelle</p> <p>Einstellungen </p> </td> 
+      <td> <p> Arbeitszeittabellenprofil</p> <p>Arbeitszeittabelle</p> <p>Einstellungen </p> </td> 
      </tr> 
      <tr> 
       <td>Ansicht </td> 
@@ -274,97 +277,97 @@ Kickstart-Vorlage exportieren:
     </tbody> 
    </table>
 
-1. Klicken Sie **Herunterladen**.
-1. Fahren Sie mit [Kalkulationstabellenvorlage mit Ihren Daten füllen](#populate-the-spreadsheet-template-with-your-data) fort, um die leere Vorlagenkalkulationstabelle mit Ihren Informationen zu füllen.
+1. Klicken Sie auf **Herunterladen**.
+1. Fahren Sie mit [Füllen des Tabellenarbeitsblatts mit Ihren Daten](#populate-the-spreadsheet-template-with-your-data) fort, um das leere Tabellenarbeitsblatt mit Ihren Informationen zu füllen.
 
-## Füllen Sie die Tabellenvorlage mit Ihren Daten {#populate-the-spreadsheet-template-with-your-data}
+## Füllen des Tabellenarbeitsblatts mit Ihren Daten {#populate-the-spreadsheet-template-with-your-data}
 
-* [Übersicht über die in der Tabelle enthaltenen Registerkarten (Datenblätter)](#overview-of-the-tabs-data-sheets-included-in-the-spreadsheet)
-* [Datensatz importieren](#import-a-record)
-* [Daten einschließen](#include-dates)
+* [Überblick über die im Arbeitsblatt enthaltenen Registerkarten (Datenblätter)](#overview-of-the-tabs-data-sheets-included-in-the-spreadsheet)
+* [Importieren eines Eintrags](#import-a-record)
+* [Einfügen von Datumsangaben](#include-dates)
 * [Verwenden von Platzhaltern](#use-wildcards)
 * [Ersetzung von IDs durch Attributnamen](#attribute-name-substitution-for-ids)
 
-### Übersicht über die in der Tabelle enthaltenen Registerkarten (Datenblätter)
+### Überblick über die im Arbeitsblatt enthaltenen Registerkarten (Datenblätter)
 
 >[!TIP]
 >
->Um besser zu verstehen, wie Sie die Informationen in den einzelnen Spalten formatieren müssen, wenn Sie die Kickstart-Vorlage ausfüllen, sollten Sie einen Übungslauf durchführen, indem Sie einen Kickstart mit den vorhandenen Workfront-Daten zu den Objekten exportieren, die Sie importieren möchten. Anweisungen finden Sie unter [Exportieren von Daten aus Adobe Workfront über Kickstarts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+>Um besser zu verstehen, wie Sie die Informationen in den einzelnen Spalten formatieren müssen, wenn Sie die Kickstart-Vorlage ausfüllen, sollten Sie einen Übungslauf durchführen, indem Sie einen Kickstart mit den vorhandenen Workfront-Daten für die Objekte exportieren, die Sie importieren möchten. Anweisungen dazu finden Sie unter [Exportieren von Daten aus Adobe Workfront über Kickstarts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
-Wenn Sie eine leere Kick-Starts-Vorlage öffnen, stehen eine Reihe von Registerkarten (Datenblätter) zur Verfügung. Sie hängen von den Objekten ab, die Sie zum Herunterladen ausgewählt haben. Jede Komponente stellt ein Objekt in der Anwendung dar, z. B. Projekt, Aufgaben, Stunden, Dashboard und Benutzer:
+Wenn Sie eine leere Kickstart-Vorlage öffnen, steht eine Reihe von Registerkarten (Datenblätter) zur Verfügung. Sie richten sich nach den Objekten, die Sie zum Herunterladen ausgewählt haben. Jede Komponente stellt ein Objekt in der Anwendung dar, z. B. ein Projekt, Aufgaben, Stunden, ein Dashboard und Benutzende:
 
-Wenn Sie eine dieser Registerkarten öffnen, zeigt Zeile 2 die Felder für jedes Objekt an, das während eines Imports festgelegt werden kann. In einer Spaltenüberschrift wird nach dem Wort „set“ der Name des Felds so angezeigt, wie er in der Datenbank angezeigt wird. Diese Felder dienen als Spaltenüberschriften.
+Wenn Sie eine dieser Registerkarten öffnen, zeigt Zeile 2 die Felder für jedes Objekt an, das während eines Imports festgelegt werden kann. In einer Spaltenüberschrift wird nach dem Wort „set“ der Name des Feldes so angezeigt, wie er in der Datenbank angezeigt wird. Diese Felder dienen als Spaltenüberschriften.
 
 >[!IMPORTANT]
 >
 >Um Fehler zu vermeiden, stellen Sie Folgendes sicher:
 >
->* Löschen Sie nicht die leere erste Zeile einer Kickstart-Tabelle.
+>* Löschen Sie die leere erste Zeile eines Kickstart-Arbeitsblatts nicht.
 >* Diese Felder (Spaltenüberschriften) dürfen in keiner Weise gelöscht, geändert oder neu angeordnet werden. Ändern Sie beispielsweise weder ihre Reihenfolge noch ihren Namen.
->* Fügen Sie Werte zu jedem Feld hinzu, das in der Spaltenüberschrift fett dargestellt wird. Diese stellen Pflichtfelder dar.
+>* Fügen Sie jedem Feld, das in der Spaltenüberschrift fett dargestellt wird, Werte hinzu. Dabei handelt es sich um Pflichtfelder.
 >
->     Wenn ein Pflichtfeld jedoch einen in den Systemeinstellungen festgelegten Standardwert enthält, müssen Sie ihn nicht ausfüllen.
+>     Wenn ein Pflichtfeld jedoch einen in den Systemeinstellungen festgelegten Standardwert enthält, müssen Sie keine Angabe machen.
 >
->     Auf der Registerkarte **PROJ-Projekt** können beispielsweise die Felder **setCondition** und **setConditionType** leer gelassen werden, die Spalten **setGroupID** und **setName** jedoch nicht.
+>     Auf der Registerkarte **PROJ Project** können beispielsweise die Felder **setCondition** und **setConditionType** leer gelassen werden, die Spalten **setGroupID** und **setName** jedoch nicht.
 >
->* Bestimmte Felder, einschließlich **setResourceRevenue** und **setEnteredByID**, werden automatisch vom System generiert. Wenn Sie Daten für diese Felder in das Arbeitsblatt eingeben, wird der Kickstart-Prozess diese Daten beim Hochladen des Arbeitsblatts überschreiben.
+>* Bestimmte Felder, darunter **setResourceRevenue** und **setEnteredByID**, werden automatisch vom System generiert. Wenn Sie Daten für diese Felder in das Arbeitsblatt eingeben, überschreibt der Kickstart-Prozess diese Daten beim Hochladen des Arbeitsblatts.
 
-### Datensatz importieren  {#import-a-record}
+### Importieren eines Eintrags  {#import-a-record}
 
-Jede Zeile des Blatts entspricht einem eindeutigen Objekt.
+Jede Zeile des Blattes entspricht einem eindeutigen Objekt.
 
 1. Fügen Sie Informationen in der Spalte **isNew** hinzu:
 
-   * Wenn das zu importierende Objekt neu ist, geben Sie **TRUE** ein, um die Daten in die Zeile zu importieren. Bei diesem Wert wird zwischen Groß- und Kleinschreibung unterschieden. Er muss immer in Großbuchstaben geschrieben werden
-   * Wenn sich das Objekt bereits in Workfront befindet, geben Sie **FALSE** in die Spalte **isNew** ein, um die Zeile zu ignorieren. Bei diesem Wert wird zwischen Groß- und Kleinschreibung unterschieden. Er muss immer in Großbuchstaben geschrieben werden
+   * Wenn das zu importierende Objekt neu ist, geben Sie **WAHR** ein, um die Daten in die Zeile zu importieren. Bei diesem Wert wird zwischen Groß- und Kleinschreibung unterschieden. Er muss immer in Großbuchstaben geschrieben werden
+   * Wenn sich das Objekt bereits in Workfront befindet, geben Sie **FALSCH** in die Spalte **isNew** ein, damit die Zeile ignoriert wird. Bei diesem Wert wird zwischen Groß- und Kleinschreibung unterschieden. Er muss immer in Großbuchstaben geschrieben werden
 
-      * Datensätze, die bereits in Workfront vorhanden sind, werden nicht aktualisiert.
-      * Wenn Sie eine Vorlage mit Daten aus Workfront heruntergeladen haben, sind vorhandene Objekte bereits mit &quot;**&quot;**.
+      * Einträge, die bereits in Workfront vorhanden sind, werden nicht aktualisiert.
+      * Wenn Sie eine Vorlage mit Daten aus Workfront heruntergeladen haben, sind vorhandene Objekte bereits mit **FALSCH** gekennzeichnet.
       * Wenn Sie eine leere Vorlage heruntergeladen haben, müssen Sie keine neuen Zeilen für vorhandene Objekte hinzufügen.
 
 1. Fügen Sie Informationen in der Spalte **ID** auf eine der folgenden Arten hinzu:
 
-   * Wenn das zu importierende Objekt neu ist (und Sie **„TRUE** in der Spalte **isNew** eingegeben haben), geben Sie eine beliebige Zahl für die ID ein. Diese Zahl muss in der Tabelle eindeutig sein. Wenn Sie beispielsweise drei Objekte importieren, können Sie ihnen die ID 1, 2 bzw. 3 zuweisen.
+   * Wenn das zu importierende Objekt neu ist (und Sie **WAHR** in der Spalte **isNew** eingegeben haben), geben Sie eine beliebige Zahl als ID ein. Diese Zahl muss im Arbeitsblatt eindeutig sein. Wenn Sie beispielsweise drei Objekte importieren, können Sie ihnen die ID 1, 2 bzw. 3 zuweisen.
 
-   * Wenn das Objekt bereits in Workfront vorhanden ist (und **FALSE** sich in der Spalte **isNew** befindet) und Sie neue Informationen über vorhandene Objekte importieren, muss die ID die alphanumerische GUID sein, die in Workfront für dieses Objekt vorhanden ist.
+   * Wenn das Objekt bereits in Workfront vorhanden ist (und **FALSE** in der Spalte **isNew** angegeben wurde) und Sie neue Informationen über vorhandene Objekte importieren, muss die ID die alphanumerische GUID sein, die in Workfront für dieses Objekt vorhanden ist.
 
    >[!TIP]
    >
-   > Um die eindeutige GUID eines Objekts in Workfront zu ermitteln, können Sie einen Bericht für dieses Objekt erstellen und die ID-Spalte zum Bericht hinzufügen. Der Wert für jedes Objekt in dieser Spalte ist die GUID des -Objekts.
+   > Um die eindeutige GUID eines Objekts in Workfront zu ermitteln, können Sie einen Bericht für dieses Objekt erstellen und die ID-Spalte zum Bericht hinzufügen. Der Wert für jedes Objekt in dieser Spalte ist die GUID des Objekts.
 
-   * Datensätze, die bereits in Workfront vorhanden sind, werden nicht aktualisiert.
+   * Einträge, die bereits in Workfront vorhanden sind, werden nicht aktualisiert.
    * Wenn Sie eine Vorlage mit Daten heruntergeladen haben, enthalten vorhandene Objekte bereits die GUID als ID.
-   * Sie können ein neues Objekt importieren, das auf einem vorhandenen Objekt basiert, indem Sie **FALSE** in der Spalte **isNew** in **TRUE** ändern, die ID ändern und vor dem Import die erforderlichen Datenanpassungen vornehmen.
+   * Sie können ein neues Objekt importieren, das auf einem vorhandenen Objekt basiert, indem Sie **FALSCH** in der Spalte **isNew** in **WAHR** ändern, die ID ändern und vor dem Import die erforderlichen Datenanpassungen vornehmen.
 
    ![Beispiel-ID für eine Gruppe](assets/kick-start-group-example.png)
 
    * Beim Importieren eines Projekts müssen Sie eine Gruppen-ID angeben.
 
       * Wenn die Gruppe bereits in Workfront vorhanden ist, müssen Sie ihre eindeutige ID zum Feld **setGroupID** für das Projekt hinzufügen.
-      * Wenn die Gruppe in Workfront nicht vorhanden ist, können Sie das Blatt **GROUP** zu Ihrer Importdatei hinzufügen, das Feld **isNew** auf **TRUE** auf dem Gruppenblatt festlegen und in der Spalte **ID** eine numerische ID für die neue Gruppe angeben. Das Feld **setGroupID** für das neue Projekt muss mit der numerischen **ID** für die neue Gruppe übereinstimmen.
+      * Wenn die Gruppe in Workfront nicht vorhanden ist, können Sie das Blatt **GROUP Group** zu Ihrer Importdatei hinzufügen, das Feld **isNew** im Gruppenblatt auf **WAHR** festlegen und in der Spalte **ID** eine numerische ID für die neue Gruppe angeben. Das Feld **setGroupID** für das neue Projekt muss mit der numerischen **ID** für die neue Gruppe übereinstimmen.
 
      **Beispiel** Für ein Projekt muss der in der Spalte **setGroupID** angezeigte Wert einer der folgenden sein:
 
       * Die GUID für eine bestehende Gruppe in Ihrer Workfront-Instanz
-      * Der Wert (Zahl) in der Spalte ID auf dem Blatt **Gruppe**, wenn Sie beim Import eine neue Gruppe erstellen
+      * Der Wert (Zahl) in der Spalte „ID“ im Blatt **GROUP Group**, wenn Sie beim Import eine neue Gruppe erstellen
 
-1. Geben Sie Werte für die erforderlichen Felder und alle anderen Felder ein, die Sie während des Imports ausfüllen möchten.
+1. Geben Sie Werte für die erforderlichen Felder und alle anderen Felder ein, die Sie beim Import ausfüllen möchten.
 1. (Optional) So fügen Sie benutzerdefinierte Daten hinzu:
 
-   * Erstellen Sie für jedes benutzerdefinierte Feld, das Sie in den Importprozess einbeziehen möchten, eine neue Spalte.
-   * Benennen Sie jede neue Spalte für das entsprechende benutzerdefinierte Feld wie folgt: **DE:[Name des benutzerdefinierten Felds, wie es in Workfront angezeigt wird]**. Sie können beispielsweise das folgende benutzerdefinierte Feld erstellen: „DE: Departments“.
-   * Geben Sie in die Spalte **setCategoryID** die GUID des vorhandenen benutzerdefinierten Formulars ein, in dem sich dieses benutzerdefinierte Feld befindet. Dieses Feld ist beim Import von benutzerdefinierten Daten erforderlich.
-   * Wenn Sie mehrere Datenwerte in dem benutzerdefinierten Feld hinzufügen müssen (z. B. Optionsfelder, Kontrollkästchen oder Listen), verwenden Sie das vertikale Balken-Trennzeichen für benutzerdefinierte Daten &quot;|&quot;, das auf der Registerkarte „Voreinstellungen“ aufgeführt ist, um die Werte zu trennen.
+   * Erstellen Sie für jedes benutzerdefinierte Feld, das Sie in den Importvorgang einbeziehen möchten, eine neue Spalte.
+   * Benennen Sie jede neue Spalte für das entsprechende benutzerdefinierte Feld wie folgt: **DE:[Name des benutzerdefinierten Feldes, wie es in Workfront angezeigt wird]**. Sie können beispielsweise das folgende benutzerdefinierte Feld erstellen: „DE: Departments“.
+   * Geben Sie in die Spalte **setCategoryID** die GUID des vorhandenen benutzerdefinierten Formulars ein, in dem sich dieses benutzerdefinierte Feld befindet. Dieses Feld wird beim Import von benutzerdefinierten Daten benötigt.
+   * Wenn Sie mehrere Datenwerte in dem benutzerdefinierten Feld hinzufügen müssen (z. B. Optionsfelder, Kontrollkästchen oder Listen), verwenden Sie das vertikale Balken-Trennzeichen für benutzerdefinierte Daten „|“, das auf der Registerkarte „Einstellungen“ aufgeführt ist, um die Werte zu trennen.
 
-     **Beispiel** Geben Sie A|D unter der Spalte DE:Departments ein, um Abteilung A und Abteilung D in Ihrem benutzerdefinierten Formular auszufüllen.
+     **Beispiel** Geben Sie A|D unter der Spalte „DE:Departments“ ein, um Daten für Abteilung A und Abteilung D in Ihrem benutzerdefinierten Formular zu übernehmen.
 
      >[!NOTE]
      >
-     >Verwenden Sie nur das Trennzeichen &quot;|&quot;, um benutzerdefinierte Feldwerte zu trennen. Sie können sie in keiner der anderen Tabellenspalten verwenden, einschließlich **setCategoryID**.
+     >Verwenden Sie nur das Trennzeichen „|“, um benutzerdefinierte Feldwerte zu trennen. Sie können es in keiner der anderen Arbeitsblattspalten verwenden, einschließlich **setCategoryID**.
 
-### Daten einschließen  {#include-dates}
+### Einfügen von Datumsangaben  {#include-dates}
 
-Workfront kann die meisten Datumsformate verarbeiten. Sie müssen jedoch sicherstellen, dass die Datumsspalte in der Tabelle als Datum formatiert ist. Der Import schlägt fehl, wenn die Spalte als Allgemein, Zahl oder Text formatiert ist.
+Workfront kann die meisten Datumsformate verarbeiten. Sie müssen jedoch sicherstellen, dass die Datumsspalte im Arbeitsblatt als Datum formatiert ist. Der Import schlägt fehl, wenn die Spalte als „Allgemein“, „Zahl“ oder „Text“ formatiert ist.
 
 >[!TIP]
 >
@@ -374,12 +377,12 @@ Workfront kann die meisten Datumsformate verarbeiten. Sie müssen jedoch sichers
 
 Workfront akzeptiert auch Zeitwerte als Teil des Datums.
 
-Beispiel: 07/10/2022 01:30 oder 07/10/2022 13:0000 Uhr.
+Beispiel: 07/10/2022 01:30 Uhr oder 07/10/2022 13:00 Uhr.
 
 Wenn Sie eine Uhrzeit im Datum auslassen, führt Workfront einen der folgenden Schritte aus:
 
-* Angenommen, die Zeit ist 12:00 h. Um das erwartete Datumsergebnis sehen zu können, muss die Systemzeitzone mit Ihrer Zeitzone übereinstimmen.
-* Wenn er sich auf einem Objekt befindet, das mit einem Zeitplan verknüpft ist, bezieht sich die Zeit auf die früheste Zeit, die der Zeitplan zulässt.
+* Angenommen, die Uhrzeit ist 12:00 Uhr. Damit Sie das erwartete Ergebnis für das Datum sehen können, muss die Zeitzone des Systems mit Ihrer Zeitzone übereinstimmen.
+* Wenn es sich in einem Objekt befindet, das mit einem Zeitplan verknüpft ist, bezieht sich die Zeit auf die früheste Zeit, die der Zeitplan zulässt.
 
 >[!NOTE]
 >
@@ -387,9 +390,9 @@ Wenn Sie eine Uhrzeit im Datum auslassen, führt Workfront einen der folgenden S
 >
 >Wenn Ihr Zeitstempel beispielsweise 7336899000 ist, geben Sie 7336899000000 in die Zelle ein.
 
-### Platzhalter verwenden {#use-wildcards}
+### Verwenden von Platzhaltern {#use-wildcards}
 
-Sie können beim Ausfüllen Ihrer Kickstart-Vorlage die folgenden Platzhalter verwenden:
+Beim Ausfüllen des Arbeitsblatts für Ihre Kickstart-Vorlage können Sie die folgenden Platzhalter verwenden:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -403,92 +406,92 @@ Sie können beim Ausfüllen Ihrer Kickstart-Vorlage die folgenden Platzhalter ve
  <tbody> 
   <tr> 
    <td> <p>$$TODAY</p> </td> 
-   <td> <p>Bei Verwendung in einem <strong>setDate</strong>-Feld legt dieser Platzhalter das Datum als Mitternacht am Tag des Kickstarts fest.</p> <p>Sie können den Platzhalter mit der Standardsyntax ändern, die mit dem Platzhalter für einen Filter zulässig ist.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span>Wenn ein Projekt am Montag der Woche starten soll, an der es importiert wird, können Sie <strong>$$TODAYbw verwenden, unabhängig davon, an welchem Tag Sie den Import tatsächlich durchführen</strong>. Damit wird das geplante Startdatum Ihres Projekts auf Sonntag, 12:00 Uhr festgelegt. Da der Zeitplan für das Projekt zu diesem Zeitpunkt wahrscheinlich keine Arbeit zulässt, wird es um 9:00 Uhr Montagmorgen beginnen.</p> </td> 
+   <td> <p>Wenn dieser Platzhalter im Feld <strong>setDate</strong> verwendet wird, legt er das Datum als Mitternacht am Tag des Kickstart-Imports fest.</p> <p>Sie können den Platzhalter mit der Standardsyntax ändern, die mit dem Platzhalter für einen Filter zulässig ist.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel:</b></span></span> Wenn ein Projekt am Montag der Woche beginnen soll, in der es importiert wird, können Sie unabhängig von dem Tag, an dem der Import tatsächlich stattfindet, den Platzhalter <strong>$$TODAYbw</strong> verwenden. Damit wird das geplante Startdatum Ihres Projekts auf Sonntag, 00:00 Uhr festgelegt. Da der Zeitplan für das Projekt wahrscheinlich zu diesem Zeitpunkt keine Arbeit zulässt, beginnt es am Montagmorgen um 9:00 Uhr.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>$$NOW</p> </td> 
-   <td> <p>Bei Verwendung in einem <strong>setDate</strong>-Feld legt dieser Platzhalter das Datum entsprechend dem Zeitpunkt fest, zu dem Sie den Datensatz während des Kickstart-Imports erstellen.</p> <p>Sie können den Platzhalter mit der Standardsyntax ändern, die mit dem Platzhalter für einen Filter zulässig ist.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span>Wenn ein Projekt 3 Stunden nach dem Import gestartet werden soll, können Sie <strong>$$NOW+3h verwenden</strong>.</p> </td> 
+   <td> <p>Wenn dieser Platzhalter im Feld <strong>setDate</strong> verwendet wird, legt er das Datum entsprechend dem Zeitpunkt fest, zu dem Sie den Eintrag während des Kickstart-Imports erstellen.</p> <p>Sie können den Platzhalter mit der Standardsyntax ändern, die mit dem Platzhalter für einen Filter zulässig ist.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span>Wenn ein Projekt 3 Stunden nach dem Import beginnen soll, können Sie <strong>$$NOW+3h</strong> verwenden.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>$$USER.ID</p> </td> 
-   <td> <p>Bei Verwendung in einem <strong>setAssignedToID</strong> oder einem anderen auf userID basierenden Feld weist dieser Platzhalter die Arbeit zu oder verknüpft den Datensatz anderweitig mit der Person, die den Import durchführt.</p> </td> 
+   <td> <p>Wenn dieser Platzhalter im Feld <strong>setAssignedToID</strong> oder einem anderen auf userID basierenden Feld verwendet wird, weist dieser Platzhalter die Arbeit zu oder verknüpft den Eintrag auf andere Weise mit der Person, die den Import durchführt.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>$$CUSTOMER</p> </td> 
-   <td> <p>Dieser Platzhalter wurde speziell für Kickstart-Benutzerimporte hinzugefügt. Beim Erstellen eines Workfront-Kontos wird ein Benutzer mit der Zugriffsebene „Systemadministrator“ erstellt. Der dem Standardadministrator zugewiesene Benutzername kann beim Erstellen anderer Benutzer im Konto als Präfix verwendet werden.</p> <p>Da Benutzernamen für alle Kunden eindeutig sein müssen, ist dies nützlich, wenn Sie mehrere Personen mit sehr gängigen Benutzernamen wie John Smith haben, die möglicherweise den Benutzernamen „jsmith“ haben. Indem Sie der Benutzernamenzuweisung den standardmäßigen Administrator-Benutzernamen voranstellen, garantieren Sie, dass jeder Benutzername eindeutig ist (z. B.: <strong>$$CUSTOMER.jsmith</strong>).</p> <p>Tipp: Eine elegantere Methode, um sicherzustellen, dass Benutzernamen systemweit eindeutig sind, besteht darin, die E-Mail-Adresse des Kontakts in das Feld <strong>setUsername</strong> einzugeben.</p> </td> 
+   <td> <p>Dieser Platzhalter wurde speziell für Kickstart-Benutzerimporte hinzugefügt. Beim Erstellen eines Workfront-Kontos wird ein Benutzer bzw. eine Benutzerin mit der Zugriffsebene „Systemadmin“ erstellt. Der dem Standardadmin zugewiesene Benutzername kann beim Erstellen von anderen Benutzenden im Konto als Präfix verwendet werden.</p> <p>Da Benutzernamen für alle Kundinnen und Kunden eindeutig sein müssen, ist dieser Platzhalter nützlich, wenn Sie mehrere Personen mit sehr gängigen Namen wie beispielsweise Martin Müller haben, die möglicherweise den Benutzernamen „mmueller“ haben. Indem Sie bei Zuweisung des Benutzernamens den standardmäßigen Admin-Benutzernamen voranstellen, garantieren Sie, dass jeder Benutzername eindeutig ist (z. B.: <strong>$$CUSTOMER.mmueller</strong>).</p> <p>Tipp: Eine elegantere Methode, um sicherzustellen, dass Benutzernamen systemweit eindeutig sind, besteht darin, die E-Mail-Adresse des Kontakts in das Feld <strong>setUsername</strong> einzugeben.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Ersetzung von IDs durch Attributnamen  {#attribute-name-substitution-for-ids}
 
-Obwohl es sich als Best Practice empfiehlt, nach Möglichkeit immer IDs zu verwenden, ist es manchmal unpraktisch, IDs von einem Blatt zum anderen zu vergleichen, wenn ein Wert **setAttributeID** festgelegt wird. Sie können Werte anhand des Namens referenzieren, indem Sie einfach die Spaltenüberschrift ändern.
+Obwohl es eine Best Practice ist, nach Möglichkeit immer IDs zu verwenden, ist es manchmal unpraktisch, IDs von einem Blatt zum anderen zu referenzieren, wenn ein Wert des Typs **setAttributeID** festgelegt wird. Sie können Werte anhand des Namens referenzieren, indem Sie einfach die Spaltenüberschrift ändern.
 
 **Beispiele:**
 
 * **Projektimport**
 
-  Legen Sie beim Importieren von Projekten die **setGroupID** der Projekte fest, indem Sie zum Blatt **GROUP** wechseln, die entsprechenden Gruppen-IDs notieren und sie in die richtigen Zellen (Spalte **setGroupID**) in das Blatt **PROJ Project** einfügen.
+  Legen Sie beim Importieren von Projekten die **setGroupID** der Projekte fest, indem Sie zum Blatt **GROUP Group** wechseln, die entsprechenden Gruppen-IDs notieren und sie in die richtigen Zellen (Spalte **setGroupID**) im Blatt **PROJ Project** einfügen.
 
-  Dies ist möglich, wenn Sie nur mit wenigen Gruppen und Projekten arbeiten, aber wenn Sie mit mehreren von jedem arbeiten, ist dies nicht praktisch.
+  Dies ist möglich, wenn Sie nur mit wenigen Gruppen und Projekten arbeiten. Wenn Sie jedoch mit zahlreichen Gruppen und Projekten arbeiten, ist dies nicht praktikabel.
 
-  Um die Ersetzung durch den Attributnamen für das oben beschriebene Beispiel durchzuführen, ändern Sie die Spaltenüberschrift **setGroupID** in **#setGroupIDGRUPPENNAME**. Sie können dann nach Namen auf die Gruppe der einzelnen Projekte verweisen.
+  Um die Ersetzung des Attributnamens für das oben beschriebene Beispiel durchzuführen, ändern Sie die Spaltenüberschrift **setGroupID** in **#setGroupID GROUP name**. Sie können dann nach Name auf die Gruppe der einzelnen Projekte verweisen.
 
   >[!NOTE]
   >
-  >Die Option zur Verwendung der Attributnamensersetzung ist auf Verweise für vorhandene Datensätze beschränkt. Sie können keine Namensersetzung für Objekte verwenden, die Sie im selben Import erstellen.
+  >Die Option zur Verwendung der Attributnamensersetzung ist auf Verweise für vorhandene Einträge beschränkt. Sie können keine Namensersetzung für Objekte verwenden, die Sie im selben Import erstellen.
 
 * **Benutzerimport**
 
-  Füllen Sie beim Importieren von Benutzenden **setRoleID** auf der Registerkarte **ROLE** aus einer Liste von Rollen aus.
+  Füllen Sie beim Importieren von Benutzenden das Feld **setRoleID** auf der Registerkarte **ROLE Role** in einer Liste von Rollen aus.
 
-  Einige der Rollen-IDs sind für Datensätze vorgesehen, die bereits im Konto vorhanden sind, andere werden während des Imports erstellt.
+  Einige der Rollen-IDs sind für Einträge vorgesehen, die bereits im Konto vorhanden sind, andere werden während des Imports erstellt.
 
-  Für neue Benutzerdatensätze, die vorhandenen Rollen zugewiesen sind, können Sie die Namensersetzung verwenden. Für die neuen Benutzerdatensätze, die neu importierten Rollen zugewiesen wurden, ist dies nicht möglich.
+  Für neue Benutzereinträge, die vorhandenen Rollen zugewiesen sind, können Sie die Namensersetzung verwenden. Für die neuen Benutzereinträge, die neu importierten Rollen zugewiesen wurden, ist dies nicht möglich.
 
   So können Sie beide Methoden für dieselbe Importdatei verwenden:
 
-   * Fügen Sie in der Tabelle links neben der Spalte **setRoleID“ eine Spalte**.
-   * Benennen Sie die neue Spalte mit dem Namen &lbrace;0#setRoleIDROLE **.**
-   * Für Rollenzuweisungen zu vorhandenen Datensätzen geben Sie die Rollennamen in die Spalte **#setRoleID** ein.
+   * Fügen Sie im Arbeitsblatt links neben der Spalte **setRoleID** eine Spalte hinzu.
+   * Benennen Sie die Spalte als **#setRoleID ROLE name**.
+   * Für Rollenzuweisungen zu vorhandenen Einträgen geben Sie die Rollennamen in die Spalte **#setRoleID ROLE name** ein.
 
-     Für Rollenzuweisungen zu neuen Rollendatensätzen geben Sie die ID ein, die Sie auf dem Funktionsblatt in der setRoleID zugewiesen haben.
+     Für Rollenzuweisungen zu neuen Rolleneinträgen geben Sie die ID ein, die Sie im Blatt „ROLE Rolle“ im Feld „setRoleID“ zugewiesen haben.
 
-     ![Rollen-ID für Benutzer](assets/set-role-id.png)
+     ![Rollen-ID für Benutzende](assets/set-role-id.png)
 
-## Importieren der Tabellendaten in Workfront
+## Importieren der Arbeitsblattdaten in Workfront
 
-Nachdem Sie die Excel-Vorlage mit Ihren Daten gefüllt haben, können Sie deren Daten in Workfront hochladen.
+Nachdem Sie die Excel-Vorlage mit Ihren Daten gefüllt haben, können Sie die Daten in Workfront hochladen.
 
 Der Kickstart-Import unterstützt die folgenden Dateitypen:
 
-* Excel (.xls oder .xlsx)
+* Excel (XLS oder XLSX)
 * ZIP-Datei (die nur XLSX- oder XLS-Dateien enthält)
 
   >[!NOTE]
   >
-  >Sie müssen beim Importieren von Excel-Tabellen, die auf die folgenden Objekte verweisen, eine ZIP-Datei verwenden:
+  >Beim Importieren von Excel-Arbeitsblättern, die auf die folgenden Objekte verweisen, müssen Sie eine ZIP-Datei verwenden:
   >
   >* Berichte
   >* Dokumente
   >* Avatare
   >* Anzeigen, Filtern oder Gruppieren von Eigenschaftendateien
   >
-  >Bei Verwendung einer komprimierten Importdatei muss die ZIP-Datei denselben Namen haben wie die XLSX- oder XLS-Datei, und alle Dateien müssen sich auf derselben Strukturebene befinden (keine Ordner).
+  >Bei Verwendung einer komprimierten Importdatei muss die ZIP-Datei denselben Namen haben wie die XLSX- oder XLS-Datei und alle Dateien müssen sich auf derselben Strukturebene befinden (keine Ordner).
 
-So importieren Sie die Tabellenkalkulationsvorlagendaten in Workfront:
+So importieren Sie die Arbeitsblattdaten der Vorlage in Workfront:
 
 <!--1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).-->
 
 {{step-1-to-setup}}
 
-1. Klicken Sie **System** > **Daten importieren (Kickstarts)**.
+1. Klicken Sie auf **System** > **Daten importieren (Kickstarts)**.
 
-1. Klicken Sie **Abschnitt Daten mit Kickstart-** hochladen auf **Datei auswählen** navigieren Sie dann zu und wählen Sie das ausgefüllte Arbeitsblatt aus.
+1. Klicken Sie im Abschnitt **Daten mit Kickstart-Arbeitsblatt hochladen** auf **Datei auswählen**, suchen Sie nach dem ausgefüllten Arbeitsblatt und wählen Sie es aus.
 
-   Die Datei wird automatisch hochgeladen, und es wird eine Benachrichtigung angezeigt, dass der Import erfolgreich war.
+   Die Datei wird automatisch hochgeladen und es wird eine Benachrichtigung angezeigt, dass der Import erfolgreich war.
 
-   Wenn das Hochladen der Excel-Datei in Workfront länger als 5 Minuten dauert, tritt ein Timeout der Anwendung auf, und Workfront kann die Datei nicht hochladen. Importieren Sie Ihre Daten in kleinere Objektstapel.
+   Wenn das Hochladen der Excel-Datei in Workfront länger als 5 Minuten dauert, tritt in der Anwendung ein Timeout auf und Workfront kann die Datei nicht hochladen. Importieren Sie Ihre Daten in kleineren Batches mit Objekten.
 
-1. (Bedingt) Wenn der Import nicht erfolgreich war, erhalten Sie eine Fehlermeldung, die Sie über das Problem informiert. Versuchen Sie, das Feld, das Blatt und die Zeilennummer zu identifizieren, in der das Problem aufgetreten ist, und korrigieren Sie die Informationen in der Excel-Datei. Versuchen Sie dann erneut, die Datei zu importieren.
+1. (Bedingt) Wenn der Import nicht erfolgreich war, erhalten Sie eine Fehlermeldung, die Sie über das Problem informiert. Versuchen Sie, das Feld, das Blatt und die Nummer der Zeile, in der das Problem aufgetreten ist, zu ermitteln, und korrigieren Sie die Angaben in der Excel-Datei. Versuchen Sie dann erneut, die Datei zu importieren.
 1. (Bedingt) Wenn Sie Workfront Fusion verwenden, können Sie jetzt Ihre FLOs oder Szenarien nach Abschluss des Imports aktivieren.

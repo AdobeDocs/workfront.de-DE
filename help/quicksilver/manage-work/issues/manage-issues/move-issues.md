@@ -6,10 +6,12 @@ description: Sie können Probleme zwischen Projekten und Aufgaben verschieben.
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '873'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -17,9 +19,11 @@ ht-degree: 1%
 
 <!--Audited: 12/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Sie können Probleme zwischen den folgenden Objekten verschieben:
 
@@ -30,7 +34,7 @@ Sie können Probleme zwischen den folgenden Objekten verschieben:
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,10 +47,10 @@ Sie können Probleme zwischen den folgenden Objekten verschieben:
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <ul><li>Mitwirkender oder höher</li>
+   <ul><li>Mitwirkende oder höher</li>
    <li>Leicht oder höher, um Probleme im Abschnitt Probleme eines Projekts zu verschieben</li></ul>
    Oder:
-   <ul>   <li><p>Anfrage oder höher</p></li>
+   <ul>   <li><p>Anfragende oder höher</p></li>
    <li><p>Überprüfen Sie die Lizenz oder eine höhere Lizenz zum Verschieben von Problemen im Abschnitt „Probleme“ eines Projekts.</p></li></ul>   
      </td> 
   </tr> 
@@ -65,7 +69,8 @@ Sie können Probleme zwischen den folgenden Objekten verschieben:
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -95,7 +100,8 @@ Sie können Probleme zwischen den folgenden Objekten verschieben:
    <td> <p>Manage permissions to the issue</p> <p>Contribute permissions to the item where you are moving the issue with the ability to Add Issues.</td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Überlegungen zum Verschieben von Problemen
 
@@ -113,7 +119,7 @@ Sie können ein oder mehrere Probleme aus einer Problemliste oder einem Problemb
 
 1. Wechseln Sie zu dem Projekt, das das Problem oder die Probleme enthält, das/die Sie verschieben möchten.
 
-   Oder
+   ODER
 
    Zu einem Problembericht gehen.
 

@@ -6,25 +6,29 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '352'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
 
-# Übersicht über Datensatztypen
+# Überblick über Eintragstypen
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
 Im Gegensatz zu Workfront, wo die Objekttypen vordefiniert sind, können Sie in Adobe Workfront Planning Ihre eigenen Objekttypen erstellen.
 
-In Workfront werden beispielsweise die Objekttypen „Programm“, &quot;Portfolio&quot;, „Projekt“, „Aufgabe“ oder „Problem“ bereits erstellt.
+In Workfront sind beispielsweise die Objekttypen „Programm“, „Portfolio“, „Projekt“, „Aufgabe“ oder „Problem“ bereits erstellt.
 
 Workfront Planning-Objekttypen werden als „Datensatztypen“ bezeichnet und existieren nur, wenn sie von Benutzenden erstellt werden.
 
@@ -38,7 +42,7 @@ Weitere Informationen zu Arbeitsbereichen finden Sie unter [Erstellen von Arbeit
 
 In Workfront Planning können Sie benutzerdefinierte Datensatztypen erstellen, die den Anforderungen Ihres Unternehmens entsprechen.
 
-Weitere Informationen zum Erstellen von Datensatztypen finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md).
+Weitere Informationen zum Erstellen von Eintragstypen finden Sie unter [Erstellen von Eintragstypen](/help/quicksilver/planning/architecture/create-record-types.md).
 
 * Wenn Sie einen Arbeitsbereich aus einer Vorlage erstellen, werden Datensatztypen in den folgenden Abschnitten des Arbeitsbereichs erstellt:
 

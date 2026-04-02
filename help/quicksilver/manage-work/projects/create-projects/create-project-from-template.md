@@ -6,7 +6,9 @@ description: Sie können Vorlagen als Framework verwenden, um Projekte in Adobe 
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 6d6ac026bb2aa10ba3e678fb7e0f32dc95d0405f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1150'
 ht-degree: 3%
@@ -77,7 +79,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -108,7 +111,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    <p>When you create a project, you automatically receive Manage permissions to the project.</p></td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Erstellen eines Projekts über eine Vorlage im Bereich „Projekte“
 
@@ -179,7 +183,8 @@ Sie können ein Projekt über den Bereich Projekte im Hauptmenü oder über den 
 
       ![Vorlagendetails](assets/new-project-from-template-small-box-with-template-details-panel.png)
 
-      <!--no longer available, after unshimming - Oct 2025:
+      <!--
+      no longer available, after unshimming - Oct 2025:
       >[!NOTE]
       >
       >If you have the Milestone View applied to the list of projects, click the name of a template in the **New from Template section**.

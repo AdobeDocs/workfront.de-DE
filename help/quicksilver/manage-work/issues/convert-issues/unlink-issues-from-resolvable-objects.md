@@ -6,14 +6,16 @@ description: Wenn Sie ein Projekt oder eine Aufgabe erstellen, indem Sie ein Pro
 author: Alina
 feature: Work Management
 exl-id: c18160e5-9f95-4575-a1b3-b4f7e5334844
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 3%
+ht-degree: 11%
 
 ---
 
-# Aufheben der Verknüpfung von Problemen mit Lösungsobjekten
+# Aufheben der Verknüpfung von Problemen mit ihren Lösungsobjekten
 
 <!--Audited: 08/2025-->
 
@@ -45,8 +47,8 @@ Sie können die Verknüpfung zwischen der Lösung eines Problems und der eines P
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Mitwirkender oder höher</p>
-   <p>Anfrage oder höher</p> </td> 
+   <td> <p>Mitwirkende oder höher</p>
+   <p>Anfragende oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfiguration der Zugriffsebene</td> 
@@ -59,11 +61,12 @@ Sie können die Verknüpfung zwischen der Lösung eines Problems und der eines P
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -85,7 +88,8 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    <td> <p>Manage permissions on the issue</p> <p>View permissions on the task or project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Verknüpfung eines Problems mit einem Projekt, einer Aufgabe oder einem Problem aufheben
 

@@ -1,15 +1,17 @@
 ---
-title: Priorisieren von Projekten im Portfolio Optimizer
+title: Priorisieren von Projekten im Portfolio-Optimizer
 product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
 description: Sie können Ihre Projekte im Portfolio Optimizer nach Priorität ordnen, um die Reihenfolge festzulegen, in der sie abgeschlossen werden sollen.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
-source-git-commit: 714e6e09f1429f0382c36d17d3f2aca95edcfbc6
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '491'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 
@@ -19,7 +21,7 @@ Sie können Ihre Projekte in [!UICONTROL Portfolio Optimizer] priorisieren, um d
 
 Beachten Sie bei der Verwendung des [!UICONTROL Portfolio Optimizer] Folgendes:
 
-* Die Projekte oben in [!UICONTROL Portfolio Optimizer] werden als wichtiger erachtet als die unten aufgeführten. Sie müssen die Projekte in der Reihenfolge ihrer Priorität in [!UICONTROL Portfolio Optimizer&rbrace; abschließen] damit die Portfolio optimiert werden kann.
+* Die Projekte oben in [!UICONTROL Portfolio Optimizer] werden als wichtiger erachtet als die unten aufgeführten. Sie müssen die Projekte in der Reihenfolge ihrer Priorität in [!UICONTROL Portfolio Optimizer} abschließen] damit die Portfolio optimiert werden kann.
 * Die Priorität von Projekten in [!UICONTROL Portfolio Optimizer] hat nichts mit dem Feld [!UICONTROL Priorität] auf der Registerkarte [!UICONTROL Projektdetails] eines Projekts zu tun.
 
   Das Feld [!UICONTROL Priorität] auf der Registerkarte [!UICONTROL Projektdetails] ist eine visuelle Markierung, die Sie manuell angeben, um zu verstehen, wie wichtig ein Projekt sein sollte.
@@ -47,7 +49,7 @@ Beachten Sie bei der Verwendung des [!UICONTROL Portfolio Optimizer] Folgendes:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> <p>[!UICONTROL Standard]</p>
-   <p>[!UICONTROL -Plan]</p> </td> 
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -64,7 +66,8 @@ Beachten Sie bei der Verwendung des [!UICONTROL Portfolio Optimizer] Folgendes:
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -90,7 +93,8 @@ Beachten Sie bei der Verwendung des [!UICONTROL Portfolio Optimizer] Folgendes:
     </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Ändern der Priorität von Projekten im [!UICONTROL Portfolio Optimizer]
 
@@ -105,7 +109,7 @@ Beachten Sie bei der Verwendung des [!UICONTROL Portfolio Optimizer] Folgendes:
 
    Klicken Sie **[!UICONTROL Bereich &quot;]**&quot; im Bereich „Projektoptimierung“, wenn Sie die Neuanordnung Ihrer Projekte abgeschlossen haben. Die Projekte erhalten eine neue Nummer basierend auf der neuen Bestellung.
 
-1. Klicken Sie **[!UICONTROL Speichern]**, um die neue Projektpriorität im [!UICONTROL Portfolio Optimizer“ zu &#x200B;]. Die Priorität wird als Zahl in der Spalte **#** aufgeführt.
+1. Klicken Sie **[!UICONTROL Speichern]**, um die neue Projektpriorität im [!UICONTROL Portfolio Optimizer“ zu ]. Die Priorität wird als Zahl in der Spalte **#** aufgeführt.
 
    >[!TIP]
    >

@@ -1,20 +1,22 @@
 ---
 product-area: templates
 navigation-topic: templates-navigation-topic
-title: Vorlage aus Projekt erstellen
+title: Erstellen einer Vorlage aus einem Projekt
 description: Beim Speichern eines vorhandenen Projekts als Vorlage können Sie Vorlagen erstellen.
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
-source-git-commit: 76379d5433cc13ee412c8c1045316ef253b3ee7d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '470'
-ht-degree: 1%
+ht-degree: 12%
 
 ---
 
-# Vorlage aus Projekt erstellen
+# Erstellen einer Vorlage aus einem Projekt
 
 <!--Audited: 10/2025-->
 
@@ -34,7 +36,7 @@ Nachdem Sie ein vorhandenes Projekt als Vorlage gespeichert haben, können Sie d
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,7 +49,7 @@ Nachdem Sie ein vorhandenes Projekt als Vorlage gespeichert haben, können Sie d
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p> 
-   <p>Plan</p> </td> 
+   <p>Abo</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -60,11 +62,12 @@ Nachdem Sie ein vorhandenes Projekt als Vorlage gespeichert haben, können Sie d
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -86,9 +89,10 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    <td> <p>View or higher permissions to a project </p> <p>You obtain Manage permissions to the template after you create it</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
-## Vorlage aus Projekt erstellen
+## Erstellen einer Vorlage aus einem Projekt
 
 1. Wechseln Sie zu dem Projekt, das Sie als Vorlage speichern möchten.
 1. Klicken Sie auf das **Mehr**-Menü ![Mehr-Symbol](assets/more-icon.png) und dann **Als Vorlage speichern**.

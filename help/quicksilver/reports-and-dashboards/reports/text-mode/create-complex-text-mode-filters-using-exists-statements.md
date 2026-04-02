@@ -6,7 +6,9 @@ description: Mit EXISTS-Anweisungen können Sie komplexe Textmodusfilter erstell
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2668'
 ht-degree: 2%
@@ -28,15 +30,15 @@ ht-degree: 2%
 >[!IMPORTANT]
 >
 >Dieser Artikel erfordert ein gründliches Verständnis der Adobe Workfront-API und der Textmodus-Berichterstellungsoberfläche. Weitere Informationen zur Workfront-API finden Sie unter [API-Grundlagen](../../../wf-api/general/api-basics.md).\
->Informationen zur Verwendung des Textmodus finden Sie unter [Übersicht über den Textmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+>Weitere Informationen zur Verwendung des Textmodus finden Sie unter [Textmodus - Übersicht](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-## Überblick über Objektbeziehungen in Workfront
+## Übersicht über Objektbeziehungen in Workfront
 
 Alle Objekte sind mit anderen Objekten in der Workfront-Datenbank verknüpft.
 
-Wenn Sie die Hierarchie und Interdependenz von Objekten verstehen, können Sie leichter herausfinden, welche Objekte in Berichten referenziert werden können.
+Wenn Sie die Hierarchie und Interdependenz von Objekten verstehen, können Sie herausfinden, auf welche Objekte in Berichten verwiesen werden kann.
 
-Informationen zu den Objekten in Workfront und ihrer Hierarchie und Interdependenz finden Sie unter [Übersicht über Adobe Workfront-Objekte](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Informationen darüber, welche Objekte sich in Workfront befinden, sowie über ihre Hierarchie und Interdependenz finden Sie unter [Übersicht über Adobe Workfront-Objekte](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 Beim Erstellen von Filtern können Sie mithilfe der standardmäßigen Berichtsschnittstelle innerhalb von bis zu zwei Beziehungsebenen auf andere Objekte verweisen, die mit dem Objekt des Filters verbunden sind.
 
@@ -75,18 +77,18 @@ Beachten Sie die folgenden Regeln, wenn Sie EXISTS-Anweisungen in einem Filter v
 
 * Filter, die EXISTS verwenden, enthalten zwei separate Anweisungen, die durch ein Gleichheitszeichen verknüpft sind:
 
-   * Die Anweisung vor dem Gleichheitszeichen bezieht sich auf das Objekt, auf das Sie verweisen (das Verknüpfungs- oder das Zielobjekt).
-   * Die Anweisung nach dem Gleichheitszeichen bezieht sich auf das Objekt, von dem aus Sie verweisen (das ursprüngliche Objekt).
+   * Die Anweisung vor dem Gleichheitszeichen bezieht sich auf das Objekt, auf das Sie verweisen (das Verknüpfungsobjekt oder das Zielobjekt).
+   * Die Anweisung nach dem Gleichheitszeichen bezieht sich auf das Objekt, von dem aus Sie verweisen (das Original-Objekt).
 
-* Sie müssen den Objektcode des Linking-Objekts verwenden, um Ihre Anweisungen zu verknüpfen.\
-  Sie können den Objektcode aller Objekte im API-Explorer finden.\
-  Weitere Informationen zum API-Explorer finden Sie im [API-Explorer](../../../wf-api/general/api-explorer.md).
+* Sie müssen den Objektcode des Verknüpfungsobjekts verwenden, um Ihre Anweisungen zu verbinden.\
+  Den Objektcode aller Objekte finden Sie im API Explorer.\
+  Weitere Informationen zum API-Explorer finden Sie unter [API-Explorer](../../../wf-api/general/api-explorer.md).
 
 * Wenn ein Verknüpfungsobjekt fehlt, weil das Original- und das Zielobjekt direkt miteinander verbunden sind, können Sie den Objektcode des Zielobjekts anstelle des Verknüpfungsobjekts verwenden.
 * Sie können auf mehrere Felder (Zielfelder) desselben Objekts (Zielobjekt) verweisen. In diesem Fall müssen Sie die Zeilen verbinden, die auf die Felder durch UND verweisen.\
-  Ein Beispiel für das Filtern von mehr als einem Feld, das zum Zielobjekt gehört, finden Sie im Abschnitt [Beispiel 4: Filtern nach mehreren Feldern: Tasks nach Portfolio-Eigentümername und Portfolio-Ausrichtungs-Scorecard-ID](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id) in diesem Artikel.
+  Ein Beispiel für die Filterung nach mehr als einem Feld, das zum Zielobjekt gehört, finden Sie im Abschnitt [Beispiel 4: Filtern nach mehreren Feldern: Aufgaben nach Portfolio-Besitzername und Portfolio-Ausrichtungs-Scorecard](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id)ID in diesem Artikel.
 
-* Der einzige Modifizierer, der für eine EXISTS-Anweisung unterstützt wird, ist NOTEXISTS.
+* Der einzige für eine EXISTS-Anweisung unterstützte Modifikator ist NOTEXISTS.
 
 ## Zugriffsanforderungen
 
@@ -109,11 +111,11 @@ Beachten Sie die folgenden Regeln, wenn Sie EXISTS-Anweisungen in einem Filter v
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Bearbeitungszugriff auf Filter, Ansichten, Gruppierungen</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um Filter in einem Bericht zu bearbeiten</p></td> 
+   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um Filter in einem Bericht zu bearbeiten</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td><p>Berechtigungen für einen Bericht verwalten, um Filter in einem Bericht zu bearbeiten</p> <p>Berechtigungen für einen Filter verwalten, um ihn zu bearbeiten</p></td> 
+   <td><p>Verwalten von Berichtsberechtigungen zum Bearbeiten von Filtern in einem Bericht</p> <p>Verwalten von Berechtigungen für einen Filter, um ihn zu bearbeiten</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -122,29 +124,29 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 +++
 
-## Erstellen von Filtern für komplexe Textmodi, die sich über mehrere Ebenen in der Objekthierarchie erstrecken
+## Erstellen komplexer Textmodusfilter, die sich über mehrere Ebenen in der Objekthierarchie erstrecken
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***[This information is somewhat duplicated from the section below: Create Text-Mode Filters for Missing Objects])</p>
 -->
 
-Sie können einen Filter erstellen, der auf Objekte auf mehreren Ebenen der Objekthierarchie verweist, in der sich das Filterobjekt befindet. Sie können beispielsweise einen Problemfilter für Probleme erstellen, die sich auf Projekten befinden, die nicht mit einem bestimmten Eigentümer des Portfolios verknüpft sind.
+Sie können einen Filter erstellen, der auf Objekte über mehrere Ebenen der Objekthierarchie hinweg verweist, in der das Filterobjekt vorhanden ist. Sie können beispielsweise einen Problemfilter für Probleme erstellen, die sich in Projekten befinden, die nicht mit einem bestimmten Portfolio-Eigentümer verknüpft sind.
 
-Sie müssen immer eine EXISTS-Anweisung und die Textmodusschnittstelle verwenden, um diesen Filter zu erstellen.
+Sie müssen immer eine EXISTS-Anweisung und die Textmodus-Schnittstelle verwenden, um diesen Filter zu erstellen.
 
-Beispiele für Filter finden Sie im Abschnitt [Beispiel 1: Filtern nach Problemen nach Portfolio-Eigentümername](#example-1-filter-for-issues-by-portfolio-owner-name) in diesem Artikel.
+Beispiele für Filter finden Sie im Abschnitt [Beispiel 1: Nach Portfolio-Inhabernamen filtern](#example-1-filter-for-issues-by-portfolio-owner-name) in diesem Artikel.
 
-Erstellen eines Filters, der sich über mehrere Ebenen in der Objekthierarchie erstreckt:
+So erstellen Sie einen Filter, der sich über mehrere Ebenen in der Objekthierarchie erstreckt:
 
-1. Identifizieren Sie das Objekt Ihres Filters. Wir bezeichnen dieses Objekt als das ursprüngliche Objekt.\
+1. Identifizieren Sie das Objekt Ihres Filters. Dieses Objekt wird als „Original“-Objekt bezeichnet.\
    Beispiel: Problem.
 
 1. Identifizieren Sie das Feld, nach dem Sie filtern möchten. Dieses Objekt wird als Zielfeld bezeichnet, das zu einem Zielobjekt gehört.\
    Zum Beispiel das Feld ownerID (Zielfeld), das zu Portfolio (Zielobjekt) gehört.
 
-1. (Bedingt) Wenn das ursprüngliche Objekt (Problem) und das Zielfeld (ownerID) nicht direkt miteinander verbunden sind, müssen Sie ein drittes Objekt finden, ein Verknüpfungsobjekt (Projekt), das sie verbindet. Das Verknüpfungsobjekt muss mindestens ein Feld enthalten, das auf den Registerkarten &quot;Felder&quot; oder &quot;Referenzen&quot; des Originalobjekts referenziert wird (Verknüpfungsfeld, das auf dem Originalobjekt angezeigt wird), und es muss außerdem über ein Verknüpfungsfeld mit dem Zielobjekt verfügen, das auf den Registerkarten &quot;Felder&quot; oder &quot;Referenzen&quot; des Verknüpfungsobjekts angezeigt wird. Das Verknüpfungsfeld mit dem Zielobjekt, das auf dem Verknüpfungsobjekt angezeigt wird (oder das Verknüpfungsfeld, das auf dem Verknüpfungsobjekt angezeigt wird), muss mit dem Zielfeld übereinstimmen.
+1. (Bedingt) Wenn das ursprüngliche Objekt (Problem) und das Zielfeld (ownerID) nicht direkt miteinander verbunden sind, müssen Sie ein drittes Objekt, ein Verknüpfungsobjekt (Projekt) finden, das sie verbindet. Das Verknüpfungsobjekt muss über mindestens ein Feld verfügen, das von den Registerkarten Felder oder Verweise des ursprünglichen Objekts referenziert wird (auf dem ursprünglichen Objekt angezeigtes Verknüpfungsfeld), und es muss auch über ein Verknüpfungsfeld zum Zielobjekt verfügen, das auf den Registerkarten Felder oder Verweise des Verknüpfungsobjekts angezeigt wird. Das Verknüpfungsfeld mit dem Zielobjekt, das im Verknüpfungsobjekt angezeigt wird (oder das Verknüpfungsfeld, das im Verknüpfungsobjekt angezeigt wird), muss mit dem Zielfeld übereinstimmen.
 
-   Beispiel: Die ID (Projekt) (Verknüpfungsfeld, das auf dem Originalobjekt angezeigt wird) wird unter &quot;Probleme (Originalobjekt)&quot; referenziert. (Portfolio) ownerID (Feld mit Zielobjekt verknüpfen) wird auf der Registerkarte &quot;Felder&quot; des Projekts angezeigt (Objekt verknüpfen). Portfolio ownerID ist auch ein Feld im Zielobjekt (Portfolio). Das Verknüpfungsfeld auf dem Verknüpfungsobjekt entspricht dem Zielfeld.\
+   Beispielsweise wird die (Projekt-)ID (Verknüpfungsfeld, das auf dem ursprünglichen Objekt angezeigt wird) von „Anfragen“ referenziert (Originalobjekt). (Portfolio) ownerID (Feld wird mit dem Zielobjekt verknüpft) wird auf der Registerkarte Felder des Projekts (Objekt wird verknüpft) angezeigt. Portfolio ownerID ist auch ein Feld im Zielobjekt (Portfolio). Das Verknüpfungsfeld im Verknüpfungsobjekt entspricht dem Zielfeld.\
    ![portfolio_id_in_the_project_api_object.PNG](assets/portfolio-id-in-the-project-api-object-350x88.png)
 
 1. Identifizieren Sie mithilfe des API-Explorers den **Objekt-Code** des Verknüpfungsobjekts (Projekt).\
@@ -189,13 +191,13 @@ So erstellen Sie einen Filter, der auf fehlende Objekte verweist:
    Beispiel: Parameter oder benutzerdefiniertes Feld.
 
 1. Identifizieren Sie das Feld, nach dem Sie filtern möchten. Dieses Objekt wird als Zielfeld bezeichnet, das zu einem Zielobjekt gehört.\
-   Beispiel: das Feld &quot;categoryID&quot; (Zielfeld), das zur Kategorie (Zielobjekt) gehört.
+   Zum Beispiel das Feld categoryID (Zielfeld), das zur Kategorie (Zielobjekt) gehört.
 
-1. Da das ursprüngliche Objekt (Parameter) und das Zielfeld (Kategorie-ID) nicht direkt miteinander verbunden sind, müssen Sie ein drittes Objekt finden, ein Verknüpfungsobjekt (ein Kategorieparameter), das sie verbindet. Das Verknüpfungsobjekt muss mindestens ein Feld enthalten, das auf den Registerkarten &quot;Felder&quot; oder &quot;Referenzen&quot; des Originalobjekts referenziert wird (Verknüpfungsfeld, das auf dem Originalobjekt angezeigt wird), und es muss außerdem über ein Verknüpfungsfeld mit dem Zielobjekt verfügen, das auf den Registerkarten &quot;Felder&quot; oder &quot;Referenzen&quot; des Verknüpfungsobjekts angezeigt wird. Das Verknüpfungsfeld mit dem Zielobjekt, das auf dem Verknüpfungsobjekt angezeigt wird (oder das Verknüpfungsfeld, das auf dem Verknüpfungsobjekt angezeigt wird), muss mit dem Zielfeld übereinstimmen.
+1. Da das ursprüngliche Objekt (Parameter) und das Zielfeld (categoryID) nicht direkt miteinander verbunden sind, müssen Sie ein drittes Objekt, ein Verknüpfungsobjekt (einen Kategorieparameter) finden, das sie verbindet. Das Verknüpfungsobjekt muss über mindestens ein Feld verfügen, das von den Registerkarten Felder oder Verweise des ursprünglichen Objekts referenziert wird (auf dem ursprünglichen Objekt angezeigtes Verknüpfungsfeld), und es muss auch über ein Verknüpfungsfeld zum Zielobjekt verfügen, das auf den Registerkarten Felder oder Verweise des Verknüpfungsobjekts angezeigt wird. Das Verknüpfungsfeld mit dem Zielobjekt, das im Verknüpfungsobjekt angezeigt wird (oder das Verknüpfungsfeld, das im Verknüpfungsobjekt angezeigt wird), muss mit dem Zielfeld übereinstimmen.
 
-   Beispielsweise wird die ID des Kategorieparameters (Verknüpfungsfeld, das auf dem Originalobjekt angezeigt wird) von Parameter (Originalobjekt) referenziert. parameterID (Verknüpfungsfeld mit dem Zielobjekt) wird auf der Registerkarte Felder des Kategorieparameters (Verknüpfungsobjekt) angezeigt. Das Verknüpfungsfeld mit dem Zielobjekt, das im Verknüpfungsobjekt angezeigt wird, stimmt mit dem Zielfeld überein.
+   Beispielsweise wird die ID des Kategorieparameters (Verknüpfungsfeld, das auf dem ursprünglichen Objekt angezeigt wird) von Parameter (Original-Objekt) referenziert. parameterID (Linking Field to the Target Object) wird auf der Registerkarte Felder des Kategorieparameters (Linking Object) angezeigt. Das Verknüpfungsfeld mit dem Zielobjekt, das auf dem Verknüpfungsobjekt angezeigt wird, stimmt mit dem Zielfeld überein.
 
-1. Identifizieren Sie mithilfe des API-Explorers den **Objektcode** des verknüpfenden Objekts (Kategorieparameter).\
+1. Identifizieren Sie mithilfe des API-Explorers den **Objekt-Code** des Verknüpfungsobjekts (Kategorieparameter).\
    Beispielsweise ist der Objektcode für den Kategorieparameter CTGYPA.\
    ![category_parameter_objcode_in_api.PNG](assets/category-parameter-objcode-in-api-350x79.png)
 
@@ -212,7 +214,7 @@ So erstellen Sie einen Filter, der auf fehlende Objekte verweist:
    EXISTS:A:$$EXISTSMOD=NOTEXISTS
    ```
 
-   Ein Beispiel für das Reporting zu benutzerdefinierten Feldern, die nicht mit benutzerdefinierter Forms verknüpft sind, finden Sie im Abschnitt [Beispiel 2: Filtern nach fehlenden Objekten: Benutzerdefinierte Felder, die in keinem benutzerdefinierten Formular &#x200B;](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) werden in diesem Artikel.
+   Ein Beispiel für das Reporting zu benutzerdefinierten Feldern, die nicht mit benutzerdefinierter Forms verknüpft sind, finden Sie im Abschnitt [Beispiel 2: Filtern nach fehlenden Objekten: Benutzerdefinierte Felder, die in keinem benutzerdefinierten Formular ](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) werden in diesem Artikel.
 
 1. Klicken Sie auf **Filter speichern**.
 
@@ -220,17 +222,17 @@ So erstellen Sie einen Filter, der auf fehlende Objekte verweist:
 
 Verwenden Sie diese Beispiele, um Textmodusfilter mit EXISTS-Anweisungen zu erstellen.
 
-### Beispiel 1: Filtern nach Problemen nach Name des Portfolio-Eigentümers {#example-1-filter-for-issues-by-portfolio-owner-name}
+### Beispiel 1: Nach Portfolio-Eigentümername nach Problemen filtern {#example-1-filter-for-issues-by-portfolio-owner-name}
 
-Mithilfe der Textmodus-Benutzeroberfläche können Sie einen Filter für eine Liste von Problemen erstellen, um nur Probleme anzuzeigen, die in Projekten auftreten, die einem Portfolio zugeordnet sind, dessen Eigentümer ein bestimmter Benutzer ist.
+Mithilfe der Textmodus-Benutzeroberfläche können Sie einen Filter für eine Liste von Problemen erstellen, um nur Probleme anzuzeigen, die zu Projekten gehören, die mit einem Portfolio verknüpft sind, dessen Besitzer ein bestimmter Benutzer ist.
 
-So filtern Sie Probleme nach dem Namen des Portfolio-Eigentümers:
+So filtern Sie Probleme nach dem Portfolio-Eigentümernamen:
 
 1. Erstellen Sie einen Problemfilter.\
-   Informationen zum Erstellen von Filtern finden Sie unter [Übersicht über Filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Informationen zum Erstellen von Filtern finden Sie unter [Filter - Übersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Klicken Sie auf **In Textmodus wechseln**, dann auf **Textmodus bearbeiten**.
-1. Siehe den folgenden generischen Code:
+1. Klicken Sie **Wechseln in den Textmodus** und dann **Textmodus bearbeiten**.
+1. Siehe folgenden generischen Code:
 
    ```
    EXISTS:A:$$OBJCODE=<Object code of the Linking Object>
@@ -238,7 +240,7 @@ So filtern Sie Probleme nach dem Namen des Portfolio-Eigentümers:
    EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>
    ```
 
-1. Fügen Sie den folgenden Code in den Bereich &quot;**Filterregeln für den Bericht festlegen**&quot; ein, um den oben genannten generischen Code zu ersetzen:
+1. Fügen Sie den folgenden Code in den Bereich **Filterregeln für Ihren Bericht festlegen** ein, um den obigen generischen Code zu ersetzen:
 
    ```
    EXISTS:A:$$OBJCODE=PROJ
@@ -250,23 +252,23 @@ So filtern Sie Probleme nach dem Namen des Portfolio-Eigentümers:
    >
    >* Das ursprüngliche Objekt ist das Objekt des Berichts: Problem
    >* Das Zielobjekt ist Portfolio.
-   >* Das Verknüpfungsobjekt ist &quot;Projekt&quot;.
-   >* Das Zielfeld und das Verknüpfungsfeld zum Zielobjekt, auf das vom Verknüpfungsobjekt aus verwiesen wird, sind ownerID.
-   >* Der Objektcode des verknüpfenden Objekts ist hier PROJ.
+   >* Das Verknüpfungsobjekt ist Projekt.
+   >* Das Zielfeld und das Verknüpfungsfeld mit dem Zielobjekt, auf das vom Verknüpfungsobjekt verwiesen wird, ist „ownerID“.
+   >* Der Objektcode des Verknüpfungsobjekts ist hier PROJ.
    >* Das Verknüpfungsfeld, das auf dem ursprünglichen Objekt angezeigt wird, ist projectID, und das Verknüpfungsfeld ist ID.
 
 1. Ersetzen Sie den Wert des Zielfelds (ownerID) in der letzten Anweisung durch eine Benutzer-ID aus Ihrer Umgebung.
 1. Klicken Sie auf **Filter speichern**.
 
-### Beispiel 2: Filter für fehlende Objekte: benutzerdefinierte Felder, die in keinen benutzerdefinierten Formularen angezeigt werden {#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms}
+### Beispiel 2: Filtern nach fehlenden Objekten: benutzerdefinierte Felder, die in keinem benutzerdefinierten Formular angezeigt werden {#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms}
 
 Mithilfe der Textmodusschnittstelle können Sie einen Filter erstellen, um benutzerdefinierte Felder (Parameter) anzuzeigen, die nicht mit benutzerdefiniertem Forms (Kategorien) verknüpft sind. Dieser Filter verknüpft Parameter mit Kategorien, die über ein anderes Objekt, den Kategorieparameter, verbunden sind. Da die beiden Felder nicht direkt miteinander verbunden sind und Sie nach fehlenden Informationen filtern, müssen Sie eine EXISTS-Anweisung verwenden.
 
 >[!IMPORTANT]
 >
->Ein Parameter ist ein Feld, das in der Feldbibliothek vorhanden ist und auf das in einem benutzerdefinierten Formular verwiesen wird. Ein Kategorieparameter ist die Version eines Felds, das in einem bestimmten Formular angezeigt wird. Wenn z. B. dasselbe Feld auf fünf Formularen angezeigt wird, enthält die Workfront-Datenbank 1 Parameter- und 5 Kategorieparameter.
+>Ein Parameter ist ein Feld, das in der Feldbibliothek vorhanden ist, auf die in einem benutzerdefinierten Formular verwiesen wird. Ein Kategorieparameter ist die Version eines Felds, das in einem bestimmten Formular angezeigt wird. Wenn dasselbe Feld beispielsweise in 5 Formularen angezeigt wird, enthält die Workfront-Datenbank 1 Parameter und 5 Kategorieparameter.
 
-So filtern Sie nach benutzerdefinierten Feldern, die keinem benutzerdefinierten Formular zugeordnet sind:
+So filtern Sie nach benutzerdefinierten Feldern, die nicht mit einem benutzerdefinierten Formular verknüpft sind:
 
 1. Erstellen Sie einen Parameter oder einen benutzerdefinierten Feldfilter.\
    Informationen zum Erstellen von Filtern finden Sie unter [Filter - Übersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
@@ -353,10 +355,10 @@ Sie können beispielsweise eine Liste von Aufgaben so filtern, dass nur Aufgaben
 So filtern Sie Aufgaben nach dem Portfolio-Besitzernamen und der Portfolio-Ausrichtungs-Scorecard-ID:
 
 1. Erstellen Sie einen Aufgabenfilter.\
-   Informationen zum Erstellen von Filtern finden Sie unter [Übersicht über Filter](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Informationen zum Erstellen von Filtern finden Sie unter [Filter - Übersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Klicken Sie auf **In Textmodus wechseln**, dann auf **Textmodus bearbeiten**.
-1. Fügen Sie den folgenden Code in den Bereich &quot;**Filterregeln für den Bericht festlegen**&quot; ein:
+1. Klicken Sie **Wechseln in den Textmodus** und dann **Textmodus bearbeiten**.
+1. Fügen Sie den folgenden Code in den Bereich **Filterregeln für Ihren Bericht festlegen** ein:
 
    ```
    EXISTS:A:$$OBJCODE=PROJ
@@ -372,12 +374,12 @@ So filtern Sie Aufgaben nach dem Portfolio-Besitzernamen und der Portfolio-Ausri
    >
    >* Das ursprüngliche Objekt ist das Objekt des Filters: Aufgabe.
    >* Das Zielobjekt ist Portfolio.
-   >* Das erste Zielfeld ist ownerID.
-   >* Das zweite Zielfeld ist die Alignment-Scorecard-ID.
-   >* Das Verknüpfungsobjekt ist &quot;Projekt&quot;.
-   >* Der Objektcode des verknüpfenden Objekts ist PROJ.
-   >* Das Verknüpfungsfeld mit dem Zielobjekt ist die ID (des Portfolios).
-   >* Das Verknüpfungsfeld, das auf dem Originalobjekt angezeigt wird, ist projectID.
-   >* Ersetzen Sie die ownerID durch eine Benutzer-ID aus Ihrer Umgebung.
+   >* Das erste Zielfeld ist Besitzer-ID.
+   >* Das zweite Zielfeld ist die Ausrichtungs-Scorecard-ID.
+   >* Das Verknüpfungsobjekt ist Projekt.
+   >* Der Objektcode des Verknüpfungsobjekts ist PROJ.
+   >* Das Verknüpfungsfeld mit dem Zielobjekt ist die ID (der Portfolio).
+   >* Das Verknüpfungsfeld, das auf dem ursprünglichen Objekt angezeigt wird, ist projectID.
+   >* Ersetzen Sie die Besitzer-ID durch eine Benutzer-ID aus Ihrer Umgebung.
 
 1. Klicken Sie auf **Filter speichern**.

@@ -8,32 +8,35 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 87d3443c7b08c59d435e852c6a17df297e7023d6
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1356'
-ht-degree: 3%
+ht-degree: 16%
 
 ---
 
 # API-Schlüssel verwalten
 
-<!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
+<!--
+DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
 -->
 
 
 
 >[!IMPORTANT]
 >
->Workfront empfiehlt nicht mehr die Verwendung des `/login`-Endpunkts oder der API-Schlüssel. Verwenden Sie stattdessen eine der folgenden Authentifizierungsmethoden:
+>Workfront empfiehlt die Verwendung des `/login`-Endpunkts oder der API-Schlüssel nicht mehr. Verwenden Sie stattdessen eine der folgenden Authentifizierungsmethoden:
 >
 >* Server-Authentifizierung mit JWT
 >* Benutzerauthentifizierung mit OAuth2
 >
->Anweisungen zum Einrichten dieser Authentifizierungsmethoden finden Sie unter [Erstellen von OAuth2-Programmen für Workfront-Integrationen](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
+>Anweisungen zum Einrichten dieser Authentifizierungsmethoden finden Sie unter [Erstellen von OAuth2-Anwendungen für Workfront-Integrationen](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md)
 >
->Anweisungen zur Verwendung der Serverauthentifizierung in Workfront finden Sie unter [Konfigurieren und Verwenden der benutzerdefinierten OAuth 2-Anwendungen Ihres Unternehmens mithilfe des JWT-Flusses](/help/quicksilver/wf-api/api/oauth-app-jwt-flow.md)
+>Anweisungen zur Verwendung der Server-Authentifizierung in Workfront finden Sie unter [Konfigurieren und Verwenden der benutzerdefinierten OAuth 2-Anwendungen Ihres Unternehmens mithilfe des JWT-Flusses](/help/quicksilver/wf-api/api/oauth-app-jwt-flow.md)
 >
->Anweisungen zur Verwendung der Benutzerauthentifizierung in Workfront finden Sie unter [Konfigurieren und Verwenden der benutzerdefinierten OAuth 2-Anwendungen Ihres Unternehmens mithilfe des Autorisierungs-Code-Flusses](/help/quicksilver/wf-api/api/oauth-app-code-token-flow.md)
+>Anweisungen zur Verwendung der Benutzerauthentifizierung in Workfront finden Sie unter [Konfigurieren und Verwenden der benutzerdefinierten OAuth 2-Anwendungen Ihrer Organisation mithilfe des Autorisierungs-Code-Flusses](/help/quicksilver/wf-api/api/oauth-app-code-token-flow.md)
 
 Um Sicherheitslücken in der API zu minimieren, können Adobe Workfront-Admins die API-Schlüssel verwalten, mit denen Anwendungen für einen Benutzerzugriff auf Workfront ermöglicht werden.
 
@@ -62,7 +65,7 @@ Beispiele für Programme, die die Workfront-API nutzen:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Standard</p><p>Plan</p></td> 
+   <td><p>Standard</p><p>Abo</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -71,7 +74,7 @@ Beispiele für Programme, die die Workfront-API nutzen:
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -176,9 +179,9 @@ Wenn Sie wegen einer bestimmten Sicherheitsverletzung in Bezug auf Ihr Workfront
 
 >[!IMPORTANT]
 >
->Das in diesem Abschnitt beschriebene Verfahren gilt nur für Organisationen, die noch keine Einführung in die Adobe Business Platform erhalten haben. Die Anmeldung bei Workfront über die Workfront-API ist nicht verfügbar, wenn Ihr Unternehmen die Adobe Business-Plattform verwendet hat.
+>Das in diesem Abschnitt beschriebene Verfahren gilt nur für Organisationen, die noch keine Einführung in die Adobe Business Platform erhalten haben. Die Anmeldung bei Workfront über die Workfront-API ist nicht verfügbar, wenn Ihr Unternehmen in die Adobe Business Platform integriert wurde.
 >
->Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen die Adobe Business Platform verwendet, unterscheiden, finden Sie unter [Plattformbasierte Administrationsunterschiede (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Eine Liste der Verfahren, die sich danach unterscheiden, ob Ihre Organisation in die Adobe Business Platform integriert wurde, finden Sie unter [Plattformbasierte Administrationsunterschiede (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 >[!NOTE]
 >

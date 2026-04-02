@@ -1,20 +1,22 @@
 ---
-title: Liste der Arbeitsbereich-Vorlagen
+title: Liste der Arbeitsbereichsvorlagen
 description: Ein Arbeitsbereich ist eine Sammlung von Datensatztypen, die von einem Team verwendet werden und den Arbeitszyklus des Teams darstellen. Adobe Workfront Planning verfügt über eine Reihe von Vorlagen, die Ihnen bei der Erstellung Ihres Arbeitsbereichs die ersten Schritte mit grundlegenden Datensatztypen und Feldern erleichtern.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '531'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Liste der Arbeitsbereich-Vorlagen
+# Liste der Arbeitsbereichsvorlagen
 
 {{planning-important-intro}}
 
@@ -29,12 +31,13 @@ In diesem Artikel werden die in Adobe Workfront Planning verfügbaren Arbeitsber
 * Jede Vorlage verfügt über eine Reihe von Datensatztypen. Weitere Informationen finden Sie unter [Datensatztypen - Übersicht](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 * Die Datensatztypen in den einzelnen Vorlagen sind in die folgenden Abschnitte unterteilt:
 
-   * Operative Datensatztypen
+   * Operative Eintragstypen
    * Taxonomien
 * Jeder Datensatztyp enthält einen Satz von Feldern. Einige dieser Felder sind Verbindungen zu anderen Workfront Planning-Datensatztypen.
 * Sie können jede Vorlage anpassen und den vorhandenen Datensatztypen und Feldern weitere hinzufügen.
 
-<!-- I modeled this article by the "List of available Blueprints" and that articles does not have an Access area
+<!--
+ I modeled this article by the "List of available Blueprints" and that articles does not have an Access area
 
 ## Access requirements
 
@@ -50,7 +53,8 @@ You must have the following:
    <td role="rowheader"><p>Adobe Workfront plan*</p></td>
    <td>
 <p>Any</p>
-<!--the above is only for closed beta; when going to GA - activate the following plans:    
+<!--
+the above is only for closed beta; when going to GA - activate the following plans:    
 <p>Current plan: Prime and Ultimate</p>
 <p>Legacy plan: Enterprise</p>->
    </td>

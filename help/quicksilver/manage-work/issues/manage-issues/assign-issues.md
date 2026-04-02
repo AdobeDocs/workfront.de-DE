@@ -1,30 +1,34 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: Probleme zuweisen
+title: Zuweisen von Problemen
 description: Sie können Benutzern, Rollen und Teams Probleme zuweisen, um anzugeben, wer für die Behebung der Probleme verantwortlich ist. Allgemeine Informationen zum Zuweisen von Problemen finden Sie unter Ändern von Problemzuweisungen - Übersicht.
 author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1366'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# Probleme zuweisen
+# Zuweisen von Problemen
 
 <!--Audited: 10/2024-->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> -->
+</div>
+-->
 
 Sie können Benutzern, Rollen und Teams Probleme zuweisen, um anzugeben, wer für die Behebung der Probleme verantwortlich ist. Allgemeine Informationen zum Zuweisen von Problemen finden Sie unter [Übersicht über das Ändern von Problemzuweisungen](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
@@ -45,7 +49,7 @@ Zusätzlich zu diesem Artikel empfehlen wir, die folgenden Artikel zu lesen, um 
 * [Erweiterte Zuweisungen erstellen](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
 * [Smart-Zuweisungen vornehmen](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
 * [Smart Assignments - Übersicht](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
-* [Übersicht über die Zuweisung von Arbeit im Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
+* [Überblick über die Zuweisung von Arbeit im Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 Sie können ein Problem einer oder mehreren Ressourcen auf individueller Anfrageebene zuweisen oder mehrere Ressourcen gleichzeitig mehreren Problemen zuweisen.
 
@@ -53,7 +57,7 @@ Die Zuweisung von Problemen und Aufgaben ist in Adobe Workfront ähnlich. Allgem
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -65,7 +69,7 @@ Die Zuweisung von Problemen und Aufgaben ist in Adobe Workfront ähnlich. Allgem
   </tr> 
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
-   <td> <p>Mitwirkender oder höher</p>
+   <td> <p>Mitwirkende oder höher</p>
    <p>Überprüfen oder höher</p> </td> 
   </tr> 
   <tr> 
@@ -79,7 +83,7 @@ Die Zuweisung von Problemen und Aufgaben ist in Adobe Workfront ähnlich. Allgem
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -119,7 +123,7 @@ Beachten Sie Folgendes, wenn Sie einem Arbeitselement mehrere Ressourcen zuweise
 1. Navigieren Sie zu einer Anfrage, die Sie zuweisen möchten.
 1. Klicken Sie **Zuweisen zu** in der oberen rechten Ecke der Problem-Kopfzeile im Bereich **Zuweisungen**
 
-   Oder
+   ODER
 
    Klicken Sie auf den Namen der aktuellen Zuweisungen, wenn das Problem bereits zugewiesen ist.
 
@@ -146,8 +150,10 @@ Beachten Sie Folgendes, wenn Sie einem Arbeitselement mehrere Ressourcen zuweise
      >Die Einstellung Kontaktinformationen anzeigen muss in Ihrer Zugriffsebene aktiviert sein, damit Benutzer die E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Benutzern Zugriff gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
      >
 
-     <!-- this doesn't apply to issues; if it does, add this to the TIP above: 
-      ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
+     <!--
+       this doesn't apply to issues; if it does, add this to the TIP above: 
+      ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+      -->
 
 
 1. Klicken Sie auf **Speichern**, um die Zuweisung des Problems abzuschließen.
@@ -244,7 +250,7 @@ Assigning issues in bulk is different depending on what environment you choose t
 
 1. Klicken Sie **linken** auf „Arbeitsaufträge“ und geben Sie im Bereich **Arbeitsaufträge** zunächst den Namen eines Benutzers, einer Rolle oder eines Teams in das Feld **Personen, Rollen oder Teams suchen** ein. Klicken Sie dann auf den Namen, wenn er in der Liste angezeigt wird
 
-   Oder
+   ODER
 
    Klicken Sie **Mir zuweisen**, um sich die Probleme zuzuweisen.
 

@@ -1,24 +1,27 @@
 ---
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
-title: Verwalten des Projektteams
+title: Verwalten des Projekt-Teams
 description: Das Projektteam besteht aus Benutzern, die mit dem Projekt verknüpft sind. Die Mitglieder des Projektteams werden im Abschnitt Personen des Projekts oder im Abschnitt Personen der Vorlage angezeigt, die zum Erstellen eines Projekts verwendet werden kann.
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: 00e693fc8b35a59f6ed212bc30da7f85cc78c845
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 2%
+source-wordcount: '830'
+ht-degree: 8%
 
 ---
 
-# Verwalten des Projektteams
+# Verwalten des Projekt-Teams
 
 <!--take preview and production references out at production - August 7-->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
 
@@ -28,7 +31,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 -->
 
-Das Projektteam besteht aus Benutzern, die mit dem Projekt verknüpft sind. Weitere Informationen finden Sie unter [Übersicht über das Projektteam](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md).
+Das Projektteam besteht aus Benutzern, die mit dem Projekt verknüpft sind. Weitere Informationen finden Sie unter [Überblick über Projekt-Teams](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md).
 
 Die Mitglieder des Projektteams werden im Abschnitt Personen des Projekts angezeigt.
 
@@ -47,7 +50,7 @@ Sie können die Benutzer in den Teams des Projekts und der Vorlage verwalten, in
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,7 +63,7 @@ Sie können die Benutzer in den Teams des Projekts und der Vorlage verwalten, in
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p>
-    <p>Plan</p>
+    <p>Abo</p>
     </td> 
   </tr> 
   <tr> 
@@ -74,11 +77,12 @@ Sie können die Benutzer in den Teams des Projekts und der Vorlage verwalten, in
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
-<!--Old access: 
+<!--
+Old access: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -141,7 +145,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
  For more information about what notifications can be enabled for users on the project team, see [Event notification types](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md). 
 
- <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
+ drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
 >[!IMPORTANT]
 >
@@ -199,12 +203,13 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    Select one or multiple users in the list, then click **Send Update to User**.
 
-   <!--update screen shot when they fix the bug - the text above the box needs to match the OLD box, below-->
+   update screen shot when they fix the bug - the text above the box needs to match the OLD box, below
 
-![Update an Benutzerfeld im Projekt senden](assets/send-update-to-user-on-project-box-2025.png)
+   ![Send update to user box on the project](assets/send-update-to-user-on-project-box-2025.png)
 
-<!--Old UI for projects but the text above the comment box is right and matches the functionality):
-   ![OLD Send update to user on a project](assets/send-update-to-user-on-project-box.png)-->
+   Old UI for projects but the text above the comment box is right and matches the functionality):
+   ![OLD Send update to user on a project](assets/send-update-to-user-on-project-box.png)
+-->
 
 Das **Update an Benutzer senden** wird geöffnet.
 
@@ -221,7 +226,7 @@ Das **Update an Benutzer senden** wird geöffnet.
 
 1. (Optional) Klicken Sie auf **Export**-Symbol ![Export-Symbol](assets/export-icon.png), um die Benutzerliste in eine Datei zu exportieren
 
-   Oder
+   ODER
 
    Wählen Sie Benutzer aus und klicken Sie dann auf das **Exportieren**-Symbol, um nur bestimmte Benutzer zu exportieren.
 
@@ -241,11 +246,11 @@ Das **Update an Benutzer senden** wird geöffnet.
 
    Benutzer werden aus den Vorlagenaufgaben entfernt und ihre Zuweisung wird aufgehoben.
 
-   Weitere Informationen finden Sie im Abschnitt [Überlegungen zum Entfernen von Benutzern aus einem &#x200B;](#considerations-for-removing-users-from-a-project-team)) in diesem Artikel.
+   Weitere Informationen finden Sie im Abschnitt [Überlegungen zum Entfernen von Benutzern aus einem ](#considerations-for-removing-users-from-a-project-team)) in diesem Artikel.
 
 1. (Optional) Um eine Aktualisierung an Benutzer zu senden, klicken Sie auf **Alle aktualisieren**, um die Aktualisierung an alle Benutzer in der Liste zu senden
 
-   Oder
+   ODER
 
    Wählen Sie einen oder mehrere Benutzer aus der Liste aus und klicken Sie dann auf **Update an Benutzer senden**.
 
@@ -272,7 +277,7 @@ Das **Update an Benutzer senden** wird geöffnet.
 
 1. Klicken Sie auf **Export**-Symbol ![Export-Symbol](assets/export-icon.png), um die Benutzerliste in eine Datei zu exportieren
 
-   Oder
+   ODER
 
    Wählen Sie Benutzer aus und klicken Sie dann auf das **Exportieren**-Symbol, um nur bestimmte Benutzer zu exportieren.
 

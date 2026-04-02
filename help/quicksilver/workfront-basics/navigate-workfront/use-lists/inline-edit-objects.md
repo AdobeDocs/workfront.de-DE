@@ -6,7 +6,9 @@ description: Sie können Objekte inline bearbeiten, wenn sie in einer Liste oder
 feature: Get Started with Workfront
 author: Courtney
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 5%
@@ -82,7 +84,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
    >Wenn Sie über mehrere Seiten verfügen, können Sie ein -Objekt mithilfe von Folgendem finden:
    >
    >   * **Paginierung**: Klicken Sie auf die Rückwärts- und Vorwärtspfeile, um zwischen Seiten zu navigieren.
-   >     Der Bereich [!UICONTROL Paginierung“ befindet sich in der rechten unteren Ecke &#x200B;] Liste und bleibt beim Bildlauf beibehalten.
+   >     Der Bereich [!UICONTROL Paginierung“ befindet sich in der rechten unteren Ecke ] Liste und bleibt beim Bildlauf beibehalten.
    >   * **Schnellfilter**: Klicken Sie auf das Filtersymbol oder geben Sie Alt+F ein, um den Schnellfilter zu öffnen, und geben Sie dann Text ein, um nur Elemente anzuzeigen, die den eingegebenen Text enthalten.
    >     Der Schnellfilter befindet sich in der Listen-Symbolleiste. Weitere Informationen finden Sie unter [Anwenden des Schnellfilters auf eine Liste](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 

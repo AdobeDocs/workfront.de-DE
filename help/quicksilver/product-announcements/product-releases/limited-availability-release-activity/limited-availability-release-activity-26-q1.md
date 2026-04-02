@@ -8,15 +8,17 @@ role: Admin
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 387a84c4bf511424a0c15bd65748987c1611cee5
+exl-id: 850576d3-4edb-4942-9f21-065bf941b01c
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '473'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
-
-# Versionsaktivität für Adobe Workfront im ersten Quartal 2026 - Funktionen mit begrenzter Verfügbarkeit
+# Veröffentlichungen Adobe Workfront im ersten Quartal 2026 – Funktionen mit begrenzter Verfügbarkeit
 
 In diesem Artikel wird die begrenzte Verfügbarkeit von Workfront-Funktionen beschrieben, die im ersten Quartal 2026 veröffentlicht werden.
 
@@ -61,19 +63,20 @@ Bei der erweiterten Suche für erweiterte Zuweisungen hat die Auswahl einer Opti
 
 Der KPI Geplante Stunden im Bildschirm Erweiterte Zuweisungen kann nicht mehr bearbeitet werden, wenn die Aufgabendauer 0 beträgt. Zuvor konnten Sie die geplanten Stunden bearbeiten, aber die Änderungen wurden nicht gespeichert.
 
-### Woche der Wartungs-Updates vom 30. November bis 6. Dezember 2025
+### Wartungs-Updates in der Woche vom 30. November bis 6. Dezember 2025
 
 **Das Feld „Wechselkursdatum“ ist ausgeblendet, wenn keine datumswirksamen Wechselkurse verwendet werden**
 
 Das Feld **Wechselkursdatum** im Bereich Projektdetails > Finanzen ist jetzt ausgeblendet, wenn das Kontrollkästchen **Datumswirksame Wechselkurse im System verwenden** nicht aktiviert ist. Zuvor wurde beim Bearbeiten eines Projekts das Datumsfeld in den Projektdetails angezeigt, auch wenn keine datumswirksamen Wechselkurse aktiviert waren.
 
-### Woche der Wartungs-Updates vom 4. bis 10. Januar 2026
+### Wartungs-Updates in der Woche vom 4. bis 10. Januar 2026
 
 **Die Quote für Aufgabengebiete lässt jetzt Lücken bei den effektiven Datumsangaben zu**
 
 Die effektiven Termine für Aufgabengebiete lassen jetzt Lücken zu, wobei sich überschneidende Termine nicht zulässig sind. Während einer Lücke werden andere Bereiche der Verrechnungssatz-Hierarchie verwendet, um den Verrechnungssatz basierend auf dem Umsatztyp einer Aufgabe zu bestimmen.
 
-<!--### Maintenance Updates week of January 11-17, 2026
+<!--
+### Maintenance Updates week of January 11-17, 2026
 
 **Title**
 

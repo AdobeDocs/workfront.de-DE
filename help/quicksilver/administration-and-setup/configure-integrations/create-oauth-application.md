@@ -8,10 +8,12 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: 711812d9fd4bf48bb7612c0339cee2cdbe08ef10
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1960'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -31,7 +33,7 @@ Beim Erstellen einer [!UICONTROL OAuth2]-Anwendung generieren Sie eine Client-ID
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +45,7 @@ Beim Erstellen einer [!UICONTROL OAuth2]-Anwendung generieren Sie eine Client-ID
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Standard</p> <p>Plan</p></td> 
+   <td><p>Standard</p> <p>Abo</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -52,7 +54,7 @@ Beim Erstellen einer [!UICONTROL OAuth2]-Anwendung generieren Sie eine Client-ID
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -73,7 +75,7 @@ Wählen Sie beim Erstellen eines OAuth2-Programms den Anwendungstyp aus, der den
  <thead> 
   <tr> 
    <th>Anwendungstyp</th> 
-   <th>Am besten geeignet für</th> 
+   <th>Geeignet für</th> 
    <th>Authentifizierungsmethode</th> 
   </tr> 
  </thead> 
@@ -180,7 +182,7 @@ Anweisungen zur Konfiguration und Verwendung der OAuth2-Anwendung mit Benutzeran
 >
 >* `https://app.workfrontfusion.com/oauth/cb/workfront-workfront`
 >* `https://app-eu.workfrontfusion.com/oauth/cb/workfront-workfront` (EU-Rechenzentrum)
->* `https://app-az.workfrontfusion.com/oauth/cb/workfront-workfront` (Azure Data Center)
+>* `https://app-az.workfrontfusion.com/oauth/cb/workfront-workfront` (Azure-Rechenzentrum)
 
 {{step-1-to-setup}}
 
@@ -314,9 +316,11 @@ Anweisungen zur Konfiguration und Verwendung der OAuth2-Anwendung mit Benutzeran
    </tbody> 
    </table>
 
-   <!-- removed this from the table, and added "Developer name" and following rows:
+   <!--
+    removed this from the table, and added "Developer name" and following rows:
    [!UICONTROL App Description URL]</td> 
-      <td>This can be a link to an "About us" page or a page with more information about the integration.> -->
+      <td>This can be a link to an "About us" page or a page with more information about the integration.>
+      -->
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 

@@ -1,20 +1,22 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Neue Funktionen in der API-Version 13
+title: Neue Funktionen in der API-Version 13
 description: Adobe Workfront hat API Version 13 am 22. April 2021 veröffentlicht. Die API-Version 13 enthält die folgenden Änderungen gegenüber Version 12.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: afbc986e-8b5c-40bc-9120-e8d34e0f7004
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1072'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-# Neue Funktionen in der API-Version 13
+# Neue Funktionen in der API-Version 13
 
 Adobe Workfront hat API Version 13 am 22. April 2021 veröffentlicht. Die API-Version 13 enthält die folgenden Änderungen gegenüber Version 12.
 
@@ -69,7 +71,7 @@ Die folgenden Ressourcen wurden für die API-Version 13 geändert.
 
 Ein AccessLevel-Objekt ist Benutzern zugeordnet und beschreibt den Satz von AccessLevelPermissions, die bestimmen, auf was Benutzer zugreifen können.
 
-Weitere Informationen zu Zugriffsebenen finden Sie unter [&#x200B; von Zugriffsebenen](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
+Weitere Informationen zu Zugriffsebenen finden Sie unter [ von Zugriffsebenen](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -310,9 +312,11 @@ Projekte sind Arbeitselemente innerhalb von Workfront und ein wichtiger Baustein
    <td> <p>Direkte Felder</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>convertedOpTaskOriginatorID</b> </p> <!--
+     <li> <p><b>convertedOpTaskOriginatorID</b> </p>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Removed flag NOT&nbsp;FILTERABLE</p>
-      --> </li> 
+      -->
+      </li>
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -424,7 +428,7 @@ Ein Arbeitszeittabellen-Objekt stellt eine virtuelle Arbeitszeitkarte dar, mit d
    <td>Kernfelder</td> 
    <td> 
     <ul> 
-     <li> <p><b>objCode</b> </p> <p>entfernt</p> </li> 
+     <li> <p><b>objCode</b> </p> <p>Entfernt</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

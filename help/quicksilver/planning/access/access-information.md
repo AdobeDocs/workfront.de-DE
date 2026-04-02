@@ -6,19 +6,23 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
-source-git-commit: 15ffe027c281782bcaa4df229badc134d91195a0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '126'
-ht-degree: 0%
+ht-degree: 27%
 
 ---
 
 
-# Adobe Workfront Planning-Zugriffsinformationen: Artikelindex
+# Informationen zum Zugriff auf Adobe Workfront-Planung: Artikelindex
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -27,10 +31,10 @@ Als Workfront-Administrator müssen Sie Ihren Benutzenden Zugriff gewähren, dam
 Die folgenden Artikel enthalten Informationen darüber, welchen Zugriff Ihre Benutzerinnen und Benutzer benötigen, um Workfront Planning-Funktionen verwenden zu können:
 
 * [Zugriffsübersicht für Adobe Planning](/help/quicksilver/planning/access/access-overview.md)
-* [Übersicht über Freigabeberechtigungen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md)
-* [Lizenztyp-Übersicht bei Verwendung von Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md)
+* [Überblick über das Freigeben von Berechtigungen in Adobe Workfront-Planung](/help/quicksilver/planning/access/sharing-permissions-overview.md)
+* [Überblick über die Lizenztypen bei Verwendung von Adobe Workfront-Planung](/help/quicksilver/planning/access/license-type-overview.md)
 * [Anfordern von Berechtigungen für eine Ansicht oder einen Arbeitsbereich](/help/quicksilver/planning/access/request-permissions.md)
-* [Ansichten freigeben](/help/quicksilver/planning/access/share-views.md)
+* [Freigeben von Ansichten](/help/quicksilver/planning/access/share-views.md)
 * [Freigeben von Arbeitsbereichen](/help/quicksilver/planning/access/share-workspaces.md)
 * [Datensatztypen freigeben](/help/quicksilver/planning/access/share-record-types.md)
   <!--* <span class="preview">[Share records](/help/quicksilver/planning/access/share-records.md)</span>-->

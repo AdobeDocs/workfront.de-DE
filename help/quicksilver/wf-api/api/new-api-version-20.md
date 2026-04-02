@@ -6,10 +6,13 @@ description: Adobe Workfront hat API-Version 20 am 6. April 2022 veröffentlicht
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 6d2aa582a72aad098e397a5e59abdee84165a426
+exl-id: 2cf9d708-ce62-4434-8352-31dd8440ecb9
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1792'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -212,16 +215,20 @@ Ein AccessLevelPermissions-Objekt stellt eine bestimmte Berechtigung zum Zugreif
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Unterprojekte hinzufügen)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--           <p>Modified the following possible values:</p>
+<!--
+           <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
           <li>
             <p><b>forbiddenActions</b>
@@ -234,16 +241,20 @@ Ein AccessLevelPermissions-Objekt stellt eine bestimmte Berechtigung zum Zugreif
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Unterprojekte hinzufügen)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--            <p>Modified the following possible values:</p>
+<!--
+            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
           <li>
             <p><b>secondaryActions</b>
@@ -256,16 +267,20 @@ Ein AccessLevelPermissions-Objekt stellt eine bestimmte Berechtigung zum Zugreif
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Unterprojekte hinzufügen)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--            <p>Modified the following possible values:</p>
+<!--
+            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
         </ul>
       </td>
@@ -296,16 +311,20 @@ Wenn ein(e) Benutzende(r) keinen Zugriff auf ein Objekt in Workfront hat, das er
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Unterprojekte hinzufügen)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--            <p>Modified the following possible values:</p>
+<!--
+            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
         </ul>
       </td>
@@ -336,16 +355,20 @@ Ein AccessRule-Objekt stellt einen Regelsatz in benutzerdefinierten Zugriffseben
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Unterprojekte hinzufügen)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--            <p>Modified the following possible values:</p>
+<!--
+            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
           <li>
             <p><b>forbiddenActions</b>
@@ -358,16 +381,20 @@ Ein AccessRule-Objekt stellt einen Regelsatz in benutzerdefinierten Zugriffseben
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Unterprojekte hinzufügen)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--            <p>Modified the following possible values:</p>
+<!--
+            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
           <li>
             <p><b>secondaryActions</b>
@@ -380,16 +407,20 @@ Ein AccessRule-Objekt stellt einen Regelsatz in benutzerdefinierten Zugriffseben
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Unterprojekte hinzufügen)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--            <p>Modified the following possible values:</p>
+<!--
+            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
         </ul>
       </td>
@@ -426,7 +457,7 @@ Ein AccessRule-Objekt stellt einen Regelsatz in benutzerdefinierten Zugriffseben
 
 ### Validierung (VALIDIERUNG)
 
-Für ein bestimmtes Arbeitselement, z. B. eine Aufgabe, ein Dokument oder eine Arbeitszeittabelle, kann es erforderlich sein, dass ein Verantwortlicher oder ein anderer Benutzer das Arbeitselement abzeichnet. Ein Validierungsobjekt stellt die Aktion des Abzeichnens eines Arbeitselements dar.
+Für ein bestimmtes Arbeitselement, z. B. eine Aufgabe, ein Dokument oder eine Arbeitszeittabelle, kann es erforderlich sein, dass eine verantwortliche Person oder ein anderer Benutzer bzw. eine andere Benutzerin das Arbeitselement abzeichnet. Ein Validierungsobjekt stellt die Aktion des Abzeichnens eines Arbeitselements dar.
 
 <table>
   <col/>
@@ -713,7 +744,8 @@ Ein BillingRecord-Objekt zeichnet die Einnahmen, Stunden oder Ausgaben auf, die 
 </table>
 
 
-<!--### Category (CTGY)
+<!--
+### Category (CTGY)
 
 A Category object is a custom form.
 
@@ -749,7 +781,8 @@ A Category object is a custom form.
       </td>
     </tr>
   </tbody>
-</table>-->
+</table>
+-->
 
 ### Kategorieparameter (CTGYPA)
 
@@ -1161,16 +1194,20 @@ Ein QueueDef -Objekt stellt eine Warteschlange dar. Dabei handelt es sich um ein
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Unterprojekte hinzufügen)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--            <p>Modified the following possible values:</p>
+<!--
+            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
           <li>
             <p><b>RequestorForbiddenActions</b>
@@ -1183,16 +1220,20 @@ Ein QueueDef -Objekt stellt eine Warteschlange dar. Dabei handelt es sich um ein
               <li>
                 <p><code>ADD_SUB_PROJECTS</code> (Unterprojekte hinzufügen)</p>
               </li>
-<!--              <li>
+<!--
+              <li>
                 <p><code>ASSIGN_STAFFING_PLAN_RESOURCES</code> (Assign resources)</p>
-              </li>-->
+              </li>
+              -->
             </ul>
-<!--            <p>Modified the following possible values:</p>
+<!--
+            <p>Modified the following possible values:</p>
              <ul>
               <li>
                 <p><code>ADD_BOOKINGS</code> (Add Bookings) changed to <code>MANAGE_BOOKINGS</code> (Manage Bookings)</p>
               </li>
-            </ul>-->
+            </ul>
+            -->
           </li>
         </ul>
       </td>
@@ -1240,8 +1281,8 @@ Das Ratenobjekt hat die `ATTRIBUTE_ATTACHABLE` hinzugefügt.
           <ul>
           <li>Währung</li>
           <li>gesperrt</li>
-          <li>Typ</li>
-          <li>Wert</li>
+          <li>type</li>
+          <li>value</li>
           </ul>
           </li>
         </ul>
@@ -1637,6 +1678,3 @@ Ein Arbeitsobjekt ist eine gemeinsame Schnittstelle, die sowohl von Task als auc
     </tr>
   </tbody>
 </table>
-
-
-

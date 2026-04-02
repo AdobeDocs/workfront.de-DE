@@ -1,15 +1,17 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Vermerken von Arbeitselementen als abgeschlossen mithilfe des Adobe Workfront-Plug-ins
+title: Markieren von Arbeitselementen als abgeschlossen mit dem Adobe Workfront-Plug-in
 description: Sie können in Adobe Creative Cloud-Programmen bleiben und Ihre Arbeit in Adobe Workfront nahtlos abschließen.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
@@ -21,14 +23,15 @@ Sie können in den folgenden [!DNL Adobe Creative Cloud] Anwendungen bleiben und
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <!-- <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <!--
+    <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -37,13 +40,14 @@ Sie können in den folgenden [!DNL Adobe Creative Cloud] Anwendungen bleiben und
    <p>Standard</p>
    <p>Work or higher</p> </td> 
   </tr> 
-  <tr> -->
+  <tr>
+  -->
    <td role="rowheader">Zusätzliche Produkte</td> 
    <td>Sie müssen zusätzlich zu einer [!DNL Adobe Creative Cloud] über eine [!DNL Workfront]-Lizenz verfügen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf [!UICONTROL -Dokumente] bearbeiten</p> </td> 
+   <td> <p>Zugriff auf [!UICONTROL-Dokumente] bearbeiten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
@@ -73,7 +77,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    Klicken Sie **[!UICONTROL Fertig mit meinem Teil]**, wenn andere Benutzer ebenfalls ihre Arbeit erledigen müssen, damit die Aufgabe oder das Problem abgeschlossen ist.
 
-   Oder
+   ODER
 
    Klicken Sie **[!UICONTROL Abschließen]** (für Aufgaben) oder **[!UICONTROL Gelöst]** (für Probleme), wenn keine weitere Arbeit an der Aufgabe oder dem Problem erforderlich ist. Dadurch wird das Element [!UICONTROL Abgeschlossen] oder [!UICONTROL Aufgelöst] in [!DNL Workfront] markiert.
 

@@ -1,21 +1,23 @@
 ---
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
-title: Anzeigen geerbter Berechtigungen für Objekte
+title: Anzeigen übernommener Berechtigungen für Objekte
 description: Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihrer Zugriffsebene Zugriff auf das Anzeigen oder Bearbeiten von Objekten gewähren. Weitere Informationen finden Sie unter Gewähren des Zugriffs auf Projekte.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7025f097-ea99-41bf-965e-617b0f532ff7
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '295'
-ht-degree: 7%
+ht-degree: 18%
 
 ---
 
-# Anzeigen geerbter Berechtigungen für Objekte
+# Anzeigen übernommener Berechtigungen für Objekte
 
-Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihrer Zugriffsebene Zugriff auf das Anzeigen oder Bearbeiten von Objekten gewähren. Weitere Informationen finden Sie unter [Zugriff auf Projekte &#x200B;](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihrer Zugriffsebene Zugriff auf das Anzeigen oder Bearbeiten von Objekten gewähren. Weitere Informationen finden Sie unter [Zugriff auf Projekte ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
 Neben der Zugriffsebene, die Benutzern gewährt wird, können Sie ihnen auch Berechtigungen für bestimmte Objekte erteilen, auf die Sie Zugriff haben, um sie freizugeben. Weitere Informationen zu Zugriffsebenen und Berechtigungen finden Sie unter [Funktionsweise von Zugriffsebenen und Berechtigungen](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
@@ -25,7 +27,8 @@ Informationen zur Hierarchie der Objekte in Workfront finden Sie unter [Grundleg
 
 ## Zugriffsanforderungen
 
-<!--drafted for P&P:
+<!--
+drafted for P&P:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -82,7 +85,7 @@ Informationen zur Hierarchie der Objekte in Workfront finden Sie unter [Grundleg
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -93,7 +96,7 @@ Die Anzeige geerbter Berechtigungen ist für alle Objekte identisch.
 So zeigen Sie geerbte Berechtigungen für ein Projekt an:
 
 1. Wechseln Sie zu einem Projekt, dessen Freigabeberechtigungen Sie anzeigen möchten.
-1. Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon.png) und dann auf **Freigabe**.
+1. Klicken Sie auf die **** Mehr![](assets/more-icon.png) und dann auf **Freigabe**.
 
 1. Erweitern Sie die Liste **Geerbte Berechtigungen** .
 

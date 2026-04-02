@@ -1,19 +1,21 @@
 ---
 content-type: overview
 navigation-topic: the-new-workfront-experience
-title: Übersicht über Objektkopfzeilen
+title: Überblick über Objekt-Header
 description: Sie können Informationen zu Objekten auf einen Blick in anzeigen [!DNL Adobe Workfront]  wenn Sie deren Kopfzeile überprüfen. Die Informationen in einer Kopfzeile können den Eigentümer des Objekts, den Status oder den Prozentwert der Fertigstellung enthalten.
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '3697'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Übersicht über Objektkopfzeilen
+# Überblick über Objekt-Header
 
 Sie können Informationen zu Objekten in [!DNL Adobe Workfront] auf einen Blick anzeigen, wenn Sie deren Kopfzeile überprüfen.
 
@@ -32,12 +34,14 @@ So greifen Sie beispielsweise auf die Kopfzeile eines Projekts zu:
 
    ![](assets/project-header-350x18.png)
 
-<!--## [!UICONTROL Home] header overview 
+<!--
+## [!UICONTROL Home] header overview 
 
 The following headers are available in Home:
 
 * Task: For more information on how you can use this header, see the [Task header overview](#task-header-overview) in this article.
-* Issue: For more information on how you can use this header, see the [Issue header overview](#issue-header-overview) in this article.-->
+* Issue: For more information on how you can use this header, see the [Issue header overview](#issue-header-overview) in this article.
+-->
 
 ## Anpassbare Kopfzeilen
 
@@ -60,7 +64,7 @@ Die Projekt-Kopfzeile zeigt standardmäßig die folgenden Informationen an:
  <thead> 
   <tr> 
    <th>Kopfzeileninformationen</th> 
-   <th>Notizen</th> 
+   <th>Anmerkungen</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -97,7 +101,7 @@ Die Projekt-Kopfzeile zeigt standardmäßig die folgenden Informationen an:
    <td> <p>Sie können das Projekt [!UICONTROL Geplantes Abschlussdatum] und die Uhrzeit in der Kopfzeile bearbeiten, wenn das Projekt ab dem [!UICONTROL Abschlussdatum] geplant ist. Wenn das Projekt ab dem [!UICONTROL Startdatum] geplant ist, werden diese Informationen aus den Aufgaben im Projekt aktualisiert.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL -Bedingung] </td> 
+   <td role="rowheader">[!UICONTROL Bedingung] </td> 
    <td> <p>Wenn Sie den [!UICONTROL Condition Type] des Projekts auf Manuell setzen, können Sie die [!UICONTROL Condition] im Header aktualisieren.</p></td> 
   </tr> 
   <tr> 
@@ -105,7 +109,7 @@ Die Projekt-Kopfzeile zeigt standardmäßig die folgenden Informationen an:
    <td>Sie können das Projekt [!UICONTROL Status] in der Kopfzeile bearbeiten.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Der Bereich [!UICONTROL -Genehmigungen]</td> 
+   <td role="rowheader">Der Bereich [!UICONTROL-Genehmigungen]</td> 
    <td> <p>Wenn Sie einer der genehmigenden Personen sind, verwenden Sie die folgenden Symbole, um die Genehmigungen für das Projekt zu verwalten:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [!UICONTROL genehmigen]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [!UICONTROL Reject]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [!UICONTROL recall]</p> <p>Wenn Sie keine genehmigende Person sind, klicken Sie auf das Symbol [!UICONTROL Mehr] <img src="assets/more-icon-for-approvals-area.png">, um Informationen zum aktuellen Genehmigungsschritt anzuzeigen.</p> <p>Weitere Informationen zu Validierungen finden Sie unter <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Übersicht über den Genehmigungsprozess</a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -123,13 +127,13 @@ Die Aufgabenkopfzeile enthält standardmäßig die folgenden Informationen:
  <thead> 
   <tr> 
    <th>Kopfzeileninformationen</th> 
-   <th>Notizen</th> 
+   <th>Anmerkungen</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td role="rowheader">Breadcrumb mit übergeordneten Objekten</td> 
-   <td> <p>Die übergeordneten Objekte der Aufgabe werden im Breadcrumb angezeigt. Durch Klicken auf den Namen des übergeordneten Objekts wird dieses übergeordnete Objekt geöffnet.</p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Breadcrumbs - Übersicht</a>.</p> </td> 
+   <td> <p>Die übergeordneten Objekte der Aufgabe werden im Breadcrumb angezeigt. Durch Klicken auf den Namen des übergeordneten Objekts wird dieses übergeordnete Objekt geöffnet.</p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Überblick über Breadcrumbs</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Symbol für Objekt </td> 
@@ -152,23 +156,23 @@ Die Aufgabenkopfzeile enthält standardmäßig die folgenden Informationen:
    <td>Sie können den abgeschlossenen Prozentsatz der Aufgabe in der Kopfzeile bearbeiten.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL -Zuweisungen]</td> 
+   <td role="rowheader">[!UICONTROL Arbeitsaufträge]</td> 
    <td>Sie können die Verantwortlichen für eine Aufgabe über die Kopfzeile bearbeiten.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Schaltfläche [!UICONTROL Bearbeiten], [!UICONTROL Fertig] oder [!UICONTROL Aufgabe starten]</p> </td> 
-   <td> <p>Wenn Ihnen die Aufgabe zugewiesen ist, können Sie auf die Schaltfläche [!UICONTROL Bearbeiten] <span>oder [!UICONTROL Aufgabe starten]</span> klicken, um anzugeben, dass Sie die Aufgabe jetzt bearbeiten, oder auf die Schaltfläche [!UICONTROL Fertig], um anzugeben, dass Sie die Aufgabe abgeschlossen haben.</p> <p><span>Informationen zum Ersetzen der Schaltfläche [!UICONTROL Work On It] durch eine Schaltfläche [!UICONTROL Start Task] finden Sie unter <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersetzen der Schaltfläche [!UICONTROL Work On It] durch eine Schaltfläche Start</a></span>.</p> </td> 
+   <td> <p>Wenn Ihnen die Aufgabe zugewiesen ist, können Sie auf die Schaltfläche [!UICONTROL Bearbeiten] <span>oder [!UICONTROL Aufgabe starten]</span> klicken, um anzugeben, dass Sie die Aufgabe jetzt bearbeiten, oder auf die Schaltfläche [!UICONTROL Fertig], um anzugeben, dass Sie die Aufgabe abgeschlossen haben.</p> <p><span>Informationen zum Ersetzen der Schaltfläche [!UICONTROL Work On It] durch eine Schaltfläche [!UICONTROL Start Task] finden Sie unter <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersetzen der Schaltfläche [!UICONTROL Work On It] durch eine Schaltfläche [!UICONTROL Start</a></span>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Geplantes Abschlussdatum]</td> 
-   <td> <p>Sie können das geplante Abschlussdatum (Geplant) <span>und die Uhrzeit</span> in der Kopfzeile bearbeiten.</p> <p>Tipp: Beachten Sie, dass das [!UICONTROL Commit Date] in der Kopfzeile nicht angezeigt wird. Sie können sie auf der Seite [!UICONTROL Details] anzeigen.</p> </td> 
+   <td> <p>Sie können das geplante Abschlussdatum (!UICONTROL Geplant) <span>und die Uhrzeit</span> in der Kopfzeile bearbeiten.</p> <p>Tipp: Beachten Sie, dass das [!UICONTROL Commit Date] in der Kopfzeile nicht angezeigt wird. Sie können sie auf der Seite [!UICONTROL Details] anzeigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Status]</td> 
    <td>Sie können die Aufgabe [!UICONTROL Status] in der Kopfzeile bearbeiten.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Der Bereich [!UICONTROL -Genehmigungen]</td> 
+   <td role="rowheader">Der Bereich [!UICONTROL-Genehmigungen]</td> 
    <td> <p>Wenn Sie eine der genehmigenden Personen sind, verwenden Sie die folgenden Symbole, um die Genehmigungen für die Aufgabe zu verwalten:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [!UICONTROL genehmigen]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [!UICONTROL Reject]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [!UICONTROL recall]</p> <p>Wenn Sie keine genehmigende Person sind, klicken Sie auf das Symbol [!UICONTROL Mehr] <img src="assets/more-icon-for-approvals-area.png">, um Informationen zum aktuellen Genehmigungsschritt anzuzeigen.</p> <p>Weitere Informationen zu Validierungen finden Sie unter <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Übersicht über den Genehmigungsprozess</a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -186,13 +190,13 @@ Die Problem-Kopfzeile enthält standardmäßig die folgenden Informationen:
  <thead> 
   <tr> 
    <th>Kopfzeileninformationen</th> 
-   <th>Notizen</th> 
+   <th>Anmerkungen</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td role="rowheader">Breadcrumb mit übergeordneten Objekten</td> 
-   <td> <p>Die übergeordneten Objekte des Problems werden im Breadcrumb angezeigt. Durch Klicken auf den Namen des übergeordneten Objekts wird dieses übergeordnete Objekt geöffnet.</p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Breadcrumbs - Übersicht</a>.</p> </td> 
+   <td> <p>Die übergeordneten Objekte des Problems werden im Breadcrumb angezeigt. Durch Klicken auf den Namen des übergeordneten Objekts wird dieses übergeordnete Objekt geöffnet.</p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Überblick über Breadcrumbs</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Symbol für Objekt </td> 
@@ -215,23 +219,23 @@ Die Problem-Kopfzeile enthält standardmäßig die folgenden Informationen:
    <td> <p>Sie können den abgeschlossenen Prozentsatz des Problems in der -Kopfzeile bearbeiten.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL -Zuweisungen]</td> 
+   <td role="rowheader">[!UICONTROL Arbeitsaufträge]</td> 
    <td>Sie können die Bevollmächtigten eines Problems über die -Kopfzeile bearbeiten.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Schaltfläche [!UICONTROL Bearbeiten], [!UICONTROL Fertig] <span> [!UICONTROL Problem starten] </span></td> 
-   <td>Wenn Ihnen das Problem zugewiesen wurde, können Sie auf die Schaltfläche [!UICONTROL Bearbeiten] <span>oder [!UICONTROL Problem starten]</span> klicken, um anzugeben, dass Sie das Problem jetzt bearbeiten, oder auf die Schaltfläche [!UICONTROL Fertig], um anzugeben, dass Sie das Problem abgeschlossen haben.<span>Informationen zum Ersetzen der Schaltfläche [!UICONTROL Work On It] durch eine Schaltfläche [!UICONTROL Start Task] finden Sie unter</span> <span href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersetzen der Schaltfläche [!UICONTROL Work On It] durch eine Schaltfläche Start</a></span><span>.</span></td> 
+   <td>Wenn Ihnen das Problem zugewiesen wurde, können Sie auf die Schaltfläche [!UICONTROL Bearbeiten] <span>oder [!UICONTROL Problem starten]</span> klicken, um anzugeben, dass Sie das Problem jetzt bearbeiten, oder auf die Schaltfläche [!UICONTROL Fertig], um anzugeben, dass Sie das Problem abgeschlossen haben.<span>Informationen zum Ersetzen der Schaltfläche [!UICONTROL Work On It] durch eine Schaltfläche [!UICONTROL Start Task] finden Sie unter</span> <span href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersetzen der Schaltfläche [!UICONTROL Work On It] durch eine Schaltfläche [!UICONTROL Start</a></span><span>.</span></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Geplantes Abschlussdatum]</td> 
-   <td> <p>Sie können das geplante Abschlussdatum (Geplant) <span>und die Uhrzeit) </span> Problem in der Kopfzeile bearbeiten.</p> <p>Tipp: Beachten Sie, dass das [!UICONTROL Commit Date] in der Kopfzeile nicht angezeigt wird. Sie können sie auf der Seite [!UICONTROL Details] anzeigen.</p> </td> 
+   <td> <p>Sie können das geplante Abschlussdatum (!UICONTROL Geplant) <span>und die Uhrzeit) </span> Problem in der Kopfzeile bearbeiten.</p> <p>Tipp: Beachten Sie, dass das [!UICONTROL Commit Date] in der Kopfzeile nicht angezeigt wird. Sie können sie auf der Seite [!UICONTROL Details] anzeigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Status]</td> 
    <td>Sie können das Problem [!UICONTROL Status] in der Kopfzeile bearbeiten.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Der Bereich [!UICONTROL -Genehmigungen]</td> 
+   <td role="rowheader">Der Bereich [!UICONTROL-Genehmigungen]</td> 
    <td> <p>Wenn Sie eine der genehmigenden Personen sind, verwenden Sie die folgenden Symbole, um die Genehmigungen für das Problem zu verwalten:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL genehmigen]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Reject]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Rückruf]</p> <p>Wenn Sie keine genehmigende Person sind, klicken Sie auf das Symbol [!UICONTROL Mehr] <img src="assets/more-icon-for-approvals-area.png">, um Informationen zum aktuellen Genehmigungsschritt anzuzeigen.</p> <p>Weitere Informationen zu Validierungen finden Sie unter <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Übersicht über den Genehmigungsprozess</a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -249,13 +253,13 @@ Die Kopfzeile des Programms enthält folgende Informationen:
  <thead> 
   <tr> 
    <th>Kopfzeileninformationen</th> 
-   <th>Notizen</th> 
+   <th>Anmerkungen</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td role="rowheader">Breadcrumb mit dem Namen der Portfolio</td> 
-   <td> <p>Sie können über den Header des [!UICONTROL -Programms] auf [!UICONTROL Portfolio] zugreifen. Durch Klicken auf den Namen des übergeordneten Objekts wird dieses übergeordnete Objekt geöffnet.</p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Breadcrumbs - Übersicht</a>.</p> </td> 
+   <td> <p>Sie können über den Header des [!UICONTROL-Programms] auf [!UICONTROL Portfolio] zugreifen. Durch Klicken auf den Namen des übergeordneten Objekts wird dieses übergeordnete Objekt geöffnet.</p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Überblick über Breadcrumbs</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Symbol für Objekt </td> 
@@ -291,7 +295,7 @@ Die Kopfzeile des Programms enthält folgende Informationen:
   </tr> 
   <tr> 
    <td role="rowheader">Bedingung für [!UICONTROL Active Projects]</td> 
-   <td>Dies ist eine Berechnung, die angibt, für welchen Prozentsatz der aktiven Projekte im Programm die [!UICONTROL -Bedingung] als [!UICONTROL On Target], [!UICONTROL At Risk] oder [!UICONTROL In Trouble] festgelegt ist.</td> 
+   <td>Dies ist eine Berechnung, die angibt, für welchen Prozentsatz der aktiven Projekte im Programm die [!UICONTROL-Bedingung] als [!UICONTROL On Target], [!UICONTROL At Risk] oder [!UICONTROL In Trouble] festgelegt ist.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -308,7 +312,7 @@ Die Portfolio-Kopfzeile enthält die folgenden Informationen:
  <thead> 
   <tr> 
    <th>Kopfzeileninformationen</th> 
-   <th>Notizen</th> 
+   <th>Anmerkungen</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -371,7 +375,7 @@ Die Vorlagenkopfzeile zeigt die folgenden Informationen an:
  <thead> 
   <tr> 
    <th>Kopfzeileninformationen</th> 
-   <th>Notizen</th> 
+   <th>Anmerkungen</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -418,13 +422,13 @@ Die Kopfzeile der Vorlagenaufgabe zeigt die folgenden Informationen an:
  <thead> 
   <tr> 
    <th>Kopfzeileninformationen</th> 
-   <th>Notizen</th> 
+   <th>Anmerkungen</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td role="rowheader">Breadcrumb für übergeordnete Objekte</td> 
-   <td> <p>Die übergeordneten Objekte der Vorlagenaufgabe werden im Breadcrumb angezeigt. Wenn Sie auf den Namen eines übergeordneten Objekts klicken, wird dieses übergeordnete Objekt geöffnet.</p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Breadcrumbs - Übersicht</a>.</p> </td> 
+   <td> <p>Die übergeordneten Objekte der Vorlagenaufgabe werden im Breadcrumb angezeigt. Wenn Sie auf den Namen eines übergeordneten Objekts klicken, wird dieses übergeordnete Objekt geöffnet.</p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Überblick über Breadcrumbs</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Symbol für Objekt </td> 
@@ -443,11 +447,11 @@ Die Kopfzeile der Vorlagenaufgabe zeigt die folgenden Informationen an:
    <td> <p>Neben dem Namen der Vorlagenaufgabe wird der Bereich Aktionen angezeigt.</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL -Zuweisungen]</td> 
+   <td role="rowheader">[!UICONTROL Arbeitsaufträge]</td> 
    <td>Sie können die [!UICONTROL Zuweisungen] der Vorlagenaufgabe in der Kopfzeile bearbeiten.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Abschlussdatum]</td> 
+   <td role="rowheader">[!UICONTROL Fertigstellungstag]</td> 
    <td>Dies ist der Tag in der Dauer der Vorlage, an dem die Vorlagenaufgabe abgeschlossen werden soll.</td> 
   </tr> 
  </tbody> 
@@ -465,13 +469,13 @@ Die Kopfzeile des Rechnungsnachweises enthält die folgenden Informationen:
  <thead> 
   <tr> 
    <th>Kopfzeileninformationen</th> 
-   <th>Notizen</th> 
+   <th>Anmerkungen</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td role="rowheader">Breadcrumb für übergeordnete Objekte</td> 
-   <td> <p>Die übergeordneten Objekte des Rechnungsnachweises werden im Breadcrumb angezeigt. Wenn Sie auf den Namen eines übergeordneten Objekts klicken, wird dieses übergeordnete Objekt geöffnet.</p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Breadcrumbs - Übersicht</a>.</p> </td> 
+   <td> <p>Die übergeordneten Objekte des Rechnungsnachweises werden im Breadcrumb angezeigt. Wenn Sie auf den Namen eines übergeordneten Objekts klicken, wird dieses übergeordnete Objekt geöffnet.</p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Überblick über Breadcrumbs</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Symbol für Objekt </td> 
@@ -523,7 +527,7 @@ Die Kopfzeile des Benutzers zeigt die folgenden Informationen an:
  <thead> 
   <tr> 
    <th>Kopfzeileninformationen</th> 
-   <th>Notizen</th> 
+   <th>Anmerkungen</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -534,7 +538,8 @@ Die Kopfzeile des Benutzers zeigt die folgenden Informationen an:
   <tr> 
    <td role="rowheader">Name des Benutzers und Titel</td> 
    <td> <p> Der Titel des Benutzers wird in Großbuchstaben über seinem Namen angezeigt. Der Name des Benutzers in der Kopfzeile kann nicht bearbeitet werden.</p> </td> 
-  </tr> <!--
+  </tr>
+  <!--
    <tr> 
     <td role="rowheader">Name of the object type</td> 
     <td> <p>The name of the object type does not display.</p> </td> 
@@ -575,7 +580,7 @@ Die Team-Kopfzeile zeigt die folgenden Informationen an:
  <thead> 
   <tr> 
    <th>Kopfzeileninformationen</th> 
-   <th>Notizen</th> 
+   <th>Anmerkungen</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -618,7 +623,7 @@ Die Kopfzeile der Iteration zeigt die folgenden Informationen an:
  <thead> 
   <tr> 
    <th>Kopfzeileninformationen</th> 
-   <th>Notizen</th> 
+   <th>Anmerkungen</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -664,7 +669,7 @@ Die Kopfzeile der Gruppe enthält folgende Informationen:
  <thead> 
   <tr> 
    <th>Kopfzeileninformationen</th> 
-   <th>Notizen</th> 
+   <th>Anmerkungen</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -716,13 +721,13 @@ In der Kopfzeile des Dokuments werden die folgenden Informationen angezeigt:
  <thead> 
   <tr> 
    <th>Kopfzeileninformationen</th> 
-   <th>Notizen</th> 
+   <th>Anmerkungen</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td role="rowheader">Breadcrumb mit übergeordneten Objekten</td> 
-   <td> <p>Die übergeordneten Objekte des Dokuments werden im Breadcrumb angezeigt. Wenn Sie auf den Namen eines übergeordneten Objekts klicken, wird dieses übergeordnete Objekt geöffnet.</p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Breadcrumbs - Übersicht</a>.</p> </td> 
+   <td> <p>Die übergeordneten Objekte des Dokuments werden im Breadcrumb angezeigt. Wenn Sie auf den Namen eines übergeordneten Objekts klicken, wird dieses übergeordnete Objekt geöffnet.</p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Überblick über Breadcrumbs</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Symbol für Objekt </td> 
@@ -741,7 +746,7 @@ In der Kopfzeile des Dokuments werden die folgenden Informationen angezeigt:
    <td> <p>Neben dem Namen des Dokuments wird der Bereich Aktionen angezeigt.</p> <p> <img src="assets/actions-area-icons-for-a-document.png"> </p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Der Bereich für die [!UICONTROL -Entscheidung] Genehmigung</td> 
+   <td role="rowheader">Der Bereich für die [!UICONTROL-Entscheidung] Genehmigung</td> 
    <td> Der Bereich [!UICONTROL Entscheidungen] wird in der oberen rechten Ecke der Dokumentkopfzeile angezeigt. Dieser Bereich unterscheidet sich je nach Genehmigungsphase und abhängig davon, ob Sie eine genehmigende Person, eine prüfende Person oder keines von beiden sind. <ul><li> <p>Wenn Sie eine genehmigende Person sind, können Sie die folgenden Symbole verwenden, um die Genehmigungen für das Dokument zu verwalten:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL genehmigen]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Rückruf]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Reject]</p> <p>Weitere Informationen zu Genehmigungsentscheidungen finden Sie unter <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Genehmigen von </a>.</li><li><p>Als Reviewer können Sie auf die Schaltfläche Meine Überprüfung abschließen klicken, um anzugeben, dass Sie das Dokument geprüft haben.</p><p>Weitere Informationen zur Überprüfung eines Dokuments finden Sie unter <a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">Überprüfen eines Dokuments</a>.</p></li><li>Andernfalls wird in diesem Bereich der aktuelle Prüfungs- und Genehmigungsstatus für das Dokument angezeigt.</li><ul></p> </td> 
   </tr> 
  </tbody> 
@@ -759,7 +764,7 @@ In der Kopfzeile des Unternehmens werden die folgenden Informationen angezeigt:
  <thead> 
   <tr> 
    <th>Kopfzeileninformationen</th> 
-   <th>Notizen</th> 
+   <th>Anmerkungen</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -800,7 +805,7 @@ Die Plankopfzeile zeigt die folgenden Informationen an:
  <thead> 
   <tr> 
    <th>Kopfzeileninformationen</th> 
-   <th>Notizen</th> 
+   <th>Anmerkungen</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -871,7 +876,7 @@ Die Ziel-Kopfzeile zeigt die folgenden Informationen an:
  <thead> 
   <tr> 
    <th>Kopfzeileninformationen</th> 
-   <th>Notizen</th> 
+   <th>Anmerkungen</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -904,7 +909,7 @@ Die Ziel-Kopfzeile zeigt die folgenden Informationen an:
    <td>Der Prozentsatz des Fortschrittsziels, der angibt, wie viel von dem Ziel abgeschlossen wurde. Sie können den Zielfortschritt nicht aktualisieren. Workfront berechnet dies anhand des Fortschritts der einzelnen Fortschrittsindikatoren für das Ziel.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Inhaber]</td> 
+   <td role="rowheader">[!UICONTROL Besitzerin bzw. Besitzer]</td> 
    <td>Dies ist der Besitzer des Ziels. Sie können den Zielbesitzer manuell aktualisieren. Benutzer, Teams, Gruppen oder Ihre Organisation können Zielinhaber sein.</td> 
   </tr> 
   <tr> 
@@ -912,7 +917,7 @@ Die Ziel-Kopfzeile zeigt die folgenden Informationen an:
    <td>Der Zeitrahmen, in dem das Ziel abgeschlossen werden muss. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL -Bedingung]</td> 
+   <td role="rowheader">[!UICONTROL Bedingung]</td> 
    <td>Die Zielbedingung gibt an, ob das Ziel im Zeitplan ist, um termingerecht abgeschlossen zu werden, oder ob es im Verzug ist </td> 
   </tr> 
   <tr> 

@@ -3,18 +3,20 @@ content-type: overview
 product-area: portfolios
 navigation-topic: portfolios-overview
 title: Portfolio-Methodik verstehen
-description: Ein Portfolio ist eine Sammlung von Projekten, die einheitliche Merkmale aufweisen. Diese Projekte konkurrieren normalerweise um dieselben Ressourcen, Budgets oder Zeitfenster. Sie können Portfolios in Programme aufteilen und die Projekte mit den Programmen verknüpfen, bevor sie einer Portfolio hinzugefügt werden.
+description: Ein Portfolio ist eine Sammlung von Projekten, die einheitliche Merkmale aufweisen. Diese Projekte konkurrieren normalerweise um dieselben Ressourcen, Budgets oder Zeitfenster. Sie können Portfolios in Programme aufteilen und die Projekte mit den Programmen verknüpfen, bevor sie einem Portfolio hinzugefügt werden.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: b340501e-1190-415e-aa96-5aad177c4b7b
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '587'
-ht-degree: 0%
+ht-degree: 14%
 
 ---
 
-# Portfoliomethodik verstehen
+# Grundlegendes zur Portfoliomethodik
 
 <!-- Audited: 1/2024 -->
 
@@ -22,7 +24,7 @@ Portfolio oder Project Portfolio Management (PPM) ist der Prozess der Priorisier
 
 Allgemeine Informationen zu PPM finden Sie unter [Übersicht über die Portfolio-Verwaltung](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md).
 
-In Adobe Workfront ist ein Portfolio eine Zusammenstellung von Projekten, die einheitliche Merkmale aufweisen. Diese Projekte konkurrieren normalerweise um dieselben Ressourcen, Budgets oder Zeitfenster. Sie können Portfolios in Programme aufteilen und die Projekte mit den Programmen verknüpfen, bevor sie einer Portfolio hinzugefügt werden.
+In Adobe Workfront ist ein Portfolio eine Zusammenstellung von Projekten, die einheitliche Merkmale aufweisen. Diese Projekte konkurrieren normalerweise um dieselben Ressourcen, Budgets oder Zeitfenster. Sie können Portfolios in Programme aufteilen und die Projekte mit den Programmen verknüpfen, bevor sie einem Portfolio hinzugefügt werden.
 
 Sie können Portfolios und Programme verwenden, um Projekte zu organisieren. Durch die Organisation von Projekten können Sie ähnliche Projekte vergleichen und bestimmen, wo Ressourcen am besten eingesetzt werden.
 
@@ -34,7 +36,7 @@ Dieser Artikel enthält allgemeine Informationen zu Portfolios in Workfront.
 
 <!--leave the table uncollapsed as this article is about access-->
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,7 +51,7 @@ Dieser Artikel enthält allgemeine Informationen zu Portfolios in Workfront.
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> <p>[!UICONTROL Standard]</p>
-   <p>[!UICONTROL -Plan]</p> </td> 
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -69,7 +71,8 @@ Dieser Artikel enthält allgemeine Informationen zu Portfolios in Workfront.
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -97,7 +100,8 @@ Dieser Artikel enthält allgemeine Informationen zu Portfolios in Workfront.
     </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Grundlegendes zur Methodik des [!DNL Adobe Workfront] Portfolios
 

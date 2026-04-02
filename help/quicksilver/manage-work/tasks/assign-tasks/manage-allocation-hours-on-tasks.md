@@ -6,27 +6,31 @@ description: Wenn Sie einer Aufgabe Benutzer oder Rollen zuweisen, wird ihnen ei
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '574'
-ht-degree: 4%
+ht-degree: 10%
 
 ---
 
-# Verwalten der Stunden für die Zuordnung von Benutzern und Rollen bei Aufgaben
+# Verwalten der Stunden für die Benutzer- und Rollenzuweisungen für Aufgaben
 
 <!--Audited: 10/2025-->
 
 <!--remove new/old experience references when they remove the New/ Old experience toggle from the Edit Tasks box-->
 
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> -->
+</div>
+-->
 
 Zuordnungsstunden stellen die Gesamtzeit dar, in der eine zugewiesene Ressource an einem Vorgang arbeiten soll. Die Stunden stellen die Zeit dar, die einem Benutzer an einem bestimmten Tag oder Wochentag, einer bestimmten Woche oder einem bestimmten Monat während der Dauer der Aufgabe zugewiesen wird.
 
@@ -69,13 +73,15 @@ Sie können die Zuordnungsstunden ändern, wenn Sie erweiterte Zuweisungen für 
  </tbody>
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
-<!--Take this piece out of the table above when we remove the new experience/ after production release in the task box: 
+<!--
+Take this piece out of the table above when we remove the new experience/ after production release in the task box: 
 
-<p>Edit permissions to update allocation hours in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation hours in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.-->
+<p>Edit permissions to update allocation hours in the Edit Task box when editing tasks using the old experience. <span class="preview">You can no longer manage allocation hours in the Edit task box when editing tasks in the new experience.</span></p> <p>For information, see <a href="/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md">Edit tasks</a></p>.
+-->
 
 
 ## Überlegungen zum Ändern der Zuordnungsstunden für eine Aufgabe
@@ -89,7 +95,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 * Bei mehreren Zuweisungen wird jedem Benutzer bzw. jeder Aufgabenrolle standardmäßig dieselbe Anzahl von Stunden für die Arbeit an der Aufgabe zugewiesen, wenn der Dauertyp „Aufgabe“ „Einfach“ ist. Weitere Informationen finden Sie in den folgenden Artikeln:
 
    * [Übersicht über die Aufgabendauer und den Dauertyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
-   * [Übersicht über den Dauertyp: Einfach](../../../manage-work/tasks/taskdurtn/simple-duration-type.md)
+   * [Überblick über den Dauertyp: Einfach](../../../manage-work/tasks/taskdurtn/simple-duration-type.md)
 
 * Wenn die Aufgabe vom Typ Einfache Dauer ist, können Sie die Anzahl der zugewiesenen Stunden für jeden Benutzer oder jedes Aufgabengebiet manuell ändern, um anzugeben, dass einige der Aufgabenzugewiesenen mehr Zeit für die Arbeit an einer Aufgabe haben könnten als andere.
 * Die Stundenanzahl, die Teams zugewiesen wurde, die Aufgaben zugewiesen wurden, kann nicht geändert werden.

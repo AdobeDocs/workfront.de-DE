@@ -8,14 +8,16 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '523'
-ht-degree: 4%
+ht-degree: 10%
 
 ---
 
-# Geplantes Abschlussdatum für das Projekt festlegen
+# Festlegen des geplanten Abschlussdatums für das Projekt
 
 <!-- Audited: 4/2025 -->
 
@@ -40,7 +42,7 @@ Das geplante Abschlussdatum eines Projekts kann manuell oder automatisch festgel
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-   <p>Plan</p>
+   <p>Abo</p>
    </td> 
   </tr> 
   <tr> 
@@ -54,11 +56,12 @@ Das geplante Abschlussdatum eines Projekts kann manuell oder automatisch festgel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -90,7 +93,8 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    <td> <p>Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Manuelles Festlegen des geplanten Abschlussdatums eines Projekts
 
@@ -143,7 +147,7 @@ So planen Sie ein Projekt ab dem Startdatum:
 
    Wenn Sie beginnen, Ihrem Projekt Aufgaben hinzuzufügen, wird **Geplantes Abschlussdatum** des Projekts auf der Grundlage der Gesamtdauer aller Aufgaben berechnet.
 
-   Weitere Informationen zur Aufgabendauer finden Sie im Artikel [Übersicht über die Aufgabendauer und den &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)).
+   Weitere Informationen zur Aufgabendauer finden Sie im Artikel [Übersicht über die Aufgabendauer und den ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)).
 
    Das geplante Abschlussdatum des Projekts fällt in diesem Fall mit dem geplanten Abschlussdatum der letzten Aufgabe im Projekt zusammen.
 

@@ -2,11 +2,13 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Verwalten der Admin-Ansicht für Pinnwände
-description: Die Boards-Administratoransicht enthält eine Liste aller Boards in Ihrem Konto, die Systemadministratoren verwenden können, um eine schnelle Momentaufnahme der Boarddetails zu erhalten.
+description: Die Admin-Ansicht der Pinnwände enthält eine Liste aller Pinnwände in Ihrem Konto, die Systemadministratoren verwenden können, um einen schnellen Überblick über die gesamten Pinnwand-Details zu erhalten.
 author: Courtney
 feature: Agile
 exl-id: 4a7f2f68-14d2-4532-8c76-2ba78b45deac
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 8%
@@ -15,17 +17,17 @@ ht-degree: 8%
 
 # Verwalten der Admin-Ansicht für Pinnwände
 
-Die Boards-Admin-Ansicht enthält eine Liste aller Boards in Ihrem Konto, die Systemadministratoren verwenden können, um eine schnelle Momentaufnahme der Boarddetails zu erhalten, einschließlich des Zeitpunkts der letzten Aktualisierung, der Anzahl der Karten pro Board und vielem mehr.
+Die Admin-Ansicht der Pinnwände enthält eine Liste aller Pinnwände in Ihrem Konto, die Systemadministratoren verwenden können, um einen schnellen Überblick über die gesamten Pinnwand-Details zu erhalten, einschließlich des Zeitpunkts der letzten Aktualisierung, der Anzahl der Karten, die jede Karte hat, und mehr.
 
 In diesem Bereich können Sie die folgenden Aktionen ausführen:
 
-* Liste &quot;Boards&quot; filtern
-* Konfigurieren der Spalten der Boards-Liste
-* Liste &quot;Boards&quot; gruppieren
+* Pinnwand-Liste filtern
+* Pinnwand-Listenspalten konfigurieren
+* Boards gruppieren
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie, um die Zugriffsanforderungen anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,26 +62,26 @@ Sie müssen eine Pinnwand erstellen, bevor Sie sie in der Administratoransicht a
 
 Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
-## Liste &quot;Boards&quot; filtern
+## Pinnwand-Liste filtern
 
 {{step1-to-boards}}
 
-1. Wählen Sie auf der Seite **Boards** die Registerkarte **Admin View** aus.
+1. Wählen Sie auf **Seite** Pinnwände **die Registerkarte Admin-** aus.
 
-1. Wählen Sie **Filter** aus. Der Bereich **Filter** wird geöffnet.
+1. Wählen Sie **Filter** aus. Das Bedienfeld **Filter** wird geöffnet.
 
 1. Gehen Sie wie folgt vor, um den Filter zu konfigurieren:
 
    1. (Optional) Klicken Sie auf das **Kalender**-Symbol ![Kalendersymbol](assets/calendar-icon.png) und wählen Sie dann einen Datumsbereich aus, um nach Pinnwänden zu filtern, die innerhalb dieses Zeitraums zuletzt geändert wurden.
 
-   1. (Optional) Wählen Sie im Abschnitt **Vorlage** den Typ der Board-Vorlage aus, nach dem die Liste gefiltert werden soll. Sie können mehrere Vorlagentypen auswählen.
-Weitere Informationen zu Board-Vorlagentypen finden Sie unter [Board erstellen oder bearbeiten](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
+   1. (Optional) Wählen Sie im **Vorlage** den Typ der Pinnwand-Vorlage aus, nach der die Liste filtern soll. Sie können mehrere Vorlagentypen auswählen.
+Weitere Informationen zu Pinnwand-Vorlagentypen finden Sie unter [Erstellen oder Bearbeiten einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
-   1. (Optional) Wählen Sie im Abschnitt **Ist archiviert** aus, ob archivierte oder nicht archivierte Boards angezeigt werden sollen. Sie können mehrere Optionen auswählen.
+   1. (Optional) Wählen Sie im Abschnitt **Ist archiviert** aus, ob archivierte oder nicht archivierte Pinnwände angezeigt werden sollen. Sie können mehrere Optionen auswählen.
 
-      ![Archivierter Abschnitt &#x200B;](assets/is-archived-section.png)
+      ![Ist archivierter Abschnitt](assets/is-archived-section.png)
 
-1. Klicken Sie außerhalb des Bereichs &quot;**Filter**&quot;, um ihn zu schließen. Ihre Filterauswahl bleibt auf die Liste &quot;Boards&quot; angewendet, bis sie wieder in die Standardansicht geändert wird.
+1. Klicken Sie außerhalb des Bedienfelds **Filter**, um es zu schließen. Ihre Filterauswahlen bleiben auf die Pinnwand-Liste angewendet, bis sie wieder in die Standardansicht geändert wird.
 
    >[!NOTE]
    >
@@ -112,7 +114,7 @@ Weitere Informationen zu Board-Vorlagentypen finden Sie unter [Board erstellen o
    >
    > Wenn die Spalten der Pinnwand-Liste geändert werden, wird ein blauer Punkt über dem Symbol **Spalten** angezeigt, um anzugeben, dass die aktuelle Ansicht von der Standardansicht geändert wurde.
 
-## Die Liste der Boards nach einem bestimmten Feld gruppieren
+## Pinnwand-Liste nach einem bestimmten Feld gruppieren
 
 {{step1-to-boards}}
 
@@ -134,11 +136,11 @@ Weitere Informationen zu Board-Vorlagentypen finden Sie unter [Board erstellen o
 
    ![Nach Reihenfolge anzeigen](assets/display-by-order.png)
 
-1. Klicken Sie außerhalb des Bereichs &quot;**Gruppe nach**&quot;, um ihn zu schließen. Von hier aus können Sie die angewendete Gruppierung in der Liste ein- oder ausblenden, indem Sie den Pfeil neben dem Gruppentitel auswählen.
+1. Klicken Sie außerhalb des Bedienfelds **Gruppieren nach**, um es zu schließen. Von hier aus können Sie die angewendete Gruppierung in der Liste reduzieren oder erweitern, indem Sie den Pfeil neben dem Gruppierungstitel auswählen.
 
-   ![Ausblenden oder Erweitern](assets/collapse-or-expand.png)
+   ![Reduzieren oder erweitern](assets/collapse-or-expand.png)
 
    >[!NOTE]
    >   
-   >Wenn die Anzeige der Boardlistengruppierung geändert wurde, wird ein blauer Punkt über dem Symbol **Gruppe** angezeigt, um anzuzeigen, dass die aktuelle Ansicht sich von der Standardansicht unterscheidet. 2<br>
-   >Wenn Sie eine Gruppierung entfernen möchten, öffnen Sie den Bereich **Gruppe nach** und wählen Sie **Alle löschen** in der oberen rechten Ecke aus.
+   >Wenn die Gruppierungsliste der Pinnwände geändert wird, wird ein blauer Punkt über dem Symbol **Gruppe** angezeigt, um anzugeben, dass die aktuelle Ansicht von der Standardansicht abweicht. <br>
+   >Wenn Sie eine Gruppierung entfernen möchten, öffnen Sie das Bedienfeld **Gruppieren nach** und wählen **Alle löschen** in der oberen rechten Ecke aus.

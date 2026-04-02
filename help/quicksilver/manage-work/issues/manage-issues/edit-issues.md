@@ -8,24 +8,28 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2532'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
-# Probleme bearbeiten
+# Bearbeiten von Problemen
 
 <!--Audited: 10/2025-->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>-->
+</div>
+-->
 
 Sie können Informationen zu Problemen bearbeiten, die Sie erstellt haben oder die andere Benutzer erstellt haben, wenn sie die Probleme mit Ihnen geteilt haben.
 
@@ -33,7 +37,7 @@ Sie können ein einzelnes Problem bearbeiten oder Probleme in einer Liste bearbe
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,10 +49,10 @@ Sie können ein einzelnes Problem bearbeiten oder Probleme in einer Liste bearbe
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <ul><li>Mitwirkender oder höher</li>
+   <td> <ul><li>Mitwirkende oder höher</li>
    <li>Leicht oder höher, um Probleme im Abschnitt „Probleme“ einer Aufgabe oder eines Projekts zu bearbeiten</li></ul>
    Oder:
-   <ul><li>Anfrage oder höher</li> <li>Überprüfen Sie oder höher, um Probleme im Abschnitt „Probleme“ einer Aufgabe oder eines Projekts zu bearbeiten</li></ul> </td> 
+   <ul><li>Anfragende oder höher</li> <li>Überprüfen Sie oder höher, um Probleme im Abschnitt „Probleme“ einer Aufgabe oder eines Projekts zu bearbeiten</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Zugriffsebene</td> 
@@ -72,7 +76,8 @@ Sie können ein einzelnes Problem bearbeiten oder Probleme in einer Liste bearbe
 +++
 
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -105,7 +110,8 @@ Sie können ein einzelnes Problem bearbeiten oder Probleme in einer Liste bearbe
    <p>Manage permissions to an issue to edit all the fields in the Details area or in the Edit Issue box</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Einschränkungen beim Bearbeiten von Problemen
 
@@ -152,7 +158,7 @@ Sie können ein Problem über die Bereiche „Problem bearbeiten“ oder „Prob
 
 1. Um alle Informationen zu einem Problem zu bearbeiten, wählen Sie ein Problem in einer Liste aus und klicken **oben in** Liste auf „Bearbeiten“
 
-   Oder
+   ODER
 
    Klicken Sie auf den Namen eines Problems in einer Liste und dann auf das Menü **Mehr** neben dem Problemnamen und anschließend auf **Bearbeiten**
 
@@ -218,7 +224,7 @@ Sie können ein Problem über die Bereiche „Problem bearbeiten“ oder „Prob
         <li> <p><strong>Niedrig</strong> </p> </li> 
         <li> <p><strong>normal</strong> </p> </li> 
         <li> <p><strong>Hoch</strong> </p> </li> 
-        <li> <p><strong>Dringend</strong> </p> </li> 
+        <li> <p><strong>Dringlich</strong> </p> </li> 
        </ul> <p>Je nach den vom Workfront-Administrator ausgewählten Projektvoreinstellungen können die Namen der Prioritäten für Sie unterschiedlich sein. Weitere Informationen zum Bearbeiten von Prioritäten finden Sie unter <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Erstellen und Anpassen von Prioritäten</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -255,14 +261,14 @@ Sie können ein Problem über die Bereiche „Problem bearbeiten“ oder „Prob
       <td> <p>Je nach den Warteschlangeneigenschaften, die Ihr Projekt-Manager im Bereich „Warteschlangendetails“ des Projekts ausgewählt hat, können Sie möglicherweise den Typ des Problems angeben. Wählen Sie im Dropdown-Menü <b>Typ</b> eine der folgenden Optionen aus: </p> 
        <ul> 
         <li> <p><strong>Fehlerbericht</strong> </p> </li> 
-        <li> <p><strong>Änderungsanforderung</strong> </p> </li> 
-        <li> <p><strong>Probleme</strong> </p> </li> 
+        <li> <p><strong>Änderungsauftrag</strong> </p> </li> 
+        <li> <p><strong>Problem</strong> </p> </li> 
         <li> <p><strong>Anfrage</strong> </p> </li> 
        </ul> <p>Je nach den von Ihrem Workfront-Administrator ausgewählten Projektvoreinstellungen können die Namen der Problemtypen für Sie unterschiedlich sein.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Hauptansprechpartner</td> 
-      <td>Standardmäßig ist der Primäre Kontakt der Ersteller des Problems. Um dies zu ändern, beginnen Sie, den Namen eines aktiven Benutzers in Workfront einzugeben, und wählen Sie ihn dann aus der Liste aus. Ein Problem kann nur einen Primären Kontakt haben.<br> Wenn Sie den Primären Kontakt ändern, hat der ursprüngliche primäre Kontakt weiterhin Verwaltungszugriff auf das Problem. Sie müssen diesen Zugriff manuell aus dem Zugriffsfeld für Probleme entfernen, wenn Sie ein Problem freigeben.
+      <td>Standardmäßig ist der Primäre Kontakt der Ersteller des Problems. Um dies zu ändern, beginnen Sie, den Namen eines aktiven Benutzers in Workfront einzugeben, und wählen Sie ihn dann aus der Liste aus. Für ein Problem kann es nur einen primären Kontakt geben.<br> Wenn Sie den Primären Kontakt ändern, hat der ursprüngliche primäre Kontakt weiterhin Verwaltungszugriff auf das Problem. Sie müssen diesen Zugriff manuell aus dem Zugriffsfeld für Probleme entfernen, wenn Sie ein Problem freigeben.
 
    <b>TIPP</b>
 
@@ -348,7 +354,8 @@ Sie können ein Problem über die Bereiche „Problem bearbeiten“ oder „Prob
    >* Weisen Sie das Arbeitselement den aktiven Ressourcen neu zu.
    >* Verknüpfen Sie die Benutzer in einem deaktivierten Team mit einem aktiven Team und weisen Sie das Arbeitselement dem aktiven Team zu.
 
-   <!--1. In the Production environment:
+   <!--
+   1. In the Production environment:
          1. Indicate whether an assignee is the primary assignee on the issue, by hovering over the name of the assignee and clicking **Make Primary**. A team cannot be the primary assignee of an issue.
          1. Update the following fields: 
          <table style="table-layout:auto"> 
@@ -368,7 +375,8 @@ Sie können ein Problem über die Bereiche „Problem bearbeiten“ oder „Prob
             Only the job roles associated with each assignee in their profile appear in the drop-down menu.</p> </td> 
          </tr> 
          </tbody> 
-         </table>-->
+         </table>
+         -->
 
 
 1. (Optional) Klicken Sie auf **Mir zuweisen**, um das Problem sich selbst zuzuweisen.

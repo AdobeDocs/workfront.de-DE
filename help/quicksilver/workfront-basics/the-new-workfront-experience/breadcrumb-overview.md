@@ -1,19 +1,21 @@
 ---
 content-type: overview
-title: Breadcrumbs - Übersicht
+title: Überblick über Breadcrumbs
 description: Breadcrumbs zeigen die vollständige Navigationshierarchie für alle Objekttypen an.
 feature: Get Started with Workfront
 exl-id: c4103f8e-4c3f-4d4d-a0eb-628c60735ab7
-source-git-commit: d7b8d7285d23d14f5390c9de1001de553c2b796f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Breadcrumbs - Übersicht
+# Überblick über Breadcrumbs
 
-Breadcrumbs zeigen die vollständige Navigationshierarchie für alle Objekttypen an. Jedes Objekt im Breadcrumb-Pfad verfügt über eine Beschriftung, die den Objekttyp anzeigt. Die Seite, auf der Sie sich derzeit befinden, wird sowohl in der Kopfzeile der Seite als auch am Ende des Breadcrumb-Pfads kursiv angezeigt. Im folgenden Beispiel ist dies die Aufgabe &quot;[!UICONTROL &#x200B; für das Brand Team].
+Breadcrumbs zeigen die vollständige Navigationshierarchie für alle Objekttypen an. Jedes Objekt im Breadcrumb-Pfad verfügt über eine Beschriftung, die den Objekttyp anzeigt. Die Seite, auf der Sie sich derzeit befinden, wird sowohl in der Kopfzeile der Seite als auch am Ende des Breadcrumb-Pfads kursiv angezeigt. Im folgenden Beispiel ist dies die Aufgabe &quot;[!UICONTROL  für das Brand Team].
 
 ![Reduzierter Breadcrumb](assets/NWE-collapsed-breadcrumb.png)
 
@@ -44,7 +46,8 @@ Sie können auch die folgenden Tasten verwenden, um durch die Breadcrumbs zu nav
 
 
 
-<!--drafted: this is no longer possible, since we removed Campaigns, but it might come back as part of Maestro: 
+<!--
+drafted: this is no longer possible, since we removed Campaigns, but it might come back as part of Maestro: 
 
 ## Multi-object breadcrumbs
 

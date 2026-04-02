@@ -7,7 +7,9 @@ description: Sie können Gruppierungen in Listen und Berichten umbenennen, um si
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 072d3c2b-9ede-4bb9-9a27-dc77ceb732c4
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 13%
@@ -20,7 +22,7 @@ ht-degree: 13%
 
 Sie können Gruppierungen umbenennen, damit sie Ihren Benutzern vertrauter sind.
 
-Wenn Sie beispielsweise die Standardgruppenname des Portfolios auf eine Projektliste anwenden, wird der Name der Gruppierung als *Portfolio: Name:`<name of portfolio>`* angezeigt.
+Wenn Sie beispielsweise die standardmäßige Gruppierung Portfolio-Name auf eine Liste von Projekten anwenden, wird der Name der Gruppierung als *Portfolio: Name:`<name of portfolio>`* angezeigt.
 
 ![Gruppierung nach nicht bearbeitetem Namen](assets/grouping-unedited-name-350x167.png)
 
@@ -70,7 +72,7 @@ So ändern Sie den Anzeigenamen in einer Projektgruppierung:
 
 1. Klicken Sie auf **Gruppierung hinzufügen** und geben Sie &quot;Portfolio-Name“ in das Feld **Gruppieren nach:** ein. Wählen Sie es aus, wenn es in der Liste angezeigt wird.
 
-1. Klicken Sie auf **In Textmodus wechseln**.
+1. Klicken Sie **In Textmodus wechseln**.
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Fügen Sie den folgenden Code zum vorhandenen Text hinzu, der im Feld **Bericht gruppieren** verfügbar ist:

@@ -6,10 +6,12 @@ description: Planen eines automatischen Berichtversands
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: aa8275f252dd51f5a14d7aa931423aa4afb4ba8f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1293'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -27,7 +29,7 @@ Weitere Informationen, einschließlich Größenbeschränkungen, die sich auf die
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,7 +43,7 @@ Weitere Informationen, einschließlich Größenbeschränkungen, die sich auf die
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
       <p>Standard</p>
-      <p>Plan</p>
+      <p>Abo</p>
    </td>
   </tr> 
   <tr> 
@@ -57,7 +59,7 @@ Weitere Informationen, einschließlich Größenbeschränkungen, die sich auf die
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -93,9 +95,9 @@ So planen Sie einen Bericht für den automatischen Versand&#x200B;
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>Senden an</p> </td> 
-      <td> <p>Geben Sie zunächst den Namen des Benutzers, der Gruppe, des Teams oder der Rolle ein, an den bzw. die Sie den Bericht senden möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.</p> <p>Oder</p> <p>Geben Sie die E-Mail-Adresse einer Person außerhalb des Workfront-Systems ein, der Sie Zugriff auf den Bericht gewähren möchten.</p> <p>Wiederholen Sie diesen Vorgang, um den Bericht an mehrere Benutzer, Gruppen, Teams oder Rollen zu senden.</p> <p>Hinweis:  <p>Beachten Sie beim Hinzufügen von Berichtsversand-Empfängern Folgendes:</p> 
+      <td> <p>Geben Sie zunächst den Namen des Benutzers, der Gruppe, des Teams oder der Rolle ein, an den bzw. die Sie den Bericht senden möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.</p> <p>ODER</p> <p>Geben Sie die E-Mail-Adresse einer Person außerhalb des Workfront-Systems ein, der Sie Zugriff auf den Bericht gewähren möchten.</p> <p>Wiederholen Sie diesen Vorgang, um den Bericht an mehrere Benutzer, Gruppen, Teams oder Rollen zu senden.</p> <p>Hinweis:  <p>Beachten Sie beim Hinzufügen von Berichtsversand-Empfängern Folgendes:</p> 
         <ul> 
-         <li><p>Wenn Ihr Unternehmen Workfront-Benachrichtigungen auf bestimmte E-Mail-Domains beschränkt, können Sie Berichte möglicherweise nur an die in der E-Mail-Zulassungsliste aufgeführten E-Mail-Adressen senden.</p> <p>Wenn beispielsweise ein(e) Benutzende(r) als Berichtsempfänger(in) festgelegt ist und eine E-Mail-Adresse hat, die zuvor zulässig war, und die Zulassungsliste so aktualisiert wird, dass sie keine E-Mails mehr an diese Domain sendet, erhält der/die Benutzende keine zugestellten Berichte mehr.</p><p>Informationen dazu, wie Workfront-Admins die E-Mail-Zulassungsliste auf die Zulassungsliste setzte aktualisieren, finden Sie im Abschnitt <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">Konfigurieren Ihrer E-Mail</a>.</p></li> 
+         <li><p>Wenn Ihr Unternehmen Workfront-Benachrichtigungen auf bestimmte E-Mail-Domains beschränkt, können Sie Berichte möglicherweise nur an die in der E-Mail-Zulassungsliste aufgeführten E-Mail-Adressen senden.</p> <p>Wenn beispielsweise ein(e) Benutzende(r) als Berichtsempfänger(in) festgelegt ist und eine E-Mail-Adresse hat, die zuvor zulässig war, und die Zulassungsliste so aktualisiert wird, dass sie keine E-Mails mehr an diese Domain sendet, erhält der/die Benutzende keine zugestellten Berichte mehr.</p><p>Informationen dazu, wie Workfront-Admins die E-Mail-Zulassungsliste aktualisieren, finden Sie im Abschnitt <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">Konfigurieren Ihrer E-Mail</a>.</p></li> 
          <li> <p>Wenn Sie als Empfänger eine große Anzahl von Benutzern hinzufügen, kann dies zum Fehlschlagen des Versands führen. Wenn der Versand fehlschlägt, können Sie mehrere Berichtsendungen mit kleineren Benutzergruppen planen.</p> </li> 
         </ul> </td> 
      </tr> 
@@ -190,7 +192,8 @@ So löschen Sie einen geplanten Berichtsversand&#x200B;
 
 1. Klicken Sie **Löschen** zur Bestätigung.
 
-<!--## Video walk-through
+<!--
+## Video walk-through
 
 View the following video to learn how to schedule a report delivery. This video was recorded in Workfront Classic. However, the content also applies to the new Workfront experience.
 

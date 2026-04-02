@@ -6,7 +6,9 @@ description: Sie können Adobe Workfront-Daten aus Listen, Berichten, Dashboards
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2252'
 ht-degree: 2%
@@ -63,11 +65,11 @@ Die Angaben in diesem Artikel gelten nicht für folgende Ausfuhren:
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Anzeigen oder Erweitern des Zugriffs auf Berichte, Dashboards und Kalender zum Exportieren von Berichten</p> <p>Zugriff auf die Objekte, die Sie in einer Liste anzeigen, um die Liste zu exportieren, anzeigen oder höher</p> </td> 
+   <td> <p>Anzeigen oder Erweitern des Zugriffs auf Berichte, Dashboards und Kalender zum Exportieren von Berichten</p> <p>Anzeigen oder höherer Zugriff auf die Objekte, die Sie in einer Liste anzeigen, um die Liste zu exportieren</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen oder Ändern der Berechtigungen für einen Bericht oder ein Dashboard zum Exportieren des Berichts oder des Dashboards</p> <p>Anzeigen von oder höheren Berechtigungen für die Objekte, die Sie in einer Liste anzeigen, um die Liste zu exportieren</p> </td> 
+   <td> <p>Anzeigen von oder höheren Berechtigungen für einen Bericht oder ein Dashboard zum Exportieren des Berichts oder des Dashboards</p> <p>Anzeigen von oder höhere Berechtigungen für die Objekte, die Sie in einer Liste anzeigen, um die Liste zu exportieren</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -86,7 +88,7 @@ Weitere Informationen zum Erstellen von Berichten finden Sie unter [Erstellen ei
 
 ### Exportformate {#export-formats}
 
-Die Informationen können in folgenden Formaten exportiert werden:
+Informationen können in den folgenden Formaten exportiert werden:
 
 * PDF (Hochformat oder Querformat)
 * Excel
@@ -110,15 +112,15 @@ Die Art und Weise, wie Berichte in Workfront angezeigt werden, sowie die Art und
 
    * Bei Excel-Dateien beträgt dieser Grenzwert **65.000 Zeilen**.
    * Bei Excel-Dateien (.xlsx) beträgt dieser Grenzwert **100.000 Zeilen**.
-   * Diese Grenzwerte schließen die Spaltenüberschriften sowie Zeilen für Gruppierungen im Bericht aus. Wenn ein Bericht beispielsweise 6 Gruppierungen und 50.000 Datenzeilen enthält, enthält die exportierte Datei 50.000 Zeilen.
+   * Von diesen Beschränkungen ausgenommen sind die Spaltenüberschriften sowie die Zeilen für Gruppierungen im Bericht. Wenn ein Bericht beispielsweise 6 Gruppierungen und 50.000 Datenzeilen enthält, enthält die exportierte Datei 50.000 Zeilen.
 
   >[!IMPORTANT]
   >
-  >Das Exportieren eines Berichts, der einen Sammlungsverweis in einer Spalte enthält, kann zu einem Fehler führen, auch wenn der Bericht ansonsten innerhalb der aufgelisteten Exportbeschränkungen liegt. Wenn die referenzierte Auflistung zu groß ist, wird der Exportvorgang beendet und es wird ein Fehler ausgegeben.
+  >Der Export eines Berichts, der einen Sammlungsverweis innerhalb einer Spalte enthält, kann zu einem Fehler führen, auch wenn der Bericht anderweitig innerhalb der aufgelisteten Exportbeschränkungen liegt. Wenn die referenzierte Sammlung zu groß ist, wird der Exportvorgang abgebrochen und führt anschließend zu einem Fehler.
   >
-  >Um diesen Fehler zu vermeiden, schließen Sie entweder Spalten aus, die auf große Sammlungen verweisen, oder reduzieren Sie die Größe der referenzierten Sammlungen vor dem Export.
+  >Um diesen Fehler zu vermeiden, schließen Sie entweder Spalten aus, die auf große Sammlungen verweisen, oder reduzieren Sie die Größe der referenzierten Sammlungen vor dem Exportieren.
 
-  Wenn Ihr Bericht mehr Elemente als diese Grenzwerte enthält, wird eine Fehlermeldung angezeigt, dass der Export nicht erfolgreich war. Reduzieren Sie die Anzahl der Elemente, die auf dem Bildschirm angezeigt werden, auf einen Wert, der kleiner oder gleich diesen Grenzwerten ist, damit Sie die Ergebnisse exportieren können.
+  Wenn Ihr Bericht mehr Elemente enthält als diese Limits, erhalten Sie eine Fehlermeldung, dass der Export nicht erfolgreich war. Reduzieren Sie die Anzahl der Elemente auf dem Bildschirm auf eine Zahl, die kleiner oder gleich diesen Grenzwerten ist, um die Ergebnisse exportieren zu können.
 
   Wenn Ihr Bericht mehr als 50.000/65.000/100.000 Zeilen umfasst und Sie alle Daten exportieren möchten, empfehlen wir, Filter oder Eingabeaufforderungen zu verwenden, um kleinere Datenmengen zu erhalten und mehrere Exporte durchzuführen.
 
@@ -153,7 +155,7 @@ Die Art und Weise, wie Berichte in Workfront angezeigt werden, sowie die Art und
   >
   >Wenn Sie die Exportfunktion verwenden, um einen Bericht mit einer Berichtsspalte für andere freizugeben, sollten Sie den Bericht stattdessen freigeben, indem Sie ihn veröffentlichen. Weitere Informationen zum Veröffentlichen eines Berichts finden Sie unter [Freigeben eines Berichts in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
   >
-  >Wenn Sie die Exportfunktion verwenden, um Daten extern auszuwerten, empfehlen wir stattdessen die Verwendung von Workfront Data Connect. Weitere Informationen finden Sie unter [Übersicht über Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
+  >Wenn Sie die Exportfunktion zur externen Auswertung von Daten verwenden, empfehlen wir, stattdessen Workfront Data Connect zu verwenden. Weitere Informationen finden Sie unter [Übersicht über Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
 Wenn Sie versuchen, Daten über das Limit hinaus zu exportieren, erhalten Sie möglicherweise nicht alle erwarteten Daten im Export. Stattdessen wird ein geänderter Bericht innerhalb des Limits erstellt.
 
@@ -165,8 +167,8 @@ Wenden Sie sich bei Problemen oder Problemen mit Ihrem Limit an den technischen 
 
 ### Exportieren von Daten aus einem Bericht oder einer Liste {#export-data-from-a-report-or-list}
 
-1. Wechseln Sie zu dem Bericht oder der Liste, die Sie exportieren möchten.
-1. Wählen Sie die Elemente aus, die Sie exportieren möchten. Wenn Sie einzelne Elemente auswählen, werden nur die ausgewählten Elemente exportiert.
+1. Navigieren Sie zu dem Bericht oder der Liste, den bzw. die Sie exportieren möchten.
+1. Wählen Sie die Elemente aus, die Sie exportieren möchten. Durch Auswahl einzelner Elemente werden nur die ausgewählten Elemente exportiert.
 
    Wählen Sie beispielsweise in einem Projekt die Aufgaben aus, die Sie exportieren möchten.
 
@@ -174,7 +176,7 @@ Wenden Sie sich bei Problemen oder Problemen mit Ihrem Limit an den technischen 
 
    Deaktivieren Sie alle Elemente, um die gesamte Liste zu exportieren.
 
-1. Klicken Sie auf **Exportieren**, und wählen Sie dann ein Format aus.
+1. Klicken Sie **Exportieren** und wählen Sie dann ein Format aus.
 
    <!--
    This note doesn't seem to be true (I tested with e reviewer and they could export the dashboard and its reports), and there's another article all about exporting dashboards. Lisa 12/23
@@ -186,24 +188,24 @@ Wenden Sie sich bei Problemen oder Problemen mit Ihrem Limit an den technischen 
 
    ODER
 
-   Klicken Sie auf das Symbol **Exportieren** ![Exportieren](assets/export-icon-nwe.png) und wählen Sie dann ein Format aus.
+   Klicken Sie auf **Export**-Symbol ![Export-Symbol](assets/export-icon-nwe.png) und wählen Sie dann ein Format aus.
 
-   Welche Optionen für den PDF-Export verfügbar sind, hängt von den E-Mail-Gebietsschemaeinstellungen in den Workfront-Benutzereinstellungen ab:
+   Die Optionen, die Ihnen für den PDF-Export zur Verfügung stehen, hängen von den E-Mail-Gebietsschema-Einstellungen in Ihren Workfront-Benutzereinstellungen ab:
 
    * Nordamerika - Buchstabe - Querformat, Buchstabe - Hochformat, andere Größen
 
-   * Alle Standorte außerhalb Nordamerikas - A4 - Landschaft, A4 - Hochformat, Andere Größen
+   * Alle Standorte außerhalb Nordamerikas - A4 - Querformat, A4 - Hochformat, Andere Größen
 
-1. (Bedingt) Abhängig vom verwendeten Betriebssystem haben Sie möglicherweise die Möglichkeit, die Datei zu öffnen oder zu speichern. Öffnen Sie die Datei mit der zugehörigen Anwendung oder speichern Sie sie auf Ihrer Festplatte.
-1. Um zu verstehen, wie Informationen in der exportierten Datei angezeigt werden, lesen Sie den Abschnitt [Verwenden des exportierten Dokuments](#use-the-exported-document) in diesem Artikel.
+1. (Bedingt) Je nach verwendetem Betriebssystem haben Sie möglicherweise die Möglichkeit, die Datei zu öffnen oder zu speichern. Öffnen Sie die Datei mit der zugehörigen Anwendung oder speichern Sie sie auf Ihrer Festplatte.
+1. Um zu verstehen, wie Informationen in der exportierten Datei angezeigt werden, lesen Sie den Abschnitt [Verwenden des exportierten Dokuments](#use-the-exported-document) in diesem Artikel weiter.
 
 ### Exportieren von Daten aus einem Dashboard {#export-data-from-a-dashboard}
 
-Sie können die Informationen von einem Dashboard aus drucken oder als PDF-Datei exportieren.
+Sie können die Informationen aus einem Dashboard drucken oder als PDF-Datei exportieren.
 
 Weitere Informationen zum Exportieren von Daten aus einem Dashboard finden Sie unter [Dashboard exportieren](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
 
-## Exportiertes Dokument verwenden {#use-the-exported-document}
+## Verwenden des exportierten Dokuments {#use-the-exported-document}
 
 In den folgenden Abschnitten wird beschrieben, wie Informationen in einer exportierten Datei angezeigt werden:
 
@@ -211,22 +213,22 @@ In den folgenden Abschnitten wird beschrieben, wie Informationen in einer export
 * [Titel](#titles)
 * [Zeitstempel](#timestamps)
 * [Formatierung](#formatting)
-* [Verknüpfungen](#links)
+* [Links](#links)
 * [Branding](#branding)
 
 ### Dateinamen {#file-names}
 
-Unabhängig davon, ob Sie eine Liste von Objekten oder einen Bericht exportieren, hat die exportierte Datei einen Dateinamen und einen Titel. Sie können die exportierte Datei auf Ihrem Computer finden, indem Sie auf den Dateinamen verweisen. Der Titel des Berichts gibt Benutzern einen Hinweis darauf, was die exportierte Datei darstellt, wenn Sie sie für sie freigeben.
+Unabhängig davon, ob Sie eine Liste von Objekten oder einen Bericht exportieren, hat Ihre exportierte Datei einen Dateinamen und einen Titel. Sie finden die exportierte Datei auf Ihrem Computer, indem Sie auf den Dateinamen verweisen. Der Titel des Berichts gibt Benutzern einen Hinweis darauf, was die exportierte Datei darstellt, wenn Sie sie für sie freigeben.
 
 #### Dateinamen für exportierte Listen {#file-names-for-exported-lists}
 
-Wenn Sie eine Liste von Objekten exportieren, wird der Objekttyp in der exportierten Datei im Dateinamen und im Titel der Liste angezeigt.
+Wenn Sie eine Liste von Objekten exportieren, wird der Typ des Objekts in der exportierten Datei im Dateinamen und im Titel der Liste angezeigt.
 
-Wenn Sie eine Liste von Aufgaben oder Problemen exportieren, kann der **Dateiname** einer der folgenden sein:
+Wenn Sie eine Liste von Aufgaben oder Problemen exportieren **kann der** Dateiname“ einer der folgenden sein:
 
-* Wenn Sie Aufgaben- und Problemlisten in ein Projekt exportieren:
+* Beim Exportieren von Aufgaben- und Problemlisten in ein Projekt:
 
-   * *Der_Projektname_Exportierte_Aufgaben*(*) in PDF, Excel, Excel (.xlsx) oder tabulatorgetrennten Formaten)*
+   * *The_project_name_exported_Tasks*(*in PDF-, Excel-, Excel- (.xlsx) oder tabulatorgetrennten Formaten)*
    * *THE_PROJECT_NAME_EXPORTED_ISSUES*(*in PDF-, Excel-, Excel- (.xlsx) oder tabulatorgetrennten Formaten)*
 
 * Beim Exportieren von Aufgaben- und Problemlisten in eine Aufgabe (Teilaufgaben):
@@ -272,9 +274,9 @@ Der Titel kann beispielsweise lauten:
 
 Ein Bericht, der in eine PDF-Datei exportiert wird, hat einen Titel.
 
-Wenn der Bericht in Excel-, Excel- (.xlsx) oder tabulatorgetrennte Formate exportiert wird, hat der exportierte Bericht keinen Titel. Der Titel der exportierten Datei ist der Name des Berichts, wie er in der Workfront-Webanwendung angezeigt wird.
+Wenn der Bericht in Excel-, Excel- (.xlsx) oder tabulatorgetrennte Formate exportiert wird, hat der exportierte Bericht keinen Titel. Der Titel der exportierten Datei entspricht dem Namen des Berichts, wie er in der Workfront-Web-Anwendung angezeigt wird.
 
-Wenn der Bericht eine Beschreibung enthält, wird diese in die exportierte Datei aufgenommen.
+Wenn der Bericht eine Beschreibung enthält, wird er in die exportierte Datei aufgenommen.
 
 ### Zeitstempel {#timestamps}
 
@@ -307,7 +309,7 @@ Weitere Informationen zum Anpassen der Formatierung in einem Bericht finden Sie 
 
 ### Links {#links}
 
-Links können auf jedes Objekt in Workfront verweisen, das Verknüpfungen unterstützt. Wenn Sie eine Liste in Workfront auf einen PDF exportieren, bleiben alle unterstützten Verknüpfungen, die im Originaldokument vorhanden sind, im exportierten Dokument live.
+Links können auf jedes Objekt in Workfront verweisen, das Verknüpfungen unterstützt. Wenn Sie eine Liste in Workfront nach PDF exportieren, bleiben alle unterstützten Links, die im Originaldokument vorhanden sind, im exportierten Dokument verfügbar.
 
 >[!TIP]
 >
@@ -318,18 +320,18 @@ Links können auf jedes Objekt in Workfront verweisen, das Verknüpfungen unters
 >`link.url=customDataLabelsAsString(Open Q1 Projects)`
 >`linkedname=direct`
 
-Wenn Sie in ein Excel-Format exportieren, werden nur Verknüpfungen zu Objekten in Workfront in die exportierte Datei aufgenommen. Sie werden nur an Stellen unterstützt, an denen Sie Verknüpfungen in exportierten Excel-Dokumenten zulassen können, z. B. bei Berichtslieferungen.
+Wenn Sie in ein Excel-Format exportieren, werden nur Verknüpfungen zu Objekten in Workfront in die exportierte Datei aufgenommen. Sie werden nur an Stellen unterstützt, an denen Sie auswählen können, ob Links in exportierten Excel-Dokumenten zulässig sein sollen, z. B. bei Berichtsendungen.
 
 ## Branding {#branding}
 
 >[!IMPORTANT]
 >
->Das Branding gilt nur für Unternehmen, die noch nicht an Bord der Adobe Experience Cloud sind.
+>Das Branding gilt nur für Organisationen, die noch nicht in Adobe Experience Cloud integriert wurden.
 >
->Wenn Ihr Unternehmen bei Adobe Experience Cloud integriert wurde, ist kein Branding verfügbar.
+>Wenn Ihre Organisation in Adobe Experience Cloud integriert wurde, ist kein Branding verfügbar.
 
-Wenn Ihr Workfront-Administrator Ihrer Workfront-Instanz ein benutzerdefiniertes Branding für die globale Navigationsleiste hinzugefügt hat, enthalten die exportierten PDF-Dateien auch Ihr personalisiertes Logo.
+Wenn Ihr Workfront-Administrator Ihrer Workfront-Instanz für die globale Navigationsleiste benutzerdefiniertes Branding hinzugefügt hat, enthalten die exportierten PDF-Dateien auch Ihr personalisiertes Logo.
 
-Daten, die in andere Formate exportiert werden, können nicht mit Ihrem Logo personalisiert werden.
+Daten, die in einem anderen Format exportiert werden, können nicht mit Ihrem Logo personalisiert werden.
 
-Weitere Informationen zum Branding Ihrer Workfront-Instanz und der globalen Navigationsleiste finden Sie unter [Branding Ihrer Adobe Workfront-Instanz](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
+Weitere Informationen zum Branding Ihrer Workfront-Instanz und zur globalen Navigationsleiste finden Sie unter [Branding Ihrer Adobe Workfront-Instanz](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).

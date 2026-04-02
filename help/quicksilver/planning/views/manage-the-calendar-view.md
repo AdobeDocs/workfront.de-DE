@@ -1,23 +1,27 @@
 ---
-title: Kalenderansicht verwalten
+title: Verwalten der Kalenderansicht
 description: Sie können Datensätze und ihre Felder in einer Kalenderansicht anzeigen. Dieser Artikel beschreibt, wie Sie eine Kalenderansicht erstellen und eine vorhandene bearbeiten oder löschen können.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 5d326776b9c5b4d9d24e802375df4630508c8bd0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1776'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
-# Kalenderansicht verwalten
+# Verwalten der Kalenderansicht
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -70,7 +74,8 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 +++ 
 
-<!--Old:
+<!--
+Old:
  <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -132,7 +137,8 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
   </tr>
 
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Verwalten einer Kalenderansicht {#manage-a-calendar-view}
 
@@ -154,7 +160,7 @@ Verwalten einer Kalenderansicht:
 1. Wechseln Sie zur Seite „Datensatztyp“, für die Sie den Kalender anzeigen möchten.
 1. Erstellen Sie eine Kalenderansicht, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
 
-   ![Beispiel für Kalenderansicht](assets/calendar-view-example.png)
+   ![Beispiel für eine Kalenderansicht](assets/calendar-view-example.png)
 
    Die Datensätze, die mit dem ausgewählten Datensatztyp verknüpft sind, werden als Balken in einem Kalender angezeigt. Standardmäßig entspricht die Farbe der Balken der Farbe des Datensatzsymbols.
 

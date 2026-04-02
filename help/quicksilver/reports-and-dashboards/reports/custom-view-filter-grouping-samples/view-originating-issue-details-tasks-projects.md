@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Ansicht: Details zum Ausgangsproblem für Aufgaben und Projekte'
-description: Wenn ein Problem in einen Vorgang oder ein Projekt konvertiert wird, wird eine auflösende Objektbeziehung zwischen dem Vorgang oder Projekt und dem Problem hergestellt. In dieser Ansicht werden die Felder des Problems angezeigt, die automatisch abgeschlossen werden, wenn der Vorgang oder das Projekt abgeschlossen ist.
+title: 'Ansicht: Problemdetails für Aufgaben und Projekte werden generiert'
+description: Wenn ein Problem in eine Aufgabe oder ein Projekt konvertiert wird, wird eine auflösende Objektbeziehung zwischen der Aufgabe oder dem Projekt und dem Problem hergestellt. In dieser Ansicht werden die Felder des Problems angezeigt, die automatisch abgeschlossen werden, wenn die Aufgabe oder das Projekt abgeschlossen ist.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5fefb174-3a18-408f-aa12-3f4aff23acfa
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 20%
@@ -18,19 +20,19 @@ ht-degree: 20%
 
 <!--Audited: 11/2024-->
 
-Wenn ein Problem in einen Vorgang oder ein Projekt konvertiert wird, wird eine auflösende Objektbeziehung zwischen dem Vorgang oder Projekt und dem Problem hergestellt. In dieser Ansicht werden die folgenden Felder des Problems angezeigt, die automatisch abgeschlossen werden, wenn der Vorgang oder das Projekt abgeschlossen ist:
+Wenn ein Problem in eine Aufgabe oder ein Projekt konvertiert wird, wird eine auflösende Objektbeziehung zwischen der Aufgabe oder dem Projekt und dem Problem hergestellt. In dieser Ansicht werden die folgenden Felder des Problems angezeigt, die automatisch abgeschlossen werden, wenn die Aufgabe oder das Projekt abgeschlossen ist:
 
 * Name
 * Eingabedatum
 * Geplantes Abschlussdatum
 * Tatsächliches Abschlussdatum
 * Anfragetyp
-* Name des Urhebers
+* Name des Absenders
 * Dem Benutzer zugewiesen
 
 ![task_with_resolving_issue_fields.png](assets/task-with-resolving-issue-fields-350x38.png)
 
-Weitere Informationen finden Sie auch unter [Ansicht: Anzeigen der ursprünglichen Probleminformationen in den Aufgaben- oder Projektlisten](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
+Weitere Informationen finden Sie auch unter [Anzeigen: ursprüngliche Probleminformationen in Aufgaben- oder Projektlisten anzeigen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
 
 ## Zugriffsanforderungen
 
@@ -47,16 +49,16 @@ Weitere Informationen finden Sie auch unter [Ansicht: Anzeigen der ursprünglich
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Mitwirkender oder Anforderung zum Ändern einer Ansicht </p>
-   <p>Standard oder Abo zum Ändern eines Berichts</p>
+   <p>Mitwirkender oder Anfrage zum Ändern einer Ansicht </p>
+   <p>Standard oder Plan zum Ändern eines Berichts</p>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Bearbeitungszugriff auf Filter, Ansichten, Gruppierungen zum Ändern einer Ansicht</p> </td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um eine Ansicht zu ändern</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p>  </td> 
+   <td> <p>Verwalten von Berechtigungen für einen Bericht</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -66,13 +68,13 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 +++
 
-## Details zur Entstehungsproblematik für Vorgänge und Projekte anzeigen
+## Ursprungsdetails von Problemen für Aufgaben und Projekte anzeigen
 
-1. Wechseln Sie zu einer Liste von Vorgängen oder Projekten.
-1. Wählen Sie im Dropdown-Menü **Ansicht** die Option **Neue Ansicht**.
-1. Entfernen Sie im Bereich **Spaltenvorschau** alle Spalten mit Ausnahme einer Spalte.
-1. Klicken Sie auf die Kopfzeile der verbleibenden Spalte, und klicken Sie auf **In Textmodus wechseln** und dann auf **Textmodus bearbeiten**.
-1. Entfernen Sie den Text, den Sie im Feld **Textmodus bearbeiten** finden, und ersetzen Sie ihn durch folgenden Code:
+1. Navigieren Sie zu einer Liste von Aufgaben oder einer Liste von Projekten.
+1. Wählen Sie **Dropdown** Menü „Ansicht“ die Option **Neue Ansicht**.
+1. Entfernen Sie **Bereich „Spaltenvorschau** alle Spalten mit Ausnahme einer Spalte.
+1. Klicken Sie auf die Kopfzeile der verbleibenden Spalte und anschließend auf **Wechseln in den Textmodus** und dann **Textmodus bearbeiten**.
+1. Entfernen Sie den Text aus dem Feld **Textmodus bearbeiten** und ersetzen Sie ihn durch den folgenden Code:
 
    ```
    column.0.textmode=false
@@ -141,4 +143,4 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
    column.7.width=150
    ```
 
-1. Klicken Sie auf **Fertig** > **Ansicht speichern**.
+1. Klicken Sie **Fertig** > **Ansicht speichern**.

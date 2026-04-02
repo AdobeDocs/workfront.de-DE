@@ -8,10 +8,12 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 0d79b04c58d6a0a1c8de7f83d7b941e75b1a88f5
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1465'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
@@ -39,7 +41,7 @@ Ein Unternehmen ist eine Organisationseinheit in [!DNL Adobe Workfront], die Ihr
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] Lizenz</p> </td> 
-   <td><p>[!UICONTROL -Plan]</p>
+   <td><p>[!UICONTROL Plan]</p>
    <p>[!UICONTROL Standard]</p>
    </td> 
   </tr> 
@@ -63,7 +65,7 @@ Ein Unternehmen ist eine Organisationseinheit in [!DNL Adobe Workfront], die Ihr
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -99,7 +101,7 @@ So fügen Sie eine Firma hinzu oder bearbeiten sie:
 
 1. Wenn Sie eine Firma hinzufügen möchten, klicken Sie auf **[!UICONTROL Neue Firma]**.
 
-   Oder
+   ODER
 
    Wenn Sie eine vorhandene Firma bearbeiten, wählen Sie die Firma aus und klicken Sie dann oben in der Liste der Firmen auf **[!UICONTROL Bearbeiten]** Symbol ![Bearbeiten](assets/edit-icon.png).
 
@@ -151,7 +153,7 @@ So fügen Sie eine Firma hinzu oder bearbeiten sie:
 
    Eine Liste der Unternehmen wird angezeigt.
 
-1. Aktivieren Sie das Kontrollkästchen neben dem Unternehmen, das Sie löschen möchten, und klicken Sie dann oben auf ![&#x200B; Seite auf das Symbol „Löschen](assets/delete-icon.png) „Löschen“.
+1. Aktivieren Sie das Kontrollkästchen neben dem Unternehmen, das Sie löschen möchten, und klicken Sie dann oben auf ![ Seite auf das Symbol „Löschen](assets/delete-icon.png) „Löschen“.
 1. Wenn Sie ein Unternehmen löschen, das als Primäres Unternehmen festgelegt ist oder in einem anderen Objekt verwendet wird, wählen Sie ein Unternehmen aus, das das zu löschende Unternehmen ersetzen soll. Das ausgewählte Unternehmen wird zum Primären Unternehmen oder ersetzt das gelöschte Unternehmen durch die Objekte, denen das Unternehmen zugewiesen ist.
 1. Klicken Sie auf **Löschen**.
 
@@ -183,7 +185,8 @@ Informationen dazu, wie Benutzer administrativen Zugriff auf Unternehmen in ihre
 
 Informationen zum Verwalten eines Unternehmens im Bereich [!UICONTROL Setup] finden Sie unter [Erstellen oder Bearbeiten eines Unternehmens in [!DNL Workfront]](#create-or-edit-a-company-in-workfront) in diesem Artikel.
 
-<!-- OLD HTML TABLE
+<!--
+ OLD HTML TABLE
 <table style="table-layout:auto"> 
     <col> 
     <col> 

@@ -6,7 +6,9 @@ description: Ihr Adobe Workfront-Administrator gewährt Benutzern Zugriff zum An
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 7%
@@ -19,13 +21,13 @@ ht-degree: 7%
 
 Ihr Adobe Workfront-Administrator gewährt Benutzern Zugriff zum Anzeigen oder Bearbeiten von Berichten, wenn sie Zugriffsebenen zuweisen. Weitere Informationen zum Gewähren des Zugriffs auf Probleme finden Sie unter [Gewähren des Zugriffs auf Berichte, Dashboards und Kalender](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
-Neben der Zugriffsebene, die Benutzern gewährt wird, können Sie ihnen auch Berechtigungen zum Anzeigen oder Verwalten bestimmter Berichte erteilen, auf die Sie Zugriff haben, um sie freizugeben. Weitere Informationen zu Zugriffsebenen und Berechtigungen finden Sie unter [Zusammenwirken von Zugriffsebenen und Berechtigungen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+Neben der Zugriffsebene, die Benutzern gewährt wird, können Sie ihnen auch Berechtigungen zum Anzeigen oder Verwalten bestimmter Berichte erteilen, auf die Sie Zugriff haben. Weitere Informationen zu Zugriffsebenen und Berechtigungen finden Sie unter [Funktionsweise von Zugriffsebenen und Berechtigungen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
-Berechtigungen gelten für ein Element in Workfront und definieren, welche Aktionen für dieses Element ausgeführt werden können.
+Berechtigungen sind für ein Element in Workfront spezifisch und definieren, welche Aktionen man für dieses Element ausführen kann.
 
 >[!NOTE]
 >
->Ein Workfront-Administrator kann Berechtigungen für alle Elemente im System hinzufügen oder entfernen, ohne der Eigentümer dieser Elemente zu sein.
+>Ein Workfront-Administrator kann für alle Benutzenden Berechtigungen zu Elementen im System hinzufügen oder entfernen, ohne Besitzer dieser Elemente zu sein.
 
 ## Zugriffsanforderungen
 
@@ -48,11 +50,11 @@ Berechtigungen gelten für ein Element in Workfront und definieren, welche Aktio
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards, Kalender oder höher anzeigen</p></td> 
+   <td> <p>Anzeigen des Zugriffs auf Berichte, Dashboards, Kalender oder höher</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für den Bericht anzeigen oder höher</p></td> 
+   <td> <p>Anzeigen von Berechtigungen oder höher für den Bericht</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -61,26 +63,26 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 +++
 
-## Überlegungen zum Freigeben von Berichten
+## Überlegungen zur Freigabe von Berichten
 
-Zusätzlich zu den folgenden Überlegungen finden Sie weitere Informationen unter [Berichte, Dashboards und Kalender freigeben](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
+Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informationen unter [Freigeben von Berichten, Dashboards und Kalendern](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
-* Sie können Berichte, die Sie erstellen, mit anderen Personen, Teams, Gruppen, Arbeitsrollen oder Unternehmen teilen. Sie können auch Berichte freigeben, die andere erstellt haben und die für Sie freigegeben wurden.
+* Sie können von Ihnen erstellte Berichte für andere Personen, Teams, Gruppen, Aufgabengebiete oder Unternehmen freigeben. Sie können auch Berichte freigeben, die andere erstellt haben und die für Sie freigegeben wurden.
 * Sie können Berichte für Ihr gesamtes Unternehmen freigeben oder sie veröffentlichen. Wenn Sie einen Bericht veröffentlichen, wird eine URL generiert, die für andere freigegeben werden kann.
 * Sie können einen einzelnen Bericht freigeben oder mehrere Berichte aus einer Berichtsliste freigeben.
 
-## Möglichkeiten zur Weitergabe von Berichten
+## Möglichkeiten zum Freigeben von Berichten
 
-Sie können Berichte in Workfront auf folgende Weise freigeben:
+Sie können Berichte in Workfront wie folgt freigeben:
 
-* Manuell, wie im Abschnitt [Bericht freigeben](#share-a-report) unten beschrieben.
-* Automatisch, indem Sie Anzeigeberechtigungen von einem Dashboard erben, das den freigegebenen Bericht enthält. Informationen zum Anzeigen von geerbten Berechtigungen für Objekte finden Sie unter [Anzeigen von geerbten Berechtigungen für Objekte](../../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+* Manuell, wie im Abschnitt [Freigeben eines Berichts](#share-a-report) unten beschrieben.
+* Automatisch durch Vererbung der Ansichtsberechtigungen von einem Dashboard, das den freigegebenen Bericht enthält. Weitere Informationen zum Anzeigen geerbter Berechtigungen für Objekte finden Sie unter [Anzeigen geerbter Berechtigungen für Objekte](../../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
 
-## Einen Bericht freigeben {#share-a-report}
+## Freigeben eines Berichts {#share-a-report}
 
-Das Freigeben eines oder mehrerer Berichte in einer Liste ist identisch.
+Die Freigabe eines Berichts oder mehrerer Berichte aus einer Liste ist identisch.
 
-1. Wechseln Sie zu einer Liste von Berichten, wählen Sie einen oder mehrere Berichte aus, klicken Sie dann auf das Symbol **Freigeben** ![Freigeben](assets/share-icon.png).
+1. Gehen Sie zu einer Berichtsliste und wählen Sie einen oder mehrere Berichte aus. Klicken Sie dann auf das **Freigeben**-Symbol ![Freigeben](assets/share-icon.png).
 
    ODER
 
@@ -88,7 +90,7 @@ Das Freigeben eines oder mehrerer Berichte in einer Liste ist identisch.
 
    ![Freigabeoption](assets/unshimmed-report-actions-sharing.png)
 
-1. Geben Sie im Feld **Berichtszugriff auf** gewähren den Namen des Benutzers, des Teams, der Rolle des Jobs, der Gruppe oder des Unternehmens ein, für den bzw. das Sie den Bericht freigeben möchten, und wählen Sie ihn dann aus, wenn er angezeigt wird.
+1. Beginnen Sie im Feld **Zugriff auf Bericht gewähren** mit der Eingabe des Namens der Person, des Teams, des Aufgabengebiets, der Gruppe oder des Unternehmens, für die bzw. das Sie den Bericht freigeben möchten, und wählen Sie ihn aus, wenn er angezeigt wird.
 
 1. Um die Zugriffsebene für einen hinzugefügten Namen anzupassen, klicken Sie auf das Dropdown-Menü rechts neben dem Namen und wählen Sie dann eine der folgenden Optionen aus.
 
@@ -98,11 +100,11 @@ Das Freigeben eines oder mehrerer Berichte in einer Liste ist identisch.
     <tbody> 
      <tr> 
       <td role="rowheader">Ansicht</td> 
-      <td> <p>Ermöglicht es Ihrem Empfänger, den Bericht im Bereich <strong>Berichte</strong> anzuzeigen und auszuführen.</p> <p>Sie können rechts auf das Symbol <strong>Erweiterte Einstellungen</strong> klicken, um anzugeben, ob der Benutzer oder die Benutzer die <strong>Erweiterte Einstellungen</strong> für andere Benutzer im System freigeben können sollen.</p> </td> 
+      <td> <p>Ermöglicht es dem Empfänger, den Bericht im Bereich <strong>Berichte</strong> anzuzeigen und auszuführen.</p> <p>Sie können auf das Symbol <strong>Erweiterte Einstellungen</strong> rechts klicken, um anzugeben, ob der Benutzer oder die Benutzer es für jeden im System <strong>freigeben</strong> können sollen.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Verwalten</td> 
-      <td> <p>Der Empfänger hat vollständigen Zugriff auf den Bericht.</p> <p>Sie können auf das Symbol <strong>Erweiterte Einstellungen</strong> rechts klicken, um anzugeben, ob der/die Benutzende den Bericht aus dem System <strong>Löschen</strong> und für <strong> im System </strong> können soll.</p> </td> 
+      <td> <p>Ermöglicht dem Empfänger vollen Bearbeitungszugriff auf den Bericht.</p> <p>Sie können auf das Symbol <strong>Erweiterte Einstellungen</strong> rechts klicken, um anzugeben, ob der/die Benutzende den Bericht aus dem System <strong>Löschen</strong> und für <strong> im System </strong> können soll.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -112,7 +114,7 @@ Das Freigeben eines oder mehrerer Berichte in einer Liste ist identisch.
 
    * **Nur eingeladene Personen können zugreifen**: Wählen Sie diese Option, damit nur Benutzer, denen Zugriff auf den Bericht gewährt wurde, ihn anzeigen können.
 
-   * **Jeder im System kann anzeigen**: Wählen Sie diese Option aus, damit jeder in Workfront mit Zugriff auf Berichte den Bericht anzeigen kann.
+   * **Alle im System können anzeigen**: Wählen Sie diese Option aus, damit jeder in Workfront, der Zugriff auf Berichte hat, den Bericht anzeigen kann.
 
 1. (Optional) Klicken Sie auf **Zahnrad**-Symbol ![Zahnradsymbol-Einstellungen](assets/gear-icon-settings-with-dn-arrow.jpg) in der oberen rechten Ecke des Freigabefelds und wählen Sie dann optional die folgende Option:
 
@@ -124,6 +126,6 @@ Das Freigeben eines oder mehrerer Berichte in einer Liste ist identisch.
 
      >[!NOTE]
      >
-     >Wenn für den Bericht eine Eingabeaufforderung vorhanden ist und Sie ihn öffentlich freigeben, können Benutzende, die den Bericht über den öffentlichen Freigabe-Link ausführen, den Bericht nicht über die Eingabeaufforderung ausführen. Sie sehen den Bericht ohne die darauf angewendete Aufforderung, es sei denn, sie melden sich bei Workfront an und greifen auf den Bericht zu, ohne den öffentlichen Freigabelink zu verwenden. Weitere Informationen zu den Einschränkungen bei der Freigabe von Berichten mit Eingabeaufforderungen finden Sie im Abschnitt [Einschränkungen bei der Freigabe von Berichten mit Eingabeaufforderung](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) im Artikel [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+     >Wenn für den Bericht eine Eingabeaufforderung vorhanden ist und Sie ihn öffentlich freigeben, können Benutzende, die den Bericht über den öffentlichen Freigabe-Link ausführen, den Bericht nicht über die Eingabeaufforderung ausführen. Der Bericht wird ohne Eingabeaufforderung angezeigt, es sei denn, der Benutzer meldet sich bei Workfront an und greift auf den Bericht zu, ohne den öffentlichen Freigabe-Link zu verwenden. Weitere Informationen zu den Einschränkungen bei der Freigabe von Berichten mit Eingabeaufforderungen finden Sie im Abschnitt [Einschränkungen bei der Freigabe ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) Berichten) im Artikel [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 1. Klicken Sie auf **Speichern**.

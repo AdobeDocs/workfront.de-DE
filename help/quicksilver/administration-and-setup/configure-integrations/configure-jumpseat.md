@@ -8,7 +8,9 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Courtney, Becky
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 21%
@@ -75,7 +77,7 @@ Es wird empfohlen, sowohl in der Vorschau- als auch in der Produktionsumgebung e
 
 >[!TIP]
 >
->Sie müssen zwei separate [!DNL Workfront]-Anwendungen in [!DNL JumpSeat] hinzufügen und aktivieren - eine für die Vorschau und eine für die Produktion. Weitere [&#x200B; finden Sie unter „Hinzufügen oder &#x200B;](https://support.jumpseat.io/article/how-to-add-an-application/) einer Anwendung“.
+>Sie müssen zwei separate [!DNL Workfront]-Anwendungen in [!DNL JumpSeat] hinzufügen und aktivieren - eine für die Vorschau und eine für die Produktion. Weitere [ finden Sie unter „Hinzufügen oder ](https://support.jumpseat.io/article/how-to-add-an-application/) einer Anwendung“.
 
 So konfigurieren Sie die [!DNL JumpSeat]:
 
@@ -90,7 +92,7 @@ So konfigurieren Sie die [!DNL JumpSeat]:
 
 https://{mycompanyname}.jumpSeat.io
 
-&#x200B;>>
+>>
 
 >[!ENDSHADEBOX]
 

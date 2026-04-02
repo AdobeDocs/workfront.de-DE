@@ -6,7 +6,9 @@ description: Sie können schnell eine neue Story oder ein Problem direkt über d
 author: Courtney
 feature: Agile
 exl-id: d4eec3c5-8cea-467f-b1b4-3f9fab57b10f
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 11%
@@ -19,7 +21,7 @@ Sie können schnell eine neue Story oder ein Problem direkt über das Scrum-Boar
 
 >[!NOTE]
 >
->Die Arbeitsaufgabe [!UICONTROL Geplantes Startdatum] und [!UICONTROL Geplantes Abschlussdatum] sind von einer Einstellung auf der Seite [!UICONTROL Team bearbeiten] betroffen. Weitere Informationen finden Sie im Abschnitt [[!UICONTROL Konfigurieren], wie Datumsangaben beim Hinzufügen von Arbeitselementen zu einer Iteration angewendet werden](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) im Artikel [Konfigurieren von Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+>Die Einstellungen [!UICONTROL  Arbeitselement ]Geplantes Startdatum) und [!UICONTROL Geplantes Abschlussdatum] werden von einer Einstellung auf der Seite [!UICONTROL Team bearbeiten] beeinflusst. Weitere Informationen finden Sie im Abschnitt [[!UICONTROL Konfigurieren], wie Datumsangaben beim Hinzufügen von Arbeitselementen zu einer Iteration angewendet werden](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) im Artikel [Konfigurieren von Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Zugriffsanforderungen
 
@@ -87,5 +89,5 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Symbol Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Scrum-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 1. Wählen Sie im linken Bereich **[!UICONTROL Iterationen]**, um eine bestimmte Iteration auszuwählen, oder wählen Sie **[!UICONTROL Aktuelle Iteration]**.
 1. Klicken Sie **[!UICONTROL Hinzufügen]** auf der rechten Seite des Scrum-Boards und wählen Sie **[!UICONTROL Vorhandene Story]** oder **[!UICONTROL Vorhandenes Problem]**.
-1. Beginnen Sie im Dialogfeld &quot;**[!UICONTROL Vorhandenen aus Rückstand hinzufügen]**&quot; mit der Eingabe des Namens eines Textabschnitts oder Problems, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
-1. Klicken Sie auf **[!UICONTROL Story hinzufügen]** oder **[!UICONTROL Problem hinzufügen]**.
+1. Beginnen Sie **[!UICONTROL Dialogfeld „Vorhandenes aus]** hinzufügen“ mit der Eingabe des Namens einer Story oder eines Problems und wählen Sie diese aus, wenn sie in der Liste angezeigt wird.
+1. Klicken Sie **[!UICONTROL Story hinzufügen]** oder **[!UICONTROL Problem hinzufügen]**.

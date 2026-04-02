@@ -2,19 +2,21 @@
 content-type: reference
 product-area: projects
 navigation-topic: convert-issues
-title: Übersicht über das Auflösen und das Auflösen von Objekten
+title: Überblick über problemlösende und lösbare Objekte
 description: Ein lösbares Objekt ist ein Problem, dessen Auflösung an ein Lösungsobjekt gebunden ist. Ein Lösungsobjekt ist ein Projekt, eine Aufgabe oder ein anderes Problem.
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1760'
 ht-degree: 2%
 
 ---
 
-# Übersicht über das Auflösen und das Auflösen von Objekten
+# Überblick über problemlösende und lösbare Objekte
 
 <!-- Audited: 08/2025 -->
 
@@ -38,7 +40,8 @@ Sie können auswählen, ob das auflösbare Objekt beim Konvertieren in eine Aufg
 
 Informationen zum Einrichten von Voreinstellungen für die Verarbeitung von lösbaren Objekten finden Sie unter [Systemweite Voreinstellungen für Aufgaben und Probleme konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-<!--WRITER
+<!--
+WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Note: drafted and just pointed the user to the article linked above) </p>
 <p>To establish the system default for what happens to the issue as it is being converted to a task or a project:</p>
@@ -88,7 +91,8 @@ Die folgenden Szenarien sind vorhanden:
 
 Weitere Informationen zum Konvertieren von Problemen in Aufgaben und Projekte finden Sie unter [Übersicht über das Konvertieren von Problemen in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-<!--WRITER
+<!--
+WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Tie the resolution of an issue to a project, task or </h2> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: created new article for this section; draft when the article is live and see if you need to make a link from this one to the new article) </p>

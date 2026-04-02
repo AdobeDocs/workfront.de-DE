@@ -8,10 +8,12 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2213'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -28,7 +30,7 @@ In diesem Artikel wird beschrieben, wie Sie globale Genehmigungsprozesse auf Sys
 Informationen zu Genehmigungen, die mit Dokumenten oder Korrekturabzügen verbunden sind, finden Sie in den folgenden Artikeln:
 
 * [Dokumentgenehmigungen anfordern](../../../review-and-approve-work/manage-approvals/request-document-approvals.md)
-* [Automatisierter Workflow - Übersicht](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
+* [Überblick über den automatisierten Workflow](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
 
 >[!NOTE]
 >
@@ -38,11 +40,11 @@ Informationen zu Genehmigungen, die mit Dokumenten oder Korrekturabzügen verbun
 >
 >Auf Gruppenebene ist ein globaler Genehmigungsprozess auf Arbeitselemente und Status beschränkt, die zu der Gruppe gehören.
 >
->Informationen zu einmaligen Genehmigungsprozessen finden Sie unter [Übersicht über Genehmigungsprozesse](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md) und [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit &#x200B;](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+>Informationen zu einmaligen Genehmigungsprozessen finden Sie unter [Übersicht über Genehmigungsprozesse](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md) und [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit ](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,7 +62,7 @@ Informationen zu Genehmigungen, die mit Dokumenten oder Korrekturabzügen verbun
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p>
- <p>Plan</p> 
+ <p>Abo</p> 
 </td> 
   </tr> 
   <tr> 
@@ -75,7 +77,8 @@ Informationen zu Genehmigungen, die mit Dokumenten oder Korrekturabzügen verbun
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,7 +104,8 @@ Informationen zu Genehmigungen, die mit Dokumenten oder Korrekturabzügen verbun
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 
 ## Erstellen eines globalen Genehmigungsprozesses auf Systemebene oder Gruppenebene für Arbeitselemente
@@ -110,11 +114,12 @@ For more detail about the information in this table, see [Access requirements in
 
 1. (Bedingt) Wenn Sie einen Genehmigungsprozess auf Systemebene erstellen, klicken Sie im linken Bereich auf **Prozesse** > **Genehmigungen**.
 
-   Oder
+   ODER
 
-   Wenn Sie einen Genehmigungsprozess auf Gruppenebene erstellen, klicken Sie auf **Gruppen** ![Symbol &#x200B;](assets/groups-icon.png), klicken Sie auf den Namen der Gruppe und dann auf **Genehmigungen**.
+   Wenn Sie einen Genehmigungsprozess auf Gruppenebene erstellen, klicken Sie auf **Gruppen** ![Symbol ](assets/groups-icon.png), klicken Sie auf den Namen der Gruppe und dann auf **Genehmigungen**.
 
-   <!--hidden for the new tab redesign - August 2023: 
+   <!--
+   hidden for the new tab redesign - August 2023: 
    ![Approvals area in setup](assets/approvals-area-in-setup-processes.png)
    -->
 
@@ -207,7 +212,7 @@ For more detail about the information in this table, see [Access requirements in
       <td> <p>Wählen Sie diese Option aus, wenn eine der genehmigenden Personen in der Phase das Arbeitselement in dieser Phase genehmigen oder ablehnen kann. Diese Aktion ermöglicht es dem Arbeitselement, die Phase zu verlassen. </p> <p>Wenn diese Option nicht ausgewählt ist, müssen alle identifizierten genehmigenden Personen die Phase (in beliebiger Reihenfolge) genehmigen oder ablehnen, bevor das Element die Phase verlässt. Wenn eine der genehmigenden Personen das Stadium ablehnt, wird der Prozess unterbrochen und von vorne gestartet, damit die erforderlichen Änderungen vorgenommen werden können. Die genehmigenden Personen können die Phase dann erneut genehmigen oder ablehnen.</p> <p>Wenn ein Team als genehmigende Person benannt wird, kann jedes Teammitglied einen Schritt gewähren oder ablehnen.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p role="rowheader">Phase hinzufügen</p> </td> 
+      <td role="rowheader"> <p role="rowheader">Schritt hinzufügen</p> </td> 
       <td><p>(Optional) Fügen Sie dem Pfad einen weiteren Schritt hinzu, indem Sie die Optionen verwenden, die in den drei obigen Zeilen erläutert werden. Sie können dem Pfad so viele Phasen hinzufügen, wie Sie benötigen.</p></td> 
      </tr> 
      <tr> 
@@ -255,6 +260,6 @@ Anweisungen zum Verknüpfen eines Genehmigungsprozesses mit einem Arbeitselement
 
 ## Benutzer können globale Genehmigungsprozesse für ein einzelnes Arbeitselement ändern
 
-Standardmäßig können Benutzende mit Verwaltungsberechtigungen für Projekte, Aufgaben und Probleme Genehmigungsprozesse für den einmaligen Gebrauch erstellen. Informationen zum Hinzufügen von einmaligen Genehmigungsprozessen zu Projekten, Aufgaben und Problemen finden Sie im Abschnitt [Verknüpfen eines einmaligen Genehmigungsprozesses mit einem Projekt, einer Aufgabe, einem Problem, einer Vorlage oder einer Vorlagenaufgabe](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#creating-a-single-use-approval-process) im Artikel [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit &#x200B;](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+Standardmäßig können Benutzende mit Verwaltungsberechtigungen für Projekte, Aufgaben und Probleme Genehmigungsprozesse für den einmaligen Gebrauch erstellen. Informationen zum Hinzufügen von einmaligen Genehmigungsprozessen zu Projekten, Aufgaben und Problemen finden Sie im Abschnitt [Verknüpfen eines einmaligen Genehmigungsprozesses mit einem Projekt, einer Aufgabe, einem Problem, einer Vorlage oder einer Vorlagenaufgabe](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md#creating-a-single-use-approval-process) im Artikel [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit ](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
-Benutzer können auch Einstellungen für globale Genehmigungsprozesse ändern, die mit einem Arbeitselement verknüpft sind. Diese Änderungen wirken sich nur auf das Projekt, die Aufgabe oder das Problem aus, das mit dem Genehmigungsprozess auf Systemebene verknüpft ist. Weitere Informationen finden Sie im Abschnitt „Ändern eines globalen Genehmigungsprozesses zur Verwendung für ein bestimmtes Objekt“ im Artikel &quot;[&#x200B; eines neuen oder vorhandenen Genehmigungsprozesses mit Arbeit &#x200B;](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+Benutzer können auch Einstellungen für globale Genehmigungsprozesse ändern, die mit einem Arbeitselement verknüpft sind. Diese Änderungen wirken sich nur auf das Projekt, die Aufgabe oder das Problem aus, das mit dem Genehmigungsprozess auf Systemebene verknüpft ist. Weitere Informationen finden Sie im Abschnitt „Ändern eines globalen Genehmigungsprozesses zur Verwendung für ein bestimmtes Objekt“ im Artikel &quot;[ eines neuen oder vorhandenen Genehmigungsprozesses mit Arbeit ](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).

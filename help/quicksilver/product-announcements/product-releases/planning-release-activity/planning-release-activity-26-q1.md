@@ -1,20 +1,22 @@
 ---
 content-type: release-notes
-title: Versionsaktivität für Adobe Workfront Planning im ersten Quartal 2026
+title: Veröffentlichungen für Adobe Workfront-Planung im ersten Quartal 2026
 description: Dies ist die Veröffentlichungsaktivität für das Adobe Workfront Planning-Produkt im ersten Quartal 2026.
 author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: af1a54ea-1717-45fa-bb94-55774eb28f28
-source-git-commit: 699add479d958b9f3fc01ae30513ddf6689620f1
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2017'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
-# Versionsaktivität für Adobe Workfront Planning im ersten Quartal 2026
+# Veröffentlichungen für Adobe Workfront-Planung im ersten Quartal 2026
 
 In diesem Artikel werden die Funktionen beschrieben, die in der Version vom ersten Quartal 2026 für Workfront Planning veröffentlicht werden.
 
@@ -30,7 +32,7 @@ Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen find
 >Vorschau: 15. Januar 2026
 >Produktions-Schnellveröffentlichung: 15. Januar 2026
 >Produktion für alle: 15. Januar 2026
->[!BADGE Aus dem Zeitplan]{type=Neutral}
+>[!BADGE Außerplanmäßig]{type=Neutral}
 
 Sie können jetzt globale Datensatztypen freigeben, die Sie einem sekundären Arbeitsbereich aus diesem Arbeitsbereich hinzugefügt haben. Benutzer erhalten dieselben Berechtigungen für alle Datensätze im sekundären Arbeitsbereich, den Sie freigeben.
 
@@ -50,7 +52,7 @@ Weitere Informationen finden Sie [Übersicht über Workspace-übergreifende Date
 >Vorschau: 15. Januar 2026
 >Produktions-Schnellveröffentlichung: 15. Januar 2026
 >Produktion für alle: 15. Januar 2026
->[!BADGE Aus dem Zeitplan]{type=Neutral}
+>[!BADGE Außerplanmäßig]{type=Neutral}
 
 Datensätze, die einem globalen Datensatztyp in einem sekundären Arbeitsbereich hinzugefügt wurden, sind nur in diesem Arbeitsbereich oder im ursprünglichen primären Arbeitsbereich des Datensatztyps sichtbar. Vor diesem Update waren Datensätze, die zu einem sekundären Arbeitsbereich hinzugefügt wurden, auch von anderen sekundären Arbeitsbereichen sichtbar, für die Sie möglicherweise über die Berechtigung zum Anzeigen verfügten.
 
@@ -60,7 +62,7 @@ Weitere Informationen finden Sie [Übersicht über Workspace-übergreifende Date
 
 >[!NOTE]
 >
->Vorschau: 23. Dezember 2025
+>Vorschau: Mittwoch, 23. Dezember 2025
 >Produktions-Schnellveröffentlichung: 14. Januar 2026
 >Produktion für alle: 15. Januar 2026
 
@@ -84,7 +86,7 @@ Weitere Informationen finden Sie unter [Hierarchie und Breadcrumb - Übersicht](
 
 >[!NOTE]
 >
->Vorschau: 23. Dezember 2025
+>Vorschau: Mittwoch, 23. Dezember 2025
 >Produktions-Schnellveröffentlichung: 14. Januar 2026
 >Produktion für alle: 15. Januar 2026
 
@@ -101,7 +103,7 @@ Weitere Informationen finden Sie unter [Hierarchie und Breadcrumb - Übersicht](
 
 >[!NOTE]
 >
->Vorschau: 19. Dezember 2025
+>Vorschau: Samstag, 19. Dezember 2025
 >Produktionsgeschwindigkeit: 14. Januar 2026
 >Produktion für alle: 15. Januar 2026
 
@@ -122,7 +124,7 @@ Weitere Informationen finden Sie unter [Hinzufügen einer verbundenen Datensatzs
 >Produktions-Schnellveröffentlichung: 14. Januar 2026\
 >Produktion für alle: 15. Januar 2026
 
-Um die Anzeige der benötigten Informationen zu vereinfachen, haben wir die Möglichkeit hinzugefügt, Ansichten auf der Seite „Verbundene Projektdatensätze“ freizugeben. Jetzt können Sie Ansichten mit anderen Benutzern, Teams oder Gruppen teilen.
+Um die Anzeige der benötigten Informationen zu vereinfachen, haben wir die Möglichkeit hinzugefügt, Ansichten auf der Seite „Verbundene Projektdatensätze“ freizugeben. Sie können jetzt Ansichten für andere Benutzende, Teams oder Gruppen freigeben.
 
 Weitere Informationen finden Sie unter [Hinzufügen einer verbundenen Datensatzseite zu einem Datensatz](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
@@ -134,11 +136,11 @@ Weitere Informationen finden Sie unter [Hinzufügen einer verbundenen Datensatzs
 >Produktions-Schnellveröffentlichung: 14. Januar 2026\
 >Produktion für alle: 15. Januar 2026
 
-Um das Filtern nach Projektverbindungen zu vereinfachen, die für Sie gelten, haben wir einen Platzhalter für aktuelle Benutzer erstellt. Jetzt können Sie beim Filtern „Ich (angemeldeter Benutzer)“ auswählen. Der Filter gilt dann für den Benutzer, der die Anfrageliste anzeigt.
+Um das Filtern nach Projektverbindungen zu vereinfachen, die für Sie gelten, haben wir einen Platzhalter für aktuelle Benutzer erstellt. Jetzt können Sie beim Filtern Folgendes auswählen: „Ich (angemeldete Person)“. Der Filter gilt dann für die Person, die die Anfrageliste anzeigt.
 
-Dies kann praktisch sein, wenn ein Filter zu einer Ansicht hinzugefügt wird, die von mehreren Benutzern verwendet wird. Jeder Benutzer sieht die Filterergebnisse, die für ihn gelten.
+Dies kann praktisch sein, wenn ein Filter zu einer Ansicht hinzugefügt wird, die von mehreren Benutzenden verwendet wird. Jeder Benutzer bzw. jede Benutzerin sieht die Filterergebnisse, die für ihn bzw. sie gelten.
 
-Der Platzhalter ist in Feldern verfügbar, in denen der Wert ein Benutzer ist.
+Der Platzhalter ist in Feldern verfügbar, in denen der Wert ein Benutzer bzw. eine Benutzerin ist.
 
 Weitere Informationen zum Konfigurieren von Projektverbindungsansichten, einschließlich Filtern, finden Sie unter [Hinzufügen einer Seite mit verbundenen Datensätzen zu einem Datensatz](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
 
@@ -163,7 +165,7 @@ An der Hauptseite für Arbeitsbereiche in Workfront Planning wurden folgende Ver
 
 * Die Registerkarte **Andere Arbeitsbereiche** wurde in &quot;**Arbeitsbereiche“** und enthält alle Arbeitsbereiche, für die Sie mindestens über die Berechtigung zum Anzeigen verfügen, einschließlich der von Ihnen erstellten.
 
-Weitere Informationen finden Sie unter [Arbeitsbereiche bearbeiten](/help/quicksilver/planning/architecture/edit-workspaces.md).
+Weitere Informationen finden Sie unter [Bearbeiten von Arbeitsbereichen](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
 
 ## Hinzufügen des Felds Markenverbindung zu Produkten und Rollen im GenStudio Workspace
@@ -173,7 +175,7 @@ Weitere Informationen finden Sie unter [Arbeitsbereiche bearbeiten](/help/quicks
 >Vorschau: 11. Dezember 2025
 >Produktions-Schnellveröffentlichung: 11. Dezember 2025
 >Produktion für alle: 11. Dezember 2025
->[!BADGE Aus dem Zeitplan]{type=Neutral}
+>[!BADGE Außerplanmäßig]{type=Neutral}
 
 Das Feld Verbindung zur Marke GenStudio for Performance Marketing wird jetzt standardmäßig zu den Datensatztypen „Produkte“ und „Personas“ im Arbeitsbereich &quot;GenStudio&quot; von Workfront Planning hinzugefügt.
 
@@ -190,7 +192,7 @@ Weitere Informationen finden Sie [Erste Schritte mit der Adobe Workfront Plannin
 >Vorschau: 11. Dezember 2025
 >Produktions-Schnellveröffentlichung: 11. Dezember 2025
 >Produktion für alle: 11. Dezember 2025
->[!BADGE Aus dem Zeitplan]{type=Neutral}
+>[!BADGE Außerplanmäßig]{type=Neutral}
 
 Wir haben einen Schutzmechanismus hinzugefügt, der verhindert, dass Berechtigungen von GenStudio for Performance Marketing-Benutzenden aus Workfront Planning-Objekten entfernt werden. Mit dieser Verbesserung können Sie GenStudio-Benutzende nicht mehr aus dem GenStudio-Arbeitsbereich in Planning entfernen. Ebenso können Sie keine geerbten Berechtigungen für Datensatztypen im GenStudio-Arbeitsbereich deaktivieren, wenn diese Berechtigungen GenStudio-Benutzende enthalten. Wenn Sie diese Benutzenden vor dieser Verbesserung aus GenStudio Workspace in Planning entfernt haben, verlieren sie auch die Berechtigungen für Datensatztypen in GenStudio.
 
@@ -204,8 +206,8 @@ Weitere Informationen finden Sie [Erste Schritte mit Adobe Workfront Planning un
 
 >[!NOTE]
 >
->Vorschau: 3. Dezember 2025
->Produktions-Schnellveröffentlichung: 4. Dezember 2025
+>Vorschau: Donnerstag, 3. Dezember 2025
+>Produktions-Schnellveröffentlichung: Freitag, 4. Dezember 2025
 >Produktion für alle: 15. Januar 2026
 
 
@@ -246,7 +248,7 @@ Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/qui
 
 >[!NOTE]
 >
->Vorschau: 16. Oktober 2025
+>Vorschau: Freitag, 16. Oktober 2025
 >Produktions-Schnellveröffentlichung: 13. November 2025
 >Produktion für alle: 15. Januar 2026
 
@@ -264,13 +266,13 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 
 * [Konfigurieren von arbeitsbereichsübergreifenden Datensatztyp-Funktionen](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
 
-* [Hinzufügen vorhandener Datensatztypen aus einem anderen Arbeitsbereich](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
+* [Hinzufügen vorhandener Eintragstypen aus einem anderen Arbeitsbereich](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
 
 ## Neues Limit für Verbindungsfelder für einen Datensatztyp
 
 >[!NOTE]
 >
->Vorschau: 16. Oktober 2025
+>Vorschau: Freitag, 16. Oktober 2025
 >Produktions-Schnellveröffentlichung: 13. November 2025
 >Produktion für alle: 15. Januar 2026
 
@@ -284,7 +286,7 @@ Weitere Informationen finden Sie unter [Übersicht über verbundene Datensatztyp
 
 >[!NOTE]
 >
->Vorschau: 16. Oktober 2025
+>Vorschau: Freitag, 16. Oktober 2025
 >Produktions-Schnellveröffentlichung: 13. November 2025
 >Produktion für alle: 15. Januar 2026
 

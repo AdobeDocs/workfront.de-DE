@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: create-projects
-title: Projekt anfordern
+title: Anfordern eines Projekts
 description: Sie können die Genehmigung eines Projekts beantragen, bevor Sie mit der Bearbeitung beginnen. Wir empfehlen, einen Business Case für ein neues Projekt zu erstellen, damit Sie einige der wichtigsten Punkte skizzieren können, die Sie durch den Abschluss erreichen möchten, und um Ihrem Management-Team Ihr Arbeits- und Kostenbudget vorzustellen. Durch das Ausfüllen des Business Case und das Einreichen des Projekts zur Genehmigung wird die formelle Anforderung für das Projekt abgeschlossen. Nachdem Sie den Business Case zur Genehmigung eingereicht haben, wird der Status des Projekts angefordert.
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '557'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
-# Projekt anfordern
+# Anfordern eines Projekts
 
 <!--Audited: 10/2025-->
 
@@ -65,11 +67,12 @@ Sie können ein Projekt anfordern, wenn Sie ein neues Projekt in den folgenden B
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -95,9 +98,10 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    <td> <p>When you create a project request you automatically receive Manage permissions to the project </p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
-## Projekt anfordern
+## Anfordern eines Projekts
 
 1. Führen Sie einen der folgenden Schritte aus:
 
@@ -118,7 +122,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    * Erstellen Sie ein Projekt von Grund auf oder mithilfe einer Vorlage und ändern Sie den Status in **angefordert**.
 
-     Weitere Informationen finden Sie unter [Erstellen eines &#x200B;](../../../manage-work/projects/create-projects/create-project.md) oder [Erstellen eines Projekts mithilfe einer Vorlage](../../../manage-work/projects/create-projects/create-project-from-template.md).
+     Weitere Informationen finden Sie unter [Erstellen eines ](../../../manage-work/projects/create-projects/create-project.md) oder [Erstellen eines Projekts mithilfe einer Vorlage](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
    Das angeforderte Projekt hat den Status **angefordert** und wird auf der Registerkarte **Angeforderte Projekte** einer Portfolio angezeigt, wenn Sie es mit einer Portfolio verknüpft haben.
 

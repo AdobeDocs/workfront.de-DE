@@ -7,10 +7,12 @@ description: Sie können konfigurieren, welche Informationen sowohl im Gantt-Dia
 author: Alina
 feature: Work Management
 exl-id: 465365a2-d94b-47b6-a393-16770fca2714
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '838'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
@@ -22,7 +24,7 @@ Sie können konfigurieren, welche Informationen sowohl im Gantt-Diagramm für di
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -50,12 +52,13 @@ Sie können konfigurieren, welche Informationen sowohl im Gantt-Diagramm für di
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -81,7 +84,8 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    <td> <p>[!UICONTROL View] or higher access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Grundlegendes zu Anzeigeoptionen
 
@@ -95,10 +99,10 @@ In der folgenden Tabelle sind die Anzeigeoptionen für das [!UICONTROL Gantt-Dia
   <tr> 
    <td role="rowheader">Tatsächliche Termine</td> 
    <td> <img src="assets/actual-dates-in-gantt-183x213.png" alt="actual_dates_in_gant.png" style="width: 183;height: 213;"> </td> 
-   <td> <p>[!UICONTROL Tatsächliches Startdatum] und [!UICONTROL Tatsächliches Abschlussdatum] werden mit einem Dreieckssymbol angezeigt. Wenn das tatsächliche Abschlussdatum von  null ist, wird nur das tatsächliche Startdatum von  angezeigt.</p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">Übersicht über das Projekt [!UICONTROL Tatsächliches Abschlussdatum] </a> und <a href="../../../manage-work/projects/planning-a-project/project-actual-start-date.md" class="MCXref xref">Übersicht über das Projekt [!UICONTROL Tatsächliches Startdatum] </a>.</p> </td> 
+   <td> <p>[!UICONTROL Tatsächliches Startdatum] und [!UICONTROL Tatsächliches Abschlussdatum] werden mit einem Dreieckssymbol angezeigt. Wenn das tatsächliche Abschlussdatum von [!UICONTROL] null ist, wird nur das tatsächliche Startdatum von [!UICONTROL] angezeigt.</p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">Übersicht über das Projekt [!UICONTROL Tatsächliches Abschlussdatum] </a> und <a href="../../../manage-work/projects/planning-a-project/project-actual-start-date.md" class="MCXref xref">Übersicht über das Projekt [!UICONTROL Tatsächliches Startdatum] </a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL -Zuweisungen]</td> 
+   <td role="rowheader">[!UICONTROL Arbeitsaufträge]</td> 
    <td> <img src="assets/assignments-in-gantt-312x203.png" alt="assignments_in_gant.png" style="width: 312;height: 203;"> </td> 
    <td> <p>Zeigt die Aufgabenzugewiesenen an. Bewegen Sie den Mauszeiger über den Link Details neben dem Namen des Verantwortlichen, um genauere Informationen über ihn anzuzeigen, einschließlich des Prozentsatzes seiner Zuordnung zur Aufgabe.</p> <p>Bevollmächtigte Personen werden nicht im [!UICONTROL Gantt-Diagramm] angezeigt, wenn das [!UICONTROL Gantt-Diagramm] nach PDF exportiert wird. Wenn das [!UICONTROL Gantt-Diagramm] nach PDF exportiert wird, werden die Verantwortlichen nur in der Aufgabenliste angezeigt.</p> </td> 
   </tr> 
@@ -108,7 +112,7 @@ In der folgenden Tabelle sind die Anzeigeoptionen für das [!UICONTROL Gantt-Dia
    <td> <p>Ein Projekt-Snapshot, der die wichtigsten Daten über das Projekt darstellt, die im ursprünglichen Projektplan enthalten sind. Baselines können über die gesamte Zeitleiste des Projekts erstellt werden. Wenn Sie die Anzeige von Baselines im [!UICONTROL Gantt-Diagramm] aktivieren, wählen Sie die Baseline aus, die Sie anzeigen möchten. Sie können jeweils nur eine Baseline auf dem [!UICONTROL Gantt-Diagramm] anzeigen. Sie wird in Form eines grauen Balkens angezeigt.</p> <p>Weitere Informationen zu Baselines finden Sie unter <a href="../../../manage-work/projects/create-projects/create-baselines.md" class="MCXref xref">Erstellen von </a>).</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Commit-Datum]</td> 
+   <td role="rowheader">[!UICONTROL Verpflichtungsdatum]</td> 
    <td> <img src="assets/commit-dates-sandbox-243x226.png" alt="commit_dates_sandbox.png" style="width: 243;height: 226;"> </td> 
    <td> <p>Das Datum, das ein Verantwortlicher als Zusage für den Zeitpunkt gibt, zu dem die Aufgabe abgeschlossen wird, wird mit einer Markierung im [!UICONTROL Gantt-Diagramm] angezeigt. </p> <p>Weitere Informationen zu Commit-Terminen finden Sie unter <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">[!UICONTROL Commit Date] - Übersicht</a>.</p> </td> 
   </tr> 
@@ -138,9 +142,9 @@ In der folgenden Tabelle sind die Anzeigeoptionen für das [!UICONTROL Gantt-Dia
    <td> <p>Eine Linie zwischen zwei Aufgaben, die die Vorgängerbeziehung zwischen den beiden Aufgaben anzeigt. Um eine einzelne Vorgängerlinie hervorzuheben, bewegen Sie den Mauszeiger darüber. Klicken Sie darauf, um sie hervorgehoben zu halten. Sie können jeweils nur eine Vorgängerzeile markieren.</p> <p>Ein [!UICONTROL Vorgänger]-Symbol wird neben einer Aufgabe angezeigt, die eine Vorgängerbeziehung aufweist, die mehrere Seiten im Gantt-Diagramm umfasst, oder bei einer Aufgabe, die einen projektübergreifenden Vorgänger hat.</p> <p>Klicken Sie auf das Symbol [!UICONTROL Vorgänger], um alle Vorgänger- und Nachfolgeaufgaben und ihre Details anzuzeigen, z. B. Aufgabenname, Typ der Vorgängerbeziehung und wichtige Daten.</p> <p>Hinweis: Das [!UICONTROL Gantt-Diagramm] in einer Liste von Projekten zeigt Informationen zu projektübergreifenden Vorgängern an. Weitere Informationen zum Erstellen von Vorgängerbeziehungen zwischen verschiedenen Projekten finden Sie <a href="../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md" class="MCXref xref">Erstellen von projektübergreifenden Vorgängern</a></p> <p>Weitere Informationen zu Vorgängern finden Sie unter <a href="../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md" class="MCXref xref">Erzwingen von </a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Verlaufsstatus]</td> 
+   <td role="rowheader">[!UICONTROL Fortschrittsstatus]</td> 
    <td> <p>[!UICONTROL on time] <img src="assets/task-on-time--oct.-2017.png" alt="task_on_time__oct._2017.png"></p> <p>[!UICONTROL dahinter]    <img src="assets/task-behind--oct.-2017.png" alt="task_Behind__Oct._2017.png"></p> <p>[!UICONTROL Gefährdet]    <img src="assets/task-at-risk.png" alt="task_at_risk.png"></p> <p>In Verzug        <img src="assets/task-late-oct.2017.png" alt="task_late_oct.2017.png"></p> </td> 
-   <td> <p> </p> <p>Der Status des aktuellen Fortschritts bei einer bestimmten Aufgabe. </p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Übersicht über den -Fortschrittsstatus</a>.</p> </td> 
+   <td> <p> </p> <p>Der Status des aktuellen Fortschritts bei einer bestimmten Aufgabe. </p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Übersicht über den [!UICONTROL-Fortschrittsstatus</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Voraussichtliche Termine</td> 
@@ -159,10 +163,10 @@ In der folgenden Tabelle sind die Anzeigeoptionen für das [!UICONTROL Gantt-Dia
 1. Klicken Sie auf **Symbol** Optionen“. Das **Optionen** wird geöffnet.\
    ![options.png](assets/options-350x129.png)
 
-1. Wählen Sie die Konfigurationsoptionen aus, die Sie im [!UICONTROL Gantt-Diagramm“ anzeigen &#x200B;].
+1. Wählen Sie die Konfigurationsoptionen aus, die Sie im [!UICONTROL Gantt-Diagramm“ anzeigen ].
 
    >[!NOTE]
    >
-   > Nicht alle Konfigurationsoptionen sind in der Projektliste (Gantt[!UICONTROL Diagramm) &#x200B;].
+   > Nicht alle Konfigurationsoptionen sind in der Projektliste (Gantt[!UICONTROL Diagramm) ].
 
 1. Klicken Sie auf eine beliebige Stelle im Gantt-Diagramm, um das Dialogfeld **Optionen** zu schließen.

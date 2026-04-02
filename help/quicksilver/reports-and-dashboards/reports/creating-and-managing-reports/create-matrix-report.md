@@ -2,11 +2,13 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Erstellen eines Matrix-Berichts
-description: Matrixberichte enthalten zusammenfassende Informationen in einem aggregierten Tabellenformat, sodass sie leichter anzuzeigen sind, als wenn sie in einer Liste wie in einem herkömmlichen Bericht angezeigt würden.
+description: Matrix-Berichte präsentieren zusammenfassende Informationen in aggregierter Tabellenform, wodurch die Anzeige einfacher wird, als wenn sie in einer Liste wie in einem herkömmlichen Bericht angezeigt würden.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 714f2802-089f-4a41-8205-f397cf474a24
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 4%
@@ -15,22 +17,22 @@ ht-degree: 4%
 
 # Erstellen eines Matrix-Berichts
 
-Matrixberichte enthalten zusammenfassende Informationen in einem aggregierten Tabellenformat, sodass sie leichter anzuzeigen sind, als wenn sie in einer Liste wie in einem herkömmlichen Bericht angezeigt würden.
+Matrix-Berichte präsentieren zusammenfassende Informationen in aggregierter Tabellenform, wodurch die Anzeige einfacher wird, als wenn sie in einer Liste wie in einem herkömmlichen Bericht angezeigt würden.
 
 ## Verwendung eines Matrixberichts
 
-Sie können einen Matrixbericht für jeden Bericht erstellen, der zwei oder mehr Gruppierungen enthält. Ein herkömmlicher Bericht kann bis zu drei Gruppierungen enthalten, ein Matrixbericht bis zu vier Gruppierungen.
+Sie können für jeden Bericht, der zwei oder mehr Gruppierungen enthält, einen Matrixbericht erstellen. Ein herkömmlicher Bericht kann bis zu 3 Gruppierungen enthalten, und ein Matrixbericht kann bis zu 4 Gruppierungen enthalten.
 
-Sie möchten z. B. einen Stundenbericht erstellen, der die protokollierten Stunden während eines dreimonatigen Zeitraums anzeigt, und Sie möchten, dass der Bericht danach organisiert wird, wer die Stunden eingegeben hat, sowie nach Monat und Woche.
+Beispiel: Sie möchten einen Stundenbericht erstellen, der die während eines Zeitraums von drei Monaten protokollierten Stunden ausgibt, und Sie möchten, dass der Bericht nach dem Eintritt der Stunden sowie nach Monat und Woche organisiert ist.
 
-![Übersicht der Berichtsmatrix](assets/report-matrix-overview-350x123.png)
+![Berichtsmatrix - Übersicht](assets/report-matrix-overview-350x123.png)
 
-## Wie Daten in einem Matrixbericht angezeigt werden
+## Anzeige von Daten in einem Matrixbericht
 
-Informationen im Matrixbericht werden immer als numerischer Wert angezeigt. In den meisten Fällen sind Spalten, die einen numerischen Wert enthalten, am besten für die Anzeige in einem Matrixbericht geeignet (z. B. protokollierte Stunden und tatsächliche Kosten).
+Informationen im Matrixbericht werden immer als numerischer Wert angezeigt. In den meisten Fällen sind Spalten mit einem numerischen Wert am besten für die Anzeige in einem Matrixbericht geeignet (z. B. protokollierte Stunden und Istkosten).
 
-Andere Spalten (z. B. Status) können jedoch weiterhin im Matrixbericht angezeigt werden, wie in der folgenden Grafik dargestellt:\
-![Matrixstatus](assets/report-matrix-status-350x73.png)
+Andere Spalten (z. B. Status ) können jedoch weiterhin im Matrixbericht angezeigt werden, wie in der folgenden Grafik dargestellt:\
+![Matrix-Status](assets/report-matrix-status-350x73.png)
 
 ## Zugriffsanforderungen
 
@@ -52,12 +54,12 @@ Andere Spalten (z. B. Status) können jedoch weiterhin im Matrixbericht angezeig
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfiguration auf Zugriffsebene</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten</p> <p>Bearbeitungszugriff auf Filter, Ansichten, Gruppierungen</p> </td> 
+   <td role="rowheader">Konfiguration der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
- <td> <p>Berechtigungen für einen Bericht verwalten</p></td>  
+ <td> <p>Verwalten von Berechtigungen für einen Bericht</p></td>  
   </tr> 
  </tbody> 
 </table>
@@ -66,73 +68,74 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 +++
 
-## Einrichten eines Matrixberichts
+## Matrixbericht einrichten
 
 1. Erstellen Sie einen herkömmlichen Bericht, der numerische Daten in der Berichtsausgabe enthält.\
    Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Wechseln Sie zu dem Bericht, den Sie in Schritt 1 erstellt haben, klicken Sie auf **Berichtsaktionen**, und wählen Sie dann **Bearbeiten**.
+1. Wechseln Sie zu dem Bericht, den Sie in Schritt 1 erstellt haben, klicken Sie auf **Berichtsaktionen** und wählen Sie dann **Bearbeiten** aus.
 
-1. (Bedingt) Wenn Sie bereits eine Ansicht erstellt haben und diese auf diesen Bericht anwenden möchten, klicken Sie auf **Vorhandene Ansicht anwenden** und wählen Sie dann die Ansicht aus der Dropdownliste aus.
+1. (Bedingt) Wenn Sie eine Ansicht bereits erstellt haben und Sie sie auf diesen Bericht anwenden möchten, klicken Sie auf **Vorhandene Ansicht anwenden** und wählen Sie dann die Ansicht aus der Dropdown-Liste aus.
 1. (Bedingt) Wenn Sie eine neue Ansicht für den Bericht erstellen möchten, führen Sie die folgenden Schritte aus:
 
-   1. Klicken Sie auf die Registerkarte **Spalten (Ansicht)** und wählen Sie dann eine Spalte aus, die Sie im Matrixbericht zusammenfassen möchten.
-   1. Klicken Sie im Bereich **Spalteneinstellungen** auf die Dropdownliste **Diese Spalte zusammenfassen nach**, und wählen Sie dann eine der verfügbaren Optionen zum Zusammenfassen der Informationen aus.
+   1. Klicken Sie auf **Spalten (Ansicht)** und wählen Sie dann eine Spalte aus, die Sie im Matrixbericht zusammenfassen möchten.
+   1. Klicken Sie im Bereich **Spalteneinstellungen** auf die Dropdown-Liste **Diese Spalte zusammenfassen nach** und wählen Sie dann eine der verfügbaren Optionen für die Zusammenfassung der Informationen aus.
 
       >[!IMPORTANT]
       >
-      >Wenn diese Option nicht aktiviert ist, werden die Informationen aus der Spalte im Matrixbericht nicht korrekt angezeigt.
+      >Wenn diese Option nicht ausgewählt ist, werden die Informationen aus der Spalte im Matrixbericht nicht korrekt angezeigt.
 
-      ![Zusammenfassung der Matrix](assets/qs-report-matrix-summarized-350x392.png)
+      ![Matrix zusammengefasst](assets/qs-report-matrix-summarized-350x392.png)
 
-   1. Wiederholen Sie diesen Vorgang für jede Spalte auf der Registerkarte &quot;Spalten (Ansicht)&quot; und klicken Sie dann auf **Fertig**.
+   1. Wiederholen Sie diesen Vorgang für jede Spalte auf der Registerkarte Spalten (Ansicht) und klicken Sie dann auf **Fertig**.
 
-1. Klicken Sie auf die Registerkarte **Gruppierungen**.
-1. (Bedingt) Wenn Sie bereits eine Gruppierung erstellt haben und diese auf diesen Bericht anwenden möchten, klicken Sie auf **Vorhandene Gruppierung anwenden**, und wählen Sie dann die Gruppierung aus der Dropdownliste aus.
-1. (Bedingt) Wenn Sie eine neue Matrixgruppierung für den Bericht erstellen möchten, führen Sie die folgenden Schritte aus:
+1. Klicken Sie auf **Registerkarte** Gruppierungen“.
+1. (Bedingt) Wenn Sie eine Gruppierung bereits erstellt haben und Sie sie auf diesen Bericht anwenden möchten, klicken Sie auf **Vorhandene Gruppierung anwenden** und wählen Sie die Gruppierung dann aus der Dropdown-Liste aus.
+1. (Bedingt) Wenn Sie eine neue Gruppierungsmatrix für den Bericht erstellen möchten, führen Sie die folgenden Schritte aus:
 
-   1. Wählen Sie **Zu Matrixgruppierung wechseln** in der oberen rechten Ecke der Builder-Schnittstelle aus.
-   1. Identifizieren Sie im Abschnitt **Zeilengruppierungen** die Zeilengruppierung, die die horizontalen Gruppierungen der Tabelle festlegt.
-   1. (Optional) Klicken Sie auf **Sekundäre Zeilengruppierung hinzufügen**, um eine zusätzliche Zeilengruppierung hinzuzufügen.
-   1. Identifizieren Sie im Abschnitt **Spaltengruppierungen** die Spaltengruppierung, die die vertikalen Gruppierungen der Tabelle festlegt.
+   1. Wählen **Zu Matrix-Gruppierung wechseln** in der oberen rechten Ecke der Builder-Benutzeroberfläche aus.
+   1. Identifizieren Sie **Abschnitt &quot;**&quot; die Zeilengruppierung, die die horizontalen Gruppierungen der Tabelle festlegt.
+   1. (Optional) Um eine zusätzliche Zeilengruppierung hinzuzufügen, klicken Sie auf **Sekundäre Zeilengruppierung hinzufügen**.
+   1. Geben Sie im Abschnitt **Spaltengruppierungen** die Spaltengruppierung an, die die vertikalen Gruppierungen der Tabelle festlegt.
    1. (Optional) Um eine zusätzliche Spaltengruppierung hinzuzufügen, klicken Sie auf **Sekundäre Spaltengruppierung hinzufügen**.
-   1. (Bedingt) Wenn Sie eine Gruppierung nach Datum hinzufügen, geben Sie auch an, ob die Ergebnisse nach Tag, Woche, Monat, Quartal oder Jahr gruppiert sind.\
-      ![Optionen für Gruppierung nach Datum](assets/qs-grouping-by-date-options-for-matrix-report-350x450.png)
+   1. (Bedingt) Wenn Sie eine Gruppierung nach Datum hinzufügen, geben Sie auch an, ob die Ergebnisse nach Tag, Woche, Monat, Quartal oder Jahr gruppiert werden sollen.\
+      ![Gruppieren nach Datumsoptionen](assets/qs-grouping-by-date-options-for-matrix-report-350x450.png)
 
-   1. (Bedingt) Wenn Sie beispielsweise ausgewählt haben, nach Datum zu gruppieren und Ergebnisse nach Quartal anzuzeigen, geben Sie an, ob Quartale ohne Daten angezeigt werden sollen, indem Sie das Kontrollkästchen **Quartale ohne Ergebnisse anzeigen** aktivieren.\
+   1. (Bedingt) Wenn Sie beispielsweise ausgewählt haben, dass die Ergebnisse nach Datum gruppiert und nach Quartal angezeigt werden sollen, geben Sie an, ob Quartale ohne Daten angezeigt werden sollen, indem Sie das Kontrollkästchen **Quartale ohne Ergebnisse anzeigen** aktivieren.\
       ![Quartale ohne Ergebnisse anzeigen](assets/qs-show-quarters-with-no-results-on-matrix-report-350x175.png)
 
       >[!NOTE]
       >
-      >Das Feld **Quartale ohne Ergebnisse anzeigen** ist nur für Matrixgruppierungen verfügbar, nicht aber für Standardgruppierungen.\
-      >Nur die Quartale ohne Daten, die sich zwischen zwei Quartalen mit gültigen Daten befinden, zeigen Null für die Datenwerte auf der Registerkarte &quot;Matrix&quot; an. Die Quartale ohne Daten, die sich am Anfang und am Ende des vom Filter ausgewählten Zeitrahmens befinden, werden in der Matrixgruppierung überhaupt nicht angezeigt. Quartale ohne Ergebnisse werden nicht in einer Gruppe auf der Registerkarte Details des Berichts angezeigt.
+      >Das Feld **Quartale ohne Ergebnisse anzeigen** ist nur für Matrixgruppierungen verfügbar, nicht für Standardgruppierungen.\
+      >Nur Quartale ohne Daten, die sich zwischen zwei Quartalen mit gültigen Daten befinden, zeigen Null für die Datenwerte auf der Registerkarte Matrix an. Die Quartale, die keine Daten haben, die am Anfang und am Ende des von Ihrem Filter ausgewählten Zeitrahmens liegen, werden überhaupt nicht in der Matrixgruppierung angezeigt. Die Quartale ohne Ergebnisse werden nicht in einer Gruppierung auf der Registerkarte Details des Berichts angezeigt.
 
-1. (Optional und bedingt) Klicken Sie auf **Matrixeinstellungen** und wählen Sie dann eine der folgenden Optionen aus:\
-   **Datensatzzähler anzeigen:** Wählen Sie diese Option aus, um eine Zeile mit der Gesamtanzahl von Einträgen für das angegebene Feld anzuzeigen.\
-   **Wertespalte anzeigen:** Wählen Sie diese Option aus, um die folgenden Informationen in der Matrix anzuzeigen:
+1. (Optional und bedingt) Klicken Sie **Matrixeinstellungen** und wählen Sie dann eine der folgenden Optionen aus:\
+   **Anzahl der Einträge anzeigen:** Wählen Sie diese Option, um eine Zeile mit der Gesamtzahl der Einträge für das jeweilige Feld anzuzeigen.\
+   **Wertspalte anzeigen** Wählen Sie diese Option, um die folgenden Informationen in der Matrix anzuzeigen:
 
-   * Rekordanzahl
-   * Die Spalte &quot;Wert&quot;
+   * Anzahl der Einträge
+   * Die Spalte Wert
 
      >[!NOTE]
      >
      >Diese Spalte enthält Informationen, die beschreiben, was die Daten in den einzelnen Zeilen darstellen.\
-     >Die folgenden Ausnahmen gelten für übergeordnete Objekte (z. B. übergeordnete Vorgänge), wenn Sie Werte für die folgenden Felder in Gruppierungen aggregieren:
+     >Die folgenden Ausnahmen gelten für übergeordnete Objekte (z. B. übergeordnete Aufgaben), wenn Sie Werte für die folgenden Felder in Gruppierungen aggregieren:
      >
      >   
      >   
-     >   * Alle Zahlen- und Währungsfelder außer &quot;Aktuelle Stunden&quot; (z. B. &quot;Geplante/Ist-Arbeitskosten&quot;, &quot;Geplante/Ist-Kosten&quot;, &quot;Geplante/Ist-Kosten&quot;, &quot;Geplante Stunden&quot;) aggregieren nur die Werte für die untergeordneten Vorgänge und eigenständigen Vorgänge. Sie aggregieren nicht die Werte für die übergeordneten Aufgaben oder übergeordneten Aufgaben der übergeordneten Elemente.
-     >   * Aktuelle Stunden aggregieren die Werte für die übergeordneten und die eigenständigen Hauptaufgaben. Sie aggregieren nicht die Zahlen für die übergeordneten oder untergeordneten Aufgaben.
-     >   * Benutzerdefinierte Datenfelder für Zahlen- und Währungswerte aggregieren alle Vorgänge: übergeordnete Elemente, untergeordnete Elemente, übergeordnete Elemente von übergeordneten Elementen und eigenständige Vorgänge. Wenn Sie den Matrixbericht erstellt haben, um geplante Stunden oder aktuelle Stunden in der Spalte **Wert** anzuzeigen, beachten Sie, dass Stunden- oder Kosteninformationen für übergeordnete Objekte (z. B. übergeordnete Aufgaben) nicht im Matrixbericht angezeigt werden. Um Stunden für übergeordnete Objekte anzuzeigen, müssen Sie die Registerkarte **Details** anzeigen.
+     >   * Alle Zahlen- und Währungsfelder mit Ausnahme der tatsächlichen Stunden (z. B. geplante/Ist-Arbeitskosten, geplante/Ist-Ausgaben-Kosten, geplante/Ist-Kosten, geplante Stunden) aggregieren nur die Werte für die untergeordneten Aufgaben und eigenständigen Aufgaben. Sie aggregieren nicht die Werte für die übergeordneten Aufgaben oder die übergeordneten Aufgaben.
+     >   * Tatsächliche Stunden aggregieren die Werte für die übergeordnete Hauptaufgabe und die eigenständigen Aufgaben. Sie aggregieren nicht die Zahlen für die übergeordneten Aufgaben oder die untergeordneten Aufgaben.
+     >   * Benutzerdefinierte Datenfelder für Zahlen- und Währungswerte aggregieren alle Aufgaben: Eltern, Kinder, Eltern von Eltern und eigenständige Aufgaben. Wenn Sie den Matrixbericht erstellt haben, um die geplanten Stunden oder tatsächlichen Stunden in der Spalte **Wert** anzuzeigen, beachten Sie, dass Stunden- oder Kosteninformationen für alle übergeordneten Objekte (z. B. übergeordnete Aufgaben) nicht im Matrixbericht angezeigt werden. Um Stunden für übergeordnete Objekte anzuzeigen, müssen Sie die Registerkarte **Details** anzeigen.
      >   
      >   
-     >**Bedingte Regeln:** Richten Sie Formatierungsregeln für aggregierte Werte ein.\
+     >
 
-   Nachdem Sie eine Regel hinzugefügt haben, können Sie Feld- und Textformate definieren, die festlegen, wie Felder angezeigt werden, die mit dieser Regel übereinstimmen. Klicken Sie auf **Regel hinzufügen**, nachdem Sie die Definition der Regel abgeschlossen haben, und **Fertig**, um die Regel zu speichern.
+   **Bedingte Regeln:** Richten Sie Formatierungsregeln für aggregierte Werte ein.\
+   Nachdem Sie eine Regel hinzugefügt haben, können Sie Feld- und Textstile dafür definieren, wie Felder, die dieser Regel entsprechen, angezeigt werden. Klicken Sie **Regel hinzufügen** nachdem Sie die Regel definiert haben, und klicken Sie dann auf **Fertig**, um die Regel zu speichern.
 
-1. Klicken Sie auf die Registerkarte **Filter**, um festzulegen, welche Informationen im Bericht angezeigt werden.
-1. (Bedingt) Wenn Sie bereits einen Filter erstellt haben und ihn auf diesen Bericht anwenden möchten, klicken Sie auf **Vorhandenen Filter anwenden** und wählen Sie dann den Filter aus der Dropdownliste aus.
-1. (Bedingt) Informationen zum Erstellen eines neuen Filters für diesen Bericht finden Sie unter [Filter und Bedingungsmodifizierer](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+1. Klicken Sie auf **Filter**, um festzulegen, welche Informationen im Bericht angezeigt werden.
+1. (Bedingt) Wenn Sie bereits einen Filter erstellt haben und Sie ihn auf diesen Bericht anwenden möchten, klicken Sie auf **Vorhandenen Filter anwenden** und wählen Sie dann den Filter aus der Dropdown-Liste aus.
+1. (Bedingt) Wenn Sie einen neuen Filter für diesen Bericht erstellen möchten, finden Sie weitere Informationen unter [Filter und Bedingungsmodifikatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -141,6 +144,6 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
    </MadCap:conditionalText>
    -->
 
-   für Informationen zu den verschiedenen Qualifizierern, die Sie beim Erstellen von Filtern verwenden können.
+   für Informationen zu den verschiedenen Kriterien, die Sie beim Erstellen von Filtern verwenden können.
 
-1. Klicken Sie auf **Speichern+Schließen**, um den Matrixbericht zu speichern und anzuzeigen.
+1. Klicken Sie **Speichern+Schließen**, um den Matrixbericht zu speichern und anzuzeigen.

@@ -6,10 +6,12 @@ description: Sie können von Ihnen erstellte Pläne löschen. Mit Ihnen geteilte
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
@@ -19,7 +21,7 @@ Sie können von Ihnen erstellte Pläne löschen. Mit Ihnen geteilte Pläne könn
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,7 +57,8 @@ Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugr
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -90,7 +93,8 @@ Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugr
    <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Pläne löschen
 
@@ -121,7 +125,7 @@ Löschen eines Plans:
 Eine Liste mit Plänen wird angezeigt.
 
 1. Klicken Sie auf den Namen eines Plans, um ihn zu öffnen.
-1. Klicken Sie auf **[!UICONTROL Mehr]** ![Mehr &#x200B;](assets/more-menu.png) rechts neben dem Plannamen und klicken Sie dann auf **[!UICONTROL Löschen]** > **[!UICONTROL Ja, löschen]**.
+1. Klicken Sie auf **[!UICONTROL Mehr]** ![Mehr ](assets/more-menu.png) rechts neben dem Plannamen und klicken Sie dann auf **[!UICONTROL Löschen]** > **[!UICONTROL Ja, löschen]**.
 
    Der Plan wird gelöscht und Sie kehren zur Liste der Pläne zurück.
 

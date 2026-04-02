@@ -6,14 +6,16 @@ description: Der Überwachungsmodus einer Aufgabe bestimmt, wie der Aufgabenstat
 author: Alina
 feature: Work Management
 exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 15%
+ht-degree: 24%
 
 ---
 
-# Festlegen des Überwachungsmodus für Aufgaben
+# Festlegen des Tracking-Modus für Aufgaben
 
 <!--Audited: 01/2025-->
 
@@ -55,7 +57,8 @@ Informationen zum Tracking-Modus für Aufgaben finden Sie unter [Übersicht übe
 
 +++
 
-<!--old: 
+<!--
+old: 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -84,10 +87,10 @@ Informationen zum Tracking-Modus für Aufgaben finden Sie unter [Übersicht übe
 
 -->
 
-## Festlegen des Überwachungsmodus für Aufgaben
+## Festlegen des Tracking-Modus für Aufgaben
 
 1. Gehen Sie zu der Aufgabe, für die Sie den Tracking-Modus festlegen möchten.
-1. Klicken Sie auf das **Mehr**-Symbol ![Mehr-Symbol auf einem &#x200B;](assets/qs-more-icon-on-an-object.png) neben dem Namen der Aufgabe und dann auf **Bearbeiten**.
+1. Klicken Sie auf das **Mehr**-Symbol ![Mehr-Symbol auf einem ](assets/qs-more-icon-on-an-object.png) neben dem Namen der Aufgabe und dann auf **Bearbeiten**.
 
    Das Dialogfeld Aufgabe bearbeiten wird geöffnet.
 

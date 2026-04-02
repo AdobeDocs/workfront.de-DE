@@ -6,7 +6,9 @@ description: Wenn Sie ein Team erstellen, werden Sie standardmäßig zum Teambes
 author: Courtney
 feature: People Teams and Groups
 exl-id: 4bef734c-de86-4c58-a0e8-fbb3c5785f4c
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 9%
@@ -17,7 +19,7 @@ ht-degree: 9%
 
 Wenn Sie ein Team erstellen, werden Sie standardmäßig zum Teambesitzer.
 
-Sie können Teambesitzer für alle Teams anzeigen, wenn Sie einen Bericht für Teams erstellen, und das Feld [!UICONTROL Name des &#x200B;]&quot; in Ihren Bericht aufnehmen. (Weitere Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines benutzerdefinierten Berichts](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).)
+Sie können Teambesitzer für alle Teams anzeigen, wenn Sie einen Bericht für Teams erstellen, und das Feld [!UICONTROL Name des ]&quot; in Ihren Bericht aufnehmen. (Weitere Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines benutzerdefinierten Berichts](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).)
 
 Informationen dazu, wie ein [!DNL Adobe Workfront]-Administrator ein Team im Bereich [!UICONTROL Setup] erstellen kann, finden Sie [Erstellen eines Teams im Bereich [!UICONTROL Setup]](../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md).
 

@@ -6,15 +6,17 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: c9fa6d97607990710e6c2a74f3b373d06201d721
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '784'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 
-# Hinzufügen vorhandener Datensatztypen aus einem anderen Arbeitsbereich
+# Hinzufügen vorhandener Eintragstypen aus einem anderen Arbeitsbereich
 
 {{planning-important-intro}}
 
@@ -71,7 +73,8 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 +++   
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -108,7 +111,8 @@ And
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
   </tr>  
 </tbody> 
-</table>-->
+</table>
+-->
 
 ## Erstellen eines Datensatztyps durch Hinzufügen eines vorhandenen Datensatztyps aus einem anderen Arbeitsbereich
 
@@ -130,7 +134,7 @@ And
 1. Klicken Sie auf **Fortfahren**.
 1. Klicken **im Feld &quot;** auswählen“ auf die Karte für den Datensatztyp, den Sie aus einem vorhandenen Arbeitsbereich hinzufügen möchten, und klicken Sie dann auf **Hinzufügen**.
 
-   <span class="preview">Der Datensatztyp wird dem ausgewählten sekundären Arbeitsbereich hinzugefügt und das Symbol **globaler Datensatztyp** (Symbol ![&#x200B; globalen Eintrag im sekundären Arbeitsbereich](assets/global-icon-secondary-workspace.png) wird auf der Karte des Datensatztyps angezeigt. </span>
+   <span class="preview">Der Datensatztyp wird dem ausgewählten sekundären Arbeitsbereich hinzugefügt und das Symbol **globaler Datensatztyp** (Symbol ![ globalen Eintrag im sekundären Arbeitsbereich](assets/global-icon-secondary-workspace.png) wird auf der Karte des Datensatztyps angezeigt. </span>
    <span class="preview">Das Symbol für den globalen Datensatztyp enthält einen Pfeil, wenn er auf einem Datensatztyp im sekundären Arbeitsbereich angezeigt wird, um anzugeben, dass der Datensatztyp aus einem vorhandenen Datensatztyp hinzugefügt wurde.</span>
 
    Folgendes geschieht:
@@ -148,7 +152,7 @@ And
      >Das Erscheinungsbild, zusätzliche Einstellungen oder ursprüngliche Felder des neuen Datensatztyps können nicht bearbeitet werden. Sie können den Datensatztyp und alle zugehörigen Originalfelder und -einstellungen nur über den ursprünglichen Arbeitsbereich bearbeiten.
      >
 
-1. <span class="preview">(Optional) Bewegen Sie den Mauszeiger über das Symbol für den globalen Datensatztyp ![Symbol für den globalen Datensatz im sekundären &#x200B;](assets/global-icon-secondary-workspace.png), um den Namen des ursprünglichen Arbeitsbereichs anzuzeigen, aus dem der Datensatztyp hinzugefügt wurde. </span>
+1. <span class="preview">(Optional) Bewegen Sie den Mauszeiger über das Symbol für den globalen Datensatztyp ![Symbol für den globalen Datensatz im sekundären ](assets/global-icon-secondary-workspace.png), um den Namen des ursprünglichen Arbeitsbereichs anzuzeigen, aus dem der Datensatztyp hinzugefügt wurde. </span>
 1. (Optional) Klicken Sie auf und ziehen Sie den neu hinzugefügten Datensatztyp dann per Drag-and-Drop in einen beliebigen Abschnitt im Arbeitsbereich.
 1. (Optional) Klicken Sie auf **Karte des neuen Datensatztyps oder** rechts neben dem Namen des Datensatztyps auf der Seite auf das Menü „Mehr“ und dann auf eine der folgenden Aktionen:
 
@@ -159,7 +163,8 @@ And
 
    Weitere Informationen finden Sie im Abschnitt „Löschen globaler Datensatztypen“ im Artikel [Löschen von Datensatztypen](/help/quicksilver/planning/architecture/delete-record-types.md).
 
-<!--This will be released later with another epic: 
+<!--
+This will be released later with another epic: 
 1. In the table view, click the **+** icon in the upper-right corner to add new fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) in the new record type's card, or to the right of the record type's name on its page, then click **Share** to share it with other users in the same workspace, or adjust their permissions to the record type.
 -->

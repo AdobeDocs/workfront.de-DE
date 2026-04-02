@@ -6,20 +6,24 @@ description: Risiken sind mögliche Ereignisse oder Faktoren, die verhindern, da
 author: Becky
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 2e86369ae4c8e9fe2678773c20c02f6dbf8d5247
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1062'
-ht-degree: 1%
+ht-degree: 5%
 
 ---
 
-# Risiken in Projekten erstellen und bearbeiten
+# Erstellen und Bearbeiten von Risiken für Projekte
 
 <!--Audited: 06/2025-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
+-->
 
 Risiken sind mögliche Ereignisse oder Faktoren, die verhindern, dass ein Projekt termingerecht oder innerhalb des Budgets abgeschlossen wird. Sie können Risiken im Rahmen der Erstellung eines Business Case für ein Projekt oder über die Registerkarte Risiken aufzeichnen.
 
@@ -35,7 +39,7 @@ Risiken können mit Kosten verbunden sein, die tatsächlichen Risikokosten wirke
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -50,7 +54,7 @@ Risiken können mit Kosten verbunden sein, die tatsächlichen Risikokosten wirke
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
    <td> <p>Standard </p>
-   <p>Plan </p> </td> 
+   <p>Abo </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Konfigurationen der Zugriffsebene</p></td> 
@@ -63,7 +67,7 @@ Risiken können mit Kosten verbunden sein, die tatsächlichen Risikokosten wirke
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 
 +++
@@ -112,7 +116,7 @@ Risiken können im Abschnitt Risiken eines Projekts oder einer Vorlage erstellt 
 
 1. Klicken Sie auf **Weitere Risiken hinzufügen** und erstellen Sie Risiken, indem Sie ihre Informationen inline bearbeiten.
 
-   Oder
+   ODER
 
    Klicken Sie **Neues Risiko**, um das Feld **Neues Risiko** zu öffnen.
 
@@ -148,7 +152,7 @@ Risiken bearbeiten:
 1. Klicken Sie **linken** auf „Risiken“.
 1. Beginnen Sie mit der Inline-Bearbeitung der Felder für die Risiken, die Sie in der Liste sehen, um jeweils ein Risiko zu bearbeiten.
 
-   Oder
+   ODER
 
    Wählen Sie ein oder mehrere Risiken aus und klicken Sie dann auf **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon-on-white.png), um mehrere Risiken gleichzeitig zu bearbeiten.
 

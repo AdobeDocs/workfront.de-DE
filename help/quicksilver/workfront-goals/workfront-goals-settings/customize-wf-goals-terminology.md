@@ -1,31 +1,34 @@
 ---
 product-previous: workfront-goals
 navigation-topic: workfront-goals-settings
-title: Adobe Workfront-Zielterminologie anpassen
-description: Ein Workfront- oder Gruppen-Administrator bzw. eine -Administratorin kann die Namen von Objekten in Workfront Goals anpassen, um sie besser an die Terminologie Ihres Unternehmens anzupassen.
+title: Anpassen der Terminologie für Adobe Workfront Goals
+description: Workfront- oder Gruppen-Admins können die Namen von Objekten in Workfront Goals anpassen, um sie besser mit der Terminologie der Organisation abzustimmen.
 author: Alina
 feature: Workfront Goals
 exl-id: a3b3e61e-c385-429b-856b-7579b02c9946
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '196'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# Adobe Workfront-Zielterminologie anpassen
+# Anpassen der Terminologie für Adobe Workfront Goals
 
 <!--Audited for P&P only: 10/2025-->
 
 >[!NOTE]
 >
->Ihr Unternehmen könnte sich dafür entscheiden, weiterhin Adobe Workfront Goals zu verwenden, wenn es dieses Paket in der Vergangenheit gekauft hat. Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer.
+>Ihr Unternehmen kann sich dafür entscheiden, Adobe Workfront Goals weiterhin zu verwenden, wenn es dieses Paket in der Vergangenheit erworben hat. Weitere Informationen erhalten Sie bei Ihrer Kundenbetreuung.
 >
 >Adobe Workfront Goals ist nicht mehr erhältlich.
 >
->Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Weitere Informationen zum Zugriff auf Workfront Goals finden Sie unter [Voraussetzungen für die Verwendung von Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-<!--Old:
+<!--
+Old:
 
 >[!IMPORTANT]
 >
@@ -42,11 +45,12 @@ ht-degree: 1%
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).  -->
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
 
-Ein Workfront- oder Gruppen-Administrator bzw. eine -Administratorin kann die Namen von Objekten in Workfront Goals anpassen, um sie besser an die Terminologie Ihres Unternehmens anzupassen.
+Workfront- oder Gruppen-Admins können die Namen von Objekten in Workfront Goals anpassen, um sie besser mit der Terminologie der Organisation abzustimmen.
 
-Ihr Unternehmen verwendet möglicherweise nicht das Konzept „Ziele“, verwendet jedoch das Konzept „Ziele“. Ihr Workfront- oder Gruppenadministrator kann den Namen „goal“ überall in Workfront Goals für alle Personen oder für Personen in Ihrer Gruppe durch „objective“ ersetzen.
+Beispiel: In Ihrer Organisation wird nicht das Konzept der „Ziele“ verwendet, sondern ein Konzept der „Zielsetzungen“. Der bzw. die Workfront- oder Gruppen-Admin kann die Bezeichnung „Ziel“ dann überall in Workfront Goals für alle oder für die Personen in Ihrer Gruppe durch „Zielsetzung“ ersetzen.
 
 Als Admin können Sie die folgenden Workfront Goals-Objektnamen mithilfe einer Layout-Vorlage anpassen und sie Workfront Goals-Benutzenden zuweisen:
 
@@ -56,4 +60,4 @@ Als Admin können Sie die folgenden Workfront Goals-Objektnamen mithilfe einer L
 
 Das Anpassen der Terminologie für Workfront Goals ist identisch mit dem Anpassen der Terminologie in Workfront.
 
-Informationen zum Anpassen der Terminologie in Workfront finden Sie unter [Benutzeroberflächenterminologie mithilfe einer Layout-Vorlage anpassen](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
+Informationen zum Anpassen der Terminologie in Workfront finden Sie unter [Anpassen der Terminologie der Benutzeroberfläche mithilfe einer Layout-Vorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).

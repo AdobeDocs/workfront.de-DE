@@ -9,10 +9,12 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
-source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2088'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
@@ -22,8 +24,8 @@ Mit der Funktion Umgebungsförderung können Sie konfigurationsbezogene Objekte 
 
 Anweisungen zum Verschieben von Objekten zwischen Umgebungen mithilfe des Workfront-Programms finden Sie unter:
 
-* [Erstellen oder Bearbeiten eines Umgebungs-Promotion-Pakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
-* [Installieren eines Umgebungs-Promotion-Pakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
+* [Erstellen oder Bearbeiten eines Umgebungsförderungspakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
+* [Installieren eines Umgebungsförderungspakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
 
 ## Zugriffsanforderungen
@@ -61,7 +63,7 @@ Der Endpunkt Erstellen eines Weiterleitungspakets setzt voraus, dass Sie die Que
 
 Die Funktion Umgebungsförderung soll die Möglichkeit bieten, konfigurationsbezogene Objekte von einer Umgebung in eine andere zu verschieben. Das Verschieben von Transaktionsobjekten wird nicht unterstützt (mit wenigen Ausnahmen).
 
-Eine Liste der Promotable-Objekte und der darin enthaltenen Promotable-Unterobjekte finden Sie unter [Unterstützte Objekte für die &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)) im Artikel [Übersicht über das Verschieben von Objekten zwischen Workfront-Umgebungen](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
+Eine Liste der Promotable-Objekte und der darin enthaltenen Promotable-Unterobjekte finden Sie unter [Unterstützte Objekte für die ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)) im Artikel [Übersicht über das Verschieben von Objekten zwischen Workfront-Umgebungen](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 ## Authentifizierung
 
@@ -69,9 +71,9 @@ Die API authentifiziert jede Anfrage, um sicherzustellen, dass der Client Zugrif
 
 Die Authentifizierung erfolgt durch Übergabe einer Sitzungs-ID oder eines API-Schlüssels, die mithilfe der folgenden Methode erteilt werden können:
 
-### Authentifizierung beim Anforderungsheader
+### Anfrage-Header-Authentifizierung
 
-Die bevorzugte Authentifizierungsmethode besteht darin, einen Anfrage-Header mit dem Namen SessionID zu übergeben, der das Sitzungs-Token enthält. Dies hat den Vorteil, dass es vor [Cross-Site Request Forgery (CSRF)-Angriffen &#x200B;](https://en.wikipedia.org/wiki/Cross-site_request_forgery) ist und den URI zu Caching-Zwecken nicht beeinträchtigt.
+Die bevorzugte Authentifizierungsmethode besteht darin, einen Anfrage-Header mit dem Namen SessionID zu übergeben, der das Sitzungs-Token enthält. Diese hat den Vorteil, dass sie sicher vor [Cross-Site Request Forgery (CSRF)-Angriffen](https://en.wikipedia.org/wiki/Cross-site_request_forgery) ist und den URI zu Caching-Zwecken nicht beeinträchtigt.
 
 Im Folgenden finden Sie ein Beispiel für einen Anfrage-Header:
 
@@ -118,7 +120,7 @@ Im zweiten Schritt werden die von Workfront angeforderten Datensätze mithilfe d
 >
 >Jedes Element enthält auch eine `entities`. Dies erwartet das `ID` Feld. Er kann auch ein optionales `name`-Attribut akzeptieren, um das Erkennen der `ID` zu vereinfachen.
 >
->Die Liste der zulässigen Objekt-Codes, die in der `objectCollections` angefordert werden dürfen, finden Sie im Abschnitt [Unterstützte Objekte für die &#x200B;](#supported-objects-for-environment-promotion)) in diesem Artikel.
+>Die Liste der zulässigen Objekt-Codes, die in der `objectCollections` angefordert werden dürfen, finden Sie im Abschnitt [Unterstützte Objekte für die ](#supported-objects-for-environment-promotion)) in diesem Artikel.
 
 #### URL
 
@@ -126,7 +128,7 @@ Im zweiten Schritt werden die von Workfront angeforderten Datensätze mithilfe d
 POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages
 ```
 
-#### Kopfzeilen
+#### Header
 
 ```json
 {
@@ -135,7 +137,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 }
 ```
 
-Oder
+ODER
 
 ```json
 {
@@ -231,7 +233,7 @@ Die Antwort enthält alle Pakete, die aus einer der Sandbox-, Vorschau- oder Pro
 GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages
 ```
 
-#### Kopfzeilen
+#### Header
 
 ```json
 {
@@ -239,7 +241,7 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 }
 ```
 
-Oder
+ODER
 
 ```json
 {
@@ -296,7 +298,7 @@ Die Anfrage kann über jede Umgebung unabhängig von der ursprünglichen Quelle 
 GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}
 ```
 
-#### Kopfzeilen
+#### Header
 
 ```json
 {
@@ -304,7 +306,7 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/pa
 }
 ```
 
-Oder
+ODER
 
 ```json
 {
@@ -372,7 +374,7 @@ Die bearbeitbaren Attribute sind:
 1. description (String)
 1. Status (Zeichenfolge mit Wertvalidierung)
 
-Eine ausführliche Beschreibung der verfügbaren Status finden Sie unter [Umgebungsförderungsstatus](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) im Artikel „Übersicht [&#x200B; Verschieben von Objekten zwischen Workfront-Umgebungen](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
+Eine ausführliche Beschreibung der verfügbaren Status finden Sie unter [Umgebungsförderungsstatus](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) im Artikel „Übersicht [ Verschieben von Objekten zwischen Workfront-Umgebungen](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 
 #### URL
@@ -382,7 +384,7 @@ PATCH https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/
 ```
 
 
-#### Kopfzeilen
+#### Header
 
 ```json
 {
@@ -391,7 +393,7 @@ PATCH https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/
 }
 ```
 
-Oder
+ODER
 
 ```json
 {
@@ -466,7 +468,7 @@ Dieser Aufruf löscht den Datensatz des Promotion-Pakets. Diese Aktion kann nich
 DELETE https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}
 ```
 
-#### Kopfzeilen
+#### Header
 
 ```json
 {
@@ -474,7 +476,7 @@ DELETE https://{domain}.{environment}.workfront.com/environment-promotion/api/v1
 }
 ```
 
-Oder
+ODER
 
 ```json
 {
@@ -522,7 +524,7 @@ Für jedes Promotion-Objekt wird eine der folgenden `actions` festgelegt:
  <col> 
  <tbody> 
   <tr> 
-   <td>ERSTELLEN</td> 
+   <td>CREATE</td> 
    <td><p>Wenn in der Zielumgebung kein entsprechender Datensatz gefunden werden kann, wird die Aktion auf ERSTELLEN gesetzt.</p><p>Wenn diese Aktion in der <code>translationmap</code> festgelegt wird, die dem <code>/install</code>-Endpunkt bereitgestellt wird, erstellt der Installations-Service den Datensatz.</p></td> 
   </tr> 
   <tr> 
@@ -548,7 +550,7 @@ In den Alpha-Funktionen dieses Service wird derzeit kein UPDATE-`action` unterst
 POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/:id/prepare-installation
 ```
 
-#### Kopfzeilen
+#### Header
 
 ```json
 {
@@ -557,7 +559,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 }
 ```
 
-Oder
+ODER
 
 ```json
 {
@@ -699,7 +701,7 @@ Dieser Aufruf startet einen Installationsversuch eines Promotion-Pakets in die Z
 POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/installations/{id}/install
 ```
 
-#### Kopfzeilen
+#### Header
 
 ```json
 {
@@ -708,7 +710,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/i
 }
 ```
 
-Oder
+ODER
 
 ```json
 {
@@ -755,7 +757,7 @@ Die Ergebnisse umfassen Installationsereignisse aus allen Umgebungen, in denen d
 GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/installations?environmentPromotionPackageId={environmentPromotionPackageId}
 ```
 
-#### Kopfzeilen
+#### Header
 
 ```json
 {
@@ -763,7 +765,7 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/in
 }
 ```
 
-Oder
+ODER
 
 ```json
 {
@@ -852,7 +854,7 @@ Wenn der Datensatz eine CREATE-`action` hat, aber nicht erfolgreich erstellt wer
 GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/installations/{id}
 ```
 
-#### Kopfzeilen
+#### Header
 
 ```json
 {
@@ -860,7 +862,7 @@ GET https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/in
 }
 ```
 
-Oder
+ODER
 
 ```json
 {
@@ -1016,7 +1018,7 @@ Eine Übersetzungskarte mit einem `202 - OK` Status
 
 Für diesen Schritt gibt es keinen Endpunkt.
 
-1. Überprüfen Sie in der Übersetzungszuordnung[&#x200B; die in Schritt 1 - Erstellen einer &#x200B;](#step-1---create-a-translation-map) zurückgegeben wird, die Liste der zu installierenden Objekte.
+1. Überprüfen Sie in der Übersetzungszuordnung[ die in Schritt 1 - Erstellen einer ](#step-1---create-a-translation-map) zurückgegeben wird, die Liste der zu installierenden Objekte.
 1. Aktualisieren Sie das Aktionsfeld auf jedem Objekt, um die gewünschte Installationsaktion durchzuführen.
 1. Überprüfen Sie die `targetId` für jedes Objekt. Wenn die Aktion „Festlegen“ `USEEXISTING` oder `OVERWRITING` ist, sollte die `targetId` auf die UUID des Zielobjekts in der Zielumgebung festgelegt werden. Für jede andere Aktion sollte die targetId eine leere Zeichenfolge sein.
 
@@ -1117,7 +1119,8 @@ Die Antwort enthält die `{uuid of the created installation}` und einen `202 - A
 
 Beispiel: `b6aa0af8-3520-4b25-aca3-86793dff44a6`
 
-<!--table templates
+<!--
+table templates
 
 <table style="table-layout:auto"> 
  <col> 

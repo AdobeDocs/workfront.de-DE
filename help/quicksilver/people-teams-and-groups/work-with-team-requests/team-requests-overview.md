@@ -7,7 +7,9 @@ description: Teamanfragen finden Sie im Bereich Teams im Hauptmenü.
 author: Courtney
 feature: People Teams and Groups
 exl-id: c131c021-8bc0-4a48-a873-9ee0e189bcab
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 0%
@@ -42,7 +44,7 @@ Die [!UICONTROL Bereit zum Start]-Option zeigt nur Aufgaben und Probleme an, die
   Wenn der Typ der Vorgängerbeziehung beispielsweise [!UICONTROL Ende-Anfang] lautet (Vorgängeraufgabe muss abgeschlossen sein, bevor die abhängige Aufgabe beginnen kann), muss der Vorgänger als [!UICONTROL Abgeschlossen] markiert sein. (Weitere Informationen zu Vorgängerabhängigkeitstypen finden Sie unter [Übersicht über Aufgabenabhängigkeitstypen](../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).)
 
 * Der angemeldete Benutzer ist die Person, die diesen Aufgaben und Problemen (bei Arbeitsanfragen) zugewiesen ist, oder das ausgewählte Team wird diesen Aufgaben und Problemen (bei Teamanfragen) zugewiesen.
-* Der Projektstatus hat den Status &quot;[!UICONTROL &quot; &#x200B;].
+* Der Projektstatus hat den Status &quot;[!UICONTROL &quot; ].
 * Das [!UICONTROL Voraussichtliches Startdatum] oder [!UICONTROL Geplantes Startdatum] wurde überschritten oder soll innerhalb von zwei Wochen ab dem heutigen Datum beginnen (oder es wurde kein [!UICONTROL Voraussichtliches Startdatum] oder [!UICONTROL Geplantes Startdatum] definiert).
 * Das [!UICONTROL Übergabedatum] ist bereits abgelaufen oder wird innerhalb von zwei Wochen ab dem aktuellen Datum liegen.
 

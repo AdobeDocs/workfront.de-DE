@@ -2,12 +2,14 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Ansicht: Probleme mit dem Firmennamen des Originators'
-description: In dieser Problemansicht wird der Firmenname angezeigt, der mit dem Benutzer verknüpft ist, der das Problem eingereicht hat.
+title: 'Anzeigen: Probleme mit dem Firmennamen des Absenders'
+description: In dieser Anfrageansicht wird der Firmenname angezeigt, der dem Benutzer zugeordnet ist, der das Problem gesendet hat.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e628f7cf-4a7b-4125-bea6-348c72477bd7
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 23%
@@ -18,7 +20,7 @@ ht-degree: 23%
 
 <!--Audit: 11/2024-->
 
-In dieser Problemansicht wird der Firmenname angezeigt, der mit dem Benutzer verknüpft ist, der das Problem eingereicht hat.
+In dieser Anfrageansicht wird der Firmenname angezeigt, der dem Benutzer zugeordnet ist, der das Problem gesendet hat.
 
 ![custom_view_for_issues_with_originator_company_name.png](assets/custom-view-for-issues-350x33.png)
 
@@ -37,16 +39,16 @@ In dieser Problemansicht wird der Firmenname angezeigt, der mit dem Benutzer ver
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Mitwirkender oder Anforderung zum Ändern einer Ansicht </p>
-   <p>Standard oder Abo zum Ändern eines Berichts</p>
+   <p>Mitwirkender oder Anfrage zum Ändern einer Ansicht </p>
+   <p>Standard oder Plan zum Ändern eines Berichts</p>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Bearbeitungszugriff auf Filter, Ansichten, Gruppierungen zum Ändern einer Ansicht</p> </td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um eine Ansicht zu ändern</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p>  </td> 
+   <td> <p>Verwalten von Berechtigungen für einen Bericht</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,13 +58,13 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 +++
 
-## Probleme mit dem Firmennamen des Erstellers anzeigen
+## Probleme mit dem Firmennamen des Absenders anzeigen
 
-1. Hier finden Sie eine Liste der Probleme.
-1. Wählen Sie im Dropdown-Menü **Ansicht** die Option **Neue Ansicht**.
+1. Zu einer Problemliste gehen.
+1. Wählen Sie **Dropdown** Menü „Ansicht“ die Option **Neue Ansicht**.
 1. Entfernen Sie im Bereich **Spaltenvorschau** alle Spalten mit Ausnahme einer Spalte.
-1. Klicken Sie auf die Kopfzeile der verbleibenden Spalte, und klicken Sie auf **In Textmodus wechseln**. Klicken Sie dann auf **Textmodus bearbeiten**.
-1. Entfernen Sie den Text, den Sie im Feld **Textmodus bearbeiten** finden, und ersetzen Sie ihn durch folgenden Code:
+1. Klicken Sie auf die Kopfzeile der verbleibenden Spalte, klicken Sie auf **Wechseln in den Textmodus** und klicken Sie dann auf **Textmodus bearbeiten**.
+1. Entfernen Sie den Text aus dem Feld **Textmodus bearbeiten** und ersetzen Sie ihn durch den folgenden Code:
 
 
    ```
@@ -131,5 +133,5 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
    column.5.width=151
    ```
 
-1. Klicken Sie auf **Fertig** > **Ansicht speichern**.
-1. (Optional) Aktualisieren Sie den Anzeigenamen, und klicken Sie dann auf **Ansicht speichern**.
+1. Klicken Sie **Fertig** > **Ansicht speichern**.
+1. (Optional) Aktualisieren Sie den Ansichtsnamen und klicken Sie dann auf **Ansicht speichern**.

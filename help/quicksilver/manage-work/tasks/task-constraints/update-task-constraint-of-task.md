@@ -6,14 +6,16 @@ description: Aufgabenbeschränkungen bestimmen, wann eine Aufgabe in einem Proje
 author: Alina
 feature: Work Management
 exl-id: 54b54892-f8b3-4704-8221-03bbb9f07917
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '304'
-ht-degree: 19%
+ht-degree: 26%
 
 ---
 
-# Aufgabenbeschränkung einer Aufgabe aktualisieren
+# Aktualisieren der Aufgabenbeschränkung einer Aufgabe
 
 Aufgabenbeschränkungen bestimmen, wann eine Aufgabe in einem Projekt beginnen und enden soll. Weitere Informationen finden Sie unter [Übersicht über die Aufgabenbeschränkung](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
@@ -49,7 +51,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -72,9 +75,10 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    <td> <p>Manage access to the task </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
-## Aufgabenbeschränkung einer Aufgabe aktualisieren
+## Aktualisieren der Aufgabenbeschränkung einer Aufgabe
 
 1. Klicken Sie auf **Hauptmenü** > **Projekte** und dann auf ein Projekt, um darauf zuzugreifen.
 1. Klicken Sie auf **Abschnitt** Aufgaben“ im linken Bereich.
@@ -95,7 +99,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    | Nicht später anfangen als | Weitere Informationen finden Sie unter [Übersicht über die Aufgabenbeschränkung: Spätestens beginnen am](../../../manage-work/tasks/task-constraints/start-no-later-than.md). |
    | Nicht früher anfangen als | Weitere Informationen finden Sie unter [Übersicht über die Aufgabenbeschränkung: Nicht früher starten als](../../../manage-work/tasks/task-constraints/start-no-earlier-than.md). |
    | Nicht später beenden als (NSBA) | Weitere Informationen finden Sie unter [Übersicht über die Aufgabenbeschränkung: Spätestes Beenden bis](../../../manage-work/tasks/task-constraints/finish-no-later-than.md). |
-   | Nicht früher beenden als (NFBA) | Weitere Informationen finden Sie unter [Übersicht über die Aufgabenbeschränkung: Nicht früher als &#x200B;](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md). |
+   | Nicht früher beenden als (NFBA) | Weitere Informationen finden Sie unter [Übersicht über die Aufgabenbeschränkung: Nicht früher als ](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md). |
 
    {style="table-layout:auto"}
 

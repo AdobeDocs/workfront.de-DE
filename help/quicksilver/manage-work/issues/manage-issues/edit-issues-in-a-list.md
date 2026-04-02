@@ -6,25 +6,29 @@ description: Sie können ein einzelnes Problem bearbeiten oder Probleme in einer
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: 0358e79bd606d0035959bba2a47256456b529b18
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '875'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
-# Anfragen in einer Liste bearbeiten
+# Bearbeiten von Problemen in einer Liste
 
 <!--Audited: 10/2025-->
 
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div> -->
+</div>
+-->
 
 Sie können ein einzelnes Problem bearbeiten oder Probleme in einer Problemliste oder einem Bericht bearbeiten. In diesem Artikel wird beschrieben, wie Probleme in Listen bearbeitet werden.
 
@@ -32,7 +36,7 @@ Informationen zum Bearbeiten eines einzelnen Problems finden Sie unter [Probleme
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,9 +50,9 @@ Informationen zum Bearbeiten eines einzelnen Problems finden Sie unter [Probleme
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>
 
-<ul><li><p>Mitwirkender oder höher</p> </li>
+<ul><li><p>Mitwirkende oder höher</p> </li>
    <li><p>Light- oder Higher-Lizenz zum Bearbeiten eines Problems im Abschnitt „Probleme“ eines Projekts</p></li></ul> 
-    Oder
+    ODER
    <ul><li><p>Antragsteller oder höher</p> </li>
    <li><p>Reviewer oder höhere Lizenz zum Bearbeiten eines Problems im Abschnitt „Probleme“ eines Projekts</p></li></ul> 
    </td> 
@@ -64,11 +68,12 @@ Informationen zum Bearbeiten eines einzelnen Problems finden Sie unter [Probleme
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -91,7 +96,8 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    <td> <p>Contribute or higher permissions to the issue</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Probleme bei der Inline-Bearbeitung
 

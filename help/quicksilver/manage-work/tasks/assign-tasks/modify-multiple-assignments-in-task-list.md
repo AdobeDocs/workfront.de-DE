@@ -7,14 +7,16 @@ author: Lisa
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '762'
-ht-degree: 3%
+ht-degree: 7%
 
 ---
 
-# Mehrere Benutzerzuweisungen in einer Aufgabenliste ändern
+# Ändern mehrerer Benutzerzuweisungen in einer Aufgabenliste
 
 <!--Audited: 11/2025-->
 
@@ -24,13 +26,15 @@ ht-degree: 3%
 this article is similar and updates on this one might need to be repeated here: help/quicksilver/manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md</p>
 -->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
 
 For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).  
 
-</div>-->
+</div>
+-->
 
 Beim Verwalten von Aufgabenzuweisungen können Sie diese gleichzeitig für mehrere Aufgaben ändern, indem Sie die Massenbearbeitungsfunktion in einer Liste von Aufgaben verwenden.
 
@@ -69,7 +73,7 @@ Informationen zum Zuweisen einer Aufgabe zu einer Ressource in einer Liste finde
  </tbody>
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -134,7 +138,7 @@ When assigning users to work, their availability according to their schedules af
         Der neue Verantwortliche wird den vorhandenen Aufgaben in den ausgewählten Aufgaben hinzugefügt.
       * Um Verantwortliche zu entfernen, klicken Sie im Feld **Verantwortlichen entfernen** auf den Namen eines Verantwortlichen
 
-        ODER
+        Oder
 
         Klicken Sie **Alle vorhandenen Zugewiesenen entfernen**.
 
@@ -142,7 +146,7 @@ When assigning users to work, their availability according to their schedules af
 
         Das Entfernen von Benutzern aus Aufgaben kann sich auf die Aufgabenstunden und Zuordnungsprozentsätze auswirken.
 
-        Weitere Informationen finden Sie unter [Übersicht über das Ändern von &#x200B;](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)).
+        Weitere Informationen finden Sie unter [Übersicht über das Ändern von ](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)).
 
 
         >[!TIP]
@@ -176,7 +180,8 @@ When assigning users to work, their availability according to their schedules af
 
    1. Klicken Sie auf **Speichern**.
 
-<!-- temporary content - for Assignments redesign:
+<!--
+ temporary content - for Assignments redesign:
 
 Editing assignments on tasks differs depending on which environment you choose. 
 
@@ -261,7 +266,8 @@ Editing assignments on tasks differs depending on which environment you choose.
 
 1. <span class="preview">(Conditional) If you are using the Preview environment to assign tasks, the **Edit Tasks** box opens. Do the following in the Preview environment: </span>
 
-   <div class="preview">-->
+   <div class="preview">
+   -->
 
 
 

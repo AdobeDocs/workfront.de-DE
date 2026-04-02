@@ -5,10 +5,12 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '9443'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -47,7 +49,7 @@ Der neue Dialog stimmt nun mit anderen Bereichen Workfronts überein. Die Funkti
 
 Wir haben die Dialogfelder zum Hinzufügen und Bearbeiten von Unternehmen mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
 
-Weitere Informationen finden Sie unter [Firmen erstellen und bearbeiten](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+Weitere Informationen finden Sie unter [Erstellen und Bearbeiten von Unternehmen](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
 ## Projekte
 
@@ -293,7 +295,7 @@ Das Erscheinungsbild des Felds Aktualisierung an Benutzer senden wurde aktualisi
 
 Das Feld Update an Benutzer senden stimmt jetzt mit anderen Bereichen von Workfront überein, wenn Sie ein Update an einen oder mehrere Benutzer senden.
 
-Weitere Informationen finden Sie unter [Anzeigen und Verwalten der &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md) einer Gruppe und [Anzeigen und Verwalten von Untergruppenmitgliedern](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
+Weitere Informationen finden Sie unter [Anzeigen und Verwalten der ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md) einer Gruppe und [Anzeigen und Verwalten von Untergruppenmitgliedern](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
 
 ### Aktualisierung der Benutzeroberfläche für kürzlich gelöschte Elemente
 
@@ -409,7 +411,8 @@ Das Erscheinungsbild einer Projektliste oder eines Berichts wurde aktualisiert, 
 
 Die Projektliste oder der Bericht stimmt nun mit dem Design anderer Bereiche von Workfront überein. Weitere Informationen finden Sie unter [Verwenden der Meilenstein -Ansicht](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
-<!--### Interface updates for the Edit Tasks box
+<!--
+### Interface updates for the Edit Tasks box
 
 **Preview release: October 2, 2025; Production release: Starting the week of October 9, 2025**
 
@@ -421,7 +424,8 @@ The following changes are included in this update:
 
 *The Resource Scope field has been removed from the Edit task box.  
 
-For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).-->
+For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+-->
 
 ### Aktualisierung der Benutzeroberfläche bei der Massenbearbeitung von Vorlagen
 
@@ -457,7 +461,7 @@ Die Benutzeroberfläche für die Felder zum Hinzufügen wurde aktualisiert, wenn
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
 * [Hinzufügen eines vorhandenen Programms zu einem Portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
-* [Projekte zu einem Portfolio hinzufügen](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
+* [Hinzufügen von Projekten zu einem Portfolio](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
 * [Ein Projekt zu einem Programm hinzufügen](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
 
 ### Aktualisierungen der Benutzeroberfläche des Felds Neues Warteschlangenthema von Projekten und Vorlagen
@@ -529,13 +533,15 @@ Das Erscheinungsbild des Abschnitts „Warteschlangendetails“ einer Vorlage wu
 
 Weitere Informationen finden Sie unter [Erstellen einer Anfrage-Warteschlange](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-<!--### Interface updates when bulk editing templates
+<!--
+### Interface updates when bulk editing templates
 
 **Preview release: July 31, 2025; Production release: August 7, 2025**
 
 We have updated the look and feel of the Edit templates box when editing templates in bulk from a list of templates. The organization of information on the Edit templates box now matches the single-template edit box.
 
-For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
+For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
+-->
 
 ### Schnittstellenaktualisierungen für das Benutzerfeld „Update an Benutzer senden“ für mehrere Objekte
 
@@ -552,7 +558,7 @@ Das Feld Update an Benutzer senden stimmt jetzt mit anderen Bereichen von Workfr
 
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
-* [Senden von Direktnachrichten an andere Benutzer](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md)
+* [Senden von Direktnachrichten an andere Benutzende](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md)
 * [Projektteam verwalten](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)
 * [Verwalten von Unternehmensmitgliedschaften](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
 
@@ -679,7 +685,7 @@ Das Erscheinungsbild des Dialogfelds „Neue Benutzer“ wurde aktualisiert, dam
 
 Um diese Änderung anzuzeigen, gehen Sie zu Benutzer > Neuer Benutzer > Neuer Benutzer.
 
-Weitere Informationen finden Sie unter [Hinzufügen von &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) und [Aktualisierungen des Workfront-](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile)) auf der Seite [Verbesserungen für Administratoren im vierten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
+Weitere Informationen finden Sie unter [Hinzufügen von ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) und [Aktualisierungen des Workfront-](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile)) auf der Seite [Verbesserungen für Administratoren im vierten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
 
 
 ### Aktualisierungen der Benutzeroberfläche im Dialogfeld „Benutzer importieren“
@@ -758,7 +764,7 @@ Das Erscheinungsbild der folgenden Listen im Abschnitt Arbeitszeittabellen und S
 
 Diese Listen stimmen nun mit anderen Bereichen von Workfront überein.
 
-Weitere Informationen finden [&#x200B; unter „Arbeitszeittabellen-Profile erstellen, bearbeiten und zuweisen](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+Weitere Informationen finden [ unter „Arbeitszeittabellen-Profile erstellen, bearbeiten und zuweisen](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ### Aktualisierungen der Benutzeroberfläche für die Seite Unternehmen
 
@@ -932,7 +938,8 @@ Wir haben die Seite, auf der Sie verwenden, um Support-Zugriff auf Ihr Workfront
 
 We have updated the look and feel of the Log time box when logging time for a project, task, or issue in the Hours tab, to match the design of other areas of Workfront.  
 
-For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).-->
+For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+-->
 
 
 ### Änderungen des Erscheinungsbilds in den Feldern „Neue Themengruppe“ und „Themengruppe bearbeiten“ eines Projekts

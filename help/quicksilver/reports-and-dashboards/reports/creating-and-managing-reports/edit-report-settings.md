@@ -6,7 +6,9 @@ description: Sie können die Einstellungen eines Berichts bearbeiten, um festzul
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 6fbbc557-65da-4ffe-968a-9c8db6a45811
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '612'
 ht-degree: 14%
@@ -90,11 +92,13 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
      </tr> 
      <tr> 
       <td role="rowheader">Ressourcenraster-Ansicht auf der Registerkarte „Details“ anzeigen</td> 
-      <td> <p>(Nur Benutzerbericht) Wählen Sie diese Option aus, um das Ressourcenraster auf der Registerkarte Details des Berichts anzuzeigen.</p> <p>Hinweis: Beim Anwenden der Ressourcenraster -Ansicht auf einen Benutzerbericht zeigt der Bericht nur Projekte an, die sich im aktuellen Status befinden. Wenn Sie Projekte mit einem anderen Status anzeigen möchten, können Sie die Registerkarte „Benutzerauslastung“ im Bereich „Personen“ der globalen Navigationsleiste verwenden und dort die Ansicht „Ressourcenraster“ anwenden. <!--
+      <td> <p>(Nur Benutzerbericht) Wählen Sie diese Option aus, um das Ressourcenraster auf der Registerkarte Details des Berichts anzuzeigen.</p> <p>Hinweis: Beim Anwenden der Ressourcenraster -Ansicht auf einen Benutzerbericht zeigt der Bericht nur Projekte an, die sich im aktuellen Status befinden. Wenn Sie Projekte mit einem anderen Status anzeigen möchten, können Sie die Registerkarte „Benutzerauslastung“ im Bereich „Personen“ der globalen Navigationsleiste verwenden und dort die Ansicht „Ressourcenraster“ anwenden.
+      <!--
          <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
           For more information about using the Resource Grid, see the article Overview of the Resource Grid . (drafted because this article is drafted also: Article is in draft Feb 1, 2021)
          </MadCap:conditionalText>
-        --></p> </td> 
+        -->
+        </p> </td>
      </tr> 
      <tr> 
       <td role="rowheader">Spezielle Ansicht auf der Registerkarte „Details“ anzeigen</td> 

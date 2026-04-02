@@ -5,7 +5,9 @@ author: Alina, Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1216'
 ht-degree: 5%
@@ -106,7 +108,7 @@ Informationen zum Erstellen einer E-Mail-Vorlage finden Sie unter [Konfigurieren
      </tr> 
      <tr> 
       <td role="rowheader">Timing</td> 
-      <td> <p>Trigger Wählen Sie das Ereignis aus, für das die Erinnerungsbenachrichtigung geplant werden soll.</p> <p>Wenn die Erinnerungsnachricht für Projekte, Aufgaben oder Probleme vorgesehen ist, beziehen sich die verfügbaren Optionen auf das Fertigstellungs- oder Startdatum. Die Erinnerungsnachricht berücksichtigt den Zeitstempel von Abschluss- und Startdatum von Projekten, Aufgaben und Problemen.</p>
+      <td> <p>Wählen Sie das Ereignis aus, für das die Erinnerungsbenachrichtigung geplant werden soll.</p> <p>Wenn die Erinnerungsnachricht für Projekte, Aufgaben oder Probleme vorgesehen ist, beziehen sich die verfügbaren Optionen auf das Fertigstellungs- oder Startdatum. Die Erinnerungsnachricht berücksichtigt den Zeitstempel von Abschluss- und Startdatum von Projekten, Aufgaben und Problemen.</p>
 
    <p>Wenn die Erinnerungsnachricht für Arbeitszeittabellen vorgesehen ist, beziehen sich die verfügbaren Optionen auf das Enddatum, das Startdatum oder das Datum der letzten Aktualisierung. Die Erinnerungsbenachrichtigung für Arbeitszeittabellen berücksichtigt den Zeitstempel der Arbeitszeittabellen-Enddatum, -Start und -Datum der letzten Aktualisierung. Die Arbeitszeittabelle beginnt um Mitternacht am Tag des Startdatums (12:00 Uhr) und endet direkt vor Mitternacht am Enddatum (23:59 Uhr).</p>
 
@@ -155,7 +157,7 @@ Informationen zum Erstellen einer E-Mail-Vorlage finden Sie unter [Konfigurieren
 
 Wenn die Bedingung für das Element erfüllt ist, an das die Erinnerungsbenachrichtigung angehängt ist, wird eine E-Mail-Benachrichtigung an den in der Erinnerungsbenachrichtigung definierten Benutzer ausgelöst.
 
-Weitere Informationen zum Empfang von Erinnerungsbenachrichtigungen finden Sie [&#x200B; Abschnitt „Erinnerungsbenachrichtigungen](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications) in [Adobe Workfront-](../../../workfront-basics/using-notifications/wf-notifications.md).
+Weitere Informationen zum Empfang von Erinnerungsbenachrichtigungen finden Sie [ Abschnitt „Erinnerungsbenachrichtigungen](../../../workfront-basics/using-notifications/wf-notifications.md#reminder-notifications) in [Adobe Workfront-](../../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Versand der Testerinnerungsnachricht
 

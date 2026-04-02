@@ -8,16 +8,18 @@ author: Courtney
 feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: c9bce921-0aee-42ba-9d6d-dd855762dc76
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 41%
 
 ---
 
-# Agil: Artikelindex
+# Agile: Artikelindex
 
-[!DNL Adobe Workfront] bietet verschiedene Tools, mit denen Sie agile Arbeitsabläufe definieren können. Boards sind einfache, aber flexible Tools für die Zusammenarbeit im Team. Die älteren agilen Planungswerkzeuge umfassen einen Rückstand und ein Storyboard für Kanban- oder Scrum-Teams.
+[!DNL Adobe Workfront] bietet verschiedene Tools, mit denen Sie Agile-Workflows definieren können. Pinnwände sind einfache, aber flexible Werkzeuge für die Zusammenarbeit von Teams. Die veralteten Agile-Planungs-Tools umfassen einen Rückstand und ein Story Board für Kanban- oder Scrum-Teams.
 
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
@@ -25,7 +27,7 @@ Dieser Abschnitt enthält die folgenden Unterabschnitte:
 * [Erste Schritte mit Pinnwänden: Artikelindex](../agile/get-started-with-boards/get-started-with-boards.md)
 * [Verwenden von Agile-Planungs-Tools in Pinnwänden](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
 * [Überblick über Agile](../agile/agile-overview.md)
-* [Erste Schritte mit Agile in  [!DNL Adobe Workfront]](../agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
+* [Erste Schritte mit Agile in [!DNL Adobe Workfront]](../agile/get-started-with-agile-in-workfront/get-started-with-agile.md)
 * [Kanban in einem Agile-Team](../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
 * [Scrum in einem Agile-Team](../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
 * [Arbeiten in einer Agile-Umgebung](../agile/work-in-an-agile-environment/work-in-an-agile-environment.md)

@@ -6,24 +6,26 @@ description: Sie können die Reihenfolge ändern, in der Storys in Statusspalten
 author: Courtney
 feature: Agile
 exl-id: 7d6142d2-4e6e-4f9f-81a8-bcc666757bad
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 15%
 
 ---
 
-# Storys auf dem Kanban[!UICONTROL Board neu &#x200B;]
+# Storys auf dem Kanban[!UICONTROL Board neu ]
 
-Möglicherweise möchten Sie die Reihenfolge ändern, in der Storys in Statusspalten auf dem Kanban[!UICONTROL Board angezeigt &#x200B;].
+Möglicherweise möchten Sie die Reihenfolge ändern, in der Storys in Statusspalten auf dem Kanban[!UICONTROL Board angezeigt ].
 
 >[!NOTE]
 >
->Die Reihenfolge, in der Storys im Rückstand eines Kanban-Teams angezeigt werden[!UICONTROL &#x200B; kann nicht geändert &#x200B;].
+>Die Reihenfolge, in der Storys im Rückstand eines Kanban-Teams angezeigt werden[!UICONTROL  kann nicht geändert ].
 
 Die Reihenfolge, in der die Storys auf der [!UICONTROL Kanban]-Pinnwand angezeigt werden, gibt keine Priorität an. Es kann jedoch die wahrgenommene Priorität beeinflussen, indem Geschichten sichtbarer gemacht werden.
 
-Standardmäßig werden Storys in alphabetischer Reihenfolge innerhalb jeder Statusspalte auf dem Kanban[!UICONTROL Board &#x200B;].
+Standardmäßig werden Storys in alphabetischer Reihenfolge innerhalb jeder Statusspalte auf dem Kanban[!UICONTROL Board ].
 
 Wenn Sie Spalten auf der [!DNL Kanban]-Pinnwand neu anordnen, werden alle von Ihnen vorgenommenen Änderungen gespeichert, sodass die Änderungen beibehalten werden, wenn Sie oder ein anderer Benutzer die [!UICONTROL Kanban“-] das nächste Mal aufruft. (Änderungen, die Sie vornehmen, werden beim Löschen des Browser-Caches nicht rückgängig gemacht.)
 
@@ -53,7 +55,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 +++
 
-## Storys auf dem Kanban[!UICONTROL Board neu &#x200B;]
+## Storys auf dem Kanban[!UICONTROL Board neu ]
 
 {{step1-to-team}}
 

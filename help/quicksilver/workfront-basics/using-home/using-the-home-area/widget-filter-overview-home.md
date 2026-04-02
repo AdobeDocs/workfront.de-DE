@@ -1,19 +1,21 @@
 ---
 product-area: home
 navigation-topic: new-home
-title: Übersicht über Startseiten-Widget-Filter
+title: Überblick über Filter für Startseiten-Widgets
 description: Sie können aus einer Reihe von Widgets auswählen, um den Inhalt anzupassen, der auf Ihrer Startseite angezeigt wird. Diese Widgets können in der Größe angepasst und auf der Startseite angeordnet werden.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1092'
 ht-degree: 11%
 
 ---
 
-# Übersicht über Startseiten-Widget-Filter
+# Überblick über Filter für Startseiten-Widgets
 
 <span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
@@ -106,10 +108,12 @@ Im Widget Meine Aufgaben können Sie die folgenden Filter verwenden:
 </ul>
 </td>
   </tr>
-   <!-- <tr>
+   <!--
+    <tr>
     <td>All Unassigned Tasks</td>
     <td></td>
-  </tr> -->
+  </tr>
+  -->
   <tr>
     <td>Genehmigungsaufgaben</td>
     <td>Zeigt Aufgaben mit Status Ausstehende Genehmigung an</td>

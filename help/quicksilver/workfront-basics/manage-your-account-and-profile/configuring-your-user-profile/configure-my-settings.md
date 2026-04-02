@@ -1,19 +1,21 @@
 ---
 product-area: user-management;setup
 navigation-topic: configure-your-user-profile
-title: Meine Einstellungen konfigurieren
+title: Konfigurieren von „Meine Einstellungen“
 description: Ihr  [!DNL Adobe Workfront]  enthält Informationen über sich selbst (z. B. Name, E-Mail-Adresse, Adresse, Telefonnummer, Titel usw.). Es enthält auch Informationen über Ihre Interaktionen mit  [!DNL Workfront]  und anderen Benutzenden in Ihrem Unternehmen.
 author: Becky
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '3318'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Meine Einstellungen konfigurieren
+# Konfigurieren von „Meine Einstellungen“
 
 <!-- Audited: 01/2024 -->
 
@@ -29,9 +31,9 @@ Je nachdem, welche Zugriffsebene Sie in [!DNL Workfront] haben, können Sie eini
 
 ## Wie sich Zugriffsebenen auf die Bearbeitung des Bereichs [!UICONTROL Meine Einstellungen] auswirken
 
-Je nachdem, welche Zugriffsebene Sie haben, können Sie Abschnitte in Ihrem Bereich „Meine [!UICONTROL &quot; &#x200B;] oder nicht bearbeiten.
+Je nachdem, welche Zugriffsebene Sie haben, können Sie Abschnitte in Ihrem Bereich „Meine [!UICONTROL &quot; ] oder nicht bearbeiten.
 
-Einige Felder in bearbeitbaren Abschnitten können nicht bearbeitet werden, abhängig von anderen Einstellungen, die möglicherweise in Ihrer Zugriffsebene konfiguriert sind oder nicht. Weitere Informationen zum zusätzlichen Zugriff, der für die Bearbeitung einiger Felder in „Meine [!UICONTROL &quot; benötigt wird] finden Sie in den Abschnitten unter [Konfigurieren des Bereichs [!UICONTROL Meine &#x200B;]](#configuring-the-my-settings-area).
+Einige Felder in bearbeitbaren Abschnitten können nicht bearbeitet werden, abhängig von anderen Einstellungen, die möglicherweise in Ihrer Zugriffsebene konfiguriert sind oder nicht. Weitere Informationen zum zusätzlichen Zugriff, der für die Bearbeitung einiger Felder in „Meine [!UICONTROL &quot; benötigt wird] finden Sie in den Abschnitten unter [Konfigurieren des Bereichs [!UICONTROL Meine ]](#configuring-the-my-settings-area).
 
 Wenden Sie sich an Ihren [!DNL Workfront], um zu erfahren, welche Zugriffsebene Sie haben.
 
@@ -75,7 +77,7 @@ Das folgende Raster zeigt, welche Abschnitte im Bereich [!UICONTROL Meine Einste
    <td>✔ </td> 
   </tr> 
   <tr> 
-   <td rowspan="2">[!UICONTROL -Voreinstellungen]</td> 
+   <td rowspan="2">[!UICONTROL-Voreinstellungen]</td> 
    <td> <p>Sichtbar</p> </td> 
    <td> <p>✔</p> </td> 
    <td> ✔</td> 
@@ -92,7 +94,7 @@ Das folgende Raster zeigt, welche Abschnitte im Bereich [!UICONTROL Meine Einste
    <td>✔ </td> 
   </tr> 
   <tr> 
-   <td rowspan="2">[!UICONTROL -Benachrichtigungen]</td> 
+   <td rowspan="2">[!UICONTROL-Benachrichtigungen]</td> 
    <td> <p>Sichtbar</p> </td> 
    <td> <p>✔</p> </td> 
    <td>✔ </td> 
@@ -160,7 +162,7 @@ Das folgende Raster zeigt, welche Abschnitte im Bereich [!UICONTROL Meine Einste
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="2">[!UICONTROL Custom Forms]</td> 
+   <td rowspan="2">[!UICONTROL Benutzerdefinierte Formulare]</td> 
    <td>Sichtbar</td> 
    <td>✔</td> 
    <td>✔ </td> 
@@ -177,7 +179,7 @@ Das folgende Raster zeigt, welche Abschnitte im Bereich [!UICONTROL Meine Einste
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="2">[!UICONTROL -Kommentar]</td> 
+   <td rowspan="2">[!UICONTROL-Kommentar]</td> 
    <td>Sichtbar</td> 
    <td>✔</td> 
    <td>✔ </td> 
@@ -270,7 +272,7 @@ In diesem Unterabschnitt können folgende Änderungen vorgenommen werden:
         <td>Geben Sie Ihren Titel an. Dies ist nicht dasselbe wie Ihr Aufgabengebiet. Ihr Titel ist nicht Teil der Ressourcenplanung, Ihr Aufgabengebiet hingegen schon. Ihr Titel wird in der [!DNL Workfront]-Oberfläche überall dort angezeigt, wo Ihr Name und Ihr Avatar erscheinen. Sie ist für alle sichtbar, die Zugriff auf Ihr Benutzerprofil haben.</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL , mit mir sprechen über]</strong></td>
+        <td><strong>[!UICONTROL, mit mir sprechen über]</strong></td>
         <td>Geben Sie Ihre beruflichen Interessen in diesem Feld an.</td>
     </tr>
 </table>
@@ -285,7 +287,7 @@ In diesem Unterabschnitt können folgende Änderungen vorgenommen werden:
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL -Erweiterung]</strong></td>
+        <td><strong>[!UICONTROL-Erweiterung]</strong></td>
         <td> </td>
     </tr>
     <tr>
@@ -293,7 +295,7 @@ In diesem Unterabschnitt können folgende Änderungen vorgenommen werden:
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL -Adresse]</strong></td>
+        <td><strong>[!UICONTROL-Adresse]</strong></td>
         <td> </td>
     </tr>
     <tr>
@@ -301,7 +303,7 @@ In diesem Unterabschnitt können folgende Änderungen vorgenommen werden:
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL -Status]</strong></td>
+        <td><strong>[!UICONTROL Status]</strong></td>
         <td> </td>
     </tr>
     <tr>
@@ -324,7 +326,7 @@ Geben Sie in diesem Abschnitt an, was in Ihrer [!DNL Workfront] angezeigt werden
 
 >[!NOTE]
 >
->Benutzende mit einer [!UICONTROL Anbieter] oder [!UICONTROL Antragsteller]-Lizenz verfügen nicht über andere linke Bedienfeldelemente, die sie ihrem [!UICONTROL Hauptmenü] außerhalb des Bereichs [!UICONTROL Anfragen] hinzufügen können. Ein [!DNL Workfront] kann Benutzer mit einer Lizenz für [!UICONTROL Mitwirkende] oder [!UICONTROL Anfragende] einer Layout-Vorlage zuweisen, die alle anderen Bereiche im [!UICONTROL Hauptmenü]. Danach können sie die Bereiche auswählen, die im [!UICONTROL &#x200B; angezeigt werden sollen] indem sie ihr Benutzerprofil bearbeiten.
+>Benutzende mit einer [!UICONTROL Anbieter] oder [!UICONTROL Antragsteller]-Lizenz verfügen nicht über andere linke Bedienfeldelemente, die sie ihrem [!UICONTROL Hauptmenü] außerhalb des Bereichs [!UICONTROL Anfragen] hinzufügen können. Ein [!DNL Workfront] kann Benutzer mit einer Lizenz für [!UICONTROL Mitwirkende] oder [!UICONTROL Anfragende] einer Layout-Vorlage zuweisen, die alle anderen Bereiche im [!UICONTROL Hauptmenü]. Danach können sie die Bereiche auswählen, die im [!UICONTROL  angezeigt werden sollen] indem sie ihr Benutzerprofil bearbeiten.
 
 In diesem Unterabschnitt können folgende Änderungen vorgenommen werden:
 
@@ -380,7 +382,8 @@ In diesem Unterabschnitt können folgende Änderungen vorgenommen werden:
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Layoutvorlage]</strong> </td> 
    <td>Dieses Feld ist für Benutzer mit einer Zugriffsebene [!UICONTROL Standard], [!UICONTROL Plan] oder [!UICONTROL [!DNL Workfront] Administrator] sichtbar und kann nur für [!UICONTROL [!DNL Workfront] Administratoren] oder Benutzer mit einer Lizenz für [!UICONTROL Standard] oder [!UICONTROL Plan] bearbeitet werden, die auch administrativen Benutzerzugriff haben. Wählen Sie hier eine Layout-Vorlage aus, um das Erscheinungsbild und Feld Ihrer Workfront-Benutzeroberfläche zu aktualisieren. Weitere Informationen zum Einrichten von Benutzern mit administrativem Benutzerzugriff finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">Konfigurieren des Benutzerzugriffs zum Bearbeiten von Benutzern mit einer benutzerdefinierten Zugriffsebene</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Gewähren des Zugriffs für Benutzer</a>.<br>Weitere Informationen zu Layout-Vorlagen und deren Auswirkungen auf Ihre Benutzeroberfläche finden Sie unter <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Erstellen und Verwalten von Layout-Vorlagen</a></td> 
-  </tr> <!--
+  </tr>
+  <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader"><strong>Log in as</strong> </td> 
     <td> <p><strong>Add access</strong> for a Workfront administrator or group administrator (associated with a group you are in) to log in as you. Select an <strong>Access expiration date</strong> for the login. </p> <p>You can repeat this to grant login access to multiple administrators.</p> <p>The settings you choose in this section are visible only to you.
@@ -416,7 +419,7 @@ In diesem Unterabschnitt können folgende Änderungen vorgenommen werden:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL Firma]</strong></td> 
+   <td role="rowheader"><strong>[!UICONTROL Unternehmen]</strong></td> 
    <td>Wählen Sie den Namen des Unternehmens aus der Dropdown-Liste aus, dem Sie angehören.</td> 
   </tr> 
   <tr> 
@@ -498,7 +501,7 @@ Verwenden Sie einen der folgenden Punkte in diesem Abschnitt:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL FTE]</strong> </td> 
-   <td> <p>Die hier angegebene Zahl wird nur dann bei der Berechnung der Verfügbarkeit auf der Grundlage des Standardzeitplans berücksichtigt, wenn die Einstellungen für das [!UICONTROL Resource Management] auf Systemebene auf <strong>[!UICONTROL Der Standardzeitplan] festgelegt sind</strong>.</p> <p>Wenn beispielsweise der FTE-Wert 0,5 beträgt und der [!UICONTROL Default Schedule] 40 Stunden beträgt, können Sie 20 Stunden pro Woche arbeiten.</p> <p>Wenn die Einstellungen für das [!UICONTROL Resource Management] auf Systemebene auf <strong>[!UICONTROL Der Zeitplan des Benutzers] festgelegt </strong>, wird der hier angegebene Wert ignoriert, und Sie können gemäß den Angaben in Ihrem Zeitplan arbeiten. In diesem Fall wird Ihr FTE für den [!UICONTROL Resource Planner] nach der folgenden Formel berechnet: </p> <p><code style="font-style: normal;">[!UICONTROL User Available FTE] = [!UICONTROL Hours from the Schedule of the User/ Default Schedule Hours]</code> </p> <p>Weitere Informationen zur Berechnung des Benutzer-VZÄ finden Sie unter <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Übersicht über die Berechnung von Stunden und VZÄ für Benutzer und Funktionen im Ressourcenplaner</a>.</p> <p>Weitere Informationen zum Erstellen von Zeitplänen in [!DNL Workfront] finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Erstellen eines Zeitplans</a>.</p> <p>Weitere Informationen zum Konfigurieren der Voreinstellungen für die Ressourcenverwaltung finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Voreinstellungen für die Ressourcenverwaltung konfigurieren</a>.</p> </td> 
+   <td> <p>Die hier angegebene Zahl wird nur dann bei der Berechnung der Verfügbarkeit auf der Grundlage des Standardzeitplans berücksichtigt, wenn die Einstellungen für das [!UICONTROL Resource Management] auf Systemebene auf <strong>[!UICONTROL Der Standardzeitplan] festgelegt sind</strong>.</p> <p>Wenn beispielsweise der FTE-Wert 0,5 beträgt und der [!UICONTROL Default Schedule] 40 Stunden beträgt, können Sie 20 Stunden pro Woche arbeiten.</p> <p>Wenn die Einstellungen für das [!UICONTROL Resource Management] auf Systemebene auf <strong>[!UICONTROL Der Zeitplan des Benutzers] festgelegt </strong>, wird der hier angegebene Wert ignoriert, und Sie können gemäß den Angaben in Ihrem Zeitplan arbeiten. In diesem Fall wird Ihr FTE für den [!UICONTROL Resource Planner] nach der folgenden Formel berechnet: </p> <p><code style="font-style: normal;">[!UICONTROL User Available FTE] = [!UICONTROL Hours from the Schedule of the User/ Default Schedule Hours]</code> </p> <p>Weitere Informationen zur Berechnung des Benutzer-VZÄ finden Sie unter <a href="../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md" class="MCXref xref">Übersicht über die Berechnung von Stunden und VZÄ für Benutzer und Funktionen im Ressourcenplaner</a>.</p> <p>Weitere Informationen zum Erstellen eines Zeitplans in [!DNL Workfront] finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Erstellen eines Zeitplans</a>.</p> <p>Weitere Informationen zum Konfigurieren der Voreinstellungen für die Ressourcenverwaltung finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Voreinstellungen für die Ressourcenverwaltung konfigurieren</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Kosten pro Stunde]</strong> </td> 
@@ -526,7 +529,7 @@ Ihr [!DNL Workfront] muss benutzerdefinierte Formulare für das Benutzerobjekt k
 
 ### [!UICONTROL Kommentar]
 
-Sie können einen Kommentar zu Ihrem Benutzerprofil aufzeichnen, der auf der Registerkarte [!UICONTROL &#x200B; gespeichert &#x200B;].
+Sie können einen Kommentar zu Ihrem Benutzerprofil aufzeichnen, der auf der Registerkarte [!UICONTROL  gespeichert ].
 
 Sie können auf das [!UICONTROL Personen]-Symbol klicken, um andere in das Update aufzunehmen.
 

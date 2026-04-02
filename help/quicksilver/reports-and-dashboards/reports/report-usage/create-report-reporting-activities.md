@@ -7,7 +7,9 @@ description: Wenn Sie einen Bericht über Berichte erstellen, können Sie bestim
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 3861ac81-d2e4-4dec-b9cd-96eee0b66a38
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 9%
@@ -101,7 +103,7 @@ Nachdem Sie Ihren Bericht erstellt haben, können Sie Ihre Berichte nach Bedarf 
    * Aktualisieren Sie das Feld **Diesen Bericht ausführen mit den Zugriffsrechten von:** für einen aktiven Benutzer: Weitere Informationen finden Sie unter [Bericht mit den Zugriffsrechten eines anderen Benutzers ausführen und bereitstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md).
 
    * Kopie des Berichts erstellen: Weitere Informationen finden Sie unter [Erstellen einer Kopie eines Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
-   * Löschen eines Berichts: Weitere Informationen finden Sie im Abschnitt [Erstellen einer exakten Kopie &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#update2) Berichts“ des Artikels [Erstellen einer Kopie eines Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+   * Löschen eines Berichts: Weitere Informationen finden Sie im Abschnitt [Erstellen einer exakten Kopie ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#update2) Berichts“ des Artikels [Erstellen einer Kopie eines Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
    * Freigeben eines Berichts: Weitere Informationen finden Sie unter [Freigeben eines Berichts in Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
 

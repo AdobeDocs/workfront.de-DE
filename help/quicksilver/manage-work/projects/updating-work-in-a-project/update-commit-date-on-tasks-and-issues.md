@@ -6,23 +6,27 @@ description: Sie können das Commit-Datum einer Aufgabe oder eines Problems, der
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '599'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
 
-# Aktualisieren von Commit-Terminen für Aufgaben und Probleme
+# Aktualisieren des Verpflichtungsdatums für Aufgaben und Probleme
 
 <!--Audited: 07/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>-->
+<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+-->
 
 Sie können das Commit-Datum einer Aufgabe oder eines Problems, der bzw. dem Sie zugewiesen sind, manuell aktualisieren. Weitere Informationen zu Commit-Daten in Adobe Workfront finden Sie unter [Übersicht über Commit-Datum](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
@@ -72,7 +76,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -108,13 +113,14 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
     </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Voraussetzungen
 
 Bevor Sie das Commit-Datum einer Aufgabe oder eines Problems bearbeiten können, müssen Sie der Aufgabe oder dem Problem zugewiesen sein, deren Commit-Datum Sie aktualisieren müssen.
 
-## Aktualisieren von Commit-Terminen für Aufgaben und Probleme
+## Aktualisieren des Verpflichtungsdatums für Aufgaben und Probleme
 
 
 Sie können das Commit-Datum einer Aufgabe oder eines Problems in den folgenden Bereichen von Workfront aktualisieren:
@@ -134,7 +140,7 @@ Die Aktualisierung des Commit-Datums ist für Aufgaben und Probleme identisch.
 >Weitere Informationen finden Sie in den folgenden Artikeln:
 >
 >* [Übersicht](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [Passen Sie das Bedienfeld Zusammenfassung mithilfe einer Layout-Vorlage &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+>* [Passen Sie das Bedienfeld Zusammenfassung mithilfe einer Layout-Vorlage ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 
 1. Navigieren Sie zu einer Aufgabe oder einem Problem, der bzw. dem Sie als &quot;**&quot; zugewiesen**.

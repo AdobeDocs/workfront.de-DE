@@ -2,19 +2,21 @@
 content-type: reference
 product-area: projects
 navigation-topic: financials
-title: Budgetierte Kosten berechnen
+title: Berechnen der budgetierten Kosten
 description: Budgetierte Kostenverfolgung des Projektfortschritts mit einem Auslastungsbericht berechnen
 author: Lisa
 feature: Work Management
 exl-id: e96fe38f-58c2-4938-9d2d-81d1109123fa
-source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 2%
+ht-degree: 7%
 
 ---
 
-# Budgetierte Kosten berechnen
+# Berechnen der budgetierten Kosten
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -75,9 +77,11 @@ Die budgetierten Kosten, wie sie im Bereich Ressourcenbudgetierung des Business 
     </tr> 
     <tr> 
      <td>Budgetierte Projektkosten</td> 
-     <td> <!--
+     <td>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Estimates report (NOTE: this was removed with flash)</p>
-      --> <p>Projektbericht</p> <p>Bericht zu Projekten (Finanzdaten)</p> <p>Aufgabenbericht</p> <p>Problembericht</p> <p>Bericht zu budgetierten Stunden</p> <p>Weitere Informationen zum Erstellen eines Berichts finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Erstellen eines benutzerdefinierten Berichts</a>.</p> </td> 
+      -->
+      <p>Projektbericht</p> <p>Bericht zu Projekten (Finanzdaten)</p> <p>Aufgabenbericht</p> <p>Problembericht</p> <p>Bericht zu budgetierten Stunden</p> <p>Weitere Informationen zum Erstellen eines Berichts finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Erstellen eines benutzerdefinierten Berichts</a>.</p> </td>
     </tr> 
    </tbody> 
   </table>

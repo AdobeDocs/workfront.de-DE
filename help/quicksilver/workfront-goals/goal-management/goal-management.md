@@ -8,26 +8,29 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: cba07613-9912-4929-bda4-50f503faa3e1
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '247'
-ht-degree: 0%
+ht-degree: 28%
 
 ---
 
-# Zielverwaltung in Adobe Workfront Ziele: Artikelindex
+# Ziel-Management in Adobe Workfront Goals: Artikelindex
 
 <!--Audited: 10/2025-->
 
 >[!NOTE]
 >
->Ihr Unternehmen könnte sich dafür entscheiden, weiterhin Adobe Workfront Goals zu verwenden, wenn es dieses Paket in der Vergangenheit gekauft hat. Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer.
+>Ihr Unternehmen kann sich dafür entscheiden, Adobe Workfront Goals weiterhin zu verwenden, wenn es dieses Paket in der Vergangenheit erworben hat. Weitere Informationen erhalten Sie bei Ihrer Kundenbetreuung.
 >
 >Adobe Workfront Goals ist nicht mehr erhältlich.
 >
->Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Weitere Informationen zum Zugriff auf Workfront Goals finden Sie unter [Voraussetzungen für die Verwendung von Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-<!--Old:
+<!--
+Old:
 
 >[!IMPORTANT]
 >
@@ -67,4 +70,4 @@ In den folgenden Artikeln erfahren Sie, wo Sie mit den Workfront-Zielen beginnen
 * [Filtern von Informationen in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md)
 * [Verwalten von Zielkommentaren in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md)
 * [Aktualisieren von Zielen im Abschnitt „Zieldetails“ in Adobe Workfront-Zielen](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
-* [Überprüfen von in Schwierigkeiten geratenen Zielen in Adobe Workfront Goals](../../workfront-goals/goal-management/view-in-trouble-goals.md)
+* [Überprüfen von Zielen mit Problemen in Adobe Workfront Goals](../../workfront-goals/goal-management/view-in-trouble-goals.md)

@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: Anfragen anzeigen
+title: Anzeigen von Problemen
 description: Sie können Probleme anzeigen, die mit einem Projekt, einer Aufgabe oder einer Iteration verbunden sind.
 author: Alina
 feature: Work Management
 exl-id: b6791c8f-b356-4235-8b0e-952e29a88952
-source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '960'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
-# Anfragen anzeigen
+# Anzeigen von Problemen
 
 <!--Audited: 10/2025-->
 
@@ -21,7 +23,7 @@ Sie können Probleme anzeigen, die mit einem Projekt, einer Aufgabe oder einer I
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,11 +36,11 @@ Sie können Probleme anzeigen, die mit einem Projekt, einer Aufgabe oder einer I
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <ul><li><p>Mitwirkender oder höher</p></li> <li><p>Leichte oder höhere Lizenz zum Anzeigen von Problemen im Abschnitt „Probleme“ eines Projekts.</p></li>
+   <ul><li><p>Mitwirkende oder höher</p></li> <li><p>Leichte oder höhere Lizenz zum Anzeigen von Problemen im Abschnitt „Probleme“ eines Projekts.</p></li>
 
-Oder
+ODER
 
-<ul><li><p>Anfrage oder höher</p></li> <li><p>Überprüfen Sie die Lizenz oder eine höhere Lizenz, um Probleme im Abschnitt Probleme eines Projekts anzuzeigen.</p></li></ul> </td> 
+<ul><li><p>Anfragende oder höher</p></li> <li><p>Überprüfen Sie die Lizenz oder eine höhere Lizenz, um Probleme im Abschnitt Probleme eines Projekts anzuzeigen.</p></li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -55,7 +57,8 @@ Oder
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -169,7 +172,7 @@ So greifen Sie auf ein Problem zu und zeigen Informationen dazu an:
 * **Stunden**: Zeigt eine Liste der Stundeneinträge für das Problem an.
 * **Genehmigungen:** Zeigt die mit dem Problem verbundenen Genehmigungspfade an.
 
-  Weitere Informationen zum Verknüpfen von Genehmigungen mit einem Problem finden Sie [&#x200B; Abschnitt „Verknüpfen eines Genehmigungsprozesses mit einem &#x200B;](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md#associating-the-approval-process-with-an-object)&quot; in [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+  Weitere Informationen zum Verknüpfen von Genehmigungen mit einem Problem finden Sie [ Abschnitt „Verknüpfen eines Genehmigungsprozesses mit einem ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md#associating-the-approval-process-with-an-object)&quot; in [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 ## Anzeigen, welche Projekte und Aufgaben Probleme aufweisen
 

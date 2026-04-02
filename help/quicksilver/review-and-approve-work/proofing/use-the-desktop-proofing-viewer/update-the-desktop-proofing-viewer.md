@@ -1,32 +1,35 @@
 ---
 product-area: documents
 navigation-topic: use-the-desktop-proofing-viewer
-title: Desktop Proofing Viewer aktualisieren
+title: Aktualisieren des Desktop Proofing Viewer
 description: Gelegentlich werden neue Software-Updates mit Verbesserungen und Fehlerbehebungen für den Desktop Proofing Viewer verfügbar. Benutzer können diese Updates ohne Hilfe eines Adobe Workfront-Administrators ausführen.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b29ce9d0-9203-49aa-aa4c-70dee121cd17
-source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '302'
-ht-degree: 0%
+ht-degree: 16%
 
 ---
 
-# Desktop Proofing Viewer aktualisieren
+# Aktualisieren des Desktop Proofing Viewer
 
 Gelegentlich werden neue Software-Updates mit Verbesserungen und Fehlerbehebungen für den Desktop Proofing Viewer verfügbar. Benutzer können diese Updates ohne Hilfe eines Adobe Workfront-Administrators ausführen.
 
 <!--
 >[!IMPORTANT]
 >
->Windows users must manually reinstall the Desktop Proofing Viewer to support Chrome version 91. After manually reinstalling, the Desktop Proofing Viewer upgrades to the latest version (2.0.15). Future updates to the Desktop Proofing Viewer will be automatic. For information in reinstalling, see [Install the Desktop Proofing Viewer](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md). -->
+>Windows users must manually reinstall the Desktop Proofing Viewer to support Chrome version 91. After manually reinstalling, the Desktop Proofing Viewer upgrades to the latest version (2.0.15). Future updates to the Desktop Proofing Viewer will be automatic. For information in reinstalling, see [Install the Desktop Proofing Viewer](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+-->
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+Sie benötigen die folgenden Zugriffsrechte, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +46,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -55,9 +58,9 @@ Der Desktop Proofing Viewer sucht beim Start automatisch nach Aktualisierungen.�
 
 So suchen Sie manuell nach Updates:
 
-1. Klicken Sie auf einer Mac in der Apple **Navigationsleiste über dem Desktop Proofing Viewer auf** 0&rbrace;Workfront Proof **> &lbrack;Über Workfront Proof. &#x200B;**
+1. Klicken Sie auf einer Mac in der Apple **Navigationsleiste über dem Desktop Proofing Viewer auf** 0}Workfront Proof **> [Über Workfront Proof. **
 
-   Oder
+   ODER
 
    Klicken Sie unter Windows **Fenster** > **Über Workfront Proof** in der Menüleiste über dem Desktop Proofing Viewer.
 

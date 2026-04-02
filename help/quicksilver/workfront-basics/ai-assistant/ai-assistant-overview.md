@@ -5,7 +5,9 @@ description: Erfahren Sie mehr über den KI-Assistenten in Adobe Workfront
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 418ea6e9728cb0e8d178fa201ece35328547eedb
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 97%
@@ -141,7 +143,7 @@ So fordern Sie die Adobe GenAI-Vereinbarung an:
    >[!NOTE]
    >
    >* Warten Sie nach der Unterzeichnung und Rückgabe der Vereinbarung 1–3 Werktage, damit Adobe den KI-Assistenten überprüfen und aktivieren kann.
-   >* If you do not see AI Assistant options available in your organization&#39;s instance after it has been enabled, contact Workfront customer support.
+   >* Wenn nach der Aktivierung keine KI-Assistentenoptionen in der Instanz Ihres Unternehmens verfügbar sind, wenden Sie sich an den Kunden-Support von Workfront.
 
 ## Tipps zum Erstellen von Prompts im KI-Assistenten
 
@@ -150,7 +152,7 @@ Verwenden Sie die folgenden Keywords in Ihren Prompts, um Kontext und Hilfe beim
 Geben Sie bei der Eingabe Ihres Prompts den folgenden Text ein: `using (keyword)`.
 
 | Keyword | Ergebnis |
-| --- | --- | 
+| --- | --- |
 | `workfront` | Interagiert mit Workfront. |
 | `planning` | Interagiert mit Workfront-Planung. |
 | `help` | Gibt Informationen aus der Experience League-Dokumentation zurück. |

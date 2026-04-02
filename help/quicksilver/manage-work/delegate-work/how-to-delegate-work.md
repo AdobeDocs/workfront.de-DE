@@ -6,10 +6,12 @@ description: Sie können die Ihnen zugewiesene Arbeit vorübergehend delegieren,
 author: Becky
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1547'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -48,7 +50,7 @@ Allgemeine Informationen zum Delegieren von Arbeit finden Sie unter [Delegieren 
 >* Bei Elementen, die zugewiesen werden, nachdem die Delegierung bereits gestartet wurde, kann es bis zu einer Stunde dauern, nachdem das Element für [!DNL Workfront] zugewiesen wurde, um die neu zugewiesenen Elemente für den Beauftragten freizugeben.
 
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+Sie benötigen die folgenden Zugriffsrechte, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,7 +62,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Mitwirkender oder höher</p><p>Überprüfen oder höher</p>
+   <td> <p>Mitwirkende oder höher</p><p>Überprüfen oder höher</p>
 
 >[!NOTE]
 >
@@ -84,7 +86,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 +++
 
-<!--note from the table for Object permissions:
+<!--
+note from the table for Object permissions:
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project Owner (NOTE: you cannot delegate projects yet)</p>
     -->
 
@@ -171,7 +174,7 @@ So delegieren Sie Ihre Aufgaben und Probleme an andere:
 Sie können eine Delegierung ablaufen lassen, wenn Sie ein Enddatum ausgewählt haben, oder sie manuell beenden. Sie können auch den Zeitrahmen für die Delegierung ändern, wenn sich die Daten für die Delegierung ändern.
 
 1. Gehen Sie zum Bereich [!UICONTROL **Startseite**] und klicken Sie dann in einem der folgenden Widgets auf [!UICONTROL **Delegierung**] Bearbeiten: **Meine Arbeit**, **Meine Aufgaben** oder **Meine Probleme**.
-1. Führen [!UICONTROL &#x200B; im Feld „Beenden des Delegierens von Aufgaben &#x200B;] Problemen“ einen der folgenden Schritte aus:
+1. Führen [!UICONTROL  im Feld „Beenden des Delegierens von Aufgaben ] Problemen“ einen der folgenden Schritte aus:
    * Ändern Sie das [!UICONTROL **Startdatum**] oder das [!UICONTROL **Enddatum**]
    * Klicken Sie auf [!UICONTROL **Delegierung beenden**]
 
@@ -191,13 +194,14 @@ Sie können eine Delegierung ablaufen lassen, wenn Sie ein Enddatum ausgewählt 
 
 ## Delegierte Arbeit suchen und Informationen delegieren
 
-<!--(if this was released, make sure that viewing delegated approvals has not changed, as documented here: /Content/Review and approve work/Manage Approvals/delegate-approval-requests.html) 
+<!--
+(if this was released, make sure that viewing delegated approvals has not changed, as documented here: /Content/Review and approve work/Manage Approvals/delegate-approval-requests.html) 
 -->
 
 Wenn Aufgaben und Probleme delegiert werden, gibt es mehrere Bereiche in [!DNL Workfront], in denen Sie die delegierte Arbeit sehen oder sehen können, wer die Delegierten sind.
 
 * [Suchen Sie die Beauftragten im Feld Zuweisungen .](#locate-delegates-in-the-assignments-box)
-* [Delegierte Arbeit in &quot;[!UICONTROL &quot; &#x200B;]](#locate-delegated-work-in-home)
+* [Delegierte Arbeit in &quot;[!UICONTROL &quot; ]](#locate-delegated-work-in-home)
 
 
 ### Suchen Sie Delegierte im Feld [!UICONTROL Arbeitsaufträge].
@@ -232,7 +236,7 @@ Wenn eine Aufgabe oder ein Problem delegiert wird und die [!UICONTROL Delegierun
 >
 >Die geplanten Stunden oder tatsächlichen Stunden für delegierte Aufgaben und Probleme werden in Ressourcen-Management-Tools wie dem [!UICONTROL Workload-Balancer] oder dem [!DNL Resource Planner] für die delegierten Benutzer nicht berücksichtigt. Die Stunden bleiben nur dem zugewiesenen Benutzer zugeordnet.
 
-### Delegierte Arbeit in &quot;[!UICONTROL &quot; &#x200B;]
+### Delegierte Arbeit in &quot;[!UICONTROL &quot; ]
 
 1. Navigieren Sie zum Bereich [!UICONTROL **Startseite**] im Widget [!UICONTROL **Meine Arbeit**].
 1. Klicken Sie auf das Dropdown-Menü Filter und wählen Sie eine oder mehrere der folgenden Optionen aus:
@@ -261,4 +265,4 @@ Wenn eine Aufgabe oder ein Problem delegiert wird und die [!UICONTROL Delegierun
 
      >[!TIP]
      >
-     >    Wenn der Beginn der Delegierung auf ein Datum nach dem heutigen Datum eingestellt ist, wird das Startdatum der Delegierung auch in der [!UICONTROL Arbeitsliste“ &#x200B;]. Die delegierten Elemente werden in der Gruppierung angezeigt, die Sie für [!UICONTROL Arbeitsliste] je nach Gruppierungstyp auswählen. Wenn Sie beispielsweise nach „Geplantes Abschlussdatum[!UICONTROL &#x200B; gruppieren] werden die delegierten Elemente in der Gruppierung angezeigt, die ihren geplanten Abschlussdaten entspricht.
+     >    Wenn der Beginn der Delegierung auf ein Datum nach dem heutigen Datum eingestellt ist, wird das Startdatum der Delegierung auch in der [!UICONTROL Arbeitsliste“ ]. Die delegierten Elemente werden in der Gruppierung angezeigt, die Sie für [!UICONTROL Arbeitsliste] je nach Gruppierungstyp auswählen. Wenn Sie beispielsweise nach „Geplantes Abschlussdatum[!UICONTROL  gruppieren] werden die delegierten Elemente in der Gruppierung angezeigt, die ihren geplanten Abschlussdaten entspricht.

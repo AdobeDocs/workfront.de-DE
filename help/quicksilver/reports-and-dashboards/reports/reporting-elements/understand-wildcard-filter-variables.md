@@ -7,7 +7,9 @@ description: Durch die Verwendung von Platzhaltern in Filtern können Sie auf al
 author: Courtney
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1439'
 ht-degree: 100%
@@ -18,12 +20,14 @@ ht-degree: 100%
 
 <!-- Audited: 11/2024 -->
 
-<!--(NOTE: This article is linked to the training self-serve promoted articles for user-based and date-based wildcards (how-to articles). This serves as the "overview/ reference" article for those articles. Consider renaming this when that is allowed.)
+<!--
+(NOTE: This article is linked to the training self-serve promoted articles for user-based and date-based wildcards (how-to articles). This serves as the "overview/ reference" article for those articles. Consider renaming this when that is allowed.)
 (NOTE: Alina: ***&gt;&gt;Linked in other articles - do not move/ delete.
 This was included but it is not supported???:
 The $$USER.roleIDs variable refers to all the job roles that are associated with the logged-in user. Using this variable, you can&nbsp; items assigned to all of the job roles associated with the logged-in user.
 For example, if you want to display tasks assigned to any of the job roles associated with the logged-in user, you can use the following filter rule in a task filter:
-AssignedToID Equals $$USER.roleIDs.)-->
+AssignedToID Equals $$USER.roleIDs.)
+-->
 
 Mithilfe von Platzhaltern können Sie auf allgemeine Benutzende und ein Datum anstelle von bestimmten Benutzenden oder einem Datum verweisen. Auf diese Weise sind die von Ihnen erstellten Elemente dynamisch. Die Ergebnisse ändern sich je nach dem Kontext, in dem sie verwendet werden.
 
@@ -128,9 +132,11 @@ Sie können unter folgenden benutzerbasierten Variablen wählen:
  <tbody> 
   <tr valign="top"> 
    <td width="200" role="rowheader"> <p><strong>$$USER.ID</strong> </p> </td> 
-   <td> <!--
+   <td>
+   <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: : should these be formatted with code?!) </p>
-    --> <p>Die häufigste benutzerbasierte Variable ist $$USER.ID. Dadurch wird immer die ID der angemeldeten Person zurückgegeben. Dies ist die ID, über die ermittelt wird, welche Person die einzelnen Objekte und deren Arbeitsaufträge erstellt hat.</p> <p>Bei Verwendung in Berichten verringert dieser Platzhalter die Anzahl der Berichte, die Sie in Ihrem System erstellen müssen. Sie können einen Bericht erstellen und ihn für mehrere Benutzende freigeben. Die Ergebnisse ändern sich je nach der Person, die angemeldet ist und sich den Bericht ansieht.</p> <p>Um beispielsweise einen Bericht für alle Probleme zu erstellen, die der angemeldeten Person zugewiesen sind, können Sie die folgende Regel in einem Problemfilter verwenden: <em>Der ID zugewiesen ist gleich $$USER.ID</em>.</p> <p>Workfront verwendet diese Variable in den folgenden integrierten Filtern:</p> 
+    -->
+    <p>Die häufigste benutzerbasierte Variable ist $$USER.ID. Dadurch wird immer die ID der angemeldeten Person zurückgegeben. Dies ist die ID, über die ermittelt wird, welche Person die einzelnen Objekte und deren Arbeitsaufträge erstellt hat.</p> <p>Bei Verwendung in Berichten verringert dieser Platzhalter die Anzahl der Berichte, die Sie in Ihrem System erstellen müssen. Sie können einen Bericht erstellen und ihn für mehrere Benutzende freigeben. Die Ergebnisse ändern sich je nach der Person, die angemeldet ist und sich den Bericht ansieht.</p> <p>Um beispielsweise einen Bericht für alle Probleme zu erstellen, die der angemeldeten Person zugewiesen sind, können Sie die folgende Regel in einem Problemfilter verwenden: <em>Der ID zugewiesen ist gleich $$USER.ID</em>.</p> <p>Workfront verwendet diese Variable in den folgenden integrierten Filtern:</p>
     <ul> 
      <li>Meine Berichte</li> 
      <li>Meine Projekte</li> 

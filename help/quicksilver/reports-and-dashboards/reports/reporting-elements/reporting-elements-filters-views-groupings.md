@@ -6,7 +6,9 @@ description: Die Hauptelemente, die jede Liste und jeder Bericht in Workfront ha
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5697905e-42c0-403b-85d4-798a1a3a2e7f
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 1%
@@ -17,11 +19,13 @@ ht-degree: 1%
 
 <!-- Audited: 11/2024 -->
 
-<!--AL: Add information here about all the different kinds of FVGs: in reports, in lists, beta, etc // OR: this article should be a high-level overview of reporting elements. Then, each type of element should have:</p>
+<!--
+AL: Add information here about all the different kinds of FVGs: in reports, in lists, beta, etc // OR: this article should be a high-level overview of reporting elements. Then, each type of element should have:</p>
 <p>- overview for Filters</p>
 <p>- create a filter</p>
 <p>- share a filter</p>
-<p>ALL in Reporting elements but the Shared ones should be linked to Basics> Sharing; some of the articles in the Basics> Navigation> Use lists might beed to link here as well-->
+<p>ALL in Reporting elements but the Shared ones should be linked to Basics> Sharing; some of the articles in the Basics> Navigation> Use lists might beed to link here as well
+-->
 
 Es gibt mehrere Elemente, die eine Liste oder einen Bericht in Adobe Workfront ermöglichen. Die Hauptelemente, die jede Liste und jeder Bericht aufweisen muss, sind ein Filter, eine Ansicht und eine Gruppierung. Jedes Element liefert verschiedene Informationen innerhalb eines Berichts.
 
@@ -39,7 +43,7 @@ Beachten Sie beim Arbeiten mit Filtern, Ansichten und Gruppierungen Folgendes:
 
   Informationen zum Gewähren des Zugriffs auf Berichte, Dashboards und Kalender finden Sie unter [Gewähren des Zugriffs auf Berichte, Dashboards und Kalender](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
-* Wenn Sie einen Filter, eine Ansicht oder eine Gruppierung für einen Bericht oder eine Liste auswählen, behält Workfront diese Auswahl für die Listen dieses Objekts auch nach dem Abmelden oder Schließen des Browsers bei. Wenn Sie beispielsweise eine bestimmte Ansicht für einen Aufgabenbericht auswählen, wird diese Auswahl für andere Aufgabenlisten angezeigt, z. B. für die Liste der Aufgaben für ein Projekt.
+* Wenn Sie einen Filter, eine Ansicht oder eine Gruppierung in einem Bericht oder einer Liste auswählen, behält Workfront diese Auswahl für die Listen dieses Objekts auch nach dem Abmelden oder Schließen des Browsers bei. Wenn Sie beispielsweise eine bestimmte Ansicht für einen Aufgabenbericht auswählen, wird diese Auswahl für andere Aufgabenlisten angezeigt, z. B. für die Liste der Aufgaben für ein Projekt.
 
 ## Filter
 
@@ -72,7 +76,7 @@ Einige Attribute von Ansichten sind:
 
 Eine Gruppierung steuert, wie Sie Daten organisieren, sodass sie leichter zu lesen und zu verstehen sind. Gruppierungen erstellen horizontale Balken innerhalb eines Berichts, in denen die Ergebnisse nach gemeinsamen Attributen aufgelistet werden. Sie definieren die Kriterien dafür, wie die Ergebnisse Ihres Berichts bei der Gruppierung gruppiert werden sollen.
 
-Wenn Sie beispielsweise eine Liste von Vorgängen gruppieren, die sich über mehrere Projekte erstrecken, und deren Projektnamen angeben, werden alle entsprechenden Vorgänge organisiert, die zu einem einzelnen Projekt unter diesem Namen gehören.
+Wenn Sie beispielsweise eine Liste von Aufgaben gruppieren, die mehrere Projekte umfassen, werden alle entsprechenden Aufgaben, die zu einem einzelnen Projekt gehören, unter diesem Namen organisiert.
 
 Einige Attribute von Gruppierungen sind:
 

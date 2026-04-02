@@ -6,10 +6,12 @@ description: Der Dauertyp einer Aufgabe gibt die Beziehung zwischen der Anzahl d
 author: Alina
 feature: Work Management
 exl-id: 2f01566c-c3e0-4f59-bf53-2a67806a205c
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '292'
-ht-degree: 13%
+ht-degree: 21%
 
 ---
 
@@ -49,7 +51,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -72,14 +75,15 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    <td> <p>Manage access to the task </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Aktualisieren des Dauertyps einer Aufgabe
 
 Zusätzlich zur Aktualisierung des Dauertyps einer Aufgabe, wie in diesem Artikel beschrieben, können Sie den Dauertyp auch aktualisieren, wenn Sie eine Aufgabe bearbeiten oder erweiterte Zuweisungen vornehmen. Weitere Informationen finden Sie unter:
 
 * [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
-* [Erweiterte Zuweisungen erstellen](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
+* [Erstellen erweiterter Arbeitsaufträge](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
 
 So aktualisieren Sie den Dauertyp einer Aufgabe:
 

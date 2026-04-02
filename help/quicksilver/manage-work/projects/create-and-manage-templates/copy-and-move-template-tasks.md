@@ -1,25 +1,27 @@
 ---
 product-area: templates
 navigation-topic: templates-navigation-topic
-title: Vorlagenaufgaben kopieren und verschieben
+title: Kopieren und Verschieben von Vorlagenaufgaben
 description: Sie können eine Vorlagenaufgabe in dieselbe Vorlage oder in eine andere Vorlage kopieren oder verschieben.
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2090'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
-# Vorlagenaufgaben kopieren und verschieben
+# Kopieren und Verschieben von Vorlagenaufgaben
 
 Sie können eine Vorlagenaufgabe von einer Vorlage in eine andere Vorlage kopieren oder sie entweder in eine andere Vorlage oder an eine andere Stelle in derselben Vorlage verschieben.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +34,7 @@ Sie können eine Vorlagenaufgabe von einer Vorlage in eine andere Vorlage kopier
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p>
-   <p>Plan</p> </td> 
+   <p>Abo</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -45,11 +47,12 @@ Sie können eine Vorlagenaufgabe von einer Vorlage in eine andere Vorlage kopier
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -72,7 +75,8 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    <td> <p>Manage permissions to a template.</p> <p>You cannot share a template task.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Überlegungen zum Kopieren oder Verschieben von Vorlagenaufgaben
 

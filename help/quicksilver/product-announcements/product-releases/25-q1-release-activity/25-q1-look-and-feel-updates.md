@@ -5,7 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 0%
@@ -16,7 +18,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden kleinere Aktualisierungen des Erscheinungsbilds verschiedener Bereiche der Adobe Workfront-Anwendung beschrieben, die innerhalb des Zeitrahmens des ersten Quartals 2025 vorgenommen wurden.
 
-Eine Liste aller in der Version für das erste Quartal 2025 verfügbaren Änderungen finden Sie unter [Übersicht zur Version für das erste Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+Eine Liste aller Änderungen, die mit der Version vom ersten Quartal 2025 verfügbar sind, finden Sie unter [Übersicht über die Version vom ersten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
 
 ## Lookand-Feel-Aktualisierungen zum Bearbeiten von Stundeneinträgen aus einer Stundenliste oder einem Bericht
@@ -34,29 +36,29 @@ Weitere Informationen finden Sie unter [Zeit erfassen](/help/quicksilver/timeshe
 
 >[!NOTE]
 >
->Vorschauversion: 5. Dezember 2024; Produktionsversion für alle Kunden: Mit der Version 24.12 (12. Dezember 2024)
+>Vorschau-Version: 5. Dezember 2024; Produktionsversion für alle Kunden: Mit der Version 24.12 (12. Dezember 2024)
 
-Zur Verbesserung der Leistung haben wir im Bereich &quot;Einrichtung&quot; visuelle Updates auf der Seite &quot;Cloud-Anbieter&quot; vorgenommen.
+Um die Leistung zu verbessern, haben wir die Seite „Cloud-Anbieter“ im Bereich „Setup“ visuell aktualisiert.
 
-Eine kleine Funktionsänderung wurde auf die Quip-Integration angewendet. Anstatt Client-ID und Client-Geheimnis direkt auf der Seite der Cloud-Anbieter einzugeben, müssen Sie auf das Symbol &quot;Bearbeiten&quot; klicken, um diese Felder sichtbar zu machen.
+Eine kleine Funktionsänderung wurde auf die Quip-Integration angewendet. Anstatt die Client-ID und den geheimen Client-Schlüssel direkt auf der Seite „Cloud-Anbieter“ einzugeben, müssen Sie auf das Symbol Bearbeiten klicken, um diese Felder sichtbar zu machen.
 
-## Look-and-Feel-Update für Dialogfeld &quot;Zugriff anfordern&quot;
+## Aktualisierung des Erscheinungsbilds für das Dialogfeld „Zugriff anfordern“
 
 >[!NOTE]
 >
 >Vorschau-Version: 28. November 2024; Produktion für die schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (16. Januar 2025)
 
-Das Dialogfeld zum Anfordern des Zugriffs auf Objekte wurde auf ein moderneres Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist. Dieses Dialogfeld ist verfügbar, wenn Sie den Zugriff auf Projekte, Aufgaben, Probleme, Programme, Portfolios, Vorlagen und Vorlagenaufgaben anfordern.
+Das Dialogfeld für das Anfordern des Zugriffs auf Objekte wurde aktualisiert, um ein moderneres Design zu erhalten, das mit anderen Bereichen von Workfront übereinstimmt. Dieses Dialogfeld ist verfügbar, wenn Sie Zugriff auf Projekte, Aufgaben, Probleme, Programme, Portfolios, Vorlagen und Vorlagenaufgaben anfordern.
 
 Weitere Informationen finden Sie unter [Zugriff auf Objekte anfordern](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md).
 
-## Look-and-Feel-Updates für Dokumentintegrationen
+## Lookand-Feel-Aktualisierungen für Dokumentenintegrationen
 
 >[!NOTE]
 >
->Preview-Version: 14. November 2024; Produktionsversion für alle Kunden: 14. November 2024
+>Vorschau-Version: 14. November 2024; Produktionsversion für alle Kunden: 14. November 2024
 
-Wir haben Leistungs-Upgrades auf den Bereich im Setup durchgeführt, in dem Sie benutzerdefinierte Integrationen konfigurieren: Setup > Dokumente > Benutzerdefinierte Integration. Dieses Upgrade beinhaltet leichte visuelle Änderungen am Bereich. Die Funktionalität wurde nicht geändert.
+Wir haben Leistungsverbesserungen für den Bereich in Setup vorgenommen, in dem Sie benutzerdefinierte Integrationen konfigurieren können: Einrichtung > Dokumente > Benutzerdefinierte Integration. Dieses Upgrade beinhaltet geringfügige visuelle Änderungen am Bereich. Die Funktionalität wurde nicht geändert.
 
 ## Lookand-Feel-Aktualisierungen für die Seiten „Firmenmitglieder“ und „Firmen-Abrechnungssätze“
 
@@ -64,9 +66,9 @@ Wir haben Leistungs-Upgrades auf den Bereich im Setup durchgeführt, in dem Sie 
 >
 >Vorschau-Version: 4. November 2024; Produktion für die schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (16. Januar 2025)
 
-Wir haben die Seiten „Mitglieder des Unternehmens“ und „Abrechnungssätze des Unternehmens“ mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist. Auf Firmenmitgliedschaften kann über Einrichtung > Unternehmen > Firmennamen auswählen > Firmenmitglieder im linken Bereich auswählen zugegriffen werden. Die Abrechnungssätze für Unternehmen sind über Setup > Firmen > Firmenname auswählen > Abrechnungssätze im linken Bedienfeld auswählen zugänglich.
+Wir haben die Seiten „Mitglieder des Unternehmens“ und „Abrechnungssätze des Unternehmens“ mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist. Auf Firmenmitgliedschaften kann über Setup > Firmen > Firmennamen auswählen > Firmenmitglieder im linken Bereich auswählen zugegriffen werden. Die Abrechnungssätze für Unternehmen sind über Setup > Firmen > Firmenname auswählen > Abrechnungssätze im linken Bedienfeld auswählen zugänglich.
 
-Weitere Informationen finden Sie unter [Unternehmen erstellen und bearbeiten](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) und [Firmenmitgliedschaften verwalten](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
+Weitere Informationen finden Sie unter [Erstellen und Bearbeiten von ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) und [Verwalten von Unternehmensmitgliedschaften](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
 
 ## Aktualisierungen des Erscheinungsbilds für die Haupt- und sekundären Navigationsbereiche
 
@@ -78,28 +80,28 @@ Die Hauptnavigationsbereiche und die sekundären Navigationsbereiche von Workfro
 
 Die auffälligsten Änderungen sind:
 
-* Die Dropdown-Listen Favoriten und Zuletzt ausgewertet verfügen nicht mehr über eine Schaltfläche Schließen . Klicke außerhalb des Bildschirms, oder drücke die Esc-Taste, um ihn zu schließen.
-* Sie können angeheftete Seiten nicht mehr per Drag &amp; Drop anordnen. Stattdessen gibt es ein Dropdown-Menü mit Schaltflächen, mit denen Sie Ihre angehefteten Seiten verschieben können.
+* Die Dropdown-Listen Favoriten und Zuletzt ausgewertet verfügen nicht mehr über eine Schaltfläche Schließen . Sie können einfach auf eine andere Stelle des Bildschirms klicken oder ESC auf der Tastatur drücken, um ihn zu schließen.
+* Sie können angeheftete Seiten nicht mehr per Drag-and-Drop verschieben, um sie anzuordnen. Stattdessen gibt es ein Dropdown-Menü mit Schaltflächen, über die Sie Ihre angehefteten Seiten verschieben können.
 
-## Look-and-Feel-Aktualisierungen der Wechselkursliste
+## Lookand-Feel-Aktualisierungen für die Liste der Wechselkurse
 
 >[!NOTE]
 >
->Vorschauversion: 4. November 2024; Produktion für die schnelle Version: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Version: Mit der Version 25.1 (16. Januar 2025)
+>Vorschau-Version: 4. November 2024; Produktion für die schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (16. Januar 2025)
 
 Im Setup-Bereich von Workfront wird ein neues Listenformat eingeführt, und die Wechselkursliste ist die erste Seite, die dieses Tabellenformat verwendet. Die Funktionalität zum Hinzufügen neuer Wechselkurse und zum Suchen nach Wechselkursen hat sich nicht geändert.
 
-Weitere Informationen zu Wechselkursen finden Sie unter [Wechselkurse einrichten](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+Informationen zu Wechselkursen finden Sie unter [Einrichten von Wechselkursen](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
-## Look-and-Feel-Updates für die Seite &quot;Daten exportieren (Kickstarts)&quot;
+## Lookand-Feel-Aktualisierungen für die Seite „Daten exportieren (Kickstarts)“
 
 >[!NOTE]
 >
->Vorschauversion: 4. November 2024; Produktion für die schnelle Version: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Version: Mit der Version 25.1 (16. Januar 2025)
+>Vorschau-Version: 4. November 2024; Produktion für die schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (16. Januar 2025)
 
-Wir haben die Seite &quot;Daten exportieren (Kick-Starts)&quot; im Bereich &quot;Einrichtung&quot; mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront übereinstimmt.
+Die Seite Daten exportieren (Kickstarts) im Bereich Setup wurde durch ein moderneres Design ergänzt, das zu anderen Bereichen von Workfront passt.
 
-Weitere Informationen finden Sie unter [Exportieren von Daten aus Workfront über Kick-Starts](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+Weitere Informationen finden Sie unter [Exportieren von Daten aus Workfront über Kickstarts](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
 ## Look-and-Feel-Aktualisierung für das Fenster Update an Benutzer senden
 

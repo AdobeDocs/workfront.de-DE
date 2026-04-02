@@ -3,17 +3,19 @@ title: Vergleichen der Funktionalität zwischen Lizenzmodellen
 user-type: administrator
 content-type: reference
 product-area: system-administration
-keywords: Zugriff,Ebene,System,Administrator,Standard,Licht,Mitwirkende
+keywords: Zugriff,Ebene,System,Admin,Standard,Light,Mitwirkende
 navigation-topic: access-levels
 description: Hier finden Sie einen Vergleich der Funktionen, die für verschiedene Lizenzen im alten und neuen Lizenzierungsmodell verfügbar sind.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 101a0ce2-dfa6-44ea-a197-22bc85ef50f5
-source-git-commit: 1f1db1c9184a6a8a2abcd3139e4e4e61d2f08bc4
+last-update: 2026-04-01T18:23:03Z
+git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 37%
+ht-degree: 43%
 
 ---
 
@@ -39,8 +41,10 @@ In der folgenden Tabelle sind die Funktionen aufgeführt, die für Lizenzen im a
   <tr> 
    <th> </th> 
    <th colspan="5">[!UICONTROL Legacy]</th> 
-   <!--<th>[!UICONTROL Requestor]</th> 
-   <th>[!UICONTROL External]</th> -->
+   <!--
+   <th>[!UICONTROL Requestor]</th> 
+   <th>[!UICONTROL External]</th>
+   -->
    <th colspan="3">[!UICONTROL Neu]</th> 
    </tr> 
  </thead> 
@@ -49,9 +53,9 @@ In der folgenden Tabelle sind die Funktionen aufgeführt, die für Lizenzen im a
    <th> </th> 
    <th>[!UICONTROL Planer]</th> 
    <th>[!UICONTROL Worker]</th> 
-   <th>[!UICONTROL Reviewer]</th> 
-  <th>[!UICONTROL -Anforderer]</th> 
-   <th>[!UICONTROL extern]</th>
+   <th>[!UICONTROL Prüfer]</th> 
+  <th>[!UICONTROL-Anforderer]</th> 
+   <th>[!UICONTROL Extern]</th>
    <th>[!UICONTROL Standard]</th> 
    <th>[!UICONTROL light]</th> 
    <th>[!UICONTROL Contributor]</th> 
@@ -136,7 +140,7 @@ In der folgenden Tabelle sind die Funktionen aufgeführt, die für Lizenzen im a
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Anfragen senden</td> 
+   <td>Senden von Anfragen</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -381,5 +385,7 @@ In der folgenden Tabelle sind die Funktionen aufgeführt, die für Lizenzen im a
 </table>
 
 
-<!--WFPlanning is Ultimate only>
+<!--
+WFPlanning is Ultimate only>
+-->
 <!--Environment promotion is Prime and Ultimate only-->

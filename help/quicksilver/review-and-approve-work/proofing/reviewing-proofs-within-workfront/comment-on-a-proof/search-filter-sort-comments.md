@@ -1,25 +1,27 @@
 ---
 product-area: documents
 navigation-topic: comment-on-a-proof
-title: Kommentare zu Korrekturabzügen suchen, filtern und sortieren
+title: Durchsuchen, Filtern und Sortieren von Kommentaren zu Korrekturabzügen
 description: Sie können Korrekturabzugskommentare suchen, filtern und sortieren, um einfach durch das Feedback zu Inhalten zu navigieren.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03edaa7e-08c3-4ab1-83ab-747694cf1c17
-source-git-commit: fe269b088c82e7045ffbb5155d54432e0b413cbe
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '787'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
-# Kommentare zu Korrekturabzügen suchen, filtern und sortieren
+# Durchsuchen, Filtern und Sortieren von Kommentaren zu Korrekturabzügen
 
 Sie können Korrekturabzugskommentare suchen, filtern und sortieren, um einfach durch das Feedback zu Inhalten zu navigieren.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,17 +36,17 @@ Sie können Korrekturabzugskommentare suchen, filtern und sortieren, um einfach 
    <td> <p>Beliebig</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof-Berechtigungsprofil </td> 
+   <td role="rowheader">Korrekturabzug-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> </td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -89,9 +91,11 @@ Sie können die angezeigten Kommentare filtern, indem Sie Filterparameter wie Be
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Aktionen</strong> </td> 
-      <td>Zeigt nur Kommentare an, die der ausgewählten Aktion entsprechen. Keine Aktion. Aktionen müssen in Ihrem System aktiviert sein. Weitere Informationen finden Sie unter .<!--
+      <td>Zeigt nur Kommentare an, die der ausgewählten Aktion entsprechen. Keine Aktion. Aktionen müssen in Ihrem System aktiviert sein. Weitere Informationen finden Sie unter .
+      <!--
         &nbsp;
-       --></td> 
+       -->
+       </td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Allgemeine Filteroptionen</strong> </td> 
@@ -133,7 +137,7 @@ Wenn Sie die Kommentarliste sortieren, wird die von Ihnen gewählte Sortieroptio
       <td>Für alle Korrekturabzüge verfügbar</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Älteste</td> 
+      <td role="rowheader">Oldest</td> 
       <td>Zeigt die ältesten Kommentare oben in der Kommentarliste an. Dies ist der Standardwert. </td> 
       <td>Für alle Korrekturabzüge verfügbar</td> 
      </tr> 

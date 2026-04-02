@@ -1,18 +1,20 @@
 ---
-title: Verbesserungen für Anfragen im vierten Quartal 2025
-description: Verbesserungen für Anfragen im vierten Quartal 2025
+title: Verbesserungen bei Anfragen im vierten Quartal 2025
+description: Verbesserungen bei Anfragen im vierten Quartal 2025
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: 94e81f50ca38ab8139684887c58e0f00353587d7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
-# Verbesserungen für Anfragen im vierten Quartal 2025
+# Verbesserungen bei Anfragen im vierten Quartal 2025
 
 Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom vierten Quartal 2025 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
@@ -22,9 +24,9 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2025-Ve
 
 >[!NOTE]
 >
->Vorschau: 2. Oktober 2025
->&#x200B;>Produktions-Schnellveröffentlichung: 15. Oktober 2025
->&#x200B;>Produktion für alle: 16. Oktober 2025
+>Vorschau: Freitag, 2. Oktober 2025
+>Produktions-Schnellveröffentlichung: Donnerstag, 15. Oktober 2025
+>Produktion für alle: Freitag, 16. Oktober 2025
 
 Um die Anzeige der benötigten Informationen zu vereinfachen, haben wir die Möglichkeit hinzugefügt, Ansichten im Bereich Anfragen zu erstellen und zu speichern. Jetzt können Sie eine Ansicht, einschließlich Filtern und Spaltenkonfigurationen, speichern und zwischen Ansichten wechseln. Ein Workfront-Administrator kann die neue Ansicht zu Layout-Vorlagen hinzufügen.
 
@@ -32,7 +34,8 @@ Zuvor konnten Filter und Spaltenkonfigurationen nicht gespeichert werden.
 
 Weitere Informationen und Anweisungen finden Sie unter [Erstellen von Ansichten im Bereich Anfragen](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
 
-<!--## New combined Status column in unified Request list 
+<!--
+## New combined Status column in unified Request list 
 
 >[!NOTE]
 >
@@ -45,15 +48,16 @@ To simplify the unified request experience, the Status column now displays both 
 For more information on creating requests see:
 
 * For Workfront: [Create and submit requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
-* For Workfront Planning: [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)-->
+* For Workfront Planning: [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)
+-->
 
 ## Aktualisierungen beim Anfordern von Erlebnissen
 
 >[!NOTE]
 >
 >* Vorschau: 21. August 2025
->* Produktions-Schnellveröffentlichung: 11. September 2025
->* Produktion für alle Kunden: 16. Oktober 2025
+>* Produktions-Schnellveröffentlichung: Freitag, 11. September 2025
+>* Produktion für alle: Freitag, 16. Oktober 2025
 
 Um bei Anfragen in Workfront und Workfront Planning ein besseres Benutzererlebnis zu schaffen, haben wir das anfragende Erlebnis aktualisiert.
 

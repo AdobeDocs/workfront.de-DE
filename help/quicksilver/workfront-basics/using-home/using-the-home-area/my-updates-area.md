@@ -1,24 +1,28 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: Verwenden des Bereichs Meine Aktualisierungen
+title: Verwenden des Bereichs „Meine Aktualisierungen“
 description: Im Bereich [!UICONTROL Meine Updates] können Sie schnell die Genehmigungen überprüfen, die auf Ihre Entscheidung warten, oder die Konversationen, in die Sie aufgenommen wurden.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '779'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
 
 # Verwenden Sie den Bereich [!UICONTROL Meine Aktualisierungen].
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 Im Bereich [!UICONTROL Meine Updates] können Sie schnell die Genehmigungen überprüfen, die auf Ihre Entscheidung warten, oder die Konversationen, in die Sie aufgenommen wurden.
@@ -27,11 +31,11 @@ Als Benutzer mit einer [!UICONTROL Review]-Lizenz finden Sie standardmäßig den
 
 Informationen zu [!DNL Adobe Workfront] finden Sie unter [[!DNL Adobe Workfront] Lizenzen - Übersicht](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
-Wenn Sie einen anderen Lizenztyp als „Überprüfen“ haben, muss der [!DNL Workfront]- oder Gruppenadministrator den Bereich &quot;[!UICONTROL &#x200B; Updates] zu Ihrer Layoutvorlage hinzufügen, um ihn im Hauptmenü anzuzeigen. Weitere Informationen finden Sie unter [Anpassen des [!UICONTROL Hauptmenüs] mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+Wenn Sie einen anderen Lizenztyp als „Überprüfen“ haben, muss der [!DNL Workfront]- oder Gruppenadministrator den Bereich &quot;[!UICONTROL  Updates] zu Ihrer Layoutvorlage hinzufügen, um ihn im Hauptmenü anzuzeigen. Weitere Informationen finden Sie unter [Anpassen des [!UICONTROL Hauptmenüs] mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,8 +47,8 @@ Wenn Sie einen anderen Lizenztyp als „Überprüfen“ haben, muss der [!DNL Wo
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz</strong></td> 
-   <td> <p>Mitwirkender oder höher</p>
-   <p>Anfrage oder höher</p> </td> 
+   <td> <p>Mitwirkende oder höher</p>
+   <p>Anfragende oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfiguration der Zugriffsebene</strong></td> 
@@ -114,7 +118,7 @@ Die Genehmigungen und Zugriffsanfragen, die Ihnen zugewiesen wurden, werden in d
 
    1. (Optional) Klicken Sie auf das **Dropdown**-Symbol ![Dropdown-Symbol](assets/down-arrow-blue.png) neben Ihrer Genehmigungsentscheidung (**[!UICONTROL Genehmigen]**, **[!UICONTROL Änderungen]**,**[!UICONTROL Ablehnen]**) und fügen Sie einen Kommentar hinzu und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
 
-      Oder
+      ODER
 
       Klicken Sie **[!UICONTROL Überspringen]**, wenn Sie keinen Kommentar eingeben möchten.
 
@@ -137,7 +141,7 @@ Die Genehmigungen und Zugriffsanfragen, die Ihnen zugewiesen wurden, werden in d
 
 1. Klicken Sie **[!UICONTROL Zugriff gewähren]**, um die an Sie gesendete Zugriffsanfrage zu gewähren
 
-   Oder
+   ODER
 
    Erweitern Sie das **[!UICONTROL Zugriff ändern]** Dropdown-Menü, um den Zugriff zu ändern, der vor der Gewährung angefordert wurde.
 

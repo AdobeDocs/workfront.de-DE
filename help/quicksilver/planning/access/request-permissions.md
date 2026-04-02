@@ -6,24 +6,28 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
-source-git-commit: c879d06cfe7ba76df3e974c160a7349f1503f17f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
 # Anfordern von Berechtigungen für eine Ansicht oder einen Arbeitsbereich
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 >[!IMPORTANT]
 >
 >Die in diesem Artikel beschriebene Funktion ist nur verfügbar, wenn Ihr Unternehmen in das einheitliche Adobe-Erlebnis integriert wurde.
 >
->Weitere Informationen finden Sie unter [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>Weitere Informationen finden Sie unter [Adobe Unified Experience für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 
 Sie können Berechtigungen für eine Ansicht oder einen Arbeitsbereich anfordern, wenn jemand einen Link zur Ansicht oder zum Arbeitsbereich, auf den Sie keinen Zugriff haben, für Sie freigibt.
@@ -34,13 +38,13 @@ In diesem Artikel wird beschrieben, wie Sie Zugriff auf eine Ansicht oder einen 
 
 Informationen zum Gewähren von Berechtigungen für Ansichten und Arbeitsbereiche finden Sie in den folgenden Artikeln:
 
-* [Ansichten freigeben](/help/quicksilver/planning/access/share-views.md)
+* [Freigeben von Ansichten](/help/quicksilver/planning/access/share-views.md)
 * [Freigeben von Arbeitsbereichen](/help/quicksilver/planning/access/share-workspaces.md)
 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -53,7 +57,7 @@ Informationen zum Gewähren von Berechtigungen für Ansichten und Arbeitsbereich
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
 <p>Beliebiges Workfront- und Planungspaket</p> 
-Oder
+ODER
 <p>Beliebiges Workflow- und Planungspaket</p> 
  </tr>
 
@@ -89,7 +93,8 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 +++
 
-<!--Old:
+<!--
+ Old:
  
  <table style="table-layout:auto"> 
 <col> 
@@ -157,7 +162,8 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
   </tr>
  
 </tbody> 
-</table> -->
+</table>
+-->
 
 
 ## Berechtigungen für eine Ansicht oder einen Arbeitsbereich anfordern

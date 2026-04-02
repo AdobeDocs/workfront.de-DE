@@ -7,10 +7,12 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1061'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
@@ -80,7 +82,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -117,7 +120,7 @@ So erstellen Sie Aufgaben in einem Projekt:
 1. Wechseln Sie zu dem Projekt, in dem Sie eine Aufgabe erstellen möchten.
 1. Klicken Sie **linken** auf „Aufgaben“.
 1. (Bedingt) Wenn Sie die Aufgabenliste derzeit in einer Agile-Ansicht anzeigen, klicken Sie auf das **Listenansicht**-Symbol ![Listenansicht in der Agile-Ansicht für Aufgaben](assets/list-view-in-agile-view-for-tasks.png) in der oberen rechten Ecke, um die Aufgabenliste anzuzeigen.
-1. (Optional) Klicken Sie auf das **Planmodus**-Symbol ![Planmodus-Symbol für &#x200B;](assets/nwe-plan-mode-icon-task-list.png) Aufgabenliste) und wählen Sie **Manuelles Speichern** aus und wählen Sie dann entweder **Standard** oder **Timeline Planning**. Hiermit wird die Option **Automatisches Speichern** deaktiviert, die standardmäßig aktiviert ist.
+1. (Optional) Klicken Sie auf das **Planmodus**-Symbol ![Planmodus-Symbol für ](assets/nwe-plan-mode-icon-task-list.png) Aufgabenliste) und wählen Sie **Manuelles Speichern** aus und wählen Sie dann entweder **Standard** oder **Timeline Planning**. Hiermit wird die Option **Automatisches Speichern** deaktiviert, die standardmäßig aktiviert ist.
 
    ![Wählen Sie Manuelles Speichern](assets/manual-save-option.png)
 

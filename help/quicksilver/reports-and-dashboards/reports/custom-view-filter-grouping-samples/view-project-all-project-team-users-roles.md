@@ -7,7 +7,9 @@ description: Diese Projektansicht zeigt eine Liste der dem Projekt-Team zugewies
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 84a1e065-992e-4aa5-81ba-e699ac704837
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 14%
@@ -72,6 +74,6 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 
 
-   <pre>column.0.link.linkproperty.0.name=ID<br>column.0.link.linkproperty.0.valueField=ID<br>column.0.link.linkproperty.0.valueFormat=int<br>column.0.link.lookup=link.view<br>column.0.link.valueField=objCode<br>column.0.link.valueFormat=val<br>column.0.linkedname=direct<br>column.0.listsort=string(name)<br>column.0.nameKey=name.abbr<br>column.0.querysort name<br>column.0.shortView=false<br>column.0.stretch=60<br>column.0.valueField=name<br>column.0.valueFormat=HTMLHTML HTML <br>column.0.width=150<br>column.1.description=Team Users<br>column.1.link.linkproperty.0.name=ID<br>column.1.link.linkproperty.0.valueField=userID<br>column.1.link.linkproperty.0.valueFormat=int<br>column.1.link.page=/userView.cmd<br>column.1.listentraliiter=column.1.listmethod=nested(Users).listsColumn.1.namekey=user.pluralwidthColumn.1.userStretch=30<br>Column=iterateDateColumnValue.1.5 Roles<br>column.2.link.link.property.0.name=ID<br>column.2.link.linkproperty.0.valueField=ID<br>column.2.link.linkproperty.0.valueFormat=intColumn.2.link.page=/roleView.cmdstretchColumn.2.listdelimiIter=Column2.listmethod=nested(roles).listsColumn.2.namekey=jobrole.pluralwidth.2.stretch=10<br><br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> Column.2.type=iterateColumn2.Value5</pre>
+   <pre>column.0.link.linkproperty.0.name=ID<br>column.0.link.linkproperty.0.valueField=ID<br>column.0.link.linkproperty.0.valueFormat=int<br>column.0.link.lookup=link.view<br>column.0.link.valueField=objCode<br>column.0.link.valueFormat=val<br>column.0.linkedname=direct<br>column.0.listsort=string(name)<br>column.0.nameKey=name.abbr<br>column.0.querysort name<br>column.0.shortView=false<br>column.0.stretch=60<br>column.0.valueField=name<br>column.0.valueFormat=HTML<br>column.0.width=150<br>column.1.description=Team Users<br>column.1.link.linkproperty.0.name=ID<br>column.1.link.linkproperty.0.valueField=userID<br>column.1.link.linkproperty.0.valueFormat=int<br>column.1.link.page=/userView.cmd<br>column.1.listentraliiter=column.1.listmethod=nested(Users).listsColumn.1.namekey=user.pluralwidthColumn.1.userStretch=30<br>Column=iterateDateColumnValue.1.5 Roles<br>column.2.link.link.property.0.name=ID<br>column.2.link.linkproperty.0.valueField=ID<br>column.2.link.linkproperty.0.valueFormat=intColumn.2.link.page=/roleView.cmdstretchColumn.2.listdelimiIter=Column2.listmethod=nested(roles).listsColumn.2.namekey=jobrole.pluralwidth.2.stretch=10<br><br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> Column.2.type=iterateColumn2.Value5</pre>
 
 1. Klicken Sie **Fertig** > **Ansicht speichern**.

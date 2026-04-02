@@ -6,10 +6,12 @@ description: Sie können Ihre Projekte als Dokumente hochladen, um sie schnell z
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d26850d8-9594-4848-b263-6f71e6c52e9b
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 0%
+ht-degree: 13%
 
 ---
 
@@ -19,27 +21,29 @@ Sie können Ihre Projekte als Dokumente hochladen, um sie schnell zu überprüfe
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <!-- <tr> 
+  <!--
+   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> Any</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] license</td> 
    <td> <p>Work or higher</p> </td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
    <td role="rowheader">Zusätzliche Produkte</td> 
    <td>Sie müssen zusätzlich zu einer [!DNL Adobe Creative Cloud] über eine [!DNL Workfront]-Lizenz verfügen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>[!UICONTROL bearbeiten] Zugriff auf [!UICONTROL -Dokumente]</p> </td> 
+   <td> <p>[!UICONTROL bearbeiten] Zugriff auf [!UICONTROL-Dokumente]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
@@ -75,5 +79,5 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    >Wenn Sie eine genehmigende Person hinzufügen, wird das Bild als einfacher Korrekturabzug in [!DNL Workfront] hochgeladen.
 
 1. (Optional) Geben Sie einen Kommentar im Bereich **[!UICONTROL Aktualisierungen]** ein.
-1. Klicken Sie **[!UICONTROL Hochladen]**.\
+1. Klicken Sie auf **[!UICONTROL Hochladen]**.\
    Das Dokument wird im Bereich [!UICONTROL Dokumente] im Plug-in und im Desktop-Programm angezeigt.

@@ -7,7 +7,9 @@ description: Sie können Informationen zum ursprünglichen Problem in einer Ansi
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 5%
@@ -26,7 +28,7 @@ Informationen zum Erstellen einer Ansicht mit dem standardmäßigen Report Build
 
 ![task_and_project_list_with_original_issue_info.png](assets/task-and-project-list-with-original-issue-info-350x59.png)
 
-Weitere Informationen zum Einschließen zusätzlicher Probleminformationen in Projekte und Aufgabenlisten finden Sie auch unter [Anzeigen: Problemdetails für Aufgaben und Projekte &#x200B;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
+Weitere Informationen zum Einschließen zusätzlicher Probleminformationen in Projekte und Aufgabenlisten finden Sie auch unter [Anzeigen: Problemdetails für Aufgaben und Projekte ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

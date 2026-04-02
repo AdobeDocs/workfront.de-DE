@@ -6,10 +6,12 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: e26a3d0e283182e08902c263252c8d067838c23a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '779'
-ht-degree: 5%
+ht-degree: 9%
 
 ---
 
@@ -29,7 +31,8 @@ Formelfelder generieren einen neuen Wert anhand vorhandener Werte aus anderen Fe
 
 Weitere Informationen finden Sie im Abschnitt „Formel“ im Artikel [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
 
-<!--do we need these for an overview article?
+<!--
+do we need these for an overview article?
 
 ## Access requirements
 
@@ -70,7 +73,8 @@ For more information about Workfront access requirements, see [Access requiremen
 
 -->
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
 <col> 
@@ -127,7 +131,8 @@ For more information about Workfront access requirements, see [Access requiremen
   </tr> 
  
 </tbody> 
-</table> -->
+</table>
+-->
 
 ## Überlegungen zu Formelfeldern
 
@@ -209,21 +214,21 @@ Darüber hinaus unterstützen wir die folgenden Ausdrücke für Workfront Planni
 
 <tr> 
    <td><strong>ARRAYJOIN</strong> </td> 
-   <td> <p>Gibt eine verkettete Zeichenfolge mit einem Trennzeichen zurück.</p> <p>Der Ausdruck ist wie folgt formatiert:
+   <td> <p>Gibt eine verkettete Zeichenfolge mit einem Trennzeichen zurück.</p> <p>Der Ausdruck wird wie folgt formatiert:
 
 <code>ARRAYJOIN(delimiter,array)</code>
 </p>
    </td></tr>
     <tr> 
    <td><strong>ARRAYUNIQUE</strong> </td> 
-   <td> <p>Gibt ein Array mit eindeutigen Werten zurück.</p> <p>Der Ausdruck ist wie folgt formatiert:
+   <td> <p>Gibt ein Array mit eindeutigen Werten zurück.</p> <p>Der Ausdruck wird wie folgt formatiert:
 
 <code>ARRAYUNIQUE(array)</code>
 </p>
    </td></tr>
      <tr> 
-   <td><strong>ID</strong> </td> 
-   <td> <p>Gibt die ID eines Datensatzes zurück. Jeder Datensatz hat eine eindeutige ID.</p> <p>Der Ausdruck ist wie folgt formatiert:
+   <td><strong>Kennung</strong> </td> 
+   <td> <p>Gibt die ID eines Datensatzes zurück. Jeder Datensatz hat eine eindeutige ID.</p> <p>Der Ausdruck wird wie folgt formatiert:
 
 <code>{ID}</code>
 </p>
@@ -236,7 +241,7 @@ Darüber hinaus unterstützen wir die folgenden Ausdrücke für Workfront Planni
    </td></tr>
   <tr> 
    <td><strong>SETTIMEZONE</strong> </td> 
-   <td> <p>Legt die Zeitzone eines Datums und einer Uhrzeit auf eine bestimmte Zeitzone fest.</p> <p>Der Ausdruck ist wie folgt formatiert:
+   <td> <p>Legt die Zeitzone eines Datums und einer Uhrzeit auf eine bestimmte Zeitzone fest.</p> <p>Der Ausdruck wird wie folgt formatiert:
 
 <code>SETTIMEZONE(date,&#39;America/Los_Angeles&#39;)</code>
 </p>
@@ -244,7 +249,7 @@ Darüber hinaus unterstützen wir die folgenden Ausdrücke für Workfront Planni
 
 <tr> 
    <td><strong>WEEKOFYEAR</strong> </td> 
-   <td> <p>Gibt die Wochenzahl in einem Jahr zurück. Optional können Sie angeben, an welchem Tag die Woche beginnt (verwenden Sie 1 für Sonntag oder 2 für Montag). Wenn nicht angegeben, beginnen Wochen standardmäßig am Sonntag.</p> <p>Der Ausdruck ist wie folgt formatiert:
+   <td> <p>Gibt die Wochenzahl in einem Jahr zurück. Optional können Sie angeben, an welchem Tag die Woche beginnt (verwenden Sie 1 für Sonntag oder 2 für Montag). Wenn nicht angegeben, beginnen Wochen standardmäßig am Sonntag.</p> <p>Der Ausdruck wird wie folgt formatiert:
 
 <code>WEEKOFYEAR(Datum,2)</code>
 oder

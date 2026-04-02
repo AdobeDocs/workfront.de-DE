@@ -6,15 +6,17 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
-source-git-commit: 46faf723ea7a8e9dfa02c0f2bed1f5f450976fc8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2900'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
 
-# Adobe Workfront-Planungsversionstätigkeit für 2023
+# Veröffentlichungen von Adobe Workfront-Planung für 2023
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
@@ -28,7 +30,7 @@ Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen find
 
 Die folgende Tabelle zeigt den Zeitrahmen für die Veröffentlichung von Workfront Planning:
 
-| Uhrzeit | -Version |
+| Zeit | Version |
 |--------------------|-----------------------------------------|
 | August - Dezember 2023 | Workfront Planning - Beta-Version* |
 | Januar bis August 2024 | Frühzeitige Veröffentlichung von Workfront Planning* |
@@ -42,7 +44,7 @@ Die folgende Tabelle zeigt den Zeitrahmen für die Veröffentlichung von Workfro
 
 Vorschau und Produktion: 27. Dezember 2023
 
-Sie können jetzt nach einem Keyword suchen, um einen Datensatz in der Zeitleisten-Ansicht schnell zu finden. Sie können Keywords und Sonderzeichen aus allen Feldern verwenden, die auf dem Bildschirm sichtbar sind, um einen Datensatz zu finden. Weitere Informationen finden Sie unter [Verwalten der Zeitleisten-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Sie können jetzt nach einem Keyword suchen, um einen Datensatz in der Zeitleisten-Ansicht schnell zu finden. Sie können Keywords und Sonderzeichen aus allen Feldern verwenden, die auf dem Bildschirm sichtbar sind, um einen Datensatz zu finden. Weitere Informationen finden Sie unter [Verwalten der Timeline-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Woche vom 18. Dezember 2023
 
@@ -126,7 +128,7 @@ Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/qui
 
 ### Verbinden von Planungsfunktionsdatensätzen mit Adobe Experience Manager Assets
 
-Vorschau-Version: 14. Dezember 2023
+Geplante Veröffentlichung: Freitag, 14. Dezember 2023
 
 Produktionsversion: 21. Dezember 2023
 
@@ -144,7 +146,8 @@ Nachdem Sie die Verbindung hergestellt haben, sind mit diesem Update die folgend
 
 * Planungsfunktionen : Benutzer können den Namen der verbundenen Assets sowie die Werte der verbundenen Felder in den Planungsfunktionen anzeigen.
 
-<!--removed per PM, for now: 
+<!--
+removed per PM, for now: 
 * An Experience Manager Assets record type is automatically created in Planning after you establish the connection. Connected assets are visible in the table and timeline views of this new record type.  
 -->
 
@@ -227,7 +230,7 @@ Für Datensätze mit Adobe Workfront-Planungsfunktionen haben wir die folgenden 
 
 Die Feldwerte der Felder, die aus diesen Feldtypen erstellt wurden, sind schreibgeschützt und erfassen den Namen des Benutzers, der einen Datensatz erstellt oder zuletzt geändert hat, oder das Datum, an dem der Datensatz erstellt oder zuletzt geändert wurde.
 
-Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
+Weitere Informationen finden Sie unter [Erstellen von Feldern](/help/quicksilver/planning/fields/create-fields.md).
 
 ### Navigieren zu Workfront-Objekten aus einem Datensatz mit Planungsfunktionen
 
@@ -336,8 +339,8 @@ Beachten Sie Folgendes:
 
   Weitere Informationen finden Sie in den folgenden Artikeln:
 
-   * [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md)
-   * [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md)
+   * [Verbinden von Eintragstypen](/help/quicksilver/planning/architecture/connect-record-types.md)
+   * [Einträge verbinden](/help/quicksilver/planning/records/connect-records.md)
 
 ### URL-Unterstützung für einzeilige Textfelder
 

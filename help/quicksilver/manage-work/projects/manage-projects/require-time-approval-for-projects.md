@@ -6,14 +6,16 @@ description: Sie können das Projekt so konfigurieren, dass die für das Projekt
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
-# Genehmigung von Zeit für ein Projekt verlangen
+# Anfordern der Genehmigung des Zeitaufwands für ein Projekt
 
 <!--audited: 08/2024-->
 
@@ -73,11 +75,12 @@ Weitere Informationen zu Rechnungsnachweisen finden Sie im Artikel [Rechnungsnac
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -122,9 +125,10 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
     </ul> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
-## Genehmigung von Zeit für ein Projekt verlangen
+## Anfordern der Genehmigung des Zeitaufwands für ein Projekt
 
 So fordern Sie die Genehmigung des Projektleiters für Stunden im Projekt an:
 

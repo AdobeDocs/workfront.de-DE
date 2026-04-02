@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '270'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
-# Voreinstellungen für Benutzeraktualisierungen konfigurieren
+# Konfigurieren von Voreinstellungen für Benutzeraktualisierungen
 
 <!--Audited: 08/2025-->
 
@@ -23,7 +25,7 @@ Sie können Voreinstellungen konfigurieren, die Benutzern Zugriff auf bestimmte 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +38,7 @@ Sie können Voreinstellungen konfigurieren, die Benutzern Zugriff auf bestimmte 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td><p>[!UICONTROL Standard]</p>
-   <p>[!UICONTROL -Plan]</p>
+   <p>[!UICONTROL Plan]</p>
    </td> 
   </tr>  
   <tr> 
@@ -52,7 +54,8 @@ Sie können Voreinstellungen konfigurieren, die Benutzern Zugriff auf bestimmte 
 +++
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -73,7 +76,8 @@ Sie können Voreinstellungen konfigurieren, die Benutzern Zugriff auf bestimmte 
    <td><p>To perform these steps at the system level, you need the [!UICONTROL System Administrator] access level.</p><p>To perform them for a group, you must be a manager of that group.</p></td>
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Benutzern erlauben, Bilder in Aktualisierungen hinzuzufügen
 

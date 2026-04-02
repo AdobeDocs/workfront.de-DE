@@ -1,15 +1,17 @@
 ---
 product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
-title: Suchen Sie den Portfolio Optimizer
+title: Auffinden des Portfolio-Optimizers
 description: Den [!UICONTROL Portfolio Optimizer finden Sie] wenn Sie auf ein Portfolio zugreifen.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: de9abb4e-0bf2-4673-8be1-3f0f35e17eaf
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '138'
-ht-degree: 0%
+ht-degree: 17%
 
 ---
 
@@ -19,7 +21,7 @@ Den [!UICONTROL Portfolio Optimizer finden Sie] wenn Sie auf ein Portfolio zugre
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +36,7 @@ Den [!UICONTROL Portfolio Optimizer finden Sie] wenn Sie auf ein Portfolio zugre
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> <p>[!UICONTROL Standard]</p>
-   <p>[!UICONTROL -Plan]</p> </td> 
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -51,7 +53,8 @@ Den [!UICONTROL Portfolio Optimizer finden Sie] wenn Sie auf ein Portfolio zugre
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -74,7 +77,8 @@ Den [!UICONTROL Portfolio Optimizer finden Sie] wenn Sie auf ein Portfolio zugre
    <td> <p>[!UICONTROL Manage] permissions to the portfolio</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Suchen Sie den [!UICONTROL Portfolio Optimizer]
 

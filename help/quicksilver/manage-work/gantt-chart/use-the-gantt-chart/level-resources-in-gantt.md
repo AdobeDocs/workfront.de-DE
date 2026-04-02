@@ -6,10 +6,12 @@ description: Wenn dieselbe Ressource zwei verschiedenen Vorgängen zugewiesen is
 author: Alina
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '620'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -26,7 +28,7 @@ Die Abgleichung Ihrer Ressourcen in einem Projekt dient zwei Zwecken:
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +41,7 @@ Die Abgleichung Ihrer Ressourcen in einem Projekt dient zwei Zwecken:
   <tr> 
    <td role="rowheader">[!DNL Workfront] Lizenz</td> 
    <td> <p>[!UICONTROL Standard]</p>
-   <p>[!UICONTROL -Plan]</p> </td> 
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -53,10 +55,11 @@ Die Abgleichung Ihrer Ressourcen in einem Projekt dient zwei Zwecken:
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -81,7 +84,8 @@ If you still don't have access, ask your [!DNL Workfront] administrator if they 
    <td> <p>[!UICONTROL Manage] access to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table> -->
+</table>
+-->
 
 ## Übersicht über den Abgleich von Ressourcen
 
@@ -134,7 +138,7 @@ Sie können die Aufgabenliste (Gantt[!UICONTROL Diagramm) verwenden] um Ihre Res
 
    >[!TIP]
    >
-   >Mit den folgenden Tastaturbefehlen können Sie Änderungen im [!UICONTROL Gantt-Diagramm“ rückgängig machen oder &#x200B;]:
+   >Mit den folgenden Tastaturbefehlen können Sie Änderungen im [!UICONTROL Gantt-Diagramm“ rückgängig machen oder ]:
    >
    >* [!DNL Mac]: Verwenden Sie [!UICONTROL Befehl + Z], um den Vorgang rückgängig zu machen, und [!UICONTROL Befehl + Umschalt + Z], um ihn wiederherzustellen.
    >* Windows: Verwenden Sie [!UICONTROL Strg + Z], um den Vorgang rückgängig zu machen, und [!UICONTROL Strg + Y], um ihn wiederherzustellen.

@@ -7,27 +7,30 @@ description: Sie können auf Ziellisten oder einzelne Ziele zugreifen und sie ü
 author: Alina
 feature: Workfront Goals
 exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '674'
-ht-degree: 1%
+ht-degree: 11%
 
 ---
 
-# Überblick über die Abschnitte zu Adobe Workfront-Zielen
+# Überblick über die Abschnitte von Adobe Workfront Goals
 
 <!--Audited for P&P only: 10/2025-->
 
 >[!NOTE]
 >
->Ihr Unternehmen könnte sich dafür entscheiden, weiterhin Adobe Workfront Goals zu verwenden, wenn es dieses Paket in der Vergangenheit gekauft hat. Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer.
+>Ihr Unternehmen kann sich dafür entscheiden, Adobe Workfront Goals weiterhin zu verwenden, wenn es dieses Paket in der Vergangenheit erworben hat. Weitere Informationen erhalten Sie bei Ihrer Kundenbetreuung.
 >
 >Adobe Workfront Goals ist nicht mehr erhältlich.
 >
->Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Weitere Informationen zum Zugriff auf Workfront Goals finden Sie unter [Voraussetzungen für die Verwendung von Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 
-<!--Old:
+<!--
+Old:
 
 >[!IMPORTANT]
 >
@@ -44,7 +47,8 @@ ht-degree: 1%
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   -->
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+-->
 
 Nachdem Ihnen der Workfront-Administrator Zugriff auf Workfront-Ziele gewährt hat, können Sie Ziele, die Sie oder eine andere Person in Ihrem Unternehmen erstellt haben, im Bereich Workfront-Ziele anzeigen.
 
@@ -67,7 +71,7 @@ Im Folgenden finden Sie einen kurzen Überblick über die Abschnitte der Workfro
 
 Sie können die Zielliste verwenden, um Ziele zu überprüfen, die zu Ihnen, Ihren Teams, Gruppen oder Ihrer Organisation gehören. Sie können Ziele in jedem Status und aus jedem Zeitraum anzeigen.
 
-Informationen zum Navigieren in der Zielliste und Verwalten von [&#x200B; finden Sie unter „Verwalten von Zielen in der Zielliste von Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
+Informationen zum Navigieren in der Zielliste und Verwalten von [ finden Sie unter „Verwalten von Zielen in der Zielliste von Adobe Workfront](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
 
 ![Liste der Ziele](assets/goal-list-unshimmed.png)
 

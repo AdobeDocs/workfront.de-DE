@@ -2,15 +2,17 @@
 product-previous: enterprise-scenario-planner
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Planszenarien im Szenario-Planer erstellen und vergleichen
+title: Erstellen und Vergleichen von Szenarien für Pläne im Szenarienplaner
 description: Wenn Sie die langfristige Strategie Ihres Unternehmens planen, gibt es viele Informationen, die Sie vielleicht nicht zu Beginn haben oder an die Sie denken. Es braucht Zeit und Experimente, um zu einer endgültigen Strategie zu gelangen, die Ihre Stakeholder akzeptieren können. Die Durchführung einer „Was-wäre-wenn“-Analyse zur Erstellung mehrerer Szenarien für Ihren Plan kann Ihnen dabei helfen, potenzielle Umstände genau vorherzusagen und zu bewerten und letztendlich den bestmöglichen Plan zu entwickeln.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 9a79ef81-6271-4cc9-b701-3ba0aeafb324
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '931'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -22,7 +24,7 @@ Wenn Sie die langfristige Strategie Ihres Unternehmens planen, gibt es viele Inf
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -58,7 +60,8 @@ Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugr
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -94,9 +97,10 @@ Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugr
    <td> <p>[!UICONTROL Manage] permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
-## Erstellen von Szenarien
+## Erstellen von Szenarios
 
 Ein Szenario ist eine Kopie eines Plans. Sie können so viele Szenarien erstellen, wie Sie benötigen. Es wird jedoch empfohlen, die Anzahl der Szenarien auf ein Minimum zu beschränken, damit Sie sie einfach vergleichen können.
 
@@ -106,11 +110,11 @@ Ein Szenario ist eine Kopie eines Plans. Sie können so viele Szenarien erstelle
 
    Informationen zum Erstellen von Plänen finden Sie unter [Erstellen und Bearbeiten von Plänen in der [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
 
-   Der erste von Ihnen erstellte Plan wird automatisch als &quot;[!UICONTROL &#x200B; Szenario“ &#x200B;].
+   Der erste von Ihnen erstellte Plan wird automatisch als &quot;[!UICONTROL  Szenario“ ].
 
 1. Klicken Sie auf den Abwärtspfeil neben einem vorhandenen Szenario und dann auf das Symbol **[!UICONTROL Kopieren]**.
 
-   ![Szenario &#x200B;](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
+   ![Szenario ](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
 
    Dadurch wird ein neues Szenario mit denselben Informationen wie das kopierte Szenario erstellt. Sie erhält automatisch den Namen &quot;[!UICONTROL Szenario 2]&quot;, wenn es sich um das zweite Szenario Ihres Plans handelt, &quot;[!UICONTROL Szenario 3]&quot;, wenn es das dritte ist usw. Sie können Ihre Szenarien nicht umbenennen. Die Anzahl der Kopien, die Sie erstellen können, ist unbegrenzt.
 
@@ -215,13 +219,13 @@ Nachdem Sie Ihre Szenarien erstellt haben, können Sie sie vergleichen, um das b
 
 1. Klicken Sie **[!UICONTROL Beschreibung hinzufügen]**, um eine Beschreibung für das Szenario hinzuzufügen
 
-   Oder
+   ODER
 
    Klicken Sie auf das Beschreibungsfeld, um es zu aktualisieren, und klicken Sie dann auf eine beliebige Stelle auf dem Bildschirm, um Ihre Änderungen zu speichern.
 
 1. (Optional) Klicken Sie auf das **[!UICONTROL Mehr]** Menü ![Mehr](assets/more-icon.png), um das Szenario **[!UICONTROL Kopieren]** oder **[!UICONTROL Löschen]**.
 
-   ![Szenario kopieren oder &#x200B;](assets/copy-or-delete-scenario-links-from-card-350x109.png)
+   ![Szenario kopieren oder ](assets/copy-or-delete-scenario-links-from-card-350x109.png)
 
    Wenn Sie ein Szenario kopieren, wird es automatisch auf der Kartenseite angezeigt und gemäß diesem Muster umbenannt: &quot;[!UICONTROL Szenario] `<next number in order>`.“
 

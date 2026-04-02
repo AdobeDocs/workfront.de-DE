@@ -6,10 +6,12 @@ description: Verwenden Sie den Workload Balancer, um die Verfügbarkeit Ihrer Re
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '4334'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -21,11 +23,11 @@ Verwenden Sie den Workload Balancer in Adobe Workfront, um Benutzenden je nach V
 
 Der Workload Balancer ist in mehreren Bereichen von Adobe Workfront verfügbar. Die Navigation ist in allen Bereichen ähnlich.
 
-Weitere Informationen dazu, wo sich der Workload Balancer befindet, finden Sie unter [Suchen des Workload Balancer](https://experienceleague.adobe.com/de/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
+Weitere Informationen dazu, wo sich der Workload Balancer befindet, finden Sie unter [Suchen des Workload Balancer](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -58,7 +60,7 @@ Weitere Informationen dazu, wo sich der Workload Balancer befindet, finden Sie u
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -96,15 +98,15 @@ Beachten Sie beim Anzeigen des Workload Balancer Folgendes:
 
 Weitere Informationen zum Anzeigen von Informationen im Workload Balancer finden Sie in den folgenden Artikeln:
 
-* [Suchen des Workload Balancer](../workload-balancer/locate-workload-balancer.md)
+* [Auffinden des Workload Balancers](../workload-balancer/locate-workload-balancer.md)
 * [Filtern von Informationen im Workload Balancer](../workload-balancer/filter-information-workload-balancer.md)
-* [Freigeben des Workload Balancer für einen Link](../workload-balancer/share-link-for-workload-balancer.md)
+* [Freigeben des Workload Balancers mit einem Link](../workload-balancer/share-link-for-workload-balancer.md)
 * [Aktualisieren von Arbeitselementen im Workload Balancer mithilfe der Zusammenfassung](../workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 
 Informationen zum Verwalten von Ressourcen mit dem Workload Balancer finden Sie auch in den folgenden Artikeln:
 
-* [Übersicht über die Zuweisung von Arbeit im Workload Balancer](https://experienceleague.adobe.com/de/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [Verwalten von Benutzerzuweisungen im Workload Balancer](https://experienceleague.adobe.com/de/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [Übersicht über die Zuweisung von Arbeit im Workload Balancer](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [Verwalten von Benutzerzuweisungen im Workload Balancer](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 ## Navigieren im Workload Balancer für mehrere Projekte im Bereich Ressourcen
 
@@ -348,7 +350,7 @@ Im Bereich Nicht zugewiesene Arbeit werden standardmäßig keine Arbeitselemente
 
 1. Klicken Sie auf **Massenzuweisungen**, um Arbeitselemente stapelweise zuzuweisen.
 
-   Weitere Informationen finden Sie unter [Massenzuweisung von Arbeit mit dem Workload-Balancer](../workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+   Weitere Informationen finden Sie unter [Massenzuweisung von Arbeit im Workload Balancer](../workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 1. Ziehen Sie Elemente aus dem Bereich **Nicht zugewiesene Arbeit** oder von einem Benutzer und legen Sie sie auf einem anderen Benutzer ab, um sie zuzuweisen.
 
    Weitere Informationen finden Sie unter [Zuweisen von Arbeit im Workload Balancer durch Ziehen und Ablegen](../workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
@@ -496,7 +498,8 @@ Sie können über Ihr eigenes Benutzerprofil auf den Workload-Balancer zugreifen
 1. Fahren Sie mit dem Navigieren im Workload-Balancer eines Benutzers fort, wie im Abschnitt [Navigieren im Workload-Balancer für mehrere Projekte](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) dieses Artikels beschrieben.
 
 
-<!--old content below - this used to be a one-large-procedure article - outdated, and rewrote it above with several smaller procedures: 
+<!--
+old content below - this used to be a one-large-procedure article - outdated, and rewrote it above with several smaller procedures: 
 
 # Navigate the Workload Balancer
 

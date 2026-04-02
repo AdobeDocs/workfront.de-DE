@@ -6,7 +6,9 @@ description: Nachdem Sie oder andere Benutzende Ziele erstellt haben, können Si
 author: Alina
 feature: Workfront Goals
 exl-id: 2a2c1240-f796-4cb8-b8a6-2ad5853916b9
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 12%
@@ -74,7 +76,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -125,7 +128,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Verwalten von Zielen in der Zielliste
 
@@ -244,7 +248,8 @@ So verwalten Sie Ziele in der Liste „Ziele“:
 
 1. Klicken Sie oben rechts auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **Ziele**.
 
-   <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
+   <!--
+    Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
    Der Abschnitt „Zielliste“ wird standardmäßig angezeigt. Standardmäßig können Sie Ziele unabhängig von ihrem Status, ihrer Periode oder ihrem Besitzer anzeigen.
@@ -279,7 +284,7 @@ So verwalten Sie Ziele in der Liste „Ziele“:
 
      Weitere Informationen finden Sie unter [Berechnen des Zielfortschritts in Adobe Workfront-](../goal-management/calculate-goal-progress.md).
 
-1. Klicken Sie oben rechts in der ![&#x200B; auf das Filtersymbol &#x200B;](assets/filter-icon.png)Filtersymbol) und wenden Sie Filter an, um nur Ziele anzuzeigen, die für Sie wichtig sind.
+1. Klicken Sie oben rechts in der ![ auf das Filtersymbol ](assets/filter-icon.png)Filtersymbol) und wenden Sie Filter an, um nur Ziele anzuzeigen, die für Sie wichtig sind.
 
    Informationen zur Verwendung von Filtern in Workfront Goals finden Sie unter [Filtern von Informationen in Adobe Workfront Goals](../goal-management/filter-information-wf-goals.md).
 

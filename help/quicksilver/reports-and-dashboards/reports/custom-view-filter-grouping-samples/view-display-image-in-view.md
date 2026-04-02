@@ -7,7 +7,9 @@ description: Sie können den Namen eines Objekts in einer Ansicht mit einem Bild
 author: Courtney
 feature: Reports and Dashboards
 exl-id: e1e4a993-f05c-4b6e-b00a-e96c9ab4c94f
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 10%
@@ -18,7 +20,7 @@ ht-degree: 10%
 
 <!--Audited: 11/2024-->
 
-Sie können den Namen eines Objekts in einer Ansicht mit einem Bild im Textmodus ersetzen. Sie können dem Bild auch einen Link hinzufügen, über den das ersetzte Objekt geöffnet werden kann.
+Sie können den Namen eines Objekts in einer Ansicht mit einem Bild im Textmodus ersetzen. Sie können dem Bild auch einen Link hinzufügen, mit dem das ersetzte Objekt geöffnet werden kann.
 
 >[!NOTE]
 >
@@ -46,7 +48,7 @@ Sie können den Namen eines Objekts in einer Ansicht mit einem Bild im Textmodus
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
@@ -66,8 +68,8 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
    >[!TIP]
    >
    >* Jeder Browser-Typ ist anders, aber alle Browser können URLs anzeigen.
-   >* Vermeiden Sie die Verwendung von Bildern, die in Workfront hochgeladen werden. Da in Workfront gespeicherte Bilder nicht öffentlich verfügbar sind und über einen nach einem bestimmten Zeitraum ablaufenden Zugriffstaste verfügen, werden diese Bilder nicht mehr im Zeitverlauf in der Ansicht angezeigt.
-   >* Ein auf Ihrem Computer gespeichertes Bild hat keine inhärente URL. Suchen Sie dort eine Website, auf der Bilder gehostet werden, und hosten Sie dort Ihr Bild. Möglicherweise verfügt Ihre Organisation bereits über eine solche Site.
+   >* Vermeiden Sie die Verwendung von Bildern, die in Workfront hochgeladen werden. Da in Workfront gespeicherte Bilder nicht öffentlich verfügbar sind und über einen Zugriffsschlüssel verfügen, der nach einem bestimmten Zeitraum abläuft, werden sie im Laufe der Zeit nicht mehr in der Ansicht angezeigt.
+   >* Ein auf Ihrem Computer gespeichertes Bild verfügt nicht über eine inhärente URL. Suchen Sie eine Website, die Bild-Hosting bietet und hosten Sie Ihr Bild dort. Möglicherweise verfügt Ihr Unternehmen bereits über eine solche Website.
 
 1. Wechseln Sie mithilfe Ihres Webbrowsers zu dem Bild, das Sie gespeichert haben.
 1. Rufen Sie die URL des Bildes wie folgt ab:
@@ -83,10 +85,10 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 1. Fügen Sie im Feld **URL** den Link zum Bild hinzu.
 1. Gehe zu einer Projektansicht in einer Projektliste.
-1. Klicken Sie auf das Dropdown-Menü **Ansicht**, und klicken Sie dann auf **Neue Ansicht**.
-1. Klicken Sie auf die Kopfzeile der Spalte für den **Projektnamen**, und klicken Sie dann auf **In Textmodus wechseln**.
+1. Klicken Sie auf **Dropdown** Menü Ansicht und dann auf **Neue Ansicht**.
+1. Klicken Sie auf die Kopfzeile der Spalte für den **Projektnamen** und dann auf **In Textmodus wechseln**.
 
-1. Fügen Sie der Spalte für den vorhandenen Code den folgenden Code hinzu:
+1. Fügen Sie der Spalte den folgenden Code zum vorhandenen Code hinzu:
 
    ```
    displayname=Link Project

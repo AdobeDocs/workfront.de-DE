@@ -6,14 +6,16 @@ description: Standardmäßig berechnet Adobe Workfront die Dauer einer Aufgabe m
 author: Alina
 feature: Work Management
 exl-id: 47a9b095-2b7d-4ed0-8cb6-e6bd5e37ce9c
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 6%
+ht-degree: 14%
 
 ---
 
-# Geplante Stunden und Dauer einer Aufgabe mit einem einfachen Dauertyp aktualisieren
+# Aktualisieren der geplanten Stunden und der Dauer einer Aufgabe mit einem einfachen Dauertyp
 
 Standardmäßig berechnet Adobe Workfront die Dauer einer Aufgabe mit einem einfachen Dauertyp auf der Grundlage der geplanten Stunden. Sie können jedoch in bestimmten Bereichen von Workfront auch manuell die Anzahl der geplanten Stunden und die Dauer einer Aufgabe vom Typ Einfache Dauer bearbeiten.
 
@@ -55,7 +57,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -78,9 +81,10 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    <td> <p>Manage permissions to the task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
-## Geplante Stunden und Dauer einer Aufgabe mit einem einfachen Dauertyp aktualisieren
+## Aktualisieren der geplanten Stunden und der Dauer einer Aufgabe mit einem einfachen Dauertyp
 
 >[!IMPORTANT]
 >

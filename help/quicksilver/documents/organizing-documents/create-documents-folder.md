@@ -6,7 +6,9 @@ description: Dokumente können in Ordnern organisiert werden. Sie können persö
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
-source-git-commit: ff05270bd808d26abfed7b0d20b37f0bfc314c08
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 6%
@@ -96,7 +98,7 @@ Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich „Neue Dok
 
 Wenn Sie ein Dokument in eine Aufgabe oder ein Problem hochladen, erstellt Workfront automatisch einen systemgenerierten Ordner mit dem Namen nach der Aufgabe oder dem Problem. Dieser Ordner ist mit der Aufgabe oder dem Problem verknüpft und übernimmt die Berechtigungen. Systemgenerierte Ordner sind im Dokumentbereich auf Projektebene sichtbar.
 
-Weitere Informationen zu Ordnerberechtigungen finden Sie unter [&#x200B; von Dokumentberechtigungen](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+Weitere Informationen zu Ordnerberechtigungen finden Sie unter [ von Dokumentberechtigungen](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
 
 ### Unterordner erstellen
 

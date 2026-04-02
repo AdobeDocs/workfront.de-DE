@@ -6,14 +6,16 @@ description: Nachdem Sie Projekte und Initiativen miteinander verbunden haben, k
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 77152e46-0b7b-4937-9d16-1a20c2a7fdf1
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '660'
-ht-degree: 0%
+ht-degree: 7%
 
 ---
 
-# Rollenzuweisung für Projekte und Initiativen in der Aufgabenliste anzeigen
+# Anzeigen der Rollenzuweisung für Projekte und Initiativen in der Aufgabenliste
 
 <!--Audited: 07/2024-->
 
@@ -25,7 +27,7 @@ Allgemeine Informationen zur Abstimmung von Ressourcen zwischen Projekten und In
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -61,7 +63,8 @@ Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugr
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -97,9 +100,10 @@ Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugr
    <td> <p> View or higher permission to a project.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
-## Rollenzuweisung für Projekte und Initiativen in der Aufgabenliste anzeigen
+## Anzeigen der Rollenzuweisung für Projekte und Initiativen in der Aufgabenliste
 
 Wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] Lizenz erworben hat, können Sie die Ressourcenzuteilungen zwischen der Initiative und dem mit ihr verknüpften Projekt im Abschnitt [!UICONTROL Aufgaben] des Projekts abstimmen.
 
@@ -143,8 +147,8 @@ Wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] Lizenz erworben hat,
       <td>Die Anzahl der geplanten Stunden, die mit jedem Aufgabengebiet in den Aufgaben oder Problemen des Projekts für die Gesamtdauer des Projekts verknüpft sind. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL -Varianz]</td> 
-      <td> <p>Die Differenz zwischen den für die Initiative erforderlichen Stunden und den geplanten Stunden für die Arbeit am Projekt. [!DNL Workfront] berechnet die [!UICONTROL Variance] anhand der folgenden Formel:</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>Wenn Ressourcen für mehr Stunden als auf Initiative erforderlich eingeplant sind, ist die [!UICONTROL -Varianz] negativ und wird rot angezeigt. Das bedeutet, dass Ihre Ressourcen überlastet sind. </p> </td> 
+      <td role="rowheader">[!UICONTROL-Varianz]</td> 
+      <td> <p>Die Differenz zwischen den für die Initiative erforderlichen Stunden und den geplanten Stunden für die Arbeit am Projekt. [!DNL Workfront] berechnet die [!UICONTROL Variance] anhand der folgenden Formel:</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>Wenn Ressourcen für mehr Stunden als auf Initiative erforderlich eingeplant sind, ist die [!UICONTROL-Varianz] negativ und wird rot angezeigt. Das bedeutet, dass Ihre Ressourcen überlastet sind. </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -167,7 +171,7 @@ Wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] Lizenz erworben hat,
    * Reduzieren Sie die Anzahl der geplanten Stunden für ein Aufgabengebiet, das überlastet ist, oder fügen Sie den Aufgaben weitere Ressourcen hinzu und verteilen Sie mehr geplante Stunden auf die neuen Ressourcen. Sie können bei Aufgaben oder Problemen Zuweisungen oder die Anzahl der geplanten Stunden aktualisieren, wenn Sie sie bearbeiten. Weitere Informationen finden Sie in den folgenden Artikeln:
 
       * [Aufgaben bearbeiten](../manage-work/tasks/manage-tasks/edit-tasks.md)
-      * [Probleme bearbeiten](../manage-work/issues/manage-issues/edit-issues.md)
+      * [Bearbeiten von Problemen](../manage-work/issues/manage-issues/edit-issues.md)
 
      >[!NOTE]
      >

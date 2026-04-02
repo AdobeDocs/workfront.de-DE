@@ -6,7 +6,9 @@ description: Wenn Sie ein Ziel erstellen, wird es von Adobe Workfront Goals mit 
 author: Alina
 feature: Workfront Goals
 exl-id: fc556073-fe63-4f13-a313-505ca0ef1f9b
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '439'
 ht-degree: 15%
@@ -75,7 +77,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -126,7 +129,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Voraussetzungen
 

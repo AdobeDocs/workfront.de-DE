@@ -6,7 +6,9 @@ description: Sie können das integrierte Feld Statussymbole als Spalte in Ihren 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1205'
 ht-degree: 11%
@@ -36,7 +38,7 @@ Beachten Sie Folgendes:
 
   ![task_status_icons.png](assets/task-status-icons.png)
 
-  Weitere Informationen finden Sie im Abschnitt [Übersicht über Statussymbole und &#x200B;](#overview-of-status-icons-and-flags)&quot; in diesem Artikel.
+  Weitere Informationen finden Sie im Abschnitt [Übersicht über Statussymbole und ](#overview-of-status-icons-and-flags)&quot; in diesem Artikel.
 
 * In einigen Ansichten **das Feld** Statussymbole“ **Flags** oder **Ansichtssymbole**.\
   Sie können das Erscheinungsbild der Symbole, die im Feld Statussymbole enthalten sind, nicht anpassen.
@@ -77,15 +79,15 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 +++
 
-## Hinzufügen des Felds &quot;Statussymbole&quot; zu einer Ansicht
+## Hinzufügen des Felds Statussymbole zu einer Ansicht
 
-In einigen integrierten Ansichten und Berichten ist das Feld &quot;Statussymbole&quot; bereits enthalten.
+Bei einigen integrierten Ansichten und Berichten ist das Feld Statussymbole bereits enthalten.
 
-Sie können das Feld &quot;Statussymbole&quot; nicht allen Ansichten hinzufügen.
+Das Feld Statussymbole kann nicht allen Ansichten hinzugefügt werden.
 
-So fügen Sie das Feld &quot;Statussymbole&quot; einer benutzerdefinierten Ansicht hinzu, die Sie von Grund auf neu erstellen:
+So fügen Sie das Feld Statussymbole zu einer benutzerdefinierten Ansicht hinzu, die Sie von Grund auf neu erstellen:
 
-1. Wählen Sie eine der folgenden Objekte aus:
+1. Navigieren Sie zu einer Liste mit einem der folgenden Objekte:
 
    * Aufgaben
    * Probleme
@@ -101,19 +103,19 @@ So fügen Sie das Feld &quot;Statussymbole&quot; einer benutzerdefinierten Ansic
 1. Wählen Sie **Dropdown** Menü „Ansicht“ die Option **Neue Ansicht**.
 
 1. Klicken Sie auf **Spalte hinzufügen**.
-1. Beginnen Sie im Feld **In dieser Spalte anzeigen** mit der Eingabe eines der folgenden Feldnamen, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird:
+1. Beginnen Sie im Feld **In dieser Spalte anzeigen** mit der Eingabe eines der folgenden Feldnamen und wählen Sie diesen aus, wenn er in der Liste angezeigt wird:
 
    * *Status-Symbole*
    * *Flags*
    * *Symbole anzeigen* (nur in Dokumentansichten).
 
    Die integrierten Symbole werden unter einem dieser Namen aufgeführt.\
-   Eine Vorlagenansicht enthält sowohl die **Statussymbole** als auch die Felder **Markierungen**. In diesem Fall enthalten die beiden Spalten identische Symbole.\
+   Eine Vorlagenansicht enthält sowohl die Felder **Statussymbole** als auch **Flags**. In diesem Fall enthalten die beiden Spalten identische Symbole.\
    Dokumentansichten enthalten ein Feld **Ansichtssymbole**.
 
 1. Klicken Sie auf **Ansicht speichern**.
-1. (Optional) Geben Sie einen neuen Namen für Ihre Ansicht an, und klicken Sie dann auf **Ansicht speichern**.\
-   Dadurch wird die Spalte **Statussymbole** zu Ihrer Ansicht hinzugefügt.
+1. (Optional) Geben Sie einen neuen Namen für Ihre Ansicht ein und klicken Sie dann auf **Ansicht speichern**.\
+   Dadurch wird Ihrer Ansicht **Spalte** Statussymbole“ hinzugefügt.
 1. (Optional) Bewegen Sie den Mauszeiger über ein Symbol, um zu verstehen, was es darstellt.
 1. (Optional) Klicken Sie auf ein Symbol, um den Bereich des Objekts aufzurufen, das von ihm repräsentiert wird.\
    Nicht alle Symbole sind Links zu Objekten.\
@@ -121,9 +123,9 @@ So fügen Sie das Feld &quot;Statussymbole&quot; einer benutzerdefinierten Ansic
 
 ## Übersicht über Statussymbole und -flags {#overview-of-status-icons-and-flags}
 
-In der folgenden Tabelle sind alle in Workfront verfügbaren Statussymbole, der Typ der Objekte, die ihnen zugeordnet werden können, sowie die Vorgänge aufgeführt, die beim Klicken auf sie ausgeführt werden.
+In der folgenden Tabelle sind alle in Workfront verfügbaren Statussymbole, der Typ der Objekte, die mit ihnen verknüpft werden können, sowie das, was passiert, wenn Sie darauf klicken, aufgeführt.
 
-Sie müssen mindestens über die Berechtigung zum Anzeigen der Objekte verfügen, um auf einige der folgenden Symbole klicken und auf diese Objekte zugreifen zu können.
+Sie müssen über Berechtigungen zum Anzeigen der Objekte verfügen, damit Sie auf die folgenden Symbole klicken und auf diese Objekte zugreifen können.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -133,7 +135,7 @@ Sie müssen mindestens über die Berechtigung zum Anzeigen der Objekte verfügen
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Statussymbol oder Flag</strong> </th> 
+   <th><strong>Statussymbol oder -Markierung</strong> </th> 
    <th><strong>Beschreibung</strong> </th> 
    <th><strong>Objekt</strong> </th> 
    <th>Bei Klick</th> 
@@ -164,36 +166,36 @@ Sie müssen mindestens über die Berechtigung zum Anzeigen der Objekte verfügen
   </tr> 
   <tr> 
    <td> <img src="assets/open-issu-icon-34x36.png" alt="open_issue_icon.png" style="width: 34;height: 36;">oder <img src="assets/new-open-issues-25x30.png" alt="new_open_issues.png" style="width: 25;height: 30;"></td> 
-   <td>Zeigt an, dass Probleme beim Öffnen des Projekts oder der Aufgabe vorliegen.</td> 
-   <td> Projekte<br>Aufgaben </td> 
-   <td>Klicken Sie, um das Objekt zu öffnen. </td> 
+   <td>Gibt an, dass es offene Probleme im Projekt oder in der Aufgabe gibt.</td> 
+   <td> projects<br>tasks </td> 
+   <td>Klicken, um das Objekt zu öffnen. </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/approval-icon-42x38.png" alt="approval_icon.png" style="width: 42;height: 38;"> oder <img src="assets/new-approval-icon-33x35.png" alt="new_approval_icon.png" style="width: 33;height: 35;"></td> 
    <td>Gibt an, dass für das Objekt eine Genehmigung vorliegt.</td> 
    <td> projects<br>tasks<br>issues<br>templates<br>template tasks </td> 
-   <td>Klicken Sie, um das Objekt zu öffnen. </td> 
+   <td>Klicken, um das Objekt zu öffnen. </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <img src="assets/expenses-icon-52x40.png" alt="costs_icon.png" style="width: 52;height: 40;"> </td> 
-   <td> <p>Sie können der Ansicht eine Spalte mit dem Symbol "Ausgaben" hinzufügen, um dieses Symbol anzuzeigen. Dies bedeutet, dass mit dem Projekt oder der Aufgabe Ausgaben verbunden sind.</p> </td> 
+   <td> <img src="assets/expenses-icon-52x40.png" alt="expires_icon.png" style="width: 52;height: 40;"> </td> 
+   <td> <p>Sie können Ihrer Ansicht eine Spalte mit dem Ausgabensymbol hinzufügen, um dieses Symbol anzuzeigen. Dies bedeutet, dass mit dem Projekt oder der Aufgabe Ausgaben verbunden sind.</p> </td> 
    <td> <p>Projekte</p> <p>Aufgaben</p> </td> 
    <td>Klicken Sie, um die Registerkarte „Ausgaben“ des Projekts oder der Aufgabe zu öffnen. </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/task-progress-status-icon-on-time-44x39.png" alt="task_progress_status_icon_on_time.png" style="width: 44;height: 39;"> <br> <img src="assets/task-progress-status-late-44x43.png" alt="task_progress_status_late.png" style="width: 44;height: 43;"> <br> <img src="assets/task-progress-status-at-risk-44x35.png" alt="task_progress_status_at_risk.png" style="width: 44;height: 35;"> <br> <img src="assets/task-progress-status-icon-behind-44x35.png" style="width: 44;height: 35;"> </td> 
-   <td> <p>Gibt an, dass der Fortschrittsstatus einer Aufgabe einer der folgenden ist:</p> 
+   <td> <p>Gibt an, dass der Fortschrittsstatus einer Aufgabe eine der folgenden ist:</p> 
     <ul> 
-     <li>On Time (grünes Quadrat)</li> 
+     <li>Pünktlich (grünes Quadrat)</li> 
      <li>Spät (roter Kreis)</li> 
-     <li>Risiko (blaue Raute)</li> 
-     <li>Dahinter (gelbes Dreieck)</li> 
-    </ul> <p>Weitere Informationen zum Fortschrittsstatus von Aufgaben finden Sie unter <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Übersicht über den Aufgabenfortschrittsstatus</a>.</p> </td> 
+     <li>Gefährdet (blauer Diamant)</li> 
+     <li>Hinten (gelbes Dreieck)</li> 
+    </ul> <p>Informationen zum Fortschrittsstatus von Aufgaben finden Sie unter <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Übersicht über den </a>.</p> </td> 
    <td>Aufgaben</td> 
-   <td>Klicken Sie auf , um die Aufgabe zu öffnen. </td> 
+   <td>Klicken, um die Aufgabe zu öffnen. </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -205,7 +207,7 @@ Sie müssen mindestens über die Berechtigung zum Anzeigen der Objekte verfügen
   </tr> 
   <tr> 
    <td> <img src="assets/milestone-icon-50x43.png" alt="milestone_icon.png" style="width: 50;height: 43;"> </td> 
-   <td>Gibt an, dass der Vorgang einem Meilenstein zugeordnet ist. Ihr Systemadministrator kann die Farbe der Raute in Ihrer Umgebung anpassen.<br>Informationen zu Meilensteinen finden Sie unter <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Erstellen eines Meilensteinpfads</a>.</td> 
+   <td>Gibt an, dass die Aufgabe mit einem Meilenstein verknüpft ist. Ihr Systemadministrator kann die Farbe des Diamanten in Ihrer Umgebung anpassen.<br>Informationen zu Meilensteinen finden Sie unter <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Erstellen eines Meilensteinpfads</a>.</td> 
    <td>Aufgaben</td> 
    <td>Klicken, um die Aufgabe zu öffnen. </td> 
    <td> </td> 
@@ -228,14 +230,14 @@ Sie müssen mindestens über die Berechtigung zum Anzeigen der Objekte verfügen
    <td> <img src="assets/view-doc-icon-45x48.png" alt="view_doc_icon.png" style="width: 45;height: 48;"> </td> 
    <td>Ein Dokument anzeigen.</td> 
    <td>Dokumente</td> 
-   <td>Klicken Sie auf , um das Dokument herunterzuladen.</td> 
+   <td>Klicken, um das Dokument herunterzuladen.</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/download-doc-icon.png"> </td> 
    <td>Dokument herunterladen.</td> 
    <td>Dokumente</td> 
-   <td>Klicken Sie auf , um das Dokument herunterzuladen.</td> 
+   <td>Klicken, um das Dokument herunterzuladen.</td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -263,7 +265,7 @@ Sie müssen mindestens über die Berechtigung zum Anzeigen der Objekte verfügen
    <td> <img src="assets/resource-grid-icon-44x46.png" alt="resource_grid_icon.png" style="width: 44;height: 46;"> </td> 
    <td>Verknüpfung zur Registerkarte Zuordnung des Benutzers </td> 
    <td>Benutzende</td> 
-   <td>Klicken Sie hier, um die Registerkarte "Zuordnung" des Benutzers zu öffnen und zu erfahren, welchen Arbeitsaufgaben der Benutzer zugewiesen ist.</td> 
+   <td>Klicken Sie, um die Registerkarte Zuordnung des Benutzers zu öffnen und zu erfahren, welche Arbeitselemente dem Benutzer zugewiesen sind.</td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -281,15 +283,15 @@ Sie müssen mindestens über die Berechtigung zum Anzeigen der Objekte verfügen
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <img src="assets/expense-reimbursable-icon-44x45.png" alt="kosten_erstattungsfähiges_symbol.png" style="width: 44;height: 45;"> </td> 
-   <td> Zeigt an, dass eine Ausgabe rückzahlbar ist.<br>Informationen zu den Ausgaben finden Sie unter <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Projektkosten verwalten </a>.</td> 
+   <td> <img src="assets/expense-reimbursable-icon-44x45.png" alt="expe_refundable_icon.png" style="width: 44;height: 45;"> </td> 
+   <td> Gibt an, dass eine Ausgabe erstattungsfähig ist.<br>Informationen zu Ausgaben finden Sie unter <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Projektausgaben verwalten </a>.</td> 
    <td>Ausgaben</td> 
    <td>Nicht verfügbar</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <img src="assets/reimbursed-expense-icon-44x43.png" alt="erstattete_Ausgaben_Symbol.png" style="width: 44;height: 43;"></td> 
-   <td> Zeigt an, dass eine Ausgabe erstattet wurde.<br>Informationen zu den Ausgaben finden Sie unter <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Projektkosten verwalten </a>.</td> 
+   <td> <img src="assets/reimbursed-expense-icon-44x43.png" alt="returned_cost_icon.png" style="width: 44;height: 43;"></td> 
+   <td> Zeigt an, dass eine Ausgabe erstattet wurde.<br>Informationen zu Ausgaben finden Sie unter <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Projektausgaben verwalten </a>.</td> 
    <td>Ausgaben</td> 
    <td>Nicht verfügbar</td> 
    <td> </td> 

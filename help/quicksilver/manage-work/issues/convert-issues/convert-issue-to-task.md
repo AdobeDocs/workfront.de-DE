@@ -6,14 +6,16 @@ description: Wenn nach dem Übermitteln eines Problems weitere Arbeit zum Abschl
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1043'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
-# Anfrage in eine Aufgabe konvertieren
+# Konvertieren eines Problems in eine Aufgabe
 
 <!--Audited: 08/2025-->
 
@@ -25,7 +27,7 @@ Allgemeine Informationen zum Konvertieren von Problemen finden Sie unter [Übers
 
 +++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+Sie benötigen die folgenden Zugriffsrechte, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,12 +54,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -79,13 +82,14 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    <td> <p>View permissions to the issue</p> <p>Contribute permissions to the project</p> <p>You obtain Manage permissions to the task after the issue is converted</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table> -->
+</table>
+-->
 
 ## Zu beachten
 
 * Beim Konvertieren eines Problems in eine Aufgabe gibt es ein Verarbeitungslimit von 5 Minuten. Wenn an das Problem eine große Anzahl von Dokumenten angehängt ist und es nicht konvertiert werden kann, müssen Sie möglicherweise einige der Dokumente entfernen und erneut versuchen.
 
-## Anfrage in eine Aufgabe konvertieren
+## Konvertieren eines Problems in eine Aufgabe
 
 1. Gehen Sie zu einem Projekt und klicken Sie [!UICONTROL **linken Bereich**] Probleme“.
 1. Klicken Sie auf das Problem, das Sie konvertieren möchten, um zur Landingpage des Problems zu gelangen.
@@ -132,7 +136,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    * [!UICONTROL **Das geplante Abschlussdatum der Anfrage beibehalten**]
 
-     Wenn diese Option deaktiviert ist[!UICONTROL &#x200B; wird das geplante Abschlussdatum &#x200B;] neuen Aufgabe anhand des [!UICONTROL geplanten Startdatums] berechnet. Das [!UICONTROL geplante Startdatum] der neuen Aufgabe wird entsprechend den Systemeinstellungen für neue Aufgaben festgelegt.
+     Wenn diese Option deaktiviert ist[!UICONTROL  wird das geplante Abschlussdatum ] neuen Aufgabe anhand des [!UICONTROL geplanten Startdatums] berechnet. Das [!UICONTROL geplante Startdatum] der neuen Aufgabe wird entsprechend den Systemeinstellungen für neue Aufgaben festgelegt.
 
      >[!NOTE]
      >
@@ -158,7 +162,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Das Problem ist nun mit der neuen Aufgabe für das ausgewählte Projekt verknüpft und wird abgeschlossen, sobald die Aufgabe abgeschlossen ist, falls Sie die ursprüngliche Anfrage beibehalten möchten.
 
-   Einige Problemfelder werden auf die Aufgabe übertragen. Weitere Informationen finden Sie [&#x200B; Abschnitt „Anzeigen der ursprünglichen Anfrageinformationen zu Projekten und Aufgaben](#view-original-issue-information-on-projects-and-tasks) in diesem Artikel.
+   Einige Problemfelder werden auf die Aufgabe übertragen. Weitere Informationen finden Sie [ Abschnitt „Anzeigen der ursprünglichen Anfrageinformationen zu Projekten und Aufgaben](#view-original-issue-information-on-projects-and-tasks) in diesem Artikel.
 
 1. (Optional) Fahren Sie mit der Bearbeitung der Aufgabe nach Bedarf fort.
 
@@ -177,4 +181,4 @@ Die folgende Tabelle zeigt, welche Problemfelder in den konvertierten Projekten 
 
 >[!CAUTION]
 >
->Wenn sich der [!UICONTROL Primäre &#x200B;] eines Problems ändert oder die Verknüpfung des Problems mit dem Projekt oder der Aufgabe nach der Konvertierung des Problems aufgehoben wird, wird der [!UICONTROL Name des konvertierten Problemurhebers] nicht aktualisiert und der ursprüngliche [!UICONTROL Primäre &#x200B;] des Problems zum Zeitpunkt der Konvertierung wird angezeigt.
+>Wenn sich der [!UICONTROL Primäre ] eines Problems ändert oder die Verknüpfung des Problems mit dem Projekt oder der Aufgabe nach der Konvertierung des Problems aufgehoben wird, wird der [!UICONTROL Name des konvertierten Problemurhebers] nicht aktualisiert und der ursprüngliche [!UICONTROL Primäre ] des Problems zum Zeitpunkt der Konvertierung wird angezeigt.

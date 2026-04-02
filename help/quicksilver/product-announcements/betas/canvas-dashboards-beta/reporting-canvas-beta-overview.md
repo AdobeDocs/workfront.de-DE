@@ -8,7 +8,9 @@ feature: Product Announcements
 hidefromtoc: true
 hide: true
 exl-id: 5767ef7d-1bc3-40d8-abeb-02b15166a0a3
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1061'
 ht-degree: 3%
@@ -27,13 +29,13 @@ Dieser Artikel enthält Informationen zur aktuellen privaten Beta-Version, die a
 
 Wir befinden uns in der letzten Phase der Behebung eines Datenqualitätsproblems, das wir am Anfang der Beta-Phase der Reporting-Arbeitsfläche beobachtet haben. Wir werden bald unsere Arbeit fortsetzen, um neue Visualisierungen bereitzustellen, die Auswahl an berichtspflichtigen Workfront-Objekten zu erweitern und die Berichterstellung und -verteilung zu verbessern, die alle von entscheidender Bedeutung für die Verwirklichung unserer Ziele für die Reporting-Arbeitsfläche sind.
 
-Wir stellen diese neuen Erlebnisse schrittweise bereit, beginnend mit Version 23.2, über die neue Seite „Canvas-Dashboards“, die jetzt in Ihrer Vorschau-Umgebung verfügbar ist. Mit Canvas-Dashboards können Sie vorhandene Berichte neben den neuen Berichtsfunktionen anzeigen, die wir gerade erstellen. Sie dienen als primäre Umgebung für die Bereitstellung und das Testen neuer Funktionen für Reporting Canvas. Weitere Informationen zur Aktivierung und Verwendung von Arbeitsflächen-Dashboards finden Sie unter [Arbeitsflächen-Dashboards - Übersicht](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
+Wir stellen diese neuen Erlebnisse schrittweise bereit, beginnend mit Version 23.2, über die neue Seite „Canvas-Dashboards“, die jetzt in Ihrer Vorschau-Umgebung verfügbar ist. Arbeitsflächen-Dashboards ermöglichen es Ihnen, neben den neuen Berichtsfunktionen, die wir erstellen, vorhandene Berichte anzuzeigen. Sie dienen als primäre Umgebung für die Bereitstellung und das Testen neuer Funktionen für die Reporting-Arbeitsfläche. Weitere Informationen zur Aktivierung und Verwendung von Arbeitsflächen-Dashboards finden Sie unter [Arbeitsflächen-Dashboards - Übersicht](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
 
-## Beta-Version testen
+## Beta-Version verwenden
 
 >[!IMPORTANT]
 >
->Die unten stehenden Beta-Informationen gelten für Administratoren, die bereits in die Beta-Version der Berichtscanvas aufgenommen wurden, in der keine neuen Teilnehmer mehr akzeptiert werden. Wenn Sie neue Funktionen von Reporting Canvas testen möchten, während diese hinzugefügt werden, finden Sie unter **Entwicklungsplan** oben weitere Informationen zum Aktivieren von Canvas-Dashboards.
+>Die folgenden Beta-Informationen richten sich an Administratoren, die bereits in die Beta-Version der Reporting-Arbeitsfläche aufgenommen wurden, welche keine neuen Teilnehmer mehr akzeptiert. Wenn Sie neue Funktionen der Reporting-Arbeitsfläche beim Hinzufügen testen möchten, finden Sie oben unter **Entwicklungsplan** Informationen zum Aktivieren von Arbeitsflächen-Dashboards.
 
 ### Verfügbarkeit
 
@@ -66,12 +68,12 @@ Opt-in für andere Benutzende, die keine Workfront-Administratoren sind:
 
 ### Feedback senden
 
-So senden Sie Feedback zur Beta-Version:
+Feedback zur Beta-Version senden:
 
-1. Klicken Sie auf der Berichtsarbeitsfläche in Workfront auf die Schaltfläche **Feedback senden**.
-1. Füllen Sie das Formular aus, und klicken Sie dann auf **Senden**.
+1. Klicken Sie auf der Reporting-Arbeitsfläche in Workfront auf die Schaltfläche **Feedback senden**.
+1. Füllen Sie das Formular aus und klicken Sie dann auf **Senden**.
 
-## Häufige Fragen zu Beta
+## Häufig gestellte Fragen zu Beta
 
 +++Kann ich meine alten Berichte zur Reporting-Arbeitsfläche migrieren?
 
@@ -92,12 +94,12 @@ Unsere aktuelle Migrationsstrategie in den offiziellen -Versionen ermöglicht Ih
 
    Sie können denselben Bericht oder dasselbe Dashboard beliebig oft migrieren.
 
-1. Stellen Sie in Reporting Canvas sicher, dass alle ausgewählten Berichte und Dashboards migriert wurden.
+1. Stellen Sie in der Reporting-Arbeitsfläche sicher, dass alle ausgewählten Berichte und Dashboards migriert wurden.
 +++
 
 +++Warum kann ich nicht alle Objekte sehen, die ich normalerweise mache?
 
-Um unseren Kunden die Beta-Version so früh wie möglich zur Verfügung zu stellen, haben wir sie nur mit einer Untergruppe der vielen Objekttypen veröffentlicht, die heute in Workfront verfügbar sind. Im Folgenden sind die derzeit in der Beta-Version unterstützten Objekttypen aufgeführt:
+Um unseren Kunden die Beta-Version so früh wie möglich zur Verfügung zu stellen, haben wir sie nur mit einer Teilmenge der vielen heute in Workfront verfügbaren Objekttypen veröffentlicht. Im Folgenden finden Sie die derzeit in der Beta-Version unterstützten Objekttypen:
 
 * Zuweisung
 * Dokument
@@ -124,8 +126,8 @@ Nein. Die Beta-Version verwendet eine Kopie der Daten Ihrer Organisation, die in
 Ein Workfront-Administrator kann die Beta-Version nicht deaktivieren. Dagegen können Nicht-Systemadministratoren wie folgt entfernt werden:
 
 1. Melden Sie sich als Systemadministrator an.
-1. Navigieren Sie zu Berichtsarbeitsfläche.
-1. Klicken Sie auf Berichtsarbeitsfläche **Berechtigungen**.
-1. Entfernen Sie die Benutzer, die Sie aus der Beta-Version ausschließen möchten, aus der Liste, die angemeldet wurden.
+1. Navigieren Sie zur Reporting-Arbeitsfläche.
+1. Klicken Sie auf Reporting-Arbeitsfläche **Berechtigungen**.
+1. Entfernen Sie die Benutzer, die Sie von der Beta-Version abmelden möchten, aus der Liste, die abgemeldet wurden.
 1. Klicken Sie auf **Speichern**.
 +++

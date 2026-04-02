@@ -8,14 +8,16 @@ description: Projektmetriken bieten Ihnen eine Visualisierung der Vorgänge in e
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1206'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-# Verstehen von Projektmetriken
+# Grundlegendes zu Projektmetriken
 
 Projektmetriken bieten eine allgemeine Ansicht der Leistung eines Projekts im Diagrammformat.
 
@@ -51,7 +53,8 @@ Projektmetriken bieten eine allgemeine Ansicht der Leistung eines Projekts im Di
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -75,7 +78,8 @@ Projektmetriken bieten eine allgemeine Ansicht der Leistung eines Projekts im Di
    <td> <p>View permissions to a project</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Voraussetzungen
 
@@ -101,11 +105,13 @@ Sie können auch ein Drilldown in jedes Diagramm durchführen, um Aufgaben oder 
 
 Weitere Informationen zum Untersuchen dieser Aufgaben oder Probleme finden Sie unter [Metrikdetails anzeigen](#view-metrics-details).
 
-<!--this was deprecated: 
+<!--
+this was deprecated: 
 >[!TIP]
 >
 >To see metrics at a higher level for a group of projects within a program, portfolio, etc., navigate to the Enhanced analytics area.  
->To learn more about Enhanced analytics, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).-->
+>To learn more about Enhanced analytics, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).
+-->
 
 ## Projektkennzahlen
 

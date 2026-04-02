@@ -2,12 +2,14 @@
 filename: configure-card-falloff.md
 content-type: reference
 navigation-topic: boards
-title: Falloff der Karte konfigurieren
-description: Sie können ein Board so konfigurieren, dass Karten nach einem Zeitplan archiviert werden oder vom Board fallen.
+title: Karten-Falloff konfigurieren
+description: Sie können eine Pinnwand so konfigurieren, dass Karten nach einem Zeitplan archiviert werden oder von der Pinnwand fallen.
 author: Courtney
 feature: Agile
 exl-id: 0e4f6b3c-75aa-4314-9cb0-737e5a9d3bda
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 20%
@@ -16,9 +18,9 @@ ht-degree: 20%
 
 # Konfigurieren der Verringerung von Karten
 
-Sie können ein Board so konfigurieren, dass Karten nach einem Zeitplan archiviert werden oder vom Board &quot;herunterfallen&quot;. Sie können Karten in einer bestimmten Spalte so einstellen, dass sie in einer bestimmten Anzahl von Tagen oder Wochen vom Spielfeld fallen.
+Sie können eine Pinnwand so konfigurieren, dass Karten nach einem Zeitplan archiviert werden oder vom Board „herunterfallen“. Sie können Karten in einer bestimmten Spalte so einstellen, dass sie in einer bestimmten Anzahl von Tagen oder Wochen vom Board fallen.
 
-Wenn eine Karte von der Platine fällt, wird sie archiviert. Sie können archivierte Karten mit einem Filter anzeigen. Weitere Informationen finden Sie unter [Filtern und Suchen in einem Board](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+Wenn eine Karte vom Board fällt, wird sie archiviert. Sie können archivierte Karten mit einem Filter anzeigen. Weitere Informationen finden Sie unter [Filtern und Suchen in einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
 ## Zugriffsanforderungen
 
@@ -50,17 +52,17 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 {{step1-to-boards}}
 
-1. Auf ein Board zugreifen. Weitere Informationen finden Sie unter [Board erstellen oder bearbeiten](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicken Sie auf **[!UICONTROL Konfigurieren]** auf der rechten Seite des Boards, um den Bereich &quot;Konfigurieren&quot; zu öffnen.
+1. Zugriff auf eine Pinnwand. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten einer Pinnwand](../../agile/get-started-with-boards/create-edit-board.md).
+1. Klicken Sie **[!UICONTROL rechts auf]** Pinnwand auf „Konfigurieren“, um das Bedienfeld „Konfigurieren“ zu öffnen.
 1. Erweitern Sie **[!UICONTROL Karten]**.
-1. Aktivieren Sie **[!UICONTROL Karten automatisch vom Board archivieren]**.
+1. Schalten Sie **[!UICONTROL Karten von der Pinnwand automatisch archivieren]** ein.
 
-   ![Einstellungen für Kartenausfall](assets/card-falloff-switch.png)
+   ![Karten-Falloff-Einstellungen](assets/card-falloff-switch.png)
 
-1. Wählen Sie aus, wann Karten vom Board archiviert werden sollen. Sie können zwischen bis zu 8 Wochen und bis zu 60 Tagen wählen.
+1. Wählen Sie aus, wann die Karten auf der Pinnwand archiviert werden sollen. Sie können zwischen bis zu 8 Wochen oder bis zu 60 Tagen wählen.
 
-   Das Datum wird ab dem Zeitpunkt der letzten Änderung der Karte festgelegt.
+   Das Datum wird ab dem Zeitpunkt der letzten Änderung der Karte ermittelt.
 
 1. Wählen Sie aus, aus welcher Spalte Karten entfernt werden sollen.
-1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Speichern]**.
-1. Klicken Sie auf &quot;**[!UICONTROL Konfiguration ausblenden]**&quot;, um den Bereich &quot;[!UICONTROL Konfiguration ausblenden]&quot; zu schließen. Die Konfigurationseinstellungen werden automatisch angewendet, wenn Sie das Board aktualisieren.
+1. Klicken Sie **[!UICONTROL der]** auf „Speichern“.
+1. Klicken Sie auf **[!UICONTROL Konfigurieren ausblenden]**, um das Bedienfeld [!UICONTROL Konfigurieren] zu schließen. Die Konfigurationseinstellungen werden beim Aktualisieren der Pinnwand automatisch angewendet.

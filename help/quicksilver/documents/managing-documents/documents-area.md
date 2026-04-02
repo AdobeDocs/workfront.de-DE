@@ -7,7 +7,9 @@ description: Im Bereich Dokumente können Sie Metadaten für in Adobe Workfront 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
-source-git-commit: d35e6c33479ed051aaa87b07ddf38811fffc0cc0
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '770'
 ht-degree: 1%
@@ -58,13 +60,13 @@ Sobald eine Korrekturabzugsentscheidung getroffen wurde, wird sie in der Dokumen
 
 ### Ordner
 
-Für ein Projekt, eine Aufgabe oder ein Problem, in das bzw. das Dokumente hochgeladen werden, können Sie Ordner zum Organisieren der Dokumente einrichten. Weitere Informationen finden Sie unter [Erstellen von &#x200B;](../../documents/organizing-documents/create-documents-folder.md).
+Für ein Projekt, eine Aufgabe oder ein Problem, in das bzw. das Dokumente hochgeladen werden, können Sie Ordner zum Organisieren der Dokumente einrichten. Weitere Informationen finden Sie unter [Erstellen von ](../../documents/organizing-documents/create-documents-folder.md).
 
 Im Bereich Globale Dokumente können Sie zwei Arten von Ordnern einrichten, um die Dokumente zu organisieren, auf die Sie Zugriff haben:
 
 * **Intelligente Ordner:** Zeigt nur die Dokumente an, die angezeigt werden sollen. Weitere Informationen finden Sie unter [Erstellen und Verwalten von Smart Folders](../../documents/organizing-documents/create-manage-smart-folders.md).
 
-* **Meine Ordner** Dokumente nach Ihren Wünschen organisieren. Weitere Informationen finden Sie unter [Erstellen von &#x200B;](../../documents/organizing-documents/create-documents-folder.md).
+* **Meine Ordner** Dokumente nach Ihren Wünschen organisieren. Weitere Informationen finden Sie unter [Erstellen von ](../../documents/organizing-documents/create-documents-folder.md).
 
 ### Erweiterte Dokumentdetails
 

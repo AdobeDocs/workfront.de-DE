@@ -1,12 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: iterations
-title: Iteration anzeigen
-description: Sie können alle Iterationen für ein bestimmtes Team oder eine einzelne Iteration anzeigen. Iterationen zeigen Daten zu den Storys, Problemen und Dokumenten an, die in der Iteration enthalten sind.
+title: Anzeigen einer Iteration
+description: Sie können alle Iterationen für ein bestimmtes Team anzeigen oder eine einzelne Iteration anzeigen. Iterationen zeigen Daten zu den Geschichten, Problemen und Dokumenten an, die in der Iteration enthalten sind.
 author: Courtney
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 17%
@@ -15,7 +17,7 @@ ht-degree: 17%
 
 # Anzeigen einer Iteration
 
-Sie können alle Iterationen für ein bestimmtes Team oder eine einzelne Iteration anzeigen. Iterationen zeigen Daten zu den Storys, Problemen und Dokumenten an, die in der Iteration enthalten sind.
+Sie können alle Iterationen für ein bestimmtes Team anzeigen oder eine einzelne Iteration anzeigen. Iterationen zeigen Daten zu den Geschichten, Problemen und Dokumenten an, die in der Iteration enthalten sind.
 
 ## Zugriffsanforderungen
 
@@ -33,8 +35,8 @@ Sie können alle Iterationen für ein bestimmtes Team oder eine einzelne Iterati
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Hell oder höher</p> 
-   <p>Überprüfung oder höher</p> </td> 
+   <td> <p>Licht oder höher</p> 
+   <p>Überprüfen oder höher</p> </td> 
   </tr>
  </tbody> 
 </table>
@@ -47,18 +49,18 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 {{step1-to-team}}
 
-1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Scrum-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
+1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Symbol Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Scrum-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
-1. Wählen Sie im linken Bereich **[!UICONTROL Iterationen]**, um eine bestimmte Iteration auszuwählen, oder **[!UICONTROL Aktuelle Iteration]**.
+1. Wählen Sie im linken Bereich **[!UICONTROL Iterationen]**, um eine bestimmte Iteration auszuwählen, oder wählen Sie **[!UICONTROL Aktuelle Iteration]**.
 
    ![Iterationsliste](assets/view-iteration-list.png)
 
    >[!NOTE]
    >
-   >**[!UICONTROL Aktuelle Iteration]** wird nur im linken Bereich angezeigt, wenn sie der Layoutvorlage zugewiesen ist und mindestens eine Aufgabe oder ein Problem in der Iteration vorliegt. Weitere Informationen finden Sie unter [Anpassen des linken Bereichs mit einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+   >**[!UICONTROL Aktuelle Iteration]** wird nur im linken Bereich angezeigt, wenn er der Layout-Vorlage zugewiesen ist und die Iteration mindestens eine Aufgabe oder ein Problem enthält. Weitere Informationen finden Sie unter [Anpassen des linken Bedienfelds mithilfe einer Layout-Vorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 
-1. (Optional) Klicken Sie auf den Namen der bestimmten Iteration, die Sie anzeigen möchten.
-Die Iterationsstorys werden angezeigt.
+1. (Optional) Klicken Sie auf den Namen der spezifischen Iteration, die Sie anzeigen möchten.
+Die Iterationsverläufe werden angezeigt.
 
    ![[!UICONTROL Geschichten in Iteration]](assets/iteration-stories-list.png)

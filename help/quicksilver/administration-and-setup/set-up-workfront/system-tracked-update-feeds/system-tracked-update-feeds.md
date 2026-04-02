@@ -9,18 +9,20 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: c8987d036e1c1324618cb53ebcbb8fd7e4bcc6a4
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Übersicht über die vom System verfolgten Aktualisierungen
+# Überblick über die vom System nachverfolgten Aktualisierungen
 
 <!-- Audited: 08/2025-->
 
-[!DNL Adobe Workfront] erfasst die Aktivitäten, die an bestimmten Objekten stattfinden, indem Statusinformationen im Abschnitt [!UICONTROL Updates“ &#x200B;] Objekts protokolliert werden.
+[!DNL Adobe Workfront] erfasst die Aktivitäten, die an bestimmten Objekten stattfinden, indem Statusinformationen im Abschnitt [!UICONTROL Updates“ ] Objekts protokolliert werden.
 
 Weitere Informationen zum Abschnitt „Aktualisierungen“ finden Sie [Übersicht über den Abschnitt „Aktualisierungen](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -53,7 +55,7 @@ System-getrackte Aktualisierungen sind nicht für alle Objekte verfügbar, die �
 
    * [!UICONTROL Projekt]
    * [!UICONTROL Aufgabe]
-   * [!UICONTROL Probleme]
+   * [!UICONTROL Problem]
    * [!UICONTROL Portfolio]
    * [!UICONTROL Programm]
    * [!UICONTROL Benutzer]
@@ -82,7 +84,8 @@ System-getrackte Aktualisierungen sind nicht für alle Objekte verfügbar, die �
    * [!UICONTROL Iterationen]
 
 
-<!--hiding this bit because this is not true, at this time (August 2023). Users with a Work or Review license can see system updates by default as well.
+<!--
+hiding this bit because this is not true, at this time (August 2023). Users with a Work or Review license can see system updates by default as well.
 
 Your [!DNL Workfront] license determines whether system updates display by default in the [!UICONTROL Updates] area of objects. [!DNL Workfront] users with a [!UICONTROL Plan] license have system updates displayed in the [!UICONTROL Updates] area by default. However, users can filter out system updates, as described in the [Enable or disable system updates](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) section in [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). All other [!DNL Workfront] licenses filter system updates by default.
 -->
@@ -112,7 +115,7 @@ Your [!DNL Workfront] license determines whether system updates display by defau
    * <span class="preview">The legacy commenting experience has been disabled in the Preview environment. For more information, see [Second Quarter 2024 Update stream and notification enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md).</span>
 -->
 
-* [!DNL Workfront] Admins können im Bereich [!UICONTROL Updates“ festlegen, welche Änderungen das System &#x200B;] soll. Nicht alle Objekte mit einem [!UICONTROL Updates]-Bereich verfügen auch über konfigurierbare [!UICONTROL Update]-Feeds. Die folgenden Objekte haben einen Bereich [!UICONTROL Updates], der vom System verfolgte Update-Feeds erfasst, aber keine konfigurierbaren Update-Feeds hat:
+* [!DNL Workfront] Admins können im Bereich [!UICONTROL Updates“ festlegen, welche Änderungen das System ] soll. Nicht alle Objekte mit einem [!UICONTROL Updates]-Bereich verfügen auch über konfigurierbare [!UICONTROL Update]-Feeds. Die folgenden Objekte haben einen Bereich [!UICONTROL Updates], der vom System verfolgte Update-Feeds erfasst, aber keine konfigurierbaren Update-Feeds hat:
 
    * [!UICONTROL Dokument]
    * [!UICONTROL Arbeitszeittabelle]

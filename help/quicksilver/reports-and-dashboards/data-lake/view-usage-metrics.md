@@ -7,7 +7,9 @@ description: Auf der Registerkarte Workfront Data Connect-Metriken können Sie d
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 29185bd1-e058-4b42-a508-53406fb9ddd2
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 11%
@@ -16,7 +18,7 @@ ht-degree: 11%
 
 # Anzeigen [!DNL Workfront Data Connect] Nutzungsmetriken
 
-Auf der Registerkarte [!DNL Workfront Data Connect] [!UICONTROL Metriken] können Sie die Nutzungsmetriken Ihres Unternehmens sowohl nach verwendeten Rechenstunden als auch nach der Anzahl der durchgeführten Abfragen anzeigen. Unternehmen verfügen je nach Lizenztyp und Add-on-Käufen für Data Connect über eine begrenzte Anzahl monatlicher Rechenstunden. Auf [!UICONTROL &#x200B; Registerkarte &#x200B;]Metriken“ werden Informationen zu den verfügbaren monatlichen Berechnungsstunden im Verhältnis zu den verwendeten Werten angezeigt.
+Auf der Registerkarte [!DNL Workfront Data Connect] [!UICONTROL Metriken] können Sie die Nutzungsmetriken Ihres Unternehmens sowohl nach verwendeten Rechenstunden als auch nach der Anzahl der durchgeführten Abfragen anzeigen. Unternehmen verfügen je nach Lizenztyp und Add-on-Käufen für Data Connect über eine begrenzte Anzahl monatlicher Rechenstunden. Auf [!UICONTROL  Registerkarte ]Metriken“ werden Informationen zu den verfügbaren monatlichen Berechnungsstunden im Verhältnis zu den verwendeten Werten angezeigt.
 
 ## Zugriffsanforderungen
 

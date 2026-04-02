@@ -6,10 +6,12 @@ description: Sie können Aktualisierungen zu einem Arbeitselement im Bereich [!U
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '837'
-ht-degree: 7%
+ht-degree: 10%
 
 ---
 
@@ -17,15 +19,17 @@ ht-degree: 7%
 
 <!--Audited: 04/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Sie können Aktualisierungen zu einem Arbeitselement im Bereich [!UICONTROL Startseite] in [!DNL Adobe Workfront] anzeigen und hinzufügen. Sie können auch andere mit dem Arbeitselement verknüpfte Daten bearbeiten, wenn Sie Zugriff zur Bearbeitung haben.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,7 +44,7 @@ Sie können Aktualisierungen zu einem Arbeitselement im Bereich [!UICONTROL Star
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
    <td> <p>Standard</p>
-   <p>Arbeit oder höher</p> </td> 
+   <p>Work oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfiguration der Zugriffsebene</strong></td> 
@@ -53,11 +57,12 @@ Sie können Aktualisierungen zu einem Arbeitselement im Bereich [!UICONTROL Star
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
-<!--not sure if this  from the old UI: we don't have a Work List anymore - should this section come off? 
+<!--
+not sure if this  from the old UI: we don't have a Work List anymore - should this section come off? 
 
 ## View updates on a work item
 
@@ -98,7 +103,7 @@ Sie können Arbeitselemente in den folgenden Widgets im Bereich Startseite bearb
 
 ## Hinzufügen eines Kommentars zu einem Arbeitselement im Widget Meine Arbeit
 
-Sie können Aktualisierungen zu jedem Arbeitselement im Widget &quot;[!UICONTROL &#x200B; Arbeit“ &#x200B;]:
+Sie können Aktualisierungen zu jedem Arbeitselement im Widget &quot;[!UICONTROL  Arbeit“ ]:
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke oder auf das Symbol **Hauptmenü** ![Hauptmenüzeilen](assets/lines-main-menu.png) in der oberen linken Ecke, falls verfügbar, und klicken Sie dann auf **[!UICONTROL Home]**.
 1. (Bedingt) Klicken Sie auf **Anpassen**, um das Widget [!UICONTROL **Meine Arbeit**] hinzuzufügen.

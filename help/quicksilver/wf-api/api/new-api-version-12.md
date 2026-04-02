@@ -1,20 +1,22 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Neue Funktionen in der API-Version 12
+title: Neue Funktionen in der API-Version 12
 description: Workfront hat API Version 12 am 12. November 2020 veröffentlicht. API Version 12 enthält die folgenden Änderungen gegenüber Version 11
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1ffba3b5-ab24-4ca2-a1ef-f7e5b77e776c
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2421'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
-# Neue Funktionen in der API-Version 12
+# Neue Funktionen in der API-Version 12
 
 Workfront hat API Version 12 am 12. November 2020 veröffentlicht. API Version 12 enthält die folgenden Änderungen gegenüber Version 11
 
@@ -31,9 +33,11 @@ Ein BreadCrumb-Objekt stellt ein Element in der übergeordneten/untergeordneten 
 
 Weitere Informationen zu Breadcrumbs in Workfront finden Sie unter [Breadcrumbs - Übersicht in der neuen Adobe Workfront-Version](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -53,9 +57,11 @@ Rich-Text-Felder sind jetzt für mehr Objekte verfügbar. Das RichTextParameterV
 
 Weitere Informationen finden Sie unter [Rich-Textfelder in der Adobe Workfront-API](../../wf-api/general/rich-text-field-api.md).
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
@@ -138,24 +144,30 @@ Die folgenden Ressourcen wurden für die Workfront-API-Version 12 geändert.
 
 Ein AccessLevel-Objekt ist Benutzern zugeordnet und beschreibt den Satz von AccessLevelPermissions, die bestimmen, auf was Benutzer zugreifen können.
 
-Weitere Informationen zu Zugriffsebenen finden Sie unter [&#x200B; von Zugriffsebenen](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
+Weitere Informationen zu Zugriffsebenen finden Sie unter [ von Zugriffsebenen](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
 
-<table style="table-layout:auto"> <!--
+<table style="table-layout:auto">
+<!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
- --> <!--
+ -->
+ <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
-  <tr> <!--
+  <tr>
+  <!--
     <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Direct Fields</td>
    --> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <!--
+     <li style="font-weight: bold;">
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">fieldAccessPrivileges</p>
-      --> <!--
+      -->
+      <!--
        <p style="font-weight: normal;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Added the possible value CPJ (Copy). This allows Users with Planner Access Level to copy Projects.</p>
-      --> </li> 
+      -->
+      </li>
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -191,43 +203,61 @@ Ein AccessLevelPermissions-Objekt stellt eine bestimmte Berechtigung zum Zugreif
        <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 
        <li> <p>EDIT_SYSTEMWIDE </p> </li> 
       </ul> </li> 
-    </ul> <!--
+    </ul>
+    <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">OR</p>
-    --> <!--
+    -->
+    <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The following fields added the possible value PLANNED_HOURS_CONTOURING, which allows a user to update planned hours in the Workload Balancer</p>
     --> 
     <ul> 
-     <li> <!--
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">coreAction</p>
-      --> </li> 
-     <li> <!--
+      -->
+      </li>
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">forbiddenActions</p>
-      --> </li> 
-     <li> <!--
+      -->
+      </li>
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">secondaryActions</p>
-      --> </li> 
-    </ul> <!--
+      -->
+      </li>
+    </ul>
+    <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The following fields added the possible value ADD_TO_CUSTOM_FORMS, which allows a user to add fields to custom forms.</p>
     --> 
     <ul> 
-     <li> <!--
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">coreAction</p>
-      --> </li> 
-     <li> <!--
+      -->
+      </li>
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">forbiddenActions</p>
-      --> </li> 
-     <li> <!--
+      -->
+      </li>
+     <li>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">secondaryActions</p>
-      --> </li> 
-    </ul> <!--
+      -->
+      </li>
+    </ul>
+    <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The following fields added the possible value EDIT_SYSTEMWIDE, which allows a user to share a custom field system-wide with Delete access. </p>
-    --> <!--
+    -->
+    <!--
      <ul data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
       <li> <p>coreAction</p> </li> 
       <li> <p>forbiddenActions</p> </li> 
       <li> <p>secondaryActions</p> </li> 
      </ul>
-    --> </td> 
+    -->
+    </td>
   </tr> 
  </tbody> 
 </table>
@@ -335,7 +365,7 @@ Weitere Informationen zu Ankündigungs-Anhängen finden Sie unter [Ankündigunge
 
 ### Genehmigung {#approval}
 
-Für ein bestimmtes Arbeitselement, z. B. eine Aufgabe, ein Dokument oder eine Arbeitszeittabelle, kann es erforderlich sein, dass ein Verantwortlicher oder ein anderer Benutzer das Arbeitselement abzeichnet. Ein Validierungsobjekt stellt die Aktion des Abzeichnens eines Arbeitselements dar.
+Für ein bestimmtes Arbeitselement, z. B. eine Aufgabe, ein Dokument oder eine Arbeitszeittabelle, kann es erforderlich sein, dass eine verantwortliche Person oder ein anderer Benutzer bzw. eine andere Benutzerin das Arbeitselement abzeichnet. Ein Validierungsobjekt stellt die Aktion des Abzeichnens eines Arbeitselements dar.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -418,7 +448,7 @@ Weitere Informationen zu Unternehmen finden Sie unter [Erstellen und Bearbeiten 
  </tbody> 
 </table>
 
-### Kundin bzw. Kunde {#customer}
+### Kunde {#customer}
 
 Ein Customer-Objekt stellt eine Organisation dar, die eine Instanz von Workfront verwendet.
 
@@ -660,7 +690,7 @@ Weitere Informationen zu benutzerdefinierten Feldern finden Sie unter [Erstellen
 
 Ein Portfolio-Objekt ist eine Sammlung von Projekten, die um dieselben Ressourcen konkurrieren, normalerweise Geld oder Personen, um sie abzuschließen.
 
-Weitere Informationen zu Portfolios finden Sie unter Übersicht über Portfolio in Adobe Workfront [&#128279;](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+Weitere Informationen zu Portfolios finden Sie unter Übersicht über Portfolio in Adobe Workfront [](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -823,9 +853,11 @@ Ein Team-Objekt ist eine Sammlung von Benutzern, die einem Arbeitselement zugewi
    <td role="rowheader">Direkte Felder</td> 
    <td> <p>Die folgenden Felder wurden der Team-Ressource hinzugefügt:</p> 
     <ul> 
-     <li> <p><strong>completeDaysOnKanbanBoard</strong> </p> <p>Dieses Feld gibt die Anzahl der Tage an, die eine ausgefüllte Karte auf dem Kanban-Board verbleibt.</p> <!--
+     <li> <p><strong>completeDaysOnKanbanBoard</strong> </p> <p>Dieses Feld gibt die Anzahl der Tage an, die eine ausgefüllte Karte auf dem Kanban-Board verbleibt.</p>
+     <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information, see <a href="../../agile/get-started-with-agile-in-workfront/configure-kanban.md" class="MCXref xref">Configure Kanban</a>.</p>
-      --> </li> 
+      -->
+      </li>
      <li> <p><strong>groupID</strong> </p> <p>Dieses Feld verknüpft ein Team mit einer Gruppe. Dadurch wird das Team als Teil der Gruppe identifiziert und der Gruppenadministrator kann die Teams verwalten.</p> </li> 
      <li> <p><strong>workOnItStatusChange</strong> </p> <p>Dies ist ein boolescher Parameter, der angibt, ob die Schaltfläche „Bearbeiten“ des Teams als Schaltfläche „Starten“ konfiguriert wurde. Wenn ein Mitglied des Teams auf die Schaltfläche Starten klickt, um mit der Arbeit an einem Arbeitselement zu beginnen, ändert sich der Status des Elements von Neu in einen in den Team-Einstellungen konfigurierten Status.</p> </li> 
      <li> <p>In den folgenden Feldern können Sie benutzerdefinierte Status für die Schaltfläche „Starten“ für die einzelnen Arbeitselemente angeben.</p> 
@@ -892,7 +924,7 @@ Weitere Informationen zu Arbeitszeittabellen finden Sie unter [Arbeitszeittabell
  </tbody> 
 </table>
 
-### Update
+### Aktualisieren
 
 <table style="table-layout:auto"> 
  <col> 
@@ -912,7 +944,7 @@ Weitere Informationen zu Arbeitszeittabellen finden Sie unter [Arbeitszeittabell
  </tbody> 
 </table>
 
-### Benutzerin bzw. Benutzer {#user}
+### Benutzerin oder Benutzer {#user}
 
 Ein Benutzerobjekt stellt eine Person mit einem Konto in Workfront dar, die sich anmelden und mit dem System interagieren kann.
 

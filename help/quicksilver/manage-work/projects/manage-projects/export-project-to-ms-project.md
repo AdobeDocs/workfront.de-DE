@@ -6,14 +6,16 @@ description: Sie können Adobe Workfront-Projekte in Microsoft Project exportier
 author: Alina
 feature: Work Management
 exl-id: 3f0f3644-a763-4b72-a93a-85af8626b5b3
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 7%
+ht-degree: 13%
 
 ---
 
-# Exportieren eines Projekts in ein Microsoft-Projekt
+# Exportieren eines Projekts nach Microsoft Project
 
 Sie können Adobe Workfront-Projekte in Microsoft Project exportieren.
 
@@ -58,7 +60,8 @@ Sie können Adobe Workfront-Projekte in Microsoft Project exportieren.
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -83,19 +86,20 @@ Sie können Adobe Workfront-Projekte in Microsoft Project exportieren.
    <td> <p> View or higher permissions to the project</p> <p>For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Exportieren eines Projekts aus Workfront in das Microsoft-Projekt
 
 Sie können ein Projekt aus Workfront über die Projektseite oder aus einer Projektliste oder einem Bericht exportieren.
 
-1. Gehen Sie zu dem Projekt, das Sie exportieren möchten, und klicken Sie auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/qs-more-menu.png) rechts neben dem Projektnamen
+1. Gehen Sie zu dem Projekt, das Sie exportieren möchten, und klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/qs-more-menu.png) rechts neben dem Projektnamen
 
    ![Dropdown „Mehr“](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    ODER
 
-   Gehen Sie zu einer Projektliste oder einem Bericht und wählen Sie ein Projekt aus, und klicken Sie dann oben in der Liste ![&#x200B; das Symbol Mehr &#x200B;](assets/qs-more-menu.png)Mehr Menü).
+   Gehen Sie zu einer Projektliste oder einem Bericht und wählen Sie ein Projekt aus, und klicken Sie dann oben in der Liste ![ das Symbol Mehr ](assets/qs-more-menu.png)Mehr Menü).
 
    ![Mehr Menü erweitert](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 

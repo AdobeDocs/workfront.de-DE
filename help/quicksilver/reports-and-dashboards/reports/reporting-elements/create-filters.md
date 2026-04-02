@@ -6,7 +6,9 @@ description: Sie können die Informationsmenge, die auf dem Bildschirm angezeigt
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2375'
 ht-degree: 4%
@@ -17,7 +19,7 @@ ht-degree: 4%
 
 <!-- Audited: 11/2024 -->
 
-Sie können die Anzahl der auf dem Bildschirm angezeigten Informationen in einer Liste von Elementen mit einem Filter begrenzen. Sie können bestimmte Kriterien anhand bestimmter Informationen zu einem Objekt definieren und nur die Objekte anzeigen, die diese Kriterien erfüllen.
+Sie können die Informationsmenge, die auf dem Bildschirm angezeigt wird, in einer Liste von Elementen mit einem Filter begrenzen. Sie können bestimmte Kriterien basierend auf bestimmten Informationen über ein Objekt definieren und nur die Objekte anzeigen, die diese Kriterien erfüllen.
 
 Sie können die folgenden Filtertypen in Adobe Workfront anwenden:
 
@@ -46,8 +48,8 @@ Sie können die folgenden Filtertypen in Adobe Workfront anwenden:
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</strong></td> 
    <td> 
-    <p>Anbieter oder Anforderung zum Ändern eines Filters</p>
-    <p>Standard oder Abo zum Ändern eines Filters in einem Bericht</p>
+    <p>Mitwirkender oder Anfrage zum Ändern eines Filters</p>
+    <p>Standard oder Plan zum Ändern eines Filters in einem Bericht</p>
    </td>
   </tr> 
   <tr> 
@@ -106,14 +108,14 @@ Sie können Filter mithilfe der in der folgenden Tabelle beschriebenen Typen von
 </td>
 </tr>
 <tr>
-<td>Legacy Builder</td>
+<td>Legacy-Builder</td>
 <td>Alle Objekte </td>
 <td>Listen und Berichte</td>
 </tr>
 </tbody>
 </table>
 
-Weitere Informationen zu Workfront-Objekten finden Sie unter [Objekte in Adobe Workfront verstehen](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Weitere Informationen zu Workfront-Objekten finden Sie unter [Objekte in Adobe Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 Beachten Sie beim Erstellen von Filtern mit den verschiedenen Benutzeroberflächen Folgendes:
 
@@ -147,7 +149,7 @@ Beachten Sie beim Erstellen von Filtern mit den verschiedenen Benutzeroberfläch
   >1. Ändern Sie den Filter in der Legacy-Benutzeroberfläche.
   >1. Wechseln Sie zurück zum Standard-Builder. Die Filteranweisung wird gemäß der im Legacy-Builder unterstützten Logik angezeigt, wie oben beschrieben.
   >
-  >      Der Filter wird in der Benutzeroberfläche des Standard-Builders wie folgt angezeigt:
+  >      Der Filter wird in der Standard Builder-Benutzeroberfläche wie folgt angezeigt:
   >  
   >      `A AND C`
   >      `OR`
@@ -169,7 +171,7 @@ Erstellen eines Filters mithilfe der Standard Builder-Oberfläche:
 1. Navigieren Sie zu einer Liste, in der Sie einen Filter erstellen möchten oder die den Filter enthält, den Sie anpassen möchten.
 1. Klicken Sie auf **Filter**-Symbol ![Filtersymbol](assets/filter-nwepng.png), um die Builder-Benutzeroberfläche zu öffnen.
 
-   ![Standardfiltergenerator](assets/new-filters-all-filter-types.png)
+   ![Standardfilter-Generator](assets/new-filters-all-filter-types.png)
 
 1. Überprüfen Sie die folgenden Filterlisten:
 
@@ -179,7 +181,7 @@ Erstellen eines Filters mithilfe der Standard Builder-Oberfläche:
    <tbody>
    <tr>
    <td role="rowheader"><strong>Favorit</strong></td>
-   <td>Filter, die Sie als Favoriten markiert haben. Wenn Sie einen Filter als Favoriten markieren, wird sein ursprünglicher Speicherort unter dem Filternamen angezeigt und er wird in der ursprünglichen Liste ausgeblendet, es sei denn, Sie entfernen ihn als Favoriten.</td>
+   <td>Filter, die Sie als Favoriten markiert haben. Wenn Sie einen Filter als Favoriten festlegen, wird seine ursprüngliche Position unter dem Filternamen angezeigt und in der Originalliste ausgeblendet, es sei denn, Sie entfernen ihn als Favoriten.</td>
    </tr>
    <tr>
    <td role="rowheader"><strong>Gespeichert</strong></td>
@@ -273,13 +275,13 @@ Erstellen eines Filters mithilfe der Standard Builder-Oberfläche:
 
    ![Textmodus auswählen](assets/new-filter-select-text-mode.png)
 
-   Die Oberfläche für den Textmodus wird geöffnet.
+   Die Benutzeroberfläche für den Textmodus wird geöffnet.
 
-   ![Textmodusschnittstelle](assets/text-mode-interface-for-beta-filters-nwe.png)
+   ![Textmodus-Schnittstelle](assets/text-mode-interface-for-beta-filters-nwe.png)
 
    >[!TIP]
    >
-   >Es wird empfohlen, so viel Filter wie möglich mit der Benutzeroberfläche des Standard-Builders zu erstellen und nur dann den Textmodus zu verwenden, wenn Sie die Filter ändern müssen, die nur im Textmodus unterstützt werden.
+   >Es wird empfohlen, so viel Filter wie möglich mit der Standard-Builder-Oberfläche und nur im Textmodus zu erstellen, wenn Sie die Filter ändern müssen, die nur im Textmodus unterstützt werden.
 
    Weitere Informationen zum Erstellen eines Filters mithilfe der Textmodusschnittstelle finden Sie unter [Bearbeiten eines Filters mithilfe des Textmodus](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
@@ -307,7 +309,7 @@ Erstellen eines Filters mithilfe der Standard Builder-Oberfläche:
 
    ![Wählen Sie ein Symbol für den Filter aus](assets/new-filter-select-icon.png)
 
-1. (Optional) Fügen Sie eine Beschreibung für den Filter hinzu, um anzugeben, was an ihm eindeutig ist. Die Beschreibung wird in der Liste der Filter unter dem Filternamen angezeigt.
+1. (Optional) Fügen Sie eine Beschreibung für den Filter hinzu, um anzugeben, was eindeutig ist. Die Beschreibung wird unter dem Filternamen in der Liste der Filter angezeigt.
 
    >[!TIP]
    >
@@ -338,9 +340,9 @@ Erstellen eines Filters mithilfe der Standard Builder-Oberfläche:
 
    * Geben Sie den Filter für andere frei oder stellen Sie ihn systemweit zur Verfügung. Weitere Informationen finden Sie unter [Freigeben von Filtern, Ansichten oder Gruppierungen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
-   * Löschen Sie den Filter, wenn er nicht mehr gültig ist oder wenn er ein Duplikat ist. Sie können nur Filter löschen, deren Eigentümer Sie sind. Sie können Filter entfernen, die für Sie freigegeben wurden. Weitere Informationen finden Sie unter [Entfernen von Filtern, Ansichten und Gruppierungen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+   * Löschen Sie den Filter, wenn er nicht mehr gültig ist oder ein Duplikat vorliegt. Sie können nur Filter löschen, deren Inhaber Sie sind. Sie können Filter entfernen, die für Sie freigegeben wurden. Weitere Informationen finden Sie [Filter, Ansichten und Gruppierungen entfernen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
 
-## Erstellen oder Bearbeiten von Filtern im Legacy-Builder {#create-filter-in-legacy-builder}
+## Erstellen oder Bearbeiten eines Filters im Legacy-Builder {#create-filter-in-legacy-builder}
 
 Sie können Legacy-Filter in Listen und Berichten wie folgt erstellen:
 
@@ -398,11 +400,11 @@ Unabhängig von der Methode, die Sie zum Erstellen von Filtern verwenden, ist da
 
    Weitere Informationen zum Erstellen eines Filters mithilfe der Textmodusschnittstelle finden Sie unter [Bearbeiten eines Filters mithilfe des Textmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
-1. Klicken Sie auf **Filter speichern**, um einen Filter zu erstellen oder den ausgewählten Filter durch Ihre Änderungen zu ersetzen.
+1. Klicken Sie **Filter speichern**, um einen Filter zu erstellen oder den ausgewählten Filter durch Ihre Änderungen zu ersetzen.
 
    ODER
 
-   Klicken Sie auf **Als neuen Filter speichern**, um einen neuen Filter aus dem ausgewählten Filter zu erstellen.
+   Klicken Sie **Als neuen Filter speichern**, um einen neuen Filter aus dem ausgewählten zu erstellen.
 
    Der neue Filter wird in der Liste der Filter angezeigt und automatisch auf die ausgewählte Liste oder den ausgewählten Bericht angewendet.
 

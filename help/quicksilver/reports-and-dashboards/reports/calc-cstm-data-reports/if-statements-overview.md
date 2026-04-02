@@ -7,7 +7,9 @@ description: Sie können „IF“-Anweisungen in allgemeinen Programmiersprachen
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 0%
@@ -57,7 +59,7 @@ Sie können „IF“-Anweisungen in Workfront in folgendem Format erstellen:
 
 * **Bedingungsoperator** = Dies ist der Operator, der Ihnen beim Erstellen der Bedingung Ihrer „IF“-Anweisung hilft. Beispielsweise sind „ist gleich“ oder „ist größer als“ Bedingungsoperatoren. Eine Liste der Bedingungsoperatoren, die Sie in Anweisungen verwenden können, finden Sie unter [Bedingungsoperatoren in berechneten benutzerdefinierten Ausdrücken](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
-* **True**&#x200B;**Expression** = Dies ist die Variable „True“, die der Gleichung mitteilt, welcher Indikator angezeigt werden soll, wenn die Kriterien der Bedingung erfüllt sind (wahre Indikatoren).
+* **True****Expression** = Dies ist die Variable „True“, die der Gleichung mitteilt, welcher Indikator angezeigt werden soll, wenn die Kriterien der Bedingung erfüllt sind (wahre Indikatoren).
 
 * **Falscher Ausdruck** = Dies ist die Variable „Falsch“, die der Gleichung mitteilt, welcher Indikator angezeigt werden soll, wenn die Kriterien der Bedingung nicht erfüllt sind (falsche Indikatoren).
 

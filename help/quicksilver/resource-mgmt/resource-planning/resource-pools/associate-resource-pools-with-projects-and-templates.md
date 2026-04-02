@@ -6,17 +6,20 @@ description: Ressourcenpools sind Sammlungen von Benutzern, die Ihnen bei der Ve
 author: Lisa
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '601'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
-# Zuordnen von Ressourcenpools zu Projekten und Vorlagen
+# Zuordnen von Ressourcen-Pools zu Projekten und Vorlagen
 
 
-<!-- drafted for bulk editing projects: keep this in yellow till this releases to ALL customers - May 1, 2023
+<!--
+ drafted for bulk editing projects: keep this in yellow till this releases to ALL customers - May 1, 2023
 
 Also - take out all the references to Preview and Prod at prod final
 -->
@@ -41,7 +44,7 @@ Informationen zum Erstellen von Ressourcenpools finden Sie unter [Ressourcenpool
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -54,7 +57,7 @@ Informationen zum Erstellen von Ressourcenpools finden Sie unter [Ressourcenpool
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-   <p>Plan</p></td>
+   <p>Abo</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -67,7 +70,7 @@ Informationen zum Erstellen von Ressourcenpools finden Sie unter [Ressourcenpool
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -99,7 +102,7 @@ Ressourcenpools können mit Vorlagen auf die gleiche Weise verknüpft werden wie
 So verknüpfen Sie Ressourcenpools mit mehreren Projekten in großen Mengen:
 
 1. Zu einer Projektliste gehen.
-1. Wählen Sie mehrere Projekte aus und klicken Sie dann oben in **Liste auf** Bearbeiten![Symbol &#x200B;](assets/edit-icon.png)Bearbeiten“.
+1. Wählen Sie mehrere Projekte aus und klicken Sie dann oben in **Liste auf** Bearbeiten![Symbol ](assets/edit-icon.png)Bearbeiten“.
 
 1. Klicken Sie auf **Einstellungen**.
 1. Geben Sie zunächst den Namen eines Ressourcenpools in das Feld **Ressourcenpools** ein und wählen Sie ihn dann aus der Liste aus, wenn er angezeigt wird.\
@@ -115,7 +118,7 @@ So verknüpfen Sie Ressourcenpools mit mehreren Projekten in großen Mengen:
 
 1. Klicken Sie auf **Änderungen speichern**.\
    Wenn Ihre Ressourcenpools mit Ihren Projekten oder Vorlagen verknüpft sind, können Sie Benutzerzuweisungen für Ihre Projekte im Ressourcenplaner budgetieren.\
-   Weitere Informationen zum Ressourcenplaner finden Sie unter [Ressourcenplaner - Übersicht](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+   Weitere Informationen zum Ressourcenplaner finden Sie unter [Überblick über den Ressourcenplaner](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 Weitere Informationen zum Massenbearbeiten von Projekten finden Sie im Abschnitt „Massenbearbeitung von Projekten“ in [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 

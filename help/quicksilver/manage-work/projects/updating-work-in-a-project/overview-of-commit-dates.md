@@ -7,28 +7,32 @@ description: Das Commit-Datum ist das Datum, zu dem sich ein Benutzer einer Aufg
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '876'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
-# Übersicht über das Commit-Datum
+# Überblick über das Verpflichtungsdatum
 
 <!--Audited: 05/2025-->
 
-<!-- <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+<!--
+ <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>-->
+<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+-->
 
 Das Commit-Datum ist das Datum, zu dem sich ein Benutzer einer Aufgabe oder eines Problems verpflichtet hat, die Aufgabe oder das Problem abzuschließen. Dies unterscheidet sich vom geplanten Abschlussdatum einer Aufgabe oder eines Problems, da es eine realistischere Schätzung des Abschlussdatums ist, die nur von dem Benutzer gegeben wird, der für die Arbeit verantwortlich ist.
 
 Informationen zum geplanten Abschlussdatum finden Sie unter [Übersicht über das geplante Abschlussdatum der Aufgabe](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
-## Übersicht über das Commit-Datum
+## Überblick über das Verpflichtungsdatum
 
 Beachten Sie beim Arbeiten mit Commit-Daten Folgendes:
 
@@ -92,7 +96,8 @@ Manuelles Festlegen des Commit-Datums für eine Aufgabe oder einen Problem-Trigg
   >* [Passen Sie das Bedienfeld Zusammenfassung mithilfe einer Layout-Vorlage an](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
   >* [Anpassen von Objekt-Headern mithilfe einer Layout-Vorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)
 
-<!--this is no longer possible: 
+<!--
+this is no longer possible: 
 >[!NOTE]
 >
 >If you want to see how the timeline of the project is affected by accepting to change the Planned Completion Date of the task, click **Project Timeline**. This opens the task list where you can evaluate the date changes and the project timeline.

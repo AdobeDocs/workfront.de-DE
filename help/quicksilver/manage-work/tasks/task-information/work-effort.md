@@ -2,19 +2,21 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Work Effort - Übersicht
-description: Work Effort - Übersicht
+title: Überblick über den Arbeitsaufwand
+description: Überblick über den Arbeitsaufwand
 author: Alina
 feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
-source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1488'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
-# Work Effort - Übersicht
+# Überblick über den Arbeitsaufwand
 
 <!--Audited: 01/2024-->
 
@@ -34,15 +36,17 @@ Als Projekt-Manager können Sie entscheiden, wie Sie den Arbeitsaufwand schätze
     <ul> 
      <li>Dies ist die Standardmethode. </li> 
      <li>Geplante Stunden können nur für Aufgaben mit dem Dauertyp „Berechnete Zuweisung“ oder „Einfach“ manuell aktualisiert werden. </li> 
-    </ul> <p>Informationen zu den geplanten Stunden finden Sie unter <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Übersicht über die geplanten Stunden</a>. </p> </td> 
+    </ul> <p>Informationen zu den geplanten Stunden finden Sie unter <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Überblick über geplante Stunden</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Work Effort </td> 
-   <td> <p>Eine manuelle Beschriftung, die definiert, ob ein Benutzer einen kleinen, mittleren oder großen täglichen Aufwand benötigt, um eine Aufgabe abzuschließen. <!--
+   <td> <p>Eine manuelle Beschriftung, die definiert, ob ein Benutzer einen kleinen, mittleren oder großen täglichen Aufwand benötigt, um eine Aufgabe abzuschließen.
+   <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
        The level of effort is estimated to be a percentage of the daily amount of working time. (NOTE: keep this drafted. Vazgen said it's not needed, but waiting for feedback from users)
       </MadCap:conditionalText>
-     --> </p> <p>Beachten Sie Folgendes zum Work Effort:</p> 
+     -->
+     </p> <p>Beachten Sie Folgendes zum Work Effort:</p>
     <ul> 
      <li>Dieses Feld ist nur für Aufgaben mit dem Typ Einfache Dauer verfügbar. </li> 
      <li>Sie können die Verwendung dieser Kennzeichnung aktivieren und den Prozentsatz der damit verbundenen Arbeitszeit auf Projektebene definieren. </li> 
@@ -72,7 +76,7 @@ In diesem Artikel wird beschrieben, was Work Effort ist und wie Sie ihn zur Sch�
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p>
-   <p>Plan</p>
+   <p>Abo</p>
    </td> 
   </tr> 
   <tr> 
@@ -90,7 +94,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -116,7 +121,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    <td> <p>Manage permissions to a project and its tasks</p>  </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Überlegungen zur Verwendung von Work Effort
 
@@ -151,7 +157,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    Weitere Informationen zum Aktualisieren des Work Effort-Felds in einer Aufgabe finden Sie in den folgenden Artikeln:
 
    * Der Abschnitt „Übersicht“ im Artikel [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
-   * [Verwalten von Aufgabeninformationen im Bereich „Aufgabendetails - Übersicht“](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
+   * [Verwalten von Aufgabeninformationen im Bereich „Aufgabendetails – Überblick“](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
 
 ## Arbeitsaufwand {#levels-of-work-effort}
 

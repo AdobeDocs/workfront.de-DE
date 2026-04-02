@@ -8,7 +8,9 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: 20ea292d49c691335e98459ff3eb00051a78577d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '2839'
 ht-degree: 3%
@@ -195,7 +197,7 @@ Konfigurieren Sie eine der folgenden Voreinstellungen für neu erstellte Projekt
    <td role="rowheader"> <p><strong>Projektzeitleisten werden automatisch neu berechnet</strong> </p> </td> 
    <td> <p>Legen Sie fest, wann die Zeitleiste eines Projekts neu berechnet wird. Informationen zur Neuberechnung der Projekt-Zeitleiste finden Sie unter <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Neuberechnen von Projekt-Zeitleisten</a>.</p> <p>Die folgenden Optionen sind standardmäßig aktiviert. Sie können eine oder mehrere der folgenden Einstellungen auswählen:</p> 
     <ul> 
-     <li> <p><strong>Jede Nacht</strong>: Wählen Sie diese Option, um die Projektzeitleisten jede Nacht neu zu berechnen. Alle Änderungen, die Sie am Projekt vornehmen und die sich auf die Zeitleiste auswirken könnten, sind nicht sofort sichtbar. Workfront​​​ berechnet Timelines nur bei Nacht neu für Projekte, bei denen die beiden folgenden Bedingungen erfüllt sind:</p> <p> 
+     <li> <p><strong>Jede Nacht</strong>: Wählen Sie diese Option, um die Projektzeitleisten jede Nacht neu zu berechnen. Alle Änderungen, die Sie am Projekt vornehmen und die sich auf die Zeitleiste auswirken könnten, sind nicht sofort sichtbar. ​​​ berechnet Timelines nur bei Nacht neu für Projekte, bei denen die beiden folgenden Bedingungen erfüllt sind:</p> <p> 
        <ul> 
         <li>den Status „Aktuell“ haben</li> 
         <li>In den letzten 3 Monaten ein Update erhalten haben</li> 

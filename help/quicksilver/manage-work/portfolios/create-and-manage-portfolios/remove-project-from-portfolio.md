@@ -6,10 +6,12 @@ description: Sie können ein Projekt aus einem Portfolio entfernen und es mit ei
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 8982097e-76ee-497a-aa7c-74c6fbd3002d
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '230'
-ht-degree: 6%
+ht-degree: 16%
 
 ---
 
@@ -36,7 +38,7 @@ Sie können auch Projekte aus einem Portfolio löschen, wodurch sie auch aus [!D
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> <p>[!UICONTROL Standard]</p>
-   <p>[!UICONTROL -Plan] </p> </td> 
+   <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -54,7 +56,8 @@ Sie können auch Projekte aus einem Portfolio löschen, wodurch sie auch aus [!D
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -81,7 +84,8 @@ Sie können auch Projekte aus einem Portfolio löschen, wodurch sie auch aus [!D
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Entfernen eines Projekts aus einem Portfolio
 
@@ -91,6 +95,6 @@ Sie können auch Projekte aus einem Portfolio löschen, wodurch sie auch aus [!D
    ![Schaltfläche „Projekte entfernen“](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
 
 1. Klicken Sie **[!UICONTROL Projekte entfernen]**.
-1. Klicken Sie entweder **[!UICONTROL Löschen]**, um das Projekt aus [!DNL Workfront] zu löschen, oder **[!UICONTROL Entfernen]**&#x200B;**[!UICONTROL aus Portfolio]**, um es aus der ausgewählten Portfolio zu entfernen.
+1. Klicken Sie entweder **[!UICONTROL Löschen]**, um das Projekt aus [!DNL Workfront] zu löschen, oder **[!UICONTROL Entfernen]****[!UICONTROL aus Portfolio]**, um es aus der ausgewählten Portfolio zu entfernen.
 
 1. (Optional und bedingt) Suchen Sie das Projekt, das Sie aus dem Portfolio entfernt haben, und verknüpfen Sie es mit einem anderen Portfolio. Informationen zum Verknüpfen von Projekten mit Portfolios finden Sie [Hinzufügen von Projekten zu einem Portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).

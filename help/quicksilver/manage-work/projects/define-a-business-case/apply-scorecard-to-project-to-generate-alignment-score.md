@@ -1,18 +1,20 @@
 ---
 navigation-topic: business-case-and-scorecards
-title: Anwenden einer Scorecard auf ein Projekt und Generieren eines Alignment-Scores
+title: Anwenden einer Scorecard auf ein Projekt und Generieren einer Ausrichtungsbewertung
 description: Sie können eine Scorecard verwenden, um zu messen, wie gut ein Projekt den zuvor festgelegten Kriterien eines Portfolios entspricht. Eine Scorecard spiegelt häufig die Mission, die Werte und die strategischen Ziele eines Unternehmens wider.
 author: Becky
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1211'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
-# Anwenden einer Scorecard auf ein Projekt und Generieren eines Alignment-Scores
+# Anwenden einer Scorecard auf ein Projekt und Generieren einer Ausrichtungsbewertung
 
 <!-- Audited: 06/2025 -->
 
@@ -22,7 +24,7 @@ Weitere Informationen zu Scorecards und dazu, wie Sie eine Scorecard erstellen k
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +39,7 @@ Weitere Informationen zu Scorecards und dazu, wie Sie eine Scorecard erstellen k
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>
    <p>Standard</p>
-   <p>Plan</p></td>  
+   <p>Abo</p></td>  
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -50,7 +52,7 @@ Weitere Informationen zu Scorecards und dazu, wie Sie eine Scorecard erstellen k
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -100,7 +102,8 @@ Anwenden einer Scorecard auf ein Projekt:
 
    Die Scorecard ist jetzt mit dem Projekt verknüpft und das Projekt wurde bewertet.
 
-<!--This functionality was removed when we redesigned bulk editing projects with 23.2: 
+<!--
+This functionality was removed when we redesigned bulk editing projects with 23.2: 
 
 1. (Conditional) When changes occur in the values of scorecard questions, you must recalculate the scorecard to reflect the new values for the project score. To recaulate the scorecard, do the following: 
 
@@ -195,7 +198,7 @@ Weitere Informationen zu den in Portfolio Optimizer angezeigten Informationen fi
 
    Weitere Informationen dazu, wie der Ausrichtungswert eines Portfolios generiert wird, finden Sie unter [Erstellen eines Ausrichtungswerts für ein Portfolio](#generate-an-alignment-score-for-a-portfolio).
 
-## Überblick über die Portfolio Optimizer-Bewertung
+## Überblick über die Portfolio-Optimizer-Bewertung
 
 Es gibt einen Unterschied zwischen dem Alignment-Score und dem Portfolio-Optimizer-Score eines Projekts.
 

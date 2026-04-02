@@ -6,14 +6,16 @@ description: Sie können den Status eines Problems aktualisieren, um andere dar�
 author: Alina
 feature: Work Management
 exl-id: 6e09dfcf-dceb-4f33-9592-0769283369c7
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '640'
-ht-degree: 6%
+ht-degree: 9%
 
 ---
 
-# Problemstatus aktualisieren
+# Aktualisieren des Problemstatus
 
 <!--Audited: 01/2024-->
 
@@ -33,8 +35,8 @@ Sie können den Status eines Problems aktualisieren, um andere darüber zu infor
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Mitwirkender oder höher</p>
-   <p>Anfrage oder höher</p>
+   <td> <p>Mitwirkende oder höher</p>
+   <p>Anfragende oder höher</p>
    </td> 
   </tr> 
   <tr> 
@@ -52,7 +54,8 @@ Sie können den Status eines Problems aktualisieren, um andere darüber zu infor
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -78,7 +81,8 @@ Sie können den Status eines Problems aktualisieren, um andere darüber zu infor
    <td> <p>Manage permissions to the issue</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Status ausgeben
 
@@ -98,7 +102,7 @@ Ihr Adobe Workfront-Administrator kann benutzerdefinierte Status für Probleme f
 Weitere Informationen zu benutzerdefinierten Status und Problemtypen finden Sie in den folgenden Artikeln:
 
 * [Status erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)
-* [Probleme erstellen](../../../manage-work/issues/manage-issues/create-issues.md)
+* [Erstellen von Problemen](../../../manage-work/issues/manage-issues/create-issues.md)
 
 Sie können den Anfragestatus manuell aktualisieren. Alternativ können Sie festlegen, dass Workfront ihn automatisch aktualisiert, wenn bestimmte Aktionen ausgeführt werden.
 
@@ -140,7 +144,8 @@ So aktualisieren Sie den Anfragestatus in der Anfragekopfzeile manuell:
 
 
 
-<!--Old instructions, in old commenting: 
+<!--
+Old instructions, in old commenting: 
 
 When you are updating an issue status, you can also add an explanation about the new status and change other issue information such as the commit date.
 

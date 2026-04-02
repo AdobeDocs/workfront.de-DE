@@ -1,18 +1,20 @@
 ---
 navigation-topic: business-case-and-scorecards
-title: Anhängen eines benutzerdefinierten Formulars an einen Business Case
+title: Anfügen eines benutzerdefinierten Formulars an einen Business-Case
 description: Benutzerdefinierte Forms werden verwendet, um Informationen zu erfassen, die in bestehenden Adobe Workfront-Feldern nicht angezeigt werden.
 author: Becky
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '326'
-ht-degree: 5%
+ht-degree: 14%
 
 ---
 
-# Anhängen eines benutzerdefinierten Formulars an einen Business Case
+# Anfügen eines benutzerdefinierten Formulars an einen Business-Case
 
 Benutzerdefinierte Forms werden verwendet, um Informationen zu erfassen, die in bestehenden Adobe Workfront-Feldern nicht angezeigt werden.
 
@@ -36,7 +38,7 @@ Weitere Informationen zum Erstellen benutzerdefinierter Forms finden Sie im Arti
    <td role="rowheader"><p>Adobe Workfront-Lizenz/p&gt;</td> 
    <td> 
    <p>Standard </p> 
-   <p>Plan </p> </td> 
+   <p>Abo </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -49,7 +51,7 @@ Weitere Informationen zum Erstellen benutzerdefinierter Forms finden Sie im Arti
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -81,7 +83,9 @@ So fügen Sie ein benutzerdefiniertes Formular hinzu:
 
    ![Benutzerdefinierte Formulardetails erweitern](assets/expand-custom-form-details.png)
 
-<!--1. (Optional) Select **Edit Custom Form**.  
+<!--
+1. (Optional) Select **Edit Custom Form**.  
   ![Edit custom form](assets/acf1-350x122.png)
 
-1. (Optional) Specify information in the fields of the custom form, then click **Save** . -->
+1. (Optional) Specify information in the fields of the custom form, then click **Save** .
+-->

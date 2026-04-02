@@ -8,14 +8,16 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1461'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Probleme erstellen
+# Erstellen von Problemen
 
 <!--Audited: 08/2025-->
 
@@ -39,7 +41,7 @@ Sie können auch Probleme zu Projekten als Anfragen hinzufügen. Weitere Informa
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,10 +54,10 @@ Sie können auch Probleme zu Projekten als Anfragen hinzufügen. Weitere Informa
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>
-   <ul><li>Mitwirkender oder höher</li>
+   <ul><li>Mitwirkende oder höher</li>
    <li>Leicht oder höher, um Probleme im Abschnitt „Probleme“ einer Aufgabe oder eines Projekts zu bearbeiten</li></ul>
-   Oder
-   <ul><li>Anfrage oder höher</li> <li>Überprüfen Sie oder höher, um Probleme im Abschnitt „Probleme“ einer Aufgabe oder eines Projekts zu bearbeiten</li></ul> </td> 
+   ODER
+   <ul><li>Anfragende oder höher</li> <li>Überprüfen Sie oder höher, um Probleme im Abschnitt „Probleme“ einer Aufgabe oder eines Projekts zu bearbeiten</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -72,7 +74,8 @@ Sie können auch Probleme zu Projekten als Anfragen hinzufügen. Weitere Informa
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,7 +104,8 @@ Sie können auch Probleme zu Projekten als Anfragen hinzufügen. Weitere Informa
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 <!--
 (NOTE: in NWE Requestors CAN see the Issues tab on a project but in classic they cannot! However, even when they DO see it, they cannot enter the issues - logged this issue for it but they might decide not to fix it: https://hub.workfront.com/issue/60181e28000058980cce29597185b2d6/updates?email-source=comm)</p>
@@ -135,7 +139,7 @@ Die Felder für neue Anfragen oder Anfragen werden im Abschnitt „Warteschlange
 
 Informationen zum Konfigurieren des Abschnitts „Warteschlangendetails“ des Projekts finden Sie unter [Erstellen einer Anfragewarteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-Informationen zum Erstellen von Problemen durch Senden an eine Anfrage-Warteschlange finden Sie [&#x200B; Abschnitt „Erstellen von Problemen durch Eingabe einer &#x200B;](#create-issues-by-entering-a-new-request) Anfrage“ in diesem Artikel.
+Informationen zum Erstellen von Problemen durch Senden an eine Anfrage-Warteschlange finden Sie [ Abschnitt „Erstellen von Problemen durch Eingabe einer ](#create-issues-by-entering-a-new-request) Anfrage“ in diesem Artikel.
 
 ## Erstellen von Problemen in einer Aufgabe oder einem Projekt mithilfe der Schaltfläche „Neues Problem“
 
@@ -185,7 +189,7 @@ Das Feld „Neues Problem“ wird angezeigt.
 
 
 1. (Bedingt) Wenn die Warteschlangenthemen mit einem benutzerdefinierten Formular verknüpft sind, wird dieses benutzerdefinierte Formular im Formular &quot;**Problem“**.\
-   Oder\
+   ODER\
    Wenn das Projekt über den Bereich Warteschlangendetails mit einem benutzerdefinierten Problem-Formular verknüpft ist, wird das Formular im Formular **Neues Problem** nach den standardmäßigen Workfront-Feldern angezeigt.
 
    Weitere Informationen finden Sie unter [Erstellen einer Anfrage-Warteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).

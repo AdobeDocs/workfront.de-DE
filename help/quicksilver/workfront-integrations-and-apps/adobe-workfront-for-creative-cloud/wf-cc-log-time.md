@@ -1,15 +1,17 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Zeit mit dem Adobe Workfront-Plug-in erfassen
+title: Erfassen der Zeit mit dem Adobe Workfront-Plug-in
 description: Sie können Zeit für Projekte, Aufgaben und Probleme, an denen Sie arbeiten, direkt in Adobe Creative Cloud-Programmen protokollieren.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4c5bd7ca-18f2-4a47-9e79-c39d5852aab5
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '205'
-ht-degree: 2%
+ht-degree: 22%
 
 ---
 
@@ -21,14 +23,15 @@ Sie können Zeit für Projekte, Aufgaben und Probleme, an denen Sie arbeiten, di
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <!--<td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <!--
+   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> Any</td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -36,7 +39,8 @@ Sie können Zeit für Projekte, Aufgaben und Probleme, an denen Sie arbeiten, di
    <td>
    <p>Standard</p>
     <p>Work or higher</p> </td> 
-  </tr> -->
+  </tr>
+  -->
   <tr> 
    <td role="rowheader">Zusätzliche Produkte</td> 
    <td>Sie müssen zusätzlich zu einer [!DNL Adobe Creative Cloud] über eine [!DNL Workfront]-Lizenz verfügen.</td> 
@@ -60,7 +64,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 {{cc-install-prereq}}
 
-## Zeit mit dem Adobe Workfront-Plug-in erfassen
+## Erfassen der Zeit mit dem Adobe Workfront-Plug-in
 
 Der [!DNL Workfront] legt fest, welche projektspezifischen Stundentypen verfügbar sind, wie in [Verwalten von Stundentypen](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md) beschrieben.
 

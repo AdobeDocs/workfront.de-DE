@@ -1,15 +1,17 @@
 ---
 product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
-title: Optimieren von Projekten in Portfolio Optimizer
+title: Optimieren von Projekten im Portfolio-Optimizer
 description: Mit dem [!UICONTROL Portfolio Optimizer] können Sie Ihre Projekte anhand ihrer Bewertungen und anderer Werte priorisieren. Der Optimizer berücksichtigt wichtige Projektinformationen wie Kosten, Ausrichtung, Risiko und ROI, um die Projekte nach dem zu priorisieren, was für Sie wichtiger ist.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 25debc5b-5d7d-453f-ab0a-9bf3fba05693
-source-git-commit: d7600a55b3dffb242957234de9d85a0deb1ad2e3
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 0%
+ht-degree: 9%
 
 ---
 
@@ -19,9 +21,9 @@ Mit dem [!UICONTROL Portfolio Optimizer] können Sie Ihre Projekte anhand ihrer 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+Sie benötigen die folgenden Zugriffsrechte, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +38,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> <p>[!UICONTROL Standard]</p>
-   <p>[!UICONTROL -Plan]</p> </td> 
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -53,7 +55,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 +++
 
-<!--Old
+<!--
+Old
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -78,9 +81,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
-## Optimieren von Projekten in Portfolio Optimizer
+## Optimieren von Projekten im Portfolio-Optimizer
 
 1. Öffnen Sie eine Portfolio und klicken Sie dann im linken **[!UICONTROL auf]** Portfolio-Optimierung.
 
@@ -95,7 +99,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Ändern Sie mithilfe des Gleitkreises die Optimierung einer der folgenden Kategorien:
 
    * **[!UICONTROL Niedrige Kosten]**: Schieben Sie den Schieberegler nach rechts, um Projekte mit den niedrigsten [!UICONTROL geplanten Kosten] anzuzeigen.
-   * **[!UICONTROL Hohe Ausrichtung]**: Schieben Sie den Schieberegler nach rechts, um Projekte mit der höchsten Ausrichtung, die auf der [!UICONTROL Scorecard“ &#x200B;], anzuzeigen.
+   * **[!UICONTROL Hohe Ausrichtung]**: Schieben Sie den Schieberegler nach rechts, um Projekte mit der höchsten Ausrichtung, die auf der [!UICONTROL Scorecard“ ], anzuzeigen.
    * **[!UICONTROL Hoher Wert]**: Bewegen Sie den Schieberegler nach rechts, um Projekte mit einem höheren [!UICONTROL Nettowert]-Wert anzuzeigen.
    * **[!UICONTROL Niedriges Risiko/]**: Schieben Sie den Schieberegler nach rechts, um Projekte mit dem niedrigsten Risiko/Gewinn-Verhältnis anzuzeigen.
    * **[!UICONTROL Hoher ROI]**: Schieben Sie den Schieberegler nach rechts, um Projekte mit höherer Rentabilität anzuzeigen.

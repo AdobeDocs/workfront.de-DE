@@ -2,11 +2,13 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Senden eines Berichts in der Sandbox-Umgebung in der Vorschau
-description: Die Informationen auf dieser Seite beziehen sich auf Funktionen, die nur in den Umgebungen Vorschau und Benutzerdefinierte Sandbox-Aktualisierung verfügbar sind. Diese Funktion ist in der Produktionsumgebung nicht verfügbar.
+description: Die Informationen auf dieser Seite beziehen sich auf Funktionen, die nur in der Vorschau und in benutzerdefinierten Sandbox-Aktualisierungsumgebungen verfügbar sind. Diese Funktion ist in der Produktionsumgebung nicht verfügbar.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 568360df-bec9-4767-8b5a-32a294d05d47
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '617'
 ht-degree: 9%
@@ -19,19 +21,19 @@ ht-degree: 9%
 
 Die Informationen auf dieser Seite beziehen sich auf Funktionen, die nur in der Vorschau und in benutzerdefinierten Sandbox-Aktualisierungsumgebungen verfügbar sind. Diese Funktion ist in der Produktionsumgebung nicht verfügbar.
 
-Sie können Optionen für die Berichtsbereitstellung in jeder Adobe Workfront-Testumgebung einrichten.
+Sie können die Optionen für die Berichtbereitstellung in jeder beliebigen Adobe Workfront-Testumgebung einrichten.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the Workfront test environments, see the "Workfront Testing Environments" section. (NOTE:&nbsp;drafted - link this section)</p>
 -->
 
-Während die Testumgebungen so eng wie möglich an Ihre Produktionsumgebung angebunden sind, unterscheiden sich einige Funktionen von Ihrer Produktionsumgebung.
+Die Testumgebungen sollen zwar so nah wie möglich an der Produktionsumgebung funktionieren, einige Funktionen unterscheiden sich jedoch von der Produktionsumgebung.
 
-Sie können Berichte in den Testumgebungen planen, deren Bereitstellung sich jedoch von der Art der Bereitstellung in der Produktionsumgebung unterscheidet.
+Sie können Berichte in den Testumgebungen planen, die Art und Weise, wie sie bereitgestellt werden, unterscheidet sich jedoch von der Art und Weise, wie sie in der Produktionsumgebung bereitgestellt werden.
 
-Informationen zum Planen von Berichten für die Bereitstellung in der Produktionsumgebung finden Sie unter [Übersicht über die Berichtsbereitstellung](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+Informationen zur Planung von Berichten für die Bereitstellung in der Produktionsumgebung finden Sie unter [Übersicht über die Berichtlieferung](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
-Je nachdem, wo Sie die Berichte planen, unterscheidet sich die Bereitstellungsfunktionalität zwischen den Sandboxes &quot;Vorschau&quot; und &quot;Benutzerdefinierte Aktualisierung&quot;.
+Je nachdem, wo Sie die Berichte planen, unterscheidet sich die Versandfunktionalität zwischen der Vorschau und der benutzerdefinierten Aktualisierungs-Sandbox.
 
 ## Zugriffsanforderungen
 
@@ -55,12 +57,12 @@ Je nachdem, wo Sie die Berichte planen, unterscheidet sich die Bereitstellungsfu
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten</p>
-   <p>Bearbeitungszugriff auf Filter, Ansichten, Gruppierungen</p>
+   <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-     <td> <p>Berechtigungen für einen Bericht verwalten</p></td> 
+     <td> <p>Verwalten von Berechtigungen für einen Bericht</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -77,18 +79,18 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 Ob ein zugestellter Bericht in der Vorschau-Umgebung erstellt wird oder nicht, hängt davon ab, ob **E-Mails von dieser Testumgebung empfangen** aktiviert ist oder nicht.
 
-Weitere Informationen zum Aktivieren von E-Mails aus der Sandbox-Umgebung finden Sie unter [Senden von E-Mails aus der Vorschau-Sandbox-Umgebung aktivieren](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
+Informationen zur Aktivierung von E-Mails aus der Sandbox-Umgebung finden Sie unter [Aktivieren des Versands von E-Mails aus der Sandbox-Vorschau-Umgebung](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
-![E-Mails von Sandbox-Option empfangen](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+![Option „E-Mails von Sandbox empfangen“](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
-Die Planung von Berichten für die Bereitstellung in der Preview-Umgebung ist identisch mit der Planung von Berichten in der Produktionsumgebung. Informationen zum Planen eines Berichts für die Bereitstellung finden Sie unter [Übersicht zur Berichtsbereitstellung](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+Die Planung von Berichten für den Versand in der Vorschau -Umgebung ist identisch mit der Planung von Berichten in der Produktionsumgebung. Informationen zur Planung eines Berichts für den Versand finden Sie unter [Übersicht über den Berichtsversand](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
-Wenn Sie einen Bericht für die Bereitstellung in der Preview-Umgebung planen, gibt es die folgenden Szenarien:
+Wenn Sie einen Bericht für die Bereitstellung in der Vorschau-Umgebung planen, gibt es die folgenden Szenarien:
 
-* Wenn **E-Mails aus dieser Testumgebung empfangen** für den Benutzer deaktiviert ist, der den Bericht erhält, wird beim Planen der Übermittlung des Berichts keine Datei erstellt.
-* Wenn **E-Mails aus dieser Testumgebung empfangen** für den Benutzer aktiviert ist, der den Bericht erhält, wird die Datei, die beim Planen des Berichts für die Übermittlung erstellt wird, auf der Registerkarte Dokumente des Benutzers hinzugefügt.
+* Wenn **E-Mails von dieser Testumgebung empfangen** für den Benutzer deaktiviert ist, der den Bericht erhält, wird beim Planen des Berichts für den Versand keine Datei erstellt.
+* Wenn **E-Mails von dieser Testumgebung empfangen** für den Benutzer aktiviert ist, der den Bericht erhält, wird die Datei, die bei der Planung des Berichts für den Versand erstellt wird, auf der Registerkarte Dokumente des Benutzers hinzugefügt.
 
-## Planen von Berichten in der Sandbox-Umgebung für benutzerdefinierte Aktualisierungen
+## Berichte in der benutzerdefinierten Sandbox-Aktualisierungsumgebung planen
 
 Ob ein bereitgestellter Bericht in der benutzerdefinierten Aktualisierungs-Sandbox erstellt wird oder nicht, hängt davon ab, ob die Einstellung E-Mails von dieser Testumgebung empfangen aktiviert ist oder nicht.
 
@@ -96,15 +98,15 @@ Informationen zur Aktivierung von E-Mails in der Vorschau-Umgebung finden Sie im
 
 ![Option „E-Mails von Sandbox empfangen“](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
-Die Planung von Berichten für die Bereitstellung in der Sandbox-Umgebung für benutzerdefinierte Aktualisierungen ist identisch mit der Planung von Berichten in der Produktionsumgebung. Informationen zum Planen eines Berichts für die Bereitstellung finden Sie unter [Übersicht zur Berichtsbereitstellung](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+Die Planung von Berichten für die Bereitstellung in der benutzerdefinierten Aktualisierungs-Sandbox-Umgebung ist identisch mit der Planung von Berichten in der Produktionsumgebung. Informationen zur Planung eines Berichts für den Versand finden Sie unter [Übersicht über den Berichtsversand](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
-Wenn Sie einen Bericht für die Bereitstellung in der Sandbox-Umgebung für benutzerdefinierte Aktualisierungen planen, gibt es die folgenden Szenarien:
+Wenn Sie einen Bericht für die Bereitstellung in der benutzerdefinierten Aktualisierungs-Sandbox-Umgebung planen, gibt es die folgenden Szenarien:
 
-* Wenn die Option &quot;E-Mails aus dieser Testumgebung empfangen&quot; für den Benutzer deaktiviert ist, der den Bericht erhält, wird beim Planen der Übermittlung des Berichts keine Datei erstellt.
-* Wenn die Option &quot;E-Mails aus dieser Testumgebung empfangen&quot; für den Benutzer aktiviert ist, der den Bericht erhält, wird der Bericht als E-Mail-Anhang an die E-Mail-Adresse gesendet, die dem Benutzer zugeordnet ist.
+* Wenn die Option E-Mails von dieser Testumgebung empfangen für den Benutzer, der den Bericht erhält, deaktiviert ist, wird bei der Planung des Berichts für den Versand keine Datei erstellt.
+* Wenn die Option E-Mails von dieser Testumgebung empfangen für den Benutzer aktiviert ist, der den Bericht erhält, wird der Bericht als Anhang an die mit dem Benutzer verknüpfte E-Mail-Adresse gesendet.
 
 ## Benachrichtigung externer Benutzer
 
-Externe Benutzer erhalten keine Berichte, die von den Workfront-Testumgebungen gesendet wurden, und sie erhalten keine E-Mail-Benachrichtigung.
+Externe Benutzende erhalten weder Berichte, die über die Workfront-Testumgebungen gesendet werden, noch eine E-Mail-Benachrichtigung.
 
 Externe Benutzer erhalten E-Mail-Berichte nur, wenn sie von einer Produktionsumgebung bereitgestellt werden.

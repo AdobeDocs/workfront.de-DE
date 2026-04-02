@@ -6,7 +6,9 @@ description: Empfangen  [!DNL Adobe Workfront]  Benachrichtigungen in [!DNL Slac
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: bc1ce4ea-58be-4cd7-ab59-7dddb82949b9
-source-git-commit: e6f61cdde9e8ad14a9226de4cc61fbcdcb6f839b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 6%
@@ -119,7 +121,7 @@ So verwalten Sie [!DNL Workfront]-Benachrichtigungen für [!DNL Slack]:
 
    * (Bedingt und optional) Klicken Sie auf **[!UICONTROL Genehmigen]** oder **[!UICONTROL Ablehnen]** um eine Aufgabe, ein Problem oder ein Projekt, für die bzw. das Ihre Genehmigung noch aussteht, zu genehmigen oder abzulehnen.
 
-   * (Bedingt und optional) Klicken Sie auf **[!UICONTROL Genehmigen]**, **&#x200B;**&#x200B;oder **[!UICONTROL Ablehnen]**, um ein Dokument zu genehmigen, mit Änderungen zu genehmigen oder abzulehnen.
+   * (Bedingt und optional) Klicken Sie auf **[!UICONTROL Genehmigen]**, **** oder **[!UICONTROL Ablehnen]**, um ein Dokument zu genehmigen, mit Änderungen zu genehmigen oder abzulehnen.
 
      Sie können auch mit dem Mauszeiger über die Miniaturansicht des Dokuments fahren und auf das Lupensymbol klicken, um eine größere Vorschau des Dokuments anzuzeigen, bevor Sie es genehmigen.\
       Nur die genehmigten Slack [Dateitypen](https://api.slack.com/types/file) können in der Vorschau angezeigt werden.

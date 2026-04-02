@@ -6,7 +6,9 @@ description: Sie können die Art der Informationen, die Sie auf dem Bildschirm a
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 9%
@@ -44,7 +46,7 @@ Weitere Informationen finden Sie unter [Ansichten - Übersicht in Adobe Workfron
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Bearbeitungszugriff auf Filter, Ansichten, Gruppierungen</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um eine Ansicht in einem Bericht zu erstellen</p>
+   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um eine Ansicht in einem Bericht zu erstellen</p>
    </td> 
   </tr> 
   <tr> 
@@ -127,7 +129,7 @@ Das **Ansicht anpassen** wird angezeigt.
          <tbody> 
           <tr> 
            <td role="rowheader"><strong>Benutzerdefiniertes Spalten-Label</strong></td> 
-           <td><p>Geben Sie eine benutzerdefinierte Bezeichnung für die Spalte an. Diese Beschriftung ersetzt die Standardbeschriftung. Es wird empfohlen, nur UTF-8-Zeichen zu verwenden, um Kompatibilitätsprobleme zu vermeiden.</p></td> 
+           <td><p>Geben Sie eine benutzerdefinierte Beschriftung für die Spalte an. Diese Beschriftung ersetzt die Standardbeschriftung. Es wird empfohlen, nur UTF-8-Zeichen zu verwenden, um Kompatibilitätsprobleme zu vermeiden.</p></td> 
           </tr> 
           <tr> 
            <td role="rowheader"><strong>Feldformat</strong></td> 
@@ -162,13 +164,14 @@ Das **Ansicht anpassen** wird angezeigt.
 
 Sie können Projekte mit einer Agile-Methode mithilfe einer Board-Ansicht verwalten.
 
-Board-Ansichten sind nur für Listen von Aufgaben und Problemen in einem Projekt verfügbar.
+Pinnwand-Ansichten sind nur für Listen von Aufgaben und Problemen in einem Projekt verfügbar.
 
-Sie sind vorkonfiguriert, Sie können jedoch bestimmte Einstellungen ändern.
+Sie sind vorkonfiguriert, Sie können jedoch bestimmte Einstellungen für sie ändern.
 
-Weitere Informationen zu Agile- oder Board-Ansichten finden Sie im Artikel [Agile-Projekte in der Board-Ansicht verwalten](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Weitere Informationen zu Agile- oder Board-Ansichten finden Sie im Artikel [Verwalten eines Agile-Projekts in der Board-Ansicht](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
-<!-- Legacy Agile views were deprecated with 25.3. This is old: 
+<!--
+ Legacy Agile views were deprecated with 25.3. This is old: 
 
 >[!NOTE]
 >

@@ -7,10 +7,12 @@ description: Sie können Projekte aus bestehenden Initiativen erstellen und Proj
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
-source-git-commit: aa2e9a012a60ab10e2d027dedae520b5e06686c7
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '1696'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -23,7 +25,7 @@ Das Veröffentlichen eines Szenarios aus der [!DNL Adobe Workfront Scenario Plan
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -63,7 +65,8 @@ Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugr
 +++
 
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -102,7 +105,8 @@ Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugr
     </ul> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 
 ## Voraussetzungen
@@ -110,7 +114,7 @@ Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugr
 Bevor Sie beginnen:
 
 * Sie müssen einen Plan erstellen und speichern, bevor Sie Initiativen daraus veröffentlichen können.
-* Die Einstellung Benutzern erlauben, Projekte ohne Vorlage zu erstellen muss im Bereich Projektvoreinstellungen von Setup aktiviert sein. Weitere Informationen finden [&#x200B; unter „Systemweite Projektvoreinstellungen konfigurieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Die Einstellung Benutzern erlauben, Projekte ohne Vorlage zu erstellen muss im Bereich Projektvoreinstellungen von Setup aktiviert sein. Weitere Informationen finden [ unter „Systemweite Projektvoreinstellungen konfigurieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ## Überlegungen zur Veröffentlichung von Initiativen in Projekten
 
@@ -128,7 +132,7 @@ Bevor Sie beginnen:
   >
   >Sie können dasselbe Projekt in mehrere Pläne importieren. Die Veröffentlichung kann Initiativinformationen zu einem Projekt überschreiben, das mit mehreren Initiativen verknüpft ist.
 
-  Informationen zum Erstellen von Initiativen durch Importieren von Projekten [&#x200B; Sie unter „Projekte in Pläne importieren“ im  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
+  Informationen zum Erstellen von Initiativen durch Importieren von Projekten [ Sie unter „Projekte in Pläne importieren“ im  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
 
 * Alle am Projekt vorgenommenen Änderungen werden nicht auf die verknüpfte Initiative übertragen.
 
@@ -181,7 +185,7 @@ Bevor Sie beginnen:
 1. Klicken Sie **[!UICONTROL Plan speichern]**.
 1. Wählen Sie das Szenario, das Sie veröffentlichen möchten, aus dem Dropdown-Menü **[!UICONTROL Anfangsszenario]** und klicken Sie dann oben rechts auf **[!UICONTROL Zum Veröffentlichen]** ![Zum Veröffentlichen gehen](assets/go-to-publish-button-icon.png).
 
-   Oder
+   ODER
 
    Klicken Sie auf **[!UICONTROL Szenarien vergleichen]**, bewegen Sie den Mauszeiger über die Szenariokarte, von der aus Sie veröffentlichen möchten, und klicken Sie dann auf **[!UICONTROL Zum Veröffentlichen wechseln]** ![Zum Veröffentlichen wechseln](assets/go-to-publish-button-icon.png).
 
@@ -261,7 +265,7 @@ Bevor Sie beginnen:
         <td><span>Der erste Tag des Startmonats der Initiative, wenn das Projekt mit einer Initiative verknüpft ist.</span> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader"><span>[!UICONTROL Enddatum der-Initiative]</span> </td> 
+        <td role="rowheader"><span>[!Enddatum der UICONTROL-Initiative]</span> </td> 
         <td><span>Der letzte Tag des Endmonats der Initiative, an dem das Projekt mit einer Initiative verknüpft ist. </span> </td> 
        </tr> 
        <tr> 

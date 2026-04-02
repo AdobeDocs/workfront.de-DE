@@ -6,7 +6,9 @@ description: Wenn Sie als Mitarbeiter ein persönliches Ziel haben, sollten Sie 
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: e4d57d0b5042dc4889d5b676396b56c05ab1515d
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '739'
 ht-degree: 11%
@@ -31,7 +33,7 @@ Es gibt zwei Ansätze zum Verbinden von Zielen in Adobe Workfront:
 >
 >Ein Ziel kann insgesamt 1000 Fortschrittsindikatoren aufweisen.
 
-In diesem Artikel wird beschrieben, wie Sie Ziele ausrichten können, indem Sie sie miteinander verbinden. Informationen zum Ausrichten von Zielen durch Konvertieren von Ergebnissen und Aktivitäten in Ziele finden Sie unter &quot;[&#x200B; durch Konvertieren von Ergebnissen und Aktivitäten in Ziele ausrichten](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
+In diesem Artikel wird beschrieben, wie Sie Ziele ausrichten können, indem Sie sie miteinander verbinden. Informationen zum Ausrichten von Zielen durch Konvertieren von Ergebnissen und Aktivitäten in Ziele finden Sie unter &quot;[ durch Konvertieren von Ergebnissen und Aktivitäten in Ziele ausrichten](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
 
 ## Zugriffsanforderungen
 
@@ -80,7 +82,8 @@ Weitere Informationen finden Sie [Dokumentation zu Zugriffsanforderungen für Wo
 
 +++
 
-<!--Old:
+<!--
+Old:
 <table style="table-layout:auto">
 <col>
 </col>
@@ -131,7 +134,8 @@ Weitere Informationen finden Sie [Dokumentation zu Zugriffsanforderungen für Wo
 </td>
   </tr>
 </tbody>
-</table>-->
+</table>
+-->
 
 ## Ziele ausrichten, indem sie miteinander verbunden werden
 

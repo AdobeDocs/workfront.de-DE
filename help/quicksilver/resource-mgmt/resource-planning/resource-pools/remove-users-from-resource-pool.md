@@ -6,14 +6,16 @@ description: Obwohl es keine Begrenzung gibt, wie viele Benutzer Sie in einem Re
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 2%
+ht-degree: 14%
 
 ---
 
-# Benutzer aus Ressourcenpools entfernen
+# Entfernen von Benutzenden aus Ressourcen-Pools
 
 Obwohl es keine Begrenzung gibt, wie viele Benutzer Sie in einem Ressourcenpool haben können, werden in der Benutzerliste nur die ersten 2.000 Benutzer angezeigt, die alphabetisch aufgelistet sind.
 
@@ -23,7 +25,7 @@ Weitere Informationen zu Ressourcenpools finden Sie unter [Ressourcenpools - Üb
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +38,7 @@ Weitere Informationen zu Ressourcenpools finden Sie unter [Ressourcenpools - Üb
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-   <p>Plan</p></td>
+   <p>Abo</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -45,7 +47,7 @@ Weitere Informationen zu Ressourcenpools finden Sie unter [Ressourcenpools - Üb
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -59,17 +61,19 @@ So entfernen Sie einen Benutzer aus einem Ressourcenpool:
 
 1. Klicken Sie **linken Bedienfeld** Ressourcenpools“.
 1. Wählen Sie einen Ressourcenpool aus und klicken Sie auf **Bearbeiten**.
-Oder\
+ODER\
    Klicken Sie auf den Namen eines Ressourcenpools.
 
 1. Geben Sie im Feld „Suchen in diesem Ressourcenpool“ den Namen **zu entfernenden** ein.\
-   Oder\
+   ODER\
    Beginnen Sie mit der Eingabe des Namens eines Unternehmens, Aufgabengebiets, Teams oder einer Gruppe, wenn Sie alle mit diesen Entitäten verknüpften Benutzer entfernen möchten.
 
    ![Benutzer aus dem Ressourcenpool entfernen](assets/remove-users-from-resource-pool.png)
 
 1. Klicken Sie auf der Benutzerebene auf das X-Symbol, um einen Benutzer aus dem Ressourcenpool zu entfernen. Sie werden aus allen Listen entfernt, in denen sie angezeigt werden.
-   <!--Or  
-   To remove all users associated with a job role, group, team, or company, click **Remove** at the job role, group, team level, or company level. This removes all the users associated with that job role, group, team, or company from the Resource Pool.-->
+   <!--
+   Or  
+   To remove all users associated with a job role, group, team, or company, click **Remove** at the job role, group, team level, or company level. This removes all the users associated with that job role, group, team, or company from the Resource Pool.
+   -->
 
 1. Klicken Sie auf **Speichern**.

@@ -7,7 +7,9 @@ description: 'In dieser benutzerdefinierten Projektgruppierung können Sie Proje
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7845fd66-8304-4154-8630-e72482cd753f
-source-git-commit: 6a6d3d47ed5741e3202c44b7240a2e67b687ea95
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 18%
@@ -18,7 +20,7 @@ ht-degree: 18%
 
 <!--Audited: 10/2024-->
 
-In dieser benutzerdefinierten Projektgruppierung können Sie Projekte gruppiert nach einem Bereich der Werte für den abgeschlossenen Prozentsatz anzeigen. Die Aufschlüsselungen zeigen einen prozentualen Gesamtwert von 10 Prozentpunkten: 0-10%, 11-20%, 21-30% usw.
+In dieser benutzerdefinierten Projektgruppierung können Sie Projekte gruppiert nach einem Bereich der Werte für den abgeschlossenen Prozentsatz anzeigen. Die Aufschlüsselungen zeigen den prozentualen Abschlusswert von 10 Prozentpunktinkrementen: 0-10 %, 11-20 %, 21-30 % usw.
 
 Mit der folgenden Gruppierung werden Projekte nach dem Wert „Prozent abgeschlossen“ in eine der folgenden Gruppierungen organisiert:
 
@@ -53,7 +55,7 @@ Mit der folgenden Gruppierung werden Projekte nach dem Wert „Prozent abgeschlo
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
    <p>Mitwirkender oder Anfrage zum Ändern eines Filters </p>
-   <p>Standard oder Abo zum Ändern eines Berichts</p>
+   <p>Standard oder Plan zum Ändern eines Berichts</p>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -77,7 +79,7 @@ Um diese Gruppierung anzuwenden:
 1. Zu einer Projektliste gehen.
 1. Wählen Sie **Dropdown-Menü** Gruppierung“ **Neue Gruppierung** aus.
 
-1. Klicken Sie auf **In Textmodus wechseln**.
+1. Klicken Sie **In Textmodus wechseln**.
 1. Entfernen Sie den Text im Feld und fügen Sie den folgenden Code in den verfügbaren Bereich ein:
 
    ```
