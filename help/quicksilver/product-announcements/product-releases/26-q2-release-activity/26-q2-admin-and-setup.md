@@ -5,10 +5,12 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
-source-git-commit: d3a7c3c03b6be87f3adf2fd67b9136bc2be9c24b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 71b3af519d0fac1d15164e5d9f40bda5d76d0f5c
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 6%
+source-wordcount: '551'
+ht-degree: 7%
 
 ---
 
@@ -17,6 +19,22 @@ ht-degree: 6%
 Auf dieser Seite werden Admin-Verbesserungen beschrieben, die mit der Version vom zweiten Quartal 2026 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im zweiten Quartal 2026 verfügbar sind, finden Sie unter [Versionsübersicht für das zweite Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## KI-Mitwirkende jetzt verfügbar
+
+>[!NOTE]
+>
+>Vorschau: 2. April 2026
+>Produktions-Schnellveröffentlichung: Donnerstag, 15. April 2026
+>Produktion für alle: Freitag, 16. April 2026
+
+Um Ihnen die Nutzung von KI in Ihrer täglichen Arbeit zu erleichtern, haben wir KI-Mitwirkende erstellt. KI-Mitwirkende sind eine Möglichkeit, KI-Agenten in Ihre Projekte und Aufgaben einzubinden. Sie können KI-Mitwirkende mit Markenrichtlinien konfigurieren und sie dann wie eine Benutzerin oder ein Benutzer einer Aufgabe zuweisen.
+
+Derzeit können KI-Mitwirkende zur Überprüfung von Inhalten verwendet werden. In Zukunft werden weitere KI-Collaborator-Funktionen verfügbar sein.
+
+<!--
+For more information, see [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators).
+-->
 
 ## Benutzerdefinierte Quartale sind jetzt als separate Seite im Setup verfügbar
 

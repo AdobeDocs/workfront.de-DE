@@ -7,10 +7,12 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
-source-git-commit: fa4d8132cecd51b93f26c28803535a84bebad137
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
 workflow-type: tm+mt
-source-wordcount: '1248'
-ht-degree: 13%
+source-wordcount: '1882'
+ht-degree: 12%
 
 ---
 
@@ -21,6 +23,138 @@ In diesem Artikel werden die Funktionen beschrieben, die in der Version vom zwei
 <!--keep the sentence below for all future quarterly release pages-->
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+
+## Neue Funktion zum Erhöhen der Zeilenhöhe für die Listenansicht
+
+>[!NOTE]
+>
+>Vorschau: 2. April 2026
+>Produktions-Schnellveröffentlichung: Donnerstag, 15. April 2026
+>Produktion für alle: Freitag, 16. April 2026
+
+Wir haben eine neue Einstellung hinzugefügt, um die Zeilenhöhe in der Listenansicht anzupassen.
+
+Weitere Informationen finden Sie unter Verwalten der Listenansicht (help/quicksilver/planning/views/manage-the-list-view.md).
+
+Weitere Informationen finden Sie unter [Verwalten der Listenansicht](/help/quicksilver/planning/views/manage-the-list-view.md).
+
+## Datensatztypnamen und Ansichtssymbol zu öffentlich freigegebenen Ansichten hinzufügen
+
+>[!NOTE]
+>
+>Vorschau: 2. April 2026
+>Produktions-Schnellveröffentlichung: Donnerstag, 15. April 2026
+>Produktion für alle: Freitag, 16. April 2026
+
+Um sicherzustellen, dass Empfängerinnen und Empfänger immer verstehen, welche Ansicht sie erhalten haben, wenn sie einen öffentlich freigegebenen Link zu einem Datensatztyp öffnen, haben wir den Namen des Datensatztyps zur Seite mit der freigegebenen Ansicht hinzugefügt, zusätzlich zum Ansichtssymbol und zum Ansichtsnamen.
+
+Weitere Informationen finden Sie unter [Freigeben von Ansichten](/help/quicksilver/planning/access/share-views.md)
+
+## Neue Gruppierungsfunktion zur Liste der Anfrageformulare hinzugefügt
+
+>[!NOTE]
+>
+>Vorschau: 2. April 2026
+>Produktions-Schnellveröffentlichung: Donnerstag, 15. April 2026
+>Produktion für alle: Freitag, 16. April 2026
+
+Um Ihnen dabei zu helfen, Informationen besser zu organisieren, haben wir die Möglichkeit hinzugefügt, Elemente auf der Seite mit den Anfrageformularen eines Datensatztyps zu gruppieren.
+
+Vor dieser Verbesserung gab es diese Funktion in diesem Bereich nicht.
+
+Weitere Informationen finden Sie unter [Verwalten der Listenansicht](/help/quicksilver/planning/views/manage-the-list-view.md).
+
+## Liste freigegebener Entitäten erweitern, um Benutzer anzuzeigen
+
+>[!NOTE]
+>
+>Vorschau: 2. April 2026
+>Produktions-Schnellveröffentlichung: Donnerstag, 15. April 2026
+>Produktion für alle: Freitag, 16. April 2026
+
+Sie können jetzt Gruppen, Teams, Unternehmen und Rollen erweitern, um ihre Mitglieder anzuzeigen, wenn Sie einen Arbeitsbereich oder eine Ansicht für sie freigeben. Vor dieser Verbesserung waren die Mitgliedschaftslisten für diese Objekte nur bei der Freigabe von Datensatztypen verfügbar.
+
+Weitere Informationen finden Sie unter [Freigeben von Arbeitsbereichen](/help/quicksilver/planning/access/share-workspaces.md).
+
+## Best-Practice-Vorlage mit mehreren Arbeitsbereichen für die Implementierung der Workfront-Planung
+
+>[!NOTE]
+>
+>Vorschau: 2. April 2026
+>Produktions-Schnellveröffentlichung: Donnerstag, 15. April 2026
+>Produktion für alle: Freitag, 16. April 2026
+
+Wir führen ein Vorlagenpaket ein, um die Implementierung von Workfront Planning in Ihrem Unternehmen zu optimieren. Durch die Installation der Best Practice Framework-Vorlage können Sie bis zu sechs Arbeitsbereiche erstellen, die alle Informationen enthalten, die Sie für die Verschiebung Ihrer strategischen Planung in Workfront benötigen.
+
+Die Vorlage für mehrere Arbeitsbereiche enthält eine globale Vorlage, die zentrale Datensatztypen festlegt, die Sie in jedem von Ihnen erstellten benutzerdefinierten Arbeitsbereich verwenden können. Darüber hinaus enthält die Vorlage fünf weitere Arbeitsbereiche, die Sie als Beispiele verwenden können und die miteinander und mit anderen Objekten in Workfront verbunden sind.
+
+Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](/help/quicksilver/planning/architecture/create-workspaces.md).
+
+>[!NOTE]
+>
+> Diese Verbesserung ist nur für Kunden mit einem Prime-Paket oder einem höheren Paket verfügbar.
+
+## Globale Suche nach Workfront Planning-Objekten von einer beliebigen Workfront Planning-Seite aus
+
+>[!NOTE]
+>
+>Vorschau: 2. April 2026
+>Produktions-Schnellveröffentlichung: Donnerstag, 15. April 2026
+>Produktion für alle: Freitag, 16. April 2026
+
+Sie können jetzt in Workfront Planning auf jeder beliebigen Seite nach Arbeitsbereichen, Datensatztypen oder Ansichten suchen, indem Sie die folgenden Tastenkombinationen aus jeder beliebigen Planning-Seite verwenden:
+
+* STRG+K für Windows
+* ⌘+K für Mac
+
+Über das neue Suchfeld, das zur Landingpage Planning hinzugefügt wurde, können Sie auch nach Arbeitsbereichen, Datensatztypen oder Ansichten suchen.
+
+Weitere Informationen finden Sie unter [Bearbeiten von Arbeitsbereichen](/help/quicksilver/planning/architecture/edit-workspaces.md).
+
+## Anwenden einer zusätzlichen bedingten Formatierung auf eine Liste von Projekten auf der verbundenen Seite eines Datensatzes
+
+>[!NOTE]
+>
+>Vorschau: 2. April 2026
+>Produktions-Schnellveröffentlichung: Donnerstag, 15. April 2026
+>Produktion für alle: Freitag, 16. April 2026
+
+Sie können jetzt eine zusätzliche bedingte Formatierung auf eine Liste von Projekten auf der verbundenen Seite eines Datensatzes anwenden.
+
+Die neuen Funktionen zur bedingten Formatierung umfassen Folgendes:
+
+* Farbe zu Text hinzufügen
+
+* Text in einer Zelle fett oder kursiv formatieren
+
+* Möglichkeit, die bedingte Formatierung auf eine ganze Zeile anzuwenden
+
+Vor dieser Verbesserung bestand nur die Möglichkeit, dem Hintergrund einer Zelle Farbe hinzuzufügen.
+
+Weitere Informationen finden Sie unter [Verwalten der Listenansicht](/help/quicksilver/planning/views/manage-the-list-view.md).
+
+## Es wurden personalisierte Namen für Filter in der Listenansicht hinzugefügt
+
+>[!NOTE]
+>
+>Vorschau: 2. April 2026
+>Produktions-Schnellveröffentlichung: Donnerstag, 15. April 2026
+>Produktion für alle: Freitag, 16. April 2026
+
+Wir haben die folgenden personalisierten Namen für Team-, Gruppen-, Unternehmens- und Rollenfilter in der Listenansicht hinzugefügt:
+
+* Mein Home-Team, Meine Teams
+
+* Meine Hauptgruppe, Meine Gruppen
+
+* Meine primäre Rolle, Meine Rollen
+
+* Meine Firma
+
+Die Felder müssen für Objekte vorhanden sein, die in der Ansicht angezeigt werden, damit die Filteroptionen sichtbar sind.
+
+Weitere Informationen finden Sie unter [Verwalten der Listenansicht](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 ## Breadcrumb-Neugestaltung
 

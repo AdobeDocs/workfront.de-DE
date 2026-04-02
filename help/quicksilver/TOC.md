@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 18821ee34bb44b38fa3bb260434d7db986d2706e
+source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
 workflow-type: tm+mt
-source-wordcount: '13813'
+source-wordcount: '13913'
 ht-degree: 97%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 97%
          * [Versionsüberblick für das zweite Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
          * [Verbesserungen für Administratoren im zweiten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md)
          * [Verbesserungen bei Dokumenten für das zweite Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md)
+         * [Verbesserungen bei Unternehmensabläufen im zweiten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-enterprise-operations-enhancements.md)
          * [Projektverbesserungen im zweiten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-projects.md)
          * [Verbesserungen beim Reporting für das zweite Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md)
          * [Zweites Quartal 2026 mit Verbesserungsanfragen](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md)
@@ -463,9 +464,8 @@ ht-degree: 97%
          * [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
          * [Aktivieren von Adobe Enterprise Storage für Ihr Unternehmen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
          * [Erstellen und Bearbeiten von Geschäftsregeln](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
-         * [Konfigurieren von Speicherorten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
-         * [Verwalten von Tarifkarten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)
-         * [Importieren von Tarifkarten aus einer Vorlage](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/import-rate-cards.md)
+         * [Konfigurieren der benutzerdefinierten Lokalisierung](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
+         * [KI-Mitwirkende konfigurieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)
       * Konfigurieren von Voreinstellungen für Zeitpläne und Arbeitszeittabellen {#configure-timesheets-schedules}
          * [Konfigurieren von Voreinstellungen für Zeitpläne und Arbeitszeittabellen](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
          * [Überblick über Zeitpläne](administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)
@@ -561,7 +561,9 @@ ht-degree: 97%
          * [Gewähren von Zugriff auf Filter, Ansichten, Gruppierungen](administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
          * [Gewähren von Zugriff auf den Szenarienplaner](administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
          * [Gewähren von Zugriff auf das Ressourcen-Management](administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
+         * [Zugriff auf Tarifkarten gewähren](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-rate-cards.md)
          * [Gewähren von Zugriff auf Workfront Goals](administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
+         * [Zugriff auf Markenberechtigungen gewähren](administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md)
       * Single Sign-on in Workfront {#sso}
          * [Single Sign-on: Artikelindex](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
          * [Überblick über Single Sign-on](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
@@ -588,6 +590,7 @@ ht-degree: 97%
          * [Anpassen des Hauptmenüs](administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
          * [Anpassen von Objekt-Headern mithilfe einer Layout-Vorlage](administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)
          * [Anpassen des linken Panels](administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
+         * [Anpassen des Menüs Mehr mithilfe einer Layout-Vorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-more-menu.md)
          * [Anpassen der Detailansicht](administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
          * [Anpassen des Panels „Zusammenfassung“ mithilfe einer Layout-Vorlage](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
          * [Anpassen der neuen Startseite](administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
@@ -611,6 +614,7 @@ ht-degree: 97%
             * [Hinzufügen berechneter Felder zu einem Formular](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
             * [Hinzufügen von Logikregeln zu benutzerdefinierten Formularen und Feldern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
             * [Beispiele für erweiterte Logik in benutzerdefinierten Formularen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/advanced-logic-examples.md)
+            * [Beschränken des Zugriffs auf Finanzdaten in benutzerdefinierten Feldern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md)
             * [Beispiele für das Feld „Externer Lookup“ in einem benutzerdefinierten Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
             * [Organisieren eines Formulars und Anzeige in der Vorschau](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
          * Verwalten benutzerdefinierter Formulare {#manage-custom-forms}
@@ -783,6 +787,15 @@ ht-degree: 97%
          * [Verwalten der Projektvorlagen einer Gruppe](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md)
          * [Verwalten der gelöschten Elemente einer Gruppe](administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-deleted-objects.md)
          * [Verwalten der wiederhergestellten Elemente einer Gruppe](administration-and-setup/manage-groups/work-with-group-objects/view-manage-groups-recently-restored-objects.md)
+   * Verwalten von Unternehmensvorgängen {#manage-enterprise-operations}
+      * [Verwalten von Unternehmensvorgängen: Artikelindex](/help/quicksilver/administration-and-setup/manage-enterprise-operations/enterprise-operations-index.md)
+      * [Übersicht über die Betriebsfunktionen in Unternehmen](/help/quicksilver/administration-and-setup/manage-enterprise-operations/enterprise-operations-capabilities-overview.md)
+      * [Konfigurieren von Speicherorten](/help/quicksilver/administration-and-setup/manage-enterprise-operations/configure-locations.md)
+      * [Tarifattribute definieren](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)
+      * [Verwalten von Tarifkarten](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md)
+      * [Importieren von Tarifkarten aus einer Vorlage](/help/quicksilver/administration-and-setup/manage-enterprise-operations/import-rate-cards.md)
+      * [Änderungen der Push-Rate an Projekten](/help/quicksilver/administration-and-setup/manage-enterprise-operations/push-rates-to-projects.md)
+      * [Tarifkarte freigeben](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)
    * Konfigurieren von Integrationen {#configure-integrations}
       * [Konfigurieren von Integrationen](administration-and-setup/configure-integrations/workfront-integrations.md)
       * [Adobe Workfront-Integrationen](administration-and-setup/configure-integrations/workfront-integrations-1.md)
@@ -879,7 +892,7 @@ ht-degree: 97%
       * [Prioritäten: Artikelindex](workfront-basics/priorities/priorities-toc.md)
       * [Erste Schritte mit Prioritäten](workfront-basics/priorities/get-started-with-priorities.md)
       * [Anzeigen von Projekt- und Arbeitselementdetails in „Prioritäten“](workfront-basics/priorities/view-task-project-details.md)
-      * [Filtern und Gruppieren Ihrer Arbeit in „Prioritäten“](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
+      * [Filtern, Gruppieren und Sortieren Ihrer Arbeit mit Prioritäten](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
       * [Anpassen der Arbeitslistenspalten](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
       * [Priorisieren wichtiger Arbeitselemente](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)
       * [Erstellen von Aufgaben und Problemen in „Prioritäten“](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md)
@@ -1224,6 +1237,7 @@ ht-degree: 97%
          * [Erstellen eines Projekts mithilfe einer Vorlage](manage-work/projects/create-projects/create-project-from-template.md)
          * [Importieren eines Projekts aus Microsoft Project](manage-work/projects/create-projects/import-project-from-ms-project.md)
          * [Erstellen von Projekt-Baselines](manage-work/projects/create-projects/create-baselines.md)
+         * [Erstellen und Anzeigen von Projekt-Momentaufnahmen](manage-work/projects/create-projects/create-snapshots.md)
       * Aktualisieren der Arbeit an einem Projekt {#update-work-on-a-project}
          * [Aktualisieren der Arbeit an einem Projekt: Artikelindex](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
          * [Anwenden von Status auf Arbeit, die einer Gruppe zugeordnet ist](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
@@ -1298,13 +1312,18 @@ ht-degree: 97%
          * [Verwalten von Informationen im Bereich für Projektfinanzen](manage-work/projects/project-finances/manage-project-finance-area.md)
          * [Ändern der Projektwährung](manage-work/projects/project-finances/change-project-currency.md)
          * [Nachverfolgen der Kosten](manage-work/projects/project-finances/track-costs.md)
+         * [Benutzerkostensätze auf Projektebene überschreiben](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md)
          * [Verwalten der Projektausgaben](manage-work/projects/project-finances/manage-project-expenses.md)
+         * [Übersicht über Umsatz- und Kostenhierarchie](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)
          * [Überblick über Abrechnung und Umsatz](manage-work/projects/project-finances/billing-and-revenue-overview.md)
          * [Erstellen von Abrechnungseinträgen](manage-work/projects/project-finances/create-billing-records.md)
          * [Überschreiben der Abrechnungssätze auf Projektebene mit Abrechnungssätzen auf Firmenebene](manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)
-         * [Überblick über das Überschreiben von Abrechnungssätzen für Aufgabengebiete und die Berechnung des Umsatzes für ein Projekt](manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
+         * [Übersicht über das Überschreiben von Abrechnungssätzen und die Berechnung des Umsatzes für ein Projekt](manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
          * [Überschreiben von Abrechnungssätzen für Aufgabengebiete auf Projektebene](manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)
+         * [Benutzer-Abrechnungssätze auf Projektebene überschreiben](/help/quicksilver/manage-work/projects/project-finances/override-user-billing-rates-project-level.md)
          * [Anfügen einer Tarifkarte an ein Projekt](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)
+         * [Aufgabengebiet für Abrechnung einrichten](/help/quicksilver/manage-work/projects/project-finances/set-up-job-role-for-billing.md)
+         * [Definieren eines Überstundenverhältnisses](/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md)
          * [Überblick über den geplanten Nutzen eines Projekts](manage-work/projects/project-finances/project-planned-benefit.md)
          * [Festlegen der Performance Index Method (PIM)](manage-work/projects/project-finances/set-pim.md)
          * [Berechnen des ROI](manage-work/projects/project-finances/calculate-roi.md)
@@ -1860,23 +1879,22 @@ ht-degree: 97%
       * [Einheitliche Dokumentgenehmigungen: Artikelindex](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [Verfügbare Funktionen für Dokumentgenehmigungen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
       * [Überblick über den Entscheidungsstatus eines Dokuments](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-      * [Erste Schritte mit dem KI-Prüfer in Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
+      * [Erste Schritte mit dem Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
       * [Überblick über Adobe-Unternehmensspeicher](/help/quicksilver/review-and-approve-work/esm-overview.md)
       * [Objektberechtigungen und Übersicht auf Zugriffsebene für das Adobe Enterprise-Speichermodell](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
       * Einrichten und Verwalten von Asset- und Dokumentengenehmigungen {#manage-asset-review-and-approval}
          * [Einrichten und Verwalten von einheitlichen Genehmigungen: Artikelindex](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
-         * [Erstellen von KI-Prüfern](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
-         * [Einrichten von Marken für den KI-Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
-         * [Erstellen eines Workflows für die Dokumentvalidierung](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
-         * [Hinzufügen zusätzlicher genehmigender Personen oder Prüfer zu einem Workflow für die Dokumentvalidierung](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
-         * [Entfernen von genehmigenden Personen oder Prüfenden aus einem Dokumentgenehmigungs-Workflow](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
-         * [Erstellen einer Validierungs-Workflow-Vorlage für Dokumente](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+         * [Erstellen und Verwalten von Marken für Inhaltsvalidierer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
+         * [Erstellen einer Prüfungs- oder Genehmigungsanfrage für ein Dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+         * [Hinzufügen zusätzlicher prüfender oder genehmigender Personen zu einem Asset oder Dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
+         * [Entfernen von genehmigenden oder prüfenden Personen von einem Asset oder Dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+         * [Erstellen einer Genehmigungsvorlage für Assets und Dokumente](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
          * [Gemeinsames Verwenden von einheitlichen Genehmigungen und Proofing](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
          * [Hochladen einer neuen Dokumentversion und Anfordern einer Genehmigung](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
          * [Erstellen eines Berichts-Dashboards zur Überprüfung und Genehmigung](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
       * Überprüfen und Genehmigen von Assets und Dokumenten {#review-and-approve-documents}
          * [Überprüfen und Genehmigen von Dokumenten: Artikelindex](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
-         * [Anzeigen von KI-Prüfer-Bewertung und -Feedback](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
+         * [Anzeigen der Punktzahl und des Feedbacks von Inhaltsvalidierern](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
          * [Überprüfen eines Dokuments](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [Genehmigen eines Dokuments](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
          * [Überprüfen und Genehmigen eines Dokuments im Frame.io-Viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)

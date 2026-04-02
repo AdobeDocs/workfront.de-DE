@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: 34f367e1bd1aa0c75433f2f59baf4efc1284e61b
+source-git-commit: b334e8b234c9c87dd1b1ecd26df6645b3381ffb0
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 8%
+source-wordcount: '713'
+ht-degree: 9%
 
 ---
 
@@ -20,12 +20,44 @@ Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom 
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im zweiten Quartal 2026 verfügbar sind, finden Sie unter [Versionsübersicht für das zweite Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-## Einheitliche Prüfung und Genehmigungen basierend auf Workfront und Frame.io
+## GenStudio Foundations-Bereitstellung zur Unterstützung von KI-Mitwirkenden aktiviert
 
+>[!NOTE]
+>
+>Vorschau: 31. März 2026
+>Produktions-Schnellveröffentlichung: Mittwoch, 31. März 2026
+>Produktion für alle: Mittwoch, 31. März 2026
+
+Am 31. März 2026 wurden alle Workfront-Kundinnen und -Kunden für GenStudio Foundation bereitgestellt, und Admin Console-Systemadmins erhalten eine E-Mail, in der sie über diesen Zusatz informiert werden. Dieses Produkt wird nur bereitgestellt, damit Workfront-Kunden Workfront-Kunden nach Bedarf Zugriff auf die KI-Kollaborateure gewähren können. Das Produkt selbst ist nur ein Zugriffsmechanismus für Marken, und im GenStudio Foundation-Produkt sind keine zusätzlichen Funktionen verfügbar.
+
+Kunden wird dieses neue Produkt nicht in Rechnung gestellt.
+
+## Meine Genehmigungs-Widget-Aktualisierungen
+
+>[!NOTE]
+>
+>Vorschau: 2. April 2026
+>Produktions-Schnellveröffentlichung: Donnerstag, 15. April 2026
+>Produktion für alle: Freitag, 16. April 2026
+
+Wir haben folgende Verbesserungen zum Widget Meine Genehmigungen in Startseite hinzugefügt:
+
+* Sortieren Sie die Genehmigungsliste zuerst nach der ältesten oder der neuesten
+* Widget zum Vollbildmodus erweitern
+
+Weitere Informationen finden Sie unter [Verwalten Ihrer Genehmigungen mit dem Widget Meine Genehmigungen](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-approvals-widget.md).
+
+## Einheitliche Prüfung und Genehmigungen basierend auf Workfront und Frame.io
 
 >[!IMPORTANT]
 >
 >Diese neue Funktion steht neuen Kunden und Bestandskunden nach der Verlängerung zur Verfügung.
+
+>[!NOTE]
+>
+>Vorschau: 12. März 2026
+>Produktions-Schnellveröffentlichung: Donnerstag, 15. April 2026
+>Produktion für alle: Freitag, 16. April 2026
 
 
 Wir freuen uns, Ihnen Unified Review &amp; Approval powered by Workfront und Frame.io vorstellen zu können - ein optimiertes Prüf- und Genehmigungs-Erlebnis.

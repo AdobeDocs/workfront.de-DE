@@ -5,9 +5,11 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
-source-git-commit: ed4b03429a479797854a0cae08f9191a25eebc13
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '764'
 ht-degree: 8%
 
 ---
@@ -17,6 +19,38 @@ ht-degree: 8%
 Auf dieser Seite werden die Verbesserungen beim Reporting in der Vorschau-Umgebung beschrieben, die mit der Version vom zweiten Quartal 2026 vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im zweiten Quartal 2026 verfügbar sind, finden Sie unter [Versionsübersicht für das zweite Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Berichte als bestimmter Benutzer in Arbeitsflächen-Dashboards ausführen
+
+>[!NOTE]
+>
+>Vorschau: 2. April 2026
+>Produktions-Schnellveröffentlichung: Donnerstag, 15. April 2026
+>Produktion für alle: Freitag, 16. April 2026
+>
+>Canvas Dashboards befindet sich derzeit in der Beta-Phase.
+
+Sie können jetzt Berichte auf Arbeitsflächen-Dashboards so konfigurieren, dass sie als ein bestimmter Benutzer ausgeführt werden. Wenn diese Option aktiviert ist, zeigt der Bericht Daten basierend auf dem Zugriff des ausgewählten Benutzers anstelle der Berechtigungen des Viewers an.
+
+Dadurch werden konsistentere und zuverlässigere Daten über alle Dashboard-Viewer hinweg sichergestellt, auch wenn der Zugriff auf Planning-Arbeitsbereiche, Datensatztypen oder Autorisierungseinstellungen unterschiedlich ist.
+
+Weitere Informationen finden Sie unter [Erstellen eines KPI-Berichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md), [Erstellen eines Diagrammberichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) oder [Erstellen eines Tabellenberichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
+
+## Die geplante Bereitstellung von Berichten unterstützt jetzt verknüpfungsbasierte E-Mails
+
+>[!NOTE]
+>
+>Vorschau: 2. April 2026
+>Produktions-Schnellveröffentlichung: Donnerstag, 15. April 2026
+>Produktion für alle: Freitag, 16. April 2026
+
+Workfront enthält jetzt einen neuen Bereitstellungstyp Link für geplante Berichte. Anstatt eine Datei zu generieren und anzuhängen, sendet diese Option eine E-Mail mit einem direkten Link zum Bericht in Workfront, damit die Empfängerinnen und Empfänger die aktuellsten Daten in der Anwendung anzeigen können.
+
+Die Option Link ist jetzt der Standardversandtyp für neu erstellte Bereitstellungsregeln für terminierte Berichte, während bestehende dateibasierte Formate (HTML, PDF, Excel und TSV) weiterhin verfügbar sind.
+
+Mit dieser Änderung haben wir auch das Erscheinungsbild der Berichtversand-E-Mail aktualisiert.
+
+Weitere Informationen finden Sie unter [Planen einer automatischen Berichtsbereitstellung](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).
 
 ## Neue Authentifizierungsoptionen für die Datenverbindung
 
