@@ -284,7 +284,7 @@ Datensätze des ausgewählten Typs werden in der Ansicht angezeigt.
 
    ODER
 
-   Klicken Sie auf **Details öffnen**-Symbol ![Details öffnen“ im Feld ](assets/open-details-icon-in-table-name-field.png)Tabellenname“ links neben dem Datensatznamen.
+   Klicken Sie auf **Details öffnen**-Symbol ![Details öffnen“ im Feld &#x200B;](assets/open-details-icon-in-table-name-field.png)Tabellenname“ links neben dem Datensatznamen.
 
    Das Vorschaufeld wird in der Tabelle geöffnet.
 
@@ -505,7 +505,7 @@ Sie müssen über Folgendes verfügen, bevor Sie neue Datensätze hinzufügen k�
 
 * Verbundene Datensatztypen Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Einträge.
-* Die richtigen Zugriffsberechtigungen in Workfront Planning und Workfront, wie im Abschnitt [Zugriffsanforderungen“ in ](#access-requirements) Artikel beschrieben.
+* Die richtigen Zugriffsberechtigungen in Workfront Planning und Workfront, wie im Abschnitt [Zugriffsanforderungen“ in &#x200B;](#access-requirements) Artikel beschrieben.
 
 So erstellen Sie Datensätze, während Sie sie mit anderen Datensätzen verbinden:
 

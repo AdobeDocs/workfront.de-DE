@@ -70,7 +70,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
    Report Builder wird geladen.
 
-   Spezifische Informationen zu verfügbaren Objektberichten finden Sie im Abschnitt [Berichte zu Objekten](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) im Artikel &quot;[ von Objekten in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+   Spezifische Informationen zu verfügbaren Objektberichten finden Sie im Abschnitt [Berichte zu Objekten](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) im Artikel &quot;[&#x200B; von Objekten in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
    ![Neuen Bericht auswählen](assets/nwe-select-new-report-350x666.png)
 
@@ -116,7 +116,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 ### Spalten (Ansicht) zu einem Bericht hinzufügen {#add-columns-view-to-a-report}
 
-1. Beginnen Sie mit der Erstellung eines Berichts, wie [ Abschnitt „Erstellen eines ](#create-a-report)&quot; in diesem Artikel beschrieben.
+1. Beginnen Sie mit der Erstellung eines Berichts, wie [&#x200B; Abschnitt „Erstellen eines &#x200B;](#create-a-report)&quot; in diesem Artikel beschrieben.
 1. Wählen Sie in Report Builder die Registerkarte **Spalten (Ansicht)**, um die Spalten zu identifizieren, die im Bericht angezeigt werden sollen.
 1. (Optional) Klicken Sie **Vorhandene Ansicht anwenden** und klicken Sie im Dropdown-Menü auf den Namen einer Ansicht, um eine vorhandene Ansicht zu verwenden.
 
@@ -196,7 +196,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 ### Gruppierungen zu einem Bericht hinzufügen {#add-groupings-to-a-report}
 
-1. Beginnen Sie mit der Erstellung eines Berichts, wie [ Abschnitt „Erstellen eines ](#create-a-report)&quot; in diesem Artikel beschrieben.
+1. Beginnen Sie mit der Erstellung eines Berichts, wie [&#x200B; Abschnitt „Erstellen eines &#x200B;](#create-a-report)&quot; in diesem Artikel beschrieben.
 1. Wählen Sie in Report Builder die Registerkarte **Gruppierungen**, um festzulegen, wie Sie Elemente im Bericht gruppieren möchten.
 1. Klicken Sie **Gruppierung hinzufügen**, um eine neue Gruppierung hinzuzufügen.
 
@@ -230,7 +230,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 ### Hinzufügen von Filtern zu einem Bericht {#add-filters-to-a-report}
 
-1. Beginnen Sie mit der Erstellung eines Berichts, wie [ Abschnitt „Erstellen eines ](#create-a-report)&quot; in diesem Artikel beschrieben.
+1. Beginnen Sie mit der Erstellung eines Berichts, wie [&#x200B; Abschnitt „Erstellen eines &#x200B;](#create-a-report)&quot; in diesem Artikel beschrieben.
 1. Wählen Sie in Report Builder die Registerkarte **Filter**, um die Menge an Informationen anzugeben, die der Bericht enthalten soll.
 1. Klicken Sie **Filterregel hinzufügen**, um einen benutzerdefinierten Filter hinzuzufügen.\
    ODER\
@@ -253,7 +253,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 ### Hinzufügen eines Diagramms zu einem Bericht {#add-a-chart-to-a-report}
 
-1. Beginnen Sie mit der Erstellung eines Berichts, wie [ Abschnitt „Erstellen eines ](#create-a-report)&quot; in diesem Artikel beschrieben.
+1. Beginnen Sie mit der Erstellung eines Berichts, wie [&#x200B; Abschnitt „Erstellen eines &#x200B;](#create-a-report)&quot; in diesem Artikel beschrieben.
 1. Wählen Sie in Report Builder die Registerkarte **Diagramm** und wählen Sie dann den Diagrammtyp aus, den Sie hinzufügen möchten.
 
    ![Diagramm hinzufügen](assets/nwe-add-a-chart-350x247.png)

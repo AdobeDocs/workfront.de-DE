@@ -77,7 +77,7 @@ Es wird empfohlen, sowohl in der Vorschau- als auch in der Produktionsumgebung e
 
 >[!TIP]
 >
->Sie müssen zwei separate [!DNL Workfront]-Anwendungen in [!DNL JumpSeat] hinzufügen und aktivieren - eine für die Vorschau und eine für die Produktion. Weitere [ finden Sie unter „Hinzufügen oder ](https://support.jumpseat.io/article/how-to-add-an-application/) einer Anwendung“.
+>Sie müssen zwei separate [!DNL Workfront]-Anwendungen in [!DNL JumpSeat] hinzufügen und aktivieren - eine für die Vorschau und eine für die Produktion. Weitere [&#x200B; finden Sie unter „Hinzufügen oder &#x200B;](https://support.jumpseat.io/article/how-to-add-an-application/) einer Anwendung“.
 
 So konfigurieren Sie die [!DNL JumpSeat]:
 
@@ -92,7 +92,7 @@ So konfigurieren Sie die [!DNL JumpSeat]:
 
 https://{mycompanyname}.jumpSeat.io
 
->>
+&#x200B;>>
 
 >[!ENDSHADEBOX]
 

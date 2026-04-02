@@ -248,7 +248,7 @@ Die folgenden Informationen werden in der Kopfzeile eines Programms angezeigt:
   </tr> 
   <tr> 
    <td role="rowheader">Bedingung für [!UICONTROL Active Projects]</td> 
-   <td>Dies ist eine Berechnung, die angibt, für welchen Prozentsatz der Projekte im Programm die [!UICONTROL-Bedingung] als [!UICONTROL On Target], [!UICONTROL At Risk] oder [!UICONTROL In Trouble] festgelegt ist. Die hier dargestellten Projekte sind Projekte mit dem Status [!UICONTROL Aktuell] und [!UICONTROL Genehmigt]. </td> 
+   <td>Dies ist eine Berechnung, die angibt, für welchen Prozentsatz der Projekte im Programm die [!UICONTROL -Bedingung] als [!UICONTROL On Target], [!UICONTROL At Risk] oder [!UICONTROL In Trouble] festgelegt ist. Die hier dargestellten Projekte sind Projekte mit dem Status [!UICONTROL Aktuell] und [!UICONTROL Genehmigt]. </td> 
   </tr> 
  </tbody> 
 </table>

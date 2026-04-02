@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
 title: Systemaktualisierungen konfigurieren
-description: Workfront generiert automatische Systemaktualisierungen im Bereich [!UICONTROL Updates“ eines ], um die Änderungen aufzuzeichnen, die Benutzende am Objekt vornehmen. Als  [!DNL Workfront]  können Sie konfigurieren, welche Objektfelder und Aktionen  [!DNL Workfront]  Systemaktualisierungen aufgezeichnet werden sollen.
+description: Workfront generiert automatische Systemaktualisierungen im Bereich [!UICONTROL Updates“ eines &#x200B;], um die Änderungen aufzuzeichnen, die Benutzende am Objekt vornehmen. Als  [!DNL Workfront]  können Sie konfigurieren, welche Objektfelder und Aktionen  [!DNL Workfront]  Systemaktualisierungen aufgezeichnet werden sollen.
 author: Alina
 feature: System Setup and Administration
 role: Admin
@@ -32,7 +32,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 </div>
 -->
 
-[!DNL Adobe Workfront] generiert automatische Systemaktualisierungen im Bereich [!UICONTROL Updates“ eines ], um die folgenden Ereignisse aufzuzeichnen:
+[!DNL Adobe Workfront] generiert automatische Systemaktualisierungen im Bereich [!UICONTROL Updates“ eines &#x200B;], um die folgenden Ereignisse aufzuzeichnen:
 
 * Änderungen, die Benutzer in einem Objektfeld vornehmen
 * Aktionen, die Benutzer für ein Objekt ausführen
@@ -165,7 +165,7 @@ Sie können Felder entfernen, die das System nicht für einen bestimmten Objektt
 
 1. Wählen Sie auf **[!UICONTROL Registerkarte]** Getrackte Felder“ die Unterregisterkarte **[!UICONTROL Alle Felder]** aus. Sowohl die integrierten als auch die benutzerdefinierten Felder, die derzeit verfolgt werden, werden angezeigt.
 
-1. Wählen Sie das Feld aus, das Sie mit dem Tracking stoppen möchten, und klicken Sie dann auf das Symbol **[!UICONTROL Entfernen]** (Symbol ![ entfernen](assets/remove-icon.png).
+1. Wählen Sie das Feld aus, das Sie mit dem Tracking stoppen möchten, und klicken Sie dann auf das Symbol **[!UICONTROL Entfernen]** (Symbol ![&#x200B; entfernen](assets/remove-icon.png).
 
 1. Klicken Sie im angezeigten **[!UICONTROL Feld]** Feld entfernen“ zur Bestätigung auf **[!UICONTROL Ja,]** entfernen.
 

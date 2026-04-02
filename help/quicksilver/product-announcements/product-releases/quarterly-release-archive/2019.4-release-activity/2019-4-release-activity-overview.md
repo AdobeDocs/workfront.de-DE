@@ -335,4 +335,4 @@ Replacement of Flash-based tools in Workfront
 
 ### Webinar zur Produkt-Roadmap im 4. Quartal {#q4-product-roadmap-webinar}
 
-Erfahren Sie mehr darüber, was während des [4-Roadmap-Webinars ](https://webinars.on24.com/workfront/Q4roadmap?partnerref=announcementcenter). Dieses Webinar wurde am 6. November 2019 abgehalten. Klicken Sie auf den Link, um sich zu registrieren und die Aufzeichnung bei Bedarf anzusehen.
+Erfahren Sie mehr darüber, was während des [4-Roadmap-Webinars &#x200B;](https://webinars.on24.com/workfront/Q4roadmap?partnerref=announcementcenter). Dieses Webinar wurde am 6. November 2019 abgehalten. Klicken Sie auf den Link, um sich zu registrieren und die Aufzeichnung bei Bedarf anzusehen.

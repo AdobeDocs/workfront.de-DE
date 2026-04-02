@@ -136,7 +136,7 @@ Old:
 
    * [!UICONTROL **Das geplante Abschlussdatum der Anfrage beibehalten**]
 
-     Wenn diese Option deaktiviert ist[!UICONTROL  wird das geplante Abschlussdatum ] neuen Aufgabe anhand des [!UICONTROL geplanten Startdatums] berechnet. Das [!UICONTROL geplante Startdatum] der neuen Aufgabe wird entsprechend den Systemeinstellungen für neue Aufgaben festgelegt.
+     Wenn diese Option deaktiviert ist[!UICONTROL &#x200B; wird das geplante Abschlussdatum &#x200B;] neuen Aufgabe anhand des [!UICONTROL geplanten Startdatums] berechnet. Das [!UICONTROL geplante Startdatum] der neuen Aufgabe wird entsprechend den Systemeinstellungen für neue Aufgaben festgelegt.
 
      >[!NOTE]
      >
@@ -162,7 +162,7 @@ Old:
 
    Das Problem ist nun mit der neuen Aufgabe für das ausgewählte Projekt verknüpft und wird abgeschlossen, sobald die Aufgabe abgeschlossen ist, falls Sie die ursprüngliche Anfrage beibehalten möchten.
 
-   Einige Problemfelder werden auf die Aufgabe übertragen. Weitere Informationen finden Sie [ Abschnitt „Anzeigen der ursprünglichen Anfrageinformationen zu Projekten und Aufgaben](#view-original-issue-information-on-projects-and-tasks) in diesem Artikel.
+   Einige Problemfelder werden auf die Aufgabe übertragen. Weitere Informationen finden Sie [&#x200B; Abschnitt „Anzeigen der ursprünglichen Anfrageinformationen zu Projekten und Aufgaben](#view-original-issue-information-on-projects-and-tasks) in diesem Artikel.
 
 1. (Optional) Fahren Sie mit der Bearbeitung der Aufgabe nach Bedarf fort.
 
@@ -181,4 +181,4 @@ Die folgende Tabelle zeigt, welche Problemfelder in den konvertierten Projekten 
 
 >[!CAUTION]
 >
->Wenn sich der [!UICONTROL Primäre ] eines Problems ändert oder die Verknüpfung des Problems mit dem Projekt oder der Aufgabe nach der Konvertierung des Problems aufgehoben wird, wird der [!UICONTROL Name des konvertierten Problemurhebers] nicht aktualisiert und der ursprüngliche [!UICONTROL Primäre ] des Problems zum Zeitpunkt der Konvertierung wird angezeigt.
+>Wenn sich der [!UICONTROL Primäre &#x200B;] eines Problems ändert oder die Verknüpfung des Problems mit dem Projekt oder der Aufgabe nach der Konvertierung des Problems aufgehoben wird, wird der [!UICONTROL Name des konvertierten Problemurhebers] nicht aktualisiert und der ursprüngliche [!UICONTROL Primäre &#x200B;] des Problems zum Zeitpunkt der Konvertierung wird angezeigt.

@@ -98,7 +98,7 @@ Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich „Neue Dok
 
 Wenn Sie ein Dokument in eine Aufgabe oder ein Problem hochladen, erstellt Workfront automatisch einen systemgenerierten Ordner mit dem Namen nach der Aufgabe oder dem Problem. Dieser Ordner ist mit der Aufgabe oder dem Problem verknüpft und übernimmt die Berechtigungen. Systemgenerierte Ordner sind im Dokumentbereich auf Projektebene sichtbar.
 
-Weitere Informationen zu Ordnerberechtigungen finden Sie unter [ von Dokumentberechtigungen](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+Weitere Informationen zu Ordnerberechtigungen finden Sie unter [&#x200B; von Dokumentberechtigungen](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
 
 ### Unterordner erstellen
 

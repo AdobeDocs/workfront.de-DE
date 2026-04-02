@@ -23,7 +23,7 @@ Das [!UICONTROL Gantt-] einer Adobe Workfront-Aufgabenliste zeigt Details zu Auf
 
 In einer Vorlage spiegelt die Aufgabenliste [!UICONTROL Gantt-Diagramm] Aktualisierungen wider, die in der Aufgabenliste der Vorlage auf Vorlagenaufgabenebene vorgenommen wurden. Das mit einer Vorlage verknüpfte [!UICONTROL Gantt-]&quot; kann nicht bearbeitet werden.
 
-In einem Projekt können Sie Aufgabeninformationen direkt in der Aufgabenliste (Gantt[!UICONTROL Diagramm) ].
+In einem Projekt können Sie Aufgabeninformationen direkt in der Aufgabenliste (Gantt[!UICONTROL Diagramm) &#x200B;].
 
 In diesem Artikel werden die folgenden Aktionen beschrieben, die Sie direkt in der Aufgabenliste ausführen können [!UICONTROL Gantt-Diagramm]:
 
@@ -101,7 +101,7 @@ Old:
 
 1. Klicken Sie auf **[!UICONTROL Symbol]** Gantt-Diagramm“.
 
-   ![Klicken Sie auf das Symbol Gantt-Diagramm ](assets/click-gantt-chart-icon.png)
+   ![Klicken Sie auf das Symbol Gantt-Diagramm &#x200B;](assets/click-gantt-chart-icon.png)
 
    Alle Änderungen werden automatisch gespeichert, wenn die Option **[!UICONTROL Automatisches Speichern]** aktiviert ist. Diese ist standardmäßig aktiviert.
 
@@ -133,7 +133,7 @@ Old:
 
    Die **[!UICONTROL AutoSpeichern]**-Option ist standardmäßig ausgewählt. In diesem Fall werden alle Änderungen automatisch gespeichert.
 
-   ![Klicken Sie auf das Symbol Gantt-Diagramm ](assets/click-gantt-chart-icon.png)
+   ![Klicken Sie auf das Symbol Gantt-Diagramm &#x200B;](assets/click-gantt-chart-icon.png)
 
 1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Planungsmodus]** und wählen Sie **[!UICONTROL Manuelles Speichern von Standard]** oder **[!UICONTROL Timeline Planning]**, um Ihre Änderungen manuell zu speichern.
 
@@ -165,7 +165,7 @@ Old:
 
    Alle Änderungen werden automatisch gespeichert, wenn die Option **[!UICONTROL Automatisches Speichern]** aktiviert ist. Diese ist standardmäßig aktiviert.
 
-   ![Klicken Sie auf das Symbol Gantt-Diagramm ](assets/click-gantt-chart-icon.png)
+   ![Klicken Sie auf das Symbol Gantt-Diagramm &#x200B;](assets/click-gantt-chart-icon.png)
 
 1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Planungsmodus]** und wählen Sie **[!UICONTROL Manuelles Speichern von Standard]** oder **[!UICONTROL Timeline Planning]**, um Ihre Änderungen manuell zu speichern.
 
@@ -196,7 +196,7 @@ Old:
 
    >[!TIP]
    >
-   >Sie können die folgenden Tastaturbefehle verwenden, um Änderungen im [!UICONTROL Gantt-Diagramm“ rückgängig zu machen oder ]:
+   >Sie können die folgenden Tastaturbefehle verwenden, um Änderungen im [!UICONTROL Gantt-Diagramm“ rückgängig zu machen oder &#x200B;]:
    >
    >   
    >   
@@ -212,7 +212,7 @@ Old:
 1. Wechseln Sie zu dem Projekt, das Sie ändern möchten.
 1. Klicken Sie im Bereich **[!UICONTROL Aufgaben]** auf das Symbol **[!UICONTROL Gantt-Diagramm]**.
 
-   ![Klicken Sie auf das Symbol Gantt-Diagramm ](assets/click-gantt-chart-icon.png)
+   ![Klicken Sie auf das Symbol Gantt-Diagramm &#x200B;](assets/click-gantt-chart-icon.png)
 
    Alle Änderungen werden automatisch gespeichert, wenn die Option **[!UICONTROL Automatisches Speichern]** aktiviert ist. Diese ist standardmäßig aktiviert.
 
@@ -231,7 +231,7 @@ Old:
 
    >[!TIP]
    >
-   >Sie können die folgenden Tastaturbefehle verwenden, um Änderungen im [!UICONTROL Gantt-Diagramm“ rückgängig zu machen oder ]:
+   >Sie können die folgenden Tastaturbefehle verwenden, um Änderungen im [!UICONTROL Gantt-Diagramm“ rückgängig zu machen oder &#x200B;]:
    >
    >   
    >   

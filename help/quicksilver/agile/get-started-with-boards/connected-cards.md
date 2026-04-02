@@ -211,11 +211,11 @@ So trennen Sie eine Karte auf Kartenebene:
 
 ## Konvertieren einer Ad-hoc-Karte in eine verbundene Karte
 
-Nachdem Sie eine Ad-hoc-Karte erstellt haben, können Sie sie in eine verbundene Karte konvertieren. Weitere Informationen zu Ad-hoc-Karten finden [ unter „Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+Nachdem Sie eine Ad-hoc-Karte erstellt haben, können Sie sie in eine verbundene Karte konvertieren. Weitere Informationen zu Ad-hoc-Karten finden [&#x200B; unter „Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
 1. Rufen Sie die Pinnwand auf und öffnen Sie die Ad-hoc-Karte.
 1. Überprüfen Sie den Namen und die Beschreibung auf der Karte. Sie werden zu der Aufgabe oder dem Problem hinzugefügt, die bzw. das Sie in [!DNL Workfront] erstellen.
-1. Klicken [!UICONTROL  im Bereich &quot;]&quot; der Kartendetails auf **[!UICONTROL Mit Workfront verbinden]**.
+1. Klicken [!UICONTROL &#x200B; im Bereich &quot;]&quot; der Kartendetails auf **[!UICONTROL Mit Workfront verbinden]**.
 1. Wählen Sie im Fenster [!UICONTROL Karte verbinden] aus, ob Sie eine Aufgabe oder ein Problem erstellen möchten.
 1. Suchen Sie nach einem Projekt und wählen Sie es aus, dem die Aufgabe oder das Problem hinzugefügt werden soll.
 
@@ -236,7 +236,7 @@ Nachdem Sie eine Ad-hoc-Karte erstellt haben, können Sie sie in eine verbundene
 
 Sie müssen über die richtigen Berechtigungen verfügen, um Stunden für die verbundene Aufgabe oder das verbundene Problem zu protokollieren.
 
-Die Zeitprotokollierungsfelder werden nicht standardmäßig auf verbundenen Karten angezeigt. Sie müssen [!UICONTROL **Stunden**] im Bereich [!UICONTROL Konfigurieren] unter &quot;[!UICONTROL &quot; ]. Weitere Informationen finden Sie unter [Anpassen der auf einer Karte angezeigten Felder](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+Die Zeitprotokollierungsfelder werden nicht standardmäßig auf verbundenen Karten angezeigt. Sie müssen [!UICONTROL **Stunden**] im Bereich [!UICONTROL Konfigurieren] unter &quot;[!UICONTROL &quot; &#x200B;]. Weitere Informationen finden Sie unter [Anpassen der auf einer Karte angezeigten Felder](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
 1. Geben Sie die Anzahl der Stunden für die Aufgabe oder das Problem ein.
 1. Wählen Sie einen [!UICONTROL Stundentyp] aus dem Dropdown-Menü aus, wenn er sich von der Standardeinstellung unterscheidet.

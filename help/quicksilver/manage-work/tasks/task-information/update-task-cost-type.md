@@ -97,6 +97,6 @@ Old:
    * Benutzer pro Stunde
    * Stundensatz nach Funktion
 
-   Weitere Informationen zu den einzelnen Vorgangstypen finden Sie unter [Kosten ](../../../manage-work/projects/project-finances/track-costs.md).
+   Weitere Informationen zu den einzelnen Vorgangstypen finden Sie unter [Kosten &#x200B;](../../../manage-work/projects/project-finances/track-costs.md).
 
 1. Klicken Sie auf **Speichern** **Änderungen** **.**

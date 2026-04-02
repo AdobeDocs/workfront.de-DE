@@ -99,7 +99,7 @@ Old
 1. Ändern Sie mithilfe des Gleitkreises die Optimierung einer der folgenden Kategorien:
 
    * **[!UICONTROL Niedrige Kosten]**: Schieben Sie den Schieberegler nach rechts, um Projekte mit den niedrigsten [!UICONTROL geplanten Kosten] anzuzeigen.
-   * **[!UICONTROL Hohe Ausrichtung]**: Schieben Sie den Schieberegler nach rechts, um Projekte mit der höchsten Ausrichtung, die auf der [!UICONTROL Scorecard“ ], anzuzeigen.
+   * **[!UICONTROL Hohe Ausrichtung]**: Schieben Sie den Schieberegler nach rechts, um Projekte mit der höchsten Ausrichtung, die auf der [!UICONTROL Scorecard“ &#x200B;], anzuzeigen.
    * **[!UICONTROL Hoher Wert]**: Bewegen Sie den Schieberegler nach rechts, um Projekte mit einem höheren [!UICONTROL Nettowert]-Wert anzuzeigen.
    * **[!UICONTROL Niedriges Risiko/]**: Schieben Sie den Schieberegler nach rechts, um Projekte mit dem niedrigsten Risiko/Gewinn-Verhältnis anzuzeigen.
    * **[!UICONTROL Hoher ROI]**: Schieben Sie den Schieberegler nach rechts, um Projekte mit höherer Rentabilität anzuzeigen.
