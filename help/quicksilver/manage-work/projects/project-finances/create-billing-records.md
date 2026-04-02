@@ -5,14 +5,14 @@ description: Zusätzlich zur Einrichtung von Einnahmen und zur Verfolgung von Au
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
 workflow-type: tm+mt
-source-wordcount: '1635'
-ht-degree: 1%
+source-wordcount: '1633'
+ht-degree: 3%
 
 ---
 
-# Rechnungsnachweise erstellen
+# Erstellen von Abrechnungseinträgen
 
 <!-- Audited: 6/2025 -->
 
@@ -22,7 +22,7 @@ Sie können keine Rechnungsnachweise für Aufgaben erstellen; Sie können nur Re
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +36,7 @@ Sie können keine Rechnungsnachweise für Aufgaben erstellen; Sie können nur Re
    <td>Adobe Workfront-Lizenz</td> 
    <td>
    <p>Standard</p>
-   <p>Plan</p></td> 
+   <p>Abo</p></td> 
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -49,7 +49,7 @@ Sie können keine Rechnungsnachweise für Aufgaben erstellen; Sie können nur Re
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -144,7 +144,7 @@ Sie können einem Rechnungsnachweis Stunden hinzufügen, wenn die folgenden Bedi
      >[!NOTE]
      >
      >Sie können Abrechnungssätze für Aufgabengebiete auf Projektebene überschreiben.\
-     >Weitere Informationen finden Sie im Abschnitt „Überschreiben der Abrechnungssätze für Aufgabengebiete auf Projektebene“ im Artikel [Übersicht über das Überschreiben der Abrechnungssätze für Aufgabengebiete und die Berechnung des Umsatzes für ein Projekt](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+     >Weitere Informationen finden Sie im Abschnitt „Überschreiben der Abrechnungssätze für Aufgabengebiete auf Projektebene“ im Artikel „Übersicht [ Überschreiben der Abrechnungssätze und Berechnung des Umsatzes für ein Projekt](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 * Wenn die Option Für dieses Projekt zu genehmigende Zeit erforderlich in den Projekteinstellungen ausgewählt ist, muss der Projektbesitzer die protokollierten Stunden genehmigen.\
   Weitere Informationen finden Sie unter [Für die Genehmigung eines Projekts ist Zeit erforderlich](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md).
@@ -217,7 +217,7 @@ Nachdem Sie einen Rechnungsnachweis erstellt und ihm Stunden, Ausgaben und Einna
 1. Wählen **Rechnungsnachweisdetails** im linken Bedienfeld aus.
 1. Bearbeiten Sie die Informationen in allen verfügbaren Feldern.
 
-   Oder
+   ODER
 
    Klicken Sie auf **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png) in der oberen rechten Ecke und bearbeiten Sie dann Informationen in allen verfügbaren Feldern.
 
@@ -241,7 +241,7 @@ Nachdem Sie einen Rechnungsnachweis erstellt und ihm Stunden, Ausgaben und Einna
 
    * **Verrechenbare Ausgaben**: Der Gesamtbetrag der tatsächlichen Summe der verrechenbaren Ausgaben, die im Rechnungsnachweis enthalten sind. Weitere Informationen finden Sie im folgenden Abschnitt dieses Artikels: [Abrechnungsfähige Ausgaben in einen Rechnungsnachweis einbeziehen](#include-billable-expenses-in-a-billing-record).
 
-   * **Fakturierbare Einnahmen**: Der Gesamtbetrag der Festeinnahmen der Aufgaben, die im Rechnungsnachweis enthalten sind. Weitere Informationen finden Sie im folgenden Abschnitt dieses Artikels: [Festeinnahmen in einen Rechnungsnachweis &#x200B;](#include-fixed-revenues-in-a-billing-record).
+   * **Fakturierbare Einnahmen**: Der Gesamtbetrag der Festeinnahmen der Aufgaben, die im Rechnungsnachweis enthalten sind. Weitere Informationen finden Sie im folgenden Abschnitt dieses Artikels: [Festeinnahmen in einen Rechnungsnachweis ](#include-fixed-revenues-in-a-billing-record).
 
    * **Rechnungsnachweissumme**: Die Summe aller fakturierbaren Beträge. Dies wird nach folgender Formel berechnet:
 

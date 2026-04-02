@@ -5,21 +5,21 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: d45c34b1f48a7ffcae29556d34558bb4d1d8a016
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 2%
+source-wordcount: '738'
+ht-degree: 9%
 
 ---
 
 
-# Benutzern Zugriff gewähren
+# Gewähren von Zugriff auf Benutzende
 
 Als Adobe Workfront-Administrator können Sie eine Zugriffsebene verwenden, um den Zugriff eines Benutzers auf andere Benutzer in Workfront zu definieren, wie in [Übersicht über Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) beschrieben.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,7 +32,7 @@ Als Adobe Workfront-Administrator können Sie eine Zugriffsebene verwenden, um d
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-   <p>Plan</p></td> 
+   <p>Abo</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -41,31 +41,31 @@ Als Adobe Workfront-Administrator können Sie eine Zugriffsebene verwenden, um d
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Konfigurieren des Benutzerzugriffs
 
-Sie können mithilfe einer standardmäßigen Zugriffsebene oder einer benutzerdefinierten Zugriffsebene, die Sie erstellen, verwalten, welche Informationen Benutzerinnen und Benutzer anzeigen und für andere Benutzende bearbeiten können. Benutzer mit der standardmäßigen Plan- und Arbeitslizenz können die Kontaktinformationen anderer Benutzer anzeigen. Jeder der folgenden Benutzer kann andere Benutzer erstellen und bearbeiten:
+Sie können mithilfe einer standardmäßigen Zugriffsebene oder einer benutzerdefinierten Zugriffsebene, die Sie erstellen, verwalten, welche Informationen Benutzerinnen und Benutzer anzeigen und für andere Benutzende bearbeiten können. Benutzer mit den Standardlizenzen Standard, Plan und Arbeit können die Kontaktinformationen anderer Benutzer anzeigen. Jeder der folgenden Benutzer kann andere Benutzer erstellen und bearbeiten:
 
 * Einen Workfront-Administrator.
 
-  Weitere Informationen finden Sie unter [Gewähren des vollständigen Administratorzugriffs für einen Benutzer](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+  Weitere Informationen finden Sie unter [Gewähren des vollständigen Administratorzugriffs für Benutzende](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-* Ein Benutzer mit einer standardmäßigen Plan -Lizenz, der auch Zugriff auf Benutzer hat, wie in diesem Artikel erläutert.
+* Ein Benutzer mit einer Standard- oder Planlizenz, der auch Zugriff auf Benutzer hat, wie in diesem Artikel erläutert.
 
   Benutzer, die nur Benutzer aus ihrer Firma oder der primären Firma sehen dürfen, haben Zugriff darauf, nur die Benutzer zu bearbeiten, die sie sehen können. Weitere Informationen finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-* Ein Benutzer mit einer standardmäßigen Planlizenz, der auch als Manager eines anderen Benutzers angegeben ist.
+* Ein Benutzer mit einer standardmäßigen Standard- oder Planlizenz, der auch als Manager eines anderen Benutzers angegeben ist.
 
   Benutzende, denen Bearbeitungszugriff auf Benutzende in ihrer Zugriffsebene gewährt wurde, können Benutzende verwalten, die ihnen Bericht erstatten. Informationen zum Verwalten eines Benutzers finden Sie unter [Anzeigen des Organigramms](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
 
-* Ein Benutzer mit einer Standardplanlizenz, der einen Benutzer erstellt hat, kann den von ihm erstellten Benutzer deaktivieren, löschen oder bearbeiten. Informationen zum Erstellen neuer Benutzer finden Sie unter [Benutzer hinzufügen](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+* Ein Benutzer mit einer Standard- oder Plan-Lizenz, der einen Benutzer erstellt hat, kann den von ihm erstellten Benutzer deaktivieren, löschen oder bearbeiten. Informationen zum Erstellen neuer Benutzer finden Sie unter [Benutzer hinzufügen](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 ## Benutzerzugriff konfigurieren, um Benutzer mithilfe einer benutzerdefinierten Zugriffsebene zu bearbeiten
 
-1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. So ändern Sie die Möglichkeit von Benutzern mit einer Plan- oder Arbeitslizenz, die Profile anderer Benutzer anzuzeigen:
 
    1. Klicken Sie auf das Zahnradsymbol ![](assets/gear-icon-settings.png) der Schaltfläche **Anzeigen** rechts neben **Benutzer**.
@@ -81,7 +81,7 @@ Sie können mithilfe einer standardmäßigen Zugriffsebene oder einer benutzerde
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Erstellen</strong> </td> 
+      <td role="rowheader"><strong>Create</strong> </td> 
       <td> <p>Ermöglicht Benutzern das Erstellen von Benutzern.<br>Diese Option ist standardmäßig aktiviert.</p> 
      <p><b>HINWEIS</b>: Dies ist nicht verfügbar, wenn Ihre Organisation in die Adobe Admin Console integriert wurde. Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.</p>
         </td>  

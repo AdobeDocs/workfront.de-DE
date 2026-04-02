@@ -7,14 +7,18 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 21c98e443a6d6ca79045e2f4aba5f792340833cd
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '3928'
-ht-degree: 4%
+source-wordcount: '4076'
+ht-degree: 5%
 
 ---
 
-# Aufgaben bearbeiten
+# Bearbeiten von Aufgaben
+
+{{highlighted-preview}}
 
 <!--Audited: 10/2025-->
 
@@ -28,13 +32,16 @@ ht-degree: 4%
 </div>
 -->
 
-<!--<div class="preview"> 
+<!--
+<div class="preview"> 
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
 
 For more information, see [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md).
 
-</div> -->
+</div>
+-->
+
 
 Sie können Informationen zu Aufgaben bearbeiten, die Sie erstellt haben oder für die Sie über die Berechtigung Beitragen oder Verwalten verfügen.
 
@@ -48,7 +55,8 @@ Sie können Informationen zu Aufgaben bearbeiten, die Sie erstellt haben oder f�
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Paket</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td>  <p>So verwenden Sie die stündlichen Umsatz- und Kostentypen für Benutzer und Funktionen und fügen ein Überstundenverhältnis hinzu: Workflow-Ultimate</p>
+      <p>So bearbeiten Sie alle anderen Einstellungen und verwenden alle anderen Umsatz- und Kostentypen: Beliebiges Workfront- oder Workflow-Paket</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -82,7 +90,8 @@ Sie können Informationen zu Aufgaben bearbeiten, die Sie erstellt haben oder f�
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -118,7 +127,8 @@ Sie können Informationen zu Aufgaben bearbeiten, die Sie erstellt haben oder f�
     </ul> </td> 
   </tr> 
  </tbody> 
-</table>-->
+</table>
+-->
 
 ## Einschränkungen bei der Aufgabenbearbeitung
 
@@ -126,7 +136,7 @@ Es gibt einige Einschränkungen, die Sie möglicherweise daran hindern, Aufgaben
 
 Beachten Sie beim Bearbeiten von Aufgaben Folgendes:
 
-* Trigger Aufgabenstatusbenachrichtigungen für Projekte mit dem Status „Aktuell“ werden aktualisiert. Um Verwirrung bei den Benutzern zu vermeiden, die den Aufgaben zugewiesen sind, sollten Sie die Bearbeitung von Aufgaben so weit wie möglich einschränken, wenn das Projekt den Status „Aktuell“ aufweist.
+* Aufgabenstatusbenachrichtigungen für Projekte mit dem Status „Aktuell“ werden aktualisiert. Um Verwirrung bei den Benutzern zu vermeiden, die den Aufgaben zugewiesen sind, sollten Sie die Bearbeitung von Aufgaben so weit wie möglich einschränken, wenn das Projekt den Status „Aktuell“ aufweist.
 * Aufgaben, die sich in einem Genehmigungsprozess befinden, können nicht bearbeitet werden. Sie können nur die Zeit protokollieren oder den Status für eine Aufgabe in einem Genehmigungsprozess aktualisieren.
 
   ![Aufgabe mit Genehmigungsprozess bearbeiten](assets/edit-task-in-approval-process-nwe-350x148.png)
@@ -185,11 +195,11 @@ Sie können eine Aufgabe über die Bereiche Aufgabe bearbeiten oder Aufgabendeta
    Gehen Sie wie folgt vor, um Informationen im Abschnitt Details zu bearbeiten:
 
    1. (Optional) Klicken Sie auf das Symbol **Alle reduzieren** ![Symbol Alle reduzieren](assets/collapse-all-icon.png) in der oberen rechten Ecke, um alle Bereiche zu reduzieren.
-   1. (Optional und bedingt) Wenn ein Bereich reduziert ist, klicken Sie auf den **Nach rechts zeigenden** Nach ![&#x200B; rechts zeigenden Pfeil](assets/right-pointing-arrow.png) neben jedem Bereich, um den Bereich zu erweitern, den Sie bearbeiten möchten.
+   1. (Optional und bedingt) Wenn ein Bereich reduziert ist, klicken Sie auf den **Nach rechts zeigenden** Nach ![ rechts zeigenden Pfeil](assets/right-pointing-arrow.png) neben jedem Bereich, um den Bereich zu erweitern, den Sie bearbeiten möchten.
    1. Weitere Informationen zum Bearbeiten von Informationen auf der Registerkarte „Aufgabendetails“ finden Sie in den folgenden Artikeln:
 
       * [Verwalten von Aufgabeninformationen im Bereich Aufgabendetails - Übersicht](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
-      * [Verwalten der Aufgabenfinanzen im Abschnitt Aufgabendetails](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
+      * [Verwalten der Aufgabenfinanzen im Abschnitt „Aufgabendetails“](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 
    1. (Optional) Wenn keine benutzerdefinierten Formulare an die Aufgabe angehängt sind, geben Sie den Namen eines Formulars in das Feld **Benutzerdefiniertes Formular hinzufügen** ein, wählen Sie es aus, wenn es in der Liste angezeigt wird, und klicken Sie dann auf **Änderungen speichern**.
    1. (Optional) Klicken Sie auf **Export**-Symbol ![Export-Symbol](assets/export.png), um die Übersichts- und benutzerdefinierten Formularinformationen in eine PDF-Datei zu exportieren, und klicken Sie dann auf **Exportieren**. Wählen Sie aus den folgenden Optionen aus:
@@ -206,7 +216,7 @@ Sie können eine Aufgabe über die Bereiche Aufgabe bearbeiten oder Aufgabendeta
 
 1. (Bedingt) Um alle Informationen zu der Aufgabe zu bearbeiten, klicken Benutzende mit der Berechtigung zum Verwalten der Aufgabe auf das Menü **Mehr** ![Mehr](assets/more-icon.png) neben dem Namen der Aufgabe und anschließend auf **Bearbeiten**.
 
-   ODER
+   Oder
 
    Wählen Sie aus einer Aufgabenliste eine Aufgabe aus und klicken Sie dann oben in der Liste auf **Bearbeiten** Symbol ![Bearbeiten](assets/edit-icon.png).
 
@@ -421,7 +431,7 @@ Sie können eine Aufgabe über die Bereiche Aufgabe bearbeiten oder Aufgabendeta
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Dauer pro Termin</td> 
-      <td> <p>Wird nur für das übergeordnete Element der wiederkehrenden Aufgaben angezeigt. Sie zeigt die Dauer jeder wiederkehrenden Aufgabe an, wie sie bei der Erstellung der Aufgabe definiert wurde. Informationen zum Erstellen wiederkehrender Aufgaben finden Sie unter <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Wiederkehrende Aufgaben erstellen</a>. </p> <p> <b>HINWEIS</b>
+      <td> <p>Wird nur für das übergeordnete Element der wiederkehrenden Aufgaben angezeigt. Sie zeigt die Dauer jeder wiederkehrenden Aufgabe an, wie sie bei der Erstellung der Aufgabe definiert wurde. Informationen zum Erstellen wiederkehrender Aufgaben finden Sie unter <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Erstellen wiederkehrender Aufgaben</a>. </p> <p> <b>HINWEIS</b>
 
    In einzelnen wiederkehrenden Aufgaben geänderte Dauer zeigt nicht den in diesem Feld angegebenen Wert an. </p> </td>
    </tr> 
@@ -505,7 +515,7 @@ Sie können eine Aufgabe über die Bereiche Aufgabe bearbeiten oder Aufgabendeta
       <td> <p>Anzahl der geplanten Stunden für die Aufgabe angeben (in Stunden) Dies ist die tatsächliche Zeit, die die Verantwortlichen für die Aufgabe benötigen würden, um diese abzuschließen. Sie können die Anzahl der geplanten Stunden für eine Aufgabe nur angeben, wenn als Dauertyp Berechnete Zuweisung festgelegt ist. Weitere Informationen zu Dauertypen finden Sie unter <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Übersicht über Aufgabendauer und Dauertyp</a>.</p> 
       <b>HINWEIS</b>
       <p>
-      Beim Erstellen wiederkehrender Aufgaben sind die geplanten Stunden die Stunden für jedes Vorkommen. Die geplanten Stunden der übergeordneten Aufgaben sind die Summe aller geplanten Stunden aus allen Vorfällen. Informationen zum Erstellen wiederkehrender Aufgaben finden Sie unter <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Wiederkehrende Aufgaben erstellen</a>.
+      Beim Erstellen wiederkehrender Aufgaben sind die geplanten Stunden die Stunden für jedes Vorkommen. Die geplanten Stunden der übergeordneten Aufgaben sind die Summe aller geplanten Stunden aus allen Vorfällen. Informationen zum Erstellen wiederkehrender Aufgaben finden Sie unter <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Erstellen wiederkehrender Aufgaben</a>.
       </p>
 
    </td> 
@@ -553,7 +563,7 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
 
 ### Finanzielle Details {#finance}
 
-1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [&#x200B; Abschnitt &#x200B;](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
+1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [ Abschnitt ](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
 1. Klicken Sie **linken** auf „Finanzen“.
 
    ![Feld für die Aufgabenbearbeitung im Finanzbereich](assets/nwe-finance-section-edit-task-box-350x298.png)
@@ -572,6 +582,7 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
         <li> <p>Festgelegt pro Stunde </p> </li> 
         <li> <p> Benutzer pro Stunde </p> </li> 
         <li> <p> Stundensatz nach Funktion</p> </li> 
+        <li> <p> <span class="preview">Benutzer und Funktion stündlich</span></p> </li> 
        </ul> <p>Weitere Informationen zur Kostennachverfolgung finden Sie unter <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Kosten nachverfolgen</a> . Ihr Workfront-Administrator oder ein Gruppenadministrator wählt die Standardkostenart für die Aufgaben in Ihrem System oder Ihrer Gruppe aus. Informationen zum Festlegen von Projektstandards finden Sie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurieren von systemweiten Projektvoreinstellungen</a> .</p> </td> 
      </tr> 
      <tr> 
@@ -581,14 +592,26 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
       <li> <p> Nicht fakturierbar </p> </li> 
       <li> <p>Benutzer pro Stunde </p> </li> 
       <li> <p>Stundensatz nach Funktion </p> </li> 
+      <li> <p> <span class="preview">Benutzer und Funktion stündlich</span></p> </li> 
       <li> <p>Festgelegt pro Stunde </p> </li> 
       <li> <p>Benutzende pro Stunde mit Begrenzung </p> </li> 
       <li> <p>Stundensatz nach Funktion mit Begrenzung </p> </li> 
+      <li> <p> <span class="preview">Benutzer und Funktion stündlich mit Obergrenze</span></p> </li> 
       <li> <p>Benutzer pro Stunde plus festgelegt </p> </li> 
       <li> <p>Stundensatz nach Funktion plus fest </p> </li> 
+      <li> <p> <span class="preview">Benutzer und Funktion pro Stunde plus fest</span></p> </li> 
       <li> <p>Festeinnahmen </p> </li> 
-       </ul> <p>Weitere Informationen zur Umsatzverfolgung finden Sie unter <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Übersicht über Abrechnung und Umsatz</a> . </p> <p>Ihr Workfront-Administrator oder Gruppenadministrator wählt die Standardeinstellung für den Umsatztyp für die Aufgaben in Ihrem System oder Ihrer Gruppe aus. Informationen zum Festlegen von Projektstandards finden Sie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurieren von systemweiten Projektvoreinstellungen</a>.</p> </td> 
+       </ul> <p>Weitere Informationen zur Umsatzverfolgung finden Sie unter <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Übersicht über Abrechnung und Umsatz</a> und <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Übersicht über Umsatz- und </a>). </p> <p>Ihr Workfront-Administrator oder Gruppenadministrator wählt die Standardeinstellung für den Umsatztyp für die Aufgaben in Ihrem System oder Ihrer Gruppe aus. Informationen zum Festlegen von Projektstandards finden Sie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurieren von systemweiten Projektvoreinstellungen</a>.</p> </td> 
      </tr> 
+     <tr>
+      <td><span class="preview">Überstundenverhältnis</span></td> 
+      <td><span class="preview"><p>Geben Sie den Überstundenmultiplikator für die Aufgabe ein, z. B. 1.5 oder 2.0. Der Standardwert ist 1,0 (kein Multiplikator). Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">Definieren eines Überstundenverhältnisses</a>.</p><p>So zeigen Sie das Feld Überstundenverhältnis an:</p>
+       <ul>
+       <li>Der Umsatztyp für die Aufgabe muss „Stündlich Benutzer und Funktion“ lauten. Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Übersicht über Umsatz und Kostenhierarchie</a>.</li>
+       <li>Das Feld muss in Ihrer Layoutvorlage für den Bereich Finanzen in der Ansicht „Aufgabendetails“ aktiviert sein. Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md">Anpassen der Detailansicht mithilfe einer Layout-Vorlage</a>.</li>
+       </ul>
+      </span></td>
+     </tr>
     </tbody> 
    </table>
 
@@ -596,7 +619,7 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
 
 ### Einstellungen {#settings}
 
-1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [&#x200B; Abschnitt &#x200B;](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
+1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [ Abschnitt ](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
 1. Klicken Sie **linken** auf „Einstellungen“.
 
    ![Einstellungen im Feld Aufgabe bearbeiten](assets/nwe-settings-section-edit-task-box-350x304.png)
@@ -662,7 +685,7 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
 
 ### Kommentar
 
-1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [&#x200B; Abschnitt &#x200B;](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
+1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [ Abschnitt ](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
 1. Klicken Sie **linken** auf „Kommentar“.
 
    ![Kommentarabschnitt zum Feld „Aufgabe bearbeiten“](assets/comment-section-on-edit-task-box.png)
@@ -710,7 +733,8 @@ Sie können Aufgaben in einer Liste stapelweise bearbeiten und alle zugehörigen
 
 Informationen zum Massenspeichern von Aufgaben finden Sie im Abschnitt „Aufgaben stapelweise bearbeiten“ im Artikel [Aufgaben in einer Liste bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
-<!--Temporary content while changing Assignments area: 
+<!--
+Temporary content while changing Assignments area: 
 
 Editing assignments is different in the Edit Task box depending on which environment you choose.
 
@@ -848,7 +872,8 @@ Editing assignments is different in the Edit Task box depending on which environ
          </table>
       
    
-      <!--<tr> 
+      <!--
+      <tr> 
       <td role="rowheader">Allocation</td> 
       <td> <p>If your Task Constraint is Calculated Work or Effort Driven, specify the <strong>Allocation %</strong> (allocation percentage) for each assignee. This is the amount of time from the schedule of the assignee that they can spend on this task. Changing the allocation percentage for an assignee will change the Planned Hours of a task. </p> <p>When the Task Constraint is Simple, you can specify the following:</p> 
          <ul> 
@@ -1019,4 +1044,5 @@ Editing assignments is different in the Edit Task box depending on which environ
 
 <div class="preview">
 
-#### Edit the Assignments area in the Preview environment-->
+#### Edit the Assignments area in the Preview environment
+-->

@@ -8,14 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: e5ac8fde409b960aacd3cf7daa0532e9bc3e8121
 workflow-type: tm+mt
-source-wordcount: '3403'
-ht-degree: 0%
+source-wordcount: '3478'
+ht-degree: 3%
 
 ---
 
-# Benutzerprofil bearbeiten
+# Bearbeiten eines Benutzerprofils
 
 {{highlighted-preview}}
 
@@ -25,7 +25,7 @@ ht-degree: 0%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/de/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -36,7 +36,7 @@ Informationen dazu, wie Benutzer ihre eigenen Profile aktualisieren, finden Sie 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,11 +44,12 @@ Informationen dazu, wie Benutzer ihre eigenen Profile aktualisieren, finden Sie 
  <tbody> 
   <tr> 
    <td>Adobe Workfront-Paket</td> 
-   <td><p>Beliebig</p></td> 
+   <td><p>Benutzerprofil bearbeiten: Beliebiges Workfront- oder Workflow-Paket</p>
+       <p>So legen Sie Tarifattribute fest und überschreiben den Kostensatz: Workflow Ultimate</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
-   <td><p>Standard</p><p>Plan</p></td> 
+   <td><p>Standard</p><p>Abo</p></td> 
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -61,7 +62,7 @@ Informationen dazu, wie Benutzer ihre eigenen Profile aktualisieren, finden Sie 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -88,7 +89,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
   Wählen Sie die Einstellung **Ich bin kein Roboter** aus, bevor Sie fortfahren können.
 
-  Wenn Sie die E-Mail-Zulassungsliste verwenden und eine E-Mail-Domain eingeben, die nicht auf der Liste steht, erhält der/die Benutzende keine E-Mail-Benachrichtigungen. Weitere Informationen über die Zulassungsliste auf die Zulassungsliste setzte finden Sie unter [Konfigurieren Ihrer E-Mail](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+  Wenn Sie die E-Mail-Zulassungsliste verwenden und eine E-Mail-Domain eingeben, die nicht auf der Liste steht, erhält der/die Benutzende keine E-Mail-Benachrichtigungen. Weitere Informationen über die Zulassungsliste finden Sie unter [Konfigurieren Ihrer E-Mail](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
 
   Wenn Ihre Organisation in die Adobe Admin Console migriert wurde, können Sie die E-Mail-Adresse von Benutzenden in Workfront nicht bearbeiten. Die E-Mail-Adresse des Benutzers ist in der Adobe Admin Console festgelegt.
 
@@ -104,8 +105,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
   Das Kennwort eines Workfront-Administrators kann nicht zurückgesetzt werden.
 
-* **&lt;SSO-Konfiguration> Benutzername**: Wenn Ihr Workfront-Administrator eine SSO-Integration mit Workfront aktiviert hat, wird der SSO-Benutzername in diesem Feld angezeigt. Der Typ der für Ihre Workfront-Instanz aktivierten SSO-Konfiguration wird in diesem Feld angezeigt.
-* **Nur &lt;SSO-Konfiguration> Authentifizierung zulassen**: Wenn der Workfront-Administrator eine SSO-Integration mit Workfront aktiviert hat und alle Benutzer für SSO aktualisiert hat, ist dieses Feld standardmäßig ausgewählt. Der Typ der für Ihre Workfront-Instanz aktivierten SSO-Konfiguration wird in diesem Feld angezeigt.
+* **&lt;SSO Configuration> Username**: Wenn Ihr Workfront-Administrator eine SSO-Integration mit Workfront aktiviert hat, wird der SSO-Benutzername in diesem Feld angezeigt. Der Typ der für Ihre Workfront-Instanz aktivierten SSO-Konfiguration wird in diesem Feld angezeigt.
+* **OnlyAllow &lt;SSO Configuration> Authentication**: Wenn der Workfront-Administrator eine SSO-Integration mit Workfront aktiviert und alle Anwender für SSO aktualisiert hat, ist dieses Feld standardmäßig aktiviert. Der Typ der für Ihre Workfront-Instanz aktivierten SSO-Konfiguration wird in diesem Feld angezeigt.
 
   Wenn dieses Feld ausgewählt ist, muss sich der Benutzer mit seinen SSO-Anmeldeinformationen bei Workfront anmelden. Wenn Sie diese Option deaktivieren, können sich Benutzer mit ihren Workfront-Anmeldeinformationen bei Workfront anmelden.
 
@@ -219,24 +220,24 @@ Weitere Informationen finden Sie unter [Konfigurieren von Ereignisbenachrichtigu
 
 ### Ressourcenplanung
 
-* **Arbeitszeit**: Gibt den Prozentsatz der Vollzeitäquivalenzzeit (VZÄ) an, die der Benutzer für die tatsächliche Arbeit zur Verfügung hat, ohne Gemeinkosten. Arbeitszeit muss eine Dezimalzahl bis 1 sein und darf nicht 0 sein. So würde beispielsweise eine Verfügbarkeit von 20 % für die tatsächliche Arbeit 0,2 betragen.
+* **Arbeitszeit**: Gibt den Prozentsatz der Vollzeitäquivalenzzeit (VZÄ) an, die der Benutzer für die tatsächliche Arbeit zur Verfügung hat, ohne Gemeinkosten. Arbeitszeit muss eine Dezimalzahl bis 1 sein und darf nicht 0 sein. So würde beispielsweise eine Verfügbarkeit von 20 % für die tatsächliche Arbeit 0,2 betragen.
 
   Der Standardwert des Feldes ist 1. Dies bedeutet, dass ein Benutzer sein gesamtes FTE für die tatsächliche, projektbezogene Arbeit verwendet.
 
-  Anhand dieser Zahl berechnet das System die Verfügbarkeit des Nutzers für die tatsächliche, projektbezogene Arbeit.
+  Anhand dieser Zahl berechnet das System die Verfügbarkeit der Person für die tatsächliche, projektbezogene Arbeit.
 
   Weitere Informationen zum Erstellen von Zeitplänen in Workfront finden Sie unter [Erstellen eines Zeitplans](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
   Zeitplanausnahmen und Ausfallzeiten können sich ebenfalls auf die Kapazität des Benutzers auswirken.
 
-  Workfront berechnet die Verfügbarkeit eines Benutzers abhängig von den Voreinstellungen für die Ressourcenverwaltung in Ihrem Setup-Bereich. Weitere Informationen finden Sie unter [Voreinstellungen für die Ressourcenverwaltung konfigurieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+  Workfront berechnet die Verfügbarkeit eines Benutzers abhängig von den Voreinstellungen für die Ressourcenverwaltung in Ihrem Setup-Bereich. Weitere Informationen finden Sie unter [Konfigurieren von Voreinstellungen für das Ressourcen-Management](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
   >[!TIP]
   >
   >Legen Sie den Wert für Arbeitszeit auf 1 fest, um anzugeben, dass der Benutzer für projektbezogene Arbeit bis zum gesamten Vollzeitäquivalent verfügbar ist.
 
 * **Deaktivierungsdatum festlegen** Klicken Sie auf diese Schaltfläche, um die Deaktivierung dieses Benutzers zu einem bestimmten Datum und zu einer bestimmten Uhrzeit zu planen.
-* **Deaktivierungsdatum**: Datum und Uhrzeit der Deaktivierung des Benutzers. Informationen zum Planen von Benutzern für die Deaktivierung finden Sie unter [Planen von Benutzern für die &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation)) in [Deaktivieren oder Reaktivieren von Benutzern](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+* **Deaktivierungsdatum**: Datum und Uhrzeit der Deaktivierung des Benutzers. Informationen zum Planen von Benutzern für die Deaktivierung finden Sie unter [Planen von Benutzern für die ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation)) in [Deaktivieren oder Reaktivieren von Benutzern](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 * **Primäre Rolle**: Dies ist das primäre Aufgabengebiet, das Benutzende in Workfront erfüllen können. Jede Aufgabe und jedes Problem, der bzw. dem der Benutzer zugewiesen ist, wird ebenfalls diesem Aufgabengebiet zugewiesen. Aufgabengebiete sind im Ressourcen-Management von entscheidender Bedeutung. Sie können dieses Feld nur aktualisieren, wenn Sie über eine Standard- oder Planlizenz mit administrativem Benutzerzugriff verfügen oder wenn Sie ein Workfront-Administrator sind. Weitere Informationen zum Einrichten von Benutzern mit administrativem Benutzerzugriff finden Sie unter [Gewähren des Zugriffs für Benutzer](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
   In der Liste werden nur aktive Aufgabengebiete angezeigt.
@@ -262,11 +263,13 @@ Weitere Informationen finden Sie unter [Konfigurieren von Ereignisbenachrichtigu
 
   Informationen zur Berechnung der Verfügbarkeit für den Benutzer finden Sie unter [Übersicht über die Berechnung von Stunden und VZÄ für Benutzer und Funktionen im Ressourcenplaner](/help/quicksilver/resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
 
-  Informationen zum Konfigurieren der Voreinstellungen für die Ressourcenverwaltung finden Sie [Konfigurieren der Voreinstellungen für die &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)).
+  Informationen zum Konfigurieren der Voreinstellungen für die Ressourcenverwaltung finden Sie [Konfigurieren der Voreinstellungen für die ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)).
 
-  <span class="preview">(Optional) Datumsbasierte Zuweisungen für Aufgabengebiete werden in Finanzberechnungen verwendet, wenn sich das Aufgabengebiet des/r Benutzenden während eines Projekts ändert.</span>
+<!--
+<span class="preview">(Optional) Date effective job role assignments are used in financial calculations if the user's job role changes during a project.</span>
 
-  <span class="preview">Klicken Sie auf **Rollen nach Datum definieren**, wählen Sie die **Primäre Funktion** und **Andere Funktionen** aus und geben Sie den Zuordnungsprozentsatz für jede Funktion ein. Die Rollen können mit den vorhandenen Rollen übereinstimmen (mit unterschiedlichen Prozentsätzen) oder neue Rollen sein. Wählen Sie das Startdatum aus, an dem diese Rollen aktiv werden. Dies kann ein Datum in der Zukunft sein. Wenn die neuesten Rollen aktiv werden, können Sie auf **Vorherige Rollen anzeigen** klicken, um die vorherigen, inaktiven Rollen anzuzeigen.</span>
+  <span class="preview">Click **Define roles by date**, select the **Primary Role** and **Other Roles**, and enter the allocation percentage for each role. The roles could be the same as the existing roles (using different percentages), or new roles. Select the Start date when these roles become active. This can be a future date. When the newest roles become active, you can click **Show previous roles** to see the previous, inactive roles.</span>
+-->
 
 * **Zeitplan**: Verknüpfen Sie einen Zeitplan mit dem Benutzer. Der Zeitplan des Benutzers berechnet die Zeitleiste der Aufgaben, denen der Benutzer zugewiesen ist.
 
@@ -278,7 +281,7 @@ Weitere Informationen finden Sie unter [Konfigurieren von Ereignisbenachrichtigu
 
   >[!IMPORTANT]
   >
-  >Workfront verwendet den Zeitplan eines Benutzers nur, wenn die Einstellung **Ressourcenverfügbarkeit berechnen mit** auf &quot;**des Benutzers“** ist. Weitere Informationen darüber, wie sich diese Einstellung auf den für die Ressourcenverwaltung verwendeten Zeitplan auswirkt, finden Sie [Konfigurieren der Voreinstellungen für die &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)&quot;.
+  >Workfront verwendet den Zeitplan eines Benutzers nur, wenn die Einstellung **Ressourcenverfügbarkeit berechnen mit** auf &quot;**des Benutzers“** ist. Weitere Informationen darüber, wie sich diese Einstellung auf den für die Ressourcenverwaltung verwendeten Zeitplan auswirkt, finden Sie [Konfigurieren der Voreinstellungen für die ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)&quot;.
 
 * **Arbeitszeittabellen-**: Verknüpfen Sie ein Arbeitszeittabellen-Profil mit dem Benutzer, um sicherzustellen, dass Arbeitszeittabellen automatisch für den Benutzer generiert werden.
 
@@ -305,7 +308,7 @@ Weitere Informationen finden Sie unter [Konfigurieren von Ereignisbenachrichtigu
 
   Wenn die Voreinstellungen für das Ressourcen-Management auf Systemebene auf den Zeitplan des Benutzers festgelegt sind, wird der hier angegebene Wert ignoriert und der Benutzer wird gemäß den Angaben in seinem Zeitplan als verfügbar betrachtet.
 
-  Weitere Informationen finden Sie unter [Voreinstellungen für die Ressourcenverwaltung konfigurieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+  Weitere Informationen finden Sie unter [Konfigurieren von Voreinstellungen für das Ressourcen-Management](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
   Weitere Informationen zum Erstellen von Zeitplänen in Workfront finden Sie unter [Erstellen eines Zeitplans](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
@@ -315,6 +318,8 @@ Weitere Informationen finden Sie unter [Konfigurieren von Ereignisbenachrichtigu
   Klicken Sie für gültige Datumssätze auf &quot;**hinzufügen**. Geben Sie den Wert des Kostensatzes für den Zeitraum ein und weisen Sie gegebenenfalls ein Start- und Enddatum zu. Kostensatz 1 hat kein Startdatum und der letzte Kostensatz hat kein Enddatum.
 
   Einige Daten werden automatisch hinzugefügt. Wenn beispielsweise Kostensatz 1 kein Enddatum hat und Sie Kostensatz 2 mit dem Startdatum 1. Mai 2023 hinzufügen, wird dem Kostensatz 1 das Enddatum 30. April 2023 hinzugefügt, sodass keine Lücken entstehen.
+
+* <span class="preview">**Überschreiben des Kostensatzes zulässig**: Aktivieren Sie diese Option, um für diesen Benutzer Überschreibungen des Kostensatzes für Projekte zuzulassen. Weitere Informationen finden Sie unter [Überschreiben von Benutzerkostensätzen auf Projektebene](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md).</span>
 
 * **Abrechnungssatz**: Der Abrechnungsbetrag pro Stunde für den Benutzer.
 
@@ -333,6 +338,28 @@ Verknüpfen Sie ein benutzerdefiniertes Formular eines vorhandenen Benutzers mit
 >Erweiterte benutzerdefinierte Formularfunktionen wie externe Suchfelder und native Workfront-Felder sind nur verfügbar, wenn Sie den Benutzerdatensatz auf der Detailseite öffnen, nicht im Dialogfeld „Benutzer bearbeiten“. (Klicken Sie in der Benutzerliste auf den Benutzernamen, um die Details zu öffnen.)
 
 Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+<div class="preview">
+
+### Attribute
+
+Tarifattribute werden in Bereichen von Workfront unterstützt, in denen es Tarife gibt, z. B. Aufgabengebiete und Anwender. Wenn Attribute auf das Profil eines Benutzers angewendet werden, wird seine Zuweisung automatisch auf die richtigen Raten aufgelöst.
+
+1. Klicken Sie **Neues Set hinzufügen**.
+1. Auswählen der Attributwerte.
+
+   Ihr Workfront-Administrator legt die verfügbaren Attribute fest. Dazu können Agentur, Standort, Kostenstelle, Kunde oder andere für Ihr Unternehmen erforderliche Attribute gehören.
+
+1. (Optional) So fügen Sie einen weiteren Satz von Attributen mit einem Datum für die Gültigkeit hinzu:
+
+   1. Klicken Sie **Neues Set hinzufügen**.
+   1. Wählen Sie ein **Enddatum** für den aktuellen Attributsatz aus.
+
+      Das **Startdatum** für den nächsten Satz wird automatisch hinzugefügt.
+
+   1. Fügen Sie die Attributwerte für den nächsten Attributsatz hinzu. Diese Werte werden am Startdatum wirksam.
+
+</div>
 
 ### Kommentar
 

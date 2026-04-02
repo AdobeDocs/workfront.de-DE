@@ -7,20 +7,24 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 233051de458917fd3b40a675914552ccd7d2f474
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '7726'
-ht-degree: 1%
+source-wordcount: '7855'
+ht-degree: 2%
 
 ---
 
-# Projekte bearbeiten
+# Bearbeiten von Projekten
 
 <!--Audited: 07/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -48,12 +52,13 @@ Idealerweise sollten Sie ein Projekt bearbeiten, wenn sich das Projekt im Status
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Paket</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>So legen Sie Wechselkurse auf Systemebene für das Projekt fest und behalten die Projekt-Abrechnungssätze bei: Workflow Ultimate</p>
+      <p>So bearbeiten Sie alle anderen Einstellungen: Beliebiges Workfront- oder Workflow-Paket</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p> 
-   <p>Plan</p> </td> 
+   <p>Abo</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -72,7 +77,8 @@ Idealerweise sollten Sie ein Projekt bearbeiten, wenn sich das Projekt im Status
 
 +++
 
-<!--Old:
+<!--
+Old:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -101,7 +107,8 @@ Idealerweise sollten Sie ein Projekt bearbeiten, wenn sich das Projekt im Status
  </tbody> 
 </table>
 
-*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+-->
 
 ## Einschränkungen beim Bearbeiten von Projekten
 
@@ -153,7 +160,7 @@ Informationen zum Erstellen eines Projekts über eine Vorlage finden Sie unter [
    1. Weitere Informationen zum Bearbeiten von Informationen auf der Registerkarte Projektdetails finden Sie in den folgenden Artikeln:
 
       * [Verwalten von Informationen im Projektübersichtsbereich](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
-      * [Verwalten von Informationen im Projektfinanzierungsbereich](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
+      * [Verwalten von Informationen im Bereich für Projektfinanzen](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
 
    1. (Optional) Um ein benutzerdefiniertes Formular anzuhängen, geben Sie zunächst den Namen eines Formulars in das Feld **Benutzerdefiniertes Formular hinzufügen** ein, wählen Sie es aus, wenn es in der Liste angezeigt wird, und klicken Sie dann auf **Änderungen speichern**.
    1. (Optional) Klicken Sie auf **Export**-Symbol ![Export-Symbol](assets/export.png), um die Übersichts- und benutzerdefinierten Formularinformationen in eine PDF-Datei zu exportieren, und klicken Sie dann auf **Exportieren**. Wählen Sie aus den folgenden Optionen aus:
@@ -361,7 +368,7 @@ Wenn Sie mehr als ein Projekt auswählen, um sie stapelweise zu bearbeiten, gibt
 Informationen zum Zugriff auf benutzerdefinierte Formulare finden Sie in den folgenden Artikeln:
 
 * [Freigeben eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
-* [Organisieren und Vorschau eines Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
+* [Organisieren eines Formulars und Anzeige in der Vorschau](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
 
 So bearbeiten Sie beim Bearbeiten eines Projekts Informationen zu benutzerdefinierten Formularen:
 
@@ -399,11 +406,12 @@ Wenn Sie mehr als ein Projekt auswählen, um sie stapelweise zu bearbeiten, gibt
 
 So bearbeiten Sie Felder im Bereich Finanzen:
 
-
 1. Beginnen Sie mit der Bearbeitung Ihres Projekts wie oben beschrieben.
 1. Klicken Sie **linken** auf „Finanzen“.
 
    ![Finanzbereich im Projektbearbeitungsfeld](assets/nwe-finance-in-edit-project-box-350x183.png)
+
+   <!--![Finance area in the project edit box](assets/edit-project-finance-section.png)-->
 
 1. Aktualisieren Sie die folgenden Finanzinformationen für das Projekt:
 
@@ -411,9 +419,17 @@ So bearbeiten Sie Felder im Bereich Finanzen:
     <col> 
     <col> 
     <tbody> 
+     <tr>
+      <td><strong><span class="preview">Verwenden von datumswirksamen Wechselkursen aus dem System</span></strong></td>
+      <td><p><span class="preview">Wenn diese Option ausgewählt ist, werden immer die datumswirksamen Wechselkurse auf Systemebene verwendet, und es sind keine Wechselkursüberschreibungen im Projekt zulässig.</span></p> <p><span class="preview">Sie müssen auch das <strong>Wechselkursdatum</strong> auswählen, um mit der Auswahl der Option zu beginnen.</span></p></td> 
+     </tr>
+     <tr>
+      <td><strong><span class="preview">Informationen zu Projektabrechnungssätzen beibehalten</span></strong></td>
+      <td><p><span class="preview">Wenn Sie diese Option aktivieren, werden alle Zuweisungs-Abrechnungssätze dauerhaft auf den höchsten anwendbaren Satz aus der Abrechnungshierarchie eingefroren. Dies ist eine einmalige Auswahl, und Sie können die Option nicht deaktivieren, sobald das Projekt Arbeitsaufträge oder Stunden hat. Nach der Beibehaltung können Abrechnungssätze für Zuweisungen an keiner Stelle im Projekt geändert, bearbeitet oder überschrieben werden.</span></p></td>
+     </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Währung</strong> </td> 
-      <td> <p> <p>Geben Sie die Währung für das Projekt an, wenn sie sich von der Standardwährung Ihres Systems unterscheidet. Sie können die Währung eines Projekts nicht ändern, wenn bereits Finanzinformationen zu dem Projekt vorhanden sind. Dieses Feld ist nicht sichtbar, wenn Sie nur die Standardwährung im System haben. </p> <p>Weitere Informationen zur Währung finden Sie unter <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Einrichten von Wechselkursen</a>.<br></p> </p> </td> 
+      <td> <p>Geben Sie die Währung für das Projekt an, wenn sie sich von der Standardwährung Ihres Systems unterscheidet. Sie können die Währung eines Projekts nicht ändern, wenn bereits Finanzinformationen zu dem Projekt vorhanden sind. Dieses Feld ist nicht sichtbar, wenn Sie nur die Standardwährung im System haben. </p> <p>Weitere Informationen zur Währung finden Sie unter <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Einrichten von Wechselkursen</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Budget</strong> </td> 
@@ -850,7 +866,8 @@ Weitere Informationen zum Bearbeiten des Zugriffsbereichs finden Sie im Abschnit
 1. Klicken Sie auf **Speichern**.
 
 
-<!-- Old information for how to bulk edit in classic/ before project bulk edit redesign: 
+<!--
+ Old information for how to bulk edit in classic/ before project bulk edit redesign: 
 
 ### Edit projects in bulk in the Production environment
 

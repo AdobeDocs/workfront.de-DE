@@ -6,24 +6,26 @@ description: Als Projekt-Manager können Sie den Abrechnungssatz für ein Aufgab
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: 1992e1c07e5e530a2e627ef5d2059b2384b31000
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 0%
+source-wordcount: '856'
+ht-degree: 6%
 
 ---
 
-# Aufgabengebiet-Abrechnungssätze auf Projektebene überschreiben
+# Überschreiben von Abrechnungssätzen für Aufgabengebiete auf Projektebene
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
+{{highlighted-preview}}
 
 Als Projekt-Manager können Sie den Abrechnungssatz für ein Aufgabengebiet in einem bestimmten Projekt angeben. Dieser Abrechnungssatz auf Projektebene überschreibt den Abrechnungssatz auf Systemebene für dieses Aufgabengebiet. Workfront verwendet zur Berechnung des Umsatzes den Abrechnungssatz auf Projektebene des Aufgabengebiets, anstatt den Abrechnungssatz auf Systemebene zu verwenden.
 
 In diesem Artikel wird beschrieben, wie Sie die Abrechnungssätze für Systemaufgaben für ein Projekt überschreiben können.
 
-Allgemeine Informationen zum Überschreiben von Abrechnungssätzen für Aufgabengebiete für Projekte und zur Berechnung des Projektumsatzes finden Sie unter [Übersicht über das Überschreiben von Abrechnungssätzen für Aufgabengebiete und die Berechnung des Umsatzes für ein Projekt](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Allgemeine Informationen zum Überschreiben der Verrechnungssätze für Aufgabengebiete für Projekte und zur Berechnung des Projektumsatzes finden Sie unter [Übersicht über das Überschreiben von Verrechnungssätzen und die Berechnung des Umsatzes für ein Projekt](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
-Weitere Informationen dazu, welches Aufgabengebiet zur Berechnung des Umsatzes für das Projekt verwendet wird, finden Sie im Abschnitt „Grundlagen zu Umsatzberechnungen für Aufgaben basierend auf Benutzer- und Rollenzuweisungen“ im Artikel [Übersicht über Abrechnung und Umsatz](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Weitere Informationen dazu, welches Aufgabengebiet zur Berechnung des Umsatzes für das Projekt verwendet wird, finden Sie [ Abschnitt „Übersicht über Umsatz- und ](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)&quot; und [Umsatzberechnungen für Aufgaben basierend auf Benutzer- und ](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments)&quot; im Artikel [Übersicht über Abrechnung und Umsatz](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 >[!NOTE]
 >
@@ -31,7 +33,7 @@ Weitere Informationen dazu, welches Aufgabengebiet zur Berechnung des Umsatzes f
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,13 +41,14 @@ Weitere Informationen dazu, welches Aufgabengebiet zur Berechnung des Umsatzes f
  <tbody> 
   <tr> 
    <td>Adobe Workfront-Paket</td> 
-   <td>Beliebig</td> 
+   <td> <p>So überschreiben Sie einen Abrechnungssatz für ein Aufgabengebiet für ein Projekt: Beliebiges Workfront- oder Workflow-Paket</p>
+        <p>So wenden Sie Attribute auf das Aufgabengebiet an: Workflow-Ultimate</p> </td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td>
    <p>Standard</p>
-   <p>Plan</p></td> 
+   <p>Abo</p></td> 
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -58,64 +61,70 @@ Weitere Informationen dazu, welches Aufgabengebiet zur Berechnung des Umsatzes f
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
-## Aufgabengebiet-Abrechnungssätze auf Projektebene überschreiben
+## Überschreiben von Abrechnungssätzen für Aufgabengebiete auf Projektebene
 
-Sie können den Abrechnungssatz eines Aufgabengebiets für ein Projekt wie folgt überschreiben:
+Wenn Sie den Abrechnungssatz eines Vorgangs für ein Projekt überschreiben, können Sie ein Gültigkeitsdatum zuweisen, und jeder Datumsbereich hat einen anderen Satz. Wenn Sie keine Gültigkeitsdaten zuordnen, wird die von Ihnen eingegebene Abrechnungssatzüberschreibungen für die gesamte Projektdauer zur Berechnung des Umsatzes verwendet.
 
-* Einmal durch Auswahl eines neuen Tarifs für das Aufgabengebiet.\
-  Der neue Satz wird für die gesamte Laufzeit des Projekts zur Berechnung des Umsatzes verwendet.
-
-* Mehrere Male, indem Sie mehrere neue Kurse für bestimmte Datumsbereiche auswählen.\
-  Für jeden angegebenen Datumsbereich kann ein anderer Satz verwendet werden.
-
-* Sie können einer Projektvorlage neue Abrechnungssätze hinzufügen, die beim Erstellen des Projekts aus dieser Vorlage zu Projekt-Abrechnungssätzen werden. Informationen zum Bearbeiten von Vorlagen finden Sie unter [Projektvorlagen bearbeiten](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
+Sie können einer Projektvorlage neue Abrechnungssätze hinzufügen, die beim Erstellen des Projekts aus dieser Vorlage zu Projekt-Abrechnungssätzen werden. Informationen zum Bearbeiten von Vorlagen finden Sie unter [Projektvorlagen bearbeiten](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 >[!TIP]
 >
->Benutzer-Abrechnungssätze für ein Projekt können nicht überschrieben werden.
+>Sie können Benutzerabrechnungssätze für ein Projekt nur überschreiben, wenn Sie über das Workflow-Ultimate-Paket verfügen.
 
 So überschreiben Sie einen Abrechnungssatz für ein Projekt:
 
 1. Wechseln Sie zu dem Projekt, für das Sie die Abrechnungssätze überschreiben möchten.
 1. Klicken **im linken** auf „Abrechnungssätze“.
+
+   Oder
+
+   <span class="preview">Klicken Sie im linken **auf** Tarife“ und klicken Sie auf die Registerkarte **Abrechnung**, falls diese nicht bereits ausgewählt ist.</span>
+
 1. Klicken Sie **Abrechnungssatz hinzufügen** > **Neuer Abrechnungssatz**.
+
+   Oder
+
+   <span class="preview">Klicken Sie **Abrechnungssatz hinzufügen > Abrechnungssatz für neues Aufgabengebiet hinzufügen**.</span>
 
    Das Feld „Neuer Abrechnungssatz“ wird geöffnet.
 
 1. Wählen **im Feld** das Aufgabengebiet aus, für das Sie den Abrechnungssatz ändern möchten.
 
-   Das Feld **Standard-Abrechnungssatz** zeigt den Satz auf Systemebene für dieses Aufgabengebiet an.
+1. <span class="preview">(Optional) Wählen Sie Attribute für den Abrechnungssatz aus, z. B. Agentur oder Standort.</span>
 
-1. Geben Sie im Feld **Abrechnungssätze 1** die einmalige Überschreibung des Abrechnungssatzes ein und klicken Sie dann auf **Speichern**, um den Abrechnungssatz einmal zu überschreiben
+   <span class="preview">Der Systemadministrator definiert Tarifattribute im Bereich „Setup“.</span>
 
-   Oder
+1. Wählen Sie **Währung** für die Außerkraftsetzung des Abrechnungssatzes aus.
+1. Geben Sie im Feld **Abrechnungssatz** die Überschreibung des Abrechnungssatzes ein und klicken Sie dann auf **Speichern**, um den Abrechnungssatz einmal zu überschreiben
+
+   ODER
 
    Klicken Sie **Abrechnungssatz hinzufügen**, um weitere Abrechnungssatz-Überschreibungen hinzuzufügen.
 
-1. (Bedingt) Wenn Sie mehr als eine Abrechnungssatz-Überschreibung hinzufügen, geben Sie die folgenden Informationen an:
+1. (Bedingt) Geben Sie für Datumsüberschreibungen des effektiven Abrechnungssatzes die folgenden Informationen für jede Zeile ein:
 
-   * **Abrechnungssätze 1**: Der Wert des Abrechnungssatzes vom Beginn des Projekts bis zum ersten Datum der ersten Überschreibung. Dies ist in der Regel der gleiche Betrag wie die **Standardrate**.
-   * **Startdatum**: Dies ist das Datum, an dem der Standardsatz endet.
-   * **Enddatum**: Das Datum, an dem die neue Überschreibung des Abrechnungssatzes endet.
+   * **Abrechnungssatz**: Der Wert des Abrechnungssatzes vom Beginn des Projekts bis zum ersten Datum der ersten Überschreibung.
+   * **Startdatum**: Das Datum, an dem die Überschreibung des Abrechnungssatzes beginnt.
+   * **Enddatum**: Das Datum, an dem die Überschreibung des Abrechnungssatzes endet.
 
-   <!--<span class="preview">Sample image in the Preview environment:</span>-->
-   ![Abrechnungssätze mit Überschreibungsdaten](assets/billing-rates-093025.png)
+   ![Abrechnungssätze mit Überschreibungsdaten](assets/new-job-role-billing-rate-on-project2.png)
 
-   <!--Sample image in the Production environment:
-   ![Billing rates with override dates](assets/new-billing-rate-with-adjustment-dates-350x266.png)-->
+   Workfront wendet den Satz für Aufgabengebiete überschreiben auf die Stunden an, die während dieser Zeitrahmen bei der Berechnung des Umsatzes für das Projekt auftreten.
 
-1. Die Zeitzone für die von Ihnen ausgewählten Daten wird unten im Feld „Neuer Abrechnungssatz“ angezeigt. Dies ist die Zeitzone, die mit Ihrer Workfront-Instanz verknüpft ist, wie im Bereich Kundeninformationen von Setup gezeigt. Weitere Informationen finden Sie [Konfigurieren der grundlegenden Informationen für Ihr System](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
-1. Workfront wendet den Tarif für Aufgabengebiete außer Kraft setzen auf die Stunden an, die während der bei der Berechnung des Umsatzes für das Projekt angegebenen Zeitrahmen auftreten.
-1. Zwischen den Zeitrahmen zweier Außerkraftsetzungsraten sollte es keine Lücken geben. Das **Startdatum** einer Überschreibungsrate sollte der Tag sein, der unmittelbar auf das **Enddatum** des vorherigen Überschreibungsdatums folgt.
+   Workfront ermöglicht es Ihnen, Lücken zwischen Überschreibungszeitrahmen zu hinterlassen, Sie erhalten jedoch eine Warnung, die bestätigt, dass dies beabsichtigt ist.
 
-1. Sie können weder ein Startdatum für den ersten Überschreibungssatz noch ein Enddatum für den letzten Überschreibungssatz angeben.\
-   Es wird empfohlen, den Standardsatz für die erste Überschreibungsrate zu verwenden.\
-   Workfront geht davon aus, dass die erste Überschreibungsrate auf alle Stunden angewendet wird, deren Datum älter als das Enddatum der ersten Überschreibungsrate ist, und dass die letzte Überschreibungsrate auf alle Stunden angewendet wird, deren Datum neuer als das Startdatum der letzten Überschreibung ist.\
-   Wird eine Stunde vor dem geplanten Startdatum des Projekts protokolliert, wird der allererste Abrechnungssatz verwendet.\
+   Es ist nicht erforderlich, ein Startdatum für den ersten Überschreibungssatz oder ein Enddatum für den letzten Überschreibungssatz anzugeben.
+
+   Wenn Sie nur eine einzige Abrechnungssatz-Überschreibung eingeben, gilt dieser Satz für die gesamte Dauer des Projekts. Wenn Sie mehrere datumswirksame Überschreibungen hinzufügen, geht Workfront davon aus, dass die erste Überschreibung für alle Stunden vor dem Enddatum und die letzte Überschreibung für alle Stunden nach dem Startdatum gilt.
+
+   Workfront geht davon aus, dass die erste Überschreibungsrate auf alle Stunden angewendet wird, deren Datum älter als das Enddatum der ersten Überschreibungsrate ist, und dass die letzte Überschreibungsrate auf alle Stunden angewendet wird, deren Datum neuer als das Startdatum der letzten Überschreibung ist.
+
+   Wenn eine Stunde vor dem geplanten Startdatum des Projekts protokolliert wird, wird der allererste Abrechnungssatz verwendet.
+
    Wird eine Stunde nach dem geplanten Abschlussdatum des Projekts protokolliert, wird der letzte Abrechnungssatz verwendet.
 
 1. Klicken Sie auf **Speichern**.

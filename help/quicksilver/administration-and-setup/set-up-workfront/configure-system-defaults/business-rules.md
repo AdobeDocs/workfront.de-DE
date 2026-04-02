@@ -8,9 +8,11 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: c16d107d8162f77436337d0b08ea5826d5c25d83
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1823'
 ht-degree: 5%
 
 ---
@@ -29,7 +31,7 @@ Mit einer Geschäftsregel können Sie Validierungen auf Workfront-Objekte anwend
 
 <div class="preview">
 
-Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object, notifying a user, or attaching a custom form to the object.  
+Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object or attaching a custom form to the object.  
 
 </div>
 
@@ -89,7 +91,7 @@ Das Format einer Geschäftsregelvalidierung lautet: „Wenn die definierte Bedin
 
 Die Syntax für die Eigenschaften und andere Funktionen in einer Geschäftsregel entspricht der Syntax für ein berechnetes Feld in einem benutzerdefinierten Formular. Weitere Informationen zur Syntax finden Sie unter [Hinzufügen berechneter Felder mit dem Formular-Designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-Weitere Informationen zu IF-Anweisungen finden Sie unter [&#x200B; „IF“-Anweisungen - &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) und [Bedingungsoperatoren in berechneten benutzerdefinierten Feldern](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+Weitere Informationen zu IF-Anweisungen finden Sie unter [ „IF“-Anweisungen - ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) und [Bedingungsoperatoren in berechneten benutzerdefinierten Feldern](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
 Informationen zu benutzerbasierten Platzhaltern finden Sie unter [Verwenden von benutzerbasierten Platzhaltern zum Verallgemeinern von Berichten](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
@@ -139,34 +141,51 @@ IF(
 )
 ```
 
+### Aktivieren der Lokalisierung in einer Geschäftsregel
 
-<!--
+Wenn Ihr Unternehmen die benutzerdefinierte Lokalisierung verwendet, müssen Sie die Übersetzung einer Business-Rule-Nachricht in der Business Rule aktivieren. Wenn die Übersetzung nicht aktiviert ist, wird dem Leser die Nachricht auf Englisch angezeigt, auch wenn sich der Nachrichtentext in der Lokalisierungsliste befindet und der Browser des Benutzers auf die entsprechende Sprache eingestellt ist.
 
-## Scenarios for business rule automation
+Fügen Sie beim Konfigurieren der Regel das Wort ÜBERSETZEN vor der Nachricht ein und schließen Sie die Nachricht in Klammern ein.
+
+>[!BEGINSHADEBOX]
+
+Beispiel:
+
+In diesem Beispiel wird davon ausgegangen, dass die Meldung „Sie können abgeschlossene Projekte nicht bearbeiten“ im Lokalisierungsbereich von Setup enthalten ist und dass der Browser des Benutzers auf die lokalisierte Sprache eingestellt ist.
+
+* `IF({status} = "CPL", "You cannot edit completed projects.") `
+Die Meldung wird auf Englisch angezeigt.
+* `IF({status} = "CPL", TRANSLATE("You cannot edit completed projects."))`
+Die Meldung wird in der lokalisierten Sprache angezeigt.
+
+>[!ENDSHADEBOX]
+
+Informationen zur benutzerdefinierten Lokalisierung finden Sie unter [Konfigurieren der benutzerdefinierten Lokalisierung](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
+
+## Szenarien für die Automatisierung von Geschäftsregeln
 
 >[!NOTE]
 >
->Your organization must have a Workflow Ultimate package to use business rule automation.
+>Ihr Unternehmen muss über ein Workflow-Ultimate-Paket verfügen, um die Automatisierung von Geschäftsregeln verwenden zu können.
 
-The format of a business rule automation is "IF the defined condition is met, then the selected automation is triggered."
+Das Format einer Geschäftsregelautomatisierung lautet: „Wenn die definierte Bedingung erfüllt ist, wird die ausgewählte Automatisierung ausgelöst.“
 
-Business rule automation formulas do not require an error message
+Formeln zur Automatisierung von Geschäftsregeln erfordern keine Fehlermeldung
 
-To ensure that an automation runs whenever the selected object and action occurs, such as when a project is created, use the following formula:
+Um sicherzustellen, dass eine Automatisierung immer dann ausgeführt wird, wenn das ausgewählte Objekt und die ausgewählte Aktion auftreten, z. B. wenn ein Projekt erstellt wird, verwenden Sie die folgende Formel:
 
 ```
 IF(true, true)
 ```
 
-To share a project only if that's project has been approved, use a formula like the following:
+Um ein Projekt nur dann freizugeben, wenn das Projekt des Projekts genehmigt wurde, verwenden Sie eine Formel wie die folgende:
 
 ```
 IF({status} = "APR", true)
 ```
 
-You can use wildcards in business rule actions, as described in the section [Scenarios for business rule validation](#scenarios-for-business-rule-validation).
+Sie können Platzhalter in Aktionen mit Geschäftsregeln verwenden, wie im Abschnitt [Szenarien für die Validierung von Geschäftsregeln](#scenarios-for-business-rule-validation) beschrieben.
 
--->
 
 ## Neue Geschäftsregel hinzufügen
 
@@ -210,15 +229,15 @@ You can use wildcards in business rule actions, as described in the section [Sce
    * Vorlage
    * Freizeit
    * Ressourcen-Pool
+   * Aufgabengebiet
+   * Kategorie „Sonstige Ressource“
+   * Ressourcen-Pool
+   * Freizeit
+   * Stunde
+   * Personalplan
+   * Vorlage
+   * Personalplanressource
 <!--
-   * <span class="preview">Job role</span>
-   * <span class="preview">Non-labor resource category</span>
-   * <span class="preview">Resource Pool</span>
-   * <span class="preview">Time Off</span>
-   * <span class="preview">Hour</span>
-   * <span class="preview">Staffing Plan</span>
-   * <span class="preview">Template</span>
-   * <span class="preview">Staffing Plan Resource</span>
    * <span class="preview">Team</span>
 -->
 
@@ -242,17 +261,17 @@ You can use wildcards in business rule actions, as described in the section [Sce
    * Das „Objekt“ ist der Objekttyp, den Sie beim Erstellen der Geschäftsregel ausgewählt haben. Er wird in der Überschrift des Dialogfelds angezeigt.
    * Die „Aktion“ ist der Trigger, den Sie für die Regel ausgewählt haben: Erstellen, Bearbeiten oder Löschen des Objekts.
    * Da das -Objekt und die Aktion bereits definiert sind, schließen Sie sie nicht in die Formel ein.
-   * Die benutzerdefinierte <!--<span class="preview">is included only if the rule is for validation, and </span>--> wird Benutzenden beim Trigger der Geschäftsregel angezeigt. Es sollte klare Anweisungen dazu geben, was schiefgelaufen ist und wie das Problem behoben werden kann.
+   * Die benutzerdefinierte Fehlermeldung <span class="preview">ist nur enthalten, wenn die Regel zur Validierung verwendet wird, und </span> wird Benutzenden beim Trigger der Geschäftsregel angezeigt. Es sollte klare Anweisungen dazu geben, was schiefgelaufen ist und wie das Problem behoben werden kann.
 
      Sie können der Fehlermeldung eine statische URL hinzufügen, um eine Verknüpfung zu Dokumentationen oder anderen hilfreichen Seiten herzustellen, die Benutzern dabei helfen, ihre Aktion innerhalb der Beschränkung der Regel zu ändern.
 
      In diesem Beispiel wird „Weitere Informationen“ mit der URL verknüpft. `"You are not allowed to add a new project in November.[Learn more](http://url)"` Die URL muss in Klammern stehen, aber Link-Text in Klammern ist nicht erforderlich. Sie können die vollständige URL anzeigen. Dabei handelt es sich um einen anklickbaren Link.
 
-   ![Dialogfeld „Geschäftsregel hinzufügen](assets/add-business-rule-dialog-no-ai-button.png) <!--UPDATE ME-->
+   ![Dialogfeld „Geschäftsregel hinzufügen“](assets/add-business-rule-new.png)
 
    Dieses Beispiel ist eine Geschäftsregel für Projekte. Wenn der aktuelle Monat November ist, dürfen Benutzer keine neuen Projekte erstellen. Die Meldung erklärt dies.
 
-   Weitere Beispiele für Geschäftsregeln finden Sie unter [Szenarien für &#x200B;](#scenarios-for-business-rules) in diesem Artikel.
+   Weitere Beispiele für Geschäftsregeln finden Sie unter [Szenarien für ](#scenarios-for-business-rules) in diesem Artikel.
 
 1. (Optional) Verwenden Sie die Formel **Ausdrücke** und **Felder** im rechten Bedienfeld, um beim Erstellen der Regel zu helfen.
 
@@ -264,17 +283,13 @@ You can use wildcards in business rule actions, as described in the section [Sce
 
    Für andere Pakete ist diese Option vorausgewählt.
 
-<!--
+1. <span class="preview">(Bedingt) Wählen Sie die Aktion aus, um eine weitere Aktion zu automatisieren. </span>
 
-1. (Conditional) To automate another action,, select the action. 
-
-   For details on these actions, see the section [Business rule automation options](#business-rule-automation-options) in this article.
+   <span class="preview">Weitere Informationen zu diesen Aktionen finden Sie im Abschnitt [Optionen zur Automatisierung von Geschäftsregeln](#business-rule-automation-options) in diesem Artikel.</span>
 
    >[!NOTE]
    >
-   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
-
-   -->
+   ><span class="preview">Ihre Organisation muss im Workflow-Ultimate-Paket enthalten sein, um neben der Validierung Aktionen zu verwenden. Wenn diese anderen Optionen nicht angezeigt werden, befindet sich Ihr Unternehmen nicht im Workflow-Ultimate-Paket.</span>
 
 1. Klicken Sie **Speichern** wenn Sie mit dem Erstellen der Geschäftsregel fertig sind.
 
@@ -282,24 +297,22 @@ You can use wildcards in business rule actions, as described in the section [Sce
 >
 >Nachdem Sie eine Geschäftsregel hinzugefügt haben, sollten Sie sie testen, indem Sie das zugehörige Objekt hinzufügen, bearbeiten oder löschen, um sicherzustellen, dass die Regel ordnungsgemäß angewendet wird.
 
-<!--
-
 <div class="preview">
 
-### Business rule automation options
+### Automatisierungsoptionen für Geschäftsregeln
 
-   >[!NOTE]
-   >
-   >Your organization must be on the Workflow Ultimate package to use actions besides validation. If you do not see these other options, your organization is not on the Workflow Ultimate package.
+>[!NOTE]
+>
+>Ihre Organisation muss im Workflow-Ultimate-Paket sein, um neben der Validierung Aktionen verwenden zu können. Wenn diese anderen Optionen nicht angezeigt werden, befindet sich Ihr Unternehmen nicht im Workflow-Ultimate-Paket.
 
-You can set these actions to automate when the business rule is triggered. Available actions depend on the selected object type.
+Sie können diese Aktionen so einstellen, dass sie automatisiert werden, wenn die Geschäftsregel ausgelöst wird. Die verfügbaren Aktionen hängen vom ausgewählten Objekttyp ab.
 
-|Automation|Further configuration|
+| Automatisierung | Weitere Konfigurationen |
 |---|---|
-|Attach a custom form|Select the custom form that you want to add|
-|Share the object|Select the people, roles, groups, companies, or access levels that you want to share the object with.|
+| Benutzerdefiniertes Formular anhängen | Wählen Sie das benutzerdefinierte Formular aus, das Sie hinzufügen möchten |
+| Objekt freigeben | Wählen Sie die Personen, Rollen, Gruppen, Unternehmen oder Zugriffsebenen aus, für die Sie das Objekt freigeben möchten. |
 
--->
+</div>
 
 ## Aktivieren einer Geschäftsregel
 
@@ -310,3 +323,4 @@ So aktivieren Sie eine Geschäftsregel:
 1. Wählen Sie die Geschäftsregel in der Regelliste aus und klicken Sie auf das Symbol Bearbeiten .
 1. Wählen Sie **Ja** für **Ist Aktiv** im Dialogfeld „Geschäftsregel“ aus.
 1. Klicken Sie auf **Speichern**.
+

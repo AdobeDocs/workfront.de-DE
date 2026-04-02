@@ -8,14 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bf4a37ee-9435-4c1c-b18c-a7338a548ab7
-source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
+source-git-commit: d45c34b1f48a7ffcae29556d34558bb4d1d8a016
 workflow-type: tm+mt
-source-wordcount: '823'
-ht-degree: 2%
+source-wordcount: '853'
+ht-degree: 6%
 
 ---
 
-# Zugriff auf Finanzdaten gewähren
+# Gewähren von Zugriff auf Finanzdaten
 
 {{highlighted-preview}}
 
@@ -40,7 +40,7 @@ Als Adobe Workfront-Administrator können Sie den Zugriff eines Benutzers auf Fo
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>
     <p>Standard</p>
-   <p>Plan</p>
+   <p>Abo</p>
    </td> 
   </tr> 
   <tr> 
@@ -50,7 +50,7 @@ Als Adobe Workfront-Administrator können Sie den Zugriff eines Benutzers auf Fo
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,13 +61,18 @@ Beachten Sie Folgendes, wenn Sie Benutzern Zugriff auf Finanzdaten in Workfront 
 * Ein Benutzer, dessen Zugriffsebene keinen Zugriff auf Finanzdaten zulässt, kann keinen Zugriff gewähren, der es anderen ermöglicht, Finanzdaten anzuzeigen. Dazu gehört der Zugriff auf Projekte, die Finanzdaten anzeigen, oder die Änderung einer Zugriffsebene, um die Anzeige von Finanzdaten zu ermöglichen.
 * Ein Benutzer, dessen Zugriffsebene keinen Zugriff auf Finanzdaten zulässt, kann kein Risiko für ein Projekt verursachen. Weitere Informationen finden Sie unter [Erstellen und Bearbeiten von Risiken in Projekten](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 * Sie können auch eine Zugriffsebene verwenden, um zu bestimmen, welche Ressourcenverwaltungsaktivitäten ein Benutzer verwenden kann, um Ressourcenzuordnungen zu budgetieren oder anzuzeigen. Weitere Informationen finden Sie unter [Zugriff auf Ressourcenverwaltung gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+* <span class="preview">Der Zugriff auf Abrechnungssätze, Kostensätze und allgemeine Finanzen ist separat möglich, sodass verschiedene Benutzerrollen, die mit komplexen Finanzdetails umgehen, präziser kontrolliert werden können. Allgemeine Finanzen sind zusätzliche Finanzdaten, die keine Abrechnungs- und Kostensätze enthalten.</span>
 
 ## Konfigurieren des Benutzerzugriffs auf Finanzdaten mithilfe einer benutzerdefinierten Zugriffsebene
 
-1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Klicken Sie auf das Zahnradsymbol ![](assets/gear-icon-settings.png) der Schaltfläche **Anzeigen** oder **Bearbeiten** rechts neben Finanzdaten und wählen Sie dann die Funktionen aus, die Sie unter **Einstellungen optimieren** gewähren möchten.
 
-   ![](assets/financial-data-fine-tune-nwe.png)
+   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
+   ![Optimieren des Zugriffs auf Finanzdaten](assets/financial-data-access-fine-tune.png)
+
+   Beispielbild in der Produktionsumgebung:
+   ![Optimieren des Zugriffs auf Finanzdaten](assets/financial-data-fine-tune-nwe.png)
 
 1. (Optional) Wählen Sie im Bereich **Administratorzugriff zulassen für** die folgenden Optionen aus:
 
@@ -126,24 +131,18 @@ Ein Benutzer ohne Zugriff auf Finanzdaten hat keinen Zugriff auf:
 
 * Abschnitt „Finanzen“ unter „Projekt- und Aufgabenobjekte“
 * Business Case
-* Abrechnungssätze und Abrechnungs-Datensätze
-* <span class="preview">Tarifkarten</span>
-* Kosten pro Stunde und Abrechnung pro Stunde nach Benutzereinstellungen
-
-  Sie können dies mithilfe des Zahnradsymbols konfigurieren, das auf der Schaltfläche Ansicht in Schritt 4 oben ![](assets/gear-icon-settings.png) ist.
-
+* Abrechnungssätze und Abrechnungs-Datensätze für Projekte
+* Kosten pro Stunde und Abrechnung pro Stunde für Benutzerprofile
 * Kosten pro Stunde und Abrechnung pro Stunde für Aufgabengebiete
 
-  Sie können dies mithilfe des Zahnradsymbols konfigurieren, das auf der Schaltfläche Ansicht in Schritt 4 oben ![](assets/gear-icon-settings.png) ist.
-
-### Ansichtszugriff
+### Zugriffsrecht „Anzeigen“
 
 Ein Benutzer mit Ansichtszugriff auf Finanzdaten kann Folgendes anzeigen (nicht bearbeiten):
 
 * Abschnitt „Finanzen“ unter „Projekt- und Aufgabenobjekte“
 * Business Case
-* Abrechnungssätze und Abrechnungs-Datensätze
-* Kosten pro Stunde und Abrechnung pro Stunde nach Benutzereinstellungen
+* Abrechnungssätze und Abrechnungs-Datensätze für Projekte
+* Kosten pro Stunde und Abrechnung pro Stunde für Benutzerprofile
 
   Sie können dies mithilfe des Zahnradsymbols konfigurieren, das auf der Schaltfläche Ansicht in Schritt 4 oben ![](assets/gear-icon-settings.png) ist.
 
@@ -151,15 +150,14 @@ Ein Benutzer mit Ansichtszugriff auf Finanzdaten kann Folgendes anzeigen (nicht 
 
   Sie können dies mithilfe des Zahnradsymbols konfigurieren, das auf der Schaltfläche Ansicht in Schritt 4 oben ![](assets/gear-icon-settings.png) ist.
 
-### Zugriff bearbeiten
+### Zugriffsrecht „Bearbeiten“
 
 Ein Benutzer mit Bearbeitungszugriff auf Finanzdaten kann Folgendes anzeigen und bearbeiten:
 
 * Abschnitt „Finanzen“ unter „Projekt- und Aufgabenobjekte“
 * Business Case
-* Abrechnungssätze und Abrechnungs-Datensätze
-* <span class="preview">Tarifkarten</span>
-* Kosten pro Stunde und Abrechnung pro Stunde nach Benutzereinstellungen
+* Abrechnungssätze, Abrechnungs-Datensätze und Kostensätze für Projekte
+* Kosten pro Stunde und Abrechnung pro Stunde für Benutzerprofile
 
   Sie können dies mithilfe des Zahnradsymbols konfigurieren, das auf der Schaltfläche Bearbeiten in Schritt 4 oben ![](assets/gear-icon-settings.png) ist.
 

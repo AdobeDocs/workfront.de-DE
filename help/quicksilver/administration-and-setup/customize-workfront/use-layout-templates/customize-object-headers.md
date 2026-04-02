@@ -8,26 +8,28 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+source-git-commit: 106ff601a4a19dbbf50cb3329675928ad7087b21
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 3%
+source-wordcount: '548'
+ht-degree: 7%
 
 ---
 
-# Anpassen von Objektkopfzeilen mithilfe einer Layout-Vorlage
+# Anpassen von Objekt-Headern mithilfe einer Layout-Vorlage
+
+{{highlighted-preview}}
 
 Als Adobe Workfront-Administrator oder Gruppenadministrator können Sie eine Layout-Vorlage verwenden, um die Felder zu konfigurieren, die Benutzende in der Kopfzeile des Objekts sehen, wenn sie die Seite eines Objekts öffnen.
 
 >[!IMPORTANT]
 >
->Das Anpassen von Objektkopfzeilen ist derzeit für Projekte, Aufgaben und Probleme verfügbar.
+>Die Anpassung von Objektkopfzeilen ist derzeit für Projekte, Aufgaben, Probleme (<span class="preview">, Programme, Vorlagen, Rechnungsnachweise, Teams, Gruppen, Benutzer, Unternehmen, Gruppen und Tarifkarten verfügbar.</span>
 
 ![Objekt-Header-Felder](assets/object-header-fields.png)
 
 Informationen zum Erstellen von Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-Vorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
 
-Weitere Informationen zu Layout-Vorlagen für Gruppen finden [&#x200B; unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 Nachdem Sie eine Layout-Vorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die von Ihnen vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layout-Vorlage an Benutzer finden Sie unter [Zuweisen von Benutzern zu einer Layout-Vorlage](../use-layout-templates/assign-users-to-layout-template.md).
 
@@ -46,7 +48,7 @@ Nachdem Sie eine Layout-Vorlage konfiguriert haben, müssen Sie sie Benutzern zu
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr> 
   </tr> 
   <tr> 
@@ -57,30 +59,27 @@ Nachdem Sie eine Layout-Vorlage konfiguriert haben, müssen Sie sie Benutzern zu
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
 ## Anpassen von Objektkopfzeilen
 
 1. Beginnen Sie mit der Arbeit an einer Layout-Vorlage, wie unter [Erstellen und Verwalten von Layout-Vorlagen](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) beschrieben.
-1. Wählen Sie im Dropdown **Menü „Was Benutzer sehen** die Option **Projekte**, **Aufgaben** oder **Probleme**.
-
-   <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
-
-1. Bewegen Sie [!UICONTROL &#x200B; Abschnitt &#x200B;]Kopfzeilenfelder“ den Mauszeiger über die aktuellen Felder und führen Sie einen der folgenden Schritte aus:
+1. Wählen Sie **Dropdown-Menü „Anpassen** was Benutzer sehen“ ein Objekt aus, dessen Kopfzeile Sie anpassen möchten.
+1. Bewegen Sie [!UICONTROL  Abschnitt ]Kopfzeilenfelder“ den Mauszeiger über die aktuellen Felder und führen Sie einen der folgenden Schritte aus:
    * Klicken Sie auf das **x**-Symbol, um ein Feld zu entfernen
 
      ODER
 
    * Klicken Sie auf das **grab**-Symbol und halten Sie es gedrückt, um das Feld per Drag-and-Drop an eine neue Position zu ziehen.
 
-   <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
-
    ![Objektkopfzeilenfelder - Symbole zum Ausblenden und Verschieben](assets/object-header-field-x-and-grab-icons-in-lt.png)
 
 1. Die Kopfzeile eines Objekts kann bis zu fünf Felder enthalten.
-Wenn Sie bereits fünf Felder ausgewählt haben, müssen Sie ein Feld entfernen, bevor Sie ein neues hinzufügen können.
+
+   Wenn Sie bereits fünf Felder ausgewählt haben, müssen Sie ein Feld entfernen, bevor Sie ein neues hinzufügen können.
+
 1. Beginnen Sie **Feld &quot;** hinzufügen“ mit der Eingabe des Namens eines benutzerdefinierten Felds oder nativen Workfront-Felds, das Sie hinzufügen möchten, und wählen Sie es aus, wenn es in der Liste angezeigt wird. Das Feld wird direkt rechts neben dem Feld Feld Feld hinzufügen hinzugefügt und als erstes Feld in der oberen rechten Ecke der Kopfzeile des -Objekts angezeigt.
 
    >[!TIP]

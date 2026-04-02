@@ -7,14 +7,18 @@ description: Ihr Adobe Workfront-Administrator gewährt Benutzenden Zugriff zum 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: abff7d82c89992e2e494aae13c9eb20868259b54
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: '1465'
 ht-degree: 7%
 
 ---
 
 # Freigeben eines Dokuments im alten Workfront-Speicher
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Der Workfront-Administrator steuert, wer Dokumente im Bereich „Zugriffsebenen“ im Setup anzeigen oder bearbeiten kann. Weitere Informationen finden Sie unter [Gewähren des Zugriffs auf Dokumente](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
 
@@ -79,7 +83,7 @@ Der Benutzer, der ein Dokument in Workfront hochlädt, hat standardmäßig Verwa
 
    ![Dokument freigeben](assets/share-a-document-350x160.png)
 
-1. Beginnen Sie im Feld **Dokumentzugriff gewähren auf** mit der Eingabe des Namens des Benutzers, Teams, der Rolle, der Gruppe oder des Unternehmens, für den bzw. die Sie das Dokument freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
+1. Beginnen Sie im Feld **Dokumentzugriff gewähren auf** mit der Eingabe des Namens des Benutzers, Teams, der Rolle, der Gruppe, des Unternehmens <span class="preview">oder </span> Geschäftsprofils, für den Sie das Dokument freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
    >[!TIP]
    >
@@ -122,7 +126,7 @@ Der Benutzer, der ein Dokument in Workfront hochlädt, hat standardmäßig Verwa
 
    ![Freigabesymbol](assets/share-documents-in-bulk.png)
 
-1. Beginnen Sie im Feld **Dokumentzugriff gewähren auf** mit der Eingabe des Namens des Benutzers, Teams, der Rolle, der Gruppe oder des Unternehmens, für den bzw. die Sie die Dokumente freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
+1. Beginnen Sie im Feld **Dokumentzugriff gewähren auf** mit der Eingabe des Namens des Benutzers, Teams, der Rolle, der Gruppe, des Unternehmens <span class="preview">oder </span> Geschäftsprofils, für den Sie die Dokumente freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
    >[!TIP]
    >

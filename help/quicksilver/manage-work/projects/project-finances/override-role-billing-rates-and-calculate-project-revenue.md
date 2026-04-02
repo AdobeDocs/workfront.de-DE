@@ -1,28 +1,58 @@
 ---
 product-area: projects
 navigation-topic: financials
-title: Übersicht über das Überschreiben von Abrechnungssätzen für Aufgabengebiete und die Berechnung des Umsatzes für ein Projekt
-description: Sie können Verrechnungssätze verwenden, um den Umsatz Ihrer Projekte zu berechnen, wenn Sie sie mit den für das Projekt aufgewendeten Stunden multiplizieren. Weitere Informationen zu Abrechnungssätzen und Umsatz finden Sie im Artikel Übersicht über Abrechnung und Umsatz .
+title: Übersicht über das Überschreiben von Abrechnungssätzen und die Berechnung des Umsatzes für ein Projekt
+description: Sie können Verrechnungssätze verwenden, um den Umsatz Ihrer Projekte zu berechnen, wenn Sie sie mit den für das Projekt aufgewendeten Stunden multiplizieren.
 author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
-source-git-commit: 01a80f6140650ca12aaee14115f79449dcfa2a18
+source-git-commit: fda01f74912b5b9f28085e6dbc79ca3ba69e38fc
 workflow-type: tm+mt
-source-wordcount: '3859'
-ht-degree: 0%
+source-wordcount: '4653'
+ht-degree: 1%
 
 ---
 
-# Übersicht über das Überschreiben von Abrechnungssätzen für Aufgabengebiete und die Berechnung des Umsatzes für ein Projekt
+# Übersicht über das Überschreiben von Abrechnungssätzen und die Berechnung des Umsatzes für ein Projekt
 
 {{highlighted-preview}}
 
 Sie können Verrechnungssätze verwenden, um den Umsatz Ihrer Projekte zu berechnen, wenn Sie sie mit den für das Projekt aufgewendeten Stunden multiplizieren. Weitere Informationen zu Abrechnungssätzen und Umsatz finden Sie im Artikel [Übersicht über Abrechnung und Umsatz](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-## Übersicht über Abrechnungssätze für Aufgabengebiete und Umsatztypen für Stundensätze für Aufgabengebiete
+## Übersicht über Abrechnungssätze und Aufgabenumsatztypen
 
 Als Adobe Workfront-Administrator können Sie Abrechnungssätze sowohl mit Benutzern als auch mit Aufgabengebieten verknüpfen.\
 Weitere Informationen zum Erstellen von Benutzern und zum Verknüpfen mit Abrechnungssätzen finden Sie im Artikel [Benutzer hinzufügen](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md). Weitere Informationen zum Erstellen von Aufgabengebieten und deren Verknüpfung mit Abrechnungssätzen finden Sie im Artikel [Erstellen und Verwalten von Aufgabengebieten](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+
+<div class="preview">
+
+### Überblick - Workflow-Ultimate-Paket
+
+Abrechnungssätze, die Benutzern und Aufgabengebieten zugeordnet sind, können auf Projektebene überschrieben werden.
+
+Um den Umsatz aus Projekten auf der Grundlage der Abrechnungssätze für Aufgabengebiete zu berechnen, muss **Umsatztyp** der Aufgaben für die Projekte einer der folgenden sein:
+
+* Stundensatz nach Funktion
+* Stundensatz nach Funktion mit Begrenzung
+* Stundensatz nach Funktion plus fest
+* Stundensatz nach Benutzerin bzw. Benutzer und Rolle
+* Benutzer und Funktion stündlich mit Begrenzung
+* Stundensatz nach Benutzerin bzw. Benutzer und Rolle plus Festbetrag
+
+Um die Einnahmen aus Projekten anhand der Abrechnungssätze der Benutzer zu berechnen, muss der Umsatztyp der Aufgaben für die Projekte einer der folgenden sein:
+
+* Benutzer pro Stunde
+* Benutzer pro Stunde mit Obergrenze
+* Benutzer pro Stunde plus festgelegt
+* Stundensatz nach Benutzerin bzw. Benutzer und Rolle
+* Benutzer und Funktion stündlich mit Begrenzung
+* Stundensatz nach Benutzerin bzw. Benutzer und Rolle plus Festbetrag
+
+Weitere Informationen zu **Umsatztyp** und Abrechnungssätzen finden Sie unter [Übersicht über Abrechnung und Umsatz](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+</div>
+
+### Übersicht - alle anderen Workfront- und Workflow-Pakete
 
 Die mit Benutzenden verknüpften Abrechnungssätze können nicht überschrieben werden.
 
@@ -36,7 +66,31 @@ Um den Umsatz aus Projekten auf der Grundlage der Abrechnungssätze für Aufgabe
 
 Weitere Informationen zu **Umsatztyp** und Abrechnungssätzen finden Sie unter [Übersicht über Abrechnung und Umsatz](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-## Hierarchie der Abrechnungssatz-Überschreibungen bei der Berechnung des Umsatzes
+<div class="preview">
+
+## Hierarchie der Abrechnungssatz-Überschreibungen bei der Berechnung des Umsatzes - Workflow-Ultimate-Paket
+
+>[!NOTE]
+>
+>Die Umsatztypen „Benutzer“ und „Funktion“ folgen bei der Ermittlung des Abrechnungssatzes für die Umsatzberechnung einer detaillierten Hierarchie. Weitere Informationen finden Sie unter [Übersicht über Umsatz und Kostenhierarchie](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
+
+Einem Aufgabengebiet kann auf folgende Weise ein Abrechnungssatz zugeordnet werden:
+
+* Als Workfront-Administrator können Sie den Abrechnungssatz auf Systemebene definieren, der mit einem Aufgabengebiet verknüpft ist, wenn Sie dieses Aufgabengebiet erstellen.\
+  Weitere Informationen zum Erstellen von Aufgabengebieten finden Sie unter [Erstellen und Verwalten von Aufgabengebieten](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+
+* Als Workfront-Administrator können Sie Tarifkarten mit mehreren Abrechnungssätzen pro Rolle definieren, die auf Attributen und dem Datum des Wirksamwerdens basieren. Wenn einem Projekt eine Tarifkarte beigefügt wird, werden alle Funktionen, ihre Attribute und die zugehörigen Abrechnungssätze zum Abschnitt Abrechnungssätze des Projekts hinzugefügt. Durch das Anhängen einer Tarifkarte werden alle vorhandenen Abrechnungssätze für das Projekt überschrieben.
+
+  Weitere Informationen finden Sie unter [Tarifkarten verwalten](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md) und [Eine Tarifkarte an ein Projekt anhängen](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
+
+* Als Projekt-Manager können Sie auf Projektebene den Abrechnungssatz für dasselbe Aufgabengebiet definieren.\
+  Die im Projekt geänderten Tarife für Aufgabengebiete wirken sich nur auf dieses Projekt aus.
+
+  Informationen zum Überschreiben von Abrechnungssätzen für Aufgabengebiete für das Projekt finden Sie unter [Überschreiben von Abrechnungssätzen für Aufgabengebiete auf Projektebene](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
+
+</div>
+
+## Hierarchie der Abrechnungssatz-Überschreibungen bei der Berechnung des Umsatzes - alle anderen Workfront- und Workflow-Pakete
 
 Einem Aufgabengebiet kann auf folgende Weise ein Abrechnungssatz zugeordnet werden:
 
@@ -56,14 +110,6 @@ Einem Aufgabengebiet kann auf folgende Weise ein Abrechnungssatz zugeordnet werd
 * Als Workfront-Administrator können Sie beim Bearbeiten eines Projekts eine Option aktivieren, um Änderungen an den Abrechnungssätzen auf Firmenebene auf das Projekt anzuwenden, wenn Benutzer die Projektfinanzen manuell neu berechnen.\
   Weitere Informationen finden Sie unter [Überschreiben von Abrechnungssätzen auf Projektebene mit Abrechnungssätzen auf Firmenebene](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md).
 
-<div class="preview">
-
-* Als Workfront-Administrator können Sie Tarifkarten mit mehreren Abrechnungssätzen pro Rolle definieren, basierend auf Standort und Datum. Wenn einem Projekt eine Tarifkarte beigefügt ist, werden alle Funktionen (nach Standort, wenn Standorte verwendet werden) und die zugehörigen Abrechnungssätze zum Abschnitt Abrechnungssätze des Projekts hinzugefügt. Durch das Anhängen einer Tarifkarte werden alle vorhandenen Abrechnungssätze für das Projekt überschrieben.
-
-  Weitere Informationen finden Sie unter [Tarifkarten verwalten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md) und [Eine Tarifkarte an ein Projekt anhängen](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
-
-</div>
-
 * Als Projekt-Manager können Sie auf Projektebene den Abrechnungssatz für dasselbe Aufgabengebiet definieren.\
   Die im Projekt geänderten Tarife für Aufgabengebiete wirken sich nur auf dieses Projekt aus.
 
@@ -73,7 +119,7 @@ Einem Aufgabengebiet kann auf folgende Weise ein Abrechnungssatz zugeordnet werd
 >
 >Wenn ein Aufgabengebiet auf Systemebene, Unternehmensebene und Projektebene mit einem Abrechnungssatz verknüpft ist, berechnet Workfront den Umsatz der Aufgaben anhand des Abrechnungssatzes des Aufgabengebiets auf Projektebene, wenn es die Abrechnungssätze für Aufgabengebiete verwendet. Die Einnahmen aus allen Aufgaben summieren sich zu den Einnahmen des Projekts.
 
-## Aufgabengebiet-Abrechnungssätze auf Projektebene überschreiben
+## Überschreiben von Abrechnungssätzen für Aufgabengebiete auf Projektebene
 
 Als Projekt-Manager können Sie den Abrechnungssatz für ein Aufgabengebiet in einem bestimmten Projekt angeben. Dieser Abrechnungssatz auf Projektebene überschreibt den Abrechnungssatz auf Systemebene für dieses Aufgabengebiet. Workfront verwendet zur Berechnung des Umsatzes den Abrechnungssatz auf Projektebene des Aufgabengebiets, anstatt den Abrechnungssatz auf Systemebene zu verwenden.
 
@@ -81,13 +127,41 @@ Als Projekt-Manager können Sie den Abrechnungssatz für ein Aufgabengebiet in e
 
 Informationen zum Überschreiben der Abrechnungssätze für Aufgabengebiete auf Projektebene finden Sie unter [Überschreiben von Abrechnungssätzen für Aufgabengebiete auf Projektebene](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
 
-Weitere Informationen dazu, welches Aufgabengebiet zur Berechnung des Umsatzes für das Projekt verwendet wird, finden Sie im Abschnitt „Umsatzberechnungen für Aufgaben basierend auf Benutzer- und Rollenzuweisungen“ in [Übersicht über Abrechnung und Umsatz](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md). <span class="preview">Informationen zum Anhängen einer Tarifkarte an ein Projekt finden Sie unter [Anhängen einer Tarifkarte an ein Projekt](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).</span>
+Weitere Informationen dazu, welches Aufgabengebiet zur Berechnung des Umsatzes für das Projekt verwendet wird, finden Sie im Abschnitt [Umsatzberechnungen für Aufgaben basierend auf Benutzer- und Rollenzuweisungen](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments) in [Übersicht über Abrechnung und Umsatz](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+<span class="preview">Informationen zum Anhängen einer Tarifkarte an ein Projekt finden Sie unter [Anhängen einer Tarifkarte an ein Projekt](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).</span>
 
 >[!NOTE]
 >
 >Bei tatsächlichen Einnahmen sollten die Abrechnungssätze, die auf Stunden angewendet werden, die einem als „In Rechnung gestellt“ markierten Abrechnungs-Datensatz hinzugefügt werden, nicht von Abrechnungssatz-Überschreibungen beeinflusst werden, die nach der Abrechnung des Abrechnungs-Datensatzes auftreten.
 
-## Übersicht über den Abschnitt Abrechnungssätze eines Projekts
+<div class="preview">
+
+## Überblick über den Abschnitt Abrechnungssätze eines Projekts - Workflow-Ultimate-Pakets
+
+Nachdem Sie die Verrechnungssätze für die mit dem Projekt verknüpften Aufgabengebiete überschreiben haben, können Sie alle Aufgabengebiete und deren Überschreibungen auf der Registerkarte **Sätze > Verrechnungssätze** des Projekts anzeigen.
+
+### Gruppierungen von Sätzen
+
+Abrechnungssätze werden im Bereich **Abrechnungssätze** zunächst nach ihrer Herkunft (Tarifkarte oder -überschreibungen) und dann nach Ressourcentypen gruppiert: Aufgabengebiet oder Benutzer.
+
+Beachten Sie in der Gruppierungsposition, die einem Aufgabengebiet entspricht, den Abrechnungssatz für dieses Aufgabengebiet auf Projektebene in der Spalte **Wert**. Wenn das Aufgabengebiet datumswirksame Überschreibungsraten hat, werden die Sätze nach Datum geordnet angezeigt.
+
+Wenn für ein Aufgabengebiet Überschreibungssätze oder Tarifkartensätze vorhanden sind, wird der Systemstandard für das Aufgabengebiet bei der Berechnung des Umsatzes für das Projekt nicht automatisch angewendet. Bei der Bestimmung des Abrechnungssatzes auf der Grundlage des Umsatztyps wird die Hierarchie befolgt. Weitere Informationen finden Sie unter [Übersicht über Umsatz und Kostenhierarchie](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
+
+### Mehrere Abrechnungssatzwerte für ein Aufgabengebiet
+
+Wenn Sie für ein bestimmtes Aufgabengebiet mehrere Abrechnungssätze überschreiben, werden diese unter der Gruppierung für Aufgabengebiete aufgeführt. Bei der Inline-Bearbeitung können Sie auf dieser Registerkarte die Überschreibungssätze und **Startdatum** und **Enddatum** der Überschreibungssätze ändern. Oder wählen Sie einen Tarif aus und klicken Sie auf das **Bearbeiten**-Symbol, um die Sätze festzulegen, für die Datumsangaben überschrieben werden sollen.
+
+>[!NOTE]
+>
+>Wenn das Feld **Startdatum** oder **Enddatum** für einen Datumsgültigkeitssatz leer ist, geht Workfront davon aus, dass der erste Überschreibungssatz auf alle Stunden angewendet wird, deren Datum älter als das **Enddatum** der ersten Überschreibungsinstanz ist, und dass der letzte Überschreibungssatz auf alle Stunden angewendet wird, deren Datum neuer als das **Startdatum** der letzten Überschreibungsinstanz ist.
+>Wenn eine Stunde vor dem geplanten Startdatum des Projekts protokolliert wird, wird der erste Abrechnungssatz verwendet.\
+>Wird eine Stunde nach dem geplanten Abschlussdatum des Projekts protokolliert, wird der letzte Abrechnungssatz verwendet.
+
+</div>
+
+## Übersicht über den Abschnitt Abrechnungssätze eines Projekts - alle anderen Workfront- und Workflow-Pakete
 
 Nachdem Sie die Verrechnungssätze für die mit dem Projekt verknüpften Aufgabengebiete überschreiben haben, können Sie alle Aufgabengebiete und deren Überschreibungen auf der Registerkarte **Verrechnungssätze** des Projekts anzeigen.
 
@@ -101,7 +175,7 @@ Beachten Sie die folgenden Informationen in der Liste **Abrechnungssätze**:
 
 ### Aufgabengebiet-Gruppierung {#job-role-grouping}
 
-Abrechnungssätze werden im Bereich „Abrechnungssätze **nach** Aufgabengebiet gruppiert. <span class="preview">Wenn dem Projekt eine Tarifkarte beigefügt ist, werden die Aufgabengebiete ebenfalls nach Tarifkarte gruppiert. Wenn Standorte auf Aufgabengebiete angewendet werden, wird der Standortname als Teil des Aufgabengebietsnamens eingeschlossen. Dasselbe Aufgabengebiet könnte für mehrere Standorte aufgelistet sein.</span>
+Abrechnungssätze werden im Bereich „Abrechnungssätze **nach** Aufgabengebiet gruppiert.
 
 ### Projekt-Abrechnungssatzwert {#project-billing-rate-value}
 
@@ -121,13 +195,11 @@ Beachten Sie in der Gruppierungsposition eines Aufgabengebiets den Abrechnungssa
 
 >[!NOTE]
 >
-><span class="preview">Wenn dem Projekt eine Tarifkarte beigefügt ist, werden **Abrechnungssätze des Unternehmens** nicht in die Abrechnungssätze importiert. Die Berechnungen basieren entweder auf Tarifkartensätzen oder Firmensätzen für die Aufgabengebiete.</span>
->
 >Wenn für ein Aufgabengebiet Projekt-Abrechnungssätze vorhanden sind, wird **Abrechnungssatz des Unternehmens** nie auf die Berechnung des Umsatzes für das Projekt angewendet. Zur Berechnung **Umsatzes werden nur die** Projekt-Abrechnungssätze“ angewendet.
 
 ### Mehrere Abrechnungssatzwerte und Zeitrahmen {#multiple-billing-rate-values-and-timeframes}
 
-Wenn Sie für ein bestimmtes Aufgabengebiet mehrere Abrechnungssätze überschreiben, werden diese unter der Gruppierung für dieses Aufgabengebiet aufgeführt. Bei der Inline-Bearbeitung können Sie auf dieser Registerkarte die Überschreibungssätze und **Start** **Datum** und **Enddatum** der Überschreibungssätze ändern.
+Wenn Sie für ein bestimmtes Aufgabengebiet mehrere Abrechnungssätze überschreiben, werden diese unter der Gruppierung für dieses Aufgabengebiet aufgeführt. Bei der Inline-Bearbeitung können Sie auf dieser Registerkarte die Überschreibungssätze und **Start** **Datum** und **Enddatum** der Überschreibungssätze ändern. Oder wählen Sie einen Tarif aus und klicken Sie auf das **Bearbeiten**-Symbol, um die Sätze festzulegen, für die Datumsangaben überschrieben werden sollen.
 
 >[!NOTE]
 >
@@ -147,6 +219,8 @@ Beachten Sie bei der Berechnung des geplanten Umsatzes auf der Grundlage einer e
 
 * Wenn der **Umsatztyp** einer Aufgabe &quot;**pro Stunde“**, multipliziert Workfront die geplanten Stunden einer Aufgabe mit dem Abrechnungssatz des Aufgabengebiets, das der Aufgabe zugeordnet ist, um den geplanten Umsatz für die Aufgabe zu berechnen.
 
+* <span class="preview">Wenn der **Umsatztyp** einer Aufgabe &quot;**und Funktion pro**&quot; lautet, bestimmt Workfront den Abrechnungssatz für jede Aufgabe hierarchisch. Weitere Informationen finden Sie unter [Übersicht über Umsatz und Kostenhierarchie](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).</span>
+
 * Wenn der Abrechnungssatz des Aufgabengebiets auf Projektebene überschrieben wurde, verwendet Workfront den Überschreibungssatz aus dem Projekt, um den geplanten Umsatz zu berechnen.
 * Wenn eine Aufgabe mehrere Zuordnungen hat, wird der geplante Umsatz durch Multiplikation des Abrechnungssatzes des Aufgabengebiets jeder Zuordnung und der entsprechenden Zuordnung der geplanten Stunde berechnet.
 
@@ -163,6 +237,17 @@ Beachten Sie bei der Berechnung des geplanten Umsatzes auf der Grundlage mehrere
 * Wenn der **Umsatztyp** einer Aufgabe &quot;**pro Stunde“**, multipliziert Workfront die geplanten Stunden einer Aufgabe mit dem Abrechnungssatz des Aufgabengebiets, das der Aufgabe zugeordnet ist, um den geplanten Umsatz für die Aufgabe zu berechnen.
 
   Weitere Informationen dazu, welches Aufgabengebiet zur Berechnung des geplanten Umsatzes verwendet wird, finden Sie im Abschnitt „Grundlagen zu Umsatzberechnungen für Aufgaben basierend auf Benutzer- und Rollenzuweisungen“ im Artikel [Übersicht über Abrechnung und Umsatz](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+<div class="preview">
+
+* Wenn der **Umsatztyp** einer Aufgabe &quot;**und Funktion pro Stunde“ lautet** ein Benutzer nicht zugewiesen wird, multipliziert Workfront die geplanten Stunden einer Aufgabe mit einer der beiden Werte, um den geplanten Umsatz für die Aufgabe zu berechnen:
+
+   * Eine manuelle Überschreibungsrate für das Aufgabengebiet in der Aufgabe
+   * Die Quote für Projektaufgabengebiete, die von einer Tarifkarte oder von der Systemebene stammen kann.
+
+  Weitere Informationen dazu, welches Aufgabengebiet zur Berechnung des geplanten Umsatzes verwendet wird, finden Sie [ Abschnitt „Übersicht über Umsatz- und ](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)&quot; und [Umsatzberechnungen für Aufgaben basierend auf Benutzer- und ](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments)&quot; im Artikel [Übersicht über Abrechnung und Umsatz](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+</div>
 
 * Bei Überschreibungen mehrerer Abrechnungssätze ändert sich der Satz, mit dem die geplanten Stunden multipliziert werden, während der Dauer einer Aufgabe. Standardmäßig verteilt Workfront die geplanten Stunden gleichmäßig auf die Dauer einer Aufgabe, wobei für jeden Aufgabentag die gleiche Anzahl von Stunden zugewiesen wird. Bei der Berechnung **Geplanter Umsatz** für eine Aufgabe multipliziert Workfront die geplante Stunde pro Tag mit dem Abrechnungssatz des Tages. Bei mehreren Abrechnungssätzen kann dieser Satz jeden Tag anders sein.
 
@@ -197,6 +282,8 @@ Beachten Sie beim Verstehen der Verteilung der geplanten Stunden über die Dauer
 
 ## Tatsächlichen Umsatz berechnen
 
+Der Abrechnungssatz für die tatsächlichen Einnahmen basiert auf dem Eigentümer der protokollierten Stunden für eine Aufgabe. Der „Besitzer“ ist die Person, deren Zeit für die Aufgabe protokolliert wird, auch wenn sie der Aufgabe nicht zugewiesen ist.
+
 * [Berechnen Sie den tatsächlichen Umsatz anhand einer einmaligen Überschreibung des Abrechnungssatzes](#calculate-actual-revenue-based-on-a-one-time-billing-rate-override)
 * [Berechnung des tatsächlichen Umsatzes basierend auf Überschreibungen mehrerer Abrechnungssätze](#calculate-actual-revenue-based-on-multiple-billing-rate-overrides)
 
@@ -207,6 +294,8 @@ Beachten Sie Folgendes bei der Berechnung der tatsächlichen Einnahmen auf der G
 * Wenn der **Umsatztyp** einer Aufgabe &quot;**pro Stunde“**, multipliziert Workfront die **Ist-Stunden** einer Aufgabe mit dem Abrechnungssatz des Aufgabengebiets, das der Aufgabe zugeordnet ist, um **Ist-Umsatz** der Aufgabe zu berechnen. Tatsächliche Stunden sind Stunden, die direkt in der Aufgabe protokolliert werden.
 
   Weitere Informationen dazu, welches Aufgabengebiet zur Berechnung des **tatsächlichen Umsatzes** verwendet wird, finden Sie im Abschnitt „Grundlagen zu Umsatzberechnungen für Aufgaben basierend auf Benutzer- und Rollenzuweisungen“ im Artikel [Übersicht über Abrechnung und Umsatz](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+* <span class="preview">Wenn der **Umsatztyp** einer Aufgabe &quot;**und Funktion pro**&quot; lautet, bestimmt Workfront den Abrechnungssatz für jede Aufgabe hierarchisch. Weitere Informationen finden Sie unter [Übersicht über Umsatz und Kostenhierarchie](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).</span>
 
 * Wenn der Abrechnungssatz des Aufgabengebiets auf Projektebene überschrieben wurde, berechnet Workfront den tatsächlichen Umsatz anhand des Überschreibungssatzes aus dem Projekt. Wenn Sie den Abrechnungssatz des Aufgabengebiets für das Projekt überschreiben, wird der **tatsächliche Umsatz** des Projekts automatisch unter Verwendung des neuen angepassten Satzes neu berechnet.
 
@@ -223,6 +312,8 @@ Beachten Sie Folgendes bei der Berechnung der tatsächlichen Einnahmen auf der G
 
 * Wenn der **Umsatztyp** einer Aufgabe &quot;**pro Stunde“**, multipliziert Workfront die **Ist-Stunden** der Aufgabe mit dem Abrechnungssatz der Aufgabengebiete, die der Aufgabe zugewiesen wurden, um **Ist-Umsatz** der Aufgabe zu berechnen. Tatsächliche Stunden sind Stunden, die direkt in der Aufgabe protokolliert werden.
 
+* <span class="preview">Wenn der **Umsatztyp** einer Aufgabe &quot;**und Funktion pro**&quot; lautet, bestimmt Workfront den Abrechnungssatz für jede Aufgabe hierarchisch. Weitere Informationen finden Sie unter [Übersicht über Umsatz und Kostenhierarchie](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).</span>
+
 * Bei Überschreibungen mehrerer Abrechnungssätze kann sich der Satz, mit dem die **Ist-Stunden** multipliziert werden, um den **Ist-Umsatz** während der Dauer einer Aufgabe ändern. Workfront verwendet den Abrechnungssatz des Aufgabengebiets, dessen Zeitrahmen mit dem **Eingabedatum) der** für die Aufgabe protokollierten Stunden übereinstimmt, um den **tatsächlichen Umsatz“**
 
   Beispielsweise hat eine Aufgabe den **Umsatztyp** &quot;**Stündlich** und ist dem Aufgabengebiet des Projekt-Managers zugewiesen. Überschreiben Sie den Abrechnungssatz dieses Aufgabengebiets mit Satz 1 für die Daten zwischen dem 19. Juni und dem 25. Juni. Überschreiben Sie ab dem 26. Juni den Abrechnungssatz mit Satz 2. Protokollieren Sie 2 Stunden für den 20. Juni und 3 Stunden für den 28. Juni.
@@ -235,7 +326,7 @@ Beachten Sie Folgendes bei der Berechnung der tatsächlichen Einnahmen auf der G
 
   Weitere Informationen dazu, welches Aufgabengebiet zur Berechnung des **tatsächlichen Umsatzes** verwendet wird, finden Sie im Abschnitt „Grundlagen zu Umsatzberechnungen für Aufgaben basierend auf Benutzer- und Rollenzuweisungen“ im Artikel [Übersicht über Abrechnung und Umsatz](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-## Auswirkungen von Zeitzonen bei der Berechnung des Umsatzes basierend auf mehreren Abrechnungssätzen
+## Die Auswirkungen von Zeitzonen bei der Berechnung des Umsatzes basierend auf mehreren Abrechnungssätzen
 
 Benutzende sehen andere geplante Stunden pro Tag als andere Benutzende, wenn Zeitzonenunterschiede zwischen ihnen und anderen Entitäten in Workfront auftreten. Die folgenden Szenarien können die Informationen zu „Geplante Stunden pro Tag“ für eine Benutzerin oder einen Benutzer von dem unterscheiden, was eine andere Person sieht:
 
@@ -257,11 +348,11 @@ In diesen Fällen kann die Anzahl der geplanten Stunden pro Tag zwischen zwei Be
 
 Beachten Sie bei der Berechnung des geplanten Umsatzes für Benutzer in verschiedenen Zeitzonen Folgendes:
 
-* Bei Aufgaben mit dem **Umsatztyp** &quot;**Stündlich**, die Aufgabengebieten zugewiesen sind, wird **Geplanter Umsatz** durch Multiplikation der **Geplanten Stunden** einer Aufgabe mit dem Abrechnungssatz des Aufgabengebiets berechnet.
+* Für Aufgaben mit einem **Umsatztyp** von **Funktion Stündlich** oder <span class="preview">**Benutzer und Funktion**</span> und Aufgabengebieten zugewiesen sind, wird **Geplanter Umsatz** durch Multiplikation der **Geplanten Stunden** einer Aufgabe mit dem Abrechnungssatz des Aufgabengebiets berechnet.
 
 * Die **Geplanten Stunden** werden gleichmäßig über die **Dauer** der Aufgabe verteilt.
 
-* Die **Dauer** ist der Zeitraum zwischen dem **geplanten Start**&#x200B;**Datum** und dem **geplanten Abschlussdatum** der Aufgabe. Da das **Geplantes Startdatum** und **Geplantes Abschlussdatum** der Aufgaben je nach Zeitzonen der Benutzer, die die Aufgabe angezeigt haben, unterschiedlich sein können, kann die Anzahl der geplanten Stunden pro Tag für zwei Benutzer in zwei verschiedenen Zeitzonen unterschiedlich sein.
+* Die **Dauer** ist der Zeitraum zwischen dem **geplanten Start****Datum** und dem **geplanten Abschlussdatum** der Aufgabe. Da das **Geplantes Startdatum** und **Geplantes Abschlussdatum** der Aufgaben je nach Zeitzonen der Benutzer, die die Aufgabe angezeigt haben, unterschiedlich sein können, kann die Anzahl der geplanten Stunden pro Tag für zwei Benutzer in zwei verschiedenen Zeitzonen unterschiedlich sein.
 
 * Der Betrag der geplanten Stunden pro Tag ändert den geplanten Umsatz eines Projekts nicht, wenn der Abrechnungssatz des Aufgabengebiets nicht geändert wird oder wenn nur eine Überschreibung des Abrechnungssatzes erfolgt. Selbst wenn zwei Benutzer aus zwei verschiedenen Zeitzonen unterschiedliche geplante Stunden pro Tag sehen, sind die geplanten Gesamteinnahmen des Projekts zwischen den beiden Benutzern identisch.
 
@@ -274,7 +365,7 @@ Beachten Sie bei der Berechnung des geplanten Umsatzes für Benutzer in verschie
 
 Beachten Sie bei der Berechnung der tatsächlichen Einnahmen für Benutzer in verschiedenen Zeitzonen Folgendes:
 
-* Wenn der **Umsatztyp** einer Aufgabe &quot;**pro Stunde“**, multipliziert Workfront die **Ist-Stunden** der Aufgabe mit dem Abrechnungssatz der Aufgabengebiete, die der Aufgabe zugewiesen wurden, um den **Ist-Umsatz**. Tatsächliche Stunden sind Stunden, die direkt in der Aufgabe protokolliert werden.
+* Wenn der **Umsatztyp** einer Aufgabe &quot;**Stundensatz“** &quot;<span class="preview">**und Stundensatz“**</span>, multipliziert Workfront die **Ist-Stunden** der Aufgabe mit dem Abrechnungssatz der der Aufgabe zugewiesenen Aufgabengebiete, um den **Ist-Umsatz** zu berechnen. Tatsächliche Stunden sind Stunden, die direkt in der Aufgabe protokolliert werden.
 
 * Bei Überschreibungen mehrerer Abrechnungssätze verwendet Workfront den Abrechnungssatz des Aufgabengebiets, dessen Zeitrahmen mit dem **Eingabedatum) der** für die Aufgabe übereinstimmt, um den **tatsächlichen Umsatz** zu berechnen.
 

@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+source-git-commit: 09bbb257a80c3f85abea9d238900d63c493fea2e
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 20%
+source-wordcount: '488'
+ht-degree: 31%
 
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 20%
 
 <!-- Audited: 2/2024 -->
 
+{{highlighted-preview}}
+
 >[!NOTE]
 >
->Die Informationen in diesem Artikel beziehen sich auf die aktuellen Zugriffsebenen. Informationen zu den alten Zugriffsebenen finden Sie unter [Zugriffsebenen - Übersicht](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+>Die Informationen in diesem Artikel beziehen sich auf die aktuellen Zugriffsebenen. Informationen zu den alten Zugriffsebenen finden Sie unter [Überblick über Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 In der folgenden Tabelle wird die höchste Zugriffsebene (Bearbeiten oder Anzeigen) angegeben, die jede Adobe Workfront-Lizenz für die Objekte und Bereiche in Workfront zulässt.
 
@@ -31,14 +33,14 @@ In der folgenden Tabelle wird die höchste Zugriffsebene (Bearbeiten oder Anzeig
 
   >[!NOTE]
   >
-  >Wenn ein anderer Benutzer ein Objekt freigibt, kann der freigebende Benutzer Berechtigungen festlegen, die seine Möglichkeit zur Bearbeitung einschränken. Weitere Informationen finden Sie unter [Übersicht über Freigabeberechtigungen für Objekte](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+  >Wenn ein anderer Benutzer ein Objekt freigibt, kann der freigebende Benutzer Berechtigungen festlegen, die seine Möglichkeit zur Bearbeitung einschränken. Weitere Informationen finden Sie unter [Überblick über Freigabeberechtigungen für Objekte](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 <table style="table-layout:auto">
     <tr>
         <td></td>
         <td>Standard</td>
-        <td>Leicht</td>
-        <td>Mitwirkender oder Mitwirkende</td>
+        <td>Light</td>
+        <td>Mitwirkende</td>
         <td>Extern</td>
     </tr>
     <tr>
@@ -105,6 +107,13 @@ In der folgenden Tabelle wird die höchste Zugriffsebene (Bearbeiten oder Anzeig
         <td>Ansicht</td>
     </tr>
     <tr>
+        <td><span class="preview">Aufgabengebiete</span></td>
+        <td>Bearbeiten</td>
+        <td>Ansicht</td>
+        <td>Ansicht</td>
+        <td>Kein Zugriff</td>
+    </tr>
+    <tr>
         <td>Teams</td>
         <td>Bearbeiten</td>
         <td>Ansicht</td>
@@ -140,6 +149,13 @@ In der folgenden Tabelle wird die höchste Zugriffsebene (Bearbeiten oder Anzeig
         <td>Kein Zugriff</td>
     </tr>
     <tr>
+        <td><span class="preview">Tarifkarten</span></td>
+        <td>Bearbeiten</td>
+        <td>Ansicht</td>
+        <td>Kein Zugriff</td>
+        <td>Kein Zugriff</td>
+    </tr>
+    <tr>
         <td>Workfront-Ziele</td>
         <td>Bearbeiten</td>
         <td>Bearbeiten</td>
@@ -154,7 +170,7 @@ In der folgenden Tabelle wird die höchste Zugriffsebene (Bearbeiten oder Anzeig
 
 >[!NOTE]
 >
->* Benutzende mit einer Light-Lizenz oder einer Contributor-Lizenz verfügen über eingeschränkte Freigabefunktionen. Weitere Informationen finden Sie unter [Lizenzen - Übersicht](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+>* Benutzende mit einer Light-Lizenz oder einer Contributor-Lizenz verfügen über eingeschränkte Freigabefunktionen. Weitere Informationen finden Sie unter [Überblick über Lizenzen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 >
 >* Externe Benutzende können in Workfront nicht nach Elementen suchen. Sie können Dokumente und Kalender anzeigen, die speziell für sie freigegeben wurden. Sie können auch die Benutzenden sehen, die Elemente für sie freigeben.
 >
@@ -171,9 +187,10 @@ Detaillierte Informationen zu den Zugriffsebenen für die einzelnen Objekte und 
 * [Gewähren des Zugriffs auf Berichte, Dashboards und Kalender](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)
 * [Gewähren des Zugriffs auf Filter, Ansichten und Gruppierungen](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
 * [Benutzern Zugriff gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
-* [Zugriff auf Teams gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)
+* [Gewähren von Zugriff auf Teams](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)
 * [Zugriff auf Vorlagen gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)
 * [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
 * [Zugriff auf Ressourcenverwaltung gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
 * [Zugriff auf den Szenario-Planer gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
+* [Zugriff auf Tarifkarten gewähren](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-rate-cards.md)
 * [Zugriff auf Adobe Workfront-Ziele gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)

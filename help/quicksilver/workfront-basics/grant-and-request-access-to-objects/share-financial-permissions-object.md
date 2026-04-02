@@ -6,14 +6,18 @@ description: Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihre
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 7%
+source-wordcount: '587'
+ht-degree: 17%
 
 ---
 
 # Freigeben von Finanzberechtigungen für ein Objekt
+
+{{highlighted-preview}}
 
 Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihrer Zugriffsebene Zugriff zum Anzeigen oder Bearbeiten von Finanzdaten gewähren. Weitere Informationen finden Sie unter [Zugriff auf Finanzdaten gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
@@ -23,7 +27,8 @@ Informationen dazu, was Benutzer in den einzelnen Zugriffsebenen mit Finanzdaten
 
 ## Zugriffsanforderungen
 
-<!--drafted for P&P:
+<!--
+drafted for P&P:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -66,7 +71,7 @@ Informationen dazu, was Benutzer in den einzelnen Zugriffsebenen mit Finanzdaten
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p> 
-   <p>Plan</p> 
+   <p>Abo</p> 
    </td> 
   </tr> 
   <tr> 
@@ -75,12 +80,13 @@ Informationen dazu, was Benutzer in den einzelnen Zugriffsebenen mit Finanzdaten
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von Berechtigungen oder höher für Projekte, Aufgaben und Probleme, die mindestens „Finanzen anzeigen“-Berechtigungen enthalten</p></td> 
+   <td> <p>Anzeigen von Berechtigungen oder höher für Projekte, Aufgaben und Probleme, die mindestens „Finanzen anzeigen“-Berechtigungen enthalten</p>
+   <p><span class="preview">Zeigen Sie Berechtigungen oder höhere Berechtigungen für Projekte, Aufgaben und Probleme an, die mindestens „Abrechnungssätze anzeigen“, „Kostensätze anzeigen“ oder „Allgemeine Finanzberechtigungen anzeigen“ umfassen</span></p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -89,35 +95,37 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 Beachten Sie Folgendes, wenn Sie Objekten Finanzberechtigungen erteilen:
 
 * Sie können Projekten, Aufgaben und Problemen finanzielle Berechtigungen erteilen.
-* Berechtigungen können vererbt werden: Wenn Sie über Anzeigefinanzierungsberechtigungen für ein Projekt verfügen, übernehmen Sie automatisch die Anzeigefinanzierungsberechtigungen für die Aufgaben und Probleme im Projekt.
+* Berechtigungen können geerbt werden: Wenn Sie über die Berechtigung „Allgemeine Finanzen anzeigen“ für ein Projekt verfügen, übernehmen Sie automatisch die Berechtigungen „Allgemeine Finanzen anzeigen“ für die Aufgaben und Probleme im Projekt.
 
 So erteilen Sie einem Objekt finanzielle Berechtigungen:
 
 1. Wechseln Sie zu einer Aufgabe, einem Projekt oder einem Problem, die/das Sie für andere freigeben möchten.
-1. Klicken Sie in der Nähe des Objektnamens auf die ![](assets/more-icon.png) Mehr und dann auf **Freigabe**.
+1. Klicken Sie in der Nähe des Objektnamens auf **Freigeben**.
 
-1. Geben **im Feld `<Object name>` Zugriff auf** den Namen eines Benutzers, Teams, einer Rolle, einer Gruppe oder eines Unternehmens ein, für den bzw. die Sie das Objekt freigeben möchten.
+1. Geben Sie **Feld `<Object name>` Zugriff auf** den Namen eines Benutzers, Teams, einer Rolle, einer Gruppe oder eines Unternehmens ein, für den bzw. die Sie das Objekt freigeben möchten.
 
    >[!TIP]
    >
    >Sie können ein Objekt nur für aktive Benutzer, Teams, Rollen oder Unternehmen freigeben.
 
-1. Wenn rechts neben dem ausgewählten Namen ein Dropdown-Menü angezeigt wird, klicken Sie auf eine der folgenden verfügbaren Optionen:
+1. Klicken Sie auf das Dropdown-Menü rechts neben dem Namen des Benutzers und wählen Sie eine der folgenden Optionen:
 
    * **Anzeigen**
-   * **Mitwirken**
+   * **Beitragen**
    * **Verwalten**
 
-1. Klicken Sie im gleichen Dropdown-Menü auf **Erweiterte Einstellungen** und führen Sie dann einen der folgenden Schritte aus:
+1. Klicken Sie im gleichen Dropdown-Menü auf das Symbol Erweiterte Optionen neben der Berechtigungsstufe und führen Sie dann einen der folgenden Schritte aus:
 
    * Wenn Sie im vorherigen Schritt eine der drei Optionen ausgewählt haben, stellen Sie sicher, dass **Finanzen anzeigen** ausgewählt ist.
    * Wenn Sie im vorherigen Schritt **Finanzen verwalten** ausgewählt haben, stellen Sie sicher, dass **Finanzen verwalten** ausgewählt ist.
+   * <span class="preview">Wählen Sie für jede Berechtigungsstufe **Abrechnungssätze anzeigen**, **Kostensätze anzeigen** und **Allgemeine Finanzen anzeigen** nach Bedarf.</span>
+   * <span class="preview">Nur für **Verwalten** wählen Sie **Abrechnungssätze bearbeiten**, **Kostensätze bearbeiten** und **Allgemeine Finanzen bearbeiten** nach Bedarf.</span>
 
 1. Klicken Sie auf **Speichern**.
 
 ## Finanzielle Berechtigung für alle Freigabeebenen
 
-Die folgende Tabelle zeigt, welche finanziellen Berechtigungen Benutzende erhalten, wenn Sie ihnen Berechtigungen zum Anzeigen, Mitwirken oder Verwalten für Objekte erteilen:
+Die folgende Tabelle zeigt, welche Finanzberechtigungen Benutzende erhalten, wenn Sie ihnen Berechtigungen zum Anzeigen, Mitwirken oder Verwalten für Objekte erteilen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -153,6 +161,42 @@ Die folgende Tabelle zeigt, welche finanziellen Berechtigungen Benutzende erhalt
   </tr> 
   <tr> 
    <td>Finanzen anzeigen</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>  ✓</td> 
+  </tr>
+  <tr> 
+   <td><span class="preview">Abrechnungstarife bearbeiten</span></td> 
+   <td>✓</td> 
+   <td></td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td><span class="preview">Kostensätze bearbeiten</span></td> 
+   <td>✓</td> 
+   <td></td> 
+   <td>  </td> 
+  </tr>  
+  <tr> 
+   <td><span class="preview">Allgemeine Finanzen bearbeiten</span></td> 
+   <td>✓</td> 
+   <td></td> 
+   <td>  </td> 
+  </tr>
+  <tr> 
+   <td><span class="preview">Abrechnungstarife anzeigen</span></td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>  ✓</td> 
+  </tr> 
+  <tr> 
+   <td><span class="preview">Kostensätze anzeigen</span></td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>  ✓</td> 
+  </tr>  
+  <tr> 
+   <td><span class="preview">Allgemeine Finanzen anzeigen</span></td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 

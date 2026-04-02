@@ -8,10 +8,10 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: dadee63c9c7bfb418566d19ee559f1f2a222cb05
+source-git-commit: b16523bf6c37747702efe3b5ecfcc33801526af1
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 3%
+source-wordcount: '834'
+ht-degree: 6%
 
 ---
 
@@ -21,13 +21,15 @@ ht-degree: 3%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">*** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
+{{highlighted-preview}}
+
 Als Adobe Workfront-Administrator können Sie in Workfront Wechselkurse einrichten. Dazu gehört Folgendes:
 
 * Festlegen der Standardwährung für das Workfront-System
 * Wechselkurse in Workfront werden entsprechend den aktuellen Wechselkursen aktualisiert
 * Konfigurieren der Wechselkurse für mehrere Währungen (dadurch können Benutzer eine Standardwährung für einzelne Projekte auswählen)
 
-Wechselkurse wirken sich auf alle Finanzelemente in Workfront aus. Die Basiswährung ist die Standardwährung für alle Projekte im gesamten System, es sei denn, sie wird für ein bestimmtes Projekt oder Aufgabengebiet überschrieben. Die aktuelle Basis- oder Standardwährung wird in der Liste mit einem Symbol ![Standardwährungssymbol](assets/default-icon.png) gekennzeichnet. Sie können auch festlegen, dass Finanzinformationen in Währungen angezeigt werden sollen, die in Ihrem System verfügbar sind und sich von der Basiswährung oder der des Projekts unterscheiden, wenn Sie sie in einem Bericht oder einer Liste anzeigen. Weitere Informationen finden Sie unter [Erstellen von Finanzdatenberichten mit eindeutigen Wechselkursen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
+Wechselkurse wirken sich auf alle Finanzelemente in Workfront aus. Die Basiswährung ist die Standardwährung für alle Projekte und Berichte im gesamten System, es sei denn, sie wird für ein bestimmtes Projekt oder Aufgabengebiet überschrieben. Die aktuelle Basis- oder Standardwährung wird in der Liste mit einem Symbol ![Standardwährungssymbol](assets/default-icon.png) gekennzeichnet. Sie können auch festlegen, dass Finanzinformationen in Währungen angezeigt werden sollen, die in Ihrem System verfügbar sind und sich von der Basiswährung oder der des Projekts unterscheiden, wenn Sie sie in einem Bericht oder einer Liste anzeigen. Weitere Informationen finden Sie unter [Erstellen von Finanzdatenberichten mit eindeutigen Wechselkursen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 
 Weitere Informationen zum Überschreiben der Basiswährung in Workfront für Projekte und Aufgabengebiete finden Sie in den folgenden Artikeln:
 
@@ -42,7 +44,7 @@ Die Art und Weise, wie Sie Wechselkurse einrichten, wirkt sich darauf aus, ob di
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -50,16 +52,17 @@ Die Art und Weise, wie Sie Wechselkurse einrichten, wirkt sich darauf aus, ob di
  <tbody> 
   <tr> 
    <td>Adobe Workfront-Paket</td> 
-   <td><p>Beliebig</p></td> 
+   <td><p>So richten Sie Wechselkurse ein: Beliebiges Workfront- oder Workflow-Paket</p>
+       <p>So wenden Sie ein Gültigkeitsdatum auf Wechselkurse an: Workflow-Ultimate-Paket</p></td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
-   <td>Systemadministrator</td> 
+   <td>Systemadmin</td> 
   </tr> 
  </tbody> 
 </table>
@@ -73,7 +76,6 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 {{step-1-to-setup}}
 
 1. Klicken Sie **Projektvoreinstellungen** > **Wechselkurse**.
-
 1. Klicken Sie **Währung hinzufügen**.
 1. Beginnen Sie im Feld **Währung hinzufügen** mit der Eingabe des Namens der Währung, und klicken Sie dann auf sie, wenn sie in der Dropdown-Liste angezeigt wird.
 1. Geben **im Feld** den Kurs für die gewählte Währung ein, verglichen mit der Währung, die im System als Basiswährung festgelegt ist.
@@ -81,15 +83,41 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um die Basiswährung (Standard) zu ändern:
 
    * Aktivieren Sie das Kontrollkästchen neben dem Währungsnamen und wählen Sie **Standard festlegen** in der Aktionsleiste am unteren Bildschirmrand aus.
-   * Bewegen Sie den Mauszeiger über den Währungsnamen und klicken Sie auf das **&#x200B;**&#x200B;Mehr. Wählen Sie dann **Als Standard festlegen** aus.
+   * Bewegen Sie den Mauszeiger über den Währungsnamen und klicken Sie auf das **** Mehr. Wählen Sie dann **Als Standard festlegen** aus.
 
-     Die neue Standardwährung wird mit dem Symbol aktualisiert.
+     Die neue Standardwährung wird mit dem Symbol ![Standardwährungssymbol](assets/default-icon.png) aktualisiert.
 
      >[!NOTE]
      >
      >Die Standardwährung wird immer zuerst in der Liste angezeigt, unabhängig davon, wie die Liste sortiert ist.
 
 1. (Optional) Um eine Währung zu löschen, aktivieren Sie das Kontrollkästchen neben dem Währungsnamen und wählen **Löschen** in der Aktionsleiste am unteren Bildschirmrand. Die Standardwährung kann nicht gelöscht werden.
+
+<div class="preview">
+
+## Festlegen eines effektiven Datums für die Wechselkurse einer Währung
+
+Termine für die Wechselkurse einer Währung sind so konfiguriert, dass ein Kurswert an einem bestimmten Datum endet und ein anderer Kurs beginnt. Der Wechselkurs für das richtige Datum wird dann in finanziellen Berechnungen verwendet.
+
+{{step-1-to-setup}}
+
+1. Klicken Sie **Projektvoreinstellungen** > **Wechselkurse**.
+1. Wählen Sie in der Liste eine Währung aus und klicken Sie in **Aktionsleiste auf** Daten verwalten“.
+1. Wählen Sie im Dialogfeld **(Währungsname** Gültigkeitskurse) ein **Enddatum** für den aktuellen Wechselkurs.
+
+   Oder
+
+   Wählen Sie ein **Startdatum** für den neuen Wechselkurs.
+
+   Der erste Wechselkurs hat kein Startdatum und der letzte Kurs hat kein Enddatum. Einige Daten werden automatisch hinzugefügt. Wenn beispielsweise der erste Kurs kein Enddatum hat und Sie einen Wechselkurs mit dem Startdatum 1. Dezember 2025 hinzufügen, wird dem ersten Kurs das Enddatum 30. November 2025 hinzugefügt, damit keine Lücken entstehen.
+
+   ![Dialog „Gültige Wechselkurse“](assets/euro-date-effective-rates.png)
+
+1. Geben Sie den neuen Wert **Wechselkurs** ein.
+1. (Optional) Klicken Sie auf **Gültigkeitsdatum hinzufügen**, um weitere Wechselkurse mit Gültigkeitsdaten für diese Währung hinzuzufügen.
+1. Klicken Sie auf **Speichern**.
+
+</div>
 
 ## Benutzern ermöglichen, die Standardwährung für ein Projekt zu ändern
 
@@ -101,7 +129,7 @@ Benutzer können die Standardwährung für ein Projekt ändern, wenn die folgend
 
 * Auf dem Workfront-System ist mehr als eine Währung aktiviert.
 
-Informationen dazu, wie Benutzer die Standardwährung für ein bestimmtes Projekt ändern können, finden Sie unter [Ändern der &#x200B;](../../../manage-work/projects/project-finances/change-project-currency.md).
+Informationen dazu, wie Benutzer die Standardwährung für ein bestimmtes Projekt ändern können, finden Sie unter [Ändern der ](../../../manage-work/projects/project-finances/change-project-currency.md).
 
 ## Benutzern ermöglichen, die Standardwährung für ein Aufgabengebiet zu ändern
 
@@ -116,4 +144,4 @@ Benutzer können die Währung für ein Aufgabengebiet ändern, wenn die folgende
 Informationen dazu, wie Benutzer die Standardwährung für ein bestimmtes Aufgabengebiet ändern können, finden Sie unter [Erstellen und Verwalten von Aufgabengebieten](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 
-<!--The default currency is the currency that is used as the default for all projects and reports throughout the system. The current default is indicated with an icon ![Default currency icon](assets/default-icon.png).-->
+

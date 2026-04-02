@@ -9,10 +9,12 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: 76e32fa6b87583d2b8c296045da731afdb6d1f9a
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 2%
+source-wordcount: '507'
+ht-degree: 10%
 
 ---
 
@@ -24,6 +26,8 @@ ht-degree: 2%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
+{{highlighted-preview}}
+
 Als Adobe Workfront-Administrator oder Gruppenadministrator können Sie Layout-Vorlagen erstellen und ändern, um die folgenden Layout-Elemente in Workfront für Ihre Benutzerinnen und Benutzer anzupassen:
 
 * Hauptmenü
@@ -32,7 +36,8 @@ Als Adobe Workfront-Administrator oder Gruppenadministrator können Sie Layout-V
 * Bedienfeld „Zusammenfassung“
 * Ansichten, Filter und Gruppierungen, die Benutzer mit Listen und Berichten verwenden.
 * Terminologie auf dem Bildschirm
-* Kopfzeilen von Projekten, Aufgaben und Problemen
+* <span class="preview">Objektkopfzeilen</span>
+* <span class="preview">Menü „Mehr“ (Dreipunkt-Menü) für ein Objekt</span>
 
 Nachdem Sie eine Layout-Vorlage erstellt oder geändert haben, können Sie sie einzelnen Benutzern, Teams, Gruppen oder Aufgabengebieten zuweisen.
 
@@ -40,7 +45,7 @@ Das standardmäßige Workfront-Layout jedes Benutzers hängt von seiner Zugriffs
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,7 +58,7 @@ Das standardmäßige Workfront-Layout jedes Benutzers hängt von seiner Zugriffs
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr> 
   </tr> 
   <tr> 
@@ -64,7 +69,7 @@ Das standardmäßige Workfront-Layout jedes Benutzers hängt von seiner Zugriffs
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -76,10 +81,6 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 Weitere Informationen zu Layout-Vorlagen finden Sie unter [Layout-Vorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
 
-<!--removed this from above, but keeping it for a bit, in case it will be needed - known issue around old templates still visible at time:
-* Your older layout templates created in Adobe Workfront Classic have been automatically available in your instance of the new Adobe Workfront experience since they were migrated in early Fall 2019. Layout templates created in Adobe Workfront Classic after that time were migrated in April 2020. We recommend that you update these layout templates in the new Adobe Workfront experience to take advantage of new functionality and to make them even more useful in that environment.
--->
-
 ## Layout-Vorlage erstellen oder ändern
 
 {{step-1-to-setup}}
@@ -88,7 +89,7 @@ Weitere Informationen zu Layout-Vorlagen finden Sie unter [Layout-Vorlagen](../.
 
 1. Klicken Sie **Neue Layout-Vorlage**.
 
-   Oder
+   ODER
 
    Klicken Sie auf den Namen der Layout-Vorlage, die Sie ändern möchten.
 
@@ -97,12 +98,13 @@ Weitere Informationen zu Layout-Vorlagen finden Sie unter [Layout-Vorlagen](../.
 1. Passen Sie Bereiche der Benutzeroberfläche an, wie in den folgenden Artikeln beschrieben:
 
    * [Anpassen des Hauptmenüs mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
-   * [Passen Sie den linken Bereich mithilfe einer Layout-Vorlage an](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
+   * [Anpassen des linken Bedienfelds mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
+   * [Anpassen des Menüs Mehr mithilfe einer Layout-Vorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-more-menu.md)
    * [Passen Sie angeheftete Seiten mithilfe einer Layout-Vorlage an](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
-   * [Passen Sie die Detailansicht mithilfe einer Layout-Vorlage an](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
-   * [Passen Sie das Bedienfeld Zusammenfassung mithilfe einer Layout-Vorlage an](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   * [Anpassen der Detailansicht mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
+   * [Anpassen des Panels „Zusammenfassung“ mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
    * [Anpassen der Startseite mithilfe einer Layout-Vorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
-   * [Landingpage mithilfe einer Layout-Vorlage anpassen](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
+   * [Anpassen der Landingpage mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
    * [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    * [Anpassen der Terminologie der Benutzeroberfläche mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
 
@@ -114,5 +116,5 @@ Weitere Informationen zu Layout-Vorlagen finden Sie unter [Layout-Vorlagen](../.
 
 >[!TIP]
 >
->Sie können eine Layout-Vorlage auch erstellen, indem Sie sie kopieren und die Kopie ändern. Weitere Informationen finden Sie unter [Kopieren einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
+>Sie können eine Layout-Vorlage auch erstellen, indem Sie sie kopieren und die kopierte Version ändern. Weitere Informationen finden Sie unter [Kopieren einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
 

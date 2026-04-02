@@ -7,14 +7,14 @@ description: Der Überblick über die Projektfinanzen ist für die Verwaltung Ih
 author: Lisa
 feature: Work Management
 exl-id: a5e69dea-d0aa-47cd-9b59-6199cec56fe4
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 7%
+source-wordcount: '592'
+ht-degree: 11%
 
 ---
 
-# Felder zur Projektfinanzierung
+# Felder für Projektfinanzen
 
 Der Überblick über die Projektfinanzen ist für die Verwaltung Ihrer Projekte von entscheidender Bedeutung.
 
@@ -26,8 +26,8 @@ Weitere Informationen finden Sie auch in den folgenden Artikeln:
 
 * [Glossar zur Terminologie von Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
 * [Projektfinanzen: Artikelindex](../../../manage-work/projects/project-finances/project-finances-overview.md)
-* [Verwalten von Informationen im Projektfinanzierungsbereich](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
-* [Verwalten der Aufgabenfinanzen im Abschnitt Aufgabendetails](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
+* [Verwalten von Informationen im Bereich für Projektfinanzen](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
+* [Verwalten der Aufgabenfinanzen im Abschnitt „Aufgabendetails“](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 
 ## So berechnet Workfront die Finanzen
 
@@ -95,7 +95,7 @@ Die folgende Tabelle zeigt einige der Finanzen, die Sie in Workfront nachverfolg
   </tr> 
   <tr> 
    <td>Abrechnungssätze</td> 
-   <td> <p>Sie können Abrechnungssätze für Benutzer oder Aufgabengebiete festlegen.</p> <p>Informationen zum Verknüpfen von Benutzern mit Abrechnungssätzen finden Sie unter <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Bearbeiten des Benutzerprofils</a>.</p> <p>Informationen zum Verknüpfen von Aufgabengebieten mit Abrechnungssätzen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Erstellen und Verwalten von Aufgabengebieten</a>.</p> <p>Abrechnungssätze berechnen den Umsatz Ihrer Projekte und Aufgaben. Sie können die Funktion „Abrechnungssätze für ein Projekt oder für eine Firma überschreiben“. </p> <p>Informationen zum Überschreiben von Verrechnungssätzen für Projekte finden Sie unter <a href="../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md" class="MCXref xref">Übersicht über das Überschreiben von Verrechnungssätzen für Aufgabengebiete und die Berechnung des Umsatzes für ein Projekt</a>.</p> <p>Informationen zum Überschreiben von Abrechnungssätzen für Unternehmen finden Sie unter <a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref">Überschreiben von Abrechnungssätzen auf Projektebene mit Abrechnungssätzen auf Firmenebene</a>.</p> </td> 
+   <td> <p>Sie können Abrechnungssätze für Benutzer oder Aufgabengebiete festlegen.</p> <p>Informationen zum Verknüpfen von Benutzern mit Abrechnungssätzen finden Sie unter <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Bearbeiten des Benutzerprofils</a>.</p> <p>Informationen zum Verknüpfen von Aufgabengebieten mit Abrechnungssätzen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Erstellen und Verwalten von Aufgabengebieten</a>.</p> <p>Abrechnungssätze berechnen den Umsatz Ihrer Projekte und Aufgaben. Sie können die Funktion „Abrechnungssätze für ein Projekt oder für eine Firma überschreiben“. </p> <p>Informationen zum Überschreiben von Verrechnungssätzen für Projekte finden Sie unter <a href="../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md" class="MCXref xref">Übersicht über das Überschreiben von Verrechnungssätzen und die Berechnung des Umsatzes für ein Projekt</a>.</p> <p>Informationen zum Überschreiben von Abrechnungssätzen für Unternehmen finden Sie unter <a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref">Überschreiben von Abrechnungssätzen auf Projektebene mit Abrechnungssätzen auf Firmenebene</a>.</p> </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 

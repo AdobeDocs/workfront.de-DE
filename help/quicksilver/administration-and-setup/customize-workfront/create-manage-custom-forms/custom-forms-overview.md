@@ -3,23 +3,25 @@ title: Übersicht über Custom Forms
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: Sie können ein benutzerdefiniertes Formular erstellen, das Benutzerinnen und Benutzer an ein Adobe Workfront-Objekt anhängen können. Benutzer, die an dem Objekt arbeiten, können das benutzerdefinierte Formular ausfüllen, um Informationen über das Objekt bereitzustellen.
+description: Sie können ein benutzerdefiniertes Formular erstellen, das Benutzerinnen und Benutzer an ein Adobe Workfront-Objekt anhängen können. Benutzende, die an dem Objekt arbeiten, können das benutzerdefinierte Formular ausfüllen, um Informationen über das Objekt bereitzustellen.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 34c63e1b7d6323a4cf25514aaff9f923010d8958
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 12%
+source-wordcount: '397'
+ht-degree: 20%
 
 ---
 
 # Übersicht über benutzerdefinierte Formulare
 
+{{highlighted-preview}}
+
 <!--Audited: 12/2023-->
 
-Sie können ein benutzerdefiniertes Formular erstellen, das Benutzerinnen und Benutzer an ein Adobe Workfront-Objekt anhängen können. Benutzer, die an dem Objekt arbeiten, können das benutzerdefinierte Formular ausfüllen, um Informationen über das Objekt bereitzustellen.
+Sie können ein benutzerdefiniertes Formular erstellen, das Benutzerinnen und Benutzer an ein Adobe Workfront-Objekt anhängen können. Benutzende, die an dem Objekt arbeiten, können das benutzerdefinierte Formular ausfüllen, um Informationen über das Objekt bereitzustellen.
 
 Sie können beispielsweise ein benutzerdefiniertes Formular namens „Marketing-Inhaltsforschung“ an ein Projekt anhängen, damit die Benutzer des Projekts Marketing-Inhalte für das Projekt anfordern können:
 
@@ -30,6 +32,16 @@ Sie können beispielsweise ein benutzerdefiniertes Formular namens „Marketing-
 Der Formular-Designer verfügt über einen Arbeitsbereich im Arbeitsbereich-Stil, in dem Sie die Felder, Arbeitsfläche und Feldeinstellungen gleichzeitig anzeigen können. Außerdem können Sie beim Entwerfen des Formulars Felder per Drag-and-Drop in die Abschnitte ziehen. Sie können die Größe auf der rechten Seite des Bildschirms ändern, um mehr Platz für die Feldoptionen zu schaffen.
 
 Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+<div class="preview">
+
+Beispielbild in der Vorschau-Umgebung:
+
+![Beispiel für Formular-Designer](assets/form-designer-example-032526.png)
+
+</div>
+
+Beispielbild in der Produktionsumgebung:
 
 ![Beispiel für Formular-Designer](assets/form-designer-example.png)
 
@@ -52,7 +64,7 @@ Sie können die folgenden Arten von benutzerdefinierten Feldern zu einem benutze
 * Berechnet
 * Datum
 * Kontrollkästchen-Gruppe
-* Optionsschaltflächen
+* Optionsfelder
 * Beschreibender Text
 * Abschnittsumbruch
 * Adobe XD

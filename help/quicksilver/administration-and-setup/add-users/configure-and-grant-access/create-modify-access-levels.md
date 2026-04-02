@@ -8,10 +8,12 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 0f2923851230e830eb647d422f2862a0c5d5472b
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '1468'
-ht-degree: 9%
+source-wordcount: '1612'
+ht-degree: 8%
 
 ---
 
@@ -20,6 +22,8 @@ ht-degree: 9%
 <!--Audited: 12/2023-->
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help. -->
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Als Adobe Workfront-Administrator können Sie benutzerdefinierte Zugriffsebenen erstellen und sie auf Benutzende anwenden. Bei der Arbeit mit Zugriffsebenen ist es wichtig zu verstehen, wie diese mit den Objektberechtigungen zusammenarbeiten, die Benutzende erteilen, wenn sie Objekte miteinander teilen. Weitere Informationen zu Zugriffsebenen finden Sie unter:
 
@@ -191,8 +195,21 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
       <td role="rowheader">Nie zulassen, dass Benutzer Ankündigungen löschen</td> 
       <td>Verhindert, dass Benutzer Ankündigungen im Ankündigungscenter löschen. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">Ankündigungen senden</a>.</td> 
      </tr> 
+     <tr>
+      <td role="rowheader">Zulassen des Zugriffs von Benutzern auf Marken</td> 
+      <td>Ermöglicht Benutzenden den Zugriff auf und die Verwaltung von GenStudio-Marken in Workfront. Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md" class="MCXref xref">Zugriff auf Markenberechtigungen gewähren</a>.</td> 
+     </tr>
     </tbody> 
    </table>
+
+
+1. <span class="preview">(Optional) Um zu verhindern, dass Benutzer mit dieser Zugriffsebene bestimmte Felder anzeigen können, fügen Sie die Felder im Abschnitt „Eingeschränkte Felder hinzufügen“ hinzu.</span>
+
+   <span class="preview">Sie können in diesem Abschnitt sowohl nach nativen als auch nach benutzerdefinierten Feldern suchen. Es gibt eine Beschränkung von 20 eingeschränkten Feldern.</span>
+
+   <span class="preview">Die Felder sind eingeschränkt, wenn die Zugriffsebene einem Benutzer als primäre Zugriffsebene oder über ein Geschäftsprofil zugewiesen wird. Weitere Informationen zu Geschäftsprofilen finden Sie unter [Geschäftsprofile - Übersicht](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).</span>
+
+   <span class="preview">Ein eingeschränktes Feld ist für die Benutzenden im System weiterhin sichtbar, wird jedoch als leer angezeigt oder zeigt K. A. anstelle tatsächlicher Daten an.</span>
 
 1. (Bedingt und optional) Wenn Ihr Workfront-System für Benutzende eingerichtet ist, die mehreren Unternehmen angehören, sollten Sie die Sichtbarkeit für andere Benutzende auf Grundlage dessen einschränken, zu welchem Unternehmen sie gehören (**Personen in anderen Unternehmen sollten nur Benutzer von anzeigen**.
 

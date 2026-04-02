@@ -5,34 +5,32 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: 58d3f084c343bcc404f30edd270017fa5f86eb58
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 0%
+source-wordcount: '566'
+ht-degree: 8%
 
 ---
 
-# Tarifkarte an ein Projekt anhängen
+# Anfügen einer Tarifkarte an ein Projekt
 
 {{highlighted-preview-article-level}}
 
-Tarifkarten speichern mehrere Abrechnungssätze pro Aufgabengebiet, basierend auf dem Standort. Sie könnten ein Aufgabengebiet für Designer mit Sitz in Paris und ein zweites Designer mit Sitz in New York haben, jedes mit unterschiedlichen Abrechnungssätzen. Für Aufgabengebiete auf einer Tarifkarte ist jedoch kein Standort erforderlich. Ein Abrechnungssatz für ein Aufgabengebiet (und möglicherweise den Standort) auf einer Tarifkarte kann auch Gültigkeitsdaten enthalten.
+Tarifkarten speichern mehrere Abrechnungssätze pro Aufgabengebiet, basierend auf Attributen. Sie könnten beispielsweise für Designer in Paris ein Aufgabengebiet für Agency A, für Agency B ein anderes Designer in Paris und für Agency B ein drittes Designer in New York haben, das keiner Agency zugewiesen ist, die jeweils unterschiedliche Abrechnungssätze aufweisen. Für Aufgabengebiete auf einer Tarifkarte sind jedoch keine Attribute erforderlich. Die Attribute dienen als Werkzeuge zur Festlegung detaillierterer Raten. Ein Abrechnungssatz auf einer Tarifkarte kann auch ein Gültigkeitsdatum sein, sodass der Satz an einem bestimmten Datum beginnt und endet.
 
-Wenn Sie einem Projekt eine Tarifkarte beifügen, werden alle Funktionen nach Standort und die zugehörigen Abrechnungssätze zum Projekt hinzugefügt.
+Wenn Sie einem Projekt eine Tarifkarte beifügen, werden alle Funktionen und die zugehörigen Abrechnungssätze zum Projekt hinzugefügt.
 
 >[!NOTE]
 >
->Durch das Anhängen einer Tarifkarte werden alle vorhandenen Abrechnungssätze für das Projekt überschrieben.
+>Wenn Sie eine Tarifkarte anhängen, werden alle vorhandenen Tarifkarten-Abrechnungssätze für das Projekt überschrieben. Abrechnungssatzüberschreibungen, die dem Projekt direkt hinzugefügt wurden, werden nicht entfernt.
 
-Sie können die Abrechnungssätze direkt im Projekt über die Tarifkarte bearbeiten. Dies hat keinen Einfluss auf die auf der Standardtarifkarte gespeicherten Tarife.
+Weitere Informationen zum Erstellen von Tarifkarten finden Sie [Verwalten von Tarifkarten](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
 
-Weitere Informationen zum Erstellen von Tarifkarten finden Sie [Verwalten von Tarifkarten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).
-
-Allgemeine Informationen zum Überschreiben von Abrechnungssätzen für Aufgabengebiete für Projekte und zur Berechnung des Projektumsatzes finden Sie unter [Übersicht über das Überschreiben von Abrechnungssätzen für Aufgabengebiete und die Berechnung des Umsatzes für ein Projekt](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Allgemeine Informationen zum Überschreiben der Verrechnungssätze für Aufgabengebiete für Projekte und zur Berechnung des Projektumsatzes finden Sie unter [Übersicht über das Überschreiben von Verrechnungssätzen und die Berechnung des Umsatzes für ein Projekt](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,43 +38,57 @@ Allgemeine Informationen zum Überschreiben von Abrechnungssätzen für Aufgaben
  <tbody> 
   <tr> 
    <td>Adobe Workfront-Paket</td> 
-   <td>Beliebig</td> 
+   <td>Workflow Ultimate</td> 
   </tr> 
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
-   <td>
-   <p>Standard</p>
-   <p>Plan</p></td> 
+   <td>Standard</td> 
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Projekte und Finanzdaten bearbeiten</p> <p>Administratorzugriff für Aufgabengebiete</p></td> 
+   <td>Zugriff auf Projekte, Finanzdaten und Tarifkarten bearbeiten</td> 
   </tr> 
   <tr> 
    <td>Objektberechtigungen</td> 
-   <td>Verwalten Sie Berechtigungen für das Projekt, das die Option Finanzdaten bearbeiten enthält. </td> 
+   <td>Verwalten Sie die Berechtigungen für das Projekt mit den Berechtigungen zum Bearbeiten von Abrechnungssätzen</td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
-## Tarifkarte an ein Projekt anhängen
+## Anfügen einer Tarifkarte an ein Projekt
 
 1. Gehen Sie zum Projekt.
-1. Klicken **im linken** auf „Abrechnungssätze“.
+1. Klicken Sie **linken** auf „Tarife“ und wählen Sie dann **Abrechnung**.
 1. Klicken Sie **Abrechnungssatz hinzufügen > Tarifkarte anhängen**.
 
-   Die Seite Tarifkarte anhängen wird geöffnet. Weitere Informationen finden Sie unter [Tarifkarten verwalten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).
+   Das **„Tarifkarte**&quot; wird geöffnet. Sie können in der Liste nach einer Tarifkarte suchen.
+
+   ![Fügen Sie ein Tarifkartenfeld hinzu](assets/attach-rate-card-dialog.png)
+
+   >[!NOTE]
+   >
+   >Die Gruppe und das Unternehmen auf den Tarifkarten werden als Filter auf dieser Liste verwendet. Da Projekte auch Gruppen- und Firmenfelder enthalten, verwendet Workfront diese Werte, um die Liste der verfügbaren Tarifkarten auf die für den Projektkontext relevanten einzugrenzen, und nicht auf alle Tarifkarten im gesamten System.
+   >
+   >Die Übereinstimmung muss nicht exakt sein. Tarifkarten mit leeren Gruppen- und/oder Firmenwerten können je nach der Gruppen-/Firmenkonfiguration des Projekts weiterhin angezeigt werden. Wenn beispielsweise für ein Projekt eine Gruppe ausgewählt ist, die Firma jedoch leer ist, werden dieser Gruppe möglicherweise Tarifkarten zugeordnet, selbst wenn die Firma der Tarifkarte unterschiedlich oder leer ist.
 
 1. Wählen Sie die Tarifkarte aus, die dem Projekt hinzugefügt werden soll, und klicken Sie auf **Anhängen**.
 
    Die Tarifkarte und alle zugehörigen Tarife für Aufgabengebiete werden der Liste Abrechnungssätze hinzugefügt.
 
-   ![Tarifkarte zum Projekt hinzugefügt](assets/billing-rates-added-from-rate-card.png)
+   ![Tarifkarte zum Projekt hinzugefügt](assets/rate-card-on-project.png)
 
-   >[!NOTE]
-   >
-   >In der Liste Abrechnungssätze können Sie ein oder mehrere Aufgabengebiete entfernen, die aus einer Tarifkarte stammen. Wenn Sie einen Abrechnungssatz für das Aufgabengebiet aus dem Projekt entfernen, wird er nicht aus der Standardratenkarte entfernt.
+## Entfernen einer Tarifkarte aus einem Projekt
+
+Wenn Sie eine Tarifkarte aus einem Projekt entfernen, werden alle ihre Tarife für Aufgabengebiete entfernt. Sie können keinen individuellen Tarif aus dem Projekt entfernen, der von einer Tarifkarte stammt.
+
+Abrechnungssatzüberschreibungen für Benutzer oder Aufgabengebiete, die direkt zum Projekt hinzugefügt wurden, können entfernt werden, ohne dass die gesamte Tarifkarte entfernt werden muss.
+
+1. Gehen Sie zum Projekt.
+1. Klicken Sie **linken** auf „Tarife“ und wählen Sie dann **Abrechnung**.
+1. Klicken Sie auf das **Entfernen**-Symbol ![Entfernen](assets/remove-icon.png).
+1. Klicken **auf** Bestätigungsmeldung, um die Tarifkarte zu entfernen.
+

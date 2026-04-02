@@ -8,10 +8,10 @@ author: Lisa
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 7dda021d-4cf8-4f65-b187-23fcd935a842
-source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
+source-git-commit: 5a112a0fe9f7e40f57fef82b35860615c9408b95
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 0%
+source-wordcount: '242'
+ht-degree: 55%
 
 ---
 
@@ -25,68 +25,70 @@ Informationen zu Bereichen, in denen Sie Finanzinformationen zu Projekten finden
 
 [Übersicht über die Projektfinanzen](../../../manage-work/projects/project-finances/project-finances-overview-1.md)
 
-[Verwalten von Informationen im Projektfinanzierungsbereich](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
+[Verwalten von Informationen im Bereich für Projektfinanzen](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
 
-[Projektwährung ändern](../../../manage-work/projects/project-finances/change-project-currency.md)
+[Ändern der Projektwährung](../../../manage-work/projects/project-finances/change-project-currency.md)
 
 [In Projektgrundlagen enthaltene Projektfinanzen](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md)
 
 ## Projektmetriken und -berechnungen
 
-[Projektfinanzen neu berechnen](../../../manage-work/projects/project-finances/recalculate-project-finances.md)
+[Neuberechnen der Projektfinanzen](../../../manage-work/projects/project-finances/recalculate-project-finances.md)
 
-[Festlegen der Performance-Index-Methode (PIM)](../../../manage-work/projects/project-finances/set-pim.md)
+[Festlegen der Performance Index Method (PIM)](../../../manage-work/projects/project-finances/set-pim.md)
 
-[Berechnung der Kapitalrendite (ROI)](../../../manage-work/projects/project-finances/calculate-roi.md)
+[Berechnen des ROI](../../../manage-work/projects/project-finances/calculate-roi.md)
 
-[Planleistungsindex (SPI) berechnen](../../../manage-work/projects/project-finances/calculate-spi.md)
+[Berechnen des Zeitplan-Leistungsindex (Schedule Performance Index, SPI)](../../../manage-work/projects/project-finances/calculate-spi.md)
 
-[Schätzung bei Abschluss berechnen (EAC)](../../../manage-work/projects/project-finances/calculate-eac.md)
+[Berechnen des geschätzten Gesamtaufwands (Estimate At Completion, EAC)](../../../manage-work/projects/project-finances/calculate-eac.md)
 
-[Kostenplan-Leistungsindex (CSI) berechnen](../../../manage-work/projects/project-finances/calculate-csi.md)
+[Berechnen des Kostenplan-Leistungsindex (Cost Schedule Performance Index, CSI)](../../../manage-work/projects/project-finances/calculate-csi.md)
 
-[Kostenentwicklungsindex (CPI) berechnen](../../../manage-work/projects/project-finances/calculate-cpi.md)
+[Berechnen des Kostenentwicklungsindex (Cost Performance Index, CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md)
 
-[Budgetierte Kosten der geleisteten Arbeit berechnen (SKAA)](../../../manage-work/projects/project-finances/calculate-bcwp.md)
+[Berechnen der budgetierten Kosten der geleisteten Arbeit (Budgeted Cost of Work Performed, BCWP)](../../../manage-work/projects/project-finances/calculate-bcwp.md)
 
-[Budgetierte Kosten für geplante Arbeiten berechnen (BCWS)](../../../manage-work/projects/project-finances/calculate-bcws.md)
+[Berechnen der budgetierten Kosten für geplante Arbeit (Budgeted Cost of Work Scheduled, BCWS)](../../../manage-work/projects/project-finances/calculate-bcws.md)
 
-[Nettowert berechnen](../../../manage-work/projects/project-finances/calculate-net-value.md)
+[Berechnen des Nettowerts](../../../manage-work/projects/project-finances/calculate-net-value.md)
 
-[Mögliche Risikokosten berechnen](../../../manage-work/projects/project-finances/potential-risk-cost.md)
+[Berechnen der potenziellen Risikokosten](../../../manage-work/projects/project-finances/potential-risk-cost.md)
 
-[Übersicht über den geplanten Projektgewinn](../../../manage-work/projects/project-finances/project-planned-benefit.md)
+[Überblick über den geplanten Nutzen eines Projekts](../../../manage-work/projects/project-finances/project-planned-benefit.md)
 
 ## Kosten, Einnahmen und Ausgaben
 
-[Kosten nachverfolgen](../../../manage-work/projects/project-finances/track-costs.md)
+[Nachverfolgen der Kosten](../../../manage-work/projects/project-finances/track-costs.md)
 
-[Projektkosten verwalten](../../../manage-work/projects/project-finances/manage-project-expenses.md)
+[Verwalten der Projektausgaben](../../../manage-work/projects/project-finances/manage-project-expenses.md)
 
-[Budgetierte Kosten berechnen](../../../manage-work/projects/project-finances/budgeted-cost.md)
+[Berechnen der budgetierten Kosten](../../../manage-work/projects/project-finances/budgeted-cost.md)
 
-[Budgetierte Lohnkosten und budgetierte Stunden für Projekte verstehen](../../../manage-work/projects/project-finances/budgeted-labor-cost.md)
+[Grundlegendes zu budgetierten Lohnkosten und budgetierten Stunden für Projekte](../../../manage-work/projects/project-finances/budgeted-labor-cost.md)
 
-[Geplante Lohnkosten berechnen](../../../manage-work/projects/project-finances/planned-labor-cost.md)
+[Berechnen der geplanten Arbeitskosten](../../../manage-work/projects/project-finances/planned-labor-cost.md)
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode"><a href="../../../manage-work/projects/project-finances/export-billing-record-details.md" class="MCXref xref" xrefformat="{para}">Export billing record details as a PDF file</a> </p>
--->
+[Übersicht über Umsatz- und Kostenhierarchie](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../manage-work/projects/project-finances/how-workfront-calculates-finances.md" class="MCXref xref" xrefformat="{para}">How Adobe Workfront calculates finances </a> </p>
--->
+[Benutzerkostensätze auf Projektebene überschreiben](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md)
 
 ## Abrechnungssätze
 
-[Übersicht über Abrechnung und Umsatz](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)
+[Überblick über Abrechnung und Umsatz](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)
 
-[Rechnungsnachweise erstellen](../../../manage-work/projects/project-finances/create-billing-records.md)
+[Erstellen von Abrechnungseinträgen](../../../manage-work/projects/project-finances/create-billing-records.md)
 
-[Abrechnungssätze auf Projektebene mit Abrechnungssätzen auf Firmenebene überschreiben](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)
+[Überschreiben der Abrechnungssätze auf Projektebene mit Abrechnungssätzen auf Firmenebene](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md)
 
-[Übersicht über das Überschreiben von Abrechnungssätzen für Aufgabengebiete und die Berechnung des Umsatzes für ein Projekt](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
+[Übersicht über das Überschreiben von Abrechnungssätzen und die Berechnung des Umsatzes für ein Projekt](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)
 
-[Aufgabengebiet-Abrechnungssätze auf Projektebene überschreiben](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)
+[Überschreiben von Abrechnungssätzen für Aufgabengebiete auf Projektebene](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)
 
-[Tarifkarte an ein Projekt anhängen](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)
+[Benutzer-Abrechnungssätze auf Projektebene überschreiben](/help/quicksilver/manage-work/projects/project-finances/override-user-billing-rates-project-level.md)
+
+[Anfügen einer Tarifkarte an ein Projekt](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md)
+
+[Aufgabengebiet für Abrechnung einrichten](/help/quicksilver/manage-work/projects/project-finances/set-up-job-role-for-billing.md)
+
+[Definieren eines Überstundenverhältnisses](/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md)

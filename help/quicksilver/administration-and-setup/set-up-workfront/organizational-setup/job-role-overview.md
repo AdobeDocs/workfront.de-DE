@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dead6081-dfd2-4b1a-8be2-32a0ba813bc3
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 1dd0faae822310616e2ca3d067169d5620846736
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 3%
+ht-degree: 8%
 
 ---
 
@@ -22,8 +22,8 @@ Ein Aufgabengebiet stellt eine funktionale Kapazität oder eine Qualifikation da
 Weitere Informationen zum Verwalten von Aufgabengebieten finden Sie in den folgenden Artikeln:
 
 * [Erstellen und Verwalten von Aufgabengebieten](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
-* [Aufgabengebiete löschen](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md)
-* [Aufgabengebiete deaktivieren](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)
+* [Löschen von Aufgabengebieten](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md)
+* [Deaktivieren von Aufgabengebieten](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)
 
 Sie können Aufgabengebiete für die folgenden Zwecke verwenden:
 
@@ -35,8 +35,8 @@ Sie können Aufgabengebiete für die folgenden Zwecke verwenden:
   Beispielsweise empfehlen wir, Aufgaben beim Erstellen von Vorlagen Aufgabengebieten zuzuordnen, wenn noch nicht klar ist, welcher Benutzer der eigentlichen Arbeit möglicherweise später zugewiesen wird. Weitere Informationen finden Sie in den folgenden Artikeln:
 
    * [Erstellen einer Projektvorlage](../../../manage-work/projects/create-and-manage-templates/create-template.md)
-   * [Aufgaben zuweisen](../../../manage-work/tasks/assign-tasks/assign-tasks.md)
-   * [Probleme zuweisen](../../../manage-work/issues/manage-issues/assign-issues.md)
+   * [Zuweisen von Aufgaben](../../../manage-work/tasks/assign-tasks/assign-tasks.md)
+   * [Zuweisen von Problemen](../../../manage-work/issues/manage-issues/assign-issues.md)
 
 * Sie können Aufgabengebiete mit Projekt-, Aufgaben- oder Problem-Genehmigungsprozessen verknüpfen und jeder der Benutzer, die das Aufgabengebiet erfüllen können, kann eine Entscheidung über die Genehmigung treffen. Weitere Informationen finden Sie unter [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 * Sie können die folgenden Objekte für Aufgabengebiete freigeben:
@@ -61,6 +61,6 @@ Sie können Aufgabengebiete für die folgenden Zwecke verwenden:
   >Wenn Benutzenden eine Layout-Vorlage zugewiesen wird, hat diese Vorlage Vorrang vor derjenigen, die ihrer primären Aufgabenrolle zugewiesen wurde. Weitere Informationen finden Sie unter [Zuweisen von Benutzern zu einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
 * Sie können Plänen und Initiativen Aufgabengebiete zuweisen, um die Verfügbarkeit Ihrer Ressourcen bei der Verwendung der [!DNL Adobe Workfront Scenario Planner] zu verwalten. Dies erfordert eine zusätzliche Lizenz für die [!DNL Scenario Planner]. Weitere Informationen finden Sie unter [Erste Schritte mit dem [!DNL Scenario Planner]](../../../scenario-planner/get-started-with-scenario-planning.md).
-* Bei der Arbeit mit Ressourcen aus verschiedenen Ländern können Sie die Abrechnungssätze für Aufgabengebiete überschreiben, die auf unterschiedlichen Währungen basieren. Auf diese Weise können Sie genauere Kosten- und Umsatzbeträge für Arbeitselemente abrufen.
+* Bei der Arbeit mit Ressourcen aus verschiedenen Ländern können Sie die Währung für die effektiven Aufgabengebiets-Kurse ändern. Auf diese Weise können Sie genauere Kosten- und Umsatzbeträge für Arbeitselemente abrufen.
 
   Weitere Informationen finden Sie unter [Erstellen und Verwalten von Aufgabengebieten](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).

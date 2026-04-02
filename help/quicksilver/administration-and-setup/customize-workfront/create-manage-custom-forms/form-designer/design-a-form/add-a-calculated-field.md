@@ -8,16 +8,18 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 6dce5e15a41587cd9febf82ffc0a62d3b7e121d1
+source-git-commit: 5cdaccd9381b02f183b837208eaac4389b0b7a24
 workflow-type: tm+mt
-source-wordcount: '2506'
-ht-degree: 1%
+source-wordcount: '2714'
+ht-degree: 9%
 
 ---
 
 # Hinzufügen berechneter Felder zu einem Formular
 
 <!-- Audited: 5/2025 -->
+
+{{highlighted-preview}}
 
 Sie können ein berechnetes benutzerdefiniertes Feld hinzufügen, das vorhandene Daten verwendet, um neue Daten zu generieren, wenn das benutzerdefinierte Formular an ein Objekt angehängt wird.
 
@@ -58,7 +60,7 @@ Ein berechnetes benutzerdefiniertes Feld kann Folgendes enthalten:
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -110,16 +112,16 @@ So verwenden Sie ein vorhandenes berechnetes benutzerdefiniertes Feld wieder:
 
    >[!NOTE]
    >
-   >Sie können bis zu 500 Felder und Widgets in einem einzelnen benutzerdefinierten Formular hinzufügen. Je nach Komplexität eines Formulars kann es jedoch zu Leistungseinbußen kommen, wenn mehr als 100 auf dem Formular vorhanden sind.
+   >Sie können bis zu 500 Felder in einem einzigen benutzerdefinierten Formular hinzufügen. Je nach Komplexität Ihres benutzerdefinierten Formulars kann es jedoch zu Leistungseinbußen kommen, wenn mehr als 100 Felder in einem Formular vorhanden sind.
    >
    >
-   >Beispiele für komplexe Formulare sind Formulare mit kaskadierenden Parametern, berechneten benutzerdefinierten Datenfeldern und mehreren Wertoptionen in einem einzigen Feld.
+   >Beispiele für komplexe Formulare sind Formulare mit kaskadierenden Parametern, berechnete benutzerdefinierte Datenfelder und Optionen mit mehreren Werten in einem bestimmten Feld.
 
-1. Um Ihre Änderungen zu speichern, klicken Sie auf **Übernehmen** und gehen Sie zu einem anderen Abschnitt über, um mit der Erstellung Ihres Formulars fortzufahren.
+1. Um Ihre Änderungen zu speichern, klicken Sie auf **Anwenden** und wechseln Sie zu einem anderen Abschnitt, um mit der Erstellung Ihres Formulars fortzufahren.
 
    oder
 
-   Klicken Sie **Speichern und schließen**.
+   Klicken Sie auf **Speichern und schließen**.
 
 ## Neues berechnetes Feld hinzufügen
 
@@ -139,7 +141,7 @@ So verwenden Sie ein vorhandenes berechnetes benutzerdefiniertes Feld wieder:
 
    ![Feld in Abschnitt ziehen](assets/drag-field-to-section.png)
 
-1. Konfigurieren Sie auf der rechten Seite des Bildschirms die Optionen, die für den Typ des benutzerdefinierten Felds verfügbar sind, das Sie hinzufügen:
+1. Konfigurieren Sie auf der rechten Seite des Bildschirms die Optionen, die für den Typ des benutzerdefinierten Feldes verfügbar sind, das Sie hinzufügen:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -168,6 +170,22 @@ So verwenden Sie ein vorhandenes berechnetes benutzerdefiniertes Feld wieder:
      <tr>
       <td>Aktiv</td>
       <td><p>Diese Option ist standardmäßig aktiviert.<p><p>Wenn Sie ein Feld als inaktiv festlegen, wird es aus Berichten, Filtern und Ansichten ausgeschlossen und ist nicht mehr in der Feldbibliothek für benutzerdefinierte Formulare verfügbar.</p></td>
+     </tr>
+     <tr>
+      <td><span class="preview">Automatische Berechtigung</span></td>
+      <td><span class="preview"><p>Aktivieren Sie diese Option, damit die Finanzberechtigungen automatisch aus den Feldern stammen, die in der Formel verwendet werden. Die Berechtigungsdefinitionen werden im Feld Finanzberechtigungstyp unten angezeigt.</p><p>Zugriff ist für alle Felder in der Formel erforderlich. Wenn beispielsweise zwei Felder in einem berechneten Feld verwendet werden und auf eines davon die Berechtigung Abrechnung angewendet wurde und auf das zweite die Berechtigung Kosten angewendet wurde, muss der Benutzer über die Berechtigung verfügen, sowohl Abrechnungs- als auch Kostensätze anzuzeigen, um den berechneten Wert anzuzeigen.</p></span></td>
+     </tr>
+     <tr>
+      <td><span class="preview">Berechtigungstyp „Finanzen“</span></td>
+      <td><p><span class="preview">Wenn das Feld Automatische Berechtigung deaktiviert ist, können Sie den Finanzberechtigungstyp auswählen, den die Benutzer haben müssen, bevor sie dieses benutzerdefinierte Feld anzeigen oder bearbeiten können. Für berechnete Felder ist ein beliebiges Format zulässig. Die in der Formel verwendeten Felder bestimmen, ob dieses Feld aktiv ist. Wenn das Berechtigungsfeld leer ist, unterstützen die Felder in der Formel nicht die Finanzberechtigungen.</span></p>
+      <ul span class="preview">
+      <li><p><strong>Keine Berechtigungen erforderlich:</strong> Alle Benutzer können dieses Feld sehen</p></li>
+      <li><p><strong>Allgemein:</strong> Benutzer müssen über Berechtigungen zum Bearbeiten oder Anzeigen von General Finance verfügen</p></li>
+      <li><p><strong>Rechnung: </strong> Benutzer müssen über die Berechtigung zum Bearbeiten oder Anzeigen von Abrechnungssätzen verfügen</p></li>
+      <li><p><strong>Kosten:</strong> Benutzer müssen berechtigt sein, Kostensätze zu bearbeiten oder anzuzeigen</p></li>
+      </ul>
+      <p><span class="preview">Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Einschränken des Zugriffs auf Finanzdaten in benutzerdefinierten Feldern</a>.</span></p>
+      </td>
      </tr>
     </tbody> 
    </table>
@@ -329,8 +347,8 @@ Eine Berechnung beginnt normalerweise mit einem Ausdruck, gefolgt von Klammern m
     </tbody> 
    </table>
 
-1. Um Ihre Änderungen zu speichern, klicken Sie auf **Übernehmen** und gehen Sie zu einem anderen Abschnitt über, um mit der Erstellung Ihres Formulars fortzufahren.
+1. Um Ihre Änderungen zu speichern, klicken Sie auf **Anwenden** und wechseln Sie zu einem anderen Abschnitt, um mit der Erstellung Ihres Formulars fortzufahren.
 
    oder
 
-   Klicken Sie **Speichern und schließen**.
+   Klicken Sie auf **Speichern und schließen**.

@@ -8,14 +8,18 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 2%
+source-wordcount: '960'
+ht-degree: 4%
 
 ---
 
 # Zuweisen von Benutzern zu einer Layout-Vorlage
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Sie können eine von Ihnen erstellte Layout-Vorlage allen Benutzern, Aufgabengebieten, Teams oder Gruppen zuweisen, die sie verwenden müssen.
 
@@ -27,7 +31,9 @@ Sie können demselben Namen mehrere verschiedene Layout-Vorlagen zuweisen. Weite
 
 Weitere Informationen zu Layout-Vorlagen finden Sie unter [Layout-Vorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
 
-Weitere Informationen zu Layout-Vorlagen für Gruppen finden [&#x200B; unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+
+<span class="preview">Informationen zu Layout-Vorlagen und Geschäftsprofilen finden Sie unter [Geschäftsprofile - Übersicht](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).</span>
 
 ## Zugriffsanforderungen
 
@@ -44,7 +50,7 @@ Weitere Informationen zu Layout-Vorlagen für Gruppen finden [&#x200B; unter „
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr> 
   </tr> 
   <tr> 
@@ -55,7 +61,7 @@ Weitere Informationen zu Layout-Vorlagen für Gruppen finden [&#x200B; unter „
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -68,17 +74,17 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    >Wenn Sie mit der Layout-Vorlage zufrieden sind, empfehlen wir, sie zu testen, wie in [Testen einer neuen Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md) beschrieben.
 
 1. Klicken **im oberen** der Seite auf „Zuweisen zu“.
-1. Klicken Sie im angezeigten Feld auf **Benutzer, Aufgabengebiet, Team oder Gruppe hinzufügen**, geben Sie den Namen eines Benutzers, Aufgabengebiets, Teams oder einer Gruppe ein und klicken Sie auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
+1. Klicken Sie im angezeigten Feld auf **<span class="preview"> Benutzer, Aufgabengebiet, Team, Gruppe oder Zugriffsebene hinzufügen</span>**, geben Sie den Namen eines Benutzers, Aufgabengebiets, Teams, Gruppe oder Zugriffsebene ein <span class="preview">oder Zugriffsebene</span> und klicken Sie auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
    Kürzlich hinzugefügte Namen werden mit blauem Hintergrund angezeigt. Dies ist hilfreich, wenn Sie eine vorhandene Layout-Vorlage bearbeiten, da Sie die soeben hinzugefügten Namen von den bereits in der Liste vorhandenen unterscheiden können.
 
-   Rechts neben dem Namen eines Benutzers![&#x200B; eines Aufgabengebiets, Teams oder einer Gruppe, &#x200B;](assets/info-icon.png) bereits einer anderen Layout-Vorlage zugewiesen ist, wird ein Infosymbol (Infosymbol) angezeigt. Sie können den Mauszeiger über das Symbol bewegen, um den Namen dieser Layout-Vorlage anzuzeigen und zu entscheiden, ob Sie die vorhandene Zuweisung überschreiben möchten.
+   Rechts neben dem Namen ![ Benutzers, des Aufgabengebiets, des Teams, der Gruppe oder der Zugriffsebene wird ein Infosymbol ](assets/info-icon.png)Infosymbol<span class="preview"> angezeigt, </span> bereits einer anderen Layoutvorlage zugewiesen ist. Sie können den Mauszeiger über das Symbol bewegen, um den Namen dieser Layout-Vorlage anzuzeigen und zu entscheiden, ob Sie die vorhandene Zuweisung überschreiben möchten.
 
-1. Wiederholen Sie die beiden vorherigen Schritte, um die Layout-Vorlage ggf. anderen Benutzern, Aufgabengebieten, Teams oder Gruppen zuzuweisen.
+1. Wiederholen Sie die beiden vorherigen Schritte, um die Layout-Vorlage nach Bedarf anderen Benutzern, Aufgabengebieten, Teams, Gruppen <span class="preview">oder Zugriffsebenen</span> zuzuweisen.
 
    Sie können bis zu 100 Benutzer gleichzeitig zuweisen.
 
-1. Klicken **auf**&#x200B;**Fertig“ und dann in der linken unteren** auf „Speichern und schließen“.
+1. Klicken **auf****Fertig“ und dann in der linken unteren** auf „Speichern und schließen“.
 
    Dieser Schritt schließt den Prozess der Erstellung und Zuweisung einer Layout-Vorlage ab.
 
@@ -90,6 +96,7 @@ Sie und andere Workfront-Admins können demselben Benutzenden auf vier verschied
 * Einem bestimmten Aufgabengebiet zuweisen, das der Benutzer hat
 * Für ein bestimmtes Team ist der Benutzer aktiv.
 * Für eine bestimmte Gruppe ist der Benutzer in
+* <span class="preview">Bis zu einer bestimmten Zugriffsebene, der der Benutzer zugewiesen ist</span>
 
 Es ist jedoch immer nur eine Layoutvorlage für den Benutzer sichtbar. Die sichtbare Vorlage wird durch die folgende Prioritätshierarchie bestimmt:
 
@@ -106,9 +113,12 @@ Es ist jedoch immer nur eine Layoutvorlage für den Benutzer sichtbar. Die sicht
 
   Nur die Vorlage, die der Hauptgruppe eines Benutzers zugewiesen ist, ist für den Benutzer sichtbar. Vorlagen, die einer der anderen Gruppen zugewiesen sind, sind nicht sichtbar.
 
+* <span class="preview"> Zugriffsebene: Wenn der Person keine Layoutvorlage als einzelner Benutzer, als Benutzer mit einem primären Aufgabengebiet, als Mitglied eines Home-Teams oder als Mitglied einer Home-Gruppe zugewiesen ist, wird ihr die Vorlage angezeigt, die ihrer Zugriffsebene zugewiesen ist.</span>
+
 ## Große Anzahl von Benutzern, die einer Layout-Vorlage zugewiesen sind
 
-<!--If you edit a layout template which is assigned to more than 2000 users and make changes to it, only the first 2000 users will be retained on the layout template and will see the changes you made. The layout template is removed from all others.
+<!--
+If you edit a layout template which is assigned to more than 2000 users and make changes to it, only the first 2000 users will be retained on the layout template and will see the changes you made. The layout template is removed from all others.
 -->
 Wenn Sie einer Layout-Vorlage mehr als 2.000 Benutzer zuweisen müssen, empfehlen wir eine der folgenden Aktionen:
 

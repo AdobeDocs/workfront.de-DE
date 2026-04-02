@@ -6,10 +6,12 @@ description: Workfront-Admins und Benutzende mit einer Plan- oder Arbeitslizenz 
 author: Courtney
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: 4261febe4af8628508083fa18e4767e3fd3e1136
+last-update: 2026-04-01T18:03:50Z
+git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
+source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 10%
+source-wordcount: '494'
+ht-degree: 9%
 
 ---
 
@@ -50,7 +52,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 1. Klicken Sie auf **[!UICONTROL Team wechseln]**-Symbol ![Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
-1. Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon.png) und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
+1. Klicken Sie auf die **** Mehr![](assets/more-icon.png) und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
 
    Nur Team-Mitglieder mit entweder einer [!UICONTROL Standard], [!UICONTROL Plan] oder [!UICONTROL Work]-Lizenz sehen diese Option.
 
@@ -86,5 +88,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
       * [Konfigurieren der Schaltfläche [!UICONTROL Fertig] für Aufgaben](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
       * [Konfigurieren der Schaltfläche [!UICONTROL Fertig] für Probleme](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
+
+   * Ein benutzerdefiniertes Formular anhängen. Weitere Informationen finden Sie unter [Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
