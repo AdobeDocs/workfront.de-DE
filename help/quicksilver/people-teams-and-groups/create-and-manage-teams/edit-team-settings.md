@@ -52,7 +52,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 1. Klicken Sie auf **[!UICONTROL Team wechseln]**-Symbol ![Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
-1. Klicken Sie auf die **** Mehr![](assets/more-icon.png) und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
+1. Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon.png) und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
 
    Nur Team-Mitglieder mit entweder einer [!UICONTROL Standard], [!UICONTROL Plan] oder [!UICONTROL Work]-Lizenz sehen diese Option.
 

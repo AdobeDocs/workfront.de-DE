@@ -245,7 +245,7 @@ Beachten Sie bei der Berechnung des geplanten Umsatzes auf der Grundlage mehrere
    * Eine manuelle Überschreibungsrate für das Aufgabengebiet in der Aufgabe
    * Die Quote für Projektaufgabengebiete, die von einer Tarifkarte oder von der Systemebene stammen kann.
 
-  Weitere Informationen dazu, welches Aufgabengebiet zur Berechnung des geplanten Umsatzes verwendet wird, finden Sie [ Abschnitt „Übersicht über Umsatz- und ](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)&quot; und [Umsatzberechnungen für Aufgaben basierend auf Benutzer- und ](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments)&quot; im Artikel [Übersicht über Abrechnung und Umsatz](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+  Weitere Informationen dazu, welches Aufgabengebiet zur Berechnung des geplanten Umsatzes verwendet wird, finden Sie [&#x200B; Abschnitt „Übersicht über Umsatz- und &#x200B;](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)&quot; und [Umsatzberechnungen für Aufgaben basierend auf Benutzer- und &#x200B;](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments)&quot; im Artikel [Übersicht über Abrechnung und Umsatz](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 </div>
 
@@ -352,7 +352,7 @@ Beachten Sie bei der Berechnung des geplanten Umsatzes für Benutzer in verschie
 
 * Die **Geplanten Stunden** werden gleichmäßig über die **Dauer** der Aufgabe verteilt.
 
-* Die **Dauer** ist der Zeitraum zwischen dem **geplanten Start****Datum** und dem **geplanten Abschlussdatum** der Aufgabe. Da das **Geplantes Startdatum** und **Geplantes Abschlussdatum** der Aufgaben je nach Zeitzonen der Benutzer, die die Aufgabe angezeigt haben, unterschiedlich sein können, kann die Anzahl der geplanten Stunden pro Tag für zwei Benutzer in zwei verschiedenen Zeitzonen unterschiedlich sein.
+* Die **Dauer** ist der Zeitraum zwischen dem **geplanten Start**&#x200B;**Datum** und dem **geplanten Abschlussdatum** der Aufgabe. Da das **Geplantes Startdatum** und **Geplantes Abschlussdatum** der Aufgaben je nach Zeitzonen der Benutzer, die die Aufgabe angezeigt haben, unterschiedlich sein können, kann die Anzahl der geplanten Stunden pro Tag für zwei Benutzer in zwei verschiedenen Zeitzonen unterschiedlich sein.
 
 * Der Betrag der geplanten Stunden pro Tag ändert den geplanten Umsatz eines Projekts nicht, wenn der Abrechnungssatz des Aufgabengebiets nicht geändert wird oder wenn nur eine Überschreibung des Abrechnungssatzes erfolgt. Selbst wenn zwei Benutzer aus zwei verschiedenen Zeitzonen unterschiedliche geplante Stunden pro Tag sehen, sind die geplanten Gesamteinnahmen des Projekts zwischen den beiden Benutzern identisch.
 

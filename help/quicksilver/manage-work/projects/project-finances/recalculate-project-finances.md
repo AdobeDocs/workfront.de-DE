@@ -144,9 +144,9 @@ Wenn sich Ihre Sätze während der Laufzeit eines Projekts ändern und Ihre Kost
 
 Sie können die Finanzen von Projekten in Workfront auf der Projektseite oder in einer Projektliste oder einem Bericht neu berechnen.
 
-Sie können die Finanzen neu berechnen, während Sie sie stapelweise bearbeiten. Weitere Informationen finden Sie im Abschnitt [Manuelles Neuberechnen der Finanzen in ](#manually-recalculate-finances-in-bulk)) in diesem Artikel.
+Sie können die Finanzen neu berechnen, während Sie sie stapelweise bearbeiten. Weitere Informationen finden Sie im Abschnitt [Manuelles Neuberechnen der Finanzen in &#x200B;](#manually-recalculate-finances-in-bulk)) in diesem Artikel.
 
-1. Wechseln Sie zu dem Projekt, für das Sie die Finanzen neu berechnen möchten, und klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/qs-more-icon-on-an-object.png) rechts neben dem Projektnamen.
+1. Wechseln Sie zu dem Projekt, für das Sie die Finanzen neu berechnen möchten, und klicken Sie auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/qs-more-icon-on-an-object.png) rechts neben dem Projektnamen.
 
    ![Dropdown „Mehr“ auf Projektebene](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
@@ -154,7 +154,7 @@ Sie können die Finanzen neu berechnen, während Sie sie stapelweise bearbeiten.
 
    Gehen Sie zu einer Projektliste oder einem Bericht, wählen Sie ein oder mehrere Projekte aus und klicken Sie dann oben in der Liste auf das **Mehr**-Symbol ![](assets/qs-more-icon-on-an-object.png)Mehr Menü).
 
-   ![Ausdrücke neu ](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Ausdrücke neu &#x200B;](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
@@ -180,7 +180,7 @@ So berechnen Sie die Finanzen mehrerer Projekte manuell neu:
 1. Zu einer Projektliste gehen.
 1. Wählen Sie mehrere Projekte in der Liste aus und klicken Sie dann oben in der Liste auf **Mehr**-Symbol ![](assets/qs-more-icon-on-an-object.png)Mehr Menü).
 
-   ![Ausdrücke neu ](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Ausdrücke neu &#x200B;](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >

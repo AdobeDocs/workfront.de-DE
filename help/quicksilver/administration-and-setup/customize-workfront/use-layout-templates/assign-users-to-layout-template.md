@@ -31,7 +31,7 @@ Sie können demselben Namen mehrere verschiedene Layout-Vorlagen zuweisen. Weite
 
 Weitere Informationen zu Layout-Vorlagen finden Sie unter [Layout-Vorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
 
-Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [&#x200B; unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 <span class="preview">Informationen zu Layout-Vorlagen und Geschäftsprofilen finden Sie unter [Geschäftsprofile - Übersicht](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).</span>
 
@@ -78,13 +78,13 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
    Kürzlich hinzugefügte Namen werden mit blauem Hintergrund angezeigt. Dies ist hilfreich, wenn Sie eine vorhandene Layout-Vorlage bearbeiten, da Sie die soeben hinzugefügten Namen von den bereits in der Liste vorhandenen unterscheiden können.
 
-   Rechts neben dem Namen ![ Benutzers, des Aufgabengebiets, des Teams, der Gruppe oder der Zugriffsebene wird ein Infosymbol ](assets/info-icon.png)Infosymbol<span class="preview"> angezeigt, </span> bereits einer anderen Layoutvorlage zugewiesen ist. Sie können den Mauszeiger über das Symbol bewegen, um den Namen dieser Layout-Vorlage anzuzeigen und zu entscheiden, ob Sie die vorhandene Zuweisung überschreiben möchten.
+   Rechts neben dem Namen ![&#x200B; Benutzers, des Aufgabengebiets, des Teams, der Gruppe oder der Zugriffsebene wird ein Infosymbol &#x200B;](assets/info-icon.png)Infosymbol<span class="preview"> angezeigt, </span> bereits einer anderen Layoutvorlage zugewiesen ist. Sie können den Mauszeiger über das Symbol bewegen, um den Namen dieser Layout-Vorlage anzuzeigen und zu entscheiden, ob Sie die vorhandene Zuweisung überschreiben möchten.
 
 1. Wiederholen Sie die beiden vorherigen Schritte, um die Layout-Vorlage nach Bedarf anderen Benutzern, Aufgabengebieten, Teams, Gruppen <span class="preview">oder Zugriffsebenen</span> zuzuweisen.
 
    Sie können bis zu 100 Benutzer gleichzeitig zuweisen.
 
-1. Klicken **auf****Fertig“ und dann in der linken unteren** auf „Speichern und schließen“.
+1. Klicken **auf**&#x200B;**Fertig“ und dann in der linken unteren** auf „Speichern und schließen“.
 
    Dieser Schritt schließt den Prozess der Erstellung und Zuweisung einer Layout-Vorlage ab.
 
