@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 5e0be9d9-efa5-4b16-bd56-f9c85bc57ced
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: c4716157a6fdf667f7e608d0c37399f57ec1bbfe
 workflow-type: tm+mt
-source-wordcount: '1843'
+source-wordcount: '1569'
 ht-degree: 2%
 
 ---
@@ -80,7 +80,7 @@ Beachten Sie beim Hinzufügen einer Seite „Verbundene Datensätze“ zu einem 
    <ul><li><p>Eine Adobe Experience Manager Assets-Lizenz und eine Integration zwischen AEM Assets und Workfront, um AEM-Assets mit Planungs-Datensatztypen zu verbinden.</p>
    <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront für Experience Manager Assets und Assets Essentials: Artikelindex</a>. </p></li>
    <li><p> Eine Adobe GenStudio for Performance Marketing-Lizenz zum Verbinden von Datensatztypen mit GenStudio Brands</p>
-   <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>
 
@@ -155,7 +155,7 @@ Weitere Informationen finden Sie im Abschnitt [Verwalten der Seite „Verbundene
 
    ODER
 
-   Bewegen Sie den Mauszeiger über den Namen der Registerkarte und klicken Sie dann auf **Mehr** ![Mehr &#x200B;](assets/more-menu.png) und klicken Sie dann auf **Umbenennen**, um die Registerkarte in neue verbundene Datensatzerseite umzubenennen.
+   Bewegen Sie den Mauszeiger über den Namen der Registerkarte und klicken Sie dann auf **Mehr** ![Mehr ](assets/more-menu.png) und klicken Sie dann auf **Umbenennen**, um die Registerkarte in neue verbundene Datensatzerseite umzubenennen.
 
 1. (Optional) Bewegen Sie den Mauszeiger über den Namen der Registerkarte „Verbundene Datensatzerseite“ und klicken Sie auf **Mehr** ![Mehr](assets/more-menu.png) und dann auf **Löschen**, um die Registerkarte zu entfernen.
 
@@ -303,38 +303,47 @@ Wenn Sie eine Seite mit verbundenen Datensätzen für verbundene Workfront-Proje
 
 1. Wechseln Sie zu einer Seite vom Typ Datensatz und klicken Sie auf den Namen eines Datensatzes. Dadurch wird die Vorschauseite des Datensatzes geöffnet.
 1. Klicken Sie auf die Registerkarte für eine Seite mit verbundenen Datensätzen, auf der Workfront-Projekte angezeigt werden.
-Die mit dem ausgewählten Datensatz verbundenen Projekte werden in der Listenansicht angezeigt.
-1. Klicken Sie **Datensätze verbinden** in der oberen rechten Ecke der Seite „Verbundene Datensätze“, um vorhandene Projekte zu verbinden.
 
-   Weitere Informationen finden Sie unter [Verbinden von Datensätzen](/help/quicksilver/planning/records/connect-records.md).
-1. Doppelklicken Sie in der Listenansicht in eine Zelle, um die Felder eines Projekts zu bearbeiten. Einige Felder sind schreibgeschützt.
-1. Führen Sie einen der folgenden Schritte aus, um die Listenansicht zu bearbeiten:
+   ![Seite „Mit Projekten verbundene Datensätze“](assets/projects-connected-records-page-table.png)
 
-   * Klicken Sie auf **Neue Zeile**, um ein Projekt ohne Vorlage zu erstellen. Das neue Projekt wird automatisch mit dem aktuellen Datensatz verbunden.
+   Die mit dem ausgewählten Datensatz verbundenen Projekte werden in der Listenansicht angezeigt.
 
-     Weitere Informationen finden Sie unter [Erstellen von Workfront-Objekten aus Workfront Planning beim Verbinden mit Datensätzen](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
-   * Klicken Sie **&#x200B; oben rechts in &#x200B;** Ansicht auf Datensätze erstellen , um vorhandene Projekte hinzuzufügen. Projekte werden sofort mit dem ausgewählten Datensatz verbunden.
+   Informationen zum Verwalten oder Bearbeiten von Objekten in der Listenansicht finden Sie unter [Verwalten der Listenansicht](/help/quicksilver/planning/views/manage-the-list-view.md).
 
-   * Bewegen Sie den Mauszeiger über einen Projektnamen in der Liste und klicken Sie auf das Menü **Mehr** [Mehr](assets/more-menu.png) und klicken Sie auf **Anzeigen**, um das Projekt in einer anderen Registerkarte zu öffnen
+<!-- 
+removed this part, so we won't have to have duplicate information to keep up with for the list view in Planning: 
+1. Click **Connect records** in the upper-right corner of the connected record page to connect existing projects.
 
-     Oder
+   For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+1. Double-click inside a cell in the list view to edit a project's fields. Some fields are read-only. 
+1. Do one of the following to edit the list view: 
 
-     Wählen Sie ein oder mehrere Projekte aus, und klicken Sie in der Aktionsleiste unten in der Liste auf **Löschen** oder **Trennen**, um das Element aus der Liste zu entfernen.
+   * Click **New row** to create a project without a template. The new project is automatically connected to the current record.
 
+      For more information, see [Create Workfront objects from Workfront Planning as you connect them to records](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
+   * Click **Create records **in the upper-right corner of the view to add existing projects. Projects are immediately connected to the selected record. 
 
-   * Klicken Sie auf das Dropdown-Menü „Ansichten“ und dann auf **Neue Ansicht**, um eine neue Ansicht für die Seite hinzuzufügen. Gehen Sie dann wie folgt vor oder klicken Sie auf das **Mehr**-Menü ![Mehr](assets/more-menu.png) rechts neben einem neuen Namen und dann **Umbenennen**, **Freigeben** oder **Löschen** Ansicht.
+   * Hover over a project name in the list and click the **More** menu [More menu](assets/more-menu.png) and click **View** to open the project in another tab
+     
+      Or
 
-     Sie können Systemansichten oder Ansichten, für die Sie keine Verwaltungsberechtigungen haben, nicht umbenennen, freigeben oder löschen.
+      Select one or more projects, and from the actions bar at the bottom of the list, click **Delete** or **Disconnect** to remove the item from the list.
+      
 
-     ![Menü „Mehr anzeigen“ auf der Seite „Projekte mit verbundenen Datensätzen“](assets/view-more-menu-projects-connected-records-page.png)
+   * Click the views dropdown menu, and click **New view** to add a new view for the page, then do the following, or click the **More** menu ![More menu](assets/more-menu.png) to the right of a new name, then **Rename**, **Share**, or **Delete** the view. 
 
-   * Klicken Sie auf eine der folgenden Optionen, um die Elemente der Ansicht zu aktualisieren:
+      You cannot rename, share or delete System Views or views you do not have Manage permissions to.
 
-      * **Filter**, um die Informationsmenge in der Liste zu begrenzen
-      * **Spalten**, um Spalten auszublenden oder ihre Reihenfolge zu ändern
-      * Klicken Sie auf das Symbol **+** in der rechten oberen Ecke der Tabellenansicht, um der Liste vorhandene Felder hinzuzufügen. Felder müssen vorhanden sein, bevor Sie sie hinzufügen können.
+      ![View more menu on Projects Connected records page](assets/view-more-menu-projects-connected-records-page.png)
 
-   Weitere Informationen zum Verwalten von Objekten in einer Listenansicht finden Sie unter [Verwalten der &#x200B;](/help/quicksilver/planning/views/manage-the-list-view.md)&quot;.
+   * Click one of the following to update the view's elements: 
+
+      * **Filter** to limit the amount of information in the list
+      * **Columns** to hide columns or change their order
+      * The **+** icon in the upper-right corner of the table view to add existing fields to the list. Fields must exist before you can add them. 
+
+   For more information about managing objects in a list view, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md).
+-->
 
 <!--
  this is repetitive from an earlier section above: 

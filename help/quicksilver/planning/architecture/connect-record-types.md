@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: c4716157a6fdf667f7e608d0c37399f57ec1bbfe
 workflow-type: tm+mt
-source-wordcount: '2982'
+source-wordcount: '3044'
 ht-degree: 4%
 
 ---
@@ -94,7 +94,7 @@ Ein Beispiel für das Verbinden von Datensatztypen und Datensätzen finden Sie u
    <ul><li><p>Eine Adobe Experience Manager Assets-Lizenz und eine Integration zwischen AEM Assets und Workfront, um AEM-Assets mit Planungs-Datensatztypen zu verbinden.</p>
    <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront für Experience Manager Assets und Assets Essentials: Artikelindex</a>. </p></li>
    <li><p> Eine Adobe GenStudio for Performance Marketing-Lizenz zum Verbinden von Datensatztypen mit GenStudio Brands</p>
-   <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -275,13 +275,17 @@ Old:
    * **Mehrfachauswahl**: Wählen Sie diese Option aus, damit ein Datensatz aus dem aktuellen Datensatztyp mit mehreren Datensätzen aus dem Verbindungs-Datensatztyp verbunden werden kann.
    * **Einzelauswahl**: Wählen Sie diese Option aus, damit ein Datensatz aus dem aktuellen Datensatztyp mit einem Datensatz aus dem Verbindungs-Datensatztyp verbunden werden kann.
 
-1. Wählen Sie das **Entsprechendes Feld für verknüpften Datensatztyp erstellen**. Wenn diese Option aktiviert ist, wird zusätzlich zum Verbindungsfeld, das zum aktuellen Datensatztyp hinzugefügt wird, ein Verbindungsfeld für den Datensatztyp erstellt, mit dem Sie verbunden sind. Dies ist standardmäßig deaktiviert.
+1. Wählen Sie das **Entsprechendes Feld für verknüpften Datensatztyp erstellen**. Wenn diese Option aktiviert ist, wird ein Verbindungsfeld für den Datensatztyp erstellt, mit dem Sie eine Verbindung herstellen, zusätzlich zu dem Verbindungsfeld, das zum aktuellen Datensatztyp hinzugefügt wird. Dies ist standardmäßig deaktiviert.
 
    >[!TIP]
    >
    >* Zusätzlich zu der Beschränkung von 30 Verbindungsfeldern für einen Datensatztyp gibt es eine Beschränkung von 500 Feldern für einen Datensatztyp. Es wird empfohlen, diese Einstellung deaktiviert zu lassen, insbesondere für taxonomische Datensatztypen, um ein Erreichen dieser Grenze zu vermeiden.
    >
    >* Die Auswahl **Felds „Entsprechendes Feld für verknüpften Datensatztyp erstellen** ist eine Voraussetzung für die Erstellung von Hierarchien.
+   >
+   >* Ein verknüpftes Datensatzfeld wird für Objekte aus einem anderen Programm in den jeweiligen Programmen nicht erstellt. Beispielsweise wurde kein Feld für Workfront-Objekte erstellt, die mit Planungsdatensätzen verbunden sind.
+   >
+   >   
 
 1. (Bedingt) Wenn Sie **Entsprechendes Feld für verknüpften Datensatztyp erstellen** aktiviert haben, wählen Sie eine der folgenden Optionen, um anzugeben, mit wie vielen Datensätzen Benutzende eine Verbindung herstellen können:
 
@@ -306,7 +310,7 @@ Old:
 
    >[!NOTE]
    >
-   >Ihr Workfront-Administrator kann Workfront Planning-Felder über die Metadatenzuordnung in Workfront Experience Manager Assets-Feldern zuordnen. Weitere Informationen finden Sie unter &quot;[&#x200B; der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >Ihr Workfront-Administrator kann Workfront Planning-Felder über die Metadatenzuordnung in Workfront Experience Manager Assets-Feldern zuordnen. Weitere Informationen finden Sie unter &quot;[ der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Bedingt) Wenn Sie eine Verbindung zu Experience Manager Assets, zu einem Workfront Planning-Datensatztyp oder zu einer GenStudio-Marke herstellen möchten, wählen Sie im Bereich „Erscheinungsbild des **&quot; eine der folgenden Optionen**:
@@ -329,7 +333,14 @@ Old:
 
 1. Wählen Sie die **Suchfelder auswählen**, um Felder aus dem Datensatztyp hinzuzufügen, mit dem Sie eine Verbindung herstellen. Die Suchfelder sind Felder, die mit dem Datensatz oder Objekttyp verknüpft sind, mit dem Sie eine Verknüpfung herstellen. Durch Verknüpfen werden Informationen des Datensatzes oder Objekts angezeigt, mit dem Sie eine Verknüpfung herstellen, und zwar für den Datensatz, von dem aus eine Verknüpfung hergestellt wird. Dies ist standardmäßig ausgewählt.
 
+   <!--
+    When reference fields are coming, change the first bullet in the TIP below with this: 
+    >* In the Production environment, you cannot add Workfront reference fields (for example, the Project Group or Company from a Workfront Project) as lookup fields in Planning. <span class="preview">You can add Workfront reference fields as lookup fields in the Preview environment.</span>
+    -->
+
    >[!TIP]
+   >
+   >* Sie können keine Referenzfelder aus einer anderen Anwendung als Lookup-Felder hinzufügen. Sie können beispielsweise keine Projektgruppe oder Firma als Suchfeld in Planning hinzufügen, wenn Sie eine Verbindung zu Workfront-Projekten herstellen.
    >
    >* In der Produktionsumgebung können Sie keine Workfront-Benutzerfelder (einschließlich Feldern wie Projektbesitzer oder Projektsponsor) als Suchfelder hinzufügen. <span class="preview">Sie können Benutzerfelder als Suchfelder in der Vorschau-Umgebung hinzufügen.</span>
    >

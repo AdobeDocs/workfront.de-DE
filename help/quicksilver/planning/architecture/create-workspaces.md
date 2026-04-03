@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: c4716157a6fdf667f7e608d0c37399f57ec1bbfe
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1199'
 ht-degree: 2%
 
 ---
@@ -150,6 +150,11 @@ Sie können Arbeitsbereiche wie folgt erstellen:
 
   Weitere Informationen finden Sie im Abschnitt [Erstellen mehrerer Arbeitsbereiche mithilfe eines Best-Practice-Vorlagenpakets für mehrere Arbeitsbereiche](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) in diesem Artikel
 
+  >[!TIP]
+  >
+  >Es ist nicht möglich, mehrere Arbeitsbereiche gleichzeitig zu erstellen, es sei denn, Sie verwenden das Best-Practice-Vorlagenpaket.
+
+
 </div>
 
 ### Arbeitsbereich von Grund auf neu oder aus einer Vorlage erstellen
@@ -238,9 +243,10 @@ Die im Bundle enthaltenen Vorlagen enthalten Arbeitsbereiche, Datensatztypen, Da
 
 >[!IMPORTANT]
 >
->Alle Namen von Arbeitsbereichen, Datensatztypen, Feldern und Datensätzen, die im Bundle enthalten sind, sind Beispiele und spiegeln nicht Ihre eigene Umgebung wider.
+>Die Namen der Arbeitsbereiche und Datensätze, die im Bundle enthalten sind, sind Beispiele und keine Spiegelung Ihrer eigenen Umgebung.
 >
->Es wird empfohlen, dieses Vorlagenpaket als Beispiel für eine Planungsstruktur zu verwenden und mit der Erstellung von Objekten fortzufahren, die den Workflow Ihres Unternehmens widerspiegeln.
+>Die Namen der Datensatztypen und -felder können in jeder Organisation als Standard für die Implementierung in jeder Branche gemäß unserer Empfehlung verwendet werden.
+>
 
 {{step1-to-planning}}
 
@@ -268,7 +274,7 @@ Die im Bundle enthaltenen Vorlagen enthalten Arbeitsbereiche, Datensatztypen, Da
 
 1. Beginnen Sie mit der Bearbeitung der von Ihnen erstellten Arbeitsbereiche und fügen Sie Datensatztypen, Datensätze, Ansichten und Felder hinzu, die für Ihre Organisation relevant sind.
 
-   Weitere Informationen zu Best Practices für die Implementierung von Workfront finden Sie in den Artikeln im Abschnitt [Best Practices für die Adobe Workfront-Planung: &#x200B;](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
+   Weitere Informationen zu Best Practices für die Implementierung von Workfront finden Sie in den Artikeln im Abschnitt [Best Practices für die Adobe Workfront-Planung: ](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
 
    Informationen zum Bearbeiten von Arbeitsbereichen finden Sie unter [Bearbeiten von Arbeitsbereichen](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
