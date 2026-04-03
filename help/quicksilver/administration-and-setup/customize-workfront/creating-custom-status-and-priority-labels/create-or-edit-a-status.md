@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 48745335495433e25ad0a27a6726dda7fe8a97d8
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 3%
+source-wordcount: '942'
+ht-degree: 6%
 
 ---
 
@@ -29,7 +29,7 @@ Als Adobe Workfront-Administrator können Sie benutzerdefinierte Status für Pro
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,11 +42,11 @@ Als Adobe Workfront-Administrator können Sie benutzerdefinierte Status für Pro
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
-   <td>Systemadministrator</td> 
+   <td>Systemadmin</td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,23 +67,23 @@ Wenn Sie einen benutzerdefinierten Status für die gesamte Organisation erstelle
 
 1. (Bedingt) Wenn Sie einen Status zur systemweiten Verwendung erstellen oder bearbeiten, stellen Sie sicher, dass **Systemstatus** im Feld oben rechts ausgewählt ist.
 
-   ![Systemstatus](assets/system-statuses-in-upper-rt-corner-new.jpg)
+   ![Systemstatus](assets/system-statuses-in-upper-rt-corner-new-png.png)
 
-   Oder
+   ODER
 
    Wenn der Status für eine Gruppe oder Untergruppe lautet, beginnen Sie, den Namen der Gruppe in der oberen rechten Ecke einzugeben, und wählen Sie sie aus, wenn sie angezeigt wird.
 
-   ![Systemstatus für Gruppe](assets/system-statuses-in-upper-rt-corner-group.jpg)
+   ![Systemstatus für Gruppe](assets/system-statuses-in-upper-rt-corner-group-new-png.png)
 
 1. Wählen Sie die Registerkarte des Objekttyps (**Projekt**, **Aufgaben** oder **Probleme**) aus, den Sie mit dem Status verknüpfen möchten.
 
 1. Wenn Sie einen neuen Status erstellen, klicken Sie auf &quot;**Status hinzufügen**.
 
-   Oder
+   ODER
 
-   Wenn Sie einen vorhandenen Status bearbeiten, halten Sie den Mauszeiger darüber und klicken Sie dann auf das **Bearbeiten**-Symbol, das ganz rechts angezeigt wird.
+   Wenn Sie einen vorhandenen Status bearbeiten möchten, aktivieren Sie das Kontrollkästchen für diesen Status und klicken **auf** Bearbeiten“ im Banner unten auf dem Bildschirm.
 
-   ![Benutzerdefinierten Status bearbeiten](assets/custom-status-edit.png)
+   ![Benutzerdefinierten Status bearbeiten](assets/edit-in-banner.png)
 
 1. Konfigurieren Sie den Status mithilfe der folgenden Optionen:
 

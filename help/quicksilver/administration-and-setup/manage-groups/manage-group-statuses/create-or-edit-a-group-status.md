@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: d7e85faa0e6da2218d7e983d00fd992dc858a1d9
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 3%
+source-wordcount: '1327'
+ht-degree: 4%
 
 ---
 
@@ -44,7 +44,7 @@ Allgemeine Informationen zu Status finden Sie unter [Status - Übersicht](../../
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr>
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -53,7 +53,7 @@ Allgemeine Informationen zu Status finden Sie unter [Status - Übersicht](../../
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -90,11 +90,12 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    ODER
 
-   Um einen vorhandenen Status zu bearbeiten, bewegen Sie den Mauszeiger über den Status, den Sie bearbeiten möchten, und klicken Sie dann auf die **Bearbeiten** Option, die ganz rechts angezeigt wird.
+   Wenn Sie einen vorhandenen Status bearbeiten möchten, aktivieren Sie das Kontrollkästchen für diesen Status und klicken **auf** Bearbeiten“ im Banner unten auf dem Bildschirm.
 
-   ![Gruppenstatus](assets/group-statuses-edit.jpg)
+   ![Gruppenstatus](assets/group-statuses-edit-new.png)
 
    >[!NOTE]
+   >
    >Sie können einen Status für Ihre Gruppe nur bearbeiten, wenn Sie:
    >      
    >* Sie verwalten die Gruppe, für die der Status erstellt wurde
@@ -166,15 +167,16 @@ Wenn Sie Gruppenadministrator (oder Workfront-Administrator) sind, können Sie e
 
 1. Wenn Sie ein Workfront-Administrator sind, erstellen Sie einen systemweiten entsperrten Status, wie unter [Erstellen oder Bearbeiten eines Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) beschrieben.
 1. Löschen Sie in dem Feld oben rechts **Systemstatus**, geben Sie den Namen einer Gruppe ein, in der Sie den Status ausblenden möchten, und klicken Sie dann auf den Namen, wenn er angezeigt wird.
-1. Bewegen Sie den Mauszeiger über den Status, den Sie aus der Gruppe ausblenden möchten, und klicken Sie dann auf **Bearbeiten** wenn er angezeigt wird.
+1. Aktivieren Sie das Kontrollkästchen für den Status, den Sie bearbeiten möchten, und klicken Sie dann **Bearbeiten** im Banner unten auf dem Bildschirm.
 
-   ![Status bearbeiten](assets/hover-click-edit.jpg)
+
+   ![Status bearbeiten](assets/group-statuses-edit-new.png)
 
 1. Aktivieren Sie die **Status ausblenden** Option, die angezeigt wird.
 
    ![Status ausblenden](assets/hide-group-status.png)
 
-1. Klicken Sie auf **Speichern**.
+1. Klicken Sie auf **Aktualisieren**.
 
    Der Status ist abgeblendet und nicht mehr für alle Benutzenden in dieser Gruppe sichtbar.
 

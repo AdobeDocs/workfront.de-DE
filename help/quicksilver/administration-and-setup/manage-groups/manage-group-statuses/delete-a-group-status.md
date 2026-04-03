@@ -8,14 +8,14 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 6c7dd2504ce20274f8b80a306fc1075ec5761da6
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 0%
+source-wordcount: '544'
+ht-degree: 8%
 
 ---
 
-# Gruppenstatus löschen
+# Löschen eines Gruppenstatus
 
 Als Gruppenadministrator können Sie einen Status für eine von Ihnen verwaltete Gruppe löschen, wenn diese nicht als erforderlicher oder gesperrter Status auf Systemebene oder für eine höhere Gruppe in der Hierarchie konfiguriert ist.
 
@@ -30,7 +30,7 @@ Wenn es Gruppen oberhalb der von Ihnen verwalteten Gruppe gibt, können deren Ad
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +43,7 @@ Wenn es Gruppen oberhalb der von Ihnen verwalteten Gruppe gibt, können deren Ad
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr>
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -52,20 +52,20 @@ Wenn es Gruppen oberhalb der von Ihnen verwalteten Gruppe gibt, können deren Ad
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
-## Gruppenstatus löschen
+## Löschen eines Gruppenstatus
 
 {{step-1-to-setup}}
 
 1. Klicken Sie im linken Bedienfeld auf **Gruppen**.
 1. Klicken Sie auf den Namen der Gruppe der obersten Ebene.
 1. Klicken Sie im linken Bedienfeld auf **Status**.
-1. Bewegen Sie in der angezeigten Statusliste den Mauszeiger über den Status, den Sie löschen möchten, und klicken Sie dann auf **Löschen**, wenn er ganz rechts angezeigt wird.
+1. Klicken Sie in der angezeigten Statusliste auf das Kontrollkästchen für den Status, den Sie löschen möchten, und klicken Sie dann auf **Löschen** in dem Banner am unteren Bildschirmrand.
 
-   ![Löschen](assets/hover-click-delete.jpg)
+   ![Löschen](assets/delete-status.png)
 
 1. Wählen Sie in dem angezeigten Feld einen Status aus, um einen Ersatzstatus für Objekte (Projekte, Aufgaben, Probleme und Genehmigungsprozesse) festzulegen, die den Status verwendet haben, den Sie löschen möchten.
 
@@ -84,7 +84,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
         Informationen zu den standardmäßigen Workfront-Status finden Sie unter [Zugriff auf die Liste der Systemprojektstatus](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md), [Zugriff auf die Liste der Systemaufgabenstatus](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md) und die Informationen zu den vier erforderlichen Problemstatus in [Zugriff auf die Liste der Systemanfragestatus](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).
 
-1. Klicken Sie **Status löschen**.
+1. Klicken Sie auf **Löschen**.
 
    Wenn der gelöschte Status der Standardstatus für diesen Typ in der Gruppe war, wird der Ersatzstatus ersetzt.
 
