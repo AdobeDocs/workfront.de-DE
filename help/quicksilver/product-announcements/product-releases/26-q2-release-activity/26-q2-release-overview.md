@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b334e8b234c9c87dd1b1ecd26df6645b3381ffb0
+source-git-commit: 1a37ff7e4e4b60ac23b0edde6b60258ed508e90b
 workflow-type: tm+mt
 source-wordcount: '2228'
 ht-degree: 25%
@@ -20,7 +20,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der für April 20
 
 Die Verbesserungen auf dieser Seite sind in der Vorschauumgebung verfügbar. Diese Seite wird mit zusätzlichen Verbesserungen aktualisiert, sobald die geplante Produktionsversion der Version für das zweite Quartal 2026 näher rückt.
 
-Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben die neuen Funktionen hervor und bieten detaillierte Informationen. Um sich zu registrieren, besuchen Sie die [Ereignisseite](https://experienceleague.adobe.com/de/events?filters=Workfront) und filtern Sie nach Workfront.
+Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben die neuen Funktionen hervor und bieten detaillierte Informationen. Um sich zu registrieren, besuchen Sie die [Ereignisseite](https://experienceleague.adobe.com/en/events?filters=Workfront) und filtern Sie nach Workfront.
 
 >[!IMPORTANT]
 >
@@ -252,6 +252,15 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
         </tr>
     <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Die geplante Berichtlieferung unterstützt jetzt verknüpfungsbasierte E-Mails</a><p></p>
+            <p>Workfront enthält jetzt einen neuen Bereitstellungstyp Link für geplante Berichte. Anstatt eine Datei zu generieren und anzuhängen, sendet diese Option eine E-Mail mit einem direkten Link zum Bericht in Workfront, damit die Empfängerinnen und Empfänger die aktuellsten Daten in der Anwendung anzeigen können.</p>
+        </td>
+        <td><p>Samstag, 3. April 2026</p></td>
+        <td><p>Donnerstag, 15. April 2026</p></td>
+        <td><p>Freitag, 16. April 2026</p></td>
+    </tr>
+     <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Führen Sie Berichte als spezifischer Benutzer in Arbeitsflächen-Dashboards aus</a><p></p>
             <p>Sie können jetzt Berichte auf Arbeitsflächen-Dashboards so konfigurieren, dass sie als ein bestimmter Benutzer ausgeführt werden. Wenn diese Option aktiviert ist, zeigt der Bericht Daten basierend auf dem Zugriff des ausgewählten Benutzers anstelle der Berechtigungen des Viewers an.</p>
         </td>
@@ -259,16 +268,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
         <td><p>Donnerstag, 15. April 2026</p></td>
         <td><p>Freitag, 16. April 2026</p></td>
     </tr>
-    <tr>
-        <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Die geplante Berichtlieferung unterstützt jetzt verknüpfungsbasierte E-Mails</a><p></p>
-            <p>Workfront enthält jetzt einen neuen Bereitstellungstyp Link für geplante Berichte. Anstatt eine Datei zu generieren und anzuhängen, sendet diese Option eine E-Mail mit einem direkten Link zum Bericht in Workfront, damit die Empfängerinnen und Empfänger die aktuellsten Daten in der Anwendung anzeigen können.</p>
-        </td>
-        <td><p>Freitag, 2. April 2026</p></td>
-        <td><p>Donnerstag, 15. April 2026</p></td>
-        <td><p>Freitag, 16. April 2026</p></td>
-    </tr>
-    <tr>
+   <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Neue Authentifizierungsoptionen für Data Connect-Verbindung</a><p></p>
             <p>Sie können sich jetzt mit RSA-Schlüsseln oder programmgesteuerten Zugriffstoken (PAT)-Verbindungen bei Data Connect authentifizieren und so sicherere und flexiblere Alternativen zu herkömmlichen Benutzernamen-/Passwort-Anmeldeinformationen hinzufügen. </p>
