@@ -7,7 +7,8 @@ description: Als Adobe Workfront-Administrator können Sie Markenberechtigungen 
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: ebc342b65bee6a8c5ba0edbe2e990ec2775a9055
+exl-id: 727efbd6-79b4-42c5-bfa2-e5350f30ff23
+source-git-commit: f74c567505dbdf6b2d1d8a85a62ba40d919be7b3
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 7%
@@ -76,7 +77,7 @@ So weisen Sie ein Profil zu:
 1. Klicken Sie auf **Registerkarte Zugewiesene** .
 1. Klicken Sie **Profil zuweisen**.
 1. Wählen Sie im Popup **Adobe GenStudio** aus der Produktliste aus und klicken Sie dann auf **Apply**.
-1. Wählen Sie das Profil **Adobe GenStudio System Manager** aus.
+1. Wählen Sie das Profil **Adobe GenStudio Foundation Editors** aus.
 1. Klicken Sie auf **Übernehmen**.
 1. Klicken Sie auf **Speichern**.
 
