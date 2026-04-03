@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 1a37ff7e4e4b60ac23b0edde6b60258ed508e90b
+source-git-commit: 1ef6ead705231a41cbf62b8a8b35f480da004970
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '872'
 ht-degree: 8%
 
 ---
@@ -20,6 +20,29 @@ Auf dieser Seite werden die Verbesserungen beim Reporting in der Vorschau-Umgebu
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im zweiten Quartal 2026 verfügbar sind, finden Sie unter [Versionsübersicht für das zweite Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
+## Feld „Aktuelle Version“ für Dokumentversionen
+
+>[!NOTE]
+>
+>Vorschau: 2. April 2026
+>Produktions-Schnellveröffentlichung: Donnerstag, 15. April 2026
+>Produktion für alle: Freitag, 16. April 2026
+
+Wir haben dem Dokumentversionsobjekt ein `currentVersion` boolesches Feld hinzugefügt, damit Sie die neueste Version eines Dokuments leichter identifizieren und darüber berichten können.
+Mit diesem Update:
+
+* Sie können `currentVersion` in Filtern, Ansichten, Gruppierungen und Diagrammen verwenden.
+* Das Feld ist in der Feldauswahl der Arbeitsfläche für Dokumentversionsberichte verfügbar.
+
+* Wenn eine neue Version hochgeladen wird:
+
+   * Die neue Version wird als `TRUE` gekennzeichnet
+   * Frühere Versionen sind als `FALSE` gekennzeichnet
+
+* Berichte können aktuelle Versionen in allen Arbeitsflächen-Dashboards und in Legacy-Berichten konsistent identifizieren
+
+Vorhandene Filter für klassische Berichte, die `isCurrentVersion` oder `isDocumentCurrentVersion` verwenden, funktionieren weiterhin wie dokumentiert.
+
 ## Die geplante Bereitstellung von Berichten unterstützt jetzt verknüpfungsbasierte E-Mails
 
 >[!NOTE]
@@ -28,7 +51,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im zweiten Quartal 2026 ve
 >Produktions-Schnellveröffentlichung: Donnerstag, 15. April 2026
 >Produktion für alle: Freitag, 16. April 2026
 
-Workfront enthält jetzt einen neuen Bereitstellungstyp Link für geplante Berichte. Anstatt eine Datei zu generieren und anzuhängen, sendet diese Option eine E-Mail mit einem direkten Link zum Bericht in Workfront, damit die Empfängerinnen und Empfänger die aktuellsten Daten in der Anwendung anzeigen können.
+Workfront enthält jetzt einen neuen Bereitstellungstyp Link für geplante Berichte. Anstatt eine Datei zu generieren und anzuhängen, sendet diese Option eine E-Mail mit einem direkten Link zum Bericht in Workfront, damit die Empfängerinnen und Empfänger {{$include }} aktuellen Daten in der Anwendung anzeigen können.
 
 Die Option Link ist jetzt der Standardversandtyp für neu erstellte Bereitstellungsregeln für terminierte Berichte, während bestehende dateibasierte Formate (HTML, PDF, Excel und TSV) weiterhin verfügbar sind.
 

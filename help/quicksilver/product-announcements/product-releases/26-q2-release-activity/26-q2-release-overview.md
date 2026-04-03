@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 1a37ff7e4e4b60ac23b0edde6b60258ed508e90b
+source-git-commit: fb848a84a1339b98a549584c87af2083115d3440
 workflow-type: tm+mt
-source-wordcount: '2228'
+source-wordcount: '2263'
 ht-degree: 25%
 
 ---
@@ -20,7 +20,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der für April 20
 
 Die Verbesserungen auf dieser Seite sind in der Vorschauumgebung verfügbar. Diese Seite wird mit zusätzlichen Verbesserungen aktualisiert, sobald die geplante Produktionsversion der Version für das zweite Quartal 2026 näher rückt.
 
-Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben die neuen Funktionen hervor und bieten detaillierte Informationen. Um sich zu registrieren, besuchen Sie die [Ereignisseite](https://experienceleague.adobe.com/de/events?filters=Workfront) und filtern Sie nach Workfront.
+Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben die neuen Funktionen hervor und bieten detaillierte Informationen. Um sich zu registrieren, besuchen Sie die [Ereignisseite](https://experienceleague.adobe.com/en/events?filters=Workfront) und filtern Sie nach Workfront.
 
 >[!IMPORTANT]
 >
@@ -132,7 +132,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
         <td><strong>Vorschau</strong></td>
         <td><strong>Schnellveröffentlichung</strong></td>
         <td><strong>Vierteljährlich</strong></td>
-    <tr>
+   <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Bereitstellung von GenStudio Foundations zur Unterstützung von KI-Mitwirkenden aktiviert</a><p></p>
             <p>Am 31. März 2026 wurden alle Workfront-Kundinnen und -Kunden für GenStudio Foundation bereitgestellt, und Admin Console-Systemadmins erhalten eine E-Mail, in der sie über diesen Zusatz informiert werden. Dieses Produkt wird nur bereitgestellt, damit Workfront-Kunden Workfront-Kunden nach Bedarf Zugriff auf die KI-Kollaborateure gewähren können. Das Produkt selbst ist nur ein Zugriffsmechanismus für Marken, und im GenStudio Foundation-Produkt sind keine zusätzlichen Funktionen verfügbar.</p><p>Kunden wird dieses neue Produkt nicht in Rechnung gestellt.</p>
@@ -251,6 +251,15 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
         <td><strong>Vierteljährlich</strong></td>
         </tr>
     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Feld „Aktuelle Version“ für Dokumentversionen </a><p></p>
+            <p>Wir haben dem Dokumentversionsobjekt ein <code>currentVersion</code> boolesches Feld hinzugefügt, damit Sie die neueste Version eines Dokuments leichter identifizieren und darüber berichten können.</p>
+        </td>
+        <td><p>Freitag, 2. April 2026</p></td>
+        <td><p>Donnerstag, 15. April 2026</p></td>
+        <td><p>Freitag, 16. April 2026</p></td>
+    </tr>
+     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-reports.md" class="MCXref xref" xrefformat="{para}">Die geplante Berichtlieferung unterstützt jetzt verknüpfungsbasierte E-Mails</a><p></p>
             <p>Workfront enthält jetzt einen neuen Bereitstellungstyp Link für geplante Berichte. Anstatt eine Datei zu generieren und anzuhängen, sendet diese Option eine E-Mail mit einem direkten Link zum Bericht in Workfront, damit die Empfängerinnen und Empfänger die aktuellsten Daten in der Anwendung anzeigen können.</p>
