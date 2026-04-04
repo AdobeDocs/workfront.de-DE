@@ -8,14 +8,16 @@ feature: Reports and Dashboards
 exl-id: fd659f56-d67f-4a0f-8735-b214934903ac
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 12%
+source-wordcount: '586'
+ht-degree: 10%
 
 ---
 
 # Bearbeiten eines Berichts in einem Arbeitsflächen-Dashboard
+
+{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -82,11 +84,17 @@ Weitere Informationen finden Sie unter [Erstellen eines Arbeitsflächen-Dashboar
 
 1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
 
-1. Klicken Sie auf **Seite** Arbeitsflächen-Dashboards“ auf das Symbol **Mehr**![&#x200B; Mehr](assets/more-icon.png) in der oberen rechten Ecke des Berichts, den Sie bearbeiten möchten, und wählen Sie dann **Bearbeiten** aus.
+1. Klicken Sie auf **Seite** Arbeitsflächen-Dashboards“ auf das Symbol **Mehr**![ Mehr](assets/more-icon.png) in der oberen rechten Ecke des Berichts, den Sie bearbeiten möchten, und wählen Sie dann **Bearbeiten** aus.
 
    ![Bearbeiten eines Berichts](assets/edit-report-box.png)
 
-1. Bearbeiten Sie **Dialogfeld** Konfigurieren) die Informationen in den auf der linken Seite aufgelisteten Abschnitten. Diese Abschnitte variieren je nach dem Berichtstyp, den Sie bearbeiten.
+1. <span class="preview">Bearbeiten Sie im Dialogfeld **Konfigurieren** die Informationen in den auf der linken Seite aufgelisteten Abschnitten. Diese Abschnitte variieren je nach dem Berichtstyp, den Sie bearbeiten.
+
+   >[!TIP]
+   >
+   >Der Abschnitt Details für alle Berichtstypen enthält die Option **Diesen Bericht ausführen mit den Zugriffsrechten von**. Hier können Sie einen Benutzer angeben, dessen Berechtigungen zum Rendern der Berichtsdaten verwendet werden, um sicherzustellen, dass alle Dashboard-Betrachter dieselben Daten sehen. Weitere Informationen finden Sie unter [Erstellen eines KPI](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md), [Erstellen eines Diagrammberichts](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md) oder [Erstellen eines Tabellenberichts](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
+
+   </span>
 
 1. (Optional) Wenn Sie einen KPI-Bericht bearbeiten, bearbeiten Sie Informationen nach Bedarf in den folgenden Abschnitten:
 
@@ -129,6 +137,6 @@ Weitere Informationen finden Sie unter [Hinzufügen eines vorhandenen Berichts z
 
 1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
 
-1. Klicken Sie auf **Seite** Arbeitsflächen-Dashboards“ auf das Symbol **Mehr**![&#x200B; Mehr](assets/more-icon.png) in der oberen rechten Ecke des Berichts, den Sie bearbeiten möchten, und wählen Sie dann **Bearbeiten** aus.
+1. Klicken Sie auf **Seite** Arbeitsflächen-Dashboards“ auf das Symbol **Mehr**![ Mehr](assets/more-icon.png) in der oberen rechten Ecke des Berichts, den Sie bearbeiten möchten, und wählen Sie dann **Bearbeiten** aus.
 
 1. Klicken Sie im **Berichtsauswahl** auf **Hinzufügen** für den Bericht, mit dem Sie die Daten des vorhandenen Berichts-Widgets ersetzen möchten.
