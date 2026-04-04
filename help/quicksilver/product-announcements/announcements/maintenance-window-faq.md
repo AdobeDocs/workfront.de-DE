@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Wartungsfenster sind Zeitblöcke, die Workfront für Aktualisierungen der Infrastruktur und andere plattformbezogene Probleme vorbehalten sind. Gelegentlich werden Sandbox-Umgebungen in die Wartung einbezogen.
 
-Workfront ist bestrebt, Unterbrechungen so weit wie möglich zu minimieren. Wenn eine Wartung erforderlich ist, wird sie geplant und auf der Workfront-Status-Website unter [status.adobe.com](https://status.adobe.com/) angekündigt.
+Workfront ist bestrebt, Unterbrechungen so weit wie möglich zu minimieren. Wenn eine Wartung erforderlich ist, wird sie geplant und auf der Workfront-Status-Website unter [status.adobe.com](https://status.adobe.com/de-de/) angekündigt.
 
 ## Wann sind die Workfront-Wartungsfenster?
 
@@ -27,6 +27,6 @@ Wartungsfenster sind normalerweise im Voraus über Wochenenden zwischen 20 Uhr M
 
 ## Kann ich vor einer geplanten Wartung benachrichtigt werden?
 
-Sie können erweiterte Benachrichtigungen über geplante Wartungsarbeiten erhalten, indem Sie die Workfront-Status-Website abonnieren ([status.adobe.com](https://status.adobe.com/)). Die Workfront-Status-Website kündigt Wartungsarbeiten mindestens 3 Tage vor dem Ereignis an. Wenn eine Notfallsituation vorliegt, kann die Vorankündigung geringer sein.
+Sie können erweiterte Benachrichtigungen über geplante Wartungsarbeiten erhalten, indem Sie die Workfront-Status-Website abonnieren ([status.adobe.com](https://status.adobe.com/de-de/)). Die Workfront-Status-Website kündigt Wartungsarbeiten mindestens 3 Tage vor dem Ereignis an. Wenn eine Notfallsituation vorliegt, kann die Vorankündigung geringer sein.
 
 Informationen zum Erhalt von Statusaktualisierungen zu Wartungs- und Trend-Problemen finden Sie [Abonnieren oder Abonnement verwalten](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md#managing-your-subscription) im Artikel [Adobe Workfront-Status-Site](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md).

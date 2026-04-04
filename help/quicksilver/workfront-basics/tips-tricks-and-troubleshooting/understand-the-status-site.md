@@ -31,7 +31,7 @@ Sie haben Zugriff auf die folgenden Informationen auf der Status-Website:
 
 Sie können Statusaktualisierungen auf der [!DNL Adobe] Status-Site anzeigen.
 
-1. Geben Sie [status.adobe.com](https://status.adobe.com/) in Ihrem Browser ein, um auf die Status-Site zuzugreifen.
+1. Geben Sie [status.adobe.com](https://status.adobe.com/de-de/) in Ihrem Browser ein, um auf die Status-Site zuzugreifen.
 
 1. **[!UICONTROL Experience Cloud]**.
 1. Scrollen Sie nach unten und wählen Sie **[!UICONTROL Adobe Workfront]** aus der Liste der Lösungen aus.
@@ -40,7 +40,7 @@ Sie können Statusaktualisierungen auf der [!DNL Adobe] Status-Site anzeigen.
 
 So abonnieren Sie die Status-Site oder verwalten Sie Ihr Abonnement, nachdem Sie bereits ein Abonnement abgeschlossen haben:
 
-1. Navigieren Sie zu [status.adobe.com](https://status.adobe.com/).
+1. Navigieren Sie zu [status.adobe.com](https://status.adobe.com/de-de/).
 1. Wählen Sie in der Statusleiste **[!UICONTROL Abonnements verwalten]** aus.
    ![](assets/manage-subs.png)
 1. Wenn Sie bereits über ein Konto verfügen, melden Sie sich beim Konto an. Erstellen Sie andernfalls ein neues Konto.
@@ -59,7 +59,7 @@ Vulnerability-Forscher und Exploit-Ersteller benennen ihre Projekte intern, um d
 
 ### Wie kann ich benannte Schwachstellen anzeigen, die von [!DNL Workfront?] identifiziert wurden? {#how-do-i-view-named-vulnerabilities-identified-by-workfront}
 
-1. Gehen Sie zu [status.adobe.com](https://status.adobe.com/) und klicken Sie dann auf **[!UICONTROL Sicherheit]**.
+1. Gehen Sie zu [status.adobe.com](https://status.adobe.com/de-de/) und klicken Sie dann auf **[!UICONTROL Sicherheit]**.
 
 ## Warum ist das wichtig? {#why-is-this-important}
 
