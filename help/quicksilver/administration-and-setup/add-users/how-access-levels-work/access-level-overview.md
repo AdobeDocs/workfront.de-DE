@@ -1,41 +1,41 @@
 ---
-title: Übersicht über Zugriffsebenen
+title: Überblick über Zugriffsebenen
 user-type: administrator
 content-type: reference
 product-area: system-administration
-keywords: Zugriff,Ebene,System,Administrator,Standard,Licht,Mitwirkende
+keywords: Zugriff,Ebene,System,Admin,Standard,Light,Mitwirkende
 navigation-topic: access-levels
-description: Jeder Benutzer muss über eine Zugriffsebene verfügen, um sich anmelden und in Workfront arbeiten zu können. Mithilfe der Zugriffsebene können Sie steuern, was ein Benutzer mit bestimmten Workfront-Objekten und -Bereichen sehen und machen kann.
+description: Alle Benutzenden müssen über eine Zugriffsebene verfügen, um sich anmelden und in Workfront arbeiten zu können. Mithilfe der Zugriffsebene können Sie steuern, was Benutzende sehen und mit bestimmten Workfront-Objekten und -Bereichen tun können.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+source-git-commit: 21c396fc5b52463477d6fedfae8dcd27de989817
 workflow-type: tm+mt
-source-wordcount: '1747'
-ht-degree: 6%
+source-wordcount: '1765'
+ht-degree: 96%
 
 ---
 
-# Übersicht über Zugriffsebenen
+# Überblick über Zugriffsebenen
 
 >[!NOTE]
 >
->Die Informationen in diesem Artikel beziehen sich auf die aktuellen Zugriffsebenen. Informationen zu den alten Zugriffsebenen finden Sie unter [Zugriffsebenen - Übersicht](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+>Die Informationen in diesem Artikel beziehen sich auf die aktuellen Zugriffsebenen. Informationen zu den alten Zugriffsebenen finden Sie unter [Überblick über Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
-Als Adobe Workfront-Administrator weisen Sie einem Benutzer eine Zugriffsebene zu zwei Zwecken zu:
+Als Adobe Workfront-Admin weisen Sie einem Benutzer bzw. einer Benutzerin eine Zugriffsebene aus zwei Gründen zu:
 
-* Jeder Benutzer muss über eine Zugriffsebene verfügen, um sich anmelden und in Workfront arbeiten zu können.
-* Mithilfe der Zugriffsebene können Sie steuern, was ein Benutzer mit bestimmten Workfront-Objekten und -Bereichen sehen und machen kann.
+* Alle Benutzenden müssen über eine Zugriffsebene verfügen, um sich anmelden und in Workfront arbeiten zu können.
+* Mithilfe der Zugriffsebene können Sie steuern, was Benutzende sehen und mit bestimmten Workfront-Objekten und -Bereichen tun können.
 
 ## Neue integrierte Zugriffsebenen in Adobe Workfront {#built-in-access}
 
 Workfront verfügt über fünf neue integrierte Zugriffsebenen:
 
-* Systemadministrator
+* Systemadmin
 * Standard
-* Leicht
-* Mitwirkender oder Mitwirkende
+* Light
+* Mitwirkende
 * Extern
 
 Je nach Zugriffsebene sind für die meisten Workfront-Objekttypen bis zu drei Berechtigungen verfügbar:
@@ -59,39 +59,39 @@ Wenn Sie eine benutzerdefinierte Zugriffsebene benötigen, können Sie die integ
 
 >[!IMPORTANT]
 >
->Es wird dringend empfohlen, die integrierten Zugriffsebenen unverändert zu lassen, damit Sie nach der Einrichtung Ihrer Benutzer darauf verweisen können.
+>Es wird dringend empfohlen, die integrierten Zugriffsebenen unverändert zu lassen, damit Sie sich nach der Einrichtung Ihrer Benutzenden darauf beziehen können.
 
-### Zugriffsebene des Systemadministrators
+### Zugriffsebene des Systemadmins
 
 Diese integrierte Zugriffsebene ist mit der Standardlizenz verbunden und richtet sich an Benutzende, die für die Verwaltung des Adobe Workfront-Systems zuständig sind. Diese integrierte Zugriffsebene kann nicht geändert werden.
 
-Benutzende mit der Zugriffsebene „Systemadministrator“ können alles in Workfront tun. Sie können alle Workfront-Objekte und -Informationen anzeigen und bearbeiten, die von allen anderen Benutzenden in Workfront eingegeben wurden.
+Benutzende mit der Zugriffsebene „Systemadmin“ können alle Funktionen in Workfront nutzen. Sie können alle Workfront-Objekte und -Informationen anzeigen und bearbeiten, die von allen anderen Benutzenden in Workfront eingegeben wurden.
 
 Sie haben auch Zugriff auf den kompletten Setup-Bereich, wo sie jede Einstellung auf Systemebene ändern können, und sie können auf alle Bereiche im Hauptmenü zugreifen.
 
-Weitere Informationen finden Sie unter [Gewähren des vollständigen Administratorzugriffs für einen Benutzer](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+Weitere Informationen finden Sie unter [Gewähren des vollständigen Administratorzugriffs für Benutzende](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-### Standard-Zugriffsebene
+### Zugriffsebene „Standard“
 
-Diese Zugriffsebene ist auch an die Standardlizenz angehängt und richtet sich an Benutzer, die:
+Diese Zugriffsebene ist auch an die Standardlizenz angefügt und richtet sich an Benutzende, die folgende Aktionen ausführen:
 
-* Alle Projekte an einem Ort planen, erstellen und verfolgen
-* Automatisieren von Routineprozessen
+* Planen, Erstellen und Nachverfolgen aller Projekte an einem Ort
+* Automatisieren von Routinevorgängen
 * Verwalten von Ressourcen
-* Nachverfolgen und Zusammenarbeiten bei Anfragen
-* Verfolgen und Erstellen von Berichten zu den Projektfinanzen
-* Starten eingehender Arbeitsaufträge
-* Zusammenarbeit bei Projekten, Aufgaben und Problemen
+* Nachverfolgen von und Zusammenarbeiten bei Anfragen
+* Nachverfolgen und Erstellen von Berichten zu den Projektfinanzen
+* Starten eingehender Arbeitsanfragen
+* Zusammenarbeit an Projekten, Aufgaben und Problemen
 
 >[!NOTE]
 >
->Sie können eine benutzerdefinierte Version der standardmäßigen integrierten Zugriffsebene erstellen und den Umfang des Zugriffs anpassen, den diese für die verschiedenen Workfront-Objekttypen zulässt. Informationen zum Erstellen einer benutzerdefinierten Zugriffsebene finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>Sie können eine benutzerdefinierte Version der integrierten Zugriffsebene „Standard“ erstellen und den Umfang des Zugriffs anpassen, den diese für die verschiedenen Workfront-Objekttypen zulässt. Informationen zum Erstellen einer benutzerdefinierten Zugriffsebene finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 #### **Zugriffsdetails**
 
-Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte auf der Standardzugriffsebene verfügbar sind:
+Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte auf der Zugriffsebene „Standard“ verfügbar sind:
 
-| Workfront-Objekttyp | Kein Zugriff | Ansichtszugriff | Zugriff bearbeiten |
+| Workfront-Objekttyp | Kein Zugriff | Zugriffsrecht „Anzeigen“ | Zugriffsrecht „Bearbeiten“ |
 |---|---|---|---|
 | Projekte |   |   | ✓ |
 | Aufgaben |   |   | ✓ |
@@ -104,36 +104,37 @@ Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte au
 | Benutzende |   |   | ✓ |
 | Vorlagen |   |   | ✓ |
 | Finanzdaten |   |   | ✓ |
-| Ressourcenverwaltung |   |   | ✓ |
-| Szenarienplaner |   |   | ✓ (Die Standardeinstellung ist Kein Zugriff.) |
+| Ressourcen-Management |   |   | ✓ |
+| Szenarienplaner |   |   | ✓ (Die Standardeinstellung ist „Kein Zugriff“.) |
 | Ziele |   |   | ✓ |
 
 {style="table-layout:auto"}
 
-### Lichteingangsebene
+### Zugriffsebene „Light“
 
-Diese Zugriffsebene ist an die Light-Lizenz angehängt und richtet sich an Benutzende, die:
+Diese Zugriffsebene ist Teil der Light-Lizenz und richtet sich an Benutzende, die folgende Aktionen ausführen:
 
-* Alle Elemente und Aktualisierungen im Zusammenhang mit der Arbeit anzeigen
-* Projekte, Aufgaben und Probleme genehmigen
+* Anzeigen aller Elemente und Aktualisierungen im Zusammenhang mit der Arbeit
+* Genehmigen von Projekten, Aufgaben und Problemen
 * Anzeigen von Dashboards und Berichten
 * Zeit für Projekte, Aufgaben und Probleme verfolgen und Arbeitszeittabellen genehmigen
-* Probleme erstellen und verwalten
+* Erstellen und Verwalten von Problemen
 
-Benutzende mit der Zugriffsebene Light:
+Für Benutzende mit der Zugriffsebene „Light“ gilt Folgendes:
 
-* Kann Arbeitselementen zugewiesen werden, sie können jedoch nicht abgeschlossen werden.
-* Kann im Hauptmenü auf Anfragen und Dokumente zugreifen.
-* Die Möglichkeit, Objekte zu erstellen, ist eingeschränkt. Sie können keine Projekte, Portfolios, Programme oder Berichte erstellen.
+* Ihnen können Arbeitselementen zugewiesen werden, aber sie können diese nicht abschließen.
+* Sie können im Hauptmenü auf Anfragen und Dokumente zugreifen.
+* Sie haben eingeschränkte Möglichkeiten, Objekte zu erstellen. Sie können keine Projekte, Portfolios, Programme oder Berichte erstellen.
 * Die Zeit kann nur auf Projektebene protokolliert werden, wenn Bearbeitungszugriff aktiviert ist. Sie können keine Projekte erstellen, bearbeiten, löschen oder freigeben.
+* Kann benutzerdefinierte Formulare nur zu Problemen und Dokumenten aktualisieren.
 
 >[!NOTE]
 >
->Sie können eine benutzerdefinierte Version der integrierten Zugriffsebene Light erstellen und den Zugriffsbereich für die verschiedenen Workfront-Objekttypen anpassen. Informationen zum Erstellen einer benutzerdefinierten Zugriffsebene finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>Sie können eine benutzerdefinierte Version der integrierten Zugriffsebene „Light“ erstellen und den Umfang der Zugriffsrechte für die verschiedenen Workfront-Objekttypen anpassen. Informationen zum Erstellen einer benutzerdefinierten Zugriffsebene finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 #### **Zugriffsdetails**
 
-Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte in der Zugriffsebene „Licht“ verfügbar sind:
+Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte in der Zugriffsebene „Light“ verfügbar sind:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -144,8 +145,8 @@ Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte in
   <tr> 
    <th>Workfront-Objekttyp</th> 
    <th>Kein Zugriff</th> 
-   <th>Ansichtszugriff</th> 
-   <th>Zugriff bearbeiten</th> 
+   <th>Zugriffsrecht „Anzeigen“</th> 
+   <th>Zugriffsrecht „Bearbeiten“</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -170,13 +171,13 @@ Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte in
   <tr> 
    <td>Portfolios</td> 
    <td> </td> 
-   <td>✓ (Die Standardeinstellung ist Kein Zugriff.)</td> 
+   <td>✓ (Die Standardeinstellung ist „Kein Zugriff“.)</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Programme</td> 
    <td> </td> 
-   <td>✓ (Die Standardeinstellung ist Kein Zugriff.)</td> 
+   <td>✓ (Die Standardeinstellung ist „Kein Zugriff“.)</td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -218,11 +219,11 @@ Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte in
   <tr> 
    <td>Finanzdaten</td> 
    <td></td> 
-   <td> <p>✓(Standardeinstellung ist Kein Zugriff)</p> </td> 
+   <td> <p>✓ (Die Standardeinstellung ist „Kein Zugriff“)</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Ressourcenverwaltung</td> 
+   <td>Ressourcen-Management</td> 
    <td> </td> 
    <td>✓</td> 
    <td> </td> 
@@ -231,98 +232,99 @@ Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte in
    <td>Szenarienplaner </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓ (Die Standardeinstellung ist Kein Zugriff.)</td> 
+   <td>✓ (Die Standardeinstellung ist „Kein Zugriff“.)</td> 
   </tr>
 
 <tr>   
    <td>Ziele </td> 
    <td> </td> 
    <td> </td> 
-   <td>✓ (Standardeinstellung ist Kein Zugriff)</td> 
+   <td>✓ (Die Standardeinstellung ist „Kein Zugriff“)</td> 
  </tbody> 
 </table>
 
-### Zugriffsebene des oder der Mitwirkenden
+### Zugriffsebene „Mitwirkende“
 
-Diese Zugriffsebene ist der Lizenz für Mitwirkende beigefügt und ist für Benutzende gedacht, die:
+Diese Zugriffsebene ist Teil der Lizenz für Mitwirkende und ist für Benutzende gedacht, die folgende Aktionen ausführen:
 
-* Anfragen senden
-* Anforderungen tracken
-* Aktualisierungs- und Überprüfungsanfragen
-* Anfragen genehmigen
+* Senden von Anfragen
+* Nachverfolgen von Anfragen
+* Aktualisieren und Überprüfen von Anfragen
+* Genehmigen von Anfragen
 
-Benutzende mit dieser integrierten Zugriffsebene:
+Für Benutzende mit dieser integrierten Zugriffsebene gilt:
 
-* Kann Anfragen stellen und diese aktualisieren
-* Kann Dokumente hochladen und genehmigen
-* Kann Projekte, Aufgaben und Probleme genehmigen
+* Sie können Anfragen stellen und diese aktualisieren
+* Sie können Dokumente hochladen und genehmigen
+* Sie können Projekte, Aufgaben und Probleme genehmigen
 
   >[!NOTE]
   >
-  >Mitwirkende können an Genehmigungen teilnehmen, aber nicht auf die Registerkarte Genehmigungen zugreifen, um Genehmigungsprozesse anzuzeigen oder zu verwalten.
+  >Mitwirkende können an Genehmigungen teilnehmen, aber nicht auf die Registerkarte „Genehmigungen“ zugreifen, um Genehmigungsvorgänge anzuzeigen oder zu verwalten.
 
-* Kann den Status der von ihnen gesendeten Probleme überprüfen
-* Kann Arbeitselementen zugewiesen, aber nicht abgeschlossen werden
-* Zugriff auf Anfragen nur über das Hauptmenü möglich. Weitere Informationen zu Anfrage-Warteschlangen finden Sie unter [Erstellen einer Anfrage-Warteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* Sie können den Status der von ihnen gesendeten Probleme überprüfen
+* Kann benutzerdefinierte Formulare nur zu Problemen und Dokumenten aktualisieren.
+* Sie können Arbeitselementen zugewiesen werden, können diese aber nicht abschließen
+* Sie können nur über das Hauptmenü auf Anfragen zugreifen. Weitere Informationen zu Anfrage-Warteschlangen finden Sie unter [Erstellen einer Anfrage-Warteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 >[!NOTE]
 >
->Sie können eine benutzerdefinierte Version der integrierten Zugriffsebene von Mitwirkenden erstellen und den Umfang des Zugriffs anpassen, den sie für die verschiedenen Workfront-Objekttypen zulässt. Informationen zum Erstellen einer benutzerdefinierten Zugriffsebene finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>Sie können eine benutzerdefinierte Version der integrierten Zugriffsebene „Mitwirkende“ erstellen und den Umfang des Zugriffs anpassen, den diese für die verschiedenen Workfront-Objekttypen zulässt. Informationen zum Erstellen einer benutzerdefinierten Zugriffsebene finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 #### **Zugriffsdetails**
 
-Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte auf der Zugriffsebene Mitwirkende verfügbar sind:
+Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte auf der Zugriffsebene „Mitwirkende“ verfügbar sind:
 
-| Workfront-Objekttyp | Kein Zugriff | Ansichtszugriff | Zugriff bearbeiten |
+| Workfront-Objekttyp | Kein Zugriff | Zugriffsrecht „Anzeigen“ | Zugriffsrecht „Bearbeiten“ |
 |---|---|---|---|
 | Projekt |   | ✓ (eingeschränkt) |   |
-| Aufgabe |   | ✓(eingeschränkt) |   |
+| Aufgabe |   | ✓ (eingeschränkt) |   |
 | Problem |   |   | ✓ |
 | Portfolios |   | ✓ |   |
 | Programme |   | ✓ |   |
-| Berichte (einschließlich Dashboards und Kalenderberichte) |   | ✓ (Nur die Registerkarte Details ) |   |
+| Berichte (einschließlich Dashboards und Kalenderberichte) |   | ✓ (Nur die Registerkarte „Details“) |   |
 | Filter, Ansichten und Gruppierungen |   |   | ✓ |
 | Dokument |   |   | ✓ |
 | Benutzerin oder Benutzer |   | ✓ |   |
 | Teams |   | ✓ |   |
 | Vorlagen | ✓ |   |   |
 | Finanzdaten | ✓ |   |   |
-| Ressourcenverwaltung | ✓ |   |   |
+| Ressourcen-Management | ✓ |   |   |
 | Szenarienplaner | ✓ |   |   |
-| Ziele |   |   | ✓ (Standardeinstellung ist Kein Zugriff) |
+| Ziele |   |   | ✓ (Die Standardeinstellung ist „Kein Zugriff“) |
 
 {style="table-layout:auto"}
 
 >[!IMPORTANT]
 >
->Ab Version 24.7 haben Mitwirkende standardmäßig Ansichtszugriff auf Programme und Portfolios.
+>Ab Version 24.7 haben Mitwirkende standardmäßig das Zugriffsrecht „Anzeigen“ für Programme und Portfolios.
 >
 > 
->Mitwirkende, die vor Version 24.7 eingebunden wurden, haben standardmäßig weiterhin keinen Zugriff auf Programme und Portfolios. Sie können den Zugriff dieser Personen auf die Anzeige bei Bedarf manuell aktualisieren.
+>Mitwirkende, die vor Version 24.7 eingebunden wurden, haben standardmäßig weiterhin keinen Zugriff auf Programme und Portfolios. Sie können die Zugriffsrechte dieser Personen manuell auf „Anzeigen“ aktualisieren.
 
-### Zugriffsebene externer Benutzer
+### Zugriffsebene „Externe Benutzende“
 
-Diese Zugriffsebene ist nicht an eine gebührenpflichtige Workfront-Lizenz gebunden. Hierbei handelt es sich um die restriktivste Zugriffsebene. Sie wurde in erster Linie für Mitarbeiter wie externe Berater entwickelt, die sich nicht bei Workfront anmelden, aber Dokumente gelegentlich überprüfen, herunterladen oder anzeigen müssen.
+Diese Zugriffsebene ist nicht an eine kostenpflichtige Workfront-Lizenz gebunden. Hierbei handelt es sich um die restriktivste Zugriffsebene. Sie wurde in erster Linie für Mitarbeitende wie externe Berater und Beraterinnen entwickelt, die sich nicht bei Workfront anmelden, aber gelegentlich Dokumente überprüfen, herunterladen oder anzeigen müssen.
 
-Benutzer mit der Zugriffsebene Externer Benutzer:
+Für Benutzende mit der Zugriffsebene „Externe Benutzende“ gilt Folgendes:
 
-* Kann nur Dokumente und Kalenderberichte anzeigen, die für sie freigegeben sind
-* Anzeigen der Benutzer, die Dokumente und Kalenderberichte für sie freigeben
-* Dokumente genehmigen, die für sie freigegeben wurden
+* Sie können nur Dokumente und Kalenderberichte anzeigen, die für sie freigegeben sind
+* Sie können die Benutzenden anzeigen, die Dokumente und Kalenderberichte für sie freigeben
+* Sie können Dokumente genehmigen, die für sie freigegeben wurden
 
-Externe Benutzer können Arbeitselementen nicht zugewiesen werden.
+Externe Benutzende können Arbeitselementen nicht zugewiesen werden.
 
-Diese Zugriffsebene kann nicht geändert werden.
+Sie können diese Zugriffsebene nicht ändern.
 
 >[!IMPORTANT]
 >
->Externer Benutzer ist nur verfügbar, wenn die Option „Mit Personen ohne Workfront-Konten über deren E-Mail-Adresse zusammenarbeiten“ im Bereich „Systemeinstellungen“ im Setup aktiviert ist. Weitere Informationen finden Sie unter [Systemsicherheitseinstellungen konfigurieren](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+>Die Zugriffsebene „Externe Benutzende“ ist nur verfügbar, wenn die Option „Mit Personen ohne Workfront-Konten über deren E-Mail-Adresse zusammenarbeiten“ im Bereich „Systemeinstellungen“ im Setup aktiviert ist. Weitere Informationen finden Sie unter [Konfigurieren von Sicherheitseinstellungen für das System](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 #### **Zugriffsdetails**
 
-Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte auf der Zugriffsebene Externer Benutzer verfügbar sind.
+Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte auf der Zugriffsebene „Externe Benutzende“ verfügbar sind.
 
-| Workfront-Objekttyp | Kein Zugriff | Ansichtszugriff | Zugriff bearbeiten |
+| Workfront-Objekttyp | Kein Zugriff | Zugriffsrecht „Anzeigen“ | Zugriffsrecht „Bearbeiten“ |
 |---|---|---|---|
 | Projekt | ✓ |   |   |
 | Aufgabe | ✓ |   |   |
@@ -331,21 +333,21 @@ Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte au
 | Programme | ✓ |   |   |
 | Berichte (einschließlich Dashboards und Kalenderberichte) |   | ✓ (Nur für Kalenderberichte, keine Möglichkeit zur Freigabe von Berichten) |   |
 | Filter, Ansichten und Gruppierungen | ✓ |   |   |
-| Dokument |   | ✓ (keine Möglichkeit zur Freigabe von Dokumenten) |   |
+| Dokument |   | ✓ (Keine Möglichkeit zur Freigabe von Dokumenten) |   |
 | Benutzerin oder Benutzer |   | ✓ |   |
 | Teams | ✓ |   |   |
 | Vorlagen | ✓ |   |   |
 | Finanzdaten | ✓ |   |   |
-| Ressourcenverwaltung | ✓ |   |   |
+| Ressourcen-Management | ✓ |   |   |
 | Szenarienplaner | ✓ |   |   |
 | Ziele | ✓ |   |   |
 
 
-## Zusammenarbeiten von Zugriffsebenen und Berechtigungen
+## Zusammenarbeit zwischen Zugriffsebenen und Berechtigungen
 
-Zugriffsebenen definieren, was Benutzer mit allgemeinen Objekttypen und Bereichen im System, wie Projekten, Aufgaben und Problemen, sehen und machen können. Berechtigungen definieren, auf was Sie Zugriff haben auf bestimmte Objekte, die von anderen Personen im System erstellt wurden, wie ein Projekt, das zum Ausführen einer Marketing-Kampagne erstellt wurde.
+Zugriffsebenen legen fest, was Benutzende bei allgemeinen Objekttypen und Bereichen im System, wie Projekten, Aufgaben und Problemen, sehen und damit tun können. Berechtigungen legen fest, worauf Sie bei bestimmten Objekten Zugriff haben, die von anderen Personen im System erstellt wurden. Dies kann beispielsweise ein Projekt zur Durchführung einer Marketing-Kampagne sein.
 
-In der folgenden Tabelle wird der allgemeine Zugriff eines Benutzers auf Objekte (definiert durch die Zugriffsebene des Benutzers) mit den Berechtigungen für ein bestimmtes freigegebenes Objekt verglichen:
+In der folgenden Tabelle wird der allgemeine Zugriff eines Benutzers bzw. einer Benutzerin auf Objekte (definiert durch die Zugriffsebene der Benutzenden) mit den Berechtigungen für ein bestimmtes freigegebenes Objekt verglichen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -360,17 +362,17 @@ In der folgenden Tabelle wird der allgemeine Zugriff eines Benutzers auf Objekte
  </thead> 
  <tbody> 
   <tr> 
-   <td>Wird von einem Workfront-Administrator in der Zugriffsebene eines Benutzers gewährt</td> 
+   <td>Wird von einem Workfront-Admin in der Zugriffsebene eines Benutzers bzw. einer Benutzerin gewährt</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Wird von einem Benutzer erteilt, der ein Objekt auf der Objektebene teilt</td> 
+   <td>Wird durch einen Benutzer bzw. eine Benutzerin gewährt, der bzw. die ein Objekt auf Objektebene freigibt</td> 
    <td> </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Von einem höherrangigen freigegebenen Objekt geerbt 
+   <td> <p>Wird von einem höherrangigen freigegebenen Objekt übernommen 
    </td> 
    <td> </td> 
    <td>✓</td> 
@@ -378,46 +380,46 @@ In der folgenden Tabelle wird der allgemeine Zugriff eines Benutzers auf Objekte
  </tbody> 
 </table>
 
-Die Aktivitäten, die ein Benutzer mit einem Objekt durchführen kann, werden durch eine Kombination aus seiner Zugriffsebene und den ihm gewährten Berechtigungen definiert.
+Die Aktivitäten, die Benutzende mit einem Objekt durchführen können, werden durch eine Kombination aus ihrer Zugriffsebene und den ihnen gewährten Berechtigungen definiert.
 
 ![Sicherheitsmodellhierarchie](assets/security-model-hierachy-copy.png)
 
-### Berechtigungen über die Freigabe von Objekten erteilen
+### Erteilen von Berechtigungen über die Freigabe von Objekten
 
-Benutzer erhalten Zugriff auf einzelne Objekte, wenn andere Benutzer bestimmte Berechtigungen für diese Objekte freigeben und gewähren.
+Benutzende erhalten Zugriff auf einzelne Objekte, wenn andere Benutzende bestimmte Berechtigungen für diese Objekte freigeben und gewähren.
 
 >[!NOTE]
 >
->* Wenn ein Benutzer ein Objekt mit bestimmten Berechtigungen teilt und dieses Objekt untergeordnete Objekte hat, erbt der Empfänger dieselben Berechtigungen für diese untergeordneten Objekte.
->* Wenn eine Zugriffsebene Benutzer daran hindert, bestimmte Objekte zu löschen, verhindert dies nicht, dass sie untergeordnete Objekte löschen, die in diesen Objekten enthalten sind.
+>* Wenn ein Benutzer bzw. eine Benutzerin ein Objekt mit bestimmten Berechtigungen teilt und dieses Objekt untergeordnete Objekte hat, übernimmt der Empfänger bzw. die Empfängerin dieselben Berechtigungen für diese untergeordneten Objekte.
+>* Wenn eine Zugriffsebene Benutzende daran hindert, bestimmte Objekte zu löschen, verhindert dies nicht, dass sie untergeordnete Objekte löschen, die in diesen Objekten enthalten sind.
 
-Ein Benutzer kann dem Empfänger eine der folgenden Berechtigungen für das einzelne Objekt gewähren:
+Ein Benutzer bzw. eine Benutzerin kann dem Empfänger bzw. der Empfängerin eine der folgenden Berechtigungen für das einzelne Objekt gewähren:
 
-* **Ansicht**: Mit dieser Berechtigungsstufe kann der Empfänger das Objekt auf eine der folgenden Arten freigeben:
+* **Anzeigen**: Mit dieser Berechtigungsstufe kann der Empfänger bzw. die Empfängerin das Objekt auf eine der folgenden Arten freigeben:
 
-   * Systemweit, sodass alle Benutzer es sehen können (nicht für alle Objekte verfügbar)
-   * Bei externen Benutzern, die keine Workfront-Lizenz haben (nicht für alle Objekte verfügbar)
-   * Mit einer E-Mail-Adresse (nur für Dokumente und Kalender verfügbar)
+   * Systemweit, sodass alle Benutzenden es sehen können (nicht für alle Objekte verfügbar)
+   * Für externe Benutzende, die keine Workfront-Lizenz haben (nicht für alle Objekte verfügbar)
+   * Für eine E-Mail-Adresse (nur für Dokumente und Kalender verfügbar)
 
-* **Contribute**: (nicht für alle Objekte verfügbar)
-* **Verwalten**: Wenn jemand ein Objekt freigibt, werden die Rechte des Empfängers am Objekt durch eine Kombination aus der Zugriffsebene des Empfängers und den vom Teilenden gewährten Berechtigungen für das Objekt bestimmt. Der niedrigste verfügbare Zugriffsgrad in dieser Kombination bestimmt, was der Empfänger mit dem Objekt tun kann.
+* **Mitwirken**: (nicht für alle Objekte verfügbar)
+* **Verwalten**: Wenn jemand ein Objekt freigibt, werden die Rechte des Empfängers bzw. der Empfängerin am Objekt durch eine Kombination aus der Zugriffsebene der empfangenden Person und den von der freigebenden Person gewährten Berechtigungen für das Objekt bestimmt. Der niedrigste verfügbare Zugriffsgrad in dieser Kombination bestimmt, was der Empfänger bzw. die Empfängerin mit dem Objekt tun kann.
 
 ### Beispielszenarien
 
-#### **Szenario 1**
+#### **Szenario 1**
 
-Wenn die Zugriffsebene des Empfängers die Projektbearbeitung nicht zulässt, kann diese Person ein Projekt nicht bearbeiten oder löschen, selbst wenn der Teilende die Berechtigung zur Verwaltung erteilt hat.
+Wenn die Zugriffsebene des Empfängers bzw. der Empfängerin die Projektbearbeitung nicht zulässt, kann diese Person ein Projekt nicht bearbeiten oder löschen, selbst wenn die freigebende Person die Berechtigung zur Verwaltung erteilt hat.
 
-Wenn die Zugriffsebene des Empfängers die Bearbeitung eines Projekts zulässt, der freigebende Benutzer jedoch schreibgeschützte Berechtigungen für ein Projekt erteilt hat, kann der Benutzer das Projekt nicht bearbeiten oder löschen.
+Wenn die Zugriffsebene des Empfängers bzw. der Empfängerin die Bearbeitung eines Projekts zulässt, die freigebende Person jedoch schreibgeschützte Berechtigungen für ein Projekt erteilt hat, kann der Benutzer bzw. die Benutzerin das Projekt nicht bearbeiten oder löschen.
 
-#### **Szenario 2**
+#### **Szenario 2**
 
-Wenn Olivia ein Workfront-Projekt mit Tony teilt, wird Tonys Zugang dazu durch eine Kombination zweier Dinge bestimmt:
+Wenn Olivia ein Workfront-Projekt für Tony freigibt, hängt es von einer Kombination aus zwei Dingen ab, welchen Zugriff Tony auf das Projekt hat:
 
-* Tony&#39;s access level, zugewiesen von der Workfront-Administratorin bzw. dem -Administrator
-* Tonys Berechtigungen für das Projekt, angegeben von Olivia
+* Die Zugriffsebene von Tony, zugewiesen durch den bzw. die Workfront-Admin
+* Die Berechtigungen von Tony für das Projekt, angegeben von Olivia
 
-Tonys Aktionen im Projekt können im Projekt weiter eingeschränkt werden, sie können jedoch nicht über die auf seiner Zugriffsebene erlaubte Zugriffsebene hinausgehen:
+Die Aktionen, die Tony am Projekt ausführen kann, können weiter eingeschränkt werden, Einschränkungen können jedoch nicht über das hinaus aufgehoben werden, was seine Zugriffsebene zulässt:
 
-* Wenn Tonys Zugriffsebene ihm nicht erlaubt, Aufgaben zu erstellen, kann er keine Aufgaben zum Projekt hinzufügen, selbst wenn Olivia ihm die Berechtigung zum Hinzufügen von Aufgaben erteilt hat.
-* Wenn Tonys Zugriffsebene es ihm erlaubt, Aufgaben zu erstellen, Olivia jedoch keine Berechtigungen zum Hinzufügen von Aufgaben zu dem Projekt erteilt hat, kann er keine Aufgaben zu diesem Projekt hinzufügen, aber er kann Aufgaben zu anderen Projekten hinzufügen, für die ihm entsprechende Berechtigungen erteilt wurden.
+* Wenn seine Zugriffsebene es Tony nicht gestattet, Aufgaben zu erstellen, kann er keine Aufgaben zum Projekt hinzufügen, selbst wenn Olivia ihm die Berechtigung zum Hinzufügen von Aufgaben erteilt hat.
+* Wenn seine Zugriffsebene es Tony gestattet, Aufgaben zu erstellen, Olivia jedoch keine Berechtigungen zum Hinzufügen von Aufgaben zu dem Projekt erteilt hat, kann er diesem Projekt keine Aufgaben hinzufügen, aber er kann Aufgaben zu anderen Projekten hinzufügen, für die ihm entsprechende Berechtigungen erteilt wurden.
