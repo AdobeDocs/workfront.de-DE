@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: a56441276fbc508a81d5331874580385ceb8812f
+source-git-commit: 02a4269777e18a8c66a245d374565eb61efd39ef
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '663'
 ht-degree: 11%
 
 ---
@@ -155,7 +155,8 @@ Verwenden Sie natürliche Sprache, um Arbeit schnell zu filtern.
 
 1. Klicken **oben links** der Arbeitsliste auf „Gruppen“.
 1. Gruppe auswählen, um die Arbeitsliste zu organisieren.
-   ![Gruppen](assets/groups-new.png)
+
+![Gruppen](assets/groups-new.png)
 
 +++Erweitern um detaillierte Informationen zu verfügbaren Gruppen anzuzeigen
 
@@ -172,7 +173,7 @@ Verwenden Sie natürliche Sprache, um Arbeit schnell zu filtern.
 
 Sie können einzelne Arbeitselemente beim Gruppieren nach „Meine Priorität“ oder „Status“ per Drag-and-Drop zwischen Kategorien ziehen.
 
-1. Arbeit gruppieren nach **Status** oder **Meine Priorität**.
+1. Gruppieren Sie Ihre Arbeit nach **Status** oder **Mein Fokus**.
 2. Bewegen Sie den Mauszeiger über das Arbeitselement, um auf das Symbol **Ziehen** zu klicken und es in die gewünschte Kategorie zu verschieben.
    ![Symbol ziehen](assets/drag-and-drop.png)
 
@@ -192,6 +193,6 @@ Um einzelne Spalten zu sortieren, gehen Sie zur Spalte und klicken Sie auf den A
 
 ### Alle Gruppenabschnitte erweitern oder reduzieren
 
-Um alle Gruppenabschnitte zu erweitern oder zu reduzieren, öffnen Sie **Gruppe** und klicken Sie auf **Alle erweitern** oder **Alle reduzieren**.
+Um alle Gruppenabschnitte zu erweitern oder zu reduzieren, öffnen Sie **Gruppe** und klicken Sie auf **Alle erweitern** wenn die Gruppierungen reduziert sind, oder **Alle reduzieren** wenn die Gruppierungen erweitert sind.
 
 ![Gruppen erweitern oder reduzieren](assets/expand-collapse-groups.png)

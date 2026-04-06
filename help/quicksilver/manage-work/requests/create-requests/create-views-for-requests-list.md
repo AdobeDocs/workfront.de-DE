@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ff87e425389f30dfaa1a178ea2b548d1c41179bb
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '723'
 ht-degree: 9%
 
 ---
@@ -103,9 +103,14 @@ Sie können eine Ansicht im Bereich Anfragen von Workfront erstellen, wenn Sie d
 
    1. Fügen Sie das Widget „Meine **&quot; hinzu oder wechseln Sie**.
 
-1. Klicken Sie in der Liste der Anfragen auf das Dropdown **Menü** Ansichten![&#x200B; und &#x200B;](assets/view-icon-requests.png) auf **Neue Ansicht**.
+1. Klicken Sie in der Liste der Anfragen auf das Dropdown **Menü** Ansichten![ und ](assets/view-icon-requests.png) auf **Neue Ansicht**.
 
-   ![Neue Ansicht](assets/create-new-view.png)
+   <!-- 
+   
+   replace the screen shot with release
+   ![New view](assets/create-new-view.png)
+
+   -->
 
 1. Geben Sie einen Namen für die neue Ansicht ein und klicken Sie auf **Erstellen**.
 1. Fahren Sie fort [Ansicht für Anfragen bearbeiten](#edit-a-view-for-requests).

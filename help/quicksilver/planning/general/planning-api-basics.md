@@ -6,15 +6,15 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
-source-wordcount: '1009'
-ht-degree: 2%
+source-wordcount: '1008'
+ht-degree: 13%
 
 ---
 
 
-# Grundlagen zur Adobe Workfront Planning-API
+# Grundlagen zur Adobe Workfront-Planung-API
 
 {{planning-important-intro}}
 
@@ -43,9 +43,9 @@ Objekte werden durch Senden einer HTTP-Anfrage an den eindeutigen URI bearbeitet
 Die standardmäßigen HTTP-Methoden entsprechen den folgenden Vorgängen:
 
 * **GET** - Ruft ein Objekt nach ID ab und sucht anhand einer Abfrage nach allen Objekten
-* **POST** - Fügt ein neues Objekt ein.
-* **PUT** - bearbeitet ein vorhandenes Objekt
-* **DELETE** - Löscht ein Objekt
+* **POST**: Fügt ein neues Objekt ein
+* **PUT**: Bearbeitet ein vorhandenes Objekt
+* **DELETE**: Löscht ein Objekt
 
 Weitere Details und Beispiele für jeden Vorgang finden Sie in der Entwicklerdokumentation zur [Workfront Planning API](https://developer.adobe.com/wf-planning/).
 
@@ -93,7 +93,7 @@ Workfront Planning unterstützt die folgenden Suchmodifikatoren:
     <tr>
         <td>$isEmpty </td>
         <td><ul><li><code>"fieldId": "$isEmpty" </code></li><li><code>"fieldId": { "$isEmpty": null } </code></li><ul> </td>
-        <td>Gibt Datensätze zurück, deren Feldwert nicht leer ist  </td>
+        <td>Gibt Datensätze zurück, deren Feldwert leer ist  </td>
         <td><ul><li>„“ </li><li>null </li><ul>  </td>
     </tr>
     <tr>
@@ -199,7 +199,7 @@ Nachfolgend finden Sie eine Liste der unterstützten Feldtypen und darüber, wel
 | number | $is, $isNot, $größerThan, $größerThanOrEqual, $lessThan, $lessThanOrEqual, $isEmpty, $isNotEmpty |
 | Prozentsatz | $is, $isNot, $größerThan, $größerThanOrEqual, $lessThan, $lessThanOrEqual, $isEmpty, $isNotEmpty |
 | Währung | $is, $isNot, $größerThan, $größerThanOrEqual, $lessThan, $lessThanOrEqual, $isEmpty, $isNotEmpty |
-| date | $is, $isNot, $isAfter, $isBefore, $isBetween, $isNotBetween, $isEmpty, $isNotEmpty |
+| Datum | $is, $isNot, $isAfter, $isBefore, $isBetween, $isNotBetween, $isEmpty, $isNotEmpty |
 | Einzelauswahl | $is, $isNot, $isAnyOf, $isNoneOf, $isEmpty, $isNotEmpty |
 | Mehrfachauswahl | $hasAnyOf, $hasAllOf, $isExactly, $hasNoneOf, $isEmpty, $isNotEmpty |
 | Boolescher Wert | $is |
@@ -273,7 +273,7 @@ Im API-Aufruf können Filter enthalten sein, die auf mehreren Kriterien basieren
 
 Mit dem Anforderungsparameter fields können Sie eine kommagetrennte Liste bestimmter Felder angeben, die zurückgegeben werden sollen. Bei diesen Feldnamen wird zwischen Groß- und Kleinschreibung unterschieden.
 
-Beispiel: die Anfrage
+Beispielsweise gibt die Anfrage
 
 `/v1/records/search?attributes=data,createdBy`
 
@@ -299,7 +299,7 @@ Beispiel: die Anfrage
 ..
 ```
 
-Gibt eine Antwort ähnlich der folgenden zurück:
+eine Antwort ähnlich der folgenden zurück:
 
 
 ```

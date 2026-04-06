@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
 workflow-type: tm+mt
 source-wordcount: '1064'
 ht-degree: 3%
@@ -160,15 +160,23 @@ So geben Sie einen Arbeitsbereich für andere frei:
 
    * Wenn Sie Systemadministrator sind, wählen Sie eine der folgenden Optionen aus:</span>
 
-      * <span class="preview">**Nur eingeladene Personen können zugreifen**: Sie müssen Entitäten im Freigabefeld auswählen und ihren Zugriff auf den Arbeitsbereich auswählen. Dies ist die Standardauswahl. </span>
-      * <span class="preview">**Jeder im System kann Folgendes anzeigen**: Jeder im System mit Zugriff auf Planning kann den Workspace in seinem Bereich **Arbeitsbereiche** in Planning anzeigen.</span>
+     <div class="preview">
+
+      * **Nur eingeladene Personen können zugreifen**: Sie müssen Entitäten im Freigabefeld auswählen und ihren Zugriff auf den Arbeitsbereich auswählen. Dies ist die Standardauswahl.
+      * **Jeder im System kann Folgendes anzeigen**: Jeder im System mit Zugriff auf Planning kann den Workspace in seinem Bereich **Arbeitsbereiche** in Planning anzeigen.
+
+     </div>
 
    * <span class="preview">(Bedingt) Wenn Sie Workspace Manager mit einer Standardlizenz sind, können Sie eine der folgenden Auswahlen sehen, sie jedoch nicht ändern:</span>
 
-      * <span class="preview">**Nur eingeladene Personen können darauf zugreifen**. Dies ist die Standardeinstellung.</span>
-      * <span class="preview">**Jeder im System kann Folgendes anzeigen**</span>
+     <div class="preview">
 
-     <span class="preview">Sie müssen einen Systemadministrator bitten, eine globale Berechtigung für einen Arbeitsbereich zu ändern.</span>
+      * **Nur eingeladene Personen können darauf zugreifen**. Dies ist die Standardeinstellung.
+      * **Jeder im System kann Folgendes anzeigen**
+
+     Sie müssen einen Systemadministrator bitten, eine globale Berechtigung für einen Arbeitsbereich zu ändern.
+
+     </div>
 
 1. Beginnen Sie im Feld **Zugriff auf diesen Arbeitsbereich gewähren** mit der Eingabe des Namens eines Benutzers, einer Gruppe, eines Teams, eines Unternehmens oder eines Aufgabengebiets und klicken Sie darauf, wenn es in der Liste angezeigt wird.
 
