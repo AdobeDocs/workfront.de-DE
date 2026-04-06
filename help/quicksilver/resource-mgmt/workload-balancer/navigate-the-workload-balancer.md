@@ -8,9 +8,9 @@ feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 900e29200bef2d4f70b17cd810ea0e2b936c8aad
 workflow-type: tm+mt
-source-wordcount: '4334'
+source-wordcount: '4400'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Verwenden Sie den Workload Balancer in Adobe Workfront, um Benutzenden je nach V
 
 Der Workload Balancer ist in mehreren Bereichen von Adobe Workfront verfügbar. Die Navigation ist in allen Bereichen ähnlich.
 
-Weitere Informationen dazu, wo sich der Workload Balancer befindet, finden Sie unter [Suchen des Workload Balancer](https://experienceleague.adobe.com/de/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
+Weitere Informationen dazu, wo sich der Workload Balancer befindet, finden Sie unter [Suchen des Workload Balancer](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
 
 ## Zugriffsanforderungen
 
@@ -105,8 +105,8 @@ Weitere Informationen zum Anzeigen von Informationen im Workload Balancer finden
 
 Informationen zum Verwalten von Ressourcen mit dem Workload Balancer finden Sie auch in den folgenden Artikeln:
 
-* [Übersicht über die Zuweisung von Arbeit im Workload Balancer](https://experienceleague.adobe.com/de/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [Verwalten von Benutzerzuweisungen im Workload Balancer](https://experienceleague.adobe.com/de/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [Übersicht über die Zuweisung von Arbeit im Workload Balancer](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [Verwalten von Benutzerzuweisungen im Workload Balancer](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 ## Navigieren im Workload Balancer für mehrere Projekte im Bereich Ressourcen
 
@@ -259,6 +259,11 @@ Im Bereich Nicht zugewiesene Arbeit werden standardmäßig keine Arbeitselemente
    * **Abgeschlossene Arbeiten anzeigen**: Wenn diese Option aktiviert ist, werden abgeschlossene Aufgaben und Probleme im Bereich Zugewiesene Arbeit angezeigt. Dies ist standardmäßig aktiviert.
 
      Nach Abschluss einer Aufgabe oder eines Problems wird oben rechts ein grünes Häkchensymbol angezeigt. Dasselbe Symbol wird für ein Projekt angezeigt, wenn die Aufgaben oder Probleme für den ausgewählten Zeitrahmen des Projekts abgeschlossen sind.
+
+     >[!NOTE]
+     >
+     >Die Sichtbarkeit von Aufgaben im Workload Balancer wird durch den Abschluss von Aufgaben auf Aufgabenebene gesteuert, nicht durch den Abschluss auf Zuweisungsebene. Wenn eine Aufgabe mehrere Beauftragte hat und ein oder mehrere Beauftragte „Mit meinem Teil fertig“ auswählen, der Aufgabenstatus insgesamt jedoch nicht „Abgeschlossen“ lautet, wird die Aufgabe als nicht abgeschlossene Arbeit betrachtet. Wenn die Option **Abgeschlossene Arbeit anzeigen** deaktiviert ist, wird die Aufgabe weiterhin angezeigt, da sie nicht vollständig abgeschlossen ist.
+
    * **Verbleibende Zeit anzeigen**: Wenn diese Option aktiviert ist, zeigt Workfront die Differenz zwischen der täglichen Zeit, für die der Benutzer zur Arbeit verfügbar ist, basierend auf seinen Zeitplänen, und den Stunden an, für die er im Bereich Zugewiesene Arbeit für die Benutzer zugewiesen ist. Dies ist standardmäßig deaktiviert und die zugewiesene Zeit wird standardmäßig angezeigt.
    * **Funktionszuweisungen anzeigen**: Wenn diese Option aktiviert ist, werden Funktionszuweisungen im Bereich Nicht zugewiesene Arbeit unter den ihnen zugewiesenen Arbeitselementen angezeigt. Dies ist standardmäßig aktiviert.
 
@@ -475,7 +480,7 @@ Die Seite Ihres Home-Teams wird standardmäßig angezeigt.
 
 1. Fahren Sie mit dem Navigieren im Workload-Balancer eines Projekts fort, wie im Abschnitt [Navigieren im Workload-Balancer für mehrere Projekte](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) dieses Artikels beschrieben.
 
-### Navigieren im Workload Balancer eines Benutzers
+## Navigieren im Workload Balancer eines Benutzers
 
 Sie können über Ihr eigenes Benutzerprofil auf den Workload-Balancer zugreifen.
 
