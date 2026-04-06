@@ -7,13 +7,13 @@ description: Tarifattribute erweitern die Tarifkarten- und Tariffunktionalität 
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 8e948d1c90a9d528c7ffd4963e14630ae7577e70
+exl-id: d570ef6a-935f-4dd0-9c54-a480163ec9d8
+source-git-commit: 3a194bc2b2707c7b7e1cd5edffc3dd5ab43e91b3
 workflow-type: tm+mt
 source-wordcount: '1378'
 ht-degree: 2%
 
 ---
-
 
 # Tarifattribute definieren
 
@@ -85,16 +85,18 @@ Tarifattribute werden in allen Bereichen unterstützt, in denen in Workfront Tar
 * Überschreibungen auf Projektebene: Wenden Sie Attribute an, wenn Sie Raten auf Projektebene überschreiben.
 * Aufgabengebiete (im Setup): Festlegen der Standardraten für Aufgabengebiete mit Attributen.
 * Benutzer (Benutzerprofile): Weisen Sie einzelnen Benutzern native Attribute zu, damit ihre Zuweisungen automatisch auf die richtigen Raten aufgelöst werden.
+
 <!--
-* Staffing plan resources
-* Non-labor resources: Attributes can also be defined on resources such as equipment or services.-->
+BULLET POINT Staffing plan resources
+BULLET POINT Non-labor resources: Attributes can also be defined on resources such as equipment or services.-->
 
 <!--Non-labor resource categories and -->Aufgabengebiete unterstützen keine Ratenattribute direkt auf Objektebene. Sie sind über die für sie definierten Sätze mit Tarifattributen verbunden.
 
 Wenn Sie Platzhalterzuweisungen erstellen können, die an die richtigen Attributwerte gebunden sind, werden Ihre Tarife entsprechend ausgefüllt.
 
 * Wenn Sie bei Aufgabengebieten den Platzhalter später durch einen echten Benutzer ersetzen, setzt das System die Zuweisungsattribute automatisch auf die im Profil dieses Benutzers definierten Attribute zurück. Zu diesem Zeitpunkt können Attribute nicht mehr auf Zuweisungsebene bearbeitet werden. Sie übernehmen vom Benutzer, um die Konsistenz zu wahren und eine Fehlausrichtung zwischen Benutzerattributen und angewendeten Raten zu verhindern.
-  <!--* For non-labor resource categories, placeholder assignments can be used similarly: You assign the category through a placeholder that carries the required attributes. Once the actual non-labor resource is substituted, the attributes are automatically pulled from the resource's profile. Just like with users, these attributes cannot be overridden manually at the assignment level, ensuring financial data integrity and preventing accidental mismatches between resources and their designated attributes.-->
+
+<!-- BULLET POINT For non-labor resource categories, placeholder assignments can be used similarly: You assign the category through a placeholder that carries the required attributes. Once the actual non-labor resource is substituted, the attributes are automatically pulled from the resource's profile. Just like with users, these attributes cannot be overridden manually at the assignment level, ensuring financial data integrity and preventing accidental mismatches between resources and their designated attributes.-->
 
 ## Zugriffsanforderungen
 
@@ -201,5 +203,3 @@ Filter müssen immer in beide Richtungen konfiguriert werden. Wenn Attribut A ü
    * (Nur Attributfiltertyp) **Referenzfeld**: Das Feld im referenzierten Attribut, das übereinstimmen muss, z. B. die Agentur-ID.
 
 1. Klicken Sie **jedem Attribut** Speichern“, um die Eigenschaften und Filter zu speichern.
-
-

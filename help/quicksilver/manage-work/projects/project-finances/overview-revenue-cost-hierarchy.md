@@ -6,9 +6,10 @@ title: Übersicht über Umsatz und Kostenhierarchie
 description: In diesem Artikel wird der Schritt-für-Schritt-Prozess zur Bestimmung der geeigneten Abrechnungs- und Kostensätze für Aufgabengebiete und Benutzer für die Umsatzart und den Kostentyp „Benutzer und Funktion pro Stunde“ beschrieben.
 author: Lisa
 feature: Work Management
-source-git-commit: dfc6344303f33a9c3c89837b759235612e54904e
+exl-id: 623828fb-e1ac-4cae-8b9f-567a6f8cb7ae
+source-git-commit: 3a194bc2b2707c7b7e1cd5edffc3dd5ab43e91b3
 workflow-type: tm+mt
-source-wordcount: '3519'
+source-wordcount: '3604'
 ht-degree: 0%
 
 ---
@@ -23,7 +24,17 @@ Um präzise Finanzberechnungen zu ermöglichen, verwendet Workfront bei der Bere
 
 In den Abschnitten dieses Artikels wird der schrittweise Prozess zur Bestimmung der geeigneten Abrechnungs- und Kostensätze für Aufgabengebiete und Benutzer für die Umsatzart „Benutzer und Funktion pro Stunde“ und die Kostentypliste beschrieben.
 
+>[!NOTE]
+>
+>Die in diesem Artikel angezeigte Tarifhierarchie wird nur verwendet, wenn der Benutzer und die Funktion „Stündlicher Umsatz“ oder „Kostentyp“ auf die Aufgabe angewendet werden.
+
 Weitere Informationen zu Abrechnungssätzen, Umsatztypen und zur Berechnung des Umsatzes finden Sie unter [Übersicht über Abrechnung und Umsatz](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+## Ausnahmen für die Hierarchie und den Umsatztyp „Benutzer und Funktion pro Stunde“
+
+* Unternehmenstarife werden innerhalb der Hierarchie nicht unterstützt.
+* Für die Hierarchieberechnungen wird nur die Primäre Rolle verwendet. Andere Rollen werden nicht verwendet.
+* Wenn der Umsatztyp einer Aufgabe „Benutzer und Funktion - Stündlich“ lautet, kann die Zuweisung eines Benutzers, der Stunden für die Aufgabe protokolliert hat, zu dieser Aufgabe nicht aufgehoben werden.
 
 ## Übersicht über die Wirksamkeitsdaten
 
@@ -68,7 +79,7 @@ Die Markierung kann für ein Projekt aktiviert werden, wenn die Arbeit begonnen 
 >Sobald die Markierung aktiviert ist, um die Verrechnungssätze beizubehalten, kann sie nicht mehr deaktiviert werden, es sei denn, das Projekt verfügt über keine Zuweisungen und keine Stunden. Dadurch wird sichergestellt, dass alle Finanzberichte die tatsächlichen vertraglichen Kurse widerspiegeln.
 >Wenn die Markierung deaktiviert ist, können die Abrechnungssätze vom System neu berechnet oder dynamisch angepasst werden. Jegliche Aktualisierungen der Rolle, des Gehalts oder des Abrechnungssatzes des Benutzers werden sofort im Abrechnungssatz für die Zuweisung angezeigt.
 
-Weitere Informationen finden Sie unter [Projekte &#x200B;](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) und [Tarifkarten verwalten](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
+Weitere Informationen finden Sie unter [Projekte ](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) und [Tarifkarten verwalten](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
 
 ## Geplanter Umsatz - Benutzer und Funktion pro Stunde
 
@@ -232,4 +243,3 @@ Workfront sucht in den Benutzereigenschaften des Eigentümers entsprechend diese
    * Als Nächstes sucht das System nach der Aufgabengebiet-Quote auf Systemebene, wobei Datumsangaben für die Gültigkeit berücksichtigt werden.
 
 1. Wenn keiner dieser Sätze gefunden wird, ist der Abrechnungssatz 0.
-
