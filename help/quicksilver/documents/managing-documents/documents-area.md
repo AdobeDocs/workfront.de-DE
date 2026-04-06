@@ -9,9 +9,9 @@ feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ed7944fe4934ac5ab52b1eed3e144309de9781c4
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '825'
 ht-degree: 1%
 
 ---
@@ -60,13 +60,13 @@ Sobald eine Korrekturabzugsentscheidung getroffen wurde, wird sie in der Dokumen
 
 ### Ordner
 
-Für ein Projekt, eine Aufgabe oder ein Problem, in das bzw. das Dokumente hochgeladen werden, können Sie Ordner zum Organisieren der Dokumente einrichten. Weitere Informationen finden Sie unter [Erstellen von &#x200B;](../../documents/organizing-documents/create-documents-folder.md).
+Für ein Projekt, eine Aufgabe oder ein Problem, in das bzw. das Dokumente hochgeladen werden, können Sie Ordner zum Organisieren der Dokumente einrichten. Weitere Informationen finden Sie unter [Erstellen von ](../../documents/organizing-documents/create-documents-folder.md).
 
 Im Bereich Globale Dokumente können Sie zwei Arten von Ordnern einrichten, um die Dokumente zu organisieren, auf die Sie Zugriff haben:
 
 * **Intelligente Ordner:** Zeigt nur die Dokumente an, die angezeigt werden sollen. Weitere Informationen finden Sie unter [Erstellen und Verwalten von Smart Folders](../../documents/organizing-documents/create-manage-smart-folders.md).
 
-* **Meine Ordner** Dokumente nach Ihren Wünschen organisieren. Weitere Informationen finden Sie unter [Erstellen von &#x200B;](../../documents/organizing-documents/create-documents-folder.md).
+* **Meine Ordner** Dokumente nach Ihren Wünschen organisieren. Weitere Informationen finden Sie unter [Erstellen von ](../../documents/organizing-documents/create-documents-folder.md).
 
 ### Erweiterte Dokumentdetails
 
@@ -74,9 +74,7 @@ Die Seite Dokumentdetails enthält eine umfangreichere Version der Dokumentdetai
 
 ## Neuer Dokumentbereich
 
->[!NOTE]
->
->Der Bereich Globale Dokumente ist im Bereich Neue Dokumente nicht verfügbar. Sie können nur über Programme, Portfolios, Projekte, Aufgaben oder Probleme auf Dokumente zugreifen.
+Der Bereich Neue Dokumente ist nur für verfügbar, wenn sich Ihre Organisation im Unternehmensspeicher befindet. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Verwenden des Bedienfelds „Zusammenfassung“
 
@@ -106,3 +104,9 @@ Sie können den Verlauf eines Dokuments im Bereich Neue Dokumente anzeigen. Der 
 ### Ordner auf Systemebene für Dokumentberechtigungen
 
 Workfront erstellt automatisch einen Ordner auf Systemebene, wenn das erste Dokument zu einer Aufgabe oder einem Problem hochgeladen wird. Diese Ordner erben Berechtigungen von der Aufgabe oder dem Problem und sind im Dokumentbereich auf Projektebene sichtbar. Alle Dokumente, die in diese Aufgabe oder dieses Problem hochgeladen wurden, werden in diesem Ordner gespeichert und übernehmen Berechtigungen davon. Dies ist die primäre Methode, mit der Berechtigungen für Dokumente im Bereich Neue Dokumente verwaltet werden. Weitere Informationen finden Sie unter [Objektberechtigungen und Zugriffsebene - Übersicht für das Adobe Enterprise-Speichermodell](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+
+## Zu beachten
+
+* Der neue Dokumentbereich wurde für Bildschirme optimiert, die mindestens 1024 Pixel breit sind. Wenn Sie einen kleineren Bildschirm haben, können beim Zugriff auf das Bedienfeld Zusammenfassung Probleme auftreten.
+
+* Der Bereich Globale Dokumente ist im Bereich Neue Dokumente nicht verfügbar. Sie können nur über Programme, Portfolios, Projekte, Aufgaben oder Probleme auf Dokumente zugreifen.
