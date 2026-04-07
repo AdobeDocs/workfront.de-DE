@@ -4,7 +4,8 @@ description: Verbesserungen bei Unternehmensabläufen im zweiten Quartal 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6d2d26d7e40eef593d73f6ee8bc733a3cce007f5
+exl-id: 72130462-ae78-4b9b-ae18-848602d4a858
+source-git-commit: 59a9725e7697a81be2a827a902ee3d23085a2ecd
 workflow-type: tm+mt
 source-wordcount: '1196'
 ht-degree: 2%
@@ -39,30 +40,40 @@ Zu den Verbesserungen des Finanzmanagements gehören:
 
 * **Tarifattribute** mit denen Sie zusätzliche Dimensionen zu Tarifen über das Aufgabengebiet hinaus hinzufügen können, sodass die Tarife nicht nur nach Aufgabengebiet, sondern auch nach Faktoren wie Agentur, Standort, Marke, Kostenstelle oder anderen variieren können. Durch Kombination dieser Attribute kann Workfront automatisch die richtige Rate für Zuweisungen auswählen und so die finanzielle Genauigkeit und Konsistenz über alle Projekte hinweg sicherstellen.
 
-  Weitere Informationen finden Sie unter [Definieren von Tarifattributen](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md)
+  Weitere Informationen finden Sie unter [Definieren von ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+
 * **Tarifkarten**, die eine strukturierte Möglichkeit zur Verwaltung der kundenspezifischen Abrechnung bieten und rollenbasierte Tarife und anpassbare Attribute kombinieren, um eine genaue und kontrollierte Projektkalkulation sicherzustellen.
 
   Weitere Informationen finden Sie unter [Tarifkarten verwalten](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md) und [Eine Tarifkarte an ein Projekt anhängen](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
+
 * Ein neuer Kosten- und Umsatztyp mit dem Namen **Benutzer und Funktion pro Stunde**. Wenn dieser Aufgabentyp zugewiesen wird, bestimmt eine erweiterte Tarifhierarchielogik die Abrechnungs- und Kostensätze aus verschiedenen Ebenen, einschließlich der Tarifkarte, des Projekts, der Zuweisung, des Aufgabengebiets und des Benutzerprofils. „Benutzer und Funktion pro Stunde“ ist der einzige Kosten- und Umsatztyp, den Sie zum Anwenden von Tarifattributen und Tarifkarten verwenden können.
 
   Weitere Informationen finden Sie unter [Übersicht über Umsatz und Kostenhierarchie](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
+
 * Ein neu gestaltetes **Advanced Assignments**-Erlebnis mit erweiterter Konfigurierbarkeit bietet mehr Sichtbarkeit und Kontrolle über Raten, Zeitrahmen und Eigenschaften hinweg.
 
   Weitere Informationen finden Sie unter [Erstellen erweiterter Zuweisungen](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
-  Vor der Produktionsversion am 16. April wird ein Umschalter hinzugefügt, damit Sie zwischen den alten und neuen Erlebnissen mit erweiterten Zuweisungen wählen können. Das alte Erlebnis bleibt der Standard
+  >[!NOTE]
+  >
+  >Vor der Produktionsversion am 16. April wird ein Umschalter hinzugefügt, damit Sie zwischen den alten und neuen Erlebnissen mit erweiterten Zuweisungen wählen können. Das alte Erlebnis bleibt der Standard.
+
 * Ein **Aufgabengebiet für Abrechnung**, mit dem Sie einem Benutzer ein anderes Aufgabengebiet in Rechnung stellen können als sein primäres Aufgabengebiet. Dies ist nützlich, wenn eine Person vorübergehend Arbeiten erledigt, die zu einem anderen Satz in Rechnung gestellt werden sollten.
 
   Weitere Informationen finden Sie unter [Einrichten eines Aufgabengebiets für die Abrechnung](/help/quicksilver/manage-work/projects/project-finances/set-up-job-role-for-billing.md).
+
 * Datum-**(**)
 
   Weitere Informationen finden Sie [Einrichten von Wechselkursen](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+
 * Die Möglichkeit, einen **Überstundenmultiplikator für Aufgaben“ hinzuzufügen** der alle geplanten Stunden für diese Aufgabe multipliziert und sich auf die Berechnungen des geplanten Umsatzes auswirkt.
 
   Weitere Informationen finden Sie unter [Definieren eines Überstundenverhältnisses](/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md).
+
 * Ein Steuerelement auf Projektebene, mit dem **alle Abrechnungsinformationen beibehalten** und zukünftige Änderungen verhindert werden.
 
   Weitere Informationen finden Sie unter [Projekte bearbeiten](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+
 * **Ein Aufgabengebiet-Alias** der auf einer Tarifkarte definiert ist. Wenn die Tarifkarte mit einem Projekt verbunden ist, wird der Alias auf Informationen wie Platzhalterzuweisungen, Ausgaben und Berichten anstelle des Namens des internen Aufgabengebiets angezeigt.
 
   Weitere Informationen finden Sie unter [Tarifkarten verwalten](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
@@ -119,16 +130,18 @@ Zu den Verbesserungen bei benutzerdefinierten Formularen gehören:
   >
   >Diese Funktionen stehen Unternehmen für alle Workfront- und Workflow-Pakete zur Verfügung.
 
-* Möglichkeit zum Hinzufügen benutzerdefinierter Formulare zu Teams, Bewertungskarten und Aufgabengebieten
-Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+* Die Möglichkeit, Teams, Bewertungskarten und Aufgabengebieten benutzerdefinierte Formulare hinzuzufügen.
+
+  Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
   >[!NOTE]
   >
   >* Das Hinzufügen benutzerdefinierter Formulare zu Bewertungskarten und Aufgabengebieten erfordert das Workflow-Ultimate-Paket.
   >* Das Hinzufügen benutzerdefinierter Formulare zu Teams ist für Unternehmen in allen Workfront- und Workflow-Paketen verfügbar.
 
-* Eine **Finance-Berechtigungstyp**-Einstellung in währungsformatierten Feldern, um den Zugriff nur Benutzern zu ermöglichen, die bestimmte Berechtigungen in ihren Zugriffsebenen festgelegt haben
-Weitere Informationen finden Sie unter [Einschränken des Zugriffs auf Finanzdaten in benutzerdefinierten Feldern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md).
+* Eine **Finance-Berechtigungstyp** -Einstellung in währungsformatierten Feldern, um den Zugriff nur für Benutzer zuzulassen, die bestimmte Berechtigungen in ihren Zugriffsebenen festgelegt haben.
+
+  Weitere Informationen finden Sie unter [Einschränken des Zugriffs auf Finanzdaten in benutzerdefinierten Feldern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md).
 
   >[!NOTE]
   >
@@ -139,7 +152,6 @@ Weitere Informationen finden Sie unter [Einschränken des Zugriffs auf Finanzdat
 >[!NOTE]
 >
 >Diese Funktionen stehen Unternehmen für alle Workfront- und Workflow-Pakete zur Verfügung.
-
 
 In Layout-Vorlagen können Sie die Kopfzeilen und linken Navigationsmenüs für zusätzliche Objekte anpassen und Elemente im Hauptmenü einfacher anzeigen und ausblenden. Sie können auch eine Layout-Vorlage verwenden, um die Optionen zu bestimmen, die angezeigt werden, wenn ein Benutzer auf das **Mehr**-Menü (das Dreipunkt-Menü) für Projekte, Aufgaben, Probleme, Portfolios und Programme klickt.
 
@@ -152,6 +164,7 @@ Weitere Informationen finden Sie unter [Erstellen und Verwalten von Layout-Vorla
 >Diese Funktion ist nur für Organisationen mit den Workflow-Paketen Prime oder Ultimate verfügbar.
 
 Benutzerdefinierte Lokalisierung ermöglicht es Ihnen, benutzerdefinierte Begriffe und Ausdrücke in verschiedenen Sprachen zu definieren. Workfront zeigt diese Begriffe dann in der Sprache an, die in den Browsereinstellungen festgelegt ist.
+
 Beispielsweise können Sie die Bezeichnung „Zielgruppe“ so einstellen, dass das deutsche Wort „Zielgruppe“ übersetzt wird. Jeder Benutzer, dessen Deutsch als Sprache für sein Adobe IMS-Konto festgelegt ist, sieht das Wort „Zielgruppe“ als Bezeichnung für alle Felder mit der Bezeichnung „Zielgruppe“ in englischer Sprache.
 
 Weitere Informationen finden Sie unter [Konfigurieren der benutzerdefinierten Lokalisierung](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
@@ -165,5 +178,3 @@ Weitere Informationen finden Sie unter [Konfigurieren der benutzerdefinierten Lo
 Workfront-Admins können jetzt Geschäftsregeln konfigurieren, um Aktionen für das erstellte, bearbeitete oder geänderte Objekt zu automatisieren, wenn bestimmte Bedingungen erfüllt sind. Zu den verfügbaren Aktionen gehören die Freigabe des -Objekts oder das Anhängen eines benutzerdefinierten Formulars an das -Objekt.
 
 Weitere Informationen finden Sie unter [Erstellen und Bearbeiten von Geschäftsregeln](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
-
-
