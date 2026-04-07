@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be95161b-2443-464a-b91c-82a96d5354a2
-source-git-commit: d2fcb0725672f1b8a976e3f55046af99b56a6412
+source-git-commit: b934764d12aa81f836b5d71b624ce9d83aab63b1
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 30%
+source-wordcount: '602'
+ht-degree: 29%
 
 ---
 
@@ -68,9 +68,7 @@ Weitere Informationen finden Sie unter [Erstellen und Verwalten von Ansichten im
 
 >[!NOTE]
 >
->Vorschau: 2. April 2026
->Produktions-Schnellveröffentlichung: 15. April 2026
->Produktion für alle: Freitag, 16. April 2026
+>Vordefinierte Ansichten haben keine Vorschau -Version und werden am 16. April direkt in der Produktion veröffentlicht.
 
 Um Ihnen zu helfen, Ihre Anfragenliste besser zu organisieren, haben wir die folgenden vordefinierten Ansichten zur Anfragenliste im Bereich Anfragen und zum Widget Meine Anfragen auf der Startseite hinzugefügt:
 
