@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: c989b5d6a91a4b1f19b044916b4f68a1738f9b16
 workflow-type: tm+mt
-source-wordcount: '3892'
+source-wordcount: '3874'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,6 @@ Projektkoordinatoren verwalten die Arbeit in Workfront, während Kreative, Marke
 * Benutzende können nur zu einer Workfront-Instanz innerhalb der IMS-Organisation gehören.
 
 * Die Workfront-Instanz muss im einheitlichen Adobe Experience Manager- und Adobe Enterprise-Speicher aktiviert werden.
-
-* Die Integration muss von Adobe Professional Services konfiguriert werden.
 
 
 ## Auf Adobe Enterprise Storage aufbauend
@@ -180,8 +178,6 @@ Um eine einheitliche Überprüfung und Genehmigung zu verwenden, müssen die fol
 * Benutzende können nur zu einer Workfront-Instanz innerhalb der IMS-Organisation gehören.
 
 * Die Workfront-Instanz muss im einheitlichen Adobe Experience Manager- und Adobe Enterprise-Speicher aktiviert werden.
-
-* Die Integration muss von Adobe Professional Services konfiguriert werden.
 
 * Workfront-Kunden müssen eine V2-SKU verwenden (dies kann eine Vertragsveranstaltung erfordern - kontaktieren Sie Ihren Adobe-Kundenbetreuer).
 
@@ -472,7 +468,7 @@ Benutzer können den Frame.io-Viewer direkt von Workfront aus starten. Alle Prü
 
 Ja. Sobald ein Asset den Prüfungs- und Validierungszyklus abgeschlossen hat, können Sie es zur endgültigen Speicherung und Verteilung an Adobe Experience Manager Assets übertragen. Dadurch werden Workfront für Work-Management, Frame.io für die Überprüfung und AEM für die Verwaltung digitaler Assets zu einer einheitlichen Content-supply chain verbunden.
 
-Weitere Informationen finden Sie unter „Verwenden [&#x200B; Adobe Experience Manager mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+Weitere Informationen finden Sie unter „Verwenden [ Adobe Experience Manager mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 **Wie passt die einheitliche Überprüfung und Genehmigung in Adobe GenStudio?**
 
