@@ -87,7 +87,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 1. Geben Sie im Feld Name des Mitarbeiters einen Namen für den Mitarbeiter ein. Dies ist der Name, der in der Liste der verfügbaren Bevollmächtigten für eine Aufgabe angezeigt wird.
    <!--1. Select whether the collaborator will use a brand or Adobe Brand Intelligence for its reviews.-->
    <!--1. (Conditional) If the AI Collaborator will use Adobe Brand Intelligence, select the tenant that it will use.-->
-1. <!--(Conditional) If the AI Collaborator will use a Brand,-->Wählen Sie die zu verwendende Marken- und Markenrichtlinie aus.
+1. &#x200B;<!--(Conditional) If the AI Collaborator will use a Brand,-->Wählen Sie die zu verwendende Marken- und Markenrichtlinie aus.
 1. Klicken Sie auf **Speichern**.
 
 ## KI-Mitwirkende verwalten
