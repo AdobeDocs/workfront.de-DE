@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 3fe3313bd545d51be7aa0fb021dd0bb0f91b4321
+source-git-commit: cada5387ddfb710029d06cd38841ecb9c8a6484b
 workflow-type: tm+mt
-source-wordcount: '1699'
-ht-degree: 2%
+source-wordcount: '1703'
+ht-degree: 1%
 
 ---
 
@@ -69,8 +69,7 @@ So erstellen Sie ein Aufgabengebiet:
 {{step-1-to-setup}}
 
 1. Klicken Sie im linken Bedienfeld auf **[!UICONTROL Aufgabengebiete]**.
-1. Klicken Sie **[!UICONTROL Neues Aufgabengebiet]**.
-<!-- 1. Click **New Job Role > Create new job role**.  -->
+1. Klicken Sie **[!UICONTROL Neues Aufgabengebiet] <span class="preview">> Neues Aufgabengebiet erstellen**.</span>
 1. Geben Sie Informationen in die folgenden Felder ein:
 
    * **Name**: Geben Sie einen Namen für das Aufgabengebiet an. Dies ist der Name, der überall in Workfront angezeigt wird, wo das Feld Aufgabengebiet angezeigt wird.
@@ -92,7 +91,7 @@ So erstellen Sie ein Aufgabengebiet:
 
      Weitere Informationen zum Einrichten der Basiswährung in Workfront finden Sie unter [Einrichten von Wechselkursen](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
-     Informationen zum Ändern der Währung eines Projekts finden Sie unter [Ändern der &#x200B;](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md).
+     Informationen zum Ändern der Währung eines Projekts finden Sie unter [Ändern der ](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md).
 
    * **Kostensatz**: Der Kostensatz pro Stunde für das Aufgabengebiet. Dieser Wert berechnet die geplanten Kosten und Istkosten für Aufgaben und Probleme im Zusammenhang mit der Funktion sowie letztendlich die geplanten Kosten und Istkosten der Projekte. Geben Sie den Kurs in der gewählten Währung ein.
 
@@ -130,7 +129,7 @@ Abrechnungs- und Kostensätze für ein Aufgabengebiet werden in Finanzberechnung
 
 Tarifattribute werden in Bereichen von Workfront unterstützt, in denen es Tarife gibt, z. B. Aufgabengebiete und Anwender. Wenn Attribute auf ein Aufgabengebiet angewendet werden, werden ihre Zuweisungen automatisch mit den richtigen Raten aufgelöst.
 
-Weitere Informationen finden Sie unter [Definieren von &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+Weitere Informationen finden Sie unter [Definieren von ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
 
 {{step-1-to-setup}}
 
@@ -157,7 +156,7 @@ Weitere Informationen finden Sie unter [Definieren von &#x200B;](/help/quicksilv
 
    >[!NOTE]
    >
-   >Diese Attribute werden separat definiert und können sich auf Umsatz- und Kostenberechnungen auswirken. Weitere Informationen finden Sie unter [Definieren von &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+   >Diese Attribute werden separat definiert und können sich auf Umsatz- und Kostenberechnungen auswirken. Weitere Informationen finden Sie unter [Definieren von ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
 
 1. Wählen Sie die **Währung** für den Kurs. Der Workfront-Administrator fügt die Basiswährung im Bereich „Setup“ hinzu. Sie können die Auswahl in eine andere verfügbare Währung ändern und die Währung in gültigen Datumsbereichen ändern.
 
@@ -167,7 +166,7 @@ Weitere Informationen finden Sie unter [Definieren von &#x200B;](/help/quicksilv
 
    Weitere Informationen zum Einrichten der Basiswährung in Workfront finden Sie unter [Einrichten von Wechselkursen](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
-   Informationen zum Ändern der Währung eines Projekts finden Sie unter [Ändern der &#x200B;](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md).
+   Informationen zum Ändern der Währung eines Projekts finden Sie unter [Ändern der ](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md).
 
 1. (Bedingt) Geben Sie für einen Abrechnungssatz den **Abrechnungssatz** für dieses Aufgabengebiet ein.
 
