@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 71b3af519d0fac1d15164e5d9f40bda5d76d0f5c
+source-git-commit: 16ca615d8a0432f371debb832236e788ee5beb88
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '563'
 ht-degree: 7%
 
 ---
@@ -20,7 +20,7 @@ Auf dieser Seite werden Admin-Verbesserungen beschrieben, die mit der Version vo
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im zweiten Quartal 2026 verfügbar sind, finden Sie unter [Versionsübersicht für das zweite Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
 
-## KI-Mitwirkende jetzt verfügbar
+## Content Review AI Collaborator jetzt verfügbar
 
 >[!NOTE]
 >
@@ -28,13 +28,11 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im zweiten Quartal 2026 ve
 >Produktions-Schnellveröffentlichung: Donnerstag, 15. April 2026
 >Produktion für alle: Freitag, 16. April 2026
 
-Um Ihnen die Nutzung von KI in Ihrer täglichen Arbeit zu erleichtern, haben wir KI-Mitwirkende erstellt. KI-Mitwirkende sind eine Möglichkeit, KI-Agenten in Ihre Projekte und Aufgaben einzubinden. Sie können KI-Mitwirkende mit Markenrichtlinien konfigurieren und sie dann wie eine Benutzerin oder ein Benutzer einer Aufgabe zuweisen.
+Um es Ihnen zu erleichtern, in Ihrer täglichen Arbeit von KI zu profitieren, haben wir den Content Review AI Collaborator erstellt. Der Collaborator bietet eine Möglichkeit, KI-Agenten in Ihre Projekte und Aufgaben einzubinden. Sie können KI-Mitwirkende mit Markenrichtlinien konfigurieren und sie dann wie eine Benutzerin oder ein Benutzer einer Aufgabe zuweisen.
 
-Derzeit können KI-Mitwirkende zur Überprüfung von Inhalten verwendet werden. In Zukunft werden weitere KI-Collaborator-Funktionen verfügbar sein.
+Derzeit ist die Inhaltsüberprüfung der einzige verfügbare KI-Mitwirkende. In Zukunft werden weitere KI-Collaborator-Funktionen verfügbar sein.
 
-<!--
-For more information, see [Configure AI Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators).
--->
+Weitere Informationen finden Sie unter [Konfigurieren von KI-Mitwirkenden](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
 
 ## Benutzerdefinierte Quartale sind jetzt als separate Seite im Setup verfügbar
 

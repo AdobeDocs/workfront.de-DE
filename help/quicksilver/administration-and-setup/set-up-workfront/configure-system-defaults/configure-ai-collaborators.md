@@ -8,14 +8,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: 25d5fef46bc8f02e92d778685c2ad6e93439f9ff
+source-git-commit: 7d359a2536860d13658d3ec0c95264a55db7ab29
 workflow-type: tm+mt
-source-wordcount: '407'
+source-wordcount: '408'
 ht-degree: 6%
 
 ---
 
 # KI-Mitwirkende konfigurieren
+
+>[!IMPORTANT]
+>
+>Derzeit ist Content Reviewer der einzige verfügbare KI-Mitwirkende-Typ. In Zukunft werden weitere KI-Collaborator-Funktionen verfügbar sein.
 
 {{highlighted-preview-article-level}}
 
@@ -28,10 +32,6 @@ Zu den verfügbaren KI-Typen für Mitwirkende gehören:
 * Reviewer: Erstellen Sie einen Mitarbeiter mit Marken <!-- or Adobe Brand Intelligence--> weisen Sie ihn dann als Reviewer für Assets zu.
 
   Weitere Informationen finden Sie unter [Erste Schritte mit dem Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
-
-  >[!NOTE]
-  >
-  >Derzeit ist Reviewer der einzige verfügbare KI-Mitwirkende-Typ. In Zukunft werden weitere KI-Collaborator-Funktionen verfügbar sein.
 
 
 ## Zugriffsanforderungen
@@ -87,7 +87,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 1. Geben Sie im Feld Name des Mitarbeiters einen Namen für den Mitarbeiter ein. Dies ist der Name, der in der Liste der verfügbaren Bevollmächtigten für eine Aufgabe angezeigt wird.
    <!--1. Select whether the collaborator will use a brand or Adobe Brand Intelligence for its reviews.-->
    <!--1. (Conditional) If the AI Collaborator will use Adobe Brand Intelligence, select the tenant that it will use.-->
-1. &#x200B;<!--(Conditional) If the AI Collaborator will use a Brand,-->Wählen Sie die zu verwendende Marken- und Markenrichtlinie aus.
+1. <!--(Conditional) If the AI Collaborator will use a Brand,-->Wählen Sie die zu verwendende Marken- und Markenrichtlinie aus.
 1. Klicken Sie auf **Speichern**.
 
 ## KI-Mitwirkende verwalten
