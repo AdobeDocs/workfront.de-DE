@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: 25c4d4435cc3507ab2d163600a8c42be66efd4c2
+source-git-commit: 25d5fef46bc8f02e92d778685c2ad6e93439f9ff
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 5%
+source-wordcount: '407'
+ht-degree: 6%
 
 ---
 
@@ -25,7 +25,7 @@ Sie können beispielsweise einen KI-Mitarbeiter vom Typ „Prüfer“ mit Marken
 
 Zu den verfügbaren KI-Typen für Mitwirkende gehören:
 
-* Reviewer: Erstellen Sie einen Mitarbeiter mit Marken oder Marken-Brain und weisen Sie ihn dann als Reviewer für Assets zu.
+* Reviewer: Erstellen Sie einen Mitarbeiter mit Marken <!-- or Adobe Brand Intelligence--> weisen Sie ihn dann als Reviewer für Assets zu.
 
   Weitere Informationen finden Sie unter [Erste Schritte mit dem Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
@@ -85,9 +85,9 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    >Derzeit ist nur der Reviewer-Typ verfügbar. In Zukunft werden weitere KI-Typen für Mitwirkende verfügbar sein.
 
 1. Geben Sie im Feld Name des Mitarbeiters einen Namen für den Mitarbeiter ein. Dies ist der Name, der in der Liste der verfügbaren Bevollmächtigten für eine Aufgabe angezeigt wird.
-1. Wählen Sie aus, ob der Mitarbeiter eine Marke oder ein Markengehirn für seine Bewertungen verwenden wird.
-1. (Bedingt) Wenn der KI-Mitwirkende ein Brand Brain verwenden wird, wählen Sie den Mandanten aus, den er verwenden wird.
-1. (Bedingt) Wenn der KI-Mitwirkende eine Marke verwenden wird, wählen Sie die Marke und die Markenrichtlinie aus, die er verwenden wird.
+   <!--1. Select whether the collaborator will use a brand or Adobe Brand Intelligence for its reviews.-->
+   <!--1. (Conditional) If the AI Collaborator will use Adobe Brand Intelligence, select the tenant that it will use.-->
+1. <!--(Conditional) If the AI Collaborator will use a Brand,-->Wählen Sie die zu verwendende Marken- und Markenrichtlinie aus.
 1. Klicken Sie auf **Speichern**.
 
 ## KI-Mitwirkende verwalten
