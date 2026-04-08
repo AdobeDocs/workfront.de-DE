@@ -1,16 +1,16 @@
 ---
 title: Zugriff auf Aufgabengebiete gewähren
-description: xxxxxxxxxxxxxxxx
+description: Als Adobe Workfront-Administrator können Sie den Zugriff eines Benutzers auf Aufgabengebiete in Workfront über seine Zugriffsebene definieren.
 author: Becky and Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+exl-id: a5ba79da-37f3-43f8-a7e2-4ccd75b56fef
+source-git-commit: c0cb423c73a6b0e982081ae67ffef6316b03db7f
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 13%
+source-wordcount: '343'
+ht-degree: 12%
 
 ---
-
 
 # Zugriff auf Aufgabengebiete gewähren
 
@@ -50,7 +50,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 ## Benutzerzugriff konfigurieren, um Aufgabengebiete mithilfe einer benutzerdefinierten Zugriffsebene zu bearbeiten
 
-1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Klicken Sie auf das Zahnradsymbol ![](assets/gear-icon-settings.png) der Schaltfläche **Anzeigen** oder **Bearbeiten** rechts neben „Aufgabengebiete“ und wählen Sie dann unter **Einstellungen optimieren** die Funktionen aus, die Sie gewähren möchten.
 
    >[!NOTE]

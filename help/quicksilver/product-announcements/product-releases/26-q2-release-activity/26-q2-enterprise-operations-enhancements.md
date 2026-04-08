@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 72130462-ae78-4b9b-ae18-848602d4a858
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+source-git-commit: c0cb423c73a6b0e982081ae67ffef6316b03db7f
 workflow-type: tm+mt
-source-wordcount: '1207'
+source-wordcount: '1257'
 ht-degree: 2%
 
 ---
@@ -42,7 +42,7 @@ Zu den Verbesserungen des Finanzmanagements gehören:
 
 * **Tarifattribute** mit denen Sie zusätzliche Dimensionen zu Tarifen über das Aufgabengebiet hinaus hinzufügen können, sodass die Tarife nicht nur nach Aufgabengebiet, sondern auch nach Faktoren wie Agentur, Standort, Marke, Kostenstelle oder anderen variieren können. Durch Kombination dieser Attribute kann Workfront automatisch die richtige Rate für Zuweisungen auswählen und so die finanzielle Genauigkeit und Konsistenz über alle Projekte hinweg sicherstellen.
 
-  Weitere Informationen finden Sie unter [Definieren von &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+  Weitere Informationen finden Sie unter [Definieren von ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
 
 * **Tarifkarten**, die eine strukturierte Möglichkeit zur Verwaltung der kundenspezifischen Abrechnung bieten und rollenbasierte Tarife und anpassbare Attribute kombinieren, um eine genaue und kontrollierte Projektkalkulation sicherzustellen.
 
@@ -86,6 +86,8 @@ Verwenden Sie **Projekt-Momentaufnahmen**, um Projekte effektiver zu verwalten u
 
 Weitere Informationen finden Sie unter [Erstellen und Anzeigen von Projekt-Momentaufnahmen](/help/quicksilver/manage-work/projects/create-projects/create-snapshots.md).
 
+[Sehen Sie sich eine Videodemonstration mit Projekt-Momentaufnahmen an.](https://video.tv.adobe.com/v/3483249/){target="_blank"}
+
 >[!NOTE]
 >
 >* Projekt-Momentaufnahmen sind nur für Organisationen im Workflow-Ultimate-Paket verfügbar.
@@ -96,6 +98,8 @@ Weitere Informationen finden Sie unter [Erstellen und Anzeigen von Projekt-Momen
 **Geschäftsprofile** bieten sicheren, skalierbaren Systemzugriff und tragen zur Stärkung der Unternehmensführung bei.
 
 Weitere Informationen finden Sie unter [Übersicht über Geschäftsprofile](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
+
+[Sehen Sie sich eine Videodemonstration mit Geschäftsprofilen an.](https://video.tv.adobe.com/v/3483246/){target="_blank"}
 
 >[!NOTE]
 >
@@ -110,6 +114,8 @@ Außerdem wurden die Berechtigungen zum Anzeigen von Kosten- und Abrechnungsdate
 ### Verbesserungen bei benutzerdefinierten Formularen und Feldern
 
 Die erweiterte Logik in benutzerdefinierten Formularen bietet klarere Einblicke und ein präziseres Projekt- und Finanzmanagement.
+
+[Sehen Sie sich eine Videodemonstration zur Verbesserung von benutzerdefinierten Formularen und Feldern an.](https://video.tv.adobe.com/v/3483244/){target="_blank"}
 
 Zu den Verbesserungen bei benutzerdefinierten Formularen gehören:
 
@@ -159,6 +165,8 @@ In Layout-Vorlagen können Sie die Kopfzeilen und linken Navigationsmenüs für 
 
 Weitere Informationen finden Sie unter [Erstellen und Verwalten von Layout-Vorlagen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
+[Sehen Sie sich eine Videodemonstration zu den Verbesserungen an der Layout-Vorlage an.](https://video.tv.adobe.com/v/3483245/){target="_blank"}
+
 ### Benutzerdefinierte Lokalisierung
 
 >[!NOTE]
@@ -171,6 +179,8 @@ Beispielsweise können Sie die Bezeichnung „Zielgruppe“ so einstellen, dass 
 
 Weitere Informationen finden Sie unter [Konfigurieren der benutzerdefinierten Lokalisierung](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
 
+[Sehen Sie sich eine Videodemonstration zur benutzerdefinierten Lokalisierung an.](https://video.tv.adobe.com/v/3483248/){target="_blank"}
+
 ### Automatisieren von Aktionen mit Geschäftsregeln
 
 >[!NOTE]
@@ -180,3 +190,6 @@ Weitere Informationen finden Sie unter [Konfigurieren der benutzerdefinierten Lo
 Workfront-Admins können jetzt Geschäftsregeln konfigurieren, um Aktionen für das erstellte, bearbeitete oder geänderte Objekt zu automatisieren, wenn bestimmte Bedingungen erfüllt sind. Zu den verfügbaren Aktionen gehören die Freigabe des -Objekts oder das Anhängen eines benutzerdefinierten Formulars an das -Objekt.
 
 Weitere Informationen finden Sie unter [Erstellen und Bearbeiten von Geschäftsregeln](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+
+[Sehen Sie sich eine Videodemonstration zu den Verbesserungen bei den Geschäftsregeln an.](https://video.tv.adobe.com/v/3483247/){target="_blank"}
+
