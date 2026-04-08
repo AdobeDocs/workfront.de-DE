@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 1721d6d4c2059fa32d0fd2ae80af4bd26a8f06a7
+source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
-source-wordcount: '1555'
-ht-degree: 18%
+source-wordcount: '1597'
+ht-degree: 19%
 
 ---
 
@@ -32,7 +32,7 @@ Es zeigt auch an, welche Aktionen Workfront-Administratoren mithilfe einer Zugri
 >[!NOTE]
 >
 >* In diesem Artikel werden die Funktionen beschrieben, die für Zugriffsebenen im neuen Workfront-Paketmodell verfügbar sind. Informationen zu den im aktuellen Paketmodell verfügbaren Funktionen finden Sie unter [Funktionalität verfügbar für jeden Objekttyp für verschiedene Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* Eine Liste der Funktionen, die den verschiedenen Packages im aktuellen Modell zur Verfügung stehen, finden Sie unter [Preise und Verpackung für Adobe Workfront](https://business.adobe.com/de/products/workfront/pricing.html).
+>* Eine Liste der Funktionen, die den verschiedenen Packages im aktuellen Modell zur Verfügung stehen, finden Sie unter [Preise und Verpackung für Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Projekte
 
@@ -302,30 +302,30 @@ Diese Optionen sind in der Produktionsumgebung verfügbar:
 
 &#42;&#42;Externe Benutzer können nur nach anderen Benutzern suchen.
 
-<!--
-
 <div class="preview">
 
-## Job Roles
+## Aufgabengebiete
 
-|  Action           |  Standard  |  Light  |  Contributor  | External user |
+| Aktion | Standard | Light | Mitwirkender oder Mitwirkende | Externer Benutzer |
 |-------------------|------------|---------|---------------|---------------|
-| View              | ✓          | ✓       | ✓             | &nbsp;        |
-| Edit              | ✓          | &nbsp;  | &nbsp;        | &nbsp;        |
-| Create            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Delete            | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit Billing Rates | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit Cost Rates   | ✓*         | &nbsp;  | &nbsp;        | &nbsp;        |
-| Edit General Finance | ✓*      | &nbsp;  | &nbsp;        | &nbsp;        |
-| View Billing Rates | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
-| View Cost Rates    | ✓         | &nbsp;  | &nbsp;        | &nbsp;        |
-| View General Finance | ✓       | &nbsp;  | &nbsp;        | &nbsp;        |
+| Ansicht | ✓ | ✓ | ✓ |   |
+| Bearbeiten | ✓ |   |   |   |
+| Erstellen | ✓* |   |   |   |
+| Löschen | ✓* |   |   |   |
+| Abrechnungstarife bearbeiten | ✓* |   |   |   |
+| Kostensätze bearbeiten | ✓* |   |   |   |
+| Allgemeine Finanzen bearbeiten | ✓* |   |   |   |
+| Abrechnungstarife anzeigen | ✓* |   |   |   |
+| Kostensätze anzeigen | ✓* |   |   |   |
+| Allgemeine Finanzen anzeigen | ✓* |   |   |   |
 
 {style="table-layout:auto"}
 
-&#42; Using an access level, Workfront administrators can disable or enable this functionality.
+&#42; Mit einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
 
 </div>
+
+<!--
 
 ## Companies
 

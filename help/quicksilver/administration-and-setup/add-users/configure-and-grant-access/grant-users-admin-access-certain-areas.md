@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
-source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
+source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 2%
+source-wordcount: '840'
+ht-degree: 6%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 <!--Linked in several places, do not rename or change URL.-->
 
-Als Adobe Workfront-Administrator können Sie eine Zugriffsebene verwenden, um Benutzenden mit einer Plan-Lizenz administrativen Zugriff auf bestimmte Bereiche des Systems zu gewähren.
+Als Adobe Workfront-Administrator können Sie eine Zugriffsebene verwenden, um Benutzenden mit einer Standard- oder Plan-Lizenz administrativen Zugriff auf bestimmte Bereiche des Systems zu gewähren.
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ Als Adobe Workfront-Administrator können Sie eine Zugriffsebene verwenden, um B
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +37,7 @@ Als Adobe Workfront-Administrator können Sie eine Zugriffsebene verwenden, um B
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>   <p>Standard</p>
-   <p>Plan</p></td> 
+   <p>Abo</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -46,11 +46,11 @@ Als Adobe Workfront-Administrator können Sie eine Zugriffsebene verwenden, um B
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Planbenutzern administrativen Zugriff auf bestimmte Bereiche von Workfront gewähren
+## Gewähren von administrativem Zugriff für Standard- oder Planbenutzer auf bestimmte Bereiche von Workfront
 
 >[!IMPORTANT]
 >
@@ -96,12 +96,13 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      </tr> 
      <tr> 
       <td role="rowheader">Aufgabengebiete</td> 
-      <td> <p>Mit diesem Zugriff kann der Benutzer Folgendes tun:</p> 
+      <td> <p><span class="preview"><b>HINWEIS</b>: In der Vorschau-Umgebung wird der Zugriff auf Aufgabengebiete als Objekttyp auf der Zugriffsebene gesteuert. Siehe <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-job-roles.md">Zugriff auf Aufgabengebiete gewähren</a>.</span></p>
+      <p>Mit diesem Zugriff kann der Benutzer Folgendes tun:</p> 
        <ul> 
         <li>Anzeigen und Bearbeiten vorhandener Aufgabengebiete</li> 
         <li>Neue Aufgabengebiete hinzufügen</li> 
         <li>Funktionsbezogene Abrechnung und Kostensätze bearbeiten</li> 
-       </ul> <p><b>WICHTIG</b>: Wenn Sie einem Planer-Benutzer administrativen Zugriff auf Aufgabengebiete gewähren, wird die Einstellung „Finanzdatenzugriff“ „Aufgabengebiet bearbeiten - Abrechnung und Kostensätze“ für den Benutzer automatisch aktiviert. Wenn Sie später den administrativen Zugriff auf Aufgabengebiete für den Planenden-Benutzer deaktivieren, sind für den Benutzer weiterhin Aufgabengebiete sichtbar, da die Einstellung „Aufgabengebiet bearbeiten - Abrechnung und Kostensätze“ weiterhin aktiviert ist. Wenn dies eintritt und Sie den Zugriff des Benutzers auf die Anzeige von Aufgabengebieten entfernen müssen, müssen Sie die Berechtigungseinstellung „Rolle bearbeiten - Abrechnung und Kostensätze“ des Benutzers deaktivieren. Anweisungen finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Zugriff auf Finanzdaten gewähren</a>.</p> </td> 
+       </ul> <p><b>WICHTIG</b>: Wenn Sie einem Standard- oder Plan-Benutzer administrativen Zugriff auf Aufgabengebiete gewähren, wird die Einstellung „Finanzdatenzugriff“ „Aufgabengebiet bearbeiten“ „Abrechnung und Kostensätze“ für den Benutzer automatisch aktiviert. Wenn Sie später den administrativen Zugriff auf Aufgabengebiete für den Benutzer „Standard“ oder „Plan“ deaktivieren, sind Aufgabengebiete für den Benutzer weiterhin sichtbar, da die Einstellung „Aufgabengebiet bearbeiten - Abrechnung und Kostensätze“ weiterhin aktiviert ist. Wenn dies eintritt und Sie den Zugriff des Benutzers auf die Anzeige von Aufgabengebieten entfernen müssen, müssen Sie die Berechtigungseinstellung „Rolle bearbeiten - Abrechnung und Kostensätze“ des Benutzers deaktivieren. Anweisungen finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Zugriff auf Finanzdaten gewähren</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Meilensteine in meiner Gruppe</td> 

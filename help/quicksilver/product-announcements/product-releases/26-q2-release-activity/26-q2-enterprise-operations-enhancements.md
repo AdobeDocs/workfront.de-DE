@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 72130462-ae78-4b9b-ae18-848602d4a858
-source-git-commit: 59a9725e7697a81be2a827a902ee3d23085a2ecd
+source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1207'
 ht-degree: 2%
 
 ---
@@ -36,11 +36,13 @@ Erweiterte Enterprise Operations-Funktionen von Adobe Workfront bieten eine einh
 
 Prognostizieren, verfolgen und optimieren Sie Ihre Finanzen mit mehrstufigen Kosten- und Abrechnungssatz-Hierarchien.
 
+[Sehen Sie sich eine 13-minütige Videodemonstration zu den erweiterten Funktionen des Finanzmanagements an.](https://video.tv.adobe.com/v/3483224/){target="_blank"}
+
 Zu den Verbesserungen des Finanzmanagements gehören:
 
 * **Tarifattribute** mit denen Sie zusätzliche Dimensionen zu Tarifen über das Aufgabengebiet hinaus hinzufügen können, sodass die Tarife nicht nur nach Aufgabengebiet, sondern auch nach Faktoren wie Agentur, Standort, Marke, Kostenstelle oder anderen variieren können. Durch Kombination dieser Attribute kann Workfront automatisch die richtige Rate für Zuweisungen auswählen und so die finanzielle Genauigkeit und Konsistenz über alle Projekte hinweg sicherstellen.
 
-  Weitere Informationen finden Sie unter [Definieren von &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+  Weitere Informationen finden Sie unter [Definieren von ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
 
 * **Tarifkarten**, die eine strukturierte Möglichkeit zur Verwaltung der kundenspezifischen Abrechnung bieten und rollenbasierte Tarife und anpassbare Attribute kombinieren, um eine genaue und kontrollierte Projektkalkulation sicherzustellen.
 

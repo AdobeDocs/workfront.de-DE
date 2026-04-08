@@ -10,10 +10,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 150a7e52-d379-4909-b7e3-df8a0b0289d1
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 5%
+source-wordcount: '207'
+ht-degree: 7%
 
 ---
 
@@ -28,7 +28,8 @@ In diesen Artikeln wird beschrieben, wie Sie als Adobe Workfront-Admin Benutzend
 * [Zugriff auf Aufgaben gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)
 * [Zugriff auf Anfragen gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
 * [Zugriff auf Dokumente gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)
-* [Benutzern Zugriff gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+* [Gewähren von Zugriff auf Benutzende](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+* [Zugriff auf Aufgabengebiete gewähren](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-job-roles.md)
 * [Gewähren von Zugriff auf Teams](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)
 * [Zugriff auf Vorlagen gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)
 * [Gewähren des Zugriffs auf Berichte, Dashboards und Kalender](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)
@@ -44,5 +45,5 @@ In diesen Artikeln wird beschrieben, wie Sie als Adobe Workfront-Admin Benutzend
 
 ## Siehe auch
 
-* Allgemeine Informationen zu Zugriffsebenen finden Sie unter [&#x200B; von Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
+* Allgemeine Informationen zu Zugriffsebenen finden Sie unter [ von Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
 * Informationen dazu, wie Benutzende Objekte miteinander freigeben und Berechtigungen zum Anzeigen und Bearbeiten für diese Objekte erteilen können, finden Sie unter [Berechtigungen für Objekte erteilen und anfordern](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md) und [Wie Zugriffsebenen und Berechtigungen zusammenarbeiten](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).

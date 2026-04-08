@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 21c396fc5b52463477d6fedfae8dcd27de989817
+source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
-source-wordcount: '1765'
+source-wordcount: '1775'
 ht-degree: 96%
 
 ---
@@ -102,6 +102,8 @@ Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte au
 | Filter, Ansichten und Gruppierungen |   |   | ✓ |
 | Dokumente |   |   | ✓ |
 | Benutzende |   |   | ✓ |
+| Aufgabengebiete |   |   | ✓ |
+| Teams |   |   | ✓ |
 | Vorlagen |   |   | ✓ |
 | Finanzdaten |   |   | ✓ |
 | Ressourcen-Management |   |   | ✓ |
@@ -204,7 +206,13 @@ Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte in
    <td>✓</td> 
    <td> </td> 
   </tr> 
-    <tr> 
+  <tr> 
+   <td>Aufgabengebiete</td> 
+   <td> </td> 
+   <td>✓</td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
    <td>Teams</td> 
    <td> </td> 
    <td>✓</td> 
@@ -285,7 +293,8 @@ Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte au
 | Berichte (einschließlich Dashboards und Kalenderberichte) |   | ✓ (Nur die Registerkarte „Details“) |   |
 | Filter, Ansichten und Gruppierungen |   |   | ✓ |
 | Dokument |   |   | ✓ |
-| Benutzerin oder Benutzer |   | ✓ |   |
+| Benutzende |   | ✓ |   |
+| Aufgabengebiete |   | ✓ |   |
 | Teams |   | ✓ |   |
 | Vorlagen | ✓ |   |   |
 | Finanzdaten | ✓ |   |   |
@@ -334,7 +343,8 @@ Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte au
 | Berichte (einschließlich Dashboards und Kalenderberichte) |   | ✓ (Nur für Kalenderberichte, keine Möglichkeit zur Freigabe von Berichten) |   |
 | Filter, Ansichten und Gruppierungen | ✓ |   |   |
 | Dokument |   | ✓ (Keine Möglichkeit zur Freigabe von Dokumenten) |   |
-| Benutzerin oder Benutzer |   | ✓ |   |
+| Benutzende |   | ✓ |   |
+| Aufgabengebiete | ✓ |   |   |
 | Teams | ✓ |   |   |
 | Vorlagen | ✓ |   |   |
 | Finanzdaten | ✓ |   |   |
