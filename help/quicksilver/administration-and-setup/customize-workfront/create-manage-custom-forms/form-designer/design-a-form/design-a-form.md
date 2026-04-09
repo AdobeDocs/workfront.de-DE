@@ -10,9 +10,9 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 0db6cd1091052af7a71ad3e4fce6a9e3fcbb9f67
 workflow-type: tm+mt
-source-wordcount: '7439'
+source-wordcount: '7436'
 ht-degree: 94%
 
 ---
@@ -302,16 +302,16 @@ So fügen Sie ein Textfeld hinzu:
     </tr>
     <tr>
       <td><span class="preview">Berechtigungstyp „Finanzen“</span></td>
-      <td><p><span class="preview">Wählen Sie den Finanzberechtigungstyp aus, den die Benutzer haben müssen, damit sie dieses benutzerdefinierte Feld anzeigen oder bearbeiten können. Für berechnete Felder ist ein beliebiges Format zulässig.</span></p>
-      <ul span class="preview">
+      <td><p><span class="preview">Wählen Sie den Finanzberechtigungstyp aus, den die Benutzer haben müssen, damit sie dieses benutzerdefinierte Feld anzeigen oder bearbeiten können. Das Währungsformat muss ausgewählt sein.</span></p>
+      <ul>
       <li><p><strong>Keine Berechtigungen erforderlich:</strong> Alle Benutzer können dieses Feld sehen</p></li>
       <li><p><strong>Allgemein:</strong> Benutzer müssen über Berechtigungen zum Bearbeiten oder Anzeigen von General Finance verfügen</p></li>
       <li><p><strong>Rechnung: </strong> Benutzer müssen über die Berechtigung zum Bearbeiten oder Anzeigen von Abrechnungssätzen verfügen</p></li>
       <li><p><strong>Kosten:</strong> Benutzer müssen berechtigt sein, Kostensätze zu bearbeiten oder anzuzeigen</p></li>
       </ul>
-      <p><span class="preview">Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Einschränken des Zugriffs auf Finanzdaten in benutzerdefinierten Feldern</a>.</span></p>
+      <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Einschränken des Zugriffs auf Finanzdaten in benutzerdefinierten Feldern</a>.</p>
       </td>
-      <td><ul span class="preview">
+      <td><ul>
        <li>Einzeiliger Text</li>
        <li>Absatz</li>
        </ul></td>
@@ -458,16 +458,16 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
     </tr> 
     <tr>
       <td><span class="preview">Berechtigungstyp „Finanzen“</span></td>
-      <td><p><span class="preview">Wählen Sie den Finanzberechtigungstyp aus, den die Benutzer haben müssen, damit sie dieses benutzerdefinierte Feld anzeigen oder bearbeiten können. Für berechnete Felder ist ein beliebiges Format zulässig.</span></p>
-      <ul span class="preview">
+      <td><p><span class="preview">Wählen Sie den Finanzberechtigungstyp aus, den die Benutzer haben müssen, damit sie dieses benutzerdefinierte Feld anzeigen oder bearbeiten können. Das Währungsformat muss ausgewählt sein.</span></p>
+      <ul>
       <li><p><strong>Keine Berechtigungen erforderlich:</strong> Alle Benutzer können dieses Feld sehen</p></li>
       <li><p><strong>Allgemein:</strong> Benutzer müssen über Berechtigungen zum Bearbeiten oder Anzeigen von General Finance verfügen</p></li>
       <li><p><strong>Rechnung: </strong> Benutzer müssen über die Berechtigung zum Bearbeiten oder Anzeigen von Abrechnungssätzen verfügen</p></li>
       <li><p><strong>Kosten:</strong> Benutzer müssen berechtigt sein, Kostensätze zu bearbeiten oder anzuzeigen</p></li>
       </ul>
-      <p><span class="preview">Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Einschränken des Zugriffs auf Finanzdaten in benutzerdefinierten Feldern</a>.</span></p>
+      <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Einschränken des Zugriffs auf Finanzdaten in benutzerdefinierten Feldern</a>.</p>
       </td>
-      <td><ul span class="preview">
+      <td><ul>
        <li>Optionsfelder</li>
        <li>Kontrollkästchengruppe</li>
        <li>Einfachauswahl-Dropdown</li>
@@ -723,14 +723,14 @@ So fügen Sie eine externe Suche hinzu:
      </tr> 
      <tr>
       <td><span class="preview">Berechtigungstyp „Finanzen“</span></td>
-      <td><p><span class="preview">Wählen Sie den Finanzberechtigungstyp aus, den die Benutzer haben müssen, damit sie dieses benutzerdefinierte Feld anzeigen oder bearbeiten können. Für berechnete Felder ist ein beliebiges Format zulässig.</span></p>
-      <ul span class="preview">
+      <td><p><span class="preview">Wählen Sie den Finanzberechtigungstyp aus, den die Benutzer haben müssen, damit sie dieses benutzerdefinierte Feld anzeigen oder bearbeiten können. Das Währungsformat muss ausgewählt sein.</span></p>
+      <ul>
       <li><p><strong>Keine Berechtigungen erforderlich:</strong> Alle Benutzer können dieses Feld sehen</p></li>
       <li><p><strong>Allgemein:</strong> Benutzer müssen über Berechtigungen zum Bearbeiten oder Anzeigen von General Finance verfügen</p></li>
       <li><p><strong>Rechnung: </strong> Benutzer müssen über die Berechtigung zum Bearbeiten oder Anzeigen von Abrechnungssätzen verfügen</p></li>
       <li><p><strong>Kosten:</strong> Benutzer müssen berechtigt sein, Kostensätze zu bearbeiten oder anzuzeigen</p></li>
       </ul>
-      <p><span class="preview">Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Einschränken des Zugriffs auf Finanzdaten in benutzerdefinierten Feldern</a>.</span></p>
+      <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md">Einschränken des Zugriffs auf Finanzdaten in benutzerdefinierten Feldern</a>.</p>
       </td>
      </tr>
      <tr> 
@@ -754,12 +754,12 @@ So fügen Sie eine externe Suche hinzu:
       <td role="rowheader">JSON-Pfad</td>
       <td><p>Geben Sie den JSON-Pfad für die API ein oder fügen Sie ihn ein.</p> <p>Diese Option ermöglicht das Extrahieren von Daten aus der von der API-URL zurückgegebenen JSON. Damit können Sie auswählen, welche Werte aus dem JSON-Code in den Dropdown-Optionen angezeigt werden sollen.</p><p>Wenn Ihre API-URL beispielsweise JSON im folgenden Format zurückgibt, können Sie „$.data[*].name“ verwenden, um USA und Kanada als Dropdown-Optionen auszuwählen:</br>
       <pre>
-      &lbrace;
-       data: &lbrace;
+      {
+       data: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Weitere Informationen zum JSON-Pfad und um sicherzustellen, dass Sie den richtigen Pfad angeben, finden Sie unter <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
