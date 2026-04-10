@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 838e8f3d-0ea6-4844-a261-ef7b0e78a755
-source-git-commit: 20cbe6b280d2d06543b52e1e50d0b2c5edda6418
+source-git-commit: f89b6edead9dce1b0b4baa5ac792cf5e56fd46c0
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,15 @@ Sekunden nach dem Senden der Prüfungs- und Genehmigungsanfrage können Sie die 
 Der Content Reviewer ist nicht als Entscheidungsträger im Überprüfungs- und Genehmigungs-Workflow vorgesehen. Es werden nur eine Bewertung und Empfehlungen bereitgestellt, um das Asset an den festgelegten Markenanforderungen auszurichten.
 
 ![Feedback der Inhaltsvalidierer](assets/ai-reviewer-output.png)
+
+## Berechnen der Punktzahl
+
+Content Reviewer berechnet Scores je nach Überprüfungstyp unterschiedlich:
+
+* Bildüberprüfung: Dieser Wert spiegelt das Verhältnis zwischen übergebenen Richtlinien und fehlgeschlagenen Richtlinien wider.
+* Copy-Review: Diese Punktzahl setzt eine ausgewogene Gewichtung subjektiver und objektiver Ergebnisse voraus. Objektive Richtlinien (angezeigt unter „Beheben„) werden dreimal so gewichtet wie subjektive Richtlinien (angezeigt unter „Berücksichtigen„).
+
+Da objektive Richtlinien bei der Rezension von Kopien mehr Gewicht haben, empfehlen wir, konkrete, messbare Richtlinien für Ihre Marke zu schreiben. Weitere Informationen finden Sie im Abschnitt [Best Practices für die Erstellung von Markenrichtlinien](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md#best-practices-for-writing-brand-guidelines) im Artikel Erstellen und Verwalten von Marken für Inhaltsvalidierer .
 
 ## Punktzahl und Feedback anzeigen
 

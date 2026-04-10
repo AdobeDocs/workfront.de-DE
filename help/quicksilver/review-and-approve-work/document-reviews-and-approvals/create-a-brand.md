@@ -9,10 +9,10 @@ recommendations: noDisplay, noCatalog
 exl-id: b2788f3f-43d2-46f3-8502-bb833f8a0970
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b3e2ac00126facab9cc45ba8fb193d8951a37ec
+source-git-commit: f89b6edead9dce1b0b4baa5ac792cf5e56fd46c0
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 9%
+source-wordcount: '581'
+ht-degree: 7%
 
 ---
 
@@ -129,3 +129,12 @@ Weitere Informationen zur Unterzeichnung des Abkommens finden Sie unter [Unterze
 
 
 1. Klicken Sie abschließend auf **Veröffentlichen**, um die Marke für den Inhaltsvalidierer verfügbar zu machen.
+
+
+## Best Practices für das Schreiben von Markenrichtlinien
+
+*  Schreiben Sie Markenrichtlinien, die messbare Kriterien beschreiben. Der Content Reviewer bewertet Inhalte wörtlich, sodass objektive Regeln konsistentere Ergebnisse liefern als subjektive.
+
+* Suchen Sie in Ihren Richtlinien nach Wörtern wie „vermeiden“, „beibehalten“ oder „sicherstellen“. Diese signalisieren oft eine Regel, die man verschärfen kann. Ersetzen Sie die vage Anweisung durch eine bestimmte Liste von Wörtern, Formaten oder Beschränkungen. Ersetzen Sie zum Beispiel „Vermeiden Sie gängige Skiklischees“ durch „Verwenden Sie nicht „Gnar“, „Pow“ oder „Shred“.“
+
+* Wenn Sie die Subjektivität nicht entfernen können, schränken Sie sie ein. Ersetzen Sie allgemeine Adjektive durch spezifische Einschränkungen. Zum Beispiel wird „Direkt und handlungsorientiert“ zu „Direkt und handlungsorientiert; weglassen von Füllwörtern und Hedging-Sprache.“
