@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 735fc46cb982ebd7e28bed486589efe415741683
+source-git-commit: 93eab1106953bfc7324f4b7cc99d3442364a56cd
 workflow-type: tm+mt
-source-wordcount: '3874'
+source-wordcount: '3865'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,6 @@ Weitere Informationen zum Verwalten von Projekten in Workfront finden Sie [Proje
 
 Da einheitliche Überprüfungen und Genehmigungen mit dem Adobe Enterprise-Speicher erstellt werden, müssen beim Verwalten von Projekten und Dokumenten einige erzwungene Struktur- und Benennungskonventionen beachtet werden.
 
-* Objektnamen müssen eindeutig sein und können nicht dupliziert werden.
 * Der Adobe Enterprise-Speicher erfordert eindeutige Namen für Peer-Objekte mit demselben übergeordneten Element in der Hierarchiestruktur.
 * Dokumente können nicht denselben Namen haben, wenn sie zum selben Projekt gehören.
 * Objektnamen dürfen keines der folgenden Sonderzeichen enthalten: \ / : * ? &quot; | &lt; >
@@ -468,7 +467,7 @@ Benutzer können den Frame.io-Viewer direkt von Workfront aus starten. Alle Prü
 
 Ja. Sobald ein Asset den Prüfungs- und Validierungszyklus abgeschlossen hat, können Sie es zur endgültigen Speicherung und Verteilung an Adobe Experience Manager Assets übertragen. Dadurch werden Workfront für Work-Management, Frame.io für die Überprüfung und AEM für die Verwaltung digitaler Assets zu einer einheitlichen Content-supply chain verbunden.
 
-Weitere Informationen finden Sie unter „Verwenden [&#x200B; Adobe Experience Manager mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+Weitere Informationen finden Sie unter „Verwenden [ Adobe Experience Manager mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 **Wie passt die einheitliche Überprüfung und Genehmigung in Adobe GenStudio?**
 
