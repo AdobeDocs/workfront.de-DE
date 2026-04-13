@@ -66,7 +66,7 @@ So suchen Sie den Cluster Ihrer Organisation:
 
    CL01 bezieht sich auf Cluster 1, CL02 ist Cluster 2 usw.
 
-Weitere Informationen finden Sie im Abschnitt [Anzeigen des Cluster- und Workfront-Plans Ihres ](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) im Artikel [Firewall-Übersicht](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
+Weitere Informationen finden Sie im Abschnitt [Anzeigen des Cluster- und Workfront-Plans Ihres &#x200B;](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) im Artikel [Firewall-Übersicht](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
 
 ## Der Zulassungsliste hinzuzufügende IP-Adressen
 
