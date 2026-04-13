@@ -10,10 +10,10 @@ role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 13%
+source-wordcount: '725'
+ht-degree: 14%
 
 ---
 
@@ -92,8 +92,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
       <td> <p>Ermöglicht Benutzern die Verwendung der Sitzungs-ID-Informationen einer Site beim Hinzufügen einer externen Seite zu einem Dashboard.</p> <p>Diese Option ist nicht sicher und standardmäßig deaktiviert. Es wird empfohlen, stattdessen OAuth für Integrationen zu verwenden.</p> <p>Weitere Informationen zum Hinzufügen externer Seiten zu einem Dashboard finden Sie unter <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Externe Webseite in ein Dashboard einbetten</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Benutzer dürfen die mobilen Anwendungen von Workfront und das Workfront Outlook-Add-in verwenden</td> 
-      <td> <p>Ermöglicht Benutzenden den Zugriff auf die mobilen Apps (Workfront View für iPad und Apps für Mobiltelefone) und die Workfront Outlook-App.</p> <p>Standardmäßig ist diese Option aktiviert. </p> <p>Weitere Informationen zur Workfront-Ansicht finden Sie unter <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Verwenden der Adobe Workfront-Ansicht</a>. Weitere Informationen zu den Mobile Apps finden Sie unter <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Verwenden der Adobe Workfront Mobile App: Artikelindex</a>.</p> </td> 
+      <td role="rowheader">Benutzer dürfen die mobilen Anwendungen von Workfront nutzen</td> 
+      <td> <p>Ermöglicht Benutzenden den Zugriff auf die Mobile Apps (Workfront View für iPad und Mobile Apps)</p> <p>Standardmäßig ist diese Option aktiviert. </p> <p>Weitere Informationen zur Workfront-Ansicht finden Sie unter <a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Verwenden der Adobe Workfront-Ansicht</a>. Weitere Informationen zu den Mobile Apps finden Sie unter <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Verwenden der Adobe Workfront Mobile App: Artikelindex</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Mit Personen ohne Workfront-Konto über E-Mail-Adressen zusammenarbeiten</p> </td> 

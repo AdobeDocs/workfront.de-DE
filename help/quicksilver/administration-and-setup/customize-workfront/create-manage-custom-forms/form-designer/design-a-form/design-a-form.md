@@ -10,9 +10,9 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0db6cd1091052af7a71ad3e4fce6a9e3fcbb9f67
+source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
 workflow-type: tm+mt
-source-wordcount: '7436'
+source-wordcount: '7426'
 ht-degree: 94%
 
 ---
@@ -688,7 +688,6 @@ Beispiele für die Verwendung des Feldes „Externer Lookup“ zum Aufrufen ders
 
 >[!NOTE]
 >
->* Felder des Typs „Externer Lookup“ werden im Outlook-Plug-in nicht unterstützt.
 >* Felder des Typs „Externer Lookup“ sind nicht in Listen verfügbar, wenn das Feld eine Abhängigkeit von einem anderen Feld aufweist.
 
 So fügen Sie eine externe Suche hinzu:
@@ -754,12 +753,12 @@ So fügen Sie eine externe Suche hinzu:
       <td role="rowheader">JSON-Pfad</td>
       <td><p>Geben Sie den JSON-Pfad für die API ein oder fügen Sie ihn ein.</p> <p>Diese Option ermöglicht das Extrahieren von Daten aus der von der API-URL zurückgegebenen JSON. Damit können Sie auswählen, welche Werte aus dem JSON-Code in den Dropdown-Optionen angezeigt werden sollen.</p><p>Wenn Ihre API-URL beispielsweise JSON im folgenden Format zurückgibt, können Sie „$.data[*].name“ verwenden, um USA und Kanada als Dropdown-Optionen auszuwählen:</br>
       <pre>
-      &lbrace;
-       data: &lbrace;
+      {
+       data: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Weitere Informationen zum JSON-Pfad und um sicherzustellen, dass Sie den richtigen Pfad angeben, finden Sie unter <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>

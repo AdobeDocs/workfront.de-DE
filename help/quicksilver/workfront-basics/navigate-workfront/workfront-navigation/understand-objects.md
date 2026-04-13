@@ -1,19 +1,19 @@
 ---
 content-type: overview;reference
 navigation-topic: workfront-navigation
-title: Übersicht über [!DNL Adobe Workfront]
+title: Überblick über [!DNL Adobe Workfront]-Objekte
 description: Die angezeigten Informationen  [!DNL Adobe Workfront]  durch Objekte dargestellt, die in der Datenbank  [!DNL Workfront]  werden. Die Objekte sind es, die die Informationen  [!DNL Workfront]. Weitere Informationen zu diesen Objekten finden Sie in diesem Artikel.
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
 workflow-type: tm+mt
-source-wordcount: '2508'
-ht-degree: 1%
+source-wordcount: '2456'
+ht-degree: 3%
 
 ---
 
-# Übersicht über [!DNL Adobe Workfront]
+# Überblick über [!DNL Adobe Workfront]-Objekte
 
 <!--Audited: 12/2023-->
 
@@ -21,11 +21,11 @@ ht-degree: 1%
 <***Linked to several articles, do not remove/ change. 
 -->
 
-Die in [!DNL Adobe Workfront] angezeigten Informationen werden durch Objekte dargestellt, die in der [!DNL Workfront] Datenbank gespeichert sind. Die Objekte sind es, die die Informationen in [!DNL Workfront] antreiben.
+Die in [!DNL Adobe Workfront] angezeigten Informationen werden durch Objekte dargestellt, die in der Datenbank von [!DNL Workfront] gespeichert sind. Die Objekte sind es, die die Informationen in [!DNL Workfront] antreiben.
 
 Es ist wichtig zu verstehen, wie die Objekte in [!DNL Workfront] definiert werden, damit Sie das richtige Objekt für die Anforderungen in Ihrem Unternehmen verwenden können.
 
-Wenn Sie z. B. einen großen Arbeitsaufwand planen, müssen Sie das [!UICONTROL Projektobjekt] verwenden, um diesen Arbeitsaufwand zu definieren. Um diese Arbeit in kleinere geplante Inkremente zu unterteilen, können Sie das Objekt [!UICONTROL Aufgabe] verwenden. Für einen kleineren Arbeitsaufwand, der nicht geplant ist und unerwartet auftreten kann, können Sie das Objekt „Problem“ verwenden. Wenn Sie den Fortschritt und die Einhaltung von Budget und Zeitplan einer Gruppe von Projekten verfolgen möchten, können Sie sie in &quot;[!UICONTROL &quot; &#x200B;] &quot;[!UICONTROL &quot; &#x200B;]. Um andere Elemente zu definieren, die Sie bei der Bearbeitung unterstützen, sollten Sie andere Objekte verwenden, die unter [!UICONTROL Projekte], [!UICONTROL Aufgaben], [!UICONTROL Probleme] oder [!UICONTROL Portfolios] gespeichert sind, z. B. [!UICONTROL Dokumente], [!UICONTROL Updates], [!UICONTROL Stunden], [!UICONTROL Benutzer] oder [!UICONTROL Aufgabengebiete].
+Wenn Sie z. B. einen großen Arbeitsaufwand planen, müssen Sie das [!UICONTROL Projektobjekt] verwenden, um diesen Arbeitsaufwand zu definieren. Um diese Arbeit in kleinere geplante Inkremente zu unterteilen, können Sie das Objekt [!UICONTROL Aufgabe] verwenden. Für einen kleineren Arbeitsaufwand, der nicht geplant ist und unerwartet auftreten kann, können Sie das Objekt „Problem“ verwenden. Wenn Sie den Fortschritt und die Einhaltung von Budget und Zeitplan einer Gruppe von Projekten verfolgen möchten, können Sie sie in &quot;[!UICONTROL &quot; ] &quot;[!UICONTROL &quot; ]. Um andere Elemente zu definieren, die Sie bei der Bearbeitung unterstützen, sollten Sie andere Objekte verwenden, die unter [!UICONTROL Projekte], [!UICONTROL Aufgaben], [!UICONTROL Probleme] oder [!UICONTROL Portfolios] gespeichert sind, z. B. [!UICONTROL Dokumente], [!UICONTROL Updates], [!UICONTROL Stunden], [!UICONTROL Benutzer] oder [!UICONTROL Aufgabengebiete].
 
 [!UICONTROL Berichte] und [!UICONTROL Dashboards] sind ein weiteres Beispiel für Objekte, mit denen Sie die Datenmenge in [!DNL Workfront] visuell organisieren können, um sie für alle Benutzer leicht zugänglich zu machen.
 
@@ -49,7 +49,7 @@ Im Folgenden finden Sie einige der am häufigsten verwendeten Objekte in [!DNL W
 | [!UICONTROL Gruppen] |  | [!UICONTROL Benutzende] |
 | [!UICONTROL Teams] |  | [!UICONTROL Benutzende] |
 | [!UICONTROL Benutzende] | [!UICONTROL Gruppen], [!UICONTROL Teams], [!UICONTROL Firmen] | [!UICONTROL Aufgabengebiete] |
-| [!UICONTROL Firmen] |  | [!UICONTROL Benutzende] |
+| [!UICONTROL Unternehmen] |  | [!UICONTROL Benutzende] |
 | [!UICONTROL Dokumente] | [!UICONTROL Aufgaben], [!UICONTROL Probleme], [!UICONTROL Projekte], [!UICONTROL Portfolios], [!UICONTROL Programme], [!UICONTROL Benutzer] |  |
 | [!UICONTROL Pläne]* |  | [!UICONTROL Initiativen] |
 | [!DNL Goals]* |  | [!UICONTROL Ergebnisse], [!UICONTROL Aktivitäten] |
@@ -63,27 +63,27 @@ Eine vollständige Liste der Objekte in [!DNL Workfront] finden Sie im [API-Expl
 
 ## Anpassen von Objektnamen
 
-Als [!DNL Workfront] können Sie Objektnamen in [!DNL Workfront] mithilfe einer „Layout[!UICONTROL Vorlage“ &#x200B;].
+Als [!DNL Workfront] können Sie Objektnamen in [!DNL Workfront] mithilfe einer „Layout[!UICONTROL Vorlage“ ].
 
 Weitere Informationen zum Anpassen von Objektnamen mithilfe einer [!UICONTROL Layout-Vorlage] finden Sie unter [Erstellen und Verwalten von Layout-Vorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 Nachdem Sie eine Layout-Vorlage angepasst und Benutzern zugewiesen haben, sehen diese Benutzer die benutzerdefinierten Namen für die Objekte. Die Benutzer, die der Layout-Vorlage zugewiesen wurden, sehen an keiner Stelle im Web-Programm mehr die Standardnamen für die Objekte.
 
-Wenn beispielsweise der größere Arbeitsaufwand in Ihrer Organisation als „Interaktion“ bezeichnet wird, können Sie den Namen &quot;[!UICONTROL Projekt] durch „Interaktion“ ersetzen. Auf Ihrer [!DNL Workfront] wird überall dort „Interaktion“ anstelle [!UICONTROL &#x200B; „Projekt] angezeigt, wo der Name [!UICONTROL Projekt] angezeigt würde.
+Wenn beispielsweise der größere Arbeitsaufwand in Ihrer Organisation als „Interaktion“ bezeichnet wird, können Sie den Namen &quot;[!UICONTROL Projekt] durch „Interaktion“ ersetzen. Auf Ihrer [!DNL Workfront] wird überall dort „Interaktion“ anstelle [!UICONTROL  „Projekt] angezeigt, wo der Name [!UICONTROL Projekt] angezeigt würde.
 
 >[!NOTE]
 >
->Damit die neuen Namen der Objekte für Ihre Benutzer sichtbar sind, müssen sie sich nach dem Speichern der [!UICONTROL Layout-Vorlage“ ab- und wieder bei [!DNL Workfront] &#x200B;].
+>Damit die neuen Namen der Objekte für Ihre Benutzer sichtbar sind, müssen sie sich nach dem Speichern der [!DNL Workfront]Layout-Vorlage“ ab- und wieder bei .
 
 >[!IMPORTANT]
 >
 >Die [!DNL Workfront] Dokumentation bezieht sich immer auf die Standardnamen der Objekte. Stellen Sie als [!DNL Workfront]-Admin sicher, dass Sie die Benutzenden über die Änderungen der Objektnamen informieren, damit sie verstehen können, wie die [!DNL Workfront]-Dokumentation verwendet wird, sowie über die Bereiche der Anwendungen, die die Änderungen der Objektnamen nicht widerspiegeln.
 
-* [Objektnamen, die mit einer „Layout[!UICONTROL Vorlage“ angepasst werden &#x200B;]](#object-names-that-can-be-customized-using-a-layout-template)
+* [Objektnamen, die mit einer „Layout[!UICONTROL Vorlage“ angepasst werden ]](#object-names-that-can-be-customized-using-a-layout-template)
 * [Bereiche von  [!DNL Workfront] , die die benutzerdefinierten Objektnamen widerspiegeln](#areas-of-workfront-that-reflect-the-customized-object-names)
 * [Bereiche von  [!DNL Workfront] , die nicht den benutzerdefinierten Objektnamen entsprechen](#areas-of-workfront-that-do-not-reflect-the-customized-object-names)
 
-### Objektnamen, die mit einer „Layout[!UICONTROL Vorlage“ angepasst werden &#x200B;]
+### Objektnamen, die mit einer „Layout[!UICONTROL Vorlage“ angepasst werden ]
 
 Als [!DNL Workfront] können Sie die Namen der folgenden Objekte an die Terminologie in Ihrer Organisation anpassen:
 
@@ -91,7 +91,7 @@ Als [!DNL Workfront] können Sie die Namen der folgenden Objekte an die Terminol
 * [!UICONTROL Programm]
 * [!UICONTROL Projekt]
 * [!UICONTROL Aufgabe]
-* [!UICONTROL Probleme]
+* [!UICONTROL Problem]
 * [!UICONTROL Ziel]*
 * [!UICONTROL Ergebnis]*
 * [!UICONTROL Aktivität]*
@@ -124,17 +124,7 @@ Die folgenden Bereiche zeigen den aktualisierten Namen der Objekte an:
 * [!UICONTROL Speichern] Schaltflächen
 * Exportierte Dateien
 * E-Mails
-* Mobile Apps
-
-### [!DNL Workfront], die nicht den benutzerdefinierten Objektnamen entsprechen
-
-In den folgenden Bereichen wird der aktualisierte Name der Objekte nicht angezeigt:
-
-<!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Referenced Object Type selection for a Typeahead field in a Custom Form </p> <p>(NOTE: drafting this because I don't think this is true)</p> </li>
-  -->
-
-* [!DNL Outlook]-Add-in
+* Apps
 
 ### Auswirkungen der Anpassung von Objektnamen
 
@@ -155,7 +145,7 @@ Beachten Sie beim Anpassen von Objektnamen in [!DNL Workfront] Folgendes:
 
 Die [!DNL Workfront] Dokumentation bezieht sich immer auf die Standardnamen von Objekten. Wenn die Namen der Objekte angepasst wurden, können Sie sich auf das ihnen zugeordnete Symbol verlassen, um zu verstehen, welches benutzerdefinierte Objekt [!DNL Workfront] Standardobjekt entspricht.
 
-Weitere Informationen dazu, welche Objekte in [!DNL Workfront] benutzerdefinierte Namen haben können, finden Sie unter [Objektnamen, die mit einer Layout-[!UICONTROL &#x200B; angepasst werden können]](#object-names-that-can-be-customized-using-a-layout-template).
+Weitere Informationen dazu, welche Objekte in [!DNL Workfront] benutzerdefinierte Namen haben können, finden Sie unter [Objektnamen, die mit einer Layout-[!UICONTROL  angepasst werden können]](#object-names-that-can-be-customized-using-a-layout-template).
 
 Im Folgenden finden Sie eine Liste der Objekte und der zugehörigen Symbole in Workfront.
 
@@ -165,7 +155,7 @@ Im Folgenden finden Sie eine Liste der Objekte und der zugehörigen Symbole in W
 | [!UICONTROL Dashboard] | ![Dashboard-Symbol](assets/dashboard-icon-nwe.png) , ![Dashboard-Symbol blau](assets/nwe-dashboards-icon.png) |  |
 | [!UICONTROL Ziel] | ![Zielsymbol](assets/nwe-goal-icon.png) | ✔ |
 | [!UICONTROL Gruppe] | ![Gruppensymbol](assets/groups-icon-nwe.png) , ![Gruppensymbol](assets/nwe-group-icon.png) |  |
-| [!UICONTROL Probleme] | ![Problem-Symbol](assets/issue-icon-nwe.png) , ![Problem-Symbol rosa](assets/nwe-issues-icon.png) | ✔ |
+| [!UICONTROL Problem] | ![Problem-Symbol](assets/issue-icon-nwe.png) , ![Problem-Symbol rosa](assets/nwe-issues-icon.png) | ✔ |
 | [!UICONTROL Aufgabengebiet] | ![JOB_ROLE_ICON.png](assets/job-role-icon-52x50.png), ![JOB_ROLE_ICON__1_.png](assets/job-role-icon--1--53x44.png), ![Aufgabenrollensymbol](assets/job-role-nwe-no-color.png), ![Aufgabenrollensymbolfarbe](assets/job-role-icon-nwe-color.png) |  |
 | [!UICONTROL Plan] | ![Plansymbol](assets/plan-icon.png), ![Plansymbol blau](assets/nwe-plan-icon-60x57.png) |  |
 | [!UICONTROL Portfolio] | ![Portfolio](assets/portfolio-icon-nwe.png) , ![Portfolio-Symbol blau](assets/nwe-portfolios-icon.png) | ✔ |
@@ -201,7 +191,7 @@ Nicht alle Objekte sind in [!DNL Workfront] durchsuchbar. Sie können in [!DNL W
 | [!UICONTROL Portfolios] | ✓ | ✓ |
 | [!UICONTROL Programme] | ✓ | ✓ |
 | [!UICONTROL Dashboards] | ✓ | ✓ |
-| [!UICONTROL Firmen] | ✓ | ✓ |
+| [!UICONTROL Unternehmen] | ✓ | ✓ |
 | [!UICONTROL Notizen] (oder [!UICONTROL Aktualisierungen]) | ✓ |  |
 
 Weitere Informationen zum Ausführen einfacher und erweiterter Suchen in [!DNL Workfront] finden Sie unter [Suche [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
@@ -227,7 +217,7 @@ Sie können Berichte zu allen Objekten in der Datenbank mithilfe unserer offenen
 
 >[!NOTE]
 >
-> * Wenn Sie die Namen Ihrer Objekte mithilfe einer Layout-Vorlage angepasst haben, wurden auch die Namen für das Objekt im Report Builder angepasst. Stellen Sie sicher, dass Sie wissen, welche Objekte angepasst wurden, und suchen Sie im Report Builder nach dem angepassten Namen. Weitere Informationen dazu, welche Objekte in [!DNL Workfront] benutzerdefinierte Namen haben können, finden Sie unter [Objektnamen, die mit einer [!UICONTROL Layout-Vorlage“ &#x200B;]](#object-names-that-can-be-customized-using-a-layout-template) diesem Artikel.
+> * Wenn Sie die Namen Ihrer Objekte mithilfe einer Layout-Vorlage angepasst haben, wurden auch die Namen für das Objekt im Report Builder angepasst. Stellen Sie sicher, dass Sie wissen, welche Objekte angepasst wurden, und suchen Sie im Report Builder nach dem angepassten Namen. Weitere Informationen dazu, welche Objekte in [!DNL Workfront] benutzerdefinierte Namen haben können, finden Sie unter [Objektnamen, die mit einer [!UICONTROL Layout-Vorlage“ ]](#object-names-that-can-be-customized-using-a-layout-template) diesem Artikel.
 > * Wenn Sie in Ihren Berichten den Textmodus verwenden, sind die Namen der Objekte in Textmodusausdrücken die Standardnamen in [!DNL Workfront] und nicht die benutzerdefinierten Objektnamen. Weitere Informationen zur Verwendung des Textmodus in Berichten finden Sie unter [Textmodus - Übersicht](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 Weitere Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).\
@@ -239,8 +229,8 @@ Bei Verwendung von Report Builder in der [!DNL Workfront]-Webanwendung können S
 
 * [!UICONTROL Projekt]
 * [!UICONTROL Aufgabe]
-* [!UICONTROL Stunde]
-* [!UICONTROL Probleme]
+* [!UICONTROL Hour]
+* [!UICONTROL Problem]
 * [!UICONTROL Benutzer]
 * [!UICONTROL Zugriffsebene]
 * [!UICONTROL Genehmigung]
@@ -266,10 +256,10 @@ Bei Verwendung von Report Builder in der [!DNL Workfront]-Webanwendung können S
 * [!UICONTROL Ausgabentyp]
 * [!UICONTROL Externe Seite]
 * [!UICONTROL Favorit]
-* [!UICONTROL filter]
+* [!UICONTROL Filter]
 * [!UICONTROL Ziel]
    * Sie können einen Bericht für strategische Ziele erstellen oder zielbezogene Informationen in einem Projektbericht anzeigen, wenn Projekte mit Zielen als Zielaktivitäten verknüpft sind. Nur wenn Ihr Unternehmen eine [!DNL Workfront Goals]-Lizenz erworben hat, können Sie strategische Ziele erstellen und Projekte miteinander verbinden. Weitere Informationen zu [!DNL Workfront Goals] finden Sie unter [[!DNL Workfront Goals] Übersicht](../../../workfront-goals/goal-management/wf-goals-overview.md). Informationen zum Verbinden von Projekten mit strategischen Zielen finden Sie unter [Hinzufügen von Projekten zu Zielen in Adobe Workfront Goals](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
-* Sie können keine Berichte zu Projektzielen erstellen, die mit einem &quot;[!UICONTROL &quot; verknüpft &#x200B;]. Informationen zu Projektzielen und strategischen Zielen finden Sie im [Glossar der  [!DNL Adobe Workfront] -Terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+* Sie können keine Berichte zu Projektzielen erstellen, die mit einem &quot;[!UICONTROL &quot; verknüpft ]. Informationen zu Projektzielen und strategischen Zielen finden Sie im [Glossar der  [!DNL Adobe Workfront] -Terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 * [!UICONTROL Gruppe]
 * [!UICONTROL Gruppierung]

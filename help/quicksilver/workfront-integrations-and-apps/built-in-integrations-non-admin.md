@@ -9,7 +9,7 @@ author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 49%
@@ -45,7 +45,7 @@ Die folgenden integrierten Integrationen sind derzeit in Workfront verfügbar.
      <li>Premiere Pro </li>
      <li>After Effects </li>
      </ul>
-     <li><p>Laden Sie <a href="https://exchange.adobe.com/apps/browse/cc?page=1&product=All&q=workfront&sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a> herunter und installieren Sie es.</p></li></ul>
+     <li><p>Laden Sie <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a> herunter und installieren Sie es.</p></li></ul>
      <p>Informationen und Anweisungen finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">Installieren des [!DNL Adobe Workfront]-Plug-ins für [!DNL Creative Cloud] Anwendungen</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -80,15 +80,6 @@ Die folgenden integrierten Integrationen sind derzeit in Workfront verfügbar.
      <li>Verknüpfen von Dokumenten und Ordnern [!DNL Workfront]</li> 
     </ul> </td> 
   </tr> 
-  <!--
-  <tr> 
-   <td role="rowheader">Microsoft Calendars (Office 365 / Outlook Live)</td> 
-   <td> 
-    <ul> 
-     <li> <p>Integrate with a web-based version of Outlook in cloud-hosted Office 365 or Outlook Live. </p>
-    </ul> </td> 
-  </tr>
-  -->
   <tr> 
    <td role="rowheader"> <p>Microsoft OneDrive</p> <p> <img src="assets/microsoft-onedrive.png"> </p> </td> 
    <td> 
@@ -96,18 +87,6 @@ Die folgenden integrierten Integrationen sind derzeit in Workfront verfügbar.
      <li>Verknüpfen von Dokumenten und Ordnern [!DNL Workfront]</li> 
     </ul> </td> 
   </tr> 
-  <!--
-  <tr> 
-   <td role="rowheader"> <p>Microsoft Outlook</p> <p> <img src="assets/outlook.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>Update an existing project/task/issue with info from an email </li> 
-     <li>Convert emails into [!DNL Workfront] items right from your inbox </li> 
-     <li>Create new tasks from an email </li> 
-     <li>Comment on [!DNL Workfront] items </li> 
-    </ul> </td> 
-  </tr>
-  -->
   <tr> 
    <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p><b>HINWEIS</b>: Ab 1. Juli 2025 wird die Classic Teams-Desktop-App von Microsoft nicht mehr unterstützt. Daher wird die Workfront-Integration mit Microsoft Teams nicht mehr unterstützt, sobald die Classic Teams-Desktop-App nicht mehr verfügbar ist. </p> </td> 
    <td> 

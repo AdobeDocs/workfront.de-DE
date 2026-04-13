@@ -3,20 +3,20 @@ user-type: administrator
 content-type: overview
 product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
-title: Firewall-Übersicht
+title: Überblick über die Firewall
 description: Da Adobe Workfront mit dem Netzwerk Ihres Unternehmens kommuniziert, muss die Firewall Ihres Unternehmens so konfiguriert sein, dass diese Kommunikation möglich ist. Firewalls sind hochwirksame Sicherheitsmaßnahmen, die durch die Trennung des Unternehmensnetzwerks vom Internet funktionieren. Sie stellen sicher, dass nur ausgewählte Daten und der Netzwerk-Traffic in das Netzwerk des Unternehmens bzw. aus diesem heraus verschoben werden können. Die Firewall lässt Daten basierend auf der Website, die die Daten sendet oder empfängt, zu oder blockiert diese. Als Adobe Workfront-Administrator müssen Sie sicherstellen, dass Daten, die an oder von Workfront gesendet werden, die Firewall Ihres Unternehmens durchlaufen können.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 46e072d40cc881c3a903c8fd51475dc185f1f849
+source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 0%
+source-wordcount: '712'
+ht-degree: 1%
 
 ---
 
-# Firewall-Übersicht
+# Überblick über die Firewall
 
 Da Adobe Workfront mit dem Netzwerk Ihres Unternehmens kommuniziert, muss die Firewall Ihres Unternehmens so konfiguriert sein, dass diese Kommunikation möglich ist. Firewalls sind hochwirksame Sicherheitsmaßnahmen, die durch die Trennung des Unternehmensnetzwerks vom Internet funktionieren. Sie stellen sicher, dass nur ausgewählte Daten und der Netzwerk-Traffic in das Netzwerk des Unternehmens bzw. aus diesem heraus verschoben werden können. Die Firewall lässt Daten basierend auf der Website, die die Daten sendet oder empfängt, zu oder blockiert diese. Als Adobe Workfront-Administrator müssen Sie sicherstellen, dass Daten, die an oder von Workfront gesendet werden, die Firewall Ihres Unternehmens durchlaufen können.
 
@@ -49,7 +49,7 @@ Geben Sie dem Netzwerkadministrator die folgenden Informationen:
  <tbody> 
   <tr> 
    <td role="rowheader">Spezifische IP-Adressen und Domains, die zugelassen werden sollen</td> 
-   <td> <p>Der Artikel <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">Zulassungsliste auf die Zulassungsliste setzte der Firewall konfigurieren</a> enthält die Liste der IP-Adressen und Domains, die Ihr Unternehmen zu seiner hinzufügen muss. </p> <p>Ihr Netzwerkadministrator hat möglicherweise keinen Zugriff auf den Artikel „Konfigurieren der Firewall-Zulassungsliste". In diesem Fall müssen Sie sie bereitstellen. Es wird nicht empfohlen, eine gedruckte (Papier-)Kopie zu drucken. Mit einer digitalen Kopie können Netzwerkadministratoren die Adressen kopieren und einfügen, was schneller und genauer ist als die Eingabe von einer Papierkopie.</p> </td> 
+   <td> <p>Der Artikel <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">Zulassungsliste der Firewall konfigurieren</a> enthält die Liste der IP-Adressen und Domains, die Ihr Unternehmen zu seiner hinzufügen muss. </p> <p>Ihr Netzwerkadministrator hat möglicherweise keinen Zugriff auf den Artikel „Konfigurieren der Firewall-Zulassungsliste". In diesem Fall müssen Sie sie bereitstellen. Es wird nicht empfohlen, eine gedruckte (Papier-)Kopie zu drucken. Mit einer digitalen Kopie können Netzwerkadministratoren die Adressen kopieren und einfügen, was schneller und genauer ist als die Eingabe von einer Papierkopie.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Ihr Cluster</td> 
@@ -73,10 +73,9 @@ Geben Sie dem Netzwerkadministrator die folgenden Informationen:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Integrationen</td> 
-   <td>Informieren Sie Ihren Netzwerkadministrator, wenn Sie einen der folgenden Punkte verwenden:
+   <td>Informieren Sie Ihren Netzwerkadministrator, wenn Sie Folgendes verwenden:
     <ul>
      <li><p>Workfront für Microsoft Teams</p></li>
-     <li><p>Workfront für Outlook</p></li>
     </ul></td> 
   </tr> 
   <tr> 

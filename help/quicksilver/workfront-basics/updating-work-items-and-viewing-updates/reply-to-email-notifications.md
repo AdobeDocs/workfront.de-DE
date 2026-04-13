@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 7%
+source-wordcount: '539'
+ht-degree: 8%
 
 ---
 
@@ -80,7 +80,7 @@ Sie können auf eine Workfront-E-Mail antworten, die aus Kommentaren zu den folg
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie in [&#x200B; Dokumentation zu Zugriffsanforderungen für Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie in [ Dokumentation zu Zugriffsanforderungen für Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -137,8 +137,6 @@ Wenn Sie eine Workfront-E-Mail-Benachrichtigung erhalten, können Sie schnell ei
 >[!IMPORTANT]
 >
 >* Sie müssen über die Berechtigung zum Anzeigen des Objekts verfügen, das die Aktualisierung ausgelöst hat, bevor Sie auf die E-Mail-Benachrichtigung antworten können.
->
->* Um Übermittlungsfehler zu vermeiden, sollten Outlook-Benutzer den vorhandenen E-Mail-Inhalt löschen, bevor Sie Ihre Antwort eingeben.
 
 So fügen Sie einer Workfront-E-Mail ein Update hinzu:
 

@@ -11,10 +11,10 @@ role: Admin
 exl-id: cd09e78c-bd2a-4712-9c35-8acbf1a3729d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 77970e17611a61308018db82d4b72fb7fe988ac1
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 31%
+source-wordcount: '117'
+ht-degree: 37%
 
 ---
 
@@ -56,12 +56,6 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 1. Klicken Sie **[!UICONTROL Setup],** oben rechts auf der Seite.
 
 1. Erweitern Sie **[!UICONTROL System]** klicken Sie dann auf **[!UICONTROL Voreinstellungen].**
-
-1. Wählen Sie die **[!UICONTROL Benutzerinnen und Benutzer dürfen die mobilen Anwendungen von Workfront und das [!DNL Workfront Outlook]-Add-In verwenden]**, um Benutzenden die Verwendung von [!DNL Workfront] mit der [!DNL Workfront] mobilen App oder die Installation und Verwendung von [!DNL Workfront] für Outlook zu ermöglichen.\
-   Standardmäßig ist diese Option aktiviert.
-
 1. Klicken Sie **[!UICONTROL Speichern].**
 
 Informationen zur Verwendung der [!DNL Workfront]-Mobile-App nach deren Aktivierung für die Website finden Sie unter [Verwenden der  [!DNL Adobe Workfront] -Mobile-App](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
-
-Informationen zur Verwendung von [!DNL Workfront for Outlook] finden Sie im Abschnitt [Verwenden [!DNL Workfront with Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md).

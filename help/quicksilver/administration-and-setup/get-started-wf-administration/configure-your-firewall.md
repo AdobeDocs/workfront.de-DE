@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 3c680b39685e650dd442adbb49e4091d558d1410
+source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1569'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch keine Einführung in Admin Console erhalten haben. Wenn Ihre Organisation in die Adobe Admin Console integriert wurde, müssen Sie diese Aktion über die Adobe Admin Console durchführen.
 >
->Informationen zum Konfigurieren Ihrer Zulassungsliste, wenn Ihr Unternehmen in die Adobe Admin Console integriert wurde, finden Sie unter [Domains dürfen für Adobe-Programme und -Services verwendet werden](https://helpx.adobe.com/de/enterprise/kb/network-endpoints.html).
+>Informationen zum Konfigurieren Ihrer Zulassungsliste, wenn Ihr Unternehmen in die Adobe Admin Console integriert wurde, finden Sie unter [Domains dürfen für Adobe-Programme und -Services verwendet werden](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen in die Adobe Admin Console integriert wurde, unterscheiden, finden Sie unter [Plattformbasierte Administrationsunterschiede (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -50,7 +50,7 @@ Sie müssen auch bestimmte Ports öffnen, damit E-Mail-Nachrichten beim Versand 
 
 Wenn Ihr Unternehmen über den Unternehmensplan verfügt, können Sie auch zwei Workfront-Zulassungslisten konfigurieren:
 
-* **E-Mail** Zulassungsliste: Hiermit können Sie steuern, wo Benutzer in Workfront gespeicherte E-Mail-Daten senden können. Auf die Zulassungsliste setzen Weitere Informationen finden Sie unter [Konfigurieren Ihrer E-Mail](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+* **E-Mail** Zulassungsliste: Hiermit können Sie steuern, wo Benutzer in Workfront gespeicherte E-Mail-Daten senden können. Weitere Informationen finden Sie unter [Konfigurieren Ihrer E-Mail](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
 * **IP** Zulassungsliste: Beschränkt den Zugriff auf Workfront auf 75 angegebene IP-Adressen oder IP-Adressbereiche und bietet eine zusätzliche Sicherheitsebene für das Workfront-Programm. Weitere Informationen finden Sie unter [Zugriff auf Adobe Workfront nach IP-Adresse beschränken](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
 
 ## Workfront-Cluster suchen
@@ -66,15 +66,9 @@ So suchen Sie den Cluster Ihrer Organisation:
 
    CL01 bezieht sich auf Cluster 1, CL02 ist Cluster 2 usw.
 
-Weitere Informationen finden Sie im Abschnitt [Anzeigen des Cluster- und Workfront-Plans Ihres &#x200B;](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) im Artikel [Firewall-Übersicht](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
+Weitere Informationen finden Sie im Abschnitt [Anzeigen des Cluster- und Workfront-Plans Ihres ](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) im Artikel [Firewall-Übersicht](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
 
 ## Der Zulassungsliste hinzuzufügende IP-Adressen
-
->[!IMPORTANT]
->
->Einige Workfront-Integrationen funktionieren nicht, wenn die -Zulassungsliste aktiviert ist, da sie nicht mit einer statischen IP-Adresse konfiguriert werden können. Um die folgenden Integrationen verwenden zu können, müssen Sie die Zulassungsliste deaktivieren.
->
->* Workfront für Outlook
 
 * [IP-Adressen für die Cluster 1, 2, 3, 5, 7, 8 und 9](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
 * [IP-Adressen, um Cluster 4 zuzulassen](#ip-addresses-to-allow-for-cluster-4)

@@ -7,10 +7,10 @@ description: 'Fehlermeldung in der Mobile  [!DNL Adobe Workfront] : ''Ihr Konto 
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 120e56f4-9fd5-4c41-890e-981937714db0
-source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
+source-git-commit: d11066d9aa76077bfaaa2d44f2e29c983dafa96f
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 2%
+source-wordcount: '163'
+ht-degree: 15%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 ## Zugriffsanforderungen
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+Sie benötigen die folgenden Zugriffsrechte, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,7 +29,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td> <p> Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe [!DNL Workfront] Lizenz</strong></td> 
+   <td role="rowheader"><strong>Adobe [!DNL Workfront] License</strong></td> 
    <td> <p>Plan</p> </td> 
   </tr> 
   <tr> 
@@ -53,7 +53,7 @@ Ihr [!DNL Workfront] hat den Zugriff auf Ihre [!DNL Workfront]-Umgebung von eine
 1. Navigieren Sie zum Bereich **[!UICONTROL Setup]**.
 1. Erweitern Sie das **[!UICONTROL System]**-Menü und klicken Sie auf **[!UICONTROL Voreinstellungen]**.
 
-1. Wählen Sie **[!UICONTROL Abschnitt]** die Option **[!UICONTROL Benutzer dürfen die mobilen Anwendungen von [!DNL Workfront] und das [!DNL Workfront Outlook]-Add-In verwenden]** aus, um sie zu aktivieren.
+1. Wählen Sie **[!UICONTROL Abschnitt]** die Option **[!UICONTROL Benutzer dürfen die mobilen Anwendungen von [!DNL Workfront] verwenden]** aus, um sie zu aktivieren.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.\
-   Alle Benutzer im System können jetzt über ihre Mobile Apps und über [!DNL Outlook] auf [!DNL Workfront] zugreifen.
+   Alle Benutzer im System können jetzt über ihre Mobile Apps auf [!DNL Workfront] zugreifen.

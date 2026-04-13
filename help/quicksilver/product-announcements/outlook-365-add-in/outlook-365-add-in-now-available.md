@@ -6,18 +6,14 @@ description: Das Adobe Workfront-Add-In für Outlook 365 wurde am 16. Mai 2017 z
 author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 exl-id: abd5a4a2-0be5-46d7-bb66-47138c838063
-source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
+source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 0%
+source-wordcount: '30'
+ht-degree: 40%
 
 ---
 
 # Das Outlook 365-Add-in ist jetzt verfügbar
-
-Das Adobe Workfront-Add-In für Outlook 365 wurde am 16. Mai 2017 zur Verfügung gestellt.
-
-Mit dem Add-In können Sie direkt über Outlook 365 im Web auf Workfront-Funktionen zugreifen sowie bei der Verwendung der Windows- und Mac-Desktopversionen von Outlook, die im Office 365-Abonnement enthalten sind.
 
 >[!NOTE]
 >
