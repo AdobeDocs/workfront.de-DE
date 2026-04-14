@@ -9,10 +9,10 @@ role: Developer
 exl-id: 7fb9131a-b815-4990-acba-cc75a24f389f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 3106cb32d1f4cb962c1b16238ef17adcaa5766f1
 workflow-type: tm+mt
 source-wordcount: '929'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 13%
 >
 >Diese API-Versionsänderung beinhaltet eine grundlegende Änderung, die sich auf Ihre vorhandenen API-Aufrufe auswirken kann. Dies liegt daran, dass die API-Version 21 die Version 2 der Ereignisabonnements verwendet.
 >
-> Bei Feldern mit Mehrfachauswahl werden Ereignisabonnements, Version 2, immer als Array gesendet. Version 1 sendete ein Array, wenn mehrere Werte ausgewählt wurden. Wenn nur ein Wert ausgewählt war, wurde eine Zeichenfolge gesendet.
+> Bei Feldern mit Mehrfachauswahl werden Ereignisabonnements in Version 2 immer als Array gesendet. Version 1 sendete ein Array, wenn mehrere Werte ausgewählt wurden. Wenn nur ein Wert ausgewählt war, wurde eine Zeichenfolge gesendet.
 
 Adobe Workfront hat API Version 21 am 23. Oktober 2025 veröffentlicht. Die API-Version 21 enthält die folgenden Änderungen gegenüber Version 20.
 
