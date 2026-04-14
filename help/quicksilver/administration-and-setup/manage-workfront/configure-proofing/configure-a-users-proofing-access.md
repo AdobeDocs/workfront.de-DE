@@ -8,14 +8,14 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 98c90139-f31a-41bc-af0b-577dd8b254e3
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 322a24fabd22ca2b54c020aded33b736a98f4bf5
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 0%
+source-wordcount: '1102'
+ht-degree: 3%
 
 ---
 
-# Konfigurieren des Proofing-Zugriffs von Benutzern
+# Konfigurieren des Proofing-Zugriffs von Benutzenden
 
 Als Adobe Workfront- oder Workfront Proof-Administrator können Sie den Zugriff eines Benutzers konfigurieren, um in Workfront und Workfront Proof Testsendungen zu erstellen und anzuzeigen.
 
@@ -23,9 +23,9 @@ Informationen zu den für grundlegendes und integriertes Proofing verfügbaren P
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+Sie benötigen die folgenden Zugriffsrechte, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,19 +49,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
 +++
-
-## Aktivieren und Deaktivieren des Proofings für einen Benutzer (nur für veraltete Pläne) {#enable-and-disable-proofing-for-a-user-legacy-plans-only}
-
-Wenn Ihr Unternehmen einen älteren Select- oder Premium-Workfront-Plan verwendet, können Sie als Workfront-Administrator die Proofing-Funktion für den Benutzer aktivieren und deaktivieren.
-
-Wenn Sie das Proofing für einen Benutzer aktivieren, aktiviert Workfront die Option zum automatischen Generieren der Korrekturabzüge durch den Benutzer.
-
-Sie können einen Benutzer zwar als Proofing-Benutzer aktivieren, er muss jedoch über Administratorberechtigungen verfügen, um direkt über das Workfront-Hauptmenü zur Workfront Proof-Benutzeroberfläche zu navigieren. Informationen dazu, wie Sie diese Option für alle Proofing-Benutzer in Ihrem Workfront-System aktivieren können, finden Sie [Konfigurieren des Workfront Proof-Zugriffs über das Workfront-Hauptmenü für alle Benutzer](#configure-workfront-proof-access-via-workfront-main-menu-for-all-users).
-
-1. Wählen Sie im **Hauptmenü** die Option **Benutzer** aus.
-
-1. Wählen Sie einen Benutzer aus und klicken Sie dann auf das Symbol **Bearbeiten**.
-1. Wählen Sie im Abschnitt **Zugriff** die Option (Benutzer kann **Korrekturabzüge generieren** aus oder heben Sie die Auswahl auf.
 
 ## Konfigurieren des Berechtigungsprofils für Korrekturabzüge von Benutzenden
 
@@ -94,7 +81,7 @@ Das ausgewählte Berechtigungsprofil wird den Benutzern für jeden Korrekturabzu
       <td> Benutzende erhalten in Workfront Proof Administratorberechtigungen und können Kontoeinstellungen bearbeiten. Benutzer können alle im Konto Ihrer Organisation erstellten Korrekturabzüge verwalten und anzeigen. Dazu gehört das Hinzufügen und Entfernen von Reviewern, Testsendungen und Kommentaren.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Benutzerdefiniert</strong> </td> 
+      <td role="rowheader"><strong>Benutzerspezifisch</strong> </td> 
       <td> <p>Nur verfügbar, wenn Sie ein benutzerdefiniertes Berechtigungsprofil in Workfront Proof konfiguriert haben.</p> <p><b>HINWEIS</b>:  <p>Stellen Sie sicher, dass das hier gewährte Berechtigungsprofil keinen höheren Zugriff bietet als die Zugriffsebenen-Einstellung des Benutzers in Workfront (siehe <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>). Wenn es einen höheren Zugriff bietet, kann der/die Benutzende in Workfront Proof auf Korrekturabzüge zugreifen, auf die er/sie nicht in Workfront zugreifen kann.</p> <p>Dies ist besonders wichtig, wenn Sie planen, allen Workfront-Benutzenden den direkten Zugriff auf Workfront Proof über Workfront zu ermöglichen, wie unter <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md" class="MCXref xref">Zugriff auf Workfront Proof über Adobe Workfront</a> beschrieben.</p> <p>Standardmäßig haben nur Workfront-Administratoren Zugriff auf einen direkten Link zur Workfront Proof-Site über die globale Navigationsleiste von Workfront.</p> </p> </td> 
      </tr> 
     </tbody> 
@@ -108,7 +95,7 @@ Das ausgewählte Berechtigungsprofil wird den Benutzern für jeden Korrekturabzu
    >
    >Wenn Sie einen Benutzer in Workfront erstellen oder aktualisieren und die Workfront-E-Mail-Adresse des Benutzers mit der eines lizenzierten Workfront Proof-Benutzers übereinstimmt, aktiviert das System das Proofing für den Benutzer in Workfront. Weitere Informationen finden Sie unter [Benutzersynchronisierung zwischen Adobe Workfront und Workfront Proof](../../../administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md).
 
-### Aspekte
+### Zu beachten
 
 Beachten Sie beim Festlegen von Berechtigungen die folgenden Informationen:
 
@@ -121,7 +108,7 @@ Beachten Sie beim Festlegen von Berechtigungen die folgenden Informationen:
 
 ## Konfigurieren des Workfront Proof-Zugriffs für alle Benutzer über das Workfront-Hauptmenü {#configure-workfront-proof-access-via-workfront-main-menu-for-all-users}
 
-Standardmäßig können nur Benutzende mit Administratorrechten in Workfront wie unter (Zugriff auf Workfront Proof [&#x200B; Adobe Workfront) beschrieben auf Workfront Proof &#x200B;](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
+Standardmäßig können nur Benutzende mit Administratorrechten in Workfront wie unter (Zugriff auf Workfront Proof [ Adobe Workfront) beschrieben auf Workfront Proof ](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
 
 Sie können allen Benutzenden Zugriff auf die Schaltfläche Workfront Proof im Hauptmenü von Workfront gewähren, indem Sie sich an den Workfront-Support wenden und eine Anfrage senden.
 
