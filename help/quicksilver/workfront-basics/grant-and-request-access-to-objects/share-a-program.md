@@ -7,9 +7,9 @@ description: Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihre
 author: Courtney
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: ddaecaf65fc7080e27ae67d6c8f4980586f1241e
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '918'
+source-wordcount: '936'
 ht-degree: 6%
 
 ---
@@ -169,6 +169,12 @@ Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern erteilen können
 | Aktualisierungen/Kommentare hinzufügen | ✓ | ✓ |
 | Freigeben | ✓ | ✓ |
 | Systemweit freigeben |   | ✓ |
+| Abrechnungssätze bearbeiten&#42; | ✓ |   |
+| Kostensätze bearbeiten&#42; | ✓ |   |
+| Allgemeine Finanzen bearbeiten&#42; | ✓ |   |
+| Abrechnungssätze anzeigen&#42; | ✓ | ✓ |
+| Kostensätze anzeigen&#42; | ✓ | ✓ |
+| Allgemeine Finanzen anzeigen&#42; | ✓ | ✓ |
 
 *Diese Berechtigungen werden von der Zugriffsebene und den Berechtigungen für andere Objekte, z. B. Projekte, gesteuert.
 

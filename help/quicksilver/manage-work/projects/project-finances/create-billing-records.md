@@ -5,9 +5,9 @@ description: Zusätzlich zur Einrichtung von Einnahmen und zur Verfolgung von Au
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
+source-git-commit: f8e869f1ce8127d6ee095a58c84a94915df3acab
 workflow-type: tm+mt
-source-wordcount: '1633'
+source-wordcount: '1637'
 ht-degree: 3%
 
 ---
@@ -44,7 +44,7 @@ Sie können keine Rechnungsnachweise für Aufgaben erstellen; Sie können nur Re
   </tr> 
   <tr> 
    <td>Objektberechtigungen</td> 
-   <td>Verwalten von Berechtigungen für das Projekt mit Berechtigungen zum Verwalten von Finanzen</td> 
+   <td>Verwalten Sie die Berechtigungen für das Projekt mit den Berechtigungen zum Bearbeiten von Abrechnungssätzen und allgemeiner Finanzen.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -144,7 +144,7 @@ Sie können einem Rechnungsnachweis Stunden hinzufügen, wenn die folgenden Bedi
      >[!NOTE]
      >
      >Sie können Abrechnungssätze für Aufgabengebiete auf Projektebene überschreiben.\
-     >Weitere Informationen finden Sie im Abschnitt „Überschreiben der Abrechnungssätze für Aufgabengebiete auf Projektebene“ im Artikel „Übersicht [&#x200B; Überschreiben der Abrechnungssätze und Berechnung des Umsatzes für ein Projekt](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+     >Weitere Informationen finden Sie im Abschnitt „Überschreiben der Abrechnungssätze für Aufgabengebiete auf Projektebene“ im Artikel „Übersicht [ Überschreiben der Abrechnungssätze und Berechnung des Umsatzes für ein Projekt](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 * Wenn die Option Für dieses Projekt zu genehmigende Zeit erforderlich in den Projekteinstellungen ausgewählt ist, muss der Projektbesitzer die protokollierten Stunden genehmigen.\
   Weitere Informationen finden Sie unter [Für die Genehmigung eines Projekts ist Zeit erforderlich](../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md).
@@ -241,7 +241,7 @@ Nachdem Sie einen Rechnungsnachweis erstellt und ihm Stunden, Ausgaben und Einna
 
    * **Verrechenbare Ausgaben**: Der Gesamtbetrag der tatsächlichen Summe der verrechenbaren Ausgaben, die im Rechnungsnachweis enthalten sind. Weitere Informationen finden Sie im folgenden Abschnitt dieses Artikels: [Abrechnungsfähige Ausgaben in einen Rechnungsnachweis einbeziehen](#include-billable-expenses-in-a-billing-record).
 
-   * **Fakturierbare Einnahmen**: Der Gesamtbetrag der Festeinnahmen der Aufgaben, die im Rechnungsnachweis enthalten sind. Weitere Informationen finden Sie im folgenden Abschnitt dieses Artikels: [Festeinnahmen in einen Rechnungsnachweis &#x200B;](#include-fixed-revenues-in-a-billing-record).
+   * **Fakturierbare Einnahmen**: Der Gesamtbetrag der Festeinnahmen der Aufgaben, die im Rechnungsnachweis enthalten sind. Weitere Informationen finden Sie im folgenden Abschnitt dieses Artikels: [Festeinnahmen in einen Rechnungsnachweis ](#include-fixed-revenues-in-a-billing-record).
 
    * **Rechnungsnachweissumme**: Die Summe aller fakturierbaren Beträge. Dies wird nach folgender Formel berechnet:
 

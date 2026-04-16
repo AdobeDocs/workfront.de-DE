@@ -1,19 +1,19 @@
 ---
 content-type: overview
 navigation-topic: grant-and-request-access-to-objects
-title: Übersicht über Freigabeberechtigungen für Objekte
+title: Überblick über die Freigabe von Berechtigungen für Objekte
 description: Sie können Berechtigungen für ein von Ihnen erstelltes Objekt oder ein für Sie freigegebenes Objekt freigeben oder entfernen.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 97f5adc8811a3be7be23137a82d10d45b76ec605
+source-git-commit: dec69522dd5f233bfabe84a9846b8e1246993a2a
 workflow-type: tm+mt
-source-wordcount: '1332'
-ht-degree: 1%
+source-wordcount: '1353'
+ht-degree: 3%
 
 ---
 
-# Übersicht über Freigabeberechtigungen für Objekte
+# Überblick über die Freigabe von Berechtigungen für Objekte
 
 <!-- Audited: 12/2023 -->
 
@@ -36,7 +36,7 @@ Sie können die folgenden Objekte in Workfront für andere Benutzer freigeben:
 
 * **Projekte**: Weitere Informationen finden Sie unter [Freigeben eines Projekts in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
-* **Vorlagen**: Weitere Informationen finden Sie unter &quot;[&#x200B; von Projektvorlagen](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+* **Vorlagen**: Weitere Informationen finden Sie unter &quot;[ von Projektvorlagen](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
 * **Portfolios**: Weitere Informationen finden Sie unter [Freigeben eines Portfolios](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
@@ -55,10 +55,12 @@ Sie können die folgenden Objekte in Workfront für andere Benutzer freigeben:
 * **Berichte, Dashboards und Kalender**: Weitere Informationen finden Sie unter [Freigeben von Berichten, Dashboards und Kalendern](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).  Weitere Informationen finden Sie in den folgenden Artikeln:
 
    * [Freigeben eines Berichts in Adobe Workfront](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
-   * [Dashboard freigeben](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
-   * [Kalenderbericht freigeben](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
+   * [Freigeben eines Dashboards](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
+   * [Freigeben eines Kalenderberichts](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
 * **Filter, Ansichten und Gruppierungen**: Weitere Informationen finden Sie unter [Freigeben von Filtern, Ansichten oder Gruppierungen](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+
+* **Tarifkarten**: Weitere Informationen finden Sie unter [Tarifkarte freigeben](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md).
 
 * **Pläne**: Weitere Informationen finden Sie unter [Freigeben eines Plans im Szenario-Planer](../../scenario-planner/share-a-plan.md).
 
@@ -118,7 +120,7 @@ Die folgende Tabelle zeigt die Berechtigungsstufe, die Sie bei der Freigabe eine
      <li><p>Objekt anzeigen</p></li> 
      <li><p>Hinzufügen von Dokumenten zum Objekt</p></li> 
      <li><p>Probleme zum Objekt hinzufügen (wenn es sich um eine Aufgabe oder ein Projekt handelt)</p></li> 
-     <li><p>Finanzinformationen zum Objekt anzeigen</p></li> 
+     <li><p>Zeigen Sie Kostensätze, Abrechnungssätze oder allgemeine Finanzinformationen zum Objekt an</p></li> 
      <li> <p>Objekt freigeben<br></p> <p>Wenn Sie das -Objekt freigeben, können Sie anderen Benutzern dieselbe Berechtigungsstufe gewähren, die Sie nur für das -Objekt haben, keine höhere Ebene.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -140,7 +142,7 @@ Die folgende Tabelle zeigt die Berechtigungsstufe, die Sie bei der Freigabe eine
     <ul> 
      <li>Alle Aktionen, die mit den Berechtigungen „Anzeigen“ und „Beitragen“ enthalten sind</li> 
      <li>Löschen</li> 
-     <li>Finanzinformationen in IT verwalten</li> 
+     <li>Verwalten Sie Kostensätze, Abrechnungssätze oder allgemeine Finanzinformationen darin</li> 
     </ul> </td> 
   </tr> 
   <tr> 

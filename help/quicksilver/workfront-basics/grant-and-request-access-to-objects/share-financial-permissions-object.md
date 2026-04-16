@@ -8,16 +8,14 @@ feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '560'
 ht-degree: 17%
 
 ---
 
 # Freigeben von Finanzberechtigungen für ein Objekt
-
-{{highlighted-preview}}
 
 Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihrer Zugriffsebene Zugriff zum Anzeigen oder Bearbeiten von Finanzdaten gewähren. Weitere Informationen finden Sie unter [Zugriff auf Finanzdaten gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
@@ -80,8 +78,7 @@ drafted for P&P:
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von Berechtigungen oder höher für Projekte, Aufgaben und Probleme, die mindestens „Finanzen anzeigen“-Berechtigungen enthalten</p>
-   <p><span class="preview">Zeigen Sie Berechtigungen oder höhere Berechtigungen für Projekte, Aufgaben und Probleme an, die mindestens „Abrechnungssätze anzeigen“, „Kostensätze anzeigen“ oder „Allgemeine Finanzberechtigungen anzeigen“ umfassen</span></p></td> 
+   <td> Zeigen Sie Berechtigungen oder höhere Berechtigungen für Projekte, Aufgaben und Probleme an, die mindestens „Abrechnungssätze anzeigen“, „Kostensätze anzeigen“ und „Allgemeine Finanzberechtigungen anzeigen“ umfassen</td> 
   </tr> 
  </tbody> 
 </table>
@@ -96,6 +93,7 @@ Beachten Sie Folgendes, wenn Sie Objekten Finanzberechtigungen erteilen:
 
 * Sie können Projekten, Aufgaben und Problemen finanzielle Berechtigungen erteilen.
 * Berechtigungen können geerbt werden: Wenn Sie über die Berechtigung „Allgemeine Finanzen anzeigen“ für ein Projekt verfügen, übernehmen Sie automatisch die Berechtigungen „Allgemeine Finanzen anzeigen“ für die Aufgaben und Probleme im Projekt.
+* Durch das Gewähren von Berechtigungen für Abrechnungs- und Kostensätze kann der Benutzer die Sätze für dieses Objekt anzeigen oder bearbeiten. Mit den Berechtigungen für allgemeine Finanzen kann der Benutzer allgemeine Finanzfelder (die nicht mit Abrechnungs- oder Kostensätzen in Verbindung stehen) für das Objekt anzeigen oder bearbeiten.
 
 So erteilen Sie einem Objekt finanzielle Berechtigungen:
 
@@ -116,10 +114,8 @@ So erteilen Sie einem Objekt finanzielle Berechtigungen:
 
 1. Klicken Sie im gleichen Dropdown-Menü auf das Symbol Erweiterte Optionen neben der Berechtigungsstufe und führen Sie dann einen der folgenden Schritte aus:
 
-   * Wenn Sie im vorherigen Schritt eine der drei Optionen ausgewählt haben, stellen Sie sicher, dass **Finanzen anzeigen** ausgewählt ist.
-   * Wenn Sie im vorherigen Schritt **Finanzen verwalten** ausgewählt haben, stellen Sie sicher, dass **Finanzen verwalten** ausgewählt ist.
-   * <span class="preview">Wählen Sie für jede Berechtigungsstufe **Abrechnungssätze anzeigen**, **Kostensätze anzeigen** und **Allgemeine Finanzen anzeigen** nach Bedarf.</span>
-   * <span class="preview">Nur für **Verwalten** wählen Sie **Abrechnungssätze bearbeiten**, **Kostensätze bearbeiten** und **Allgemeine Finanzen bearbeiten** nach Bedarf.</span>
+   * Wählen Sie für jede Berechtigungsstufe **Abrechnungssätze anzeigen**, **Kostensätze anzeigen** und **Allgemeine Finanzen anzeigen** aus.
+   * Wählen **nur** Berechtigungen die Optionen **Abrechnungssätze bearbeiten**, **Kostensätze bearbeiten** und **Allgemeine Finanzen bearbeiten**.
 
 1. Klicken Sie auf **Speichern**.
 
@@ -148,55 +144,37 @@ Die folgende Tabelle zeigt, welche Finanzberechtigungen Benutzende erhalten, wen
    <td>  </td> 
   </tr> 
   <tr> 
-   <td>Funktionsbezogene Fakturierung und Kostensätze verwalten/anzeigen</td> 
-   <td>✓</td> 
-   <td>  </td> 
-   <td>  </td> 
-  </tr> 
-  <tr> 
-   <td>Benutzerfakturierung und Kostensätze verwalten/anzeigen</td> 
-   <td>✓</td> 
-   <td>  </td> 
-   <td>  </td> 
-  </tr> 
-  <tr> 
-   <td>Finanzen anzeigen</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>  ✓</td> 
-  </tr>
-  <tr> 
-   <td><span class="preview">Abrechnungstarife bearbeiten</span></td> 
+   <td>Abrechnungstarife bearbeiten</td> 
    <td>✓</td> 
    <td></td> 
    <td>  </td> 
   </tr> 
   <tr> 
-   <td><span class="preview">Kostensätze bearbeiten</span></td> 
+   <td>Kostensätze bearbeiten</td> 
    <td>✓</td> 
    <td></td> 
    <td>  </td> 
   </tr>  
   <tr> 
-   <td><span class="preview">Allgemeine Finanzen bearbeiten</span></td> 
+   <td>Allgemeine Finanzen bearbeiten</td> 
    <td>✓</td> 
    <td></td> 
    <td>  </td> 
   </tr>
   <tr> 
-   <td><span class="preview">Abrechnungstarife anzeigen</span></td> 
+   <td>Abrechnungstarife anzeigen</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 
   </tr> 
   <tr> 
-   <td><span class="preview">Kostensätze anzeigen</span></td> 
+   <td>Kostensätze anzeigen</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 
   </tr>  
   <tr> 
-   <td><span class="preview">Allgemeine Finanzen anzeigen</span></td> 
+   <td>Allgemeine Finanzen anzeigen</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>  ✓</td> 
@@ -225,3 +203,21 @@ Die folgende Tabelle zeigt, welche Finanzberechtigungen Benutzende erhalten, wen
 &#42;Erfordert zusätzlichen Zugriff auf die Ressourcenverwaltung.
 
 Informationen zum Zugriff auf die Ressourcenverwaltung finden Sie unter [Zugriff auf die Ressourcenverwaltung gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+
+<!--
+These rows removed from last table.
+
+  <tr> 
+   <td>Manage/ View Role Billing and Cost Rates</td> 
+   <td>✓</td> 
+   <td>  </td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td>Manage/ View User Billing and Cost Rates</td> 
+   <td>✓</td> 
+   <td>  </td> 
+   <td>  </td> 
+  </tr> 
+
+-->

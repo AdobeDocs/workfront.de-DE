@@ -6,10 +6,10 @@ description: Ihr Adobe Workfront-Administrator gewährt Benutzern Zugriff zum An
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: ddaecaf65fc7080e27ae67d6c8f4980586f1241e
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '1263'
-ht-degree: 8%
+source-wordcount: '1281'
+ht-degree: 9%
 
 ---
 
@@ -87,7 +87,7 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
    * Geben Sie die Berechtigungen für eines der übergeordneten Objekte des Problems an: Projekt, Programm oder Portfolio. Probleme erben die Berechtigungen von den übergeordneten Objekten. Weitere Informationen zum Anzeigen geerbter Berechtigungen für Objekte finden Sie unter [Anzeigen geerbter Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
    * Entitäten zur Projektfreigabe hinzufügen, die auf einer Vorlage basieren, mit der das Projekt erstellt wurde, an dem das Problem auftritt. Informationen zum Freigeben von Projekten aus Vorlagen finden Sie unter [Freigeben einer Vorlage](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Geben Sie die Berechtigungen für alle Probleme in einem Projekt an, wenn Sie das Projekt bearbeiten. Informationen zur Verwaltung des Zugriffs auf Probleme oder Anfragen im Projekt basierend auf den Berechtigungen eines Benutzers für das Projekt finden Sie im [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) Abschnitt im Artikel [Projekte bearbeiten](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Geben Sie die Berechtigungen für alle Probleme in einem Projekt an, wenn Sie das Projekt bearbeiten. Informationen zur Verwaltung des Zugriffs auf Probleme oder Anfragen im Projekt basierend auf den Berechtigungen eines Benutzers für das Projekt finden Sie im [](../../manage-work/projects/manage-projects/edit-projects.md#access) Abschnitt im Artikel [Projekte bearbeiten](../../manage-work/projects/manage-projects/edit-projects.md).
 
      >[!TIP]
      >
@@ -346,6 +346,24 @@ Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern erteilen können
    <td>  </td> 
    <td>✓</td> 
   </tr> 
+  <tr> 
+   <td> <p>Abrechnungssätze anzeigen*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>Kostensätze anzeigen*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>Allgemeine Finanzen anzeigen*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr>
  </tbody> 
 </table>
 

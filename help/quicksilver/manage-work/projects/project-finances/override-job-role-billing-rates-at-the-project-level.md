@@ -2,22 +2,20 @@
 product-area: projects
 navigation-topic: financials
 title: Aufgabengebiet-Abrechnungssätze auf Projektebene überschreiben
-description: Als Projekt-Manager können Sie den Abrechnungssatz für ein Aufgabengebiet in einem bestimmten Projekt angeben. Dieser Abrechnungssatz auf Projektebene überschreibt den Abrechnungssatz auf Systemebene für dieses Aufgabengebiet. Workfront verwendet zur Berechnung des Umsatzes den Abrechnungssatz auf Projektebene des Aufgabengebiets, anstatt den Abrechnungssatz auf Systemebene zu verwenden.
+description: In diesem Artikel wird beschrieben, wie Sie die Abrechnungssätze für Systemaufgaben für ein Projekt überschreiben können.
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '808'
 ht-degree: 6%
 
 ---
 
 # Überschreiben von Abrechnungssätzen für Aufgabengebiete auf Projektebene
-
-{{highlighted-preview}}
 
 Als Projekt-Manager können Sie den Abrechnungssatz für ein Aufgabengebiet in einem bestimmten Projekt angeben. Dieser Abrechnungssatz auf Projektebene überschreibt den Abrechnungssatz auf Systemebene für dieses Aufgabengebiet. Workfront verwendet zur Berechnung des Umsatzes den Abrechnungssatz auf Projektebene des Aufgabengebiets, anstatt den Abrechnungssatz auf Systemebene zu verwenden.
 
@@ -25,7 +23,7 @@ In diesem Artikel wird beschrieben, wie Sie die Abrechnungssätze für Systemauf
 
 Allgemeine Informationen zum Überschreiben der Verrechnungssätze für Aufgabengebiete für Projekte und zur Berechnung des Projektumsatzes finden Sie unter [Übersicht über das Überschreiben von Verrechnungssätzen und die Berechnung des Umsatzes für ein Projekt](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
-Weitere Informationen dazu, welches Aufgabengebiet zur Berechnung des Umsatzes für das Projekt verwendet wird, finden Sie [&#x200B; Abschnitt „Übersicht über Umsatz- und &#x200B;](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)&quot; und [Umsatzberechnungen für Aufgaben basierend auf Benutzer- und &#x200B;](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments)&quot; im Artikel [Übersicht über Abrechnung und Umsatz](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Weitere Informationen dazu, welches Aufgabengebiet zur Berechnung des Umsatzes für das Projekt verwendet wird, finden Sie [ Abschnitt „Übersicht über Umsatz- und ](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)&quot; und [Umsatzberechnungen für Aufgaben basierend auf Benutzer- und ](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments)&quot; im Artikel [Übersicht über Abrechnung und Umsatz](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 >[!NOTE]
 >
@@ -56,7 +54,7 @@ Weitere Informationen dazu, welches Aufgabengebiet zur Berechnung des Umsatzes f
   </tr> 
   <tr> 
    <td>Objektberechtigungen</td> 
-   <td>Verwalten Sie Berechtigungen für das Projekt, das die Option Finanzdaten bearbeiten enthält. </td> 
+   <td>Verwalten von Berechtigungen für das Projekt, das die Bearbeitung von Abrechnungssätzen enthält </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,21 +80,17 @@ So überschreiben Sie einen Abrechnungssatz für ein Projekt:
 
    Oder
 
-   <span class="preview">Klicken Sie im linken **auf** Tarife“ und klicken Sie auf die Registerkarte **Abrechnung**, falls diese nicht bereits ausgewählt ist.</span>
+   Klicken Sie **linken** auf „Tarife“ und dann auf die Registerkarte **Abrechnung**, sofern diese nicht bereits ausgewählt ist.
 
-1. Klicken Sie **Abrechnungssatz hinzufügen** > **Neuer Abrechnungssatz**.
-
-   Oder
-
-   <span class="preview">Klicken Sie **Abrechnungssatz hinzufügen > Abrechnungssatz für neues Aufgabengebiet hinzufügen**.</span>
+1. Klicken Sie **Abrechnungssatz hinzufügen > Abrechnungssatz für neues Aufgabengebiet hinzufügen**.
 
    Das Feld „Neuer Abrechnungssatz“ wird geöffnet.
 
 1. Wählen **im Feld** das Aufgabengebiet aus, für das Sie den Abrechnungssatz ändern möchten.
 
-1. <span class="preview">(Optional) Wählen Sie Attribute für den Abrechnungssatz aus, z. B. Agentur oder Standort.</span>
+1. (Optional) Wählen Sie Attribute für den Abrechnungssatz aus, z. B. Agentur oder Standort.
 
-   <span class="preview">Der Systemadministrator definiert Tarifattribute im Bereich „Setup“.</span>
+   Der Systemadministrator definiert die Tarifattribute im Bereich „Setup“.
 
 1. Wählen Sie **Währung** für die Außerkraftsetzung des Abrechnungssatzes aus.
 1. Geben Sie im Feld **Abrechnungssatz** die Überschreibung des Abrechnungssatzes ein und klicken Sie dann auf **Speichern**, um den Abrechnungssatz einmal zu überschreiben

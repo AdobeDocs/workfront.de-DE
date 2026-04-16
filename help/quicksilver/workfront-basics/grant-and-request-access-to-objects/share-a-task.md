@@ -6,9 +6,9 @@ description: Ihr Adobe Workfront-Administrator kann Ihnen Zugriff zum Anzeigen o
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: ddaecaf65fc7080e27ae67d6c8f4980586f1241e
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1244'
 ht-degree: 10%
 
 ---
@@ -90,7 +90,7 @@ Sie können eine Aufgabe wie folgt freigeben:
    * Geben Sie die Berechtigungen für eines der übergeordneten Objekte der Aufgabe an: Projekt, Programm oder Portfolio. Aufgaben erben die Berechtigungen von ihren übergeordneten Objekten. Weitere Informationen zum Anzeigen geerbter Berechtigungen für Objekte finden Sie unter [Anzeigen geerbter Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
    * Entitäten zur Projektfreigabe hinzufügen, die auf einer Vorlage basieren, mit der das Projekt erstellt wurde, für das die Aufgabe ausgeführt wird. Informationen zum Freigeben von Projekten aus Vorlagen finden Sie unter [Freigeben einer Vorlage](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Geben Sie die Berechtigungen für alle Aufgaben in einem Projekt an, wenn Sie das Projekt bearbeiten.  Informationen zur Verwaltung des Zugriffs auf Aufgaben im Projekt auf der Grundlage der Berechtigungen, die ein Benutzer für das Projekt erhält, finden Sie im [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) Abschnitt im Artikel [Projekte bearbeiten](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Geben Sie die Berechtigungen für alle Aufgaben in einem Projekt an, wenn Sie das Projekt bearbeiten.  Informationen zur Verwaltung des Zugriffs auf Aufgaben im Projekt auf der Grundlage der Berechtigungen, die ein Benutzer für das Projekt erhält, finden Sie im [](../../manage-work/projects/manage-projects/edit-projects.md#access) Abschnitt im Artikel [Projekte bearbeiten](../../manage-work/projects/manage-projects/edit-projects.md).
 
   >[!TIP]
   >
@@ -299,11 +299,23 @@ Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern erteilen können
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td scope="row">Finanzen bearbeiten*</td> 
-   <td>✓</td> 
-   <td>  </td> 
-   <td>  </td> 
+   <td> <p>Abrechnungssätze bearbeiten*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
+  <tr> 
+   <td> <p>Kostensätze bearbeiten*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>Allgemeine Finanzen bearbeiten*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>  </p> </td> 
+   <td> <p>  </p> </td> 
+  </tr>
   <tr> 
    <td scope="row">Kosten hinzufügen/bearbeiten</td> 
    <td>✓</td> 
@@ -311,10 +323,22 @@ Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern erteilen können
    <td>  </td> 
   </tr> 
   <tr> 
-   <td scope="row">Finanzen anzeigen</td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td>✓</td> 
+   <td> <p>Abrechnungssätze anzeigen*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>Kostensätze anzeigen*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+  </tr>
+  <tr> 
+   <td> <p>Allgemeine Finanzen anzeigen*</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
+   <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td scope="row">Aktualisierungen/Kommentare</td> 

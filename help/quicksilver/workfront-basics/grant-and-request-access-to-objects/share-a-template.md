@@ -6,10 +6,10 @@ description: Als Adobe Workfront-Admin können Sie Benutzenden Zugriff auf das A
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 15%
+source-wordcount: '611'
+ht-degree: 19%
 
 ---
 
@@ -35,7 +35,7 @@ Berechtigungen sind für ein Element in Workfront spezifisch und definieren, wel
 
    * Die Vorlage
 
-     Weitere Informationen zum Freigeben einer Vorlage finden Sie unter [Freigeben von &#x200B;](../../manage-work/projects/create-and-manage-templates/share-project-template.md)).
+     Weitere Informationen zum Freigeben einer Vorlage finden Sie unter [Freigeben von ](../../manage-work/projects/create-and-manage-templates/share-project-template.md)).
 
      Sie können einer Vorlage die folgenden Berechtigungen erteilen:
 
@@ -147,6 +147,36 @@ Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern erteilen können
    <td>  </td> 
    <td>✓</td> 
   </tr> 
+  <tr> 
+   <td>Abrechnungstarife anzeigen</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Kostensätze anzeigen</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Allgemeine Finanzen anzeigen</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Abrechnungstarife bearbeiten</td> 
+   <td>✓</td> 
+   <td>  </td> 
+  </tr> 
+  <tr> 
+   <td>Kostensätze bearbeiten</td> 
+   <td>✓</td> 
+   <td>  </td> 
+  </tr>
+  <tr> 
+   <td>Allgemeine Finanzen bearbeiten</td> 
+   <td>✓</td> 
+   <td>  </td> 
+  </tr>
   <tr data-mc-conditions=""> 
    <td> <p>Dokumente hinzufügen</p> <p>Tipp: Manchmal fügen Personen Dokumente zu einer Projektvorlage hinzu, weil sie glauben, dass sie diese zu einem Projekt hinzufügen. Sie können dies für Ihre Empfänger verhindern, indem Sie diese Einstellung deaktivieren.</p> </td> 
    <td>  </td> 

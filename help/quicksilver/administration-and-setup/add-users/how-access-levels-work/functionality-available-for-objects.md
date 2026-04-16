@@ -10,16 +10,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+source-git-commit: fbc8024269aa91370f2a93ace6b7f07679c7f37d
 workflow-type: tm+mt
-source-wordcount: '1597'
-ht-degree: 19%
+source-wordcount: '1427'
+ht-degree: 21%
 
 ---
 
 # Für jeden Objekttyp verfügbare Funktionen
-
-{{highlighted-preview}}
 
 >[!NOTE]
 >
@@ -32,7 +30,7 @@ Es zeigt auch an, welche Aktionen Workfront-Administratoren mithilfe einer Zugri
 >[!NOTE]
 >
 >* In diesem Artikel werden die Funktionen beschrieben, die für Zugriffsebenen im neuen Workfront-Paketmodell verfügbar sind. Informationen zu den im aktuellen Paketmodell verfügbaren Funktionen finden Sie unter [Funktionalität verfügbar für jeden Objekttyp für verschiedene Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* Eine Liste der Funktionen, die den verschiedenen Packages im aktuellen Modell zur Verfügung stehen, finden Sie unter [Preise und Verpackung für Adobe Workfront](https://business.adobe.com/de/products/workfront/pricing.html).
+>* Eine Liste der Funktionen, die den verschiedenen Packages im aktuellen Modell zur Verfügung stehen, finden Sie unter [Preise und Verpackung für Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Projekte
 
@@ -59,7 +57,7 @@ Es zeigt auch an, welche Aktionen Workfront-Administratoren mithilfe einer Zugri
 | Risiken managen | ✓ |   |   |   |
 | Finanzen verwalten | ✓ |   |   |   |
 | Kosten hinzufügen/bearbeiten | ✓ |   |   |   |
-| <span class="preview">Fügen Sie eine Tarifkarte hinzu</span> | ✓ |   |   |   |
+| Tarifkarte anhängen | ✓ |   |   |   |
 | Vorlagen anfügen | ✓ |   |   |   |
 | Als Vorlage speichern | ✓ |   |   |   |
 | Hinzufügen/Bearbeiten eines Business Case | ✓ |   |   |   |
@@ -257,8 +255,6 @@ Benutzer mit einer Standardlizenz haben vollen Zugriff auf Berichte. Alle andere
 
 ## Benutzende
 
-<div class="preview">
-
 Diese Optionen sind in der Vorschau -Umgebung verfügbar:
 
 | Aktion | Standard | Light | Mitwirkender oder Mitwirkende | Externer Benutzer** |
@@ -283,27 +279,6 @@ Diese Optionen sind in der Vorschau -Umgebung verfügbar:
 
 &#42;&#42;Externe Benutzer können nur nach anderen Benutzern suchen.
 
-</div>
-
-Diese Optionen sind in der Produktionsumgebung verfügbar:
-
-| Aktion | Standard | Light | Mitwirkender oder Mitwirkende | Externer Benutzer** |
-|----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
-| Erstellen | ✓* |   |   |   |
-| Löschen | ✓* |   |   |   |
-| Bearbeiten, Löschen, Deaktivieren, Anmelden als oder Zurücksetzen des Passworts für einen beliebigen Benutzer | ✓* |   |   |   |
-| Bearbeiten, Löschen, Deaktivieren, Anmelden als oder Zurücksetzen des Passworts für alle Benutzenden in der von ihnen verwalteten Gruppe | ✓* |   |   |   |
-| Benutzer anzeigen | ✓ | ✓ | ✓ |   |
-| Kontaktinformationen anzeigen | ✓ | ✓ | ✓ |   |
-
-{style="table-layout:auto"}
-
-&#42; Mit einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
-
-&#42;&#42;Externe Benutzer können nur nach anderen Benutzern suchen.
-
-<div class="preview">
-
 ## Aufgabengebiete
 
 | Aktion | Standard | Light | Mitwirkender oder Mitwirkende | Externer Benutzer |
@@ -322,8 +297,6 @@ Diese Optionen sind in der Produktionsumgebung verfügbar:
 {style="table-layout:auto"}
 
 &#42; Mit einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
-
-</div>
 
 <!--
 
@@ -394,10 +367,6 @@ Diese Optionen sind in der Produktionsumgebung verfügbar:
 
 Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf Finanzdaten haben.
 
-<div class="preview">
-
-Diese Optionen sind in der Vorschau -Umgebung verfügbar:
-
 | Aktion | Standard | Light | Mitwirkender oder Mitwirkende | Externer Benutzer |
 |--------------------------------------------------------------|----------|--------|-------------|---------------|
 | Abrechnungstarife bearbeiten | ✓&#42; |   |   |   |
@@ -408,29 +377,6 @@ Diese Optionen sind in der Vorschau -Umgebung verfügbar:
 | Allgemeine Finanzen anzeigen | ✓&#42; | ✓&#42; |   |   |
 | Abrechnungseinträge verwalten | ✓ |   |   |   |
 | Ausgaben verwalten | ✓ |   |   |   |
-| Informationen nach Kosten in den Ressourcenplanungs-Tools anzeigen | ✓ |   |   |   |
-| Budgetressourcen in den Ressourcenplanungs-Tools&#42;&#42; | ✓ |   |   |   |
-| Ressourcenzuordnung in den Ressourcenplanungs-Tools anzeigen&#42; | ✓ | ✓ |   |   |
-| Risiken in Projekten erstellen | ✓ |   |   |   |
-| Risiken in Projekten anzeigen | ✓ | ✓ |   |   |
-
-{style="table-layout:auto"}
-
-&#42; Mit einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
-
-</div>
-
-Diese Optionen sind in der Produktionsumgebung verfügbar:
-
-| Aktion | Standard | Light | Mitwirkender oder Mitwirkende | Externer Benutzer |
-|--------------------------------------------------------------|----------|--------|-------------|---------------|
-| Funktionsbezogene Abrechnung und Kostensätze bearbeiten | ✓&#42; |   |   |   |
-| Benutzerfakturierung und Kostensätze bearbeiten | ✓&#42; |   |   |   |
-| Funktionsbezogene Abrechnung und Kostensätze anzeigen | ✓&#42; |   |   |   |
-| Benutzerfakturierung und Kostensätze anzeigen | ✓&#42; |   |   |   |
-| Abrechnungseinträge verwalten | ✓ |   |   |   |
-| Ausgaben verwalten | ✓ |   |   |   |
-| Finanzdaten anzeigen | ✓&#42; | ✓&#42; |   |   |
 | Informationen nach Kosten in den Ressourcenplanungs-Tools anzeigen | ✓ |   |   |   |
 | Budgetressourcen in den Ressourcenplanungs-Tools&#42;&#42; | ✓ |   |   |   |
 | Ressourcenzuordnung in den Ressourcenplanungs-Tools anzeigen&#42; | ✓ | ✓ |   |   |
@@ -460,7 +406,7 @@ Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf die Ressourcenv
 
 &#42; Mit einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
 
-&#42;&#42;Erfordert zusätzlichen Zugriff auf Finanzdaten und Berechtigungen für Projektfinanzen. Wenn Sie einem Planer-Benutzer Zugriff auf die Ressourcenverwaltung gewähren, der keinen Zugriff auf Finanzdaten hat, kann der Benutzer die stündlichen Zuordnungen weiterhin im Ressourcenplaner sehen, aber nicht zur Kostenansicht wechseln oder den Business Case anzeigen. Weitere Informationen finden Sie unter [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) und [Finanzberechtigungen für ein Objekt freigeben](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
+&#42;&#42;Erfordert zusätzlichen Zugriff auf Finanzdaten und Berechtigungen für Projektfinanzen. Wenn Sie einem Standard-Benutzer Zugriff auf die Ressourcenverwaltung gewähren, der keinen Zugriff auf Finanzdaten hat, kann der Benutzer die stündlichen Zuordnungen weiterhin im Ressourcenplaner sehen, aber nicht zur Kostenansicht wechseln oder den Business Case anzeigen. Weitere Informationen finden Sie unter [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) und [Finanzberechtigungen für ein Objekt freigeben](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
 &#42;&#42;&#42;Erfordert die Berechtigung „Beitragen“ zum -Objekt, wobei „Zuweisungen vornehmen“ in den erweiterten Einstellungen aktiviert ist. Weitere Informationen finden Sie im Abschnitt [Vererbte Berechtigungen und die Hierarchie von Objekten](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) im Artikel [Übersicht über Freigabeberechtigungen für Objekte](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
@@ -483,8 +429,6 @@ Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf die Ressourcenv
 
 &#42; Damit Benutzer Finanzdaten in einem Plan oder einer Initiative anzeigen können, benötigen sie Zugriff auf Finanzdaten. Weitere Informationen finden Sie unter [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
-<div class="preview">
-
 ## Tarifkarten
 
 Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf Tarifkarten haben.
@@ -500,8 +444,6 @@ Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf Tarifkarten hab
 {style="table-layout:auto"}
 
 &#42; Mit einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
-
-</div>
 
 ## Workfront-Zielbereich
 

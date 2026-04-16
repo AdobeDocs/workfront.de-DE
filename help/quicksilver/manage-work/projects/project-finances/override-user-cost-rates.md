@@ -6,16 +6,15 @@ title: Benutzerkostensätze auf Projektebene überschreiben
 description: In diesem Artikel wird beschrieben, wie Sie die Kostensätze der Systembenutzenden für ein Projekt überschreiben können.
 author: Lisa
 feature: Work Management
-source-git-commit: cb21414992587c62c37580f156100f2b5b755e9b
+exl-id: ff1110fd-2d24-48a7-8000-712e551ca61a
+source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '651'
 ht-degree: 5%
 
 ---
 
 # Benutzerkostensätze auf Projektebene überschreiben
-
-{{highlighted-preview-article-level}}
 
 Sie können angeben, wie hoch der Kostensatz für eine Benutzerin oder einen Benutzer bei einem bestimmten Projekt ist. Dieser Kostensatz auf Projektebene setzt den Kostensatz auf Systemebene für diesen Benutzer außer Kraft. Workfront verwendet zur Berechnung der Kosten den Kostensatz auf Projektebene des Aufgabengebiets, anstatt den Kostensatz auf Systemebene zu verwenden.
 
@@ -50,7 +49,7 @@ Weitere Informationen zur Kostenberechnung für das Projekt finden Sie unter [Ü
   </tr> 
   <tr> 
    <td>Objektberechtigungen</td> 
-   <td>Verwalten Sie Berechtigungen für das Projekt, das die Option Finanzdaten bearbeiten enthält. </td> 
+   <td>Verwalten Sie Berechtigungen für das Projekt, einschließlich Bearbeitungskostensätze </td> 
   </tr> 
  </tbody> 
 </table>
@@ -94,7 +93,7 @@ Weitere Informationen finden Sie [Bearbeiten des Benutzerprofils](/help/quicksil
 
    Workfront wendet den Satz für Aufgabengebiete überschreiben auf die Stunden an, die während dieser Zeitrahmen bei der Berechnung der Kosten für das Projekt auftreten.
 
-   Zwischen den Zeitrahmen zweier Außerkraftsetzungsraten sollte es keine Lücken geben. Das **Startdatum** einer Überschreibungsrate sollte der Tag sein, der unmittelbar auf das **Enddatum** des vorherigen Überschreibungsdatums folgt.
+   Workfront ermöglicht es Ihnen, Lücken zwischen Überschreibungszeitrahmen zu hinterlassen, Sie erhalten jedoch eine Warnung, die bestätigt, dass dies beabsichtigt ist.
 
    Es ist nicht erforderlich, ein Startdatum für den ersten Überschreibungssatz oder ein Enddatum für den letzten Überschreibungssatz anzugeben.
 
@@ -107,5 +106,3 @@ Weitere Informationen finden Sie [Bearbeiten des Benutzerprofils](/help/quicksil
    Wenn eine Stunde nach dem geplanten Abschlussdatum des Projekts protokolliert wird, wird der letzte Kostensatz verwendet.
 
 1. Klicken Sie auf **Speichern**.
-
-

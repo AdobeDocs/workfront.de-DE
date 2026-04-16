@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 09bbb257a80c3f85abea9d238900d63c493fea2e
+source-git-commit: fbc8024269aa91370f2a93ace6b7f07679c7f37d
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 31%
@@ -19,8 +19,6 @@ ht-degree: 31%
 # Zugriff auf Objekte und Bereiche durch Lizenzen
 
 <!-- Audited: 2/2024 -->
-
-{{highlighted-preview}}
 
 >[!NOTE]
 >
@@ -107,7 +105,7 @@ In der folgenden Tabelle wird die höchste Zugriffsebene (Bearbeiten oder Anzeig
         <td>Ansicht</td>
     </tr>
     <tr>
-        <td><span class="preview">Aufgabengebiete</span></td>
+        <td>Aufgabengebiete</td>
         <td>Bearbeiten</td>
         <td>Ansicht</td>
         <td>Ansicht</td>
@@ -149,7 +147,7 @@ In der folgenden Tabelle wird die höchste Zugriffsebene (Bearbeiten oder Anzeig
         <td>Kein Zugriff</td>
     </tr>
     <tr>
-        <td><span class="preview">Tarifkarten</span></td>
+        <td>Tarifkarten</td>
         <td>Bearbeiten</td>
         <td>Ansicht</td>
         <td>Kein Zugriff</td>

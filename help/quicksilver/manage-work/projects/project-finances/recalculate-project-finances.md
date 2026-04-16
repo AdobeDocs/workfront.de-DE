@@ -6,9 +6,9 @@ description: Die Finanzen werden für ein Projekt berechnet, da Änderungen in d
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 8f6f14d4b36a9eee499111b1a37912f641c9f2ba
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '1605'
+source-wordcount: '1632'
 ht-degree: 2%
 
 ---
@@ -41,7 +41,7 @@ Die Finanzen werden für ein Projekt berechnet, da Änderungen in den für das P
   </tr> 
   <tr> 
    <td>Objektberechtigungen</td> 
-   <td>Verwalten von Berechtigungen für das Projekt mit Berechtigungen zum Verwalten von Finanzen</td> 
+   <td>Verwalten Sie die Berechtigungen für das Projekt mit den Berechtigungen zum Bearbeiten von Kostensätzen, zum Bearbeiten von Abrechnungssätzen und zum Bearbeiten allgemeiner Finanzen.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -79,21 +79,24 @@ Wenn Finanzdaten für ein Projekt neu berechnet werden, berechnet Workfront rüc
 
 Die Umsatzraten können sich während der Laufzeit eines Projekts ändern.
 
-Weitere Informationen zu Abrechnungssätzen und Umsatz finden Sie im Artikel [Übersicht über Abrechnung und Umsatz](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Weitere Informationen zu Abrechnungssätzen und Umsatz finden Sie unter [Übersicht über Abrechnung und Umsatz](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 Die Umsatzraten können sich auf den folgenden Ebenen ändern:
 
 * Systemebene (für Aufgabengebiete)\
-  Weitere Informationen zum Erstellen von Aufgabengebieten mit Abrechnungssätzen auf Systemebene finden Sie im Artikel [Erstellen und Verwalten von Aufgabengebieten](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  Weitere Informationen zum Erstellen von Aufgabengebieten mit Abrechnungssätzen auf Systemebene finden Sie unter [Erstellen und Verwalten von Aufgabengebieten](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 * Die Benutzerebene\
-  Weitere Informationen zum Ändern der Abrechnungssatzinformationen für Benutzer finden Sie im Artikel [Bearbeiten des Benutzerprofils](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Weitere Informationen zum Ändern der Abrechnungssatzinformationen für Benutzer finden Sie unter [Bearbeiten des Benutzerprofils](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * Auf Unternehmensebene (für Aufgabengebiete)\
   Weitere Informationen finden Sie unter [Überschreiben von Abrechnungssätzen für Aufgabengebiete auf Unternehmensebene](../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
-* Die Projektebene (für Aufgabengebiete)\
-  Weitere Informationen zum Überschreiben von Abrechnungssätzen für Aufgabengebiete auf Projektebene finden Sie im Artikel [Übersicht über das Überschreiben von Abrechnungssätzen und die Berechnung des Umsatzes für ein Projekt](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+* Die Tarifkartenebene
+Weitere Informationen zu Tarifkarten finden Sie unter [Tarifkarten verwalten](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
+
+* Die Projektebene (für Aufgabengebiete, Benutzer und Tarifkarten)\
+  Weitere Informationen zum Überschreiben von Sätzen auf Projektebene finden Sie unter [Übersicht über das Überschreiben von Abrechnungssätzen und die Berechnung des Umsatzes für ein Projekt](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 Beispielsweise ändert sich der Abrechnungssatz eines Benutzers während eines Projekts von 50 $ auf 75 $ pro Stunde, und Sie möchten, dass alle vorhandenen Daten mit dem alten Satz (50 $ und Stunde) berechnet werden. Wenn die Projektfinanzen jedoch neu berechnet werden, wird der Umsatz von Aufgaben, für die bereits Finanzdaten vorhanden sind, aktualisiert, um den neuen Abrechnungssatz (von 75 USD pro Stunde) widerzuspiegeln.
 
@@ -106,13 +109,13 @@ Wenn sich die Abrechnungssätze auf einer der oben genannten Ebenen ändern, kö
 
 Wenn Sie die Finanzierungsdaten für das Projekt nicht neu berechnen oder wenn Sie die Stunden, die in einem abgerechneten Abrechnungs-Datensatz erfasst sind, sperren, werden die Stunden, die nach den Tarifänderungen protokolliert werden, mit dem neuen Satz berechnet, und die Stunden, die protokolliert werden, bevor die Änderungen des Kostensatzes vorgenommen werden, bleiben mit dem alten Satz berechnet.
 
-Weitere Informationen zum Erstellen von Rechnungsnachweisen finden Sie im Artikel [Erstellen von Rechnungsnachweisen](../../../manage-work/projects/project-finances/create-billing-records.md).
+Weitere Informationen zum Erstellen von Rechnungsnachweisen finden Sie unter [Rechnungsnachweise erstellen](../../../manage-work/projects/project-finances/create-billing-records.md).
 
 #### Projektumsatz durch Verwendung mehrerer Abrechnungssatz-Überschreibungen beibehalten {#preserve-project-revenue-by-using-multiple-billing-rate-overrides}
 
 Wenn sich Abrechnungssätze für Aufgabengebiete auf Projektebene ändern, können Sie den vorhandenen Umsatz, der bereits für das Projekt berechnet wurde, beibehalten, indem Sie Überschreibungen mehrerer Abrechnungssätze verwenden, die innerhalb eines bestimmten Zeitraums gesperrt werden.
 
-Weitere Informationen zur Verwendung mehrerer Abrechnungssatzüberschreibungen finden Sie im Artikel [Übersicht über das Überschreiben von Abrechnungssätzen und die Berechnung des Umsatzes für ein Projekt](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Weitere Informationen zur Verwendung mehrerer Abrechnungssatzüberschreibungen finden Sie unter [Übersicht über das Überschreiben von Abrechnungssätzen und die Berechnung des Umsatzes für ein Projekt](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 >[!NOTE]
 >
@@ -123,12 +126,15 @@ Weitere Informationen zur Verwendung mehrerer Abrechnungssatzüberschreibungen f
 Die Kostensätze können sich auf folgenden Ebenen ändern:
 
 * Systemebene (für Aufgabengebiete)\
-  Weitere Informationen zum Erstellen von Aufgabengebieten mit Kostensätzen auf Systemebene finden Sie im Artikel [Erstellen und Verwalten von Aufgabengebieten](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  Weitere Informationen zum Erstellen von Aufgabengebieten mit Kostensätzen auf Systemebene finden Sie unter [Erstellen und Verwalten von Aufgabengebieten](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 * Benutzerebene\
-  Weitere Informationen zum Ändern der Kostensatzinformationen für Benutzer finden Sie im Artikel [Bearbeiten des Benutzerprofils](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  Weitere Informationen zum Ändern der Kostensatzinformationen für Benutzer finden Sie unter [Bearbeiten des Benutzerprofils](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-Wenn sich die Verrechnungssätze auf einer der oben genannten Ebenen ändern, können Sie bestehende Kosten, die bereits für das Projekt berechnet wurden, beibehalten, indem Sie die im Projekt aufgezeichnete Zeit, die mithilfe des alten Satzes berechnet wurde, in einen Verrechnungsdatensatz mit dem Status In Rechnung gestellt sperren. Weitere Informationen zum Erstellen von Rechnungsnachweisen finden Sie im Artikel [Erstellen von Rechnungsnachweisen](../../../manage-work/projects/project-finances/create-billing-records.md).
+* Projektebene (für Benutzer)
+Weitere Informationen zum Überschreiben von Benutzerkostensätzen finden Sie unter [Überschreiben von Benutzerkostensätzen auf Projektebene](/help/quicksilver/manage-work/projects/project-finances/override-user-cost-rates.md).
+
+Wenn sich die Verrechnungssätze auf einer der oben genannten Ebenen ändern, können Sie bestehende Kosten, die bereits für das Projekt berechnet wurden, beibehalten, indem Sie die im Projekt aufgezeichnete Zeit, die mithilfe des alten Satzes berechnet wurde, in einen Verrechnungsdatensatz mit dem Status In Rechnung gestellt sperren. Weitere Informationen zum Erstellen von Rechnungsnachweisen finden Sie unter [Rechnungsnachweise erstellen](../../../manage-work/projects/project-finances/create-billing-records.md).
 
 Sie können auch vermeiden, die Option „Finanzen manuell neu berechnen“ zu verwenden, wenn Sie keinen Rechnungsnachweis erstellen möchten, wie im Abschnitt [Finanzen für ein Projekt manuell neu berechnen](#manually-recalculate-finances-for-a-project) in diesem Artikel beschrieben.
 
@@ -144,17 +150,17 @@ Wenn sich Ihre Sätze während der Laufzeit eines Projekts ändern und Ihre Kost
 
 Sie können die Finanzen von Projekten in Workfront auf der Projektseite oder in einer Projektliste oder einem Bericht neu berechnen.
 
-Sie können die Finanzen neu berechnen, während Sie sie stapelweise bearbeiten. Weitere Informationen finden Sie im Abschnitt [Manuelles Neuberechnen der Finanzen in &#x200B;](#manually-recalculate-finances-in-bulk)) in diesem Artikel.
+Sie können die Finanzen neu berechnen, während Sie sie stapelweise bearbeiten. Weitere Informationen finden Sie im Abschnitt [Manuelles Neuberechnen der Finanzen in ](#manually-recalculate-finances-in-bulk)) in diesem Artikel.
 
-1. Wechseln Sie zu dem Projekt, für das Sie die Finanzen neu berechnen möchten, und klicken Sie auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/qs-more-icon-on-an-object.png) rechts neben dem Projektnamen.
+1. Wechseln Sie zu dem Projekt, für das Sie die Finanzen neu berechnen möchten, und klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/qs-more-icon-on-an-object.png) rechts neben dem Projektnamen.
 
-   ![Dropdown „Mehr“ auf Projektebene](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![Dropdown „Mehr“ auf Projektebene](assets/project-level-more-dropdown.png)
 
    ODER
 
    Gehen Sie zu einer Projektliste oder einem Bericht, wählen Sie ein oder mehrere Projekte aus und klicken Sie dann oben in der Liste auf das **Mehr**-Symbol ![](assets/qs-more-icon-on-an-object.png)Mehr Menü).
 
-   ![Ausdrücke neu &#x200B;](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Finanzen neu ](assets/recalculate-expressions-timeline-finance.png)
 
    >[!TIP]
    >
@@ -180,7 +186,7 @@ So berechnen Sie die Finanzen mehrerer Projekte manuell neu:
 1. Zu einer Projektliste gehen.
 1. Wählen Sie mehrere Projekte in der Liste aus und klicken Sie dann oben in der Liste auf **Mehr**-Symbol ![](assets/qs-more-icon-on-an-object.png)Mehr Menü).
 
-   ![Ausdrücke neu &#x200B;](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Finanzen neu ](assets/recalculate-expressions-timeline-finance.png)
 
    >[!TIP]
    >

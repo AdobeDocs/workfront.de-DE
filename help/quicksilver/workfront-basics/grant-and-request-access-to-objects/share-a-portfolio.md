@@ -4,10 +4,10 @@ description: Sie können ein Portfolio für andere Benutzer freigeben, wenn Sie 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: ddaecaf65fc7080e27ae67d6c8f4980586f1241e
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 7%
+source-wordcount: '914'
+ht-degree: 6%
 
 ---
 
@@ -162,5 +162,11 @@ Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern erteilen können
 | Aktualisierungen/Kommentare | ✓ | ✓ |
 | Freigeben | ✓ | ✓ |
 | Systemweit freigeben |   | ✓ |
+| Abrechnungssätze bearbeiten&#42; | ✓ |   |
+| Kostensätze bearbeiten&#42; | ✓ |   |
+| Allgemeine Finanzen bearbeiten&#42; | ✓ |   |
+| Abrechnungssätze anzeigen&#42; | ✓ | ✓ |
+| Kostensätze anzeigen&#42; | ✓ | ✓ |
+| Allgemeine Finanzen anzeigen&#42; | ✓ | ✓ |
 
 *Diese Berechtigungen werden durch die Zugriffsebene und Berechtigungen für andere Objekte wie Projekte, Programme und Dokumente gesteuert.

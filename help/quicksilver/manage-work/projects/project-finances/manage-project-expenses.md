@@ -6,14 +6,14 @@ description: Der Prozess zum Erstellen und Verwalten von Ausgaben ist für Proje
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: f8e869f1ce8127d6ee095a58c84a94915df3acab
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 1%
+source-wordcount: '496'
+ht-degree: 9%
 
 ---
 
-# Projektkosten verwalten
+# Verwalten der Projektausgaben
 
 <!-- Audited: 6/2025 -->
 
@@ -23,7 +23,7 @@ Der Gesamtbetrag Ihrer Ausgaben aus allen Aufgaben und Projekten trägt zu den G
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +37,7 @@ Der Gesamtbetrag Ihrer Ausgaben aus allen Aufgaben und Projekten trägt zu den G
    <td>Adobe Workfront-Lizenz</td> 
    <td>
    <p>Standard</p>
-   <p>Arbeit oder höher</p></td> 
+   <p>Work oder höher</p></td> 
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -45,12 +45,12 @@ Der Gesamtbetrag Ihrer Ausgaben aus allen Aufgaben und Projekten trägt zu den G
   </tr> 
   <tr> 
    <td>Objektberechtigungen</td> 
-   <td>Tragen Sie Berechtigungen oder höhere Berechtigungen zum Projekt bei, mit Berechtigungen zum Anzeigen oder Verwalten von Finanzdaten</td> 
+   <td>Tragen Sie Berechtigungen oder höhere Berechtigungen zum Projekt bei, mit Berechtigungen zum Anzeigen oder Bearbeiten der allgemeinen Finanzen</td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

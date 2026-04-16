@@ -6,14 +6,14 @@ description: Sie können die Finanzinformationen eines Projekts anzeigen oder be
 author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '1275'
-ht-degree: 4%
+source-wordcount: '1277'
+ht-degree: 6%
 
 ---
 
-# Verwalten von Informationen im Projektfinanzierungsbereich
+# Verwalten von Informationen im Bereich für Projektfinanzen
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)</p>
@@ -45,12 +45,12 @@ Sie können die Finanzinformationen eines Projekts anzeigen oder bearbeiten, ind
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von Berechtigungen für ein Projekt oder höher, die Berechtigungen zum Anzeigen von Finanzdaten enthalten</p> <p>Verwalten Sie Berechtigungen für das Projekt, einschließlich Verwalten von Finanzinformationen zum Bearbeiten von Finanzinformationen für das Projekt</p> </td> 
+   <td> <p>Anzeigen von Berechtigungen für ein Projekt oder höher, die die Berechtigung „Allgemeine Finanzen anzeigen“ enthalten</p> <p>Verwalten Sie Berechtigungen für das Projekt, einschließlich „Allgemeine Finanzen bearbeiten“, um Finanzinformationen für das Projekt zu bearbeiten</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -128,14 +128,6 @@ Beachten Sie beim Anzeigen oder Bearbeiten von Informationen im Bereich „Finan
      <tr> 
       <td role="rowheader">In Rechnung gestellte Einnahmen</td> 
       <td> <p>Einnahmen, die Kunden oder anderen Parteien in Rechnung gestellt werden und in Rechnungsnachweisen erfasst werden. Weitere Informationen zu Rechnungsnachweisen finden Sie im Artikel <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">Rechnungsnachweise erstellen</a>. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"> </td> 
-      <td> </td> 
      </tr> 
     </tbody> 
    </table>

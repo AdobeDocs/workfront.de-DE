@@ -1,19 +1,19 @@
 ---
 product-area: projects
 navigation-topic: financials
-title: Abrechnungssätze auf Projektebene mit Abrechnungssätzen auf Firmenebene überschreiben
-description: Abrechnungssätze auf Projektebene mit Abrechnungssätzen auf Firmenebene überschreiben
+title: Überschreiben der Abrechnungssätze auf Projektebene mit Abrechnungssätzen auf Firmenebene
+description: Überschreiben der Abrechnungssätze auf Projektebene mit Abrechnungssätzen auf Firmenebene
 author: Lisa
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: f8e869f1ce8127d6ee095a58c84a94915df3acab
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 2%
+source-wordcount: '457'
+ht-degree: 14%
 
 ---
 
-# Abrechnungssätze auf Projektebene mit Abrechnungssätzen auf Firmenebene überschreiben
+# Überschreiben der Abrechnungssätze auf Projektebene mit Abrechnungssätzen auf Firmenebene
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: THIS IS LINKED TO THE UI IN THE EDIT PROJECT MODAL)</p>
@@ -23,7 +23,7 @@ Sie können ein Projekt so konfigurieren, dass Abrechnungssätze auf Firmenebene
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +37,7 @@ Sie können ein Projekt so konfigurieren, dass Abrechnungssätze auf Firmenebene
    <td>Adobe Workfront-Lizenz</td> 
    <td>
    <p>Standard</p>
-   <p>Plan</p></td> 
+   <p>Abo</p></td> 
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -45,12 +45,12 @@ Sie können ein Projekt so konfigurieren, dass Abrechnungssätze auf Firmenebene
   </tr> 
   <tr> 
    <td>Objektberechtigungen</td> 
-   <td>Verwalten von Berechtigungen für das Projekt mit Berechtigungen zum Verwalten von Finanzen</td> 
+   <td>Verwalten Sie die Berechtigungen für das Projekt mit den Berechtigungen zum Bearbeiten von Abrechnungssätzen und allgemeiner Finanzen.</td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
