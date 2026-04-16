@@ -77,7 +77,7 @@ Die Markierung kann für ein Projekt aktiviert werden, wenn die Arbeit begonnen 
 >Sobald die Markierung aktiviert ist, um die Verrechnungssätze beizubehalten, kann sie nicht mehr deaktiviert werden, es sei denn, das Projekt verfügt über keine Zuweisungen und keine Stunden. Dadurch wird sichergestellt, dass alle Finanzberichte die tatsächlichen vertraglichen Kurse widerspiegeln.
 >Wenn die Markierung deaktiviert ist, können die Abrechnungssätze vom System neu berechnet oder dynamisch angepasst werden. Jegliche Aktualisierungen der Rolle, des Gehalts oder des Abrechnungssatzes des Benutzers werden sofort im Abrechnungssatz für die Zuweisung angezeigt.
 
-Weitere Informationen finden Sie unter [Projekte ](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) und [Tarifkarten verwalten](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
+Weitere Informationen finden Sie unter [Projekte &#x200B;](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) und [Tarifkarten verwalten](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
 
 ## Geplanter Umsatz - Benutzer und Funktion pro Stunde
 

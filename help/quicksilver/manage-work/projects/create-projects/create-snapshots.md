@@ -83,10 +83,10 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    * Probleme
    * Abrechnungssätze
    * Abrechnungseinträge
-   * <!--* Bookings (on its own line of course when they get released)-->
+   * &#x200B;<!--* Bookings (on its own line of course when they get released)-->
    * Projektteam (Registerkarte „Personen„)
 
-   Sie können alle Listen im Schnappschuss anpassen, indem Sie Spalten filtern, sortieren, hinzufügen und entfernen oder eine Ansicht anwenden. Es stehen zeitphasengesteuerte KPIs zur Verfügung, die der Schnappschussansicht hinzugefügt werden können. Weitere Informationen finden Sie unter [Anpassen von ](#customize-snapshot-lists)) in diesem Artikel.
+   Sie können alle Listen im Schnappschuss anpassen, indem Sie Spalten filtern, sortieren, hinzufügen und entfernen oder eine Ansicht anwenden. Es stehen zeitphasengesteuerte KPIs zur Verfügung, die der Schnappschussansicht hinzugefügt werden können. Weitere Informationen finden Sie unter [Anpassen von &#x200B;](#customize-snapshot-lists)) in diesem Artikel.
 
 ## Momentaufnahmen vergleichen
 
@@ -104,7 +104,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    ![Snapshot-Vergleichsbildschirm](assets/snapshot-comparison.png)
 
-1. Sie können den Vergleich anpassen, indem Sie sortieren, Spalten hinzufügen und entfernen oder eine Ansicht anwenden. Weitere Informationen finden Sie unter [Anpassen von ](#customize-snapshot-lists)) in diesem Artikel.
+1. Sie können den Vergleich anpassen, indem Sie sortieren, Spalten hinzufügen und entfernen oder eine Ansicht anwenden. Weitere Informationen finden Sie unter [Anpassen von &#x200B;](#customize-snapshot-lists)) in diesem Artikel.
 
 ## Schnappschüsse exportieren
 
