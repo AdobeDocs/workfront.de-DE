@@ -9,16 +9,14 @@ role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '4076'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
 # Bearbeiten von Aufgaben
-
-{{highlighted-preview}}
 
 <!--Audited: 10/2025-->
 
@@ -195,7 +193,7 @@ Sie können eine Aufgabe über die Bereiche Aufgabe bearbeiten oder Aufgabendeta
    Gehen Sie wie folgt vor, um Informationen im Abschnitt Details zu bearbeiten:
 
    1. (Optional) Klicken Sie auf das Symbol **Alle reduzieren** ![Symbol Alle reduzieren](assets/collapse-all-icon.png) in der oberen rechten Ecke, um alle Bereiche zu reduzieren.
-   1. (Optional und bedingt) Wenn ein Bereich reduziert ist, klicken Sie auf den **Nach rechts zeigenden** Nach ![&#x200B; rechts zeigenden Pfeil](assets/right-pointing-arrow.png) neben jedem Bereich, um den Bereich zu erweitern, den Sie bearbeiten möchten.
+   1. (Optional und bedingt) Wenn ein Bereich reduziert ist, klicken Sie auf den **Nach rechts zeigenden** Nach ![ rechts zeigenden Pfeil](assets/right-pointing-arrow.png) neben jedem Bereich, um den Bereich zu erweitern, den Sie bearbeiten möchten.
    1. Weitere Informationen zum Bearbeiten von Informationen auf der Registerkarte „Aufgabendetails“ finden Sie in den folgenden Artikeln:
 
       * [Verwalten von Aufgabeninformationen im Bereich Aufgabendetails - Übersicht](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
@@ -563,7 +561,7 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
 
 ### Finanzielle Details {#finance}
 
-1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [&#x200B; Abschnitt &#x200B;](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
+1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [ Abschnitt ](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
 1. Klicken Sie **linken** auf „Finanzen“.
 
    ![Feld für die Aufgabenbearbeitung im Finanzbereich](assets/nwe-finance-section-edit-task-box-350x298.png)
@@ -582,7 +580,7 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
         <li> <p>Festgelegt pro Stunde </p> </li> 
         <li> <p> Benutzer pro Stunde </p> </li> 
         <li> <p> Stundensatz nach Funktion</p> </li> 
-        <li> <p> <span class="preview">Benutzer und Funktion stündlich</span></p> </li> 
+        <li> <p> Stundensatz nach Benutzerin bzw. Benutzer und Rolle</p> </li> 
        </ul> <p>Weitere Informationen zur Kostennachverfolgung finden Sie unter <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Kosten nachverfolgen</a> . Ihr Workfront-Administrator oder ein Gruppenadministrator wählt die Standardkostenart für die Aufgaben in Ihrem System oder Ihrer Gruppe aus. Informationen zum Festlegen von Projektstandards finden Sie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurieren von systemweiten Projektvoreinstellungen</a> .</p> </td> 
      </tr> 
      <tr> 
@@ -592,25 +590,25 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
       <li> <p> Nicht fakturierbar </p> </li> 
       <li> <p>Benutzer pro Stunde </p> </li> 
       <li> <p>Stundensatz nach Funktion </p> </li> 
-      <li> <p> <span class="preview">Benutzer und Funktion stündlich</span></p> </li> 
+      <li> <p>Stundensatz nach Benutzerin bzw. Benutzer und Rolle</p> </li> 
       <li> <p>Festgelegt pro Stunde </p> </li> 
       <li> <p>Benutzende pro Stunde mit Begrenzung </p> </li> 
       <li> <p>Stundensatz nach Funktion mit Begrenzung </p> </li> 
-      <li> <p> <span class="preview">Benutzer und Funktion stündlich mit Obergrenze</span></p> </li> 
+      <li> <p>Benutzer und Funktion stündlich mit Obergrenze</p> </li> 
       <li> <p>Benutzer pro Stunde plus festgelegt </p> </li> 
       <li> <p>Stundensatz nach Funktion plus fest </p> </li> 
-      <li> <p> <span class="preview">Benutzer und Funktion pro Stunde plus fest</span></p> </li> 
+      <li> <p>Stundensatz nach Benutzerin bzw. Benutzer und Rolle plus Festbetrag</p> </li> 
       <li> <p>Festeinnahmen </p> </li> 
        </ul> <p>Weitere Informationen zur Umsatzverfolgung finden Sie unter <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Übersicht über Abrechnung und Umsatz</a> und <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Übersicht über Umsatz- und </a>). </p> <p>Ihr Workfront-Administrator oder Gruppenadministrator wählt die Standardeinstellung für den Umsatztyp für die Aufgaben in Ihrem System oder Ihrer Gruppe aus. Informationen zum Festlegen von Projektstandards finden Sie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurieren von systemweiten Projektvoreinstellungen</a>.</p> </td> 
      </tr> 
      <tr>
-      <td><span class="preview">Überstundenverhältnis</span></td> 
-      <td><span class="preview"><p>Geben Sie den Überstundenmultiplikator für die Aufgabe ein, z. B. 1.5 oder 2.0. Der Standardwert ist 1,0 (kein Multiplikator). Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">Definieren eines Überstundenverhältnisses</a>.</p><p>So zeigen Sie das Feld Überstundenverhältnis an:</p>
+      <td>Überstundenverhältnis</td> 
+      <td><p>Geben Sie den Überstundenmultiplikator für die Aufgabe ein, z. B. 1.5 oder 2.0. Der Standardwert ist 1,0 (kein Multiplikator). Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">Definieren eines Überstundenverhältnisses</a>.</p><p>So zeigen Sie das Feld Überstundenverhältnis an:</p>
        <ul>
        <li>Der Umsatztyp für die Aufgabe muss „Stündlich Benutzer und Funktion“ lauten. Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Übersicht über Umsatz und Kostenhierarchie</a>.</li>
        <li>Das Feld muss in Ihrer Layoutvorlage für den Bereich Finanzen in der Ansicht „Aufgabendetails“ aktiviert sein. Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md">Anpassen der Detailansicht mithilfe einer Layout-Vorlage</a>.</li>
        </ul>
-      </span></td>
+      </td>
      </tr>
     </tbody> 
    </table>
@@ -619,7 +617,7 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
 
 ### Einstellungen {#settings}
 
-1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [&#x200B; Abschnitt &#x200B;](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
+1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [ Abschnitt ](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
 1. Klicken Sie **linken** auf „Einstellungen“.
 
    ![Einstellungen im Feld Aufgabe bearbeiten](assets/nwe-settings-section-edit-task-box-350x304.png)
@@ -685,7 +683,7 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
 
 ### Kommentar
 
-1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [&#x200B; Abschnitt &#x200B;](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
+1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [ Abschnitt ](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
 1. Klicken Sie **linken** auf „Kommentar“.
 
    ![Kommentarabschnitt zum Feld „Aufgabe bearbeiten“](assets/comment-section-on-edit-task-box.png)

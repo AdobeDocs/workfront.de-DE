@@ -7,7 +7,8 @@ description: Eine Tarifkarte stellt die vertragliche Vereinbarung mit Ihrem Kund
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 38441ec5ae6fd8cf5c79f939403d5966c5616c98
+exl-id: c38e60dd-7fb2-4afc-976a-b0966398c162
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '274'
 ht-degree: 10%
@@ -15,8 +16,6 @@ ht-degree: 10%
 ---
 
 # Änderungen der Push-Rate an Projekten
-
-{{highlighted-preview-article-level}}
 
 Wenn eine Tarifkarte an eine <!--or a staffing plan--> angehängt wird, können die Tarife auf der Tarifkarte weiterhin angepasst werden. Anschließend können Sie diese Tarife optional an die Projekte pushen, <!--and staffing plans --> denen die Tarifkarte angehängt ist. Wenn Sie die neuen Sätze nicht überweisen, bleiben die ursprünglichen Sätze im Projekt<!-- or staffing plan-->.
 

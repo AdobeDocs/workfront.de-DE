@@ -8,7 +8,7 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: b16523bf6c37747702efe3b5ecfcc33801526af1
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 6%
@@ -20,8 +20,6 @@ ht-degree: 6%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">*** DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
-
-{{highlighted-preview}}
 
 Als Adobe Workfront-Administrator können Sie in Workfront Wechselkurse einrichten. Dazu gehört Folgendes:
 
@@ -83,7 +81,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um die Basiswährung (Standard) zu ändern:
 
    * Aktivieren Sie das Kontrollkästchen neben dem Währungsnamen und wählen Sie **Standard festlegen** in der Aktionsleiste am unteren Bildschirmrand aus.
-   * Bewegen Sie den Mauszeiger über den Währungsnamen und klicken Sie auf das **&#x200B;**&#x200B;Mehr. Wählen Sie dann **Als Standard festlegen** aus.
+   * Bewegen Sie den Mauszeiger über den Währungsnamen und klicken Sie auf das **** Mehr. Wählen Sie dann **Als Standard festlegen** aus.
 
      Die neue Standardwährung wird mit dem Symbol ![Standardwährungssymbol](assets/default-icon.png) aktualisiert.
 
@@ -92,8 +90,6 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
      >Die Standardwährung wird immer zuerst in der Liste angezeigt, unabhängig davon, wie die Liste sortiert ist.
 
 1. (Optional) Um eine Währung zu löschen, aktivieren Sie das Kontrollkästchen neben dem Währungsnamen und wählen **Löschen** in der Aktionsleiste am unteren Bildschirmrand. Die Standardwährung kann nicht gelöscht werden.
-
-<div class="preview">
 
 ## Festlegen eines effektiven Datums für die Wechselkurse einer Währung
 
@@ -117,8 +113,6 @@ Termine für die Wechselkurse einer Währung sind so konfiguriert, dass ein Kurs
 1. (Optional) Klicken Sie auf **Gültigkeitsdatum hinzufügen**, um weitere Wechselkurse mit Gültigkeitsdaten für diese Währung hinzuzufügen.
 1. Klicken Sie auf **Speichern**.
 
-</div>
-
 ## Benutzern ermöglichen, die Standardwährung für ein Projekt zu ändern
 
 Benutzer können die Standardwährung für ein Projekt ändern, wenn die folgenden Bedingungen erfüllt sind:
@@ -129,7 +123,7 @@ Benutzer können die Standardwährung für ein Projekt ändern, wenn die folgend
 
 * Auf dem Workfront-System ist mehr als eine Währung aktiviert.
 
-Informationen dazu, wie Benutzer die Standardwährung für ein bestimmtes Projekt ändern können, finden Sie unter [Ändern der &#x200B;](../../../manage-work/projects/project-finances/change-project-currency.md).
+Informationen dazu, wie Benutzer die Standardwährung für ein bestimmtes Projekt ändern können, finden Sie unter [Ändern der ](../../../manage-work/projects/project-finances/change-project-currency.md).
 
 ## Benutzern ermöglichen, die Standardwährung für ein Aufgabengebiet zu ändern
 

@@ -5,7 +5,7 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
-source-git-commit: 58d3f084c343bcc404f30edd270017fa5f86eb58
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 8%
@@ -13,8 +13,6 @@ ht-degree: 8%
 ---
 
 # Anfügen einer Tarifkarte an ein Projekt
-
-{{highlighted-preview-article-level}}
 
 Tarifkarten speichern mehrere Abrechnungssätze pro Aufgabengebiet, basierend auf Attributen. Sie könnten beispielsweise für Designer in Paris ein Aufgabengebiet für Agency A, für Agency B ein anderes Designer in Paris und für Agency B ein drittes Designer in New York haben, das keiner Agency zugewiesen ist, die jeweils unterschiedliche Abrechnungssätze aufweisen. Für Aufgabengebiete auf einer Tarifkarte sind jedoch keine Attribute erforderlich. Die Attribute dienen als Werkzeuge zur Festlegung detaillierterer Raten. Ein Abrechnungssatz auf einer Tarifkarte kann auch ein Gültigkeitsdatum sein, sodass der Satz an einem bestimmten Datum beginnt und endet.
 

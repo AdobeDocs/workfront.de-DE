@@ -9,9 +9,9 @@ feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
-source-wordcount: '2958'
+source-wordcount: '3008'
 ht-degree: 7%
 
 ---
@@ -52,8 +52,9 @@ Sie können jeweils nur eine Vorlagenaufgabe bearbeiten oder Vorlagenaufgaben st
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Paket</td> 
-   <td> <p>Beliebig</p> </td> 
-  </tr> 
+   <td>  <p>So verwenden Sie die stündlichen Umsatz- und Kostentypen für Benutzer und Funktionen: Workflow-Ultimate</p>
+      <p>So bearbeiten Sie alle anderen Einstellungen und verwenden alle anderen Umsatz- und Kostentypen: Beliebiges Workfront- oder Workflow-Paket</p>  </td> 
+  </tr>
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p>
@@ -439,6 +440,7 @@ Namen von benutzerdefinierten Formularen werden nur angezeigt, wenn der Vorlagen
         <li> <p style="font-weight: normal;"><span>Festgelegt pro Stunde</span> </p> </li> 
         <li> <p style="font-weight: normal;"><span>Benutzer pro Stunde</span> </p> </li> 
         <li> <p style="font-weight: normal;"><span>Stundensatz nach Funktion</span> </p> </li> 
+        <li> <p style="font-weight: normal;">Stundensatz nach Benutzerin bzw. Benutzer und Rolle</p> </li>
        </ul> <p>Weitere Informationen zur Kostennachverfolgung finden Sie unter <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Kosten nachverfolgen</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -448,11 +450,14 @@ Namen von benutzerdefinierten Formularen werden nur angezeigt, wenn der Vorlagen
         <li> <p style="font-weight: normal;">Nicht fakturierbar</p> </li> 
         <li> <p style="font-weight: normal;">Benutzer pro Stunde</p> </li> 
         <li> <p style="font-weight: normal;">Stundensatz nach Funktion</p> </li> 
+        <li> <p style="font-weight: normal;">Stundensatz nach Benutzerin bzw. Benutzer und Rolle</p> </li>
         <li> <p style="font-weight: normal;">Festgelegt pro Stunde</p> </li> 
         <li> <p style="font-weight: normal;">Benutzende pro Stunde mit Begrenzung</p> </li> 
         <li> <p style="font-weight: normal;">Stundensatz nach Funktion mit Begrenzung</p> </li> 
+        <li> <p style="font-weight: normal;">Stundensatz nach Benutzerin bzw. Benutzer und Rolle mit Höchstbetrag</p> </li>
         <li> <p style="font-weight: normal;">Benutzer pro Stunde plus festgelegt</p> </li> 
         <li> <p style="font-weight: normal;">Stundensatz nach Funktion plus fest</p> </li> 
+        <li> <p style="font-weight: normal;">Stundensatz nach Benutzerin bzw. Benutzer und Rolle plus Festbetrag</p> </li>
         <li> <p style="font-weight: normal;">Festeinnahmen</p> </li> 
        </ul> <p>Weitere Informationen zur Umsatzverfolgung finden Sie unter <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Übersicht über Abrechnung und Umsatz</a>.</p> </td> 
      </tr> 

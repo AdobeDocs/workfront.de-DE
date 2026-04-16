@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 54ae48e5-bc8c-4e90-8fa1-0015523df4e6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '987'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -20,8 +20,6 @@ ht-degree: 8%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: some of the information (fields) in this article is also in the Edit tasks article; if you need to update one field, to it in both articles)</p>
 -->
-
-{{highlighted-preview}}
 
 Sie können die Finanzinformationen einer Aufgabe anzeigen oder bearbeiten, indem Sie auf den Bereich Übersicht des Abschnitts Aufgabendetails zugreifen. Es gibt eine begrenzte Anzahl von Feldern, die Sie in diesem Bereich anzeigen oder bearbeiten können.
 
@@ -124,7 +122,7 @@ Old:
         <li> <p>Festgelegt pro Stunde </p> </li> 
         <li> <p> Benutzer pro Stunde </p> </li> 
         <li> <p> Stundensatz nach Funktion</p> </li> 
-        <li> <p> <span class="preview">Benutzer und Funktion stündlich</span></p> </li> 
+        <li> <p>Stundensatz nach Benutzerin bzw. Benutzer und Rolle</p> </li> 
        </ul> <p>Weitere Informationen zur Kostennachverfolgung finden Sie unter <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Kosten nachverfolgen</a> . Ihr Workfront-Administrator oder ein Gruppenadministrator wählt die Standardkostenart für die Aufgaben in Ihrem System oder Ihrer Gruppe aus. Informationen zum Festlegen von Projektstandards finden Sie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurieren von systemweiten Projektvoreinstellungen</a> .</p> </td> 
      </tr> 
      <tr> 
@@ -134,14 +132,14 @@ Old:
         <li> <p> Nicht fakturierbar </p> </li> 
         <li> <p>Benutzer pro Stunde </p> </li> 
         <li> <p>Stundensatz nach Funktion </p> </li> 
-        <li> <p> <span class="preview">Benutzer und Funktion stündlich</span></p> </li>
+        <li> <p>Stundensatz nach Benutzerin bzw. Benutzer und Rolle</p> </li>
         <li> <p>Festgelegt pro Stunde </p> </li> 
         <li> <p>Benutzende pro Stunde mit Begrenzung </p> </li> 
         <li> <p>Stundensatz nach Funktion mit Begrenzung </p> </li>
-        <li> <p> <span class="preview">Benutzer und Funktion stündlich mit Obergrenze</span></p> </li> 
+        <li> <p>Benutzer und Funktion stündlich mit Obergrenze</p> </li> 
         <li> <p>Benutzer pro Stunde plus festgelegt </p> </li> 
         <li> <p>Stundensatz nach Funktion plus fest </p> </li> 
-        <li> <p> <span class="preview">Benutzer und Funktion pro Stunde plus fest</span></p> </li>
+        <li> <p>Stundensatz nach Benutzerin bzw. Benutzer und Rolle plus Festbetrag</p> </li>
         <li> <p>Festeinnahmen </p> </li> 
        </ul> <p>Weitere Informationen zur Umsatzverfolgung finden Sie unter <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Übersicht über Abrechnung und Umsatz</a> und <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Übersicht über Umsatz und Kostenhierarchie</a>. </p> <p>Ihr Workfront-Administrator oder Gruppenadministrator wählt die Standardeinstellung für den Umsatztyp für die Aufgaben in Ihrem System oder Ihrer Gruppe aus. Informationen zum Festlegen von Projektstandards finden Sie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurieren von systemweiten Projektvoreinstellungen</a>.</p> </td> 
      </tr> 
@@ -162,13 +160,13 @@ Old:
       <td> <p>Hierbei handelt es sich um eine Berechnung, die den mit der Aufgabe verbundenen Umsatz basierend auf den tatsächlichen Stunden, dem Umsatztyp und dem Stundensatz für Benutzer oder Aufgabengebiete anzeigt. Weitere Informationen zur Kostennachverfolgung finden Sie unter <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Kosten nachverfolgen</a>.</p> </td> 
      </tr> 
      <tr>
-      <td><span class="preview">Überstundenverhältnis</span></td> 
-      <td><span class="preview"><p>Geben Sie den Überstundenmultiplikator für die Aufgabe ein, z. B. 1.5 oder 2.0. Der Standardwert ist 1,0 (kein Multiplikator). Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">Definieren eines Überstundenverhältnisses</a>.</p><p>So zeigen Sie das Feld Überstundenverhältnis an:</p>
+      <td>Überstundenverhältnis</td> 
+      <td><p>Geben Sie den Überstundenmultiplikator für die Aufgabe ein, z. B. 1.5 oder 2.0. Der Standardwert ist 1,0 (kein Multiplikator). Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/projects/project-finances/define-overtime-ratio.md">Definieren eines Überstundenverhältnisses</a>.</p><p>So zeigen Sie das Feld Überstundenverhältnis an:</p>
        <ul>
        <li>Der Umsatztyp für die Aufgabe muss „Stündlich Benutzer und Funktion“ lauten. Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md">Übersicht über Umsatz und Kostenhierarchie</a>.</li>
        <li>Das Feld muss in Ihrer Layoutvorlage für den Bereich Finanzen in der Ansicht „Aufgabendetails“ aktiviert sein. Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md">Anpassen der Detailansicht mithilfe einer Layout-Vorlage</a>.</li>
        </ul>
-      </span></td>
+      </td>
      </tr>
      <tr> 
       <td role="rowheader">CPI/SPI/CSI</td> 

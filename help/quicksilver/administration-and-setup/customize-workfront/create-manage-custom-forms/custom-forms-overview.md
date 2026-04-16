@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 34c63e1b7d6323a4cf25514aaff9f923010d8958
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 20%
+source-wordcount: '390'
+ht-degree: 22%
 
 ---
 
 # Übersicht über benutzerdefinierte Formulare
-
-{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -33,17 +31,7 @@ Der Formular-Designer verfügt über einen Arbeitsbereich im Arbeitsbereich-Stil
 
 Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-<div class="preview">
-
-Beispielbild in der Vorschau-Umgebung:
-
 ![Beispiel für Formular-Designer](assets/form-designer-example-032526.png)
-
-</div>
-
-Beispielbild in der Produktionsumgebung:
-
-![Beispiel für Formular-Designer](assets/form-designer-example.png)
 
 ## Benutzerdefinierte Felder und Widgets
 
@@ -61,6 +49,7 @@ Sie können die folgenden Arten von benutzerdefinierten Feldern zu einem benutze
 * Externer Lookup
 * Native Feldreferenz
 * Typeahead
+* Planungs-Feldverbindung
 * Berechnet
 * Datum
 * Kontrollkästchen-Gruppe
@@ -92,8 +81,11 @@ Benutzer können benutzerdefinierte Formulare an die folgenden Objekttypen anhä
 * Portfolio
 * Ausgabe
 * Gruppe
+* Aufgabengebiet
+* Team
 * Wiederholung
 * Abrechnungseintrag
+* Tarifkarte
 
 Weitere Informationen zum Anhängen benutzerdefinierter Formulare an Objekte finden Sie unter [Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 

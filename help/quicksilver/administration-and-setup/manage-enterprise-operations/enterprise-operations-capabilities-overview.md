@@ -9,7 +9,8 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: e5ac8fde409b960aacd3cf7daa0532e9bc3e8121
+exl-id: 421cfc8c-8c81-4d48-9fa7-ce603f33d8a9
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 10%
@@ -17,8 +18,6 @@ ht-degree: 10%
 ---
 
 # Übersicht über die Betriebsfunktionen in Unternehmen
-
-{{highlighted-preview-article-level}}
 
 Erweiterte Enterprise Operations-Funktionen bieten eine einheitliche und skalierbare Möglichkeit, Finanzen, Ressourcen, Projekte und den Zugriff auf das Unternehmen zu verwalten. Diese Funktionen bieten die Sichtbarkeit und Kontrolle, die Unternehmen benötigen, um rentabel und effizient zu arbeiten.
 
@@ -36,7 +35,7 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 
 Mit Projekt-Momentaufnahmen in Workfront können Sie Unterschiede zwischen Momentaufnahmen (zu einem bestimmten Datum und zu einer bestimmten Uhrzeit) und den aktuellen Daten des Projekts schnell und präzise anzeigen. So können Sie Projekte effektiver verwalten und bessere Entscheidungen treffen. Momentaufnahmen-Vergleiche zeigen nebeneinander, wie sich das Projekt entwickelt hat.
 
-Weitere Informationen finden Sie unter [Erstellen und Anzeigen von Projekt-Momentaufnahmen](/help/quicksilver/manage-work/projects/create-projects/create-snapshots.md)
+Weitere Informationen finden Sie unter [Erstellen und Anzeigen von Projekt-Momentaufnahmen](/help/quicksilver/manage-work/projects/create-projects/create-snapshots.md).
 
 ## Enterprise-Berechtigungen
 
@@ -57,11 +56,10 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 
 Sie können benutzerdefinierte Übersetzungen in Adobe Workfront für benutzerdefinierte Beschriftungen hinzufügen, sodass Teams die Sprache flexibel an ihre eigene Terminologie und lokale Anforderungen anpassen können. Dadurch werden konsistentere, zugänglichere und global ausgerichtete Erlebnisse im gesamten System erstellt.
 
-Weitere Informationen finden Sie unter [Benutzerdefinierte Lokalisierung konfigurieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
+Weitere Informationen finden Sie unter [Konfigurieren der benutzerdefinierten Lokalisierung](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
 
 ## Geschäftliche Aktionen
 
 Sie können jetzt Geschäftsregeln konfigurieren, um Aktionen für das erstellte, bearbeitete oder geänderte Objekt zu automatisieren, wenn bestimmte Bedingungen erfüllt sind. Zu den verfügbaren Aktionen gehören die Freigabe des -Objekts oder das Anhängen eines benutzerdefinierten Formulars an das -Objekt.
 
-Weitere Informationen finden Sie unter [Erstellen und Bearbeiten von Geschäftsregeln](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
-
+Weitere Informationen finden Sie unter [Erstellen und Bearbeiten von Geschäftsregeln](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).

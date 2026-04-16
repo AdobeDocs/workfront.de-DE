@@ -5,9 +5,8 @@ title: Erstellen und Anzeigen von Projekt-Momentaufnahmen
 description: Mit Momentaufnahmen in Adobe Workfront können Sie Unterschiede zwischen Momentaufnahmen (zu einem bestimmten Datum und zu einer bestimmten Uhrzeit) und den aktuellen Daten des Projekts anzeigen.
 author: Lisa
 feature: Work Management
-hidefromtoc: true
-hide: true
-source-git-commit: 6ccb4669a973a8f855120e83de7c0d437c9495a4
+exl-id: 9ff84f9a-46bd-46e8-a58d-7dafbc333507
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '1278'
 ht-degree: 2%
@@ -15,8 +14,6 @@ ht-degree: 2%
 ---
 
 # Erstellen und Anzeigen von Projekt-Momentaufnahmen
-
-{{highlighted-preview-article-level}}
 
 Projektleiter müssen oft die vergangenen Daten eines Projekts mit dem aktuellen Status vergleichen, um fundierte Entscheidungen zu treffen und zu sehen, wie sich ihre Projekte im Laufe der Zeit verändert haben.
 
@@ -86,10 +83,10 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    * Probleme
    * Abrechnungssätze
    * Abrechnungseinträge
-   * &#x200B;<!--* Bookings (on its own line of course when they get released)-->
+   * <!--* Bookings (on its own line of course when they get released)-->
    * Projektteam (Registerkarte „Personen„)
 
-   Sie können alle Listen im Schnappschuss anpassen, indem Sie Spalten filtern, sortieren, hinzufügen und entfernen oder eine Ansicht anwenden. Es stehen zeitphasengesteuerte KPIs zur Verfügung, die der Schnappschussansicht hinzugefügt werden können. Weitere Informationen finden Sie unter [Anpassen von &#x200B;](#customize-snapshot-lists)) in diesem Artikel.
+   Sie können alle Listen im Schnappschuss anpassen, indem Sie Spalten filtern, sortieren, hinzufügen und entfernen oder eine Ansicht anwenden. Es stehen zeitphasengesteuerte KPIs zur Verfügung, die der Schnappschussansicht hinzugefügt werden können. Weitere Informationen finden Sie unter [Anpassen von ](#customize-snapshot-lists)) in diesem Artikel.
 
 ## Momentaufnahmen vergleichen
 
@@ -107,7 +104,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    ![Snapshot-Vergleichsbildschirm](assets/snapshot-comparison.png)
 
-1. Sie können den Vergleich anpassen, indem Sie sortieren, Spalten hinzufügen und entfernen oder eine Ansicht anwenden. Weitere Informationen finden Sie unter [Anpassen von &#x200B;](#customize-snapshot-lists)) in diesem Artikel.
+1. Sie können den Vergleich anpassen, indem Sie sortieren, Spalten hinzufügen und entfernen oder eine Ansicht anwenden. Weitere Informationen finden Sie unter [Anpassen von ](#customize-snapshot-lists)) in diesem Artikel.
 
 ## Schnappschüsse exportieren
 
@@ -212,4 +209,3 @@ So wenden Sie eine Ansicht an bzw. erstellen eine Ansicht:
 1. (Optional) Filtern Sie die Liste. Weitere Informationen finden Sie unter [Elemente in einer Liste filtern](#filter-items-in-a-list).
 
 Änderungen an Ansichten werden automatisch gespeichert. Wenn Sie diese Ansicht das nächste Mal anwenden, bleiben die Spalten- und Filtereinstellungen so, wie Sie sie festlegen. Weitere Informationen zu Ansichten finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
-

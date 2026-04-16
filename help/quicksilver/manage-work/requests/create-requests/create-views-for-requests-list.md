@@ -8,23 +8,25 @@ feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 59a9725e7697a81be2a827a902ee3d23085a2ecd
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 9%
+source-wordcount: '663'
+ht-degree: 10%
 
 ---
 
 
 # Erstellen und Verwalten von Ansichten im Bereich „Anfragen“
 
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-Wenn Sie das neue anfragende Erlebnis in Adobe Workfront verwenden, können Sie Ansichten für den Bereich Anfragen erstellen und speichern. Zu diesen Ansichten gehören Filter sowie Spaltenanordnungen <span class="preview"> Gruppierungen.</span>
+-->
 
+Wenn Sie das neue anfragende Erlebnis in Adobe Workfront verwenden, können Sie Ansichten für den Bereich Anfragen erstellen und speichern. Zu diesen Ansichten gehören Filter, Spaltenanordnungen und Gruppierungen.
 
 >[!IMPORTANT]
 >
@@ -71,13 +73,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 +++
 
-<div class="preview">
-
 ## Systemansichten für Anfragen
-
->[!NOTE]
->
->Systemansichten sind in Ihrer Vorschau-Umgebung möglicherweise nicht verfügbar. Sie werden am 16. April 2026 in der Produktion für alle Kunden verfügbar sein.
 
 Zusätzlich zu den Ansichten, die Sie selbst erstellen können, bietet Workfront die folgenden Systemansichten für den Bereich Anfragen und das Widget Meine Anfragen auf der Startseite:
 
@@ -88,8 +84,6 @@ Zusätzlich zu den Ansichten, die Sie selbst erstellen können, bietet Workfront
 * **Offene Anfragen**: Anfragen, die Sie oder eine andere Person in Warteschlangen oder für Arbeitsbereiche gesendet haben, für die Sie über Anzeigeberechtigungen verfügen und die noch offen sind. Dies ist nicht für das Widget Meine Anfragen verfügbar.
 
 Sie können keine Systemansichten bearbeiten. Sie können die Elemente ändern und dann die Ansicht kopieren und die Kopie bearbeiten oder freigeben.
-
-</div>
 
 ## Ansicht für Anfragen erstellen
 
@@ -107,7 +101,7 @@ Sie können eine Ansicht im Bereich Anfragen von Workfront erstellen, wenn Sie d
 
    1. Fügen Sie das Widget „Meine **&quot; hinzu oder wechseln Sie**.
 
-1. Klicken Sie in der Liste der Anfragen auf das Dropdown **Menü** Ansichten![&#x200B; und &#x200B;](assets/view-icon-requests.png) auf **Neue Ansicht**.
+1. Klicken Sie in der Liste der Anfragen auf das Dropdown **Menü** Ansichten![ und ](assets/view-icon-requests.png) auf **Neue Ansicht**.
 
    <!-- 
    
@@ -128,14 +122,9 @@ Durch Bearbeiten einer Ansicht können Sie die folgenden Elemente der Ansicht ä
 * Name
 * Filter
 * Spalten
-
-<div class="preview">
-
 * Gruppierung
 * Zellen formatieren
 * Zeilenhöhe
-
-</div>
 
 Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
@@ -191,7 +180,7 @@ hide these details - all the information is in "Use enhanced lists" - we need on
 >[!IMPORTANT]
 >
 > * Änderungen an Ansichten werden automatisch gespeichert.
-> * Änderungen an Ansichten sind für alle Benutzer sichtbar, die die Ansicht verwenden <span class="preview">nur, wenn Sie eine neue Kopie der Ansicht freigeben, nachdem Sie Änderungen daran vorgenommen haben.</span>
+> * Änderungen an Ansichten sind für alle Benutzer sichtbar, die die Ansicht nur verwenden, wenn Sie eine neue Kopie der Ansicht freigeben, nachdem Sie Änderungen daran vorgenommen haben.
 > * Verwenden Sie den **Me (angemeldeter Benutzer),** den Platzhalter in jedem Feld zu filtern, das Benutzer als Wert enthält.
 
 ## Hinzufügen der Anfrageansicht zu einer Layout-Vorlage
@@ -206,9 +195,9 @@ Sie können von Ihnen erstellte Ansichten für andere Benutzer, Teams, Gruppen o
 
 Nach der Freigabe einer Ansicht können andere Benutzer die aktualisierten Ansichtselemente anzeigen, die Sie für die Ansicht bearbeitet haben, bevor sie sie freigeben.
 
-<span class="preview">Wenn sie die Ansicht aktualisieren, sind ihre Änderungen für andere nicht sichtbar, es sei denn, sie erstellen eine Kopie derselben Ansicht und behalten ihre Änderungen bei, bevor sie die Kopie freigeben.
+Wenn sie die Ansicht aktualisieren, sind ihre Änderungen für andere nicht sichtbar, es sei denn, sie erstellen eine Kopie derselben Ansicht und behalten ihre Änderungen bei, bevor sie die Kopie freigeben.
 
-Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 <!--
 Let's just redirect to Use enhanced lists so we avoid duplicating information. 

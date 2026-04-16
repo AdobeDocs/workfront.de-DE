@@ -10,9 +10,9 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+source-git-commit: 15592c8dee4bae503382205b38b5daaef5cc74dd
 workflow-type: tm+mt
-source-wordcount: '7426'
+source-wordcount: '7329'
 ht-degree: 94%
 
 ---
@@ -63,17 +63,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 1. Klicken Sie auf **Neues benutzerdefiniertes Formular**.
 1. Wählen Sie aus, an welche Objekttypen Sie das benutzerdefinierte Formular anhängen möchten, und klicken Sie dann auf **Fortfahren**.
 
-<div class="preview">
-
-Beispielbild in der Vorschau-Umgebung:
-
-![Objekttypen auswählen](assets/new-custom-form-select-objects-032526.png)
-
-</div>
-
-Beispielbild in der Produktionsumgebung:
-
-![Objekttypen auswählen](assets/new-custom-form-select-objects.png)
+   ![Objekttypen auswählen](assets/new-custom-form-select-objects-032526.png)
 
 +++ Erweitern Sie , um die Liste der Objekte anzuzeigen, die benutzerdefinierte Formulare unterstützen.
 
@@ -89,9 +79,7 @@ Beispielbild in der Produktionsumgebung:
 * Wiederholung
 * Abrechnungseintrag
 * Gruppe
-* <span class="preview">Team</span>
-
-<div class="preview">
+* Team
 
 Wenn Sie sich im Workflow-Ultimate-Paket befinden, können Sie auch benutzerdefinierte Formulare für diese Objekte erstellen:
 
@@ -99,15 +87,10 @@ Wenn Sie sich im Workflow-Ultimate-Paket befinden, können Sie auch benutzerdefi
 * Tarifkarte
 * Zuweisung
 
-</div>
-
 +++
 
 1. Geben Sie im Bereich **Einen Formularnamen hinzufügen** den benutzerdefinierten Titel des Formulars ein.
-1. <span class="preview">(Optional) Wenn Sie dem Formular weitere Objekttypen hinzufügen möchten, damit es mit weiteren Objekten verbunden werden kann, klicken Sie auf **Objekttypen** in der Kopfzeile des Formular-Designers. Wählen Sie die Objekttypen aus, die Sie hinzufügen möchten, und heben Sie die Auswahl der Objekttypen auf, die Sie aus dem Formular löschen möchten.</span>
-1. (Optional) Wenn Sie dem Formular weitere Objekttypen hinzufügen möchten, damit es mit weiteren Objekten verbunden werden kann, klicken Sie auf das Symbol **Hinzufügen** (![Symbol zum Hinzufügen von Objekttypen](assets/add-objects-icon.png)) neben **Objekttypen** und wählen Sie dann im angezeigten Menü den gewünschten Typ aus. Sie können diesen Vorgang wiederholen, um beliebig viele Objekttypen hinzuzufügen.
-
-   Sobald Sie dem Formular mehrere Objekte hinzugefügt haben, können Sie auf das X auf einem Objekttyp klicken, um das Objekt aus dem Formular zu löschen.
+1. (Optional) Wenn Sie dem Formular weitere Objekttypen hinzufügen möchten, damit es mit weiteren Objekten verbunden werden kann, klicken Sie auf **Objekttypen** in der Kopfzeile des Formular-Designers. Wählen Sie die Objekttypen aus, die Sie hinzufügen möchten, und heben Sie die Auswahl der Objekttypen auf, die Sie aus dem Formular löschen möchten.
 
    >[!CAUTION]
    >
@@ -301,8 +284,8 @@ So fügen Sie ein Textfeld hinzu:
     </ul></td>
     </tr>
     <tr>
-      <td><span class="preview">Berechtigungstyp „Finanzen“</span></td>
-      <td><p><span class="preview">Wählen Sie den Finanzberechtigungstyp aus, den die Benutzer haben müssen, damit sie dieses benutzerdefinierte Feld anzeigen oder bearbeiten können. Das Währungsformat muss ausgewählt sein.</span></p>
+      <td>Berechtigungstyp „Finanzen“</td>
+      <td><p>Wählen Sie den Finanzberechtigungstyp aus, den die Benutzer haben müssen, damit sie dieses benutzerdefinierte Feld anzeigen oder bearbeiten können. Das Währungsformat muss ausgewählt sein.</p>
       <ul>
       <li><p><strong>Keine Berechtigungen erforderlich:</strong> Alle Benutzer können dieses Feld sehen</p></li>
       <li><p><strong>Allgemein:</strong> Benutzer müssen über Berechtigungen zum Bearbeiten oder Anzeigen von General Finance verfügen</p></li>
@@ -457,8 +440,8 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
     </ul></td>
     </tr> 
     <tr>
-      <td><span class="preview">Berechtigungstyp „Finanzen“</span></td>
-      <td><p><span class="preview">Wählen Sie den Finanzberechtigungstyp aus, den die Benutzer haben müssen, damit sie dieses benutzerdefinierte Feld anzeigen oder bearbeiten können. Das Währungsformat muss ausgewählt sein.</span></p>
+      <td>Berechtigungstyp „Finanzen“</td>
+      <td><p>Wählen Sie den Finanzberechtigungstyp aus, den die Benutzer haben müssen, damit sie dieses benutzerdefinierte Feld anzeigen oder bearbeiten können. Das Währungsformat muss ausgewählt sein.</p>
       <ul>
       <li><p><strong>Keine Berechtigungen erforderlich:</strong> Alle Benutzer können dieses Feld sehen</p></li>
       <li><p><strong>Allgemein:</strong> Benutzer müssen über Berechtigungen zum Bearbeiten oder Anzeigen von General Finance verfügen</p></li>
@@ -721,8 +704,8 @@ So fügen Sie eine externe Suche hinzu:
       </ul></td>
      </tr> 
      <tr>
-      <td><span class="preview">Berechtigungstyp „Finanzen“</span></td>
-      <td><p><span class="preview">Wählen Sie den Finanzberechtigungstyp aus, den die Benutzer haben müssen, damit sie dieses benutzerdefinierte Feld anzeigen oder bearbeiten können. Das Währungsformat muss ausgewählt sein.</span></p>
+      <td>Berechtigungstyp „Finanzen“</td>
+      <td><p>Wählen Sie den Finanzberechtigungstyp aus, den die Benutzer haben müssen, damit sie dieses benutzerdefinierte Feld anzeigen oder bearbeiten können. Das Währungsformat muss ausgewählt sein.</p>
       <ul>
       <li><p><strong>Keine Berechtigungen erforderlich:</strong> Alle Benutzer können dieses Feld sehen</p></li>
       <li><p><strong>Allgemein:</strong> Benutzer müssen über Berechtigungen zum Bearbeiten oder Anzeigen von General Finance verfügen</p></li>
@@ -753,12 +736,12 @@ So fügen Sie eine externe Suche hinzu:
       <td role="rowheader">JSON-Pfad</td>
       <td><p>Geben Sie den JSON-Pfad für die API ein oder fügen Sie ihn ein.</p> <p>Diese Option ermöglicht das Extrahieren von Daten aus der von der API-URL zurückgegebenen JSON. Damit können Sie auswählen, welche Werte aus dem JSON-Code in den Dropdown-Optionen angezeigt werden sollen.</p><p>Wenn Ihre API-URL beispielsweise JSON im folgenden Format zurückgibt, können Sie „$.data[*].name“ verwenden, um USA und Kanada als Dropdown-Optionen auszuwählen:</br>
       <pre>
-      &lbrace;
-       data: &lbrace;
+      {
+       data: {
          { name: "USA"},
          { name: "Canada"}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Weitere Informationen zum JSON-Pfad und um sicherzustellen, dass Sie den richtigen Pfad angeben, finden Sie unter <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>

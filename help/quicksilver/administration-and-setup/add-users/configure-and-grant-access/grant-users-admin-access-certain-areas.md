@@ -5,18 +5,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
-source-git-commit: cada5387ddfb710029d06cd38841ecb9c8a6484b
+source-git-commit: 85399542ce8e92de6da5a1de0960194e72958987
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 6%
+source-wordcount: '686'
+ht-degree: 8%
 
 ---
 
 # Gewähren von administrativem Zugriff für Benutzer auf bestimmte Bereiche
 
 <!--Linked in several places, do not rename or change URL.-->
-
-{{highlighted-preview}}
 
 Als Adobe Workfront-Administrator können Sie eine Zugriffsebene verwenden, um Benutzenden mit einer Standard- oder Plan-Lizenz administrativen Zugriff auf bestimmte Bereiche des Systems zu gewähren.
 
@@ -95,17 +93,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
         <li>Ihre eigenen Kosten</li>
         <li>Die Ausgaben ihrer Untergebenen</li>
        </ul></td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Aufgabengebiete</td> 
-      <td> <p><span class="preview"><b>HINWEIS</b>: In der Vorschau-Umgebung wird der Zugriff auf Aufgabengebiete als Objekttyp auf der Zugriffsebene gesteuert. Siehe <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-job-roles.md">Zugriff auf Aufgabengebiete gewähren</a>.</span></p>
-      <p>Mit diesem Zugriff kann der Benutzer Folgendes tun:</p> 
-       <ul> 
-        <li>Anzeigen und Bearbeiten vorhandener Aufgabengebiete</li> 
-        <li>Neue Aufgabengebiete hinzufügen</li> 
-        <li>Funktionsbezogene Abrechnung und Kostensätze bearbeiten</li> 
-       </ul> <p><b>WICHTIG</b>: Wenn Sie einem Standard- oder Plan-Benutzer administrativen Zugriff auf Aufgabengebiete gewähren, wird die Einstellung „Finanzdatenzugriff“ „Aufgabengebiet bearbeiten“ „Abrechnung und Kostensätze“ für den Benutzer automatisch aktiviert. Wenn Sie später den administrativen Zugriff auf Aufgabengebiete für den Benutzer „Standard“ oder „Plan“ deaktivieren, sind Aufgabengebiete für den Benutzer weiterhin sichtbar, da die Einstellung „Aufgabengebiet bearbeiten - Abrechnung und Kostensätze“ weiterhin aktiviert ist. Wenn dies eintritt und Sie den Zugriff des Benutzers auf die Anzeige von Aufgabengebieten entfernen müssen, müssen Sie die Berechtigungseinstellung „Rolle bearbeiten - Abrechnung und Kostensätze“ des Benutzers deaktivieren. Anweisungen finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Zugriff auf Finanzdaten gewähren</a>.</p> </td> 
-     </tr> 
+     </tr>
      <tr> 
       <td role="rowheader">Meilensteine in meiner Gruppe</td> 
       <td>Zeigen Sie alle Meilensteinpfade im System unter dem Menü Meilensteinpfade im Setup an. Benutzer können auch alle Meilensteinpfade bearbeiten oder löschen, die zu einer ihrer Gruppen gehören. Benutzende können die Meilensteinpfade, die keiner ihrer Gruppen zugewiesen sind, nicht verwalten (bearbeiten oder löschen).<br><p>Ohne diesen Zugriff können Benutzende nur vorhandene Meilensteinpfade anzeigen und auf Projekte anwenden, auf die sie Zugriff haben.</p></td> 
@@ -133,3 +121,17 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
    >[!NOTE]
    >
    >Sie können Benutzern administrativen Zugriff auf Benutzer gewähren. Weitere Informationen dazu, wie Sie Benutzern administrativen Zugriff gewähren, damit sie Benutzerkonten verwalten können, finden Sie unter [Gewähren des Zugriffs für Benutzer](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+
+
+<!--     
+     <tr> 
+      <td role="rowheader">Job roles</td> 
+      <td> <p><b>NOTE</b>: In the Preview environment, access to job roles is controlled as an object type in the access level. See <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-job-roles.md">Grant access to job roles</a>.</p>
+      <p>With this access, the user is allowed to do the following:</p> 
+       <ul> 
+        <li>View and edit existing job roles</li> 
+        <li>Add new job roles</li> 
+        <li>Edit role billing and cost rates</li> 
+       </ul> <p><b>IMPORTANT</b>: If you grant a Standard or Plan user administrative access to job roles, the Financial Data access setting Edit Role Billing &amp; Cost Rates is enabled for the user automatically. Later, if you disable administrative access to job roles for the Standard or Plan user, job roles are still visible to the user because the Edit Role Billing &amp; Cost Rates setting is still enabled. If this happens and you need to remove the user's access to view job roles, you need to disable the user's Edit Role Billing &amp; Cost Rates permission setting. For instructions, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a>.</p> </td> 
+     </tr>
+-->

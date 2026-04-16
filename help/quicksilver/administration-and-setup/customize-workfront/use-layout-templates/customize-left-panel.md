@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: f490d72b46073786cc079eec0640a0b535533281
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '1226'
 ht-degree: 5%
@@ -16,8 +16,6 @@ ht-degree: 5%
 ---
 
 # Anpassen des linken Bedienfelds mithilfe einer Layout-Vorlage
-
-{{highlighted-preview}}
 
 <!--Audited: 10/2024-->
 
@@ -33,7 +31,7 @@ Sie können beispielsweise festlegen, welches der folgenden Elemente Benutzern i
 
 Informationen zum Erstellen von Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-Vorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
 
-Weitere Informationen zu Layout-Vorlagen für Gruppen finden [&#x200B; unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 Nachdem Sie eine Layout-Vorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die von Ihnen vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layout-Vorlage an Benutzer finden Sie unter [Zuweisen von Benutzern zu einer Layout-Vorlage](../use-layout-templates/assign-users-to-layout-template.md).
 
@@ -95,22 +93,22 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
      <tr> 
       <td>[!UICONTROL Aufgabe]</td> 
       <td>Der Name einer Aufgabe</td> 
-      <td> [!UICONTROL -Aktualisierungen], [!UICONTROL -Dokumente], [!UICONTROL -Aufgabendetails], [!UICONTROL -Unteraufgabe], [!UICONTROL -Probleme], [!UICONTROL -Stunden], [!UICONTROL -Genehmigungen], [!UICONTROL -Ausgaben], [!UICONTROL -Vorgänger], [!UICONTROL -benutzerdefinierte Anwendung]**</td> 
+      <td> [!UICONTROL-Aktualisierungen], [!UICONTROL-Dokumente], [!UICONTROL-Aufgabendetails], [!UICONTROL-Unteraufgabe], [!UICONTROL-Probleme], [!UICONTROL-Stunden], [!UICONTROL-Genehmigungen], [!UICONTROL-Ausgaben], [!UICONTROL-Vorgänger], [!UICONTROL-benutzerdefinierte Anwendung]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Problem]</td> 
       <td>Der Name eines Problems</td> 
-      <td> [!UICONTROL -Aktualisierungen], [!UICONTROL -Dokumente], [!UICONTROL -Problemdetails], [!UICONTROL -Stunden], [!UICONTROL -Genehmigungen], [!UICONTROL -benutzerdefinierte Anwendung]**</td> 
+      <td> [!UICONTROL-Aktualisierungen], [!UICONTROL-Dokumente], [!UICONTROL-Problemdetails], [!UICONTROL-Stunden], [!UICONTROL-Genehmigungen], [!UICONTROL-benutzerdefinierte Anwendung]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Portfolio]</td> 
       <td>Der Name eines Portfolios</td> 
-      <td>[!UICONTROL -Projekte], [!UICONTROL -Programme], [!UICONTROL Portfolio-Details], [!UICONTROL Portfolio] [!UICONTROL -Optimierung], [!UICONTROL -Dokumente], [!UICONTROL -Updates], [!UICONTROL Planning]*, [!UICONTROL Custom Application]**</td> 
+      <td>[!UICONTROL-Projekte], [!UICONTROL-Programme], [!UICONTROL Portfolio-Details], [!UICONTROL Portfolio] [!UICONTROL-Optimierung], [!UICONTROL-Dokumente], [!UICONTROL-Updates], [!UICONTROL Planning]*, [!UICONTROL Custom Application]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Programm]</td> 
       <td>Der Name eines Programms</td> 
-      <td>[!UICONTROL -Projekte], [!UICONTROL -Programmdetails], [!UICONTROL -Updates], [!UICONTROL -Dokumente], [!UICONTROL Planning]*, [!UICONTROL Custom Application]**</td> 
+      <td>[!UICONTROL-Projekte], [!UICONTROL-Programmdetails], [!UICONTROL-Updates], [!UICONTROL-Dokumente], [!UICONTROL Planning]*, [!UICONTROL Custom Application]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Vorlage]</td> 
@@ -120,7 +118,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
      <tr> 
       <td>[!UICONTROL Vorlagenaufgabe]</td> 
       <td>Der Name einer Vorlagenaufgabe</td> 
-      <td>[!UICONTROL -Aktualisierungen], [!UICONTROL -Dokumente], [!UICONTROL -Vorlagenaufgabendetails], [!UICONTROL -Teilaufgaben], [!UICONTROL -Ausgaben], [!UICONTROL -Genehmigungen], [!UICONTROL -Vorgänger]</td>
+      <td>[!UICONTROL-Aktualisierungen], [!UICONTROL-Dokumente], [!UICONTROL-Vorlagenaufgabendetails], [!UICONTROL-Teilaufgaben], [!UICONTROL-Ausgaben], [!UICONTROL-Genehmigungen], [!UICONTROL-Vorgänger]</td>
      </tr>
      <!--
       <tr> 
@@ -136,16 +134,16 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
      </tr> 
      <tr> 
       <td>[!UICONTROL Projekte]</td> 
-      <td>Im [!UICONTROL -Hauptmenü] <img src="assets/projects-in-main-menu.png"> Projekte <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>Im [!UICONTROL-Hauptmenü] <img src="assets/projects-in-main-menu.png"> Projekte <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL Projekte]</td> 
      </tr> 
      <tr> 
-      <td><span class="preview">[!UICONTROL -Ressource]</span></td> 
-      <td><span class="preview">[!UICONTROL -Ressource] im [!UICONTROL -Hauptmenü] <img src="assets/main-menu-icon-left-nav.png"></span></td> 
-      <td><span class="preview">[!UICONTROL Planner] (kann nicht ausgeblendet werden), [!UICONTROL Workload Balancer], [!UICONTROL Utilisation], [!UICONTROL Resource Pools]</span></td> 
+      <td>[!UICONTROL-Ressource]</td> 
+      <td>[!UICONTROL-Ressource] im [!UICONTROL-Hauptmenü] <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>[!UICONTROL Planner] (kann nicht ausgeblendet werden), [!UICONTROL Workload Balancer], [!UICONTROL Utilisation], [!UICONTROL Resource Pools]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL -Anforderungen]</td> 
+      <td>[!UICONTROL-Anforderungen]</td> 
       <td>Der Name einer Anfrage</td> 
       <td>[!UICONTROL Neue Anfrage], [!UICONTROL Gesendete Anfragen], [!UICONTROL Alle Anfragen], [!UICONTROL Entwürfe]</td> 
      </tr> 
@@ -157,7 +155,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
      <tr> 
       <td>[!UICONTROL Scrum-Team]</td> 
       <td>Der Name eines Scrum-Teams</td> 
-      <td><p>[!UICONTROL -Iterationen], [!UICONTROL Aktuelle Iteration], [!UICONTROL Backlog], [!UICONTROL Workload Balancer], [!UICONTROL -Aktualisierungen], [!UICONTROL -Teameinstellungen]</p> <p><strong>HINWEIS:</strong> Das Element <strong>[!UICONTROL Aktuelle Iteration]</strong> wird im linken Bereich nur angezeigt, wenn mindestens eine Aufgabe oder ein Problem bei der Iteration vorliegt.</p></td> 
+      <td><p>[!UICONTROL-Iterationen], [!UICONTROL Aktuelle Iteration], [!UICONTROL Backlog], [!UICONTROL Workload Balancer], [!UICONTROL-Aktualisierungen], [!UICONTROL-Teameinstellungen]</p> <p><strong>HINWEIS:</strong> Das Element <strong>[!UICONTROL Aktuelle Iteration]</strong> wird im linken Bereich nur angezeigt, wenn mindestens eine Aufgabe oder ein Problem bei der Iteration vorliegt.</p></td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Kanban-Team]</td> 
@@ -175,19 +173,19 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
       <td>[!UICONTROL Stories], [!UICONTROL Probleme], [!UICONTROL Story Board], [!UICONTROL Overview], [!UICONTROL Custom Forms], [!UICONTROL Updates] </td> 
      </tr> 
      <tr> 
-       <td><span class="preview">[!UICONTROL Benutzerdetails]</span></td> 
-       <td><span class="preview">Der Name eines Benutzers</span></td> 
-       <td><span class="preview">[!UICONTROL Details], [!UICONTROL Organigramm], [!UICONTROL Ausfallzeit], [!UICONTROL Custom Forms], [!UICONTROL Business Profiles], [!UICONTROL Updates], [!UICONTROL Workload Balancer]</span></td> 
+       <td>[!UICONTROL Benutzerdetails]</td> 
+       <td>Der Name eines Benutzers</td> 
+       <td>[!UICONTROL Details], [!UICONTROL Organigramm], [!UICONTROL Ausfallzeit], [!UICONTROL Custom Forms], [!UICONTROL Business Profiles], [!UICONTROL Updates], [!UICONTROL Workload Balancer]</td> 
      </tr>
      <tr> 
-       <td><span class="preview">[!UICONTROL Tarifkarte]</span></td> 
-       <td><span class="preview">Der Name einer Tarifkarte</span></td> 
-       <td><span class="preview">[!UICONTROL Aufgabengebiete und Tarife] (kann nicht ausgeblendet werden), [!UICONTROL Tarifkartendetails]</span></td> 
+       <td>[!UICONTROL Tarifkarte]</td> 
+       <td>Der Name einer Tarifkarte</td> 
+       <td>[!UICONTROL Aufgabengebiete und Tarife] (kann nicht ausgeblendet werden), [!UICONTROL Tarifkartendetails]</td> 
      </tr>
      <tr> 
-       <td><span class="preview">[!UICONTROL Gruppe]</span></td> 
-       <td><span class="preview">Der Name einer Gruppe</span></td> 
-       <td><span class="preview">[!UICONTROL -Gruppenmitglieder], [!UICONTROL -Untergruppenmitglieder], [!UICONTROL -Gruppendetails], [!UICONTROL -Projektvoreinstellungen], [!UICONTROL -Einstellungen für Aufgaben und Probleme], [!UICONTROL -Arbeitszeittabellen und Stunden], [!UICONTROL -Untergruppen], [!UICONTROL -Status], [!UICONTROL -Ereignisbenachrichtigungen], [!UICONTROL -Portfolios], [!UICONTROL -Programme], [!UICONTROL -Projekte], [!UICONTROL -Vorlagen], [!UICONTROL kürzlich gelöscht], [!UICONTROL kürzlich wiederhergestellt], [!UICONTROL -Genehmigungen], [!UICONTROL Unternehmen], [!UICONTROL Teams], [!UICONTROL Zeitpläne], [!UICONTROL Arbeitszeittabellen-Profile], [!UICONTROL Layout-Vorlagen]</span></td> 
+       <td>[!UICONTROL Gruppe]</td> 
+       <td>Der Name einer Gruppe</td> 
+       <td>[!UICONTROL-Gruppenmitglieder], [!UICONTROL-Untergruppenmitglieder], [!UICONTROL-Gruppendetails], [!UICONTROL-Projektvoreinstellungen], [!UICONTROL-Einstellungen für Aufgaben und Probleme], [!UICONTROL-Arbeitszeittabellen und Stunden], [!UICONTROL-Untergruppen], [!UICONTROL-Status], [!UICONTROL-Ereignisbenachrichtigungen], [!UICONTROL-Portfolios], [!UICONTROL-Programme], [!UICONTROL-Projekte], [!UICONTROL-Vorlagen], [!UICONTROL kürzlich gelöscht], [!UICONTROL kürzlich wiederhergestellt], [!UICONTROL-Genehmigungen], [!UICONTROL Unternehmen], [!UICONTROL Teams], [!UICONTROL Zeitpläne], [!UICONTROL Arbeitszeittabellen-Profile], [!UICONTROL Layout-Vorlagen]</td> 
      </tr>
      <!--
       <tr> 

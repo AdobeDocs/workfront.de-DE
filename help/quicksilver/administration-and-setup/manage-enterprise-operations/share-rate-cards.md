@@ -7,7 +7,8 @@ description: Sie können eine Tarifkarte für Benutzer, Aufgabengebiete, Gruppen
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 760fa2a0833367604b23a4617359f2ca6596e15a
+exl-id: 9f2f9fd8-bca8-4a3d-b022-b51c080a78aa
+source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 13%
@@ -15,8 +16,6 @@ ht-degree: 13%
 ---
 
 # Tarifkarte freigeben
-
-{{highlighted-preview-article-level}}
 
 Sie können eine Tarifkarte für Benutzer, Aufgabengebiete, Gruppen, Teams, Unternehmen und Geschäftsprofile freigeben.
 
@@ -70,4 +69,3 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 1. Klicken Sie auf [!UICONTROL **Speichern**].
 
    Weitere Informationen zur Freigabe finden Sie unter [Freigeben eines Objekts](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
-

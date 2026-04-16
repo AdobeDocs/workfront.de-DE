@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: cada5387ddfb710029d06cd38841ecb9c8a6484b
+source-git-commit: df1d844346d7ed26dcb004ba1a10ec9e8d07422a
 workflow-type: tm+mt
-source-wordcount: '1703'
-ht-degree: 1%
+source-wordcount: '1219'
+ht-degree: 2%
 
 ---
 
@@ -21,13 +21,11 @@ ht-degree: 1%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-{{highlighted-preview}}
-
 >[!IMPORTANT]
 >
 >Mit Version 25.11 wurde die Überschreibungswährung für Aufgabengebiete in der Produktionsumgebung eingestellt. (Die Einstellung erfolgte am 30. Oktober in der Vorschau-Umgebung.) Anstatt eine Basiswährung zu haben und Währungen zu überschreiben, ist jetzt eine Währung für Aufgabengebiete verfügbar und die Kosten- und Abrechnungssätze werden mit dieser Währung definiert.
 
-Als [!DNL Adobe Workfront] oder Benutzer mit administrativem Zugriff auf Aufgabengebiete können Sie Aufgabengebiete erstellen, die Benutzern zugewiesen werden können, und Standardaufgabengebiete löschen, die für Ihr Unternehmen nicht relevant sind. Informationen zum administrativen Zugriff in [!DNL Workfront] finden Sie unter [Gewähren von administrativem Zugriff für Benutzer auf bestimmte Bereiche](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+Als [!DNL Adobe Workfront] oder Standardbenutzer mit Bearbeitungszugriff auf Aufgabengebiete können Sie Aufgabengebiete erstellen, die Benutzern zugewiesen werden können, und Standardaufgabengebiete löschen, die für Ihr Unternehmen nicht relevant sind. Informationen zum administrativen Zugriff in [!DNL Workfront] finden Sie unter [Gewähren von administrativem Zugriff für Benutzer auf bestimmte Bereiche](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 >[!TIP]
 >
@@ -69,7 +67,7 @@ So erstellen Sie ein Aufgabengebiet:
 {{step-1-to-setup}}
 
 1. Klicken Sie im linken Bedienfeld auf **[!UICONTROL Aufgabengebiete]**.
-1. Klicken Sie **[!UICONTROL Neues Aufgabengebiet] <span class="preview">> Neues Aufgabengebiet erstellen**.</span>
+1. Klicken Sie **[!UICONTROL Neues Aufgabengebiet] > Neues Aufgabengebiet erstellen**.
 1. Geben Sie Informationen in die folgenden Felder ein:
 
    * **Name**: Geben Sie einen Namen für das Aufgabengebiet an. Dies ist der Name, der überall in Workfront angezeigt wird, wo das Feld Aufgabengebiet angezeigt wird.
@@ -83,45 +81,7 @@ So erstellen Sie ein Aufgabengebiet:
 
      Informationen zur Deaktivierung von Aufgabengebieten finden Sie unter [Deaktivieren von Aufgabengebieten](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
 
-   * **Währung**: Die Basiswährung wird standardmäßig angezeigt. Der Workfront-Administrator fügt die Basiswährung im Bereich „Setup“ hinzu. Sie können die Auswahl in eine andere verfügbare Währung ändern und die Währung in gültigen Datumsbereichen ändern.
-
-     >[!TIP]
-     >
-     >In diesem Feld sind nur Währungen verfügbar, die im Bereich Wechselkurse Ihres Systems verfügbar sind. Wenn Sie nur eine Währung eingerichtet haben, ist nur diese Währung verfügbar.
-
-     Weitere Informationen zum Einrichten der Basiswährung in Workfront finden Sie unter [Einrichten von Wechselkursen](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
-
-     Informationen zum Ändern der Währung eines Projekts finden Sie unter [Ändern der &#x200B;](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md).
-
-   * **Kostensatz**: Der Kostensatz pro Stunde für das Aufgabengebiet. Dieser Wert berechnet die geplanten Kosten und Istkosten für Aufgaben und Probleme im Zusammenhang mit der Funktion sowie letztendlich die geplanten Kosten und Istkosten der Projekte. Geben Sie den Kurs in der gewählten Währung ein.
-
-     Klicken Sie für gültige Datumssätze auf &quot;**hinzufügen**. Geben Sie den Wert der Kosten/Stunde für den Zeitraum ein und weisen Sie gegebenenfalls ein Start- und Enddatum zu. Der erste Kostensatz hat kein Startdatum und der letzte Kostensatz hat kein Enddatum.
-
-     Einige Daten werden automatisch hinzugefügt. Wenn beispielsweise der erste Kostensatz kein Enddatum hat und Sie einen zweiten Kostensatz mit dem Startdatum 1. Mai 2025 hinzufügen, wird dem ersten Kostensatz das Enddatum 30. April 2025 hinzugefügt, damit keine Lücken entstehen.
-
-     Weitere Informationen zur Kostenberechnung in Workfront finden Sie unter [Kosten nachverfolgen](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
-
-     >[!TIP]
-     >
-     >Beim Bearbeiten eines vorhandenen Aufgabengebiets können Sie die Liste sortieren, damit das neueste Startdatum oben in der Tarifliste angezeigt wird.
-
-   * **Abrechnungssatz**: Der Abrechnungssatz pro Stunde für das Aufgabengebiet. Dieser Wert berechnet die geplanten und tatsächlichen Einnahmen aus Aufgaben und Problemen im Zusammenhang mit der Rolle sowie letztendlich die geplanten und tatsächlichen Einnahmen der Projekte. Geben Sie den Kurs in der gewählten Währung ein.
-
-     Klicken Sie für Abrechnungssätze mit Gültigkeitsdatum auf **Abrechnungssatz hinzufügen**. Geben Sie den Wert der Abrechnung/Stunde für den Zeitraum ein und weisen Sie gegebenenfalls ein Start- und Enddatum zu. Der erste Abrechnungssatz hat kein Startdatum und der letzte Abrechnungssatz hat kein Enddatum.
-
-     Einige Daten werden automatisch hinzugefügt. Wenn beispielsweise der erste Abrechnungssatz kein Enddatum hat und Sie einen zweiten mit dem Startdatum 1. Mai 2025 hinzufügen, wird dem ersten Abrechnungssatz das Enddatum 30. April 2025 hinzugefügt, sodass keine Lücken bestehen.
-
-     Informationen zur Umsatzberechnung in Workfront finden Sie unter [Übersicht über Abrechnung und Umsatz](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
-
-     >[!TIP]
-     >
-     >Beim Bearbeiten eines vorhandenen Aufgabengebiets können Sie die Liste sortieren, damit das neueste Startdatum oben in der Tarifliste angezeigt wird.
-
-<!-- Remove or hide the billing rate and cost rate bullets on April 16 for GA -->
-
 1. Klicken Sie **[!UICONTROL Aufgabengebiet erstellen]**. Das Aufgabengebiet kann jetzt Aufgaben, Problemen, Genehmigungen zugewiesen werden oder Sie können Layout-Vorlagen oder andere Objekte für das Aufgabengebiet freigeben. Informationen zu allen Verwendungen von Aufgabengebieten in [!DNL Workfront] finden Sie unter [Aufgabengebiet - Übersicht](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md). Informationen zum Löschen eines Aufgabengebiets finden Sie unter [Aufgabengebiet löschen](../../../administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md).
-
-<div class="preview">
 
 ## Hinzufügen von Tarifen und Attributen zu einem Aufgabengebiet
 
@@ -129,7 +89,7 @@ Abrechnungs- und Kostensätze für ein Aufgabengebiet werden in Finanzberechnung
 
 Tarifattribute werden in Bereichen von Workfront unterstützt, in denen es Tarife gibt, z. B. Aufgabengebiete und Anwender. Wenn Attribute auf ein Aufgabengebiet angewendet werden, werden ihre Zuweisungen automatisch mit den richtigen Raten aufgelöst.
 
-Weitere Informationen finden Sie unter [Definieren von &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+Weitere Informationen finden Sie unter [Definieren von ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
 
 {{step-1-to-setup}}
 
@@ -156,7 +116,7 @@ Weitere Informationen finden Sie unter [Definieren von &#x200B;](/help/quicksilv
 
    >[!NOTE]
    >
-   >Diese Attribute werden separat definiert und können sich auf Umsatz- und Kostenberechnungen auswirken. Weitere Informationen finden Sie unter [Definieren von &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+   >Diese Attribute werden separat definiert und können sich auf Umsatz- und Kostenberechnungen auswirken. Weitere Informationen finden Sie unter [Definieren von ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
 
 1. Wählen Sie die **Währung** für den Kurs. Der Workfront-Administrator fügt die Basiswährung im Bereich „Setup“ hinzu. Sie können die Auswahl in eine andere verfügbare Währung ändern und die Währung in gültigen Datumsbereichen ändern.
 
@@ -166,7 +126,7 @@ Weitere Informationen finden Sie unter [Definieren von &#x200B;](/help/quicksilv
 
    Weitere Informationen zum Einrichten der Basiswährung in Workfront finden Sie unter [Einrichten von Wechselkursen](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
-   Informationen zum Ändern der Währung eines Projekts finden Sie unter [Ändern der &#x200B;](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md).
+   Informationen zum Ändern der Währung eines Projekts finden Sie unter [Ändern der ](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md).
 
 1. (Bedingt) Geben Sie für einen Abrechnungssatz den **Abrechnungssatz** für dieses Aufgabengebiet ein.
 
@@ -176,7 +136,9 @@ Weitere Informationen finden Sie unter [Definieren von &#x200B;](/help/quicksilv
 
    Klicken Sie für Abrechnungssätze mit Gültigkeitsdatum auf **Abrechnungssatz hinzufügen**. Geben Sie den Wert der Abrechnung/Stunde für den Zeitraum ein und weisen Sie gegebenenfalls ein Start- und Enddatum zu. Der erste Abrechnungssatz hat kein Startdatum und der letzte Abrechnungssatz hat kein Enddatum.
 
-   Einige Daten werden automatisch hinzugefügt. Wenn beispielsweise der erste Abrechnungssatz kein Enddatum hat und Sie einen zweiten mit dem Startdatum 1. Mai hinzufügen, wird dem ersten Abrechnungssatz das Enddatum 30. April hinzugefügt, damit keine Lücken entstehen.
+   <!-- Some dates are added automatically. For example, if the first billing rate does not have an end date, and you add a second with a start date of May 1, an end date of April 30 is added to the first billing rate so that no gaps exist.-->
+
+   Workfront ermöglicht es Ihnen, Lücken zwischen Datumsbereichen zu lassen, Sie erhalten jedoch eine Warnung, die bestätigt, dass dies beabsichtigt ist.
 
    Informationen zur Umsatzberechnung in Workfront finden Sie unter [Übersicht über Abrechnung und Umsatz](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
@@ -202,8 +164,6 @@ Weitere Informationen finden Sie unter [Definieren von &#x200B;](/help/quicksilv
 
 1. Klicken Sie auf [!UICONTROL **Speichern**].
 
-</div>
-
 <!--
    * **Override Currency Cost Rate**: This is the cost per hour rate of the job role using the selected Override Currency. Workfront uses this value to calculate the planned and the actual costs of tasks and issues associated with the job role.
 
@@ -224,6 +184,45 @@ Weitere Informationen finden Sie unter [Definieren von &#x200B;](/help/quicksilv
      >[!TIP]
      >
      >When updating an existing job role that already has a billing rate associated with it, Workfront calculates the Override Currency rate based on the conversion rate in your system. If you update the Override Currency Billing Rate, the billing rate of the job role also updates automatically.
+
+-->
+
+
+<!--
+
+   * **Currency**: The Base Currency is shown by default. The Workfront administrator adds the Base Currency in the Setup area. You can change the selection to another available currency, and you can change the currency on effective dated time ranges.
+
+      >[!TIP]
+      >
+      >Only currencies available in the Exchange Rates area in your system are available in this field. If you only have one currency set up, only that currency is available.
+
+      For information about setting up the Base Currency in Workfront, see [Set up exchange rates](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+
+      For information about changing the currency of a project, see [Change the project currency](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md).
+   
+   * **Cost Rate**: This is the cost per hour rate of the job role. This value calculates the planned and the actual costs of tasks and issues associated with the role, and ultimately the planned and actual costs of the projects. Enter the rate using the selected currency.
+
+      For date effective cost rates, click **Add Rate**. Enter the value of the cost/hour for the time period, and assign a Start Date and End Date as needed. The first cost rate will not have a start date and the last cost rate will not have an end date.
+
+      Some dates are added automatically. For example, if the first cost rate does not have an end date, and you add a second cost rate with a start date of May 1, 2025, an end date of April 30, 2025 is added to the first cost rate so that no gaps exist.
+
+      For information about how Workfront calculates cost, see [Track costs](/help/quicksilver/manage-work/projects/project-finances/track-costs.md).
+
+      >[!TIP]
+      >
+      >When editing an existing job role, you can sort the list to see the most recent start date at the top of the rate list.
+
+   * **Billing Rate**: This is the billing per hour rate of the job role. This value calculates the planned and actual revenues of tasks and issues associated with the role, and ultimately the planned and actual revenues of the projects. Enter the rate using the selected currency.
+
+      For date effective billing rates, click **Add Rate**. Enter the value of the billing/hour for the time period, and assign a Start Date and End Date as needed. The first billing rate will not have a start date and the last billing rate will not have an end date.
+
+      Some dates are added automatically. For example, if the first billing rate does not have an end date, and you add a second with a start date of May 1, 2025, an end date of April 30, 2025 is added to the first billing rate so that no gaps exist.
+
+      For information about how Workfront calculates revenue, see [Overview of Billing and Revenue](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+
+      >[!TIP]
+      >
+      >When editing an existing job role, you can sort the list to see the most recent start date at the top of the rate list.
 
 -->
 

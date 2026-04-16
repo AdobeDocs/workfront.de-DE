@@ -6,7 +6,8 @@ title: Aufgabengebiet für Abrechnung einrichten
 description: Mit Workfront können Sie einem Benutzer ein anderes Aufgabengebiet in Rechnung stellen als sein primäres. Dies ist nützlich, wenn eine Person vorübergehend Arbeiten erledigt, die zu einem anderen Satz in Rechnung gestellt werden sollten.
 author: Lisa
 feature: Work Management
-source-git-commit: d92908d358ca53ae9d443fd76556e3e8b273e3cb
+exl-id: d6e2947d-2f40-4591-b048-9a769caadf43
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 5%
@@ -14,8 +15,6 @@ ht-degree: 5%
 ---
 
 # Aufgabengebiet für Abrechnung einrichten
-
-{{highlighted-preview-article-level}}
 
 Mit Workfront können Sie einem Benutzer ein anderes Aufgabengebiet in Rechnung stellen als sein primäres. Dies ist nützlich, wenn eine Person vorübergehend Arbeiten erledigt, die zu einem anderen Satz in Rechnung gestellt werden sollten.
 

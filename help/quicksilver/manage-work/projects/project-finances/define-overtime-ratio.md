@@ -6,7 +6,8 @@ title: Definieren eines Überstundenverhältnisses
 description: Sie können ein Überstundenverhältnis für einen Vorgang definieren, um die Berechnung des geplanten Umsatzes für die Aufgabenzuordnungen anzupassen.
 author: Lisa
 feature: Work Management
-source-git-commit: bf8dcc9dfa9697c8d212072bb511c57aa01e7529
+exl-id: 832d3aab-3e09-4d83-91a6-be0145ce3554
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 11%
@@ -14,8 +15,6 @@ ht-degree: 11%
 ---
 
 # Definieren eines Überstundenverhältnisses
-
-{{highlighted-preview-article-level}}
 
 Wenn einer Aufgabe ein Überstundenverhältnis hinzugefügt wird, wird es auf alle Zuweisungen der Aufgabe angewendet. Es multipliziert alle geplanten Stunden für diese Aufgabe und wirkt sich auf die Berechnungen des geplanten Umsatzes aus.
 
@@ -87,4 +86,3 @@ Das Feld **Überstundenverhältnis** muss in Ihrer Layout-Vorlage aktiviert sein
 1. Klicken Sie **linken** auf „Aufgabendetails“.
 1. Geben Sie **Bereich &quot;**&quot; den Multiplikator für Überstunden in das Feld **Überstundenverhältnis** ein.
 1. Klicken Sie auf **Änderungen speichern**.
-

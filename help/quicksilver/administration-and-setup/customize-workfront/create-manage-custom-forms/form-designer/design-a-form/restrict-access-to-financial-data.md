@@ -7,17 +7,15 @@ description: Wenn Sie ein benutzerdefiniertes Feld erstellen, können Sie option
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
-source-git-commit: 5cdaccd9381b02f183b837208eaac4389b0b7a24
+exl-id: 3380cce6-8372-43c0-8520-473442ea0eb4
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '629'
 ht-degree: 9%
 
 ---
 
-
 # Beschränken des Zugriffs auf Finanzdaten in benutzerdefinierten Feldern
-
-{{highlighted-preview-article-level}}
 
 Wenn Sie ein benutzerdefiniertes Feld erstellen, können Sie optionale Einstellungen definieren, um den Zugriff auf Finanzdaten zu beschränken. Auf diese Weise können Benutzende, deren Zugriffsebenen bestimmte Berechtigungen haben, die Daten sehen, und sie können keine Finanzdaten sehen, auf die sie keinen Zugriff haben sollten.
 
@@ -119,4 +117,3 @@ Wenn der/die Benutzende die Projekte in einer Liste oder einem Bericht anzeigt:
 Beim Exportieren von Projektdetails werden dieselben Finanzfeldwerte (oder leere Felder) wie in der Liste angezeigt.
 
 Bei der Massenbearbeitung beider Projekte werden die Felder „Abrechnung“ und „Allgemeine Finanzen“ als schreibgeschützt angezeigt und die Kostenfelder zeigen „Nicht zutreffend“ an.
-

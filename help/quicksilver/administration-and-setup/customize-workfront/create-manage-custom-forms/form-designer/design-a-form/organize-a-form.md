@@ -10,16 +10,14 @@ role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
-source-wordcount: '1353'
+source-wordcount: '1351'
 ht-degree: 4%
 
 ---
 
 # Organisieren eines Formulars und Anzeige in der Vorschau
-
-{{preview-fast-release-general}}
 
 Sie können ein benutzerdefiniertes Formular mit dem Formular-Designer organisieren und eine Vorschau davon anzeigen, um zu überprüfen, ob es korrekt eingerichtet ist.
 
@@ -85,8 +83,8 @@ Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten 
       <td role="rowheader">Beschreibung</td> 
       <td>Geben Sie einen Text ein, wenn Sie den Benutzern erklären möchten, wozu der Abschnitt dient. Dies wird unter der Beschriftung des Abschnitts im benutzerdefinierten Formular angezeigt.</td> 
      </tr> 
-      <td><span class="preview">Standardmäßig reduziert</span></td>
-      <td><span class="preview">Standardmäßig werden alle Abschnitte in einem benutzerdefinierten Formular erweitert, wenn das Formular selbst erweitert wird. Wählen Sie diese Option aus, damit der Abschnitt standardmäßig reduziert wird, wenn ein Benutzer das Formular öffnet.</span></td>
+      <td>Standardmäßig reduziert</td>
+      <td>Standardmäßig werden alle Abschnitte in einem benutzerdefinierten Formular erweitert, wenn das Formular selbst erweitert wird. Wählen Sie diese Option aus, damit der Abschnitt standardmäßig reduziert wird, wenn ein Benutzer das Formular öffnet.</td>
      <tr>
      </tr>
      <tr> 
@@ -120,7 +118,7 @@ Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten 
      </tr> 
      <tr> 
       <td role="rowheader"><p>Logik hinzufügen</p></td> 
-      <td><p>Verwenden Sie Anzeigelogik , um anzugeben, ob der Abschnitt basierend auf den Auswahlen, die Benutzer in benutzerdefinierten Feldern mit Mehrfachauswahl treffen, wenn sie das Formular ausfüllen, im Formular angezeigt werden soll.</p><p><strong>HINWEIS</strong> Wenn auf alle einzelnen Felder unter einem Abschnittsumbruch eine Anzeigelogik angewendet wurde und sie infolge der Logik alle ausgeblendet sind, wird der gesamte Abschnitt im benutzerdefinierten Formular ausgeblendet. Dies geschieht auch dann, wenn die Anzeigelogik nicht auf den Abschnittsumbruch angewendet wird.</p><p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">Anzeigelogik hinzufügen und Logik mit dem Formular-Designer überspringen</a>.</p></td> 
+      <td><p>Verwenden Sie Anzeigelogik , um anzugeben, ob der Abschnitt basierend auf den Auswahlen, die Benutzer in benutzerdefinierten Feldern mit Mehrfachauswahl treffen, wenn sie das Formular ausfüllen, im Formular angezeigt werden soll.</p><p><strong>HINWEIS</strong> Wenn auf alle einzelnen Felder unter einem Abschnittsumbruch eine Anzeigelogik angewendet wurde und sie infolge der Logik alle ausgeblendet sind, wird der gesamte Abschnitt im benutzerdefinierten Formular ausgeblendet. Dies geschieht auch dann, wenn die Anzeigelogik nicht auf den Abschnittsumbruch angewendet wird.</p><p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">Hinzufügen von Logikregeln zu benutzerdefinierten Formularen und Feldern</a>.</p></td> 
      </tr> 
     </tbody> 
    </table>

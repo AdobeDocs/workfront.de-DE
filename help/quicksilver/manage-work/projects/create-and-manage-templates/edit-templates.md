@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
-source-wordcount: '4971'
+source-wordcount: '5076'
 ht-degree: 3%
 
 ---
@@ -268,7 +268,7 @@ Old:
 1. Beginnen Sie mit der Bearbeitung Ihrer Vorlage wie oben beschrieben.
 1. Klicken Sie im Feld **Vorlage bearbeiten** auf **Finanzen**.
 
-   ![Abschnitt „Finanzen“ des Vorlagenfelds bearbeiten](assets/edit-template-box-finance-section.png)
+   ![Abschnitt „Finanzen“ des Vorlagenfelds bearbeiten](assets/edit-template-finance-section-040626.png)
 
 1. Aktualisieren Sie die folgenden Felder:
 
@@ -276,6 +276,14 @@ Old:
     <col> 
     <col> 
     <tbody> 
+     <tr>
+      <td><strong>Informationen zu Projektabrechnungssätzen beibehalten</strong></td>
+      <td><p>Wenn Sie diese Option aktivieren, werden alle Zuweisungs-Abrechnungssätze dauerhaft auf den höchsten anwendbaren Satz aus der Abrechnungshierarchie eingefroren. Dies ist eine einmalige Auswahl, und Sie können die Option nicht deaktivieren, sobald das Projekt Arbeitsaufträge oder Stunden hat. Nach der Beibehaltung können Abrechnungssätze für Zuweisungen an keiner Stelle im Projekt geändert, bearbeitet oder überschrieben werden.</p></td>
+     </tr>
+     <tr>
+      <td><strong>Verwenden von datumswirksamen Wechselkursen aus dem System</strong></td>
+      <td><p>Wenn diese Option ausgewählt ist, werden immer die datumswirksamen Wechselkurse auf Systemebene verwendet, und es sind keine Wechselkursüberschreibungen im Projekt zulässig.</p> <p>Sie müssen auch das <strong>Wechselkursdatum</strong> auswählen, um mit der Auswahl der Option zu beginnen.</p></td> 
+     </tr>
       <tr> 
       <td role="rowheader"><strong>Währung</strong></td> 
       <td><p>Geben Sie die Währung für das zukünftige Projekt an, wenn sie sich von der Standardwährung Ihres Systems unterscheidet. Dieses Feld ist nicht sichtbar, wenn Sie nur die Standardwährung im System haben.<br>Weitere Informationen zur Währung finden Sie unter <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Einrichten von Wechselkursen</a>.</p></td> 
@@ -523,7 +531,7 @@ Durch die Bearbeitung von Anfrageeinstellungen können Sie Benutzer daran hinder
 
    Wenn diese Option deaktiviert wird, können Benutzende mit der Berechtigung, dem aus der Vorlage erstellten Projekt Probleme hinzuzufügen, dies über die Schaltfläche „Neues Problem“ oder eine mit dem Projekt verknüpfte Anfrage-Warteschlange tun.
 
-   Weitere Informationen zum Konfigurieren von Anfrageeinstellungen für Projekte finden Sie [&#x200B; Abschnitt „Anfrageeinstellungen](../../../manage-work/projects/manage-projects/edit-projects.md#issue) im Artikel [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
+   Weitere Informationen zum Konfigurieren von Anfrageeinstellungen für Projekte finden Sie [ Abschnitt „Anfrageeinstellungen](../../../manage-work/projects/manage-projects/edit-projects.md#issue) im Artikel [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
    Informationen zum Erstellen von Problemen in Projekten finden Sie unter [Erstellen von Problemen](../../../manage-work/issues/manage-issues/create-issues.md).
 
@@ -648,7 +656,7 @@ Editing templates in bulk differs depending on which environment you are using.
 
 1. Klicken Sie auf die Abschnitte auf der linken Seite, um alle ausgewählten Vorlagen zu bearbeiten.
 
-   Weitere Informationen zum Bearbeiten von Informationen zu Vorlagen finden Sie [&#x200B; Abschnitt „Bearbeiten einer &#x200B;](#edit-a-template)&quot; in diesem Artikel.
+   Weitere Informationen zum Bearbeiten von Informationen zu Vorlagen finden Sie [ Abschnitt „Bearbeiten einer ](#edit-a-template)&quot; in diesem Artikel.
 
 1. Aktualisieren Sie die folgenden Abschnitte der ausgewählten Vorlagen:
 

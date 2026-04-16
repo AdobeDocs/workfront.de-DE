@@ -11,7 +11,7 @@ role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '507'
 ht-degree: 10%
@@ -26,8 +26,6 @@ ht-degree: 10%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-{{highlighted-preview}}
-
 Als Adobe Workfront-Administrator oder Gruppenadministrator können Sie Layout-Vorlagen erstellen und ändern, um die folgenden Layout-Elemente in Workfront für Ihre Benutzerinnen und Benutzer anzupassen:
 
 * Hauptmenü
@@ -36,8 +34,8 @@ Als Adobe Workfront-Administrator oder Gruppenadministrator können Sie Layout-V
 * Bedienfeld „Zusammenfassung“
 * Ansichten, Filter und Gruppierungen, die Benutzer mit Listen und Berichten verwenden.
 * Terminologie auf dem Bildschirm
-* <span class="preview">Objektkopfzeilen</span>
-* <span class="preview">Menü „Mehr“ (Dreipunkt-Menü) für ein Objekt</span>
+* Objektkopfzeilen
+* Menü „Mehr“ (Dreipunkt-Menü) für ein Objekt
 
 Nachdem Sie eine Layout-Vorlage erstellt oder geändert haben, können Sie sie einzelnen Benutzern, Teams, Gruppen oder Aufgabengebieten zuweisen.
 

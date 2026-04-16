@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 4ce13e7d46efb026c1d42a61f4fce4bf1a37bb5f
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 10%
+source-wordcount: '728'
+ht-degree: 11%
 
 ---
 
 # Anpassen des Hauptmenüs mithilfe einer Layout-Vorlage
-
-{{highlighted-preview}}
 
 <!--Audited: 01/2024-->
 
@@ -31,7 +29,7 @@ Als Adobe Workfront-Administrator oder Gruppenadministrator können Sie eine Lay
 
 Informationen zum Erstellen von Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-Vorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
 
-Weitere Informationen zu Layout-Vorlagen für Gruppen finden [&#x200B; unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 Nachdem Sie eine Layout-Vorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die von Ihnen vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layout-Vorlage an Benutzer finden Sie unter [Zuweisen von Benutzern zu einer Layout-Vorlage](../use-layout-templates/assign-users-to-layout-template.md).
 
@@ -124,8 +122,6 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
      >
      > Benutzerdefinierte Programme müssen separat erstellt werden, bevor sie als Hauptmenüoptionen verfügbar werden. Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Programms für Workfront mit Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
-<div class="preview">
-
 In der Vorschau-Umgebung:
 
 1. Führen Sie einen der folgenden Schritte für die **nativen** Elemente aus:
@@ -139,17 +135,9 @@ In der Vorschau-Umgebung:
    * Elemente ![Symbol ausblenden](assets/remove-icon---x-in-circle.png), die nicht im Hauptmenü angezeigt werden sollen.
    * ![Symbol anzeigen](assets/add-icon-plus-in-circle.png) Elemente anzeigen, die im Hauptmenü angezeigt werden sollen.
 
-</div>
-
->[!NOTE]
->
-><span class="preview">Die Reihenfolge der Systemelemente kann nicht geändert werden. Diese Elemente werden immer unten im Hauptmenü angezeigt, wenn sie aktiv sind.</span>
-
-1. Führen Sie in der Produktionsumgebung einen der folgenden Schritte aus:
-
-   * Ausblenden ![Symbol ausblenden](assets/remove-icon---x-in-circle.png) **Aktive Elemente** die nicht angezeigt werden sollen
-   * &quot;![-Symbol](assets/add-icon-plus-in-circle.png) **Verfügbare Elemente** anzeigen, die nicht im Hauptmenü angezeigt werden sollen.
-   * Ziehen Sie ![Symbol ziehen](assets/move-icon---dots.png) **Aktive Elemente**, um ihre Anzeigereihenfolge im Hauptmenü zu ändern.
+   >[!NOTE]
+   >
+   >Die Reihenfolge der Systemelemente kann nicht geändert werden. Diese Elemente werden immer unten im Hauptmenü angezeigt, wenn sie aktiv sind.
 
 1. Klicken Sie auf **Fertig**.
 

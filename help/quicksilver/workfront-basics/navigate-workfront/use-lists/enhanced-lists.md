@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 59a9725e7697a81be2a827a902ee3d23085a2ecd
+source-git-commit: 2131e91f5269ca5b9f062b6bc6b2cb618f9d279a
 workflow-type: tm+mt
 source-wordcount: '2915'
 ht-degree: 2%
@@ -15,8 +15,6 @@ ht-degree: 2%
 ---
 
 # Verwenden von erweiterten Listen
-
-{{preview-fast-release-general}}
 
 Erweiterte Listen sind in einigen Bereichen von Adobe Workfront verfügbar. Diese Listen verwenden ein Tabellenformat für die Anzeige der Listenelemente und haben ein anderes Erscheinungsbild als die Standardlisten. Die Verwaltung von Ansichten wurde ebenfalls verbessert, einschließlich Filtern, Gruppieren, Verwalten von Spalten und Suchen.
 
@@ -64,13 +62,12 @@ Im Folgenden finden Sie einige Typen von Workfront-Objektlisten, die das erweite
 | Prioritäten | <ul><li>Startseite > Wählen Sie im linken Menü das Symbol Prioritäten aus.</li><li>Hauptmenü > Prioritäten</li></ul> |
 | Liste der Anfragen | <ul><li>Anfragen (nur für neue Erlebnisse)</li><li>Widget „Meine Anfragen“ auf der Startseite</li></ul> |
 | Listen mit Status, Prioritäten, Schweregraden und Wechselkursen im Setup | <ul><li>Setup > Projektvoreinstellungen > Status</li><li>Setup > Projektvoreinstellungen > Prioritäten</li><li>Setup > Projektvoreinstellungen > Schweregrade</li><li>Einrichten > Projektvoreinstellungen > Wechselkurse</li></ul> |
-| <span class="preview">Liste der Berichte</span> | <span class="preview">Berichte (**Freigebbare Ordner verwenden** müssen aktiviert sein)</span> |
-| <span class="preview">Liste der Aufgabengebiete und Tarife auf einer Tarifkarte</span> | <span class="preview">Einrichten > Tarifkarten > Tarifkarte auswählen > Aufgabengebiete und Tarife</span> |
-| <span class="preview">Liste der Übersetzungen</span> | <span class="preview">Einrichtung > Lokalisierung</span> |
-| <span class="preview">Liste der Momentaufnahmen</span> | <span class="preview">Projekt > Momentaufnahmen</span> |
-| <span class="preview">Liste der Ressourcen für die Abrechnung</span> | <span class="preview">Projekt > Ressource für Abrechnung</span> |
-| <span class="preview">Neue erweiterte Zuweisungen zu einer Aufgabe</span> | <span class="preview">Aufgabe > Arbeitsaufträge > Erweiterte </span> |
-
+| Liste von Berichten | Berichte (**Freigebbare Ordner verwenden** müssen aktiviert sein) |
+| Liste der Aufgabengebiete und Tarife auf einer Tarifkarte | Einrichten > Tarifkarten > Tarifkarte auswählen > Aufgabengebiete und Tarife |
+| Liste der Übersetzungen | Setup > Lokalisierung |
+| Liste der Momentaufnahmen | Projekt > Momentaufnahmen |
+| Liste der Ressourcen für die Abrechnung | Projekt > Ressource für Abrechnung |
+| Neue erweiterte Zuweisungen für eine Aufgabe | Aufgabe > Arbeitsaufträge > Erweitert |
 
 ## Hinzufügen von Elementen zu einer erweiterten Liste
 
@@ -189,23 +186,19 @@ So fügen Sie Spalten hinzu und entfernen sie:
 
    Die Liste aktualisiert die Spalten entsprechend den von Ihnen getroffenen Entscheidungen.
 
-<div class="preview">
-
 ### Ändern der Zeilenhöhe in einer Ansicht
 
 >[!NOTE]
 >
 >Nicht alle erweiterten Listen enthalten alle in diesem Abschnitt beschriebenen Elemente.
 
-1. Klicken Sie auf **Symbol „Zeilenhöhe** ![&#x200B; (Symbol „Zeilenhöhe](assets/row-height-icon.png) in einer erweiterten Liste.
+1. Klicken Sie auf **Symbol „Zeilenhöhe** ![ (Symbol „Zeilenhöhe](assets/row-height-icon.png) in einer erweiterten Liste.
 
    Dadurch wird die vertikale Länge einer Zeile aktualisiert. Wählen Sie aus den folgenden Optionen:
    * Kurz
    * Standard. Dies ist die Standardauswahl.
    * Mittel
    * Groß
-
-</div>
 
 ## Aktualisieren von erweiterten Listenelementen
 
@@ -261,17 +254,15 @@ So geben Sie eine Ansicht frei:
 
    * **Ansicht**: Benutzer können die Ansicht auf die Liste anwenden, sie jedoch nicht freigeben.
 
-     <span class="preview">Wenn Benutzer mit Ansichtszugriff die Ansicht aktualisieren, werden diese Änderungen in den persönlichen Voreinstellungen des Benutzers gespeichert. Ein blauer Punkt auf dem Ansichtsnamen (in der **Freigegebenen Ansichten**) zeigt an, dass persönliche Aktualisierungen auf die Ansicht angewendet werden.</span>
+     Wenn Benutzer mit Ansichtszugriff die Ansicht aktualisieren, werden diese Änderungen in den persönlichen Voreinstellungen des Benutzers gespeichert. Ein blauer Punkt auf dem Ansichtsnamen (in der **freigegebenen Ansichten)**, dass persönliche Aktualisierungen auf die Ansicht angewendet werden.
 
    * **Verwalten**: Benutzer können die Ansicht umbenennen, freigeben oder löschen und die Elemente der Ansicht bearbeiten.
 
-     <span class="preview">Wenn Benutzer „Zugriff verwalten“ Änderungen an der Ansicht vornehmen, werden diese Aktualisierungen allen Benutzern angezeigt, für die die Ansicht freigegeben ist, wenn die Ansicht auf die Liste angewendet wird.</span>
+     Wenn Benutzer „Zugriff verwalten“ Änderungen an der Ansicht vornehmen, werden diese Aktualisierungen allen Benutzern angezeigt, für die die Ansicht freigegeben ist, wenn die Ansicht auf die Liste angewendet wird.
 
 1. Klicken Sie auf **Speichern**.
 
-   <span class="preview">Wenn Sie eine Ansicht für einen Benutzer freigeben und diesen Zugriff dann entfernen, wird die Ansicht aus den „Freigegebenen **&quot; des Benutzers**. Wenn die freigegebene Ansicht des Benutzers auf die Liste angewendet wurde, als sein Zugriff entfernt wurde, wird die Systemstandardansicht angewendet.</span>
-
-<div class="preview">
+   Wenn Sie eine Ansicht für einen Benutzer freigeben und diesen Zugriff dann entfernen, wird die Ansicht aus den „Freigegebenen **&quot; des** entfernt. Wenn die freigegebene Ansicht des Benutzers auf die Liste angewendet wurde, als sein Zugriff entfernt wurde, wird die Systemstandardansicht angewendet.
 
 ### Kopieren einer Ansicht
 
@@ -291,10 +282,6 @@ Wenn eine Ansicht für Sie freigegeben wurde, für die Sie keine Bearbeitungsber
    >
    >Die **Mit Voreinstellungen kopieren** ist nur verfügbar, wenn Sie Änderungen an einer Ansicht vorgenommen haben, die für Sie freigegeben wurde.
 
-</div>
-
-<div class="preview">
-
 ### Ansicht zurücksetzen
 
 >[!NOTE]
@@ -313,10 +300,6 @@ Wenn eine Ansicht für Sie freigegeben wurde, für die Sie keine Bearbeitungsber
 
    ![Ansichtsoptionen kopieren und zurücksetzen](assets/glist-copy-view-shared-with-you.png)
 
-</div>
-
-<div class="preview">
-
 ### Anwenden einer bedingten Formatierung in einer Ansicht
 
 >[!NOTE]
@@ -334,7 +317,7 @@ Mit der bedingten Formatierung können Sie wichtige Informationen in der Ansicht
    >
    >Nur in der erweiterten Liste sichtbare Felder sind für die bedingte Formatierung verfügbar.
 
-1. (Optional) Anstatt einen Feldwert hinzuzufügen, klicken Sie auf das Symbol **Mit einem anderen Feld vergleichen** (![&#x200B; mit einem anderen Feld vergleichen](assets/compare-to-another-field-icon.png) und wählen Sie ein Feld aus, dessen Wert Sie mit dem Wert des ausgewählten Felds vergleichen möchten. Beispielsweise können Sie die Felder „Betreff“ und „Beschreibung“ in Anfrageelementen vergleichen.
+1. (Optional) Anstatt einen Feldwert hinzuzufügen, klicken Sie auf das Symbol **Mit einem anderen Feld vergleichen** (![ mit einem anderen Feld vergleichen](assets/compare-to-another-field-icon.png) und wählen Sie ein Feld aus, dessen Wert Sie mit dem Wert des ausgewählten Felds vergleichen möchten. Beispielsweise können Sie die Felder „Betreff“ und „Beschreibung“ in Anfrageelementen vergleichen.
 
    >[!TIP]
    >
@@ -349,7 +332,7 @@ Mit der bedingten Formatierung können Sie wichtige Informationen in der Ansicht
 1. Klicken Sie auf den **OR**-Connector zwischen Bedingungen, um zu **AND** zu wechseln und anzugeben, dass mehrere Bedingungen gleichzeitig erfüllt sein müssen. **Oder** ist der Standard-Connector.
 1. Wählen Sie in **Zeile** Format“ ein Feld aus, um anzugeben, welche Spalte formatiert werden soll.
 1. (Optional) Klicken Sie auf das Symbol **Farbkreis** Symbol ![Farbformat-Symbol](assets/color-format-icon.png) neben dem ausgewählten Feld, um es zu erweitern und eine andere Farbe im Bereich **Zellenfüllung** auszuwählen, um die Farbe des Hintergrunds in einer Zelle zu ändern, oder wählen Sie eine Farbe aus dem Bereich **Textfarbe** aus, um die Farbe des Textes in einer Zelle zu ändern.
-1. Klicken Sie auf das Symbol **Textformat** ![&#x200B; (](assets/text-format-icon.png)) und wählen Sie eine der folgenden Optionen aus, um den Text in einer Zelle zu formatieren:
+1. Klicken Sie auf das Symbol **Textformat** ![ (](assets/text-format-icon.png)) und wählen Sie eine der folgenden Optionen aus, um den Text in einer Zelle zu formatieren:
    * Fett
    * Kursiv
 
@@ -362,8 +345,6 @@ Mit der bedingten Formatierung können Sie wichtige Informationen in der Ansicht
    Dadurch gelangen Sie zurück zur Listenansicht.
 Die Formatierung wird sofort auf die Listenansicht angewendet.
 Ein blauer Punkt neben dem Symbol **Zellen formatieren** gibt an, dass auf die Ansicht eine besondere Formatierung angewendet wurde.
-
-</div>
 
 ### Elemente in einer erweiterten Liste filtern
 
@@ -385,9 +366,7 @@ Filter helfen Ihnen, die Menge an Informationen zu reduzieren, die Sie in der Li
 
    >[!TIP]
    >
-   ><span class="preview">Um einen personalisierten Filter anzuwenden, wählen Sie eine der folgenden Optionen für einen Feldwert aus:</span>
-   >
-   ><div class="preview">
+   >Um einen personalisierten Filter anzuwenden, wählen Sie eine der folgenden Optionen für einen Feldwert aus:
    >
    >* **Ich (angemeldeter Benutzer)** um in Feldern, die auf Benutzer verweisen, auf den angemeldeten Benutzer zu verweisen.
    >
@@ -398,8 +377,6 @@ Filter helfen Ihnen, die Menge an Informationen zu reduzieren, die Sie in der Li
    >* **Meine Firma**, um auf Ihre Firma in Feldern zu verweisen, die auf Firmen verweisen.
    > 
    >* **Meine Rollen** oder **Meine primäre Rolle**, um auf Ihre Aufgabengebiete in Feldern zu verweisen, die auf Rollen verweisen.
-   >
-   ></div>
 
 1. Klicken Sie **Bedingung hinzufügen**, um dem Filter eine weitere Bedingung hinzuzufügen.
 

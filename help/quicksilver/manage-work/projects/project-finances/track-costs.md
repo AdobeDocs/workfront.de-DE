@@ -7,7 +7,7 @@ description: Sie können Kosten für Projekte, Aufgaben und Probleme in Adobe Wo
 author: Lisa
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: cb21414992587c62c37580f156100f2b5b755e9b
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
 source-wordcount: '2755'
 ht-degree: 1%
@@ -18,11 +18,7 @@ ht-degree: 1%
 
 <!-- Audited: 02/2024 -->
 
-{{highlighted-preview}}
-
 Sie können Kosten für Projekte, Aufgaben und Probleme in Adobe Workfront verfolgen.
-
-<div class="preview">
 
 ## Wie Workfront Kosten berechnet - Workflow-Ultimate-Paket
 
@@ -47,8 +43,6 @@ Die folgenden Szenarien sind vorhanden:
   Weitere Informationen zur Kostensatzhierarchie finden Sie unter [Übersicht über Umsatz und Kostenhierarchie](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md).
 
 * Workfront berechnet nur die Ist-Kosten für Probleme, und Probleme haben keinen Kostentyp. Weitere Informationen finden Sie im Abschnitt [So verfolgt Workfront die Kosten für Probleme](#how-workfront-tracks-costs-for-issues) in diesem Artikel.
-
-</div>
 
 ## Wie Workfront die Kosten berechnet - alle anderen Pakete
 
@@ -116,7 +110,7 @@ Sie können verschiedene Arten von Kosten für Aufgaben und Projekte in Workfron
    </tbody> 
   </table>
 
-  Weitere Informationen finden Sie [&#x200B; Abschnitt „Wie Workfront geplante, budgetierte und Istkosten berechnet](#how-workfront-calculates-planned-budgeted-and-actual-costs) in diesem Artikel.
+  Weitere Informationen finden Sie [ Abschnitt „Wie Workfront geplante, budgetierte und Istkosten berechnet](#how-workfront-calculates-planned-budgeted-and-actual-costs) in diesem Artikel.
 
 * **Ausgabenkosten** sind mit Ausgaben für Projekte und Aufgaben verknüpft.\
   Wenn Sie ein Projekt erstellen, können Sie geplante Ausgaben für das gesamte Projekt festlegen. Darüber hinaus können Sie Ausgaben neuen oder vorhandenen Aufgaben zuordnen. Weitere Informationen finden Sie unter [Projektausgaben verwalten](../../../manage-work/projects/project-finances/manage-project-expenses.md).
@@ -228,8 +222,8 @@ In der folgenden Tabelle werden die in Workfront verfügbaren Aufgabenkostentype
    <td> <p><strong>Geplante Kosten</strong> werden anhand der folgenden Formel berechnet: </p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost+ Task Planned Expense Cost</code> </p> <p>Wo die geplanten Lohnkosten für die Aufgabe wie folgt berechnet werden:</p> <p><code>Task Planned Labor Cost = Planned Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Hinweis: Wenn Sie einem Vorgang mehrere Ressourcen zuordnen, passt Workfront die Berechnungen für geplante Stunden auf der Grundlage des Prozentsatzes des Vorgangs an, der jeder Ressource zugewiesen wurde. Außerdem berücksichtigt der Stundensatz in der Formel alle Datumsänderungen, die wirksam sind.</p> <p><strong>Istkosten</strong> werden anhand der folgenden Formel berechnet: </p> <p><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>Wo die Ist-Lohnkosten der Aufgabe wie folgt berechnet werden:</p> <p><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate of the Job Role assigned to the task</code> </p> <p>Beispielsweise wird eine Aufgabe einem Aufgabengebiet oder einem Benutzer mit einem Aufgabengebiet zugewiesen, für das der Kostensatz pro Stunde 20 $ beträgt. Wenn ein(e) Benutzende(r) 5 Stunden für eine Aufgabe protokolliert, betragen die tatsächlichen Lohnkosten für diese Aufgabe 100 USD. Wenn dem Benutzer, der der Aufgabe zugewiesen wurde, kein Aufgabengebiet zugeordnet ist, das dieser Aufgabe zugeordnet ist, werden die Istkosten auf der Grundlage des Stundensatzes für das Primäre Aufgabengebiet berechnet. Wenn er kein Aufgabengebiet hat oder der Stundensatz des Aufgabengebiets nicht definiert ist, sind die Istkosten der Aufgabe gleich null. </p> <p>Hinweis: Die tatsächlichen Stunden einer stündlichen Aufgabe auf Basis einer Funktion werden anhand der Aufgabengebiete der mit der Aufgabe verbundenen Benutzer und nicht anhand der Rollen des Benutzers berechnet, der die Zeit erfasst. Außerdem berücksichtigt der Stundensatz Anschaffungs-/Herstellungskosten in der Formel alle Datumsänderungen, die zum Zeitpunkt des Inkrafttretens des Satzes wirksam sind.</p> <p>Wenn Ihr Workfront-Administrator bei Setup die Einstellung <strong>Aufgabengebiete zu Stundeneinträgen manuell zuweisen</strong> im Bereich Arbeitszeittabellen- und Stunden-Voreinstellungen aktiviert hat und die Benutzenden, die die Zeit für die Aufgabenerfassung protokollieren, eine andere Rolle auswählen, die dieser Zeit zugeordnet werden soll, werden die Istkosten für eine Stundenaufgabe für Aufgabengebiete auf der Grundlage der Rolle berechnet, die beim Protokollieren der Stunden angegeben wurde. Informationen zur Aktivierung der Protokollierungszeit für ein bestimmtes Aufgabengebiet finden Sie im Artikel <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref">Konfigurieren von Arbeitszeittabellen- und Stundeneinstellungen</a>.</p> </p> </td> 
   </tr>
   <tr> 
-   <td> <p><span class="preview">Stundensatz nach Benutzerin bzw. Benutzer und Rolle</span></p> </td> 
-   <td> <p><span class="preview"><strong>Geplante Kosten</strong> werden anhand der folgenden Formel berechnet:</span></p> <p><span class="preview"><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost + Task Planned Expense Cost</code> </span></p> <p><span class="preview">Wo die geplanten Lohnkosten für die Aufgabe wie folgt berechnet werden:</span></p> <p><span class="preview"><code>Planned Labor Cost = Planned Hours * Cost per Hour Rate according to the hierarchy</code> </span></p> <p><span class="preview"><strong>Istkosten</strong> werden anhand der folgenden Formel berechnet:</span></p> <p><span class="preview"><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code> </span></p> <p><span class="preview">Wo die Ist-Lohnkosten der Aufgabe wie folgt berechnet werden:</span></p> <p><span class="preview"><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate according to the hierarchy</code> </span></p> </td> 
+   <td> <p>&gt;Benutzer und Funktion pro Stunde</p> </td> 
+   <td> <p><strong>Geplante Kosten</strong> werden anhand der folgenden Formel berechnet:</p> <p><code style="font-style: normal;">Task Planned Cost = Task Planned Labor Cost + Task Planned Expense Cost</code></p> <p>Wo die geplanten Lohnkosten für die Aufgabe wie folgt berechnet werden:</p> <p><code>Planned Labor Cost = Planned Hours * Cost per Hour Rate according to the hierarchy</code></p> <p><strong>Istkosten</strong> werden anhand der folgenden Formel berechnet:</p> <p><code style="font-style: normal;">Task Actual Cost = Task Actual Labor Cost + Task Actual Expense Cost</code></p> <p>Wo die Ist-Lohnkosten der Aufgabe wie folgt berechnet werden:</p> <p><code>Task Actual Labor Cost = Actual Hours * Cost per Hour Rate according to the hierarchy</code></p> </td> 
   </tr> 
   <tr> 
    <td> <p>Festgelegt pro Stunde</p> </td> 

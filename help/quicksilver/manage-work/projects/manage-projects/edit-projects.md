@@ -9,7 +9,7 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
 source-wordcount: '7855'
 ht-degree: 2%
@@ -409,9 +409,7 @@ So bearbeiten Sie Felder im Bereich Finanzen:
 1. Beginnen Sie mit der Bearbeitung Ihres Projekts wie oben beschrieben.
 1. Klicken Sie **linken** auf „Finanzen“.
 
-   ![Finanzbereich im Projektbearbeitungsfeld](assets/nwe-finance-in-edit-project-box-350x183.png)
-
-   <!--![Finance area in the project edit box](assets/edit-project-finance-section.png)-->
+   ![Finanzbereich im Projektbearbeitungsfeld](assets/edit-project-finance-section.png)
 
 1. Aktualisieren Sie die folgenden Finanzinformationen für das Projekt:
 
@@ -420,12 +418,12 @@ So bearbeiten Sie Felder im Bereich Finanzen:
     <col> 
     <tbody> 
      <tr>
-      <td><strong><span class="preview">Verwenden von datumswirksamen Wechselkursen aus dem System</span></strong></td>
-      <td><p><span class="preview">Wenn diese Option ausgewählt ist, werden immer die datumswirksamen Wechselkurse auf Systemebene verwendet, und es sind keine Wechselkursüberschreibungen im Projekt zulässig.</span></p> <p><span class="preview">Sie müssen auch das <strong>Wechselkursdatum</strong> auswählen, um mit der Auswahl der Option zu beginnen.</span></p></td> 
+      <td><strong>Verwenden von datumswirksamen Wechselkursen aus dem System</strong></td>
+      <td><p>Wenn diese Option ausgewählt ist, werden immer die datumswirksamen Wechselkurse auf Systemebene verwendet, und es sind keine Wechselkursüberschreibungen im Projekt zulässig.</p> <p>Sie müssen auch das <strong>Wechselkursdatum</strong> auswählen, um mit der Auswahl der Option zu beginnen.</p></td> 
      </tr>
      <tr>
-      <td><strong><span class="preview">Informationen zu Projektabrechnungssätzen beibehalten</span></strong></td>
-      <td><p><span class="preview">Wenn Sie diese Option aktivieren, werden alle Zuweisungs-Abrechnungssätze dauerhaft auf den höchsten anwendbaren Satz aus der Abrechnungshierarchie eingefroren. Dies ist eine einmalige Auswahl, und Sie können die Option nicht deaktivieren, sobald das Projekt Arbeitsaufträge oder Stunden hat. Nach der Beibehaltung können Abrechnungssätze für Zuweisungen an keiner Stelle im Projekt geändert, bearbeitet oder überschrieben werden.</span></p></td>
+      <td><strong>Informationen zu Projektabrechnungssätzen beibehalten</strong></td>
+      <td><p>Wenn Sie diese Option aktivieren, werden alle Zuweisungs-Abrechnungssätze dauerhaft auf den höchsten anwendbaren Satz aus der Abrechnungshierarchie eingefroren. Dies ist eine einmalige Auswahl, und Sie können die Option nicht deaktivieren, sobald das Projekt Arbeitsaufträge oder Stunden hat. Nach der Beibehaltung können Abrechnungssätze für Zuweisungen an keiner Stelle im Projekt geändert, bearbeitet oder überschrieben werden.</p></td>
      </tr>
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Währung</strong> </td> 

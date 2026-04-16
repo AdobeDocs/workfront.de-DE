@@ -9,9 +9,9 @@ feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
-source-wordcount: '4542'
+source-wordcount: '4540'
 ht-degree: 1%
 
 ---
@@ -19,8 +19,6 @@ ht-degree: 1%
 # Überblick über Abrechnung und Umsatz
 
 <!-- Audited: 1/2024 -->
-
-{{highlighted-preview}}
 
 Als Projekt-Manager können Sie Abrechnungssätze verwenden, um den Umsatz Ihrer Projekte zu erfassen.
 
@@ -83,7 +81,7 @@ Sie können den Wert eines Abrechnungssatzes für Aufgabengebiete mithilfe der B
 
 Weitere Informationen zum Erstellen von Aufgabengebieten finden Sie im Artikel [Erstellen und Verwalten von Aufgabengebieten](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-![Bearbeiten der Kosten und Abrechnungssätze für Aufgabengebiete](assets/edit-job-role-multiple-billing-rates-new.png)
+![Abrechnungssätze für Aufgabengebiete bearbeiten](assets/edit-job-role-multiple-billing-rates-040826.png)
 
 ### Feste Abrechnungssätze für Projekte oder Aufgaben {#fixed-billing-rates-for-projects-or-tasks}
 
@@ -93,8 +91,6 @@ Zusätzlich zu den Stundensätzen für Benutzer und Aufgabengebiete können Sie 
 * Fester Betrag für Umsatztyp Feste Einnahmen
 
 Weitere Informationen dazu, wie die festen Abrechnungssätze zur Berechnung des Umsatzes verwendet werden, finden Sie unter [Übersicht über Aufgabenumsatztypen](#overview-of-task-revenue-types).
-
-<div class="preview">
 
 ### Abrechnungssätze überschreiben - Workflow-Ultimate-Paket
 
@@ -108,8 +104,6 @@ Auf Projektebene haben Sie folgende Möglichkeiten:
 * Überschreiben Sie einen Abrechnungssatz für einen bestimmten Benutzer in diesem Projekt.
 
 Abrechnungssatzüberschreibungen sind nicht generisch. Sie würden beispielsweise &quot;Designer&quot; nicht als Rolle überschreiben. Stattdessen würden Sie &quot;Designer - New York - Agency X“ für den entsprechenden Zeitraum mit Wirkung zum Datum außer Kraft setzen. Überschreibungen berücksichtigen die Abrechnungssatzhierarchie, sodass das System sie immer nach Priorität anwendet.
-
-</div>
 
 ### Abrechnungssätze überschreiben - alle anderen Pakete
 
@@ -192,7 +186,7 @@ Weitere Informationen zum Festlegen des Umsatztyps einer Aufgabe finden Sie im A
 
 >[!NOTE]
 >
-><span class="preview">Sie müssen über das Workflow-Ultimate-Paket verfügen, damit der Umsatztyp „Benutzer und Funktion pro Stunde“ verfügbar ist.</span>
+>Sie müssen über das Workflow-Ultimate-Paket verfügen, damit der Umsatztyp „Benutzer und Funktion pro Stunde“ verfügbar ist
 
 Sie können die folgenden Umsatztypen auf Ihre Aufgaben oder Projekte anwenden:
 
@@ -223,8 +217,8 @@ Dies ist der standardmäßige Umsatztyp beim Erstellen einer Aufgabe.</p> </td>
    <td> <p>Dieser Typ kann nur für Aufgaben verwendet werden.</p> <p>Dieser Typ ähnelt dem „Benutzer pro Stunde“, verwendet jedoch Tarife für Aufgabengebiete anstelle von Benutzerraten.</p> <p><strong>HINWEIS</strong><br> Ein Aufgabengebiet kann auch mehrere Abrechnungssätze mit Datum des Wirksamwerdens aufweisen.</p></td> 
   </tr> 
   <tr> 
-   <td> <p><span class="preview">Stundensatz nach Benutzerin bzw. Benutzer und Rolle</span></p> </td> 
-   <td> <p><span class="preview">Dieser Typ kann nur für Aufgaben verwendet werden.</span></p> <p><span class="preview">Dieser Typ untersucht Benutzer- und Rolleninformationen, um die entsprechende Rate zu ermitteln.</span></p></td> 
+   <td> <p>Stundensatz nach Benutzerin bzw. Benutzer und Rolle</p> </td> 
+   <td> <p>Dieser Typ kann nur für Aufgaben verwendet werden.</p> <p>Dieser Typ untersucht Benutzer- und Rolleninformationen, um die entsprechende Rate zu ermitteln.</p></td> 
   </tr>
   <tr> 
    <td> <p>Benutzer pro Stunde mit Obergrenze</p> </td> 
@@ -235,8 +229,8 @@ Dies ist der standardmäßige Umsatztyp beim Erstellen einer Aufgabe.</p> </td>
    <td> <p>Dieser Typ kann nur für Aufgaben verwendet werden.</p> <p>Dieser Typ ähnelt dem Benutzer „Stündlich mit Begrenzung“, verwendet jedoch Vorgangsrollensätze anstelle von Benutzerraten. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="preview">Benutzer und Funktion stündlich mit Begrenzung</span></p> </td> 
-   <td> <p><span class="preview">Dieser Typ kann nur für Aufgaben verwendet werden.</span></p> <p><span class="preview">Aufgaben werden stündlich wie in „Benutzer“ und „Funktion“ abgerechnet. Sie haben jedoch einen maximalen Höchstbetrag, den Sie angeben können.</span></p></td> 
+   <td> <p>Benutzer und Funktion stündlich mit Begrenzung</p> </td> 
+   <td> <p>Dieser Typ kann nur für Aufgaben verwendet werden.</p> <p>Aufgaben werden stündlich wie in „Benutzer“ und „Funktion“ abgerechnet. Sie haben jedoch einen maximalen Höchstbetrag, den Sie angeben können.</p></td> 
   </tr>
   <tr> 
    <td> <p>Benutzer pro Stunde plus festgelegt</p> </td> 
@@ -247,8 +241,8 @@ Dies ist der standardmäßige Umsatztyp beim Erstellen einer Aufgabe.</p> </td>
    <td> <p>Dieser Typ kann nur für Aufgaben verwendet werden. </p> <p>Aufgaben werden stündlich wie in Funktion „Stündlich“ abgerechnet, es gibt jedoch einen zusätzlichen festen Betrag, den Sie zum Abrechnungssatz hinzufügen können. Der für die Aufgabe angegebene Festbetrag kann in den Rechnungsnachweisen für das Projekt enthalten sein. Der Festbetrag wird nicht mit den Stunden für die Aufgabe multipliziert. Nur der Abrechnungssatz für das Aufgabengebiet ist gültig. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="preview">Stundensatz nach Benutzerin bzw. Benutzer und Rolle plus Festbetrag</span></p> </td> 
-   <td> <p><span class="preview">Dieser Typ kann nur für Aufgaben verwendet werden.</span></p> <p><span class="preview">Aufgaben werden stündlich als „Benutzer“ und „Funktion“ abgerechnet. Sie können jedoch einen zusätzlichen festen Betrag zum Tarif hinzufügen. Der für die Aufgabe angegebene Festbetrag kann in den Rechnungsnachweisen für das Projekt enthalten sein. Der Festbetrag wird nicht mit den Stunden für die Aufgabe multipliziert.</span></p></td> 
+   <td> <p>Stundensatz nach Benutzerin bzw. Benutzer und Rolle plus Festbetrag</p> </td> 
+   <td> <p>Dieser Typ kann nur für Aufgaben verwendet werden.</p> <p>Aufgaben werden stündlich als „Benutzer“ und „Funktion“ abgerechnet. Sie können jedoch einen zusätzlichen festen Betrag zum Tarif hinzufügen. Der für die Aufgabe angegebene Festbetrag kann in den Rechnungsnachweisen für das Projekt enthalten sein. Der Festbetrag wird nicht mit den Stunden für die Aufgabe multipliziert.</p></td> 
   </tr>
   <tr> 
    <td> <p>Festgelegt pro Stunde</p> </td> 
@@ -295,13 +289,9 @@ Das System verwendet eine Hierarchie, um zu bestimmen, welcher Satz in Umsatzber
 
 Wenn Ihr Workfront-Administrator die Einstellung **Aufgabengebiete zu Stundeneinträgen manuell zuweisen** im Bereich Arbeitszeittabellen- und Stunden-Voreinstellungen aktiviert hat und die Benutzenden, die für das Projekt die Zeit erfassen, eine andere Rolle auswählen, die mit dieser Zeit verknüpft werden soll, wird der tatsächliche Umsatz der Aufgabe oder des Projekts immer auf der Grundlage der Rolle berechnet, die mit dem Stundeneintrag verknüpft ist. Informationen zur Aktivierung der Protokollierungszeit für ein bestimmtes Aufgabengebiet finden Sie im Artikel [Konfigurieren von Arbeitszeittabellen- und Stundeneinstellungen](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-<div class="preview">
-
 Für den Umsatztyp „Benutzer und Funktion - Stündlich“ kann ein Aufgabengebiet für die Fakturierung sowohl auf Projekt- als auch auf Zuordnungsebene definiert werden. Wenn sie auf Projektebene für einen bestimmten Benutzer definiert ist, wird diese Rolle während des Gültigkeitszeitraums, für den Sie sie beantragt haben, automatisch auf alle Zuweisungen dieses Benutzers übertragen. Sie können diese Rate bei Bedarf immer noch auf Zuweisungsebene überschreiben. Beispiel: Das primäre Aufgabengebiet einer Benutzerin oder eines Benutzers ist Designer, aber Sie haben ihr Aufgabengebiet für die Abrechnung für ein Projekt als Senior Designer für den Monat August festgelegt. Alle Aufgaben, denen sie im August zugewiesen sind, verwenden automatisch den Abrechnungssatz für Senior Designer.
 
 Für eine bestimmte Aufgabe können Sie die Funktion jedoch nur für diese Zuweisung außer Kraft setzen, um die in Rechnung gestellte Arbeit widerzuspiegeln. Auf diese Weise unterstützt das System sowohl die projektweite Konsistenz als auch die Flexibilität auf Zuweisungsebene. Weitere Informationen finden Sie unter [Übersicht über Umsatz und Kostenhierarchie](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md) und [Erweiterte Zuordnungen erstellen](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md).
-
-</div>
 
 Bei der Berechnung des Aufgabenumsatzes basierend auf dem Umsatztyp und der Art der Aufgabenzuweisung gibt es die folgenden Szenarien:
 
@@ -372,16 +362,12 @@ Bei der Berechnung des Aufgabenumsatzes basierend auf dem Umsatztyp und der Art 
    </tbody> 
   </table>
 
-<div class="preview">
-
 * **Der Umsatztyp der Aufgabe lautet „Benutzer und Funktion pro Stunde“**
 
 | Abrechnung pro Stundensatz | Keine Zuweisung | Benutzerzuweisung | Zuweisung eines Aufgabengebiets |
 | --- | --- | --- | --- |
 | Abrechnung des Satzes pro Stunde für den geplanten Umsatz | 0,00 $ | Wenn ein(e) Benutzende(r) zugewiesen wird, sucht das System in einer bestimmten Reihenfolge nach dem Satz, beginnend mit einem beibehaltenen Abrechnungssatz. Als Nächstes folgen ein gesperrter Satz, ein manuell eingegebener Satz für die Zuweisung, das Aufgabengebiet für die Fakturierung der Zuweisung, die Überschreibung des Abrechnungssatzes für Benutzer auf Projektebene, das Aufgabengebiet für die Fakturierung auf Projektebene, der Systemsatz für Benutzer und der primäre Aufgabengebiet-Satz des Benutzers. <p> Weitere Informationen finden Sie unter [Übersicht über Umsatz und Kostenhierarchie](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Wenn ein Aufgabengebiet zugewiesen wird, sucht das System zunächst nach einem beibehaltenen Abrechnungssatz und dann nach einem gesperrten Satz auf der Tarifkarte für das Aufgabengebiet in der Zuweisung. Als Nächstes wird nach einer Aufgabengebiet-Rate gesucht, die manuell zur Zuweisung hinzugefügt wurde. Wenn dieser Tarif nicht gefunden wird, wird auf Projektebene nach einem Tarif für Aufgabengebiete gesucht, zuerst auf der Tarifkarte und dann im Systemtarif. <p> Weitere Informationen finden Sie unter [Übersicht über Umsatz und Kostenhierarchie](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). |
 | Abrechnungssatz pro Stunde für tatsächlichen Umsatz | Für die Berechnung werden nur die Tarife berücksichtigt, die dem Benutzer zugeordnet sind, der die Zeit erfasst hat, auch wenn der Aufgabe ein anderer Benutzer zugeordnet ist. <p> Das System sucht in einer bestimmten Reihenfolge nach dem Satz, beginnend mit einem einbehaltenen Abrechnungssatz. Als Nächstes folgen ein gesperrter Zinssatz, eine Überschreibung des Abrechnungssatzes für das Projekt, das Aufgabengebiet für die Abrechnung, der Satz auf Systemebene für das Benutzerprofil des Eigentümers und der Abrechnungssatz für das primäre Aufgabengebiet des Eigentümers. <p> Weitere Informationen finden Sie unter [Übersicht über Umsatz und Kostenhierarchie](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Wenn ein(e) Benutzende(r) zugewiesen wird, sucht das System in einer bestimmten Reihenfolge nach dem Satz, beginnend mit einem beibehaltenen Abrechnungssatz. Als Nächstes folgen ein gesperrter Satz, ein manuell eingegebener Satz für die Zuweisung, das Aufgabengebiet für die Fakturierung der Zuweisung, die Überschreibung des Abrechnungssatzes für Benutzer auf Projektebene, das Aufgabengebiet für die Fakturierung auf Projektebene, der Systemsatz für Benutzer und der primäre Aufgabengebiet-Satz des Benutzers. <p> Weitere Informationen finden Sie unter [Übersicht über Umsatz und Kostenhierarchie](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Wenn ein Aufgabengebiet zugewiesen wird, sucht das System zunächst nach einem beibehaltenen Abrechnungssatz und dann nach einem gesperrten Satz auf der Tarifkarte für das Aufgabengebiet in der Zuweisung. Als Nächstes wird nach einer Aufgabengebiet-Rate gesucht, die manuell zur Zuweisung hinzugefügt wurde. Wenn dieser Tarif nicht gefunden wird, wird auf Projektebene nach einem Tarif für Aufgabengebiete gesucht, zuerst auf der Tarifkarte und dann im Systemtarif. Weitere Informationen finden Sie unter [Übersicht über Umsatz und Kostenhierarchie](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). |
-
-</div>
 
 ### Einnahmenberechnungen für Projekte
 
@@ -391,12 +377,12 @@ Sie können die folgenden Umsatztypen für Projekte verfolgen:
 
   `Project Planned Revenue = SUM(Task Planned Revenue)+ Fixed Revenue`
 
-  Informationen zur Berechnung des geplanten Aufgabenumsatzes finden Sie im Abschnitt [Umsatzberechnungen für Aufgaben basierend auf Benutzer- und &#x200B;](#revenue-calculations-for-tasks-based-on-user-and-role-assignments)) in diesem Artikel.
+  Informationen zur Berechnung des geplanten Aufgabenumsatzes finden Sie im Abschnitt [Umsatzberechnungen für Aufgaben basierend auf Benutzer- und ](#revenue-calculations-for-tasks-based-on-user-and-role-assignments)) in diesem Artikel.
 
 * Die tatsächlichen Einnahmen für ein Projekt werden anhand der folgenden Formel berechnet:
 
   `Project Actual Revenue = SUM (Task Actual Revenue) + (Hours logged for the project x User Billing per Hour Rate) + SUM (Hours logged for the issues x User Billing per Hour rate)`
 
-Informationen zur Berechnung des tatsächlichen Aufgabenumsatzes finden Sie im Abschnitt [Umsatzberechnungen für Aufgaben basierend auf Benutzer- und &#x200B;](#revenue-calculations-for-tasks-based-on-user-and-role-assignments)) in diesem Artikel.
+Informationen zur Berechnung des tatsächlichen Aufgabenumsatzes finden Sie im Abschnitt [Umsatzberechnungen für Aufgaben basierend auf Benutzer- und ](#revenue-calculations-for-tasks-based-on-user-and-role-assignments)) in diesem Artikel.
 
 Für den tatsächlichen Umsatz in Verbindung mit den Stunden, die direkt im Projekt erfasst werden, oder mit den Problemen verwendet Workfront den Abrechnungssatz der Person, die die Zeit im Projekt erfasst. Wenn dem/der Benutzenden kein Abrechnungssatz zugeordnet ist, verwendet Workfront den Abrechnungssatz des Primären Aufgabengebiets. Wenn beide Sätze null sind, ist der tatsächliche Umsatz, der mit den für das Projekt oder die Probleme protokollierten Stunden verbunden ist, null.

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 0%
+source-wordcount: '446'
+ht-degree: 14%
 
 ---
 
@@ -21,7 +21,7 @@ Mit dem Formular-Designer können Sie Objekttypen in einem vorhandenen benutzerd
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ Mit dem Formular-Designer können Sie Objekttypen in einem vorhandenen benutzerd
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -57,7 +57,6 @@ Sie können dem Formular zusätzliche Objekttypen hinzufügen, damit es mit mehr
 >
 >Weitere Informationen finden Sie unter [Wie mehrere Objekttypen sich auf die Berechtigungen für den Abschnittsumbruch auswirken können](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md#how-multiple-object-types-can-affect-section-break-permissions).
 
-
 {{step-1-to-setup}}
 
 1. Klicken Sie **linken Bedienfeld** Benutzerdefinierte Forms&quot;.
@@ -66,11 +65,11 @@ Sie können dem Formular zusätzliche Objekttypen hinzufügen, damit es mit mehr
 
 1. Wählen Sie das benutzerdefinierte Formular aus, dem Sie zusätzliche Objekttypen hinzufügen möchten, und klicken Sie dann auf ![Symbol „Bearbeiten](assets/edit-icon2.png).
 
-1. Klicken Sie oben im Formular auf das Pluszeichen + nach **Objekttypen** und wählen Sie dann im angezeigten Menü den gewünschten Typ aus. Sie können dies wiederholen, um beliebig viele Objekttypen hinzuzufügen.
+1. Klicken Sie oben im Formular auf **Objekttypen** und wählen Sie dann den Typ aus, den Sie dem angezeigten Menü hinzufügen möchten. Sie können diesen Vorgang wiederholen, um beliebig viele Objekttypen hinzuzufügen.
 
-   ![Neues Objekt hinzufügen](assets/add-new-object.png)
+   ![Neues Objekt hinzufügen](assets/add-new-object-to-custom-form-041026.png)
 
-1. Klicken Sie **Speichern und schließen**.
+1. Klicken Sie auf **Speichern und schließen**.
 
    >[!TIP]
    >
@@ -92,9 +91,5 @@ So löschen Sie einen Objekttyp:
 
 1. Klicken Sie **linken Bedienfeld** Benutzerdefinierte Forms&quot;.
 1. Wählen Sie das benutzerdefinierte Formular aus, das Sie bearbeiten möchten, und klicken Sie dann auf ![Symbol „Bearbeiten](assets/edit-icon2.png).
-1. Klicken Sie auf das X auf einem der **Objekttypen** die Sie aus dem Formular löschen möchten.
-
-   ![Objekttypen löschen](assets/delete-object-types.png)
-
-1. (Optional) Wiederholen Sie den vorherigen Schritt für jeden anderen Objekttyp, den Sie aus dem Formular entfernen möchten.
+1. Klicken Sie oben im Formular auf **Objekttypen** und deaktivieren Sie dann die Kontrollkästchen für die Objekte, die Sie aus dem Formular löschen möchten.
 1. Klicken Sie **Anwenden** und anschließend auf **Speichern und schließen**.

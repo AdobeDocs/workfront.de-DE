@@ -8,7 +8,8 @@ description: 'Sie können eine Layout-Vorlage verwenden, um die Optionen zu best
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 2faeea4f8128b7858232048d687c270a1e3709f5
+exl-id: bee0117d-a15b-494a-833a-179a42ae4f74
+source-git-commit: 665b15170805feba2b55850faf1b73cdc0416305
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 10%
@@ -17,15 +18,13 @@ ht-degree: 10%
 
 # Anpassen des Menüs Mehr mithilfe einer Layout-Vorlage
 
-{{highlighted-preview-article-level}}
-
 Sie können eine Layout-Vorlage verwenden, um die Optionen zu bestimmen, die angezeigt werden, wenn Benutzende auf das Menü Mehr (das Dreipunkt-Menü) klicken, während sie die folgenden Objekte in Adobe Workfront anzeigen: Projekte, Aufgaben, Probleme, Portfolios und Programme.
 
 ![Beispielmenü „Mehr“ für ein Projekt](assets/more-menu-display-for-project.png)
 
 Informationen zum Erstellen von Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-Vorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
 
-Weitere Informationen zu Layout-Vorlagen für Gruppen finden [&#x200B; unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 Nachdem Sie eine Layout-Vorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die von Ihnen vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layout-Vorlage an Benutzer finden Sie unter [Zuweisen von Benutzern zu einer Layout-Vorlage](../use-layout-templates/assign-users-to-layout-template.md).
 

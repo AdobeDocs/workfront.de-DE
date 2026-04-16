@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: d45c34b1f48a7ffcae29556d34558bb4d1d8a016
+source-git-commit: f895803007a8f606169589bc4b17c19711c9e3f8
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 9%
+source-wordcount: '898'
+ht-degree: 7%
 
 ---
 
@@ -65,16 +65,35 @@ Sie können mithilfe einer standardmäßigen Zugriffsebene oder einer benutzerde
 
 ## Benutzerzugriff konfigurieren, um Benutzer mithilfe einer benutzerdefinierten Zugriffsebene zu bearbeiten
 
-1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. So ändern Sie die Möglichkeit von Benutzern mit einer Plan- oder Arbeitslizenz, die Profile anderer Benutzer anzuzeigen:
+1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. Um zu ändern, dass Benutzer mit einer Standard-, Plan- oder Arbeitslizenz Informationen für andere Benutzer anzeigen können, klicken Sie auf das Zahnradsymbol ![Zahnradsymbol](assets/gear-icon-settings.png) auf der Schaltfläche **Anzeigen** rechts neben **Benutzer** und wählen Sie dann die Anzeigeoptionen aus, die Sie gewähren möchten, **Sie Ihre Einstellungen optimieren**:
 
-   1. Klicken Sie auf das Zahnradsymbol ![](assets/gear-icon-settings.png) der Schaltfläche **Anzeigen** rechts neben **Benutzer**.
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><strong>Abrechnungssätze anzeigen</strong> </td> 
+      <td> Ermöglicht Benutzern das Anzeigen von Abrechnungssätzen für Benutzerprofile.</td>  
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Kontaktinformationen anzeigen</strong> </td> 
+      <td> Ermöglicht Benutzern das Anzeigen von Benutzerdetailseiten anderer Benutzer.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Kostensätze anzeigen</strong> </td> 
+      <td> Ermöglicht Benutzern das Anzeigen von Kostensätzen für Benutzerprofile.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Allgemeine Finanzen anzeigen</strong> </td> 
+      <td> Ermöglicht Benutzern die Anzeige allgemeiner Finanzfelder (die nicht mit Abrechnungs- oder Kostensätzen in Zusammenhang stehen) für Benutzerprofile.</td>
+     </tr> 
+    </tbody> 
+   </table>
 
-   1. Deaktivieren Sie **Kontaktinformationen anzeigen** und klicken Sie dann auf das X, um das Feld **Feinabstimmung der Einstellungen** zu schließen.
+   ![Benutzereinstellungen für die Ansicht optimieren](assets/fine-tune-view-users.png)
 
-      ![Benutzereinstellungen optimieren](assets/fine-tune-users.png)
-
-1. Um die Möglichkeit von Benutzern mit einer Planlizenz zu ändern, andere Benutzer zu bearbeiten, klicken Sie auf das Zahnradsymbol ![](assets/gear-icon-settings.png) auf der Schaltfläche **Bearbeiten** rechts neben **Benutzer** und wählen Sie die Funktionen aus, die Sie gewähren möchten:
+1. Um die Möglichkeit von Benutzern mit einer Standard- oder Plan-Lizenz zum Bearbeiten anderer Benutzer zu ändern, klicken Sie auf das Zahnradsymbol ![Zahnradsymbol](assets/gear-icon-settings.png) auf der Schaltfläche **Bearbeiten** rechts neben **Benutzer** und wählen Sie dann die Bearbeitungsoptionen aus, die Sie gewähren möchten, **Sie Ihre Einstellungen optimieren**:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -89,6 +108,18 @@ Sie können mithilfe einer standardmäßigen Zugriffsebene oder einer benutzerde
      <tr> 
       <td role="rowheader"><strong>Löschen</strong> </td> 
       <td> <p> Ermöglicht Benutzern das Löschen der von ihnen selbst erstellten Benutzer.<br>Diese Option ist standardmäßig aktiviert.</p> <p><b>HINWEIS</b>: Dies ist nicht verfügbar, wenn Ihre Organisation in die Adobe Admin Console integriert wurde. Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Abrechnungssätze bearbeiten</strong> </td> 
+      <td> Ermöglicht Benutzern die Bearbeitung von Abrechnungssätzen für Benutzerprofile.</td>  
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Kostensätze bearbeiten</strong> </td> 
+      <td> Ermöglicht Benutzern die Bearbeitung von Kostensätzen für Benutzerprofile.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Allgemeine Finanzen bearbeiten</strong> </td> 
+      <td> Ermöglicht Benutzern die Bearbeitung allgemeiner Finanzfelder (die nicht mit Abrechnungs- oder Kostensätzen in Verbindung stehen) für Benutzerprofile.</td>
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Benutzeradmin. (Alle Benutzer)</strong> </td> 
@@ -108,6 +139,18 @@ Sie können mithilfe einer standardmäßigen Zugriffsebene oder einer benutzerde
          <li><p>Zurücksetzen des Benutzerkennworts</p><p><b>HINWEIS</b>: Ein Gruppenadministrator kann sich nicht als Administrator anmelden oder das Kennwort eines Workfront-Administrators zurücksetzen.</p></li>
         </ul><p>Standardmäßig ist diese Option deaktiviert.</p></p> </td> 
      </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Abrechnungssätze anzeigen</strong> </td> 
+      <td> Ermöglicht Benutzern das Anzeigen von Abrechnungssätzen für Benutzerprofile.</td>  
+     </tr>
+     <tr> 
+      <td role="rowheader"><strong>Kostensätze anzeigen</strong> </td> 
+      <td> Ermöglicht Benutzern das Anzeigen von Kostensätzen für Benutzerprofile.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><strong>Allgemeine Finanzen anzeigen</strong> </td> 
+      <td> Ermöglicht Benutzern die Anzeige allgemeiner Finanzfelder (die nicht mit Abrechnungs- oder Kostensätzen in Zusammenhang stehen) für Benutzerprofile.</td>
+     </tr>
     </tbody> 
    </table>
 
