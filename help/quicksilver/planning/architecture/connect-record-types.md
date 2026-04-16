@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 539f87ddeab85eb6e8a028bcb6e394c3cd179c4d
 workflow-type: tm+mt
-source-wordcount: '3077'
+source-wordcount: '3071'
 ht-degree: 4%
 
 ---
@@ -94,7 +94,7 @@ Ein Beispiel für das Verbinden von Datensatztypen und Datensätzen finden Sie u
    <ul><li><p>Eine Adobe Experience Manager Assets-Lizenz und eine Integration zwischen AEM Assets und Workfront, um AEM-Assets mit Planungs-Datensatztypen zu verbinden.</p>
    <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront für Experience Manager Assets und Assets Essentials: Artikelindex</a>. </p></li>
    <li><p> Eine Adobe GenStudio for Performance Marketing-Lizenz zum Verbinden von Datensatztypen mit GenStudio Brands</p>
-   <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -258,9 +258,9 @@ Old:
    </div>
 
 
-   * **Experience Manager Assets** im Abschnitt **Adobe-**.
+   * **Experience Manager** im Abschnitt **Adobe-**.
 
-     ![AEM Assets-Verbindungsauswahl](assets/aem-assets-connection-selection.png)
+     ![AEM Assets-Verbindungsauswahl](assets/aem-assets-connection-selection-041326.png)
 
      Für den ausgewählten Datensatz oder Objekttyp wird eine neue Registerkarte Verbindung geöffnet.
 
@@ -315,14 +315,14 @@ Old:
    >
    > Sie müssen benutzerdefinierte Formulare in Workfront für die ausgewählten Objekte erstellen, bevor sie in dieser Liste angezeigt werden.
 
-1. (Bedingt) Wenn Sie eine Verbindung zu Experience Manager Assets herstellen möchten, wählen Sie ein Repository aus dem Dropdown-Menü **Experience Manager** im Abschnitt **Verknüpfen von Assets aus dem folgenden Repository** aus. Dies ist ein Pflichtfeld. In diesem Feld werden nur Repositorys angezeigt, auf die Sie in Experience Manager Assets Zugriff haben.
+1. (Bedingt) Wenn Sie eine Verbindung zu Experience Manager herstellen möchten, wählen Sie ein Repository aus dem Dropdown-Menü **Experience Manager** im Abschnitt **Verknüpfen von Assets aus dem folgenden Repository** aus. Dies ist ein Pflichtfeld. In diesem Feld werden nur Repositorys angezeigt, auf die Sie in Experience Manager Zugriff haben.
 
    >[!NOTE]
    >
-   >Ihr Workfront-Administrator kann Workfront Planning-Felder über die Metadatenzuordnung in Workfront Experience Manager Assets-Feldern zuordnen. Weitere Informationen finden Sie unter &quot;[&#x200B; der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >Ihr Workfront-Administrator kann Workfront Planning-Felder über die Metadatenzuordnung in Workfront Experience Manager-Feldern zuordnen. Weitere Informationen finden Sie unter &quot;[ der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
-1. (Bedingt) Wenn Sie eine Verbindung zu Experience Manager Assets, zu einem Workfront Planning-Datensatztyp oder zu einer GenStudio-Marke herstellen möchten, wählen Sie im Bereich „Erscheinungsbild des **&quot; eine der folgenden Optionen**:
+1. (Bedingt) Wenn Sie eine Verbindung zu Experience Manager, zu einem Workfront Planning-Datensatztyp oder zu einer GenStudio-Marke herstellen möchten, wählen Sie im Bereich „Erscheinungsbild des **&quot; eine der folgenden Optionen**:
 
    * **Name und Bild**: Sowohl der Name als auch die Miniaturansicht oder das Symbol der verbundenen Datensätze werden im Feld Verbundener Datensatz angezeigt. Dies ist die Standardoption.
    * **Name**: Im Feld Verbundener Datensatz wird nur der Name der verbundenen Datensätze angezeigt.
@@ -406,9 +406,8 @@ Old:
    >[!NOTE]
    >
    > Aggregatoren sind nicht verfügbar, wenn Datensatztypen mit folgenden Elementen verbunden werden:
-   >* Experience Manager Assets
+   >* Experience Manager
    >* GenStudio-Marken.
-   >
 
    Wählen Sie aus den folgenden Optionen aus:
 
