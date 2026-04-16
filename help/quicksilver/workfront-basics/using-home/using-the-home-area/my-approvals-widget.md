@@ -6,7 +6,7 @@ description: Das Widget Meine Genehmigungen zeigt alle ausstehenden, zugewiesene
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 276a33f5-92de-440c-ae3a-8cd01731434f
-source-git-commit: 30e27ba5a12733660a88cd7e9643bea868503774
+source-git-commit: bd70f4a92eab8861d87316f5e21b0d7ca7e8c31f
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 16%
@@ -14,8 +14,6 @@ ht-degree: 16%
 ---
 
 # Verwalten Ihrer Genehmigungen mit dem Widget „Meine Genehmigungen“
-
-{{highlighted-preview}}
 
 Das Widget Meine Genehmigungen zeigt alle ausstehenden, zugewiesenen, delegierten und gesendeten Genehmigungen an einer Stelle an. Hier können Sie Ihre Genehmigungen filtern und organisieren, Entscheidungen treffen und Genehmigungen nach Bedarf delegieren.
 
@@ -73,10 +71,10 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
    >Genehmigungen, die Aufgabengebieten oder Gruppen zugewiesen wurden, werden nicht auf der Startseite angezeigt. Genehmigungen, die Teams zugewiesen wurden, werden für jedes Teammitglied im Widget Meine Genehmigungen angezeigt.
 
 
-1. <span class="preview">(Bedingt) Klicken Sie auf das **Sortieren** Dropdown-Menü und wählen Sie dann **Neueste zuerst** aus, um die zuletzt hinzugefügten Genehmigungen anzuzeigen.</span>
+1. (Bedingt) Klicken Sie auf das **Sortieren** Dropdown-Menü und wählen Sie dann **Neueste zuerst**, um die zuletzt hinzugefügten Genehmigungen anzuzeigen.
 
 
-1. <span class="preview">(Optional) Klicken Sie auf das Vollbildsymbol ![Vollbildsymbol), &#x200B;](assets/full-screen.png) das Widget Meine Genehmigungen im Vollbildmodus zu öffnen.</span>
+1. (Optional) Klicken Sie auf das Vollbildsymbol ![Vollbildsymbol), ](assets/full-screen.png) das Widget Meine Genehmigungen im Vollbildmodus zu öffnen.
 
 1. Wählen Sie das Element aus, für das Sie eine Genehmigungsentscheidung treffen möchten.
 

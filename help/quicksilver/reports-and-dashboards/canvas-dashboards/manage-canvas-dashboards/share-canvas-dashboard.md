@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
+source-git-commit: 3e76f4a798a55a674a5ada2661c4b6bbb55195f2
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 9%
@@ -16,8 +16,6 @@ ht-degree: 9%
 ---
 
 # Freigeben eines Arbeitsflächen-Dashboards
-
-{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -86,7 +84,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 * Wenn ein Dashboard über eine Layout-Vorlage verteilt wird, wird allen Ressourcen, die der Layout-Vorlage zugewiesen sind, eine automatische Ansichtsberechtigung für das Dashboard (und dessen Berichte) gewährt.
 
-* <span class="preview">Wenn ein Bericht in einem Dashboard mit der Option Als Benutzer ausführen konfiguriert ist, sehen alle Viewer Daten, die auf den Berechtigungen der ausgewählten Benutzenden und nicht auf ihren eigenen basieren. Das bedeutet, dass Betrachterinnen und Betrachter möglicherweise Daten sehen, auf die sie normalerweise keinen Zugriff haben. Wenn einige Berichte in einem Dashboard die Funktion „Als Benutzer ausführen“ verwenden und andere nicht, werden den Betrachtern möglicherweise inkonsistente Daten in allen Berichten angezeigt.</span>
+* Wenn ein Bericht in einem Dashboard mit der Option Als Benutzer ausführen konfiguriert ist, sehen alle Viewer Daten, die auf den Berechtigungen der ausgewählten Benutzenden und nicht auf ihren eigenen basieren. Das bedeutet, dass Betrachterinnen und Betrachter möglicherweise Daten sehen, auf die sie normalerweise keinen Zugriff haben. Wenn einige Berichte in einem Dashboard die Funktion „Als Benutzer ausführen“ verwenden und andere nicht, werden den Betrachtern möglicherweise inkonsistente Daten in allen Berichten angezeigt.
 
 
 ## Freigeben eines Arbeitsflächen-Dashboards

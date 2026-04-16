@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 3e76f4a798a55a674a5ada2661c4b6bbb55195f2
 workflow-type: tm+mt
 source-wordcount: '1143'
 ht-degree: 6%
@@ -151,7 +151,7 @@ Wenn Sie einen Link für einen vorab ausgewählten Anfragetyp freigeben, ist der
 
 Sie können einen Link zur Anfragewarteschlange oder zu einem Warteschlangen-Thema, das unter einer Anfragewarteschlange verschachtelt ist, in ein Dashboard einbetten, um Benutzern direkten Zugriff auf eingegebene Anfragen zu gewähren.
 
-1. Rufen Sie eine URL für die Anforderungswarteschlange mit einer der Methoden ab, die im Abschnitt [Abrufen der URL &#x200B;](#obtain-the-url-of-the-request-queue) Anforderungswarteschlange“ dieses Artikels beschrieben sind.
+1. Rufen Sie eine URL für die Anforderungswarteschlange mit einer der Methoden ab, die im Abschnitt [Abrufen der URL ](#obtain-the-url-of-the-request-queue) Anforderungswarteschlange“ dieses Artikels beschrieben sind.
 
 1. Klicken Sie auf **Hauptmenü** > **Dashboards** > **Neues Dashboard**.
 
@@ -191,3 +191,4 @@ Sie können einen Link zur Anfragewarteschlange oder zu einem Warteschlangen-The
 <li value="6"> <p>For example, enter a URL similar to one of the following: </p> </li>
 </ol>
 -->
+

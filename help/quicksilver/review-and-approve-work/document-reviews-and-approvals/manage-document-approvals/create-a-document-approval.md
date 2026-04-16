@@ -8,22 +8,20 @@ feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 4%
+source-wordcount: '686'
+ht-degree: 6%
 
 ---
 
 # Erstellen eines Workflows für die Dokumentvalidierung
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
-
 Sie können die Genehmigung anderer Benutzer oder Teams für ein Dokument in Adobe Workfront anfordern oder diese auffordern, ein Dokument zu überprüfen, ohne es genehmigen zu müssen.
 
 >[!IMPORTANT]
 >
->Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Zugriffsanforderungen
 
@@ -60,51 +58,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 +++
 
-
-## Erstellen Sie auf der Dokumentseite in Ihrer Produktionsumgebung eine Anfrage zur Überprüfung oder Genehmigung eines Dokuments
-
-1. Bewegen Sie den Mauszeiger über das Dokument und klicken Sie dann auf Dokumentdetails.
-   ![Dokumentdetails](assets/doc-details.png)
-
-1. Wählen Sie in der Nähe des Dokumentnamens in der Dropdown-Liste Version die Version des Dokuments aus, für das Sie eine Genehmigung erstellen möchten. Standardmäßig ist die neueste Version ausgewählt.
-
-1. Klicken Sie **linken** auf „Genehmigungen“.
-
-1. (Optional) Legen Sie eine Frist für die Genehmigung fest. Benutzer und Teams werden 72 Stunden und dann 24 Stunden vor dem angegebenen Termin per E-Mail benachrichtigt.
-
-1. Um eine genehmigende Person hinzuzufügen, klicken Sie auf **genehmigende Person** und geben Sie einen Benutzer- oder Teamnamen ein.
-
-1. Um einen Reviewer hinzuzufügen, aktivieren Sie das **Reviewer** und geben Sie einen Benutzer- oder Teamnamen ein.
-
-   ![Genehmigende Person und Frist hinzufügen](assets/add-approver-and-deadline.png)
-
-1. Wiederholen Sie den vorherigen Schritt, um weitere genehmigende Personen oder Prüfer hinzuzufügen.
-
-## Erstellen Sie eine Anfrage zur Überprüfung oder Genehmigung eines Dokuments über das Bedienfeld Dokumentzusammenfassung in Ihrer Produktionsumgebung
-
-1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
-
-1. Klicken Sie auf das gewünschte Dokument. Daraufhin wird das linke Bedienfeld Dokumentzusammenfassung für dieses Dokument geöffnet.
-
-1. Wählen Sie in der Dropdown-Liste Version die Version des Dokuments aus, für das Sie eine Genehmigung erstellen möchten. Standardmäßig ist die neueste Version ausgewählt.
-
-1. Scrollen Sie nach unten zum Abschnitt **Genehmigungen** im Bereich Dokumentzusammenfassung und klicken Sie dann auf **Hinzufügen**.
-
-![Genehmigende Personen in der Dokumentzusammenfassung hinzufügen](assets/doc-summary-add-approvers.png)
-
-1. (Optional) Legen Sie eine Frist für die Genehmigung fest. Benutzer und Teams werden 72 Stunden und dann 24 Stunden vor dem angegebenen Termin per E-Mail benachrichtigt.
-
-1. Um eine genehmigende Person hinzuzufügen, klicken Sie auf **genehmigende Person** und geben Sie einen Benutzer- oder Teamnamen ein.
-
-1. Um einen Reviewer hinzuzufügen, aktivieren Sie das **Reviewer** und geben Sie einen Benutzer- oder Teamnamen ein.
-
-   ![Genehmigende Person und Frist hinzufügen](assets/add-approver-and-deadline.png)
-
-1. Wiederholen Sie den vorherigen Schritt, um weitere genehmigende Personen oder Prüfer hinzuzufügen.
-
-<div class="preview">
-
-## Erstellen Sie einen Validierungs-Workflow über das Bedienfeld Zusammenfassung in Ihrer Vorschau-Umgebung im Bereich „Alte Dokumente“
+## Erstellen Sie einen Validierungs-Workflow über das Bedienfeld Zusammenfassung im Bereich Alte Dokumente .
 
 Wenn sich Ihr Unternehmen im Workfront-Speicher befindet, wird der Bereich für veraltete Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Workfront-Speicher finden Sie unter [Workfront-Speicher im Vergleich zu Adobe Enterprise-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
 
@@ -148,7 +102,6 @@ So erstellen Sie einen Validierungs-Workflow:
 
    ![Dokumentdetails](assets/new-stage.png)
 
-</div>
 
 ## Erstellen eines Validierungs-Workflows über das Bedienfeld Zusammenfassung im neuen Dokumentbereich
 

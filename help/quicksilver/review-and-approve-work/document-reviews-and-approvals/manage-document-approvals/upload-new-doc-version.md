@@ -8,16 +8,14 @@ feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 7%
+source-wordcount: '650'
+ht-degree: 10%
 
 ---
 
 # Hochladen einer neuen Dokumentversion und Anfordern einer Genehmigung
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Wenn ein Dokument in einer früheren Überprüfung als „Überarbeitung erforderlich“ gekennzeichnet ist, können Sie eine neue Version in das Originaldokument hochladen und eine weitere Genehmigungsrunde starten. Nachdem Sie eine neue Version des Dokuments hochgeladen haben, werden die vorherigen Versionen gesperrt.
 
@@ -64,51 +62,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 +++
 
 
-## Verwenden Sie Drag &amp; Drop, um eine neue Version in Ihrer Produktionsumgebung hinzuzufügen
 
->[!NOTE]
->
->Drag-and-Drop funktioniert nicht mit Internet Explorer.
-
-
-Wenn Sie eine weitere Runde der Überprüfung und Genehmigung für ein Dokument benötigen, können Sie in Workfront eine neue Dokumentversion erstellen.
-
-Sie können die vorherigen Teilnehmer, neue Teilnehmer oder eine Mischung aus beiden hinzufügen. Informationen zu früheren Versionen und Teilnehmern finden Sie auf der Seite Dokumentdetails .
-
-Hinzufügen einer neuen Version:
-
-1. Navigieren Sie zum Dokument in Workfront.
-1. Ziehen Sie die neue Datei auf das vorherige Dokument. Dadurch wird automatisch eine neue Version erstellt.
-
-1. Nachdem das Dokument hochgeladen wurde, wählen Sie das Dokument aus und klicken Sie auf **Dokumentdetails**.
-   ![Öffnen Sie die Dokumentdetailseite](assets/open-doc-details.png)
-
-
-1. Klicken Sie im linken Bereich auf **Genehmigungen** und dann auf **Hinzufügen**.
-
-1. Um alle vorherigen Teilnehmer hinzuzufügen, klicken Sie auf **Alle hinzufügen**. Bei Bedarf können Sie auch neue Teilnehmer hinzufügen oder frühere Teilnehmer entfernen.
-
-
-1. Um eine vorhandene Validierungsvorlage hinzuzufügen, klicken Sie auf die Schaltfläche Vorlage und geben Sie einen Vorlagennamen ein.
-
-   >[!TIP]
-   >
-   >   Benutzer mit einer Standardlizenz können wiederverwendbare Genehmigungsvorlagen im Bereich „Setup“ erstellen. Weitere Informationen finden Sie unter [Erstellen einer Workflow-Vorlage für Genehmigungen für Dokumente](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
-
-
-1. (Optional) Legen Sie eine Frist für die Genehmigung fest. Benutzer und Teams werden 72 Stunden und dann 24 Stunden vor dem angegebenen Termin per E-Mail benachrichtigt.
-
-1. Nachdem Sie alle validierungsverantwortlichen Personen und genehmigenden Personen hinzugefügt haben, klicken Sie auf **Senden**. Die Teilnehmer werden per E-Mail benachrichtigt.
-
-   ![Neue Version zur Genehmigung einreichen](assets/add-previous-participants.png)
-
-
-
-
-
-<div class="preview">
-
-## Verwenden Sie Drag-and-Drop, um eine neue Version in Ihrer Vorschauumgebung im Bereich für veraltete Dokumente hinzuzufügen
+## Verwenden Sie Drag-and-Drop, um im Bereich für veraltete Dokumente eine neue Version hinzuzufügen
 
 Wenn sich Ihr Unternehmen im Workfront-Speicher befindet, wird der Bereich für veraltete Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Workfront-Speicher finden Sie unter [Workfront-Speicher im Vergleich zu Adobe Enterprise-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md#workfront-storage-vs-adobe-enterprise-storage).
 
@@ -175,8 +130,3 @@ Hinzufügen einer neuen Version:
 
    ![Genehmigung anfordern](assets/request-approval.png)
    <!--1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.-->
-
-
-
-</div>
-

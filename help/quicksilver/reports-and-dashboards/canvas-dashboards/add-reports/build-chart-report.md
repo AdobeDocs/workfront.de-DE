@@ -8,7 +8,7 @@ feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7716fb1c68bee2540556df98c227d8c5bae7b2d8
+source-git-commit: 3e76f4a798a55a674a5ada2661c4b6bbb55195f2
 workflow-type: tm+mt
 source-wordcount: '1917'
 ht-degree: 7%
@@ -16,9 +16,6 @@ ht-degree: 7%
 ---
 
 # Erstellen eines Diagrammberichts in einem Arbeitsflächen-Dashboard
-
-{{highlighted-preview}}
-
 
 >[!IMPORTANT]
 >
@@ -83,7 +80,7 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines Diagrammberichts zur 
 
 1. Klicken **oben rechts auf** Neues Dashboard“.
 
-1. Geben Sie in das Feld **Dashboard erstellen** den **&#x200B;**&#x200B;Namen“ und die **Beschreibung** des Dashboards ein.
+1. Geben Sie in das Feld **Dashboard erstellen** den **** Namen“ und die **Beschreibung** des Dashboards ein.
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -105,13 +102,12 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines Diagrammberichts zur 
       >
       >Es gibt eine maximale Anzahl von 60 Serien, die in einem Diagramm angezeigt werden können. Wenn dieses Kontrollkästchen aktiviert ist, werden alle Datenreihen über dem Grenzwert in einer **Sonstige** Gruppierung im Diagramm zusammengefasst.
 
-   1. <span class="preview">(Optional) Beginnen Sie im Feld **Diesen Bericht ausführen mit den Zugriffsrechten von** mit der Eingabe des Namens der Benutzerin oder des Benutzers, deren Berechtigungen Sie für den Bericht verwenden möchten, und wählen Sie dann die Benutzerin oder den Benutzer aus, wenn sie bzw. er in der Liste angezeigt wird. Wenn Sie einen Bericht so konfigurieren, dass er als ein anderer Benutzer ausgeführt wird, sehen alle Betrachter des Dashboards dieselben Daten, unabhängig von ihrer eigenen Zugriffsebene. Wenn Sie keinen Benutzer auswählen, sieht jeder Viewer Daten, die auf seinen eigenen Berechtigungen basieren.
+   1. (Optional) Geben Sie **Feld „Diesen Bericht mit Zugriffsrechten ausführen von** den Namen des Benutzers ein, dessen Berechtigungen Sie für den Bericht verwenden möchten, und wählen Sie dann den Benutzer aus, wenn er in der Liste angezeigt wird. Wenn Sie einen Bericht so konfigurieren, dass er als ein anderer Benutzer ausgeführt wird, sehen alle Betrachter des Dashboards dieselben Daten, unabhängig von ihrer eigenen Zugriffsebene. Wenn Sie keinen Benutzer auswählen, sieht jeder Viewer Daten, die auf seinen eigenen Berechtigungen basieren.
 
       >[!IMPORTANT]
       >
       >Wenn der ausgewählte Benutzer deaktiviert ist oder den Zugriff auf die relevanten Arbeitsbereiche oder Datensatztypen verliert, kann der Bericht unvollständige Daten anzeigen oder nicht gerendert werden.
 
-   </span>
 
 1. Wählen Sie den Diagrammtyp aus, den Sie erstellen möchten:
    * [Balken-, Spalten- oder Liniendiagramm](#bar-column-or-line-chart)
@@ -175,7 +171,7 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines Diagrammberichts zur 
 
 Gehen Sie wie folgt vor, um den Abschnitt **Filter** zu konfigurieren:
 
-1. Klicken Sie im linken Bedienfeld auf das Symbol **Filter**![&#x200B; Filter](assets/filter-icon.png).
+1. Klicken Sie im linken Bedienfeld auf das Symbol **Filter**![ Filter](assets/filter-icon.png).
 1. Wählen Sie **Filter bearbeiten** aus.
 1. Klicken Sie **Bedingung hinzufügen** und geben Sie dann das Feld an, nach dem Sie filtern möchten, sowie den Modifikator, der definiert, welche Art von Bedingung das Feld erfüllen muss.
 1. (Optional) Klicken Sie auf **Filtergruppe hinzufügen**, um einen weiteren Satz von Filterkriterien hinzuzufügen. Der Standardoperator zwischen den Sätzen ist UND. Klicken Sie auf den Operator, um ihn in ODER zu ändern.
@@ -210,7 +206,7 @@ In diesem Abschnitt werden die Schritte zum Erstellen eines Säulendiagramms erl
 
 1. Klicken **oben rechts auf** Neues Dashboard“.
 
-1. Geben Sie in das Feld **Dashboard erstellen** den **&#x200B;**&#x200B;Namen“ und die **Beschreibung** des Dashboards ein.
+1. Geben Sie in das Feld **Dashboard erstellen** den **** Namen“ und die **Beschreibung** des Dashboards ein.
 
 1. Klicken Sie auf **Erstellen**.
 
