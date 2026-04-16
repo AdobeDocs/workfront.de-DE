@@ -10,32 +10,19 @@ role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
 workflow-type: tm+mt
-source-wordcount: '1823'
+source-wordcount: '1864'
 ht-degree: 5%
 
 ---
 
 # Geschäftsregeln erstellen und bearbeiten
 
-<!--
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
--->
-
 Mit einer Geschäftsregel können Sie Validierungen auf Workfront-Objekte anwenden und Benutzer daran hindern, ein Objekt zu erstellen, zu bearbeiten oder zu löschen, wenn bestimmte Bedingungen erfüllt sind. Die Validierung von Geschäftsregeln hilft, die Datenqualität und die betriebliche Effizienz zu verbessern, indem Aktionen verhindert werden, die die Datenintegrität beeinträchtigen könnten.
 
-<!--
+Organisationen, die über das Workflow-Ultimate-Paket verfügen, können auch Geschäftsregeln konfigurieren, um Aktionen für das erstellte, bearbeitete oder geänderte Objekt zu automatisieren, wenn bestimmte Bedingungen erfüllt sind. Zu den verfügbaren Aktionen gehören die Freigabe des -Objekts oder das Anhängen eines benutzerdefinierten Formulars an das -Objekt.
 
-<div class="preview">
-
-Organizations that have the Workflow Ultimate package can also configure business rules to automate actions for the created, edited, or modified object when certain conditions are met. Available actions include sharing the object or attaching a custom form to the object.  
-
-</div>
-
--->
 
 Eine einzelne Geschäftsregel kann nur einem Objekt zugewiesen werden. Wenn Sie beispielsweise eine Geschäftsregel erstellen, um Projekte unter bestimmten Bedingungen nicht zu bearbeiten, können Sie dieselbe Regel nicht auf Aufgaben anwenden. Sie müssten eine separate Geschäftsregel mit denselben Bedingungen für Aufgaben erstellen.
 
@@ -91,7 +78,7 @@ Das Format einer Geschäftsregelvalidierung lautet: „Wenn die definierte Bedin
 
 Die Syntax für die Eigenschaften und andere Funktionen in einer Geschäftsregel entspricht der Syntax für ein berechnetes Feld in einem benutzerdefinierten Formular. Weitere Informationen zur Syntax finden Sie unter [Hinzufügen berechneter Felder mit dem Formular-Designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-Weitere Informationen zu IF-Anweisungen finden Sie unter [&#x200B; „IF“-Anweisungen - &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) und [Bedingungsoperatoren in berechneten benutzerdefinierten Feldern](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+Weitere Informationen zu IF-Anweisungen finden Sie unter [ „IF“-Anweisungen - ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) und [Bedingungsoperatoren in berechneten benutzerdefinierten Feldern](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
 Informationen zu benutzerbasierten Platzhaltern finden Sie unter [Verwenden von benutzerbasierten Platzhaltern zum Verallgemeinern von Berichten](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
@@ -261,7 +248,7 @@ Sie können Platzhalter in Aktionen mit Geschäftsregeln verwenden, wie im Absch
    * Das „Objekt“ ist der Objekttyp, den Sie beim Erstellen der Geschäftsregel ausgewählt haben. Er wird in der Überschrift des Dialogfelds angezeigt.
    * Die „Aktion“ ist der Trigger, den Sie für die Regel ausgewählt haben: Erstellen, Bearbeiten oder Löschen des Objekts.
    * Da das -Objekt und die Aktion bereits definiert sind, schließen Sie sie nicht in die Formel ein.
-   * Die benutzerdefinierte Fehlermeldung <span class="preview">ist nur enthalten, wenn die Regel zur Validierung verwendet wird, und </span> wird Benutzenden beim Trigger der Geschäftsregel angezeigt. Es sollte klare Anweisungen dazu geben, was schiefgelaufen ist und wie das Problem behoben werden kann.
+   * Die benutzerdefinierte Fehlermeldung ist nur enthalten, wenn die Regel zur Validierung vorgesehen ist, und wird Benutzenden beim Trigger der Geschäftsregel angezeigt. Es sollte klare Anweisungen dazu geben, was schiefgelaufen ist und wie das Problem behoben werden kann.
 
      Sie können der Fehlermeldung eine statische URL hinzufügen, um eine Verknüpfung zu Dokumentationen oder anderen hilfreichen Seiten herzustellen, die Benutzern dabei helfen, ihre Aktion innerhalb der Beschränkung der Regel zu ändern.
 
@@ -271,7 +258,7 @@ Sie können Platzhalter in Aktionen mit Geschäftsregeln verwenden, wie im Absch
 
    Dieses Beispiel ist eine Geschäftsregel für Projekte. Wenn der aktuelle Monat November ist, dürfen Benutzer keine neuen Projekte erstellen. Die Meldung erklärt dies.
 
-   Weitere Beispiele für Geschäftsregeln finden Sie unter [Szenarien für &#x200B;](#scenarios-for-business-rules) in diesem Artikel.
+   Weitere Beispiele für Geschäftsregeln finden Sie unter [Szenarien für ](#scenarios-for-business-rules) in diesem Artikel.
 
 1. (Optional) Verwenden Sie die Formel **Ausdrücke** und **Felder** im rechten Bedienfeld, um beim Erstellen der Regel zu helfen.
 
@@ -283,21 +270,19 @@ Sie können Platzhalter in Aktionen mit Geschäftsregeln verwenden, wie im Absch
 
    Für andere Pakete ist diese Option vorausgewählt.
 
-1. <span class="preview">(Bedingt) Wählen Sie die Aktion aus, um eine weitere Aktion zu automatisieren. </span>
+1. (Bedingt) Um eine weitere Aktion zu automatisieren, wählen Sie die Aktion aus.
 
-   <span class="preview">Weitere Informationen zu diesen Aktionen finden Sie im Abschnitt [Optionen zur Automatisierung von Geschäftsregeln](#business-rule-automation-options) in diesem Artikel.</span>
+   Weitere Informationen zu diesen Aktionen finden Sie im Abschnitt [Optionen zur Automatisierung von Geschäftsregeln](#business-rule-automation-options) in diesem Artikel.
 
    >[!NOTE]
    >
-   ><span class="preview">Ihre Organisation muss im Workflow-Ultimate-Paket enthalten sein, um neben der Validierung Aktionen zu verwenden. Wenn diese anderen Optionen nicht angezeigt werden, befindet sich Ihr Unternehmen nicht im Workflow-Ultimate-Paket.</span>
+   >Ihre Organisation muss im Workflow-Ultimate-Paket sein, um neben der Validierung Aktionen verwenden zu können. Wenn diese anderen Optionen nicht angezeigt werden, befindet sich Ihr Unternehmen nicht im Workflow-Ultimate-Paket.
 
 1. Klicken Sie **Speichern** wenn Sie mit dem Erstellen der Geschäftsregel fertig sind.
 
 >[!NOTE]
 >
 >Nachdem Sie eine Geschäftsregel hinzugefügt haben, sollten Sie sie testen, indem Sie das zugehörige Objekt hinzufügen, bearbeiten oder löschen, um sicherzustellen, dass die Regel ordnungsgemäß angewendet wird.
-
-<div class="preview">
 
 ### Automatisierungsoptionen für Geschäftsregeln
 
@@ -311,8 +296,6 @@ Sie können diese Aktionen so einstellen, dass sie automatisiert werden, wenn di
 |---|---|
 | Benutzerdefiniertes Formular anhängen | Wählen Sie das benutzerdefinierte Formular aus, das Sie hinzufügen möchten |
 | Objekt freigeben | Wählen Sie die Personen, Rollen, Gruppen, Unternehmen oder Zugriffsebenen aus, für die Sie das Objekt freigeben möchten. |
-
-</div>
 
 ## Aktivieren einer Geschäftsregel
 

@@ -10,9 +10,9 @@ role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
 workflow-type: tm+mt
-source-wordcount: '1612'
+source-wordcount: '1590'
 ht-degree: 8%
 
 ---
@@ -22,8 +22,6 @@ ht-degree: 8%
 <!--Audited: 12/2023-->
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help. -->
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Als Adobe Workfront-Administrator können Sie benutzerdefinierte Zugriffsebenen erstellen und sie auf Benutzende anwenden. Bei der Arbeit mit Zugriffsebenen ist es wichtig zu verstehen, wie diese mit den Objektberechtigungen zusammenarbeiten, die Benutzende erteilen, wenn sie Objekte miteinander teilen. Weitere Informationen zu Zugriffsebenen finden Sie unter:
 
@@ -203,13 +201,13 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
    </table>
 
 
-1. <span class="preview">(Optional) Um zu verhindern, dass Benutzer mit dieser Zugriffsebene bestimmte Felder anzeigen können, fügen Sie die Felder im Abschnitt „Eingeschränkte Felder hinzufügen“ hinzu.</span>
+1. (Optional) Um zu verhindern, dass Benutzer mit dieser Zugriffsebene bestimmte Felder sehen, fügen Sie die Felder im Abschnitt „Eingeschränkte Felder hinzufügen“ hinzu.</span>
 
-   <span class="preview">Sie können in diesem Abschnitt sowohl nach nativen als auch nach benutzerdefinierten Feldern suchen. Es gibt eine Beschränkung von 20 eingeschränkten Feldern.</span>
+   Sie können in diesem Abschnitt sowohl nach nativen als auch nach benutzerdefinierten Feldern suchen. Es gibt eine Beschränkung von 20 eingeschränkten Feldern.
 
-   <span class="preview">Die Felder sind eingeschränkt, wenn die Zugriffsebene einem Benutzer als primäre Zugriffsebene oder über ein Geschäftsprofil zugewiesen wird. Weitere Informationen zu Geschäftsprofilen finden Sie unter [Geschäftsprofile - Übersicht](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).</span>
+   Die Felder sind eingeschränkt, wenn die Zugriffsebene einem Benutzer als primäre Zugriffsebene oder über ein Geschäftsprofil zugewiesen wird. Weitere Informationen zu Geschäftsprofilen finden Sie unter [Geschäftsprofile - Übersicht](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
 
-   <span class="preview">Ein eingeschränktes Feld ist für die Benutzenden im System weiterhin sichtbar, wird jedoch als leer angezeigt oder zeigt K. A. anstelle tatsächlicher Daten an.</span>
+   Ein eingeschränktes Feld ist für die Benutzenden im System weiterhin sichtbar, wird jedoch als leer angezeigt oder zeigt K. A. anstelle von tatsächlichen Daten an.
 
 1. (Bedingt und optional) Wenn Ihr Workfront-System für Benutzende eingerichtet ist, die mehreren Unternehmen angehören, sollten Sie die Sichtbarkeit für andere Benutzende auf Grundlage dessen einschränken, zu welchem Unternehmen sie gehören (**Personen in anderen Unternehmen sollten nur Benutzer von anzeigen**.
 

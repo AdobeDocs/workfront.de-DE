@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 5f5a32b9a569221acc3d5f38568bb6a1e609070f
+source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1556'
 ht-degree: 3%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 3%
 # Überblick über Auditprotokolle
 
 <!--Audited: 08/2025-->
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Als Adobe Workfront-Admin können Sie anhand der unten beschriebenen Auditprotokolle benutzerseitig ausgelöste Änderungen verfolgen, die in den letzten 90 Tagen im System ausgelöst wurden.
 
@@ -68,7 +66,7 @@ Die folgenden Felder werden in jedem Auditprotokolleintrag aufgezeichnet:
 
 * [Zugriffsebene](#access-level)
 * [Unternehmensprofile](#business-profiles)
-* <span class="preview">[Geschäftsregeln](#business-rules)</span>
+* [Geschäftsregeln](#business-rules)
 * [Firma](#company)
 * [Bedingung](#condition)
 * [Benutzerdefiniertes Feld](#custom-field)
@@ -102,8 +100,6 @@ Das System generiert einen Zugriffsebenen-Protokolleintrag, wenn ein Benutzer ei
      >
      >Wenn beispielsweise ein(e) Benutzende(r) den Zugriffstyp Planer von Ansicht in Bearbeiten ändert, zeigt das System keine Informationen an, die im Dropdown-Menü Einstellungen optimieren enthalten sind.
 
-<div class="preview">
-
 ### Unternehmensprofile
 
 Das System generiert einen Eintrag im Administratorprotokoll eines Geschäftsprofils, wenn ein Benutzer eine der folgenden Aktionen ausführt:
@@ -111,8 +107,6 @@ Das System generiert einen Eintrag im Administratorprotokoll eines Geschäftspro
 * Erstellt ein Geschäftsprofil
 * Bearbeitet ein Geschäftsprofil:
 * Löscht ein Geschäftsprofil
-
-</div>
 
 ### Geschäftsregeln
 

@@ -6,16 +6,14 @@ description: Ihr Adobe Workfront-Administrator gewährt Benutzern Zugriff zum An
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
+source-git-commit: 3bc953ebb6f16d3d4a71fe9764551a8a4cf1087a
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1259'
 ht-degree: 9%
 
 ---
 
 # Freigeben eines Problems
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Ihr Adobe Workfront-Administrator gewährt Benutzern Zugriff zum Anzeigen oder Bearbeiten von Problemen, wenn sie Zugriffsebenen zuweisen. Weitere Informationen zum Gewähren des Zugriffs auf Anfragen finden Sie unter [Zugriff auf Anfragen gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md).
 
@@ -87,7 +85,7 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
    * Geben Sie die Berechtigungen für eines der übergeordneten Objekte des Problems an: Projekt, Programm oder Portfolio. Probleme erben die Berechtigungen von den übergeordneten Objekten. Weitere Informationen zum Anzeigen geerbter Berechtigungen für Objekte finden Sie unter [Anzeigen geerbter Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
    * Entitäten zur Projektfreigabe hinzufügen, die auf einer Vorlage basieren, mit der das Projekt erstellt wurde, an dem das Problem auftritt. Informationen zum Freigeben von Projekten aus Vorlagen finden Sie unter [Freigeben einer Vorlage](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Geben Sie die Berechtigungen für alle Probleme in einem Projekt an, wenn Sie das Projekt bearbeiten. Informationen zur Verwaltung des Zugriffs auf Probleme oder Anfragen im Projekt basierend auf den Berechtigungen eines Benutzers für das Projekt finden Sie im [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) Abschnitt im Artikel [Projekte bearbeiten](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Geben Sie die Berechtigungen für alle Probleme in einem Projekt an, wenn Sie das Projekt bearbeiten. Informationen zur Verwaltung des Zugriffs auf Probleme oder Anfragen im Projekt basierend auf den Berechtigungen eines Benutzers für das Projekt finden Sie im [](../../manage-work/projects/manage-projects/edit-projects.md#access) Abschnitt im Artikel [Projekte bearbeiten](../../manage-work/projects/manage-projects/edit-projects.md).
 
      >[!TIP]
      >
@@ -169,7 +167,7 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
 
    ![Schaltfläche „Problem freigeben“](assets/share-issue-button.png)
 
-1. Beginnen Sie im Feld **Problemzugriff gewähren auf** mit der Eingabe des Namens des Benutzers, Teams, der Rolle, der Gruppe, des Unternehmens <span class="preview">oder </span> Geschäftsprofils, für den Sie das Problem freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
+1. Beginnen Sie im Feld **Problemzugriff gewähren auf** mit der Eingabe des Namens des Benutzers, Teams, der Rolle, der Gruppe, des Unternehmens oder des Geschäftsprofils, für den Sie das Problem freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
    >[!TIP]
    >
@@ -203,7 +201,7 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
 
    ![Probleme mit der Massenfreigabe](assets/bulk-share-issues.png)
 
-1. Beginnen Sie im Feld **Problemzugriff gewähren auf** mit der Eingabe des Namens des Benutzers, Teams, der Rolle, der Gruppe, des Unternehmens <span class="preview">oder </span> Geschäftsprofils, für den Sie die Probleme freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
+1. Beginnen Sie im Feld **Anfragezugriff gewähren auf** mit der Eingabe des Namens des Benutzers, Teams, der Rolle, der Gruppe, des Unternehmens oder des Geschäftsprofils, für den Sie die Probleme freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
    >[!TIP]
    >

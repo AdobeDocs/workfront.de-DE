@@ -7,16 +7,14 @@ description: Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihre
 author: Courtney
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
+source-git-commit: 3bc953ebb6f16d3d4a71fe9764551a8a4cf1087a
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '914'
 ht-degree: 6%
 
 ---
 
 # Freigeben eines Programms
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 
 Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihrer Zugriffsebene Zugriff zum Anzeigen oder Bearbeiten von Programmen gewähren. Sie müssen über eine Plan-Lizenz verfügen, um Zugriff zur Bearbeitung eines Programms zu erhalten. Weitere Informationen finden Sie unter [Zugriff auf Programme gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md).
@@ -91,7 +89,7 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
 
    ![Schaltfläche „Programm freigeben“](assets/share-program-button.png)
 
-1. Beginnen Sie im Feld **Programmzugriff erteilen auf** mit der Eingabe des Namens des Benutzers, Teams, der Rolle, der Gruppe, des Unternehmens <span class="preview">oder </span> Geschäftsprofils, für den Sie das Programm freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
+1. Geben Sie im Feld **Programmzugriff erteilen auf** den Namen des Benutzers, Teams, der Rolle, der Gruppe, des Unternehmens oder des Geschäftsprofils ein, für den Sie das Programm freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
    >[!TIP]
    >
@@ -127,7 +125,7 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
 
    ![Massenfreigabeprogramme](assets/bulk-share-programs.png)
 
-1. Beginnen Sie im Feld **Programmzugriff erteilen auf** mit der Eingabe des Namens des Benutzers, Teams, der Rolle, der Gruppe, des Unternehmens <span class="preview">oder </span> Geschäftsprofils, für den Sie die Programme freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
+1. Geben Sie im Feld **Programmzugriff erteilen auf** den Namen des Benutzers, Teams, der Rolle, der Gruppe, des Unternehmens oder des Geschäftsprofils ein, für den Sie die Programme freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
    >[!TIP]
    >
@@ -155,8 +153,8 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
 
 Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern erteilen können, wenn sie ein Programm anzeigen oder verwalten möchten:
 
-| **Aktionen** | **Verwalten** | **Anzeigen** |
-|---|---|---|
+| **Aktionen** | **Verwalten** **Anzeigen** |
+| --- | --- |--- |
 | Programmdetails bearbeiten | ✓ |   |
 | Anzeigen eines Programms | ✓ | ✓ |
 | Löschen eines Programms | ✓ |   |

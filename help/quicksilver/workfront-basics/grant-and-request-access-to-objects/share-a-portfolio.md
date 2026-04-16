@@ -4,16 +4,14 @@ description: Sie können ein Portfolio für andere Benutzer freigeben, wenn Sie 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
+source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 6%
+source-wordcount: '892'
+ht-degree: 7%
 
 ---
 
 # Freigeben eines Portfolios
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihrer Zugriffsebene Zugriff zum Anzeigen oder Bearbeiten von Portfolios gewähren. Sie müssen über eine Plan-Lizenz verfügen, um Zugriff zum Bearbeiten eines Portfolios zu erhalten. Weitere Informationen finden Sie unter [Zugriff auf Portfolios gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md).
 
@@ -84,7 +82,7 @@ Weitere Informationen zur Objekthierarchie in Workfront finden Sie unter [Grundl
 
    ![Schaltfläche „Portfolio freigeben“](assets/share-portfolio-button.png)
 
-1. Beginnen Sie im Feld **Portfoliozugriff gewähren auf** mit der Eingabe des Namens des Benutzers, Teams, der Rolle, der Gruppe, des Unternehmens <span class="preview">oder </span> Geschäftsprofils, für den Sie das Portfolio freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
+1. Beginnen Sie im Feld **Portfoliozugriff gewähren auf** mit der Eingabe des Namens des Benutzers, Teams, der Rolle, der Gruppe, des Unternehmens oder des Geschäftsprofils, für den Sie das Portfolio freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
    >[!TIP]
    >
@@ -117,7 +115,7 @@ Weitere Informationen zur Objekthierarchie in Workfront finden Sie unter [Grundl
 
    ![Massenfreigabe-Portfolios](assets/bulk-share-portfolios.png)
 
-1. Beginnen Sie im Feld **Portfoliozugriff gewähren auf** mit der Eingabe des Namens des Benutzers, Teams, der Rolle, der Gruppe, des Unternehmens <span class="preview">oder </span> Geschäftsprofils, für den Sie die Portfolios freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
+1. Beginnen Sie im Feld **Portfoliozugriff gewähren auf** mit der Eingabe des Namens des Benutzers, Teams, der Rolle, der Gruppe, des Unternehmens oder des Geschäftsprofils, für den Sie die Portfolios freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
    >[!TIP]
    >
@@ -147,24 +145,24 @@ Weitere Informationen zur Objekthierarchie in Workfront finden Sie unter [Grundl
 Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern erteilen können, wenn sie eine Portfolio anzeigen oder verwalten möchten:
 
 | **Aktionen** | **Verwalten** | **Anzeigen** |
-|---|---|---|
-| Portfolio-Details bearbeiten | ✓ |   |
+| --- | --- | --- |
+| Portfolio-Details bearbeiten | ✓ | |
 | Anzeigen einer Portfolio | ✓ | ✓ |
-| Löschen einer Portfolio | ✓ |   |
-| Benutzerdefiniertes Formular anhängen | ✓ |   |
-| Benutzerdefiniertes Feld bearbeiten | ✓ |   |
-| Ein Programm hinzufügen oder entfernen&#42; | ✓ |   |
-| Ein Projekt hinzufügen oder entfernen&#42; | ✓ |   |
-| Genehmigen eines Projekts | ✓ |   |
-| Portfolio-Optimierung&#42; | ✓ |   |
+| Löschen einer Portfolio | ✓ | |
+| Benutzerdefiniertes Formular anhängen | ✓ | |
+| Benutzerdefiniertes Feld bearbeiten | ✓ | |
+| Ein Programm hinzufügen oder entfernen&#42; | ✓ | |
+| Ein Projekt hinzufügen oder entfernen&#42; | ✓ | |
+| Genehmigen eines Projekts | ✓ | |
+| Portfolio-Optimierung&#42; | ✓ | |
 | Dokumentenordner hinzufügen&#42; | ✓ | ✓ |
 | Dokument hinzufügen | ✓ | ✓ |
 | Aktualisierungen/Kommentare | ✓ | ✓ |
 | Freigeben | ✓ | ✓ |
-| Systemweit freigeben |   | ✓ |
-| Abrechnungssätze bearbeiten&#42; | ✓ |   |
-| Kostensätze bearbeiten&#42; | ✓ |   |
-| Allgemeine Finanzen bearbeiten&#42; | ✓ |   |
+| Systemweit freigeben | | ✓ |
+| Abrechnungssätze bearbeiten&#42; | ✓ | |
+| Kostensätze bearbeiten&#42; | ✓ | |
+| Allgemeine Finanzen bearbeiten&#42; | ✓ | |
 | Abrechnungssätze anzeigen&#42; | ✓ | ✓ |
 | Kostensätze anzeigen&#42; | ✓ | ✓ |
 | Allgemeine Finanzen anzeigen&#42; | ✓ | ✓ |

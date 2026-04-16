@@ -8,9 +8,9 @@ feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b9e0747a58618353caf3ce1c7e8521d22d2b412d
+source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1172'
 ht-degree: 8%
 
 ---
@@ -23,8 +23,6 @@ ht-degree: 8%
 (NOTE: CONSIDER SPLITTING THIS in three articles for each reporting element?)
 (NOTE: This is linked from the TOC article in WF Basics > permissions section)
 -->
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Ihr Adobe Workfront-Administrator gewährt Benutzenden Zugriff zum Anzeigen oder Bearbeiten von Objekten, wenn sie Zugriffsebenen zuweisen. Weitere Informationen zum Gewähren des Zugriffs auf Objekte finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -120,7 +118,7 @@ Freigeben von Filtern über die Standard-Builder-Oberfläche:
    </tbody>
    </table>
 
-1. Bewegen Sie den Mauszeiger über einen Filter, auf den Sie Zugriff haben, zumindest zum Anzeigen und Freigeben, und klicken Sie dann auf das Menü **Mehr** ![Mehr &#x200B;](assets/more-icon-spectrum.png) und anschließend auf **Freigeben**.
+1. Bewegen Sie den Mauszeiger über einen Filter, auf den Sie Zugriff haben, zumindest zum Anzeigen und Freigeben, und klicken Sie dann auf das Menü **Mehr** ![Mehr ](assets/more-icon-spectrum.png) und anschließend auf **Freigeben**.
 
    ![Weitere Menüoptionen](assets/new-filters-more-menu-options-with-delete.png)
 
@@ -173,7 +171,7 @@ Die Freigabe von Filtern, Ansichten und Gruppierungen in der veralteten Benutzer
 
 1. Führen Sie einen der folgenden Schritte aus, je nachdem, für wen Sie freigeben möchten:
 
-   **Für einzelne Benutzer, Teams, Rollen, Gruppen oder Unternehmen freigeben:** Geben Sie in das bereitgestellte Feld den Namen des Benutzers, Teams, der Rolle, der Gruppe, des Unternehmens <span class="preview">oder </span> Geschäftsprofils ein, für den Sie eine Freigabe durchführen möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.\
+   **Für einzelne Benutzer, Teams, Rollen, Gruppen oder Unternehmen freigeben:** Geben Sie in das entsprechende Feld den Namen des Benutzers, Teams, der Rolle, der Gruppe, des Unternehmens oder des Geschäftsprofils ein, für den bzw. die Sie eine Freigabe durchführen möchten. Klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.\
    Wiederholen Sie diesen Vorgang, um den Zugriff für mehrere Benutzer, Teams, Rollen, Gruppen oder Unternehmen freizugeben.
 
    >[!TIP]
@@ -181,7 +179,7 @@ Die Freigabe von Filtern, Ansichten und Gruppierungen in der veralteten Benutzer
    >Bei der Freigabe für Gruppen erhalten die Mitglieder der Gruppe und aller Untergruppen Berechtigungen für den Filter, die Ansicht oder die Gruppierung.
 
    **Für alle Benutzer im System freigeben:** Klicken Sie auf das Symbol **Einstellungen** und klicken Sie dann auf **Systemweit sichtbar machen**.\
-   Ihr Administrator muss die Option Systemweit freigeben auswählen, damit diese Option verfügbar ist. Weitere Informationen finden Sie in den Artikeln [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) und &quot;[&#x200B; von Berichten, Dashboards und Kalendern](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
+   Ihr Administrator muss die Option Systemweit freigeben auswählen, damit diese Option verfügbar ist. Weitere Informationen finden Sie in den Artikeln [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) und &quot;[ von Berichten, Dashboards und Kalendern](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
 1. (Bedingt) Wenn Sie Berechtigungen für einzelne Benutzer, Teams, Rollen, Gruppen oder Unternehmen freigeben, klicken Sie auf das Dropdown-Menü, um die Zugriffsebene zu definieren, die Sie gewähren möchten.
 
