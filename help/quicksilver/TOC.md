@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+source-git-commit: eea05bfe350f7d68ccd08ad16f1bb6716cbec6dc
 workflow-type: tm+mt
-source-wordcount: '13922'
+source-wordcount: '13932'
 ht-degree: 97%
 
 ---
@@ -1189,7 +1189,8 @@ ht-degree: 97%
       * Adobe Workfront für Experience Manager Assets und Assets Essentials {#wf-aem-essentials}
          * [Adobe Workfront für Experience Manager Assets und Assets Essentials: Artikelindex](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
          * [Überblick über Integrationen von Adobe Experience Manager Assets](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
-         * [Verknüpfen von Assets und Ordnern aus Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
+         * [Verknüpfen von Assets und Ordnern mit dem Content Advisor von Experience Manager Assets](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
+         * [Verknüpfen von Assets und Ordnern aus Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md)
          * [Anzeigen zugeordneter Metadaten für Experience Manager Assets oder Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
          * [Anzeigen oder Herunterladen eines verknüpften Assets aus Experience Manager Assets oder Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
          * [Senden eines Dokuments an Experience Manager Assets oder Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
