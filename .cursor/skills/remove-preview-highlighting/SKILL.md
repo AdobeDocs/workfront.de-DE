@@ -26,7 +26,7 @@ Nur anwenden, wenn **alle** wahr sind:
 
 Wenn der Umfang unklar ist, bestätigen Sie ihn vor der Bearbeitung.
 
-**INHALTSVERZEICHNIS-/INDEXSEITEN - Immer diesen Fall überspringen:** **Nie** Eine Datei in das Inventar einfügen, wenn der **nur** vorschaubezogene Wortlaut **innerhalb** Anzeigetext eines Markdown-Links auf **einen anderen** Artikel verweist (z. B. *Senden eines Berichts in der Vorschau-Sandbox-Umgebung***und** nopreview in **** `class="preview"` **** prose außerhalb von Links **** ****. Dies ist keine Vorschauhervorhebung auf dieser Seite - es ist nur eine Inhaltsverzeichniserwähnung. Gilt für jeden Index/Inhaltsverzeichnis, nicht nur für eine Datei.
+**INHALTSVERZEICHNIS-/INDEXSEITEN - Immer diesen Fall überspringen:** **Nie** Eine Datei in das Inventar einfügen, wenn der **nur** vorschaubezogene Wortlaut **innerhalb** Anzeigetext eines Markdown-Links auf **einen anderen** Artikel verweist (z. B. *Senden eines Berichts in der Vorschau-Sandbox-Umgebung&#x200B;***und** nopreview in **&#x200B;**&#x200B;`class="preview"` **&#x200B;**&#x200B;prose außerhalb von Links **&#x200B;**&#x200B;**&#x200B;**. Dies ist keine Vorschauhervorhebung auf dieser Seite - es ist nur eine Inhaltsverzeichniserwähnung. Gilt für jeden Index/Inhaltsverzeichnis, nicht nur für eine Datei.
 
 ### Ausgeschlossene Pfade
 
@@ -92,7 +92,7 @@ Wenn die Struktur mehrdeutig ist (keine klare Parallele), **stop** und zeigen Si
 - Diesen Workflow nicht für Pfade unter **`product-announcements`** (Versionshinweise und zugehörige Links) ausführen. Der Bestand muss diese Pfade ausschließen.
 - Inventarisieren oder bearbeiten Sie keine Pfade, die unter **[Ausgeschlossene Pfade](#excluded-paths)** aufgeführt sind, es sei denn, der Benutzer fragt ausdrücklich danach.
 - **Nicht** automatisch entfernen oder bearbeiten Sie **auskommentierte** (`<!-- … -->`) Blöcke. Befolgen Sie **auskommentierte Abschnitte** oben.
-- Entfernen Sie „Vorschau“ nicht, wenn es **nicht** um dieses Funktionsverfügbarkeitsmuster geht (z. B. [Vorschau der Sandbox-Umgebung](·) als **Produktname** in einem anderen Kontext) - Urteilsvermögen verwenden und fragen Sie, ob Sie sich nicht sicher sind.
+- Entfernen Sie „Vorschau“ nicht, wenn es **nicht** um dieses Funktionsverfügbarkeitsmuster geht (z. B. [Vorschau der Sandbox-Umgebung] (·) als **Produktname** in einem anderen Kontext) - Urteilsvermögen verwenden und fragen Sie, ob Sie sich nicht sicher sind.
 - Ändern Sie keine `author:` oder nicht verwandte Schriftart, es sei denn, der Benutzer fragt.
 - Überspringen Sie nicht den Schritt **Anzeigen → Genehmigen**.
 

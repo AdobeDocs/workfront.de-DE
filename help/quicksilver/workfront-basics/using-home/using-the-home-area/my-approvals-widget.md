@@ -74,7 +74,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 1. (Bedingt) Klicken Sie auf das **Sortieren** Dropdown-Menü und wählen Sie dann **Neueste zuerst**, um die zuletzt hinzugefügten Genehmigungen anzuzeigen.
 
 
-1. (Optional) Klicken Sie auf das Vollbildsymbol ![Vollbildsymbol), ](assets/full-screen.png) das Widget Meine Genehmigungen im Vollbildmodus zu öffnen.
+1. (Optional) Klicken Sie auf das Vollbildsymbol ![Vollbildsymbol), &#x200B;](assets/full-screen.png) das Widget Meine Genehmigungen im Vollbildmodus zu öffnen.
 
 1. Wählen Sie das Element aus, für das Sie eine Genehmigungsentscheidung treffen möchten.
 
