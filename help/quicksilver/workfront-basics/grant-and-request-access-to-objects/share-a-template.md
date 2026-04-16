@@ -35,7 +35,7 @@ Berechtigungen sind für ein Element in Workfront spezifisch und definieren, wel
 
    * Die Vorlage
 
-     Weitere Informationen zum Freigeben einer Vorlage finden Sie unter [Freigeben von ](../../manage-work/projects/create-and-manage-templates/share-project-template.md)).
+     Weitere Informationen zum Freigeben einer Vorlage finden Sie unter [Freigeben von &#x200B;](../../manage-work/projects/create-and-manage-templates/share-project-template.md)).
 
      Sie können einer Vorlage die folgenden Berechtigungen erteilen:
 
