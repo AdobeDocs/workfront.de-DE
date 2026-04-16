@@ -42,7 +42,7 @@ Zu den Verbesserungen des Finanzmanagements gehören:
 
 * **Tarifattribute** mit denen Sie zusätzliche Dimensionen zu Tarifen über das Aufgabengebiet hinaus hinzufügen können, sodass die Tarife nicht nur nach Aufgabengebiet, sondern auch nach Faktoren wie Agentur, Standort, Marke, Kostenstelle oder anderen variieren können. Durch Kombination dieser Attribute kann Workfront automatisch die richtige Rate für Zuweisungen auswählen und so die finanzielle Genauigkeit und Konsistenz über alle Projekte hinweg sicherstellen.
 
-  Weitere Informationen finden Sie unter [Definieren von ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+  Weitere Informationen finden Sie unter [Definieren von &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
 
 * **Tarifkarten**, die eine strukturierte Möglichkeit zur Verwaltung der kundenspezifischen Abrechnung bieten und rollenbasierte Tarife und anpassbare Attribute kombinieren, um eine genaue und kontrollierte Projektkalkulation sicherzustellen.
 
@@ -210,5 +210,5 @@ Workfront ermöglicht es Ihnen, Lücken zwischen Datumsbereichen für Abrechnung
 * Tarife auf einer Tarifkarte
 * Wenn Sie einen dieser Sätze auf Projektebene überschreiben
 
-Weitere Informationen finden Sie unter [Erstellen und Verwalten von ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)[, „Bearbeiten des ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) eines Benutzers“ und [Verwalten von Tarifkarten](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
+Weitere Informationen finden Sie unter [Erstellen und Verwalten von &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) [, „Bearbeiten des &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) eines Benutzers“ und [Verwalten von Tarifkarten](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
 
