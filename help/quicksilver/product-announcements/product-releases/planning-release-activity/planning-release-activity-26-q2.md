@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
+source-git-commit: 62e23ddf3fc90c1e1e993ad4155564964be07b93
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '1984'
 ht-degree: 12%
 
 ---
@@ -24,6 +24,25 @@ In diesem Artikel werden die Funktionen beschrieben, die in der Version vom zwei
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+
+## Content Advisor ist jetzt für Datensätze verfügbar, die mit Adobe Experience Manager verbunden sind
+
+>[!NOTE]
+>
+>Vorschau: 16. April 2026
+>Produktions-Schnellveröffentlichung: Freitag, 16. April 2026
+>Produktion für alle: Freitag, 16. April 2026
+
+Sie können jetzt in Workfront Planning auf Experience Manager Content Advisor zugreifen. Content Advisor bietet folgende Möglichkeiten:
+
+* Entdecken von Inhalten mit Smart-Vorschlägen oder kurzen Kampagnendetails
+* Schnelle Bewertung der Eignung von Inhalten durch Anzeige wichtiger Details vor der Wiederverwendung
+* Entdecken und Wiederverwenden von Inhaltsfragmenten
+* Erkunden von Sammlungen zur Identifizierung verwandter, markeninterner Inhalte
+
+Sie können in Content Advisor Assets oder Inhaltsfragmente zur Verwendung in Ihren verbundenen Feldern in Planning auswählen.
+
+Weitere Informationen zum Zugriff auf Content Advisor aus Workfront Planning finden Sie unter [Verbinden von Datensätzen](/help/quicksilver/planning/records/connect-records.md).
 
 ## Neue Funktion zum Erhöhen der Zeilenhöhe für die Listenansicht
 

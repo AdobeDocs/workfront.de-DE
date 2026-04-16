@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 56849377a2c31c9232e0ecd8517046f76c7963df
+source-git-commit: 8d7cffd5b629b62ae3fbaf3bfddb86a05875acd9
 workflow-type: tm+mt
-source-wordcount: '2288'
+source-wordcount: '2362'
 ht-degree: 24%
 
 ---
@@ -20,7 +20,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der für April 20
 
 Die Verbesserungen auf dieser Seite sind in der Vorschauumgebung verfügbar. Diese Seite wird mit zusätzlichen Verbesserungen aktualisiert, sobald die geplante Produktionsversion der Version für das zweite Quartal 2026 näher rückt.
 
-Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben die neuen Funktionen hervor und bieten detaillierte Informationen. Um sich zu registrieren, besuchen Sie die [Ereignisseite](https://experienceleague.adobe.com/de/events?filters=Workfront) und filtern Sie nach Workfront.
+Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben die neuen Funktionen hervor und bieten detaillierte Informationen. Um sich zu registrieren, besuchen Sie die [Ereignisseite](https://experienceleague.adobe.com/en/events?filters=Workfront) und filtern Sie nach Workfront.
 
 >[!IMPORTANT]
 >
@@ -134,6 +134,15 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
         <td><strong>Vierteljährlich</strong></td>
    <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Schnellere Erkennung und Wiederverwendung von Inhalten mit Content Advisor für AEM Assets in Workfront </a><p></p>
+            <p>Der Content Advisor ist jetzt in Workfront mit der Adobe Experience Manager Assets-Integration verfügbar, sodass Teams bestehende hochwertige Inhalte leichter entdecken und wiederverwenden können.</p>
+        </td>
+        <td><p>Freitag, 16. April 2026</p></td>
+        <td><p>Freitag, 16. April 2026</p></td>
+        <td><p>Freitag, 16. April 2026</p></td>
+    </tr>
+   <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Bereitstellung von GenStudio Foundations zur Unterstützung von KI-Mitwirkenden aktiviert</a><p></p>
             <p>Am 31. März 2026 wurden alle Workfront-Kundinnen und -Kunden für GenStudio Foundation bereitgestellt, und Admin Console-Systemadmins erhalten eine E-Mail, in der sie über diesen Zusatz informiert werden. Dieses Produkt wird nur bereitgestellt, damit Workfront-Kunden Workfront-Kunden nach Bedarf Zugriff auf die KI-Kollaborateure gewähren können. Das Produkt selbst ist nur ein Zugriffsmechanismus für Marken, und im GenStudio Foundation-Produkt sind keine zusätzlichen Funktionen verfügbar.</p><p>Kunden wird dieses neue Produkt nicht in Rechnung gestellt.</p>
         </td>
@@ -197,6 +206,16 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-enterprise-operations-enhancements.md" class="MCXref xref" xrefformat="{para}">Enterprise Operations-Funktionen jetzt in Adobe Workfront verfügbar</a><p></p>
             <p>Erweiterte Enterprise Operations-Funktionen von Adobe Workfront bieten eine einheitliche und skalierbare Möglichkeit, Finanzen, Projekte und den Zugriff auf das Unternehmen zu verwalten. Diese Funktionen bieten die Sichtbarkeit und Kontrolle, die Unternehmen benötigen, um rentabel und effizient zu arbeiten.</p><p>Die folgenden Aktualisierungen sind in diesen Funktionen enthalten:<ul><li>Erweitertes Finanzmanagement - einschließlich Kursattributen, Kurskarten, einem neu gestalteten Erlebnis für erweiterte Zuweisungen, datumswirksamen Wechselkursen und zusätzlichen erweiterten Funktionen</li><li>Verlaufsdaten-Tracking - einschließlich Projekt-Momentaufnahmen</li><li>Unternehmensberechtigungen - einschließlich Geschäftsprofilen und separater Kosten- und Abrechnungssätze in Zugriffsebenen und Objektberechtigungen</li><li>Verbesserungen bei benutzerdefinierten Formularen und Feldern - einschließlich neuer erweiterter Logiktypen, einer Einstellung für Finanzberechtigungen für währungsformatierte Felder, der Möglichkeit, benutzerdefinierte Formulare zu weiteren Objekten hinzuzufügen, und Verbesserungen der Benutzeroberfläche des Formular-Designers</li><li>Verbesserungen an Layout-Vorlagen - einschließlich der Anpassung der Kopfzeilen und linken Navigationsmenüs von mehr Objekten, Aktualisierungen der Hauptmenüoptionen in Layout-Vorlagen und mehr Menüanpassung</li><li>Benutzerdefinierte Lokalisierung - einschließlich der Möglichkeit, benutzerdefinierte Begriffe und Ausdrücke in verschiedenen Sprachen zu definieren</li><li>Verbesserungen der Geschäftsregeln - einschließlich der Möglichkeit, Aktionen für das erstellte, bearbeitete oder geänderte Objekt zu automatisieren, wenn bestimmte Bedingungen erfüllt sind</li></ul></p>
+ </p>
+        </td>
+        <td><p>Freitag, 2. April 2026</p></td>
+        <td><p>Donnerstag, 15. April 2026</p></td>
+        <td><p>Freitag, 16. April 2026</p></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-enterprise-operations-enhancements.md" class="MCXref xref" xrefformat="{para}">Lücken bei den effektiven Datumssätzen sind zulässig</a><p></p>
+            <p>Workfront ermöglicht es Ihnen, Lücken zwischen Datumsbereichen für Abrechnungs- und Kostensätze zu hinterlassen, Sie erhalten jedoch eine Warnung, um zu bestätigen, dass dies beabsichtigt ist.</p>
  </p>
         </td>
         <td><p>Freitag, 2. April 2026</p></td>

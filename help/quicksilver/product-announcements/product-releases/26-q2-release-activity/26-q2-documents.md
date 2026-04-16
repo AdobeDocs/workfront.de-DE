@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: b334e8b234c9c87dd1b1ecd26df6645b3381ffb0
+source-git-commit: 8d7cffd5b629b62ae3fbaf3bfddb86a05875acd9
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '818'
 ht-degree: 9%
 
 ---
@@ -19,6 +19,27 @@ ht-degree: 9%
 Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom zweiten Quartal 2026 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im zweiten Quartal 2026 verfügbar sind, finden Sie unter [Versionsübersicht für das zweite Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md).
+
+## Schnellere Erkennung und Wiederverwendung von Inhalten mit Content Advisor für AEM Assets in Workfront
+
+>[!NOTE]
+>
+>Vorschau: 16. April 2026
+>Produktions-Schnellveröffentlichung: Freitag, 16. April 2026
+>Produktion für alle: Freitag, 16. April 2026
+
+Der Content Advisor ist jetzt in Workfront mit der Adobe Experience Manager Assets-Integration verfügbar, sodass Teams bestehende hochwertige Inhalte leichter entdecken und wiederverwenden können.
+
+Mit Content Advisor können Sie:
+
+* Entdecken von Inhalten mit Smart-Vorschlägen oder kurzen Kampagnendetails
+* Schnelle Bewertung der Eignung von Inhalten durch Anzeige wichtiger Details vor der Wiederverwendung
+* Entdecken und Wiederverwenden von Inhaltsfragmenten
+* Erkunden von Sammlungen zur Identifizierung verwandter, markeninterner Inhalte
+
+Diese Integration hilft Teams, die Erstellung doppelter Inhalte zu reduzieren, die Ausführung zu beschleunigen und den Wert vorhandener AEM-Assets direkt in Workfront zu maximieren.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3483142/)
 
 ## GenStudio Foundations-Bereitstellung zur Unterstützung von KI-Mitwirkenden aktiviert
 

@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 72130462-ae78-4b9b-ae18-848602d4a858
-source-git-commit: c0cb423c73a6b0e982081ae67ffef6316b03db7f
+source-git-commit: 855ff527d54fa7212555675bf2d89466384b59ca
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1366'
 ht-degree: 2%
 
 ---
@@ -42,7 +42,7 @@ Zu den Verbesserungen des Finanzmanagements gehören:
 
 * **Tarifattribute** mit denen Sie zusätzliche Dimensionen zu Tarifen über das Aufgabengebiet hinaus hinzufügen können, sodass die Tarife nicht nur nach Aufgabengebiet, sondern auch nach Faktoren wie Agentur, Standort, Marke, Kostenstelle oder anderen variieren können. Durch Kombination dieser Attribute kann Workfront automatisch die richtige Rate für Zuweisungen auswählen und so die finanzielle Genauigkeit und Konsistenz über alle Projekte hinweg sicherstellen.
 
-  Weitere Informationen finden Sie unter [Definieren von &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+  Weitere Informationen finden Sie unter [Definieren von ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
 
 * **Tarifkarten**, die eine strukturierte Möglichkeit zur Verwaltung der kundenspezifischen Abrechnung bieten und rollenbasierte Tarife und anpassbare Attribute kombinieren, um eine genaue und kontrollierte Projektkalkulation sicherzustellen.
 
@@ -192,4 +192,23 @@ Workfront-Admins können jetzt Geschäftsregeln konfigurieren, um Aktionen für 
 Weitere Informationen finden Sie unter [Erstellen und Bearbeiten von Geschäftsregeln](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
 
 [Sehen Sie sich eine Videodemonstration zu den Verbesserungen bei den Geschäftsregeln an.](https://video.tv.adobe.com/v/3483247/){target="_blank"}
+
+
+### Zulässige Lücken bei den effektiven Datumssätzen
+
+>[!NOTE]
+>
+>Diese Funktion steht Unternehmen für alle Workfront- und Workflow-Pakete zur Verfügung.
+>Beachten Sie, dass Tarifkarten nur für Organisationen im Workflow-Ultimate-Paket verfügbar sind.
+
+Workfront ermöglicht es Ihnen, Lücken zwischen Datumsbereichen für Abrechnungs- und Kostensätze zu hinterlassen, Sie erhalten jedoch eine Warnung, um zu bestätigen, dass dies beabsichtigt ist.
+
+Überall, wo Raten vorliegen, kann es Lücken zwischen den Datumsbereichen geben:
+
+* Tarife für ein Aufgabengebiet
+* Tarife für ein Benutzerprofil
+* Tarife auf einer Tarifkarte
+* Wenn Sie einen dieser Sätze auf Projektebene überschreiben
+
+Weitere Informationen finden Sie unter [Erstellen und Verwalten von ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)[, „Bearbeiten des ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) eines Benutzers“ und [Verwalten von Tarifkarten](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
 
