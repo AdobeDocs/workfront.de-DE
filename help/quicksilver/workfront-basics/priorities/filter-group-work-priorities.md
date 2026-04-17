@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 02a4269777e18a8c66a245d374565eb61efd39ef
+source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
 workflow-type: tm+mt
 source-wordcount: '663'
 ht-degree: 11%
@@ -153,8 +153,8 @@ Verwenden Sie natürliche Sprache, um Arbeit schnell zu filtern.
 
 {{step1-to-priorities}}
 
-1. Klicken **oben links** der Arbeitsliste auf „Gruppen“.
-1. Gruppe auswählen, um die Arbeitsliste zu organisieren.
+1. Klicken **oben links** der Arbeitsliste auf „Gruppierung“.
+1. Gruppierung auswählen, um die Arbeitsliste zu organisieren.
 
 ![Gruppen](assets/groups-new.png)
 
@@ -179,11 +179,11 @@ Sie können einzelne Arbeitselemente beim Gruppieren nach „Meine Priorität“
 
 ## Arbeit sortieren
 
-### In Gruppen sortieren
+### In Gruppierungen sortieren
 
-Um Ihre Arbeit innerhalb einer Gruppe zu sortieren, öffnen Sie **Gruppe** und wählen Sie aus, ob Sie in auf- oder absteigender Reihenfolge sortieren möchten.
+Um Ihre Arbeit innerhalb einer Gruppierung zu sortieren, öffnen Sie **Gruppierung** und wählen Sie aus, ob Sie in auf- oder absteigender Reihenfolge sortieren möchten.
 
-![In Gruppen sortieren](assets/sort-in-groups.png)
+![Sortieren in Gruppierungen](assets/sort-in-groups.png)
 
 ### Sortierungsspalten
 

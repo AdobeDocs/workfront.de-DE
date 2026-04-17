@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
+source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
 workflow-type: tm+mt
-source-wordcount: '1857'
-ht-degree: 0%
+source-wordcount: '1791'
+ht-degree: 1%
 
 ---
 
@@ -22,9 +22,11 @@ ht-degree: 0%
 although list views in Planning are very similar to Workfront enhanced lists, keep this one separate with all the information, because of Planning standalone; some information here is also duplicated in this main Glist article: help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md
 -->
 
-<span class="preview">Die auf dieser Seite hervorgehobenen Informationen beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -158,15 +160,13 @@ Removed - more direct steps below:
       >
       >* Sie können keine Systemansichten ändern.
       >
-      >* <span class="preview">Sie können eine Ansicht, die für Sie freigegeben wurde und für die Sie nur über die Berechtigung zum Anzeigen verfügen, zurücksetzen, nachdem Sie sie geändert haben, um ihre ursprünglichen Voreinstellungen wiederherzustellen, oder Sie können sie mit Ihren Änderungen kopieren und die Kopie freigeben. Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md). </span>
+      >* Sie können eine Ansicht, die für Sie freigegeben wurde und für die Sie nur über die Berechtigung zum Anzeigen verfügen, zurücksetzen, nachdem Sie sie geändert haben, um ihre ursprünglichen Voreinstellungen wiederherzustellen. Alternativ können Sie sie mit Ihren Änderungen kopieren und die Kopie freigeben. Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
    1. Klicken Sie auf **Filter**-Symbol ![Filtersymbol](assets/filter-icon.png), um der Ansicht einen Filter hinzuzufügen. Die Ergebnisse werden sofort in der Liste gefiltert. Filter können nicht gespeichert und benannt werden. Filter werden gespeichert, wenn Sie in Zukunft auf die Seite zugreifen, und sie sind Teil freigegebener Ansichten.
 
       >[!TIP]
       >
-      ><span class="preview">Um einen personalisierten Filter anzuwenden, wählen Sie eine der folgenden Optionen für einen Feldwert aus:
-      >
-      ><div class="preview">
+      >Um einen personalisierten Filter anzuwenden, wählen Sie eine der folgenden Optionen für einen Feldwert aus:
       >
       >* **Ich (angemeldeter Benutzer)** um in Feldern, die auf Benutzer verweisen, auf den angemeldeten Benutzer zu verweisen.
       >
@@ -177,8 +177,6 @@ Removed - more direct steps below:
       >* **Meine Firma**, um auf Ihre Firma in Feldern zu verweisen, die auf Firmen verweisen.
       > 
       >* **Meine Rollen** oder **Meine primäre Rolle**, um auf Ihre Aufgabengebiete in Feldern zu verweisen, die auf Rollen verweisen.
-      >
-      ></div>
 
    1. Klicken Sie auf das **Spalten**-Symbol ![Spalten-Symbol](assets/columns-icon.png), um auszuwählen, welche Spalten in der Ansicht angezeigt oder ausgeblendet werden sollen.
    1. Bewegen Sie den Mauszeiger über den Namen einer Spalte, klicken Sie dann links neben dem Spaltennamen auf den Abwärtspfeil und dann auf eine der folgenden Aktionen:
@@ -191,58 +189,54 @@ Removed - more direct steps below:
       Sie können der Listenansicht nur vorhandene Felder hinzufügen.
 Sie können das primäre Feld in der Listenansicht, die in der ersten Spalte angezeigt wird, nicht entfernen.
 
-   1. <span class="preview">Klicken Sie auf das Symbol **Zellen formatieren** (Symbol ![Zellen formatieren](assets/format-cells-icon.png). Das Feld **Format** wird geöffnet.</span> <!--change the name of the box when they update it-->
-      <span class="preview">Gehen Sie wie folgt vor: </span>
+   1. Klicken Sie auf das **Zellen formatieren**-Symbol ![Zellen formatieren-Symbol](assets/format-cells-icon.png). Das Feld **Format** wird geöffnet. <!--change the name of the box when they update it-->
+Gehen Sie folgendermaßen vor:
 
-      1. <span class="preview">Klicken Sie **Bedingung hinzufügen**.</span>
-      1. <span class="preview">Wählen Sie in der **Wenn**-Zeile ein Feld aus, wählen Sie einen Feldwert aus und fügen Sie einen Modifikator hinzu. Die Modifikatoren ändern sich je nach ausgewähltem Feldtyp. </span>
-
-         >[!TIP]
-         >
-         ><span class="preview">Nur in der Listenansicht sichtbare Felder sind für die bedingte Formatierung verfügbar.</span>
-
-      1. <span class="preview">(Optional) Anstatt einen Feldwert hinzuzufügen, klicken Sie auf das Symbol **Mit einem anderen Feld vergleichen** (![&#x200B; mit einem anderen Feld &#x200B;](assets/compare-to-another-field-icon.png)) und wählen Sie ein Feld aus, dessen Wert Sie mit dem Wert des ausgewählten Felds vergleichen möchten. Sie können beispielsweise die Felder Projektbesitzer und Projektsponsor vergleichen. </span>
+      1. Klicken Sie **Bedingung hinzufügen**.
+      1. Wählen Sie in der **If**-Zeile ein Feld aus, wählen Sie einen Feldwert aus und fügen Sie einen Modifikator hinzu. Die Modifikatoren ändern sich je nach ausgewähltem Feldtyp.
 
          >[!TIP]
          >
-         ><span class="preview">Nur in der Listenansicht sichtbare Felder sind für die bedingte Formatierung verfügbar. Die verglichenen Felder müssen vom gleichen Typ sein. </span>
+         >Für bedingte Formatierung sind nur in der Listenansicht sichtbare Felder verfügbar.
 
-      1. <span class="preview">(Optional) Klicken Sie **Bedingung hinzufügen** in der **Wenn**-Zeile, um derselben Regel weitere Bedingungen hinzuzufügen.</span>
+      1. (Optional) Anstatt einen Feldwert hinzuzufügen, klicken Sie auf das Symbol **Mit einem anderen Feld vergleichen** (![ mit einem anderen Feld vergleichen](assets/compare-to-another-field-icon.png) und wählen Sie ein Feld aus, dessen Wert Sie mit dem Wert des ausgewählten Felds vergleichen möchten. Sie können beispielsweise die Felder Projektbesitzer und Projektsponsor vergleichen.
 
          >[!TIP]
          >
-         ><span class="preview">Sie können einer Bedingungsregel bis zu 10 Bedingungen hinzufügen und Sie können bis zu 20 Regeln für ein Feld hinzufügen.</span>
+         >Für bedingte Formatierung sind nur in der Listenansicht sichtbare Felder verfügbar. Die verglichenen Felder müssen vom gleichen Typ sein.
 
-      1. <span class="preview">Klicken Sie auf den **Oder**-Connector zwischen Bedingungen, um zu **Und** zu wechseln und anzugeben, dass mehrere Bedingungen gleichzeitig erfüllt sein müssen. **Or** ist der Standard-Connector.</span>
-      1. <span class="preview">Wählen Sie in der **Format**-Zeile ein Feld aus, um anzugeben, welche Spalte formatiert werden soll.</span> <!--edit this area, if it changes names??-->
-      1. <span class="preview">(Optional) Klicken Sie auf das Symbol **Farbkreis** Symbol ![Farbkreis-Symbol](assets/color-circle.png) neben dem ausgewählten Feld, um es zu erweitern und eine andere Farbe im Bereich **Zellenfüllung** auszuwählen, um die Farbe des Hintergrunds in einer Zelle zu ändern, oder wählen Sie eine Farbe aus dem Bereich **Textfarbe** aus, um die Farbe des Textes in einer Zelle zu ändern.</span>
-      1. <span class="preview">Klicken Sie auf das Symbol **Textformat** (Symbol ![&#x200B; Textformat](assets/text-format-icon.png) und wählen Sie eine der folgenden Optionen aus, um den Text in einer Zelle zu formatieren:</span>
-         * <span class="preview">Fett</span>
-         * <span class="preview">Kursiv</span>
+      1. (Optional) Klicken Sie **Bedingung hinzufügen** in der **Wenn**-Zeile, um derselben Regel weitere Bedingungen hinzuzufügen.
 
-      1. <span class="preview">Aktivieren Sie die Einstellung **Auf Zeile anwenden**, um die Formatierung auf die gesamte Zeile des Felds anzuwenden, das die Bedingungen erfüllt.</span>
-      1. <span class="preview">(Optional) Klicken Sie **Bedingung hinzufügen** im Feld **Format**, um eine weitere Regel für ein anderes Feld hinzuzufügen, und wiederholen Sie dann die obigen Schritte.</span>
-      1. <span class="preview">(Optional) Klicken Sie auf **Alle löschen** um alle Formatierungen zu entfernen.</span>
-      1. <span class="preview">Klicken Sie außerhalb des Felds **Format**, um es zu schließen.</span>
+         >[!TIP]
+         >
+         >Sie können einer Bedingungsregel bis zu 10 Bedingungen hinzufügen und Sie können bis zu 20 Regeln für ein Feld hinzufügen.
 
-         <span class="preview">Dadurch kehren Sie zur Listenansicht zurück.</span>
-         <span class="preview">Die Formatierung wird sofort auf die Listenansicht angewendet.</span>
-         <span class="preview">Ein blauer Punkt neben dem Symbol **Zellen formatieren** gibt an, dass auf die Ansicht eine besondere Formatierung angewendet wurde.</span>
+      1. Klicken Sie auf den **OR**-Connector zwischen Bedingungen, um zu **AND** zu wechseln und anzugeben, dass mehrere Bedingungen gleichzeitig erfüllt sein müssen. **Oder** ist der Standard-Connector.
+      1. Wählen Sie in **Zeile** Format“ ein Feld aus, um anzugeben, welche Spalte formatiert werden soll. <!--edit this area, if it changes names??-->
+      1. (Optional) Klicken Sie auf das Symbol **Farbkreis** Symbol ![Farbkreis](assets/color-circle.png) neben dem ausgewählten Feld, um es zu erweitern und eine andere Farbe im Bereich **Zellenfüllung** auszuwählen, um die Farbe des Hintergrunds in einer Zelle zu ändern, oder wählen Sie eine Farbe aus dem Bereich **Textfarbe** aus, um die Farbe des Textes in einer Zelle zu ändern.
+      1. Klicken Sie auf das Symbol **Textformat** ![ (](assets/text-format-icon.png)) und wählen Sie eine der folgenden Optionen aus, um den Text in einer Zelle zu formatieren:
+         * Fett
+         * Kursiv
 
-   1. <span class="preview">(Optional) Klicken Sie auf das **Gruppierung**-Symbol ![Gruppierungssymbol](assets/grouping-icon.png) &lt;!-Sie haben dies in „Gruppierung“ ??-> geändert, um Elemente in der Liste nach einem gemeinsamen Feld zu gruppieren. Wählen Sie eine der Optionen aus oder verwenden Sie die Suchleiste, um ein Feld zu finden.</span>
+      1. Aktivieren Sie die Einstellung **Auf Zeile anwenden**, um die Formatierung auf die gesamte Zeile des Felds anzuwenden, das die Bedingungen erfüllt.
+      1. (Optional) Klicken Sie im Feld **Format** auf **Bedingung hinzufügen**, um eine weitere Regel für ein anderes Feld hinzuzufügen, und wiederholen Sie dann die obigen Schritte.
+      1. (Optional) Klicken Sie auf **Alle löschen**, um alle Formatierungen zu entfernen.
+      1. Klicken Sie außerhalb des Felds **Format**, um es zu schließen.
 
-      <span class="preview">Das Feld muss eine Spalte in der Liste sein, bevor Sie es gruppieren können. Nicht alle Feldtypen können für Gruppierungen verwendet werden.</span>
+         Dadurch gelangen Sie zurück zur Listenansicht.
+Die Formatierung wird sofort auf die Listenansicht angewendet.
+Ein blauer Punkt neben dem Symbol **Zellen formatieren** gibt an, dass auf die Ansicht eine besondere Formatierung angewendet wurde.
 
-   1. <span class="preview">Klicken Sie auf das Symbol **Zeilenhöhe** (Symbol ![&#x200B; Zeilenhöhe](assets/row-height-icon.png), um die vertikale Länge einer Zeile zu aktualisieren. Wählen Sie aus den folgenden Optionen: </span>
+   1. (Optional) Klicken Sie auf das **Gruppierung**-Symbol ![Gruppierungssymbol](assets/grouping-icon.png) <!--have they updated this to "Grouping"??-->, um Elemente in der Liste nach einem gemeinsamen Feld zu gruppieren. Wählen Sie eine der Optionen aus oder verwenden Sie die Suchleiste, um ein Feld zu finden.
 
-      <div class="preview">
+      Das Feld muss eine Spalte in der Liste sein, bevor Sie es gruppieren können. Nicht alle Feldtypen können für Gruppierungen verwendet werden.
+
+   1. Klicken Sie auf **Zeilenhöhe**-Symbol ![Zeilenhöhe-Symbol](assets/row-height-icon.png), um die vertikale Länge einer Zeile zu aktualisieren. Wählen Sie aus den folgenden Optionen:
 
       * Kurz
       * Standard. Dies ist die Standardauswahl.
       * Mittel
       * Groß
-
-      </div>
 
    <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
 

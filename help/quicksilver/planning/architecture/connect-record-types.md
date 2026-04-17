@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 539f87ddeab85eb6e8a028bcb6e394c3cd179c4d
+source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
 workflow-type: tm+mt
-source-wordcount: '3071'
+source-wordcount: '2954'
 ht-degree: 4%
 
 ---
@@ -22,10 +22,11 @@ ht-degree: 4%
 
 # Verbinden von Eintragstypen
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -94,7 +95,7 @@ Ein Beispiel für das Verbinden von Datensatztypen und Datensätzen finden Sie u
    <ul><li><p>Eine Adobe Experience Manager Assets-Lizenz und eine Integration zwischen AEM Assets und Workfront, um AEM-Assets mit Planungs-Datensatztypen zu verbinden.</p>
    <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront für Experience Manager Assets und Assets Essentials: Artikelindex</a>. </p></li>
    <li><p> Eine Adobe GenStudio for Performance Marketing-Lizenz zum Verbinden von Datensatztypen mit GenStudio Brands</p>
-   <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -228,18 +229,16 @@ Old:
 
      >[!TIP]
      >
-     ><span class="preview">Sie können die folgende Tastenkombination verwenden, um das globale Suchfeld von jeder Workfront-Planungsseite aus zu öffnen und nach Datensatztypen zu suchen:</span>
+     >Sie können die folgende Tastaturkombination verwenden, um das globale Suchfeld von einer beliebigen Workfront-Planungsseite aus zu öffnen und nach Datensatztypen zu suchen:
      >
-     >* <span class="preview">STRG+K für Windows</span>
-     >* <span class="preview">⌘+K für Mac</span>
+     >* STRG+K für Windows
+     >* ⌘+K für Mac
      >
      >![Globales Suchfeld](assets/global-search-box.png)
 
    * Ein **Projekt, Portfolio, Programm,** oder **Gruppe** aus dem Abschnitt **Workfront** Objekttypen.
 
      ![Auswahl der Workfront-Projektverbindung](assets/multi-select-connection-picker-project.png)
-
-   <div class="preview">
 
    * Eine **ursprüngliche Anfrage** Objekttyp aus dem Abschnitt **Workfront** Objekttypen.
 
@@ -254,8 +253,6 @@ Old:
      >* [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md).
 
      ![Auswahl der ursprünglichen Anfrageverbindung](assets/original-request-connection-selection.png)
-
-   </div>
 
 
    * **Experience Manager** im Abschnitt **Adobe-**.
@@ -319,7 +316,7 @@ Old:
 
    >[!NOTE]
    >
-   >Ihr Workfront-Administrator kann Workfront Planning-Felder über die Metadatenzuordnung in Workfront Experience Manager-Feldern zuordnen. Weitere Informationen finden Sie unter &quot;[&#x200B; der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >Ihr Workfront-Administrator kann Workfront Planning-Felder über die Metadatenzuordnung in Workfront Experience Manager-Feldern zuordnen. Weitere Informationen finden Sie unter &quot;[ der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Bedingt) Wenn Sie eine Verbindung zu Experience Manager, zu einem Workfront Planning-Datensatztyp oder zu einer GenStudio-Marke herstellen möchten, wählen Sie im Bereich „Erscheinungsbild des **&quot; eine der folgenden Optionen**:
@@ -349,14 +346,15 @@ Old:
 
    >[!TIP]
    >
-   >* Sie können keine Referenzfelder aus einer anderen Anwendung als Lookup-Felder hinzufügen. Sie können beispielsweise keine Projektgruppe oder Firma als Suchfeld in Planning hinzufügen, wenn Sie eine Verbindung zu Workfront-Projekten herstellen.
+   >* Sie können keine Referenzfelder aus einer anderen Anwendung als Lookup-Felder hinzufügen. Sie können beispielsweise kein Projekt, keine Gruppe oder kein Unternehmen als Suchfeld in Planning hinzufügen, wenn Sie eine Verbindung zu Workfront-Projekten herstellen.
    >
-   >* In der Produktionsumgebung können Sie keine Workfront-Benutzerfelder (einschließlich Feldern wie Projektbesitzer oder Projektsponsor) als Suchfelder hinzufügen. <span class="preview">Sie können Benutzerfelder als Suchfelder in der Vorschau-Umgebung hinzufügen.</span>
+   ><!--* In the Production environment, you cannot add Workfront user fields (including fields like Project Owner, or Project Sponsor) as lookup fields. <span class="preview">You can add user fields as lookup fields in the Preview environment.</span>-->
    >
    >* Die Datumsfeldinformationen der Workfront-Objekte werden in Workfront Planning im 24-Stunden-Format angezeigt, unabhängig davon, wie sie in Workfront angezeigt werden.
    >
    >   Wenn beispielsweise das geplante Startdatum eines Projekts in Workfront um 15 :00 angezeigt wird, wird es in Workfront :00 in einem importierten Suchfeld als 15 angezeigt.
-   >* In der Produktionsumgebung können Sie keine Personenfelder als Lookup-Felder hinzufügen. <span class="preview">Sie können Personenfelder als Suchfelder in der Vorschau-Umgebung hinzufügen.</span>
+   >
+   ><!--* In the Production environment, you cannot add People fields as lookup fields. <span class="preview">You can add People fields as lookup fields in the Preview environment.</span>-->
 
 1. Klicken Sie auf **Erstellen**.
 

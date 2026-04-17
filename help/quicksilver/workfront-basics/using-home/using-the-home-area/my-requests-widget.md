@@ -8,20 +8,22 @@ feature: Get Started with Workfront
 exl-id: 2b994f44-2404-4aa3-8c38-0686a0c287b7
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 6%
+source-wordcount: '694'
+ht-degree: 7%
 
 ---
 
 # Verwenden des Widgets „Meine Anfragen“
 
-<!--remove Preview and Production references at Production release April 15, 2026-->
+<!--
+remove Preview and Production references at Production release April 15, 2026
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 >[!IMPORTANT]
 >
@@ -102,14 +104,9 @@ To configure the filter in the My Requests widget:
    * Ansicht
    * Filter
    * Spalten
-
-   <div class="preview">
-
    * Gruppierung
    * Zellen formatieren
    * Zeilenhöhe
-
-   </div>
 
    Weitere Informationen zum Aktualisieren von Ansichtselementen in der Anfragenliste finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
@@ -212,7 +209,7 @@ Objekte, die durch eine Anfrage erstellt wurden, finden Sie im Widget Meine Anfr
 >
 >* Planungs- und Workfront-Anfragen im Feld „Betreff“
 >* Planungsdatensätze, die aus Planungsanfragen im Feld Erstelltes Objekt erstellt wurden.
->* <span class="preview">Workfront-Aufgaben und -Probleme, die aus Workfront-Anfragen im Feld Erstelltes Objekt in der Vorschau-Umgebung konvertiert wurden.</span>
+>* Aus Workfront-Anfragen konvertierte Workfront-Aufgaben und -Probleme im Feld Erstelltes Objekt .
 
 1. Klicken Sie oben links auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/lines-main-menu.png) und dann auf **[!UICONTROL Home]**.
 1. (Bedingt) So fügen Sie das Widget **Meine Anfragen** zu Ihrem Startbildschirm hinzu. Klicken Sie auf **Anpassen**, suchen Sie nach **Meine Anfragen** und klicken Sie dann darauf, um sie zu &quot;**&quot;**.
@@ -223,10 +220,7 @@ Objekte, die durch eine Anfrage erstellt wurden, finden Sie im Widget Meine Anfr
 
    >[!TIP]
    >
-   >In der Produktionsumgebung verfügen nur Planning-Datensätze über einen Link im Feld **Erstelltes**&quot;.
-   >   
-   ><span class="preview">In der Vorschau-Umgebung haben aus Problemen konvertierte Workfront-Aufgaben und -Projekte sowie aus Planungsanfragen erstellte Planungsdatensätze einen Link im Feld **Erstelltes**&quot;</span>
-   >
+   >Workfront-Aufgaben und -Projekte, die aus Problemen konvertiert wurden, sowie Planungsdatensätze, die aus Planungsanfragen erstellt wurden, haben einen Link im Feld **Erstelltes**&quot;.
 
 
 

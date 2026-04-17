@@ -10,10 +10,10 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 4%
+source-wordcount: '1377'
+ht-degree: 5%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 4%
 
 <!--
 Remove production and preview references at release
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
-
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Sie können die Anfragen anzeigen, die Sie oder eine andere Person gesendet haben, oder die Anfragen, die Sie begonnen haben, aber nie abgeschlossen haben. Die nicht abgeschlossenen Anfragen werden als Entwürfe gespeichert.
 
@@ -101,7 +101,7 @@ Die Anzeige gesendeter Anfragen unterscheidet sich je nachdem, ob Sie das neue o
 
 >[!NOTE]
 >
->* Wenn Sie über Workfront Planning verfügen, werden Ihre Workfront- und Planning-Anfragen in derselben Liste angezeigt. Workfront-Anfragen zeigen den in der Spalte `Issue`Objekttyp **&#x200B;**&#x200B;Wert an.
+>* Wenn Sie über Workfront Planning verfügen, werden Ihre Workfront- und Planning-Anfragen in derselben Liste angezeigt. Workfront-Anfragen zeigen den in der Spalte `Issue`Objekttyp **** Wert an.
 >* Standardmäßig werden im Bereich Anfragen bis zu 50 Anfragen in der Liste angezeigt. Um weitere Anfragen anzuzeigen, scrollen Sie zum unteren Rand der Liste.
 
 Gesendete Anfragen können im Bereich Anfragen und im Widget Meine Anfragen auf der Startseite angezeigt werden.
@@ -112,7 +112,7 @@ Gesendete Anfragen können im Bereich Anfragen und im Widget Meine Anfragen auf 
 >
 >* Planungs- und Workfront-Anfragen im Feld „Betreff“
 >* Planungsdatensätze, die aus Planungsanfragen im Feld Erstelltes Objekt erstellt wurden.
->* <span class="preview">Workfront-Aufgaben und -Probleme, die aus Workfront-Anfragen im Feld Erstelltes Objekt in der Vorschau-Umgebung konvertiert wurden. </span>
+>* Aus Workfront-Anfragen konvertierte Workfront-Aufgaben und -Probleme im Feld Erstelltes Objekt .
 
 So zeigen Sie Anfragen an, die Sie oder andere Benutzende in der neuen anfordernden Version gesendet haben:
 
@@ -128,14 +128,9 @@ So zeigen Sie Anfragen an, die Sie oder andere Benutzende in der neuen anfordern
    * Ansicht
    * Filter
    * Spalten
-
-   <div class="preview">
-
-   * **Gruppierung**
+   * Gruppierung
    * Zellen formatieren
    * Zeilenhöhe
-
-   </div>
 
    Weitere Informationen zum Verwalten von Informationen in der Anfragenliste finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
