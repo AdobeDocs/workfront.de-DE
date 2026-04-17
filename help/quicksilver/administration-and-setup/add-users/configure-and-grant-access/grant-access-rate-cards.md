@@ -8,7 +8,7 @@ author: Becky and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b21e65d3-3c9f-4f3d-95d3-de4c09199622
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+source-git-commit: 85399542ce8e92de6da5a1de0960194e72958987
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 10%
@@ -16,8 +16,6 @@ ht-degree: 10%
 ---
 
 # Zugriff auf Tarifkarten gewähren
-
-{{highlighted-preview-article-level}}
 
 Als Adobe Workfront-Administrator können Sie den Zugriff eines Benutzers definieren, um Karten über die Zugriffsebene des Benutzers zu bewerten, wie in [Übersicht über Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) beschrieben.
 
@@ -59,7 +57,7 @@ Beachten Sie Folgendes, wenn Sie Benutzenden Zugriff auf Tarifkarten in Workfron
 
 ## Konfigurieren des Benutzerzugriffs zum Bewerten von Karten mit einer benutzerdefinierten Zugriffsebene
 
-1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Klicken Sie auf das Zahnradsymbol ![](assets/gear-icon-settings.png) auf der **Ansicht** oder **Bearbeiten** rechts neben den Tarifkarten und wählen Sie dann die Funktionen aus, die Sie unter **Einstellungen optimieren** gewähren möchten.
 
    ![Anpassung des Kartenzugriffs](assets/rate-card-access-fine-tune.png)
