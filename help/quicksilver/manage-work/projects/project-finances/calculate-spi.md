@@ -2,25 +2,25 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: Planleistungsindex (SPI) berechnen
+title: Berechnen des Zeitplan-Leistungsindex (Schedule Performance Index, SPI)
 description: Der Zeitplan-Leistungsindex (SPI) beschreibt die Beziehung zwischen dem geplanten Zeitplan und dem tatsächlichen Zeitplan.
 author: Lisa
 feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 4%
+source-wordcount: '397'
+ht-degree: 18%
 
 ---
 
-# Planleistungsindex (SPI) berechnen
+# Berechnen des Zeitplan-Leistungsindex (Schedule Performance Index, SPI)
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
 -->
 
-Der Zeitplan-Leistungsindex (SPI) beschreibt die Beziehung zwischen dem geplanten Zeitplan und dem tatsächlichen Zeitplan. Adobe Workfront berechnet den SPI auf Projekt- und Aufgabenebene. Projektmanager überprüfen diese Metrik, um festzustellen, ob Aufgaben oder Projekte derzeit geplant oder sogar vorzeitig nachverfolgt werden.
+Der Zeitplan-Leistungsindex (SPI) beschreibt die Beziehung zwischen dem geplanten Zeitplan und dem tatsächlichen Zeitplan. Adobe Workfront berechnet den SPI auf Projekt- und Aufgabenebene. Das Projekt-Management überprüft diese Metrik, um festzustellen, ob Aufgaben oder Projekte derzeit vor oder hinter dem Zeitplan liegen.
 
 ## Zugriffsanforderungen
 
@@ -46,12 +46,12 @@ Der Zeitplan-Leistungsindex (SPI) beschreibt die Beziehung zwischen dem geplante
   </tr> 
   <tr> 
    <td>Objektberechtigungen</td> 
-   <td>Anzeigen von oder höheren Berechtigungen für das Projekt mit Berechtigungen zum Anzeigen von Finanzdaten</td> 
+   <td>Zeigen Sie oder höhere Berechtigungen für das Projekt mit Berechtigungen zum Anzeigen der allgemeinen Finanzen an</td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

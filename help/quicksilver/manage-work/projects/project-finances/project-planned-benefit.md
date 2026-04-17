@@ -7,14 +7,14 @@ description: Der geplante Nutzen ist der geschätzte Geldbetrag, den eine Organi
 author: Lisa
 feature: Work Management
 exl-id: 1ded9d16-57be-40e0-b083-ee5273fd9b56
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 1%
+source-wordcount: '316'
+ht-degree: 13%
 
 ---
 
-# Übersicht über den geplanten Projektgewinn
+# Überblick über den geplanten Nutzen eines Projekts
 
 Der geplante Nutzen ist der geschätzte Geldbetrag, den eine Organisation nach Abschluss eines Projekts erhalten könnte.
 
@@ -25,7 +25,7 @@ Weitere Informationen zur Berechnung des Nettowerts eines Projekts finden Sie im
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +39,7 @@ Weitere Informationen zur Berechnung des Nettowerts eines Projekts finden Sie im
    <td>Adobe Workfront-Lizenz</td> 
    <td>
    <p>Standard</p>
-   <p>Plan</p></td> 
+   <p>Abo</p></td> 
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -47,12 +47,12 @@ Weitere Informationen zur Berechnung des Nettowerts eines Projekts finden Sie im
   </tr> 
   <tr> 
    <td>Objektberechtigungen</td> 
-   <td>Verwalten von Berechtigungen für das Projekt mit Berechtigungen zum Verwalten von Finanzen</td> 
+   <td>Verwalten von Projektberechtigungen mit Berechtigungen zum Bearbeiten von General Finance</td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

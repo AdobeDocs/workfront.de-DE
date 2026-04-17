@@ -1,19 +1,19 @@
 ---
 product-area: projects
 navigation-topic: financials
-title: Festlegen der Performance-Index-Methode (PIM)
+title: Festlegen der Performance Index Method (PIM)
 description: Die Leistungsindexmethode (PIM) für das Projekt steuert die Methode, die Adobe Workfront verwendet, um Projektleistungsmetriken wie Kostenentwicklungsindex (Cost Performance Index, CPI), Kostenplanleistungsindex (Cost Schedule Performance Index, CSI), Zeitplan-Leistungsindex (SPI) und Schätzung bei Abschluss (EAC) zu berechnen.
 author: Lisa
 feature: Work Management
 exl-id: de628881-c016-4521-bc33-3bcfba19a88f
-source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 1%
+source-wordcount: '412'
+ht-degree: 12%
 
 ---
 
-# Festlegen der Performance-Index-Methode (PIM)
+# Festlegen der Performance Index Method (PIM)
 
 Die Leistungsindexmethode (PIM) für das Projekt steuert die Methode, die Adobe Workfront verwendet, um Projektleistungsmetriken wie Kostenentwicklungsindex (Cost Performance Index, CPI), Kostenplanleistungsindex (Cost Schedule Performance Index, CSI), Zeitplan-Leistungsindex (SPI) und Schätzung bei Abschluss (EAC) zu berechnen.
 
@@ -24,7 +24,7 @@ Workfront berechnet diese Werte wie folgt:
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +38,7 @@ Workfront berechnet diese Werte wie folgt:
    <td>Adobe Workfront-Lizenz</td> 
    <td>
    <p>Standard</p>
-   <p>Plan</p></td> 
+   <p>Abo</p></td> 
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -46,12 +46,12 @@ Workfront berechnet diese Werte wie folgt:
   </tr> 
   <tr> 
    <td>Objektberechtigungen</td> 
-   <td>Verwalten von Berechtigungen für das Projekt mit Berechtigungen zum Verwalten von Finanzen</td> 
+   <td>Verwalten von Projektberechtigungen mit Berechtigungen zum Bearbeiten von General Finance</td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

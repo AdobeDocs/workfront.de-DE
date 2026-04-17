@@ -2,19 +2,19 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: Schätzung bei Abschluss berechnen (EAC)
+title: Berechnen des geschätzten Gesamtaufwands (Estimate At Completion, EAC)
 description: Als Leistungskennzahl gibt die Kalkulation bei Abschluss (BK) die erwarteten Gesamtkosten Ihres Projekts oder Ihrer Aufgabe zum Zeitpunkt der Fertigstellung an.
 author: Lisa
 feature: Work Management
 exl-id: 9061fa56-cff3-4fe2-866e-1fdda9d43efc
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 2%
+source-wordcount: '826'
+ht-degree: 5%
 
 ---
 
-# Schätzung bei Abschluss berechnen (EAC)
+# Berechnen des geschätzten Gesamtaufwands (Estimate At Completion, EAC)
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link!) </p>
@@ -48,12 +48,12 @@ Als Einstellung können Sie festlegen, wie der EAC-Wert berechnet werden soll.
   </tr> 
   <tr> 
    <td>Objektberechtigungen</td> 
-   <td>Anzeigen von oder höheren Berechtigungen für das Projekt mit Berechtigungen zum Anzeigen von Finanzdaten</td> 
+   <td>Zeigen Sie oder höhere Berechtigungen für das Projekt mit Berechtigungen zum Anzeigen der allgemeinen Finanzen an</td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

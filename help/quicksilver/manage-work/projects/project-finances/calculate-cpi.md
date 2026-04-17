@@ -2,19 +2,19 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: Kostenentwicklungsindex (CPI) berechnen
+title: Berechnen des Kostenentwicklungsindex (Cost Performance Index, CPI)
 description: Der Kostenentwicklungsindex (Cost Performance Index, CPI) beschreibt die Beziehung zwischen den geplanten Kosten und den Ist-Kosten auf Projekt- oder Vorgangsebene. Projektmanager überprüfen diese Metrik, um Aufgaben oder Projekte zu identifizieren, die zu einem bestimmten Zeitpunkt unter oder über den Kosten liegen.
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: f88b6ec019963ff6256e35b9c94eb4d1b7e99730
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 3%
+source-wordcount: '584'
+ht-degree: 11%
 
 ---
 
-# Kostenentwicklungsindex (CPI) berechnen
+# Berechnen des Kostenentwicklungsindex (Cost Performance Index, CPI)
 
 <!-- Audited: 5/2025 -->
 
@@ -22,7 +22,7 @@ ht-degree: 3%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
 -->
 
-Der Kostenentwicklungsindex (Cost Performance Index, CPI) beschreibt die Beziehung zwischen den geplanten Kosten und den Ist-Kosten auf Projekt- oder Vorgangsebene. Projektmanager überprüfen diese Metrik, um Aufgaben oder Projekte zu identifizieren, die zu einem bestimmten Zeitpunkt unter oder über den Kosten liegen. Die Kosten können je nach Leistungsindexmethode (PIM) in Stunden oder in Währungen angegeben werden. Weitere Informationen zum Festlegen der Leistungsindexmethode finden Sie unter [Festlegen der Leistungsindexmethode (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
+Der Kostenentwicklungsindex (Cost Performance Index, CPI) beschreibt die Beziehung zwischen den geplanten Kosten und den Ist-Kosten auf Projekt- oder Vorgangsebene. Das Projekt-Management überprüft diese Metrik, um Aufgaben oder Projekte zu ermitteln, die zu einem bestimmten Zeitpunkt unter oder über den Kosten liegen. Die Kosten können je nach Leistungsindexmethode (PIM) in Stunden oder in Währungen angegeben werden. Weitere Informationen zum Festlegen der Leistungsindexmethode finden Sie unter [Festlegen der Leistungsindexmethode (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
 
 Nur Organisationen, die eine Zeiteingabe benötigen, können CPI verwenden. Darüber hinaus sind kostenbasierte PIM-Werte nur in Organisationen korrekt, die Kostensätze für Aufgabenzugewiesene (Aufgabengebiete oder Benutzer) definiert haben.
 
@@ -50,12 +50,12 @@ Nur Organisationen, die eine Zeiteingabe benötigen, können CPI verwenden. Dar�
   </tr> 
   <tr> 
    <td>Objektberechtigungen</td> 
-   <td>Anzeigen von oder höheren Berechtigungen für das Projekt mit Berechtigungen zum Anzeigen von Finanzdaten</td> 
+   <td>Zeigen Sie oder höhere Berechtigungen für das Projekt mit Berechtigungen zum Anzeigen der allgemeinen Finanzen an</td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

@@ -10,10 +10,10 @@ role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
+source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '1590'
-ht-degree: 8%
+source-wordcount: '1423'
+ht-degree: 9%
 
 ---
 
@@ -124,17 +124,6 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
        </ul><p><b>HINWEIS</b>: Dies ermöglicht es dem Benutzer nicht, neue Ausgabentypen zu erstellen.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Aufgabengebiete</td> 
-      <td> Mit diesem Zugriff kann der Benutzer Folgendes tun: 
-       <ul> 
-        <li>Anzeigen und Bearbeiten vorhandener Aufgabengebiete</li> 
-        <li>Neue Aufgabengebiete hinzufügen</li> 
-        <li>Funktionsbezogene Abrechnung und Kostensätze bearbeiten</li> 
-       </ul> 
-       <p>Wichtige Informationen zum Zugriff auf Finanzdaten, die einem Standard- oder Planer-Benutzer mit administrativem Zugriff auf Aufgabengebiete zur Verfügung stehen, finden Sie unter <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">Standard- oder Planer-Benutzer mit administrativem Zugriff auf Aufgabengebiete</a>.</p>
-      </td> 
-     </tr> 
-     <tr> 
       <td role="rowheader">Meilensteine in meiner Gruppe</td> 
       <td>Zeigen Sie alle Meilensteinpfade im System unter dem Menü Meilensteinpfade im Setup an. Benutzer können auch alle Meilensteinpfade bearbeiten oder löschen, die zu einer ihrer Gruppen gehören. Benutzende können keine Meilensteinpfade verwalten (bearbeiten oder löschen), die nicht ihren Gruppen zugewiesen sind.<p>Ohne diesen Zugriff können Benutzende nur vorhandene Meilensteinpfade anzeigen und auf Projekte anwenden, auf die sie Zugriff haben.</p></td> 
      </tr> 
@@ -226,13 +215,29 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
    Informationen dazu, wie ein Adobe-Administrator einem Benutzer eine Systemadministrator-Zugriffsebene zuweist, finden Sie unter [Gewähren des vollständigen Administratorzugriffs für einen Benutzer](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-## Standard- oder Planer-Benutzer mit administrativem Zugriff auf Aufgabengebiete {#planner-users}
+<!--
 
-Wenn Sie einem Standard- oder Planer-Benutzer administrativen Zugriff auf Aufgabengebiete gewähren, wird die Einstellung „Funktion bearbeiten - Abrechnung und Kostensätze“ automatisch für den Benutzer aktiviert.
+## Standard or Planner users with administrative access to job roles {#planner-users}
 
-Wenn Sie später den administrativen Zugriff auf Aufgabengebiete für den Benutzer deaktivieren, sind Aufgabengebiete für den Benutzer weiterhin sichtbar, da die Einstellung „Aufgabengebiet bearbeiten - Abrechnung und Kostensätze“ weiterhin aktiviert ist.
+If you grant a Standard or Planner user administrative access to job roles, the Edit Role Billing &amp; Cost Rates setting is automatically enabled for the user automatically.
 
-Wenn dies eintritt und Sie den Zugriff des Benutzers auf die Anzeige von Aufgabengebieten entfernen müssen, müssen Sie die Berechtigungseinstellung „Rolle bearbeiten - Abrechnung und Kostensätze“ des Benutzers deaktivieren. Anweisungen finden Sie unter [Zugriff auf Finanzdaten gewähren](grant-access-financial.md).
+Later, if you disable administrative access to job roles for the user, job roles are still visible to the user because the Edit Role Billing &amp; Cost Rates setting is still enabled.
 
+If this happens and you need to remove the user's access to view job roles, you need to disable the user's Edit Role Billing &amp; Cost Rates permission setting. For instructions, see [Grant access to financial data](grant-access-financial.md).
+
+
+     <tr> 
+      <td role="rowheader">Job roles</td> 
+      <td> With this access, the user is allowed to do the following: 
+       <ul> 
+        <li>View and edit existing job roles</li> 
+        <li>Add new job roles</li> 
+        <li>Edit role billing and cost rates</li> 
+       </ul> 
+       <p>For important information about access to financial data that is available to a Standard or Planner user with administrative access to job roles, see <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">Standard or Planner users with administrative access to job roles</a>.</p>
+      </td> 
+     </tr> 
+
+-->
 
 
