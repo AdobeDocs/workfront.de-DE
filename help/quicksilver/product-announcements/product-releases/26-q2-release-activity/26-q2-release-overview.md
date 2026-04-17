@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 8d7cffd5b629b62ae3fbaf3bfddb86a05875acd9
+source-git-commit: 540d56017dccf238d301e81085b62b5163b71103
 workflow-type: tm+mt
 source-wordcount: '2362'
 ht-degree: 24%
@@ -20,7 +20,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der für April 20
 
 Die Verbesserungen auf dieser Seite sind in der Vorschauumgebung verfügbar. Diese Seite wird mit zusätzlichen Verbesserungen aktualisiert, sobald die geplante Produktionsversion der Version für das zweite Quartal 2026 näher rückt.
 
-Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben die neuen Funktionen hervor und bieten detaillierte Informationen. Um sich zu registrieren, besuchen Sie die [Ereignisseite](https://experienceleague.adobe.com/de/events?filters=Workfront) und filtern Sie nach Workfront.
+Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben die neuen Funktionen hervor und bieten detaillierte Informationen. Um sich zu registrieren, besuchen Sie die [Ereignisseite](https://experienceleague.adobe.com/en/events?filters=Workfront) und filtern Sie nach Workfront.
 
 >[!IMPORTANT]
 >
@@ -515,3 +515,5 @@ Informationen zu den Wartungs-Updates, die im zweiten Quartal 2026 durchgeführt
 ### Updates für Schulungen
 
 Erfahren Sie mehr über die neuesten Updates von Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie im Abschnitt „Neue Funktionen“ der Seite [Workfront-Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=de).
+
+
