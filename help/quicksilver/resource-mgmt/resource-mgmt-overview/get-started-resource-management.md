@@ -168,7 +168,7 @@ Sie müssen eine Reihe von Anforderungen erfüllen, bevor Sie die Tools für das
 Informationen zu den Anforderungen der einzelnen Ressourcenverwaltungstools in Workfront finden Sie unter folgenden Themen:
 
 * Der Abschnitt [Voraussetzungen für die Arbeit im Ressourcenplaner](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner) im Artikel [Ressourcenplaner - Übersicht](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
-* Der Abschnitt [Best Practices für die Verwendung des Workload ](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer)) im Artikel [Übersicht über den Workload Balancer](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+* Der Abschnitt [Best Practices für die Verwendung des Workload &#x200B;](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer)) im Artikel [Übersicht über den Workload Balancer](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 * [Zugriff zum Budgetressourcen in Adobe Workfront erforderlich](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [Zugriff erforderlich, um Ressourcen im Workload Balancer zu verwalten](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 
