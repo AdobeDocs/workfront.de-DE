@@ -6,14 +6,14 @@ description: Sie können Ihre Ressourcen im Adobe Workfront-Ressourcenplaner bud
 author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '1392'
-ht-degree: 0%
+source-wordcount: '1412'
+ht-degree: 3%
 
 ---
 
-# Kosten im Ressourcenplaner berechnen
+# Berechnen von Kosten im Ressourcenplaner
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)</p>
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 <!--'(Alina: ***Linked to the Planning in the Resource Planner article, Understanding areas of the Resource Planner. - do not move/ change/ delete.)'-->
 
-Sie können Ihre Ressourcen im Adobe Workfront-Ressourcenplaner budgetieren, indem Sie Kostenwerte anstelle von Stunden- oder FTE-Werten verwenden. Kostenwerte sind für die Ansicht &quot;**nach Benutzer“** Ressourcenplaner nicht verfügbar.
+Sie können Ihre Ressourcen im Adobe Workfront-Ressourcenplaner budgetieren, indem Sie Kostenwerte anstelle von Stunden- oder FTE-Werten verwenden. Kostenwerte sind für die Ansicht **Nach Benutzer anzeigen** im Ressourcenplaner nicht verfügbar.
 
 >[!IMPORTANT]
 >
@@ -34,7 +34,7 @@ Weitere Informationen zum Verständnis der Informationen im Ressourcenplaner bei
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,20 +47,21 @@ Weitere Informationen zum Verständnis der Informationen im Ressourcenplaner bei
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td> 
+       <p>Abo</p></td> 
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf das Ressourcenmanagement bearbeiten, der den Zugriff auf die Bearbeitung von Prioritäten und Budgetstunden im Ressourcenplaner beinhaltet</p> <p>Zugriff auf Finanzdaten, Projekte und Benutzer bearbeiten</p></td> 
+   <td> <p>Zugriff auf das Ressourcenmanagement bearbeiten, der den Zugriff auf die Bearbeitung von Prioritäten und Budgetstunden im Ressourcenplaner beinhaltet</p> <p>Zugriff auf Finanzdaten bearbeiten, einschließlich Zugriff auf „Kostensätze bearbeiten“ und „Allgemeine Finanzen bearbeiten“</p>
+   <p>Zugriff auf Projekte und Benutzer bearbeiten</p></td> 
   </tr> 
   <tr> 
    <td>Objektberechtigungen</td> 
-   <td> <p>Verwalten Sie Berechtigungen für die Projekte, für die Sie Informationen budgetieren möchten, mit der Möglichkeit, Finanzen zu verwalten.</p></td>
+   <td> <p>Verwalten Sie Berechtigungen für die Projekte, für die Sie Informationen budgetieren möchten, mit der Möglichkeit, Kostensätze zu bearbeiten und allgemeine Finanzen zu bearbeiten</p></td>
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -92,7 +93,7 @@ Um verfügbare Kostenwerte im Ressourcenplaner anzuzeigen, benötigen Sie Folgen
 * Informationen zur Benutzerverfügbarkeit.
 
   Das Erhalten von Informationen zur Benutzerverfügbarkeit hängt davon ab, wie der Workfront-Administrator die Voreinstellungen für die Ressourcenverwaltung konfiguriert.\
-  Weitere Informationen zum Berechnen der Benutzerverfügbarkeit und Festlegen der Voreinstellungen für die Ressourcenverwaltung finden Sie [Konfigurieren der Voreinstellungen für die &#x200B;](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)&quot;.
+  Weitere Informationen zum Berechnen der Benutzerverfügbarkeit und Festlegen der Voreinstellungen für die Ressourcenverwaltung finden Sie [Konfigurieren der Voreinstellungen für die ](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)&quot;.
 
 Die folgende Tabelle zeigt, wie die verfügbaren Kosten im Ressourcenplaner berechnet werden:
 

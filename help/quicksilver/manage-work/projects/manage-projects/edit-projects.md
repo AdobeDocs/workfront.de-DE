@@ -9,9 +9,9 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+source-git-commit: d8a01839b8f1332741f87be766f3ccb7d08cef96
 workflow-type: tm+mt
-source-wordcount: '7855'
+source-wordcount: '7859'
 ht-degree: 2%
 
 ---
@@ -396,12 +396,12 @@ So bearbeiten Sie beim Bearbeiten eines Projekts Informationen zu benutzerdefini
 
 Je nach Ihrer Zugriffsebene und Ihrer Berechtigung für das Projekt gibt es die folgenden Szenarien:
 
-* Wenn Sie für das Projekt über Anzeigeberechtigungen für Finanzdaten und Finanzdaten verfügen, können Sie die Felder nur im Abschnitt Finanzen anzeigen. Die Felder in diesem Abschnitt können nicht bearbeitet werden.
-* Wenn Sie für das Projekt über Bearbeitungsberechtigungen für Finanzdaten und Finanzdaten verwalten verfügen, können Sie die Felder in diesem Abschnitt aktualisieren.
+* Wenn Sie für das Projekt über Anzeigeberechtigungen für Finanzdaten und allgemeine Finanzdaten verfügen, können Sie die Felder nur im Abschnitt Finanzen anzeigen. Die Felder in diesem Abschnitt können nicht bearbeitet werden.
+* Wenn Sie für das Projekt über Bearbeitungsberechtigungen für Finanzdaten und allgemeine Finanzen verfügen, können Sie die Felder in diesem Abschnitt aktualisieren.
 
 Wenn Sie mehr als ein Projekt auswählen, um sie stapelweise zu bearbeiten, gibt es die folgenden Szenarien:
 
-* Wenn Sie mindestens ein Projekt auswählen, für das Sie über die Berechtigung „Finanzen anzeigen“ (anstelle von „Finanzen verwalten„) verfügen, können Sie die Felder in diesem Abschnitt nur für alle ausgewählten Projekte anzeigen. Die Felder im Abschnitt Finanzen können nicht stapelweise bearbeitet werden.
+* Wenn Sie mindestens ein Projekt auswählen, für das Sie über die Berechtigung „Allgemeine Finanzen anzeigen“ (anstelle von „Allgemeine Finanzen bearbeiten„) verfügen, können Sie die Felder in diesem Abschnitt nur für alle ausgewählten Projekte anzeigen. Die Felder im Abschnitt Finanzen können nicht stapelweise bearbeitet werden.
 * Wenn Sie mindestens ein Projekt auswählen, für das Sie keine Finanzberechtigungen haben, wird dieser Abschnitt überhaupt nicht angezeigt.
 
 So bearbeiten Sie Felder im Bereich Finanzen:

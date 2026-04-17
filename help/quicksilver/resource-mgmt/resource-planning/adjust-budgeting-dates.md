@@ -6,14 +6,14 @@ description: Wenn Sie feststellen, dass es zu einer Überallokation Ihrer Ressou
 author: Lisa
 feature: Resource Management
 exl-id: bc49d45a-73a5-4b02-9054-9c9dbb54224d
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 2%
+source-wordcount: '506'
+ht-degree: 9%
 
 ---
 
-# Budgetierungsdaten im Ressourcenplaner anpassen
+# Anpassen der Budgetierungsdaten im Ressourcenplaner
 
 Wenn Sie feststellen, dass es zu einer Überallokation Ihrer Ressourcen kommt, nachdem Sie sie im Ressourcenplaner budgetiert haben, können Sie Was-wäre-wenn-Szenarien untersuchen, indem Sie die budgetierten Stunden, FTE oder Kosten in einen anderen Zeitrahmen verschieben. Basierend auf den Ergebnissen in diesen Szenarien können Sie dann Ihre budgetierten Stunden, VZÄ oder Kosten anpassen.
 
@@ -21,7 +21,7 @@ Wenn Sie feststellen, dass es zu einer Überallokation Ihrer Ressourcen kommt, n
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,20 +34,21 @@ Wenn Sie feststellen, dass es zu einer Überallokation Ihrer Ressourcen kommt, n
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td> 
+       <p>Abo</p></td> 
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf das Ressourcenmanagement bearbeiten, der den Zugriff auf die Bearbeitung von Prioritäten und Budgetstunden im Ressourcenplaner beinhaltet</p> <p>Zugriff auf Finanzdaten, Projekte und Benutzer bearbeiten</p></td> 
+   <td> <p>Zugriff auf das Ressourcenmanagement bearbeiten, der den Zugriff auf die Bearbeitung von Prioritäten und Budgetstunden im Ressourcenplaner beinhaltet</p> <p>Zugriff auf Finanzdaten bearbeiten, einschließlich Zugriff auf „Kostensätze bearbeiten“ und „Allgemeine Finanzen bearbeiten“</p>
+   <p>Zugriff auf Projekte und Benutzer bearbeiten</p></td> 
   </tr> 
   <tr> 
    <td>Objektberechtigungen</td> 
-   <td> <p>Verwalten Sie Berechtigungen für die Projekte, für die Sie Informationen budgetieren möchten, mit der Möglichkeit, Finanzen zu verwalten.</p></td> 
+   <td> <p>Verwalten Sie Berechtigungen für die Projekte, für die Sie Informationen budgetieren möchten, mit der Möglichkeit, Kostensätze zu bearbeiten und allgemeine Finanzen zu bearbeiten</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

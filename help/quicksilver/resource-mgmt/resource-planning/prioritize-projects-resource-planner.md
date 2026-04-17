@@ -6,10 +6,10 @@ description: Projekte werden im Ressourcenplaner nach Priorität geordnet aufgel
 author: Lisa
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
-source-git-commit: 8cd6c47acf8de313bab5fe7298125eb63cc10faf
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 2%
+source-wordcount: '1302'
+ht-degree: 4%
 
 ---
 
@@ -32,20 +32,21 @@ Projekte werden im Ressourcenplaner nach Priorität geordnet aufgelistet, wobei 
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td> 
+       <p>Abo</p></td> 
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf das Ressourcenmanagement bearbeiten, der den Zugriff auf die Bearbeitung von Prioritäten und Budgetstunden im Ressourcenplaner beinhaltet</p> <p>Zugriff auf Finanzdaten, Projekte und Benutzer bearbeiten</p></td> 
+   <td> <p>Zugriff auf das Ressourcenmanagement bearbeiten, der den Zugriff auf die Bearbeitung von Prioritäten und Budgetstunden im Ressourcenplaner beinhaltet</p> <p>Zugriff auf Finanzdaten bearbeiten, einschließlich Zugriff auf „Kostensätze bearbeiten“ und „Allgemeine Finanzen bearbeiten“</p>
+    <p>Zugriff auf Projekte und Benutzer bearbeiten</p></td> 
   </tr> 
   <tr> 
    <td>Objektberechtigungen</td> 
-   <td> <p>Verwalten Sie Berechtigungen für die Projekte, für die Sie Informationen budgetieren möchten, mit der Möglichkeit, Finanzen zu verwalten.</p></td>
+   <td> <p>Verwalten Sie Berechtigungen für die Projekte, für die Sie Informationen budgetieren möchten, mit der Möglichkeit, Kostensätze zu bearbeiten und allgemeine Finanzen zu bearbeiten</p></td>
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -90,7 +91,7 @@ So bearbeiten Sie die Projektplanungspriorität:
 
 1. Klicken Sie in das Feld links neben dem Projektnamen, der eine Zahl enthält, und geben Sie eine Zahl ein, um die Planungspriorität zu ändern. Drücken Sie dann die Eingabetaste.\
    ![Planungspriorität ändern](assets/mceclip4.png)\
-   Oder\
+   ODER\
    Bewegen Sie den Mauszeiger über den Projektnamen, klicken Sie auf die Anzeige links neben dem Projektnamen, ziehen Sie sie und legen Sie sie an der richtigen Stelle ab, um die Priorität zu ändern.
 
    ![drag_and_drop_projects_RP__1_.png](assets/drag-and-drop-projects-rp--1--350x184.png)
@@ -107,7 +108,7 @@ So bearbeiten Sie die Projektplanungspriorität:
 >
 >Ihr Unternehmen muss über ein Prime- oder ein höheres Workfront-Paket verfügen, um Projekte im Portfolio Optimizer zu priorisieren.
 >
->Weitere Informationen zu den Workfront-Paketen finden Sie unter [Adobe Workfront-Pakete und Preise](https://business.adobe.com/de/products/workfront/pricing.html).
+>Weitere Informationen zu den Workfront-Paketen finden Sie unter [Adobe Workfront-Pakete und Preise](https://business.adobe.com/products/workfront/pricing.html).
 >
 >Informationen zum Priorisieren von Projekten in Portfolio Optimizer finden Sie unter [Priorisieren von Projekten in Portfolio Optimizer](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 

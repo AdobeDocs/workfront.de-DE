@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: df1d844346d7ed26dcb004ba1a10ec9e8d07422a
+source-git-commit: d8a01839b8f1332741f87be766f3ccb7d08cef96
 workflow-type: tm+mt
 source-wordcount: '1219'
 ht-degree: 2%
@@ -51,7 +51,7 @@ Als [!DNL Adobe Workfront] oder Standardbenutzer mit Bearbeitungszugriff auf Auf
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
-   <td>Administrativer Zugriff auf Aufgabengebiete</td>
+   <td>Zugriff auf Aufgabengebiete bearbeiten</td>
   </tr> 
  </tbody> 
 </table>
@@ -89,7 +89,7 @@ Abrechnungs- und Kostensätze für ein Aufgabengebiet werden in Finanzberechnung
 
 Tarifattribute werden in Bereichen von Workfront unterstützt, in denen es Tarife gibt, z. B. Aufgabengebiete und Anwender. Wenn Attribute auf ein Aufgabengebiet angewendet werden, werden ihre Zuweisungen automatisch mit den richtigen Raten aufgelöst.
 
-Weitere Informationen finden Sie unter [Definieren von &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+Weitere Informationen finden Sie unter [Definieren von ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
 
 {{step-1-to-setup}}
 
@@ -116,7 +116,7 @@ Weitere Informationen finden Sie unter [Definieren von &#x200B;](/help/quicksilv
 
    >[!NOTE]
    >
-   >Diese Attribute werden separat definiert und können sich auf Umsatz- und Kostenberechnungen auswirken. Weitere Informationen finden Sie unter [Definieren von &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+   >Diese Attribute werden separat definiert und können sich auf Umsatz- und Kostenberechnungen auswirken. Weitere Informationen finden Sie unter [Definieren von ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
 
 1. Wählen Sie die **Währung** für den Kurs. Der Workfront-Administrator fügt die Basiswährung im Bereich „Setup“ hinzu. Sie können die Auswahl in eine andere verfügbare Währung ändern und die Währung in gültigen Datumsbereichen ändern.
 
@@ -126,7 +126,7 @@ Weitere Informationen finden Sie unter [Definieren von &#x200B;](/help/quicksilv
 
    Weitere Informationen zum Einrichten der Basiswährung in Workfront finden Sie unter [Einrichten von Wechselkursen](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
-   Informationen zum Ändern der Währung eines Projekts finden Sie unter [Ändern der &#x200B;](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md).
+   Informationen zum Ändern der Währung eines Projekts finden Sie unter [Ändern der ](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md).
 
 1. (Bedingt) Geben Sie für einen Abrechnungssatz den **Abrechnungssatz** für dieses Aufgabengebiet ein.
 

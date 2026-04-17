@@ -6,14 +6,14 @@ description: Adobe Workfront kann eine eindeutige URL für die Benutzeransicht d
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 1%
+source-wordcount: '649'
+ht-degree: 7%
 
 ---
 
-# Freigeben der Ressourcenplaner-Benutzeransicht mit einem Link
+# Freigeben der Benutzeransicht des Ressourcenplaners mit einem Link
 
 Adobe Workfront kann eine eindeutige URL für die Benutzeransicht des Ressourcenplaners generieren, die Sie als externe Seite in ein Dashboard einbetten oder separat in einer neuen Browser-Registerkarte öffnen können. Dies ist hilfreich, wenn Sie Informationen zum Ressourcenplaner für Benutzende freigeben, die möglicherweise nicht direkten Zugriff auf den Bereich Ressourcen haben.
 
@@ -21,7 +21,7 @@ Adobe Workfront kann eine eindeutige URL für die Benutzeransicht des Ressourcen
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,11 +35,11 @@ Adobe Workfront kann eine eindeutige URL für die Benutzeransicht des Ressourcen
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td> 
+       <p>Abo</p></td> 
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Anzeigen oder Erweitern des Zugriffs auf Ressourcenmanagement, Projekte und Benutzer</p> <p>Anzeigen des Zugriffs auf Finanzdaten zum Anzeigen von Kosteninformationen</p></td> 
+   <td> <p>Anzeigen oder Erweitern des Zugriffs auf Ressourcenmanagement, Projekte und Benutzer</p> <p>Anzeigen des Zugriffs auf Finanzdaten, einschließlich des Zugriffs auf „Kostensätze anzeigen“ und „Allgemeine Finanzen“, um Kosteninformationen anzuzeigen</p></td> 
   </tr> 
   <tr> 
    <td>Objektberechtigungen</td> 
@@ -48,14 +48,14 @@ Adobe Workfront kann eine eindeutige URL für die Benutzeransicht des Ressourcen
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
 Beachten Sie beim Generieren der eindeutigen URL für die Benutzeransicht des Ressourcenplaners Folgendes:
 
 * Sie können eine eindeutige URL nur für die Benutzeransicht erhalten. Die Option zum Generieren der URL ist in den Projekt- oder Rollenansichten nicht vorhanden.
-* Sie können die URL für andere Benutzer freigeben, einschließlich „Arbeiten“ und „Lizenzierte Benutzer überprüfen“.\
+* Sie können die URL für andere Benutzer freigeben, einschließlich „Arbeit“, „Mitwirkende“ und „Lizenzierte Benutzer überprüfen“.\
   Sie müssen Zugriff haben, um andere Benutzer anzeigen zu können, damit sie die Informationen im Ressourcenplaner über die URL anzeigen können, die Sie für sie freigegeben haben.
 * Die folgenden Informationen werden gespeichert, wenn Sie die URL für andere Benutzer freigeben:
 

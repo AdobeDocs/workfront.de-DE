@@ -6,14 +6,14 @@ description: Sie können Ressourcen im Adobe Workfront-Ressourcenplaner mithilfe
 author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '2098'
-ht-degree: 0%
+source-wordcount: '2109'
+ht-degree: 3%
 
 ---
 
-# Budgetressourcen im Ressourcenplaner mithilfe der Projekt- und Rollenansichten
+# Budgetieren von Ressourcen im Ressourcenplaner mithilfe der Ansichten „Projekt“ und „Rolle“
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: broken off of another larger article (Planning in the RP); reformat, restructure, relink)</p>
@@ -29,11 +29,11 @@ Bevor Sie mit der Budgetplanung im Ressourcenplaner beginnen, lesen Sie die folg
 
 * [Ressourcenplaner - Übersicht](../../resource-mgmt/resource-planning/get-started-resource-planner.md)
 * [Zugriff zum Budgetressourcen in Adobe Workfront erforderlich](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
-* [Übersicht über Stunden, FTE und Kosteninformationen in den Projekt- und Rollenansichten des Ressourcenplaners](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
+* [Überblick über Stunden, FTE und Kosteninformationen in den Projekt- und Rollenansichten des Ressourcenplaners](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md)
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,11 +46,11 @@ Bevor Sie mit der Budgetplanung im Ressourcenplaner beginnen, lesen Sie die folg
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td> 
+       <p>Abo</p></td> 
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf das Ressourcenmanagement bearbeiten, der den Zugriff auf die Bearbeitung von Prioritäten und Budgetstunden im Ressourcenplaner beinhaltet</p> <p>Zugriff auf Finanzdaten bearbeiten, um Ressourcen nach Kosten zu budgetieren</p> <p>Zugriff auf Projekte und Benutzer bearbeiten</p></td> 
+   <td> <p>Zugriff auf das Ressourcenmanagement bearbeiten, der den Zugriff auf die Bearbeitung von Prioritäten und Budgetstunden im Ressourcenplaner beinhaltet</p> <p>Zugriff auf Finanzdaten bearbeiten, einschließlich Zugriff auf „Kostensätze bearbeiten“ und „Allgemeine Finanzen bearbeiten“, um Ressourcen nach Kosten zu budgetieren</p> <p>Zugriff auf Projekte und Benutzer bearbeiten</p></td> 
   </tr> 
   <tr> 
    <td>Objektberechtigungen</td> 
@@ -59,7 +59,7 @@ Bevor Sie mit der Budgetplanung im Ressourcenplaner beginnen, lesen Sie die folg
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -104,7 +104,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    * Klicken Sie auf das **Mehr**-Menü für das Projekt und dann auf **Geplante Stunden für Funktionen als „Budgetiert“**.\
      Die budgetierten Stunden für jede Funktion werden anhand der folgenden Formel berechnet:\
-     &#x200B;*
+     *
 
      `Role Budgeted Hours = Role Planned Hours`
 
@@ -153,7 +153,7 @@ Sie müssen Bearbeitungszugriff auf die Ressourcen-Management- und Finanzdaten s
 
 Informationen zum Zugriff, der für die Budgetierung von Ressourcen erforderlich ist, finden Sie im Artikel [Zugriff auf die Budgetierung von Ressourcen in Adobe Workfront erforderlich](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
-So budgetieren Sie Zuteilungen im Ressourcenplaner in der **&#x200B;**:
+So budgetieren Sie Zuteilungen im Ressourcenplaner in der ****:
 
 1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
 
@@ -174,8 +174,8 @@ So budgetieren Sie Zuteilungen im Ressourcenplaner in der **&#x200B;**:
    * Geben **in der Spalte** BDG) manuell die Anzahl der budgetierten Stunden, VZÄ oder Kosten für die Aufgabengebiete an.\
      Dadurch werden die für die Funktion budgetierten Stunden auf die budgetierten Stunden des Projekts für die Projekte verteilt, auf die Sie Zugriff haben.
 
-   * Klicken Sie auf das **Mehr**-Menü für das Aufgabengebiet und dann auf **Geplante Stunden für Projekte als „Budgetiert“ festlegen.**&#x200B;Die für die Funktion budgetierten Stunden werden anhand der folgenden Formel berechnet:\
-     &#x200B;*
+   * Klicken Sie auf das **Mehr**-Menü für das Aufgabengebiet und dann auf **Geplante Stunden für Projekte als „Budgetiert“ festlegen.**Die für die Funktion budgetierten Stunden werden anhand der folgenden Formel berechnet:\
+     *
 
      `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 
@@ -233,7 +233,7 @@ So budgetieren Sie Ressourcen stapelweise:
    In der Liste wird eine Liste der Projekte angezeigt, die Sie verwalten können.
 
 1. (Optional) Erweitern Sie jedes Projekt, um eine Liste der damit verbundenen Aufgabengebiete anzuzeigen.\
-   Oder
+   ODER
 1. (Optional) Wählen Sie **Nach Rolle anzeigen** und erweitern Sie dann jede Rolle, um eine Liste der damit verbundenen Projekte anzuzeigen.
 1. Bewegen Sie den Mauszeiger über den Namen eines Projekts oder Aufgabengebiets.
 1. Klicken Sie auf das **Mehr**-Symbol ![options_icon_resource_planner.png](assets/options-icon-resource-planner.png), das ganz rechts neben dem Projekt- oder Rollennamen angezeigt wird.
