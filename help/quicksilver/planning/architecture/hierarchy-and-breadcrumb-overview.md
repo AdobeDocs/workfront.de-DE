@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: de066d44-d214-47cc-8483-37c2623585ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1099'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Die Verwendung von Hierarchien in Ihren Arbeitsbereichen bietet folgende Vorteil
 * Die folgenden Objekttypen können nicht in einer Hierarchie hinzugefügt werden:
    * Datensatztypen aus anderen Arbeitsbereichen, auch wenn sie als verbindbare oder globale Datensatztypen festgelegt sind. Sie können globale Datensatztypen nur dann zu Hierarchien hinzufügen, wenn sie zu dem Arbeitsbereich hinzugefügt wurden, aus dem Sie die Hierarchie erstellen.
    * Alle anderen Workfront-Objekte.
-   * AEM Assets.
+   * AEM Assets oder Inhaltsfragmente.
 * Hierarchien können sowohl Planning-Datensatztypen als auch Workfront-Projekte gleichzeitig enthalten.
 
   Sie können beispielsweise einen Kampagnen-Datensatztyp mit Planungstaktiken und Workfront-Projekten als untergeordnete Elemente in derselben Workspace-Hierarchie verwenden.

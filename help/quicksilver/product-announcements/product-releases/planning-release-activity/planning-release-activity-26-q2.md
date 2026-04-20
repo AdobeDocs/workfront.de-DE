@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 540d56017dccf238d301e81085b62b5163b71103
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '1984'
+source-wordcount: '2042'
 ht-degree: 12%
 
 ---
@@ -32,6 +32,7 @@ Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen find
 >Vorschau: 16. April 2026
 >Produktions-Schnellveröffentlichung: Freitag, 16. April 2026
 >Produktion für alle: Freitag, 16. April 2026
+>[!BADGE Außerplanmäßig]{type=Neutral}
 
 Sie können jetzt in Workfront Planning auf Experience Manager Content Advisor zugreifen. Content Advisor bietet folgende Möglichkeiten:
 
@@ -187,21 +188,18 @@ Die Art und Weise, wie Breadcrumbs über Datensatztypen und Datensätze hinweg a
 
 Weitere Informationen finden Sie unter [Hierarchie und Breadcrumb - Übersicht](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
 
-<!--
-
-## New field type for Record ID  
+## Neuer Feldtyp für Datensatz-ID
 
 >[!NOTE]
 >
->Preview: March 12, 2026
->Production fast release: April 15, 2026
->Production for everyone: April 16, 2026
+>Vorschau: 12. März 2026
+>Produktions-Schnellveröffentlichung: Donnerstag, 15. April 2026
+>Produktion für alle: Freitag, 16. April 2026
 
-We have added a new field type for Record ID. This is a system-generated alpha-numeric indicator which uniquely identifies each record. The field displays in any record view as well as the record details area.  
+Wir haben einen neuen Feldtyp für Datensatz-ID hinzugefügt. Dies ist ein systemgenerierter alphanumerischer Indikator, der jeden Datensatz eindeutig identifiziert. Das Feld wird in jeder Datensatzansicht sowie im Bereich Datensatzdetails angezeigt.
 
-For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
+Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
 
--->
 
 ## Benutzern ohne Administratorrechte erlauben, einen Datensatztyp als verbindbar festzulegen
 

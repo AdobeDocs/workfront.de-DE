@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 5e0be9d9-efa5-4b16-bd56-f9c85bc57ced
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: c4716157a6fdf667f7e608d0c37399f57ec1bbfe
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
 source-wordcount: '1569'
 ht-degree: 2%
@@ -77,10 +77,10 @@ Beachten Sie beim Hinzufügen einer Seite „Verbundene Datensätze“ zu einem 
    <p> Zusätzliche Produkte</p> </td> 
    <td> 
    <p> Zusätzlich zu Adobe Workfront müssen Sie über Folgendes verfügen, wenn Sie eine verbundene Datensatzseite für Objekte aus den folgenden Programmen hinzufügen möchten:</p>
-   <ul><li><p>Eine Adobe Experience Manager Assets-Lizenz und eine Integration zwischen AEM Assets und Workfront, um AEM-Assets mit Planungs-Datensatztypen zu verbinden.</p>
+   <ul><li><p>Eine Adobe Experience Manager-Lizenz und eine Integration zwischen Adobe Experience Manager und Workfront, um AEM-Objekte mit Planungs-Datensatztypen zu verbinden.</p>
    <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront für Experience Manager Assets und Assets Essentials: Artikelindex</a>. </p></li>
    <li><p> Eine Adobe GenStudio for Performance Marketing-Lizenz zum Verbinden von Datensatztypen mit GenStudio Brands</p>
-   <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>
 
@@ -155,7 +155,7 @@ Weitere Informationen finden Sie im Abschnitt [Verwalten der Seite „Verbundene
 
    ODER
 
-   Bewegen Sie den Mauszeiger über den Namen der Registerkarte und klicken Sie dann auf **Mehr** ![Mehr &#x200B;](assets/more-menu.png) und klicken Sie dann auf **Umbenennen**, um die Registerkarte in neue verbundene Datensatzerseite umzubenennen.
+   Bewegen Sie den Mauszeiger über den Namen der Registerkarte und klicken Sie dann auf **Mehr** ![Mehr ](assets/more-menu.png) und klicken Sie dann auf **Umbenennen**, um die Registerkarte in neue verbundene Datensatzerseite umzubenennen.
 
 1. (Optional) Bewegen Sie den Mauszeiger über den Namen der Registerkarte „Verbundene Datensatzerseite“ und klicken Sie auf **Mehr** ![Mehr](assets/more-menu.png) und dann auf **Löschen**, um die Registerkarte zu entfernen.
 

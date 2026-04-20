@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '2185'
+source-wordcount: '2184'
 ht-degree: 2%
 
 ---
@@ -168,7 +168,7 @@ Old:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****and Events****</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -379,7 +379,7 @@ Sie können in Workfront Planning die folgenden Verbindungen zwischen GenStudio-
 * Einen GenStudio-Datensatztyp und einen Planning-Datensatztyp aus demselben Arbeitsbereich
 * Einen GenStudio-Datensatztyp und einen Planning-Datensatztyp aus einem anderen Arbeitsbereich, wenn die Datensatztypen für die Verbindung aus einem anderen Arbeitsbereich konfiguriert sind.
 * Ein GenStudio-Datensatztyp und ein Workfront-Objekttyp (Projekte, Portfolios, Programme, Unternehmen, Gruppen)
-* Einen GenStudio-Datensatztyp und einen AEM Assets-Objekttyp.
+* Einen GenStudio-Datensatztyp und einen AEM-Objekttyp.
 * GenStudio-Datensatztypen und GenStudio-Marken. Die Markenverbindung wird standardmäßig zu den Datensatztypen „Produkte“ und „Personas“ hinzugefügt.
 
 ### Anforderungsformulare und Automatisierungen im Datensatztyp GenStudio

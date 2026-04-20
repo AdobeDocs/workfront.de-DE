@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '4066'
+source-wordcount: '4067'
 ht-degree: 3%
 
 ---
@@ -251,7 +251,7 @@ So verwalten Sie eine Zeitleisten -Ansicht:
 
    >[!TIP]
    >
-   >Das Ändern der Größe und das Ziehen und Ablegen von Datensätzen ist in der Zeitleiste für die in Aufschlüsselungen angezeigten Workfront- und AEM Assets-Objekttypen nicht möglich.
+   >Das Ändern der Größe und das Ziehen und Ablegen von Datensätzen ist in der Zeitleiste für die in Aufschlüsselungen angezeigten Workfront- und Adobe Experience Manager-Objekttypen nicht möglich.
 
 1. Aktualisieren Sie die folgenden Ansichtselemente wie in den folgenden Unterabschnitten beschrieben:
    * [Filter](#add-filters)
@@ -437,7 +437,7 @@ So fügen Sie eine Gruppierung in der Zeitleisten -Ansicht hinzu:
    Klicken Sie auf **Alle löschen**, um alle Felder zu entfernen.
 
 1. Klicken Sie außerhalb des Felds **Datensätze gruppieren nach**, um es zu schließen.
-1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [&#x200B; Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
+1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [ Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
 
 <!-- 
 
@@ -590,7 +590,7 @@ Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quic
 #### Aufschlüsseln verbundener Datensätze
 
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie in den **&#x200B;**- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
+1. Klicken Sie in den ****- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
 1. Erweitern Sie das **Verknüpften Datensatztyp auswählen** und wählen Sie einen verbundenen Datensatztyp aus. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![Aufschlüsselungsauswahl und Schaltfläche in der Zeitleisten-Ansicht](assets/breakdown-picker-and-button-on-timeline.png)

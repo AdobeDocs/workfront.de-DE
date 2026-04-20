@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '2246'
+source-wordcount: '2186'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 1%
 
 # Übersicht über verbundene Datensatztypen
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 Sie können angeben, dass sich einzelne Datensatztypen gegenseitig oder auf Objekte aus anderen Anwendungen beziehen, indem Sie sie verbinden.
 
@@ -46,7 +48,7 @@ Informationen zum Verbinden von Datensatztypen finden Sie unter [Verbinden von D
 
    * Sie können manuell ein Feld „Neue Verbindung“ aus einem Datensatztyp hinzufügen, um die folgenden Entitäten in Workfront Planning zu verbinden:
 
-      * Zwei Datensatztypen
+      * Zwei Eintragstypen
 
         Standardmäßig können Sie zwei Datensatztypen aus demselben Arbeitsbereich verbinden. Sie können auch Datensatztypen einrichten, um eine Verbindung zu Datensatztypen aus anderen Arbeitsbereichen herzustellen, wenn Ihr Unternehmen ein höheres Workfront- oder Planning-Paket erworben hat. Weitere Informationen finden Sie unter [Datensatztypen bearbeiten](/help/quicksilver/planning/architecture/edit-record-types.md).
       * Einen Datensatztyp und einen Objekttyp aus einer anderen Anwendung.
@@ -71,7 +73,7 @@ Informationen zum Verbinden von Datensatztypen finden Sie unter [Verbinden von D
 
         Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md).
 
-        Sie können die ursprüngliche Anfrage im Feld **Betreff** im Bereich Anfragen von Workfront <span class="preview">oder im Feld für die ursprüngliche Anfrageverbindung in Workfront Planning.</span>.
+        Sie können die ursprüngliche Anfrage im Feld **Betreff** im Bereich Anfragen in Workfront oder im Feld „Originalanfrageverbindung“ in Workfront Planning anzeigen.
 
    * Sie können Workfront Planning-Datensatztypen mit den folgenden Objekttypen aus den folgenden Programmen verbinden:
 
@@ -82,21 +84,20 @@ Informationen zum Verbinden von Datensatztypen finden Sie unter [Verbinden von D
          * Programme
          * Firmen
          * Gruppe
-
-     <div class="preview">
-
-      * Adobe Workfront:
-
          * Ursprüngliche Anfrage
 
            Das Feld Verbindung für Originalanfrage zeigt den Namen der Originalanfrage an, die einen Datensatz erstellt, nachdem ein Anfrageformular für Workfront Planning übermittelt wurde. Der Name der Anfrage wird in Workfront im Feld „Betreff“ der Anfrage angezeigt.
 
-     </div>
+      * Adobe Experience Manager:
 
-      * Adobe Experience Manager Assets:
+         * Assets
 
-         * Bilder
-         * Ordner
+           Sie können die folgenden Objekte über Adobe Experience Manager Assets verbinden:
+
+            * Bilder
+            * Ordner
+
+         * Inhaltsfragmente
 
       * Adobe GenStudio for Performance Marketing
 
@@ -104,10 +105,10 @@ Informationen zum Verbinden von Datensatztypen finden Sie unter [Verbinden von D
 
         >[!IMPORTANT]
         >
-        >Für die Verbindung mit Adobe Experience Manager Assets- und GenStudio-Marken sind folgende Voraussetzungen erforderlich:
-        >* Eine Adobe Experience Manager Assets-Lizenz
+        >Sie müssen über Folgendes verfügen, um eine Verbindung mit Adobe Experience Manager-Objekten und GenStudio-Marken herzustellen:
+        >* Eine Adobe Experience Manager-Lizenz
         >* Eine Adobe GenStudio for Performance Marketing-Lizenz
-        >* Die Workfront-Instanz Ihres Unternehmens muss in die Adobe Business Platform oder die Adobe Admin Console integriert werden, um Workfront-Planungsdatensätze mit Adobe Experience Manager Assets zu verbinden.
+        >* Die Workfront-Instanz Ihres Unternehmens muss in die Adobe Business Platform oder die Adobe Admin Console integriert werden.
         >Informationen zu Adobe Admin Console finden Sie in den häufig gestellten Fragen zu [Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 * Wenn zwei Datensatztypen oder ein Datensatztyp und ein Objekttyp aus einer anderen Anwendung verbunden sind, gibt es die folgenden Szenarien:
@@ -129,10 +130,10 @@ Informationen zum Verbinden von Datensatztypen finden Sie unter [Verbinden von D
       * Auf Felder für Planungsdatensätze kann nicht über Workfront-Objekte zugegriffen werden.
       * Planungsdatensätze sind im Abschnitt Planung des Workfront-Objekts sichtbar. Weitere Informationen finden Sie unter [Verwalten von Datensatzverbindungen aus Workfront-Objekten](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
       * Sie können ein benutzerdefiniertes Feld für die Planning-Verbindung erstellen und es an das benutzerdefinierte Formular eines Workfront-Objekts anhängen. Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
-      * Auf Planungs-Datensatzfelder kann über Experience Manager Assets zugegriffen werden, wenn der Workfront-Administrator die Metadatenzuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter &quot;[&#x200B; der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+      * Auf Planungs-Datensatzfelder kann über Experience Manager Assets zugegriffen werden, wenn der Workfront-Administrator die Metadatenzuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter [Konfigurieren der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping). <!--not sure if this is also possible for content fragments-->
       * Auf die Felder der Planungsdatensätze kann von den Marken in GenStudio for Performance Marketing nicht zugegriffen werden.
 
-   * **Beim Hinzufügen von Suchfeldern aus dem Datensatz oder Objekt, mit dem Sie eine Verbindung herstellen**: Zusätzlich zum Erstellen eines verknüpften Datensatzfelds können Sie auch eine Verbindung zu Feldern aus dem verbundenen Datensatz oder Objekttyp herstellen, die als Suchfelder bezeichnet werden. Ein verknüpftes Feld (oder Suchfeld) mit Informationen aus dem Datensatz, mit dem Sie eine Verbindung herstellen, wird für den Datensatz angezeigt, von dem aus Sie eine Verbindung herstellen.
+   * **Beim Hinzufügen von Suchfeldern aus dem Datensatz oder Objekt, mit dem Sie eine Verbindung herstellen**: Zusätzlich zum Erstellen eines verknüpften Datensatzfelds können Sie auch eine Verbindung zu Feldern aus dem verbundenen Datensatz oder Objekttyp herstellen, die als Suchfelder bezeichnet werden. Ein verknüpftes Feld (oder Suchfeld) mit Informationen aus dem Datensatz, mit dem Sie eine Verbindung herstellen, wird für den Datensatz angezeigt, von dem aus Sie eine Verbindung herstellen. <!--not sure if this is also possible for content fragments-->
 
      Sie können Felder aus anderen Datensatztypen oder den Objekten einer anderen Anwendung mit dem Workfront Planning-Datensatztyp verbinden.
 
@@ -146,7 +147,7 @@ Informationen zum Verbinden von Datensatztypen finden Sie unter [Verbinden von D
      >
      >Alle Personen mit Anzeigen- oder höheren Berechtigungen für den Arbeitsbereich können die Informationen in den Suchfeldern anzeigen, unabhängig von ihren Berechtigungen oder Zugriffsebenen bei der Anwendung der verknüpften Objekttypen oder ihren Berechtigungen in anderen Arbeitsbereichen.
 
-     Verknüpfte Datensatzfelder werden durch ein Beziehungssymbol (Beziehungsfeldsymbol![&#x200B; vorangestellt](assets/relationship-field-icon.png).
+     Verknüpfte Datensatzfelder werden durch ein Beziehungssymbol (Beziehungsfeldsymbol![ vorangestellt](assets/relationship-field-icon.png).
 
      Verknüpfte Felder werden durch ein Symbol vorangestellt, das den Feldtyp angibt. Beispielsweise werden verknüpften Feldern (oder Suchfeldern) Symbole vorangestellt, die angeben, dass ein Feld eine Zahl, ein Absatz oder ein Datum ist.
 
@@ -169,7 +170,7 @@ Nachdem Sie eine Verbindung zwischen zwei Datensatztypen oder zwischen einem Dat
 >
 >* Zwei Datensätze aus verschiedenen Arbeitsbereichen
 >
->* Datensatztyp und Experience Manager-Assets
+>* Ein Datensatztyp und ein Experience Manager-Objekt
 >
 >* Einen Datensatztyp und eine Adobe GenStudio-Marke
 

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f4d7484145226eb85bc547e582438e5202dec023
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '3602'
+source-wordcount: '3603'
 ht-degree: 1%
 
 ---
@@ -309,7 +309,7 @@ So legen Sie Genehmigungsregeln für ein Anfrageformular fest:
    Das Anfrageformular für den ausgewählten Datensatztyp wird auf der Registerkarte Formular geöffnet.
 1. (Optional) Richten Sie alle Formulardetails ein, wie in [Einrichten von Formulardetails](#set-up-form-details) beschrieben.
 
-1. Um mit der Konfiguration von Genehmigungsregeln zu beginnen, klicken Sie ![&#x200B; der linken Navigationsleiste auf Genehmigungen &#x200B;](assets/approvals-icon-on-form.png)Genehmigungssymbol).
+1. Um mit der Konfiguration von Genehmigungsregeln zu beginnen, klicken Sie ![ der linken Navigationsleiste auf Genehmigungen ](assets/approvals-icon-on-form.png)Genehmigungssymbol).
 
 1. (Optional) Wenn Sie einen Standardgenehmigungsprozess festlegen möchten, fügen Sie mindestens einen Benutzer oder ein Team zum Feld **Genehmigende Person** im Bereich Standardgenehmigungsregel hinzu. Aktivieren Sie dann das Kontrollkästchen **Nur eine Entscheidung ist erforderlich**, wenn der Datensatz erstellt werden soll, nachdem eine der Standardgenehmigenden ihn genehmigt hat.
 
@@ -396,7 +396,7 @@ For information on creating automations in other areas of Workfront Planning, se
 
 1. Klicken Sie **Freigeben**, um das Formular für andere freizugeben.
 
-   Informationen zum Freigeben eines Anfrageformulars finden Sie [&#x200B; Abschnitt „Freigeben eines &#x200B;](#share-a-request-form)&quot; in diesem Artikel
+   Informationen zum Freigeben eines Anfrageformulars finden Sie [ Abschnitt „Freigeben eines ](#share-a-request-form)&quot; in diesem Artikel
 1. Klicken Sie auf den nach links zeigenden Pfeil links neben dem Namen des Formulars in der Kopfzeile, um das Formular zu schließen.
 
    Die **Formulare anfordern** Tabellenansicht wird geöffnet und das Formular wird ihr hinzugefügt.
@@ -482,7 +482,7 @@ For information on creating automations in other areas of Workfront Planning, se
    >
    >* Ein Formular, das die folgenden Feldtypen enthält, kann nicht öffentlich freigegeben werden:
    >
-   >     * Workfront- oder AEM Assets-Verbindungen
+   >     * Workfront- oder Adobe Experience Manager-Verbindungen
    >     * Personen
    >
 

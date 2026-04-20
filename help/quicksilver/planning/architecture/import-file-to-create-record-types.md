@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '894'
 ht-degree: 1%
 
 ---
@@ -138,8 +138,8 @@ Old:
 * Leere Blätter werden nicht unterstützt.
 * Felder der folgenden Typen werden nicht unterstützt und können nicht den Feldern im Importblatt zugeordnet werden:
 
-   * Verbindungsfelder zu Workfront, AEM Assets-Objekttypen oder GenStudio Brands.
-   * Suchfelder aus verbundenen Planungsdatensätzen, Workfront, AEM Assets-Objekten oder GenStudio-Marken.
+   * Verbindungsfelder zu Workfront, Adobe Experience Manager-Objekttypen oder GenStudio Brands.
+   * Suchfelder aus verbundenen Planungsdatensätzen, Workfront, Adobe Experience Manager-Objekten oder GenStudio-Marken.
    * Formelfelder
    * Erstellungsdatum, Erstellt von
    * Datum der letzten Änderung, letzte Änderung von
@@ -203,7 +203,7 @@ So importieren Sie Datensatztypen mithilfe einer Excel- oder CSV-Datei:
 
    >[!TIP]
    >
-   >Sie können nur Felder aus Workfront Planning-verbundenen Datensätzen zuordnen. Sie können keine Felder von Workfront-, AEM Assets- oder GenStudio Brands-Verbindungen zuordnen. Weitere Informationen finden Sie im Abschnitt [Überlegungen zum Importieren von Datensatztypen mithilfe einer Excel- oder CSV](#considerations-about-importing-record-types-using-an-excel-or-csv-file)Datei in diesem Artikel.
+   >Sie können nur Felder aus Workfront Planning-verbundenen Datensätzen zuordnen. Sie können keine Felder von Workfront-, Adobe Experience Manager- oder GenStudio Brands-Verbindungen zuordnen. Weitere Informationen finden Sie im Abschnitt [Überlegungen zum Importieren von Datensatztypen mithilfe einer Excel- oder CSV](#considerations-about-importing-record-types-using-an-excel-or-csv-file)Datei in diesem Artikel.
 
 1. (Bedingt) Klicken Sie nach dem Aktualisieren der Feldinformationen auf **Speichern**.
 

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '889'
 ht-degree: 2%
 
 ---
@@ -142,8 +142,8 @@ Old:
 * Leere Blätter werden nicht unterstützt.
 * Felder der folgenden Typen werden nicht unterstützt und können nicht den Feldern im Importblatt zugeordnet werden:
 
-   * Verbindungsfelder zu Workfront- und AEM Assets-Objekttypen. Sie können nur Verbindungsfelder den Planungs-Datensatztypen zuordnen.
-   * Nachschlagen von Feldern aus verbundenen Planungsdatensätzen oder Workfront- und AEM Assets-Objekten
+   * Verbindungsfelder zu Workfront- und Adobe Experience Manager-Objekttypen. Sie können nur Verbindungsfelder den Planungs-Datensatztypen zuordnen.
+   * Nachschlagen von Feldern aus verbundenen Planungsdatensätzen oder Workfront- und Adobe Experience Manager-Objekten
    * Formelfelder
    * Erstellungsdatum, Erstellt von
    * Datum der letzten Änderung, letzte Änderung von
