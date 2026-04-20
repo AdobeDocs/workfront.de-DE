@@ -19,9 +19,9 @@ Das [!UICONTROL Hauptmenü] ändert sich mit der Zugriffsebene, die Ihnen von Ih
 
 ## Grundlegendes zum Standardmenü [!UICONTROL Hauptmenü] eines [!UICONTROL Light-Benutzers]
 
-Als [!UICONTROL Light-Benutzer] liegt Ihre Hauptverantwortung darin, Ihre Arbeit zu überprüfen, zu kommentieren und zu genehmigen. Die Bereiche, die Ihnen im Hauptmenü angezeigt werden[!UICONTROL  ermöglichen ] diesen Vorgang.
+Als [!UICONTROL Light-Benutzer] liegt Ihre Hauptverantwortung darin, Ihre Arbeit zu überprüfen, zu kommentieren und zu genehmigen. Die Bereiche, die Ihnen im Hauptmenü angezeigt werden[!UICONTROL &#x200B; ermöglichen &#x200B;] diesen Vorgang.
 
-Die folgenden Bereiche sind im Standardlayout eines „Light[!UICONTROL Benutzers“ ]:
+Die folgenden Bereiche sind im Standardlayout eines „Light[!UICONTROL Benutzers“ &#x200B;]:
 
 * **[!UICONTROL Meine Updates]**: Der Bereich **[!UICONTROL Startseite]**, der Benutzern aller Zugriffsebenen zur Verfügung steht, wird bei Benutzern mit einem Light-Lizenztyp standardmäßig durch **[!UICONTROL Meine Updates]** ersetzt. Als [!UICONTROL Light-Benutzer] schließen Sie die Arbeit nicht ab. Sie müssen nur Informationen über Arbeiten sehen, die Sie überprüfen, kommentieren oder genehmigen müssen. Im Bereich **[!UICONTROL Meine Aktualisierungen]** können Sie diese Aktionen durchführen. Dies ist der standardmäßige Landingpage für neue Light-Benutzer.
 

@@ -65,7 +65,7 @@ Sie können mithilfe einer standardmäßigen Zugriffsebene oder einer benutzerde
 
 ## Benutzerzugriff konfigurieren, um Benutzer mithilfe einer benutzerdefinierten Zugriffsebene zu bearbeiten
 
-1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Um zu ändern, dass Benutzer mit einer Standard-, Plan- oder Arbeitslizenz Informationen für andere Benutzer anzeigen können, klicken Sie auf das Zahnradsymbol ![Zahnradsymbol](assets/gear-icon-settings.png) auf der Schaltfläche **Anzeigen** rechts neben **Benutzer** und wählen Sie dann die Anzeigeoptionen aus, die Sie gewähren möchten, **Sie Ihre Einstellungen optimieren**:
 
    <table style="table-layout:auto"> 

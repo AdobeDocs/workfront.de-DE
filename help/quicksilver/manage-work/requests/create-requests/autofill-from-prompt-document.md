@@ -93,7 +93,7 @@ Beachten Sie bei der Verwendung von Formularausfüllen auf Basis von KI Folgende
 >
 >Das Ausfüllen von Formularen mit künstlicher Intelligenz ist auf Organisationsebene aktiviert und kann für bestimmte Benutzer oder Zugriffsebenen nicht aktiviert oder deaktiviert werden.
 
-1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **** Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **&#x200B;**&#x200B;Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
 1. Klicken Sie auf **System** und dann unter „System“ auf **Voreinstellungen**.
 1. Stellen Sie im Abschnitt KI-Voreinstellungen sicher, dass **KI aktivieren** aktiviert ist.
 1. Schalten Sie **KI-Formular ausfüllen** ein.

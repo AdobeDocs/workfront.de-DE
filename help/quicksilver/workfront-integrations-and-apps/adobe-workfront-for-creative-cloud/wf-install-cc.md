@@ -36,7 +36,7 @@ Sie können [!DNL Adobe Workfront for design and video] über die [!DNL Adobe Ma
 
 >[!NOTE]
 >
->Es gibt separate Installationsanweisungen für [!DNL Photoshop] und [!DNL XD]. Weitere Informationen finden Sie unter [ [!DNL Adobe Workfront for Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) und [Installieren [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md).
+>Es gibt separate Installationsanweisungen für [!DNL Photoshop] und [!DNL XD]. Weitere Informationen finden Sie unter [&#x200B; [!DNL Adobe Workfront for Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md) und [Installieren [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md).
 
 
 ## Zugriffsanforderungen
