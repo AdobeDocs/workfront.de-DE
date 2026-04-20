@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 5b5f9083ed4b60fa6642100cfb9b0da46799dffa
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '1741'
-ht-degree: 1%
+source-wordcount: '1584'
+ht-degree: 2%
 
 ---
 
@@ -35,7 +35,7 @@ Die benutzerdefinierte Aktualisierungs-Sandbox ist eine Umgebung, in der Sie mit
 
 +++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+Sie benötigen die folgenden Zugriffsrechte, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,7 +47,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"> Workfront-Lizenz</td> 
-   <td> <p>Standard</p><p>Plan</p>  </td> 
+   <td> <p>Standard</p><p>Abo</p>  </td> 
   </tr> 
   </tr>
    <tr>
@@ -59,7 +59,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -142,7 +142,7 @@ So greifen Sie über eine URL auf Ihre benutzerdefinierte Aktualisierungs-Sandbo
 
    `https://companyname.sb01.workfront.com` (alte URL:`https://cr3.attasksandbox.com`)
 
-   Oder
+   ODER
 
    Wechseln Sie zu einer dieser URLs, wenn Sie zwei benutzerdefinierte Aktualisierungs-Sandboxes haben:
 
@@ -189,19 +189,25 @@ So planen Sie eine Aktualisierung Ihrer Kunden-Aktualisierungs-Sandbox:
 >[!NOTE]
 >
 >Die Berichtversand- und Push-Benachrichtigungen in der mobilen App sind für die benutzerdefinierte Sandbox-Aktualisierungsumgebung immer deaktiviert. Weder Sie noch der [!DNL Workfront]-Administrator können die Berichtsbereitstellung oder Push-Benachrichtigungen für die Mobile App aktivieren, wenn Sie auf die benutzerdefinierte Sandbox-Aktualisierungsumgebung zugreifen.\
->Weitere Informationen zu Berichtssendungen für die Produktionsumgebung finden Sie unter [Übersicht über die Berichtsbereitstellung](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md). Weitere Informationen zu Push-Benachrichtigungen in der Mobile App für die Produktionsumgebung finden Sie im Abschnitt in .
+>Weitere Informationen zu Berichtssendungen für die Produktionsumgebung finden Sie unter [Übersicht über die Berichtsbereitstellung](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
-## Konfigurieren von Single Sign-on in der benutzerdefinierten Aktualisierungs-Sandbox
+<!--
 
-Wenn Sie Ihre benutzerdefinierte Aktualisierungs-Sandbox für die Verwendung mit einer Single Sign-On-Lösung konfigurieren möchten, können Sie sie separat von Ihrer Produktionsumgebung konfigurieren. Die SSO-Konfiguration in der benutzerdefinierten Aktualisierungs-Sandbox ist unabhängig von Ihrer SSO-Konfiguration in der Produktionsumgebung.\
-Wenn Sie Ihre benutzerdefinierte Aktualisierungs-Sandbox aktualisieren, werden die SSO-Informationen nicht aus Ihrer Produktionsumgebung kopiert, um die benutzerdefinierte Aktualisierungs-Sandbox-Konfiguration zu überschreiben.
+Remove me October 2026
 
-Die Schritte zum Konfigurieren von Single Sign-on in der benutzerdefinierten Aktualisierungs-Sandbox ähneln denen zum Konfigurieren der Sandbox in der Produktionsumgebung.\
-Weitere Informationen zum Konfigurieren von [!DNL Workfront] mit SSO finden Sie unter [Übersicht über Single Sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+## Configure Single Sign-On in the Custom Refresh Sandbox
+
+If you want to configure your Custom Refresh Sandbox to work with a Single Sign-On solution, you can do so by configuring it separately from your Production environment. The SSO configuration in the Custom Refresh Sandbox is independent from your SSO configuration in the Production environment.\
+When you refresh your Custom Refresh Sandbox, the SSO information is not copied from your Production environment to overwrite the Custom Refresh Sandbox configuration.
+
+The steps for configuring single sign-on in the Custom Refresh Sandbox are similar to those for configuring it in the Production environment.\
+For more information about configuring [!DNL Workfront] with SSO, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
 >[!NOTE]
 >
->Dies ist nicht verfügbar, wenn die [!DNL Workfront]-Instanz Ihres Unternehmens mit Adobe IMS aktiviert ist. Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.
+>This is not available if your organization's [!DNL Workfront] instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+
+-->
 
 ## Automatische Neuberechnung der Projektzeitleisten
 

@@ -7,16 +7,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bdc6d5ee-2037-4d0b-bf18-3e6cc9cb078e
-source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 10%
+source-wordcount: '370'
+ht-degree: 11%
 
 ---
 
 # Konfigurieren der benutzerdefinierten Lokalisierung
 
-Benutzerdefinierte Lokalisierung ermöglicht es Ihnen, benutzerdefinierte Begriffe und Ausdrücke in verschiedenen Sprachen zu definieren. Workfront zeigt diese Begriffe dann in der Sprache an, die in den Adobe Identity Management (IMS)-Einstellungen des Benutzers festgelegt ist. Wenn der Benutzer nicht über Adobe IMS verfügt, werden die Begriffe in der Sprache angezeigt, die in den Browser-Einstellungen des Benutzers festgelegt ist.
+Benutzerdefinierte Lokalisierung ermöglicht es Ihnen, benutzerdefinierte Begriffe und Ausdrücke in verschiedenen Sprachen zu definieren. Workfront zeigt diese Begriffe dann in der Sprache an, die in den Adobe Identity Management (IMS)-Einstellungen des Benutzers festgelegt ist.
 
 Beispielsweise können Sie die Bezeichnung „Zielgruppe“ so einstellen, dass das deutsche Wort „Zielgruppe“ übersetzt wird. Jeder Benutzer, dessen Deutsch als Hauptsprache seines Browsers ausgewählt wurde, sieht das Wort „Zielgruppe“ als Bezeichnung für alle Felder, die auf Englisch mit „Zielgruppe“ gekennzeichnet sind.
 
@@ -74,7 +74,7 @@ Beachten Sie beim Konfigurieren der Lokalisierung Folgendes:
 
 Übersetzungen werden im Bereich Setup konfiguriert.
 
-1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **&#x200B;**&#x200B;Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **** Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
 1. Klicken Sie im Bereich Setup **linken** auf „Lokalisierung“.
 1. Um eine neue Übersetzung hinzuzufügen, klicken Sie auf **Neue Zeile**.
 1. Geben Sie in **Spalte &quot;**&quot; den englischen Begriff ein, der übersetzt werden soll.

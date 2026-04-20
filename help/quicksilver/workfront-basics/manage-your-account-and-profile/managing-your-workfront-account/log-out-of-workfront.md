@@ -3,13 +3,13 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: Abmelden von [!DNL Adobe Workfront]
 description: Aus Sicherheitsgründen ist es wichtig, sich regelmäßig  [!DNL Adobe Workfront] . Standardmäßig werden  [!DNL Workfront]  Benutzer nach 8 Stunden Inaktivität automatisch abgemeldet.
-author: Courtney
+author: Becky
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: d9d6d572840f5691888d0db3242f3908978079b3
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 8%
+source-wordcount: '223'
+ht-degree: 15%
 
 ---
 
@@ -17,21 +17,17 @@ ht-degree: 8%
 
 Aus Sicherheitsgründen ist es wichtig, sich regelmäßig von [!DNL Adobe Workfront] abzumelden. Standardmäßig meldet [!DNL Workfront] Benutzer nach acht Stunden Inaktivität automatisch ab.
 
+<!--Remove this October 2026-->
+
 >[!NOTE]
 >
 >Normalerweise kann ein [!DNL Workfront]-Administrator diese Zeitdauer auf einen Zeitraum zwischen 15 Minuten und 7 Tagen ohne Aktivität ändern, wie unter [Systemsicherheitseinstellungen konfigurieren](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) beschrieben. Diese Funktion ist jedoch derzeit nicht verfügbar. Wir arbeiten an einer Verbesserung der Authentifizierung, die eine automatische Abmeldung nach einer bestimmten Zeit der Inaktivität ermöglicht.
-
-<!--
-><MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
->TEMPORARY note! Remove and update how this works after IMS takes over. There's another note like this in Manage Workfront/Security/configure-security-preferences.html>
-></MadCap:conditionalText>
--->
-
->[!IMPORTANT]
 >
->Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht in [!DNL Adobe Experience Cloud] integriert wurden.
+>Das auf dieser Seite beschriebene Verfahren galt nur für Organisationen, die noch nicht in Adobe Admin Console integriert waren.
 >
-> Wenn Ihre Organisation in [!DNL Adobe Experience Cloud] integriert wurde, melden Sie sich ab, indem Sie in der oberen Navigationsleiste auf Ihr Profilbild klicken und [!UICONTROL **Menü**] Abmelden“ auswählen. Weitere Informationen finden Sie unter [[!DNL Adobe Unified Experience] für [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>Alle Workfront-Organisationen wurden nun in die Adobe Admin Console integriert.
+>
+> Da Ihre Organisation in [!DNL Adobe Experience Cloud] integriert wurde, melden Sie sich ab, indem Sie in der oberen Navigationsleiste auf Ihr Profilbild klicken und [!UICONTROL **Menü**] Abmelden“ auswählen. Weitere Informationen finden Sie unter [[!DNL Adobe Unified Experience] für [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 ## Zugriffsanforderungen
 
@@ -48,8 +44,9 @@ Aus Sicherheitsgründen ist es wichtig, sich regelmäßig von [!DNL Adobe Workfr
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Mitwirkender oder höher</p>
-   <p>Anfrage oder höher</p> </td> 
+   <p>Mitwirkende oder höher</p>
+   <p>Anfragende oder höher</p> 
+   </td> 
   </tr> 
  </tbody> 
 </table>

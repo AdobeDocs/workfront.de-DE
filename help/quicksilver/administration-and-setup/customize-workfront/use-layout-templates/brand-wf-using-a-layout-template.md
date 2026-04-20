@@ -3,15 +3,15 @@ title: Adobe Workfront mit einer Layout-Vorlage markieren
 user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
-description: Als Adobe Workfront-Administrator oder Gruppenadministrator können Sie eine Layout-Vorlage verwenden, um die Logos im oberen Navigationsbereich und im Hauptmenü für bestimmte Gruppen, Teams, Aufgabengebiete und Benutzende anzupassen. Dies ist besonders für Gruppen in einem großen Unternehmen nützlich, die über ein eigenes Branding verfügen.
+description: Das Branding ist für Adobe Workfront nicht mehr verfügbar. Diese Funktion wird seit dem Onboarding von Workfront in Adobe Experience Cloud nicht mehr unterstützt.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+source-git-commit: 081eff3b840004f1c3b421032f3593cb6c175690
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 3%
+source-wordcount: '60'
+ht-degree: 0%
 
 ---
 
@@ -21,75 +21,82 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht in [!DNL Adobe Experience Cloud] integriert wurden.
+>Das Branding ist für Adobe Workfront nicht mehr verfügbar. Diese Funktion wird seit dem Onboarding von Workfront in Adobe Experience Cloud nicht mehr unterstützt.
+
+<!-- 
+
+
+>[!IMPORTANT]
 >
-> Wenn Ihre Organisation in [!DNL Adobe Experience Cloud] integriert wurde, ist kein Branding verfügbar.
+>The procedure described on this page applies only to organizations that are not yet onboarded to [!DNL Adobe Experience Cloud].
+>
+> If your organization has been onboarded to [!DNL Adobe Experience Cloud], branding is not available.
 
-Sie können eine Layout-Vorlage verwenden, um die Logos im oberen Navigationsbereich und im Hauptmenü für bestimmte Gruppen, Teams, Aufgabengebiete und Benutzer anzupassen. Dies ist besonders für Gruppen in einem großen Unternehmen nützlich, die über ein eigenes Branding verfügen.
+You can use a layout template to customize the logos in the top navigation area and on the Main Menu for certain groups, teams, job roles, and users. This is especially useful for groups in a large organization that have their own branding.
 
-Weitere Informationen zu Layout-Vorlagen für Gruppen finden [&#x200B; unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+For information about layout templates for groups, see [Create and modify a group's layout templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 >[!NOTE]
 >
->Ein Workfront-Administrator kann die gleichen Branding-Anpassungen für das gesamte Unternehmen auf Systemebene vornehmen, wie in [Branding Ihrer Adobe Workfront-Instanz](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md) beschrieben. Das Branding in einer Layout-Vorlage überschreibt jedoch das Branding auf Systemebene.
+>A Workfront administrator can make the same branding customizations for the entire organization at the system level, as explained in [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md). But branding in a layout template overrides system-level branding.
 
-<!-- Maybe add a section about deleting these 2 settings to revert to default branding? -->
+## Access requirements
 
-## Zugriffsanforderungen
-
-+++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Adobe Workfront-Paket</td> 
-   <td><p>Beliebig</p></td> 
+   <td>Adobe Workfront package</td> 
+   <td><p>Any</p></td> 
   </tr> 
   <tr> 
-   <td>Adobe Workfront-Lizenz</td> 
+   <td>Adobe Workfront license</td> 
    <td><p>Standard</p>
        <p>Plan</p></td>
   </tr> 
   </tr> 
   <tr> 
-   <td>Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Um diese Schritte auf Systemebene durchzuführen, benötigen Sie die Zugriffsebene „Systemadministrator“.</p>
-        <p>Um sie für eine Gruppe auszuführen, müssen Sie ein Manager dieser Gruppe sein.</p> </td> 
+   <td>Access level configurations</td> 
+   <td> <p>To perform these steps at the system level, you need the System Administrator access level.</p>
+        <p>To perform them for a group, you must be a manager of that group.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
-## Adobe Workfront mit einer Layout-Vorlage markieren
+## Brand Adobe Workfront using a layout template
 
-1. Beginnen Sie mit der Arbeit an einer Layout-Vorlage, wie unter [Erstellen und Verwalten von Layout-Vorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) beschrieben.
-1. Klicken Sie auf den Abwärtspfeil ![Abwärtspfeil](assets/dropdown-arrow.png) unter **Anpassen, was Benutzer sehen** und klicken Sie dann auf **Branding**.
-1. Nehmen Sie eine der folgenden Änderungen vor, um Workfront mit Branding-Bildern für diejenigen anzupassen, denen diese Layout-Vorlage zugewiesen ist.
+1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Click the down arrow ![Down arrow](assets/dropdown-arrow.png) under **Customize what users see**, then click **Branding**.
+1. Make any of the following changes to customize Workfront with branding images for those who are assigned this layout template.
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"> <p>Markieren Sie das Symbol Startseite <span style="font-weight: normal;">(wird ganz links im oberen Navigationsbereich angezeigt)</span></p> </td> 
-      <td> <p>Klicken Sie im <strong>oberen Navigationsbereich</strong> unter <strong>Startseitensymbol</strong> auf eine beliebige Stelle im Feld, suchen Sie dann nach Ihrem Logo und wählen Sie es aus. Oder ziehen Sie ein Bild in das Feld.</p> <p>Um das Bild zu beschneiden, verwenden Sie die Steuerelemente zum Scrollen und ziehen Sie das Bild an die gewünschte Position innerhalb des vorgeschriebenen Bereichs.</p> <p>Wir empfehlen ein 120 x 120 Bild. Es kann in einem der folgenden Formate vorliegen: GIF, JPG, PNG, SVG.</p> <p>Dieses Symbol wird auch in Berichten, Listen, Dashboards und bereitgestellten Berichten angezeigt, die Benutzende als PDF-Dateien exportieren.</p> </td> 
+      <td role="rowheader"> <p>Brand the Home icon <span style="font-weight: normal;">(displays at the far left of the top navigation area)</span></p> </td> 
+      <td> <p>In the <strong>Top navigation area</strong> section, under <strong>Home icon</strong>, click anywhere in the box, then find and select your logo image. Or drag an image to the box.</p> <p>To crop the image, use the scrolling controls and drag the image to the position you want inside the prescribed space.</p> <p>We recommend a 120 x 120 image. It can be in any of the following formats: GIF, JPG, PNG, SVG.</p> <p>This icon also appears in reports, lists, dashboards, and delivered reports that users export as PDF files.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>Branding des Hauptmenüs <img src="assets/main-menu-icon.png"> Logo-<span style="font-weight: normal;"> (wird in der oberen rechten Ecke des Hauptmenüs angezeigt)</span></p> </td> 
-      <td> <p> <p> <p>Klicken Sie im <strong>oberen Navigationsbereich</strong> unter <strong>Hauptmenü-Logo</strong> auf eine beliebige Stelle im Feld, suchen Sie nach Ihrem Logo und wählen Sie es aus. Oder ziehen Sie ein Bild in das Feld.</p> <p>Um das Bild zu beschneiden, verwenden Sie die Steuerelemente zum Scrollen und ziehen Sie das Bild an die gewünschte Position innerhalb des vorgeschriebenen Bereichs.</p> <p>Wir empfehlen ein Bild in der Größe 300 x 120 Pixel. Es kann in einem der folgenden Formate vorliegen: GIF, JPG, PNG, SVG.</p> </p> </p> </td> 
+      <td role="rowheader"> <p>Brand the Main Menu <img src="assets/main-menu-icon.png"> logo <span style="font-weight: normal;">(displays in the upper-right corner of the Main Menu)</span></p> </td> 
+      <td> <p> <p> <p>In the <strong>Top navigation area</strong> section, under <strong>Main Menu logo</strong>, click anywhere in the box, then find and select your logo image. Or drag an image to the box.</p> <p>To crop the image, use the scrolling controls and drag the image to the position you want inside the prescribed space.</p> <p>We recommend a 300 x 120 pixel image. It can be in any of the following formats: GIF, JPG, PNG, SVG.</p> </p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Passen Sie die Layout-Vorlage weiter an. Sie können jederzeit auf **Übernehmen** klicken, um Ihren Fortschritt zu speichern.
+1. Continue customizing the layout template. You can click **Apply** at any time to save your progress.
 
-   ODER
+   Or
 
-   Wenn Sie mit der Anpassung fertig sind, klicken Sie auf **Speichern und schließen**.
+   If you are finished customizing, click **Save and Close**.
 
-Weitere Informationen zu Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+For more information about layout templates, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+
+-->

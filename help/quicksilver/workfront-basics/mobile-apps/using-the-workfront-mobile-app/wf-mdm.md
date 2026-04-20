@@ -2,15 +2,15 @@
 content-type: reference
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: Adobe Workfront für die Verwaltung mobiler Geräte (MDM)
+title: Adobe Workfront für Mobile Device Management (MDM)
 description: Adobe [!DNL Workfront]  ist eine Partnerschaft mit einigen Mobile Device Management (MDM)-Plattformen eingegangen, um Unternehmen ein sichereres und kontrollierteres mobiles Erlebnis zu bieten.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 6f989fb8-5e33-4626-92cf-1d3a629698b0
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
 source-wordcount: '120'
-ht-degree: 3%
+ht-degree: 9%
 
 ---
 
@@ -35,3 +35,5 @@ Die Workfront Mobile App ist jetzt im [!DNL Microsoft Intune] App Store verfügb
 * Android
 
 Ihre Workfront-Instanz muss sich auf dem Adobe Identity Management System (IMS) befinden.
+
+<!--remove this note October 2026-->

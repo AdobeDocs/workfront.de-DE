@@ -3,10 +3,10 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: eea05bfe350f7d68ccd08ad16f1bb6716cbec6dc
+source-git-commit: 1de9b04cd6813c42dac3b773c80e6aabb82eb8fe
 workflow-type: tm+mt
 source-wordcount: '13932'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -887,7 +887,7 @@ ht-degree: 97%
       * [Zugriff auf die Adobe Workfront-Hilfe](workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
       * [Überblick über [!DNL Adobe Workfront]-Objekte](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
       * [Grundlegendes zur Navigation bei Benutzenden mit Arbeitslizenzen](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
-      * [Grundlegendes zur Navigation bei Benutzenden mit Überprüfungslizenzen](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
+      * [Grundlegendes zur Navigation für einen Light-License-Benutzer](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
       * [Überblick über die Datumsangaben im Zusammenhang mit Projekten, Aufgaben und Problemen in Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
    * Prioritäten {#priorities}
       * [Prioritäten: Artikelindex](workfront-basics/priorities/priorities-toc.md)

@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: f1fe1a2fe6e123d8a039e8d7e3547c0b0a8141df
+source-git-commit: 480f40d77cfc494ac28a2332c0e15bd1f0f00a6b
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 3%
+source-wordcount: '305'
+ht-degree: 15%
 
 ---
 
@@ -25,7 +25,7 @@ Einzelne Benutzer können auch ihre eigenen Benutzereinstellungen zurücksetzen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,11 +38,11 @@ Einzelne Benutzer können auch ihre eigenen Benutzereinstellungen zurücksetzen.
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
-   <td>Systemadministrator</td> 
+   <td>Systemadmin</td> 
   </tr> 
  </tbody> 
 </table>
@@ -120,30 +120,18 @@ Wenn Sie die Benutzereinstellungen zurücksetzen, werden einige Einstellungen au
 1. Wählen Sie **Anmelden als** aus.
 1. Geben Sie den Namen des Benutzers ein, dessen Voreinstellungen Sie zurücksetzen möchten, und klicken Sie auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 1. Wählen Sie **Anmelden** aus.
-1. Wenn Ihr Unternehmen nicht zum einheitlichen Adobe-Erlebnis hinzugefügt wurde, führen Sie die folgenden Schritte aus:
+1. Fügen Sie im URL-Feld oben in Ihrem Webbrowser nach der `/resetUser` `workfront` hinzu.
 
-   * Fügen Sie im URL-Feld oben in Ihrem Webbrowser nach der `/resetUser` `workfront.com` hinzu.
-
-     >[!NOTE]
-     >
-     >Hierbei wird zwischen Groß- und Kleinschreibung unterschieden. Das U muss großgeschrieben werden und die restlichen Zeichen müssen in Kleinbuchstaben geschrieben werden. Beispiel:
-     >
-     >`https://company_domain.my.workfront.com/resetUser`
-
-1. Wenn Ihre Organisation in das einheitliche Adobe-Erlebnis integriert wurde, führen Sie diesen Schritt aus:
-
-   * Fügen Sie im URL-Feld oben in Ihrem Webbrowser nach der `/resetUser` `workfront` hinzu.
-
-     >[!NOTE]
-     >
-     >Hierbei wird zwischen Groß- und Kleinschreibung unterschieden. Das U muss großgeschrieben werden und die restlichen Zeichen müssen in Kleinbuchstaben geschrieben werden. Beispiel:
-     >
-     >`https://experience.adobe.com/#/@company/so:(domain)-(environment)/workfront/resetUser`
+   >[!NOTE]
+   >
+   >Hierbei wird zwischen Groß- und Kleinschreibung unterschieden. Das U muss großgeschrieben werden und die restlichen Zeichen müssen in Kleinbuchstaben geschrieben werden. Beispiel:
+   >
+   >`https://experience.adobe.com/#/@company/so:(domain)-(environment)/workfront/resetUser`
 
 1. Drücken Sie **ENTER**.
 
 1. Um alle Benutzereinstellungen zurückzusetzen, klicken Sie auf &quot;**&quot;**.
 
-   Oder
+   ODER
 
    Um die linke Navigation des Benutzers auf die ursprüngliche Layout-Vorlagenkonfiguration zurückzusetzen, klicken Sie auf **Linke Navigation zurücksetzen**.

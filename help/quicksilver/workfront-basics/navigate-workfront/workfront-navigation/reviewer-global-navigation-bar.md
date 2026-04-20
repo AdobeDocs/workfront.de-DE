@@ -1,40 +1,40 @@
 ---
 product-area: user-management
 navigation-topic: workfront-navigation
-title: Grundlegendes zur Navigation bei Benutzern mit Überprüfungslizenzen
-description: Das Hauptmenü ändert sich mit der Zugriffsebene, die Ihnen von Ihrem/ [!DNL Adobe Workfront]  zugewiesen wurde. Standardmäßig erhalten Sie nur Zugriff auf Bereiche, die Funktionen enthalten, die von Ihrer Zugriffsebene zugelassen sind.
+title: Grundlegendes zur Navigation für einen Light-License-Benutzer
+description: In diesem Artikel werden die standardmäßigen Hauptmenüelemente für einen Light-Benutzer in Adobe Workfront beschrieben.
 author: Lisa and Courtney
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+source-git-commit: 0a38554b8bbd870b8b9b0e221b25c120cd0f941e
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '364'
 ht-degree: 0%
 
 ---
 
-# Grundlegendes zur Navigation für einen Benutzer [!UICONTROL Überprüfen]-Lizenz
+# Grundlegendes zur Navigation für einen [!UICONTROL Light]-Lizenzbenutzer
 
 Das [!UICONTROL Hauptmenü] ändert sich mit der Zugriffsebene, die Ihnen von Ihrem [!DNL Adobe Workfront] zugewiesen wurde. Standardmäßig erhalten Sie nur Zugriff auf Bereiche, die Funktionen enthalten, die von Ihrer Zugriffsebene zugelassen sind. Informationen zu den Komponenten des Standard-Layouts jeder Zugriffsebene finden Sie unter [Über das Standard [!DNL Adobe Workfront] Layout](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
-## Grundlegendes zum Standardmenü [!UICONTROL Hauptmenü] eines [!UICONTROL Prüfers]
+## Grundlegendes zum Standardmenü [!UICONTROL Hauptmenü] eines [!UICONTROL Light-Benutzers]
 
-Als [!UICONTROL Prüfer] liegt Ihre Hauptverantwortung darin, Arbeiten zu überprüfen, zu kommentieren und zu genehmigen. Die Bereiche, die Ihnen im Hauptmenü angezeigt werden[!UICONTROL &#x200B; ermöglichen &#x200B;] diesen Vorgang.
+Als [!UICONTROL Light-Benutzer] liegt Ihre Hauptverantwortung darin, Ihre Arbeit zu überprüfen, zu kommentieren und zu genehmigen. Die Bereiche, die Ihnen im Hauptmenü angezeigt werden[!UICONTROL  ermöglichen ] diesen Vorgang.
 
-Die folgenden Bereiche sind im Standardlayout eines (Reviewers[!UICONTROL &#x200B; enthalten]:
+Die folgenden Bereiche sind im Standardlayout eines „Light[!UICONTROL Benutzers“ ]:
 
-* **[!UICONTROL Meine Updates]**: Der Bereich **[!UICONTROL Startseite]** der Benutzern aller Zugriffsebenen zur Verfügung steht, wird bei Benutzern mit dem Lizenztyp **[!UICONTROL Meine Updates]** standardmäßig durch den Bereich „Meine Updates“ ersetzt. Als [!UICONTROL Prüfer] schließen Sie Ihre Arbeit nicht ab. Sie müssen nur Informationen über Arbeiten anzeigen, die Sie überprüfen, kommentieren oder genehmigen müssen. Im Bereich **[!UICONTROL Meine Aktualisierungen]** können Sie diese Aktionen durchführen. Dies ist der standardmäßige Landingpage für neue Review-Benutzer.
+* **[!UICONTROL Meine Updates]**: Der Bereich **[!UICONTROL Startseite]**, der Benutzern aller Zugriffsebenen zur Verfügung steht, wird bei Benutzern mit einem Light-Lizenztyp standardmäßig durch **[!UICONTROL Meine Updates]** ersetzt. Als [!UICONTROL Light-Benutzer] schließen Sie die Arbeit nicht ab. Sie müssen nur Informationen über Arbeiten sehen, die Sie überprüfen, kommentieren oder genehmigen müssen. Im Bereich **[!UICONTROL Meine Aktualisierungen]** können Sie diese Aktionen durchführen. Dies ist der standardmäßige Landingpage für neue Light-Benutzer.
 
   >[!TIP]
   >
-  >Ihr [!DNL Workfront]- oder Gruppenadministrator kann Ihnen eine Layout-Vorlage zuweisen, die Ihre standardmäßige Landingpage ändern kann. Mithilfe einer Layout-Vorlage können Sie auch den Bereich [!UICONTROL Startseite] und [!UICONTROL Aktualisierungen] als Benutzer [!UICONTROL Überprüfen] anzeigen.
+  >Ihr [!DNL Workfront]- oder Gruppenadministrator kann Ihnen eine Layout-Vorlage zuweisen, die Ihre standardmäßige Landingpage ändern kann. Mithilfe einer Layout-Vorlage können Sie auch den Bereich [!UICONTROL Startseite] und [!UICONTROL Updates] als Benutzer mit [!UICONTROL Light]-Lizenz anzeigen.
 
 * **[!UICONTROL Anfragen]**: Sie können Anfragen senden und überprüfen, die Sie oder andere Benutzer Ihres Unternehmens in diesem Bereich gesendet haben.
 * **[!UICONTROL Dokumente]**: Sie können hier Dokumente hochladen oder für Sie freigegebene Dokumente überprüfen.
-* **[!UICONTROL Blueprints]**: Überprüfen Sie vorhandene Blueprints in Ihrem System und fordern Sie die Installation an, wenn der [!DNL Workfront] die Anfrage-Warteschlange für Blueprints konfiguriert hat. Weitere Informationen finden Sie unter [Blueprints - Übersicht](../../../administration-and-setup/blueprints/blueprints-overview.md).
+* **[!UICONTROL Pinnwände]**: Arbeiten Sie flexibel und gemeinsam mit Ihren Team-Mitgliedern und nutzen Sie gemeinsame Pinnwände, die Spalten und Karten enthalten, die die Arbeit widerspiegeln, die Sie erledigen möchten. Weitere Informationen finden Sie [Erste Schritte mit Pinnwänden: Artikelindex](../../../agile/get-started-with-boards/get-started-with-boards.md).
+* **[!UICONTROL Prioritäten]**: Sie können Arbeit schnell verwalten und priorisieren. Weitere Informationen finden Sie [Erste Schritte mit Prioritäten](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md).
 
-
-![Greifen Sie über das Hauptmenü auf meine Aktualisierungen zu](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+![Hauptmenü des Light-Benutzers](assets/light-user-main-menu.png)
 
 ## Anpassen des Standardmenüs [!UICONTROL Hauptmenü]
 

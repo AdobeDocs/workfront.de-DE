@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
+source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1478'
 ht-degree: 3%
 
 ---
@@ -263,17 +263,23 @@ Weitere Informationen zum Konfigurieren von Aufgabengebieten finden Sie unter [E
 
 ### Anmeldeversuch {#login-attempt}
 
-Das System generiert einen Prüfprotokolleintrag für den Anmeldeversuch, wenn ein Benutzer eine der folgenden Aktionen ausführt:
+<!--Delete me October 2026-->
 
-* Anmelden, Abmelden oder Fehlschlagen eines Anmeldeversuchs in Workfront (im Browser und in der Mobile App)
-* Meldet sich bei einer Workfront-Integration (z. B. Workfront für Slack) an, meldet sich ab oder schlägt einen Anmeldeversuch fehl
-* Anmelden bei oder Abmelden von der Workfront-API
+<!--
 
-Wenn ein Workfront-Administrator die Funktion „Anmelden als“ verwendet, werden keine Anmeldeversuche aufgezeichnet.
+The system generates a Login Attempt audit log entry when a user does one of the following actions:
+
+* Logs in, logs out, or fails a login attempt in Workfront (in a browser and in the mobile app)
+* Logs in, logs out, or fails a login attempt in any Workfront integration (such as Workfront for Slack)
+* Logs in or logs out of the Workfront API
+
+Login Attempt Logs do not record when a Workfront administrator uses the Log In As feature.
+
+-->
 
 >[!NOTE]
 >
->Dies ist nicht verfügbar, wenn Ihr Unternehmen in die Adobe Admin Console integriert wurde. Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.
+>Da alle Unternehmen mit der Adobe Admin Console arbeiten, ist diese Funktion nicht mehr verfügbar.Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.
 
 ### Priorität {#priority}
 
@@ -366,7 +372,7 @@ Das System generiert einen Benutzerüberwachungsprotokolleintrag, wenn ein Benut
 
   >[!NOTE]
   >
-  >Dies ist nicht verfügbar, wenn Ihr Unternehmen in die Adobe Admin Console integriert wurde. Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.
+  >Da alle Unternehmen mit der Adobe Admin Console arbeiten, ist diese Funktion nicht mehr verfügbar.Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.
 
 * Löscht einen Benutzer
 * Ändert Zugriffsebene, Unternehmen, Team oder Gruppe eines Benutzers

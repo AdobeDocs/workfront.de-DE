@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 3%
+source-wordcount: '270'
+ht-degree: 5%
 
 ---
 
@@ -26,25 +26,19 @@ Die folgenden Fragen werden häufig zur Umgebungsförderung gestellt:
 
 Eine domänenübergreifende Umgebungsförderung wird derzeit nicht unterstützt. Sie müssen zwischen Umgebungen in derselben Domain weiterleiten.
 
-## Ist die Adobe Business Platform/IMS eine Voraussetzung für die Umgebungsförderung?
-
-### Antwort
-
-Nein. Die Umgebungsunterstützung ist sowohl für IMS-aktivierte als auch für Nicht-IMS-Workfront-Instanzen verfügbar.
-
 ## Wie können wir herausfinden, ob sich unsere Workfront-Instanz auf einer Prime- oder Ultimate-Lizenz befindet?
 
 ### Antwort
 
 * Ein Workfront-Administrator kann die Lizenz Ihres Unternehmens suchen.
 
-   1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **&#x200B;**&#x200B;Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
+   1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **** Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
    1. Klicken Sie **linken** auf „System“
    1. Um Ihren Workfront-Plan anzuzeigen, wählen Sie **Lizenzen** aus.
 Der Plan wird oben rechts auf der Seite angezeigt.
       ![Plan suchen](assets/locate-plan.png)
 
-  Oder
+  ODER
 * Wenden Sie sich an Ihren Workfront-Kundenbetreuer.
 
 ## Ist die Umweltförderung bidirektional?

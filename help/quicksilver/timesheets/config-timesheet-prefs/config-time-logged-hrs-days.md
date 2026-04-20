@@ -6,10 +6,10 @@ description: Als Anwender mit Planlizenz können Sie konfigurieren, ob Sie die Z
 author: Lisa
 feature: Timesheets
 exl-id: 4f801a13-182d-4e06-98ea-f6863f6a8edf
-source-git-commit: b0a3a11a3c04a0969bee99f8e1cea231911f0e6a
+source-git-commit: 58a6b489ca5f1683a5c40c63bb4528b1f49e9324
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 1%
+source-wordcount: '431'
+ht-degree: 12%
 
 ---
 
@@ -23,7 +23,7 @@ Als Benutzer mit einer Standard- oder Planlizenz können Sie konfigurieren, ob S
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto">
  <col> 
@@ -37,7 +37,7 @@ Als Benutzer mit einer Standard- oder Planlizenz können Sie konfigurieren, ob S
    <td>Adobe Workfront-Lizenz</td> 
    <td>
    <p>Standard</p>
-   <p>Plan</p></td>
+   <p>Abo</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -46,17 +46,17 @@ Als Benutzer mit einer Standard- oder Planlizenz können Sie konfigurieren, ob S
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
 1. Führen Sie je nach Ziel und Zugriffsebene im System einen der folgenden Schritte aus:
 
-   * **Standard- oder Planen Sie, wie Sie die Zeiterfassung für sich selbst konfigurieren** Klicken Sie oben rechts in Adobe Workfront auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](assets/main-menu-icon.png) und klicken Sie dann auf Ihren Benutzernamen neben Ihrem Profilbild. Oder (falls verfügbar) klicken Sie auf Ihr Profilbild im oberen Navigationsbereich und dann auf **[!UICONTROL Workfront-Profil]**. Klicken Sie dann auf das Symbol **Mehr** neben Ihrem Namen und wählen Sie **Bearbeiten** aus.
+   * **Standard- oder Planbenutzer, der die Zeitprotokollierung für sich selbst konfiguriert** Klicken Sie im oberen Navigationsbereich auf Ihr Profilbild und dann auf **[!UICONTROL Workfront-Profil]**. Klicken Sie dann auf das Symbol **Mehr** neben Ihrem Namen und wählen Sie **Bearbeiten** aus.
 
    * **Systemadministrator, der die Zeitprotokollierung für andere konfiguriert** Beginnen Sie mit der Bearbeitung eines oder mehrerer Benutzerkonten, wie [Bearbeiten des Benutzerprofils](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) beschrieben.
 
-1. Suchen Sie im daraufhin angezeigten Dialogfeld im Abschnitt **Ressourcenplanung** die Option **Zeit erfassen**.
+1. Suchen Sie im Dialogfeld „Benutzerprofil“ im Abschnitt **Ressourcenplanung** die Option **Zeit erfassen**.
 
    ![Zeit in Optionen erfassen](assets/user-profile-log-time-options.png)
 

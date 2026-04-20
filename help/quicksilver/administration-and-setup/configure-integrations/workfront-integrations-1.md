@@ -11,9 +11,9 @@ role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+source-git-commit: d8ccdeac9a658ca7a2862781e98c2c3c6fa0e8a0
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1242'
 ht-degree: 100%
 
 ---
@@ -113,7 +113,7 @@ Wir wissen, dass die verfügbaren nativen Integrationen möglicherweise nicht al
      </ul>
    </ul>
      <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">Erste Schritte mit der Integration von Proofing und GenStudio for Performance Marketing</a>.</p> 
-     </td>  <td><ul><li>Sie müssen über Lizenzen für Workfront und GenStudio for Performance Marketing verfügen.</li><li>Ihre Workfront-Instanz muss unter Adobe Unified Experience ausgeführt werden.</li><li>Workfront und GenStudio for Performance Marketing müssen in derselben IMS-Organisation bereitgestellt werden.</li></ul></td> 
+     </td>  <td><ul><li>Sie müssen über Lizenzen für Workfront und GenStudio for Performance Marketing verfügen.</li><li>Workfront und GenStudio for Performance Marketing müssen in derselben IMS-Organisation bereitgestellt werden.</li></ul></td> 
    <td>Die Integration kann im Workfront-Setup-Bereich aktiviert werden, sobald alle Anforderungen erfüllt sind. Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md" class="MCXref xref">Erste Schritte mit der Integration von Proofing und GenStudio for Performance Marketing</a>. </td> 
   </tr>
   <tr> 

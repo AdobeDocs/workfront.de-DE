@@ -9,14 +9,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
-source-git-commit: 9e7d20fe165e08997c14e207406fb8bed7597a56
+source-git-commit: d8ccdeac9a658ca7a2862781e98c2c3c6fa0e8a0
 workflow-type: tm+mt
-source-wordcount: '956'
-ht-degree: 1%
+source-wordcount: '586'
+ht-degree: 6%
 
 ---
 
-# Benutzerattribute zuordnen
+# Zuordnen von Benutzerattributen
 
 <!--Audited 2/2024-->
 
@@ -24,7 +24,7 @@ Mit Single Sign-on (SSO) können Sie Attribute aus dem Active Directory Ihres Id
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +36,7 @@ Mit Single Sign-on (SSO) können Sie Attribute aus dem Active Directory Ihres Id
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Standard</p><p>Plan</p></td> 
+   <td><p>Standard</p><p>Abo</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -45,7 +45,7 @@ Mit Single Sign-on (SSO) können Sie Attribute aus dem Active Directory Ihres Id
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -60,75 +60,6 @@ Beachten Sie beim Zuordnen von Attributen Folgendes:
   Beispiel: Wenn Sie „Nachname“ zuordnen und ihren Namen in Workfront aktualisieren, ohne den Wert in ihrem Identity Provider zu aktualisieren, wird der Nachname überschrieben, sodass er mit dem Wert des entsprechenden Elements im Identity Provider übereinstimmt, wenn sich der Benutzer das nächste Mal anmeldet.
 
 ## Zuordnen von Benutzerattributen für Ihre Organisation
-
-Das Verfahren zum Zuordnen von Attributen unterscheidet sich, je nachdem, ob Ihr Unternehmen Adobe Unified Experience nutzt.
-
-Um festzustellen, ob sich Ihr Unternehmen im einheitlichen Adobe-Erlebnis befindet, überprüfen Sie die URL, über die Sie auf Workfront zugreifen.
-
-| URL | Adobe Experience |
-|---|---|
-| (CompanyName).my.workfront.com | Klassische Erfahrung |
-| experience.adobe.com | Einheitliches Adobe-Erlebnis |
-
-* [Zuordnen von Benutzerattributen im klassischen Erlebnis](#map-user-attributes-in-the-classic-experience)
-* [Zuordnen von Benutzerattributen in Adobe Unified Experience](#map-user-attributes-in-the-adobe-unified-experience)
-
-### Zuordnen von Benutzerattributen im klassischen Erlebnis
-
-1. Klicken Sie auf das **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront und dann auf **Setup** ![Zahnradeinstellungssymbol](assets/gear-icon-settings.png).
-
-1. Klicken Sie auf **System** > **Single Sign-On (SSO)**.
-
-1. Klicken Sie in **Dropdown** Typ“ auf **SAML 2.0**.
-
-1. Klicken Sie **Benutzerattribute zuordnen**.
-
-   ![Benutzerattribute zuordnen](assets/map-user-attributes.png)
-
-1. Ordnen Sie in der angezeigten Optionszeile die Attribute zu, die Sie für Ihre Workfront-Benutzenden benötigen.
-
-   Sie können Attribute wie Adresse, Manager, Aufgabengebiet, Hauptgruppe usw. zuordnen.
-
-   Attributzuordnungen funktionieren mit einem Verhältnis von 1:1. Sie können beispielsweise nicht jede Gruppe festlegen, zu der ein Benutzer gehört; Sie können nur eine pro Benutzer festlegen.
-
-   >[!IMPORTANT]
-   >
-   >Es wird nicht empfohlen, Zugriffsebenen in den Attributzuordnungen zuzuordnen. Gehen Sie in diesem Fall beim Festlegen des Standardwerts vorsichtig vor, um sicherzustellen, dass Sie den Administratorzugriff nicht versehentlich entfernen.
-
-   In der folgenden Tabelle werden die Felder erläutert, die Sie zum Zuordnen von Attributen verwenden können:
-
-   <table style="table-layout:auto"> 
-    <col data-mc-conditions=""> 
-    <col data-mc-conditions=""> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Workfront-Benutzerattribut</td> 
-      <td>Namen des Attributs auswählen, das Sie zuordnen</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Verzeichnisattribut</td> 
-      <td>Geben Sie die SSO-Attributbeschriftung ein, die Sie verwenden möchten.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Standardwert</td> 
-      <td> <p>Wenn Sie ein Workfront-Benutzerattribut ausgewählt haben und der Wert während der Verbindung NULL ist, wird dieses Feld mit dem entsprechenden Standardwert im System ausgefüllt. Geben Sie hier nur dann einen Wert ein, wenn Sie Attributzuordnungsregeln anwenden möchten (siehe Schritt 7). Der Standardwert bildet eine Ausnahme zu diesen Regeln.</td> 
-     </tr> 
-    </tbody> 
-   </table>
-
-1. (Optional) Klicken Sie auf **Regeln**, um dem Attribut eine Regel hinzuzufügen.
-
-   1. Wählen Sie in der Dropdown-Liste den Attributmodifikator aus, den Sie verwenden möchten.
-   1. Geben Sie in die zwei Felder rechts den Verzeichnisattributwert und den Wert ein, durch den Sie ihn ersetzen möchten.
-
-      ![Regelfelder](assets/rule-fields.png)
-
-   Sie können auf **Regel hinzufügen** klicken, um dem Attribut weitere Regeln hinzuzufügen.
-
-1. (Optional) Um weitere Benutzerattribute zuzuordnen, klicken Sie auf **Zuordnung hinzufügen** und wiederholen Sie die Schritte 6 bis 7.
-1. Klicken Sie auf **Speichern**.
-
-### Zuordnen von Benutzerattributen in Adobe Unified Experience
 
 1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-left.png) in der linken oberen Ecke von Adobe Workfront und dann auf **Setup** ![Zahnradeinstellungssymbol](assets/gear-icon-settings.png).
 

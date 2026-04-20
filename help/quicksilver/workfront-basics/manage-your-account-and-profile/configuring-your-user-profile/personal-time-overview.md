@@ -9,9 +9,9 @@ feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: eb5296348c27f806dd50b997970166ebae4c97f4
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '425'
 ht-degree: 11%
 
 ---
@@ -74,7 +74,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 >[!NOTE]
 >
->Wenn Ihr Unternehmen über das einheitliche Adobe-Erlebnis verfügt, klicken Sie oben rechts im oberen Navigationsbereich auf das Kontomenü **Adobe** (Ihr Profilbild) und dann auf **Workfront-Profil**.
+>Sie können auf Ihr Workfront-Profil zugreifen, indem Sie im oberen Navigationsbereich auf das Adobe-Kontomenü (Ihr Profilbild) klicken und dann auf Workfront-Profil klicken.
 >
 >![Workfront-Profil](assets/aue-profile.png)
 

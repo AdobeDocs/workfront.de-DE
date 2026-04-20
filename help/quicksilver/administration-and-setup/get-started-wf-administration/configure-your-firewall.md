@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: a1bf0e508d11089c0835f17daf6a9e17d1b6b161
+source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1538'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch keine Einführung in Admin Console erhalten haben. Wenn Ihre Organisation in die Adobe Admin Console integriert wurde, müssen Sie diese Aktion über die Adobe Admin Console durchführen.
 >
->Informationen zum Konfigurieren Ihrer Zulassungsliste, wenn Ihr Unternehmen in die Adobe Admin Console integriert wurde, finden Sie unter [Domains dürfen für Adobe-Programme und -Services verwendet werden](https://helpx.adobe.com/de/enterprise/kb/network-endpoints.html).
+>Informationen zum Konfigurieren Ihrer Zulassungsliste, wenn Ihr Unternehmen in die Adobe Admin Console integriert wurde, finden Sie unter [Domains dürfen für Adobe-Programme und -Services verwendet werden](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen in die Adobe Admin Console integriert wurde, unterscheiden, finden Sie unter [Plattformbasierte Administrationsunterschiede (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -32,12 +32,6 @@ ht-degree: 0%
 >Die Art und Weise, wie ein Unternehmen seine Zulassungsliste konfiguriert, ist für jedes Unternehmen einzigartig. Arbeiten Sie mit Ihrem IT-Team zusammen, um die Vorgehensweise Ihres Unternehmens zu ermitteln und diese Ergänzungen zu implementieren.
 
 Wenn Ihre Firewall oder Ihr Mail-Server so konfiguriert ist, dass nur bestimmte Anbieter Zugriff haben, müssen Sie bestimmte IP-Adressen zu ihrer Zulassungsliste hinzufügen. Dadurch wird die Kommunikation zwischen Ihrer Umgebung und den Adobe Workfront-Servern eröffnet und die folgenden Prozesse ermöglicht:
-
-* Senden von Nachrichten über das Workfront-Programm
-
-  >[!NOTE]
-  >
-  >Dies ist nicht verfügbar, wenn die Workfront-Instanz Ihres Unternehmens mit Adobe IMS aktiviert ist. Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.
 
 * Verwenden von Dokument-Webhooks beim Konfigurieren von benutzerdefinierten Dokumentintegrationen
 * Verwenden von Workfront-Ereignisabonnements
@@ -66,7 +60,7 @@ So suchen Sie den Cluster Ihrer Organisation:
 
    CL01 bezieht sich auf Cluster 1, CL02 ist Cluster 2 usw.
 
-Weitere Informationen finden Sie im Abschnitt [Anzeigen des Cluster- und Workfront-Plans Ihres &#x200B;](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) im Artikel [Firewall-Übersicht](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
+Weitere Informationen finden Sie im Abschnitt [Anzeigen des Cluster- und Workfront-Plans Ihres ](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) im Artikel [Firewall-Übersicht](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
 
 ## Der Zulassungsliste hinzuzufügende IP-Adressen
 
@@ -442,7 +436,7 @@ Wenn Ihr Unternehmen ausgehende Netzwerkfilter verwendet, fügen Sie die folgend
    * mfe-preview.static.workfront.com
    * mfe-review.static.workfront.com
 
-Wenn Ihr Unternehmen Adobe Unified Experience nutzt, verwendet es die folgenden Domains. Diese Domains werden unter `*.adobe.com` behandelt, können jedoch bei Bedarf hinzugefügt werden.
+Da sich Ihr Unternehmen auf dem einheitlichen Adobe-Erlebnis befindet, verwendet es die folgenden Domains. Diese Domains werden unter `*.adobe.com` behandelt, können jedoch bei Bedarf hinzugefügt werden.
 
 * &lt;Ihre Domain>.my.workfront.adobe.com
 * &lt;Ihre Domain>.preview.workfront.adobe.com
@@ -451,6 +445,8 @@ Wenn Ihr Unternehmen Adobe Unified Experience nutzt, verwendet es die folgenden 
 
 
 Fügen Sie für Workfront Fusion die folgenden Domains hinzu:
+
+<!--Remove me October 2026-->
 
 * Für Unternehmen, die nicht am einheitlichen Adobe-Erlebnis teilnehmen:
    * app.workfrontfusion.com (US AWS)

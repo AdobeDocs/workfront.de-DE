@@ -1,18 +1,18 @@
 ---
-title: Projektstatus - Übersicht
+title: Überblick über den Projektzustand
 content-type: reference
 description: Die Funktion „Projektdiagnose“ nutzt die Leistungsfähigkeit des KI-Assistenten, um Ihnen sofort einen Überblick über die Leistung Ihrer Projekte zu geben.
 author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
-source-git-commit: b95be2e0917b53195ac327880a2ea7399c1485de
+source-git-commit: d9d6d572840f5691888d0db3242f3908978079b3
 workflow-type: tm+mt
 source-wordcount: '2060'
-ht-degree: 2%
+ht-degree: 4%
 
 ---
 
-# Projektstatus - Übersicht
+# Überblick über den Projektzustand
 
 >[!IMPORTANT]
 >
@@ -68,7 +68,7 @@ Weitere Informationen zum KI-Assistenten finden Sie unter [KI-Assistent - Übers
 </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Für die Betaversion zur Projektdiagnose registrieren
@@ -76,6 +76,8 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 Für Ihre Organisation muss der KI-Assistent aktiviert sein, damit sie die Projektdiagnose verwenden kann.
 
 Um den KI-Assistenten und die Projektdiagnose für Ihre Organisation zu aktivieren, müssen alle folgenden Bedingungen erfüllt sein:
+
+<!--Remove me October 2026-->
 
 * Ihr Unternehmen muss zum Adobe Identity Management System (IMS) migriert sein.
 * Ihr Unternehmen muss über ein Workfront- oder Workflow-, Prime- oder Ultimate-Paket verfügen.
@@ -96,7 +98,7 @@ Der KI-Assistent bietet Ihnen eine schnelle Bewertung der Gesamtbedingung eines 
 * Gefährdet
 * In Schwierigkeiten
 
-Dieser Status wird mithilfe von Projektkomponenten wie Projektfortschritt, unterschätzte Arbeit usw. berechnet. Eine vollständige Liste der Komponenten, die zur Messung des Projektzustands verwendet werden, finden Sie im Abschnitt [Liste der Projekt- und &#x200B;](#project-and-program-states-list)).
+Dieser Status wird mithilfe von Projektkomponenten wie Projektfortschritt, unterschätzte Arbeit usw. berechnet. Eine vollständige Liste der Komponenten, die zur Messung des Projektzustands verwendet werden, finden Sie im Abschnitt [Liste der Projekt- und ](#project-and-program-states-list)).
 
 Jeder Projektkomponente wird eine numerische Risikobewertung zugewiesen, die von (0-100) ausgeht und dann gemittelt wird, um den Gesamtzustand des Projekts zu erstellen:
 
@@ -136,7 +138,7 @@ Die Projektbedingungen bieten eine grundlegende Momentaufnahme der aktuellen Lei
 
 Weitere Informationen zu Projektbedingungen finden Sie in den folgenden Artikeln:
 
-* [Aktualisierungsbedingung für ein Projekt](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)
+* [Aktualisieren der Bedingung für ein Projekt](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)
 * [Benutzerdefinierte Bedingungen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
 
 ## Liste der Projekt- und Programmzustand
@@ -310,7 +312,7 @@ So generieren Sie eine Bewertung des Projektzustands für ein Projekt oder Progr
 
 1. Geben Sie im Feld **Fragen zu Workfront** Folgendes ein: *Wie sieht der Zustand dieses Projekts aus?*
 
-   Oder
+   ODER
 
    Geben Sie im Feld **Fragen zu Workfront** Folgendes ein: *Wie sieht der Zustand dieses Programms aus?*
 
@@ -323,7 +325,7 @@ So generieren Sie eine Bewertung des Projektzustands für ein Projekt oder Progr
 
    ![Bewertung des Projektzustands](assets/health-assessment.png)
 
-   Wenn Sie eine Bewertung für ein Programm erstellen, werden mehrere Abzeichen aufgelistet, die den Zustand jedes Projekts im Programm anzeigen. Weitere Informationen zu den Badge-Kennzeichnungen finden Sie im Abschnitt [Liste der Projekt- und &#x200B;](#project-and-program-states-list)) in diesem Artikel.
+   Wenn Sie eine Bewertung für ein Programm erstellen, werden mehrere Abzeichen aufgelistet, die den Zustand jedes Projekts im Programm anzeigen. Weitere Informationen zu den Badge-Kennzeichnungen finden Sie im Abschnitt [Liste der Projekt- und ](#project-and-program-states-list)) in diesem Artikel.
 
 1. (Optional) Klicken Sie auf einen der Bewertungspunkte, um dessen Details zu erweitern.
 
@@ -339,7 +341,7 @@ Sie können eine kombinierte Bewertung des Projektzustands für alle Projekte ge
 
 Ein Projekt wird nur dann in die kombinierte Bewertung des Projektzustands einbezogen, wenn es gestartet wurde. Sie können konfigurieren, welche Ereignis-Trigger ein Projekt in den Projekteinstellungen starten sollen. Weitere Informationen finden Sie im Abschnitt [Verwalten von Projektzustandskonfigurationen](#manage-project-health-configurations) in diesem Artikel.
 
-1. Klicken Sie auf **KI** Assistent![&#x200B; Symbol KI-Assistent](assets/ai-assistant-icon.png) in der rechten oberen Ecke des Bildschirms. KI-Assistent wird geöffnet.
+1. Klicken Sie auf **KI** Assistent![ Symbol KI-Assistent](assets/ai-assistant-icon.png) in der rechten oberen Ecke des Bildschirms. KI-Assistent wird geöffnet.
 
 1. Geben Sie Folgendes in das Feld **Fragen zu Workfront** ein: *Wie sieht der Zustand meiner Projekte aus?*
 

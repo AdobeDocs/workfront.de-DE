@@ -7,10 +7,10 @@ feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: d8ccdeac9a658ca7a2862781e98c2c3c6fa0e8a0
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 9%
+source-wordcount: '1473'
+ht-degree: 8%
 
 ---
 
@@ -61,8 +61,11 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 Um das Ausfüllen eines Formulars mit KI mithilfe einer Eingabeaufforderung oder eines Dokuments zu ermöglichen, müssen **alle** der folgenden Bedingungen erfüllt sein:
 
-* Ihre Organisation muss zu Adobe IMS (Identity Management System) migriert worden sein
-* Adobe Unified Experience muss aktiviert sein
+<!--
+Remove me October 2026
+* Your organization must have migrated to Adobe IMS (Identity Management System)
+* The Adobe Unified Experience must be enabled
+-->
 * Ihre Organisation muss über ein Workfront-Abo des Typs Select, Prime oder Ultimate verfügen.
 * Bei Adobe muss eine unterzeichnete Adobe GenAI-Vereinbarung hinterlegt sein
 
@@ -90,7 +93,7 @@ Beachten Sie bei der Verwendung von Formularausfüllen auf Basis von KI Folgende
 >
 >Das Ausfüllen von Formularen mit künstlicher Intelligenz ist auf Organisationsebene aktiviert und kann für bestimmte Benutzer oder Zugriffsebenen nicht aktiviert oder deaktiviert werden.
 
-1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **&#x200B;**&#x200B;Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **** Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
 1. Klicken Sie auf **System** und dann unter „System“ auf **Voreinstellungen**.
 1. Stellen Sie im Abschnitt KI-Voreinstellungen sicher, dass **KI aktivieren** aktiviert ist.
 1. Schalten Sie **KI-Formular ausfüllen** ein.

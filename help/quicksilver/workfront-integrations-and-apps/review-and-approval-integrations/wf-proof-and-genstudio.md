@@ -8,10 +8,10 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 9905a522-9913-49c0-8c80-a8b46221fcbb
-source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
+source-git-commit: d9d6d572840f5691888d0db3242f3908978079b3
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 0%
+source-wordcount: '535'
+ht-degree: 7%
 
 ---
 
@@ -25,12 +25,12 @@ Durch die Integration zwischen GenStudio for Performance Marketing und Workfront
 
 * Anzeigen von Überprüfungsentscheidungen in GenStudio for Performance Marketing zur endgültigen Genehmigung und Veröffentlichung
 
-Weitere Informationen zur Überprüfung und Genehmigung in GenStudio for Performance Marketing finden Sie unter [Integration von Workfront Proof mit GenStudio for Performance Marketing](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration).
+Weitere Informationen zur Überprüfung und Genehmigung in GenStudio for Performance Marketing finden Sie unter [Integration von Workfront Proof mit GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration).
 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,7 +60,7 @@ Weitere Informationen zur Überprüfung und Genehmigung in GenStudio for Perform
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -70,8 +70,6 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 * Workfront und GenStudio for Performance Marketing müssen in derselben Identity Management System (IMS)-Organisation bereitgestellt werden.
 
 * Benutzende können nur zu einer Workfront-Instanz innerhalb der IMS-Organisation gehören.
-
-* Die Workfront-Instanz muss für das einheitliche Adobe-Erlebnis aktiviert sein.
 
 * Die Integration muss im Bereich &quot;Workfront-Setup“ aktiviert werden.
 
@@ -95,14 +93,14 @@ Sie können einfache, einstufige Vorlagen für nur einen oder zwei Prüfer erste
 
 Weitere Informationen zum Erstellen automatisierter Workflows und Vorlagen in Workfront finden Sie unter
 
-* [Automatisierter Workflow - Übersicht](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
+* [Überblick über den automatisierten Workflow](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
 * [Erstellen und Verwalten von automatisierten Workflow-Vorlagen](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md)
 
 ### Auswählen oder Ändern der Vorlage in GenStudio for Performance Marketing
 
 Wenn ein(e) Benutzende(r) eine Überprüfung in GenStudio for Performance Marketing startet, wählt er/sie einfach die gewünschte Vorlage aus. Benutzer können jederzeit problemlos jede Korrekturabzugs-Workflow-Vorlage ändern und Prüfer und Phasen hinzufügen oder entfernen.
 
-Weitere Informationen finden Sie unter [Überprüfung und Genehmigung &#x200B;](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
+Weitere Informationen finden Sie unter [Überprüfung und Genehmigung ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
 
 ## Überprüfen und Genehmigen von GenStudio for Performance Marketing-Entwurfsinhalten im Workfront Proofing Viewer
 
@@ -114,7 +112,7 @@ Mit dem Proofing Viewer können Sie
 * Markup-Entwurf, um anzuzeigen, was geändert werden muss
 * Entscheidung treffen
 
-Weitere Informationen finden Sie unter [Inhalt überprüfen und bearbeiten](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit).
+Weitere Informationen finden Sie unter [Inhalt überprüfen und bearbeiten](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit).
 
 
 >[!IMPORTANT]
@@ -126,4 +124,4 @@ Weitere Informationen finden Sie unter [Inhalt überprüfen und bearbeiten](http
 
 Sobald das Asset den Prüfungs- und Genehmigungsprozess durchlaufen hat, können Sie die Überprüfungsentscheidung anzeigen und den Inhalt direkt in GenStudio for Performance Marketing veröffentlichen.
 
-Weitere Informationen finden Sie unter [Genehmigte Inhalte veröffentlichen](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
+Weitere Informationen finden Sie unter [Genehmigte Inhalte veröffentlichen](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).

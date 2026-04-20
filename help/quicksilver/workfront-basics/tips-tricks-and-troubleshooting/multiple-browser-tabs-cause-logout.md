@@ -1,23 +1,19 @@
 ---
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: Mehrere Browser-Registerkarten führen dazu, dass sich Workfront abmeldet
+title: Mehrere Registerkarten im Browser führen zur Abmeldung von Workfront
 description: Wenn mehrere Registerkarten im Browser geöffnet sind, meldet sich Workfront möglicherweise automatisch ab.
 feature: Get Started with Workfront
 author: Becky
 exl-id: 1cc8bf6c-0eda-41ef-8efd-bba3a5f33b08
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 440640f5b916b76096c99eed8253236de477a02a
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 30%
+source-wordcount: '164'
+ht-degree: 42%
 
 ---
 
-# Mehrere Browser-Registerkarten führen dazu, dass sich Workfront abmeldet
-
->[!IMPORTANT]
->
->Dieses Problem tritt nur bei Organisationen auf, die in Adobe IMS integriert wurden.
+# Mehrere Registerkarten im Browser führen zur Abmeldung von Workfront
 
 ## Problem
 
