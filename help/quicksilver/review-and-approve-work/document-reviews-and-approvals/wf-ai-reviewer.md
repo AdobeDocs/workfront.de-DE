@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
+source-git-commit: 72fa86e6dc653905181603e0111f65eb0ca5965b
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '785'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,7 @@ Jeder Benutzer kann den Content Reviewer zu einer Überprüfungs- und Genehmigun
    * Content Reviewer in Workfront bietet die in GenStudio Foundation verfügbaren Funktionen für Asset-Prüfungs- und Genehmigungs-Workflows. Sie müssen nicht direkt auf GenStudio Foundation zugreifen, um Ihre Arbeit abzuschließen. Ihr Zugriff auf GenStudio Foundation-Funktionen über Content Reviewer fällt unter die Bedingungen Ihres Workfront-Vertrags.
 * Adobe muss eine unterzeichnete Adobe Gen AI-Vereinbarung in der Datei haben.
 Weitere Informationen zur Unterzeichnung des Abkommens finden Sie unter [Unterzeichnung des Adobe Gen AI-Abkommens](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
+* Content Reviewer ist in Sandbox-Umgebungen nicht verfügbar.
 
 
 ## Unterstützte Dateitypen {#supported-file-types-ai-reviewer}
