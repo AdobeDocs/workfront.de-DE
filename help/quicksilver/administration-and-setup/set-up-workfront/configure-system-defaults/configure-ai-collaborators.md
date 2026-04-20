@@ -8,20 +8,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: 7d359a2536860d13658d3ec0c95264a55db7ab29
+source-git-commit: d20215ae2d535ba98ca27ce62aaa28fd372e935a
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 6%
+source-wordcount: '564'
+ht-degree: 4%
 
 ---
 
 # KI-Mitwirkende konfigurieren
 
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
+
 >[!IMPORTANT]
 >
 >Derzeit ist Content Reviewer der einzige verfügbare KI-Mitwirkende-Typ. In Zukunft werden weitere KI-Collaborator-Funktionen verfügbar sein.
-
-{{highlighted-preview-article-level}}
 
 KI-Mitwirkende sind eine Möglichkeit, KI-Agenten in Ihre Projekte und Aufgaben einzubinden. Sie können einen KI-Mitwirkenden konfigurieren und ihn dann wie einen Benutzer zuweisen.
 
@@ -29,7 +29,7 @@ Sie können beispielsweise einen KI-Mitarbeiter vom Typ „Prüfer“ mit Marken
 
 Zu den verfügbaren KI-Typen für Mitwirkende gehören:
 
-* Reviewer: Erstellen Sie einen Mitarbeiter mit Marken <!-- or Adobe Brand Intelligence--> weisen Sie ihn dann als Reviewer für Assets zu.
+* Reviewer: Erstellen Sie einen Mitarbeiter mit Brands oder Adobe Brand Intelligence und weisen Sie ihn dann als Reviewer für Assets zu.
 
   Weitere Informationen finden Sie unter [Erste Schritte mit dem Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
@@ -63,16 +63,27 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Voraussetzungen
 
-
-
 * Ihr Unternehmen muss eine unterzeichnete Adobe Gen AI-Vereinbarung in der Datei haben.
 
   Weitere Informationen finden Sie unter [Unterschreiben des Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)Abkommens im Artikel KI-Assistent in Workfront.
 * Sie müssen eine Marke in Workfront konfiguriert haben, bevor Sie sie für einen KI-Mitwirkenden vom Typ Prüfer verwenden können.
 
   Anweisungen finden Sie unter [Erstellen und Verwalten von Marken für den Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
+* <span class="preview">Um Adobe Brand Intelligence für einen Reviewer AI-Mitwirkenden verwenden zu können, muss Ihr Unternehmen das einheitliche Prüf- und Genehmigungs-Erlebnis in Workfront nutzen. </span>
+
+  <span class="preview">Weitere Informationen finden Sie unter [Erste Schritte mit der einheitlichen Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md). </span>
 
 ## Erstellen eines neuen KI-Mitarbeiters vom Typ „Prüfer“
+
+Reviewer AI Collaborators können für die Verwendung von Workfront-Marken oder Adobe Brand Intelligence konfiguriert werden.
+
+* **Marken**: Marken werden in Workfront erstellt. Sie können in Workfront Marken erstellen, indem Sie PDF-Dateien mit Ihren Markenrichtlinien hochladen oder manuell Markenelemente eingeben.
+* <span class="preview">**Adobe Brand Intelligence**: Wenn ein KI-Mitwirkender ein Asset mit Adobe Brand Intelligence überprüft, können Sie die Kommentare des Reviewers in Frame.io anzeigen.  </span>
+
+>[!NOTE]
+>
+>Content Reviewer ist in Sandbox-Umgebungen nicht verfügbar.
+
 
 {{step-1-to-setup}}
 
@@ -85,9 +96,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    >Derzeit ist nur der Reviewer-Typ verfügbar. In Zukunft werden weitere KI-Typen für Mitwirkende verfügbar sein.
 
 1. Geben Sie im Feld Name des Mitarbeiters einen Namen für den Mitarbeiter ein. Dies ist der Name, der in der Liste der verfügbaren Bevollmächtigten für eine Aufgabe angezeigt wird.
-   <!--1. Select whether the collaborator will use a brand or Adobe Brand Intelligence for its reviews.-->
-   <!--1. (Conditional) If the AI Collaborator will use Adobe Brand Intelligence, select the tenant that it will use.-->
-1. &#x200B;<!--(Conditional) If the AI Collaborator will use a Brand,-->Wählen Sie die zu verwendende Marken- und Markenrichtlinie aus.
+1. <span class="preview">Wählen Sie aus, ob der Mitarbeiter eine Marke oder Adobe Brand Intelligence für seine Überprüfungen verwenden soll.</span>
+1. (Bedingt) Wenn der KI-Mitwirkende eine Marke verwenden wird, wählen Sie die Marke und die Markenrichtlinie aus, die er verwenden wird.
 1. Klicken Sie auf **Speichern**.
 
 ## KI-Mitwirkende verwalten
