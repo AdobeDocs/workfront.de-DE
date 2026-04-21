@@ -6,10 +6,10 @@ description: Um Arbeitselemente effizient zu finden und sich auf die von Ihnen v
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: 8bd433c11334d3ecd12afc98ee2d33fac06826f3
 workflow-type: tm+mt
-source-wordcount: '2437'
-ht-degree: 1%
+source-wordcount: '2448'
+ht-degree: 2%
 
 ---
 
@@ -35,6 +35,8 @@ Als Ressourcen-Manager können Sie den Workload-Balancer verwenden, um den Arbei
 Dieser Artikel enthält Informationen zu Filtern im Workload Balancer. Informationen zu Filtern in Workfront finden Sie unter [Filter - Übersicht](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -70,7 +72,9 @@ Dieser Artikel enthält Informationen zu Filtern im Workload Balancer. Informati
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
+
++++
 
 ## Übersicht über Filter im Workload Balancer
 
@@ -161,9 +165,9 @@ Sie können einen Filter von Grund auf neu erstellen oder einen der vordefiniert
    >
    >Der Standardfilter zeigt Benutzer an, die zu einem Ihrer Teams gehören, sowie deren Arbeitselemente. Eine Kopie dieses Filters kann bearbeitet werden.
 
-   Wenn Sie über ein Projekt auf [!UICONTROL Workload &#x200B;]Balancer) zugreifen, **der Filter** Arbeitselemente dieses Projekts“ möglicherweise bereits angewendet. Dadurch werden nur Arbeitselemente angezeigt, die Benutzern in diesem Projekt zugewiesen sind. Sie können eine Kopie dieses Filters duplizieren und speichern.
+   Wenn Sie über ein Projekt auf [!UICONTROL Workload ]Balancer) zugreifen, **der Filter** Arbeitselemente dieses Projekts“ möglicherweise bereits angewendet. Dadurch werden nur Arbeitselemente angezeigt, die Benutzern in diesem Projekt zugewiesen sind. Sie können eine Kopie dieses Filters duplizieren und speichern.
 
-   Standardmäßig zeigt der [!UICONTROL Workload Balancer“ des Projekts &#x200B;] Arbeitselemente an, die allen Benutzenden im Projekt zugewiesen sind.
+   Standardmäßig zeigt der [!UICONTROL Workload Balancer“ des Projekts ] Arbeitselemente an, die allen Benutzenden im Projekt zugewiesen sind.
 
 
 1. Klicken Sie **Neuer Filter**.
@@ -246,7 +250,7 @@ Sie können einen Filter duplizieren und bearbeiten, um einen neuen zu erstellen
 1. Klicken Sie in der oberen rechten Ecke der Bereiche **Nicht zugewiesene Arbeit** oder **Zugewiesene Arbeit** auf das Symbol **Filtern** ![Filtersymbol](assets/filter-icon.png).  Das **Filter** wird auf der rechten Seite angezeigt. Der Name des Bereichs, für den Sie den Filter duplizieren, wird in der Kopfzeile angezeigt.
 
 1. Bewegen Sie den Mauszeiger über einen vorhandenen Filter und klicken Sie dann auf das Menü **Mehr** ![Mehr Menü](assets/more-menu-edit-filter.png).
-1. Klicken Sie **Duplizieren**.
+1. Klicken Sie auf **Duplizieren**.
 
    >[!TIP]
    >
@@ -308,7 +312,7 @@ Beachten Sie Folgendes, bevor Sie einen Filter löschen:
 
 1. Klicken Sie in der rechten oberen Ecke der Bereiche **Nicht zugewiesene Arbeit** oder **Zugewiesene Arbeit** auf das **Filtersymbol** ![Filtersymbol](assets/filter-icon.png). Das **Filter** wird auf der rechten Seite angezeigt.
 
-1. Bewegen Sie den Mauszeiger über einen Filter und klicken Sie auf das **Mehr** Menü ![Mehr &#x200B;](assets/more-menu-edit-filter.png) dann auf **Löschen**.
+1. Bewegen Sie den Mauszeiger über einen Filter und klicken Sie auf das **Mehr** Menü ![Mehr ](assets/more-menu-edit-filter.png) dann auf **Löschen**.
 
    >[!TIP]
    >
