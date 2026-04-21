@@ -8,10 +8,10 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+source-git-commit: f9c2c7192254a0d0c04056bc4c193eb35d4116b5
 workflow-type: tm+mt
 source-wordcount: '1114'
-ht-degree: 2%
+ht-degree: 6%
 
 ---
 
@@ -31,7 +31,7 @@ Als [!DNL Adobe Workfront] können Sie Dokumentintegrationen konfigurieren, um D
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table>
   <tr>
@@ -45,7 +45,7 @@ Als [!DNL Adobe Workfront] können Sie Dokumentintegrationen konfigurieren, um D
    <td>Adobe Workfront-Lizenzen
    </td>
    <td>Standard
-   <p>Plan</p>
+   <p>Abo</p>
    </td>
   </tr>
    <tr>
@@ -56,7 +56,7 @@ Als [!DNL Adobe Workfront] können Sie Dokumentintegrationen konfigurieren, um D
   </tr>
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -69,8 +69,8 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 Sie können die folgenden Integrationen zum Verwalten von Dokumenten konfigurieren:
 
 <!--
-  Experience Manager Assets Essentials </p>
-  -->
+   Experience Manager Assets Essentials </p>
+   -->
 
 * [!DNL Workfront DAM]
 
@@ -163,7 +163,7 @@ Nachdem die benutzerdefinierte Dokumentenintegration erstellt wurde, können Sie
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL -Authentifizierungs-URL]</td> 
+      <td role="rowheader">[!UICONTROL Authentifizierungs-URL]</td> 
       <td>Die für die Benutzerauthentifizierung verwendete vollständige URL. [!DNL Workfront] navigiert Benutzer im Rahmen des OAuth-Bereitstellungsprozesses zu dieser Adresse.</td> 
      </tr> 
      <tr> 
@@ -187,7 +187,7 @@ Nachdem die benutzerdefinierte Dokumentenintegration erstellt wurde, können Sie
 
    >[!TIP]
    >
-   >Der [!DNL Workfront] Umleitungs-URI, der unten auf der Seite &quot;[!UICONTROL &#x200B; Integration“ angezeigt wird] listet den URI auf, mit dem diese Integration beim externen Dokumentanbieter registriert wurde.
+   >Der [!DNL Workfront] Umleitungs-URI, der unten auf der Seite &quot;[!UICONTROL  Integration“ angezeigt wird] listet den URI auf, mit dem diese Integration beim externen Dokumentanbieter registriert wurde.
 
 1. (Bedingt) Wenn Sie **[!UICONTROL ApiKey]**-Authentifizierung für den **[!UICONTROL Authentifizierungstyp]** ausgewählt haben, geben Sie den API-Schlüssel ein, der vom benutzerdefinierten Dokumentanbieter ausgestellt wurde.
 
@@ -254,7 +254,7 @@ So konfigurieren Sie [!DNL Workfront] zum Senden von Metadaten an [!DNL Workfron
 
 * Wenn ein verknüpfter Ordner zu Workfront hinzugefügt wird, werden die Dateien im Ordner nicht mehr automatisch hinzugefügt.
    * Sie können den Google-Ordner ohne die Dateien zu Workfront hinzufügen und dann die einzelnen Dateien zu Workfront hinzufügen. Die Dateien werden automatisch zum Google-Ordner in Workfront hinzugefügt.
-Oder
+ODER
    * Sie können einen Dokumentordner in Workfront erstellen, dann alle Dateien im Google-Ordner auswählen und sie zum Workfront-Ordner hinzufügen.
 
 

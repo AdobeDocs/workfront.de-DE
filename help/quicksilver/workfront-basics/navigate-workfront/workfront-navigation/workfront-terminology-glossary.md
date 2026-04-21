@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: f9c2c7192254a0d0c04056bc4c193eb35d4116b5
 workflow-type: tm+mt
 source-wordcount: '21621'
 ht-degree: 99%
@@ -52,19 +52,18 @@ In der folgenden Tabelle finden Sie eine Liste häufig verwendeter Begriffe in A
   </tr> 
   <tr> 
    <td>[!UICONTROL Tatsächliche Kosten]</td> 
-   <td> <p>Bei Aufgaben und Problemen sind dies die Kosten, die mit den tatsächlich protokollierten Stunden verknüpft sind, und zwar in Bezug auf den Stundensatz der Ressource, die der Aufgabe oder dem Problem zugewiesen wurde. Bei Projekten entspricht dies der Summe aller [!UICONTROL tatsächlichen Kosten] aus Aufgaben und Problemen des Projekts. Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Nachverfolgen der Kosten</a>.</p>
-
-<p>Bei der Berechnung der [!UICONTROL tatsächlichen Kosten] werden [!UICONTROL frühere tatsächliche Stunden] berücksichtigt. Weitere Informationen finden Sie unter „[!UICONTROL Tatsächliche Stunden]“ oder „[!UICONTROL Frühere tatsächliche Stunden]“ in dieser Tabelle. </p>   </td> 
+   <td> <p>Bei Aufgaben und Problemen sind dies die Kosten, die mit den tatsächlich protokollierten Stunden verknüpft sind, und zwar in Bezug auf den Stundensatz der Ressource, die der Aufgabe oder dem Problem zugewiesen wurde. Bei Projekten entspricht dies der Summe aller [!UICONTROL tatsächlichen Kosten] aus Aufgaben und Problemen des Projekts. Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Nachverfolgen der Kosten</a>.</p>    
+  <p>Bei der Berechnung der [!UICONTROL tatsächlichen Kosten] werden [!UICONTROL frühere tatsächliche Stunden] berücksichtigt. Weitere Informationen finden Sie unter „[!UICONTROL Tatsächliche Stunden]“ oder „[!UICONTROL Frühere tatsächliche Stunden]“ in dieser Tabelle. </p>   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tatsächliche Ausgabenkosten]</td> 
    <td> <p>Die Summe der [!UICONTROL tatsächlichen Beträge] für alle für ein Projekt oder eine Aufgabe protokollierten Ausgaben.</p> <b>BEISPIEL </b>
    <p>Wenn Sie eine Ausgabe für Aufgabe 1 erstellen und 600,00 € in das Feld „[!UICONTROL Tatsächliche Kosten]“ eingeben, ist der Wert im Feld „[!UICONTROL Tatsächliche Ausgabenkosten]“ für diese Aufgabe 600,00 €. </p> 
-   <p>Für ein Projekt verwendet [!DNL Workfront] die folgende Formel, um die [!UICONTROL tatsächlichen Ausgabenkosten] zu berechnen:</p> <p><code>Project Actual Expense Cost = SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost</code> <br> </p> 
+   <p>Für ein Projekt verwendet [!DNL Workfront] die folgende Formel, um die [!UICONTROL tatsächlichen Ausgabenkosten] zu berechnen:</p> <p><code>Project Actual Expense Cost = SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost</code> <br> </p>
    <!--
-     <p>Important: If the value in the Actual Amount field for an expense is negative, Workfront will ignore that expense record. For example, if the value in the Planned Amount field is $200.00 but the value in the Actual Amount field is -$300.00, the system will ignore this entire expense record which means you would not include the $200.00 planned value or the -$300.00 actual value in any calculations for Planned Expense Cost or Actual Expense Cost. (drafting this because not sure if this is still correct)</p>
-    -->
-    </td>
+   <p>Important: If the value in the Actual Amount field for an expense is negative, Workfront will ignore that expense record. For example, if the value in the Planned Amount field is $200.00 but the value in the Actual Amount field is -$300.00, the system will ignore this entire expense record which means you would not include the $200.00 planned value or the -$300.00 actual value in any calculations for Planned Expense Cost or Actual Expense Cost. (drafting this because not sure if this is still correct)</p> 
+   -->
+   </td>
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Tatsächliche Stunden]</td> 
@@ -91,9 +90,9 @@ In der folgenden Tabelle finden Sie eine Liste häufig verwendeter Begriffe in A
   </tr> 
   <!--
   <tr> 
- <td>A type of work process that is unplanned.</td> 
- -->
+   <td>A type of work process that is unplanned.</td> 
   </tr>
+  -->
   <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>Additional Schedules</td> 
@@ -118,7 +117,7 @@ In der folgenden Tabelle finden Sie eine Liste häufig verwendeter Begriffe in A
     <ul>
     <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Estimates</li>
-     --> 
+    --> 
      <li>[!UICONTROL Projekt] (Finanzdaten)</li> 
      <li>[!UICONTROL Budgetierte Stunde]</li> 
     </ul> <p>Für eine
@@ -134,21 +133,21 @@ In der folgenden Tabelle finden Sie eine Liste häufig verwendeter Begriffe in A
        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
          how resources are budgeted for work, or 
        </MadCap:conditionalText>
-      -->
+     -->
       Der Betrag von [!UICONTROL Geplante Stunden], der Ihren Ressourcen zugewiesen ist.</li>
      <li> <p>Das [!UICONTROL Zuteilungsdatum] ist der erste Tag (Sonntag) einer Woche, in der die Zuteilung eines [!UICONTROL Aufgabengebiets] zu einer Aufgabe beginnt. Das ([!UICONTROL Aufgabengebiet]) einer Ressource kann so viele [!UICONTROL Zuteilungstermine] haben, wie es Wochen während der [!UICONTROL Dauer] der Aufgaben hat, denen es zugewiesen ist. Wenn sich Aufgaben über mehrere Monate erstrecken, kann der erste Tag eines Monats auch zu einem [!UICONTROL Zuteilungsdatum] werden, wenn er in die [!UICONTROL Dauer] der Aufgabe fällt.</p> <p>Sie können beispielsweise ein [!UICONTROL Aufgabengebiet] einer Aufgabe zuweisen, die sich über 3 Wochen erstreckt und 90 [!UICONTROL geplante Stunden] hat. Diese Stunden werden während der Aufgabendauer gleichmäßig verteilt, sodass Sie Ihrem Aufgabengebiet täglich 6 [!UICONTROL geplante Stunden] zuweisen:</p> <p><em> [!UICONTROL Tägliche geplante Stunden] = [!UICONTROL Gesamte geplante Stunden] / Anzahl der [!UICONTROL Arbeitstage] während der [!UICONTROL Dauer] der Aufgabe </em> </p> <p>Infolgedessen gibt es drei [!UICONTROL Zuteilungstermine], einen für jeden Sonntag jeder Woche während der [!UICONTROL Dauer] der Aufgabe, wobei jedem eine bestimmte Anzahl unter „[!UICONTROL Geplante Stunden]“ zugeordnet ist.<br>Wenn die Aufgabe in der Mitte der letzten Woche eines Monats beginnt und zwei Wochen nach dem Beginn eines neuen Monats endet, hat die Aufgabe vier [!UICONTROL Zuteilungstermine]: einen für jeden Sonntag jeder Woche während der [!UICONTROL Dauer] der Aufgabe und einen für den ersten Tag des neuen Monats.</p> <p>Um diese Informationen optimal zu nutzen, empfehlen wir, eine
-     <!--
+       <!--
         <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
           Resource Estimates or a 
         </MadCap:conditionalText>
        -->
-       Erstellen Sie einen Bericht zu den (finanziellen) Daten des Projekts und fügen Sie eine Matrix-Gruppierung für das [!UICONTROL Zuteilungsdatum] hinzu. Gruppieren Sie dann die Ergebnisse wöchentlich, monatlich, vierteljährlich oder jährlich, um die genauesten Daten zu erhalten.<br>Informationen zum Erstellen einer Matrixgruppierung finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Erstellen eines Matrixberichts</a>.</p> </li>
+     Erstellen Sie einen Bericht zu den (finanziellen) Daten des Projekts und fügen Sie eine Matrix-Gruppierung für das [!UICONTROL Zuteilungsdatum] hinzu. Gruppieren Sie dann die Ergebnisse wöchentlich, monatlich, vierteljährlich oder jährlich, um die genauesten Daten zu erhalten.<br>Informationen zum Erstellen einer Matrixgruppierung finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Erstellen eines Matrixberichts</a>.</p> </li>
     </ul> <p>Finanzinformationen werden nur dann in Berichten zum [!UICONTROL Projekt (Finanzdaten)] übernommen, wenn die damit verbundenen Daten weniger als 5 Jahre alt sind. Wenn beispielsweise einer Aufgabe im Januar 2015 ein Aufgabengebiet zugewiesen wurde und jetzt September 2021 ist, wird ein Finanzfeld wie das [!UICONTROL Zuteilungsdatum] für das Aufgabengebiet im Bericht zum [!UICONTROL Projekt (Finanzdaten)] nicht mit Daten gefüllt. </p> 
     <div> 
      <p>Für einen Bericht des Typs „[!UICONTROL Budgetierte Stunde]“:</p> 
      <ul> 
       <li>Erstellen Sie diesen Bericht, wenn Sie versuchen, die Menge unter „[!UICONTROL Budgetierte Stunden]“ zu verstehen, die Ihren Ressourcen oder Ihren Projekten im Ressourcenplaner zugewiesen ist.</li> 
-      <li> <p>Das [!UICONTROL Zuteilungsdatum] ist der erste Tag (ein Sonntag) der Woche, für die Sie die Stunden im [!UICONTROL Ressourcenplaner] budgetiert haben. </p> <p><b>TIPP</b></p> <p>Wenn sich eine Woche über zwei Monate erstreckt, werden zwei Zeilen im Bericht generiert: eine Zeile, die dem ersten Wochentag entspricht (Sonntag der ersten Woche, die im ersten Monat liegt), und die zweite Zeile zeigt den ersten Tag des zweiten Monats an. </p> <p>Wenn Sie beispielsweise 8 Stunden für einen Benutzer bzw. eine Benutzerin für die Woche vom 30. Juni (Sonntag) bis zum 6. Juli (Samstag) budgetieren, wird in den beiden Zeilen als [!UICONTROL Zuteilungsdatum] der 30. Juni und der 1. Juli angezeigt. </p> </p> <p>Informationen zur Budgetierung von Ressourcen im [!DNL Resource Planner] finden Sie im Artikel <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budgetieren von Ressourcen im [!DNL Resource Planner] mithilfe der Ansichten [!UICONTROL Projekt] und Rolle</a>.</p> <p>Informationen zum Erstellen eines Berichts vom Typ [!UICONTROL Budgetierte Stunde] finden Sie unter <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">Bericht: Budgetierte Stunde</a>. </p> </li> 
+      <li> <p>Das [!UICONTROL Zuteilungsdatum] ist der erste Tag (ein Sonntag) der Woche, für die Sie die Stunden im [!UICONTROL Ressourcenplaner] budgetiert haben. </p> <p><b>TIPP</b></p> <p>Wenn sich eine Woche über zwei Monate erstreckt, werden zwei Zeilen im Bericht generiert: eine Zeile, die dem ersten Wochentag entspricht (Sonntag der ersten Woche, die im ersten Monat liegt), und die zweite Zeile zeigt den ersten Tag des zweiten Monats an. </p> <p>Wenn Sie beispielsweise 8 Stunden für einen Benutzer bzw. eine Benutzerin für die Woche vom 30. Juni (Sonntag) bis zum 6. Juli (Samstag) budgetieren, wird in den beiden Zeilen als [!UICONTROL Zuteilungsdatum] der 30. Juni und der 1. Juli angezeigt. </p> </p> <p>Informationen zur Budgetierung von Ressourcen im [!DNL Resource Planner] finden Sie im Artikel <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budgetieren von Ressourcen im [!DNL Resource Planner] mithilfe der Ansichten [!UICONTROL Projekt] und [!UICONTROL Rolle</a>.</p> <p>Informationen zum Erstellen eines Berichts vom Typ [!UICONTROL Budgetierte Stunde] finden Sie unter <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">Bericht: Budgetierte Stunde</a>. </p> </li> 
      </ul> 
     </div> </td> 
   </tr> 
@@ -243,22 +242,19 @@ In der folgenden Tabelle finden Sie eine Liste häufig verwendeter Begriffe in A
    <td>[!UICONTROL Automatisch und bei Änderung]</td> 
    <td> <p>Eine Art der [!UICONTROL Projektaktualisierung]. Dadurch werden die erwarteten und geplanten Timelines des Projekts neu berechnet, wenn der Prozess der nächtlichen Neuberechnung ausgeführt wird und wenn am Projekt oder an den Aufgaben innerhalb des Projekts Aktualisierungen vorgenommen werden. </p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Auswählen des Aktualisierungstyps eines Projekts</a>.</p> </td> 
   </tr>
-
-<tr> 
+  <tr> 
    <td><p>Verfügbarkeit</p></td> 
    <td> <p>Dieser Begriff wird in Bezug auf „Benutzerverfügbarkeit“ oder „Ressourcenverfügbarkeit“ verwendet und veranschaulicht den Zeitraum, in dem die Ressource (Person oder Aufgabengebiet) für die Arbeit verfügbar ist. </p> 
    <p>Workfront berechnet die Benutzerverfügbarkeit anhand mehrerer Felder und abhängig von den Einstellungen in den Voreinstellungen des Ressourcen-Managements in Ihrem System. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md">Konfigurieren von Voreinstellungen für das Ressourcen-Management</a>. </p>
    <p>Weitere Informationen zur Ressourcenverfügbarkeit finden Sie unter <a href="../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md">Erste Schritte mit dem Ressourcen-Management</a></p>
    Alternativ wird auch „Kapazität“ verwendet, um auf die Verfügbarkeit von Ressourcen zu verweisen. 
    </td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Nur automatisch]</td> 
    <td> <p>Eine Art der [!UICONTROL Projektaktualisierung]. Dadurch werden die prognostizierten und geplanten Timelines bei der nächtlichen Neuberechnung neu berechnet.</p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Auswählen des Aktualisierungstyps eines Projekts</a>.</p> </td> 
-  </tr>
-
-<tr data-mc-conditions=""> 
+  </tr> 
+  <tr data-mc-conditions=""> 
    <td>[!UICONTROL BAU]</td> 
    <td>„Business as usual“ bezeichnet Arbeit, die dazu beiträgt, die alltäglichen primären Geschäftsziele zu erreichen.</td> 
   </tr> 
@@ -269,9 +265,8 @@ In der folgenden Tabelle finden Sie eine Liste häufig verwendeter Begriffe in A
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Baseline]</td> 
    <td>Eine Datenquelle für die Messung von Iterationen in einer Agile-Umgebung.</td> 
-  </tr>
-
-<tr data-mc-conditions=""> 
+  </tr> 
+  <tr data-mc-conditions=""> 
    <td>[!UICONTROL Abrechenbare Kosten]</td> 
    <td> <p>Eine Ausgabe, die für den Kunden bzw. die Kundin als fakturierbar gekennzeichnet ist. Dies kann entweder eine geplante Ausgabe oder eine tatsächliche Ausgabe sein.</p> <p>Die Felder „Geplante abrechenbare Kosten“ und „Tatsächliche abrechenbare Kosten“ können zu Ansichten und Berichten hinzugefügt werden. Sie werden nicht auf den Seiten mit den Projekt- oder Aufgabendetails angezeigt.</p>
    <p>Diese Felder finden Sie in den folgenden Berichtstypen:</p>
@@ -283,21 +278,17 @@ In der folgenden Tabelle finden Sie eine Liste häufig verwendeter Begriffe in A
    <p>Weitere Informationen zum Kennzeichnen einer Ausgabe als fakturierbar finden Sie unter <a href="/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md">Verwalten von Projektausgaben</a>.</p>
    </td> 
   </tr>
-
-<tr data-mc-conditions=""> 
+  <tr data-mc-conditions=""> 
    <td>[!UICONTROL Abrechnungseintrag]</td> 
    <td> <p>Erfasst den Umsatz, die Stunden oder die Ausgaben, die fakturiert werden können. Diese Informationen können zur Erstellung von Rechnungen in einem externen Buchhaltungssystem verwendet werden.</p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/project-finances/create-billing-records.md">Erstellen von Abrechnungseinträgen</a>. </p> 
    </td> 
   </tr>
-
-<tr> 
+ <tr> 
    <td>Status des Abrechnungseintrags</td> 
    <td> <p>In einem Abrechnungseintrag oder Stundenbericht gibt der Status eines Abrechnungseintrags an, ob der Abrechnungseintrag fakturiert wurde oder nicht. Sie können ein Projekt nicht löschen und die mit einem fakturierten Abrechnungseintrag verknüpfte Zeit nicht bearbeiten. Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/project-finances/create-billing-records.md" >Erstellen von Abrechnungseinträgen</a>.</p>  
    </td> 
   </tr>
-
-
-<tr> 
+  <tr> 
    <td>[!UICONTROL Branding]</td> 
    <td><p>Der Prozess der Anpassung von [!DNL Workfront], um der Benutzeroberfläche ein Erscheinungsbild zu verleihen, das Ihr Unternehmen widerspiegelt, indem Ihre Farben und Logos verwendet werden.</p><p><strong>HINWEIS</strong><br> Wenn Ihre Organisation in [!DNL Adobe Experience Cloud] integriert wurde, ist kein Branding verfügbar.</p></td> 
   </tr> 
@@ -311,26 +302,24 @@ In der folgenden Tabelle finden Sie eine Liste häufig verwendeter Begriffe in A
     <ul>
     <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode">If the project is  not added to the capacity planner, its value is <i>Not Included</i>.  </li>
-     -->
-     <!--
+    -->
+    <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode">If the project is  added to the Capacity Planner but is excluded from the budget calculation,  the value is <i>Included but not Calculated</i>.  </li>
-     -->
-     <!--
+    -->
+    <!--
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> If the project is  added to the Capacity Planner and included in the budget calculation, the value is <i>Included and Calculated</i>. </li>
-     --> 
+    --> 
     </ul> </td> 
-  </tr>
-
-<tr> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Aufschlüsselung]</td> 
    <td> <p>In Workfront-Planung können Sie mithilfe der Aufschlüsselungsfunktion verbundene Einträge in der Timeline-Ansicht eines Eintrags anzeigen. </p>
    <p>Wenn Sie Einträge nach ihren Verbindungen aufschlüsseln, können Sie die Timelines anderer verbundener Einträge anzeigen und verstehen, wie sich diese auf die Leistung und die Fristen Ihrer Einträge auswirken können. </p>
    <p>Verbundene Einträge werden verschachtelt unter ihrem jeweiligen Eintrag angezeigt. </p>
    <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/planning/views/manage-the-timeline-view.md">Verwalten der Timeline-Ansicht</a>. </p>
    </td> 
-    </tr>
-
-<tr> 
+    </tr> 
+  <tr> 
    <td>[!UICONTROL Budgetiertes Fertigstellungsdatum]</td> 
    <td> <p>Dieses Feld ist veraltet. Alle in diesem Feld angezeigten Informationen beziehen sich auf eine Funktion, die aus [!DNL Workfront] entfernt wurde. Dieses Feld kann nicht aktualisiert werden. </p>
    <p> Dieses Feld ist weiterhin in Berichten zum [!UICONTROL Projekt] und entsprechenden Listen sichtbar.</p>  </td> 
@@ -376,7 +365,7 @@ In der folgenden Tabelle finden Sie eine Liste häufig verwendeter Begriffe in A
        </tr> 
        <tr> 
         <td>[!UICONTROL Budgetierte Stunden]</td> 
-        <td> <p>Ansicht „Auslastungsbericht – [!UICONTROL Stunden]“</p> <p>Weitere Informationen zum Bericht zur [!UICONTROL Auslastung] finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md" class="MCXref xref">Überblick über den Bericht zur Ressourcenauslastung</a>.</p> </td> 
+        <td> <p>Ansicht „Auslastungsbericht – [!UICONTROL Stunden]“</p> <p>Weitere Informationen zum Bericht zur [!UICONTROL Auslastung] finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md" class="MCXref xref">Überblick über den Bericht zur [!UICONTROL Ressourcenauslastung</a>.</p> </td> 
        </tr> 
        <tr> 
         <td>[!UICONTROL Bud. Stunden]</td> 
@@ -1051,9 +1040,8 @@ In der folgenden Tabelle finden Sie eine Liste häufig verwendeter Begriffe in A
 
 <!--
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Task field used by the planner to set how the work required is allocated to the assignees across the duration.</p>
-<!--
-FTE
-The designated full time equivalency for users. A full-time user should have 100% FTE and part-time user should have a percentage that equals their working hours. 
+     FTE
+     The designated full time equivalency for users. A full-time user should have 100% FTE and part-time user should have a percentage that equals their working hours. 
 -->
 
 ## G–I
@@ -1637,7 +1625,7 @@ Stundeneinträge können einen der folgenden Status in Workfront aufweisen:
   </tr> 
   <tr> 
    <td>[!UICONTROL Prozent abgeschlossen]</td> 
-   <td> <p>Ein Projekt, eine Aufgabe oder ein Problem, das bzw. die anzeigt, welcher Prozentsatz der mit der Aufgabe, dem Projekt oder dem Problem verbundenen Arbeit abgeschlossen ist.</p> <p>Sie können dieses Feld für Probleme und Arbeitsaufgaben manuell aktualisieren. </p> <p>Für Projekte und übergeordnete Aufgaben ist dieses Feld eine Zusammenfassung aller laufenden Aufgaben. Sie können es nicht manuell aktualisieren. </p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/tasks/task-information/project-percent-complete.md" class="MCXref xref">Überblick über den Prozentwert des Projektabschlusses</a>.</p> </td> 
+   <td> <p>Ein Projekt, eine Aufgabe oder ein Problem, das bzw. die anzeigt, welcher Prozentsatz der mit der Aufgabe, dem Projekt oder dem Problem verbundenen Arbeit abgeschlossen ist.</p> <p>Sie können dieses Feld für Probleme und Arbeitsaufgaben manuell aktualisieren. </p> <p>Für Projekte und übergeordnete Aufgaben ist dieses Feld eine Zusammenfassung aller laufenden Aufgaben. Sie können es nicht manuell aktualisieren. </p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/tasks/task-information/project-percent-complete.md" class="MCXref xref">Überblick über den [!UICONTROL Prozentwert des Projektabschlusses</a>.</p> </td> 
   </tr> 
 <tr> 
    <td>[!UICONTROL Performance Index Method (PIM)]</td> 

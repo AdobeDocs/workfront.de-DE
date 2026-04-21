@@ -10,9 +10,9 @@ role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
+source-git-commit: f9c2c7192254a0d0c04056bc4c193eb35d4116b5
 workflow-type: tm+mt
-source-wordcount: '1864'
+source-wordcount: '1820'
 ht-degree: 5%
 
 ---
@@ -78,7 +78,7 @@ Das Format einer Geschäftsregelvalidierung lautet: „Wenn die definierte Bedin
 
 Die Syntax für die Eigenschaften und andere Funktionen in einer Geschäftsregel entspricht der Syntax für ein berechnetes Feld in einem benutzerdefinierten Formular. Weitere Informationen zur Syntax finden Sie unter [Hinzufügen berechneter Felder mit dem Formular-Designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-Weitere Informationen zu IF-Anweisungen finden Sie unter [&#x200B; „IF“-Anweisungen - &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) und [Bedingungsoperatoren in berechneten benutzerdefinierten Feldern](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+Weitere Informationen zu IF-Anweisungen finden Sie unter [ „IF“-Anweisungen - ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) und [Bedingungsoperatoren in berechneten benutzerdefinierten Feldern](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
 Informationen zu benutzerbasierten Platzhaltern finden Sie unter [Verwenden von benutzerbasierten Platzhaltern zum Verallgemeinern von Berichten](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
@@ -224,14 +224,9 @@ Sie können Platzhalter in Aktionen mit Geschäftsregeln verwenden, wie im Absch
    * Personalplan
    * Vorlage
    * Personalplanressource
-<!--
+   <!--
    * <span class="preview">Team</span>
--->
-
-1. Geben Sie **Name** für die Geschäftsregel im Dialogfeld „Regel-Builder“ ein.
-1. Wählen Sie im Feld **Ist aktiv** aus, ob die Regel beim Speichern aktiv sein soll.
-
-   Wenn Sie **Nein** auswählen, wird die Regel als inaktiv gespeichert und kann später aktiviert werden.
+   -->
 
 1. Wählen Sie einen **Trigger** für die Geschäftsregel aus. Die Optionen sind:
 
@@ -258,7 +253,7 @@ Sie können Platzhalter in Aktionen mit Geschäftsregeln verwenden, wie im Absch
 
    Dieses Beispiel ist eine Geschäftsregel für Projekte. Wenn der aktuelle Monat November ist, dürfen Benutzer keine neuen Projekte erstellen. Die Meldung erklärt dies.
 
-   Weitere Beispiele für Geschäftsregeln finden Sie unter [Szenarien für &#x200B;](#scenarios-for-business-rules) in diesem Artikel.
+   Weitere Beispiele für Geschäftsregeln finden Sie unter [Szenarien für ](#scenarios-for-business-rules) in diesem Artikel.
 
 1. (Optional) Verwenden Sie die Formel **Ausdrücke** und **Felder** im rechten Bedienfeld, um beim Erstellen der Regel zu helfen.
 
@@ -306,4 +301,3 @@ So aktivieren Sie eine Geschäftsregel:
 1. Wählen Sie die Geschäftsregel in der Regelliste aus und klicken Sie auf das Symbol Bearbeiten .
 1. Wählen Sie **Ja** für **Ist Aktiv** im Dialogfeld „Geschäftsregel“ aus.
 1. Klicken Sie auf **Speichern**.
-

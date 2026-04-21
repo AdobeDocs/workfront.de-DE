@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 1ef6ead705231a41cbf62b8a8b35f480da004970
+source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 8%
@@ -51,7 +51,7 @@ Vorhandene Filter für klassische Berichte, die `isCurrentVersion` oder `isDocum
 >Produktions-Schnellveröffentlichung: Donnerstag, 15. April 2026
 >Produktion für alle: Freitag, 16. April 2026
 
-Workfront enthält jetzt einen neuen Bereitstellungstyp Link für geplante Berichte. Anstatt eine Datei zu generieren und anzuhängen, sendet diese Option eine E-Mail mit einem direkten Link zum Bericht in Workfront, damit die Empfängerinnen und Empfänger {{$include }} aktuellen Daten in der Anwendung anzeigen können.
+Workfront enthält jetzt einen neuen Bereitstellungstyp Link für geplante Berichte. Anstatt eine Datei zu generieren und anzuhängen, sendet diese Option eine E-Mail mit einem direkten Link zum Bericht in Workfront, damit die Empfängerinnen und Empfänger `{{$include }}` aktuellen Daten in der Anwendung anzeigen können.
 
 Die Option Link ist jetzt der Standardversandtyp für neu erstellte Bereitstellungsregeln für terminierte Berichte, während bestehende dateibasierte Formate (HTML, PDF, Excel und TSV) weiterhin verfügbar sind.
 
