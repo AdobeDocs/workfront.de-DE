@@ -7,9 +7,9 @@ role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ff87e425389f30dfaa1a178ea2b548d1c41179bb
+source-git-commit: 10bdce8dd7656d4313296ce830abe9c7baca1acb
 workflow-type: tm+mt
-source-wordcount: '2184'
+source-wordcount: '2224'
 ht-degree: 3%
 
 ---
@@ -216,11 +216,15 @@ Sie können Beispiel-Planning-Arbeitsbereiche und deren Objekte überprüfen und
 
 1. (Bedingt und erforderlich) Als Workfront-Administrator unterzeichnen Sie die Vereinbarung über die kostenlose Testversion.
 
-   Weitere Informationen finden Sie im Abschnitt [Registrieren bei der kostenlosen Testversion von Adobe Workfront &#x200B;](#enroll-in-the-adobe-workfront-planning-free-trial).
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-shell.png) und dann auf **Planung**. Neben dem Symbol wird die **&quot;**&quot; angezeigt.
+   Weitere Informationen finden Sie im Abschnitt [Registrieren bei der kostenlosen Testversion von Adobe Workfront ](#enroll-in-the-adobe-workfront-planning-free-trial).
+1. (Bedingt) Nachdem der Testvertrag von einem Workfront-Administrator unterzeichnet wurde, klicken Sie auf das **Hauptmenü**-Symbol ![](assets/main-menu-shell.png) und dann auf eine der folgenden Optionen, um auf den Bereich **Planung** zuzugreifen:
+
+   * **Planung**. Neben dem Symbol wird die **&quot;**&quot; angezeigt.
+   * **Projekte**, **Anfragen**, **Kalender**, dann **Kampagnenkalender erkunden**
+   * **Portfolios**, **Programme** oder aus einem Portfolio oder Programm    Klicken Sie dann auf **Benutzerdefinierte Hierarchien erkunden**.
 
    Der Bereich **Planung** wird auf der Registerkarte **Beispielarbeitsbereiche** geöffnet.
-1. Überprüfen Sie die folgenden verfügbaren Arbeitsbereiche auf der Registerkarte **Beispiel-**&quot;:
+1. Überprüfen Sie die folgenden Arbeitsbereiche auf der Registerkarte **Beispiel-**&quot;:
 
    * **Globale Klassifizierungen und Taxonomien**: Enthält Objekttypen für die Beispielplanung, die die Grundlage für ein Marketing-Aufzeichnungssystem bilden.
 

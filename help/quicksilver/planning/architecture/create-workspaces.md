@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1141'
 ht-degree: 2%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 2%
 
 # Erstellen von Arbeitsbereichen
 
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -49,13 +51,13 @@ Allgemeine Informationen zu Arbeitsbereichen finden Sie unter [Arbeitsbereiche -
    <td> 
 <p>Beliebiges Workfront- oder Workflow-Paket</p> 
 <p>Beliebiges Workfront-Planungspaket</p>
-<p>Ein Workfront Planning Prime- oder höheres <span class="preview"> (um mehrere Arbeitsbereiche gleichzeitig zu erstellen</span></p>
+<p>Ein Workfront Planning Prime- oder höher-Paket zum Erstellen mehrerer Arbeitsbereiche gleichzeitig</p>
 <p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
    <td><p>Standard</p>
-   <p><span class="preview">Systemadmin. zur gleichzeitigen Erstellung mehrerer Arbeitsbereiche mithilfe des Best-Practice-Vorlagenpakets</p>
+   <p>Systemadmin. zur gleichzeitigen Erstellung mehrerer Arbeitsbereiche mithilfe des Best-Practice-Vorlagenpakets</p>
    </td> 
   </tr> 
   <tr> 
@@ -144,8 +146,6 @@ Sie können Arbeitsbereiche wie folgt erstellen:
 
   Weitere Informationen finden Sie [Erste Schritte mit der Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
 
-<div class="preview">
-
 * Erstellen mehrerer Arbeitsbereiche mithilfe eines Best-Practice-Vorlagenpakets für mehrere Arbeitsbereiche
 
   Weitere Informationen finden Sie im Abschnitt [Erstellen mehrerer Arbeitsbereiche mithilfe eines Best-Practice-Vorlagenpakets für mehrere Arbeitsbereiche](#create-multiple-workspaces-using-a-best-practice-multi-workspace-template-bundle) in diesem Artikel
@@ -153,9 +153,6 @@ Sie können Arbeitsbereiche wie folgt erstellen:
   >[!TIP]
   >
   >Sie können mehrere Arbeitsbereiche gleichzeitig erstellen, wenn Sie das Best-Practice-Vorlagenpaket verwenden.
-
-
-</div>
 
 ### Arbeitsbereich von Grund auf neu oder aus einer Vorlage erstellen
 
@@ -226,8 +223,6 @@ Sie können Arbeitsbereiche wie folgt erstellen:
    >
    >Informationen zu IMS finden Sie unter [Einheitliches Adobe-Erlebnis für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-<div class="preview">
-
 ### Erstellen mehrerer Arbeitsbereiche mithilfe eines Best-Practice-Vorlagenpakets für mehrere Arbeitsbereiche
 
 >[!IMPORTANT]
@@ -274,11 +269,9 @@ Die im Bundle enthaltenen Vorlagen enthalten Arbeitsbereiche, Datensatztypen, Da
 
 1. Beginnen Sie mit der Bearbeitung der von Ihnen erstellten Arbeitsbereiche und fügen Sie Datensatztypen, Datensätze, Ansichten und Felder hinzu, die für Ihre Organisation relevant sind.
 
-   Weitere Informationen zu Best Practices für die Implementierung von Workfront finden Sie in den Artikeln im Abschnitt [Best Practices für die Adobe Workfront-Planung: &#x200B;](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
+   Weitere Informationen zu Best Practices für die Implementierung von Workfront finden Sie in den Artikeln im Abschnitt [Best Practices für die Adobe Workfront-Planung: ](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
 
    Informationen zum Bearbeiten von Arbeitsbereichen finden Sie unter [Bearbeiten von Arbeitsbereichen](/help/quicksilver/planning/architecture/edit-workspaces.md).
-
-</div>
 
 
 

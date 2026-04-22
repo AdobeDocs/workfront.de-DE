@@ -8,18 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: de066d44-d214-47cc-8483-37c2623585ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1040'
 ht-degree: 0%
 
 ---
 
 # Übersicht über Hierarchie und Breadcrumb
 
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Als Workspace-Manager können Sie in Adobe Workfront Planning flexible, aber strukturierte Hierarchien zwischen verbundenen Datensatztypen und anderen Objekttypen definieren.
 
@@ -80,13 +82,13 @@ Die Verwendung von Hierarchien in Ihren Arbeitsbereichen bietet folgende Vorteil
 
 Wenn Sie Hierarchien zwischen Datensatztypen erstellen, generieren diese Breadcrumbs für Datensätze, die zu diesen Datensatztypen gehören.
 
-Wenn Sie beispielsweise eine Hierarchie erstellen und Kampagnen mit Taktiken verknüpfen, können Sie bei Aktivitäten beim Navigieren zu einem Datensatz eines der in der Hierarchie verbundenen Typen anzeigen, wo in der Hierarchie der Datensatz platziert wird. Wenn der Datensatz in mehreren Arbeitsbereichen angezeigt wird, können Sie die Pfade in jedem Arbeitsbereich anzeigen <span class="preview">beginnend mit dem Arbeitsbereichsnamen im Breadcrumb)</span>
+Wenn Sie beispielsweise eine Hierarchie erstellen und Kampagnen mit Taktiken verknüpfen, können Sie bei Aktivitäten beim Navigieren zu einem Datensatz eines der in der Hierarchie verbundenen Typen anzeigen, wo in der Hierarchie der Datensatz platziert wird. Wenn der Datensatz in mehreren Arbeitsbereichen angezeigt wird, können Sie die Pfade in jedem Arbeitsbereich anzeigen, beginnend mit dem Arbeitsbereichsnamen im Breadcrumb.
 
 ![Breadcrumb](assets/breadcrumbs-on-activities-planning-only.png)
 
 Beachten Sie Folgendes:
 
-* Breadcrumbs werden im Vorschaubereich eines Datensatzes sowie auf der Seite mit Datensatzdetails angezeigt.
+* Breadcrumbs werden im Vorschaubereich eines Datensatzes sowie auf der Detailseite des Datensatzes angezeigt.
 * Wenn ein Datensatztyp Teil mehrerer Hierarchien ist, können Sie über den Breadcrumb des Datensatzes auf der Datensatzseite zwischen Hierarchien wechseln.
 * Wenn der Datensatztyp in einer Hierarchie über mehrere Datensätze verfügt, können Sie Datensätze aus dem Breadcrumb auswählen.
 * Breadcrumbs funktionieren in Workfront und Planning.

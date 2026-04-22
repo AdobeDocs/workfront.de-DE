@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1421'
 ht-degree: 2%
 
 ---
@@ -28,9 +28,11 @@ this article is linked to the UI in the Advanced settings/ Cross-workspace setti
 
 {{planning-important-intro}}
 
-<span class="preview">Die auf dieser Seite hervorgehobenen Informationen beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 In Adobe Workfront Planning können Sie Datensatztypen so konfigurieren, dass sie in mehreren Arbeitsbereichen funktionieren.
 
@@ -83,22 +85,20 @@ ODER
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
    <td>
-   <p>In der Produktionsumgebung: </p>
-   <p>So erstellen Sie einen globalen Datensatz:</p>
-   <ul><li>Standard oder höher</li></ul>
-   <p>So machen Sie einen Datensatz verbindbar:</p>
-   <ul><li>Systemadmin</li></ul>
+   <!--
+   <p>In the Production environment: </p>
+   <p>To make a record global:</p>
+   <ul><li>Standard or higher</li></ul>
+   <p>To make a record connectable:</p>
+   <ul><li>System Administrator</li></ul>
+   -->
 
-<div class="preview">
-
-<p>In der Vorschau-Umgebung:</p>
-   <p>So erstellen Sie einen globalen Datensatz:</p>
+<p>So erstellen Sie einen globalen Datensatz:</p>
    <ul><li>Standard oder höher</li></ul>
    <p>So machen Sie einen Datensatz verbindbar:</p>
 
 <ul><li>Standard, um aus bestimmten Arbeitsbereichen eine Verbindung zu einem Datensatz herzustellen</li>
    <li>Systemadministrator, um einen Datensatz aus allen Arbeitsbereichen verbindbar zu machen</li></ul>
-   </div>
 
 
 </td> 
@@ -214,7 +214,7 @@ So konfigurieren Sie einen Datensatztyp als global:
    >
    >Sie müssen mindestens eine Entität (Benutzer, Team, Gruppe, Rolle oder Unternehmen) festlegen, um diese Einstellung aktivieren zu können.
 
-1. (Bedingt) Klicken Sie **&#x200B;**&#x200B;Feld **Datensatztyp bearbeiten** auf „Speichern“ oder klicken Sie auf den Rückwärtspfeil links neben dem Abschnitt **Einstellungen** in der Kopfzeile der Seite, um Ihre Änderungen zu speichern.
+1. (Bedingt) Klicken Sie **** Feld **Datensatztyp bearbeiten** auf „Speichern“ oder klicken Sie auf den Rückwärtspfeil links neben dem Abschnitt **Einstellungen** in der Kopfzeile der Seite, um Ihre Änderungen zu speichern.
 
    Folgendes geschieht:
 
@@ -224,7 +224,7 @@ So konfigurieren Sie einen Datensatztyp als global:
    >
    >Sie können das Erscheinungsbild und die Einstellungen des Datensatztyps sowie seine ursprünglichen Felder nur über den ursprünglichen Arbeitsbereich bearbeiten.
 
-   * Die Karte „Datensatztyp“ zeigt das Symbol **globaler Datensatztyp** ![Symbol für globalen Datensatztyp in primärem &#x200B;](assets/global-icon.png) an, um anzugeben, dass der Datensatztyp anderen Arbeitsbereichen hinzugefügt werden kann.
+   * Die Karte „Datensatztyp“ zeigt das Symbol **globaler Datensatztyp** ![Symbol für globalen Datensatztyp in primärem ](assets/global-icon.png) an, um anzugeben, dass der Datensatztyp anderen Arbeitsbereichen hinzugefügt werden kann.
    * Zur Tabellenansicht des Datensatztyps und **Details seiner Datensätze wird ein systemgeneriertes Workspace-Feld vom Typ** hinzugefügt.
 
      Das Feld Workspace zeigt den Arbeitsbereich an, aus dem jeder Datensatz erstellt wird.
@@ -240,7 +240,7 @@ So konfigurieren Sie einen Datensatztyp als global:
 
    Weitere Informationen finden Sie unter [Hinzufügen vorhandener Datensatztypen aus einem anderen Arbeitsbereich](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
-   Der Datensatztyp, der von einem globalen Datensatztyp im sekundären Arbeitsbereich hinzugefügt wurde, zeigt <span class="preview">ein ähnliches Symbol **globaler Datensatztyp** (Symbol ![Globaler Datensatztyp“ im sekundären Arbeitsbereich](assets/global-icon-secondary-workspace.png) mit einem Pfeil, der angibt, dass der Datensatztyp aus einem anderen Arbeitsbereich importiert wurde. Wenn Sie den Mauszeiger über das globale Symbol des sekundären Arbeitsbereichs bewegen, können Sie sich mit dem Namen des ursprünglichen Arbeitsbereichs vertraut machen.</span>
+   Der Datensatztyp, der von einem globalen Datensatztyp im sekundären Arbeitsbereich hinzugefügt wurde, zeigt das ähnliche Symbol **globaler Datensatztyp** ![Symbol für globalen Datensatztyp im sekundären Arbeitsbereich](assets/global-icon-secondary-workspace.png) mit einem Pfeil an, der angibt, dass der Datensatztyp aus einem anderen Arbeitsbereich importiert wurde. Wenn Sie den Mauszeiger über das globale Symbol des sekundären Arbeitsbereichs bewegen, können Sie sich mit dem Namen des ursprünglichen Arbeitsbereichs vertraut machen.
 1. (Optional) Wechseln Sie zurück zum ursprünglichen Arbeitsbereich, in dem Sie den globalen Datensatztyp erstellt haben, und bearbeiten Sie den Datensatztyp, indem Sie die Schritte 1 bis 4 oben <!--ensure this stays accurate-->
 1. (Optional) Überprüfen Sie die Liste der Arbeitsbereiche, denen der globale Datensatz hinzugefügt wurde, im Abschnitt **Arbeitsbereiche, in denen dieser Datensatztyp verwendet wird** . Der Workspace-Inhaber wird auch neben dem Workspace-Namen aufgeführt.
 
@@ -276,12 +276,12 @@ So konfigurieren Sie einen Datensatztyp als global:
 
    Wenn diese Option aktiviert ist, ist der Datensatztyp verfügbar und kann von anderen Arbeitsbereichen aus mit verbunden werden.
 
-1. <span class="preview">(Bedingt) Je nachdem, welche Lizenz Sie besitzen, </span> Sie aus welchen Arbeitsbereichen auf den Datensatztyp zugegriffen werden kann. Wählen Sie aus den folgenden Optionen:
+1. (Bedingt) Wählen Sie je nach vorhandener Lizenz aus, aus welchen Arbeitsbereichen auf den Datensatztyp zugegriffen werden kann. Wählen Sie aus den folgenden Optionen:
 
-   * **Alle Arbeitsbereiche**: Benutzer können von allen Arbeitsbereichen, für die sie über Verwaltungsberechtigungen verfügen, aus eine Verbindung zu diesem Datensatztyp herstellen. <span class="preview">Diese Option ist für Workspace-Manager mit einer Standardlizenz abgeblendet. Nur Systemadministratoren können die Verbindung von Datensatztypen aus allen Arbeitsbereichen aktivieren.</span>
+   * **Alle Arbeitsbereiche**: Benutzer können von allen Arbeitsbereichen, für die sie über Verwaltungsberechtigungen verfügen, aus eine Verbindung zu diesem Datensatztyp herstellen. Diese Option ist für Workspace-Manager mit einer Standardlizenz abgeblendet. Nur Systemadministratoren können die Verbindung von Datensatztypen aus allen Arbeitsbereichen aktivieren.
    * **Spezifische Arbeitsbereiche**: Fügen Sie aus dem Dropdown-Menü die Namen der Arbeitsbereiche hinzu, über die sich Workspace-Manager mit diesem Datensatztyp verbinden können.
 
-1. (Bedingt) Klicken Sie **&#x200B;**&#x200B;Feld **Datensatztyp bearbeiten** auf „Speichern“ oder klicken Sie links neben **Einstellungen** in der Seitenkopfzeile auf den Rückwärtspfeil, um Ihre Änderungen zu speichern.
+1. (Bedingt) Klicken Sie **** Feld **Datensatztyp bearbeiten** auf „Speichern“ oder klicken Sie links neben **Einstellungen** in der Seitenkopfzeile auf den Rückwärtspfeil, um Ihre Änderungen zu speichern.
 
    Folgendes geschieht:
 

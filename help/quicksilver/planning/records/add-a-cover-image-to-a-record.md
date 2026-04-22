@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '676'
 ht-degree: 5%
 
 ---
@@ -19,9 +19,11 @@ ht-degree: 5%
 # Hinzufügen eines Titelbilds zu einem Eintrag
 
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -157,10 +159,10 @@ Sie können einen Datensatz personalisieren, indem Sie oben auf der Datensatzvor
 
    >[!TIP]
    >
-   ><span class="preview">Sie können die folgende Tastaturkombination verwenden, um das globale Suchfeld von einer beliebigen Workfront-Planungsseite aus zu öffnen und nach Arbeitsbereichen zu suchen:</span>
+   >Sie können die folgende Tastaturkombination verwenden, um das globale Suchfeld von einer beliebigen Workfront-Planungsseite aus zu öffnen und nach Arbeitsbereichen zu suchen:
    >
-   >* <span class="preview">STRG+K für Windows</span>
-   >* <span class="preview">⌘+K für Mac</span>
+   >* STRG+K für Windows
+   >* ⌘+K für Mac
 
    Der Arbeitsbereich wird geöffnet und die Datensatztypen werden angezeigt.
 
@@ -172,14 +174,14 @@ Sie können einen Datensatz personalisieren, indem Sie oben auf der Datensatzvor
 
    ODER
 
-   Klicken Sie in der Tabellenansicht auf das Symbol **Details öffnen** (![) &#x200B;](assets/open-details-icon-in-table-name-field.png) der ersten Spalte.
+   Klicken Sie in der Tabellenansicht auf das Symbol **Details öffnen** (![) ](assets/open-details-icon-in-table-name-field.png) der ersten Spalte.
 
    Die Vorschau des Datensatzes wird in der Ansicht geöffnet.
 
    ![Vorschaufeld Details](assets/details-box.png)
 
 
-1. (Optional) Klicken Sie auf **Symbol „In neuer Registerkarte** öffnen![&#x200B; Symbol „In neuer Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen.
+1. (Optional) Klicken Sie auf **Symbol „In neuer Registerkarte** öffnen![ Symbol „In neuer Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen.
 
    Die Datensatzseite wird geöffnet.
 
@@ -189,14 +191,14 @@ Sie können einen Datensatz personalisieren, indem Sie oben auf der Datensatzvor
 
    ODER
 
-   Bewegen Sie den Mauszeiger über ein vorhandenes Titelbild und klicken Sie auf das Menü **Mehr** ![Mehr &#x200B;](assets/more-menu.png) und dann auf **Hochladen**. <!--check the casing here; I logged a bug for this-->
+   Bewegen Sie den Mauszeiger über ein vorhandenes Titelbild und klicken Sie auf das Menü **Mehr** ![Mehr ](assets/more-menu.png) und dann auf **Hochladen**. <!--check the casing here; I logged a bug for this-->
 Das **„Datensatzabdeckung** wird auf der Registerkarte **Hochladen** geöffnet.
 
    ![Plattenhülle zum Hochladen](assets/record-cover-box-for-upload.png)
 
 1. Klicken Sie **Bilder durchsuchen** und suchen Sie ein Bild auf Ihrem Computer, um es auszuwählen und hinzuzufügen.
 
-1. (Optional) Um das Bild vor dem Speichern zu entfernen, klicken Sie auf das Symbol **Neues Bild hochladen** ![&#x200B; (Symbol Neues Bild hochladen](assets/upload-new-image-icon.png) und laden Sie ein neues Bild hoch.
+1. (Optional) Um das Bild vor dem Speichern zu entfernen, klicken Sie auf das Symbol **Neues Bild hochladen** ![ (Symbol Neues Bild hochladen](assets/upload-new-image-icon.png) und laden Sie ein neues Bild hoch.
 
 1. (Optional) Klicken Sie auf **Galerie** und klicken Sie dann auf ein Bild in der Galerie. Die Bildergalerie kann nicht geändert werden.
 

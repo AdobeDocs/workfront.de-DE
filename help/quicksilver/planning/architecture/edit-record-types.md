@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '604'
 ht-degree: 4%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 4%
 
 # Bearbeiten von Eintragstypen
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -156,7 +158,7 @@ oder
 
 1. Im Feld **Datensatztyp bearbeiten** wird standardmäßig die Registerkarte **Erscheinungsbild** geöffnet.
 
-   ![Registerkarte „Erscheinungsbild des Felds „Datensatztyp bearbeiten“ &#x200B;](assets/edit-record-type-box-appearance-tab.png)
+   ![Registerkarte „Erscheinungsbild des Felds „Datensatztyp bearbeiten“ ](assets/edit-record-type-box-appearance-tab.png)
 
    Aktualisieren Sie die folgenden Informationen auf der Registerkarte **Erscheinungsbild**:
 
@@ -174,7 +176,7 @@ oder
 
 1. Klicken Sie auf **Speichern**.
 
-   Wenn Sie ausgewählt haben, diesen Datensatz von anderen Arbeitsbereichen zu verbinden, wird das Symbol **Verbindbarer Datensatz** (Symbol ![&#x200B; Verbindung von anderen &#x200B;](assets/connect-from-other-workspaces-icon.png)) auf der Datensatzkarte angezeigt.
+   Wenn Sie ausgewählt haben, diesen Datensatz von anderen Arbeitsbereichen zu verbinden, wird das Symbol **Verbindbarer Datensatz** (Symbol ![ Verbindung von anderen ](assets/connect-from-other-workspaces-icon.png)) auf der Datensatzkarte angezeigt.
 
    Wenn Sie ausgewählt haben, dass dieser Datensatz anderen Arbeitsbereichen hinzugefügt werden kann, wird **Symbol „Globaler**&quot; ![Symbol „Globaler Datensatztyp](assets/global-icon.png) auf der Datensatzkarte angezeigt.
 
@@ -186,9 +188,9 @@ oder
 
    >[!TIP]
    >
-   ><span class="preview">Sie können die folgende Tastenkombination verwenden, um das globale Suchfeld von jeder Workfront-Planungsseite aus zu öffnen und nach Datensatztypen zu suchen:</span>
+   >Sie können die folgende Tastaturkombination verwenden, um das globale Suchfeld von jeder Workfront-Planungs -Seite aus zu öffnen und nach Datensatztypen zu suchen:
    >
-   >* <span class="preview">STRG+K für Windows</span>
-   >* <span class="preview">⌘+K für Mac</span>
+   >* STRG+K für Windows
+   >* ⌘+K für Mac
    >
    >![Globales Suchfeld](assets/global-search-box.png)

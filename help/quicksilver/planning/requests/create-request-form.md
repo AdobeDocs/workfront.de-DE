@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '3603'
-ht-degree: 1%
+source-wordcount: '3185'
+ht-degree: 2%
 
 ---
 
@@ -21,10 +21,11 @@ ht-degree: 1%
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -83,7 +84,7 @@ Informationen zum Senden von Workfront-Planungsanfragen finden Sie unter [Senden
 
       * Erstellt von, Zuletzt geändert von, Genehmigt von
       * Erstellungsdatum, Datum der letzten Änderung, Genehmigungsdatum
-      * <span class="preview">Datensatz-ID</span>
+      * Eintrags-ID
       * Suchfelder der Workfront-Objekte
       * Suchfelder für verknüpfte Datensätze in Workfront
 
@@ -172,12 +173,7 @@ Sie können ein Anfrageformular aus dem Datensatztyp erstellen, der mit dem Form
 Formulardetails sind in Registerkarten unterteilt.
 
 * Auf **Registerkarte** Formular) können Sie dem Formular Felder und Inhaltselemente hinzufügen
-* Auf **Registerkarte** Konfiguration“ können Sie einen Genehmigungsprozess für das Formular festlegen und Optionen für das Abschließen von Anfragen festlegen.
-
-  >[!NOTE]
-  >
-  ><span class="preview">In der Vorschau-Umgebung hat die Registerkarte Einstellungen die Registerkarte Konfiguration ersetzt.</span>
-  <!--* <span class="preview">The **Automations** tab allows you to automate what will occur based on features of the request made with the form.</span>-->
+* Auf **Registerkarte** Einstellungen“ können Sie einen Genehmigungsprozess für das Formular festlegen und Optionen für das Abschließen von Anfragen festlegen.
 
 #### Einrichten von Formulardetails
 
@@ -203,7 +199,7 @@ Formulardetails sind in Registerkarten unterteilt.
      >* Das **Betreff** Feld erfordert einen Wert, wenn er im Anfrageformular sichtbar ist. Sie können jedoch bei Bedarf das Feld **Betreff** entfernen. Anfordernde sehen es nicht im Formular, wenn sie die Anfrage senden.
      >* Wenn das **Betreff**-Feld in einem Anfrageformular fehlt, aber ein Namensfeld für den Namen des zukünftigen Datensatzes vorhanden ist, wird dem Namen der Anfrage automatisch derselbe Name zugewiesen wie dem erstellten Datensatz.
      >* Wenn sowohl das **Betreff** als auch das **Name**-Feld im Anfrageformular fehlen, wird die Anfrage nach dem folgenden Muster benannt: `< Request form name > < Entry date of the request >`; der Datensatz heißt **Ohne Titel**.
-     >* <span class="preview">Um die Informationen des Felds **Betreff** in Workfront Planning anzuzeigen, können Sie das Verbindungsfeld **Ursprüngliche Anfrage** zu dem Datensatztyp hinzufügen, der mit dem Anfrageformular verknüpft ist. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).</span>
+     >* Um die Informationen des **Betreffs** in Workfront Planning anzuzeigen, können Sie das Verbindungsfeld **Original-Anfrage** zu dem Datensatztyp hinzufügen, der mit dem Anfrageformular verknüpft ist. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
    * Alle mit dem Datensatztyp verknüpften Felder.
 
@@ -239,49 +235,48 @@ Formulardetails sind in Registerkarten unterteilt.
 1. (Optional) Klicken Sie auf **Vorschau**, um anzuzeigen, wie das Formular für andere Benutzer angezeigt wird, wenn diese es zum Senden eines neuen Datensatzes verwenden werden.
 1. Fahren Sie mit einer der folgenden Aktionen fort:
 
-   * [Einrichten von Konfigurationsdetails](#set-up-configuration-details), wenn Sie weitere Details für das Formular in der Produktionsumgebung konfigurieren möchten
-   * <span class="preview">[Einstellungen konfigurieren](#configure-settings) wenn Sie weitere Details für das Formular in der Produktionsumgebung konfigurieren möchten</span>
+   <!--
+   * [Set up Configuration details](#set-up-configuration-details) if you want to configure more details for the form in the Production environment
+   -->
+   * [Einstellungen konfigurieren](#configure-settings), wenn Sie weitere Details für das Formular in der Produktionsumgebung konfigurieren möchten
    * [Erstellen von Anforderungsformularen abschließen](#complete-request-form-creation) wenn Sie keine weiteren Einstellungen konfigurieren möchten.
 
-#### Einrichten von Konfigurationsdetails
+<!--
+#### Set up Configuration details
 
 >[!NOTE]
 >
->Diese Registerkarte ist nur in der Produktionsumgebung verfügbar.
+>This tab is available only in the Production environment.
 
-Auf der Registerkarte Konfiguration können Sie den Validierungsprozess festlegen und konfigurieren, wann eine in diesem Formular erstellte Anfrage als abgeschlossen markiert wird.
+On the Configuration tab, you can set the approval process and configure when a request created from this form will be marked as Completed.
 
-1. Erstellen oder bearbeiten Sie ein Anfrageformular, wie im Abschnitt [Erstellen eines Anfrageformulars](#begin-creating-a-request-form) beschrieben.
+1. Begin creating or editing a request form, as described in the section [Begin creating a request form](#begin-creating-a-request-form).
+   
+    The request form for the selected record type opens in the Form tab. 
+1. (Optional) Set up any form details, as described in [Set up Form details](#set-up-form-details).    
 
-   Das Anfrageformular für den ausgewählten Datensatztyp wird auf der Registerkarte Formular geöffnet.
-1. (Optional) Richten Sie alle Formulardetails ein, wie in [Einrichten von Formulardetails](#set-up-form-details) beschrieben.
+1. (Optional) If you want to add approvers, click the **Configuration** tab, then add at least one user or team to the **Approvers** field to approve new requests for this record form. 
 
-1. (Optional) Wenn Sie genehmigende Personen hinzufügen möchten, klicken Sie auf die Registerkarte **Konfiguration** und fügen Sie dann mindestens einen Benutzer oder ein Team zum Feld **genehmigende Personen** hinzu, um neue Anfragen für dieses Datensatzformular zu genehmigen.
+   ![Configuration tab](assets/configuration-tab.png)
 
-   ![Registerkarte „Konfiguration“](assets/configuration-tab.png)
+   (******)-below bullet list is duplicated in the Add approval to a request form article(****)
 
-   <!--below bullet list is duplicated in the Add approval to a request form article-->
+   * You can add one or several approvers to a request form.
+   * If at least one approver rejects the request, the request is rejected and the record is not created. The request remains in the Requests area of Workfront.
+   * If you add more than one approver, and the Only one decision is required option is not enabled, all approvers must make a decision before a request is either approved or rejected.
+   * If a team is set as an approver, only one decision is required from the team.
 
-   * Sie können einem Anfrageformular eine oder mehrere genehmigende Personen hinzufügen.
-   * Wenn mindestens eine genehmigende Person die Anforderung ablehnt, wird die Anforderung abgelehnt und der Datensatz nicht erstellt. Die Anfrage verbleibt im Bereich Anfragen von Workfront.
-   * Wenn Sie mehr als eine genehmigende Person hinzufügen und die Option Nur eine Entscheidung ist erforderlich nicht aktiviert ist, müssen alle genehmigenden Personen eine Entscheidung treffen, bevor eine Anfrage entweder genehmigt oder abgelehnt wird.
-   * Wenn ein Team als genehmigende Person festgelegt ist, ist nur eine Entscheidung vom Team erforderlich.
+   For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
 
-   Weitere Informationen zum Hinzufügen von Genehmigungen zu Anfrageformularen finden Sie unter [Hinzufügen einer Genehmigung zu einem Anfrageformular](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+1. (Conditional) If you want the record to be created after any one of the approvers has approved it, check the **Only one decision is required** checkbox.
 
-1. (Bedingt) Wenn der Datensatz erstellt werden soll, nachdem eine der genehmigenden Personen ihn genehmigt hat, aktivieren Sie das Kontrollkästchen **Nur eine Entscheidung ist erforderlich**.
+1. Select whether you want a request created from this form to be marked complete when the requested object is created, or when the requested object is completed.
+1. (Conditional) If you have selected for the request to be marked complete when the requested object is completed, select the field and value that indicate when the object is complete. For example, you could select the field Status and the value Complete to complete the request when the created object's status is set to Complete.
+1. Continue to [Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to [Complete request form creation](#complete-request-form-creation).
 
-1. Wählen Sie aus, ob eine aus diesem Formular erstellte Anfrage beim Erstellen des angeforderten Objekts als abgeschlossen markiert oder ob das angeforderte Objekt fertig gestellt werden soll.
-1. (Bedingt) Wenn Sie ausgewählt haben, dass die Anfrage als abgeschlossen markiert werden soll, wenn das angeforderte Objekt abgeschlossen ist, wählen Sie das Feld und den Wert aus, die angeben, wann das Objekt abgeschlossen ist. Sie können beispielsweise das Feld Status und den Wert Abgeschlossen auswählen, um die Anfrage abzuschließen, wenn der Status des erstellten Objekts auf Abgeschlossen gesetzt ist.
-1. Fahren Sie <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[Erstellen von Anfrageformularen abschließen](#complete-request-form-creation) fort.
-
-<div class="preview">
+-->
 
 ### Einstellungen konfigurieren
-
->[!NOTE]
->
->Diese Registerkarte ist nur in der Vorschau -Umgebung verfügbar.
 
 Auf der Registerkarte Einstellungen können Sie Validierungsregeln festlegen und konfigurieren, wann eine in diesem Formular erstellte Anfrage als abgeschlossen markiert wird.
 
@@ -309,7 +304,7 @@ So legen Sie Genehmigungsregeln für ein Anfrageformular fest:
    Das Anfrageformular für den ausgewählten Datensatztyp wird auf der Registerkarte Formular geöffnet.
 1. (Optional) Richten Sie alle Formulardetails ein, wie in [Einrichten von Formulardetails](#set-up-form-details) beschrieben.
 
-1. Um mit der Konfiguration von Genehmigungsregeln zu beginnen, klicken Sie ![&#x200B; der linken Navigationsleiste auf Genehmigungen &#x200B;](assets/approvals-icon-on-form.png)Genehmigungssymbol).
+1. Um mit der Konfiguration von Genehmigungsregeln zu beginnen, klicken Sie ![ der linken Navigationsleiste auf Genehmigungen ](assets/approvals-icon-on-form.png)Genehmigungssymbol).
 
 1. (Optional) Wenn Sie einen Standardgenehmigungsprozess festlegen möchten, fügen Sie mindestens einen Benutzer oder ein Team zum Feld **Genehmigende Person** im Bereich Standardgenehmigungsregel hinzu. Aktivieren Sie dann das Kontrollkästchen **Nur eine Entscheidung ist erforderlich**, wenn der Datensatz erstellt werden soll, nachdem eine der Standardgenehmigenden ihn genehmigt hat.
 
@@ -349,8 +344,6 @@ Mit Abschlussoptionen können Sie festlegen, ob eine Anfrage beim Erstellen des 
 1. (Bedingt) Wenn Sie ausgewählt haben, dass die Anfrage als abgeschlossen markiert werden soll, wenn das angeforderte Objekt abgeschlossen ist, wählen Sie das Feld und den Wert aus, die angeben, wann das Objekt abgeschlossen ist. Sie können beispielsweise das Feld Status und den Wert Abgeschlossen auswählen, um die Anfrage abzuschließen, wenn der Status des erstellten Objekts auf Abgeschlossen gesetzt ist.
 1. Fahren Sie <!--[Set up Automations details](#set-up-configuration-details) if you want to configure more details for the form, or go to -->[Erstellen von Anfrageformularen abschließen](#complete-request-form-creation) fort.
 
-</div>
-
 <!--
  
 <div class="preview">
@@ -383,23 +376,24 @@ For information on creating automations in other areas of Workfront Planning, se
 ### Abschließen der Formularerstellung
 
 1. Erstellen und richten Sie das Formular wie unter [Erstellen eines Anfrageformulars beginnen](#begin-creating-a-request-form) und [Details für das Anfrageformular einrichten](#set-up-details-for-the-request-form) beschrieben ein.
-1. (Optional) Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Namen des Formulars in der Kopfzeile und klicken Sie dann auf **Bearbeiten**, um den Namen des Formulars zu aktualisieren.
+1. (Optional) Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Namen des Formulars in der Kopfzeile und dann auf **Bearbeiten**, um den Namen des Formulars und dessen **Beschreibung** zu aktualisieren, und klicken Sie dann auf **Speichern**.
 
 1. Klicken Sie auf **Veröffentlichen**, um das Formular zu veröffentlichen und einen eindeutigen Link für es zu erhalten.
 
    Folgendes geschieht:
 
    * Die Schaltfläche **Veröffentlichen** wird entfernt.
+
+     Das Formular wird im Bereich Anfragen des Hauptmenüs in Workfront verfügbar.
    * Die **Veröffentlichung aufheben** wird dem Formular hinzugefügt. Wenn Sie darauf klicken, ist der Zugriff auf das Formular nicht möglich.
    * Eine **Freigeben**-Schaltfläche wird dem Formular hinzugefügt.
-   * Das Formular wird im Bereich Anfragen des Hauptmenüs in Workfront verfügbar.
 
 1. Klicken Sie **Freigeben**, um das Formular für andere freizugeben.
 
-   Informationen zum Freigeben eines Anfrageformulars finden Sie [&#x200B; Abschnitt „Freigeben eines &#x200B;](#share-a-request-form)&quot; in diesem Artikel
+   Informationen zum Freigeben eines Anfrageformulars finden Sie [ Abschnitt „Freigeben eines ](#share-a-request-form)&quot; in diesem Artikel
 1. Klicken Sie auf den nach links zeigenden Pfeil links neben dem Namen des Formulars in der Kopfzeile, um das Formular zu schließen.
 
-   Die **Formulare anfordern** Tabellenansicht wird geöffnet und das Formular wird ihr hinzugefügt.
+   Die **Formulare anfordern**-Listenansicht wird geöffnet und das Formular wird ihr hinzugefügt.
 
 ## Verwalten vorhandener Anfrageformulare
 
@@ -418,13 +412,8 @@ For information on creating automations in other areas of Workfront Planning, se
 1. (Optional) Aktualisieren Sie die folgenden Ansichtselemente auf der Seite **Anfrageformulare**, um die Anzeige von Informationen in der Tabelle zu ändern:
 
    * Spalten
-
-   <!--
-   <div class="preview">
-   * Grouping <!-ensure they will change the label by Prod->
-   * Row height
-   </div>
-   -->
+   * Gruppierung
+   * Zeilenhöhe
 
    Weitere Informationen finden Sie unter [Verwalten der Listenansicht](/help/quicksilver/planning/views/manage-the-list-view.md).
 
@@ -435,8 +424,6 @@ For information on creating automations in other areas of Workfront Planning, se
    * **Freigeben**: Klicken Sie hier, um zu ändern, wer Zugriff auf das Formular hat.
    * **Link kopieren**: Klicken Sie hier, um den Link des Anfrageformulars schnell zu kopieren, ohne das Formular zu öffnen.
    * **Löschen**: Klicken Sie hier, um das Formular zu löschen. Alle über das Formular hinzugefügten Anfragen und Datensätze werden nicht gelöscht. Das Formular kann nicht wiederhergestellt werden.
-
-   <!--update screen shot at preview:-->
 
    ![Menü „Mehr“ auf dem Anfrageformular aus der Liste der Anfrageformulare](assets/more-menu-on-request-form-from-request-forms-list.png)
 

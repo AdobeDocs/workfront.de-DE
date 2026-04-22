@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 10%
+source-wordcount: '683'
+ht-degree: 9%
 
 ---
 
@@ -75,6 +75,10 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 ## Systemansichten für Anfragen
 
+>[!WARNING]
+>
+>Die in diesem Abschnitt dokumentierten Systemansichten sind noch nicht verfügbar. Sie sind ab dem 16. April 2026 verfügbar.
+
 Zusätzlich zu den Ansichten, die Sie selbst erstellen können, bietet Workfront die folgenden Systemansichten für den Bereich Anfragen und das Widget Meine Anfragen auf der Startseite:
 
 * **Alle Anfragen**: Alle Anfragen, die Sie oder eine andere Person in Warteschlangen oder Arbeitsbereichen gesendet haben, für die Sie über Anzeigeberechtigungen verfügen. Dies ist nicht für das Widget Meine Anfragen verfügbar.
@@ -101,7 +105,7 @@ Sie können eine Ansicht im Bereich Anfragen von Workfront erstellen, wenn Sie d
 
    1. Fügen Sie das Widget „Meine **&quot; hinzu oder wechseln Sie**.
 
-1. Klicken Sie in der Liste der Anfragen auf das Dropdown **Menü** Ansichten![&#x200B; und &#x200B;](assets/view-icon-requests.png) auf **Neue Ansicht**.
+1. Klicken Sie in der Liste der Anfragen auf das Dropdown **Menü** Ansichten![ und ](assets/view-icon-requests.png) auf **Neue Ansicht**.
 
    <!-- 
    

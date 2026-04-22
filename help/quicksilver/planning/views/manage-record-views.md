@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
 source-wordcount: '1375'
 ht-degree: 5%
@@ -288,10 +288,10 @@ Weitere Informationen zu Listenansichten finden Sie unter [Verwalten der Listena
 
    >[!TIP]
    >
-   ><span class="preview">Sie können die folgende Tastaturkombination verwenden, um das globale Suchfeld von jeder Workfront-Planungsseite aus zu öffnen und nach Ansichten zu suchen:</span>
+   >Sie können die folgende Tastaturkombination verwenden, um das globale Suchfeld von einer beliebigen Workfront Planning-Seite aus zu öffnen und nach Ansichten zu suchen:
    >
-   >* <span class="preview">STRG+K für Windows</span>
-   >* <span class="preview">⌘+K für Mac</span>
+   >* STRG+K für Windows
+   >* ⌘+K für Mac
    >
    >![Globales Suchfeld](assets/global-search-box.png)
 
@@ -322,7 +322,7 @@ Weitere Informationen zu Listenansichten finden Sie unter [Verwalten der Listena
 1. Klicken Sie auf **Erstellen**.
 
    Die Ansicht wird als neue Registerkarte angezeigt. Ansichten werden in der chronologischen Reihenfolge ab dem Zeitpunkt angezeigt, zu dem sie erstellt oder für Sie freigegeben wurden.
-1. (Optional) Klicken Sie auf das **Mehr**-Menü ![Mehr Caret-Down-Symbol &#x200B;](assets/more-caret-down-icon-views.png) neben der letzten Ansicht, um alle Ansichten für den ausgewählten Datensatztyp anzuzeigen.
+1. (Optional) Klicken Sie auf das **Mehr**-Menü ![Mehr Caret-Down-Symbol ](assets/more-caret-down-icon-views.png) neben der letzten Ansicht, um alle Ansichten für den ausgewählten Datensatztyp anzuzeigen.
 
    Zusätzliche Ansichten werden unter dem Menü **Mehr** nach der letzten Registerkarte Ansicht angezeigt. Die Zahl neben dem Menü **Mehr** zeigt die Anzahl der zusätzlichen Ansichten an.
 1. (Optional) Um eine Ansicht nach ihrer Erstellung umzubenennen, klicken Sie auf das Dropdown-Menü „Ansicht“ und dann auf das Menü **Mehr** ![Mehr Menü](assets/more-menu.png) > **Umbenennen**, um den Ansichtsnamen zu aktualisieren

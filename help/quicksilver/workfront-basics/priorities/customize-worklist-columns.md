@@ -6,18 +6,22 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: 10d2bcf3f2d349418a8a04e96873bc5c2d3af4a1
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 15%
+source-wordcount: '241'
+ht-degree: 19%
 
 ---
 
 # Anpassen der Spalten der Arbeitsliste „Prioritäten“
 
-<span class="preview">Die auf dieser Seite hervorgehobenen Informationen beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--I think this article can point to the Enhanced lists article for managing the view-->
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 Sie können die Spalten auf der Arbeitsliste in Prioritäten anpassen, um Ihre Arbeitsweise zu unterstützen.
@@ -80,13 +84,11 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 1. Klicken Sie **der linken** auf „Spalten“.
 1. Klicken Sie auf **Ziehen** und verschieben Sie die Spalte an die gewünschte Position. Das Verschieben von Spalten aktualisiert sich automatisch in der Arbeitsliste.
-   ![Spalten neu &#x200B;](assets/reorder-columns-new.png)
+   ![Spalten neu ](assets/reorder-columns-new.png)
 
 >[!NOTE]
 >
 >Die Spalte Name ist fest und kann nicht verschoben werden.
-
-<div class="preview">
 
 ### Ändern der Zeilenhöhe in der Prioritätenliste
 
@@ -102,5 +104,3 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
    * Groß
 
    Die Liste wird sofort aktualisiert.
-
-</div>

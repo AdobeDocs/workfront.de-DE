@@ -8,19 +8,21 @@ recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 4%
+source-wordcount: '404'
+ht-degree: 5%
 
 ---
 
 
 # Löschen von Arbeitsbereichen
 
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -154,10 +156,10 @@ oder
 
    >[!TIP]
    >
-   ><span class="preview">Sie können die folgende Tastaturkombination verwenden, um das globale Suchfeld von einer beliebigen Workfront-Planungsseite aus zu öffnen und nach Arbeitsbereichen zu suchen:</span>
+   >Sie können die folgende Tastaturkombination verwenden, um das globale Suchfeld von einer beliebigen Workfront-Planungsseite aus zu öffnen und nach Arbeitsbereichen zu suchen:
    >
-   >* <span class="preview">STRG+K für Windows</span>
-   >* <span class="preview">⌘+K für Mac</span>
+   >* STRG+K für Windows
+   >* ⌘+K für Mac
 
 1. Klicken Sie auf **Löschen**.
 

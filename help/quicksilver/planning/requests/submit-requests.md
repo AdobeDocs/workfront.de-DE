@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ca8f1375d641531eaf11e3889ccb67a6fbe1788f
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '2460'
+source-wordcount: '2400'
 ht-degree: 1%
 
 ---
@@ -18,11 +18,12 @@ ht-degree: 1%
 # Senden von Anfragen zum Erstellen von Einträgen in Adobe Workfront-Planung
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
-<!--take Preview and Prod references out when releasing to Prod all-->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -108,17 +109,12 @@ Folgendes muss vorhanden sein, bevor Sie eine Anfrage an ein Workfront Planning-
 * Durch das Übermitteln von Anfrageformularen erstellte Datensätze sind mit der ursprünglichen Anfrage verbunden. Diese Verbindung kann nicht entfernt werden.
 * Sie können sowohl die erstellten Einträge als auch die zu ihrer Erstellung verwendeten Anfragen in den folgenden Bereichen anzeigen:
    * Bereich „Anfragen“ in Workfront.
-
-  <div class="preview">
-
    * In einem verbundenen Feld eines Datensatztyps in Workfront Planning, wenn Sie die Anfrage als verbundenen Datensatz hinzufügen.
    * Wenn Sie die Anfrage als verbundenen Datensatz hinzufügen, wird in Workfront Planning im Bereich „Details“ eines Datensatzes ein verknüpftes Feld angezeigt.
 
-  </div>
-
   >[!TIP]
   >
-  ><span class="preview">Sie können den Namen der Anfrage im Feld „Betreff“ im Bereich „Anfragen“ von Workfront oder im Feld „Ausgangsanfrageverbindung“ in Workfront Planning einsehen. </span>
+  >Sie können den Namen der Anfrage im Feld „Betreff“ im Bereich „Anfragen“ von Workfront oder im Feld „Ausgangsanfrageverbindung“ in Workfront Planning anzeigen.
 
 * Gesendete Planungsanfragen sind nur in der neuen anfordernden -Version sichtbar. In der Legacy-Anfrageerfahrung werden keine Planungsanfragen angezeigt.
 
@@ -136,7 +132,7 @@ Not sure how to change the request status, but dev also said: Changing the names
 
 {{step1-to-requests}}
 
-1. Aktivieren Sie **Einstellung**&#x200B;Neues Erlebnis verwenden“ in der rechten oberen Ecke des Bildschirms.
+1. Aktivieren Sie **Einstellung**Neues Erlebnis verwenden“ in der rechten oberen Ecke des Bildschirms.
 Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformulare im Bereich **Anfragen** von Workfront verfügbar.
 
    >[!TIP]
@@ -185,13 +181,13 @@ Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformula
       * **Objekttyp**: Der Name des Arbeitsbereichs und der Datensatztyp, in dem aufgrund der Anforderung in Planning Datensätze erstellt wurden.
       * **Status**: Der Status des Anfrageobjekts.
       * **Anfrageformular**: Der Name des Anfrageformulars, das mit dem Datensatztyp in Planning verknüpft ist.
-      * <span class="preview">**Erstellter Objektstatus**: Der Status des erstellten Datensatzes.</span>
+      * **Erstellter Objektstatus**: Der Status des erstellten Datensatzes.
 
    * Wenn das Anfrageformular mit einer Genehmigung verknüpft war, wird die Anfrage zur Anfragenliste im Bereich &quot;Workfront-Anfragen“ und zum Widget „Meine Anfragen“ mit dem Status &quot;**Überprüfung** hinzugefügt. Ein neuer Datensatz wird der Seite „Datensatztyp“ erst hinzugefügt, nachdem ihn die genehmigenden Personen genehmigt haben.
 
      Weitere Informationen finden Sie unter [Hinzufügen einer Genehmigung zu einem Anfrageformular](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-   * <span class="preview">Sie können das Verbindungsfeld **Ursprüngliche Anfrage** zu einem Datensatztyp in Planning hinzufügen, um den Namen der ursprünglichen Anfrage anzuzeigen, die einen Datensatz erstellt hat. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md). </span>
+   * Sie können das Verbindungsfeld **Ursprüngliche Anfrage** zu einem Datensatztyp in Planning hinzufügen, um den Namen der ursprünglichen Anfrage anzuzeigen, die einen Datensatz erstellt hat. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
    * Die Anfrage ist nur für den Eigentümer, die genehmigende Person und die Personen sichtbar, die zumindest über Anzeigeberechtigungen für den Arbeitsbereich verfügen. Workfront-Admins können alle Anfragen anzeigen, die an einen beliebigen Arbeitsbereich im System gesendet wurden.
    * Sie erhalten eine In-App- und eine E-Mail-Benachrichtigung, dass die Anfrage entweder erfolgreich übermittelt wurde oder zur Überprüfung gesendet wurde.
    * Wenn das Anfrageformular mit einer Genehmigung verknüpft war, erhalten die genehmigenden Personen eine In-App- und eine E-Mail-Benachrichtigung, um die Anfrage zu überprüfen und zu genehmigen.
@@ -208,15 +204,9 @@ Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformula
    * Ansicht
    * Filter
    * Spalten
-
-   <div class="preview">
-
    * Gruppierung
    * Zellen formatieren
    * Zeilenhöhe
-
-   </div>
-
 
    Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
@@ -304,7 +294,7 @@ Externe Personen können nicht auf interne Bereiche von Workfront zugreifen, z *
      >
      >Die E-Mail- und In-App-Benachrichtigung sind nur sichtbar, wenn die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert wird.
 
-   <span class="preview"> Nachdem die Anfrage genehmigt und der Datensatz erstellt wurde, zeigen die Felder Genehmigt von und Genehmigt Datum Informationen zur Genehmigung des Datensatzes an.</span>
+     Nachdem die Anfrage genehmigt und der Datensatz erstellt wurde, zeigen die Felder Genehmigt von und Genehmigt Datum Informationen zur Genehmigung des Datensatzes an.
 
 1. (Optional) Klicken Sie auf **Ihre Anfrage anzeigen**, um die Anfrage in Workfront zu öffnen.
 

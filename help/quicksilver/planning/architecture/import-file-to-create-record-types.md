@@ -8,18 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 1%
+source-wordcount: '835'
+ht-degree: 2%
 
 ---
 
 # Erstellen von Datensatztypen durch Importieren von Informationen aus einer CSV- oder Excel-Datei
 
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -145,7 +147,7 @@ Old:
    * Datum der letzten Änderung, letzte Änderung von
    * Genehmigt am, Genehmigt von
    * Personen
-   * <span class="preview">Datensatz-ID</span>
+   * Eintrags-ID
 
 So importieren Sie Datensatztypen mithilfe einer Excel- oder CSV-Datei:
 
@@ -159,10 +161,10 @@ So importieren Sie Datensatztypen mithilfe einer Excel- oder CSV-Datei:
 
    >[!TIP]
    >
-   ><span class="preview">Sie können die folgende Tastaturkombination verwenden, um das globale Suchfeld von einer beliebigen Workfront-Planungsseite aus zu öffnen und nach Arbeitsbereichen zu suchen:</span>
+   >Sie können die folgende Tastaturkombination verwenden, um das globale Suchfeld von einer beliebigen Workfront-Planungsseite aus zu öffnen und nach Arbeitsbereichen zu suchen:
    >
-   >* <span class="preview">STRG+K für Windows</span>
-   >* <span class="preview">⌘+K für Mac</span>
+   >* STRG+K für Windows
+   >* ⌘+K für Mac
 
 1. Klicken Sie **Datensatztyp hinzufügen**.
 1. Klicken Sie **Aus Datei hochladen**.

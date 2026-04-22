@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '2357'
-ht-degree: 76%
+source-wordcount: '2268'
+ht-degree: 79%
 
 ---
 
@@ -23,9 +23,10 @@ this article is linked to the WF Planning landing page - do not change URL or mo
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 >[!IMPORTANT]
 >
@@ -192,7 +193,7 @@ Im Folgenden finden Sie die wichtigsten Objekte und Konzepte von Workfront-Planu
 * [Verbundene Datensatztypen, Datensätze und Felder](#connected-record-types-records-and-fields)
 * [Felder nachschlagen](#lookup-fields)
 * [Hierarchien](#hierarchies)
-* [Ansichten &#x200B;](#views)
+* [Ansichten ](#views)
 * [Automatisierungen](#automations)
 * [Antragsformulare](#request-forms)
 
@@ -291,7 +292,7 @@ Sie können benutzerdefinierte Felder der folgenden Typen erstellen:
 * Zuletzt geändert am
 * Genehmigt von
 * Genehmigungsdatum
-* <span class="preview">Datensatz-ID</span>
+* Eintrags-ID
 
 <!--update the screen shot above-->
 
@@ -333,9 +334,6 @@ Wenn Sie beispielsweise einen Kampagneneintragstyp mit einem Workfront-Projektob
 >   * Zuletzt geändert von
 >   * Workfront-Felder mit automatischer Textvervollständigung (einschließlich Feldern wie „Projektbesitzer“ oder „Projektsponsor“)
 >
->* Sie können die folgenden Feldtypen nicht als Suchfelder aus dem verbundenen Datensatz oder Objekttyp in der Produktion hinzufügen<span class="preview"> Sie können sie jedoch in der Vorschau-Umgebung hinzufügen:</span>
->
->   * Personen
 
 Informationen zum Verbinden von Eintragstypen, Einträgen und zum Erstellen verknüpfter Felder finden Sie in den folgenden Artikeln:
 
