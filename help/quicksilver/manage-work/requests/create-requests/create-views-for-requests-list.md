@@ -105,7 +105,7 @@ Sie können eine Ansicht im Bereich Anfragen von Workfront erstellen, wenn Sie d
 
    1. Fügen Sie das Widget „Meine **&quot; hinzu oder wechseln Sie**.
 
-1. Klicken Sie in der Liste der Anfragen auf das Dropdown **Menü** Ansichten![ und ](assets/view-icon-requests.png) auf **Neue Ansicht**.
+1. Klicken Sie in der Liste der Anfragen auf das Dropdown **Menü** Ansichten![&#x200B; und &#x200B;](assets/view-icon-requests.png) auf **Neue Ansicht**.
 
    <!-- 
    
