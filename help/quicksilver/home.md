@@ -5,9 +5,9 @@ feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: d32fd0ffe1750cb08ec90d0b766034de5ffe6eaf
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '388'
 ht-degree: 100%
 
 ---
@@ -22,12 +22,13 @@ Willkommen auf der Homepage für Adobe Workfront und zugehörige technische Doku
 
 >[!TAB Neueste Version]
 
-* [Versionsüberblick für das zweite Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
+* [Versionsüberblick für das dritte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)
 * [Veröffentlichungen von Adobe Workfront-Planung](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
 * [Adobe Workfront Fusion-Veröffentlichungen](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
 
 >[!TAB Versionen 2026]
 
+* [Versionsüberblick für das dritte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)
 * [Versionsüberblick für das zweite Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
 * [Überblick über die Version vom ersten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q1-release-activity/26-q1-release-overview.md)
 * [Veröffentlichungen von Adobe Workfront-Planung](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
@@ -51,7 +52,7 @@ Willkommen auf der Homepage für Adobe Workfront und zugehörige technische Doku
 * [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
 * [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
 * [Fourth Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
-* [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+* [Adobe Workfront Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 * [Adobe Workfront Planning Fourth Quarter 2025 release activity](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
 
 -->
@@ -123,7 +124,7 @@ Die Suche in der Dokumentation kann bei strategischer Vorgehensweise effizienter
 ### Erkunden der Lern- und Schulungsabschnitte
 
 * **Schulungsmaterialien**: Navigieren Sie zur Seite für [Workfront-Schulungen](https://experienceleague.adobe.com/de/browse/workfront). Dort finden Sie eine Bibliothek mit Schulungsvideos und -artikeln, die Ihnen dabei helfen, die Funktionen und Einstellungen von Workfront besser zu verstehen. Sie können auch unter [learning.adobe.com](https://learning.adobe.com/) auf kostenpflichtige Schulungsmaterialien zugreifen.
-* **Kurse**: Suchen Sie nach [Kursen für strukturiertes Lernen](https://experienceleague.adobe.com/home?lang=de&Solution=Workfront#courses), die Sie in einer logischen Reihenfolge durch verschiedene Funktionen von Workfront führen.
+* **Kurse**: Suchen Sie nach [Kursen für strukturiertes Lernen](https://experienceleague.adobe.com/home?Solution=Workfront#courses), die Sie in einer logischen Reihenfolge durch verschiedene Funktionen von Workfront führen.
 
 ### Antwortsuche in Community-Foren
 

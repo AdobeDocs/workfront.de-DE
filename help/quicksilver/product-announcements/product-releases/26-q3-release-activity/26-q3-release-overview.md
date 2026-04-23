@@ -1,0 +1,126 @@
+---
+title: Versionsüberblick für das dritte Quartal 2026
+description: Diese Seite enthält Informationen zur Funktionalität, die in der Version vom dritten Quartal 2026 enthalten ist. Diese Verbesserungen werden voraussichtlich im Lauf des Quartals in der Produktionsumgebung zur Verfügung gestellt.
+author: Courtney
+feature: Product Announcements
+recommendations: noDisplay, noCatalog
+source-git-commit: 7c0226697436bfdaaa1bde1e12fb68c167a48d7a
+workflow-type: tm+mt
+source-wordcount: '555'
+ht-degree: 59%
+
+---
+
+# Versionsüberblick für das dritte Quartal 2026
+
+Diese Seite enthält Informationen zur Funktionalität, die in der für Juli 2026 geplanten Version vom dritten Quartal 2026 enthalten ist.
+
+Die Verbesserungen auf dieser Seite sind in der Vorschauumgebung verfügbar. Diese Seite wird mit zusätzlichen Verbesserungen aktualisiert, sobald die geplante Produktionsversion der Version für das dritte Quartal 2026 näher rückt.
+
+Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben die neuen Funktionen hervor und bieten detaillierte Informationen. Um sich zu registrieren, besuchen Sie die [Ereignisseite](https://experienceleague.adobe.com/en/events?filters=Workfront) und filtern Sie nach Workfront.
+
+>[!IMPORTANT]
+>
+>
+>Sofern nicht anders angegeben, sind monatliche und vierteljährliche Veröffentlichungen am Donnerstag der zweiten vollen Woche des Monats verfügbar.
+>
+>| Monatliche Veröffentlichung | Vierteljährliche Veröffentlichung |
+>|----|----|
+>| <ul><li>26.5 (14. Mai 2026)</li><li>26.6 (11. Juni 2026)</li><li>26.7 (16. Juli 2026)</li></ul> | <ul><li>26.7 (16. 15. Juli 2026)</li></ul> |
+>
+>Beachten Sie, dass Benutzer, die den Zeitplan für die schnelle Veröffentlichung im letzten Quartal (26.7 in diesem Quartal) verwenden, die Version einen Tag früher erhalten (15. Juli 2026).
+>
+>Weitere Informationen zum Schnellveröffentlichungsprozess finden Sie unter [Aktivieren oder Deaktivieren des Schnellveröffentlichungsprozesses](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+
+## Adobe Workfront-Verbesserungen
+
+* [Verbesserungen bei Anfragen](#requesting-enhancements)
+
+### Verbesserungen bei Anfragen
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>Funktion</strong>
+            </td>
+            <td><strong>Vorschau</strong></td>
+            <td><strong>Schnellveröffentlichung</strong></td>
+            <td><strong>Vierteljährlich</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md" class="MCXref xref" xrefformat="{para}">Vordefinierte Ansichten wurden zur Anfragenliste im Bereich „Anfragen“ und im Widget „Meine Anfragen“ hinzugefügt</a><p>[!BADGE Außerplanmäßig]{type=Neutral}</p>
+                <p>Um Ihre Anfragenliste besser zu organisieren, haben wir die vordefinierten Ansichten zur Anfragenliste im Bereich Anfragen und zum Widget Meine Anfragen auf der Startseite hinzugefügt.</p>
+            </td>
+            <td><p>Freitag, 23. April 2026</p></td>
+            <td><p>Freitag, 23. April 2026</p></td>
+            <td><p>Freitag, 23. April 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+## Versionshinweise für andere Bereiche
+
+### Verbesserungen in Workfront Fusion
+
+Neue Funktionen in Workfront Fusion sind in der Produktionsumgebung in einer Kadenz außerhalb des standardmäßigen Veröffentlichungszeitplans verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Adobe Workfront Fusion-Veröffentlichungen](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+
+### Verbesserungen in Workfront-Planung
+
+An dieser Stelle der Version gibt es keine Workfront-Planungsverbesserungen.
+
+<!--
+
+New features in Workfront Planning are available in Production. For more information about the latest features, see [Third Quarter 2026 release activity for Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q3.md).
+
+-->
+
+### Weitere Workfront-Verbesserungen
+
+Für folgende Elemente gibt es derzeit keine Updates in der Version:
+
+* Workfront Planning
+* Szenarienplaner
+* Korrekturabzug
+* Ziele
+
+## Desktop Proofing Viewer-Updates
+
+### Version 2.1.55
+
+Produktionsversion für alle Kunden: 19. März 2025
+
+Desktop Proofing Viewer wurde von 2.1.54 auf 2.1.55 aktualisiert. Diese Aktualisierung umfasste interne Tooling-Aktualisierungen und hatte keine Auswirkungen auf die Endbenutzerfunktionalität.
+
+Dieses Update ist sowohl für macOS als auch für Windows.
+
+## Ankündigungen
+
+### API-Version 21
+
+Die Version 21 der Workfront-API wurde am 23. Oktober 2025 veröffentlicht. Für die API-Version 21 haben wir einige Ressourcen und Endpunkte geändert. Einige der Änderungen unterstützen neue Funktionen, andere erleichtern Ihnen die Verwendung der über die API verfügbaren Informationen.
+
+>[!IMPORTANT]
+>
+>Diese API-Versionsänderung beinhaltet eine grundlegende Änderung, die sich auf Ihre vorhandenen API-Aufrufe auswirken kann. Dies liegt daran, dass die API-Version 21 die Version 2 der Ereignisabonnements verwendet.
+>
+> Bei Feldern mit Mehrfachauswahl werden Ereignisabonnements in Version 2 immer als Array gesendet. Version 1 sendete ein Array, wenn mehrere Werte ausgewählt wurden. Wenn nur ein Wert ausgewählt war, wurde eine Zeichenfolge gesendet.
+
+Informationen zu neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in der API-Version 21](/help/quicksilver/wf-api/api/new-api-version-21.md).
+
+Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Zeitplan](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+
+<!--
+
+### Workfront Maintenance Updates
+
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+
+-->
+
+### Updates für Schulungen
+
+Erfahren Sie mehr über die neuesten Updates von Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie im Abschnitt „Neue Funktionen“ der Seite [Workfront-Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=de).
+
+

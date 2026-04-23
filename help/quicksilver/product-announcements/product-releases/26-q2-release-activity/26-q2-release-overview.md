@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e440fc0-45ad-4f73-ae7e-5374e4ae1480
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 7a2ca1b61b2e8069445b1be162422660e3b4e100
 workflow-type: tm+mt
-source-wordcount: '2359'
+source-wordcount: '2343'
 ht-degree: 24%
 
 ---
@@ -20,7 +20,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der für April 20
 
 Die Verbesserungen auf dieser Seite sind in der Vorschauumgebung verfügbar. Diese Seite wird mit zusätzlichen Verbesserungen aktualisiert, sobald die geplante Produktionsversion der Version für das zweite Quartal 2026 näher rückt.
 
-Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben die neuen Funktionen hervor und bieten detaillierte Informationen. Um sich zu registrieren, besuchen Sie die [Ereignisseite](https://experienceleague.adobe.com/de/events?filters=Workfront) und filtern Sie nach Workfront.
+Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben die neuen Funktionen hervor und bieten detaillierte Informationen. Um sich zu registrieren, besuchen Sie die [Ereignisseite](https://experienceleague.adobe.com/en/events?filters=Workfront) und filtern Sie nach Workfront.
 
 >[!IMPORTANT]
 >
@@ -394,9 +394,9 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-other.md" class="MCXref xref" xrefformat="{para}">Vordefinierte Ansichten wurden zur Anfragenliste im Bereich Anfragen und im Widget Meine Anfragen hinzugefügt</a><p></p>
             <p>Um Ihnen zu helfen, Ihre Anfragenliste besser zu organisieren, haben wir der Anfragenliste im Bereich Anfragen und dem Widget Meine Anfragen auf der Startseite vordefinierte Ansichten hinzugefügt.</p>
         </td>
-           <td><p>K. A.</p><p>Vordefinierte Ansichten haben keine Vorschau -Version und werden direkt in der Produktion veröffentlicht. </p></td>
-        <td><p>TBD</p></td>
-        <td><p>TBD</p></td>
+           <td><p>Freitag, 23. April 2026</p></td>
+        <td><p>Freitag, 23. April 2026</p></td>
+        <td><p>Freitag, 23. April 2026</p></td>
  </tr>
     <tr>
         <td>

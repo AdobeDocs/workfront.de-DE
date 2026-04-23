@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be95161b-2443-464a-b91c-82a96d5354a2
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 7a2ca1b61b2e8069445b1be162422660e3b4e100
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 28%
+source-wordcount: '596'
+ht-degree: 29%
 
 ---
 
@@ -68,10 +68,7 @@ Weitere Informationen finden Sie unter [Erstellen und Verwalten von Ansichten im
 
 >[!NOTE]
 >
->Vordefinierte Ansichten haben keine Vorschau -Version und werden direkt in der Produktion veröffentlicht.
->Vorschau: wird noch bekannt gegeben
->Produktions-Schnellveröffentlichung: wird noch bekannt gegeben
->Produktion für alle: noch festzulegen
+>Vordefinierte Ansichten werden am 16. April direkt für alle Umgebungen veröffentlicht.
 
 Um Ihnen zu helfen, Ihre Anfragenliste besser zu organisieren, haben wir die folgenden vordefinierten Ansichten zur Anfragenliste im Bereich Anfragen und zum Widget Meine Anfragen auf der Startseite hinzugefügt:
 
