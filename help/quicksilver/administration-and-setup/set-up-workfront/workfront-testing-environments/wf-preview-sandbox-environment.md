@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 6aa0aa5b8ffd088e3d79e7d1be66373a7f753f99
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '1310'
+source-wordcount: '1320'
 ht-degree: 0%
 
 ---
@@ -129,7 +129,7 @@ So melden Sie sich mit einer URL bei der Sandbox-Vorschau an:
 
 1. Navigieren Sie zu dieser URL: `https://companyname.preview.workfront.com/`.
 
-   Sie können auch auf die Sandbox-Vorschau zugreifen, indem Sie [https://cl04.preview.workfront.com/login&rbrace; &#x200B;](https://cl04.preview.workfront.com/login).
+   Sie können auch auf die Sandbox-Vorschau zugreifen, indem Sie [https://cl04.preview.workfront.com/login} ](https://cl04.preview.workfront.com/login).
 
 1. Melden Sie sich mit Ihren Vorschau-Anmeldedaten an.
 
@@ -156,9 +156,11 @@ Weitere Informationen zum einmaligen Anmelden finden Sie unter [Übersicht über
 
 >[!IMPORTANT]
 >
->Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht in das [!DNL Adobe Admin Console] integriert wurden. Wenn Ihre Organisation in die [!DNL Adobe Admin Console] integriert wurde, ist keine Aktion erforderlich.
+>Das in diesem Abschnitt beschriebene Verfahren galt nur für Organisationen, die noch nicht in das [!DNL Adobe Admin Console] integriert worden waren. Da nun alle Organisationen in die [!DNL Adobe Admin Console] integriert wurden, ist keine Aktion erforderlich.
 >
 >Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen in die [!DNL Adobe Admin Console] integriert wurde, unterscheiden, finden Sie unter [Plattformbasierte Administrationsunterschiede ([!UICONTROL Adobe Workfront]/[!UICONTROL Adobe Business Platform])](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>
+>Dieser Abschnitt wird in naher Zukunft entfernt.
 
 
 Wenn Sie Ihre Vorschau-Sandbox für die Verwendung mit einer Single Sign-On-Lösung konfigurieren möchten, können Sie sie separat von Ihrer Produktionsumgebung konfigurieren. Die SSO-Konfiguration in der Sandbox-Vorschau ist unabhängig von Ihrer SSO-Konfiguration in der Produktionsumgebung.

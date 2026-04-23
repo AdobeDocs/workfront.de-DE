@@ -9,10 +9,10 @@ author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4d868625-e976-47b4-9e80-f1eca84a2768
-source-git-commit: fb555df123701c62e9a0f2d451ad6dcd16586595
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 2%
+source-wordcount: '238'
+ht-degree: 14%
 
 ---
 
@@ -20,9 +20,13 @@ ht-degree: 2%
 
 <!-- Audited: 1/2024 -->
 
+<!--Remove me October 2026-->
+
 >[!IMPORTANT]
 >
->Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht in die [!UICONTROL Adobe Admin Console integriert &#x200B;].
+>Das auf dieser Seite beschriebene Verfahren galt nur für Organisationen, die noch nicht in die [!UICONTROL Adobe Admin Console integriert ].
+>
+>Da nun alle Unternehmen in die Adobe Admin Console integriert wurden, wird dieser Artikel in naher Zukunft entfernt.
 >
 >Wenn Ihre Organisation das Onboarding für die [!UICONTROL Adobe Admin Console] durchgeführt hat, lesen Sie den Abschnitt [Unterschiede bei der plattformbasierten Administration ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -34,7 +38,7 @@ Wenn das Problem weiterhin besteht, wenden Sie sich an den Administrator dieser 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,7 +52,7 @@ Wenn das Problem weiterhin besteht, wenden Sie sich an den Administrator dieser 
    <td role="rowheader">Adobe [!DNL Workfront] License</td> 
    <td>
    <p>Standard</p>
-   <p>Plan</p></td>
+   <p>Abo</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -57,7 +61,7 @@ Wenn das Problem weiterhin besteht, wenden Sie sich an den Administrator dieser 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

@@ -8,20 +8,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 1%
+source-wordcount: '529'
+ht-degree: 8%
 
 ---
 
-# Benutzeranmeldeinformationen anzeigen
+# Anzeigen von Benutzeranmeldeinformationen
 
 Sie können sehen, wie oft sich Benutzende bei Adobe Workfront angemeldet haben und wann sie sich zuletzt angemeldet haben, indem Sie angeben, dass diese Informationen in der Ansicht einer Benutzerliste oder in einem Bericht für Benutzende enthalten sein sollen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,7 +33,7 @@ Sie können sehen, wie oft sich Benutzende bei Adobe Workfront angemeldet haben 
   </tr> 
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
-   <td><p>Standard</p><p>Plan</p></td> 
+   <td><p>Standard</p><p>Abo</p></td> 
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -46,7 +46,7 @@ Sie können sehen, wie oft sich Benutzende bei Adobe Workfront angemeldet haben 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -63,11 +63,6 @@ Die Anmeldung bei Workfront auf eine der folgenden Arten zählt als Anmeldung be
 * Die Workfront Mobile Apps (iOS- oder Android-Geräte)
 * Jede unterstützte Workfront-Integration mit einer anderen Drittanbieteranwendung (z. B. Slack)
 * Jede benutzerdefinierte Integration zwischen Workfront und einer anderen Drittanbieteranwendung.
-* Die Workfront-API
-
-  >[!NOTE]
-  >
-  >Die Anmeldung bei Workfront über die Workfront-API ist nur für Organisationen verfügbar, die noch nicht in die Adobe Business-Plattform integriert wurden.
 
 ## Anzeigen von Nutzungsinformationen in einer Benutzerliste oder einem Bericht
 
