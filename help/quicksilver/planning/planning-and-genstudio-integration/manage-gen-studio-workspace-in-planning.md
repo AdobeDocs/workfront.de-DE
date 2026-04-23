@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
 workflow-type: tm+mt
 source-wordcount: '1474'
 ht-degree: 3%
@@ -147,7 +147,7 @@ Old:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -259,7 +259,7 @@ Die Hauptseite von Workfront-Planung wird geöffnet.
 
 1. Klicken Sie **Freigeben** oben rechts, um den Arbeitsbereich für andere freizugeben.
 
-   Weitere Informationen finden Sie unter [Freigeben von Arbeitsbereichen](/help/quicksilver/planning/access/share-workspaces.md)
+   Weitere Informationen finden Sie unter [Freigeben von Arbeitsbereichen](/help/quicksilver/planning/access/share-workspaces.md).
 
    >[!NOTE]
    >
@@ -363,17 +363,17 @@ Weitere Informationen finden Sie [Exportieren von Datensätzen aus der Tabellena
    >
    >Gelöschte Datensätze können aus der Tabellenansicht wiederhergestellt werden, die kürzlich gelöschte Container in Workfront Planning enthalten. Aus GenStudio gelöschte Datensätze können auch aus dem kürzlich gelöschten Bin in Workfront Planning wiederhergestellt werden.
 
-   Weitere Informationen finden Sie unter [Wiederherstellen gelöschter Datensätze](/help/quicksilver/planning/records/restore-deleted-records.md)
+   Weitere Informationen finden Sie unter [Wiederherstellen gelöschter Datensätze](/help/quicksilver/planning/records/restore-deleted-records.md).
 
 1. Klicken Sie auf das Symbol &quot;+&quot; in der oberen rechten Ecke der Tabellenansicht, um Folgendes zu erstellen:
 
    * Felder
 
-     Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md)
+     Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
 
    * Verbindungen
 
-     Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md)
+     Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
      Aus dem GenStudio-Arbeitsbereich erstellte Felder sind in den folgenden Bereichen sichtbar:
 

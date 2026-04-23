@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
 workflow-type: tm+mt
 source-wordcount: '3008'
 ht-degree: 7%
@@ -154,13 +154,13 @@ Namen von benutzerdefinierten Formularen werden nur angezeigt, wenn der Vorlagen
 
 1. Erwägen Sie, Informationen in einem der folgenden Abschnitte anzugeben:
 
-* [Name der Vorlagenaufgabe](#template-task-name)
-* [Übersicht](#overview)
-* [Arbeitsaufträge](#assignments)
-* [Finanzielle Details](#finance)
-* [Benutzerdefinierte Formulare](#custom-forms)
-* [Einstellungen](#settings)
-* [Kommentar](#comment)
+   * [Name der Vorlagenaufgabe](#template-task-name)
+   * [Übersicht](#overview)
+   * [Arbeitsaufträge](#assignments)
+   * [Finanzielle Details](#finance)
+   * [Benutzerdefinierte Formulare](#custom-forms)
+   * [Einstellungen](#settings)
+   * [Kommentar](#comment)
 
 1. Fahren Sie mit der Bearbeitung der Vorlagenaufgaben wie in den folgenden Abschnitten beschrieben fort.
 

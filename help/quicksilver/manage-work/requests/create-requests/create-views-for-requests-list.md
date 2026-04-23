@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: ed066075-6411-4350-8b39-f21dc4fa96c9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '689'
 ht-degree: 9%
 
 ---
@@ -105,7 +105,7 @@ Sie können eine Ansicht im Bereich Anfragen von Workfront erstellen, wenn Sie d
 
    1. Fügen Sie das Widget „Meine **&quot; hinzu oder wechseln Sie**.
 
-1. Klicken Sie in der Liste der Anfragen auf das Dropdown **Menü** Ansichten![&#x200B; und &#x200B;](assets/view-icon-requests.png) auf **Neue Ansicht**.
+1. Klicken Sie in der Liste der Anfragen auf das Dropdown **Menü** Ansichten![ und ](assets/view-icon-requests.png) auf **Neue Ansicht**.
 
    <!-- 
    
@@ -189,7 +189,7 @@ hide these details - all the information is in "Use enhanced lists" - we need on
 
 ## Hinzufügen der Anfrageansicht zu einer Layout-Vorlage
 
-Ein Workfront-Administrator kann Layoutvorlagen im Bereich Anfragen eine neue Ansicht hinzufügen.
+Ein Workfront-Administrator kann eine neue Ansicht oder eine Systemansicht zu Layout-Vorlagen für den Bereich Anfragen hinzufügen oder entfernen.
 
 Anweisungen finden Sie unter [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layout-Vorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
