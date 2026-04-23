@@ -24,7 +24,7 @@ ht-degree: 14%
 
 >[!IMPORTANT]
 >
->Das auf dieser Seite beschriebene Verfahren galt nur für Organisationen, die noch nicht in die [!UICONTROL Adobe Admin Console integriert ].
+>Das auf dieser Seite beschriebene Verfahren galt nur für Organisationen, die noch nicht in die [!UICONTROL Adobe Admin Console integriert &#x200B;].
 >
 >Da nun alle Unternehmen in die Adobe Admin Console integriert wurden, wird dieser Artikel in naher Zukunft entfernt.
 >
