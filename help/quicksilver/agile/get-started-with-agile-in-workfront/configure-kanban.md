@@ -8,9 +8,9 @@ feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: b05fcb7bdc1693e9e2384390f2584330b855c39c
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: '1560'
 ht-degree: 4%
 
 ---
@@ -172,14 +172,14 @@ So beschränken Sie den laufenden Arbeitsaufwand für Ihr Kanban-Team:
 1. Klicken Sie auf **[!UICONTROL Team wechseln]**-Symbol ![Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
 1. Wählen Sie das Kanban-Team aus, das Sie verwalten möchten.
-1. Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-menu.png) und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
+1. Klicken Sie auf die **** Mehr![](assets/more-menu.png) und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
 
    ![Team bearbeiten](assets/edit-team-settings-350x205.png)
 
 1. Stellen Sie **[!UICONTROL Abschnitt]** Agile“ im Abschnitt **[!UICONTROL Methodik]** sicher, dass Kanban ausgewählt ist.
 
 1. Geben Sie im Abschnitt **[!UICONTROL Storyboard]** im Feld **[!UICONTROL WIP-Limit]** die maximale Anzahl von Elementen an, die in jeder Spalte des Agile-Storyboards [!UICONTROL Kanban] zulässig ist. Sie können für jede Spalte ein anderes Limit festlegen. Die maximale Begrenzung, die Sie für jede Spalte festlegen können, beträgt 100.
-Wenn dieser Wert festgelegt ist, wird beim Überschreiten des Grenzwerts für jede Spalte [!UICONTROL &#x200B; Story Board eine Warnmeldung auf dem &#x200B;]-Board (Kanban) angezeigt. Diese Warnmeldung wird nur angezeigt, wenn das WIP-Limit zum ersten Mal überschritten wird. Diese Warnmeldung wird nicht in Spalten angezeigt, deren Status mit &quot;[!UICONTROL &quot; &#x200B;].
+Wenn dieser Wert festgelegt ist, wird beim Überschreiten des Grenzwerts für jede Spalte [!UICONTROL  Story Board eine Warnmeldung auf dem ]-Board (Kanban) angezeigt. Diese Warnmeldung wird nur angezeigt, wenn das WIP-Limit zum ersten Mal überschritten wird. Diese Warnmeldung wird nicht in Spalten angezeigt, deren Status mit &quot;[!UICONTROL &quot; ].
 Die WIP-Beschränkung ist lediglich eine visuelle Warnung und hindert Ihr Team nicht daran, mehr Elemente in einer Spalte als die von Ihnen festgelegte Beschränkung zu haben.
 
    ![WIP-Limit](assets/wip-limit-350x193.png)
@@ -192,27 +192,38 @@ Die WIP-Beschränkung ist lediglich eine visuelle Warnung und hindert Ihr Team n
 
 Sie können Storys aus dem Rückstand so konfigurieren, dass sie automatisch der ersten Spalte auf der [!UICONTROL Kanban]-Pinnwand hinzugefügt werden, sobald ein Element aus dieser Spalte verschoben wird.
 
+Sie müssen die Einstellung **Rückstand anzeigen** auf der [!UICONTROL Kanban]-Pinnwand aktivieren, um diese Funktion zu verwenden.
+
+Jedes Mal, wenn eine Story von der Spalte [!UICONTROL In Bearbeitung] in eine Spalte auf dem Storyboard verschoben wird, die einen [!UICONTROL Abgeschlossen]-Status darstellt (oder einen Status, der [!UICONTROL Abgeschlossen] entspricht), wird die nächste Story aus der Rückstandsspalte automatisch in die Spalte [!UICONTROL Neu] des [!UICONTROL Kanban-Board] verschoben.
+
+Die nächste Story ist die unvollständige Story mit der niedrigsten Auftragsnummer, die alle folgenden Kriterien erfüllt:
+
+* Er wird dem Team zugewiesen.
+* Es gibt noch kein tatsächliches Abschlussdatum (d. h. es ist noch nicht abgeschlossen).
+* Es befindet sich noch nicht auf einem Kanban-Board.
+* Sie gehört zu einem Projekt mit dem aktuellen Status .
+
+Auftragsbestand ist nicht dasselbe wie Priorität. Sie können die Reihenfolge der Rückstände anordnen, indem Sie Storys per Drag-and-Drop in die Spalte „Rückstand“ ziehen. Die Story am Anfang des Rückstands ist diejenige, die als Nächstes auf das Brett gezogen wird.
+
+So fügen Sie automatisch Storys aus dem Rückstand zum Kanban[!UICONTROL Board ]:
+
 {{step1-to-team}}
 
 1. Klicken Sie auf **[!UICONTROL Team wechseln]**-Symbol ![Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
 1. Wählen Sie das Kanban-Team aus, das Sie verwalten möchten.
-1. Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-menu.png) und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
+1. Klicken Sie auf die **** Mehr![](assets/more-menu.png) und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
 
    ![Team bearbeiten](assets/edit-team-settings-350x205.png)
 
 1. Wählen Sie **[!UICONTROL Nächste Story automatisch aus dem Rückstand hinzufügen]**, um zu konfigurieren, dass das nächste Element aus dem Rückstand automatisch zur Spalte **[!UICONTROL Neu]** hinzugefügt wird, wenn ein Element aus der Spalte **[!UICONTROL In Bearbeitung]** verschoben wird.
 
-   Benutzer müssen die Einstellung **Rückstand anzeigen** auf der [!UICONTROL Kanban]-Pinnwand aktivieren, damit diese Funktion wirksam wird. Wenn Benutzende die Einstellung [!UICONTROL Rückstand anzeigen] auf dem [!UICONTROL Kanban-Board] aktivieren, erfolgt die folgende Funktion:
-
-   Jedes Mal, wenn eine Story von der Spalte [!UICONTROL In Bearbeitung] in eine Spalte auf dem Storyboard verschoben wird, die einen [!UICONTROL Abgeschlossen]-Status (oder einen Status, der [!UICONTROL Abgeschlossen] entspricht) darstellt, wird eine Story aus der Rückstandsspalte automatisch in die Spalte [!UICONTROL Neu] des [!UICONTROL Kanban-Boards].
-Wenn die Story mit der höchsten Priorität aus dem Rückstand hinzugefügt wird, wird sie dem Story Board hinzugefügt.
 
 1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
 
-## Konfigurieren Sie, wie lange Karten auf der Kanban[!UICONTROL Pinnwand &#x200B;] bleiben
+## Konfigurieren Sie, wie lange Karten auf der Kanban[!UICONTROL Pinnwand ] bleiben
 
-Sie können auswählen, wie lange ausgefüllte Karten auf der [!UICONTROL Kanban]-Pinnwand bleiben. Aufgaben, die vom Kanban[!UICONTROL Board &#x200B;], können weiterhin im ursprünglichen Projekt aufgerufen werden.
+Sie können auswählen, wie lange ausgefüllte Karten auf der [!UICONTROL Kanban]-Pinnwand bleiben. Aufgaben, die vom Kanban[!UICONTROL Board ], können weiterhin im ursprünglichen Projekt aufgerufen werden.
 
 {{step1-to-team}}
 
