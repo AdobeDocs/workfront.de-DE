@@ -7,9 +7,9 @@ role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 10bdce8dd7656d4313296ce830abe9c7baca1acb
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2224'
+source-wordcount: '2209'
 ht-degree: 3%
 
 ---
@@ -65,8 +65,6 @@ Um an der kostenlosen Testversion von Workfront Planning teilnehmen zu können, 
 
   Die Workfront Planning-Testversion ist nicht für die veralteten Workfront-Pakete verfügbar.
 Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
-* Zugriff auf die Adobe Admin Console
-* Ist Teil des Identity Management-Systems (IMS)
 * Akzeptieren Sie die Vereinbarung zur rechtlichen Testversion, die in der Workfront-Instanz Ihres Unternehmens zwischen dem 26. Januar und dem 1. April 2026 verfügbar ist. Sie müssen ein Workfront-Administrator sein, um die Testvereinbarung akzeptieren zu können.
 
 ## Übersicht über wichtige Termine
@@ -216,7 +214,7 @@ Sie können Beispiel-Planning-Arbeitsbereiche und deren Objekte überprüfen und
 
 1. (Bedingt und erforderlich) Als Workfront-Administrator unterzeichnen Sie die Vereinbarung über die kostenlose Testversion.
 
-   Weitere Informationen finden Sie im Abschnitt [Registrieren bei der kostenlosen Testversion von Adobe Workfront &#x200B;](#enroll-in-the-adobe-workfront-planning-free-trial).
+   Weitere Informationen finden Sie im Abschnitt [Registrieren bei der kostenlosen Testversion von Adobe Workfront ](#enroll-in-the-adobe-workfront-planning-free-trial).
 1. (Bedingt) Nachdem der Testvertrag von einem Workfront-Administrator unterzeichnet wurde, klicken Sie auf das **Hauptmenü**-Symbol ![](assets/main-menu-shell.png) und dann auf eine der folgenden Optionen, um auf den Bereich **Planung** zuzugreifen:
 
    * **Planung**. Neben dem Symbol wird die **&quot;**&quot; angezeigt.

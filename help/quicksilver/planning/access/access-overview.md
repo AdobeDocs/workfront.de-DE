@@ -8,10 +8,10 @@ role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 9%
+source-wordcount: '699'
+ht-degree: 8%
 
 ---
 
@@ -71,17 +71,19 @@ Sie müssen über die folgenden Zugriffsrechte verfügen, um Workfront Planning 
    <ul><li><p>Beliebiges Workfront-Paket und Planning Plus-Paket</p></li>
    <li><p>Beliebiges Workflow-Paket und ein Planning Prime- und Ultimate-Paket</p></li></ul> </td></tr>
 
-<tr>
-   <td role="rowheader"><p>Adobe Workfront-Plattform</p></td>
+<!--
+   <tr>
+   <td role="rowheader"><p>Adobe Workfront platform</p></td>
    <td>
-   <p>Um auf Workfront Planning zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p>
-   <p><b>WICHTIG</b></p>
-   <p>Nur Benutzende, die zum Adobe Identity Management System (IMS) hinzugefügt wurden, können Berechtigungen erhalten und zu Planungsfeldern hinzugefügt werden.</p>
-   <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>. </p>
+   <p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access Workfront Planning.</p>
+   <p><b>IMPORTANT</b></p>
+   <p>Only users added to the Adobe Identity Management System (IMS) can be granted permissions and added to Planning fields.</p>
+   <p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
    </td>
   </tr>
-  </tr>
-  <tr>
+  -->
+
+<tr>
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td>
    <td>
    <ul><li><p>Beliebig, um Workfront-Planungsinformationen anzuzeigen</p></li>

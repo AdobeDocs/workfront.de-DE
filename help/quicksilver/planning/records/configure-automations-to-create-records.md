@@ -8,18 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '1790'
+source-wordcount: '1763'
 ht-degree: 4%
 
 ---
 
 # Konfigurieren von Automatisierungen für Adobe Workfront-Planung
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 <!--add screen shots when UI is finalized AND redo all the steps - some things got changed and moved around-->
 
@@ -61,7 +63,7 @@ Informationen zum Erstellen von Datensätzen oder Objekten mithilfe einer besteh
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
    <td><p>Standard</p>
-   <p>Systemadministrator hat Zugriff auf die Konfiguration von Automatisierungen basierend auf der Änderung des Feldwerts</p>
+   <p>System Administrator to have access to configure automations based on Field value change</p>
    </td> 
   </tr> 
   <tr> 
@@ -138,9 +140,9 @@ Old:
 </table>
 -->
 
-## Automatisierung in Workfront Planning konfigurieren
+## Configure an automation in Workfront Planning
 
-Sie müssen in Workfront Planning eine Automatisierung für einen Datensatztyp konfigurieren, bevor Sie ihn zum Erstellen von Objekten verwenden können.
+You must configure an automation for a record type in Workfront Planning before you can use it to create objects.
 
 {{step1-to-planning}}
 
@@ -164,37 +166,33 @@ Die Seite mit den Automatisierungsdetails wird geöffnet.
    * **Trigger**: Wählen Sie eine Aktion aus, durch die die Automatisierung in Trigger gesetzt werden soll:
 
       * Klick auf Schaltfläche
-      * <span class="preview">Änderung des Feldwerts</span>
+      * Änderung des Feldwerts
 
-   1. (Bedingt) Wenn Sie **Schaltflächen-Klick** ausgewählt haben, gehen Sie zu Schritt 9 unten, der den Bereich **Aktionen** beschreibt. <!--ensure this number stays accurate-->
+1. (Bedingt) Wenn Sie **Schaltflächen-Klick** ausgewählt haben, gehen Sie zu Schritt 9 unten, der den Bereich **Aktionen** beschreibt. <!--ensure this number stays accurate-->
 
-   1. <span class="preview">(Bedingt) Wenn Sie **Feldwertänderung** ausgewählt haben, führen Sie folgende Schritte im Abschnitt **Einstellungen** aus: </span>
+1. (Bedingt) Wenn Sie **Feldwertänderung** ausgewählt haben, gehen Sie im Abschnitt **Einstellungen** wie folgt vor:
 
-      1. <span class="preview">Wählen Sie ein Feld aus dem Dropdown-Menü aus. Dies sind Felder, die mit dem ausgewählten Datensatztyp verknüpft sind.</span>
-      1. <span class="preview">Definieren Sie weitere Bedingungen für das ausgewählte Feld.</span>
-      1. <span class="preview">Klicken Sie auf **Bedingung hinzufügen**, um bis zu 5 Felder hinzuzufügen und ihre Bedingung zu definieren.</span>
+   1. Wählen Sie ein Feld aus dem Dropdown-Menü aus. Dies sind Felder, die mit dem ausgewählten Datensatztyp verknüpft sind.
+   1. Definieren Sie weitere Bedingungen für das ausgewählte Feld.
+   1. Klicken Sie **Bedingung hinzufügen**, um bis zu 5 Felder hinzuzufügen und ihre Bedingung zu definieren.
 
-         <span class="preview">Sie können einen der folgenden Feldtypen hinzufügen:</span>
+      Sie können einen der folgenden Feldtypen hinzufügen:
 
-         <div class="preview">
+      * Einzelauswahl
+      * Mehrfachauswahl
+      * Einzeiliger Text
+      * Absatz
+      * Zahl
+      * Kontrollkästchen
+      * Datum
 
-         * Einzelauswahl
-         * Mehrfachauswahl
-         * Einzeiliger Text
-         * Absatz
-         * Zahl
-         * Kontrollkästchen
-         * Datum
+      Workfront Planning erstellt Objekte automatisch, wenn die Bedingungen erfüllt sind.
 
-         </div>
+      ![Trigger zum Ändern des Feldwerts ausgewählt](assets/field-value-change-trigger-selected.png)
 
-         <span class="preview">Workfront Planning erstellt automatisch Objekte, wenn die Bedingungen erfüllt sind. </span>
-
-         ![Trigger zum Ändern des Feldwerts ausgewählt](assets/field-value-change-trigger-selected.png)
-
-         >[!TIP]
-         >
-         ><span class="preview">Der Modifikator in jeder Bedingung ändert sich mit dem ausgewählten Feldtyp.</span>
+      >[!TIP]
+      >
+      >Der Modifikator in jeder Bedingung ändert sich mit dem ausgewählten Feldtyp.
 
 1. Aktualisieren Sie die folgenden Felder im Abschnitt **Aktionen**: <!--submitted bugs for these fields - see if they need changing here-->
    * **Aktionen**: Wählen Sie die Aktion aus, die Workfront beim Auslösen der Automatisierung ausführen soll. Dies ist ein Pflichtfeld.
@@ -218,9 +216,9 @@ Eine der folgenden Aktionen auswählen:
       * **Verbundenes Feld, in dem das Projekt erstellt wird**: Dies ist das verbundene Feld, in dem das neue Projekt angezeigt wird. Dies ist ein Pflichtfeld.
       * **Projektvorlage**: Wählen Sie eine Projektvorlage aus, die Workfront zum Erstellen des Projekts verwenden wird.
 
-   * Mehrere Projekte erstellen:
+   * **Erstellen mehrerer Projekte**:
       * **Verbundenes Feld, in dem das Projekt erstellt wird**: Dies ist das verbundene Feld, in dem das neue Projekt angezeigt wird. Dies ist ein Pflichtfeld.
-      * **Feld, durch dessen Auswahl die Datensätze erstellt werden**: Wählen Sie ein Mehrfachauswahlfeld oder ein Einzelauswahlfeld aus dem ausgewählten Datensatztyp aus. Workfront erstellt ein Projekt für jedes Feld, das derzeit im Datensatz ausgewählt ist, aus dem Sie die Automatisierung Trigger haben.
+      * **Field whose choices will create the records**: Choose a multi- or single-select field from the selected record type. Workfront erstellt ein Projekt für jedes Feld, das derzeit im Datensatz ausgewählt ist, aus dem Sie die Automatisierung Trigger haben.
 
      >[!TIP]
      >
@@ -230,10 +228,10 @@ Eine der folgenden Aktionen auswählen:
       * **Dieselbe Vorlage verwenden**: Wählen Sie diese Option, um für jedes neue Projekt dieselbe Vorlage zu verwenden. Wenn die Option nicht ausgewählt ist, wählen **für jede Feldauswahl eine** Projektvorlage) aus.
       * **Projektvorlage**: Wenn Sie die Option **Dieselbe Vorlage verwenden** ausgewählt haben, wählen Sie eine Projektvorlage aus, die Workfront zum Erstellen der Projekte verwenden wird.
 
-   * **Portfolio erstellen**:
+   * **Create portfolio**:
       * **Verbundenes Feld, in dem das Portfolio erstellt wird**: Dies ist das verbundene Feld, in dem das neue Portfolio angezeigt wird. Dies ist ein Pflichtfeld.
-      * **Benutzerdefiniertes Formular, das an das neue Portfolio angehängt werden soll**: Wählen Sie ein benutzerdefiniertes Formular aus, das an das neue Portfolio angehängt werden soll. Sie müssen ein benutzerdefiniertes Portfolio-Formular erstellen, bevor Sie es auswählen können.
-   * **Programm erstellen**:
+      * **Benutzerdefiniertes Formular, das an das neue Portfolio angehängt werden soll**: Wählen Sie ein benutzerdefiniertes Formular aus, das an das neue Portfolio angehängt werden soll. You must create a portfolio custom form before you can select it.
+   * **Create program**:
       * **Verbundenes Feld, in dem das Programm erstellt wird**: Dies ist das verbundene Feld, in dem das neue Programm angezeigt wird. Dies ist ein Pflichtfeld.
       * **Programm-**: Wählen Sie ein Portfolio aus, in dem das neue Programm hinzugefügt werden soll. Dies ist ein Pflichtfeld.
       * **Benutzerdefiniertes Formular, das an das neue Programm angehängt werden soll**: Wählen Sie ein benutzerdefiniertes Formular aus, das an das neue Programm angehängt werden soll. Sie müssen ein benutzerdefiniertes Programmformular erstellen, bevor Sie es auswählen können.
@@ -254,8 +252,8 @@ Eine der folgenden Aktionen auswählen:
         <!--submitted a change in functionality and UI text for this - revise??-->
 Aktualisieren Sie **Bereich** Zuordnungsfelder“ die folgenden Informationen:
 
-         * **Übertragen von**: Wählen Sie Felder aus dem Datensatztyp aus, für den die Automatisierung erstellt wird, um sie den Feldern des verbundenen Datensatztyps zuzuordnen.
-         * **Übertragen an**: Wählen Sie Felder aus dem neu erstellten Datensatz aus, die mit Informationen aus dem Datensatz gefüllt werden, für den Sie die Automatisierung ausführen.
+         * **Transfer from**: Select fields from the record type the automation is created for to map them to the fields of the connected record type.
+         * **Transfer to**: Select fields from the newly created record that will populate with information from the record you are running the automation from.
 
         >[!TIP]
         >
@@ -263,7 +261,7 @@ Aktualisieren Sie **Bereich** Zuordnungsfelder“ die folgenden Informationen:
         >* Wenn Sie keine Felder auswählen, lauten die Namen der neuen Datensätze **Unbenannter Datensatz**.
 
 1. (Optional und bedingt) Wenn Sie ausgewählt haben, einen Datensatz zu erstellen, klicken Sie auf **Felder hinzufügen**, um zusätzliche Suchfelder von einem Datensatz einem anderen zuzuordnen.
-1. (Bedingt) Wenn keine Verbindungsfelder zwischen dem ursprünglichen Datensatztyp und dem im Feld „Datensatztyp“ ausgewählten Datensatztyp vorhanden sind **klicken Sie** Verbundenes Feld hinzufügen **&#x200B;**.
+1. (Bedingt) Wenn keine Verbindungsfelder zwischen dem ursprünglichen Datensatztyp und dem im Feld „Datensatztyp“ ausgewählten Datensatztyp vorhanden sind **klicken Sie** Verbundenes Feld hinzufügen ****.
 
    ![Automatisierungseinstellungen zum Erstellen eines Datensatzes](assets/automation-setup-create-record.png)
 
@@ -275,9 +273,9 @@ Aktualisieren Sie **Bereich** Zuordnungsfelder“ die folgenden Informationen:
      Wenn Sie beispielsweise eine Automatisierung für Kampagnen konfigurieren, um automatisch einen anderen Datensatztyp namens Marken zu erstellen, und auf **Verbundenes Feld hinzufügen** klicken, werden die folgenden Felder erstellt:
 
       * Das **Verbundener Datensatz** Verbindungsfeld wird für den Datensatztyp **Marken** erstellt.
-      * Das **Marken** Verbindungsfeld wird für den Datensatztyp **Kampagnen** erstellt.
+      * The **Brands** connection field is created for the **Campaigns** record type.
 
-1. (Optional) Wenn keine Verbindungsfelder zwischen dem ursprünglichen Datensatztyp und dem im Bereich Aktionen ausgewählten Workfront-Objekt vorhanden sind, klicken Sie auf **Verbundenes Feld hinzufügen**.
+1. (Optional) If there are no connection fields between the original record type and the Workfront object selected in the Actions area, click **Add connected field**.
 
    ![Automatisierungseinstellungen zum Erstellen mehrerer Projekte](assets/automation-setup-create-multiple-projects.png)
 
@@ -301,25 +299,28 @@ Aktualisieren Sie **Bereich** Zuordnungsfelder“ die folgenden Informationen:
 
    Die Liste der verfügbaren Automatisierungen für den ausgewählten Datensatztyp wird geöffnet.
 
-1. (Optional) Führen Sie einen der folgenden Schritte aus, um eine Automatisierung zu bearbeiten, zu deaktivieren oder zu löschen:
+1. (Optional) Um eine Automatisierung anzuzeigen, zu deaktivieren oder zu löschen, klicken Sie in einer Liste von Automatisierungen auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Namen einer Automatisierung und führen Sie dann einen der folgenden Schritte aus:
 
-   1. Bewegen Sie in der Automatisierungsliste den Mauszeiger über den Namen einer gespeicherten Automatisierung und klicken Sie dann auf das Menü **Mehr** ![Mehr](assets/more-menu.png).
+   * Klicken Sie bei einer Automatisierung der Feldwertänderung auf **Anzeigen**, um die Einstellungen der Automatisierung anzuzeigen.
 
-   1. Klicken Sie **Bearbeiten**, um die folgenden Informationen zu aktualisieren:
+     >[!TIP]
+     >
+     >Wenn die Automatisierung durch eine Änderung eines Feldwerts ausgelöst wird, können die Einstellungen einer Automatisierung nach dem Speichern nicht mehr bearbeitet werden.
 
-      * Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Automatisierungsnamen und klicken Sie dann auf **Bearbeiten**, um den Namen der Automatisierung zu ändern.
-      * Alle Felder in der Automatisierung, mit Ausnahme des Felds **Aktionen**.
+   * Klicken Sie bei einer Schaltflächen-Klick-Automatisierung auf **Bearbeiten**, um die folgenden Informationen zu aktualisieren:
 
-        >[!TIP]
-        >
-        >Die Aktion, die Sie ursprünglich für eine Automatisierung ausgewählt haben, kann nicht geändert werden.
+      * Geben Sie den Namen der Automatisierung ein, indem Sie auf **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Automatisierungsnamen und dann **Bearbeiten** klicken.
+      * Beliebiges Feld in der Automatisierung, mit Ausnahme des Felds **Aktionen**.
 
+     >[!TIP]
+     >
+     >Die Aktion, die Sie ursprünglich für eine Automatisierung ausgewählt haben, kann nicht geändert werden.
 
-   1. Klicken Sie auf **Deaktivieren**, um die Automatisierung aus der Tabellenansicht des Datensatzes zu entfernen und zu verhindern, dass Benutzer sie zum Erstellen von Datensätzen oder Objekten verwenden.
+   * Klicken Sie auf **Deaktivieren**, um die Automatisierung aus der Tabellenansicht des Datensatzes zu entfernen und zu verhindern, dass Benutzer sie zum Erstellen von Datensätzen oder Objekten verwenden.
 
-      Datensätze, die mit einer deaktivierten Automatisierung erstellt wurden, bleiben mit dem ursprünglich ausgewählten Datensatz verbunden.
+     Records that have been created using a disabled automation remain connected to the record originally selected.
 
-      Um sie wieder verfügbar zu machen, klicken Sie erneut auf das **Mehr** Menü ![Mehr](assets/more-menu.png) und dann auf **Aktivieren**.
-   1. Klicken Sie **Löschen**, um die Automatisierung zu löschen. Eine gelöschte Automatisierung kann nicht wiederhergestellt werden.
+     Um sie wieder verfügbar zu machen, klicken Sie erneut auf das **Mehr** Menü ![Mehr](assets/more-menu.png) und dann auf **Aktivieren**.
+   * Klicken Sie **Löschen**, um die Automatisierung zu löschen. Eine gelöschte Automatisierung kann nicht wiederhergestellt werden.
 
-      Datensätze, die mithilfe einer gelöschten Automatisierung erstellt wurden, bleiben mit dem ursprünglich ausgewählten Datensatz verbunden.
+     Datensätze, die mithilfe einer gelöschten Automatisierung erstellt wurden, bleiben mit dem ursprünglich ausgewählten Datensatz verbunden.

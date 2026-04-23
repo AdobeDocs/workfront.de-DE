@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '545'
 ht-degree: 9%
 
 ---
@@ -105,7 +105,7 @@ Old:
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie auf das **Hauptmenü**-Symbol![Hauptmenüzeilen](assets/lines-main-menu.png) in der oberen linken Ecke oder auf das **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke, klicken Sie auf **Projekte** und erweitern Sie dann **Neues Projekt**.
+   * Klicken Sie auf **Hauptmenü** Symbol ![Hauptmenüzeilen](assets/lines-main-menu.png) in der oberen linken Ecke, klicken Sie auf **Projekte** und erweitern Sie dann **Neues Projekt**.
    * Gehen Sie zu einem Portfolio und erweitern Sie dann **Neues Projekt**.
    * Wechseln Sie zu einem Programm und erweitern Sie dann **Neues Projekt**.
    * Wenn Sie Gruppenadministrator sind, können Sie im Abschnitt Projekte einer Gruppe, die Sie verwalten, auch ein Projekt erstellen. Weitere Informationen finden Sie unter [Erstellen und Ändern der Projekte einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
@@ -122,7 +122,7 @@ Old:
 
    * Erstellen Sie ein Projekt von Grund auf oder mithilfe einer Vorlage und ändern Sie den Status in **angefordert**.
 
-     Weitere Informationen finden Sie unter [Erstellen eines &#x200B;](../../../manage-work/projects/create-projects/create-project.md) oder [Erstellen eines Projekts mithilfe einer Vorlage](../../../manage-work/projects/create-projects/create-project-from-template.md).
+     Weitere Informationen finden Sie unter [Erstellen eines ](../../../manage-work/projects/create-projects/create-project.md) oder [Erstellen eines Projekts mithilfe einer Vorlage](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
    Das angeforderte Projekt hat den Status **angefordert** und wird auf der Registerkarte **Angeforderte Projekte** einer Portfolio angezeigt, wenn Sie es mit einer Portfolio verknüpft haben.
 

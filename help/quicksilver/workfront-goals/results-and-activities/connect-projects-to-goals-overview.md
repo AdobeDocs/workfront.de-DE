@@ -10,9 +10,9 @@ feature: Workfront Goals
 exl-id: 683c9cd9-6c7b-4d50-b326-b4000c9863e8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '859'
 ht-degree: 12%
 
 ---
@@ -175,7 +175,7 @@ There is an indication on the goal list that the project no longer updates progr
 
 ## Projekte zu Zielen hinzufügen
 
-1. Klicken Sie auf **Hauptmenü** ![Hauptmenüsymbol](assets/main-menu-icon.png) (entwerfen Sie diese für Shell: oder klicken Sie auf das **Hauptmenü** ![Hauptmenüzeilen](assets/three-line-main-menu-icon.png) in der oberen linken Ecke, falls verfügbar.) , dann **Ziele**.
+1. Klicken Sie auf **Hauptmenü** ![Hauptmenüsymbol](assets/lines-main-menu.png) und dann auf **Ziele**.
 1. Klicken Sie in der Liste Ziel auf den Namen eines Ziels, um die Seite Ziel zu öffnen.
 1. Klicken Sie **linken Bereich** Fortschrittsanzeigen“.
 1. Klicken Sie **Dropdown-Menü** Neue Fortschrittsanzeige“ auf **Vorhandenes Projekt hinzufügen**.

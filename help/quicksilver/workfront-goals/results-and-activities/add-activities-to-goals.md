@@ -9,7 +9,7 @@ feature: Workfront Goals
 exl-id: 4d6ef324-4b5c-402b-b64d-b1a2a7d2ab57
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 21%
@@ -20,7 +20,7 @@ ht-degree: 21%
 
 <!--Audited for P&P only: 10/2025-->
 
-Aktivitäten messen den Fortschritt eines Ziels. Ohne die Verknüpfung von Ergebnissen, Aktivitäten, Projekten oder abgestimmten Zielen können Sie ein Ziel nicht aktivieren und den Fortschritt nicht aufzeichnen.
+Aktivitäten messen den Fortschritt eines Ziels. Without associating results, activities, projects, or aligned goals, you cannot activate a goal and you cannot record progress on it.
 
 ## Zugriffsanforderungen
 
@@ -135,7 +135,7 @@ Old:
 
 ## Voraussetzungen
 
-Sie müssen über ein vorhandenes Ziel verfügen, um Aktivitäten hinzuzufügen.
+You must have an existing goal to add activities to it.
 
 Informationen zum Erstellen von Zielen finden Sie unter [Erstellen von Zielen in Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
 
@@ -198,16 +198,16 @@ Adding activities to goals differs depending on which environment you use.
 -->
 
 
-1. Klicken Sie auf **Hauptmenü** ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **Ziele**.
+1. Klicken Sie auf **Hauptmenü** ![Hauptmenüsymbol](assets/lines-main-menu.png) und dann auf **Ziele**.
 1. Klicken Sie in der Liste Ziel auf den Namen eines Ziels, um die Seite des Ziels zu öffnen.
 1. Klicken Sie **linken Bereich** Fortschrittsanzeigen“.
 1. Klicken Sie im Dropdown-Menü Neue Fortschrittsanzeige auf **Aktivität erstellen**.
 
    Das Feld Neue Aktivität wird geöffnet.
 
-   ![Neues Aktivitätsfeld](assets/new-activity-box-unshimmed.png)
+   ![New activity box](assets/new-activity-box-unshimmed.png)
 
-1. Geben Sie im Feld Aktivitätsname einen Namen für die Aktivität ein. Dies ist ein Pflichtfeld.
+1. Enter a name for the activity in the Activity name field. Dies ist ein Pflichtfeld.
 1. (Optional) Entfernen Sie Ihren Namen aus dem Feld **Aktivitätsinhaber**, wenn Sie die Aktivität einem anderen Benutzer zuweisen möchten. Standardmäßig sind Sie der Eigentümer einer von Ihnen erstellten Aktivität.
 
    >[!NOTE]

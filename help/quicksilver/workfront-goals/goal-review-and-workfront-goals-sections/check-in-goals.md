@@ -8,7 +8,7 @@ feature: Workfront Goals
 exl-id: 5092f508-e52c-4934-a8c1-d0be04ecce13
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 12%
@@ -296,7 +296,7 @@ When you check in on a goal in the Check-in section, you can update the progress
 
 So aktualisieren Sie den Fortschritt bei Zielen:
 
-1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) > **Ziele** in der oberen rechten Ecke.
+1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/lines-main-menu.png) > **Ziele** in der oberen rechten Ecke.
 
    <!--
     Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)

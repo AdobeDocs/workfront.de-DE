@@ -10,9 +10,9 @@ role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2839'
+source-wordcount: '2688'
 ht-degree: 3%
 
 ---
@@ -20,9 +20,11 @@ ht-degree: 3%
 # Projektvoreinstellungen für eine Gruppe konfigurieren
 
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Wenn Sie Gruppenadministrator sind und ein Adobe Workfront-Administrator eine Projektvoreinstellung für alle Gruppen im System freischaltet, können Sie diese Voreinstellung für Ihre Gruppe so konfigurieren, dass sie sich auf alle nachfolgenden Projekte auswirkt, die Ihre Gruppe erstellt.
 
@@ -233,15 +235,17 @@ Konfigurieren Sie eine der folgenden Voreinstellungen für neu erstellte Projekt
      <li><strong>Typische Arbeitstage pro Woche</strong>: Legen Sie die Standard-Arbeitswoche für die Benutzer fest, die an Projekten arbeiten werden. Der Standardwert ist 5 Tage.</li> 
     </ul> <p>Diese zwei Optionen konvertieren Tage in Stunden bzw. Wochen in Tage.</p> <p>Wenn beispielsweise ein Vorgang mit acht geplanten Stunden vorhanden ist und die Dauer auf der Grundlage der geplanten Stunden berechnet wird, wandelt Workfront diese Stunden in Tage um, um die Dauer als Tage anzuzeigen.</p> <p>Aus dem Feld Typische Arbeitstage pro Woche berechnet Workfront den Vollzeitäquivalentwert (VZÄ) für Ihr System. Dies wird von Workfront bei der Berechnung der Zuweisungen für -Benutzer verwendet.</p> <p>Diese Werte werden verwendet, wenn Sie Projektzeitleisten planen, Ressourcen budgetieren oder Zeit für Projekte protokollieren. </p> <p>Sie werden nicht verwendet, wenn Sie Arbeitszeittabellen für Benutzende im System erstellen, wie in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">Konfigurieren von Arbeitszeittabellen- und Stundeneinstellungen</a> beschrieben.</p> <p><b>HINWEIS</b>: Workfront-Administratoren können die Voreinstellungen für Zeitleistenberechnungen nicht entsperren.</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p><strong>Benutzerdefinierte Quartale</strong> </p> </td> 
+  <!--
+  <tr> 
+   <td role="rowheader"> <p><strong>Custom Quarters</strong> </p> </td> 
    <td> 
-   <span class="preview">Der Bereich Benutzerdefinierte Quartale wurde aus dem Abschnitt „Projektvoreinstellungen“ der Gruppe in der Vorschau-Umgebung entfernt.</span>
-   <p>Benutzerdefinierte Quartale sind in der Regel Quartale, die nicht der herkömmlichen Aufschlüsselung von Quartalen während eines Kalenderjahres entsprechen. Ein Workfront-Administrator kann mehrere benutzerdefinierte Quartale im Bereich <b>Setup</b> hinzufügen. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Benutzerdefinierte Quartale </a>.</p>  
-   <p><b>WICHTIG<b></p>
-   <p>Sie können die Konfiguration für benutzerdefiniertes Quartal nicht als Gruppenadministrator ändern. <p>Workfront-Administratoren können Voreinstellungen für benutzerdefinierte Quartale nicht entsperren, damit Gruppenadministratoren sie verwalten können.</p> <p>Der Bereich Benutzerdefinierte Quartale ist für Gruppenadministratoren schreibgeschützt.</p>
+   <span class="preview">The Custom Quarters area has been removed from the Group's Project Preferences section in the Preview environment.</span>
+   <p>Custom quarters are usually quarters that do not match the traditional breakdown of quarters during a calendar year. A Workfront administrator can add multiple custom quarters in the <b>Setup</b> area. For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Enable custom quarters</a>.</p>  
+   <p><b>IMPORTANT<b></p>
+   <p>You cannot change the Custom Quarter configuration as a group administrator. <p>Workfront administrators cannot unlock Custom Quarters preferences so that group administrators can manage it.</p> <p>The Custom Quarters area is read-only for group administrators.</p>
    </td> 
   </tr> 
+  -->
  </tbody> 
 </table>
 

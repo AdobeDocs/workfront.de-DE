@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2400'
+source-wordcount: '2342'
 ht-degree: 1%
 
 ---
@@ -95,9 +95,9 @@ Folgendes muss vorhanden sein, bevor Sie eine Anfrage an ein Workfront Planning-
 
    * Extern, indem Sie einen Link zum Datensatzformular für externe Personen freigeben, die kein Workfront-Konto haben.
 
-     Benutzende von Workfront können auch auf den Link zugreifen, der für externe Personen freigegeben wurde.
+     Workfront users can also access the link shared with external people.
 
-* Bei Freigabe über einen Link darf der Link zum Formular nicht abgelaufen sein.
+* If shared with a link, the link to the form must not be expired.
 
 ## Überlegungen zum Senden von Anfragen an Workfront Planning
 
@@ -132,12 +132,11 @@ Not sure how to change the request status, but dev also said: Changing the names
 
 {{step1-to-requests}}
 
-1. Aktivieren Sie **Einstellung**&#x200B;Neues Erlebnis verwenden“ in der rechten oberen Ecke des Bildschirms.
+1. Aktivieren Sie **Einstellung**Neues Erlebnis verwenden“ in der rechten oberen Ecke des Bildschirms.
 Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformulare im Bereich **Anfragen** von Workfront verfügbar.
 
    >[!TIP]
    >
-   >Diese Einstellung ist nur verfügbar, wenn Ihre Workfront-Instanz in das einheitliche Adobe-Erlebnis integriert ist.
    >
    >Um Workfront-Planungsanfragen in diesem Bereich senden zu können, müssen Sie die folgenden Bedingungen erfüllen:
    >
@@ -192,11 +191,7 @@ Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformula
    * Sie erhalten eine In-App- und eine E-Mail-Benachrichtigung, dass die Anfrage entweder erfolgreich übermittelt wurde oder zur Überprüfung gesendet wurde.
    * Wenn das Anfrageformular mit einer Genehmigung verknüpft war, erhalten die genehmigenden Personen eine In-App- und eine E-Mail-Benachrichtigung, um die Anfrage zu überprüfen und zu genehmigen.
 
-     >[!NOTE]
-     >
-     >Die E-Mail- und In-App-Benachrichtigung sind nur sichtbar, wenn die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert wird.
-     >
-     >In der Bestätigungs- oder Validierungsbenachrichtigung per E-Mail ist ein Link zur Anfrage vorhanden.
+     In der Bestätigungs- oder Validierungsbenachrichtigung per E-Mail ist ein Link zur Anfrage vorhanden.
 
 1. (Optional) Klicken Sie in **Bestätigungsmeldung auf** Anforderung anzeigen“, um die Anforderung zu öffnen, oder klicken Sie auf das Symbol **X**, um die Bestätigung zu schließen.
 1. (Optional) Um zu verwalten, wie die Informationen in der Anfragenliste angezeigt werden, aktualisieren Sie die folgenden Ansichtselemente für die Liste:
@@ -289,10 +284,6 @@ Externe Personen können nicht auf interne Bereiche von Workfront zugreifen, z *
 
    * Sie erhalten eine In-App- und eine E-Mail-Benachrichtigung, dass die Anfrage entweder erfolgreich übermittelt wurde oder zur Überprüfung gesendet wurde.
    * Wenn das Anfrageformular mit einer Genehmigung verknüpft war, erhalten die genehmigenden Personen eine In-App- und eine E-Mail-Benachrichtigung, um die Anfrage zu überprüfen und zu genehmigen.
-
-     >[!NOTE]
-     >
-     >Die E-Mail- und In-App-Benachrichtigung sind nur sichtbar, wenn die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert wird.
 
      Nachdem die Anfrage genehmigt und der Datensatz erstellt wurde, zeigen die Felder Genehmigt von und Genehmigt Datum Informationen zur Genehmigung des Datensatzes an.
 

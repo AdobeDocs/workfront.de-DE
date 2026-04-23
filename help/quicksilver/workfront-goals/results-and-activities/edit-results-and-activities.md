@@ -9,7 +9,7 @@ feature: Workfront Goals
 exl-id: 922a05f9-2995-4401-a6d2-e5a331270fd3
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 13%
@@ -191,7 +191,7 @@ Editing results differs depending on which environment you use.
 -->
 
 
-1. Klicken Sie auf **Hauptmenü** ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **Ziele**.
+1. Klicken Sie auf **Hauptmenü** ![Hauptmenüsymbol](assets/lines-main-menu.png) und dann auf **Ziele**.
 1. Klicken Sie in der Liste Ziel auf den Namen eines Ziels, um die Seite Ziel zu öffnen.
 1. Klicken Sie **linken Bereich** Fortschrittsanzeigen“.
 1. Wählen Sie ein Ergebnis in der Liste der Fortschrittsanzeigen aus und klicken Sie auf das **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png).
@@ -236,7 +236,7 @@ Editing activities differs depending on which environment you use.
 1. Click **Save**.
 -->
 
-1. Klicken Sie auf **Hauptmenü** ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **Ziele**.
+1. Klicken Sie auf **Hauptmenü** ![Hauptmenüsymbol](assets/lines-main-menu.png) und dann auf **Ziele**.
 1. Klicken Sie in der Liste Ziel auf den Namen eines Ziels, um die Seite Ziel zu öffnen.
 1. Klicken Sie **linken Bereich** Fortschrittsanzeigen“.
 1. Wählen Sie eine Aktivität in der Liste Fortschrittsanzeigen aus und klicken Sie auf das Symbol **Bearbeiten** ![Symbol Bearbeiten](assets/edit-icon.png).

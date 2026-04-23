@@ -8,19 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '4067'
+source-wordcount: '4007'
 ht-degree: 3%
 
 ---
 
 # Verwalten der Timeline-Ansicht
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -405,22 +406,18 @@ So fügen Sie eine Gruppierung in der Zeitleisten -Ansicht hinzu:
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
 1. Klicken Sie **Gruppierung** in der oberen rechten Ecke der Zeitleisten -Ansicht.
 
-   <span class="preview">![Zeitleisten-Ansicht der Gruppierungs-Benutzeroberfläche mit verknüpften Feldern](assets/grouping-ui-timeline-view-with-linked-fields.png)</span>
+   ![Zeitleisten-Ansicht der Gruppierungs-Benutzeroberfläche mit verknüpften Feldern](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. Klicken Sie auf eines der vorgeschlagenen Felder oder klicken Sie auf **Anderes Feld auswählen** und suchen Sie nach einem anderen Feld. Klicken Sie dann auf das Feld, wenn es in der Liste angezeigt wird.
 
    Die Gruppierung wird automatisch auf die Zeitleiste angewendet und die Datensätze werden im Gruppierungsfeld angezeigt.
-1. <span class="preview">(Optional und bedingt) Wählen Sie je nach Feldtyp, nach dem Sie gruppieren möchten, eine der folgenden Sortieroptionen, um die Gruppierungen entweder in auf- oder absteigender Reihenfolge zu sortieren: </span>
-
-   <div class="preview">
+1. (Optional und bedingt) Wählen Sie je nach Feldtyp, nach dem Sie gruppieren möchten, eine der folgenden Sortieroptionen, um die Gruppierungen entweder in auf- oder absteigender Reihenfolge zu sortieren:
 
    * **A -> Z** oder **Z -> A** für Felder, Textfelder, Absatzfelder, verbundene Datensätze oder Objekte, Personenfelder auswählen
    * **0 -> 9** oder **9 -> 0** für Felder vom Typ Zahl, Währung oder Prozentsatz.
    * **früheste -> neueste** oder **neueste -> früheste** für Datumsfelder
 
-   </div>
-
-   <span class="preview"> Die Gruppierungen in der Zeitleisten -Ansicht werden entsprechend sortiert. Die Datensätze innerhalb der Gruppierungen werden in der Reihenfolge ihres **Startdatums) sortiert** was die Standardsortierung ist. </span>
+   Die Gruppierungen in der Zeitleisten -Ansicht werden entsprechend sortiert. Die Datensätze innerhalb der Gruppierungen werden in der Reihenfolge ihres **Startdatums) sortiert** was die Standardsortierung ist.
 
 1. (Optional) Wiederholen Sie die obigen Schritte, um bis zu 3 Gruppierungen hinzuzufügen.
 
@@ -437,7 +434,7 @@ So fügen Sie eine Gruppierung in der Zeitleisten -Ansicht hinzu:
    Klicken Sie auf **Alle löschen**, um alle Felder zu entfernen.
 
 1. Klicken Sie außerhalb des Felds **Datensätze gruppieren nach**, um es zu schließen.
-1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [&#x200B; Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
+1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [ Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
 
 <!-- 
 
@@ -590,7 +587,7 @@ Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quic
 #### Aufschlüsseln verbundener Datensätze
 
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie in den **&#x200B;**- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
+1. Klicken Sie in den ****- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
 1. Erweitern Sie das **Verknüpften Datensatztyp auswählen** und wählen Sie einen verbundenen Datensatztyp aus. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![Aufschlüsselungsauswahl und Schaltfläche in der Zeitleisten-Ansicht](assets/breakdown-picker-and-button-on-timeline.png)

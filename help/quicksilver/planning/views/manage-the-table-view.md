@@ -8,19 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '3563'
+source-wordcount: '3503'
 ht-degree: 2%
 
 ---
 
 # Verwalten der Tabellenansicht
 
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>
 
-<span class="preview">Die auf dieser Seite hervorgehobenen Informationen beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
-
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -241,7 +242,7 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
    >
    >Die Anzahl der ausgeblendeten Felder wird links neben dem Symbol Felder in der Symbolleiste angezeigt.
    >
-   ><span class="preview">Standardmäßig werden ausgeblendete Felder nicht im Vorschaufeld **Details** des Datensatzes angezeigt. Alle Felder werden auf der Detailseite des Datensatzes angezeigt. Weitere Informationen finden Sie unter [Seitenlayout für Einträge verwalten](/help/quicksilver/planning/records/manage-the-record-page.md)</span>
+   >Standardmäßig werden ausgeblendete Felder nicht im Vorschaufeld (Details **des** angezeigt. Alle Felder werden auf der Detailseite des Datensatzes angezeigt. Weitere Informationen finden Sie unter [Seitenlayout für Einträge verwalten](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 
 1. Klicken Sie auf **Felder** und aktivieren Sie den Umschalter, der mit den Feldern verknüpft ist, die Sie in den Spalten der Tabelle anzeigen möchten. Standardmäßig werden alle Felder angezeigt.
@@ -601,11 +602,11 @@ Wenn Sie die Tabellenansicht anzeigen, können Sie auch anzeigen, welches Feld e
 
    <!--maybe include a screen shot after release if they update the UI text in this list of users-->
 
-1. <span class="preview">(Optional) Klicken Sie auf das Dreieck in der oberen rechten Ecke der Zelle, die das von anderen bearbeitete Feld enthält. Eine Liste der Benutzenden, die das Feld derzeit bearbeiten, wird angezeigt.</span>
+1. (Optional) Klicken Sie auf das Dreieck in der oberen rechten Ecke der Zelle, die das von anderen bearbeitete Feld enthält. Eine Liste der Benutzenden, die das Feld derzeit bearbeiten, wird angezeigt.
 
 >[!TIP]
 >
-><span class="preview">Echtzeit-Präsenzindikatoren zeigen Benutzer an, die derzeit ein Feld an einer beliebigen Stelle in Workfront Planning bearbeiten. Dazu gehören entweder die Tabellenansicht oder der Detailbereich des Datensatzes.</span>
+>In Echtzeit-Präsenzindikatoren werden Benutzende angezeigt, die derzeit ein Feld an einer beliebigen Stelle in Workfront Planning bearbeiten. Dazu gehören entweder die Tabellenansicht oder der Detailbereich des Datensatzes.
 
 
 

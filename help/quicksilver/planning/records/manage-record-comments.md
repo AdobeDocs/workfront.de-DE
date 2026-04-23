@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '874'
+source-wordcount: '822'
 ht-degree: 2%
 
 ---
@@ -141,8 +141,6 @@ Old:
 </table>
 -->
 
-
-
 ## Überlegungen zum Kommentieren eines Datensatzes
 
 * In Workfront Planning können Sie im Abschnitt „Kommentare“ eines Datensatzes Kommentare und Antworten zu Datensätzen hinzufügen.
@@ -158,10 +156,6 @@ Old:
   So werden beispielsweise Kommentare, die Projekten in Workfront hinzugefügt wurden, nicht im selben Projekt angezeigt, das mit einer Kampagne in Workfront Planning verknüpft ist, und Kommentare, die zum Projekt-Workfront Planning-Datensatz hinzugefügt wurden, werden in Workfront nicht angezeigt.
 
 * Sie können Benutzer oder Teams taggen, um ihre Aufmerksamkeit auf ein Update zu lenken. Sowohl einzeln getaggte Benutzer als auch Benutzer der getaggten Teams erhalten eine In-App-Benachrichtigung und eine E-Mail zu Ihrem Update.
-
-  >[!NOTE]
-  >
-  >   Nur Benutzer von Kunden, die sich für Adobe Unified Experience entschieden haben, erhalten sowohl eine In-App-Benachrichtigung als auch eine E-Mail-Benachrichtigung. Informationen dazu, ob Ihr Unternehmen Adobe Unified Experience verwendet, finden Sie unter [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 * Sie können eine Aktualisierung zu Datensätzen hinzufügen und den Änderungsverlauf aus den folgenden Bereichen von Workfront Planning überprüfen:
 
@@ -197,7 +191,7 @@ Die Seite „Datensatztyp“ wird geöffnet und alle Datensätze dieses Typs wer
 1. (Optional) Um eine Änderung rückgängig zu machen oder wiederherzustellen, verwenden Sie die folgenden Tastenkombinationen:
    * Strg+Z (⌘+Z für Mac), um eine Änderung rückgängig zu machen
    * Strg+Y (⌘+Y für Mac), um eine Änderung wiederherzustellen
-1. (Optional und bedingt) Wenn Ihre Workfront-Instanz Teil von Adobe Unified Experience ist, fügen Sie **@** hinzu, gefolgt vom Namen eines Benutzers oder Teams, um sie in der Aktualisierung zu taggen. Weitere Informationen finden Sie im Abschnitt [Überlegungen zum Kommentieren eines Datensatzes](#considerations-about-commenting-on-a-record) in diesem Artikel.
+1. Fügen Sie **@** hinzu, gefolgt vom Namen eines Benutzers oder Teams, um sie in der Aktualisierung zu taggen. Weitere Informationen finden Sie im Abschnitt [Überlegungen zum Kommentieren eines Datensatzes](#considerations-about-commenting-on-a-record) in diesem Artikel.
 
 1. (Optional) Verwenden Sie die Optionen in der Rich-Text-Symbolleiste, um Ihren Text zu formatieren, Emojis oder Links zu Ihrer Aktualisierung hinzuzufügen, um Ihren Inhalt zu verbessern.
 
@@ -210,7 +204,7 @@ Die Seite „Datensatztyp“ wird geöffnet und alle Datensätze dieses Typs wer
 
    Weitere Informationen zum Aktualisieren von Objekten, einschließlich Workfront-Planungsdatensätzen, finden Sie unter [Arbeit aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Optional) Klicken Sie auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/more-menu.png) oben rechts im Kommentar und dann auf **Löschen**, um den Kommentar zu löschen.
+1. (Optional) Klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/more-menu.png) oben rechts im Kommentar und dann auf **Löschen**, um den Kommentar zu löschen.
 1. (Optional) Klicken Sie auf das Symbol **Kommentare ausblenden** ![Symbol „Kommentare ausblenden](assets/hide-comments-icon.png), um das rechte Bedienfeld zu schließen.
 
 <!--

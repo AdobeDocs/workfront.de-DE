@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '1289'
-ht-degree: 2%
+source-wordcount: '929'
+ht-degree: 3%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 2%
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-<!--take Preview and Production references at Production time-->
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
-
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -82,58 +82,53 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 * Wenn mindestens eine genehmigende Person die Anforderung ablehnt und alle anderen sie genehmigen, wird eine Anforderung für den Bereich Anfragen in Workfront erstellt, aber es wird kein Datensatz für den Datensatztyp erstellt, der mit dem Anfrageformular verknüpft ist.
 * Das Hinzufügen von Genehmigungen zu einem Anfrageformular ist optional. Workfront Planning erstellt beim Senden einer Anfrage sofort einen Datensatz, wenn das Anforderungsformular nicht mit einer Genehmigung verknüpft ist.
 
-## Hinzufügen einer Genehmigung zu einem Anfrageformular in der Produktionsumgebung
+<!--
 
-1. Erstellen Sie zunächst ein Anfrageformular für einen Datensatztyp, wie in [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md) beschrieben.
-1. Klicken Sie **Konfiguration**.
+## Add an approval to a request form in the Production environment
 
-   Der **Konfiguration** wird angezeigt.
+1. Start creating a request form for a record type, as described in [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+1. Click **Configuration**.
 
-   ![Registerkarte „Konfiguration“](assets/configuration-tab.png)
-1. Beginnen Sie **Feld** Genehmigende Person“, den Namen einer Person oder eines Teams einzugeben, die bzw. das Sie als genehmigende Person festlegen möchten, und wählen Sie ihn aus, wenn er bzw. es in der Liste angezeigt wird.
-1. (Optional und bedingt) Wenn Sie mehr als eine genehmigende Person eingerichtet haben und nur eine genehmigende Person benötigen, um eine Entscheidung zu treffen, aktivieren Sie die Option **Nur eine Entscheidung ist erforderlich**.
+    The **Configuration** area displays.
 
-   <!--most of the Note below is duplicated in the Create a request form article-->
+    ![Configuration tab](assets/configuration-tab.png)
+1. In the **Approvers** field, start typing the name of a user or team that you want to set as an approver, then select it when it displays in the list. 
+1. (Optional and conditional) If you have set more than one approver, and only need one approver to make a decision, enable the **Only one decision is required** option.
 
-   >[!NOTE]
-   >
-   >
-   >* Sie können einem Anfrageformular eine oder mehrere genehmigende Personen hinzufügen.
-   >
-   >* Wenn Sie mehr als eine genehmigende Person hinzufügen und die Option Nur eine Entscheidung ist erforderlich nicht aktiviert ist, müssen alle genehmigenden Personen die Anfrage genehmigen, bevor Workfront Planning einen Datensatz erstellt.
-   >
-   >* Wenn mindestens eine genehmigende Person die Anforderung ablehnt, wird die Anforderung abgelehnt und der Datensatz nicht erstellt. Die Anfrage verbleibt im Bereich Anfragen von Workfront.
-   >
-   >* Wenn Sie mehr als eine genehmigende Person hinzufügen und die Option Nur eine Entscheidung ist erforderlich nicht aktiviert ist, müssen alle genehmigenden Personen eine Entscheidung treffen, bevor eine Anfrage entweder genehmigt oder abgelehnt wird.
-   >
-   >* Wenn ein Team als genehmigende Person festgelegt ist, ist nur eine Entscheidung vom Team erforderlich.
+    (****most of the Note below is duplicated in the Create a request form article***)
 
-
-1. (Optional) Klicken Sie auf **Veröffentlichen**, wenn Sie das Anfrageformular noch nie freigegeben haben.
-
-   ODER
-
-   Klicken Sie auf **Freigeben**, um das Formular freizugeben, und **Link kopieren**.
-1. (Optional) Nachdem ein(e) Benutzende(r) den von Ihnen freigegebenen Link verwendet und eine Anfrage gesendet hat, sendet Workfront Planning eine In-App-Benachrichtigung über die Genehmigung und eine E-Mail an die genehmigenden Personen.
-
-   >[!NOTE]
-   >
-   >Damit Benutzerinnen und Benutzer E-Mail- und In-App-Benachrichtigungen empfangen können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.
+      >[!NOTE]
+      >
+      >
+      >* You can add one or several approvers to a request form.
+      >
+      >* If you add more than one approver, and the Only one decision is required option is not enabled, all approvers must approve the request before Workfront Planning creates a record.
+      >
+      >* If at least one approver rejects the request, the request is rejected and the record is not created. The request remains in the Requests area of Workfront.
+      >
+      >* If you add more than one approver, and the Only one decision is required option is not enabled, all approvers must make a decision before a request is either approved or rejected.
+      >
+      >* If a team is set as an approver, only one decision is required from the team.
 
 
-   Informationen zum Genehmigen von Anfragen finden Sie unter [Genehmigen einer Anfrage](/help/quicksilver/planning/requests/approve-request.md).
+1. (Optional) Click **Publish** if you have never shared the request form before.
 
-<div class="preview">
+    Or
 
-## Hinzufügen von Genehmigungsregeln zu einem Anfrageformular in der Vorschau-Umgebung
+    Click **Share** to share the form, then **Copy link**. 
+1. (Optional) After a user uses the link you share and submits a request, Workfront Planning sends an approval in-app notification and an email to the approvers.
+
+   For information about approving requests, see [Approve a request](/help/quicksilver/planning/requests/approve-request.md).
+
+-->
+
+## Hinzufügen von Genehmigungsregeln zu einem Anfrageformular
 
 Genehmigungsregeln definieren den Genehmigungsprozess basierend auf den Feldwerten in den gesendeten Anfragen.
 
 Wenn beispielsweise ein Anfrageformular das Feld „Kampagnentyp“ aufweist, kann eine Regel erstellt werden, die die Anfrage an eine Person sendet, wenn das Feld den Wert „Digital“ hat, und an eine andere Person, wenn es den Wert „Drucken“ hat.
 
 Beachten Sie beim Hinzufügen von Genehmigungsregeln Folgendes:
-
-<!--below bullet list is duplicated in the Add approval to a request form in the Production environment section above-->
 
 * Sie können einer Genehmigungsregel eine oder mehrere genehmigende Personen hinzufügen.
 * Wenn mindestens eine genehmigende Person die Anforderung ablehnt, wird die Anforderung abgelehnt und der Datensatz nicht erstellt. Die Anfrage verbleibt im Bereich Anfragen von Workfront.
@@ -174,5 +169,3 @@ So legen Sie Genehmigungsregeln für ein Anfrageformular fest:
 
 1. Klicken Sie **Speichern**, um die Genehmigungsregeln zu speichern.
 1. (Optional) Klicken Sie auf **Veröffentlichen**, wenn Sie das Anfrageformular noch nie freigegeben haben.
-
-</div>

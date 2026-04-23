@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1122'
 ht-degree: 2%
 
 ---
@@ -217,11 +217,10 @@ Sie können Arbeitsbereiche wie folgt erstellen:
 
    Der Name des Benutzers, der den Arbeitsbereich erstellt hat, wird auf der Arbeitsbereichskarte als Besitzer gespeichert.
 
-   >[!NOTE]
+   >[!TIP]
    >
-   >Für Benutzende, die derzeit eine Umstellung auf das Adobe Identity Management System (IMS) vornehmen, werden Arbeitsbereiche, die von Benutzenden erstellt wurden, die nur Workfront nutzen und keine IMS-Benutzenden sind, als vom **System** erstellt angezeigt.
+   >Arbeitsbereiche, die von Benutzenden erstellt wurden, die nur Workfront besitzen und nicht zum Adobe Admin Console hinzugefügt wurden, werden so angezeigt, wie sie vom **System** erstellt wurden.
    >
-   >Informationen zu IMS finden Sie unter [Einheitliches Adobe-Erlebnis für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 ### Erstellen mehrerer Arbeitsbereiche mithilfe eines Best-Practice-Vorlagenpakets für mehrere Arbeitsbereiche
 
@@ -269,7 +268,7 @@ Die im Bundle enthaltenen Vorlagen enthalten Arbeitsbereiche, Datensatztypen, Da
 
 1. Beginnen Sie mit der Bearbeitung der von Ihnen erstellten Arbeitsbereiche und fügen Sie Datensatztypen, Datensätze, Ansichten und Felder hinzu, die für Ihre Organisation relevant sind.
 
-   Weitere Informationen zu Best Practices für die Implementierung von Workfront finden Sie in den Artikeln im Abschnitt [Best Practices für die Adobe Workfront-Planung: &#x200B;](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
+   Weitere Informationen zu Best Practices für die Implementierung von Workfront finden Sie in den Artikeln im Abschnitt [Best Practices für die Adobe Workfront-Planung: ](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
 
    Informationen zum Bearbeiten von Arbeitsbereichen finden Sie unter [Bearbeiten von Arbeitsbereichen](/help/quicksilver/planning/architecture/edit-workspaces.md).
 

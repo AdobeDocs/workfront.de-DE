@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6f2c9eda2045093c8d77243ed6843a1472d36c6
+source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2184'
+source-wordcount: '2159'
 ht-degree: 2%
 
 ---
@@ -68,9 +68,11 @@ Ihr Unternehmen muss die folgenden Anforderungen erfüllen, damit die Integratio
 
 <!--No longer the case: * Your organization must have only one Workfront instance. GenStudio will not be available in Workfront Planning when your company has multiple Workfront instances. -->
 
-* Ihre Workfront-Instanz ist Teil des einheitlichen Adobe-Erlebnisses, einschließlich der Verwendung des Identity Management-Systems (IMS).
+<!--No longer needed to specify:
+* Your Workfront instance is part of the Adobe Unified Experience, including using the Identity Management System (IMS). 
 
-  Weitere Informationen finden Sie unter [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+    For information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+-->
 
 * Benutzende, die sowohl Workfront Planning als auch GenStudio for Performance Marketing verwenden, dürfen nur zu einer Workfront-Instanz in der IMS-Organisation gehören.
 
@@ -168,7 +170,7 @@ Old:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****and Events****</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
