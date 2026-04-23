@@ -20,7 +20,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der für April 20
 
 Die Verbesserungen auf dieser Seite sind in der Vorschauumgebung verfügbar. Diese Seite wird mit zusätzlichen Verbesserungen aktualisiert, sobald die geplante Produktionsversion der Version für das zweite Quartal 2026 näher rückt.
 
-Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben die neuen Funktionen hervor und bieten detaillierte Informationen. Um sich zu registrieren, besuchen Sie die [Ereignisseite](https://experienceleague.adobe.com/en/events?filters=Workfront) und filtern Sie nach Workfront.
+Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben die neuen Funktionen hervor und bieten detaillierte Informationen. Um sich zu registrieren, besuchen Sie die [Ereignisseite](https://experienceleague.adobe.com/de/events?filters=Workfront) und filtern Sie nach Workfront.
 
 >[!IMPORTANT]
 >
