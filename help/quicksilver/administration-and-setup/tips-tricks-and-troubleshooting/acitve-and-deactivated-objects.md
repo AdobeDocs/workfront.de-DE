@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 2%
+source-wordcount: '759'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 Als [!DNL Adobe Workfront] können Sie Objekte innerhalb des Systems aktivieren oder deaktivieren. Es wird empfohlen, Objekte, die Sie deaktivieren können, niemals zu löschen. Sie sollten das Objekt einfach deaktivieren, um eine zukünftige Verwendung zu verhindern und es aus den Dropdown-Menüs anderer Objekte zu entfernen.
 
-Um beispielsweise einen bestimmten „Stundentyp[!UICONTROL &#x200B; anzuzeigen, &#x200B;] der [!UICONTROL Stundentyp] aktiv sein. Ein inaktiver oder deaktivierter [!UICONTROL Stundentyp] wird nicht im Dropdown-Menü [!UICONTROL Stundentyp] angezeigt, verbleibt jedoch im System, um die historischen Aufzeichnungen darüber zu erhalten, wo dieser [!UICONTROL Stundentyp] in der Vergangenheit verwendet wurde.
+Um beispielsweise einen bestimmten „Stundentyp[!UICONTROL  anzuzeigen, ] der [!UICONTROL Stundentyp] aktiv sein. Ein inaktiver oder deaktivierter [!UICONTROL Stundentyp] wird nicht im Dropdown-Menü [!UICONTROL Stundentyp] angezeigt, verbleibt jedoch im System, um die historischen Aufzeichnungen darüber zu erhalten, wo dieser [!UICONTROL Stundentyp] in der Vergangenheit verwendet wurde.
 
 Der Begriff „Aktiv“ wird verwendet, um zu identifizieren, ob bestimmte Objekte im System aktiviert sind. In diesem Zusammenhang wird „Aktiv“ für die folgenden Objekte verwendet:
 
@@ -102,11 +102,11 @@ Informationen zur Deaktivierung von Benutzern finden Sie unter [Deaktivieren ode
 
 >[!IMPORTANT]
 >
->Wenn Ihr Unternehmen in das [!DNL Adobe Business Platform] integriert wurde, müssen Sie Benutzer über die [!UICONTROL Adobe Admin Console deaktivieren].
+>Nachdem Ihr Unternehmen in die [!DNL Adobe Business Platform] integriert wurde, müssen Sie Benutzer über die [!UICONTROL Adobe Admin Console deaktivieren].
 >
->Anweisungen zur Deaktivierung von Benutzenden in der [!UICONTROL Adobe Admin Console] finden Sie im Abschnitt „Entfernen von Benutzenden“ im Artikel &quot;[&#x200B; einzeln verwalten](https://helpx.adobe.com/de/enterprise/using/manage-users-individually.html) oder wenden Sie sich an Ihren [!UICONTROL Adobe Admin Console] Administrator.
+>Anweisungen zur Deaktivierung von Benutzenden in der [!UICONTROL Adobe Admin Console] finden Sie im Abschnitt „Entfernen von Benutzenden“ im Artikel &quot;[ einzeln verwalten](https://helpx.adobe.com/de/enterprise/using/manage-users-individually.html) oder wenden Sie sich an Ihren [!UICONTROL Adobe Admin Console] Administrator.
 >
->Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen in die [!DNL Adobe Business Platform] integriert wurde, unterscheiden, finden Sie unter [Plattformbasierte Administrationsunterschiede (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen in die [!DNL Adobe Business Platform] integriert wurde, unterscheiden, finden Sie unter [Administrationsunterschiede zwischen Adobe Workfront und Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 ## Teams
 

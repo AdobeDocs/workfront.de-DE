@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d9b5e4a1-069e-48be-80d0-84f4bf8aea8b
-source-git-commit: 0a41ed50f649dd2da52a5fc47675116261ecfc12
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 0%
+source-wordcount: '689'
+ht-degree: 1%
 
 ---
 
@@ -51,7 +51,7 @@ Um sicherzustellen, dass Ihr Unternehmen zur Adobe Admin Console migrieren kann,
    >
    >Bereiten Sie sich darauf vor, mit dem Workfront-Support und Ihrem IT-Team über Authentifizierungseinstellungen wie Single Sign-on (SSO) oder Nicht-SSO zu sprechen.
 
-   Anweisungen finden Sie im Abschnitt Identity Management des [Bereitstellungshandbuchs für Adobe Admin Console](https://helpx.adobe.com/de/enterprise/using/deployment-planning.html).
+   Anweisungen finden Sie im Abschnitt Identity Management des [Bereitstellungshandbuchs für Adobe Admin Console](https://helpx.adobe.com/enterprise/using/deployment-planning.html).
 
 1. (Bedingt) Wenn Sie Single Sign-on verwenden, verbinden Sie die neue Adobe Admin Console mit Ihrem bestehenden SSO-Anbieter.
 
@@ -93,4 +93,4 @@ Nachdem Ihre Adobe Admin Console mit Workfront konfiguriert wurde, können Sie s
 
 Weitere Informationen finden Sie unter [Verwalten von Benutzern in der Adobe Admin Console](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
-Eine Liste weiterer Aktionen, die sich je nachdem, ob Ihr Unternehmen Adobe Admin Console eingeführt hat, unterscheiden, finden Sie unter [Plattformbasierte Administrationsunterschiede (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+Eine Liste weiterer Aktionen, die sich je nachdem, ob Ihr Unternehmen in die Adobe Admin Console integriert wurde, unterscheiden, finden Sie unter [Administrationsunterschiede zwischen Adobe Workfront und Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).

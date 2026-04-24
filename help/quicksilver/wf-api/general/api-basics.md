@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '4398'
-ht-degree: 98%
+source-wordcount: '4461'
+ht-degree: 96%
 
 ---
 
@@ -135,7 +135,7 @@ Die API verwendet dieselbe Cookie-basierte Authentifizierung wie die Web-Benutze
 >
 >Das in diesem Abschnitt beschriebene Verfahren galt nur für Organisationen, die noch nicht in die Adobe Business Platform integriert wurden. Da nun alle Organisationen in die Adobe Business-Plattform integriert wurden, ist **die Anmeldung bei Workfront über die Workfront-API nicht mehr verfügbar** .
 >
->Eine Liste der Verfahren, die sich danach unterscheiden, ob Ihre Organisation in die Adobe Business Platform integriert wurde, finden Sie unter [Plattformbasierte Administrationsunterschiede (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen die Adobe Business Platform verwendet, unterscheiden, finden Sie unter [Administrationsunterschiede zwischen Adobe Workfront und Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Mit einem gültigen Benutzernamen und einem Kennwort können Sie die folgende Anfrage verwenden, um eine Sitzungs-ID abzurufen:
 
@@ -348,7 +348,7 @@ Standardmäßig werden nur der Name und die ID jeder Aufgabe zurückgegeben. Es 
 
 Benutzerdefinierte Datenfelder können mit dem Präfix „DE:“ abgerufen werden. Um beispielsweise ein Projekt mit einem Parameter namens „CustomText“ anzufordern, verwenden Sie die folgende Anfrage:
 <pre>/attask/api/v15.0/project/search?fields=DE:CustomText</pre>die Folgendes zurückgibt
-<pre>{<br>    "name": "custom data project",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    "DE:CustomText": "task b" <br>}</pre>Sie können auch alle benutzerdefinierten Daten für ein Objekt abrufen, indem Sie das Feld „parameterValues“ anfordern. Beispiel:
+<pre>{<br>    "name": "custom data project",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    "DE:CustomText": "task b" <br>}</pre>Sie können auch alle benutzerdefinierten Daten für ein Objekt abrufen, indem Sie das Feld „parameterValues“ anfordern. Beispiel: 
 <pre>/attask/api/v15.0/project/search?fields=parameterValues</pre>gibt Daten ähnlich den folgenden zurück:
 <pre>{<br>    "name": "custom data project",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    parameterValues: { <br>        "DE:CustomText": "task b", <br>        "DE:CustomNumber": 1.4, <br>        "DE:CustomCheckBoxes": ["first", "second", "third"] <br>    } <br>}</pre>
 
@@ -487,29 +487,29 @@ Die Antwort für eine PUT-Anfrage ist identisch mit der einer GET-Anfrage. In be
 ### Bearbeiten von Objekten
 
 Aktualisierungen an Objekten werden immer nach ID unter Verwendung des eindeutigen URI des Objekts durchgeführt. Zu aktualisierende Felder werden als Anfrageparameter angegeben. Um beispielsweise den Namen eines Projekts zu ändern, können Sie eine Anfrage ähnlich der folgenden senden:
-<pre>PUT /attask/api/v15.0/project/4c7...?name=New Project Name <br>PUT /attask/api/v15.0/project?id=4c7...&amp;name=New Project Name</pre>Da für die Aktualisierung eine ID erforderlich ist, schlägt dieser Vorgang (ohne Einfügen) fehl, wenn das Objekt auf dem Server nicht vorhanden ist.
+<pre>PUT /attask/api/v15.0/project/4c7..?name=Neuer Projektname <br>PUT /attask/api/v15.0/project?id=4c7…&amp;name=Neuer Projektname</pre>Da für die Aktualisierung eine ID erforderlich ist, schlägt dieser Vorgang (ohne Einfügen) fehl, wenn das Objekt auf dem Server nicht vorhanden ist.
 
 ### Angeben von JSON-Änderungen
 
 Wie im folgenden Beispiel gezeigt, können Sie den Anfrageparameter „updates“ verwenden, um die zu aktualisierenden Felder mithilfe der JSON-Syntax anzugeben:
-<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{<br>     name: "New Project Name", <br>     status: "CUR", <br>     ... <br>}</pre>
+<pre>PUT /attask/api/v15.0/project/4c7…?updates= <br>{<br>     Name: „New Project Name“, <br>     Status: „CUR“, <br>     … <br>}</pre>
 
 ### Durchführen verschachtelter Aktualisierungen
 
 Einige Objekte verfügen über private Sammlungen, die aktualisiert werden können. Im folgenden Beispiel wird beispielsweise veranschaulicht, wie die vorhandenen Arbeitsaufträge für eine bestimmte Aufgabe überschrieben werden:
-<pre>PUT /attask/api/v15.0/task/4c7...?updates= <br>{<br>    assignments: [ <br>        { <br>            assignedToID: "2222...54d0, <br>            assignmentPercent: 50.0 <br>        },{ <br>            roleID: "1111...54d0"<br>        } <br>    ] <br>}</pre>
+<pre>PUT /attask/api/v15.0/task/4c7…Updates= <br>{<br>    Arbeitsaufträge: [ <br>        { <br>            assignedToID: „2222…54d0, <br>            assignmentPercent: 50,0 <br>        },{ <br>            roleID: „1111…54d0“<br>        } <br>    ] <br>}</pre>
 
 >[!NOTE]
 >
 >Aktualisierungen an der obersten Ebene sind zwar selten, aber Aktualisierungen an einer Sammlung oder einem verschachtelten Objekt ersetzen die vorhandene Sammlung vollständig. Um einen einzelnen Arbeitsauftrag für eine Aufgabe zu bearbeiten, ohne dass sich dies auf die Objekte auswirkt, verwenden Sie PUT für den Arbeitsauftrag und nicht für die Aufgabe.
 
 Im folgenden Beispiel wird ein Projekt zu einer öffentlichen Helpdesk-Warteschlange. Beachten Sie, dass die vorhandenen Warteschlangeneigenschaften ersetzt werden.
-<pre>PUT /attask/api/v15.0/project/4c7...?updates= <br>{ <br>    queueDef: { <br>        isPublic: 1 <br>    } <br>}</pre>
+<pre>PUT /attask/api/v15.0/project/4c7…?updates= <br>{ <br>    queueDef: { <br>        isPublic: 1 <br>    } <br>}</pre>
 
 ### Verwenden des Anfrageparameters „action“
 
 Einige Objekte unterstützen weitere Aktionen, die zusätzlich zu einfachen Änderungen durchgeführt werden können. Diese Aktionen können Sie mit dem Anfrageparameter „action“ angeben. Mit der folgenden Anfrage wird beispielsweise die Timeline für ein bestimmtes Projekt neu berechnet:
-<pre>PUT /attask/api/v15.0/project/4c7...?action=calculateTimeline<br><br>or<br><br>PUT /attask/api/v15.0/project/4c7.../calculateTimeline </pre>
+<pre>PUT /attask/api/v15.0/project/4c7..?action=calculateTimeline<br><br>or<br><br>PUT /attask/api/v15.0/project/4c7…/calculateTimeline </pre>
 
 ### Verschieben von Objekten
 

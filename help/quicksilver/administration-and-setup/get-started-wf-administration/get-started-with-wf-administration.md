@@ -10,10 +10,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8d5497fa-3432-4188-ad71-92ab91cd19fa
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 0%
+source-wordcount: '122'
+ht-degree: 4%
 
 ---
 
@@ -29,8 +29,8 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Verfügbare Lizenzen in Ihrem System verwalten](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
 * [Konfigurieren Sie grundlegende Informationen für Ihr System](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)
 * [Firewall-Übersicht](../../administration-and-setup/get-started-wf-administration/firewall-overview.md)
-* [Konfigurieren der Firewall-Zulassungsliste &#x200B;](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
-* auf die Zulassungsliste setzen [Konfigurieren Ihrer E-Mail-Adresse](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)
+* [Konfigurieren der Firewall-Zulassungsliste ](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
+* [Konfigurieren Ihrer E-Mail-Adresse](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)
 * [Ankündigungen senden](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md)
 * [Browser-Anforderungen für Workfront](../../administration-and-setup/get-started-wf-administration/workfront-browser-requirements.md)
-* [Unterschiede bei der plattformbasierten Administration (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
+* [Administrationsunterschiede zwischen Adobe Workfront und Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)

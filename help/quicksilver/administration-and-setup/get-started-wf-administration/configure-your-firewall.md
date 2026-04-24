@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 0%
+source-wordcount: '1576'
+ht-degree: 10%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 0%
 >
 >Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch keine Einführung in Admin Console erhalten haben. Da nun alle Organisationen in die Adobe Admin Console integriert wurden, müssen Sie diese Aktion über die Adobe Admin Console durchführen.
 >
->Informationen zum Konfigurieren Ihrer Zulassungsliste nach dem Onboarding Ihres Unternehmens für die Adobe Admin Console finden Sie unter [Domains dürfen für Adobe-Apps und -Services nicht verwendet werden](https://helpx.adobe.com/de/enterprise/kb/network-endpoints.html).
+>Informationen zum Konfigurieren Ihrer Zulassungsliste nach dem Onboarding Ihres Unternehmens für die Adobe Admin Console finden Sie unter [Domains dürfen für Adobe-Apps und -Services nicht verwendet werden](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
->Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen in die Adobe Admin Console integriert wurde, unterscheiden, finden Sie unter [Plattformbasierte Administrationsunterschiede (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen in Adobe Admin Console integriert wurde, unterscheiden, finden Sie unter [Administrationsunterschiede zwischen Adobe Workfront und Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ So suchen Sie den Cluster Ihrer Organisation:
 
    CL01 bezieht sich auf Cluster 1, CL02 ist Cluster 2 usw.
 
-Weitere Informationen finden Sie im Abschnitt [Anzeigen des Cluster- und Workfront-Plans Ihres &#x200B;](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) im Artikel [Firewall-Übersicht](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
+Weitere Informationen finden Sie im Abschnitt [Anzeigen des Cluster- und Workfront-Plans Ihres ](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) im Artikel [Firewall-Übersicht](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
 
 ## Der Zulassungsliste hinzuzufügende IP-Adressen
 
@@ -140,7 +140,7 @@ Wenn sich Ihre Produktionsumgebung auf Cluster 4 befindet, fügen Sie die folgen
 * 52.29.197.69
 * 52.48.124.108
 * 69.169.230.231
-* 69,169. 230,232
+* 69.169. 230,232
 * 3.121.91.129
 * 3.122.11.35
 * 34.246.27.40
@@ -425,7 +425,7 @@ Wenn Ihr Unternehmen ausgehende Netzwerkfilter verwendet, fügen Sie die folgend
 * fonts.gstatic.com
 * dpm.demdex.net
 * storage.googleapis.com
-* snippet.maze.co
+* In: snippet.maze.co
 * *.aptrinsic.com
 * *.static.workfront.com
 

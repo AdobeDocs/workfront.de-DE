@@ -8,10 +8,10 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
+source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 7%
+source-wordcount: '946'
+ht-degree: 8%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 7%
 >
 >Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch keine Einführung in Admin Console erhalten haben. Wenn Ihre Organisation in die Adobe Admin Console integriert wurde, müssen Sie diese Aktion über die Adobe Admin Console durchführen.
 >
->Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen in die Adobe Admin Console integriert wurde, unterscheiden, finden Sie unter [Plattformbasierte Administrationsunterschiede (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen in Adobe Admin Console integriert wurde, unterscheiden, finden Sie unter [Administrationsunterschiede zwischen Adobe Workfront und Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Als Adobe Workfront-Administrator können Sie Benutzer mithilfe von E-Mail-Einladungen zu Workfront hinzufügen und sie darüber benachrichtigen, dass sie hinzugefügt wurden.
 
@@ -104,7 +104,7 @@ So senden Sie E-Mail-Einladungen manuell erneut an nicht registrierte bestehende
    >
    >Neue Adobe-Benutzende werden zur Admin Console hinzugefügt und die Admin Console sendet eine E-Mail, in der sie eingeladen werden, den Registrierungsprozess abzuschließen. Alle Benutzer müssen den Registrierungsprozess abschließen, um auf ein Adobe-System zugreifen zu können.
    >
-   >Bestehende Adobe-Benutzende erhalten möglicherweise eine E-Mail, in der sie darauf hingewiesen werden, dass Workfront verfügbar ist. Dies ist eine Voreinstellung, die vom Adobe-Administrator für das Produkt gesteuert wird.
+   >Bestehende Adobe-Benutzende erhalten möglicherweise eine E-Mail, in der sie darauf hingewiesen werden, dass Workfront verfügbar ist. Dies ist eine Voreinstellung, die von dem oder der Adobe-Admin für das Produkt gesteuert wird.
 
 ## Konfigurieren von E-Mail-Einladungen {#configure-email-invitations}
 
