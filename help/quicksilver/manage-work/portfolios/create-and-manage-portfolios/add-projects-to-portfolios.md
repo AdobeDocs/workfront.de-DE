@@ -8,10 +8,10 @@ feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: fee6b71eeb0ca79703a2a9e29a14040b91cb7387
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 5%
+source-wordcount: '514'
+ht-degree: 4%
 
 ---
 
@@ -29,8 +29,22 @@ Es wird empfohlen, Projekte zu Portfolios hinzuzufügen, wenn Sie sie initiieren
 
 Beachten Sie beim Hinzufügen von Projekten zu Portfolios Folgendes:
 
-* Obwohl ein Portfolio eine unbegrenzte Anzahl von Projekten enthalten kann, können Sie einem Projekt nur ein Portfolio zuordnen.
+* Sie können nur ein Portfolio mit einem Projekt verknüpfen.
 * Ein Projekt verbleibt in einem Portfolio, bis es entfernt oder mit einem anderen Portfolio verknüpft wird.
+* Ein Portfolio kann eine unbegrenzte Anzahl von Projekten enthalten.
+
+>[!CAUTION]
+>
+>   Vererbte Berechtigungen werden möglicherweise nicht korrekt angewendet, wenn sie für eine große Anzahl untergeordneter Objekte verwendet werden.
+>   
+>   Um Probleme mit geerbten Berechtigungen zu vermeiden, empfehlen wir Folgendes:
+>
+>   * Begrenzen Sie die Anzahl der untergeordneten Objekte (Projekte) unter einem einzelnen übergeordneten Element (Portfolio oder Programm). Pro Portfolio oder Programm empfehlen wir nicht mehr als 10.000 Projekte.
+>   * Verringern der Vererbungstiefe durch Anwenden von Berechtigungen auf ein Objekt auf niedrigerer Ebene.
+>
+>     Wenden Sie beispielsweise Berechtigungen direkt auf Projektebene an, anstatt sich auf die vom Portfolio geerbten Berechtigungen für das Programm und dann für das Projekt zu verlassen.
+>   * Teilen Sie Programme auf, um weniger Projekte zu enthalten, was die Komplexität der Berechtigungen verringert.
+
 
 ## Zugriffsanforderungen
 
@@ -104,7 +118,7 @@ Old:
 
    >[!TIP]
    >
-   >Sie können kein Projekt hinzufügen, wenn Sie die Liste der Projekte in der Ansicht &quot;[!UICONTROL &quot; &#x200B;].
+   >Sie können kein Projekt hinzufügen, wenn Sie die Liste der Projekte in der Ansicht &quot;[!UICONTROL &quot; ].
 
    Wählen Sie aus den folgenden Optionen aus:
 
@@ -125,7 +139,7 @@ Old:
       <td> <p>Fügen Sie ein Projekt hinzu, das Sie zuvor aus [!DNL MS Project] exportiert und auf Ihrem Computer gespeichert haben. </p> <p>Weitere Informationen zum Erstellen eines neuen Projekts durch Importieren aus [!DNL Microsoft Project] finden Sie unter <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Projekt aus [!DNL Microsoft Project]</a> importieren.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL -Anforderungsprojekt]</td> 
+      <td role="rowheader">[!UICONTROL-Anforderungsprojekt]</td> 
       <td> <p>Fordern Sie die Genehmigung eines Projekts an.</p> <p>Informationen zum Anfordern von Projekten finden Sie unter <a href="../../../manage-work/projects/create-projects/request-project.md">Anfordern eines Projekts</a>. </p> </td> 
      </tr> 
      <tr> 
@@ -149,6 +163,6 @@ Old:
 
    <!--replace last step with this, for unshim: 1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a project if you decide not to add it to the portfolio.-->
 
-1. Klicken Sie **[!UICONTROL Projekte hinzufügen]**. <!--check this after UI changes-->
+1. Click **[!UICONTROL Add Projects]**. <!--check this after UI changes-->
 
-   Das bzw. die ausgewählte(n) Projekt(e) sind nun mit dem Portfolio verknüpft.
+   The project or projects you selected are now associated with the portfolio.
