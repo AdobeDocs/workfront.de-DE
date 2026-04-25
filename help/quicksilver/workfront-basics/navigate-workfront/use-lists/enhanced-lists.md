@@ -193,7 +193,7 @@ So fügen Sie Spalten hinzu und entfernen sie:
 >
 >Nicht alle erweiterten Listen enthalten alle in diesem Abschnitt beschriebenen Elemente.
 
-1. Klicken Sie auf **Symbol „Zeilenhöhe** ![ (Symbol „Zeilenhöhe](assets/row-height-icon.png) in einer erweiterten Liste.
+1. Klicken Sie auf **Symbol „Zeilenhöhe** ![&#x200B; (Symbol „Zeilenhöhe](assets/row-height-icon.png) in einer erweiterten Liste.
 
    Dadurch wird die vertikale Länge einer Zeile aktualisiert. Wählen Sie aus den folgenden Optionen:
    * Kurz

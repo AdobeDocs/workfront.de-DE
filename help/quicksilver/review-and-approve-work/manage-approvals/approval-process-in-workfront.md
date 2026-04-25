@@ -78,9 +78,7 @@ Informationen zum Erstellen eines Genehmigungsprozesses auf Systemebene oder ein
      >     Wenn Sie beispielsweise eine Aufgabengenehmigung mit dem Status In Bearbeitung verknüpft haben, ändert die Aufgabe ihren Status automatisch in In Bearbeitung , wenn die Genehmigung erteilt wird. Der Status kann nicht automatisch in „Abgeschlossen“ oder in einen anderen Status geändert werden, der nicht mit der Genehmigung verknüpft ist.
      >   
      >   
-     >
-
-   * Die mit einem Genehmigungsprozess verknüpften Entitäten können Benutzer, Aufgabengebiete oder Teams sein. Die Benutzer sind letztendlich dafür verantwortlich, die Genehmigung zu akzeptieren oder abzulehnen. Sie können Benutzern, die eine bestimmte Rolle im Projekt erfüllen, Genehmigungen zuweisen. Sie können beispielsweise eine Genehmigung einem Projektbesitzer oder Sponsor zuweisen. Weitere Informationen finden Sie unter [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+     >* Die mit einem Genehmigungsprozess verknüpften Entitäten können Benutzer, Aufgabengebiete oder Teams sein. Die Benutzer sind letztendlich dafür verantwortlich, die Genehmigung zu akzeptieren oder abzulehnen. Sie können Benutzern, die eine bestimmte Rolle im Projekt erfüllen, Genehmigungen zuweisen. Sie können beispielsweise eine Genehmigung einem Projektbesitzer oder Sponsor zuweisen. Weitere Informationen finden Sie unter [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
      Die folgenden Szenarien sind vorhanden:
 

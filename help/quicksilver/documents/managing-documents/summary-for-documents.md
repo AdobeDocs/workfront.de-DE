@@ -72,7 +72,7 @@ Wenn sich Ihr Unternehmen im alten Workfront-Speicher befindet, wird der Bereich
 
 1. Wählen Sie auf **Seite** Dokumente“ ein Dokument in der Liste aus.
 
-1. Klicken Sie oben rechts auf der Seite auf das Symbol **Zusammenfassung öffnen** (![ Zusammenfassung öffnen](assets/qs-summary-in-new-toolbar-small.png). Das Seitenbedienfeld **Dokumentzusammenfassung** wird geöffnet.
+1. Klicken Sie oben rechts auf der Seite auf das Symbol **Zusammenfassung öffnen** (![&#x200B; Zusammenfassung öffnen](assets/qs-summary-in-new-toolbar-small.png). Das Seitenbedienfeld **Dokumentzusammenfassung** wird geöffnet.
 
    ![Zusammenfassungsdetails](assets/document-summary-panel.png)
 
