@@ -8,10 +8,10 @@ feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 14%
+source-wordcount: '356'
+ht-degree: 13%
 
 ---
 
@@ -21,7 +21,7 @@ Im Bereich Workfront Setup können Benutzende mit einer Standardlizenz wiederver
 
 >[!IMPORTANT]
 >
->Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Zugriffsanforderungen
 
@@ -33,12 +33,13 @@ Im Bereich Workfront Setup können Benutzende mit einer Standardlizenz wiederver
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Paket</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td><p>Jedes Workfront-Paket zur Verwaltung von Genehmigungen unter Verwendung des alten Workfront-Speichers</p>
+<p>Beliebiges Workflow-Paket zum Verwalten von Genehmigungen mithilfe von Adobe Enterprise-Speicher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p> 
-   <p>Plan</p>
+   <p>Abo</p>
    </td> 
   </tr> 
  </tbody> 
@@ -85,13 +86,13 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
    >[!NOTE]
    >
-   >Wenn Sie mehrere Phasen hinzufügen, wird der Genehmigungs-Workflow in der Reihenfolge fortgesetzt, in der die Phasen aufgelistet sind. Wenn alle erforderlichen Entscheidungen getroffen werden, beginnt die nächste Phase und die vorherige Phase wird gesperrt.
+   >Wenn Sie mehrere Phasen hinzufügen, wird der Genehmigungs-Workflow in der Reihenfolge fortgesetzt, in der die Phasen aufgelistet sind. When all required decisions are made, the next stage begins and the previous stage is locked.
 
-   ![Dokumentdetails](assets/new-stage.png)
+   ![Document details](assets/new-stage.png)
 
 1. Klicken Sie auf **Speichern**.
 
-Nachdem die Vorlage erstellt wurde, kann sie auf Dokumente im Bereich Dokumente eines Projekts, einer Aufgabe oder eines Problems angewendet werden, um den formalen Prüfungs- und Genehmigungsprozess in Workfront zu starten.
+Once the template is created, it can be applied to documents in the Documents area of a project, task, or issue to begin the formal review and approval process in Workfront.
 
 
 

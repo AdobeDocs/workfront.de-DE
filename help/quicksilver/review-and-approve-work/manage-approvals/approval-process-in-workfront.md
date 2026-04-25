@@ -2,19 +2,19 @@
 content-type: overview
 product-area: projects
 navigation-topic: approvals
-title: Übersicht über den Genehmigungsprozess
+title: Überblick über den Genehmigungsprozess
 description: Sie können einen Genehmigungsprozess erstellen und ihn an ein Objekt anhängen, um sicherzustellen, dass bestimmte Benutzerinnen und Benutzer bestimmte Änderungen überprüfen, bevor das Objekt fortfährt.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: dd0822b6-80f1-4a2e-bf6a-0c425984f4d0
-source-git-commit: e4de185f172b173dcc3ad966afa69ffb3bc479eb
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '1752'
+source-wordcount: '1804'
 ht-degree: 0%
 
 ---
 
-# Übersicht über den Genehmigungsprozess
+# Überblick über den Genehmigungsprozess
 
 <!-- Audited: 12/2023 -->
 
@@ -78,7 +78,9 @@ Informationen zum Erstellen eines Genehmigungsprozesses auf Systemebene oder ein
      >     Wenn Sie beispielsweise eine Aufgabengenehmigung mit dem Status In Bearbeitung verknüpft haben, ändert die Aufgabe ihren Status automatisch in In Bearbeitung , wenn die Genehmigung erteilt wird. Der Status kann nicht automatisch in „Abgeschlossen“ oder in einen anderen Status geändert werden, der nicht mit der Genehmigung verknüpft ist.
      >   
      >   
-     >* Die mit einem Genehmigungsprozess verknüpften Entitäten können Benutzer, Aufgabengebiete oder Teams sein. Die Benutzer sind letztendlich dafür verantwortlich, die Genehmigung zu akzeptieren oder abzulehnen. Sie können Benutzern, die eine bestimmte Rolle im Projekt erfüllen, Genehmigungen zuweisen. Sie können beispielsweise eine Genehmigung einem Projektbesitzer oder Sponsor zuweisen. Weitere Informationen finden Sie unter [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+     >
+
+   * Die mit einem Genehmigungsprozess verknüpften Entitäten können Benutzer, Aufgabengebiete oder Teams sein. Die Benutzer sind letztendlich dafür verantwortlich, die Genehmigung zu akzeptieren oder abzulehnen. Sie können Benutzern, die eine bestimmte Rolle im Projekt erfüllen, Genehmigungen zuweisen. Sie können beispielsweise eine Genehmigung einem Projektbesitzer oder Sponsor zuweisen. Weitere Informationen finden Sie unter [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
      Die folgenden Szenarien sind vorhanden:
 
@@ -145,11 +147,17 @@ Wenn im Projekt der Status Bereit zum Drucken geändert wird, erhalten Copywrite
 
 Nachdem beide die Broschüre in Workfront genehmigt haben, ändert sich der Projektstatus in Bereit für den Druck.
 
-## Dokumentengenehmigungsprozesse
+## Legacy-Dokumentengenehmigungsprozesse
 
-Dokumentgenehmigungen werden für eine allgemeinere Genehmigung verwendet. Feedback wird im Chat-Format auf der Registerkarte Aktualisierungen erfasst. Sie können die Genehmigungsschaltflächen verwenden, um Änderungen zu genehmigen, abzulehnen oder zu genehmigen.
 
-Informationen zum Hinzufügen von Genehmigern zu einem Dokument nach dem Hochladen in Workfront finden Sie unter [Dokumentgenehmigungen anfordern](../../review-and-approve-work/manage-approvals/request-document-approvals.md).
+Legacy-Dokumentgenehmigungen werden für eine allgemeinere Genehmigung verwendet. Feedback wird im Chat-Format auf der Registerkarte Aktualisierungen erfasst. Sie können die Genehmigungsschaltflächen verwenden, um Änderungen zu genehmigen, abzulehnen oder zu genehmigen.
+
+Informationen zum Hinzufügen von Genehmigern zu einem Dokument nach dem Hochladen in Workfront finden Sie unter [Einholen einer Legacy-](../../review-and-approve-work/manage-approvals/request-document-approvals.md)).
+
+>[!NOTE]
+>
+>Derzeit gibt es mehrere Optionen für die Dokumentvalidierung in Workfront. Weitere Informationen finden Sie unter [Verfügbare Funktionen für Dokumentgenehmigungen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md).
+
 
 ## Genehmigungsprozesse für Korrekturabzüge
 

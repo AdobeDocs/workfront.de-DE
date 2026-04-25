@@ -2,30 +2,30 @@
 product-area: documents
 navigation-topic: add-documents-to-workfront
 title: Entfernen von Links zwischen Adobe Workfront und externen Anbietern von Dokumentenspeichern
-description: Beim erstmaligen Hochladen eines Dokuments über einen beliebigen Service fordert Adobe Workfront die Berechtigung des Benutzers für den Zugriff auf den Dokumenten-Service an. Wenn der/die Benutzende seine/ihre Anmeldedaten für den Document Service bereitstellt, verknüpft sich der Document Service mit Workfront.
+description: When uploading a document from any service for the first time, Adobe Workfront requests permission from the user to access their document service. When the user provides their document service credentials to log in, the document service links itself to Workfront.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fce8e8aa-fc48-49e1-a71d-c3933a179cf5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '414'
 ht-degree: 14%
 
 ---
 
 # Entfernen von Links zwischen Adobe Workfront und externen Anbietern von Dokumentenspeichern
 
-Beim erstmaligen Hochladen eines Dokuments über einen beliebigen Service fordert Adobe Workfront die Berechtigung des Benutzers für den Zugriff auf den Dokumenten-Service an. Wenn der/die Benutzende seine/ihre Anmeldedaten für den Document Service bereitstellt, verknüpft sich der Document Service mit Workfront.
+When uploading a document from any service for the first time, Adobe Workfront requests permission from the user to access their document service. When the user provides their document service credentials to log in, the document service links itself to Workfront.
 
-Informationen zum Verknüpfen von externen Dokumentendiensten mit Workfront finden Sie unter [Verknüpfen von Dokumenten aus externen Anwendungen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+For information about linking external document services to Workfront, see [Linking Documents from External Applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-Da der Document-Service derjenige ist, der die Berechtigung zum Verknüpfen mit Workfront zulässt, ist es Workfront nicht möglich, die vom Document-Service gewährte Berechtigung zu entfernen. Sie müssen die Berechtigung aus der Document Service-Anwendung entfernen, oder Sie müssen unser Support-Team anrufen, um diesen Link von unseren Servern zu entfernen.
+Since the document service is the one allowing permission to link to Workfront, it is not possible for Workfront to remove the permission granted by the document service. You must remove the permission from within the document service application or you must call our Support Team to remove this link from our servers.
 
 >[!NOTE]
 >
->Diese Funktion ist im Bereich „Neue Dokumente“ nicht verfügbar.<br>
+>Diese Funktion ist im Bereich Neue Dokumente nicht verfügbar.<br>
 >Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich „Neue Dokumente“ angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Zugriffsanforderungen
@@ -38,7 +38,7 @@ Da der Document-Service derjenige ist, der die Berechtigung zum Verknüpfen mit 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Paket</td> 
-   <td> <p> Beliebig</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen*</td> 
@@ -57,32 +57,32 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 +++
 
-## Entfernen der Verknüpfung zwischen Workfront und Dropbox
+## Remove the link between Workfront and Dropbox
 
-1. Melden Sie sich bei Dropbox an.
-1. Klicken Sie oben rechts auf Ihr Profilbild und dann auf **Einstellungen**.
-1. Klicken Sie auf **Verbundene Apps** und blättern Sie dann nach unten zu **Verknüpfte Apps**.
+1. Log in to Dropbox.
+1. Click your profile picture in the upper right corner, then click **Settings**.
+1. Click the **Connected apps** tab, then scroll down to **Linked apps**.
 
-1. Klicken Sie auf **X** neben Workfront.
+1. Click the **X** next to Workfront.
 
-## Die Verknüpfung zwischen Workfront und Box entfernen
+## Remove the link between Workfront and Box
 
-1. Melden Sie sich bei Ihrem Box-Konto an.
-1. Klicken Sie auf Ihr Profilbild in der oberen rechten Ecke.
-1. Klicken Sie **Kontoeinstellungen**, dann auf die Registerkarte **Sicherheit**.
+1. Log in to your Box account.
+1. Click your profile picture in the upper right corner.
+1. Click **Account Settings**, then the **Security** tab.
 
-1. Suchen Sie **MyWorkfront** und klicken Sie auf das **X** unter „App vergessen“.
+1. Find **MyWorkfront** and click the **X** under Forget App.
 
-## Entfernen der Verknüpfung zwischen Workfront und Google Drive
+## Remove the link between Workfront and Google Drive
 
-1. Melden Sie sich bei Ihrem Google-Laufwerk an.
-1. Klicken Sie oben rechts auf das Zahnradsymbol und dann auf **Einstellungen**.
-1. Klicken Sie **der linken Seite auf** Apps verwalten“ und suchen Sie **Workfront** in der Liste.
+1. Log in to your Google Drive.
+1. Click the gear icon in the upper right corner, then click **Settings**.
+1. Click **Manage Apps** on the left side and find **Workfront** in the list.
 
-1. Klicken Sie im Dropdown-Menü Optionen auf **Verbindung zum Laufwerk trennen**.
+1. Under the Options drop-down menu, click **Disconnect from Drive**.
 
-## Entfernen der Links zwischen Workfront und anderen Dokumentenspeicheranbietern
+## Remove the links between Workfront and Other Document Storage Providers
 
-Sie müssen unser Supportteam anrufen, um Microsoft One Drive oder WebDAM von Workfront zu trennen.
+You must call our Support Team to disconnect Microsoft One Drive or WebDAM from Workfront.
 
-Informationen zur Kontaktaufnahme mit unserem Support-Team finden Sie unter [Kundensupport kontaktieren](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+For information about contacting our Support Team, see [Contact Customer Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).

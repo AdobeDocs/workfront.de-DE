@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: d32fd0ffe1750cb08ec90d0b766034de5ffe6eaf
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '13945'
+source-wordcount: '14070'
 ht-degree: 96%
 
 ---
@@ -19,11 +19,11 @@ ht-degree: 96%
       * [Überblick über Produktversionen](product-announcements/product-releases/product-releases.md)
       * [Veröffentlichungszeitplan und -prozess für Adobe Workfront](product-announcements/product-releases/workfront-release-schedule.md)
       * [Vorbereiten auf eine vierteljährliche Adobe Workfront-Version](product-announcements/product-releases/release-readiness.md)
-      * Version 3. Quartal 2026 {#release-26-q3}
-         * [Versionsüberblick für das dritte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)
+      * 2026 Q3 Release {#release-26-q3}
+         * [Third Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)
          * [Drittes Quartal 2026 - Verbesserungen anfordern](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md)
-      * Version 2. Quartal 2026 {#release-26-q2}
-         * [Versionsüberblick für das zweite Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
+      * 2026 Q2 Release {#release-26-q2}
+         * [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
          * [Verbesserungen für Administratoren im zweiten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md)
          * [Verbesserungen bei Dokumenten für das zweite Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md)
          * [Verbesserungen bei Unternehmensabläufen im zweiten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-enterprise-operations-enhancements.md)
@@ -221,7 +221,7 @@ ht-degree: 96%
          * [Verbesserungen bei Projekten in Version 21.2](product-announcements/product-releases/21.2-release-activity/21-2-project-enhancements.md)
          * [Verbesserungen bei Anfragen in Version 21.2](product-announcements/product-releases/21.2-release-activity/21-2-requests-enhancements.md)
          * [Verbesserungen beim Ressourcen-Management in Version 21.2](product-announcements/product-releases/21.2-release-activity/21-2-resource-management-enhancements.md)
-         * [Verbesserungen beim Reporting in Version21. 2 Verbesserungen des Reportings](product-announcements/product-releases/21.2-release-activity/21-2-reporting-management-enhancements.md)
+         * [&#x200B;21. 2 Verbesserungen des Reportings](product-announcements/product-releases/21.2-release-activity/21-2-reporting-management-enhancements.md)
          * [Verbesserungen beim Proofing in Version 21.2](product-announcements/product-releases/21.2-release-activity/21-2-proofing-enhancements.md)
          * [Verbesserungen bei Integrationen in Version 21.2](product-announcements/product-releases/21.2-release-activity/21-2-integration-enhancements.md)
          * [Weitere Verbesserungen in Version 21.2](product-announcements/product-releases/21.2-release-activity/21-2-other-enhancements.md)
@@ -237,7 +237,7 @@ ht-degree: 96%
          * [Weitere Verbesserungen in Version 21.1](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Veröffentlichungen von Adobe Workfront-Planung{#planning-release-activity}
          * [Veröffentlichungen von Adobe Workfront-Planung](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
-         * [Veröffentlichungen für Adobe Workfront-Planung im zweiten Quartal 2026](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
+         * [Second Quarter 2026 release activity for Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
          * [Veröffentlichungen für Adobe Workfront-Planung im ersten Quartal 2026](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
          * [Veröffentlichungen für Adobe Workfront-Planung im vierten Quartal 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
          * [Veröffentlichungen für Adobe Workfront-Planung im dritten Quartal 2025](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
@@ -294,7 +294,7 @@ ht-degree: 96%
          * Version 20.4 {#release-20-4}
             * [Überblick über Version 20.4](product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md)
             * [Verbesserungen beim Projekt-Management in Version 20.4](product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md)
-            * [Verbesserungen bei der Analyse in Version 20. 4 Verbesserungen der Analyse](product-announcements/product-releases/20.4-release-activity/20-4-analytics-enhancements.md)
+            * [&#x200B;20. 4 Verbesserungen der Analyse](product-announcements/product-releases/20.4-release-activity/20-4-analytics-enhancements.md)
             * [Verbesserungen beim Ressourcen-Management in Version 20.4](product-announcements/product-releases/20.4-release-activity/20-4-resource-mgt-enhancements.md)
             * [Verbesserung bei Proof in Version 20.4](product-announcements/product-releases/20.4-release-activity/20-4-proof-enhancements.md)
             * [Verbesserungen bei Mobilgeräten und Integrationen in Version 20.4](product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md)
@@ -1872,7 +1872,7 @@ ht-degree: 96%
    * Arbeitsgenehmigungen {#work-approvals}
       * [Arbeitsgenehmigungen](review-and-approve-work/manage-approvals/manage-approvals.md)
       * [Überblick über den Genehmigungsprozess](review-and-approve-work/manage-approvals/approval-process-in-workfront.md)
-      * [Dokumentgenehmigungen anfordern](review-and-approve-work/manage-approvals/request-document-approvals.md)
+      * [Legacy-Dokumentgenehmigung anfordern](review-and-approve-work/manage-approvals/request-document-approvals.md)
       * [Genehmigen von Arbeit](review-and-approve-work/manage-approvals/approving-work.md)
       * [Anzeigen von Genehmigungen](review-and-approve-work/manage-approvals/view-approvals.md)
       * [Genehmigende Personen an gesendete Genehmigungen erinnern](review-and-approve-work/manage-approvals/remind-approvers-submitted-approvals.md)

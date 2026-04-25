@@ -8,10 +8,10 @@ feature: Work Management, Digital Content and Documents
 exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 7%
+source-wordcount: '538'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +21,7 @@ Sie können einzelne genehmigende Personen oder Prüfende Personen aus einem Ass
 
 >[!IMPORTANT]
 >
->Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Zugriffsanforderungen
 
@@ -34,7 +34,8 @@ Sie können einzelne genehmigende Personen oder Prüfende Personen aus einem Ass
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Paket</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Jedes Workfront-Paket zur Verwaltung von Genehmigungen unter Verwendung des alten Workfront-Speichers</p>
+<p>Beliebiges Workflow-Paket zum Verwalten von Genehmigungen mithilfe von Adobe Enterprise-Speicher</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 

@@ -2,22 +2,22 @@
 product-area: documents
 navigation-topic: manage-documents
 title: Vorschau von Dokumenten
-description: Sie können eine Vorschau eines Dokuments im Bereich Dokumente anzeigen. Dies ist besonders für Bilder nützlich.
+description: You can preview a document from the Documents area. This is especially useful for images.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1e12003d-4ea6-4449-9536-05feca793c44
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '359'
-ht-degree: 12%
+source-wordcount: '378'
+ht-degree: 11%
 
 ---
 
 # Vorschau von Dokumenten
 
-Sie können eine Vorschau eines Dokuments im Bereich Dokumente anzeigen. Dies ist besonders für Bilder nützlich.
+You can preview a document from the Documents area. This is especially useful for images.
 
 ## Zugriffsanforderungen
 
@@ -31,7 +31,8 @@ Sie können eine Vorschau eines Dokuments im Bereich Dokumente anzeigen. Dies is
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Paket</td> 
-   <td> <p> Beliebig</p> </td> 
+   <td> <p>Jedes Workfront-Paket zum Verwalten von Dokumenten unter Verwendung des alten Workfront-Speichers</p>
+<p>Beliebiges Workflow-Paket zum Verwalten von Dokumenten mit Adobe Enterprise Storage</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen</td> 
@@ -43,7 +44,7 @@ Sie können eine Vorschau eines Dokuments im Bereich Dokumente anzeigen. Dies is
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen des Zugriffs auf das mit dem Dokument verknüpfte Objekt</p> </td> 
+   <td> <p>View access to the object associated with the document</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,19 +53,19 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 +++
 
-## Vorschau eines Dokuments im Bereich „Alte Dokumente“
+## Preview a document in the legacy documents area
 
 Wenn sich Ihr Unternehmen im alten Workfront-Speicher befindet, wird der Bereich für ältere Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zum alten Workfront-Speicher finden Sie unter [Unterschiede zwischen dem alten Workfront-Speicher und dem Adobe Enterprise-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-So zeigen Sie eine Vorschau eines Dokuments an:
+To preview a document:
 
-1. Bewegen Sie in einer Dokumentliste den Mauszeiger über die Zeile, die das Dokument enthält, und klicken Sie dann auf **Dokumentdetails**.
-1. Klicken Sie auf der angezeigten Seite auf das Miniaturbild des Dokuments.
+1. In a document list, hover over the row containing the document , then click **Document Details**.
+1. On the page that appears, click the document&#39;s thumbnail image.
 
-   * Wenn Sie das Dokument nicht zur Überprüfung vorbereitet haben, wird es in einer neuen Browser-Registerkarte angezeigt.
-   * Wenn Sie das Dokument zur Überprüfung vorbereitet haben, wird die Korrekturabzugsansicht geöffnet, um es anzuzeigen.
+   * If you have not prepared the document for review, it displays in a new browser tab.
+   * If you have prepared the document for review, the proofing viewer opens to display it.
 
-   Die folgenden Dateiformate können im Vorschaufenster nicht angezeigt werden:
+   The following file formats are unable to display in the preview window:
 
    * .mp4
    * .gif
@@ -74,7 +75,7 @@ So zeigen Sie eine Vorschau eines Dokuments an:
    * .plain
    * .pdf
 
-## Vorschau eines Dokuments im Bereich „Neue Dokumente“
+## Preview a document in the new documents area
 
 Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich „Neue Dokumente“ angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 

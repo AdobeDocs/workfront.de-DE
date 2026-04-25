@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2131e91f5269ca5b9f062b6bc6b2cb618f9d279a
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '2915'
+source-wordcount: '2931'
 ht-degree: 2%
 
 ---
@@ -68,6 +68,7 @@ Im Folgenden finden Sie einige Typen von Workfront-Objektlisten, die das erweite
 | Liste der Momentaufnahmen | Projekt > Momentaufnahmen |
 | Liste der Ressourcen für die Abrechnung | Projekt > Ressource für Abrechnung |
 | Neue erweiterte Zuweisungen für eine Aufgabe | Aufgabe > Arbeitsaufträge > Erweitert |
+| Dokumente zu Adobe Enterprise Storage | Projekt, Aufgabe, Problem, Portfolio, Programmvorlage > Dokumente |
 
 ## Hinzufügen von Elementen zu einer erweiterten Liste
 
@@ -192,7 +193,7 @@ So fügen Sie Spalten hinzu und entfernen sie:
 >
 >Nicht alle erweiterten Listen enthalten alle in diesem Abschnitt beschriebenen Elemente.
 
-1. Klicken Sie auf **Symbol „Zeilenhöhe** ![&#x200B; (Symbol „Zeilenhöhe](assets/row-height-icon.png) in einer erweiterten Liste.
+1. Klicken Sie auf **Symbol „Zeilenhöhe** ![ (Symbol „Zeilenhöhe](assets/row-height-icon.png) in einer erweiterten Liste.
 
    Dadurch wird die vertikale Länge einer Zeile aktualisiert. Wählen Sie aus den folgenden Optionen:
    * Kurz
@@ -229,7 +230,7 @@ So wenden Sie eine Ansicht an bzw. erstellen eine Ansicht:
 1. (Optional) Filtern Sie die Liste. Weitere Informationen finden Sie unter [Elemente in einer erweiterten Liste filtern](#filter-items-in-an-enhanced-list).
 1. (Optional) Gruppieren Sie die Elemente in der Liste. Weitere Informationen finden Sie unter [Gruppieren von Elementen in einer erweiterten Liste](#group-items-in-an-enhanced-list).
 
-   Änderungen an Ansichten werden automatisch gespeichert. Wenn Sie diese Ansicht das nächste Mal anwenden, bleiben die Spalten- und Filtereinstellungen so, wie Sie sie festlegen.
+   Änderungen an Ansichten werden automatisch gespeichert. The next time you apply this view, the column and filter settings remain the way you set them.
 
 ### Ansicht freigeben
 
@@ -237,128 +238,128 @@ So wenden Sie eine Ansicht an bzw. erstellen eine Ansicht:
 >
 >Nicht alle erweiterten Listen enthalten alle in diesem Abschnitt beschriebenen Elemente.
 
-In der **Ansichten** Dropdown-Liste werden möglicherweise drei Kategorien von Ansichten angezeigt:
+In the **Views** dropdown, you may see three categories of views:
 
-* **Systemansichten**: Ansichten, die Ihnen vom Systemadministrator zugewiesen wurden. Systemansichten können nicht freigegeben werden.
-* **Freigegebene**: Ansichten, die von anderen Benutzern für Sie freigegeben wurden.
-* **Meine Ansichten**: Ansichten, die Sie erstellt haben und für andere freigeben können. Sie können Ansichten für andere Benutzer, Teams oder Gruppen freigeben.
+* **System Views**: Views that the system administrator assigned to you. You cannot share System views.
+* **Shared Views**: Views that have been shared with you by other users.
+* **My Views**: Views that you created and can share with others. You can share views with other users, teams, or groups.
 
-Wenn Sie eine Ansicht freigeben, sind alle Ansichtselemente (Spalten, Filter und Gruppierungen) enthalten.
+When you share a view, all of the view elements (columns, filters, and groupings) are included.
 
-So geben Sie eine Ansicht frei:
+To share a view:
 
-1. Bewegen Sie **Dropdown** Ansichten) den Mauszeiger über die Ansicht in **Meine Ansichten**, die Sie freigeben möchten, klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-icon.png) und klicken Sie auf **Freigeben**.
-1. Geben Sie im Dialogfeld Freigeben die Namen der Benutzer, Teams, Gruppen, Unternehmen oder Aufgabengebiete ein, für die Sie die Ansicht freigeben möchten, und wählen Sie sie dann aus der Liste aus, wenn sie angezeigt werden.
+1. In the **Views** dropdown, hover over the view in **My Views** that you want to share, click the **More** menu ![More menu](assets/more-icon.png), and click **Share**.
+1. In the Share dialog, enter the names of the users, teams, groups, companies, or job roles that you want to share the view with, then select them from the list when they appear.
 
-   Sie können den Empfängerinnen und Empfängern die folgenden Berechtigungen erteilen:
+   You can give the following permissions to the recipients:
 
-   * **Ansicht**: Benutzer können die Ansicht auf die Liste anwenden, sie jedoch nicht freigeben.
+   * **View**: Users can apply the view to the list but not share it.
 
-     Wenn Benutzer mit Ansichtszugriff die Ansicht aktualisieren, werden diese Änderungen in den persönlichen Voreinstellungen des Benutzers gespeichert. Ein blauer Punkt auf dem Ansichtsnamen (in der **freigegebenen Ansichten)**, dass persönliche Aktualisierungen auf die Ansicht angewendet werden.
+     When View access users update the view, those changes are saved to the user&#39;s personal preferences. A blue dot on the view name (in the user&#39;s **Shared Views**) shows that personal updates are applied to the view.
 
-   * **Verwalten**: Benutzer können die Ansicht umbenennen, freigeben oder löschen und die Elemente der Ansicht bearbeiten.
+   * **Manage**: Users can rename, share, or delete the view, and edit the view&#39;s elements.
 
-     Wenn Benutzer „Zugriff verwalten“ Änderungen an der Ansicht vornehmen, werden diese Aktualisierungen allen Benutzern angezeigt, für die die Ansicht freigegeben ist, wenn die Ansicht auf die Liste angewendet wird.
+     When Manage access users make changes to the view, all users who have the view shared with them will see those updates when the view is applied to the list.
 
 1. Klicken Sie auf **Speichern**.
 
-   Wenn Sie eine Ansicht für einen Benutzer freigeben und diesen Zugriff dann entfernen, wird die Ansicht aus den „Freigegebenen **&quot; des** entfernt. Wenn die freigegebene Ansicht des Benutzers auf die Liste angewendet wurde, als sein Zugriff entfernt wurde, wird die Systemstandardansicht angewendet.
+   If you share a view with a user and then remove that access, the view is removed from the user&#39;s **Shared Views**. If the user had the shared view applied to the list when their access is removed, then the system default view is applied.
 
-### Kopieren einer Ansicht
+### Copy a view
 
 >[!NOTE]
 >
 >Nicht alle erweiterten Listen enthalten alle in diesem Abschnitt beschriebenen Elemente.
 
-Wenn eine Ansicht für Sie freigegeben wurde, für die Sie keine Bearbeitungsberechtigung haben, können Sie die Ansicht kopieren und unter einem neuen Namen speichern. Sie müssen zunächst Änderungen an der Ansicht vornehmen, bevor Sie sie kopieren können.
+When a view is shared with you to which you do not have permission to edit, you can copy the view and save it with a new name. You must first make changes to the view before you can copy it.
 
-1. Bewegen Sie im Dropdown-Menü „Ansichten“ den Mauszeiger über die Ansicht **Freigegebene**&quot;, deren Einstellungen Sie geändert haben und die Sie kopieren möchten, klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-icon.png) und klicken Sie auf **Mit Voreinstellungen kopieren**.
+1. In the Views dropdown, hover over the view in **Shared Views** that you modified the settings of and which want to copy, click the **More** menu ![More menu](assets/more-icon.png), and click **Copy with preferences**.
 
-   Eine neue Ansicht wird automatisch erstellt. Der Name der kopierten Ansicht folgt dem folgenden Muster: `Original view name (copy)`und wird im Abschnitt **Meine Ansichten** der Ansichten angezeigt.
+   A new view is created automatically. The name of the copied view follows the following pattern: `Original view name (copy)`and it displays in the **My Views** section of views.
 
-   Sie sind der Eigentümer dieser Ansicht und können sie umbenennen, bearbeiten, freigeben oder löschen. Wenn der Eigentümer der Originalansicht Ihren freigegebenen Zugriff auf diese Ansicht entfernt, haben Sie immer noch Zugriff auf die Ansicht, die Sie durch Kopieren des freigegebenen Originals erstellt haben.
+   You are the owner of this view, and you can rename, edit, share, or delete it. If the owner of the original view removes your shared access to that view, you still have access to the view that you created by copying the shared original.
 
    >[!NOTE]
    >
-   >Die **Mit Voreinstellungen kopieren** ist nur verfügbar, wenn Sie Änderungen an einer Ansicht vorgenommen haben, die für Sie freigegeben wurde.
+   >The **Copy with preferences** option is only available when you have made changes to a view that was shared with you.
 
-### Ansicht zurücksetzen
+### Reset a view
 
 >[!NOTE]
 >
 >Nicht alle erweiterten Listen enthalten alle in diesem Abschnitt beschriebenen Elemente.
 
-Wenn eine Ansicht für Sie freigegeben wurde, für die Sie keine Bearbeitungsberechtigung haben, und Sie diese Ansicht aktualisieren, können Sie sie auf die ursprüngliche Ansicht zurücksetzen.
+When a view is shared with you that you do not have permission to edit, and you update that view, you can reset it back to the original view.
 
-1. Bewegen Sie in **Dropdown** Ansicht“ den Mauszeiger über die Ansicht in **Freigegebene Ansichten**, die Sie zurücksetzen möchten, klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-icon.png) und klicken Sie auf **Auf Standard zurücksetzen**.
+1. In the **Views** dropdown, hover over the view in **Shared Views** that you want to reset, click the **More** menu ![More menu](assets/more-icon.png), and click **Reset to default**.
 
-   Die Ansichtselemente (Spalten, Filter und Gruppierungen) werden auf die ursprünglichen Einstellungen zurückgesetzt, die für Sie freigegeben wurden.
+   The view elements (columns, filters, and groupings) are reset to their original settings that were shared with you.
 
    >[!NOTE]
    >
-   >Die **Auf Standard zurücksetzen** ist nur verfügbar, wenn Sie Änderungen an einer Ansicht vorgenommen haben, die für Sie freigegeben wurde.
+   >The **Reset to default** option is only available when you have made changes to a view that was shared with you.
 
-   ![Ansichtsoptionen kopieren und zurücksetzen](assets/glist-copy-view-shared-with-you.png)
+   ![Copy and reset a view options](assets/glist-copy-view-shared-with-you.png)
 
-### Anwenden einer bedingten Formatierung in einer Ansicht
+### Apply conditional formatting in a view
 
 >[!NOTE]
 >
 >Nicht alle erweiterten Listen enthalten alle in diesem Abschnitt beschriebenen Elemente.
 
-Mit der bedingten Formatierung können Sie wichtige Informationen in der Ansicht auf der Grundlage gemeinsamer Kriterien hervorheben.
+Conditional formatting helps you highlight important information in the view based on common criteria.
 
-1. Klicken Sie auf das **Zellen formatieren**-Symbol ![Zellen formatieren-Symbol](assets/format-cells-icon.png). Das Feld **Format** wird geöffnet.
+1. Click the **Format cells** icon ![Format cells icon](assets/format-cells-icon.png). The **Format** box opens.
 
-1. Klicken Sie **Bedingung hinzufügen**.
-1. Wählen Sie in der **If**-Zeile ein Feld aus, wählen Sie einen Feldwert aus und fügen Sie einen Modifikator hinzu. Die Modifikatoren ändern sich je nach ausgewähltem Feldtyp.
-
-   >[!TIP]
-   >
-   >Nur in der erweiterten Liste sichtbare Felder sind für die bedingte Formatierung verfügbar.
-
-1. (Optional) Anstatt einen Feldwert hinzuzufügen, klicken Sie auf das Symbol **Mit einem anderen Feld vergleichen** (![&#x200B; mit einem anderen Feld vergleichen](assets/compare-to-another-field-icon.png) und wählen Sie ein Feld aus, dessen Wert Sie mit dem Wert des ausgewählten Felds vergleichen möchten. Beispielsweise können Sie die Felder „Betreff“ und „Beschreibung“ in Anfrageelementen vergleichen.
+1. Click **Add condition**.
+1. In the **If** line, select  a field and choose a field value and add a modifier. Modifiers change, depending on the field type you choose.
 
    >[!TIP]
    >
-   >Für bedingte Formatierung sind nur in der Listenansicht sichtbare Felder verfügbar. Die verglichenen Felder müssen vom gleichen Typ sein.
+   >Only fields visible in the enhanced list are available for conditional formatting.
 
-1. (Optional) Klicken Sie **Bedingung hinzufügen** in der **Wenn**-Zeile, um derselben Regel weitere Bedingungen hinzuzufügen.
+1. (Optional) Instead of adding a field value, click the **Compare to another field** icon ![Compare to another field](assets/compare-to-another-field-icon.png) and choose a field whose value you want to compare to the value of your selected field. For example, you can compare the Subject and Description fields on request items.
 
    >[!TIP]
    >
-   >Sie können einer Bedingungsregel bis zu 10 Bedingungen hinzufügen und Sie können bis zu 20 Regeln für ein Feld hinzufügen.
+   >Only fields visible in the list view are available for conditional formatting. The fields you compare must be of the same type.
 
-1. Klicken Sie auf den **OR**-Connector zwischen Bedingungen, um zu **AND** zu wechseln und anzugeben, dass mehrere Bedingungen gleichzeitig erfüllt sein müssen. **Oder** ist der Standard-Connector.
-1. Wählen Sie in **Zeile** Format“ ein Feld aus, um anzugeben, welche Spalte formatiert werden soll.
-1. (Optional) Klicken Sie auf das Symbol **Farbkreis** Symbol ![Farbformat-Symbol](assets/color-format-icon.png) neben dem ausgewählten Feld, um es zu erweitern und eine andere Farbe im Bereich **Zellenfüllung** auszuwählen, um die Farbe des Hintergrunds in einer Zelle zu ändern, oder wählen Sie eine Farbe aus dem Bereich **Textfarbe** aus, um die Farbe des Textes in einer Zelle zu ändern.
-1. Klicken Sie auf das Symbol **Textformat** ![&#x200B; (](assets/text-format-icon.png)) und wählen Sie eine der folgenden Optionen aus, um den Text in einer Zelle zu formatieren:
+1. (Optional) Click **Add condition** in the **If** line to add more conditions to the same rule.
+
+   >[!TIP]
+   >
+   >You can add up to 10 conditions in a conditioning rule and you can have up to 20 rules for a field.
+
+1. Click the **Or** connector between conditions to change to **And** and to indicate that multiple conditions must be met at the same time. **Or** is the default connector.
+1. In the **Format** line, select a field to indicate which column will be formatted.
+1. (Optional) Click the **color circle** icon ![Color format icon](assets/color-format-icon.png) next to the field selected, to expand it and choose another color in the **Cell fill** area to change the color of the background in a cell or pick a color from the **Text color** area to change the color of text in a cell.
+1. Click the **Text format** icon ![Text format icon](assets/text-format-icon.png) and select from the following options to format the text in a cell:
    * Fett
    * Kursiv
 
-1. Aktivieren Sie die Einstellung **Auf Zeile anwenden**, um die Formatierung auf die gesamte Zeile des Felds anzuwenden, das die Bedingungen erfüllt.
+1. Turn on the **Apply to row** setting to apply the formatting to the entire row of the field that meets the conditions.
 
-1. (Optional) Klicken Sie im Feld **Format** auf **Bedingung hinzufügen**, um eine weitere Regel für ein anderes Feld hinzuzufügen, und wiederholen Sie dann die obigen Schritte.
-1. (Optional) Klicken Sie auf **Alle löschen**, um alle Formatierungen zu entfernen.
-1. Klicken Sie außerhalb des Felds **Format**, um es zu schließen.
+1. (Optional) Click **Add condition** in the **Format** box to add another rule for another field and the repeat the steps above.
+1. (Optional) Click **Clear all** to remove all formatting.
+1. Click outside the **Format** box to close it.
 
-   Dadurch gelangen Sie zurück zur Listenansicht.
-Die Formatierung wird sofort auf die Listenansicht angewendet.
-Ein blauer Punkt neben dem Symbol **Zellen formatieren** gibt an, dass auf die Ansicht eine besondere Formatierung angewendet wurde.
+   This returns you to the list view.
+The formatting is applied immediately to the list view.
+There is a blue dot next to the **Format cells** icon to indicate that the view has special formatting applied.
 
-### Elemente in einer erweiterten Liste filtern
+### Filter items in an enhanced list
 
 >[!NOTE]
 >
 >Nicht alle erweiterten Listen enthalten alle in diesem Abschnitt beschriebenen Elemente.
 
-Filter helfen Ihnen, die Menge an Informationen zu reduzieren, die Sie in der Liste anzeigen.
+Filters help you reduce the amount of information you display in the list.
 
-1. Klicken Sie **Filter** über der Liste auf.
-1. Klicken Sie im Feld Filter auf **Bedingung hinzufügen**.
-1. Wählen Sie ein Feld aus, nach dem gefiltert werden soll.
-1. Wählen Sie einen Filtermodifikator aus, z. B. „Hat eines von“, „Hat keines von“, „ist vor“ oder „ist nach“. Die Modifikatoroptionen unterscheiden sich je nach dem Typ des Felds, nach dem Sie filtern.
-1. Wählen Sie die Feldwerte aus. Je nach Feldtyp, nach dem Sie filtern, werden Sie möglicherweise aufgefordert, das Element aus einer Liste auszuwählen, danach zu suchen oder einen Kalender zu verwenden, um einen Datumsbereich auszuwählen.
+1. Click **Filter** above the list.
+1. In the Filter box, click **Add condition**.
+1. Select a field to filter by.
+1. Select a filter modifier, such as &quot;Has any of,&quot; &quot;Has none of,&quot; &quot;Is before,&quot; or &quot;Is after.&quot; The modifier options are different depending on the type of field you are filtering by.
+1. Select the field value or values. Depending on the field type you are filtering by, you might be prompted to select the item from a list, search for it, or use a calendar to select a date range.
 
    ![Filter in erweiterten Listen](assets/glist-filter-with-options.png)
 

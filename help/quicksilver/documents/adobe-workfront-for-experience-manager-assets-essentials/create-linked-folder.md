@@ -7,10 +7,10 @@ description: Sie können in Workfront einen Ordner erstellen, der mit Experience
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 0%
+source-wordcount: '488'
+ht-degree: 11%
 
 ---
 
@@ -20,9 +20,14 @@ Sie können in Workfront einen Ordner erstellen, der mit Experience Manager Asse
 
 Wenn ein Asset aus einem verknüpften Ordner innerhalb von Experience Manager Assets oder Assets Essentials gelöscht oder verschoben wird, behält Workfront eine Kopie des Assets im Bereich Projekt > Dokumente bei.
 
+>[!NOTE]
+>
+>Diese Funktion ist im Bereich Neue Dokumente nicht verfügbar.<br>
+>Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich „Neue Dokumente“ angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Dort können Sie Assets aus Experience Manager Assets oder Assets Essentials hinzufügen, Sie können jedoch keinen verknüpften Ordner erstellen.
+
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table>
   <tr>
@@ -36,7 +41,7 @@ Wenn ein Asset aus einem verknüpften Ordner innerhalb von Experience Manager As
    </td>
    <td>
    <p>Standard</p>
-   <p>Plan</p>
+   <p>Abo</p>
    </td>
   </tr>
   <tr>
@@ -59,7 +64,7 @@ Wenn ein Asset aus einem verknüpften Ordner innerhalb von Experience Manager As
   </tr>
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

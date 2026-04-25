@@ -8,10 +8,10 @@ feature: Digital Content and Documents
 exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 13%
+source-wordcount: '375'
+ht-degree: 12%
 
 ---
 
@@ -29,7 +29,8 @@ Sie können Dokumente entweder einzeln oder zusammen aus Adobe Workfront herunte
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Paket</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Jedes Workfront-Paket zum Verwalten von Dokumenten unter Verwendung des alten Workfront-Speichers</p>
+<p>Beliebiges Workflow-Paket zum Verwalten von Dokumenten mit Adobe Enterprise Storage</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 

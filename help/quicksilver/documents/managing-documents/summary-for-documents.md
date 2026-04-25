@@ -9,10 +9,10 @@ feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 13%
+source-wordcount: '719'
+ht-degree: 12%
 
 ---
 
@@ -38,7 +38,8 @@ Sie benötigen die folgenden Zugriffsrechte, um die Schritte in diesem Artikel a
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Paket</td> 
-   <td> <p> Beliebig</p> </td> 
+   <td> <p>Jedes Workfront-Paket zum Verwalten von Dokumenten unter Verwendung des alten Workfront-Speichers</p>
+<p>Beliebiges Workflow-Paket zum Verwalten von Dokumenten mit Adobe Enterprise Storage</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen</td> 
@@ -71,7 +72,7 @@ Wenn sich Ihr Unternehmen im alten Workfront-Speicher befindet, wird der Bereich
 
 1. Wählen Sie auf **Seite** Dokumente“ ein Dokument in der Liste aus.
 
-1. Klicken Sie oben rechts auf der Seite auf das Symbol **Zusammenfassung öffnen** (![&#x200B; Zusammenfassung öffnen](assets/qs-summary-in-new-toolbar-small.png). Das Seitenbedienfeld **Dokumentzusammenfassung** wird geöffnet.
+1. Klicken Sie oben rechts auf der Seite auf das Symbol **Zusammenfassung öffnen** (![ Zusammenfassung öffnen](assets/qs-summary-in-new-toolbar-small.png). Das Seitenbedienfeld **Dokumentzusammenfassung** wird geöffnet.
 
    ![Zusammenfassungsdetails](assets/document-summary-panel.png)
 
@@ -101,32 +102,32 @@ Verwenden Sie den Abschnitt Benutzerdefinierte Forms , um benutzerdefinierte For
 
 Verwenden Sie den Abschnitt Aktualisierungen , um eine Aktualisierung anzuzeigen, die jemand für das Dokument oder den Korrekturabzug vorgenommen hat. Die Zusammenfassung zeigt die ersten zwei Kommentare an. Weitere Informationen zu Aktualisierungen finden Sie unter [Kommentar zu einem Korrekturabzug](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
 
-![Abschnitt „Aktualisierungen“ im Bedienfeld „Zusammenfassung“](assets/updates-section.png)
+![Updates section in Summary panel](assets/updates-section.png)
 
 ### Genehmigungen
 
-Verwenden Sie den Abschnitt Genehmigungen , um eine Dokumentgenehmigung anzufordern. Sie können auch jemanden an eine Genehmigung erinnern, die Genehmigung erneut übermitteln und die vorherige Entscheidung abbrechen oder die Genehmigung löschen. Personen, die Dokumente genehmigen, können die Zusammenfassung verwenden, um eine Entscheidung zu treffen.
+Use the Approvals section to ask for a document approval. You can also remind someone about an approval, resubmit the approval and cancel the previous decision, or delete the approval. Document approvers can use the Summary to make a decision.
 
-Genehmigungen von Korrekturabzügen müssen im Workflow für Korrekturabzüge hinzugefügt werden. Weitere Informationen zu Genehmigungen finden Sie unter
+Proof approvals must be added in the Proof Workflow. For more information on approvals, see
 
-* [Arbeit genehmigen](../../review-and-approve-work/manage-approvals/approving-work.md)
+* [Approving work](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [Dokumentgenehmigungen anfordern](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![Genehmigungen der Dokumentzusammenfassung](assets/approvals-section.png)
+![Document summary approvals](assets/approvals-section.png)
 
 ### Versionen
 
-Im Abschnitt Versionen können Sie die Anzahl der Versionen anzeigen, die für ein bestimmtes Dokument erstellt wurden. Klicken Sie auf das Symbol Mehr ![Mehr](assets/more-icon.png), um Folgendes auszuführen:
+Use the Versions section to view the number of versions created for a specific document. Click the More icon ![More icon](assets/more-icon.png) to do the following:
 
-* Öffnen Sie einen Korrekturabzug.
-* Herunterladen eines Korrekturabzugs oder Dokuments.
-* Anzeigen einer Vorschau eines vom Browser unterstützten Dokuments.
-* Navigieren Sie zu den Dokumentdetails.
-* Löschen von Korrekturabzügen oder Dokumenten.
+* Open a proof.
+* Download a proof or document.
+* Preview a browser-supported document.
+* Go to the Document Details.
+* Delete a proof or document.
 
-![Versionen der Dokumentzusammenfassung](assets/versions-section.png)
+![Document summary versions](assets/versions-section.png)
 
-## Zusammenfassung für Dokumente in der neuen Dokumenterfahrung
+## Summary for documents in the new documents experience
 
 Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich „Neue Dokumente“ angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -134,18 +135,18 @@ Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich „Neue Dok
 
 Verwenden Sie den Abschnitt Details , um allgemeine Übersichtsinformationen anzuzeigen und mit benutzerdefinierten Formularen zu interagieren.
 
-![Details zur Dokumentzusammenfassung in der neuen Dokumenterfahrung](assets/summary-details.png)
+![Document summary details in new documents experience](assets/summary-details.png)
 
 ### Genehmigungen
 
-Verwenden Sie den Abschnitt Genehmigungen , um einen Genehmigungs-Workflow zu erstellen. Sie können Teilnehmer auch an eine Genehmigung erinnern oder die Genehmigung löschen. Dokumentgenehmiger können auf den Viewer Frame.io zugreifen oder die Zusammenfassung verwenden, um eine Entscheidung zu treffen.
+Use the Approvals section to create an approval workflow. You can also remind participants about an approval or delete the approval. Document approvers can access the Frame.io viewer or use the Summary to make a decision.
 
-Weitere Informationen zu Genehmigungen und Frame.io finden Sie unter
+For more information about approvals and Frame.io, see
 
-* [Erste Schritte mit der einheitlichen Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
-* [Erstellen einer Anfrage zur Überprüfung oder Genehmigung eines Dokuments](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+* [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
+* [Create a document review or approval request](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
-![Dokumentzusammenfassungs-Genehmigungen in der neuen Dokumenterfahrung](assets/summary-approvals.png)
+![Document summary approvals in new documents experience](assets/summary-approvals.png)
 
 
 <!-- resubmit the approval and cancel the previous decision, or delete the approval. Document approvers can use the Summary to make a decision.-->
@@ -153,20 +154,20 @@ Weitere Informationen zu Genehmigungen und Frame.io finden Sie unter
 
 ### Versionen
 
-Im Abschnitt Versionen können Sie die Anzahl der Versionen anzeigen, die für ein bestimmtes Dokument erstellt wurden. Klicken Sie auf das Symbol Mehr , um Folgendes durchzuführen:
+Use the Versions section to view the number of versions created for a specific document. Click the More icon to do the following:
 
-* Umbenennen einer Version
-* Dokumentdetails anzeigen
-* Genehmigung für eine bestimmte Version anfordern
+* Rename a version
+* View document details
+* Request approval on a specific version
 * In Frame.io öffnen
-* Version herunterladen
-* Version freigeben
-* Version löschen
+* Download the version
+* Share the version
+* Delete the version
 
-![Dokumentzusammenfassungsversionen in der neuen Dokumenterfahrung](assets/summary-versions.png)
+![Document summary versions in new documents experience](assets/summary-versions.png)
 
 ### Verlauf
 
-Im Abschnitt Verlauf können Sie eine Liste aller mit dem Dokument verbundenen Aktivitäten anzeigen.
+Use the History section to view a list of all activities related to the document.
 
-![Dokumentzusammenfassungs-Verlauf in der neuen Dokumenterfahrung](assets/summary-history.png)
+![Document summary history in new documents experience](assets/summary-history.png)

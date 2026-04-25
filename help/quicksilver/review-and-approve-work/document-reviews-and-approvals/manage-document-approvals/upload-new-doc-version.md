@@ -8,10 +8,10 @@ feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 10%
+source-wordcount: '673'
+ht-degree: 9%
 
 ---
 
@@ -37,7 +37,8 @@ Wenn die neueste Dokumentversion gelöscht wird, bleiben die vorherigen Versione
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Paket</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td> <p>Jedes Workfront-Paket zur Verwaltung von Genehmigungen unter Verwendung des alten Workfront-Speichers</p>
+<p>Beliebiges Workflow-Paket zum Verwalten von Genehmigungen mithilfe von Adobe Enterprise-Speicher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen</td> 

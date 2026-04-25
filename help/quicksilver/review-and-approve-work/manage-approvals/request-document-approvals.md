@@ -1,25 +1,31 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Dokumentgenehmigungen anfordern
-description: Sie können eine Genehmigung von Managern oder anderen Benutzern für ein Dokument in Adobe Workfront anfordern. Sie können auch Dokumentgenehmigungen von Personen ohne Workfront-Konten anfordern, wenn Ihr Workfront-Administrator diese Funktion aktiviert hat, wie in Konfigurieren von Systemsicherheitseinstellungen beschrieben.
+title: Request a legacy document approval
+description: You can request approval from managers or other users for a document in Adobe Workfront. You can also request document approvals from people without Workfront accounts if your Workfront administrator has enabled this capability, as described in Configure system security preferences.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f54a221b-4bf0-414e-b2f3-ace861d85496
-source-git-commit: 2503b6e628e4860a5652c620d8e4d0eea2414443
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 1%
+source-wordcount: '544'
+ht-degree: 6%
 
 ---
 
-# Dokumentgenehmigungen anfordern
+# Request a legacy document approval
 
-Sie können eine Genehmigung von Managern oder anderen Benutzern für ein Dokument in Adobe Workfront anfordern. Sie können auch Dokumentgenehmigungen von Personen ohne Workfront-Konten anfordern, wenn Ihr Workfront-Administrator diese Funktion aktiviert hat, wie in [Konfigurieren von Systemsicherheitseinstellungen](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) beschrieben.
+You can request approval from managers or other users for a document in Adobe Workfront. You can also request document approvals from people without Workfront accounts if your Workfront administrator has enabled this capability, as described in [Configure system security preferences](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+
+>[!NOTE]
+>
+>The information in this article refers to legacy document approvals. <br>
+>For information about new Unified Review and Approval, see [Unified review and approval overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 
 <table style="table-layout:auto"> 
@@ -33,7 +39,7 @@ Sie können eine Genehmigung von Managern oder anderen Benutzern für ein Dokume
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>
-   <p>Beitragen oder höher</p>
+   <p>Contrbute or higher</p>
    <p>Überprüfen oder höher</p>
    </td> 
   </tr> 
@@ -48,26 +54,26 @@ Sie können eine Genehmigung von Managern oder anderen Benutzern für ein Dokume
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
-## Dokumentengenehmigung anfordern
+## Request a document approval
 
 1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
 1. Suchen Sie das Dokument, das Sie benötigen.
 
-1. Scrollen Sie nach unten zum Abschnitt **Genehmigungen** in der Zusammenfassung und beginnen Sie mit der Eingabe in das Textfeld **Genehmigende Person hinzufügen**. Sie können Workfront-Benutzer nach Namen oder externe Benutzer nach E-Mail hinzufügen.
+1. Scroll down to the **Approvals** section in the Summary, and begin typing in the **Add Approver** text box. You can add Workfront users by name or external users by email.
 
 1. Wenn Ihr Adobe Workfront-Administrator die Funktion zur Zusammenarbeit mit Personen aktiviert hat, die Workfront nicht verwenden, wie in [Konfigurieren von Systemsicherheitseinstellungen](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) beschrieben, können Sie deren E-Mail-Adressen eingeben, um sie einzuschließen.
 
-   Sie können keine Genehmigung von Teams oder Gruppen anfordern.
+   You cannot request approval from teams or groups.
 
-1. Wiederholen Sie den vorherigen Schritt, um weitere genehmigende Personen hinzuzufügen.
+1. Repeat the previous step to add other approvers.
 
-## Erneutes Senden einer Genehmigung für eine neue Version
+## Resubmit an approval on a new version
 
-Entscheidungen zu Dokumentgenehmigungen werden beim Hochladen einer neuen Version nicht automatisch zurückgesetzt. Wenn Ihr Dokument beispielsweise mit Änderungen genehmigt wurde, zeigt die Entscheidung „Änderungen“ als Entscheidung an, auch wenn Sie eine neue Version mit den angegebenen Änderungen hochladen. Sie können die Entscheidung für eine neue Version löschen, wenn Sie die Genehmigung manuell erneut übermitteln.
+Document approval decisions are not automatically reset when you upload a new version. For example, if your document is approved with changes, the decision will show &quot;changes&quot; as the decision, even if you upload a new version with the specified changes. You can clear the decision on a new version if you manually resubmit the approval.
 
 1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
 1. Suchen Sie das Dokument, das Sie benötigen.

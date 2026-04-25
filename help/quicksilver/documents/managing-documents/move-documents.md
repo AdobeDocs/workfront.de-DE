@@ -8,10 +8,10 @@ feature: Digital Content and Documents
 exl-id: 46039017-58b3-4e9d-8dcd-6e1f52d98d27
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 14%
+source-wordcount: '431'
+ht-degree: 13%
 
 ---
 
@@ -37,7 +37,8 @@ Wenn Sie ein Dokument verschieben, werden auch die folgenden Elemente mit dem Do
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Paket</td> 
-   <td> <p> Beliebig</p> </td> 
+   <td><p>Jedes Workfront-Paket zum Verwalten von Dokumenten unter Verwendung des alten Workfront-Speichers</p>
+<p>Beliebiges Workflow-Paket zum Verwalten von Dokumenten mit Adobe Enterprise Storage</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen</td> 

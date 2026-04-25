@@ -8,10 +8,10 @@ feature: Digital Content and Documents
 exl-id: 1a4c4849-bca1-4ae3-9111-d0ed4dacca14
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 13%
+source-wordcount: '353'
+ht-degree: 12%
 
 ---
 
@@ -29,7 +29,8 @@ Sie können hochgeladene Dokumente löschen. Wenn Sie Verwaltungszugriff auf bes
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Paket</td> 
-   <td> <p> Beliebig</p> </td> 
+   <td><p>Jedes Workfront-Paket zum Verwalten von Dokumenten unter Verwendung des alten Workfront-Speichers</p>
+<p>Beliebiges Workflow-Paket zum Verwalten von Dokumenten mit Adobe Enterprise Storage</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen</td> 
@@ -78,9 +79,9 @@ Löschen eines Dokuments:
 
 1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen **Dokumente** im linken Bereich aus.
 
-1. Suchen Sie das gewünschte Dokument und klicken Sie auf **Löschen**.
+1. Find the document you need, then click **Delete**.
 
-1. Klicken Sie im angezeigten Feld zur Bestätigung auf **Löschen**.
+1. In the box that appears, click **Delete** to confirm.
 
    Ein System- oder Gruppenadministrator kann ein Dokument innerhalb von 30 Tagen nach dem Löschen wiederherstellen, wie unter [Wiederherstellen gelöschter Elemente](../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) beschrieben.
 

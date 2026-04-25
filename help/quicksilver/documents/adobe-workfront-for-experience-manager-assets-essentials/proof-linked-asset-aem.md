@@ -1,27 +1,32 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Testen eines verknüpften Assets für Experience Manager Assets oder Assets Essentials
-description: Nachdem Sie ein Asset aus Experience Manager Assets Essentials verknüpft haben, können Sie einen Korrekturabzug erstellen und Benutzende zuweisen, damit sie das Asset überprüfen und Kommentare dazu hinzufügen können.
+title: Proof a linked asset for Experience Manager Assets or Assets Essentials
+description: After you've linked an asset from Experience Manager Assets Essentials, you can create a proof and assign users to review and add comments to the asset.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abd641a1-081b-4b86-95ee-f0ed030d704c
-source-git-commit: 430751f0e38c6c45145c965398990ee3652f36fe
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 2%
+source-wordcount: '503'
+ht-degree: 14%
 
 ---
 
-# Testen eines verknüpften Assets für Experience Manager Assets oder Assets Essentials
+# Proof a linked asset for Experience Manager Assets or Assets Essentials
 
-Nachdem Sie ein Asset aus Experience Manager Assets Essentials verknüpft haben, können Sie einen Korrekturabzug erstellen und Benutzende zuweisen, damit sie das Asset überprüfen und Kommentare dazu hinzufügen können.
+After you&#39;ve linked an asset from Experience Manager Assets Essentials, you can create a proof and assign users to review and add comments to the asset.
+
+>[!NOTE]
+>
+>Diese Funktion ist im Bereich Neue Dokumente nicht verfügbar.<br>
+>Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich „Neue Dokumente“ angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. From there, you can add assets from Experience Manager Assets and review and approve them with the Frame.io viewer. Weitere Informationen finden Sie unter [Verwenden von Adobe Experience Manager mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 ## Zugriffsanforderungen
 
 <!-- Audited: 4/2025 -->
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,85 +40,85 @@ Nachdem Sie ein Asset aus Experience Manager Assets Essentials verknüpft haben,
    <td role="rowheader">Adobe Workfront-Lizenzen</td> 
    <td> 
    <p>Standard</p>
-   <p>Arbeit oder höher</p>
+   <p>Work oder höher</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Weitere Produkte</td> 
-   <td>Sie müssen über Experience Manager as a Cloud Service oder Assets Essentials verfügen und Sie müssen dem Produkt als Benutzer in der Admin Console hinzugefügt werden. </td> 
+   <td role="rowheader">Additonal products</td> 
+   <td>You must have Experience Manager as a Cloud Service or Assets Essentials, and you must be added to the product as a user in the Admin Console. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> </td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Ansichtszugriff oder höher</p>  </td> 
+   <td> <p>View access or higher</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Voraussetzungen
 
-Bevor Sie beginnen:
+Before you begin:
 
-* Ihr Workfront-Administrator muss eine Experience Manager-Integration konfigurieren. Weitere Informationen finden Sie unter [Konfigurieren der Experience Manager Assets as a Cloud Service-](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) oder [Konfigurieren der Experience Manager Assets Essentials-Integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* Your Workfront Administrator must configure an Experience Manager integration. For more information, see [Configure the Experience Manager Assets as a Cloud Service integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) or [Configure the Experience Manager Assets Essentials integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Korrekturabzug erstellen
 
-Sie können statische, Video- oder interaktive Korrekturabzüge erstellen.
+You can create static, video, or interactive proofs.
 
-So erstellen Sie einen Korrekturabzug:
+To create a proof:
 
-1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, in dem/der Sie den Korrekturabzug anzeigen möchten, und klicken Sie dann auf den Abschnitt **Dokumente**.
-1. Bewegen Sie den Mauszeiger über das Dokument und klicken Sie dann auf den **Korrekturabzug erstellen** Link, der unter dem Dokumentnamen angezeigt wird.
+1. Go to the project, task, or issue where you want the proof, then click the **Documents** section.
+1. Hover over the document, then click the **Create Proof** link that appears below the document name.
 
    >[!NOTE]
    >
-   >Wenn Sie in **Benutzerprofil „Korrekturabzüge beim Hochladen von Dokumenten automatisch generieren** aktiviert haben, erstellt das System automatisch einen einfachen Korrekturabzug.
+   >If you have **Automatically generate proofs when uploading documents** enabled in your user profile, the system automatically creates a simple proof.
 
-1. Wählen Sie eine der folgenden Optionen aus der Dropdown-Liste aus:
+1. Choose one of the following from the drop-down:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Einfacher Korrekturabzug</strong></td> 
-      <td>Mit dieser Option wird ein Korrekturabzug ohne angehängten Workflow erstellt und die Standardeinstellungen für den Korrekturabzug angewendet. Sie können die Standardeinstellungen für den Korrekturabzug aktualisieren oder einen Workflow hinzufügen, nachdem Sie den Korrekturabzug erstellt haben. Weitere Informationen zu Korrekturabzugseinstellungen finden Sie unter <a href="../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref">Bearbeiten von Korrekturabzugseinstellungen</a>.</td> 
+      <td role="rowheader"><strong>Simple Proof</strong></td> 
+      <td>This option creates a proof with no workflow attached and applies the default proof settings. You can update the default proof settings or add a workflow after you've created the proof. For more information on proof settings, see <a href="../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref">Edit proof settings</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Erweiterter Korrekturabzug</strong></td> 
-      <td> <p>Mit dieser Option können Sie einen einfachen oder erweiterten Workflow konfigurieren und die Korrekturabzugseinstellungen für den von Ihnen erstellten Korrekturabzug ändern. Weitere Informationen finden Sie unter: </p> 
+      <td role="rowheader"><strong>Advanced Proof</strong></td> 
+      <td> <p>This option allows you to configure a Basic or Advanced workflow and modify proof settings for the proof you create. Weitere Informationen finden Sie unter: </p> 
        <ul> 
-        <li> <p><a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">Erstellen eines erweiterten Korrekturabzugs mit einem einfachen Workflow</a> </p> </li> 
-        <li> <p><a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md" class="MCXref xref">Erstellen eines erweiterten Korrekturabzugs mit einem automatisierten Workflow</a> </p> </li> 
+        <li> <p><a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">Create an advanced proof with a Basic workflow</a> </p> </li> 
+        <li> <p><a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md" class="MCXref xref">Create an advanced proof with an Automated workflow</a> </p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-## Verwalten eines vorhandenen Korrekturabzugs
+## Manage an existing proof
 
-Nachdem Sie einen Korrekturabzug erstellt haben, können Sie Folgendes tun:
+Once you&#39;ve created a proof, you can do the following:
 
-* Aktuelle Stadienaktivität anzeigen
-* Aktualisieren von Reviewern und Fristen
-* Workflow bearbeiten
+* View current stage activity
+* Update reviewers and deadlines
+* Edit the workflow
 
-Weitere Informationen zum Verwalten eines vorhandenen Korrekturabzugs finden Sie unter [Verwalten von Korrekturabzügen in Adobe Workfront: Artikelindex](../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md).
+For more information about how to manage an existing proof, see [Manage proofs within Adobe Workfront: article index](../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md).
 
 ## Überprüfen eines Korrekturabzugs
 
-Zugewiesene Reviewer können Folgendes tun:
+Assigned reviewers can do the following:
 
-* Asset anzeigen und Kommentare abgeben
-* Aktionen zu Kommentaren hinzufügen
-* Versionen vergleichen
-* Testversand genehmigen oder ablehnen
+* View the asset and make comments
+* Add actions to comments
+* Compare versions
+* Approve or reject the proof
 
-Weitere Informationen dazu, was Sie mit dem Proofing-Tool tun können, finden Sie unter [Testsendungen in Adobe Workfront überprüfen: Artikelindex](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+For more information about what you can do with the proofing tool, see [Review proofs within Adobe Workfront: article index](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).

@@ -8,10 +8,10 @@ feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 15%
+source-wordcount: '513'
+ht-degree: 14%
 
 ---
 
@@ -29,7 +29,8 @@ Sie können ein benutzerdefiniertes Formular zu einem Dokument oder einer Dokume
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Paket</td> 
-   <td> <p> Beliebig</p> </td> 
+   <td> <p>Jedes Workfront-Paket zum Verwalten von Dokumenten unter Verwendung des alten Workfront-Speichers</p>
+<p>Beliebiges Workflow-Paket zum Verwalten von Dokumenten mit Adobe Enterprise Storage</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen</td> 
@@ -90,18 +91,18 @@ Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich „Neue Dok
 So fügen Sie einem Dokument ein benutzerdefiniertes Formular hinzu:
 
 1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
-1. Wählen Sie das gewünschte Dokument aus.
-1. Klicken **im Abschnitt** auf der rechten Seite auf **Bearbeiten**.
-   ![Schaltfläche „Bearbeiten“ im Abschnitt „Details“](assets/edit-custom-form.png)
-1. Beginnen Sie im Feld **Benutzerdefinierte Forms** mit der Eingabe und wählen Sie ein benutzerdefiniertes Formular aus.
-1. Klicken Sie auf **Speichern**. Das benutzerdefinierte Formular wird im Abschnitt Details angezeigt.
+1. Select the document you need.
+1. In the **Details** section on the right, click **Edit**.
+   ![edit button in details section](assets/edit-custom-form.png)
+1. In the **Custom Forms** field, begin typing and select a custom form.
+1. Klicken Sie auf **Speichern**. The custom form appears in the details section.
 
 
-## Bearbeiten eines benutzerdefinierten Formulars im neuen Dokumentbereich
+## Edit a custom form in the new document area
 
 1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
-1. Wählen Sie das gewünschte Dokument aus.
-1. Klicken **im Abschnitt** auf der rechten Seite auf **Bearbeiten**.
-   ![Schaltfläche „Bearbeiten“ im Abschnitt „Details“](assets/edit-custom-form.png)
-1. Suchen Sie **Abschnitt „Benutzerdefinierte Forms** nach dem Formular, das Sie bearbeiten möchten.
+1. Select the document you need.
+1. In the **Details** section on the right, click **Edit**.
+   ![edit button in details section](assets/edit-custom-form.png)
+1. In the **Custom Forms** section, find the form you want to edit.
 1. Nehmen Sie die erforderlichen Änderungen vor und klicken Sie dann auf **Speichern**.

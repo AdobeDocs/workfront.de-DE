@@ -6,10 +6,10 @@ description: Sie können einer Dokumentgenehmigung direkt im Bereich Startseite 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 2418565a-639c-424e-873a-f6512efc5cb5
-source-git-commit: 628f668f0c5df34eb967729224d91a28cebbb17c
+source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 1%
+source-wordcount: '297'
+ht-degree: 19%
 
 ---
 
@@ -19,7 +19,7 @@ Sie können einer Dokumentgenehmigung direkt im Bereich Startseite zusätzliche 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,12 +27,13 @@ Sie können einer Dokumentgenehmigung direkt im Bereich Startseite zusätzliche 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Paket</td> 
-   <td> <p>Beliebig</p> </td> 
+   <td><p>Jedes Workfront-Paket zur Verwaltung von Genehmigungen unter Verwendung des alten Workfront-Speichers</p>
+<p>Beliebiges Workflow-Paket zum Verwalten von Genehmigungen mithilfe von Adobe Enterprise-Speicher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Mitwirkender oder höher</p> 
+   <p>Mitwirkende oder höher</p> 
    <p>Überprüfen oder höher</p> </td> 
   </tr> 
   <tr> 
@@ -46,7 +47,7 @@ Sie können einer Dokumentgenehmigung direkt im Bereich Startseite zusätzliche 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

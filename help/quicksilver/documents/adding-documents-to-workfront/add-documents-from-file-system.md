@@ -2,15 +2,15 @@
 product-area: documents
 navigation-topic: add-documents-to-workfront
 title: Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem
-description: Sie können in Adobe Workfront Dokumente zu Projekten, Aufgaben oder Problemen in mehreren Bereichen hinzufügen.
+description: You can add documents to projects, tasks, or issues in multiple areas in Adobe Workfront.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1271'
 ht-degree: 5%
 
 ---
@@ -19,10 +19,10 @@ ht-degree: 5%
 
 Workfront verfügt derzeit über zwei Versionen des Dokumentbereichs: den alten Dokumentbereich und den neuen Dokumentbereich. Welche Version Ihr Unternehmen verwendet, hängt davon ab, ob sich Ihr Unternehmen auf ältere Workfront-Speicher oder Unternehmensspeicher stützt. Weitere Informationen zu diesen Speichertypen finden Sie unter [Übersicht über Adobe Enterprise-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-Das Hinzufügen von Dokumenten zu Workfront unterscheidet sich je nachdem, welche Version des Dokumentbereichs Ihr Unternehmen verwendet.
+Adding documents to Workfront differs depending on which version of the documents area your organization uses.
 
-* [Hinzufügen von Dokumenten zu aus Ihrem Dateisystem im Bereich für veraltete Dokumente](#add-documents-from-your-file-system-in-the-legacy-documents-area)
-* [Hinzufügen von Dokumenten zu Workfront im Bereich „Neue Dokumente“](#add-documents-to-workfront-in-the-new-documents-area)
+* [Add documents to from your file system in the legacy documents area](#add-documents-from-your-file-system-in-the-legacy-documents-area)
+* [Add documents to Workfront in the new documents area](#add-documents-to-workfront-in-the-new-documents-area)
 
 
 
@@ -36,7 +36,8 @@ Das Hinzufügen von Dokumenten zu Workfront unterscheidet sich je nachdem, welch
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Paket</td> 
-   <td> <p> Beliebig</p> </td> 
+   <td> <p>Jedes Workfront-Paket zum Verwalten von Dokumenten unter Verwendung des alten Workfront-Speichers</p>
+<p>Beliebiges Workflow-Paket zum Verwalten von Dokumenten mit Adobe Enterprise Storage</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen*</td> 
@@ -46,8 +47,8 @@ Das Hinzufügen von Dokumenten zu Workfront unterscheidet sich je nachdem, welch
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Legacy Workfront-Speicher: Zugriff auf Dokumente bearbeiten</p> 
-   <p>Unternehmensspeicher: Der Bearbeitungszugriff auf Dokumente ist standardmäßig aktiviert und kann nicht geändert werden</p>
+   <td> <p>Legacy Workfront Storage: Edit access to Documents</p> 
+   <p>Enterprise storage: Edit access to Documents is enabled by default and cannot be changed</p>
    </td> 
   </tr> 
  </tbody> 
@@ -57,24 +58,24 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 +++
 
-## Hinzufügen von Dokumenten aus Ihrem Dateisystem im Bereich für veraltete Dokumente
+## Add documents from your file system in the legacy documents area
 
-Wenn sich Ihr Unternehmen im alten Workfront-Speicher befindet, wird der Bereich für ältere Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Workfront Storage finden Sie unter [Unterschiede zwischen Adobe Enterprise Storage und Legacy Workfront Storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
+If your organization is on legacy Workfront Storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront Storage, see [Differences between Adobe enterprise storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
 
-Sie können in Adobe Workfront Dokumente zu Projekten, Aufgaben oder Problemen in den folgenden Bereichen hinzufügen:
+You can add documents to projects, tasks, or issues in the following areas in Adobe Workfront:
 
-* Der Bereich für globale Dokumente
-* Der Bereich Dokumente für ein Workfront-Objekt
-* Eine verbundene Karte auf einer Workfront-Karte
+* The global Documents area
+* The Documents area for a Workfront object
+* A connected card on a Workfront board
 
-Sie können auch neue Versionen von Dokumenten hochladen und Links zu Dokumenten von Cloud-Drittanbietern wie Google Drive, Dropbox und Microsoft OneDrive hinzufügen. Informationen zum Hinzufügen neuer Versionen von Dokumenten finden Sie unter [Hochladen einer neuen Version eines Dokuments](../../documents/managing-documents/upload-new-document-version.md). Informationen zum Hinzufügen von Dokumenten von Cloud-Anbietern von Drittanbietern finden Sie unter [Verknüpfen von Dokumenten aus externen Programmen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+You can also upload new versions of documents and add links to documents from third-party cloud vendors, such as Google Drive, Dropbox, and Microsoft OneDrive. For information about adding new versions of documents, see [Upload a new version of a document](../../documents/managing-documents/upload-new-document-version.md). For information about adding documents from third-party cloud vendors, see [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-Es gibt keine Einschränkungen hinsichtlich der Dateitypen und -größen, die Sie in Workfront hochladen können. Um jedoch erfolgreich zu sein, muss der Upload innerhalb von fünf Minuten abgeschlossen sein und Sie müssen über ausreichend Speicherplatz verfügen.
+There are no restrictions on the types and sizes of files that you can upload to Workfront. However, in order to be successful, the upload must be completed within five minutes and you must have adequate storage space available.
 
-Informationen zum Hochladen neuer Versionen eines Dokuments in Workfront finden Sie unter [Hochladen einer neuen Version eines Dokuments](../../documents/managing-documents/upload-new-document-version.md).
+If you need information about uploading new versions of a document to Workfront, see [Upload a new version of a document](../../documents/managing-documents/upload-new-document-version.md).
 
 
-### Hinzufügen von Dokumenten zu Workfront im Bereich für veraltete Dokumente
+### Add documents to Workfront in the legacy documents area
 
 Sie können Workfront neue Dokumente aus dem Dateisystem auf Ihrer Workstation hinzufügen. Sie können auch Dokumente von Drittanbieterprogrammen wie Google Drive und SharePoint verknüpfen.
 
@@ -122,29 +123,29 @@ Hinzufügen eines Dokuments:
         <li value="1">Wählen Sie <strong> Dropdown-Menü </strong>Neu hinzufügen“ die Option <strong>Dokument anfordern</strong>.</li> 
         <li value="2">Geben <strong> in das Feld „Von wem wird </strong> angefordert?“ den Namen des Benutzers ein, von dem aus Sie das Dokument anfordern.</li> 
         <li value="3">Geben <strong> in das Feld „Geben Sie an, was Sie </strong> möchten“ den Namen des Dokuments ein.</li> 
-        <li value="4"> <p>Klicken Sie <strong>Anfrage senden</strong>.</p> <p>Ihre Anfrage wird auf der Registerkarte Dokumente angezeigt.</p> <p>Weitere Informationen zum Anfordern von Dokumenten finden Sie unter <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Dokument anfordern</a>.</p> </li> 
+        <li value="4"> <p>Klicken Sie <strong>Anfrage senden</strong>.</p> <p>Your request displays on your Documents tab.</p> <p>For more information about requesting documents, see <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Request a Document</a>.</p> </li> 
        </ol> </td> 
      </tr> 
     </tbody> 
    </table>
 
 
-## Hinzufügen von Dokumenten zu Workfront im Bereich „Neue Dokumente“
+## Add documents to Workfront in the new documents area
 
-Sie können mit dem Enterprise-Speichermodell Dokumente zu Projekten, Aufgaben oder Problemen hinzufügen. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+You can add documents to projects, tasks, or issues using the enterprise storage model. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-Die Funktion wird derzeit im Bereich „Neue Dokumente“ nicht unterstützt:
+Functionality not currently supported in the new documents area:
 
-* Hochladen von Dokumenten in den Bereich für globale Dokumente
-* Hinzufügen von Links zu Dokumenten von Cloud-Anbietern von Drittanbietern wie Google Drive, Dropbox und Microsoft OneDrive
-* Dokumente werden angefordert
-* Kopieren eines Links in einen Ordner
-* Dokumente auschecken
-* Einfügen von Bildern aus der Zwischenablage
-* Hinzufügen intelligenter Ordner
+* Uploading documents to the global Documents area
+* Adding links to documents from third-party cloud vendors, such as Google Drive, Dropbox, and Microsoft OneDrive.
+* Requesting documents
+* Copying a link to a folder
+* Checking out documents
+* Pasting images from the clipboard
+* Adding Smart folders
 
 
-### Hinzufügen von Dokumenten zu Workfront im Bereich „Neue Dokumente“
+### Add documents to Workfront in the new documents area
 
 Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich „Neue Dokumente“ angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -159,16 +160,16 @@ Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich „Neue Dok
 Hinzufügen eines Dokuments:
 
 1. Navigieren Sie zum Projekt, zur Aufgabe oder zum Problem, dem bzw. dem Sie ein neues Dokument hinzufügen möchten.
-1. Klicken Sie auf **Dokumente** im linken Bereich.
-1. Klicken Sie **Neu** auf der rechten Seite der Seite oder ziehen Sie die Datei per Drag-and-Drop in den angezeigten Ablagebereich. Sie können mehrere Dokumente gleichzeitig hinzufügen.
+1. Click the **Documents** in the left panel.
+1. Click **New** on the right side of the page or drag and drop the file into the drop zone that appears. You can add multiple documents at one time.
 
-   ![Neues Dokument hinzufügen](assets/add-new-doc-new-doc.png)
+   ![Add a new document](assets/add-new-doc-new-doc.png)
 
-Informationen zum Hochladen neuer Versionen eines Dokuments in Workfront finden Sie unter [Hochladen einer neuen Version eines Dokuments](../../documents/managing-documents/upload-new-document-version.md).
+If you need information about uploading new versions of a document to Workfront, see [Upload a new version of a document](../../documents/managing-documents/upload-new-document-version.md).
 
-## Dokumentensicherheit für Unternehmensspeicher
+## Document security for enterprise storage
 
-Workfront verhindert wie folgt, dass Viren und andere schädliche Inhalte über Dokumente auf die Website gelangen:
+Workfront prevents viruses and other malicious content from entering the site via documents in the following ways:
 
 **So erkennt Workfront beschädigte Dateien**
 

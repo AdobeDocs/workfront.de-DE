@@ -8,10 +8,10 @@ feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 11%
+source-wordcount: '405'
+ht-degree: 10%
 
 ---
 
@@ -21,7 +21,7 @@ Sie können ein Dokument für jedes Objekt anfordern, das Dokumente unterstützt
 
 >[!NOTE]
 >
->Diese Funktion ist im Bereich „Neue Dokumente“ nicht verfügbar.<br>
+>Diese Funktion ist im Bereich Neue Dokumente nicht verfügbar.<br>
 >Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich „Neue Dokumente“ angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Zugriffsanforderungen
@@ -34,7 +34,7 @@ Sie können ein Dokument für jedes Objekt anfordern, das Dokumente unterstützt
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Paket</td> 
-   <td> <p> Beliebig</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen*</td> 

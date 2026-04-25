@@ -2,21 +2,24 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Verknüpfen von Assets und Ordnern aus Experience Manager Assets Essentials
-description: Sie können ein Asset oder einen Ordner aus Experience Manager Assets Essentials mit jedem Adobe Workfront-Objekt verknüpfen, das Dokumente unterstützt. Assets, die von Assets Essentials gesendet wurden, werden nicht für den gesamten Dokumentspeicher in Workfront angerechnet. Dokumente, die von Workfront hochgeladen und an Assets Essentials gesendet wurden, werden für den gesamten Speicher gezählt.
+description: You can link an asset or folder from Experience Manager Assets Essentials to any Adobe Workfront object that supports documents. Assets sent from Assets Essentials don't count towards your overall document storage in Workfront. Documents uploaded and sent from Workfront to Assets Essentials do count towards overall storage.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
-source-git-commit: a9dfc5c7838668bd3007c157a4e1a53ab4bd86f5
+exl-id: 0b93f6f6-cf4b-4077-a464-be7f19f7cd25
+source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '628'
 ht-degree: 12%
 
 ---
 
 # Verknüpfen von Assets und Ordnern aus Experience Manager Assets Essentials
 
-Sie können ein Asset oder einen Ordner aus Experience Manager Assets Essentials mit jedem Adobe Workfront-Objekt verknüpfen, das Dokumente unterstützt.
+You can link an asset or folder from Experience Manager Assets Essentials to any Adobe Workfront object that supports documents.
 
-Informationen zum Verknüpfen von Assets und Ordnern aus Experience Manager Assets mithilfe von Content Advisor finden Sie [Verknüpfen von Assets und Ordnern mit Content Advisor auf Basis von Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md).
+To link assets and folders from Experience Manager Assets using Content Advisor, see [Link assets and folders with Content Advisor powered by Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md).
+
+If you are on enterprise storage, see [Use the Adobe Experience Manager with the Frame.io integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 
 ## Zugriffsanforderungen
@@ -39,11 +42,11 @@ Informationen zum Verknüpfen von Assets und Ordnern aus Experience Manager Asse
   </tr> 
   <tr> 
    <td role="rowheader">Zusätzliche Produkte</td> 
-   <td>Sie müssen über Experience Manager as a Cloud Service oder Assets Essentials verfügen und Sie müssen dem Produkt als Benutzer in der Admin Console hinzugefügt werden.</td> 
+   <td>You must have Experience Manager as a Cloud Service or Assets Essentials, and you must be added to the product as a user in the Admin Console.</td> 
   </tr> 
    <tr> 
-    <td role="rowheader">Experience Manager-Berechtigungen</td> 
-    <td>Sie müssen Schreibzugriff auf den Ordner haben.</td> 
+    <td role="rowheader">Experience Manager Permissions</td> 
+    <td>You must have write access to the folder.</td> 
    </tr>
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -51,7 +54,7 @@ Informationen zum Verknüpfen von Assets und Ordnern aus Experience Manager Asse
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Ansichtszugriff oder höher</p> </td> 
+   <td> <p>View access or higher</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,64 +65,64 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 ## Voraussetzungen
 
-Bevor Sie beginnen:
+Before you begin:
 
-* Ihr Workfront-Administrator muss eine Experience Manager-Integration konfigurieren. Weitere Informationen finden Sie unter [&#x200B; der Experience Manager Assets Essentials-Integration &#x200B;](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+* Ihr Workfront-Administrator muss eine Experience Manager-Integration konfigurieren. For more information, see [Configure the Experience Manager Assets Essentials integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
-## Verknüpfen von Assets aus Experience Manager Assets Essentials
+## Link an asset from Experience Manager Assets Essentials
 
-1. Wechseln Sie zum **Dokumente** in Workfront, wo Sie das Dokument hinzufügen möchten.
-1. Wählen Sie **Neu hinzufügen** und dann die Experience Manager-Integration aus, die Ihr Administrator eingerichtet hat.
+1. Go to the **Documents** area in Workfront where you want to add the document.
+1. Select **Add New**, then select the Experience Manager integration your administrator set up.
 
    >[!NOTE]
    >
-   >Der Workfront-Administrator kann einen beliebigen Namen für diese Integration auswählen und darf daher Experience Manager Assets Essentials nicht explizit erwähnen.
+   >The Workfront administrator can choose any name for this integration, so it may not specifically mention Experience Manager Assets Essentials.
 
-1. Wählen Sie die gewünschten Assets.
+1. Select the assets you want.
 
-   ![Asset auswählen](assets/select-an-asset.png)
+   ![Select an asset](assets/select-an-asset.png)
 
 1. Klicken Sie auf **Auswählen**.
 
-## Verknüpfen einer neuen Version von Experience Manager Assets Essentials
+## Link a new version from Experience Manager Assets Essentials
 
-Sie können ein neues Asset aus Experience Manager Assets Essentials abrufen und es einem vorhandenen Asset als neue Version hinzufügen. Wenn das Dokument bereits verknüpft ist und in Experience Manager Assets Essentials eine neue Version hinzugefügt wird, wird die neue Version automatisch in Workfront angezeigt.
+You can pull a new asset over from Experience Manager Assets Essentials and add it to an existing asset as a new version. If the document is already linked and a new version is added in Experience Manager Assets Essentials, the new version appears automatically in Workfront.
 
-Verknüpfen einer neuen Version:
+To link a new version:
 
-1. Wechseln Sie zum **Dokumente** in Workfront, wo Sie das Dokument hinzufügen möchten.
-1. Wählen Sie das Asset aus, das Sie durch eine neue Version ersetzen möchten. Sie können keine neue Version eines Assets in einem verknüpften Ordner erstellen.
-1. Wählen Sie **Neu hinzufügen** > **Version** und wählen Sie dann die Experience Manager-Integration aus, die Ihr Administrator eingerichtet hat.
+1. Go to the **Documents** area in Workfront where you want to add the document.
+1. Select the asset you want to replace with a new version. You can&#39;t create a new version of an asset in a linked folder.
+1. Select **Add New** > **Version**, then select the Experience Manager integration your administrator set up.
 
    >[!NOTE]
    >
-   >Der Workfront-Administrator kann einen beliebigen Namen für diese Integration auswählen, sodass Experience Manager Assets Essentials möglicherweise nicht explizit erwähnt wird.
+   >The Workfront administrator can choose any name for this integration, so it might not specifically mention Experience Manager Assets Essentials.
 
-1. Wählen Sie das Asset aus, das Sie verknüpfen möchten.
+1. Select the asset you want to link.
 
 1. Klicken Sie auf **Auswählen**.
 
-## Verknüpfen von Ordnern aus Experience Manager Assets Essentials
+## Link a folder from Experience Manager Assets Essentials
 
-Die Berechtigungen zum Anzeigen einzelner Assets innerhalb eines Ordners basieren auf Experience Manager Assets Essentials-Berechtigungen.
+Permissions to view individual assets inside of a folder rely on Experience Manager Assets Essentials permissions.
 
-1. Wechseln Sie zum **Dokumente** in Workfront, in dem Sie den Ordner ablegen möchten.
-1. Wählen Sie **Neu hinzufügen** und dann die Experience Manager-Integration aus, die Ihr Administrator eingerichtet hat.
+1. Go to the **Documents** area in Workfront where you want the folder.
+1. Select **Add New**, then select the Experience Manager integration your administrator set up.
 
    >[!NOTE]
    >
-   >Der Workfront-Administrator kann einen beliebigen Namen für diese Integration auswählen, sodass Experience Manager Assets Essentials möglicherweise nicht explizit erwähnt wird.
+   >The Workfront administrator can choose any name for this integration, so it might not specifically mention Experience Manager Assets Essentials.
 
-1. Wählen Sie die gewünschten Ordner.
+1. Select the folders you want.
 
-   ![Ordner auswählen](assets/select-a-folder.png)
+   ![Select a folder](assets/select-a-folder.png)
 
 1. Klicken Sie auf **Auswählen**.
 
 ## Zu beachten
 
-* Die Funktion „Inhaltsratgeber“ ist für Assets Essentials nicht verfügbar. Informationen zum Verknüpfen von Assets und Ordnern mit Content Advisor finden Sie unter [Verknüpfen von Assets und Ordnern mit Content Advisor auf Basis von Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md).
+* Content Advisor functionality is not available for Assets Essentials. To link assets and folders using Content Advisor, see [Link assets and folders with Content Advisor powered by Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md).
 
-* Assets, die von Assets Essentials gesendet wurden, werden nicht für den gesamten Dokumentspeicher in Workfront angerechnet. Dokumente, die von Workfront hochgeladen und an Assets Essentials gesendet wurden, werden für den gesamten Speicher gezählt.
+* Assets sent from Assets Essentials don&#39;t count towards your overall document storage in Workfront. Documents uploaded and sent from Workfront to Assets Essentials do count towards overall storage.
 
-* Metadatenfelder werden zuerst zugeordnet, wenn Sie ein Asset von Workfront an Experience Manager Assets Essentials senden. Wenn Ihr Workfront-Administrator die Synchronisierung von Objektmetadaten aktiviert hat, bleiben die Felder auf dem neuesten Stand, wenn sie in einer der Anwendungen geändert werden.
+* Metadata fields are first mapped when you send an asset from Workfront to Experience Manager Assets Essentials. If your Workfront administrator has enabled object metadata sync, fields remain up to date if they are changed in either application.
