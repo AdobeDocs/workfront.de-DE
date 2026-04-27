@@ -9,9 +9,9 @@ feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 73364ecfd52621c9c5a966092bf4b4575b980afc
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Pinnwände bieten folgende Möglichkeiten:
 
 Informationen zur Verwendung der grundlegenden Board-Funktionen finden Sie unter [Erste Schritte mit Boards: Artikelindex](../agile/get-started-with-boards/get-started-with-boards.md). Informationen zu Agile-Planungstools in Pinnwänden finden Sie unter [Übersicht über Agile-Planungstools](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
 
-Informationen zur Verwendung eines Boards in einem Projekt finden Sie unter [Verwalten eines Projekts in der Agile-Ansicht](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Informationen zur Verwendung einer Pinnwand in einem Projekt finden Sie unter [Verwalten eines agilen Projekts in der Pinnwand-Ansicht](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
 Sie können auch in der Mobile App auf Pinnwände zugreifen. Weitere Informationen finden Sie unter [[!DNL Adobe Workfront] [!UICONTROL Pinnwände] für Mobilgeräte](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
 
