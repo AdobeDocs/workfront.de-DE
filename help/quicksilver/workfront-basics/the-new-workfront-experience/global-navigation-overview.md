@@ -24,7 +24,7 @@ Die obere Navigationsleiste, die oben auf dem Bildschirm in [!DNL Adobe Workfron
 
 Das **[!UICONTROL Startseite]**-Symbol ![](assets/home-icon.png) Sie zur [!UICONTROL Startseite] der standardmäßigen Landingpage.
 
-Standardmäßig wird durch Klicken auf das Symbol Startseite der Bereich Startseite geöffnet. Weitere Informationen zur Startseite finden Sie unter [Verwenden des Bereichs [!UICONTROL Startseite] ](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+Standardmäßig wird durch Klicken auf das Symbol Startseite der Bereich Startseite geöffnet. Weitere Informationen zur Startseite finden Sie unter [Verwenden des Bereichs [!UICONTROL Startseite] &#x200B;](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
 Ihr Workfront-Administrator kann das Startseiten -Symbol anpassen, um eine andere Seite zu öffnen, indem er eine Layout-Vorlage erstellt und sie Ihnen zuweist. Weitere Informationen finden Sie unter [Landingpage mithilfe einer Layout-Vorlage anpassen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
 
@@ -64,15 +64,15 @@ Weitere Informationen zu den einzelnen Bereichen finden Sie unter:
      <li>[!UICONTROL Reports]: <a href="../../reports-and-dashboards/reports/reports-overview.md" class="MCXref xref">Berichte</a></li> 
      <li>[!UICONTROL Dashboards]: <a href="../../reports-and-dashboards/dashboards/dashboards-overview.md" class="MCXref xref">Dashboards</a></li> 
      <li>[!UICONTROL Kalender]: <a href="../../reports-and-dashboards/reports/calendars/calendars.md" class="MCXref xref">Kalender: Artikelindex</a></li> 
-     <li>[!UICONTROL-Ressource]: <a href="../../resource-mgmt/resource-mgmt-overview/resource-management-overview.md" class="MCXref xref">Ressourcenmanagement-</a></li> 
+     <li>[!UICONTROL -Ressource]: <a href="../../resource-mgmt/resource-mgmt-overview/resource-management-overview.md" class="MCXref xref">Ressourcenmanagement-</a></li> 
      <li>[!UICONTROL Teams]: <a href="../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md" class="MCXref xref">Erstellen und Verwalten von Teams</a></li> 
      <li>[!UICONTROL Benutzer]: <a href="../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md" class="MCXref xref">Benutzer erstellen und verwalten</a></li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>[!UICONTROL-Anfragen]: <a href="../../manage-work/requests/create-requests/create-requests.md" class="MCXref xref">Anfragen erstellen</a></li> 
+     <li>[!UICONTROL -Anfragen]: <a href="../../manage-work/requests/create-requests/create-requests.md" class="MCXref xref">Anfragen erstellen</a></li> 
      <li>[!UICONTROL Arbeitszeittabellen]: <a href="../../timesheets/timesheets-all.md" class="MCXref xref">Arbeitszeittabellen: Artikelindex</a></li> 
-     <li>[!UICONTROL-Dokumente]: <a href="../../documents/documents-overview.md" class="MCXref xref">Dokumente</a></li> 
+     <li>[!UICONTROL -Dokumente]: <a href="../../documents/documents-overview.md" class="MCXref xref">Dokumente</a></li> 
      <li>[!UICONTROL Templates]: <a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref">Erstellen und Verwalten von Projektvorlagen: Artikelindex</a></li> 
      <li>[!UICONTROL Pinnwände]: <a href="/help/quicksilver/agile/boards-overview.md">Pinnwände - Übersicht</a></li>
      <li>[!UICONTROL Blueprints]: <a href="/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md">Blueprints - Übersicht</a></li>
@@ -140,7 +140,7 @@ Weitere Informationen zu den Favoriten finden Sie unter [Anzeigen und Verwalten 
 
 ## [!UICONTROL Zuletzt verwendet] Menü
 
-Mit **[!UICONTROL Symbol]** Zuletzt verwendet![[!UICONTROL  (]](assets/recents-icon-40x43.png)) wird eine Liste der Seiten geöffnet, die Sie kürzlich besucht haben.
+Mit **[!UICONTROL Symbol]** Zuletzt verwendet![[!UICONTROL &#x200B; (]](assets/recents-icon-40x43.png)) wird eine Liste der Seiten geöffnet, die Sie kürzlich besucht haben.
 
 Weitere Informationen zu den letzten Elementen finden Sie unter [Aktuelle Elemente anzeigen](../../workfront-basics/navigate-workfront/recent-and-favorites/view-recent-items.md).
 
