@@ -7,9 +7,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: debe90e7-08c2-4385-96fb-8d349dec6741
-source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
+source-git-commit: aa774419e65e9e4a5785382d3cb2b22bdb0389c9
 workflow-type: tm+mt
-source-wordcount: '1696'
+source-wordcount: '1812'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ Weitere Informationen zu Tarifkarten finden Sie unter [Tarifkarten verwalten](/h
 * Die Reihenfolge der Tarifkarten auf der Registerkarte RATE_RTCRD muss mit der Reihenfolge der Karten auf der Registerkarte RTCRD übereinstimmen (1 für den ersten, 2 für den zweiten usw.).
 * Das Start- und Enddatum müssen den zulässigen Formaten entsprechen.
 * Tarifkarten können ohne Tarife importiert und später aktualisiert werden.
-* Benutzerdefinierte Attribute (Agentur, Kostenstelle usw.) können variieren. Fragen Sie Ihren Systemadministrator nach den genauen Anforderungen.
+* Benutzerdefinierte Attribute (Agentur, Kostenstelle usw.) Kann variieren. Fragen Sie Ihren Systemadministrator nach den genauen Anforderungen.
 * Gelöschte Zeilen in der Vorlage löschen keine vorhandenen Datensätze im System.
 
 ## Zugriffsanforderungen
@@ -153,7 +153,7 @@ Achten Sie darauf, dass sich Datumsangaben nicht überschneiden, es sei denn, di
    * **Wert** (optional): Der numerische Wert, z. B. 150. Der Standardwert lautet 0.
    * **Währung** (optional): Die Währung für den Kurs, z. B. USD, EUR, GBP. Der Standardwert ist die Systemwährung.
    * **Gesperrt** (optional): Gibt an, ob die Rate gesperrt ist. Gültige Werte sind True oder False.
-   * **Attribute** (optional/benutzerdefiniert): Die letzten Spalten (Agentur, Standort, Kostenstelle usw.) sind Tarifattribute, die sich je nach Kundenkonfiguration unterscheiden. Dies sind anpassbare Felder, die je nach Kundenumgebung variieren können.
+   * **Attribute** (optional/benutzerdefiniert): Die letzten Spalten (Agentur, Standort, Kostenstelle usw.) Tarifattribute sind Attribute, die sich je nach Kundenkonfiguration unterscheiden. Dies sind anpassbare Felder, die je nach Kundenumgebung variieren können.
 
      Beispiel: Agentur = „1: Agentur,“ Standort = „Chicago“, Kostenstelle = „22: Kostenstelle“
 
@@ -179,37 +179,37 @@ Auf dieser Registerkarte können Sie die Verbindungen zwischen Ressourcen und Al
 
 1. Geben Sie die Informationen in jeder Zeile ein:
 
-   * **Tarifkarte** (erforderlich): Der Name oder die Sequenznummer der Tarifkarte, zu der die Ressource und der Alias gehören. Die Tarifkarte muss auf der Registerkarte RTCRD aufgeführt sein.
+   * **Rate Card** (required): The name or the sequence number of the rate card that the resource and alias belong to. The rate card must be listed on the RTCRD tab.
 
-     Für eine Sequenznummer: Wenn die Tarifkarte die erste war, die Sie auf der Registerkarte RTCRD aufgeführt haben (Zeile 2), geben Sie 1 ein. Wenn es die zweite war, geben Sie 2 ein, und so weiter.
+     For a sequence number: If the rate card was the first one you listed on the RTCRD tab (row 2), enter 1. Wenn es die zweite war, geben Sie 2 ein, und so weiter.
 
-   * **Aufgabengebiet** (erforderlich, wenn der Ausgabentyp und die sonstige Ressourcenkategorie nicht verwendet werden): Das Aufgabengebiet, mit dem der Alias verbunden ist. Dabei kann es sich entweder um den Namen des Aufgabengebiets oder um die Aufgabengebiet-ID handeln. Beim Import werden beide erkannt.
+   * **Job Role** (required if Expense Type and Non-Labor Resource Category are not used): The job role that the alias is connected to. Dabei kann es sich entweder um den Namen des Aufgabengebiets oder um die Aufgabengebiet-ID handeln. Beim Import werden beide erkannt.
 
      Beispiel: Designer oder _68c0234e00000541dd8c0757723daa68_
 
-   * **Ausgabentyp** (erforderlich, wenn Aufgabengebiet und sonstige Ressourcenkategorie nicht verwendet werden): Der Ausgabentyp, mit dem der Alias verbunden ist. Dabei kann es sich entweder um den Namen des Ausgabentyps oder um die Ausgabentyp-ID handeln. Beim Import werden beide erkannt.
+   * **Expense Type** (required if Job Role and Non-Labor Resource Category are not used): The expense type that the alias is connected to. This can be either the expense type name or the expense type ID. Beim Import werden beide erkannt.
 
-     Beispiel: Reise oder _68c0234e00000541dd8c0757723daa68_
+     Example: Travel or _68c0234e00000541dd8c0757723daa68_
 
-   * **Sonstige Ressourcenkategorie** (erforderlich, wenn Aufgabengebiet und Ausgabentyp nicht verwendet werden): Die sonstige Ressourcenkategorie, mit der der Alias verbunden ist. Dabei kann es sich entweder um den Kategorienamen oder die Kategorie-ID handeln. Beim Import werden beide erkannt.
+   * **Non-Labor Resource Category** (required if Job Role and Expense Type are not used): The non-labor resource category that the alias is connected to. Dabei kann es sich entweder um den Kategorienamen oder die Kategorie-ID handeln. Beim Import werden beide erkannt.
 
      Beispiel: Kamera oder _68c0234e00000541dd8c0757723daa68_
 
      >[!IMPORTANT]
      >
-     >Sie können nicht alle drei der Spalten **Aufgabengebiet**, **Ausgabentyp** und **Sonstige Ressourcenkategorie** eingeben. Eine ist erforderlich.
+     >You cannot enter all three of the **Job Role**, **Expense Type**, and **Non-Labor Resource Category** columns. Eine ist erforderlich.
 
-   * **Ressourcenalias** Der Alias, der auf der Registerkarte „RSALS“ eingegeben wurde.
+   * **Resource Alias**: The alias entered on the RSALS tab.
 
-### Anforderungen an die Datumsformatierung
+### Date formatting requirements
 
-Beim Vorbereiten von Tarifkartendaten für den Import müssen Sie sicherstellen, dass die Datumsspalten als **Allgemein** und nicht als **Datum“** sind.
+When preparing rate card data for importing, you must ensure that the date columns are formatted as **General**, not as **Date**.
 
-Wenn die Spalten auf das Datumsformat eingestellt sind, kann es vorkommen, dass das System Werte während des Importvorgangs falsch interpretiert, was zu Fehlern oder fehlgeschlagenen Uploads führt. Bei Verwendung des Formats Allgemein wird die numerische oder Textdarstellung des Datums beibehalten, sodass das System die Werte korrekt validieren und anwenden kann.
+If the columns are set to Date format, the system may misinterpret values during the import process, leading to errors or failed uploads. Using the General format preserves the raw numeric or text representation of the date, allowing the system to correctly validate and apply the values.
 
-Die Befolgung dieser Schritte verhindert unnötige Probleme und gewährleistet einen reibungslosen und korrekten Import von Ratendaten.
+Following these steps will prevent unnecessary issues and ensure a smooth and accurate import of rate data.
 
-1. Wählen Sie vor dem Speichern oder Hochladen der Datei die Datumsspalten im Arbeitsblatt aus.
+1. Before saving or uploading the file, select the date columns in the spreadsheet.
 1. Ändern Sie das Spaltenformat in **Allgemein**.
 1. Stellen Sie sicher, dass die Werte weiterhin korrekt angezeigt werden (z. B. 01/01/2025 oder 2025-01-01).
 
@@ -231,6 +231,16 @@ Die Befolgung dieser Schritte verhindert unnötige Probleme und gewährleistet e
 ## Vorhandene Tarifkarten aktualisieren
 
 Sie können die Tarife in Ihren bestehenden Tarifkarten mit derselben Excel-Vorlage aktualisieren und diese Änderungen in Workfront hochladen.
+
+Zum Aktualisieren der bestehenden Tarife ist nur die Registerkarte RATE_RTCRD (Tarife einrichten) erforderlich.
+
+>[!NOTE]
+>
+>Beim Hochladen von Tarifen für eine vorhandene Tarifkarte werden alle aktuellen Aufgabengebiete und Tarife auf der Tarifkarte überschrieben.
+>
+>Wenn Sie beispielsweise 5 Aufgabengebiete mit Tarifen auf der vorhandenen Tarifkarte haben und die Excel-Datei über 1 Aufgabengebiet verfügt, hat die Tarifkarte nach dem Hochladen 1 Aufgabengebiet. Um die anderen 5 Aufgabengebiete und deren Tarife auf der Tarifkarte zu behalten, müssen Sie sie in die Excel-Datei aufnehmen.
+
+So aktualisieren Sie vorhandene Tarifkarten:
 
 {{step-1-to-setup}}
 
