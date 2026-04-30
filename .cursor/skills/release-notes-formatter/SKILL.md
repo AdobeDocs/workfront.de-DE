@@ -1,10 +1,10 @@
 ---
 name: release-notes-formatter
 description: Formatieren und validieren Sie die Versionshinweise zu Workfront, um Konsistenz, korrekte Struktur und ordnungsgemäße Verknüpfung zu gewährleisten. Wird nur für Versionshinweise in Produktversionsverzeichnissen verwendet oder wenn der Benutzer Versionshinweise, Produktversionen oder vierteljährliche Versionen erwähnt. Gilt nicht für Artikel mit Anleitungen oder allgemeine Dokumentationen.
-source-git-commit: ec081e557ec48adcfcb3833bf11dcee91312ef4e
+source-git-commit: 1a498abcf4a9ef8940eb2da09da42636253e557a
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 3%
+source-wordcount: '837'
+ht-degree: 2%
 
 ---
 
@@ -73,7 +73,7 @@ Regeln:
 >Production for everyone: {Month Day, Year}
 ```
 
-&#x200B;5. **Hauptteil**: Funktionsbeschreibung und dann Link zur Hilfedokumentation
+5. **Hauptteil**: Funktionsbeschreibung und dann Link zur Hilfedokumentation
 
 #### Übersichtsseiten
 
@@ -90,10 +90,10 @@ Regeln:
 * [Document enhancements](#document-enhancements)
 ```
 
-&#x200B;5. **H3 pro Produktbereich** mit HTML-Funktionstabelle (siehe [reference.md](reference.md#overview-feature-table))
+5. **H3 pro Produktbereich** mit HTML-Funktionstabelle (siehe [reference.md](reference.md#overview-feature-table))
    - Innerhalb jeder Tabelle **Neueste Funktionen zuerst** - die neueste Zeile wird oben in der Tabelle angezeigt (nach der Kopfzeile)
 
-&#x200B;6. **Nachfolgende Abschnitte** (H2): Versionshinweise für andere Bereiche, Desktop Proofing Viewer-Updates, Ankündigungen, API-Version, Wartungs-Updates, Schulungs-Updates
+6. **Nachfolgende Abschnitte** (H2): Versionshinweise für andere Bereiche, Desktop Proofing Viewer-Updates, Ankündigungen, API-Version, Wartungs-Updates, Schulungs-Updates
 
 ### Schritt 3: Validieren von Links
 
@@ -115,7 +115,7 @@ Regeln:
 
 Wenden Sie diese Korrekturen bei der Formatierung an:
 
-| Problem | Fehlerbehebung |
+| Problem | Korrigieren |
 |-------|-----|
 | Falscher Übersichtslink für Quartal | Aktualisierung entsprechend dem eigenen Quartal der Datei |
 | Fehlender `>[!NOTE]` | Block nach H2-Funktionsüberschrift hinzufügen |
@@ -124,6 +124,32 @@ Wenden Sie diese Korrekturen bei der Formatierung an:
 | Zusätzliche Leerzeichen in Legendenlinien | Nachfolgende Leerzeichen kürzen |
 | HTML in den Produktbereichsseiten | Als Markdown beibehalten (HTML dient nur zur Tabellenübersicht) |
 | Fehlende `exl-id` | Lassen Sie es weg - erzeugen Sie keine |
+
+### Schritt 6: Inhaltsverzeichnis aktualisieren
+
+Wenn Sie eine **neue** Versionshinweisseite (Übersicht oder Produktbereich) erstellen, fügen Sie sie in derselben Änderung zu `help/quicksilver/TOC.md` hinzu. Eine Seite, die nicht im Inhaltsverzeichnis enthalten ist, wird nicht in der veröffentlichten Navigation angezeigt, selbst wenn die Links in der Übersichtstabelle darauf verweisen.
+
+Wo sie hinzugefügt werden soll:
+
+- Das Inhaltsverzeichnis hat einen Abschnitt pro Quartal unter einer Überschrift wie `* 2026 Q3 Release {#release-26-q3}`. Wenn die Überschrift für das Quartal noch nicht vorhanden ist (erste Seite eines neuen Quartals), fügen Sie sie über dem vorherigen Quartal hinzu, sodass das neueste Quartal oben ist.
+- Listen Sie unter der Überschrift „Quartal“ die Seiten in dieser Reihenfolge auf:
+   1. **Übersicht** zuerst (`Third Quarter 2026 release overview`).
+   2. **Produktbereichsseiten** alphabetisch nach Bereichsnamen (Administrator, Dokumente, Unternehmensvorgänge, Projekte, Berichterstellung, Anforderung).
+   3. **Weitere Verbesserungen** zuletzt (immer nach den alphabetischen Produktbereichen).
+
+Jeder Inhaltsverzeichniseintrag ist ein Markdown-Link unter Verwendung des Seitentitels und des absoluten Repository-Pfads:
+
+```markdown
+      * [Third Quarter 2026 Documents enhancements](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md)
+```
+
+Einzug (sechs Leerzeichen) an die umgebenden Einträge anpassen. Verwenden Sie die Seite H1 wörtlich als Link-Text - z. B. `Documents enhancements`, `Requesting enhancements` (nicht `Requests`) -, damit die Inhaltsverzeichniskennzeichnungen mit früheren Quartalen übereinstimmen.
+
+Häufige Fehler, die zu vermeiden sind:
+
+- Erstellen einer Produktbereichsseite ohne Hinzufügen zum Inhaltsverzeichnis
+- Link zur Übersicht eines anderen Quartals von der neuen Produktbereichsseite (Schritt 3).
+- Einfügen der Seiten eines neuen Quartals unter der Überschrift des vorherigen Quartals.
 
 ## Konventionen für die Dateibenennung
 
@@ -159,6 +185,7 @@ Die vierteljährliche Produktionsfreigabe erfolgt normalerweise am Donnerstag de
 - [ ] Keine fehlerhaften internen Links
 - [ ] Anker-Links in der Übersicht stimmen mit den IDs im Abschnitt H3 überein
 - [ ] Funktionen werden als „Newest-First“ sortiert (Produktbereichsseiten und Übersichtstabellen)
+- [ ] Neue Versionshinweise werden in `help/quicksilver/TOC.md` unter dem richtigen Quartal aufgeführt, wobei die Übersicht zuerst und die Produktbereiche in alphabetischer Reihenfolge aufgeführt werden (Sonstige Letzte)
 
 ## Weitere Ressourcen
 

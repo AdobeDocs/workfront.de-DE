@@ -8,16 +8,18 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-29T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: c298b21e74abc6ac7bed2c8fa4c5a0dc0f6c6237
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '763'
 ht-degree: 6%
 
 ---
 
 # Grundlegende Systeminformationen konfigurieren
+
+{{highlighted-preview}}
 
 <!-- Audited: 2/2024 -->
 
@@ -39,7 +41,7 @@ Im Rahmen der Konfiguration Ihres Adobe Workfront-Systems können Sie im Abschni
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Standard</p> <p>Abo</p></td> 
+   <td><p>Standard</p> <p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -66,23 +68,30 @@ So greifen Sie auf die Seite „Kundeninformationen“ zu:
 
    Die folgenden Abschnitte sind im Bereich „Kundeninformationen“ verfügbar:
 
-   * **Grundlegende Informationen**
+* **Grundlegende Informationen**
 
-     Informationen zum Konfigurieren grundlegender Informationen in Workfront finden Sie unter [Konfigurieren grundlegender Informationen](#configure-basic-info).
+  Informationen zum Konfigurieren grundlegender Informationen in Workfront finden Sie unter [Konfigurieren grundlegender Informationen](#configure-basic-info).
 
-   * **API-Schlüsseleinstellungen**
 
-     Informationen zu API-Schlüsseleinstellungen finden Sie unter [Verwalten von API-Schlüsseln](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
 
-   * **IP-Zulassungsliste**
+* <span class="preview">**Speicherübersicht**
 
-     Informationen zum Hinzufügen der IP-Adressen zu Ihrer Zulassungsliste, über die Ihre Benutzer auf Workfront zugreifen können, finden Sie [Zulassungsliste Ihrer Firewall konfigurieren](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+  Informationen zur Überprüfung der Dokumentspeicherverwendung und des Kontingents finden Sie unter [Überprüfen von Dokumentspeicherbeschränkungen](../../documents/managing-documents/check-document-storage.md).</span>
 
-   * **E-Mail**
 
-     Informationen zum Hinzufügen von E-Mails zu Ihrer Zulassungsliste finden Sie unter [Konfigurieren Ihrer E-Mail-](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+* **API-Schlüsseleinstellungen**
 
-   <!--
+  Informationen zu API-Schlüsseleinstellungen finden Sie unter [Verwalten von API-Schlüsseln](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
+
+* **IP-Zulassungsliste**
+
+  Informationen zum Hinzufügen der IP-Adressen zu Ihrer Zulassungsliste, über die Ihre Benutzer auf Workfront zugreifen können, finden Sie [Zulassungsliste Ihrer Firewall konfigurieren](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+
+* **E-Mail**
+
+  Informationen zum Hinzufügen von E-Mails zu Ihrer Zulassungsliste finden Sie unter [Konfigurieren Ihrer E-Mail-](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
+
+<!--
    * **License**
 
      For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
@@ -132,14 +141,6 @@ So konfigurieren Sie den Abschnitt „Allgemeine Informationen“ im Bereich „
       <td role="rowheader">Standard-Gebietsschema für E-Mail</td> 
       <td>Steuert die Sprache, das Datum- und das Zahlenformat, die in ausgehenden E-Mail-Nachrichten verwendet werden. Das hier ausgewählte Gebietsschema ist der Standard, wenn neue Benutzer erstellt werden. Benutzer können ihr Gebietsschema in ihrem Benutzerprofil ändern. Wenn Benutzende ihr Gebietsschema ändern, entsprechen die Sprache, das Datum und das Zahlenformat in ihren E-Mails aus Workfront ihren Profilvoreinstellungen. Weitere Informationen zum Ändern Ihrer Profilvoreinstellungen finden Sie unter <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Konfigurieren meiner Einstellungen</a>.</td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">Speicherquote</td> 
-      <td> <p>Dies ist der Umfang des in Ihrer Workfront-Instanz verfügbaren Dokumentenspeichers.<br>Das Kontingent enthält Dokumente, die Sie direkt in Workfront hochladen.<br>Sie umfasst nicht:</p> 
-       <ul> 
-        <li>Dokumente, die Sie von einem anderen Drittanbieter (SharePoint, Google Drive, Webdam, Box, Dropbox oder einem anderen Anbieter von Document Asset Management) mit Workfront verknüpfen.</li> 
-        <li>Ihre Workfront-Daten (Projekte, Aufgaben, Probleme, Benutzer usw.).</li> 
-       </ul> </td> 
-     </tr>
     </tbody> 
    </table>
 

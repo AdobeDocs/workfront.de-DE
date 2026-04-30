@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
+source-git-commit: de64f43d115c3f1c563fde761e5776b7213ae55f
 workflow-type: tm+mt
-source-wordcount: '14070'
+source-wordcount: '14083'
 ht-degree: 96%
 
 ---
@@ -19,11 +19,12 @@ ht-degree: 96%
       * [Überblick über Produktversionen](product-announcements/product-releases/product-releases.md)
       * [Veröffentlichungszeitplan und -prozess für Adobe Workfront](product-announcements/product-releases/workfront-release-schedule.md)
       * [Vorbereiten auf eine vierteljährliche Adobe Workfront-Version](product-announcements/product-releases/release-readiness.md)
-      * 2026 Q3 Release {#release-26-q3}
-         * [Third Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)
+      * Version 2026 Q3 {#release-26-q3}
+         * [Versionsübersicht für das dritte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)
+         * [Verbesserungen bei Dokumenten für das dritte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md)
          * [Drittes Quartal 2026 - Verbesserungen anfordern](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md)
-      * 2026 Q2 Release {#release-26-q2}
-         * [Second Quarter 2026 release overview](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
+      * Version 2026 Q2 {#release-26-q2}
+         * [Übersicht über die Version 2026 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
          * [Verbesserungen für Administratoren im zweiten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md)
          * [Verbesserungen bei Dokumenten für das zweite Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md)
          * [Verbesserungen bei Unternehmensabläufen im zweiten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-enterprise-operations-enhancements.md)
@@ -237,7 +238,7 @@ ht-degree: 96%
          * [Weitere Verbesserungen in Version 21.1](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Veröffentlichungen von Adobe Workfront-Planung{#planning-release-activity}
          * [Veröffentlichungen von Adobe Workfront-Planung](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
-         * [Second Quarter 2026 release activity for Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
+         * [Versionsaktivität für das zweite Quartal 2026 für Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q2.md)
          * [Veröffentlichungen für Adobe Workfront-Planung im ersten Quartal 2026](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q1.md)
          * [Veröffentlichungen für Adobe Workfront-Planung im vierten Quartal 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
          * [Veröffentlichungen für Adobe Workfront-Planung im dritten Quartal 2025](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
@@ -1277,6 +1278,7 @@ ht-degree: 96%
          * [Grundlegendes zu Projektmetriken](manage-work/projects/manage-projects/project-metrics.md)
          * [Überblick über Projektbeschränkungen](manage-work/projects/manage-projects/project-maximums.md)
          * [Zusammenfassen von Aktualisierungen mit dem KI-Assistenten](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
+         * [Übersicht über das Dokumentenmanagement für Projekte und zugehörige Objekte](manage-work/projects/manage-projects/manage-documents-on-projects.md)
       * Erstellen und Verwalten von Projektvorlagen {#create-and-manage-project-templates}
          * [Erstellen und Verwalten von Projektvorlagen: Artikelindex](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
          * [Überblick über Projektvorlagen](manage-work/projects/create-and-manage-templates/project-template-overview.md)
