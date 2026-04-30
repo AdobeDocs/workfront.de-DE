@@ -108,7 +108,7 @@ Weitere Informationen zu Berechtigungen für Portfolios finden Sie unter [Freige
 Die folgenden Portfolioleistungsmetriken werden im Bereich [!UICONTROL Portfolio-Details] innerhalb eines Portfolios angezeigt:
 
    * Gibt an, ob das Portfolio [!UICONTROL rechtzeitig]
-   * Gibt an, ob das Portfolio &quot;[!UICONTROL  Budget“ ]
+   * Gibt an, ob das Portfolio &quot;[!UICONTROL &#x200B; Budget“ &#x200B;]
    * Die [!UICONTROL Rentabilität] (ROI)
    * Das Portfolio [!UICONTROL Ausrichtung]
    * Das Portfolio [!UICONTROL Nettowert]
@@ -133,12 +133,12 @@ Die folgenden Portfolioleistungsmetriken werden im Bereich [!UICONTROL Portfolio
      Weitere Informationen zum Erstellen von Filtern finden Sie unter [Filter - Übersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 
-1. Klicken Sie **[!UICONTROL linken Bedienfeld]**Programme“, um Programme innerhalb des Portfolios zu erstellen oder vorhandene zu verwalten.
-Informationen zu Programmen finden Sie im Abschnitt [Erstellen und Verwalten ](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md) Programmen“.
+1. Klicken Sie **[!UICONTROL linken Bedienfeld]**&#x200B;Programme“, um Programme innerhalb des Portfolios zu erstellen oder vorhandene zu verwalten.
+Informationen zu Programmen finden Sie im Abschnitt [Erstellen und Verwalten &#x200B;](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md) Programmen“.
 
 1. (Optional) Erweitern Sie den Bereich **[!UICONTROL Portfolio]** Details im linken Bereich und klicken Sie dann auf **[!UICONTROL Übersicht]** oder **[!UICONTROL Benutzerdefinierte Forms]**, um Informationen zum Portfolio zu bearbeiten.
 
-1. (Optional) Klicken Sie im linken ]**auf**[!UICONTROL  Portfolio-Optimierung, um die Leistung des Portfolios zu optimieren.
+1. (Optional) Klicken Sie im linken **auf** Portfolio-Optimierung, um die Leistung des Portfolios zu optimieren.
 
    ![Portfolio Optimizer mit Projekten](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
@@ -167,7 +167,7 @@ Informationen zu Programmen finden Sie im Abschnitt [Erstellen und Verwalten ](.
    >Weitere Informationen finden Sie unter [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
 1. (Optional) Klicken Sie **[!UICONTROL linken]** auf „Updates“, um dem Aktualisierungsverlauf des Portfolios Kommentare hinzuzufügen. Weitere Informationen finden Sie unter [Arbeit aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Optional) Klicken Sie auf das **[!UICONTROL Mehr] Menü** ![Mehr ](assets/qs-more-icon-on-an-object.png), um einen der folgenden Schritte auszuführen:
+1. (Optional) Klicken Sie auf das **[!UICONTROL Mehr] Menü** ![Mehr &#x200B;](assets/qs-more-icon-on-an-object.png), um einen der folgenden Schritte auszuführen:
 
    * Deaktivieren Sie das Portfolio. Wenn ein Portfolio deaktiviert ist, können Sie es nicht mehr mit Projekten auf Projektebene verknüpfen.
    * Löschen Sie das Portfolio.
