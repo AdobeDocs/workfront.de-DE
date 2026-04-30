@@ -6,10 +6,10 @@ description: Probleme oder Anfragen können in Adobe Workfront gelöscht werden,
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 1%
+source-wordcount: '759'
+ht-degree: 3%
 
 ---
 
@@ -39,8 +39,8 @@ Workfront-Administratoren können gelöschte Probleme wiederherstellen.
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Mitwirkender oder höher</p>
-   <p>Anfrage oder höher</p>
+   <td> <p>Mitwirkende oder höher</p>
+   <p>Anfragende oder höher</p>
  </td> 
   </tr> 
   <tr> 
@@ -90,9 +90,9 @@ Je nachdem, wie Ihr Workfront- oder Gruppen-Administrator die Einstellungen für
   Dies gilt auch, wenn Sie versuchen, Projekte zu löschen, in denen Aufgaben mit Stunden protokolliert sind.
 
   <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   
   <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">(this is not possible in classic)</span>
-  </MadCap:conditionalText>
+   
   -->
 
   Weitere Informationen zum Konfigurieren der Löschvoreinstellungen für Stunden, die bei Problemen protokolliert sind, finden Sie unter [Konfigurieren von Arbeitszeittabellen- und Stundenvoreinstellungen](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).

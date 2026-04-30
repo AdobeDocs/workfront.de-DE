@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '2090'
+source-wordcount: '2234'
 ht-degree: 5%
 
 ---
@@ -34,7 +34,7 @@ Sie können eine Vorlagenaufgabe von einer Vorlage in eine andere Vorlage kopier
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p>
-   <p>Abo</p> </td> 
+   <p>Plan</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -108,6 +108,10 @@ Beachten Sie beim Verschieben von Vorlagenaufgaben Folgendes:
 
    * Meilensteine.
 
+* Sie können eine Vorlagenaufgabe nicht von einer Workfront-Speichervorlage in eine Adobe-Speichervorlage kopieren oder verschieben. Auch das Gegenteil ist wahr. Nicht alle Kunden verfügen über beide Speichertypen.
+
+  Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und zugehörige Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 ## Vorlagenaufgaben kopieren
 
 Sie können eine einzelne Vorlagenaufgabe kopieren oder mehrere Vorlagenaufgaben stapelweise kopieren.
@@ -128,11 +132,18 @@ Das Feld Vorlagenaufgabe kopieren wird geöffnet.
 
 1. Geben Sie zunächst den Namen der **Zielvorlage** in das Feld **Zielvorlage auswählen** ein, in das Sie die Vorlagenaufgabe kopieren möchten, und wählen Sie sie aus, wenn sie in der Liste angezeigt wird.
 
+   >[!TIP]
+   >
+   >Sie können auch mit der Eingabe der Referenznummer beginnen oder die ID der Vorlage eingeben. Auf diese Weise können Sie zwischen Vorlagen mit identischen Namen unterscheiden.
+
    Der aktuelle Vorlagenname wird standardmäßig angezeigt. Wenn Sie die Vorlagenaufgabe in dieselbe Vorlage kopieren möchten, lassen Sie dieses Feld unverändert.
 
    >[!TIP]
    >
-   >Sie können auch mit der Eingabe der Referenznummer beginnen oder die ID der Vorlage eingeben. Auf diese Weise können Sie zwischen Vorlagen mit identischen Namen unterscheiden.
+   >Sie müssen eine Vorlage mit einem ähnlichen Dokumentspeichertyp auswählen. Sie können keine Vorlagenaufgaben in eine Vorlage mit einem anderen Speichertyp als der ursprünglichen Vorlage kopieren. Nicht alle Kunden haben Zugriff auf mehrere Dokumentspeichertypen.
+   >
+   >Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und zugehörige Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 
 1. (Bedingt) Klicken Sie auf **Zugriff anfordern** um Zugriff auf die Zielvorlage anzufordern, wenn Sie keinen Zugriff auf die ausgewählte Vorlage haben.
 1. (Bedingt) Kopieren Sie die Vorlagenaufgabe weiterhin in die ausgewählte Zielvorlage, ohne Zugriff anzufordern, wenn Sie Zugriff zum Hinzufügen von Vorlagenaufgaben zu einer der Vorlagenaufgaben in der Zielvorlage haben.
@@ -254,7 +265,11 @@ Das Feld Vorlagenaufgabe verschieben wird geöffnet.
 
    >[!TIP]
    >
-   >Sie können auch mit der Eingabe der Referenznummer beginnen oder die ID der Vorlage eingeben. Auf diese Weise können Sie zwischen Vorlagen mit identischen Namen unterscheiden.
+   >* Sie können auch mit der Eingabe der Referenznummer beginnen oder die ID der Vorlage eingeben. Auf diese Weise können Sie zwischen Vorlagen mit identischen Namen unterscheiden.
+   >
+   >* Sie müssen eine Vorlage mit einem ähnlichen Dokumentspeichertyp auswählen. Sie können keine Vorlagenaufgaben in eine Vorlage mit einem anderen Speichertyp als der ursprünglichen Vorlage kopieren. Nicht alle Kunden haben Zugriff auf mehrere Dokumentspeichertypen.
+   >
+   >Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und zugehörige Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 1. (Bedingt) Klicken Sie auf **Zugriff anfordern** um Zugriff auf die Vorlage anzufordern, wenn Sie keinen Zugriff auf die Zielvorlage haben.
 1. (Bedingt) Verschiebt die Vorlagenaufgabe weiterhin in die ausgewählte Zielvorlage, ohne Zugriff anzufordern, wenn ihr Zugriff zum Hinzufügen von Vorlagenaufgaben zu einer der Vorlagenaufgaben in der Zielvorlage habt.
@@ -291,7 +306,6 @@ Das Feld Vorlagenaufgabe verschieben wird geöffnet.
       <li> Nicht früher anfangen als</li>
       <li> Nicht später anfangen als</li>
       </ul>
-
 
    </td> 
      </tr> 
@@ -340,7 +354,6 @@ Das Feld Vorlagenaufgabe verschieben wird geöffnet.
      </tr>  
     </tbody> 
    </table>
-
 
 1. (Optional) Klicken Sie **linken Bereich auf**&#x200B;Übergeordnetes Element auswählen) und wählen Sie dann die Vorlagenaufgabe in der Zielvorlage aus, die Sie zum übergeordneten Element der verschobenen Vorlagenaufgabe werden möchten.
 

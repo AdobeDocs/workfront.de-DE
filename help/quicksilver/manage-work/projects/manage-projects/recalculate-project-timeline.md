@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1079'
 ht-degree: 4%
 
 ---
@@ -42,7 +42,7 @@ Die automatische Neuberechnung der Zeitleiste erfolgt für keinen der Benutzer, 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p> 
-    <p>Abo</p>
+    <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
@@ -124,9 +124,9 @@ Workfront berechnet die Zeitleisten täglich nur für Projekte neu, die alle fol
 Sie können konfigurieren, wie oft die Zeitleiste für Ihr Projekt aktualisiert wird. Wenn die Projekt-Zeitleiste aktualisiert wird, wird sie auf der Grundlage der am Projekt vorgenommenen Änderungen neu berechnet.
 
 <!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+ 
 or changes made to another project that the timeline is dependent on
-</MadCap:conditionalText>
+ 
 -->
 
 
@@ -181,7 +181,7 @@ Als Projektbesitzer können Sie die Timelines für einzelne Projekte manuell neu
 
 Sie können die Zeitleiste eines Projekts in Workfront auf der Projektseite oder in einer Projektliste oder einem Bericht neu berechnen.
 
-1. Wechseln Sie zu dem Projekt, für das Sie die Zeitleiste neu berechnen möchten, und klicken Sie auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/qs-more-menu.png) links neben dem Projektnamen.
+1. Wechseln Sie zu dem Projekt, für das Sie die Zeitleiste neu berechnen möchten, und klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/qs-more-menu.png) links neben dem Projektnamen.
 
    ODER
 

@@ -7,9 +7,9 @@ role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '2209'
+source-wordcount: '2368'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ Adobe Workfront Planning bietet einen zentralen Einblick in Ihren Marketing-Lebe
 >
 >* Die Anmeldefrist endete am 1. April 2026 und ist jetzt geschlossen.
 >
->* Wenn Sie die Testvereinbarung akzeptiert haben und für die Testversion registriert sind, ist sie zwischen dem 2. März und dem 1. Mai 2026 verfügbar.
+>* Wenn Sie die Testvereinbarung akzeptiert haben und für die Testversion registriert sind, ist sie zwischen dem 2. März und dem 1. Mai 2026 verfügbar. Der Zugriff bleibt bis zum 15. Mai 2026 aktiv.
 >
 >* Beachten Sie, dass die Testversion für 60 Tage ab dem Start verfügbar ist und nicht für 60 Tage ab dem Zeitpunkt, an dem Sie daran teilgenommen haben.
 >
@@ -98,7 +98,7 @@ Im Folgenden finden Sie wichtige Daten im Zusammenhang mit dem kostenlosen Testa
    * In: The Workfront Planning Trial Banner.
    * Die **Testvereinbarung überprüfen**-Einstellung wird aus dem Bereich **Setup** entfernt.
 
-* **1. Mai 2026**: Die Workfront Planning-Testversion wird geschlossen und Ihr Zugriff auf Planning wird entfernt.
+* **1. Mai 2026**: Die Workfront Planning-Testversion wird geschlossen und Ihr Zugriff auf Planning wird entfernt. Der Zugriff bleibt bis zum 15. Mai 2026 aktiv.
 
   Wenn Sie an der Studie teilgenommen haben, sichert Workfront Ihre Daten nach Abschluss der Studie. Sie haben jedoch nach diesem Datum keinen Zugriff mehr darauf.
 
@@ -127,7 +127,7 @@ Alle Benutzenden in Ihrem Unternehmen erhalten während der Testphase das folgen
 
 * **Nach dem 1. Mai 2026:**
 
-  Alle Benutzer in Ihrem System haben keinen Zugriff mehr auf Workfront Planning und Workfront sichert Ihre Daten.
+  Der Zugriff auf die Testversion bleibt bis zum 15. Mai 2026 aktiv. Nach dem 15. Mai wird der Zugriff aller Benutzer in Ihrem System auf Workfront Planning entfernt, und Workfront sichert Ihre Daten.
 
 ## Weitere Informationen zu Workfront Planning
 
@@ -174,7 +174,7 @@ Die Testversion wurde gestartet, und Ihre Organisation hat am 2. März 2026 Zugr
 
 >[!WARNING]
 >
->Der Opt-in-Zeitraum endet am 1. April 2026. Die Funktionen der Planning-Testversion sind jedoch bis zum 1. Mai 2026 verfügbar.
+>Der Opt-in-Zeitraum endet am 1. April 2026. Die Funktionen der Planning-Testversion sind jedoch bis zum 15. Mai 2026 verfügbar.
 
 1. (Bedingt) Melden Sie sich bei Adobe Workfront als Systemadministrator an.
 
@@ -188,7 +188,7 @@ Die Testversion wurde gestartet, und Ihre Organisation hat am 2. März 2026 Zugr
 1. (Bedingt) Wenn Sie sich im Bereich **Setup** befinden, gehen Sie zum Abschnitt **Andere Voreinstellungen** und klicken Sie dann auf **Testvereinbarung überprüfen**.
 1. Klicken Sie **Akzeptieren**, nachdem Sie die Vereinbarung geprüft haben.
 
-   Ihr Unternehmen ist jetzt für die Testversion von Workfront Planning bis zum 1. Mai 2026 registriert.
+   Ihr Unternehmen ist jetzt für die Testversion von Workfront Planning bis zum 1. Mai 2026 registriert. Der Zugriff bleibt bis zum 15. Mai 2026 aktiv.
 
    Nachdem Sie die Testvereinbarung akzeptiert haben, treten folgende Dinge auf:
 
@@ -207,6 +207,19 @@ Weitere Informationen zur Verwendung von Workfront Planning finden Sie unter [Er
 
 Best Practices zur Implementierung von Workfront Planning finden Sie unter [Best Practices für Adobe Workfront Planning: Artikelindex](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
 
+## Feedback zur Planung senden
+
+So senden Sie Feedback zu Ihren Erfahrungen mit Workfront Planning:
+
+1. Melden Sie sich bei Workfront an und öffnen Sie eine Seite.
+1. Suchen Sie die kurze Umfrage unten rechts auf jeder Workfront-Seite, beantworten Sie die Fragen und klicken Sie dann auf **Weiter**.
+
+   ![Promo-Testumfrage](assets/promo-trial-survey.png)
+
+1. Beantworten Sie auf der zweiten Folie die Fragen und klicken Sie dann auf **Senden**.
+
+   Ihr Feedback wird an unser Produktmanagement-Team gesendet.
+
 
 ## Erleben Sie Workfront Planning durch die kostenlose Testversion
 
@@ -214,12 +227,12 @@ Sie können Beispiel-Planning-Arbeitsbereiche und deren Objekte überprüfen und
 
 1. (Bedingt und erforderlich) Als Workfront-Administrator unterzeichnen Sie die Vereinbarung über die kostenlose Testversion.
 
-   Weitere Informationen finden Sie im Abschnitt [Registrieren bei der kostenlosen Testversion von Adobe Workfront &#x200B;](#enroll-in-the-adobe-workfront-planning-free-trial).
+   Weitere Informationen finden Sie im Abschnitt [Registrieren bei der kostenlosen Testversion von Adobe Workfront ](#enroll-in-the-adobe-workfront-planning-free-trial).
 1. (Bedingt) Nachdem der Testvertrag von einem Workfront-Administrator unterzeichnet wurde, klicken Sie auf das **Hauptmenü**-Symbol ![](assets/main-menu-shell.png) und dann auf eine der folgenden Optionen, um auf den Bereich **Planung** zuzugreifen:
 
    * **Planung**. Neben dem Symbol wird die **&quot;**&quot; angezeigt.
    * **Projekte**, **Anfragen**, **Kalender**, dann **Kampagnenkalender erkunden**
-   * **Portfolios**, **Programme** oder aus einem Portfolio oder Programm    Klicken Sie dann auf **Benutzerdefinierte Hierarchien erkunden**.
+   * **Portfolios**, **Programme** oder aus einem Portfolio oder Programm und klicken Sie dann auf **Benutzerdefinierte Hierarchien erkunden**.
 
    Der Bereich **Planung** wird auf der Registerkarte **Beispielarbeitsbereiche** geöffnet.
 1. Überprüfen Sie die folgenden Arbeitsbereiche auf der Registerkarte **Beispiel-**&quot;:
@@ -266,7 +279,7 @@ Sie können Beispiel-Planning-Arbeitsbereiche und deren Objekte überprüfen und
    * Einträge
 
      Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
-   * Ansichten 
+   * Ansichten
 
      Weitere Informationen finden Sie unter [Verwalten von Eintragsansichten](/help/quicksilver/planning/views/manage-record-views.md).
    * Felder
@@ -286,7 +299,7 @@ Sie können Beispiel-Planning-Arbeitsbereiche und deren Objekte überprüfen und
    * Eintragstypen
 
      Weitere Informationen finden Sie [Datensatztypen freigeben](/help/quicksilver/planning/access/share-record-types.md).
-   * Ansichten 
+   * Ansichten
 
      Weitere Informationen finden Sie unter [Freigeben von Ansichten](/help/quicksilver/planning/access/share-views.md).
 

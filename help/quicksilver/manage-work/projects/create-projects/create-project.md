@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 4%
+source-wordcount: '1614'
+ht-degree: 3%
 
 ---
 
@@ -44,7 +44,7 @@ Projekte stellen einen großen Arbeitsaufwand dar, der in Adobe Workfront erledi
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p>
-        <p>Abo</p> </td> 
+        <p>Plan</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -167,6 +167,17 @@ Beachten Sie Folgendes:
 
      Wenn Sie beim Erstellen des Projekts eine Vorlage verwenden, indem Sie das Problem konvertieren, sehen Sie im zweiten obigen Szenario nach, welche Gruppe und welcher Status Workfront für das neue Projekt gilt.
 
+* Welche Dokumente in einem Projekt gespeichert werden und welche untergeordneten Objekte (Aufgaben und Probleme) es gibt, hängt davon ab, was Ihr Workfront-Administrator im Bereich „Systemvoreinstellungen“ unter „Setup“ als Standard für Speichervoreinstellungen auswählt. Je nachdem, wo Sie Dokumente in Ihrer Workfront-Instanz speichern, können Sie die folgenden Projekttypen erstellen:
+
+   * Alte Workfront-Speicherprojekte
+   * Adobe Enterprise-Speicherprojekte.
+
+  Weitere Informationen finden Sie unter [Aktivieren von Adobe Enterprise Storage für Ihr Unternehmen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+
+* Wenn Sie ein Enterprise-Storage-Projekt erstellen, wird im Abschnitt **Dokumente** des Projekts ein Dokumentordner mit demselben Namen des Projekts für erstellt. Nachdem Sie dem Projekt Aufgaben hinzugefügt haben, werden Ordner mit dem Namen der Aufgabe zum Abschnitt **Dokumente** jeder Aufgabe hinzugefügt.
+
+Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und verwandte Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 ## Ein Projekt von Grund auf neu erstellen
 
 >[!NOTE]
@@ -175,15 +186,40 @@ Beachten Sie Folgendes:
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke oder auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront, falls verfügbar, klicken Sie dann auf **Projekte** und erweitern Sie **Neues Projekt**.
+   * Klicken Sie oben links auf **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) und klicken Sie dann auf **Projekte** und erweitern Sie **Neues Projekt**.
    * Gehen Sie zu einem Portfolio und erweitern Sie dann **Neues Projekt**.
    * Wechseln Sie zu einem Programm und erweitern Sie dann **Neues Projekt**.
    * Wenn Sie Gruppenadministrator sind, können Sie im Abschnitt Projekte einer Gruppe, die Sie verwalten, auch ein Projekt erstellen. Weitere Informationen finden Sie unter [Erstellen und Ändern der Projekte einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-   ![Menü „Neues Projekt“](assets/new-project-dropdown-nwe-350x358.png)
+   ![Menü „Neues Projekt“](assets/new-project-drop-down-with-legacy-storage-option.png)
 
-1. Klicken Sie **Menü** Neues Projekt“, um ein Projekt von Grund auf neu zu erstellen.
-1. Geben Sie einen Namen für Ihr Projekt ein. Drücken Sie die Eingabetaste, um den Namen zu speichern.
+1. (Bedingt) Klicken Sie je nachdem, welchen Dokumentspeicher Ihr Unternehmen verwendet, auf eine der folgenden Optionen:
+
+   * **Neues Projekt**, wenn der Workfront-Administrator entweder **Adobe Enterprise** oder **Legacy Workfront** auswählt und die Einstellung **Dem Benutzer die Auswahl des Speicheranbieters erlauben** ausgewählt hat oder nicht.
+   * **Neues Projekt (Legacy-Speicher)** Wenn der Workfront-Administrator entweder **Adobe Enterprise** oder **Legacy-Workfront** auswählt und außerdem die Einstellung **Auswahl des Speicheranbieters durch den Benutzer zulassen** ausgewählt hat.
+
+     Diese Option wird nur angezeigt, wenn **Einstellung „Auswahl des Speicheranbieters durch den Benutzer zulassen** im Bereich „Setup“ ausgewählt ist.
+
+     Weitere Informationen finden Sie unter [Aktivieren von Adobe Enterprise Storage für Ihr Unternehmen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+
+     >[!NOTE]
+     >
+     >Wenn Sie ein Enterprise-Storage-Projekt aus einem Workfront-Storage-Portfolio oder -Programm erstellen, wird das Portfolio oder Programm auch in Enterprise-Storage-Objekte konvertiert. Alle anderen Workfront-Speicherprojekte im selben Portfolio oder Programm bleiben unverändert.
+
+     Ein Projekt wird erstellt, und sein Standardname folgt den folgenden Mustern, je nachdem, welcher Speicher Workfront für Dokumente verwendet:
+
+      * **Unbenanntes Projekt** für ein Workfront-Speicherprojekt.
+
+        Bei einem Workfront-Speicherprojekt wird neben dem Namen das Symbol **Legacy** Workfront-Speicher![ Legacy-](assets/legacy-storage-project-icon.png)Projekt“ angezeigt.
+
+      * **Unbenanntes Projekt - &lt; Monat, Tag, Jahr, Stunde.Minute.Sekunde >** für ein Adobe-Speicherprojekt
+
+        >[!IMPORTANT]
+        >
+        >Projekte, die Adobe Enterprise Storage verwenden, müssen eindeutige Namen haben.
+
+
+1. Aktualisieren Sie in der Kopfzeile des Projekts den Namen des Projekts. Drücken Sie die Eingabetaste, um den Namen zu speichern.
 
    ![Geben Sie einen Namen für das Projekt ein](assets/rename-untitled-project.png)
 

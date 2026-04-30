@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '3318'
+source-wordcount: '3385'
 ht-degree: 2%
 
 ---
@@ -31,9 +31,9 @@ Je nachdem, welche Zugriffsebene Sie in [!DNL Workfront] haben, können Sie eini
 
 ## Wie sich Zugriffsebenen auf die Bearbeitung des Bereichs [!UICONTROL Meine Einstellungen] auswirken
 
-Je nachdem, welche Zugriffsebene Sie haben, können Sie Abschnitte in Ihrem Bereich „Meine [!UICONTROL &quot; &#x200B;] oder nicht bearbeiten.
+Je nachdem, welche Zugriffsebene Sie haben, können Sie Abschnitte in Ihrem Bereich „Meine [!UICONTROL &quot; ] oder nicht bearbeiten.
 
-Einige Felder in bearbeitbaren Abschnitten können nicht bearbeitet werden, abhängig von anderen Einstellungen, die möglicherweise in Ihrer Zugriffsebene konfiguriert sind oder nicht. Weitere Informationen zum zusätzlichen Zugriff, der für die Bearbeitung einiger Felder in „Meine [!UICONTROL &quot; benötigt wird] finden Sie in den Abschnitten unter [Konfigurieren des Bereichs [!UICONTROL Meine &#x200B;]](#configuring-the-my-settings-area).
+Einige Felder in bearbeitbaren Abschnitten können nicht bearbeitet werden, abhängig von anderen Einstellungen, die möglicherweise in Ihrer Zugriffsebene konfiguriert sind oder nicht. Weitere Informationen zum zusätzlichen Zugriff, der für die Bearbeitung einiger Felder in „Meine [!UICONTROL &quot; benötigt wird] finden Sie in den Abschnitten unter [Konfigurieren des Bereichs [!UICONTROL Meine ]](#configuring-the-my-settings-area).
 
 Wenden Sie sich an Ihren [!DNL Workfront], um zu erfahren, welche Zugriffsebene Sie haben.
 
@@ -77,7 +77,7 @@ Das folgende Raster zeigt, welche Abschnitte im Bereich [!UICONTROL Meine Einste
    <td>✔ </td> 
   </tr> 
   <tr> 
-   <td rowspan="2">[!UICONTROL -Voreinstellungen]</td> 
+   <td rowspan="2">[!UICONTROL-Voreinstellungen]</td> 
    <td> <p>Sichtbar</p> </td> 
    <td> <p>✔</p> </td> 
    <td> ✔</td> 
@@ -94,7 +94,7 @@ Das folgende Raster zeigt, welche Abschnitte im Bereich [!UICONTROL Meine Einste
    <td>✔ </td> 
   </tr> 
   <tr> 
-   <td rowspan="2">[!UICONTROL -Benachrichtigungen]</td> 
+   <td rowspan="2">[!UICONTROL-Benachrichtigungen]</td> 
    <td> <p>Sichtbar</p> </td> 
    <td> <p>✔</p> </td> 
    <td>✔ </td> 
@@ -179,7 +179,7 @@ Das folgende Raster zeigt, welche Abschnitte im Bereich [!UICONTROL Meine Einste
    <td> </td> 
   </tr> 
   <tr> 
-   <td rowspan="2">[!UICONTROL -Kommentar]</td> 
+   <td rowspan="2">[!UICONTROL-Kommentar]</td> 
    <td>Sichtbar</td> 
    <td>✔</td> 
    <td>✔ </td> 
@@ -272,7 +272,7 @@ In diesem Unterabschnitt können folgende Änderungen vorgenommen werden:
         <td>Geben Sie Ihren Titel an. Dies ist nicht dasselbe wie Ihr Aufgabengebiet. Ihr Titel ist nicht Teil der Ressourcenplanung, Ihr Aufgabengebiet hingegen schon. Ihr Titel wird in der [!DNL Workfront]-Oberfläche überall dort angezeigt, wo Ihr Name und Ihr Avatar erscheinen. Sie ist für alle sichtbar, die Zugriff auf Ihr Benutzerprofil haben.</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL , mit mir sprechen über]</strong></td>
+        <td><strong>[!UICONTROL, mit mir sprechen über]</strong></td>
         <td>Geben Sie Ihre beruflichen Interessen in diesem Feld an.</td>
     </tr>
 </table>
@@ -287,7 +287,7 @@ In diesem Unterabschnitt können folgende Änderungen vorgenommen werden:
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL -Erweiterung]</strong></td>
+        <td><strong>[!UICONTROL-Erweiterung]</strong></td>
         <td> </td>
     </tr>
     <tr>
@@ -295,7 +295,7 @@ In diesem Unterabschnitt können folgende Änderungen vorgenommen werden:
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL -Adresse]</strong></td>
+        <td><strong>[!UICONTROL-Adresse]</strong></td>
         <td> </td>
     </tr>
     <tr>
@@ -326,7 +326,7 @@ Geben Sie in diesem Abschnitt an, was in Ihrer [!DNL Workfront] angezeigt werden
 
 >[!NOTE]
 >
->Benutzende mit einer [!UICONTROL Anbieter] oder [!UICONTROL Antragsteller]-Lizenz verfügen nicht über andere linke Bedienfeldelemente, die sie ihrem [!UICONTROL Hauptmenü] außerhalb des Bereichs [!UICONTROL Anfragen] hinzufügen können. Ein [!DNL Workfront] kann Benutzer mit einer Lizenz für [!UICONTROL Mitwirkende] oder [!UICONTROL Anfragende] einer Layout-Vorlage zuweisen, die alle anderen Bereiche im [!UICONTROL Hauptmenü]. Danach können sie die Bereiche auswählen, die im [!UICONTROL &#x200B; angezeigt werden sollen] indem sie ihr Benutzerprofil bearbeiten.
+>Benutzende mit einer [!UICONTROL Anbieter] oder [!UICONTROL Antragsteller]-Lizenz verfügen nicht über andere linke Bedienfeldelemente, die sie ihrem [!UICONTROL Hauptmenü] außerhalb des Bereichs [!UICONTROL Anfragen] hinzufügen können. Ein [!DNL Workfront] kann Benutzer mit einer Lizenz für [!UICONTROL Mitwirkende] oder [!UICONTROL Anfragende] einer Layout-Vorlage zuweisen, die alle anderen Bereiche im [!UICONTROL Hauptmenü]. Danach können sie die Bereiche auswählen, die im [!UICONTROL  angezeigt werden sollen] indem sie ihr Benutzerprofil bearbeiten.
 
 In diesem Unterabschnitt können folgende Änderungen vorgenommen werden:
 
@@ -383,16 +383,16 @@ In diesem Unterabschnitt können folgende Änderungen vorgenommen werden:
    <td role="rowheader"><strong>[!UICONTROL Layoutvorlage]</strong> </td> 
    <td>Dieses Feld ist für Benutzer mit einer Zugriffsebene [!UICONTROL Standard], [!UICONTROL Plan] oder [!UICONTROL [!DNL Workfront] Administrator] sichtbar und kann nur für [!UICONTROL [!DNL Workfront] Administratoren] oder Benutzer mit einer Lizenz für [!UICONTROL Standard] oder [!UICONTROL Plan] bearbeitet werden, die auch administrativen Benutzerzugriff haben. Wählen Sie hier eine Layout-Vorlage aus, um das Erscheinungsbild und Feld Ihrer Workfront-Benutzeroberfläche zu aktualisieren. Weitere Informationen zum Einrichten von Benutzern mit administrativem Benutzerzugriff finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#configure-users-access-to-edit-users-using-a-custom-access-level" class="MCXref xref">Konfigurieren des Benutzerzugriffs zum Bearbeiten von Benutzern mit einer benutzerdefinierten Zugriffsebene</a> in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Gewähren des Zugriffs für Benutzer</a>.<br>Weitere Informationen zu Layout-Vorlagen und deren Auswirkungen auf Ihre Benutzeroberfläche finden Sie unter <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Erstellen und Verwalten von Layout-Vorlagen</a></td> 
   </tr>
-  <!--
+  &lt;!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader"><strong>Log in as</strong> </td> 
-    <td> <p><strong>Add access</strong> for a Workfront administrator or group administrator (associated with a group you are in) to log in as you. Select an <strong>Access expiration date</strong> for the login. </p> <p>You can repeat this to grant login access to multiple administrators.</p> <p>The settings you choose in this section are visible only to you.
-       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-        <span class="PinkDraftNote">Add a note about this being only for the Enterprise package if they decide to do it that way. Functionality that may come in a later sprint: If you want to be notified when the administrator logs in as you, select Receive an email when this user logs in.</span> 
-       </MadCap:conditionalText>
-      </p> </td> 
-   </tr>
-  --> 
+    <td role="rowheader"><strong>Anmelden als</strong> </td> 
+    <td> <p><strong>Zugriff hinzufügen</strong> für einen Workfront-Administrator oder Gruppenadministrator (der mit einer Gruppe verknüpft ist, der Sie angehören), um sich wie von selbst anzumelden. Wählen Sie ein <strong>Ablaufdatum des Zugriffs</strong> für die Anmeldung aus. </p> <p>Sie können dies wiederholen, um mehreren Administratoren Anmeldezugriff zu gewähren.</p> <p>Die Einstellungen, die Sie in diesem Abschnitt auswählen, sind nur für Sie sichtbar.
+
+    &lt;span class=„PinkDraftNote“>Fügen Sie einen Hinweis hinzu, dass dies nur für das Enterprise-Paket gilt, wenn sie sich dafür entscheiden. Funktion, die in einem späteren Sprint auftreten kann: Wenn Sie benachrichtigt werden möchten, wenn sich der Administrator bei Ihnen anmeldet, wählen Sie E-Mail empfangen , wenn sich dieser Benutzer anmeldet.&lt;/span>
+    
+    &lt;/p> &lt;/td>
+</tr>
+  --&gt; 
   <tr> 
    <td role="rowheader"><strong>(Bedingt) [!UICONTROL Benutzer kann Korrekturabzüge generieren (… von … Korrekturabzugslizenzen verbleibend)]</strong></td> 
    <td>Dieses Feld ist nur verfügbar, wenn Ihr Unternehmen ein veraltetes [!DNL Workfront] verwendet und die [!DNL Workfront Proof]-Komponente erworben hat. Wenn er ausgewählt ist, werden Sie als Proofing-Benutzer aktiviert. Außerdem wird die Anzahl der in Ihrem System verwendeten Proof-Lizenzen im Verhältnis zur Gesamtzahl der erworbenen Proof-Lizenzen angezeigt. Dieses Feld ist nur für Benutzer sichtbar und bearbeitbar, die auch [!DNL Workfront] sind. Weitere Informationen zu den Planoptionen für das Proofing in [!DNL Workfront] finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md">Zugriff auf die Proofing-Funktion in [!DNL Workfront]</a>.</td>
@@ -529,7 +529,7 @@ Ihr [!DNL Workfront] muss benutzerdefinierte Formulare für das Benutzerobjekt k
 
 ### [!UICONTROL Kommentar]
 
-Sie können einen Kommentar zu Ihrem Benutzerprofil aufzeichnen, der auf der Registerkarte [!UICONTROL &#x200B; gespeichert &#x200B;].
+Sie können einen Kommentar zu Ihrem Benutzerprofil aufzeichnen, der auf der Registerkarte [!UICONTROL  gespeichert ].
 
 Sie können auf das [!UICONTROL Personen]-Symbol klicken, um andere in das Update aufzunehmen.
 

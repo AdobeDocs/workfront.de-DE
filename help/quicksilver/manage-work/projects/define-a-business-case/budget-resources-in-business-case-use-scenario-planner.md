@@ -1,18 +1,18 @@
 ---
 navigation-topic: business-case-and-scorecards
-title: Budgetressourcen im Business Case mit dem Szenario-Planer
+title: Budgetieren von Ressourcen im Business-Case mit dem Szenarienplaner
 description: Im Rahmen der Ressourcenplanung können Sie mit dem Adobe Workfront-Szenario-Planer die Aufgabengebiete budgetieren, die zum Abschließen der Arbeit in einem Projekt erforderlich sind, wenn Sie den Business Case erstellen.
 author: Becky
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 1%
+source-wordcount: '961'
+ht-degree: 7%
 
 ---
 
-# Budgetressourcen im Business Case mit dem Szenario-Planer
+# Budgetieren von Ressourcen im Business-Case mit dem Szenarienplaner
 
 <!--Audited: 06/2025-->
 
@@ -22,7 +22,7 @@ Weitere Informationen zum Erstellen eines Business-Case finden Sie unter [Erstel
 
 >[!TIP]
 >
->Die Aufgabengebiet-Informationen für die mit dem Projekt verknüpfte Initiative, die Sie im Szenario-Planer auf Systemebene eingeben, werden bei der Veröffentlichung der Initiative im Bereich Ressourcenbudgetierung des Business Cases des Projekts angezeigt. Der Szenario-Planer ist nur in der neuen Adobe Workfront-Version verfügbar und erfordert eine zusätzliche Lizenz. Weitere Informationen zum Workfront-Szenarioplaner finden Sie unter [Szenarioplaner - Übersicht](../../../scenario-planner/scenario-planner-overview.md).
+>Die Aufgabengebiet-Informationen für die mit dem Projekt verknüpfte Initiative, die Sie im Szenario-Planer auf Systemebene eingeben, werden bei der Veröffentlichung der Initiative im Bereich Ressourcenbudgetierung des Business Cases des Projekts angezeigt. Der Szenario-Planer ist nur in der neuen Adobe Workfront-Version verfügbar und erfordert eine zusätzliche Lizenz. Weitere Informationen zum Workfront-Szenarienplaner finden Sie unter [Überblick über den Szenarienplaner](../../../scenario-planner/scenario-planner-overview.md).
 
 Sie können Ressourcen auch im Business Case mit dem Ressourcenplaner budgetieren. Weitere Informationen finden Sie hier:
 
@@ -35,7 +35,7 @@ Sie können Ressourcen auch im Business Case mit dem Ressourcenplaner budgetiere
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -111,9 +111,9 @@ Bevor Sie beginnen, müssen Sie Folgendes tun:
 >Sie können Ihre Ressourcen für einen Zeitraum von 15 Jahren budgetieren. Wenn Sie Ressourcen für ein Projekt mit einer Laufzeit von mehr als 15 Jahren budgetieren, sind die Budgetierungsinformationen möglicherweise nicht korrekt.
 
 <!--
-><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">>
+> >
 >(is this still accurate for the Scenario Planner?)>
-></MadCap:conditionalText>>
+> >
 -->
 
 1. Wechseln Sie zu dem Projekt, für das Sie Ressourcen budgetieren möchten.

@@ -8,10 +8,10 @@ feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 7%
+source-wordcount: '697'
+ht-degree: 6%
 
 ---
 
@@ -108,12 +108,12 @@ Weitere Informationen zu Berechtigungen für Portfolios finden Sie unter [Freige
 Die folgenden Portfolioleistungsmetriken werden im Bereich [!UICONTROL Portfolio-Details] innerhalb eines Portfolios angezeigt:
 
    * Gibt an, ob das Portfolio [!UICONTROL rechtzeitig]
-   * Gibt an, ob das Portfolio &quot;[!UICONTROL &#x200B; Budget“ &#x200B;]
+   * Gibt an, ob das Portfolio &quot;[!UICONTROL  Budget“ ]
    * Die [!UICONTROL Rentabilität] (ROI)
    * Das Portfolio [!UICONTROL Ausrichtung]
    * Das Portfolio [!UICONTROL Nettowert]
 
-1. (Optional)   Klicken Sie **[!UICONTROL linken Bereich]** Projekte), um die mit dem ausgewählten Portfolio verknüpften Projekte anzuzeigen, und wählen Sie dann einen der folgenden Filter aus dem Dropdown-Menü **[!UICONTROL Filter]** aus:
+1. (Optional) Klicken Sie **[!UICONTROL linken Bereich]** Projekte), um die mit dem ausgewählten Portfolio verknüpften Projekte anzuzeigen, und wählen Sie dann einen der folgenden Filter aus dem Dropdown-Menü **[!UICONTROL Filter]**:
 
    * **[!UICONTROL Aktiv]**: Umfasst alle mit dem ausgewählten Portfolio verknüpften Projekte mit den folgenden Status:
 
@@ -133,12 +133,12 @@ Die folgenden Portfolioleistungsmetriken werden im Bereich [!UICONTROL Portfolio
      Weitere Informationen zum Erstellen von Filtern finden Sie unter [Filter - Übersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 
-1. Klicken Sie **[!UICONTROL linken Bedienfeld]**&#x200B;Programme“, um Programme innerhalb des Portfolios zu erstellen oder vorhandene zu verwalten.
-Informationen zu Programmen finden Sie im Abschnitt [Erstellen und Verwalten &#x200B;](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md) Programmen“.
+1. Klicken Sie **[!UICONTROL linken Bedienfeld]**Programme“, um Programme innerhalb des Portfolios zu erstellen oder vorhandene zu verwalten.
+Informationen zu Programmen finden Sie im Abschnitt [Erstellen und Verwalten ](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md) Programmen“.
 
 1. (Optional) Erweitern Sie den Bereich **[!UICONTROL Portfolio]** Details im linken Bereich und klicken Sie dann auf **[!UICONTROL Übersicht]** oder **[!UICONTROL Benutzerdefinierte Forms]**, um Informationen zum Portfolio zu bearbeiten.
 
-1. (Optional) Klicken Sie im linken **[!UICONTROL auf]** Portfolio-Optimierung, um die Leistung des Portfolios zu optimieren.
+1. (Optional) Klicken Sie im linken ]**auf**[!UICONTROL  Portfolio-Optimierung, um die Leistung des Portfolios zu optimieren.
 
    ![Portfolio Optimizer mit Projekten](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
@@ -150,8 +150,24 @@ Informationen zu Programmen finden Sie im Abschnitt [Erstellen und Verwalten &#x
    Informationen zur Verwendung von Portfolio Optimizer finden Sie im [Verwalten von Projekten im Portfolio Optimizer: Artikelindex](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md).
 
 1. (Optional) Klicken Sie **linken Bereich** Dokumente“, um Dokumente an das Portfolio anzuhängen.
+
+   >[!NOTE]
+   >
+   >Das Hinzufügen von Dokumenten zu Portfolios unterscheidet sich je nach dem Speichertyp, den Ihr Unternehmen für Workfront verwendet.
+   >Einige Kunden haben möglicherweise Zugriff auf die beiden folgenden Dokumentspeicherumgebungen:
+   >
+   >  * **Der alte Workfront-**: Portfolios, die diesen Speicher verwenden, haben das Symbol für den alten Speicher ![Symbol für den alten Speicher](assets/legacy-storage-project-icon.png) neben dem Namen.
+   >  * **Der Adobe Enterprise-Speicher**
+   >
+   >Ihr Workfront-Administrator entscheidet, welchen Speicher Ihr Unternehmen verwendet, oder ermöglicht Ihnen die Auswahl des Speichers, mit dem Sie die einzelnen Portfolios verknüpfen.
+   >Weitere Informationen finden Sie unter [Aktivieren von Adobe Enterprise Storage für Ihr Unternehmen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+   >
+   >Das Hinzufügen von Dokumenten zu Portfolios unterscheidet sich je nach verwendetem Speichertyp.
+   >
+   >Weitere Informationen finden Sie unter [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+
 1. (Optional) Klicken Sie **[!UICONTROL linken]** auf „Updates“, um dem Aktualisierungsverlauf des Portfolios Kommentare hinzuzufügen. Weitere Informationen finden Sie unter [Arbeit aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Optional) Klicken Sie auf das **[!UICONTROL Mehr] Menü** ![Mehr &#x200B;](assets/qs-more-icon-on-an-object.png), um einen der folgenden Schritte auszuführen:
+1. (Optional) Klicken Sie auf das **[!UICONTROL Mehr] Menü** ![Mehr ](assets/qs-more-icon-on-an-object.png), um einen der folgenden Schritte auszuführen:
 
    * Deaktivieren Sie das Portfolio. Wenn ein Portfolio deaktiviert ist, können Sie es nicht mehr mit Projekten auf Projektebene verknüpfen.
    * Löschen Sie das Portfolio.

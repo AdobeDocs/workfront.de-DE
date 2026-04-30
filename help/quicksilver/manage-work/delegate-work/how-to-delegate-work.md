@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1547'
-ht-degree: 4%
+source-wordcount: '1556'
+ht-degree: 3%
 
 ---
 
@@ -82,7 +82,7 @@ Sie benötigen die folgenden Zugriffsrechte, um die Schritte in diesem Artikel a
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -136,7 +136,7 @@ So delegieren Sie Ihre Aufgaben und Probleme an andere:
      >
      >Wenn Sie das Feld Enddatum leer lassen und die Option Kein Enddatum nicht ausgewählt ist, wird die Delegierung nur für den aktuellen Tag festgelegt.
 
-     ![Delegationsfeld erweitert](assets/delegate-box-expanded-in-home.png)
+     ![Feld „Delegieren“ erweitert](assets/delegate-box-expanded-in-home.png)
      <!--check screen shot - submitted bug for casing-->
 
 1. Klicken Sie auf [!UICONTROL **Speichern**].
@@ -156,9 +156,9 @@ So delegieren Sie Ihre Aufgaben und Probleme an andere:
 
    * Die Schaltfläche [!UICONTROL **Delegieren**] im Bereich [!UICONTROL **Startseite**] ändert sich in [!UICONTROL **Delegierung bearbeiten**], um anzugeben, dass eine Delegierung vorhanden ist.
      <!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       
       (NOTE: is this shot correct? See UI - this is a mock)
-      </MadCap:conditionalText>
+       
       -->
 
      ![Schaltfläche „Delegierung bearbeiten“](assets/edit-delegation-button-on-my-work-widget.png)
@@ -174,7 +174,7 @@ So delegieren Sie Ihre Aufgaben und Probleme an andere:
 Sie können eine Delegierung ablaufen lassen, wenn Sie ein Enddatum ausgewählt haben, oder sie manuell beenden. Sie können auch den Zeitrahmen für die Delegierung ändern, wenn sich die Daten für die Delegierung ändern.
 
 1. Gehen Sie zum Bereich [!UICONTROL **Startseite**] und klicken Sie dann in einem der folgenden Widgets auf [!UICONTROL **Delegierung**] Bearbeiten: **Meine Arbeit**, **Meine Aufgaben** oder **Meine Probleme**.
-1. Führen [!UICONTROL &#x200B; im Feld „Beenden des Delegierens von Aufgaben &#x200B;] Problemen“ einen der folgenden Schritte aus:
+1. Führen [!UICONTROL  im Feld „Beenden des Delegierens von Aufgaben ] Problemen“ einen der folgenden Schritte aus:
    * Ändern Sie das [!UICONTROL **Startdatum**] oder das [!UICONTROL **Enddatum**]
    * Klicken Sie auf [!UICONTROL **Delegierung beenden**]
 
@@ -201,7 +201,7 @@ Sie können eine Delegierung ablaufen lassen, wenn Sie ein Enddatum ausgewählt 
 Wenn Aufgaben und Probleme delegiert werden, gibt es mehrere Bereiche in [!DNL Workfront], in denen Sie die delegierte Arbeit sehen oder sehen können, wer die Delegierten sind.
 
 * [Suchen Sie die Beauftragten im Feld Zuweisungen .](#locate-delegates-in-the-assignments-box)
-* [Delegierte Arbeit in &quot;[!UICONTROL &quot; &#x200B;]](#locate-delegated-work-in-home)
+* [Delegierte Arbeit in &quot;[!UICONTROL &quot; ]](#locate-delegated-work-in-home)
 
 
 ### Suchen Sie Delegierte im Feld [!UICONTROL Arbeitsaufträge].
@@ -236,7 +236,7 @@ Wenn eine Aufgabe oder ein Problem delegiert wird und die [!UICONTROL Delegierun
 >
 >Die geplanten Stunden oder tatsächlichen Stunden für delegierte Aufgaben und Probleme werden in Ressourcen-Management-Tools wie dem [!UICONTROL Workload-Balancer] oder dem [!DNL Resource Planner] für die delegierten Benutzer nicht berücksichtigt. Die Stunden bleiben nur dem zugewiesenen Benutzer zugeordnet.
 
-### Delegierte Arbeit in &quot;[!UICONTROL &quot; &#x200B;]
+### Delegierte Arbeit in &quot;[!UICONTROL &quot; ]
 
 1. Navigieren Sie zum Bereich [!UICONTROL **Startseite**] im Widget [!UICONTROL **Meine Arbeit**].
 1. Klicken Sie auf das Dropdown-Menü Filter und wählen Sie eine oder mehrere der folgenden Optionen aus:
@@ -265,4 +265,4 @@ Wenn eine Aufgabe oder ein Problem delegiert wird und die [!UICONTROL Delegierun
 
      >[!TIP]
      >
-     >    Wenn der Beginn der Delegierung auf ein Datum nach dem heutigen Datum eingestellt ist, wird das Startdatum der Delegierung auch in der [!UICONTROL Arbeitsliste“ &#x200B;]. Die delegierten Elemente werden in der Gruppierung angezeigt, die Sie für [!UICONTROL Arbeitsliste] je nach Gruppierungstyp auswählen. Wenn Sie beispielsweise nach „Geplantes Abschlussdatum[!UICONTROL &#x200B; gruppieren] werden die delegierten Elemente in der Gruppierung angezeigt, die ihren geplanten Abschlussdaten entspricht.
+     >    Wenn der Beginn der Delegierung auf ein Datum nach dem heutigen Datum eingestellt ist, wird das Startdatum der Delegierung auch in der [!UICONTROL Arbeitsliste“ ]. Die delegierten Elemente werden in der Gruppierung angezeigt, die Sie für [!UICONTROL Arbeitsliste] je nach Gruppierungstyp auswählen. Wenn Sie beispielsweise nach „Geplantes Abschlussdatum[!UICONTROL  gruppieren] werden die delegierten Elemente in der Gruppierung angezeigt, die ihren geplanten Abschlussdaten entspricht.

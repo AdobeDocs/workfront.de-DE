@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 3%
+source-wordcount: '1388'
+ht-degree: 2%
 
 ---
 
@@ -124,7 +124,7 @@ Sie können ein Projekt über den Bereich Projekte im Hauptmenü oder über den 
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke oder auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront, falls verfügbar, klicken Sie dann auf **Projekte** und erweitern Sie **Neues Projekt**.
+   * Klicken Sie oben links auf **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) und klicken Sie dann auf **Projekte** und erweitern Sie **Neues Projekt**.
    * Gehen Sie zu einem Portfolio und erweitern Sie dann **Neues Projekt**.
 
      >[!TIP]
@@ -153,15 +153,34 @@ Sie können ein Projekt über den Bereich Projekte im Hauptmenü oder über den 
 
    ![Favoritenvorlage auswählen](assets/new-project-from-template-dropdown-with-template-favorites.png)
 
-   ODER
-
-   Gehen Sie folgendermaßen vor:
+   Oder gehen Sie folgendermaßen vor:
 
    1. Klicken Sie auf **Neues Projekt aus Vorlage**.
-   1. Beginnen Sie im Feld **Vorlagen suchen** mit der Eingabe des Namens einer Vorlage und klicken Sie darauf, wenn sie in der Liste angezeigt wird.
-   1. Überprüfen Sie die Vorlagendetails auf der rechten Seite.
+   1. (Optional) Geben Sie im Feld **Suchvorlagen** den Namen einer Vorlage ein und klicken Sie darauf, wenn sie in der Liste angezeigt wird.
+   1. Klicken Sie auf den Namen einer der folgenden Vorlagentypen, um sie auszuwählen:
 
-      Die Vorlagendetails umfassen Folgendes:
+      * Eine Workfront-Speichervorlage
+
+        Workfront-Speichervorlagen zeigen neben ihrem Namen ein Legacy-Speichersymbol ![Legacy-Speichersymbol](assets/legacy-storage-project-icon.png) an.
+
+        Dokumente über die Vorlage und die zukünftigen Projekte werden im Workfront-Speicher gespeichert.
+      * Eine Adobe-Speichervorlage
+
+        Dokumente zur Vorlage und zu den zukünftigen Projekten werden im Adobe Enterprise-Speicher gespeichert.
+
+      >[!NOTE]
+      >
+      >* Durch die Verwendung einer Enterprise-Storage-Vorlage von Adobe wird ein Enterprise-Storage-Projekt für Adobe erstellt.
+      >
+      >* Durch die Verwendung einer Workfront-Speichervorlage wird ein Workfront-Speicherprojekt erstellt.
+      >
+      >* Wenn Sie eine Adobe-Enterprise-Storage-Vorlage aus einem Workfront-Storage-Portfolio oder -Programm verwenden, ist das Projekt ein Adobe-Enterprise-Storage-Projekt und das Portfolio oder Programm wird auch in Adobe-Enterprise-Storage-Objekte konvertiert. Alle anderen Workfront-Speicherprojekte im selben Portfolio oder Programm bleiben unverändert.
+      >
+      > Nicht alle Kunden verfügen über beide Arten der Dokumentenspeicherung.
+      >
+      >Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und verwandte Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
+   1. Überprüfen Sie die folgenden Vorlagendetails auf der rechten Seite:
 
       * Vorlagendauer
       * Inhaber der Vorlage
@@ -207,9 +226,17 @@ Sie können ein Projekt über den Bereich Projekte im Hauptmenü oder über den 
 
    Alle in der Vorlage definierten Details werden automatisch dem neu erstellten Projekt zugeordnet, sofern Sie sie im vorherigen Schritt nicht geändert haben.
 
+   Ein Dokumentordner mit demselben Namen wie das Projekt wird automatisch für Adobe-Speicherprojekte im Abschnitt Dokumente des Projekts erstellt.
+
 ## Erstellen eines Projekts über eine Vorlage im Bereich Vorlagen
 
 Anstatt im Bereich Projekte zu beginnen, können Sie ein Projekt aus einer Vorlage erstellen, indem Sie mit der Vorlage beginnen.
+
+>[!NOTE]
+>
+>Mit dem Workfront-Dokumentspeicher verknüpfte Vorlagen erstellen veraltete Workfront-Speicherprojekte. Mit den mit Adobe Enterprise Document Storage verknüpften Vorlagen werden Adobe-Speicherprojekte erstellt. Nicht alle Kunden verfügen über beide Speichertypen.
+>
+>Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und verwandte Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 {{step1-to-templates}}
 
@@ -233,3 +260,5 @@ Anstatt im Bereich Projekte zu beginnen, können Sie ein Projekt aus einer Vorla
 1. Klicken Sie **Projekt erstellen**.
 
    Alle in der Vorlage definierten Details werden automatisch dem neu erstellten Projekt zugeordnet, sofern Sie sie im vorherigen Schritt nicht geändert haben.
+
+   Ein Dokumentordner mit demselben Namen wie das Projekt wird automatisch für Adobe-Speicherprojekte im Abschnitt Dokumente des Projekts erstellt.

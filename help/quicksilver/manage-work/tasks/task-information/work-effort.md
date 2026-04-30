@@ -9,10 +9,10 @@ feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 4%
+source-wordcount: '1532'
+ht-degree: 3%
 
 ---
 
@@ -41,17 +41,17 @@ Als Projekt-Manager können Sie entscheiden, wie Sie den Arbeitsaufwand schätze
   <tr> 
    <td role="rowheader">Work Effort </td> 
    <td> <p>Eine manuelle Beschriftung, die definiert, ob ein Benutzer einen kleinen, mittleren oder großen täglichen Aufwand benötigt, um eine Aufgabe abzuschließen.
-   <!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-       The level of effort is estimated to be a percentage of the daily amount of working time. (NOTE: keep this drafted. Vazgen said it's not needed, but waiting for feedback from users)
-      </MadCap:conditionalText>
-     -->
-     </p> <p>Beachten Sie Folgendes zum Work Effort:</p>
-    <ul> 
-     <li>Dieses Feld ist nur für Aufgaben mit dem Typ Einfache Dauer verfügbar. </li> 
-     <li>Sie können die Verwendung dieser Kennzeichnung aktivieren und den Prozentsatz der damit verbundenen Arbeitszeit auf Projektebene definieren. </li> 
-    </ul> </td> 
-  </tr> 
+   &lt;!--
+
+    Der Aufwand wird auf einen Prozentsatz der täglichen Arbeitszeit geschätzt. (HINWEIS: Halten Sie diesen Entwurf bereit. Vazgen meinte, dass es nicht benötigt wird, aber wartete auf Feedback von Benutzern)
+    
+    —>
+    &lt;/p> &lt;p>Beachten Sie Folgendes zum Arbeitsaufwand:&lt;/p>
+    &lt;ul>
+    &lt;li>Dieses Feld ist nur für Aufgaben mit dem Typ „Einfache Dauer“ verfügbar. &lt;/li>
+    &lt;li>Sie können die Verwendung dieser Kennzeichnung aktivieren und den damit verbundenen Prozentsatz der Arbeitszeit auf Projektebene definieren. &lt;/li>
+    &lt;/ul> &lt;/td>
+</tr> 
  </tbody> 
 </table>
 
@@ -76,7 +76,7 @@ In diesem Artikel wird beschrieben, was Work Effort ist und wie Sie ihn zur Sch�
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p>
-   <p>Abo</p>
+   <p>Plan</p>
    </td> 
   </tr> 
   <tr> 
