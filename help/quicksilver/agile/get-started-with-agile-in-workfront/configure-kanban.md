@@ -8,9 +8,9 @@ feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b05fcb7bdc1693e9e2384390f2584330b855c39c
+source-git-commit: b271eca3ab0ab09d96f65d2c3c8c400313e57d3d
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '1562'
 ht-degree: 4%
 
 ---
@@ -80,7 +80,7 @@ So konfigurieren Sie, wie Storys für Ihr Agile-Team geschätzt werden:
 1. Wählen Sie das Agile-Team aus, das Sie verwalten möchten.
 1. Klicken Sie auf das **[!UICONTROL Mehr]**-![](assets/more-menu.png) und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
 
-   ![Team bearbeiten](assets/edit-team-settings-350x205.png)
+   ![Team bearbeiten](assets/edit-team-settings-kanban.png)
 
 1. Wählen Sie im Abschnitt **[!UICONTROL Agile]** im Bereich **[!UICONTROL Geschichten schätzen in]** aus, ob Sie Punkte oder Stunden für die Schätzung der Größe (Arbeitslast) von Geschichten verwenden möchten. Wenn Sie Punkte wählen, geben Sie an, wie viele Stunden 1 Punkt entsprechen. (Der Standardwert ist 1 Punkt = 8 Stunden.) Dies ist die Anzahl der geplanten Stunden, die der Story hinzugefügt werden.
 
@@ -100,9 +100,6 @@ So definieren Sie die Status, die für das mit dem Agile-Team verknüpfte Story 
 
 1. Wählen Sie das Agile-Team aus, das Sie verwalten möchten.
 1. Klicken Sie auf das **[!UICONTROL Mehr]**-Menü und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
-
-   ![Team bearbeiten](assets/edit-team-settings-350x205.png)
-
 1. Suchen Sie im Abschnitt **[!UICONTROL Agile]** den Bereich **[!UICONTROL Story Board]** .
 
 1. (Optional) Klicken Sie auf **[!UICONTROL Spalte hinzufügen]**, um dem Storyboard eine zusätzliche Statusspalte hinzuzufügen.
@@ -148,9 +145,6 @@ So konfigurieren Sie Story-Karten, die dem Agile-Team zugewiesen sind, um zusät
 
 1. Wählen Sie das Agile-Team aus, das Sie verwalten möchten.
 1. Klicken Sie auf das **[!UICONTROL Mehr]**-Menü und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
-
-   ![Team bearbeiten](assets/edit-team-settings-350x205.png)
-
 1. Geben Sie im Abschnitt **[!UICONTROL Agile]** einen Feldnamen ein, um es zu finden.
 
    ![Zusätzliche Felder](assets/agile-additional-fields-kanban.png)
@@ -172,14 +166,11 @@ So beschränken Sie den laufenden Arbeitsaufwand für Ihr Kanban-Team:
 1. Klicken Sie auf **[!UICONTROL Team wechseln]**-Symbol ![Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
 1. Wählen Sie das Kanban-Team aus, das Sie verwalten möchten.
-1. Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-menu.png) und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
-
-   ![Team bearbeiten](assets/edit-team-settings-350x205.png)
-
+1. Klicken Sie auf die ![](assets/more-menu.png) **[!UICONTROL Mehr]** und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
 1. Stellen Sie **[!UICONTROL Abschnitt]** Agile“ im Abschnitt **[!UICONTROL Methodik]** sicher, dass Kanban ausgewählt ist.
 
 1. Geben Sie im Abschnitt **[!UICONTROL Storyboard]** im Feld **[!UICONTROL WIP-Limit]** die maximale Anzahl von Elementen an, die in jeder Spalte des Agile-Storyboards [!UICONTROL Kanban] zulässig ist. Sie können für jede Spalte ein anderes Limit festlegen. Die maximale Begrenzung, die Sie für jede Spalte festlegen können, beträgt 100.
-Wenn dieser Wert festgelegt ist, wird beim Überschreiten des Grenzwerts für jede Spalte [!UICONTROL &#x200B; Story Board eine Warnmeldung auf dem &#x200B;]-Board (Kanban) angezeigt. Diese Warnmeldung wird nur angezeigt, wenn das WIP-Limit zum ersten Mal überschritten wird. Diese Warnmeldung wird nicht in Spalten angezeigt, deren Status mit &quot;[!UICONTROL &quot; &#x200B;].
+Wenn dieser Wert festgelegt ist, wird beim Überschreiten des Grenzwerts für jede Spalte [!UICONTROL  Story Board eine Warnmeldung auf dem ]-Board (Kanban) angezeigt. Diese Warnmeldung wird nur angezeigt, wenn das WIP-Limit zum ersten Mal überschritten wird. Diese Warnmeldung wird nicht in Spalten angezeigt, deren Status mit &quot;[!UICONTROL &quot; ].
 Die WIP-Beschränkung ist lediglich eine visuelle Warnung und hindert Ihr Team nicht daran, mehr Elemente in einer Spalte als die von Ihnen festgelegte Beschränkung zu haben.
 
    ![WIP-Limit](assets/wip-limit-350x193.png)
@@ -205,34 +196,28 @@ Die nächste Story ist die unvollständige Story mit der niedrigsten Auftragsnum
 
 Auftragsbestand ist nicht dasselbe wie Priorität. Sie können die Reihenfolge der Rückstände anordnen, indem Sie Storys per Drag-and-Drop in die Spalte „Rückstand“ ziehen. Die Story am Anfang des Rückstands ist diejenige, die als Nächstes auf das Brett gezogen wird.
 
-So fügen Sie automatisch Storys aus dem Rückstand zum Kanban[!UICONTROL Board &#x200B;]:
+So fügen Sie automatisch Storys aus dem Rückstand zum Kanban[!UICONTROL Board ]:
 
 {{step1-to-team}}
 
 1. Klicken Sie auf **[!UICONTROL Team wechseln]**-Symbol ![Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
 1. Wählen Sie das Kanban-Team aus, das Sie verwalten möchten.
-1. Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-menu.png) und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
-
-   ![Team bearbeiten](assets/edit-team-settings-350x205.png)
-
+1. Klicken Sie auf die ![](assets/more-menu.png) **[!UICONTROL Mehr]** und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
 1. Wählen Sie **[!UICONTROL Nächste Story automatisch aus dem Rückstand hinzufügen]**, um zu konfigurieren, dass das nächste Element aus dem Rückstand automatisch zur Spalte **[!UICONTROL Neu]** hinzugefügt wird, wenn ein Element aus der Spalte **[!UICONTROL In Bearbeitung]** verschoben wird.
 
 
 1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
 
-## Konfigurieren Sie, wie lange Karten auf der Kanban[!UICONTROL Pinnwand &#x200B;] bleiben
+## Konfigurieren Sie, wie lange Karten auf der Kanban[!UICONTROL Pinnwand ] bleiben
 
-Sie können auswählen, wie lange ausgefüllte Karten auf der [!UICONTROL Kanban]-Pinnwand bleiben. Aufgaben, die vom Kanban[!UICONTROL Board &#x200B;], können weiterhin im ursprünglichen Projekt aufgerufen werden.
+Sie können auswählen, wie lange ausgefüllte Karten auf der [!UICONTROL Kanban]-Pinnwand bleiben. Aufgaben, die vom Kanban[!UICONTROL Board ], können weiterhin im ursprünglichen Projekt aufgerufen werden.
 
 {{step1-to-team}}
 
 1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Teams wechseln]** ![Symbol Teams wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Kanban-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 1. Wählen Sie das Kanban-Team aus.
 1. Klicken Sie auf das **[!UICONTROL Mehr]**-![](assets/more-menu.png) und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
-
-   ![Team bearbeiten](assets/edit-team-settings-350x205.png)
-
 1. Wählen Sie im Dropdown-Menü **[!UICONTROL Anzahl der Tage, die die abgeschlossenen Karten auf dem Kanban]** Board bleiben, einen Wert aus.
 
    Sie können eine Zahl zwischen 1 und 30 Tagen auswählen.
