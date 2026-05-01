@@ -6,20 +6,36 @@ description: Sie können Ihr Kennwort  [!DNL Adobe Workfront] . Als wichtige Sic
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
+source-git-commit: 4dd591c034e1c84ef3bda64d12b6920fbdd33c26
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 10%
+source-wordcount: '103'
+ht-degree: 5%
 
 ---
 
 # Zurücksetzen Ihres Passworts
 
+>[!NOTE]
+>
+>Durch Ändern des Kennworts wird es für alle Ihre [!DNL Adobe CX Enterprise]-Programme geändert.
+
+Ihr Kennwort wird in [!DNL Workfront] nicht verwaltet.
+
+Wenn Ihr Unternehmen eine separate Anwendung zum Verwalten von Kennwörtern verwendet, ändern Sie Ihr Kennwort über diesen Anbieter.
+
+Wenn Ihr Kennwort von [!DNL Adobe] verwaltet wird, können Sie das Kennwort in Ihrem Adobe-Konto ändern.
+
+[In diesem Artikel erfahren Sie, wie Sie Ihr Adobe-Kennwort ändern.](https://helpx.adobe.com/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
+
+Wenden Sie sich an Ihren Administrator, um weitere Informationen zum Ändern Ihres Kennworts zu erhalten.
+
+<!--
 >[!IMPORTANT]
 >
->Das auf dieser Seite beschriebene Verfahren wurde entfernt, da es nur für Organisationen galt, die noch nicht in Adobe Admin Console integriert waren.
+>The procedure described on this page has been removed because it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
 >
->Alle Workfront-Organisationen wurden nun in die Adobe Admin Console integriert.
+>All Workfront organizations have now been onboarded to the Adobe Admin Console.
+-->
 
 <!--DELETE ME MARCH 2026-->
 
