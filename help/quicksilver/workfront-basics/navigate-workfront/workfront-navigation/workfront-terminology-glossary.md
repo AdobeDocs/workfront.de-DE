@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5479fcded2dfaf781fa54e046f4fce61e3a9ab7a
+source-git-commit: 18e899b87eb950222b0d22f41a998a458baa6f49
 workflow-type: tm+mt
 source-wordcount: '21715'
 ht-degree: 98%
@@ -143,7 +143,7 @@ In der folgenden Tabelle finden Sie eine Liste häufig verwendeter Begriffe in A
      <p>Für einen Bericht des Typs „[!UICONTROL Budgetierte Stunde]“:</p> 
      <ul> 
       <li>Erstellen Sie diesen Bericht, wenn Sie versuchen, die Menge unter „[!UICONTROL Budgetierte Stunden]“ zu verstehen, die Ihren Ressourcen oder Ihren Projekten im Ressourcenplaner zugewiesen ist.</li> 
-      <li> <p>Das [!UICONTROL Zuteilungsdatum] ist der erste Tag (ein Sonntag) der Woche, für die Sie die Stunden im [!UICONTROL Ressourcenplaner] budgetiert haben. </p> <p><b>TIPP</b></p> <p>Wenn sich eine Woche über zwei Monate erstreckt, werden zwei Zeilen im Bericht generiert: eine Zeile, die dem ersten Wochentag entspricht (Sonntag der ersten Woche, die im ersten Monat liegt), und die zweite Zeile zeigt den ersten Tag des zweiten Monats an. </p> <p>Wenn Sie beispielsweise 8 Stunden für einen Benutzer bzw. eine Benutzerin für die Woche vom 30. Juni (Sonntag) bis zum 6. Juli (Samstag) budgetieren, wird in den beiden Zeilen als [!UICONTROL Zuteilungsdatum] der 30. Juni und der 1. Juli angezeigt. </p> </p> <p>Informationen zur Budgetierung von Ressourcen im [!DNL Resource Planner] finden Sie im Artikel <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budgetieren von Ressourcen im [!DNL Resource Planner] mithilfe der Ansichten [!UICONTROL Projekt] und Rolle</a>.</p> <p>Informationen zum Erstellen eines Berichts vom Typ [!UICONTROL Budgetierte Stunde] finden Sie unter <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">Bericht: Budgetierte Stunde</a>. </p> </li> 
+      <li> <p>Das [!UICONTROL Zuteilungsdatum] ist der erste Tag (ein Sonntag) der Woche, für die Sie die Stunden im [!UICONTROL Ressourcenplaner] budgetiert haben. </p> <p><b>TIPP</b></p> <p>Wenn sich eine Woche über zwei Monate erstreckt, werden zwei Zeilen im Bericht generiert: eine Zeile, die dem ersten Wochentag entspricht (Sonntag der ersten Woche, die im ersten Monat liegt), und die zweite Zeile zeigt den ersten Tag des zweiten Monats an. </p> <p>Wenn Sie beispielsweise 8 Stunden für einen Benutzer bzw. eine Benutzerin für die Woche vom 30. Juni (Sonntag) bis zum 6. Juli (Samstag) budgetieren, wird in den beiden Zeilen als [!UICONTROL Zuteilungsdatum] der 30. Juni und der 1. Juli angezeigt. </p> </p> <p>Informationen zur Budgetierung von Ressourcen im [!DNL Resource Planner] finden Sie im Artikel <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budgetieren von Ressourcen im [!DNL Resource Planner] mithilfe der Ansichten [!UICONTROL Projekt] und [!UICONTROL Rolle</a>.</p> <p>Informationen zum Erstellen eines Berichts vom Typ [!UICONTROL Budgetierte Stunde] finden Sie unter <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">Bericht: Budgetierte Stunde</a>. </p> </li> 
      </ul> 
     </div> </td> 
   </tr> 
@@ -312,9 +312,9 @@ In der folgenden Tabelle finden Sie eine Liste häufig verwendeter Begriffe in A
    <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/planning/views/manage-the-timeline-view.md">Verwalten der Timeline-Ansicht</a>. </p>
    </td> 
     </tr> 
-  <tr> 
-   <td>[!UICONTROL Budgetiertes Fertigstellungsdatum]</td> 
-   <td> <p>Dieses Feld ist veraltet. Alle in diesem Feld angezeigten Informationen beziehen sich auf eine Funktion, die aus [!DNL Workfront] entfernt wurde. Dieses Feld kann nicht aktualisiert werden. </p>
+   <tr> 
+  <td>[!UICONTROL Budgetiertes Fertigstellungsdatum]</td> 
+  <td> <p>Dieses Feld ist veraltet. Alle in diesem Feld angezeigten Informationen beziehen sich auf eine Funktion, die aus [!DNL Workfront] entfernt wurde. Dieses Feld kann nicht aktualisiert werden. </p>
    <p> Dieses Feld ist weiterhin in Berichten zum [!UICONTROL Projekt] und entsprechenden Listen sichtbar.</p>  </td> 
   </tr> 
   <tr> 
@@ -336,7 +336,7 @@ In der folgenden Tabelle finden Sie eine Liste häufig verwendeter Begriffe in A
     <!-- 
      <p>Hours that were formerly budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner)</p>
     <p>Important: This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p>
-  -->
+    -->
     <p> Informationen zur Budgetierung von Ressourcen im [!DNL Resource Planner] finden Sie im Artikel <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budgetieren von Ressourcen im [!DNL Resource Planner] mithilfe der Ansichten [!UICONTROL Projekt] und [!UICONTROL Rolle]</a>. </p> 
     <p>Die budgetierten Stunden im Bereich „[!UICONTROL Ressourcenbudgetierung]“ des [!UICONTROL Business-Case] oder im [!UICONTROL Ressourcenplaner] werden in den folgenden Bereichen von [!DNL Workfront] und unter den folgenden Namen angezeigt:</p> 
      <table style="table-layout:auto"> 
@@ -357,7 +357,7 @@ In der folgenden Tabelle finden Sie eine Liste häufig verwendeter Begriffe in A
        </tr> 
        <tr> 
         <td>[!UICONTROL Budgetierte Stunden]</td> 
-        <td> <p>Ansicht „Auslastungsbericht – [!UICONTROL Stunden]“</p> <p>Weitere Informationen zum Bericht zur [!UICONTROL Auslastung] finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md" class="MCXref xref">Überblick über den Bericht zur Ressourcenauslastung</a>.</p> </td> 
+        <td> <p>Ansicht „Auslastungsbericht – [!UICONTROL Stunden]“</p> <p>Weitere Informationen zum Bericht zur [!UICONTROL Auslastung] finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md" class="MCXref xref">Überblick über den Bericht zur [!UICONTROL Ressourcenauslastung</a>.</p> </td> 
        </tr> 
        <tr> 
         <td>[!UICONTROL Bud. Stunden]</td> 
@@ -387,24 +387,20 @@ In der folgenden Tabelle finden Sie eine Liste häufig verwendeter Begriffe in A
     <li>Budgeted Hour report (the Bud. Hours field refers to hours budgeted for users; the Pln. Bud. Hours field refers to hours budgeted for roles or projects)</li>
     <li>Resource Estimates report (in the Project: Budgeted Hours field) </li>
     </ul>
-    -->
-    <!--
     <p>The fields listed below display in the reports listed and are hours formerly budgeted in the  Capacity Planner or the Legacy Resource Estimates area of the Business Case.</p>
     <p>Important: The Capacity Planner and Legacy  Resource Estimates have been removed from Workfront. You cannot update any information that might display in these fields.</p>
-  -->
-  <!--
- <ul>
-  <li>Capacity Planner</li>
-  <li>Legacy  Resource Estimates area of the Business Case (in the Hours field)</li>
-  <li>Resource Estimates report (in the Bud. Hours field)</li>
-  <li>Budgeted Hour report (in the Budgeted Hours field)</li>
-  <li>Project report (in the Budgeted Hours field)</li>
-  <li>Project (Financial  Data) report</li>
-  <li>Task  report (in the Project: Budgeted Hours field)</li>
-  <li>Issue report (in the Project: Budgeted Hours field)</li>
-  </ul>
-  -->
-    </td> 
+    <ul>
+    <li>Capacity Planner</li>
+    <li>Legacy  Resource Estimates area of the Business Case (in the Hours field)</li>
+    <li>Resource Estimates report (in the Bud. Hours field)</li>
+    <li>Budgeted Hour report (in the Budgeted Hours field)</li>
+    <li>Project report (in the Budgeted Hours field)</li>
+    <li>Project (Financial  Data) report</li>
+    <li>Task  report (in the Project: Budgeted Hours field)</li>
+    <li>Issue report (in the Project: Budgeted Hours field)</li>
+    </ul>
+    -->
+  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Budgetierte Lohnkosten]</td> 
@@ -431,8 +427,6 @@ In der folgenden Tabelle finden Sie eine Liste häufig verwendeter Begriffe in A
     <!--
     <p>Labor costs for hours budgeted in the Legacy Resource Estimates area of a project (or in the Capacity Planner). This was available only in Adobe Workfront Classic. </p>
     <p>Important: This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed and the field cannot be updated. </p>
-    -->
-    <!--
      <p>You can locate the Budgeted Labor Cost field based on the hours budgeted in the Resource Planner in the following areas and reports in  Workfront: </p>
      <ul> 
      <li>Resource Planner Cost view (in the BDG column)</li>
@@ -466,7 +460,7 @@ In der folgenden Tabelle finden Sie eine Liste häufig verwendeter Begriffe in A
   <!--
   <p>This field shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.</p>
   -->   
-   </td> 
+  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Burndown-Diagramm]</td> 
@@ -496,10 +490,8 @@ In der folgenden Tabelle finden Sie eine Liste häufig verwendeter Begriffe in A
   </tr> 
    <tr> 
    <td>[!UICONTROL Kann beginnen]</td> 
-   <td> <p>Dieses Feld gibt an, ob eine Aufgabe bereit für die Bearbeitung ist. Wenn mit der Bearbeitung begonnen werden kann, wird das Feld „[!UICONTROL Kann beginnen]“ der Aufgabe auf „[!UICONTROL Wahr]“ festgelegt. </p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/tasks/task-information/can-start-task-overview.md" class="MCXref xref">Überblick über die Option „[!UICONTROL Kann beginnen]“ für Aufgaben</a>.</p>
-
-
-</td>
+   <td> <p>Dieses Feld gibt an, ob eine Aufgabe bereit für die Bearbeitung ist. Wenn mit der Bearbeitung begonnen werden kann, wird das Feld „[!UICONTROL Kann beginnen]“ der Aufgabe auf „[!UICONTROL Wahr]“ festgelegt. </p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/tasks/task-information/can-start-task-overview.md" class="MCXref xref">Überblick über die Option „[!UICONTROL Kann beginnen]“ für Aufgaben</a>.</p> 
+  </td>
   </tr>
   <!--
   <tr> 
@@ -1544,7 +1536,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Prozent abgeschlossen]</td> 
-   <td> <p>Ein Projekt, eine Aufgabe oder ein Problem, das bzw. die anzeigt, welcher Prozentsatz der mit der Aufgabe, dem Projekt oder dem Problem verbundenen Arbeit abgeschlossen ist.</p> <p>Sie können dieses Feld für Probleme und Arbeitsaufgaben manuell aktualisieren. </p> <p>Für Projekte und übergeordnete Aufgaben ist dieses Feld eine Zusammenfassung aller laufenden Aufgaben. Sie können es nicht manuell aktualisieren. </p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/tasks/task-information/project-percent-complete.md" class="MCXref xref">Überblick über den Prozentwert des Projektabschlusses</a>.</p> </td> 
+   <td> <p>Ein Projekt, eine Aufgabe oder ein Problem, das bzw. die anzeigt, welcher Prozentsatz der mit der Aufgabe, dem Projekt oder dem Problem verbundenen Arbeit abgeschlossen ist.</p> <p>Sie können dieses Feld für Probleme und Arbeitsaufgaben manuell aktualisieren. </p> <p>Für Projekte und übergeordnete Aufgaben ist dieses Feld eine Zusammenfassung aller laufenden Aufgaben. Sie können es nicht manuell aktualisieren. </p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/tasks/task-information/project-percent-complete.md" class="MCXref xref">Überblick über den [!UICONTROL Prozentwert des Projektabschlusses</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Performance Index Method (PIM)]</td> 
