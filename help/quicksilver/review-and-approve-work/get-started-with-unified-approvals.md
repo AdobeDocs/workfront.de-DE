@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453d4862883e299fea46b3dfe94548375bfc4209
+source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '945'
 ht-degree: 4%
 
 ---
@@ -27,9 +27,11 @@ Weitere Informationen zu Frame.io finden Sie unter [Erste Schritte mit Frame.io]
 
 >[!VIDEO](https://video.tv.adobe.com/v/3471078)
 
-## Integrationsanforderungen
+<!--
+## Integration requirements
 
-* Die Workfront-Instanz muss für das einheitliche Adobe-Erlebnis aktiviert sein.
+* The Workfront instance must be enabled on the Adobe Unified Experience.
+-->
 
 ## Arbeitsaufnahme und -planung in Workfront
 
@@ -106,7 +108,7 @@ Sobald alle Prüfungsaktivitäten abgeschlossen sind, müssen genehmigende Perso
 
 Validierungsverantwortliche können ihre Überprüfung in Workfront als abgeschlossen markieren. Dies ist jedoch nicht erforderlich, damit das Asset im Genehmigungsprozess fortfahren kann.
 
-Weitere Informationen zu Entscheidungen in Workfront finden Sie unter [Übersicht über den &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
+Weitere Informationen zu Entscheidungen in Workfront finden Sie unter [Übersicht über den ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
 ![Frame-Viewer und Entscheidung](assets/decision-fio.png)
 

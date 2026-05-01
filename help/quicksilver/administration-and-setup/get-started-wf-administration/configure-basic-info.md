@@ -10,9 +10,9 @@ role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
 last-update: 2026-04-29T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: c298b21e74abc6ac7bed2c8fa4c5a0dc0f6c6237
+source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '766'
 ht-degree: 6%
 
 ---
@@ -68,30 +68,15 @@ So greifen Sie auf die Seite „Kundeninformationen“ zu:
 
    Die folgenden Abschnitte sind im Bereich „Kundeninformationen“ verfügbar:
 
-* **Grundlegende Informationen**
+   | Abschnitt | Weitere Informationen |
+   |---------|-----------------|
+   | **Grundlegende Informationen** | Informationen zum Konfigurieren grundlegender Informationen in Workfront finden Sie unter [Konfigurieren grundlegender Informationen](#configure-basic-info). |
+   | <span class="preview">**Speicherübersicht**</span> | <span class="preview">Informationen zur Überprüfung der Dokumentspeicherverwendung und des Kontingents finden Sie unter [Überprüfen von Dokumentspeicherbeschränkungen](../../documents/managing-documents/check-document-storage.md).</span> |
+   | **API-Schlüsseleinstellungen** | Informationen zu API-Schlüsseleinstellungen finden Sie unter [Verwalten von API-Schlüsseln](../../administration-and-setup/manage-workfront/security/manage-api-keys.md). |
+   | **IP-Zulassungsliste** | Informationen zum Hinzufügen der IP-Adressen zu Ihrer Zulassungsliste, über die Ihre Benutzer auf Workfront zugreifen können, finden Sie [Zulassungsliste Ihrer Firewall konfigurieren](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md). |
+   | **E-Mail** | Informationen zum Hinzufügen von E-Mails zu Ihrer Zulassungsliste finden Sie unter [Konfigurieren Ihrer E-Mail-](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md). |
 
-  Informationen zum Konfigurieren grundlegender Informationen in Workfront finden Sie unter [Konfigurieren grundlegender Informationen](#configure-basic-info).
-
-
-
-* <span class="preview">**Speicherübersicht**
-
-  Informationen zur Überprüfung der Dokumentspeicherverwendung und des Kontingents finden Sie unter [Überprüfen von Dokumentspeicherbeschränkungen](../../documents/managing-documents/check-document-storage.md).</span>
-
-
-* **API-Schlüsseleinstellungen**
-
-  Informationen zu API-Schlüsseleinstellungen finden Sie unter [Verwalten von API-Schlüsseln](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
-
-* **IP-Zulassungsliste**
-
-  Informationen zum Hinzufügen der IP-Adressen zu Ihrer Zulassungsliste, über die Ihre Benutzer auf Workfront zugreifen können, finden Sie [Zulassungsliste Ihrer Firewall konfigurieren](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
-
-* **E-Mail**
-
-  Informationen zum Hinzufügen von E-Mails zu Ihrer Zulassungsliste finden Sie unter [Konfigurieren Ihrer E-Mail-](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
-
-<!--
+   <!--
    * **License**
 
      For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).

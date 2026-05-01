@@ -1,18 +1,18 @@
 ---
-title: 23.3 Projektverbesserungen
-description: 23.3 Projektverbesserungen
+title: Verbesserungen bei Projekten in Version 23.3
+description: Verbesserungen bei Projekten in Version 23.3
 author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: df24d13e-d9ff-4c04-8669-9e0b6e4f6501
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 9a705b985177489bf13181e8b36a6c52379d1251
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 0%
+source-wordcount: '208'
+ht-degree: 4%
 
 ---
 
-# 23.3 Projektverbesserungen
+# Verbesserungen bei Projekten in Version 23.3
 
 Auf dieser Seite werden alle mit Version 23.3 vorgenommenen Projektverbesserungen beschrieben. Diese Verbesserungen wurden mit der Version 23.3 vom 20. und 21. Juli 2023 in der Produktionsumgebung verfügbar gemacht.
 
@@ -29,10 +29,9 @@ In dieser ersten Version wurde der Genehmigungsprozess neben neuen Funktionen op
 * Genehmigungsentscheidungen direkt über Meine Aktualisierungen und Startseite treffen
 * Erstellen von Genehmigungen für bestimmte Dokumentversionen
 
-Weitere Informationen zur Verwendung der neuen Dokumentgenehmigungen finden Sie unter [Übersicht über neue Dokumentgenehmigungen](https://experienceleague.adobe.com/de/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview).
 
 ## Schaltfläche „Neue Freigabe“
 
 Die Option Freigeben wurde aus dem Menü Mehr für Projekte, Aufgaben und Probleme entfernt, um die Freigabe intuitiver zu gestalten. Die neue Freigabeschaltfläche wird jetzt neben dem Namen eines Objekts direkt vor dem Menü Mehr angezeigt. Die Freigabe von Dokumenten, Portfolios und Programmen bleibt unverändert.
 
-Weitere Informationen zum Freigeben von Objekten finden Sie unter [Freigeben eines Objekts](https://experienceleague.adobe.com/de/docs/workfront/using/basics/grant-request-object-permissions/share-an-object).
+Weitere Informationen zum Freigeben von Objekten finden Sie unter [Freigeben eines Objekts](https://experienceleague.adobe.com/en/docs/workfront/using/basics/grant-request-object-permissions/share-an-object).

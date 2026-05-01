@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453d4862883e299fea46b3dfe94548375bfc4209
+source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
 workflow-type: tm+mt
-source-wordcount: '3846'
+source-wordcount: '3890'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,12 @@ Projektkoordinatoren verwalten die Arbeit in Workfront, während Kreative, Marke
 
 ![Abbildung des einheitlichen Prüfungs- und Genehmigungs-Workflows mit Projektkoordinatoren, die die Arbeit in Workfront verwalten, sowie mit Prüfern und Genehmigern, die Feedback geben und Entscheidungen im Frame.io-Viewer treffen.](assets/Unified-Review-Approvals-Image.png)
 
+<!--
+## Integration requirements
 
-## Integrationsanforderungen
+* The Workfront instance must be enabled on the Adobe Unified Experience.
 
-* Die Workfront-Instanz muss für das einheitliche Adobe-Erlebnis aktiviert sein.
-
+-->
 
 ## Auf Adobe Enterprise Storage aufbauend
 
@@ -465,7 +466,7 @@ Benutzer können den Frame.io-Viewer direkt von Workfront aus starten. Alle Prü
 
 Ja. Sobald ein Asset den Prüfungs- und Validierungszyklus abgeschlossen hat, können Sie es zur endgültigen Speicherung und Verteilung an Adobe Experience Manager Assets übertragen. Dadurch werden Workfront für Work-Management, Frame.io für die Überprüfung und AEM für die Verwaltung digitaler Assets zu einer einheitlichen Content-supply chain verbunden.
 
-Weitere Informationen finden Sie unter „Verwenden [&#x200B; Adobe Experience Manager mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+Weitere Informationen finden Sie unter „Verwenden [ Adobe Experience Manager mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 **Wie passt die einheitliche Überprüfung und Genehmigung in Adobe GenStudio?**
 

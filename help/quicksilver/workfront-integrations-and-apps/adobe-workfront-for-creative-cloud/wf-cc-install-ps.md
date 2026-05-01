@@ -1,15 +1,15 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Installieren und öffnen [!DNL Adobe Workfront for Photoshop]
+title: Installieren und Öffnen von  [!DNL Adobe Workfront for Photoshop]
 description: Sie können das Plug-in Adobe Workfront for Photoshop über den Adobe Marketplace installieren.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 61e5b763ec527aeb846e975e06842dc2c4c69918
+source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 2%
+source-wordcount: '592'
+ht-degree: 7%
 
 ---
 
@@ -30,7 +30,7 @@ Sie können das [!DNL Adobe Workfront for Photoshop]-Plug-in über die [!DNL Ado
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,12 +38,12 @@ Sie können das [!DNL Adobe Workfront for Photoshop]-Plug-in über die [!DNL Ado
  <tbody> 
   <tr> 
    <td role="rowheader">Zusätzliche Produkte</td> 
-   <td><p>Sie müssen zusätzlich zu einer [!DNL Adobe Creative Cloud] über eine [!DNL Workfront]-Lizenz verfügen.</p></td> 
+   <td><p>Sie müssen zusätzlich zu einer [!DNL Workfront] über eine [!DNL Adobe Creative Cloud]-Lizenz verfügen.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -133,9 +133,9 @@ Um dieses Problem zu beheben,
 
    >[!TIP]
    >
-   >Wechseln Sie in einem Mac zum Finder und drücken Sie **Befehlstaste+Umschalt+.** ausgeblendete Ordner anzuzeigen, navigieren Sie zu **/users/library/application support** und löschen Sie dann den Ordner **Workfront**.
+   >Wechseln Sie in einer Mac zur Suche und drücken Sie **Befehlstaste+Umschalt+** Um ausgeblendete Ordner anzuzeigen, navigieren Sie zu **/users/library/application** und löschen Sie dann den Ordner **Workfront**.
 
 
 1. Navigieren Sie zurück zum Plug-in und geben Sie Ihre Workfront-Domain ein. Die Domain muss `company-name.my.workfront.com` und darf nicht `experience.adobe.com` sein.
 
-   Wenn [&#x200B; Ihre Workfront-Domain &#x200B;](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) Adobe Unified Experience verwenden, navigieren Sie zu „Setup“, „Kundeninformationen“.
+   Um [Ihre Workfront-Domain zu finden](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md), gehen Sie zu Setup, Kundeninformationen.
