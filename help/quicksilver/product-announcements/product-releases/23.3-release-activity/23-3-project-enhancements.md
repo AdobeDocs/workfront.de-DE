@@ -34,4 +34,4 @@ In dieser ersten Version wurde der Genehmigungsprozess neben neuen Funktionen op
 
 Die Option Freigeben wurde aus dem Menü Mehr für Projekte, Aufgaben und Probleme entfernt, um die Freigabe intuitiver zu gestalten. Die neue Freigabeschaltfläche wird jetzt neben dem Namen eines Objekts direkt vor dem Menü Mehr angezeigt. Die Freigabe von Dokumenten, Portfolios und Programmen bleibt unverändert.
 
-Weitere Informationen zum Freigeben von Objekten finden Sie unter [Freigeben eines Objekts](https://experienceleague.adobe.com/en/docs/workfront/using/basics/grant-request-object-permissions/share-an-object).
+Weitere Informationen zum Freigeben von Objekten finden Sie unter [Freigeben eines Objekts](https://experienceleague.adobe.com/de/docs/workfront/using/basics/grant-request-object-permissions/share-an-object).
