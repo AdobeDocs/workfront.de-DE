@@ -8,12 +8,11 @@ feature: Product Announcements
 role: User, Admin
 recommendations: noDisplay, noCatalog
 hide: true
-hidefromtoc: true
 exl-id: 08aea7a6-1ce2-46d9-9807-c94526851655
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
 source-wordcount: '105'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
@@ -28,6 +27,6 @@ ht-degree: 0%
 
 In den folgenden Artikeln werden die Funktionen beschrieben, die in der neuen Kommentar-Funktion verfügbar gemacht werden:
 
-* [Neue Aktivität zum Kommentieren von Erlebnisveröffentlichungen](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
-* [Neues Kommentarerlebnis](../new-commenting-experience-beta/unified-commenting-experience.md)
+* [Neues Kommentierungserlebnis – Veröffentlichungen](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
+* [Neues Kommentierungserlebnis](../new-commenting-experience-beta/unified-commenting-experience.md)
 * [Häufig gestellte Fragen zum neuen Kommentierungserlebnis](../new-commenting-experience-beta/new-commenting-faq.md)

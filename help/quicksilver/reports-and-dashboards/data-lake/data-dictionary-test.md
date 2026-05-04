@@ -7,14 +7,13 @@ description: Um auf Data Connect-Daten zuzugreifen, müssen Sie zunächst ein Sn
 author: Courtney
 feature: Reports and Dashboards
 hide: true
-hidefromtoc: true
-source-git-commit: a42c13804b0463af27bac6f9166bc6e3c41d3fda
+exl-id: 8ac99353-ebb9-46d9-b1ad-1cdbdc974f49
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '156'
 ht-degree: 8%
 
 ---
-
 
 # Test
 
@@ -32,7 +31,7 @@ ht-degree: 8%
  <tr>
         <td>Zugriffsebene</td>
          <td>Zugriffsebene</td>
-        <td>GENEHMIGEN | Zugriffsebene</td>
+        <td>ACSLVL | Zugriffsebene</td>
         <td>ACCESSLEVELS_CURRENT<br>ACCESSLEVELS_DAILY_HISTORY<br>ACCESSLEVELS_EVENT</td>
     </tr>
      <tr>
@@ -61,7 +60,7 @@ ht-degree: 8%
  <tr>
         <td>Zugriffsebene</td>
          <td>Zugriffsebene</td>
-        <td>GENEHMIGEN | Zugriffsebene</td>
+        <td>ACSLVL | Zugriffsebene</td>
         <td>ACCESSLEVELS_CURRENT<br>ACCESSLEVELS_DAILY_HISTORY<br>ACCESSLEVELS_EVENT</td>
     </tr>
      <tr>
@@ -70,7 +69,7 @@ ht-degree: 8%
          <ul>
             <li>ACCESSLEVELID (self): self</li>
             <li>APPGLOBALID: Keine Beziehung; wird für interne Anwendungszwecke verwendet</li>
-            <li>LASTUPDATEDBYID: USER_CURRENT | BENUTZER-ID</li>
+            <li>LASTUPDATEDBYID: USER_CURRENT | USERID</li>
             <li>LEGACYACCESSLEVELID: Keine Beziehung; wird für interne Anwendungszwecke verwendet</li>
             <li>OBJID: Die ID des im OBJCODE-Feld identifizierten Objekts</li>
             <li>SYSID: Keine Beziehung; für interne Anwendungszwecke verwendet</li>

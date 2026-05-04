@@ -5,17 +5,16 @@ title: Von der alten Startseite zur neuen Startseite
 description: Die alte Startseite wird am 17. Oktober 2017 mit der Veröffentlichung im 4. Quartal aus Workfront entfernt. Dieser Artikel enthält Informationen darüber, welche Funktionen in der neuen Startseite verfügbar sein werden, sowie Empfehlungen für die Umstellung von Benutzern auf die neue Startseite.
 author: Courtney
 hide: true
-hidefromtoc: true
 feature: Get Started with Workfront
 exl-id: cfb3de96-0710-44e9-a934-05877fa75b51
-source-git-commit: f5ffb83d2a9cab48a4ce623088e11e3e13d8f744
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '1632'
-ht-degree: 5%
+source-wordcount: '1667'
+ht-degree: 6%
 
 ---
 
-# Von der alten zur neuen Startseite wechseln
+# Wechseln von der alten zur neuen Startseite
 
 Die alte Startseite wird am 17. Oktober 2017 mit der Veröffentlichung im 4. Quartal aus Workfront entfernt. Dieser Artikel enthält Informationen darüber, welche Funktionen in der neuen Startseite verfügbar sein werden, sowie Empfehlungen für Workfront-Administratoren, die Benutzende in die neue Startseite verschieben möchten.
 
@@ -46,7 +45,7 @@ Das Widget „Meine Arbeit“ wurde in Widget-Form erstellt, um die alte Arbeits
 |------------|-----------|
 | ![](assets/filter-list-legacy.png) | ![](assets/filter-list-my-work.png) |
 
-#### Arbeit delegieren
+#### Delegieren von Arbeit
 
 Benutzer können weiterhin Arbeit von der neuen Startseite in den folgenden Widgets delegieren:
 
@@ -256,7 +255,7 @@ Unsere primäre Empfehlung ist, so bald wie möglich mit der Umstellung auf ein 
 
 Wir empfehlen Administratoren:
 
-1. Erstellen Sie ein standardmäßiges neues Homepage-Layout mithilfe von Layout-Vorlagen (oder erstellen Sie optional eines für jeden Benutzer, jedes Team, jede Gruppe oder jedes Aufgabengebiet, für das ein eindeutiges Layout erforderlich ist). Weitere [&#x200B; finden Sie unter „Anpassen einer neuen Startseite mithilfe &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md) Layout-Vorlage“.
+1. Erstellen Sie ein standardmäßiges neues Homepage-Layout mithilfe von Layout-Vorlagen (oder erstellen Sie optional eines für jeden Benutzer, jedes Team, jede Gruppe oder jedes Aufgabengebiet, für das ein eindeutiges Layout erforderlich ist). Weitere [ finden Sie unter „Anpassen einer neuen Startseite mithilfe ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md) Layout-Vorlage“.
 
 1. Weisen Sie Ihre neuen Layout-Vorlagen einer kleinen Anzahl von Testbenutzern zu, die überprüfen können, ob ihre Widgets und allgemeinen Einstellungen ihren Arbeitsanforderungen entsprechen.
 
@@ -272,7 +271,7 @@ Wenn Sie dies so schnell wie möglich durchführen, haben Ihre Benutzer Zeit, si
 
 **Training**
 
-* [Entfernen, Hinzufügen und Neuanordnen von Widgets im Startseiten-Tutorial](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
+* [Entfernen, Hinzufügen und Neuanordnen von Widgets im Startseiten-Tutorial](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
 * [Grundlagen der Arbeit in Adobe Workfront](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]

@@ -1,19 +1,18 @@
 ---
-title: Erweiterte Authentifizierung - Übersicht
+title: Überblick über die erweiterte Authentifizierung
 description: Ausgeblendet für die Suche und in der linken Navigationsleiste
-hidefromtoc: true
 hide: true
 feature: System Setup and Administration
 role: Admin
 exl-id: bf3c6c6f-ddd5-42d0-9efe-b5eb94549f85
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 10%
+source-wordcount: '509'
+ht-degree: 6%
 
 ---
 
-# Erweiterte Authentifizierung - Übersicht
+# Überblick über die erweiterte Authentifizierung
 
 <!-- enhanced authentication is no longer available for workfront customers -->
 
@@ -125,7 +124,7 @@ Die folgende Tabelle enthält Details zur aktuellen und künftigen Funktionalit�
   <tr> 
    <td> <p>Unterstützt SSO-Integrationen, die mit Active Directory- und LDAP-Protokollen konform sind</p> </td> 
    <td> ✓ </td> 
-   <td> <p> Veraltet</p> <p>Active Directory-, Azure- und LDAP-Systeme sollten SAML 2.0 verwenden.</p> </td> 
+   <td> <p> Veraltet</p> <p>Active Directory-, Azure- und LDAP-Systeme sollten SAML 2.0 verwenden</p> </td> 
    <td> <p>Veraltet</p> <p>Active Directory-, Azure- und LDAP-Systeme können mit verschlüsseltem SAML 2.0 oder OpenID Connect konfiguriert werden.</p> </td> 
   </tr> 
   <tr> 

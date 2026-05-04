@@ -5,14 +5,13 @@ description: Adobe Workfront hat alle DX-Produkte (Digital Experiences) in einem
 author: Courtney
 feature: Get Started with Workfront
 hide: true
-hidefromtoc: true
-source-git-commit: 0c21f5a1df8bf1bc54d4ca73ba8d02808432e321
+exl-id: 5efa1912-e827-42ef-8001-4de63a63a6c4
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
-
 
 # Übersicht über Experience Cloud-Benachrichtigungen
 
@@ -68,9 +67,9 @@ Workfront ist Teil der Adobe-Suite mit Produkten für digitale Erlebnisse. Der W
 >
 >Wenn Sie nicht auf Ihre persönlichen Benachrichtigungseinstellungen zugreifen können, wenden Sie sich bitte an Ihren Administrator.
 
-1. Klicken Sie oben rechts in Workfront auf das Symbol **Benachrichtigungen** (![) &#x200B;](assets/bell-icon.png).
+1. Klicken Sie oben rechts in Workfront auf das Symbol **Benachrichtigungen** (![) ](assets/bell-icon.png).
 
-1. Klicken Sie oben rechts im Bedienfeld **Experience Cloud** auf das Symbol **Einstellungen** Einstellungen![Symbol &#x200B;](assets/settings-icon.png).
+1. Klicken Sie oben rechts im Bedienfeld **Experience Cloud** auf das Symbol **Einstellungen** Einstellungen![Symbol ](assets/settings-icon.png).
 
 1. Klicken **Abschnitt „Benachrichtigungen** auf das Pfeilsymbol ![Workfront-Kachelpfeil](assets/arrow-icon.png) auf der Kachel **Workfront**.
 
@@ -101,4 +100,3 @@ Wenn Sie den Übergang neu planen müssen, stimmen Sie sich bitte mit Ihrem Acco
 
 Nein. Alle bestehenden Integrationen und Automatisierungen werden weiterhin wie gewohnt funktionieren.
 +++
-
