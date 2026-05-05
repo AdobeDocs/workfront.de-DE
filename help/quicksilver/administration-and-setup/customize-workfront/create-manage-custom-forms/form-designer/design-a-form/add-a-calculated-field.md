@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: e6aa40917f2e4421c84d2cc36e86187328c6f775
+source-git-commit: 2a08a1139664517b9ccf41121e8bb0dc686028ab
 workflow-type: tm+mt
-source-wordcount: '2714'
+source-wordcount: '2720'
 ht-degree: 9%
 
 ---
@@ -171,7 +171,7 @@ So verwenden Sie ein vorhandenes berechnetes benutzerdefiniertes Feld wieder:
      </tr>
      <tr>
       <td>Automatische Berechtigung</td>
-      <td><p>Aktivieren Sie diese Option, damit die Finanzberechtigungen automatisch aus den Feldern stammen, die in der Formel verwendet werden. Die Berechtigungsdefinitionen werden im Feld Finanzberechtigungstyp unten angezeigt.</p><p>Zugriff ist für alle Felder in der Formel erforderlich. Wenn beispielsweise zwei Felder in einem berechneten Feld verwendet werden und auf eines davon die Berechtigung Abrechnung angewendet wurde und auf das zweite die Berechtigung Kosten angewendet wurde, muss der Benutzer über die Berechtigung verfügen, sowohl Abrechnungs- als auch Kostensätze anzuzeigen, um den berechneten Wert anzuzeigen.</p></td>
+      <td><p>Aktivieren Sie diese Option, damit die Finanzberechtigungen automatisch aus den Feldern stammen, die in der Formel verwendet werden. Die Berechtigungsdefinitionen werden im Feld Finanzberechtigungstyp unten angezeigt.</p><p>Zugriff ist für alle Felder in der Formel erforderlich. Wenn beispielsweise ein berechnetes Feld zwei Felder verwendet - eines mit Rechnungsberechtigungen und eines mit Kostenberechtigungen - muss der Benutzer über die Berechtigung zum Anzeigen beider Felder verfügen, um den berechneten Wert sehen zu können.</p></td>
      </tr>
      <tr>
       <td>Berechtigungstyp „Finanzen“</td>
