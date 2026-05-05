@@ -8,10 +8,10 @@ feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 500bf31ff0cff309cb0cdda063503abb297f858c
 workflow-type: tm+mt
-source-wordcount: '2592'
-ht-degree: 3%
+source-wordcount: '2636'
+ht-degree: 2%
 
 ---
 
@@ -122,7 +122,9 @@ Sie können Dokumente von einer externen Anwendung wie Google und Microsoft OneD
 
 >[!IMPORTANT]
 >
->Dropbox speichert Dokumente basierend auf dem Dateipfad. Wenn eine über Dropbox verknüpfte Datei verschoben, umbenannt oder gelöscht wird, ist der Zugriff in Workfront daher nicht mehr möglich.
+>* Dropbox speichert Dokumente basierend auf dem Dateipfad. Wenn eine über Dropbox verknüpfte Datei verschoben, umbenannt oder gelöscht wird, ist der Zugriff in Workfront daher nicht mehr möglich.
+>* Das Durchsuchen freigegebener OneDrive-Ordner in der Dateiauswahl wird nicht unterstützt. Um eine Datei zu verknüpfen, die für Sie freigegeben wurde, suchen Sie die Datei über die Suchleiste in der OneDrive-Dateiauswahl nach dem Namen und wählen Sie sie aus, um sie Workfront hinzuzufügen.
+
 
 1. Wechseln Sie zum **Dokumente** in Workfront, in dem Sie das Dokument benötigen.
 1. Klicken Sie **Neu hinzufügen** und dann auf den externen Dokumentanbieter, in dem Sie Dokumente mit Workfront verknüpfen möchten.
@@ -319,7 +321,7 @@ Dadurch wird der Ordner in der externen Anwendung nicht umbenannt.
 
 Sie können einen neuen Ordner innerhalb eines vorhandenen verknüpften Ordners erstellen. Sie können auch einen anderen Ordner in einen vorhandenen verknüpften Ordner ziehen.
 
-1. Um einen neuen Ordner in einem vorhandenen verknüpften Ordner zu erstellen, gehen Sie zum vorhandenen Ordner und erstellen Sie dann den neuen Ordner wie in [Erstellen von &#x200B;](../../documents/organizing-documents/create-documents-folder.md)&quot; beschrieben.
+1. Um einen neuen Ordner in einem vorhandenen verknüpften Ordner zu erstellen, gehen Sie zum vorhandenen Ordner und erstellen Sie dann den neuen Ordner wie in [Erstellen von ](../../documents/organizing-documents/create-documents-folder.md)&quot; beschrieben.
 
    ODER
 
