@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
+source-git-commit: d1173e35a2455610474664f93159b97a54957488
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 11%
+source-wordcount: '901'
+ht-degree: 9%
 
 ---
 
@@ -47,7 +47,7 @@ Sie können eine neue Vorlage wie folgt erstellen:
 
 * Durch Kopieren aus einer anderen Vorlage.
 
-  Weitere Informationen zum Kopieren einer vorhandenen Vorlage finden Sie unter [Kopieren einer &#x200B;](../../../manage-work/projects/create-and-manage-templates/copy-template.md)).
+  Weitere Informationen zum Kopieren einer vorhandenen Vorlage finden Sie unter [Kopieren einer ](../../../manage-work/projects/create-and-manage-templates/copy-template.md)).
 
 * Durch den Import von Blueprints. Sie müssen Workfront-Administrator sein, um Blueprints importieren zu können. Weitere Informationen finden Sie unter [Blueprint konfigurieren](../../../administration-and-setup/blueprints/configure-template-package.md).
 
@@ -114,7 +114,26 @@ Old:
 
 1. Klicken Sie auf **Neue Vorlage**.
 
-   Die Vorlage hat keinen Titel.
+1. (Bedingt) Klicken Sie je nachdem, welchen Dokumentspeicher Ihr Unternehmen verwendet, auf eine der folgenden Optionen:
+
+   * **Neue Vorlage**, wenn der Workfront-Administrator entweder **Adobe Enterprise** oder **Legacy-Workfront** auswählt und die Einstellung **Speicheranbieter zulassen)** oder nicht ausgewählt hat.
+   * **Neue Vorlage (Legacy-Speicher)** Wenn der Workfront-Administrator entweder **Adobe Enterprise** oder **Legacy-Workfront** auswählt und außerdem die Einstellung **Auswahl des Speicheranbieters zulassen** ausgewählt hat.
+
+     Diese Option wird nur angezeigt, wenn **Einstellung „Auswahl des Speicheranbieters durch den Benutzer zulassen** im Bereich „Setup“ ausgewählt ist.
+
+     Weitere Informationen finden Sie unter [Aktivieren von Adobe Enterprise Storage für Ihr Unternehmen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+
+     Eine Vorlage wird erstellt. Ihr Standardname folgt den folgenden Mustern, je nachdem, welcher Speicher Workfront für Dokumente verwendet:
+
+      * **Unbenannte Vorlage** für eine Workfront-Speichervorlage.
+
+        Bei einer Workfront-Speichervorlage wird neben dem Namen das Symbol **Legacy** Workfront-Speicher![ Legacy-Speicher](assets/legacy-storage-project-icon.png)Projekt angezeigt.
+
+      * **Unbenannte Vorlage - &lt; Tag Monat, Jahr, Stunde.Minute.Sekunde >** für eine Adobe-Speichervorlage
+
+        >[!IMPORTANT]
+        >
+        >Vorlagen, die den Adobe-Speicher verwenden, müssen eindeutige Namen haben.
 
    ![Neue Vorlage](assets/create-template-nwe-2022-350x102.png)
 
@@ -207,7 +226,7 @@ Old:
    * Ausgaben
    * Genehmigungen
 
-   Weitere Informationen finden Sie im Abschnitt „Hinzufügen weiterer Elemente zu einer Vorlage“ im Artikel &quot;[&#x200B; bearbeiten](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+   Weitere Informationen finden Sie im Abschnitt „Hinzufügen weiterer Elemente zu einer Vorlage“ im Artikel &quot;[ bearbeiten](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 
 
