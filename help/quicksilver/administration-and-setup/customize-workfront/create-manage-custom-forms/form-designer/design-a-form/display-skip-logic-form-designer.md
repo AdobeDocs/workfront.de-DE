@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: e5fb42aa8d9eae17e1bddbd9832bdf064bc4605e
+source-git-commit: f177f0b678c8ac31241cb103d13ecd0f11cabd1e
 workflow-type: tm+mt
 source-wordcount: '3571'
 ht-degree: 2%
@@ -151,9 +151,9 @@ Auf den Standardabschnitt im Formular wird keine Logik angewendet, sodass er imm
 
 Unter Verwendung der folgenden Bedingung wird der Abschnitt Erforderliche Ressourcen nur angezeigt, wenn ein Benutzer mit dem Aufgabengebiet „Ressourcen-Manager“ das Formular anzeigt.
 
-```IF($$USER.{roleID}="123abc", true)```
+`IF($$USER.{roleID}="123abc", true)`
 
-Beachten Sie, dass ```123abc``` die Rollen-ID des Ressourcen-Managers darstellt.
+Beachten Sie, dass `123abc` die Rollen-ID des Ressourcen-Managers darstellt.
 
 ![Formularabschnitt wird für Rolle angezeigt](assets/advanced-display-on-form1.png)
 
@@ -161,7 +161,7 @@ Dieselbe Bedingung mit einer anderen Rollen-ID wird auf den Abschnitt „Projekt
 
 Unter Verwendung der folgenden Bedingung wird das Feld Verkaufs-KPI erst angezeigt, wenn das Projekt abgeschlossen ist. Diese Logik wird direkt auf das Feld und nicht auf einen Formularabschnitt angewendet. Es ist nicht erforderlich anzugeben, welche Rolle das Feld anzeigen kann, da dies bereits in dem Abschnitt definiert ist, in dem sich das Feld befindet.
 
-```IF({status}="CPL", true)```
+`IF({status}="CPL", true)`
 
 ![Feld ist beim vollständigen Projekt sichtbar](assets/advanced-display-on-form2.png)
 
@@ -182,7 +182,7 @@ Unter Verwendung der folgenden Bedingung wird das Feld Verkaufs-KPI erst angezei
 
 1. Erstellen Sie die Anzeigebedingung im Editor.
 
-   Weitere Informationen zu Berechnungen und Ausdrücken finden Sie unter [Hinzufügen berechneter Felder zu einem &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) und [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Weitere Informationen zu Berechnungen und Ausdrücken finden Sie unter [Hinzufügen berechneter Felder zu einem ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) und [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 1. Klicken Sie auf **Übernehmen**.
 
@@ -258,7 +258,7 @@ Wenn das benutzerdefinierte Formular mit einem Projekt verknüpft ist und der Pr
 
 1. Erstellen Sie die Standardwertbedingung im Editor.
 
-   Weitere Informationen zu Berechnungen und Ausdrücken finden Sie unter [Hinzufügen berechneter Felder zu einem &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) und [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Weitere Informationen zu Berechnungen und Ausdrücken finden Sie unter [Hinzufügen berechneter Felder zu einem ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) und [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 1. Klicken Sie auf **Übernehmen**.
 
@@ -307,7 +307,7 @@ Weitere Beispiele für Validierungslogik finden Sie unter [Beispiele für erweit
 
 1. Erstellen Sie die Validierungsbedingung im Editor, einschließlich der Fehlermeldung, die angezeigt werden soll, wenn die Validierung nicht erfüllt ist.
 
-   Weitere Informationen zu Berechnungen und Ausdrücken finden Sie unter [Hinzufügen berechneter Felder zu einem &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) und [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Weitere Informationen zu Berechnungen und Ausdrücken finden Sie unter [Hinzufügen berechneter Felder zu einem ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) und [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 1. Klicken Sie auf **Übernehmen**.
 
@@ -370,7 +370,7 @@ IF(
 
    Pro Funktion kann nur eine Farboption zusammen mit bis zu drei zusätzlichen Textformatierungsoptionen verwendet werden. Wenn keine Farboption angegeben wird, wird die Standardfarbe des Systems angewendet.
 
-   Weitere Informationen zu Berechnungen und Ausdrücken finden Sie unter [Hinzufügen berechneter Felder zu einem &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) und [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Weitere Informationen zu Berechnungen und Ausdrücken finden Sie unter [Hinzufügen berechneter Felder zu einem ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) und [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 1. Klicken Sie auf **Übernehmen**.
 
@@ -420,7 +420,7 @@ IF($$USER.{role}.{name}="Resource Manager", true)
 
 1. Erstellen Sie die Bearbeitbarkeitsbedingung im Editor.
 
-   Weitere Informationen zu Berechnungen und Ausdrücken finden Sie unter [Hinzufügen berechneter Felder zu einem &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) und [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Weitere Informationen zu Berechnungen und Ausdrücken finden Sie unter [Hinzufügen berechneter Felder zu einem ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) und [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 1. Klicken Sie auf **Übernehmen**.
 
