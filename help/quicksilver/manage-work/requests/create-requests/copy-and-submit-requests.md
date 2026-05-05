@@ -8,9 +8,9 @@ topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 442ddab8c7b92d52e0de699bb7acf99a5ca0f215
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1615'
+source-wordcount: '1734'
 ht-degree: 5%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 5%
 # Kopieren und Senden von Anfragen
 
 
-Wenn Sie ähnliche Anfragen häufig senden, können Sie eine vorhandene gesendete Anfrage kopieren. In diesem Fall können Sie eine vorhandene Anfrage kopieren, minimal ändern und als neue Anfrage erneut senden.
+Wenn Sie ähnliche Anfragen häufig senden, können Sie eine vorhandene gesendete Anfrage kopieren. In diesem Fall können Sie eine vorhandene Anfrage kopieren, minimal ändern und als neue Anfrage erneut senden. Die Anfrage wird an dieselbe Anfrage-Warteschlange gesendet wie die ursprüngliche Anfrage.
 
 ## Zugriffsanforderungen
 
@@ -57,7 +57,7 @@ Wenn Sie ähnliche Anfragen häufig senden, können Sie eine vorhandene gesendet
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -232,16 +232,16 @@ Wenn Ihr Unternehmen ein Workfront Planning-Paket erworben hat, können Sie kein
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><span><strong>Arbeitsaufträge</strong></span> </td> 
-      <td> <p>Geben Sie den Namen eines aktiven Benutzers, Aufgabengebiets oder Teams an, dem die Anfrage zugewiesen werden soll. </p> <p> Sie können mehr als einen Benutzer, ein Aufgabengebiet oder ein Team angeben. </p> <p>Je nachdem, wie die Anfrage-Warteschlange eingerichtet wurde, können Sie die Anfrage möglicherweise nur einem oder zwei Ressourcentypen zuweisen statt allen drei. </p> <p>Es wird empfohlen, Routing-Regeln für die Anfrage-Warteschlangen zu verwenden, damit sie automatisch an die entsprechenden Ressourcen weitergeleitet werden können. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader" colspan="2"> <p><p style="font-weight: normal;">Je nachdem, wie die Anfrage-Warteschlange eingerichtet wurde, können Sie der Anfrage möglicherweise nur einen Ressourcentyp zuweisen (z. B. Benutzer). Wenn der Anfrage-Warteschlange auch eine Routing-Regel zugeordnet ist, die die Anfrage automatisch an einen anderen Ressourcentyp weiterleitet (z. B. ein Team), wird Ihre Anfrage sowohl der Entität, die Sie beim Senden der Anfrage manuell angeben (Benutzer), als auch der in der Routing-Regel angegebenen Ressource (dem Team) zugewiesen.</p> <p style="font-weight: normal;">Weitere Informationen finden Sie in den folgenden Artikeln:</p> 
-        <ul> 
-         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Anfrage-Warteschlange erstellen</a> </p> </li> 
-         <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Routing-Regeln erstellen</a> <br> </p> </li> 
-        </ul> </p> </td> 
-     </tr> 
-     <tr> 
+      <td> <p>Geben Sie den Namen eines aktiven Benutzers, Aufgabengebiets oder Teams an, dem die Anfrage zugewiesen werden soll. </p> <p> Sie können mehr als einen Benutzer, ein Aufgabengebiet oder ein Team angeben. </p> <p>Je nachdem, wie die Anfrage-Warteschlange eingerichtet wurde, können Sie die Anfrage möglicherweise nur einem oder zwei Ressourcentypen zuweisen statt allen drei. </p> <p>Es wird empfohlen, Routing-Regeln für die Anfrage-Warteschlangen zu verwenden, damit sie automatisch an die entsprechenden Ressourcen weitergeleitet werden können. </p>
+      <p><p style="font-weight: normal;">Je nachdem, wie die Anfrage-Warteschlange eingerichtet wurde, können Sie der Anfrage möglicherweise nur einen Ressourcentyp zuweisen (z. B. Benutzer). Wenn der Anfrage-Warteschlange auch eine Routing-Regel zugeordnet ist, die die Anfrage automatisch an einen anderen Ressourcentyp (z. B. ein Team) weiterleitet, wird Ihre Anfrage sowohl der Entität, die Sie beim Senden der Anfrage manuell angeben (Benutzer), als auch der in der Routing-Regel angegebenen Ressource (dem Team) zugewiesen.</p> <p style="font-weight: normal;">Weitere Informationen finden Sie in den folgenden Artikeln:</p> 
+      <ul> 
+      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Anfrage-Warteschlange erstellen</a> </p> </li> 
+      <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Routing-Regeln erstellen</a> <br> </p> </li> 
+      </ul> </p>
+       </td> 
+     </tr>
+
+   <tr> 
       <td role="rowheader"><strong>Geplante Stunden</strong> </td> 
       <td> <p>Schätzen Sie, wie viele Stunden es dauern würde, bis diese Anfrage abgeschlossen ist.</p> </td> 
      </tr> 
@@ -261,8 +261,16 @@ Wenn Ihr Unternehmen ein Workfront Planning-Paket erworben hat, können Sie kein
       <td role="rowheader"><strong>Dokumente</strong> </td> 
       <td> <p>Dokumente zu Ihrer Anfrage hinzufügen. Die dem ursprünglichen Antrag beigefügten Dokumente werden nicht auf den kopierten Antrag übertragen.</p> <p><b>TIPP</b>
 
-   Je nachdem, wie die Anfrage-Warteschlange eingerichtet wurde, wird der Abschnitt Dokumente möglicherweise vor oder nach den benutzerdefinierten Feldern angezeigt.</p> <p> </p> </td>
-   </tr> 
+   Je nachdem, wie die Anfrage-Warteschlange eingerichtet wurde, wird der Abschnitt Dokumente möglicherweise vor oder nach den benutzerdefinierten Feldern angezeigt.</p> <p> </p>
+   <p>Je nachdem, welchen Dokumentspeichertyp Ihr Workfront-Administrator für Ihre Umgebung ausgewählt hat, werden die an Anfragen angehängten Dokumente zu Folgendem hinzugefügt:</p>
+      <ul><li>Bei Anfragen, die den Workfront-Speicher verwenden, werden die Dokumente zum Abschnitt Dokumente der neu erstellten Anfrage hinzugefügt.</li>
+      <li>Bei Anfragen, die Adobe Enterprise Storage verwenden, werden die Dokumente einem neu erstellten Ordner mit demselben Namen wie der Anfrage hinzugefügt und der Anfrage während des Sendevorgangs automatisch hinzugefügt. </li></ul>
+      <p>Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Arten von Dokumentspeicher.</p>
+      <p>Speichertyp für Probleme und Anfragen wird vom Projekt übernommen. </p>
+      <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Übersicht über das Dokumentenmanagement für Projekte und verwandte Objekte</a>.</p>
+
+   </td> 
+     </tr> 
     </tbody> 
    </table>
 

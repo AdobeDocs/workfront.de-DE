@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '830'
 ht-degree: 6%
 
 ---
@@ -109,6 +109,8 @@ Beachten Sie Folgendes:
    * Dokumente
 
   Sie können eine Aufgabe, an die ein ausgechecktes Dokument angehängt ist, nicht löschen. Weitere Informationen zum Auschecken von Dokumenten finden Sie unter [Auschecken von Dokumenten](../../../documents/managing-documents/check-out-documents.md).
+
+  Sie können einzelne Dokumente, die beim Löschen der Aufgabe gelöscht wurden, nicht über die Registerkarte Dokumente im Papierkorb wiederherstellen. Sie können die gelöschten Dokumente nur wiederherstellen, wenn die Aufgabe beim Wiederherstellen der Aufgabe gelöscht wurde.
 
    * Probleme
    * Teilaufgaben

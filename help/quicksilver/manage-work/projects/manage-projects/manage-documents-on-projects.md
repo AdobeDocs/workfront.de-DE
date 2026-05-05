@@ -6,9 +6,9 @@ description: Je nachdem, ob Ihr Workfront-Administrator für Ihre standardmäßi
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1470'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Mit dieser Einstellung können Sie an Workfront-Objekte angehängte Dokumente au
 
 >[!IMPORTANT]
 >
->Nicht alle Kunden haben Zugriff auf Workfront- und Adobe-Speicher. Einige Kunden haben nur Zugriff auf Workfront, andere haben standardmäßig nur Zugriff auf den Adobe Enterprise-Speicher. Für Kunden ohne Zugriff auf Workfront-Speicher ist keine Konfiguration erforderlich.
+>Ihre Workfront-Instanz hat möglicherweise nicht sowohl Zugriff auf Workfront als auch auf den Adobe-Speicher. Einige Workfront-Instanzen haben nur Zugriff auf Workfront, während andere standardmäßig nur Zugriff auf den Adobe Enterprise-Speicher haben. Für Kunden mit Zugriff auf nur einen Speichertyp ist keine Konfiguration erforderlich.
 
 Der Workfront-Administrator kann einen der folgenden Schritte ausführen:
 
@@ -179,7 +179,7 @@ Beachten Sie beim Arbeiten mit Vorlagen Folgendes:
 * Wenn Sie eine Adobe-Unternehmensspeichervorlage erstellen, erstellt Workfront einen Ordner im Abschnitt Dokumente der Vorlage, in dem Dokumente gespeichert werden. Der Ordnername ist mit dem Programmnamen identisch. Sie können den Ordner nicht löschen oder manuell umbenennen. Der Ordner wird umbenannt, wenn Sie den Namen der Vorlage ändern, sodass er zum neuen Namen der Vorlage passt.
 * Sie können eine Workfront-Speichervorlage verwenden, um Workfront-Speicherprojekte zu erstellen. Sie können eine Adobe-Speichervorlage verwenden, um ein Adobe-Speicherprojekt zu erstellen.
 * Sie können eine Workfront-Speichervorlage an ein Adobe-Speicherprojekt anhängen. Dies ändert nicht den Speicherort des Projekts.
-* Sie können eine Adobe-Speichervorlage an ein Workfront-Speicherprojekt anhängen. Dadurch wird der Speicherort für das Projekt nicht geändert.
+* Sie können eine Adobe-Speichervorlage an ein Workfront-Speicherprojekt anhängen. Dadurch wird der Speicherort für das Projekt nicht geändert. Dokumente im Ordner &quot;Adobe-Storage“ für die Vorlage werden dem Projekt direkt und ohne den Ordner hinzugefügt, während die Dokumente in den Vorlagenaufgabenordnern den Ordnern hinzugefügt werden, die an die Projektaufgaben im Abschnitt Dokumente der Aufgaben angehängt sind.
 
 ### Dokumentverwaltung für Vorlagenaufgaben
 

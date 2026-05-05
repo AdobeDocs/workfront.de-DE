@@ -9,9 +9,9 @@ exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1106'
 ht-degree: 10%
 
 ---
@@ -115,6 +115,8 @@ Old:
 
      Sie können ein Projekt, an das ein ausgechecktes Dokument angehängt ist, nicht löschen. Weitere Informationen zum Auschecken von Dokumenten finden Sie unter [Auschecken von Dokumenten](../../../documents/managing-documents/check-out-documents.md).
 
+     Sie können einzelne Dokumente, die beim Löschen des Projekts gelöscht wurden, nicht über die Registerkarte Dokumente im Papierkorb wiederherstellen. Sie können die beim Löschen des Projekts gelöschten Dokumente nur wiederherstellen, wenn Sie das Projekt wiederherstellen.
+
    * Aufgaben
    * Teilaufgaben
    * Probleme
@@ -171,7 +173,7 @@ Sie können Projekte aus einer Projektliste löschen.
 ## Löschen eines Projekts auf Projektebene
 
 1. Wechseln Sie zu dem Projekt, das Sie löschen möchten.
-1. Klicken Sie auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/qs-more-menu.png) rechts neben dem Projektnamen und klicken Sie dann auf **Projekt löschen**.
+1. Klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/qs-more-menu.png) rechts neben dem Projektnamen und klicken Sie dann auf **Projekt löschen**.
 
    ![Mehr Menü erweitert](assets/more-icon-expanded-delete-project-highlighted.png)
 
@@ -209,4 +211,4 @@ So löschen Sie einen Datensatz aus einer verbundenen Datensatzseite:
 
 ## Gelöschte Projekte wiederherstellen
 
-Ein System- oder Gruppen-Administrator kann Projekte innerhalb von 30 Tagen nach dem Löschen wiederherstellen, wie im Artikel &quot;[&#x200B; gelöschter Elemente wiederherstellen“ &#x200B;](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+Ein System- oder Gruppen-Administrator kann Projekte innerhalb von 30 Tagen nach dem Löschen wiederherstellen, wie im Artikel &quot;[ gelöschter Elemente wiederherstellen“ ](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).

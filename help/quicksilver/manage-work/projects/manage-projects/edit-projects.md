@@ -9,9 +9,9 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: d8a01839b8f1332741f87be766f3ccb7d08cef96
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '7859'
+source-wordcount: '8113'
 ht-degree: 2%
 
 ---
@@ -282,18 +282,26 @@ Informationen zum Erstellen eines Projekts über eine Vorlage finden Sie unter [
          <td> <p>Geben Sie das Datum an, an dem Sie <strong>Von Abschlussdatum planen</strong> wählen. </p> <p>Dies ist ein schreibgeschütztes Feld, wenn Sie die Option <strong>Ab Startdatum planen</strong> auswählen.<br></p> </td> 
       </tr> 
       <tr> 
-         <td role="rowheader"><strong>Portfolio</strong></td> 
-         <td>Geben Sie eine Portfolio an, zu der das Projekt gehört. Sie müssen zunächst eine Portfolio erstellen, bevor sie in der Dropdown-Liste angezeigt wird. Einem Projekt können nur aktive Portfolios zugeordnet werden. Weitere Informationen zum Erstellen von Portfolios finden Sie unter <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Erstellen eines Portfolios </a>.
-         <p><b>NOTIZ</b></p>
-         <p>Sie müssen über Verwaltungsberechtigungen für das Portfolio verfügen, um es zum Projekt hinzufügen oder daraus entfernen zu können.</p>
+      <td role="rowheader"><strong>Portfolio</strong></td> 
+      <td>Geben Sie eine Portfolio an, zu der das Projekt gehört. Sie müssen zunächst eine Portfolio erstellen, bevor sie in der Dropdown-Liste angezeigt wird. Einem Projekt können nur aktive Portfolios zugeordnet werden. Weitere Informationen zum Erstellen von Portfolios finden Sie unter <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Erstellen eines Portfolios </a>.
+      <p><b>NOTIZEN</b></p>
+      <ul>
+      <li>Sie müssen über Verwaltungsberechtigungen für das Portfolio verfügen, um es zum Projekt hinzufügen oder daraus entfernen zu können.</li>
+      <li>Wenn Ihr Unternehmen sowohl Workfront- als auch Adobe-Dokumentspeichertypen verwendet, können Sie kein Workfront-Speicherprojekt mit einem Adobe-Speicherportfolio verknüpfen. Auch das Gegenteil ist wahr. Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Arten von Dokumentspeicher.</li></ul> 
+      Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Übersicht über das Dokumentenmanagement für Projekte und verwandte Objekte</a>. 
       </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Programm</strong></td> 
          <td> <p>Wenn Sie eine Portfolio für das Projekt ausgewählt haben, geben Sie ein Programm für das Projekt an. Einige Portfolios verfügen möglicherweise nicht über Programme. Sie müssen zuerst ein Programm erstellen, bevor es in dieser Dropdown-Liste angezeigt wird. Einem Projekt können nur aktive Programme zugeordnet werden. </p> <p>Weitere Informationen zum Erstellen von Programmen finden Sie unter <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Erstellen eines Programms</a>.</p> 
-      <p><b>NOTIZ</b></p>
-         <p>Sie müssen über Verwaltungsberechtigungen für das Programm verfügen, um es zum Projekt hinzufügen oder entfernen zu können.</p>   
-      </td> 
+      <p><b>NOTIZEN</b></p>
+      <ul>
+      <li>Sie müssen über Verwaltungsberechtigungen für das Programm verfügen, um es zum Projekt hinzufügen oder entfernen zu können.</li>
+      <li>Wenn Ihr Unternehmen sowohl Workfront- als auch Adobe-Dokumentspeichertypen verwendet, können Sie kein Workfront-Speicherprojekt mit einem Adobe-Speicherprogramm verknüpfen. Auch das Gegenteil ist wahr. Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Arten von Dokumentspeicher. Programme übernehmen den Speichertyp aus dem Portfolio, zu dem sie gehören. </li></ul>
+
+   Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Übersicht über das Dokumentenmanagement für Projekte und verwandte Objekte</a>.
+
+   </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Gruppe</strong></td> 
@@ -536,7 +544,7 @@ So bearbeiten Sie Felder im Bereich Finanzen:
       </tr> 
       <tr> 
        <td role="rowheader"><strong>Risiko</strong> </td> 
-       <td> <p> <p>Definieren Sie den Risikograd Ihres Projekts. Das Risiko ist nur ein Indikator dafür, wie riskant ein Projekt sein kann. Sie können die Ausführung Ihrer Projekte nach dem Risikoniveau priorisieren.</p> <p> <p>Erwägen Sie die Auswahl aus den folgenden Risikostufen:</p> <p>- Sehr niedrig</p> <p>- niedrig</p> <p>- MEDIUM</p> <p>- Hoch</p> <p>- Sehr hoch</p> <p>Die Risikostufen, die Sie hier angeben, können nicht angepasst werden.</p> <p>Diese stehen nicht in Zusammenhang mit den potenziellen Risiken, die während der Lebensdauer eines Projekts auftreten könnten und die Sie auf der Registerkarte „Risiken“ des Projekts oder im Business Case aufzeichnen sollten. Informationen zu potenziellen Projektrisiken finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md" class="MCXref xref">Risikotypen bearbeiten und erstellen</a>. </p> </p> </p> </td> 
+       <td> <p> <p>Definieren Sie den Risikograd Ihres Projekts. Das Risiko ist nur ein Indikator dafür, wie riskant ein Projekt sein kann. Sie können die Ausführung Ihrer Projekte nach der Risikostufe priorisieren.</p> <p> <p>Erwägen Sie die Auswahl aus den folgenden Risikostufen:</p> <p>- Sehr niedrig</p> <p>- niedrig</p> <p>- MEDIUM</p> <p>- Hoch</p> <p>- Sehr hoch</p> <p>Die Risikostufen, die Sie hier angeben, können nicht angepasst werden.</p> <p>Diese stehen nicht in Zusammenhang mit den potenziellen Risiken, die während der Lebensdauer eines Projekts auftreten könnten und die Sie auf der Registerkarte „Risiken“ des Projekts oder im Business Case aufzeichnen sollten. Informationen zu potenziellen Projektrisiken finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md" class="MCXref xref">Risikotypen bearbeiten und erstellen</a>. </p> </p> </p> </td> 
       </tr> 
       <tr> 
        <td role="rowheader"><strong>Ressourcenpools</strong> </td> 
@@ -619,9 +627,9 @@ Informationen darüber, wie sich diese Einstellungen auf die Erstellung neuer Au
 
    | Größe | Prozentsatz |
    |---|---|
-   | Klein | 25 % |
+   | Klein | 25% |
    | Mittel | 50 % |
-   | Groß | 75 % |
+   | Groß | 75% |
 
    >[!TIP]
    >
@@ -795,6 +803,10 @@ Beachten Sie beim Massenbearbeiten von Projekten Folgendes:
   >Beispielsweise könnte ein Kontrollkästchen mit drei Kontrollkästchen (Option 1, Option 2 und Option 3) vorhanden sein, wobei Option 1 für alle Projekte deaktiviert ist und Option 2 und 3 für einige Projekte aktiviert sind und für andere ausgewählte Projekte deaktiviert ist. Wenn Sie Option 1 für alle Projekte aktivieren möchten, müssen Sie auch Option 2 und 3 für alle ausgewählten Projekte übereinstimmen lassen, bevor Sie Ihre Änderungen speichern können. Daher müssen Sie sie entweder auswählen oder die Auswahl aufheben, damit sie in allen ausgewählten Projekten übereinstimmen. Wenn Sie keine der Optionen ändern, können Sie das Feld unverändert speichern, und die Projekte behalten ihre aktuelle Auswahl für alle Optionen bei.
 
 * Wenn Sie mehrere Projekte auswählen, die verschiedenen Gruppen angehören, handelt es sich bei den im Feld Status angezeigten Status um Status auf Systemebene und nicht um auf Gruppenebene.
+
+* Wenn Sie mehrere Projekte mit unterschiedlichen Arten von Dokumentspeichern auswählen und die Portfolio oder das Programm für die ausgewählten Projekte aktualisieren möchten, können Sie kein Workfront-Speicherprojekt mit einem Adobe-Speicherportfolio verknüpfen. Auch das Gegenteil ist wahr. Stellen Sie in diesem Fall sicher, dass Sie jeweils nur Projekte auswählen, die ähnliche Speichertypen haben.
+
+  Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Arten von Dokumentspeicher.
 
 So bearbeiten Sie Projekte stapelweise:
 

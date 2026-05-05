@@ -2,14 +2,14 @@
 title: Verwenden der KI-gestützten Formularausfüllung zum Ausfüllen einer Anfrage mithilfe von Prompts oder Dokumenten
 content-type: reference
 description: Sie können KI zum automatischen Ausfüllen von Anfragefeldern verwenden, indem Sie eine Eingabeaufforderung eingeben oder ein Dokument angeben.
-author: Alina
+author: Alina, Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: d8ccdeac9a658ca7a2862781e98c2c3c6fa0e8a0
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1462'
 ht-degree: 8%
 
 ---
@@ -53,7 +53,7 @@ Diese Funktion ist beim Erstellen einer Anfrage im Bereich Workfront-Anfragen un
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -93,7 +93,7 @@ Beachten Sie bei der Verwendung von Formularausfüllen auf Basis von KI Folgende
 >
 >Das Ausfüllen von Formularen mit künstlicher Intelligenz ist auf Organisationsebene aktiviert und kann für bestimmte Benutzer oder Zugriffsebenen nicht aktiviert oder deaktiviert werden.
 
-1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **&#x200B;**&#x200B;Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
+1. Klicken Sie oben links auf **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) und dann auf **[!UICONTROL Setup]** ![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
 1. Klicken Sie auf **System** und dann unter „System“ auf **Voreinstellungen**.
 1. Stellen Sie im Abschnitt KI-Voreinstellungen sicher, dass **KI aktivieren** aktiviert ist.
 1. Schalten Sie **KI-Formular ausfüllen** ein.
@@ -192,7 +192,7 @@ Wir planen eine Kampagne, die der Holiday Social Ads ähnelt, die wir letztes Ja
 
 ## Abrufen von Vorschlägen basierend auf einem hochgeladenen Dokument
 
-Das Ausfüllen eines Formulars mit KI kann eine Anfrage mithilfe von Eingabeaufforderungen ausfüllen, oder Dokumente können Feldwerte basierend auf einem hochgeladenen Dokument vorschlagen.
+Das Ausfüllen von Formularen mit KI kann eine Anfrage mithilfe von Eingabeaufforderungen ausfüllen oder Feldwerte basierend auf einem hochgeladenen Dokument vorschlagen.
 
 Diese Art von Vorschlag überprüft auch frühere Anfragen nach ähnlichen Kontexten. Wenn in der Eingabeaufforderung beispielsweise erwähnt wird, dass die Anfrage für einen bestimmten Client gilt, kann Workfront die Rechnungsadresse für diesen Client basierend auf vorherigen Anfragen automatisch suchen und eingeben.
 
