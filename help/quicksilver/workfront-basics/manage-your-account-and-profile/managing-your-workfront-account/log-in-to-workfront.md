@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
+source-git-commit: d6890caed6fea2ed696c0b07674f4014f0e293a4
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 31%
+source-wordcount: '222'
+ht-degree: 12%
 
 ---
 
@@ -19,11 +19,35 @@ ht-degree: 31%
 
 <!--Audited: 2024-->
 
+Eine Anmeldung wird für Workfront und alle Ihre Adobe CX Enterprise-Anwendungen verwendet.
+
+Weitere Informationen finden Sie unter [Benutzeroberfläche und Administration von CX Enterprise](https://experienceleague.adobe.com/de/docs/core-services/interface/experience-cloud).
+
+## Zugriff auf [!DNL Workfront]
+
+Sobald Sie bei CX Enterprise angemeldet sind, können Sie alle [!DNL Workfront] Organisationen und Umgebungen anzeigen, auf die Sie Zugriff haben, indem Sie auf den Organisationsschalter im oberen Navigationsbereich klicken. Wählen Sie die [!DNL Workfront] Organisation oder Umgebung aus, in der Sie arbeiten möchten. Umgebungen können [!UICONTROL Vorschau] und [!UICONTROL Sandbox) ], wenn Ihr Unternehmen sie verwendet.
+
+![Anzeigen [!DNL Workfront] Organisationen und Umgebungen](assets/wf-org-instance-switcher-2026.png)
+
+>[!NOTE]
+>
+>Wenn Sie sich zum ersten Mal bei CX Enterprise anmelden, wird standardmäßig das erste Unternehmen in der alphabetischen Liste angezeigt. Bei der nächsten Anmeldung wird für die Organisation standardmäßig das zuletzt besuchte verwendet.
+
+[!DNL Workfront] wird in der Liste der CX Enterprise-Produkte angezeigt, auf die Sie Zugriff haben. Sie können [!DNL Workfront] im Schnellzugriffsmenü auf der Startseite von CX Enterprise auswählen oder den Produktumschalter ![Produktumschalter](assets/main-menu-icon.png) verwenden, um die Anwendungen jederzeit zu wechseln.
+
+![Wählen Sie [!DNL Workfront] aus, um auf die Anwendung zuzugreifen](assets/cx-enterprise-home-2026.png)
+
+>[!NOTE]
+>
+>Wenn eine Browser-Registerkartensitzung auf einer Seite abläuft, auf der Workfront geöffnet ist, und Sie eine aktive Workfront-Sitzung auf einer anderen Browser-Registerkarte haben, können Sie die abgelaufene Registerkarte neu laden, um die Workfront-Seite erneut zu öffnen.
+
+<!--
 >[!IMPORTANT]
 >
->Das auf dieser Seite beschriebene Verfahren wurde entfernt, da es nur für Organisationen galt, die noch nicht in Adobe Admin Console integriert waren.
+>The procedure described on this page has been removed because it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
 >
->Alle Workfront-Organisationen wurden nun in die Adobe Admin Console integriert.
+>All Workfront organizations have now been onboarded to the Adobe Admin Console.
+-->
 
 <!--DELETE ME MARCH 2026-->
 
