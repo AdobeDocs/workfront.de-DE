@@ -8,14 +8,14 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: a63ec4e0-ba39-42c1-8061-c29350ef4bbb
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+source-git-commit: 5f254f051704e3b986daa5748f2fb198de472059
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 1%
+source-wordcount: '139'
+ht-degree: 14%
 
 ---
 
-# Projekte verwalten: Artikelindex
+# Verwalten von Projekten: Artikelindex
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
@@ -38,5 +38,6 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Kommunikation mit Projektteammitgliedern](../../../manage-work/projects/manage-projects/communicate-with-project-team-members.md)
 * [Verwalten eines Agile-Projekts in der Board-Ansicht](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
 * [Projektbeschränkungen - Übersicht](../../../manage-work/projects/manage-projects/project-maximums.md)
-* [Verstehen von Projektmetriken](../../../manage-work/projects/manage-projects/project-metrics.md)
+* [Grundlegendes zu Projektmetriken](../../../manage-work/projects/manage-projects/project-metrics.md)
 * [Zusammenfassen von Aktualisierungen mit dem KI-Assistenten](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
+* [Übersicht über das Dokumentenmanagement für Projekte und zugehörige Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)
