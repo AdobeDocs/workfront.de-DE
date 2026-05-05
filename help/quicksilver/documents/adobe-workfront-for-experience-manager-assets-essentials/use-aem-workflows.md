@@ -6,22 +6,22 @@ description: Verwenden von Workflows in der Integration von Experience Manager A
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '1023'
 ht-degree: 7%
 
 ---
 
-# Use workflows in the Experience Manager Assets integration
+# Verwenden von Workflows in der Experience Manager Assets-Integration
 
-A workflow is a set of actions that connect Workfront to Adobe Experience Manager as a Cloud Service. A Workfront administrator can configure workflows in Workfront, then assign them to Project Templates.
+Ein Workflow ist eine Reihe von Aktionen, die Workfront mit Adobe Experience Manager as a Cloud Service verbinden. Ein Workfront-Administrator kann Workflows in Workfront konfigurieren und sie dann Projektvorlagen zuweisen.
 
-When a Project is created using a Project Template to which a workflow is assigned, the actions defined in the workflow are triggered.
+Wenn ein Projekt mithilfe einer Projektvorlage erstellt wird, der ein Workflow zugewiesen ist, werden die im Workflow definierten Aktionen ausgelöst.
 
 >[!NOTE]
 >
->Workflows are available only in an Adobe Experience Manager as a Cloud Service integration. They are not available in integrations with Adobe Experience Manager Assets Essentials.<br>
+>Workflows sind nur in einer Adobe Experience Manager as a Cloud Service-Integration verfügbar. Sie sind nicht in Integrationen mit Adobe Experience Manager Assets Essentials verfügbar.<br>
 >Diese Funktion ist im Bereich Neue Dokumente nicht verfügbar.
 
 
@@ -45,11 +45,11 @@ When a Project is created using a Project Template to which a workflow is assign
   </tr> 
   <tr> 
    <td role="rowheader">Zusätzliche Produkte</td> 
-   <td>You must have Experience Manager as a Cloud Service or Assets Essentials, and you must be added to the product as a user in the Admin Console.</td> 
+   <td>Sie müssen über Experience Manager as a Cloud Service oder Assets Essentials verfügen und Sie müssen dem Produkt als Benutzer in der Admin Console hinzugefügt werden.</td> 
   </tr> 
    <tr> 
-    <td role="rowheader">Experience Manager Permissions</td> 
-    <td>You must have write access to the folder.</td> 
+    <td role="rowheader">Experience Manager-Berechtigungen</td> 
+    <td>Sie müssen Schreibzugriff auf den Ordner haben.</td> 
    </tr>
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -57,7 +57,7 @@ When a Project is created using a Project Template to which a workflow is assign
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>View access or higher</p> </td> 
+   <td> <p>Ansichtszugriff oder höher</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -70,74 +70,74 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 Bevor Sie beginnen,
 
-* Your Workfront administrator must configure workflows in an Adobe Experience Manager integration. For more information, see [Configure the Experience Manager Assets as a Cloud Service integration](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional).
+* Ihr Workfront-Administrator muss Workflows in einer Adobe Experience Manager-Integration konfigurieren. Weitere Informationen finden Sie unter [Konfigurieren der Experience Manager Assets as a Cloud Service-Integration](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional).
 
-## Add a workflow to a template
+## Hinzufügen eines Workflows zu einer Vorlage
 
-You can add a workflow to a project template. The workflow will be applied to any projects created from the template.
+Sie können einen Workflow zu einer Projektvorlage hinzufügen. Der Workflow wird auf alle Projekte angewendet, die aus der Vorlage erstellt wurden.
 
-1. Open a template by clicking **Templates** in the Main Menu, then selecting the template from the list.
-1. Click **Experience Manager Assets** in the left navigation panel.
+1. Öffnen Sie eine Vorlage, indem **Hauptmenü auf** Vorlagen“ klicken und die Vorlage dann aus der Liste auswählen.
+1. Klicken Sie im **Navigationsbereich auf** Experience Manager Assets.
 
    >[!NOTE]
    >
-   >If the Experience Manager Assets section is not visible in the left navigation, your Workfront administrator has not enabled workflows for your organization. <!--Is this right?-->
+   >Wenn der Abschnitt Experience Manager Assets im linken Navigationsbereich nicht sichtbar ist, hat Ihr Workfront-Administrator keine Workflows für Ihr Unternehmen aktiviert. <!--Is this right?-->
 
-1. In the **Select an integration for automated workflows field**, select the integration with the workflows you want to use for projects created from this template.
-1. (Optional) Edit any workflow values that you want to apply to projects created from this template.
+1. Wählen Sie im Feld **Integration für automatisierte Workflows auswählen** die Integration mit den Workflows aus, die Sie für Projekte verwenden möchten, die aus dieser Vorlage erstellt wurden.
+1. (Optional) Bearbeiten Sie alle Workflow-Werte, die Sie auf Projekte anwenden möchten, die aus dieser Vorlage erstellt wurden.
 
-   For instructions on specific workflows, see [Edit workflow values in a project](#edit-workflow-values-in-a-project) in this article.
+   Anweisungen zu bestimmten Workflows finden Sie unter [Bearbeiten von Workflow-Werten in einem Projekt](#edit-workflow-values-in-a-project) in diesem Artikel.
 
-   Only workflows that have been activated in the Experience Manager area of Setup are available in templates or projects.
+   Nur Workflows, die im Bereich &quot;Experience Manager&quot; von „Setup“ aktiviert wurden, sind in Vorlagen oder Projekten verfügbar.
 
-1. Your changes save automatically. <!-- do they though??-->
+1. Ihre Änderungen werden automatisch gespeichert. <!-- do they though??-->
 
-## Add a workflow to a project
+## Hinzufügen eines Workflows zu einem Projekt
 
-You can add a workflow when creating a project, or add a workflow to an existing project. In both cases, you will use a project template to add the workflow.
+Sie können beim Erstellen eines Projekts einen Workflow hinzufügen oder einen Workflow zu einem vorhandenen Projekt hinzufügen. In beiden Fällen verwenden Sie eine Projektvorlage, um den Workflow hinzuzufügen.
 
-### Add a workflow when creating a project
+### Hinzufügen eines Workflows beim Erstellen eines Projekts
 
-1. Begin creating a project.
+1. Erstellen Sie ein Projekt.
 
-   For instructions, see [Create a project using a template](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
+   Anweisungen finden Sie unter [Erstellen eines Projekts mithilfe einer Vorlage](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
 
-1. When selecting a template for the project, select the template that contains the workflows you want to use for this project.
-1. (Optional) Edit any workflow values for the project, as described in [Edit workflow values in a project](#edit-workflow-values-in-a-project).
+1. Wählen Sie bei der Auswahl einer Vorlage für das Projekt die Vorlage aus, die die Workflows enthält, die Sie für dieses Projekt verwenden möchten.
+1. (Optional) Bearbeiten Sie alle Workflow-Werte für das Projekt, wie unter [Bearbeiten von Workflow-Werten in einem Projekt](#edit-workflow-values-in-a-project) beschrieben.
 
-   Only workflows that have been activated in the Experience Manager area of Setup are available in templates or projects.
+   Nur Workflows, die im Bereich &quot;Experience Manager&quot; von „Setup“ aktiviert wurden, sind in Vorlagen oder Projekten verfügbar.
 
 
-### Add a workflow to an existing project
+### Hinzufügen eines Workflows zu einem vorhandenen Projekt
 
 >[!NOTE]
 >
->Workflows that run when a project is created (such as linked folder creation) do not run when the template is attached to an existing project. They only run when a project is created from a template.
+>Workflows, die beim Erstellen eines Projekts ausgeführt werden (z. B. Erstellung verknüpfter Ordner), werden nicht ausgeführt, wenn die Vorlage an ein vorhandenes Projekt angehängt wird. Sie werden nur ausgeführt, wenn ein Projekt über eine Vorlage erstellt wird.
 
-1. Begin adding a template to the project.
+1. Beginnen Sie mit dem Hinzufügen einer Vorlage zum Projekt.
 
-   For instructions, see [Attach a template to a project](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+   Anweisungen finden Sie unter [Anhängen einer Vorlage an ein Projekt](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
 
-1. When selecting a template for the project, select the template that contains the workflows you want to use for this project.
-1. (Optional) Edit any workflow values for the project, as described in [Edit workflow values in a project](#edit-workflow-values-in-a-project).
+1. Wählen Sie bei der Auswahl einer Vorlage für das Projekt die Vorlage aus, die die Workflows enthält, die Sie für dieses Projekt verwenden möchten.
+1. (Optional) Bearbeiten Sie alle Workflow-Werte für das Projekt, wie unter [Bearbeiten von Workflow-Werten in einem Projekt](#edit-workflow-values-in-a-project) beschrieben.
 
-   Only workflows that have been activated in the Experience Manager area of Setup are available in templates or projects.
+   Nur Workflows, die im Bereich &quot;Experience Manager&quot; von „Setup“ aktiviert wurden, sind in Vorlagen oder Projekten verfügbar.
 
 
 
-### Edit workflow values in a project
+### Workflow-Werte in einem Projekt bearbeiten
 
-You can edit workflow values on the project level. Project-level workflow values override values set on the project template, which override the default values set in the Adobe Experience Manager Assets integration.
+Sie können Workflow-Werte auf Projektebene bearbeiten. Workflow-Werte auf Projektebene überschreiben die in der Projektvorlage festgelegten Werte, die die in der Adobe Experience Manager Assets-Integration festgelegten Standardwerte überschreiben.
 
-All workflow values can be found in:
+Alle Workflow-Werte finden Sie unter:
 
-* The Workflows or Linked folders section of the Create project or Edit project window.
-* The Adobe Experience Manager section of the left navigation.
+* Der Abschnitt Workflows oder Verknüpfte Ordner im Fenster Projekt erstellen oder Projekt bearbeiten .
+* Der Abschnitt Adobe Experience Manager der linken Navigationsleiste.
 
 
   >[!NOTE]
   >
-  >If these areas are not visible, your Workfront administrator has not enabled Workflows for your organization.
+  >Wenn diese Bereiche nicht sichtbar sind, hat Ihr Workfront-Administrator Workflows für Ihr Unternehmen nicht aktiviert.
 
 
 
@@ -145,7 +145,7 @@ All workflow values can be found in:
 
 >[!NOTE]
 >
->Because linked folders are created when the project is created, editing the linked folder workflow on an existing project is ineffective. Das Bearbeiten dieser Werte beim Erstellen eines Projekts funktioniert erwartungsgemäß.
+>Da verknüpfte Ordner beim Erstellen des Projekts erstellt werden, ist die Bearbeitung des Workflows „Verknüpfter Ordner“ für ein vorhandenes Projekt ineffektiv. Das Bearbeiten dieser Werte beim Erstellen eines Projekts funktioniert erwartungsgemäß.
 
 So bearbeiten Sie den Workflow für verknüpfte Ordner:
 

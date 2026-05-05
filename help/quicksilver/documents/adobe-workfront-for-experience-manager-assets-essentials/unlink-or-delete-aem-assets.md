@@ -2,11 +2,11 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experience-manager-asset-essentials
 title: Aufheben der Verknüpfung oder Löschen von Assets und Ordnern aus Experience Manager Assets oder Assets Essentials
-description: You can unlink or delete items linked to Workfront from Adobe Experience Manager Assets.
+description: Sie können die Verknüpfung zu mit Workfront verknüpften Elementen mit Adobe Experience Manager Assets aufheben oder löschen.
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: f082be12-2adc-4234-a01a-7543c032a35a
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 10%
@@ -15,27 +15,27 @@ ht-degree: 10%
 
 # Aufheben der Verknüpfung oder Löschen von Assets und Ordnern aus Experience Manager Assets oder Assets Essentials
 
-You can unlink or delete items linked to Workfront from Adobe Experience Manager Assets.
+Sie können die Verknüpfung zu mit Workfront verknüpften Elementen mit Adobe Experience Manager Assets aufheben oder löschen.
 
 >[!NOTE]
 >
 >Diese Funktion ist im Bereich Neue Dokumente nicht verfügbar.
 
-## Delete a linked document or folder in Workfront
+## Löschen eines verknüpften Dokuments oder Ordners in Workfront
 
-When you delete a linked document or folder in Workfront, it is unlinked from Experience Manager Assets and is deleted in Workfront only. The document or asset is not affected in Experience Manager Assets.
+Wenn Sie ein verknüpftes Dokument oder einen verknüpften Ordner in Workfront löschen, wird die Verknüpfung mit Experience Manager Assets aufgehoben und nur in Workfront gelöscht. Das Dokument oder Asset ist in Experience Manager Assets nicht betroffen.
 
-1. Select the linked document or folder, then click **Delete**.
-1. In the confirmation box that appears, click **Yes, Unlink it**.
+1. Wählen Sie das verknüpfte Dokument oder den verknüpften Ordner aus und klicken Sie dann auf **Löschen**.
+1. Klicken Sie im angezeigten Bestätigungsfeld auf **Ja, Verknüpfung aufheben**.
 
-   The document is unlinked from the Workfront site. It is not affected in the external application.
+   Der Link des Dokuments zur Workfront-Site wurde aufgehoben. Sie ist in der externen Anwendung nicht betroffen.
 
-## Delete a linked document or folder in Adobe Experience Manager
+## Löschen eines verknüpften Dokuments oder Ordners in Adobe Experience Manager
 
-When you delete a linked document or folder from the external application, the document or folder remains in the Workfront system until you also delete it from Workfront.
+Wenn Sie ein verknüpftes Dokument oder einen verknüpften Ordner aus der externen Anwendung löschen, bleibt das Dokument oder der Ordner im Workfront-System, bis Sie es bzw. ihn auch aus Workfront löschen.
 
-* To delete an asset from Adobe Experience Manager as a Cloud Service, see [Delete assets](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets) in the Adobe Experience Manager as a Cloud Service documentation.
-* To delete an asset from Adobe Experience Manager Assets Essentials, see [Delete assets or folders](https://experienceleague.adobe.com/de/docs/experience-manager-assets-essentials/help/add-delete#delete-assets) in the Adobe Experience Manager Assets Essentials documentation.
+* Informationen zum Löschen eines Assets aus Adobe Experience Manager as a Cloud Service finden Sie unter [Löschen von Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets) in der Adobe Experience Manager as a Cloud Service-Dokumentation.
+* Informationen zum Löschen eines Assets aus Adobe Experience Manager Assets Essentials finden Sie unter [Löschen von Assets oder Ordnern](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/add-delete#delete-assets) in der Dokumentation zu Adobe Experience Manager Assets Essentials.
 
 
 

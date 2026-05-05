@@ -8,9 +8,9 @@ feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '555'
 ht-degree: 10%
 
 ---
@@ -23,8 +23,8 @@ Beim ersten Zugriff auf den Bereich Dokumente stehen Ihnen standardmäßig zwei 
 
 >[!NOTE]
 >
->Diese Funktion ist im Bereich „Neue Dokumente“ nicht verfügbar.<br>
->Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich „Neue Dokumente“ angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+>Diese Funktion ist im Bereich Neue Dokumente nicht verfügbar.<br>
+>Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich Neue Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Zugriffsanforderungen
 
@@ -75,7 +75,7 @@ Sie können Ordner in der Miniatur-, Standard- oder Listenansicht anzeigen. Um d
 ## Bearbeiten von Smart-Ordnern 
 
 1. Wechseln Sie zum Bereich **Dokumente**, der den Smart-Ordner enthält, den Sie bearbeiten möchten.
-1. Klicken Sie in **Spalte** auf das Symbol **Mehr** Mehr![Menü &#x200B;](assets/more-icon.png) neben dem Smart-Ordner, den Sie bearbeiten möchten.
+1. Klicken Sie in **Spalte** auf das Symbol **Mehr** Mehr![Menü ](assets/more-icon.png) neben dem Smart-Ordner, den Sie bearbeiten möchten.
 1. Klicken Sie auf **Bearbeiten**.
 
 1. Nehmen Sie die gewünschten Änderungen vor und klicken Sie dann auf **Ordner speichern**.

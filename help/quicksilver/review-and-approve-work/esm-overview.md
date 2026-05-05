@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 16c564a9-abd7-4b07-be3e-9c823f40177d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '855'
 ht-degree: 1%
 
 ---
@@ -57,7 +57,7 @@ Sobald Sie Adobe Enterprise-Speicher in Ihrer Umgebung aktiviert haben, können 
 
 #### Bereich „Neue Dokumente“
 
-Der neue Dokumentbereich ist ein einheitlicher Dokumentbereich, der für Adobe Enterprise-Speicher neu konzipiert wurde.
+Der neue Dokumentbereich ist ein einheitlicher Dokumentbereich, der neu für Adobe Enterprise-Speicher konzipiert wurde.
 
 Diese aktualisierte Benutzeroberfläche vereinfacht die Navigation, verbessert die Klarheit und erleichtert es Teams, Überprüfungen und Genehmigungen in einer einheitlichen Umgebung zu verwalten. Weitere Informationen finden Sie unter [Übersicht über den Dokumentbereich](/help/quicksilver/documents/managing-documents/documents-area.md).
 

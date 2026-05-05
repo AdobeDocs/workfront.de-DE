@@ -9,9 +9,9 @@ feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ed7944fe4934ac5ab52b1eed3e144309de9781c4
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '819'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Workfront verfügt derzeit über zwei Versionen des Dokumentbereichs: den alten 
 
 Es gibt zwei Arten von Dokumentbereichen. Die Funktionen sind für beide identisch:
 
-* **Dokumentbereich in einem Programm, einem Portfolio, einem Projekt, einer Aufgabe oder einem Problem:** Listet alle Dokumente auf, auf die Sie für ein bestimmtes Projekt, eine bestimmte Aufgabe oder ein bestimmtes Problem Zugriff haben. Um auf diesen Bereich zuzugreifen, klicken Sie **Dokumente** ![Symbol „Dokumente](assets/document-icon-12x14.png) im linken Bereich, während Sie ein Projekt, eine Aufgabe oder ein Problem anzeigen.
+* **Dokumentbereich in einem Programm, einem Portfolio, einer Vorlage, einem Projekt, einer Aufgabe oder einem Problem:** Listet alle Dokumente auf, auf die Sie für ein bestimmtes Projekt, eine bestimmte Aufgabe oder ein bestimmtes Problem Zugriff haben. Um auf diesen Bereich zuzugreifen, klicken Sie **Dokumente** ![Symbol „Dokumente](assets/document-icon-12x14.png) im linken Bereich, während Sie ein Projekt, eine Aufgabe oder ein Problem anzeigen.
 
 * **Bereich „Globale Dokumente“** Listet alle Dokumente auf, auf die Sie in Workfront Zugriff haben. Um auf diesen Bereich zuzugreifen, klicken Sie auf **Dokumente** ![Dokumentensymbol](assets/document-icon.png) im Hauptmenü ![Hauptmenüsymbol](assets/main-menu-icon.png).
 
@@ -60,19 +60,19 @@ Sobald eine Korrekturabzugsentscheidung getroffen wurde, wird sie in der Dokumen
 
 ### Ordner
 
-Für ein Projekt, eine Aufgabe oder ein Problem, in das bzw. das Dokumente hochgeladen werden, können Sie Ordner zum Organisieren der Dokumente einrichten. Weitere Informationen finden Sie unter [Erstellen von &#x200B;](../../documents/organizing-documents/create-documents-folder.md).
+Sie können Ordner zum Organisieren von Dokumenten einrichten. Weitere Informationen finden Sie unter [Erstellen von ](../../documents/organizing-documents/create-documents-folder.md).
 
 Im Bereich Globale Dokumente können Sie zwei Arten von Ordnern einrichten, um die Dokumente zu organisieren, auf die Sie Zugriff haben:
 
 * **Intelligente Ordner:** Zeigt nur die Dokumente an, die angezeigt werden sollen. Weitere Informationen finden Sie unter [Erstellen und Verwalten von Smart Folders](../../documents/organizing-documents/create-manage-smart-folders.md).
 
-* **Meine Ordner** Dokumente nach Ihren Wünschen organisieren. Weitere Informationen finden Sie unter [Erstellen von &#x200B;](../../documents/organizing-documents/create-documents-folder.md).
+* **Meine Ordner** Dokumente nach Ihren Wünschen organisieren. Weitere Informationen finden Sie unter [Erstellen von ](../../documents/organizing-documents/create-documents-folder.md).
 
 ### Erweiterte Dokumentdetails
 
 Die Seite Dokumentdetails enthält eine umfangreichere Version der Dokumentdetails in der Zusammenfassung auf der rechten Seite.
 
-## Neuer Dokumentbereich
+## Bereich „Neue Dokumente“
 
 Der Bereich Neue Dokumente ist nur für verfügbar, wenn sich Ihre Organisation im Unternehmensspeicher befindet. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -107,6 +107,6 @@ Workfront erstellt automatisch einen Ordner auf Systemebene, wenn das erste Doku
 
 ## Zu beachten
 
-* Der neue Dokumentbereich wurde für Bildschirme optimiert, die mindestens 1024 Pixel breit sind. Wenn Sie einen kleineren Bildschirm haben, können beim Zugriff auf das Bedienfeld Zusammenfassung Probleme auftreten.
+* Der neue Bereich Dokumente ist für Bildschirme optimiert, die mindestens 1024 Pixel breit sind. Wenn Sie einen kleineren Bildschirm haben, können beim Zugriff auf das Bedienfeld Zusammenfassung Probleme auftreten.
 
 * Der Bereich Globale Dokumente ist im Bereich Neue Dokumente nicht verfügbar. Sie können nur über Programme, Portfolios, Projekte, Aufgaben oder Probleme auf Dokumente zugreifen.

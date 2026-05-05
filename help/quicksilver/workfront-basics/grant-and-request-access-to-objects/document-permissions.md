@@ -9,10 +9,10 @@ feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 3bc953ebb6f16d3d4a71fe9764551a8a4cf1087a
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 7%
+source-wordcount: '1416'
+ht-degree: 4%
 
 ---
 
@@ -314,7 +314,7 @@ Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern erteilen können
 ## Freigeben von Dokumenten im Bereich „Neue Dokumente“
 
 
-Workfront stellt auf die Enterprise-Speicherlösung von Adobe um, um eine bessere Konnektivität mit Adobe Creative Cloud-Produkten zu ermöglichen. Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich „Neue Dokumente“ angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Workfront stellt auf die Enterprise-Speicherlösung von Adobe um, um eine bessere Konnektivität mit Adobe Creative Cloud-Produkten zu ermöglichen. Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich Neue Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Wenn Ihre Workfront-Instanz Adobe Enterprise Storage verwendet, können Sie einzelne Dokumente nicht direkt freigeben. Stattdessen verwalten Sie den Zugriff auf das Projekt, die Aufgabe oder das Problem. Weitere Informationen finden Sie unter [Funktionsweise von Dokumentberechtigungen](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
 
