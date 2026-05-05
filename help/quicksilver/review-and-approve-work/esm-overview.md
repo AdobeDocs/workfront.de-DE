@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 16c564a9-abd7-4b07-be3e-9c823f40177d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 94236f836be2d1b8638cf11ddd303641e8c0ef7c
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '875'
 ht-degree: 1%
 
 ---
@@ -95,7 +95,9 @@ Diese Aktionen sind über das Menü Mehr zu einer Aufgabe oder einem Problem ver
 
 ## Adobe Enterprise Storage aktivieren
 
-Bestehende Kunden können bei Vertragsverlängerung Adobe Enterprise Storage in ihrer Umgebung aktivieren. Weitere Informationen zur Aktivierung von Adobe Enterprise Storage finden Sie unter [Aktivieren von Adobe Enterprise Storage für Ihr Unternehmen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+Ihr Workfront-Vertrag muss eine v2 Workfront SKU enthalten, um Adobe Enterprise Storage verwenden zu können. Weitere Informationen zu den Anforderungen an die Workfront-SKU V2 finden Sie in den häufig gestellten Fragen unter [Einheitliche Prüfung und Genehmigung - Übersicht](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#getting-started-with-unified-review-and-approval).
+
+Informationen zur Aktivierung von Adobe Enterprise Storage in Ihrer Umgebung finden Sie unter [Aktivieren von Adobe Enterprise Storage für Ihr Unternehmen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
 >[!NOTE]
 >
