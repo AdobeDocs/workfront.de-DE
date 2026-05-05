@@ -216,7 +216,7 @@ Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagemen
 
       * `Untitled Project` für ein Workfront-Speicherprojekt.
 
-        Bei einem Workfront-Speicherprojekt wird neben dem Namen das Symbol **Legacy** Workfront-Speicher![ Legacy-](assets/legacy-storage-project-icon.png)Projekt“ angezeigt.
+        Bei einem Workfront-Speicherprojekt wird neben dem Namen das Symbol **Legacy** Workfront-Speicher![&#x200B; Legacy-](assets/legacy-storage-project-icon.png)Projekt“ angezeigt.
 
       * `Untitled Project - < Month day, year hour.minute.second >` für ein Adobe-Speicherprojekt
 
