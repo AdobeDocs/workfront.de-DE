@@ -8,17 +8,16 @@ feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
+source-git-commit: 02d2b8fce60b469b8ea16c4302035371bed04175
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '350'
 ht-degree: 13%
 
 ---
 
 # Erstellen einer Validierungs-Workflow-Vorlage für Dokumente
 
-Im Bereich Workfront Setup können Benutzende mit einer Standardlizenz wiederverwendbare Genehmigungsvorlagen erstellen. Nach der Erstellung können Validierungsvorlagen auf Assets im Dokumentbereich eines Projekts, einer Aufgabe oder eines Problems angewendet werden.
-
+Im Bereich Workfront Setup können Benutzende mit einer Standardlizenz wiederverwendbare Genehmigungsvorlagen erstellen. Nach der Erstellung können Validierungsvorlagen auf Assets im Dokumentbereich eines Objekts angewendet werden.
 >[!IMPORTANT]
 >
 >Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
@@ -86,13 +85,13 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
    >[!NOTE]
    >
-   >Wenn Sie mehrere Phasen hinzufügen, wird der Genehmigungs-Workflow in der Reihenfolge fortgesetzt, in der die Phasen aufgelistet sind. When all required decisions are made, the next stage begins and the previous stage is locked.
+   >Wenn Sie mehrere Phasen hinzufügen, wird der Genehmigungs-Workflow in der Reihenfolge fortgesetzt, in der die Phasen aufgelistet sind. Wenn alle erforderlichen Entscheidungen getroffen werden, beginnt die nächste Phase und die vorherige Phase wird gesperrt.
 
-   ![Document details](assets/new-stage.png)
+   ![Dokumentdetails](assets/new-stage.png)
 
 1. Klicken Sie auf **Speichern**.
 
-Once the template is created, it can be applied to documents in the Documents area of a project, task, or issue to begin the formal review and approval process in Workfront.
+Nachdem die Vorlage erstellt wurde, kann sie auf Dokumente im Bereich Dokumente eines Objekts angewendet werden, um den formalen Prüfungs- und Genehmigungsprozess in Workfront zu starten.
 
 
 

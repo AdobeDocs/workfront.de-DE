@@ -6,9 +6,9 @@ description: Probleme oder Anfragen können in Adobe Workfront gelöscht werden,
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '797'
 ht-degree: 3%
 
 ---
@@ -78,6 +78,8 @@ Die folgenden an ein Problem angehängten Objekte werden auch gelöscht, wenn Si
 * Dokumente
 
   Sie können ein Problem, an das ein ausgechecktes Dokument angehängt wurde, nicht löschen. Weitere Informationen zum Auschecken von Dokumenten finden Sie unter [Auschecken von Dokumenten](../../../documents/managing-documents/check-out-documents.md).
+
+  Sie können einzelne Dokumente, die gelöscht wurden, als das Problem gelöscht wurde, nicht über die Registerkarte Dokumente im Papierkorb wiederherstellen. Sie können die gelöschten Dokumente nur wiederherstellen, wenn das Problem beim Wiederherstellen des Problems gelöscht wurde.
 
 * Anmerkungen
 * Genehmigungen

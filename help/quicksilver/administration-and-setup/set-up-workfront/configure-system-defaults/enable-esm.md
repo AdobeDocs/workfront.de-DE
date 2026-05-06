@@ -10,10 +10,10 @@ role: Admin
 exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 10%
+source-wordcount: '357'
+ht-degree: 9%
 
 ---
 
@@ -34,8 +34,8 @@ Weitere Informationen zu Adobe Enterprise Storage finden Sie unter [Übersicht �
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront-Paket</td> 
-   <td><p>Beliebig</p></td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
+   <td><p>Beliebiges Workflow-Paket</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -75,3 +75,7 @@ So aktivieren Sie Adobe Enterprise Storage für Ihr Unternehmen:
    - **Spezifische Gruppen**: Mit dieser Option wird der standardmäßige Speicheranbieter nur auf bestimmte Gruppen in Ihrer Organisation angewendet. Jedes Mal, wenn ein Benutzer in den angegebenen Gruppen ein neues Projekt erstellt, wird der standardmäßige Speicheranbieter verwendet
 
 1. Klicken Sie auf **Speichern**.
+
+   >[!NOTE]
+   >
+   >Vorhandene Projekte behalten das Speichermodell bei, mit dem sie erstellt wurden. Beispielsweise verwenden Projekte, die Adobe Enterprise Storage verwenden, weiterhin Adobe Enterprise Storage, nachdem Sie die standardmäßige Speichervoreinstellung geändert haben.

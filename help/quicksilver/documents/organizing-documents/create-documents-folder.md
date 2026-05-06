@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 6%
@@ -93,7 +93,7 @@ Informationen zum Freigeben von Ordnern finden Sie unter [Freigeben eines Dokume
 
 ## Erstellen von Dokumentordnern im Bereich „Neue Dokumente“
 
-Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich „Neue Dokumente“ angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich Neue Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Systemgenerierte Ordner
 
@@ -117,39 +117,39 @@ Systemgenerierte Ordner übernehmen automatisch den Namen der Aufgabe oder des P
 So benennen Sie einen Ordner um:
 
 1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen **Dokumente** im linken Bereich aus.
-1. Find the folder you want to rename, then click the **More** ![more icon](assets/more-icon.png) icon.
-1. Click **Rename**, then enter a new name for the folder.
+1. Suchen Sie den Ordner, den Sie umbenennen möchten, und klicken Sie dann auf das Symbol **Mehr** ![Mehr](assets/more-icon.png) .
+1. Klicken Sie **Umbenennen** und geben Sie dann einen neuen Namen für den Ordner ein.
 
-   ![rename folder](assets/rename-folder.png)
+   ![Ordner umbenannt](assets/rename-folder.png)
 
-1. Click **Rename**.
+1. Klicken Sie auf **Umbenennen**.
 
-### Move a folder
+### Ordner verschieben
 
-System-generated folders can be moved to another project, task, or issue. If a system-generated folder is moved to another location, its linked object is updated to the new object and permissions are inherited from the new parent object. You can also move subfolders to another project, task, or issue.
+Systemgenerierte Ordner können in ein anderes Projekt, eine andere Aufgabe oder ein anderes Problem verschoben werden. Wenn ein systemgenerierter Ordner an einen anderen Speicherort verschoben wird, wird sein verknüpftes -Objekt auf das neue -Objekt aktualisiert, und die Berechtigungen werden vom neuen übergeordneten -Objekt übernommen. Sie können Unterordner auch in ein anderes Projekt, eine andere Aufgabe oder ein anderes Problem verschieben.
 
 >[!NOTE]
 >
->Only projects, tasks, and issues using the same storage type are available in the move dialog. For example, if you&#39;re moving a folder in an enterprise storage project, only projects, tasks, and issues using enterprise storage are available to move to.
+>Im Dialogfeld Verschieben sind nur Projekte, Aufgaben und Probleme verfügbar, die denselben Speichertyp verwenden. Wenn Sie beispielsweise einen Ordner in ein Enterprise-Speicherprojekt verschieben, sind nur Projekte, Aufgaben und Probleme verfügbar, die mit Enterprise-Speicher verschoben werden können.
 
 
-To move a folder:
-
-1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen **Dokumente** im linken Bereich aus.
-1. Find the folder you want to move, then click the **More** ![more icon](assets/more-icon.png) icon.
-1. Click **Move**, then select the project, task, or issue you want to move the folder to.
-
-
-   ![move folder](assets/rename-folder.png)
-
-<!-- STEPS PLACEHOLDER: Add steps for moving a folder in the new documents area -->
-
-### Delete a folder
-
-To delete a folder:
+So verschieben Sie einen Ordner:
 
 1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen **Dokumente** im linken Bereich aus.
-1. Find the folder you want to delete, then click the **More** ![more icon](assets/more-icon.png) icon.
+1. Suchen Sie den Ordner, den Sie verschieben möchten, und klicken Sie dann auf das Symbol **Mehr** ![Mehr](assets/more-icon.png) .
+1. Klicken Sie **Verschieben** und wählen Sie dann das Projekt, die Aufgabe oder das Problem aus, in das bzw. das Sie den Ordner verschieben möchten.
+
+
+   ![Ordner verschieben](assets/rename-folder.png)
+
+<!-- STEPS PLACEHOLDER: Add steps for moving a folder in the new Documents area -->
+
+### Löschen eines Ordners
+
+So löschen Sie einen Ordner:
+
+1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen **Dokumente** im linken Bereich aus.
+1. Suchen Sie den Ordner, den Sie löschen möchten, und klicken Sie dann auf das Symbol **Mehr** ![Mehr](assets/more-icon.png) .
 1. Klicken Sie auf **Löschen**.
 
-   ![delete folder](assets/rename-folder.png)
+   ![Ordner löschen](assets/rename-folder.png)

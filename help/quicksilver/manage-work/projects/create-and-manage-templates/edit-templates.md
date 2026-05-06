@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '5076'
+source-wordcount: '5112'
 ht-degree: 3%
 
 ---
@@ -297,7 +297,7 @@ Old:
       <td><p>Geben Sie an, ob die Earned Value-Metriken des zukünftigen Projekts anhand von Stunden oder Kosten berechnet werden. Weitere Informationen zur Leistungsindexmethode finden Sie unter <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Festlegen der Leistungsindexmethode (PIM)</a>. </p></td> 
      </tr>
      <tr> 
-      <td role="rowheader"><strong>Geplanter Gewinn</strong></td> 
+      <td role="rowheader"><strong>Geplanter Nutzen</strong></td> 
       <td><p>Geben Sie den geplanten Nutzen der Projekte an, die aus dieser Vorlage erstellt werden. Der Planned Benefit wird im Business Case des Projekts und des Portfolio Optimizer verwendet. </p><p>Weitere Informationen zum geplanten Nutzen eines Projekts finden Sie unter <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Übersicht über den geplanten Nutzen eines Projekts</a>. Der geplante Nutzen eines Projekts wird bei der Berechnung des Nettowerts eines Projekts berücksichtigt. </p><p>Weitere Informationen zur Verwendung von Portfolio Optimizer finden Sie unter <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Verwalten von Projekten in Portfolio Optimizer</a>. </p></td> 
      </tr> 
      <tr> 
@@ -391,7 +391,7 @@ Old:
        </ul> 
        </div> <p>Wählen Sie aus den folgenden Optionen aus:<br></p> 
        <ul> 
-       <li> <p><strong>Automatisch und Bei Änderung</strong> (Standardeinstellung): Die Zeitleiste des zukünftigen Projekts wird jedes Mal aktualisiert, wenn eine Änderung im Projekt oder in einem anderen Projekt auftritt, von dem die Zeitleiste abhängig ist (Bei Änderung). Die Zeitleiste des Projekts wird ebenfalls jede Nacht aktualisiert (automatisch).<br>Dies ist die empfohlene Einstellung für dieses Feld, da dadurch sichergestellt wird, dass die Zeitleiste des Projekts immer auf dem neuesten Stand ist.<br>Wenn Sie eine Aktion für eine Aufgabe oder ein Projekt durchführen, die bzw. das eine Neuberechnung der Zeitleiste Trigger, werden alle verfügbaren Daten sofort angezeigt, sodass Sie weiterarbeiten können. Bei Projekten mit mehr als 100 Aufgaben werden Datumsangaben, die längere Neuberechnungen erfordern, kurz als Fragezeichen angezeigt (zwischen 1 und 5 Sekunden oder bis zu einer Minute bei großen Projekten). Dies bedeutet, dass die Neuberechnung noch nicht abgeschlossen ist und sich die Daten ändern können.<br></p> </li> 
+       <li> <p><strong>Automatisch und Bei Änderung</strong> (Standardeinstellung): Die Zeitleiste des zukünftigen Projekts wird jedes Mal aktualisiert, wenn eine Änderung im Projekt oder in einem anderen Projekt auftritt, von dem die Zeitleiste abhängig ist (Bei Änderung). Die Projekt-Zeitleiste wird auch jede Nacht aktualisiert (automatisch). <br>Dies ist die empfohlene Einstellung für dieses Feld, da dadurch sichergestellt wird, dass die Projekt-Zeitleiste immer auf dem neuesten Stand ist.<br>Wenn Sie eine Aktion für eine Aufgabe oder ein Projekt durchführen, die bzw. das eine Neuberechnung der Zeitleiste Trigger, werden alle verfügbaren Daten sofort angezeigt, sodass Sie weiterarbeiten können. Bei Projekten mit mehr als 100 Aufgaben werden Datumsangaben, die längere Neuberechnungen erfordern, kurz als Fragezeichen angezeigt (zwischen 1 und 5 Sekunden oder bis zu einer Minute bei großen Projekten). Dies bedeutet, dass die Neuberechnung noch nicht abgeschlossen ist und sich die Daten ändern können.<br></p> </li> 
        </ul> 
        <ul> 
        <li> <p><strong>Nur </strong>: Die Zeitleiste des Projekts wird jedes Mal aktualisiert, wenn eine Änderung im Projekt oder in einem anderen Projekt erfolgt, von dem die Zeitleiste abhängig ist. Sie können diese Option auswählen, wenn Änderungen nur selten im Projekt oder in anderen Projekten auftreten, von denen die Zeitleiste abhängig ist.<br></p> </li> 
@@ -425,7 +425,7 @@ Old:
        </tr> 
        <tr> 
        <td role="rowheader"><strong>Risiko</strong> </td> 
-       <td> <p>Definieren Sie den Risikograd der Projekte, die aus dieser Vorlage erstellt werden. Das Risiko ist nur ein Indikator dafür, wie riskant ein Projekt sein kann. Sie können die Ausführung Ihrer Projekte nach dem Risikoniveau priorisieren.<br>Ziehen Sie die Auswahl aus den folgenden Risikostufen in Betracht:<br></p> 
+       <td> <p>Definieren Sie den Risikograd der Projekte, die aus dieser Vorlage erstellt werden. Das Risiko ist nur ein Indikator dafür, wie riskant ein Projekt sein kann. Sie können die Ausführung Ihrer Projekte nach der Risikostufe priorisieren.<br>Ziehen Sie die Auswahl aus den folgenden Risikostufen in Betracht:<br></p> 
        <ul> 
        <li> <p><strong>Sehr niedrig</strong> </p> </li> 
        <li> <p><strong>Niedrig</strong> </p> </li> 
@@ -439,7 +439,7 @@ Old:
        <td> <p>Geben Sie die mit der Vorlage verknüpften Ressourcenpools an. Ressourcenpools sind Sammlungen von Benutzern, die gleichzeitig für die Durchführung eines Projekts benötigt werden. Weitere Informationen zu Ressourcen-Pools finden Sie unter <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref">Überblick über Ressourcen-Pools</a>.</p> <p> <p><b>NOTIZ</b>
 
        Wenn Sie Vorlagen stapelweise bearbeiten, werden in diesem Feld nur die Ressourcenpools angezeigt, die allen ausgewählten Vorlagen gemeinsam sind. Wenn die ausgewählten Vorlagen keine freigegebenen Ressourcenpools haben, ist dieses Feld leer. Die hier angegebenen Ressourcenpools überschreiben die einzelnen Ressourcenpools der Vorlagen.&lt;/p> &lt;/p> &lt;/td>
-       &lt;/tr>
+     &lt;/tr>
    
    <tr> 
       <td role="rowheader"><strong>Genehmigung des Zeitaufwands für dieses Projekt verlangen</strong></td>
@@ -500,9 +500,9 @@ Weitere Informationen darüber, wie sich diese Einstellungen auf das Erstellen n
 
    | Work Effort Level | Prozentwert |
    |---|---|
-   | Klein | 25 % |
+   | Klein | 25% |
    | Mittel | 50 % |
-   | Groß | 75 % |
+   | Groß | 75% |
 
    Informationen zur Verwendung von Work Effort zur Verwaltung des Aufwands für Aufgaben in Projekten finden Sie [Work Effort - Übersicht](../../../manage-work/tasks/task-information/work-effort.md).
 
@@ -761,6 +761,8 @@ Das Hinzufügen der folgenden Elemente zu einer Vorlage entspricht dem Hinzufüg
 Sie können den Aufgaben in der Vorlage die folgenden Elemente hinzufügen:
 
 * Dokumente
+
+  Weitere Informationen finden Sie unter [Vorlagenaufgaben bearbeiten](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md).
 * Ausgaben
 
   Weitere Informationen zum Hinzufügen von Ausgaben finden Sie unter [Projektausgaben verwalten](../../../manage-work/projects/project-finances/manage-project-expenses.md).

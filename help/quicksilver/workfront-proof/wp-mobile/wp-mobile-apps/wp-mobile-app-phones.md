@@ -1,17 +1,16 @@
 ---
-title: Workfront Proof Mobile App
+title: Workfront Proof-App
 description: Erfahren Sie mehr über die Mobile App von Workfront Proof.
 hide: true
-hidefromtoc: true
 exl-id: 865019d7-55b4-4d53-93aa-1370d153916e
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '1344'
-ht-degree: 0%
+source-wordcount: '1352'
+ht-degree: 1%
 
 ---
 
-# Workfront Proof Mobile App
+# Workfront Proof-App
 
 >[!IMPORTANT]
 >
@@ -41,7 +40,7 @@ Die [!DNL Workfront Proof] App erkennt automatisch, welchen Gerätetyp Sie verwe
 
 >[!NOTE]
 >
->Aufgrund der Softwarebeschränkungen von Mobilgeräten ist es nicht möglich, SWF- oder Audiodateien, wie z. B. MP3 auf iOS-Geräten, zu überprüfen. Wenn Sie einen Korrekturabzug, der aus einer SWF- oder Audiodatei auf einem Mobilgerät erstellt wurde, überprüfen möchten, konvertieren Sie ihn in ein unterstütztes Format, bevor Sie ihn auf [!DNL Workfront Proof] hochladen.
+>Aufgrund der Softwarebeschränkungen von Mobilgeräten ist es nicht möglich, SWF- oder Audiodateien, wie z. B. MP3 auf iOS-Geräten, zu überprüfen. Wenn Sie einen Korrekturabzug, der aus einer SWF- oder einer Audiodatei auf einem Mobilgerät erstellt wurde, überprüfen möchten, konvertieren Sie ihn in ein unterstütztes Format, bevor Sie ihn auf [!DNL Workfront Proof] hochladen.
 
 ## Erste Schritte mit der App
 
@@ -52,7 +51,7 @@ Wenn Sie [!DNL Workfront Proof] sind, können Sie sich bei der App anmelden, bev
 1. Öffnen Sie die App.
 1. Geben Sie Ihre E-Mail-Adresse und Ihr Passwort ein und tippen Sie auf **[!UICONTROL Anmelden]**.
 
-   Oder
+   ODER
 
    Verwenden Sie Single Sign-On, wenn es für Ihr [!DNL Workfront Proof]-Konto konfiguriert ist.
 

@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '2234'
+source-wordcount: '2239'
 ht-degree: 5%
 
 ---
@@ -34,7 +34,7 @@ Sie können eine Vorlagenaufgabe von einer Vorlage in eine andere Vorlage kopier
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p>
-   <p>Plan</p> </td> 
+   <p>Abo</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -108,7 +108,7 @@ Beachten Sie beim Verschieben von Vorlagenaufgaben Folgendes:
 
    * Meilensteine.
 
-* Sie können eine Vorlagenaufgabe nicht von einer Workfront-Speichervorlage in eine Adobe-Speichervorlage kopieren oder verschieben. Auch das Gegenteil ist wahr. Nicht alle Kunden verfügen über beide Speichertypen.
+* Sie können eine Vorlagenaufgabe nicht von einer Workfront-Speichervorlage in eine Adobe-Speichervorlage kopieren oder verschieben. Auch das Gegenteil ist wahr. Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Arten von Dokumentspeicher.
 
   Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und zugehörige Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -140,7 +140,7 @@ Das Feld Vorlagenaufgabe kopieren wird geöffnet.
 
    >[!TIP]
    >
-   >Sie müssen eine Vorlage mit einem ähnlichen Dokumentspeichertyp auswählen. Sie können keine Vorlagenaufgaben in eine Vorlage mit einem anderen Speichertyp als der ursprünglichen Vorlage kopieren. Nicht alle Kunden haben Zugriff auf mehrere Dokumentspeichertypen.
+   >Sie müssen eine Vorlage mit einem ähnlichen Dokumentspeichertyp auswählen. Sie können keine Vorlagenaufgaben in eine Vorlage mit einem anderen Speichertyp als der ursprünglichen Vorlage kopieren. Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Arten von Dokumentspeicher.
    >
    >Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und zugehörige Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -267,7 +267,7 @@ Das Feld Vorlagenaufgabe verschieben wird geöffnet.
    >
    >* Sie können auch mit der Eingabe der Referenznummer beginnen oder die ID der Vorlage eingeben. Auf diese Weise können Sie zwischen Vorlagen mit identischen Namen unterscheiden.
    >
-   >* Sie müssen eine Vorlage mit einem ähnlichen Dokumentspeichertyp auswählen. Sie können keine Vorlagenaufgaben in eine Vorlage mit einem anderen Speichertyp als der ursprünglichen Vorlage kopieren. Nicht alle Kunden haben Zugriff auf mehrere Dokumentspeichertypen.
+   >* Sie müssen eine Vorlage mit einem ähnlichen Dokumentspeichertyp auswählen. Sie können keine Vorlagenaufgaben in eine Vorlage mit einem anderen Speichertyp als der ursprünglichen Vorlage kopieren. Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Arten von Dokumentspeicher.
    >
    >Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und zugehörige Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

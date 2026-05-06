@@ -9,7 +9,7 @@ feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 12%
@@ -102,51 +102,51 @@ Verwenden Sie den Abschnitt Benutzerdefinierte Forms , um benutzerdefinierte For
 
 Verwenden Sie den Abschnitt Aktualisierungen , um eine Aktualisierung anzuzeigen, die jemand für das Dokument oder den Korrekturabzug vorgenommen hat. Die Zusammenfassung zeigt die ersten zwei Kommentare an. Weitere Informationen zu Aktualisierungen finden Sie unter [Kommentar zu einem Korrekturabzug](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
 
-![Updates section in Summary panel](assets/updates-section.png)
+![Abschnitt „Aktualisierungen“ im Bedienfeld „Zusammenfassung“](assets/updates-section.png)
 
 ### Genehmigungen
 
-Use the Approvals section to ask for a document approval. You can also remind someone about an approval, resubmit the approval and cancel the previous decision, or delete the approval. Document approvers can use the Summary to make a decision.
+Verwenden Sie den Abschnitt Genehmigungen , um eine Dokumentgenehmigung anzufordern. Sie können auch jemanden an eine Genehmigung erinnern, die Genehmigung erneut übermitteln und die vorherige Entscheidung abbrechen oder die Genehmigung löschen. Personen, die Dokumente genehmigen, können die Zusammenfassung verwenden, um eine Entscheidung zu treffen.
 
-Proof approvals must be added in the Proof Workflow. For more information on approvals, see
+Genehmigungen von Korrekturabzügen müssen im Workflow für Korrekturabzüge hinzugefügt werden. Weitere Informationen zu Genehmigungen finden Sie unter
 
-* [Approving work](../../review-and-approve-work/manage-approvals/approving-work.md)
+* [Arbeit genehmigen](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [Dokumentgenehmigungen anfordern](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![Document summary approvals](assets/approvals-section.png)
+![Genehmigungen der Dokumentzusammenfassung](assets/approvals-section.png)
 
 ### Versionen
 
-Use the Versions section to view the number of versions created for a specific document. Click the More icon ![More icon](assets/more-icon.png) to do the following:
+Im Abschnitt Versionen können Sie die Anzahl der Versionen anzeigen, die für ein bestimmtes Dokument erstellt wurden. Klicken Sie auf das Symbol Mehr ![Mehr](assets/more-icon.png), um Folgendes auszuführen:
 
-* Open a proof.
-* Download a proof or document.
-* Preview a browser-supported document.
-* Go to the Document Details.
-* Delete a proof or document.
+* Öffnen Sie einen Korrekturabzug.
+* Herunterladen eines Korrekturabzugs oder Dokuments.
+* Anzeigen einer Vorschau eines vom Browser unterstützten Dokuments.
+* Navigieren Sie zu den Dokumentdetails.
+* Löschen von Korrekturabzügen oder Dokumenten.
 
-![Document summary versions](assets/versions-section.png)
+![Versionen der Dokumentzusammenfassung](assets/versions-section.png)
 
-## Summary for documents in the new documents experience
+## Zusammenfassung für Dokumente in der neuen Dokumenterfahrung
 
-Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich „Neue Dokumente“ angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich Neue Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Details
 
 Verwenden Sie den Abschnitt Details , um allgemeine Übersichtsinformationen anzuzeigen und mit benutzerdefinierten Formularen zu interagieren.
 
-![Document summary details in new documents experience](assets/summary-details.png)
+![Details zur Dokumentzusammenfassung in der neuen Dokumenterfahrung](assets/summary-details.png)
 
 ### Genehmigungen
 
-Use the Approvals section to create an approval workflow. You can also remind participants about an approval or delete the approval. Document approvers can access the Frame.io viewer or use the Summary to make a decision.
+Verwenden Sie den Abschnitt Genehmigungen , um einen Genehmigungs-Workflow zu erstellen. Sie können Teilnehmer auch an eine Genehmigung erinnern oder die Genehmigung löschen. Dokumentgenehmiger können auf den Viewer Frame.io zugreifen oder die Zusammenfassung verwenden, um eine Entscheidung zu treffen.
 
-For more information about approvals and Frame.io, see
+Weitere Informationen zu Genehmigungen und Frame.io finden Sie unter
 
-* [Get started with unified review and approval](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
-* [Create a document review or approval request](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+* [Erste Schritte mit der einheitlichen Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
+* [Erstellen einer Anfrage zur Überprüfung oder Genehmigung eines Dokuments](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
-![Document summary approvals in new documents experience](assets/summary-approvals.png)
+![Dokumentzusammenfassungs-Genehmigungen in der neuen Dokumenterfahrung](assets/summary-approvals.png)
 
 
 <!-- resubmit the approval and cancel the previous decision, or delete the approval. Document approvers can use the Summary to make a decision.-->
@@ -154,20 +154,20 @@ For more information about approvals and Frame.io, see
 
 ### Versionen
 
-Use the Versions section to view the number of versions created for a specific document. Click the More icon to do the following:
+Im Abschnitt Versionen können Sie die Anzahl der Versionen anzeigen, die für ein bestimmtes Dokument erstellt wurden. Klicken Sie auf das Symbol Mehr , um Folgendes durchzuführen:
 
-* Rename a version
-* View document details
-* Request approval on a specific version
+* Umbenennen einer Version
+* Dokumentdetails anzeigen
+* Genehmigung für eine bestimmte Version anfordern
 * In Frame.io öffnen
-* Download the version
-* Share the version
-* Delete the version
+* Version herunterladen
+* Version freigeben
+* Version löschen
 
-![Document summary versions in new documents experience](assets/summary-versions.png)
+![Dokumentzusammenfassungsversionen in der neuen Dokumenterfahrung](assets/summary-versions.png)
 
 ### Verlauf
 
-Use the History section to view a list of all activities related to the document.
+Im Abschnitt Verlauf können Sie eine Liste aller mit dem Dokument verbundenen Aktivitäten anzeigen.
 
-![Document summary history in new documents experience](assets/summary-history.png)
+![Dokumentzusammenfassungs-Verlauf in der neuen Dokumenterfahrung](assets/summary-history.png)

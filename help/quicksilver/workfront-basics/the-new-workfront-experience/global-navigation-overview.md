@@ -5,7 +5,7 @@ description: Die obere Navigationsleiste, die oben auf dem Bildschirm in  [!DNL 
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 73364ecfd52621c9c5a966092bf4b4575b980afc
+source-git-commit: 201a4430cfaa10bb99ef63ec96ecdccd3b07b0f1
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 1%
@@ -29,14 +29,6 @@ Standardmäßig wird durch Klicken auf das Symbol Startseite der Bereich Startse
 Ihr Workfront-Administrator kann das Startseiten -Symbol anpassen, um eine andere Seite zu öffnen, indem er eine Layout-Vorlage erstellt und sie Ihnen zuweist. Weitere Informationen finden Sie unter [Landingpage mithilfe einer Layout-Vorlage anpassen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
 
 ## [!UICONTROL Hauptmenü]
-
-<!--
->[!IMPORTANT]
->
->The Main Menu described on this page applies only to organizations that are not yet onboarded to [!DNL Adobe Experience Cloud].
->
-> If your organization has been onboarded to [!DNL Adobe Experience Cloud], see [[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
--->
 
 Mit dem Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](assets/main-menu-icon-left-nav.png) wird das [!UICONTROL Hauptmenü] geöffnet, über das Sie zu einem anderen Bereich von Workfront navigieren können.
 

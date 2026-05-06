@@ -2,16 +2,20 @@
 title: Ausgeblendeter Test
 description: Ausgeblendeter Test
 hide: true
-hidefromtoc: true
+hold: true
 exl-id: b6b0f429-b619-4b8e-ab81-ad190dae5a0b
-source-git-commit: 5ab33ae7ee37f4afa2546af32af205ef546bae22
+source-git-commit: b5c64bb3d1c4e7a1337a8b5672a5f95dd8d5ef7f
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 2%
+source-wordcount: '624'
+ht-degree: 34%
 
 ---
 
 # Ausgeblendeter Test
+
+Nur für Vorschau anzeigen
+
+Der 4. Biene mit U
 
 Ausgeblendete Datei, die zum Testen der Veröffentlichungszeiten in einem größeren Repository verwendet wird.
 
@@ -31,7 +35,7 @@ Wenden Sie sich an Bob, wenn Probleme auftreten.
 
 ## Zugriffsanforderungen (Dies ist ein Beispiel, wenn das Paket gleich bleibt und wir die Zeile „Lizenzen“ aktualisieren)
 
-Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,7 +49,7 @@ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artike
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> <p>Licht oder höher</p>
-   <p>Arbeit oder höher</p></td> 
+   <p>Work oder höher</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -62,7 +66,7 @@ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artike
 
 ## Zugriffsanforderungen
 
-Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -75,7 +79,7 @@ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artike
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-   <p>Arbeit oder höher</p></td> 
+   <p>Work oder höher</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -92,7 +96,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Zugriffsanforderungen
 
-Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -123,7 +127,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Zugriffsanforderungen (dies ist ein Beispiel, bei dem die neue Funktion nur in den Paketen 2023/2025 vorhanden ist)
 
-Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table>
   <tr>
@@ -147,11 +151,11 @@ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artike
   </tr>
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Zugriffsanforderungen (Dies ist ein Beispiel, bei dem Sie andere Produkte benötigen)
 
-Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table>
   <tr>
@@ -175,7 +179,7 @@ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artike
   </tr>
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Pakete für 2017 sollten aus der Zeile „Pakete“ entfernt werden
@@ -202,7 +206,7 @@ Paket: Planung auswählen, Planung Prime, Planung Ultimate
 
 ## Zugriffsanforderungen für den Großteil der Workfront-Planung
 
-Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -226,7 +230,7 @@ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artike
 <td role="rowheader"><p>Adobe Workfront-Plattform (**&#x200B;**&#x200B;Möchten wir dies ausrufen oder möchten wir es einfach zu einem Teil des Artikels machen, der unten verlinkt ist???**&#x200B;***)</p></td> 
    <td> 
 <p>Um auf Workfront Planning zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p> 
-<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -260,7 +264,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 >Wenn Ihr Unternehmen den Szenario-Planer von Adobe bereits in der Vergangenheit erworben hat, ist er im Besitz des Bestandsschutzes. Der Szenario-Planer kann nicht mehr erworben werden.
 
 
-Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -275,7 +279,7 @@ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artike
   <tr> 
    <td> <p>[!DNL Adobe Workfront] Lizenz*</p> </td> 
    <td> <p>Licht oder höher</p> 
-   Oder
+   ODER
    <p>[!UICONTROL Überprüfung] oder höher</p> </td> 
   </tr>
 

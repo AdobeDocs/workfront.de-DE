@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 49f26e963647f5015955396489bfe537bbac0918
+source-git-commit: f177f0b678c8ac31241cb103d13ecd0f11cabd1e
 workflow-type: tm+mt
-source-wordcount: '3544'
+source-wordcount: '3571'
 ht-degree: 2%
 
 ---
@@ -75,7 +75,7 @@ Klicken Sie **der Kopfzeile** Formular-Designer auf „Logik anzeigen“, um die
 | ![Bearbeitbarkeitslogik für Zielfeld](assets/editability-logic-icon.png) | Das Feld ist das Zielfeld, auf das die Bearbeitbarkeitslogik angewendet wird. Das Feld kann bearbeitbar oder schreibgeschützt sein, wenn die definierten Bedingungen erfüllt sind. Das Zielfeld und das Referenzfeld können für die Bearbeitbarkeitslogik identisch sein. |
 | ![Bearbeitbarkeitslogik für Referenzfeld](assets/editability-logic-reference-field.png) | Das Feld ist das Referenzfeld für die Bearbeitbarkeitslogik. Wenn die definierten Bedingungen in diesem Feld erfüllt sind, wird die Logik auf das Zielfeld angewendet. Das Zielfeld und das Referenzfeld können für die Bearbeitbarkeitslogik identisch sein. |
 
-[Logiksymbole](assets/custom-form-logic-icon-samples.png)
+![Logiksymbole](assets/custom-form-logic-icon-samples.png)
 
 Wählen Sie nur zur Anzeige und zum Überspringen der Logik ein Feld aus, um die vorhandenen Logikregeln in den Feldeinstellungen anzuzeigen.
 
@@ -151,9 +151,9 @@ Auf den Standardabschnitt im Formular wird keine Logik angewendet, sodass er imm
 
 Unter Verwendung der folgenden Bedingung wird der Abschnitt Erforderliche Ressourcen nur angezeigt, wenn ein Benutzer mit dem Aufgabengebiet „Ressourcen-Manager“ das Formular anzeigt.
 
-```IF($$USER.{roleID}="123abc", true)```
+`IF($$USER.{roleID}="123abc", true)`
 
-Beachten Sie, dass ```123abc``` die Rollen-ID des Ressourcen-Managers darstellt.
+Beachten Sie, dass `123abc` die Rollen-ID des Ressourcen-Managers darstellt.
 
 ![Formularabschnitt wird für Rolle angezeigt](assets/advanced-display-on-form1.png)
 
@@ -161,7 +161,7 @@ Dieselbe Bedingung mit einer anderen Rollen-ID wird auf den Abschnitt „Projekt
 
 Unter Verwendung der folgenden Bedingung wird das Feld Verkaufs-KPI erst angezeigt, wenn das Projekt abgeschlossen ist. Diese Logik wird direkt auf das Feld und nicht auf einen Formularabschnitt angewendet. Es ist nicht erforderlich anzugeben, welche Rolle das Feld anzeigen kann, da dies bereits in dem Abschnitt definiert ist, in dem sich das Feld befindet.
 
-```IF({status}="CPL", true)```
+`IF({status}="CPL", true)`
 
 ![Feld ist beim vollständigen Projekt sichtbar](assets/advanced-display-on-form2.png)
 

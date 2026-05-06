@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 16c564a9-abd7-4b07-be3e-9c823f40177d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 94236f836be2d1b8638cf11ddd303641e8c0ef7c
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '875'
 ht-degree: 1%
 
 ---
@@ -57,7 +57,7 @@ Sobald Sie Adobe Enterprise-Speicher in Ihrer Umgebung aktiviert haben, können 
 
 #### Bereich „Neue Dokumente“
 
-Der neue Dokumentbereich ist ein einheitlicher Dokumentbereich, der für Adobe Enterprise-Speicher neu konzipiert wurde.
+Der neue Dokumentbereich ist ein einheitlicher Dokumentbereich, der neu für Adobe Enterprise-Speicher konzipiert wurde.
 
 Diese aktualisierte Benutzeroberfläche vereinfacht die Navigation, verbessert die Klarheit und erleichtert es Teams, Überprüfungen und Genehmigungen in einer einheitlichen Umgebung zu verwalten. Weitere Informationen finden Sie unter [Übersicht über den Dokumentbereich](/help/quicksilver/documents/managing-documents/documents-area.md).
 
@@ -95,7 +95,9 @@ Diese Aktionen sind über das Menü Mehr zu einer Aufgabe oder einem Problem ver
 
 ## Adobe Enterprise Storage aktivieren
 
-Bestehende Kunden können bei Vertragsverlängerung Adobe Enterprise Storage in ihrer Umgebung aktivieren. Weitere Informationen zur Aktivierung von Adobe Enterprise Storage finden Sie unter [Aktivieren von Adobe Enterprise Storage für Ihr Unternehmen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+Ihr Workfront-Vertrag muss eine v2 Workfront SKU enthalten, um Adobe Enterprise Storage verwenden zu können. Weitere Informationen zu den Anforderungen an die Workfront-SKU V2 finden Sie in den häufig gestellten Fragen unter [Einheitliche Prüfung und Genehmigung - Übersicht](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#getting-started-with-unified-review-and-approval).
+
+Informationen zur Aktivierung von Adobe Enterprise Storage in Ihrer Umgebung finden Sie unter [Aktivieren von Adobe Enterprise Storage für Ihr Unternehmen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
 >[!NOTE]
 >

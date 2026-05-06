@@ -2,13 +2,13 @@
 product-area: documents
 navigation-topic: manage-documents
 title: Vorschau von Dokumenten
-description: You can preview a document from the Documents area. This is especially useful for images.
+description: Sie können eine Vorschau eines Dokuments im Bereich Dokumente anzeigen. Dies ist besonders für Bilder nützlich.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1e12003d-4ea6-4449-9536-05feca793c44
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '378'
 ht-degree: 11%
@@ -17,7 +17,7 @@ ht-degree: 11%
 
 # Vorschau von Dokumenten
 
-You can preview a document from the Documents area. This is especially useful for images.
+Sie können eine Vorschau eines Dokuments im Bereich Dokumente anzeigen. Dies ist besonders für Bilder nützlich.
 
 ## Zugriffsanforderungen
 
@@ -44,7 +44,7 @@ You can preview a document from the Documents area. This is especially useful fo
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>View access to the object associated with the document</p> </td> 
+   <td> <p>Anzeigen des Zugriffs auf das mit dem Dokument verknüpfte Objekt</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,19 +53,19 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 +++
 
-## Preview a document in the legacy documents area
+## Vorschau eines Dokuments im Bereich „Alte Dokumente“
 
 Wenn sich Ihr Unternehmen im alten Workfront-Speicher befindet, wird der Bereich für ältere Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zum alten Workfront-Speicher finden Sie unter [Unterschiede zwischen dem alten Workfront-Speicher und dem Adobe Enterprise-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-To preview a document:
+So zeigen Sie eine Vorschau eines Dokuments an:
 
-1. In a document list, hover over the row containing the document , then click **Document Details**.
-1. On the page that appears, click the document&#39;s thumbnail image.
+1. Bewegen Sie in einer Dokumentliste den Mauszeiger über die Zeile, die das Dokument enthält, und klicken Sie dann auf **Dokumentdetails**.
+1. Klicken Sie auf der angezeigten Seite auf das Miniaturbild des Dokuments.
 
-   * If you have not prepared the document for review, it displays in a new browser tab.
-   * If you have prepared the document for review, the proofing viewer opens to display it.
+   * Wenn Sie das Dokument nicht zur Überprüfung vorbereitet haben, wird es in einer neuen Browser-Registerkarte angezeigt.
+   * Wenn Sie das Dokument zur Überprüfung vorbereitet haben, wird die Korrekturabzugsansicht geöffnet, um es anzuzeigen.
 
-   The following file formats are unable to display in the preview window:
+   Die folgenden Dateiformate können im Vorschaufenster nicht angezeigt werden:
 
    * .mp4
    * .gif
@@ -75,9 +75,9 @@ To preview a document:
    * .plain
    * .pdf
 
-## Preview a document in the new documents area
+## Vorschau eines Dokuments im neuen Dokumentbereich
 
-Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich „Neue Dokumente“ angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich Neue Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Einige Dateiformate können nicht in der Vorschau angezeigt werden.
 

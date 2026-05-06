@@ -4,10 +4,10 @@ description: Dies ist ein interner Artikel für unser Team, in dem die Tabellen 
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
+source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
 workflow-type: tm+mt
-source-wordcount: '1245'
-ht-degree: 2%
+source-wordcount: '1321'
+ht-degree: 36%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 ## Zugriffsanforderungen (Dies ist ein Beispiel, wenn das Paket gleich bleibt und wir die Zeile „Lizenzen“ aktualisieren)
 
-Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +39,7 @@ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artike
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Licht oder höher</p>
-   <p>Arbeit oder höher</p></td> 
+   <p>Work oder höher</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -56,7 +56,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Zugriffsanforderungen
 
-Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -69,7 +69,7 @@ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artike
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-   <p>Arbeit oder höher</p></td> 
+   <p>Work oder höher</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -86,7 +86,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Zugriffsanforderungen (nur für neue Nettokunden verfügbar)
 
-Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -117,7 +117,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Zugriffsanforderungen (dies ist ein Beispiel, bei dem die neue Funktion nur in den Paketen 2023/2025 vorhanden ist)
 
-Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table>
   <tr>
@@ -141,11 +141,11 @@ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artike
   </tr>
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Zugriffsanforderungen (Dies ist ein Beispiel, bei dem Sie andere Produkte benötigen)
 
-Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table>
   <tr>
@@ -175,7 +175,7 @@ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artike
   </tr>
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Pakete für 2017 sollten aus der Zeile „Pakete“ entfernt werden
@@ -210,7 +210,7 @@ Paket: Planung auswählen, Planung Prime, Planung Ultimate
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> <p>Standard</p>
-   <p>Plan</p> </td> 
+   <p>Abo</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -226,7 +226,7 @@ Paket: Planung auswählen, Planung Prime, Planung Ultimate
 
 ## Zugriffsanforderungen für den Großteil der Workfront-Planung
 
-Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -240,7 +240,7 @@ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artike
 <ul><li><p>Beliebiges Workfront-Paket</p></li>
 Und
 <li><p>Beliebiges Planungspaket</p></li></ul>
-Oder
+ODER
 <ul><li><p>Beliebiges Workflow-Paket</p></li>
 Und
 <li><p>Beliebiges Planungspaket</p></li></ul>
@@ -264,7 +264,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 ## Zugriffsanforderungen für zentralisierte Datensatztypen in Workfront Planning
 
-Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -308,7 +308,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 >
 >Wenn Ihr Unternehmen den Szenario-Planer von Adobe bereits in der Vergangenheit erworben hat, ist er im Besitz des Bestandsschutzes. Der Szenario-Planer kann nicht mehr erworben werden.
 
-Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -323,7 +323,7 @@ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artike
   <tr> 
    <td> <p>Adobe Workfront-Lizenz</p> </td> 
    <td> <p>Licht oder höher</p> 
-   Oder
+   ODER
    <p>Überprüfen oder höher</p> </td> 
   </tr>
 
@@ -345,7 +345,7 @@ Weitere Informationen finden Sie [Dokumentation zu Zugriffsanforderungen für Wo
 >
 >Sie können Adobe Workfront Goals weiterhin verwenden, wenn Ihr Unternehmen dieses Paket bereits in der Vergangenheit gekauft hat. Adobe Workfront Goals ist nicht mehr erhältlich.
 
-Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -359,8 +359,8 @@ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artike
   </tr> 
   <tr> 
    <td> <p>Adobe Workfront-Lizenz</p> </td> 
-   <td> <p>Mitwirkender oder höher</p> 
-   Oder
+   <td> <p>Mitwirkende oder höher</p> 
+   ODER
    <p>Antragsteller oder höher</p> </td> 
   </tr>
 
@@ -378,7 +378,7 @@ Weitere Informationen finden Sie [Dokumentation zu Zugriffsanforderungen für Wo
 
 ## Zugriffsanforderungen für das Ressourcen-Management (Beispiel für mehrere mögliche Lizenzen; alle RM-Pakete sind jetzt „any„)
 
-Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -414,13 +414,13 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Wenn Ihr Unternehmen über ein Select- oder Prime Workfront-Paket verfügt, das keine Workfront-Automatisierung und -Integration enthält, muss Ihr Unternehmen Adobe Workfront Fusion erwerben.</li></ul>
+   <p>Wenn Ihre Organisation über ein Workfront Select- oder Prime-Paket ohne Workfront Automation and Integration verfügt, muss Ihre Organisation Adobe Workfront Fusion erwerben.</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
 
 
 Informationen zu Adobe Workfront Fusion-Lizenzen finden Sie unter [Adobe Workfront Fusion-Lizenzen](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
@@ -438,7 +438,7 @@ In einem Artikel über Gruppenadministratoren wird das Paket erwähnt, in dem de
 * Workflow-Prime und höher
 * Workfront Prime und höher
 
-Weitere Informationen zu Paketen finden Sie auf der Seite [&#x200B; Preisgestaltung und Verpackung von &#x200B;](https://business.adobe.com/de/products/workfront/pricing.html)Adobe Workfront.
+Weitere Informationen zu Paketen finden Sie auf der Seite [&#128279;](https://business.adobe.com/de/products/workfront/pricing.html) Preisgestaltung und Verpackung von Adobe Workfront.
 
 Erweiterte Enterprise Controls:
 
@@ -461,29 +461,29 @@ Erweiterte Enterprise Controls:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Paket</td> 
-   <td> <p>Jedes Adobe Workfront-Workflow-Paket und jedes Adobe Workfront-Automatisierungs- und Integrationspaket</p><p>Workfront Ultimate</p><p>Workfront Prime und Select-Pakete, mit einem zusätzlichen Kauf von Workfront Fusion.</p> </td> 
+   <td> <p>Ein beliebiges Adobe Workfront Workflow- und Adobe Workfront Automation and Integration-Paket</p><p>Workfront Ultimate</p><p>Workfront Prime- und Select-Pakete bei zusätzlichem Kauf von Workfront Fusion.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront-Lizenzen</td> 
-   <td> <p>Standard</p><p>Arbeit oder höher</p> </td> 
+   <td> <p>Standard</p><p>Work oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion-Lizenz</td> 
    <td>
-   <p>Betriebsbasiert: Keine Workfront Fusion-Lizenzanforderung</p>
+   <p>Betriebsbasiert: keine Workfront Fusion-Lizenz erforderlich</p>
    <p>Connector-basiert (veraltet): Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Wenn Ihr Unternehmen über ein Select- oder Prime Workfront-Paket verfügt, das keine Workfront-Automatisierung und -Integration enthält, muss Ihr Unternehmen Adobe Workfront Fusion erwerben.</li></ul>
+   <p>Wenn Ihre Organisation über ein Workfront Select- oder Prime-Paket ohne Workfront Automation and Integration verfügt, muss Ihre Organisation Adobe Workfront Fusion erwerben.</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation).
 
 Informationen zu Adobe Workfront Fusion-Lizenzen finden Sie unter [Adobe Workfront Fusion-Lizenzen](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 <td> <p>Beliebig</p> </td> 
@@ -494,7 +494,7 @@ Informationen zu Adobe Workfront Fusion-Lizenzen finden Sie unter [Adobe Workfro
    <p>Arbeit oder Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof-Berechtigungsprofil </td> 
+   <td role="rowheader">Korrekturabzug-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
@@ -503,7 +503,7 @@ Informationen zu Adobe Workfront Fusion-Lizenzen finden Sie unter [Adobe Workfro
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

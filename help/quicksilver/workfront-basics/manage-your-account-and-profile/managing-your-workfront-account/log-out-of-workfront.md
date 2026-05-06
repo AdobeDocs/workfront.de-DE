@@ -6,10 +6,10 @@ description: Aus Sicherheitsgründen ist es wichtig, sich regelmäßig  [!DNL Ad
 author: Becky
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-source-git-commit: d9d6d572840f5691888d0db3242f3908978079b3
+source-git-commit: 201a4430cfaa10bb99ef63ec96ecdccd3b07b0f1
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 15%
+source-wordcount: '127'
+ht-degree: 26%
 
 ---
 
@@ -19,15 +19,17 @@ Aus Sicherheitsgründen ist es wichtig, sich regelmäßig von [!DNL Adobe Workfr
 
 <!--Remove this October 2026-->
 
+<!--
 >[!NOTE]
 >
->Normalerweise kann ein [!DNL Workfront]-Administrator diese Zeitdauer auf einen Zeitraum zwischen 15 Minuten und 7 Tagen ohne Aktivität ändern, wie unter [Systemsicherheitseinstellungen konfigurieren](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) beschrieben. Diese Funktion ist jedoch derzeit nicht verfügbar. Wir arbeiten an einer Verbesserung der Authentifizierung, die eine automatische Abmeldung nach einer bestimmten Zeit der Inaktivität ermöglicht.
+>Normally a [!DNL Workfront] administrator can change this amount of time to anywhere between 15 minutes and 7 days of inactivity, as explained in [Configure system security preferences](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), but this functionality is currently unavailable. We are working on authentication enhancements that will allow automatic log out after a specified period of inactivity.
 >
->Das auf dieser Seite beschriebene Verfahren galt nur für Organisationen, die noch nicht in Adobe Admin Console integriert waren.
+>The procedure described on this page it applied only to organizations that were not yet onboarded to the Adobe Admin Console. 
 >
->Alle Workfront-Organisationen wurden nun in die Adobe Admin Console integriert.
+>All Workfront organizations have now been onboarded to the Adobe Admin Console.
 >
-> Da Ihre Organisation in [!DNL Adobe Experience Cloud] integriert wurde, melden Sie sich ab, indem Sie in der oberen Navigationsleiste auf Ihr Profilbild klicken und [!UICONTROL **Menü**] Abmelden“ auswählen. Weitere Informationen finden Sie unter [[!DNL Adobe Unified Experience] für [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+> Because your organization has been onboarded to [!DNL Adobe Experience Cloud], you will log out by clicking your profile picture in the top navigation and selecting [!UICONTROL **Sign out**] from the menu.
+-->
 
 ## Zugriffsanforderungen
 
@@ -57,7 +59,10 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ## Melden Sie sich von Ihrem [!DNL Workfront] ab
 
-{{step1-click-main-menu}}
+1. Klicken Sie auf Ihr Profilbild im oberen Navigationsbereich von [!DNL Adobe Workfront].
+1. Klicken Sie **[!UICONTROL Abmelden]**.
+1. Dadurch gelangen Sie zurück zur Anmeldeseite, auf der Sie Ihre E-Mail-Adresse und Ihr Passwort erneut eingeben können.
 
-1. Klicken Sie **[!UICONTROL Abmelden]** ![Abmeldesymbol](assets/logout-icon.png).
-1. Dadurch gelangen Sie zurück zur Anmeldeseite, auf der Sie Ihren Benutzernamen und Ihr Kennwort erneut eingeben können.
+   >[!NOTE]
+   >
+   >Sie sind von allen CX Enterprise-Anwendungen abgemeldet.

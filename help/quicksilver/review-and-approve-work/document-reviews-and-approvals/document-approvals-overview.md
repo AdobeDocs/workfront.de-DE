@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: bf86ab1dd526e2e5f3ef95ce0d6dca7fb6ca6c30
+source-git-commit: abca776dd79dcb1b5ef7c59745719a0faee5c845
 workflow-type: tm+mt
-source-wordcount: '3890'
+source-wordcount: '3977'
 ht-degree: 0%
 
 ---
@@ -102,6 +102,7 @@ Da einheitliche Überprüfungen und Genehmigungen mit dem Adobe Enterprise-Speic
 * Programme und Projekte können nicht denselben Namen haben, wenn sie demselben Portfolio angehören.
 * Dokumente können nicht denselben Namen haben, wenn sie zum selben Projekt gehören.
 * Objektnamen dürfen keines der folgenden Sonderzeichen enthalten: \ / : * ? &quot; | &lt; >
+* Programme, Portfolios, Projekte, Vorlagen, Aufgaben, Probleme und Dokumentordner dürfen keine Namen haben, die mit einem Punkt oder einer Leerstelle enden.
 * Objektnamen sind auf maximal 255 Zeichen beschränkt.
 
 Unter Berücksichtigung dieser Einschränkungen benennt Workfront Objekte oder Dokumente automatisch nach Bedarf um, um Konflikte zu vermeiden.
@@ -175,7 +176,7 @@ Um eine einheitliche Überprüfung und Genehmigung zu verwenden, müssen die fol
 
 * Die Workfront-Instanz muss im einheitlichen Adobe Experience Manager- und Adobe Enterprise-Speicher aktiviert werden.
 
-* Workfront-Kunden müssen eine V2-SKU verwenden (dies kann eine Vertragsveranstaltung erfordern - kontaktieren Sie Ihren Adobe-Kundenbetreuer).
+* Workfront-Kunden müssen eine Workfront V2-SKU verwenden. Wenn Ihr Unternehmen noch keine V2 Workfront SKU verwendet, ist eine Vertragsveranstaltung mit Adobe erforderlich, um die V2 Workfront SKU zu Ihrem Vertrag hinzuzufügen. Wenden Sie sich an Ihren Adobe-Kundenbetreuer.
 
 **Benötige ich eine Frame.io-Lizenz, um diese Integration nutzen zu können?**
 
@@ -193,13 +194,13 @@ Bestehende Kunden behalten den Zugriff auf die Workfront-Proofing-Funktion für 
 
 **Was muss ich tun, um Zugriff zu erhalten?**
 
-Um auf eine einheitliche Überprüfung und Genehmigung zugreifen zu können, muss Ihr Unternehmen eine Workfront V2-SKU verwenden. Wenn Sie derzeit keine V2-SKU verwenden, ist eine Vertragsveranstaltung mit Adobe erforderlich. Erster Schritt:
+Um auf eine einheitliche Überprüfung und Genehmigung zugreifen zu können, muss Ihr Unternehmen eine Workfront V2-SKU verwenden. Jede Organisation, die noch keine V2 Workfront SKU verwendet, muss eine Vertragsveranstaltung mit Adobe durchlaufen, um die V2 Workfront SKU hinzuzufügen. Erster Schritt:
 
-* Wenden Sie sich an Ihren Adobe-Kundenbetreuer, um zu bestätigen, ob Ihr aktueller Workfront-Plan eine einheitliche Überprüfung und Genehmigung unterstützt.
+* Wenden Sie sich an Ihren Adobe-Kundenbetreuer, um zu bestätigen, ob Ihr aktueller Workfront-Vertrag eine v2 Workfront-SKU betrifft.
 
-* Wenn ein SKU-Upgrade erforderlich ist, führt Sie Ihr Kundenbetreuer durch den Vertragsprozess.
+* Wenn Ihr Unternehmen keine Workfront V2-SKU verwendet, führt Sie Ihr Kundenbetreuer durch die für das Hinzufügen erforderliche Vertragsveranstaltung.
 
-* Sobald sich Ihr Konto bei der richtigen SKU befindet, konfiguriert Adobe Professional Services die Integration für Ihr Unternehmen.
+* Sobald Ihr Vertrag die Workfront-SKU V2 enthält, konfiguriert Adobe Professional Services die Integration für Ihr Unternehmen.
 
    * Wenn Sie sich nicht sicher sind, wer Ihr Adobe-Kundenbetreuer ist, können Sie sich über das Support-Portal für Adobe an Sie wenden oder Experience League besuchen, um Kontaktoptionen zu erhalten.
 
@@ -404,6 +405,8 @@ Ja. Da die Integration Adobe Enterprise Storage verwendet, gelten die folgenden 
 
 * Programme, Portfolios, Projekte, Vorlagen, Aufgaben, Probleme, Dokumente, Dokumentordner dürfen die folgenden Sonderzeichen nicht enthalten: `\ / : * ? " | < >` und sind auf 255 Zeichen begrenzt.
 
+* Programme, Portfolios, Projekte, Vorlagen, Aufgaben, Probleme und Dokumentordner dürfen keine Namen haben, die mit einem Punkt oder Leerzeichen enden.
+
 Workfront benennt Objekte oder Dokumente automatisch nach Bedarf um, um Konflikte zu vermeiden.
 
 **Welche Dateitypen werden im Frame.io-Viewer unterstützt?**
@@ -488,23 +491,23 @@ Weitere Informationen zum Einrichten und Verwenden von AI Reviewer finden Sie in
 
 **Wann steht mir die einheitliche Überprüfung und Genehmigung zur Verfügung?**
 
-Einheitliche Überprüfung und Genehmigung ist jetzt verfügbar. Für den Zugriff ist ein Upgrade auf eine Workfront V2 SKU erforderlich. Wenn Ihr Vertrag unterzeichnet wurde, bevor die V2-SKUs verfügbar waren, können Sie auf zwei Arten Zugriff erhalten:
+Einheitliche Überprüfung und Genehmigung ist jetzt verfügbar. Für den Zugriff ist eine V2 Workfront SKU erforderlich. Wenn Ihr Vertrag unterzeichnet wurde, bevor die v2 Workfront-SKUs verfügbar waren, ist für das Hinzufügen der v2 Workfront-SKU eine Vertragsveranstaltung mit Adobe erforderlich. Es gibt zwei Pfade:
 
-* Bei Verlängerung: Der Zugriff wird zum Datum der nächsten Vertragsverlängerung aktiviert.
+* Nach der Verlängerung: Die V2 Workfront SKU wird zum Datum der nächsten Vertragsverlängerung hinzugefügt.
 
-* Frühzeitiger Neuvertrag: Ihr Adobe-Account-Team kann frühzeitig einen neuen Vertrag mit Ihnen schließen, um die neuen SKU-Berechtigungen hinzuzufügen und gleichzeitig das Enddatum Ihres bestehenden Vertrags beizubehalten. Beim Wechsel zu einem gleichwertigen Paket gibt es keine Preiserhöhung.
+* Frühzeitiger Neuvertrag: Ihr Adobe-Account-Team kann frühzeitig einen neuen Vertrag mit Ihnen schließen, um die Berechtigungen für die v2 Workfront SKU hinzuzufügen, während das Enddatum Ihres bestehenden Vertrags beibehalten wird. Beim Wechsel zu einem gleichwertigen Paket gibt es keine Preiserhöhung.
 
 Wenden Sie sich an Ihren Adobe-Kundenbetreuer, um den besten Pfad für Ihr Unternehmen zu ermitteln.
 
 <!--
 **Before we sign the contract, what changes will we see in Workfront?**
 
-Before signing the V2 SKU contract, your Workfront instance will continue to operate using the existing document and proofing experience. No unified review and approval features---such as the Frame.io viewer, Adobe enterprise storage, or multi-stage approval templates---will be available until the V2 SKU is contracted and Adobe Professional Services configures the integration for your organization.
+Before signing the V2 Workfront SKU contract, your Workfront instance will continue to operate using the existing document and proofing experience. No unified review and approval features---such as the Frame.io viewer, Adobe enterprise storage, or multi-stage approval templates---will be available until the V2 Workfront SKU is contracted and Adobe Professional Services configures the integration for your organization.
 -->
 
-**Bietet ein Upgrade auf die v2 SKU mehr Speicherplatz?**
+**Bietet ein Upgrade auf die v2 Workfront SKU mehr Speicherplatz?**
 
-Ja. Mit der V2 SKU erhält jeder lizenzierte Benutzer 60 GB Speicher, gegenüber 30 GB in der vorherigen Version.
+Ja. Mit der v2 Workfront SKU erhält jeder lizenzierte Anwender 60 GB Speicher, gegenüber 30 GB in der Vorgängerversion.
 
 **Wie kann ich zwischen Adobe Enterprise-Speicher und Legacy-Workfront-Speicher wählen?**
 
@@ -516,7 +519,7 @@ Enterprise Storage bietet Ihnen die Flexibilität, das neue Erlebnis schrittweis
 
 **Wie werden Frame.io-Lizenzen verwaltet?**
 
-Nach dem Signieren der V2-SKU haben alle Workfront-Benutzer Zugriff auf den Frame.io-Viewer zur Überprüfung und Genehmigung von Workflows. Hierfür ist keine separate Frame.io Enterprise-Lizenz erforderlich.
+Nach dem Signieren der V2 Workfront SKU haben alle Workfront-Benutzer Zugriff auf den Frame.io-Viewer zur Überprüfung und Genehmigung von Workflows. Hierfür ist keine separate Frame.io Enterprise-Lizenz erforderlich.
 
 Wenn Ihr Unternehmen zusätzliche Frame.io Enterprise-Funktionen benötigt, z. B.
 

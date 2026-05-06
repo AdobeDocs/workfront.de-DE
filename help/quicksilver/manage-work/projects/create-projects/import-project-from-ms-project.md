@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: da46d6784350c8394330799fe2177e82d3519041
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '550'
 ht-degree: 10%
 
 ---
@@ -42,7 +42,7 @@ Sie können Projekte aus Microsoft Project in Adobe Workfront importieren und al
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p> 
-    <p>Plan</p>
+    <p>Abo</p>
    </td> 
   </tr> 
   <tr> 
@@ -106,7 +106,7 @@ Sie können ein Projekt im Bereich **Projekte** im **Hauptmenü** oder im Bereic
 1. Melden Sie sich bei Workfront an.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke oder auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront, falls verfügbar, klicken Sie dann auf **Projekte** und erweitern Sie **Neues Projekt**.
+   * Klicken Sie oben links auf **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) und klicken Sie dann auf **Projekte** und erweitern Sie **Neues Projekt**.
    * Gehen Sie zu einem Portfolio und erweitern Sie dann **Neues Projekt**.
    * Wechseln Sie zu einem Programm und erweitern Sie dann **Neues Projekt**.
    * Wenn Sie Gruppenadministrator sind, können Sie ein Projekt im Abschnitt **Projekte** einer Gruppe erstellen, die Sie verwalten. Weitere Informationen finden Sie unter [Erstellen und Ändern der Projekte einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).

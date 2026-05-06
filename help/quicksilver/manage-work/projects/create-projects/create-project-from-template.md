@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1393'
 ht-degree: 2%
 
 ---
@@ -58,7 +58,7 @@ Sie haben die folgenden Optionen, um ein Projekt aus einer Vorlage zu erstellen:
   <tr> 
    <td role="rowheader">Workfront-Lizenz</td> 
    <td> <p>Standard</p>
-        <p>Plan</p> </td> 
+        <p>Abo</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfiguration der Zugriffsebene</td> 
@@ -176,7 +176,7 @@ Sie können ein Projekt über den Bereich Projekte im Hauptmenü oder über den 
       >
       >* Wenn Sie eine Adobe-Enterprise-Storage-Vorlage aus einem Workfront-Storage-Portfolio oder -Programm verwenden, ist das Projekt ein Adobe-Enterprise-Storage-Projekt und das Portfolio oder Programm wird auch in Adobe-Enterprise-Storage-Objekte konvertiert. Alle anderen Workfront-Speicherprojekte im selben Portfolio oder Programm bleiben unverändert.
       >
-      > Nicht alle Kunden verfügen über beide Arten der Dokumentenspeicherung.
+      > Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Arten von Dokumentspeicher.
       >
       >Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und verwandte Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -234,7 +234,7 @@ Anstatt im Bereich Projekte zu beginnen, können Sie ein Projekt aus einer Vorla
 
 >[!NOTE]
 >
->Mit dem Workfront-Dokumentspeicher verknüpfte Vorlagen erstellen veraltete Workfront-Speicherprojekte. Mit den mit Adobe Enterprise Document Storage verknüpften Vorlagen werden Adobe-Speicherprojekte erstellt. Nicht alle Kunden verfügen über beide Speichertypen.
+>Mit dem Workfront-Dokumentspeicher verknüpfte Vorlagen erstellen veraltete Workfront-Speicherprojekte. Mit den mit Adobe Enterprise Document Storage verknüpften Vorlagen werden Adobe-Speicherprojekte erstellt. Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Arten von Dokumentspeicher.
 >
 >Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und verwandte Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

@@ -4,17 +4,16 @@ title: Zugriff auf die Adobe Workfront-Hilfe
 description: Workfront bietet eine Vielzahl von Inhalten, die Ihnen helfen, Antworten auf Fragen zu den Funktionen der verschiedenen von Workfront angebotenen Produkte zu finden.
 feature: Get Started with Workfront
 exl-id: 41b81083-771e-46de-85a3-31ed52d29917
-source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
+source-git-commit: 940e19e707790fea7de428b55ce677eedb9ab32c
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 2%
+source-wordcount: '183'
+ht-degree: 19%
 
 ---
 
 # Hilfe [!DNL Adobe Workfront]
 
 [!DNL Workfront] bietet eine Vielzahl von Inhalten, die Ihnen helfen, Antworten auf Fragen zu den Funktionen der verschiedenen von [!DNL Workfront] angebotenen Produkte zu finden.
-
 
 ## Zugriff auf die [!DNL Adobe Workfront] auf Experience League
 
@@ -25,10 +24,15 @@ Neben der Suche nach der Hilfedokumentation können Sie auch auf die folgenden [
 * Workfront-Tutorials: Weitere Informationen finden Sie unter [[!DNL Workfront] Tutorials](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home).
 
 * [!UICONTROL Innovation Lab]: Weitere Informationen finden Sie unter [The [!UICONTROL Innovation Lab]](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas?profile.language=de).
-* [!UICONTROL [!DNL Workfront]-Community]: Weitere Informationen finden [&#x200B; unter [!UICONTROL [!DNL Adobe Workfront] Community]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=de)
+* [!UICONTROL [!DNL Workfront]-Community]: Weitere Informationen finden [&#x200B; unter [!UICONTROL [!DNL Adobe Workfront] Community]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=de).
 
 ## Zugriff auf die Hilfe aus [!DNL Workfront]
 
 {{step1-click-main-menu}}
 
 1. Klicken Sie auf **[!UICONTROL Hilfe]** ![Hilfe-Symbol](assets/help-icon.png).
+
+>[!NOTE]
+>
+>Sie können auf die Hilfe auch über das Symbol Hilfe-Center oben rechts in der Kopfzeile zugreifen. Weitere Informationen finden Sie unter [Benutzeroberfläche und Administration von CX Enterprise](https://experienceleague.adobe.com/de/docs/core-services/interface/experience-cloud).
+

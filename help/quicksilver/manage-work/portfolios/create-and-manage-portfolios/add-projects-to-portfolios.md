@@ -8,7 +8,7 @@ feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fee6b71eeb0ca79703a2a9e29a14040b91cb7387
+source-git-commit: da46d6784350c8394330799fe2177e82d3519041
 workflow-type: tm+mt
 source-wordcount: '514'
 ht-degree: 4%
@@ -35,15 +35,18 @@ Beachten Sie beim Hinzufügen von Projekten zu Portfolios Folgendes:
 
 >[!CAUTION]
 >
->   Vererbte Berechtigungen werden möglicherweise nicht korrekt angewendet, wenn sie für eine große Anzahl untergeordneter Objekte verwendet werden.
+>Vererbte Berechtigungen werden möglicherweise nicht korrekt angewendet, wenn sie für eine große Anzahl untergeordneter Objekte verwendet werden.
 >   
->   Um Probleme mit geerbten Berechtigungen zu vermeiden, empfehlen wir Folgendes:
+>Um Probleme mit geerbten Berechtigungen zu vermeiden, empfehlen wir Folgendes:
 >
->   * Begrenzen Sie die Anzahl der untergeordneten Objekte (Projekte) unter einem einzelnen übergeordneten Element (Portfolio oder Programm). Pro Portfolio oder Programm empfehlen wir nicht mehr als 10.000 Projekte.
->   * Verringern der Vererbungstiefe durch Anwenden von Berechtigungen auf ein Objekt auf niedrigerer Ebene.
+>* Begrenzen Sie die Anzahl der untergeordneten Objekte (Projekte) unter einem einzelnen übergeordneten Element (Portfolio oder Programm). Pro Portfolio oder Programm empfehlen wir nicht mehr als 10.000 Projekte.
 >
->     Wenden Sie beispielsweise Berechtigungen direkt auf Projektebene an, anstatt sich auf die vom Portfolio geerbten Berechtigungen für das Programm und dann für das Projekt zu verlassen.
->   * Teilen Sie Programme auf, um weniger Projekte zu enthalten, was die Komplexität der Berechtigungen verringert.
+>* Verringern der Vererbungstiefe durch Anwenden von Berechtigungen auf ein Objekt auf niedrigerer Ebene.
+>
+>  Wenden Sie beispielsweise Berechtigungen direkt auf Projektebene an, anstatt sich auf die vom Portfolio geerbten Berechtigungen für das Programm und dann für das Projekt zu verlassen.
+>
+>* Teilen Sie Programme auf, um weniger Projekte zu enthalten, was die Komplexität der Berechtigungen verringert.
+>
 
 
 ## Zugriffsanforderungen
@@ -163,6 +166,6 @@ Old:
 
    <!--replace last step with this, for unshim: 1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a project if you decide not to add it to the portfolio.-->
 
-1. Click **[!UICONTROL Add Projects]**. <!--check this after UI changes-->
+1. Klicken Sie **[!UICONTROL Projekte hinzufügen]**. <!--check this after UI changes-->
 
-   The project or projects you selected are now associated with the portfolio.
+   Das bzw. die ausgewählte(n) Projekt(e) sind nun mit dem Portfolio verknüpft.

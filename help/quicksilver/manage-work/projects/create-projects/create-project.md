@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '1614'
+source-wordcount: '1629'
 ht-degree: 3%
 
 ---
@@ -44,7 +44,7 @@ Projekte stellen einen großen Arbeitsaufwand dar, der in Adobe Workfront erledi
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p>
-        <p>Plan</p> </td> 
+        <p>Abo</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -167,14 +167,19 @@ Beachten Sie Folgendes:
 
      Wenn Sie beim Erstellen des Projekts eine Vorlage verwenden, indem Sie das Problem konvertieren, sehen Sie im zweiten obigen Szenario nach, welche Gruppe und welcher Status Workfront für das neue Projekt gilt.
 
-* Welche Dokumente in einem Projekt gespeichert werden und welche untergeordneten Objekte (Aufgaben und Probleme) es gibt, hängt davon ab, was Ihr Workfront-Administrator im Bereich „Systemvoreinstellungen“ unter „Setup“ als Standard für Speichervoreinstellungen auswählt. Je nachdem, wo Sie Dokumente in Ihrer Workfront-Instanz speichern, können Sie die folgenden Projekttypen erstellen:
+* Welche Dokumente für ein Projekt und dessen untergeordnete Objekte (Aufgaben und Probleme) gespeichert werden, hängt davon ab, was Ihr Workfront-Administrator im Bereich „Systemeinstellungen“ unter „Setup“ als Standard für Speichereinstellungen auswählt. Je nachdem, wo Sie Dokumente in Ihrer Workfront-Instanz speichern, können Sie die folgenden Projekttypen erstellen:
 
    * Alte Workfront-Speicherprojekte
    * Adobe Enterprise-Speicherprojekte.
 
   Weitere Informationen finden Sie unter [Aktivieren von Adobe Enterprise Storage für Ihr Unternehmen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
-* Wenn Sie ein Enterprise-Storage-Projekt erstellen, wird im Abschnitt **Dokumente** des Projekts ein Dokumentordner mit demselben Namen des Projekts für erstellt. Nachdem Sie dem Projekt Aufgaben hinzugefügt haben, werden Ordner mit dem Namen der Aufgabe zum Abschnitt **Dokumente** jeder Aufgabe hinzugefügt.
+  >[!TIP]
+  >
+  > Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Arten von Dokumentspeicher.
+
+
+* Wenn Sie ein Speicherprojekt für Unternehmen erstellen, wird im Abschnitt **Dokumente** des Projekts ein Dokumentordner mit demselben Namen des Projekts erstellt. Nachdem Sie dem Projekt Aufgaben hinzugefügt haben, werden Ordner mit dem Namen der Aufgabe zum Abschnitt **Dokumente** jeder Aufgabe hinzugefügt.
 
 Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und verwandte Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -204,15 +209,16 @@ Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagemen
 
      >[!NOTE]
      >
-     >Wenn Sie ein Enterprise-Storage-Projekt aus einem Workfront-Storage-Portfolio oder -Programm erstellen, wird das Portfolio oder Programm auch in Enterprise-Storage-Objekte konvertiert. Alle anderen Workfront-Speicherprojekte im selben Portfolio oder Programm bleiben unverändert.
+     >* Wenn Sie ein Enterprise-Storage-Projekt aus einem Workfront-Storage-Portfolio oder -Programm erstellen, wird das Portfolio oder Programm auch in Enterprise-Storage-Objekte konvertiert. Alle anderen Workfront-Speicherprojekte im selben Portfolio oder Programm bleiben unverändert.
+     >* Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Arten von Dokumentspeicher.
 
      Ein Projekt wird erstellt, und sein Standardname folgt den folgenden Mustern, je nachdem, welcher Speicher Workfront für Dokumente verwendet:
 
-      * **Unbenanntes Projekt** für ein Workfront-Speicherprojekt.
+      * `Untitled Project` für ein Workfront-Speicherprojekt.
 
         Bei einem Workfront-Speicherprojekt wird neben dem Namen das Symbol **Legacy** Workfront-Speicher![&#x200B; Legacy-](assets/legacy-storage-project-icon.png)Projekt“ angezeigt.
 
-      * **Unbenanntes Projekt - &lt; Monat, Tag, Jahr, Stunde.Minute.Sekunde >** für ein Adobe-Speicherprojekt
+      * `Untitled Project - < Month day, year hour.minute.second >` für ein Adobe-Speicherprojekt
 
         >[!IMPORTANT]
         >

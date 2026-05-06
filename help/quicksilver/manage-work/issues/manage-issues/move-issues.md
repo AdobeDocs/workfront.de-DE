@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: '927'
 ht-degree: 4%
 
 ---
@@ -112,7 +112,7 @@ Beachten Sie beim Verschieben von Problemen, die Dokumente enthalten oder mit ei
 * **Wenn ein Problem mit einer Anfrage-Warteschlange verknüpft ist:** Wenn Sie ein Problem in ein anderes Objekt verschieben und das Problem mit einer Anfrage-Warteschlange verknüpft ist, ist das verschobene Problem nicht mehr mit der ursprünglichen Warteschlange verknüpft, von der das erste Problem stammt.
 * **Wenn ein Dokument an das Problem angehängt wird:** Wenn Sie ein Problem in ein anderes Objekt verschieben und dem Problem ein Dokument angehängt ist, werden das Dokument, seine Versionen und Korrekturabzüge auch an das neue Problem angehängt. Genehmigungen, die mit dem Dokument verknüpft sind, werden nicht verschoben.
 * **Wenn ein Problem mit einem Dokument oder Ordner verknüpft ist:** Wenn Sie ein Problem verschieben, das Dokumente oder Ordner mit einem Drittanbieterdienst wie Google Drive verknüpft hat, werden die Links zu den Dokumenten mit dem Problem verschoben.
-* **Wenn Probleme zwischen Projekten mit unterschiedlichen Speichertypen verschoben werden**: Sie können ein Problem nicht aus einem Workfront-Speicherprojekt in ein Adobe-Speicherprojekt kopieren. Auch das Gegenteil ist wahr. Nicht alle Kunden verfügen über beide Speichertypen.
+* **Wenn Probleme zwischen Projekten mit unterschiedlichen Speichertypen verschoben werden**: Sie können ein Problem nicht aus einem Workfront-Speicherprojekt in ein Adobe-Speicherprojekt kopieren. Auch das Gegenteil ist wahr. Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Arten von Dokumentspeicher.
 
   Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und zugehörige Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

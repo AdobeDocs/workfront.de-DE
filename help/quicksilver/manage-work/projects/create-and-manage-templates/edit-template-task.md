@@ -9,9 +9,9 @@ feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
+source-git-commit: 62d7144f808e7937f11c11ccff64e409c76f2197
 workflow-type: tm+mt
-source-wordcount: '3008'
+source-wordcount: '3062'
 ht-degree: 7%
 
 ---
@@ -123,13 +123,19 @@ Sie können eine Vorlagenaufgabe mithilfe der Bereiche Vorlagenaufgabe bearbeite
 1. Gehen Sie wie folgt vor, um eingeschränkte Informationen zur Vorlagenaufgabe zu bearbeiten:
    1. (Optional) Klicken Sie **linken** auf „Updates“, um der Vorlagenaufgabe Aktualisierungen hinzuzufügen. Vorlagenaufgaben-Aktualisierungen werden nicht in Projektaufgaben übertragen, wenn die Vorlage zum Erstellen eines Projekts verwendet wird.
    1. (Optional) Klicken Sie **linken** auf „Dokumente“, um der Vorlagenaufgabe Dokumente hinzuzufügen. Die Dokumente werden an die Projektaufgaben übertragen, wenn Sie die Vorlage zum Erstellen des Projekts verwenden.
+
+      >[!TIP]
+      >
+      >Das Hinzufügen von Dokumenten zu einer Vorlagenaufgabe unterscheidet sich, je nachdem, ob Ihr Unternehmen zum Speichern von Dokumenten den Workfront- oder Adobe-Speicher verwendet. Weitere Informationen finden Sie unter [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+
    1. (Bedingt) Um eingeschränkte Informationen zu einer Vorlagenaufgabe zu bearbeiten, klicken Sie im linken Bereich auf **Vorlagenaufgabendetails** und gehen Sie dann in die Bereiche des Abschnitts Details , um Informationen für die einzelnen Bereiche zu bearbeiten.
    1. (Optional) Führen Sie einen der folgenden Schritte aus:
       * Klicken Sie auf das **Alle reduzieren**-Symbol ![Alle reduzieren](assets/collapse-all-icon.png), um alle Bereiche zu reduzieren.
       * Klicken Sie auf **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png) und wählen Sie dann einen der folgenden Bereiche aus oder klicken Sie auf **Alle bearbeiten**, um Informationen in allen Bereichen zu bearbeiten:
 
+
          * Übersicht
-         * Benutzerdefinierte Forms
+         * Benutzerdefinierte Formulare
 Namen von benutzerdefinierten Formularen werden nur angezeigt, wenn der Vorlagenaufgabe benutzerdefinierte Formulare beigefügt sind.
          * Finanzielle Details
 
@@ -603,6 +609,11 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 1. To edit limited information about the template task, do the following: 
    1. (Optional) Click **Updates** in the left panel to add updates to the template task. Template task updates do not transfer to project tasks when the template is used to create a project.
    1. (Optional) Click **Documents** in the left panel to add documents to the template task. The documents will transfer to the project tasks when you use the template to create the project. 
+
+      >[!TIP]
+      >
+      >Adding documents to a template task differs depending on whether your organization uses Workfront or Adobe storage to store documents. For information, see [Add documents to Adobe Workfront from your file system](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md). 
+      
    1. (Conditional) To edit limited information about a template task, click **Template Task Details** in the left panel, then go to the areas of the Details section to edit information for each area.
    1. (Optional) Do any of the following: 
       * Click the **Collapse all** icon ![Collapse all icon](assets/collapse-all-icon.png) to collapse all areas. 

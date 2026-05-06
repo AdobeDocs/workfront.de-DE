@@ -1,13 +1,12 @@
 ---
-title: Workfront Proof Mobile App für Tablets
+title: Workfront Proof-App für Tablets
 description: Mit  [!DNL Workfront Proof]  Tablet-App können Sie Ihre Korrekturabzüge bequem überprüfen und genehmigen, wenn Sie unterwegs sind. Die App kann von jedem heruntergeladen werden. Sie müssen kein  [!DNL Workfront Proof]  sein, um Testsendungen auf Ihrem Tablet oder Handy überprüfen zu können.
 hide: true
-hidefromtoc: true
 exl-id: 7a3f1d96-103d-41cf-8470-3fc69e4bd507
-source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '1982'
-ht-degree: 0%
+source-wordcount: '1995'
+ht-degree: 1%
 
 ---
 
@@ -93,7 +92,7 @@ Eine weitere Ansicht, die Sie möglicherweise als nützlich empfinden, ist die A
 
 1. Klicken Sie auf den Namen des Korrekturabzugs, um ihn im [!DNL Workfront Proof] zu öffnen.
 
-   Oder
+   ODER
 
    Um einen Korrekturabzug über eine E-Mail-Benachrichtigung zu öffnen, können Prüfer auf den Link **[!UICONTROL Zum Korrekturabzug gehen]** in der Benachrichtigung klicken.
 Wenn Sie über ein [!DNL Workfront Proof]-Konto verfügen, können Sie sich anmelden und über das Dashboard auf Ihren Korrekturabzug zugreifen.
@@ -143,8 +142,8 @@ Proofing-Text unterwegs ist wirklich in der [!DNL Workfront Proof] Tablet-App. D
 
    | **[!UICONTROL Hervorheben]** | Markiert den Text und kopiert ihn in das Kommentarfeld. |
    |---|---|
-   | **[!UICONTROL Ersetzen]** | Fügt &lbrack;[!UICONTROL REPLACE] und [[!UICONTROL WITH]] zusammen mit dem Text in das Kommentarfeld ein, sodass Sie leichter Ersatztext empfehlen können. |
-   | **[!UICONTROL Löschen]** | Durchsucht den Text und fügt dem Kommentarfeld &rbrack;0&rbrace;DELETE&quot; hinzu.&lbrack; |
+   | **[!UICONTROL Replace]** | Fügt &lbrack;[!UICONTROL REPLACE] und [[!UICONTROL WITH]] zusammen mit dem Text in das Kommentarfeld ein, sodass Sie leichter Ersatztext empfehlen können. |
+   | **[!UICONTROL Löschen]** | Durchsucht den Text und fügt [DELETE] zum Kommentarfeld hinzu. |
    | **[!UICONTROL Einfügen nach]** | Fügt [EINFÜGEN NACH] in das Kommentarfeld ein. |
 
    {style="table-layout:auto"}

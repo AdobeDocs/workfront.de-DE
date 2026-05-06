@@ -1,12 +1,12 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Configure the Experience Manager Assets Essentials Integration
-description: Connect your work with your content in Experience Manager Assets Essentials.
+title: Konfigurieren der Experience Manager Assets Essentials-Integration
+description: Verbinden Sie Ihre Arbeit mit Ihren Inhalten in Experience Manager Assets Essentials.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
 workflow-type: tm+mt
 source-wordcount: '681'
 ht-degree: 6%
@@ -15,15 +15,15 @@ ht-degree: 6%
 
 # Integration von Experience Manager Assets Essentials konfigurieren
 
-Connect your work with your content in Experience Manager Assets Essentials&#x200B;:
+Verbinden Sie Ihre Arbeit mit Ihren Inhalten in Experience Manager Assets Essentials&#x200B;:
 
-* Push assets and metadata from Adobe Workfront to Experience Manager Assets Essentials&#x200B;
-* Link assets from Experience Manager Assets Essentials to your projects and tasks in Workfront&#x200B;
-* Facilitate versioning workflows for assets pushed to Experience Manager Assets Essentials
+* Pushen von Assets und Metadaten von Adobe Workfront nach Experience Manager Assets Essentials&#x200B;
+* Verknüpfen von Assets aus Experience Manager Assets Essentials mit Ihren Projekten und Aufgaben in Workfront&#x200B;
+* Vereinfachen von Versionierungs-Workflows für Assets, die auf Experience Manager Assets Essentials gepusht werden
 
 >[!NOTE]
 >
->You can also connect several Experience Manager Assets repositories to one Workfront environment, or several Workfront environments to one Experience Manager Assets repository across Organization IDs. Follow the configuration instructions in this article for each integration you&#39;d like to set up.<br>
+>Sie können auch mehrere Experience Manager Assets-Repositorys über Organisations-IDs hinweg mit einer Workfront-Umgebung oder mehrere Workfront-Umgebungen mit einem Experience Manager Assets-Repository verbinden. Befolgen Sie die Konfigurationsanweisungen in diesem Artikel für jede Integration, die Sie einrichten möchten.<br>
 >Diese Funktion ist im Bereich Neue Dokumente nicht verfügbar.
 
 ## Zugriffsanforderungen
@@ -71,23 +71,23 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 +++
 
-## Set up the integration
+## Einrichten der Integration
 
 {{step-1-to-setup}}
 
-1. Select  **Documents** ![documents icon](assets/document-icon.png) in the left panel, then select **Experience Manager Integration**.
-1. Select **Add Experience Manager Integration**.
-1. Specify the following:
+1. Wählen Sie **Dokumente** ![Dokumentensymbol](assets/document-icon.png) im linken Bedienfeld aus und wählen Sie dann **Experience Manager-Integration**.
+1. Wählen **Experience Manager-Integration hinzufügen** aus.
+1. Geben Sie Folgendes an:
 
    <table>
    <tr>
       <td><strong>Name</strong>
       </td>
-      <td>Enter the name you want users to see in the Add new button in the Documents area.
+      <td>Geben Sie den Namen, den Benutzerinnen und Benutzern angezeigt werden soll, in die Schaltfläche Neu hinzufügen im Bereich Dokumente ein.
       </td>
    </tr>
    <tr>
-      <td><strong>Navigation URL</strong>
+      <td><strong>Navigations-URL</strong>
       </td>
       <td>Das System füllt automatisch die Navigations-URL. Diese URL wird verwendet, um über das Hauptmenü eine Verknüpfung zur Assets Essentials-Instanz Ihres Unternehmens herzustellen und so einen schnellen Zugriff zu ermöglichen.
       </td>
@@ -141,17 +141,17 @@ Metadaten werden zugeordnet, wenn ein Asset zum ersten Mal von Workfront gepusht
 
    >[!NOTE]
    >
-   >Sie können ein einzelnes Workfront-Feld mehreren Experience Manager Assets-Feldern zuordnen. You can&#39;t map multiple Workfront fields to a single Experience Manager Assets field.
+   >Sie können ein einzelnes Workfront-Feld mehreren Experience Manager Assets-Feldern zuordnen. Sie können nicht mehrere Workfront-Felder einem einzelnen Experience Manager Assets-Feld zuordnen.
 
-1. In the **Experience Manager** field, choose an Experience Manager Assets field.
+1. Wählen Sie im Feld **Experience Manager** ein Experience Manager Assets-Feld aus.
 
-   To map a Workfront field to an Experience Manager Assets tag, select `xcm:keywords`.
+   Um ein Workfront-Feld einem Experience Manager Assets-Tag zuzuordnen, wählen Sie `xcm:keywords` aus.
 
-1. Repeat steps 1 and 2 as needed.
-   ![enable metadata](assets/metadata-assets-essentials.png)
-1. Click **Save** or move on to the [Set up linked folders (optional)](#set-up-linked-folders-optional) section in this article.
+1. Wiederholen Sie die Schritte 1 und 2 nach Bedarf.
+   ![Aktivieren von Metadaten](assets/metadata-assets-essentials.png)
+1. Klicken Sie **Speichern** oder gehen Sie zum Abschnitt [Einrichten verknüpfter Ordner (optional)](#set-up-linked-folders-optional) in diesem Artikel.
 
 
-## Set up linked folders (optional)
+## Verknüpfte Ordner einrichten (optional)
 
 {{setup-linked-folder}}

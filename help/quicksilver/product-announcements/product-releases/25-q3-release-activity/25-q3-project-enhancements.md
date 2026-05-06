@@ -5,12 +5,11 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: true
-hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: df0686038adb1278339e872e122a311884cb6d29
+source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 0%
+source-wordcount: '913'
+ht-degree: 1%
 
 ---
 
@@ -54,12 +53,12 @@ Das Feld Tatsächliche Stunden , das im Abschnitt mit den Projekt-, Aufgaben- un
 >[!IMPORTANT]
 >
 >Je nachdem, wann die Stunden protokolliert wurden, kann es eine Diskrepanz zwischen den tatsächlichen Stunden und den veralteten tatsächlichen Stunden für ein Projekt, eine Aufgabe oder ein Problem geben.<br>
->&#x200B;>Die folgenden Szenarien sind vorhanden:
+>Die folgenden Szenarien sind vorhanden:
 >
 >* Tatsächliche Stunden stellen die Stunden dar, die seit Mai 2021 für Projekte, Aufgaben und Probleme protokolliert wurden.
 >* Ältere Ist-Stunden stellen Stunden dar, die für Projekte, Aufgaben und Probleme während der Laufzeit des Projekts, der Aufgabe oder des Problems protokolliert werden. Dies umfasst Stunden, die vor Mai 2021 bis zur aktuellen Zeit protokolliert wurden.
->  &#x200B;><br>Möglicherweise müssen Sie Ihre Berichte aktualisieren, um das neue Feld und seine Werte widerzuspiegeln.
->  &#x200B;><br>Workfront berechnet die tatsächlichen Lohnkosten anhand der Ist-Legacystunden.
+><br>Möglicherweise müssen Sie Ihre Berichte aktualisieren, um das neue Feld und seine Werte widerzuspiegeln.
+><br>Workfront berechnet die tatsächlichen Lohnkosten anhand der Ist-Legacystunden.
 
 Weitere Informationen finden Sie unter [Tatsächliche Stunden anzeigen](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
