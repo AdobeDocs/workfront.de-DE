@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '1152'
-ht-degree: 6%
+source-wordcount: '1259'
+ht-degree: 5%
 
 ---
 
@@ -95,10 +95,23 @@ Old:
 * Alle Teilaufgaben, Probleme und Notizen werden dem neuen Projekt zugeordnet.
 * Dokumente, Dokumentversionen und Testsendungen werden in das neue Projekt verschoben.
 * Beim Konvertieren einer Aufgabe in ein Projekt gibt es ein Verarbeitungslimit von 5 Minuten. Wenn an die Aufgabe eine große Anzahl von Dokumenten angehängt ist und sie nicht konvertiert werden kann, müssen Sie möglicherweise einige der Dokumente entfernen und erneut versuchen.
+* Wenn Ihr Unternehmen sowohl den alten Workfront- als auch den Unternehmensdokumentspeicher von Adobe verwendet, treten beim Konvertieren einer Aufgabe in ein Projekt die folgenden Szenarien auf: <!--this info also duplicated in Document management overview for projects and related objects and Convert an issue to a project-->
+   * Eine Workfront-Speicheraufgabe erstellt ein Workfront-Speicherprojekt.
+   * Bei einer Adobe-Aufgabe für den Unternehmensspeicher wird ein Adobe-Speicherprojekt erstellt.
+   * Durch die Verwendung einer Workfront-Speichervorlage zum Konvertieren einer Adobe-Speicheraufgabe wird ein Adobe-Speicherprojekt erstellt.
+   * Durch die Verwendung einer Adobe-Speichervorlage zum Konvertieren einer Workfront-Speicheraufgabe wird ein Workfront-Speicherprojekt erstellt.
+
+     Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und verwandte Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
+     >[!TIP]
+     >
+     >Ihre Workfront-Instanz hat möglicherweise keinen Zugriff auf beide Arten von Dokumentspeicher.
+
 * Der Status und der abgeschlossene Prozentsatz aller Teilaufgaben und Probleme werden beibehalten.
 * Aufgabenzugewiesene und der Benutzer, der die Aufgabe in das Projekt konvertiert, werden zu freigegebenen Benutzern im Projekt.
 * Das Startdatum des Projekts ist auf das Startdatum der Aufgabe festgelegt.
 * In der folgenden Tabelle sind die Projektinformationen aufgeführt und es wird angegeben, ob sie von der Vorlage oder von der Aufgabe übertragen werden:
+
 
   <table style="table-layout:auto"> 
   <col> 

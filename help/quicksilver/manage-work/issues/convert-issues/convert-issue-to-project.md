@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '2009'
+source-wordcount: '2151'
 ht-degree: 4%
 
 ---
@@ -25,9 +25,9 @@ Sie können ein Problem mit in ein Projekt konvertieren, ohne eine Projektvorlag
 
 >[!IMPORTANT]
 >
->Um allgemeine Informationen zu Konvertierungsproblemen zu erhalten, empfehlen wir, auch den Artikel [Überblick über Konvertierungsprobleme in Adobe Workfront&quot; &#x200B;](../../../manage-work/issues/convert-issues/convert-issues.md).
+>Um allgemeine Informationen zu Konvertierungsproblemen zu erhalten, empfehlen wir, auch den Artikel [Überblick über Konvertierungsprobleme in Adobe Workfront&quot; ](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-Wenn Sie ein Projekt aus einer Anfrage erstellen, werden einige der Felder im Projekt aus anderen Objekten gefüllt. Weitere Informationen finden Sie im Abschnitt „Standardeinstellungen für neue Projekte“ im Artikel &quot;[&#x200B; erstellen](../../../manage-work/projects/create-projects/create-project.md).
+Wenn Sie ein Projekt aus einer Anfrage erstellen, werden einige der Felder im Projekt aus anderen Objekten gefüllt. Weitere Informationen finden Sie im Abschnitt „Standardeinstellungen für neue Projekte“ im Artikel &quot;[ erstellen](../../../manage-work/projects/create-projects/create-project.md).
 
 ## Zugriffsanforderungen
 
@@ -94,6 +94,13 @@ Old:
 ## Zu beachten
 
 * Beim Konvertieren eines Problems in ein Projekt gibt es ein Verarbeitungslimit von 5 Minuten. Wenn an das Problem eine große Anzahl von Dokumenten angehängt ist und es nicht konvertiert werden kann, müssen Sie möglicherweise einige der Dokumente entfernen und erneut versuchen.
+* Wenn Ihr Unternehmen sowohl den alten Workfront- als auch den Unternehmensdokumentspeicher von Adobe verwendet, treten beim Konvertieren eines Problems in ein Projekt die folgenden Szenarien auf: <!--this info also duplicated in Document management overview for projects and related objects and Convert a task to a project-->
+   * Bei einem Workfront-Speicherproblem wird ein Workfront-Speicherprojekt erstellt.
+   * Bei einem Adobe-Problem mit Enterprise-Storage wird ein Adobe-Storage-Projekt erstellt.
+   * Wenn Sie eine Workfront-Speichervorlage zum Konvertieren eines Adobe-Speicherproblems verwenden, wird ein Adobe-Speicherprojekt erstellt.
+   * Wenn Sie eine Adobe-Speichervorlage zum Konvertieren eines Workfront-Speicherproblems verwenden, wird ein Workfront-Speicherprojekt erstellt.
+
+     Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und verwandte Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 ## Konvertieren eines Problems in ein Projekt
 
@@ -190,7 +197,7 @@ Sie können ein Problem mithilfe einer Vorlage in ein Projekt konvertieren.
 
    >[!TIP]
    >
-   >Wenn Sie Vorlagen zu Ihrer Favoritenliste hinzugefügt haben, können Sie mit der Maus über das [!UICONTROL **Favoritenvorlagen**] Menü fahren und auf die gewünschte Vorlage klicken.
+   >Wenn Sie Vorlagen zu Ihrer Favoritenliste hinzugefügt haben, können Sie den Mauszeiger über das Menü [!UICONTROL **Favoritenvorlagen**] bewegen und auf die gewünschte Vorlage klicken.
 
    Das Feld Neues Projekt aus Vorlage wird angezeigt.
 
@@ -225,6 +232,14 @@ Sie können ein Problem mithilfe einer Vorlage in ein Projekt konvertieren.
 
    ![In Projekt konvertieren](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
 
+   >[!TIP]
+   >
+   >* Wenn Sie eine Workfront-Speichervorlage zum Konvertieren eines Adobe-Speicherproblems verwenden, wird ein Adobe-Speicherprojekt erstellt.
+   >* Wenn Sie eine Adobe-Speichervorlage zum Konvertieren eines Workfront-Speicherproblems verwenden, wird ein Workfront-Speicherprojekt erstellt.
+   >
+   >Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und verwandte Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
+
 1. Wenn ein Feld bereits in der Vorlage ausgefüllt ist, wird das Feld im Feld [!UICONTROL In Projekt konvertieren] vorausgefüllt. Sie können die vorausgefüllten Werte bearbeiten, um sie besser an Ihr Projekt anzupassen. Weitere Informationen finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
    >[!TIP]
@@ -258,20 +273,20 @@ Sie können ein Problem mithilfe einer Vorlage in ein Projekt konvertieren.
      >
      >Oder, falls die Gruppen der obersten Ebene in Ihrer Organisation sie separat konfiguriert haben, hängen die hier verfügbaren Optionen davon ab, welche Gruppe Sie in Schritt 6 für das neue Projekt ausgewählt haben. Weitere Informationen finden Sie unter [Konfigurieren von Aufgaben- und Problemeinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-   1. Klicken Sie [!UICONTROL **Benutzerdefinierte Forms**] und führen Sie einen der folgenden Schritte aus:
+1. Klicken Sie [!UICONTROL **Benutzerdefinierte Forms**] und führen Sie einen der folgenden Schritte aus:
 
-      * Überprüfen Sie die benutzerdefinierten Formulare, die an die Vorlage angehängt sind. Sie werden auf das neue Projekt übertragen.
-      * Überprüfen Sie die benutzerdefinierten Formulare, die an das Problem angehängt sind. Sie werden auf das Projekt übertragen, wenn sie ebenfalls Projekteformulare sind.
-      * Stellen Sie sicher, dass alle erforderlichen Felder über gültige Informationen verfügen.
-      * Ordnen Sie die benutzerdefinierten Formulare neu an, indem Sie sie ![Drag-Symbol](assets/drag-object-icon.png) an die gewünschte Position ziehen.
-      * Klicken Sie auf das **x**-Symbol rechts neben jedem Formular, das Sie nicht in das Projekt übertragen möchten.
-      * Falls erforderlich, übertragen Sie benutzerdefinierte Formularinformationen von der Anfrage an das Projekt.
+   * Überprüfen Sie die benutzerdefinierten Formulare, die an die Vorlage angehängt sind. Sie werden auf das neue Projekt übertragen.
+   * Überprüfen Sie die benutzerdefinierten Formulare, die an das Problem angehängt sind. Sie werden auf das Projekt übertragen, wenn sie ebenfalls Projekteformulare sind.
+   * Stellen Sie sicher, dass alle erforderlichen Felder über gültige Informationen verfügen.
+   * Ordnen Sie die benutzerdefinierten Formulare neu an, indem Sie sie ![Drag-Symbol](assets/drag-object-icon.png) an die gewünschte Position ziehen.
+   * Klicken Sie auf das **x**-Symbol rechts neben jedem Formular, das Sie nicht in das Projekt übertragen möchten.
+   * Falls erforderlich, übertragen Sie benutzerdefinierte Formularinformationen von der Anfrage an das Projekt.
 
-        >[!TIP]
-        >
-        >* Wenn ein benutzerdefiniertes Formular mit mehreren Objekten, das an das Problem angehängt ist, für die Verwendung sowohl bei Problemen als auch bei Projekten konfiguriert ist, werden alle im Formular gespeicherten Informationen beibehalten, wenn Sie die Konvertierung durchführen, wenn die Felder sowohl für das Problem als auch für die benutzerdefinierten Formulare des Projekts vorhanden sind.
-        >* Wenn ein benutzerdefiniertes Formular mit mehreren Objekten und einem berechneten Feld sowohl an das Problem als auch an das Projekt angehängt ist, müssen das Problem und das Projekt mit allen Feldern kompatibel sein, auf die in den berechneten benutzerdefinierten Feldern des Formulars verwiesen wird. Bei einer Inkompatibilität werden Sie durch eine Meldung darauf hingewiesen, dass Sie Anpassungen vornehmen müssen. Weitere Informationen finden Sie unter [Hinzufügen berechneter Felder zu einem Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
-        >* Wenn ein benutzerdefiniertes Formular, das an die Vorlage angehängt ist, ein benutzerdefiniertes Feld enthält, das sich auch in einem benutzerdefinierten Formular befindet, das an das Problem angehängt ist, wird der Feldwert aus dem Problem für das neue Projekt verwendet. Wenn das benutzerdefinierte Feld bei dem Problem jedoch leer ist, wird der Wert aus der Vorlage verwendet.
+     >[!TIP]
+     >
+     >* Wenn ein benutzerdefiniertes Formular mit mehreren Objekten, das an das Problem angehängt ist, für die Verwendung sowohl bei Problemen als auch bei Projekten konfiguriert ist, werden alle im Formular gespeicherten Informationen beibehalten, wenn Sie die Konvertierung durchführen, wenn die Felder sowohl für das Problem als auch für die benutzerdefinierten Formulare des Projekts vorhanden sind.
+     >* Wenn ein benutzerdefiniertes Formular mit mehreren Objekten und einem berechneten Feld sowohl an das Problem als auch an das Projekt angehängt ist, müssen das Problem und das Projekt mit allen Feldern kompatibel sein, auf die in den berechneten benutzerdefinierten Feldern des Formulars verwiesen wird. Bei einer Inkompatibilität werden Sie durch eine Meldung darauf hingewiesen, dass Sie Anpassungen vornehmen müssen. Weitere Informationen finden Sie unter [Hinzufügen berechneter Felder zu einem Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+     >* Wenn ein benutzerdefiniertes Formular, das an die Vorlage angehängt ist, ein benutzerdefiniertes Feld enthält, das sich auch in einem benutzerdefinierten Formular befindet, das an das Problem angehängt ist, wird der Feldwert aus dem Problem für das neue Projekt verwendet. Wenn das benutzerdefinierte Feld bei dem Problem jedoch leer ist, wird der Wert aus der Vorlage verwendet.
 
 1. (Optional) Legen Sie alle weiteren Projektdetails &#x200B;Projekteigentümer, Projektdaten) und Aufgaben nach Bedarf fest.
 
