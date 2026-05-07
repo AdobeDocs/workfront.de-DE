@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '840'
 ht-degree: 6%
 
 ---
@@ -54,7 +54,7 @@ Sie können ein Projekt so konfigurieren, dass Benutzende dem Projekt Probleme p
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -121,7 +121,9 @@ Wenn ein Workfront-Benutzer eine E-Mail an Workfront sendet, passiert Folgendes:
 
   >[!NOTE]
   >
-  > MSG-Dateien werden nicht unterstützt und nicht an das Problem in Workfront angehängt.
+  >* MSG-Dateien werden nicht unterstützt und nicht an das Problem in Workfront angehängt.
+  >
+  >* Wenn Ihre Umgebung sowohl auf den alten Workfront- als auch auf den Unternehmensdokumentspeicher von Adobe zugreifen kann, erben Anfragen ihren Dokumentspeichertyp vom Projekt, unabhängig davon, was der Workfront-Administrator für Ihre Standardspeichereinstellung im Bereich „Setup“ ausgewählt hat. Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und zugehörige Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 * Der Benutzer, der die E-Mail sendet, wird zum Primären Ansprechpartner für das neue Problem in Workfront.
 * Der Textkörper der E-Mail darf 4.000 Zeichen nicht überschreiten.

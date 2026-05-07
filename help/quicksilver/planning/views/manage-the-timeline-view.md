@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
 workflow-type: tm+mt
-source-wordcount: '4007'
+source-wordcount: '4035'
 ht-degree: 3%
 
 ---
@@ -175,7 +175,7 @@ So verwalten Sie eine Zeitleisten -Ansicht:
 
    Die folgenden Szenarien sind vorhanden:
 
-   * Wenn zwischen den Daten der Quartale Lücken oder Überschneidungen festgestellt wurden, erhalten Sie möglicherweise eine Benachrichtigung, dass benutzerdefinierte Quartale jetzt eingerichtet werden können und möglicherweise bearbeitet werden müssen.
+   * Wenn zwischen den Datumsangaben der Quartale Lücken oder Überschneidungen festgestellt wurden, erhalten Sie möglicherweise eine Benachrichtigung, dass benutzerdefinierte Quartale jetzt eingerichtet werden können und bearbeitet werden müssen.
 
      ![Benachrichtigung für benutzerdefinierte Quartale fehlt oder Lücken zwischen Quartalen](assets/custom-quarter-notification-missing-or-gaps.png)
 
@@ -287,7 +287,7 @@ So fügen Sie einen Filter zu einer Zeitleisten -Ansicht hinzu:
 1. Wählen Sie eine Zeitleisten -Ansicht aus **klicken Sie dann** oben rechts in der Tabelle auf „Filter“.
 1. Klicken Sie **Bedingung hinzufügen** und fügen Sie die folgenden Informationen hinzu:
 
-   * **Feld auswählen**, um nach einem Feld zu suchen, oder und wählen Sie es aus der Liste aus.
+   * **Feld auswählen**, um nach einem Feld zu suchen und es aus der Liste auszuwählen.
 
    * **Wählen Sie eine Option** oder einen Filtermodifikator), um festzulegen, welche Art von Bedingung das Feld erfüllen muss.
 
@@ -389,7 +389,7 @@ Beachten Sie beim Arbeiten mit Gruppierungen in der Zeitleisten -Ansicht Folgend
 
 * Sie können Gruppierungen sowohl in der Tabellen- als auch in der Zeitleisten-Ansicht anwenden. Die Gruppierungen der Tabellenansicht sind unabhängig von denen in der Zeitleisten -Ansicht desselben Datensatztyps.
 * Sie können in einer Ansicht drei Gruppierungsebenen anwenden. Die Datensätze werden in der Reihenfolge der ausgewählten Gruppierungen gruppiert.
-&lt;!—* Bei Verwendung der API können Sie bis zu 4 Gruppierungsebenen anwenden. —Diese wird vorerst überprüft—>
+&lt;!—!—* Bei Verwendung der API können Sie bis zu 4 Gruppierungsebenen anwenden. —Diese wird vorerst überprüft—>
 * Die Gruppierungen sind für die ausgewählte Ansicht eindeutig. Auf zwei Tabellenansichten desselben Datensatztyps können unterschiedliche Gruppierungen angewendet werden. Zwei Benutzende, die dieselbe Tabellenansicht betrachten, sehen dieselbe Gruppierung, die derzeit angewendet wird.
 * Die von Ihnen erstellten Gruppierungen können nicht für eine Tabellenansicht benannt werden.
 * Das Entfernen von Gruppierungen entfernt sie von allen Benutzern, die auf denselben Datensatztyp zugreifen wie Sie und die dieselbe Ansicht anzeigen wie Sie.
@@ -434,7 +434,7 @@ So fügen Sie eine Gruppierung in der Zeitleisten -Ansicht hinzu:
    Klicken Sie auf **Alle löschen**, um alle Felder zu entfernen.
 
 1. Klicken Sie außerhalb des Felds **Datensätze gruppieren nach**, um es zu schließen.
-1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [&#x200B; Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
+1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [ Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
 
 <!-- 
 
@@ -460,7 +460,7 @@ Aktualisieren Sie die Einstellungen für die Zeitleisten-Ansicht, um anzugeben, 
    >
    >* Wenn Sie zusätzliche Datensätze mithilfe der Option Aufschlüsselung anzeigen, sind das Start- und Enddatum die Daten des Hauptdatensatzes. Start- und Enddatum für die verbundenen Datensätze in diesem Bereich können nicht ausgewählt werden.
 
-1. (Bedingt und optional) Wenn Sie Workfront-Administrator sind, klicken Sie im Feld **Benutzerdefinierte Quartale verwenden** auf **Zum Setup wechseln**, um den Bereich Setup aufzurufen und benutzerdefinierte Quartale einzurichten. Nach der Einrichtung benutzerdefinierter Quartale können Sie diese in der Ansicht „Zeitleiste“ anstelle der klassischen Quartale anzeigen. Wenn Sie kein Workfront-Administrator sind, können Sie von einem Administrator anfordern, dass die benutzerdefinierten Quartale für Ihr Unternehmen aktiviert werden.
+1. (Bedingt und optional) Wenn Sie Workfront-Administrator sind, klicken Sie im Feld „Benutzerdefinierte Quartale verwenden **auf** Zum Setup wechseln **,** den Bereich „Setup“ zu wechseln und benutzerdefinierte Quartale einzurichten. Nach der Einrichtung benutzerdefinierter Quartale können Sie diese in der Ansicht „Zeitleiste“ anstelle der klassischen Quartale anzeigen. Wenn Sie kein Workfront-Administrator sind, können Sie von einem Administrator anfordern, dass die benutzerdefinierten Quartale für Ihr Unternehmen aktiviert werden.
 
    Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale aktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
@@ -567,8 +567,8 @@ Beachten Sie Folgendes, wenn Sie die Timeline der Datensätze nach ihren verbund
 * Verbundene Datensätze können nur in der Zeitleisten -Ansicht angezeigt werden, wenn die Datensätze im Standardmodus angezeigt werden. Die Aufschlüsselungsoption kann im Komprimierungsmodus der Zeitleisten -Ansicht nicht verwendet werden.
 * Mithilfe der Aufschlüsselungsfunktion können Sie Folgendes in der Zeitleisten -Ansicht anzeigen:
    * Mit dem ausgewählten Datensatztyp verknüpfte Workfront-Planungsdatensätze
-   * Workfront-Objekttypen oder Experience Manager-Assets, die mit dem ausgewählten Datensatztyp verbunden sind.
-   * Workfront Planning-Datensätze oder -Objekte aus einem anderen Programm, die mit Datensätzen verbunden sind, die mit dem ausgewählten Datensatztyp verbunden sind.
+   * Workfront- oder Experience Manager-Objekttypen, die mit dem ausgewählten Datensatztyp verbunden sind.
+   * Workfront Planning-Datensätze oder -Objekte aus anderen Programmen, die mit Datensätzen verbunden sind, die mit dem ausgewählten Datensatztyp verbunden sind.
 
      Sie können beispielsweise Kampagnen mit Portfolios verbinden. Darüber hinaus können Sie einen anderen Datensatztyp, nämlich Produkte, mit Projekten sowie mit Kampagnen verbinden. Wenn Sie die Ansicht Kampagnen-Zeitleiste erstellen, können Sie die Kampagnen nach Portfolios, Produkten und Projekten aufschlüsseln.
 
@@ -581,13 +581,13 @@ Beachten Sie Folgendes, wenn Sie die Timeline der Datensätze nach ihren verbund
 Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Sie können nur Datensatztypen anzeigen, die mit mindestens zwei Datumsfeldern verknüpft sind.
 * Die Datumsfelder für die Datensatztypen, die in der Zeitleisten -Ansicht angezeigt werden sollen, müssen in der Tabellenansicht des ausgewählten Datensatztyps als Nachschlagefelder sichtbar sein.
-* Das Start- und Enddatum der Datensatztypen, die in der Zeitleisten -Ansicht angezeigt werden sollen, müssen in chronologischer Reihenfolge sortiert sein. Wenn beispielsweise ein Datensatz das Startdatum 31. Januar und das Enddatum 1. Januar hat, wird er nicht in der Zeitleisten -Ansicht angezeigt. Weitere Informationen finden Sie im Abschnitt [Verwalten einer Zeitleisten-Ansicht](#manage-a-timeline-view) in diesem Artikel.
+* Das Start- und Enddatum der Datensatztypen, die in der Zeitleisten -Ansicht angezeigt werden sollen, müssen in chronologischer Reihenfolge angegeben werden. Wenn beispielsweise ein Datensatz das Startdatum 31. Januar und das Enddatum 1. Januar hat, wird er nicht in der Zeitleisten -Ansicht angezeigt. Weitere Informationen finden Sie im Abschnitt [Verwalten einer Zeitleisten-Ansicht](#manage-a-timeline-view) in diesem Artikel.
 * Es gibt eine Begrenzung von fünf Datensatztypen, die Sie in die Aufschlüsselung eines Datensatzes einbeziehen können.
 
 #### Aufschlüsseln verbundener Datensätze
 
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie in den **&#x200B;**- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
+1. Klicken Sie in den ****- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
 1. Erweitern Sie das **Verknüpften Datensatztyp auswählen** und wählen Sie einen verbundenen Datensatztyp aus. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![Aufschlüsselungsauswahl und Schaltfläche in der Zeitleisten-Ansicht](assets/breakdown-picker-and-button-on-timeline.png)
@@ -619,7 +619,7 @@ Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quic
 
    >[!TIP]
    >
-   >Wählen **Nicht mehr anzeigen** in der Ansicht **Zur Standardansicht wechseln?** vor dem Wechsel der Ansicht.
+   >Wählen **Nicht mehr anzeigen** in der **Zur Standardansicht wechseln?** vor dem Wechseln der Ansicht.
    >
    >Diese Einstellung wird nur für den aktuellen Browser gespeichert. Wenn Sie Browser oder Computer wechseln, müssen Sie diese Einstellung erneut auswählen.
    >
