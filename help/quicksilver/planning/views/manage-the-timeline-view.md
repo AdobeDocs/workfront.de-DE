@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '4035'
+source-wordcount: '4068'
 ht-degree: 3%
 
 ---
@@ -212,8 +212,14 @@ So verwalten Sie eine Zeitleisten -Ansicht:
       * **Year**: Zeigt Quartale und Monate mit Jahresangabe an.
       * **Quartal**: Zeigt Monate und Wochen mit Quartalsangabe an.
       * **Monat**: Zeigt Wochen und Tage an.
+
+     >[!TIP]
+     >
+     >In der Zeitleisten -Ansicht werden nur Geschäftswochen entsprechend den klassischen Quartalen angezeigt. Wenn der Workfront-Administrator benutzerdefinierte Quartale im Bereich „Setup“ aktiviert, werden die Wocheninformationen nicht in der Zeitleistenansicht angezeigt.
+
 1. (Optional) Klicken Sie **Zur Kompaktansicht wechseln**, um die Datensätze anzuzeigen, deren Daten sich nicht in derselben Zeile schneiden. <!--check to see if they updated the name of the setting here-->
 1. (Bedingt) Wenn Sie den Modus auf **Kompakt** geändert haben, klicken Sie auf **Zur Standardansicht wechseln**, um Datensätze in separaten Zeilen anzuzeigen. Die **Standard**-Option ist die Standardeinstellung.  <!--check to see if they updated the name of the setting here-->
+
 
 1. Gehen Sie folgendermaßen vor, um schnell Datensätze zu finden, die einem Keyword entsprechen:
 

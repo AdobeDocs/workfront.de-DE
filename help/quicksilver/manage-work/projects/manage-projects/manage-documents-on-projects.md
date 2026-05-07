@@ -6,9 +6,9 @@ description: Je nachdem, ob Ihr Workfront-Administrator für Ihre standardmäßi
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1755'
 ht-degree: 0%
 
 ---
@@ -165,6 +165,11 @@ Beachten Sie beim Arbeiten mit Aufgaben Folgendes:
 * Sie können den Dokumentordner umbenennen und aus der Aufgabe &quot;Adobe Enterprise-Storage“ löschen, wodurch auch die Dokumente im Ordner gelöscht werden. Nachdem Sie der Aufgabe neue Dokumente hinzugefügt haben, wird der Ordner automatisch neu erstellt. Gelöschte Dokumente werden nicht wieder im Ordner abgelegt.
 * Bei Enterprise-Storage-Projekten in Adobe wird der Dokumentenordner auf einer Aufgabe als Unterordner im automatisch für das Projekt erstellten Dokumentenordner angezeigt.
 * Es ist nicht möglich, eine Aufgabe aus einem Workfront-Speicherprojekt in ein Adobe-Speicherprojekt zu kopieren oder zu verschieben. Auch das Gegenteil ist nicht möglich.
+* Beim Konvertieren einer Aufgabe in ein Projekt treten die folgenden Szenarien auf: <!--this info also duplicated in Convert tasks to projects-->
+   * Eine Workfront-Speicheraufgabe erstellt ein Workfront-Speicherprojekt.
+   * Bei einer Adobe-Aufgabe für den Unternehmensspeicher wird ein Adobe-Speicherprojekt erstellt.
+   * Durch die Verwendung einer Workfront-Speichervorlage zum Konvertieren einer Adobe-Speicheraufgabe wird ein Adobe-Speicherprojekt erstellt.
+   * Durch die Verwendung einer Adobe-Speichervorlage zum Konvertieren einer Workfront-Speicheraufgabe wird ein Workfront-Speicherprojekt erstellt.
 
 ### Dokumentenverwaltung für Probleme
 
@@ -176,6 +181,11 @@ Beachten Sie beim Arbeiten mit Problemen Folgendes:
 * Bei Enterprise-Storage-Projekten in Adobe wird der Dokumentordner in einem Problem als Unterordner im automatisch für das Projekt erstellten Dokumentenordner angezeigt.
 * Ein Problem kann nicht aus einem Workfront-Speicherprojekt in ein Adobe-Speicherprojekt kopiert oder verschoben werden. Auch das Gegenteil ist nicht möglich.
 * Wenn Sie eine Anfrage mit einem an ein Workfront-Storage-Projekt angehängten Dokument senden, wird das Dokument im Bereich Dokumente der Anfrage unter Verwendung des Speichertyps des Projekts angezeigt, auch wenn die Standardeinstellung für den Systemspeicher Adobe Enterprise ist.
+* Beim Konvertieren eines Problems in ein Projekt treten die folgenden Szenarien auf: <!--this info also duplicated in Convert an issue to a project-->
+   * Bei einem Workfront-Speicherproblem wird ein Workfront-Speicherprojekt erstellt.
+   * Bei einem Adobe-Problem mit Enterprise-Storage wird ein Adobe-Storage-Projekt erstellt.
+   * Wenn Sie eine Workfront-Speichervorlage zum Konvertieren eines Adobe-Speicherproblems verwenden, wird ein Adobe-Speicherprojekt erstellt.
+   * Wenn Sie eine Adobe-Speichervorlage zum Konvertieren eines Workfront-Speicherproblems verwenden, wird ein Workfront-Speicherprojekt erstellt.
 
 ### Dokumentenverwaltung für Projektvorlagen
 

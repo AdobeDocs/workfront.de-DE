@@ -8,7 +8,7 @@ feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 62d7144f808e7937f11c11ccff64e409c76f2197
+source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
 workflow-type: tm+mt
 source-wordcount: '1312'
 ht-degree: 4%
@@ -47,7 +47,7 @@ Das Hinzufügen von Dokumenten zu Workfront unterscheidet sich je nachdem, welch
 <p>Beliebiges Workflow-Paket zum Verwalten von Dokumenten mit Adobe Enterprise Storage</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenzen*</td> 
+   <td role="rowheader">Adobe Workfront-Lizenzen</td> 
    <td> 
    <p>Mitwirkende oder höher</p> 
    <p>Anfragende oder höher</p> </td> 
@@ -125,7 +125,7 @@ Hinzufügen eines Dokuments:
       <td role="rowheader">Hochladen von Dokumenten aus einer Drittanbieteranwendung wie Google Drive oder SharePoint</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>Wählen Sie <strong> Dropdown-Menü </strong>Neu hinzufügen“ die Option <strong>Von &lt;Name_der_Drittanbieteranwendung&gt;</strong> aus.</p> <p>Um beispielsweise ein Dokument von Google Drive hochzuladen, klicken Sie auf <strong>Von Google Drive</strong>.</p> </li> 
+        <li value="1"> <p>Wählen Sie <strong> Dropdown</strong>Menü „Neu hinzufügen“ die Option <strong>Von &lt;Name_der_Drittanbieteranwendung&gt;</strong>.</p> <p>Um beispielsweise ein Dokument von Google Drive hochzuladen, klicken Sie auf <strong>Von Google Drive</strong>.</p> </li> 
         <li value="2"> <p>Befolgen Sie die Anweisungen, um das Dokument im Drittanbieterprogramm auszuwählen.<br></p> <p>Weitere Informationen zu verknüpften Dokumenten finden Sie unter <a href="../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md" class="MCXref xref">Verknüpfen von Dokumenten aus externen Anwendungen</a>.</p> </li> 
        </ol> </td> 
      </tr> 
