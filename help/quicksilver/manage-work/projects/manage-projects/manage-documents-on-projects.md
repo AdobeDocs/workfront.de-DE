@@ -6,9 +6,9 @@ description: Je nachdem, ob Ihr Workfront-Administrator für Ihre standardmäßi
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1631'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Mit dieser Einstellung können Sie an Workfront-Objekte angehängte Dokumente au
 
 >[!IMPORTANT]
 >
->Ihre Workfront-Instanz hat möglicherweise nicht sowohl Zugriff auf Workfront als auch auf den Adobe-Speicher. Einige Workfront-Instanzen haben nur Zugriff auf Workfront, während andere standardmäßig nur Zugriff auf den Adobe Enterprise-Speicher haben. Für Kunden mit Zugriff auf nur einen Speichertyp ist keine Konfiguration erforderlich.
+>Ihre Workfront-Instanz hat möglicherweise keinen Zugriff auf Workfront- und Adobe-Speicher. Einige Workfront-Instanzen haben nur Zugriff auf Workfront, während andere standardmäßig nur Zugriff auf den Adobe Enterprise-Speicher haben. Für Kunden mit Zugriff auf nur einen Speichertyp ist keine Konfiguration erforderlich.
 
 Der Workfront-Administrator kann einen der folgenden Schritte ausführen:
 
@@ -124,7 +124,7 @@ Dokumente, die in Objekten im Workfront-Speicher gespeichert sind, werden anders
 
 Weitere Informationen finden Sie unter [Übersicht über Adobe Enterprise Storage](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-In den folgenden Abschnitten wird beschrieben, wie die Dokumentenspeicherung für Workfront-Objekte funktioniert, wenn sowohl Workfront als auch Adobe Enterprise-Speicheroptionen vorhanden sind.
+In den folgenden Abschnitten wird beschrieben, wie die Dokumentenspeicherung für Workfront-Objekte funktioniert, wenn sowohl Workfront- als auch Adobe Enterprise-Speicheroptionen in derselben Umgebung vorhanden sind.
 
 ### Dokumentenverwaltung für Projekte
 
@@ -133,6 +133,8 @@ Beachten Sie beim Arbeiten mit Projekten Folgendes:
 * Wenn Sie ein Enterprise-Storage-Projekt in Adobe erstellen, erstellt Workfront einen Ordner im Abschnitt Dokumente des Projekts, in dem Dokumente gespeichert werden. Der Ordnername entspricht dem Namen des Projekts. Sie können den Ordner nicht löschen oder manuell umbenennen. Der Ordner wird umbenannt, wenn Sie den Projektnamen so ändern, dass er zum neuen Projektnamen passt.
 * Wenn Sie ein Adobe-Enterprise-Speicherprojekt erstellen oder in ein veraltetes Workfront-Speicherportfolio oder -programm verschieben, wird das Portfolio oder Programm automatisch in ein Adobe-Enterprise-Speicherobjekt konvertiert.
 * Sie können kein Workfront-Speicherprojekt für ein Adobe Enterprise-Speicherportfolio oder -Programm erstellen.
+* Wenn Sie ein Projekt aus MS Project importieren, erstellt Workfront ein Workfront-Speicherprojekt, auch wenn der Workfront-Administrator den Adobe Enterprise-Speicher als Standard für Ihr System festgelegt hat.
+* Wenn Sie Projekte mit einer Workfront-Planungsautomatisierung erstellen, verwendet Workfront die standardmäßige Speichervoreinstellung Ihres Systems für das Projekt. Sie müssen das Planning-Paket erwerben, um Zugriff auf Workfront Planning zu erhalten.
 
 ### Dokumentenmanagement für Portfolios
 
@@ -142,15 +144,17 @@ Beachten Sie beim Arbeiten mit Portfolios Folgendes:
 * Wenn Sie ein Adobe-Enterprise-Speicherprojekt erstellen oder in ein veraltetes Workfront-Speicherportfolio verschieben, wird das Portfolio automatisch in ein Adobe-Enterprise-Speicherobjekt konvertiert.
 * Wenn dem konvertierten Portfolio zuvor Dokumente beigefügt waren, bleiben sie weiterhin im Workfront-Speicher gespeichert. Neue Dokumente werden auch im Workfront-Speicher gespeichert.
 * Wenn an das konvertierte Portfolio keine Dokumente im Workfront-Speicher angehängt waren, werden neue Dokumente im Adobe Enterprise-Speicher gespeichert.
+* Wenn Sie Portfolios mit einer Workfront-Planungsautomatisierung erstellen, verwendet Workfront die standardmäßige Speichervoreinstellung Ihres Systems für das Portfolio. Sie müssen das Planning-Paket erwerben, um Zugriff auf Workfront Planning zu erhalten.
 
 ### Dokumentenverwaltung für Programme
 
 Beachten Sie beim Arbeiten mit Programmen Folgendes:
 
-* Wenn Sie ein Adobe-Enterprise-Storage-Programm erstellen, erstellt Workfront im Programmabschnitt Dokumente einen Ordner, in dem Dokumente gespeichert werden. Der Ordnername ist mit dem Programmnamen identisch. Sie können den Ordner nicht löschen oder manuell umbenennen. Wenn Sie den Programmnamen ändern, wird der Ordner umbenannt, damit er zum neuen Programmnamen passt.
+* Wenn Sie ein Adobe-Enterprise-Storage-Programm erstellen, erstellt Workfront im Programmabschnitt Dokumente einen Ordner, in dem Dokumente gespeichert werden. Der Ordnername entspricht dem Namen des Programms. Sie können den Ordner nicht löschen oder manuell umbenennen. Wenn Sie den Programmnamen ändern, wird der Ordner umbenannt, damit er zum neuen Programmnamen passt.
 * Wenn Sie ein Adobe-Enterprise-Speicherprojekt erstellen oder in ein veraltetes Workfront-Speicherportfolio verschieben, wird das Portfolio automatisch in ein Adobe-Enterprise-Speicherobjekt konvertiert.
 * Wenn dem konvertierten Programm zuvor Dokumente beigefügt waren, bleiben diese weiterhin im Workfront-Speicher gespeichert. Neue Dokumente werden auch im Workfront-Speicher gespeichert.
 * Wenn dem konvertierten Programm keine Dokumente im Workfront-Speicher angehängt waren, werden neue Dokumente im Adobe Enterprise-Speicher gespeichert.
+* Wenn Sie Programme mithilfe einer Workfront-Planungsautomatisierung erstellen, verwendet Workfront die standardmäßige Speichervoreinstellung Ihres Systems für das Programm. Sie müssen das Planning-Paket erwerben, um Zugriff auf Workfront Planning zu erhalten.
 
 ### Dokumentverwaltung für Aufgaben
 
@@ -171,6 +175,7 @@ Beachten Sie beim Arbeiten mit Problemen Folgendes:
 * Sie können den Dokumentordner umbenennen und aus dem Adobe-Unternehmensspeicherproblem löschen, wodurch auch die Dokumente im Ordner gelöscht werden. Nachdem Sie dem Problem neue Dokumente hinzugefügt haben, wird der Ordner automatisch neu erstellt. Gelöschte Dokumente werden nicht wieder im Ordner abgelegt.
 * Bei Enterprise-Storage-Projekten in Adobe wird der Dokumentordner in einem Problem als Unterordner im automatisch für das Projekt erstellten Dokumentenordner angezeigt.
 * Ein Problem kann nicht aus einem Workfront-Speicherprojekt in ein Adobe-Speicherprojekt kopiert oder verschoben werden. Auch das Gegenteil ist nicht möglich.
+* Wenn Sie eine Anfrage mit einem an ein Workfront-Storage-Projekt angehängten Dokument senden, wird das Dokument im Bereich Dokumente der Anfrage unter Verwendung des Speichertyps des Projekts angezeigt, auch wenn die Standardeinstellung für den Systemspeicher Adobe Enterprise ist.
 
 ### Dokumentenverwaltung für Projektvorlagen
 
