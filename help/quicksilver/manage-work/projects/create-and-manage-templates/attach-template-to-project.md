@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 5%
+source-wordcount: '1130'
+ht-degree: 8%
 
 ---
 
@@ -169,11 +169,11 @@ Sie können eine Vorlage über die Projektseite oder eine Projektliste oder eine
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Wählen Sie die Projektaufgabe aus, die Sie als Vorgänger für die Aufgaben in dieser Vorlage haben möchten.</td> 
+      <td role="rowheader">Die Projektaufgabe auswählen, die als Vorgängeraufgabe für die Aufgaben in dieser Vorlage verwendet werden soll.</td> 
       <td> <p>Klicken Sie in das Feld Feld, um eine Liste der Projektaufgaben anzuzeigen, und wählen Sie dann aus, welche Aufgabe abgeschlossen sein muss, bevor die Vorlagenaufgaben beginnen können. Alternativ können Sie diesen Schritt überspringen und Beziehungen innerhalb des Projekts einrichten, nachdem die Vorlage angehängt wurde. </p> <p> Wählen Sie die Informationen <strong>Abhängigkeitstyp</strong>, <strong>Verzögerungszeit</strong> und , wenn Sie möchten, dass der Vorgänger erzwungen wird, indem Sie das Kontrollkästchen <strong>Vorgänger erzwingen</strong> aktivieren. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Wählen Sie die Projektaufgabe aus, die Sie als übergeordnetes Element der Aufgaben in dieser Vorlage haben möchten.</td> 
+      <td role="rowheader">Die Projektaufgabe auswählen, die als übergeordnete Aufgabe für die Aufgaben in dieser Vorlage verwendet werden soll.</td> 
       <td> <p>Wählen Sie die Projektaufgabe aus, die Sie als übergeordnete Aufgabe für alle Vorlagenaufgaben festlegen möchten. Wenn Sie keine Auswahl treffen, werden alle Vorlagenaufgaben am Ende der aktuellen Projektaufgaben angezeigt. Sie können diesen Schritt überspringen und Aufgaben im Projekt verschieben, nachdem die Vorlage angehängt wurde.</p>
       <p><b>NOTIZ</b></p>
       <p>Wenn Sie eine übergeordnete Vorlagenaufgabe mit zusätzlichen untergeordneten Elementen ausgewählt haben, zeigt nur das übergeordnete Element die Projektaufgabe als Vorgänger an, nachdem sie dem Projekt hinzugefügt wurde. Für die untergeordneten Vorlagenaufgaben wird kein Vorgänger angezeigt.</p>
@@ -218,7 +218,7 @@ Sie können eine Vorlage über die Projektseite oder eine Projektliste oder eine
 
    >[!TIP]
    >
-   >Wenn Sie mehr als eine Vorlage an das Projekt anhängen, wird nur die zuerst angehängte Vorlage in diesem Feld angezeigt. Weitere Informationen finden Sie [&#x200B; Abschnitt „Anhängen mehrerer Vorlagen an ein vorhandenes Projekt und Anzeigen &#x200B;](#attach-multiple-templates-to-an-existing-project-and-view-template-information) Vorlageninformationen“ in diesem Artikel.
+   >Wenn Sie mehr als eine Vorlage an das Projekt anhängen, wird nur die zuerst angehängte Vorlage in diesem Feld angezeigt. Weitere Informationen finden Sie [ Abschnitt „Anhängen mehrerer Vorlagen an ein vorhandenes Projekt und Anzeigen ](#attach-multiple-templates-to-an-existing-project-and-view-template-information) Vorlageninformationen“ in diesem Artikel.
 
 1. (Optional) Entfernen Sie Vorlageninformationen aus dem Projekt, an das Sie die Vorlage angehängt haben. Weitere Informationen finden Sie unter [Entfernen von Vorlageninformationen aus einem Projekt](../../../manage-work/projects/create-and-manage-templates/remove-template-from-project.md).
 

@@ -9,10 +9,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 31b97154-e506-4a1c-ab9a-92395156ed47
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 0%
+ht-degree: 40%
 
 ---
 
@@ -27,13 +27,13 @@ Dieser Abschnitt enthält die folgenden Unterabschnitte:
 * [Automatisierter Workflow in [!DNL Workfront Proof]](../../workfront-proof/wp-work-proofsfiles/automated-workflow/automated-workflow.md)
 * [Grundlegende Funktionen in [!DNL Workfront Proof]](../../workfront-proof/wp-work-proofsfiles/basic-features/basic-features.md)
 * [Erstellen von Korrekturabzügen und Dateien](../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/create-proofs-and-files.md)
-* [Verwalten der Arbeit](../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-your-work.md)
-* [Organisieren der Arbeit](../../workfront-proof/wp-work-proofsfiles/organize-your-work/organize-your-work.md)
-* [Testsendungen im Desktop Proofing Viewer überprüfen](../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
+* [Verwalten Ihrer Arbeit](../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-your-work.md)
+* [Organisieren Ihrer Arbeit](../../workfront-proof/wp-work-proofsfiles/organize-your-work/organize-your-work.md)
+* [Überprüfen von Korrekturabzügen im Desktop Proofing Viewer](../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-proof/wp-work-proofsfiles/review-proofs-lpv/review-proofs-in-the-lpv.md" class="MCXref xref" xrefformat="{para}">Review proofs in the Legacy Proofing Viewer</a> </li>
   -->
 
-* [Testsendungen im Web-Proofing-Viewer überprüfen](../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md)
+* [Überprüfen von Korrekturabzügen im Web Proofing Viewer](../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md)
 * [[!UICONTROL Testsendungen und Dateien freigeben]](../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proofs-and-files.md)

@@ -8,9 +8,9 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 710035f7-339c-457c-b9b0-e51bc0e0061d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '533'
 ht-degree: 8%
 
 ---
@@ -29,7 +29,7 @@ Sie können Ihre Zeichenflächen als Dokumente hochladen, um sie schnell zu übe
  <col> 
  <tbody> 
   <tr> 
-   <!--
+  <!--
     <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
@@ -42,11 +42,11 @@ Sie können Ihre Zeichenflächen als Dokumente hochladen, um sie schnell zu übe
   <tr>
   -->
    <td role="rowheader">Zusätzliche Produkte</td> 
-   <td>Sie müssen zusätzlich zu einer [!DNL Adobe Creative Cloud] über eine [!DNL Workfront]-Lizenz verfügen.</td> 
+   <td>Sie müssen zusätzlich zu einer [!DNL Workfront] über eine [!DNL Adobe Creative Cloud]-Lizenz verfügen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf [!UICONTROL -Dokumente] bearbeiten</p> </td> 
+   <td> <p>Zugriff auf [!UICONTROL-Dokumente] bearbeiten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
@@ -55,7 +55,7 @@ Sie können Ihre Zeichenflächen als Dokumente hochladen, um sie schnell zu übe
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -96,11 +96,11 @@ Anweisungen finden Sie unter [Installieren [!DNL Adobe Workfront for XD]](/help/
      </tr>
      <tr>
       <td role="rowheader">JPG</td>
-      <td>Die Zeichenflächen werden als JPG in die Registerkarte [!UICONTROL -Dokumente] des Arbeitselements in [!DNL Workfront] hochgeladen. <br></td>
+      <td>Die Zeichenflächen werden als JPG in die Registerkarte [!UICONTROL-Dokumente] des Arbeitselements in [!DNL Workfront] hochgeladen. <br></td>
      </tr>
      <tr>
       <td role="rowheader">SVG</td>
-      <td>Die Zeichenflächen werden als SVG in die Registerkarte [!UICONTROL -Dokumente] des Arbeitselements in [!DNL Workfront] hochgeladen. </td>
+      <td>Die Zeichenflächen werden als SVG in die Registerkarte [!UICONTROL-Dokumente] des Arbeitselements in [!DNL Workfront] hochgeladen. </td>
      </tr>
      <tr>
       <td role="rowheader">PDF</td>
@@ -147,15 +147,15 @@ Anweisungen finden Sie unter [Installieren [!DNL Adobe Workfront for XD]](/help/
      </tr>
      <tr>
       <td role="rowheader">JPG</td>
-      <td>Die Zeichenfläche wird in [!DNL Workfront] als JPG in die Registerkarte [!UICONTROL -Dokumente] des Arbeitselements hochgeladen. <br></td>
+      <td>Die Zeichenfläche wird in [!DNL Workfront] als JPG in die Registerkarte [!UICONTROL-Dokumente] des Arbeitselements hochgeladen. <br></td>
      </tr>
      <tr>
       <td role="rowheader">SVG</td>
-      <td>Die Zeichenfläche wird als SVG in die Registerkarte [!UICONTROL -Dokumente] des Arbeitselements in [!DNL Workfront] hochgeladen. </td>
+      <td>Die Zeichenfläche wird als SVG in die Registerkarte [!UICONTROL-Dokumente] des Arbeitselements in [!DNL Workfront] hochgeladen. </td>
      </tr>
      <tr>
       <td role="rowheader">PDF</td>
-      <td><p>Die Zeichenflächen werden als PDF in die Registerkarte [!UICONTROL -Dokumente] des Arbeitselements in [!DNL Workfront] hochgeladen.</p>
+      <td><p>Die Zeichenflächen werden als PDF in die Registerkarte [!UICONTROL-Dokumente] des Arbeitselements in [!DNL Workfront] hochgeladen.</p>
       <p><strong>Hinweis</strong>: Für eine neue Dokumentversion kann nur eine Zeichenfläche hochgeladen werden.</p>
       </td>
      </tr>

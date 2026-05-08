@@ -1,19 +1,19 @@
 ---
 content-type: overview
 navigation-topic: notifications
-title: Übersicht über In-App-Benachrichtigungen
+title: Überblick über In-App-Benachrichtigungen
 description: 'In diesem Artikel werden die In-App-Benachrichtigungen aufgelistet, die Sie erhalten können. In-App-Benachrichtigungen halten Sie über zwei Arten von Informationen auf dem Laufenden: Ankündigungsbenachrichtigungen und Arbeitsaufgabenbenachrichtigungen. Sie sind sowohl in der Web-Anwendung als auch in der Mobile App verfügbar.'
 author: Courtney
 feature: Get Started with Workfront
 exl-id: afc8cfe7-d9a7-458a-b437-bd4c75838cb0
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 1%
+source-wordcount: '837'
+ht-degree: 2%
 
 ---
 
-# Übersicht über In-App-Benachrichtigungen
+# Überblick über In-App-Benachrichtigungen
 
 In diesem Artikel werden die In-App-Benachrichtigungen aufgelistet, die Sie erhalten können. In-App-Benachrichtigungen halten Sie über zwei Arten von Informationen auf dem Laufenden: Ankündigungsbenachrichtigungen und Arbeitsaufgabenbenachrichtigungen. Sie sind sowohl in der Web-Anwendung als auch in der Mobile App verfügbar.
 
@@ -48,7 +48,7 @@ Wenn Sie auf das nummerierte Symbol ![Benachrichtigungssymbol](assets/notificati
 * [[!UICONTROL Genehmigungen]](#approvals)
 * [[!UICONTROL Anfragen]](#requests)
 * [[!UICONTROL Arbeitsaufträge]](#assignments)
-* [[!UICONTROL Kommentare]](#comments)
+* [[!UICONTROL Erklärung]](#comments)
 * [[!UICONTROL Updates]](#updates)
 * [[!UICONTROL Datumsänderungen]](#date-changes)
 * [[!UICONTROL Freigeben]](#share)
@@ -56,7 +56,7 @@ Wenn Sie auf das nummerierte Symbol ![Benachrichtigungssymbol](assets/notificati
 
 ### [!UICONTROL Genehmigungen]
 
-* ![Projekt muss genehmigt &#x200B;](assets/prjneedsapprvl.png) [!UICONTROL Projekt muss genehmigt werden] - [Name des Absenders]
+* ![Projekt muss genehmigt ](assets/prjneedsapprvl.png)[!UICONTROL Projekt muss genehmigt werden] - [Name des Absenders]
 * ![Ihnen zugewiesene Aufgabe](assets/icon-taskassngdtoyou.png) [!UICONTROL Aufgabe benötigt Ihre Genehmigung] - [Name des Absenders]
 * ![Problem-Symbol](assets/issue.png) [!UICONTROL Problem muss genehmigt werden] - [Name des Absenders]
 * ![Dokumentsymbol](assets/document.png) [!UICONTROL Dokument muss genehmigt werden] - [Name des Absenders]
@@ -96,13 +96,13 @@ Wenn Sie auf das nummerierte Symbol ![Benachrichtigungssymbol](assets/notificati
 * ![Ihnen zugewiesene Aufgabe](assets/icon-taskassngdtoyou.png) [!UICONTROL Ihnen zugewiesene Aufgabe] - [Name des Zuweisers]
 * ![Problem-Symbol](assets/issue.png) [!UICONTROL Problem zugewiesen] - [Name des Zuweisenden]
 * ![Problem-Symbol](assets/issue.png) [!UICONTROL Problem zugewiesen zu] [Team-] - [Name des Zuweisers]
-* ![Ihnen zugewiesene Aufgabe](assets/icon-taskassngdtoyou.png) [!UICONTROL Aufgabe zugewiesen &#x200B;]&#x200B;[ Team-Name] - [Name des Zuweisers]
+* ![Ihnen zugewiesene Aufgabe](assets/icon-taskassngdtoyou.png) [!UICONTROL Aufgabe zugewiesen ][ Team-Name] - [Name des Zuweisers]
 
    * Zuweisungsbenachrichtigungen werden nur gesendet, wenn der Projektstatus auf [!UICONTROL Aktuell] (oder auf einen benutzerdefinierten Status, der [!UICONTROL Aktuell] entspricht) festgelegt ist.
    * Es ist nicht vorgesehen, dass Antragstellern und Prüfern Arbeiten zugewiesen werden. Daher werden sie nicht benachrichtigt, wenn sie Aufgaben und Problemen zugewiesen sind.
    * Wenn Sie sich oder einem Team, dem Sie angehören, Arbeit zuweisen, erhalten Sie keine Benachrichtigung.
 
-### [!UICONTROL Kommentare]
+### [!UICONTROL Erklärung]
 
 * ![Benutzersymbol](assets/user.png) [Objektname] [!UICONTROL Kommentar] - [Name des Kommentators]
 
