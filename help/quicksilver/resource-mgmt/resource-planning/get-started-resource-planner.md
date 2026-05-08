@@ -9,8 +9,8 @@ feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
 source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
-source-wordcount: '2113'
-ht-degree: 1%
+source-wordcount: '2115'
+ht-degree: 4%
 
 ---
 
@@ -70,7 +70,7 @@ Sie können Informationen im Ressourcenplaner mithilfe von drei separaten Ansich
   Informationen zu übergeordneten Aufgaben finden Sie in den folgenden Artikeln:
 
    * [Aufgaben - Übersicht](../../manage-work/tasks/task-information/tasks-overview.md)
-   * [Teilaufgaben erstellen](../../manage-work/tasks/create-tasks/create-subtasks.md)
+   * [Erstellen von Unteraufgaben](../../manage-work/tasks/create-tasks/create-subtasks.md)
 
   >[!TIP]
   >
@@ -184,9 +184,9 @@ Stellen Sie sicher, dass die folgende Aufgaben- und Problemeinrichtung vorhanden
 
   Um Ihre Informationen im Ressourcenplaner für Benutzer oder Rollen anzuzeigen, die mit übergeordneten Aufgaben verknüpft sind, müssen Sie sie auch den untergeordneten Aufgaben zuweisen. Der Ressourcenplaner zeigt keine Informationen aus übergeordneten Vorgängen an.
 
-* Aufgaben und Probleme haben einen Wert für Geplante Stunden, der größer als null ist.
-* Aufgaben und Probleme haben einen Wert für ihre Dauer von größer als null.
-* Die geplanten Termine der Anfragen befinden sich innerhalb der Projektplanung.
+* Aufgaben und Probleme haben einen Wert für „Geplante Stunden“, der größer als null ist.
+* Aufgaben und Probleme haben einen Wert für ihre „Dauer“, der größer als null ist.
+* Die geplanten Termine der Probleme befinden sich innerhalb der Timeline des Projekts.
 
 ### Voraussetzungen auf Systemebene {#system-level-prerequisites}
 
@@ -196,9 +196,9 @@ Sie müssen verstehen, wie die Benutzerverfügbarkeit in Ihrer Workfront-Instanz
 
 Ihr Workfront-Administrator konfiguriert Ihre Voreinstellungen für die Ressourcenverwaltung.
 
-Weitere Informationen finden Sie unter [Voreinstellungen für die Ressourcenverwaltung konfigurieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+Weitere Informationen finden Sie unter [Konfigurieren von Voreinstellungen für das Ressourcen-Management](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-## Suchen des Ressourcenplaners
+## Auffinden des Ressourcenplaners
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(This became another standalone article; drfat this section here when article is live.)</p>

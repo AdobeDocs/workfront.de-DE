@@ -12,7 +12,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1135'
 ht-degree: 6%
 
 ---
@@ -70,7 +70,7 @@ Sie können einen Benutzer jederzeit reaktivieren.
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
