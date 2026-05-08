@@ -8,8 +8,8 @@ feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
 source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 9%
+source-wordcount: '545'
+ht-degree: 15%
 
 ---
 
@@ -24,7 +24,7 @@ Ressourcenpools sind Sammlungen von Benutzern, mit denen Sie Ressourcen in Adobe
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +37,7 @@ Ressourcenpools sind Sammlungen von Benutzern, mit denen Sie Ressourcen in Adobe
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-   <p>Plan</p></td>
+   <p>Abo</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -50,7 +50,7 @@ Ressourcenpools sind Sammlungen von Benutzern, mit denen Sie Ressourcen in Adobe
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -86,7 +86,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
          <li><strong>Rollen</strong>: Alle mit dieser Rolle verknüpften Benutzer werden dem Ressourcenpool hinzugefügt.</li>
          <li><strong>Unternehmen</strong>: Alle Benutzer im Unternehmen werden zum Ressourcenpool hinzugefügt.</li>
         </ul><p>Tipp: Sie können nur aktive Benutzer, Teams, <span>Rollen</span> oder Unternehmen hinzufügen.</p><br>Möglicherweise müssen Sie im Dialogfeld nach unten scrollen, um alle Benutzenden im Ressourcenpool anzuzeigen.
-        <p>Hinweis: Wenn ein(e) Benutzende(r) Mitglied einer Gruppe, eines Teams oder einer Firma wird oder mit einem Aufgabengebiet verknüpft ist, nachdem die Gruppe, das Team, die Firma oder das Aufgabengebiet zum Ressourcenpool hinzugefügt wurde, wird das neue Mitglied nicht automatisch zum Ressourcenpool hinzugefügt. <br>Wenn ein Benutzer dem Team, der Gruppe, dem Unternehmen und dem Aufgabengebiet angehört, das Sie hinzufügen, wird der Benutzer nur einmal zum Ressourcenpool hinzugefügt.<br>Benutzende, die deaktiviert werden, nachdem sie zum Ressourcenpool hinzugefügt wurden, werden in der Benutzerliste abgeblendet angezeigt und als deaktiviert markiert.</p></p></td>
+        <p>Hinweis: Wenn ein(e) Benutzende(r) Mitglied einer Gruppe, eines Teams oder einer Firma wird oder mit einem Aufgabengebiet verknüpft ist, nachdem die Gruppe, das Team, die Firma oder das Aufgabengebiet zum Ressourcenpool hinzugefügt wurde, wird das neue Mitglied nicht automatisch zum Ressourcenpool hinzugefügt. <br>Wenn ein Benutzer dem Team, der Gruppe, dem Unternehmen und dem Aufgabengebiet angehört, das Sie hinzufügen, wird der Benutzer nur einmal zum Ressourcenpool hinzugefügt.<br>Benutzer, die deaktiviert werden, nachdem sie zum Ressourcenpool hinzugefügt wurden, werden in der Benutzerliste abgeblendet angezeigt und als deaktiviert markiert.</p></p></td>
      </tr>
     </tbody>
    </table>
