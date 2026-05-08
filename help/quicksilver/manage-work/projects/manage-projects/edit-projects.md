@@ -9,9 +9,9 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '8113'
+source-wordcount: '8107'
 ht-degree: 2%
 
 ---
@@ -287,7 +287,7 @@ Informationen zum Erstellen eines Projekts über eine Vorlage finden Sie unter [
       <p><b>NOTIZEN</b></p>
       <ul>
       <li>Sie müssen über Verwaltungsberechtigungen für das Portfolio verfügen, um es zum Projekt hinzufügen oder daraus entfernen zu können.</li>
-      <li>Wenn Ihr Unternehmen sowohl Workfront- als auch Adobe-Dokumentspeichertypen verwendet, können Sie kein Workfront-Speicherprojekt mit einem Adobe-Speicherportfolio verknüpfen. Auch das Gegenteil ist wahr. Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Arten von Dokumentspeicher.</li></ul> 
+      <li>Wenn Ihr Unternehmen sowohl ältere Workfront- als auch Adobe-Unternehmensspeicher verwendet, können Sie keine Aufgaben zwischen Projekten kopieren, die unterschiedliche Speichertypen verwenden. Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Arten von Dokumentspeicher.</li></ul> 
       Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Übersicht über das Dokumentenmanagement für Projekte und verwandte Objekte</a>. 
       </td> 
       </tr> 

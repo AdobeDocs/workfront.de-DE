@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '908'
 ht-degree: 6%
 
 ---
@@ -152,10 +152,15 @@ Sie können ein Problem in einer Liste mithilfe des Bedienfelds Zusammenfassung 
 
    | Symbol | Aktion |
    |---|---|
-   | Dokumente ![Symbol Dokumente](assets/documents-icon-in-summary.png) | Klicken Sie **Zum Hinzufügen hier klicken**, um dem Problem Dokumente hinzuzufügen. |
+   | Dokumente* ![Symbol Dokumente](assets/documents-icon-in-summary.png) | Klicken Sie **Zum Hinzufügen hier klicken**, um dem Problem Dokumente hinzuzufügen. |
    | Details ![details icon](assets/details-icon-in-summary.png) | Klicken, um Informationen zum Problem zu aktualisieren. |
    | Stunden ![Zeit protokollieren](assets/log-time-icon-in-summary.png) | Klicken, um Stunden einzutragen. |
    | Genehmigungen ![Symbol für Genehmigungen](assets/approvals-icon-in-summary.png) | Klicken, um Problemgenehmigungen hinzuzufügen. |
+
+   *Wenn Ihr Unternehmen Adobe Enterprise Document Storage verwendet, können Sie im Zusammenfassungsbereich keine Dokumente zu Adobe-Speicherproblemen hinzufügen.
+
+   Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und zugehörige Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 
 1. (Optional) Klicken Sie erneut auf **Zusammenfassung öffnen** oder auf das **X** Symbol oben rechts in der Zusammenfassung, um das Bedienfeld zu schließen und das Problem inline zu bearbeiten.
 

@@ -10,10 +10,10 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a6c2bc4127a52fad209004995ea2262fa64c240d
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '1377'
-ht-degree: 5%
+source-wordcount: '1411'
+ht-degree: 4%
 
 ---
 
@@ -101,7 +101,7 @@ Die Anzeige gesendeter Anfragen unterscheidet sich je nachdem, ob Sie das neue o
 
 >[!NOTE]
 >
->* Wenn Sie über Workfront Planning verfügen, werden Ihre Workfront- und Planning-Anfragen in derselben Liste angezeigt. Workfront-Anfragen zeigen den in der Spalte `Issue`Objekttyp **&#x200B;**&#x200B;Wert an.
+>* Wenn Sie über Workfront Planning verfügen, werden Ihre Workfront- und Planning-Anfragen in derselben Liste angezeigt. Workfront-Anfragen zeigen den in der Spalte **Objekttyp** `Issue` Wert an.
 >* Standardmäßig werden im Bereich Anfragen bis zu 50 Anfragen in der Liste angezeigt. Um weitere Anfragen anzuzeigen, scrollen Sie zum unteren Rand der Liste.
 
 Gesendete Anfragen können im Bereich Anfragen und im Widget Meine Anfragen auf der Startseite angezeigt werden.
@@ -210,7 +210,11 @@ So zeigen Sie Anfragen an, die Sie oder andere Benutzende in der Legacy-Anfrage 
 
    >[!TIP]
    >
-   >Wenn das Bedienfeld Zusammenfassung bereits geöffnet ist, ändert sich das Symbol Zusammenfassung öffnen in Zusammenfassung schließen .
+   >* Wenn das Bedienfeld Zusammenfassung bereits geöffnet ist, ändert sich das Symbol Zusammenfassung öffnen in Zusammenfassung schließen .
+   >
+   >* Wenn Ihr Unternehmen Adobe Enterprise Document Storage verwendet, können Sie im Zusammenfassungsbereich keine Dokumente zu Adobe-Speicheranfragen hinzufügen.
+   >
+   >Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und zugehörige Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 1. (Optional und bedingt) Klicken Sie auf das Symbol **X** oben rechts oder auf das Symbol **Zusammenfassung schließen** ![Zusammenfassung mit Text schließen](assets/close-summary-with-text-nwe.png), um das Bedienfeld Zusammenfassung zu schließen.
 

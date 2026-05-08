@@ -6,9 +6,9 @@ description: Je nachdem, ob Ihr Workfront-Administrator für Ihre standardmäßi
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '1755'
+source-wordcount: '1779'
 ht-degree: 0%
 
 ---
@@ -170,6 +170,7 @@ Beachten Sie beim Arbeiten mit Aufgaben Folgendes:
    * Bei einer Adobe-Aufgabe für den Unternehmensspeicher wird ein Adobe-Speicherprojekt erstellt.
    * Durch die Verwendung einer Workfront-Speichervorlage zum Konvertieren einer Adobe-Speicheraufgabe wird ein Adobe-Speicherprojekt erstellt.
    * Durch die Verwendung einer Adobe-Speichervorlage zum Konvertieren einer Workfront-Speicheraufgabe wird ein Workfront-Speicherprojekt erstellt.
+* Sie können im Zusammenfassungsbereich keine Dokumente zu Adobe-Speicheraufgaben hinzufügen.
 
 ### Dokumentenverwaltung für Probleme
 
@@ -186,6 +187,7 @@ Beachten Sie beim Arbeiten mit Problemen Folgendes:
    * Bei einem Adobe-Problem mit Enterprise-Storage wird ein Adobe-Storage-Projekt erstellt.
    * Wenn Sie eine Workfront-Speichervorlage zum Konvertieren eines Adobe-Speicherproblems verwenden, wird ein Adobe-Speicherprojekt erstellt.
    * Wenn Sie eine Adobe-Speichervorlage zum Konvertieren eines Workfront-Speicherproblems verwenden, wird ein Workfront-Speicherprojekt erstellt.
+* Sie können im Zusammenfassungsbereich keine Dokumente zu Adobe-Speicherproblemen hinzufügen.
 
 ### Dokumentenverwaltung für Projektvorlagen
 

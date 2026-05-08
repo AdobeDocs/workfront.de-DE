@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '2764'
+source-wordcount: '2825'
 ht-degree: 4%
 
 ---
@@ -186,7 +186,7 @@ So bearbeiten Sie Aufgaben in einer Liste und speichern die Änderungen automati
 
    ODER
 
-   Klicken Sie auf das **Mehr**-Menü ![Mehr-Symbol in der &#x200B;](assets/more-icon-task-list.png) rechts neben dem Aufgabennamen.
+   Klicken Sie auf das **Mehr**-Menü ![Mehr-Symbol in der ](assets/more-icon-task-list.png) rechts neben dem Aufgabennamen.
 
 1. (Optional) Wählen Sie aus den folgenden Optionen aus:
 
@@ -469,29 +469,33 @@ So bearbeiten Sie Aufgaben in einer Liste mithilfe der Option „Manuelles Speic
 1. (Optional) Geben Sie eine Aktualisierung für die Aufgabe im Bereich **Updates** ein.
 1. Klicken Sie auf eines der folgenden Symbole oder Bereiche, um zur Aufgabe zu wechseln und Informationen auf Aufgabenebene zu bearbeiten:
 
-<table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">Dokumente</td> 
-      <td>Dokumente zur Aufgabe hinzufügen. </td> 
-     </tr> 
-          <tr> 
-      <td role="rowheader">Benutzerdefinierte Formulare</td> 
-      <td>Hinzufügen oder Entfernen benutzerdefinierter Formulare oder Aktualisieren von Informationen auf den Formularen.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Stunden</td> 
-      <td>Stunden protokollieren.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Genehmigungen</td> 
-      <td>Aufgabengenehmigungen hinzufügen.</td> 
-     </tr> 
-     <tr> 
-    </tbody> 
-   </table>
+   <table style="table-layout:auto"> 
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
+         <td role="rowheader">Dokumente</td> 
+         <td><p>Dokumente zur Aufgabe hinzufügen.</p>
+         <p><b>NOTIZ</b></p>
+         <p>Wenn Ihr Unternehmen Adobe Enterprise Document Storage verwendet, können Sie im Zusammenfassungsbereich für Adobe-Speicheraufgaben keine Dokumente zu Aufgaben hinzufügen.</p>
+         <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Übersicht über das Dokumentenmanagement für Projekte und zugehörige Objekte</a>.</p>
+      </td> 
+      </tr> 
+            <tr> 
+         <td role="rowheader">Benutzerdefinierte Formulare</td> 
+         <td>Hinzufügen oder Entfernen benutzerdefinierter Formulare oder Aktualisieren von Informationen auf den Formularen.</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Stunden</td> 
+         <td>Stunden protokollieren.</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader">Genehmigungen</td> 
+         <td>Aufgabengenehmigungen hinzufügen.</td> 
+      </tr> 
+      <tr> 
+      </tbody> 
+      </table>
 
 1. Klicken Sie auf **X** in der oberen rechten Ecke des Bedienfelds, um es zu schließen.
 
