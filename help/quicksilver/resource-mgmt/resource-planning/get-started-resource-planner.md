@@ -7,7 +7,7 @@ description: Mit dem Ressourcenplaner können Sie die Ressourcenzuweisung für d
 author: Lisa
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
+source-git-commit: 9e217d36d5aeb36761a9a433b84e73ac2b7a114b
 workflow-type: tm+mt
 source-wordcount: '2115'
 ht-degree: 4%
@@ -258,7 +258,7 @@ Weitere Informationen zu diesen Einschränkungen finden Sie im Artikel [Anzeigeb
 
 Sie können Verfügbarkeits-, Zuordnungs- und geplante Werte im Ressourcenplaner in Stunden, FTE oder Kosten anzeigen.
 
-Weitere Informationen zum Ändern der im Ressourcenplaner angezeigten Informationen finden Sie im Abschnitt [Informationen nach Stunde, FTE oder Kosten anzeigen](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md#display-by-hour-or-fte-menu) im Artikel [Ressourcenverfügbarkeit und -zuordnung mit dem Adobe Workfront-Ressourcenplaner &#x200B;](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
+Weitere Informationen zum Ändern der im Ressourcenplaner angezeigten Informationen finden Sie im Abschnitt [Informationen nach Stunde, FTE oder Kosten anzeigen](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md#display-by-hour-or-fte-menu) im Artikel [Ressourcenverfügbarkeit und -zuordnung mit dem Adobe Workfront-Ressourcenplaner ](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
 
 Weitere Informationen dazu, wie die Stunden und VZÄ für Benutzende und Rollen in Workfront berechnet werden, finden Sie im Artikel [Übersicht über die Stundenberechnung und VZÄ für Benutzende und Rollen im Ressourcenplaner](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
 
