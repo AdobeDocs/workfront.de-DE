@@ -6,10 +6,10 @@ description: Der linke Navigationsbereich in [!DNL Workfront]  erleichtert die N
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 0fbbf7fccee0158cc0630703ed1b663cf42725dd
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 1%
+source-wordcount: '1377'
+ht-degree: 3%
 
 ---
 
@@ -30,7 +30,7 @@ Die meisten Bereiche und Objekte in WF verwenden ein einfaches Navigationsfenste
 
 ## Zugriffsanforderungen
 
-+++Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,8 +45,8 @@ Die meisten Bereiche und Objekte in WF verwenden ein einfaches Navigationsfenste
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz</strong></td> 
    <td>
-   <p>Mitwirkender oder höher</p>
-   <p>Anfrage oder höher</p> 
+   <p>Mitwirkende oder höher</p>
+   <p>Anfragende oder höher</p> 
    </td> 
   </tr> 
  </tbody> 
@@ -72,7 +72,7 @@ Das linke Bedienfeld ist für die folgenden Objekte verfügbar:
 * Vorlage
 * Vorlagenaufgabe
 * Wiederholung
-* Benutzerin bzw. Benutzer
+* Benutzerin oder Benutzer
 * Team
 * Gruppe
 * Ziel
@@ -80,7 +80,7 @@ Das linke Bedienfeld ist für die folgenden Objekte verfügbar:
 >[!IMPORTANT]
 >
 >Wenn im linken Bereich standardmäßig nur ein Bereich angezeigt wird, z. B. **[!UICONTROL Alle Projekte]** im **[!UICONTROL Projekte]**-Bereich, muss ein [!DNL Workfront]-Administrator diesem Bereich beim Erstellen einer Layout-Vorlage mindestens ein Dashboard hinzufügen und Sie dieser Vorlage zuweisen, bevor der linke Bereich in diesem Bereich angezeigt wird.
->&#x200B;>Informationen zum Anpassen des linken Bereichs in einer Layout-Vorlage durch einen [!DNL Workfront] finden Sie unter [Anpassen des linken Bereichs mithilfe einer Layout-Vorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+>Informationen zum Anpassen des linken Bereichs in einer Layout-Vorlage durch einen [!DNL Workfront] finden Sie unter [Anpassen des linken Bereichs mithilfe einer Layout-Vorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 Das linke Bedienfeld ist für die folgenden Bereiche verfügbar:
 
@@ -236,6 +236,7 @@ Die folgenden Abschnitte werden im linken Bedienfeld für den Bereich **[!UICONT
     </tr>
 </table>
 -->
+
 Informationen zur Verwendung des linken Bedienfelds im Bereich [!UICONTROL Ziele] finden Sie im Abschnitt [Verwenden des linken &#x200B;](#use-the-left-navigation-panel)) in diesem Artikel.
 
 ## Verwenden des linken Navigationsbereichs

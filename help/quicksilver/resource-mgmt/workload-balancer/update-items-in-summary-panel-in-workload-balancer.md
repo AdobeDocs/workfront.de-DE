@@ -6,10 +6,10 @@ description: Sie können das Bedienfeld Zusammenfassung im Workload Balancer öf
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 2%
+source-wordcount: '422'
+ht-degree: 12%
 
 ---
 
@@ -21,7 +21,7 @@ Das Bedienfeld Zusammenfassung ist für Aufgaben und Probleme sowohl im Bereich 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -54,7 +54,7 @@ Das Bedienfeld Zusammenfassung ist für Aufgaben und Probleme sowohl im Bereich 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -66,17 +66,17 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 1. Wechseln Sie zum Bereich **Nicht zugeordnete Arbeit** und suchen Sie ein Arbeitselement.
 
-   Oder
+   ODER
 
    Wechseln Sie zum Bereich **Zugewiesene Arbeit**, erweitern Sie einen Benutzer und suchen Sie ein Arbeitselement.
 
 1. Klicken Sie auf den Balken einer Aufgabe oder eines Problems, um das Bedienfeld Zusammenfassung auf der rechten Seite zu öffnen.
 
-   Oder
+   ODER
 
    Klicken Sie auf **Zusammenfassung öffnen** Symbol ![Zusammenfassung öffnen](assets/summary-panel-icon.png) und klicken Sie dann auf den Balken einer Aufgabe oder eines Problems, um das Bedienfeld Zusammenfassung zu öffnen.
 
-   Oder
+   ODER
 
    Klicken Sie auf das **Mehr**-Menü ![Mehr-](assets/more-icon.png) rechts neben einer Aufgabe oder einem Problem und klicken Sie dann auf **Zusammenfassung öffnen**.
 
@@ -91,6 +91,12 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    >Durch die Navigation vom Abschnitt Zusammenfassung zum Abschnitt Teilaufgaben zum Hinzufügen von Teilaufgaben wird die ursprüngliche Aufgabe entfernt, da übergeordnete Aufgaben im Workload Balancer nicht angezeigt werden.
 
    Weitere Informationen zum Aktualisieren von Informationen mithilfe der Zusammenfassung finden Sie unter [Übersicht](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+
+   >[!NOTE]
+   >
+   >Wenn Ihr Unternehmen Adobe Enterprise Document Storage verwendet, können Sie im Zusammenfassungsbereich keine Dokumente zu Adobe-Storage-Arbeitselementen hinzufügen.
+   >
+   >Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und zugehörige Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 1. (Bedingt) Wenn Sie einen der Abschnitte des Arbeitselements geöffnet haben, klicken Sie im Browser auf die Schaltfläche **Zurück**, um zum Workload-Balancer zurückzukehren.
 1. Klicken Sie auf **Schließen** Symbol ![Schließen](assets/close-icon.png) in der oberen rechten Ecke der Zusammenfassung, um sie zu schließen.

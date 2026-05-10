@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
+source-git-commit: 8c5290f5c9724fa1b382b0acf2a541fe7d3d44fa
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 53%
@@ -76,8 +76,8 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             <td><strong>Vierteljährlich</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-requests.md" class="MCXref xref" xrefformat="{para}">Vordefinierte Ansichten wurden zur Anfragenliste im Bereich „Anfragen“ und im Widget „Meine Anfragen“ hinzugefügt</a><p>[!BADGE Außerplanmäßig]{type=Neutral}</p>
-                <p>Um Ihre Anfragenliste besser zu organisieren, haben wir die vordefinierten Ansichten zur Anfragenliste im Bereich Anfragen und zum Widget Meine Anfragen auf der Startseite hinzugefügt.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">Vordefinierte Ansichten wurden zur Anfragenliste im Bereich „Anfragen“ und im Widget „Meine Anfragen“ hinzugefügt</a><p>[!BADGE Außerplanmäßig]{type=Neutral}</p>
+                <p>Um Ihnen zu helfen, Ihre Anfragenliste besser zu organisieren, haben wir die vordefinierten Ansichten zur Anfragenliste im Bereich Anfragen und zum Widget Meine Anfragen auf der Startseite hinzugefügt.</p>
             </td>
             <td><p>23. April 2026</p></td>
             <td><p>23. April 2026</p></td>
@@ -85,6 +85,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
         </tr>
     </tbody>
 </table>
+
 
 ## Versionshinweise für andere Bereiche
 

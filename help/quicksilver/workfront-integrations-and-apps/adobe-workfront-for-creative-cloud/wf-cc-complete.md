@@ -8,9 +8,9 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '275'
 ht-degree: 14%
 
 ---
@@ -30,7 +30,7 @@ Sie können in den folgenden [!DNL Adobe Creative Cloud] Anwendungen bleiben und
  <col> 
  <tbody> 
   <tr> 
-   <!--
+  <!--
     <td role="rowheader">[!DNL Adobe Workfront] package</td> 
    <td> <p>Any</p> </td> 
   </tr> 
@@ -43,7 +43,7 @@ Sie können in den folgenden [!DNL Adobe Creative Cloud] Anwendungen bleiben und
   <tr>
   -->
    <td role="rowheader">Zusätzliche Produkte</td> 
-   <td>Sie müssen zusätzlich zu einer [!DNL Adobe Creative Cloud] über eine [!DNL Workfront]-Lizenz verfügen.</td> 
+   <td>Sie müssen zusätzlich zu einer [!DNL Workfront] über eine [!DNL Adobe Creative Cloud]-Lizenz verfügen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -56,7 +56,7 @@ Sie können in den folgenden [!DNL Adobe Creative Cloud] Anwendungen bleiben und
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 
 +++
@@ -72,7 +72,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    ![Zurück zur Arbeitsliste](assets/go-back-to-work-list-350x314.png)
 
 1. Wählen Sie in **[!UICONTROL Arbeitsliste]** die Aufgabe oder das Problem aus, die bzw. das Sie als abgeschlossen markieren möchten.
-1. Klicken Sie **[!UICONTROL Fertig]**.  Wenn Sie der einzige Benutzer sind, der dieser Aufgabe oder diesem Problem zugewiesen ist, wird das Element [!UICONTROL Abgeschlossen] oder [!UICONTROL Gelöst] in [!DNL Workfront] markiert.
+1. Klicken Sie auf **[!UICONTROL Fertig]**.  Wenn Sie der einzige Benutzer sind, der dieser Aufgabe oder diesem Problem zugewiesen ist, wird das Element [!UICONTROL Abgeschlossen] oder [!UICONTROL Gelöst] in [!DNL Workfront] markiert.
 1. (Bedingt) Wenn dieser Aufgabe oder diesem Problem mehrere Benutzer zugewiesen sind, wird durch Klicken auf [!UICONTROL Fertig] eine Dropdown-Liste geöffnet. Anschließend können Sie:
 
    Klicken Sie **[!UICONTROL Fertig mit meinem Teil]**, wenn andere Benutzer ebenfalls ihre Arbeit erledigen müssen, damit die Aufgabe oder das Problem abgeschlossen ist.

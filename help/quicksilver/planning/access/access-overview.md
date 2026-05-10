@@ -8,7 +8,7 @@ role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 8%
@@ -54,24 +54,21 @@ Sie müssen über die folgenden Zugriffsrechte verfügen, um Workfront Planning 
  <col>
  </col>
  <tbody>
-    <tr>
- <tr>
+   <tr>
+   <tr>
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td>
    <td>
    <p>Beliebiges Workfront- und Planungspaket</p>
    <p>Beliebiges Workflow- und Planungspaket</p>
-
-<p><b>NOTIZ</b></p>
-
-<p>Zugriff auf verbindbare Datensatztypen:</p>
+   <p><b>NOTIZ</b></p>
+   <p>Zugriff auf verbindbare Datensatztypen:</p>
    <ul><li><p>Beliebiges Workfront-Paket und ein Planungspaket</p></li>
    <li><p>Beliebiger Workflow und ein Planning Prime- und Ultimate-Paket</p></li></ul>
 
 <p>Für den Zugriff auf globale Datensatztypen:</p>
    <ul><li><p>Beliebiges Workfront-Paket und Planning Plus-Paket</p></li>
    <li><p>Beliebiges Workflow-Paket und ein Planning Prime- und Ultimate-Paket</p></li></ul> </td></tr>
-
-<!--
+   <!--
    <tr>
    <td role="rowheader"><p>Adobe Workfront platform</p></td>
    <td>
@@ -80,22 +77,21 @@ Sie müssen über die folgenden Zugriffsrechte verfügen, um Workfront Planning 
    <p>Only users added to the Adobe Identity Management System (IMS) can be granted permissions and added to Planning fields.</p>
    <p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
    </td>
-  </tr>
-  -->
-
-<tr>
+   </tr>
+   -->
+   <tr>
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td>
    <td>
    <ul><li><p>Beliebig, um Workfront-Planungsinformationen anzuzeigen</p></li>
    <li><p>Standard, um Arbeitsbereiche und Ansichten zu erstellen</p></li></ul>
     </td>
-  </tr>
-  <tr>
+   </tr>
+   <tr>
    <td role="rowheader"><p>Konfigurationen der Zugriffsebene</p></td>
    <td> <p>Es gibt keine Zugriffssteuerungsebenen für Adobe Workfront Planning</p>  
-</td>
-  </tr>
-<tr>
+   </td>
+   </tr>
+   <tr>
    <td role="rowheader"><p>Objektberechtigungen</p></td>
    <td>
    <ul>
@@ -107,17 +103,17 @@ Sie müssen über die folgenden Zugriffsrechte verfügen, um Workfront Planning 
     <li><p>Systemadministratoren können nicht auf Ansichten zugreifen, die sie nicht erstellt haben. </p></li></ul>
    <p>Informationen zu Freigabeberechtigungen für Workfront Planning-Objekte finden Sie unter  
    <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Übersicht über Freigabeberechtigungen in Adobe Workfront Planning</a> 
-  </td>
-  </tr>
-<tr>
+   </td>
+   </tr>
+   <tr>
    <td role="rowheader"><p>Layout-Vorlage</p></td>
    <td> 
-<p>Für Standardbenutzer und Systemadministratoren sind die Planungsbereiche standardmäßig aktiviert.</p>
-<p> Benutzenden mit einer Light- oder Contributor-Lizenz muss eine Layoutvorlage zugewiesen werden, die die Planungsoption in den folgenden Bereichen enthält:</p>
+   <p>Für Standardbenutzer und Systemadministratoren sind die Planungsbereiche standardmäßig aktiviert.</p>
+   <p> Benutzenden mit einer Light- oder Contributor-Lizenz muss eine Layoutvorlage zugewiesen werden, die die Planungsoption in den folgenden Bereichen enthält:</p>
    <ul><li>Hauptmenü</li>
    <li>Linkes Bedienfeld mit Projekten, Portfolios und Programmen</li>
    </ul>   
-</td>
+   </td>
   </tr>
  </tbody>
 </table>
@@ -179,7 +175,7 @@ In Workfront Planning können Sie Berechtigungen für die folgenden Entitäten e
 
 * Arbeitsbereiche
 * Eintragstypen
-* Ansichten 
+* Ansichten
   <!--move this above Views: * <span class="preview">Records</span>-->
 
 Weitere Informationen finden Sie unter [Übersicht über Freigabeberechtigungen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).

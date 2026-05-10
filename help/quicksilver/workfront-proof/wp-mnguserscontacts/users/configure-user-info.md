@@ -7,10 +7,10 @@ description: Konfigurieren von Benutzerinformationen mithilfe von [!DNL Workfron
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ae8d3a96-ebf1-48ee-a7b7-50d69bffbd36
-source-git-commit: f776fb88000ea6044b88cba88d0cb7198c205d05
+source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
 workflow-type: tm+mt
 source-wordcount: '565'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 0%
       * **Korrekturabzug sperren, wenn alle Entscheidungen getroffen werden:** Sperrt den Korrekturabzug automatisch für weitere Änderungen, nachdem alle Entscheidungen über den Korrekturabzug getroffen wurden.
       * **Anmeldung erforderlich. Der Korrekturabzug kann nur für andere Benutzer freigegeben werden** Stellt den Korrekturabzug nur Benutzenden mit [!DNL Workfront Proof] Anmeldedaten zur Verfügung.
       * **Nur eine Entscheidung erforderlich:** Erfordert nur eine Entscheidung zu einem Korrekturabzug.
-      * **Originaldatei herunterladen:** Ermöglicht dem Benutzer, die Originaldatei für einen Korrekturabzug herunterzuladen. Diese Option ist standardmäßig aktiviert.
+      * **Originaldatei herunterladen:** Ermöglicht dem Benutzer, die Originaldatei für einen Korrekturabzug herunterzuladen. Standardmäßig ist diese Option aktiviert.
 
         Weitere Informationen zum Herunterladen von Originaldateien finden Sie unter [Herunterladen von in gespeicherten Dateien [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md).
 
@@ -70,7 +70,7 @@ Diese Option ist standardmäßig aktiviert, wenn die Option **Öffentliche Freig
       * **Standard-E-Mail-Warnhinweis für neue Gast-Reviewer:** Wählen Sie aus, wie oft Gast-Reviewer E-Mail-Aktualisierungen erhalten sollen. Die Optionen sind die gleichen wie bei **E-Mail-Warnhinweis.**
 
       * **Senden einer E-Mail-Bestätigung, wenn Testsendungen fertig sind:** Wählen Sie diese Option, um dem Benutzer automatisch eine Bestätigungs-E-Mail zu senden, wenn Testsendungen bereit sind.
-      * **Format der an diesen Benutzer gesendeten E-Mails:** Wählen Sie **[!UICONTROL HTML]** oder **[!UICONTROL Nur Text]** als Standardformat für E-Mails, die an den Benutzer gesendet werden.
+      * **Format der an diesen Benutzer gesendeten E-Mails:** Wählen Sie **[!UICONTROL HTML]** oder **[!UICONTROL Nur Text]** als Standardformat für E-Mails aus, die an den Benutzer gesendet werden.
 
    * Im Abschnitt **[!UICONTROL Benutzerdefinierte Nachrichteneinstellungen]**: Erstellen Sie Einstellungen für Korrekturabzugsvorlagen.
 
