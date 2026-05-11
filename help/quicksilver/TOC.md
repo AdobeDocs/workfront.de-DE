@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 143cb1477bb6e404907e680dfcee98a89177de60
+source-git-commit: fe5165a858bc306348a59594692ce3912e2e531b
 workflow-type: tm+mt
-source-wordcount: '14089'
+source-wordcount: '14105'
 ht-degree: 95%
 
 ---
@@ -1869,6 +1869,7 @@ ht-degree: 95%
    * [Überprüfen und Genehmigen von Arbeit](review-and-approve-work/review-and-approve-work.md)
    * [Einheitliche Prüfung und Genehmigung - Übersicht](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
    * [Erste Schritte mit der einheitlichen Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
+   * [Wechsel zu Workfront auf Adobe Enterprise Storage](/help/quicksilver/review-and-approve-work/workfront-storage.md)
    * [Überblick über eingeschränkte Dokument- und Korrekturabzugsentscheidungen für nicht zahlende Benutzende](review-and-approve-work/proof-doc-decision-limits.md)
    * {hide-from-toc}[Einrichten von KI-Reviewern](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
    * Arbeitsgenehmigungen {#work-approvals}
@@ -2029,6 +2030,7 @@ ht-degree: 95%
       * [Verwenden von Adobe Experience Manager mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
    * Tipps, Tricks und Fehlerbehebung für Genehmigungen {#ttt-approvals}
       * [Tipps, Tricks und Fehlerbehebung für Genehmigungen: Artikelindex](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
+      * [Aktualisieren von Workfront Fusion-Szenarien für eine einheitliche Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md)
       * [Anzeigen der Anzahl der Korrekturabzugs- und Dokumentenentscheidungen für alle Benutzenden](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * Arbeitszeittabellen {#timesheets}
    * [Arbeitszeittabellen: Artikelindex](timesheets/timesheets-all.md)
