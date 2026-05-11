@@ -8,9 +8,9 @@ feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
 last-update: 2026-04-29T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: e25be455e16beee813e612b983bca1302f129e6f
+source-git-commit: 7b6d24d6a5b7fd052a3e7c97034e920e771022a6
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '436'
 ht-degree: 8%
 
 ---
@@ -74,7 +74,12 @@ Das Speicherkontingent wird täglich aktualisiert, um die aktuellste Anzahl anzu
 
 ## Adobe Enterprise-Speicher
 
-Wenn Ihr Unternehmen Adobe Enterprise Storage verwendet, wird in den Kundeninformationen eine Speicherübersicht angezeigt, die die Nutzung in verschiedene Abschnitte für Legacy-Workfront-Speicher, Adobe Enterprise Storage und Frame.io unterteilt. Workfront wendet auch eine Soft Cap auf Uploads an, wenn die Nutzung Ihr Kontingent überschreitet, sodass Benutzer weiterhin Dokumente hochladen können.
+<!--
+If your organization uses Adobe enterprise storage, your storage quota is reported as a single pooled allocation that combines storage provisioned through your V2 Workfront SKU and any storage provisioned through a Frame.io Enterprise SKU or add-on. There's no hard cap on storage usage; users can continue uploading documents even when usage exceeds your quota.
+
+Beginning with the May 2026 release, you can view your pooled storage quota and a usage breakdown on the Customer Info page.
+
+-->
 
 ### Anzeigen der Speichernutzung in Kundeninformationen
 
@@ -84,8 +89,11 @@ So überprüfen Sie den Adobe Enterprise-Dokumentenspeicher:
 
 1. Klicken Sie im linken Bedienfeld auf **System** > **Kundeninformationen**.
 1. Gehen Sie zum Abschnitt **Speicherübersicht**.
-1. Anzeigen der Nutzung von Adobe Enterprise-Speicher.
-   <!--Both Workfront and Frame.io usage are broken down separately, but roll up to the total usage for Adobe enterprise storage.-->
+1. Überprüfen Sie Ihre Verwendung. Die Speicherübersicht zeigt Ihr Speicherkontingent im Pool und unterteilt die Nutzung in:
+
+   * Ältere Workfront-Projekte und Speicherprojekte für Adobe Enterprise werden in der blauen Leiste angezeigt.
+   * Einzelne Projekte werden in der grünen Leiste angezeigt. Diese Projekte sind unabhängig von Workfront und nur verfügbar, wenn Sie über eine Frame.io Enterprise-Lizenz verfügen.
+
 
 ![Nutzung von Adobe Enterprise-Speicher in Kundeninformationen](assets/storage-usage.png)
 
@@ -93,6 +101,6 @@ Die Nutzungsdaten werden regelmäßig aktualisiert, sodass Sie eine aktuelle Zä
 
 ### E-Mail-Benachrichtigungen für Administratoren
 
-Wenn die Nutzung 75 %, 85 % oder 100 % Ihres Speicherkontingents überschreitet, sendet Workfront eine E-Mail-Benachrichtigung an Systemadministratoren.
+Wenn die Nutzung 75 %, 90 % oder 100 % Ihres Speicherkontingents überschreitet, sendet Workfront eine E-Mail-Benachrichtigung an Systemadministratoren.
 
 </div>

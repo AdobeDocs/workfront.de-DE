@@ -9,10 +9,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 758d17e6-f31f-42b7-a9e6-6bd1821f5c15
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: d10138467d81bbe87375d6a64e4fd5e269691808
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 1%
+source-wordcount: '944'
+ht-degree: 2%
 
 ---
 
@@ -104,8 +104,30 @@ Wenn Sie einem Workflow für die Dokumentgenehmigung hinzugefügt werden, sehen 
 * Dokument-Miniaturansicht
 
 
+## Berechtigungszuordnung zu Frame.io
 
+Im Rahmen der Integration werden Benutzerberechtigungen in Workfront gesteuert und fließen nach unten zu Frame.io. Das bedeutet, dass Sie einen Benutzer nicht zu einem Projekt in Frame.io einladen oder Benutzerberechtigungen in Frame.io ändern können. Diese Aktionen müssen über das Modal „Projektfreigabe“ in Workfront durchgeführt werden.
 
+Die folgende Tabelle zeigt, wie Workfront-Berechtigungen Frame.io-Berechtigungen zugeordnet sind:
+
+<table>
+<tr>
+<th>Workfront-Benutzerberechtigung</th>
+<th>Frame.io-Benutzerberechtigung</th>
+</tr>
+<tr>
+<td>Verwalten</td>
+<td>Bearbeiten und Freigeben</td>
+</tr>
+<tr>
+<td>Mitwirken</td>
+<td>Bearbeiten und Freigeben</td>
+</tr>
+<tr>
+<td>Ansicht</td>
+<td>Nur Kommentar</td>
+</tr>
+</table>
 
 
 
