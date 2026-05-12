@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: cbee9aabad7300c2a7ff7aa92bc68a6368a1efcd
 workflow-type: tm+mt
-source-wordcount: '1791'
+source-wordcount: '1799'
 ht-degree: 1%
 
 ---
@@ -189,6 +189,11 @@ Removed - more direct steps below:
       Sie können der Listenansicht nur vorhandene Felder hinzufügen.
 Sie können das primäre Feld in der Listenansicht, die in der ersten Spalte angezeigt wird, nicht entfernen.
 
+      <!-- 
+        update indent here: 
+        1. <span class="preview">Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png) to choose fields to group items by, then sort them in an ascending or descending order. </span>
+        -->
+
    1. Klicken Sie auf das **Zellen formatieren**-Symbol ![Zellen formatieren-Symbol](assets/format-cells-icon.png). Das Feld **Format** wird geöffnet. <!--change the name of the box when they update it-->
 Gehen Sie folgendermaßen vor:
 
@@ -255,7 +260,7 @@ Ein blauer Punkt neben dem Symbol **Zellen formatieren** gibt an, dass auf die A
 
 1. Bewegen Sie den Mauszeiger über den Namen eines Elements in der Liste und klicken Sie auf das Menü **Mehr** [Mehr](assets/more-menu.png) und klicken Sie auf **Anzeigen**, um das Projekt in einer anderen Registerkarte zu öffnen
 
-   Oder
+   ODER
 
    Wählen Sie ein oder mehrere Elemente aus, beachten Sie die Aktionsleiste unten in der Liste und klicken Sie dann auf eine der folgenden Aktionen, sofern verfügbar. Klicken Sie je nachdem, aus welchem Bereich Sie auf die Listenansicht zugreifen, auf eine der folgenden Optionen:
 
