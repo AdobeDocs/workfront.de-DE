@@ -8,10 +8,10 @@ feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 4%
+source-wordcount: '884'
+ht-degree: 3%
 
 ---
 
@@ -97,13 +97,18 @@ Sie können Portfolios in Workfront mit einer der folgenden Methoden erstellen:
 
   Informationen zum Importieren von Daten mithilfe von Kickstarts in Workfront finden Sie unter [Importieren von Daten in Adobe Workfront mithilfe einer Kickstart-Vorlage](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-* Portfolios hinzufügen, während Sie sie mit einem Datensatztyp in Workfront Planning verbinden.
+* Fügen Sie Portfolios aus Workfront Planning wie folgt hinzu:
 
-  Sie müssen über eine neue Workfront-Lizenz und eine zusätzliche Workfront Planning-Lizenz für Workfront Planning verfügen.
-
-  Informationen zum Zugriff auf Workfront Planning finden Sie unter [Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).
+   * So können Sie sie über einen Datensatztyp in Workfront Planning verbinden.
 
   Informationen zum Erstellen von Portfolios durch Hinzufügen zu Datensätzen finden Sie im Abschnitt „Erstellen von Datensätzen, während Sie sie verbinden“ im Artikel [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
+   * Verwenden von Workfront Planning-Automatisierungen.
+
+  Weitere Informationen finden Sie unter [Erstellen von Objekten mithilfe von Adobe Workfront Planning-Datensatzautomatisierungen](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+
+  Sie müssen über eine neue Workfront-Lizenz und ein zusätzliches Workfront Planning-Paket für Workfront Planning verfügen.
+
+  Informationen zum Zugriff auf Workfront Planning finden Sie unter [Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).
 
 
 ## Erstellen von Portfolios
@@ -111,8 +116,35 @@ Sie können Portfolios in Workfront mit einer der folgenden Methoden erstellen:
 {{step1-click-main-menu}}
 
 1. Klicken Sie **[!UICONTROL Portfolios]**.
-1. Klicken Sie **[!UICONTROL Neue Portfolio]**.
-1. Ersetzen **[!UICONTROL Nicht benannte Portfolio]** durch den Namen, den Sie für das Portfolio vergeben möchten.
+
+1. (Bedingt) Klicken Sie je nachdem, welchen Dokumentspeicher Ihr Unternehmen verwendet, auf eine der folgenden Optionen:
+
+   * **Neues Portfolio**, wenn der Workfront-Administrator entweder **Adobe Enterprise** oder **Legacy Workfront** auswählt und die Einstellung **Speicheranbieter zulassen)** oder nicht ausgewählt hat.
+   * **Neues Portfolio (Legacy-Speicher)** Wenn der Workfront-Administrator entweder **Adobe Enterprise** oder **Legacy Workfront** auswählt und außerdem die Einstellung **Auswahl des Speicheranbieters durch den Benutzer zulassen** ausgewählt hat.
+
+     Diese Option wird nur angezeigt, wenn **Einstellung „Auswahl des Speicheranbieters durch den Benutzer zulassen** im Bereich „Setup“ ausgewählt ist.
+
+     Weitere Informationen finden Sie unter [Aktivieren von Adobe Enterprise Storage für Ihr Unternehmen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+
+     >[!NOTE]
+     >
+     >Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Arten von Dokumentspeicher.
+
+     Ein Portfolio wird erstellt. Sein Standardname folgt den folgenden Mustern, je nachdem, welcher Speicher Workfront für Dokumente verwendet:
+
+      * `Untitled Portfolio` für ein Workfront-Speicherportfolio.
+
+        Bei einem Workfront-Speicherportfolio wird neben dem Namen das **Legacy-Speicherportfolio**-Symbol ![Legacy-Speicherportfolio](assets/legacy-storage-project-icon.png) angezeigt.
+
+      * `Untitled Portfolio - < Month day, year hour.minute.second >` für ein Adobe-Speicherportfolio
+
+        >[!IMPORTANT]
+        >
+        >Portfolios, die Adobe Enterprise-Speicher verwenden, müssen eindeutige Namen haben.
+
+     Bei Adobe-Speicherportfolios wird automatisch im Bereich Dokumente ein neuer Dokumentordner mit demselben Namen wie das Portfolio erstellt.
+
+1. Ersetzen Sie den Namen des Portfolios durch einen neuen Namen in der Portfolio-Kopfzeile.
 
    Der Name kann bis zu 255 Zeichen lang sein.
 
@@ -122,7 +154,7 @@ Sie können Portfolios in Workfront mit einer der folgenden Methoden erstellen:
 
    Als Ersteller des Portfolios werden Sie standardmäßig als Portfolio-Manager zugewiesen.
 
-1. Klicken Sie im linken **[!UICONTROL auf]** Portfolio-Details.
+1. Klicken Sie im linken ]**auf**[!UICONTROL  Portfolio-Details.
 1. Ändern Sie **[!UICONTROL Bereich]**&#x200B;Übersicht“ eine der folgenden Informationen:
 
    <table style="table-layout:auto"> 

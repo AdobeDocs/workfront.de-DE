@@ -6,9 +6,9 @@ description: Je nachdem, ob Ihr Workfront-Administrator für Ihre standardmäßi
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
 workflow-type: tm+mt
-source-wordcount: '1779'
+source-wordcount: '1830'
 ht-degree: 0%
 
 ---
@@ -131,7 +131,7 @@ In den folgenden Abschnitten wird beschrieben, wie die Dokumentenspeicherung fü
 Beachten Sie beim Arbeiten mit Projekten Folgendes:
 
 * Wenn Sie ein Enterprise-Storage-Projekt in Adobe erstellen, erstellt Workfront einen Ordner im Abschnitt Dokumente des Projekts, in dem Dokumente gespeichert werden. Der Ordnername entspricht dem Namen des Projekts. Sie können den Ordner nicht löschen oder manuell umbenennen. Der Ordner wird umbenannt, wenn Sie den Projektnamen so ändern, dass er zum neuen Projektnamen passt.
-* Wenn Sie ein Adobe-Enterprise-Speicherprojekt erstellen oder in ein veraltetes Workfront-Speicherportfolio oder -programm verschieben, wird das Portfolio oder Programm automatisch in ein Adobe-Enterprise-Speicherobjekt konvertiert.
+* Wenn Sie ein Adobe-Enterprise-Speicherprojekt erstellen oder in ein veraltetes Workfront-Speicherportfolio oder -programm verschieben, wird das Portfolio oder Programm automatisch in ein Adobe-Enterprise-Speicherobjekt konvertiert, wenn dem Portfolio oder Programm keine Dokumente angehängt sind, bevor das Projekt hinzugefügt wird.
 * Sie können kein Workfront-Speicherprojekt für ein Adobe Enterprise-Speicherportfolio oder -Programm erstellen.
 * Wenn Sie ein Projekt aus MS Project importieren, erstellt Workfront ein Workfront-Speicherprojekt, auch wenn der Workfront-Administrator den Adobe Enterprise-Speicher als Standard für Ihr System festgelegt hat.
 * Wenn Sie Projekte mit einer Workfront-Planungsautomatisierung erstellen, verwendet Workfront die standardmäßige Speichervoreinstellung Ihres Systems für das Projekt. Sie müssen das Planning-Paket erwerben, um Zugriff auf Workfront Planning zu erhalten.
@@ -141,9 +141,11 @@ Beachten Sie beim Arbeiten mit Projekten Folgendes:
 Beachten Sie beim Arbeiten mit Portfolios Folgendes:
 
 * Wenn Sie ein Adobe-Enterprise-Storage-Portfolio erstellen, erstellt Workfront im Abschnitt Dokumente des Portfolios einen Ordner, in dem Dokumente gespeichert werden. Der Ordnername ist derselbe Name wie das Portfolio. Sie können den Ordner nicht löschen oder manuell umbenennen. Der Ordner wird umbenannt, wenn Sie den Namen des Portfolios so ändern, dass er mit dem neuen Namen des Portfolios übereinstimmt.
-* Wenn Sie ein Adobe-Enterprise-Speicherprojekt erstellen oder in ein veraltetes Workfront-Speicherportfolio verschieben, wird das Portfolio automatisch in ein Adobe-Enterprise-Speicherobjekt konvertiert.
-* Wenn dem konvertierten Portfolio zuvor Dokumente beigefügt waren, bleiben sie weiterhin im Workfront-Speicher gespeichert. Neue Dokumente werden auch im Workfront-Speicher gespeichert.
-* Wenn an das konvertierte Portfolio keine Dokumente im Workfront-Speicher angehängt waren, werden neue Dokumente im Adobe Enterprise-Speicher gespeichert.
+
+* Wenn Sie ein Adobe-Speicherprojekt zu einem Workfront-Speicherportfolio hinzufügen und dem Portfolio keine Dokumente angehängt sind, wird das Portfolio in ein Adobe-Speicherportfolio konvertiert.
+* Wenn Sie ein Adobe-Speicherprojekt zu einem Workfront-Speicherportfolio hinzufügen und dem Portfolio Dokumente angehängt sind, bleibt der Speicher der Portfoliodokumente im Workfront-Speicher. Das Speichersymbol Legacy Workfront für das Portfolio ![Speichersymbol Legacy Portfolio](assets/legacy-storage-project-icon.png) wird jedoch aus dem Portfolio entfernt.
+* Sie können kein Workfront-Speicherprojekt zu einem Adobe-Speicherportfolio hinzufügen.
+
 * Wenn Sie Portfolios mit einer Workfront-Planungsautomatisierung erstellen, verwendet Workfront die standardmäßige Speichervoreinstellung Ihres Systems für das Portfolio. Sie müssen das Planning-Paket erwerben, um Zugriff auf Workfront Planning zu erhalten.
 
 ### Dokumentenverwaltung für Programme
@@ -151,9 +153,11 @@ Beachten Sie beim Arbeiten mit Portfolios Folgendes:
 Beachten Sie beim Arbeiten mit Programmen Folgendes:
 
 * Wenn Sie ein Adobe-Enterprise-Storage-Programm erstellen, erstellt Workfront im Programmabschnitt Dokumente einen Ordner, in dem Dokumente gespeichert werden. Der Ordnername entspricht dem Namen des Programms. Sie können den Ordner nicht löschen oder manuell umbenennen. Wenn Sie den Programmnamen ändern, wird der Ordner umbenannt, damit er zum neuen Programmnamen passt.
-* Wenn Sie ein Adobe-Enterprise-Speicherprojekt erstellen oder in ein veraltetes Workfront-Speicherportfolio verschieben, wird das Portfolio automatisch in ein Adobe-Enterprise-Speicherobjekt konvertiert.
-* Wenn dem konvertierten Programm zuvor Dokumente beigefügt waren, bleiben diese weiterhin im Workfront-Speicher gespeichert. Neue Dokumente werden auch im Workfront-Speicher gespeichert.
-* Wenn dem konvertierten Programm keine Dokumente im Workfront-Speicher angehängt waren, werden neue Dokumente im Adobe Enterprise-Speicher gespeichert.
+
+* Wenn Sie ein Adobe-Speicherprojekt zu einem Workfront-Speicherprogramm hinzufügen und dem Programm keine Dokumente angehängt sind, wird das Programm in ein Adobe-Speicherprogramm konvertiert.
+* Wenn Sie ein Adobe-Speicherprojekt zu einem Workfront-Speicherprogramm hinzufügen und dem Programm Dokumente angehängt sind, bleibt der Speicher der Programmdokumente im Workfront-Speicher. Das Speichersymbol „Legacy Workfront-Speicher“ für das Programm ![Speichersymbol „Legacy-Portfolio](assets/legacy-storage-project-icon.png) wird jedoch aus dem Programm entfernt.
+* Sie können kein Workfront-Speicherprojekt zu einem Adobe-Speicherprogramm hinzufügen.
+
 * Wenn Sie Programme mithilfe einer Workfront-Planungsautomatisierung erstellen, verwendet Workfront die standardmäßige Speichervoreinstellung Ihres Systems für das Programm. Sie müssen das Planning-Paket erwerben, um Zugriff auf Workfront Planning zu erhalten.
 
 ### Dokumentverwaltung für Aufgaben

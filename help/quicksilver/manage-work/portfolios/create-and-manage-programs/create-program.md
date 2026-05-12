@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1278'
 ht-degree: 5%
 
 ---
@@ -106,13 +106,18 @@ Sie können ein Programm in Workfront mit einer der folgenden Methoden erstellen
   Informationen zum Importieren von Daten mithilfe von Kickstarts in Workfront finden Sie unter [Importieren von Daten in Adobe Workfront mithilfe einer Kickstart-Vorlage](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 
-* Fügen Sie Programme hinzu, während Sie sie über einen Datensatztyp in Workfront Planning verbinden.
+* Erstellen Sie Programme aus Workfront Planning wie folgt:
 
-  Sie müssen über ein zusätzliches Workfront Planning-Paket verfügen.
+   * So können Sie sie über einen Datensatztyp in Workfront Planning verbinden.
 
-  Informationen zum Zugriff auf Workfront Planning finden Sie unter [Adobe Workfront Planning-Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).
+  Informationen zum Erstellen von Programmen durch Hinzufügen zu Datensätzen finden Sie im Abschnitt „Erstellen von Datensätzen während der Verbindung“ im Artikel [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
+   * Verwenden von Workfront Planning-Automatisierungen.
 
-  Informationen zum Erstellen von Portfolios durch Hinzufügen zu Datensätzen finden Sie im Abschnitt „Erstellen von Datensätzen, während Sie sie verbinden“ im Artikel [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
+  Weitere Informationen finden Sie unter [Erstellen von Objekten mithilfe von Adobe Workfront Planning-Datensatzautomatisierungen](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+
+  Sie müssen über eine neue Workfront-Lizenz und ein zusätzliches Workfront Planning-Paket für Workfront Planning verfügen.
+
+  Informationen zum Zugriff auf Workfront Planning finden Sie unter [Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).
 
 ## Erstellen eines Programms
 
@@ -248,7 +253,7 @@ Die folgenden Informationen werden in der Kopfzeile eines Programms angezeigt:
   </tr> 
   <tr> 
    <td role="rowheader">Bedingung für [!UICONTROL Active Projects]</td> 
-   <td>Dies ist eine Berechnung, die angibt, für welchen Prozentsatz der Projekte im Programm die [!UICONTROL -Bedingung] als [!UICONTROL On Target], [!UICONTROL At Risk] oder [!UICONTROL In Trouble] festgelegt ist. Die hier dargestellten Projekte sind Projekte mit dem Status [!UICONTROL Aktuell] und [!UICONTROL Genehmigt]. </td> 
+   <td>Dies ist eine Berechnung, die angibt, für welchen Prozentsatz der Projekte im Programm die [!UICONTROL-Bedingung] als [!UICONTROL On Target], [!UICONTROL At Risk] oder [!UICONTROL In Trouble] festgelegt ist. Die hier dargestellten Projekte sind Projekte mit dem Status [!UICONTROL Aktuell] und [!UICONTROL Genehmigt]. </td> 
   </tr> 
  </tbody> 
 </table>

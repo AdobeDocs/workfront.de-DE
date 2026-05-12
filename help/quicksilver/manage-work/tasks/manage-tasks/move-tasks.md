@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1417'
 ht-degree: 4%
 
 ---
@@ -119,6 +119,10 @@ Beachten Sie beim Verschieben einer Aufgabe Folgendes:
 
    * Meilensteine
 
+* Wenn Ihr Unternehmen sowohl ältere Workfront- als auch Adobe-Unternehmensspeicher verwendet, können Sie keine Aufgaben zwischen Projekten verschieben, die unterschiedliche Speichertypen verwenden.
+
+  Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und zugehörige Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+
 ## Verschieben von Aufgaben in einer Liste
 
 {{step1-to-projects}}
@@ -139,7 +143,7 @@ Beachten Sie beim Verschieben einer Aufgabe Folgendes:
 
    * Klicken Sie auf das **Mehr**-Menü ![Mehr-Symbol](assets/main-more-icon.png) oben in der Aufgabenliste und klicken Sie dann auf **Verschieben nach**.
    * Klicken Sie mit der rechten Maustaste auf die ausgewählten Aufgaben und dann auf **Verschieben nach**.
-   * Klicken Sie bei der Auswahl einer Aufgabe auf das **Mehr** Menü ![Mehr“ in der Aufgabenliste &#x200B;](assets/more-icon-task-list.png) neben dem Aufgabennamen in der Liste und klicken Sie dann auf **Verschieben nach**.
+   * Klicken Sie bei der Auswahl einer Aufgabe auf das **Mehr** Menü ![Mehr“ in der Aufgabenliste ](assets/more-icon-task-list.png) neben dem Aufgabennamen in der Liste und klicken Sie dann auf **Verschieben nach**.
 
    Das **Aufgabe verschieben** wird angezeigt.
 
