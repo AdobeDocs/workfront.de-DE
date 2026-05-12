@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
 workflow-type: tm+mt
 source-wordcount: '1629'
 ht-degree: 3%
@@ -177,7 +177,6 @@ Beachten Sie Folgendes:
   >[!TIP]
   >
   > Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Arten von Dokumentspeicher.
-
 
 * Wenn Sie ein Speicherprojekt für Unternehmen erstellen, wird im Abschnitt **Dokumente** des Projekts ein Dokumentordner mit demselben Namen des Projekts erstellt. Nachdem Sie dem Projekt Aufgaben hinzugefügt haben, werden Ordner mit dem Namen der Aufgabe zum Abschnitt **Dokumente** jeder Aufgabe hinzugefügt.
 

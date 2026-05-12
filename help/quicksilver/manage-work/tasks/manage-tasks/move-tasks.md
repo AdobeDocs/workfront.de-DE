@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1417'
 ht-degree: 4%
 
 ---
@@ -118,6 +118,10 @@ Beachten Sie beim Verschieben einer Aufgabe Folgendes:
 * Standardmäßig werden die folgenden Elemente nicht mit der Aufgabe verschoben:
 
    * Meilensteine
+
+* Wenn Ihr Unternehmen sowohl ältere Workfront- als auch Adobe-Unternehmensspeicher verwendet, können Sie keine Aufgaben zwischen Projekten verschieben, die unterschiedliche Speichertypen verwenden.
+
+  Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und zugehörige Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 ## Verschieben von Aufgaben in einer Liste
 
