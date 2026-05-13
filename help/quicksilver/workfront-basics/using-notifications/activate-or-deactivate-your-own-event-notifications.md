@@ -9,9 +9,9 @@ feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '635'
 ht-degree: 5%
 
 ---
@@ -65,9 +65,9 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 {{step1-click-profile-pic}}
 
-1. Klicken Sie auf das **[!UICONTROL Mehr]**-Symbol ![Mehr](assets/more-icon.png) neben Ihrem Namen und dann auf **[!UICONTROL Bearbeiten]**.
+1. Klicken Sie auf das **[!UICONTROL Mehr]**-Symbol ![Mehr](assets/more-icon.png) neben Ihrem Namen und dann auf **[!UICONTROL Benutzer bearbeiten]**.
 
-1. Gehen Sie im **[!UICONTROL Person bearbeiten]** angezeigten Feld zum Abschnitt **[!UICONTROL Benachrichtigungen]**.
+1. Gehen Sie im **[!UICONTROL Benutzer bearbeiten]** angezeigten Feld zum Abschnitt **[!UICONTROL Benachrichtigungen]**.
 
 1. Klicken Sie auf eine Kategorie, um die Benachrichtigungseinstellungen anzuzeigen, die sich auf diese Kategorie beziehen.
 
@@ -83,10 +83,11 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
    Für die Kategorie **[!UICONTROL Kommunikation]** können Sie einzelne Benachrichtigungen nur für den sofortigen Versand auswählen. Um Benachrichtigungen in einer täglichen Zusammenfassung bereitzustellen, müssen Sie alle auswählen.
 
-   Wenn alle E-Mail-Benachrichtigungen für eine bestimmte Kategorie aktiviert sind, wird das Feld im Kategorientitel als ausgewählt angezeigt. Wenn alle E-Mail-Benachrichtigungen in einer bestimmten Kategorie deaktiviert sind, wird das Kontrollkästchen deaktiviert. Wenn einige Benachrichtigungen aktiviert und andere deaktiviert sind, wird das Kategorie-Kontrollkästchen als gerade Linie angezeigt.\
+   Wenn alle E-Mail-Benachrichtigungen für eine bestimmte Kategorie aktiviert sind, wird das Feld im Kategorientitel als ausgewählt angezeigt. Wenn alle E-Mail-Benachrichtigungen in einer bestimmten Kategorie deaktiviert sind, wird das Kontrollkästchen deaktiviert. Wenn einige Benachrichtigungen aktiviert und andere deaktiviert sind, wird das Kategorie-Kontrollkästchen als gerade Linie angezeigt.
+
    Wenn Sie eine Benachrichtigungseinstellung ändern, wird für diese Benachrichtigungseinstellung **[!UICONTROL Titel &quot;]**&quot; angezeigt, um Sie darüber zu informieren, dass diese Benachrichtigungseinstellung geändert wurde.
 
-1. Wenn Sie Benachrichtigungen als tägliche Zusammenfassung gesendet haben, wählen Sie die Tageszeit, zu der Sie Benachrichtigungen erhalten möchten, oben im Abschnitt **[!UICONTROL Benachrichtigungen]** im Menü **[!UICONTROL Tägliche Zusammenfassung senden nach]** aus.
+1. Wenn Sie Benachrichtigungen als tägliche Zusammenfassung gesendet haben, wählen Sie die Tageszeit, zu der Sie Benachrichtigungen erhalten möchten, oben im Abschnitt **[!UICONTROL Benachrichtigungen]** im Menü **[!UICONTROL Tägliche E-Mail-Zusammenfassung danach]** aus.
 
    ![Daily Digest - Tageszeit auswählen](assets/digest-time-stamp-my-settings-350x78.png)
 
@@ -97,4 +98,4 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
    ![E-Mails von Sandbox empfangen](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
-1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.

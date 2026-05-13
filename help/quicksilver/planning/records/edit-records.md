@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '2918'
+source-wordcount: '2954'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ Weitere Informationen finden Sie unter [Erstellen von Eintragstypen](/help/quick
 
 Weitere Informationen zum Erstellen von Einträgen finden Sie unter [Erstellen von Einträgen](/help/quicksilver/planning/records/create-records.md).
 
-&lt;!— Erwähnen Sie hier, dass die Felder in der Detailansicht mit denen in der Tabellenansicht übereinstimmen — dieser Artikel ist mit der Liste Datensatzansichten verwalten verlinkt, um auf diese Informationen zu verweisen—>
+&lt;!— Erwähnen Sie hier, dass die Felder in der Detailansicht mit denen in der Tabellenansicht übereinstimmen. Dieser Artikel ist von der Seite Datensatzansichten verwalten verlinkt, um auf diese Informationen zu verweisen.>
 
 ## Zugriffsanforderungen
 
@@ -319,6 +319,8 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 
    Klicken Sie in der Tabellenansicht auf das Symbol **Details öffnen** ![Detailsymbol öffnen im Feld „Tabellenname](assets/open-details-icon-in-table-name-field.png) in der ersten Spalte. Die Vorschau des Datensatzes wird in der Ansicht geöffnet.
 
+   <!--update screenshot for new details views preview-->
+
    ![Detailfeld](assets/details-box.png)
 
 1. (Optional) Klicken Sie auf das **Mehr**-Menü rechts neben dem Datensatztitel und klicken Sie dann auf **Umbenennen**. Dadurch wird das Feld aktualisiert, das als Datensatztitel angezeigt wird.
@@ -373,6 +375,8 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
      ![Kontextmenü für Datensatzzeile](assets/contextual-menu-for-record-row.png)
 
      Die Datensatzseite wird geöffnet.
+
+     <!--update screenshot for new details views preview-->
 
      ![Detailseite](assets/details-page.png)
 

@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '2825'
+source-wordcount: '2859'
 ht-degree: 4%
 
 ---
@@ -345,7 +345,11 @@ So bearbeiten Sie Aufgaben in einer Liste bei Auswahl der Option „Manuelles Sp
     </tbody> 
    </table>
 
-1. Workfront aktualisiert alle projektinternen und projektübergreifenden Abhängigkeiten, wenn Sie Änderungen an der Zeitleiste von Aufgaben vornehmen.
+1. Klicken Sie auf eine Aufgabe in der Liste und ziehen Sie sie dann per Drag-and-Drop an eine andere Position in der Zeitleiste.
+
+   Wenn Sie auf eine übergeordnete Aufgabe klicken, um ihre Position zu ändern, werden auch alle untergeordneten Elemente verschoben.
+
+   Workfront aktualisiert alle projektinternen und projektübergreifenden Abhängigkeiten, wenn Sie Änderungen an der Zeitleiste von Aufgaben vornehmen.
 1. Klicken Sie **Speichern**, wenn Sie Ihre Aufgabenänderungen dauerhaft beibehalten und die Zeitleiste des Projekts speichern möchten.
 
 #### Änderungen in einer Aufgabenliste manuell speichern, wenn Sie die Option „Manuelles Speichern der Zeitleistenplanung“ auswählen {#save-changes-in-a-task-list-manually-when-you-select-the-manual-save-timeline-planning-option}

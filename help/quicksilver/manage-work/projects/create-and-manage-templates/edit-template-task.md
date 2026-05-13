@@ -9,9 +9,9 @@ feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 62d7144f808e7937f11c11ccff64e409c76f2197
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '3062'
+source-wordcount: '3123'
 ht-degree: 7%
 
 ---
@@ -58,7 +58,7 @@ Sie können jeweils nur eine Vorlagenaufgabe bearbeiten oder Vorlagenaufgaben st
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p>
-   <p>Plan </p></td> 
+   <p>Abo </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfiguration der Zugriffsebene</td> 
@@ -583,6 +583,23 @@ Die Formulare werden automatisch zu den Aufgaben hinzugefügt, die aus der Vorla
 1. Klicken Sie auf **Speichern**.
 
    Wenn Sie oder ein anderer Benutzer ein Projekt aus dieser Vorlage erstellt, werden alle Einstellungen, die Sie auf Vorlagenaufgaben angewendet haben, zu den Einstellungen für die Projektaufgaben.
+
+
+## Bearbeiten von Vorlagenaufgaben in einer Liste
+
+Sie können Vorlagenaufgaben in einer Liste in den folgenden Bereichen bearbeiten:
+
+* Der Abschnitt Vorlagenaufgaben einer Vorlage
+* Ein Vorlagenaufgabenbericht
+
+Das Bearbeiten von Vorlagenaufgaben in einer Liste ähnelt dem Bearbeiten von Projektaufgaben in einer Liste.
+
+>[!TIP]
+>
+>Für Vorlagenaufgaben ist kein Planungsmodus verfügbar.
+
+
+Weitere Informationen finden Sie unter [Bearbeiten von Aufgaben in einer Liste](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
 
 <!--
