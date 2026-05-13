@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '679'
 ht-degree: 5%
 
 ---
@@ -174,16 +174,20 @@ Sie können einen Datensatz personalisieren, indem Sie oben auf der Datensatzvor
 
    ODER
 
-   Klicken Sie in der Tabellenansicht auf das Symbol **Details öffnen** (![) &#x200B;](assets/open-details-icon-in-table-name-field.png) der ersten Spalte.
+   Klicken Sie in der Tabellenansicht auf das Symbol **Details öffnen** (![) ](assets/open-details-icon-in-table-name-field.png) der ersten Spalte.
 
    Die Vorschau des Datensatzes wird in der Ansicht geöffnet.
+
+   <!--update screen shot for new details views preview-->
 
    ![Vorschaufeld Details](assets/details-box.png)
 
 
-1. (Optional) Klicken Sie auf **Symbol „In neuer Registerkarte** öffnen![&#x200B; Symbol „In neuer Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen.
+1. (Optional) Klicken Sie auf **Symbol „In neuer Registerkarte** öffnen![ Symbol „In neuer Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen.
 
    Die Datensatzseite wird geöffnet.
+
+   <!--update screen shot for new details views preview-->
 
    ![Detailseite](assets/details-page.png)
 
@@ -191,14 +195,14 @@ Sie können einen Datensatz personalisieren, indem Sie oben auf der Datensatzvor
 
    ODER
 
-   Bewegen Sie den Mauszeiger über ein vorhandenes Titelbild und klicken Sie auf das Menü **Mehr** ![Mehr &#x200B;](assets/more-menu.png) und dann auf **Hochladen**. <!--check the casing here; I logged a bug for this-->
+   Bewegen Sie den Mauszeiger über ein vorhandenes Titelbild und klicken Sie auf das Menü **Mehr** ![Mehr ](assets/more-menu.png) und dann auf **Hochladen**. <!--check the casing here; I logged a bug for this-->
 Das **„Datensatzabdeckung** wird auf der Registerkarte **Hochladen** geöffnet.
 
    ![Plattenhülle zum Hochladen](assets/record-cover-box-for-upload.png)
 
 1. Klicken Sie **Bilder durchsuchen** und suchen Sie ein Bild auf Ihrem Computer, um es auszuwählen und hinzuzufügen.
 
-1. (Optional) Um das Bild vor dem Speichern zu entfernen, klicken Sie auf das Symbol **Neues Bild hochladen** ![&#x200B; (Symbol Neues Bild hochladen](assets/upload-new-image-icon.png) und laden Sie ein neues Bild hoch.
+1. (Optional) Um das Bild vor dem Speichern zu entfernen, klicken Sie auf das Symbol **Neues Bild hochladen** ![ (Symbol Neues Bild hochladen](assets/upload-new-image-icon.png) und laden Sie ein neues Bild hoch.
 
 1. (Optional) Klicken Sie auf **Galerie** und klicken Sie dann auf ein Bild in der Galerie. Die Bildergalerie kann nicht geändert werden.
 
@@ -207,6 +211,8 @@ Das **„Datensatzabdeckung** wird auf der Registerkarte **Hochladen** geöffnet
 1. Klicken Sie **Bild verwenden**.
 
    Das Bild wird oben auf der Datensatzvorschau- oder Detailseite hochgeladen und die Änderungen werden automatisch gespeichert.
+
+   <!--update screen shot for new details views preview-->
 
    ![Seite mit Titelbild aufzeichnen](assets/record-page-with-cover-image.png)
 

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: cbee9aabad7300c2a7ff7aa92bc68a6368a1efcd
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
-source-wordcount: '1799'
+source-wordcount: '1803'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 Sie können Objekte in der Listenansicht in den folgenden Bereichen von Workfront Planning anzeigen:
 
-* Eine Seite mit verbundenen Datensätzen für Projekte im Detailbereich eines Datensatzes
+* Eine Seite mit verbundenen Datensätzen für Projekte im Detailbereich eines Datensatzes <!--update screen shot for preview May 14 with Grouping icon and add the note at the top in yellow about preview-->
 
   ![Projekte auf der Seite mit verbundenen Datensätzen in der Listenansicht](assets/projects-on-connected-records-page-list-view.png)
 
@@ -189,11 +189,6 @@ Removed - more direct steps below:
       Sie können der Listenansicht nur vorhandene Felder hinzufügen.
 Sie können das primäre Feld in der Listenansicht, die in der ersten Spalte angezeigt wird, nicht entfernen.
 
-      <!-- 
-        update indent here: 
-        1. <span class="preview">Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png) to choose fields to group items by, then sort them in an ascending or descending order. </span>
-        -->
-
    1. Klicken Sie auf das **Zellen formatieren**-Symbol ![Zellen formatieren-Symbol](assets/format-cells-icon.png). Das Feld **Format** wird geöffnet. <!--change the name of the box when they update it-->
 Gehen Sie folgendermaßen vor:
 
@@ -204,7 +199,7 @@ Gehen Sie folgendermaßen vor:
          >
          >Für bedingte Formatierung sind nur in der Listenansicht sichtbare Felder verfügbar.
 
-      1. (Optional) Anstatt einen Feldwert hinzuzufügen, klicken Sie auf das Symbol **Mit einem anderen Feld vergleichen** (![&#x200B; mit einem anderen Feld vergleichen](assets/compare-to-another-field-icon.png) und wählen Sie ein Feld aus, dessen Wert Sie mit dem Wert des ausgewählten Felds vergleichen möchten. Sie können beispielsweise die Felder Projektbesitzer und Projektsponsor vergleichen.
+      1. (Optional) Anstatt einen Feldwert hinzuzufügen, klicken Sie auf das Symbol **Mit einem anderen Feld vergleichen** (![ mit einem anderen Feld vergleichen](assets/compare-to-another-field-icon.png) und wählen Sie ein Feld aus, dessen Wert Sie mit dem Wert des ausgewählten Felds vergleichen möchten. Sie können beispielsweise die Felder Projektbesitzer und Projektsponsor vergleichen.
 
          >[!TIP]
          >
@@ -219,7 +214,7 @@ Gehen Sie folgendermaßen vor:
       1. Klicken Sie auf den **OR**-Connector zwischen Bedingungen, um zu **AND** zu wechseln und anzugeben, dass mehrere Bedingungen gleichzeitig erfüllt sein müssen. **Oder** ist der Standard-Connector.
       1. Wählen Sie in **Zeile** Format“ ein Feld aus, um anzugeben, welche Spalte formatiert werden soll. <!--edit this area, if it changes names??-->
       1. (Optional) Klicken Sie auf das Symbol **Farbkreis** Symbol ![Farbkreis](assets/color-circle.png) neben dem ausgewählten Feld, um es zu erweitern und eine andere Farbe im Bereich **Zellenfüllung** auszuwählen, um die Farbe des Hintergrunds in einer Zelle zu ändern, oder wählen Sie eine Farbe aus dem Bereich **Textfarbe** aus, um die Farbe des Textes in einer Zelle zu ändern.
-      1. Klicken Sie auf das Symbol **Textformat** ![&#x200B; (](assets/text-format-icon.png)) und wählen Sie eine der folgenden Optionen aus, um den Text in einer Zelle zu formatieren:
+      1. Klicken Sie auf das Symbol **Textformat** ![ (](assets/text-format-icon.png)) und wählen Sie eine der folgenden Optionen aus, um den Text in einer Zelle zu formatieren:
          * Fett
          * Kursiv
 
@@ -232,7 +227,7 @@ Gehen Sie folgendermaßen vor:
 Die Formatierung wird sofort auf die Listenansicht angewendet.
 Ein blauer Punkt neben dem Symbol **Zellen formatieren** gibt an, dass auf die Ansicht eine besondere Formatierung angewendet wurde.
 
-   1. (Optional) Klicken Sie auf das **Gruppierung**-Symbol ![Gruppierungssymbol](assets/grouping-icon.png) <!--have they updated this to "Grouping"??-->, um Elemente in der Liste nach einem gemeinsamen Feld zu gruppieren. Wählen Sie eine der Optionen aus oder verwenden Sie die Suchleiste, um ein Feld zu finden.
+   1. (Optional) Klicken Sie auf das **Gruppierung**-Symbol ![Gruppierungssymbol](assets/grouping-icon.png), um Elemente in der Liste nach einem gemeinsamen Feld zu gruppieren. Wählen Sie eine der Optionen aus oder verwenden Sie die Suchleiste, um ein Feld zu finden.
 
       Das Feld muss eine Spalte in der Liste sein, bevor Sie es gruppieren können. Nicht alle Feldtypen können für Gruppierungen verwendet werden.
 
@@ -243,7 +238,7 @@ Ein blauer Punkt neben dem Symbol **Zellen formatieren** gibt an, dass auf die A
       * Mittel
       * Groß
 
-   <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
+      <!--leave these here, although they duplicate for Enhanced lists in Workfront-->
 
 1. (Optional) Fügen Sie ein Keyword in das Suchfeld in der oberen rechten Ecke der Liste ein, um nach einem Element zu suchen.
 
@@ -253,19 +248,21 @@ Ein blauer Punkt neben dem Symbol **Zellen formatieren** gibt an, dass auf die A
 
    * Klicken Sie **Datensätze verbinden** in der oberen rechten Ecke der Liste, um vorhandene Elemente hinzuzufügen.
    * Klicken Sie **Neue Zeile** unten in der Liste, um neue Elemente hinzuzufügen.
-1. Klicken Sie auf den Namen eines verbundenen Elements in der Liste, um es in einer anderen Browser-Registerkarte zu öffnen.
+1. Klicken Sie auf den Namen eines Elements in der Liste, um es in einer anderen Browser-Registerkarte zu öffnen.
 1. Doppelklicken Sie in eine Zelle der Liste, um die Informationen eines Felds zu bearbeiten, und drücken Sie dann die Eingabetaste, um die Änderungen zu speichern.
 
    Einige Felder sind schreibgeschützt. Beispielsweise ist der Bereich Prozent abgeschlossen eines Projekts ein Feld, das vom System berechnet wird, und Sie können ihn nicht manuell bearbeiten.
 
-1. Bewegen Sie den Mauszeiger über den Namen eines Elements in der Liste und klicken Sie auf das Menü **Mehr** [Mehr](assets/more-menu.png) und klicken Sie auf **Anzeigen**, um das Projekt in einer anderen Registerkarte zu öffnen
+1. Bewegen Sie den Mauszeiger über den Namen eines Elements in der Liste und klicken Sie auf das Menü **Mehr** [Mehr](assets/more-menu.png) und klicken Sie auf **Anzeigen**, um das Element in einer anderen Registerkarte zu öffnen
 
    ODER
 
-   Wählen Sie ein oder mehrere Elemente aus, beachten Sie die Aktionsleiste unten in der Liste und klicken Sie dann auf eine der folgenden Aktionen, sofern verfügbar. Klicken Sie je nachdem, aus welchem Bereich Sie auf die Listenansicht zugreifen, auf eine der folgenden Optionen:
+   Wählen Sie ein oder mehrere Elemente aus, beachten Sie die Aktionsleiste unten in der Liste und klicken Sie dann auf eine der folgenden Aktionen, sofern verfügbar.
+
+   Klicken Sie je nachdem, aus welchem Bereich Sie auf die Listenansicht zugreifen, auf eine der folgenden Optionen:
 
    * **Löschen**, um das Element zu löschen. Durch das Löschen eines Projekts wird es vom Datensatz getrennt und in den Papierkorb von Workfront verschoben. Workfront-Administratoren können gelöschte Projekte bis zu 30 Tage nach dem Löschen wiederherstellen. Beim Löschen eines Formulars werden die Anfragen oder Datensätze, die beim Senden des Formulars erstellt wurden, nicht gelöscht.
-   * **Trennen**, um das Projekt vom Datensatz zu trennen. Wenn Sie ein Projekt trennen, werden es und alle Werte seiner Suchfelder aus dem aktuellen Datensatz entfernt.
+   * **Trennen** auf der Seite „Verbundene Projekte“, um ein Projekt vom Datensatz zu trennen. Wenn Sie ein Projekt trennen, werden es und alle Werte seiner Suchfelder aus dem aktuellen Datensatz entfernt.
 
      ![Aktionsleiste in der Listenansicht der verbundenen Datensätze](assets/actions-bar-connected-records-page-list-view.png)
 

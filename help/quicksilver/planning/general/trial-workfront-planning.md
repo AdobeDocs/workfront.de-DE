@@ -7,7 +7,7 @@ role: User, Admin
 exl-id: fcad60b2-05e8-4774-8135-129bc1d3f9ce
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: cbee9aabad7300c2a7ff7aa92bc68a6368a1efcd
+source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
 workflow-type: tm+mt
 source-wordcount: '2368'
 ht-degree: 3%
@@ -17,13 +17,11 @@ ht-degree: 3%
 
 # Erste Schritte mit der kostenlosen Testversion von Adobe Workfront-Planung
 
-<!-- are we still calling the tab "Best practice workspaces"? If not, reword below-->
-
 <!--add screen shots-->
 <!--check the names of areas, buttons, and links: Learn more, Open Planning, Review trial agreement, etc-->
 
 <!--
-and remove the IMPORTANT below - it conflicts with this one: 
+and this important, and remove the IMPORTANT below - it conflicts with this one: 
 >[!IMPORTANT]
 >
 >The Adobe Workfront Planning trial period concludes on May 15, 2026. This article will remain active for a period of time but will be retired soon. We recommend that you update your bookmarks for the future.
@@ -234,7 +232,7 @@ Sie können Beispiel-Planning-Arbeitsbereiche und deren Objekte überprüfen und
 
 1. (Bedingt und erforderlich) Als Workfront-Administrator unterzeichnen Sie die Vereinbarung über die kostenlose Testversion.
 
-   Weitere Informationen finden Sie im Abschnitt [Registrieren bei der kostenlosen Testversion von Adobe Workfront &#x200B;](#enroll-in-the-adobe-workfront-planning-free-trial).
+   Weitere Informationen finden Sie im Abschnitt [Registrieren bei der kostenlosen Testversion von Adobe Workfront ](#enroll-in-the-adobe-workfront-planning-free-trial).
 1. (Bedingt) Nachdem der Testvertrag von einem Workfront-Administrator unterzeichnet wurde, klicken Sie auf das **Hauptmenü**-Symbol ![](assets/main-menu-shell.png) und dann auf eine der folgenden Optionen, um auf den Bereich **Planung** zuzugreifen:
 
    * **Planung**. Neben dem Symbol wird die **&quot;**&quot; angezeigt.
