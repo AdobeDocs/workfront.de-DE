@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
+source-git-commit: e40d28599148e22a8553d1ef1e669811e80a59df
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1989'
 ht-degree: 2%
 
 ---
@@ -18,11 +18,9 @@ ht-degree: 2%
 
 # Verwalten des Layouts der Eintragsseite
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die auf dieser Seite hervorgehobenen Informationen beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -163,7 +161,7 @@ Old:
 
 * Änderungen an der Datensatzvorschau werden sofort auf der Seite mit den Datensatzdetails angezeigt. Auf der Datensatzseite vorgenommene Änderungen sind auch im Feld für die Datensatzvorschau sichtbar.
 
-* Das Hinzufügen eines Cover- oder Miniaturbilds zu einem Datensatz gehört nicht zum Gesamtlayout der Datensatzvorschau oder -seite. Sie können jedem Datensatz eindeutige Titelbilder oder Miniaturansichten hinzufügen. Weitere Informationen finden Sie unter [Hinzufügen eines Titelbilds zu einem &#x200B;](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) und [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+* Das Hinzufügen eines Cover- oder Miniaturbilds zu einem Datensatz gehört nicht zum Gesamtlayout der Datensatzvorschau oder -seite. Sie können jedem Datensatz eindeutige Titelbilder oder Miniaturansichten hinzufügen. Weitere Informationen finden Sie unter [Hinzufügen eines Titelbilds zu einem ](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) und [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
 * Sie können der Seite eines Datensatzes zusätzliche Seiten der folgenden Typen hinzufügen:
 
@@ -205,7 +203,7 @@ So fügen Sie einen Abschnitt zu einer Datensatzvorschau oder Seite hinzu:
 
    ![Detailfeld](assets/details-box.png)
 
-1. (Optional) Klicken Sie auf **Symbol** In neuer Registerkarte öffnen![&#x200B; (Details in einer neuen Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png) in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen.
+1. (Optional) Klicken Sie auf **Symbol** In neuer Registerkarte öffnen![ (Details in einer neuen Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png) in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen.
 
    Die Datensatzseite wird geöffnet. Die Registerkarte Details wird standardmäßig geöffnet.
 
@@ -246,7 +244,7 @@ Alle Abschnitte sind standardmäßig erweitert.
 
    Alle Änderungen an Abschnitten und der Feldreihenfolge werden automatisch gespeichert.
 
-1. (Optional) Klicken Sie auf das **Export**-Menü ![Export-Symbol auf der Seite mit &#x200B;](assets/export-icon-in-record-details-page.png) Datensatzdetails), um die Registerkarte Details in eine Word- oder PDF-Datei zu exportieren. Weitere Informationen finden Sie [Exportieren der Details eines Datensatzes](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Optional) Klicken Sie auf das **Export**-Menü ![Export-Symbol auf der Seite mit ](assets/export-icon-in-record-details-page.png) Datensatzdetails), um die Registerkarte Details in eine Word- oder PDF-Datei zu exportieren. Weitere Informationen finden Sie [Exportieren der Details eines Datensatzes](/help/quicksilver/planning/records/export-the-record-page.md).
 
 1. (Optional) Klicken Sie auf die Registerkarte **Verbindungen** neben der Registerkarte **Details**. Möglicherweise müssen Sie auf **Mehr** klicken, bevor Sie auf die Registerkarte **Verbindungen** klicken.
 
@@ -288,7 +286,7 @@ Folgendes geschieht:
 
    ![Detailfeld](assets/details-box.png)
 
-1. (Optional und bedingt) <!--If you are using the Production environment,--> Führen Sie je nachdem, welche Felder auf der Detailseite angezeigt werden sollen, einen der folgenden Schritte aus:
+1. (Optional und bedingt) Wenn Sie die Produktionsumgebung verwenden, führen Sie je nachdem, welche Felder Sie auf der Detailseite anzeigen möchten, einen der folgenden Schritte aus:
 
 
    * Wählen Sie die Einstellung **Alle Felder anzeigen**, um alle Felder des Datensatzes in die Seite **Details** aufzunehmen. Dies ist die Standardeinstellung.
@@ -300,36 +298,37 @@ Folgendes geschieht:
      >* Es ist nicht möglich, der Seite eines Datensatzes Abschnitte hinzuzufügen, wenn Sie ausgeblendete Felder im Vorschaufeld Details ausschließen.
 
 
-   <!--
-   1. <span class="preview">(Optional and conditional) If you are using the Preview environment, the details area opens by default in the **Selected table view fields** view. This displays only the fields that are visible in the table view. </span>
+1. <span class="preview">(Optional und bedingt) Wenn Sie die Vorschau -Umgebung verwenden, wird der Detailbereich standardmäßig in der Ansicht **Ausgewählte Tabellenansichtsfelder** geöffnet. Dadurch werden nur die Felder angezeigt, die in der Tabellenansicht sichtbar sind. </span>
+
+   >[!TIP]
+   >
+   > <span class="preview">Die Ansicht **Ausgewählte Tabellenansichtsfelder** ist nur verfügbar, wenn Datensätze in der Tabellenansicht angezeigt werden.</span>
+
+<div class="preview">
+
+Fahren Sie in der Vorschau-Umgebung mit den folgenden Schritten fort:
+
+1. Um alle Felder anzuzeigen, erweitern Sie das Dropdown-Menü Seitenansicht und wählen Sie dann **Alle Felder** aus.
+1. (Optional) Klicken Sie auf **Neue Details**, um eine neue Seite hinzuzufügen und sie anzupassen. Gehen Sie dann wie folgt vor:
+
+   1. Fügen Sie im Feld **Ansicht erstellen** einen Namen für die neue Detailseitenansicht hinzu und klicken Sie dann auf **Erstellen**.
+   1. Bewegen Sie den Mauszeiger über die Felder in der Ansicht und klicken Sie auf das **Feld ausblenden**-Symbol ![Feldsymbol ausblenden](assets/hide-field-in-details-page-icon.png) links neben den Feldern, um das Feld auszublenden.
+
       >[!TIP]
       >
-      > <span class="preview">The **Selected table view fields** view is only available when you view records in the table view.</span>
-   -->
-   <!--
-   <div class="preview">
+      >* Benutzerdefinierte Seiten sind für jeden sichtbar, der auf den Datensatz zugreift.
+      >* Die letzte Seitenansicht, die Sie auswählen, wird standardmäßig geöffnet, wenn Sie einen anderen Datensatz desselben Typs öffnen.
 
-   In the Preview environment, continue with the following: 
-   
-   1. To display all the fields, expand the page view dropdown menu, then select **All fields**.
-   1. (Optional) ClicK **New Details** to add a new page and customize it, then do the following:
-      1. In the **Create view** box, add a name for the new details page view, then click **Create**. 
-      1. Hover over the fields on the view and click the **Hide field** icon ![Hide field icon](assets/hide-field-in-details-page-icon.png) to the left of the fields, to hide the field. 
-     
-         >[!TIP]
-         >
-         >* Custom pages are visible by everyone who accesses the record. 
-         >* The last page view you choose will be the one that opens by default when you open another record of the same type.
-     
-      1. (Optional) Click the **Fields icon** ![Fields icon](assets/fields-icon.png) at the top of the details page, then hide or show fields on the Details page. 
-     
-         >[!TIP]
-         >
-         >The **Fields** icon is not available when you display the details page in the **Selected table view** or the **All fields** views. 
-      1. (Optional) To edit the name of a custom details page view, hover over the name of the view and click the **More** icon ![More icon](assets/more-menu.png) , then click **Edit**. 
-      1. (Optional) To delete a custom details page view, hover over the name of the view and click the **More** icon ![More icon](assets/more-menu.png), then click **Delete**, then **Delete** to confirm. Deleted details page views cannot be recovered. 
-   </div>
-   -->
+   1. (Optional) Klicken Sie auf **Feldsymbol** ![Feldsymbol](assets/fields-icon.png) oben auf der Detailseite und blenden Sie dann Felder auf der Detailseite aus oder ein.
+
+      >[!TIP]
+      >
+      >Das Symbol **Felder** ist nicht verfügbar, wenn Sie die Detailseite in der Ansicht **Ausgewählte Tabelle** oder **Alle Felder** anzeigen.
+
+   1. (Optional) Um den Namen einer benutzerdefinierten Detailseitenansicht zu bearbeiten, bewegen Sie den Mauszeiger über den Namen der Ansicht und klicken Sie auf das Symbol **Mehr** ![Mehr](assets/more-menu.png) und klicken Sie dann auf **Bearbeiten**.
+   1. (Optional) Um eine benutzerdefinierte Detailseitenansicht zu löschen, bewegen Sie den Mauszeiger über den Namen der Ansicht und klicken Sie auf das **Mehr**-Symbol ![Mehr](assets/more-menu.png), klicken Sie dann zur Bestätigung auf **Löschen** und dann auf **Löschen**. Gelöschte Detailseitenansichten können nicht wiederhergestellt werden.
+
+</div>
 
 1. (Optional) Wenn Sie zu einem verbundenen Datensatz navigieren möchten, klicken Sie auf den Namen dieses Datensatzes im Breadcrumb oben auf der Detailseite.
 
@@ -339,7 +338,7 @@ Folgendes geschieht:
    >
    >Sie müssen über verbundene Datensatztypen, Datensätze und Hierarchien in Ihrem Arbeitsbereich verfügen, damit Breadcrumbs auf der Detailseite des Datensatzes angezeigt werden können.
 
-1. (Optional) Klicken Sie auf **Symbol** In neuer Registerkarte öffnen![&#x200B; (Detailfeld in einem neuen Registerkartensymbol öffnen](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen.
+1. (Optional) Klicken Sie auf **Symbol** In neuer Registerkarte öffnen![ (Detailfeld in einem neuen Registerkartensymbol öffnen](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen.
 
    Die Seite **Details** wird auf einer neuen Registerkarte geöffnet.
 

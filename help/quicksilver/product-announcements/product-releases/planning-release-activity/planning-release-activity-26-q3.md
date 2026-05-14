@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 5416c2d847e9b1023068719602c4d1d4e6219801
+source-git-commit: e40d28599148e22a8553d1ef1e669811e80a59df
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 1%
+source-wordcount: '332'
+ht-degree: 0%
 
 ---
 
@@ -55,35 +55,32 @@ We recommend to use the Sample workspaces as examples only, and rather use the m
 
 For information, see Workspaces overview (/help/quicksilver/planning/architecture/workspaces-overview.md). 
 
-## Custom views for a record's Details page 
-
->[!NOTE]
->
->Preview: May 14, 2026 
->Production fast release: June 11, 2026 
->Production for everyone: July 16, 2026 
-
-To allow for better flexibility of visualizing your information in a record's details page, we have introduced the ability to create custom views for this page.  
-
-In addition to adding two already-built details page views that contain either all the records fields or just the fields visible in the table view, you can now create custom views for a record's details pages. The views you create are visible to everyone that can access the record.  
-
-This update removes the **Show all fields** setting and replaces it with custom details views.  
-
-For information, see [Manage the record page](/help/quicksilver/planning/records/manage-the-record-page.md).  
-
-## Add groupings to a Projects connected record page
-
->[!NOTE]
->
->Preview: May 14, 2026     
->Production fast: June 11, 2026 
->Production for everyone: July 16, 2026 
-
-You can now group your information in the projects connected records page of a record in Workfront Planning. This capability did not exist in this area prior to this enhancement.  
-
-For information, see [Manage the list view](/help/quicksilver/planning/views/manage-the-list-view.md).
-
 -->
+
+## Benutzerdefinierte Ansichten für die Detailseite eines Datensatzes
+
+>[!NOTE]
+>
+>Vorschau: 14. Mai 2026>Produktions-Schnellveröffentlichung: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+
+Um eine bessere Flexibilität bei der Visualisierung Ihrer Informationen auf der Detailseite eines Datensatzes zu ermöglichen, haben wir die Möglichkeit eingeführt, benutzerdefinierte Ansichten für diese Seite zu erstellen.
+
+Zusätzlich zum Hinzufügen von zwei bereits erstellten Detailseitenansichten, die entweder alle Datensatzfelder oder nur die in der Tabellenansicht sichtbaren Felder enthalten, können Sie jetzt benutzerdefinierte Ansichten für die Detailseiten eines Datensatzes erstellen. Die von Ihnen erstellten Ansichten sind für alle sichtbar, die auf den Datensatz zugreifen können.
+
+Durch dieses Update wird die Einstellung **Alle Felder anzeigen** entfernt und durch benutzerdefinierte Detailansichten ersetzt.
+
+Weitere Informationen finden Sie unter [Verwalten der Datensatzseite](/help/quicksilver/planning/records/manage-the-record-page.md).
+
+## Hinzufügen von Gruppierungen zu einer Datensatzseite mit verbundenen Projekten
+
+>[!NOTE]
+>
+>Vorschau: 14. Mai 2026\
+>Produktionsschnell: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+
+Sie können Ihre Informationen jetzt auf der Seite „Mit Projekten verbundene Datensätze“ eines Datensatzes in Workfront Planning gruppieren. Diese Funktion war in diesem Bereich vor dieser Verbesserung nicht vorhanden.
+
+Weitere Informationen finden Sie unter [Verwalten der Listenansicht](/help/quicksilver/planning/views/manage-the-list-view.md).
 
 
 <!--
