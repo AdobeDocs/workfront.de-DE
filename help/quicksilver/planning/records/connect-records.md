@@ -8,9 +8,9 @@ author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: 69414cbbee8899bdbf241d57e50e3ef1c10cc162
 workflow-type: tm+mt
-source-wordcount: '3445'
+source-wordcount: '3546'
 ht-degree: 2%
 
 ---
@@ -473,7 +473,7 @@ Verbinden von Datensätzen mit Experience Manager-Objekten:
      >
      >* Für die verknüpften Experience Manager-Assets in der Experience Manager Assets-Anwendung wird kein verknüpftes Datensatzfeld mit den verknüpften Workfront Planning-Datensätzen erstellt.
 
-1. (Optional und bedingt) Wechseln Sie bei Assets zu dem Datensatztyp, von dem aus Sie eine Verknüpfung mit Experience Manager hergestellt haben, und klicken Sie auf den Namen eines Assets im Feld Verknüpfter Datensatz . Die Experience Manager-Details des Assets werden in einem Popup-Fenster angezeigt. <!--not sure if this is also possible for fragments??-->
+1. (Optional und bedingt) Wechseln Sie zu dem Datensatztyp, von dem aus Sie eine Verknüpfung mit Experience Manager hergestellt haben, und klicken Sie auf den Namen eines Assets im Feld Verknüpfter Datensatz . Die Experience Manager-Details des Assets werden in einem Popup-Fenster angezeigt. <!--not sure if this is also possible for fragments??-->
 
    ![Asset-Popup mit AEM-Details und Miniaturansicht](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
 
@@ -489,11 +489,15 @@ Verbinden von Datensätzen mit Experience Manager-Objekten:
    * Erstellungsdatum
    * Änderungsdatum
 
-1. (Optional und bedingt) Wenn Sie die Datensatzseite für Experience Manager-Assets in Experience Manager öffnen möchten, wechseln Sie zur Datensatztypseite des Datensatzes, von dem aus Sie eine Verknüpfung herstellen, klicken Sie auf den Namen eines Assets im verknüpften Datensatzfeld, um das Popup-Fenster zu öffnen. Klicken Sie dann auf das Symbol **In AEM öffnen** ![Asset in AEM öffnen](assets/open-asset-icon.png), um das Asset zu öffnen. <!--not sure if this is also possible for fragments??-->
+     >[!TIP]
+     >
+     >Das Experience Manager-Objektdetailfenster wird an einer beliebigen Stelle in Planning angezeigt, an der das verbundene Objekt angezeigt wird. Sie können beispielsweise die Detailfenster für AEM-Objekte über das Tabellenfenster oder den Detailbereich eines Datensatzes öffnen.
+
+1. (Optional und bedingt) Um die Datensatzseite für Experience Manager Assets oder Fragmente in Experience Manager zu öffnen, klicken Sie auf die Datensatztypseite des Datensatzes, von dem aus Sie eine Verknüpfung herstellen, klicken Sie auf den Namen eines Assets im verknüpften Datensatzfeld, um das Popup-Fenster zu öffnen, und klicken Sie dann auf das Symbol **In AEM öffnen** ![Asset in AEM öffnen](assets/open-asset-icon.png), um das Asset zu öffnen. <!--not sure if this is also possible for fragments??-->
 
    Dadurch wird das Experience Manager-Asset in Adobe Experience Manager Assets geöffnet.
 
-1. (Optional und bedingt) Bewegen Sie bei Assets in der Tabellenansicht des Datensatztyps den Mauszeiger über die Spaltenüberschrift des verknüpften Experience Manager-Assets, klicken Sie auf das Dropdown-Menü und dann auf **Suchfelder bearbeiten**. <!--not sure if this is also possible for fragments??-->
+1. (Optional und bedingt) Bewegen Sie in der Tabellenansicht des Datensatztyps den Mauszeiger über die Spaltenüberschrift des verknüpften Experience Manager-Assets oder -Fragments, klicken Sie auf das Dropdown-Menü und dann auf **Suchfelder bearbeiten**. <!--not sure if this is also possible for fragments??-->
 
 1. Hinzufügen von Experience Manager Assets-Objektfeldern aus dem Bereich **Nicht ausgewählte**&quot; <!--not sure if this is also possible for fragments??-->
 
