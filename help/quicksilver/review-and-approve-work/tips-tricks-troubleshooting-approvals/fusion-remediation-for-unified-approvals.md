@@ -6,9 +6,9 @@ description: Inventarisieren, klassifizieren und beheben Sie Workfront Fusion-Sz
 author: Courtney
 feature: Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 722ba7f6617e3ccc1a1dcbf51f5d539c550617ab
+source-git-commit: 0a635f80338cef38dec7d32391596ca9ccd2fd6c
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '804'
 ht-degree: 1%
 
 ---
@@ -32,9 +32,9 @@ Bestehende Fusion-Szenarien, die auf Workfront Proof basieren, basieren auf Korr
 
 | Szenario-Typ | Wirkung | Weiterleitung |
 |---|---|---|
-| Erstellung und Weiterleitung von Korrekturabzügen | Pausen | Neu erstellen mit der einheitlichen Validierungs-API |
-| Webhooks zum Korrekturabzugsstatus | Pausen | Mit neuen Triggern für Genehmigungsereignisse neu erstellen |
-| Trigger beim Hochladen von Dokumenten | Teilweise: Erneuter Test erforderlich | Prüfen und erneutes Testen nach der Migration |
+| Erstellung und Weiterleitung von Korrekturabzügen | Pausen | Neuaufbau mit der API für einheitliche Genehmigungen im 3. Quartal 2026 |
+| Webhooks zum Korrekturabzugsstatus | Pausen | Mit neuen Triggern für Genehmigungsereignisse im 3. Quartal 2026 neu erstellen |
+| Trigger beim Hochladen von Dokumenten | Teilweise: Erneuter Test erforderlich | Audit und erneuter Test nach der Migration im 3. Quartal 2026 |
 | Erinnerungsbenachrichtigungen für Genehmigungen | Pausen | Mit Fristen für Genehmigungsvorlagen ersetzen |
 | Validierungsentscheidungs-Routing | Pausen | Neu erstellen mit neuen Entscheidungsstatusfeldern |
 | Benutzerdefinierte Genehmigungsberichte | Teilweise: Feldnamen können sich ändern | Ordnen Sie ältere Felder dem neuen Schema zu |
