@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+source-git-commit: a7f7099f3de147ed166ab19ac44608ba01eb6d31
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1230'
 ht-degree: 5%
 
 ---
@@ -88,7 +88,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
      <tr> 
       <td>[!UICONTROL Projekt]</td> 
       <td>Der Name eines Projekts</td> 
-      <td>[!UICONTROL Aufgaben], [!UICONTROL Projektdetails], [!UICONTROL Business Case], [!UICONTROL Updates], [!UICONTROL Dokumente], [!UICONTROL Probleme], [!UICONTROL Risiken], [!UICONTROL Genehmigungen], [!UICONTROL Baselines], [!UICONTROL Abrechnungssätze], [!UICONTROL Abrechnungssätze], [!UICONTROL Ausgaben], [!UICONTROL Stunden], [!UICONTROL Workload Balancer], [!UICONTROL Personen], [!UICONTROL Auslastung], [!UICONTROL Auslastung], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group], [!UICONTROL Metrics], [!UICONTROL Planning]*, [!UICONTROL Custom Application]**</td> 
+      <td>[!UICONTROL Aufgaben], [!UICONTROL Projektdetails], [!UICONTROL Business Case], [!UICONTROL Updates], [!UICONTROL Dokumente], [!UICONTROL Probleme], [!UICONTROL Risiken], [!UICONTROL Genehmigungen], [!UICONTROL Baselines], [!UICONTROL Abrechnungssätze], [!UICONTROL Ressource für Abrechnung], [!UICONTROL Rechnungsnachweise], [!UICONTROL Ausgaben], [!UICONTROL Stunden], [!UICONTROL Workload Balancer], [!UICONTROL Personen], [!UICONTROL -Auslastung], [!UICONTROL -Warteschlangendetails], [!UICONTROL -Routing-Regeln], [!UICONTROL -Warteschlangenthema], [!UICONTROL -Themengruppe], [!UICONTROL -Metriken], [!UICONTROL -Planung]*, [!UICONTROL -Benutzerdefinierte Anwendung]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Aufgabe]</td> 
@@ -204,7 +204,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
     </tbody> 
    </table>
 
-   *Ihr Unternehmen muss eine zusätzliche Lizenz für Workfront Planning erwerben, um diesen Bereich dem linken Bereich von Projekten, Portfolios und Programmen hinzufügen zu können. Weitere Informationen finden Sie unter [Erste Schritte mit Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md)
+   *Ihr Unternehmen muss eine zusätzliche Lizenz für Workfront Planning erwerben, um diesen Bereich dem linken Bereich von Projekten, Portfolios und Programmen hinzufügen zu können. Weitere Informationen finden Sie unter [Erste Schritte mit Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
 
    **Benutzerdefinierte Programme müssen separat erstellt werden, bevor sie als Optionen im linken Bedienfeld verfügbar werden. Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Programms für Workfront mit Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
