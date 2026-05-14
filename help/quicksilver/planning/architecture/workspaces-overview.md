@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 5416c2d847e9b1023068719602c4d1d4e6219801
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '390'
 ht-degree: 4%
 
 ---
@@ -25,6 +25,7 @@ ht-degree: 4%
 
 Ein Arbeitsbereich ist eine Sammlung von Datensatztypen, die von einer Organisationseinheit verwendet werden. Er stellt den Arbeitszyklus und die Prozesse der Einheit dar. Sie können Arbeitsbereiche in Adobe Workfront Planning vollständig anpassen.
 
+<!--update screenshot with preview-->
 
 ![Workspaces Landingpage-Administratorkonto](assets/workspaces-landing-page-admin-account.png)
 
@@ -51,7 +52,18 @@ Ein Arbeitsbereich ist eine Sammlung von Datensatztypen, die von einer Organisat
       * **Arbeitsbereiche, an denen ich mitwirke**: Zeigt von Ihnen erstellte Arbeitsbereiche oder Arbeitsbereiche an, die für Sie freigegeben sind.
       * **Andere Arbeitsbereiche**: Zeigt alle anderen Arbeitsbereiche im System an.
 
+     <!--
+      * <span class="preview">**Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces or the record types, but you can add records and edit them. You can share the workspaces with Standard-license users.</span>
+      -->
+
+     <!--      
+        >[!NOTE]
+        >
+        ><span class="preview">We recommend not editing the sample workspaces, but instead using them as a reference to create your own.</span> 
+        -->
+
    * Für alle anderen Benutzer werden die von ihnen erstellten Arbeitsbereiche und die von anderen für sie freigegebenen Arbeitsbereiche im Arbeitsbereich angezeigt.
+  <!--* <span class="preview">**Sample workspaces**: Displays for Standard-license users when a Workfront administrator shared the workspaces on the tab with them. The tab displays built-in examples of best-practice workspaces. You cannot edit the workspaces or the record types, but you can add records and edit them. You can share the workspaces with Standard-license users.</span> -->
 
 * Die Datensatztypen, die ein Arbeitsbereich enthält, sollten den Arbeitszyklus und die Konzepte einer Organisationseinheit widerspiegeln.
 
