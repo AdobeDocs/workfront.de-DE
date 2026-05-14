@@ -7,9 +7,9 @@ description: Mit Workfront können Sie einem Benutzer ein anderes Aufgabengebiet
 author: Lisa
 feature: Work Management
 exl-id: d6e2947d-2f40-4591-b048-9a769caadf43
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+source-git-commit: a7f7099f3de147ed166ab19ac44608ba01eb6d31
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '683'
 ht-degree: 5%
 
 ---
@@ -79,7 +79,7 @@ So weisen Sie ein Aufgabengebiet für die Fakturierung auf Projektebene zu:
 1. Wählen Sie das **Aufgabengebiet** aus, das als Aufgabengebiet für die Fakturierung für diesen Benutzer für dieses Projekt verwendet werden soll.
 1. (Optional) Klicken Sie auf **Aufgabengebiet hinzufügen**, um Gültigkeitsdaten für das Aufgabengebiet „Abrechnung“ zu definieren. Geben Sie die **Start** und **Ende** für das Aufgabengebiet ein.
 
-[Aufgabengebiet für die Fakturierung auf Projektebene hinzufügen](assets/jrfb-project-level.png)
+   ![Aufgabengebiet für die Fakturierung auf Projektebene hinzufügen](assets/jrfb-project-level.png)
 
 1. Klicken **erneut auf „Aufgabengebiet hinzufügen**, um zusätzliche Rollen für die Abrechnung für verschiedene Zeiträume anzugeben.
 1. Klicken Sie auf **Speichern**.
