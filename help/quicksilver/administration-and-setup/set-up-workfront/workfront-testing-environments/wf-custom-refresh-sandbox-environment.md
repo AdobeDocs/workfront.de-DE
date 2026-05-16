@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1683'
 ht-degree: 2%
 
 ---
@@ -81,6 +81,12 @@ Die benutzerdefinierte Aktualisierungs-Sandbox enthält Ihre tatsächlichen Prod
 If you are a Workfront Goals customer, Workfront Goals data does not transfer to the Custom Refresh Sandbox when you schedule a refresh. The ability to sync this data from your production environment to your Custom Refresh Sandbox will be available after September 2020.
 </note>
 -->
+
+## Adobe-Cloud-Speicher in der benutzerdefinierten Aktualisierungs-Sandbox
+
+Der Adobe-Cloud-Speicher ist in der benutzerdefinierten Aktualisierungs-Sandbox verfügbar, sodass Sie ihn testen können, bevor Sie ihn in der Produktion aktivieren. Allerdings ist der Frame.io-Viewer in Sandbox-Umgebungen nicht verfügbar, sodass das vollständige, einheitliche Prüf- und Validierungserlebnis in der Produktion validiert werden muss.
+
+Nachdem Sie auf eine Version von Workfront aktualisiert haben, die den Adobe-Cloud-Speicher unterstützt, müssen Sie Ihre benutzerdefinierte Aktualisierungs-Sandbox aktualisieren, um auf die Adobe-Cloud-Speicherfunktionen in der Sandbox zuzugreifen. Sobald die Aktualisierung abgeschlossen ist, können Sie mit dem Testen von Adobe Cloud Storage beginnen. Weitere Informationen finden Sie unter [Aktivieren von Adobe-Cloud-Speicher für Ihr Unternehmen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
 ## Zugriff auf die benutzerdefinierte Aktualisierungs-Sandbox über Ihre Produktionsumgebung {#access-the-custom-refresh-sandbox-from-your-production-environment}
 

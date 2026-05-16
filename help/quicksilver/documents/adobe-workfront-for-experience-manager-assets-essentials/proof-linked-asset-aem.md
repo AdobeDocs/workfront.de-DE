@@ -6,9 +6,9 @@ description: Nachdem Sie ein Asset aus Experience Manager Assets Essentials verk
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abd641a1-081b-4b86-95ee-f0ed030d704c
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '504'
 ht-degree: 14%
 
 ---
@@ -20,7 +20,7 @@ Nachdem Sie ein Asset aus Experience Manager Assets Essentials verknüpft haben,
 >[!NOTE]
 >
 >Diese Funktion ist im Bereich Neue Dokumente nicht verfügbar.<br>
->Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich Neue Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Dort können Sie Assets aus Experience Manager Assets hinzufügen und sie mit dem Frame.io-Viewer überprüfen und genehmigen. Weitere Informationen finden Sie unter [Verwenden von Adobe Experience Manager mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+>Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, wird der Bereich Neue Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Dort können Sie Assets aus Experience Manager Assets hinzufügen und sie mit dem Frame.io-Viewer überprüfen und genehmigen. Weitere Informationen finden Sie unter [Verwenden von Adobe Experience Manager mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 ## Zugriffsanforderungen
 

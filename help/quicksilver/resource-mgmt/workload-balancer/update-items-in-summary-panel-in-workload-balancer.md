@@ -6,9 +6,9 @@ description: Sie können das Bedienfeld Zusammenfassung im Workload Balancer öf
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '424'
 ht-degree: 12%
 
 ---
@@ -94,7 +94,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
    >[!NOTE]
    >
-   >Wenn Ihr Unternehmen Adobe Enterprise Document Storage verwendet, können Sie im Zusammenfassungsbereich keine Dokumente zu Adobe-Storage-Arbeitselementen hinzufügen.
+   >Wenn Ihr Unternehmen Adobe Cloud Storage für Dokumente verwendet, können Sie im Zusammenfassungsbereich keine Dokumente zu Arbeitselementen im Adobe Cloud-Speicher hinzufügen.
    >
    >Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und zugehörige Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

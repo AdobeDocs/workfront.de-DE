@@ -8,7 +8,7 @@ feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 5c4ffeabf710374b14a2335b47342be4c393a7c8
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 6%
@@ -157,10 +157,10 @@ Informationen zu Programmen finden Sie im Abschnitt [Erstellen und Verwalten &#x
    >Einige Kunden haben möglicherweise Zugriff auf die beiden folgenden Dokumentspeicherumgebungen:
    >
    >  * **Der alte Workfront-**: Portfolios, die diesen Speicher verwenden, haben das Symbol für den alten Speicher ![Symbol für den alten Speicher](assets/legacy-storage-project-icon.png) neben dem Namen.
-   >  * **Der Adobe Enterprise-Speicher**
+   >  * **Der Adobe Cloud-Speicher**
    >
    >Ihr Workfront-Administrator entscheidet, welchen Speicher Ihr Unternehmen verwendet, oder ermöglicht Ihnen die Auswahl des Speichers, mit dem Sie die einzelnen Portfolios verknüpfen.
-   >Weitere Informationen finden Sie unter [Aktivieren von Adobe Enterprise Storage für Ihr Unternehmen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+   >Weitere Informationen finden Sie unter [Aktivieren von Adobe-Cloud-Speicher für Ihr Unternehmen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
    >
    >Das Hinzufügen von Dokumenten zu Portfolios unterscheidet sich je nach verwendetem Speichertyp.
    >

@@ -2,16 +2,16 @@
 product-area: documents
 navigation-topic: manage-documents
 title: Überprüfen der Speicherbeschränkungen für Dokumente
-description: Als Adobe Workfront-Administrator können Sie die Nutzung und das Kontingent des Dokumentenspeichers auf der Seite Kundeninformationen einsehen. Wie Speicher aussieht, hängt davon ab, ob Ihr Unternehmen ältere Workfront-Speicher oder Adobe Enterprise-Speicher verwendet.
+description: Als Adobe Workfront-Administrator können Sie die Nutzung und das Kontingent des Dokumentenspeichers auf der Seite Kundeninformationen einsehen. Wie die Speicherung aussieht, hängt davon ab, ob Ihr Unternehmen alten Workfront-Speicher oder Adobe-Cloud-Speicher verwendet.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
 last-update: 2026-04-29T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7b6d24d6a5b7fd052a3e7c97034e920e771022a6
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 8%
+source-wordcount: '491'
+ht-degree: 7%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 8%
 
 Es gibt zwar keine Einschränkungen hinsichtlich der Typen und Größen einzelner Dateien, die Benutzerinnen und Benutzer in Ihre Workfront-Instanz hochladen können, Ihr Workfront-Plan umfasst jedoch ein Gesamtspeicherkontingent. Als Workfront-Administrator überwachen Sie die Nutzung und das Kontingent über den Bereich „Setup“ auf der Seite „Kundeninformationen“.
 
-Wie Speicher aussieht, hängt davon ab, ob Ihr Unternehmen ältere Workfront-Speicher oder Adobe Enterprise-Speicher verwendet:
+Wie die Speicherung aussieht, hängt davon ab, ob Ihr Unternehmen alten Workfront-Speicher oder Adobe-Cloud-Speicher verwendet:
 
 * Wenn Sie Legacy-Workfront-Speicher verwenden, lesen Sie [Legacy-Workfront-Speicher](#legacy-workfront-storage) in diesem Artikel.
-* Wenn Sie Adobe Enterprise Storage verwenden, lesen Sie [Adobe Enterprise Storage](#adobe-enterprise-storage) in diesem Artikel.
+* Wenn Sie Adobe Cloud-Speicher verwenden, lesen Sie [Adobe Cloud-Speicher](#adobe-cloud-storage) in diesem Artikel.
 
-  Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+  Weitere Informationen zu Adobe Cloud-Speicher finden Sie unter [Übersicht über Adobe Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Zugriffsanforderungen
 
@@ -40,7 +40,7 @@ Wie Speicher aussieht, hängt davon ab, ob Ihr Unternehmen ältere Workfront-Spe
   <tr data-mc-conditions=""> 
    <td role="rowheader">Workfront-Plan</td> 
    <td> <p>Jedes Workfront-Paket zum Verwalten von Dokumenten unter Verwendung des alten Speichers</p>
-      <p>Beliebiges Workflow-Paket zum Verwalten von Dokumenten mit Adobe Enterprise Storage</p> </td> 
+      <p>Beliebiges Workflow-Paket zum Verwalten von Dokumenten mit dem Adobe Cloud-Speicher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -72,18 +72,14 @@ Das Speicherkontingent wird täglich aktualisiert, um die aktuellste Anzahl anzu
 
 <div class="preview">
 
-## Adobe Enterprise-Speicher
+## Adobe Cloud-Speicher
 
-<!--
-If your organization uses Adobe enterprise storage, your storage quota is reported as a single pooled allocation that combines storage provisioned through your V2 Workfront SKU and any storage provisioned through a Frame.io Enterprise SKU or add-on. There's no hard cap on storage usage; users can continue uploading documents even when usage exceeds your quota.
 
-Beginning with the May 2026 release, you can view your pooled storage quota and a usage breakdown on the Customer Info page.
-
--->
+Wenn Ihr Unternehmen Adobe-Cloud-Speicher verwendet, wird Ihr Speicherkontingent als eine einzige gepoolte Zuordnung gemeldet, die Speicher, der über Ihre Workfront-Lizenz bereitgestellt wird, und Speicher, der über ein Frame.io Enterprise-Add-on bereitgestellt wird, kombiniert. Es gibt keine feste Begrenzung der Speichernutzung. Benutzer können weiterhin Dokumente hochladen, selbst wenn die Nutzung Ihr Kontingent überschreitet.
 
 ### Anzeigen der Speichernutzung in Kundeninformationen
 
-So überprüfen Sie den Adobe Enterprise-Dokumentenspeicher:
+So überprüfen Sie den Adobe Cloud-Speicher auf Dokumente:
 
 {{step-1-to-setup}}
 
@@ -91,11 +87,11 @@ So überprüfen Sie den Adobe Enterprise-Dokumentenspeicher:
 1. Gehen Sie zum Abschnitt **Speicherübersicht**.
 1. Überprüfen Sie Ihre Verwendung. Die Speicherübersicht zeigt Ihr Speicherkontingent im Pool und unterteilt die Nutzung in:
 
-   * Ältere Workfront-Projekte und Speicherprojekte für Adobe Enterprise werden in der blauen Leiste angezeigt.
+   * Ältere Workfront-Projekte und Adobe Cloud-Speicher-Projekte werden in der blauen Leiste angezeigt.
    * Einzelne Projekte werden in der grünen Leiste angezeigt. Diese Projekte sind unabhängig von Workfront und nur verfügbar, wenn Sie über eine Frame.io Enterprise-Lizenz verfügen.
 
 
-![Nutzung von Adobe Enterprise-Speicher in Kundeninformationen](assets/storage-usage.png)
+![Nutzung des Adobe Cloud-Speichers in Kundeninformationen](assets/storage-usage.png)
 
 Die Nutzungsdaten werden regelmäßig aktualisiert, sodass Sie eine aktuelle Zählung sehen.
 

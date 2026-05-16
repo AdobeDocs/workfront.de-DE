@@ -9,9 +9,9 @@ role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '8107'
+source-wordcount: '8112'
 ht-degree: 2%
 
 ---
@@ -287,7 +287,7 @@ Informationen zum Erstellen eines Projekts über eine Vorlage finden Sie unter [
       <p><b>NOTIZEN</b></p>
       <ul>
       <li>Sie müssen über Verwaltungsberechtigungen für das Portfolio verfügen, um es zum Projekt hinzufügen oder daraus entfernen zu können.</li>
-      <li>Wenn Ihr Unternehmen sowohl ältere Workfront- als auch Adobe-Unternehmensspeicher verwendet, können Sie keine Aufgaben zwischen Projekten kopieren, die unterschiedliche Speichertypen verwenden. Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Arten von Dokumentspeicher.</li></ul> 
+      <li>Wenn Ihr Unternehmen sowohl den alten Workfront- als auch den Adobe-Cloud-Speicher verwendet, können Sie keine Aufgaben zwischen Projekten kopieren, die unterschiedliche Speichertypen verwenden. Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Arten von Dokumentspeicher.</li></ul> 
       Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Übersicht über das Dokumentenmanagement für Projekte und verwandte Objekte</a>. 
       </td> 
       </tr> 
@@ -297,7 +297,7 @@ Informationen zum Erstellen eines Projekts über eine Vorlage finden Sie unter [
       <p><b>NOTIZEN</b></p>
       <ul>
       <li>Sie müssen über Verwaltungsberechtigungen für das Programm verfügen, um es zum Projekt hinzufügen oder entfernen zu können.</li>
-      <li>Wenn Ihr Unternehmen sowohl Workfront- als auch Adobe-Dokumentspeichertypen verwendet, können Sie kein Workfront-Speicherprojekt mit einem Adobe-Speicherprogramm verknüpfen. Auch das Gegenteil ist wahr. Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Arten von Dokumentspeicher. Programme übernehmen den Speichertyp aus dem Portfolio, zu dem sie gehören. </li></ul>
+      <li>Wenn Ihr Unternehmen sowohl Workfront als auch Adobe Cloud Storage für Dokumente verwendet, können Sie kein Legacy-Workfront-Speicherprojekt mit einem Adobe Cloud Storage-Programm verknüpfen. Auch das Gegenteil ist wahr. Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Arten von Dokumentspeicher. Programme übernehmen den Speichertyp aus dem Portfolio, zu dem sie gehören. </li></ul>
 
    Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Übersicht über das Dokumentenmanagement für Projekte und verwandte Objekte</a>.
 
@@ -804,7 +804,7 @@ Beachten Sie beim Massenbearbeiten von Projekten Folgendes:
 
 * Wenn Sie mehrere Projekte auswählen, die verschiedenen Gruppen angehören, handelt es sich bei den im Feld Status angezeigten Status um Status auf Systemebene und nicht um auf Gruppenebene.
 
-* Wenn Sie mehrere Projekte mit unterschiedlichen Arten von Dokumentspeichern auswählen und die Portfolio oder das Programm für die ausgewählten Projekte aktualisieren möchten, können Sie kein Workfront-Speicherprojekt mit einem Adobe-Speicherportfolio verknüpfen. Auch das Gegenteil ist wahr. Stellen Sie in diesem Fall sicher, dass Sie jeweils nur Projekte auswählen, die ähnliche Speichertypen haben.
+* Wenn Sie mehrere Projekte auswählen, die unterschiedliche Arten von Dokumentspeicher aufweisen, und die Portfolio oder das Programm für die ausgewählten Projekte aktualisieren möchten, können Sie kein Legacy-Workfront-Speicherprojekt mit einem Adobe Cloud-Speicherportfolio verknüpfen. Auch das Gegenteil ist wahr. Stellen Sie in diesem Fall sicher, dass Sie jeweils nur Projekte auswählen, die ähnliche Speichertypen haben.
 
   Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Arten von Dokumentspeicher.
 

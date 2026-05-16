@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '2795'
 ht-degree: 3%
@@ -312,7 +312,7 @@ So erstellen Sie eine Anfrage in der Workfront-Web-App:
       <td> <p>Dokumente zu Ihrer Anfrage hinzufügen. </p> <p> Je nachdem, wie die Anfrage-Warteschlange eingerichtet wurde, wird der Abschnitt Dokumente möglicherweise vor oder nach den benutzerdefinierten Feldern angezeigt. </p> <p>Dokumente, die Sie in Workfront hochladen, werden in einer entworfenen Anfrage 24 Stunden lang gespeichert. Danach müssen Sie sie erneut anhängen, wenn Sie zur Bearbeitung und Übermittlung des Entwurfs zurückkehren. Dokumente, die von anderen Laufwerken verknüpft sind, werden dauerhaft im Entwurf gespeichert. </p> 
       <p>Je nachdem, welchen Dokumentspeichertyp Ihr Workfront-Administrator für Ihre Umgebung ausgewählt hat, werden die an Anfragen angehängten Dokumente zu Folgendem hinzugefügt:</p>
       <ul><li>Bei Anfragen, die den Workfront-Speicher verwenden, werden die Dokumente zum Abschnitt Dokumente der neu erstellten Anfrage hinzugefügt.</li>
-      <li>Bei Anfragen, die Adobe Enterprise Storage verwenden, werden die Dokumente einem neu erstellten Ordner mit demselben Namen wie der Anfrage hinzugefügt und der Anfrage während des Sendevorgangs automatisch hinzugefügt. </li></ul>
+      <li>Bei Anfragen, die den Adobe Cloud-Speicher verwenden, werden die Dokumente einem neu erstellten Ordner mit demselben Namen wie der Anfrage hinzugefügt und der Anfrage während des Übermittlungsprozesses automatisch hinzugefügt. </li></ul>
       <p>Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Arten von Dokumentspeicher.</p>
       <p>Speichertyp für Probleme und Anfragen wird vom Projekt übernommen. </p>
       <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Übersicht über das Dokumentenmanagement für Projekte und verwandte Objekte</a>.</p> 

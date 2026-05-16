@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '1781'
 ht-degree: 3%
@@ -103,7 +103,7 @@ Beachten Sie beim Kopieren einer Aufgabe Folgendes:
 
 * Sie können jeweils nur eine Aufgabe kopieren oder mehrere Aufgaben gleichzeitig kopieren, wenn Sie Aufgaben in einer Liste bearbeiten.
 
-* Wenn Ihr Unternehmen sowohl ältere Workfront- als auch Adobe-Unternehmensspeicher verwendet, können Sie keine Aufgaben zwischen Projekten kopieren, die unterschiedliche Speichertypen verwenden.
+* Wenn Ihr Unternehmen sowohl den alten Workfront- als auch den Adobe-Cloud-Speicher verwendet, können Sie keine Aufgaben zwischen Projekten kopieren, die unterschiedliche Speichertypen verwenden.
 
   Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und zugehörige Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

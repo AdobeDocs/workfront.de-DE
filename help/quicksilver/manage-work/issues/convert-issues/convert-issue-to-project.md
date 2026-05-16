@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '2151'
+source-wordcount: '2167'
 ht-degree: 4%
 
 ---
@@ -94,11 +94,11 @@ Old:
 ## Zu beachten
 
 * Beim Konvertieren eines Problems in ein Projekt gibt es ein Verarbeitungslimit von 5 Minuten. Wenn an das Problem eine große Anzahl von Dokumenten angehängt ist und es nicht konvertiert werden kann, müssen Sie möglicherweise einige der Dokumente entfernen und erneut versuchen.
-* Wenn Ihr Unternehmen sowohl den alten Workfront- als auch den Unternehmensdokumentspeicher von Adobe verwendet, treten beim Konvertieren eines Problems in ein Projekt die folgenden Szenarien auf: <!--this info also duplicated in Document management overview for projects and related objects and Convert a task to a project-->
-   * Bei einem Workfront-Speicherproblem wird ein Workfront-Speicherprojekt erstellt.
-   * Bei einem Adobe-Problem mit Enterprise-Storage wird ein Adobe-Storage-Projekt erstellt.
-   * Wenn Sie eine Workfront-Speichervorlage zum Konvertieren eines Adobe-Speicherproblems verwenden, wird ein Adobe-Speicherprojekt erstellt.
-   * Wenn Sie eine Adobe-Speichervorlage zum Konvertieren eines Workfront-Speicherproblems verwenden, wird ein Workfront-Speicherprojekt erstellt.
+* Wenn Ihr Unternehmen sowohl den veralteten Workfront- als auch den Adobe-Cloud-Speicher für Dokumente verwendet, treten beim Konvertieren eines Problems in ein Projekt die folgenden Szenarien auf: <!--this info also duplicated in Document management overview for projects and related objects and Convert a task to a project-->
+   * Ein Problem mit einem alten Workfront-Speicher erstellt ein veraltetes Workfront-Speicherprojekt.
+   * Ein Adobe-Cloud-Speicherproblem erstellt ein Adobe-Cloud-Speicherprojekt.
+   * Wenn Sie eine ältere Workfront-Speichervorlage verwenden, um ein Adobe-Cloud-Speicherproblem zu konvertieren, wird ein Adobe-Cloud-Speicherprojekt erstellt.
+   * Wenn Sie eine Adobe-Cloud-Speichervorlage verwenden, um ein veraltetes Workfront-Speicherproblem zu konvertieren, wird ein veraltetes Workfront-Speicherprojekt erstellt.
 
      Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und verwandte Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -234,8 +234,8 @@ Sie können ein Problem mithilfe einer Vorlage in ein Projekt konvertieren.
 
    >[!TIP]
    >
-   >* Wenn Sie eine Workfront-Speichervorlage zum Konvertieren eines Adobe-Speicherproblems verwenden, wird ein Adobe-Speicherprojekt erstellt.
-   >* Wenn Sie eine Adobe-Speichervorlage zum Konvertieren eines Workfront-Speicherproblems verwenden, wird ein Workfront-Speicherprojekt erstellt.
+   >* Wenn Sie eine ältere Workfront-Speichervorlage verwenden, um ein Adobe-Cloud-Speicherproblem zu konvertieren, wird ein Adobe-Cloud-Speicherprojekt erstellt.
+   >* Wenn Sie eine Adobe-Cloud-Speichervorlage verwenden, um ein veraltetes Workfront-Speicherproblem zu konvertieren, wird ein veraltetes Workfront-Speicherprojekt erstellt.
    >
    >Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und verwandte Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

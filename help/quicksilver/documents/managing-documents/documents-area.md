@@ -9,9 +9,9 @@ feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '822'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 Im Bereich Dokumente können Sie Metadaten für in Adobe Workfront hochgeladene Dokumente organisieren, verwalten und anzeigen. Sie können auch die Korrekturabzugsentscheidung sehen.
 
-Workfront verfügt derzeit über zwei Versionen des Dokumentbereichs: den alten Dokumentbereich und den neuen Dokumentbereich. Welche Version Ihr Unternehmen verwendet, hängt davon ab, ob sich Ihr Unternehmen auf ältere Workfront-Speicher oder Unternehmensspeicher stützt. Weitere Informationen zu diesen Speichertypen finden Sie unter [Übersicht über Adobe Enterprise-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Workfront verfügt derzeit über zwei Versionen des Dokumentbereichs: den alten Dokumentbereich und den neuen Dokumentbereich. Welche Version Ihr Unternehmen verwendet, hängt davon ab, ob sich Ihr Unternehmen im alten Workfront-Speicher oder im Adobe-Cloud-Speicher befindet. Weitere Informationen zu diesen Speichertypen finden Sie unter [Übersicht über den Adobe-Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Bereich für veraltete Dokumente
 
@@ -74,7 +74,7 @@ Die Seite Dokumentdetails enthält eine umfangreichere Version der Dokumentdetai
 
 ## Bereich „Neue Dokumente“
 
-Der Bereich Neue Dokumente ist nur für verfügbar, wenn sich Ihre Organisation im Unternehmensspeicher befindet. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Der Bereich Neue Dokumente ist nur für verfügbar, wenn sich Ihr Unternehmen im Adobe Cloud-Speicher befindet. Weitere Informationen zu Adobe Cloud-Speicher finden Sie unter [Übersicht über Adobe Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Verwenden des Bedienfelds „Zusammenfassung“
 
@@ -103,7 +103,7 @@ Sie können den Verlauf eines Dokuments im Bereich Neue Dokumente anzeigen. Der 
 
 ### Ordner auf Systemebene für Dokumentberechtigungen
 
-Workfront erstellt automatisch einen Ordner auf Systemebene, wenn das erste Dokument zu einer Aufgabe oder einem Problem hochgeladen wird. Diese Ordner erben Berechtigungen von der Aufgabe oder dem Problem und sind im Dokumentbereich auf Projektebene sichtbar. Alle Dokumente, die in diese Aufgabe oder dieses Problem hochgeladen wurden, werden in diesem Ordner gespeichert und übernehmen Berechtigungen davon. Dies ist die primäre Methode, mit der Berechtigungen für Dokumente im Bereich Neue Dokumente verwaltet werden. Weitere Informationen finden Sie unter [Objektberechtigungen und Zugriffsebene - Übersicht für das Adobe Enterprise-Speichermodell](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+Workfront erstellt automatisch einen Ordner auf Systemebene, wenn das erste Dokument zu einer Aufgabe oder einem Problem hochgeladen wird. Diese Ordner erben Berechtigungen von der Aufgabe oder dem Problem und sind im Dokumentbereich auf Projektebene sichtbar. Alle Dokumente, die in diese Aufgabe oder dieses Problem hochgeladen wurden, werden in diesem Ordner gespeichert und übernehmen Berechtigungen davon. Dies ist die primäre Methode, mit der Berechtigungen für Dokumente im Bereich Neue Dokumente verwaltet werden. Weitere Informationen finden Sie unter [Objektberechtigungen und Zugriffsebene - Übersicht für das Adobe-Cloud-Speichermodell](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
 
 ## Zu beachten
 

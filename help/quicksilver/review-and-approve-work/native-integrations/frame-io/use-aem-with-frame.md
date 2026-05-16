@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 04d0f295-5206-4c5d-8003-bdf333150903
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '1468'
 ht-degree: 7%
 
 ---
@@ -51,7 +51,7 @@ Sie können Ihre Arbeit mit Ihren Inhalten in [!DNL Experience Manager Assets] v
    <td>
   <p>So konfigurieren Sie die Integration:</p>
    <p>Standard</p>
-   <p>Plan</p>
+   <p>Abo</p>
 
 <p>So senden Sie Dokumente an Experience Manager Assets:</p>
    <p>Mitwirkende oder höher</p>
@@ -88,7 +88,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 Bevor Sie beginnen,
 
 * Sie müssen über [!DNL Workfront] und [!DNL Adobe Experience Manager Assets] verfügen, die mit einer Organisations-ID im [!DNL Adobe Admin Console] verknüpft sind. Weitere Informationen finden Sie unter [Unterschiede bei der plattformbasierten Administration ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
-* Ihre Workfront-Instanz muss Adobe Enterprise Storage verwenden.
+* Ihre Workfront-Instanz muss den Adobe-Cloud-Speicher verwenden.
 
 
 ## Einrichten der Integrationsinformationen
@@ -192,7 +192,7 @@ Zuordnen von Metadaten für Assets:
 <!--
 1. Select **[!UICONTROL Assets]** above the metadata table.
 -->
-1. Wählen Sie in der **[!UICONTROL [!DNL Workfront]&quot;]**&quot; ein integriertes oder ein benutzerdefiniertes Workfront-Feld aus.
+1. Wählen Sie in der **&quot;**&#x200B;[!DNL Workfront]&quot; ein integriertes oder ein benutzerdefiniertes Workfront-Feld aus.
 
    >[!NOTE]
    >

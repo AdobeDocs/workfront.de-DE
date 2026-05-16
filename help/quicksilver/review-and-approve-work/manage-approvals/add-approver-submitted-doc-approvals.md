@@ -6,7 +6,7 @@ description: Sie können einer Dokumentgenehmigung direkt im Bereich Startseite 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 2418565a-639c-424e-873a-f6512efc5cb5
-source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 19%
@@ -28,7 +28,7 @@ Sie können einer Dokumentgenehmigung direkt im Bereich Startseite zusätzliche 
   <tr> 
    <td role="rowheader">Adobe Workfront-Paket</td> 
    <td><p>Jedes Workfront-Paket zur Verwaltung von Genehmigungen unter Verwendung des alten Workfront-Speichers</p>
-<p>Beliebiges Workflow-Paket zum Verwalten von Genehmigungen mithilfe von Adobe Enterprise-Speicher</p> </td> 
+<p>Beliebiges Workflow-Paket zum Verwalten von Genehmigungen mithilfe des Adobe-Cloud-Speichers</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 

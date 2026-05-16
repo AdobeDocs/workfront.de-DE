@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: c3d34c4b33164f5fe5b4420f3ddc81f3390abbf1
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '2859'
+source-wordcount: '2861'
 ht-degree: 4%
 
 ---
@@ -481,7 +481,7 @@ So bearbeiten Sie Aufgaben in einer Liste mithilfe der Option „Manuelles Speic
          <td role="rowheader">Dokumente</td> 
          <td><p>Dokumente zur Aufgabe hinzufügen.</p>
          <p><b>NOTIZ</b></p>
-         <p>Wenn Ihr Unternehmen Adobe Enterprise Document Storage verwendet, können Sie im Zusammenfassungsbereich für Adobe-Speicheraufgaben keine Dokumente zu Aufgaben hinzufügen.</p>
+         <p>Wenn Ihr Unternehmen Adobe Cloud Storage für Dokumente verwendet, können Sie im Zusammenfassungsbereich für Adobe Cloud Storage-Aufgaben keine Dokumente zu Aufgaben hinzufügen.</p>
          <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Übersicht über das Dokumentenmanagement für Projekte und zugehörige Objekte</a>.</p>
       </td> 
       </tr> 

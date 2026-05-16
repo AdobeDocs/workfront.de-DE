@@ -7,9 +7,9 @@ description: Sie können in Workfront einen Ordner erstellen, der mit Experience
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '489'
 ht-degree: 11%
 
 ---
@@ -23,7 +23,7 @@ Wenn ein Asset aus einem verknüpften Ordner innerhalb von Experience Manager As
 >[!NOTE]
 >
 >Diese Funktion ist im Bereich Neue Dokumente nicht verfügbar.<br>
->Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich Neue Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Dort können Sie Assets aus Experience Manager Assets oder Assets Essentials hinzufügen, Sie können jedoch keinen verknüpften Ordner erstellen.
+>Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, wird der Bereich Neue Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Dort können Sie Assets aus Experience Manager Assets oder Assets Essentials hinzufügen, Sie können jedoch keinen verknüpften Ordner erstellen.
 
 ## Zugriffsanforderungen
 

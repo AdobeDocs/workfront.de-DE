@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: d1173e35a2455610474664f93159b97a54957488
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '905'
 ht-degree: 9%
 
 ---
@@ -116,20 +116,20 @@ Old:
 
 1. (Bedingt) Klicken Sie je nachdem, welchen Dokumentspeicher Ihr Unternehmen verwendet, auf eine der folgenden Optionen:
 
-   * **Neue Vorlage**, wenn der Workfront-Administrator entweder **Adobe Enterprise** oder **Legacy-Workfront** auswählt und die Einstellung **Speicheranbieter zulassen)** oder nicht ausgewählt hat.
-   * **Neue Vorlage (Legacy-Speicher)** Wenn der Workfront-Administrator entweder **Adobe Enterprise** oder **Legacy-Workfront** auswählt und außerdem die Einstellung **Auswahl des Speicheranbieters zulassen** ausgewählt hat.
+   * **Neue Vorlage**, wenn der Workfront-Administrator entweder **Adobe Cloud-Speicher** oder **Legacy-Workfront** auswählt und die Einstellung **Dem Benutzer die Auswahl des Speicheranbieters erlauben** ausgewählt hat oder nicht.
+   * **Neue Vorlage (Legacy-Speicher)** Wenn der Workfront-Administrator entweder **Adobe-Cloud-** oder **Legacy-Workfront** auswählt und außerdem die Einstellung **Auswahl des Speicheranbieters durch den Benutzer zulassen** ausgewählt hat.
 
      Diese Option wird nur angezeigt, wenn **Einstellung „Auswahl des Speicheranbieters durch den Benutzer zulassen** im Bereich „Setup“ ausgewählt ist.
 
-     Weitere Informationen finden Sie unter [Aktivieren von Adobe Enterprise Storage für Ihr Unternehmen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+     Weitere Informationen finden Sie unter [Aktivieren von Adobe-Cloud-Speicher für Ihr Unternehmen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
      Eine Vorlage wird erstellt. Ihr Standardname folgt den folgenden Mustern, je nachdem, welcher Speicher Workfront für Dokumente verwendet:
 
       * **Unbenannte Vorlage** für eine Workfront-Speichervorlage.
 
-        Bei einer Workfront-Speichervorlage wird neben dem Namen das Symbol **Legacy** Workfront-Speicher![&#x200B; Legacy-Speicher](assets/legacy-storage-project-icon.png)Projekt angezeigt.
+        Bei einer Legacy-Workfront-Speichervorlage wird neben dem Namen das Symbol **Legacy** Workfront-Speicher![&#x200B; Legacy-](assets/legacy-storage-project-icon.png)-Projekt) angezeigt.
 
-      * **Unbenannte Vorlage - &lt; Tag Monat, Jahr, Stunde.Minute.Sekunde >** für eine Adobe-Speichervorlage
+      * **Nicht benannte Vorlage - &lt; Tag Monat, Jahr, Stunde.Minute.Sekunde >** für eine Adobe Cloud-Speichervorlage
 
         >[!IMPORTANT]
         >

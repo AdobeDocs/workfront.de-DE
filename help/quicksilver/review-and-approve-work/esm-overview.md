@@ -1,63 +1,63 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Überblick über Adobe-Unternehmensspeicher
-description: Überblick über Adobe-Unternehmensspeicher
+title: Übersicht über den Adobe Cloud-Speicher
+description: Übersicht über den Adobe Cloud-Speicher
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 16c564a9-abd7-4b07-be3e-9c823f40177d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 94236f836be2d1b8638cf11ddd303641e8c0ef7c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 1%
+source-wordcount: '958'
+ht-degree: 0%
 
 ---
 
-# Überblick über Adobe-Unternehmensspeicher
+# Übersicht über den Adobe Cloud-Speicher
 
-Adobe Enterprise Storage ist eine Cloud-basierte Speicherlösung, die als zentrales Repository für Assets in allen Adobe Enterprise-Produkten dient. Die Integration von Workfront und Frame.io basiert auf Adobe Enterprise Storage und ermöglicht eine nahtlose Zusammenarbeit und Asset-Management zwischen diesen Plattformen.
+Adobe Cloud-Speicher ist eine Cloud-basierte Speicherlösung, die als zentrales Repository für Assets in allen Adobe-Unternehmensprodukten dient. Die Integration von Workfront und Frame.io basiert auf dem Adobe Cloud-Speicher und ermöglicht eine nahtlose Zusammenarbeit und Asset-Management zwischen diesen Plattformen.
 
 Diese Speicheroption ebnet auch den Weg für zukünftige Asset-Management-Integrationen mit anderen Adobe-Produkten wie Adobe Creative Cloud.
 
 ## Wichtigste Funktionen
 
-* **Unified Storage Layer**: Adobe Enterprise-Speicher fungiert als gemeinsam genutztes Speicher-Backend für Workfront, Frame.io, Document Cloud und Creative Cloud. Dies ermöglicht eine nahtlose Zusammenarbeit und Asset-Management über diese Plattformen hinweg.
+* **Unified Storage Layer**: Der Adobe-Cloud-Speicher fungiert als gemeinsames Speicher-Backend für Workfront, Frame.io, Document Cloud und Creative Cloud. Dies ermöglicht eine nahtlose Zusammenarbeit und Asset-Management über diese Plattformen hinweg.
 
-* **Aktivierung von Content supply chain**: Adobe Enterprise Storage ist eine grundlegende Komponente für Adobe Content Supply chain und ermöglicht es Teams, laufende Assets zu verwalten, ohne dass sie in verschiedenen Adobe-Anwendungen manuell heruntergeladen oder neu hochgeladen werden müssen.
+* **Aktivierung von Content supply chain**: Der Adobe-Cloud-Speicher ist eine grundlegende Komponente für Adobes Content-Supply chain-Vision. Sie ermöglicht es Teams, laufende Assets zu verwalten, ohne dass sie in verschiedenen Adobe-Anwendungen manuell heruntergeladen oder neu hochgeladen werden müssen.
 
-* **Zentralisierte Berechtigungen und Zugriff**: Adobe Enterprise Storage unterstützt Zugriffssteuerungen auf Unternehmensebene und integriert diese in Adobe IMS (Identity Management-System), um sichere und skalierbare Benutzerberechtigungen zu erhalten.
+* **Zentralisierte Berechtigungen und Zugriff**: Der Adobe Cloud-Speicher unterstützt Zugriffssteuerungen auf Unternehmensebene und integriert diese in Adobe IMS (Identity Management-System), um sichere und skalierbare Benutzerberechtigungen zu erhalten.
 
-* **End-to-End-Asset-Sichtbarkeit**: Assets, das im Adobe Enterprise-Speicher gespeichert ist, kann direkt in Workfront-, Frame.io- und Creative Cloud-Apps angezeigt und verwaltet werden, um konsistente Metadaten, Versionierung und Audit-Trails bereitzustellen.
+* **End-to-End-Asset-Sichtbarkeit**: Assets, das im Adobe-Cloud-Speicher gespeichert ist, kann direkt in Workfront-, Frame.io- und Creative Cloud-Apps angezeigt und verwaltet werden, um konsistente Metadaten, Versionierung und Audit-Trails bereitzustellen.
 
-* **Integration mit Prüfungs- und Genehmigungs-Workflows**: Adobe Enterprise Storage ermöglicht kreative Prüfungs- und Genehmigungs-Workflows, da sie als Datenquelle für alle Assets dienen und sicherstellen, dass Feedback und Genehmigungen zentral verfolgt werden.
+* **Integration mit Prüfungs- und Genehmigungs-Workflows**: Der Adobe-Cloud-Speicher ermöglicht kreative Prüfungs- und Genehmigungs-Workflows, da er als Datenquelle für alle Assets dient und sicherstellt, dass Feedback und Genehmigungen zentral verfolgt werden.
 
-* **Skalierbarer Speicher und Quotenverwaltung**: Adobe Enterprise-Speicher bietet skalierbare Speicheroptionen und eine einheitliche Quotenverfolgung für alle Adobe-Produkte.
+* **Skalierbarer Speicher und Kontingent-Management**: Der Adobe Cloud-Speicher bietet skalierbare Speicheroptionen und ein einheitliches Kontingent-Tracking für alle Adobe-Produkte.
 
 ## Integration mit Prüfungs- und Genehmigungs-Workflows
 
-Die Integration von Workfront und Frame.io nutzt Adobe Enterprise Storage, um eine einheitliche Prüfung und Genehmigung zu ermöglichen. Diese Integration ermöglicht es Projektkoordinatoren, Projekte zu verwalten und die Arbeit in Workfront zu planen, während Kreative, Marketing-Experten und Stakeholder Assets in Frame.io überprüfen und genehmigen können. Dadurch wird sichergestellt, dass alle Stakeholder Zugriff auf die neuesten Versionen von Assets haben und das Feedback an einem Ort zentralisiert wird.
+Die Integration von Workfront und Frame.io nutzt Adobe Cloud-Speicher, um eine einheitliche Prüfung und Genehmigung zu ermöglichen. Diese Integration ermöglicht es Projektkoordinatoren, Projekte zu verwalten und die Arbeit in Workfront zu planen, während Kreative, Marketing-Experten und Stakeholder Assets in Frame.io überprüfen und genehmigen können. Dadurch wird sichergestellt, dass alle Stakeholder Zugriff auf die neuesten Versionen von Assets haben und das Feedback an einem Ort zentralisiert wird.
 
 Weitere Informationen zur Integration von Workfront und Frame.io finden Sie unter [Einheitliche Überprüfung und Genehmigung - Übersicht](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
-## Unterschiede zwischen Adobe Enterprise-Speicher und Legacy-Workfront-Speicher
+## Unterschiede zwischen Adobe Cloud-Speicher und Legacy Workfront-Speicher
 
-Bestehende Workfront-Umgebungen verfügen über eine Kombination aus Adobe Enterprise-Speicher und Legacy-Workfront-Speicher. Alle Objekte, die vor der Veröffentlichung von Adobe Enterprise Storage erstellt wurden, verwenden Legacy-Workfront-Speicher.
+Bestehende Workfront-Umgebungen verfügen über eine Kombination aus Adobe-Cloud-Speicher und Legacy-Workfront-Speicher. Alle Objekte, die vor der Veröffentlichung des Adobe-Cloud-Speichers erstellt wurden, verwenden Legacy-Workfront-Speicher.
 
-Sobald Sie Adobe Enterprise-Speicher in Ihrer Umgebung aktiviert haben, können Sie sowohl Adobe Enterprise-Speicher als auch ältere Workfront-Speicherprojekte erstellen.
+Sobald Sie die Adobe-Cloud-Datenspeicherung in Ihrer Umgebung aktiviert haben, können Sie sowohl Adobe-Cloud-Datenspeicher- als auch Legacy-Workfront-Speicherprojekte erstellen.
 
 >[!NOTE]
 >
->Für neue Umgebungen ist standardmäßig Adobe Enterprise Storage aktiviert, und es besteht keine Option zur Verwendung des alten Workfront-Speichers.
+>Für neue Umgebungen ist der Adobe-Cloud-Speicher standardmäßig aktiviert und es besteht keine Möglichkeit, den alten Workfront-Speicher zu verwenden.
 
 
 ### Dokumente
 
 #### Bereich „Neue Dokumente“
 
-Der neue Dokumentbereich ist ein einheitlicher Dokumentbereich, der neu für Adobe Enterprise-Speicher konzipiert wurde.
+Der neue Dokumentbereich ist ein einheitlicher Dokumentbereich, der für die Adobe-Cloud-Datenspeicherung neu gestaltet wurde.
 
 Diese aktualisierte Benutzeroberfläche vereinfacht die Navigation, verbessert die Klarheit und erleichtert es Teams, Überprüfungen und Genehmigungen in einer einheitlichen Umgebung zu verwalten. Weitere Informationen finden Sie unter [Übersicht über den Dokumentbereich](/help/quicksilver/documents/managing-documents/documents-area.md).
 
@@ -65,11 +65,11 @@ Diese aktualisierte Benutzeroberfläche vereinfacht die Navigation, verbessert d
 
 >[!IMPORTANT]
 >
->Im Adobe Enterprise-Speicher funktionieren Dokumentberechtigungen anders als im alten Workfront-Speicher. Dokumente übernehmen Berechtigungen aus dem Projekt, der Aufgabe oder dem Problem, mit dem bzw. dem sie verknüpft sind.
+>Im Adobe Cloud-Speicher funktionieren Dokumentberechtigungen anders als im alten Workfront-Speicher. Dokumente übernehmen Berechtigungen aus dem Projekt, der Aufgabe oder dem Problem, mit dem bzw. dem sie verknüpft sind.
 
 Dokumente können nicht einzeln freigegeben werden. Stattdessen generiert das System automatisch einen Ordner für jede Aufgabe oder jedes Problem und erbt Berechtigungen von der Aufgabe oder dem Problem. Alle in die Aufgabe oder das Problem hochgeladenen Dokumente werden in diesem generierten Ordner gespeichert.
 
-Weitere Informationen zum neuen Dokumentberechtigungsmodell finden Sie unter [Objektberechtigungen und Zugriffsebene - Übersicht für das Adobe Enterprise-Speichermodell](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
+Weitere Informationen zum neuen Dokumentberechtigungsmodell finden Sie unter [Objektberechtigungen und Zugriffsebene - Übersicht für das Adobe Cloud-Speichermodell](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
 
 ##### Verknüpfte Objekte in Ordnern
 
@@ -79,31 +79,37 @@ Weitere Informationen finden Sie unter [Funktionsweise von Dokumentberechtigunge
 
 ## Workfront-Objekte
 
-In der folgenden Tabelle werden die Funktionen von Adobe Enterprise Storage und Legacy Workfront Storage für Workfront-Objekte verglichen.
+In der folgenden Tabelle werden die Funktionen des Adobe-Cloud-Speichers und des veralteten Workfront-Speichers für Workfront-Objekte verglichen.
 
 Workfront-Objekte umfassen Portfolios, Programme, Projekte, Vorlagen, Aufgaben und Probleme.
 
-| Adobe Enterprise-Speicher | Legacy Workfront-Speicher |
+| Adobe Cloud-Speicher | Legacy Workfront-Speicher |
 |---|---|
-| <ul><li>Verwendet Adobe Enterprise-Speicher</li><li>Integriert mit Frame.io</li><li>Verwendet das neue Dokumenterlebnis</li><li>Erzwingt strikte Benennungskonventionen</li><li>Die direkte Dokumentfreigabe ist nicht verfügbar</li><li>Dokumente sind in anderen Adobe-Produkten wie Frame.io und Creative Cloud verfügbar</li></ul> | <ul><li>Verwendet Workfront-Speicher</li><li>Verwendet die Proofing-Anzeige</li><li>Unterstützt die Freigabe einzelner Dokumente</li></ul> |
+| <ul><li>Verwendet Adobe Cloud-Speicher</li><li>Integriert mit Frame.io</li><li>Verwendet das neue Dokumenterlebnis</li><li>Erzwingt strikte Benennungskonventionen</li><li>Die direkte Dokumentfreigabe ist nicht verfügbar</li><li>Dokumente sind in anderen Adobe-Produkten wie Frame.io und Creative Cloud verfügbar</li></ul> | <ul><li>Verwendet Workfront-Speicher</li><li>Verwendet die Proofing-Anzeige</li><li>Unterstützt die Freigabe einzelner Dokumente</li></ul> |
 
 ### Verschieben, Kopieren und Konvertieren von Objekten
 
-Sie können Workfront-Objekte wie Speichermodelle zwischen verschiedenen Modellen verschieben, kopieren und konvertieren. Sie können beispielsweise eine Aufgabe aus einem Adobe Enterprise-Speicherprojekt in ein anderes Adobe Enterprise-Speicherprojekt verschieben. Sie können eine Aufgabe nicht aus einem Adobe Enterprise-Speicherprojekt in ein Legacy-Workfront-Speicherprojekt verschieben.
+Sie können Workfront-Objekte wie Speichermodelle zwischen verschiedenen Modellen verschieben, kopieren und konvertieren. Sie können beispielsweise eine Aufgabe aus einem Adobe-Cloud-Speicherprojekt in ein anderes Adobe-Cloud-Speicherprojekt verschieben. Sie können eine Aufgabe nicht aus einem Adobe Cloud-Speicherprojekt in ein Legacy-Workfront-Speicherprojekt verschieben.
 
-Diese Aktionen sind über das Menü Mehr zu einer Aufgabe oder einem Problem verfügbar. Jede Aktion respektiert die Dokumentintegrität, die Vererbung von Berechtigungen und die Speicherregeln von Adobe Enterprise.
+Diese Aktionen sind über das Menü Mehr zu einer Aufgabe oder einem Problem verfügbar. Jede Aktion respektiert die Dokumentintegrität, die Vererbung von Berechtigungen und die Adobe Cloud-Speicherregeln.
 
-## Adobe Enterprise Storage aktivieren
+## Aktivieren von Adobe Cloud Storage
 
-Ihr Workfront-Vertrag muss eine v2 Workfront SKU enthalten, um Adobe Enterprise Storage verwenden zu können. Weitere Informationen zu den Anforderungen an die Workfront-SKU V2 finden Sie in den häufig gestellten Fragen unter [Einheitliche Prüfung und Genehmigung - Übersicht](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md#getting-started-with-unified-review-and-approval).
+Sie müssen eine Version von Workfront verwenden, die den Adobe-Cloud-Speicher unterstützt. Wenn für Ihr Unternehmen noch keine unterstützte Version verfügbar ist, wenden Sie sich an den Adobe-Kundenbetreuer.
 
-Informationen zur Aktivierung von Adobe Enterprise Storage in Ihrer Umgebung finden Sie unter [Aktivieren von Adobe Enterprise Storage für Ihr Unternehmen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+Informationen zur Aktivierung der Adobe-Cloud-Datenspeicherung in Ihrer Umgebung finden Sie unter [Aktivieren der Adobe-Cloud-Datenspeicherung für Ihr Unternehmen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
 >[!NOTE]
 >
->Bei neuen Kunden ist der Adobe Enterprise-Speicher standardmäßig aktiviert, und sie haben nicht die Möglichkeit, den alten Workfront-Speicher zu verwenden.
+>Für neue Kunden ist der Adobe-Cloud-Speicher standardmäßig aktiviert, und sie haben nicht die Möglichkeit, den alten Workfront-Speicher zu verwenden.
 
 
+
+## Adobe Cloud-Speicher in Sandbox-Umgebungen
+
+Der Adobe-Cloud-Speicher ist in [!DNL Workfront] Sandbox-Umgebungen verfügbar, sodass Sie ihn testen können, bevor Sie ihn in der Produktionsumgebung aktivieren. Der Frame.io-Viewer ist jedoch nicht in Sandbox verfügbar, sodass das vollständige, einheitliche Überprüfungs- und Validierungserlebnis in der Produktion validiert werden muss.
+
+Wenn Sie über eine benutzerdefinierte Aktualisierungs-Sandbox verfügen, müssen Sie sie nach dem Upgrade auf eine Version von Workfront aktualisieren, die Adobe Cloud Storage unterstützt, um auf die Adobe Cloud Storage-Funktionen in der Sandbox zuzugreifen. Weitere Informationen finden Sie unter [Die benutzerdefinierte  [!DNL Adobe Workfront] -Sandbox-Umgebung](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
 ## Zu beachten
 

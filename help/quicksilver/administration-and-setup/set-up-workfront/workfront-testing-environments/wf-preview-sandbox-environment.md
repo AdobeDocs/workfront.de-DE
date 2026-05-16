@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1373'
 ht-degree: 0%
 
 ---
@@ -195,3 +195,5 @@ In der Vorschau-Umgebung ist die nächtliche Neuberechnung deaktiviert und die P
 * Jeder Ausfall einer [!DNL Workfront] Vorschau-Umgebung am Wochenende (samstags und sonntags) wird behoben, sodass die Umgebung montags zu den Geschäftszeiten geöffnet ist.
 
 * Proofing ist in der Vorschau-Umgebung nicht verfügbar.
+
+* Der Frame.io-Viewer ist in der Vorschau-Umgebung nicht verfügbar. Der Adobe-Cloud-Speicher ist verfügbar, sodass Sie ihn in der Sandbox testen können. Das vollständige, einheitliche Überprüfungs- und Validierungserlebnis muss jedoch in der Produktionsumgebung validiert werden. Weitere Informationen finden Sie unter [Übersicht über den Adobe-Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).

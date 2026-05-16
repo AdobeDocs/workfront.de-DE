@@ -9,9 +9,9 @@ role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1117'
 ht-degree: 4%
 
 ---
@@ -170,7 +170,7 @@ So erstellen Sie Aufgaben in einem Projekt:
 
       >[!TIP]
       >
-      >Wenn Ihr Unternehmen Zugriff auf die alte Dokumentenspeicherung von Workfront und Adobe Enterprise hat, kann der Aufgabenbereich Dokumente je nach verwendetem Speichertyp unterschiedlich angezeigt werden. Aufgaben übernehmen den Speichertyp aus dem Projekt.
+      >Wenn Ihr Unternehmen Zugriff auf den alten Workfront- und Adobe-Cloud-Speicher für Dokumente hat, kann der Aufgabenbereich Dokumente je nach verwendetem Speichertyp unterschiedlich angezeigt werden. Aufgaben übernehmen den Speichertyp aus dem Projekt.
       >
       >Weitere Informationen finden Sie unter [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 

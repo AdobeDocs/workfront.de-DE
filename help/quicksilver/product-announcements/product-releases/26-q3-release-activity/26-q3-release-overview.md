@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: a7ab8d786ba9a9163e091b9fc31dafe293d56acd
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 36%
@@ -62,8 +62,8 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Anzeigen der Speicherverwendung von Adobe Enterprise</a>
-                <p>Die Seite mit den Kundeninformationen in Setup enthält jetzt einen neuen Abschnitt Speicherübersicht mit Nutzungsmetern für Adobe Enterprise-Speicher.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Anzeigen der Nutzung von Adobe Cloud-Speicher</a>
+                <p>Die Seite mit den Kundeninformationen im Setup enthält jetzt einen neuen Abschnitt Speicherübersicht mit Nutzungsmetern für den Adobe Cloud-Speicher.</p>
             </td>
             <td><p>30. April 2026</p></td>
             <td><p>14. Mai 2026</p></td>

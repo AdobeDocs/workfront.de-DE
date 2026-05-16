@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1404'
 ht-degree: 2%
 
 ---
@@ -159,22 +159,22 @@ Sie können ein Projekt über den Bereich Projekte im Hauptmenü oder über den 
    1. (Optional) Geben Sie im Feld **Suchvorlagen** den Namen einer Vorlage ein und klicken Sie darauf, wenn sie in der Liste angezeigt wird.
    1. Klicken Sie auf den Namen einer der folgenden Vorlagentypen, um sie auszuwählen:
 
-      * Eine Workfront-Speichervorlage
+      * Eine alte Workfront-Speichervorlage
 
-        Workfront-Speichervorlagen zeigen neben ihrem Namen ein Legacy-Speichersymbol ![Legacy-Speichersymbol](assets/legacy-storage-project-icon.png) an.
+        Bei älteren Workfront-Speichervorlagen wird neben dem Namen das Symbol für alten Speicher ![Legacy-](assets/legacy-storage-project-icon.png)) angezeigt.
 
         Dokumente über die Vorlage und die zukünftigen Projekte werden im Workfront-Speicher gespeichert.
-      * Eine Adobe-Speichervorlage
+      * Eine Adobe Cloud-Speichervorlage
 
-        Dokumente zur Vorlage und zu den zukünftigen Projekten werden im Adobe Enterprise-Speicher gespeichert.
+        Dokumente zur Vorlage und zu den zukünftigen Projekten werden im Adobe Cloud-Speicher gespeichert.
 
       >[!NOTE]
       >
-      >* Durch die Verwendung einer Enterprise-Storage-Vorlage von Adobe wird ein Enterprise-Storage-Projekt für Adobe erstellt.
+      >* Durch die Verwendung einer Adobe-Cloud-Speichervorlage wird ein Adobe-Cloud-Speicherprojekt erstellt.
       >
-      >* Durch die Verwendung einer Workfront-Speichervorlage wird ein Workfront-Speicherprojekt erstellt.
+      >* Durch die Verwendung einer Legacy-Speichervorlage für Workfront wird ein Legacy-Speicherprojekt für Workfront erstellt.
       >
-      >* Wenn Sie eine Adobe-Enterprise-Storage-Vorlage aus einem Workfront-Storage-Portfolio oder -Programm verwenden, ist das Projekt ein Adobe-Enterprise-Storage-Projekt und das Portfolio oder Programm wird auch in Adobe-Enterprise-Storage-Objekte konvertiert. Alle anderen Workfront-Speicherprojekte im selben Portfolio oder Programm bleiben unverändert.
+      >* Wenn Sie eine Adobe-Cloud-Speichervorlage aus einem alten Workfront-Speicherportfolio oder -Programm verwenden, ist das Projekt ein Adobe-Cloud-Speicherprojekt und das Portfolio oder Programm wird ebenfalls in Adobe-Cloud-Speicherobjekte konvertiert. Alle anderen Legacy-Workfront-Speicherprojekte im selben Portfolio oder Programm bleiben unverändert.
       >
       > Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Arten von Dokumentspeicher.
       >
@@ -226,7 +226,7 @@ Sie können ein Projekt über den Bereich Projekte im Hauptmenü oder über den 
 
    Alle in der Vorlage definierten Details werden automatisch dem neu erstellten Projekt zugeordnet, sofern Sie sie im vorherigen Schritt nicht geändert haben.
 
-   Ein Dokumentordner mit demselben Namen wie das Projekt wird automatisch für Adobe-Speicherprojekte im Abschnitt Dokumente des Projekts erstellt.
+   Ein Dokumentordner mit demselben Namen wie das Projekt wird automatisch für Adobe Cloud-Speicher-Projekte im Abschnitt Dokumente des Projekts erstellt.
 
 ## Erstellen eines Projekts über eine Vorlage im Bereich Vorlagen
 
@@ -234,7 +234,7 @@ Anstatt im Bereich Projekte zu beginnen, können Sie ein Projekt aus einer Vorla
 
 >[!NOTE]
 >
->Mit dem Workfront-Dokumentspeicher verknüpfte Vorlagen erstellen veraltete Workfront-Speicherprojekte. Mit den mit Adobe Enterprise Document Storage verknüpften Vorlagen werden Adobe-Speicherprojekte erstellt. Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Arten von Dokumentspeicher.
+>Mit dem Workfront-Dokumentspeicher verknüpfte Vorlagen erstellen veraltete Workfront-Speicherprojekte. Mit Adobe Cloud-Speicherdokumenten verknüpfte Vorlagen für erstellen Adobe Cloud-Speicherprojekte. Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Arten von Dokumentspeicher.
 >
 >Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und verwandte Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -261,4 +261,4 @@ Anstatt im Bereich Projekte zu beginnen, können Sie ein Projekt aus einer Vorla
 
    Alle in der Vorlage definierten Details werden automatisch dem neu erstellten Projekt zugeordnet, sofern Sie sie im vorherigen Schritt nicht geändert haben.
 
-   Ein Dokumentordner mit demselben Namen wie das Projekt wird automatisch für Adobe-Speicherprojekte im Abschnitt Dokumente des Projekts erstellt.
+   Ein Dokumentordner mit demselben Namen wie das Projekt wird automatisch für Adobe Cloud-Speicher-Projekte im Abschnitt Dokumente des Projekts erstellt.

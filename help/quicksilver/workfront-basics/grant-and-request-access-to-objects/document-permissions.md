@@ -9,9 +9,9 @@ feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1418'
 ht-degree: 4%
 
 ---
@@ -65,7 +65,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 ## Freigeben von Dokumenten im Bereich für veraltete Dokumente
 
-Wenn sich Ihr Unternehmen im alten Workfront-Speicher befindet, wird der Bereich für ältere Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zum alten Workfront-Speicher finden Sie unter [Unterschiede zwischen dem alten Workfront-Speicher und dem Adobe Enterprise-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Wenn sich Ihr Unternehmen im alten Workfront-Speicher befindet, wird der Bereich für ältere Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zum alten Workfront-Speicher finden Sie unter [Unterschiede zwischen dem alten Workfront-Speicher und dem Adobe-Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Freigeben eines einzelnen Dokuments im Bereich für veraltete Dokumente
 
@@ -314,9 +314,9 @@ Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern erteilen können
 ## Freigeben von Dokumenten im Bereich „Neue Dokumente“
 
 
-Workfront stellt auf die Enterprise-Speicherlösung von Adobe um, um eine bessere Konnektivität mit Adobe Creative Cloud-Produkten zu ermöglichen. Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich Neue Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Workfront stellt auf die Adobe Cloud-Speicherlösung um, um eine bessere Konnektivität mit Adobe Creative Cloud-Produkten zu ermöglichen. Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, wird der Bereich Neue Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Adobe Cloud-Speicher finden Sie unter [Übersicht über Adobe Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
-Wenn Ihre Workfront-Instanz Adobe Enterprise Storage verwendet, können Sie einzelne Dokumente nicht direkt freigeben. Stattdessen verwalten Sie den Zugriff auf das Projekt, die Aufgabe oder das Problem. Weitere Informationen finden Sie unter [Funktionsweise von Dokumentberechtigungen](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+Wenn Ihre Workfront-Instanz den Adobe-Cloud-Speicher verwendet, können Sie einzelne Dokumente nicht direkt freigeben. Stattdessen verwalten Sie den Zugriff auf das Projekt, die Aufgabe oder das Problem. Weitere Informationen finden Sie unter [Funktionsweise von Dokumentberechtigungen](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
 
 >[!IMPORTANT]
 >

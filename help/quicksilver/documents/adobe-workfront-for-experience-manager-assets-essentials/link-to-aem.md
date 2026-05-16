@@ -6,10 +6,10 @@ description: Sie können Content Advisor verwenden, um Inhalte oder Ordner aus E
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: dbd19985-88b1-48ca-9cba-b7933ff2c191
-source-git-commit: ab868314aef0924906ca69e82a10ece130484ba7
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 5%
+source-wordcount: '1432'
+ht-degree: 4%
 
 ---
 
@@ -93,15 +93,15 @@ So verknüpfen Sie Inhalte:
    <table style="table-layout:auto">
    <tbody>
       <tr>
-         <td><strong>Suchen nach Assets mithilfe von KI-Suchen.</strong> Verwenden Sie eine KI-gestützte Suche, die Bedeutung und Absicht hinter Abfragen versteht und mehrere Sprachen, Tippfehler und Synonyme unterstützt.</td>
+         <td><strong>Suchen nach Assets mithilfe von KI-Suchen.</strong> Verwenden Sie eine KI-gestützte Suche, die Bedeutung und Absicht hinter Abfragen versteht und mehrere Sprachen, Rechtschreibfehler und Synonyme unterstützt.</td>
          <td>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search">KI-Suchen für die intelligentere Asset-Erkennung</a>.</td>
       </tr>
       <tr>
-         <td><strong>Anzeigen von Smart-Vorschlägen basierend auf Kontext und Absicht.</strong> Entdecken Sie Assets, die Ihren Inhaltsanforderungen entsprechen, mithilfe von kontextabhängigen Empfehlungen aus der Adobe-Hostanwendung.</td>
+         <td><strong>Anzeigen von Smart-Vorschlägen basierend auf Kontext und Absicht.</strong> Entdecken Sie Assets, die Ihren Inhaltsanforderungen entsprechen, indem Sie kontextabhängige Empfehlungen aus der Adobe-Hostanwendung verwenden.</td>
          <td>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#smart-suggestions-content-advisor">Intelligente Vorschläge basierend auf Kontext und Absicht</a>.</td>
       </tr>
       <tr>
-         <td><strong>Laden Sie eine Kampagnenbeschreibung hoch, um relevante Assets zu finden.</strong> Hochladen eines PDF-, DOCX- oder TXT-Kampagnendokuments, damit Content Advisor es analysieren und relevante Assets empfehlen kann.</td>
+         <td><strong>Laden Sie eine Kampagnenbeschreibung hoch, um relevante Assets zu finden.</strong> Laden Sie ein Kurzdokument für PDF-, DOCX- oder TXT-Kampagnen hoch, damit Content Advisor es analysieren und relevante Assets empfehlen kann.</td>
          <td>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#campaign-briefs-content-advisor">Kampagnenbeschreibungen zur Ermittlung relevanter Assets</a>.</td>
       </tr>
       <tr>
@@ -113,23 +113,23 @@ So verknüpfen Sie Inhalte:
          <td>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">Für Dynamic Media-Assets verfügbare Ausgabedarstellungen</a>.</td>
       </tr>
       <tr>
-         <td><strong>Entdecken und Durchsuchen von Inhaltsfragmenten.</strong> Inhaltsfragmente zu durchsuchen, Live-Miniaturansichten anzuzeigen, den Status (Entwurf, Geändert oder Veröffentlicht) zu überprüfen und detaillierte Eigenschaften, Verweise und Varianten zu überprüfen.</td>
+         <td><strong>Entdecken und Durchsuchen von Inhaltsfragmenten.</strong> Durchsuchen Sie Inhaltsfragmente, zeigen Sie Live-Miniaturansichten an, prüfen Sie den Status (Entwurf, Geändert oder Veröffentlicht) und prüfen Sie detaillierte Eigenschaften, Verweise und Varianten.</td>
          <td>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">Erkennung von Inhaltsfragmenten</a>.</td>
       </tr>
       <tr>
-         <td><strong>Zugriff auf Asset-Metadaten.</strong> Überprüfen von Asset-Eigenschaften wie Titel, Beschreibung, Format, Größe und anderen Metadaten-Registerkarten (Produkt, Kampagne, Tags), die mit der Assets-Ansicht übereinstimmen.</td>
+         <td><strong>Zugriff auf Asset-Metadaten.</strong> Überprüfen Sie Asset-Eigenschaften wie Titel, Beschreibung, Format, Größe und andere Metadaten-Registerkarten (Produkt, Kampagne, Tags) entsprechend der Assets-Ansicht.</td>
          <td>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor">Zugriff auf Asset-Metadaten, die der Assets-Ansicht entsprechen</a>.</td>
       </tr>
       <tr>
-         <td><strong>Filtern Sie Assets mithilfe vordefinierter Filter.</strong> Verfeinern von Asset-Ergebnissen mithilfe von Filtern wie Dateityp, Dateiformat, Asset-Status, Dateigröße, Bildbreite, Bildhöhe, Änderungsdatum und Erstellungsdatum.</td>
+         <td><strong>Filtern von Assets mithilfe vordefinierter Filter.</strong> Verfeinern Sie die Asset-Ergebnisse mithilfe von Filtern wie Dateityp, Dateiformat, Asset-Status, Dateigröße, Bildbreite, Bildhöhe, Änderungsdatum und Erstellungsdatum.</td>
          <td>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#filters-content-advisor">Zugriff auf Filter, die der Assets-Ansicht entsprechen</a>.</td>
       </tr>
       <tr>
-         <td><strong>Speichern und Wiederverwenden von Suchen.</strong> Erstellen Sie gespeicherte Suchen, indem Sie einen Suchbegriff und Filteroptionen angeben und diese dann in Experience Manager Assets und anderen Adobe-Programmen wiederverwenden.</td>
+         <td><strong>Speichern und Wiederverwenden von Suchvorgängen.</strong> Erstellen Sie gespeicherte Suchen, indem Sie einen Suchbegriff und Filteroptionen angeben und diese dann in Experience Manager Assets und anderen Adobe-Programmen wiederverwenden.</td>
          <td>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#saved-searches-content-advisor">Zugreifen auf und Wiederverwenden von kürzlich durchgeführten und gespeicherten Suchen</a>.</td>
       </tr>
       <tr>
-         <td><strong>Suchen nach Assets in und innerhalb von Sammlungen.</strong> Suche nach Assets oder Sammlungen in allen Sammlungen oder Suche auf eine bestimmte Sammlung beschränken.</td>
+         <td><strong>Suchen nach Assets in und innerhalb von Sammlungen.</strong> Alle Sammlungen nach Assets oder Sammlungen durchsuchen oder die Suche auf eine bestimmte Sammlung beschränken.</td>
          <td>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#search-collections-content-advisor">Suchen nach Assets in und innerhalb von Sammlungen</a>.</td>
       </tr>
    </tbody>
@@ -183,7 +183,7 @@ So verknüpfen Sie einen Ordner:
 
 ## Zu beachten
 
-* Die Funktion „Content Advisor“ ist nicht für Objekte verfügbar, die Adobe Enterprise-Speicher verwenden. Wenn Ihr Unternehmen Adobe Enterprise Storage verwendet, können Sie weiterhin Assets und Ordner aus Experience Manager Assets oder Assets Essentials verknüpfen, haben jedoch keinen Zugriff auf Content Advisor-Funktionen wie KI-Suchen, Smart Suggestions oder Dynamic Media-Ausgabedarstellungen. Weitere Informationen finden Sie unter [Verwenden von Adobe Experience Manager mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+* Die Funktion „Inhaltsratgeber“ ist nicht für Objekte verfügbar, die den Adobe-Cloud-Speicher verwenden. Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, können Sie weiterhin Assets und Ordner aus Experience Manager Assets oder Assets Essentials verknüpfen, haben jedoch keinen Zugriff auf Content Advisor-Funktionen wie KI-Suchen, Smart Suggestions oder Dynamic Media-Ausgabedarstellungen. Weitere Informationen finden Sie unter [Verwenden von Adobe Experience Manager mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 * Die Funktion „Inhaltsratgeber“ ist für Assets Essentials nicht verfügbar. Informationen zum Verknüpfen von Assets und Ordnern aus Assets Essentials finden Sie unter [Verknüpfen von Assets und Ordnern aus Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md).
 

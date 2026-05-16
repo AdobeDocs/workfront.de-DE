@@ -8,16 +8,16 @@ feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '811'
 ht-degree: 6%
 
 ---
 
 # Erstellen von Dokumentordnern
 
-Dokumente können in Ordnern organisiert werden. Workfront verfügt derzeit über zwei Versionen des Dokumentbereichs: den alten Dokumentbereich und den neuen Dokumentbereich. Welche Version Ihr Unternehmen verwendet, hängt davon ab, ob sich Ihr Unternehmen auf ältere Workfront-Speicher oder Unternehmensspeicher stützt. Weitere Informationen zu diesen Speichertypen finden Sie unter [Übersicht über Adobe Enterprise-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Dokumente können in Ordnern organisiert werden. Workfront verfügt derzeit über zwei Versionen des Dokumentbereichs: den alten Dokumentbereich und den neuen Dokumentbereich. Welche Version Ihr Unternehmen verwendet, hängt davon ab, ob sich Ihr Unternehmen im alten Workfront-Speicher oder im Adobe-Cloud-Speicher befindet. Weitere Informationen zu diesen Speichertypen finden Sie unter [Übersicht über den Adobe-Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ## Zugriffsanforderungen
 
@@ -30,7 +30,7 @@ Dokumente können in Ordnern organisiert werden. Workfront verfügt derzeit übe
   <tr> 
    <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Jedes Workfront-Paket zum Verwalten von Dokumenten unter Verwendung des alten Workfront-Speichers</p>
-<p>Beliebiges Workflow-Paket zum Verwalten von Dokumenten mit Adobe Enterprise Storage</p> </td> 
+<p>Beliebiges Workflow-Paket zum Verwalten von Dokumenten mit dem Adobe Cloud-Speicher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -51,7 +51,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 ## Erstellen von Dokumentordnern im Bereich für veraltete Dokumente
 
-Wenn sich Ihr Unternehmen im alten Workfront-Speicher befindet, wird der Bereich für ältere Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zum alten Workfront-Speicher finden Sie unter [Unterschiede zwischen Adobe Enterprise-Speicher und Legacy-Workfront-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
+Wenn sich Ihr Unternehmen im alten Workfront-Speicher befindet, wird der Bereich für ältere Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zum alten Workfront-Speicher finden Sie unter [Unterschiede zwischen Adobe-Cloud-Speicher und Legacy-Workfront-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ Informationen zum Freigeben von Ordnern finden Sie unter [Freigeben eines Dokume
 
 ## Erstellen von Dokumentordnern im Bereich „Neue Dokumente“
 
-Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich Neue Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, wird der Bereich Neue Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Adobe Cloud-Speicher finden Sie unter [Übersicht über Adobe Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 ### Systemgenerierte Ordner
 
@@ -130,7 +130,7 @@ Systemgenerierte Ordner können in ein anderes Projekt, eine andere Aufgabe oder
 
 >[!NOTE]
 >
->Im Dialogfeld Verschieben sind nur Projekte, Aufgaben und Probleme verfügbar, die denselben Speichertyp verwenden. Wenn Sie beispielsweise einen Ordner in ein Enterprise-Speicherprojekt verschieben, sind nur Projekte, Aufgaben und Probleme verfügbar, die mit Enterprise-Speicher verschoben werden können.
+>Im Dialogfeld Verschieben sind nur Projekte, Aufgaben und Probleme verfügbar, die denselben Speichertyp verwenden. Wenn Sie beispielsweise einen Ordner in ein Adobe-Cloud-Speicher-Projekt verschieben, sind nur Projekte, Aufgaben und Probleme verfügbar, die mit dem Adobe-Cloud-Speicher verschoben werden können.
 
 
 So verschieben Sie einen Ordner:
