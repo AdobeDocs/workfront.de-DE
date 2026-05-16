@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: a28adc22-825f-401e-9ed2-efddaa297b8d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1061'
 ht-degree: 5%
 
 ---
@@ -119,7 +119,7 @@ Beachten Sie beim Kopieren von Problemen, die Dokumente enthalten oder mit einer
 * **Wenn ein Problem mit einer Anfrage-Warteschlange verknüpft ist:** Wenn Sie ein Problem in ein anderes Objekt kopieren und das Problem mit einer Anfrage-Warteschlange verknüpft ist, ist das kopierte Problem nicht mehr mit der ursprünglichen Warteschlange verknüpft, von der das erste Problem stammt.
 * **Wenn ein Dokument an das Problem angehängt wird:** Wenn Sie ein Problem in ein anderes Objekt kopieren und dem Problem ein Dokument angehängt ist, werden das Dokument und seine Versionen ebenfalls an das neue Problem angehängt. Korrekturabzüge oder Genehmigungen, die mit dem Dokument verknüpft sind, werden nicht verschoben.
 * **Wenn ein Problem mit einem Dokument oder Ordner verknüpft ist:** Wenn Sie ein Problem kopieren, das Dokumente oder Ordner mit einem Drittanbieterdienst wie Google Drive verknüpft hat, werden die Links zu den Dokumenten auf das kopierte Problem übertragen.
-* **Wenn Sie Probleme zwischen Projekten mit unterschiedlichen Speichertypen kopieren**: Sie können ein Problem nicht aus einem Workfront-Speicherprojekt in ein Adobe-Speicherprojekt kopieren. Auch das Gegenteil ist wahr. Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Arten von Dokumentspeicher.
+* **Wenn Sie Probleme zwischen Projekten mit unterschiedlichen Speichertypen kopieren**: Sie können kein Problem aus einem alten Workfront-Speicherprojekt in ein Adobe-Cloud-Speicherprojekt kopieren. Auch das Gegenteil ist wahr. Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Arten von Dokumentspeicher.
 
   Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und zugehörige Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

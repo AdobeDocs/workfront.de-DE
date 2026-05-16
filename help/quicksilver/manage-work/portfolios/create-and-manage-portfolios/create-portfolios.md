@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '890'
 ht-degree: 3%
 
 ---
@@ -119,12 +119,12 @@ Sie können Portfolios in Workfront mit einer der folgenden Methoden erstellen:
 
 1. (Bedingt) Klicken Sie je nachdem, welchen Dokumentspeicher Ihr Unternehmen verwendet, auf eine der folgenden Optionen:
 
-   * **Neues Portfolio**, wenn der Workfront-Administrator entweder **Adobe Enterprise** oder **Legacy Workfront** auswählt und die Einstellung **Speicheranbieter zulassen)** oder nicht ausgewählt hat.
-   * **Neues Portfolio (Legacy-Speicher)** Wenn der Workfront-Administrator entweder **Adobe Enterprise** oder **Legacy Workfront** auswählt und außerdem die Einstellung **Auswahl des Speicheranbieters durch den Benutzer zulassen** ausgewählt hat.
+   * **Neues Portfolio**, wenn der Workfront-Administrator entweder **Adobe Cloud Storage** oder **Legacy Workfront** auswählt und die Einstellung **Auswahl des Speicheranbieters durch den Benutzer zulassen** ausgewählt hat oder nicht.
+   * **Neues Portfolio (Legacy-Speicher)** Wenn der Workfront-Administrator entweder **Adobe Cloud-Speicher** oder **Legacy Workfront** auswählt und außerdem die Einstellung **Auswahl des Speicheranbieters durch den Benutzer zulassen** ausgewählt hat.
 
      Diese Option wird nur angezeigt, wenn **Einstellung „Auswahl des Speicheranbieters durch den Benutzer zulassen** im Bereich „Setup“ ausgewählt ist.
 
-     Weitere Informationen finden Sie unter [Aktivieren von Adobe Enterprise Storage für Ihr Unternehmen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+     Weitere Informationen finden Sie unter [Aktivieren von Adobe-Cloud-Speicher für Ihr Unternehmen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
      >[!NOTE]
      >
@@ -132,17 +132,17 @@ Sie können Portfolios in Workfront mit einer der folgenden Methoden erstellen:
 
      Ein Portfolio wird erstellt. Sein Standardname folgt den folgenden Mustern, je nachdem, welcher Speicher Workfront für Dokumente verwendet:
 
-      * `Untitled Portfolio` für ein Workfront-Speicherportfolio.
+      * `Untitled Portfolio` für ein Legacy-Speicherportfolio von Workfront.
 
-        Bei einem Workfront-Speicherportfolio wird neben dem Namen das **Legacy-Speicherportfolio**-Symbol ![Legacy-Speicherportfolio](assets/legacy-storage-project-icon.png) angezeigt.
+        Bei einem Legacy-Speicherportfolio von Workfront wird neben dem Namen das **Legacy-Speicherportfolio**-Symbol ![Legacy-Speicherportfolio](assets/legacy-storage-project-icon.png) angezeigt.
 
-      * `Untitled Portfolio - < Month day, year hour.minute.second >` für ein Adobe-Speicherportfolio
+      * `Untitled Portfolio - < Month day, year hour.minute.second >` für ein Adobe Cloud-Speicherportfolio
 
         >[!IMPORTANT]
         >
-        >Portfolios, die Adobe Enterprise-Speicher verwenden, müssen eindeutige Namen haben.
+        >Portfolios, die den Adobe-Cloud-Speicher verwenden, müssen eindeutige Namen haben.
 
-     Bei Adobe-Speicherportfolios wird automatisch im Bereich Dokumente ein neuer Dokumentordner mit demselben Namen wie das Portfolio erstellt.
+     Bei Adobe Cloud-Speicherportfolios wird automatisch im Bereich Dokumente ein neuer Dokumentordner mit demselben Namen wie das Portfolio erstellt.
 
 1. Ersetzen Sie den Namen des Portfolios durch einen neuen Namen in der Portfolio-Kopfzeile.
 
@@ -154,7 +154,7 @@ Sie können Portfolios in Workfront mit einer der folgenden Methoden erstellen:
 
    Als Ersteller des Portfolios werden Sie standardmäßig als Portfolio-Manager zugewiesen.
 
-1. Klicken Sie im linken **auf** Portfolio-Details.
+1. Klicken Sie im linken ]**auf**[!UICONTROL  Portfolio-Details.
 1. Ändern Sie **[!UICONTROL Bereich]**&#x200B;Übersicht“ eine der folgenden Informationen:
 
    <table style="table-layout:auto"> 

@@ -8,9 +8,9 @@ feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1317'
 ht-degree: 4%
 
 ---
@@ -20,9 +20,9 @@ ht-degree: 4%
 Adobe Workfront verfügt derzeit über die folgenden beiden Arten von Dokumentenspeichern:
 
 * Legacy Workfront-Speicher
-* Adobe Enterprise-Speicher
+* Adobe Cloud-Speicher
 
-Weitere Informationen zu diesen Speichertypen finden Sie unter [Übersicht über Adobe Enterprise-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Weitere Informationen zu diesen Speichertypen finden Sie unter [Übersicht über den Adobe-Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Das Hinzufügen von Dokumenten zu Workfront unterscheidet sich je nachdem, welch
   <tr> 
    <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Jedes Workfront-Paket zum Verwalten von Dokumenten unter Verwendung des alten Workfront-Speichers</p>
-<p>Beliebiges Workflow-Paket zum Verwalten von Dokumenten mit Adobe Enterprise Storage</p></td> 
+<p>Beliebiges Workflow-Paket zum Verwalten von Dokumenten mit dem Adobe Cloud-Speicher</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen</td> 
@@ -55,7 +55,7 @@ Das Hinzufügen von Dokumenten zu Workfront unterscheidet sich je nachdem, welch
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td> <p>Legacy Workfront-Speicher: Zugriff auf Dokumente bearbeiten</p> 
-   <p>Unternehmensspeicher: Der Bearbeitungszugriff auf Dokumente ist standardmäßig aktiviert und kann nicht geändert werden</p>
+   <p>Adobe Cloud-Speicher: Der Bearbeitungszugriff auf Dokumente ist standardmäßig aktiviert und kann nicht geändert werden</p>
    </td> 
   </tr> 
  </tbody> 
@@ -69,7 +69,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 Wenn Ihr Unternehmen Legacy-Workfront-Speicher verwendet, sehen Sie den Bereich Legacy-Dokumente , wenn Sie auf Dokumente in Workfront zugreifen.
 
-Weitere Informationen zu Workfront-Speicher finden Sie unter [Unterschiede zwischen Adobe Enterprise Storage und Legacy Workfront Storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-enterprise-storage-and-legacy-workfront-storage).
+Weitere Informationen zu Workfront-Speicher finden Sie unter [Unterschiede zwischen Adobe-Cloud-Speicher und Legacy-Workfront-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
 In Workfront können Sie Dokumente zu den folgenden Bereichen hinzufügen:
 
@@ -146,7 +146,7 @@ Hinzufügen eines Dokuments:
 
 ## Hinzufügen von Dokumenten zu Workfront im Bereich „Neue Dokumente“
 
-Sie können Dokumente mithilfe des Unternehmensspeichermodells von Adobe zu Objekten hinzufügen. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Sie können Dokumente mithilfe des Adobe-Cloud-Speichermodells zu Objekten hinzufügen. Weitere Informationen zu Adobe Cloud-Speicher finden Sie unter [Übersicht über Adobe Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Die Funktion wird derzeit im Bereich „Neue Dokumente“ nicht unterstützt:
 
@@ -160,7 +160,7 @@ Die Funktion wird derzeit im Bereich „Neue Dokumente“ nicht unterstützt:
 
 ### Hinzufügen von Dokumenten zu Workfront im Bereich „Neue Dokumente“
 
-Wenn Ihr Unternehmen Enterprise-Speicher verwendet, wird der Bereich Neue Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Massenspeicher für Unternehmen finden Sie unter [Übersicht über Speicher für Unternehmen in Adobe](/help/quicksilver/review-and-approve-work/esm-overview.md).
+Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, wird der Bereich Neue Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Adobe Cloud-Speicher finden Sie unter [Übersicht über Adobe Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
 Hinzufügen eines Dokuments:
 
@@ -174,22 +174,22 @@ Informationen zum Hochladen neuer Versionen eines Dokuments in Workfront finden 
 
 Ein Ordner mit demselben Namen wie das Objekt, in das Sie das Dokument hochladen, wird automatisch im Abschnitt Dokumente erstellt und das Dokument wird dem Ordner hinzugefügt.
 
-## Dokumentensicherheit für Unternehmensspeicher
+## Document Security für Adobe Cloud-Speicher
 
 Workfront verhindert wie folgt, dass Viren und andere schädliche Inhalte über Dokumente auf die Website gelangen:
 
 **So erkennt Workfront beschädigte Dateien**
 
-Das Scannen von Dokumenten wird automatisch für Objekte aktiviert, die das Adobe Enterprise-Speichermodell verwenden.
+Die Dokumentüberprüfung wird automatisch für Objekte aktiviert, die das Adobe-Cloud-Speichermodell verwenden.
 
 Alle Dateien mit weniger als 500 MB werden beim Hochladen gescannt. Dateien über 500 MB werden nicht gescannt. Wenn Workfront ein beschädigtes Dokument erkennt, wird es automatisch entfernt.
 
 **Dateinamenbeschränkungen**
 
-Da diese Integration mit Adobe Enterprise Storage erstellt wird, müssen beim Verwalten von Projekten und Dokumenten einige erzwungene Struktur- und Benennungskonventionen beachtet werden.
+Da diese Integration mit dem Adobe-Cloud-Speicher erstellt wird, müssen beim Verwalten von Projekten und Dokumenten einige erzwungene Struktur- und Benennungskonventionen beachtet werden.
 
 * Objektnamen müssen eindeutig sein und können nicht dupliziert werden
-* Der Adobe Enterprise-Speicher erfordert eindeutige Namen für Peer-Objekte mit demselben übergeordneten Element in der Hierarchiestruktur
+* Der Adobe-Cloud-Speicher erfordert eindeutige Namen für Peer-Objekte mit demselben übergeordneten Element in der Hierarchiestruktur
 * Dokumente können nicht denselben Namen haben, wenn sie zum selben Projekt gehören
 * Dokumentnamen dürfen keines der folgenden Sonderzeichen enthalten: `\ / : * ? " | < >`
 * Dokumentnamen sind auf maximal 255 Zeichen beschränkt

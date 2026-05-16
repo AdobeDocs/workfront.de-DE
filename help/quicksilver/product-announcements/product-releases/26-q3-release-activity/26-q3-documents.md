@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: a7a0dc6ae01b3f1e9f295781805ed3e58f8acf1f
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 4%
@@ -33,13 +33,13 @@ Weitere Informationen zum Senden von Assets an Experience Manager Assets finden 
 
 Weitere Informationen zum Genehmigungsstatus finden Sie unter [Erste Schritte mit der einheitlichen Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
-## Anzeigen der Speicherverwendung von Adobe Enterprise
+## Anzeigen der Nutzung von Adobe Cloud-Speicher
 
 >[!NOTE]
 >
 >Vorschau: 30. April 2026>Produktions-Schnellveröffentlichung: 14. Mai 2026>Produktion für alle: 16. Juli 2026
 
-Die Seite mit den Kundeninformationen in Setup enthält jetzt einen neuen Abschnitt Speicherübersicht mit Nutzungsmetern für Adobe Enterprise-Speicher.
+Die Seite mit den Kundeninformationen im Setup enthält jetzt einen neuen Abschnitt Speicherübersicht mit Nutzungsmetern für den Adobe Cloud-Speicher.
 
 Workfront-Administratoren erhalten automatisch E-Mail-Benachrichtigungen, wenn die Speichernutzung 75 %, 85 % und 100 % des Kontingents erreicht.
 

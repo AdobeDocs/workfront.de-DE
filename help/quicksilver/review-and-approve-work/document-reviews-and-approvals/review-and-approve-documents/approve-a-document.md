@@ -8,7 +8,7 @@ feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '1204'
 ht-degree: 2%
@@ -23,7 +23,7 @@ Informationen zum Erstellen einer neuen Dokumentgenehmigung finden Sie unter [Er
 
 >[!IMPORTANT]
 >
->Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Zugriffsanforderungen
 
@@ -37,7 +37,7 @@ Informationen zum Erstellen einer neuen Dokumentgenehmigung finden Sie unter [Er
   <tr> 
    <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Jedes Workfront-Paket zur Verwaltung von Genehmigungen unter Verwendung des alten Workfront-Speichers</p>
-<p>Beliebiges Workflow-Paket zum Verwalten von Genehmigungen mithilfe von Adobe Enterprise-Speicher</p> </td> 
+<p>Beliebiges Workflow-Paket zum Verwalten von Genehmigungen mithilfe des Adobe-Cloud-Speichers</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -70,16 +70,16 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
    >
    >* Ersetzen Sie sie durch ein Bild, das Ihre Organisation illustriert. In diesem Fall sieht das Symbol anders aus als in diesem Artikel gezeigt.
    >
-   >* Ersetzen Sie die damit verknüpfte Seite durch eine andere Seite. In this case, click the **Main Menu** ![Main menu icon](../assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
+   >* Ersetzen Sie die damit verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf **Hauptmenü** ![Hauptmenüsymbol](../assets/main-menu-icon.png) in der oberen rechten Ecke der Seite und dann auf **Startseite**.
 
-1. Click **Filters** at the top left of the page and ensure that **Approvals** is checked.
+1. Klicken **oben links auf** Filter“ und stellen Sie sicher, dass **Genehmigungen** aktiviert ist.
 
    In der Liste werden alle Arbeitselemente angezeigt, die Ihrer Genehmigung bedürfen.
 
    >[!NOTE]
    >
    >* Genehmigungen, die Aufgabengebieten oder Gruppen zugewiesen wurden, werden nicht auf der Startseite aufgelistet.
-   >* Approvals assigned to Teams display in each individual team member&#39;s My Approvals widget in Home.
+   >* Genehmigungen, die Teams zugewiesen wurden, werden auf der Startseite im Widget Meine Genehmigungen jedes einzelnen Teammitglieds angezeigt.
 
 1. Klicken Sie in der Liste, für die Sie eine Genehmigungsentscheidung treffen möchten, auf die Dokumentgenehmigung. Informationen zur Genehmigung werden rechts auf der Seite angezeigt.
 

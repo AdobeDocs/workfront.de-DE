@@ -10,9 +10,9 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1411'
+source-wordcount: '1413'
 ht-degree: 4%
 
 ---
@@ -212,7 +212,7 @@ So zeigen Sie Anfragen an, die Sie oder andere Benutzende in der Legacy-Anfrage 
    >
    >* Wenn das Bedienfeld Zusammenfassung bereits geöffnet ist, ändert sich das Symbol Zusammenfassung öffnen in Zusammenfassung schließen .
    >
-   >* Wenn Ihr Unternehmen Adobe Enterprise Document Storage verwendet, können Sie im Zusammenfassungsbereich keine Dokumente zu Adobe-Speicheranfragen hinzufügen.
+   >* Wenn Ihr Unternehmen Adobe Cloud Storage für Dokumente verwendet, können Sie im Zusammenfassungsbereich keine Dokumente zu Adobe Cloud Storage-Anfragen hinzufügen.
    >
    >Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und zugehörige Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

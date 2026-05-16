@@ -8,7 +8,7 @@ feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0c4904a380dd62b9ea01dd1030ee02d82a869541
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 6%
@@ -21,7 +21,7 @@ Als Prüfer können Sie ein Dokument anzeigen, das Ihnen zur Überprüfung über
 
 >[!IMPORTANT]
 >
->Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Zugriffsanforderungen
 
@@ -34,7 +34,7 @@ Als Prüfer können Sie ein Dokument anzeigen, das Ihnen zur Überprüfung über
   <tr> 
    <td role="rowheader">Adobe Workfront-Paket</td> 
    <td><p>Jedes Workfront-Paket zur Verwaltung von Genehmigungen unter Verwendung des alten Workfront-Speichers</p>
-<p>Beliebiges Workflow-Paket zum Verwalten von Genehmigungen mithilfe von Adobe Enterprise-Speicher</p> </td> 
+<p>Beliebiges Workflow-Paket zum Verwalten von Genehmigungen mithilfe des Adobe-Cloud-Speichers</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -83,11 +83,11 @@ Add once functionality is added
 
 1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
 
-1. Click on the document you need and the Document Summary panel will open.
+1. Klicken Sie auf das gewünschte Dokument. Daraufhin wird das Bedienfeld Dokumentzusammenfassung geöffnet.
 
-1. Select the version of the document you would like review in the version dropdown. Standardmäßig wird die neueste Version ausgewählt.
+1. Wählen Sie in der Dropdown-Liste Version die Version des Dokuments aus, das Sie überprüfen möchten. Standardmäßig wird die neueste Version ausgewählt.
 
-1. Hover over the preview of the document in the **Details** section at the top of the Document Summary panel. Dann entweder:
+1. Bewegen Sie den Mauszeiger über die Vorschau des Dokuments **Abschnitt** Details“ am oberen Rand des Bedienfelds Dokumentzusammenfassung. Dann entweder:
 
    Klicken Sie **Vorschau**, um eine schreibgeschützte Version des Dokuments in einem neuen Fenster zu öffnen.
 
@@ -97,21 +97,21 @@ Add once functionality is added
 
 1. (Optional) Nachdem Sie das Dokument geprüft haben, können Sie dem Anforderer im Abschnitt **des Dokuments einen Kommentar**. Weitere Informationen zum Kommentieren finden Sie unter [Arbeit aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Optional) You can also preview or download a specific version of the document by scrolling down to the **Versions** section of the Document Summary panel, then clicking on the More icon ![More icon](../assets/more-icon.png) next to the version you would like to review and selecting **Download** or **Preview**.
+1. (Optional) Sie können auch eine bestimmte Version des Dokuments in der Vorschau anzeigen oder herunterladen, indem Sie zum Abschnitt **Versionen** des Bedienfelds Dokumentzusammenfassung scrollen und dann auf das Symbol Mehr ![Mehr](../assets/more-icon.png) neben der Version klicken, die Sie überprüfen möchten, und **Herunterladen** oder **Vorschau** auswählen.
 1. Um aufzuzeichnen, dass Sie Ihre Überprüfung abgeschlossen haben, klicken Sie auf **Überprüfung abschließen**.
 
-## Review a document from the proof viewer
+## Überprüfen eines Dokuments in der Korrekturabzugsansicht
 
-To review a document:
+So überprüfen Sie ein Dokument:
 
-1. Go to your review email notification, and click to **Go to review**.
+1. Gehen Sie zu Ihrer E-Mail-Benachrichtigung und klicken Sie auf **Zum Überprüfen gehen**.
 
-1. Once you&#39;re in Workfront, click **Go to proof**.
+1. Wenn Sie sich in Workfront befinden, klicken Sie auf **Zum Korrekturabzug gehen**.
 
-1. Review the content, and add any comments or markup. For more information about how to use the proofing viewer, see [Review proofs within Adobe Workfront: article index](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+1. Überprüfen Sie den Inhalt und fügen Sie Kommentare oder Markup hinzu. Weitere Informationen zur Verwendung der Proofing-Anzeige finden Sie unter [Testsendungen in Adobe Workfront überprüfen: Artikelindex](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
 1. Um aufzuzeichnen, dass Sie Ihre Überprüfung abgeschlossen haben, klicken Sie auf **Überprüfung abschließen**.
 
-## Review a document from the Frame.io viewer
+## Überprüfen eines Dokuments im Frame.io-Viewer
 
-To review a document from the Frame.io viewer, your Workfront instance must be integrated with Frame.io. For more information, see the [Unified review and approval overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
+Um ein Dokument aus dem Frame.io-Viewer zu überprüfen, muss Ihre Workfront-Instanz in Frame.io integriert sein. Weitere Informationen finden Sie unter [Einheitliche Überprüfung und Genehmigung - Übersicht](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).

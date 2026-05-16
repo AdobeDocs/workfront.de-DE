@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '1629'
+source-wordcount: '1639'
 ht-degree: 3%
 
 ---
@@ -170,15 +170,15 @@ Beachten Sie Folgendes:
 * Welche Dokumente für ein Projekt und dessen untergeordnete Objekte (Aufgaben und Probleme) gespeichert werden, hängt davon ab, was Ihr Workfront-Administrator im Bereich „Systemeinstellungen“ unter „Setup“ als Standard für Speichereinstellungen auswählt. Je nachdem, wo Sie Dokumente in Ihrer Workfront-Instanz speichern, können Sie die folgenden Projekttypen erstellen:
 
    * Alte Workfront-Speicherprojekte
-   * Adobe Enterprise-Speicherprojekte.
+   * Adobe Cloud-Speicherprojekte.
 
-  Weitere Informationen finden Sie unter [Aktivieren von Adobe Enterprise Storage für Ihr Unternehmen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+  Weitere Informationen finden Sie unter [Aktivieren von Adobe-Cloud-Speicher für Ihr Unternehmen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
   >[!TIP]
   >
   > Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Arten von Dokumentspeicher.
 
-* Wenn Sie ein Speicherprojekt für Unternehmen erstellen, wird im Abschnitt **Dokumente** des Projekts ein Dokumentordner mit demselben Namen des Projekts erstellt. Nachdem Sie dem Projekt Aufgaben hinzugefügt haben, werden Ordner mit dem Namen der Aufgabe zum Abschnitt **Dokumente** jeder Aufgabe hinzugefügt.
+* Wenn Sie ein Adobe-Cloud-Speicher-Projekt erstellen, wird im Abschnitt **Dokumente** des Projekts ein Dokumentordner mit demselben Namen des Projekts erstellt. Nachdem Sie dem Projekt Aufgaben hinzugefügt haben, werden Ordner mit dem Namen der Aufgabe zum Abschnitt **Dokumente** jeder Aufgabe hinzugefügt.
 
 Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und verwandte Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -199,29 +199,29 @@ Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagemen
 
 1. (Bedingt) Klicken Sie je nachdem, welchen Dokumentspeicher Ihr Unternehmen verwendet, auf eine der folgenden Optionen:
 
-   * **Neues Projekt**, wenn der Workfront-Administrator entweder **Adobe Enterprise** oder **Legacy Workfront** auswählt und die Einstellung **Dem Benutzer die Auswahl des Speicheranbieters erlauben** ausgewählt hat oder nicht.
-   * **Neues Projekt (Legacy-Speicher)** Wenn der Workfront-Administrator entweder **Adobe Enterprise** oder **Legacy-Workfront** auswählt und außerdem die Einstellung **Auswahl des Speicheranbieters durch den Benutzer zulassen** ausgewählt hat.
+   * **Neues Projekt**, wenn der Workfront-Administrator entweder **Adobe Cloud-Speicher** oder **Legacy Workfront** auswählt und die Einstellung **Dem Benutzer die Auswahl des Speicheranbieters erlauben** ausgewählt hat oder nicht.
+   * **Neues Projekt (Legacy-Speicher)** Wenn der Workfront-Administrator entweder **Adobe-Cloud-** oder **Legacy-Workfront** auswählt und außerdem die Einstellung **Auswahl des Speicheranbieters durch den Benutzer zulassen** ausgewählt hat.
 
      Diese Option wird nur angezeigt, wenn **Einstellung „Auswahl des Speicheranbieters durch den Benutzer zulassen** im Bereich „Setup“ ausgewählt ist.
 
-     Weitere Informationen finden Sie unter [Aktivieren von Adobe Enterprise Storage für Ihr Unternehmen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
+     Weitere Informationen finden Sie unter [Aktivieren von Adobe-Cloud-Speicher für Ihr Unternehmen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
      >[!NOTE]
      >
-     >* Wenn Sie ein Enterprise-Storage-Projekt aus einem Workfront-Storage-Portfolio oder -Programm erstellen, wird das Portfolio oder Programm auch in Enterprise-Storage-Objekte konvertiert. Alle anderen Workfront-Speicherprojekte im selben Portfolio oder Programm bleiben unverändert.
+     >* Wenn Sie ein Adobe-Cloud-Speicherprojekt aus einem alten Workfront-Speicherportfolio oder -Programm erstellen, wird das Portfolio oder Programm ebenfalls in Adobe-Cloud-Speicherobjekte konvertiert. Alle anderen Legacy-Workfront-Speicherprojekte im selben Portfolio oder Programm bleiben unverändert.
      >* Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Arten von Dokumentspeicher.
 
      Ein Projekt wird erstellt, und sein Standardname folgt den folgenden Mustern, je nachdem, welcher Speicher Workfront für Dokumente verwendet:
 
-      * `Untitled Project` für ein Workfront-Speicherprojekt.
+      * `Untitled Project` für ein veraltetes Workfront-Speicherprojekt.
 
-        Bei einem Workfront-Speicherprojekt wird neben dem Namen das Symbol **Legacy** Workfront-Speicher![&#x200B; Legacy-](assets/legacy-storage-project-icon.png)Projekt“ angezeigt.
+        Bei einem älteren Workfront-Speicherprojekt wird neben dem Namen das Symbol **Legacy** Workfront-Speicher![ Legacy-](assets/legacy-storage-project-icon.png)-Projekt) angezeigt.
 
-      * `Untitled Project - < Month day, year hour.minute.second >` für ein Adobe-Speicherprojekt
+      * `Untitled Project - < Month day, year hour.minute.second >` für ein Adobe Cloud-Speicherprojekt
 
         >[!IMPORTANT]
         >
-        >Projekte, die Adobe Enterprise Storage verwenden, müssen eindeutige Namen haben.
+        >Projekte, die den Adobe-Cloud-Speicher verwenden, müssen eindeutige Namen haben.
 
 
 1. Aktualisieren Sie in der Kopfzeile des Projekts den Namen des Projekts. Drücken Sie die Eingabetaste, um den Namen zu speichern.

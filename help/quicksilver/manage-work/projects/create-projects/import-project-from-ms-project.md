@@ -8,9 +8,9 @@ feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a9c628670731d20e9429415c8fe961bbb53daff9
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '604'
 ht-degree: 9%
 
 ---
@@ -128,7 +128,7 @@ Sie können ein Projekt im Bereich **Projekte** im **Hauptmenü** oder im Bereic
 
    >[!CAUTION]
    >
-   >Wenn Ihre Workfront-Instanz sowohl auf den Workfront- als auch auf den Adobe-Dokumentspeicher zugreifen kann, wird beim Importieren eines Projekts aus MS Project ein Workfront-Speicherprojekt erstellt, auch wenn der Workfront-Administrator den Adobe Enterprise-Speicher als Standard für Ihr System festgelegt hat.
+   >Wenn Ihre Workfront-Instanz sowohl auf den Workfront- als auch auf den Adobe-Cloud-Speicher für Dokumente zugreifen kann, wird beim Importieren eines Projekts aus MS Project ein Legacy-Workfront-Speicherprojekt erstellt, auch wenn der Workfront-Administrator den Adobe-Cloud-Speicher zum Standard für Ihr System gemacht hat.
    >
    >Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und verwandte Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 

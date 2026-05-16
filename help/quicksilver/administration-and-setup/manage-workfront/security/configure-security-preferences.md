@@ -10,7 +10,7 @@ role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 77b78c5905736092c972e08283fdabf321bfa580
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 13%
@@ -128,8 +128,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
       <td>Ermöglicht die Auswahl oder Deaktivierung der Liste „Prioritäten“ für die Benutzer. Die Benutzer sehen weiterhin die Prioritätssymbole in Workfront, haben jedoch keinen Zugriff auf die Funktion. Weitere Informationen zu Prioritäten finden Sie unter <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Erste Schritte mit Prioritäten</a>.</td> 
      </tr>
       <tr> 
-      <td role="rowheader">Adobe Enterprise Storage aktivieren </td> 
-      <td>Ermöglicht die Aktivierung oder Deaktivierung der Adobe Enterprise-Datenspeicherung für das gesamte Unternehmen oder für bestimmte Gruppen. Weitere Informationen zu Adobe Enterprise Storage finden Sie unter <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">Aktivieren von Adobe Enterprise Storage für Ihr Unternehmen</a>.</td> 
+      <td role="rowheader">Aktivieren von Adobe Cloud Storage </td> 
+      <td>Ermöglicht die Aktivierung oder Deaktivierung der Adobe-Cloud-Datenspeicherung für das gesamte Unternehmen oder für bestimmte Gruppen. Weitere Informationen zu Adobe Cloud-Speicher finden Sie unter <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">Aktivieren von Adobe Cloud-Speicher für Ihr Unternehmen</a>.</td> 
      </tr>
      <tr> 
       <td role="rowheader">KI aktivieren </td> 

@@ -1,50 +1,50 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Objektberechtigungen und Übersicht auf Zugriffsebene für das Adobe Enterprise-Speichermodell
-description: Überblick über Berechtigungen und Zugriffsrechte für Adobe-Unternehmensspeicher
+title: Objektberechtigungen und Übersicht über die Zugriffsebene für das Adobe-Cloud-Speichermodell
+description: Adobe Cloud-Speicherberechtigungen und Zugriffsübersicht
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 758d17e6-f31f-42b7-a9e6-6bd1821f5c15
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: d10138467d81bbe87375d6a64e4fd5e269691808
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '944'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 
-# Objektberechtigungen und Übersicht auf Zugriffsebene für das Adobe Enterprise-Speichermodell
+# Objektberechtigungen und Übersicht über die Zugriffsebene für das Adobe-Cloud-Speichermodell
 
 <!--linked in UI -->
 
-Adobe Enterprise Storage ist eine Cloud-basierte Speicherlösung, die als zentrales Speicher-Repository für Assets in allen Adobe Enterprise-Produkten dient. Workfront-Umgebungen, die Adobe Enterprise Storage verwenden, weisen etwas andere Objektberechtigungen und Zugriffsverhaltensweisen auf als Umgebungen, die Legacy-Dokumentspeicher von Workfront verwenden.
+Adobe Cloud Storage ist eine Cloud-basierte Speicherlösung, die als zentrales Speicher-Repository für Assets in allen Adobe-Unternehmensprodukten dient. Workfront-Umgebungen, die den Adobe-Cloud-Speicher verwenden, weisen etwas andere Objektberechtigungen und Zugriffsverhaltensweisen auf als Umgebungen, die den alten Workfront-Dokumentenspeicher verwenden.
 
 ## Zugriffsebenen
 
 Die Zugriffsebenen von Workfront gelten nur innerhalb von Workfront. Projekt- und Dokumenteinschränkungen in Workfront gelten nicht immer für andere Adobe-Programme.
 
-### Umgebungen, die sowohl Adobe Enterprise-Speicher als auch Legacy-Workfront-Speicher verwenden
+### Umgebungen, die sowohl Adobe-Cloud-Speicher als auch Legacy-Workfront-Speicher verwenden
 
-Der Dokumentzugriff verhält sich unterschiedlich, je nachdem, ob sich das Projekt im Adobe Enterprise-Speicher oder im Legacy-Workfront-Speicher befindet:
+Der Dokumentzugriff verhält sich unterschiedlich, je nachdem, ob sich das Projekt im Adobe Cloud-Speicher oder im alten Workfront-Speicher befindet:
 
 * **Legacy-Workfront-**: Projekte, Programme, Portfolios und Vorlagen, die Legacy-Workfront-Speicher verwenden, folgen beim Dokumentzugriff der standardmäßigen Workfront-Zugriffsebenen-Logik. Wenn für eine Zugriffsebene **Kein Zugriff** für Dokumente ausgewählt ist, können die Dokumente in Workfront oder anderen Adobe-Produkten wie Frame.io oder Creative Cloud nicht angezeigt werden.
-* **Adobe Enterprise-Speicher**: Projekte, Programme, Portfolios und Vorlagen, die Adobe Enterprise-Speicher verwenden, folgen für andere Adobe-Produkte der Zugriffslogik auf Adobe Enterprise-Speicher.
+* **Adobe Cloud-Speicher**: Projekte, Programme, Portfolios und Vorlagen, die Adobe Cloud-Speicher verwenden, folgen für andere Adobe-Produkte der Zugriffslogik auf Adobe Cloud-Speicher.
 
 
    * **Objektberechtigungen für Projekte, Programme, Portfolios und Vorlagen**: Wenn eine Zugriffsebene **Kein Zugriff** für Projekte, Programme, Portfolios und Vorlagen ausgewählt hat, das Objekt jedoch für sie freigegeben ist, können Benutzende das Objekt nicht in Workfront sehen, aber sie können weiterhin den Objektnamen und alle zugehörigen Dokumente in anderen Adobe-Tools wie Frame.io und Adobe Creative Cloud anzeigen.
-   * **Dokumentberechtigungen**: Wenn für eine Zugriffsebene **Kein Zugriff** für Dokumente ausgewählt ist, können Benutzende keine Dokumente zu Projekten in Workfront anzeigen. Sie können jedoch weiterhin Dokumente für Projekte anzeigen und verwalten, die in anderen Adobe-Tools wie Frame.io und Adobe Creative Cloud für sie freigegeben sind. Dies liegt daran, dass der Dokumentzugriff durch Berechtigungen auf Projektebene im Adobe Enterprise-Speicher und nicht allein durch die Workfront-Zugriffsebenen bestimmt wird.
+   * **Dokumentberechtigungen**: Wenn für eine Zugriffsebene **Kein Zugriff** für Dokumente ausgewählt ist, können Benutzende keine Dokumente zu Projekten in Workfront anzeigen. Sie können jedoch weiterhin Dokumente für Projekte anzeigen und verwalten, die in anderen Adobe-Tools wie Frame.io und Adobe Creative Cloud für sie freigegeben sind. Dies liegt daran, dass der Dokumentzugriff durch Berechtigungen auf Projektebene im Adobe Cloud-Speicher und nicht allein durch die Workfront-Zugriffsebenen bestimmt wird.
 
-Wenn Adobe Enterprise Storage in Ihrer Workfront-Umgebung aktiviert ist, können Sie sowohl Adobe Enterprise Storage-Projekte als auch Legacy-Workfront-Speicherprojekte erstellen. Ältere Workfront-Speicherprojekte zeigen ein Symbol neben dem Projektnamen an, wo immer er in Workfront angezeigt wird. In Adobe Enterprise-Speicherprojekten wird kein Symbol angezeigt.
+Wenn Sie Adobe-Cloud-Speicher in Ihrer Workfront-Umgebung aktiviert haben, können Sie sowohl Adobe-Cloud-Speicherprojekte als auch Legacy-Workfront-Speicherprojekte erstellen. Ältere Workfront-Speicherprojekte zeigen ein Symbol neben dem Projektnamen an, wo immer er in Workfront angezeigt wird. Adobe Cloud-Speicherprojekte zeigen kein Symbol an.
 
 ![Legacy Workfront Storage-Symbol neben dem Projektnamen](assets/legacy-project-icon.png)
 
 
-### Umgebungen, die nur Adobe Enterprise-Speicher verwenden
+### Umgebungen, die nur Adobe Cloud-Speicher verwenden
 
-Sie können Dokumentberechtigungen auf der Zugriffsebene für Projekte, Programme und Portfolios, die Adobe Enterprise-Speicher verwenden, nicht ändern.
+Sie können Dokumentberechtigungen auf der Zugriffsebene für Projekte, Programme und Portfolios, die den Adobe Cloud-Speicher verwenden, nicht ändern.
 
 Alle Zugriffsebenen haben Bearbeitungszugriff auf Dokumente. Berechtigungen auf Projektebene bestimmen den Dokumentzugriff in anderen Adobe-Tools.
 
@@ -61,7 +61,7 @@ Objektberechtigungen bestimmen, was Sie in Workfront mit Projekten, Aufgaben, Pr
 
 >[!IMPORTANT]
 >
->Im Adobe Enterprise-Speicher funktionieren Dokumentberechtigungen anders als im alten Workfront-Speicher. Dokumente übernehmen Berechtigungen aus dem Projekt, der Aufgabe oder dem Problem, mit dem bzw. dem sie verknüpft sind.
+>Im Adobe Cloud-Speicher funktionieren Dokumentberechtigungen anders als im alten Workfront-Speicher. Dokumente übernehmen Berechtigungen aus dem Projekt, der Aufgabe oder dem Problem, mit dem bzw. dem sie verknüpft sind.
 
 
 ### Funktionsweise von Dokumentberechtigungen

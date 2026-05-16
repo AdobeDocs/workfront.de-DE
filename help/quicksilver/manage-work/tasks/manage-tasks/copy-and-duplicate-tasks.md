@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: daf89062-cf58-4c39-83ff-727d969a9630
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f2a4777dfad827f4fa76f82fce9eece7a59d0278
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '1781'
 ht-degree: 3%
@@ -95,7 +95,7 @@ Beachten Sie beim Kopieren einer Aufgabe Folgendes:
 * Sie haben während des Kopiervorgangs die Möglichkeit, einige mit der Aufgabe verknüpfte Elemente in die kopierte Aufgabe zu kopieren. Standardmäßig werden die folgenden Objekte jedoch nicht an die kopierte Aufgabe übertragen:
    * Probleme
    * Protokollierte Stunden
-   * &#x200B;<!--not sure about this, enable only if requested by users and verified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. --> der Benutzerkommentare
+   * <!--not sure about this, enable only if requested by users and verified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. --> der Benutzerkommentare
 * Die folgenden Elemente werden standardmäßig zur kopierten Aufgabe verschoben:
 
    * Meilensteine werden auf die kopierte Aufgabe übertragen und aus der ursprünglichen Aufgabe entfernt.
@@ -103,7 +103,7 @@ Beachten Sie beim Kopieren einer Aufgabe Folgendes:
 
 * Sie können jeweils nur eine Aufgabe kopieren oder mehrere Aufgaben gleichzeitig kopieren, wenn Sie Aufgaben in einer Liste bearbeiten.
 
-* Wenn Ihr Unternehmen sowohl ältere Workfront- als auch Adobe-Unternehmensspeicher verwendet, können Sie keine Aufgaben zwischen Projekten kopieren, die unterschiedliche Speichertypen verwenden.
+* Wenn Ihr Unternehmen sowohl den alten Workfront- als auch den Adobe-Cloud-Speicher verwendet, können Sie keine Aufgaben zwischen Projekten kopieren, die unterschiedliche Speichertypen verwenden.
 
   Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und zugehörige Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -128,7 +128,7 @@ Beachten Sie beim Kopieren einer Aufgabe Folgendes:
 
    * Klicken Sie oben **der Aufgabenliste** das Menü „Mehr“ und dann auf **Kopieren nach**.
    * Klicken Sie mit der rechten Maustaste auf die ausgewählten Aufgaben und dann auf **Kopieren nach**.
-   * Klicken Sie bei der Auswahl einer Aufgabe auf das **Mehr** Menü ![Mehr Symbol in &#x200B;](assets/more-icon-task-list.png) Aufgabenliste neben dem Aufgabennamen in der Liste und klicken Sie dann auf **Kopieren nach**.
+   * Klicken Sie bei der Auswahl einer Aufgabe auf das **Mehr** Menü ![Mehr Symbol in ](assets/more-icon-task-list.png) Aufgabenliste neben dem Aufgabennamen in der Liste und klicken Sie dann auf **Kopieren nach**.
 
    ![Aufgabe in Liste kopieren](assets/copy-task-in-list-nwe-350x131.png)
 

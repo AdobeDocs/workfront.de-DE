@@ -2,11 +2,11 @@
 product-area: documents
 navigation-topic: manage-documents
 title: Verwalten von Dokumentversionen
-description: You can manage multiple versions of a document in Workfront.
+description: Sie können mehrere Versionen eines Dokuments in Workfront verwalten.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 477153e4-847b-46ec-8107-72a7399c3767
-source-git-commit: 90eb99fa46e706a53427f995d484e2fb42e9c293
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 8%
@@ -17,7 +17,7 @@ ht-degree: 8%
 
 <!-- Audited: 5/2025 -->
 
-You can manage multiple versions of a document in Workfront.
+Sie können mehrere Versionen eines Dokuments in Workfront verwalten.
 
 ## Zugriffsanforderungen
 
@@ -30,7 +30,7 @@ You can manage multiple versions of a document in Workfront.
   <tr> 
    <td role="rowheader">Adobe Workfront-Paket</td> 
    <td> <p>Jedes Workfront-Paket zum Verwalten von Dokumenten unter Verwendung des alten Workfront-Speichers</p>
-<p>Beliebiges Workflow-Paket zum Verwalten von Dokumenten mit Adobe Enterprise Storage</p></td> 
+<p>Beliebiges Workflow-Paket zum Verwalten von Dokumenten mit dem Adobe Cloud-Speicher</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen</td> 
@@ -45,7 +45,7 @@ You can manage multiple versions of a document in Workfront.
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>View access to the Document</p></td> 
+   <td> <p>Anzeigen des Zugriffs auf das Dokument</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,51 +56,51 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 ## Voraussetzungen
 
-* This article assumes that the document has multiple versions.
+* In diesem Artikel wird davon ausgegangen, dass das Dokument mehrere Versionen aufweist.
 
-  If you need information about uploading new versions of a document to Workfront, see [Upload a new version of a document](../../documents/managing-documents/upload-new-document-version.md).
+  Informationen zum Hochladen neuer Versionen eines Dokuments in Workfront finden Sie unter [Hochladen einer neuen Version eines Dokuments](../../documents/managing-documents/upload-new-document-version.md).
 
-## View a list of all versions of a document
-
-{{step1-to-documents}}
-
-1. On the **Documents** page, select a document in the list.
-
-1. In the upper-right corner of the page, click the **Open Summary** icon ![Open Summary icon](assets/qs-summary-in-new-toolbar-small.png). The **Document Summary** side panel opens.
-
-1. Scroll down to the **Versions** section to view all the document versions.
-
-## View and manage details for a previous document version
-
-{{step1-to-documents}}
-
-1. Hover over the document, then click **Document Details**.
-
-1. Near the top of the **Document Details** page, click the drop-down menu next to the name, then click the name of the version you want to view and manage.
-
-   ![Version drop-down on the Document Details page](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
-
-   Along with viewing the version&#39;s details, you can make changes to the version, such as its name, metadata, and proofing settings (if it&#39;s a document proof).
-
-## Download a single document version
-
-{{step1-to-documents}}
-
-1. On the **Documents** page, select a document in the list.
-
-1. In the upper-right corner of the page, click the **Open Summary** icon ![Open Summary icon](assets/qs-summary-in-new-toolbar-small.png). The **Document Summary** side panel opens.
-
-1. In the **Versions** section, click the click the **More** menu ![More menu](assets/more-icon.png) to the right of the version, then click **Download** in the drop-down list that appears.
-
-   ![Download a single document](assets/more-versions-350x143.png)
-
-## Download all versions of a document
+## Anzeigen einer Liste aller Versionen eines Dokuments
 
 {{step1-to-documents}}
 
 1. Wählen Sie auf **Seite** Dokumente“ ein Dokument in der Liste aus.
 
-1. Klicken Sie oben rechts auf der Seite auf das Symbol **Zusammenfassung öffnen** (![&#x200B; Zusammenfassung öffnen](assets/qs-summary-in-new-toolbar-small.png). Das Seitenbedienfeld **Dokumentzusammenfassung** wird geöffnet.
+1. Klicken Sie oben rechts auf der Seite auf das Symbol **Zusammenfassung öffnen** (![ Zusammenfassung öffnen](assets/qs-summary-in-new-toolbar-small.png). Das Seitenbedienfeld **Dokumentzusammenfassung** wird geöffnet.
+
+1. Scrollen Sie nach unten zum Abschnitt **Versionen**, um alle Dokumentversionen anzuzeigen.
+
+## Anzeigen und Verwalten von Details für eine frühere Dokumentversion
+
+{{step1-to-documents}}
+
+1. Bewegen Sie den Mauszeiger über das Dokument und klicken Sie dann auf **Dokumentdetails**.
+
+1. Klicken Sie oben auf der Seite **Dokumentdetails** auf das Dropdown-Menü neben dem Namen und dann auf den Namen der Version, die Sie anzeigen und verwalten möchten.
+
+   ![Dropdown-Liste „Version“ auf der Seite „Dokumentdetails“](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+
+   Neben der Anzeige der Versionsdetails können Sie Änderungen an der Version vornehmen, z. B. an ihrem Namen, ihren Metadaten und den Proofing-Einstellungen (wenn es sich um einen Dokument-Korrekturabzug handelt).
+
+## Einzelne Dokumentversion herunterladen
+
+{{step1-to-documents}}
+
+1. Wählen Sie auf **Seite** Dokumente“ ein Dokument in der Liste aus.
+
+1. Klicken Sie oben rechts auf der Seite auf das Symbol **Zusammenfassung öffnen** (![ Zusammenfassung öffnen](assets/qs-summary-in-new-toolbar-small.png). Das Seitenbedienfeld **Dokumentzusammenfassung** wird geöffnet.
+
+1. Klicken Sie **Abschnitt** Versionen“ auf das Menü **Mehr** ![Mehr](assets/more-icon.png) rechts von der Version und klicken Sie dann in der angezeigten Dropdown-Liste auf **Herunterladen**.
+
+   ![Ein einzelnes Dokument herunterladen](assets/more-versions-350x143.png)
+
+## Herunterladen aller Versionen eines Dokuments
+
+{{step1-to-documents}}
+
+1. Wählen Sie auf **Seite** Dokumente“ ein Dokument in der Liste aus.
+
+1. Klicken Sie oben rechts auf der Seite auf das Symbol **Zusammenfassung öffnen** (![ Zusammenfassung öffnen](assets/qs-summary-in-new-toolbar-small.png). Das Seitenbedienfeld **Dokumentzusammenfassung** wird geöffnet.
 
 1. Scrollen Sie nach unten zum Abschnitt **Versionen** und klicken Sie dann auf **Alle herunterladen**.
 
@@ -128,7 +128,7 @@ Löschen einer Dokumentversion:
 
 1. Wählen Sie auf **Seite** Dokumente“ das Dokument aus der Liste aus.
 
-1. Klicken Sie oben rechts auf der Seite auf das Symbol **Zusammenfassung öffnen** (![&#x200B; Zusammenfassung öffnen](assets/qs-summary-in-new-toolbar-small.png). Das Seitenbedienfeld **Dokumentzusammenfassung** wird geöffnet.
+1. Klicken Sie oben rechts auf der Seite auf das Symbol **Zusammenfassung öffnen** (![ Zusammenfassung öffnen](assets/qs-summary-in-new-toolbar-small.png). Das Seitenbedienfeld **Dokumentzusammenfassung** wird geöffnet.
 
 1. Scrollen Sie nach unten zum Abschnitt **Versionen**, um alle Dokumentversionen anzuzeigen.
 1. Klicken Sie **Abschnitt** Versionen“ auf das Menü **Mehr** ![Mehr](assets/more-icon.png) rechts von der Version und klicken Sie dann in der angezeigten Dropdown-Liste auf **Löschen**.

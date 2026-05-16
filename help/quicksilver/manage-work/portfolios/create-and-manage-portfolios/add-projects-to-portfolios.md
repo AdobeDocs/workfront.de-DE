@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 02b3d67ad0f4faf9fda1729f5f826dbb657e7a81
+source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
-source-wordcount: '637'
+source-wordcount: '645'
 ht-degree: 3%
 
 ---
@@ -121,7 +121,7 @@ Old:
 
    >[!TIP]
    >
-   >Sie können kein Projekt hinzufügen, wenn Sie die Liste der Projekte in der Ansicht &quot;[!UICONTROL &quot; &#x200B;].
+   >Sie können kein Projekt hinzufügen, wenn Sie die Liste der Projekte in der Ansicht &quot;[!UICONTROL &quot; ].
 
    Wählen Sie aus den folgenden Optionen aus:
 
@@ -142,7 +142,7 @@ Old:
       <td> <p>Fügen Sie ein Projekt hinzu, das Sie zuvor aus [!DNL MS Project] exportiert und auf Ihrem Computer gespeichert haben. </p> <p>Weitere Informationen zum Erstellen eines neuen Projekts durch Importieren aus [!DNL Microsoft Project] finden Sie unter <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Projekt aus [!DNL Microsoft Project]</a> importieren.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL -Anforderungsprojekt]</td> 
+      <td role="rowheader">[!UICONTROL-Anforderungsprojekt]</td> 
       <td> <p>Fordern Sie die Genehmigung eines Projekts an.</p> <p>Informationen zum Anfordern von Projekten finden Sie unter <a href="../../../manage-work/projects/create-projects/request-project.md">Anfordern eines Projekts</a>. </p> </td> 
      </tr> 
      <tr> 
@@ -166,12 +166,12 @@ Old:
 
    >[!NOTE]
    >
-   >Wenn Ihr Unternehmen sowohl ältere Workfront- als auch Adobe Enterprise-Dokumentenspeicher verwendet, gibt es die folgenden Szenarien:
+   >Wenn Ihr Unternehmen sowohl den alten Workfront- als auch den Adobe-Cloud-Speicher für Dokumente verwendet, gibt es die folgenden Szenarien:
    >
    >
-   >* Wenn Sie ein Adobe-Speicherprojekt zu einem Workfront-Speicherportfolio hinzufügen und dem Portfolio keine Dokumente angehängt sind, wird das Portfolio in ein Adobe-Speicherportfolio konvertiert.
-   >* Wenn Sie ein Adobe-Speicherprojekt zu einem Workfront-Speicherportfolio hinzufügen und dem Portfolio Dokumente angehängt sind, bleibt der Speicher der Portfoliodokumente im Workfront-Speicher. Das alte Workfront-Speichersymbol ![Legacy-Workfront-Speichersymbol](assets/legacy-storage-project-icon.png) wird jedoch aus dem Portfolio entfernt.
-   >* Sie können kein Workfront-Speicherprojekt zu einem Adobe-Speicherportfolio hinzufügen.
+   >* Wenn Sie ein Adobe-Cloud-Speicherprojekt zu einem alten Workfront-Speicherportfolio hinzufügen und dem Portfolio keine Dokumente angehängt sind, wird das Portfolio in ein Adobe-Cloud-Speicherportfolio konvertiert.
+   >* Wenn Sie ein Adobe-Cloud-Speicherprojekt zu einem alten Workfront-Speicherportfolio hinzufügen und dem Portfolio Dokumente beigefügt sind, bleibt der Speicher für Portfoliodokumente im Workfront-Speicher. Das alte Workfront-Speichersymbol ![Legacy-Workfront-Speichersymbol](assets/legacy-storage-project-icon.png) wird jedoch aus dem Portfolio entfernt.
+   >* Sie können kein Legacy-Workfront-Speicherprojekt zu einem Adobe Cloud-Speicherportfolio hinzufügen.
    >
    >Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und verwandte Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
    >
