@@ -173,7 +173,7 @@ So verknüpfen Sie einen Ordner:
    >
    >Der Workfront-Administrator kann einen beliebigen Namen für diese Integration auswählen, sodass Experience Manager Assets möglicherweise nicht explizit erwähnt wird.
 
-1. Klicken Sie auf **** > **Dateien und Ordner**.
+1. Klicken Sie auf **&#x200B;**&#x200B;> **Dateien und Ordner**.
 
 1. Klicken Sie auf **Filter**-Symbol und wählen Sie dann im Abschnitt **Asset-Typ** die Option **Ordner**.
 
