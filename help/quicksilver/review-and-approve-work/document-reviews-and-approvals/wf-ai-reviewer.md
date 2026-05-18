@@ -12,7 +12,7 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 9e217d36d5aeb36761a9a433b84e73ac2b7a114b
 workflow-type: tm+mt
 source-wordcount: '789'
-ht-degree: 1%
+ht-degree: 4%
 
 ---
 
@@ -43,7 +43,7 @@ Weitere Informationen zur Unterzeichnung des Abkommens finden Sie unter [Unterze
 >[!CONTEXTUALHELP]
 >id="wf_document_approvals_ai_supported_files"
 >title="Nicht unterstützter Dateityp"
->abstract="Dieser Content Reviewer unterstützt den ausgewählten Dateityp nicht. Laden Sie einen unterstützten Dateityp hoch oder entfernen Sie den Content Reviewer, um die Anfrage zu senden."
+>abstract="Dieser Inhaltsprüfer unterstützt den ausgewählten Dateityp nicht. Laden Sie einen unterstützten Dateityp hoch oder entfernen Sie den Inhaltsprüfer, um die Anfrage zu senden."
 
 Der Content Reviewer kann die folgenden Dateitypen überprüfen:
 
