@@ -15,7 +15,7 @@ ht-degree: 15%
 
 ---
 
-# Benutzer einer Story auf dem Kanban[!UICONTROL Board ]
+# Benutzer einer Story auf dem Kanban[!UICONTROL Board &#x200B;]
 
 Sie können Benutzern direkt auf dem Kanban-Board Storys zuweisen.
 
@@ -45,7 +45,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 +++
 
-## Benutzer einer Story auf dem Kanban[!UICONTROL Board ]
+## Benutzer einer Story auf dem Kanban[!UICONTROL Board &#x200B;]
 
 {{step1-to-team}}
 

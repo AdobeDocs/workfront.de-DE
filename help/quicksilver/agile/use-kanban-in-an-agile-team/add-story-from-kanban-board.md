@@ -15,9 +15,9 @@ ht-degree: 17%
 
 ---
 
-# Stories und Probleme aus dem Kanban[!UICONTROL Board ]
+# Stories und Probleme aus dem Kanban[!UICONTROL Board &#x200B;]
 
-Sie können eine neue Story oder ein Problem schnell direkt über das Kanban[!UICONTROL Board ].
+Sie können eine neue Story oder ein Problem schnell direkt über das Kanban[!UICONTROL Board &#x200B;].
 
 ## Zugriffsanforderungen
 
