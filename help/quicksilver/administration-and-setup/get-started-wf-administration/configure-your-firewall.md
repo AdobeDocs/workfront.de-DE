@@ -25,7 +25,7 @@ ht-degree: 8%
 >
 >Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch keine Einführung in Admin Console erhalten haben. Da nun alle Organisationen in die Adobe Admin Console integriert wurden, müssen Sie diese Aktion über die Adobe Admin Console durchführen.
 >
->Informationen zum Konfigurieren Ihrer Zulassungsliste nach dem Onboarding Ihres Unternehmens für die Adobe Admin Console finden Sie unter [Domains dürfen für Adobe-Apps und -Services nicht verwendet werden](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
+>Informationen zum Konfigurieren Ihrer Zulassungsliste nach dem Onboarding Ihres Unternehmens für die Adobe Admin Console finden Sie unter [Domains dürfen für Adobe-Apps und -Services nicht verwendet werden](https://helpx.adobe.com/de/enterprise/kb/network-endpoints.html).
 >
 >Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen in Adobe Admin Console integriert wurde, unterscheiden, finden Sie unter [Administrationsunterschiede zwischen Adobe Workfront und Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
