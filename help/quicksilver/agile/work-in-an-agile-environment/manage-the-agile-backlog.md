@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1337'
 ht-degree: 4%
 
 ---
@@ -54,7 +54,7 @@ Aufgaben oder Probleme können dem Team von überall in [!DNL Adobe Workfront] z
  </tbody> 
 </table>
 
-Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -183,7 +183,7 @@ So weisen Sie einem Agile-Team eine Aufgabe oder ein Problem zu:
 1. (Optional) Löschen Sie alle vorhandenen Zugewiesenen.
 1. Klicken Sie **[!UICONTROL Verantwortlichen hinzufügen]**.
 1. Geben Sie den Namen des Agile-Teams ein, das der Aufgabe oder dem Problem zugewiesen werden soll, und klicken Sie dann auf den Team-Namen, wenn er in der Dropdown-Liste angezeigt wird.
-1. Klicken Sie **[!UICONTROL Änderungen speichern]**.
+1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
 Die Aufgabe oder das Problem ist jetzt im Team-Rückstand verfügbar.
 
 ## Storys in den oder aus dem Auftragsbestand verschieben

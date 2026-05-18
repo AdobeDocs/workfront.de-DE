@@ -8,9 +8,9 @@ feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1532'
 ht-degree: 5%
 
 ---
@@ -62,12 +62,12 @@ Um verbundene Karten mit Workfront zu synchronisieren, klicken Sie auf das Menü
   <tr>
    <td role="rowheader">Objektberechtigungen</td>
    <td><p>Berechtigung zum Anzeigen oder Erhöhen der Berechtigungen für die Aufgabe oder das Problem von Workfront</p>
-</td>
+   </td>
   </tr>
  </tbody> 
 </table>
 
-Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
