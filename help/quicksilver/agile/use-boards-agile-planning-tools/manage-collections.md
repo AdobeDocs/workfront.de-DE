@@ -9,10 +9,10 @@ feature: Agile
 exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 5%
+source-wordcount: '929'
+ht-degree: 4%
 
 ---
 
@@ -50,7 +50,7 @@ Im Dashboard werden Arbeitsabläufe zusammen mit einzelnen Boards angezeigt, auf
  </tbody> 
 </table>
 
-Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,7 +58,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 {{step1-to-boards}}
 
-1. Klicken Sie **&#x200B;**&#x200B;Dashboard im Bereich [!UICONTROL Arbeitsabläufe] auf „Arbeitsablauf hinzufügen“.
+1. Klicken Sie **** Dashboard im Bereich [!UICONTROL Arbeitsabläufe] auf „Arbeitsablauf hinzufügen“.
 1. Geben Sie einen Namen ein, der ersetzt werden soll **[!UICONTROL Nicht benannter Arbeitsablauf]** und drücken Sie die Eingabetaste.
 
    Sie können dem Arbeitsablauf Pinnwände hinzufügen oder auf &quot;[!UICONTROL **Pinnwände“**], um zum Dashboard zurückzukehren.
@@ -72,7 +72,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 | Vorlage | Beschreibung |
 |---------|----------|
 | Einfache Pinnwand | Auf der Pinnwand werden drei Standardspalten bereitgestellt. Sie können neue Spalten hinzufügen und die Standardspalten umbenennen oder löschen. <p>Es werden keine Spaltenrichtlinien angewendet. |
-| Kanban-Board | Auf der Pinnwand werden die folgenden Spalten bereitgestellt: Auftragsbestand, Neu, In Bearbeitung, Abgeschlossen und Halten. Sie können neue Spalten hinzufügen und die Standardspalten umbenennen oder löschen.<p>Um den Rückstand zu verwenden, müssen Sie Filter für die Aufnahmespalte einrichten. Weitere Informationen finden Sie unter [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Um die Standardrichtlinien für jede Spalte zu überprüfen, klicken Sie auf das Menü [!UICONTROL **Mehr** &#x200B;] in einer Spalte und wählen Sie [!UICONTROL **Bearbeiten**] aus. Sie können jede dieser voreingestellten Richtlinien ändern. Weitere Informationen finden Sie unter [Pinnwand-Spalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
+| Kanban-Board | Auf der Pinnwand werden die folgenden Spalten bereitgestellt: Auftragsbestand, Neu, In Bearbeitung, Abgeschlossen und Halten. Sie können neue Spalten hinzufügen und die Standardspalten umbenennen oder löschen.<p>Um den Rückstand zu verwenden, müssen Sie Filter für die Aufnahmespalte einrichten. Weitere Informationen finden Sie unter [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>Um die Standardrichtlinien für jede Spalte zu überprüfen, klicken Sie auf das Menü [!UICONTROL **Mehr** ] in einer Spalte und wählen Sie [!UICONTROL **Bearbeiten**] aus. Sie können jede dieser voreingestellten Richtlinien ändern. Weitere Informationen finden Sie unter [Pinnwand-Spalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 | Retrospektiv-Board | Die folgenden Spalten sind auf der Pinnwand vorhanden: Was ist gut gelaufen? Was könnte verbessert werden? Wen sollen wir feiern? Was können wir tun, um schneller voranzukommen? Sie können neue Spalten hinzufügen und die Standardspalten umbenennen oder löschen. <p>Es werden keine Spaltenrichtlinien angewendet. |
 | Iterationsprozess | Dies ist die Pinnwand zum Definieren und Ausführen einer Iteration. <p>Auf der Pinnwand werden die folgenden Spalten bereitgestellt: Auftragsbestand, Neu, In Bearbeitung, Abgeschlossen und Halten. Sie können der Pinnwand keine Spalten hinzufügen. <p>Um die Standardrichtlinien für jede Spalte zu überprüfen, klicken Sie auf das Menü [!UICONTROL **Mehr**] in einer Spalte und wählen Sie [!UICONTROL **Bearbeiten**] aus. Sie können jede dieser voreingestellten Richtlinien ändern. Weitere Informationen finden Sie unter [Pinnwand-Spalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 

@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '2933'
+source-wordcount: '2939'
 ht-degree: 2%
 
 ---
@@ -68,6 +68,7 @@ Im Folgenden finden Sie einige Typen von Workfront-Objektlisten, die das erweite
 | Liste der Momentaufnahmen | Projekt > Momentaufnahmen |
 | Liste der Ressourcen für die Abrechnung | Projekt > Ressource für Abrechnung |
 | Neue erweiterte Zuweisungen für eine Aufgabe | Aufgabe > Arbeitsaufträge > Erweitert |
+| Pinnwand-Administratoransicht | Pinnwände > Admin-Ansicht |
 | Dokumente zum Adobe Cloud-Speicher | Projekt, Aufgabe, Problem, Portfolio, Programm, Vorlage, Vorlagenaufgabe > Dokumente |
 
 ## Hinzufügen von Elementen zu einer erweiterten Liste
@@ -193,7 +194,7 @@ So fügen Sie Spalten hinzu und entfernen sie:
 >
 >Nicht alle erweiterten Listen enthalten alle in diesem Abschnitt beschriebenen Elemente.
 
-1. Klicken Sie auf **Symbol „Zeilenhöhe** ![&#x200B; (Symbol „Zeilenhöhe](assets/row-height-icon.png) in einer erweiterten Liste.
+1. Klicken Sie auf **Symbol „Zeilenhöhe** ![ (Symbol „Zeilenhöhe](assets/row-height-icon.png) in einer erweiterten Liste.
 
    Dadurch wird die vertikale Länge einer Zeile aktualisiert. Wählen Sie aus den folgenden Optionen:
    * Kurz
@@ -318,7 +319,7 @@ Mit der bedingten Formatierung können Sie wichtige Informationen in der Ansicht
    >
    >Nur in der erweiterten Liste sichtbare Felder sind für die bedingte Formatierung verfügbar.
 
-1. (Optional) Anstatt einen Feldwert hinzuzufügen, klicken Sie auf das Symbol **Mit einem anderen Feld vergleichen** (![&#x200B; mit einem anderen Feld vergleichen](assets/compare-to-another-field-icon.png) und wählen Sie ein Feld aus, dessen Wert Sie mit dem Wert des ausgewählten Felds vergleichen möchten. Beispielsweise können Sie die Felder „Betreff“ und „Beschreibung“ in Anfrageelementen vergleichen.
+1. (Optional) Anstatt einen Feldwert hinzuzufügen, klicken Sie auf das Symbol **Mit einem anderen Feld vergleichen** (![ mit einem anderen Feld vergleichen](assets/compare-to-another-field-icon.png) und wählen Sie ein Feld aus, dessen Wert Sie mit dem Wert des ausgewählten Felds vergleichen möchten. Beispielsweise können Sie die Felder „Betreff“ und „Beschreibung“ in Anfrageelementen vergleichen.
 
    >[!TIP]
    >
@@ -333,7 +334,7 @@ Mit der bedingten Formatierung können Sie wichtige Informationen in der Ansicht
 1. Klicken Sie auf den **OR**-Connector zwischen Bedingungen, um zu **AND** zu wechseln und anzugeben, dass mehrere Bedingungen gleichzeitig erfüllt sein müssen. **Oder** ist der Standard-Connector.
 1. Wählen Sie in **Zeile** Format“ ein Feld aus, um anzugeben, welche Spalte formatiert werden soll.
 1. (Optional) Klicken Sie auf das Symbol **Farbkreis** Symbol ![Farbformat-Symbol](assets/color-format-icon.png) neben dem ausgewählten Feld, um es zu erweitern und eine andere Farbe im Bereich **Zellenfüllung** auszuwählen, um die Farbe des Hintergrunds in einer Zelle zu ändern, oder wählen Sie eine Farbe aus dem Bereich **Textfarbe** aus, um die Farbe des Textes in einer Zelle zu ändern.
-1. Klicken Sie auf das Symbol **Textformat** ![&#x200B; (](assets/text-format-icon.png)) und wählen Sie eine der folgenden Optionen aus, um den Text in einer Zelle zu formatieren:
+1. Klicken Sie auf das Symbol **Textformat** ![ (](assets/text-format-icon.png)) und wählen Sie eine der folgenden Optionen aus, um den Text in einer Zelle zu formatieren:
    * Fett
    * Kursiv
 

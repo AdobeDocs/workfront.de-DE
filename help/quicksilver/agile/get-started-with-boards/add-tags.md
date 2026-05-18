@@ -8,10 +8,10 @@ feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 11%
+source-wordcount: '541'
+ht-degree: 10%
 
 ---
 
@@ -45,7 +45,7 @@ Sie können Karten Tags hinzufügen, um ihre Ähnlichkeit optisch darzustellen. 
  </tbody> 
 </table>
 
-Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,7 +58,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
    ![Tag-Manager auswählen](assets/boards-tagmanager-350x189.png)
 
-1. Wählen [!UICONTROL &#x200B; Dialogfeld „Tag]Manager“ im Abschnitt [!UICONTROL **Pinnwand**]&#x200B;[!UICONTROL &#x200B; Tags] die Option „Tag hinzufügen“ aus.
+1. Wählen [!UICONTROL  Dialogfeld „Tag]Manager“ im Abschnitt [!UICONTROL **Pinnwand**][!UICONTROL  Tags] die Option „Tag hinzufügen“ aus.
 1. Geben Sie den Tag-Namen in das hervorgehobene Feld ein und wählen Sie dann aus dem Dropdown-Menü eine Farbe für dieses Tag aus. Das Tag wird automatisch gespeichert.
 1. (Bedingt) Wiederholen Sie die Schritte 4 bis 5, um zusätzliche Tags zu erstellen.
 1. Klicken **[!UICONTROL oben]** auf „Fertig“.
@@ -82,7 +82,7 @@ Workstream-Tags stehen allen Boards in einem Workstream zur Verfügung.
 
    Klicken Sie auf [!UICONTROL **Konfigurieren**], um das Bedienfeld [!UICONTROL Arbeitsablauf konfigurieren] zu öffnen. Klicken Sie dann auf **[!UICONTROL Tag-Manager]**.
 
-1. Wählen Sie im [!UICONTROL Tag]Manager“ im Abschnitt [!UICONTROL **-Tags die Option**] Tag hinzufügen“.
+1. Wählen Sie im [!UICONTROL Tag]Manager“ im Abschnitt **]-Tags die Option[!UICONTROL ** Tag hinzufügen“.
 1. Geben Sie den Tag-Namen in das hervorgehobene Feld ein und wählen Sie dann aus dem Dropdown-Menü eine Farbe für dieses Tag aus. Das Tag wird automatisch gespeichert.
 1. (Bedingt) Wiederholen Sie die Schritte 4 bis 5, um zusätzliche Tags zu erstellen.
 1. Klicken **[!UICONTROL oben]** auf „Fertig“.

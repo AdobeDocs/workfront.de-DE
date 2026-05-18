@@ -8,10 +8,10 @@ feature: Agile
 exl-id: d4eec3c5-8cea-467f-b1b4-3f9fab57b10f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 11%
+source-wordcount: '416'
+ht-degree: 10%
 
 ---
 
@@ -21,7 +21,7 @@ Sie können schnell eine neue Story oder ein Problem direkt über das Scrum-Boar
 
 >[!NOTE]
 >
->Die Einstellungen [!UICONTROL &#x200B; Arbeitselement &#x200B;]Geplantes Startdatum) und [!UICONTROL Geplantes Abschlussdatum] werden von einer Einstellung auf der Seite [!UICONTROL Team bearbeiten] beeinflusst. Weitere Informationen finden Sie im Abschnitt [[!UICONTROL Konfigurieren], wie Datumsangaben beim Hinzufügen von Arbeitselementen zu einer Iteration angewendet werden](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) im Artikel [Konfigurieren von Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+>Die Einstellungen [!UICONTROL  Arbeitselement ]Geplantes Startdatum) und [!UICONTROL Geplantes Abschlussdatum] werden von einer Einstellung auf der Seite [!UICONTROL Team bearbeiten] beeinflusst. Weitere Informationen finden Sie im Abschnitt [[!UICONTROL Konfigurieren], wie Datumsangaben beim Hinzufügen von Arbeitselementen zu einer Iteration angewendet werden](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) im Artikel [Konfigurieren von Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Zugriffsanforderungen
 
@@ -48,7 +48,7 @@ Sie benötigen die folgenden Zugriffsrechte, um die Schritte in diesem Artikel a
  </tbody> 
 </table>
 
-Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

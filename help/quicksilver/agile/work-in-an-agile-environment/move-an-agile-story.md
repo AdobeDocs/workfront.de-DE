@@ -8,10 +8,10 @@ feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 12%
+source-wordcount: '343'
+ht-degree: 11%
 
 ---
 
@@ -45,7 +45,7 @@ Sie können eine Agile-Story entweder in eine andere Iteration (für Scrum-Teams
  </tbody> 
 </table>
 
-Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -83,6 +83,6 @@ Sie können eine Story für Ihr Scrum-Team in eine andere Iteration verschieben,
 
    >[!NOTE]
    >
-   >Die Einstellungen [!UICONTROL &#x200B; Arbeitselement &#x200B;]Geplantes Startdatum) und [!UICONTROL Geplantes Abschlussdatum] werden von einer Einstellung auf der Seite [!UICONTROL Team bearbeiten] beeinflusst. Weitere Informationen finden Sie im Abschnitt [[!UICONTROL Konfigurieren], wie Datumsangaben beim Hinzufügen von Arbeitselementen zu einer Iteration angewendet werden](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) im Artikel [Konfigurieren von Scrum](../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+   >Die Einstellungen [!UICONTROL  Arbeitselement ]Geplantes Startdatum) und [!UICONTROL Geplantes Abschlussdatum] werden von einer Einstellung auf der Seite [!UICONTROL Team bearbeiten] beeinflusst. Weitere Informationen finden Sie im Abschnitt [[!UICONTROL Konfigurieren], wie Datumsangaben beim Hinzufügen von Arbeitselementen zu einer Iteration angewendet werden](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) im Artikel [Konfigurieren von Scrum](../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 1. Klicken Sie **[!UICONTROL Verschieben]**.

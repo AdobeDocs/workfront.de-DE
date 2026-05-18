@@ -8,10 +8,10 @@ feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 28%
+source-wordcount: '169'
+ht-degree: 25%
 
 ---
 
@@ -47,7 +47,7 @@ Wenn Sie eine Iteration löschen, werden alle Storys der Iteration in den Rücks
  </tbody> 
 </table>
 
-Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

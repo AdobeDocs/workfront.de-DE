@@ -8,10 +8,10 @@ feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 13%
+source-wordcount: '378'
+ht-degree: 9%
 
 ---
 
@@ -49,7 +49,7 @@ Wenn Sie eine Story-Kachel auf dem [!UICONTROL Kanban]-Board anzeigen, sind die 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Die [!UICONTROL Prozent abgeschlossen] für jede Story und jedes Problem.<br>[!UICONTROL Percent Complete] für die Iteration wird basierend auf [!UICONTROL Percent Complete] für jede Story berechnet.<br></p> <p>Beim Aktualisieren von [!UICONTROL Prozent abgeschlossen] für eine Story oder ein Problem können Sie eine beliebige Zahl zwischen 0 und 100 auswählen.</p> </td> 
+   <td> <p>Der [!UICONTROL Prozent abgeschlossen] für jede Story und jedes Problem.<br>[!UICONTROL Der Prozentsatz abgeschlossen] für die Iteration wird auf der Grundlage des [!UICONTROL Prozent abgeschlossen] für jede Story berechnet.<br></p> <p>Beim Aktualisieren von [!UICONTROL Prozent abgeschlossen] für eine Story oder ein Problem können Sie eine beliebige Zahl zwischen 0 und 100 auswählen.</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -93,7 +93,7 @@ Wenn Sie eine Story-Kachel auf dem [!UICONTROL Kanban]-Board anzeigen, sind die 
  </tbody> 
 </table>
 
-Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -103,7 +103,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Symbol Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Kanban-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
-1. Zum Kanban[!UICONTROL Board &#x200B;].
+1. Zum Kanban[!UICONTROL Board ].
 1. Erweitern Sie die Kachel Story , um alle mit der Story verbundenen Felder anzuzeigen.
 
    ![Story-Karte](assets/story-expanded-on-kanban-board-2021-350x405.png)

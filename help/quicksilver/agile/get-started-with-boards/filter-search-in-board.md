@@ -8,10 +8,10 @@ feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 6%
+source-wordcount: '668'
+ht-degree: 5%
 
 ---
 
@@ -56,7 +56,7 @@ Wenn Filter angewendet werden, wird eine Anzeige auf der Pinnwand angezeigt ![Fi
  </tbody> 
 </table>
 
-Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -88,7 +88,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 ## Pinnwand nach Fälligkeitsdatum filtern
 
 1. Rufen Sie die Pinnwand auf.
-1. Klicken Sie [!UICONTROL **Filter**] [!UICONTROL , erweitern Sie den &#x200B;] „Fälligkeitsdatum“ und wählen Sie die gewünschten Datumsoptionen aus.
+1. Klicken Sie [!UICONTROL **Filter**] [!UICONTROL , erweitern Sie den ] „Fälligkeitsdatum“ und wählen Sie die gewünschten Datumsoptionen aus.
 
    Nur Karten in den ausgewählten Datumsbereichen werden angezeigt.
 
@@ -138,7 +138,7 @@ Wenn Sie eine Option zum Sortieren nach auswählen, werden alle Spalten sortiert
 
    Der Pfeil auf dem Sortierungssymbol gibt an, ob die Spalten in auf- oder absteigender Reihenfolge sortiert sind.
 
-   Wenn eine andere Sortierung als die Standardsortierung angewendet wird, wird ein Indikator auf dem Sortierungssymbol (Sortierung ![) &#x200B;](assets/sort-applied-boards.png).
+   Wenn eine andere Sortierung als die Standardsortierung angewendet wird, wird ein Indikator auf dem Sortierungssymbol (Sortierung ![) ](assets/sort-applied-boards.png).
 
    ![Sortieren nach Spalten auf einer Pinnwand](assets/sort-by-columns-in-board.png)
 

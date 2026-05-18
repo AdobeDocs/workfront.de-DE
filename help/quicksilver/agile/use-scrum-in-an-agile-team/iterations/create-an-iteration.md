@@ -2,16 +2,16 @@
 product-area: agile-and-teams
 navigation-topic: iterations
 title: Erstellen einer Iteration
-description: Iterationen sind eine Schlüsselkomponente für Scrum Agile-Teams bei der Planung der Arbeitskapazität. [!DNL Adobe Workfront] ermöglicht es Agile-Teams, ihre Arbeit zu verwalten, indem sie mehrere Iterationen erstellen, um Team-Anforderungen zu erfüllen.
+description: Iterationen sind eine wichtige Komponente für Scrum-Agile-Teams bei der Planung der Arbeitskapazität.  [!DNL Adobe Workfront] ermöglicht es Scrum-Agile-Teams, ihre Arbeit zu verwalten, indem sie mehrere Iterationen erstellen, um Team-Anforderungen zu erfüllen.
 author: Courtney
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 5%
+source-wordcount: '1025'
+ht-degree: 4%
 
 ---
 
@@ -41,7 +41,7 @@ Iterationen sind eine Schlüsselkomponente für Scrum Agile-Teams bei der Planun
  </tbody> 
 </table>
 
-Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -81,11 +81,11 @@ Sie können der Liste eine Iteration hinzufügen, um schnell eine Iteration zu e
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Kapazität]</strong></td> 
-      <td> Geben Sie die Kapazität für die Iteration an. Dies ist die Anzahl der Punkte oder Stunden, die Ihr Team in der Iteration erreichen kann. Die eingegebene Zahl muss größer oder gleich der Anzahl der Punkte oder Stunden ab der Summe aller Storys in der Iteration sein.<br>[!DNL Workfront] füllt dieses Feld standardmäßig mit 50 Kapazitäten aus. </td> 
+      <td> Geben Sie die Kapazität für die Iteration an. Dies ist die Anzahl der Punkte oder Stunden, die Ihr Team in der Iteration erreichen kann. Die eingegebene Zahl muss größer oder gleich der Anzahl der Punkte oder Stunden ab der Summe aller Storys in der Iteration sein.<br>[!DNL Workfront] Füllen Sie dieses Feld standardmäßig mit 50 Kapazität vorab aus. </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL focus]</strong></td> 
-      <td>Geben Sie den Fokusprozentsatz des Teams an. Wenn sich alle Mitglieder des Teams vollständig auf diese Iteration konzentrieren, würde der Fokus auf 100 % liegen.<br>[!DNL Workfront] füllt dieses Feld standardmäßig mit 100 % aus. </td> 
+      <td>Geben Sie den Fokusprozentsatz des Teams an. Wenn sich alle Mitglieder des Teams vollständig auf diese Iteration konzentrieren, würde der Fokus auf 100 % liegen.<br>[!DNL Workfront] Dieses Feld wird standardmäßig mit 100 % vorausgefüllt. </td> 
      </tr> 
     </tbody> 
    </table>
@@ -102,7 +102,7 @@ Verwenden Sie die Funktion [!UICONTROL Wiederholung planen], um eine Iteration m
 
 1. Wählen **[!UICONTROL im]** Bedienfeld „Auftragsbestand“ aus.
 
-1. Wählen Sie auf der Registerkarte **&#x200B;**&#x200B;oder **Probleme** die Arbeitselemente aus, die Sie der Iteration hinzufügen möchten, und klicken Sie dann auf **[!UICONTROL Iteration planen]**.
+1. Wählen Sie auf der Registerkarte **** oder **Probleme** die Arbeitselemente aus, die Sie der Iteration hinzufügen möchten, und klicken Sie dann auf **[!UICONTROL Iteration planen]**.
 
 >[!NOTE]
 >
@@ -129,11 +129,11 @@ Verwenden Sie die Funktion [!UICONTROL Wiederholung planen], um eine Iteration m
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL focus]</strong></td> 
-      <td>Geben Sie den Fokusprozentsatz des Teams an. Wenn sich alle Mitglieder des Teams vollständig auf diese Iteration konzentrieren, würde der Fokus auf 100 % liegen.<br>[!DNL Workfront] füllt dieses Feld vorab mit dem Durchschnittswert aus den vorherigen Iterationen Ihres Teams. Wenn dies die erste Iteration Ihres Teams ist, ist dieser Feldwert standardmäßig 0.</td> 
+      <td>Geben Sie den Fokusprozentsatz des Teams an. Wenn sich alle Mitglieder des Teams vollständig auf diese Iteration konzentrieren, würde der Fokus auf 100 % liegen.<br>[!DNL Workfront] Füllen Sie dieses Feld vorab mit dem Durchschnittswert aus den vorherigen Iterationen Ihres Teams aus. Wenn dies die erste Iteration Ihres Teams ist, ist dieser Feldwert standardmäßig 0.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><br><strong>[!UICONTROL Kapazität]</strong></td> 
-      <td> Geben Sie die Kapazität für die Iteration an. Dies ist die Anzahl der Punkte oder Stunden, die Ihr Team in der Iteration erreichen kann. Die eingegebene Zahl muss größer oder gleich der Anzahl der Punkte oder Stunden ab der Summe aller Storys in der Iteration sein.<br>[!DNL Workfront] füllt dieses Feld vorab mit dem Durchschnittswert aus den vorherigen Iterationen Ihres Teams. Wenn dies die erste Iteration Ihres Teams ist, ist dieser Feldwert standardmäßig 0.</td> 
+      <td> Geben Sie die Kapazität für die Iteration an. Dies ist die Anzahl der Punkte oder Stunden, die Ihr Team in der Iteration erreichen kann. Die eingegebene Zahl muss größer oder gleich der Anzahl der Punkte oder Stunden ab der Summe aller Storys in der Iteration sein.<br>[!DNL Workfront] Füllen Sie dieses Feld vorab mit dem Durchschnittswert aus den vorherigen Iterationen Ihres Teams aus. Wenn dies die erste Iteration Ihres Teams ist, ist dieser Feldwert standardmäßig 0.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><br><strong>[!UICONTROL Ziel]</strong></td> 
@@ -142,7 +142,7 @@ Verwenden Sie die Funktion [!UICONTROL Wiederholung planen], um eine Iteration m
     </tbody> 
    </table>
 
-1. Klicken Sie auf **[!UICONTROL Speichern].** Die Iteration wird erstellt.
+1. Klicken Sie **[!UICONTROL Speichern].** Die Iteration wird erstellt.
 
 ## Aufgaben oder Probleme zu einer vorhandenen Iteration auf der Registerkarte „Auftragsbestand“ hinzufügen
 
@@ -154,7 +154,7 @@ Verwenden Sie die Funktion [!UICONTROL Wiederholung planen], um eine Iteration m
 
    >[!NOTE]
    >
-   >  Wenn Sie Aufgaben zu einer Iteration hinzufügen, wird das Startdatum der Aufgabe wie unter [[!UICONTROL Erfahren Sie, wie &#x200B;] Startdaten einer Aufgabe berechnet werden, wenn sie zu einer Iteration hinzugefügt werden](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration) beschrieben berechnet.
+   >  Wenn Sie Aufgaben zu einer Iteration hinzufügen, wird das Startdatum der Aufgabe wie unter [[!UICONTROL Erfahren Sie, wie ] Startdaten einer Aufgabe berechnet werden, wenn sie zu einer Iteration hinzugefügt werden](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration) beschrieben berechnet.
 
 
 ## Verstehen, wie Aufgabenstarttermine berechnet werden, wenn sie zu einer Iteration hinzugefügt werden {#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration}

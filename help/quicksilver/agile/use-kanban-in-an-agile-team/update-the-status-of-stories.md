@@ -8,16 +8,16 @@ feature: Agile
 exl-id: fd75ab8e-08c4-4643-bc67-aada5b5c005e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 21%
+source-wordcount: '214'
+ht-degree: 19%
 
 ---
 
-# Status der Storys auf dem Kanban[!UICONTROL Board &#x200B;] aktualisieren
+# Status der Storys auf dem Kanban[!UICONTROL Board ] aktualisieren
 
-Sie können den Status einer Story direkt über das Kanban[!UICONTROL Board &#x200B;], um den Fortschritt der Stories widerzuspiegeln.
+Sie können den Status einer Story direkt über das Kanban[!UICONTROL Board ], um den Fortschritt der Stories widerzuspiegeln.
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Sie können den Status einer Story direkt über das Kanban[!UICONTROL Board &#x2
  </tbody> 
 </table>
 
-Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -57,5 +57,5 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 1. Wechseln Sie zum [!UICONTROL Kanban]-Board, in dem Sie den Status einer Story aktualisieren möchten.
 1. Ziehen Sie eine Story aus einer Statusspalte auf das [!UICONTROL Kanban]Board und in eine andere Spalte.
-Eine Story verbleibt zwei Wochen lang in [!UICONTROL &#x200B; Spalte &#x200B;]Abgeschlossen“, nachdem sie hinzugefügt wurde.
+Eine Story verbleibt zwei Wochen lang in [!UICONTROL  Spalte ]Abgeschlossen“, nachdem sie hinzugefügt wurde.
    ![Story in eine andere Spalte verschieben](assets/agile-storyboard-progress.png)

@@ -8,14 +8,14 @@ feature: Agile
 exl-id: e19a007d-737c-42d4-aa69-771d8a9e9fd8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 8%
+source-wordcount: '469'
+ht-degree: 6%
 
 ---
 
-# Flags auf Storys auf dem Kanban[!UICONTROL Board &#x200B;]
+# Flags auf Storys auf dem Kanban[!UICONTROL Board ]
 
 Auf der [!DNL Kanban] bieten Flags einen visuellen Hinweis darauf, wann eine Story bereit ist, zum nächsten Status zu wechseln. Dadurch können [!UICONTROL Kanban]-Teams beim Verschieben von Storys über Status hinweg einen „Pull“-Ansatz anstelle eines „Push“-Ansatzes verwenden.
 
@@ -50,11 +50,11 @@ Beachten Sie Folgendes, wenn Sie -Flags für Storys verwenden:
  </tbody> 
 </table>
 
-Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
-## Flags auf Storys auf dem Kanban[!UICONTROL Board &#x200B;]
+## Flags auf Storys auf dem Kanban[!UICONTROL Board ]
 
 So ändern Sie eine Markierung für eine Story:
 
@@ -74,10 +74,10 @@ Die Markierung ist standardmäßig auf **[!UICONTROL Auf Kurs]** für jede Story
      Dies ist die Standardmarkierung für jede Story auf dem Kanban-Board.
      ![kanban_flag_ontrack.png](assets/kanban-flag-ontrack.png)
 
-   * **[!UICONTROL Ist blockiert]:** Die Story kann nicht mit dem nächsten Status fortfahren. Wenn diese Markierung für eine Story gesetzt wird, zählt die Story nicht zum WIP-Limit. (Weitere Informationen zu Fertigstellungsbeschränkungen finden Sie im Artikel [Konfigurieren von &#x200B;](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)).
+   * **[!UICONTROL Ist blockiert]:** Die Story kann nicht mit dem nächsten Status fortfahren. Wenn diese Markierung für eine Story gesetzt wird, zählt die Story nicht zum WIP-Limit. (Weitere Informationen zu Fertigstellungsbeschränkungen finden Sie im Artikel [Konfigurieren von ](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)).
 
      ![kanban_flag_block.png](assets/kanban-flag-blocked.png)
 
-   * **[!UICONTROL Bereit zum &#x200B;]:** Die Story kann von einem anderen Teammitglied in den nächsten Status verschoben werden.
+   * **[!UICONTROL Bereit zum ]:** Die Story kann von einem anderen Teammitglied in den nächsten Status verschoben werden.
 
      ![kanban_flag_ready.png](assets/kanban-flag-ready.png)

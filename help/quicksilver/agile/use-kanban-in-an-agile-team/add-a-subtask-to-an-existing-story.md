@@ -8,10 +8,10 @@ feature: Agile
 exl-id: c6610616-80e5-4ded-9d23-63f15536e45c
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 16%
+source-wordcount: '305'
+ht-degree: 14%
 
 ---
 
@@ -24,7 +24,7 @@ Beachten Sie beim Erstellen von Unteraufgaben für vorhandene Storys Folgendes:
 * Sie können eine übergeordnete Story mit Teilaufgaben nach [!UICONTROL Abgeschlossen] verschieben, wodurch die übergeordnete Story auf 100 % und der [!UICONTROL Status] auf [!UICONTROL Abgeschlossen] aktualisiert wird. Teilaufgaben werden nicht aktualisiert.
 * Um den [!UICONTROL Prozent abgeschlossen] für die Story zu aktualisieren, müssen Sie ihn über die Registerkarte [!UICONTROL Storys] oder über die Seite [!UICONTROL Details] des Objekts aktualisieren.
 
-**Wenn die Einstellung [!UICONTROL Zusammenfassungsabschlussmodus] für das Projekt auf &quot;[!UICONTROL &quot; &#x200B;]:**
+**Wenn die Einstellung [!UICONTROL Zusammenfassungsabschlussmodus] für das Projekt auf &quot;[!UICONTROL &quot; ]:**
 
 * Sie können die übergeordnete Story nicht über die Pinnwand verschieben. Um den [!UICONTROL Prozent abgeschlossen] für die Story zu aktualisieren, müssen Sie den [!UICONTROL Prozent abgeschlossen] für alle Teilaufgaben aktualisieren. Der [!UICONTROL Prozent abgeschlossen] für die Story wird anhand des [!UICONTROL Prozent abgeschlossen] aller Teilaufgaben berechnet.
 * Wenn Sie eine übergeordnete Story mit Teilaufgaben nach [!UICONTROL Abgeschlossen] verschieben, wird die übergeordnete Story auf 100 % und der [!UICONTROL Status] auf [!UICONTROL Abgeschlossen] aktualisiert. Teilaufgaben werden ebenfalls auf 100 % aktualisiert und der [!UICONTROL Status] wird auf [!UICONTROL Abgeschlossen] aktualisiert.
@@ -55,11 +55,11 @@ Beachten Sie beim Erstellen von Unteraufgaben für vorhandene Storys Folgendes:
  </tbody> 
 </table>
 
-Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
-## Eine Unteraufgabe zu einer vorhandenen Story auf dem Kanban[!UICONTROL Board &#x200B;]
+## Eine Unteraufgabe zu einer vorhandenen Story auf dem Kanban[!UICONTROL Board ]
 
 1. Wechseln Sie zur [!UICONTROL Kanban]-Pinnwand, die die Story enthält, der Sie eine Unteraufgabe hinzufügen möchten.
 1. Klicken Sie auf den Namen der Aufgabe auf der Story-Kachel auf dem [!UICONTROL Kanban]-Board.

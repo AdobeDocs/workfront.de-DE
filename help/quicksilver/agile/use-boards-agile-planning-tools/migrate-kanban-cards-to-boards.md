@@ -8,10 +8,10 @@ feature: Agile
 exl-id: 72e3902b-af9a-497c-817f-63630c4fb73b
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 13%
+source-wordcount: '360'
+ht-degree: 11%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 13%
 
 Sie können Ihre Arbeitselemente von einem Agile-Team-Kanban-Board auf ein neues oder vorhandenes Workfront-Board migrieren. Wenn Sie die Migration ausführen, werden alle Karten auf der Kanban-Pinnwand in die Workfront-Pinnwand kopiert. Es ist nicht erlaubt, bestimmte Karten auszuwählen.
 
-Die Platzierung von Karten auf der Workfront-Pinnwand basiert auf Spaltenrichtlinien. (Eine Richtlinie kann beispielsweise alle Karten mit dem Status „In Bearbeitung“ in eine bestimmte Spalte verschieben. Weitere Informationen zu Spaltenrichtlinien finden Sie unter [Pinnwand-Spalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).) Wenn keine Richtlinien vorhanden sind oder die Karten nicht mit den Richtlinien übereinstimmen, werden die Karten in der Spalte ganz links auf der Pinnwand platziert. Derzeit werden die Karten in der Spalte „Rückstand“ auf der alten Pinnwand nicht zur Workfront-Pinnwand hinzugefügt.
+Die Platzierung von Karten auf der Workfront-Pinnwand basiert auf Spaltenrichtlinien. (Eine Richtlinie kann beispielsweise alle Karten mit dem Status „In Bearbeitung“ in eine bestimmte Spalte verschieben. Weitere Informationen zu Spaltenrichtlinien finden Sie unter [Verwalten von ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)). Wenn keine Richtlinien vorhanden sind oder die Karten nicht mit den Richtlinien übereinstimmen, werden die Karten in der Spalte ganz links auf der Pinnwand platziert. Derzeit werden die Karten in der Spalte „Rückstand“ auf der alten Pinnwand nicht zur Workfront-Pinnwand hinzugefügt.
 
 Die Karten werden nicht aus dem Agile-Team-Kanban-Board entfernt und Kartenstatusänderungen werden mit beiden Boards synchronisiert. Sie können beide Pinnwände aktiviert lassen, bis Sie bereit sind, zu Workfront-Pinnwänden zu wechseln.
 
@@ -45,7 +45,7 @@ Die Karten werden nicht aus dem Agile-Team-Kanban-Board entfernt und Kartenstatu
  </tbody> 
 </table>
 
-Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

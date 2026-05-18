@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '873'
 ht-degree: 5%
 
 ---
@@ -45,7 +45,7 @@ Sie können einer Pinnwand schnell eine Karte hinzufügen und sie einem Mitglied
  </tbody> 
 </table>
 
-Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -95,7 +95,7 @@ Eine Ad-hoc-Karte ist nicht mit einem Arbeitselement in [!DNL Adobe Workfront] v
       <td>Geben Sie die geschätzte Anzahl der Stunden ein, die die Karte vervollständigt werden soll. Dies ist nur eine manuelle Eingabe.</td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL -Arbeitsaufträge]</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL-Arbeitsaufträge]</strong> </td> 
       <td>Um die Karte zuzuweisen, klicken Sie auf <strong>[!UICONTROL Zuweisung hinzufügen]</strong> und geben Sie einen Namen in das Suchfeld ein. Wählen Sie ihn dann aus, wenn er in der Ergebnisliste angezeigt wird. Sie können sowohl Einzelpersonen als auch Teams hinzufügen und einer Karte mehr als eine Person oder ein Team zuweisen.</td>
      </tr>     
      <tr> 
@@ -103,7 +103,7 @@ Eine Ad-hoc-Karte ist nicht mit einem Arbeitselement in [!DNL Adobe Workfront] v
       <td>Suchen Sie nach Tags für die Karte und wählen Sie diese aus. Informationen zum Erstellen neuer Tags finden Sie unter <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Tags hinzufügen</a>.</td> 
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL -Verbindung]</strong> </td>
+      <td role="rowheader"><strong>[!UICONTROL-Verbindung]</strong> </td>
       <td>Sie können eine Ad-hoc-Karte mit einer [!DNL Workfront] Aufgabe oder einem Problem verbinden. Weitere Informationen finden Sie unter „Konvertieren einer Ad-hoc-Karte in eine verbundene Karte“ im Artikel <a href="/help/quicksilver/agile/get-started-with-boards/connected-cards.md">Verwenden von verbundenen Karten auf Pinnwänden</a>.</td>
      </tr>
      <tr> 
@@ -151,6 +151,6 @@ Sie können Ad-hoc-Karten mit nur einem Titel hinzufügen, um Ihre Pinnwand schn
 
    Klicken Sie auf das **[!UICONTROL Mehr]**-Menü ![[!UICONTROL Mehr]](assets/more-icon-spectrum.png) auf der Karte und wählen Sie **[!UICONTROL Bearbeiten]**.
 
-1. Aktualisieren Sie [!UICONTROL &#x200B; Feld &#x200B;]Kartendetails“ die Informationen nach Bedarf und klicken Sie auf **[!UICONTROL Schließen]**, um zur Pinnwand zurückzukehren.
+1. Aktualisieren Sie [!UICONTROL  Feld ]Kartendetails“ die Informationen nach Bedarf und klicken Sie auf **[!UICONTROL Schließen]**, um zur Pinnwand zurückzukehren.
 
-   Wenn Sie Spaltenrichtlinien zum Aktualisieren von Feldwerten aktiviert haben, wird die Karte beim Ändern des Status auf der Karte automatisch in die entsprechende Spalte verschoben. Weitere Informationen finden Sie unter „Definieren von Spalteneinstellungen und Richtlinien“ im Artikel [Verwalten von &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)&quot;.
+   Wenn Sie Spaltenrichtlinien zum Aktualisieren von Feldwerten aktiviert haben, wird die Karte beim Ändern des Status auf der Karte automatisch in die entsprechende Spalte verschoben. Weitere Informationen finden Sie unter „Definieren von Spalteneinstellungen und Richtlinien“ im Artikel [Verwalten von ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)&quot;.

@@ -8,10 +8,10 @@ feature: Agile
 exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 8%
+source-wordcount: '689'
+ht-degree: 7%
 
 ---
 
@@ -49,7 +49,7 @@ Informationen zum Verwalten der Story, nachdem sie der Iteration hinzugefügt wu
  </tbody> 
 </table>
 
-Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -83,7 +83,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Bereit]</strong></td>
-      <td>Wählen Sie diese Option, wenn die Story bereit zum Hinzufügen zu einer Iteration ist. Wenn diese Option ausgewählt ist, zeigt sie den Benutzenden an, welche Storys im Rückstand bereit zum Hinzufügen zu einer Iteration sind.<br>Eine Story kann zu einer Iteration hinzugefügt werden, unabhängig davon, ob sie <strong>[!UICONTROL Ready] markiert ist oder nicht.</strong></td>
+      <td>Wählen Sie diese Option, wenn die Story bereit zum Hinzufügen zu einer Iteration ist. Wenn diese Option ausgewählt ist, zeigt sie den Benutzern an, welche Storys im Rückstand bereit sind, einer Iteration hinzugefügt zu werden.<br>Eine Story kann einer Iteration hinzugefügt werden, unabhängig davon, ob sie <strong>[!UICONTROL Ready] markiert ist oder nicht.</strong></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Schätzung] (Punkte)</strong></td>
@@ -95,7 +95,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Übergeordnete Aufgabe]</strong></td>
-      <td>Nachdem Sie ein übergeordnetes Projekt ausgewählt haben, haben Sie die Möglichkeit, eine übergeordnete Aufgabe auszuwählen. Wenn Sie eine übergeordnete Aufgabe auswählen, wird die Story als Teilaufgabe der übergeordneten Aufgabe für das ausgewählte Projekt erstellt.<br>Beginnen Sie mit der Eingabe des Namens der übergeordneten Aufgabe für die Story und klicken Sie dann darauf, wenn sie in der Dropdown-Liste angezeigt wird.</td>
+      <td>Nachdem Sie ein übergeordnetes Projekt ausgewählt haben, haben Sie die Möglichkeit, eine übergeordnete Aufgabe auszuwählen. Wenn Sie eine übergeordnete Aufgabe auswählen, wird die Story als Teilaufgabe der übergeordneten Aufgabe für das ausgewählte Projekt erstellt. <br>Beginnen Sie, den Namen der übergeordneten Aufgabe für die Story einzugeben, und klicken Sie dann auf die Story, wenn sie in der Dropdown-Liste angezeigt wird.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Benutzerdefinierte Formulare]</strong></td>

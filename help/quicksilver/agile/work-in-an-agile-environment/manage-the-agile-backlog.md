@@ -8,9 +8,9 @@ feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1337'
 ht-degree: 4%
 
 ---
@@ -54,14 +54,14 @@ Aufgaben oder Probleme können dem Team von überall in [!DNL Adobe Workfront] z
  </tbody> 
 </table>
 
-Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
 ## Storys im Rückstand erstellen und verwalten
 
 * [Storys neu anordnen](#reorder-stories)
-* [[!UICONTROL Geschichten &#x200B;].](#break-down-stories)
+* [[!UICONTROL Geschichten ].](#break-down-stories)
 * [Storys bearbeiten](#edit-stories)
 
 ### Storys neu anordnen {#reorder-stories}
@@ -183,7 +183,7 @@ So weisen Sie einem Agile-Team eine Aufgabe oder ein Problem zu:
 1. (Optional) Löschen Sie alle vorhandenen Zugewiesenen.
 1. Klicken Sie **[!UICONTROL Verantwortlichen hinzufügen]**.
 1. Geben Sie den Namen des Agile-Teams ein, das der Aufgabe oder dem Problem zugewiesen werden soll, und klicken Sie dann auf den Team-Namen, wenn er in der Dropdown-Liste angezeigt wird.
-1. Klicken Sie **[!UICONTROL Änderungen speichern]**.
+1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
 Die Aufgabe oder das Problem ist jetzt im Team-Rückstand verfügbar.
 
 ## Storys in den oder aus dem Auftragsbestand verschieben
@@ -197,7 +197,7 @@ Die Aufgabe oder das Problem ist jetzt im Team-Rückstand verfügbar.
 1. Rufen Sie den Rückstand des Agile-Teams auf.
 1. Wählen Sie die Storys aus, die Sie in eine Iteration oder ein Kanban-Board verschieben möchten, und klicken Sie dann auf **[!UICONTROL Mehr]** > **[!UICONTROL Verschieben nach]**.
 Wenn Sie die Story auf ein Kanban[!UICONTROL Board verschieben] wird das [!UICONTROL Story in das Kanban]Board verschieben angezeigt.
-Wenn Sie die Story in eine Iteration verschieben[!UICONTROL &#x200B; wird das Dialogfeld „Story in eine Iteration &#x200B;]&quot; angezeigt.
+Wenn Sie die Story in eine Iteration verschieben[!UICONTROL  wird das Dialogfeld „Story in eine Iteration ]&quot; angezeigt.
    ![Dialogfeld „Story verschieben“](assets/agile-backlog-addtoiteration.png)
 
 1. Führen Sie einen der folgenden Schritte aus:
