@@ -7,8 +7,8 @@ recommendations: noDisplay, noCatalog
 exl-id: 56238597-f56b-43ba-8800-b80a150c6abc
 source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 0%
+source-wordcount: '707'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle Admin-Verbesserungen beschrieben, die mit der Version vom dritten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2024 verfügbar sind, finden Sie in der [&#x200B; zum dritten Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2024 verfügbar sind, finden Sie in der [ zum dritten Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 ## Geschäftsregeln sind jetzt verfügbar
 
@@ -60,7 +60,7 @@ Zuvor mussten Objekte in Produktionsumgebungen getrennt von Sandbox- oder Vorsch
 
 Weitere Informationen zur Umgebungs-Promotion finden Sie unter [Übersicht über das Verschieben von Objekten zwischen Workfront-Umgebungen (Umgebungs-Promotion)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
 
-[Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3429735/){target=_blank}
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
 >[!IMPORTANT]
 >
@@ -87,7 +87,7 @@ Sie können jetzt ein neues benutzerdefiniertes Feld oder Widget direkt aus dem 
 
 Diese Funktion ist sowohl mit dem Designer für benutzerdefinierte Formulare als auch mit dem Legacy-Formular-Builder verfügbar.
 
-Weitere Informationen finden Sie unter [Hinzufügen oder Bearbeiten eines benutzerdefinierten Felds, eines Abschnittsumbruchs oder Widgets](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md).
+Weitere Informationen finden Sie unter [Hinzufügen oder Bearbeiten eines benutzerdefinierten Feldes, eines Abschnittsumbruchs oder eines Widgets](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md).
 
 ## Mehrfachauswahl-Dropdown-Feldtyp, der im Formular-Designer verfügbar ist
 

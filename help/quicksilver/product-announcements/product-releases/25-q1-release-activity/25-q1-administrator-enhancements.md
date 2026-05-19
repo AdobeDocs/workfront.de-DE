@@ -7,8 +7,8 @@ recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
 source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 0%
+source-wordcount: '874'
+ht-degree: 1%
 
 ---
 
@@ -42,7 +42,7 @@ Um die Bestimmung des Objekts, das in einem Umgebungs-Promotion-Paket enthalten 
 
 Wenn ein(e) Benutzende(r) zuvor Objekte zwischen Umgebungen vergleichen wollte, müssen diese Objekte manuell überprüft werden.
 
-Weitere Informationen finden Sie unter [Objekte zwischen Umgebungen &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md).
+Weitere Informationen finden Sie unter [Objekte zwischen Umgebungen ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md).
 
 ## Mehr Objekte für die Umgebungsförderung verfügbar
 
@@ -52,13 +52,13 @@ Weitere Informationen finden Sie unter [Objekte zwischen Umgebungen &#x200B;](/h
 
 Um die Funktionen der Umgebung-Promotion zu erweitern, haben wir weitere Objekte hinzugefügt. Jetzt können Sie die folgenden Objekte zu einem Umgebungs-Promotion-Paket hinzufügen:
 
-* Speicherorte
+* Standorte
 * Tarifkarten
 * Arbeitsaufträge
 
 Zuvor waren diese Objekte nicht für die Umgebungs-Promotion verfügbar.
 
-Weitere Informationen zu Objekten, die für die Umgebungs-Promotion verfügbar sind, finden Sie unter [Unterstützte Objekte für die &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)-Promotion“ im Artikel Übersicht über die Umgebungs-Promotion.
+Weitere Informationen zu Objekten, die für die Umgebungs-Promotion verfügbar sind, finden Sie unter [Unterstützte Objekte für die ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)-Promotion“ im Artikel Übersicht über die Umgebungs-Promotion.
 
 ## Verschieben von Aufgaben bei protokollierten Stunden verhindern
 

@@ -9,8 +9,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 14%
+source-wordcount: '336'
+ht-degree: 7%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 14%
 
 Auf dieser Seite werden alle Berichts- und Dashboard-Verbesserungen beschrieben, die mit der Version vom ersten Quartal 2025 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2025 des Versionszyklus verfügbar sind, finden Sie unter [Versionsüberblick für das erste Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+Eine Liste aller zu diesem Zeitpunkt im ersten Quartal 2025 verfügbaren Änderungen finden Sie unter [Versionsübersicht 1. Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
 ## Neue Entitäten in Data Connect verfügbar
 

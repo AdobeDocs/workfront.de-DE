@@ -9,7 +9,7 @@ role: Admin
 exl-id: bdc6d5ee-2037-4d0b-bf18-3e6cc9cb078e
 source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '372'
 ht-degree: 11%
 
 ---
@@ -74,7 +74,7 @@ Beachten Sie beim Konfigurieren der Lokalisierung Folgendes:
 
 Übersetzungen werden im Bereich Setup konfiguriert.
 
-1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **&#x200B;**&#x200B;Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **** Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
 1. Klicken Sie im Bereich Setup **linken** auf „Lokalisierung“.
 1. Um eine neue Übersetzung hinzuzufügen, klicken Sie auf **Neue Zeile**.
 1. Geben Sie in **Spalte &quot;**&quot; den englischen Begriff ein, der übersetzt werden soll.
