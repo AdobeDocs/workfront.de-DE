@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: b014a06cd4c3305967fcd2edfe893a024051fa9c
 workflow-type: tm+mt
-source-wordcount: '2977'
+source-wordcount: '3035'
 ht-degree: 4%
 
 ---
@@ -337,11 +337,15 @@ Old:
 
 1. Wählen Sie die **Suchfelder auswählen**, um Felder aus dem Datensatztyp hinzuzufügen, mit dem Sie eine Verbindung herstellen. Die Suchfelder sind Felder, die mit dem Datensatz oder Objekttyp verknüpft sind, mit dem Sie eine Verknüpfung herstellen. Durch Verknüpfen werden Informationen des Datensatzes oder Objekts angezeigt, mit dem Sie eine Verknüpfung herstellen, und zwar für den Datensatz, von dem aus eine Verknüpfung hergestellt wird. Dies ist standardmäßig ausgewählt.
 
-   >[!TIP]
+   >[!NOTE]
    >
    >* Zusätzlich zu Systemfeldern wie Name und Beschreibung können Sie die folgenden Feldtypen als Suchfelder von Objekttypen aus einer anderen Anwendung hinzufügen:
    >   * Benutzerfelder, z. B. „Projektbesitzer“ oder „Sponsor“, aus Workfront-Projekten.
    >   * Referenzfelder, wie Projektgruppe oder Projektfirma aus Workfront-Projekten.
+   >* Für AEM-Inhaltsfragmente werden nur die folgenden Felder unterstützt: <!--this information is also in "Connect record types overview"-->
+   >   * Erstellt von und Erstellt um
+   >   * Geändert von und Geändert um
+   >
    >* Die Datumsfeldinformationen der Workfront-Objekte werden in Workfront Planning im 24-Stunden-Format angezeigt, unabhängig davon, wie sie in Workfront angezeigt werden.
    >
    >   Wenn beispielsweise das geplante Startdatum eines Projekts in Workfront um 15 :00 angezeigt wird, wird es in Workfront :00 in einem importierten Suchfeld als 15 angezeigt.
