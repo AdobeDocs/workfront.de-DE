@@ -42,7 +42,7 @@ Um die Bestimmung des Objekts, das in einem Umgebungs-Promotion-Paket enthalten 
 
 Wenn ein(e) Benutzende(r) zuvor Objekte zwischen Umgebungen vergleichen wollte, müssen diese Objekte manuell überprüft werden.
 
-Weitere Informationen finden Sie unter [Objekte zwischen Umgebungen ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md).
+Weitere Informationen finden Sie unter [Objekte zwischen Umgebungen &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md).
 
 ## Mehr Objekte für die Umgebungsförderung verfügbar
 
@@ -58,7 +58,7 @@ Um die Funktionen der Umgebung-Promotion zu erweitern, haben wir weitere Objekte
 
 Zuvor waren diese Objekte nicht für die Umgebungs-Promotion verfügbar.
 
-Weitere Informationen zu Objekten, die für die Umgebungs-Promotion verfügbar sind, finden Sie unter [Unterstützte Objekte für die ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)-Promotion“ im Artikel Übersicht über die Umgebungs-Promotion.
+Weitere Informationen zu Objekten, die für die Umgebungs-Promotion verfügbar sind, finden Sie unter [Unterstützte Objekte für die &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)-Promotion“ im Artikel Übersicht über die Umgebungs-Promotion.
 
 ## Verschieben von Aufgaben bei protokollierten Stunden verhindern
 
