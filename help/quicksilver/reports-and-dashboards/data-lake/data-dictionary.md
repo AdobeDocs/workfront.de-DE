@@ -9,8 +9,8 @@ feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
 source-git-commit: c669086f5954f9e2cf850887f4100e53c0c3e716
 workflow-type: tm+mt
-source-wordcount: '8904'
-ht-degree: 9%
+source-wordcount: '8722'
+ht-degree: 10%
 
 ---
 
@@ -557,7 +557,7 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         <tr>
             <td>Zuweisung</td>
             <td>Zuweisung</td>
-            <td>ZUWEISEN</td>
+            <td>ASSGN</td>
             <td>Zuweisung</td>
             <td>ASSIGNMENTS_CURRENT<br>ASSIGNMENTS_DAILY_HISTORY<br>ASSIGNMENTS_EVENT</td>
         </tr>
@@ -1534,7 +1534,7 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         <tr>
             <td>Firma</td>
             <td>Firma</td>
-            <td>COMPY</td>
+            <td>CMPY</td>
             <td>Firma</td>
             <td>COMPANIES_CURRENT<br>COMPANIES_DAILY_HISTORY<br>COMPANIES_EVENT</td>
         </tr>
@@ -1735,7 +1735,7 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         <tr>
             <td>Dokument</td>
             <td>Dokument</td>
-            <td>DOKU</td>
+            <td>DOCU</td>
             <td>Dokument</td>
             <td>DOCUMENTS_CURRENT<br>DOCUMENTS_DAILY_HISTORY<br>DOCUMENTS_EVENT</td>
         </tr>
@@ -2621,7 +2621,7 @@ Eingeschränkte Kundenverfügbarkeit
         <tr>
             <td>Ausgabe</td>
             <td>Ausgabe</td>
-            <td>AUSGABEN</td>
+            <td>EXPNS</td>
             <td>Ausgabe</td>
             <td>EXPENSES_CURRENT<br>EXPENSES_DAILY_HISTORY<br>EXPENSES_EVENT</td>
         </tr>
@@ -3743,7 +3743,7 @@ Selbst</td>
         <tr>
             <td>Notiz</td>
             <td>Notiz</td>
-            <td>NOTIZ</td>
+            <td>HINWEIS</td>
             <td>Notiz</td>
             <td>NOTES_CURRENT<br>NOTES_DAILY_HISTORY<br>NOTES_EVENT</td>
         </tr>
@@ -6080,7 +6080,7 @@ Eingeschränkte Kundenverfügbarkeit
         <tr>
             <td>Personalplan</td>
             <td>Personalplan</td>
-            <td>PERSONAL</td>
+            <td>STAFFP</td>
             <td>Personalplan</td>
             <td>STAFFING_PLAN_CURRENT<br>STAFFING_PLAN_DAILY_HISTORY<br>STAFFING_PLAN_EVENT</td>
         </tr>
@@ -6173,7 +6173,7 @@ Eingeschränkte Kundenverfügbarkeit
         <tr>
             <td>Personalplanressource</td>
             <td>Personalplanressource</td>
-            <td>PERSONAL</td>
+            <td>STAFFR</td>
             <td>Personalplanressource</td>
             <td>STAFFING_PLAN_RESOURCE_CURRENT<br>STAFFING_PLAN_RESOURCE_DAILY_HISTORY<br>STAFFING_PLAN_RESOURCE_EVENT</td>
         </tr>
@@ -6320,7 +6320,7 @@ Eingeschränkte Kundenverfügbarkeit
         <tr>
             <td>Aufgabe</td>
             <td>Aufgabe</td>
-            <td>AUFGABE</td>
+            <td>TASK</td>
             <td>Aufgabe</td>
             <td>TASKS_CURRENT<br>TASKS_DAILY_HISTORY<br>TASKS_EVENT</td>
         </tr>
@@ -7426,7 +7426,7 @@ Eingeschränkte Kundenverfügbarkeit
         <tr>
              <td>SCHEMAID</td>
              <td>FK</td>
-             <td>Die SCHEMA-Tabelle wird nicht bereitgestellt. Der Wert aus dieser Tabelle wird in der Spalte SCHEMANAME bereitgestellt. SCHEMANAME identifiziert den KPI (z. B. scheduledRevenueRate, scheduledCostRate, actualRevenue usw.), mit dem der Datensatz verbunden ist.</td>
+             <td>Die SCHEMA-Tabelle wird nicht bereitgestellt. Der Wert aus dieser Tabelle wird in der Spalte SCHEMANAME bereitgestellt. SCHEMANAME identifiziert den KPI (z. B. scheduledRevenueRate, scheduledCostRate, actualRevenue usw.) dass der Datensatz mit verbunden ist.</td>
              <td>SCHEMAID</td>
         </tr>
         <tr>
@@ -8207,7 +8207,7 @@ Eingeschränkte Kundenverfügbarkeit
         <tr>
             <td>Benutzerin oder Benutzer</td>
             <td>Benutzerin oder Benutzer</td>
-            <td>BENUTZER</td>
+            <td>USER</td>
             <td>Benutzerin oder Benutzer</td>
             <td>USERS_CURRENT<br>USERS_DAILY_HISTORY<br>USERS_EVENT</td>
         </tr>

@@ -7,8 +7,8 @@ recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
 source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 0%
+source-wordcount: '874'
+ht-degree: 1%
 
 ---
 
@@ -52,7 +52,7 @@ Weitere Informationen finden Sie unter [Objekte zwischen Umgebungen &#x200B;](/h
 
 Um die Funktionen der Umgebung-Promotion zu erweitern, haben wir weitere Objekte hinzugefügt. Jetzt können Sie die folgenden Objekte zu einem Umgebungs-Promotion-Paket hinzufügen:
 
-* Speicherorte
+* Standorte
 * Tarifkarten
 * Arbeitsaufträge
 

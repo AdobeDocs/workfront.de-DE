@@ -1,6 +1,6 @@
 ---
 title: Versionsüberblick für das erste Quartal 2025
-description: Diese Seite enthält Informationen zur Funktionalität, die in der Version vom ersten Quartal 2025 enthalten ist. Diese Verbesserungen werden voraussichtlich im Lauf des Quartals in der Produktionsumgebung zur Verfügung gestellt.
+description: Diese Seite enthält Informationen zur Funktionalität, die in der Version vom ersten Quartal 2025 enthalten ist. Diese Verbesserungen werden voraussichtlich im Lauf des Quartals in der Produktionsumgebung zur Verfügung gestellt.
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -9,14 +9,14 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '2786'
-ht-degree: 13%
+source-wordcount: '2976'
+ht-degree: 8%
 
 ---
 
 # Versionsüberblick für das erste Quartal 2025
 
-Diese Seite enthält Informationen zur Funktionalität, die in der Version vom ersten Quartal 2025 enthalten ist. Diese Verbesserungen werden voraussichtlich im Lauf des Quartals in der Produktionsumgebung zur Verfügung gestellt.
+Diese Seite enthält Informationen zur Funktionalität, die in der Version vom ersten Quartal 2025 enthalten ist. Diese Verbesserungen werden voraussichtlich im Lauf des Quartals in der Produktionsumgebung zur Verfügung gestellt.
 
 <span class="preview">Off-Cycle-Funktionen (die vor dem Veröffentlichungsdatum des ersten Quartals 2025 in der Produktion veröffentlicht wurden) sind gelb hervorgehoben.</span>
 
@@ -70,7 +70,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Mittwoch, 16. Januar 2024</li>
+                <li>Vorschau der Version: 16. Januar 2024</li>
                 <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
         </td>
@@ -85,7 +85,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: 23. Oktober 2025</li>
+                <li>Vorschau der Version: 6. Januar 2024</li>
                 <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
         </td>
@@ -100,7 +100,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: 23. Oktober 2025</li>
+                <li>Vorschau der Version: 6. Januar 2024</li>
                 <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
         </td>
@@ -115,7 +115,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Freitag, 19. Dezember 2024</li>
+                <li>Vorschau-Version: 19. Dezember 2024</li>
                 <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
         </td>
@@ -130,7 +130,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Freitag, 21. November 2024</li>
+                <li>Vorschau-Version: 21. November 2024</li>
                 <li>Produktion für die schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024)</li>
                 <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
@@ -146,7 +146,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Freitag, 21. November 2024</li>
+                <li>Vorschau-Version: 21. November 2024</li>
                 <li>Produktion für die schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024)</li>
                 <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
@@ -162,7 +162,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Freitag, 21. November 2024</li>
+                <li>Vorschau-Version: 21. November 2024</li>
                 <li>Produktion für die schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024)</li>
                 <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
@@ -178,7 +178,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Mittwoch, 29. Oktober 2024</li>
+                <li>Vorschau der Version: 29. Oktober 2024</li>
                 <li>Produktion für die schnelle Veröffentlichung: Mit der Version 24.11 (14. November 2024)</li>
                 <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
@@ -212,7 +212,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Donnerstag, 18. Dezember 2024</li>
+                <li>Vorschau-Version: 18. Dezember 2024</li>
                 <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
         </td>
@@ -244,7 +244,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Freitag, 21. November 2024</li>
+                <li>Vorschau-Version: 21. November 2024</li>
                 <li>Produktion für die schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024)</li>
                 <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
@@ -260,7 +260,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Freitag, 7. November 2024</li>
+                <li>Vorschau-Version: 7. November 2024</li>
                 <li>Produktion für die schnelle Veröffentlichung: Mit der Version 24.11 (14. November 2024)</li>
                 <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
@@ -299,7 +299,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Freitag, 9. Januar 2025</li>
+                <li>Vorschau der Version: 9. Januar 2025</li>
                 <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
         </td>
@@ -315,7 +315,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Samstag, 20. Dezember 2024</li>
+                <li>Vorschau der Version: 20. Dezember 2024</li>
                 <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
         </td>
@@ -330,7 +330,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Freitag, 19. Dezember 2024</li>
+                <li>Vorschau-Version: 19. Dezember 2024</li>
                 <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
         </td>
@@ -351,7 +351,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Freitag, 19. Dezember 2024</li>
+                <li>Vorschau-Version: 19. Dezember 2024</li>
                 <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
         </td>
@@ -372,7 +372,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Freitag, 19. Dezember 2024</li>
+                <li>Vorschau-Version: 19. Dezember 2024</li>
                 <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
         </td>
@@ -387,7 +387,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Freitag, 12. Dezember 2024</li>
+                <li>Vorschau-Version: 12. Dezember 2024</li>
                 <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
         </td>
@@ -402,7 +402,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Freitag, 5. Dezember 2024</li>
+                <li>Vorschau der Version: 5. Dezember 2024</li>
                 <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
         </td>
@@ -423,7 +423,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Freitag, 14. November 2024</li>
+                <li>Vorschau-Version: 14. November 2024</li>
                 <li><span class="preview">Produktionsversion für alle Kunden: 14. November 2024</span></li>
             </ul>
         </td>
@@ -438,7 +438,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Donnerstag, 6. November 2024</li>
+                <li>Vorschau der Version: 6. November 2024</li>
                 <li>Produktion für die schnelle Veröffentlichung: Mit der Version 24.11 (14. November 2024)</li>
                 <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
@@ -471,7 +471,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Freitag, 19. Dezember 2024</li>
+                <li>Vorschau-Version: 19. Dezember 2024</li>
                 <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
         </td>
@@ -504,7 +504,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Mittwoch, 2. Januar 2024</li>
+                <li>Vorschau der Version: 2. Januar 2024</li>
                 <li><span class="preview">Produktionsversion für alle Kunden: 9. Januar 2025</span></li>
             </ul>
         </td>
@@ -528,7 +528,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Freitag, 7. November 2024</li>
+                <li>Vorschau-Version: 7. November 2024</li>
                 <li><span class="preview">Produktionsversion für alle Kunden: 7. November 2024</span></li>
             </ul>
         </td>
@@ -560,7 +560,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Donnerstag, 15. Januar 2025</li>
+                <li>Vorschau der Version: 15. Januar 2025</li>
                 <li>Produktionsversion für alle Kunden: 15. Januar 2025</li>
             </ul>
         </td>
@@ -575,7 +575,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Dienstag, 16. Dezember 2024</li>
+                <li>Vorschau-Version: 16. Dezember 2024</li>
                 <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
         </td>
@@ -590,7 +590,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Freitag, 14. November 2024</li>
+                <li>Vorschau-Version: 14. November 2024</li>
                 <li><span class="preview">Produktionsversion für alle Kunden: 14. November 2024</span></li>
             </ul>
         </td>
@@ -621,7 +621,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Freitag, 19. Dezember 2024</li>
+                <li>Vorschau-Version: 19. Dezember 2024</li>
                 <li>Produktionsfreigabe für alle Kunden für die Startseite: wird noch bekannt gegeben</li>
                 <li>Produktionsversion für alle Kunden für „Meine Updates“: 19. Juni 2025</li>
             </ul>
@@ -650,7 +650,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Freitag, 21. November 2024</li>
+                <li>Vorschau-Version: 21. November 2024</li>
                 <li><span class="preview">Produktionsversion für alle Kunden: 5. Dezember 2024</span></li>
             </ul>
         </td>
@@ -665,7 +665,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Dienstag, 11. November 2024</li>
+                <li>Vorschau-Version: 11. November 2024</li>
                 <li>Produktion für die schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024)</li>
                 <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
@@ -681,7 +681,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Freitag, 31. Oktober 2024</li>
+                <li>Vorschau der Version: 31. Oktober 2024</li>
                 <li>Produktion für die schnelle Veröffentlichung: Mit der Version 24.11 (14. November 2024)</li>
                 <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
@@ -740,11 +740,11 @@ Es gibt derzeit keine Workfront Proof-Updates in der Version. Dieser Bereich wir
 
 Es gibt derzeit keine Updates zu Workfront Goals in der Version. Dieser Bereich wird aktualisiert, sobald Aktualisierungen verfügbar sind.
 
-### API-Version 19
+### API-Version 19
 
-Für die API-Version 19 haben wir einige Ressourcen und Endpunkte geändert. Einige der Änderungen unterstützen neue Funktionen, andere erleichtern Ihnen die Verwendung der über die API verfügbaren Informationen.
+Für API-Version 19 haben wir einige Ressourcen und Endpunkte geändert. Einige der Änderungen unterstützen neue Funktionen, andere erleichtern Ihnen die Verwendung der über die API verfügbaren Informationen.
 
-Informationen zu neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in der API-Version 19](/help/quicksilver/wf-api/api/new-api-version-19.md).
+Informationen zu neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in der API-Version 19](/help/quicksilver/wf-api/api/new-api-version-19.md).
 
 Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Zeitplan](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 

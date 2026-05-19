@@ -12,7 +12,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 8ee1cda376b51a5f5b7b4af44e6d34bf70ee9600
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1808'
 ht-degree: 4%
 
 ---
@@ -47,7 +47,7 @@ Geschäftsregeln gelten für das Erstellen, Bearbeiten und Löschen von Objekten
   <tr>
    <td>Adobe Workfront-Paket
    </td>
-   <td> <p>Validierung der Geschäftsregel:<ul><li><p>Ultimate</p></li><li>
+   <td> <p>Validierung der Geschäftsregel:<ul><li><p>Ultimativ</p></li><li>
     <p>Workflow Ultimate</p></li></ul></p><p>Automatisierung von Geschäftsregeln:<ul><li>
     <p>Workflow Ultimate</p></li><ul></p>
    </td>
@@ -242,7 +242,7 @@ Sie können Platzhalter in Aktionen mit Geschäftsregeln verwenden, wie im Absch
 
      Sie können der Fehlermeldung eine statische URL hinzufügen, um eine Verknüpfung zu Dokumentationen oder anderen hilfreichen Seiten herzustellen, die Benutzern dabei helfen, ihre Aktion innerhalb der Beschränkung der Regel zu ändern.
 
-     In diesem Beispiel wird „Weitere Informationen“ mit der URL verknüpft. `"You are not allowed to add a new project in November.[Learn more](http://url)"` Die URL muss in Klammern stehen, aber Link-Text in Klammern ist nicht erforderlich. Sie können die vollständige URL anzeigen. Dabei handelt es sich um einen anklickbaren Link.
+     In diesem Beispiel wird „Weitere Informationen“ mit der URL verknüpft. `"You are not allowed to add a new project in November.[Learn more](http://url)"` Die URL muss in Klammern stehen, Link-Text in Klammern ist jedoch nicht erforderlich. Sie können die vollständige URL anzeigen. Dabei handelt es sich um einen anklickbaren Link.
 
    ![Dialogfeld „Geschäftsregel hinzufügen“](assets/add-business-rule-new.png)
 

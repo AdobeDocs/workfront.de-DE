@@ -10,7 +10,7 @@ role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
 source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
 workflow-type: tm+mt
-source-wordcount: '1478'
+source-wordcount: '1488'
 ht-degree: 3%
 
 ---
@@ -279,7 +279,7 @@ Login Attempt Logs do not record when a Workfront administrator uses the Log In 
 
 >[!NOTE]
 >
->Da alle Unternehmen mit der Adobe Admin Console arbeiten, ist diese Funktion nicht mehr verfügbar.Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.
+>Da alle Unternehmen in die Adobe Admin Console integriert wurden, ist diese Funktion nicht mehr verfügbar.Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.
 
 ### Priorität {#priority}
 
@@ -372,7 +372,7 @@ Das System generiert einen Benutzerüberwachungsprotokolleintrag, wenn ein Benut
 
   >[!NOTE]
   >
-  >Da alle Unternehmen mit der Adobe Admin Console arbeiten, ist diese Funktion nicht mehr verfügbar.Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.
+  >Da alle Unternehmen in die Adobe Admin Console integriert wurden, ist diese Funktion nicht mehr verfügbar.Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.
 
 * Löscht einen Benutzer
 * Ändert Zugriffsebene, Unternehmen, Team oder Gruppe eines Benutzers

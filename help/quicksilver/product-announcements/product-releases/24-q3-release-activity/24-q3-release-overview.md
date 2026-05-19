@@ -9,8 +9,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1831'
-ht-degree: 16%
+source-wordcount: '1948'
+ht-degree: 12%
 
 ---
 
@@ -70,7 +70,7 @@ Das Webinar zur Live-Version 24.7 wurde abgesagt, aber Sie können [hier eine Vi
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Freitag, 4. Juli 2024</p>
+                                <p>Vorschau der Version: 4. Juli 2024</p>
                             </li>
                             <li>
                                 <p>Produktionsversion für alle Kunden: Mit Version 24.7 (18. Juli 2024)</p>
@@ -89,7 +89,7 @@ Das Webinar zur Live-Version 24.7 wurde abgesagt, aber Sie können [hier eine Vi
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Donnerstag, 19. Juni 2024</p>
+                                <p>Vorschau der Version: 19. Juni 2024</p>
                             </li>
                             <li>
                                 <p>Produktionsversion für alle Kunden: Mit Version 24.7 (18. Juli 2024)</p>
@@ -120,7 +120,7 @@ Das Webinar zur Live-Version 24.7 wurde abgesagt, aber Sie können [hier eine Vi
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Freitag, 6. Juni 2024</p>
+                                <p>Vorschau der Version: 6. Juni 2024</p>
                             </li>
                             <li>
                                 <p><span class="preview">Produktionsfreigabe für alle Kunden: 13. Juni</span></p>
@@ -137,7 +137,7 @@ Das Webinar zur Live-Version 24.7 wurde abgesagt, aber Sie können [hier eine Vi
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Freitag, 6. Juni 2024</p>
+                                <p>Vorschau der Version: 6. Juni 2024</p>
                             </li>
                             <li>
                                 <p>Produktionsversion für alle Kunden: Mit Version 24.7 (18. Juli 2024)</p>
@@ -154,10 +154,10 @@ Das Webinar zur Live-Version 24.7 wurde abgesagt, aber Sie können [hier eine Vi
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Mittwoch, 4. Juni 2024</p>
+                                <p>Vorschau der Version: 4. Juni 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Produktion für alle: Mittwoch, 4. Juni 2024</span></p>
+                                <p><span class="preview">Produktion für alle Kunden: 4. Juni 2024</span></p>
                             </li>
                         </ul>
                     </td>
@@ -187,7 +187,7 @@ Das Webinar zur Live-Version 24.7 wurde abgesagt, aber Sie können [hier eine Vi
                         [!BADGE In Production &#x200B;]{type=Informative}
                         <p>Damit Sie Ausgabentypen leichter anzeigen können, wurden Ausgaben für Projekte und Aufgaben in fakturierbare und nicht fakturierbare Ausgaben unterteilt. Die folgenden Felder können zu Ansichten und Berichten hinzugefügt werden:</p>
                         <ul>
-                            <li><p>Geplante abrechenbare Ausgabenkosten</p></li>
+                            <li><p>Geplante abrechenbare Ausgaben</p></li>
                             <li><p>Geplante nicht fakturierbare Kosten</p></li>
                             <li><p>Tatsächliche nicht fakturierbare Kosten</p></li>
                             <li><p>Tatsächliche nicht fakturierbare Kosten</p></li>
@@ -196,10 +196,10 @@ Das Webinar zur Live-Version 24.7 wurde abgesagt, aber Sie können [hier eine Vi
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Samstag, 10. Mai 2024</p>
+                                <p>Vorschau der Version: 10. Mai 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Produktion für alle: Samstag, 10. Mai 2024</span></p>
+                                <p><span class="preview">Produktion für alle Kunden: 10. Mai 2024</span></p>
                             </li>
                         </ul>
                     </td>
@@ -236,7 +236,7 @@ Das Webinar zur Live-Version 24.7 wurde abgesagt, aber Sie können [hier eine Vi
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Freitag, 27. Juni 2024</p>
+                                <p>Vorschau der Version: 27. Juni 2024</p>
                             </li>
                             <li>
                                 <p>Produktion für alle Kunden: Mit Version 24.7 (18. Juli 2024)</p>
@@ -272,7 +272,7 @@ Das Webinar zur Live-Version 24.7 wurde abgesagt, aber Sie können [hier eine Vi
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Freitag, 30. Mai 2024</p>
+                                <p>Vorschau der Version: 30. Mai 2024</p>
                             </li>
                             <li>
                                 <p>Produktion für die schnelle Veröffentlichung: Mit der Version 24.6 (13. Juni 2024)</p>
@@ -292,7 +292,7 @@ Das Webinar zur Live-Version 24.7 wurde abgesagt, aber Sie können [hier eine Vi
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Mittwoch, 13. Februar 2024</p>
+                                <p>Vorschau der Version: 13. Februar 2024</p>
                             </li>
                             <li>
                                 <p>Produktion für die schnelle Veröffentlichung: Mit der Version 24.5 (16. Mai 2024)</p>
@@ -310,7 +310,7 @@ Das Webinar zur Live-Version 24.7 wurde abgesagt, aber Sie können [hier eine Vi
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Freitag, 21. Dezember 2023</p>
+                                <p>Vorschau-Version: 21. Dezember 2023</p>
                             </li>
                             <li>
                                 <p>Produktion für die schnelle Veröffentlichung: Mit der Version 24.5 (16. Mai 2024)</p>
@@ -347,10 +347,10 @@ Das Webinar zur Live-Version 24.7 wurde abgesagt, aber Sie können [hier eine Vi
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Freitag, 4. Juli 2024</p>
+                                <p>Vorschau der Version: 4. Juli 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Produktion für alle: Freitag, 4. Juli 2024</span></p>
+                                <p><span class="preview">Produktion für alle Kunden: 4. Juli 2024</span></p>
                             </li>
                         </ul>
                     </td>
@@ -383,7 +383,7 @@ Das Webinar zur Live-Version 24.7 wurde abgesagt, aber Sie können [hier eine Vi
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Freitag, 6. Juni 2024</p>
+                                <p>Vorschau der Version: 6. Juni 2024</p>
                             </li>
                             <li>
                                 <p>Produktionsversion für alle Kunden: Mit Version 24.7 (18. Juli 2024)</p>
@@ -432,7 +432,7 @@ Das Webinar zur Live-Version 24.7 wurde abgesagt, aber Sie können [hier eine Vi
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Freitag, 20. Juni 2024</p>
+                                <p>Vorschau der Version: 20. Juni 2024</p>
                             </li>
                             <li>
                                 <p>Produktion für bestimmte Kunden: Mit der Version 24.7 (18. Juli 2024)</p>
@@ -450,7 +450,7 @@ Das Webinar zur Live-Version 24.7 wurde abgesagt, aber Sie können [hier eine Vi
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Freitag, 6. Juni 2024</p>
+                                <p>Vorschau der Version: 6. Juni 2024</p>
                             </li>
                             <li>
                                 <p>Produktionsversion für alle Kunden: Mit Version 24.7 (18. Juli 2024)</p>
@@ -467,7 +467,7 @@ Das Webinar zur Live-Version 24.7 wurde abgesagt, aber Sie können [hier eine Vi
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Donnerstag, 27. März 2024</p>
+                                <p>Vorschau der Version: 27. März 2024</p>
                             </li>
                             <li>
                                 <p>Produktion für die schnelle Veröffentlichung: Mit der Version 24.5 (16. Mai 2024)</p>
@@ -515,11 +515,11 @@ Es gibt derzeit keine Workfront Proof-Updates in der Version. Dieser Bereich wir
 
 Es gibt derzeit keine Updates zu Workfront Goals in der Version. Dieser Bereich wird aktualisiert, sobald Aktualisierungen verfügbar sind.
 
-### API-Version 18
+### API-Version 18
 
-Für die API-Version 18 haben wir einige Ressourcen und Endpunkte geändert. Einige der Änderungen unterstützen neue Funktionen, andere erleichtern Ihnen die Verwendung der über die API verfügbaren Informationen.
+Für API-Version 18 haben wir einige Ressourcen und Endpunkte geändert. Einige der Änderungen unterstützen neue Funktionen, andere erleichtern Ihnen die Verwendung der über die API verfügbaren Informationen.
 
-Informationen zu neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in der API-Version 18](/help/quicksilver/wf-api/api/new-api-version-18.md).
+Informationen zu neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in der API-Version 18](/help/quicksilver/wf-api/api/new-api-version-18.md).
 
 Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Zeitplan](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
