@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: e40d28599148e22a8553d1ef1e669811e80a59df
+source-git-commit: b014a06cd4c3305967fcd2edfe893a024051fa9c
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 0%
+source-wordcount: '406'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ In diesem Artikel werden die Funktionen beschrieben, die im dritten Quartal 2026
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## Neues Vorschaufenster für Inhaltsfragmente in der Tabellenansicht
+## Neues Vorschaufenster für AEM-Inhaltsfragmente
 
 >[!NOTE]
 >
@@ -38,6 +38,23 @@ Für eine bessere Sichtbarkeit bei der Arbeit mit AEM-Inhaltsfragmenten, die mit
 Diese Funktion war bisher für AEM Assets verfügbar und wurde nun zu Inhaltsfragmenten hinzugefügt.
 
 Weitere Informationen finden Sie unter [Verbinden von Datensätzen](/help/quicksilver/planning/records/connect-records.md).
+
+## Suchfelder jetzt für AEM-Inhaltsfragmente in Workfront Planning verfügbar
+
+>[!NOTE]
+>
+>Vorschau: 14. Mai 2026>Produktions-Schnellveröffentlichung: 14. Mai 2026>Produktion für alle: 14. Mai 2026>[!BADGE Außerplanmäßig]{type=Neutral}
+
+Sie können jetzt die folgenden Suchfelder hinzufügen, wenn Sie einen Planning-Datensatztyp mit einem AEM-Inhaltsfragment verbinden:
+
+* Erstellt von
+* Erstellt um
+* Geändert von
+* Geändert um
+
+Vor dieser Verbesserung waren Suchfelder nur für AEM-Assets und -Ordner verfügbar.
+
+Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 <!--
 
