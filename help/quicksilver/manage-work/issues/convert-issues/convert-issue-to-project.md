@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
 source-wordcount: '2167'
 ht-degree: 4%
@@ -25,9 +25,9 @@ Sie können ein Problem mit in ein Projekt konvertieren, ohne eine Projektvorlag
 
 >[!IMPORTANT]
 >
->Um allgemeine Informationen zu Konvertierungsproblemen zu erhalten, empfehlen wir, auch den Artikel [Überblick über Konvertierungsprobleme in Adobe Workfront&quot; &#x200B;](../../../manage-work/issues/convert-issues/convert-issues.md).
+>Um allgemeine Informationen zu Konvertierungsproblemen zu erhalten, empfehlen wir, auch den Artikel [Überblick über Konvertierungsprobleme in Adobe Workfront&quot; ](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-Wenn Sie ein Projekt aus einer Anfrage erstellen, werden einige der Felder im Projekt aus anderen Objekten gefüllt. Weitere Informationen finden Sie im Abschnitt „Standardeinstellungen für neue Projekte“ im Artikel &quot;[&#x200B; erstellen](../../../manage-work/projects/create-projects/create-project.md).
+Wenn Sie ein Projekt aus einer Anfrage erstellen, werden einige der Felder im Projekt aus anderen Objekten gefüllt. Weitere Informationen finden Sie im Abschnitt „Standardeinstellungen für neue Projekte“ im Artikel &quot;[ erstellen](../../../manage-work/projects/create-projects/create-project.md).
 
 ## Zugriffsanforderungen
 

@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18e899b87eb950222b0d22f41a998a458baa6f49
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '21715'
+source-wordcount: '21830'
 ht-degree: 98%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 98%
 
 <!--Audited: 04/2026-->
 
-Bob: 4-30
+<!--Bob: 4-30-->
 
 >[!IMPORTANT]
 >
@@ -143,7 +143,7 @@ In der folgenden Tabelle finden Sie eine Liste häufig verwendeter Begriffe in A
      <p>Für einen Bericht des Typs „[!UICONTROL Budgetierte Stunde]“:</p> 
      <ul> 
       <li>Erstellen Sie diesen Bericht, wenn Sie versuchen, die Menge unter „[!UICONTROL Budgetierte Stunden]“ zu verstehen, die Ihren Ressourcen oder Ihren Projekten im Ressourcenplaner zugewiesen ist.</li> 
-      <li> <p>Das [!UICONTROL Zuteilungsdatum] ist der erste Tag (ein Sonntag) der Woche, für die Sie die Stunden im [!UICONTROL Ressourcenplaner] budgetiert haben. </p> <p><b>TIPP</b></p> <p>Wenn sich eine Woche über zwei Monate erstreckt, werden zwei Zeilen im Bericht generiert: eine Zeile, die dem ersten Wochentag entspricht (Sonntag der ersten Woche, die im ersten Monat liegt), und die zweite Zeile zeigt den ersten Tag des zweiten Monats an. </p> <p>Wenn Sie beispielsweise 8 Stunden für einen Benutzer bzw. eine Benutzerin für die Woche vom 30. Juni (Sonntag) bis zum 6. Juli (Samstag) budgetieren, wird in den beiden Zeilen als [!UICONTROL Zuteilungsdatum] der 30. Juni und der 1. Juli angezeigt. </p> </p> <p>Informationen zur Budgetierung von Ressourcen im [!DNL Resource Planner] finden Sie im Artikel <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budgetieren von Ressourcen im [!DNL Resource Planner] mithilfe der Ansichten [!UICONTROL Projekt] und Rolle</a>.</p> <p>Informationen zum Erstellen eines Berichts vom Typ [!UICONTROL Budgetierte Stunde] finden Sie unter <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">Bericht: Budgetierte Stunde</a>. </p> </li> 
+      <li> <p>Das [!UICONTROL Zuteilungsdatum] ist der erste Tag (ein Sonntag) der Woche, für die Sie die Stunden im [!UICONTROL Ressourcenplaner] budgetiert haben. </p> <p><b>TIPP</b></p> <p>Wenn sich eine Woche über zwei Monate erstreckt, werden zwei Zeilen im Bericht generiert: eine Zeile, die dem ersten Wochentag entspricht (Sonntag der ersten Woche, die im ersten Monat liegt), und die zweite Zeile zeigt den ersten Tag des zweiten Monats an. </p> <p>Wenn Sie beispielsweise 8 Stunden für einen Benutzer bzw. eine Benutzerin für die Woche vom 30. Juni (Sonntag) bis zum 6. Juli (Samstag) budgetieren, wird in den beiden Zeilen als [!UICONTROL Zuteilungsdatum] der 30. Juni und der 1. Juli angezeigt. </p> </p> <p>Informationen zur Budgetierung von Ressourcen im [!DNL Resource Planner] finden Sie im Artikel <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budgetieren von Ressourcen im [!DNL Resource Planner] mithilfe der Ansichten [!UICONTROL Projekt] und [!UICONTROL Rolle</a>.</p> <p>Informationen zum Erstellen eines Berichts vom Typ [!UICONTROL Budgetierte Stunde] finden Sie unter <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">Bericht: Budgetierte Stunde</a>. </p> </li> 
      </ul> 
     </div> </td> 
   </tr> 
@@ -357,7 +357,7 @@ In der folgenden Tabelle finden Sie eine Liste häufig verwendeter Begriffe in A
        </tr> 
        <tr> 
         <td>[!UICONTROL Budgetierte Stunden]</td> 
-        <td> <p>Ansicht „Auslastungsbericht – [!UICONTROL Stunden]“</p> <p>Weitere Informationen zum Bericht zur [!UICONTROL Auslastung] finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md" class="MCXref xref">Überblick über den Bericht zur Ressourcenauslastung</a>.</p> </td> 
+        <td> <p>Ansicht „Auslastungsbericht – [!UICONTROL Stunden]“</p> <p>Weitere Informationen zum Bericht zur [!UICONTROL Auslastung] finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md" class="MCXref xref">Überblick über den Bericht zur [!UICONTROL Ressourcenauslastung</a>.</p> </td> 
        </tr> 
        <tr> 
         <td>[!UICONTROL Bud. Stunden]</td> 
@@ -1436,6 +1436,27 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[!UICONTROL Nur bei Änderung]</td> 
    <td> <p>Eine Art der [!UICONTROL Projektaktualisierung]. Wenn diese Option ausgewählt ist, werden die Timelines „[!UICONTROL Projiziert]“ und „[!UICONTROL Geplant]“ des Projekts nur dann aktualisiert, wenn eine Aktualisierung oder Änderung am Projekt oder an einer Aufgabe innerhalb des Projekts vorgenommen wird. Das Projekt wird nicht jede Nacht aktualisiert.</p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Auswählen des Aktualisierungstyps eines Projekts </a>.</p> </td> 
+  </tr>
+
+</tr>
+  <tr> 
+   <td>[!UICONTROL auf veraltetem Workfront-Speicher]</td> 
+   <td>  <p>Das alte Workfront-Speichersymbol <img src="assets/legacy-storage-project-icon.png"> zeigt an, dass ein Objekt mit dem Workfront-Dokumentspeicher verknüpft ist. </p> 
+   <p>Das Symbol wird neben dem Namen eines Objekts, in der Kopfzeile oder in einigen Listen angezeigt. </p>
+   <p>Einige Kunden verfügen über ältere Workfront- und Adobe-Cloud-Dokumentenspeicher. Dokumente können für Kunden, die beide Speichertypen besitzen, in einer dieser Umgebungen gespeichert werden.</p>
+   <p>Die folgenden Objekte können entweder über Workfront oder Adobe Cloud-Dokumentspeicher verfügen:</p>
+   <ul><li>Projekte</li>
+   <li>Portfolios</li>
+   <li>Programme</li>
+   <li>Vorlagen</li>
+   <li>Aufgaben</li>
+   <li>Probleme</li>
+   <li>Vorlagenaufgaben</li></ul>
+   <p>Nur Projekte, Portfolios, Programme und Vorlagen können das Speichersymbol „Bei veraltetem Workfront" anzeigen. </p>
+   <p>Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Arten von Dokumentspeicher. 
+  <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/review-and-approve-work/esm-overview.md">Übersicht über den Adobe-Cloud-Speicher</a>. </p>
+
+</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Op-Aufgabe]</td> 
@@ -1536,7 +1557,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Prozent abgeschlossen]</td> 
-   <td> <p>Ein Projekt, eine Aufgabe oder ein Problem, das bzw. die anzeigt, welcher Prozentsatz der mit der Aufgabe, dem Projekt oder dem Problem verbundenen Arbeit abgeschlossen ist.</p> <p>Sie können dieses Feld für Probleme und Arbeitsaufgaben manuell aktualisieren. </p> <p>Für Projekte und übergeordnete Aufgaben ist dieses Feld eine Zusammenfassung aller laufenden Aufgaben. Sie können es nicht manuell aktualisieren. </p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/tasks/task-information/project-percent-complete.md" class="MCXref xref">Überblick über den Prozentwert des Projektabschlusses</a>.</p> </td> 
+   <td> <p>Ein Projekt, eine Aufgabe oder ein Problem, das bzw. die anzeigt, welcher Prozentsatz der mit der Aufgabe, dem Projekt oder dem Problem verbundenen Arbeit abgeschlossen ist.</p> <p>Sie können dieses Feld für Probleme und Arbeitsaufgaben manuell aktualisieren. </p> <p>Für Projekte und übergeordnete Aufgaben ist dieses Feld eine Zusammenfassung aller laufenden Aufgaben. Sie können es nicht manuell aktualisieren. </p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/tasks/task-information/project-percent-complete.md" class="MCXref xref">Überblick über den [!UICONTROL Prozentwert des Projektabschlusses</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Performance Index Method (PIM)]</td> 

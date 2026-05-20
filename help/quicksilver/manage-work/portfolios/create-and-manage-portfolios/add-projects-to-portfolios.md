@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '689'
 ht-degree: 3%
 
 ---
@@ -121,34 +121,41 @@ Old:
 
    >[!TIP]
    >
-   >Sie können kein Projekt hinzufügen, wenn Sie die Liste der Projekte in der Ansicht &quot;[!UICONTROL &quot; &#x200B;].
+   >Sie können kein Projekt hinzufügen, wenn Sie die Liste der Projekte in der Ansicht &quot;[!UICONTROL &quot; ].
 
    Wählen Sie aus den folgenden Optionen aus:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Vorhandenes Projekt]</td> 
-      <td> <p>Ein bereits erstelltes Projekt hinzufügen.</p> </td> 
-     </tr> 
-     <tr> 
+    <tbody>
+
+   <tr> 
       <td role="rowheader">[!UICONTROL Neues Projekt]</td> 
-      <td> <p>Ein neues Projekt hinzufügen. </p> <p>Weitere Informationen zum Erstellen eines neuen Projekts finden Sie unter <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Erstellen eines Projekts</a>. </p> </td> 
+      <td> <p>Ein neues Projekt hinzufügen. </p> <p>Weitere Informationen zum Erstellen eines Projekts finden Sie unter <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Erstellen eines Projekts</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Projekt aus [!DNL MS Project] importieren] </td> 
+      <td role="rowheader">[!UICONTROL Neues Projekt (Legacy-Speicher)]</td> 
+      <td> <p>Fügen Sie ein neues Workfront-Speicherprojekt hinzu. </p>
+      <p>Die Option wird nur angezeigt, wenn Ihr Unternehmen sowohl Workfront als auch Adobe Cloud Document Storage verwendet. Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Speichertypen.</p>
+       <p>Weitere Informationen zum Erstellen eines Projekts finden Sie unter <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Erstellen eines Projekts</a>. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Neues Projekt aus Vorlage]</td> 
+      <td> <p>Ein neues Projekt mithilfe einer vorhandenen Vorlage hinzufügen. </p> <p>Weitere Informationen zum Erstellen eines Projekts über eine Vorlage finden Sie unter <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Erstellen eines Projekts über eine Vorlage</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Import [!DNL MS Project]] </td> 
       <td> <p>Fügen Sie ein Projekt hinzu, das Sie zuvor aus [!DNL MS Project] exportiert und auf Ihrem Computer gespeichert haben. </p> <p>Weitere Informationen zum Erstellen eines neuen Projekts durch Importieren aus [!DNL Microsoft Project] finden Sie unter <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Projekt aus [!DNL Microsoft Project]</a> importieren.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL -Anforderungsprojekt]</td> 
+      <td role="rowheader">[!UICONTROL-Anforderungsprojekt]</td> 
       <td> <p>Fordern Sie die Genehmigung eines Projekts an.</p> <p>Informationen zum Anfordern von Projekten finden Sie unter <a href="../../../manage-work/projects/create-projects/request-project.md">Anfordern eines Projekts</a>. </p> </td> 
      </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Neu aus Vorlage]</td> 
-      <td> <p>Ein neues Projekt mithilfe einer vorhandenen Vorlage hinzufügen. </p> <p>Weitere Informationen zum Erstellen eines Projekts über eine Vorlage finden Sie unter <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Erstellen eines Projekts über eine Vorlage</a>.</p> </td> 
-     </tr> 
+          <tr> 
+      <td role="rowheader">[!UICONTROL Vorhandenes Projekt]</td> 
+      <td> <p>Ein bereits erstelltes Projekt hinzufügen.</p> </td> 
+     </tr>
     </tbody> 
    </table>
 
@@ -160,13 +167,13 @@ Old:
 
    ![Vorhandenes Projekt hinzufügen](assets/add-existing-projects-to-portfolios-box.png) <!--check this after UI changes-->
 
-1. Geben Sie den Namen eines Projekts in das Feld **[!UICONTROL Projekte zu dieser Portfolio hinzufügen]** ein und klicken Sie auf die Projekte, wenn sie in der Liste angezeigt werden.  <!--check this after UI changes-->
+1. Geben Sie den Namen eines Projekts in das Feld **[!UICONTROL Projekte zu diesem Portfolio hinzufügen]** ein und klicken Sie darauf, wenn sie in der Liste angezeigt werden.  <!--check this after UI changes-->
 
    Sie können mehr als ein Projekt hinzufügen.
 
    >[!NOTE]
    >
-   >Wenn Ihr Unternehmen sowohl den alten Workfront- als auch den Adobe-Cloud-Speicher für Dokumente verwendet, gibt es die folgenden Szenarien:
+   >Wenn Ihr Unternehmen sowohl den veralteten Workfront- als auch den Adobe-Cloud-Speicher für Dokumente verwendet, gibt es die folgenden Szenarien:
    >
    >
    >* Wenn Sie ein Adobe-Cloud-Speicherprojekt zu einem alten Workfront-Speicherportfolio hinzufügen und dem Portfolio keine Dokumente angehängt sind, wird das Portfolio in ein Adobe-Cloud-Speicherportfolio konvertiert.

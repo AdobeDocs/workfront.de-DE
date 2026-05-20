@@ -8,16 +8,16 @@ feature: Work Management, Strategic Planning
 exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 6%
+source-wordcount: '676'
+ht-degree: 4%
 
 ---
 
 # Hinzufügen eines Projekts zu einem Programm
 
-<!--Audited: 08/2025-->
+<!--Audited: 05/2026-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
@@ -107,33 +107,41 @@ old:
 
    >[!TIP]
    >
-   >Sie können kein Projekt hinzufügen, wenn Sie die Liste der Projekte in der Ansicht &quot;[!UICONTROL &quot; &#x200B;].
+   >Sie können kein Projekt hinzufügen, wenn Sie die Liste der Projekte in der Ansicht &quot;[!UICONTROL &quot; ].
 
    Wählen Sie aus den folgenden Optionen aus:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Vorhandenes Projekt]</td> 
-      <td> <p>Ein bereits erstelltes Projekt hinzufügen.</p> </td> 
-     </tr> 
-     <tr> 
+    <tbody>
+
+   <tr> 
       <td role="rowheader">[!UICONTROL Neues Projekt]</td> 
       <td> <p>Neues Projekt von Grund auf hinzufügen. </p> <p>Weitere Informationen zum Erstellen eines neuen Projekts finden Sie unter <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Erstellen eines Projekts</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Projekt aus [!DNL MS Project] importieren] </td> 
+      <td role="rowheader">[!UICONTROL Neues Projekt (Legacy-Speicher)]</td> 
+      <td> <p>Fügen Sie ein neues Workfront-Speicherprojekt hinzu. </p>
+      <p>Die Option wird nur angezeigt, wenn Ihr Unternehmen sowohl Workfront als auch Adobe Cloud Document Storage verwendet. Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Speichertypen.</p>
+      <p>Weitere Informationen zum Erstellen eines Projekts finden Sie unter <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Erstellen eines Projekts</a>. </p> </td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader">[!UICONTROL Neues Projekt aus Vorlage]</td> 
+      <td> <p>Ein neues Projekt mithilfe einer vorhandenen Vorlage hinzufügen. </p> <p>Weitere Informationen zum Erstellen eines Projekts über eine Vorlage finden Sie unter <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Erstellen eines Projekts über eine Vorlage</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Import [!DNL MS Project]] </td> 
       <td> <p>Fügen Sie ein Projekt hinzu, das Sie zuvor aus [!DNL MS Project] exportiert und auf Ihrem Computer gespeichert haben. </p> <p>Weitere Informationen zum Erstellen eines neuen Projekts durch Importieren aus [!DNL Microsoft Project] finden Sie unter <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Projekt aus [!DNL Microsoft Project]</a> importieren.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL -Anforderungsprojekt]</td> 
+      <td role="rowheader">[!UICONTROL-Anforderungsprojekt]</td> 
       <td> <p>Fordern Sie die Genehmigung des neuen Projekts an, bevor Sie es bearbeiten können.</p> <p>Informationen zum Anfordern von Projekten finden Sie unter <a href="../../../manage-work/projects/create-projects/request-project.md">Anfordern eines Projekts</a>. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Neu aus Vorlage]</td> 
-      <td> <p>Ein neues Projekt mithilfe einer vorhandenen Vorlage hinzufügen. </p> <p>Weitere Informationen zum Erstellen eines Projekts über eine Vorlage finden Sie unter <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Erstellen eines Projekts über eine Vorlage</a>.</p> </td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">[!UICONTROL Vorhandenes Projekt]</td> 
+      <td> <p>Ein bereits erstelltes Projekt hinzufügen.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -147,6 +155,20 @@ old:
    1. Geben Sie in das Feld **[!UICONTROL Projekte hinzufügen]** den Namen eines Projekts in das Feld **Projekte zu diesem Programm hinzufügen** ein und wählen Sie ihn aus, wenn er in der Liste angezeigt wird. <!--check casing on links and buttons-->
 
       Sie können mehr als ein Projekt hinzufügen.
+
+      >[!NOTE]
+      >
+      >Wenn Ihr Unternehmen sowohl den veralteten Workfront- als auch den Adobe-Cloud-Speicher für Dokumente verwendet, gibt es die folgenden Szenarien:
+      >
+      >
+      >* Wenn Sie ein Adobe-Cloud-Speicherprojekt zu einem veralteten Workfront-Speicherprogramm hinzufügen und dem Programm keine Dokumente angehängt sind, werden das Programm und sein Portfolio in ein Adobe-Cloud-Speicherobjekt konvertiert.
+      >* Wenn Sie ein Adobe-Cloud-Speicherprojekt zu einem veralteten Workfront-Speicherprogramm hinzufügen und dem Programm oder dem Portfolio Dokumente beigefügt sind, bleibt das Programm oder der Speicher der Portfoliodokumente im Workfront-Speicher. Das Speichersymbol für veraltete Workfront ![Speichersymbol für veraltete Workfront](assets/legacy-storage-project-icon.png) wird jedoch aus dem Programm oder dem Portfolio entfernt (je nachdem, welche Dokumente angehängt wurden, bevor Sie das Projekt verschieben).
+      >* Sie können kein Legacy-Workfront-Speicherprojekt zu einem Adobe-Cloud-Speicherprogramm hinzufügen.
+      >
+      >Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und verwandte Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+      >
+      >Nicht alle Workfront-Instanzen verfügen über beide Arten von Dokumentspeichern.
+
    1. (Optional) Klicken Sie auf das **Löschen**-Symbol ![Löschen](assets/delete-icon.png) neben dem Namen eines Projekts, wenn Sie es nicht zum Programm hinzufügen möchten.
 
    1. Klicken Sie **[!UICONTROL Projekte hinzufügen]**. <!--check at unshimming-->

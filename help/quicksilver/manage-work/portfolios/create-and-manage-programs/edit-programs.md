@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1160'
 ht-degree: 5%
 
 ---
@@ -78,11 +78,11 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the above note will also come to the Edit Program box)</p>
    -->
 
-   Gehen Sie wie folgt vor, um Informationen [!UICONTROL &#x200B; Abschnitt &#x200B;]Details“ zu bearbeiten:
+   Gehen Sie wie folgt vor, um Informationen [!UICONTROL  Abschnitt ]Details“ zu bearbeiten:
 
    1. (Optional) Klicken Sie auf **[!UICONTROL Symbol „Alle]** reduzieren“ in der oberen rechten Ecke, um alle Bereiche zu reduzieren.
    1. (Optional und bedingt) Wenn ein Bereich reduziert ist, klicken Sie auf den **Nach rechts zeigenden Pfeil** Nach ![rechts zeigenden Pfeil](assets/right-pointing-arrow.png) neben jedem Bereich, um den Bereich zu erweitern, den Sie bearbeiten möchten.
-   1. Informationen zu den im Abschnitt [!UICONTROL Programmdetails] angezeigten Feldern erhalten Sie, indem Sie das Programm wie unten beschrieben im Feld [!UICONTROL Programm &#x200B;] bearbeiten.
+   1. Informationen zu den im Abschnitt [!UICONTROL Programmdetails] angezeigten Feldern erhalten Sie, indem Sie das Programm wie unten beschrieben im Feld [!UICONTROL Programm ] bearbeiten.
    1. (Optional) Wenn keine benutzerdefinierten Formulare an das Programm angehängt sind, geben Sie den Namen eines Formulars in das Feld **[!UICONTROL Benutzerdefiniertes Formular hinzufügen]** ein, wählen Sie es aus, wenn es in der Liste angezeigt wird, und klicken Sie dann auf **[!UICONTROL Änderungen speichern]**.
    1. (Optional) Klicken Sie auf **[!UICONTROL Export]**-Symbol ![Export](assets/export.png), um die [!UICONTROL Übersicht] und benutzerdefinierten Formularinformationen in eine PDF-Datei zu exportieren, und klicken Sie dann auf **[!UICONTROL Exportieren]**. Wählen Sie aus den folgenden Optionen aus:
 
@@ -154,8 +154,17 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
      <tr> 
       <td role="rowheader">[!UICONTROL Gruppe]</td> 
       <td> <p>Fügen Sie den Namen einer einzelnen Gruppe hinzu, wenn die Gruppe mit dem Programm verknüpft ist oder für den Abschluss des Programms verantwortlich ist. </p> <p><b>TIPP</b></p>  <p>Gehen Sie beim Zugriff auf das Feld [!UICONTROL Group] auf der Seite [!UICONTROL Program Details] wie folgt vor, um sicherzustellen, dass Sie die richtige Gruppe auswählen: </p> <p>Bewegen Sie den Mauszeiger über den Gruppennamen und klicken Sie auf das Symbol [!UICONTROL information] <img src="assets/info-icon.png"> daneben. Dadurch wird eine QuickInfo angezeigt, die Informationen über die Gruppe auflistet, wie z. B. die Hierarchie der darüber liegenden Gruppen und deren Administratoren.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>Diese Option ist im Feld [!UICONTROL Programm bearbeiten] nicht verfügbar. </p> </p> </td> 
-     </tr> 
-    </tbody> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">[!UICONTROL ist aktiv]</td> 
+      <td> <p>Aktivieren Sie diese Einstellung, wenn dieses Programm aktiv sein soll und Benutzer es finden können, um es mit Projekten zu verknüpfen.</p>
+   <p>Wenn diese Option deaktiviert ist, wird das Programm im Feld Programm eines Projekts oder einer Vorlage nicht angezeigt. </p>
+   <p>Diese Einstellung ist standardmäßig aktiviert. </p>
+   </td> 
+     </tr>
+
+   </tbody> 
    </table>
 
    <!--
