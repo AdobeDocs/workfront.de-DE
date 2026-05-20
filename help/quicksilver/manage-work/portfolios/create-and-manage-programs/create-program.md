@@ -8,16 +8,16 @@ feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ccf8af65b9f8ac96a4f9fa2e4dc32a721477375a
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '1278'
-ht-degree: 5%
+source-wordcount: '1449'
+ht-degree: 4%
 
 ---
 
 # Erstellen eines Programms
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 05/2026-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
@@ -127,17 +127,27 @@ Sie können ein Programm in Workfront mit einer der folgenden Methoden erstellen
 
    * Erstellen Sie ein Programm im Bereich [!UICONTROL Programme]:
 
-      1. Klicken Sie **[!UICONTROL Hauptmenü auf]** Programme“.
+      1. Klicken Sie **[!UICONTROL Programme]** im [!DNL **Hauptmenü**] ![Hauptmenü](assets/lines-main-menu.png).
       1. Klicken Sie auf **[!UICONTROL Neues Programm]**.
       1. Geben Sie in das angezeigte Feld den Namen einer bestehenden Portfolio in das Feld **[!UICONTROL Portfolio auswählen]** ein.
       1. Geben Sie den Namen des neuen Programms in das Feld **[!UICONTROL Name]** ein.
       1. Klicken Sie auf **[!UICONTROL Speichern]**.
    * Erstellen Sie ein Programm aus dem Bereich [!UICONTROL Portfolios]:
 
-      1. Klicken Sie **[!UICONTROL Portfolios]** im [!UICONTROL Hauptmenü] und öffnen Sie dann ein Portfolio.
+      1. Klicken Sie **[!UICONTROL Portfolios]** im [!DNL **Hauptmenü**] ![Hauptmenü](assets/lines-main-menu.png) und öffnen Sie dann ein Portfolio.
       1. Klicken Sie im linken Bedienfeld auf **[!UICONTROL Programme]**.
       1. Klicken Sie auf **[!UICONTROL Dropdown]** Menü „Neues Programm“ und dann auf **[!UICONTROL Neues Programm]**.
+   * Vorhandenes Programm hinzufügen:
+      1. Klicken Sie **[!UICONTROL Portfolios]** im [!DNL **Hauptmenü**] ![Hauptmenü](assets/lines-main-menu.png) und öffnen Sie dann ein Portfolio.
+      1. Klicken Sie im linken Bedienfeld auf **[!UICONTROL Programme]**.
+      1. Klicken Sie auf **[!UICONTROL Dropdown]** Menü „Neues Programm“ und dann auf **[!UICONTROL Vorhandenes Programm]**.
+      1. Geben Sie den Namen eines vorhandenen Programms ein, oder klicken Sie auf das Dropdown-Menü, und wählen Sie es aus der Liste aus.
 
+     >[!NOTE]
+     >
+     >Wenn Ihr Unternehmen sowohl ältere Workfront- als auch Adobe Cloud-Dokumentspeicher verwendet, können Sie kein Projekt mit einem anderen Speichertyp als das Programm zu einem Programm hinzufügen.
+     >Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Arten von Dokumentspeicher.
+     >Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und zugehörige Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 1. (Bedingt) Wenn Sie das Programm aus einem Portfolio erstellt haben, geben Sie den Namen für das Programm im Feld **[!UICONTROL Nicht benanntes Programm]** an.
 
@@ -172,13 +182,20 @@ Sie können die folgenden Informationen angeben:
       <td role="rowheader">[!UICONTROL Programm-Manager]</td> 
       <td> <p>Geben Sie den Namen des Benutzers ein, der als Programm-Manager fungieren soll, und klicken Sie auf den Namen des Benutzers, wenn er in der Dropdown-Liste angezeigt wird. Dies ist dasselbe wie der [!UICONTROL Program Owner]. </p> <p>Tipp: Sie können den Programm-Manager auch in der Kopfzeile des Programms aktualisieren. </p> </td> 
      </tr> 
-     <tr data-mc-conditions=""> 
+     <tr> 
       <td role="rowheader">[!UICONTROL Gruppe] </td> 
       <td> <p>Fügen Sie den Namen einer einzelnen Gruppe hinzu, wenn die Gruppe Eigentümer des Programms ist oder für dessen Abschluss verantwortlich ist. </p> <p>Sie können sicherstellen, dass Sie die richtige Gruppe auswählen, indem Sie den Mauszeiger darüber bewegen und auf das <img src="assets/info-icon.png"> [!UICONTROL information] klicken, das neben der Gruppe angezeigt wird. Dadurch wird eine QuickInfo angezeigt, die Informationen über die Gruppe auflistet, wie z. B. die Hierarchie der darüber liegenden Gruppen und deren Administratoren.</p> 
-       <div data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-        <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> 
-       </div> </td> 
-     </tr> 
+       <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> 
+        </td> 
+     </tr>
+
+</tr> 
+   <tr> 
+   <td role="rowheader">[!UICONTROL ist aktiv] </td> 
+   <td> <p>Aktivieren Sie diese Einstellung, wenn dieses Programm aktiv sein soll und Benutzer es finden können, um es mit Projekten zu verknüpfen.</p>
+   <p>Wenn diese Option deaktiviert ist, wird das Programm im Feld Programm eines Projekts oder einer Vorlage nicht angezeigt. </p> 
+ </td> 
+   </tr> 
     </tbody> 
    </table>
 
@@ -210,7 +227,7 @@ Die folgenden Informationen werden in der Kopfzeile eines Programms angezeigt:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Kopfzeileninformationen</td> 
+   <td role="rowheader"><strong>Kopfzeileninformationen</strong></td> 
    <td> <strong>Hinweise</strong> </td> 
   </tr> 
   <tr> 
@@ -223,19 +240,20 @@ Die folgenden Informationen werden in der Kopfzeile eines Programms angezeigt:
   </tr> 
   <tr> 
    <td role="rowheader">Name des Objekttyps und Aktivierungsstatus</td> 
-   <td>Wenn Sie ein Programm anzeigen, wird das Wort „Programm“ mit einem orangefarbenen Symbol angezeigt. Daneben wird das Wort "[!UICONTROL Deactivated]" angezeigt, und die Kontur ist grau, wenn das Programm nicht als [!UICONTROL Active] markiert ist. </td> 
+   <td>Wenn Sie ein Programm anzeigen, wird das Wort „Programm“ mit einem orangefarbenen Symbol angezeigt. Das Wort "[!UICONTROL Deactivated]" wird daneben angezeigt, wenn das Programm im Bereich [!UICONTROL **Program Details**] nicht als [!UICONTROL Is Active] markiert ist. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Der Aktionsbereich des Programms </td> 
    <td> <p>Klicken Sie auf eine der folgenden Optionen, um auf weitere Informationen oder Bearbeitungsoptionen für das Programm zuzugreifen:</p> 
     <ul> 
      <li>Das Sternsymbol zum Hinzufügen des Programms zur Favoritenliste</li> 
+     <li>Die Schaltfläche [!UICONTROL **Freigeben**] zum Freigeben für andere</li> 
      <li> <p>Das Menü [!UICONTROL Mehr] <img src="assets/qs-more-menu.png"> eine der folgenden Aktionen ausführen: </p> 
       <ul> 
        <li>Programm bearbeiten</li> 
        <li>Deaktivieren Sie sie. Wenn ein Programm deaktiviert ist, können Sie es nicht mehr mit Projekten auf Projektebene verknüpfen. </li> 
        <li> <p>Löschen. Beim Löschen des Programms werden die Projekte nicht gelöscht. Dadurch wird die Zuordnung der Projekte zum Programm aufgehoben. </p> </li> 
-       <li>Für andere freigeben</li> 
+       <li>Berechnen Sie die Ausdrücke für das Programm neu. Dadurch werden alle berechneten benutzerdefinierten Felder im benutzerdefinierten Formular des Programms neu berechnet. </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 

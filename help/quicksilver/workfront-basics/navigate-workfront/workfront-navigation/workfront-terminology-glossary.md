@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18e899b87eb950222b0d22f41a998a458baa6f49
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '21715'
+source-wordcount: '21830'
 ht-degree: 98%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 98%
 
 <!--Audited: 04/2026-->
 
-Bob: 4-30
+<!--Bob: 4-30-->
 
 >[!IMPORTANT]
 >
@@ -1436,6 +1436,27 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[!UICONTROL Nur bei Änderung]</td> 
    <td> <p>Eine Art der [!UICONTROL Projektaktualisierung]. Wenn diese Option ausgewählt ist, werden die Timelines „[!UICONTROL Projiziert]“ und „[!UICONTROL Geplant]“ des Projekts nur dann aktualisiert, wenn eine Aktualisierung oder Änderung am Projekt oder an einer Aufgabe innerhalb des Projekts vorgenommen wird. Das Projekt wird nicht jede Nacht aktualisiert.</p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Auswählen des Aktualisierungstyps eines Projekts </a>.</p> </td> 
+  </tr>
+
+</tr>
+  <tr> 
+   <td>[!UICONTROL auf veraltetem Workfront-Speicher]</td> 
+   <td>  <p>Das alte Workfront-Speichersymbol <img src="assets/legacy-storage-project-icon.png"> zeigt an, dass ein Objekt mit dem Workfront-Dokumentspeicher verknüpft ist. </p> 
+   <p>Das Symbol wird neben dem Namen eines Objekts, in der Kopfzeile oder in einigen Listen angezeigt. </p>
+   <p>Einige Kunden verfügen über ältere Workfront- und Adobe-Cloud-Dokumentenspeicher. Dokumente können für Kunden, die beide Speichertypen besitzen, in einer dieser Umgebungen gespeichert werden.</p>
+   <p>Die folgenden Objekte können entweder über Workfront oder Adobe Cloud-Dokumentspeicher verfügen:</p>
+   <ul><li>Projekte</li>
+   <li>Portfolios</li>
+   <li>Programme</li>
+   <li>Vorlagen</li>
+   <li>Aufgaben</li>
+   <li>Probleme</li>
+   <li>Vorlagenaufgaben</li></ul>
+   <p>Nur Projekte, Portfolios, Programme und Vorlagen können das Speichersymbol „Bei veraltetem Workfront" anzeigen. </p>
+   <p>Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Arten von Dokumentspeicher. 
+  <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/review-and-approve-work/esm-overview.md">Übersicht über den Adobe-Cloud-Speicher</a>. </p>
+
+</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Op-Aufgabe]</td> 

@@ -8,10 +8,10 @@ feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 8%
+source-wordcount: '1179'
+ht-degree: 7%
 
 ---
 
@@ -114,6 +114,12 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 ## Vorlage an ein vorhandenes Projekt anhängen {#attach-a-template-to-an-existing-project}
 
 Sie können eine Vorlage über die Projektseite oder eine Projektliste oder einen Bericht an ein Projekt anhängen.
+
+>[!NOTE]
+>
+>Wenn Ihr Unternehmen sowohl den alten Workfront- als auch den Adobe-Cloud-Dokumentspeicher verwendet, können Sie eine Vorlage mit einem anderen Speichertyp als dem des Projekts anhängen. Dadurch wird der Dokumentspeicher für das Projekt nicht geändert.
+>
+>Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und verwandte Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 {{step1-to-projects}}
 

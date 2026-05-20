@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
 source-wordcount: '1269'
 ht-degree: 5%
@@ -95,7 +95,7 @@ Old:
 * Alle Teilaufgaben, Probleme und Notizen werden dem neuen Projekt zugeordnet.
 * Dokumente, Dokumentversionen und Testsendungen werden in das neue Projekt verschoben.
 * Beim Konvertieren einer Aufgabe in ein Projekt gibt es ein Verarbeitungslimit von 5 Minuten. Wenn an die Aufgabe eine große Anzahl von Dokumenten angehängt ist und sie nicht konvertiert werden kann, müssen Sie möglicherweise einige der Dokumente entfernen und erneut versuchen.
-* Wenn Ihr Unternehmen sowohl den alten Workfront- als auch den Adobe-Cloud-Speicher für Dokumente verwendet, gibt es beim Konvertieren einer Aufgabe in ein Projekt die folgenden Szenarien: <!--this info also duplicated in Document management overview for projects and related objects and Convert an issue to a project-->
+* Wenn Ihr Unternehmen sowohl den veralteten Workfront- als auch den Adobe-Cloud-Speicher für Dokumente verwendet, gibt es beim Konvertieren einer Aufgabe in ein Projekt die folgenden Szenarien: <!--this info also duplicated in Document management overview for projects and related objects and Convert an issue to a project-->
    * Eine alte Workfront-Speicheraufgabe erstellt ein veraltetes Workfront-Speicherprojekt.
    * Eine Adobe-Cloud-Speicheraufgabe erstellt ein Adobe-Cloud-Speicherprojekt.
    * Wenn Sie eine ältere Workfront-Speichervorlage zum Konvertieren einer Adobe-Cloud-Speicheraufgabe verwenden, wird ein Adobe-Cloud-Speicherprojekt erstellt.

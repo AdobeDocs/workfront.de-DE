@@ -5,10 +5,11 @@ title: Programme löschen und deaktivieren
 description: Ein Programm stellt eine Sammlung von Projekten dar, die eine gemeinsame Strategie, ein gemeinsames Ziel oder ein gemeinsames Ziel haben und Projektgrenzen überschreiten. Programme sind eine Unterteilung von Portfolios und können nicht außerhalb eines Portfolios existieren. Programme nutzen in der Regel dieselben Ressourcen wie andere Programme innerhalb desselben Portfolios. Sie können ein Programm löschen oder deaktivieren, wenn es irrelevant wird.
 author: Alina
 feature: Work Management, Strategic Planning
-source-git-commit: 85ccee879fd4ba5a80b6e885458839901f83d26e
+exl-id: 605d1ec5-ca2e-4ff0-87e1-fa53d8ac4a95
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 0%
+source-wordcount: '464'
+ht-degree: 7%
 
 ---
 
@@ -38,7 +39,7 @@ Es wird empfohlen, ein Portfolio zu deaktivieren, anstatt es zu löschen, um die
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
-   <td> <p>[!UICONTROL Standard]</p><p>[!UICONTROL -Plan]</p> </td> 
+   <td> <p>[!UICONTROL Standard]</p><p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -51,7 +52,7 @@ Es wird empfohlen, ein Portfolio zu deaktivieren, anstatt es zu löschen, um die
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -73,7 +74,14 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 {{step1-to-programs}}
 
 1. Klicken Sie auf den Namen eines Programms, um es zu öffnen.
-1. Klicken Sie auf das **Mehr**-Menü rechts neben dem Programmnamen und dann auf **Programm deaktivieren**.
+1. Führen Sie einen der folgenden Schritte aus:
+
+   * Klicken Sie auf das **Mehr**-Menü rechts neben dem Programmnamen und dann auf **Programm deaktivieren**.
+   * Klicken Sie auf das **Mehr**-Menü rechts neben dem Programm und anschließend auf **Bearbeiten**
+
+     ODER
+
+     Klicken Sie im linken Bereich auf **Programmdetails** und deaktivieren Sie das Kontrollkästchen **Ist aktiv**.
 
    Das Programm wird sofort deaktiviert und Folgendes geschieht:
 

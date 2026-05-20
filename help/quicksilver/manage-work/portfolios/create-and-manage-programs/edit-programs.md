@@ -8,9 +8,9 @@ feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1160'
 ht-degree: 5%
 
 ---
@@ -154,8 +154,17 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
      <tr> 
       <td role="rowheader">[!UICONTROL Gruppe]</td> 
       <td> <p>Fügen Sie den Namen einer einzelnen Gruppe hinzu, wenn die Gruppe mit dem Programm verknüpft ist oder für den Abschluss des Programms verantwortlich ist. </p> <p><b>TIPP</b></p>  <p>Gehen Sie beim Zugriff auf das Feld [!UICONTROL Group] auf der Seite [!UICONTROL Program Details] wie folgt vor, um sicherzustellen, dass Sie die richtige Gruppe auswählen: </p> <p>Bewegen Sie den Mauszeiger über den Gruppennamen und klicken Sie auf das Symbol [!UICONTROL information] <img src="assets/info-icon.png"> daneben. Dadurch wird eine QuickInfo angezeigt, die Informationen über die Gruppe auflistet, wie z. B. die Hierarchie der darüber liegenden Gruppen und deren Administratoren.</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>Diese Option ist im Feld [!UICONTROL Programm bearbeiten] nicht verfügbar. </p> </p> </td> 
-     </tr> 
-    </tbody> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">[!UICONTROL ist aktiv]</td> 
+      <td> <p>Aktivieren Sie diese Einstellung, wenn dieses Programm aktiv sein soll und Benutzer es finden können, um es mit Projekten zu verknüpfen.</p>
+   <p>Wenn diese Option deaktiviert ist, wird das Programm im Feld Programm eines Projekts oder einer Vorlage nicht angezeigt. </p>
+   <p>Diese Einstellung ist standardmäßig aktiviert. </p>
+   </td> 
+     </tr>
+
+   </tbody> 
    </table>
 
    <!--

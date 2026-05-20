@@ -8,16 +8,16 @@ feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 14%
+source-wordcount: '382'
+ht-degree: 9%
 
 ---
 
 # Hinzufügen eines vorhandenen Programms zu einem Portfolio
 
-<!--Audited: 10/2025-->
+<!--Audited: 05/2026-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
@@ -87,6 +87,21 @@ Old:
 
 ## Hinzufügen eines vorhandenen Programms zu einem Portfolio
 
+>[!NOTE]
+>
+>Wenn Ihr Unternehmen sowohl den veralteten Workfront- als auch den Adobe-Cloud-Speicher für Dokumente verwendet, gibt es die folgenden Szenarien:
+>
+>
+>* Wenn Sie ein Adobe-Cloud-Speicherprogramm zu einem alten Workfront-Speicherportfolio hinzufügen und dem Portfolio keine Dokumente angehängt sind, wird das Portfolio in Adobe Cloud-Speicher konvertiert.
+>* Wenn Sie ein Adobe-Cloud-Speicherprogramm zu einem alten Workfront-Speicherportfolio hinzufügen und dem Portfolio Dokumente beigefügt sind, bleibt der Speicher für Portfoliodokumente im Workfront-Speicher. Das alte Workfront-Speichersymbol ![Legacy-Workfront-Speichersymbol](assets/legacy-storage-project-icon.png) wird jedoch aus dem Portfolio entfernt.
+>* Sie können kein Legacy-Workfront-Speicherprogramm zu einem Adobe Cloud-Speicherportfolio hinzufügen.
+>
+>Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und verwandte Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+>
+>Nicht alle Workfront-Instanzen verfügen über beide Arten von Dokumentspeichern.
+
+So fügen Sie ein vorhandenes Programm einem anderen Portfolio hinzu:
+
 1. Gehen Sie zu einem Portfolio und klicken Sie **[!UICONTROL linken Bereich]** Programme“.
 1. Klicken Sie auf **[!UICONTROL Neues Programm]**.
 1. Klicken Sie auf **[!UICONTROL Vorhandenes Programm]**.
@@ -108,3 +123,4 @@ Old:
 1. Klicken Sie **[!UICONTROL Programme hinzufügen]**.
 
    Das Programm wird auf der Registerkarte **[!UICONTROL Programme]** des ausgewählten Portfolios angezeigt.
+
