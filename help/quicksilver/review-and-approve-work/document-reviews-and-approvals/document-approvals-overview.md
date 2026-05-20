@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 12242501adb13cd349a2282996c7186e90d6c94d
 workflow-type: tm+mt
-source-wordcount: '3914'
+source-wordcount: '3928'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Der Frame.io-Viewer unterstützt alle gängigen Video-, Bild-, Audio-, PDF- und 
 
 #### Zugriff und Lizenzierung für den Frame.io-Viewer
 
-Der Frame.io-Viewer ist der Standard-Viewer für alle Workfront-Prüfungs- und Genehmigungs-Workflows. Es ist automatisch für alle Workfront-Benutzer mit einer gebührenpflichtigen Lizenz enthalten. Für die Verwendung des Frame.io Viewers für Reviews und Genehmigungen ist keine zusätzliche Frame.io-Lizenz erforderlich.
+Der Frame.io-Viewer ist der Standard-Viewer für alle Workfront-Prüfungs- und Genehmigungs-Workflows. Es ist automatisch ohne zusätzliche Kosten für alle Workfront-Benutzer enthalten, einschließlich externer Benutzer, die einer Überprüfung oder Genehmigung zugewiesen sind. Für die Verwendung des Frame.io Viewers für Reviews und Genehmigungen ist keine zusätzliche Frame.io-Lizenz erforderlich.
 
 Wenn Ihr Unternehmen die zusätzlichen Frame.io-Funktionen nutzen möchte, die mit dieser Integration verfügbar sind, z. B. das direkte Hochladen von Assets in Projekte in Frame.io, können Sie eine Frame.io Enterprise-Lizenz erwerben. Wenden Sie sich an Ihren Adobe-Kundenbetreuer, um eine Demo zu planen und die Vorteile der vollständigen Frame.io-Lösung zu erkunden.
 
@@ -180,7 +180,7 @@ Um eine einheitliche Überprüfung und Genehmigung zu verwenden, müssen die fol
 
 **Benötige ich eine Frame.io-Lizenz, um diese Integration nutzen zu können?**
 
-Nein. Der Frame.io-Viewer ist automatisch für alle Workfront-Anwender mit einer kostenpflichtigen Lizenz ohne zusätzliche Kosten enthalten. Sie benötigen keine separate Frame.io-Lizenz, um Assets über Workfront zu überprüfen und zu genehmigen.
+Nein. Der Frame.io-Viewer wird automatisch ohne zusätzliche Kosten für alle Workfront-Benutzer eingebunden, einschließlich externer Benutzer, die zur Überprüfung oder Genehmigung von Assets eingeladen werden. Sie benötigen keine separate Frame.io-Lizenz, um Assets über Workfront zu überprüfen und zu genehmigen.
 
 Wenn Ihr Unternehmen Zugriff auf zusätzliche Frame.io-Funktionen möchte - z. B. das direkte Hochladen von Assets in Projekte in Frame.io -, können Sie eine Frame.io Enterprise-Lizenz erwerben. Weitere Informationen erhalten Sie von Ihrem Adobe-Kundenbetreuer.
 
@@ -469,7 +469,7 @@ Benutzer können den Frame.io-Viewer direkt von Workfront aus starten. Alle Prü
 
 Ja. Sobald ein Asset den Prüfungs- und Validierungszyklus abgeschlossen hat, können Sie es zur endgültigen Speicherung und Verteilung an Adobe Experience Manager Assets übertragen. Dadurch werden Workfront für Work-Management, Frame.io für die Überprüfung und AEM für die Verwaltung digitaler Assets zu einer einheitlichen Content-supply chain verbunden.
 
-Weitere Informationen finden Sie unter „Verwenden [&#x200B; Adobe Experience Manager mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+Weitere Informationen finden Sie unter „Verwenden [ Adobe Experience Manager mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 **Wie passt die einheitliche Überprüfung und Genehmigung in Adobe GenStudio?**
 

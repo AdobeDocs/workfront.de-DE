@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: ca9663abd511508a327d074c54bde53450af08d5
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1792'
 ht-degree: 2%
 
 ---
@@ -240,3 +240,12 @@ In der benutzerdefinierten Sandbox-Aktualisierungsumgebung ist die nächtliche N
 
    * Erinnerungsbenachrichtigungen
    * Automatische, verspätete oder frühzeitige Erinnerungsbenachrichtigungen
+
+### Hinweis zu Geschäftsregeln
+
+Geschäftsregeln werden absichtlich aus der Workfront-Vorschau ausgeschlossen und die Sandbox-Umgebung aktualisiert. Im Gegensatz zu den meisten Daten werden Geschäftsregeln wie Benutzer als umgebungsspezifische Konfiguration behandelt. Jede Umgebung kann einen eigenen Regelsatz beibehalten, der auf ihren Zweck zugeschnitten ist (z. B. Tests, Entwicklung oder Produktion).
+
+Das Einschließen von Geschäftsregeln in eine Aktualisierung würde diese Konfigurationen überschreiben und möglicherweise Regeln stören, die Administratoren absichtlich in Nicht-Produktionsumgebungen eingerichtet haben.
+
+Wenn Sie Geschäftsregeln zwischen Umgebungen verschieben müssen, verwenden Sie die Umgebungs-Promotion, mit der Sie Konfigurationsobjekte selektiv übertragen können, wobei die Kontrolle über Zeitpunkt und Umfang bleibt. Weitere Informationen finden Sie unter [Übersicht über das Verschieben von Objekten zwischen Workfront-Umgebungen](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
+

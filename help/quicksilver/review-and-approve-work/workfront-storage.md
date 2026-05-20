@@ -6,9 +6,9 @@ description: Planen Sie den Rollout von Workfront auf dem Adobe Cloud-Speicher. 
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 12242501adb13cd349a2282996c7186e90d6c94d
 workflow-type: tm+mt
-source-wordcount: '2359'
+source-wordcount: '2375'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ In der folgenden Tabelle sind die wichtigsten Unterschiede beim Wechsel zum Adob
 | [Der Bereich „Neue Dokumente“](#the-new-documents-area) | Ein neu gestalteter, einheitlicher Dokumentbereich ersetzt den alten Dokumentbereich. | Kein globaler Dokumentbereich. Zugriff auf Dokumente aus einem Programm, Portfolio, Projekt, einer Aufgabe oder einem Problem. |
 | [Dokumentberechtigungen](#document-permissions) | Dokumente übernehmen Berechtigungen aus dem Projekt, der Aufgabe oder dem Problem, mit dem bzw. dem sie verknüpft sind. | Sie können keine Berechtigungen für einzelne Dokumente freigeben oder festlegen. Sie verwalten den gesamten Zugriff über das Modal „Objektfreigabe“ in Workfront, das an systemgenerierte Dokumentordner kaskadiert wird. |
 | [Objektberechtigungszuordnung](#object-permissions-mapping) | Die Berechtigungen Verwalten und Beitragen von Workfront sind beide in Frame.io den Optionen Bearbeiten und Freigeben zugeordnet. Karten nur zu Kommentaren anzeigen. | Berechtigungen werden in Workfront verwaltet. Benutzer von „Verwalten“ und „Beitragen“ erhalten in Frame.io externe Freigabefunktionen. |
-| [Prüfungs- und Genehmigungs-Viewer](#review-and-approval-viewer) | Der Frame.io-Viewer ersetzt den Workfront Proofing Viewer. | Enthalten für alle Workfront-Anwender mit einer kostenpflichtigen -Lizenz. Unterstützt Markup, Kommentare mit Zeitstempel, Versionsverlauf, Mobile, 40+ Formate, Dateien mit bis zu 500 GB. |
+| [Prüfungs- und Genehmigungs-Viewer](#review-and-approval-viewer) | Der Frame.io-Viewer ersetzt den Workfront Proofing Viewer. | Enthalten für alle Workfront-Benutzer, einschließlich externer Benutzer, die einer Überprüfung oder Genehmigung zugewiesen wurden. Unterstützt Markup, Kommentare mit Zeitstempel, Versionsverlauf, Mobile, 40+ Formate, Dateien mit bis zu 500 GB. |
 | [Regeln für die Objektbenennung](#object-naming-rules) | Es gelten strenge Benennungsregeln: eindeutige Namen innerhalb eines Portfolios oder Projekts, keine Sonderzeichen, kein abschließender Punkt oder Leerzeichen, 255-Zeichen-Limit. | Workfront benennt Objekte bei Konflikten automatisch um. Audit-Vorlagen, die neue Projektnamen und -strukturen generieren. |
 | [Objektportabilität](#object-portability) | Sie können Objekte nur wie Speichermodelle zwischen Objekten verschieben, kopieren und konvertieren. | Adobe Cloud-Speicherobjekte können nicht in Legacy-Projekte verschoben werden oder umgekehrt. Wenn Sie ein Adobe Cloud-Speicherprojekt in ein veraltetes Portfolio oder Programm verschieben, wird das übergeordnete Element in Adobe Cloud-Speicher konvertiert. |
 | [Funktionen nicht verfügbar](#capabilities-not-available-on-adobe-cloud-storage-objects) | Workfront Proof, der Workfront-Dokument-Viewer, Favoriten-Dokumente und Anfragedokumente sind nicht Teil des Erlebnisses. | Ältere Objekte behalten diese Funktionen bei. Workfront Proof erhält keine neuen Investitionen und wird in einer zukünftigen Version eingestellt. |
@@ -102,7 +102,7 @@ Weitere Informationen finden Sie unter [Objektberechtigungen und Zugriffsebene -
 
 ### Prüfer und Validierungsanzeiger
 
-Bei Adobe-Cloud-Speicherobjekten ist der Frame.io-Viewer die Überprüfungs- und Validierungsoberfläche anstelle von Workfront Proof. Der Frame.io-Viewer ist für alle Workfront-Benutzer mit einer kostenpflichtigen -Lizenz enthalten.
+Bei Adobe-Cloud-Speicherobjekten ist der Frame.io-Viewer die Überprüfungs- und Validierungsoberfläche anstelle von Workfront Proof. Der Frame.io-Viewer ist für alle Workfront-Benutzer ohne zusätzliche Kosten enthalten, einschließlich externer Benutzer, die einer Überprüfung oder Genehmigung zugewiesen sind.
 
 Der Frame.io-Viewer bietet:
 
