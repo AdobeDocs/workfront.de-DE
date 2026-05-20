@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 34861693e7671c3e485668ab7887a4cd05ae6e99
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '1020'
 ht-degree: 4%
 
 ---
@@ -35,7 +35,7 @@ Weitere Informationen zu Frame.io finden Sie unter [Erste Schritte mit Frame.io]
 
 Projektkoordinatoren können in Workfront Projekte erstellen und Arbeiten planen. Projekte, die in einer -Instanz mit aktivierter Frame.io-Integration erstellt wurden, nutzen den Adobe-Cloud-Speicher, der die Speicherung und Verwaltung von Assets innerhalb des Adobe-Ökosystems ermöglicht.
 
-Wenn Ihr Unternehmen über eine Frame.io Enterprise-Lizenz verfügt, sind in Workfront erstellte Projekte auch in Frame.io sichtbar, sodass Benutzende mit beiden Produkten interagieren und Assets hochladen können.
+Wenn Ihr Unternehmen über eine Frame.io Enterprise-Lizenz verfügt, sind in Workfront erstellte Projekte auch in Frame.io sichtbar, sodass Benutzende mit beiden Produkten interagieren und Assets hochladen können. In Frame.io werden alle mit Workfront verknüpften Projekte in einem einzigen Workspace namens **Workfront verknüpfte Projekte** gruppiert. Weitere Informationen dazu, wie verknüpfte Projekte in Frame.io angezeigt werden und sich verhalten, finden Sie unter [Übersicht über die Adobe Workfront-Integration](https://help.frame.io/en/articles/12242607-adobe-workfront-integration-overview) in der Dokumentation zu Frame.io.
 
 Informationen zu Adobe-Cloud-Speicher oder Projekten in Frame.io finden Sie unter
 
@@ -106,7 +106,7 @@ Sobald alle Prüfungsaktivitäten abgeschlossen sind, müssen genehmigende Perso
 
 Validierungsverantwortliche können ihre Überprüfung in Workfront als abgeschlossen markieren. Dies ist jedoch nicht erforderlich, damit das Asset im Genehmigungsprozess fortfahren kann.
 
-Weitere Informationen zu Entscheidungen in Workfront finden Sie unter [Übersicht über den &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
+Weitere Informationen zu Entscheidungen in Workfront finden Sie unter [Übersicht über den ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
 ![Frame-Viewer und Entscheidung](assets/decision-fio.png)
 
