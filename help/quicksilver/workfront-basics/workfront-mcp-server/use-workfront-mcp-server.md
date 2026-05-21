@@ -168,7 +168,7 @@ Alle Elemente, auf die Sie in Workfront über Zugriffsebenen und Objektberechtig
 
 ### Werden meine Workfront-Daten an den Anbieter der KI-Agentenplattform gesendet oder von diesem gespeichert?
 
-Weitere Informationen finden Sie unter [ und Sicherheit ](#data-and-security) diesem Artikel.
+Weitere Informationen finden Sie unter [&#x200B; und Sicherheit &#x200B;](#data-and-security) diesem Artikel.
 
 ### Was passiert, wenn eine neue Version des Workfront MCP-Servers veröffentlicht wird?
 
