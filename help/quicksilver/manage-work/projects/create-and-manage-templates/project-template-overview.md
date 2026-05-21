@@ -1,19 +1,19 @@
 ---
 product-area: templates
 navigation-topic: templates-navigation-topic
-title: Projektvorlage - Übersicht
+title: Überblick über Projektvorlagen
 description: Sie können Projektvorlagen verwenden, um die meisten wiederholbaren Prozesse, Informationen und Einstellungen zu erfassen, die mit den Projekten in Ihrer Organisation verbunden sind.
 author: Alina
 feature: Work Management
 exl-id: cac7662f-f2ae-44f0-a0bb-1569c03d172e
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+source-git-commit: 35cf3692f0fd93b8835755c316e14efc99af3fb8
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 2%
+source-wordcount: '702'
+ht-degree: 5%
 
 ---
 
-# Projektvorlage - Übersicht
+# Überblick über Projektvorlagen
 
 <!-- Audited: 12/2023 -->
 
@@ -56,9 +56,9 @@ Beachten Sie beim Erstellen von Vorlagen Folgendes:
   Informationen zur Dauer finden Sie in den folgenden Artikeln:
 
    * [Übersicht über die Aufgabendauer und den Dauertyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
-   * [Übersicht über die Projektdauer](../../../manage-work/projects/planning-a-project/project-duration.md)
+   * [Überblick über die Projektdauer](../../../manage-work/projects/planning-a-project/project-duration.md)
 
-  Informationen zu den geplanten Stunden finden Sie unter [Übersicht über die geplanten Stunden](../../../manage-work/tasks/task-information/planned-hours.md).
+  Informationen zu den geplanten Stunden finden Sie unter [Überblick über geplante Stunden](../../../manage-work/tasks/task-information/planned-hours.md).
 
 * Fügen Sie die Vorgängerbeziehungen zwischen den Aufgaben ganz am Ende hinzu, wenn Sie über ein klares Verständnis des zukünftigen Projektplans in seiner Gesamtheit verfügen. Das Hinzufügen von Vorgängern zu Vorlagenaufgaben ähnelt dem Hinzufügen von Vorgängern zu Aufgaben in einem Projekt.
 
@@ -70,6 +70,20 @@ Beachten Sie beim Erstellen von Vorlagen Folgendes:
   Informationen zum Erstellen von Genehmigungen finden Sie [Genehmigungsprozess für Arbeitselemente erstellen](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
   Informationen zum Verknüpfen eines Genehmigungsprozesses mit einem Arbeitselement finden Sie unter [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit Arbeit](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+
+* Entscheiden Sie, welchen Dokumentspeicher Sie für Ihre zukünftigen Projekte verwenden möchten. Einige Organisationen haben Zugriff auf die folgenden Dokumentspeichertypen:
+
+   * Legacy Workfront-Speicher
+   * Adobe Cloud-Speicher
+
+  Das Hinzufügen von Dokumenten unterscheidet sich je nach ausgewähltem Speichertyp. Der Speichertyp, den Sie für Ihre Vorlagen auswählen, wirkt sich auf den Speichertyp aus, den zukünftige Projekte erben.
+
+  Das Hinzufügen von Vorlagen zu vorhandenen Projekten wirkt sich nicht auf den Speichertyp des Projekts aus.
+
+  Weitere Informationen finden Sie auch unter:
+
+   * [Erstellen einer Projektvorlage](/help/quicksilver/manage-work/projects/create-and-manage-templates/create-template.md)
+   * [Übersicht über das Dokumentenmanagement für Projekte und zugehörige Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)
 
 ## Möglichkeiten zum Erstellen von Vorlagen
 

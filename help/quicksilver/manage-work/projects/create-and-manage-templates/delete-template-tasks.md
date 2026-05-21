@@ -9,10 +9,10 @@ feature: Work Management
 exl-id: dd733e9f-8045-4b65-828b-fe6aa40d973f
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 35cf3692f0fd93b8835755c316e14efc99af3fb8
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 13%
+source-wordcount: '285'
+ht-degree: 12%
 
 ---
 
@@ -22,7 +22,7 @@ Sie können Vorlagenaufgaben löschen, wenn sie nicht mehr benötigt werden. Aus
 
 >[!NOTE]
 >
->Gelöschte Vorlagenaufgaben können nicht wiederhergestellt werden. Sie können eine Vorlage wiederherstellen, durch die auch alle Aufgaben auf der Vorlage wiederhergestellt werden. Wenn Sie Vorlagenaufgaben (und nicht die Vorlage) löschen, können Sie sie nie wiederherstellen.
+>Gelöschte Vorlagenaufgaben und deren zusätzliche Informationen (Zuweisungen, Dokumente, Genehmigungen) können nicht wiederhergestellt werden. Sie können eine Vorlage wiederherstellen, durch die auch alle Aufgaben auf der Vorlage wiederhergestellt werden. Wenn Sie Vorlagenaufgaben (und nicht die Vorlage) löschen, können Sie sie nie wiederherstellen.
 
 
 ## Zugriffsanforderungen
@@ -40,7 +40,7 @@ Sie können Vorlagenaufgaben löschen, wenn sie nicht mehr benötigt werden. Aus
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
    <td> <p>Standard</p>
-   <p>Plan</p> </td> 
+   <p>Abo</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
