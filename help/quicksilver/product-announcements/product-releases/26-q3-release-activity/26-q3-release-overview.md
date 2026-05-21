@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 5160a8bf1eadef19f1a041080670e1efe3777d2f
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 36%
+source-wordcount: '785'
+ht-degree: 34%
 
 ---
 
@@ -36,6 +36,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
 ## Adobe Workfront-Verbesserungen
 
 * [Verbesserungen bei Dokumenten](#documents-enhancements)
+* [Verbesserungen beim Finanzmanagement](#financial-management-enhancements)
 * [Verbesserungen beim Reporting](#reporting-enhancements)
 * [Verbesserungen bei Anfragen](#requesting-enhancements)
 
@@ -68,6 +69,30 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             <td><p>30. April 2026</p></td>
             <td><p>14. Mai 2026</p></td>
             <td><p>16. Juli 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Verbesserungen beim Finanzmanagement
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>Funktion</strong>
+            </td>
+            <td><strong>Vorschau</strong></td>
+            <td><strong>Schnellveröffentlichung</strong></td>
+            <td><strong>Vierteljährlich</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Tarifattribute können nicht bearbeitet werden, sobald sie für Tarife verwendet werden</a><p>[!BADGE Außerplanmäßig]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>Nachdem ein Attribut zu einer Rate in Workfront hinzugefügt wurde, können Sie dieses Attribut und seine Filter im Bereich „Setup“ nicht mehr bearbeiten. Dadurch wird die Datenintegrität gewahrt und verhindert, dass Raten versehentlich geändert werden, wenn Attribute aktualisiert werden.</p>
+            </td>
+            <td><p>21. Mai 2026</p></td>
+            <td><p>21. Mai 2026</p></td>
+            <td><p>21. Mai 2026</p></td>
         </tr>
     </tbody>
 </table>
