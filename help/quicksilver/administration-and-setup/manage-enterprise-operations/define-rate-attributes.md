@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d570ef6a-935f-4dd0-9c54-a480163ec9d8
-source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
+source-git-commit: d5346953162f82f0c1b35d623a0b47104127918d
 workflow-type: tm+mt
-source-wordcount: '1378'
+source-wordcount: '1390'
 ht-degree: 2%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 2%
 Tarifattribute erweitern die Tarifkarten- und Tariffunktionalität von Adobe Workfront, indem sie es Ihnen ermöglichen, zusätzliche Dimensionen zu Tarifen hinzuzufügen, die über das Aufgabengebiet hinausgehen. Dies ist entscheidend für Agenturen und Unternehmen, bei denen die Preise nicht nur nach Aufgabengebiet, sondern auch nach Faktoren wie Agentur, Standort, Marke, Kostenstelle oder anderen variieren.
 Durch Kombination dieser Attribute kann Workfront automatisch die richtige Rate für Zuweisungen auswählen und so die finanzielle Genauigkeit und Konsistenz über alle Projekte hinweg sicherstellen.
 
+Tarifattribute sind als einmalige grundlegende Einrichtung gedacht.
+
 >[!IMPORTANT]
 >
->Tarifattribute sind eine einmalige grundlegende Einrichtung.
-
-Sobald Attribute aktiviert und auf Tarifkarten und -sätze angewendet wurden, kann eine spätere Änderung dieser Attribute die Datenintegrität in Ihrer gesamten Finanzeinrichtung beeinträchtigen.
+>Sobald Tarifattribute aktiviert und auf Tarifkarten und -sätze angewendet wurden, können sie nicht mehr bearbeitet werden. Dadurch bleibt die Datenintegrität Ihrer Finanzeinrichtung erhalten.
 
 ## Übersicht über Tarifattribute
 
