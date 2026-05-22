@@ -85,7 +85,7 @@ Die Filterschaltflächen im Bereich [!UICONTROL Projekte und Arbeitszeittabellen
 
 1. Stellen Sie sicher, dass die Layout-Vorlage die folgenden Filter anzeigt:
 
-   * [!UICONTROL Projekte, an denen ich mitwirke] und [!UICONTROL Projekte, ] ich besitze) [!UICONTROL Projekte] Bereich
+   * [!UICONTROL Projekte, an denen ich mitwirke] und [!UICONTROL Projekte, &#x200B;] ich besitze) [!UICONTROL Projekte] Bereich
    * [!UICONTROL Meine Arbeitszeittabellen] und [!UICONTROL Meine Arbeitszeittabellen] im Bereich [!UICONTROL Arbeitszeittabelle]
 
    Gehen Sie dazu folgendermaßen vor:
