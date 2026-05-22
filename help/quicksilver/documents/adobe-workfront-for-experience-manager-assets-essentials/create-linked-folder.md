@@ -7,10 +7,10 @@ description: Sie können in Workfront einen Ordner erstellen, der mit Experience
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 11%
+source-wordcount: '491'
+ht-degree: 10%
 
 ---
 
@@ -59,7 +59,7 @@ Wenn ein Asset aus einem verknüpften Ordner innerhalb von Experience Manager As
   <tr>
    <td><strong>Konfigurationen der Zugriffsebene</strong>
    </td>
-   <td>Sie müssen ein Workfront-Administrator sein, um eine Experience Manager-Integration konfigurieren zu können. Nach der Konfiguration können Benutzer mit Planlizenz verknüpfte Ordner für einzelne Projekte einrichten.
+   <td>Sie müssen ein Workfront-Administrator sein, um eine Experience Manager-Integration konfigurieren zu können. Nach der Konfiguration können Benutzer mit einer Standard- oder Planlizenz verknüpfte Ordner für einzelne Projekte einrichten.
    </td>
   </tr>
 </table>

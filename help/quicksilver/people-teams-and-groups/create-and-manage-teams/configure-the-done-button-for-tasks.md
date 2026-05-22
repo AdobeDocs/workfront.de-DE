@@ -8,9 +8,9 @@ feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '767'
 ht-degree: 6%
 
 ---
@@ -27,7 +27,7 @@ Mit [!UICONTROL &#x200B; Schaltfläche &#x200B;]Fertig“ können Sie automatisc
 
 Benutzer mit bestimmten Berechtigungen können die Schaltfläche [!UICONTROL Fertig] konfigurieren, um sie mit bestimmten Status im System zu verknüpfen. Es gibt zwei verschiedene Möglichkeiten, wie die Schaltfläche [!UICONTROL Fertig] für Aufgaben in [!UICONTROL Workfront funktioniert]:
 
-* Wenn dem Benutzer ein Home-Team zugewiesen ist, kann ein [!DNL Workfront] oder ein Benutzer mit einer [!UICONTROL Plan]-Lizenz die Schaltfläche [!UICONTROL Fertig] so konfigurieren, dass bestimmte Status für Team-Mitglieder angezeigt werden. Siehe [Konfigurieren der Schaltfläche [!UICONTROL Fertig] für ein Team](#configure-the-uicontrol-done-button-for-a-team) in diesem Artikel.
+* Wenn dem Benutzer ein Home-Team zugewiesen ist, kann ein [!DNL Workfront] oder ein Benutzer mit einer [!UICONTROL Standard]- oder [!UICONTROL Plan]-Lizenz die Schaltfläche [!UICONTROL Fertig] so konfigurieren, dass bestimmte Status für Team-Mitglieder angezeigt werden. Siehe [Konfigurieren der Schaltfläche [!UICONTROL Fertig] für ein Team](#configure-the-uicontrol-done-button-for-a-team) in diesem Artikel.
 * Wenn der/die Benutzende kein [!UICONTROL Home-Team] hat, aber [!UICONTROL Andere Teams] in seinem/ihrem Profil hat, sucht Workfront nach der Einstellung der Schaltfläche [!UICONTROL Fertig] in jedem der Teams, die dem/der Benutzenden zugeordnet sind. Die Auswahl erfolgt nach dem Zufallsprinzip, und der mit einem der Teams verknüpfte Status wird für die Aufgabe verwendet.
 * Wenn dem Benutzer kein Home-Team zugewiesen ist, ist die Schaltfläche [!UICONTROL Fertig] für Aufgaben an den Status „Abgeschlossen“ gebunden. In diesem Szenario sind keine Konfigurationsoptionen verfügbar. Die Schaltfläche [!UICONTROL Fertig] wird automatisch auf diesen Status zurückgesetzt.
 
@@ -47,7 +47,7 @@ Benutzer mit bestimmten Berechtigungen können die Schaltfläche [!UICONTROL Fer
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>
    <p>Standard</p>
-   <p>Plan</p></td>
+   <p>Abo</p></td>
   </tr>  
  </tbody> 
 </table>

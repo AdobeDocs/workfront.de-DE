@@ -10,9 +10,9 @@ role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '2213'
+source-wordcount: '2231'
 ht-degree: 4%
 
 ---
@@ -51,7 +51,7 @@ Informationen zu Genehmigungen, die mit Dokumenten oder Korrekturabzügen verbun
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Paket*</td> 
+   <td role="rowheader">Adobe Workfront-Paket</td> 
    <td><p>Für den Genehmigungsprozess auf Systemebene oder für den einmaligen Gebrauch:</p><ul><li><p>Beliebiges Paket</p></li></ul>
    <p>Für den Genehmigungsprozess auf Gruppenebene:</p>
    <ul><li><p>Workflow-Prime oder Ultimate</p></li>
@@ -73,7 +73,7 @@ Informationen zu Genehmigungen, die mit Dokumenten oder Korrekturabzügen verbun
  </tbody> 
 </table>
 
-*Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

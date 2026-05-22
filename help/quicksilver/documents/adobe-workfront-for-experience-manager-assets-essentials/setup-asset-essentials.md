@@ -6,9 +6,9 @@ description: Verbinden Sie Ihre Arbeit mit Ihren Inhalten in Experience Manager 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '683'
 ht-degree: 6%
 
 ---
@@ -60,7 +60,7 @@ Verbinden Sie Ihre Arbeit mit Ihren Inhalten in Experience Manager Assets Essent
   <tr>
    <td><strong>Konfigurationen der Zugriffsebene</strong>
    </td>
-   <td>Sie müssen ein Workfront-Administrator sein, um eine Experience Manager-Integration konfigurieren zu können. Nach der Konfiguration können Benutzer mit Planlizenz verknüpfte Ordner für einzelne Projekte einrichten.
+   <td>Sie müssen ein Workfront-Administrator sein, um eine Experience Manager-Integration konfigurieren zu können. Nach der Konfiguration können Benutzer mit einer Standard- oder Planlizenz verknüpfte Ordner für einzelne Projekte einrichten.
    </td>
   </tr>
 </table>

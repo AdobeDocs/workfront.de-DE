@@ -9,10 +9,10 @@ feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '1500'
-ht-degree: 4%
+source-wordcount: '1508'
+ht-degree: 3%
 
 ---
 
@@ -125,7 +125,7 @@ Eine vollständige Liste der benutzerbasierten Platzhalterfiltervariablen finden
 
 Dies kann in den meisten Fällen vorkommen, wenn Sie über einen eingeschränkten Zugriff verfügen, der verhindert, dass Elemente im System angezeigt werden. Darüber hinaus werden die Elemente, die Sie sehen möchten, nicht für Sie freigegeben.
 
-Der Ersteller des Berichts kann den Bericht bearbeiten, um ihn mit den Zugriffsrechten eines Systemadministrators auszuführen, oder jeder Planbenutzer, der Zugriff hat, um die Daten anzuzeigen.
+Der Ersteller des Berichts kann den Bericht bearbeiten, um ihn mit den Zugriffsrechten eines Systemadministrators auszuführen, oder eines Standard- oder Plan-Benutzers, der Zugriff hat, um die Daten anzuzeigen.
 
 Weitere Informationen finden Sie unter [Bericht mit den Zugriffsrechten eines anderen Benutzers ausführen und bereitstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md).
 
@@ -188,7 +188,7 @@ Weitere Informationen zum Aktualisieren eines zwischengespeicherten Dashboards f
 
 Sie können den Besitzer eines Berichts nicht ändern. Der Benutzer, der den Bericht erstellt hat, kann jedoch anderen Benutzern erlauben, den Bericht zu bearbeiten. Wie Sie Benutzern die Bearbeitung eines Berichts ermöglichen können, hängt vom verwendeten Benutzertyp ab.
 
-* Systemadministratoren können Benutzern mit einer Planlizenz das Bearbeiten von Berichten gestatten, indem sie die Option Bearbeiten in der Zeile Berichte so konfigurieren, dass sie den Zugriff zum Erstellen eines Berichts einschließt.\
+* Systemadministratoren können Benutzern mit einer Standard- oder Planlizenz das Bearbeiten von Berichten ermöglichen, indem sie die Option Bearbeiten in der Zeile Berichte so konfigurieren, dass sie den Zugriff zum Erstellen eines Berichts enthält.\
   Weitere Informationen finden Sie unter [Zugriff auf Berichte, Dashboards und Kalender gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 * Jeder Endbenutzer, der Zugriff auf das Erstellen und Freigeben von Berichten hat, kann anderen erlauben, einzelne Berichte zu bearbeiten, indem er sie freigibt und anderen Benutzern Verwaltungsberechtigungen für sie erteilt.\

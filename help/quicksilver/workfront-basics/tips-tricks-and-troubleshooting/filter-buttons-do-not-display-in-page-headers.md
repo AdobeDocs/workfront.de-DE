@@ -1,37 +1,35 @@
 ---
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
-title: Filterschaltflächen werden nicht in Seitenüberschriften angezeigt
+title: Filterschaltflächen werden in Seitenüberschriften nicht angezeigt
 description: Lesen Sie diesen Artikel zur Fehlerbehebung bei Filterschaltflächen, die nicht in Seitenkopfzeilen angezeigt werden.
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 327564ed-60df-441a-a38b-a17a8c57adb0
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 3%
+source-wordcount: '287'
+ht-degree: 20%
 
 ---
 
-# Filterschaltflächen werden nicht in Seitenüberschriften angezeigt
+# Filterschaltflächen werden in Seitenüberschriften nicht angezeigt
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table>
   <tr>
    <td>Adobe Workfront-Paket
    </td>
-   <td> <p>Prime oder Ultimate</p>
-    <p>Workflow Ultimate</p>
-   </td>
+   <td>Beliebig</td>
   </tr>
   <tr>
    <td>Adobe Workfront-Lizenzen
    </td>
    <td><p>Standard</p>
-   <p>Plan</p>
+   <p>Abo</p>
    </td>
   </tr>
    <tr>
@@ -42,7 +40,7 @@ ht-degree: 3%
   </tr>
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -59,7 +57,7 @@ Die folgenden Filterschaltflächen werden nicht in den entsprechenden Bereichen 
    <td><strong>Filter-Schaltflächen</strong></td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL -Projekte] </p> </td> 
+   <td> <p>[!UICONTROL Projekte] </p> </td> 
    <td> 
     <ul> 
      <li> <p>[!UICONTROL Projekte, an denen ich mitwirke]</p> </li> 

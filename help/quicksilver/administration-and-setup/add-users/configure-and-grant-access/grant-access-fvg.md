@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4fb6eefd-74dd-4941-91d4-0e5f637febf3
-source-git-commit: c13d893ba3f8748666c8c2d36d66367a6ec4e855
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 17%
+source-wordcount: '339'
+ht-degree: 11%
 
 ---
 
@@ -56,7 +56,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
    ![](assets/gear-icon-filters-dashboards-groupings.png)
 
-   Standardmäßig haben Benutzende mit Plan-, Arbeits-, Prüfer- oder Anfragelizenzen die Möglichkeit zum vollständigen Anzeigen und Bearbeiten. Benutzende mit einer Lizenz für externe Benutzer haben keinen Zugriff auf Filter, Ansichten und Gruppierungen.
+   Standardmäßig haben Benutzer mit einer Standard-, Plan-, Arbeits-, Licht-, Prüfer-, Mitwirkende- oder Anfragelizenz die volle Anzeige- und Bearbeitungsfunktion. Benutzer mit einer Lizenz für externe Benutzer haben keinen Zugriff auf Filter, Ansichten und Gruppierungen.
 
    <!--
    If this changes, undraft section with table below
@@ -67,13 +67,16 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
    Nachdem die Zugriffsebene erstellt wurde, können Sie sie einem Benutzer zuweisen. Weitere Informationen finden Sie [Bearbeiten des Benutzerprofils](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
+## Zugriff auf Filter, Ansichten und Gruppierungen nach Lizenztyp
+
+Informationen dazu, was Benutzer in den einzelnen Zugriffsebenen mit Filtern, Ansichten und Gruppierungen tun können, finden Sie im Abschnitt [Filter, Ansichten und Gruppierungen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md#filters-views-and-groupings) im Artikel [Für jeden Objekttyp verfügbare Funktionen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md).
+
 <!--
-## Access to filters, views, and groupings by license type
 
-Drafting out this section for now because the table is redundant since all four license types can do everything.</span>
--->
+Drafting out this section for now because the table is redundant since all four license types can do everything.
 
-In dieser Tabelle ist aufgeführt, was ein Workfront-Administrator Benutzern mit jedem Lizenztyp für Filter, Ansichten und Gruppierungen erlauben kann. Informationen zu den Workfront-Lizenztypen finden Sie unter [Adobe Workfront-Lizenzen - Übersicht](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+
+This table lists what a Workfront administrator can allow users with each license type to do with filter, views, and groupings. For information about the Workfront license types, see [Adobe Workfront licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
 <table style="table-layout:auto">
 <col>
@@ -83,51 +86,51 @@ In dieser Tabelle ist aufgeführt, was ein Workfront-Administrator Benutzern mit
 <col>
 <thead>
 <tr>
-<th> Aktion </th>
-<th> Planerin oder Planer </th>
-<th> Arbeitskraft </th>
-<th> Prüfende Person </th>
-<th> Anfragende Person </th>
+<th> Action </th>
+<th> Planner </th>
+<th> Worker </th>
+<th> Reviewer </th>
+<th> Requester </th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Filter, Ansichten und Gruppierungen bearbeiten</td>
+<td>Edit filters, views, and groupings</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 </tr>
 <tr>
-<td>Filter, Ansichten und Gruppierungen erstellen</td>
+<td>Create filters, views, and groupings</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 </tr>
 <tr>
-<td>Filter, Ansichten und Gruppierungen anzeigen</td>
+<td>View filters, views, and groupings</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 </tr>
 <tr>
-<td>Filter, Ansichten und Gruppierungen löschen</td>
+<td>Delete filters, views, and groupings</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 </tr>
 <tr>
-<td>Filter, Ansichten und Gruppierungen freigeben</td>
+<td>Share filters, views, and groupings</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
 </tr>
 <tr>
-<td>Systemweit Filter, Ansichten und Gruppierungen freigeben</td>
+<td>Share filters, views, and groupings system-wide</td>
 <td>✓</td>
 <td>✓</td>
 <td>✓</td>
@@ -135,3 +138,5 @@ In dieser Tabelle ist aufgeführt, was ein Workfront-Administrator Benutzern mit
 </tr>
 </tbody>
 </table>
+
+-->

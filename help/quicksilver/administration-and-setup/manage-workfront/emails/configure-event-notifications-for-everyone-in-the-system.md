@@ -7,7 +7,7 @@ role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
 source-wordcount: '548'
 ht-degree: 7%
@@ -20,7 +20,7 @@ ht-degree: 7%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS-->
 
-Ereignisbenachrichtigungen Trigger-E-Mails an Benutzende, wenn ein bestimmtes Ereignis eintritt. Als Adobe Workfront-Admin oder Benutzende mit Planerzugriffsebene können Sie eine Ereignisbenachrichtigung für alle Benutzenden im System konfigurieren. Bei der Konfiguration einer Ereignisbenachrichtigung wird diese aktiviert oder deaktiviert.
+Ereignisbenachrichtigungen Trigger-E-Mails an Benutzende, wenn ein bestimmtes Ereignis eintritt. Als Adobe Workfront-Administrator oder Benutzer mit der Zugriffsebene „Standard“ oder „Plan“ können Sie eine Ereignisbenachrichtigung für alle Benutzer im System konfigurieren. Bei der Konfiguration einer Ereignisbenachrichtigung wird diese aktiviert oder deaktiviert.
 
 <!--Alina annotation on the word "all" in 2nd sentence: abive, drafted and remains QS only-->
 
@@ -28,7 +28,7 @@ Je nach dem von Ihnen aktivierten Ereignis und den aktivierten Benutzerprofilen 
 
 Sie müssen zunächst im Bereich Setup Ihrer Workfront-Instanz angeben, welche Benachrichtigungen Sie an alle Ihre Benutzerinnen und Benutzer senden möchten. Nachdem Sie eine Benachrichtigung im Bereich Setup aktiviert haben, wird sie für jeden Benutzer auf seiner Profilseite als aktiviert angezeigt.
 
-Nachdem Benachrichtigungen im Bereich Setup aktiviert wurden und auf den Profilseiten der Benutzer angezeigt werden, können einzelne Benutzer oder ein anderer Benutzer mit einer Planlizenz die aktivierten Benachrichtigungen auch in einem Benutzerprofil konfigurieren, um zu steuern, welche Benachrichtigungen dieser bestimmte Benutzer erhält und wie oft. Weitere Informationen finden Sie unter [Eigene E-Mail-Benachrichtigungen ändern](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Nachdem Benachrichtigungen im Bereich Setup aktiviert wurden und auf den Profilseiten der Benutzer angezeigt werden, können einzelne Benutzer oder ein anderer Benutzer mit einer Standard- oder Planlizenz die aktivierten Benachrichtigungen auch in einem Benutzerprofil konfigurieren, um zu steuern, welche Benachrichtigungen dieser bestimmte Benutzer erhält und wie oft. Weitere Informationen finden Sie unter [Eigene E-Mail-Benachrichtigungen ändern](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Eine Liste aller Ereignisbenachrichtigungen, die Sie aktivieren und deaktivieren können, finden Sie unter [Ereignistypen](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
@@ -54,7 +54,7 @@ Informationen zum Entsperren einer Ereignisbenachrichtigung, damit Gruppenadmini
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Planer oder höher mit administrativem Zugriff auf Erinnerungsnachrichten</p> </td> 
+   <td> <p>Administrativer Zugriff auf Erinnerungsnachrichten</p> </td> 
   </tr> 
  </tbody> 
 </table>

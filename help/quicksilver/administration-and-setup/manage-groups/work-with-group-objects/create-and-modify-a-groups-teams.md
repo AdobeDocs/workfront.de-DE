@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 5%
+source-wordcount: '992'
+ht-degree: 7%
 
 ---
 
@@ -21,7 +21,7 @@ Wenn Sie eine Gruppe anzeigen, die Sie im Bereich Gruppen verwalten, können Sie
 
 Wenn es Gruppen oberhalb Ihrer Gruppe gibt, können deren Administratoren diese Dinge auch für Ihre Gruppe tun. Dasselbe gilt für Workfront-Administratoren (für jede Gruppe).
 
-Informationen dazu, wie Benutzer mit Planlizenz ein Team erstellen können, finden Sie unter [Team erstellen](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
+Informationen dazu, wie Benutzer mit einer Standard- oder Planlizenz ein Team erstellen können, finden Sie unter [Team erstellen](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 
 Informationen dazu, wie ein Workfront-Administrator ein Team erstellen kann, finden Sie unter [Erstellen eines Teams im Bereich „Setup“](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md).
 
@@ -40,7 +40,7 @@ Informationen dazu, wie ein Workfront-Administrator ein Team erstellen kann, fin
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr>
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -49,7 +49,7 @@ Informationen dazu, wie ein Workfront-Administrator ein Team erstellen kann, fin
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

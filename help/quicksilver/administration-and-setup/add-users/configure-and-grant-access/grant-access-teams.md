@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 915d1520-f5c4-4e33-b645-cb219289383c
-source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 18%
+source-wordcount: '677'
+ht-degree: 17%
 
 ---
 
@@ -71,7 +71,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
        </tbody>
       </table>
 
-   * **Bearbeiten**: Wenn Sie konfigurieren, wie Benutzer mit Plan- und Arbeitslizenz Teams verwalten können, ändern Sie eine der folgenden Optionen:
+   * **Bearbeiten**: Wenn Sie konfigurieren, wie Benutzer mit einer Standard-, Plan- oder Arbeitslizenz Teams verwalten können, ändern Sie eine der folgenden Optionen:
 
      <table style="table-layout:auto">
        <col>
@@ -79,19 +79,19 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
        <tbody>
         <tr>
          <td role="rowheader">Erstellen</td>
-         <td><p>Ermöglicht Benutzenden mit Plan- oder Arbeitslizenz, Teams zu erstellen.</p><p>Standardmäßig ist diese Option aktiviert.</p></td>
+         <td><p>Ermöglicht Benutzern mit einer Standard-, Plan- oder Arbeitslizenz, Teams zu erstellen.</p><p>Standardmäßig ist diese Option aktiviert.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Löschen</td>
-         <td><p> Ermöglicht Benutzenden mit einer Planlizenz, die Teams zu löschen, auf die sie Zugriff haben, um sie zu bearbeiten (für Benutzende mit einer Arbeitslizenz nicht verfügbar).</p><p>Standardmäßig ist diese Option aktiviert.</p></td>
+         <td><p> Ermöglicht Benutzenden mit einer Standard- oder Plan-Lizenz das Löschen der Teams, auf die sie Zugriff haben, um sie zu bearbeiten (für Benutzende mit einer Arbeits-Lizenz nicht verfügbar).</p><p>Standardmäßig ist diese Option aktiviert.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Teams in von mir verwalteten Gruppen bearbeiten (nur Gruppenadmins)</td>
-         <td><p>Ermöglicht Benutzenden von Planlizenzen, die als Gruppenadministratoren festgelegt sind, Teams zu bearbeiten, die mit den von ihnen verwalteten Gruppen verknüpft sind.</p><p>Standardmäßig ist diese Option aktiviert.</p></td>
+         <td><p>Ermöglicht es Benutzenden von Standard- oder Planlizenzen, die als Gruppenadministratoren festgelegt sind, Teams zu bearbeiten, die mit den von ihnen verwalteten Gruppen verknüpft sind.</p><p>Standardmäßig ist diese Option aktiviert.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Teams bearbeiten, denen ich angehöre</td>
-         <td><p>Ermöglicht Benutzenden, eine Plan- oder Arbeitslizenz zu vergeben, um Teams zu bearbeiten, deren Mitglied sie sind.</p><p>Standardmäßig ist diese Option deaktiviert.</p></td>
+         <td><p>Ermöglicht Benutzenden mit einer Standard-, Plan- oder Arbeitslizenz, Teams zu bearbeiten, in denen sie Mitglied sind.</p><p>Standardmäßig ist diese Option deaktiviert.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Meinen Gruppen zugeordnete Teams anzeigen</td>
@@ -125,4 +125,4 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 ## Zugriff auf Teams nach Lizenztyp
 
-Informationen dazu, was Benutzer in den einzelnen Zugriffsebenen mit Teams tun können, finden Sie im Abschnitt [Teams](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#teams) im Artikel [Funktionalität verfügbar für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Informationen dazu, was Benutzer in den einzelnen Zugriffsebenen mit Teams tun können, finden Sie im Abschnitt [Teams](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md#teams) im Artikel [Funktionalität verfügbar für jeden Objekttyp](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md).

@@ -6,14 +6,14 @@ description: Der Prozess der Genehmigung von Arbeitszeittabellen bietet Managern
 author: Lisa
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 1%
+source-wordcount: '678'
+ht-degree: 6%
 
 ---
 
-# Arbeitszeittabelle genehmigen
+# Genehmigen einer Arbeitszeittabelle
 
 <!--Audited: 8/2024-->
 
@@ -25,7 +25,7 @@ Informationen zum Senden einer Arbeitszeittabelle finden Sie unter [Senden einer
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto">
  <col> 
@@ -39,7 +39,7 @@ Informationen zum Senden einer Arbeitszeittabelle finden Sie unter [Senden einer
    <td>Adobe Workfront-Lizenz</td> 
    <td>
    <p>Standard</p>
-   <p>Plan</p></td>
+   <p>Abo</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -48,7 +48,7 @@ Informationen zum Senden einer Arbeitszeittabelle finden Sie unter [Senden einer
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -56,11 +56,11 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 Normalerweise werden Arbeitszeittabellen von funktionalen Managern oder Personalmitarbeitern genehmigt. Arbeitszeittabellen werden normalerweise nicht von Projektmanagern genehmigt. Projektmanager können die für Projekte aufgezeichnete Zeit genehmigen, Team- oder Personalmanager müssen jedoch Arbeitszeittabellen genehmigen.
 
-Bei der Erstellung des Arbeitszeittabellen-Profils wird eine Person definiert, die Arbeitszeittabellen genehmigt. Sie müssen über eine Planlizenz verfügen, um als genehmigende Person benannt zu werden.
+Bei der Erstellung des Arbeitszeittabellen-Profils wird eine Person definiert, die Arbeitszeittabellen genehmigt. Sie müssen über eine Standard- oder Planlizenz verfügen, um als genehmigende Person benannt zu werden.
 
 Weitere Informationen zum Bestimmen von Arbeitszeittabellen-Genehmigern finden Sie im Abschnitt [Erstellen oder Bearbeiten eines Arbeitszeittabellen](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create) im Artikel [Erstellen, Bearbeiten und Zuweisen von Arbeitszeittabellen-Profilen](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
-## Arbeitszeittabelle genehmigen
+## Genehmigen einer Arbeitszeittabelle
 
 Sie können alle eingereichten Arbeitszeittabellen genehmigen, wenn Sie als genehmigende Person benannt wurden. Wenn eine Arbeitszeittabelle zur Genehmigung eingereicht wird, wird sie im Widget **Meine Genehmigungen** im Bereich **Startseite** aufgelistet. Weitere Informationen finden Sie unter [Arbeiten genehmigen](../../review-and-approve-work/manage-approvals/approving-work.md).
 
@@ -79,7 +79,7 @@ Der Bereich **Arbeitszeittabellen** wird geöffnet.
 
 1. Wählen Sie **Meine Arbeitszeittabellen-Genehmigungen** oben rechts auf der Seite aus, um nur die von Ihnen genehmigten Arbeitszeittabellen anzuzeigen
 
-   Oder
+   ODER
 
    Wählen Sie den Filter **Meine Arbeitszeittabellen** oben in der Arbeitszeittabellen-Liste aus.
 
@@ -103,7 +103,7 @@ Der Bereich **Arbeitszeittabellen** wird geöffnet.
 
 1. Klicken Sie auf **Genehmigen**
 
-   Oder
+   ODER
 
    Wenn Sie die Arbeitszeittabelle ablehnen möchten, klicken **unten links** der Arbeitszeittabelle auf „Ablehnen“.
 

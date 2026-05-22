@@ -9,9 +9,9 @@ feature: People Teams and Groups
 exl-id: 28eb1967-390b-4500-abfc-8ed68ff14a16
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '381'
 ht-degree: 2%
 
 ---
@@ -48,7 +48,7 @@ Die folgende Tabelle zeigt die Unterschiede und Gemeinsamkeiten zwischen Gruppen
 
 | **Funktionalität** | **Gruppe** | **Team** |
 |---|---|---|
-| Ein Planer kann erstellen |  | ✓ |
+| Ein Standard- oder Planlizenzbenutzer kann Folgendes erstellen |  | ✓ |
 | Nur ein Workfront-Administrator kann Folgendes erstellen | ✓ |  |
 | Freigeben von Objekten | ✓ | ✓ |
 | Aufgabe zuweisen |  | ✓ |
@@ -67,7 +67,7 @@ Die folgende Tabelle zeigt die Unterschiede und Gemeinsamkeiten zwischen Gruppen
 | Sichtbarkeit von Zeitplänen | ✓ |  |
 | Arbeitszeittabellen-Profile zuweisen | ✓ | ✓ |
 | Layoutvorlagen zuweisen | ✓ | ✓ |
-| Jeder Benutzer mit einer Planlizenz kann sie einem anderen Benutzer zuweisen |  | ✓ |
+| Jeder Benutzer mit einer Standard- oder Plan-Lizenz kann sie einem anderen Benutzer zuweisen |  | ✓ |
 | Anpassen von Status | ✓ |  |
 | Anpassen der Schaltfläche [!UICONTROL Fertig] |  | ✓ |
 | Lizenzen tracken | ✓ |  |

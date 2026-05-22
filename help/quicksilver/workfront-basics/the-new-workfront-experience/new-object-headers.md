@@ -8,9 +8,9 @@ author: Courtney
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '3697'
+source-wordcount: '3702'
 ht-degree: 3%
 
 ---
@@ -700,7 +700,7 @@ Die Kopfzeile der Gruppe enthält folgende Informationen:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Lizenzen in Verwendung] </td> 
-   <td> <p>Im Feld [!UICONTROL Lizenzen in Verwendung] wird die Anzahl der [!UICONTROL Plan]- und [!UICONTROL Work]-Lizenzanwender in der Gruppe und ihren Untergruppen angezeigt. Sie können auf die Zahlen klicken, um diese Informationen für alle 5 Lizenztypen anzuzeigen.</p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">Anzeigen der Anzahl der zugeordneten und in einer Gruppe verwendeten Lizenzen in der neuen [!DNL Adobe Workfront]</a>.</p> </td> 
+   <td> <p>Im Feld [!UICONTROL Lizenzen in Verwendung] wird die Anzahl der [!UICONTROL Standard]- oder [!UICONTROL Plan]- und [!UICONTROL Work]-Lizenzanwender in der Gruppe und ihren Untergruppen angezeigt. Sie können auf die Zahlen klicken, um diese Informationen für alle Lizenztypen anzuzeigen.</p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md" class="MCXref xref">Anzeigen der Anzahl der zugeordneten und in einer Gruppe verwendeten Lizenzen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Gruppenadministratoren]</td> 
@@ -747,7 +747,7 @@ In der Kopfzeile des Dokuments werden die folgenden Informationen angezeigt:
   </tr> 
   <tr> 
    <td role="rowheader">Der Bereich für die [!UICONTROL -Entscheidung] Genehmigung</td> 
-   <td> Der Bereich [!UICONTROL Entscheidungen] wird in der oberen rechten Ecke der Dokumentkopfzeile angezeigt. Dieser Bereich unterscheidet sich je nach Genehmigungsphase und abhängig davon, ob Sie eine genehmigende Person, eine prüfende Person oder keines von beiden sind. <ul><li> <p>Wenn Sie eine genehmigende Person sind, können Sie die folgenden Symbole verwenden, um die Genehmigungen für das Dokument zu verwalten:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL genehmigen]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Rückruf]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Reject]</p> <p>Weitere Informationen zu Genehmigungsentscheidungen finden Sie unter <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Genehmigen von </a>.</li><li><p>Als Reviewer können Sie auf die Schaltfläche Meine Überprüfung abschließen klicken, um anzugeben, dass Sie das Dokument geprüft haben.</p><p>Weitere Informationen zur Überprüfung eines Dokuments finden Sie unter <a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">Überprüfen eines Dokuments</a>.</p></li><li>Andernfalls wird in diesem Bereich der aktuelle Prüfungs- und Genehmigungsstatus für das Dokument angezeigt.</li><ul></p> </td> 
+   <td> Der Bereich [!UICONTROL Entscheidungen] wird in der oberen rechten Ecke der Dokumentkopfzeile angezeigt.Dieser Bereich unterscheidet sich je nach Genehmigungsphase und abhängig davon, ob Sie eine genehmigende Person, eine prüfende Person oder eine der beiden Personen sind. <ul><li> <p>Wenn Sie eine genehmigende Person sind, können Sie die folgenden Symbole verwenden, um die Genehmigungen für das Dokument zu verwalten:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL genehmigen]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Rückruf]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Reject]</p> <p>Weitere Informationen zu Genehmigungsentscheidungen finden Sie unter <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Genehmigen von </a>.</li><li><p>Als Reviewer können Sie auf die Schaltfläche Meine Überprüfung abschließen klicken, um anzugeben, dass Sie das Dokument geprüft haben.</p><p>Weitere Informationen zur Überprüfung eines Dokuments finden Sie unter <a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">Überprüfen eines Dokuments</a>.</p></li><li>Andernfalls wird in diesem Bereich der aktuelle Prüfungs- und Genehmigungsstatus für das Dokument angezeigt.</li><ul></p> </td> 
   </tr> 
  </tbody> 
 </table>

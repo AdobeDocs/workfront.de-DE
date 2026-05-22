@@ -6,10 +6,10 @@ description: Erfahren Sie, wie Sie Objekte freigeben und verhindern können, das
 author: Alina
 feature: Get Started with Workfront
 exl-id: 02106282-addb-4bdd-82d2-9da5a5f6a687
-source-git-commit: 276c433f18f896d0b76d6b2e118c858ca4e746a4
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 4%
+source-wordcount: '577'
+ht-degree: 11%
 
 ---
 
@@ -36,23 +36,20 @@ Wenn Sie mehrere Objekte für mehrere Personen (in großen Mengen) freigeben mü
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
-
-Sie müssen über Folgendes verfügen, um Objekte freizugeben:
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Beliebig </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Neue Lizenz: Standard</p> 
-   Oder
-   <p>Aktuelle Lizenz: Plan</p>
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> <p>Standard</p>
+   <p>Abo</p>
    </td> 
   </tr> 
   <tr> 
@@ -70,7 +67,7 @@ Sie müssen über Folgendes verfügen, um Objekte freizugeben:
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

@@ -11,10 +11,10 @@ role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 10%
+source-wordcount: '513'
+ht-degree: 9%
 
 ---
 
@@ -74,7 +74,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 ## Überlegungen zum Erstellen und Verwalten von Layout-Vorlagen
 
 * Benutzer können einige Bereiche ihres eigenen Layouts anpassen. Wenn Sie eine Layout-Vorlage ändern, werden Ihre Änderungen mit allen vorgenommenen Anpassungen zusammengeführt, ohne sie zu überschreiben oder zurückzusetzen. Dies gilt auch, wenn Sie Benutzende einer neuen Layout-Vorlage zuweisen.
-* Gruppenadministratoren und Benutzer mit einer Planlizenz, die andere Benutzer bearbeiten können, können den Benutzern, die sie bei der Bearbeitung ihres Profils verwalten können, Layoutvorlagen auf Systemebene und Gruppenebene hinzufügen.
+* Gruppenadministratoren und Benutzer mit einer Standard- oder Plan-Lizenz, die andere Benutzer bearbeiten können, können den Benutzern, die sie bei der Bearbeitung ihres Profils verwalten können, Layoutvorlagen auf Systemebene und Gruppenebene hinzufügen.
 * Gruppenadministratoren können Aufgabengebieten oder Teams keine Layoutvorlagen zuweisen.
 
 Weitere Informationen zu Layout-Vorlagen finden Sie unter [Layout-Vorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
