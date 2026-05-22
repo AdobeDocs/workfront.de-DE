@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ee971729c414018a04b1d1fc2a59760e9ea0a59a
+source-git-commit: dbed69be1a57571e6c0701b7370e20be323037fe
 workflow-type: tm+mt
-source-wordcount: '21833'
-ht-degree: 98%
+source-wordcount: '21953'
+ht-degree: 97%
 
 ---
 
@@ -686,6 +686,10 @@ In der folgenden Tabelle finden Sie eine Liste häufig verwendeter Begriffe in A
    <td>Ein Menü links im Bildschirm, in dem sich die Elemente ändern, sodass sie mit dem aktiven Inhalt korrelieren. Wenn ein Benutzer bzw. eine Benutzerin beispielsweise ein Projekt anzeigt, enthält das [!UICONTROL Kontextmenü] Links zu projektbezogenen Informationen und Tools.</td> 
   </tr> 
   <tr> 
+   <td>[!UICONTROL Contributor]</td> 
+   <td><p>In der Regel ein Lizenztyp. Benutzende mit einer [!UICONTROL Contributor]-Lizenz können Anfragen für neue Arbeiten senden, die im System ausgeführt werden sollen.</p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Überblick über Zugriffsebenen</a>.</p></td> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Konvertiertes Problem – Urheber]</td> 
    <td>Ein Feld in einem Projekt- oder Aufgabenbericht, das Informationen zu dem Benutzer bzw. der Benutzerin anzeigt, der bzw. die [!UICONTROL primärer Kontakt] für ein Problem ist, wenn das Problem in ein Projekt oder eine Aufgabe konvertiert wird. Das Feld wird auch im Abschnitt [!UICONTROL Projektdetails] angezeigt, wo es den Namen des [!UICONTROL primären Kontakts] des konvertierten Problems anzeigt. Siehe auch „[!UICONTROL Primärer Kontakt]“ in diesem Artikel.</td> 
   </tr> 
@@ -1276,6 +1280,10 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[!UICONTROL Lizenz-Limit Arbeit]</td> 
    <td> <p>In einer Ansicht oder einem Bericht des Typs „[!UICONTROL Gruppe]“ enthält dieses Feld die maximale Anzahl der Lizenzen des Typs „[!UICONTROL Arbeit]“, die Benutzenden zugewiesen werden können, für die die entsprechende Gruppe als ihre [!UICONTROL Hauptgruppe] festgelegt ist.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL light]</td> 
+   <td><p>In der Regel ein Lizenztyp. Ein Benutzer mit einer [!UICONTROL Light]-Lizenz kann Arbeitselemente im System überprüfen und genehmigen.</p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Überblick über Zugriffsebenen</a>.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Eingeschränkte Benutzerrechte]</td> 
@@ -2147,7 +2155,11 @@ The designated full time equivalency for users. A full-time user should have 100
     <li>Die Spalten „Projektname“ oder „Aufgabenname“ für einen Problembericht. </li> </ul>
     Weitere Informationen finden Sie unter <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md">Ausführen und Bereitstellen eines Berichts mit den Zugriffsrechten eines anderen Benutzers oder einer anderen Benutzerin</a> 
    </td> 
-  </tr> 
+  </tr>
+  <tr>
+   <td>[!UICONTROL Standard]</td> 
+   <td> <p>Dies ist ein vollständiger Lizenztyp im [!DNL Workfront]-System. Diese Berechtigung ist für den Zugriff auf alle Funktionen in [!DNL Workfront] erforderlich.</p><p>Für Lizenzen in diesem Modell gibt es keine Entsprechung von Work. Benutzer, die zuvor über eine Arbeitslizenz verfügten, werden zu Standardbenutzern mit allen Funktionen dieser Lizenz.</p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">Überblick über Zugriffsebenen</a>.</p> </td> 
+  </tr>  
   <tr> 
    <td>[!UICONTROL Startdatum]</td> 
    <td> <p>Das Datum, an dem die Arbeit an einem Element beginnen soll. In [!DNL Workfront] gibt es mehrere Starttermine: </p> 
@@ -2584,3 +2596,4 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
  </tbody> 
 </table>
+
