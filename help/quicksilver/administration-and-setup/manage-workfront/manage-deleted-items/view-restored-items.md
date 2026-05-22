@@ -8,10 +8,10 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 0c0fc9df-23eb-4a2b-a5b0-6dbd742e8238
-source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 4%
+source-wordcount: '184'
+ht-degree: 20%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 4%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
-Als Adobe Workfront-Administrator oder Anwender mit einer Planlizenz können Sie anzeigen, welche Projekte, Aufgaben, Probleme und Dokumente in den letzten sieben Tagen wiederhergestellt wurden.
+Als Adobe Workfront-Administrator oder Benutzer mit einer Standard- oder Planlizenz können Sie anzeigen, welche Projekte, Aufgaben, Probleme und Dokumente in den letzten sieben Tagen wiederhergestellt wurden.
 
 Informationen zum Wiederherstellen eines Projekts, einer Aufgabe, eines Problems oder eines Dokuments nach dem Löschen finden Sie unter [Wiederherstellen gelöschter Elemente](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,11 +40,11 @@ Informationen zum Wiederherstellen eines Projekts, einer Aufgabe, eines Problems
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
-   <td>Systemadministrator</td> 
+   <td>Systemadmin</td> 
   </tr> 
  </tbody> 
 </table>

@@ -6,9 +6,9 @@ description: Verbinden Sie Ihre Arbeit mit Ihren Inhalten in Experience Manager 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '683'
 ht-degree: 6%
 
 ---
@@ -60,7 +60,7 @@ Verbinden Sie Ihre Arbeit mit Ihren Inhalten in Experience Manager Assets Essent
   <tr>
    <td><strong>Konfigurationen der Zugriffsebene</strong>
    </td>
-   <td>Sie müssen ein Workfront-Administrator sein, um eine Experience Manager-Integration konfigurieren zu können. Nach der Konfiguration können Benutzer mit Planlizenz verknüpfte Ordner für einzelne Projekte einrichten.
+   <td>Sie müssen ein Workfront-Administrator sein, um eine Experience Manager-Integration konfigurieren zu können. Nach der Konfiguration können Benutzer mit einer Standard- oder Planlizenz verknüpfte Ordner für einzelne Projekte einrichten.
    </td>
   </tr>
 </table>
@@ -114,7 +114,7 @@ Ordnen Sie Workfront-Objektdaten Asset-Medienfeldern in Experience Manager Asset
 
 Bevor Sie beginnen, müssen Sie
 
-* Konfigurieren Sie ein Metadatenschema in Experience Manager Assets Essentials, wie in [Konfigurieren der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) beschrieben.
+* Konfigurieren Sie ein Metadatenschema in Experience Manager Assets Essentials, wie in [Konfigurieren der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) beschrieben.
 * (Optional) Konfigurieren von benutzerdefinierten Formularfeldern in Workfront. Workfront verfügt über viele integrierte benutzerdefinierte Felder, die Sie verwenden können. Sie können jedoch auch eigene benutzerdefinierte Felder erstellen. Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Unterstützte Workfront- und Experience Manager Assets-Felder
@@ -129,7 +129,7 @@ Um mehrere einzeilige Textfelder Schlüsselwörtern zuzuordnen, geben Sie eine k
 
 <!--
 Look for essentials article
-For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=de).
+For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
 -->
 
 
@@ -137,7 +137,7 @@ For more information on keywords in Experience Manager Assets, including how to 
 
 Metadaten werden zugeordnet, wenn ein Asset zum ersten Mal von Workfront gepusht wird. Dokumente mit den integrierten oder benutzerdefinierten Feldern werden beim ersten Versand eines Assets an Experience Manager Assets Essentials automatisch den angegebenen Feldern zugeordnet.
 
-1. Wählen Sie in der **&#x200B;**&#x200B;Workfront ein integriertes oder benutzerdefiniertes Workfront-Feld aus.
+1. Wählen Sie in der **** Workfront ein integriertes oder benutzerdefiniertes Workfront-Feld aus.
 
    >[!NOTE]
    >

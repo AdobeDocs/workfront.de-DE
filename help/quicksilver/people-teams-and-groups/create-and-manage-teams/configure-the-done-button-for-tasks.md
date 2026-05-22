@@ -8,16 +8,16 @@ feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '767'
 ht-degree: 6%
 
 ---
 
 # Konfigurieren der Schaltfläche [!UICONTROL Fertig] für Aufgaben
 
-Mit [!UICONTROL &#x200B; Schaltfläche &#x200B;]Fertig“ können Sie automatisch den Status einer Aufgabe oder eines Problems festlegen. Standardmäßig markiert [!UICONTROL Adobe Workfront] eine Aufgabe als [!UICONTROL Abgeschlossen] wenn ein Verantwortlicher in seinem Arbeitselement auf Als abgeschlossen markieren klickt.
+Mit [!UICONTROL  Schaltfläche ]Fertig“ können Sie automatisch den Status einer Aufgabe oder eines Problems festlegen. Standardmäßig markiert [!UICONTROL Adobe Workfront] eine Aufgabe als [!UICONTROL Abgeschlossen] wenn ein Verantwortlicher in seinem Arbeitselement auf Als abgeschlossen markieren klickt.
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Mit [!UICONTROL &#x200B; Schaltfläche &#x200B;]Fertig“ können Sie automatisc
 
 Benutzer mit bestimmten Berechtigungen können die Schaltfläche [!UICONTROL Fertig] konfigurieren, um sie mit bestimmten Status im System zu verknüpfen. Es gibt zwei verschiedene Möglichkeiten, wie die Schaltfläche [!UICONTROL Fertig] für Aufgaben in [!UICONTROL Workfront funktioniert]:
 
-* Wenn dem Benutzer ein Home-Team zugewiesen ist, kann ein [!DNL Workfront] oder ein Benutzer mit einer [!UICONTROL Plan]-Lizenz die Schaltfläche [!UICONTROL Fertig] so konfigurieren, dass bestimmte Status für Team-Mitglieder angezeigt werden. Siehe [Konfigurieren der Schaltfläche [!UICONTROL Fertig] für ein Team](#configure-the-uicontrol-done-button-for-a-team) in diesem Artikel.
+* Wenn dem Benutzer ein Home-Team zugewiesen ist, kann ein [!DNL Workfront] oder ein Benutzer mit einer [!UICONTROL Standard]- oder [!UICONTROL Plan]-Lizenz die Schaltfläche [!UICONTROL Fertig] so konfigurieren, dass bestimmte Status für Team-Mitglieder angezeigt werden. Siehe [Konfigurieren der Schaltfläche [!UICONTROL Fertig] für ein Team](#configure-the-uicontrol-done-button-for-a-team) in diesem Artikel.
 * Wenn der/die Benutzende kein [!UICONTROL Home-Team] hat, aber [!UICONTROL Andere Teams] in seinem/ihrem Profil hat, sucht Workfront nach der Einstellung der Schaltfläche [!UICONTROL Fertig] in jedem der Teams, die dem/der Benutzenden zugeordnet sind. Die Auswahl erfolgt nach dem Zufallsprinzip, und der mit einem der Teams verknüpfte Status wird für die Aufgabe verwendet.
 * Wenn dem Benutzer kein Home-Team zugewiesen ist, ist die Schaltfläche [!UICONTROL Fertig] für Aufgaben an den Status „Abgeschlossen“ gebunden. In diesem Szenario sind keine Konfigurationsoptionen verfügbar. Die Schaltfläche [!UICONTROL Fertig] wird automatisch auf diesen Status zurückgesetzt.
 
@@ -47,7 +47,7 @@ Benutzer mit bestimmten Berechtigungen können die Schaltfläche [!UICONTROL Fer
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>
    <p>Standard</p>
-   <p>Plan</p></td>
+   <p>Abo</p></td>
   </tr>  
  </tbody> 
 </table>
@@ -58,7 +58,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 ## Konfigurieren der Schaltfläche [!UICONTROL Fertig] für ein Team
 
-Mit der Schaltfläche [!UICONTROL Fertig“ können Sie ändern, welcher Status dem Arbeitselement &#x200B;] wird. Sie können auch mehrere Status festlegen und es den Benutzenden ermöglichen, den entsprechenden Status auszuwählen.
+Mit der Schaltfläche [!UICONTROL Fertig“ können Sie ändern, welcher Status dem Arbeitselement ] wird. Sie können auch mehrere Status festlegen und es den Benutzenden ermöglichen, den entsprechenden Status auszuwählen.
 
 {{step1-to-team}}
 
@@ -73,7 +73,7 @@ Mit der Schaltfläche [!UICONTROL Fertig“ können Sie ändern, welcher Status 
    >Beachten Sie beim Auswählen von Status für Aufgaben oder Probleme Folgendes:
    >
    >* Wenn Sie einen Status für jeden Typ von Arbeitselement auswählen, wird der Aufgaben- oder Problemstatus auf diesen Status gesetzt, wenn ein Benutzer auf [!UICONTROL Fertig] auf sein Element klickt. Wenn Sie mehrere Status für jeden Typ von Arbeitselement festlegen, wird der Schaltfläche [!UICONTROL Fertig] ein Dropdown-Menü hinzugefügt und der Benutzer muss einen Status auswählen, um den Status des Arbeitselements zu ändern.
-   >* Sie können mit der Schaltfläche „Fertig“ nur Status [!UICONTROL &#x200B; Systemebene &#x200B;]. Sie können keine gruppenspezifischen Status mit Arbeitselementstatus verknüpfen.
+   >* Sie können mit der Schaltfläche „Fertig“ nur Status [!UICONTROL  Systemebene ]. Sie können keine gruppenspezifischen Status mit Arbeitselementstatus verknüpfen.
    >* Wenn ein(e) Benutzende(r), der/die dem Element zugewiesen ist, das Element in dem mit der Schaltfläche [!UICONTROL Fertig] verknüpften Status platziert, wird das Element für [!UICONTROL /] Benutzende angezeigt, unabhängig davon, ob der ausgewählte Status ein [!UICONTROL Abgeschlossen]- oder [!UICONTROL Geschlossen]-Status oder ein Arbeitsstatus ist.
    >   
    >   

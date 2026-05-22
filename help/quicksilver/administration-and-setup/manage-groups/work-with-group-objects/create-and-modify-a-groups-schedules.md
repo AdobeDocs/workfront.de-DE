@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a2a39746-331b-41d6-8c3c-e6a1eb68b43a
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 0%
+source-wordcount: '314'
+ht-degree: 10%
 
 ---
 
@@ -25,13 +25,13 @@ Allgemeine Informationen zum Erstellen und Bearbeiten eines Zeitplans finden Sie
 
 >[!NOTE]
 >
->Gruppenadministratoren und Benutzer mit einer Planlizenz, die andere Benutzer bearbeiten können, können einem anderen Benutzer einen Zeitplan auf Systemebene oder Gruppenebene hinzufügen, wenn sie das Profil dieses Benutzers bearbeiten.
+>Gruppenadministratoren und Benutzer mit einer Standard- oder Planlizenz, die andere Benutzer bearbeiten können, können einem anderen Benutzer einen Zeitplan auf Systemebene oder Gruppenebene hinzufügen, wenn sie das Profil dieses Benutzers bearbeiten.
 
 Informationen zur Verwendung von Zeitplänen in der Ressourcenplanung finden Sie unter [Zeitpläne - Übersicht](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) und [Ressourcenplaner - Übersicht](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,7 +44,7 @@ Informationen zur Verwendung von Zeitplänen in der Ressourcenplanung finden Sie
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr>
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -53,7 +53,7 @@ Informationen zur Verwendung von Zeitplänen in der Ressourcenplanung finden Sie
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

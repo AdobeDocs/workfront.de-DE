@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1558'
 ht-degree: 7%
 
 ---
@@ -33,7 +33,7 @@ Als Adobe Workfront-Administrator können Sie einen anderen Workfront-Administra
 >Dies unterscheidet sich von der Verwendung einer Zugriffsebene, um Benutzenden administrativen Zugriff auf bestimmte Bereiche des Systems zu gewähren. Weitere Informationen finden Sie hier:
 >
 >* [Benutzern administrativen Zugriff auf bestimmte Bereiche gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)
->* [Zugriff eines Workfront-Administrators vs. Zugriff eines Planbenutzers mit Administratorrechten](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights) in diesem Artikel
+>* [Zugriff eines Workfront-Administrators vs. Zugriff eines Standard- oder Plan-Benutzers mit Administratorrechten](#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights) in diesem Artikel
 >
 
 ## Zugriffsanforderungen
@@ -80,17 +80,17 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
    Der Benutzer verfügt jetzt über vollständige Systemadministratorrechte im System.
 
-## Zugriff eines Workfront-Administrators im Vergleich zum Zugriff eines Planbenutzers mit Administratorrechten  {#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights}
+## Zugriff eines Workfront-Administrators im Vergleich zum Zugriff eines Standard- oder Plan-Benutzers mit Administratorrechten  {#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights}
 
-Die beiden folgenden Tabellen zeigen den Unterschied zwischen den Zugriffsrechten einer Benutzerin oder eines Benutzers mit einer Workfront-Systemadministrator-Zugriffsebene und denen einer Benutzerin oder eines Benutzers mit einer Planlizenz mit einigen Administratorrechten.
+Die beiden folgenden Tabellen zeigen den Unterschied zwischen den Zugriffsrechten einer Person mit Workfront-Systemadministrator-Zugriffsebene und denen einer Person mit Standard- oder Planlizenz mit einigen Administratorrechten.
 
 Workfront-Admins können alle Objekte im System anzeigen (unabhängig davon, wer sie erstellt hat), neue erstellen und vorhandene ändern oder löschen. Sie haben vollen Zugriff auf alle Objekte im System.
 
-Benutzer mit einer Planlizenz, die Funktionen in einem Bereich bearbeiten können, haben vollen Zugriff auf die Funktionen in diesem Bereich.
+Benutzer mit einer Standard- oder Plan-Lizenz, die Funktionen in einem Bereich bearbeiten können, haben vollen Zugriff auf die Funktionen in diesem Bereich.
 
 >[!NOTE]
 >
->Benutzende mit einer Planlizenz, die als Gruppenadministratoren bezeichnet sind, können einige der Aktionen ausführen, die für Workfront-Administratoren zulässig sind. Sie dürfen diese Aktionen nur für die von ihnen verwalteten Gruppen, deren Untergruppen und die Benutzenden in diesen Gruppen und Untergruppen ausführen. Weitere Informationen finden Sie unter [Gruppenadministratoren](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+>Benutzende mit einer Standard- oder Plan-Lizenz, die als Gruppenadministratoren bezeichnet sind, können einige der Aktionen ausführen, die für Workfront-Administratoren zulässig sind. Sie dürfen diese Aktionen nur für die von ihnen verwalteten Gruppen, deren Untergruppen und die Benutzenden in diesen Gruppen und Untergruppen ausführen. Weitere Informationen finden Sie unter [Gruppenadministratoren](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
 * [Zugang zum Setup-Bereich](#access-to-the-setup-area)
 * [Zugriff auf Objekte](#access-to-objects)
@@ -105,7 +105,7 @@ Benutzer mit einer Planlizenz, die Funktionen in einem Bereich bearbeiten könne
   <tr> 
    <th>Bereich/Objekt</th> 
    <th>Workfront-Administrator </th> 
-   <th>Benutzer mit Plan-Lizenz und einigen Administratorrechten</th> 
+   <th>Benutzer mit einer Standard- oder Planlizenz und einigen Administratorrechten</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -187,7 +187,7 @@ Benutzer mit einer Planlizenz, die Funktionen in einem Bereich bearbeiten könne
   <tr> 
    <td>Anmelden als</td> 
    <td>Vollständiger Zugriff </td> 
-   <td> <p>Wenn der Administratorzugriff für ihre Gruppe auf der Zugriffsebene aktiviert und sie als Gruppenadministrator ernannt sind, können sie sich als Benutzer in der Gruppe, die sie verwalten, und in ihren Untergruppen anmelden. Sie können sich nicht als Systemadministrator anmelden.<br>Weitere Informationen zur Aktivierung des Administratorzugriffs für Gruppen für Benutzer finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Gewähren des Zugriffs für Benutzer</a>.</p> </td> 
+   <td> <p>Wenn der Administratorzugriff für ihre Gruppe auf der Zugriffsebene aktiviert und sie als Gruppenadministrator ernannt sind, können sie sich als Benutzer in der Gruppe, die sie verwalten, und in ihren Untergruppen anmelden. Sie können sich nicht als Systemadministrator anmelden.<br>Weitere Informationen zur Aktivierung des Gruppenadministratorzugriffs für Benutzer finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Gewähren des Zugriffs für Benutzer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Zeitpläne</td> 
@@ -419,7 +419,7 @@ Benutzer mit einer Planlizenz, die Funktionen in einem Bereich bearbeiten könne
   <tr> 
    <td>Benutzende</td> 
    <td>Vollständiger Zugriff</td> 
-   <td> <p>Eingeschränkter Zugriff</p> <p>Sie können Benutzenden, für die sie kein Gruppenadministrator sind, oder Gruppen, die nicht öffentlich sind, keine Gruppen zuweisen.</p> <p>Benutzenden kann keine Zugriffsebene zugewiesen werden, die höher ist als die eigene Zugriffsebene.</p> <p>Wenn der Administratorzugriff für ihre Gruppe auf der Zugriffsebene aktiviert ist und sie als Gruppenadministrator für eine Gruppe vorgesehen sind, können sie das Kennwort für zurücksetzen und sich als Benutzer in der Gruppe, die sie verwalten, und in ihren Untergruppen anmelden. Sie können das Kennwort von nicht zurücksetzen und sich nicht als Systemadministrator anmelden.<br>Weitere Informationen zur Aktivierung des Administratorzugriffs für Gruppen für Benutzer finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Gewähren des Zugriffs für Benutzer</a>.</p> </td> 
+   <td> <p>Eingeschränkter Zugriff</p> <p>Sie können Benutzenden, für die sie kein Gruppenadministrator sind, oder Gruppen, die nicht öffentlich sind, keine Gruppen zuweisen.</p> <p>Benutzenden kann keine Zugriffsebene zugewiesen werden, die höher ist als die eigene Zugriffsebene.</p> <p>Wenn der Administratorzugriff für ihre Gruppe auf der Zugriffsebene aktiviert ist und sie als Gruppenadministrator für eine Gruppe vorgesehen sind, können sie das Kennwort für zurücksetzen und sich als Benutzer in der Gruppe, die sie verwalten, und in ihren Untergruppen anmelden. Sie können das Kennwort von nicht zurücksetzen oder sich als Systemadministrator anmelden.<br>Weitere Informationen zur Aktivierung des Gruppenadministratorzugriffs für Benutzer finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Gewähren des Zugriffs für Benutzer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

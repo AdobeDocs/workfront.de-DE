@@ -10,9 +10,9 @@ role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '2843'
+source-wordcount: '2867'
 ht-degree: 4%
 
 ---
@@ -345,7 +345,7 @@ Wenn Sie ein Projekt als Anfrage-Warteschlange einrichten, muss der Projektstatu
 So erstellen Sie eine Anfrage-Warteschlange:
 
 1. Wechseln Sie zu dem Projekt, das Sie als Anfrage-Warteschlange einrichten möchten.
-1. (Optional) Klicken Sie **linken Bereich auf**&#x200B;**Projektdetails) und fügen Sie dem Projekt** Bereich **Übersicht** eine Beschreibung hinzu. Diese Informationen werden bei allen neuen Anfragen angezeigt.
+1. (Optional) Klicken Sie **linken Bereich auf****Projektdetails) und fügen Sie dem Projekt** Bereich **Übersicht** eine Beschreibung hinzu. Diese Informationen werden bei allen neuen Anfragen angezeigt.
 1. Klicken Sie **linken Bedienfeld** Warteschlangendetails“.
 
    Dadurch wird der Abschnitt Warteschlangendetails geöffnet.
@@ -357,7 +357,7 @@ So erstellen Sie eine Anfrage-Warteschlange:
    * **Als Warteschlange für Hilfeanfragen veröffentlichen**: Wählen Sie diese Option, um dieses Projekt als Anfragewarteschlange zu identifizieren. Alle eingehenden Anfragen werden als Anfragen betrachtet.\
      Wenn diese Option nicht ausgewählt ist, verhält sich das Projekt wie ein Standardprojekt in Workfront, und alle eingehenden Probleme sind Probleme.
 
-   * **Wer kann dieser Warteschlange Anforderungen hinzufügen?**: Wählen Sie aus, welche Benutzer Zugriff haben, um Anfragen zu dieser Warteschlange hinzuzufügen. Sie können den folgenden Personengruppen erlauben, die Anfrage-Warteschlange in ihrem Anfragebereich der globalen Navigationsleiste anzuzeigen, wenn sie eine neue Anfrage hinzufügen:
+   * **Wer kann dieser Warteschlange Anforderungen hinzufügen?**: Wählen Sie aus, welche Benutzer Zugriff haben, um Anforderungen zu dieser Warteschlange hinzuzufügen. Sie können den folgenden Personengruppen erlauben, die Anfrage-Warteschlange in ihrem Anfragebereich der globalen Navigationsleiste anzuzeigen, wenn sie eine neue Anfrage hinzufügen:
 
      | Wer Anfragen eingeben kann | Beschreibung |
      |---|---|
@@ -419,7 +419,7 @@ So erstellen Sie eine Anfrage-Warteschlange:
           </tr> 
           <tr> 
            <td> <p>Anzeigen und Zulassen, dass Benutzer die vorkonfigurierte Dropdown-Liste Themengruppe ändern</p> </td> 
-           <td> <p>Verwenden Sie den Parameter „path“, indem Sie dem <code>showPreSelectedOptions=true</code> den Parameter <code>src URL</code> hinzufügen.</p> </td> 
+           <td> <p>Verwenden Sie den Parameter „path“, indem Sie dem <code>src URL</code> den Parameter <code>showPreSelectedOptions=true</code> hinzufügen.</p> </td> 
           </tr> 
           <tr> 
            <td> <p>Erkennen, wann das Formular gesendet wurde</p> </td> 
@@ -521,8 +521,8 @@ Weitere Informationen zum Einrichten des Systems „Typische Stunden pro Arbeits
 
      | Benutzer, die alle Felder im Anfrageformular sehen können | Beschreibung |
      |---|---|
-     | Alle Benutzer (Planlizenzen) | Alle Benutzer, die über eine Planlizenz verfügen, können die ausgewählten sowie die nicht ausgewählten Felder sehen. |
-     | Personen mit Ansichtszugriff auf dieses Projekt (Planlizenz) | Benutzer mit einer Planlizenz, die auch über Ansichtsrechte für dieses Projekt verfügen, können die ausgewählten sowie die nicht ausgewählten Felder sehen. Der Rest der Benutzer, die Anfragen an dieses Projekt senden können, kann nur die ausgewählten Felder sehen. |
+     | Alle Benutzer (Planlizenzen) | Alle Benutzer, die über eine Standard- oder Planlizenz verfügen, können die ausgewählten sowie die nicht ausgewählten Felder sehen. |
+     | Personen mit Ansichtszugriff auf dieses Projekt (Planlizenz) | Benutzer mit einer Standard- oder Plan-Lizenz, die auch über Ansichtsrechte für dieses Projekt verfügen, können die ausgewählten sowie die nicht ausgewählten Felder sehen. Der Rest der Benutzer, die Anfragen an dieses Projekt senden können, kann nur die ausgewählten Felder sehen. |
      | Keine Benutzer | Die nicht ausgewählten Felder können nicht von Benutzenden angezeigt werden. Alle Benutzer, die Anfragen an dieses Projekt senden können, können nur die ausgewählten Felder sehen. Dies ist die Standardauswahl. |
 
    * **Benutzerdefinierte Forms**: Wählen Sie aus dem Dropdown-Menü ein benutzerdefiniertes Formular aus, das mit der Anfrage-Warteschlange verknüpft werden soll. Sie können mehrere Formulare auswählen und sie dann per Drag-and-Drop in der Reihenfolge ablegen, in der sie im Anfrageformular angezeigt werden sollen.

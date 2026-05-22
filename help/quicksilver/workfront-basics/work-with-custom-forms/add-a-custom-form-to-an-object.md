@@ -9,9 +9,9 @@ feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '747'
 ht-degree: 10%
 
 ---
@@ -69,7 +69,7 @@ Sie können ein benutzerdefiniertes Formular nur zu den Objekttypen hinzufügen,
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -106,7 +106,7 @@ Old:
 
 ## Voraussetzungen
 
-Ihr Workfront-Administrator oder ein Benutzer mit einer Planlizenz und administrativem Zugriff auf benutzerdefinierte Formulare muss benutzerdefinierte Formulare in Ihrer Umgebung erstellen, bevor Sie sie Objekten hinzufügen können. Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Ihr Workfront-Administrator oder ein Benutzer mit einer Standard- oder Planlizenz und administrativem Zugriff auf benutzerdefinierte Formulare muss benutzerdefinierte Formulare in Ihrer Umgebung erstellen, bevor Sie sie Objekten hinzufügen können. Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt
 
@@ -130,7 +130,7 @@ Sie haben zwei Möglichkeiten, um ein benutzerdefiniertes Formular zu einem Obje
 ### Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt aus dem Bereich Details {#add-a-custom-form-to-an-object-from-the-details-area}
 
 1. Wechseln Sie zu dem Objekt, dem Sie das benutzerdefinierte Formular hinzufügen möchten.
-1. Klicken Sie im linken Bedienfeld **`<Object type>`Abschnitt** . Klicken Sie beispielsweise auf **Projektdetails**, um einem Projekt benutzerdefinierte Formulare hinzuzufügen, oder auf **Problemdetails**, um einem Problem benutzerdefinierte Formulare hinzuzufügen.
+1. Klicken Sie im linken Bedienfeld **Abschnitt**`<Object type>` . Klicken Sie beispielsweise auf **Projektdetails**, um einem Projekt benutzerdefinierte Formulare hinzuzufügen, oder auf **Problemdetails**, um einem Problem benutzerdefinierte Formulare hinzuzufügen.
 1. Klicken Sie oben rechts **das Feld** Benutzerdefiniertes Formular hinzufügen“ und wählen Sie dann bis zu 10 benutzerdefinierte Formulare aus der angezeigten Liste aus.
 
    Wenn das Formular Pflichtfelder enthält (mit einem roten Sternchen gekennzeichnet), müssen Sie diese derzeit nicht ausfüllen.
@@ -165,7 +165,7 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 
 1. Klicken Sie auf das **Mehr**-Menü ![Mehr-](assets/more-icon.png) und dann auf das **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png).
 
-   Oder
+   ODER
 
    Klicken Sie auf **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png) oben in der Liste.
 1. Klicken Sie **linken Bedienfeld** Benutzerdefinierte Forms&quot;.

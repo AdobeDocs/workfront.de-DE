@@ -6,18 +6,18 @@ description: Die Definition einer Projektstrukturplan-Aktivität (Work Breakdown
 author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
-source-git-commit: 5bc7a1c00b72cfc07270cafee5bf753989b48d33
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '1750'
+source-wordcount: '1755'
 ht-degree: 1%
 
 ---
 
-# Bestimmen der Projektstrukturaufschlüsselung in einem Projekt
+# Bestimmen der Struktur für Auffächerung des Arbeitsaufwands in einem Projekt
 
 Die Definition einer Projektstrukturplan-Aktivität (Work Breakdown Structure, PSP) für ein Projekt ist eine Reihe von Aktivitäten, die letztendlich den Projektplan umreißen. Der Projektstrukturplan unterteilt das Projektergebnis in überschaubare Arbeitselemente, mit denen Meilensteine definiert und Arbeitszuweisungen organisiert werden können.
 
-Sie müssen über eine Planlizenz mit Bearbeitungszugriff auf Projekte verfügen, um die Projektaufschlüsselungsstruktur zu erstellen. Abhängig von der Anzahl der Aktivitäten, die Sie während des Erstellens des PSPs ausführen, ist möglicherweise zusätzlicher Zugriff auf andere Bereiche von Adobe Workfront erforderlich.
+Sie müssen über eine Standard- oder Planlizenz mit Bearbeitungszugriff auf Projekte verfügen, um die Projektaufschlüsselungsstruktur zu erstellen. Abhängig von der Anzahl der Aktivitäten, die Sie während des Erstellens des PSPs ausführen, ist möglicherweise zusätzlicher Zugriff auf andere Bereiche von Adobe Workfront erforderlich.
 
 Es wird empfohlen, den Planungsstatus für das Projekt beizubehalten, während Sie die Projektaufteilungsstruktur ändern, um Benachrichtigungen an Trigger im Projektteam zu vermeiden.
 
@@ -57,7 +57,7 @@ Um PSP-Ergebnisse und -Ergebnisse in Workfront zu definieren, empfehlen wir die 
   Informationen zum Erstellen von Meilensteinaufgaben finden Sie in den Artikeln [Erstellen eines Meilensteinpfads](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) und [Zuordnen von Meilensteinen zu Aufgaben](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
 * Schlüsseln Sie die Aufgaben mit einem zu großen Bereich in Teilaufgaben auf. Verknüpfen Sie sie mit dem übergeordneten Element, das Ihre Leistung definiert .\
-  Informationen zum Erstellen von Teilaufgaben finden Sie im Artikel [Erstellen von &#x200B;](../../../manage-work/tasks/create-tasks/create-subtasks.md)&quot;.
+  Informationen zum Erstellen von Teilaufgaben finden Sie im Artikel [Erstellen von ](../../../manage-work/tasks/create-tasks/create-subtasks.md)&quot;.
 
 * Identifizieren Sie Abhängigkeitsbeziehungen zwischen Teilaufgaben und zwischen Meilensteinen.\
   In einer Abhängigkeitsbeziehung hängt der Beginn einer Aufgabe vom Abschluss einer anderen Aufgabe oder einer Gruppe von Aufgaben ab.\
@@ -80,14 +80,14 @@ Beachten Sie Folgendes:
 
   Da es sich bei der Dauer um eine Schätzung handelt, stellen Sie sicher, dass Sie optimistische Zeitwerte festlegen, um Faktoren zu berücksichtigen, die sich auf die Aufgabe auswirken können, z. B. Wetter, Stromausfälle, Lieferantenschwierigkeiten oder andere unvorhergesehene Ereignisse. Überlegen Sie außerdem, ob es Vorgänger- oder Abhängigkeitsaufgaben gibt und wie diese Einschränkungen für die Arbeit verursachen und sich auf den Abschluss von Aufgaben auswirken können.
 
-  Je nach Dauertyp der Aufgabe können Sie die Dauer einer Aufgabe während der Lebensdauer eines Projekts ändern. Dies wirkt sich jedoch auch auf die Zeitleiste des Projekts aus. Informationen zur Dauer einer Aufgabe finden Sie im Artikel [Übersicht über die Aufgabendauer und den &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) .
+  Je nach Dauertyp der Aufgabe können Sie die Dauer einer Aufgabe während der Lebensdauer eines Projekts ändern. Dies wirkt sich jedoch auch auf die Zeitleiste des Projekts aus. Informationen zur Dauer einer Aufgabe finden Sie im Artikel [Übersicht über die Aufgabendauer und den ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) .
 
-## Aufgaben zuweisen
+## Zuweisen von Aufgaben
 
 Nachdem Sie die Dauer und Einschränkungen jeder Aufgabe definiert haben, können Sie festlegen, wer über die Zeit und die Fähigkeiten verfügt, um die Arbeit zu erledigen. In Workfront können Sie folgenden Entitäten Aufgaben zuweisen:
 
 * Benutzende\
-  Nur Benutzer mit der Zugriffsebene „Planer“ oder „Arbeitskraft“ können Aufgaben zugewiesen werden. Obwohl Sie Anfordernden und Prüfenden Aufgaben zuweisen können, können diese sie nicht abschließen. Aus diesem Grund empfehlen wir, ihnen keine Aufgaben zuzuweisen.
+  Nur Benutzer mit der Zugriffsebene „Standard“, „Planer“ oder „Worker“ können Aufgaben zugewiesen werden. Obwohl Sie Anfordernden und Prüfenden Aufgaben zuweisen können, können diese sie nicht abschließen. Aus diesem Grund empfehlen wir, ihnen keine Aufgaben zuzuweisen.
 
   Informationen zu den Zugriffsebenen und dazu, wie sie definieren, was Benutzende mit Workfront-Objekten tun können, finden Sie unter [Zugriffsebenen - Übersicht](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 

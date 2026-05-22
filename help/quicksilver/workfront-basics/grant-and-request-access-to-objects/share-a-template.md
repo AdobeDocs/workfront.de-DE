@@ -6,16 +6,16 @@ description: Als Adobe Workfront-Admin können Sie Benutzenden Zugriff auf das A
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 19%
+source-wordcount: '596'
+ht-degree: 15%
 
 ---
 
 # Freigeben einer Vorlage
 
-Als Adobe Workfront-Admin können Sie Benutzenden Zugriff auf das Anzeigen oder Bearbeiten von Vorlagen gewähren, wenn Sie ihnen eine Zugriffsebene zuweisen. Benutzende müssen über eine Planungslizenz verfügen, um Zugriff auf das Bearbeiten von Vorlagen zu haben.
+Als Adobe Workfront-Admin können Sie Benutzenden Zugriff auf das Anzeigen oder Bearbeiten von Vorlagen gewähren, wenn Sie ihnen eine Zugriffsebene zuweisen. Ein Benutzer muss über eine Standard- oder Planlizenz verfügen, um Zugriff auf Bearbeitungsvorlagen zu erhalten.
 
 Weitere Informationen zum Gewähren des Zugriffs auf Vorlagen finden Sie unter [Zugriff auf Vorlagen gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md).
 
@@ -35,7 +35,7 @@ Berechtigungen sind für ein Element in Workfront spezifisch und definieren, wel
 
    * Die Vorlage
 
-     Weitere Informationen zum Freigeben einer Vorlage finden Sie unter [Freigeben von &#x200B;](../../manage-work/projects/create-and-manage-templates/share-project-template.md)).
+     Weitere Informationen zum Freigeben einer Vorlage finden Sie unter [Freigeben von ](../../manage-work/projects/create-and-manage-templates/share-project-template.md)).
 
      Sie können einer Vorlage die folgenden Berechtigungen erteilen:
 
@@ -48,7 +48,7 @@ Berechtigungen sind für ein Element in Workfront spezifisch und definieren, wel
 
 * Wenn Sie eine Vorlage oder ein Projekt freigeben, die bzw. das über die Vorlage erstellt wird, erben Benutzerinnen und Benutzer standardmäßig dieselben Berechtigungen für alle untergeordneten Objekte, die mit der Vorlage oder dem Projekt verknüpft sind.
 
-  Weitere Informationen zur Hierarchie von Objekten in Workfront finden Sie unter   [Verstehen von Objekten in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+  Weitere Informationen zur Objekthierarchie in Workfront finden Sie unter [Grundlegendes zu Objekten in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 * Wenn Sie eine Vorlage freigeben, erben alle Vorlagenaufgaben und Dokumente sowie die Probleme im zukünftigen Projekt, das aus der Vorlage erstellt wurde, dieselben Berechtigungen, sofern nicht anders angegeben.
 

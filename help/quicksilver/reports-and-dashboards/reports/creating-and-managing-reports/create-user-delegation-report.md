@@ -9,10 +9,10 @@ feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 17%
+source-wordcount: '332'
+ht-degree: 16%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 17%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider moving this to the Custom&nbsp;View, Filter, Grouping Samples section as an example of a report)</p>
 -->
 
-In Adobe Workfront können Benutzende Projekt-, Aufgaben- und Problem-Genehmigungen an andere Benutzende delegieren, um sicherzustellen, dass ihre Genehmigungen verwaltet werden, wenn sie abwesend sind. Benutzende mit einer Planlizenz können einen Bericht zur Benutzerdelegierung erstellen, um Folgendes anzuzeigen:
+In Adobe Workfront können Benutzende Projekt-, Aufgaben- und Problem-Genehmigungen an andere Benutzende delegieren, um sicherzustellen, dass ihre Genehmigungen verwaltet werden, wenn sie abwesend sind. Benutzer mit einer Standard- oder Planlizenz können einen Bericht zur Benutzerdelegierung erstellen, um Folgendes anzuzeigen:
 
 * Wer hat seine Aufgaben-, Problem- und Projektgenehmigungen an einen anderen Benutzer delegiert?
 * Welche Benutzenden haben Aufgaben-, Problem- und Projektgenehmigungen delegiert?
@@ -57,7 +57,7 @@ Weitere Informationen zum Delegieren von Genehmigungen finden Sie unter [Delegie
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
       <p>Standard</p>
-      <p>Plan</p>
+      <p>Abo</p>
    </td>
   </tr> 
   <tr> 
