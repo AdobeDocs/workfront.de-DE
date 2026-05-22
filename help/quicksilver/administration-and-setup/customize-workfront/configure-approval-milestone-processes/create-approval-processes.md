@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: Sie können einen Genehmigungsprozess erstellen, den Benutzer an ein Arbeitselement (Projekt, Aufgabe, Problem, Vorlage oder Vorlagenaufgabe), ein Dokument oder einen Korrekturabzug anhängen können. Ein Genehmigungsprozess stellt sicher, dass designierte Beauftragte für das Objekt bestimmte Änderungen überprüfen, bevor das Objekt im System fortschreitet.
-author: Alina
+author: Courtney
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2e87fd9a7b85261656c3d3e388937bb5f34a8e02
+source-git-commit: 0fc7a16640d134b6f524a30929ed6f3041f12e31
 workflow-type: tm+mt
 source-wordcount: '2231'
 ht-degree: 4%

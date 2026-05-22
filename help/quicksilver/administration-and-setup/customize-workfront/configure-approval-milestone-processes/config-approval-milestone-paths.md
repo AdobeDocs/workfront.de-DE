@@ -5,15 +5,15 @@ content-type: reference
 product-area: system-administration;projects
 navigation-topic: customize-workfront
 description: Sie können einen Genehmigungsprozess erstellen, den Benutzer an ein Arbeitselement, ein Dokument oder einen Korrekturabzug anhängen können. Sie können auch Meilensteinpfade erstellen, die auf jedes Projekt im System angewendet werden können.
-author: Alina
+author: Courtney, Alina
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 5719f8ce-0b30-42a1-9b88-1466630401f2
-source-git-commit: 87a64e84c36d99cbafde4f40725467219db8e79b
+source-git-commit: 0fc7a16640d134b6f524a30929ed6f3041f12e31
 workflow-type: tm+mt
 source-wordcount: '82'
-ht-degree: 4%
+ht-degree: 12%
 
 ---
 

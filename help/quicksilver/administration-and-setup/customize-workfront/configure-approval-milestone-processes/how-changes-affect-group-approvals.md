@@ -5,13 +5,13 @@ content-type: reference
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: In diesem Artikel wird erläutert, was passiert, wenn ein Genehmigungsprozess bereits verwendet wird, wenn ein Workfront-Administrator (oder ein Benutzer mit administrativem Zugriff auf Genehmigungsprozesse) seine Zuordnung zu einer Gruppe ändert.
-author: Alina
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 77b2dce2-1523-4262-a659-0d301059a54c
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: 0fc7a16640d134b6f524a30929ed6f3041f12e31
 workflow-type: tm+mt
-source-wordcount: '1495'
+source-wordcount: '1539'
 ht-degree: 2%
 
 ---

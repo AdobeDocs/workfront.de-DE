@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 795d115e7a745de052b462ba444425136a3d4953
+source-git-commit: 0fc7a16640d134b6f524a30929ed6f3041f12e31
 workflow-type: tm+mt
-source-wordcount: '5655'
+source-wordcount: '5192'
 ht-degree: 2%
 
 ---
@@ -251,10 +251,14 @@ Weitere Informationen finden Sie unter [Felder aus Workfront &#x200B;](/help/qui
    * [Erstellungsdatum](#created-date)
    * [Zuletzt geändert von](#last-modified-by)
    * [Zuletzt geändert am](#last-modified-date)
-   * [Genehmigungsdatum](#approved-date)
-   * [Genehmigt von](#approved-by)
-   * [Datensatz-ID](#record-id)
-     <!--* [Object](#object-field-type)-->
+   * [Eintrags-ID](#record-id)
+   <!--
+    * [Approved date](#approved-date)
+    * [Approved by](#approved-by)
+    -->
+   <!--
+    * [Object](#object-field-type)
+    -->
 
    >[!IMPORTANT]
    >
@@ -754,66 +758,69 @@ Mit dem Feldtyp Datum der letzten Änderung können Sie einem Datensatz das Datu
 1. Klicken Sie auf **Erstellen**.
 
    Das neue Feld vom Typ „Zuletzt geändert“ wird als Spalte zum Datensatztyp hinzugefügt und seine Werte werden mit dem Datum (oder Datum und Uhrzeit) vorausgefüllt, an dem der Datensatz zuletzt geändert wurde.
+<!--
 
-### Genehmigungsdatum
+### Approved date
 
-Mit dem Feldtyp Genehmigt am können Sie das Datum hinzufügen, an dem eine Anfrage genehmigt wurde und die Erstellung des Datensatzes resultierte. Dies ist ein schreibgeschütztes Feld, das automatisch mit dem Datum (und optional mit der Uhrzeit) ausgefüllt wird, an dem die Anfrage von der letzten genehmigenden Person genehmigt wurde. In diesem Fall sollte das Genehmigungsdatum mit dem Datum übereinstimmen, an dem der Datensatz erstellt wurde.
-
->[!TIP]
->
->Das Feld Genehmigungsdatum enthält nur Informationen zu Datensätzen, die durch Senden eines mit genehmigenden Personen verknüpften Anforderungsformulars erstellt wurden.
->
->Wenn das Formular mit mehreren genehmigenden Personen verknüpft ist, wird im Feld Genehmigungsdatum nur das Datum der letzten Genehmigungsentscheidung aufgezeichnet.
-
-1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Erstellungsdatum** aus.
-
-   ![Feldtyp „Genehmigungsdatum“](assets/approved-date-field-type.png)
-
-   1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
-
-   * **Name**: Der Name des Felds, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird.
-   * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen oder auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.
-   * **Datumsformat**: Wählen Sie aus den folgenden Formaten:
-
-      * **Locale**: Entspricht dem Gebietsschema Ihres Browsers.
-      * **Standard**: 05/16/2023
-      * **Long**: 16. Mai 2023
-      * **Europäisch**: 16/05/2023
-      * **ISO**: 16.05.2023
-
-   * **Zeit einbeziehen**: Wählen Sie diese Option aus, wenn Sie einen Zeitstempel einbeziehen möchten. Diese Option ist standardmäßig deaktiviert. Nach dem Speichern des Felds kann keine Zeit eingeschlossen werden.
-
-     Wählen Sie aus den folgenden Optionen aus:
-
-      * **24hr**: Beispiel: 18:00
-      * **12hr**: Beispiel: 18:0000 Uhr
-
-1. Klicken Sie auf **Erstellen**.
-
-   Das neue Feld „Typ des genehmigten Datums“ wird dem Datensatztyp als Spalte hinzugefügt und seine Werte werden mit dem Datum (oder Datum und Uhrzeit) vorausgefüllt, an dem die Datensatzanfrage genehmigt wurde, wenn der Datensatz durch eine mit genehmigenden Personen verknüpfte Anfrage erstellt wurde.
-
-### Genehmigt von
-
-Mit dem Feldtyp Genehmigt nach können Sie den Benutzer hinzufügen, der die Anforderung zuletzt genehmigt hat, um einen Datensatz zu erstellen. Dies ist ein schreibgeschütztes Feld, das automatisch mit dem Namen des Benutzers ausgefüllt wird, der die Anfrage zum Erstellen des Datensatzes genehmigt hat.
+You can use the Approved date field type to add the date when a request was approved and it resulted in the creation of the record. This is a read-only field, and it automatically populates with the date (and optionally with the time) when the request was approved by the last approver. In this case, the approval date should coincide with the date the record was created. 
 
 >[!TIP]
 >
->Das Feld Genehmigt von enthält nur Informationen zu Datensätzen, die durch Senden eines mit genehmigenden Personen verknüpften Anforderungsformulars erstellt wurden.
+>The Approved date field populates with information only for records that were created by submitting a request form associated with approvers. 
 >
->Wenn das Formular mit mehr als einer genehmigenden Person verknüpft ist, werden die Namen aller genehmigenden Personen im Feld Genehmigungsdatum aufgezeichnet, durch Kommas getrennt.
+>If the form is associated with more than one approver, only the date of the last approval decision is recorded in the Approved date field.
 
-1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Genehmigt von** aus.
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Created date** field type.
+ 
+   ![Approved date field type](assets/approved-date-field-type.png)
 
-   ![Genehmigt nach Feldtyp](assets/approved-by-field-type.png)
+   1. Add the following information in the **New field** tab:
 
-1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
+     * **Name**: The name of the field, as it will appear in a table or the record page. 
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+     * **Date Format**: Select from the following formats:
 
-   * **Name**: Der Name des Felds, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird.
-   * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen oder auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.
+        * **Locale**: Matches the locale of your browser.
+        * **Standard**: 05/16/2023
+        * **Long**: May 16, 2023
+        * **European**: 16/05/2023
+        * **ISO**: 2023-05-16
+     
+     * **Include time**: Select this option if you want to include a time stamp. This is unselected by default. You cannot include a time after you save the field.  
+    
+        Select from the following options:
+        
+        * **24hr**: For example: 18:00
+        * **12hr**: For example: 6:00 PM 
+    
+1. Click **Create**.
 
-1. Klicken Sie auf **Erstellen**.
+    The new Approved date-type field is added as a column to the record type and its values are prefilled with the date (or date and time) when the record request was approved, if the record was created by submitting a request associated with approvers. 
 
-   Das neue Feld Genehmigt nach Typ wird als Spalte zum Datensatztyp hinzugefügt und seine Werte werden mit dem Namen des Benutzers vorausgefüllt, der jeden Datensatz zuletzt geändert hat.
+### Approved by
+
+You can use the Approved by field type to add the user who last approved the request to create a record. This is a read-only field, and it automatically populates with the name of the user who approved the request to create the record.
+
+>[!TIP]
+>
+>The Approved by field populates with information only for records that were created by submitting a request form associated with approvers.
+>
+>If the form is associated with more than one approver, the name of all approvers are recorded in the Approved date field, separated by commas.
+ 
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Approved by** field type.
+ 
+   ![Approved by field type](assets/approved-by-field-type.png)
+
+1. Add the following information in the **New field** tab:
+
+     * **Name**: The name of the field, as it will appear in a table or the record page. 
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+    
+1. Click **Create**.
+
+    The new Approved by-type field is added as a column to the record type and its values are prefilled with the name of the user who last modified each record.  
+
+-->
 
 ## Eintrags-ID
 
