@@ -7,15 +7,15 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 947a12504623e31a28d660675b12fb90522a56f4
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 0%
+source-wordcount: '730'
+ht-degree: 2%
 
 ---
 
 
-# Konfigurieren und verwenden Sie die benutzerdefinierten OAuth 2-Anwendungen Ihres Unternehmens mithilfe des Autorisierungs-Code-Flusses
+# Konfigurieren und Verwenden von benutzerdefinierten OAuth 2-Anwendungen Ihrer Organisation mithilfe des Autorisierungs-Code-Flusses
 
 Um mit Workfront zu integrieren und Ihrer Client-Anwendung zu ermöglichen, im Namen der Benutzerin bzw. des Benutzers mit Workfront zu kommunizieren, ist Folgendes erforderlich:
 
@@ -157,7 +157,7 @@ Verwenden Sie den folgenden Prozess, um Ihre Benutzer mit OAuth2 anzumelden:
    }
    ```
 
-   Das Zugriffstoken ist dasselbe wie ```sessionID``` und läuft genauso ab wie das normale ```sessionID```
+   Das Zugriffstoken ist dasselbe wie `sessionID` und läuft genauso ab wie das normale `sessionID`
 
    >[!IMPORTANT]
    >
@@ -174,7 +174,7 @@ Verwenden Sie den folgenden Prozess, um Ihre Benutzer mit OAuth2 anzumelden:
 
 ![Fluss des Zugriffstokens aktualisieren](assets/refresh-access-token-flow-350x142.png)
 
-Um das Zugriffs-Token zu aktualisieren, müssen wir erneut einen &quot;POST&quot;-Aufruf an den Token-Endpunkt durchführen. Dieses Mal senden wir ein anderes Formular Daten wie folgt:
+Um das Zugriffs-Token zu aktualisieren, müssen wir erneut einen „POST“-Aufruf an den Token-Endpunkt durchführen. Dieses Mal senden wir ein anderes Formular Daten wie folgt:
 
 ```
 curl --location --request POST '<workfront host>/integrations/oauth2/api/v1/token' \

@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ada25d0b7c359cfb258dfc4e68a628033e66562d
+source-git-commit: 0b856507a26de5812e2335a4a7c0c6622c678d09
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1499'
 ht-degree: 8%
 
 ---
@@ -269,13 +269,13 @@ Workfront-Feldtypen beeinflussen, ob ein bestimmtes Feld automatisch ausgefüllt
 <li>Kontrollkästchen</li>
 <li>Optionsfelder</li>
 <li>Dropdown-Listen für Einzel- und Mehrfachauswahl</li>
+<li>Externer Lookup</li>
+<!--<li>Internal lookup THIS FIELD TYPE IS NOT GA YET SO COMMENTING OUT - from Lisa</li>-->
+<li>Referenz</li>
+<li>Eingebettete Workfront-Felder planen</li>
 </ul>
 </td>
 <td><li>Typeahead</li>
-<li>Externer Lookup</li>
-<li>Interne Suche</li>
-<li>Referenz</li>
-<li>Eingebettete WF-Felder planen</li>
 </ul>
 </td>
 </tr>
@@ -330,3 +330,4 @@ Wenn Sie nicht die erwarteten Vorschläge erhalten, kann dies auf eine der folge
 
 * Sie müssen mindestens einen Monat an Anfragedaten im System haben, bevor es Feldwerte aus früheren Anfragen vorschlagen kann.
 * Sie haben möglicherweise die Leitplanken für den Dokument-Upload nicht befolgt, wenn Sie ein Dokument hochladen, aus dem Sie Vorschläge abrufen möchten. Weitere Informationen finden Sie unter [Leitplanken beim Hochladen von Dokumenten](#document-upload-guardrails) in diesem Artikel.
+* Mit KI-Formularausfüllen kann ein externer Wert für ein Suchfeld ausgefüllt werden. Wenn das externe Suchfeld jedoch eine Abhängigkeit von einem Formelfeld aufweist, kann die KI die Feldoptionen nicht genau abrufen und füllt diesen Feldwert nicht aus.
