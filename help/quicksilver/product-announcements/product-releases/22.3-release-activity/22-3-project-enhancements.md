@@ -143,7 +143,7 @@ Weitere Informationen zum Freigeben von Ordnern finden Sie [Freigeben eines Doku
 
 >[!NOTE]
 >
->Diese Funktion wird voraussichtlich am 9. Januar 2023 aus der Vorschau entfernt. Weitere Informationen finden Sie auf der Übersichtsseite zur Version [23.1 ](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+>Diese Funktion wird voraussichtlich am 9. Januar 2023 aus der Vorschau entfernt. Weitere Informationen finden Sie auf der Übersichtsseite zur Version [23.1 &#x200B;](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 >[!NOTE]
 >

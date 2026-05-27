@@ -60,9 +60,9 @@ Jetzt können Sie mit einem einzigen Klick in Setup eine Ereignis-E-Mail-Benachr
 
 Beachten Sie außerdem, dass unser moderner Stil die Konfiguration von Ereignisbenachrichtigungen im Bereich E-Mail-Benachrichtigungen jetzt verbessert.
 
-Informationen zum Konfigurieren von E-Mail-Benachrichtigungen finden [ unter „Konfigurieren von Ereignisbenachrichtigungen für alle Personen im System](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+Informationen zum Konfigurieren von E-Mail-Benachrichtigungen finden [&#x200B; unter „Konfigurieren von Ereignisbenachrichtigungen für alle Personen im System](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-Diese Funktion ist jetzt im Lernpfad [E-Mail- und In-App-Benachrichtigungen“ ](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
+Diese Funktion ist jetzt im Lernpfad [E-Mail- und In-App-Benachrichtigungen“ &#x200B;](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
 
 ## Neue API-Objekte, die Trigger-Ereignisabonnement-Aktualisierungen aufweisen
 
