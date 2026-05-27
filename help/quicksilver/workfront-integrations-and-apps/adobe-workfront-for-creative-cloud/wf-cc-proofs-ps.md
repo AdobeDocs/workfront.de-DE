@@ -19,7 +19,7 @@ Sie können bestimmte Photoshop-Dokumentvorgabentypen als Korrekturabzüge direk
 
 >[!IMPORTANT]
 >
->Bei der Datei muss es sich um eine Fotodokumentvorgabe handeln, wie unter [Vorlagen und Vorgaben in Photoshop](https://helpx.adobe.com/photoshop/using/create-documents.html) beschrieben.
+>Bei der Datei muss es sich um eine Fotodokumentvorgabe handeln, wie unter [Vorlagen und Vorgaben in Photoshop](https://helpx.adobe.com/de/photoshop/using/create-documents.html) beschrieben.
 
 
 
