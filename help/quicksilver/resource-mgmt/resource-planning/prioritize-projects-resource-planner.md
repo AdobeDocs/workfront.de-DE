@@ -8,7 +8,7 @@ feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
 source-git-commit: b78b86806e5c3c1e6d0662fea0e1a11f97ef032e
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1308'
 ht-degree: 4%
 
 ---
@@ -108,7 +108,7 @@ So bearbeiten Sie die Projektplanungspriorität:
 >
 >Ihr Unternehmen muss über ein Prime- oder ein höheres Workfront-Paket verfügen, um Projekte im Portfolio Optimizer zu priorisieren.
 >
->Weitere Informationen zu den Workfront-Paketen finden Sie unter [Adobe Workfront-Pakete und Preise](https://business.adobe.com/de/products/workfront/pricing.html).
+>Weitere Informationen zu den Workfront-Paketen finden Sie unter [Adobe Workfront-Pakete und Preise](https://business.adobe.com/products/workfront/pricing.html).
 >
 >Informationen zum Priorisieren von Projekten in Portfolio Optimizer finden Sie unter [Priorisieren von Projekten in Portfolio Optimizer](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 

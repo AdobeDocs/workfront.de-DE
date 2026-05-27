@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1593'
 ht-degree: 4%
 
 ---
@@ -157,7 +157,7 @@ Old info:
 
    <!--To associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams, scroll towards the bottom of the page and find the **Assign People** section.-->
 
-   Wenn Sie Gruppenadministrator sind, können Sie das Arbeitszeittabellen-Profil Gruppen zuweisen, die Sie verwalten, jedoch nicht Teams. Weitere Informationen finden Sie unter [&#x200B; für einen Gruppenadministrator beim Zuweisen eines Arbeitszeittabellen-Profils &#x200B;](#limitations-for-a-group-administrator-assigning-a-timesheet-profile) diesem Artikel.
+   Wenn Sie Gruppenadministrator sind, können Sie das Arbeitszeittabellen-Profil Gruppen zuweisen, die Sie verwalten, jedoch nicht Teams. Weitere Informationen finden Sie unter [ für einen Gruppenadministrator beim Zuweisen eines Arbeitszeittabellen-Profils ](#limitations-for-a-group-administrator-assigning-a-timesheet-profile) diesem Artikel.
 
    >[!NOTE]
    >

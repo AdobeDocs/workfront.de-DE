@@ -8,8 +8,8 @@ feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
 source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
-source-wordcount: '2361'
-ht-degree: 0%
+source-wordcount: '2381'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ Mithilfe von Filtern können Sie festlegen, welche Informationen im Ressourcenpl
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -50,7 +50,7 @@ Mithilfe von Filtern können Sie festlegen, welche Informationen im Ressourcenpl
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -156,7 +156,7 @@ Erweitern Sie das **Filter**-Dropdown-Menü und klicken Sie auf **Neuen Filter h
 1. (Optional) Klicken Sie auf **Filterregel hinzufügen**, um eine neue Regel für ein anderes Objekt oder Feld hinzuzufügen.
 1. Klicken Sie **Anwenden**, um den Filter anzuwenden, ohne ihn zu speichern.
 
-   Oder
+   ODER
 
    Klicken Sie **Filter speichern**, um den Filter zu speichern.\
    ![RP_Apply_or_Save_button_on_filters.png](assets/rp-apply-or-save-buttons-on-filters-320x79.png)
@@ -236,7 +236,7 @@ Sie können die Informationen ändern, die Sie in einen Filter einbeziehen, ohne
 
 1. Klicken Sie **Anwenden**, um den Filter anzuwenden, ohne ihn zu speichern.
 
-   Oder
+   ODER
 
    Klicken Sie **Speichern**, um den Filter zu speichern.\
    Der Filter wird unter demselben Namen, aber mit neuen Filterkriterien gespeichert.
@@ -278,7 +278,7 @@ So entfernen Sie einen Filter:
 
    ![Filter löschen](assets/rp-filter-options---delete-350x154.png)
 
-1. Klicken **&#x200B;**&#x200B;im Dialogfeld **Filter löschen** auf Löschen.
+1. Klicken **** im Dialogfeld **Filter löschen** auf Löschen.
 
 1. Der Filter wird gelöscht und aus dem Ressourcenplaner entfernt.
 
@@ -292,7 +292,7 @@ Sie können einen Filter, den Sie erstellt haben oder auf den Sie Zugriff haben,
 
 Informationen zum Standardfilter finden Sie im Abschnitt [Übersicht über den Standardfilter im Ressourcenplaner](#overview-of-the-default-filter-in-the-resource-planner) in diesem Artikel.
 
-Informationen zum Duplizieren von Filtern finden Sie [&#x200B; Abschnitt „Duplizieren &#x200B;](#duplicate-a-filter) Filters“ in diesem Artikel.
+Informationen zum Duplizieren von Filtern finden Sie [ Abschnitt „Duplizieren ](#duplicate-a-filter) Filters“ in diesem Artikel.
 
 1. Wechseln Sie zum Ressourcenplaner.
 1. Erweitern Sie das **Filter**-Dropdown-Menü.

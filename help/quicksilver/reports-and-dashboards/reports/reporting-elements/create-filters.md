@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '2375'
+source-wordcount: '2386'
 ht-degree: 4%
 
 ---
@@ -115,7 +115,7 @@ Sie können Filter mithilfe der in der folgenden Tabelle beschriebenen Typen von
 </tbody>
 </table>
 
-Weitere Informationen zu Workfront-Objekten finden Sie unter [Objekte in Adobe Workfront &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Weitere Informationen zu Workfront-Objekten finden Sie unter [Objekte in Adobe Workfront ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 Beachten Sie beim Erstellen von Filtern mit den verschiedenen Benutzeroberflächen Folgendes:
 
@@ -315,7 +315,7 @@ Erstellen eines Filters mithilfe der Standard Builder-Oberfläche:
    >
    >Wenn Sie **auf** Abbrechen“ klicken, gelangen Sie zurück zum Bereich der Filtererstellung.
 
-1. Klicken Sie **Speichern**. Der Filter wird in der Liste Gespeichert gespeichert und auf die Liste der Elemente angewendet.
+1. Klicken Sie auf **Speichern**. Der Filter wird in der Liste Gespeichert gespeichert und auf die Liste der Elemente angewendet.
 1. (Optional) Um einen Filter in die Favoritenliste zu verschieben, bewegen Sie den Mauszeiger über einen beliebigen Filter im Filtereinzug und klicken Sie auf das Symbol **Favorit** ![Favoritensymbol](assets/favorites-icon-small.png).
 
    ODER

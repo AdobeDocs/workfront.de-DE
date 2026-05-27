@@ -1,20 +1,20 @@
 ---
 content-type: api;faq
 navigation-topic: general-api
-title: Häufig gestellte Fragen - Ereignisabonnements
-description: Häufig gestellte Fragen - Ereignisabonnements
+title: Häufig gestellte Fragen – Ereignisabonnements
+description: Häufig gestellte Fragen – Ereignisabonnements
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
 source-git-commit: 074f78e27d2ab1cb1d1b8216f14557b91d9afd00
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 0%
+source-wordcount: '987'
+ht-degree: 1%
 
 ---
 
-# Häufig gestellte Fragen - Ereignisabonnements
+# Häufig gestellte Fragen – Ereignisabonnements
 
 <!--
 {{highlighted-preview}}
@@ -84,7 +84,7 @@ Sie können eine beliebige Authentifizierung verwenden, die ein Bearer-Token ver
 
 Im Allgemeinen kann davon ausgegangen werden, dass Versandanfragen für Ereignisabonnement-Ereignisse in weniger als 5 Sekunden nach der protokollierten Datenänderung empfangen werden. Im Durchschnitt werden Webhook-Benachrichtigungen in weniger als 1 Sekunde ab dem Zeitpunkt der Datenänderung empfangen. Der Service kann jedoch Nachrichten in einer derart großen Menge empfangen, dass er möglicherweise auch länger dauert.
 
-## Zusätzliche Ressourcen
+## Weitere Ressourcen
 
 * **API-Dokumentation**: [Ereignisabonnement-API](../../wf-api/general/event-subs-api.md)
 

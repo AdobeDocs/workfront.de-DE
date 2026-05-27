@@ -255,7 +255,7 @@ Unsere primäre Empfehlung ist, so bald wie möglich mit der Umstellung auf ein 
 
 Wir empfehlen Administratoren:
 
-1. Erstellen Sie ein standardmäßiges neues Homepage-Layout mithilfe von Layout-Vorlagen (oder erstellen Sie optional eines für jeden Benutzer, jedes Team, jede Gruppe oder jedes Aufgabengebiet, für das ein eindeutiges Layout erforderlich ist). Weitere [&#x200B; finden Sie unter „Anpassen einer neuen Startseite mithilfe &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md) Layout-Vorlage“.
+1. Erstellen Sie ein standardmäßiges neues Homepage-Layout mithilfe von Layout-Vorlagen (oder erstellen Sie optional eines für jeden Benutzer, jedes Team, jede Gruppe oder jedes Aufgabengebiet, für das ein eindeutiges Layout erforderlich ist). Weitere [ finden Sie unter „Anpassen einer neuen Startseite mithilfe ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md) Layout-Vorlage“.
 
 1. Weisen Sie Ihre neuen Layout-Vorlagen einer kleinen Anzahl von Testbenutzern zu, die überprüfen können, ob ihre Widgets und allgemeinen Einstellungen ihren Arbeitsanforderungen entsprechen.
 
@@ -271,7 +271,7 @@ Wenn Sie dies so schnell wie möglich durchführen, haben Ihre Benutzer Zeit, si
 
 **Training**
 
-* [Entfernen, Hinzufügen und Neuanordnen von Widgets im Startseiten-Tutorial](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
+* [Entfernen, Hinzufügen und Neuanordnen von Widgets im Startseiten-Tutorial](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
 * [Grundlagen der Arbeit in Adobe Workfront](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]

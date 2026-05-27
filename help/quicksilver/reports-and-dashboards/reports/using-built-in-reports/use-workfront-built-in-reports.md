@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '2978'
-ht-degree: 12%
+source-wordcount: '2996'
+ht-degree: 42%
 
 ---
 
@@ -59,7 +59,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 ## Übersicht über integrierte Berichte {#overview-of-built-in-reports}
 
-Sie können einen integrierten Bericht erstellen und als neuen Bericht speichern. Weitere Informationen zum Erstellen von Kopien integrierter Berichte finden Sie unter [Erstellen einer neuen Version eines &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#create-a-new-version-of-a-report)) im Artikel [Erstellen einer Kopie eines Berichts](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+Sie können einen integrierten Bericht erstellen und als neuen Bericht speichern. Weitere Informationen zum Erstellen von Kopien integrierter Berichte finden Sie unter [Erstellen einer neuen Version eines ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#create-a-new-version-of-a-report)) im Artikel [Erstellen einer Kopie eines Berichts](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 Die folgenden Berichte sind im Lieferumfang des Workfront-Pakets enthalten. Die Berichte stehen allen Benutzern zur Verfügung, die zumindest Ansichtsrechte für integrierte Berichte in ihrer Zugriffsebene haben.
 
@@ -95,7 +95,7 @@ Die folgenden Berichte sind im Lieferumfang des Workfront-Pakets enthalten. Die 
   </tr> 
   <tr> 
    <td>Tatsächliche Einnahmen nach Gruppe</td> 
-   <td>Ein Projektbericht, der die tatsächlichen Einnahmen und die Gruppe der Projekte ausgibt. Der Bericht ist nach Gruppenname gruppiert und enthält ein Diagramm.</td> 
+   <td>Ein Projektbericht, der die tatsächlichen Einnahmen und die Gruppen der Projekte ausgibt. Der Bericht ist nach Gruppenname gruppiert und enthält ein Diagramm.</td> 
   </tr> 
   <tr> 
    <td>Alle offenen Arbeitszeittabellen</td> 
@@ -119,15 +119,15 @@ Die folgenden Berichte sind im Lieferumfang des Workfront-Pakets enthalten. Die 
   </tr> 
   <tr> 
    <td>Einnahmenfakturierung nach Monat</td> 
-   <td>Ein Rechnungsnachweisbericht, der den Projektnamen, den Fakturaerlös und das Rechnungsdatum der Rechnungsnachweise ausgibt. Der Bericht ist nach dem Monat des Abrechnungsdatums der Abrechnungs-Datensätze gruppiert und enthält ein Diagramm.</td> 
+   <td>Ein Abrechnungseintragbericht, der den Projektnamen, den Fakturaerlös des Projekts und das Rechnungsdatum der Abrechnungseinträge ausgibt. Der Bericht ist nach dem Monat des Abrechnungsdatums der Abrechnungs-Datensätze gruppiert und enthält ein Diagramm.</td> 
   </tr> 
   <tr> 
    <td>Abgeschlossene Probleme nach Woche</td> 
-   <td>Ein Anfragebericht, der das tatsächliche Abschlussdatum der Anfragen ausgibt. Der Bericht ist nach der Woche des tatsächlichen Abschlussdatums der Probleme gruppiert und enthält ein Diagramm.</td> 
+   <td>Ein Problembericht, der das tatsächliche Abschlussdatum der Probleme ausgibt. Der Bericht ist nach der Woche des tatsächlichen Abschlussdatums der Probleme gruppiert und enthält ein Diagramm.</td> 
   </tr> 
   <tr> 
    <td>Abgeschlossene Probleme nach Woche und nutzender Person</td> 
-   <td>Ein Anfragebericht, der das tatsächliche Abschlussdatum und die Zuweisung von Anfragen ausgibt. Der Bericht ist nach primär zugewiesener Person und nach Woche des tatsächlichen Abschlussdatums der Probleme gruppiert und enthält ein Diagramm.</td> 
+   <td>Ein Problembericht, der das tatsächliche Abschlussdatum und die Zuweisung von Problemen ausgibt. Der Bericht ist nach primär zugewiesener Person und nach Woche des tatsächlichen Abschlussdatums der Probleme gruppiert und enthält ein Diagramm.</td> 
   </tr> 
   <tr> 
    <td>Aktuelle Projekte</td> 
@@ -135,7 +135,7 @@ Die folgenden Berichte sind im Lieferumfang des Workfront-Pakets enthalten. Die 
   </tr> 
   <tr> 
    <td>Stundenkosten nach Benutzer und Monat</td> 
-   <td>Ein Matrix-Stundenbericht, der die Anzahl der protokollierten Stunden und deren Ist-Kosten ausgibt. Der Bericht ist nach Name des Inhabers und dem Monat des Eingabedatums der Stunden gruppiert.</td> 
+   <td>Ein Matrix-Stundenbericht, der die Anzahl der protokollierten Stunden und deren Istkosten ausgibt. Der Bericht ist nach Name des Inhabers und dem Monat des Eingabedatums der Stunden gruppiert.</td> 
   </tr> 
   <tr> 
    <td>Stunden nach Benutzer</td> 
@@ -143,7 +143,7 @@ Die folgenden Berichte sind im Lieferumfang des Workfront-Pakets enthalten. Die 
   </tr> 
   <tr> 
    <td>Stunden nach Benutzer und Woche</td> 
-   <td>Ein Matrix-Stundenbericht, der die Anzahl der protokollierten Stunden in den letzten vier Wochen und das Eingabedatum der Stunden ausgibt. Der Bericht wird durch das Eingabedatum der Stunden ausgelöst und nach Name des Inhabers und dem Monat des Eingabedatums der Stunden gruppiert.</td> 
+   <td>Ein Matrix-Stundenbericht, der die Anzahl der die in den vergangenen vier Wochen protokollierten Stunden und das Eingabedatum der Stunden ausgibt. Der Bericht wird durch das Eingabedatum der Stunden ausgelöst und nach Name des Inhabers und dem Monat des Eingabedatums der Stunden gruppiert.</td> 
   </tr> 
   <tr> 
    <td>Probleme nach Status</td> 
@@ -163,19 +163,19 @@ Die folgenden Berichte sind im Lieferumfang des Workfront-Pakets enthalten. Die 
   </tr> 
   <tr> 
    <td>Monatliche geplante Portfoliokosten im Vgl. zu Ist-Kosten nach Projekt</td> 
-   <td>Ein Matrix-Projektbericht (finanzielle Daten), der das Zuteilungsdatum, die geplanten Gesamtkosten, die Ist-Gesamtkosten und die Kostengesamtabweichung der Projekte ausgibt. Der Bericht ist nach Projektname, Quartal und Monat des Zuteilungsdatums gruppiert.</td> 
+   <td>Ein Matrix-Projektbericht (finanzielle Daten), der das Zuordnungsdatum, die geplanten Gesamtkosten, die Gesamt-Istkosten und die Kostengesamtabweichung der Projekte ausgibt. Der Bericht ist nach Projektname, Quartal und Monat des Zuteilungsdatums gruppiert.</td> 
   </tr> 
   <tr> 
    <td>Monatlicher geplanter Portfolioertrag im Vgl. zu den Ist-Einnahmen nach Projekt</td> 
-   <td>Ein Matrix-Projektbericht (finanzielle Daten), der das Zuteilungsdatum, die geplanten Gesamteinnahmen, die tatsächlichen Gesamteinnahmen und die Gesamt-Einnahmenabweichung der Projekte ausgibt. Der Bericht ist nach Projektname, Quartal und Monat des Zuteilungsdatums gruppiert.</td> 
+   <td>Ein Matrix-Projektbericht (finanzielle Daten), der das Zuordnungsdatum, die gesamten geplanten Einnahmen, die Ist-Gesamteinnahmen und die Kostengesamtabweichung der Projekte ausgibt. Der Bericht ist nach Projektname, Quartal und Monat des Zuteilungsdatums gruppiert.</td> 
   </tr> 
   <tr> 
    <td>Monatliche geplante Projektkosten im Vgl. zu Ist-Kosten</td> 
-   <td>Ein Matrix-Projektbericht (finanzielle Daten), der das Zuteilungsdatum, die geplanten Gesamtkosten, die Ist-Gesamtkosten und die Kostengesamtabweichung der Projekte ausgibt. Der Bericht ist nach Projektname, Quartal und Monat des Zuteilungsdatums gruppiert und wird nach Projektname angezeigt.</td> 
+   <td>Ein Matrix-Projektbericht (finanzielle Daten), der das Zuordnungsdatum, die geplanten Gesamtkosten, die Gesamt-Istkosten und die Kostengesamtabweichung der Projekte ausgibt. Der Bericht ist nach Projektname, Quartal und Monat des Zuteilungsdatums gruppiert und wird nach Projektname angezeigt.</td> 
   </tr> 
   <tr> 
    <td>Monatliche geplante Projekteinnahmen im Vgl. zu den Ist-Einnahmen</td> 
-   <td>Ein Matrix-Projektbericht (finanzielle Daten), der das Zuteilungsdatum, die geplanten Gesamteinnahmen, die tatsächlichen Gesamteinnahmen und die Gesamt-Einnahmenabweichung der Projekte ausgibt. Der Bericht ist nach Projektname, Quartal und Monat des Zuteilungsdatums gruppiert und wird nach Projektname angezeigt.</td> 
+   <td>Ein Matrix-Projektbericht (finanzielle Daten), der das Zuordnungsdatum, die gesamten geplanten Einnahmen, die Ist-Gesamteinnahmen und die Kostengesamtabweichung der Projekte ausgibt. Der Bericht ist nach Projektname, Quartal und Monat des Zuteilungsdatums gruppiert und wird nach Projektname angezeigt.</td> 
   </tr> 
   <tr> 
    <td>Meine Dokumente</td> 
@@ -183,7 +183,7 @@ Die folgenden Berichte sind im Lieferumfang des Workfront-Pakets enthalten. Die 
   </tr> 
   <tr> 
    <td>Meine Favoriten</td> 
-   <td>Ein Favoritenbericht, der eine Liste von Objekten ausgibt, die vom angemeldeten Benutzer als Favoriten markiert wurden. Der Bericht zeigt die folgenden Felder an: den Objekttyp und den Namen der Favoriten.</td> 
+   <td>Ein Favoritenbericht, der eine Liste mit Objekten ausgibt, die vom angemeldeten Benutzer als Favoriten gekennzeichnet wurden. Der Bericht zeigt die folgenden Felder an: den Objekttyp und den Namen der Favoriten.</td> 
   </tr> 
   <tr> 
    <td>Meine Probleme</td> 
@@ -191,15 +191,15 @@ Die folgenden Berichte sind im Lieferumfang des Workfront-Pakets enthalten. Die 
   </tr> 
   <tr> 
    <td>Meine Portfolios</td> 
-   <td>Ein Portfolio-Bericht, der aktive Portfolios ausgibt, in denen der angemeldete Benutzer Portfolio Manager ist.</td> 
+   <td>Ein Portfoliobericht, der aktive Portfolios ausgibt, die der angemeldete Benutzer als Portfolio-Manager verwaltet.</td> 
   </tr> 
   <tr> 
    <td>Meine Programme</td> 
-   <td>Ein Programmbericht, der Programme und deren Beschreibung ausgibt, wobei der angemeldete Benutzer der Programm-Manager ist.</td> 
+   <td>Ein Programmbericht, der Programme und deren Beschreibung ausgibt, die der angemeldete Benutzer als Programm-Manager verwaltet.</td> 
   </tr> 
   <tr> 
    <td>Offene Probleme meines Projekts</td> 
-   <td>Ein Problembericht, der noch nicht vollständig abgeschlossene Probleme in Projekten ausgibt, bei denen der angemeldete Benutzer zum Projektteam gehört. Der Bericht zeigt die folgenden Felder an: Name der Source, Problemtyp, primärer Verantwortlicher, Eingabedatum, Status und Priorität der Probleme.</td> 
+   <td>Ein Problembericht, der noch nicht vollständig abgeschlossene Probleme in Projekten ausgibt, bei denen die angemeldete Person zum Projekt-Team gehört. Der Bericht zeigt die folgenden Felder an: Name der Source, Problemtyp, primärer Verantwortlicher, Eingabedatum, Status und Priorität der Probleme.</td> 
   </tr> 
   <tr> 
    <td>Meine Projekte</td> 
@@ -219,7 +219,7 @@ Die folgenden Berichte sind im Lieferumfang des Workfront-Pakets enthalten. Die 
   </tr> 
   <tr> 
    <td>Meine nicht zugewiesenen Probleme</td> 
-   <td>Ein Problembericht, der offene Probleme ausgibt, die einem der Aufgabengebiete des angemeldeten Benutzers und nicht dem Benutzer zugewiesen sind. Der Bericht zeigt die folgenden Felder an: Name der Source, Anfragetyp, Eingabedatum, Status und Priorität der Anfragen.</td> 
+   <td>Ein Problembericht, der offene Probleme anzeigt, die einem der Aufgabengebiete der angemeldeten Person zugewiesen sind, aber nicht der Person selbst. Der Bericht zeigt die folgenden Felder an: Name der Source, Anfragetyp, Eingabedatum, Status und Priorität der Anfragen.</td> 
   </tr> 
   <tr> 
    <td>Meine nicht zugewiesenen Aufgaben</td> 
@@ -279,15 +279,15 @@ Die folgenden Berichte sind im Lieferumfang des Workfront-Pakets enthalten. Die 
   </tr> 
   <tr> 
    <td>Nach Status und Portfolio gruppierte Portfolioprojekte</td> 
-   <td>Ein Projektbericht, der den Portfolio-Namen und den Status der Projekte ausgibt. Der Bericht ist nach dem Portfolio-Namen und dem Projektstatus gruppiert und enthält eine Grafik.</td> 
+   <td>Ein Projektbericht, der den Portfolionamen und den Status der Projekte ausgibt. Der Bericht ist nach dem Portfolio-Namen und dem Projektstatus gruppiert und enthält eine Grafik.</td> 
   </tr> 
   <tr> 
    <td>Portfolioumsatz nach Programm</td> 
-   <td>Ein Projektbericht, der den Portfolio-Namen, den Programmnamen, die geplanten Einnahmen und die tatsächlichen Einnahmen der Projekte ausgibt. Der Bericht ist nach dem Portfolio-Namen und dem Programmnamen gruppiert und enthält ein Diagramm.</td> 
+   <td>Ein Projektbericht, der den Portfolionamen, Programmnamen, die geplanten Einnahmen und die tatsächlichen Einnahmen der Projekte ausgibt. Der Bericht ist nach dem Portfolio-Namen und dem Programmnamen gruppiert und enthält ein Diagramm.</td> 
   </tr> 
   <tr> 
    <td>Nach Programm und Monat gruppierte Portfolioeinnahmen</td> 
-   <td>Ein Matrix-Projektbericht, der die geplanten Einnahmen, tatsächlichen Einnahmen, den Portfolio-Namen und den Programmnamen ausgibt. Der Bericht ist nach dem Portfolio-Namen, dem Programmnamen und dem Monat des geplanten Startdatums der Projekte gruppiert.</td> 
+   <td>Ein Matrix-Projektbericht, der die geplanten Einnahmen, tatsächlichen Einnahmen, den Portfolionamen und den Programmnamen ausgibt. Der Bericht ist nach dem Portfolio-Namen, dem Programmnamen und dem Monat des geplanten Startdatums der Projekte gruppiert.</td> 
   </tr> 
   <tr> 
    <td>Projektkosten und -einnahmen nach Aufgabenstatus</td> 
@@ -295,7 +295,7 @@ Die folgenden Berichte sind im Lieferumfang des Workfront-Pakets enthalten. Die 
   </tr> 
   <tr> 
    <td>Projektkosten im Vgl. zu Einnahmen je Portfolio</td> 
-   <td>Ein Projektbericht, der den Portfolio-Namen, die Istkosten und den tatsächlichen Umsatz der Projekte ausgibt. Der Bericht ist nach Portfolio-Name gruppiert und enthält ein Diagramm.</td> 
+   <td>Ein Projektbericht, der den Portfolionamen, die Istkosten und den tatsächlichen Umsatz der Projekte ausgibt. Der Bericht ist nach Portfolio-Name gruppiert und enthält ein Diagramm.</td> 
   </tr> 
   <tr> 
    <td>Projektkosten nach Monat und Quartal</td> 
@@ -307,11 +307,11 @@ Die folgenden Berichte sind im Lieferumfang des Workfront-Pakets enthalten. Die 
   </tr> 
   <tr> 
    <td>Projektlohnkosten und -ausgaben nach Monat und Quartal</td> 
-   <td>Ein Matrix-Projektbericht, der die geplanten Lohnkosten, tatsächlichen Lohnkosten, geplanten Ausgaben und tatsächlichen Ausgaben der Projekte ausgibt. Der Bericht ist nach Projektname sowie Quartal und Monat des tatsächlichen Startdatums der Projekte gruppiert.</td> 
+   <td>Ein Projektbericht, der die geplanten Lohnkosten, tatsächlichen Lohnkosten, geplanten Ausgaben und tatsächlichen Ausgaben der Projekte ausgibt. Der Bericht ist nach Projektname sowie Quartal und Monat des tatsächlichen Startdatums der Projekte gruppiert.</td> 
   </tr> 
   <tr> 
    <td>Projektleistung</td> 
-   <td>Ein Projektbericht, der die folgenden Felder für aktuelle Projekte ausgibt: Fälligkeitsdatum, CPI, SPI, CSI, Geplante Kosten, Budget, EAC und Ausgaben der Projekte.</td> 
+   <td>Ein Projektbericht, der die folgenden Felder für aktuelle Projekte ausgibt: das Fälligkeitsdatum, CPI, SPI, CSI,  geplante Kosten, Budget, EAC und Ausgaben der Projekte.</td> 
   </tr> 
   <tr> 
    <td>Projektanforderungen</td> 
@@ -319,7 +319,7 @@ Die folgenden Berichte sind im Lieferumfang des Workfront-Pakets enthalten. Die 
   </tr> 
   <tr> 
    <td>Projekte nach Bedingung</td> 
-   <td>Ein Projektbericht, der den Zustand der Projekte ausgibt. Der Bericht ist nach Bedingung gruppiert und enthält ein Diagramm.</td> 
+   <td>Ein Projektbericht, der den Status der Projekte ausgibt. Der Bericht ist nach Bedingung gruppiert und enthält ein Diagramm.</td> 
   </tr> 
   <tr> 
    <td>Projekte nach Bedingung und nach Gruppe</td> 
@@ -335,7 +335,7 @@ Die folgenden Berichte sind im Lieferumfang des Workfront-Pakets enthalten. Die 
   </tr> 
   <tr> 
    <td>Aufgaben nach Verlaufsstatus</td> 
-   <td>Ein Aufgabenbericht, der den Fortschrittsstatus aller Aufgaben in aktuellen Projekten ausgibt. Der Bericht ist nach Fortschrittsstatus gruppiert und enthält ein Diagramm.</td> 
+   <td>Ein Projektbericht, der den Verlaufsstatus von allen Aufgaben in den aktuellen Projekten ausgibt. Der Bericht ist nach Fortschrittsstatus gruppiert und enthält ein Diagramm.</td> 
   </tr> 
   <tr> 
    <td>Aufgaben nach Status</td> 
@@ -347,7 +347,7 @@ Die folgenden Berichte sind im Lieferumfang des Workfront-Pakets enthalten. Die 
   </tr> 
   <tr> 
    <td>Gefährdete Aufgaben</td> 
-   <td>Ein Aufgabenbericht, der noch nicht abgeschlossene Aufgaben mit dem Verlaufsstatus „In Verzug“ und einem Übergabedatum vor morgen ausgibt und bei dem der angemeldete Benutzer Teil des Projektteams des Projekts ist, an dem die Aufgaben ausgeführt werden. Der Bericht zeigt die folgenden Felder an: Geplante Dauer, Projektname, primärer Beauftragter, Geplanter Beginn, Geplanter Abschluss, Prozent abgeschlossen und Priorität der Aufgaben.</td> 
+   <td>Ein Aufgabenbericht, der noch nicht abgeschlossene Aufgaben mit dem  Verlaufsstatus "In Verzug" und einem Übergabedatum nicht später als morgen ausgibt und bei dem der angemeldete Benutzer zu dem Projektteam des Projekts gehört, das die Aufgaben einschließt. Der Bericht zeigt die folgenden Felder an: Geplante Dauer, Projektname, primärer Beauftragter, Geplanter Beginn, Geplanter Abschluss, Prozent abgeschlossen und Priorität der Aufgaben.</td> 
   </tr> 
   <tr> 
    <td>Benutzeranmeldungen</td> 
