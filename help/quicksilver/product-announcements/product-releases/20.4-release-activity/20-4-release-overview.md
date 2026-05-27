@@ -39,7 +39,7 @@ Auf dieser Seite finden Sie Informationen zur Funktionalität von Adobe Workfron
 * [Verbesserungen für Administratoren](#administrator-enhancements)
 * [Verbesserungen beim Ressourcen-Management](#resource-management-enhancements)
 * [Verbesserungen beim Projektmanagement](#project-management-enhancements)
-* [Erweiterte &#x200B;](#enhanced-analytics)
+* [Erweiterte ](#enhanced-analytics)
 * [Verbesserungen beim Proofing](#proofing-enhancements)
 * [Verbesserungen bei Mobile und Integration](#mobile-and-integration-enhancements)
 * [Weitere Verbesserungen](#other-enhancements)
@@ -310,7 +310,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-Informationen zu neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in der API-Version 12](https://experienceleague.adobe.com/de/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12).
+Informationen zu neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in der API-Version 12](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12).
 
 Weitere Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Zeitplan](../../../wf-api/api/api-version-support-schedule.md)
 
@@ -363,4 +363,4 @@ Weitere Informationen finden Sie [Zulassungsliste zum Konfigurieren der Firewall
 
 Mit Workfront One entdecken Sie die wichtigsten Inhalte, Ressourcen und Neuigkeiten aus Workfront - alles an einem Ort, mit einer Anmeldung. Wir haben die Sites für Erlebnis, Community und Schulung zusammengeführt, damit Sie leichter finden können, wonach Sie suchen.
 
-[Weitere Informationen zu Workfront One](https://business.adobe.com/de/products/workfront.html).
+[Weitere Informationen zu Workfront One](https://business.adobe.com/products/workfront.html).
