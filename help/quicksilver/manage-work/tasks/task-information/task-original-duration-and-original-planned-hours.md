@@ -20,7 +20,7 @@ Im Rahmen der Planung eines Projekts sollten Sie die Werte für die geplanten St
 
 Weitere Informationen über geplante Stunden für Aufgaben finden Sie unter [Übersicht über geplante Stunden](../../../manage-work/tasks/task-information/planned-hours.md).
 
-Weitere Informationen zur Aufgabendauer finden Sie unter [Übersicht über die Aufgabendauer und den ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)).
+Weitere Informationen zur Aufgabendauer finden Sie unter [Übersicht über die Aufgabendauer und den &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)).
 
 Diese Werte werden auf der Registerkarte „Aufgabendetails“ oder beim Bearbeiten einer Aufgabe angezeigt.
 
