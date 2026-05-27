@@ -84,7 +84,7 @@ Standardmäßig werden der Startseite je nach Lizenztyp bestimmte Widgets hinzug
 
 ## Widget zur Startseite hinzufügen
 
-Widgets sind die Grundlage der Startseite. Durch Hinzufügen von Widgets zu Ihrer Startseite können Sie den Typ der Informationen auswählen, die angezeigt werden, um Ihren Arbeitsanforderungen am besten zu entsprechen. Einige Widgets stehen nur für bestimmte Lizenztypen zur Verfügung, da die von ihnen verfolgten Objekte nur für diese Lizenzen verfügbar sind. Weitere Informationen finden Sie [ Abschnitt „Widgets, die für bestimmte Lizenztypen verfügbar ](#widgets-available-for-specific-license-types)&quot; weiter oben.
+Widgets sind die Grundlage der Startseite. Durch Hinzufügen von Widgets zu Ihrer Startseite können Sie den Typ der Informationen auswählen, die angezeigt werden, um Ihren Arbeitsanforderungen am besten zu entsprechen. Einige Widgets stehen nur für bestimmte Lizenztypen zur Verfügung, da die von ihnen verfolgten Objekte nur für diese Lizenzen verfügbar sind. Weitere Informationen finden Sie [&#x200B; Abschnitt „Widgets, die für bestimmte Lizenztypen verfügbar &#x200B;](#widgets-available-for-specific-license-types)&quot; weiter oben.
 
 Hinzufügen eines Widgets:
 

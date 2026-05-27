@@ -278,7 +278,7 @@ So entfernen Sie einen Filter:
 
    ![Filter löschen](assets/rp-filter-options---delete-350x154.png)
 
-1. Klicken **** im Dialogfeld **Filter löschen** auf Löschen.
+1. Klicken **&#x200B;**&#x200B;im Dialogfeld **Filter löschen** auf Löschen.
 
 1. Der Filter wird gelöscht und aus dem Ressourcenplaner entfernt.
 
@@ -292,7 +292,7 @@ Sie können einen Filter, den Sie erstellt haben oder auf den Sie Zugriff haben,
 
 Informationen zum Standardfilter finden Sie im Abschnitt [Übersicht über den Standardfilter im Ressourcenplaner](#overview-of-the-default-filter-in-the-resource-planner) in diesem Artikel.
 
-Informationen zum Duplizieren von Filtern finden Sie [ Abschnitt „Duplizieren ](#duplicate-a-filter) Filters“ in diesem Artikel.
+Informationen zum Duplizieren von Filtern finden Sie [&#x200B; Abschnitt „Duplizieren &#x200B;](#duplicate-a-filter) Filters“ in diesem Artikel.
 
 1. Wechseln Sie zum Ressourcenplaner.
 1. Erweitern Sie das **Filter**-Dropdown-Menü.
