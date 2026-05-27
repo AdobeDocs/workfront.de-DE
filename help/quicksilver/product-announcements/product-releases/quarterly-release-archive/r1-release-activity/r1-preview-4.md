@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: R1-Vorschau 4
+title: R1-Vorschau 4
 description: Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschau-Umgebung mit der Version R1.4 verfügbar sind. Die Funktion auf dieser Seite wurde am 15. Februar 2017 in der Vorschau-Umgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements
@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 2945e058-74dd-4cc3-9d6c-e5618ee7041c
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 0%
+source-wordcount: '855'
+ht-degree: 1%
 
 ---
 
-# R1-Vorschau 4
+# R1-Vorschau 4
 
 Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschau-Umgebung mit der Version R1.4 verfügbar sind. Die Funktion auf dieser Seite wurde am 15. Februar 2017 in der Vorschau-Umgebung verfügbar gemacht.
 
@@ -61,7 +61,7 @@ Die Deaktivierung von Benutzenden kann in verschiedenen Szenarien nützlich sein
 
 Diese Funktion ist auch bei der Massenbearbeitung von Benutzern verfügbar. 
 
-Weitere Informationen zum Planen von Benutzern für die Deaktivierung finden Sie unter [Deaktivieren oder Reaktivieren eines &#x200B;](../../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) und [Benutzer hinzufügen](../../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+Weitere Informationen zum Planen von Benutzern für die Deaktivierung finden Sie unter [Deaktivieren oder Reaktivieren eines ](../../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) und [Benutzer hinzufügen](../../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 ## Neue E-Mail-Digest-Optionen für „Aktionen erforderlich“
 

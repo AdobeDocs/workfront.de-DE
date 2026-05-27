@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-4-release-activity
-title: 2019.4 Weitere Verbesserungen
+title: Weitere Verbesserungen in Version 2019.4
 description: Auf dieser Seite werden verschiedene Verbesserungen beschrieben, die mit der Version 2019.4 vorgenommen wurden. Es wird in der Woche vom 11. November 2019 in der Produktionsumgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements
@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: ed7488f1-2076-4160-97f3-a3da25cccd0f
 source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 0%
+source-wordcount: '594'
+ht-degree: 1%
 
 ---
 
-# 2019.4 Weitere Verbesserungen
+# Weitere Verbesserungen in Version 2019.4
 
 Auf dieser Seite werden verschiedene Verbesserungen beschrieben, die mit der Version 2019.4 vorgenommen wurden. Es wird in der Woche vom 11. November 2019 in der Produktionsumgebung verfügbar gemacht.
 
@@ -24,7 +24,7 @@ Eine Liste aller Änderungen in Version 2019.4 finden Sie unter [Übersicht übe
  <col> 
  <tbody> 
   <tr> 
-   <td> <strong>Starten eines automatisierten Proofing-Workflows von einem Adobe-CC-Dokument aus</strong> <p>Ohne Adobe CC verlassen zu müssen, können Sie einen automatisierten Proofing-Workflow für ein von Ihnen erstelltes Adobe CC-Dokument starten. Weitere Informationen finden Sie im Abschnitt <a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md#generate" class="MCXref xref" xrefformat="{para}">Erstellen eines Korrekturabzugs von Illustrator oder InDesign</a> im Artikel <a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md" class="MCXref xref" xrefformat="{para}">Verwenden der Workfront-Erweiterung für Illustrator und InDesign</a>.</p> </td> 
+   <td> <strong>Starten eines automatisierten Proofing-Workflows aus einem Adobe CC-Dokument</strong> <p>Ohne Adobe CC verlassen zu müssen, können Sie einen automatisierten Proofing-Workflow für ein von Ihnen erstelltes Adobe CC-Dokument starten. Weitere Informationen finden Sie im Abschnitt <a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md#generate" class="MCXref xref" xrefformat="{para}">Erstellen eines Korrekturabzugs aus Illustrator oder InDesign</a> im Artikel <a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md" class="MCXref xref" xrefformat="{para}">Verwenden der Workfront-Erweiterung für Illustrator und InDesign</a>.</p> </td> 
   </tr> 
   <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 

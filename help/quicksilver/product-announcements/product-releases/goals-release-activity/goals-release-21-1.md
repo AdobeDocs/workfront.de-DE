@@ -2,19 +2,19 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: Adobe Workfront-Ziele in Version 21.1
+title: Adobe Workfront Goals mit Version 21.1
 description: Auf dieser Seite finden Sie Informationen zur Funktionalität für Adobe Workfront Goals in der neuen Adobe Workfront-Version, die mit Version 21.1 in die Produktionsumgebung eingeführt wird.
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: 2da2c8f9-a678-4739-8e9c-21473e92d51a
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 0%
+source-wordcount: '811'
+ht-degree: 1%
 
 ---
 
-# Adobe Workfront-Ziele in Version 21.1
+# Adobe Workfront Goals mit Version 21.1
 
 Auf dieser Seite finden Sie Informationen zur Funktionalität für Adobe Workfront Goals in der neuen Adobe Workfront-Version, die mit Version 21.1 in die Produktionsumgebung eingeführt wird.
 

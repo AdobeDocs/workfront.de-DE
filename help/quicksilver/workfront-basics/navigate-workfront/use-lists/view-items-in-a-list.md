@@ -9,8 +9,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '2301'
-ht-degree: 4%
+source-wordcount: '2281'
+ht-degree: 3%
 
 ---
 
@@ -68,7 +68,7 @@ Im Folgenden finden Sie einige Merkmale von Listen in [!DNL Workfront]:
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -151,7 +151,7 @@ Im Folgenden finden Sie einige Objektlisten, die Sie in [!DNL Workfront] finden 
    <td>Aufgabenliste</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL -Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt; [!UICONTROL -Aufgaben]</p> </li> 
+     <li> <p>[!UICONTROL-Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt; [!UICONTROL-Aufgaben]</p> </li> 
      <li> <p>[!UICONTROL Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL Aufgaben] &gt;[!UICONTROL auf eine Aufgabe klicken] &gt;[!UICONTROL Unteraufgaben]</p> </li> 
      <li> <p>[!UICONTROL Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL Aufgaben] &gt;[!UICONTROL auf eine Aufgabe klicken] &gt; [!UICONTROL Vorgänger*]</p> </li> 
     </ul> </td> 
@@ -200,8 +200,8 @@ Im Folgenden finden Sie einige Objektlisten, die Sie in [!DNL Workfront] finden 
      <li> <p>[!UICONTROL Dokumente]</p> </li> 
      <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL auf ein Portfolio klicken] &gt; [!UICONTROL Dokumente]</p> </li> 
      <li> <p>[!UICONTROL Portfolios] &gt; [!UICONTROL auf ein Portfolio klicken] &gt;[!UICONTROL Programme] &gt;[!UICONTROL auf ein Programm klicken] &gt;[!UICONTROL Dokumente]</p> </li> 
-     <li> <p>[!UICONTROL -Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL -Dokumente]</p> </li> 
-     <li> <p>[!UICONTROL -Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL -Aufgaben] &gt;[!UICONTROL auf eine Aufgabe klicken] &gt; [!UICONTROL -Dokumente]</p> </li> 
+     <li> <p>[!UICONTROL-Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL-Dokumente]</p> </li> 
+     <li> <p>[!UICONTROL-Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL-Aufgaben] &gt;[!UICONTROL auf eine Aufgabe klicken] &gt; [!UICONTROL-Dokumente]</p> </li> 
      <li> <p>[!UICONTROL Projekte] &gt; [!UICONTROL klicken] Ein Projekt &gt; [!UICONTROL Probleme] &gt;[!UICONTROL klicken Sie auf ein Problem] &gt; [!UICONTROL Dokumente]</p> </li> 
     </ul> </td> 
   </tr> 
@@ -230,7 +230,7 @@ Im Folgenden finden Sie einige Objektlisten, die Sie in [!DNL Workfront] finden 
    <td>Liste der Risiken</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL -Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL -Risiken]</p> </li> 
+     <li> <p>[!UICONTROL-Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL-Risiken]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -245,7 +245,7 @@ Im Folgenden finden Sie einige Objektlisten, die Sie in [!DNL Workfront] finden 
    <td>Liste der Stundeneinträge</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projekte] &gt; Klicken Sie auf ein Projekt</p> </li> 
+     <li> <p>[!UICONTROL Projekte] &gt;[!UICONTROL] Klicken Sie auf ein Projekt</p> </li> 
      <li> <p>[!UICONTROL Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL Aufgaben] &gt;[!UICONTROL auf eine Aufgabe klicken] &gt;[!UICONTROL Stunden]</p> </li> 
      <li> <p>[!UICONTROL Projekte] &gt;[!UICONTROL klicken] Ein Projekt &gt;[!UICONTROL Probleme] &gt;[!UICONTROL klicken] Ein Problem &gt;[!UICONTROL Stunden]</p> </li>
     </ul> </td> 
@@ -458,7 +458,7 @@ In der folgenden Tabelle werden viele der in der Symbolleiste verfügbaren Symbo
   </tr> 
   <tr> 
    <td> <img src="assets/export.png"> </td> 
-   <td>[!UICONTROL -Export]</td> 
+   <td>[!UICONTROL-Export]</td> 
    <td>Exportieren Sie die Liste in Dateien mit PDF, Excel oder Tabulatoren.</td> 
   </tr> 
   <tr> 
@@ -503,7 +503,7 @@ In der folgenden Tabelle werden viele der in der Symbolleiste verfügbaren Symbo
   </tr> 
   <tr> 
    <td> <img src="assets/comment-icon.png"> </td> 
-   <td>[!UICONTROL -Kommentar] /[!UICONTROL -Update]</td> 
+   <td>[!UICONTROL-Kommentar] /[!UICONTROL-Update]</td> 
    <td> <p>Geben Sie einen Kommentar oder eine Aktualisierung ein.</p> </td> 
   </tr> 
  </tbody> 

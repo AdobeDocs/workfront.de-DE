@@ -8,8 +8,8 @@ feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
 source-git-commit: dec69522dd5f233bfabe84a9846b8e1246993a2a
 workflow-type: tm+mt
-source-wordcount: '1353'
-ht-degree: 3%
+source-wordcount: '1355'
+ht-degree: 4%
 
 ---
 
@@ -36,7 +36,7 @@ Sie können die folgenden Objekte in Workfront für andere Benutzer freigeben:
 
 * **Projekte**: Weitere Informationen finden Sie unter [Freigeben eines Projekts in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
-* **Vorlagen**: Weitere Informationen finden Sie unter &quot;[&#x200B; von Projektvorlagen](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+* **Vorlagen**: Weitere Informationen finden Sie unter &quot;[ von Projektvorlagen](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
 * **Portfolios**: Weitere Informationen finden Sie unter [Freigeben eines Portfolios](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 

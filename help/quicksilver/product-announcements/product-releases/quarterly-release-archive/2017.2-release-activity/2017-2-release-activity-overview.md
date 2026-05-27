@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Übersicht über die Versionsaktivität 2017.2
+title: Überblick über Version 2017.2
 description: Diese Seite enthält Informationen über die Funktionen der Version 2017.2, die jetzt für alle in der Produktionsumgebung verfügbar ist.
 author: Luke
 feature: Product Announcements
@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 66b499f1-12c0-4486-a5b8-ebabd0ccd59d
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 0%
+source-wordcount: '688'
+ht-degree: 1%
 
 ---
 
-# Übersicht über die Versionsaktivität 2017.2
+# Überblick über Version 2017.2
 
 Diese Seite enthält Informationen über die Funktionen der Version 2017.2, die jetzt für alle in der Produktionsumgebung verfügbar ist. 
 
@@ -105,7 +105,7 @@ In den folgenden Abschnitten werden die Verbesserungen beschrieben, die für End
 * [2017.2 Beta Final](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#user-calendar-enhancements-in-the-my-work-area)
 * [2017.2 Beta Final](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#layout-template-determines-whether-the-new-or-legacy-calendar-displays-in-the-my-work-area)
 * [Aktualisiertes Erscheinungsbild in der Dashboard-Liste](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md#updated-look-and-feel-in-the-dashboard-list)
-* [Binden Sie beim Exportieren nach PDF die Legende des Gantt-Diagramms ein](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md#include-the-gantt-chart-legend-when-exporting-to-pdf)
+* [Binden Sie beim Exportieren nach PDF die Legende zum Gantt-Diagramm ein](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md#include-the-gantt-chart-legend-when-exporting-to-pdf)
 * [Konfigurieren Sie, wie Meilensteine im Gantt-Diagramm angezeigt werden](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-2-release-activity.md#configure-how-milestones-are-displayed-on-the-gantt-chart)
 * [In-App-Benachrichtigung zur Genehmigung von Korrekturabzügen](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#in-app-notification-for-proof-approval)
 * [Verbesserungen für Mobilgeräte](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md#mobile-improvements)

@@ -8,8 +8,8 @@ feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
 source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '1327'
-ht-degree: 1%
+source-wordcount: '1343'
+ht-degree: 5%
 
 ---
 
@@ -28,7 +28,7 @@ Ihre Sichtbarkeit von Objekten in Adobe Workfront hängt von Ihrem Zugriff auf d
 >* Ansichten und Arbeitsbereiche in Workfront Planning. Weitere Informationen finden Sie unter [Übersicht über Freigabeberechtigungen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). Dies erfordert eine zusätzliche Lizenz.
 
 
-Ihr Workfront-Administrator konfiguriert Ihren Zugriff auf einen Objekttyp auf Ihrer Zugriffsebene. Weitere Informationen finden Sie unter [&#x200B; der Zusammenarbeit von Zugriffsebenen und Berechtigungen](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+Ihr Workfront-Administrator konfiguriert Ihren Zugriff auf einen Objekttyp auf Ihrer Zugriffsebene. Weitere Informationen finden Sie unter [ der Zusammenarbeit von Zugriffsebenen und Berechtigungen](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 Wenn Sie Berechtigungen für bestimmte Objekte in Workfront benötigen, können Sie Zugriff darauf anfordern. Anstatt eine E-Mail an den Workfront-Administrator oder Objektinhaber zu senden, um Ihre Anforderungen zu erläutern, können Sie in Workfront zusätzlichen Zugriff (oder Berechtigungen) anfordern.
 
@@ -36,7 +36,7 @@ Sie können den erstmaligen Zugriff auf Objekte anfordern, wenn jemand einen Lin
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,7 +49,7 @@ Sie können den erstmaligen Zugriff auf Objekte anfordern, wenn jemand einen Lin
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p> 
-   <p>Arbeit oder höher</p> 
+   <p>Work oder höher</p> 
    </td> 
   </tr> 
   <tr> 
@@ -59,7 +59,7 @@ Sie können den erstmaligen Zugriff auf Objekte anfordern, wenn jemand einen Lin
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

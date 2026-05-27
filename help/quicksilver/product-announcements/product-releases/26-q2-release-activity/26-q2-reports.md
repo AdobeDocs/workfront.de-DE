@@ -9,8 +9,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 8%
+source-wordcount: '929'
+ht-degree: 1%
 
 ---
 
@@ -24,9 +24,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im zweiten Quartal 2026 ve
 
 >[!NOTE]
 >
->Vorschau: 2. April 2026
->Produktions-Schnellveröffentlichung: Donnerstag, 15. April 2026
->Produktion für alle: Freitag, 16. April 2026
+>Vorschau: 2. April 2026>Produktions-Schnellveröffentlichung: 15. April 2026>Produktion für alle: 16. April 2026
 
 Wir haben dem Dokumentversionsobjekt ein `currentVersion` boolesches Feld hinzugefügt, damit Sie die neueste Version eines Dokuments leichter identifizieren und darüber berichten können.
 Mit diesem Update:
@@ -47,9 +45,7 @@ Vorhandene Filter für klassische Berichte, die `isCurrentVersion` oder `isDocum
 
 >[!NOTE]
 >
->Vorschau: 3. April 2026
->Produktions-Schnellveröffentlichung: Donnerstag, 15. April 2026
->Produktion für alle: Freitag, 16. April 2026
+>Vorschau: 3. April 2026>Produktions-Schnellveröffentlichung: 15. April 2026>Produktion für alle: 16. April 2026
 
 Workfront enthält jetzt einen neuen Bereitstellungstyp Link für geplante Berichte. Anstatt eine Datei zu generieren und anzuhängen, sendet diese Option eine E-Mail mit einem direkten Link zum Bericht in Workfront, damit die Empfängerinnen und Empfänger `{{$include }}` aktuellen Daten in der Anwendung anzeigen können.
 
@@ -63,9 +59,7 @@ Weitere Informationen finden Sie unter [Planen einer automatischen Berichtsberei
 
 >[!NOTE]
 >
->Vorschau: 2. April 2026
->Produktions-Schnellveröffentlichung: Donnerstag, 15. April 2026
->Produktion für alle: Freitag, 16. April 2026
+>Vorschau: 2. April 2026>Produktions-Schnellveröffentlichung: 15. April 2026>Produktion für alle: 16. April 2026
 >
 >Canvas Dashboards befindet sich derzeit in der Beta-Phase.
 
@@ -79,9 +73,7 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-Berichts in einem Ar
 
 >[!NOTE]
 >
->Vorschau: 12. März 2026
->Produktions-Schnellveröffentlichung: Freitag, 12. März 2026
->Produktion für alle: Freitag, 16. April 2026
+>Vorschau: 12. März 2026>Produktions-Schnellveröffentlichung: 12. März 2026>Produktion für alle: 16. April 2026
 
 Sie können sich jetzt mit RSA-Schlüsseln oder programmgesteuerten Zugriffstoken (PAT)-Verbindungen bei Data Connect authentifizieren und so sicherere und flexiblere Alternativen zu herkömmlichen Benutzernamen-/Passwort-Anmeldeinformationen hinzufügen.
 
@@ -95,9 +87,7 @@ Diese neuen Optionen ermöglichen es Unternehmen, stabile Verbindungen von Power
 
 >[!NOTE]
 >
->Vorschau: 26. Februar 2026
->Produktions-Schnellveröffentlichung: Freitag, 12. März 2026
->Produktion für alle: Freitag, 16. April 2026
+>Vorschau: 26. Februar 2026>Produktions-Schnellveröffentlichung: 12. März 2026>Produktion für alle: 16. April 2026
 
 Die benutzerdefinierte Feldbezeichnung wird jetzt vor dem Feldnamen und dem -Objekt in den Tools zum Erstellen von Berichten angezeigt, sodass Sie Felder leichter finden können. Feldbezeichnungen werden auch beim Definieren von Filtern, Ansichten und Gruppierungen in Listen angezeigt.
 
@@ -109,9 +99,7 @@ Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Beri
 
 >[!NOTE]
 >
->Vorschau: 26. Februar 2026
->Produktions-Schnellveröffentlichung: Freitag, 12. März 2026
->Produktion für alle: Freitag, 16. April 2026
+>Vorschau: 26. Februar 2026>Produktions-Schnellveröffentlichung: 12. März 2026>Produktion für alle: 16. April 2026
 
 Sie können jetzt Berichte mithilfe von freigebbaren Berichtsordnern organisieren und freigeben. Diese neue Funktion hilft Teams, die große Mengen an Berichten verwalten, skalierbare und konsistente Zugriffskontrolle zu gewährleisten:
 
@@ -129,9 +117,7 @@ Weitere Informationen finden Sie unter [Verwenden von freigebbaren Berichtsordne
 
 >[!NOTE]
 >
->Vorschau: 26. Februar 2026
->Produktions-Schnellveröffentlichung: Freitag, 12. März 2026
->Produktion für alle: Freitag, 16. April 2026
+>Vorschau: 26. Februar 2026>Produktions-Schnellveröffentlichung: 12. März 2026>Produktion für alle: 16. April 2026
 
 >[!NOTE]
 >
@@ -139,6 +125,6 @@ Weitere Informationen finden Sie unter [Verwenden von freigebbaren Berichtsordne
 
 Diagramme, die Daten nach Datum gruppieren, zeigen jetzt klarere, besser lesbare Datumsbeschriftungen an. Mit diesem Update werden Datumsbeschriftungen basierend auf der ausgewählten Option Gruppieren nach dynamisch angepasst, z. B. nach Tag, Woche, Monat oder Jahr, wodurch Diagramme leichter zu lesen und zu interpretieren sind:
 
-<table> <tbody> <tr> <td>Day</td> <td>Zeigt das vollständige Datum an. Beispiel: 3/12/2026</td> </tr> <tr> <td>Woche</td> <td>Zeigt ein formatiertes Startdatum der Woche an. Beispiel, 8. März 2026</td> </tr> <tr> <td>Month</td> <td>Zeigt Monat und Jahr an. Beispiel März 2026</td> </tr> <tr> <td>Year</td> <td>Anzeige nur des Jahres. Beispiel: 2026</td> </tr> </tbody> </table>
+<table> <tbody> <tr> <td>Tag</td> <td>Zeigt das vollständige Datum an. Beispiel: 3/12/2026</td> </tr> <tr> <td>Woche</td> <td>Zeigt ein formatiertes Startdatum der Woche an. Beispiel, 8. März 2026</td> </tr> <tr> <td>Month</td> <td>Zeigt Monat und Jahr an. Beispiel März 2026</td> </tr> <tr> <td>Year</td> <td>Anzeige nur des Jahres. Beispiel: 2026</td> </tr> </tbody> </table>
 
 Zuvor zeigten die Diagrammgruppierungen immer das Startdatum des ausgewählten Zeitraums in einem numerischen Format an.

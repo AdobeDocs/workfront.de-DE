@@ -11,7 +11,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '3292'
+source-wordcount: '3297'
 ht-degree: 1%
 
 ---
@@ -92,7 +92,7 @@ Informationen zum Erstellen von Berichten finden Sie [Erstellen eines benutzerde
 
 * Sie müssen über eine Standard- oder Planlizenz verfügen, um Ihre eigenen Berichte zu erstellen.
 
-  Informationen zu den Workfront-Lizenztypen finden Sie unter [Lizenzübersicht](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) für die aktuellen Lizenzen und [Übersicht über neue &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)).
+  Informationen zu den Workfront-Lizenztypen finden Sie unter [Lizenzübersicht](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) für die aktuellen Lizenzen und [Übersicht über neue ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)).
 
 * Ihr Workfront-Administrator muss Ihnen Zugriff auf „Berichte bearbeiten“ auf Ihrer Zugriffsebene gewähren.
 
@@ -120,7 +120,7 @@ Sie können sehen, wem ein Bericht gehört, indem Sie das Feld **Eingegeben von*
 Es wird empfohlen, zuerst die Berichterstellungsoberfläche zu verwenden, um einen neuen Bericht zu erstellen. Die Benutzeroberfläche bietet eine optimierte Reihe von Tools, die Sie durch das Zusammenfügen von Elementen führen, um den gewünschten Bericht zu erstellen. Sie verfügen über Objekte und Felder, die Sie aus Listen auswählen und zu allen Berichtselementen hinzufügen können.\
 Weitere Informationen zum Erstellen von Berichten in der Benutzeroberfläche zum Erstellen von Berichten finden Sie unter [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Eine Liste der Objekte, über die Sie einen Bericht erstellen können, finden Sie [&#x200B; Abschnitt „Bericht über &#x200B;](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#report-on-objects)&quot; im Artikel [Übersicht über Adobe Workfront-Objekte](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Eine Liste der Objekte, über die Sie einen Bericht erstellen können, finden Sie [ Abschnitt „Bericht über ](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#report-on-objects)&quot; im Artikel [Übersicht über Adobe Workfront-Objekte](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 Weitere Informationen zu den Feldern, die Sie in Berichten anzeigen können, finden Sie unter [Glossar der Adobe Workfront-Terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
@@ -151,7 +151,7 @@ Eine Liste der häufigsten Verwendungen des Textmodus in einem Bericht finden Si
 
 Informationen zur Aufnahme berechneter benutzerdefinierter Daten in Berichte finden Sie unter [Berechnete benutzerspezifische Daten in Berichten](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md).
 
-Informationen zum Vergleichen von Feldern in bedingter Formatierung finden Sie unter [Felder in bedingter Formatierung &#x200B;](../../../reports-and-dashboards/reports/text-mode/compare-fields-conditional-formatting.md).
+Informationen zum Vergleichen von Feldern in bedingter Formatierung finden Sie unter [Felder in bedingter Formatierung ](../../../reports-and-dashboards/reports/text-mode/compare-fields-conditional-formatting.md).
 
 Sie können Sammlungsfelder auch mithilfe des Textmodus in Berichten referenzieren.\
 Informationen zur Verwendung des Textmodus zum Anzeigen von Sammlungsinformationen in einem Bericht finden Sie unter [Referenzieren von Sammlungen in einem Bericht](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
@@ -364,7 +364,7 @@ Die folgenden Begriffe werden für Workfront-Berichte verwendet:
      <li>Auf der Registerkarte Filter</li> 
      <li>Der Bildschirm Erweiterte Optionen für die Spalte auf der Registerkarte Spalten (Ansicht) . Durch Definieren eines Qualifizierers können Sie den Feldnamen mit einem anderen Feld oder Wert vergleichen.</li> 
      <li> In einer benutzerdefinierten Eingabeaufforderung<br><p>Informationen zu Eingabeaufforderungen finden Sie unter <a href="/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Hinzufügen einer Eingabeaufforderung zu einem Bericht</a>.</p>.</li> 
-    </ul> <p>Wenn Sie beispielsweise einen Filter für Aufgaben mit dem geplanten Abschlussdatum „Heute“ erstellen, wählen Sie <strong>Gleich</strong> in Ihrem Qualifizierungsfeld und das heutige Datum im Datumsfeld aus:</p> <p><em>Aufgabe&gt; Geplantes Abschlussdatum&gt;Gleich&gt;(heutiges Datum)</em> </p> <p>In diesem Szenario lautet der Qualifizierer <strong>Gleich</strong>.<br>Weitere Informationen zu Kriterien finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter- und Bedingungsmodifikatoren</a>.</p> </td> 
+    </ul> <p>Wenn Sie beispielsweise einen Filter für Aufgaben mit dem geplanten Abschlussdatum „Heute“ erstellen, wählen Sie <strong>Gleich</strong> in Ihrem Qualifizierungsfeld und das heutige Datum im Datumsfeld aus:</p> <p><em>Aufgabe&gt; Geplantes Abschlussdatum&gt;Gleich&gt;(heutiges Datum)</em> </p> <p>In diesem Szenario lautet der <strong> "</strong>.<br>Weitere Informationen zu Kriterien finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter- und Bedingungsmodifikatoren</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Bericht </td> 

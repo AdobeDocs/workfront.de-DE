@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Versionsaktivität von Beta 1 2018.1
+title: Veröffentlichungen für Version 2018.1 Beta 1
 description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 1 Version 2018.1 verfügbar waren. Die Funktion auf dieser Seite wurde am 1. Dezember 2017 in der Vorschau-Umgebung verfügbar gemacht. Sie wird im März 2018 in der Produktionsumgebung bereitgestellt.
 author: Luke
 feature: Product Announcements
@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: efcc2217-ab69-4ac4-8e9a-f811eba77d49
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 0%
+source-wordcount: '1070'
+ht-degree: 1%
 
 ---
 
-# Versionsaktivität von Beta 1 2018.1
+# Veröffentlichungen für Version 2018.1 Beta 1
 
 Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 1 Version 2018.1 verfügbar waren. Die Funktion auf dieser Seite wurde am 1. Dezember 2017 in der Vorschau-Umgebung verfügbar gemacht. Sie wird im März 2018 in der Produktionsumgebung bereitgestellt.
 
@@ -22,7 +22,7 @@ Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorscha
 >
 > Die auf dieser Seite beschriebene Funktion kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller Änderungen in Version 2018.1 finden Sie unter  Übersicht über die Versionsaktivität [2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+Eine Liste aller in 2018.1 vorgenommenen Änderungen finden Sie unter [Übersicht über die Versionsaktivität von 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
 Die Beta-Version 2018.1 enthält Verbesserungen für Workfront-Administratoren und andere Benutzende:
 

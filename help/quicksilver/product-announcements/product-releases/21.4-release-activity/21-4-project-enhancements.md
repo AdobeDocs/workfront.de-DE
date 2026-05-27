@@ -1,6 +1,6 @@
 ---
-title: 21.4 Projektverbesserungen
-description: 21.4 Projektverbesserungen
+title: Verbesserungen bei Projekten in Version 21.4
+description: Verbesserungen bei Projekten in Version 21.4
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -8,12 +8,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 6bcd332e-bd4e-4a74-bae9-9ba507299a51
 source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '920'
 ht-degree: 0%
 
 ---
 
-# 21.4 Projektverbesserungen
+# Verbesserungen bei Projekten in Version 21.4
 
 Auf dieser Seite werden alle mit Version 21.4 vorgenommenen Projektverbesserungen in der Vorschau-Umgebung beschrieben. Diese Verbesserungen werden in der Woche vom 4. Oktober 2021 in der Produktionsumgebung verfügbar gemacht.
 
@@ -29,7 +29,7 @@ Zuvor bestand die einzige Möglichkeit, ein Bild in Workfront freizugeben, darin
 
 Weitere Informationen finden Sie unter [Arbeit aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Bevor Workfront-Benutzer Bilder in Aktualisierungen einbeziehen können, muss diese Funktion zunächst vom Adobe Workfront-Administrator aktiviert werden, wie unter &quot;[&#x200B; für Benutzeraktualisierungen konfigurieren](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md) beschrieben.
+Bevor Workfront-Benutzer Bilder in Aktualisierungen einbeziehen können, muss diese Funktion zunächst vom Adobe Workfront-Administrator aktiviert werden, wie unter &quot;[ für Benutzeraktualisierungen konfigurieren](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md) beschrieben.
 
 ## Aktualisierter Algorithmus für smarte Zuweisungen
 
@@ -48,7 +48,7 @@ Damit Ihre Verwendung von Workfront mit der neuen Workfront-Version konsistent i
 
 Die Benutzeroberfläche zum Erstellen des Projekts wurde sowohl beim Erstellen über den Bereich Projekte als auch im Bereich Vorlagen aktualisiert.
 
-Weitere Informationen finden [&#x200B; unter „Erstellen eines Projekts mithilfe einer Vorlage](../../../manage-work/projects/create-projects/create-project-from-template.md).
+Weitere Informationen finden [ unter „Erstellen eines Projekts mithilfe einer Vorlage](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
 ## Neues Erlebnis beim Anhängen von Vorlagen an Projekte
 

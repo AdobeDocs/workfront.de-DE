@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Aktivität "Beta-Endversion 2017.3“
+title: Veröffentlichungen für Version 2017.3 Beta-Endversion
 description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit der Beta-Endversion 2017.3 verfügbar waren. Die Funktion auf dieser Seite wurde am 12. September 2017 in der Vorschau-Umgebung verfügbar gemacht. Sie wird Anfang November 2017 in der Produktionsumgebung bereitgestellt.
 author: Luke
 feature: Product Announcements
@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 880828f4-3908-4ef0-ab1f-774f8dee72b6
 source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
 workflow-type: tm+mt
-source-wordcount: '3791'
+source-wordcount: '3822'
 ht-degree: 0%
 
 ---
 
-# Aktivität &quot;Beta-Endversion 2017.3“
+# Veröffentlichungen für Version 2017.3 Beta-Endversion
 
 Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit der Beta-Endversion 2017.3 verfügbar waren. Die Funktion auf dieser Seite wurde am 12. September 2017 in der Vorschau-Umgebung verfügbar gemacht. Sie wird Anfang November 2017 in der Produktionsumgebung bereitgestellt.
 
@@ -22,7 +22,7 @@ Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorscha
 >
 > Die auf dieser Seite beschriebene Funktion kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller Änderungen in Version 2017.3 finden Sie unter  [Übersicht über die Versionsaktivität 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
+Eine Liste aller in 2017.3 vorgenommenen Änderungen finden Sie unter [Übersicht über die Versionsaktivität 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
 
 Die Beta-Endversion 2017.3 enthält Verbesserungen sowohl für Workfront-Administratoren als auch für andere Benutzer:
 
@@ -139,9 +139,9 @@ Vor dieser Änderung konnten nur Aufgaben zum Rückstand hinzugefügt werden. We
 
 Da Sie jetzt Zugriff auf mehr als nur Aufgaben im Rückstand haben, werden alle benutzerdefinierten Aufgabenansichten, die zuvor im Rückstand verfügbar waren, kopiert und dem Rückstand als benutzerdefinierte Rückstand-Arbeitsaufgabenansichten hinzugefügt.
 
-Informationen zur Verwendung von Problemen im Auftragsbestand finden Sie unter  [Verwalten des Agile-Rückstands](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Informationen zur Verwendung von Problemen im Rückstand finden Sie unter [Verwalten des Agile-Rückstands](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
-Informationen dazu, wie Probleme im Rückstand eines Agile-Scrum-Teams verfügbar sein können, finden Sie unter  [Konfigurieren Sie in „Scrum konfigurieren“, wie Datumsangaben beim Hinzufügen &#x200B;](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) Arbeitselementen [&#x200B; Iteration &#x200B;](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md) werden.
+Informationen dazu, wie Probleme im Rückstand eines Agile-Scrum-Teams verfügbar sein können, finden Sie unter [Konfigurieren der Anwendung von Datumsangaben beim Hinzufügen von Arbeitselementen zu einer Iteration](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) in [Konfigurieren von Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Probleme im Scrum Agile-Story-Board einschließen {#include-issues-on-the-scrum-agile-story-board}
 
@@ -163,7 +163,7 @@ Die Gruppierungs- und Filteroptionen sind jetzt im agilen Rückstand verfügbar,
 
 Vor dieser Änderung konnten Sie Ansichten auf den Agile-Rückstand anwenden.
 
-Weitere Informationen finden Sie unter  [Verwalten des Agile-](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) in  [Verwalten des Agile-Rückstands](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Weitere Informationen finden Sie unter [Verwalten des Agile-](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)&quot; in [Verwalten des Agile-Rückstands](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 ## Rich-Text-Formatierung für Aktualisierungen und E-Mails {#rich-text-formatting-for-updates-and-emails}
 
@@ -203,7 +203,7 @@ Weitere Informationen finden Sie [Übersicht über den Ressourcenauslastungsberi
 
 Beim Ausführen eines Auslastungsberichts werden Sie nun aufgefordert, einen Filter anzuwenden, bevor der Bericht ausgeführt wird. Durch diese Änderung wird sichergestellt, dass die relevantesten Informationen so schnell wie möglich im Auslastungsbericht generiert werden.
 
-Weitere Informationen zum Ausführen eines Auslastungsberichts finden Sie unter [Übersicht über den &#x200B;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) unter [Übersicht über den Bericht zur Ressourcenauslastung](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Weitere Informationen zum Ausführen eines Auslastungsberichts finden Sie unter [Übersicht über den ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) unter [Übersicht über den Bericht zur Ressourcenauslastung](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Dokumentverbesserungen: Optimierte Benutzeroberfläche {#document-enhancements-streamlined-interface}
 
@@ -290,7 +290,7 @@ Der HTML-Viewer bietet beim Testen von statischen Inhalten die folgenden neuen F
 
 * Navigieren in Korrekturabzügen über die Miniaturansichten von Korrekturabzügen
 
-   * Identifizieren Sie auf einfache Weise den Teil des Korrekturabzugs, der überprüft wird. Dies ist wichtig, insbesondere wenn Benutzende mit Korrekturabzügen im größeren Format und langen Web-Seiten arbeiten oder zu einem beliebigen Zeitpunkt  Um die Details sehen zu können, ist ein größerer Zoom erforderlich.
+   * Identifizieren Sie auf einfache Weise den Teil des Korrekturabzugs, der überprüft wird. Dies ist wichtig, insbesondere wenn Benutzende mit Korrekturabzügen im größeren Format und langen Web-Seiten arbeiten oder wenn der größere Zoom-Faktor benötigt wird, um die Details zu sehen.
    * Zoom-Faktor ändern
    * Inhalt schwenken
 
@@ -448,7 +448,7 @@ Weitere Informationen zum Zugriff auf Workfront über Slack finden Sie unter [Ve
 
 ## Outlook 365 - Verbesserungen {#outlook-365-improvements}
 
-Wir haben folgende Verbesserungen am Workfront-Add-in für vorgenommen  Outlook 365:
+Das Workfront-Add-in für Outlook 365 wurde wie folgt verbessert:
 
 * Aufgabe oder Problem zu einem Projekt in Workfront hinzufügen: Sie können jetzt mithilfe des Outlook 365-Add-ins eine E-Mail in eine Aufgabe oder ein Problem in Workfront konvertieren. In diesem Prozess können Sie ein Projekt, dem die Aufgabe oder das Problem hinzugefügt werden soll, sowie einen Bevollmächtigten und ein Fälligkeitsdatum angeben. Vor dieser Verbesserung konnten Sie nur eine Anfrage an eine Anfrage-Warteschlange senden oder eine persönliche Aufgabe aus Outlook 365 zu Ihrer Arbeitsliste hinzufügen. 
 * Beibehalten eines Links zu Workfront-Objekten in der ursprünglichen E-Mail, die in Aufgaben, Probleme oder Anfragen konvertiert wurde: Wenn Sie eine E-Mail von Outlook 365 in eine Aufgabe, ein Problem oder eine Anfrage konvertieren, behält Outlook 365 einen Link zu der Aufgabe oder dem Problem bei, die bzw. das aus dieser E-Mail in der ursprünglichen E-Mail konvertiert wurde. Vor dieser Änderung gab es in Outlook keinen Hinweis darauf, ob eine E-Mail in eine Aufgabe konvertiert oder als Anfrage gesendet wurde. 

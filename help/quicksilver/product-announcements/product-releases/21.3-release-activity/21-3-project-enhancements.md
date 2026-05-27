@@ -1,6 +1,6 @@
 ---
-title: 21.3 Projektverbesserungen
-description: 21.3 Projektverbesserungen
+title: Verbesserungen bei Projekten in Version 21.3
+description: Verbesserungen bei Projekten in Version 21.3
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -8,12 +8,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 1df4ccdb-5b74-414c-a622-b0a5ed30a8c4
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1129'
-ht-degree: 0%
+source-wordcount: '1146'
+ht-degree: 1%
 
 ---
 
-# 21.3 Projektverbesserungen
+# Verbesserungen bei Projekten in Version 21.3
 
 Auf dieser Seite werden alle mit Version 21.3 vorgenommenen Projektverbesserungen in der Vorschau-Umgebung beschrieben. Diese Verbesserungen wurden in der Woche vom 21. Juli 2021 in der Produktionsumgebung verfügbar gemacht.
 

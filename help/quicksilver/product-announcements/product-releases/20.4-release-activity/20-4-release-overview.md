@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases
-title: Übersicht über die Version 20.4
+title: Überblick über Version 20.4
 description: Die Version 20.4 wurde in der Woche vom 9. November 2020 in der Produktionsumgebung bereitgestellt. Spezifische Veröffentlichungstermine und -zeiten für jeden Cluster finden Sie auf der Workfront Status-Site.
 author: Luke
 feature: Product Announcements
@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '3695'
-ht-degree: 0%
+source-wordcount: '3852'
+ht-degree: 1%
 
 ---
 
-# Übersicht über die Version 20.4
+# Überblick über Version 20.4
 
 Die Version 20.4 wurde in der Woche vom 9. November 2020 in der Produktionsumgebung bereitgestellt.
 
@@ -39,7 +39,7 @@ Auf dieser Seite finden Sie Informationen zur Funktionalität von Adobe Workfron
 * [Verbesserungen für Administratoren](#administrator-enhancements)
 * [Verbesserungen beim Ressourcen-Management](#resource-management-enhancements)
 * [Verbesserungen beim Projektmanagement](#project-management-enhancements)
-* [Erweiterte &#x200B;](#enhanced-analytics)
+* [Erweiterte ](#enhanced-analytics)
 * [Verbesserungen beim Proofing](#proofing-enhancements)
 * [Verbesserungen bei Mobile und Integration](#mobile-and-integration-enhancements)
 * [Weitere Verbesserungen](#other-enhancements)
@@ -296,7 +296,7 @@ Die meisten neuen Funktionen in Workfront Scenario Planner sind in Version 20.4 
 
 Die meisten neuen Funktionen der Workfront Goals-Version 20.4. Weitere Informationen zu diesen neuen Funktionen, die jetzt in der Vorschau verfügbar sind, finden Sie unter [Workfront Goals with the 20.4 Release](../../../product-announcements/product-releases/goals-release-activity/goals-release-20-4.md).
 
-## Workfront Fusion-Verbesserungen
+## Verbesserungen in Workfront Fusion
 
 Neue Funktionen in Workfront Fusion sind außerhalb des Veröffentlichungszeitplans für 20.4 in der Produktionsumgebung verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Versionsaktivität von Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 
@@ -310,7 +310,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-Informationen zu neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in der API-Version 12](https://experienceleague.adobe.com/de/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12).
+Informationen zu neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in der API-Version 12](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12).
 
 Weitere Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Zeitplan](../../../wf-api/api/api-version-support-schedule.md)
 
@@ -320,7 +320,7 @@ Weitere Informationen zu API-Versionen finden Sie unter [API-Versionierung und S
 
 .
 
-## Wartungs-Updates für Workfront 
+## Wartungs-Updates für Workfront
 
 Informationen zu den Wartungs-Updates, die während der Version 20.3 vorgenommen wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
@@ -342,7 +342,7 @@ Alle Flash-basierten Tools werden am 19. November 2020 aus allen Produkten entfe
 
 ### Webinar zur Version 20.4 {#20-4-release-webinar}
 
-Das Webinar zur Version Workfront 20.4 wird am Mittwoch, 28. Oktober 2020 um 11:00 Uhr EDT vorgestellt. Registrieren Sie sich für das Webinar [hier](https://webinars.on24.com/workfront/204release?partnerref=CXnewsletter).
+Das Webinar zur Version Workfront 20.4 wird am Mittwoch, 28. Oktober 2020 um 11 :00 Uhr EDT vorgestellt. Registrieren Sie sich für das Webinar [hier](https://webinars.on24.com/workfront/204release?partnerref=CXnewsletter).
 
 ### Änderung des Veröffentlichungsintervalls für die Vorschau {#change-in-preview-release-cadence}
 
@@ -363,4 +363,4 @@ Weitere Informationen finden Sie [Zulassungsliste zum Konfigurieren der Firewall
 
 Mit Workfront One entdecken Sie die wichtigsten Inhalte, Ressourcen und Neuigkeiten aus Workfront - alles an einem Ort, mit einer Anmeldung. Wir haben die Sites für Erlebnis, Community und Schulung zusammengeführt, damit Sie leichter finden können, wonach Sie suchen.
 
-[Weitere Informationen zu Workfront One](https://business.adobe.com/de/products/workfront.html).
+[Weitere Informationen zu Workfront One](https://business.adobe.com/products/workfront.html).
