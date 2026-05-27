@@ -14,7 +14,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Beachten Sie beim Arbeiten mit Zeitplänen in Workfront Folgendes:
 
   >[!IMPORTANT]
   >
-  >[!DNL Workfront] verwendet entweder den Benutzer oder den Projektzeitplan, um die Ressourcenverfügbarkeit im Ressourcenplaner zu ermitteln. Welcher Zeitplan verwendet wird, hängt davon ab, was der [!DNL Workfront]-Administrator für die Einstellung [!UICONTROL Ressourcenverfügbarkeit mithilfe von berechnen] ausgewählt hat. Informationen zu den Einstellungen für die Ressourcenverwaltung finden Sie [Konfigurieren der Voreinstellungen für die &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)).
+  >[!DNL Workfront] verwendet entweder den Benutzer oder den Projektzeitplan, um die Ressourcenverfügbarkeit im Ressourcenplaner zu ermitteln. Welcher Zeitplan verwendet wird, hängt davon ab, was der [!DNL Workfront]-Administrator für die Einstellung [!UICONTROL Ressourcenverfügbarkeit mithilfe von berechnen] ausgewählt hat. Informationen zu den Einstellungen für die Ressourcenverwaltung finden Sie [Konfigurieren der Voreinstellungen für die ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)).
 
 ## Hierarchie der Zeitpläne
 
@@ -75,7 +75,7 @@ Die Reihenfolge, in der die Zeitpläne vom System verwendet werden, wenn mehr al
    * Der Zeitplan des Benutzers, der der Aufgabe zugewiesen ist
    * Der mit dem Projekt verknüpfte Zeitplan.
 
-     Weitere Informationen zur persönlichen Arbeitszeit finden Sie unter [Konfigurieren der persönlichen &#x200B;](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)).
+     Weitere Informationen zur persönlichen Arbeitszeit finden Sie unter [Konfigurieren der persönlichen ](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)).
 
 * Wenn einer Aufgabe mehrere Benutzer zugewiesen sind und die Benutzer während des Zeitrahmens der Aufgabe unterschiedliche Zeitpläne haben, verwendet [!DNL Workfront] einen der folgenden Zeitpläne, wie im Bereich [!UICONTROL Projektvoreinstellungen] von [!UICONTROL Setup] definiert:
 

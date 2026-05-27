@@ -10,12 +10,12 @@ role: Admin
 exl-id: 3937fd72-fa54-4777-9ec4-1f097df7a2ee
 source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
 
-# So erben Gruppen Status
+# Wie Gruppen Status übernehmen
 
 Wenn Sie die für eine Gruppe verfügbaren Status auflisten, sehen Sie Folgendes
 

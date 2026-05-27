@@ -1,7 +1,7 @@
 ---
 user-type: administrator
 product-area: system-administration;user-management
-keywords: Kickstart,Kickstart,Kickstarts,Kickstarts
+keywords: Kickstart,Kick-Start,Kickstarts,Kick-Starts
 navigation-topic: use-kick-starts
 title: 'Kickstart-Szenario: Importieren von benutzerdefinierten Feldern mit mehreren Optionen in Workfront'
 description: Benutzerdefinierte Felder mit mehreren Optionen können in Adobe Workfront mithilfe der Kickstart-Funktion importiert werden.
@@ -11,8 +11,8 @@ role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
 source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '2139'
-ht-degree: 0%
+source-wordcount: '2175'
+ht-degree: 5%
 
 ---
 
@@ -40,7 +40,7 @@ Diese Felder können manchmal viele (manchmal Hunderte) Optionen aufweisen. Wenn
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,11 +53,11 @@ Diese Felder können manchmal viele (manchmal Hunderte) Optionen aufweisen. Wenn
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
-   <td>Systemadministrator</td> 
+   <td>Systemadmin</td> 
   </tr> 
  </tbody> 
 </table>
@@ -92,7 +92,7 @@ So exportieren Sie vorhandene Daten aus Workfront:
    >
    >Je nachdem, wie viele benutzerdefinierte Daten Sie in Ihrem System haben, kann dies lange dauern.
 
-1. Klicken Sie **Herunterladen**. Eine XLSX-Datei wird auf Ihren Computer heruntergeladen. Navigieren Sie dazu und öffnen Sie sie.
+1. Klicken Sie auf **Herunterladen**. Eine XLSX-Datei wird auf Ihren Computer heruntergeladen. Navigieren Sie dazu und öffnen Sie sie.
 
    ![Exportierte Daten in Excel](assets/existing-data-excel-parameter-sheet.png)
 
@@ -218,7 +218,7 @@ So füllen Sie die Excel-Tabelle mit Informationen für die neuen benutzerdefini
      >
      >Pro Feld kann nur eine Standardoption ausgewählt werden.
 
-   * **`setParameterID`** = die Optionen, die dem benutzerdefinierten Feld _Marke_ entsprechen, haben einen **`setParameterID`** von 1, und die Optionen, die dem _Media_ entsprechen, haben einen **`setParameterID`**&#x200B;von 2. Die `PARAM`- und `POPT`-Blätter verweisen einander, um anzugeben, welche Optionen zu welchem benutzerdefinierten Feld gehören.
+   * **`setParameterID`** = die Optionen, die dem benutzerdefinierten Feld _Marke_ entsprechen, haben einen **`setParameterID`** von 1, und die Optionen, die dem _Media_ entsprechen, haben einen **`setParameterID`**von 2. Die `PARAM`- und `POPT`-Blätter verweisen einander, um anzugeben, welche Optionen zu welchem benutzerdefinierten Feld gehören.
    * **`setDisplayOrder`**= Die Spalte Anzeigereihenfolge gibt die Reihenfolge an, in der die Optionen in Ihrem benutzerdefinierten Feld angezeigt werden. Sie können mit 1 beginnen und für alle Optionen in aufsteigender Reihenfolge fortfahren, unabhängig davon, zu welchen Feldern sie gehören. Wichtig ist hier, dass für jede Option eindeutige Zahlen vorhanden sind.
    * Die Spalten **`setLabel`** und `**setValue`** enthalten in der Regel dieselben Informationen und sollten die gewünschten Namen in der Workfront-Benutzeroberfläche widerspiegeln. Der Wert einer Option ist beispielsweise der Name, der in Berichten angezeigt wird, während die Beschriftung in den benutzerdefinierten Formularen angezeigt wird, wenn sie an ein Objekt angehängt wird. Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
    * **`setIsHidden`** = Geben Sie `TRUE` ein, wenn eine der Optionen ausgeblendet werden soll.
@@ -269,7 +269,7 @@ Fahren Sie nach dem Ausführen der in den vorherigen Abschnitten beschriebenen S
 
 1. Suchen Sie die von Ihnen vorbereitete Excel-Tabelle auf Ihrem Computer und wählen Sie sie aus, wenn Sie sie finden.
 
-   Die Datei wird automatisch hochgeladen, und es wird eine Benachrichtigung angezeigt, dass der Import erfolgreich war. Je nachdem, wie viele Informationen Sie importieren, kann dieser Schritt einige Sekunden bis eine Minute dauern.
+   Die Datei wird automatisch hochgeladen und es wird eine Benachrichtigung angezeigt, dass der Import erfolgreich war. Je nachdem, wie viele Informationen Sie importieren, kann dieser Schritt einige Sekunden bis eine Minute dauern.
 
    Die neuen benutzerdefinierten Felder und Formulare befinden sich nun in Ihrem Workfront-System. Sie finden sie im Bereich „Benutzerdefinierte Forms&quot; unter „Setup“.
 
@@ -279,10 +279,10 @@ Fahren Sie nach dem Ausführen der in den vorherigen Abschnitten beschriebenen S
 
    Informationen zum Hinzufügen von Feldern zu benutzerdefinierten Formularen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. (Bedingt) Wenn der Import nicht erfolgreich war, erhalten Sie eine Fehlermeldung, die Sie über das Problem informiert. Versuchen Sie, das Feld, das Blatt und die Zeilennummer zu identifizieren, in der das Problem aufgetreten ist, und korrigieren Sie die Informationen in der Excel-Datei. Versuchen Sie dann erneut, die Datei zu importieren.
+1. (Bedingt) Wenn der Import nicht erfolgreich war, erhalten Sie eine Fehlermeldung, die Sie über das Problem informiert. Versuchen Sie, das Feld, das Blatt und die Nummer der Zeile, in der das Problem aufgetreten ist, zu ermitteln, und korrigieren Sie die Angaben in der Excel-Datei. Versuchen Sie dann erneut, die Datei zu importieren.
 
 1. (Bedingt) Je nachdem, was das Problem ist, werden, wie in der Fehlermeldung angegeben, möglicherweise bereits einige Informationen importiert. Sie müssen einen der folgenden Schritte ausführen, bevor Sie das Blatt erneut importieren können:
 
    * Löschen Sie die Informationen, die erfolgreich aus Workfront importiert wurden, aus dem Bereich Benutzerdefinierter Forms und nehmen Sie dann die in der Fehlermeldung angegebene Korrektur vor.
    * Geben Sie an, dass für die bereits importierten Felder oder Formulare ein Feld oder ein Formular bereits im System vorhanden ist, und korrigieren Sie.
-Wenn Sie angeben möchten, dass ein Feld oder ein benutzerdefiniertes Formular bereits in Workfront vorhanden ist, müssen Sie sicherstellen, dass das `inNew` Feld in Plänen, die Informationen zum Formular (`FALSE`) oder zum Feld (`CTGY`) im Kickstart-Importblatt enthalten, als `PARAM` markiert ist.
+Wenn Sie angeben möchten, dass ein Feld oder ein benutzerdefiniertes Formular bereits in Workfront vorhanden ist, müssen Sie sicherstellen, dass das `inNew` Feld in Plänen, die Informationen zum Formular (`CTGY`) oder zum Feld (`PARAM`) im Kickstart-Importblatt enthalten, als `FALSE` markiert ist.

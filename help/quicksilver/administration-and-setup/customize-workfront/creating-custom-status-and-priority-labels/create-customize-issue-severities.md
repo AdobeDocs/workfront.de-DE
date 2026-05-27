@@ -10,8 +10,8 @@ role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
 source-git-commit: 5c80dca8a9f7dd5a693db9bf22738602da8b521b
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 4%
+source-wordcount: '631'
+ht-degree: 9%
 
 ---
 
@@ -31,7 +31,7 @@ Mithilfe von Schweregraden können Sie festlegen, wie ernst ein Problem ist. Sie
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,11 +44,11 @@ Mithilfe von Schweregraden können Sie festlegen, wie ernst ein Problem ist. Sie
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
-   <td>Systemadministrator</td> 
+   <td>Systemadmin</td> 
   </tr> 
  </tbody> 
 </table>
