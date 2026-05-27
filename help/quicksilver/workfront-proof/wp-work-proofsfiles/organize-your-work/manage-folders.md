@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: ddc8d388-d161-4c70-8e7b-16c16b6ac3d7
 source-git-commit: f81114b04e688fd615956ec352ac8cc33548ee79
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Alle Ihre Ordner werden in der linken Navigationsleiste auf der Registerkarte [!
 
 ## Verwalten von Ordnern auf der Seite [!UICONTROL Kontoordner]
 
-Auf der  Kontoordner werden alle Ordner in Ihrem Konto angezeigt (einschließlich der Ordner, die von Benutzenden in anderen [!DNL Workfront Proof]-Konten für Sie freigegeben wurden) und können problemlos verwaltet werden.
+Auf der ] [!UICONTROL Kontoordner werden alle Ordner in Ihrem Konto angezeigt (einschließlich der Ordner, die von Benutzenden in anderen [!DNL Workfront Proof]-Konten für Sie freigegeben wurden) und können problemlos verwaltet werden.
 
 1. Klicken Sie **[!UICONTROL [der linken Navigationsleiste auf ]Ihr Kontoname]** Ordner.\
    Auf dieser Seite werden für jeden Ordner die folgenden Informationen angezeigt:

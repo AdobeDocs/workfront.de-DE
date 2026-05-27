@@ -8,14 +8,14 @@ feature: Workfront Integrations and Apps
 exl-id: 587c6ac7-cc56-480f-852d-f0bd36b3f3cf
 source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
 workflow-type: tm+mt
-source-wordcount: '1107'
-ht-degree: 0%
+source-wordcount: '1100'
+ht-degree: 3%
 
 ---
 
 # Zugreifen auf [!DNL Adobe Workfront] Objekte über einen freigegebenen Link in [!DNL Slack]
 
-Wenn Links zu [!DNL Adobe Workfront] Objekten für Sie in einem [!DNL Slack] Kanal freigegeben werden, können Sie nach der Installation und Konfiguration von [!DNL Slack] zusätzliche Informationen dazu in [!DNL Workfront for Slack] anzeigen.
+Wenn Links zu [!DNL Adobe Workfront] Objekten für Sie in einem [!DNL Slack] Kanal freigegeben werden, können Sie nach der Installation und Konfiguration von [!DNL Workfront for Slack] zusätzliche Informationen dazu in [!DNL Slack] anzeigen.
 
 Weitere Informationen zum Konfigurieren von [!DNL Workfront for Slack] finden Sie unter [Konfigurieren [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
@@ -25,7 +25,7 @@ Wenn ein(e) Benutzende(r) einen Link zu einem Objekt im [!DNL Workfront] mit Ihn
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,7 +42,7 @@ Wenn ein(e) Benutzende(r) einen Link zu einem Objekt im [!DNL Workfront] mit Ihn
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -122,7 +122,7 @@ Bevor Sie über [!DNL Slack] auf Ihre Favoriten und zuletzt verwendeten Elemente
 
 ## Anfragen von [!DNL Slack] aus aufrufen
 
-1. Melden Sie sich bei Ihrer [!DNL Slack]-Instanz an und melden Sie sich von [!DNL Workfront] aus bei [!DNL Slack] an.
+1. Melden Sie sich bei Ihrer [!DNL Slack]-Instanz an und melden Sie sich von [!DNL Slack] aus bei [!DNL Workfront] an.
 
    Weitere Informationen zur Anmeldung bei Workfront von [!DNL Slack] aus finden Sie im Abschnitt „Anmelden bei [!DNL Workfront] von [!DNL Slack]&quot; in [Zugriff [!DNL Adobe Workfront] von [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
@@ -153,7 +153,7 @@ Bevor Sie über [!DNL Slack] auf Ihre Favoriten und zuletzt verwendeten Elemente
 
 ## Zugriff auf Portfolios über [!DNL Slack]
 
-1. Melden Sie sich bei Ihrer [!DNL Slack]-Instanz an und melden Sie sich von [!DNL Workfront] aus bei [!DNL Slack] an.
+1. Melden Sie sich bei Ihrer [!DNL Slack]-Instanz an und melden Sie sich von [!DNL Slack] aus bei [!DNL Workfront] an.
 
    Weitere Informationen zum Anmelden bei [!DNL Workfront] von [!DNL Slack] finden Sie im Abschnitt „Anmelden bei [!DNL Workfront] von [!DNL Slack]&quot; in [Zugriff [!DNL Adobe Workfront] von [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
@@ -178,7 +178,7 @@ Bevor Sie über [!DNL Slack] auf Ihre Favoriten und zuletzt verwendeten Elemente
 
 ## Zugreifen auf Programme von [!DNL Slack]
 
-1. Melden Sie sich bei Ihrer [!DNL Slack]-Instanz an und melden Sie sich von [!DNL Workfront] aus bei [!DNL Slack] an.
+1. Melden Sie sich bei Ihrer [!DNL Slack]-Instanz an und melden Sie sich von [!DNL Slack] aus bei [!DNL Workfront] an.
 
    Weitere Informationen zum Anmelden bei [!DNL Workfront] von [!DNL Slack] finden Sie im Abschnitt „Anmelden bei [!DNL Workfront] von [!DNL Slack]&quot; in [Zugriff [!DNL Adobe Workfront] von [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
@@ -199,7 +199,7 @@ Bevor Sie über [!DNL Slack] auf Ihre Favoriten und zuletzt verwendeten Elemente
 
 ## Zugreifen auf Berichte über [!DNL Slack]
 
-1. Melden Sie sich bei Ihrer [!DNL Slack]-Instanz an und melden Sie sich von [!DNL Workfront] aus bei [!DNL Slack] an.
+1. Melden Sie sich bei Ihrer [!DNL Slack]-Instanz an und melden Sie sich von [!DNL Slack] aus bei [!DNL Workfront] an.
 
    Weitere Informationen zum Anmelden bei [!DNL Workfront] von [!DNL Slack] finden Sie im Abschnitt „Anmelden bei [!DNL Workfront] von [!DNL Slack]&quot; in [Zugriff [!DNL Adobe Workfront] von [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 

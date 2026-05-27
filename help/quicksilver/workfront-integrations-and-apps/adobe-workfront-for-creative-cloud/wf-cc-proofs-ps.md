@@ -8,8 +8,8 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
 source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 0%
+source-wordcount: '657'
+ht-degree: 5%
 
 ---
 
@@ -19,13 +19,13 @@ Sie können bestimmte Photoshop-Dokumentvorgabentypen als Korrekturabzüge direk
 
 >[!IMPORTANT]
 >
->Bei der Datei muss es sich um eine Fotodokumentvorgabe handeln, wie unter [Vorlagen und Vorgaben in Photoshop](https://helpx.adobe.com/de/photoshop/using/create-documents.html) beschrieben.
+>Bei der Datei muss es sich um eine Fotodokumentvorgabe handeln, wie unter [Vorlagen und Vorgaben in Photoshop](https://helpx.adobe.com/photoshop/using/create-documents.html) beschrieben.
 
 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,24 +39,24 @@ Sie können bestimmte Photoshop-Dokumentvorgabentypen als Korrekturabzüge direk
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> 
    <p>Standard</p>
-   <p>Arbeit oder höher</p> </td> 
+   <p>Work oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Zusätzliche Produkte</td> 
-   <td>Sie müssen zusätzlich zu einer [!DNL Adobe Creative Cloud] über eine [!DNL Workfront]-Lizenz verfügen.</td> 
+   <td>Sie müssen zusätzlich zu einer [!DNL Workfront] über eine [!DNL Adobe Creative Cloud]-Lizenz verfügen.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof-Berechtigungsprofil </td> 
+   <td role="rowheader">Korrekturabzug-Berechtigungsprofil </td> 
    <td>[!UICONTROL Manager] oder höher</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Zugriff auf [!UICONTROL -Dokumente] bearbeiten</p>  </td> 
+   <td> <p>Zugriff auf [!UICONTROL-Dokumente] bearbeiten</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

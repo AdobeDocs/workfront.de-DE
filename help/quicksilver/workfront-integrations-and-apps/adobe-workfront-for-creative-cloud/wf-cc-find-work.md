@@ -43,12 +43,12 @@ Suchen Sie die Ihnen zugewiesene Arbeit in [!DNL Adobe Workfront], ohne die folg
   -->
   <tr> 
    <td role="rowheader">Zusätzliche Produkte</td> 
-   <td>Sie müssen zusätzlich zu einer [!DNL Adobe Creative Cloud] über eine [!DNL Workfront]-Lizenz verfügen.</td> 
+   <td>Sie müssen zusätzlich zu einer [!DNL Workfront] über eine [!DNL Adobe Creative Cloud]-Lizenz verfügen.</td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -62,7 +62,7 @@ Mit [!UICONTROL Arbeitsliste] können Sie alle Ihnen zugewiesenen Aufgaben und P
 
 ### Gruppieren ähnlicher Arbeitselemente zusammen mit der Option [!DNL Sort By]
 
-Verwenden Sie die Option [!UICONTROL Sortieren nach], um ähnliche Elemente in der [!UICONTROL Arbeitsliste“ &#x200B;] gruppieren. Sie können sortieren nach:
+Verwenden Sie die Option [!UICONTROL Sortieren nach], um ähnliche Elemente in der [!UICONTROL Arbeitsliste“ ] gruppieren. Sie können sortieren nach:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -95,7 +95,7 @@ Verwenden Sie den [!UICONTROL Filter], um den Fokus auf bestimmte Arbeitselement
    <td> <p>Die erste Methode besteht darin, nur nach Arbeitselementtyp oder -attributen zu filtern:</p> 
     <ul> 
      <li><strong>Arbeitselement</strong>: Aufgaben, Teilaufgaben, Probleme oder persönliche Aufgaben</li> 
-     <li><strong>Arbeitsaufgabenstatus</strong>: [!UICONTROL , die gerade arbeitet], [!UICONTROL , bereit zum Start] oder [!UICONTROL , nicht bereit]</li> 
+     <li><strong>Arbeitsaufgabenstatus</strong>: [!UICONTROL, die gerade arbeitet], [!UICONTROL, bereit zum Start] oder [!UICONTROL, nicht bereit]</li> 
     </ul> <p>Die zweite Möglichkeit besteht darin, Arbeitselement und Arbeitselementstatus gemeinsam zu filtern. Sie können beispielsweise Aufgaben und [!UICONTROL Ready to Start] auswählen, um alle Aufgaben in Ihrer Auftragsliste zu finden, die bereit zur Arbeit sind.</p> <p>Sie können auch [!UICONTROL Field Match] verwenden, um nach einem bestimmten Element in Ihrem Filtersatz zu suchen. </p> </td> 
    <td> <img src="assets/copy-of-filter-p-350x603.png" style="width: 350;height: 603;"> </td> 
   </tr> 
