@@ -48,7 +48,7 @@ Die Version 2018.2 enthält Verbesserungen sowohl für Workfront-Administratoren
 
 * [Symbolunterstützung für die neuen Projektlisten](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#icon-support-for-the-new-project-lists)
 * [Spaltenbreiten für Projektlisten ändern](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#resize-column-widths-for-project-lists)
-* [ Feld „Große Miniaturansicht“ in Dokumentansichten hinzufügen](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#add-large-thumbnail-field-in-document-views)
+* [&#x200B; Feld „Große Miniaturansicht“ in Dokumentansichten hinzufügen](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#add-large-thumbnail-field-in-document-views)
 * [Schnellfilter für Projektlisten](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#quick-filters-for-project-lists) 
 * [Excel-Exportbeschränkung erhöhen](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#increase-excel-export-limit) 
 * [Support für Google Team Drives](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#support-for-google-team-drives) 
@@ -137,7 +137,7 @@ Die Version 2018.2 enthält Verbesserungen sowohl für Workfront-Administratoren
 * [Verbesserte Suchrelevanz für mehrere Wörter](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md#search-for-phrases) 
 * [Verbesserungen für Mobilgeräte](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#mobile-improvements)
 * [Verschiedene Links wurden wieder zu Dokumenten in der Dokumentliste hinzugefügt](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#various-links-reintroduced-to-documents-on-the-document-list)
-* [E-Mail-Benachrichtigungen für Kommentare zu Dokumenten ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#receive-email-notifications-for-comments-on-documents)!
+* [E-Mail-Benachrichtigungen für Kommentare zu Dokumenten &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#receive-email-notifications-for-comments-on-documents)!
 
 * [System-getrackte Updates enthalten kein Symbol mehr](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#system-tracked-updates-no-longer-contain-an-icon) Neu!
 
@@ -222,4 +222,4 @@ Verwenden Sie die folgenden Ressourcen, um mehr über Workfront für Outlook und
 
 Im Rahmen unserer ständigen Bemühungen, unsere API zu verbessern, entfernen wir alte API-Versionen, die nicht mehr mit neueren Versionen von Workfront kompatibel sind.
 
-Weitere Informationen finden [ unter „API-Versionierung ](../../../../wf-api/api/api-version-support-schedule.md) Support-Zeitplan“. 
+Weitere Informationen finden [&#x200B; unter „API-Versionierung &#x200B;](../../../../wf-api/api/api-version-support-schedule.md) Support-Zeitplan“. 

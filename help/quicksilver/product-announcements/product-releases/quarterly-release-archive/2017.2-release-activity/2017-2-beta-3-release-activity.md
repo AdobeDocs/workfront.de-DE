@@ -123,7 +123,7 @@ Weitere Informationen finden Sie unter [Genehmigungen anzeigen](../../../../revi
 
 Bei der Genehmigung von Korrekturabzugsgenehmigungen über den Bereich Meine Arbeit wird jetzt der Name des Benutzers angezeigt, der die Genehmigung angefordert hat.
 
-Weitere Informationen finden Sie unter [Genehmigen von ](../../../../review-and-approve-work/manage-approvals/approving-work.md)&quot; in [Genehmigen von ](../../../../review-and-approve-work/manage-approvals/approving-work.md). 
+Weitere Informationen finden Sie unter [Genehmigen von &#x200B;](../../../../review-and-approve-work/manage-approvals/approving-work.md)&quot; in [Genehmigen von &#x200B;](../../../../review-and-approve-work/manage-approvals/approving-work.md). 
 
 ## Verbesserter Proofing-Viewer für Videoprüfungen (ProofHQ und Workfront) {#improved-proofing-viewer-for-video-proofs-proofhq-and-workfront}
 

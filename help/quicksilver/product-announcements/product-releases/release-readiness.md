@@ -42,7 +42,7 @@ Eine ausführliche Beschreibung des [!DNL Workfront]-Veröffentlichungsprozesses
 >
 >Sie können eine Projektvorlage erstellen, um die Arbeit im Zusammenhang mit geplanten [!DNL Workfront] zu verfolgen.
 >
->Weitere Informationen finden Sie unter [Verwenden eines Projekts [!DNL Workfront]  um die Versionsarbeit ](#use-a-workfront-project-to-track-release-work) verfolgen.
+>Weitere Informationen finden Sie unter [Verwenden eines Projekts [!DNL Workfront]  um die Versionsarbeit &#x200B;](#use-a-workfront-project-to-track-release-work) verfolgen.
 
 
 Es wird empfohlen, einige oder alle der folgenden Aktionen in Betracht zu ziehen, die Ihnen bei der Vorbereitung Ihres Unternehmens auf bevorstehende Versionen helfen können:
@@ -93,7 +93,7 @@ Die [!UICONTROL Sandbox-Vorschau]-Umgebung, auch bekannt als [!UICONTROL Vorscha
 
 Wenn eine Funktion in der Sandbox-Vorschau-Umgebung veröffentlicht wird, wird [!DNL Workfront] Dokumentation aktualisiert, um die neuen Funktionen hinzuzufügen. Sie können nach dem entsprechenden Artikel suchen oder den Links zur Dokumentation in den Versionshinweisen folgen.
 
-Weitere Informationen zur Sandbox[!UICONTROL Vorschau-Umgebung ] Sie unter [Die [!DNL Adobe Workfront] [!UICONTROL Vorschau-Sandbox]Umgebung](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+Weitere Informationen zur Sandbox[!UICONTROL Vorschau-Umgebung &#x200B;] Sie unter [Die [!DNL Adobe Workfront] [!UICONTROL Vorschau-Sandbox]Umgebung](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 ### Nehmen Sie am Veröffentlichungs-Webinar teil
 

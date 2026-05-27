@@ -25,7 +25,7 @@ Die öffentliche Benutzeroberfläche ist mit SOAP 1.1 kompatibel und unterstütz
 
 ## API-Versionierung
 
-Um die Kompatibilität mit den vorhandenen Client-Integrationen zu wahren, haben wir die API-Versionierung ab unserer Version 12.1 eingeführt. Weitere Informationen finden Sie auf [ Seite ](https://api.proofhq.com/new-updates.html)API-Updates“. Wenn eine Methode oder ein Parameter keine Versionsinformationen enthält, bedeutet dies, dass Sie dies als Teil unserer Standard-API finden, siehe den Abschnitt „Erste Schritte mit der API“ unten.
+Um die Kompatibilität mit den vorhandenen Client-Integrationen zu wahren, haben wir die API-Versionierung ab unserer Version 12.1 eingeführt. Weitere Informationen finden Sie auf [&#x200B; Seite &#x200B;](https://api.proofhq.com/new-updates.html)API-Updates“. Wenn eine Methode oder ein Parameter keine Versionsinformationen enthält, bedeutet dies, dass Sie dies als Teil unserer Standard-API finden, siehe den Abschnitt „Erste Schritte mit der API“ unten.
 
 ## Erste Schritte mit der API
 

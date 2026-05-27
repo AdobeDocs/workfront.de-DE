@@ -24,7 +24,7 @@ Wenn Sie nun von einem Benutzer zu einem Korrekturabzug hinzugefügt werden und 
 
 Informationen zum Hinzufügen von Benutzern zu einem Korrekturabzug mithilfe eines automatisierten Workflows finden Sie unter [Freigeben eines Korrekturabzugs in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) in [Freigeben eines Korrekturabzugs in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
-Weitere Informationen dazu, wie Sie Genehmigungsentscheidungen im Bereich Meine Arbeit treffen, finden Sie unter [Genehmigen von ](../../../../review-and-approve-work/manage-approvals/approving-work.md)&quot; in [Genehmigen von Arbeit](../../../../review-and-approve-work/manage-approvals/approving-work.md). 
+Weitere Informationen dazu, wie Sie Genehmigungsentscheidungen im Bereich Meine Arbeit treffen, finden Sie unter [Genehmigen von &#x200B;](../../../../review-and-approve-work/manage-approvals/approving-work.md)&quot; in [Genehmigen von Arbeit](../../../../review-and-approve-work/manage-approvals/approving-work.md). 
 
 ## Berichte zu Proofing-Genehmigungen im Bereich „Meine Arbeit“ (Workfront)
 
