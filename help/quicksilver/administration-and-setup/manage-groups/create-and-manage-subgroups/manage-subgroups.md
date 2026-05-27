@@ -11,8 +11,8 @@ role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
 source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
-source-wordcount: '1386'
-ht-degree: 0%
+source-wordcount: '1397'
+ht-degree: 3%
 
 ---
 
@@ -40,7 +40,7 @@ Weitere Informationen zu Untergruppen finden Sie unter [Untergruppen - Übersich
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,7 +53,7 @@ Weitere Informationen zu Untergruppen finden Sie unter [Untergruppen - Übersich
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr>
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -62,7 +62,7 @@ Weitere Informationen zu Untergruppen finden Sie unter [Untergruppen - Übersich
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -180,7 +180,7 @@ Sie können eine Untergruppe zu einer Gruppe der obersten Ebene machen, indem Si
 >[!TIP]
 >
 >Wenn Sie eine Gruppe deaktivieren, die Untergruppen enthält, werden diese Untergruppen ebenfalls inaktiv. Wenn Sie möchten, dass eine der Gruppen aktiv ist, können Sie sie mithilfe dieser Anweisungen aus der übergeordneten Gruppe entfernen und dann reaktivieren.
->&#x200B;>Anweisungen zum Deaktivieren und Reaktivieren von Gruppen finden Sie unter [Deaktivieren oder Reaktivieren einer Gruppe](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
+>Anweisungen zum Deaktivieren und Reaktivieren von Gruppen finden Sie unter [Deaktivieren oder Reaktivieren einer Gruppe](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md).
 
 {{step-1-to-setup}}
 

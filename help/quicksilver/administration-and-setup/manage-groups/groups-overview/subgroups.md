@@ -11,12 +11,12 @@ role: Admin
 exl-id: a4280498-6719-4911-a69a-b715a5438eed
 source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '642'
 ht-degree: 0%
 
 ---
 
-# Untergruppen - Übersicht
+# Überblick über Untergruppen
 
 Sie können bis zu 14 Ebenen von Untergruppen unter einer Gruppe erstellen. Auf jeder dieser Ebenen können Sie eine unbegrenzte Anzahl paralleler Untergruppen erstellen. Anweisungen finden Sie unter [Erstellen einer Untergruppe](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md).
 
@@ -54,7 +54,7 @@ Jede Gruppe, die Sie einer vorhandenen Gruppe hinzufügen, wird automatisch zu e
 Group Admins of a subgroup can't manage statuses or project preferences of the subgroup YET (Sprint 22/Oct 28, 2020)</p>
 -->
 
-Sie können der Untergruppe beim Erstellen oder Bearbeiten als Gruppenadministratoren Untergruppenmitglieder zuweisen. Anweisungen finden Sie unter [&#128279;](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create) im Artikel [Erstellen einer Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+Sie können der Untergruppe beim Erstellen oder Bearbeiten als Gruppenadministratoren Untergruppenmitglieder zuweisen. Anweisungen finden Sie unter [](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create) im Artikel [Erstellen einer Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 Alternativ können Sie die Verwaltung der Untergruppe den Gruppenadministratoren überlassen, die den darüber liegenden Gruppen zugewiesen sind. Wenn Sie eine Untergruppe erstellen, haben Gruppenadministratoren über die darüber liegenden Gruppen automatischen Zugriff, um die Untergruppe zu verwalten.
 

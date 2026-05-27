@@ -10,8 +10,8 @@ role: Admin
 exl-id: f5227454-457d-40d3-865c-c2551471d83e
 source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 2%
+source-wordcount: '239'
+ht-degree: 15%
 
 ---
 
@@ -21,7 +21,7 @@ Sie können eine Gruppe in eine andere Gruppe verschieben, die Sie verwalten.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ Sie können eine Gruppe in eine andere Gruppe verschieben, die Sie verwalten.
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr>
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -43,7 +43,7 @@ Sie können eine Gruppe in eine andere Gruppe verschieben, die Sie verwalten.
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -55,7 +55,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 >
 >Wenn die Status der verschobenen Gruppe entsperrt sind, übernimmt die neue übergeordnete Gruppe weder die Status der neuen übergeordneten Gruppe, noch übernimmt die neue übergeordnete Gruppe deren Status.
 >
->Weitere Informationen zum Gruppenstatus finden Sie unter [Erstellen oder Bearbeiten eines &#x200B;](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) und [Erstellen oder Bearbeiten eines Gruppenstatus](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+>Weitere Informationen zum Gruppenstatus finden Sie unter [Erstellen oder Bearbeiten eines ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) und [Erstellen oder Bearbeiten eines Gruppenstatus](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
 {{step-1-to-setup}}
 

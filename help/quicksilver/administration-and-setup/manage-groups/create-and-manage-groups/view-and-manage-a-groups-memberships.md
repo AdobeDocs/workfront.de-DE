@@ -11,8 +11,8 @@ role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
 source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 0%
+source-wordcount: '742'
+ht-degree: 6%
 
 ---
 
@@ -24,7 +24,7 @@ Wenn es Gruppen oberhalb Ihrer Gruppe gibt, können deren Administratoren diese 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +37,7 @@ Wenn es Gruppen oberhalb Ihrer Gruppe gibt, können deren Administratoren diese 
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr>
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -46,7 +46,7 @@ Wenn es Gruppen oberhalb Ihrer Gruppe gibt, können deren Administratoren diese 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

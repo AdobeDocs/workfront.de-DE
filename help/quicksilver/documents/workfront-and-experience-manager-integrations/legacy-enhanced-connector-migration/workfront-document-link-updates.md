@@ -8,8 +8,8 @@ feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 586ab0a8-52ee-4aba-9298-af5a304acb02
 source-git-commit: aad8f4648a57c93047a1a691d5e608c327d78c1b
 workflow-type: tm+mt
-source-wordcount: '918'
-ht-degree: 0%
+source-wordcount: '926'
+ht-degree: 1%
 
 ---
 
@@ -45,7 +45,7 @@ Sie können die -API verwenden, um verknüpfte Ordner und Dokumente nach Adobe E
 
 ## API-Informationen
 
-Weitere Informationen zu den Workfront-APIs finden Sie in diesem Abschnitt unter [Entwicklerdokumentation:Dokumente](https://developer.workfront.com/documents.html).
+Weitere Informationen zu den Workfront-APIs finden Sie in diesem Abschnitt unter [Entwicklerdokumentation:Documents](https://developer.workfront.com/documents.html).
 
 ### Alle Dokumente suchen
 
@@ -160,7 +160,7 @@ API-Dokumente: (Endpunkte für interne Links werden derzeit nicht unter develope
 
   >[!NOTE]
   >
-  > Workfront verfügt noch nicht über einen Standard für externe Dokumentkennungen. Für AEM-IDs wird eine neue Spezifikation verwendet. Für andere IDs kann die ID des externen Dokuments jedoch je nach Anbietertyp unterschiedliche Formen annehmen.
+  > Workfront verfügt noch nicht über einen Standard für externe Dokumentkennungen. Für AEM-IDs wird eine neue Spezifikation verwendet. Für andere IDs kann die ID des externen Dokuments jedoch je nach Anbietertyp unterschiedliche Formulare annehmen.
 
 
 * **Objekttyp**: Dies ist ein API-Begriff für die Zwecke dieses Dokuments. Es handelt sich um ein generisches Objekt in Workfront, mit dem Sie interagieren möchten. In diesem Fall interagieren Sie mit Dokumenten und Ordnern, die die Typen „DOCU“ bzw. „DOCDR“ aufweisen.

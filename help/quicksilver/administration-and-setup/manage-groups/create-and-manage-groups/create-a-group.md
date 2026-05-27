@@ -11,8 +11,8 @@ role: Admin
 exl-id: 4a039619-0943-4b5b-ba7a-1ad9b5c11df0
 source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
-source-wordcount: '1633'
-ht-degree: 3%
+source-wordcount: '1659'
+ht-degree: 5%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 3%
 DON'T DELETE, DRAFT, OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH CONTEXT-SENSITIVE HELP LINKS.
 -->
 
-Als Adobe Workfront-Administrator können Sie Gruppen erstellen, um Benutzende und Projekte zu organisieren und Zugriffsrechte in Workfront zuzuweisen. Weitere Informationen finden Sie unter [Gruppen - Übersicht](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
+Als Adobe Workfront-Administrator können Sie Gruppen erstellen, um Benutzende und Projekte zu organisieren und Zugriffsrechte in Workfront zuzuweisen. Weitere Informationen finden Sie unter [Überblick über Gruppen](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
 Jede Untergruppe benötigt mindestens einen Gruppenadministrator. Gruppenadministratoren können die Seite „Gruppen“ verwenden, um ihre Gruppen an einem Ort zu verwalten.
 
@@ -30,7 +30,7 @@ Wenn Sie Gruppenadministrator oder Workfront-Administrator sind, können Sie auc
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +43,7 @@ Wenn Sie Gruppenadministrator oder Workfront-Administrator sind, können Sie auc
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr>
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -52,7 +52,7 @@ Wenn Sie Gruppenadministrator oder Workfront-Administrator sind, können Sie auc
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -140,7 +140,7 @@ So erstellen Sie eine neue Gruppe der obersten Ebene durch Kopieren einer Gruppe
 
    In der angezeigten Liste werden die von Ihnen verwalteten Gruppen sowie alle zugehörigen Untergruppen angezeigt. Adobe Workfront-Administratoren können alle Gruppen anzeigen.
 
-1. Wählen Sie die Gruppe aus, die Sie kopieren möchten, und klicken Sie dann auf das Symbol „Kopieren![&#x200B; „Kopieren](assets/copy-icon.png).
+1. Wählen Sie die Gruppe aus, die Sie kopieren möchten, und klicken Sie dann auf das Symbol „Kopieren![ „Kopieren](assets/copy-icon.png).
 1. Geben Sie **Feld „Gruppe kopieren** einen **Gruppennamen** für die kopierte Gruppe ein.
 
 1. Geben Sie die folgenden Informationen an:

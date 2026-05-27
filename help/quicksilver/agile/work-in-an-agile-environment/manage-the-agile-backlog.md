@@ -61,7 +61,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 ## Storys im Rückstand erstellen und verwalten
 
 * [Storys neu anordnen](#reorder-stories)
-* [[!UICONTROL Geschichten &#x200B;].](#break-down-stories)
+* [[!UICONTROL Geschichten ].](#break-down-stories)
 * [Storys bearbeiten](#edit-stories)
 
 ### Storys neu anordnen {#reorder-stories}
@@ -197,7 +197,7 @@ Die Aufgabe oder das Problem ist jetzt im Team-Rückstand verfügbar.
 1. Rufen Sie den Rückstand des Agile-Teams auf.
 1. Wählen Sie die Storys aus, die Sie in eine Iteration oder ein Kanban-Board verschieben möchten, und klicken Sie dann auf **[!UICONTROL Mehr]** > **[!UICONTROL Verschieben nach]**.
 Wenn Sie die Story auf ein Kanban[!UICONTROL Board verschieben] wird das [!UICONTROL Story in das Kanban]Board verschieben angezeigt.
-Wenn Sie die Story in eine Iteration verschieben[!UICONTROL &#x200B; wird das Dialogfeld „Story in eine Iteration &#x200B;]&quot; angezeigt.
+Wenn Sie die Story in eine Iteration verschieben[!UICONTROL  wird das Dialogfeld „Story in eine Iteration ]&quot; angezeigt.
    ![Dialogfeld „Story verschieben“](assets/agile-backlog-addtoiteration.png)
 
 1. Führen Sie einen der folgenden Schritte aus:
