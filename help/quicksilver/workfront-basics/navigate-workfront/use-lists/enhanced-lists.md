@@ -1,20 +1,22 @@
 ---
 navigation-topic: get-started-with-workfront
 title: Erweiterte Listen verwenden
-description: Erweiterte Listen verwenden ein Tabellenformat für die Anzeige der Listenelemente und haben ein anderes Erscheinungsbild als die Standardlisten
+description: Erweiterte Listen verwenden ein Tabellenformat für die Anzeige der Listenelemente und haben ein anderes Erscheinungsbild als die Standardlisten.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 0c6d2d36be8de5e4950642910577ed8a59e667da
+source-git-commit: 80ca77043b0feac9579a4c41298c05afa8af1756
 workflow-type: tm+mt
-source-wordcount: '2939'
+source-wordcount: '3153'
 ht-degree: 2%
 
 ---
 
 # Verwenden von erweiterten Listen
+
+{{preview-fast-release-general}}
 
 Erweiterte Listen sind in einigen Bereichen von Adobe Workfront verfügbar. Diese Listen verwenden ein Tabellenformat für die Anzeige der Listenelemente und haben ein anderes Erscheinungsbild als die Standardlisten. Die Verwaltung von Ansichten wurde ebenfalls verbessert, einschließlich Filtern, Gruppieren, Verwalten von Spalten und Suchen.
 
@@ -83,20 +85,32 @@ Führen Sie je nach angezeigter erweiterter Liste eine der folgenden Aktionen au
 
    Erweiterte Listen unterstützen diese Feldtypen:
 
-   * Text
-   * Zahl
-   * Währung
-   * Datum
-   * Datum und Uhrzeit
-   * Dropdown-Listen für Einzel-/Mehrfachauswahl
-   * Typeahead
-   * Absatz
-   * Zugewiesener (ein oder mehrere)
-   * Farbwähler
+   * Einzeiliger Text: Sie können begrenzte alphanumerische Informationen eingeben.
+   * Zahl: Sie müssen Informationen in einem Zahlenformat eingeben.
+   * Währung: Sie müssen Daten in einem Zahlenformat eingeben, dem ein Währungssymbol vorangestellt ist.
+   * Datum: Wählen Sie im Kalender ein Datum aus.
+   * Datum und Uhrzeit: Wählen Sie mithilfe des Kalenders ein Datum und eine Uhrzeit aus.
+   * Dropdown-Liste mit Einfach- oder Mehrfachauswahl : Wählen Sie eine oder mehrere Optionen aus einem Dropdown-Menü aus. <span class="preview">Wenn sie in einer Liste unterstützt werden, können Sie neue Optionen direkt aus der Dropdown-Liste erstellen, wenn keine Ergebnisse gefunden werden.</span>
+   * Typeahead: Geben Sie den Namen eines vorhandenen Objekts ein (z. B. den Namen einer Gruppe oder eines Projekts) und wählen Sie den Namen aus der Liste der Vorschläge aus.
+   * Absatz: Sie können mehrere Zeilen mit alphanumerischen Informationen eingeben.
+   * Bevollmächtigter (ein oder mehrere): Wählen Sie einen oder mehrere Benutzer als Bevollmächtigten für das Listenelement aus.
+   * Farbauswahl: Wählen Sie eine Farbe aus der Auswahl aus oder geben Sie einen Code ein, z. B. Hex oder RGB.
+
+   <div class="preview">
+
+   Die Dropdown-Felder „Verantwortlicher“, „Einzelauswahl“ und „Mehrfachauswahl“ unterstützen die folgenden Tastaturbefehle:
+
+   * Verwenden Sie die Pfeile nach oben und unten auf der Tastatur, um durch die Liste der Elemente zu navigieren.
+   * Drücken Sie die Leertaste, um ein Element auszuwählen.
+   * Drücken Sie die Entf-Taste, um ein ausgewähltes Element zu entfernen.
+
+   </div>
 
    >[!NOTE]
    >
    >Jeder Feldtyp verfügt über seine eigenen Bearbeitungsoptionen. Einige Felder sind möglicherweise schreibgeschützt.
+   >
+   >Beachten Sie, dass nicht alle Listen alle Feldtypen unterstützen.
 
 ![Beispiel für eine erweiterte Liste](assets/glist-exchange-rates.png)
 
@@ -153,6 +167,8 @@ Je nachdem, welche Objekte Sie in einer erweiterten Liste anzeigen, können Sie 
    Ein Indikator wird auf der Schaltfläche **Spalten** angezeigt, wenn Spalten ausgeblendet sind. Der Indikator wird bei der Neuanordnung der Spalten nicht angezeigt.
 
    ![Indikator für ausgeblendete Spalten](assets/glist-columns-hidden-indicator.png)
+
+   Einige Listen ermöglichen es Ihnen auch, die Spalten selbst in die bevorzugte Reihenfolge zu ziehen.
 
 ### Spalten umbenennen
 
@@ -453,6 +469,5 @@ So sortieren Sie einzelne Spalten:
    >[!NOTE]
    >
    >Die Suche untersucht alle Spalten in allen Listenelementen. Wenn die Liste lang ist, enthält die Suche Elemente, die Sie möglicherweise scrollen müssen, um sie zu sehen. Wenn die Liste gefiltert wird, bezieht sich die Suche nur auf das, was gerade angezeigt wird.
-
 
 
