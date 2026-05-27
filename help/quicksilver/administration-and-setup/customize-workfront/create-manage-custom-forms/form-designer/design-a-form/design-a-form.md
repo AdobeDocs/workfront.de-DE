@@ -10,10 +10,10 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 15592c8dee4bae503382205b38b5daaef5cc74dd
+source-git-commit: b4a3a64abb1c5e6395ff91dc8c145135926a5cf6
 workflow-type: tm+mt
-source-wordcount: '7329'
-ht-degree: 94%
+source-wordcount: '7447'
+ht-degree: 92%
 
 ---
 
@@ -393,7 +393,7 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
     </tr>
     <tr> 
      <td role="rowheader">Label</td> 
-     <td> <p>(Erforderlich) Geben Sie ein beschreibendes Label ein, das über dem benutzerdefinierten Feld angezeigt werden soll. Sie können dieses Label jederzeit ändern.</p> <p><b>Wichtig</b>: Verwenden Sie in diesem Label möglichst keine Sonderzeichen, da diese in Berichten nicht korrekt angezeigt werden. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -Labels</a>.</p> </td> 
+     <td> <p>(Erforderlich) Geben Sie ein beschreibendes Label ein, das über dem benutzerdefinierten Feld angezeigt werden soll. Sie können dieses Label jederzeit ändern.</p> <p><b>Wichtig</b>: Verwenden Sie in diesem Label keine Sonderzeichen, da diese in Berichten nicht korrekt angezeigt werden. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -Labels</a>.</p> </td> 
      <td><ul>
     <li>Optionsfelder</li>
     <li>Kontrollkästchengruppe</li>
@@ -567,7 +567,7 @@ So fügen Sie Felder für die automatische Vervollständigung und Datumsfelder h
     </tr>
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Erforderlich) Geben Sie ein beschreibendes Label ein, das über dem benutzerdefinierten Feld angezeigt werden soll. Sie können dieses Label jederzeit ändern.</p> <p><b>Wichtig</b>: Verwenden Sie in diesem Label möglichst keine Sonderzeichen, da diese in Berichten nicht korrekt angezeigt werden. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -Labels</a>.</p> </td> 
+      <td> <p>(Erforderlich) Geben Sie ein beschreibendes Label ein, das über dem benutzerdefinierten Feld angezeigt werden soll. Sie können dieses Label jederzeit ändern.</p> <p><b>Wichtig</b>: Verwenden Sie in diesem Label keine Sonderzeichen, da diese in Berichten nicht korrekt angezeigt werden. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -Labels</a>.</p> </td> 
        <td><ul>
     <li>Typeahead</li>
     <li>Datum</li>
@@ -684,7 +684,7 @@ So fügen Sie eine externe Suche hinzu:
     <tbody> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Erforderlich) Geben Sie ein beschreibendes Label ein, das über dem benutzerdefinierten Feld angezeigt werden soll. Sie können dieses Label jederzeit ändern.</p> <p><b>Wichtig</b>: Verwenden Sie in diesem Label möglichst keine Sonderzeichen, da diese in Berichten nicht korrekt angezeigt werden. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -Labels</a>.</p> </td> 
+      <td> <p>(Erforderlich) Geben Sie ein beschreibendes Label ein, das über dem benutzerdefinierten Feld angezeigt werden soll. Sie können dieses Label jederzeit ändern.</p> <p><b>Wichtig</b>: Verwenden Sie in diesem Label keine Sonderzeichen, da diese in Berichten nicht korrekt angezeigt werden. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -Labels</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Name</td> 
@@ -698,7 +698,7 @@ So fügen Sie eine externe Suche hinzu:
       <td role="rowheader">Format</td>
       <td><p>Wählen Sie den Datentyp aus, der im benutzerdefinierten Feld erfasst werden soll.</p>
       <p><strong>Hinweis:</strong></p>
-      <ul><li>Sie können den Formattyp nach dem Speichern des Formulars ändern, mit einer Einschränkung: Alle vorhandenen Werte für Objekte müssen in den neuen Typ konvertiert werden können. (Wenn beispielsweise der Formattyp „Text“ lautet und ein Objekt den Wert „abc“ speichert, können Sie das Feld nicht konvertieren und erhalten die Fehlermeldung, dass das System „abc“ nicht in Zahl/Währung konvertieren kann.) Wenn Sie das Feld in mathematischen Berechnungen verwenden möchten, achten Sie darauf, dass Sie ein Zahlen- oder Währungsformat auswählen.</li>
+      <ul><li>Sie können den Formattyp nach dem Speichern des Formulars ändern, mit einer Einschränkung: Alle vorhandenen Werte für Objekte müssen in den neuen Typ konvertiert werden können. (Wenn beispielsweise der Formattyp Text lautet und ein Objekt den Wert „abc“ speichert, können Sie das Feld nicht konvertieren und erhalten die Fehlermeldung, dass das System „abc“ nicht in Zahl/Währung konvertieren kann.) Wenn Sie Ihr Feld in mathematischen Berechnungen verwenden möchten, müssen Sie unbedingt ein Zahlen- oder Währungsformat auswählen.</li>
       <li>Wenn Sie „Zahl“ oder „Währung“ auswählen, kürzt das System automatisch Zahlen, die mit 0 beginnen.</li>
       <li>Zahlenfelder sind auf 16 Zeichen beschränkt. Sie können auch ein Textfeld verwenden, um Zahlen einzugeben und das Limit zu vermeiden.</li>
       </ul></td>
@@ -725,7 +725,7 @@ So fügen Sie eine externe Suche hinzu:
       <p><strong>Hinweis:</strong> Wenn Sie $$QUERY nicht verwenden und die Benutzenden Text in das Suchfeld eingeben, werden die bereits verfügbaren Auswahlmöglichkeiten eingeschränkt. Wenn Sie $$QUERY jedoch verwenden und die Benutzenden etwas eingeben, wird ein neuer Netzwerkaufruf an Ihre API durchgeführt. Wenn Ihre API also mehr als 2.000 Werte enthält und die API Abfragen unterstützt, können Sie mit $$QUERY nicht nur nach den vorhandenen 2.000 Werten suchen, sondern auch nach der ursprünglichen API mit den eingeschränkten Optionen.</p></li>
       <li><p>{fieldName} – Dabei ist „fieldName“ ein benutzerdefiniertes oder natives Feld in Workfront. Auf diese Weise können Sie kaskadierende Dropdown-Optionsfilter implementieren, wenn Sie den Wert eines bereits ausgewählten Feldes an das externe Suchfeld übergeben, um Optionen zu filtern. (Das Feld „Region“ existiert beispielsweise bereits im Formular und Sie grenzen eine Liste mit Ländern über die API auf diejenigen ein, die sich in einer bestimmten Region befinden.)</p>
       <p>Bei einem externen Suchfeld, das eine Abhängigkeit von anderen Feldern aufweist (unter Verwendung der {fieldName}-Syntax), sind die von der API zurückgegebenen Optionen auf diejenigen beschränkt, die mit allen Zeichenfolgen oder Werten übereinstimmen, die in die anderen Felder eingegeben wurden. (Diese Funktion wird in Listen und Berichten nicht unterstützt.)</p></li>
-      <li>{referenceObject}.{fieldName} – Dabei ist das Feld Teil eines Objekts. Diese Syntax ähnelt benutzerdefinierten Ausdrücken. (Beispiel: portfolioID={project}.{portfolioID})</li></ul>
+      <li>{referenceObject}.{fieldName} - Wobei das Feld Teil eines Objekts ist. Diese Syntax ähnelt benutzerdefinierten Ausdrücken. (Beispiel: portfolioID={project}.{portfolioID})</li></ul>
       <p><strong>Tipp:</strong> Informieren Sie sich in der Dokumentation für die API, mit der Sie arbeiten, über die spezifischen Abfragen, die Sie definieren können.</p></td>
      </tr>
      <tr> 
@@ -734,12 +734,12 @@ So fügen Sie eine externe Suche hinzu:
      </tr>
      <tr> 
       <td role="rowheader">JSON-Pfad</td>
-      <td><p>Geben Sie den JSON-Pfad für die API ein oder fügen Sie ihn ein.</p> <p>Diese Option ermöglicht das Extrahieren von Daten aus der von der API-URL zurückgegebenen JSON. Damit können Sie auswählen, welche Werte aus dem JSON-Code in den Dropdown-Optionen angezeigt werden sollen.</p><p>Wenn Ihre API-URL beispielsweise JSON im folgenden Format zurückgibt, können Sie „$.data[*].name“ verwenden, um USA und Kanada als Dropdown-Optionen auszuwählen:</br>
+      <td><p>Geben Sie den JSON-Pfad für die API ein oder fügen Sie ihn ein.</p> <p>Diese Option ermöglicht das Extrahieren von Daten aus der von der API-URL zurückgegebenen JSON. Damit können Sie auswählen, welche Werte aus dem JSON-Code in den Dropdown-Optionen angezeigt werden sollen.</p><p>Wenn Ihre API-URL beispielsweise JSON im folgenden Format zurückgibt, können Sie "$.data[*].name“ verwenden, um USA und Kanada als Dropdown-Optionen auszuwählen:</br>
       <pre>
       &lbrace;
-       data: &lbrace;
-         { name: "USA"},
-         { name: "Canada"}
+       Daten: &lbrace;
+         { name: „USA“},
+         { name: „Canada“}
        &rbrace;
       &rbrace;
       </pre>
@@ -827,7 +827,7 @@ So fügen Sie Bilder, PDFs oder Videos hinzu:
      </tr> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Erforderlich) Geben Sie ein beschreibendes Label ein, das über dem Widget angezeigt werden soll. Sie können dieses Label jederzeit ändern.</p> <p><b>Wichtig</b>: Verwenden Sie in diesem Label möglichst keine Sonderzeichen, da diese in Berichten nicht korrekt angezeigt werden. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -Labels</a>.</p> </td> 
+      <td> <p>(Erforderlich) Geben Sie ein beschreibendes Label ein, das über dem Widget angezeigt werden soll. Sie können dieses Label jederzeit ändern.</p> <p><b>Wichtig</b>: Verwenden Sie in diesem Label keine Sonderzeichen, da diese in Berichten nicht korrekt angezeigt werden. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -Labels</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Name</td> 
@@ -900,24 +900,32 @@ In dieser Tabelle sind die verfügbaren nativen Felder für bestimmte Workfront-
 
 | Feldname | Projekt | Aufgabe | Problem | Vorlage | Vorlagenaufgabe | Portfolio | Programm | Gruppe |
 |--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
+| <span class="preview"> tatsächliche </span> | <span class="preview">✓ </span> |   |   |   |   |   |   |   |
 | Tatsächliches Abschlussdatum | ✓ | ✓ | ✓ |   |   |   |   |   |
 | Tatsächliche Dauer | ✓ |   |   |   |   |   |   |   |
 | Tatsächliche Stunden | ✓ |   | ✓ |   |   |   |   |   |
 | Tatsächliches Startdatum | ✓ | ✓ | ✓ |   |   |   |   |   |
+| </span> <span class="preview"> | <span class="preview">✓ </span> |   |   | <span class="preview"> ✓ </span> |   | <span class="preview"> ✓ </span> |   |   |
 | Firma | ✓ |   |   | ✓ |   |   |   |   |
 | Bedingung | ✓ | ✓ | ✓ |   |   |   |   |   |
 | Bedingungstyp | ✓ |   |   | ✓ |   |   |   |   |
+| <span class="preview"> Währung </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
 | Beschreibung | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Dauer |   | ✓ |   |   | ✓ |   |   |   |
 | Dauertyp |   | ✓ |   |   | ✓ |   |   |   |
 | Dauer – Einheit |   | ✓ |   |   | ✓ |   |   |   |
 | Eingegeben von | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
 | Eingabedatum | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
+| <span class="preview"> Wechselkursdatum </span> | <span class="preview"> ✓ </span> |   |   |   |   |   |   |   |
+| <span class="preview"> Fixkosten </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| </span> Festeinnahmen <span class="preview"> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
 | Gruppe | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
 | Zuletzt aktualisiert von | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | Datum der letzten Aktualisierung | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | Name | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Besitzer | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
+| Besitzerin bzw. Besitzer | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
+| <span class="preview"> Performance Index-Methode </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| <span class="preview"> geplante </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
 | Geplantes Abschlussdatum | ✓ | ✓ | ✓ |   |   |   |   |   |
 | Geplante Dauer | ✓ |   |   | ✓ |   |   |   |   |
 | Geplante Stunden | ✓ | ✓ | ✓ |   | ✓ |   |   |   |
@@ -935,9 +943,29 @@ In dieser Tabelle sind die verfügbaren nativen Felder für bestimmte Workfront-
 | Status | ✓ | ✓ |   |   |   |   |   |   |
 | Story-Punkte |   | ✓ |   |   |   |   |   |   |
 | Vorlage | ✓ |   |   |   |   |   |   |   |
+| Geschätzte Gesamtkosten <span class="preview"> </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| Geschätzte Gesamteinnahmen <span class="preview"> </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
 | URL | ✓ | ✓ |   | ✓ | ✓ |   |   |   |
 
 {style="table-layout:auto"}
+
+<div class="preview">
+
+Diese zusätzlichen benutzerdefinierten Formularobjekttypen unterstützen auch native Feldverweise.
+
+* Rechnungsnachweis: Feld Fester Umsatz
+* Dokument: Name, Beschreibungsfelder
+* Firma: Name, Felder für Gruppe
+* Tarifkarte: Name, Beschreibung, Firma, Gruppenfelder
+* Aufgabengebiet: Name, Beschreibungsfelder
+
+</div>
+
+<!--
+Non-Labor Resource: Name, Description, Home Group, Non-labor Category, Non-labor Group, Unique Identifier fields
+Staffing Plan: Name, Description, Owner, Group, Company, Currency, Schedule, Start Date, End Date, Available Estimated Hours, Total Estimated Hours, Reference Number, Entered By, Entry Date, Last Updated By, Last Updated Date, Total Estimated Cost, Total Estimated Revenue fields
+Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
+-->
 
 +++
 
@@ -1039,7 +1067,7 @@ So fügen Sie eine Adobe XD-Datei hinzu:
    </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Anweisungen</td> 
+      <td role="rowheader">Anleitung</td> 
       <td> <p>Geben Sie zusätzliche Informationen zum Widget ein. Wenn Benutzende das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.
     <img src="assets/instructions-form-designer.png"></p> </td> 
      </tr>
@@ -1174,6 +1202,4 @@ Eine App kann mithilfe des Feldtyps „UI-Erweiterungen“ in ein benutzerdefini
 ## Organisieren eines Formulars und Anzeigen der Vorschau mit dem Formular-Designer
 
 Informationen zum Organisieren eines benutzerdefinierten Formulars mit Abschnittsumbrüchen und zum Anzeigen einer Vorschau des Formulars finden Sie unter [Organisieren eines Formulars und Anzeigen der Vorschau mit dem Formular-Designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
-
-
 
