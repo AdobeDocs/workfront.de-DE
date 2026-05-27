@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: c18a5ff5-ac84-43a3-8980-ddadea3c2677
 source-git-commit: 91cb2fd85089a081192c85e373938a03a795a54b
 workflow-type: tm+mt
-source-wordcount: '299'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Eine Liste aller Änderungen, die mit der Version vom vierten Quartal 2023 verf�
 >
 >Vorschau-Version: 1. November 2023; Produktionsversion für alle Kunden: 1. November 2023
 
-Die E-Mail-Vorlage für Benachrichtigungen zu Dokumentgenehmigungen wurde aktualisiert, um sie besser an andere Adobe-E-Mail-Vorlagen anzupassen und die Übersichtlichkeit und Benutzerfreundlichkeit zu verbessern.
+Die E-Mail-Vorlage für Benachrichtigungen zu Dokumentgenehmigungen wurde aktualisiert, um sie besser an andere E-Mail-Vorlagen von Adobe anzupassen und die Übersichtlichkeit und Benutzerfreundlichkeit zu verbessern.
 
 ## Indikator für manuell angepasste Zuweisungen im Workload Balancer
 

@@ -9,8 +9,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 56849377a2c31c9232e0ecd8517046f76c7963df
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 7%
+source-wordcount: '588'
+ht-degree: 2%
 
 ---
 
@@ -24,9 +24,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im zweiten Quartal 2026 ve
 
 >[!NOTE]
 >
->Vorschau: 2. April 2026
->Produktions-Schnellveröffentlichung: Donnerstag, 15. April 2026
->Produktion für alle: Freitag, 16. April 2026
+>Vorschau: 2. April 2026>Produktions-Schnellveröffentlichung: 15. April 2026>Produktion für alle: 16. April 2026
 
 Um es Ihnen zu erleichtern, in Ihrer täglichen Arbeit von KI zu profitieren, haben wir den Content Review AI Collaborator erstellt. Der Collaborator bietet eine Möglichkeit, KI-Agenten in Ihre Projekte und Aufgaben einzubinden. Sie können KI-Mitwirkende mit Markenrichtlinien konfigurieren und sie dann wie eine Benutzerin oder ein Benutzer einer Aufgabe zuweisen.
 
@@ -38,9 +36,7 @@ Weitere Informationen finden Sie unter [Konfigurieren von KI-Mitwirkenden](/help
 
 >[!NOTE]
 >
->Vorschau: 5. März 2026
->Produktions-Schnellveröffentlichung: Donnerstag, 15. April 2026
->Produktion für alle: Freitag, 16. April 2026
+>Vorschau: 5. März 2026>Produktions-Schnellveröffentlichung: 15. April 2026>Produktion für alle: 16. April 2026
 
 Der Bereich Benutzerdefiniertes Quartal wurde aus dem Abschnitt Projektvoreinstellungen verschoben. Es handelt sich jetzt um einen eigenständigen Abschnitt in Setup. 
 Dieses Update umfasst Folgendes:
@@ -55,9 +51,7 @@ Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale aktivieren](
 
 >[!NOTE]
 >
->Vorschau: 26. Februar 2026
->Produktions-Schnellveröffentlichung: Freitag, 12. März 2026
->Produktion für alle: Freitag, 16. April 2026
+>Vorschau: 26. Februar 2026>Produktions-Schnellveröffentlichung: 12. März 2026>Produktion für alle: 16. April 2026
 
 Standardmäßig werden alle Abschnitte in einem benutzerdefinierten Formular erweitert, wenn das Formular selbst erweitert wird. Mit einer neuen Option im Designer für benutzerdefinierte Formulare können Sie einen Abschnitt markieren, der standardmäßig reduziert werden soll, wenn ein Benutzer das Formular öffnet. Diese Option wird auf Abschnittsebene angewendet, nicht auf Felder.
 
@@ -67,9 +61,7 @@ Weitere Informationen finden Sie unter [Organisieren und Vorschau eines Formular
 
 >[!NOTE]
 >
->Vorschau: 29. Januar 2026
->Produktions-Schnellveröffentlichung: Freitag, 12. Februar 2026
->Produktion für alle: noch festzulegen
+>Vorschau: 29. Januar 2026>Produktions-Schnellveröffentlichung: 12. Februar 2026>Produktion für alle: noch festzulegen
 >
 >Diese Funktion wurde am 13. Februar 2026 vorübergehend aus der Produktionsumgebung entfernt.
 

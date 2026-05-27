@@ -2,7 +2,7 @@
 content-type: release-notes
 keywords: Anmerkungen,vierteljährlich,aktualisieren
 navigation-topic: product-releases
-title: 21.1 Weitere Verbesserungen
+title: Weitere Verbesserungen in Version 21.1
 description: Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 21.1 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 15. Februar 2021 in der Produktionsumgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements
@@ -10,12 +10,12 @@ recommendations: noDisplay, noCatalog
 exl-id: aa6cfba2-d1df-4d7c-975b-2ae0e63b6d85
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 0%
+source-wordcount: '766'
+ht-degree: 2%
 
 ---
 
-# 21.1 Weitere Verbesserungen
+# Weitere Verbesserungen in Version 21.1
 
 Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 21.1 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 15. Februar 2021 in der Produktionsumgebung verfügbar gemacht.
 
@@ -45,7 +45,7 @@ E-Mail wird in allen Vorschauumgebungen automatisch deaktiviert. Informationen z
 
 Weitere Informationen finden Sie unter [Benutzer können ein Problem per E-Mail an ein Anfrage-Warteschlangenprojekt senden](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
-Weitere Informationen dazu, warum wir diese Änderung vornehmen, finden Sie unter [Neues verwaltetes Adobe Workfront-System, um POP-E-Mails für Anfrage-Warteschlangen durch 21.1 zu &#x200B;](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md).
+Weitere Informationen dazu, warum wir diese Änderung vornehmen, finden Sie unter [Neues verwaltetes Adobe Workfront-System, um POP-E-Mails für Anfrage-Warteschlangen durch 21.1 zu ](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md).
 
 Diese Funktion ist jetzt im Lernpfad [Warteschlangenverwaltung im neuen Workfront-Erlebnis](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) auf Workfront One enthalten.
 

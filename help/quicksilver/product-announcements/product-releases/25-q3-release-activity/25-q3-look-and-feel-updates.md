@@ -7,8 +7,8 @@ recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
 source-git-commit: 20e4c8619bd59ec8686da74582dbc2f25b9a79c7
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 0%
+source-wordcount: '158'
+ht-degree: 25%
 
 ---
 
@@ -30,4 +30,4 @@ Die Nachrichten im Ankündigungscenter entsprechen nun dem Stil der Workfront-E-
 
 ## Modernisierung der Benutzeroberfläche
 
-Wir aktualisieren die Benutzeroberfläche in Adobe Workfront, um das Benutzererlebnis zu verbessern und es mit anderen Adobe-Programmen zu vereinheitlichen. Diese Änderungen werden außerhalb des standardmäßigen Veröffentlichungszeitplans veröffentlicht. Eine Liste dieser Änderungen finden Sie unter [Schnittstellenmodernisierung](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).
+Wir aktualisieren die Benutzeroberfläche in Adobe Workfront, um das Anwendererlebnis zu verbessern und es mit anderen Adobe-Anwendungen zu vereinheitlichen. Diese Änderungen werden außerhalb des standardmäßigen Veröffentlichungszeitplans veröffentlicht. Eine Liste dieser Änderungen finden Sie unter [Modernisierung der Benutzeroberfläche](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).

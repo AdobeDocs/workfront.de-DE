@@ -4,9 +4,10 @@ description: Projektverbesserungen im zweiten Quartal 2025
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ed8137d34688024ea45ad352ed4c06d214dd0fdf
+exl-id: 35e5309a-ad8d-44f0-af84-6070c20d06e1
+source-git-commit: 5b300e3cb443a0500ecb1e4998cc9e0e9c1ece99
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---

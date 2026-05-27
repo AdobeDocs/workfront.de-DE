@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-3-release-activity
-title: 20.3 Weitere Verbesserungen
+title: Weitere Verbesserungen in Version 20.3
 description: Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 20.3 an der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Woche vom 10. August 2020 in der Produktionsumgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements
@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 6fef7261-114f-4c26-861e-61a4acb22d40
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '1503'
-ht-degree: 0%
+source-wordcount: '1532'
+ht-degree: 3%
 
 ---
 
-# 20.3 Weitere Verbesserungen
+# Weitere Verbesserungen in Version 20.3
 
 Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 20.3 an der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Woche vom 10. August 2020 in der Produktionsumgebung verfügbar gemacht.
 
@@ -135,7 +135,7 @@ Weitere Informationen finden Sie unter [Erstellen einer Gruppe](../../../adminis
 
 Um die Organisation Ihrer Workfront-Gruppen entsprechend Ihrer Organisationshierarchie zu erleichtern, haben wir die Anzahl der Untergruppen, die Sie innerhalb einer Gruppe erstellen können, von 3 auf 14 erhöht.
 
-Weitere Informationen finden Sie unter [Gruppen - Übersicht](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
+Weitere Informationen finden Sie unter [Überblick über Gruppen](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
 ## Neu für Admins: Neue Setup-Seitenleiste
 
@@ -162,7 +162,7 @@ Weitere Informationen zum Bereich „Kundeninformationen“ finden Sie [Konfigur
 
 ## Base64-Codierung für Ereignisabonnements
 
-Das Feld base64encoding ist ein optionales Feld, das verwendet wird, um die Base64-Codierung von Payloads von Ereignisabonnements zu aktivieren. Wenn eine Anfrage mit dem Feld base64Encoding gestellt wird, das auf „true“ gesetzt ist, werden die newState- und oldState-Objekte in der Payload als Base64-Codierungszeichenfolgen bereitgestellt. Diese Funktion kann nützlich sein, wenn Ihr Netzwerk so konfiguriert ist, dass Sonderzeichen in Ereignisabonnements nicht zulässig sind.
+Das Feld „base64Encoding“ ist ein optionales Feld, das verwendet wird, um die Base64-Codierung von Payloads für Ereignisabonnements zu aktivieren. Wenn eine Anfrage mit dem Feld base64Encoding gestellt wird, das auf „true“ gesetzt ist, werden die newState- und oldState-Objekte in der Payload als Base64-Codierungszeichenfolgen bereitgestellt. Diese Funktion kann nützlich sein, wenn Ihr Netzwerk so konfiguriert ist, dass Sonderzeichen in Ereignisabonnements nicht zulässig sind.
 
 Weitere Informationen finden Sie unter [Ereignisabonnement-API](../../../wf-api/general/event-subs-api.md).
 

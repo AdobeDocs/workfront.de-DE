@@ -1,6 +1,6 @@
 ---
-title: Versionsübersicht 22.3
-description: Versionsübersicht 22.3
+title: Überblick über Version 22.3
+description: Überblick über Version 22.3
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -8,12 +8,12 @@ recommendations: noDisplay, noCatalog
 exl-id: bfc7ce9e-b715-47b7-bab7-2e3540d0da3e
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '3221'
-ht-degree: 0%
+source-wordcount: '3384'
+ht-degree: 5%
 
 ---
 
-# Versionsübersicht 22.3
+# Überblick über Version 22.3
 
 Diese Seite enthält Informationen zur Funktionalität, die in der Version 22.3 enthalten ist. Alle aufgelisteten Funktionen sind in der neuen Adobe Workfront-Version verfügbar. Einige Funktionen sind auch in Adobe Workfront Classic verfügbar. [Workfront Classic wird jedoch im März 2022 eingestellt](https://experienceleague.adobe.com/de/docs/workfront/using/home) kurz darauf folgt das Ende der Nutzungsdauer von Workfront Classic im Juli 2022.
 
@@ -163,7 +163,7 @@ Diese Verbesserungen wurden in der Woche vom 11. Juli 2022 in der Produktionsumg
  </tbody> 
 </table>
 
-### Projektverbesserungen {#project-enhancements}
+### Verbesserungen bei Projekten {#project-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -496,9 +496,9 @@ Campaign wurde im Juli 2022 mit der Version 22.3 zur Beta-Vorschau veröffentlic
  </tbody> 
 </table>
 
-## Workfront Fusion-Verbesserungen
+## Verbesserungen in Workfront Fusion
 
-Neue Funktionen in Workfront Fusion sind außerhalb des Veröffentlichungszeitplans für 22.3 in der Produktionsumgebung verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Versionsaktivität von Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Neue Funktionen in Workfront Fusion sind außerhalb des Veröffentlichungszeitplans für 22.3 in der Produktionsumgebung verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Adobe Workfront Fusion-Veröffentlichungen](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Verbesserungen am Workfront-Szenarioplaner
 
@@ -532,7 +532,7 @@ Informationen zu neuen und aktualisierten Funktionen finden Sie unter [Neue Funk
 
 Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Zeitplan](../../../wf-api/api/api-version-support-schedule.md).
 
-## Wartungs-Updates für Workfront 
+## Wartungs-Updates für Workfront
 
 Informationen zu den Wartungs-Updates, die während der Version 22.3 vorgenommen wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/de/docs/workfront-known-issues/releases/current-updates).
 
@@ -563,13 +563,13 @@ was presented on January 12, 2022. You can view the webinar recording on the
 </div>
 -->
 
-## Schulungsaktualisierungen
+## Updates für Schulungen
 
-Erfahren Sie mehr über die neuesten Aktualisierungen von Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie auf der [Seite mit Schulungsversions-Updates](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home).
+Erfahren Sie mehr über die neuesten Updates von Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie auf der [Seite mit Schulungsversions-Updates](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home).
 
 ## Funktion wird nicht mehr unterstützt
 
-### Internet Explorer 11
+### Internet Explorer 11
 
 Nachdem die Unterstützung für Internet Explorer eingestellt wurde, unterstützt Workfront jetzt offiziell Microsoft Edge.
 

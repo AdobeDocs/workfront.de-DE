@@ -9,8 +9,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 2%
+source-wordcount: '741'
+ht-degree: 4%
 
 ---
 
@@ -60,7 +60,7 @@ In der neuen Kommentar-Funktion wurden folgende Verbesserungen vorgenommen:
 
 Weitere Informationen finden Sie unter [Arbeit aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-[Sehen Sie sich eine Videodemonstration dieser Funktion an.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Die Erläuterung dieser spezifischen Funktion beginnt mit 2:47)
+[Sehen Sie sich eine Video-Demo zu dieser Funktion an.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Die Erläuterung dieser spezifischen Funktion beginnt bei 2:47)
 
 ## Die Registerkarte Systemaktivität im neuen Kommentarerlebnis unterstützt schreibgeschützte Kommentare
 
@@ -72,7 +72,7 @@ Kommentare zu den Systemaktivitätsdatensätzen im alten Kommentar-Erlebnis werd
 
 Weitere Informationen finden Sie unter [Übersicht über Aktualisierungen](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Sehen Sie sich eine Videodemonstration dieser Funktion an.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Die Erläuterung dieser spezifischen Funktion beginnt mit 2:00)
+[Sehen Sie sich eine Video-Demo zu dieser Funktion an.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Die Erläuterung dieser spezifischen Funktion beginnt bei 2:00)
 
 ## Neue Registerkarte Aktualisierungsstrom , um sowohl Kommentare als auch Systemaktivitätseinträge zu erfassen
 
@@ -86,7 +86,7 @@ Die Registerkarte Alle ist eine schreibgeschützte Registerkarte. Sie können in
 
 Weitere Informationen finden Sie unter [Übersicht über Aktualisierungen](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Sehen Sie sich eine Videodemonstration dieser Funktion an.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Die Erläuterung dieser spezifischen Funktion beginnt bei 0:31)
+[Sehen Sie sich eine Video-Demo zu dieser Funktion an.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Die Erläuterung dieser spezifischen Funktion beginnt bei 0:31)
 
 ## Neuer Kommentar-Stream jetzt im Bedienfeld Zusammenfassung verfügbar
 
@@ -98,4 +98,4 @@ Wir haben dem Bedienfeld Zusammenfassung für Aufgaben- und Problemlisten nun di
 
 Weitere Informationen finden Sie unter [Übersicht](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-[Sehen Sie sich eine Video-Demo zu dieser Funktion an.](https://video.tv.adobe.com/v/3427991/){target=_blank}
+[Sehen Sie sich eine Videodemonstration dieser Funktion an.](https://video.tv.adobe.com/v/3427991/){target=_blank}
