@@ -120,7 +120,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 1. Wenn Sie genauer sagen möchten, wie Sie das Element freigeben, klicken Sie auf das Dropdown-Menü rechts neben dem Namen und verwenden Sie dann eine der folgenden Optionen:
 
    * **Anzeigen**: Klicken Sie auf das Symbol **Erweiterte Einstellungen** ![Symbol „Erweiterte Einstellungen“](assets/configure-options-icon.png), um anzugeben, ob die Benutzer das Element zu einem benutzerdefinierten Formular hinzufügen oder für andere Benutzer freigeben können sollen.
-   * **Verwalten**: Ermöglicht den Zugriff auf die Bearbeitung des benutzerdefinierten Felds und dessen Anzeige sowohl in der Feldbibliothek als auch im Formular-Designer. Klicken Sie auf **Symbol** Erweiterte Einstellungen![, ](assets/configure-options-icon.png) anzugeben, ob die Benutzer das Element aus dem System löschen oder für andere Benutzer freigeben können sollen.
+   * **Verwalten**: Ermöglicht den Zugriff auf die Bearbeitung des benutzerdefinierten Felds und dessen Anzeige sowohl in der Feldbibliothek als auch im Formular-Designer. Klicken Sie auf **Symbol** Erweiterte Einstellungen![, &#x200B;](assets/configure-options-icon.png) anzugeben, ob die Benutzer das Element aus dem System löschen oder für andere Benutzer freigeben können sollen.
 
 1. (Optional) Wiederholen Sie die Schritte 5 bis 6, um der Liste weitere Namen hinzuzufügen und ihre Optionen zu konfigurieren.
 1. (Optional) Wählen Sie eine systemweite Freigabeoption für das Feld aus:
