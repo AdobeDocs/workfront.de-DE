@@ -6,7 +6,7 @@ feature: Workfront Scenario Planner
 exl-id: a6afe39f-1663-493d-a582-0a396ce138c2
 source-git-commit: 187505de92f9a912547018865f2742bfecec77ad
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Die [!DNL Workfront Scenario Planner] wird angezeigt.
 
    Klicken Sie **[!UICONTROL Neuer Plan]**, um einen neuen Plan hinzuzufügen.
 
-   Weitere Informationen zum Erstellen von Plänen finden [&#x200B; unter „Erstellen und Bearbeiten von Plänen im Szenario-Planer](../scenario-planner/create-and-edit-plans.md).
+   Weitere Informationen zum Erstellen von Plänen finden [ unter „Erstellen und Bearbeiten von Plänen im Szenario-Planer](../scenario-planner/create-and-edit-plans.md).
 
 ## [!DNL Workfront Scenario Planner]-Objekte
 

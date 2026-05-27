@@ -11,7 +11,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1075'
 ht-degree: 3%
 
 ---
@@ -71,7 +71,7 @@ Die folgenden Ressourcen wurden für die API-Version 13 geändert.
 
 Ein AccessLevel-Objekt ist Benutzern zugeordnet und beschreibt den Satz von AccessLevelPermissions, die bestimmen, auf was Benutzer zugreifen können.
 
-Weitere Informationen zu Zugriffsebenen finden Sie unter [&#x200B; von Zugriffsebenen](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
+Weitere Informationen zu Zugriffsebenen finden Sie unter [ von Zugriffsebenen](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 

@@ -11,7 +11,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
-source-wordcount: '4540'
+source-wordcount: '4555'
 ht-degree: 1%
 
 ---
@@ -311,7 +311,7 @@ Bei der Berechnung des Aufgabenumsatzes basierend auf dem Umsatztyp und der Art 
     </tr> 
     <tr> 
      <td role="rowheader">Abrechnung des Satzes pro Stunde für den geplanten Umsatz</td> 
-     <td>0,00 $</td> 
+     <td>$0.00</td> 
      <td> Wenn ein Benutzer einen Abrechnungssatz in seinem Profil hat, wird dieser Satz zur Berechnung des geplanten Umsatzes verwendet. Andernfalls wird der Abrechnungssatz des Systems für das primäre Aufgabengebiet verwendet. <br><p><b>HINWEIS</b> Der Benutzer kann der Aufgabe mit einem seiner sekundären Aufgabengebiete zugewiesen werden, hier wird jedoch stattdessen die Rate des primären Aufgabengebiets verwendet.</p><p>Wenn sich die Rolle des/r Benutzenden während der Zuweisung geändert hat, werden bei der Neuberechnung der Projektfinanzen die richtigen Sätze angewendet.</p></td> 
      <td>Der System-Abrechnungssatz des Aufgabengebiets, das der Aufgabe zugewiesen wurde, wird zur Berechnung des geplanten Umsatzes verwendet. Die Abrechnungssätze können auf Projektebene überschrieben werden.</td> 
     </tr> 
@@ -349,7 +349,7 @@ Bei der Berechnung des Aufgabenumsatzes basierend auf dem Umsatztyp und der Art 
     </tr> 
     <tr> 
      <td role="rowheader">Abrechnung des Satzes pro Stunde für den geplanten Umsatz</td> 
-     <td>0,00 $</td> 
+     <td>$0.00</td> 
      <td><p>Workfront prüft das Aufgabengebiet, das der Benutzer bei der Berechnung des geplanten Umsatzes erfüllt. <br>Wenn der/die Benutzende mit keiner Rolle in der Aufgabe verknüpft ist, beträgt der Umsatz 0,00 $.</p> <p><strong>HINWEIS</strong><br> Wenn sich die Rolle des Benutzers während der Zuweisung geändert hat, werden bei der Neuberechnung der Projektfinanzen die richtigen Sätze angewendet.</p> </td> 
      <td>Der Abrechnungssatz des Aufgabengebiets, das der Aufgabe zugewiesen wurde, wird zur Berechnung des geplanten Umsatzes verwendet. Die Abrechnungssätze können auf Projektebene überschrieben werden.</td> 
     </tr> 
@@ -366,7 +366,7 @@ Bei der Berechnung des Aufgabenumsatzes basierend auf dem Umsatztyp und der Art 
 
 | Abrechnung pro Stundensatz | Keine Zuweisung | Benutzerzuweisung | Zuweisung eines Aufgabengebiets |
 | --- | --- | --- | --- |
-| Abrechnung des Satzes pro Stunde für den geplanten Umsatz | 0,00 $ | Wenn ein(e) Benutzende(r) zugewiesen wird, sucht das System in einer bestimmten Reihenfolge nach dem Satz, beginnend mit einem beibehaltenen Abrechnungssatz. Als Nächstes folgen ein gesperrter Satz, ein manuell eingegebener Satz für die Zuweisung, das Aufgabengebiet für die Fakturierung der Zuweisung, die Überschreibung des Abrechnungssatzes für Benutzer auf Projektebene, das Aufgabengebiet für die Fakturierung auf Projektebene, der Systemsatz für Benutzer und der primäre Aufgabengebiet-Satz des Benutzers. <p> Weitere Informationen finden Sie unter [Übersicht über Umsatz und Kostenhierarchie](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Wenn ein Aufgabengebiet zugewiesen wird, sucht das System zunächst nach einem beibehaltenen Abrechnungssatz und dann nach einem gesperrten Satz auf der Tarifkarte für das Aufgabengebiet in der Zuweisung. Als Nächstes wird nach einer Aufgabengebiet-Rate gesucht, die manuell zur Zuweisung hinzugefügt wurde. Wenn dieser Tarif nicht gefunden wird, wird auf Projektebene nach einem Tarif für Aufgabengebiete gesucht, zuerst auf der Tarifkarte und dann im Systemtarif. <p> Weitere Informationen finden Sie unter [Übersicht über Umsatz und Kostenhierarchie](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). |
+| Abrechnung des Satzes pro Stunde für den geplanten Umsatz | $0.00 | Wenn ein(e) Benutzende(r) zugewiesen wird, sucht das System in einer bestimmten Reihenfolge nach dem Satz, beginnend mit einem beibehaltenen Abrechnungssatz. Als Nächstes folgen ein gesperrter Satz, ein manuell eingegebener Satz für die Zuweisung, das Aufgabengebiet für die Fakturierung der Zuweisung, die Überschreibung des Abrechnungssatzes für Benutzer auf Projektebene, das Aufgabengebiet für die Fakturierung auf Projektebene, der Systemsatz für Benutzer und der primäre Aufgabengebiet-Satz des Benutzers. <p> Weitere Informationen finden Sie unter [Übersicht über Umsatz und Kostenhierarchie](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Wenn ein Aufgabengebiet zugewiesen wird, sucht das System zunächst nach einem beibehaltenen Abrechnungssatz und dann nach einem gesperrten Satz auf der Tarifkarte für das Aufgabengebiet in der Zuweisung. Als Nächstes wird nach einer Aufgabengebiet-Rate gesucht, die manuell zur Zuweisung hinzugefügt wurde. Wenn dieser Tarif nicht gefunden wird, wird auf Projektebene nach einem Tarif für Aufgabengebiete gesucht, zuerst auf der Tarifkarte und dann im Systemtarif. <p> Weitere Informationen finden Sie unter [Übersicht über Umsatz und Kostenhierarchie](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). |
 | Abrechnungssatz pro Stunde für tatsächlichen Umsatz | Für die Berechnung werden nur die Tarife berücksichtigt, die dem Benutzer zugeordnet sind, der die Zeit erfasst hat, auch wenn der Aufgabe ein anderer Benutzer zugeordnet ist. <p> Das System sucht in einer bestimmten Reihenfolge nach dem Satz, beginnend mit einem einbehaltenen Abrechnungssatz. Als Nächstes folgen ein gesperrter Zinssatz, eine Überschreibung des Abrechnungssatzes für das Projekt, das Aufgabengebiet für die Abrechnung, der Satz auf Systemebene für das Benutzerprofil des Eigentümers und der Abrechnungssatz für das primäre Aufgabengebiet des Eigentümers. <p> Weitere Informationen finden Sie unter [Übersicht über Umsatz und Kostenhierarchie](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Wenn ein(e) Benutzende(r) zugewiesen wird, sucht das System in einer bestimmten Reihenfolge nach dem Satz, beginnend mit einem beibehaltenen Abrechnungssatz. Als Nächstes folgen ein gesperrter Satz, ein manuell eingegebener Satz für die Zuweisung, das Aufgabengebiet für die Fakturierung der Zuweisung, die Überschreibung des Abrechnungssatzes für Benutzer auf Projektebene, das Aufgabengebiet für die Fakturierung auf Projektebene, der Systemsatz für Benutzer und der primäre Aufgabengebiet-Satz des Benutzers. <p> Weitere Informationen finden Sie unter [Übersicht über Umsatz und Kostenhierarchie](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). | Wenn ein Aufgabengebiet zugewiesen wird, sucht das System zunächst nach einem beibehaltenen Abrechnungssatz und dann nach einem gesperrten Satz auf der Tarifkarte für das Aufgabengebiet in der Zuweisung. Als Nächstes wird nach einer Aufgabengebiet-Rate gesucht, die manuell zur Zuweisung hinzugefügt wurde. Wenn dieser Tarif nicht gefunden wird, wird auf Projektebene nach einem Tarif für Aufgabengebiete gesucht, zuerst auf der Tarifkarte und dann im Systemtarif. Weitere Informationen finden Sie unter [Übersicht über Umsatz und Kostenhierarchie](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md). |
 
 ### Einnahmenberechnungen für Projekte
@@ -377,12 +377,12 @@ Sie können die folgenden Umsatztypen für Projekte verfolgen:
 
   `Project Planned Revenue = SUM(Task Planned Revenue)+ Fixed Revenue`
 
-  Informationen zur Berechnung des geplanten Aufgabenumsatzes finden Sie im Abschnitt [Umsatzberechnungen für Aufgaben basierend auf Benutzer- und &#x200B;](#revenue-calculations-for-tasks-based-on-user-and-role-assignments)) in diesem Artikel.
+  Informationen zur Berechnung des geplanten Aufgabenumsatzes finden Sie im Abschnitt [Umsatzberechnungen für Aufgaben basierend auf Benutzer- und ](#revenue-calculations-for-tasks-based-on-user-and-role-assignments)) in diesem Artikel.
 
 * Die tatsächlichen Einnahmen für ein Projekt werden anhand der folgenden Formel berechnet:
 
   `Project Actual Revenue = SUM (Task Actual Revenue) + (Hours logged for the project x User Billing per Hour Rate) + SUM (Hours logged for the issues x User Billing per Hour rate)`
 
-Informationen zur Berechnung des tatsächlichen Aufgabenumsatzes finden Sie im Abschnitt [Umsatzberechnungen für Aufgaben basierend auf Benutzer- und &#x200B;](#revenue-calculations-for-tasks-based-on-user-and-role-assignments)) in diesem Artikel.
+Informationen zur Berechnung des tatsächlichen Aufgabenumsatzes finden Sie im Abschnitt [Umsatzberechnungen für Aufgaben basierend auf Benutzer- und ](#revenue-calculations-for-tasks-based-on-user-and-role-assignments)) in diesem Artikel.
 
 Für den tatsächlichen Umsatz in Verbindung mit den Stunden, die direkt im Projekt erfasst werden, oder mit den Problemen verwendet Workfront den Abrechnungssatz der Person, die die Zeit im Projekt erfasst. Wenn dem/der Benutzenden kein Abrechnungssatz zugeordnet ist, verwendet Workfront den Abrechnungssatz des Primären Aufgabengebiets. Wenn beide Sätze null sind, ist der tatsächliche Umsatz, der mit den für das Projekt oder die Probleme protokollierten Stunden verbunden ist, null.

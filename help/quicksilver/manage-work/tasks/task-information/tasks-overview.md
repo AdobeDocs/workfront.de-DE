@@ -9,12 +9,12 @@ feature: Work Management
 exl-id: 060918b2-8c3f-4f85-a8ac-bcd36141d071
 source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 0%
+source-wordcount: '397'
+ht-degree: 1%
 
 ---
 
-# Aufgaben - Übersicht
+# Überblick über Aufgaben
 
 <!-- Audited: 01/2024 -->
 
@@ -28,7 +28,7 @@ Es folgen die Arten von Aufgaben in einem Projekt:
 
 * Übergeordnete Aufgaben
 * Teilaufgaben oder untergeordnete Aufgaben
-* Aufgaben der obersten Ebene
+* Top-Level-Aufgaben
 * Arbeitsaufgaben
 * Wiederkehrende Aufgaben
 

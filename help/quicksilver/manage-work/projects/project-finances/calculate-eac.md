@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: 9061fa56-cff3-4fe2-866e-1fdda9d43efc
 source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '835'
 ht-degree: 5%
 
 ---
@@ -53,7 +53,7 @@ Als Einstellung können Sie festlegen, wie der EAC-Wert berechnet werden soll.
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -8,8 +8,8 @@ feature: Get Started with Workfront
 exl-id: 8e191b5e-31df-4291-8b9d-9ca69be27561
 source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 2%
+source-wordcount: '771'
+ht-degree: 8%
 
 ---
 
@@ -35,8 +35,8 @@ Sie können anderen Benutzern die Berechtigungen für Objekte entziehen, auf die
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Mitwirkender oder höher</p> 
-   <p>Anfrage oder höher</p>
+   <td> <p>Mitwirkende oder höher</p> 
+   <p>Anfragende oder höher</p>
    <p><strong>Hinweis</strong>: Einige Objekte erfordern einen höheren Zugriff als „Anfrage“.</p>
    </td> 
   </tr> 
@@ -51,7 +51,7 @@ Sie können anderen Benutzern die Berechtigungen für Objekte entziehen, auf die
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

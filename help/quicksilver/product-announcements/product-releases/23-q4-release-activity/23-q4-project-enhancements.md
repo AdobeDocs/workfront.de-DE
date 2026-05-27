@@ -7,8 +7,8 @@ recommendations: noDisplay, noCatalog
 exl-id: c1484bec-e38a-44a2-aa0c-ec92ad10185d
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 0%
+source-wordcount: '455'
+ht-degree: 4%
 
 ---
 
@@ -30,7 +30,7 @@ In dieser Version wurde der Genehmigungsprozess zusätzlich zu neuen Funktionen 
 
 Weitere Informationen zur Verwendung der neuen Dokumentgenehmigungen finden Sie unter [Übersicht über neue Dokumentgenehmigungen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3424867){target=_blank}
+[Sehen Sie sich eine Videodemonstration dieser Funktion an.](https://video.tv.adobe.com/v/3424867){target=_blank}
 
 ## Aktualisierter Entwurf beim Hinzufügen eines neuen Problems zu einem Projekt
 
@@ -48,15 +48,15 @@ Die Art und Weise, wie die Felder berechnet werden, hat sich nicht geändert.
 
 Bei einer geringen Anzahl von Formularfeldern erfolgt auf Seiten, die nicht modernisiert wurden, keine dynamische Neuberechnung.
 
-Weitere Informationen finden Sie unter [Bearbeiten von Informationen in benutzerdefinierten Formularfeldern](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md).
+Weitere Informationen finden Sie unter [Bearbeiten von Informationen in Feldern in benutzerdefinierten Formularen](/help/quicksilver/workfront-basics/work-with-custom-forms/edit-custom-forms.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3422678/){target=_blank}
+[Sehen Sie sich eine Videodemonstration dieser Funktion an.](https://video.tv.adobe.com/v/3422678/){target=_blank}
 
 ## Geplante Stunden für wiederkehrende untergeordnete Aufgaben mit dem einfachen Dauertyp ohne Zuweisungen festlegen
 
 Wir haben die Art und Weise geändert, wie geplante Stunden wiederkehrenden Aufgaben ohne Zuweisungen und mit einem einfachen Dauertyp zugewiesen werden. Wenn Sie jetzt geplante Stunden für eine neue wiederkehrende Aufgabe mit einem einfachen Dauertyp und ohne Zuweisungen festlegen, werden die Stunden auch den einzelnen wiederkehrenden Vorgängen zugewiesen. Vor dieser Änderung wurden die Stunden nicht für einzelne Wiederholungen gespeichert, wenn die Zuweisung der übergeordneten Aufgaben aufgehoben wurde.
 
-Informationen zum Erstellen wiederkehrender Aufgaben finden Sie unter [Wiederkehrende Aufgaben erstellen](/help/quicksilver/manage-work/tasks/create-tasks/create-recurring-tasks.md).
+Informationen zum Erstellen wiederkehrender Aufgaben finden Sie unter [Erstellen wiederkehrender Aufgaben](/help/quicksilver/manage-work/tasks/create-tasks/create-recurring-tasks.md).
 
 ## Echtzeitaktualisierungen in der Aufgabenliste
 

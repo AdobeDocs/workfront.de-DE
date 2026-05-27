@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '739'
+source-wordcount: '740'
 ht-degree: 11%
 
 ---
@@ -33,7 +33,7 @@ Es gibt zwei Ansätze zum Verbinden von Zielen in Adobe Workfront:
 >
 >Ein Ziel kann insgesamt 1000 Fortschrittsindikatoren aufweisen.
 
-In diesem Artikel wird beschrieben, wie Sie Ziele ausrichten können, indem Sie sie miteinander verbinden. Informationen zum Ausrichten von Zielen durch Konvertieren von Ergebnissen und Aktivitäten in Ziele finden Sie unter &quot;[&#x200B; durch Konvertieren von Ergebnissen und Aktivitäten in Ziele ausrichten](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
+In diesem Artikel wird beschrieben, wie Sie Ziele ausrichten können, indem Sie sie miteinander verbinden. Informationen zum Ausrichten von Zielen durch Konvertieren von Ergebnissen und Aktivitäten in Ziele finden Sie unter &quot;[ durch Konvertieren von Ergebnissen und Aktivitäten in Ziele ausrichten](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
 
 ## Zugriffsanforderungen
 

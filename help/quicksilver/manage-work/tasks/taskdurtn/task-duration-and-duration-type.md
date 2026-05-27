@@ -12,7 +12,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1658'
+source-wordcount: '1663'
 ht-degree: 3%
 
 ---
@@ -37,7 +37,7 @@ Wenn das tatsächliche Start- und Abschlussdatum der Aufgabe außerhalb des Zeit
 
 >[!BEGINSHADEBOX]
 
-**BEISPIEL**
+**EXAMPLE**
 Wenn Sie einen Zeitplan haben, der um 9 :00 beginnt und um 12 :00 endet und eine Aufgabe, die um 14 :00 beginnen und um 16 :00 enden soll, ist die Aufgabendauer null.
 
 
@@ -49,7 +49,7 @@ Im Folgenden finden Sie zwei Szenarien für die Berechnung der Dauer in Adobe Wo
 
    1. Workfront berücksichtigt entweder den Zeitplan des Projekts oder den des Benutzers, der der Aufgabe zugewiesen wurde.
 
-      Ihr Workfront- oder Gruppenadministrator bestimmt, welchen Zeitplan Workfront verwendet, wenn eine Aufgabe einem Benutzer zugewiesen wird. Weitere Informationen finden [&#x200B; unter „Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+      Ihr Workfront- oder Gruppenadministrator bestimmt, welchen Zeitplan Workfront verwendet, wenn eine Aufgabe einem Benutzer zugewiesen wird. Weitere Informationen finden [ unter „Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
    1. Wenn der/die Benutzende oder das Projekt keinen Zeitplan hat, verwendet Workfront den Systemstandardzeitplan.
 
@@ -59,7 +59,7 @@ Im Folgenden finden Sie zwei Szenarien für die Berechnung der Dauer in Adobe Wo
 
    1. Workfront berücksichtigt entweder den Zeitplan des Projekts oder den des primären Verantwortlichen.
 
-      Ihr Workfront- oder Gruppenadministrator bestimmt, welchen Zeitplan Workfront verwendet, wenn eine Aufgabe mehreren Benutzern zugewiesen wird. Weitere Informationen finden [&#x200B; unter „Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+      Ihr Workfront- oder Gruppenadministrator bestimmt, welchen Zeitplan Workfront verwendet, wenn eine Aufgabe mehreren Benutzern zugewiesen wird. Weitere Informationen finden [ unter „Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
    1. Wenn der primäre Zugewiesene oder das Projekt keinen Zeitplan hat, verwendet Workfront den Systemstandardzeitplan.
 

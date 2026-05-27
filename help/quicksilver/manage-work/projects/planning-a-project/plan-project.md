@@ -11,7 +11,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1672'
+source-wordcount: '1676'
 ht-degree: 0%
 
 ---
@@ -134,7 +134,7 @@ Beachten Sie beim Definieren von Aufgaben Folgendes:
 
 * Definieren Sie die Zeitleiste für jede Aufgabe. Dies wird im Feld Dauer jeder Aufgabe erfasst.
 
-  Informationen zur Aufgabendauer finden Sie im Artikel [Übersicht über die Aufgabendauer und den &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)).
+  Informationen zur Aufgabendauer finden Sie im Artikel [Übersicht über die Aufgabendauer und den ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)).
 
 * Definieren Sie die hierarchische Beziehung zwischen den Aufgaben.
 * Definieren Sie die Vorgängerbeziehung zwischen den Aufgaben.
