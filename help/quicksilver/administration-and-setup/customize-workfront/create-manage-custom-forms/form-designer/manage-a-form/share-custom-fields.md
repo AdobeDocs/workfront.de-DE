@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 4f591fa3-2cb9-4a22-bfb1-1b50cedfcf3d
-source-git-commit: 264419f747b1e975cda8843b37558e78501d93de
+source-git-commit: a8e2558469d3abc355eb58f81658db3d1cfc7315
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 5%
@@ -120,7 +120,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 1. Wenn Sie genauer sagen möchten, wie Sie das Element freigeben, klicken Sie auf das Dropdown-Menü rechts neben dem Namen und verwenden Sie dann eine der folgenden Optionen:
 
    * **Anzeigen**: Klicken Sie auf das Symbol **Erweiterte Einstellungen** ![Symbol „Erweiterte Einstellungen“](assets/configure-options-icon.png), um anzugeben, ob die Benutzer das Element zu einem benutzerdefinierten Formular hinzufügen oder für andere Benutzer freigeben können sollen.
-   * **Verwalten**: Ermöglicht den Zugriff auf die Bearbeitung des benutzerdefinierten Felds und dessen Anzeige sowohl in der Feldbibliothek als auch im Formular-Designer. Klicken Sie auf **Symbol** Erweiterte Einstellungen![, &#x200B;](assets/configure-options-icon.png) anzugeben, ob die Benutzer das Element aus dem System löschen oder für andere Benutzer freigeben können sollen.
+   * **Verwalten**: Ermöglicht den Zugriff auf die Bearbeitung des benutzerdefinierten Felds und dessen Anzeige sowohl in der Feldbibliothek als auch im Formular-Designer. Klicken Sie auf **Symbol** Erweiterte Einstellungen![, ](assets/configure-options-icon.png) anzugeben, ob die Benutzer das Element aus dem System löschen oder für andere Benutzer freigeben können sollen.
 
 1. (Optional) Wiederholen Sie die Schritte 5 bis 6, um der Liste weitere Namen hinzuzufügen und ihre Optionen zu konfigurieren.
 1. (Optional) Wählen Sie eine systemweite Freigabeoption für das Feld aus:
@@ -163,3 +163,5 @@ Sie können ermitteln, wer Zugriff auf ein benutzerdefiniertes Feld oder Widget 
 ### Entfernen des Zugriffs auf ein benutzerdefiniertes Feld oder Widget in einem benutzerdefinierten Formular, das freigegeben wurde {#remove-access-to-a-custom-field-or-widget-in-a-custom-form-that-was-shared}
 
 Wenn Sie den Zugriff auf ein benutzerdefiniertes Feld oder Widget in einem benutzerdefinierten Formular entfernen müssen, das freigegeben wurde, müssen Sie die Freigabe des Formulars aufheben. Anweisungen finden Sie im Abschnitt [Entfernen des Zugriffs auf ein benutzerdefiniertes Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md#remove-access-to-a-custom-form) im Artikel [Freigeben eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md).
+
+
