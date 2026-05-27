@@ -2,19 +2,19 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: messaging-reviewers
-title: Erinnerungsnachricht an die validierungsverantwortlichen Personen senden
+title: Versand einer Erinnerungsnachricht an die für einen Korrekturabzug zuständigen prüfenden Personen
 description: Für PiW funktionieren
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 53abbd88-7915-4d74-9bda-d75c59663463
 source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 2%
+source-wordcount: '437'
+ht-degree: 7%
 
 ---
 
-# Erinnerungsnachricht an die validierungsverantwortlichen Personen senden
+# Versand einer Erinnerungsnachricht an die für einen Korrekturabzug zuständigen prüfenden Personen
 
 >[!IMPORTANT]
 >
@@ -50,7 +50,7 @@ Sie können eine Person auch an mehrere Korrekturabzüge erinnern, die für sie 
 
      Die Standardmeldung erinnert die Prüfer daran, dass sie zum Korrekturabzug hinzugefügt wurden, und enthält die Frist für den Korrekturabzug.
 
-   * Wenn Sie eine eigene benutzerdefinierte Nachricht erstellen möchten, geben Sie einen **[!UICONTROL Betreff]** und den **[!UICONTROL Nachricht] ein** klicken Sie dann auf **[!UICONTROL Senden].**&#x200B;Eine benutzerdefinierte Erinnerungs-E-Mail enthält dieselben Informationen wie die standardmäßige Erinnerungs-E-Mail, aber auch die benutzerdefinierte Betreffzeile und die benutzerdefinierte Nachricht im Textkörper der E-Mail.
+   * Wenn Sie eine eigene benutzerdefinierte Nachricht erstellen möchten, geben Sie einen **[!UICONTROL Betreff]** und die **[!UICONTROL Nachricht] ein** klicken Sie dann auf **[!UICONTROL Senden].**&#x200B;Eine benutzerdefinierte Erinnerungs-E-Mail enthält dieselben Informationen wie die standardmäßige Erinnerungs-E-Mail, sie enthält jedoch auch den benutzerdefinierten Betreff und die benutzerdefinierte Nachricht im Textkörper der E-Mail.
 
 ## Senden einer Nachricht an Validierungsverantwortliche in einem Stadium
 
@@ -65,4 +65,4 @@ Sie können eine Person auch an mehrere Korrekturabzüge erinnern, die für sie 
 
      Die Standardmeldung erinnert die Prüfer daran, dass sie zum Korrekturabzug hinzugefügt wurden, und enthält die Frist für den Korrekturabzug.
 
-   * Wenn Sie eine eigene benutzerdefinierte Nachricht erstellen möchten, geben Sie einen **[!UICONTROL Betreff]** und den **[!UICONTROL Nachricht] ein** klicken Sie dann auf **[!UICONTROL Senden].**&#x200B;Eine benutzerdefinierte Erinnerungs-E-Mail enthält dieselben Informationen wie die standardmäßige Erinnerungs-E-Mail, aber auch die benutzerdefinierte Betreffzeile und die benutzerdefinierte Nachricht im Textkörper der E-Mail.
+   * Wenn Sie eine eigene benutzerdefinierte Nachricht erstellen möchten, geben Sie einen **[!UICONTROL Betreff]** und die **[!UICONTROL Nachricht] ein** klicken Sie dann auf **[!UICONTROL Senden].**&#x200B;Eine benutzerdefinierte Erinnerungs-E-Mail enthält dieselben Informationen wie die standardmäßige Erinnerungs-E-Mail, sie enthält jedoch auch den benutzerdefinierten Betreff und die benutzerdefinierte Nachricht im Textkörper der E-Mail.

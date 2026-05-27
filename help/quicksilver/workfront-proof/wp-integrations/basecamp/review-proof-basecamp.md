@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 355e6bfe-ae6d-4bac-a648-0e48cf945bb4
 source-git-commit: a6c79166c50af5bfe4c0341d003052179ce78373
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
@@ -98,8 +98,8 @@ Das Korrekturabzugsbild hat weiterhin die Originalgröße, aber die Seite selbst
 
 Der ganzseitige Korrekturabzug zeigt Folgendes:
 
-* Die [!UICONTROL &#x200B; „Kommentare hinzufügen] und [!UICONTROL Entscheidung übermitteln] (anstelle der auf dem Miniproof angezeigten Kommentare und Entscheidungssymbole) (1).
+* Die [!UICONTROL  „Kommentare hinzufügen] und [!UICONTROL Entscheidung übermitteln] (anstelle der auf dem Miniproof angezeigten Kommentare und Entscheidungssymbole) (1).
 * Mehr Zoom- und Navigationswerkzeuge als der Miniproof (2).
-* Klicken [!UICONTROL &#x200B; oben links im Korrekturabzug auf [!DNL Basecamp]] Schaltfläche „Wechseln zu“. Wenn Sie darauf klicken, gelangen Sie zurück in Ihr [!DNL Basecamp] (3).
+* Klicken [!UICONTROL  oben links im Korrekturabzug auf [!DNL Basecamp]] Schaltfläche „Wechseln zu“. Wenn Sie darauf klicken, gelangen Sie zurück in Ihr [!DNL Basecamp] (3).
 
 ![ProofHQ_full_screen_view.png](assets/proofhq-full-screen-view-350x217.png)

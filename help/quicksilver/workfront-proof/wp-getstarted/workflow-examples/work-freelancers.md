@@ -10,7 +10,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 8a792e74-4755-4237-8155-d54bbcd97496
 source-git-commit: 3657ec7b3509f82c44b65ec39f909d336deaaba2
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '931'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Informationen zum Einrichten eines Satellitenkontos für Freiberufler finden Sie
 
 Diese Option ist nützlich, wenn Sie nicht möchten, dass sich Kunden und Freiberufler in [!DNL Workfront Proof] sehen. Sie können Ihren Freiberuflern Zugriff auf Ihre [!UICONTROL Dropzone] gewähren (nur für [!UICONTROL Enterprise] und [!UICONTROL Unlimited] Pläne). Weitere Informationen finden Sie unter [Der [!UICONTROL Ablagebereich]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md).
 
-![freelancers_-_option_C_-_dropzone.png](assets/freelancers_-_option_C_-_dropzone.png)
+![freelancers _-_ option_C_-_dropzone.png](assets/freelancers_-_option_C_-_dropzone.png)
 
 1. Der Freiberufler geht auf Ihre öffentliche Seite [!UICONTROL Dropzone].
 1. Sie verwenden den [!UICONTROL Ablagebereich], um einen neuen Korrekturabzug in Ihrem Konto zu erstellen.
@@ -75,6 +75,6 @@ Diese Option ist nützlich, wenn Sie nicht möchten, dass sich Kunden und Freibe
 1. Sie entsperren den Korrekturabzug, fügen Validierungsverantwortliche hinzu, legen die Einstellungen für den Korrekturabzug fest und verwalten den Workflow für Korrekturabzüge gemeinsam mit Ihren Kunden auf die übliche Weise. Ihr Freiberufler wird als Ersteller des Korrekturabzugs angezeigt (und kann nicht entfernt werden).
 
 * Sie können den Zugriff Ihrer Freiberufler auf den Testversand mit Ihren [!UICONTROL Dropzone]-Einstellungen verwalten. Weitere Informationen finden Sie unter [Konfigurieren des Ablagebereichs in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
-* Sie können auch die Rolle verwalten, die ihnen im Korrekturabzug zugewiesen wird, z[!UICONTROL &#x200B; B. „Schreibgeschützt] sowie E-Mail-Nachrichten mit ihnen in Bezug auf den Korrekturabzug. Weitere Informationen finden Sie unter [Verwalten von Korrekturabzugsrollen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+* Sie können auch die Rolle verwalten, die ihnen im Korrekturabzug zugewiesen wird, z[!UICONTROL  B. „Schreibgeschützt] sowie E-Mail-Nachrichten mit ihnen in Bezug auf den Korrekturabzug. Weitere Informationen finden Sie unter [Verwalten von Korrekturabzugsrollen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 * Wenn Sie möchten, dass Ihr Freiberufler nicht am Überprüfungsprozess teilnimmt, Sie aber möchten, dass er über die endgültige Entscheidung benachrichtigt wird, können Sie in Ihren [!UICONTROL Dropzone]-Einstellungen die Standardrolle für Korrekturabzüge festlegen und einen E-Mail-Warnhinweis für alle [!UICONTROL Dropzone]-Absender einrichten, sodass [Korrekturabzugsrollen verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) und [E-Mail-Benachrichtigungseinstellungen konfigurieren in [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md). Weitere Informationen finden Sie unter [E-Mail-Warnhinweise](https://support.workfront.com/hc/en-us/sections/115000911867-Email-alerts) [Rollen für Korrekturabzüge verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) und [E-Mail-Benachrichtigungseinstellungen konfigurieren in [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 * Wenn Sie möchten, dass Ihr Freiberufler aktiv am Überprüfungsprozess teilnimmt, können Sie die Rolle und die E-Mail-Warnhinweiseinstellung des Korrekturabzugs nach Bedarf anpassen, indem Sie diese Details auf der Seite mit den Korrekturabzugsdetails inline bearbeiten. Weitere Informationen zu dieser Seite finden Sie unter [Verwalten von Korrekturabzugsdetails in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)

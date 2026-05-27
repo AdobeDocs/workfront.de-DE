@@ -2,19 +2,19 @@
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: box
-title: Die Originaldatei eines Korrekturabzugs im Feld anzeigen
+title: Anzeigen der Originaldatei eines Korrekturabzugs in Box
 description: Erfahren Sie, wie Sie die Originaldatei eines Korrekturabzugs in Box anzeigen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c6da023c-4dbe-4770-82dc-3246568c01a2
 source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 0%
+source-wordcount: '146'
+ht-degree: 9%
 
 ---
 
-# Die Originaldatei eines Korrekturabzugs im Feld anzeigen
+# Anzeigen der Originaldatei eines Korrekturabzugs in Box
 
 >[!IMPORTANT]
 >

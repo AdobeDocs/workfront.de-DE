@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: bb4cfe03-d2c8-47f5-8c5c-de5218935ab5
 source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '597'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Auf der Seite [!UICONTROL Gruppen] haben Sie folgende Möglichkeiten:
 Sie können Gruppen nach Gruppennamen, Datenschutzstatus und Beschreibung sortieren.
 
 1. Klicken Sie auf die Spaltenüberschrift, nach der Sie sortieren möchten.
-oder
+ODER
 Wählen Sie im Menü Sortieren eine Sortieroption aus.
    ![Groups_page-sort_menu.png](assets/groups-page-sort-menu-350x80.png)
 Das Dreieck in einer Spaltenüberschrift gibt die Sortierreihenfolge an. Nach oben zeigt es eine aufsteigende Reihenfolge an, nach unten zeigt es eine absteigende Reihenfolge an.
@@ -70,13 +70,13 @@ Das Dreieck in einer Spaltenüberschrift gibt die Sortierreihenfolge an. Nach ob
    ![Group_page-filter_icon_and_options.png](assets/group-page-filter-icon-and-options-350x134.png)
 
 1. Wählen Sie [!UICONTROL Filteroptionen] aus den Dropdown-Menüs aus und geben Sie die Filterfelder ein, die unter den einzelnen Spaltenüberschriften angezeigt werden. Klicken Sie dann erneut auf das **[!UICONTROL Filter]**-Symbol, um die Optionen anzuwenden.
-Oder\
+ODER\
    Wählen Sie den ersten Buchstaben im Gruppennamen.
    ![Groups_page-filters_by_letter.png](assets/groups-page-filtering-by-letter-350x245.png)
 
 ## Anzeigen und Bearbeiten von Gruppendetails
 
-1. Klicken Sie auf **[!UICONTROL Mehr]** ganz rechts neben dem Gruppennamen und klicken Sie dann **[!UICONTROL Dropdown-Menü auf]**&#x200B;Gruppendetails anzeigen“.
+1. Klicken Sie auf **[!UICONTROL Mehr]** ganz rechts neben dem Gruppennamen und klicken Sie dann **[!UICONTROL Dropdown-Menü auf]**Gruppendetails anzeigen“.
 Auf der angezeigten Seite können Sie alle Personen anzeigen, die sich derzeit in der Gruppe befinden, zusammen mit ihren Standardrollen und E-Mail-Warnhinweisen für die Gruppe.
 
 1. Führen Sie einen der folgenden Schritte aus, um die Gruppendetails zu bearbeiten:

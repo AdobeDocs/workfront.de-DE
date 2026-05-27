@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: e2fc091a-4c06-40c5-9fb4-256239f09ffc
 source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '509'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Sie können Ihre Kollegen, Mitglieder und Gäste auf der Seite Kontakte verwalte
 
 1. Klicken Sie **[!UICONTROL der linken]** auf „Kontakte“.
 1. Klicken Sie auf die Spaltenüberschrift, nach der Sie sortieren möchten.
-oder
+ODER
 Wählen Sie eine Option aus dem **[!UICONTROL Sortieren]** Menü in der oberen rechten Ecke der Seite Kontakte .
 
 1. ![Contacts_page-Sort_menu.png](assets/contacts-page-sort-menu.png)
@@ -45,7 +45,7 @@ Wählen Sie eine Option aus dem **[!UICONTROL Sortieren]** Menü in der oberen r
 1. Wählen Sie [!UICONTROL Filteroptionen] aus den Dropdown-Menüs aus und geben Sie die Filterfelder ein, die unter den einzelnen Spaltenüberschriften angezeigt werden. Klicken Sie dann erneut auf das **[!UICONTROL Filter]**-Symbol, um die Optionen anzuwenden.
 1. ![Contacts_page-filtering_options.png](assets/contacts-page-filtering-options-350x205.png)
 
-1. Oder
+1. ODER
 1. Wählen Sie den ersten Buchstaben im Namen des gewünschten Kontakts.
 1. ![Contacts_page-filters_by_letter.png](assets/contacts-page-filtering-by-letter-350x238.png)
 
@@ -71,7 +71,7 @@ Das Löschen eines Kontakts bedeutet nicht, dass ein Benutzer aus Ihrem Konto en
 
    * Klicken Sie auf **[!UICONTROL Mehr]** am Ende der Zeile eines Kontakts und verwenden Sie eine der Optionen im angezeigten Dropdown-Menü.
 
-     Diese Optionen sind für verschiedene Kontakttypen unterschiedlich. Weitere [&#x200B; finden Sie unter „Grundlegendes zu Benutzern, Mitgliedern und Gästen in [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md) .
+     Diese Optionen sind für verschiedene Kontakttypen unterschiedlich. Weitere [ finden Sie unter „Grundlegendes zu Benutzern, Mitgliedern und Gästen in [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md) .
 
 ## Kontakte importieren
 

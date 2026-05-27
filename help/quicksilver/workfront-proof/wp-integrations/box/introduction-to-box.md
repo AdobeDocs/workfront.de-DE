@@ -10,7 +10,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 0050a478-30a9-4400-9854-9d6339114243
 source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Durch unsere Integration mit dem [!DNL Box] Online File Sharing und Content Mana
 
 Mit der Ordnersynchronisierungsfunktion können Sie einen [!DNL Box] Ordner mit einem Ordner in [!DNL Workfront Proof] synchronisieren. Wenn Sie eine Datei oder eine neue Version einer Datei einem synchronisierten Ordner in [!DNL Box] hinzufügen, wird die Datei auch dem zugehörigen Ordner in Workfront Proof hinzugefügt. Weitere Informationen finden Sie unter [Synchronisieren [!DNL Box] Ordner mit [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md).
 
-## Die wichtigsten Vorteile
+## Wesentliche Vorteile
 
 * **Verbesserung der gemeinsamen Überprüfung und Genehmigung:** Bieten Sie Ihrem Team umfangreiche Tools für Markup, Kommentare und Diskussionen, um die Zusammenarbeit bei Kreativ-Assets zu verbessern.
 * **Projektbereitstellung beschleunigen:** Beschleunigen Sie die Bereitstellung Ihrer Design-Projekte um 56 %, indem Sie den Überprüfungszyklus verkürzen und die Anzahl der Überarbeitungen reduzieren. Ein schnellerer Konsens und schnellere Entscheidungen führen zu einer schnelleren Projektbearbeitung und schnelleren Markteinführung. Designrevisionen werden um 29 % reduziert.
@@ -48,7 +48,7 @@ Bitte befolgen Sie die folgenden einfachen Schritte, um unsere App zu Ihrem Box-
 
 1. Rufen Sie in Ihrem [!DNL Box]-Konto den Abschnitt **[!UICONTROL Apps]** auf.
 1. Geben Sie in die Suchleiste **[!DNL Workfront Proof]Sync** ein.
-1. Klicken Sie in **Suchergebnissen auf**&#x200B;[!DNL Workfront Proof] Synchronisieren .
+1. Klicken Sie in ]**Suchergebnissen auf**[!UICONTROL [!DNL Workfront Proof] Synchronisieren .
 1. Klicken Sie **[!UICONTROL Hinzufügen]**, um die [!DNL Workfront Proof] Sync-App zu Ihrem Box-Konto hinzuzufügen.
 1. Klicken Sie im angezeigten Bestätigungsfeld auf **[!UICONTROL OK]**.
 

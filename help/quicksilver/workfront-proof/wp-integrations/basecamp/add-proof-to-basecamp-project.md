@@ -9,8 +9,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: fd62db43-bc45-4ede-b1ef-a198323793ca
 source-git-commit: a6c79166c50af5bfe4c0341d003052179ce78373
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 0%
+source-wordcount: '674'
+ht-degree: 2%
 
 ---
 
@@ -42,7 +42,7 @@ Nachdem Sie einen Korrekturabzug zu einem [!DNL Basecamp] Projekt hinzugefügt h
 1. Aktivieren **[!UICONTROL unter „Personen im Projekt]** die Kontrollkästchen der Reviewer in Ihrem [!DNL Basecamp] Classic-Konto, die Sie dem Korrekturabzug hinzufügen möchten.\
    Ausgewählte Prüfer erhalten eine Nachricht in [!DNL Basecamp] für diesen Korrekturabzug und eine E-Mail-Benachrichtigung von [!DNL Workfront Proof].
 
-1. Klicken Sie **[!UICONTROL OK]**.
+1. Klicken Sie auf **[!UICONTROL OK]**.
 1. Wenden Sie alle anderen Einstellungen an, die Sie für Ihren Korrekturabzug benötigen (wie üblich), und klicken Sie auf **[!UICONTROL Speichern]**, um den Korrekturabzug zu senden.
 
 >[!NOTE]
@@ -61,7 +61,7 @@ Nachdem Sie einen Korrekturabzug zu einem [!DNL Basecamp] Projekt hinzugefügt h
 1. Stellen Sie sicher **[!UICONTROL dass]** Korrekturabzugs-URL) und **[!UICONTROL Einbettungs-Code]** auf &quot;**[!UICONTROL &quot;]**.
 
 1. Klicken Sie **[!UICONTROL Testversand zu einem Basecamp-Projekt hinzufügen]**.
-1. Gehen Sie [!UICONTROL &#x200B; Feld „Zu Basecamp &#x200B;]&quot; wie folgt vor:
+1. Gehen Sie [!UICONTROL  Feld „Zu Basecamp ]&quot; wie folgt vor:
 
    1. Klicken Sie auf **[!UICONTROL Daten aktualisieren]** um mit Basecamp Classic zu synchronisieren, bevor Sie fortfahren.
    1. Wählen Sie Ihr Basecamp-Projekt aus.
@@ -69,7 +69,7 @@ Nachdem Sie einen Korrekturabzug zu einem [!DNL Basecamp] Projekt hinzugefügt h
    1. Reviewer werden in ihrer Standardrolle/in ihrem E-Mail-Warnhinweis angezeigt. Die ausgewählten Validierungsverantwortlichen erhalten eine Nachricht im Basecamp für diesen Korrekturabzug sowie eine E-Mail-Benachrichtigung von [!DNL Workfront Proof].
    1. Wenn die Reviewer-Standardeinstellungen geändert wurden, müssen Sie die Basecamp-Daten aktualisieren, bevor die neuen Standardeinstellungen verwendet werden. Um die Basecamp-Daten zu aktualisieren, klicken Sie auf den Link „Aktualisieren“ im Basecamp-Popup in Workfront Proof. Fügen Sie Ihren eigenen Namen ein, wenn Sie die Nachricht auch in Basecamp erhalten möchten
 
-1. Klicken Sie **[!UICONTROL OK]**.
+1. Klicken Sie auf **[!UICONTROL OK]**.
 
 Nachdem Sie den Korrekturabzug zu Ihrem [!DNL Basecamp Classic]-Projekt hinzugefügt haben, werden zusätzliche Optionen im Abschnitt [!UICONTROL Weitere Freigabeoptionen] der Seite mit den Korrekturabzugsdetails angezeigt (weitere Informationen zu dieser Seite finden Sie unter [Verwalten von Korrekturabzugsdetails in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md). Sie können:
 

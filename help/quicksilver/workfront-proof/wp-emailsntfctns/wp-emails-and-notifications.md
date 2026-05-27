@@ -12,11 +12,11 @@ exl-id: 028a1a01-40fa-4b09-912a-b9f522c49df9
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
 source-wordcount: '51'
-ht-degree: 0%
+ht-degree: 45%
 
 ---
 
-# Proof-Benachrichtigungen und -Erinnerungen
+# Benachrichtigungen und Erinnerungen für Korrekturabzüge
 
 >[!IMPORTANT]
 >
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
-* [Spam-Filter vermeiden](../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/avoid-spam-filters.md)
+* [Vermeiden von Spam-Filtern](../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/avoid-spam-filters.md)
 * [E-Mail-Warnungen](../../workfront-proof/wp-emailsntfctns/email-alerts/email-alerts.md)
-* [Senden von Nachrichten an Validierungsverantwortliche](../../workfront-proof/wp-emailsntfctns/messaging-reviewers/send-messages-to-reviewers.md)
-* [Proof-Benachrichtigungen und -Erinnerungen](../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-notifications-and-reminders.md)
+* [Versand von Nachrichten an prüfende Personen](../../workfront-proof/wp-emailsntfctns/messaging-reviewers/send-messages-to-reviewers.md)
+* [Benachrichtigungen und Erinnerungen für Korrekturabzüge](../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-notifications-and-reminders.md)
