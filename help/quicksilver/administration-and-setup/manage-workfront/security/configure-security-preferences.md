@@ -10,14 +10,16 @@ role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: ade3f6eef4252c123b41b7bbc4871cf01708f485
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 13%
+source-wordcount: '863'
+ht-degree: 12%
 
 ---
 
 # Systemvoreinstellungen konfigurieren
+
+{{preview-fast-release-general}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
@@ -127,7 +129,11 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
       <td role="rowheader">Arbeitsliste „Prioritäten“ aktivieren </td> 
       <td>Ermöglicht die Auswahl oder Deaktivierung der Liste „Prioritäten“ für die Benutzer. Die Benutzer sehen weiterhin die Prioritätssymbole in Workfront, haben jedoch keinen Zugriff auf die Funktion. Weitere Informationen zu Prioritäten finden Sie unter <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Erste Schritte mit Prioritäten</a>.</td> 
      </tr>
-      <tr> 
+     <tr>
+      <td><span class="preview">Erforderliche Felder in Massenbearbeitung immer erzwingen</span></td>
+      <td><span class="preview"><p>Hier können Sie auswählen, ob Benutzer bei der Massenbearbeitung von Objekten zur Eingabe von Informationen in erforderliche Felder gezwungen werden sollen.</p> <p>Wenn diese Option ausgewählt ist, müssen die erforderlichen Felder vor dem Speichern im Massenbearbeitungsmodus Werte aufweisen. Wenn im erforderlichen Feld ein Wert für mindestens ein Massenobjekt fehlt, ist das Speichern nicht zulässig.</p> <p>Wenn diese Option nicht ausgewählt ist, werden erforderliche Felder nur erzwungen, wenn ein Benutzer das Feld ändert. Wenn ein Feld nicht geändert wird, wird es als optional behandelt und nicht validiert.</p></span></td>
+     </tr>
+     <tr> 
       <td role="rowheader">Aktivieren von Adobe Cloud Storage </td> 
       <td>Ermöglicht die Aktivierung oder Deaktivierung der Adobe-Cloud-Datenspeicherung für das gesamte Unternehmen oder für bestimmte Gruppen. Weitere Informationen zu Adobe Cloud-Speicher finden Sie unter <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">Aktivieren von Adobe Cloud-Speicher für Ihr Unternehmen</a>.</td> 
      </tr>
@@ -141,7 +147,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
      </tr>
      <tr> 
       <td role="rowheader">Opt-in für KI-Betaversionen </td> 
-      <td>&gt;Hiermit können Sie die derzeit in Beta vorhandenen KI-Funktionen aktivieren. Wenn Sie diese Option aktivieren, können Sie auswählen, welche KI-Beta-Funktionen aktiviert werden sollen. Um weitere Informationen zu den einzelnen KI-Beta-Funktionen zu erhalten, klicken Sie auf das Informationssymbol neben dieser Funktion.</td> 
+      <td>Ermöglicht die Auswahl von KI-Funktionen, die sich derzeit in Beta befinden. Wenn Sie diese Option aktivieren, können Sie auswählen, welche KI-Beta-Funktionen aktiviert werden sollen. Um weitere Informationen zu den einzelnen KI-Beta-Funktionen zu erhalten, klicken Sie auf das Informationssymbol neben dieser Funktion.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Testumgebungen</td> 
