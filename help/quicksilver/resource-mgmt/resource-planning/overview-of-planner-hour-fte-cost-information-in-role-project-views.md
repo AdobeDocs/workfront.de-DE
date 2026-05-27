@@ -3,18 +3,18 @@ content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
 title: Übersicht über Stunden-, FTE- und Kosteninformationen in den Projekt- und Rollenansichten des Ressourcenplaners
-description: Übersicht über Stunden, FTE und Kosteninformationen in den Projekt- und Rollenansichten des Ressourcenplaners
+description: Überblick über Stunden, FTE und Kosteninformationen in den Projekt- und Rollenansichten des Ressourcenplaners
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
 source-git-commit: c9e77e11fafbf224639289977783e95ccb45a9e2
 workflow-type: tm+mt
-source-wordcount: '3086'
-ht-degree: 0%
+source-wordcount: '3089'
+ht-degree: 2%
 
 ---
 
-# Übersicht über Stunden, FTE und Kosteninformationen in den Projekt- und Rollenansichten des Ressourcenplaners
+# Überblick über Stunden, FTE und Kosteninformationen in den Projekt- und Rollenansichten des Ressourcenplaners
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this came from the budget-resources-project-role-views-resource-planner article)</p>
@@ -45,7 +45,7 @@ Beachten Sie bei der Budgetierung von Ressourcen mit dem Ressourcenplaner Folgen
   >[!NOTE]
   >
   >Es wird empfohlen, zuerst die Stunden, VZÄ oder Kosten für Aufgabengebiete oder für Benutzer manuell zu budgetieren. Sie können die automatischen Optionen verwenden, um die Zeit für Ihre Projekte und Ressourcen nur dann zu budgetieren, wenn Sie sicher sind, dass der Betrag der geplanten Stunden, VZÄ oder Kosten immer mit Ihren budgetierten Stunden, VZÄ oder Kosten übereinstimmen sollte.\
-  >Informationen zur Verwendung der automatischen Optionen für die Budgetierung im Ressourcenplaner finden Sie im Abschnitt „Projekt und Aufgabengebiete automatisch budgetieren“ im Artikel [Ressourcenverfügbarkeit und -zuordnung mit dem Adobe Workfront-Ressourcenplaner &#x200B;](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
+  >Informationen zur Verwendung der automatischen Optionen für die Budgetierung im Ressourcenplaner finden Sie im Abschnitt „Projekt und Aufgabengebiete automatisch budgetieren“ im Artikel [Ressourcenverfügbarkeit und -zuordnung mit dem Adobe Workfront-Ressourcenplaner ](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
 
 * Die Budgetierung von FTE oder Kosten ist identisch mit der Budgetierung von Stunden, bei der Adobe Workfront die FTE- und Kostenwerte anstelle von Stunden für die Ressourcen verwendet, die Sie budgetieren.
 
@@ -55,7 +55,7 @@ Beachten Sie bei der Budgetierung von Ressourcen mit dem Ressourcenplaner Folgen
 
    * Manuell
 
-     Oder
+     ODER
 
    * Automatisch durch Verwendung der Projekt- und Rollenoptionen in den Ansichten **Nach Projekt anzeigen** und **Nach Rolle anzeigen**.
 
@@ -111,7 +111,7 @@ In den folgenden Tabellen werden die Informationen zur Zuordnung und Verfügbark
    <td> <p>Die Gesamtzahl der Stunden, FTEs oder Kosten, für die alle Benutzenden des Projekts gemäß ihrem Zeitplan für den ausgewählten Zeitrahmen arbeiten können. </p> </td> 
   </tr> 
   <tr> 
-   <td>Funktion</td> 
+   <td>Rolle</td> 
    <td> <p>Die Gesamtzahl der Stunden, FTEs oder Kosten, für die alle mit dieser Funktion verknüpften Benutzer gemäß ihrem Zeitplan arbeiten können, und ihr <strong>Prozentsatz der FTE-Verfügbarkeit</strong> für diese spezifische Funktion, für den ausgewählten Zeitrahmen. </p> <p>Beachten Sie Folgendes: </p> 
     <ul> 
      <li>Wenn kein Benutzer einem Aufgabengebiet zugeordnet ist, dann ist der Wert für Verfügbare Stunden für das Aufgabengebiet Null. </li> 
@@ -157,7 +157,7 @@ In den folgenden Tabellen werden die Informationen zur Zuordnung und Verfügbark
 Durch manuelle Anpassungen der täglichen Benutzerzuteilungen kann sich der Wert für die geplante wöchentliche, monatliche oder vierteljährliche Stunde im Ressourcenplaner ändern. Mit dem Workload-Balancer können Sie die tägliche Benutzerzuweisung für Aufgaben und Probleme manuell anpassen. Weitere Informationen finden Sie unter <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Verwalten von Benutzerzuweisungen im Workload-Balancer</a>.</p> </td>
 </tr> 
   <tr> 
-   <td>Funktion</td> 
+   <td>Rolle</td> 
    <td> <p>Die Summe der geplanten Stunden aus allen Aufgaben, die der Funktion zugewiesen wurden, im ausgewählten Zeitrahmen. </p> <p>Im Abschnitt <strong>Keine </strong>" werden die geplanten Stunden angezeigt, die mit Aufgaben verknüpft sind, die entweder nicht zugewiesen oder Teams zugewiesen sind (deren Stunden im Abschnitt <strong>Kein Benutzer</strong> aufgelistet sind) oder Benutzern zugewiesen wurden, die keinem Aufgabengebiet zugeordnet sind. </p> </td> 
   </tr> 
   <tr> 
@@ -205,12 +205,12 @@ Beachten Sie beim Anzeigen der geplanten Stunden Folgendes:
    <td> <p>Ein manueller Eintrag, um zu schätzen, wie viele Stunden, VZÄ oder Kosten Sie für ein Projekt für einen ausgewählten Zeitrahmen budgetieren. </p> <p>In der Projektansicht werden die Stunden, die Sie für das Projekt budgetieren, an die unter dem Projekt aufgelisteten Aufgabengebiete verteilt. Die Anzahl der geplanten Stunden für jede Funktion bestimmt, wie die budgetierten Stunden auf die Funktionen verteilt werden. Die budgetierten Stunden werden an die Funktionen mit höheren Werten für „Geplante Stunden“ verteilt. </p> <p>In der Rollenansicht werden die Stunden, die Sie für das Projekt budgetieren, nicht auf die Rollen oder die Benutzer im Projekt verteilt. </p> </td> 
   </tr> 
   <tr> 
-   <td>Funktion</td> 
+   <td>Rolle</td> 
    <td> <p>Ein manueller Eintrag, um zu schätzen, wie viele Stunden Sie für eine Funktion für einen ausgewählten Zeitraum budgetieren. </p> <p>Wenn dem Aufgabengebiet kein Benutzer zugeordnet ist, können Sie die budgetierten Stunden für das Aufgabengebiet nicht schätzen. </p> <p>In der Rollenansicht werden die Stunden, die Sie für die Rolle budgetieren, an die Projekte verteilt, die unter der Rolle aufgeführt sind. Die Anzahl der geplanten Stunden für jedes Projekt bestimmt, wie die budgetierten Stunden auf die Projekte verteilt werden. Die budgetierten Stunden werden an die Projekte mit höheren Werten für „Geplante Stunden“ verteilt.</p> <p>In der Projektansicht werden die Stunden, die Sie für die Rolle budgetieren, nicht an die Projekte oder die mit der Rolle verbundenen Benutzer verteilt. </p> </td> 
   </tr> 
   <tr> 
    <td>Benutzerin oder Benutzer</td> 
-   <td> <p>Ein manueller Eintrag, um zu schätzen, wie viele Stunden Sie für einen Benutzer für einen ausgewählten Zeitraum budgetieren. </p> <p> <p><b>HINWEIS</b>   Sie können die budgetierten Stunden für Benutzer schätzen, die keinen Vorgängen zugeordnet sind, aber mit einem Ressourcenpool in einem Projekt verknüpft sind, da diese Benutzer auch im Ressourcenplaner angezeigt werden. Ihre geplanten Stunden sollten jedoch null sein, wenn sie keinen Aufgaben zugewiesen sind. </p> </p> </td> 
+   <td> <p>Ein manueller Eintrag, um zu schätzen, wie viele Stunden Sie für einen Benutzer für einen ausgewählten Zeitraum budgetieren. </p> <p> <p><b>HINWEIS</b> Sie können die budgetierten Stunden für Benutzer schätzen, die keinen Vorgängen zugewiesen sind, aber mit einem Ressourcenpool in einem Projekt verknüpft sind, da diese Benutzer auch im Ressourcenplaner angezeigt werden. Ihre geplanten Stunden sollten jedoch null sein, wenn sie keinen Aufgaben zugewiesen sind. </p> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -223,7 +223,7 @@ Beachten Sie beim Arbeiten mit budgetierten Stunden Folgendes:
 
 * Standardmäßig sind die budgetierten Stunden im Ressourcenplaner für alle Ressourcen und Projekte gleich null.
 * Sie können die budgetierten Stunden für Benutzer und Funktionen manuell schätzen oder einen der Links in den Menüs Projekt oder Aufgabengebiet **Mehr** verwenden, um sie entsprechend der Anzahl der geplanten Stunden zu aktualisieren.\
-  Weitere Informationen zu Projekt- und Rollenoptionen finden Sie im Abschnitt [Übersicht über Stunden, FTE und Kosteninformationen in den Projekt- und Rollenansichten des &#x200B;](#Budget) in diesem Artikel.
+  Weitere Informationen zu Projekt- und Rollenoptionen finden Sie im Abschnitt [Übersicht über Stunden, FTE und Kosteninformationen in den Projekt- und Rollenansichten des ](#Budget) in diesem Artikel.
 
 * Der kleinste Zeitraum, für den Sie Stunden, FTE oder Kosten budgetieren können, ist eine Woche. Sie können keine Stunden, FTE oder Kosten für einen Tag budgetieren.
 * Budgetierte Stunden werden für jede Ressource, die ihnen zugewiesen ist, innerhalb der Aufgabendauer gleichmäßig auf jeden Tag verteilt. Die Aufgabendauer basiert auf den geplanten Start- und Abschlussdaten der Aufgabe und umfasst jeden Kalendertag innerhalb dieses Zeitraums.
@@ -234,7 +234,7 @@ Beachten Sie beim Arbeiten mit budgetierten Stunden Folgendes:
 
 * Sie können einen Bericht zu budgetierten Stunden erstellen, indem Sie Budgetierte Stunde als Berichtobjekt für einen neuen Bericht auswählen.
 
-  Informationen dazu, über welche Objekte Sie in Workfront Berichte erstellen können, finden Sie im Abschnitt „Berichte zu Objekten“ im Artikel &quot;[&#x200B; von Objekten in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+  Informationen dazu, über welche Objekte Sie in Workfront Berichte erstellen können, finden Sie im Abschnitt „Berichte zu Objekten“ im Artikel &quot;[ von Objekten in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
   Informationen zum Erstellen eines Berichts zur budgetierten Stunde finden Sie im Artikel [Bericht: Budgetierte Stunde](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
 
@@ -259,7 +259,7 @@ Beachten Sie beim Arbeiten mit budgetierten Stunden Folgendes:
    <td> <p>Die Stunden-, VZÄ- oder Kostenabweichung gibt an, ob Sie über genügend budgetierte Stunden für das Projekt verfügen, um alle geplanten Stunden für das Projekt auszuführen. </p> <p>Die Projektstunde, der FTE oder die Kostenabweichung wird anhand der folgenden Formel berechnet:</p> <p><code>Project Hour, FTE, or Cost Variance = Project Budgeted Hours, FTE, or Cost - Project Planned Hours, FTE, or Cost</code> </p> </td> 
   </tr> 
   <tr> 
-   <td>Funktion</td> 
+   <td>Rolle</td> 
    <td> <p>Die Stunden-, VZÄ- oder Kostenabweichung gibt an, ob Sie über genügend budgetierte Stunden, VZÄ oder Kosten für die Funktion verfügen, um die ihr zugewiesenen geplanten Stunden auszuführen. </p> <p>Die Funktionsstunde, VZÄ oder Kostenabweichung wird anhand der folgenden Formel berechnet:</p> <p><code>Role Hour, FTE, or Cost Variance = Role Budgeted Hours, FTE, or Cost - Role Planned Hours, FTE, or Cost</code> </p> </td> 
   </tr> 
   <tr> 
@@ -301,7 +301,7 @@ Beachten Sie beim Arbeiten mit budgetierten Stunden Folgendes:
     </div> </td> 
   </tr> 
   <tr> 
-   <td>Funktion</td> 
+   <td>Rolle</td> 
    <td> 
     <div> 
      <p>Die Funktion Nettostunden, FTE oder Kosten kann eine der folgenden Eigenschaften aufweisen: </p> 

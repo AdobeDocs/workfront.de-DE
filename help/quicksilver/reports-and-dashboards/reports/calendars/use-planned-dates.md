@@ -10,12 +10,12 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '607'
 ht-degree: 16%
 
 ---
 
-# Verwenden [!UICONTROL &#x200B; „Geplante &#x200B;]&quot; in einem Kalenderbericht
+# Verwenden [!UICONTROL  „Geplante ]&quot; in einem Kalenderbericht
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span> 
@@ -68,7 +68,7 @@ Sie können festlegen, wie die Gruppe von Elementen in Ihrem Kalender angezeigt 
 {{step1-to-calendars}}
 
 1. Wählen Sie den Kalender aus, dem Sie eine neue Gruppe von Elementen hinzufügen möchten.
-oder
+ODER
 Klicken Sie auf **[!UICONTROL + Neuer Kalender]** und geben Sie den Kalendernamen ein.
 
    >[!NOTE]
@@ -127,7 +127,7 @@ Klicken Sie auf **[!UICONTROL + Neuer Kalender]** und geben Sie den Kalendername
 
 Nachdem Sie eingerichtet haben, wie Elemente angezeigt werden sollen, müssen Sie die Objekte, die im Kalender angezeigt werden sollen, zur Gruppierung hinzufügen.
 
-1. Im **[!UICONTROL Was möchten Sie dem Kalender hinzufügen?]** Sie den Abschnitt aus.
+1. Im **[!UICONTROL Was möchten Sie dem Kalender hinzufügen?]** auswählen
 
    * **[!UICONTROL Aufgaben]**
    * **[!UICONTROL Projekte]**

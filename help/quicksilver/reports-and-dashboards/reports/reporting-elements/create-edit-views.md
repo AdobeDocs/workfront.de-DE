@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '896'
 ht-degree: 9%
 
 ---
@@ -71,7 +71,7 @@ Sie können eine neue Standardansicht erstellen oder eine vorhandene Standardans
 1. Klicken Sie auf **Dropdown** Menü „Ansicht“ in einer Liste, in der Sie eine Ansicht erstellen oder anpassen möchten.
 
 1. Klicken Sie auf die Schaltfläche **+ Neue Ansicht**, um eine neue Ansicht zu erstellen.
-oder
+ODER
 Klicken Sie auf **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png), das beim Bewegen der Maus über rechts neben einer vorhandenen Ansicht angezeigt wird, die Sie bearbeiten möchten.
 Das **Ansicht anpassen** wird angezeigt.
 

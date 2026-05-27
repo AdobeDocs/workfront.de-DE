@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1593'
+source-wordcount: '1600'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Sie können die folgenden Bedingungsmodifikatoren in Filtern und Anweisungen zur
   <tr valign="top"> 
    <td> </td> 
    <td> <p><strong>Enthält</strong> </p> </td> 
-   <td> <p> Sucht den angegebenen <i> (unter Berücksichtigung </i> Groß-/Kleinschreibung) über die gesamte Textzeichenfolge.</p> <p>Die Verwendung von <code>contains Inf</code> erfasst beispielsweise alles, was <code>Inf</code> enthält, wie das Wort . <code>Infinity.</code></p> <p>Dieser Modifikator kann nur in Textmodusfiltern verwendet werden. Weitere Informationen zum Textmodus in Filtern finden Sie unter <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Bearbeiten eines Filters im Textmodus</a>.</p> </td> 
+   <td> <p> Sucht den angegebenen <i> (unter Berücksichtigung </i> Groß-/Kleinschreibung) über die gesamte Textzeichenfolge.</p> <p>Die Verwendung von <code>contains Inf</code> erfasst beispielsweise alles, was <code>Inf</code> enthält, wie das Wort . <code>Infinity.</code></p> <p>Dieser Modifikator kann nur in Filtern im Textmodus verwendet werden.Weitere Informationen zum Textmodus in Filtern finden Sie unter <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Bearbeiten eines Filters im Textmodus</a>.</p> </td> 
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>NotContains</strong> </p> </td> 

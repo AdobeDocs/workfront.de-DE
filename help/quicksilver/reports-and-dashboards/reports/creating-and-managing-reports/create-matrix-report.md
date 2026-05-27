@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1091'
 ht-degree: 4%
 
 ---
@@ -50,7 +50,7 @@ Andere Spalten (z. B. Status ) können jedoch weiterhin im Matrixbericht angezei
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
       <p>Standard</p>
-      <p>Plan</p>
+      <p>Abo</p>
    </td>
   </tr> 
   <tr> 
@@ -128,8 +128,9 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
      >   * Benutzerdefinierte Datenfelder für Zahlen- und Währungswerte aggregieren alle Aufgaben: Eltern, Kinder, Eltern von Eltern und eigenständige Aufgaben. Wenn Sie den Matrixbericht erstellt haben, um die geplanten Stunden oder tatsächlichen Stunden in der Spalte **Wert** anzuzeigen, beachten Sie, dass Stunden- oder Kosteninformationen für alle übergeordneten Objekte (z. B. übergeordnete Aufgaben) nicht im Matrixbericht angezeigt werden. Um Stunden für übergeordnete Objekte anzuzeigen, müssen Sie die Registerkarte **Details** anzeigen.
      >   
      >   
-     >**Bedingte Regeln:** Richten Sie Formatierungsregeln für aggregierte Werte ein.\
+     >
 
+   **Bedingte Regeln:** Richten Sie Formatierungsregeln für aggregierte Werte ein.\
    Nachdem Sie eine Regel hinzugefügt haben, können Sie Feld- und Textstile dafür definieren, wie Felder, die dieser Regel entsprechen, angezeigt werden. Klicken Sie **Regel hinzufügen** nachdem Sie die Regel definiert haben, und klicken Sie dann auf **Fertig**, um die Regel zu speichern.
 
 1. Klicken Sie auf **Filter**, um festzulegen, welche Informationen im Bericht angezeigt werden.
