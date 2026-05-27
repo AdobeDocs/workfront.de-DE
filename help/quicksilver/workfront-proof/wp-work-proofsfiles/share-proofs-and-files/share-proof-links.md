@@ -26,7 +26,7 @@ Personen, die nicht zum Korrekturabzug hinzugefügt wurden und ihn über die Kor
 
 Die Option zum Anmelden ist jedoch verfügbar. Wenn also ein Empfänger bereits zum Korrekturabzug hinzugefügt wurde, kann er einfach seine Details eingeben und dann Kommentare/Entscheidungen treffen (je nach vorhandener Rolle).
 
-Wenn die Abonnementeinstellung für den Korrekturabzug aktiviert ist, kann jeder Empfänger, der nicht hinzugefügt wurde, den Korrekturabzug abonnieren (hinzufügen). Weitere Informationen [ Sie unter „Abonnieren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) Korrekturabzugs“.
+Wenn die Abonnementeinstellung für den Korrekturabzug aktiviert ist, kann jeder Empfänger, der nicht hinzugefügt wurde, den Korrekturabzug abonnieren (hinzufügen). Weitere Informationen [&#x200B; Sie unter „Abonnieren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) Korrekturabzugs“.
 
 >[!NOTE]
 >

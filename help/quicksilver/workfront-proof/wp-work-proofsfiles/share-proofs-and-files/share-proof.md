@@ -32,7 +32,7 @@ Wenn Sie einen Korrekturabzug freigeben, indem Sie Validierungsverantwortliche h
 
 >[!NOTE]
 >
->* Wenn Sie jemanden zu einem Korrekturabzug hinzufügen, entscheiden Sie, ob Sie möchten, dass er über den Korrekturabzug benachrichtigt wird oder nicht. Weitere Informationen finden [ unter ](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md) Korrekturabzugs-E-Mail .
+>* Wenn Sie jemanden zu einem Korrekturabzug hinzufügen, entscheiden Sie, ob Sie möchten, dass er über den Korrekturabzug benachrichtigt wird oder nicht. Weitere Informationen finden [&#x200B; unter &#x200B;](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md) Korrekturabzugs-E-Mail .
 >* Sie können jeden zu einem Korrekturabzug hinzufügen (sofern er über eine gültige E-Mail-Adresse verfügt). Sie müssen kein [!DNL Workfront Proof] Konto haben!
 >* Reviewer werden nicht auf Ihr Benutzerlimit angerechnet. Sie können kostenlos so viele Personen wie gewünscht zu einem Korrekturabzug hinzufügen.
 >
@@ -57,7 +57,7 @@ Sie können Reviewer zu einem Korrekturabzug hinzufügen, wenn Sie einen neuen K
    ![Menü „Mehr“](assets/more-button-small.png)
 
 1. Klicken **[!UICONTROL im Dropdown]** Menü auf „Freigeben“.
-1. Fügen Sie auf der ]**&quot;**[!UICONTROL  Version freigeben“ Validierungsverantwortliche hinzu, indem Sie deren E-Mail-Adressen hinzufügen.\
+1. Fügen Sie auf der **&quot;** Version freigeben“ Validierungsverantwortliche hinzu, indem Sie deren E-Mail-Adressen hinzufügen.\
    Sie können auch einen der folgenden Schritte ausführen:
 
    * Entfernen Sie alle Reviewer mit einem Klick (4).
