@@ -2,7 +2,7 @@
 content-type: reference
 product-area: projects
 navigation-topic: get-started-with-workfront
-title: 'Arbeitselemente aktualisieren und Aktualisierungen anzeigen: Artikelindex'
+title: 'Aktualisieren von Arbeitselementen und Anzeigen von Aktualisierungen: Artikelindex'
 description: Sie können den Abschnitt „Aktualisierungen“ der meisten Objekte verwenden, um Kommentare und Antworten hinzuzufügen oder um vom System verfolgte Aktualisierungen zu Änderungen zu verfolgen, die am Objekt vorgenommen werden.
 author: Alina
 feature: Get Started with Workfront
@@ -10,12 +10,12 @@ recommendations: noDisplay, noCatalog
 exl-id: ef3440fd-92b7-4760-9f53-1b0e736d3a0f
 source-git-commit: 11e7a376719e52db3f5e98afff44cb4b4d07db01
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 0%
+source-wordcount: '117'
+ht-degree: 29%
 
 ---
 
-# Arbeitselemente aktualisieren und Aktualisierungen anzeigen: Artikelindex
+# Aktualisieren von Arbeitselementen und Anzeigen von Aktualisierungen: Artikelindex
 
 <!-- Audited: 02/2024 -->
 
@@ -30,6 +30,6 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Antworten auf E-Mail-Benachrichtigungen](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md)
 * [Andere bei Aktualisierungen taggen](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
 * [Alle Aktualisierungen in einem Notizbericht anzeigen](../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
-* [Bearbeiten und Übersicht über die Schaltfläche „Fertig“](../../workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
+* [Überblick über die Schaltflächen „Bearbeiten“ und „Fertig“](../../workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
 * [Zusammenfassen von Aktualisierungen mit dem KI-Assistenten](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/summarize-updates-ai-assistant.md)
 

@@ -1,19 +1,19 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 'Benachrichtigungen: Informationen zu Projekten, an denen ich mitwirke'
+title: 'Benachrichtigungen: Informationen über Projekte, an denen ich mitwirke'
 description: Die folgenden Benachrichtigungen informieren Sie über Aktivitäten in Projekten, an denen Sie arbeiten.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c4cf84eb-8911-4bff-a548-7f0e6d8aa7b5
 source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
-source-wordcount: '1586'
-ht-degree: 0%
+source-wordcount: '1516'
+ht-degree: 1%
 
 ---
 
-# Benachrichtigungen: Informationen zu Projekten, an denen ich mitwirke
+# Benachrichtigungen: Informationen über Projekte, an denen ich mitwirke
 
 Die folgenden Benachrichtigungen informieren Sie über Aktivitäten in Projekten, an denen Sie arbeiten.
 
@@ -35,7 +35,7 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
  <tbody> 
   <tr> 
    <td> <p><strong>Einem Projekt, an dem ich mitarbeite, wurde ein Dokument hinzugefügt</strong> </p> <p>Mitglieder eines Projekt-Teams erhalten eine E-Mail-Benachrichtigung, wenn ein Dokument zum Projekt hinzugefügt wird, mit Ausnahme des Benutzers, der das Dokument hinzugefügt hat.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus [!UICONTROL Aktuell] und das Dokument nicht Privat ist.</p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail ist <em>[!UICONTROL Dokument hinzugefügt zu] &lt;Projektname&gt;</em></p> <p>Der Betreff der täglichen Digest-Benachrichtigung ist <em>[!UICONTROL Digest of Projects You're On] &lt;Date of daily Digest&gt;</em></p> </td> 
-   <td> Projektname<br>Portfolio-Name<br>Dokument-Referenznummer<br>Name des Benutzers, der das Dokument hinzugefügt hat<br>Dokumentname<br>Am Datum hinzugefügt<br>Dokumentdetails (Format, Größe, Versionsnummer)<br>Dokumentminiatur<br><strong>[!UICONTROL -Vorschau]</strong> und <strong>[!UICONTROL -Download]</strong> Schaltflächen<br>*Projektname<br>*Projekt-Referenznummer<br>*Gesamtzahl der hinzugefügten Dokumente<br>*Dokumentname<br>*Name des Benutzers, der das Dokument hochgeladen hat<br>*Datum der täglichen Zusammenfassung </td> 
+   <td> Projektname<br>Portfolio-Name<br>Dokument-Referenznummer<br>Name des Benutzers, der das Dokument hinzugefügt hat<br>Dokumentname<br>Am Datum hinzugefügt<br>Dokumentdetails (Format, Größe, Versionsnummer)<br>Dokumentminiatur<br><strong>[!UICONTROL-Vorschau]</strong> und <strong>[!UICONTROL-Download]</strong> Schaltflächen<br>*Projektname<br>*Projekt-Referenznummer<br>*Gesamtzahl der hinzugefügten Dokumente<br>*Dokumentname<br>*Name des Benutzers, der das Dokument hochgeladen hat<br>*Datum der täglichen Zusammenfassung </td> 
    <td><strong>Täglich</strong> </td> 
   </tr> 
   <tr> 

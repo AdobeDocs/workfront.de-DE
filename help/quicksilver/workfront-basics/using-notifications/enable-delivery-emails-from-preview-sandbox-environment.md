@@ -1,18 +1,18 @@
 ---
 navigation-topic: notifications
-title: E-Mail-Versand über die Sandbox-Vorschau-Umgebung aktivieren
+title: Aktivieren der E-Mail-Zustellung in der Sandbox-Umgebung in der Vorschau
 description: Wenn Sie E-Mail-Benachrichtigungen von der Sandbox-Vorschau-Umgebung erhalten möchten, müssen Sie diese Funktion in Ihren Benutzereinstellungen aktivieren, während Sie bei der Vorschau angemeldet sind.
 author: Courtney, Becky
 feature: Get Started with Workfront
 exl-id: e5c7e387-d08d-42f6-a9e6-f44e514ef902
 source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 1%
+source-wordcount: '466'
+ht-degree: 10%
 
 ---
 
-# E-Mail-Versand über die Sandbox-Vorschau-Umgebung aktivieren
+# Aktivieren der E-Mail-Zustellung in der Sandbox-Umgebung in der Vorschau
 
 [!UICONTROL Adobe Workfront] Deaktiviert die gesamte E-Mail-Kommunikation in der Vorschau- und der benutzerdefinierten Sandbox-Aktualisierungsumgebung. Weitere Informationen zur Sandbox-Vorschau-Umgebung finden Sie unter [Die Sandbox-Vorschau-Umgebung von Adobe Workfront](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md). Informationen zur benutzerdefinierten Sandbox-Aktualisierungsumgebung finden Sie unter [Die benutzerdefinierte Sandbox-Aktualisierungsumgebung von Adobe Workfront](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).
 
@@ -33,7 +33,7 @@ Sie können dies für sich selbst oder für einen beliebigen Benutzer tun, auf d
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,7 +49,7 @@ Sie können dies für sich selbst oder für einen beliebigen Benutzer tun, auf d
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz</strong></td> 
    <td> 
    <p>Mitwirkender oder höher zum Ändern der eigenen Einstellung</p> <p>Standard, um die Einstellung für andere Benutzer zu bearbeiten</p> 
-   Oder
+   ODER
    <p> Fordern Sie oder höher an, Ihre eigene Einstellung zu ändern</p> <p>Bearbeiten der Einstellung für andere Benutzer</p> </td> 
   </tr> 
   <tr> 
@@ -65,7 +65,7 @@ Sie können dies für sich selbst oder für einen beliebigen Benutzer tun, auf d
 </table>
 
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -74,11 +74,11 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 1. Melden Sie sich bei Ihrer Sandbox-Vorschau-Umgebung an.
 1. Klicken Sie auf Ihr Profilbild in der oberen rechten Ecke von [!DNL Adobe Workfront]. Klicken Sie anschließend auf das Menü **[!UICONTROL Mehr]** und wählen Sie **[!UICONTROL Bearbeiten]** aus.
 
-   Oder
+   ODER
 
    Suchen Sie nach einem Benutzer in [!DNL Workfront] und klicken Sie auf seinen Namen. Klicken Sie anschließend auf das Menü **[!UICONTROL Mehr]** und wählen Sie **[!UICONTROL Bearbeiten]** aus.
 
-   Oder
+   ODER
 
    Für mehrere Benutzer: Klicken Sie auf **[!UICONTROL Hauptmenü]** Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der rechten oberen Ecke von Workfront und dann auf **[!UICONTROL Benutzer]** ![Benutzersymbol](assets/users-icon-in-main-menu.png).  Wählen Sie dann mehrere Benutzer aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
 

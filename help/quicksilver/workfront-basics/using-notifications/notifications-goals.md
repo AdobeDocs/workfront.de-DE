@@ -52,13 +52,13 @@ Sie können Ihre E-Mail-Benachrichtigungen für Ereignisse aktivieren, die in [!
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
 ## Voraussetzungen
 
-* Der Benutzer, dessen [!DNL Goals] Benachrichtigungen Sie aktualisieren möchten, muss über eine Layout-Vorlage verfügen, die den [!DNL Goals] Bereich im [!UICONTROL Hauptmenü“ &#x200B;].
+* Der Benutzer, dessen [!DNL Goals] Benachrichtigungen Sie aktualisieren möchten, muss über eine Layout-Vorlage verfügen, die den [!DNL Goals] Bereich im [!UICONTROL Hauptmenü“ ].
 
 
 ## [!DNL Goals]-Benachrichtigungen im [!UICONTROL Benutzerprofil] Bereich

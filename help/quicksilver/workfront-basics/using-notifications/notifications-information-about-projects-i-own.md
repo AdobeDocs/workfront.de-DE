@@ -1,19 +1,19 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 'Benachrichtigungen: Informationen zu Projekten in meinem Besitz'
+title: 'Benachrichtigungen: Informationen über Projekte in meinem Besitz'
 description: Die folgenden Benachrichtigungen informieren Sie über Aktivitäten, die in einem von Ihnen verwalteten Projekt stattfinden. Informationen zum Konfigurieren der empfangenen Benachrichtigungen finden Sie unter Ändern Ihrer eigenen E-Mail-Benachrichtigungen .
 author: Courtney
 feature: Get Started with Workfront
 exl-id: cf605849-bcc0-4982-b8fa-f69eef7a4fb6
 source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
-source-wordcount: '1709'
-ht-degree: 1%
+source-wordcount: '1636'
+ht-degree: 2%
 
 ---
 
-# Benachrichtigungen: Informationen zu Projekten in meinem Besitz
+# Benachrichtigungen: Informationen über Projekte in meinem Besitz
 
 Die folgenden Benachrichtigungen informieren Sie über Aktivitäten, die in einem von Ihnen verwalteten Projekt stattfinden. Informationen zum Konfigurieren der empfangenen Benachrichtigungen finden Sie unter [Ändern eigener E-Mail-Benachrichtigungen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
@@ -33,7 +33,7 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
  <tbody> 
   <tr> 
    <td> <p><strong>Ein Dokument wird einem Projekt in meinem Besitz hinzugefügt</strong> </p> <p>Der Projektbesitzer erhält eine E-Mail-Benachrichtigung, wenn ein Dokument zum Projekt hinzugefügt wird, es sei denn, der Benutzer, der das Dokument hinzugefügt hat, ist auch der Projektbesitzer.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus [!UICONTROL Aktuell] und das Dokument nicht Privat ist.</p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail ist: <em>[!UICONTROL Dokument hinzugefügt zu] &lt;Projektname&gt;</em></p> <p> Der Betreff der täglichen Digest-Benachrichtigung ist: <em> [!UICONTROL Digest of Projects You Own] &lt;Date of Daily Digest&gt; </em></p> </td> 
-   <td> Projektname<br>Portfolio-Name<br>Projekt-Referenznummer<br>Name des Benutzers, der das Dokument hinzugefügt hat<br>Dokumentname<br>Am Datum hinzugefügt<br>Dokumentdetails (Format, Größe, Versionsnummer)<br><strong>[!UICONTROL -Vorschau]</strong> und <strong>[!UICONTROL -Download]</strong> Schaltflächen<br>*Projektname<br>*Projekt-Referenznummer<br>*Gesamtzahl der hinzugefügten Dokumente<br>*Dokumentname<br>*Name des Benutzers, der das Dokument hinzugefügt hat<br>*Datum der täglichen Zusammenfassung<br></td> 
+   <td> Projektname<br>Portfolio-Name<br>Projekt-Referenznummer<br>Name des Benutzers, der das Dokument hinzugefügt hat<br>Dokumentname<br>Am Datum hinzugefügt<br>Dokumentdetails (Format, Größe, Versionsnummer)<br><strong>[!UICONTROL-Vorschau]</strong> und <strong>[!UICONTROL-Download]</strong> Schaltflächen<br>*Projektname<br>*Projekt-Referenznummer<br>*Gesamtzahl der hinzugefügten Dokumente<br>*Dokumentname<br>*Name des Benutzers, der das Dokument hinzugefügt hat<br>*Datum der täglichen Zusammenfassung<br></td> 
    <td><strong>Täglich</strong> </td> 
   </tr> 
   <tr> 

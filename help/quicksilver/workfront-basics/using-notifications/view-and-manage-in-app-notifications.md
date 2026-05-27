@@ -1,18 +1,18 @@
 ---
 navigation-topic: notifications
-title: In-App-Benachrichtigungen anzeigen und verwalten
+title: Anzeigen und Verwalten von In-App-Benachrichtigungen
 description: 'In-App-Benachrichtigungen halten Sie über zwei Arten von Informationen auf dem Laufenden: Ankündigungsbenachrichtigungen und Arbeitsaufgabenbenachrichtigungen. Sie sind sowohl in der Web-Anwendung als auch in der Mobile App verfügbar.'
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6
 source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 1%
+source-wordcount: '986'
+ht-degree: 4%
 
 ---
 
-# In-App-Benachrichtigungen anzeigen und verwalten
+# Anzeigen und Verwalten von In-App-Benachrichtigungen
 
 In-App-Benachrichtigungen halten Sie über zwei Arten von Informationen auf dem Laufenden: Ankündigungsbenachrichtigungen und Arbeitsaufgabenbenachrichtigungen. Sie sind sowohl in der Web-Anwendung als auch in der Mobile App verfügbar.
 
@@ -28,7 +28,7 @@ Eine Liste der Arbeitselemente und Ankündigungsbenachrichtigungen, die Sie erha
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,8 +43,8 @@ Eine Liste der Arbeitselemente und Ankündigungsbenachrichtigungen, die Sie erha
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz</strong></td> 
    <td> 
-   <p>Mitwirkender oder höher</p>
-   <p>Anfrage oder höher</p> </td> 
+   <p>Mitwirkende oder höher</p>
+   <p>Anfragende oder höher</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -104,7 +104,7 @@ Das Symbol rechts neben dem blauen Punkt zeigt eine der folgenden Optionen an:
 
 Nachdem Sie Benachrichtigungen angezeigt haben, können Sie sie bestätigen, um sie aus der Liste [!UICONTROL Benachrichtigungen] zu löschen oder sie später beantworten zu lassen.
 
-Auf der [!UICONTROL Benachrichtigungen] können Sie aktuelle und gelöschte Benachrichtigungen anzeigen. Sie können gelöschte Benachrichtigungen auch wieder in die Liste [!UICONTROL Benachrichtigungen“ &#x200B;].
+Auf der [!UICONTROL Benachrichtigungen] können Sie aktuelle und gelöschte Benachrichtigungen anzeigen. Sie können gelöschte Benachrichtigungen auch wieder in die Liste [!UICONTROL Benachrichtigungen“ ].
 
 * [Benachrichtigungen bestätigen](#acknowledge-notifications)
 * [Bestätigte Benachrichtigungen anzeigen](#view-acknowledged-notifications)

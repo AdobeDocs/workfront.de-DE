@@ -12,7 +12,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '710'
 ht-degree: 4%
 
 ---
@@ -89,7 +89,7 @@ In diesem Artikel wird beschrieben, wie Sie auf Kommentare von den meisten Objek
  </tbody> 
    </table>
 
-Weitere Informationen finden Sie in [&#x200B; Dokumentation zu Zugriffsanforderungen für Workfront &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie in [ Dokumentation zu Zugriffsanforderungen für Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

@@ -1,19 +1,19 @@
 ---
 content-type: overview;reference
 navigation-topic: notifications
-title: Benachrichtigungen - Übersicht
+title: Überblick über Benachrichtigungen
 description: Adobe Workfront sendet E-Mail-Benachrichtigungen, In-App-Benachrichtigungen und Benachrichtigungen auf Ihrem Mobilgerät.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
 source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
-source-wordcount: '1395'
-ht-degree: 1%
+source-wordcount: '1398'
+ht-degree: 2%
 
 ---
 
-# Benachrichtigungen - Übersicht
+# Überblick über Benachrichtigungen
 
 <!--Audited: 12/2023-->
 
@@ -89,7 +89,7 @@ Es gibt mehrere Dinge, die Sie beachten sollten, wenn Sie tägliche Digest-Benac
 
 Die Benachrichtigungen in der Kategorie [!UICONTROL Kommunikation] warnen Sie vor Kommentaren, die im [!UICONTROL Update]-Stream eines bestimmten Elements veröffentlicht wurden.
 
-Für alle verfügbaren Benachrichtigungen werden tägliche Digest[!UICONTROL E-Mails für die &#x200B;] „Kommunikation“ ausgewählt.
+Für alle verfügbaren Benachrichtigungen werden tägliche Digest[!UICONTROL E-Mails für die ] „Kommunikation“ ausgewählt.
 
 Die Informationen werden für das Objekt zusammengefasst, in dem die Kommunikation stattgefunden hat, und für jedes Objekt wird eine Gesamtzahl von Kommunikationsnachrichten angezeigt.
 
@@ -130,7 +130,7 @@ Informationen zum Aktivieren automatischer Erinnerungen finden Sie unter [Einric
 
 ### Erinnerungsbenachrichtigungen
 
-Ein [!DNL Workfront] (oder ein Benutzer mit [!UICONTROL &#x200B; Zugriffsebene „Planer] und administrativem Zugriff auf Erinnerungsbenachrichtigungen) kann Erinnerungsbenachrichtigungen über bald ablaufende Fristen entwerfen und manuell mit Projekten, Aufgaben, Problemen und Arbeitszeittabellen verknüpfen.
+Ein [!DNL Workfront] (oder ein Benutzer mit [!UICONTROL  Zugriffsebene „Planer] und administrativem Zugriff auf Erinnerungsbenachrichtigungen) kann Erinnerungsbenachrichtigungen über bald ablaufende Fristen entwerfen und manuell mit Projekten, Aufgaben, Problemen und Arbeitszeittabellen verknüpfen.
 
 >[!IMPORTANT]
 >

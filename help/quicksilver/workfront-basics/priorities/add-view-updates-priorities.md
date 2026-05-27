@@ -8,8 +8,8 @@ recommendations: noDisplay, noCatalog
 exl-id: a7237746-0a18-408b-b932-8a608fd72eee
 source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 0%
+source-wordcount: '533'
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ Mit Priorität werden die Ihnen zugewiesenen Arbeitselemente angezeigt. Sie kön
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 

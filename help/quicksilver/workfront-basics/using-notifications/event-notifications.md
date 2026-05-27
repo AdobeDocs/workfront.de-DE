@@ -1,19 +1,19 @@
 ---
 content-type: overview
 navigation-topic: notifications
-title: Ereignisbenachrichtigungen
+title: Ereignis-Benachrichtigungen
 description: Ereignisbenachrichtigungen sind E-Mails, die von verschiedenen Ereignistypen für Objekte wie Projekte, Aufgaben oder Probleme ausgelöst werden. Sie werden gesendet, wenn im Projekt etwas passiert, von dem andere wissen müssen. Je nach Ereignis erhalten Benutzer sofortige, tägliche oder sowohl sofortige als auch tägliche E-Mail-Benachrichtigungen darüber.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 09b70427-691d-437a-b9d2-86f78bd4d6a2
 source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
-# Ereignisbenachrichtigungen
+# Ereignis-Benachrichtigungen
 
 <!-- Audited: 4/2025 -->
 

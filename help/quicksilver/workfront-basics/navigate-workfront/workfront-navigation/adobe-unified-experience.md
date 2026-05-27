@@ -70,7 +70,7 @@ Informationen zur Benutzerverwaltung in der Adobe Admin Console finden Sie im Ar
 
 ## Zugriff auf [!DNL Workfront]
 
-Sobald Sie bei [!DNL Adobe CX Enterprise] angemeldet sind, können Sie alle [!DNL Workfront] Organisationen und Umgebungen anzeigen, auf die Sie Zugriff haben, indem Sie auf den Organisationswechsel im oberen Navigationsbereich klicken. Wählen Sie die [!DNL Workfront] Organisation oder Umgebung aus, in der Sie arbeiten möchten. Umgebungen können [!UICONTROL Vorschau] und [!UICONTROL Sandbox) &#x200B;], wenn Ihr Unternehmen sie verwendet.
+Sobald Sie bei [!DNL Adobe CX Enterprise] angemeldet sind, können Sie alle [!DNL Workfront] Organisationen und Umgebungen anzeigen, auf die Sie Zugriff haben, indem Sie auf den Organisationswechsel im oberen Navigationsbereich klicken. Wählen Sie die [!DNL Workfront] Organisation oder Umgebung aus, in der Sie arbeiten möchten. Umgebungen können [!UICONTROL Vorschau] und [!UICONTROL Sandbox) ], wenn Ihr Unternehmen sie verwendet.
 
 ![Anzeigen [!DNL Workfront] Organisationen und Umgebungen](assets/wf-org-instance-switcher-2026.png)
 
@@ -78,7 +78,7 @@ Sobald Sie bei [!DNL Adobe CX Enterprise] angemeldet sind, können Sie alle [!DN
 >
 >Bei der ersten Anmeldung bei [!DNL Adobe CX Enterprise] wird für die Organisation standardmäßig die erste Instanz in der alphabetischen Liste verwendet. Bei der nächsten Anmeldung wird für die Organisation standardmäßig das zuletzt besuchte verwendet.
 
-[!DNL Workfront] wird in der Liste der [!DNL Adobe CX Enterprise] Produkte angezeigt, auf die Sie Zugriff haben. Sie können [!DNL Workfront] im Schnellzugriffsmenü auf der [!DNL CX Enterprise]-Startseite auswählen oder den Produktumschalter (![) &#x200B;](assets/main-menu-icon.png), um die Anwendungen jederzeit zu wechseln.
+[!DNL Workfront] wird in der Liste der [!DNL Adobe CX Enterprise] Produkte angezeigt, auf die Sie Zugriff haben. Sie können [!DNL Workfront] im Schnellzugriffsmenü auf der [!DNL CX Enterprise]-Startseite auswählen oder den Produktumschalter (![) ](assets/main-menu-icon.png), um die Anwendungen jederzeit zu wechseln.
 
 ![Wählen Sie [!DNL Workfront] aus, um auf die Anwendung zuzugreifen](assets/cx-enterprise-home-2026.png)
 
@@ -121,7 +121,7 @@ Wenn Ihr Unternehmen eine separate Anwendung zum Verwalten von Kennwörtern verw
 
 Wenn Ihr Kennwort von [!DNL Adobe] verwaltet wird, können Sie das Kennwort in Ihrem Adobe-Konto ändern.
 
-[In diesem Artikel erfahren Sie, wie Sie Ihr Adobe-Kennwort ändern.](https://helpx.adobe.com/de/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
+[In diesem Artikel erfahren Sie, wie Sie Ihr Adobe-Kennwort ändern.](https://helpx.adobe.com/account/individual/sign-in-and-security/security-and-recovery/reset-adobe-password.html){target="_blank"}
 
 Wenden Sie sich an Ihren Administrator, um weitere Informationen zum Ändern Ihres Kennworts zu erhalten.
 
