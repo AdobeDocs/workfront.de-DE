@@ -9,8 +9,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 1a3dbf0e-ec5b-4bd0-9eee-c1d613a67f53
 source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 0%
+source-wordcount: '508'
+ht-degree: 3%
 
 ---
 
@@ -41,7 +41,7 @@ Als Prüferin bzw. Prüfer können Sie mehrere Korrekturabzüge in einem Ordner 
 
 1. Klicken Sie in [!DNL Workfront Proof] auf den Namen des Ordners, um ihn zu öffnen, und öffnen Sie dann einen Korrekturabzug im Ordner, um die Korrekturabzugsansicht zu starten.
 
-   Oder
+   ODER
 
    Öffnen Sie einen Korrekturabzug über eine öffentliche URL oder eine E-Mail-Benachrichtigung und melden Sie sich beim System nach Bedarf an.
 

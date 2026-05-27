@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 1d0ad905-f3fb-471a-8766-096b978cdf4e
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '688'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Den Fortschritt Ihrer automatisierten Workflow-Korrekturabzüge können Sie im Abschnitt Workflow der Seite [!UICONTROL Korrekturabzugsdetails“ &#x200B;]. Sie können die in den einzelnen Phasen durchgeführten Arbeiten anzeigen und die Phasen im Korrekturabzug ändern, hinzufügen, starten und sperren.
+Den Fortschritt Ihrer automatisierten Workflow-Korrekturabzüge können Sie im Abschnitt Workflow der Seite [!UICONTROL Korrekturabzugsdetails“ ]. Sie können die in den einzelnen Phasen durchgeführten Arbeiten anzeigen und die Phasen im Korrekturabzug ändern, hinzufügen, starten und sperren.
 
 ## Anzeigen eines automatisierten Workflows
 
@@ -79,21 +79,21 @@ Die Schritte im Diagramm sind wie folgt gekennzeichnet:
 ![dot.png](assets/dot.png)- Ein aktiver Schritt
 
 ![gray_dot.png](assets/grey-dot.png)- Ein inaktiver Schritt\
-![sbw-key-icon.png](assets/sbw-key-icon.png)  - eine private Bühne
+![sbw-key-icon.png](assets/sbw-key-icon.png) - Eine private Bühne
 
-![sbw-padlock-icon.png](assets/sbw-padlock-icon.png)  - eine gesperrte Bühne
+![sbw-padlock-icon.png](assets/sbw-padlock-icon.png) - eine gesperrte Bühne
 
 Die Linien zwischen den Stadien stellen die Abhängigkeiten zwischen den Stadien dar. Die Linien, die zu inaktiven Stufen führen, sind gepunktet, bis die Stufe aktiviert ist.
 
 Wenn Sie den Mauszeiger über eine Phase im Diagramm bewegen, wird der Fortschritt der Phase angezeigt. Wenn die Phase nicht aktiv ist und Sie über Bearbeitungsrechte für die Phase verfügen, können Sie die Phase über die Schaltfläche [!UICONTROL Phase starten] vom Popup aus starten. Auf ähnliche Weise wird die Option zum Sperren eines aktiven Schritts angezeigt.
 
-Weitere Informationen zur Fortschrittsleiste finden Sie unter  [Anzeigen des Fortschritts und Status eines Korrekturabzugs in  [!DNL Workfront] -](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
+Weitere Informationen zur Fortschrittsleiste finden Sie unter [Anzeigen des Fortschritts und Status eines Korrekturabzugs im  [!DNL Workfront] Testversand](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
 
 ![diagram_-_stage_summary.png](assets/diagram---stage-summary-350x214.png)
 
 ## Neues Stadium hinzufügen
 
-Sie können Ihrem automatisierten Workflow über die Seite [!UICONTROL Korrekturabzugsdetails“ einen neuen Schritt &#x200B;].
+Sie können Ihrem automatisierten Workflow über die Seite [!UICONTROL Korrekturabzugsdetails“ einen neuen Schritt ].
 
 1. Klicken Sie auf **[!UICONTROL Schaltfläche „Neues]**&quot; (1).
 

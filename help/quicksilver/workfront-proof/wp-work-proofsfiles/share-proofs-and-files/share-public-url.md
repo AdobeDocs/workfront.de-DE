@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: b5fceaf9-f812-4368-8a13-d7fadebb7d28
 source-git-commit: 178fcf680fbf97e3fa634182f161ba3c73439fe5
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Eine Option zum Signieren ist ebenfalls vorhanden, sodass sich Personen, die spe
 
 Wenn Abonnements für den Korrekturabzug aktiviert sind, kann sich jeder, der Zugriff auf die Korrekturabzugs-URL hat, für den Korrekturabzug selbst abonnieren (fügen Sie sich also dem Überprüfungszyklus mit der vom Testversand-Besitzer angegebenen Standardrolle hinzu).
 
-Weitere Informationen [&#x200B; Sie unter „Abonnieren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) Korrekturabzugs“.
+Weitere Informationen [ Sie unter „Abonnieren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) Korrekturabzugs“.
 
 So verwenden Sie die öffentliche URL eines Korrekturabzugs:
 
@@ -53,7 +53,7 @@ Wenn er/sie nicht bereits eine Prüferin bzw. einen Prüfer für den Korrekturab
 >
 >Abonnements können deaktiviert werden. In diesem Fall können sie den Korrekturabzug nicht abonnieren.
 
-Weitere Informationen [&#x200B; Sie unter „Abonnieren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) Korrekturabzugs“.
+Weitere Informationen [ Sie unter „Abonnieren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) Korrekturabzugs“.
 
 So greifen Sie über eine öffentliche URL auf den Korrekturabzug zu:
 

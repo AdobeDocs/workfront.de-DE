@@ -10,8 +10,8 @@ role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
 source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 13%
+source-wordcount: '450'
+ht-degree: 6%
 
 ---
 
@@ -235,7 +235,7 @@ In dieser Tabelle sind die verfügbaren Administrationsaktivitäten für aufgef�
 * Workflow-Prime und höher
 * Workfront Prime und höher
 
-Weitere Informationen zu Paketen finden Sie auf der Seite [&#x200B; Preisgestaltung und Verpackung von &#x200B;](https://business.adobe.com/de/products/workfront/pricing.html)Adobe Workfront.
+Weitere Informationen zu Paketen finden Sie auf der Seite ](https://business.adobe.com/products/workfront/pricing.html) Preisgestaltung und Verpackung von [Adobe Workfront.
 
 Erweiterte Enterprise Controls:
 

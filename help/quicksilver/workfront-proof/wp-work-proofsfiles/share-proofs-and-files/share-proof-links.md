@@ -2,15 +2,15 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
-title: Freigeben von Korrekturabzugs-Links in Workfront Proof
+title: Freigeben von Links für Korrekturabzüge in Workfront Proof
 description: Sie können die Korrekturabzugs-URL und die Download-URL für einen Korrekturabzug per E-Mail an jeden senden, unabhängig davon, ob er über ein - [!DNL Workfront Proof]  verfügt oder nicht. Informationen zur Korrekturabzugs-URL und zur Download-URL finden Sie unter Freigeben der öffentlichen URL in Workfront Proof und Herunterladen von in Workfront Proof gespeicherten Dateien .
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: aa3fd399-6381-4118-a64a-a331784b4854
 source-git-commit: 178fcf680fbf97e3fa634182f161ba3c73439fe5
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 0%
+source-wordcount: '462'
+ht-degree: 1%
 
 ---
 
@@ -26,7 +26,7 @@ Personen, die nicht zum Korrekturabzug hinzugefügt wurden und ihn über die Kor
 
 Die Option zum Anmelden ist jedoch verfügbar. Wenn also ein Empfänger bereits zum Korrekturabzug hinzugefügt wurde, kann er einfach seine Details eingeben und dann Kommentare/Entscheidungen treffen (je nach vorhandener Rolle).
 
-Wenn die Abonnementeinstellung für den Korrekturabzug aktiviert ist, kann jeder Empfänger, der nicht hinzugefügt wurde, den Korrekturabzug abonnieren (hinzufügen). Weitere Informationen [&#x200B; Sie unter „Abonnieren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) Korrekturabzugs“.
+Wenn die Abonnementeinstellung für den Korrekturabzug aktiviert ist, kann jeder Empfänger, der nicht hinzugefügt wurde, den Korrekturabzug abonnieren (hinzufügen). Weitere Informationen [ Sie unter „Abonnieren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) Korrekturabzugs“.
 
 >[!NOTE]
 >
@@ -47,7 +47,7 @@ So geben Sie Korrekturabzugs-Links frei:
    * Fügen Sie Personen hinzu, für die Sie die Links freigeben möchten, indem Sie deren E-Mail-Adresse eingeben.
    * (Optional) Fügen Sie der E-Mail eine benutzerdefinierte Nachricht hinzu.
 
-1. Klicken Sie **[!UICONTROL Senden]**.
+1. Klicken Sie auf **[!UICONTROL Senden]**.
 
    Workfront Proof sendet eine E-Mail mit den Korrekturabzugs-Links an die Personen auf der Freigabeliste.
 

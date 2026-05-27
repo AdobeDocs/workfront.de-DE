@@ -9,8 +9,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: c4ca7a87-cacc-4b9b-aa9b-d7022ef9e267
 source-git-commit: 178fcf680fbf97e3fa634182f161ba3c73439fe5
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 0%
+source-wordcount: '562'
+ht-degree: 1%
 
 ---
 
@@ -39,9 +39,9 @@ Rechnungsadministratoren, Administratoren, Supervisoren und Manager können Date
 
 ## Freigeben einer bereits hochgeladenen Datei
 
-1. Klicken Sie im Dashboard oder in einer beliebigen Ansichtsliste auf **[!UICONTROL Mehr]** (drei Punkte) ganz rechts in der Datei und klicken Sie dann **Dropdown-Menü auf** Freigeben.
+1. Klicken Sie im Dashboard oder in einer beliebigen Ansichtsliste auf **[!UICONTROL Mehr]** (drei Punkte) ganz rechts in der Datei und klicken Sie dann ]**Dropdown-Menü auf**[!UICONTROL  Freigeben.
 
-1. Geben Sie in [!UICONTROL &#x200B; Feld „Datei freigeben] eine E-Mail-Adresse ein und klicken Sie dann auf das Pluszeichen, um den Empfänger hinzuzufügen.\
+1. Geben Sie in [!UICONTROL  Feld „Datei freigeben] eine E-Mail-Adresse ein und klicken Sie dann auf das Pluszeichen, um den Empfänger hinzuzufügen.\
    Ihre Kontakte, Gruppen und Partner werden automatisch im Feld Automatische Vervollständigung angezeigt (ohne auf das Pluszeichen zu klicken). Wenn Sie eine Gruppe oder einen Partner im Feld Automatische Vervollständigung auswählen, werden alle Kontakte in dieser Gruppe oder Partnerorganisation angezeigt. Sie können dann die Personen löschen, für die Sie die Datei nicht freigeben möchten. Weitere Informationen finden Sie unter [Kontakte](https://support.workfront.com/hc/en-us/sections/115000920808-Contacts) [Gruppen,](https://support.workfront.com/hc/en-us/sections/115000920828-Groups) und [Partnerkonten.](https://support.workfront.com/hc/en-us/sections/115000912107-Partner-accounts)
 
 1. Sie können keine Rollen für die Personen wählen, die der Datei hinzugefügt werden. Weitere Informationen finden Sie unter [Verwalten von Korrekturabzugsrollen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md). Wenn Sie möchten, dass Benutzer die Datei überprüfen/genehmigen können, müssen Sie sie zuerst in einen Korrekturabzug konvertieren.
@@ -49,4 +49,4 @@ Rechnungsadministratoren, Administratoren, Supervisoren und Manager können Date
    Sie können auf **[!UICONTROL Benutzerdefinierte Nachricht hinzufügen]** klicken, um eine Nachricht einzugeben, die in die E-Mail aufgenommen werden soll.\
    Der E-Mail-Warnhinweis enthält eine persönliche URL, über die der Benutzer zu einer Seite gelangt, auf der er die Datei herunterladen kann.
 
-1. Klicken Sie auf **[!UICONTROL Freigeben]**.
+1. Klicken Sie auf **[!UICONTROL Freigabe]**.

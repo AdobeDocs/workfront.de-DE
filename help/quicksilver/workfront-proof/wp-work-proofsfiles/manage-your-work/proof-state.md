@@ -2,7 +2,7 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: Grundlegendes zum Teststatus in Workfront Proof
+title: Grundlegendes zu den Status eines Korrekturabzugs in Workfront Proof
 description: In  [!DNL Workfront Proof] gibt es Korrekturabzüge in verschiedenen Status. Diese Zustände bestimmen, welche Aktionen Sie für den Korrekturabzug durchführen können, z. B. Kommentare oder Entscheidungen treffen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -10,11 +10,11 @@ exl-id: cd120e53-d6c2-4929-904f-a9f72903f074
 source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
 source-wordcount: '435'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Grundlegendes zum Teststatus in Workfront Proof
+# Grundlegendes zu den Status eines Korrekturabzugs in Workfront Proof
 
 >[!IMPORTANT]
 >
