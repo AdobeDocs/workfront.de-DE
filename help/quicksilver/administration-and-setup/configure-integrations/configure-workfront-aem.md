@@ -10,8 +10,8 @@ role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
 source-git-commit: 8233bcad8409b6f293d365fe871338e643a410dc
 workflow-type: tm+mt
-source-wordcount: '1855'
-ht-degree: 0%
+source-wordcount: '1869'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ Als [!DNL Adobe Workfront] können Sie [!DNL Workfront] mit [!UICONTROL Adobe Ex
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table>
   <tr>
@@ -37,7 +37,7 @@ Als [!DNL Adobe Workfront] können Sie [!DNL Workfront] mit [!UICONTROL Adobe Ex
    <td>Adobe Workfront-Lizenzen
    </td>
    <td><p>Standard</p>
-   <p>Plan</p>
+   <p>Abo</p>
    </td>
   </tr>
    <tr>
@@ -48,7 +48,7 @@ Als [!DNL Adobe Workfront] können Sie [!DNL Workfront] mit [!UICONTROL Adobe Ex
   </tr>
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -62,7 +62,7 @@ Die [!DNL Workfront for AEM Assets connector] ermöglicht Ihrem Unternehmen Folg
 
 * Integration mit dem [!DNL AEM Digital Asset Managemen]t (DAM)-Repository, sodass Sie [!DNL Workfront] verwenden können, um im DAM gespeicherte digitale Assets zu verwalten und freizugeben.
 
-  Weitere Informationen zum Verknüpfen von Dokumenten und Asset-Ordnern finden Sie unter   [Verknüpfen von Dokumenten aus externen Anwendungen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+  Weitere Informationen zum Verknüpfen von Dokumenten und Asset-Ordnern finden Sie unter [Verknüpfen von Dokumenten aus externen Programmen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 * Kombinieren und Anwenden von Metadaten aus beiden Programmen auf ein Asset.
 * Anzeigen eines umfassenden Kommunikations-Streams für ein Asset Aktualisierungen und Kommentare, die in [!DNL Workfront] oder [!UICONTROL AEM Assets] an einem Asset vorgenommen wurden, werden mit dem anderen Programm synchronisiert, wodurch ein umfassender Verlauf der an dem Asset vorgenommenen Kommunikationen erstellt wird.
@@ -73,16 +73,16 @@ Die [!DNL Workfront for AEM Assets connector] ermöglicht Ihrem Unternehmen Folg
 
 Stellen Sie vor der Installation des [!DNL Workfront]-Connectors für [!UICONTROL AEM Assets] sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-* [!UICONTROL AEM Assets] ist installiert und konfiguriert, Version 6.5 oder höher. Informationen zur Installation von [!UICONTROL AEM Assets] finden Sie unter [[!DNL Adobe Experience Manager] Dokumentation](https://experienceleague.adobe.com/de/docs/experience-manager).
+* [!UICONTROL AEM Assets] ist installiert und konfiguriert, Version 6.5 oder höher. Informationen zur Installation von [!UICONTROL AEM Assets] finden Sie unter [[!DNL Adobe Experience Manager] Dokumentation](https://experienceleague.adobe.com/en/docs/experience-manager).
 * (Bedingt) Wenn Ihre Firewall-Regeln Traffic nicht wie erwartet zulassen, fügen Sie die IP-Adresse und/oder Domain Ihres Clusters zu Ihrer Zulassungsliste hinzu. Weitere Informationen finden Sie [Zulassungsliste zum Konfigurieren der Firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## Installieren des [!DNL Workfront for AEM Assets] Connector-Pakets {#install-the-workfront-for-aem-assets-connector-package}
 
 >[!IMPORTANT]
 >
->Die folgenden Anweisungen gelten für einen [!DNL Workfront with AEM Assets] Legacy-Connector, der durch den [[!DNL Workfront for Experience Manager] erweiterten Connector“ ersetzt &#x200B;](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md). Weitere Informationen erhalten Sie von Ihrem Kontovertreter.
+>Die folgenden Anweisungen gelten für einen [!DNL Workfront with AEM Assets] Legacy-Connector, der durch den [[!DNL Workfront for Experience Manager] erweiterten Connector“ ersetzt ](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md). Weitere Informationen erhalten Sie von Ihrem Kontovertreter.
 
-Um den [!DNL Workfront for AEM Assets]-Connector zu installieren, müssen Sie den Connector mit dem [!UICONTROL CRX Package Manager&rbrace; als Paket in AEM &#x200B;].
+Um den [!DNL Workfront for AEM Assets]-Connector zu installieren, müssen Sie den Connector mit dem [!UICONTROL CRX Package Manager} als Paket in AEM ].
 
 1. Laden Sie auf einer Workstation, auf der Sie AEM bereits installiert haben, die Installationsdatei für den [!DNL Workfront for AEM Assets] Connector herunter.
 
@@ -98,7 +98,7 @@ Um den [!DNL Workfront for AEM Assets]-Connector zu installieren, müssen Sie de
 1. Klicken Sie auf **[!UICONTROL Installieren].**
 
 1. Ignorieren Sie im Dialogfeld **[!UICONTROL Paket]** die erweiterten Einstellungen und klicken Sie auf **[!UICONTROL Installieren]**.
-1. (Optional) Um zu bestätigen, dass der Connector erfolgreich installiert wurde, stellen Sie sicher, dass im [!UICONTROL Aktivitätsprotokoll“ die folgende Anweisung angezeigt &#x200B;]:
+1. (Optional) Um zu bestätigen, dass der Connector erfolgreich installiert wurde, stellen Sie sicher, dass im [!UICONTROL Aktivitätsprotokoll“ die folgende Anweisung angezeigt ]:
 
    ```
    Package installed in <time>
@@ -212,7 +212,7 @@ Bevor Sie beginnen, müssen Sie Berechtigungen für den Workfront-Service aktivi
 
    1. (Optional) Um die Kommentarsynchronisierung zu deaktivieren, klicken Sie auf **[!UICONTROL Kommentarsynchronisierung deaktivieren].**
 
-      Oder
+      ODER
 
       Löschen Sie das [!UICONTROL NOTE CREATE]-Ereignisabonnement, das bei Ihrer AEM-Instanz registriert ist.
 
@@ -226,9 +226,9 @@ Mit dem [!UICONTROL AEM Externalizer] kann AEM URLs in einem Format übergeben, 
 
 1. Klicken Sie in AEM auf **[!UICONTROL Tools]** > **[!UICONTROL Vorgänge]** > **[!UICONTROL Web-Konsole]**.
 
-1. Klicken Sie **[!UICONTROL OSGI]** und dann **[!UICONTROL Dropdown-Menü auf]** Konfiguration“.
+1. Klicken Sie **[!UICONTROL OSGI]** und dann ]**Dropdown-Menü auf**[!UICONTROL  Konfiguration“.
 
-1. Wählen Sie in der Konfigurationsliste &#x200B;/**[!UICONTROL CQ Link Externalizer &#x200B;].** Die Seite **[!UICONTROL Externalizer]** wird angezeigt.
+1. Wählen Sie in der Konfigurationsliste &#x200B;**[!UICONTROL Day CQ Link Externalizer].** Die **[!UICONTROL Externalizer]** wird angezeigt.
 
 1. Stellen Sie im Abschnitt **[!UICONTROL Domains]** sicher, dass die im Feld **[!UICONTROL author]** aufgeführte Domain der Domain-Name ist, auf den AEM-Benutzer extern zugreifen können.
 
@@ -268,7 +268,7 @@ Nach der Installation des [!UICONTROL Workfront for AEM Assets]-Connectors (wie 
 
 1. Wählen Sie im Dropdown **[!UICONTROL Menü]** Authentifizierungstyp“ die Option **[!UICONTROL APIkey].**
 
-1. Fügen Sie im Feld &#x200B;**[!UICONTROL API-]** den AEM-API-Schlüssel ein, den Sie bei der Konfiguration von [!UICONTROL AEM Assets kopiert &#x200B;].
+1. Fügen Sie im Feld &#x200B;**[!UICONTROL API-]** den AEM-API-Schlüssel ein, den Sie bei der Konfiguration von [!UICONTROL AEM Assets kopiert ].
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 1. (Optional) Stellen Sie sicher, dass die Integration mit [!UICONTROL Aktiv] markiert ist.\
    ![aem_custom_integration_active.png](assets/aem-custom-integration-active-350x81.png)
@@ -315,7 +315,7 @@ Weitere Informationen zu [!DNL Workfront] finden Sie unter [Erstellen oder Ände
 
    1. Um den Benutzer einer vorhandenen Gruppe hinzuzufügen, geben Sie den Gruppennamen in das Feld **[!UICONTROL Gruppennamen eingeben]** und wählen Sie dann die Gruppe aus, wenn sie im Dropdown-Menü angezeigt wird.
 
-      Oder
+      ODER
 
       Um eine Gruppe auszuwählen, der der Benutzer angehört, wählen Sie eine Gruppe im Abschnitt **[!UICONTROL Gruppen, denen dieser Benutzer angehört]** aus.
 

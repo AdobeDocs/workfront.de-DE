@@ -10,8 +10,8 @@ role: Admin
 exl-id: cfccb120-8759-49f2-8b7b-dabcd57d4fda
 source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 7%
+source-wordcount: '565'
+ht-degree: 13%
 
 ---
 
@@ -21,9 +21,9 @@ Mit diesen Einstellungen können Sie Standardwerte festlegen, die für alle von 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+Sie benötigen die folgenden Zugriffsrechte, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <col> 

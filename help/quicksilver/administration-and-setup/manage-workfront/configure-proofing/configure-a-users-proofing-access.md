@@ -10,7 +10,7 @@ role: Admin
 exl-id: 98c90139-f31a-41bc-af0b-577dd8b254e3
 source-git-commit: 322a24fabd22ca2b54c020aded33b736a98f4bf5
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '1104'
 ht-degree: 3%
 
 ---
@@ -108,7 +108,7 @@ Beachten Sie beim Festlegen von Berechtigungen die folgenden Informationen:
 
 ## Konfigurieren des Workfront Proof-Zugriffs für alle Benutzer über das Workfront-Hauptmenü {#configure-workfront-proof-access-via-workfront-main-menu-for-all-users}
 
-Standardmäßig können nur Benutzende mit Administratorrechten in Workfront wie unter (Zugriff auf Workfront Proof [&#x200B; Adobe Workfront) beschrieben auf Workfront Proof &#x200B;](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
+Standardmäßig können nur Benutzende mit Administratorrechten in Workfront wie unter (Zugriff auf Workfront Proof [ Adobe Workfront) beschrieben auf Workfront Proof ](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
 
 Sie können allen Benutzenden Zugriff auf die Schaltfläche Workfront Proof im Hauptmenü von Workfront gewähren, indem Sie sich an den Workfront-Support wenden und eine Anfrage senden.
 

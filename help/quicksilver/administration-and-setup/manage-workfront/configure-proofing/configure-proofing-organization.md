@@ -10,8 +10,8 @@ role: Admin
 exl-id: 29405172-c3dd-431f-a242-fd38b53a307d
 source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '1221'
-ht-degree: 0%
+source-wordcount: '1245'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ Als Adobe Workfront-Administrator oder Workfront Proof-Administrator können Sie
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 
@@ -171,7 +171,7 @@ Sie können angeben, für wen die Korrekturabzüge Ihrer Organisation freigegebe
 
 Weitere Informationen zu Freigabeeinstellungen in Workfront Proof finden Sie unter [Konfigurieren von Freigabeeinstellungen für Ihre Benutzerinnen und Benutzer](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md).
 
-## Branding der Workfront Proof-Site
+## Branding der Workfront Proof-Website
 
 Wenn Sie Workfront Proof verwenden, können Sie das Branding für die folgenden Bereiche der Website einrichten:
 

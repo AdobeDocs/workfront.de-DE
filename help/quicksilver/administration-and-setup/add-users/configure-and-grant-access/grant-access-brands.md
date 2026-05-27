@@ -59,7 +59,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 * Adobe muss eine unterzeichnete Adobe Gen AI-Vereinbarung in der Datei haben.
 Weitere Informationen zur Unterzeichnung des Abkommens finden Sie unter [Unterzeichnung des Adobe Gen AI-Abkommens](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
-## &#x200B;1. Konfigurieren der Markenberechtigungen in der Admin Console
+## &#x200B;1. Konfigurieren von Markenberechtigungen in der Admin Console
 
 ### Schritt 1: Erstellen einer Benutzergruppe
 
@@ -117,7 +117,7 @@ Fügen Sie die Benutzergruppe zum Brands-Projekt hinzu, damit sie auf Assets zug
 
 1. Fügen Sie im **Zum Projekt**) die von Ihnen erstellte Benutzergruppe hinzu.
 1. Wählen Sie **Kann bearbeiten** aus.
-1. Klicken Sie auf **Einladen**.
+1. Klicken Sie **Einladen**.
 
 ### Ergebnis
 
@@ -140,7 +140,7 @@ So gewähren Sie Zugriff auf die Zugriffsebenen von Marken in Workfront:
 1. Klicken **im linken** auf „Zugriffsebenen“.
 1. Suchen Sie die Zugriffsebene, die Sie bearbeiten möchten, und klicken Sie dann auf das Bearbeitungssymbol ![Bearbeiten-Symbol](assets/edit-icon.png), um sie zu bearbeiten.
 
-   Oder
+   ODER
 
    Klicken Sie **Neue Zugriffsebene**, um eine neue Zugriffsebene zu erstellen. Weitere Informationen zum Erstellen von Zugriffsebenen finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Scrollen Sie nach unten **Zusätzliche Einschränkungen festlegen** und wählen Sie dann **Benutzer dürfen auf Marken zugreifen** aus.

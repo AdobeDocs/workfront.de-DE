@@ -86,7 +86,7 @@ Sie können auch den Vorlagenbesitzer bestimmen, bevor Sie die Blueprint install
 
 ![[!UICONTROL Vorlageneinstellungen] Abschnitt](assets/Blueprints_TemplatePreferences.png)
 
-1. Geben [!UICONTROL &#x200B; im Abschnitt „Vorlageneinstellungen] einen neuen Vorlagennamen an.
+1. Geben [!UICONTROL  im Abschnitt „Vorlageneinstellungen] einen neuen Vorlagennamen an.
 1. Geben Sie Folgendes an:
 
    <table style="table-layout:auto">
@@ -136,7 +136,7 @@ Sie können auch den Vorlagenbesitzer bestimmen, bevor Sie die Blueprint install
    >
    >**Beispiel:** Die Voreinstellungen für neue Probleme in diesem Blueprint enthalten vier Warteschlangenthemen. Der/die Benutzende wählt beim Erstellen eines Problems eines dieser Themen aus. (Da nur eine Themengruppe vorhanden ist, wird sie automatisch angewendet und der/die Benutzende muss sie nicht auswählen.) Wenn der/die Benutzende das Problem abschließt und übermittelt, bestimmen Routing-Regeln, welchem Aufgabengebiet oder Team sie zugewiesen ist.
    >![Beispieleinstellungen für neue Probleme](assets/Blueprints_IssuePrefsDetails.png)
-   >![Warteschlangenthemen für neues Problem](assets/blueprints-newissueqtopicsexample-350x204.png)
+   >![Warteschlangenthemen für neue Anfrage](assets/blueprints-newissueqtopicsexample-350x204.png)
    >![Problem wurde an Aufgabengebiet weitergeleitet](assets/Blueprints_ProjectShowsIssueAssignment.png)
 
    >[!TIP]
@@ -218,12 +218,12 @@ Einige Blueprints umfassen vorgeschriebene Unternehmen. Ein Unternehmen ist eine
 
 Der Blueprint sucht nach dem Firmennamen, um festzustellen, ob vorhandene Unternehmen übereinstimmen. Bei der Suche wird zwischen Groß- und Kleinschreibung unterschieden, sodass die Namen exakt übereinstimmen müssen. Wenn keine vorhandenen Unternehmen übereinstimmen, können Sie sie mit der Blueprint erstellen lassen. Die primäre Firma in der Blueprint wird der primären Firma in Ihrer Umgebung zugeordnet, auch wenn diese nicht denselben Namen haben.
 
-Abschnitt ![[!UICONTROL Unternehmenszuordnung] &#x200B;](assets/Blueprints_CompanyMapping.png)
+Abschnitt ![[!UICONTROL Unternehmenszuordnung] ](assets/Blueprints_CompanyMapping.png)
 
 1. Wenn eine Firma vorhanden ist, können Sie eine der folgenden Optionen auswählen:
 
    1. Erstellen Sie ein neues Unternehmen mit einem anderen Namen und geben Sie dann den Namen in das Textfeld ein.
-   1. Verwenden Sie ein vorhandenes Unternehmen und wählen Sie dann im Auswahlfeld ein Unternehmen aus.\
+   1. Vorhandenes Unternehmen verwenden und im Auswahlfeld ein Unternehmen auswählen.\
 
       Die primäre Firma in der Blueprint wird der primären Firma in Ihrer Umgebung zugeordnet, auch wenn diese nicht denselben Namen haben.
    1. Keine zugeordnete Firma verwenden. Diese Option wird nicht empfohlen, da die Unternehmensverweise in anderen Objekten leer sind.
@@ -253,7 +253,7 @@ Einige Blueprints enthalten vorgeschriebene Gruppen. Eine Gruppe ist eine Benutz
 
 Der Blueprint sucht nach dem Gruppennamen, um festzustellen, ob eine vorhandene Gruppe übereinstimmt. Bei der Suche wird zwischen Groß- und Kleinschreibung unterschieden, sodass die Namen exakt übereinstimmen müssen. Wenn keine vorhandenen Gruppen übereinstimmen, können Sie diese mit der Blueprint erstellen lassen.
 
-Abschnitt ![[!UICONTROL Gruppenzuordnung] &#x200B;](assets/Blueprints_GroupMapping.png)
+Abschnitt ![[!UICONTROL Gruppenzuordnung] ](assets/Blueprints_GroupMapping.png)
 
 1. Wenn eine Gruppe vorhanden ist, können Sie **[!UICONTROL Gruppe neu zuordnen]** und eine der folgenden Optionen auswählen:
 
