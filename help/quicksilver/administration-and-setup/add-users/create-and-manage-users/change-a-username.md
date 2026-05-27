@@ -18,4 +18,4 @@ ht-degree: 6%
 
 # Ändern eines Benutzernamens
 
-Sie können den Benutzernamen (die E-Mail-Adresse) eines Benutzers bearbeiten, indem Sie dessen Benutzerprofil bearbeiten. Anweisungen finden Sie in den Informationen zum Feld E-Mail-Adresse [ „Benutzerprofil bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Sie können den Benutzernamen (die E-Mail-Adresse) eines Benutzers bearbeiten, indem Sie dessen Benutzerprofil bearbeiten. Anweisungen finden Sie in den Informationen zum Feld E-Mail-Adresse [&#x200B; „Benutzerprofil bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
