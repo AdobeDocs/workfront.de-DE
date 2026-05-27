@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## Wie erstelle ich ein neues [!DNL Workfront Proof]?
 
-Um ein neues Konto zu eröffnen, gehen Sie zur [Testanmeldung](https://business.adobe.com/products/workfront/proofing-approvals.html) und öffnen Sie ein Testkonto. Ein Mitglied unseres Teams wird sich dann mit Ihnen in Verbindung setzen, um Ihnen bei den ersten Schritten mit [!DNL Workfront Proof] zu helfen.
+Um ein neues Konto zu eröffnen, gehen Sie zur [Testanmeldung](https://business.adobe.com/de/products/workfront/proofing-approvals.html) und öffnen Sie ein Testkonto. Ein Mitglied unseres Teams wird sich dann mit Ihnen in Verbindung setzen, um Ihnen bei den ersten Schritten mit [!DNL Workfront Proof] zu helfen.
 
 Wenn Sie das System bereits kennen und sich für einen kostenpflichtigen Plan anmelden möchten, gehen Sie zu *[!UICONTROL Einstellungen]* *>* *[!UICONTROL Abrechnung]* und aktualisieren Sie Ihr Konto auf einen unserer kostenpflichtigen Pläne.
 
