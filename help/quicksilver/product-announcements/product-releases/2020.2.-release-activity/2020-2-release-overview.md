@@ -258,7 +258,7 @@ Informationen zu den Wartungs-Updates, die während der Version 2020.1 vorgenomm
 
 * [Änderung des Veröffentlichungsintervalls für die Vorschau](#change-in-preview-release-cadence) Neu!
 
-* [Hinzufügen zusätzlicher Domains zu der für den Zugriff auf Workfront erforderlichen ](#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront)
+* [Hinzufügen zusätzlicher Domains zu der für den Zugriff auf Workfront erforderlichen &#x200B;](#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront)
 * [Workfront One](#workfront-one)
 * Webinar zur Version [.2020.1](#2020-1-release-webinar)
 * [Webinar zur Produkt-Roadmap im 1. Quartal](#q1-product-roadmap-webinar)
