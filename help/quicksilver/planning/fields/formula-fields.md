@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 9%
+source-wordcount: '784'
+ht-degree: 6%
 
 ---
 
@@ -235,7 +235,7 @@ Darüber hinaus unterstützen wir die folgenden Ausdrücke für Workfront Planni
    </td></tr>
   <tr> 
    <td><strong>JSONELEMENT</strong> </td> 
-   <td> <p>Gibt die Daten aus JSON zurück, die durch den bereitgestellten JSONPath bestimmt werden. Wenn der JSONPath nicht in der JSON vorhanden ist, wird ein leeres Ergebnis zurückgegeben. </p> <p>Der Ausdruck ist wie folgt formatiert:
+   <td> <p>Gibt die Daten aus JSON zurück, die durch den bereitgestellten JSONPath bestimmt werden. Wenn der JSONPath nicht in der JSON vorhanden ist, wird ein leeres Ergebnis zurückgegeben. </p> <p>Der Ausdruck wird wie folgt formatiert:
       <code>JSONELEMENT(JSONString, JSONPathString) </code>
    </p>
    </td></tr>
@@ -249,7 +249,7 @@ Darüber hinaus unterstützen wir die folgenden Ausdrücke für Workfront Planni
 
 <tr> 
    <td><strong>WEEKOFYEAR</strong> </td> 
-   <td> <p>Gibt die Wochenzahl in einem Jahr zurück. Optional können Sie angeben, an welchem Tag die Woche beginnt (verwenden Sie 1 für Sonntag oder 2 für Montag). Wenn nicht angegeben, beginnen Wochen standardmäßig am Sonntag.</p> <p>Der Ausdruck wird wie folgt formatiert:
+   <td> <p>Gibt die Wochenzahl in einem Jahr zurück. Optional können Sie angeben, an welchem Tag die Woche beginnt (verwenden Sie 1 für Sonntag oder 2 für Montag). Wenn sie weggelassen wird, beginnen die Wochen standardmäßig am Sonntag.</p> <p>Der Ausdruck wird wie folgt formatiert:
 
 <code>WEEKOFYEAR(Datum,2)</code>
 oder

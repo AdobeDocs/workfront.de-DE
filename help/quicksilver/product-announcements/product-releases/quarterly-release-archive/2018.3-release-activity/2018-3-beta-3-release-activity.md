@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Versionsaktivität von Beta 3 2018.3
+title: Veröffentlichungen für Version 2018.3 Beta 3
 description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 3 Version 2018.3 verfügbar waren. Die Funktion ist ab dem 16. August 2018 in der Vorschau-Umgebung verfügbar. Sie wird im November 2018 in der Produktionsumgebung bereitgestellt.
 author: Luke
 feature: Product Announcements
@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 452fc235-ff90-4451-b48b-354671227f6f
 source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 0%
+source-wordcount: '561'
+ht-degree: 2%
 
 ---
 
-# Versionsaktivität von Beta 3 2018.3
+# Veröffentlichungen für Version 2018.3 Beta 3
 
 Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 3 Version 2018.3 verfügbar waren. Die Funktion ist ab dem 16. August 2018 in der Vorschau-Umgebung verfügbar. Sie wird im November 2018 in der Produktionsumgebung bereitgestellt.
 
@@ -22,7 +22,7 @@ Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorscha
 >
 > Die auf dieser Seite beschriebene Funktion kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller Änderungen in Version 2018.3 finden Sie unter  [Übersicht über die Versionsaktivität 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Eine Liste aller in 2018.3 vorgenommenen Änderungen finden Sie unter [Übersicht über die Versionsaktivität 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
 Die Beta-Version 3 2018.3 enthält Verbesserungen sowohl für Workfront-Administratoren als auch für andere Benutzer:
 

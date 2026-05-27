@@ -9,12 +9,12 @@ feature: Work Management
 exl-id: 3c8534f7-02d0-4404-a37b-0ef6360e8efc
 source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 1%
+source-wordcount: '868'
+ht-degree: 2%
 
 ---
 
-# Übersicht über den Dauertyp: Leistungsgesteuert
+# Überblick über den Dauertyp: Leistungsgesteuert
 
 Aufwandsgesteuert ist ein Dauertyp, den Sie für eine Aufgabe in Adobe Workfront festlegen können. Allgemeine Informationen zu den Dauertypen in Workfront finden Sie unter [Übersicht über die Aufgabendauer und den Dauertyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 

@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1177'
 ht-degree: 4%
 
 ---
@@ -235,7 +235,7 @@ Die Beschreibung des Datensatztyps wird auf der Karte angezeigt.
 
    ![Karte vom Typ „Datensatz“ mit Beschreibung](assets/record-type-card-with-description.png)
 
-   Wenn Sie ausgewählt haben, diesen Datensatz von anderen Arbeitsbereichen zu verbinden, wird das Symbol **Verbindbarer Datensatz** (Symbol ![&#x200B; Verbindung von anderen &#x200B;](assets/connect-from-other-workspaces-icon.png)) auf der Datensatzkarte angezeigt.
+   Wenn Sie ausgewählt haben, diesen Datensatz von anderen Arbeitsbereichen zu verbinden, wird das Symbol **Verbindbarer Datensatz** (Symbol ![ Verbindung von anderen ](assets/connect-from-other-workspaces-icon.png)) auf der Datensatzkarte angezeigt.
 
    Wenn Sie ausgewählt haben, dass dieser Datensatz anderen Arbeitsbereichen hinzugefügt werden kann, wird **Symbol „Globaler**&quot; ![Symbol „Globaler Datensatztyp](assets/global-icon.png) auf der Datensatzkarte angezeigt.
 
@@ -261,7 +261,7 @@ Die Beschreibung des Datensatztyps wird auf der Karte angezeigt.
 
    ODER
 
-   Klicken Sie auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/more-menu.png) rechts neben dem Namen des Datensatztyps und klicken Sie auf **Bearbeiten**, um ihn umzubenennen oder die zugehörigen Informationen zu ändern. Weitere Informationen finden Sie unter [Datensatztypen bearbeiten](/help/quicksilver/planning/architecture/edit-record-types.md).
+   Klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/more-menu.png) rechts neben dem Namen des Datensatztyps und klicken Sie auf **Bearbeiten**, um ihn umzubenennen oder die zugehörigen Informationen zu ändern. Weitere Informationen finden Sie unter [Datensatztypen bearbeiten](/help/quicksilver/planning/architecture/edit-record-types.md).
 
 1. (Optional) Klicken Sie auf **+ Neuer**, um Datensätze des ausgewählten Datensatztyps hinzuzufügen. Weitere Informationen finden Sie unter [Erstellen von Einträgen](/help/quicksilver/planning/records/create-records.md).
 1. (Optional) Klicken Sie auf das Symbol **+** in der oberen rechten Ecke der Tabelle, um dem Datensatztyp weitere Felder hinzuzufügen.

@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1193'
 ht-degree: 2%
 
 ---
@@ -105,7 +105,7 @@ Für Organisationen mit Anfragen mit hohem Volumen oder erweiterten Automatisier
 
 Für diesen Ansatz benötigen Sie eine Lizenz für Adobe Workfront Fusion.
 
-Weitere Informationen finden Sie [Einrichten und Verwalten von Workfront Fusion: Artikelindex](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
+Weitere Informationen finden Sie [Einrichten und Verwalten von Workfront Fusion: Artikelindex](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-workfront-fusion-toc).
 
 * **Übermittlungsereignisse verwenden** Da Formulare ein einziges, bereinigtes Übermittlungsereignis bieten, können sie als Trigger für Fusion-Automatisierungen verwendet werden. Ein Fusionsszenario kann eine Formularübermittlung erkennen und sofort ein verknüpftes Projekt in Workfront generieren.
 

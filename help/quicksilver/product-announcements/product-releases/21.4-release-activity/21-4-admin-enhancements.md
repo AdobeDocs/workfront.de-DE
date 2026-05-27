@@ -1,6 +1,6 @@
 ---
-title: 21.4 Administrator-Verbesserungen
-description: 21.4 Administrator-Verbesserungen
+title: Verbesserungen für Admins in Version 21.4
+description: Verbesserungen für Admins in Version 21.4
 author: Luke
 draft: Probably
 feature: Product Announcements, System Setup and Administration
@@ -8,12 +8,12 @@ recommendations: noDisplay, noCatalog
 exl-id: fc85b4c2-4a76-4226-9120-11635b03aa4e
 source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1893'
-ht-degree: 0%
+source-wordcount: '1912'
+ht-degree: 1%
 
 ---
 
-# 21.4 Administrator-Verbesserungen
+# Verbesserungen für Admins in Version 21.4
 
 Auf dieser Seite werden alle mit Version 21.4 vorgenommenen Administrationsverbesserungen für die Vorschau-Umgebung beschrieben. Diese Verbesserungen werden in der Woche vom 4. Oktober 2021 in der Produktionsumgebung verfügbar gemacht.
 
@@ -39,7 +39,7 @@ Diese Funktion wurde kürzlich für Projektvoreinstellungen sowie für Aufgaben-
 
 Informationen dazu, wie Workfront-Admins eine Arbeitszeittabelle und Stundeneinstellungen entsperren, finden Sie im Abschnitt [Arbeitszeittabelle und Stundeneinstellungen für Gruppen entsperren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) im Artikel [Arbeitszeittabelle und Stundeneinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-Informationen dazu, wie Gruppenadmins die Einstellungen für entsperrte Aufgaben und Probleme für eine Gruppe konfigurieren, finden [&#x200B; unter „Arbeitszeittabelle und Stundeneinstellungen für eine Gruppe konfigurieren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+Informationen dazu, wie Gruppenadmins die Einstellungen für entsperrte Aufgaben und Probleme für eine Gruppe konfigurieren, finden [ unter „Arbeitszeittabelle und Stundeneinstellungen für eine Gruppe konfigurieren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
 ## Neu für Workfront-Admins: Konfigurieren von Layout-Vorlagen für automatisch bereitgestellte Benutzende in der neuen Workfront-Version
 
@@ -89,7 +89,7 @@ Es ist jetzt einfacher, sicherzustellen, dass die Projektvorlagen Ihrer Gruppe d
 * Bedingungstyp
 * Zeitplan ab
 * Benutzer-Ausfallzeit
-* Update-Typ
+* Art der Aktualisierung
 * Zugriff auf Abschnittseinstellungen
 
 Wenn Sie eine neue Vorlagenaufgabe in einer Projektvorlage erstellen, die einer Gruppe zugeordnet ist, übernimmt die Vorlagenaufgabe die folgenden Einstellungen aus den Aufgabenvoreinstellungen der Gruppe:
