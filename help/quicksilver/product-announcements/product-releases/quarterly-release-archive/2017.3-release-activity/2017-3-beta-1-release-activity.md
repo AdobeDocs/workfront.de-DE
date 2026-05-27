@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Versionsaktivität von Beta 1 2017.3
+title: Veröffentlichungen für Version 2017.3 Beta 1
 description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit der Version 2017.3 verfügbar waren. Die Funktion auf dieser Seite wurde am 9. August 2017 in der Vorschau-Umgebung verfügbar gemacht. Sie wird Anfang November 2017 in der Produktionsumgebung bereitgestellt.
 author: Luke
 feature: Product Announcements
@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 33a91c25-98ec-4f08-b444-4e11e05e464b
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '1426'
-ht-degree: 0%
+source-wordcount: '1451'
+ht-degree: 1%
 
 ---
 
-# Versionsaktivität von Beta 1 2017.3
+# Veröffentlichungen für Version 2017.3 Beta 1
 
 Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit der Version 2017.3 verfügbar waren. Die Funktion auf dieser Seite wurde am 9. August 2017 in der Vorschau-Umgebung verfügbar gemacht. Sie wird Anfang November 2017 in der Produktionsumgebung bereitgestellt.
 
@@ -22,7 +22,7 @@ Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorscha
 >
 > Die auf dieser Seite beschriebene Funktion kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller Änderungen in Version 2017.3 finden Sie unter  [Übersicht über die Versionsaktivität 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
+Eine Liste aller in 2017.3 vorgenommenen Änderungen finden Sie unter [Übersicht über die Versionsaktivität 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
 
 Die Beta 1-Version 2017.3 enthält Verbesserungen sowohl für Workfront-Administratoren als auch für andere Benutzer:
 

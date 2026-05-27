@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-1-release-activity
-title: Korrekturabzug-Verbesserungen für 2019.1
+title: Verbesserungen beim Proofing in Version 2019.1
 description: Auf dieser Seite werden alle in der Version 2019.1 enthaltenen Proofing-Verbesserungen beschrieben. Die Funktion ist jetzt in der Produktionsumgebung verfügbar.
 author: Luke
 feature: Product Announcements, Workfront Proof
@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 6b9b847c-dfb5-4285-b8fc-72f33c6a54d0
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
 
-# Korrekturabzug-Verbesserungen für 2019.1
+# Verbesserungen beim Proofing in Version 2019.1
 
 Auf dieser Seite werden alle in der Version 2019.1 enthaltenen Proofing-Verbesserungen beschrieben. Die Funktion ist jetzt in der Produktionsumgebung verfügbar.
 

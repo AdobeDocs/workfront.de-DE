@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Versionsaktivität von Beta 4 2018.3
+title: Veröffentlichungen für Version 2018.3 Beta 4
 description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 4 Version 2018.3 verfügbar waren. Die Funktion ist ab dem 30. August 2018 in der Vorschau-Umgebung verfügbar. Sie wird im November 2018 in der Produktionsumgebung bereitgestellt.
 author: Luke
 feature: Product Announcements
@@ -9,16 +9,16 @@ recommendations: noDisplay, noCatalog
 exl-id: b40eda2c-8ad4-4945-a7e3-cb28ed8a14db
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 0%
+source-wordcount: '1134'
+ht-degree: 1%
 
 ---
 
-# Versionsaktivität von Beta 4 2018.3
+# Veröffentlichungen für Version 2018.3 Beta 4
 
 Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 4 Version 2018.3 verfügbar waren. Die Funktion ist ab dem 30. August 2018 in der Vorschau-Umgebung verfügbar. Sie wird im November 2018 in der Produktionsumgebung bereitgestellt.
 
-Eine Liste aller Änderungen in Version 2018.3 finden Sie unter  [Übersicht über die Versionsaktivität 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Eine Liste aller in 2018.3 vorgenommenen Änderungen finden Sie unter [Übersicht über die Versionsaktivität 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
 Die Beta 4-Version 2018.3 enthält Verbesserungen sowohl für Workfront-Administratoren als auch für andere Benutzer:
 
@@ -136,7 +136,7 @@ Weitere Informationen finden Sie unter .
 
 ## Verbesserungen bei der Druckzusammenfassung {#print-summary-enhancements}
 
-Folgende Verbesserungen sind jetzt auf der Seite Druckzusammenfassung verfügbar, wenn Sie einen Korrekturabzug drucken oder als PDF- oder XLS-Datei speichern:
+Die folgenden Verbesserungen sind jetzt auf der Seite Druckzusammenfassung verfügbar, wenn Sie einen Korrekturabzug drucken oder als PDF- oder XLS-Datei speichern:
 
 * Sie können die Kommentare des Korrekturabzugs nach Ersteller sortieren.
 

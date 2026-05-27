@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Übersicht über die Versionsaktivität 2017.3
+title: Überblick über Version 2017.3
 description: Diese Seite enthält Informationen zu den Funktionen, die in der Version 2017.3 enthalten sind.
 author: Luke
 feature: Product Announcements
@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 1b5d231b-c08a-4dea-bcbb-278527ccc4bd
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '842'
 ht-degree: 0%
 
 ---
 
-# Übersicht über die Versionsaktivität 2017.3
+# Überblick über Version 2017.3
 
 Diese Seite enthält Informationen zu den Funktionen, die in der Version 2017.3 enthalten sind. 
 
@@ -100,7 +100,7 @@ In den folgenden Abschnitten werden die Verbesserungen beschrieben, die für End
 
 * [Speichern und Verwalten von Filtern im Auslastungsbericht für ein Projekt](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#save-and-manage-filters-in-the-utilization-report-on-a-project)
 * [Zusätzliche Filteroptionen im Auslastungsbericht](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#additional-filtering-options-in-the-utilization-report)
-* [Anzeigen des Auslastungsberichts nach Programm oder Portfolio &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#run-the-utilization-report-at-the-program-and-portfolio-level)
+* [Anzeigen des Auslastungsberichts nach Programm oder Portfolio](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-4-release-activity.md#run-the-utilization-report-at-the-program-and-portfolio-level)
 * [Benutzerzuordnungsinformationen in den Auslastungsbericht für ein Projekt einschließen](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-1-release-activity.md#include-user-allocation-information-in-the-utilization-report-on-a-project)
 * [Filtern von Inhalten in einem Auslastungsbericht für ein Projekt](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md#filter-content-within-a-utilization-report-on-a-project)
 * [Zeigen Sie Kosteninformationen im Auslastungsbericht für ein Projekt an](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-2-release-activity.md#view-cost-information-in-the-utilization-report-on-a-project)
@@ -136,7 +136,7 @@ In den folgenden Abschnitten werden die Verbesserungen beschrieben, die für End
 
 **Proofing-Verbesserungen sowohl in Workfront Proof als auch in Workfront**
 
-* [HTML5-Korrekturabzugs-Viewer-Aktualisierungen](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#html-static-proofing-viewer)
+* [Aktualisierungen der HTML5-Proofing-Viewer](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#html-static-proofing-viewer)
 * [Neustart und Überspringen im HTML5-Video-Proofing-Viewer (Tastaturbefehle)](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-beta-final-release-activity.md#restart-and-skip-in-html5-proofing)
 
 ### Weitere Verbesserungen

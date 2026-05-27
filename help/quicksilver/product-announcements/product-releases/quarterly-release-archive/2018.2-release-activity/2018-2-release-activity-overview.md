@@ -1,27 +1,27 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Übersicht über die Versionsaktivität 2018.2
-description: Übersicht über die Versionsaktivität 2018.2
+title: Überblick über Version 2018.2
+description: Überblick über Version 2018.2
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91e79c87-9c70-4050-9a3f-236eff0be41d
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 0%
+source-wordcount: '1158'
+ht-degree: 1%
 
 ---
 
-# Übersicht über die Versionsaktivität 2018.2
+# Überblick über Version 2018.2
 
 >[!NOTE]
 >
 > Die Version 18.2 wurde an den folgenden Daten in der Produktionsumgebung bereitgestellt:
 >
 >* Workfront Proof-Produktionsumgebung - Dienstag, 17. Juli
->* Workfront-Produktionsumgebung für Cluster 2 und 4  - Donnerstag, 19. Juli 
+>* Workfront-Produktionsumgebung für Cluster 2 und 4 - Donnerstag, 19. Juli 
 >* Workfront-Produktionsumgebung für Cluster 1, 3 und 5 - Freitag, 20. Juli
 >
 
@@ -48,7 +48,7 @@ Die Version 2018.2 enthält Verbesserungen sowohl für Workfront-Administratoren
 
 * [Symbolunterstützung für die neuen Projektlisten](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#icon-support-for-the-new-project-lists)
 * [Spaltenbreiten für Projektlisten ändern](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#resize-column-widths-for-project-lists)
-* [&#x200B; Feld „Große Miniaturansicht“ in Dokumentansichten hinzufügen](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#add-large-thumbnail-field-in-document-views)
+* [ Feld „Große Miniaturansicht“ in Dokumentansichten hinzufügen](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#add-large-thumbnail-field-in-document-views)
 * [Schnellfilter für Projektlisten](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#quick-filters-for-project-lists) 
 * [Excel-Exportbeschränkung erhöhen](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#increase-excel-export-limit) 
 * [Support für Google Team Drives](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#support-for-google-team-drives) 
@@ -137,7 +137,7 @@ Die Version 2018.2 enthält Verbesserungen sowohl für Workfront-Administratoren
 * [Verbesserte Suchrelevanz für mehrere Wörter](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md#search-for-phrases) 
 * [Verbesserungen für Mobilgeräte](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#mobile-improvements)
 * [Verschiedene Links wurden wieder zu Dokumenten in der Dokumentliste hinzugefügt](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#various-links-reintroduced-to-documents-on-the-document-list)
-* [E-Mail-Benachrichtigungen für Kommentare zu Dokumenten &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#receive-email-notifications-for-comments-on-documents)!
+* [E-Mail-Benachrichtigungen für Kommentare zu Dokumenten ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#receive-email-notifications-for-comments-on-documents)!
 
 * [System-getrackte Updates enthalten kein Symbol mehr](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#system-tracked-updates-no-longer-contain-an-icon) Neu!
 
@@ -202,8 +202,8 @@ Zu diesen Funktionen gehören:
 
   Weitere Informationen finden Sie in den folgenden Ressourcen:
 
-   * [Testsendungen im Web Proofing Viewer überprüfen](https://support.workfront.com/hc/en-us/sections/115000275214)
-   * [Testsendungen im Desktop Proofing Viewer überprüfen](https://support.workfront.com/hc/en-us/sections/360000686434)
+   * [Überprüfen von Korrekturabzügen in der Web-Korrekturabzugsanzeige](https://support.workfront.com/hc/en-us/sections/115000275214)
+   * [Überprüfen von Korrekturabzügen im Desktop Proofing Viewer](https://support.workfront.com/hc/en-us/sections/360000686434)
 
 ### Die Unterstützung für das Microsoft Outlook-Add-in endet {#microsoft-outlook-add-in-support-is-ending}
 
@@ -215,11 +215,11 @@ Wenn Sie das neue Workfront für Outlook in einer Ihrer Umgebungen installieren,
 
 Verwenden Sie die folgenden Ressourcen, um mehr über Workfront für Outlook und die ersten Schritte zu erfahren:
 
-* [Website und Video](https://business.adobe.com/de/products/workfront/integrations.html) 
+* [Website und Video](https://business.adobe.com/products/workfront/integrations.html) 
 * [Verwenden von Workfront mit Outlook](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) (Hilfeartikel)
 
 ### Alte API-Versionen entfernen {#removing-old-api-versions}
 
 Im Rahmen unserer ständigen Bemühungen, unsere API zu verbessern, entfernen wir alte API-Versionen, die nicht mehr mit neueren Versionen von Workfront kompatibel sind.
 
-Weitere Informationen finden [&#x200B; unter „API-Versionierung &#x200B;](../../../../wf-api/api/api-version-support-schedule.md) Support-Zeitplan“. 
+Weitere Informationen finden [ unter „API-Versionierung ](../../../../wf-api/api/api-version-support-schedule.md) Support-Zeitplan“. 

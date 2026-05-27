@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Funktion wurde in der Vorschau 2016 verfügbar gemacht
+title: Funktion wurde 2016 in der Vorschau verfügbar gemacht
 description: Die folgenden Funktionen wurden 2016 in der Vorschau-Umgebung bereitgestellt. Diese Funktionen sollen mit der R1-Version in die Produktionsumgebung übertragen werden.
 author: Luke
 feature: Product Announcements
@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
 source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 0%
+source-wordcount: '712'
+ht-degree: 1%
 
 ---
 
-# Funktion wurde in der Vorschau 2016 verfügbar gemacht
+# Funktion wurde 2016 in der Vorschau verfügbar gemacht
 
 Die folgenden Funktionen wurden 2016 in der Vorschau-Umgebung bereitgestellt. Diese Funktionen sollen mit der R1-Version in die Produktionsumgebung übertragen werden.
 

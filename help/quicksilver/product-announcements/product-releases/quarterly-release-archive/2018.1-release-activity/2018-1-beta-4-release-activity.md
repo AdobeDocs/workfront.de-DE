@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Versionsaktivität von Beta 4 2018.1
+title: Veröffentlichungen für Version 2018.1 Beta 4
 description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 4 Version 2018.1 verfügbar waren. Die Funktion wurde am 24. Januar 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird ab März 2018 in der Produktionsumgebung verfügbar sein.
 author: Luke
 feature: Product Announcements
@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 8e016f12-bc72-475c-a8cc-38ded4351f88
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '2435'
-ht-degree: 0%
+source-wordcount: '2444'
+ht-degree: 1%
 
 ---
 
-# Versionsaktivität von Beta 4 2018.1
+# Veröffentlichungen für Version 2018.1 Beta 4
 
 Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 4 Version 2018.1 verfügbar waren. Die Funktion wurde am 24. Januar 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird ab März 2018 in der Produktionsumgebung verfügbar sein.
 
@@ -22,7 +22,7 @@ Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorscha
 >
 > Die auf dieser Seite beschriebene Funktion kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller Änderungen in Version 2018.1 finden Sie unter  Übersicht über die Versionsaktivität [2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+Eine Liste aller in 2018.1 vorgenommenen Änderungen finden Sie unter [Übersicht über die Versionsaktivität von 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
 Die Beta-Version 2018.1 4 enthält Verbesserungen für Workfront-Administratoren und andere Benutzende:
 
@@ -41,7 +41,7 @@ Die Beta-Version 2018.1 4 enthält Verbesserungen für Workfront-Administratoren
 * [Entfernen des Objekts „Ressource budgetiert Stunde“ aus Workfront](#remove-the-resource-budgeted-hour-object-from-workfront)
 * [Nutzungsstatistiken von Berichten](#report-usage-statistics)
 * [Gantt-Diagramm - Aktualisierungen](#gantt-chart-updates)
-* [Neuer Portfolio-Optimizer](#new-portfolio-optimizer)
+* [Neuer Portfolio Optimizer](#new-portfolio-optimizer)
 * [Option „Budgetdatumsanpassung“ im Ressourcenplaner](#budget-date-adjustment-option-in-the-resource-planner)
 * [Ressourcenplanung: Beschränken Sie Zuweisungen an Benutzer auf Grundlage der Gruppenmitgliedschaft](#resource-scheduling-restrict-assignments-to-users-based-on-group-membership)
 * [Ressourcenplanung: Zuweisungen an Benutzer unabhängig von deren Rolle zulassen](#resource-scheduling-allow-assignments-to-users-regardless-of-role)
@@ -139,7 +139,7 @@ Zusätzlich zu einem verbesserten Benutzererlebnis beim Erstellen von Korrektura
 >
 >Diese neue Seite zur Erstellung von Korrekturabzügen in Workfront Proof entspricht jetzt der Seite zur Erstellung von Korrekturabzügen, die kürzlich in Workfront bei der Erstellung von Korrekturabzügen zur Verfügung gestellt wurde. 
 
-Weitere Informationen finden Sie unter  [Erstellen von Testsendungen in Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
+Weitere Informationen finden Sie unter [Erstellen von Testsendungen in Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
 
 ## Proofing-Verbesserungen in Workfront und Workfront Proof {#proofing-improvements-within-workfront-and-workfront-proof}
 
@@ -225,7 +225,7 @@ Der Auslastungsbericht enthält die folgenden Verbesserungen:
 
   Vor dieser Änderung mussten Sie auf „Ausführen“ klicken, bevor der Bericht ausgeführt wurde.
 
-* Verbesserte Leistung
+* Verbesserte Performance
 
 Weitere Informationen zum Auslastungsbericht finden Sie unter [Übersicht über den Ressourcenauslastungsbericht](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
@@ -273,9 +273,9 @@ Weitere Informationen zum Gantt-Diagramm finden Sie unter [Informationen in der 
 
 ## Neuer Portfolio Optimizer {#new-portfolio-optimizer}
 
-Der Bereich Portfolio-Optimizer von Workfront wurde nun mit einem neuen Look-and-Feel aktualisiert. Die Funktionalität hat sich nicht geändert.
+Der Portfolio Optimizer-Bereich von Workfront wurde nun mit einem neuen Look-and-Feel aktualisiert. Die Funktionalität hat sich nicht geändert.
 
-Weitere Informationen zum Portfolio-Optimizer finden Sie unter Übersicht über den [Portfolio-Optimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
+Weitere Informationen zu Portfolio Optimizer finden Sie unter [Übersicht über Portfolio Optimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
 
 ## Budgetdatumsanpassungsoption im Ressourcenplaner {#budget-date-adjustment-option-in-the-resource-planner}
 

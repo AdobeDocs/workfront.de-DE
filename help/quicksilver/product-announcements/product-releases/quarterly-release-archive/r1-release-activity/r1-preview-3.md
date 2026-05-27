@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: R1-Vorschau 3
+title: R1-Vorschau 3
 description: Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschau-Umgebung mit der Version R1.3 verfügbar sind. Die Funktion auf dieser Seite wurde am 1. Februar 2017 in der Vorschau-Umgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements
@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: d1502a17-b131-4d29-9b0c-03ad44be4ba6
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1347'
+source-wordcount: '1353'
 ht-degree: 2%
 
 ---
 
-# R1-Vorschau 3
+# R1-Vorschau 3
 
 Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschau-Umgebung mit der Version R1.3 verfügbar sind. Die Funktion auf dieser Seite wurde am 1. Februar 2017 in der Vorschau-Umgebung verfügbar gemacht.
 
@@ -22,13 +22,13 @@ Eine Liste aller in R1 vorgenommenen Änderungen finden Sie unter [R1-Versionsak
 
 ## Verbessertes Verfahren zum Verknüpfen externer Dateien
 
-Die Option zum Verknüpfen von Dokumenten aus einer externen Quelle (z. B. Google Drive, Box, Dropbox usw.) befindet sich jetzt an einer prominenteren Stelle im Bereich Dokumente . 
+Die Option zum Verknüpfen von Dokumenten aus einer externen Quelle (z. B. Google Drive, Box, Dropbox usw.) befindet sich jetzt an prominenterer Stelle im Bereich Dokumente . 
 
 Darüber hinaus ist die Aktion, einen Dokumentanbieter vor der erstmaligen Verknüpfung von Dateien von diesem Anbieter zu autorisieren, jetzt intuitiver (es ist einfach ein zusätzlicher Schritt beim Verknüpfen von Dateien von einem externen Anbieter).
 
 Vor diesen Änderungen befand sich die Option zum Verknüpfen von Dateien aus einer externen Quelle im Dialogfeld Dokumente hinzufügen im Bereich Dokumente . Vor dem erstmaligen Verknüpfen eines Dokuments aus einer externen Quelle musste der Benutzer, der das Dokument verknüpft, diesen Dokumentanbieter im Bereich „Setup“ autorisieren.
 
-Weitere Informationen finden Sie unter  [Verknüpfen von Dokumenten aus externen Anwendungen](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Weitere Informationen finden Sie unter [Verknüpfen von Dokumenten aus externen Anwendungen](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 ## Aktualisiertes Team, das am Kalender arbeitet
 
@@ -117,7 +117,7 @@ In den folgenden Bereichen wird der aktualisierte Name der Objekte nicht angezei
 * Ressourcenraster
 * Team Builder
 * Portfolio Optimizer 
-* Mobile Apps
+* Apps
 * Outlook-Add-in
 
 Weitere Informationen zum Anpassen der Workfront-Terminologie mithilfe einer Layout-Vorlage finden Sie im Abschnitt „Anpassen der Terminologie“ in „Erstellen und Verwalten von Layout-Vorlagen“ und im Abschnitt „Auswirkungen der Anpassung von Objektnamen“ in [Grundlegendes zu Objekten in Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
@@ -129,7 +129,7 @@ Beim Erstellen oder Ändern von Berichten können Sie jetzt die folgenden Felder
 * Genehmigungspfad – Startdatum
 * Genehmigungspfad - Abschlussdatum
 
-In diesen Feldern können Sie sehen, wann der aktuelle oder letzte Genehmigungspfad gestartet und als abgeschlossen markiert wurde.
+In diesen Feldern können Sie insight zu dem Zeitpunkt hinzufügen, an dem der aktuelle oder letzte Genehmigungspfad gestartet und als abgeschlossen markiert wurde.
 
 Weitere Informationen zu diesen Feldern finden Sie unter [Glossar der Adobe Workfront-Terminologie](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 

@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Versionsaktivität von Beta 2 2018.3
+title: Veröffentlichungen für Version 2018.3 Beta 2
 description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 2 Version 2018.3 verfügbar waren. Die Funktion ist ab dem 1. August 2018 in der Vorschau-Umgebung verfügbar. Die mit Beta 2 veröffentlichten Proofing-Verbesserungen sind ab Mittwoch, 18. Juli in der Vorschau-Umgebung verfügbar. Sie wird im November 2018 in der Produktionsumgebung bereitgestellt.
 author: Luke
 feature: Product Announcements
@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 97945661-e97d-43c8-b564-624c4388de2f
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 0%
+source-wordcount: '913'
+ht-degree: 1%
 
 ---
 
-# Versionsaktivität von Beta 2 2018.3
+# Veröffentlichungen für Version 2018.3 Beta 2
 
 Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 2 Version 2018.3 verfügbar waren. Die Funktion ist ab dem 1. August 2018 in der Vorschau-Umgebung verfügbar. Die mit Beta 2 veröffentlichten Proofing-Verbesserungen sind ab Mittwoch, 18. Juli in der Vorschau-Umgebung verfügbar. Sie wird im November 2018 in der Produktionsumgebung bereitgestellt.
 
@@ -22,7 +22,7 @@ Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorscha
 >
 > Die auf dieser Seite beschriebene Funktion kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller Änderungen in Version 2018.3 finden Sie unter  [Übersicht über die Versionsaktivität 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Eine Liste aller in 2018.3 vorgenommenen Änderungen finden Sie unter [Übersicht über die Versionsaktivität 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
 Die Beta-Version 2018.3 enthält Verbesserungen sowohl für Workfront-Administratoren als auch für andere Benutzer:
 
@@ -81,7 +81,7 @@ Wenn Sie Aufgaben und Probleme in Ihrer Zeitleiste minimieren, werden sie jetzt 
 
 Wenn Sie bisher Aufgaben und Probleme minimiert haben, blieben die Aufgaben und Probleme auf der Zeitleiste für die Planung für Benutzer und Rollen, wurden jedoch in einer komprimierten Ansicht angezeigt.
 
-Weitere Informationen zum Minimieren von Aufgaben und Problemen in der Zeitplanung finden Sie unter  „Erste Schritte mit der Ressourcenplanung“.
+Weitere Informationen zum Minimieren von Aufgaben und Problemen in der Zeitplanung finden Sie unter „Erste Schritte mit der Ressourcenplanung“.
 
 ## Filtern von Kommentaren und Antworten nach Benutzer im Proofing Viewer {#filter-comments-and-replies-by-user-in-the-proofing-viewer}
 
@@ -109,4 +109,4 @@ Wir haben Flash aus den folgenden Freigabedialogen in Workfront entfernt:
 * Kalender
 * Dokumente
 
-Sie können diese Objekte weiterhin freigeben, wie Sie es zuvor getan haben, aber jetzt ist das Erlebnis nicht mehr vom Flash abhängig.
+Sie können diese Objekte weiterhin wie zuvor freigeben, aber jetzt beruht das Erlebnis nicht mehr auf Flash.

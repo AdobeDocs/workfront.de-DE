@@ -8,7 +8,7 @@ role: Developer
 exl-id: 882b657a-1bde-4efd-93e8-1de80c065b2d
 source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '270'
 ht-degree: 1%
 
 ---
@@ -21,11 +21,11 @@ Die Workfront Proof-API ist ein einfacher HTTP-Service, der mit SSL gesichert wi
 
 ## Unterstützte Formate
 
-Die öffentliche Schnittstelle ist SOAP 1.1-kompatibel mit WSDL-Unterstützung. Alle Anfragen werden daher mit XML über HTTPS ausgeführt.
+Die öffentliche Benutzeroberfläche ist mit SOAP 1.1 kompatibel und unterstützt WSDL. Alle Anfragen werden daher mit XML über HTTPS ausgeführt.
 
 ## API-Versionierung
 
-Um die Kompatibilität mit den vorhandenen Client-Integrationen zu wahren, haben wir die API-Versionierung ab unserer Version 12.1 eingeführt. Siehe  [API-](https://api.proofhq.com/new-updates.html)) für weitere Informationen. Wenn eine Methode oder ein Parameter keine Versionsinformationen enthält, bedeutet dies, dass Sie dies als Teil unserer Standard-API finden, siehe den Abschnitt „Erste Schritte mit der API“ unten.
+Um die Kompatibilität mit den vorhandenen Client-Integrationen zu wahren, haben wir die API-Versionierung ab unserer Version 12.1 eingeführt. Weitere Informationen finden Sie auf [ Seite ](https://api.proofhq.com/new-updates.html)API-Updates“. Wenn eine Methode oder ein Parameter keine Versionsinformationen enthält, bedeutet dies, dass Sie dies als Teil unserer Standard-API finden, siehe den Abschnitt „Erste Schritte mit der API“ unten.
 
 ## Erste Schritte mit der API
 

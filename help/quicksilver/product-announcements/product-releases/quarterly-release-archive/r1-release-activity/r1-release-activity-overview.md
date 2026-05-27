@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Übersicht über die R1-Versionsaktivität
+title: Überblick über R1-Veröffentlichungen
 description: Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der R1-Version enthalten sind.
 author: Luke
 feature: Product Announcements
@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 134e4d1a-0acf-4ecb-b409-23f26b68c3f6
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 0%
+source-wordcount: '903'
+ht-degree: 1%
 
 ---
 
-# Übersicht über die R1-Versionsaktivität
+# Überblick über R1-Veröffentlichungen
 
 Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der R1-Version enthalten sind. 
 
