@@ -7,8 +7,8 @@ feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
 source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
-source-wordcount: '1556'
-ht-degree: 0%
+source-wordcount: '1563'
+ht-degree: 2%
 
 ---
 
@@ -34,7 +34,7 @@ Weitere Informationen zum Arbeiten mit Abonnements finden Sie unter [Über das A
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,8 +49,8 @@ Weitere Informationen zum Arbeiten mit Abonnements finden Sie unter [Über das A
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz</strong></td> 
    <td> 
-   <p>Mitwirkender oder höher</p>
-   <p>Anfrage oder höher</p> </td> 
+   <p>Mitwirkende oder höher</p>
+   <p>Anfragende oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen der Zugriffsebene</strong></td> 
@@ -63,7 +63,7 @@ Weitere Informationen zum Arbeiten mit Abonnements finden Sie unter [Über das A
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -79,8 +79,8 @@ So abonnieren Sie beispielsweise ein Problem:
    >
    >Um Projekte zu abonnieren, haben Sie folgende Möglichkeiten:
    >
-   >* Gehen Sie zu dem Projekt, das Sie abonnieren möchten, klicken Sie auf das **[!UICONTROL Mehr]**-Symbol ![Mehr &#x200B;](assets/qs-more-menu.png) rechts neben dem Projektnamen und dann **[!UICONTROL Abonnieren]**.
-   >* Gehen Sie zu einer Projektliste oder einem Bericht und wählen Sie ein Projekt aus, klicken Sie oben in der Liste auf das **[!UICONTROL Mehr]**-Symbol ![Mehr &#x200B;](assets/qs-more-menu.png) und klicken Sie dann auf **[!UICONTROL Abonnieren]**. Dies ist nur in einer Liste von Projekten verfügbar.
+   >* Gehen Sie zu dem Projekt, das Sie abonnieren möchten, klicken Sie auf das **[!UICONTROL Mehr]**-Symbol ![Mehr ](assets/qs-more-menu.png) rechts neben dem Projektnamen und dann **[!UICONTROL Abonnieren]**.
+   >* Gehen Sie zu einer Projektliste oder einem Bericht und wählen Sie ein Projekt aus, klicken Sie oben in der Liste auf das **[!UICONTROL Mehr]**-Symbol ![Mehr ](assets/qs-more-menu.png) und klicken Sie dann auf **[!UICONTROL Abonnieren]**. Dies ist nur in einer Liste von Projekten verfügbar.
 
 1. Klicken Sie auf **[!UICONTROL Mehr]** ![Mehr-Symbol](assets/more-icon.png) und dann auf **[!UICONTROL Abonnieren]**.
 
@@ -113,7 +113,7 @@ Um beispielsweise das Abonnement für ein Problem zu kündigen:
 
    ![Abo von einem Arbeitselement beenden](assets/unsubscribe-to-a-work-item-350x258.png)
 
-1. Sie können ein Abonnement auch kündigen, indem Sie in der Abonnement-E[!UICONTROL Mail auf den Link &#x200B;]Abmelden“ klicken.
+1. Sie können ein Abonnement auch kündigen, indem Sie in der Abonnement-E[!UICONTROL Mail auf den Link ]Abmelden“ klicken.
 
    Sobald Sie ein Abonnement für ein Element gekündigt haben, erhalten Sie keine Benachrichtigung mehr, wenn jemand das Problem kommentiert.
 
@@ -167,7 +167,7 @@ Wenn jemand einen Kommentar zur Registerkarte [!UICONTROL Aktualisierungen] des 
 1. Klicken Sie auf die Nummernblase neben dem Link **[!UICONTROL Abonnieren]** oder **[!UICONTROL Abmelden]**.
 1. Auf der **[!UICONTROL Abonnenten]** Seite, die angezeigt wird, klicken Sie auf das „X“ neben dem Namen des Benutzers, den Sie abmelden möchten.
 
-   Oder
+   ODER
 
    Geben Sie den Namen des Benutzers in das Feld **[!UICONTROL Suche nach Personen in der Liste]** ein und klicken Sie dann auf das „X“ rechts neben dem Namen des Benutzers.
 
@@ -219,7 +219,7 @@ Beachten Sie bei der Arbeit mit Abonnements Folgendes:
   Weitere Informationen zu E-Mail-Benachrichtigungen, die bei einem Kommentar zu einem Ihrer Elemente Trigger verursachen, finden Sie unter [Adobe Workfront-Benachrichtigungen](../../workfront-basics/using-notifications/wf-notifications.md).
 
 * Wenn Sie ein Element abonnieren und einen Kommentar dazu abgeben, erhalten Sie keine Abonnement-E-Mail über diesen Kommentar, es sei denn, Sie geben Ihren Namen in den Kommentar ein.
-* Wenn der Benutzer, der das Element kommentiert, den Kommentar durch Sperren des Kommentars privat macht und Sie nicht Teil derselben Firma sind wie dieser Benutzer, erhalten Sie keine Benachrichtigung für diesen Kommentar. Weitere Informationen dazu, wie Sie einen Kommentar für Ihr Unternehmen privat machen, finden Sie [&#x200B; Abschnitt „Hinzufügen einer Aktualisierung zu einem Arbeitselement](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Arbeit aktualisieren](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+* Wenn der Benutzer, der das Element kommentiert, den Kommentar durch Sperren des Kommentars privat macht und Sie nicht Teil derselben Firma sind wie dieser Benutzer, erhalten Sie keine Benachrichtigung für diesen Kommentar. Weitere Informationen dazu, wie Sie einen Kommentar für Ihr Unternehmen privat machen, finden Sie [ Abschnitt „Hinzufügen einer Aktualisierung zu einem Arbeitselement](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Arbeit aktualisieren](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 * Es kann kein Bericht für Abonnements erstellt werden. Eine Prüfung wird im Aktualisierungsstatus jedes Elements aufgezeichnet, wenn sich jemand für das Element an- oder abmeldet.
 * Bei Kommentaren zu untergeordneten Objekten werden keine Abonnementbenachrichtigungen für übergeordnete Objekte in Trigger genommen. Wenn Sie ein Projekt abonnieren, erhalten Sie nur eine Benachrichtigung über Kommentare zu diesem Projekt. Sie erhalten keine Benachrichtigung über Kommentare zu untergeordneten Elementen, die mit dem Projekt verknüpft sind (d. h. Aufgaben oder Probleme), es sei denn, Sie abonnieren jedes untergeordnete Element. Weitere Informationen zu Objektbeziehungen finden Sie im Abschnitt [Interdependenz und Hierarchie von Objekten](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) in [Objekte verstehen in [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).

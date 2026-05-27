@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 5a7c4c8d-3136-4ea2-8b2c-98eed06822b0
 source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 ## Erstellen eines neuen Ordners der obersten Ebene {#creating-a-new-top-level-folder}
 
 1. Klicken Sie in der Seitenleiste auf den Dropdown-Pfeil (1) neben der grünen Schaltfläche **[!UICONTROL Neuer Korrekturabzug]**.
-1. Wählen Sie **[!UICONTROL Neuer Ordner]** aus. 2)\
+1. Wählen Sie **[!UICONTROL Neuer Ordner]** aus. (2)\
    Die [!UICONTROL Neuer Ordner] wird angezeigt.
 
 1. Fahren Sie mit [Konfigurieren des neuen Ordners](#configuring-the-new-folder) fort.\
@@ -52,9 +52,9 @@ So erstellen Sie einen Unterordner über die Seite [!UICONTROL Ordnerdetails]:
 
 1. Klicken Sie oben auf der Seite auf die Schaltfläche Neuer Unterordner (2).\
    Ein neuer Ordner wird in der Liste der Elemente im Ordner angezeigt.
-1. Geben Sie einen Namen für den neuen Unterordner ein. 3)
+1. Geben Sie einen Namen für den neuen Unterordner ein. (3)
 1. Drücken Sie **[!UICONTROL ENTER]**.\
-   Oder\
+   ODER\
    Klicken Sie außerhalb des Felds Ordnername .
 
 1. (Optional) Bearbeiten Sie die Details des neuen Unterordners auf der Seite Ordnerdetails .
@@ -96,7 +96,7 @@ In diesem Abschnitt können Sie die folgenden Informationen zu dem Ordner hinzuf
 * Ordnername: Dieses Feld ist obligatorisch (1)
 * Wenn Sie auf den Link [!UICONTROL Liste anzeigen] (2) klicken, wird ein Popup mit einer Liste von Personen angezeigt, für die dieser Ordner freigegeben ist. Diese Information ist besonders nützlich, wenn Sie Unterordner erstellen, da Unterordner automatisch für dieselben Personen wie der übergeordnete Ordner freigegeben werden
 * Beschreibung (3) - Hier können Sie eine kurze Beschreibung des Ordners hinzufügen. Diese wird auf der Seite Ordnerdetails angezeigt.
-* Ordner als privat festlegen (4): Wenn Sie das Kontrollkästchen aktivieren, wird dieser Ordner privat (sodass nur für die Personen sichtbar ist, für die Sie den Ordner explizit freigeben, und für die Benutzer in Ihrem Konto mit den Profilen [Korrekturabzugsberechtigungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md), [Korrekturabzugsberechtigungsprofile in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) oder [Korrekturabzugsberechtigungsprofile in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) ). Weitere Informationen zu privaten [&#x200B; öffentlichen Ordnern in Workfront Proof finden  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md) unter „Grundlegendes zu in“.
+* Ordner als privat festlegen (4): Wenn Sie das Kontrollkästchen aktivieren, wird dieser Ordner privat (sodass nur für die Personen sichtbar ist, für die Sie den Ordner explizit freigeben, und für die Benutzer in Ihrem Konto mit den Profilen [Korrekturabzugsberechtigungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md), [Korrekturabzugsberechtigungsprofile in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) oder [Korrekturabzugsberechtigungsprofile in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) ). Weitere Informationen zu privaten [ öffentlichen Ordnern in Workfront Proof finden  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md) unter „Grundlegendes zu in“.
 
 ![New_folder_page_-_folder_details.png](assets/new-folder-page---folder-details-350x133.png)
 

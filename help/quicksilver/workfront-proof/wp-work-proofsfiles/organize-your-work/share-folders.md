@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 57f846a1-f315-42c1-911a-cfbc8b4879ba
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Sie können auch Elemente in einem Ordner (anstelle des Ordners selbst) freigebe
 1. Klicken Sie in der linken **[!UICONTROL auf]** Registerkarte „Ordner“.
 1. Klicken Sie auf den Namen des Ordners, der die Ordner enthält, die Sie freigeben möchten.
 1. Klicken Sie in der rechts angezeigten Ordnerliste auf das Kontrollkästchen links neben jedem Ordner, den Sie freigeben möchten.\
-   Oder\
+   ODER\
    Aktivieren Sie das Kontrollkästchen über der Ordnerliste, um alle Ordner in der Liste auszuwählen.
 
 1. Klicken Sie **[!UICONTROL Ausgewählte Elemente freigeben]**.\
@@ -74,7 +74,7 @@ Wenn jemand einen Ordner für Sie freigibt, wird er in der Seitenleiste seines [
 
 1. Klicken Sie auf den Link in der Benachrichtigungs-E-Mail, die Sie erhalten.
 1. Melden Sie sich bei [!DNL Workfront Proof] an.\
-     [!DNL &#x200B; Workfront Proof] zeigt die Seite Ordnerdetails an. Weitere Informationen finden Sie unter [Verwalten von Ordnern und ihrem Inhalt in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
+     [!DNL  Workfront Proof] zeigt die Seite Ordnerdetails an. Weitere Informationen finden Sie unter [Verwalten von Ordnern und ihrem Inhalt in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
 
 ## Über die Freigabe von Unterordnern
 
@@ -97,4 +97,4 @@ Die Freigabe eines Ordners für einen Partner bedeutet:
 * Alle Benutzer in dieser Organisation haben schreibgeschützten Zugriff auf den Ordner (und die Ordnerelemente).
 * Alle neuen Benutzer, die der Organisation hinzugefügt werden, haben automatisch schreibgeschützten Zugriff auf den Ordner (und alle Elemente im Ordner).
 
-Weitere Informationen [&#x200B; Sie unter „Freigeben von Elementen für einen  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md) in“.
+Weitere Informationen [ Sie unter „Freigeben von Elementen für einen  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md) in“.

@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 exl-id: 42771f71-dbf8-4e73-9a0e-8efea612af4a
 source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1348'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
   </tr> 
   <tr> 
    <td> <p><strong>Ein Dokument zu einem Problem, für das ich der primäre Ansprechpartner bin, wurde geändert oder hochgeladen</strong> </p> <p>Der primäre Kontakt des Problems erhält eine E-Mail-Benachrichtigung, wenn ein Dokument zu dem Problem hochgeladen oder geändert wird, es sei denn, der Benutzer, der das Dokument hochgeladen oder geändert hat, ist auch der primäre Kontakt.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn das Projekt als [!UICONTROL Help Request Queue] eingerichtet ist (wie in <a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">[!UICONTROL Create a Request Queue] beschrieben</a>.</p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail lautet: <em>Dokument hinzugefügt zu &lt;Name des Problems&gt;</em></p> <p>Der Betreff der täglichen Digest-Benachrichtigung ist: <em>Zusammenfassung Ihrer Anfragen &lt;Datum der täglichen Digest&gt;</em></p> </td> 
-   <td> Objektname, in den das Dokument hochgeladen wurde<br>Übergeordneter Objektname<br>Dokumentreferenznummer<br>Name des Benutzers, der das Dokument hochgeladen hat<br>Dokumentname<br>Am Datum hinzugefügt<br>Dokumentdetails (Format, Größe, Versionsnummer)<br>Dokumentminiaturansicht<br><strong>[!UICONTROL -Vorschau]</strong> und <strong>[!UICONTROL -Download]</strong>-Schaltflächen<br>*Projektname<br>*Projektreferenznummer<br>*Gesamtzahl der hochgeladenen Dokumente<br>*Name des Dokuments<br>*Name des übergeordneten Objekts<br>*Name des Benutzers, der das Dokument hinzugefügt hat<br>*Datum der täglichen Zusammenfassung </td> 
+   <td> Objektname, in den das Dokument hochgeladen wurde<br>Übergeordneter Objektname<br>Dokumentreferenznummer<br>Name des Benutzers, der das Dokument hochgeladen hat<br>Dokumentname<br>Am Datum hinzugefügt<br>Dokumentdetails (Format, Größe, Versionsnummer)<br>Dokumentminiaturansicht<br><strong>[!UICONTROL-Vorschau]</strong> und <strong>[!UICONTROL-Download]</strong>-Schaltflächen<br>*Projektname<br>*Projektreferenznummer<br>*Gesamtzahl der hochgeladenen Dokumente<br>*Name des Dokuments<br>*Name des übergeordneten Objekts<br>*Name des Benutzers, der das Dokument hinzugefügt hat<br>*Datum der täglichen Zusammenfassung </td> 
    <td><strong>Täglich</strong> </td> 
   </tr> 
   <tr> 
@@ -56,7 +56,7 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
   </tr> 
   <tr> 
    <td> <p><strong>Ich füge einem Projekt eine Anfrage hinzu</strong> </p> <p>Der primäre Kontakt für ein Problem erhält eine Benachrichtigung, wenn er ein Problem in einem Projekt hinzufügt.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus [!UICONTROL Current] oder [!UICONTROL Planning] ist.</p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail ist: <em>[!UICONTROL Problem gesendet]: &lt;Problemname&gt; am &lt;Projektname&gt;</em></p> <p>Der Betreff der täglichen Digest-Benachrichtigung ist: <em> Zusammenfassung Ihrer Anfragen &lt;Datum der täglichen Digest&gt;</em></p> </td> 
-   <td> Projektname<br>Portfolio Primär-Name<br>Problem-Referenznummer<br>Ihr Name<br>Problem-Name<br>Datum eingegeben<br>Problem-Priorität<br>Problem-Status<br>Zugeordneter Kontakt<br>*Projektname<br>*Projekt-Referenznummer<br>*Gesamtzahl der hinzugefügten Probleme<br>*Problem-Name<br>*Datum der täglichen Zusammenfassung<br> </td> 
+   <td> Projektname<br>Portfolio-Name<br>Problem-Referenznummer<br>Ihr Name<br>Problem-Name<br>Datum eingegeben<br>Problem-Priorität<br>Problem-Status<br>Zugeordneter Kontakt<br>*Projektname<br>*Projekt-Referenznummer<br>*Gesamtzahl der hinzugefügten Probleme<br>*Problem-Name<br>*Datum der täglichen Zusammenfassung <br></td> 
    <td> <p><strong>Instant</strong> </p> <p><strong>und täglich</strong> </p> </td> 
   </tr> 
   <tr> 

@@ -63,7 +63,7 @@ Wenn Sie eine vorhandene Aufgabe zu einer Iteration hinzufügen, werden standard
    * Für das Projekt ist kein [!UICONTROL Geplantes Startdatum] festgelegt.
    * Das Projekt [!UICONTROL Geplantes Startdatum] ist *vor* oder *am* Startdatum der Iteration.
 
-* Die Aufgabe verwendet das geplante [!UICONTROL &#x200B; des Projekts] wenn:
+* Die Aufgabe verwendet das geplante [!UICONTROL  des Projekts] wenn:
 
    * Das Projekt [!UICONTROL Geplantes Startdatum] ist *nach* dem Startdatum der Iteration.
 
@@ -71,10 +71,10 @@ Wenn Sie eine vorhandene Aufgabe zu einer Iteration hinzufügen, werden standard
 
 * Die Aufgabe verwendet das Enddatum der Iteration, wenn:
 
-   * Für das Projekt ist kein [!UICONTROL Geplantes Abschlussdatum“ &#x200B;].
+   * Für das Projekt ist kein [!UICONTROL Geplantes Abschlussdatum“ ].
    * Das Projekt [!UICONTROL Geplantes Startdatum] liegt *vor oder am* dem Startdatum der Iteration oder das [!UICONTROL Geplantes Abschlussdatum] des Projekts liegt *vor oder* dem Enddatum der Iteration.
 
-* Die Aufgabe verwendet das &quot;[!UICONTROL &#x200B; Abschlussdatum“ des Projekts] wenn:
+* Die Aufgabe verwendet das &quot;[!UICONTROL  Abschlussdatum“ des Projekts] wenn:
 
    * Das Projekt [!UICONTROL Geplantes Startdatum] ist *nach* dem Startdatum der Iteration und das [!UICONTROL Geplantes Abschlussdatum] des Projekts ist *nach* Enddatum der Iteration.
 
