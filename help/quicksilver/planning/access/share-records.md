@@ -9,7 +9,7 @@ hide: true
 exl-id: 9ffad1aa-3c96-40fa-9c62-7a3e00699f18
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+source-git-commit: f11daa69f72c32418298ac75f81b0fb64835d99b
 workflow-type: tm+mt
 source-wordcount: '1892'
 ht-degree: 2%
@@ -224,9 +224,9 @@ Als Workspace-Manager können Sie Berechtigungen an einzelne Datensätze anpasse
 
    1. Wählen **Deaktivieren** aus dem Dropdown **Menü „Übernommene Berechtigungen** aus.
 
-   >[!TIP]
-   >
-   >Workspace-Manager verfügen weiterhin über Verwaltungsberechtigungen für den Datensatztyp und den Datensatz.
+      >[!TIP]
+      >
+      >Workspace-Manager verfügen weiterhin über Verwaltungsberechtigungen für den Datensatztyp und den Datensatz.
 
    1. (Optional) Wählen Sie **Nur eingeladene Personen können zugreifen** im Bereich **Wer hat Zugriff** aus. Sie müssen einzelne Benutzer, Gruppen, Teams oder Unternehmen angeben, für die die Datensätze freigegeben werden sollen.
 
