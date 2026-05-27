@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 900e29200bef2d4f70b17cd810ea0e2b936c8aad
 workflow-type: tm+mt
-source-wordcount: '4400'
-ht-degree: 1%
+source-wordcount: '4458'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ Verwenden Sie den Workload Balancer in Adobe Workfront, um Benutzenden je nach V
 
 Der Workload Balancer ist in mehreren Bereichen von Adobe Workfront verfügbar. Die Navigation ist in allen Bereichen ähnlich.
 
-Weitere Informationen dazu, wo sich der Workload Balancer befindet, finden Sie unter [Suchen des Workload Balancer](https://experienceleague.adobe.com/de/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
+Weitere Informationen dazu, wo sich der Workload Balancer befindet, finden Sie unter [Suchen des Workload Balancer](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
 
 ## Zugriffsanforderungen
 
@@ -105,8 +105,8 @@ Weitere Informationen zum Anzeigen von Informationen im Workload Balancer finden
 
 Informationen zum Verwalten von Ressourcen mit dem Workload Balancer finden Sie auch in den folgenden Artikeln:
 
-* [Übersicht über die Zuweisung von Arbeit im Workload Balancer](https://experienceleague.adobe.com/de/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [Verwalten von Benutzerzuweisungen im Workload Balancer](https://experienceleague.adobe.com/de/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [Überblick über die Zuweisung von Arbeit im Workload Balancer](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [Verwalten von Benutzerzuordnungen im Workload Balancer](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 ## Navigieren im Workload Balancer für mehrere Projekte im Bereich Ressourcen
 

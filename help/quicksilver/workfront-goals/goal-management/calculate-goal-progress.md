@@ -11,7 +11,7 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
 source-wordcount: '795'
-ht-degree: 8%
+ht-degree: 9%
 
 ---
 
@@ -152,21 +152,21 @@ In der folgenden Tabelle sind die Beschriftungen der Zielbedingungen und die mit
   <tr> 
    <td> <p><span>Im Zielbereich</span> </p> </td> 
    <td>Das Ziel funktioniert wie erwartet und die Wahrscheinlichkeit ist hoch, dass es pünktlich abgeschlossen wird. </td> 
-   <td>90-100 %</td> 
+   <td>90-100%</td> 
    <td>Grün</td> 
     <td><img src="assets/on-target-icon-condition.png" alt="on_target_icon_condition.png"></td>
   </tr> 
   <tr> 
    <td> <p><span>Gefährdet</span> </p> </td> 
    <td>Das Ziel hinkt hinterher, aber es könnte noch möglich sein, es rechtzeitig abzuschließen. </td> 
-   <td>70-89,99 %</td> 
+   <td>70-89.99%</td> 
    <td>Gelb</td>
    <td><img src="assets/at-risk-icon-condition.png" alt="at_risk_icon_condition.png"></td> 
   </tr> 
   <tr> 
    <td> <p><span>In Schwierigkeiten</span> </p> </td> 
    <td> <p>Es ist sehr wahrscheinlich, dass das Ziel nicht rechtzeitig erreicht wird. </p> </td> 
-   <td>0-69,99 %</td> 
+   <td>0-69.99%</td> 
    <td>Rot</td> 
    <td><img src="assets/in-trouble-icon-condition.png" alt="in_Trouble_icon_condition.png"></td> 
   </tr> 

@@ -10,8 +10,8 @@ role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
 source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
-source-wordcount: '3649'
-ht-degree: 2%
+source-wordcount: '3700'
+ht-degree: 4%
 
 ---
 
@@ -62,7 +62,7 @@ Beim Hinzufügen einer Integration gibt der Administrator Werte für die folgend
   </tr> 
   <tr> 
    <td>Anfrageparameter</td> 
-   <td> <p>Optionale Werte, die an die Abfragezeichenfolge eines jeden API-Aufrufs anzuhängen sind. Beispiel: access_type=offline.</p> </td> 
+   <td> <p>Optionale Werte, die an die Abfragezeichenfolge jedes API-Aufrufs anzuhängen sind. Beispiel: access_type=offline.</p> </td> 
   </tr> 
   <tr> 
    <td>Authentifizierungstyp</td> 
@@ -81,7 +81,7 @@ Beim Hinzufügen einer Integration gibt der Administrator Werte für die folgend
    <td>(Nur OAuth2) Die OAuth2-Client-ID für diese Integration.</td> 
   </tr> 
   <tr> 
-   <td>Geheimer Client-Schlüssel</td> 
+   <td>Client-Geheimnis</td> 
    <td> <p>(Nur OAuth2) Der geheime OAuth2-Client-Schlüssel für diese Integration.</p> </td> 
   </tr> 
   <tr> 
@@ -146,7 +146,7 @@ Dies kann beispielsweise für die Standardauthentifizierung verwendet werden. Da
 
    Zulassung Basic QWxhZGRpbjpvcGVuIHNlc2FtZQ==
 
-wobei QWxhZGRpbjpvcGVuIHNlc2FtZQ== eine base-64-kodierte Zeichenfolge von „username:password“ ist. Siehe Standardauthentifizierung. Sofern dies hinzugefügt wurde, übergibt Workfront dies zusätzlich zu anderen Anfrage-Headern in der HTTP-Anfrage-Kopfzeile:
+wobei QWxhZGRpbjpvcGVuIHNlc2FtZQ== eine base-64-codierte Zeichenfolge von „username:password&quot; ist. Siehe Standardauthentifizierung. Sofern dies hinzugefügt wurde, übergibt Workfront dies zusätzlich zu anderen Anfrage-Headern in der HTTP-Anfrage-Kopfzeile:
 
 ```
 ­­­­­­­­­­­­­­­­­­­­­­­­­­-------------------------------
@@ -232,17 +232,17 @@ Die URL ist konfigurierbar und entspricht dem Token-Endpunkt-URL-Wert auf der Se
  <tbody> 
   <tr> 
    <td>access_token </td> 
-   <td>Zeichenfolge</td> 
+   <td>String</td> 
    <td> <p>Ein Token, das verwendet wird, um autorisierte API-Aufrufe im Namen des Benutzers durchzuführen. Dieser sollte ablaufen, um nicht autorisierte API-Aufrufe zu verhindern.</p> </td> 
   </tr> 
   <tr> 
    <td>refresh_token </td> 
-   <td>Zeichenfolge</td> 
+   <td>String</td> 
    <td> <p>Ein langlebiges Token, mit dem ein neues Zugriffs-Token abgerufen wird, indem diese API-Methode aufgerufen wird.</p> </td> 
   </tr> 
   <tr> 
    <td>expires_in </td> 
-   <td>lang</td> 
+   <td>long</td> 
    <td>  <p>(Optional) Die Zeit (in Sekunden), bevor das Zugriffs-Token abläuft, im Allgemeinen 3.600.</p></td> 
   </tr> 
  </tbody> 
@@ -286,13 +286,13 @@ GET /metadata?id=[document or folder ID]
  <col> 
  <thead> 
   <tr> 
-   <th>-Name </th> 
+   <th>Name </th> 
    <th>Beschreibung</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>ID</td> 
+   <td>id</td> 
    <td>  <p>Die ID einer Datei oder eines Ordners, auf die bzw. den der Webhook-Anbieter verweist. Dies unterscheidet sich von der Dokument-ID von Workfront. Um die Metadaten des Stammverzeichnisses abzurufen, verwenden Sie den Wert "/".</p><p>Hinweis: Die maximale Länge für die ID beträgt 255 Zeichen.</p></td> 
   </tr> 
  </tbody> 
@@ -308,25 +308,25 @@ GET /metadata?id=[document or folder ID]
  <col> 
  <thead> 
   <tr> 
-   <th>-Name </th> 
+   <th>Name </th> 
    <th>Typ </th> 
    <th>Beschreibung</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Anrede </td> 
-   <td>Zeichenfolge </td> 
+   <td>title </td> 
+   <td>String </td> 
    <td>Der Name des Dokuments oder Ordners.</td> 
   </tr> 
   <tr> 
    <td>Art </td> 
-   <td>Zeichenfolge </td> 
+   <td>String </td> 
    <td>Gibt an, ob es sich bei diesem Element um eine Datei oder einen Ordner ('Datei' oder 'Ordner') handelt.</td> 
   </tr> 
   <tr> 
-   <td>ID</td> 
-   <td>Zeichenfolge </td> 
+   <td>id</td> 
+   <td>String </td> 
    <td>Die ID der Datei oder des Ordners.</td> 
   </tr> 
   <tr> 
@@ -341,16 +341,16 @@ GET /metadata?id=[document or folder ID]
   </tr> 
   <tr> 
    <td>mimeType</td> 
-   <td>Zeichenfolge </td> 
+   <td>String </td> 
    <td>(Optional) Der MIME-Typ für die Datei.</td> 
   </tr> 
   <tr> 
    <td>dateModified</td> 
-   <td>Zeichenfolge </td> 
+   <td>String </td> 
    <td>Letzter Änderungszeitpunkt dieser Datei (formatierter RFC 3339-Zeitstempel).</td> 
   </tr> 
   <tr> 
-   <td>Größe</td> 
+   <td>size</td> 
    <td>Lang</td> 
    <td>(Optional) Die Größe der Datei in Byte.</td> 
   </tr> 
@@ -393,7 +393,7 @@ GET /files
 
 **Abfrageparameter**
 
-| -Name  | Beschreibung |
+| Name  | Beschreibung |
 |---|---|
 | parentId  | Die Ordner-ID. Um die Metadaten des Stammverzeichnisses abzurufen, verwenden Sie den Wert &quot;/&quot;. |
 
@@ -440,7 +440,7 @@ Gibt Metadaten für die bei einer Suche zurückgegebenen Dateien und Ordner zur�
 
 **URL**
 
-GET /search
+GET/search
 
 **Abfrageparameter**
 
@@ -449,7 +449,7 @@ GET /search
  <col> 
  <thead> 
   <tr> 
-   <th>-Name </th> 
+   <th>Name </th> 
    <th>Beschreibung</th> 
   </tr> 
  </thead> 
@@ -490,7 +490,7 @@ Gibt die rohen Bytes für ein Dokument zurück.
 
 **URL**
 
-GET /download
+GET/Download
 
 **Abfrageparameter**
 
@@ -499,13 +499,13 @@ GET /download
  <col> 
  <thead> 
   <tr> 
-   <th>-Name </th> 
+   <th>Name </th> 
    <th>Beschreibung</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p>ID</p> </td> 
+   <td> <p>id</p> </td> 
    <td> Die Dokument-ID.</td> 
   </tr> 
  </tbody> 
@@ -525,14 +525,14 @@ Gibt die rohen Miniaturbyte für ein Dokument zurück.
 
 **URL**
 
-GET/Thumbnail
+GET/thumbnail
 
 **Abfrageparameter**
 
-| -Name  | Beschreibung |
+| Name  | Beschreibung |
 |---|---|
-| ID  | Die Dokument-ID. |
-| Größe  | Die Breite der Miniaturansicht. |
+| id  | Die Dokument-ID. |
+| size  | Die Breite der Miniaturansicht. |
 
 {style="table-layout:auto"}
 
@@ -561,7 +561,7 @@ POST/uploadInit
  <col> 
  <thead> 
   <tr> 
-   <th>-Name </th> 
+   <th>Name </th> 
    <th>Beschreibung</th> 
   </tr> 
  </thead> 
@@ -607,14 +607,14 @@ PUT/Upload
 
 **Abfrageparameter**
 
-| -Name  | Beschreibung |
+| Name  | Beschreibung |
 |---|---|
-| ID  |  Die Dokument-ID, die gerade erstellt wurde. |
+| id  |  Die Dokument-ID, die gerade erstellt wurde. |
 
 
  
 
-**Anfragetext**
+**Anfrageinhalt**
 
 Die Rohdaten-Inhaltsbytes für das Dokument.
 
@@ -650,11 +650,11 @@ oder
 
 **URL**
 
-GET /serviceInfo
+GET/serviceInfo
 
 Abfrageparameter
 
-Keine. Darüber hinaus sollten Aufrufe an diesen Endpunkt keine Authentifizierung erfordern.
+Kein. Darüber hinaus sollten Aufrufe an diesen Endpunkt keine Authentifizierung erfordern.
 
 **Antwort**
 
@@ -674,27 +674,27 @@ JSON mit Informationen zu diesem Service.
  <tbody> 
   <tr> 
    <td>webhookVersion </td> 
-   <td>Zeichenfolge </td> 
+   <td>String </td> 
    <td>Die Webhook-Version, die von diesem Service implementiert wird. Dies ist die Versionsnummer, die oben in dieser Spezifikation aufgeführt ist.</td> 
   </tr> 
   <tr> 
-   <td>Version </td> 
-   <td>Zeichenfolge </td> 
+   <td>version </td> 
+   <td>String </td> 
    <td>Die interne Versionsnummer für diesen Service. Diese Nummer wird vom Webhook-Dienstleister festgelegt und dient nur zu Informationszwecken.<br><br></td> 
   </tr> 
   <tr> 
    <td>Verleger </td> 
-   <td>Zeichenfolge </td> 
+   <td>String </td> 
    <td>Der Name des Unternehmens, das die Webhook-Implementierung bereitstellt.</td> 
   </tr> 
   <tr> 
    <td>availableEndpoints</td> 
-   <td>Zeichenfolge </td> 
+   <td>String </td> 
    <td>Eine Liste mit den API-Endpunkten, die von diesem Service implementiert wurden. Damit kann sichergestellt werden, dass die Benutzeroberfläche in Workfront die vom Webhook-Anbieter bereitgestellten Funktionen widerspiegelt. Jedes Element in der Liste muss den Namen des Endpunkts enthalten (z. B. „Suche„).</td> 
   </tr> 
   <tr> 
    <td>customActions </td> 
-   <td>Zeichenfolge</td> 
+   <td>String</td> 
    <td>  <p>Eine Liste mit den benutzerdefinierten Vorgängen, die von diesem Webhook implementiert wurden. Jedes Listenelement enthält einen Namen und einen Anzeigenamen. Der Anzeigename wird in der Dropdown-Liste Dokumentaktionen in Workfront angezeigt. Durch Klicken auf das Element in der Dropdown-Liste wird die Aktion im Webhook aufgerufen, indem der /customAction-Endpunkt aufgerufen wird.</p></td> 
   </tr> 
  </tbody> 
@@ -724,10 +724,10 @@ POST/createFolder
 
 **Abfrageparameter**
 
-| -Name  | Beschreibung |
+| Name  | Beschreibung |
 |---|---|
 | parentId  | Die Ordner-ID, in der der Ordner erstellt werden soll. |
-| -Name  | Der Name des neuen Ordners. |
+| name  | Der Name des neuen Ordners. |
 
 {style="table-layout:auto"}
 
@@ -768,11 +768,11 @@ Rückgabe
 
 URL
 
-PUT/Löschen
+PUT/delete
 
 **Abfrageparameter**
 
-| -Name  | Beschreibung |
+| Name  | Beschreibung |
 |---|---|
 | documentId  | Die zu löschende Dokument-ID. |
 | folderId  | Die zu löschende Ordner-ID. |
@@ -810,10 +810,10 @@ PUT/Umbenennen
 
 **Abfrageparameter**
 
-| -Name  | Beschreibung |
+| Name  | Beschreibung |
 |---|---|
-| ID | Die umzubenennende Dokument- oder Ordner-ID. |
-| -Name  | Der neue Name des Dokuments oder Ordners. |
+| id | Die umzubenennende Dokument- oder Ordner-ID. |
+| name  | Der neue Name des Dokuments oder Ordners. |
 
 {style="table-layout:auto"}
 
@@ -854,11 +854,11 @@ Der Webhook-Anbieter registriert benutzerdefinierte Aktionen bei Workfront, inde
 ![Benutzerdefinierte Aktion durchführen](assets/mceclip0-350x262.png)
 
 Benutzerinnen und Benutzer können Trigger zur benutzerdefinierten Aktion erstellen, indem sie den Abschnitt unter Dokumentaktionen auswählen.\
-![Benutzerdefinierte Aktionen für Trigger &#x200B;](assets/mceclip1-350x95.png)
+![Benutzerdefinierte Aktionen für Trigger ](assets/mceclip1-350x95.png)
 
 **URL**
 
-GET /customAction
+GET/customAction
 
 **Abfrageparameter**
 
@@ -867,13 +867,13 @@ GET /customAction
  <col>
  <thead>
   <tr>
-   <th>-Name </th>
+   <th>Name </th>
    <th>Beschreibung</th>
   </tr>
  </thead>
  <tbody>
   <tr>
-   <td><p>name</p></td>
+   <td><p>Name</p></td>
    <td><p>Die Kennung, die den Typ der auszuführenden Aktion angibt. Dieser Wert entspricht einem der customAction-Werte, die vom Endpunkt /serviceInfo zurückgegeben werden.</p></td>
   </tr>
   <tr>
@@ -893,7 +893,7 @@ GET /customAction
 
 Eine JSON-Zeichenfolge, die Erfolg oder Fehler anzeigt, wie im Abschnitt Fehlerbehandlung unten angegeben. Bei einem Fehler (d. h. Status = „Fehler„) zeigt Workfront dem Benutzer die bereitgestellte Fehlermeldung an.
 
-**Beispiel:** https://sample.com/webhooks/customName?name=archive&documentId=5502082c003a4f30 ddec2fb2b739cb7c&amp;documentVersionId=54b598a700e2342d6971597a5df1a8d3
+**Beispiel:** https://sample.com/webhooks/customName?name=archive&amp;documentId=5502082c003a4f30 ddec2fb2b739cb7c&amp;documentVersionId=54b598a700e2342d6971597a5df1a8d3
 
 Antwort
 
@@ -904,7 +904,7 @@ Antwort
 ```
 
 
-## Fehlerbehandlung
+## Umgang mit Fehlern
 
 Bei der Verarbeitung von API-Anfragen können Probleme auftreten. Dies sollte über alle API-Endpunkte hinweg konsistent gehandhabt werden. Wenn ein Fehler auftritt, führt der Webhook-Anbieter Folgendes aus:
 

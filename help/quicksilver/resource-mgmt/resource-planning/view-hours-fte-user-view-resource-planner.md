@@ -9,12 +9,12 @@ feature: Resource Management
 exl-id: 6b532aa2-435f-4fda-b7ce-abe0a785638f
 source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
 workflow-type: tm+mt
-source-wordcount: '1739'
-ht-degree: 1%
+source-wordcount: '1741'
+ht-degree: 2%
 
 ---
 
-# Verfügbare, geplante und tatsächliche Stunden oder FTE im Ressourcenplaner anzeigen, wenn Sie die Benutzeransicht verwenden
+# Anzeigen verfügbarer, geplanter und tatsächlicher Stunden oder FTE im Ressourcenplaner bei Verwendung der Benutzeransicht
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Consider renaming this article (probably split already) to something other than "Planning" in the RP" - maybe "budgeting resources in the RP" or "Managing Resources in the RP." etc... - or might need to be repurposed from another POV?!)</p>
@@ -75,7 +75,7 @@ In den folgenden Tabellen finden Sie Informationen zu den in der Benutzeransicht
    <td> <p><strong>Beschreibung</strong> </p> </td> 
   </tr> 
   <tr> 
-   <td>Benutzerin bzw. Benutzer</td> 
+   <td>Benutzerin oder Benutzer</td> 
    <td>Die Gesamtzahl der verfügbaren Stunden (VZÄ) für den Benutzer gemäß seinem Zeitplan. </td> 
   </tr> 
   <tr> 
@@ -106,7 +106,7 @@ Weitere Informationen dazu, wie die Benutzer- und Rollenverfügbarkeit basierend
    <td> <p><strong>Beschreibung</strong> </p> </td> 
   </tr> 
   <tr> 
-   <td>Benutzerin bzw. Benutzer</td> 
+   <td>Benutzerin oder Benutzer</td> 
    <td> Die Gesamtzahl der geplanten Stunden (FTE) aus allen Aufgaben oder Problemen, die dem Benutzer in allen Projekten zugewiesen wurden.<br><p>Dazu gehören Aufgaben und Probleme, die dem/der Benutzenden zugewiesen sind, aber keinem Aufgabengebiet zugeordnet sind, sowie Aufgaben oder Probleme, die nicht in Projekten enthalten sind, auf die Sie Zugriff haben, um sie zu verwalten.</p><p>Wenn die Benutzerzuordnung für Stunden mithilfe des Workload Balancer geändert wurde, können die Daten im Ressourcenplaner beeinflusst werden, wenn die ausgewählten Datumsangaben nur einen Teil einer Aufgabe oder eines Problems enthalten. Informationen zum Ändern der Zuweisungen für -Benutzer finden Sie unter <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Verwalten von Benutzerzuweisungen im Workload-Balancer</a> . </p></td> 
   </tr> 
   <tr> 
@@ -166,7 +166,7 @@ Weitere Informationen zu den geplanten Stunden und VZÄ im Ressourcenplaner find
    <td> <p><strong>Beschreibung</strong> </p> </td> 
   </tr> 
   <tr> 
-   <td>Benutzerin bzw. Benutzer </td> 
+   <td>Benutzerin oder Benutzer </td> 
    <td> <p>Die Zeit, die der Benutzer bei allen ihm zugewiesenen Aufgaben oder Problemen protokolliert hat.</p> <p>Dazu gehört Folgendes:</p> 
     <ul> 
      <li>Aufgaben und Probleme, die dem/der Benutzenden zugewiesen sind, aber keinem Aufgabengebiet zugeordnet sind.</li> 
@@ -213,7 +213,7 @@ Weitere Informationen zu den tatsächlichen Stunden finden Sie unter [Tatsächli
    <td> <p><strong>Beschreibung</strong> </p> </td> 
   </tr> 
   <tr> 
-   <td>Benutzerin bzw. Benutzer</td> 
+   <td>Benutzerin oder Benutzer</td> 
    <td> <p>Die Differenz zwischen der verfügbaren und der geplanten Stunde oder FTE des Benutzers. </p> <p>Die Differenz zwischen Stunde und FTE wird nach folgender Formel berechnet:</p> <p><code style="font-style: normal;">User Hour or FTE Difference = User Available Hours or FTE - User Planned Hours or FTE</code> </p> <p> <p>Hinweis: Wenn der Wert in negativen roten Zahlen angezeigt wird, ist der Benutzer überlastet. </p> </p> </td> 
   </tr> 
   <tr> 
@@ -242,7 +242,7 @@ Weitere Informationen zu den tatsächlichen Stunden finden Sie unter [Tatsächli
    <td> <p><strong>Beschreibung</strong> </p> </td> 
   </tr> 
   <tr> 
-   <td>Benutzerin bzw. Benutzer</td> 
+   <td>Benutzerin oder Benutzer</td> 
    <td> <p>Die Zuordnung der geplanten Stunden oder FTE als Prozentsatz der verfügbaren Stunden. Der Prozentsatz der geplanten Stundenzuweisung wird anhand der folgenden Formel berechnet:</p> <p><code style="font-style: normal;">User Planned Hours Allocation Percentage = (User Planned Hours/ User Available Hours) * 100</code> </p> <p>Für VZÄ-Werte wird dieselbe Berechnung verwendet. </p> </td> 
   </tr> 
   <tr> 

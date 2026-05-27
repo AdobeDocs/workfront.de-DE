@@ -11,8 +11,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 12%
+source-wordcount: '804'
+ht-degree: 9%
 
 ---
 
@@ -205,7 +205,7 @@ In der folgenden Tabelle werden Ähnlichkeiten und Unterschiede zwischen Ergebni
    <td>✔</td> 
    <td>✔</td> 
   </tr> 
-  <tr> **&#x200B;**
+  <tr> ****
    <td>Sie bieten eine Reihe von Werten zwischen den Start- und Endwerten, die veranschaulichen, wie nahe Sie am Erreichen sind. Die Nähe zum Endwert berechnet einen Fortschrittswert für Ihr Ziel. </td> 
    <td>✔</td> 
    <td>✔</td> 

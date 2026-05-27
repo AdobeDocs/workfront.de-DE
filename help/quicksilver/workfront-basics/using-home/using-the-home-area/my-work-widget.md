@@ -1,19 +1,19 @@
 ---
 product-area: home
 navigation-topic: use-the-home-area
-title: Verwalten der Arbeit mit dem Widget „Meine Arbeit“
+title: Verwalten Ihrer Arbeit mit dem Widget „Meine Arbeit“
 description: Das Widget Meine Arbeit zeigt alle Ihnen zugewiesenen Aufgaben, Probleme und Anfragen an einem Ort an. Hier können Sie Ihre Arbeit filtern und organisieren, die Zeit protokollieren, Aktualisierungen vornehmen und Arbeitselemente als abgeschlossen markieren.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
 source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 5%
+source-wordcount: '725'
+ht-degree: 12%
 
 ---
 
-# Verwalten der Arbeit mit dem Widget „Meine Arbeit“
+# Verwalten Ihrer Arbeit mit dem Widget „Meine Arbeit“
 
 Das Widget Meine Arbeit zeigt alle Ihnen zugewiesenen Aufgaben, Probleme und Anfragen an einem Ort an. Hier können Sie Ihre Arbeit filtern und organisieren, die Zeit protokollieren, Aktualisierungen vornehmen und Arbeitselemente als abgeschlossen markieren.
 
@@ -23,7 +23,7 @@ Das Widget Meine Arbeit zeigt alle Ihnen zugewiesenen Aufgaben, Probleme und Anf
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,7 +53,7 @@ Das Widget Meine Arbeit zeigt alle Ihnen zugewiesenen Aufgaben, Probleme und Anf
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -112,9 +112,9 @@ Sie können die Filter Meine Arbeit so anpassen, dass sie auf bestimmte Elemente
 
 >[!TIP]
 >
->Wenn Sie nach spezifischeren Filteroptionen suchen, können Sie die Widgets Meine Aufgabe oder Meine Anfrage verwenden. Weitere Informationen zu den Filtern Meine Aufgabe und Meine Probleme finden Sie unter [Übersicht über Widget-Filter &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md).
+>Wenn Sie nach spezifischeren Filteroptionen suchen, können Sie die Widgets Meine Aufgabe oder Meine Anfrage verwenden. Weitere Informationen zu den Filtern Meine Aufgabe und Meine Probleme finden Sie unter [Übersicht über Widget-Filter ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md).
 
-## Organisieren der Arbeit
+## Organisieren Ihrer Arbeit
 
 Sie können die Sortier- und Gruppenfunktionen des Widgets Meine Arbeit verwenden, um Ihre Arbeit so zu organisieren, dass es für Sie sinnvoll ist.
 
