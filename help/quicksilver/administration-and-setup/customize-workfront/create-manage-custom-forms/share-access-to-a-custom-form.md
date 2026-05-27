@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 264419f747b1e975cda8843b37558e78501d93de
+source-git-commit: bb5e1d1df73ecb4ae9749c5e0960b824bf2e6eda
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 5%
@@ -190,3 +190,4 @@ Anstatt ein benutzerdefiniertes Formular im Standardfreigabestatus zu belassen (
 1. Klicken Sie im Freigabefeld auf das Dropdown-Menü rechts neben dem Namen des Benutzers, Teams, der Rolle, der Gruppe, der Firma oder des Geschäftsprofils, auf die bzw. das Sie keinen besonderen Zugriff mehr auf das Formular haben möchten, und wählen Sie **Entfernen**.
 1. (Optional) Wiederholen Sie den vorherigen Schritt für andere Namen, die Sie entfernen möchten.
 1. Klicken Sie auf **Speichern**.
+
