@@ -2,7 +2,7 @@
 content-type: release-notes
 keywords: Anmerkungen,vierteljährlich,aktualisieren
 navigation-topic: product-releases
-title: Versionsübersicht 21.2
+title: Überblick über Version 21.2
 description: Die Version 21.2 wurde in der Woche vom 10. Mai 2021 in der Produktionsumgebung bereitgestellt.
 author: Luke
 feature: Product Announcements
@@ -10,12 +10,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 1affe1ae-571e-4026-8ba7-8ce7104e1b89
 source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '5545'
-ht-degree: 0%
+source-wordcount: '5714'
+ht-degree: 1%
 
 ---
 
-# Versionsübersicht 21.2
+# Überblick über Version 21.2
 
 Die Version 21.2 wurde in der Woche vom 10. Mai 2021 in der Produktionsumgebung bereitgestellt.
 
@@ -144,7 +144,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Projektverbesserungen {#project-enhancements}
+### Verbesserungen bei Projekten {#project-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -348,7 +348,7 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>Veröffentlichungstermine und Umgebungen</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p style="color: #dc143c;"><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-integration-enhancements.md#introduc" class="MCXref xref" xrefformat="{para}">Einführung in Adobe Workfront für XD</a> </p> <p>Wir freuen uns, die Einführung unseres neuen Plug-ins ankündigen zu können: Adobe Workfront für XD. Mit diesem Plug-in können Sie auf Details zu Arbeitselementen zugreifen, mit Kollegen im Bereich „Updates“ zusammenarbeiten und Korrekturabzüge zur Überprüfung einreichen - und das alles, ohne die XD verlassen zu müssen. Gehen Sie zum Adobe XD-Marktplatz, um das Plug-in noch heute herunterzuladen.</p> </td> 
+   <td> <p style="color: #dc143c;"><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-integration-enhancements.md#introduc" class="MCXref xref" xrefformat="{para}">Einführung in Adobe Workfront für XD</a> </p> <p>Wir freuen uns, die Einführung unseres neuen Plug-ins ankündigen zu können: Adobe Workfront für XD. Mit diesem Plug-in können Sie auf Details zu Arbeitselementen zugreifen, mit Kollegen im Bereich Aktualisierungen zusammenarbeiten und Korrekturabzüge zur Überprüfung einreichen - und das alles, ohne XD verlassen zu müssen. Gehen Sie zum Adobe XD-Marktplatz, um das Plug-in noch heute herunterzuladen.</p> </td> 
    <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 27. April 2021<br></p> <p>Produktionsversion: 27. April 2021</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -373,7 +373,7 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>Veröffentlichungstermine und Umgebungen</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>auf die Zulassungsliste setzen <a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-other-enhancements.md#email" class="MCXref xref" xrefformat="{para}">Validierung von E-Mails</a> </p> <p>Wenn Sie die E-Mail-Zulassungsliste verwenden, werden jetzt neue und aktualisierte Benutzer-E-Mail-Adressen anhand der -Zulassungsliste validiert. Wenn Sie einen neuen Benutzer hinzufügen oder einen vorhandenen Benutzer bearbeiten und eine E-Mail-Domain eingeben, die sich nicht auf der -Zulassungsliste befindet, werden Sie über eine Meldung darauf hingewiesen, dass der Benutzer keine E-Mail-Nachrichten erhält. Sie können das Benutzerprofil zwar weiterhin speichern, sollten die Domain jedoch zur -Zulassungsliste hinzufügen, damit die Benutzerin bzw. der Benutzer E-Mails erhält.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-other-enhancements.md#email" class="MCXref xref" xrefformat="{para}">Validierung von E-Mails</a> </p> <p>Wenn Sie die E-Mail-Zulassungsliste verwenden, werden jetzt neue und aktualisierte Benutzer-E-Mail-Adressen anhand der -Zulassungsliste validiert. Wenn Sie einen neuen Benutzer hinzufügen oder einen vorhandenen Benutzer bearbeiten und eine E-Mail-Domain eingeben, die sich nicht auf der -Zulassungsliste befindet, werden Sie über eine Meldung darauf hingewiesen, dass der Benutzer keine E-Mail-Nachrichten erhält. Sie können das Benutzerprofil zwar weiterhin speichern, sollten die Domain jedoch zur -Zulassungsliste hinzufügen, damit die Benutzerin bzw. der Benutzer E-Mails erhält.</p> </td> 
    <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 22. April 2021<br></p> <p>Produktionsversion: Mit Version 21.2</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -440,7 +440,7 @@ Die meisten neuen Funktionen der Workfront Goals-Version 21.2. Weitere Informati
 
 Neue Funktionen in Workfront Scenario Planner Version 21.2. Weitere Informationen zu diesen neuen Funktionen, die jetzt in der Vorschau verfügbar sind, finden Sie unter [Adobe Workfront Scenario Planner mit Version 21.2](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-2.md).
 
-## Workfront Fusion-Verbesserungen
+## Verbesserungen in Workfront Fusion
 
 Neue Funktionen in Workfront Fusion sind außerhalb des Veröffentlichungszeitplans für 21.2 in der Produktionsumgebung verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Versionsaktivität von Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 
@@ -466,7 +466,7 @@ In Workfront Classic enthält die Option zum Erstellen eines Korrekturabzugs nac
 
 ## Funktion wird nicht mehr unterstützt
 
-### Internet Explorer 11
+### Internet Explorer 11
 
 Nachdem die Unterstützung für Internet Explorer eingestellt wurde, unterstützt Workfront jetzt offiziell Microsoft Edge.
 

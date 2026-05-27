@@ -1,19 +1,19 @@
 ---
-title: Erstellen benutzerdefinierter Programme für Workfront mit Adobe App Builder
+title: Erstellen benutzerdefinierter Anwendungen für Workfront mit Adobe App Builder
 description: Benutzeroberflächenerweiterungen für Workfront auf Basis von Adobe App Builder ermöglichen es Kundinnen und Kunden sowie Partnern, benutzerdefinierte Benutzererlebnisse zu erstellen.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
 source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '2269'
-ht-degree: 0%
+source-wordcount: '2329'
+ht-degree: 3%
 
 ---
 
-# Erstellen benutzerdefinierter Programme für Workfront mit Adobe App Builder
+# Erstellen benutzerdefinierter Anwendungen für Workfront mit Adobe App Builder
 
-Benutzeroberflächenerweiterungen für Workfront auf Basis von Adobe App Builder ermöglichen es Kunden und Partnern, benutzerdefinierte Benutzererlebnisse zu erstellen. Diese Tools steigern die Effizienz, bieten nahtlose, vernetzte Erlebnisse und verbessern die Benutzerzufriedenheit erheblich und helfen Unternehmen, ihre einzigartige Vision zu verwirklichen.
+Benutzeroberflächenerweiterungen für Workfront auf Basis von Adobe App Builder ermöglichen es Kundinnen und Kunden sowie Partnern, benutzerdefinierte Benutzererlebnisse zu erstellen. Diese Tools steigern die Effizienz, bieten nahtlose, vernetzte Erlebnisse und verbessern die Benutzerzufriedenheit erheblich und helfen Unternehmen, ihre einzigartige Vision zu verwirklichen.
 
 Ohne Workfront UI-Erweiterungen muss ein Projektmanager beispielsweise möglicherweise zwischen Workfront und einem separaten Zeitverfolgungssystem wechseln, um Stunden zu protokollieren. Mit Benutzeroberflächenerweiterungen kann die Zeitverfolgung direkt in das Workfront-Erlebnis integriert werden, wodurch der Workflow optimiert und Zeit gespart wird. Darüber hinaus können Sie benutzerdefinierte Komponenten hinzufügen, um die Benutzerfreundlichkeit zu verbessern, sich wiederholende Aufgaben zu automatisieren und das Content-Management mit Funktionen wie Metadaten-Tagging und Inhaltsvorschauen zu verbessern. Adobe App Builder bietet außerdem Skalierbarkeit und robustes Identity Management (IMS), sodass eine sichere und effiziente Anpassung in jedem Maßstab gewährleistet ist.
 
@@ -42,7 +42,7 @@ Sie müssen über Folgendes verfügen:
 
 ## Zugriff auf Adobe App Builder
 
-Um Benutzeroberflächenerweiterungen zu erstellen, benötigen Sie Zugriff auf Adobe App Builder in der Adobe Developer Console.
+Um UI-Erweiterungen zu erstellen, benötigen Sie Zugriff auf Adobe App Builder in der Adobe Developer Console.
 
 Weitere Anweisungen finden Sie auf der [Adobe Developer-Site](https://developer.adobe.com/uix/docs/guides/get-access/).
 

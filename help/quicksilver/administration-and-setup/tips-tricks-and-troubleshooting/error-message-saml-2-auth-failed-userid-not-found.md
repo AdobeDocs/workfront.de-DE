@@ -11,8 +11,8 @@ role: Admin
 exl-id: 9467cdff-7965-49ba-ac13-ed79c496a725
 source-git-commit: 929502c256011b464d938ad1095c127407e4a795
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 2%
+source-wordcount: '225'
+ht-degree: 13%
 
 ---
 
@@ -30,7 +30,7 @@ In ADFS muss **Vertrauensstellung der vertrauenden Seite** über eine **Anforder
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +43,7 @@ In ADFS muss **Vertrauensstellung der vertrauenden Seite** über eine **Anforder
   <tr> 
    <td>[!DNL Adobe Workfront] Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -52,7 +52,7 @@ In ADFS muss **Vertrauensstellung der vertrauenden Seite** über eine **Anforder
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -66,4 +66,4 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    >[!NOTE]
    >
-   >Es muss nicht über die LDAP-Attribut E-Mail-Adressen verfügen. Es können alle eindeutigen Kennungen verwendet werden, die den Benutzer identifizieren. Sie müssen jedoch als [!DNL Adobe Workfront] ID an **übergeben**.
+   >Es muss nicht über die LDAP-Attribut E-Mail-Adressen verfügen. Es können alle eindeutigen Kennungen verwendet werden, die den Benutzer identifizieren. Sie müssen jedoch als **ID an [!DNL Adobe Workfront] übergeben**.

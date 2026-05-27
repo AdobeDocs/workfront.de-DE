@@ -1,7 +1,7 @@
 ---
 user-type: administrator
 product-area: system-administration;projects
-keywords: Kickstart,Kickstart,Kickstarts,Kickstarts
+keywords: Kickstart,Kick-Start,Kickstarts,Kick-Starts
 navigation-topic: use-kick-starts
 title: 'Kickstart-Szenario: Einfache Vorbereitung für Projekt- und Aufgabenimport'
 description: Beschreibt detailliert die verfügbaren Einstellungen und Steuerelemente für ein grundlegendes Projekt und den Aufgabenimport mithilfe der Kickstart-Methode.
@@ -11,8 +11,8 @@ role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
 source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1493'
-ht-degree: 9%
+source-wordcount: '1513'
+ht-degree: 10%
 
 ---
 
@@ -46,7 +46,7 @@ Bei diesem Szenario wird davon ausgegangen, dass Benutzende bereits in Adobe Wor
 
 1. HR-System implementieren.
 
-   | Geplantes Startdatum | 14. Juli 20XX |
+   | Geplantes Startdatum | &#x200B;14. Juli 20XX |
    |---|---|
    | Project Manager | Pam Reynolds |
    | Projektsponsor | Marc Lewis |
@@ -57,7 +57,7 @@ Bei diesem Szenario wird davon ausgegangen, dass Benutzende bereits in Adobe Wor
 
 1. Implementieren des Document Management-Systems.
 
-   | Geplantes Startdatum | 22. August 20XX |
+   | Geplantes Startdatum | &#x200B;22. August 20XX |
    |---|---|
    | Project Manager | Jennifer Campbell |
    | Projektsponsor | Ray Andrews |
@@ -68,7 +68,7 @@ Bei diesem Szenario wird davon ausgegangen, dass Benutzende bereits in Adobe Wor
 
 1. Implementieren Sie ein neues Kalendersystem.
 
-   | Geplantes Startdatum | 6. September 20XX |
+   | Geplantes Startdatum | &#x200B;6. September 20XX |
    |---|---|
    | Project Manager | Pam Reynolds |
    | Projektsponsor | Ray Andrews |
@@ -170,7 +170,7 @@ Die folgende Aufgabenliste zeigt zu vereinfachte Aufgabenlisten für die Projekt
      </tr> 
      <tr> 
       <td role="rowheader">Dauer</td> 
-      <td>2 Tage</td> 
+      <td>2 Tage</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Arbeit</td> 
@@ -195,7 +195,7 @@ Die folgende Aufgabenliste zeigt zu vereinfachte Aufgabenlisten für die Projekt
      </tr> 
      <tr> 
       <td role="rowheader">Dauer</td> 
-      <td>2 Tage</td> 
+      <td>2 Tage</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Arbeit</td> 
@@ -220,7 +220,7 @@ Die folgende Aufgabenliste zeigt zu vereinfachte Aufgabenlisten für die Projekt
      </tr> 
      <tr> 
       <td role="rowheader">Dauer</td> 
-      <td>2 Tage</td> 
+      <td>2 Tage</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Arbeit</td> 
@@ -256,7 +256,7 @@ Die folgende Aufgabenliste zeigt zu vereinfachte Aufgabenlisten für die Projekt
      </tr> 
      <tr> 
       <td role="rowheader">Dauer</td> 
-      <td>1 Tag</td> 
+      <td>1 Tag</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Arbeit</td> 
@@ -269,7 +269,7 @@ Die folgende Aufgabenliste zeigt zu vereinfachte Aufgabenlisten für die Projekt
     </tbody> 
    </table>
 
-## Vorlage herunterladen
+## Herunterladen einer Vorlage
 
 Navigieren Sie zur Seite „Kickstarts“. Wählen Sie die Objekte Firma, Gruppe, Projekt, Aufgabe und Benutzer aus. Aktivieren Sie das Kontrollkästchen Vorhandene Daten einschließen (tun Sie dies, um schnell auf Unternehmens-, Gruppen- und Benutzer-IDs zu verweisen). Klicken Sie auf die Schaltfläche Herunterladen .
 
@@ -337,18 +337,18 @@ Geben Sie die Aufgabennamen in die Spalte setName ein.
 Geben Sie die ID ein, die Sie für das Projekt &quot;Workfront implementieren“ festgelegt haben. Überprüfen Sie das Blatt „PROJ-Projekt“, um sicherzustellen, dass es die richtige ID ist.
 * **Benutzer festlegen**
 Navigieren Sie zum Benutzerblatt, um die ID für den Benutzer nachzuschlagen, der jeder Aufgabe zugewiesen ist, und geben Sie diese Werte in die entsprechenden Zellen in der Spalte setAssignedToID ein.
-* **Identifizieren von Aufgabenbeziehungen**
+* **Aufgabenbeziehungen identifizieren**
 Geben Sie für die Aufgaben 2 bis 5 eine 1 in die Spalte setParentID ein. Geben Sie für Aufgabe 9 einen Wert 8 in die Spalte setParentID ein. Geben Sie in der Spalte setPredecessorString die Aufgabennummer für jede Vorgängeraufgabe ein. Wenn eine Aufgabe mehrere Vorgänger hat, wie z. B. Aufgabe 8 in diesem Szenario, müssen Sie ein Komma verwenden, um jede Vorgängeraufgaben-ID zu trennen. Vorgänger können mit Verzögerungen bei Nicht-Ende-Start-Beziehungen definiert werden, indem die Kurzschreibweise verwendet wird, die im Artikel Erstellen von Vorgänger-Beziehungen beschrieben wird.
 * **Dauer festlegen**
 Legen Sie die Dauer für jede Aufgabe fest, indem Sie die Anzahl der Stunden, Tage, Wochen oder Monate für die Aufgabe in das Feld setDuration eingeben. Geben Sie dann die Zeiteinheit im Feld setDurationUnit ein.
 
   |   | Zulässiger Wert |
   |---|---|
-  | Minuten | M |
+  | Minutes | M |
   | Stunden | H |
-  | Tag(e) | D |
-  | Wochen | W  |
-  | Monate | D |
+  | Tage | D |
+  | Weeks | W |
+  | Months | T |
 
   Minuten können auch als Teil einer Stunde dargestellt werden (z. B. Minuten = 5 Stunden)
 
@@ -357,7 +357,7 @@ Legen Sie die Dauer für jede Aufgabe fest, indem Sie die Anzahl der Stunden, Ta
   | Dauertyp | Zulässiger Wert |
   |---|---|
   | Berechnete Zuweisung | A |
-  | Berechnete Arbeit | W  |
+  | Berechnete Arbeit | W |
   | Leistungsgesteuert | D |
   | Einfach | S |
 

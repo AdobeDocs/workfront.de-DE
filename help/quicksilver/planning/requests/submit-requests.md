@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2342'
+source-wordcount: '2352'
 ht-degree: 1%
 
 ---
@@ -95,9 +95,9 @@ Folgendes muss vorhanden sein, bevor Sie eine Anfrage an ein Workfront Planning-
 
    * Extern, indem Sie einen Link zum Datensatzformular für externe Personen freigeben, die kein Workfront-Konto haben.
 
-     Workfront users can also access the link shared with external people.
+     Benutzende von Workfront können auch auf den Link zugreifen, der für externe Personen freigegeben wurde.
 
-* If shared with a link, the link to the form must not be expired.
+* Bei Freigabe über einen Link darf der Link zum Formular nicht abgelaufen sein.
 
 ## Überlegungen zum Senden von Anfragen an Workfront Planning
 
@@ -132,7 +132,7 @@ Not sure how to change the request status, but dev also said: Changing the names
 
 {{step1-to-requests}}
 
-1. Aktivieren Sie **Einstellung**&#x200B;Neues Erlebnis verwenden“ in der rechten oberen Ecke des Bildschirms.
+1. Aktivieren Sie **Einstellung**Neues Erlebnis verwenden“ in der rechten oberen Ecke des Bildschirms.
 Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformulare im Bereich **Anfragen** von Workfront verfügbar.
 
    >[!TIP]
@@ -144,7 +144,7 @@ Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformula
    >
    >* Sie haben Zugriff, um mindestens einen Arbeitsbereich anzuzeigen.
 
-1. Klicken Sie in die **Welche Anfrage möchten Sie senden?** zum Öffnen einer Liste von Anfrageformularen.
+1. Klicken Sie in die **Welche Anfrage möchten Sie senden?** Leiste zum Öffnen einer Liste von Anfrageformularen.
 1. Wählen Sie ein Anfrageformular aus der Liste aus oder geben Sie den Namen des Anfrageformulars ein und wählen Sie es aus, wenn es in der Liste angezeigt wird.
 
    Ein Fenster mit dem Namen des Anforderungsformulars wird oben geöffnet.
@@ -289,7 +289,7 @@ Externe Personen können nicht auf interne Bereiche von Workfront zugreifen, z *
 
 1. (Optional) Klicken Sie auf **Ihre Anfrage anzeigen**, um die Anfrage in Workfront zu öffnen.
 
-Oder
+ODER
 
 Klicken Sie [Weitere Anfrage senden](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request), um das Anfrageformular zu öffnen und eine neue Anfrage hinzuzufügen.
 

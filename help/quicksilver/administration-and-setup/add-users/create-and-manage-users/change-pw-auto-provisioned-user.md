@@ -11,12 +11,12 @@ role: Admin
 exl-id: 14124911-e5e1-4a4f-9b25-8b4fab0329e1
 source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 1%
+source-wordcount: '456'
+ht-degree: 11%
 
 ---
 
-# Ändern des Passworts für einen automatisch bereitgestellten Benutzer
+# Ändern des Passworts für automatisch bereitgestellte Benutzende
 
 Wenn Sie Benutzende durch automatische Bereitstellung erstellen, weist Adobe Workfront ihnen eine GUID (Globally Unique Identifier) für einen Benutzernamen zu. Eine GUID ist eine eindeutige Zeichenfolge aus zufälligen Zahlen und Buchstaben, z. B. *5489cb430012526e1ea635e8c29f377f*.
 
@@ -41,7 +41,7 @@ Da GUID-Benutzernamen schwierig zu verwenden sein können, empfehlen wir, den Be
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -54,11 +54,11 @@ Da GUID-Benutzernamen schwierig zu verwenden sein können, empfehlen wir, den Be
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
-   <td>Systemadministrator</td> 
+   <td>Systemadmin</td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,11 +67,11 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 +++
 
-## Ändern des Passworts für einen automatisch bereitgestellten Benutzer
+## Ändern des Passworts für automatisch bereitgestellte Benutzende
 
 1. Ermitteln Sie den GUID-Benutzernamen eines Benutzers, indem Sie eine API-Anfrage übergeben, wie im folgenden Beispiel gezeigt:
 
-   https://`<domain>`.my.workfront.com/attask/api/v14.0/USER/search?fields=username&amp;ID=`<ID of User>` Wobei *`<domain>`* die Domain Ihres Unternehmens und *`<ID of User>`* die Workfront-ID des Benutzers ist.
+   https://`<domain>`.my.workfront.com/attask/api/v14.0/USER/search?fields=username&ID=`<ID of User>` Wobei *`<domain>`* die Domain Ihres Unternehmens und *`<ID of User>`* die Workfront-ID des Benutzers ist.
 
    Sie erhalten eine Antwort ähnlich der folgenden:
 

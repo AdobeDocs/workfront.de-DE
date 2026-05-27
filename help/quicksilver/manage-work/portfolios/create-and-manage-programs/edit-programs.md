@@ -78,11 +78,11 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the above note will also come to the Edit Program box)</p>
    -->
 
-   Gehen Sie wie folgt vor, um Informationen [!UICONTROL &#x200B; Abschnitt &#x200B;]Details“ zu bearbeiten:
+   Gehen Sie wie folgt vor, um Informationen [!UICONTROL  Abschnitt ]Details“ zu bearbeiten:
 
    1. (Optional) Klicken Sie auf **[!UICONTROL Symbol „Alle]** reduzieren“ in der oberen rechten Ecke, um alle Bereiche zu reduzieren.
    1. (Optional und bedingt) Wenn ein Bereich reduziert ist, klicken Sie auf den **Nach rechts zeigenden Pfeil** Nach ![rechts zeigenden Pfeil](assets/right-pointing-arrow.png) neben jedem Bereich, um den Bereich zu erweitern, den Sie bearbeiten möchten.
-   1. Informationen zu den im Abschnitt [!UICONTROL Programmdetails] angezeigten Feldern erhalten Sie, indem Sie das Programm wie unten beschrieben im Feld [!UICONTROL Programm &#x200B;] bearbeiten.
+   1. Informationen zu den im Abschnitt [!UICONTROL Programmdetails] angezeigten Feldern erhalten Sie, indem Sie das Programm wie unten beschrieben im Feld [!UICONTROL Programm ] bearbeiten.
    1. (Optional) Wenn keine benutzerdefinierten Formulare an das Programm angehängt sind, geben Sie den Namen eines Formulars in das Feld **[!UICONTROL Benutzerdefiniertes Formular hinzufügen]** ein, wählen Sie es aus, wenn es in der Liste angezeigt wird, und klicken Sie dann auf **[!UICONTROL Änderungen speichern]**.
    1. (Optional) Klicken Sie auf **[!UICONTROL Export]**-Symbol ![Export](assets/export.png), um die [!UICONTROL Übersicht] und benutzerdefinierten Formularinformationen in eine PDF-Datei zu exportieren, und klicken Sie dann auf **[!UICONTROL Exportieren]**. Wählen Sie aus den folgenden Optionen aus:
 

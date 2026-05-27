@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '2104'
-ht-degree: 9%
+source-wordcount: '2112'
+ht-degree: 10%
 
 ---
 
@@ -244,7 +244,7 @@ Old:
        </div> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Projizierte Dauer</td> 
+      <td role="rowheader">Voraussichtliche Dauer</td> 
       <td> <p>Die Differenz in Tagen zwischen dem geplanten Startdatum und dem geplanten Abschlussdatum. </p> </td> 
      </tr> 
      <tr> 
@@ -359,7 +359,7 @@ Old:
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Dauer pro Termin</td> 
-      <td> <p>Wird nur für das übergeordnete Element der wiederkehrenden Aufgaben angezeigt. Angezeigt wird die Dauer jeder wiederkehrenden Aufgabe. Informationen zum Erstellen wiederkehrender Aufgaben finden Sie unter <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Erstellen wiederkehrender Aufgaben</a>. </p> <p><strong>NOTIZ</strong></p> <p> In einzelnen wiederkehrenden Aufgaben geänderte Dauer zeigt nicht den in diesem Feld angegebenen Wert an. </p> </td> 
+      <td> <p>Wird nur für das übergeordnete Element der wiederkehrenden Aufgaben angezeigt. Angezeigt wird die Dauer jeder wiederkehrenden Aufgabe. Informationen zum Erstellen wiederkehrender Aufgaben finden Sie unter <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Erstellen wiederkehrender Aufgaben</a>. </p> <p><strong>HINWEIS</strong></p> <p> In einzelnen wiederkehrenden Aufgaben geänderte Dauer zeigt nicht den in diesem Feld angegebenen Wert an. </p> </td> 
      </tr> 
     </tbody> 
    </table>

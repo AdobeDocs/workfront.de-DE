@@ -11,7 +11,7 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
 workflow-type: tm+mt
 source-wordcount: '1317'
-ht-degree: 4%
+ht-degree: 5%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 4%
 Adobe Workfront verfügt derzeit über die folgenden beiden Arten von Dokumentenspeichern:
 
 * Legacy Workfront-Speicher
-* Adobe Cloud-Speicher
+* Cloud-Speicherplatz von Adobe
 
 Weitere Informationen zu diesen Speichertypen finden Sie unter [Übersicht über den Adobe-Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
 

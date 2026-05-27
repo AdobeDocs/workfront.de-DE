@@ -41,7 +41,7 @@ Im Rahmen der Konfiguration Ihres Adobe Workfront-Systems können Sie im Abschni
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Standard</p> <p>Plan</p></td> 
+   <td><p>Standard</p> <p>Abo</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 

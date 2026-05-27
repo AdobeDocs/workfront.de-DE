@@ -12,8 +12,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 2%
+source-wordcount: '1397'
+ht-degree: 4%
 
 ---
 
@@ -33,7 +33,7 @@ Informationen zur Zugriffsebene „Plan“ finden Sie unter [Zugriff auf Projekt
 
 Informationen zum Kopieren eines Projekts finden Sie unter [Kopieren eines Projekts](../../../manage-work/projects/manage-projects/copy-project.md).
 
-Diese Funktion ist jetzt in den [Administratorgrundlagen in der neuen Workfront-Version, Teil 1: Benutzerorganisation, Lernpfad &#x200B;](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
+Diese Funktion ist jetzt in den [Administratorgrundlagen in der neuen Workfront-Version, Teil 1: Benutzerorganisation, Lernpfad ](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
 
 ## Wählen Sie in einem benutzerdefinierten Formular für ein Objekt alle Elemente in einem Dropdown-Feld mit Mehrfachauswahl aus
 
@@ -65,7 +65,7 @@ Adobe Workfront-Administratoren können Gruppenadministratoren nun mehr Autonomi
 
 Weitere Informationen finden Sie unter [Konfigurieren von Aufgaben- und Problemeinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-Diese Funktion ist jetzt in den Administrator[Grundlagen der neuen Workfront-Version, Teil 2: Projekteinrichtung, Lernpfad &#x200B;](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
+Diese Funktion ist jetzt in den Administrator[Grundlagen der neuen Workfront-Version, Teil 2: Projekteinrichtung, Lernpfad ](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
 
 ## Zugriffsebenen-Einstellungen für Portfolios und Programme separat konfigurieren
 
@@ -77,7 +77,7 @@ Informationen zum Konfigurieren einer Zugriffsebene finden Sie unter [Erstellen 
 
 Informationen zu den Zugriffseinstellungen, die Sie für Programme und Portfolios konfigurieren können, finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-Diese Funktion ist jetzt in den [Administratorgrundlagen in der neuen Workfront-Version, Teil 1: Benutzerorganisation, Lernpfad &#x200B;](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
+Diese Funktion ist jetzt in den [Administratorgrundlagen in der neuen Workfront-Version, Teil 1: Benutzerorganisation, Lernpfad ](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
 
 ## Aktivieren aller Kontrollkästchen in einer Reihe beim Bearbeiten von Informationen in einem benutzerdefinierten Formular
 
@@ -100,7 +100,7 @@ Um Ihre Daten besser zu schützen, können Sie jetzt eine E-Mail-Domain-Zulassun
 
 Wenn Sie beispielsweise sensible Daten schützen möchten, z. B. einen Bericht, in dem Ihre gefährdeten Kunden aufgeführt sind, können Sie nur Ihre interne E-Mail-Domain oder Ihre Domains in die E-Mail-Zulassungsliste einbeziehen. Auf diese Weise können Benutzende diesen Bericht (oder einen anderen Workfront-Bericht) nicht an eine externe E-Mail-Adresse senden.
 
-Weitere Informationen finden Sie im Abschnitt [Konfigurieren der Firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md#configur) im Artikel [Konfigurieren der Firewall-Zulassungsliste &#x200B;](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Weitere Informationen finden Sie im Abschnitt [Konfigurieren der Firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md#configur) im Artikel [Konfigurieren der Firewall-Zulassungsliste ](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## Zuweisen eines Gruppenadministrators für eine Untergruppe
 
@@ -110,7 +110,7 @@ Zuvor konnte nur eine Gruppe auf oberster Ebene Gruppenadministratoren haben, un
 
 Weitere Informationen finden Sie im Abschnitt [Gruppenadministratoren für Untergruppen](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md#for) im Artikel [Untergruppen - Übersicht](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
-Diese Funktion ist jetzt in den [Administratorgrundlagen in der neuen Workfront-Version, Teil 1: Benutzerorganisation, Lernpfad &#x200B;](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
+Diese Funktion ist jetzt in den [Administratorgrundlagen in der neuen Workfront-Version, Teil 1: Benutzerorganisation, Lernpfad ](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
 
 ## Konfigurieren von Ereignisbenachrichtigungen für Gruppen
 
@@ -128,7 +128,7 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 * [Anzeigen und Konfigurieren von Ereignisbenachrichtigungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
 
 <!--
-This feature is now included in the [Administrator Fundamentals in the new Workfront experience, Part 1: User Organization](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) learning path on Workfront One.
+This feature is now included in the [Administrator Fundamentals in the new Workfront experience, Part 1: User Organization](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) learning path on Workfront One.
 
 This feature is now included in the [Email and In-App Notifications in the new Workfront experience](https://experienceleague.adobe.com/en/docs/workfront/using/home://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-MCDSDH3SRJ4ZGTJF5NJI64F4TW2U) learning path on Workfront One.
 -->

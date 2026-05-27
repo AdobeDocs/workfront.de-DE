@@ -8,13 +8,13 @@ recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
 source-git-commit: 96028446d76f32daf512adf77d3b1c53021821ec
 workflow-type: tm+mt
-source-wordcount: '7392'
-ht-degree: 0%
+source-wordcount: '7679'
+ht-degree: 2%
 
 ---
 
 
-# Adobe Workfront-Planungsversionstätigkeit für 2024
+# Veröffentlichungen von Adobe Workfront-Planung für 2024
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
@@ -116,7 +116,7 @@ Um zu verstehen, welche Informationen von anderen Benutzenden bearbeitet werden,
 
 Das von einem anderen Benutzer bearbeitete Feld wird nun in der Tabellenansicht hervorgehoben, und die Avatare anderer Benutzer sind für Sie in der oberen rechten Ecke aller Ansichten sichtbar.
 
-Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
+Weitere Informationen finden Sie unter [Verwalten von Eintragsansichten](/help/quicksilver/planning/views/manage-record-views.md).
 
 ### Erstellen von Datensätzen durch Senden einer Anfrage
 
@@ -150,7 +150,7 @@ Mit der Veröffentlichung der öffentlichen API von Workfront Planning können S
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
 * [Beispiele für das externe Suchfeld in einem benutzerdefinierten Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
-* [Grundlagen zur Adobe Workfront Planning-API](/help/quicksilver/planning/general/planning-api-basics.md)
+* [Grundlagen zur Adobe Workfront-Planung-API](/help/quicksilver/planning/general/planning-api-basics.md)
 
 ### Menü „Neue Einstellungen“ in der Kalenderansicht
 
@@ -188,7 +188,7 @@ Weitere Informationen zum Workfront Planning AI-Assistenten finden Sie unter [Ad
 
 Vorschau und Produktion: 28. August 2024
 
-Sie können jetzt Workfront-Planungsinformationen in einem Bericht anzeigen, indem Sie das Workfront-Arbeitsflächen-Dashboard verwenden. Weitere Informationen finden Sie unter [Übersicht über Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+Sie können jetzt Workfront-Planungsinformationen in einem Bericht anzeigen, indem Sie das Workfront-Arbeitsflächen-Dashboard verwenden. Weitere Informationen finden Sie unter [Überblick über Arbeitsflächen-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
 ## Woche vom 19. August 2024
 
@@ -206,7 +206,7 @@ Auf der Hauptseite des Planungsbereichs haben wir folgende Verbesserungen vorgen
 
 * Wir haben die Links „Alle anzeigen“ und „Weniger anzeigen“ hinzugefügt, um die Anzahl der Arbeitsbereiche zu steuern, die auf der Hauptseite angezeigt werden. Wenn auf der Hauptseite mehr als zwei Zeilen mit Arbeitsbereichskarten aufgelistet sind, wird der Link Alle anzeigen angezeigt, damit Sie nur bei Bedarf alle Arbeitsbereiche anzeigen können.
 
-Weitere Informationen finden Sie unter [Arbeitsbereiche bearbeiten](/help/quicksilver/planning/architecture/edit-workspaces.md).
+Weitere Informationen finden Sie unter [Bearbeiten von Arbeitsbereichen](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
 ### Verbinden von Datensatztypen über mehrere Arbeitsbereiche hinweg
 
@@ -238,7 +238,7 @@ Dies ist keine tatsächliche Hierarchie (kein Objekt ist höher als ein anderes)
 
 Sie können bis zu 5 Ebenen von Datensatztypen in derselben Zeitleiste für einen Datensatz anzeigen.
 
-Weitere Informationen finden Sie unter [Verwalten der Zeitleisten-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Weitere Informationen finden Sie unter [Verwalten der Timeline-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ### Registerkarte Neue Verbindungen im Bereich Datensatzdetails
 
@@ -266,7 +266,7 @@ Wenn Sie beispielsweise Workfront Planning-Kampagnen mit Workfront-Projekten ver
 
 Zu diesem Zeitpunkt können Sie beim Verbinden von Datensätzen Folgendes erstellen:
 
-* Workfront-Planungsdatensätze
+* Einträge in Workfront-Planung
 * Workfront-Projekte ohne Vorlage
 * Workfront-Portfolios
 
@@ -324,7 +324,7 @@ Vorschau: noch festzulegen
 
 Wenn Sie jetzt eine Zeitleisten -Ansicht öffnen und zu einem Datum in der Vergangenheit oder in der Zukunft scrollen, wird das ausgewählte Datum nach dem Aktualisieren der Seite beibehalten. Vor dieser Verbesserung wurde auf der Seite das heutige Datum angezeigt.
 
-Weitere Informationen finden Sie unter [Verwalten der Zeitleisten-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Weitere Informationen finden Sie unter [Verwalten der Timeline-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Woche vom 29. Juli 2024
 
@@ -417,7 +417,7 @@ Wenn das Suchfeld mehrere Werte enthält, beachten Sie Folgendes:
 
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
-* [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md)
+* [Verbinden von Eintragstypen](/help/quicksilver/planning/architecture/connect-record-types.md)
 * [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 
@@ -479,9 +479,9 @@ Dieses Update enthält die folgenden Verbesserungen:
 
 * Die Vorlage Marketing-Management wurde entfernt. Wir haben die folgenden Vorlagen für die Marketing-Verwaltung hinzugefügt und empfehlen, je nach Komplexität Ihrer Workflows die entsprechende Vorlage zu verwenden:
 
-   * Einfach: Marketing-Verwaltung
-   * Erweitert: Marketing-Verwaltung
-   * Unternehmen: Marketing-Management
+   * Basis: Marketing-Management
+   * Erweitert: Marketing-Management
+   * Enterprise: Marketing-Management
 
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
@@ -735,7 +735,7 @@ Vorschau: noch festzulegen
 
 Wir haben die Schaltfläche „Neuer Datensatz“ in der Kopfzeile einer Datensatztypseite hinzugefügt. Sie können jetzt Datensätze aus jeder Ansicht erstellen. Vor dieser Verbesserung konnten Sie nur Datensätze aus der Tabellenansicht erstellen.
 
-Weitere Informationen finden Sie unter [Einträge erstellen](/help/quicksilver/planning/records/create-records.md).
+Weitere Informationen finden Sie unter [Erstellen von Einträgen](/help/quicksilver/planning/records/create-records.md).
 
 
 ### Neue Warnung zur Sichtbarkeit von Objekten beim Verbinden von Datensätzen
@@ -792,7 +792,7 @@ Das Erscheinungsbild von Karten vom Typ Datensatz wurde aktualisiert, wenn diese
 
 * Hinzufügen der Beschreibung des Datensatztyps
 
-Weitere Informationen finden Sie [Datensatztypen erstellen](/help/quicksilver/planning/architecture/create-record-types.md).
+Weitere Informationen finden Sie unter [Erstellen von Eintragstypen](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ### Aktivieren von Workfront Planning-Benachrichtigungen für Kunden von Adobe Unified Experience
 
@@ -908,7 +908,7 @@ Um Zeit zu sparen und die Konsistenz zu wahren, können Sie jetzt eine vorhanden
 
 Durch das Duplizieren einer Ansicht wird eine identische Ansicht erstellt, wobei dieselben Filter, Sortierkriterien und Gruppierungen verwendet werden. Beim Duplizieren einer Ansicht bleiben die Berechtigungen der ursprünglichen Ansicht nicht erhalten.
 
-Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
+Weitere Informationen finden Sie unter [Verwalten von Eintragsansichten](/help/quicksilver/planning/views/manage-record-views.md).
 
 ### Der Bereich Maestro im Hauptmenü wurde in Planung umbenannt
 
@@ -988,7 +988,7 @@ Für eine bessere Navigation und eine einfachere Verwendung haben wir die Anzeig
 
 Die Ansichten werden chronologisch nach dem hinzugefügten Datum von links nach rechts angezeigt. Freigegebene Ansichten werden auch in chronologischer Reihenfolge des Zeitpunkts der Freigabe angezeigt.
 
-Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
+Weitere Informationen finden Sie unter [Verwalten von Eintragsansichten](/help/quicksilver/planning/views/manage-record-views.md).
 
 ### Dynamisches Design einer Datensatzansicht
 
@@ -1161,7 +1161,7 @@ Die Freigabe für Arbeitsbereiche und Ansichten wurde mit den folgenden Verbesse
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
 * [Freigeben von Arbeitsbereichen](/help/quicksilver/planning/access/share-workspaces.md)
-* [Ansichten freigeben](/help/quicksilver/planning/access/share-views.md)
+* [Freigeben von Ansichten](/help/quicksilver/planning/access/share-views.md)
 
 ### Hinzufügen von Miniaturansichten zu Datensätzen
 

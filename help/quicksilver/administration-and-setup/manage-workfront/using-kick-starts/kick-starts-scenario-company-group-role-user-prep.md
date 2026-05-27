@@ -1,7 +1,7 @@
 ---
 user-type: administrator
 product-area: system-administration;user-management
-keywords: Kickstart,Kickstart,Kickstarts,Kickstarts
+keywords: Kickstart,Kick-Start,Kickstarts,Kick-Starts
 navigation-topic: use-kick-starts
 title: 'Kickstarts-Szenario: Unternehmen, Gruppe, Rolle und Benutzer-Kickstarts Vorbereitung'
 description: Wenn Sie mit der Implementierung von Adobe Workfront beginnen, können Sie anstelle der manuellen Eingabe von Daten Ihre Kundenliste, interne Abteilungen, Aufgabengebiete und Benutzerinformationen importieren.
@@ -11,8 +11,8 @@ role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
 source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 6%
+source-wordcount: '1214'
+ht-degree: 9%
 
 ---
 
@@ -22,7 +22,7 @@ Wenn Sie mit der Implementierung von Adobe Workfront beginnen, können Sie anste
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,11 +35,11 @@ Wenn Sie mit der Implementierung von Adobe Workfront beginnen, können Sie anste
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
-   <td>Systemadministrator</td> 
+   <td>Systemadmin</td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,7 +54,7 @@ In der folgenden Tabelle werden die zu importierenden Unternehmen, Gruppen und R
 
 | Firmen | Gruppen | Rollen |
 |---|---|---|
-| ACME, CO <p>Workfront, Inc. <p>_Ihre Firma_ <p>XYZ, Inc. | Finanzielle Details <p>IT <p>Marketing <p>Verkauf | Wirtschaftsanalytiker <p>Controller-Creative <p>Entwerfende Person <p>Ressourcenmanager <p>Scrum Master <p>technischer Redakteur <p>Web-Entwickler |
+| ACME, CO <p>Workfront, Inc. <p>_Ihre Firma_ <p>XYZ, Inc. | Finanzielle Details <p>IT <p>Marketing <p>Vertrieb | Wirtschaftsanalytiker <p>Controller-Creative <p>Entwerfende Person <p>Ressourcenmanager <p>Scrum Master <p>technischer Redakteur <p>Web-Entwickler |
 
 {style="table-layout:auto"}
 
@@ -160,7 +160,7 @@ In den folgenden Tabellen werden die zu importierenden Benutzer und jeweils mehr
 
 1. Klicken Sie **Weitere Optionen**, um die vollständige Liste der Importoptionen anzuzeigen.
 1. Wählen Sie Zugriffsebene, Unternehmen, Gruppe, Aufgabengebiet und Benutzerobjekte aus, die Sie importieren möchten.
-1. Klicken Sie **Herunterladen**.
+1. Klicken Sie auf **Herunterladen**.
 
 ## Firmeninformationen eingeben
 

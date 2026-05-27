@@ -2,7 +2,7 @@
 content-type: release-notes
 keywords: Hinweise,vierteljährlich,Aktualisierung,Freigabe
 navigation-topic: 2021-2-release-activity
-title: 21.2 Weitere Verbesserungen
+title: Weitere Verbesserungen in Version 21.2
 description: Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 21.2 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 10. Mai 2021 in der Produktionsumgebung verfügbar gemacht. Eine Liste aller mit Version 21.2 verfügbaren Änderungen finden Sie in der Übersicht über die Version 21.2.
 author: Luke
 feature: Product Announcements
@@ -10,12 +10,12 @@ recommendations: noDisplay, noCatalog
 exl-id: f136c08b-63c0-4e1e-a048-09eb84a0ed54
 source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 0%
+source-wordcount: '626'
+ht-degree: 1%
 
 ---
 
-# 21.2 Weitere Verbesserungen
+# Weitere Verbesserungen in Version 21.2
 
 Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 21.2 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 10. Mai 2021 in der Produktionsumgebung verfügbar gemacht. Eine Liste aller mit Version 21.2 verfügbaren Änderungen finden Sie unter Übersicht über Version [21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
@@ -34,14 +34,14 @@ Die wichtigsten Bereiche innerhalb der Adobe Workfront-Anwendung und unserer kun
 Bald aktualisierte Bereiche
 
 * Proofing-Apps für Desktop und Mobilgeräte
-* PDF-Exporte für Listen und Berichte
+* PDF exportiert Listen und Berichte
 * Favicon-Symbol auf der Browser-Registerkarte
 
 **Später aktualisierte Bereiche**
 
 * E-Mail-Benachrichtigungen
 
-## Auf die Zulassungsliste setzen Validierung von E-Mails
+## Validierung von E-Mails
 
 >[!NOTE]
 >
