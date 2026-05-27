@@ -9,8 +9,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 51d0989bdbf4ecdc799658f30500c68bf5867e65
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 94%
+source-wordcount: '1614'
+ht-degree: 90%
 
 ---
 
@@ -26,7 +26,7 @@ Als Adobe-Admin können Sie Adobe Workfront-Systemadmins in der Adobe Admin Cons
 
 >[!NOTE]
 >
->* **Workfront-Admins müssen in der Adobe Admin Console konfiguriert werden.** Informationen und Anweisungen finden Sie unter [Erstellen von Systemadmins in Workfront mit der Adobe Admin Console](#create-system-administrators-in-workfront-with-the-adobe-admin-console) in diesem Artikel.
+>* **Workfront-Administratoren müssen in der Adobe Admin Console konfiguriert werden.** Informationen und Anweisungen finden Sie unter [Erstellen von Systemadministratoren in Workfront mit der Adobe Admin Console](#create-system-administrators-in-workfront-with-the-adobe-admin-console) in diesem Artikel.
 >* **Wenn Ihre Organisation Single Sign-on (SSO) verwendet** empfehlen wir, die Adobe Admin Console zu verwenden, um Benutzende zu erstellen und sie Workfront zuzuweisen. Das Erstellen dieser Benutzenden in Workfront ist möglich. Abhängig von der Konfiguration der Admin Console Ihrer Organisation kann es jedoch zu Problemen bei der Übertragung dieser Informationen an die Adobe Admin Console kommen.
 >   Nachdem Sie den Benutzer bzw. die Benutzerin in der Adobe Admin Console erstellt haben, können Sie die Benutzerinformationen in Workfront konfigurieren und z. B. Rollen, Gruppen, Teams und Zugriffsebenen zuweisen.
 >* **Wenn Ihre Organisation kein Single Sign-on (SSO) verwendet** können Sie Benutzende, die keine Systemadmins sind, direkt in Workfront hinzufügen. Es ist möglich, Benutzende in der Adobe Admin Console hinzuzufügen. Durch das Hinzufügen in Workfront können Sie jedoch deren Zugriffsebene beim Erstellen festlegen, was Ihnen Zeit sparen kann.
@@ -234,8 +234,8 @@ Sie können die folgenden Benutzerdetails in der Adobe Admin Console bearbeiten:
 
 Informationen zum Bearbeiten einer einzelnen Person in der Adobe Admin Console finden Sie unter [Bearbeiten von Benutzerdetails](https://helpx.adobe.com/de/enterprise/using/manage-users-individually.html#edit-user-details) im Artikel „Verwalten von einzelnen Benutzenden“ in der Adobe-Dokumentation.
 
-Informationen zur Massenbearbeitung von Benutzenden in der Adobe Admin Console finden Sie unter
-[Bearbeiten von Benutzerdetails](https://helpx.adobe.com/de/enterprise/using/bulk-upload-users.html#edit-user-details) im Artikel „Verwalten von mehreren Benutzenden“ in der Adobe-Dokumentation.
+Informationen zur Massenbearbeitung von Benutzerinnen und Benutzern in der Adobe Admin Console finden Sie unter
+[Bearbeiten von Benutzerdetails](https://helpx.adobe.com/de/enterprise/using/bulk-upload-users.html#edit-user-details) im Artikel Verwalten mehrerer Benutzer in der Dokumentation zu Adobe .
 
 ## Löschen von Benutzern
 

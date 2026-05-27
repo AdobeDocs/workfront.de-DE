@@ -11,7 +11,7 @@ role: Admin
 exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
 source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '1114'
+source-wordcount: '1115'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Als Workfront-Produktprofil-Administrator (Workfront-Systemadministrator) sind S
 
 * **Die Benutzermigration beginnt um Mitternacht im Hosting-Rechenzentrum des Kunden in Workfront.**
 
-* **Adobe migriert zuerst automatisch Workfront-Administratoren.** Wenn Workfront-Administratoren in die Adobe Identity migriert werden, wird ihnen die Rolle &quot;Adobe-Produktprofil-Administrator“ (Workfront-Systemadministrator) zugewiesen. Vorhandene Rollen, die ein Benutzer vor der Migration möglicherweise hat, sind davon nicht betroffen.
+* **Adobe migriert zuerst automatisch Workfront-Administratoren.** Wenn Workfront-Administratoren in die Adobe Identity migriert werden, wird ihnen die Rolle Adobe-Produktprofil-Administrator (Workfront-Systemadministrator) zugewiesen. Vorhandene Rollen, die ein Benutzer vor der Migration möglicherweise hat, sind davon nicht betroffen.
 
   >[!NOTE]
   >
@@ -85,7 +85,7 @@ Als Workfront-Produktprofil-Administrator (Workfront-Systemadministrator) sind S
 
 
 
-* **Wenn Benutzerinnen und Benutzer migriert werden, erhalten sie eine E-Mail von Adobe, in der sie über die Änderung der Art und Weise ihrer Anmeldung bei Workfront informiert werden.** Benutzer werden aufgefordert, eine Einladung zur erstmaligen Anmeldung mit Adobe Identity anzunehmen, entweder indem sie sich mit einer bestehenden Adobe ID anmelden oder indem sie eine neue Adobe ID mit derselben E-Mail-Adresse einrichten.
+* **Wenn Benutzer migriert werden, erhalten sie eine E-Mail von Adobe, in der sie über die Änderung der Art und Weise, wie sie sich bei Workfront anmelden, informiert werden.** Benutzer werden aufgefordert, eine Einladung zur erstmaligen Anmeldung mit Adobe Identity anzunehmen, entweder durch Anmeldung mit einer bestehenden Adobe ID oder durch Einrichtung einer neuen Adobe ID mit derselben E-Mail-Adresse.
 
   Informationen zum Anmelden bei Workfront mit einer Adobe ID finden Sie unter [Bei Adobe Experience Cloud anmelden](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#log-in-to-adobe-experience-cloud).
 

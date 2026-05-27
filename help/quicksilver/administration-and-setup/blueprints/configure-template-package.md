@@ -136,7 +136,7 @@ Sie können auch den Vorlagenbesitzer bestimmen, bevor Sie die Blueprint install
    >
    >**Beispiel:** Die Voreinstellungen für neue Probleme in diesem Blueprint enthalten vier Warteschlangenthemen. Der/die Benutzende wählt beim Erstellen eines Problems eines dieser Themen aus. (Da nur eine Themengruppe vorhanden ist, wird sie automatisch angewendet und der/die Benutzende muss sie nicht auswählen.) Wenn der/die Benutzende das Problem abschließt und übermittelt, bestimmen Routing-Regeln, welchem Aufgabengebiet oder Team sie zugewiesen ist.
    >![Beispieleinstellungen für neue Probleme](assets/Blueprints_IssuePrefsDetails.png)
-   >![Warteschlangenthemen für neues Problem](assets/blueprints-newissueqtopicsexample-350x204.png)
+   >![Warteschlangenthemen für neue Anfrage](assets/blueprints-newissueqtopicsexample-350x204.png)
    >![Problem wurde an Aufgabengebiet weitergeleitet](assets/Blueprints_ProjectShowsIssueAssignment.png)
 
    >[!TIP]
@@ -223,7 +223,7 @@ Abschnitt ![[!UICONTROL Unternehmenszuordnung] &#x200B;](assets/Blueprints_Compa
 1. Wenn eine Firma vorhanden ist, können Sie eine der folgenden Optionen auswählen:
 
    1. Erstellen Sie ein neues Unternehmen mit einem anderen Namen und geben Sie dann den Namen in das Textfeld ein.
-   1. Verwenden Sie ein vorhandenes Unternehmen und wählen Sie dann im Auswahlfeld ein Unternehmen aus.\
+   1. Vorhandenes Unternehmen verwenden und im Auswahlfeld ein Unternehmen auswählen.\
 
       Die primäre Firma in der Blueprint wird der primären Firma in Ihrer Umgebung zugeordnet, auch wenn diese nicht denselben Namen haben.
    1. Keine zugeordnete Firma verwenden. Diese Option wird nicht empfohlen, da die Unternehmensverweise in anderen Objekten leer sind.

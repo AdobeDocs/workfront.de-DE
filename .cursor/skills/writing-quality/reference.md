@@ -306,7 +306,7 @@ Platzierung:
 
 ## Allgemeine Fehlerbehebungen
 
-| Problem | Fehlerbehebung |
+| Problem | Korrigieren |
 |-------|-----|
 | „Wir freuen uns, Ihnen Folgendes vorzustellen…“ | Marketing-Sprache entfernen - Funktion direkt angeben |
 | „Die Konfiguration von X wurde aktualisiert“ | „Sie können jetzt X konfigurieren“ (aktiv, aufgabenorientiert) |

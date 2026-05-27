@@ -10,8 +10,8 @@ role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
 source-git-commit: 8233bcad8409b6f293d365fe871338e643a410dc
 workflow-type: tm+mt
-source-wordcount: '1855'
-ht-degree: 0%
+source-wordcount: '1869'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ Als [!DNL Adobe Workfront] können Sie [!DNL Workfront] mit [!UICONTROL Adobe Ex
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table>
   <tr>
@@ -37,7 +37,7 @@ Als [!DNL Adobe Workfront] können Sie [!DNL Workfront] mit [!UICONTROL Adobe Ex
    <td>Adobe Workfront-Lizenzen
    </td>
    <td><p>Standard</p>
-   <p>Plan</p>
+   <p>Abo</p>
    </td>
   </tr>
    <tr>
@@ -48,7 +48,7 @@ Als [!DNL Adobe Workfront] können Sie [!DNL Workfront] mit [!UICONTROL Adobe Ex
   </tr>
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -62,7 +62,7 @@ Die [!DNL Workfront for AEM Assets connector] ermöglicht Ihrem Unternehmen Folg
 
 * Integration mit dem [!DNL AEM Digital Asset Managemen]t (DAM)-Repository, sodass Sie [!DNL Workfront] verwenden können, um im DAM gespeicherte digitale Assets zu verwalten und freizugeben.
 
-  Weitere Informationen zum Verknüpfen von Dokumenten und Asset-Ordnern finden Sie unter   [Verknüpfen von Dokumenten aus externen Anwendungen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+  Weitere Informationen zum Verknüpfen von Dokumenten und Asset-Ordnern finden Sie unter [Verknüpfen von Dokumenten aus externen Programmen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 * Kombinieren und Anwenden von Metadaten aus beiden Programmen auf ein Asset.
 * Anzeigen eines umfassenden Kommunikations-Streams für ein Asset Aktualisierungen und Kommentare, die in [!DNL Workfront] oder [!UICONTROL AEM Assets] an einem Asset vorgenommen wurden, werden mit dem anderen Programm synchronisiert, wodurch ein umfassender Verlauf der an dem Asset vorgenommenen Kommunikationen erstellt wird.
@@ -212,7 +212,7 @@ Bevor Sie beginnen, müssen Sie Berechtigungen für den Workfront-Service aktivi
 
    1. (Optional) Um die Kommentarsynchronisierung zu deaktivieren, klicken Sie auf **[!UICONTROL Kommentarsynchronisierung deaktivieren].**
 
-      Oder
+      ODER
 
       Löschen Sie das [!UICONTROL NOTE CREATE]-Ereignisabonnement, das bei Ihrer AEM-Instanz registriert ist.
 
@@ -226,9 +226,9 @@ Mit dem [!UICONTROL AEM Externalizer] kann AEM URLs in einem Format übergeben, 
 
 1. Klicken Sie in AEM auf **[!UICONTROL Tools]** > **[!UICONTROL Vorgänge]** > **[!UICONTROL Web-Konsole]**.
 
-1. Klicken Sie **[!UICONTROL OSGI]** und dann **[!UICONTROL Dropdown-Menü auf]** Konfiguration“.
+1. Klicken Sie **[!UICONTROL OSGI]** und dann **Dropdown-Menü auf** Konfiguration“.
 
-1. Wählen Sie in der Konfigurationsliste &#x200B;/**[!UICONTROL CQ Link Externalizer &#x200B;].** Die Seite **[!UICONTROL Externalizer]** wird angezeigt.
+1. Wählen Sie in der Konfigurationsliste &#x200B;**[!UICONTROL Day CQ Link Externalizer].** Die **[!UICONTROL Externalizer]** wird angezeigt.
 
 1. Stellen Sie im Abschnitt **[!UICONTROL Domains]** sicher, dass die im Feld **[!UICONTROL author]** aufgeführte Domain der Domain-Name ist, auf den AEM-Benutzer extern zugreifen können.
 
@@ -315,7 +315,7 @@ Weitere Informationen zu [!DNL Workfront] finden Sie unter [Erstellen oder Ände
 
    1. Um den Benutzer einer vorhandenen Gruppe hinzuzufügen, geben Sie den Gruppennamen in das Feld **[!UICONTROL Gruppennamen eingeben]** und wählen Sie dann die Gruppe aus, wenn sie im Dropdown-Menü angezeigt wird.
 
-      Oder
+      ODER
 
       Um eine Gruppe auszuwählen, der der Benutzer angehört, wählen Sie eine Gruppe im Abschnitt **[!UICONTROL Gruppen, denen dieser Benutzer angehört]** aus.
 

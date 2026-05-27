@@ -11,7 +11,7 @@ exl-id: ed97b8a6-54db-42f8-afee-d76c2df53a94
 source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 1%
+ht-degree: 10%
 
 ---
 
@@ -23,9 +23,9 @@ Informationen zum Konfigurieren der von Workfront Proof gesendeten Benachrichtig
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+Sie benötigen die folgenden Zugriffsrechte, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <col> 

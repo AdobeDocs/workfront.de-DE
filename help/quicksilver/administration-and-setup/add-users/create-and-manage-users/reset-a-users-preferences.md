@@ -10,7 +10,7 @@ role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
 source-git-commit: 480f40d77cfc494ac28a2332c0e15bd1f0f00a6b
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '306'
 ht-degree: 15%
 
 ---
@@ -106,7 +106,7 @@ Wenn Sie die Benutzereinstellungen zurücksetzen, werden einige Einstellungen au
 
 | Voreinstellung | Status nach dem Zurücksetzen |
 | --- | --- |
-| Ansichten  | Auf Systemstandard zurückgesetzt <p>Vorhandene Ansichten werden nicht gelöscht. Sie können sie erneut auswählen.</p> |
+| Ansichten | Auf Systemstandard zurückgesetzt <p>Vorhandene Ansichten werden nicht gelöscht. Sie können sie erneut auswählen.</p> |
 | Filter | Auf Systemstandard zurückgesetzt <p>Vorhandene Filter werden nicht gelöscht. Sie können sie erneut auswählen.</p> |
 | Gruppierungen | Auf Systemstandard zurückgesetzt <p>Vorhandene Gruppierungen werden nicht gelöscht. Sie können sie erneut auswählen.</p> |
 | Liste der letzten Elemente | Gelöscht |
@@ -120,7 +120,7 @@ Wenn Sie die Benutzereinstellungen zurücksetzen, werden einige Einstellungen au
 1. Wählen Sie **Anmelden als** aus.
 1. Geben Sie den Namen des Benutzers ein, dessen Voreinstellungen Sie zurücksetzen möchten, und klicken Sie auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 1. Wählen Sie **Anmelden** aus.
-1. Fügen Sie im URL-Feld oben in Ihrem Webbrowser nach der `/resetUser` `workfront` hinzu.
+1. Fügen Sie im URL-Feld oben in Ihrem Webbrowser nach der `workfront` `/resetUser` hinzu.
 
    >[!NOTE]
    >

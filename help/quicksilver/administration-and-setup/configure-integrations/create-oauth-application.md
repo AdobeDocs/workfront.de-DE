@@ -12,14 +12,14 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1960'
-ht-degree: 8%
+source-wordcount: '1965'
+ht-degree: 6%
 
 ---
 
 # Erstellen von OAuth2-Programmen für [!DNL Workfront] Integrationen
 
-Als [!DNL Adobe Workfront] können Sie OAuth2-Programme für Ihre Instanz von [!DNL Workfront] erstellen, die anderen Programmen den Zugriff auf [!DNL Workfront] ermöglichen. Ihre Benutzer können dann diesen anderen Anwendungen die Berechtigung erteilen, auf ihre [!DNL Workfront] Daten zuzugreifen. Auf diese Weise können Sie integrieren   Mit Anwendungen Ihrer Wahl, einschließlich eigener Anwendungen.
+Als [!DNL Adobe Workfront] können Sie OAuth2-Programme für Ihre Instanz von [!DNL Workfront] erstellen, die anderen Programmen den Zugriff auf [!DNL Workfront] ermöglichen. Ihre Benutzer können dann diesen anderen Anwendungen die Berechtigung erteilen, auf ihre [!DNL Workfront] Daten zuzugreifen. Auf diese Weise können Sie mit Anwendungen Ihrer Wahl integrieren, einschließlich Ihrer eigenen internen Anwendungen.
 
 Beim Erstellen einer [!UICONTROL OAuth2]-Anwendung generieren Sie eine Client-ID und ein Client-Geheimnis. Ihre Benutzer können dann die Client-ID in API-Aufrufen verwenden, um sie in die von Ihnen erstellte Anwendung zu integrieren.
 
@@ -217,7 +217,7 @@ Anweisungen zur Konfiguration und Verwendung der OAuth2-Anwendung mit Benutzeran
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Token-Rotation aktualisieren]</td> 
-      <td>Aktivieren Sie diese Option, um jedes Mal, wenn ein Refresh-Token verwendet wird, ein neues Refresh-Token zu erstellen. Ihre Anwendung muss das neue Refresh-Token nach jeder Aktualisierung speichern.</td> 
+      <td>Aktivieren Sie diese Option, um jedes Mal, wenn das Aktualisierungstoken verwendet wird, ein neues Aktualisierungstoken auszugeben. Die Anwendung muss das neue Aktualisierungstoken nach jeder Aktualisierung speichern.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Absolute Aktualisierungstoken-Gültigkeit]</td> 
@@ -277,7 +277,7 @@ Anweisungen zur Konfiguration und Verwendung der OAuth2-Anwendung mit Benutzeran
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Aktualisierungstoken jedes Mal drehen, wenn es verwendet wird]</td> 
-      <td>Aktivieren Sie diese Option, um jedes Mal, wenn ein Refresh-Token verwendet wird, ein neues Refresh-Token zu erstellen. Ihre Anwendung muss das neue Refresh-Token nach jeder Aktualisierung speichern.</td> 
+      <td>Aktivieren Sie diese Option, um jedes Mal, wenn das Aktualisierungstoken verwendet wird, ein neues Aktualisierungstoken auszugeben. Die Anwendung muss das neue Aktualisierungstoken nach jeder Aktualisierung speichern.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Absolute Gültigkeit]</td> 
@@ -342,10 +342,10 @@ Für die weitere Konfiguration und Verwendung der erstellten OAuth2-Anwendung si
 
 ### Autorisierung mit Autorisierungs-Code und Zugriffs-Token {#authorizing-with-an-authorization-code-and-access-token}
 
-1. ClientApp benötigt einige Informationen von [!DNL Workfront], daher sendet es eine Anfrage an den [!DNL Workfront]-Endpunkt der `/authorize`-API. Die Anfrage enthält den RESPONSE_TYPE`code`, der angibt, dass die Anfrage einen Autorisierungs-Code zurückgeben soll.
+1. ClientApp benötigt einige Informationen von [!DNL Workfront], daher sendet es eine Anfrage an den `/authorize`-Endpunkt der [!DNL Workfront]-API. Die Anfrage enthält den `code` [!UICONTROL RESPONSE_TYPE], der angibt, dass die Anfrage einen Autorisierungs-Code zurückgeben soll.
 1. Dieser Trigger [!DNL Workfront] eine Authentifizierungsaufforderung an den Benutzer senden. Der Benutzer kann seine Anmeldeinformationen in die Eingabeaufforderung eingeben, wodurch [!DNL Workfront] Berechtigung zur Kommunikation mit ClientApp erhält. Wenn der Benutzer bereits bei [!DNL Workfront] angemeldet ist, kann dieser Schritt übersprungen werden.
 1. Die [!DNL Workfront]-API sendet einen Autorisierungs-Code an ClientApp.
-1. ClientApp sendet in einer Anfrage die folgenden Informationen an die [!DNL Workfront]-API `/token`   Endpunkt:
+1. ClientApp sendet die folgenden Informationen in einer Anfrage an den `/token`-Endpunkt der [!DNL Workfront]-API:
 
    * Der Autorisierungs-Code, der in Schritt 3 an ClientApp gesendet wurde. Dadurch wird die spezifische Instanz der Benutzerberechtigung identifiziert.
    * Das Client-Geheimnis, das beim Einrichten der ClientApp OAuth2-App in [!DNL Workfront] generiert wurde. Auf diese Weise können [!DNL Workfront] feststellen, dass die Anfrage von ClientApp stammt.

@@ -10,12 +10,12 @@ role: Admin
 exl-id: 8f7b0183-6035-4dd4-8e42-fd65485449bf
 source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 0%
+source-wordcount: '384'
+ht-degree: 9%
 
 ---
 
-# Untergruppenmitglieder anzeigen und verwalten
+# Anzeigen und Verwalten von Untergruppenmitgliedern
 
 Wenn Sie eine von Ihnen verwaltete Gruppe anzeigen, können Sie alle Benutzenden in den Untergruppen der Gruppe anzeigen und verwalten.
 
@@ -23,7 +23,7 @@ Wenn es Gruppen oberhalb der von Ihnen verwalteten Gruppe gibt, können deren Ad
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +36,7 @@ Wenn es Gruppen oberhalb der von Ihnen verwalteten Gruppe gibt, können deren Ad
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td> 
+       <p>Abo</p></td> 
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -49,7 +49,7 @@ Wenn es Gruppen oberhalb der von Ihnen verwalteten Gruppe gibt, können deren Ad
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
