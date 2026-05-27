@@ -10,7 +10,7 @@ author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
 source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '839'
 ht-degree: 6%
 
 ---
@@ -101,7 +101,7 @@ Termine für die Wechselkurse einer Währung sind so konfiguriert, dass ein Kurs
 1. Wählen Sie in der Liste eine Währung aus und klicken Sie in **Aktionsleiste auf** Daten verwalten“.
 1. Wählen Sie im Dialogfeld **(Währungsname** Gültigkeitskurse) ein **Enddatum** für den aktuellen Wechselkurs.
 
-   Oder
+   ODER
 
    Wählen Sie ein **Startdatum** für den neuen Wechselkurs.
 

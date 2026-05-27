@@ -10,8 +10,8 @@ role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
 source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
-source-wordcount: '1411'
-ht-degree: 0%
+source-wordcount: '1416'
+ht-degree: 2%
 
 ---
 
@@ -37,7 +37,7 @@ Alle Änderungen an Arbeitszeittabellen wirken sich auf alle Arbeitszeittabellen
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -50,7 +50,7 @@ Alle Änderungen an Arbeitszeittabellen wirken sich auf alle Arbeitszeittabellen
   <tr> 
    <td>[!DNL Adobe Workfront] Lizenz</td> 
    <td><p>[!UICONTROL Standard]</p>
-       <p>[!UICONTROL -Plan]</p></td>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -59,7 +59,7 @@ Alle Änderungen an Arbeitszeittabellen wirken sich auf alle Arbeitszeittabellen
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

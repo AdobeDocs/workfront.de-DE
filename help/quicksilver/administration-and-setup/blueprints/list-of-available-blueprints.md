@@ -12,7 +12,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2153'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 Die folgenden [!DNL Adobe Workfront] Blueprints können von Systemadministratoren installiert werden. Weitere Informationen zu Blueprints finden Sie unter [Blueprints - Übersicht](/help/quicksilver/administration-and-setup/blueprints/blueprints-overview.md).
 
-**[!UICONTROL Aktive Benutzeranalyseberichte]**
+**[!UICONTROL Berichte zur aktiven Benutzeranalyse]**
 Dieser Blueprint enthält ein Dashboard, das Admins bei der Überprüfung der Benutzereinrichtung, der Erkennung von Ausrichtungsfehlern und der Sicherstellung der Unterstützung von Konfigurationen für die beabsichtigte Verwendung von Anwendungen unterstützt&#x200B;
 
 **[!UICONTROL Neue Mitarbeiter-IT-Checkliste hinzufügen]**
@@ -59,7 +59,7 @@ Das [!UICONTROL Digital Asset Revision]-Paket enthält eine einzelne Vorlage, um
 **[!UICONTROL IT-Checkliste für übertragende Mitarbeiter bearbeiten]**
 Dieser Blueprint enthält eine Vorlage, die die [!DNL Workfront] Professional Services-Organisation jahrelang bei Implementierungsprojekten mit IT-Teams in Unternehmen verwendet hat, um die verschiedenen Aktivitäten zu verwalten, die stattfinden müssen, wenn ein Mitarbeiter in eine neue Rolle wechselt. Diese Vorlage reduziert die Sicherheitsrisiken, die bestehen, wenn ein Mitarbeitertransfer ohne IT-Aufsicht abgeschlossen wird. Darüber hinaus werden verschwendete Stunden unproduktiver Zeit vermieden, wenn der Zugriff auf Systeme nicht gewährt wird, um die Aufgaben der neuen Rolle des Mitarbeiters zu erfüllen.
 
-**[!UICONTROL Operativer Abschluss am Monatsende]**
+**[!UICONTROL Ende des Monats operativer Abschluss]**
 Dieser Blueprint enthält eine Vorlage, die die [!DNL Workfront] Professional Services-Organisation jahrelang bei Implementierungsengagements mit Finanz-Teams verwendet hat, um den Monatsabschluss der Bücher zu organisieren. Die Vorlage enthält eine Checkliste mit häufigen Aktivitäten, die jeden Monat durchgeführt werden müssen, um einen korrekten Bericht über den Zustand des Unternehmens zu erstellen und diesen zu fördern.
 
 **[!UICONTROL Einrichten der Finanzorganisation]**
@@ -83,7 +83,7 @@ Die Blueprint [!UICONTROL Integrierte Kampagnenausführung] enthält eine einzel
 **[!UICONTROL Einrichten der Marketing-Organisation]**
 Dieser Blueprint enthält die Konfiguration von Organisationsstrukturen, um eine Marketing-Abteilung zu erweitern.
 
-**[!UICONTROL Neuer Onboarding-Plan für Mitarbeiter]**
+**[!UICONTROL Onboarding-Plan für neue Mitarbeiter]**
 Dieser Blueprint enthält eine Vorlage, die das [!DNL Workfront professional services] Unternehmen jahrelang bei Implementierungsengagements mit Personal-Teams verwendet hat, um neue Mitarbeiter bei der Verfolgung ihrer Onboarding-Aktivitäten zu unterstützen.
 
 **[!UICONTROL Bereitschaft für neue Einstellungen]**
@@ -137,7 +137,7 @@ Das Paket [!UICONTROL Produktion sozialer Assets] enthält eine Vorlage, die die
 **[!UICONTROL Software-Implementierungen/App-Entwicklung]**
 Dieser Blueprint enthält eine Vorlage, die das [!DNL Workfront] Professional Services-Unternehmen seit Jahren bei Implementierungsprojekten mit IT-Teams verwendet, um die Arbeit bei der Installation von Lösungen von Drittanbietern zu organisieren oder interne Dienstprogramme und Anwendungen zu erstellen.
 
-**[!UICONTROL Systemadministrator-Wartungs-Dashboard]**
+**[!UICONTROL Systemadministrator-Wartungsdashboard]**
 Diese Blueprint enthält ein einziges Dashboard, das Systemadministratoren bei der regelmäßigen Wartung und Bereinigung des Systems von anderem, möglicherweise im Laufe der Zeit anfallenden Wirrwarr unterstützt.
 
 **Wertschöpfung | Core Value Dashboard**

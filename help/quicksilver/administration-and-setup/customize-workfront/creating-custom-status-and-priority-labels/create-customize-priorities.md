@@ -8,7 +8,7 @@ exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
 source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
 source-wordcount: '725'
-ht-degree: 4%
+ht-degree: 6%
 
 ---
 
@@ -35,11 +35,11 @@ Sie können die Prioritäten für Projekte, Aufgaben und Probleme im Bereich Set
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
-   <td>Systemadministrator</td> 
+   <td>Systemadmin</td> 
   </tr> 
  </tbody> 
 </table>
@@ -143,4 +143,4 @@ Anweisungen zur Anwendung von Prioritäten auf Projekte, Aufgaben und Probleme f
 
 * [Projektprioritäten verstehen und aktualisieren](../../../manage-work/projects/planning-a-project/project-priority.md)
 * [Aufgabenpriorität aktualisieren](../../../manage-work/tasks/task-information/task-priority.md)
-* [Anfragepriorität aktualisieren](../../../manage-work/issues/issue-information/update-issue-priority.md)
+* [Aktualisieren der Problempriorität](../../../manage-work/issues/issue-information/update-issue-priority.md)

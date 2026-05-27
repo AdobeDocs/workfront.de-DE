@@ -179,37 +179,37 @@ Auf dieser Registerkarte können Sie die Verbindungen zwischen Ressourcen und Al
 
 1. Geben Sie die Informationen in jeder Zeile ein:
 
-   * **Rate Card** (required): The name or the sequence number of the rate card that the resource and alias belong to. The rate card must be listed on the RTCRD tab.
+   * **Tarifkarte** (erforderlich): Der Name oder die Sequenznummer der Tarifkarte, zu der die Ressource und der Alias gehören. Die Tarifkarte muss auf der Registerkarte RTCRD aufgeführt sein.
 
-     For a sequence number: If the rate card was the first one you listed on the RTCRD tab (row 2), enter 1. Wenn es die zweite war, geben Sie 2 ein, und so weiter.
+     Für eine Sequenznummer: Wenn die Tarifkarte die erste war, die Sie auf der Registerkarte RTCRD aufgeführt haben (Zeile 2), geben Sie 1 ein. Wenn es die zweite war, geben Sie 2 ein, und so weiter.
 
-   * **Job Role** (required if Expense Type and Non-Labor Resource Category are not used): The job role that the alias is connected to. Dabei kann es sich entweder um den Namen des Aufgabengebiets oder um die Aufgabengebiet-ID handeln. Beim Import werden beide erkannt.
+   * **Aufgabengebiet** (erforderlich, wenn der Ausgabentyp und die sonstige Ressourcenkategorie nicht verwendet werden): Das Aufgabengebiet, mit dem der Alias verbunden ist. Dabei kann es sich entweder um den Namen des Aufgabengebiets oder um die Aufgabengebiet-ID handeln. Beim Import werden beide erkannt.
 
      Beispiel: Designer oder _68c0234e00000541dd8c0757723daa68_
 
-   * **Expense Type** (required if Job Role and Non-Labor Resource Category are not used): The expense type that the alias is connected to. This can be either the expense type name or the expense type ID. Beim Import werden beide erkannt.
+   * **Ausgabentyp** (erforderlich, wenn Aufgabengebiet und sonstige Ressourcenkategorie nicht verwendet werden): Der Ausgabentyp, mit dem der Alias verbunden ist. Dabei kann es sich entweder um den Namen des Ausgabentyps oder um die Ausgabentyp-ID handeln. Beim Import werden beide erkannt.
 
-     Example: Travel or _68c0234e00000541dd8c0757723daa68_
+     Beispiel: Reise oder _68c0234e00000541dd8c0757723daa68_
 
-   * **Non-Labor Resource Category** (required if Job Role and Expense Type are not used): The non-labor resource category that the alias is connected to. Dabei kann es sich entweder um den Kategorienamen oder die Kategorie-ID handeln. Beim Import werden beide erkannt.
+   * **Sonstige Ressourcenkategorie** (erforderlich, wenn Aufgabengebiet und Ausgabentyp nicht verwendet werden): Die sonstige Ressourcenkategorie, mit der der Alias verbunden ist. Dabei kann es sich entweder um den Kategorienamen oder die Kategorie-ID handeln. Beim Import werden beide erkannt.
 
      Beispiel: Kamera oder _68c0234e00000541dd8c0757723daa68_
 
      >[!IMPORTANT]
      >
-     >You cannot enter all three of the **Job Role**, **Expense Type**, and **Non-Labor Resource Category** columns. Eine ist erforderlich.
+     >Sie können nicht alle drei der Spalten **Aufgabengebiet**, **Ausgabentyp** und **Sonstige Ressourcenkategorie** eingeben. Eine ist erforderlich.
 
-   * **Resource Alias**: The alias entered on the RSALS tab.
+   * **Ressourcenalias** Der Alias, der auf der Registerkarte „RSALS“ eingegeben wurde.
 
-### Date formatting requirements
+### Anforderungen an die Datumsformatierung
 
-When preparing rate card data for importing, you must ensure that the date columns are formatted as **General**, not as **Date**.
+Beim Vorbereiten von Tarifkartendaten für den Import müssen Sie sicherstellen, dass die Datumsspalten als **Allgemein** und nicht als **Datum“** sind.
 
-If the columns are set to Date format, the system may misinterpret values during the import process, leading to errors or failed uploads. Using the General format preserves the raw numeric or text representation of the date, allowing the system to correctly validate and apply the values.
+Wenn die Spalten auf das Datumsformat eingestellt sind, kann es vorkommen, dass das System Werte während des Importvorgangs falsch interpretiert, was zu Fehlern oder fehlgeschlagenen Uploads führt. Bei Verwendung des Formats Allgemein wird die numerische oder Textdarstellung des Datums beibehalten, sodass das System die Werte korrekt validieren und anwenden kann.
 
-Following these steps will prevent unnecessary issues and ensure a smooth and accurate import of rate data.
+Die Befolgung dieser Schritte verhindert unnötige Probleme und gewährleistet einen reibungslosen und korrekten Import von Ratendaten.
 
-1. Before saving or uploading the file, select the date columns in the spreadsheet.
+1. Wählen Sie vor dem Speichern oder Hochladen der Datei die Datumsspalten im Arbeitsblatt aus.
 1. Ändern Sie das Spaltenformat in **Allgemein**.
 1. Stellen Sie sicher, dass die Werte weiterhin korrekt angezeigt werden (z. B. 01/01/2025 oder 2025-01-01).
 
