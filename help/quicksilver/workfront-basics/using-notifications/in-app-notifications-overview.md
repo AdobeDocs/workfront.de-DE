@@ -56,7 +56,7 @@ Wenn Sie auf das nummerierte Symbol ![Benachrichtigungssymbol](assets/notificati
 
 ### [!UICONTROL Genehmigungen]
 
-* ![Projekt muss genehmigt ](assets/prjneedsapprvl.png)[!UICONTROL Projekt muss genehmigt werden] - [Name des Absenders]
+* ![Projekt muss genehmigt &#x200B;](assets/prjneedsapprvl.png) [!UICONTROL Projekt muss genehmigt werden] - [Name des Absenders]
 * ![Ihnen zugewiesene Aufgabe](assets/icon-taskassngdtoyou.png) [!UICONTROL Aufgabe benötigt Ihre Genehmigung] - [Name des Absenders]
 * ![Problem-Symbol](assets/issue.png) [!UICONTROL Problem muss genehmigt werden] - [Name des Absenders]
 * ![Dokumentsymbol](assets/document.png) [!UICONTROL Dokument muss genehmigt werden] - [Name des Absenders]
@@ -96,7 +96,7 @@ Wenn Sie auf das nummerierte Symbol ![Benachrichtigungssymbol](assets/notificati
 * ![Ihnen zugewiesene Aufgabe](assets/icon-taskassngdtoyou.png) [!UICONTROL Ihnen zugewiesene Aufgabe] - [Name des Zuweisers]
 * ![Problem-Symbol](assets/issue.png) [!UICONTROL Problem zugewiesen] - [Name des Zuweisenden]
 * ![Problem-Symbol](assets/issue.png) [!UICONTROL Problem zugewiesen zu] [Team-] - [Name des Zuweisers]
-* ![Ihnen zugewiesene Aufgabe](assets/icon-taskassngdtoyou.png) [!UICONTROL Aufgabe zugewiesen ][ Team-Name] - [Name des Zuweisers]
+* ![Ihnen zugewiesene Aufgabe](assets/icon-taskassngdtoyou.png) [!UICONTROL Aufgabe zugewiesen &#x200B;][ Team-Name] - [Name des Zuweisers]
 
    * Zuweisungsbenachrichtigungen werden nur gesendet, wenn der Projektstatus auf [!UICONTROL Aktuell] (oder auf einen benutzerdefinierten Status, der [!UICONTROL Aktuell] entspricht) festgelegt ist.
    * Es ist nicht vorgesehen, dass Antragstellern und Prüfern Arbeiten zugewiesen werden. Daher werden sie nicht benachrichtigt, wenn sie Aufgaben und Problemen zugewiesen sind.

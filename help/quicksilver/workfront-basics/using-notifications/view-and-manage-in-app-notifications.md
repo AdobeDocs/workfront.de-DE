@@ -104,7 +104,7 @@ Das Symbol rechts neben dem blauen Punkt zeigt eine der folgenden Optionen an:
 
 Nachdem Sie Benachrichtigungen angezeigt haben, können Sie sie bestätigen, um sie aus der Liste [!UICONTROL Benachrichtigungen] zu löschen oder sie später beantworten zu lassen.
 
-Auf der [!UICONTROL Benachrichtigungen] können Sie aktuelle und gelöschte Benachrichtigungen anzeigen. Sie können gelöschte Benachrichtigungen auch wieder in die Liste [!UICONTROL Benachrichtigungen“ ].
+Auf der [!UICONTROL Benachrichtigungen] können Sie aktuelle und gelöschte Benachrichtigungen anzeigen. Sie können gelöschte Benachrichtigungen auch wieder in die Liste [!UICONTROL Benachrichtigungen“ &#x200B;].
 
 * [Benachrichtigungen bestätigen](#acknowledge-notifications)
 * [Bestätigte Benachrichtigungen anzeigen](#view-acknowledged-notifications)
