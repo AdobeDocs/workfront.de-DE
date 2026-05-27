@@ -29,7 +29,7 @@ Zuvor bestand die einzige Möglichkeit, ein Bild in Workfront freizugeben, darin
 
 Weitere Informationen finden Sie unter [Arbeit aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Bevor Workfront-Benutzer Bilder in Aktualisierungen einbeziehen können, muss diese Funktion zunächst vom Adobe Workfront-Administrator aktiviert werden, wie unter &quot;[ für Benutzeraktualisierungen konfigurieren](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md) beschrieben.
+Bevor Workfront-Benutzer Bilder in Aktualisierungen einbeziehen können, muss diese Funktion zunächst vom Adobe Workfront-Administrator aktiviert werden, wie unter &quot;[&#x200B; für Benutzeraktualisierungen konfigurieren](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md) beschrieben.
 
 ## Aktualisierter Algorithmus für smarte Zuweisungen
 
@@ -48,7 +48,7 @@ Damit Ihre Verwendung von Workfront mit der neuen Workfront-Version konsistent i
 
 Die Benutzeroberfläche zum Erstellen des Projekts wurde sowohl beim Erstellen über den Bereich Projekte als auch im Bereich Vorlagen aktualisiert.
 
-Weitere Informationen finden [ unter „Erstellen eines Projekts mithilfe einer Vorlage](../../../manage-work/projects/create-projects/create-project-from-template.md).
+Weitere Informationen finden [&#x200B; unter „Erstellen eines Projekts mithilfe einer Vorlage](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
 ## Neues Erlebnis beim Anhängen von Vorlagen an Projekte
 
