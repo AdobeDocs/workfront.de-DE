@@ -47,7 +47,7 @@ Sie benötigen die folgenden Zugriffsrechte, um die Schritte in diesem Artikel a
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf [!UICONTROL-Dokumente] bearbeiten</p> </td> 
+   <td> <p>Zugriff auf [!UICONTROL -Dokumente] bearbeiten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
