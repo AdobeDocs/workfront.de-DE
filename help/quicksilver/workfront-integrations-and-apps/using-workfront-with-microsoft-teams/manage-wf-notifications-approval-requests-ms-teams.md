@@ -8,8 +8,8 @@ feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
 source-git-commit: 7720d51864428e6d7cf493f88bbee13b5203774b
 workflow-type: tm+mt
-source-wordcount: '1466'
-ht-degree: 5%
+source-wordcount: '1422'
+ht-degree: 11%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->Da [Microsoft auf den neuen Teams-Client umstellt](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability) ist der Classic Teams-Client nach dem 1. Juli 2025 nicht mehr verfügbar. Um Microsoft Teams und integrierte Apps wie Workfront weiterhin verwenden zu können, müssen Kunden vor diesem Datum zum neuen Teams-Client wechseln.
+>Da [Microsoft auf den neuen Teams-Client umstellt](https://learn.microsoft.com/de-de/microsoftteams/teams-classic-client-end-of-availability), ist der Classic Teams-Client nach dem 1. Juli 2025 nicht mehr verfügbar. Um Microsoft Teams und integrierte Anwendungen wie Workfront weiterhin verwenden zu können, müssen Kundinnen und Kunden vor diesem Datum zum neuen Teams-Client wechseln.
 >
->Die aktualisierte Workfront-Integration ist jetzt verfügbar und vollständig mit der neuen Team-Erfahrung kompatibel. In den meisten Fällen wird Workfront automatisch angezeigt, sobald Benutzende den Wechsel vollzogen haben. Ist dies nicht der Fall, kann die Integration manuell über die Microsoft Teams App Store installiert werden. Informationen zum Installieren oder Überprüfen der Workfront-Integration im neuen Team-Client finden Sie unter [Installieren [!DNL Adobe Workfront]  für Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+>Die aktualisierte Workfront-Integration ist jetzt verfügbar und vollständig mit dem neuen Teams-Erlebnis kompatibel. In den meisten Fällen wird Workfront automatisch angezeigt, sobald Benutzende den Wechsel vollzogen haben. Ist dies nicht der Fall, kann die Integration manuell über den Microsoft Teams App Store installiert werden. Informationen zum Installieren oder Überprüfen der Workfront-Integration im neuen Teams-Client finden Sie unter [Installieren [!DNL Adobe Workfront]  für Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 Sie können Benachrichtigungen von [!DNL Adobe Workfront] über Elemente erhalten, die Sie genehmigen müssen, Zuweisungen, die Ihnen erteilt wurden, oder Kommentare und Änderungen an Elementen, mit denen Sie verknüpft sind.
 
@@ -52,7 +52,7 @@ Diese Benachrichtigungen enthalten [!DNL Workfront] Aktionen, die Sie in [!DNL M
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -61,14 +61,14 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 Sie können [!DNL Workfront] Benachrichtigungen in [!DNL Microsoft Teams] erhalten, wenn die folgenden Bedingungen erfüllt sind:
 
 * Ein Teambesitzer hat [!DNL Workfront for Microsoft Teams] für Ihr Team installiert und konfiguriert.
-* Sie sind von [!DNL Workfront] aus bei [!DNL Microsoft Teams] angemeldet.
+* Sie sind von [!DNL Microsoft Teams] aus bei [!DNL Workfront] angemeldet.
 * Sie haben sofortige Benachrichtigungen in [!DNL Workfront] aktiviert. Informationen zur Aktivierung sofortiger Benachrichtigungen finden Sie unter [Ändern eigener E-Mail-Benachrichtigungen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Informationen zur Installation von [!DNL Workfront for Microsoft Teams] und zur Anmeldung bei [!DNL Workfront from Microsoft Teams] finden Sie unter [Installieren [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 ## Verwalten von [!DNL Workfront]-Benachrichtigungen in [!DNL Microsoft Teams]
 
-Wenn die [!DNL Workfront for Microsoft Teams]-App installiert ist, wird [!DNL Workfront] für jedes Mitglied dieses Teams ein [!DNL Microsoft Teams]-Chat-Kanal erstellt. Wenn eine bestimmte Aktion in [!DNL Workfront] ausgeführt wird, können Sie die Einstellungen für [!DNL Workfront for Microsoft Teams] so konfigurieren, dass sie Benachrichtigungen über diese Aktion im [!DNL Workfront] Chat-Kanal von [!DNL Microsoft Teams] erhalten.
+Wenn die [!DNL Workfront for Microsoft Teams]-App installiert ist, wird [!DNL Microsoft Teams] für jedes Mitglied dieses Teams ein [!DNL Workfront]-Chat-Kanal erstellt. Wenn eine bestimmte Aktion in [!DNL Workfront] ausgeführt wird, können Sie die Einstellungen für [!DNL Workfront for Microsoft Teams] so konfigurieren, dass sie Benachrichtigungen über diese Aktion im [!DNL Workfront] Chat-Kanal von [!DNL Microsoft Teams] erhalten.
 
 Beachten Sie beim Arbeiten mit [!DNL Workfront]-Benachrichtigungen von [!DNL Microsoft Teams] Folgendes:
 
@@ -82,7 +82,7 @@ Beachten Sie beim Arbeiten mit [!DNL Workfront]-Benachrichtigungen von [!DNL Mic
 
 So verwalten Sie die [!DNL Workfront], die Sie in [!DNL Microsoft Teams] erhalten können:
 
-1. Klicken Sie in der linken Navigationsleiste in **[!UICONTROL auf das Symbol]** Mehr hinzugefügt[!DNL Microsoft Teams] (drei Punkte) Apps .
+1. Klicken Sie in der linken Navigationsleiste in [!DNL Microsoft Teams] auf das Symbol **[!UICONTROL Mehr hinzugefügt]** (drei Punkte) Apps .
 
 1. Klicken Sie in der angezeigten Liste auf [!DNL Workfront] .
 1. Wählen Sie die Registerkarte **[!UICONTROL Einstellungen]**.
@@ -101,7 +101,7 @@ So verwalten Sie die [!DNL Workfront], die Sie in [!DNL Microsoft Teams] erhalte
 
 ## Antworten auf [!DNL Workfront] Benachrichtigungen und Genehmigungsanfragen in [!DNL Microsoft Teams]
 
-1. Melden Sie sich von [!DNL Workfront] aus bei [!DNL Microsoft Teams] an.\
+1. Melden Sie sich von [!DNL Microsoft Teams] aus bei [!DNL Workfront] an.\
    Informationen zur Anmeldung bei [!DNL Workfront] finden Sie unter [Installieren [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 1. Wechseln Sie zum Bereich **[!UICONTROL Chat]** und klicken Sie auf den **[!DNL Workfront]** Bot-Kanal.\
@@ -116,7 +116,7 @@ So verwalten Sie die [!DNL Workfront], die Sie in [!DNL Microsoft Teams] erhalte
 
 ### Validierungsbenachrichtigungen {#approval-notifications}
 
-Sie erhalten Genehmigungsbenachrichtigungen, wenn Sie aufgefordert werden, ein Objekt zu genehmigen, z. B. eine Aufgabe, eine Arbeitszeittabelle oder einen Korrekturabzug. Sie können die Benachrichtigung jedoch weiterhin kommentieren. In der Validierungsbenachrichtigung können Sie die folgenden Aktionen ausführen:
+Sie erhalten Genehmigungsbenachrichtigungen, wenn Sie aufgefordert werden, ein Objekt zu genehmigen, z. B. eine Aufgabe, eine Arbeitszeittabelle oder einen Korrekturabzug. Sie können die Benachrichtigung jedoch weiterhin kommentieren.In der Validierungsbenachrichtigung können Sie die folgenden Aktionen ausführen:
 
 * **[!UICONTROL Genehmigen]**: Klicken, um das Element zu genehmigen.
 * **[!UICONTROL Ändern]**: Klicken Sie, um das Element mit den Änderungen zu genehmigen.
@@ -144,7 +144,7 @@ Sie erhalten Genehmigungsbenachrichtigungen, wenn Sie aufgefordert werden, ein O
    <th>[!UICONTROL Reject]</th> 
    <th> <p>[!UICONTROL ändern]</p> </th> 
    <th> <p>[!UICONTROL Zum Korrekturabzug wechseln] </p> </th> 
-   <th>[!UICONTROL -Kommentar]</th> 
+   <th>[!UICONTROL-Kommentar]</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -278,7 +278,7 @@ Sie erhalten Zuweisungsbenachrichtigungen, wenn Sie oder ein Team, dem Sie angeh
   <tr> 
    <th>Benachrichtigung</th> 
    <th>[!UICONTROL Start]</th> 
-   <th>[!UICONTROL -Kommentar]</th> 
+   <th>[!UICONTROL-Kommentar]</th> 
    <th> <p>[!UICONTROL Status]</p> </th> 
   </tr> 
  </thead> 
@@ -429,7 +429,7 @@ Sie erhalten eine Benachrichtigung über eine Datumsänderung, wenn sich das Dat
  <thead> 
   <tr> 
    <th>Benachrichtigung</th> 
-   <th> <p>[!UICONTROL -Kommentar]</p> </th> 
+   <th> <p>[!UICONTROL-Kommentar]</p> </th> 
    <th> <p>[!UICONTROL Status]</p> </th> 
   </tr> 
  </thead> 

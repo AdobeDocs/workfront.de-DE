@@ -9,8 +9,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 82c6dff3-6187-4145-951c-3f5312049b59
 source-git-commit: 5be053a6ee99404673f6f3258a423ef5e5c7f431
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 0%
+source-wordcount: '549'
+ht-degree: 1%
 
 ---
 
@@ -35,20 +35,20 @@ So erstellen Sie ein Satellitenkonto:
 1. Navigieren Sie zur Seite [!UICONTROL Abrechnung].\
    Weitere Informationen zur Seite Abrechnung finden Sie unter [Die Seite  [!DNL Workfront Proof] [!UICONTROL Abrechnung]](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
-1. Klicken Sie auf **[!UICONTROL Schaltfläche „Neues]**&quot;. 1)
+1. Klicken Sie auf **[!UICONTROL Schaltfläche „Neues]**&quot;. (1)
 
    Ein Popup-Fenster wird angezeigt.
 
    ![new_satellite_account.png](assets/new-satellite-account-350x156.png)
 
 1. Geben Sie die Details Ihres Kunden ein, einschließlich relevanter Promo-Codes.
-1. Klicken Sie auf **[!UICONTROL Speichern]**. Das Satellitenkonto wird automatisch im Dropdown[!UICONTROL Menü &#x200B;]Konten“ oben auf der Seite [!UICONTROL Abrechnung] angezeigt.
+1. Klicken Sie auf **[!UICONTROL Speichern]**. Das Satellitenkonto wird automatisch im Dropdown[!UICONTROL Menü ]Konten“ oben auf der Seite [!UICONTROL Abrechnung] angezeigt.
 1. Wählen Sie das neue Satellitenkonto aus dem Dropdown-Menü aus.
 1. Fahren Sie mit [Plan für Ihr Satellite-Konto auswählen](#selecting-a-plan-for-your-satellite-account) fort, um Ihr Satellite-Konto zu aktualisieren.
 
 ## Auswählen eines Plans für Ihr Satellite-Konto {#selecting-a-plan-for-your-satellite-account}
 
-Nachdem Sie das Satellite-Konto wie unter &quot;[&#x200B; eines Satellite-Kontos“ beschrieben eingerichtet haben](#creating-a-satellite-account) müssen Sie es auf den gewünschten Plan aktualisieren.
+Nachdem Sie das Satellite-Konto wie unter &quot;[ eines Satellite-Kontos“ beschrieben eingerichtet haben](#creating-a-satellite-account) müssen Sie es auf den gewünschten Plan aktualisieren.
 
 1. Navigieren Sie zur Seite [!UICONTROL Abrechnung].\
    Weitere Informationen zur Seite Abrechnung finden Sie unter [Die Seite  [!DNL Workfront Proof] [!UICONTROL Abrechnung]](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
@@ -59,9 +59,9 @@ Nachdem Sie das Satellite-Konto wie unter &quot;[&#x200B; eines Satellite-Kontos
 
    ![satellite_account_change_plan.png](assets/satellite-account-change-plan-350x156.png)
 
-1. Klicken Sie **[!UICONTROL oben rechts auf]** Seite auf die Schaltfläche „Plan ändern“. 2)\
-   Oder\
-   Öffnen Sie das Popup, indem Sie auf den Namen Ihres aktuellen oder nächsten Plans klicken. 3)
+1. Klicken Sie **[!UICONTROL oben rechts auf]** Seite auf die Schaltfläche „Plan ändern“. (2)\
+   ODER\
+   Öffnen Sie das Popup, indem Sie auf den Namen Ihres aktuellen oder nächsten Plans klicken. (3)
 
 1. Plan aktualisieren oder herunterstufen.
 
@@ -71,9 +71,9 @@ Nachdem Sie das Satellite-Konto auf Ihren ausgewählten Plan aktualisiert haben,
 
 1. Melden Sie sich bei [!DNL Workfront Proof] als [!DNL Workfront Proof] an.
 1. Klicken Sie **[!UICONTROL Kontoeinstellungen]**.
-1. Wählen Sie oben auf der Seite im Dropdown-Menü das entsprechende Satellitenkonto aus. 1)\
+1. Wählen Sie oben auf der Seite im Dropdown-Menü das entsprechende Satellitenkonto aus. (1)\
    Die Seite mit den Kontoeinstellungen für das Satellite-Konto wird angezeigt.
-1. Klicken Sie auf **[!UICONTROL Schaltfläche]** Neuer Benutzer“ oben rechts auf der Seite. 2)\
+1. Klicken Sie auf **[!UICONTROL Schaltfläche]** Neuer Benutzer“ oben rechts auf der Seite. (2)\
    Die Seite [!DNL New User] wird angezeigt.
 
 1. Geben Sie die Details des Benutzers ein und klicken Sie dann auf **[!UICONTROL Speichern]**.\

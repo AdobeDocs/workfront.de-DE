@@ -10,7 +10,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: caff2a03-cccc-4779-9dcc-3362c527dcb9
 source-git-commit: 405523606094d4f8553b0aee544d71c2b7f97d86
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '430'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Das [!UICONTROL Elektronische Signatur]-Popup wird im Proofing Viewer und auch a
 
 ![electronic_signature_-_proof_details_2.png](assets/electronic-signature---proof-details-2-350x148.png)
 
-Wenn die Option [!UICONTROL Single Sign-On] im Korrekturabzug aktiviert ist, werden die E-Mail- und Kennwortdetails nicht im Popup [!UICONTROL Elektronische &#x200B;]) angezeigt, wenn eine Entscheidung getroffen wird.
+Wenn die Option [!UICONTROL Single Sign-On] im Korrekturabzug aktiviert ist, werden die E-Mail- und Kennwortdetails nicht im Popup [!UICONTROL Elektronische ]) angezeigt, wenn eine Entscheidung getroffen wird.
 
 Nach dem Klicken auf die [!UICONTROL Bestätigen] (4) in diesem Popup wird der Reviewer stattdessen zur Seite [!UICONTROL Single Sign-On] weitergeleitet.
 
