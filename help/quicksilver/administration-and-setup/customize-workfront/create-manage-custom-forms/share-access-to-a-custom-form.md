@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: bb5e1d1df73ecb4ae9749c5e0960b824bf2e6eda
+source-git-commit: 3e6ae76eea2e12fc7fc3a45dad753261a7bad628
 workflow-type: tm+mt
 source-wordcount: '980'
 ht-degree: 5%
@@ -17,7 +17,7 @@ ht-degree: 5%
 
 # Freigeben eines benutzerdefinierten Formulars
 
-{#preview-fast-release-general}
+{{preview-fast-release-general}}
 
 Sie können den Zugriff für ein benutzerdefiniertes Formular konfigurieren, um zu steuern, wer es anzeigen, freigeben und bearbeiten kann - Person, Rolle, Gruppe, Team, Unternehmen, Geschäftsprofil.
 
