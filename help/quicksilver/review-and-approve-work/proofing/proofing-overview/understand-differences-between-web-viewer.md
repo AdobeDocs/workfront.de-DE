@@ -2,26 +2,26 @@
 content-type: reference
 product-area: documents
 navigation-topic: proofing-overview
-title: Unterschiede zwischen dem Web Proofing Viewer und dem Desktop Proofing Viewer - Übersicht
+title: Überblick über die Unterschiede zwischen dem Web Proofing Viewer und dem Desktop Proofing Viewer
 description: Machen Sie sich mit den Unterschieden zwischen Desktop- und Web Proofing Viewern vertraut.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 72ce147b-29c9-4c3b-a03c-2da0758bc178
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 0%
+source-wordcount: '872'
+ht-degree: 9%
 
 ---
 
-# Unterschiede zwischen dem Web Proofing Viewer und dem Desktop Proofing Viewer - Übersicht
+# Überblick über die Unterschiede zwischen dem Web Proofing Viewer und dem Desktop Proofing Viewer
 
 Adobe Workfront bietet zwei verschiedene Proofing-Viewer:
 
 * **Web Proofing Viewer:** wurde hauptsächlich für das Proofing statischer Dateien und Videodateien entwickelt. Läuft in Google Chrome, Firefox oder Safari.
 * **Desktop Proofing Viewer:** Für das Proofing interaktiver Dateien sowie von Video- und statischen Dateien. Wird als eigenständige Anwendung auf Ihrer Workstation ausgeführt. Weitere Informationen finden Sie unter [Grundlegendes zur Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
 
-* Wenn Ihr Unternehmen die Desktop Proofing Viewer-App aus Sicherheitsgründen nicht verwenden kann, kann Ihr Workfront-Administrator Ihr System so konfigurieren, dass Sie interaktive Inhalte, die in einer ZIP-Archivdatei gebündelt sind, im Web Proofing Viewer überprüfen können. Weitere Informationen finden Sie unter  [Einrichten des interaktiven Inhalts-Proofing im Web Proofing Viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
+* Wenn Ihr Unternehmen die Desktop Proofing Viewer-App aus Sicherheitsgründen nicht verwenden kann, kann Ihr Workfront-Administrator Ihr System so konfigurieren, dass Sie interaktive Inhalte, die in einer ZIP-Archivdatei gebündelt sind, im Web Proofing Viewer überprüfen können. Weitere Informationen finden Sie unter [Einrichten des interaktiven Inhalts-Proofing im Web-Proofing-Viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
 
 Die folgende Liste hilft Ihnen zu verstehen, welchen Proofing Viewer Sie zum Testen bestimmter Inhaltstypen verwenden können:
 
@@ -34,17 +34,17 @@ Die folgende Liste hilft Ihnen zu verstehen, welchen Proofing Viewer Sie zum Tes
 
 | **Funktion** | **Web Proofing Viewer** | **Desktop Proofing Viewer** |
 |---|---|---|
-| Statische Korrekturabzüge öffnen | ✓ | ✓ &#42; |
-| Einzelne, Magazin- und fortlaufende Ansichten | ✓ | ✓ &#42; |
-| Schwenken | ✓ | ✓ &#42; |
-| Zoomen | ✓ | ✓ &#42; |
-| Drehen | ✓ | ✓ &#42; |
-| Messwerkzeug | ✓ (Legen Sie einen benutzerdefinierten Bereich fest) | ✓ &#42; |
-| Miniaturansicht | ✓ | ✓ &#42; |
-| Navigator für statische Korrekturabzüge | ✓ | ✓ &#42; |
-| Dokumentsuche | ✓ | ✓ &#42; |
-| Kommentar auf mehreren Seiten posten | ✓ (in allen Ansichten verfügbar) | ✓ &#42; (in allen Ansichten verfügbar) |
-| Erweiterte statische Korrekturabzüge | ✓ (Weitere Informationen finden Sie unter [Tastaturbefehle im Proofing Viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓ &#42;Weitere Informationen finden Sie unter [Tastaturbefehle in der Korrekturabzugsansicht](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) |
+| Statische Korrekturabzüge öffnen | ✓ | ✓&#42; |
+| Einzelne, Magazin- und fortlaufende Ansichten | ✓ | ✓&#42; |
+| Schwenken | ✓ | ✓&#42; |
+| Zoomen | ✓ | ✓&#42; |
+| Drehen | ✓ | ✓&#42; |
+| Messwerkzeug | ✓ (einen Bereich in benutzerdefinierter Größe festlegen) | ✓&#42; |
+| Miniaturansicht | ✓ | ✓&#42; |
+| Navigator für statische Korrekturabzüge | ✓ | ✓&#42; |
+| Dokumentsuche | ✓ | ✓&#42; |
+| Kommentar auf mehreren Seiten posten | ✓ (für alle Ansichten verfügbar) | ✓&#42; (für alle Ansichten verfügbar) |
+| Erweiterte statische Korrekturabzüge | ✓ (Weitere Informationen finden Sie unter [Tastaturbefehle in der Korrekturabzugsansicht](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;(Weitere Informationen finden Sie unter [Tastaturbefehle in der Korrekturabzugsansicht](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) |
 
 {style="table-layout:auto"}
 
@@ -54,16 +54,16 @@ Die folgende Liste hilft Ihnen zu verstehen, welchen Proofing Viewer Sie zum Tes
 
 | **Funktion**  | **Web Proofing Viewer** | **Desktop Proofing Viewer** |
 |---|---|---|
-| Videoprüfungen öffnen | ✓ | ✓ &#42; |
-| Pufferung | ✓ | ✓ &#42; |
-| Überprüfen mithilfe der Zeit | ✓ | ✓ &#42; |
-| Überprüfung mit Vollbildern oder Zeitcode | ✓ | ✓ &#42; |
-| Schnellere oder langsamere Überprüfung | ✓ | ✓ &#42; |
-| Mengenregelung | ✓ | ✓ &#42;  |
-| Vollbildmodus | ✓ | ✓ &#42;  |
-| Kommentare zu Bereichen | ✓ | ✓ &#42;  |
-| Testsendungen von Videos wiederholen (Videos werden automatisch beendet und gestartet) | ✓ | ✓ &#42;  |
-| Erweiterte Video-Tastaturbefehle | ✓ (Weitere Informationen finden Sie unter [Tastaturbefehle im Proofing Viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓ &#42;  |
+| Videoprüfungen öffnen | ✓ | ✓&#42; |
+| Pufferung | ✓ | ✓&#42; |
+| Überprüfen mithilfe der Zeit | ✓ | ✓&#42; |
+| Überprüfung mit Vollbildern oder Zeitcode | ✓ | ✓&#42; |
+| Schnellere oder langsamere Überprüfung | ✓ | ✓&#42; |
+| Mengenregelung | ✓ | ✓&#42;  |
+| Vollbildmodus | ✓ | ✓&#42;  |
+| Kommentare zu Bereichen | ✓ | ✓&#42;  |
+| Testsendungen von Videos wiederholen (Videos werden automatisch beendet und gestartet) | ✓ | ✓&#42;  |
+| Erweiterte Video-Tastaturbefehle | ✓ (Weitere Informationen finden Sie unter [Tastaturbefehle in der Korrekturabzugsansicht](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;  |
 
 {style="table-layout:auto"}
 
@@ -123,8 +123,8 @@ Die folgende Liste hilft Ihnen zu verstehen, welchen Proofing Viewer Sie zum Tes
   </tr> 
   <tr> 
    <td> <p>Markup-Tool für die Textauswahl</p> </td> 
-   <td>✓ Nur statische Korrekturabzüge</td> 
-   <td>✓ Nur statische Korrekturabzüge</td> 
+   <td>Nur statische Korrekturabzüge ✓</td> 
+   <td>Nur statische Korrekturabzüge ✓</td> 
   </tr> 
   <tr> 
    <td> <p>Ändern der Markupfarbe</p> </td> 
@@ -158,7 +158,7 @@ Die folgende Liste hilft Ihnen zu verstehen, welchen Proofing Viewer Sie zum Tes
   </tr> 
   <tr> 
    <td>Aktionen auf Kommentare festlegen</td> 
-   <td>✓ (Aktionen sind in Kommentaren unmittelbar nach dem Festlegen der Aktion sichtbar)</td> 
+   <td>✓ (Aktionen werden in Kommentaren sofort nach dem Festlegen der Aktion angezeigt)</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
@@ -342,7 +342,7 @@ Die folgende Liste hilft Ihnen zu verstehen, welchen Proofing Viewer Sie zum Tes
   <tr> 
    <td>Branding (benutzerdefinierte Logos)</td> 
    <td>✓</td> 
-   <td> ✓ <br>(Workfront-Logo auf der Launch-Seite) </td> 
+   <td> ✓<br>(Workfront-Logo auf der Launch-Seite) </td> 
   </tr> 
   <tr> 
    <td>Benutzerdefinierte Links (nur Workfront Proof)</td> 

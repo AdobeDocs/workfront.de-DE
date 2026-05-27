@@ -1,25 +1,25 @@
 ---
 product-area: documents
 navigation-topic: comment-on-a-proof
-title: Korrekturabzugskommentare auflösen
+title: Auflösen von Kommentaren zu Korrekturabzügen
 description: Sie können Kommentare als aufgelöst markieren, nachdem sie adressiert wurden. Sie können einen Kommentar, den Sie oder eine andere Überprüfende aufgelöst haben, erneut öffnen.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 89ba3a34-3347-41dc-939e-94d4c1511c31
 source-git-commit: fe269b088c82e7045ffbb5155d54432e0b413cbe
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 1%
+source-wordcount: '302'
+ht-degree: 14%
 
 ---
 
-# Korrekturabzugskommentare auflösen
+# Auflösen von Kommentaren zu Korrekturabzügen
 
 Sie können Kommentare als aufgelöst markieren, nachdem sie adressiert wurden. Sie können einen Kommentar, den Sie oder eine andere Überprüfende aufgelöst haben, erneut öffnen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ Sie können Kommentare als aufgelöst markieren, nachdem sie adressiert wurden. 
    <td> <p>Beliebig</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof-Berechtigungsprofil</td> 
+   <td role="rowheader">Korrekturabzug-Berechtigungsprofil</td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
@@ -43,12 +43,12 @@ Sie können Kommentare als aufgelöst markieren, nachdem sie adressiert wurden. 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> </td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

@@ -1,27 +1,27 @@
 ---
 product-area: documents
 navigation-topic: comment-on-a-proof
-title: Kommentare zu Korrekturabzügen anzeigen und beantworten
+title: Überprüfen und Beantworten von Kommentaren zu Korrekturabzügen
 description: Sie können Korrekturabzugskommentare anderer Prüfer anzeigen und darauf antworten.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 32a068ab-0d99-4ab5-a98d-dc3abd953948
 source-git-commit: fe269b088c82e7045ffbb5155d54432e0b413cbe
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 0%
+source-wordcount: '612'
+ht-degree: 10%
 
 ---
 
-# Kommentare zu Korrekturabzügen anzeigen und beantworten
+# Überprüfen und Beantworten von Kommentaren zu Korrekturabzügen
 
 Sie können Korrekturabzugskommentare anderer Prüfer anzeigen und darauf antworten.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+Sie benötigen die folgenden Zugriffsrechte, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,17 +36,17 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof-Berechtigungsprofil </td> 
+   <td role="rowheader">Korrekturabzug-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p></td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -70,7 +70,7 @@ So zeigen Sie Kommentare im Proofing Viewer an:
 
 1. (Bedingt) Wenn der Kommentarbereich nicht geöffnet ist, klicken **oben rechts auf** Kommentare anzeigen“.
 1. Klicken Sie auf einen beliebigen Kommentar, um die Kommentarzeichen für den Korrekturabzug anzuzeigen.
-1.  oder
+1.  ODER
 1.  Bewegen Sie in einem Videobeweis den Mauszeiger über den Punkt in der Zeitleiste, an dem ein Kommentar abgegeben wurde, und klicken Sie dann auf die nummerierte Sprechblase, die angezeigt wird.
 1. ![PROOF_COMMENT_VIDEO.png](assets/proof-comment-video-350x190.png)
 

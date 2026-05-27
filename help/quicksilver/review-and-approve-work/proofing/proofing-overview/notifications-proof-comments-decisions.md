@@ -1,7 +1,7 @@
 ---
 product-area: documents
 navigation-topic: proofing-overview
-title: Benachrichtigungen für Korrekturabzugskommentare und Entscheidungen - Übersicht
+title: Überblick über Benachrichtigungen für Kommentare und Entscheidungen zu Korrekturabzügen
 description: Sie können E-Mail-Benachrichtigungen über Kommentare und Entscheidungen zu Korrekturabzügen erhalten, an denen Sie arbeiten.
 author: Courtney
 feature: Digital Content and Documents
@@ -9,11 +9,11 @@ exl-id: d6ded72c-a140-4c19-b1e0-60456804fc61
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
 source-wordcount: '426'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Benachrichtigungen für Korrekturabzugskommentare und Entscheidungen - Übersicht
+# Überblick über Benachrichtigungen für Kommentare und Entscheidungen zu Korrekturabzügen
 
 Sie können E-Mail-Benachrichtigungen über Kommentare und Entscheidungen zu Korrekturabzügen, an denen Sie arbeiten, auf eine der folgenden Arten erhalten:
 

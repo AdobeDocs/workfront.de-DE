@@ -1,25 +1,25 @@
 ---
 product-area: documents
 navigation-topic: review-proofs-within-workfront
-title: Entscheidung über einen Korrekturabzug in der Korrekturabzugsansicht treffen
+title: Treffen einer Entscheidung zu einem Korrekturabzug im Proofing Viewer
 description: Sie können eine Entscheidung zu einem Korrekturabzug direkt in der Proofing-Anzeige treffen.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: cf74ac54-b8c1-4404-b35f-2aa94831ecad
 source-git-commit: fe269b088c82e7045ffbb5155d54432e0b413cbe
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 4%
+source-wordcount: '326'
+ht-degree: 23%
 
 ---
 
-# Entscheidung über einen Korrekturabzug in der Korrekturabzugsansicht treffen
+# Treffen einer Entscheidung zu einem Korrekturabzug im Proofing Viewer
 
 Sie können eine Entscheidung zu einem Korrekturabzug direkt in der Proofing-Anzeige treffen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,7 +34,7 @@ Sie können eine Entscheidung zu einem Korrekturabzug direkt in der Proofing-Anz
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof-Berechtigungsprofil </td> 
+   <td role="rowheader">Korrekturabzug-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
@@ -43,16 +43,16 @@ Sie können eine Entscheidung zu einem Korrekturabzug direkt in der Proofing-Anz
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p></td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
-## Entscheidung über einen Korrekturabzug in der Korrekturabzugsansicht treffen
+## Treffen einer Entscheidung zu einem Korrekturabzug im Proofing Viewer
 
 1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
 1. Suchen Sie den benötigten Korrekturabzug und klicken Sie dann auf **Korrekturabzug öffnen**.
@@ -88,7 +88,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
     </tbody> 
    </table>
 
-1. (Bedingt) Wenn der Adobe Workfront- oder Workfront Proof-Administrator einen Abschnitt „Gründe“ hinzugefügt hat, wählen Sie einen der Gründe für Ihre Entscheidung aus. Weitere Informationen dazu, wie Administratoren Entscheidungsgründe konfigurieren können, finden Sie unter  [Konfigurieren von Genehmigungsentscheidungsoptionen in Workfront Proof](../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
+1. (Bedingt) Wenn der Adobe Workfront- oder Workfront Proof-Administrator einen Abschnitt „Gründe“ hinzugefügt hat, wählen Sie einen der Gründe für Ihre Entscheidung aus. Weitere Informationen dazu, wie Admins Entscheidungsgründe konfigurieren können, finden Sie unter [Konfigurieren von Genehmigungsentscheidungsoptionen in Workfront Proof](../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
 1. (Optional) Wählen Sie **E-Mail-Bestätigung senden**, um eine E-Mail-Bestätigung Ihrer Entscheidung zu erhalten.
 1. Klicken Sie **Entscheidung treffen**.
 

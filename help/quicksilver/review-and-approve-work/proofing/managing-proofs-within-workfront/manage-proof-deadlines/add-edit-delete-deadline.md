@@ -2,25 +2,25 @@
 content-type: reference
 product-area: documents
 navigation-topic: manage-proof-deadlines
-title: Hinzufügen, Bearbeiten oder Löschen einer Frist für einen Schritt
+title: Hinzufügen, Bearbeiten oder Löschen eines Termins für einen Schritt
 description: Sie können die Frist für Korrekturabzüge, die Sie erstellen oder deren Inhaber Sie sind, anpassen.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 23010732-dab7-461d-876a-56f9928a2a23
 source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 3%
+source-wordcount: '230'
+ht-degree: 29%
 
 ---
 
-# Hinzufügen, Bearbeiten oder Löschen einer Frist für einen Schritt
+# Hinzufügen, Bearbeiten oder Löschen eines Termins für einen Schritt
 
 Sie können die Frist für Korrekturabzüge, die Sie erstellen oder deren Inhaber Sie sind, anpassen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +37,7 @@ Sie können die Frist für Korrekturabzüge, die Sie erstellen oder deren Inhabe
    <p>Arbeit oder Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof-Berechtigungsprofil </td> 
+   <td role="rowheader">Korrekturabzug-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
@@ -46,16 +46,16 @@ Sie können die Frist für Korrekturabzüge, die Sie erstellen oder deren Inhabe
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> </td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
-## Hinzufügen, Bearbeiten oder Löschen einer Frist für einen Schritt
+## Hinzufügen, Bearbeiten oder Löschen eines Termins für einen Schritt
 
 1. Bewegen Sie den Mauszeiger über den Korrekturabzug und klicken Sie dann auf **Proofing-Workflow**, um die Workflow-Seite zu öffnen.
 1. Führen Sie einen der folgenden Schritte aus, um den Schritt zu finden, den Sie verwalten möchten:

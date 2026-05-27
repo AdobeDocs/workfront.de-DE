@@ -1,25 +1,25 @@
 ---
 product-area: documents;user-management;resource-management
 navigation-topic: manage-proofs-within-workfront
-title: Testversandeinstellungen bearbeiten
+title: Bearbeiten von Einstellungen für Korrekturabzüge
 description: Sie können die Einstellungen für den Korrekturabzug jederzeit bearbeiten, nachdem Sie einen Korrekturabzug erstellt haben.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee30ce2c-e3dc-4863-a69b-cbc1b8747362
 source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 9%
+source-wordcount: '532'
+ht-degree: 15%
 
 ---
 
-# Testversandeinstellungen bearbeiten
+# Bearbeiten von Einstellungen für Korrekturabzüge
 
 Sie können die Einstellungen für den Korrekturabzug jederzeit bearbeiten, nachdem Sie einen Korrekturabzug erstellt haben.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +37,7 @@ Sie können die Einstellungen für den Korrekturabzug jederzeit bearbeiten, nach
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof-Berechtigungsprofil </td> 
+   <td role="rowheader">Korrekturabzug-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
@@ -46,16 +46,16 @@ Sie können die Einstellungen für den Korrekturabzug jederzeit bearbeiten, nach
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p></td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
-## Testversandeinstellungen bearbeiten
+## Bearbeiten von Einstellungen für Korrekturabzüge
 
 Einige Einstellungen können gesperrt werden, wenn sie von Ihrem Workfront-Administrator auf Kontoebene deaktiviert wurden.
 
@@ -69,7 +69,7 @@ Einige Einstellungen können gesperrt werden, wenn sie von Ihrem Workfront-Admin
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Anmeldung verlangen. Dieser Korrekturabzug darf nicht mit Gastbenutzern geteilt werden.</td> 
+      <td role="rowheader">Anmeldung erforderlich. Dieser Korrekturabzug kann nicht für Gastbenutzer freigegeben werden</td> 
       <td> <p>Wenn Sie höhere Sicherheitsstufen für Ihren Prüfungs- und Genehmigungsprozess benötigen, können Sie die Option Anmeldung beim Korrekturabzug erforderlich verwenden. Das bedeutet, dass nur Workfront-Benutzende zum Korrekturabzug hinzugefügt werden können. Sie müssen ihre E-Mail-Adresse und ihr Passwort eingeben, bevor sie darauf zugreifen können.</p> <p>Hinweis: <em style="font-style: normal;">Wenn „Anmeldung erforderlich“ aktiviert ist, können Abonnements nicht aktiviert werden.</em> </p> </td> 
      </tr> 
      <tr> 

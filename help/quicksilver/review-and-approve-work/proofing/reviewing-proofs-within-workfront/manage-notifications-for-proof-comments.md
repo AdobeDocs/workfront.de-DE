@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: review-proofs-within-workfront
-title: Verwalten von Benachrichtigungen für Korrekturabzugskommentare und Entscheidungen
+title: Verwalten von Benachrichtigungen für Kommentare und Entscheidungen zu Korrekturabzügen
 description: Wenn Sie an einem Korrekturabzug arbeiten, egal ob Sie Adobe Workfront-Benutzer oder externer Mitarbeiter sind, können Sie angeben, welche E-Mail-Benachrichtigungen Sie zu Kommentaren und Entscheidungen bezüglich des Korrekturabzugs erhalten möchten. Weitere Informationen finden Sie unter Kommentare und Entscheidungen zu Korrekturabzügen - Überblick.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c38e005c-8984-4e99-9527-94a0a6b1071d
 source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 2%
+source-wordcount: '731'
+ht-degree: 12%
 
 ---
 
-# Verwalten von Benachrichtigungen für Korrekturabzugskommentare und Entscheidungen
+# Verwalten von Benachrichtigungen für Kommentare und Entscheidungen zu Korrekturabzügen
 
 <!-- Audited: 4/2025 -->
 
@@ -25,7 +25,7 @@ Wenn Sie an einem Korrekturabzug arbeiten, egal ob Sie Adobe Workfront-Benutzer 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,21 +44,21 @@ Wenn Sie an einem Korrekturabzug arbeiten, egal ob Sie Adobe Workfront-Benutzer 
    <td>Prüfer, Prüfer und genehmigende Person, Autor, Moderator</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof-Berechtigungsprofil </td> 
+   <td role="rowheader">Korrekturabzug-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> </td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
-## Verwalten von Benachrichtigungen für Korrekturabzugskommentare und Entscheidungen
+## Verwalten von Benachrichtigungen für Kommentare und Entscheidungen zu Korrekturabzügen
 
 1. Öffnen Sie den Korrekturabzug, für den Sie Benachrichtigungen konfigurieren möchten.
 1. Wenn die linke Symbolleiste nicht angezeigt wird, klicken Sie auf **Menü** in der linken oberen Ecke der Web-Korrekturabzugsanzeige.
@@ -102,10 +102,10 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
       <td role="rowheader">Keine E-Mail</td> 
       <td>Keine E-Mail-Warnungen gesendet.<br><p>Diese Einstellung ist für Personen nützlich, die einem Korrekturabzug nur zu Referenzzwecken hinzugefügt werden und nicht über Änderungen benachrichtigt werden müssen.</p><p>Hinweis: <p>Mit dieser Option werden nur E-Mail-Warnungen zu Korrekturabzugskommentaren und -entscheidungen deaktiviert. Die E-Mail-Warnungen, die Sie über den Fluss eines Korrekturabzugs erhalten können, wie z. B. die E-Mail Neuer Korrekturabzug oder Später Korrekturabzug , werden nicht deaktiviert. Weitere Informationen finden Sie in den folgenden Artikeln: </p>
         <ul>
-         <li><a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md" class="MCXref xref">Neue Korrekturabzugs-E-Mail</a></li>
-         <li><a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md" class="MCXref xref">Die neue E-Mail-Version</a></li>
+         <li><a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md" class="MCXref xref">E-Mail zu neuem Korrekturabzug</a></li>
+         <li><a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md" class="MCXref xref">E-Mail zu neuer Version</a></li>
          <li><a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md" class="MCXref xref">E-Mail zu verspätetem Korrekturabzug</a></li>
-         <li><a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">Die E-Mail mit dem Korrekturabzug</a></li>
+         <li><a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">E-Mail zu erstelltem Korrekturabzug</a></li>
         </ul></p></td> 
      </tr> 
     </tbody> 

@@ -8,8 +8,8 @@ feature: Digital Content and Documents
 exl-id: a5438db3-6507-4ebc-a27c-65f02c45783e
 source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 1%
+source-wordcount: '1164'
+ht-degree: 4%
 
 ---
 
@@ -25,7 +25,7 @@ Wenn Sie den Korrekturabzug freigeben, wie in diesem Artikel erläutert, hat Ihr
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,7 +42,7 @@ Wenn Sie den Korrekturabzug freigeben, wie in diesem Artikel erläutert, hat Ihr
    <p>Arbeit oder Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof-Berechtigungsprofil </td> 
+   <td role="rowheader">Korrekturabzug-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
@@ -51,12 +51,12 @@ Wenn Sie den Korrekturabzug freigeben, wie in diesem Artikel erläutert, hat Ihr
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> </td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -138,7 +138,7 @@ Sie können dem Korrekturabzug jeden Workfront-Benutzer hinzufügen, der über B
 1. Wählen Sie das Dokument aus, das den Korrekturabzug enthält, dem Benutzer hinzugefügt werden sollen.
 1. Wenn der Korrekturabzug keinen automatisierten Workflow (Phasen) hat, klicken Sie auf das **Mehr**-Symbol in der oberen rechten Ecke des Abschnitts von Schritt 1 und dann im Dropdown-Menü auf **Freigeben**.
 
-   Oder
+   ODER
 
    Wenn der Korrekturabzug über einen automatisierten Workflow verfügt, klicken Sie auf das Symbol **Mehr** in der oberen rechten Ecke der Phase, in der Sie den Reviewer hinzufügen möchten, und klicken Sie dann **Dropdown-Menü auf** Freigeben.
 

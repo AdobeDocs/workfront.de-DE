@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: Senden von E-Mail-Nachrichten an Prüfer im Rahmen eines Testversands
+title: Senden von E-Mail-Nachrichten an prüfende Personen für einen Korrekturabzug
 description: Während des Prüfungs- und Genehmigungsprozesses können Sie eine Nachricht an einen oder alle Prüfer eines Korrekturabzugs senden. Nachrichten sind eine einfache Möglichkeit, Prüfende daran zu erinnern, ihre Prüfung eines Korrekturabzugs abzuschließen oder andere Informationen im Zusammenhang mit dem Korrekturabzug bereitzustellen.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e7d60d6f-b6bd-4082-b50c-e42d4b72c149
 source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 1%
+source-wordcount: '354'
+ht-degree: 16%
 
 ---
 
-# Senden von E-Mail-Nachrichten an Prüfer im Rahmen eines Testversands
+# Senden von E-Mail-Nachrichten an prüfende Personen für einen Korrekturabzug
 
 Während des Prüfungs- und Genehmigungsprozesses können Sie eine Nachricht an einen oder alle Prüfer eines Korrekturabzugs senden. Nachrichten sind eine einfache Möglichkeit, Prüfende daran zu erinnern, ihre Prüfung eines Korrekturabzugs abzuschließen oder andere Informationen im Zusammenhang mit dem Korrekturabzug bereitzustellen.
 
@@ -21,7 +21,7 @@ Sie können zwischen dem Versand einer allgemeinen Erinnerungs-E-Mail oder dem V
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +39,7 @@ Sie können zwischen dem Versand einer allgemeinen Erinnerungs-E-Mail oder dem V
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof-Berechtigungsprofil </td> 
+   <td role="rowheader">Korrekturabzug-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
@@ -48,12 +48,12 @@ Sie können zwischen dem Versand einer allgemeinen Erinnerungs-E-Mail oder dem V
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> </td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

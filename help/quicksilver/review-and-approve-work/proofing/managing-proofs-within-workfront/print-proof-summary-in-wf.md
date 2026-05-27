@@ -8,8 +8,8 @@ feature: Digital Content and Documents
 exl-id: 129c8e6b-5c66-445b-a5d0-7b1460aeabd6
 source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 1%
+source-wordcount: '674'
+ht-degree: 8%
 
 ---
 
@@ -19,7 +19,7 @@ Sie können eine Korrekturabzugszusammenfassung drucken, als PDF speichern oder 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,17 +37,17 @@ Sie können eine Korrekturabzugszusammenfassung drucken, als PDF speichern oder 
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof-Berechtigungsprofil </td> 
+   <td role="rowheader">Korrekturabzug-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> </td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -64,9 +64,9 @@ Sie können eine Zusammenfassung eines Korrekturabzugs direkt aus der Dokumentli
 
    ![proof_printsummary.png](assets/proof-printsummary-350x166.png)
 
-   Oder
+   ODER
 
-   Klicken Sie während der Anzeige des Korrekturabzugs in der Korrekturabzugsansicht auf das Symbol **Drucken** (![) &#x200B;](assets/print-icon-in-pv.png) der linken Symbolleiste. (Wenn die linke Symbolleiste nicht sichtbar ist, klicken Sie auf das Menüsymbol ![Menüsymbol](assets/menu-icon-in-pv.png) in der linken oberen Ecke der Korrekturabzugsanzeige.)
+   Klicken Sie während der Anzeige des Korrekturabzugs in der Korrekturabzugsansicht auf das Symbol **Drucken** (![) ](assets/print-icon-in-pv.png) der linken Symbolleiste. (Wenn die linke Symbolleiste nicht sichtbar ist, klicken Sie auf das Menüsymbol ![Menüsymbol](assets/menu-icon-in-pv.png) in der linken oberen Ecke der Korrekturabzugsanzeige.)
 
 1. Verwenden Sie eine der folgenden Optionen:
 
@@ -113,7 +113,7 @@ Sie können eine Zusammenfassung eines Korrekturabzugs direkt aus der Dokumentli
 1. Klicken Sie **Drucken**.
 1. Wenn Sie die Zusammenfassung drucken möchten, klicken Sie im rechten Bedienfeld des angezeigten Fensters auf das Menü **Ziel** und dann auf **Weitere Informationen**. Klicken Sie in der angezeigten Liste auf den Drucker, den Sie verwenden möchten, und dann auf **Drucken**.
 
-   Oder
+   ODER
 
    Wenn Sie die Zusammenfassung als PDF-Datei speichern möchten, klicken Sie auf das Menü **Ziel**, klicken Sie auf **Als PDF speichern** und dann auf **Speichern**.
 

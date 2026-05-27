@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: comment-on-a-proof
-title: Kommentar zu einem Korrekturabzug
+title: Kommentieren eines Korrekturabzugs
 description: Mithilfe von Kommentaren können Sie Feedback zu Inhalten geben und mit anderen Benutzenden im Proofing Viewer zusammenarbeiten.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b0386786-7f90-4d1c-bd3a-1cd545430de1
 source-git-commit: a117b4e671490a380518cb987b897ca17e54cb16
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 0%
+source-wordcount: '704'
+ht-degree: 7%
 
 ---
 
-# Kommentar zu einem Korrekturabzug
+# Kommentieren eines Korrekturabzugs
 
 <!-- Audited: 5/2025 -->
 
@@ -26,7 +26,7 @@ Beim Tagging von Benutzern in Kommentaren zu einem Korrekturabzug können die Be
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +43,7 @@ Beim Tagging von Benutzern in Kommentaren zu einem Korrekturabzug können die Be
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof-Berechtigungsprofil </td> 
+   <td role="rowheader">Korrekturabzug-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
@@ -52,16 +52,16 @@ Beim Tagging von Benutzern in Kommentaren zu einem Korrekturabzug können die Be
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p></td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
-## Kommentar zu einem Korrekturabzug
+## Kommentieren eines Korrekturabzugs
 
 1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
 1. Bewegen Sie den Mauszeiger über den benötigten Korrekturabzug und klicken Sie dann auf **Korrekturabzug öffnen**.

@@ -3,19 +3,19 @@ content-type: overview
 product-area: documents
 keywords: Testversand,Erlaubnis
 navigation-topic: proofing-overview
-title: Profil für Korrekturabzugsberechtigungen - Übersicht
+title: Überblick über das Berechtigungsprofil für Korrekturabzüge
 description: Mit Korrekturabzugsberechtigungsprofilen wird festgelegt, welche Gesamtberechtigungen Benutzende für alle Korrekturabzüge in Ihrem Konto haben. Berechtigungsprofile für Korrekturabzüge werden Benutzern in ihrem Benutzerprofil zugewiesen. Profile für Korrekturabzugsberechtigungen unterscheiden sich von Korrekturabzugsrollen.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fb6faa48-d97b-4b7b-83ae-fe39d40b3963
 source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 6%
+source-wordcount: '508'
+ht-degree: 7%
 
 ---
 
-# Profil für Korrekturabzugsberechtigungen - Übersicht
+# Überblick über das Berechtigungsprofil für Korrekturabzüge
 
 <!--Audited: 12/2023-->
 

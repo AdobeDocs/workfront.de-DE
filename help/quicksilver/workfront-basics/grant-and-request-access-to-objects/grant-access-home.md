@@ -1,19 +1,19 @@
 ---
 product-area: user-management
 navigation-topic: grant-and-request-access-to-objects
-title: Zugriff auf Objekte im Bereich „Startseite“ gewähren
+title: Gewähren des Zugriffs auf Objekte im Bereich der Startseite
 description: Benutzende können Zugriff auf Objekte in Adobe Workfront anfordern. Weitere Informationen zum Anfordern des Zugriffs finden Sie unter Anfordern des Zugriffs auf Objekte .
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
 source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 1%
+source-wordcount: '486'
+ht-degree: 15%
 
 ---
 
-# Zugriff auf Objekte im Bereich „Startseite“ gewähren
+# Gewähren des Zugriffs auf Objekte im Bereich der Startseite
 
 <!--Audited: 10/2024-->
 
@@ -25,7 +25,7 @@ Wenn Sie der Eigentümer eines Objekts sind, können Sie den Zugriff auf Element
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +38,7 @@ Wenn Sie der Eigentümer eines Objekts sind, können Sie den Zugriff auf Element
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p> 
-   <p>Arbeit oder höher</p>
+   <p>Work oder höher</p>
    </td> 
   </tr> 
   <tr> 
@@ -52,11 +52,11 @@ Wenn Sie der Eigentümer eines Objekts sind, können Sie den Zugriff auf Element
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Zugriff auf Objekte im Bereich „Startseite“ gewähren
+## Gewähren des Zugriffs auf Objekte im Bereich der Startseite
 
 1. Klicken Sie auf **Hauptmenü** ![](assets/dots-main-menu.png) in der oberen rechten Ecke des Bildschirms oder auf das **Hauptmenü** ![](assets/lines-main-menu.png) in der oberen linken Ecke, falls verfügbar, und klicken Sie dann auf **Home**
 oder

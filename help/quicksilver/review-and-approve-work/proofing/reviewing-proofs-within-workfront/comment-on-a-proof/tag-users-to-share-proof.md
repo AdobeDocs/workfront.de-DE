@@ -1,19 +1,19 @@
 ---
 product-area: documents;user-management;resource-management
 navigation-topic: comment-on-a-proof
-title: Tagging von Benutzern für die Freigabe eines Korrekturabzugs
+title: Tagging von Benutzenden für die Freigabe eines Korrekturabzugs
 description: Wenn Sie einen Korrekturabzug im Proofing Viewer kommentieren, können Sie andere Benutzende taggen, um ihre Aufmerksamkeit auf Ihren Kommentar per E-Mail zu lenken und sie zum Workflow des Korrekturabzugs hinzuzufügen.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4efbfdeb-3834-48dd-aa5b-515891bac519
 source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
-source-wordcount: '650'
-ht-degree: 0%
+source-wordcount: '653'
+ht-degree: 8%
 
 ---
 
-# Tagging von Benutzern für die Freigabe eines Korrekturabzugs
+# Tagging von Benutzenden für die Freigabe eines Korrekturabzugs
 
 Wenn Sie einen Korrekturabzug im Proofing Viewer kommentieren, können Sie andere Benutzende taggen, um ihre Aufmerksamkeit auf Ihren Kommentar per E-Mail zu lenken und sie zum Workflow des Korrekturabzugs hinzuzufügen.
 
@@ -24,7 +24,7 @@ Beim Tagging von Benutzern in Kommentaren zu einem Korrekturabzug können die Be
 
 ## Zugriffsanforderungen {#access-requirements}
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,23 +44,23 @@ Beim Tagging von Benutzern in Kommentaren zu einem Korrekturabzug können die Be
    <td>Autor, Moderator</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Proof-Berechtigungsprofil</td> 
+   <td role="rowheader">Korrekturabzug-Berechtigungsprofil</td> 
    <td>Verantwortlicher oder Administrator</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p></td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
-## Tagging von Benutzern für die Freigabe eines Korrekturabzugs
+## Tagging von Benutzenden für die Freigabe eines Korrekturabzugs
 
-Benutzende mit dem im Abschnitt [Zugriffsanforderungen“ oben beschriebenen Profil für Korrekturabzugsberechtigungen oder der Rolle für &#x200B;](#access-requirements) können Benutzende taggen, damit sie einen Korrekturabzug standardmäßig freigeben. Sie können Benutzende auch taggen, um einen Korrekturabzug unabhängig vom Profil der Korrekturabzugsberechtigung oder von der Rolle des Korrekturabzugs freizugeben, wenn Sie der Inhaber oder Ersteller des Korrekturabzugs sind. Sie können Benutzern mit einem niedrigeren Profil für Korrekturabzugsberechtigungen oder Korrekturabzugsrollen die Möglichkeit geben, bei der Erstellung eines Korrekturabzugs einen Korrekturabzug für andere Benutzer freizugeben. Weitere Informationen finden Sie im Abschnitt [Konfigurieren des Workflows und Hinzufügen von Reviewern](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md#configur) im Artikel [Erstellen eines erweiterten Korrekturabzugs mit einem einfachen Workflow](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md).
+Benutzende mit dem im Abschnitt [Zugriffsanforderungen“ oben beschriebenen Profil für Korrekturabzugsberechtigungen oder der Rolle für ](#access-requirements) können Benutzende taggen, damit sie einen Korrekturabzug standardmäßig freigeben. Sie können Benutzende auch taggen, um einen Korrekturabzug unabhängig vom Profil der Korrekturabzugsberechtigung oder von der Rolle des Korrekturabzugs freizugeben, wenn Sie der Inhaber oder Ersteller des Korrekturabzugs sind. Sie können Benutzern mit einem niedrigeren Profil für Korrekturabzugsberechtigungen oder Korrekturabzugsrollen die Möglichkeit geben, bei der Erstellung eines Korrekturabzugs einen Korrekturabzug für andere Benutzer freizugeben. Weitere Informationen finden Sie im Abschnitt [Konfigurieren des Workflows und Hinzufügen von Reviewern](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md#configur) im Artikel [Erstellen eines erweiterten Korrekturabzugs mit einem einfachen Workflow](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md).
 
 >[!NOTE]
 >

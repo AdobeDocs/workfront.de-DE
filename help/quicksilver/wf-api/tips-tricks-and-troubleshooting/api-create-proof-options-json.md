@@ -9,8 +9,8 @@ role: Developer
 exl-id: 5fcdf07e-d077-4d6a-bc3f-973983877c7c
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 0%
+source-wordcount: '614'
+ht-degree: 2%
 
 ---
 
@@ -35,7 +35,7 @@ Einen Überblick über die ProofHQ-API finden Sie unter [ProofHQ - Übersicht](.
 
 >[!NOTE]
 >
->* Die Workfront-API ist eine REST-ful-API. Die ProofHQ-API ist eine SOAP-API.
+>* Die Workfront-API ist eine REST-ful-API. Die ProofHQ API ist eine SOAP API.
 >* Die in der ProofHQ-API erstellten Testsendungen werden nicht automatisch mit Workfront verknüpft. Daher empfehlen wir, Testsendungen in der Workfront-API zu erstellen, bevor Sie sie mit der ProofHQ-API aktualisieren.
 >
 

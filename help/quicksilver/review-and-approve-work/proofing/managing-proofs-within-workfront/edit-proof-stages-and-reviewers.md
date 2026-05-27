@@ -1,25 +1,25 @@
 ---
 product-area: documents;user-management;resource-management
 navigation-topic: manage-proofs-within-workfront
-title: Testversandphasen und Prüfer bearbeiten
+title: Bearbeiten von Phasen und prüfenden Personen für einen Korrekturabzug
 description: Erfahren Sie, wie Sie Testversandphasen und Prüfer bearbeiten.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 91549c2d-d7b1-461c-a3c4-ad0032acfb23
 source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 1%
+source-wordcount: '566'
+ht-degree: 9%
 
 ---
 
-# Testversandphasen und Prüfer bearbeiten
+# Bearbeiten von Phasen und prüfenden Personen für einen Korrekturabzug
 
 Sie können die Phasen und die Details der Prüfer in einem Korrekturabzug bearbeiten, wenn Sie der/die Verantwortliche oder Ersteller des Korrekturabzugs sind oder Ihnen die richtige Rolle zugewiesen wurde.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +37,7 @@ Sie können die Phasen und die Details der Prüfer in einem Korrekturabzug bearb
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof-Berechtigungsprofil </td> 
+   <td role="rowheader">Korrekturabzug-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
@@ -46,12 +46,12 @@ Sie können die Phasen und die Details der Prüfer in einem Korrekturabzug bearb
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> </td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -59,7 +59,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 1. Bewegen Sie in einer Dokumentliste, die das Dokument enthält, den Mauszeiger über die Zeile, die das Dokument enthält, und klicken Sie dann auf **Proofing-Workflow**.
 
-   Oder
+   ODER
 
    Klicken Sie in der eigenständigen Workfront Proof auf das **Mehr**-Menü (drei Punkte) rechts neben dem Korrekturabzug und dann auf **Details des Korrekturabzugs anzeigen**.
 
@@ -75,7 +75,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
      </tr> 
      <tr> 
       <td role="rowheader">Entfernen einzelner Reviewer</td> 
-      <td> <p>Wählen Sie das <strong>Mehr</strong>-Menü rechts neben dem Namen des Reviewers aus und klicken Sie dann <strong> Dropdown-Menü auf </strong>Entfernen“. Klicken Sie <strong>Bestätigen</strong> in dem Feld, das angezeigt wird, um den Prüfer aus dem Korrekturabzug zu entfernen.</p> </td> 
+      <td> <p>Wählen Sie das <strong>Mehr</strong>-Menü rechts neben dem Namen des Reviewers aus und klicken Sie dann </strong> Dropdown-Menü auf <strong>Entfernen“. Klicken Sie <strong>Bestätigen</strong> in dem Feld, das angezeigt wird, um den Prüfer aus dem Korrekturabzug zu entfernen.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Mehrere Reviewer entfernen</td> 
