@@ -101,7 +101,7 @@ Old:
 
 1. (Optional) Gehen Sie wie folgt vor, um eingeschränkte Informationen zum Portfolio zu bearbeiten:
 
-   1. Klicken Sie auf den Namen eines Portfolios, um es zu öffnen, und klicken Sie dann im linken ]**auf**[!UICONTROL  Portfolio-Details.
+   1. Klicken Sie auf den Namen eines Portfolios, um es zu öffnen, und klicken Sie dann im linken **auf** Portfolio-Details.
 
       ![Registerkarte &quot;Portfolio-Details“](assets/portfolio-details-tab-nwe-350x163.png)
 
@@ -120,7 +120,7 @@ Old:
 
       >[!TIP]
       >
-      >Sie können auf das Symbol **Alle** erweitern![ (](assets/right-pointing-arrow.png) erweitern) in der oberen rechten Ecke des Abschnitts Details klicken, wenn alle Bereiche reduziert sind.
+      >Sie können auf das Symbol **Alle** erweitern![&#x200B; (](assets/right-pointing-arrow.png) erweitern) in der oberen rechten Ecke des Abschnitts Details klicken, wenn alle Bereiche reduziert sind.
 
       Informationen zu den Feldern, die im Abschnitt [!UICONTROL **Portfolio-Details**] angezeigt werden, finden Sie, wenn Sie mit der Bearbeitung des Portfolios im Feld [!UICONTROL **Portfolio bearbeiten**] fortfahren, wie unten beschrieben.
    1. (Optional) Wenn keine benutzerdefinierten Formulare an das Portfolio angehängt sind, geben Sie den Namen eines Formulars in das Feld **[!UICONTROL Benutzerdefiniertes Formular hinzufügen]** in der oberen rechten Ecke der Seite **Details** ein und wählen Sie es aus, wenn es in der Liste angezeigt wird.
