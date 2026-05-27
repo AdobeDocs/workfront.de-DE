@@ -8,12 +8,12 @@ recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
 source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 2%
+source-wordcount: '409'
+ht-degree: 10%
 
 ---
 
-# Projekt- und Arbeitselementdetails in Prioritäten anzeigen
+# Anzeigen von Projekt- und Arbeitselementdetails in „Prioritäten“
 
 Sie können Projekt-, Aufgaben- und Problemdetails in der Prioritäts-Arbeitsliste anzeigen.
 
@@ -26,7 +26,7 @@ Mit Priorität werden die Ihnen zugewiesenen Arbeitselemente angezeigt. Sie kön
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 

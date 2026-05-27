@@ -10,8 +10,8 @@ role: Admin
 exl-id: d5fbc71b-3b22-48d1-a056-f2c4b32c220c
 source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 1%
+source-wordcount: '415'
+ht-degree: 10%
 
 ---
 
@@ -29,7 +29,7 @@ Weitere Informationen zu gelöschten Elementen finden Sie unter [Verwalten gelö
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,7 +42,7 @@ Weitere Informationen zu gelöschten Elementen finden Sie unter [Verwalten gelö
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr> 
   <tr>
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -55,7 +55,7 @@ Weitere Informationen zu gelöschten Elementen finden Sie unter [Verwalten gelö
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -96,7 +96,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Gesamte Objektliste auf der Registerkarte exportieren</p> </td> 
-      <td> <p>Klicken Sie <strong>Exportieren</strong>.</p> </td> 
+      <td> <p>Klicken Sie auf <strong>Exportieren</strong>.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"> <p>Ändern der Anzeige von Informationen in der Liste</p> </td> 
