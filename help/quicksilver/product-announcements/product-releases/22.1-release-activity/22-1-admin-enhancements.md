@@ -116,7 +116,7 @@ Diese Funktion wurde kürzlich für Projektvoreinstellungen sowie für Aufgaben-
 
 Informationen dazu, wie Workfront-Admins eine Arbeitszeittabelle und Stundeneinstellungen entsperren, finden Sie im Abschnitt [Arbeitszeittabelle und Stundeneinstellungen für Gruppen entsperren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) im Artikel [Arbeitszeittabelle und Stundeneinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-Informationen dazu, wie Gruppenadmins die Einstellungen für entsperrte Aufgaben und Probleme für eine Gruppe konfigurieren, finden [ unter „Arbeitszeittabelle und Stundeneinstellungen für eine Gruppe konfigurieren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+Informationen dazu, wie Gruppenadmins die Einstellungen für entsperrte Aufgaben und Probleme für eine Gruppe konfigurieren, finden [&#x200B; unter „Arbeitszeittabelle und Stundeneinstellungen für eine Gruppe konfigurieren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
 ## Wählen Sie mehrere Benachrichtigungen aus, die Sie für Gruppen entsperren oder erneut sperren möchten
 

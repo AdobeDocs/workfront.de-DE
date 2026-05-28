@@ -63,7 +63,7 @@ Mit [!UICONTROL Backup]-Funktion können Sie entscheiden, wie Sie Ihre Ressource
 Wenn das Backup fertig ist, geschieht Folgendes:
 
 * Sie erhalten eine E-Mail von [!DNL Workfront Proof], in der Sie darüber informiert werden („Ihr [!DNL Workfront Proof]-Backup ist bereit„). Die E-Mail enthält einen Download-Link für Ihre Sicherungsdaten.
-* Auf [ Registerkarte ](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)Kontoeinstellungen“ wird ein Download-Link für Ihre Sicherungsdaten angezeigt.
+* Auf [&#x200B; Registerkarte &#x200B;](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)Kontoeinstellungen“ wird ein Download-Link für Ihre Sicherungsdaten angezeigt.
 * Der Link Neues Backup anfordern (3) wird erneut auf der Registerkarte Backups angezeigt
 
 Ihre Daten können als ZIP-Datei heruntergeladen werden. Sie können die ZIP-Sicherungsdatei entweder über die Benachrichtigungs-E-Mail oder in den [!UICONTROL Kontoeinstellungen] herunterladen, wie in den folgenden Abschnitten beschrieben:

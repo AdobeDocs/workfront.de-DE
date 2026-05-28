@@ -120,6 +120,6 @@ Die Dropzone-Seite erleichtert die Verwaltung der Übermittlungen an Ihre Dropzo
 * Korrekturabzug-Zusammenfassung erweitern/reduzieren (8)
 * Korrekturabzug auswählen (9)
 
-Das Seitenlayout sowie die Sortierungs- und Filteroptionen sind mit denen in den [!DNL Views] identisch. Weitere [ finden Sie unter „Elemente auf der Seite &quot; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)&quot; in.
+Das Seitenlayout sowie die Sortierungs- und Filteroptionen sind mit denen in den [!DNL Views] identisch. Weitere [&#x200B; finden Sie unter „Elemente auf der Seite &quot; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)&quot; in.
 
 ![New_Dropzone_design__Feb_2013_.jpg](assets/new-dropzone-design--feb-2013--350x224.jpg)

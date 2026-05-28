@@ -401,7 +401,7 @@ Informationen zu den Wartungs-Updates, die während der Version 22.1 vorgenommen
 
 ## Webinar zur Version 22.1
 
-Das Webinar zur Version Workfront 22.1 wurde am 12. Januar 2022 vorgestellt. Sie können die Webinar-Aufzeichnung auf der Seite &quot;[&quot; in Workfront One ](https://one.workfront.com/s/event).
+Das Webinar zur Version Workfront 22.1 wurde am 12. Januar 2022 vorgestellt. Sie können die Webinar-Aufzeichnung auf der Seite &quot;[&quot; in Workfront One &#x200B;](https://one.workfront.com/s/event).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

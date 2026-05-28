@@ -25,7 +25,7 @@ Weitere Informationen finden Sie unter [Benutzeroberfläche und Administration v
 
 ## Zugriff auf [!DNL Workfront]
 
-Sobald Sie bei CX Enterprise angemeldet sind, können Sie alle [!DNL Workfront] Organisationen und Umgebungen anzeigen, auf die Sie Zugriff haben, indem Sie auf den Organisationsschalter im oberen Navigationsbereich klicken. Wählen Sie die [!DNL Workfront] Organisation oder Umgebung aus, in der Sie arbeiten möchten. Umgebungen können [!UICONTROL Vorschau] und [!UICONTROL Sandbox) ], wenn Ihr Unternehmen sie verwendet.
+Sobald Sie bei CX Enterprise angemeldet sind, können Sie alle [!DNL Workfront] Organisationen und Umgebungen anzeigen, auf die Sie Zugriff haben, indem Sie auf den Organisationsschalter im oberen Navigationsbereich klicken. Wählen Sie die [!DNL Workfront] Organisation oder Umgebung aus, in der Sie arbeiten möchten. Umgebungen können [!UICONTROL Vorschau] und [!UICONTROL Sandbox) &#x200B;], wenn Ihr Unternehmen sie verwendet.
 
 ![Anzeigen [!DNL Workfront] Organisationen und Umgebungen](assets/wf-org-instance-switcher-2026.png)
 
