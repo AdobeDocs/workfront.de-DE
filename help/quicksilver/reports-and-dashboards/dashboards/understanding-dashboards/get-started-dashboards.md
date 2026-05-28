@@ -11,7 +11,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '695'
 ht-degree: 7%
 
 ---
@@ -77,7 +77,7 @@ Weitere Informationen zum Erstellen eines Dashboards finden Sie unter [Dashboard
 Sie können ein Dashboard wie folgt für Benutzer freigeben:
 
 * Freigabe auf individueller Basis.\
-  Weitere Informationen zum Freigeben von Dashboards finden Sie unter [Freigeben von Berichten, Dashboards und &#x200B;](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) und [Freigeben eines Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).
+  Weitere Informationen zum Freigeben von Dashboards finden Sie unter [Freigeben von Berichten, Dashboards und ](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) und [Freigeben eines Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).
 
 * Ein Dashboard zu einem Bereich oder Objekt in Workfront im linken Bereich hinzufügen.\
   Weitere Informationen zum Hinzufügen von Dashboards im linken Bereich finden Sie unter [Linke Navigation in Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).

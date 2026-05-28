@@ -1,25 +1,25 @@
 ---
 product-area: documents
 navigation-topic: create-proofs-within-workfront
-title: Konfigurieren von persönlichen Proofing-Standards
+title: Konfigurieren von persönlichen Standardeinstellungen für das Proofing
 description: Sie können Standardeinstellungen für persönliche Korrekturabzüge definieren, die für von Ihnen erstellte Korrekturabzüge gelten. Diese Standardwerte werden jedes Mal angewendet, wenn Sie einen ersten Korrekturabzug generieren oder eine neue Korrekturabzugsversion in Workfront hochladen.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 278bff89-0305-407b-9def-d06820d908de
 source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 1%
+source-wordcount: '477'
+ht-degree: 9%
 
 ---
 
-# Konfigurieren von persönlichen Proofing-Standards
+# Konfigurieren von persönlichen Standardeinstellungen für das Proofing
 
 Sie können Standardeinstellungen für persönliche Korrekturabzüge definieren, die für von Ihnen erstellte Korrekturabzüge gelten. Diese Standardwerte werden jedes Mal angewendet, wenn Sie einen ersten Korrekturabzug generieren oder eine neue Korrekturabzugsversion in Workfront hochladen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +37,7 @@ Sie können Standardeinstellungen für persönliche Korrekturabzüge definieren,
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof-Berechtigungsprofil </td> 
+   <td role="rowheader">Korrekturabzug-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
  </tbody> 
@@ -47,7 +47,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 +++
 
-## Konfigurieren von persönlichen Proofing-Standards
+## Konfigurieren von persönlichen Standardeinstellungen für das Proofing
 
 {{step1-to-proofing}}
 

@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1199'
 ht-degree: 3%
 
 ---
@@ -73,10 +73,10 @@ Während des festgelegten Genehmigungszeitraums hat der Benutzer, an den Sie ein
 
   >[!NOTE]
   >
-  > Der Adobe Workfront-Administrator kann den Zugriff von Benutzenden auf bestimmte Objekttypen einschränken. Wenn ein(e) Benutzende(r) keinen Zugriff auf einen Objekttyp hat und dem/r Benutzenden eine Genehmigung dieses Typs delegiert wird, hat der/die Benutzende keinen Lesezugriff auf das Objekt. Der Benutzer kann jedoch weiterhin Genehmigungsanfragen von der Seite **Startseite“ genehmigen oder**, wie unter &quot;[&#x200B; Arbeit“ &#x200B;](../../review-and-approve-work/manage-approvals/approving-work.md).\
+  > Der Adobe Workfront-Administrator kann den Zugriff von Benutzenden auf bestimmte Objekttypen einschränken. Wenn ein(e) Benutzende(r) keinen Zugriff auf einen Objekttyp hat und dem/r Benutzenden eine Genehmigung dieses Typs delegiert wird, hat der/die Benutzende keinen Lesezugriff auf das Objekt. Der Benutzer kann jedoch weiterhin Genehmigungsanfragen von der Seite **Startseite“ genehmigen oder**, wie unter &quot;[ Arbeit“ ](../../review-and-approve-work/manage-approvals/approving-work.md).\
   >Beispiel: Benutzer A gehört zu Gruppe A. Der Workfront-Administrator hat die Zugriffsrechte von Gruppe A eingeschränkt, sodass Benutzende in dieser Gruppe keine Aufgaben in Workfront sehen können. Wenn eine Aufgabengenehmigungsanfrage an einen Benutzer delegiert wird, kann Benutzer A die Aufgabe, mit der die Genehmigung verknüpft ist, nicht anzeigen. Benutzer A kann jedoch die Genehmigungsanfrage von der Startseite aus genehmigen oder ablehnen.
 
-  Informationen dazu, wie der Workfront-Administrator den Zugriff auf Objekttypen in Setup beschränken kann, finden Sie unter  [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). 
+  Informationen dazu, wie der Workfront-Administrator den Zugriff auf Objekttypen innerhalb von Setup einschränken kann, finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). 
 
 Nachdem die Delegierung der Genehmigung gestoppt oder abgebrochen wurde, hat der Benutzer als genehmigende Person angegeben:
 

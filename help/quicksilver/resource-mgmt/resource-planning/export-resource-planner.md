@@ -9,7 +9,7 @@ exl-id: 07acd28a-5dc0-45b4-bdf2-20abbd5e098c
 source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
 workflow-type: tm+mt
 source-wordcount: '599'
-ht-degree: 5%
+ht-degree: 13%
 
 ---
 
@@ -23,7 +23,7 @@ Sie können Informationen aus jeder Ansicht des Ressourcenplaners in eine Excel-
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -66,7 +66,7 @@ Der **Planer** wird standardmäßig angezeigt.
    * Nach Projekt anzeigen
    * Nach Funktion anzeigen
 
-1. Klicken Sie **Exportieren**.
+1. Klicken Sie auf **Exportieren**.
 
    Das Dialogfeld Exportoptionen wird angezeigt.
 

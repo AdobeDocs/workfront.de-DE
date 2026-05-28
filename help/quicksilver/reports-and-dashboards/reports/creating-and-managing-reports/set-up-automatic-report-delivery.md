@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1298'
 ht-degree: 6%
 
 ---
@@ -111,7 +111,7 @@ So planen Sie einen Bericht für den automatischen Versand&#x200B;
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Diesen Bericht senden mit Zugriffsrechten von</p> </td> 
-      <td> <p>Geben Sie den Namen eines Benutzers ein, der Zugriff auf den Bericht hat, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird. Benutzern, die den Bericht erhalten, wird derselbe Zugriff auf den Bericht gewährt wie den Benutzern, die Sie hier angeben.<br> Informationen finden Sie unter <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Bericht mit den Zugriffsrechten eines anderen Benutzers ausführen und bereitstellen</a>.</p> <p>Hinweis: Dieses Feld unterstützt keine Platzhalter. Beispielsweise wird bei Verwendung des Platzhalters <em>$$User.ID</em> der Bericht nicht mit den Zugriffsrechten des Benutzers ausgeführt, der den Bericht erhält.</p> </td> 
+      <td> <p>Geben Sie den Namen eines Benutzers ein, der Zugriff auf den Bericht hat, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird. Benutzern, die den Bericht erhalten, wird derselbe Zugriff auf den Bericht gewährt wie den Benutzern, die Sie hier angeben.<br> Weitere Informationen finden Sie unter <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Bericht mit den Zugriffsrechten eines anderen Benutzers ausführen und bereitstellen</a>.</p> <p>Hinweis: Dieses Feld unterstützt keine Platzhalter. Beispielsweise wird bei Verwendung des Platzhalters <em>$$User.ID</em> der Bericht nicht mit den Zugriffsrechten des Benutzers ausgeführt, der den Bericht erhält.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Format</p> </td> 
