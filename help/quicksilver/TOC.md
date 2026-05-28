@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: e3c540cde02d64e8a141828cc34641429da05d4b
+source-git-commit: e94f01963995e80853fa1492cf2d23d811fc9373
 workflow-type: tm+mt
-source-wordcount: '14155'
+source-wordcount: '14165'
 ht-degree: 94%
 
 ---
@@ -21,10 +21,12 @@ ht-degree: 94%
       * [Vorbereiten auf eine vierteljährliche Adobe Workfront-Version](product-announcements/product-releases/release-readiness.md)
       * Version 2026 Q3 {#release-26-q3}
          * [Versionsübersicht für das dritte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)
+         * [Verbesserungen für Administratoren im dritten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md)
          * [Verbesserungen bei Dokumenten für das dritte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md)
          * [Verbesserungen beim Finanzmanagement für das dritte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md)
          * [Verbesserungen bei der Berichterstellung für das dritte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md)
          * [Drittes Quartal 2026 - Verbesserungen anfordern](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md)
+         * [Drittes Quartal 2026 Weitere Verbesserungen](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md)
       * Version 2026 Q2 {#release-26-q2}
          * [Übersicht über die Version 2026 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
          * [Verbesserungen für Administratoren im zweiten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md)
