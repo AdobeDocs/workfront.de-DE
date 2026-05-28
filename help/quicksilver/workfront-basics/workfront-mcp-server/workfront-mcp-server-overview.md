@@ -5,10 +5,9 @@ title: Adobe Workfront MCP-Server - Übersicht
 description: Erfahren Sie, was der Adobe Workfront MCP-Server tut und wie Sie damit in einer KI-Agentenplattform durch Gespräche in natürlicher Sprache mit Workfront arbeiten können.
 author: Courtney
 feature: Get Started with Workfront
-hide: true
-source-git-commit: 14b3f452ebd127eebba8195f1e23e1093382d049
+source-git-commit: e7dadae62ea2f5e9772705cafdc5e067cec1ae08
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -16,23 +15,40 @@ ht-degree: 0%
 
 # Adobe Workfront MCP-Server - Übersicht
 
-Mit dem [!DNL Adobe Workfront] MCP-Server (Model Context Protocol) können Sie mit Ihren Workfront-Daten über eine Konversation in natürlicher Sprache auf einer unterstützten KI-Agentenplattform arbeiten. Anstatt sich durch Workfront zu klicken, um ein Projekt zu finden, eine Aufgabe zu aktualisieren oder eine Genehmigung zu überprüfen, bitten Sie die KI-Agentenplattform in einfachem Englisch, und die KI-Agentenplattform erledigt die Arbeit für Sie.
-
-Sie müssen weder die Workfront-API noch etwas über MCP wissen, um den Workfront MCP-Server verwenden zu können. Richten Sie die KI-Agentenplattform ein, um einmal mit Workfront zu sprechen, und fragen Sie dann.
-
-<!-- NEEDS DECISION: Keep "V1" / "initial release" framing in this section, or describe current capabilities as the product without versioning language? -->
-
-## Unterstützte KI-Agentenplattformen
-
-Der Workfront MCP-Server unterstützt derzeit die folgenden KI-Agentenplattformen:
-
-* [!DNL Claude]
-
-<!-- NEEDS DETAIL: Update this list as Adobe adds support for additional AI agentic platforms (for example, [!DNL ChatGPT], [!DNL Gemini], or [!DNL Microsoft Copilot]). -->
+{{highlighted-preview-article-level}}
 
 
-## Einrichten und Verwenden des Workfront MCP-Servers
+Der [!DNL Adobe Workfront] MCP-Server verbindet Ihre Workfront-Instanz mit einer KI-Agentenplattform wie [!DNL Claude] oder [!DNL ChatGPT]. Von der KI-Agentenplattform aus können Sie Workfront-Elemente suchen, erstellen, aktualisieren und verwalten, indem Sie Anfragen in natürlicher Sprache stellen.
 
-Bevor Sie den Workfront MCP-Server verwenden können, muss ein Workfront-Administrator den MCP-Serverzugriff in Workfront aktivieren und Sie müssen Ihre KI-Agentenplattform mit Workfront verbinden. Weitere Informationen finden Sie unter [Konfigurieren des Adobe Workfront MCP-Servers](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
+Sie können beispielsweise fragen:
 
-Nach dem Setup können Sie die KI-Agentenplattform bitten, Workfront-Elemente zu suchen, zu erstellen, zu aktualisieren und zu verwalten. Weitere Informationen zu verfügbaren Aktionen, Beispielanforderungen und zur Datenverarbeitung finden Sie unter [Verwenden des Adobe Workfront MCP-Servers](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
+* *Zeigen Sie mir alle aktiven Projekte für das Marken-Marketing-Team.*
+* *Aktualisieren Sie die Aufgabe „Design Review“ so, dass sie am 18. April abgeschlossen ist.*
+* *Erinnerung an genehmigende Personen, die nicht geantwortet haben, bezüglich des Assets „Frühlingskampagnenvideo“ senden.*
+
+Sie müssen weder die Workfront-API kennen noch wissen, wie MCP-Server funktionieren, um den Workfront MCP-Server zu verwenden.
+
+>[!IMPORTANT]
+>
+>Derzeit steht der Workfront MCP-Server nur Kunden in den USA zur Verfügung, die AWS verwenden.
+
+## Was ein MCP-Server ist
+
+Ein MCP-Server ist ein Verbindungspunkt, über den eine KI-Agent-Plattform mit einem anderen System zusammenarbeiten kann. Mit dem Workfront MCP-Server stellt Ihre KI-Agentenplattform eine Verbindung her, damit sie Ihre Workfront-Daten in Ihrem Namen lesen und bearbeiten kann.
+
+MCP steht für Model Context Protocol. Dies ist der Standard, der definiert, wie KI-Agentenplattformen und externe Systeme miteinander kommunizieren.
+
+## Einrichten der Verbindung
+
+Der Workfront MCP-Server funktioniert mit jeder MCP-kompatiblen KI-Agent-Plattform, z. B. [!DNL Claude] oder [!DNL ChatGPT]. Bevor Sie sie verwenden können, muss Folgendes passieren:
+
+* Ein Workfront-Administrator muss den MCP-Serverzugriff in Ihrer Workfront-Instanz aktivieren.
+* Sie (oder Ihr Administrator) müssen Ihre KI-Agentenplattform mit Workfront verbinden.
+
+Weitere Informationen finden Sie unter [Konfigurieren des Adobe Workfront MCP-Servers](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
+
+## Verwenden des Workfront MCP-Servers
+
+Nach dem Setup können Sie Ihre KI-Agentenplattform bitten, Workfront-Elemente in natürlicher Sprache zu finden, zu erstellen, zu aktualisieren und zu verwalten.
+
+Weitere Informationen, einschließlich Beispielanfragen, zu beachtende Informationen sowie Daten und Sicherheit, finden Sie unter [Verwenden des Adobe Workfront MCP-Servers](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).

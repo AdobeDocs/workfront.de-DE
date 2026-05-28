@@ -10,10 +10,10 @@ role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ade3f6eef4252c123b41b7bbc4871cf01708f485
+source-git-commit: e3c540cde02d64e8a141828cc34641429da05d4b
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 12%
+source-wordcount: '933'
+ht-degree: 13%
 
 ---
 
@@ -148,6 +148,14 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
      <tr> 
       <td role="rowheader">Opt-in für KI-Betaversionen </td> 
       <td>Ermöglicht die Auswahl von KI-Funktionen, die sich derzeit in Beta befinden. Wenn Sie diese Option aktivieren, können Sie auswählen, welche KI-Beta-Funktionen aktiviert werden sollen. Um weitere Informationen zu den einzelnen KI-Beta-Funktionen zu erhalten, klicken Sie auf das Informationssymbol neben dieser Funktion.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader"><span class="preview">Schreibgeschützte MCP-Tools</span></td> 
+      <td><span class="preview">Ermöglicht dem Workfront MCP-Server die Durchführung von Leseaktionen für Workfront-Daten, z. B. das Suchen oder Auflisten von Projekten, Aufgaben oder anderen Elementen. Standardmäßig ist diese Option aktiviert.<p>Weitere Informationen zum Workfront MCP-Server finden Sie unter <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Konfigurieren des Adobe Workfront MCP-Servers</a>.</p></span></td> 
+     </tr>
+     <tr> 
+      <td role="rowheader"><span class="preview">MCP-Tools schreiben</span></td> 
+      <td><span class="preview">Ermöglicht dem Workfront-MCP-Server das Erstellen, Aktualisieren und Löschen von Aktionen für Workfront-Daten. Standardmäßig ist diese Option deaktiviert.<p>Weitere Informationen zum Workfront MCP-Server finden Sie unter <a href="/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md">Konfigurieren des Adobe Workfront MCP-Servers</a>.</p></span></td> 
      </tr>
      <tr> 
       <td role="rowheader">Testumgebungen</td> 
