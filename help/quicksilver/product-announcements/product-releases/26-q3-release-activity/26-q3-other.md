@@ -4,10 +4,10 @@ description: Weitere Verbesserungen im Zeitraum der Veröffentlichung im dritten
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
+source-git-commit: ec0c6db3ed0ff470af64fa28ca3e69f0f0bf840a
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 3%
+source-wordcount: '473'
+ht-degree: 2%
 
 ---
 
@@ -17,15 +17,20 @@ Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom 
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2026 verfügbar sind, finden Sie unter [Versionsübersicht für das dritte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
-## Verbinden Ihrer KI-Agentenplattform mit Workfront mit dem Workfront MCP-Server
+
+## Verbinden von Workfront mit Ihren KI-Tools mit dem Workfront MCP-Server
 
 >[!NOTE]
 >
 >Vorschau: 28. Mai 2026>Produktions-Schnellversion: 11. Juni 2026>Produktion für alle: 16. Juli 2026
 
-Arbeiten Sie mit Workfront über die bereits verwendete KI-Agentenplattform. Der neue Workfront MCP-Server verbindet Workfront mit einer unterstützten KI-Agentenplattform wie Claude oder ChatGPT, sodass Sie Workfront-Elemente über Gespräche in natürlicher Sprache finden, erstellen, aktualisieren und verwalten können. Fragen Sie nach Ihren überfälligen Aufgaben, übertragen Sie den Endtermin eines Projekts, senden Sie eine Erinnerung an genehmigende Personen oder aktualisieren Sie ein Kampagnenbudget. Ihre KI-Agentenplattform erledigt die Arbeit für Sie in Workfront.
+Der operative Kontext Ihres Teams lebt in Workfront. Mit dem Workfront MCP-Server wird dieser Kontext nun innerhalb der KI-Tools, die Ihr Team bereits verwendet, umsetzbar.
 
-Der Workfront MCP-Server arbeitet mit jeder MCP-kompatiblen KI-Agentenplattform zusammen und bietet Ihren Teams eine flexible Grundlage für KI-gestützte Arbeit in Workfront.
+Verbinden Sie Workfront mit einer beliebigen MCP-kompatiblen KI-Plattform, einschließlich Claude, ChatGPT, Copilot, Gemini und mehr, und verwenden Sie eine natürliche Sprache zum Suchen, Erstellen, Aktualisieren und Verwalten von Workfront-Elementen, ohne Ihr KI-Tool der Wahl verlassen zu müssen. Fragen Sie nach überfälligen Aufgaben, übertragen Sie den Endtermin eines Projekts, senden Sie eine Erinnerung an genehmigende Personen, aktualisieren Sie das Kampagnenbudget - und Ihre KI-Plattform erledigt die Arbeit für Sie in Workfront.
+
+Und mit Claudes KI-Fähigkeiten und geplanten Aufgaben können Sie sogar noch weiter gehen - indem Sie wiederkehrende Workflows automatisieren, die proaktiv mit Live-Workfront-Daten ausgeführt werden. Zum Beispiel ein Projekt-Briefing am Montagmorgen, ein wöchentlicher Kapazitätsbericht, eine monatliche Konsistenzprüfung einer Kampagne. Legen Sie sie einmal fest, und die KI verarbeitet sie automatisch, geerdet im gesamten Kontext Ihres Vorgangs.
+
+Dies ist die Grundlage eines agenten Arbeitsmanagementsystems, bei dem KI auf Ihren umfangreichsten Betriebsdaten basiert und Mensch und KI zusammenarbeiten, um die Arbeit mit voller Geschwindigkeit am Laufen zu halten.
 
 >[!IMPORTANT]
 >
