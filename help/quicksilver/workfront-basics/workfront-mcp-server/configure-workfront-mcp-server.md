@@ -5,7 +5,7 @@ title: Konfigurieren des Adobe Workfront MCP-Servers
 description: Konfigurieren Sie Ihre Workfront-Instanz und Ihre KI-Agentenplattform, damit Sie über Konversationen in natürlicher Sprache mit Workfront arbeiten können.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 46cc21fb1b7bb66b34dac5e7aa53c096c46e5b29
+source-git-commit: f96afd17e9f4e726ac545a9cb0c54ace5a4fcffe
 workflow-type: tm+mt
 source-wordcount: '1207'
 ht-degree: 0%
@@ -16,7 +16,6 @@ ht-degree: 0%
 # Konfigurieren des Adobe Workfront MCP-Servers
 
 {{highlighted-preview-article-level}}
-
 
 Mit dem [!DNL Adobe Workfront] MCP-Server können Sie mit Ihren Workfront-Daten über eine Konversation in natürlicher Sprache auf einer unterstützten KI-Agentenplattform arbeiten.
 
@@ -103,7 +102,7 @@ To connect Workfront to [!DNL Claude]:
 
 So verbinden Sie Workfront mit [!DNL Claude] über eine URL:
 
-1. Melden Sie sich mit Ihren [&#x200B; bei &#x200B;](https://claude.ai)Claude“ an.
+1. Melden Sie sich mit Ihren [ bei ](https://claude.ai)Claude“ an.
 1. Wählen Sie im linken Menü das Symbol **Anpassen** aus.
 1. Wählen Sie **Connectoren** und klicken Sie dann auf das Symbol **+** , um einen Connector hinzuzufügen.
 1. Klicken Sie auf **Schaltfläche „App**&quot;.
@@ -121,7 +120,7 @@ Um mehr über [!DNL Claude] Fähigkeiten zu erfahren, lesen Sie die [Claude-Benu
 
 ## Mit ChatGPT verbinden
 
-1. Melden Sie sich mit Ihren [&#x200B; bei &#x200B;](https://chatgpt.com)ChatGPT) an.
+1. Melden Sie sich mit Ihren [ bei ](https://chatgpt.com)ChatGPT) an.
 1. Wählen Sie unten links &quot;**&quot;** → **Einstellungen**.
 1. Wählen Sie **Apps** aus und aktivieren Sie dann **Entwicklermodus**.
 1. Klicken Sie auf **Schaltfläche „App**&quot;.
@@ -223,9 +222,6 @@ Eine tägliche Fehlerbehebung nach der Verbindung (z. B. veraltete Ergebnisse od
 
 +++
 
-
-
-
 ## Häufig gestellte Fragen zum Setup
 
 +++ Erweitern Sie , um häufig gestellte Fragen zur Einrichtung des Workfront MCP-Servers anzuzeigen.
@@ -239,4 +235,3 @@ Nein. Jede Verbindung verknüpft eine KI-Agentenplattform mit einer einzelnen Wo
 Sowohl der Workfront-Administrator als auch der Administrator für Ihre KI-Agentenplattform. Ihr Workfront-Administrator aktiviert den MCP-Serverzugriff auf der Workfront-Seite. Der Administrator für Ihre KI-Agentenplattform ermöglicht den Workfront-Zugriff auf der Plattformseite. Der [!DNL Claude] Enterprise-Administrator aktiviert [!DNL Claude] den [!DNL Adobe Workfront]-Connector.
 
 +++
-
