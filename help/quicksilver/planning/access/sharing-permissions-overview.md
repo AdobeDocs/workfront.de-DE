@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 6%
+source-wordcount: '1372'
+ht-degree: 5%
 
 ---
 
@@ -22,13 +22,9 @@ ht-degree: 6%
 
 # Überblick über das Freigeben von Berechtigungen in Adobe Workfront-Planung
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
-
-
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -60,20 +56,17 @@ Sie können die folgenden Objekte in Workfront Planning manuell freigeben:
 
   Weitere Informationen finden Sie unter [Freigeben von Datensatztypen](/help/quicksilver/planning/access/share-record-types.md).
 
-<!--
 <div class="preview">
 
-* Records
-    
-    * You can share records with people inside your organization.
-    * Users inherit permissions from the workspace and the record type by default. 
-    * You cannot share a record with a higher or lower permission level than the user has on the record type. 
+* Einträge
 
-    For more information, see [Share records](/help/quicksilver/planning/access/share-records.md).
+   * Sie können Datensätze für Personen in Ihrer Organisation freigeben.
+   * Benutzer erben standardmäßig Berechtigungen vom Arbeitsbereich und vom Datensatztyp.
+   * Sie können einen Datensatz nicht mit einer höheren oder niedrigeren Berechtigungsstufe freigeben, als der Benutzer für den Datensatztyp hat.
+
+  Weitere Informationen finden Sie unter [Freigeben von Datensätzen](/help/quicksilver/planning/access/share-records.md).
 
 </div>
-
--->
 
 * Ansichten
 
@@ -190,11 +183,9 @@ Die folgenden Szenarien sind vorhanden:
 
 ### Berechtigungen für Datensätze
 
-Datensatzberechtigungen werden vom Datensatztyp übernommen, wenn Sie Berechtigungen für den Arbeitsbereich und den Datensatztyp gewähren.
+Datensatzberechtigungen werden vom Datensatztyp übernommen, wenn Sie standardmäßig Berechtigungen für den Arbeitsbereich und den Datensatztyp gewähren.
 
-<!--In the Production environment, -->
-
-Im Folgenden finden Sie die Berechtigungsebenen für Datensätze:
+In der Produktionsumgebung gibt es die folgenden Berechtigungsebenen für Datensätze:
 
 
 |        | Verwalten | Mitwirken | Ansicht |
@@ -204,41 +195,36 @@ Im Folgenden finden Sie die Berechtigungsebenen für Datensätze:
 | Bearbeiten | ✓ | ✓ |       |
 | Ansicht | ✓ | ✓ | ✓ |
 
-<!--
-
 <div class="preview">
 
-In the Preview environment, the following are the levels of permissions for records: 
+In der Vorschau -Umgebung sind die folgenden Berechtigungsebenen für Datensätze verfügbar:
 
-|        | Manage |  View  |
+|        | Verwalten | Ansicht |
 |--------|--------|-------|
-| Create | ✓      |       |
-| Delete | ✓      |       |
-| Edit   | ✓      |       |
-| View   | ✓      | ✓     |
+| Erstellen | ✓ |       |
+| Löschen | ✓ |       |
+| Bearbeiten | ✓ |       |
+| Ansicht | ✓ | ✓ |
 
+Datensatzberechtigungen werden immer vererbt, wenn Sie Berechtigungen für den Arbeitsbereich und den Datensatztyp gewähren.
 
+Sie können die geerbten Berechtigungen des Datensatzes, die Sie vom Datensatztyp erhalten haben, entfernen. Workspace-Manager und Datensatzersteller behalten die Verwaltungsberechtigungen für den Datensatz bei.
 
-Record permissions are always inherited when you grant permissions to the workspace and the record type.
+Sie können Benutzenden für den Datensatz keine Berechtigungen erteilen, die niedriger oder höher sind als die für den Datensatztyp.
 
-You can remove the record's inherited permissions received from the record type. Workspace managers and record creators retain Manage permissions to the record. 
+Die folgenden Szenarien sind vorhanden:
 
-You cannot give users lower or higher permissions on the record than they have on the record type. 
-
-The following scenarios exist: 
-
-|   Workspace and record type permissions     | Automatic inherited permissions for a Record |Possible Record permissions when Inherited permissions are turned off (granted manually)|
+| Berechtigungen für Workspace und Datensatztypen | Automatische geerbte Berechtigungen für einen Datensatz | Mögliche Datensatzberechtigungen, wenn geerbte Berechtigungen deaktiviert (manuell gewährt) sind |
 |--------|--------|-------------|
-| Manage |   Manage    |   Manage, Remove permissions*           |
-| Contribute |     Manage |  Manage, Remove permissions*        |
-| View   |  View     |      View, Remove permissions*        |
+| Verwalten | Verwalten | Verwalten, Entfernen von Berechtigungen* |
+| Mitwirken | Verwalten | Verwalten, Entfernen von Berechtigungen* |
+| Ansicht | Ansicht | Anzeigen, Entfernen von Berechtigungen* |
 
 >[!NOTE]
 >
->*When you remove permissions from a record, users still retain View permissions to the workspace and the record type, unless you remove their permissions from the workspace. 
+>*Wenn Sie Berechtigungen aus einem Datensatz entfernen, behalten Benutzer weiterhin die Anzeigeberechtigungen für den Arbeitsbereich und den Datensatztyp bei, es sei denn, Sie entfernen deren Berechtigungen aus dem Arbeitsbereich.
 
 </div>
--->
 
 ### Berechtigungen zum Aufzeichnen von Feldern
 
@@ -284,7 +270,10 @@ Im Folgenden finden Sie die Berechtigungsebenen für Ansichten und Ansichtseleme
 | Ansicht | ✓ |
 | Anwenden | ✓ |
 
-*Benutzer müssen über Ansichtsberechtigungen oder höhere Berechtigungen für einen Arbeitsbereich verfügen, um Zugriff auf diese Ansicht zu erhalten.
+>[!NOTE]
+>
+>*Benutzer müssen über Ansichtsberechtigungen oder höhere Berechtigungen für einen Arbeitsbereich verfügen, um Zugriff auf diese Ansicht zu erhalten.
+
 
 <!--
 old view permissions, before sharing View permissions to a view through a workspace:

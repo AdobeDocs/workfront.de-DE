@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1179'
 ht-degree: 4%
 
 ---
@@ -155,7 +155,7 @@ Old:
 
       * Wenn Sie sie mithilfe einer CSV- oder Excel-Datei importieren.
 
-        Weitere Informationen finden Sie unter [Erstellen von Datensatztypen durch Importieren von Informationen aus einer CSV- oder Excel-Datei](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md).
+        Weitere Informationen finden Sie im Abschnitt [Erstellen von Datensatztypen durch Importieren von Informationen aus einer CSV- oder Excel](#create-record-types-by-importing-information-from-a-csv-or-excel-file)Datei in diesem Artikel.
 
      >[!TIP]
      >
@@ -168,7 +168,7 @@ Old:
         In diesem Artikel wird beschrieben, wie Sie Datensatztypen von Grund auf neu erstellen.
 
       * Durch Hinzufügen aus einem anderen Arbeitsbereich
-Weitere Informationen finden Sie unter [Hinzufügen vorhandener Datensatztypen aus einem anderen Arbeitsbereich](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
+Weitere Informationen finden Sie im Abschnitt [Erstellen von Datensatztypen durch Hinzufügen vorhandener Typen aus einem anderen Arbeitsbereich](#create-record-types-by-adding-existing-ones-from-another-workspace) in diesem Artikel.
 
 
 * Sie können Datensatztypen innerhalb eines Abschnitts und von einem Abschnitt eines Arbeitsbereichs in einen anderen verschieben. Datensatztypen können nicht von einem Workspace in einen anderen Workspace verschoben werden.
@@ -235,7 +235,7 @@ Die Beschreibung des Datensatztyps wird auf der Karte angezeigt.
 
    ![Karte vom Typ „Datensatz“ mit Beschreibung](assets/record-type-card-with-description.png)
 
-   Wenn Sie ausgewählt haben, diesen Datensatz von anderen Arbeitsbereichen zu verbinden, wird das Symbol **Verbindbarer Datensatz** (Symbol ![&#x200B; Verbindung von anderen &#x200B;](assets/connect-from-other-workspaces-icon.png)) auf der Datensatzkarte angezeigt.
+   Wenn Sie ausgewählt haben, diesen Datensatz von anderen Arbeitsbereichen zu verbinden, wird das Symbol **Verbindbarer Datensatz** (Symbol ![ Verbindung von anderen ](assets/connect-from-other-workspaces-icon.png)) auf der Datensatzkarte angezeigt.
 
    Wenn Sie ausgewählt haben, dass dieser Datensatz anderen Arbeitsbereichen hinzugefügt werden kann, wird **Symbol „Globaler**&quot; ![Symbol „Globaler Datensatztyp](assets/global-icon.png) auf der Datensatzkarte angezeigt.
 
@@ -261,7 +261,7 @@ Die Beschreibung des Datensatztyps wird auf der Karte angezeigt.
 
    ODER
 
-   Klicken Sie auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/more-menu.png) rechts neben dem Namen des Datensatztyps und klicken Sie auf **Bearbeiten**, um ihn umzubenennen oder die zugehörigen Informationen zu ändern. Weitere Informationen finden Sie unter [Datensatztypen bearbeiten](/help/quicksilver/planning/architecture/edit-record-types.md).
+   Klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/more-menu.png) rechts neben dem Namen des Datensatztyps und klicken Sie auf **Bearbeiten**, um ihn umzubenennen oder die zugehörigen Informationen zu ändern. Weitere Informationen finden Sie unter [Datensatztypen bearbeiten](/help/quicksilver/planning/architecture/edit-record-types.md).
 
 1. (Optional) Klicken Sie auf **+ Neuer**, um Datensätze des ausgewählten Datensatztyps hinzuzufügen. Weitere Informationen finden Sie unter [Erstellen von Einträgen](/help/quicksilver/planning/records/create-records.md).
 1. (Optional) Klicken Sie auf das Symbol **+** in der oberen rechten Ecke der Tabelle, um dem Datensatztyp weitere Felder hinzuzufügen.
