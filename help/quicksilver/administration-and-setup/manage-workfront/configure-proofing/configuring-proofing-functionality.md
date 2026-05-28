@@ -13,11 +13,11 @@ exl-id: 62361d01-1154-4d42-aa8d-f68091c76e18
 source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '76'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
-# Konfigurieren der Proofing-Funktion
+# Konfigurieren der Proofing-Funktionalität
 
 Dieser Abschnitt enthält die folgenden Artikel:
 

@@ -10,8 +10,8 @@ role: Admin
 exl-id: f0efd985-76e3-435e-bf19-87008f6a5e9d
 source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 1%
+source-wordcount: '841'
+ht-degree: 5%
 
 ---
 
@@ -23,7 +23,7 @@ Informationen zum Erstellen einer neuen Firma finden Sie unter [Erstellen und Be
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto">
  <tbody> 
@@ -34,7 +34,7 @@ Informationen zum Erstellen einer neuen Firma finden Sie unter [Erstellen und Be
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] Lizenz</p> </td> 
-   <td><p>[!UICONTROL -Plan]</p>
+   <td><p>[!UICONTROL Plan]</p>
    <p>[!UICONTROL Standard]</p>
    </td> 
   </tr>
@@ -50,7 +50,7 @@ Informationen zum Erstellen einer neuen Firma finden Sie unter [Erstellen und Be
       <li> <p>Um Benutzer zum [!DNL Workfront] hinzuzufügen oder daraus zu entfernen, benötigen Sie eine der folgenden Eigenschaften:</p> 
        <ul> 
         <li> <p>Zugriffsebene des [!UICONTROL Systemadministrators]. </p> </li> 
-        <li> <p><b>[!UICONTROL Users]</b> Einstellung in der Zugriffsebene konfiguriert, um den[!UICONTROL Edit]<b>-Zugriff zu </b>, wobei <b>[!UICONTROL Create]</b> und mindestens eine der beiden <b>[!UICONTROL User Admin]</b> Optionen unter <b> </b>[!UICONTROL Feinabstimmung der Einstellungen]<img src="assets/gear-icon-in-access-levels.png"> aktiviert ist. </p> <p> <img src="assets/access-req-users.png"> </p> <p>Wenn <b>[!UICONTROL User Admin (Group Users)]</b> aktiviert ist, müssen Sie unter diesen beiden Optionen Gruppenadministrator einer Gruppe sein, in der der Benutzer Mitglied ist.</p> </li> 
+        <li> <p><b>[!UICONTROL Users]</b> Einstellung in der Zugriffsebene konfiguriert, um den[!UICONTROL Edit]</b>-Zugriff zu <b>, wobei <b>[!UICONTROL Create]</b> und mindestens eine der beiden <b>[!UICONTROL User Admin]</b> Optionen unter <b> </b>[!UICONTROL Feinabstimmung der Einstellungen]<img src="assets/gear-icon-in-access-levels.png"> aktiviert ist. </p> <p> <img src="assets/access-req-users.png"> </p> <p>Wenn <b>[!UICONTROL User Admin (Group Users)]</b> aktiviert ist, müssen Sie unter diesen beiden Optionen Gruppenadministrator einer Gruppe sein, in der der Benutzer Mitglied ist.</p> </li> 
        </ul>
        </li> 
      </ul> </p> </td>
@@ -58,7 +58,7 @@ Informationen zum Erstellen einer neuen Firma finden Sie unter [Erstellen und Be
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -103,7 +103,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
        <ol> 
         <li value="1"> <p>Wählen Sie den Benutzer aus und klicken Sie dann auf das Symbol [!UICONTROL Copy] <img src="assets/copy-icon.png">. </p> </li> 
         <li value="2"> <p>Bearbeiten Sie im angezeigten Feld <b>[!UICONTROL New User]</b> die für den neuen Benutzer verfügbaren Felder.</p> <p>Informationen zu allen mit einem Benutzer verknüpften Feldern finden Sie unter <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Bearbeiten des Benutzerprofils</a>.</p> </li> 
-        <li value="3"> <p>Klicken Sie auf <strong>[!UICONTROL Diesen Benutzer hinzufügen]</strong>.</p> <p>Oder</p> <p>Klicken Sie auf <strong>[!UICONTROL Person-Benutzer hinzufügen und einen anderen starten]</strong>, um den neuen Benutzer zu speichern und einen weiteren hinzuzufügen.</p> </li> 
+        <li value="3"> <p>Klicken Sie auf <strong>[!UICONTROL Diesen Benutzer hinzufügen]</strong>.</p> <p>ODER</p> <p>Klicken Sie auf <strong>[!UICONTROL Person-Benutzer hinzufügen und einen anderen starten]</strong>, um den neuen Benutzer zu speichern und einen weiteren hinzuzufügen.</p> </li> 
        </ol> <p>Dadurch wird ein neues Konto in [!DNL Workfront] für den Benutzer erstellt.</p> <p>Wenn Sie die Option zum Senden einer Einladung an den Benutzer ausgewählt haben, sollte er eine E-Mail erhalten, in der er einem Link folgen kann, um sein [!DNL Workfront] Kennwort zu erstellen.</p> </td> 
      </tr> 
      <tr> 

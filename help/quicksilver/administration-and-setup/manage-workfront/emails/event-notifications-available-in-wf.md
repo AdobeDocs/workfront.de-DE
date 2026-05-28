@@ -12,8 +12,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '5237'
-ht-degree: 7%
+source-wordcount: '5242'
+ht-degree: 8%
 
 ---
 
@@ -300,7 +300,7 @@ Siehe auch [Benachrichtigungen: Kommunikation](../../../workfront-basics/using-n
    <td> <p>Dokument</p> </td> 
    <td> <p>Kommentar zu Dokument</p> </td> 
    <td> <p>Dokumentbesitzer</p> </td> 
-   <td> <p>Ein Kommentar zu meinem Dokument wird hinzugefügt.</p> <p>Der Verantwortliche für ein Dokument in Workfront erhält eine E-Mail-Benachrichtigung, wenn ein Kommentar zu einem Dokument veröffentlicht wird, es sei denn, der Benutzer, der den Kommentar veröffentlicht hat, ist auch der Verantwortliche für das Dokument.</p> <p>Alle Benutzer, die direkt in den Kommentar eingeschlossen sind, erhalten ebenfalls eine E-Mail-Benachrichtigung.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus „Aktuell“ ist. </p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail lautet: <em>Kommentar zu &lt;Anfragename&gt; auf &lt;Projektname&gt; (ref# &lt;Anfragenummer&gt;)</em></p> <p> Der Betreff der täglichen Digest-Benachrichtigung ist:<em> Zusammenfassung der Kommunikation &lt;Datum der täglichen Digest&gt;</em></p> </td> 
+   <td> <p>Ein Kommentar zu meinem Dokument wird hinzugefügt.</p> <p>Der Verantwortliche für ein Dokument in Workfront erhält eine E-Mail-Benachrichtigung, wenn ein Kommentar zu einem Dokument veröffentlicht wird, es sei denn, der Benutzer, der den Kommentar veröffentlicht hat, ist auch der Verantwortliche für das Dokument.</p> <p>Alle Benutzer, die direkt in den Kommentar eingeschlossen sind, erhalten ebenfalls eine E-Mail-Benachrichtigung.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus „Aktuell“ ist. </p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail lautet: <em>Kommentar zu &lt;Anfragename&gt; auf &lt;Projektname&gt; (ref# &lt;Anfragenummer&gt;)</em></p> <p> Der Betreff der täglichen Digest-Benachrichtigung ist: <em> der Kommunikation &lt;Datum der täglichen Digest&gt;</em></p> </td> 
    <td> <p>Aktiv</p> </td> 
   </tr> 
   <tr> 

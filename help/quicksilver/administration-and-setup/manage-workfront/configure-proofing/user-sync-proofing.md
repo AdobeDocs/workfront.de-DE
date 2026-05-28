@@ -11,7 +11,7 @@ role: Admin
 exl-id: 4c88a249-b156-45c9-a44c-32f906bfa8a2
 source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '332'
+source-wordcount: '333'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Je nachdem, ob in Workfront Proof ein Benutzer mit derselben E-Mail-Adresse vorh
 
 * **Wenn in Workfront Proof eine Benutzerin oder ein Benutzer mit einer übereinstimmenden E-Mail vorhanden ist:** Proofing ist für diese Person in Workfront aktiviert (falls noch nicht aktiviert) und die Informationen werden zwischen den beiden Benutzerinnen bzw. Benutzern synchronisiert.
 
-  Weitere Informationen finden Sie [Konfigurieren des Proofing-Zugriffs einer &#x200B;](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md) in [Konfigurieren des Proofing-Zugriffs einer Benutzerin oder eines Benutzers](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
+  Weitere Informationen finden Sie [Konfigurieren des Proofing-Zugriffs einer ](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md) in [Konfigurieren des Proofing-Zugriffs einer Benutzerin oder eines Benutzers](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
 
   >[!IMPORTANT]
   >
