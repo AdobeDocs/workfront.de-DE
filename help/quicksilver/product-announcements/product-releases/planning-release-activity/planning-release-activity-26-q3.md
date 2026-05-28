@@ -6,7 +6,7 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
+source-git-commit: ab1ac1363d6531352e905536218618196651c3b9
 workflow-type: tm+mt
 source-wordcount: '1448'
 ht-degree: 1%
@@ -15,7 +15,9 @@ ht-degree: 1%
 
 # Versionsaktivität für Adobe Workfront Planning im dritten Quartal 2026
 
-<!--take the next sentence out when we start listing features-->
+<!--
+take the next sentence out when we start listing features
+-->
 
 <!--
 There are no features released during the Third Quarter Release for 2026. When features are released for this quarter, we will document them in this article. 
@@ -91,7 +93,7 @@ Version 1 bleibt verfügbar, obwohl wir empfehlen, zur Verwendung von Version 2 
 
 Weitere Informationen finden Sie unter [Grundlagen zur Adobe Workfront Planning-API](/help/quicksilver/planning/general/planning-api-basics.md).
 
-Informationen zu den Spezifikationen der Workfront Planning-API finden Sie in der Entwicklerdokumentation zur [Workfront &#x200B;](https://developer.adobe.com/wf-planning/)-API.
+Informationen zu den Spezifikationen der Workfront Planning-API finden Sie in der Entwicklerdokumentation zur [Workfront ](https://developer.adobe.com/wf-planning/)-API.
 
 ## Berechtigungen für Datensätze erteilen
 
