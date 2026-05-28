@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: c729a68bbbfbe4f284f4304f6f779154dc4cbd10
+source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 3%
@@ -76,3 +76,4 @@ Die Seite mit den Kundeninformationen im Setup enthält jetzt einen neuen Abschn
 Workfront-Administratoren erhalten automatisch E-Mail-Benachrichtigungen, wenn die Speichernutzung 75 %, 85 % und 100 % des Kontingents erreicht.
 
 Weitere Informationen finden Sie unter [Überprüfen von Dokumentspeicherbeschränkungen](/help/quicksilver/documents/managing-documents/check-document-storage.md).
+

@@ -5,7 +5,7 @@ title: Adobe Workfront MCP-Server - Übersicht
 description: Erfahren Sie, was der Adobe Workfront MCP-Server tut und wie Sie damit in einer KI-Agentenplattform durch Gespräche in natürlicher Sprache mit Workfront arbeiten können.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: e7dadae62ea2f5e9772705cafdc5e067cec1ae08
+source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 0%
@@ -52,3 +52,4 @@ Weitere Informationen finden Sie unter [Konfigurieren des Adobe Workfront MCP-Se
 Nach dem Setup können Sie Ihre KI-Agentenplattform bitten, Workfront-Elemente in natürlicher Sprache zu finden, zu erstellen, zu aktualisieren und zu verwalten.
 
 Weitere Informationen, einschließlich Beispielanfragen, zu beachtende Informationen sowie Daten und Sicherheit, finden Sie unter [Verwenden des Adobe Workfront MCP-Servers](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
+
