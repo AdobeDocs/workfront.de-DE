@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d5fe72c-7af5-4699-8344-36cfdd3810d0
-source-git-commit: a88a468901cc7a28139315ab820fc612f1c31736
+source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 9%
@@ -50,4 +50,3 @@ Um Ihnen zu helfen, Ihre Anfragenliste besser zu organisieren, haben wir die fol
 Ein Workfront-Administrator kann die Ansichten einer Layout-Vorlage hinzufügen oder daraus entfernen. Ansichten können nicht bearbeitet, gelöscht oder freigegeben werden. Sie können sie kopieren und eine Kopie aktualisieren oder freigeben.
 
 Weitere Informationen finden Sie unter [Erstellen und Verwalten von Ansichten im Bereich Anfragen](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md).
-

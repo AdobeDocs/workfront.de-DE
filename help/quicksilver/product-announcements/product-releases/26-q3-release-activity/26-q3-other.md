@@ -4,7 +4,7 @@ description: Weitere Verbesserungen im Zeitraum der Veröffentlichung im dritten
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ec0c6db3ed0ff470af64fa28ca3e69f0f0bf840a
+source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 2%
@@ -61,4 +61,3 @@ Referenzfelder wie Felder mit automatischer Textvervollständigung und externe L
 Darüber hinaus wurde das Erlebnis beim Ziehen und Ablegen von Spalten (in Listen, in denen Drag-and-Drop verfügbar ist) visuell verbessert.
 
 Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
-
