@@ -1,6 +1,6 @@
 ---
-title: 22.2 Projektverbesserungen
-description: 22.2 Projektverbesserungen
+title: Verbesserungen bei Projekten in Version 22.2
+description: Verbesserungen bei Projekten in Version 22.2
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -8,12 +8,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 43ea91db-d6f2-4218-9261-580a7e5b31d0
 source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 1%
+source-wordcount: '1099'
+ht-degree: 3%
 
 ---
 
-# 22.2 Projektverbesserungen
+# Verbesserungen bei Projekten in Version 22.2
 
 Auf dieser Seite werden alle mit Version 22.2 vorgenommenen Projektverbesserungen in der Vorschau-Umgebung beschrieben. Diese Verbesserungen werden in der Produktionsumgebung verfügbar gemacht
 
@@ -112,7 +112,7 @@ Wir haben ein neues Menü Mehr in Projektlisten und Berichten hinzugefügt, dami
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
 * [Projektzeitleisten neu berechnen](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)
-* [Projektfinanzen neu &#x200B;](../../../manage-work/projects/project-finances/recalculate-project-finances.md)
+* [Projektfinanzen neu ](../../../manage-work/projects/project-finances/recalculate-project-finances.md)
 * [Informationen in benutzerdefinierten Formularfeldern bearbeiten](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)
 * [Vorlage an ein Projekt anhängen](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
 * [Exportieren eines Projekts in das Microsoft-Projekt](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)

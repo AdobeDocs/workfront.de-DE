@@ -1,6 +1,6 @@
 ---
-title: Versionsübersicht 22.2
-description: Versionsübersicht 22.2
+title: Überblick über Version 22.2
+description: Überblick über Version 22.2
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -8,12 +8,12 @@ recommendations: noDisplay, noCatalog
 exl-id: e490a955-b2cb-4b9b-9794-12ff2a2c2338
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '3974'
-ht-degree: 0%
+source-wordcount: '4155'
+ht-degree: 4%
 
 ---
 
-# Versionsübersicht 22.2
+# Überblick über Version 22.2
 
 Diese Seite enthält Informationen zur Funktionalität, die in Version 22.2 enthalten ist. Alle aufgelisteten Funktionen sind in der neuen Adobe Workfront-Version verfügbar. Einige Funktionen sind auch in Adobe Workfront Classic verfügbar. [Workfront Classic wird jedoch im März 2022 eingestellt](https://experienceleague.adobe.com/de/docs/workfront/using/home) kurz darauf folgt das Ende der Nutzungsdauer von Workfront Classic im Juli 2022.
 
@@ -47,7 +47,7 @@ Diese Verbesserungen wurden in der Woche vom 4. April 2022 in der Produktionsumg
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 later this year
 </MadCap:conditionalText>
-the week of April 4, 2022, unless otherwise specified. For specific release dates and times for each cluster, see the <a href="https://status.adobe.com/de-de/products/5943" target="_blank">Adobe Workfront status page</a> on <a href="http://status.adobe.com/de-de/" target="_blank">status.adobe.com</a>. You must log in to see specific release times. </p>
+the week of April 4, 2022, unless otherwise specified. For specific release dates and times for each cluster, see the <a href="https://status.adobe.com/en/products/5943" target="_blank">Adobe Workfront status page</a> on <a href="http://status.adobe.com/" target="_blank">status.adobe.com</a>. You must log in to see specific release times. </p>
 -->
 
 ## Adobe Workfront-Verbesserungen
@@ -151,7 +151,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
  </tbody> 
 </table>
 
-### Projektverbesserungen {#project-enhancements}
+### Verbesserungen bei Projekten {#project-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -363,7 +363,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
  </tbody> 
 </table>
 
-### Home-Verbesserungen {#home-enhancements}
+### Verbesserungen auf der Startseite {#home-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -582,9 +582,9 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
  </tbody> 
 </table>
 
-## Workfront Fusion-Verbesserungen
+## Verbesserungen in Workfront Fusion
 
-Neue Funktionen in Workfront Fusion sind außerhalb des Veröffentlichungszeitplans für 22.2 in der Produktionsumgebung verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Versionsaktivität von Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Neue Funktionen in Workfront Fusion sind außerhalb des Veröffentlichungszeitplans für 22.2 in der Produktionsumgebung verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Adobe Workfront Fusion-Veröffentlichungen](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Verbesserungen am Workfront-Szenarioplaner
 
@@ -618,13 +618,13 @@ Informationen zu neuen und aktualisierten Funktionen finden Sie unter [Neue Funk
 
 Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Zeitplan](../../../wf-api/api/api-version-support-schedule.md).
 
-## Wartungs-Updates für Workfront 
+## Wartungs-Updates für Workfront
 
 Informationen zu den Wartungs-Updates, die während der Version 22.2 vorgenommen wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/de/docs/workfront-known-issues/releases/current-updates).
 
 ## Webinar zur Version 22.2
 
-Das Webinar zur Version Workfront 22.2 wird am 24. März 2022 um 8:00 Uhr MST vorgestellt. Sie können sich für die Veranstaltung auf der Seite &quot;[&quot; in Workfront One &#x200B;](https://webinars.on24.com/adobe_workfront/WF22point2?partnerref=WFOne).
+Das Webinar zur Version Workfront 22.2 wird am 24. März 2022 um :00 Uhr MST vorgestellt. Sie können sich für die Veranstaltung auf der Seite &quot;[&quot; in Workfront One ](https://webinars.on24.com/adobe_workfront/WF22point2?partnerref=WFOne).
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -651,13 +651,13 @@ was presented on January 12, 2022. You can view the webinar recording on the
 </div>
 -->
 
-## Schulungsaktualisierungen
+## Updates für Schulungen
 
-Erfahren Sie mehr über die neuesten Aktualisierungen von Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie auf der [Seite mit Schulungsversions-Updates](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home).
+Erfahren Sie mehr über die neuesten Updates von Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie auf der [Seite mit Schulungsversions-Updates](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home).
 
 ## Funktion wird nicht mehr unterstützt
 
-### Internet Explorer 11
+### Internet Explorer 11
 
 Nachdem die Unterstützung für Internet Explorer eingestellt wurde, unterstützt Workfront jetzt offiziell Microsoft Edge.
 

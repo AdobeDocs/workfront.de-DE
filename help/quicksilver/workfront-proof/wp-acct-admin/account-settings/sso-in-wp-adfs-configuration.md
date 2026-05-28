@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 670422e9-5db8-4f06-baf8-1f9ce83873fe
 source-git-commit: 690b0817dfe4ff200982ffe8d67ad93e563e30ac
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '952'
 ht-degree: 0%
 
 ---
@@ -54,23 +54,23 @@ http://*&lt;adfs.your-company.com>*/adfs/services/trust
 Ihre Entitäts-ID finden Sie in Ihrer Verbundmetadaten-XML-Datei.
    ![ProofHQ_configuration_02.png](assets/proofhq-configuration-02-350x80.png)
 
-1. Verbundmetadaten befinden sich im Ordner AD FS 2.0-Snap-In > Dienst > Endpunkte . Suchen Sie im Abschnitt Metadaten die Variable mit dem Verbundmetadaten-Typ. Um Metadaten anzuzeigen, fügen Sie diesen Endpunkt in Ihren Browser ein. Sie können auch direkt zu diesem Link gehen: https://*&lt;adfs.your-company.com>*/FederationMetadata/2007-06/FederationMetadata.xml, nachdem Sie {adfs.your-company.com} durch Ihre eigenen Details ersetzt haben.
+1. Verbundmetadaten befinden sich im Ordner AD FS 2.0-Snap-In > Dienst > Endpunkte . Suchen Sie im Abschnitt Metadaten die Variable mit dem Verbundmetadaten-Typ. Um Metadaten anzuzeigen, fügen Sie diesen Endpunkt in Ihren Browser ein. Sie können auch direkt zu diesem Link gehen: https://*&lt;adfs.your-company.com>*/FederationMetadata/2007-06/FederationMetadata.xml, nachdem Sie die {adfs.your-company.com} durch Ihre eigenen Details ersetzt haben.
 1. Fügen Sie im Feld **[!UICONTROL Anmelde]** URL Ihre SSO-Anmeldung ein.
 1. Im Folgenden finden Sie ein Beispiel für eine SSO-Anmeldung:
-1. http://*&lt;adfs.your-company.com>*/adfs/ls.
+1. http://*<adfs.your-company.com>*/adfs/ls.
 1. Dieser Link kann sich in der Verbundmetadaten-XML-Datei befinden.
    ![ProofHQ_configuration_03.png](assets/proofhq-configuration-03-350x90.png)
 
-1. Geben Sie im Feld **[!UICONTROL Abmelde]**&#x200B;URL den Link ein und speichern Sie ihn.
+1. Geben Sie im Feld **[!UICONTROL Abmelde]**URL den Link ein und speichern Sie ihn.
 Im Folgenden finden Sie ein Beispiel für eine Abmelde-URL:
 https://*&lt;adfs.your-company.com>*/adfs/ls/?wa=wsignout1.0
 
    1. Gehen Sie zu Ihrem AD FS-Manager > Vertrauensstellungen > Vertrauensstellungen vertrauender Parteien - ProofHQ Eigenschaften.
-   1. Klicken Sie unter „Endpunkte[!UICONTROL &#x200B; auf „Hinzufügen und &#x200B;]&quot; mit den folgenden Details:
+   1. Klicken Sie unter „Endpunkte[!UICONTROL  auf „Hinzufügen und ]&quot; mit den folgenden Details:
 
       * Endpunkttyp = SAML-Abmeldung
       * Bindung = POST
-      * URL = https://*&lt;adfs.your-company.com*>/adfs/ls/?wa=wsignout1.0
+      * URL = https://*&lt;adfs.your-company.com*/adfs/ls/?wa=wsignout1.0
       * Dieser Schritt kann ausgeführt werden, nachdem die Vertrauensstellung der vertrauenden Seite in der AD FS konfiguriert wurde (siehe unten).
    1. Geben **[!UICONTROL in das Feld]** Zertifikatfingerabdruck“ die Daten aus Ihrem Zertifikat ein.
    1. Navigieren Sie zu Ihrem ADFS 2.0-Snap-In zu Service > Zertifikate > Token-Signatur.

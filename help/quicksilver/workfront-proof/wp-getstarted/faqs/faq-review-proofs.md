@@ -3,19 +3,19 @@ content-type: faq
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: faqs-workfront-proof
-title: Häufig gestellte Fragen - Testsendungen überprüfen
+title: 'Häufig gestellte Fragen: Überprüfen von Korrekturabzügen'
 description: Gastreviewer, die nicht über eigene Anmeldungen bei ProofHQ verfügen, greifen über den Link [!UICONTROL Zum Korrekturabzug gehen] in den empfangenen E-Mails auf ihre Korrekturabzüge zu. Benutzer können über die E-Mails auf ihre Korrekturabzüge zugreifen und auch ihr Dashboard im Konto verwenden. Über die Dashboard-Ansicht können sie sich eine Liste der Korrekturabzüge ansehen, für die ihre Entscheidung erforderlich ist, und mit einem Klick auf das blaue Symbol [!UICONTROL Zum Korrekturabzug gehen] zugreifen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d8bcddf8-0586-4263-8445-26615fdf07f7
 source-git-commit: d5ffd576fcedf9b10dce5e5d5bd9245dd7f67ef8
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
 
-# Häufig gestellte Fragen - Testsendungen überprüfen
+# Häufig gestellte Fragen: Überprüfen von Korrekturabzügen
 
 >[!IMPORTANT]
 >
@@ -29,13 +29,13 @@ Gastreviewer, die keine eigenen Anmeldedaten für [!DNL ProofHQ] haben, greifen 
 
 Um einen Kommentar zu einem Korrekturabzug hinzuzufügen, klicken Sie auf die Schaltfläche *[!UICONTROL Kommentar hinzufügen]*, die oben auf der Seite verfügbar ist. Wenn diese Schaltfläche nicht angezeigt wird, wenden Sie sich an den Testversand-Verantwortlichen. Möglicherweise wurde Ihnen die falsche Testversand-Rolle zugewiesen (weitere Informationen zu Testversand-Rollen finden Sie unter [Verwalten von Testversand-Rollen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 
-Daraufhin  rechts im Bildschirm ein Kommentar-Feld geöffnet, in dem Sie Ihren Kommentar eingeben und im Korrekturabzug speichern können. Dadurch wird ein allgemeiner Kommentar zum Korrekturabzug hinterlassen, der nicht mit einem bestimmten Bereich des Korrekturabzugs verbunden ist. Wenn Sie etwas Bestimmtes kommentieren möchten, verwenden Sie die Markup-Tools oben auf der Seite.
+Daraufhin ] rechts im Bildschirm ein [!UICONTROL Kommentar-Feld geöffnet, in dem Sie Ihren Kommentar eingeben und im Korrekturabzug speichern können. Dadurch wird ein allgemeiner Kommentar zum Korrekturabzug hinterlassen, der nicht mit einem bestimmten Bereich des Korrekturabzugs verbunden ist. Wenn Sie etwas Bestimmtes kommentieren möchten, verwenden Sie die Markup-Tools oben auf der Seite.
 
 Um auf den Kommentar einer Person zum Korrekturabzug zu antworten, klicken Sie in der Liste der Kommentare auf diesen Kommentar und geben Sie Ihre Antwort in das Feld [!UICONTROL Antwort] ein. Wenn Sie speichern, wird die Antwort auf dem Testversand veröffentlicht.
 
 Alle Kommentare und Entscheidungen werden fast sofort im Korrekturabzug angezeigt. Wenn sich also jemand anders den Korrekturabzug zur gleichen Zeit wie Sie ansieht, wird er Ihre Kommentare sofort sehen.
 
-Dies sind sehr grundlegende Anweisungen, um Ihnen den Einstieg in [!DNL ProofHQ] zu erleichtern. Wenn Sie mehr über die Überprüfung von Testsendungen erfahren möchten, finden Sie [&#x200B; Abschnitt „Testsendungen überprüfen](https://support.workfront.com/hc/en-us/sections/200054044-Reviewing-proofs) des Hilfezentrums ausführlichere Hilfeartikel.
+Dies sind sehr grundlegende Anweisungen, um Ihnen den Einstieg in [!DNL ProofHQ] zu erleichtern. Wenn Sie mehr über die Überprüfung von Testsendungen erfahren möchten, finden Sie [ Abschnitt „Testsendungen überprüfen](https://support.workfront.com/hc/en-us/sections/200054044-Reviewing-proofs) des Hilfezentrums ausführlichere Hilfeartikel.
 
 ## Wie markiere ich einen Korrekturabzug?
 
@@ -59,7 +59,7 @@ Mit dem in der [!UICONTROL Korrekturabzugsansicht“ verfügbaren Textanmerkungs
 
 * Hervorheben - Markiert den Text und kopiert ihn in das Kommentarfeld
 * replace - Kopiert den Text und fügt [[!UICONTROL REPLACE]] und [[!UICONTROL WITH]] in das Kommentarfeld ein, damit Sie leicht Ersatztext vorschlagen können
-* Löschen - Durchgestrichen und [[!UICONTROL DELETE &#x200B;]] in das Kommentarfeld eingefügt
+* Löschen - Durchgestrichen und [[!UICONTROL DELETE]] in das Kommentarfeld eingefügt
 * Einfügen nach : ermöglicht es Ihnen, einfach Text vorzuschlagen, der nach dem hervorgehobenen Satz eingefügt werden muss
 
 Wenn der Text, den Sie verwenden möchten, in einem separaten Dokument gespeichert wird, können Sie die Tastaturbefehle (Strg+C und Strg+V auf einem PC, Befehl+C und Befehl+V auf einem [!DNL Mac]) verwenden, um ihn zu kopieren und in das Feld [!UICONTROL Kommentar] einzufügen.
