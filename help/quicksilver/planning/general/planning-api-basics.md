@@ -408,7 +408,7 @@ Alle paginierten Antworten enthalten einen strukturierten Umschlag, der angibt, 
 
 ## Massenvorgänge
 
-Die Planning-API unterstützt das Massenerstellen, Aktualisieren, Patchen und Löschen von Datensätzen in einer einzigen Anfrage. Informationen zu Endpunktpfaden **Anfrageformaten und Datensatzbeschränkungen pro Vorgang finden Sie in** API-Referenz](https://developer.adobe.com/wf-planning) unter [developer.adobe.com/wf-planning.
+Die Planning-API unterstützt das Massenerstellen, Aktualisieren, Patchen und Löschen von Datensätzen in einer einzigen Anfrage. Informationen zu Endpunktpfaden **Anfrageformaten und Datensatzbeschränkungen pro Vorgang finden Sie in** API-Referenz[&#128279;](https://developer.adobe.com/wf-planning) unter developer.adobe.com/wf-planning.
 
 >[!NOTE]
 >
