@@ -29,7 +29,7 @@ Im Rahmen der Neugestaltung der Felder Neu und Aufgabe bearbeiten haben wir die 
 
 Weitere Informationen finden Sie unter [Wiederkehrende Aufgaben erstellen](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
 
-Diese Funktion ist jetzt in Teil 2: [ eines Projekts, Lernpfad ](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Workfront One, „Grundlagen für die neue Workfront-Version“ enthalten.
+Diese Funktion ist jetzt in Teil 2: [&#x200B; eines Projekts, Lernpfad &#x200B;](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Workfront One, „Grundlagen für die neue Workfront-Version“ enthalten.
 
 ## Neue Schaltflächen in der Kopfzeile Projekte verfügbar
 
