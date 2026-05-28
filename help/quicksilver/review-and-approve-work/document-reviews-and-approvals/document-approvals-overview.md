@@ -9,15 +9,17 @@ recommendations: noDisplay, noCatalog
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 12242501adb13cd349a2282996c7186e90d6c94d
+source-git-commit: 90a15077a38f4740bc52835f2aab361535832df0
 workflow-type: tm+mt
-source-wordcount: '3928'
+source-wordcount: '4002'
 ht-degree: 0%
 
 ---
 
 
 # Einheitliche Prüfung und Genehmigung - Übersicht
+
+{{highlighted-preview}}
 
 Einheitliche Prüfung und Genehmigung führt Adobe Workfront und Adobe Frame.io zu einem einzigen, eng miteinander verbundenen Erlebnis zusammen. Dadurch werden die Lücken zwischen Marketing-Management, kreativer Überprüfung und Bereitstellung von Inhalten geschlossen.
 Projektkoordinatoren verwalten die Arbeit in Workfront, während Kreative, Marketingexperten und Stakeholder Assets im professionellen Frame.io-Viewer überprüfen und genehmigen, ohne Dateien zwischen getrennten Tools zu verschieben.
@@ -303,7 +305,9 @@ Derzeit unterstützen Genehmigungsvorlagen einzelne Benutzer und Teams.
 
 Ja. Genehmigende Personen und Prüfende erhalten E-Mail-Benachrichtigungen, wenn sie einer Überprüfung oder Genehmigung zugewiesen werden. E-Mails mit automatisierten Erinnerungen werden ebenfalls 72 Stunden vor dem Fristablauf, 24 Stunden vor dem Fristablauf und am Fristablauf selbst gesendet.
 
-Die Möglichkeit, E-Mail-Benachrichtigungsnachrichten anzupassen, ist derzeit nicht verfügbar, befindet sich jedoch auf der Produkt-Roadmap.
+In der Produktionsumgebung ist die Möglichkeit, E-Mail-Benachrichtigungsnachrichten anzupassen, derzeit nicht verfügbar, sie befindet sich jedoch auf der Produkt-Roadmap.
+
+<span class="preview">In der Vorschau können Sie zu jedem Schritt eines Validierungs-Workflows eine benutzerdefinierte Nachricht hinzufügen. Die Meldung wird in der E-Mail-Benachrichtigung über die Genehmigung und auf der Registerkarte Genehmigungen in Workfront angezeigt. Sie können dieselbe Nachricht für jedes Stadium oder eine andere Nachricht pro Stadium verwenden. Die Nachricht kann bis zu 500 Zeichen enthalten. Wenn Sie eine benutzerdefinierte Nachricht bearbeiten, nachdem der Genehmigungs-Workflow erstellt wurde, wird eine aktualisierte E-Mail-Benachrichtigung an alle vorhandenen Teilnehmer gesendet. Wenn Sie einen Teilnehmer später hinzufügen, wird die benutzerdefinierte Nachricht in die E-Mail-Benachrichtigung aufgenommen. Weitere Informationen finden Sie unter [Erstellen eines Dokumentgenehmigungs-Workflows](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).</span>
 
 <!--
 **Can I change the notification frequency for a unified approver or reviewer (for example, all comments, replies to my comments, or daily summaries)?**
@@ -469,7 +473,7 @@ Benutzer können den Frame.io-Viewer direkt von Workfront aus starten. Alle Prü
 
 Ja. Sobald ein Asset den Prüfungs- und Validierungszyklus abgeschlossen hat, können Sie es zur endgültigen Speicherung und Verteilung an Adobe Experience Manager Assets übertragen. Dadurch werden Workfront für Work-Management, Frame.io für die Überprüfung und AEM für die Verwaltung digitaler Assets zu einer einheitlichen Content-supply chain verbunden.
 
-Weitere Informationen finden Sie unter „Verwenden [&#x200B; Adobe Experience Manager mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+Weitere Informationen finden Sie unter „Verwenden [ Adobe Experience Manager mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 **Wie passt die einheitliche Überprüfung und Genehmigung in Adobe GenStudio?**
 
