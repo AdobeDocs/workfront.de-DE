@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 3b831bb5-2d03-4d7e-ad1f-54ae95f05ccd
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '1047'
+source-wordcount: '1056'
 ht-degree: 0%
 
 ---
@@ -56,14 +56,14 @@ Mit [!UICONTROL Backup]-Funktion können Sie entscheiden, wie Sie Ihre Ressource
 
 ## Sichern von Daten
 
-1. Klicken **[!UICONTROL oben rechts]** der [!DNL Workfront Proof] auf „Kontoeinstellungen“. 1)
-1. Klicken Sie auf **[!UICONTROL Registerkarte]** Sicherungen“. 2)
+1. Klicken **[!UICONTROL oben rechts]** der [!DNL Workfront Proof] auf „Kontoeinstellungen“. (1)
+1. Klicken Sie auf **[!UICONTROL Registerkarte]** Sicherungen“. (2)
 1. Klicken Sie auf **[!UICONTROL Link „Neues Backup anfordern]** (3)
 
 Wenn das Backup fertig ist, geschieht Folgendes:
 
 * Sie erhalten eine E-Mail von [!DNL Workfront Proof], in der Sie darüber informiert werden („Ihr [!DNL Workfront Proof]-Backup ist bereit„). Die E-Mail enthält einen Download-Link für Ihre Sicherungsdaten.
-* Auf [&#x200B; Registerkarte &#x200B;](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)Kontoeinstellungen“ wird ein Download-Link für Ihre Sicherungsdaten angezeigt.
+* Auf [ Registerkarte ](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)Kontoeinstellungen“ wird ein Download-Link für Ihre Sicherungsdaten angezeigt.
 * Der Link Neues Backup anfordern (3) wird erneut auf der Registerkarte Backups angezeigt
 
 Ihre Daten können als ZIP-Datei heruntergeladen werden. Sie können die ZIP-Sicherungsdatei entweder über die Benachrichtigungs-E-Mail oder in den [!UICONTROL Kontoeinstellungen] herunterladen, wie in den folgenden Abschnitten beschrieben:
@@ -87,11 +87,11 @@ So laden Sie die ZIP-Sicherungsdatei aus der E-Mail herunter:
 
 Wenn Ihre ZIP-Sicherungsdatei zum Herunterladen bereit ist, wird dies auf der Registerkarte [!UICONTROL Sicherung] durch einen Download-Link angezeigt. Darüber hinaus wird erneut der [!UICONTROL Neues Backup anfordern] angezeigt.
 
-1. Klicken **[!UICONTROL oben rechts]** der [!DNL Workfront Proof] auf „Kontoeinstellungen“. 1)
-1. Klicken Sie auf **[!UICONTROL Registerkarte]** Sicherungen“. 2)\
+1. Klicken **[!UICONTROL oben rechts]** der [!DNL Workfront Proof] auf „Kontoeinstellungen“. (1)
+1. Klicken Sie auf **[!UICONTROL Registerkarte]** Sicherungen“. (2)\
    Wenn kein(e) Benutzende(r) in Ihrem Konto Sicherungskopien angefordert hat, zeigt die Registerkarte [!UICONTROL Sicherungskopien] an, dass Sie keine Sicherungskopien haben. Wenn ein Benutzer eine Sicherung angefordert hat, zeigt die Registerkarte das Erstellungsdatum und den Download-Link für die letzte Sicherung an.
 
-1. Klicken Sie auf den **[!UICONTROL Sicherung herunterladen]**. 3)\
+1. Klicken Sie auf den **[!UICONTROL Sicherung herunterladen]**. (3)\
    ![Download_Backup.png](assets/download-backup-350x167.png) Ein Bildschirm zum Herunterladen von Dateien wird angezeigt, in dem Sie gefragt werden, ob Sie die heruntergeladene Datei öffnen oder speichern möchten.
 
 1. Klicken Sie **[!UICONTROL Speichern]** und wählen Sie dann den Speicherort auf Ihrem Computer aus, an dem Sie die ZIP-Sicherungsdatei speichern möchten.\

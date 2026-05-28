@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Übersicht über die Versionsaktivität 2018.3
+title: Überblick über Version 2018.3
 description: 'Hinweis: Die Version 2018.3 wurde an den folgenden Daten in der Produktionsumgebung verfügbar gemacht (detaillierte Daten und Uhrzeiten finden Sie unter trust.workfront.com)'
 author: Luke
 feature: Product Announcements
@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 55787c1e-45af-4b9f-bdbc-10cfacb326e6
 source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 0%
+source-wordcount: '1138'
+ht-degree: 1%
 
 ---
 
-# Übersicht über die Versionsaktivität 2018.3
+# Überblick über Version 2018.3
 
 >[!NOTE]
 >
@@ -134,7 +134,7 @@ Die Unterstützung für API Version 3 endet im November 2018. Weitere Informatio
 
 Um optimale Sicherheit zu bieten, verlangt Workfront, dass alle Integrationen und der Web-Traffic, die TLS 1.0 oder früher verwenden, auf die Verwendung von TLS 1.1 oder höher aktualisiert werden. Diese Änderung ist bereits in der Vorschau-Umgebung wirksam.
 
-Weitere Informationen finden Sie unter  [TLS 1.2 muss in Adobe Workfront erforderlich sein](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md).
+Weitere Informationen finden Sie unter [TLS 1.2 muss in Adobe Workfront vorhanden sein](../../../../product-announcements/announcements/announcement-archive/tls-1-disabled.md).
 
 ### JSONP-Unterstützung wird beendet {#jsonp-support-is-ending}
 

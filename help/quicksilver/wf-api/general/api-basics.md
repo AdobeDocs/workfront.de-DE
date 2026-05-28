@@ -487,24 +487,24 @@ Die Antwort für eine PUT-Anfrage ist identisch mit der einer GET-Anfrage. In be
 ### Bearbeiten von Objekten
 
 Aktualisierungen an Objekten werden immer nach ID unter Verwendung des eindeutigen URI des Objekts durchgeführt. Zu aktualisierende Felder werden als Anfrageparameter angegeben. Um beispielsweise den Namen eines Projekts zu ändern, können Sie eine Anfrage ähnlich der folgenden senden:
-<pre>PUT /attask/api/v15.0/project/4c7..?name=Neuer Projektname <br>PUT /attask/api/v15.0/project?id=4c7…&amp;name=Neuer Projektname</pre>Da für die Aktualisierung eine ID erforderlich ist, schlägt dieser Vorgang (ohne Einfügen) fehl, wenn das Objekt auf dem Server nicht vorhanden ist.
+<pre>PUT /attask/api/v15.0/project/4c7..?name=New Project Name <br>PUT /attask/api/v15.0/project?id=4c7…&amp;name=New Project Name</pre>Da für die Aktualisierung eine ID erforderlich ist, schlägt dieser Vorgang (ohne Einfügen) fehl, wenn das Objekt auf dem Server nicht vorhanden ist.
 
 ### Angeben von JSON-Änderungen
 
 Wie im folgenden Beispiel gezeigt, können Sie den Anfrageparameter „updates“ verwenden, um die zu aktualisierenden Felder mithilfe der JSON-Syntax anzugeben:
-<pre>PUT /attask/api/v15.0/project/4c7…?updates= <br>{<br>     Name: „New Project Name“, <br>     Status: „CUR“, <br>     … <br>}</pre>
+<pre>PUT /attask/api/v15.0/project/4c7..?updates= <br>{<br> name: „New Project Name“, <br> status: „CUR“, <br> … <br>}</pre>
 
 ### Durchführen verschachtelter Aktualisierungen
 
 Einige Objekte verfügen über private Sammlungen, die aktualisiert werden können. Im folgenden Beispiel wird beispielsweise veranschaulicht, wie die vorhandenen Arbeitsaufträge für eine bestimmte Aufgabe überschrieben werden:
-<pre>PUT /attask/api/v15.0/task/4c7…Updates= <br>{<br>    Arbeitsaufträge: [ <br>        { <br>            assignedToID: „2222…54d0, <br>            assignmentPercent: 50,0 <br>        },{ <br>            roleID: „1111…54d0“<br>        } <br>    ] <br>}</pre>
+<pre>PUT /attask/api/v15.0/task/4c7..?updates= <br>{<br> Arbeitsaufträge: [ <br> { <br> assignedToID: „2222…54d0, <br> assignmentPercent: 50.0 <br> },{ <br> roleID: „1111…54d0“<br> } <br> ] <br>}</pre>
 
 >[!NOTE]
 >
 >Aktualisierungen an der obersten Ebene sind zwar selten, aber Aktualisierungen an einer Sammlung oder einem verschachtelten Objekt ersetzen die vorhandene Sammlung vollständig. Um einen einzelnen Arbeitsauftrag für eine Aufgabe zu bearbeiten, ohne dass sich dies auf die Objekte auswirkt, verwenden Sie PUT für den Arbeitsauftrag und nicht für die Aufgabe.
 
 Im folgenden Beispiel wird ein Projekt zu einer öffentlichen Helpdesk-Warteschlange. Beachten Sie, dass die vorhandenen Warteschlangeneigenschaften ersetzt werden.
-<pre>PUT /attask/api/v15.0/project/4c7…?updates= <br>{ <br>    queueDef: { <br>        isPublic: 1 <br>    } <br>}</pre>
+<pre>PUT /attask/api/v15.0/project/4c7…?updates= <br>{ <br> queueDef: { <br> isPublic: 1 <br> } <br>}</pre>
 
 ### Verwenden des Anfrageparameters „action“
 

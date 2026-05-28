@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 52ac1919-1821-424f-89f8-72865b236e4e
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1321'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Das bedeutet, dass Sie sich über Ihr eigenes Anmeldesystem authentifizieren, ni
 
 >[!NOTE]
 >
->Sie müssen eine benutzerdefinierte Subdomain oder Domain in Ihrem [!DNL Workfront Proof] Konto eingerichtet haben, um SAML zu aktivieren. Benutzerdefinierte Subdomains können frei eingerichtet werden. Weitere Informationen finden Sie [Branding](https://support.workfront.com/hc/en-us/sections/115000921208-Branding). Weitere Informationen zu vollständig angepassten Domains finden Sie auf unserer [Marke der Website [!DNL Workfront Proof]  „Erweitert](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
+>Sie müssen eine benutzerdefinierte Subdomain oder Domain in Ihrem [!DNL Workfront Proof] Konto eingerichtet haben, um SAML zu aktivieren. Benutzerdefinierte Subdomains können frei eingerichtet werden. Weitere Informationen finden [ unter ](https://support.workfront.com/hc/en-us/sections/115000921208-Branding).Weitere Informationen über vollständig angepasste Domains finden Sie auf unserer [Brand the  [!DNL Workfront Proof] -Site - advanced](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
 
 ## Aktivieren von SSO in [!DNL Workfront Proof]
 
@@ -45,9 +45,9 @@ Als Dienstleister haben wir hier unsere Entitäts-ID veröffentlicht:
 * http://schemas.xmlsoap.org/claims/EmailAddress
 * urn:oid:0.9.2342.19200300.100.1.3
 * http://axschema.org/contact/email
-* openid.sreg.email
+* openid.serg.email
 * E-Mail
-* E-Mail
+* email
 * emailAddress
 
 SSO konfigurieren:
@@ -94,7 +94,7 @@ Single Sign-On ist eine Select- und Premium-Funktion, sodass Single Sign-On nur 
 Hier gibt es zwei Konfigurationsmethoden (5):
 
 1. **Vererbt:** SSO mit der Konfiguration, die von Ihrem Hub-Konto übernommen wird.
-Wenn ein Benutzer über die **Standard-Anmeldeseite** ([https://business.adobe.com/de/products/workfront/proofing-approvals.html](https://business.adobe.com/de/products/workfront/proofing-approvals.html)) auf [!DNL Workfront Proof] zugreift, **zwei Berechtigungsebenen**: Zunächst wird ein Benutzer aufgefordert, sich mit [!DNL Workfront Proof] Zugriffsdaten (E-Mail und Passwort) anzumelden, dann wird der Benutzer über ein SSO-Fenster zur SSO-Anmeldeseite weitergeleitet.
+Wenn ein Benutzer über die **Standard-Anmeldeseite** ([https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html)) auf [!DNL Workfront Proof] zugreift, **zwei Berechtigungsebenen**: Zunächst wird ein Benutzer aufgefordert, sich mit [!DNL Workfront Proof] Zugriffsdaten (E-Mail und Passwort) anzumelden, dann wird der Benutzer über ein SSO-Fenster zur SSO-Anmeldeseite weitergeleitet.
 Bei aktiviertem SSO-Service empfehlen wir daher, sich über Ihre eigene [!DNL Workfront Proof] Subdomain/Domain anzumelden.
 
    >[!NOTE]
@@ -143,7 +143,7 @@ Wenn die manuelle SSO-Konfiguration für ein Satellitenkonto ausgewählt wurde (
 Bei aktiviertem Single Sign-On zeigt Ihre Subdomain-Anmelde-URL (z. B. yourcompany.proofhq.com/login) einen Übertragungsbildschirm (2) an, über den Sie direkt zu Ihrer SSO-Anmeldeseite gelangen.
    ![SSO_login_page.png](assets/sso-login-page-350x164.png)
 
-1. Wenn eine Benutzerin oder ein Benutzer über die **Standardanmeldeseite** ([https://business.adobe.com/de/products/workfront/proofing-approvals.html](https://business.adobe.com/de/products/workfront/proofing-approvals.html)) auf [!DNL Workfront Proof] zugreift, gibt es **zwei Autorisierungsebenen**. Zunächst wird ein Benutzer aufgefordert, sich mit [!DNL Workfront Proof] Zugangsdaten (E-Mail und Passwort) anzumelden. Anschließend wird der Benutzer über ein SSO-Fenster (2) auf die SSO-Anmeldeseite übertragen.\
+1. Wenn eine Benutzerin oder ein Benutzer über die **Standardanmeldeseite** ([https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html)) auf [!DNL Workfront Proof] zugreift, gibt es **zwei Autorisierungsebenen**. Zunächst wird ein Benutzer aufgefordert, sich mit [!DNL Workfront Proof] Zugangsdaten (E-Mail und Passwort) anzumelden. Anschließend wird der Benutzer über ein SSO-Fenster (2) auf die SSO-Anmeldeseite übertragen.\
    Bei aktiviertem SSO-Service empfehlen wir daher, sich über Ihre eigene [!DNL Workfront Proof] Subdomain/Domain anzumelden.
 
 1. Wenn Single Sign-On in Ihrem Workfront Proof-Konto aktiviert ist, können Sie sich derzeit nicht mit diesen Anmeldeinformationen bei der iPhone-App anmelden.
@@ -164,4 +164,4 @@ Active Directory Federation Services (AD FS) ist eine [!DNL Microsoft] Softwarek
 
 Das [!DNL Workfront Proof] unterstützt SAML 2.0 und ist nur mit AD FS Version 2.0 oder höher kompatibel.
 
-Detaillierte Anweisungen finden [&#x200B; unter „Single Sign [!DNL Workfront Proof]On: AD FS](../../../workfront-proof/wp-acct-admin/account-settings/sso-in-wp-adfs-configuration.md)Konfiguration“.
+Detaillierte Anweisungen finden [ unter „Single Sign [!DNL Workfront Proof]On: AD FS](../../../workfront-proof/wp-acct-admin/account-settings/sso-in-wp-adfs-configuration.md)Konfiguration“.

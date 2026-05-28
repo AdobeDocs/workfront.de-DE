@@ -33,7 +33,7 @@ Nachdem Ihr Vertrag aktualisiert wurde, um das neue einheitliche Überprüfungs-
 
 |  | Objekt im alten Workfront-Speicher | Objekt im Adobe Cloud-Speicher |
 |---|---|---|
-| Speicher-Backend | Nur Workfront | Adobe Cloud-Speicher |
+| Speicher-Backend | Nur Workfront | Cloud-Speicherplatz von Adobe |
 | Produktübergreifende Sichtbarkeit | Nur Workfront | Workfront, Frame.io und Creative Cloud |
 | Funktionalität | Alte Funktionalität | Neue Funktionen |
 

@@ -1,6 +1,6 @@
 ---
-title: 22.1 Verbesserungen für Administratoren
-description: 22.1 Verbesserungen für Administratoren
+title: Verbesserungen für Admins in Version 22.1
+description: Verbesserungen für Admins in Version 22.1
 author: Luke
 draft: Probably
 feature: Product Announcements, System Setup and Administration
@@ -8,12 +8,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 63ff1334-aebe-4df4-a855-10011707808b
 source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1452'
-ht-degree: 0%
+source-wordcount: '1466'
+ht-degree: 1%
 
 ---
 
-# 22.1 Verbesserungen für Administratoren
+# Verbesserungen für Admins in Version 22.1
 
 Auf dieser Seite werden alle Admin-Verbesserungen beschrieben, die mit Version 22.1 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung verfügbar gemacht
 
@@ -116,7 +116,7 @@ Diese Funktion wurde kürzlich für Projektvoreinstellungen sowie für Aufgaben-
 
 Informationen dazu, wie Workfront-Admins eine Arbeitszeittabelle und Stundeneinstellungen entsperren, finden Sie im Abschnitt [Arbeitszeittabelle und Stundeneinstellungen für Gruppen entsperren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) im Artikel [Arbeitszeittabelle und Stundeneinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-Informationen dazu, wie Gruppenadmins die Einstellungen für entsperrte Aufgaben und Probleme für eine Gruppe konfigurieren, finden [&#x200B; unter „Arbeitszeittabelle und Stundeneinstellungen für eine Gruppe konfigurieren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+Informationen dazu, wie Gruppenadmins die Einstellungen für entsperrte Aufgaben und Probleme für eine Gruppe konfigurieren, finden [ unter „Arbeitszeittabelle und Stundeneinstellungen für eine Gruppe konfigurieren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
 ## Wählen Sie mehrere Benachrichtigungen aus, die Sie für Gruppen entsperren oder erneut sperren möchten
 

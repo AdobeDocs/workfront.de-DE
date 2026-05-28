@@ -9,8 +9,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 7c6f3fdd-f767-4e8d-937a-1c7645aba55b
 source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '2472'
-ht-degree: 0%
+source-wordcount: '2482'
+ht-degree: 1%
 
 ---
 
@@ -91,7 +91,7 @@ Erstellen einer benutzerdefinierten Ansicht:
       <td>Datum und Uhrzeit der Erstellung des Elements.</td>
       </tr>
       <tr>
-      <td><strong>Erstellerin oder Ersteller</strong></td>
+      <td><strong>Erstellerin bzw. Ersteller</strong></td>
       <td>Der Benutzer, der das Element erstellt hat.</td>
       </tr>
       <tr>
@@ -167,7 +167,7 @@ Erstellen einer benutzerdefinierten Ansicht:
       <td>Name jedes Schritts im automatisierten Workflow. Dazu gehören vergangene, aktive und zukünftige Stadien.</td>
       </tr>
       <tr>
-      <td><strong>Status</strong></td>
+      <td><strong>Land</strong></td>
       <td>aktiv, gesperrt, Entwurf oder übermittelt.</td>
       </tr>
       <tr>
@@ -280,9 +280,9 @@ Sie können eine benutzerdefinierte Ansicht einfach bearbeiten. So bearbeiten Si
    ![Optionen anzeigen](assets/proof-view-options.png)\
    Die Seite Benutzerdefinierte Ansicht bearbeiten wird angezeigt.
 
-1. Klicken Sie auf das Menü [!UICONTROL Aktionen]. 3)\
+1. Klicken Sie auf das Menü [!UICONTROL Aktionen]. (3)\
    Diese Schaltfläche ist nur verfügbar, wenn Sie die Spalte Korrekturabzugsname in Ihre Ansicht aufnehmen.
-1. Wählen [!UICONTROL Ansicht bearbeiten] aus dem Menü aus. 4) \
+1. Wählen [!UICONTROL Ansicht bearbeiten] aus dem Menü aus. (4) \
    ![Editing_custom_view_2.png](assets/editing-custom-view-2-350x258.png)
 
 1. Die Seite Benutzerdefinierte Ansicht bearbeiten wird angezeigt.
@@ -303,12 +303,12 @@ Kopieren einer benutzerdefinierten Ansicht:
 1. Navigieren Sie zur Seite **[!UICONTROL Ansichten]**.\
    Weitere Informationen zu Ansichten finden Sie unter [Elemente auf der Seite „Ansichten“ in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Ansichten]**. 1)
-1. Wählen Sie Ihre benutzerdefinierte Ansicht aus der Liste aus. 2)
-1. Klicken Sie auf **[!UICONTROL Menü]** Aktionen“. 3)\
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Ansichten]**. (1)
+1. Wählen Sie Ihre benutzerdefinierte Ansicht aus der Liste aus. (2)
+1. Klicken Sie auf **[!UICONTROL Menü]** Aktionen“. (3)\
    Diese Schaltfläche ist nur verfügbar, wenn Sie die Spalte Korrekturabzugsname in Ihre Ansicht aufnehmen.
 
-1. Wählen [!UICONTROL Kopieren] aus dem Menü aus. 4)\
+1. Wählen [!UICONTROL Kopieren] aus dem Menü aus. (4)\
    ![copy_custom_view.png](assets/copying-custom-view-350x258.png)
 
 1. Auf der Seite Benutzerdefinierte Ansicht kopieren werden alle ursprünglichen Einstellungen ausgefüllt. Ändern Sie die benutzerdefinierte Ansicht gemäß Ihrer Wahl und klicken Sie auf die Schaltfläche **[!UICONTROL Ansicht kopieren]**. Sie werden sofort zu Ihrer neuen Ansicht weitergeleitet.\
@@ -316,7 +316,7 @@ Kopieren einer benutzerdefinierten Ansicht:
 
 ## Freigeben benutzerdefinierter Ansichten
 
-Mit der Funktion Ansicht freigeben können Sie eine Ansicht für andere Benutzer in Ihrem Konto freigeben, falls Sie diese nicht bereits im Abschnitt Freigabe für die Ansicht ausgewählt haben. Wenn Sie eine benutzerdefinierte Ansicht für andere Benutzer freigeben, wird die Ansicht im Abschnitt &quot;[!UICONTROL &#x200B; benutzerdefinierten Ansichten] des Dropdown-Menüs „Ansichten“ angezeigt.
+Mit der Funktion Ansicht freigeben können Sie eine Ansicht für andere Benutzer in Ihrem Konto freigeben, falls Sie diese nicht bereits im Abschnitt Freigabe für die Ansicht ausgewählt haben. Wenn Sie eine benutzerdefinierte Ansicht für andere Benutzer freigeben, wird die Ansicht im Abschnitt &quot;[!UICONTROL  benutzerdefinierten Ansichten] des Dropdown-Menüs „Ansichten“ angezeigt.
 
 So geben Sie eine benutzerdefinierte Ansicht für andere Benutzer frei:
 
@@ -325,7 +325,7 @@ So geben Sie eine benutzerdefinierte Ansicht für andere Benutzer frei:
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Ansichten]** (1)
 1. Benutzerdefinierte Ansicht aus der Liste auswählen (2)
-1. Klicken Sie auf **[!UICONTROL Menü]** Aktionen“. 3)\
+1. Klicken Sie auf **[!UICONTROL Menü]** Aktionen“. (3)\
    Diese Schaltfläche ist nur verfügbar, wenn Sie die Spalte Korrekturabzugsname in Ihre Ansicht aufnehmen.
 
 1. Wählen [!UICONTROL Ansicht freigeben] aus dem Menü aus (4)
@@ -341,12 +341,12 @@ So exportieren Sie die Daten aus einer benutzerdefinierten Ansicht in eine CSV-D
 1. Navigieren Sie zur Seite **[!UICONTROL Ansichten]**.\
    Weitere Informationen zu Ansichten finden Sie unter [Elemente auf der Seite „Ansichten“ in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Ansichten]**. 1)
-1. Wählen Sie Ihre benutzerdefinierte Ansicht aus der Liste aus. 2)
-1. Klicken Sie auf **[!UICONTROL Menü]** Aktionen“. 3)\
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Ansichten]**. (1)
+1. Wählen Sie Ihre benutzerdefinierte Ansicht aus der Liste aus. (2)
+1. Klicken Sie auf **[!UICONTROL Menü]** Aktionen“. (3)\
    Diese Schaltfläche ist nur verfügbar, wenn Sie die Spalte Korrekturabzugsname in Ihre Ansicht aufnehmen.
 
-1. Wählen Sie [!UICONTROL &#x200B; Menü &#x200B;]In CSV exportieren) aus. 4)\
+1. Wählen Sie [!UICONTROL  Menü ]In CSV exportieren) aus. (4)\
    ![export_custom_view.png](assets/exporting-custom-view-350x258.png)\
    In einem separaten Browser-Fenster wird „Bericht wird generiert: 100 %&quot; plus die Anzahl der Datensätze (die Anzahl der in Ihrem benutzerdefinierten Bericht enthaltenen Elemente) angezeigt
 
@@ -363,10 +363,10 @@ Sie können eine benutzerdefinierte Ansicht einfach löschen. Gehen Sie dazu fol
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Ansichten]**.
 1. Wählen Sie Ihre benutzerdefinierte Ansicht aus der Liste aus
-1. Klicken Sie auf **[!UICONTROL Menü]** Aktionen“. 3)\
+1. Klicken Sie auf **[!UICONTROL Menü]** Aktionen“. (3)\
    Diese Schaltfläche ist nur verfügbar, wenn Sie die Spalte Korrekturabzugsname in Ihre Ansicht aufnehmen.
 
-1. Wählen [!UICONTROL &#x200B; im &#x200B;] die Option „Löschen“ aus. 4)\
+1. Wählen [!UICONTROL  im ] die Option „Löschen“ aus. (4)\
    ![deleting_custom_view.png](assets/deleting-custom-view-350x258.png)
 
 1. Klicken Sie **[!UICONTROL (]**), um zu bestätigen, dass Sie die aktuelle benutzerdefinierte Ansicht löschen möchten\

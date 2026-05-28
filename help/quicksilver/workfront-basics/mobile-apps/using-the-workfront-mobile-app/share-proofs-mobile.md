@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 exl-id: a97ddd1e-1cae-49a8-b3a4-7c9850169179
 source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '596'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Diese Option sendet eine E-Mail mit einem eindeutigen Korrekturabzugs-Link an ei
 1. Wählen Sie **[!UICONTROL Freigeben]** aus.
 1. Geben Sie den Kontaktnamen in das Feld **[!UICONTROL Freigeben für]** ein und wählen Sie den Kontakt aus der Liste aus.
 
-   Oder
+   ODER
 
    Wenn die Person nicht aufgeführt ist, geben Sie ihre E-Mail-Adresse in das Feld **[!UICONTROL Freigeben für]** ein und wählen Sie **[!UICONTROL Empfänger hinzufügen]** aus, um sie hinzuzufügen.
 
@@ -62,7 +62,7 @@ Diese Option sendet eine E-Mail mit einem öffentlichen Korrekturabzugs-Link an 
 1. Wählen Sie **[!UICONTROL Mit öffentlicher URL freigeben]** aus.
 1. Geben Sie den Kontaktnamen in das Feld **[!UICONTROL Freigeben für]** ein und wählen Sie den Kontakt aus der Liste aus.
 
-   Oder
+   ODER
 
    Wenn die Person nicht aufgeführt ist, geben Sie ihre E-Mail-Adresse in das Feld **[!UICONTROL Freigeben für]** ein und wählen Sie **[!UICONTROL Empfänger hinzufügen]** aus, um sie hinzuzufügen.
 

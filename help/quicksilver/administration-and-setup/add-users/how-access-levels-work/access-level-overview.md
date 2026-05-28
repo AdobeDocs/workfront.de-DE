@@ -12,7 +12,7 @@ role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
 source-git-commit: 627d59c8c8296e5b6c8b6da53705a1c3d7633751
 workflow-type: tm+mt
-source-wordcount: '1775'
+source-wordcount: '1776'
 ht-degree: 96%
 
 ---
@@ -308,8 +308,7 @@ Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte au
 >
 >Ab Version 24.7 haben Mitwirkende standardmäßig das Zugriffsrecht „Anzeigen“ für Programme und Portfolios.
 >
-> 
->Mitwirkende, die vor Version 24.7 eingebunden wurden, haben standardmäßig weiterhin keinen Zugriff auf Programme und Portfolios. Sie können die Zugriffsrechte dieser Personen manuell auf „Anzeigen“ aktualisieren.
+> >Mitwirkende, die vor Version 24.7 eingebunden wurden, haben standardmäßig weiterhin keinen Zugriff auf Programme und Portfolios. Sie können die Zugriffsrechte dieser Personen manuell auf „Anzeigen“ aktualisieren.
 
 ### Zugriffsebene „Externe Benutzende“
 

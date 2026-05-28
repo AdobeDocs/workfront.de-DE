@@ -8,7 +8,7 @@ role: Developer
 exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
 source-git-commit: 729c8512f7aa239f0858e18295a0c77e6b7e3328
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '792'
 ht-degree: 1%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 Dazu sind drei einfache Schritte erforderlich:
 
-**Schritt 1**: Laden Sie die Datei in Workfront Proof hoch, indem Sie sie über eine POST-Anfrage an senden.  [https://soap.proofhq.com/upload.php](https://soap.proofhq.com/upload.php). Wir geben Ihnen den Datei-Hash zurück - das ist sehr wichtig! Beachten Sie, dass Sie in diesem Stadium nichts in Ihrem Konto sehen werden, alles was Sie bisher getan haben, ist uns die Datei zu senden, aber nicht gesagt, was wir damit tun sollen.
+**Schritt 1**: Laden Sie die Datei in Workfront Proof hoch, indem Sie sie über eine POST-Anfrage an [https://soap.proofhq.com/upload.php senden](https://soap.proofhq.com/upload.php). Wir geben Ihnen den Datei-Hash zurück - das ist sehr wichtig! Beachten Sie, dass Sie in diesem Stadium nichts in Ihrem Konto sehen werden, alles was Sie bisher getan haben, ist uns die Datei zu senden, aber nicht gesagt, was wir damit tun sollen.
 
 **Schritt 2**: Wenn Sie noch keine Sitzungs-ID haben, erhalten Sie eine mit den Methoden doLogin() oder getSessionID(). Verwenden Sie die erste Methode, um sich mit der E-Mail-Adresse und dem Kennwort eines Benutzers anzumelden, oder die zweite Methode, wenn Sie die E-Mail-Adresse und das Authentifizierungs-Token des Benutzers haben.
 
@@ -59,7 +59,7 @@ Sie müssen nicht vor jedem Aufruf der API eine neue Sitzungs-ID abrufen und die
 
 **Team/Öffentlich**: Jede Korrekturabzugsversion verfügt über eine eindeutige Team (Öffentlich)-URL. Wenn aktiviert, wird der Korrekturabzug im schreibgeschützten Modus geöffnet. Sie können die Team-URL mit der Methode [getProofURL()](https://api.proofhq.com/home/proofs/getproofurl.html) abrufen.
 
-**Persönlich**: Eine persönliche URL ist für jede Reviewer- und Korrekturabzugsversion eindeutig. Wenn ein Korrekturabzugssatz drei Versionen enthält und bei allen Versionen ein Prüfer vorhanden ist, verfügt der Prüfer über drei eindeutige persönliche URLs. Eine persönliche URL öffnet die Korrekturabzugsversion mit dem bereits identifizierten Prüfer und sollte daher sicher aufbewahrt und nicht freigegeben werden. Persönliche URLs können durch Aufruf der Methode [getProofReviewers()](https://api.proofhq.com/home/proofs/getproofreviewers.html) und anschließende Iteration über jede URL abgerufen werden  [SOAPRecepientObject](https://api.proofhq.com/home/objects/soaprecipientobject.html) und den Parameter „proof_url“ abrufen.
+**Persönlich**: Eine persönliche URL ist für jede Reviewer- und Korrekturabzugsversion eindeutig. Wenn ein Korrekturabzugssatz drei Versionen enthält und bei allen Versionen ein Prüfer vorhanden ist, verfügt der Prüfer über drei eindeutige persönliche URLs. Eine persönliche URL öffnet die Korrekturabzugsversion mit dem bereits identifizierten Prüfer und sollte daher sicher aufbewahrt und nicht freigegeben werden. Persönliche URLs können abgerufen werden, indem die Methode [getProofReviewers()](https://api.proofhq.com/home/proofs/getproofreviewers.html) aufgerufen, anschließend jedes [SOAPRecipientObject](https://api.proofhq.com/home/objects/soaprecipientobject.html) durchlaufen und der Parameter „proof_url“ abgerufen wird.
 
 ## >Wie lassen sich beim Öffnen des Mini-Korrekturabzugs benutzerdefinierte Parameter einbeziehen?
 

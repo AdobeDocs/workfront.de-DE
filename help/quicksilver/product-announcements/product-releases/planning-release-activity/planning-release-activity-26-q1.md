@@ -11,8 +11,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '2017'
-ht-degree: 13%
+source-wordcount: '2130'
+ht-degree: 15%
 
 ---
 
@@ -29,10 +29,7 @@ Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen find
 
 >[!NOTE]
 >
->Vorschau: 15. Januar 2026
->Produktions-Schnellveröffentlichung: 15. Januar 2026
->Produktion für alle: 15. Januar 2026
->[!BADGE Außerplanmäßig]{type=Neutral}
+>Vorschau: 15. Januar 2026>Produktions-Schnellveröffentlichung: 15. Januar 2026>Produktion für alle: 15. Januar 2026>[!BADGE Außerplanmäßig]{type=Neutral}
 
 Sie können jetzt globale Datensatztypen freigeben, die Sie einem sekundären Arbeitsbereich aus diesem Arbeitsbereich hinzugefügt haben. Benutzer erhalten dieselben Berechtigungen für alle Datensätze im sekundären Arbeitsbereich, den Sie freigeben.
 
@@ -49,10 +46,7 @@ Weitere Informationen finden Sie [Übersicht über Workspace-übergreifende Date
 
 >[!NOTE]
 >
->Vorschau: 15. Januar 2026
->Produktions-Schnellveröffentlichung: 15. Januar 2026
->Produktion für alle: 15. Januar 2026
->[!BADGE Außerplanmäßig]{type=Neutral}
+>Vorschau: 15. Januar 2026>Produktions-Schnellveröffentlichung: 15. Januar 2026>Produktion für alle: 15. Januar 2026>[!BADGE Außerplanmäßig]{type=Neutral}
 
 Datensätze, die einem globalen Datensatztyp in einem sekundären Arbeitsbereich hinzugefügt wurden, sind nur in diesem Arbeitsbereich oder im ursprünglichen primären Arbeitsbereich des Datensatztyps sichtbar. Vor diesem Update waren Datensätze, die zu einem sekundären Arbeitsbereich hinzugefügt wurden, auch von anderen sekundären Arbeitsbereichen sichtbar, für die Sie möglicherweise über die Berechtigung zum Anzeigen verfügten.
 
@@ -62,9 +56,7 @@ Weitere Informationen finden Sie [Übersicht über Workspace-übergreifende Date
 
 >[!NOTE]
 >
->Vorschau: Mittwoch, 23. Dezember 2025
->Produktions-Schnellveröffentlichung: 14. Januar 2026
->Produktion für alle: 15. Januar 2026
+>Vorschau: 23. Dezember 2025>Produktions-Schnellveröffentlichung: 14. Januar 2026>Produktion für alle: 15. Januar 2026
 
 Sie können jetzt flexible, aber strukturierte Hierarchien zwischen Datensatz- oder Objekttypen definieren.
 
@@ -86,9 +78,7 @@ Weitere Informationen finden Sie unter [Hierarchie und Breadcrumb - Übersicht](
 
 >[!NOTE]
 >
->Vorschau: Mittwoch, 23. Dezember 2025
->Produktions-Schnellveröffentlichung: 14. Januar 2026
->Produktion für alle: 15. Januar 2026
+>Vorschau: 23. Dezember 2025>Produktions-Schnellveröffentlichung: 14. Januar 2026>Produktion für alle: 15. Januar 2026
 
 Wenn Sie Hierarchien zwischen Datensatztypen erstellen, generieren diese Breadcrumbs für Datensätze, die zu diesen Datensatztypen gehören.
 
@@ -103,9 +93,7 @@ Weitere Informationen finden Sie unter [Hierarchie und Breadcrumb - Übersicht](
 
 >[!NOTE]
 >
->Vorschau: Samstag, 19. Dezember 2025
->Produktionsgeschwindigkeit: 14. Januar 2026
->Produktion für alle: 15. Januar 2026
+>Vorschau: 19. Dezember 2025>Produktionsgeschwindigkeit: 14. Januar 2026>Produktion für alle: 15. Januar 2026
 
 Um Ihnen bei der Arbeit mit verbundenen Datensatzseiten mehr Flexibilität zu bieten, haben wir die Funktionalität der Ansichten in diesem Bereich von Workfront Planning erweitert. Im Folgenden finden Sie Verbesserungen bei den verbundenen Datensatzseiten eines Datensatzes:
 
@@ -120,8 +108,7 @@ Weitere Informationen finden Sie unter [Hinzufügen einer verbundenen Datensatzs
 
 >[!NOTE]
 >
->Vorschau: 18. Dezember 2025
->Produktions-Schnellveröffentlichung: 14. Januar 2026\
+>Vorschau: 18. Dezember 2025>Produktions-Schnellveröffentlichung: 14. Januar 2026\
 >Produktion für alle: 15. Januar 2026
 
 Um die Anzeige der benötigten Informationen zu vereinfachen, haben wir die Möglichkeit hinzugefügt, Ansichten auf der Seite „Verbundene Projektdatensätze“ freizugeben. Sie können jetzt Ansichten für andere Benutzende, Teams oder Gruppen freigeben.
@@ -132,8 +119,7 @@ Weitere Informationen finden Sie unter [Hinzufügen einer verbundenen Datensatzs
 
 >[!NOTE]
 >
->Vorschau: 18. Dezember 2025
->Produktions-Schnellveröffentlichung: 14. Januar 2026\
+>Vorschau: 18. Dezember 2025>Produktions-Schnellveröffentlichung: 14. Januar 2026\
 >Produktion für alle: 15. Januar 2026
 
 Um das Filtern nach Projektverbindungen zu vereinfachen, die für Sie gelten, haben wir einen Platzhalter für aktuelle Benutzer erstellt. Jetzt können Sie beim Filtern Folgendes auswählen: „Ich (angemeldete Person)“. Der Filter gilt dann für die Person, die die Anfrageliste anzeigt.
@@ -153,9 +139,7 @@ Weitere Informationen zum Konfigurieren von Projektverbindungsansichten, einschl
 
 >[!NOTE]
 >
->Vorschau: 18. Dezember 2025
->Produktionsgeschwindigkeit: 14. Januar 2026
->Produktion für alle: 15. Januar 2026
+>Vorschau: 18. Dezember 2025>Produktionsgeschwindigkeit: 14. Januar 2026>Produktion für alle: 15. Januar 2026
 
 An der Hauptseite für Arbeitsbereiche in Workfront Planning wurden folgende Verbesserungen vorgenommen:
 
@@ -172,10 +156,7 @@ Weitere Informationen finden Sie unter [Bearbeiten von Arbeitsbereichen](/help/q
 
 >[!NOTE]
 >
->Vorschau: 11. Dezember 2025
->Produktions-Schnellveröffentlichung: 11. Dezember 2025
->Produktion für alle: 11. Dezember 2025
->[!BADGE Außerplanmäßig]{type=Neutral}
+>Vorschau: 11. Dezember 2025>Produktions-Schnellveröffentlichung: 11. Dezember 2025>Produktion für alle: 11. Dezember 2025>[!BADGE Außerplanmäßig]{type=Neutral}
 
 Das Feld Verbindung zur Marke GenStudio for Performance Marketing wird jetzt standardmäßig zu den Datensatztypen „Produkte“ und „Personas“ im Arbeitsbereich &quot;GenStudio&quot; von Workfront Planning hinzugefügt.
 
@@ -189,10 +170,7 @@ Weitere Informationen finden Sie [Erste Schritte mit der Adobe Workfront Plannin
 
 >[!NOTE]
 >
->Vorschau: 11. Dezember 2025
->Produktions-Schnellveröffentlichung: 11. Dezember 2025
->Produktion für alle: 11. Dezember 2025
->[!BADGE Außerplanmäßig]{type=Neutral}
+>Vorschau: 11. Dezember 2025>Produktions-Schnellveröffentlichung: 11. Dezember 2025>Produktion für alle: 11. Dezember 2025>[!BADGE Außerplanmäßig]{type=Neutral}
 
 Wir haben einen Schutzmechanismus hinzugefügt, der verhindert, dass Berechtigungen von GenStudio for Performance Marketing-Benutzenden aus Workfront Planning-Objekten entfernt werden. Mit dieser Verbesserung können Sie GenStudio-Benutzende nicht mehr aus dem GenStudio-Arbeitsbereich in Planning entfernen. Ebenso können Sie keine geerbten Berechtigungen für Datensatztypen im GenStudio-Arbeitsbereich deaktivieren, wenn diese Berechtigungen GenStudio-Benutzende enthalten. Wenn Sie diese Benutzenden vor dieser Verbesserung aus GenStudio Workspace in Planning entfernt haben, verlieren sie auch die Berechtigungen für Datensatztypen in GenStudio.
 
@@ -206,9 +184,7 @@ Weitere Informationen finden Sie [Erste Schritte mit Adobe Workfront Planning un
 
 >[!NOTE]
 >
->Vorschau: Donnerstag, 3. Dezember 2025
->Produktions-Schnellveröffentlichung: Freitag, 4. Dezember 2025
->Produktion für alle: 15. Januar 2026
+>Vorschau: 3. Dezember 2025>Produktions-Schnellveröffentlichung: 4. Dezember 2025>Produktion für alle: 15. Januar 2026
 
 
 Wir haben die Registerkarte Öffentliche Freigabe bei der Freigabe einer Ansicht für einen globalen Datensatz in einem sekundären Arbeitsbereich entfernt. Sie können eine Ansicht nicht öffentlich über einen globalen Datensatztyp freigeben, der über einen vorhandenen globalen Datensatztyp zu einem anderen Arbeitsbereich hinzugefügt wurde. Sie können eine Ansicht des globalen Datensatztyps öffentlich über den ursprünglichen Arbeitsbereich freigeben.
@@ -220,9 +196,7 @@ Weitere Informationen finden Sie unter [Freigeben von Ansichten](/help/quicksilv
 
 >[!NOTE]
 >
->Vorschau: 13. November 2025
->Produktions-Schnellveröffentlichung: 13. November 2025
->Produktion für alle: 13. November 2025
+>Vorschau: 13. November 2025>Produktions-Schnellveröffentlichung: 13. November 2025>Produktion für alle: 13. November 2025
 
 Sie können jetzt Datensatztypen für Workfront Planning mit Marken aus Adobe GenStudio for Performance Marketing verbinden. Ihr Unternehmen muss sowohl über Workfront Planning als auch über Adobe GenStudio for Performance Marketing verfügen.
 
@@ -233,9 +207,7 @@ Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quic
 
 >[!NOTE]
 >
->Vorschau: 6. November 2025
->Produktions-Schnellveröffentlichung: 11. Dezember 2025
->Produktion für alle: 15. Januar 2026
+>Vorschau: 6. November 2025>Produktions-Schnellveröffentlichung: 11. Dezember 2025>Produktion für alle: 15. Januar 2026
 
 Sie können jetzt beim Erstellen eines Ansichtselements in einer Datensatztypansicht nach einem bestimmten Feld suchen. Wir haben Suchfelder hinzugefügt, wenn Sie einen Filter, eine Sortierung, eine Gruppierung oder Ihre Felder- oder Zeilenfarben konfigurieren. Vor dieser Verbesserung konnten Sie einfach durch die Liste der verfügbaren Felder scrollen.
 
@@ -248,9 +220,7 @@ Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/qui
 
 >[!NOTE]
 >
->Vorschau: Freitag, 16. Oktober 2025
->Produktions-Schnellveröffentlichung: 13. November 2025
->Produktion für alle: 15. Januar 2026
+>Vorschau: 16. Oktober 2025>Produktions-Schnellveröffentlichung: 13. November 2025>Produktion für alle: 15. Januar 2026
 
 Bei der Implementierung von Workfront Planning für ein Unternehmen mit mehreren Teams mit gemeinsamen Workflows müssen Sie möglicherweise eine zusammenhängende Struktur und Metadaten für wichtige Datensatztypen (wie Kampagnen oder Ergebnisse) definieren, die den Arbeitsbereichen jedes Teams hinzugefügt werden können, um ihre Arbeit zu erfassen und zu verwalten.
 
@@ -272,9 +242,7 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 
 >[!NOTE]
 >
->Vorschau: Freitag, 16. Oktober 2025
->Produktions-Schnellveröffentlichung: 13. November 2025
->Produktion für alle: 15. Januar 2026
+>Vorschau: 16. Oktober 2025>Produktions-Schnellveröffentlichung: 13. November 2025>Produktion für alle: 15. Januar 2026
 
 Wir haben für jeden Datensatztyp ein Limit von 30 Verbindungsfeldern eingeführt.
 
@@ -286,9 +254,7 @@ Weitere Informationen finden Sie unter [Übersicht über verbundene Datensatztyp
 
 >[!NOTE]
 >
->Vorschau: Freitag, 16. Oktober 2025
->Produktions-Schnellveröffentlichung: 13. November 2025
->Produktion für alle: 15. Januar 2026
+>Vorschau: 16. Oktober 2025>Produktions-Schnellveröffentlichung: 13. November 2025>Produktion für alle: 15. Januar 2026
 
 Beim Hinzufügen von Feldoptionen zu einem Ein- oder Mehrfachauswahlfeld weist Workfront jeder Auswahl jetzt benutzerfreundliche Werte zu. Vor dieser Verbesserung generierte Workfront eine alphanumerische ID, die in API-Aufrufen und anderen Integrationen schwer zu verstehen und zu verwenden war.
 

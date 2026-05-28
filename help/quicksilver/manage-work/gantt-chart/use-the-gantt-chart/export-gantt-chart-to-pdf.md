@@ -9,7 +9,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '979'
+source-wordcount: '982'
 ht-degree: 6%
 
 ---
@@ -94,7 +94,7 @@ Old:
 
    * Klicken Sie auf **Filter**, **Ansicht** und **Gruppierung** über dem [!UICONTROL Gantt-Diagramm] und fügen Sie den vorhandenen Filter, die Ansicht oder die Gruppierung hinzu oder bearbeiten Sie sie, die auf die Liste der Elemente im [!UICONTROL Gantt-Diagramm].
 
-     Alle in der Listenansicht ausgewählten Filter und Gruppierungen werden beim Anzeigen des [!UICONTROL Gantt-Diagramms“ &#x200B;]. Ansichten werden im exportierten [!UICONTROL Gantt-Diagramm] nur innerhalb der Liste angezeigt, die neben dem [!UICONTROL Gantt-Diagramm] auf der ersten Seite angezeigt wird. Ansichten werden nicht im [!UICONTROL Gantt-Diagramm] selbst angezeigt.
+     Alle in der Listenansicht ausgewählten Filter und Gruppierungen werden beim Anzeigen des [!UICONTROL Gantt-Diagramms“ ]. Ansichten werden im exportierten [!UICONTROL Gantt-Diagramm] nur innerhalb der Liste angezeigt, die neben dem [!UICONTROL Gantt-Diagramm] auf der ersten Seite angezeigt wird. Ansichten werden nicht im [!UICONTROL Gantt-Diagramm] selbst angezeigt.
 
      >[!TIP]
      >
@@ -119,13 +119,13 @@ Old:
       * (Bedingt) Geplante Termine
       * (Bedingt) Voraussichtliche Termine
 
-     Weitere Informationen finden Sie unter   [Anzeige von Informationen im [!UICONTROL Gantt-Diagramm]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md) konfigurieren
+     Weitere Informationen finden Sie unter [Konfigurieren der Anzeige von Informationen im [!UICONTROL Gantt-Diagramm]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
 
      >[!NOTE]
      >
      > Zuweisungen werden nicht im [!UICONTROL Gantt-Diagramm] angezeigt, wenn das [!UICONTROL Gantt-Diagramm] nach PDF exportiert wird. Nach dem Export werden Zuweisungen nur in der Listenansicht angezeigt.
 
-   * Der Zeitraum, der auf dem [!UICONTROL Gantt-Diagramm“ angezeigt &#x200B;]. Wie dies in der Exportdatei angezeigt wird, hängt davon ab, ob Sie **[!UICONTROL Was ich sehe]** oder **[!UICONTROL Mehrere Seiten]** in einem späteren Schritt auswählen.
+   * Der Zeitraum, der auf dem [!UICONTROL Gantt-Diagramm“ angezeigt ]. Wie dies in der Exportdatei angezeigt wird, hängt davon ab, ob Sie **[!UICONTROL Was ich sehe]** oder **[!UICONTROL Mehrere Seiten]** in einem späteren Schritt auswählen.
 
      Weitere Informationen finden Sie unter [Informationen im [!UICONTROL Gantt-Diagramm]](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
 
@@ -176,7 +176,7 @@ Sie können aus den folgenden Optionen auswählen:
    * **[!UICONTROL A4]**
 1. Wählen **[!UICONTROL im Abschnitt]** aus, ob der PDF im Querformat oder im Hochformat exportiert werden soll.
 1. Wählen Sie **[!UICONTROL Legende anzeigen]** aus, wenn Sie die Legende in Ihre exportierte PDF aufnehmen möchten.
-1. Klicken Sie **[!UICONTROL Exportieren]**. Die PDF-Datei wird erstellt und auf Ihren Computer heruntergeladen.
+1. Klicken Sie auf **[!UICONTROL Exportieren]**. Die PDF-Datei wird erstellt und auf Ihren Computer heruntergeladen.
 
    In der Legende am unteren Rand der exportierten Datei werden nur die Optionen erläutert, die Sie in Ihrem [!UICONTROL Gantt-Diagramm] aktiviert haben und die in Ihrer Aufgabenliste verfügbar sind. Beispielsweise werden Meilensteine nur dann in der Legende angezeigt, wenn mit einem Meilenstein mindestens eine Aufgabe verknüpft ist.
 
