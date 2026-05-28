@@ -29,13 +29,13 @@ Gastreviewer, die keine eigenen Anmeldedaten für [!DNL ProofHQ] haben, greifen 
 
 Um einen Kommentar zu einem Korrekturabzug hinzuzufügen, klicken Sie auf die Schaltfläche *[!UICONTROL Kommentar hinzufügen]*, die oben auf der Seite verfügbar ist. Wenn diese Schaltfläche nicht angezeigt wird, wenden Sie sich an den Testversand-Verantwortlichen. Möglicherweise wurde Ihnen die falsche Testversand-Rolle zugewiesen (weitere Informationen zu Testversand-Rollen finden Sie unter [Verwalten von Testversand-Rollen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 
-Daraufhin ] rechts im Bildschirm ein [!UICONTROL Kommentar-Feld geöffnet, in dem Sie Ihren Kommentar eingeben und im Korrekturabzug speichern können. Dadurch wird ein allgemeiner Kommentar zum Korrekturabzug hinterlassen, der nicht mit einem bestimmten Bereich des Korrekturabzugs verbunden ist. Wenn Sie etwas Bestimmtes kommentieren möchten, verwenden Sie die Markup-Tools oben auf der Seite.
+Daraufhin  rechts im Bildschirm ein Kommentar-Feld geöffnet, in dem Sie Ihren Kommentar eingeben und im Korrekturabzug speichern können. Dadurch wird ein allgemeiner Kommentar zum Korrekturabzug hinterlassen, der nicht mit einem bestimmten Bereich des Korrekturabzugs verbunden ist. Wenn Sie etwas Bestimmtes kommentieren möchten, verwenden Sie die Markup-Tools oben auf der Seite.
 
 Um auf den Kommentar einer Person zum Korrekturabzug zu antworten, klicken Sie in der Liste der Kommentare auf diesen Kommentar und geben Sie Ihre Antwort in das Feld [!UICONTROL Antwort] ein. Wenn Sie speichern, wird die Antwort auf dem Testversand veröffentlicht.
 
 Alle Kommentare und Entscheidungen werden fast sofort im Korrekturabzug angezeigt. Wenn sich also jemand anders den Korrekturabzug zur gleichen Zeit wie Sie ansieht, wird er Ihre Kommentare sofort sehen.
 
-Dies sind sehr grundlegende Anweisungen, um Ihnen den Einstieg in [!DNL ProofHQ] zu erleichtern. Wenn Sie mehr über die Überprüfung von Testsendungen erfahren möchten, finden Sie [ Abschnitt „Testsendungen überprüfen](https://support.workfront.com/hc/en-us/sections/200054044-Reviewing-proofs) des Hilfezentrums ausführlichere Hilfeartikel.
+Dies sind sehr grundlegende Anweisungen, um Ihnen den Einstieg in [!DNL ProofHQ] zu erleichtern. Wenn Sie mehr über die Überprüfung von Testsendungen erfahren möchten, finden Sie [&#x200B; Abschnitt „Testsendungen überprüfen](https://support.workfront.com/hc/en-us/sections/200054044-Reviewing-proofs) des Hilfezentrums ausführlichere Hilfeartikel.
 
 ## Wie markiere ich einen Korrekturabzug?
 

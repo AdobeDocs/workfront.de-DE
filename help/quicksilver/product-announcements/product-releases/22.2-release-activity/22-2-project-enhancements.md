@@ -112,7 +112,7 @@ Wir haben ein neues Menü Mehr in Projektlisten und Berichten hinzugefügt, dami
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
 * [Projektzeitleisten neu berechnen](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)
-* [Projektfinanzen neu ](../../../manage-work/projects/project-finances/recalculate-project-finances.md)
+* [Projektfinanzen neu &#x200B;](../../../manage-work/projects/project-finances/recalculate-project-finances.md)
 * [Informationen in benutzerdefinierten Formularfeldern bearbeiten](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)
 * [Vorlage an ein Projekt anhängen](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
 * [Exportieren eines Projekts in das Microsoft-Projekt](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)
