@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 5%
+source-wordcount: '1114'
+ht-degree: 6%
 
 ---
 
@@ -60,15 +60,30 @@ Sie können die folgenden Objekte in Workfront Planning manuell freigeben:
 
   Weitere Informationen finden Sie unter [Freigeben von Datensatztypen](/help/quicksilver/planning/access/share-record-types.md).
 
+<!--
+<div class="preview">
 
-* Ansichten 
+* Records
+    
+    * You can share records with people inside your organization.
+    * Users inherit permissions from the workspace and the record type by default. 
+    * You cannot share a record with a higher or lower permission level than the user has on the record type. 
+
+    For more information, see [Share records](/help/quicksilver/planning/access/share-records.md).
+
+</div>
+
+-->
+
+* Ansichten
 
    * Sie müssen Benutzenden, einschließlich Systemadministratoren, Berechtigungen für den Zugriff auf Ansichten erteilen, getrennt von ihren Berechtigungen für den Zugriff auf Arbeitsbereiche.
    * Wenn Sie eine Ansicht freigeben, werden alle Ansichtselemente freigegeben, einschließlich Filter, Gruppierung, Sortierung oder Einstellungen.
    * Wenn Sie eine Ansicht freigeben, werden die in der Ansicht sichtbaren Datensätze nicht freigegeben. Datensätze müssen durch die Freigabe von Arbeitsbereichen freigegeben werden.
-   * Sie können eine Ansicht öffentlich für Personen außerhalb Ihres Unternehmens freigeben, wenn Sie einen öffentlichen Link für eine Ansicht generieren. Personen, die über einen öffentlichen Link auf die Datensatzseite zugreifen, können alle Datensätze und ihre Felder anzeigen, einschließlich der verbundenen Datensätze und Felder.
+   * Sie können eine Ansicht öffentlich für Personen außerhalb Ihrer Organisation freigeben, wenn Sie einen öffentlichen Link für eine Ansicht generieren.Personen, die über einen öffentlichen Link auf die Datensatzseite zugreifen, können alle Datensätze und ihre Felder anzeigen, einschließlich der verbundenen Datensätze und Felder.
 
   Weitere Informationen finden Sie unter [Freigeben von Ansichten](/help/quicksilver/planning/access/share-views.md).
+
 
 ## Überlegungen zur Freigabe von Objekten in Adobe Workfront Planning
 
@@ -78,15 +93,11 @@ Sie können die folgenden Objekte in Workfront Planning manuell freigeben:
 * Systemadministratoren können alle Arbeitsbereiche im System verwalten, einschließlich der Arbeitsbereiche, die sie nicht erstellt haben.
 * Andere Benutzende, einschließlich Systemadministratoren, können nur auf Ansichten zugreifen, die sie erstellt haben oder die für sie freigegeben wurden. Systemadministratoren können nur Berechtigungen zum Verwalten einer Ansicht erteilen.
 
-* Wenn Sie Arbeitsbereiche und Datensatztypen für andere freigeben, wird die Berechtigungsstufe des Datensatztyps automatisch auf die Datensätze und die mit ihnen verknüpften Felder übernommen.
-
-  >[!IMPORTANT]
-  >
-  >Die Benutzer, für die Sie Planning-Objekte freigeben möchten, müssen zur Adobe Admin Console hinzugefügt werden. Sie können Planning-Objekte nicht für Benutzende von Workfront freigeben, die nicht zum Adobe Admin Console hinzugefügt wurden.
+* Wenn Sie Arbeitsbereiche und Datensatztypen für andere freigeben, wird die Berechtigungsstufe des Datensatztyps automatisch auf die Datensätze und Felder vererbt, die mit ihnen standardmäßig verknüpft sind.
 
 * Sie können Planning-Objekte wie folgt freigeben:
 
-   * Intern können Sie einen Arbeitsbereich, eine Ansicht oder einen Datensatztyp für die folgenden Workfront-Entitäten freigeben:
+   * Intern können Sie Workfront Planning-Objekte für die folgenden Workfront-Entitäten freigeben:
 
       * Benutzende
       * Gruppen
@@ -181,6 +192,8 @@ Die folgenden Szenarien sind vorhanden:
 
 Datensatzberechtigungen werden vom Datensatztyp übernommen, wenn Sie Berechtigungen für den Arbeitsbereich und den Datensatztyp gewähren.
 
+<!--In the Production environment, -->
+
 Im Folgenden finden Sie die Berechtigungsebenen für Datensätze:
 
 
@@ -190,6 +203,42 @@ Im Folgenden finden Sie die Berechtigungsebenen für Datensätze:
 | Löschen | ✓ | ✓ |       |
 | Bearbeiten | ✓ | ✓ |       |
 | Ansicht | ✓ | ✓ | ✓ |
+
+<!--
+
+<div class="preview">
+
+In the Preview environment, the following are the levels of permissions for records: 
+
+|        | Manage |  View  |
+|--------|--------|-------|
+| Create | ✓      |       |
+| Delete | ✓      |       |
+| Edit   | ✓      |       |
+| View   | ✓      | ✓     |
+
+
+
+Record permissions are always inherited when you grant permissions to the workspace and the record type.
+
+You can remove the record's inherited permissions received from the record type. Workspace managers and record creators retain Manage permissions to the record. 
+
+You cannot give users lower or higher permissions on the record than they have on the record type. 
+
+The following scenarios exist: 
+
+|   Workspace and record type permissions     | Automatic inherited permissions for a Record |Possible Record permissions when Inherited permissions are turned off (granted manually)|
+|--------|--------|-------------|
+| Manage |   Manage    |   Manage, Remove permissions*           |
+| Contribute |     Manage |  Manage, Remove permissions*        |
+| View   |  View     |      View, Remove permissions*        |
+
+>[!NOTE]
+>
+>*When you remove permissions from a record, users still retain View permissions to the workspace and the record type, unless you remove their permissions from the workspace. 
+
+</div>
+-->
 
 ### Berechtigungen zum Aufzeichnen von Feldern
 
