@@ -25,6 +25,6 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2026 ve
 
 Nachdem ein Attribut zu einer Rate in Workfront hinzugefügt wurde, können Sie dieses Attribut und seine Filter im Bereich „Setup“ nicht mehr bearbeiten. Dadurch wird die Datenintegrität gewahrt und verhindert, dass Raten versehentlich geändert werden, wenn Attribute aktualisiert werden.
 
-Weitere Informationen finden Sie unter [Definieren von ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+Weitere Informationen finden Sie unter [Definieren von &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
 
 
