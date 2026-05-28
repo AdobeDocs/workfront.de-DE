@@ -56,7 +56,7 @@ unless otherwise specifiedthe week of May 10, 2021.
 </MadCap:conditionalText>
 
 
-For specific release dates and times for each cluster, see the [Adobe Workfront status page](https://status.adobe.com/de-de/products/5943) on [status.adobe.com](http://status.adobe.com/de-de/). You must log in to see specific release times.
+For specific release dates and times for each cluster, see the [Adobe Workfront status page](https://status.adobe.com/en/products/5943) on [status.adobe.com](http://status.adobe.com/). You must log in to see specific release times.
 
 -->
 
@@ -449,7 +449,7 @@ Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Z
 
 ## Webinar zur Version 21.4
 
-Das Webinar zur Version Workfront 21.4 wurde am 23. September 2021 vorgestellt. Sie können die Webinar-Aufzeichnung über die Seite [Ereignisse auf Workfront One“ &#x200B;](https://one.workfront.com/s/event).
+Das Webinar zur Version Workfront 21.4 wurde am 23. September 2021 vorgestellt. Sie können die Webinar-Aufzeichnung über die Seite [Ereignisse auf Workfront One“ ](https://one.workfront.com/s/event).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

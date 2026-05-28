@@ -308,7 +308,7 @@ Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte au
 >
 >Ab Version 24.7 haben Mitwirkende standardmäßig das Zugriffsrecht „Anzeigen“ für Programme und Portfolios.
 >
-> &#x200B;>Mitwirkende, die vor Version 24.7 eingebunden wurden, haben standardmäßig weiterhin keinen Zugriff auf Programme und Portfolios. Sie können die Zugriffsrechte dieser Personen manuell auf „Anzeigen“ aktualisieren.
+> >Mitwirkende, die vor Version 24.7 eingebunden wurden, haben standardmäßig weiterhin keinen Zugriff auf Programme und Portfolios. Sie können die Zugriffsrechte dieser Personen manuell auf „Anzeigen“ aktualisieren.
 
 ### Zugriffsebene „Externe Benutzende“
 

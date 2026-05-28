@@ -48,8 +48,8 @@ These enhancements are currently available in the Preview environment and will b
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 For specific release dates and times for each cluster, see the
-<a href="https://status.adobe.com/de-de/products/5943" target="_blank">Adobe Workfront status page</a> on
-<a href="http://status.adobe.com/de-de/" target="_blank">status.adobe.com</a>. You must log in to see specific release times
+<a href="https://status.adobe.com/en/products/5943" target="_blank">Adobe Workfront status page</a> on
+<a href="http://status.adobe.com/" target="_blank">status.adobe.com</a>. You must log in to see specific release times
 </MadCap:conditionalText>
 -->
 
@@ -401,7 +401,7 @@ Informationen zu den Wartungs-Updates, die während der Version 22.1 vorgenommen
 
 ## Webinar zur Version 22.1
 
-Das Webinar zur Version Workfront 22.1 wurde am 12. Januar 2022 vorgestellt. Sie können die Webinar-Aufzeichnung auf der Seite &quot;[&quot; in Workfront One &#x200B;](https://one.workfront.com/s/event).
+Das Webinar zur Version Workfront 22.1 wurde am 12. Januar 2022 vorgestellt. Sie können die Webinar-Aufzeichnung auf der Seite &quot;[&quot; in Workfront One ](https://one.workfront.com/s/event).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
