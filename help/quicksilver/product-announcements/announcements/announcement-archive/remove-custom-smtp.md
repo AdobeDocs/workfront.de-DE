@@ -29,4 +29,4 @@ Die in diesem Screenshot hervorgehobene Einstellung wird automatisch auf die Ver
 
 Wenn Sie einen benutzerdefinierten SMTP-Mail-Server konfiguriert haben, **wir empfehlen Ihnen dringend, sich an Ihr IT-Team zu wenden** um sicherzustellen, dass E-Mails von notifications@my.workfront.com nicht für eingehende E-Mails auf Ihrem System blockiert werden. Unter Konfigurieren Ihrer Firewall finden Sie auch Informationen darüber, von welchen IP-Adressen unser Traffic und unsere E-Mails stammen.
 
-Bei weiteren Fragen oder Anliegen wenden Sie sich bitte an das [Workfront-Supportteam](https://experienceleague.adobe.com/?support-tab=home&lang=de#support).
+Bei weiteren Fragen oder Anliegen wenden Sie sich bitte an das [Workfront-Supportteam](https://experienceleague.adobe.com/de?support-tab=home&lang=de#support).
