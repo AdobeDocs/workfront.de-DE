@@ -231,4 +231,4 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
    ![Korrekturabzug öffnen](assets/open-proof-350x132.png)
 
-   Benutzer, für die das Proofing nicht aktiviert ist, können weiterhin das Dokument anzeigen und Kommentare zum [ machen.](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
+   Benutzer, für die das Proofing nicht aktiviert ist, können weiterhin das Dokument anzeigen und Kommentare zum [&#x200B; machen.](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
