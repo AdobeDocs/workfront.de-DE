@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: ab1ac1363d6531352e905536218618196651c3b9
+source-git-commit: 4eeb229206421d737b9543613608935eacb058f9
 workflow-type: tm+mt
-source-wordcount: '1448'
-ht-degree: 1%
+source-wordcount: '1559'
+ht-degree: 0%
 
 ---
 
@@ -32,23 +32,6 @@ Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen find
 
 
 <!--
-
-## Planning Designer now available in Beta for all Workfront Planning customers
-
->[!NOTE]
->
->Preview: May 28, 2026 
->Production fast release: June 11, 2026 
->Production for everyone: July 16, 2026 
->[!BADGE In Beta]{type=Neutral}
-
-You can now use the Adobe Planning Designer powered by AI to configure your workspaces and data structures with ease. The Planning Designer supports everything from creating and configuring workspaces to defining fields and formulas, managing records, reviewing change history and building custom views.  
-
-Whether used directly or through the AI Assistant, the Planning Designer provides a flexible, powerful environment for building and maintaining structured, connected information. 
-
-A Workfront administrator can manage the availability of the Planning Designer from the System Preferences area in Setup.   
-
-For information, see [Get started with the Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
 
 ## New Sample workspaces tab added to the Planning landing page
 
@@ -93,7 +76,7 @@ Version 1 bleibt verfügbar, obwohl wir empfehlen, zur Verwendung von Version 2 
 
 Weitere Informationen finden Sie unter [Grundlagen zur Adobe Workfront Planning-API](/help/quicksilver/planning/general/planning-api-basics.md).
 
-Informationen zu den Spezifikationen der Workfront Planning-API finden Sie in der Entwicklerdokumentation zur [Workfront &#x200B;](https://developer.adobe.com/wf-planning/)-API.
+Informationen zu den Spezifikationen der Workfront Planning-API finden Sie in der Entwicklerdokumentation zur [Workfront ](https://developer.adobe.com/wf-planning/)-API.
 
 ## Berechtigungen für Datensätze erteilen
 
@@ -130,6 +113,20 @@ Wenn Sie einen Datensatz aus vorhandenen Datensatztypen hinzufügen, wird sofort
 Direkt auf diesem Bildschirm können Sie einen oder mehrere globale Datensatztypen auswählen und gleichzeitig hinzufügen.
 
 Weitere Informationen finden Sie unter [Hinzufügen vorhandener Datensatztypen aus einem anderen Arbeitsbereich](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
+
+## Planning Designer ist jetzt in Beta für alle Workfront Planning-Kunden verfügbar
+
+>[!NOTE]
+>
+>Vorschau: 28. Mai 2026>Produktions-Schnellversion: 11. Juni 2026>Produktion für alle: 16. Juli 2026>[!BADGE In Beta]{type=Neutral}
+
+Sie können jetzt die Adobe Planning Designer powered by AI verwenden, um Ihre Arbeitsbereiche und Datenstrukturen einfach zu konfigurieren. Die Planning Designer unterstützt alle Funktionen, von der Erstellung und Konfiguration von Arbeitsbereichen über die Definition von Feldern und Formeln bis hin zur Verwaltung von Datensätzen, der Überprüfung des Änderungsverlaufs und der Erstellung benutzerdefinierter Ansichten.
+
+Unabhängig davon, ob es direkt oder über den KI-Assistenten verwendet wird, bietet Planning Designer eine flexible, leistungsstarke Umgebung für das Erstellen und Verwalten strukturierter, vernetzter Informationen.
+
+Ein Workfront-Administrator kann die Verfügbarkeit der Planning-Designer im Bereich „Systemeinstellungen“ im Setup verwalten.
+
+Weitere Informationen finden Sie [Erste Schritte mit der Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
 
 
 ## Synchronisieren von Metadaten von Planning mit AEM Assets
