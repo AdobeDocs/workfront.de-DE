@@ -1,19 +1,19 @@
 ---
 content-type: reference
 navigation-topic: announcements
-title: Kunden mit den Clustern 1, 2 und 3 müssen alle Zulassungsliste-IP-Blöcke aktualisieren, um die Blockierung von Adobe Workfront-Services zu verhindern
+title: Kundinnen und Kunden mit den Clustern 1, 2 und 3 müssen alle IP-Blöcke der Zulassungsliste aktualisieren, um die Blockierung von Adobe Workfront-Services zu verhindern
 description: Zur Verbesserung unserer Kerninfrastruktur werden wir in Kürze Adobe Workfront-Kunden der Cluster 01, 02 und 03 in die öffentliche Cloud von AWS migrieren.
 author: Luke
 feature: Product Announcements
 exl-id: 77d43206-1db7-4075-a063-043f8c9f75ed
 source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 0%
+source-wordcount: '303'
+ht-degree: 14%
 
 ---
 
-# Kunden mit den Clustern 1, 2 und 3 müssen alle Zulassungsliste-IP-Blöcke aktualisieren, um die Blockierung von Adobe Workfront-Services zu verhindern
+# Kundinnen und Kunden mit den Clustern 1, 2 und 3 müssen alle IP-Blöcke der Zulassungsliste aktualisieren, um die Blockierung von Adobe Workfront-Services zu verhindern
 
 Zur Verbesserung unserer Kerninfrastruktur werden wir in Kürze Adobe Workfront-Kunden der Cluster 01, 02 und 03 in die öffentliche Cloud von AWS migrieren.
 
@@ -39,13 +39,13 @@ Für E-Mail:
 * 54.240.60.174
 * 54.240.60.175
 
-Auf die Zulassungsliste setzen Stellen Sie sicher, dass Ihre IP-Blöcke bis zum 13. Mai 2019 aktualisiert werden. Weitere Informationen finden Sie [Zulassungsliste zum Konfigurieren der Firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Stellen Sie sicher, dass Ihre IP-Blöcke bis zum 13. Mai 2019 aktualisiert werden. Weitere Informationen finden Sie [Zulassungsliste zum Konfigurieren der Firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 Vielen Dank für Ihre kontinuierliche Unterstützung von Workfront, da wir daran arbeiten, unseren Kunden ein zuverlässigeres und stabileres Erlebnis zu bieten.
 
 Wenn Sie weitere Fragen haben, wenden Sie sich bitte an unser Support-Team unter experience.workfront.com oder telefonisch unter 844.306.4357 (USA) oder +44.1256.274200 (EMEA).
 
-## FAQs
+## Häufig gestellte Fragen
 
 ### Warum nimmt Workfront diese Änderung vor?
 
@@ -53,7 +53,7 @@ In dem Bestreben, unseren Kunden den bestmöglichen Service zu bieten, sucht Wor
 
 ### Welche Maßnahmen sind für mich als Workfront-Administrator erforderlich?
 
-Auf die Zulassungsliste setzen Wenden Sie sich an Ihre IT- oder Sicherheitsabteilung, um Unterstützung bei der Überprüfung Ihrer IP-Blöcke und beim Hinzufügen der oben aufgeführten IPs zu erhalten.
+Wenden Sie sich an Ihre IT- oder Sicherheitsabteilung, um Unterstützung bei der Überprüfung Ihrer IP-Blöcke und beim Hinzufügen der oben aufgeführten IPs zu erhalten.
 
 ### Was kann mein Unternehmen erwarten, wenn wir diese Änderung nicht vornehmen?
 

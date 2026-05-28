@@ -9,12 +9,12 @@ feature: Work Management
 exl-id: acf55004-9424-4e24-9ff5-90f6fd7f72a6
 source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 0%
+source-wordcount: '352'
+ht-degree: 1%
 
 ---
 
-# Übersicht über die Aufgabenbeschränkung: Letzte verfügbare Zeit
+# Überblick über Aufgabenbeschränkungen: Spätestmögliche Zeit
 
 Latest Available Time (LAT) ist eine Art von Aufgabenbeschränkung in Adobe Workfront.
 

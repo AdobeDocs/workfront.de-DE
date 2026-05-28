@@ -1,19 +1,19 @@
 ---
 content-type: reference
 navigation-topic: announcements
-title: Neue IP-Adressen für Adobe Workfront E-Mail mit Version 21.1
-description: Um den erfolgreichen E-Mail-Versand zu steigern, fügen wir mit der Produktionsversion 21.1 für die unten aufgeführten Cluster neue IP-Adressen hinzu. Um herauszufinden, auf welchem Cluster sich Ihre Instanz befindet, navigieren Sie zu Einrichten &gt; System &gt; Kundeninformationen.
+title: Neue IP-Adressen für Adobe Workfront-E-Mail mit Version 21.1
+description: Um den erfolgreichen E-Mail-Versand zu steigern, fügen wir mit der Produktionsversion 21.1 für die unten aufgeführten Cluster neue IP-Adressen hinzu. Um herauszufinden, auf welchem Cluster sich Ihre Instanz befindet, gehen Sie zu Setup > System > Kundeninformationen.
 author: Luke
 feature: Product Announcements
 exl-id: b29c8de0-b405-4419-b52e-2d5536bc7f63
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 0%
+source-wordcount: '231'
+ht-degree: 9%
 
 ---
 
-# Neue IP-Adressen für Adobe Workfront E-Mail mit Version 21.1
+# Neue IP-Adressen für Adobe Workfront-E-Mail mit Version 21.1
 
 Um den erfolgreichen E-Mail-Versand zu steigern, fügen wir mit der Produktionsversion 21.1 für die unten aufgeführten Cluster neue IP-Adressen hinzu. Um herauszufinden, auf welchem Cluster sich Ihre Instanz befindet, navigieren Sie zu Einrichtung > System > Kundeninformationen.
 
@@ -33,7 +33,7 @@ Fügen Sie die folgenden IP-Adressen zu Ihrer Zulassungsliste hinzu, um sicherzu
 * 23.251.239.98
 * 23.251.239.99
 
-(Weitere Informationen zu der Zulassungsliste und anderen IP-Adressen, die möglicherweise bereits zu Ihrer hinzugefügt werden, finden Sie unter [Konfigurieren der Firewall-Zulassungsliste auf die Zulassungsliste setzte &#x200B;](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).)
+(Weitere Informationen zu der Zulassungsliste und anderen IP-Adressen, die möglicherweise bereits zu Ihrer hinzugefügt werden, finden Sie unter [Konfigurieren der Firewall-Zulassungsliste ](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).)
 
 Wann muss dies geschehen?
 

@@ -11,7 +11,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '763'
 ht-degree: 7%
 
 ---
@@ -73,7 +73,7 @@ Informationen zum Zuweisen einer Aufgabe zu einer Ressource in einer Liste finde
  </tbody>
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -138,7 +138,7 @@ When assigning users to work, their availability according to their schedules af
         Der neue Verantwortliche wird den vorhandenen Aufgaben in den ausgewählten Aufgaben hinzugefügt.
       * Um Verantwortliche zu entfernen, klicken Sie im Feld **Verantwortlichen entfernen** auf den Namen eines Verantwortlichen
 
-        Oder
+        ODER
 
         Klicken Sie **Alle vorhandenen Zugewiesenen entfernen**.
 
@@ -146,7 +146,7 @@ When assigning users to work, their availability according to their schedules af
 
         Das Entfernen von Benutzern aus Aufgaben kann sich auf die Aufgabenstunden und Zuordnungsprozentsätze auswirken.
 
-        Weitere Informationen finden Sie unter [Übersicht über das Ändern von &#x200B;](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)).
+        Weitere Informationen finden Sie unter [Übersicht über das Ändern von ](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)).
 
 
         >[!TIP]

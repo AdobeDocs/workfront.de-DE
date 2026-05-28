@@ -9,12 +9,12 @@ feature: Work Management
 exl-id: 475427d0-020b-4851-a614-c9931659e07d
 source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 0%
+source-wordcount: '386'
+ht-degree: 1%
 
 ---
 
-# Aufgabenbeschränkung - Übersicht: So spät wie möglich
+# Überblick über Aufgabenbeschränkungen: So spät wie möglich (SSWM)
 
 So spät wie möglich (ALAP) ist eine Adobe Workfront-Aufgabenbeschränkung, die die Abschlusszeit der Aufgabe so nah wie möglich am Ende des Projekts platziert.
 

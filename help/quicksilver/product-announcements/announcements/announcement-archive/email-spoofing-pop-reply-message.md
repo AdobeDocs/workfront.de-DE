@@ -8,8 +8,8 @@ feature: Product Announcements
 exl-id: 9110f04d-b7a9-428b-928c-c4eb746fec3f
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 0%
+source-wordcount: '319'
+ht-degree: 3%
 
 ---
 
@@ -31,4 +31,4 @@ Bestimmte E-Mail-Benachrichtigungen ermöglichen es Benutzenden, per E-Mail zu a
 
 E-Mails, die direkt aus dem Workfront Proof-System stammen, werden nicht geändert. Sie werden weiterhin diese E-Mails erhalten, wie Sie es bereits getan haben.
 
-Bei weiteren Fragen oder Anliegen wenden Sie sich bitte an das [Workfront-Supportteam](https://experienceleague.adobe.com/de?support-tab=home#support).
+Bei weiteren Fragen oder Anliegen wenden Sie sich bitte an das [Workfront-Supportteam](https://experienceleague.adobe.com/?support-tab=home&lang=de#support).

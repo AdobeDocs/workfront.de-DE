@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1016'
 ht-degree: 3%
 
 ---
@@ -209,7 +209,7 @@ Benutzende, die auf einen Link zu einem Arbeitsbereich zugreifen, für den sie k
    * Eine E-Mail-Benachrichtigung
      ![E-Mail-Benachrichtigung für Zugriffsanfrage](assets/email-notification-for-access-request.png)
 1. (Bedingt) Klicken Sie im Benachrichtigungsbereich in Workfront auf die In-App-Benachrichtigung
-oder
+ODER
 Klicken Sie in der E-Mail-Benachrichtigung **Alle Benachrichtigungen anzeigen** und klicken Sie dann auf die Benachrichtigung in der Liste.
 
    Das **Ausstehende**&quot; wird angezeigt.
