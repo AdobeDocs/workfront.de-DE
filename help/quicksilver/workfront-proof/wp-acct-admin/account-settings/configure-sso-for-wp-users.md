@@ -94,7 +94,7 @@ Single Sign-On ist eine Select- und Premium-Funktion, sodass Single Sign-On nur 
 Hier gibt es zwei Konfigurationsmethoden (5):
 
 1. **Vererbt:** SSO mit der Konfiguration, die von Ihrem Hub-Konto übernommen wird.
-Wenn ein Benutzer über die **Standard-Anmeldeseite** ([https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html)) auf [!DNL Workfront Proof] zugreift, **zwei Berechtigungsebenen**: Zunächst wird ein Benutzer aufgefordert, sich mit [!DNL Workfront Proof] Zugriffsdaten (E-Mail und Passwort) anzumelden, dann wird der Benutzer über ein SSO-Fenster zur SSO-Anmeldeseite weitergeleitet.
+Wenn ein Benutzer über die **Standard-Anmeldeseite** ([https://business.adobe.com/de/products/workfront/proofing-approvals.html](https://business.adobe.com/de/products/workfront/proofing-approvals.html)) auf [!DNL Workfront Proof] zugreift, **zwei Berechtigungsebenen**: Zunächst wird ein Benutzer aufgefordert, sich mit [!DNL Workfront Proof] Zugriffsdaten (E-Mail und Passwort) anzumelden, dann wird der Benutzer über ein SSO-Fenster zur SSO-Anmeldeseite weitergeleitet.
 Bei aktiviertem SSO-Service empfehlen wir daher, sich über Ihre eigene [!DNL Workfront Proof] Subdomain/Domain anzumelden.
 
    >[!NOTE]
@@ -143,7 +143,7 @@ Wenn die manuelle SSO-Konfiguration für ein Satellitenkonto ausgewählt wurde (
 Bei aktiviertem Single Sign-On zeigt Ihre Subdomain-Anmelde-URL (z. B. yourcompany.proofhq.com/login) einen Übertragungsbildschirm (2) an, über den Sie direkt zu Ihrer SSO-Anmeldeseite gelangen.
    ![SSO_login_page.png](assets/sso-login-page-350x164.png)
 
-1. Wenn eine Benutzerin oder ein Benutzer über die **Standardanmeldeseite** ([https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html)) auf [!DNL Workfront Proof] zugreift, gibt es **zwei Autorisierungsebenen**. Zunächst wird ein Benutzer aufgefordert, sich mit [!DNL Workfront Proof] Zugangsdaten (E-Mail und Passwort) anzumelden. Anschließend wird der Benutzer über ein SSO-Fenster (2) auf die SSO-Anmeldeseite übertragen.\
+1. Wenn eine Benutzerin oder ein Benutzer über die **Standardanmeldeseite** ([https://business.adobe.com/de/products/workfront/proofing-approvals.html](https://business.adobe.com/de/products/workfront/proofing-approvals.html)) auf [!DNL Workfront Proof] zugreift, gibt es **zwei Autorisierungsebenen**. Zunächst wird ein Benutzer aufgefordert, sich mit [!DNL Workfront Proof] Zugangsdaten (E-Mail und Passwort) anzumelden. Anschließend wird der Benutzer über ein SSO-Fenster (2) auf die SSO-Anmeldeseite übertragen.\
    Bei aktiviertem SSO-Service empfehlen wir daher, sich über Ihre eigene [!DNL Workfront Proof] Subdomain/Domain anzumelden.
 
 1. Wenn Single Sign-On in Ihrem Workfront Proof-Konto aktiviert ist, können Sie sich derzeit nicht mit diesen Anmeldeinformationen bei der iPhone-App anmelden.
