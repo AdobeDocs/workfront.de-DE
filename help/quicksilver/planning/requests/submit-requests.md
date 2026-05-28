@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 4760a0daf0abd8afe90c7447a2075f8fb3f2f191
+source-git-commit: fdbe3945f59306fc26424d7e88b799d9dcaea4da
 workflow-type: tm+mt
 source-wordcount: '2582'
 ht-degree: 1%
@@ -133,7 +133,7 @@ Not sure how to change the request status, but dev also said: Changing the names
 
 {{step1-to-requests}}
 
-1. Aktivieren Sie **Einstellung**&#x200B;Neues Erlebnis verwenden“ in der rechten oberen Ecke des Bildschirms.
+1. Aktivieren Sie **Einstellung**Neues Erlebnis verwenden“ in der rechten oberen Ecke des Bildschirms.
 Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformulare im Bereich **Anfragen** von Workfront verfügbar.
 
    >[!TIP]
@@ -219,7 +219,7 @@ Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformula
          * **Status**: The status of the request.
          * **Entered by**: The name of the user who added the request. If the request was added by someone outside of Workfront, the **Entered by** field shows `N/A`.
         You can have multiple filters joined by either **And** or **Or**.
-         The request list is filtered automatically, as you add the filter conditions. 
+         The request list is filtered automatically, as you add the filter conditions.  
       * Click **Columns** to open the **Fields visibility and order** box, then hide, show, or rearrange the columns in the request list. 
          >[!TIP]
          >
@@ -235,7 +235,7 @@ Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformula
    ![Seite mit Kommentar anfordern](assets/new-request-page-with-comment.png)
 
 1. (Optional) Geben Sie einen Kommentar im Bereich **Kommentare** ein.
-1. <span class="preview">(Optional und bedingt) Wenn die Anfrage darauf wartet, genehmigt zu werden, und Sie die Anfrage geöffnet haben, klicken Sie entweder auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/more-menu.png) rechts neben dem Anfragenamen und klicken Sie dann auf **Bearbeiten** oder doppelklicken Sie auf die Felder in der Anfrage, um sie zu bearbeiten. </span>
+1. <span class="preview">(Optional und bedingt) Wenn die Anfrage darauf wartet, genehmigt zu werden, und Sie die Anfrage geöffnet haben, klicken Sie entweder auf das **Mehr**-Symbol ![Mehr ](assets/more-menu.png) rechts neben dem Anfragenamen und klicken Sie dann auf **Bearbeiten** oder doppelklicken Sie auf die Felder in der Anfrage, um sie zu bearbeiten. </span>
 
    >[!NOTE]
    >
@@ -359,7 +359,7 @@ Weitere Informationen finden Sie [Löschen einer gesendeten Anfrage oder eines A
 So löschen Sie eine Planungsanfrage nach dem Öffnen der Anfrage:
 
 1. Öffnen Sie eine Planungsanfrage, indem Sie in der Anfragenliste auf den entsprechenden Namen klicken.
-1. Klicken Sie auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/more-menu.png) rechts neben dem Anfragenamen und klicken Sie dann auf **Löschen**.
+1. Klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/more-menu.png) rechts neben dem Anfragenamen und klicken Sie dann auf **Löschen**.
 1. Klicken Sie zur Bestätigung **D** e **delete** das Feld „Dauerhaft löschen“.
 
    Die Anfrage wurde gelöscht und kann nicht wiederhergestellt werden.

@@ -8,7 +8,7 @@ recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
+source-git-commit: fdbe3945f59306fc26424d7e88b799d9dcaea4da
 workflow-type: tm+mt
 source-wordcount: '793'
 ht-degree: 2%
@@ -76,6 +76,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 +++   
 
 <!--
+
 Old:
 <table style="table-layout:auto"> 
 <col> 
@@ -114,6 +115,7 @@ And
   </tr>  
 </tbody> 
 </table>
+
 -->
 
 ## Erstellen eines Datensatztyps durch Hinzufügen eines vorhandenen Datensatztyps aus einem anderen Arbeitsbereich
@@ -156,7 +158,7 @@ Das Symbol für den globalen Datensatztyp enthält einen Pfeil, wenn er auf eine
      >Das Erscheinungsbild, zusätzliche Einstellungen oder ursprüngliche Felder des neuen Datensatztyps können nicht bearbeitet werden. Sie können den Datensatztyp und alle zugehörigen Originalfelder und -einstellungen nur über den ursprünglichen Arbeitsbereich bearbeiten.
      >
 
-1. (Optional) Bewegen Sie den Mauszeiger über das Symbol für den globalen ![&#x200B; (Symbol für den globalen Datensatz im sekundären &#x200B;](assets/global-icon-secondary-workspace.png)), um den Namen des ursprünglichen Arbeitsbereichs anzuzeigen, aus dem der Datensatztyp hinzugefügt wurde.
+1. (Optional) Bewegen Sie den Mauszeiger über das Symbol für den globalen ![ (Symbol für den globalen Datensatz im sekundären ](assets/global-icon-secondary-workspace.png)), um den Namen des ursprünglichen Arbeitsbereichs anzuzeigen, aus dem der Datensatztyp hinzugefügt wurde.
 1. (Optional) Klicken Sie auf und ziehen Sie den neu hinzugefügten Datensatztyp dann per Drag-and-Drop in einen beliebigen Abschnitt im Arbeitsbereich.
 1. (Optional) Klicken Sie auf **Karte des neuen Datensatztyps oder** rechts neben dem Namen des Datensatztyps auf der Seite auf das Menü „Mehr“ und dann auf eine der folgenden Aktionen:
 
