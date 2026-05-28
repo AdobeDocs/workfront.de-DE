@@ -2,19 +2,19 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: Budgetierte Kosten für geplante Arbeiten berechnen (BCWS)
+title: Berechnen der budgetierten Kosten für geplante Arbeit (Budgeted Cost of Work Scheduled, BCWS)
 description: Die budgetierten Kosten der geplanten Arbeit (BCWS), auch als Geplanter Wert bezeichnet, sind eine Projektleistungskennzahl, die den Betrag der Aufgabe darstellt, der zum Zeitpunkt der Berechnung dieser Kennzahl hätte abgeschlossen sein sollen.
 author: Lisa
 feature: Work Management
 exl-id: b9a36333-9430-42bd-99dd-3ad82803b633
 source-git-commit: 23a4d055871c9138818e70fa1cd936581dbd7552
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 2%
+source-wordcount: '600'
+ht-degree: 10%
 
 ---
 
-# Budgetierte Kosten für geplante Arbeiten berechnen (BCWS)
+# Berechnen der budgetierten Kosten für geplante Arbeit (Budgeted Cost of Work Scheduled, BCWS)
 
 ## Übersicht über die budgetierten Kosten der geplanten Arbeit (BCWS)
 
@@ -36,7 +36,7 @@ Beachten Sie bei der Überprüfung der Werte für den SKBA für eine Aufgabe ode
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -50,7 +50,7 @@ Beachten Sie bei der Überprüfung der Werte für den SKBA für eine Aufgabe ode
    <td>Adobe Workfront-Lizenz</td> 
    <td>
    <p>Standard</p>
-   <p>Plan</p></td> 
+   <p>Abo</p></td> 
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 

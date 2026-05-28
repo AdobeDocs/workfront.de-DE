@@ -1,6 +1,6 @@
 ---
-title: 20.4 Verbesserungen beim Projektmanagement
-description: 20.4 Verbesserungen beim Projektmanagement
+title: Verbesserungen beim Projekt-Management in Version 20.4
+description: Verbesserungen beim Projekt-Management in Version 20.4
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -8,12 +8,12 @@ recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '1365'
-ht-degree: 0%
+source-wordcount: '1376'
+ht-degree: 2%
 
 ---
 
-# 20.4 Verbesserungen beim Projektmanagement
+# Verbesserungen beim Projekt-Management in Version 20.4
 
 Auf dieser Seite werden alle mit Version 20.4 vorgenommenen Verbesserungen des Projektmanagements für die Vorschau -Umgebung beschrieben. Diese Verbesserungen werden in der Woche vom 9. November 2020 in der Produktionsumgebung verfügbar gemacht.
 
@@ -89,13 +89,13 @@ Weitere Informationen finden Sie im Abschnitt „Verknüpfen einer Gruppe mit ei
 
 Wir haben es einem Gruppenadministrator erleichtert, ein Unternehmen zu verwalten, das mit seiner Gruppe in Workfront verknüpft ist. Der Zugriff zur Verwaltung des Unternehmens ist automatisch verfügbar, wenn die Verknüpfung hergestellt wird. Dies ist besonders wichtig, wenn der Gruppenadministrator keinen administrativen Zugriff auf Unternehmen hat.
 
-Weitere Informationen finden Sie unter [Firmen erstellen und bearbeiten](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+Weitere Informationen finden Sie unter [Erstellen und Bearbeiten von Unternehmen](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
 Informationen zum administrativen Zugriff für Unternehmen finden Sie unter [Gewähren von administrativem Zugriff für Benutzer auf bestimmte Bereiche](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 <!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
-## Ersetzen Sie die Schaltfläche Bearbeiten durch eine Schaltfläche Starten .
+## Ersetzen der Schaltfläche „Bearbeiten“ durch die Schaltfläche „Starten“
 
 Um das Datum und die Uhrzeit zu erfassen, zu der die Arbeit an einem Arbeitselement tatsächlich beginnt, können Benutzer die Schaltfläche „Bearbeiten“ durch eine Schaltfläche „Starten“ ersetzen, die den Status und das tatsächliche Startdatum des Arbeitselements automatisch aktualisiert.
 

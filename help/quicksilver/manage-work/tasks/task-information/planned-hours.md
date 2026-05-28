@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Übersicht über geplante Stunden
+# Überblick über geplante Stunden
 
 <!-- Audited: 01/2024 -->
 
@@ -28,7 +28,7 @@ Die mit einer Aufgabe, einem Problem oder einem Projekt verknüpften geplanten S
 * Wenn Sie die Ressourcenverwaltungstools in Workfront verwenden möchten, müssen Sie den Wert der geplanten Stunden für Aufgaben und Probleme definieren.
 * Sie können den Wert der geplanten Stunden für Aufgaben nur für einige Dauertypen ändern.
 
-  Weitere Informationen zur Änderung der geplanten Stunden für Aufgaben in Bezug auf den Dauertyp der Aufgaben finden Sie im Abschnitt [Aktualisieren der geplanten Stunden für Aufgaben basierend auf dem &#x200B;](#update-task-planned-hours-based-on-duration-type)) in diesem Artikel.
+  Weitere Informationen zur Änderung der geplanten Stunden für Aufgaben in Bezug auf den Dauertyp der Aufgaben finden Sie im Abschnitt [Aktualisieren der geplanten Stunden für Aufgaben basierend auf dem ](#update-task-planned-hours-based-on-duration-type)) in diesem Artikel.
 
 * Sie können den Wert der geplanten Stunden für Probleme jederzeit ändern.
 * Der Wert der geplanten Stunden von Projekten oder übergeordneten Aufgaben kann nicht geändert werden, da es sich um die berechnete Summe aller geplanten Stunden aller zugehörigen Aufgaben und Teilaufgaben handelt.
@@ -97,7 +97,7 @@ Geplante Stunden finden Sie in den folgenden Bereichen von Workfront:
 
 Die geplanten Stunden im Abschnitt „Details“ einer Aufgabe, eines Problems oder Projekts sind die geplanten Gesamtstunden, die mit dem Element verknüpft sind.
 
-Weitere Informationen zu den geplanten Stunden für das Projekt finden Sie [&#x200B; Abschnitt „Geplante Stunden für Aufgaben vs. Geplante Stunden für Projekte](#planned-hours-on-tasks-vs-planned-hours-on-projects) in diesem Artikel.
+Weitere Informationen zu den geplanten Stunden für das Projekt finden Sie [ Abschnitt „Geplante Stunden für Aufgaben vs. Geplante Stunden für Projekte](#planned-hours-on-tasks-vs-planned-hours-on-projects) in diesem Artikel.
 
 ### Das Feld „Aufgabe bearbeiten“ oder „Problem bearbeiten“ {#the-edit-task-or-edit-issue-box}
 
@@ -105,9 +105,9 @@ Weitere Informationen zu den geplanten Stunden für das Projekt finden Sie [&#x2
 
 Die geplanten Stunden im Feld „Bearbeiten“ einer Aufgabe oder eines Problems entsprechen den geplanten Gesamtstunden des jeweiligen Elements.
 
-Weitere Informationen zu den geplanten Stunden für das Projekt finden Sie [&#x200B; Abschnitt „Geplante Stunden für Aufgaben vs. Geplante Stunden für Projekte](#planned-hours-on-tasks-vs-planned-hours-on-projects) in diesem Artikel.
+Weitere Informationen zu den geplanten Stunden für das Projekt finden Sie [ Abschnitt „Geplante Stunden für Aufgaben vs. Geplante Stunden für Projekte](#planned-hours-on-tasks-vs-planned-hours-on-projects) in diesem Artikel.
 
-Bei Aufgaben können Sie die Anzahl der geplanten Stunden nur für bestimmte Dauertypen bearbeiten. Weitere Informationen finden Sie im Abschnitt [Aktualisieren der geplanten Stunden auf der Grundlage &#x200B;](#update-task-planned-hours-based-on-duration-type) Dauertyps“ in diesem Artikel.
+Bei Aufgaben können Sie die Anzahl der geplanten Stunden nur für bestimmte Dauertypen bearbeiten. Weitere Informationen finden Sie im Abschnitt [Aktualisieren der geplanten Stunden auf der Grundlage ](#update-task-planned-hours-based-on-duration-type) Dauertyps“ in diesem Artikel.
 
 Sie können die individuelle Zuordnung der geplanten Stunden für jeden Benutzer oder jedes Aufgabengebiet anzeigen, der bzw. das der Aufgabe oder dem Problem im Bereich „Zuweisungen“ zugewiesen wurde.
 
@@ -214,7 +214,7 @@ Die „Geplante Stunden“ im Bedienfeld „Rollenzuweisung“ stellen die Anzah
 >
 >Beachten Sie, dass die mit Benutzenden verknüpften geplanten Stunden nicht im Bedienfeld „Rollenzuweisung“ angezeigt werden.
 
-Weitere Informationen finden Sie unter &quot;[&#x200B; für Projekte und Initiativen anzeigen“ im Workload-Balancer](../../../scenario-planner/show-role-allocation-workload-balancer.md).
+Weitere Informationen finden Sie unter &quot;[ für Projekte und Initiativen anzeigen“ im Workload-Balancer](../../../scenario-planner/show-role-allocation-workload-balancer.md).
 
 ## Geplante Stunden für Aufgabe basierend auf Dauertyp aktualisieren {#update-task-planned-hours-based-on-duration-type}
 
@@ -250,7 +250,7 @@ Informationen zur Verwaltung der täglichen Zuweisungen für Aufgaben finden Sie
 Die folgenden Szenarien bestehen, wenn die Zuordnung von Benutzenden oder Aufgabengebieten für Aufgaben manuell aktualisiert wird:
 
 * Wenn Sie die Trigger- oder Rollenzuweisungen für eine Aufgabenänderung nicht manuell aktualisiert haben, bleiben die geplanten Stunden unverändert, wenn Sie Zuweisungen zu der Aufgabe hinzufügen, entfernen oder ersetzen. Beim Hinzufügen einer neuen Zuweisung zur Aufgabe werden die individuellen Zuweisungen zwischen allen Bevollmächtigten neu verteilt.
-* Trigger Wenn Sie die Zuordnungen manuell aktualisiert haben, um eine Änderung an den Vorgangsplanstunden vorzunehmen, verringern sich die Planstunden, wenn Sie Zuweisungen aus der Aufgabe entfernen. Sie bleiben unverändert, wenn Sie eine Zuweisung ersetzen.
+* Wenn Sie die Zuordnungen manuell aktualisiert haben, um eine Änderung an den Vorgangsplanstunden vorzunehmen, verringern sich die Planstunden, wenn Sie Zuweisungen aus der Aufgabe entfernen. Sie bleiben unverändert, wenn Sie eine Zuweisung ersetzen.
 * Wenn Sie die Zuordnungen manuell in den Trigger „Geplante Stunden für die Aufgabe“ aktualisiert haben und der Aufgabe eine Zuweisung hinzufügen, wird die neue Zuweisung standardmäßig mit 0 Stunden zugeordnet. Sie müssen die Zuordnung der Aufgaben manuell aktualisieren, was sich auf die geplanten Stunden auswirken kann.
 * Wenn Sie die Zuordnungen nicht manuell aktualisiert haben, um eine Änderung an den Vorgangsplanstunden in den Trigger zu übernehmen, und Sie alle Zuweisungen zu der Aufgabe entfernen, bleiben die Planstunden unverändert.
 * Wenn Sie die Zuordnungen manuell in Trigger A geändert haben und alle Zuweisungen zu der Aufgabe entfernen, werden auch die geplanten Stunden entfernt und die geplanten Stunden der Aufgabe werden zu 0.

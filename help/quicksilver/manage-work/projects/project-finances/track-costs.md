@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
 source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2756'
 ht-degree: 1%
 
 ---
@@ -110,7 +110,7 @@ Sie können verschiedene Arten von Kosten für Aufgaben und Projekte in Workfron
    </tbody> 
   </table>
 
-  Weitere Informationen finden Sie [&#x200B; Abschnitt „Wie Workfront geplante, budgetierte und Istkosten berechnet](#how-workfront-calculates-planned-budgeted-and-actual-costs) in diesem Artikel.
+  Weitere Informationen finden Sie [ Abschnitt „Wie Workfront geplante, budgetierte und Istkosten berechnet](#how-workfront-calculates-planned-budgeted-and-actual-costs) in diesem Artikel.
 
 * **Ausgabenkosten** sind mit Ausgaben für Projekte und Aufgaben verknüpft.\
   Wenn Sie ein Projekt erstellen, können Sie geplante Ausgaben für das gesamte Projekt festlegen. Darüber hinaus können Sie Ausgaben neuen oder vorhandenen Aufgaben zuordnen. Weitere Informationen finden Sie unter [Projektausgaben verwalten](../../../manage-work/projects/project-finances/manage-project-expenses.md).
@@ -214,7 +214,7 @@ In der folgenden Tabelle werden die in Workfront verfügbaren Aufgabenkostentype
      <ul> 
       <li>Wenn Sie einem Vorgang mehrere Ressourcen zuordnen, passt Workfront die Berechnungen für die geplanten Kosten auf der Grundlage des Prozentsatzes des Vorgangs an, der jeder Ressource zugewiesen wurde.</li>
       <li>Bei effektiven Datumskostensätzen sind die geplanten Lohnkosten die Summe der geplanten Kosten jedes Zeitraums, der von der Aufgabe abgedeckt wird.</li>
-      <li>Der Wert des Felds Geplante Kosten kann variieren, je nachdem, ob Sie die geplanten Kosten aus der Aufgabe selbst oder aus dem Auslastungsbericht anzeigen.<br><strong>Beim Anzeigen der geplanten Kosten aus der Aufgabe selbst:</strong> Das Feld „Geplante Kosten“ berücksichtigt das Feld „Kosten/Std.“, das auf der Ebene des Aufgabengebiets festgelegt wurde (wenn das Feld „Kosten/Std.“ nicht auf Benutzerebene festgelegt wurde).<br><strong>Beim Anzeigen der geplanten Kosten aus dem Auslastungsbericht für das Projekt: </strong> Feld „Geplante Kosten“ berücksichtigt nicht das Feld „Kosten/Std.“, das auf der Ebene des Aufgabengebiets festgelegt wurde. Wenn der Auslastungsbericht stattdessen das Feld „Kosten/Std.“ berücksichtigen soll, das auf Aufgabengebiet-Ebene festgelegt wurde, müssen Sie für den Kostentyp in der Aufgabe „Stundensatz“ festlegen. </li> 
+      <li>Der Wert des Felds Geplante Kosten kann variieren, je nachdem, ob Sie die geplanten Kosten aus der Aufgabe selbst oder aus dem Auslastungsbericht anzeigen.<br><strong>Beim Anzeigen der geplanten Kosten aus der Aufgabe selbst:</strong> Das Feld „Geplante Kosten“ berücksichtigt das Feld „Kosten/Std“, das auf der Ebene des Aufgabengebiets festgelegt wurde (wenn das Feld „Kosten/Std“ nicht auf Benutzerebene festgelegt wurde).<br><strong>Beim Anzeigen der geplanten Kosten aus dem Auslastungsbericht für das Projekt:</strong> Das Feld „Geplante Kosten“ berücksichtigt nicht das Feld „Kosten/Std“, das auf der Ebene des Aufgabengebiets festgelegt wurde. Wenn der Auslastungsbericht stattdessen das Feld „Kosten/Std.“ berücksichtigen soll, das auf Aufgabengebiet-Ebene festgelegt wurde, müssen Sie für den Kostentyp in der Aufgabe „Stundensatz“ festlegen. </li> 
      </ul> </p> <p><strong>Istkosten</strong> werden anhand der folgenden Formel berechnet: </p> <p><code style="font-style: normal;">Task Actual Cost = Actual Labor Cost + Task Actual Expense Cost</code> </p> <p>Wenn die tatsächlichen Lohnkosten wie folgt berechnet werden:</p> <p><code>Actual Labor Cost = Actual Hours * Cost per Hour Rate of the User logging the hours</code> </p> <p>Beispielsweise hat ein Benutzer in seinem Profil einen Stundensatz von 20 US-Dollar. Wenn 5 Stunden für eine Aufgabe protokolliert werden, betragen die tatsächlichen Lohnkosten für diese Aufgabe 100 USD. Wenn dem/der Benutzenden kein Stundensatz „Kosten pro Stunde“ zugeordnet ist, werden die Istkosten auf der Grundlage des Stundensatzes für das Primäre Aufgabengebiet berechnet. Wenn er kein Aufgabengebiet hat oder der Stundensatz des Aufgabengebiets nicht definiert ist, sind die Istkosten der Aufgabe gleich null. </p> <p>Hinweis: Die Istkosten werden auf der Grundlage des Stundensatzes des Benutzers berechnet, der die Zeit protokolliert, und zwar unabhängig davon, wer der Aufgabe zugewiesen ist. Außerdem berücksichtigt der Stundensatz Anschaffungs-/Herstellungskosten in der Formel alle Datumsänderungen, die zum Zeitpunkt des Inkrafttretens des Satzes wirksam sind.</p> </td> 
   </tr> 
   <tr> 

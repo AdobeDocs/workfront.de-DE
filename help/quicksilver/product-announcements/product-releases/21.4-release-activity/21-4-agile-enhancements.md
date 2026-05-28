@@ -1,18 +1,18 @@
 ---
-title: 21.4 Agile-Verbesserungen
-description: 21.4 Agile-Verbesserungen
+title: Verbesserungen bei Agile in Version 21.4
+description: Verbesserungen bei Agile in Version 21.4
 author: Luke
 draft: Probably
 feature: Product Announcements, Agile
 exl-id: 2c59b8b2-7239-4d20-a8c6-5938c2c4db93
 source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 0%
+source-wordcount: '412'
+ht-degree: 5%
 
 ---
 
-# 21.4 Agile-Verbesserungen
+# Verbesserungen bei Agile in Version 21.4
 
 Auf dieser Seite werden alle Agile-Verbesserungen beschrieben, die mit der Version 21.4 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 4. Oktober 2021 in der Produktionsumgebung verfügbar gemacht.
 
@@ -22,10 +22,10 @@ Eine Liste aller in Version 21.4 verfügbaren Änderungen finden Sie in der Übe
 
 Wir haben die Story-Karten auf Kanban- und Scrum-Boards aktualisiert, um die Zuweisung von Benutzenden zur Story zu vereinfachen. Jetzt können Sie auf einen Team- oder Benutzeravatar klicken, um eine Zuweisung hinzuzufügen, wenn die Story-Karte erweitert wird. Zuvor mussten Sie ein separates Pluszeichen suchen und darauf klicken.
 
-Weitere Informationen finden Sie unter 
+Weitere Informationen finden Sie unter
 
 * [Benutzer einer Story auf dem Kanban-Board zuweisen](../../../agile/use-kanban-in-an-agile-team/assign-users-to-a-story.md)
-* [Zuweisen von Benutzern zu einer Story auf dem Scrum-Board](../../../agile/use-scrum-in-an-agile-team/scrum-board/assign-users-to-a-story-scrum.md)
+* [Zuweisen von Benutzenden zu einer Story auf dem Scrum-Board](../../../agile/use-scrum-in-an-agile-team/scrum-board/assign-users-to-a-story-scrum.md)
 
 ## Konfigurieren, wie Datumsangaben beim Hinzufügen von Arbeitselementen zu einer Scrum-Iteration angewendet werden
 

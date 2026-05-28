@@ -43,7 +43,7 @@ Als Projekt-Manager können Sie entscheiden, wie Sie den Arbeitsaufwand schätze
    <td> <p>Eine manuelle Beschriftung, die definiert, ob ein Benutzer einen kleinen, mittleren oder großen täglichen Aufwand benötigt, um eine Aufgabe abzuschließen.
    &lt;!--
 
-    Der Aufwand wird auf einen Prozentsatz der täglichen Arbeitszeit geschätzt. (HINWEIS: Halten Sie diesen Entwurf bereit. Vazgen meinte, dass es nicht benötigt wird, aber wartete auf Feedback von Benutzern)
+    Der Aufwand wird auf einen Prozentsatz der täglichen Arbeitszeit geschätzt. (HINWEIS: Halten Sie diesen Entwurf bereit. Vazgen meinte, dass es nicht benötigt wird, aber er wartete auf das Feedback der Benutzer)
     
     —>
     &lt;/p> &lt;p>Beachten Sie Folgendes zum Arbeitsaufwand:&lt;/p>
@@ -76,7 +76,7 @@ In diesem Artikel wird beschrieben, was Work Effort ist und wie Sie ihn zur Sch�
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p>
-   <p>Plan</p>
+   <p>Abo</p>
    </td> 
   </tr> 
   <tr> 

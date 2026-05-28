@@ -4,19 +4,19 @@ product-area: projects
 keywords: wiederkehrend,wiederkehrend,wiederkehrend
 navigation-topic: manage-tasks
 title: Übersicht über wiederkehrende Aufgaben
-description: Übersicht über wiederkehrende Aufgaben
+description: Überblick über wiederkehrende Aufgaben
 author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 9ddb75bf-1c7b-4f4b-b80b-a9512192920d
 source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 3%
+source-wordcount: '679'
+ht-degree: 4%
 
 ---
 
-# Übersicht über wiederkehrende Aufgaben
+# Überblick über wiederkehrende Aufgaben
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

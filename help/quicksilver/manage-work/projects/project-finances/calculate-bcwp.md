@@ -2,19 +2,19 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: Budgetierte Kosten der geleisteten Arbeit berechnen (SKAA)
+title: Berechnen der budgetierten Kosten der geleisteten Arbeit (Budgeted Cost of Work Performed, BCWP)
 description: Die budgetierten Kosten der geleisteten Arbeit (BCWP), auch als Ertragswert bezeichnet, sind eine Projektleistungsmetrik, die den Betrag der Aufgabe darstellt, der zum Zeitpunkt der Berechnung dieser Metrik tatsächlich abgeschlossen wurde.
 author: Lisa
 feature: Work Management
 exl-id: 203709a7-e522-4875-b3eb-40b967a938ec
 source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 2%
+source-wordcount: '573'
+ht-degree: 10%
 
 ---
 
-# Budgetierte Kosten der geleisteten Arbeit berechnen (SKAA)
+# Berechnen der budgetierten Kosten der geleisteten Arbeit (Budgeted Cost of Work Performed, BCWP)
 
 ## Übersicht über die budgetierten Kosten der geleisteten Arbeit (SKAA)
 
@@ -36,7 +36,7 @@ Beachten Sie bei der Überprüfung der Werte für den SKAA für eine Aufgabe ode
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -50,7 +50,7 @@ Beachten Sie bei der Überprüfung der Werte für den SKAA für eine Aufgabe ode
    <td>Adobe Workfront-Lizenz</td> 
    <td>
    <p>Standard</p>
-   <p>Plan</p></td> 
+   <p>Abo</p></td> 
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
