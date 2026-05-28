@@ -26,7 +26,7 @@ Das bedeutet, dass Sie sich über Ihr eigenes Anmeldesystem authentifizieren, ni
 
 >[!NOTE]
 >
->Sie müssen eine benutzerdefinierte Subdomain oder Domain in Ihrem [!DNL Workfront Proof] Konto eingerichtet haben, um SAML zu aktivieren. Benutzerdefinierte Subdomains können frei eingerichtet werden. Weitere Informationen finden [ unter ](https://support.workfront.com/hc/en-us/sections/115000921208-Branding).Weitere Informationen über vollständig angepasste Domains finden Sie auf unserer [Brand the  [!DNL Workfront Proof] -Site - advanced](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
+>Sie müssen eine benutzerdefinierte Subdomain oder Domain in Ihrem [!DNL Workfront Proof] Konto eingerichtet haben, um SAML zu aktivieren. Benutzerdefinierte Subdomains können frei eingerichtet werden. Weitere Informationen finden [&#x200B; unter &#x200B;](https://support.workfront.com/hc/en-us/sections/115000921208-Branding).Weitere Informationen über vollständig angepasste Domains finden Sie auf unserer [Brand the  [!DNL Workfront Proof] -Site - advanced](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
 
 ## Aktivieren von SSO in [!DNL Workfront Proof]
 
@@ -164,4 +164,4 @@ Active Directory Federation Services (AD FS) ist eine [!DNL Microsoft] Softwarek
 
 Das [!DNL Workfront Proof] unterstützt SAML 2.0 und ist nur mit AD FS Version 2.0 oder höher kompatibel.
 
-Detaillierte Anweisungen finden [ unter „Single Sign [!DNL Workfront Proof]On: AD FS](../../../workfront-proof/wp-acct-admin/account-settings/sso-in-wp-adfs-configuration.md)Konfiguration“.
+Detaillierte Anweisungen finden [&#x200B; unter „Single Sign [!DNL Workfront Proof]On: AD FS](../../../workfront-proof/wp-acct-admin/account-settings/sso-in-wp-adfs-configuration.md)Konfiguration“.
