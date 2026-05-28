@@ -10,10 +10,10 @@ role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b4a3a64abb1c5e6395ff91dc8c145135926a5cf6
+source-git-commit: 7457f6888a0e79d499c4cca47bd4b4b5ac55a52b
 workflow-type: tm+mt
-source-wordcount: '7447'
-ht-degree: 92%
+source-wordcount: '7342'
+ht-degree: 91%
 
 ---
 
@@ -65,29 +65,29 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    ![Objekttypen auswählen](assets/new-custom-form-select-objects-032526.png)
 
-+++ Erweitern Sie , um die Liste der Objekte anzuzeigen, die benutzerdefinierte Formulare unterstützen.
+   +++ Erweitern Sie , um die Liste der Objekte anzuzeigen, die benutzerdefinierte Formulare unterstützen.
 
-* Projekt
-* Aufgabe
-* Anfrage/Anfrage
-* Portfolio
-* Dokument
-* Programm
-* Ausgabe
-* Benutzerin oder Benutzer
-* Firma
-* Wiederholung
-* Abrechnungseintrag
-* Gruppe
-* Team
+   * Projekt
+   * Aufgabe
+   * Anfrage/Anfrage
+   * Portfolio
+   * Dokument
+   * Programm
+   * Ausgabe
+   * Benutzerin oder Benutzer
+   * Firma
+   * Wiederholung
+   * Abrechnungseintrag
+   * Gruppe
+   * Team
 
-Wenn Sie sich im Workflow-Ultimate-Paket befinden, können Sie auch benutzerdefinierte Formulare für diese Objekte erstellen:
+   Wenn Sie sich im Workflow-Ultimate-Paket befinden, können Sie auch benutzerdefinierte Formulare für diese Objekte erstellen:
 
-* Aufgabengebiet
-* Tarifkarte
-* Zuweisung
+   * Aufgabengebiet
+   * Tarifkarte
+   * Zuweisung
 
-+++
+   +++
 
 1. Geben Sie im Bereich **Einen Formularnamen hinzufügen** den benutzerdefinierten Titel des Formulars ein.
 1. (Optional) Wenn Sie dem Formular weitere Objekttypen hinzufügen möchten, damit es mit weiteren Objekten verbunden werden kann, klicken Sie auf **Objekttypen** in der Kopfzeile des Formular-Designers. Wählen Sie die Objekttypen aus, die Sie hinzufügen möchten, und heben Sie die Auswahl der Objekttypen auf, die Sie aus dem Formular löschen möchten.
@@ -155,8 +155,8 @@ Der Name des benutzerdefinierten Feldes muss in der Workfront-Instanz Ihrer Orga
 
 >[!NOTE]
 >
->Obwohl dies möglich ist, empfehlen wir, diesen Namen nicht zu ändern, nachdem Sie oder andere Benutzende mit der Verwendung des benutzerdefinierten Formulars in Workfront begonnen haben. Andernfalls erkennt das System das benutzerdefinierte Feld nicht mehr, wenn in anderen Bereichen von Workfront darauf verwiesen wird.
->Wenn Sie beispielsweise ein benutzerdefiniertes Feld zu einem Bericht hinzufügen und später seinen Namen ändern, erkennt Workfront es in dem Bericht nicht und funktioniert dort nicht mehr ordnungsgemäß, es sei denn, Sie fügen es dem Bericht unter dem neuen Namen erneut hinzu.
+>Obwohl dies möglich ist, empfehlen wir, diesen Namen nicht zu ändern, nachdem Sie oder andere Benutzende mit der Verwendung des benutzerdefinierten Formulars in Workfront begonnen haben. Andernfalls erkennt das System das benutzerdefinierte Feld nicht mehr, in dem jetzt in anderen Bereichen von Workfront darauf verwiesen werden kann.
+>Wenn Sie beispielsweise ein benutzerdefiniertes Feld zu einem Bericht hinzufügen und später seinen Namen ändern, erkennt Workfront es im Bericht nicht. Daher funktioniert es dort nicht mehr ordnungsgemäß, es sei denn, Sie fügen es dem Bericht unter dem neuen Namen erneut hinzu.
 >
 >Es wird empfohlen, keinen Namen einzugeben, der bereits für integrierte Workfront-Felder verwendet wird.
 >
@@ -237,7 +237,7 @@ So fügen Sie ein Textfeld hinzu:
     <tr>
     <td>Label</td>
     <td><p>(Erforderlich) Geben Sie ein beschreibendes Label ein, das über dem Feld angezeigt werden soll. Sie können dieses Label jederzeit ändern.<p>
-    <p><b>Wichtig</b>: Verwenden Sie in diesem Label möglichst keine Sonderzeichen, da diese in Berichten nicht korrekt angezeigt werden. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -Labels</a>.</p></td>
+    <p><b>Wichtig</b>: Verwenden Sie in diesem Label keine Sonderzeichen, da diese in Berichten nicht korrekt angezeigt werden. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -Labels</a>.</p></td>
     <td><ul>
     <li>Einzeiliger Text</li>
     <li>Absatz</li>
@@ -260,7 +260,7 @@ So fügen Sie ein Textfeld hinzu:
     </tr>
     <tr>
     <td>Anweisungen</td>
-    <td>Geben Sie zusätzliche Informationen zum Feld ein. Wenn Benutzende das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.
+    <td>Geben Sie zusätzliche Informationen zum Feld ein. Wenn Benutzer das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.
     <img src="assets/instructions-form-designer.png">
     </td>
     <td><ul>
@@ -734,14 +734,14 @@ So fügen Sie eine externe Suche hinzu:
      </tr>
      <tr> 
       <td role="rowheader">JSON-Pfad</td>
-      <td><p>Geben Sie den JSON-Pfad für die API ein oder fügen Sie ihn ein.</p> <p>Diese Option ermöglicht das Extrahieren von Daten aus der von der API-URL zurückgegebenen JSON. Damit können Sie auswählen, welche Werte aus dem JSON-Code in den Dropdown-Optionen angezeigt werden sollen.</p><p>Wenn Ihre API-URL beispielsweise JSON im folgenden Format zurückgibt, können Sie "$.data[*].name“ verwenden, um USA und Kanada als Dropdown-Optionen auszuwählen:</br>
+      <td><p>Geben Sie den JSON-Pfad für die API ein oder fügen Sie ihn ein.</p> <p>Diese Option ermöglicht das Extrahieren von Daten aus der von der API-URL zurückgegebenen JSON. Damit können Sie auswählen, welche Werte aus dem JSON-Code in den Dropdown-Optionen angezeigt werden sollen.</p><p>Wenn Ihre API-URL beispielsweise JSON im folgenden Format zurückgibt, können Sie „$.data[*].name“ verwenden, um USA und Kanada als Dropdown-Optionen auszuwählen:</br>
       <pre>
-      &lbrace;
-       Daten: &lbrace;
-         { name: „USA“},
-         { name: „Canada“}
-       &rbrace;
-      &rbrace;
+      {
+       data: {
+         { name: "USA"},
+         { name: "Canada"}
+       }
+      }
       </pre>
       </p>
      <p>Weitere Informationen zum JSON-Pfad und um sicherzustellen, dass Sie den richtigen Pfad angeben, finden Sie unter <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -923,7 +923,7 @@ In dieser Tabelle sind die verfügbaren nativen Felder für bestimmte Workfront-
 | Zuletzt aktualisiert von | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | Datum der letzten Aktualisierung | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | Name | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Besitzerin bzw. Besitzer | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
+| Besitzer | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
 | <span class="preview"> Performance Index-Methode </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
 | <span class="preview"> geplante </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
 | Geplantes Abschlussdatum | ✓ | ✓ | ✓ |   |   |   |   |   |
@@ -982,7 +982,7 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
      </tr> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Erforderlich) Geben Sie ein beschreibendes Label ein, das über dem Feld angezeigt werden soll. Sie können dieses Label jederzeit ändern.</p> <p><b>Wichtig</b>: Verwenden Sie in diesem Label möglichst keine Sonderzeichen, da diese in Berichten nicht korrekt angezeigt werden. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -Labels</a>.</p> </td> 
+      <td> <p>(Erforderlich) Geben Sie ein beschreibendes Label ein, das über dem Feld angezeigt werden soll. Sie können dieses Label jederzeit ändern.</p> <p><b>Wichtig</b>: Verwenden Sie in diesem Label keine Sonderzeichen, da diese in Berichten nicht korrekt angezeigt werden. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -Labels</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Name</td>
@@ -1053,7 +1053,7 @@ So fügen Sie eine Adobe XD-Datei hinzu:
      </tr> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Erforderlich) Geben Sie ein beschreibendes Label ein, das über dem Widget angezeigt werden soll. Sie können dieses Label jederzeit ändern.</p> <p><b>Wichtig</b>: Verwenden Sie in diesem Label möglichst keine Sonderzeichen, da diese in Berichten nicht korrekt angezeigt werden. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -Labels</a>.</p> </td> 
+      <td> <p>(Erforderlich) Geben Sie ein beschreibendes Label ein, das über dem Widget angezeigt werden soll. Sie können dieses Label jederzeit ändern.</p> <p><b>Wichtig</b>: Verwenden Sie in diesem Label keine Sonderzeichen, da diese in Berichten nicht korrekt angezeigt werden. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -Labels</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Name</td> 
@@ -1063,11 +1063,11 @@ So fügen Sie eine Adobe XD-Datei hinzu:
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Erforderlich) Geben Sie einen gültigen XD-Prototyp-Link ein oder fügen Sie ihn ein.</p> 
-      <p><b>Hinweis</b>: Die Einstellung „Link-Zugriff“ auf der Registerkarte „Freigeben“ in Adobe XD muss auf „Jede Person mit dem Link“ festgelegt sein. Andernfalls können Benutzende den Prototyp nicht anzeigen. 
+      <p><b>Hinweis</b>: Die Einstellung „Link-Zugriff“ auf der Registerkarte Freigeben in Adobe XD muss auf „Jeder, der über den Link verfügt“ festgelegt sein. Andernfalls können Benutzende den Prototyp nicht anzeigen. 
    </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Anleitung</td> 
+      <td role="rowheader">Anweisungen</td> 
       <td> <p>Geben Sie zusätzliche Informationen zum Widget ein. Wenn Benutzende das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.
     <img src="assets/instructions-form-designer.png"></p> </td> 
      </tr>
