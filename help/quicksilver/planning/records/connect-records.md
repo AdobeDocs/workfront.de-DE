@@ -409,7 +409,7 @@ Nachdem Sie eine Verbindung zwischen einem Datensatztyp und Adobe Experience Man
 
 >[!NOTE]
 >
->Auf Planungsdatensätze und deren Felder kann über Experience Manager Assets zugegriffen werden, wenn Ihr Workfront-Administrator die Metadatenzuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter &quot;[ der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+>Auf Planungsdatensätze und deren Felder kann über Experience Manager Assets zugegriffen werden, wenn Ihr Workfront-Administrator die Metadatenzuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter &quot;[&#x200B; der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 >Wenn Sie in Planning Datensätze aus dem GenStudio-Arbeitsbereich mit AEM-Objekten (Assets und Inhaltsfragmenten) verbinden, werden die GenStudio-Informationen automatisch für die AEM-Objekte in AEM angezeigt. AEM-Informationen werden für GenStudio-Datensätze in den Suchfeldern angezeigt, die hinzugefügt werden, wenn die Verbindung in Workfront Planning hergestellt wird. Weitere Informationen finden Sie unter [Verwalten des GenStudio-Arbeitsbereichs in Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md).
 
 <!--
@@ -445,7 +445,7 @@ Verbinden von Datensätzen mit Adobe Experience Manager-Objekten:
     ![Select assets box for AEM record connections](assets/select-assets-box-for-aem-record-connections.png)
     -->
 
-1. Klicken Sie auf der Registerkarte **0}Assets&quot;, um einige der folgenden Asset-Typen auszuwählen:**
+1. Klicken Sie auf der Registerkarte **0&rbrace;Assets&quot;, um einige der folgenden Asset-Typen auszuwählen:**
 
    * Bilder
    * Ordner
@@ -523,7 +523,7 @@ Verbinden von Datensätzen mit Adobe Experience Manager-Objekten:
 1. Klicken Sie auf den Namen eines Datensatzes.
 
    Die Vorschauseite wird geöffnet.
-1. (Optional) Klicken Sie auf das Symbol **In neuer Registerkarte öffnen** (![ Details in einem neuen Registerkartensymbol öffnen](assets/open-details-in-a-new-tab-icon.png), um die Seite des Datensatzes in einer neuen Browser-Registerkarte zu öffnen.
+1. (Optional) Klicken Sie auf das Symbol **In neuer Registerkarte öffnen** (![&#x200B; Details in einem neuen Registerkartensymbol öffnen](assets/open-details-in-a-new-tab-icon.png), um die Seite des Datensatzes in einer neuen Browser-Registerkarte zu öffnen.
 1. (Optional und bedingt) Klicken Sie auf den Namen eines Datensatztyps im Breadcrumb der Kopfzeile der Datensatzseite, um auf einen anderen Datensatztyp in derselben Hierarchie zuzugreifen. Für den Datensatztyp des Datensatzes, den Sie verbinden, müssen Hierarchien vorhanden sein, damit Sie sie im Breadcrumb anzeigen können. Weitere Informationen finden Sie unter [Erstellen von Workspace-Hierarchien](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
 1. Klicken Sie auf **Registerkarte** Verbindungen“ in der Vorschau oder Seite des Datensatzes.
 
@@ -562,7 +562,7 @@ Die Datensätze und Objekte werden sofort hinzugefügt.
 1. Klicken Sie auf den Namen eines Datensatzes.
 
    Die Vorschauseite wird geöffnet.
-1. (Optional) Klicken Sie auf das Symbol **In neuer Registerkarte öffnen** (![ Details in einem neuen Registerkartensymbol öffnen](assets/open-details-in-a-new-tab-icon.png), um die Seite des Datensatzes zu öffnen.
+1. (Optional) Klicken Sie auf das Symbol **In neuer Registerkarte öffnen** (![&#x200B; Details in einem neuen Registerkartensymbol öffnen](assets/open-details-in-a-new-tab-icon.png), um die Seite des Datensatzes zu öffnen.
 1. Klicken Sie auf **vorhandene Registerkarte „Verbundene**&quot; auf der Seite des Datensatzes. Sie müssen zunächst eine Seite **Verbundene Datensätze“**.
 
    In der Tabellenansicht wird eine verbundene Datensatztypseite angezeigt.

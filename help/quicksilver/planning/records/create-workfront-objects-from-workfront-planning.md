@@ -192,7 +192,7 @@ Sie müssen über Folgendes verfügen, bevor Sie neue Projekte oder Portfolios h
 
 * Datensatztypen, die mit Workfront-Projekten, -Portfolios oder -Programmen verbunden sind. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Datensätze für die mit Workfront-Objekten verbundenen Datensatztypen. Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
-* Die richtigen Zugriffsberechtigungen in Workfront Planning und Workfront, wie im Abschnitt [Zugriffsanforderungen“ in ](#access-requirements) Artikel beschrieben.
+* Die richtigen Zugriffsberechtigungen in Workfront Planning und Workfront, wie im Abschnitt [Zugriffsanforderungen“ in &#x200B;](#access-requirements) Artikel beschrieben.
 
 ## Erstellen Sie Projekte, während Sie sie mit Datensätzen aus Workfront Planning verbinden
 
