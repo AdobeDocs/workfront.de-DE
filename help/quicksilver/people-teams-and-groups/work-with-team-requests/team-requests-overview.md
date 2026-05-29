@@ -9,9 +9,9 @@ feature: People Teams and Groups
 exl-id: c131c021-8bc0-4a48-a873-9ee0e189bcab
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: ab336c13968f1420ec08eb7ae965b697a862bfb4
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '486'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Teamanfragen finden Sie im Bereich [!UICONTROL Teams] im [!UICONTROL Hauptmenü]
 >
 >Agile-Teams haben keine Teamanfragen.
 
-Die [!UICONTROL Team-Anfragen] zeigt die Anforderungen an, die für das Team, das derzeit in der Dropdown-Liste ausgewählt ist, auf Zuweisung warten. Die Zahl in Klammern gibt an, wie viele Elemente bereit zur Bearbeitung sind.
+Die [!UICONTROL Team-Anfragen] zeigt die Anforderungen an, die für das Team, das derzeit in der Dropdown-Liste ausgewählt ist, auf Zuweisung warten. Die Zahl in Klammern gibt an, wie viele Elemente bereit zur Bearbeitung sind. Auf [!UICONTROL  Registerkarte ]Teamanfragen“ können bis zu 2.000 Anfragen für ein Team angezeigt werden.
 
 Eine Teamanfrage stellt ein ausstehendes Arbeitselement dar, das keinem bestimmten Benutzer zugewiesen ist. Stattdessen wird es einem Team zugewiesen und jedes Mitglied dieses Teams kann sich freiwillig dazu bereit erklären, die Verantwortung für das Element zu übernehmen. Wenn sich ein(e) Benutzende(r) bereit erklärt, an einer Teamanfrage zu arbeiten, akzeptiert er/sie die Arbeitsaufgabe als seine/ihre eigene. Die Aufgabe wird dem einzelnen Benutzer zusätzlich zum Team zugewiesen.
 
@@ -44,7 +44,7 @@ Die [!UICONTROL Bereit zum Start]-Option zeigt nur Aufgaben und Probleme an, die
   Wenn der Typ der Vorgängerbeziehung beispielsweise [!UICONTROL Ende-Anfang] lautet (Vorgängeraufgabe muss abgeschlossen sein, bevor die abhängige Aufgabe beginnen kann), muss der Vorgänger als [!UICONTROL Abgeschlossen] markiert sein. (Weitere Informationen zu Vorgängerabhängigkeitstypen finden Sie unter [Übersicht über Aufgabenabhängigkeitstypen](../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).)
 
 * Der angemeldete Benutzer ist die Person, die diesen Aufgaben und Problemen (bei Arbeitsanfragen) zugewiesen ist, oder das ausgewählte Team wird diesen Aufgaben und Problemen (bei Teamanfragen) zugewiesen.
-* Der Projektstatus hat den Status &quot;[!UICONTROL &quot; &#x200B;].
+* Der Projektstatus hat den Status &quot;[!UICONTROL &quot; ].
 * Das [!UICONTROL Voraussichtliches Startdatum] oder [!UICONTROL Geplantes Startdatum] wurde überschritten oder soll innerhalb von zwei Wochen ab dem heutigen Datum beginnen (oder es wurde kein [!UICONTROL Voraussichtliches Startdatum] oder [!UICONTROL Geplantes Startdatum] definiert).
 * Das [!UICONTROL Übergabedatum] ist bereits abgelaufen oder wird innerhalb von zwei Wochen ab dem aktuellen Datum liegen.
 
