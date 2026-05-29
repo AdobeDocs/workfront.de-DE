@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fdbe3945f59306fc26424d7e88b799d9dcaea4da
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '2582'
+source-wordcount: '2592'
 ht-degree: 1%
 
 ---
@@ -179,7 +179,7 @@ Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformula
       * **Betreff**: Der Name der ursprünglichen Anfrage, wie im Bereich „Anfragen“ hinzugefügt. Sie können das Feld **Betreff** nicht aus der Anfrageliste ausblenden oder entfernen. Der Name enthält einen Link, der die Anfrageseite in Planning öffnet.
       * **Erstelltes Objekt**: Der Name des Datensatzes, der aus der Anforderung erstellt wurde und in Planning angezeigt wird. Der erstellte Objektname enthält einen Link, der den aus der Anfrage erstellten Datensatz öffnet.
       * **Objekttyp**: Der Name des Arbeitsbereichs und der Datensatztyp, in dem aufgrund der Anforderung in Planning Datensätze erstellt wurden.
-      * **Status**: Der Status des Anfrageobjekts.
+      * **Status**: Der Status des Anfrageobjekts. Weitere Informationen zum Anfragestatus finden Sie unter [Anzeigen gesendeter Anfragen](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
       * **Anfrageformular**: Der Name des Anfrageformulars, das mit dem Datensatztyp in Planning verknüpft ist.
       * **Erstellter Objektstatus**: Der Status des erstellten Datensatzes.
 

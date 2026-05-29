@@ -8,21 +8,19 @@ recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '471'
 ht-degree: 4%
 
 ---
 
 # Exportieren der Details eines Eintrags
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
--->
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar oder in der Produktionsumgebung für Kunden, die schnelle Versionen aktiviert haben.</span>
 
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 Um effizienter mit Personen zusammenzuarbeiten, die möglicherweise kein Workfront-Konto haben, können Sie die Detailseite eines Datensatzes in eine Microsoft Word-Datei exportieren und für diese freigeben.
 
@@ -52,7 +50,7 @@ Um effizienter mit Personen zusammenzuarbeiten, die möglicherweise kein Workfro
   </tr> 
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td>   <p>Anzeigen von oder höheren Berechtigungen für einen Arbeitsbereich und einen Datensatztyp</a> </p>  
+   <td>   <p>Anzeigen oder Erweitern von Berechtigungen für einen Arbeitsbereich, einen Datensatztyp und <span class="preview">Datensatz</span> </p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p> </td> 
   </tr> 
   </tr> 

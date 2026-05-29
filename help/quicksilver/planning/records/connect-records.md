@@ -8,9 +8,9 @@ author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '3585'
+source-wordcount: '3665'
 ht-degree: 2%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 2%
 
 # Einträge verbinden
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -114,7 +114,9 @@ Sie können Folgendes verbinden:
   </tr>
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td>   <p>Tragen Sie Berechtigungen oder höhere Berechtigungen zu einem Arbeitsbereich und einem Datensatztyp bei, um Datensätze zu verbinden. </p>  
+   <td>   <p>Tragen Sie Berechtigungen oder höhere Berechtigungen zu einem Arbeitsbereich und einem Datensatztyp bei, um Datensätze zu verbinden.</p>
+   <p><span class="preview">Verwalten Sie die Berechtigungen für den Datensatz, von dem aus Sie eine Verbindung herstellen</span></p>
+   <p><span class="preview">Anzeigen von oder höheren Berechtigungen für den Datensatz, mit dem Sie eine Verbindung herstellen</span></p>
    <p>Zeigen Sie oder höhere Berechtigungen für einen Arbeitsbereich und einen Datensatztyp an, um alle Verbindungen zu Objekten und Feldern aus anderen Anwendungen anzuzeigen, unabhängig von Ihrem Zugriff in der anderen Anwendung. </p>
    <p>Zeigen Sie Berechtigungen zum Anzeigen oder höhere Berechtigungen für die Objekte an, die Sie von Workfront oder Experience Manager Assets aus verknüpfen möchten. </p>
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten.</p> </td> 

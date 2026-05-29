@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '650'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 ### Lizenztypen und Berechtigungen für Arbeitsbereiche und Datensatztypen
 
-Nur Benutzer mit einer Standardlizenz können Berechtigungen zum Beitragen oder Verwalten für Arbeitsbereiche und Datensatztypen haben. Die Berechtigungen Beitragen und Verwalten für Arbeitsbereiche und Datensatztypen werden auch auf Datensätze und Felder übertragen.
+Nur Benutzer mit einer Standardlizenz können Berechtigungen zum Beitragen oder Verwalten für Arbeitsbereiche und Datensatztypen haben. Die Berechtigungen Beitragen und Verwalten für Arbeitsbereiche und Datensatztypen werden standardmäßig auch auf Datensätze und Felder übertragen.
 
 Systemadministratoren können alle Arbeitsbereiche im System anzeigen, einschließlich der Arbeitsbereiche, die sie nicht erstellt haben.
 

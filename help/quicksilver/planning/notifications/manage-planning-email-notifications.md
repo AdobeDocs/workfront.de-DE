@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '641'
 ht-degree: 2%
 
 ---
@@ -164,7 +164,7 @@ Die **Benachrichtigungen** wird in Adobe Experience Cloud geöffnet. Alle Benach
 
 ## Verwalten von E-Mail-Benachrichtigungen beim Anfordern und Gewähren von Berechtigungen
 
-1. (Bedingt und optional) Nachdem Sie von einer Person um Zugriff auf einen Planungs-Objekttyp gebeten oder ihm Berechtigungen erteilt wurden, wechseln Sie zu der E-Mail, in der Sie über die Berechtigungsanfrage informiert werden. Der Absender der E-Mail ist Adobe Experience Cloud.
+1. (Bedingt und optional) Nachdem Sie von einer Person um Zugriff auf ein Planning-Objekt gebeten oder ihm Berechtigungen erteilt wurden, wechseln Sie zu der E-Mail, in der Sie über die Berechtigungsanfrage informiert werden. Der Absender der E-Mail ist Adobe Experience Cloud.
 
 1. (Optional) Klicken Sie auf die Nachricht im Feld **Workfront** in der E-Mail.
 
@@ -180,8 +180,7 @@ Informationen zum Verwalten Ihrer Workfront Planning-Benachrichtigungen finden S
 
 ## Verwalten von E-Mail-Benachrichtigungen zum Senden, Genehmigen oder Ablehnen von Workfront Planning-Anfragen
 
-1. (Optional) Wechseln Sie zu der E-Mail, die Workfront Ihnen sendet
-nachdem Sie eine Anforderung gesendet haben oder nachdem eine von Ihnen gesendete Anforderung genehmigt oder abgelehnt wurde. Der Absender der E-Mail ist Adobe Workfront.
+1. (Optional) Gehen Sie zu der E-Mail, die Workfront Ihnen sendet, nachdem Sie eine Anfrage gesendet haben oder nachdem eine von Ihnen gesendete Anfrage genehmigt oder abgelehnt wurde. Der Absender der E-Mail ist Adobe Workfront.
 
 1. (Optional) Klicken Sie auf **Anfrage öffnen**. Dadurch wird die Anfrage in Workfront Planning geöffnet.
 

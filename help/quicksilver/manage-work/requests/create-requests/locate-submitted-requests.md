@@ -10,9 +10,9 @@ role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '1413'
+source-wordcount: '1561'
 ht-degree: 4%
 
 ---
@@ -21,11 +21,13 @@ ht-degree: 4%
 
 <!--
 Remove production and preview references at release
-
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
+
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 Sie können die Anfragen anzeigen, die Sie oder eine andere Person gesendet haben, oder die Anfragen, die Sie begonnen haben, aber nie abgeschlossen haben. Die nicht abgeschlossenen Anfragen werden als Entwürfe gespeichert.
 
@@ -101,7 +103,9 @@ Die Anzeige gesendeter Anfragen unterscheidet sich je nachdem, ob Sie das neue o
 
 >[!NOTE]
 >
->* Wenn Sie über Workfront Planning verfügen, werden Ihre Workfront- und Planning-Anfragen in derselben Liste angezeigt. Workfront-Anfragen zeigen den in der Spalte **Objekttyp** `Issue` Wert an.
+>* Wenn Sie über Workfront Planning verfügen, werden Ihre Workfront- und Planning-Anfragen in derselben Liste angezeigt.
+>     Der **Objekttyp** einer Planning-Anfrage wird nach diesem Muster benannt: `< Name of workspace > > < Name of record type >`. Beispielsweise könnte der Objekttyp einer Planning-Anfrage `Marketing workspace > Campaigns` heißen.\
+>     Der **Objekttyp** einer Workfront-Anfrage ist `Issue`.
 >* Standardmäßig werden im Bereich Anfragen bis zu 50 Anfragen in der Liste angezeigt. Um weitere Anfragen anzuzeigen, scrollen Sie zum unteren Rand der Liste.
 
 Gesendete Anfragen können im Bereich Anfragen und im Widget Meine Anfragen auf der Startseite angezeigt werden.
@@ -134,18 +138,27 @@ So zeigen Sie Anfragen an, die Sie oder andere Benutzende in der neuen anfordern
 
    Weitere Informationen zum Verwalten von Informationen in der Anfragenliste finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
-1. (Optional) Überprüfen Sie den Status einer Anfrage, indem Sie die Spalte **Status** überprüfen. In der neuen anfragenden -Version sind die folgenden Status verfügbar:
+1. (Optional) Überprüfen Sie den Status einer Anfrage, indem Sie die Spalte **Status** überprüfen.
 
-   * **Entwurf**: Diese Anfrage wurde noch nicht übermittelt.
-   * **Ausstehende Prüfung**: (Nur Planung) Diese Anfrage enthält genehmigende Personen, und keine der genehmigenden Personen hat die Anfrage geöffnet.
-   * **In Prüfung**: (Nur Planung) Diese Anforderung enthält genehmigende Personen und mindestens eine genehmigende Person hat die Anforderung geöffnet, es wurde jedoch keine Entscheidung getroffen.
-   * **Abgelehnt**: (Nur Planung) Diese Anforderung wurde von genehmigenden Personen abgelehnt. Mit dieser Anfrage wird kein Datensatz erstellt.
+   >[!IMPORTANT]
+   >
+   >Ihr Workfront-Administrator kann einige Workfront-Anfragestatus im Bereich **Setup** konfigurieren. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten eines Status](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+   >
+   >Einige Workfront-Anfragestatus und alle Status von Planning-Anfragen werden von Workfront hartcodiert. Sie können sie nicht anpassen, umbenennen oder weitere hinzufügen.
+
+   In der neuen anfragenden -Version sind die folgenden Status verfügbar:
+
+   * <span class="preview">**Neu**: Die Anfrage ist neu und wurde noch nicht bearbeitet. </span>
+   * **Entwurf**: Diese Anfrage wurde noch nicht übermittelt. Dieser Status ist hartcodiert.
+   * **Ausstehende Prüfung**: (Nur Planung) Diese Anfrage enthält genehmigende Personen, und keine der genehmigenden Personen hat die Anfrage geöffnet. Dieser Status ist hartcodiert.
+   * **In Prüfung**: (Nur Planung) Diese Anforderung enthält genehmigende Personen und mindestens eine genehmigende Person hat die Anforderung geöffnet, es wurde jedoch keine Entscheidung getroffen. Dieser Status ist hartcodiert.
+   * **Abgelehnt**: (Nur Planung) Diese Anforderung wurde von genehmigenden Personen abgelehnt. Mit dieser Anfrage wird kein Datensatz erstellt. Dieser Status ist hartcodiert.
    * **In Bearbeitung**:
       * Workfront-Anfragen: Die Anfrage wurde konvertiert und die Arbeit ist im Gange.
       * Workfront Planning-Anfragen: Der Anforderungsabschluss ist einem bestimmten Planning-Feld zugeordnet, und der Feldwert stimmt noch nicht mit dem Abschlusswert überein.
-
-        Weitere Informationen finden Sie unter [Einrichten von Konfigurationsdetails](/help/quicksilver/planning/requests/create-request-form.md#set-up-configuration-details) im Artikel Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning.
-   * **Abschließen**: Die Anfrage wurde abgeschlossen.
+   * **Halten**: Dies ist für Workfront-Anfragen verfügbar und wird von den Benutzenden manuell festgelegt.
+   * <span class="preview">**Abgebrochen**: Dies ist für Workfront-Anfragen.</span> <!--checking with Khach)-->
+   * <span class="preview">**Abschließen**: Der Planungsdatensatz wurde erstellt, wodurch die Anfrage abgeschlossen wird. (Nur Planung)</span>
 
 ### Anzeigen gesendeter Anfragen in der Legacy-Anfrage
 
