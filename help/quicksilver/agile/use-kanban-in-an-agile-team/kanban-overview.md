@@ -24,7 +24,7 @@ Mit den folgenden Abschnitten können Sie besser verstehen, wie das [!UICONTROL 
 
 Eine Beschreibung der K-[!UICONTROL -] finden Sie unter [Erstellen eines agilen Teams](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
-Wenn Sie an der Migration von einem Agile-Team (Kanban[!UICONTROL -Board ] [!DNL Workfront][!UICONTROL  Boards] interessiert sind, finden Sie weitere Informationen unter [Migrieren eines Agile-Teams [!UICONTROL Kanban]-Cards zu [!DNL Workfront] Boards](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
+Wenn Sie an der Migration von einem Agile-Team (Kanban[!UICONTROL -Board ] [!DNL Workfront] [!UICONTROL  Boards] interessiert sind, finden Sie weitere Informationen unter [Migrieren eines Agile-Teams [!UICONTROL Kanban]-Cards zu [!DNL Workfront] Boards](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
 ## [!UICONTROL Kanban] Board-Layout und -Funktionen
 
