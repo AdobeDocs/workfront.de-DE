@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Versionsaktivität von Beta 1 2017.2
+title: Veröffentlichungen für Version 2017.2 Beta 1
 description: Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschau-Umgebung mit Beta 1 Version 2017.2 verfügbar sind. Die Funktion auf dieser Seite wurde am 10. Mai 2017 in der Vorschau-Umgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements
@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 99812ed3-a300-478e-973f-b957382d934b
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1390'
 ht-degree: 0%
 
 ---
 
-# Versionsaktivität von Beta 1 2017.2
+# Veröffentlichungen für Version 2017.2 Beta 1
 
 Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschau-Umgebung mit Beta 1 Version 2017.2 verfügbar sind. Die Funktion auf dieser Seite wurde am 10. Mai 2017 in der Vorschau-Umgebung verfügbar gemacht.
 
@@ -88,7 +88,7 @@ Bei der Planung von Ressourcen für ein Team oder für Projekte, für die Sie de
 
 Wenn Sie sich entscheiden, Projektnamen für jede Aufgabe und jedes Problem auf der Zeitleiste für die Planung anzuzeigen, wird der vertikale Raum für jede Aufgabe und jedes Problem erweitert, sodass weniger Aufgaben und Probleme in einer einzigen Ansicht angezeigt werden.
 
-Weitere Informationen zur Ressourcenplanung finden Sie unter  „Erste Schritte mit der Ressourcenplanung“.
+Weitere Informationen zur Ressourcenplanung finden Sie unter „Erste Schritte mit der Ressourcenplanung“.
 
 ### Projektname konfigurieren, der bei Aufgaben und Problemen in der Zeitplanleiste angezeigt werden soll {#configure-the-project-name-to-display-on-tasks-and-issues-on-the-scheduling-timeline}
 
@@ -118,7 +118,7 @@ Wenn Sie nun in der Zeitplanleiste nach unten scrollen, um zusätzliche Informat
 
 Vor dieser Änderung wurden der Rollen- und der Benutzername aus der aktuellen Ansicht gescrollt.
 
-Weitere Informationen zur Ressourcenplanung finden Sie unter  „Erste Schritte mit der Ressourcenplanung“.
+Weitere Informationen zur Ressourcenplanung finden Sie unter „Erste Schritte mit der Ressourcenplanung“.
 
 ## Korrekturabzüge vergleichen {#compare-proofs}
 

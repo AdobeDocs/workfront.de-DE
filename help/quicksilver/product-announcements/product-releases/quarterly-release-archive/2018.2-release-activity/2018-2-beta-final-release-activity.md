@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Aktivität "Beta-Endversion 2018.2“
+title: Veröffentlichungen für Version 2018.2 Beta-Endversion
 description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit der Beta-Endversion 2018.2 verfügbar waren. Die Funktion wurde am 20. Juni 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird ab Juli 2018 in der Produktionsumgebung verfügbar sein.
 author: Luke
 feature: Product Announcements
@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 36001571-bf8c-4fe8-a66b-09d3726f66d3
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 0%
+source-wordcount: '825'
+ht-degree: 1%
 
 ---
 
-# Aktivität &quot;Beta-Endversion 2018.2“
+# Veröffentlichungen für Version 2018.2 Beta-Endversion
 
 Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit der Beta-Endversion 2018.2 verfügbar waren. Die Funktion wurde am 20. Juni 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird ab Juli 2018 in der Produktionsumgebung verfügbar sein.
 
@@ -22,7 +22,7 @@ Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorscha
 >
 > Die auf dieser Seite beschriebene Funktion kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller Änderungen in Version 2018.2 finden Sie unter  Übersicht über die Versionsaktivität [2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Eine Liste aller in 2018.2 vorgenommenen Änderungen finden Sie unter [Übersicht über die Versionsaktivität 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
 Die folgenden neuen Funktionen werden zum Zeitpunkt der Veröffentlichung der Produktionsversion 18.2 veröffentlicht:
 
@@ -31,7 +31,7 @@ Die folgenden neuen Funktionen werden zum Zeitpunkt der Veröffentlichung der Pr
 * [System-getrackte Updates enthalten kein Symbol mehr](#system-tracked-updates-no-longer-contain-an-icon)
 * [Option zum Konvertieren eines Kommentars in eine Aufgabe wurde entfernt](#option-to-convert-a-comment-to-a-task-was-removed)
 * [Workfront für Salesforce](#workfront-for-salesforce)
-* [Verbesserungen bei Workfront for Slack](#workfront-for-slack-improvements)
+* Verbesserungen bei [Workfront für Slack](#workfront-for-slack-improvements)
 * [Verbesserungen für Mobilgeräte](#mobile-improvements)
 
 ## Angeben von E-Mail-Zustelldiensten für das Antworten auf E-Mail-Benachrichtigungen in Workfront {#specify-mail-delivery-services-for-replying-to-workfront-email-notifications}
@@ -79,21 +79,21 @@ Wir veröffentlichen eine neue vordefinierte Integration zwischen Salesforce und
 
 Diese Integration steht allen Kundinnen und Kunden mit einer Workfront Pro Edition oder höher zur Verfügung und ist kostenlos.
 
-Weitere Informationen zu Workfront für Salesforce finden Sie unter  [Adobe Workfront für Salesforce](../../../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md).
+Weitere Informationen zu Workfront für Salesforce finden Sie unter [Adobe Workfront für Salesforce](../../../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md).
 
 ## Verbesserungen bei Workfront für Slack {#workfront-for-slack-improvements}
 
-Sie können konfigurieren, dass Workfront-Benachrichtigungen in Ihrem Slack-Workfront-Kanal empfangen werden.
+Sie können konfigurieren, dass Workfront-Benachrichtigungen in Ihrem Slack Workfront-Kanal empfangen werden.
 
-Die folgenden Workfront-Benachrichtigungen können auch so konfiguriert werden, dass sie in Slack gesendet werden:
+Die folgenden Workfront-Benachrichtigungen können auch für die Zustellung in Slack konfiguriert werden:
 
 * Wenn Sie jemand in einem Kommentar oder einer Aktualisierung taggt.
 * Wenn Sie einer neuen Aufgabe oder einem neuen Problem zugewiesen werden.
 * Wenn Sie aufgefordert werden, ein Element zu genehmigen.
 
-Vor dieser Verbesserung konnten Sie keine Workfront-Benachrichtigungen auf Slack erhalten.
+Vor dieser Verbesserung konnten Sie keine Workfront-Benachrichtigungen in Slack erhalten.
 
-Weitere Informationen zu Workfront-Benachrichtigungen auf Slack finden Sie unter [Empfangen von Adobe Workfront-Benachrichtigungen auf Slack](../../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md).
+Weitere Informationen zu Workfront-Benachrichtigungen in Slack finden Sie unter [Empfangen von Adobe Workfront-Benachrichtigungen in Slack](../../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md).
 
 ## Verbesserungen für Mobilgeräte {#mobile-improvements}
 

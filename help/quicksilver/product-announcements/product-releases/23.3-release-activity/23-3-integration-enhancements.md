@@ -1,18 +1,18 @@
 ---
-title: 23.3 Verbesserungen bei der Integration
-description: 23.3 Verbesserungen bei der Integration
+title: Verbesserungen bei Integrationen in Version 23.3
+description: Verbesserungen bei Integrationen in Version 23.3
 author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d24ddc8a-fe96-4e9b-8186-0b54ab9ab213
 source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 0%
+source-wordcount: '738'
+ht-degree: 2%
 
 ---
 
-# 23.3 Verbesserungen bei der Integration
+# Verbesserungen bei Integrationen in Version 23.3
 
 Auf dieser Seite werden alle Integrationsverbesserungen beschrieben, die mit Version 23.3 vorgenommen wurden. Diese Verbesserungen wurden mit der Version 23.3 vom 20. und 21. Juli 2023 in der Produktionsumgebung verfügbar gemacht.
 
@@ -34,23 +34,23 @@ Die Adobe Creative Cloud-Integration unterstützt jetzt die Möglichkeit, zwisch
 
 Zuvor ermöglichte die Integration es Benutzenden, eine Aufgabe als erledigt zu markieren, ohne „Mit meinem Teil erledigt“ oder „Abgeschlossen“/„Aufgelöst“ anzugeben.
 
-Um diese Funktion nutzen zu können, laden Sie die neuesten Workfront for Creative Cloud-Plug-ins herunter und installieren Sie sie.
+Um diese Funktion nutzen zu können, laden Sie die neuesten Plug-ins für Workfront for Creative Cloud herunter und installieren Sie sie.
 
 Weitere Informationen zur Funktionalität finden Sie unter [Arbeitselemente mit dem Adobe Workfront-Plug-in als abgeschlossen markieren](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-complete.md).
 
-Informationen zum Installieren der Plug-ins für Workfront for Creative Cloud finden Sie unter [Installieren des Plug-ins für Adobe Workfront for Creative Cloud Applications](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md).
+Informationen zum Installieren der Plug-ins für Workfront für Creative Cloud finden Sie unter [Installieren des Plug-ins für Adobe Workfront für Creative Cloud-Anwendungen](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md).
 
-## Anzeigen und Verwalten von Workfront-Benachrichtigungen über die Workfront für Creative Cloud-Plug-ins
+## Anzeigen und Verwalten von Workfront-Benachrichtigungen über die Plug-ins von Workfront für Creative Cloud
 
 Um den Empfang der benötigten Benachrichtigungen zu vereinfachen, haben wir die Anzeige und Verwaltung von Workfront-Benachrichtigungen ermöglicht, ohne die Adobe Creative Cloud verlassen zu müssen. Jetzt können Sie Benachrichtigungen sowie die mit diesen Benachrichtigungen verbundenen Arbeitselemente und Kommentare direkt über das Workfront-Plug-in-Fenster in der Creative Cloud-Anwendung anzeigen.
 
 Zuvor waren Benachrichtigungen nur innerhalb von Workfront und per E-Mail verfügbar.
 
-Um diese Funktion nutzen zu können, laden Sie die neuesten Workfront for Creative Cloud-Plug-ins herunter und installieren Sie sie.
+Um diese Funktion nutzen zu können, laden Sie die neuesten Plug-ins für Workfront for Creative Cloud herunter und installieren Sie sie.
 
 Weitere Informationen finden Sie unter [Anzeigen und Verwalten [!DNL Adobe Workfront]  von Benachrichtigungen aus Adobe Creative Cloud](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-notifications.md).
 
-Informationen zum Installieren der Plug-ins für Workfront for Creative Cloud finden Sie unter [Installieren des Plug-ins für Adobe Workfront for Creative Cloud Applications](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md).
+Informationen zum Installieren der Plug-ins für Workfront für Creative Cloud finden Sie unter [Installieren des Plug-ins für Adobe Workfront für Creative Cloud-Anwendungen](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md).
 
 <!--
 
@@ -92,7 +92,7 @@ Weitere Informationen zu dieser Funktion in Experience Manager Assets Essentials
 
 ## Anpassen der Einstellungen für automatisierte Korrekturabzugs-Workflows mit Adobe Workfront für Creative Cloud
 
-Sie können jetzt bestehende automatisierte Workflow-Vorlageneinstellungen direkt auf der Creative Cloud anpassen. Nachdem Sie eine vorhandene automatisierte Workflow-Vorlage ausgewählt haben, können Sie:
+Sie können jetzt bestehende Einstellungen für automatisierte Workflow-Vorlagen direkt in der Creative Cloud anpassen. Nachdem Sie eine vorhandene automatisierte Workflow-Vorlage ausgewählt haben, können Sie:
 
 * Stadien deaktivieren
 * Zusätzliche Empfänger hinzufügen
@@ -103,7 +103,7 @@ Sie können jetzt bestehende automatisierte Workflow-Vorlageneinstellungen direk
 
 Weitere Informationen finden Sie unter [Hochladen von Dokumenten und Testsendungen mit dem  [!DNL Adobe Workfront] -Plug-in für  [!DNL Creative Cloud] -Programme](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md).
 
-Diese Erweiterungen sind für die folgenden Creative Cloud-Apps verfügbar:
+Diese Verbesserungen sind für die folgenden Creative Cloud-Apps verfügbar:
 
 * Photoshop
 * XD

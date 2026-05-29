@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-2-release-activity
-title: 2020.2 Weitere Verbesserungen
+title: Weitere Verbesserungen in Version 2020.2
 description: Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit der Version 2020.2 an der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Woche vom 11. Mai 2020 in der Produktionsumgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements
@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 46ed705e-b966-4ae9-a602-a5a73a3de3aa
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 0%
+source-wordcount: '637'
+ht-degree: 3%
 
 ---
 
-# 2020.2 Weitere Verbesserungen
+# Weitere Verbesserungen in Version 2020.2
 
 Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit der Version 2020.2 an der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Woche vom 11. Mai 2020 in der Produktionsumgebung verfügbar gemacht.
 
@@ -42,7 +42,7 @@ Informationen zum Hinzufügen von Genehmigungsprozessen zu Projekten, Aufgaben u
 * [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 * [Probleme bearbeiten](../../../manage-work/issues/manage-issues/edit-issues.md)
 * [Anfrage-Warteschlange erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
-* [Warteschlangenthemen erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
+* [Erstellen von Warteschlangenthemen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 
 ## Erstellen von Genehmigungsprozessen für Gruppen mit benutzerdefinierten Status
 

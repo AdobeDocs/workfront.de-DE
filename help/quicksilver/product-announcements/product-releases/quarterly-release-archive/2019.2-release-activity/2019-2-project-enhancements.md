@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-2-release-activity
-title: Projektverbesserungen in 2019.2
+title: Verbesserungen bei Projekten in Version 2019.2
 description: Auf dieser Seite werden alle in der Version 2019.2 enthaltenen Projektverbesserungen beschrieben. Die Funktion soll in der Produktionsumgebung ab der Woche vom 20. Mai 2019 verfügbar sein.
 author: Luke
 feature: Product Announcements
@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 76292f90-af1a-4740-9b8e-b02a6303625c
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 1%
+source-wordcount: '741'
+ht-degree: 2%
 
 ---
 
-# Projektverbesserungen in 2019.2
+# Verbesserungen bei Projekten in Version 2019.2
 
 Auf dieser Seite werden alle in der Version 2019.2 enthaltenen Projektverbesserungen beschrieben. Die Funktion soll in der Produktionsumgebung ab der Woche vom 20. Mai 2019 verfügbar sein.
 
@@ -78,7 +78,7 @@ Alles, was Sie deaktivieren, das derzeit verwendet wird, funktioniert weiterhin 
 
 >[!IMPORTANT]
 >
->Beim Erstellen dieser Objekte über die Workfront-API ist der Standardwert für den Parameter „isActive“ „true“. Dies ist ein neues Feld für alle Objekte, das Sie nicht vor Version 11 der API bearbeiten können. Dieses Feld gab es bereits für das Portfolio , mit der Ausnahme, dass der Standardwert „false“ war. Ab Version 11 der API wird er in den Standardwert „true“ geändert.
+>Beim Erstellen dieser Objekte über die Workfront-API ist der Standardwert für den Parameter „isActive“ „true“. Dies ist ein neues Feld für alle Objekte, das Sie nicht vor Version 11 der API bearbeiten können. Dieses Feld gab es bereits für Portfolios , mit der Ausnahme, dass der Standardwert „false“ war. Ab Version 11 der API wird er in den Standardwert „true“ geändert.
 
 ## Budgetierte Kosten geplanter Arbeit (BCWS) und Ausgeführter Arbeit (BCWP) in Ansichten anzeigen
 
@@ -86,7 +86,7 @@ Sie können jetzt die budgetierten Kosten der geplanten Arbeit (BCWS) und die bu
 
 Obwohl diese Projektleistungsmetriken zuvor in Finanzberechnungen in Workfront verwendet wurden, waren sie vor dieser Verbesserung nicht im System sichtbar.
 
-Weitere Informationen zur Berechnung des SKBA finden [&#x200B; unter „Budgetierte Kosten für geplante Arbeit (SKBA) berechnen](../../../../manage-work/projects/project-finances/calculate-bcws.md).
+Weitere Informationen zur Berechnung des SKBA finden [ unter „Budgetierte Kosten für geplante Arbeit (SKBA) berechnen](../../../../manage-work/projects/project-finances/calculate-bcws.md).
 
 Informationen zur Berechnung des SKAA finden Sie unter [Budgetierte Kosten der geleisteten Arbeit berechnen (SKAA)](../../../../manage-work/projects/project-finances/calculate-bcwp.md).
 

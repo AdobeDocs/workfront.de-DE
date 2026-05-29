@@ -11,7 +11,7 @@ exl-id: 05c32b6f-52e1-46a7-9011-633713422f3d
 source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 0%
+ht-degree: 6%
 
 ---
 
@@ -44,7 +44,7 @@ Informationen dazu, wie Workfront-Admins eine Voreinstellung für alle Gruppen i
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -57,7 +57,7 @@ Informationen dazu, wie Workfront-Admins eine Voreinstellung für alle Gruppen i
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr>
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -66,7 +66,7 @@ Informationen dazu, wie Workfront-Admins eine Voreinstellung für alle Gruppen i
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

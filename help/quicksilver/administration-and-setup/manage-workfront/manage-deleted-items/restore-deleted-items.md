@@ -10,8 +10,8 @@ role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
 source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 2%
+source-wordcount: '1029'
+ht-degree: 5%
 
 ---
 
@@ -38,7 +38,7 @@ Ein Gruppenadministrator bzw. eine Gruppenadministratorin kann diese Objekte auc
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,11 +51,11 @@ Ein Gruppenadministrator bzw. eine Gruppenadministratorin kann diese Objekte auc
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
-   <td>Systemadministrator</td> 
+   <td>Systemadmin</td> 
   </tr> 
  </tbody> 
 </table>

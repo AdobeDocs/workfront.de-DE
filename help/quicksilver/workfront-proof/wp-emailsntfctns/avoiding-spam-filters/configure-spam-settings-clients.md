@@ -2,19 +2,19 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: avoiding-spam-filters
-title: Spam-Einstellungen für gängige E-Mail-Clients konfigurieren
+title: Konfigurieren von Spam-Einstellungen für gängige E-Mail-Clients
 description: Sie können Ihren E-Mail-Client so konfigurieren [!DNL Workfront Proof]  dass E-Mails nicht an den Spam-Ordner gesendet werden.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 41517540-c5a8-4bf5-997b-e7a605337e73
 source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
 workflow-type: tm+mt
-source-wordcount: '1480'
-ht-degree: 0%
+source-wordcount: '1499'
+ht-degree: 1%
 
 ---
 
-# Spam-Einstellungen für gängige E-Mail-Clients konfigurieren
+# Konfigurieren von Spam-Einstellungen für gängige E-Mail-Clients
 
 >[!IMPORTANT]
 >
@@ -77,7 +77,7 @@ So ändern Sie alle Filter, die [!DNL Workfront Proof]-E-Mails an den Papierkorb
 
 1. Wenn zusätzliche [!DNL Workfront Proof]-Adressfilter aufgelistet sind, wiederholen Sie die Schritte 3-6 für jeden Filter.
 
-## [!DNL Microsoft Outlook] 2003-2007
+## [!DNL Microsoft Outlook] 2003 - 2007
 
 In diesem Abschnitt:
 
@@ -95,7 +95,7 @@ So fügen Sie die beiden [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot;-Ad
 1. Klicken **[!UICONTROL auf]** Registerkarte **[!UICONTROL Sichere Absender]**.
 
 1. Kopieren Sie die erste &quot;[!UICONTROL from]-Adresse oder nur den Domain-Namen (den Rest des Namens nach dem @-Zeichen) in das Feld **[!UICONTROL Adresse oder Domain hinzufügen]** und fügen Sie sie ein.
-1. Klicken Sie **[!UICONTROL OK]**. Die Adresse wird der Liste hinzugefügt.
+1. Klicken Sie auf **[!UICONTROL OK]**. Die Adresse wird der Liste hinzugefügt.
 1. Für die zweite &quot;[!UICONTROL von]&quot;-Adresse wiederholen Sie die Schritte 3-5.
 
 ### Für bestehende [!DNL Workfront Proof]-E-Mails

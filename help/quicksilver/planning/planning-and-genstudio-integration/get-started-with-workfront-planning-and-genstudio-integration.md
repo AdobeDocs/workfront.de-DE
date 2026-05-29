@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 35cf3692f0fd93b8835755c316e14efc99af3fb8
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '2222'
+source-wordcount: '2351'
 ht-degree: 3%
 
 ---
@@ -52,11 +52,12 @@ Durch die Integration von Workfront Planning mit GenStudio for Performance Marke
 <!--check this list and ensure it's accurate and add/ remove some of the benefits-->
 
 * Anzeigen von GenStudio Workspace in Workfront Planning.
-* Ändern Sie Ihre Kampagnen, Produkte, Personas und Aktivierungen in GenStudio for Performance Marketing und erhalten Sie Echtzeit-Aktualisierungen derselben Informationen in Workfront Planning.
+* Ändern Sie Ihre Kampagnen, Produkte, Personas, Regionen und Aktivierungen in GenStudio for Performance Marketing und erhalten Sie Echtzeit-Aktualisierungen derselben Informationen in Workfront Planning.
 * Ändern Sie Ihre Kampagnen, Produkte, Personas und Aktivierungen in Workfront Planning und erhalten Sie Echtzeit-Aktualisierungen derselben Informationen in GenStudio for Performance Marketing.
 * Doppelte Dateneingabe vermeiden.
 * Beibehaltung der Ausrichtung bei allen Planungs- und Aktivierungsmaßnahmen.
 * Verbinden von GenStudio-Marken und deren Informationen mit Workfront-Planungsdatensätzen
+* Synchronisieren Sie GenStudio-Informationen für Kampagnen, Produkte, Personas, Regionen und Kanäle mit AEM Assets und Inhaltsfragmenten, wenn diese in Planning im GenStudio-Arbeitsbereich eine Verbindung zu diesen Datensatztypen herstellen.
 
 ## Integrationsanforderungen
 
@@ -376,16 +377,23 @@ Beachten Sie Folgendes zu Datensatztypfeldern in GenStudio:
 
 Sie können in GenStudio-Arbeitsbereichen, für die Sie über Verwaltungsberechtigungen verfügen, Verbindungen zwischen Datensatztypen erstellen.
 
-<!--When AEM object types are connected to GenStudio record types, AEM object metadata reflects on Planning records-->
-
 Sie können in Workfront Planning die folgenden Verbindungen zwischen GenStudio-Datensatztypen und anderen Datensatz- oder Objekttypen herstellen:
 
 * Zwei GenStudio-Datensatztypen
 * Einen GenStudio-Datensatztyp und einen Planning-Datensatztyp aus demselben Arbeitsbereich
 * Einen GenStudio-Datensatztyp und einen Planning-Datensatztyp aus einem anderen Arbeitsbereich, wenn die Datensatztypen für die Verbindung aus einem anderen Arbeitsbereich konfiguriert sind.
 * Ein GenStudio-Datensatztyp und ein Workfront-Objekttyp (Projekte, Portfolios, Programme, Unternehmen, Gruppen)
-* Einen GenStudio-Datensatztyp und einen AEM-Objekttyp. Sie müssen über eine Lizenz für Adobe Experience Manager verfügen, um auf AEM-Objekte zuzugreifen, zusätzlich zu einer Lizenz für Workfront Planning und für Adobe GenStudio for Performance Marketing.
-* GenStudio-Datensatztypen und GenStudio-Marken. Die Markenverbindung wird standardmäßig zu den Datensatztypen „Produkte“ und „Personas“ hinzugefügt.
+* Einen GenStudio-Datensatztyp und einen AEM-Objekttyp (Assets oder Inhaltsfragmente). Sie müssen über eine Lizenz für Adobe Experience Manager verfügen, um auf AEM-Objekte zuzugreifen, zusätzlich zu einer Lizenz für Workfront Planning und einer Lizenz für Adobe GenStudio for Performance Marketing.
+* Einen GenStudio-Datensatztyp und GenStudio Brands. Die Markenverbindung wird standardmäßig zu den Datensatztypen „Produkte“ und „Personas“ hinzugefügt.
+
+### Metadatensynchronisierung zwischen GenStudio Workspace-Datensätzen und AEM-Objekten
+
+Wenn AEM-Objekttypen (Assets und Inhaltsfragmente) über den GenStudio Workspace mit GenStudio-Datensatztypen verbunden sind, werden die folgenden Informationen zwischen GenStudio-Datensätzen und AEM-Objekten synchronisiert:
+
+* Informationen zu AEM-Assets und Inhaltsfragmenten werden im GenStudio-Arbeitsbereich in Suchfeldern angezeigt, die hinzugefügt werden, wenn die Datensatztypen verbunden sind.
+* Informationen zum GenStudio-Datensatz werden auf dem AEM-Asset auf der Registerkarte Kampagne oder auf dem Inhaltsfragment auf der Registerkarte Metadaten in AEM angezeigt.
+
+  Weitere Informationen finden Sie unter [Verwalten des GenStudio-Arbeitsbereichs in Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md).
 
 ### Anforderungsformulare und Automatisierungen im Datensatztyp GenStudio
 

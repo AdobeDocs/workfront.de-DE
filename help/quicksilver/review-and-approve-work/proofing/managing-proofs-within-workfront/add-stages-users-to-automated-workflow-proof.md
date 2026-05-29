@@ -1,25 +1,25 @@
 ---
 product-area: documents;user-management;resource-management
 navigation-topic: manage-proofs-within-workfront
-title: Schritte und Benutzer zu einem automatisierten Workflow für einen Korrekturabzug hinzufügen
+title: Hinzufügen von Phasen und Benutzenden zu einem automatisierten Workflow für einen Korrekturabzug
 description: Wenn Sie der Testversand-Verantwortliche sind, können Sie einem vorhandenen automatisierten Workflow Stadien hinzufügen.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 45839f8a-31b2-43a3-a9ea-5437df8cc6b4
 source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 3%
+source-wordcount: '229'
+ht-degree: 28%
 
 ---
 
-# Schritte und Benutzer zu einem automatisierten Workflow für einen Korrekturabzug hinzufügen
+# Hinzufügen von Phasen und Benutzenden zu einem automatisierten Workflow für einen Korrekturabzug
 
 Wenn Sie der Testversand-Verantwortliche sind, können Sie einem vorhandenen automatisierten Workflow Stadien hinzufügen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,17 +37,17 @@ Wenn Sie der Testversand-Verantwortliche sind, können Sie einem vorhandenen aut
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof-Berechtigungsprofil </td> 
+   <td role="rowheader">Korrekturabzug-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> </td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

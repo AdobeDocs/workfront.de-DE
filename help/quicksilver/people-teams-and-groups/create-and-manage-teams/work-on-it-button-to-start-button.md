@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '780'
 ht-degree: 5%
 
 ---
@@ -41,7 +41,7 @@ Sie können die Schaltfläche [!DNL Work On It] durch eine Schaltfläche [!UICON
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>
    <p>Standard</p>
-   <p>Plan</p></td>
+   <p>Abo</p></td>
   </tr> 
  </tbody> 
 </table>

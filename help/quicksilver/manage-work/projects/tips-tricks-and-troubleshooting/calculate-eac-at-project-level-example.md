@@ -9,12 +9,12 @@ feature: Work Management
 exl-id: ff88b7e3-2a5b-464f-bed1-6848067840b8
 source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '2213'
-ht-degree: 1%
+source-wordcount: '2306'
+ht-degree: 6%
 
 ---
 
-# Berechnungsbeispiel - EAC auf Projektebene berechnen
+# Berechnungsbeispiel – Berechnen des EAC auf Projektebene
 
 ## EAC-Methode: Auf Projektebene berechnen
 
@@ -53,13 +53,13 @@ EAC-Methode = Berechnung auf Projektebene **&#x200B;**
       <td><p>Aufgabe 1</p></td>
       <td><p>5 Std</p></td>
       <td><p>25 Std</p></td>
-      <td><p>20 %</p></td>
+      <td><p>20%</p></td>
      </tr>
      <tr>
       <td><p>Aufgabe 2</p></td>
       <td><p>10 Std</p></td>
       <td><p>25 Std</p></td>
-      <td><p>30 %</p></td>
+      <td><p>30%</p></td>
      </tr>
      <tr>
       <td><p>Aufgabe 3</p></td>
@@ -144,7 +144,7 @@ EAC-Methode = Berechnung auf Projektebene
    <td> <p>Aufgabe 2</p> </td> 
    <td> <p>5 Std</p> </td> 
    <td> <p>10 Std</p> </td> 
-   <td> <p>20 %</p> </td> 
+   <td> <p>20%</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 3</p> </td> 
@@ -156,13 +156,13 @@ EAC-Methode = Berechnung auf Projektebene
    <td> <p>Aufgabe 4</p> </td> 
    <td> <p>10 Std</p> </td> 
    <td> <p>10 Std</p> </td> 
-   <td> <p>40 %</p> </td> 
+   <td> <p>40%</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 5</p> </td> 
    <td> <p>15 Std</p> </td> 
    <td> <p>10 Std</p> </td> 
-   <td> <p>50 %</p> </td> 
+   <td> <p>50%</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 6</p> </td> 
@@ -263,25 +263,25 @@ EAC-Methode = Berechnung auf Projektebene
   <tr> 
    <td> <p>Aufgabe 1</p> </td> 
    <td> <p>5 Std</p> </td> 
-   <td> <p>500,00 $</p> </td> 
+   <td> <p>$500.00</p> </td> 
    <td> <p>25 Std</p> </td> 
-   <td> <p>2 500,00 $</p> </td> 
-   <td> <p>20 %</p> </td> 
+   <td> <p>$2,500.00</p> </td> 
+   <td> <p>20%</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 2</p> </td> 
    <td> <p>10 Std</p> </td> 
-   <td> <p>1 000,00 $</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
    <td> <p>25 Std</p> </td> 
-   <td> <p>2 500,00 $</p> </td> 
-   <td> <p>30 %</p> </td> 
+   <td> <p>$2,500.00</p> </td> 
+   <td> <p>30%</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 3</p> </td> 
    <td> <p>15 Std</p> </td> 
-   <td> <p>1 500,00 $</p> </td> 
+   <td> <p>$1,500.00</p> </td> 
    <td> <p>25 Std</p> </td> 
-   <td> <p>2 500,00 $</p> </td> 
+   <td> <p>$2,500.00</p> </td> 
    <td> <p>40 %</p> </td> 
   </tr> 
  </tbody> 
@@ -306,26 +306,26 @@ EAC-Methode = Berechnung auf Projektebene
   <tr> 
    <td> <p>Aufgabe 1</p> </td> 
    <td> <p>Aufgabe 1 Ausl. 1</p> </td> 
-   <td> <p>300,00 $</p> </td> 
-   <td> <p>400,00 $</p> </td> 
+   <td> <p>$300.00</p> </td> 
+   <td> <p>$400.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 1</p> </td> 
    <td> <p>Aufgabe 1 Ausl. 2</p> </td> 
-   <td> <p>500,00 $</p> </td> 
-   <td> <p>0,00 $</p> </td> 
+   <td> <p>$500.00</p> </td> 
+   <td> <p>$0.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 2</p> </td> 
    <td> <p>Aufgabe 2 Ausl</p> </td> 
-   <td> <p>200,00 $</p> </td> 
-   <td> <p>100,00 $</p> </td> 
+   <td> <p>$200.00</p> </td> 
+   <td> <p>$100.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 3</p> </td> 
    <td> <p>Aufgabe 3 Ausl</p> </td> 
-   <td> <p>800,00 $</p> </td> 
-   <td> <p>700,00 $</p> </td> 
+   <td> <p>$800.00</p> </td> 
+   <td> <p>$700.00</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -346,13 +346,13 @@ EAC-Methode = Berechnung auf Projektebene
  <tbody> 
   <tr> 
    <td> <p>Projektausgabe 1</p> </td> 
-   <td> <p>1 000,00 $</p> </td> 
-   <td> <p>1 500,00 $</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
+   <td> <p>$1,500.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 1 Ausl. 2</p> </td> 
-   <td> <p>2 500,00 $</p> </td> 
-   <td> <p>0,00 $</p> </td> 
+   <td> <p>$2,500.00</p> </td> 
+   <td> <p>$0.00</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -375,27 +375,27 @@ EAC-Methode = Berechnung auf Projektebene
  <tbody> 
   <tr> 
    <td> <p>Aufgabe 1</p> </td> 
-   <td> <p>500,00 $</p> </td> 
-   <td> <p>300,00 $</p> </td> 
-   <td> <p>400,00 $</p> </td> 
+   <td> <p>$500.00</p> </td> 
+   <td> <p>$300.00</p> </td> 
+   <td> <p>$400.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 2</p> </td> 
-   <td> <p>0,00 $</p> </td> 
-   <td> <p>200,00 $</p> </td> 
-   <td> <p>100,00 $</p> </td> 
+   <td> <p>$0.00</p> </td> 
+   <td> <p>$200.00</p> </td> 
+   <td> <p>$100.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 3</p> </td> 
-   <td> <p>0,00 $</p> </td> 
-   <td> <p>800,00 $</p> </td> 
-   <td> <p>700,00 $</p> </td> 
+   <td> <p>$0.00</p> </td> 
+   <td> <p>$800.00</p> </td> 
+   <td> <p>$700.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Projekt</p> </td> 
-   <td> <p>3 000,00 $</p> </td> 
-   <td> <p>2 300,00 $</p> </td> 
-   <td> <p> 2 700,00 $ <strong></strong></p> </td> 
+   <td> <p>$3,000.00</p> </td> 
+   <td> <p>$2,300.00</p> </td> 
+   <td> <p> $2,700.00 <strong></strong></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -423,7 +423,7 @@ EAC-Methode = Berechnung auf Projektebene
 
    ELSE CPI_Labour = 1\
    **CPI Labor** **für Aufgabe 1** = 100/2500\
-   **CPI Arbeit** **für Aufgabe 1** = .04&#x200B;**&#x200B;**&#x200B;**EAC Arbeit &#x200B;**&#x200B;**für Aufgabe 1**=* IF *CPI_Labor &lt;> 0* THEN *EAC Arbeit = Geplante Lohnkosten/CPI_Labor
+   **CPI Arbeit** **für Aufgabe 1** = .04 **&#x200B;**&#x200B;**EAC Arbeit**&#x200B;**für Aufgabe 1**= *IF* CPI_Labor &lt;> 0 *THEN* EAC Arbeit = Geplante Lohnkosten/CPI_Labor
    * SONSTIGE* EAC-Arbeitskosten = Geplante Arbeitskosten + Ist-Arbeitskosten\
      **EAC Arbeit**&#x200B;**für Aufgabe 1** = 500.00/.04\
      **EAC Labor**&#x200B;**für Aufgabe 1** = 12.500,00 $\
@@ -439,7 +439,7 @@ EAC-Methode = Berechnung auf Projektebene
    Task 3 = .44 / $6.950.00
 
 1. **CPI für Projekt** = .32 wie folgt berechnet:\
-   **CPI**&#x200B;**für Projekt** = *IF* Tatsächliche Arbeitskosten + IncurredActualExpenseCost &lt;> 0 *THEN*
+   **CPI**&#x200B;**&#x200B; für Projekt &#x200B;** = *IF* Tatsächliche Arbeitskosten + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/ActualLaborCost + IncurredActualExpenseCost)
@@ -462,7 +462,7 @@ EAC-Methode = Berechnung auf Projektebene
    **CPI Labor**&#x200B;**for Project** = .13333\
    **CPI Labor**&#x200B;**for Project** = .13
 
-   **EAC Labor**&#x200B;**for Project** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **EAC Labor**&#x200B;**&#x200B; for Project &#x200B;** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost/CPI_Labor
@@ -529,47 +529,47 @@ EAC-Methode = Berechnung auf Projektebene
    <td> </td> 
    <td> </td> 
    <td> <p>10 Std</p> </td> 
-   <td> <p>1 000,00 $</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 2</p> </td> 
    <td> <p>5 Std</p> </td> 
-   <td> <p>500,00 $</p> </td> 
+   <td> <p>$500.00</p> </td> 
    <td> <p>10 Std</p> </td> 
-   <td> <p>1 000,00 $</p> </td> 
-   <td> <p>20 %</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
+   <td> <p>20%</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 3</p> </td> 
    <td> </td> 
    <td> </td> 
    <td> <p>10 Std</p> </td> 
-   <td> <p>1 000,00 $</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 4</p> </td> 
    <td> <p>10 Std</p> </td> 
-   <td> <p>1 000,00 $</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
    <td> <p>10 Std</p> </td> 
-   <td> <p>1 000,00 $</p> </td> 
-   <td> <p>40 %</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
+   <td> <p>40%</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 5</p> </td> 
    <td> <p>15 Std</p> </td> 
-   <td> <p>1 500,00 $</p> </td> 
+   <td> <p>$1,500.00</p> </td> 
    <td> <p>10 Std</p> </td> 
-   <td> <p>1 000,00 $</p> </td> 
-   <td> <p>50 %</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
+   <td> <p>50%</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 6</p> </td> 
    <td> <p>20 Std</p> </td> 
-   <td> <p>2 000,00 $</p> </td> 
+   <td> <p>$2,000.00</p> </td> 
    <td> <p>10 Std</p> </td> 
-   <td> <p>1 000,00 $</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
    <td> <p>60 %</p> </td> 
   </tr> 
  </tbody> 
@@ -595,20 +595,20 @@ EAC-Methode = Berechnung auf Projektebene
   <tr> 
    <td> <p>Aufgabe 1</p> </td> 
    <td> <p>Aufgabe 1 Ausl. 1</p> </td> 
-   <td> <p>300,00 $</p> </td> 
-   <td> <p>- 400,00 $</p> </td> 
+   <td> <p>$300.00</p> </td> 
+   <td> <p>-$400.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 1</p> </td> 
    <td> <p>Aufgabe 1 Ausl. 2</p> </td> 
-   <td> <p>- 500,00 $</p> </td> 
-   <td> <p>800,00 $</p> </td> 
+   <td> <p>-$500.00</p> </td> 
+   <td> <p>$800.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 1</p> </td> 
    <td> <p>Aufgabe 1 Ausl. 3</p> </td> 
-   <td> <p>400,00 $</p> </td> 
-   <td> <p>0,00 $</p> </td> 
+   <td> <p>$400.00</p> </td> 
+   <td> <p>$0.00</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -619,26 +619,26 @@ EAC-Methode = Berechnung auf Projektebene
   <tr> 
    <td> <p>Aufgabe 2</p> </td> 
    <td> <p>Aufgabe 2 Ausl. 1</p> </td> 
-   <td> <p>500,00 $</p> </td> 
-   <td> <p>700,00 $</p> </td> 
+   <td> <p>$500.00</p> </td> 
+   <td> <p>$700.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 2</p> </td> 
    <td> <p>Aufgabe 2 Ausl. 2</p> </td> 
-   <td> <p>- 400,00 $</p> </td> 
-   <td> <p>0,00 $</p> </td> 
+   <td> <p>-$400.00</p> </td> 
+   <td> <p>$0.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 2</p> </td> 
    <td> <p>Aufgabe 2 Ausl. 3</p> </td> 
-   <td> <p>- 200,00 $</p> </td> 
-   <td> <p>600,00 $</p> </td> 
+   <td> <p>-$200.00</p> </td> 
+   <td> <p>$600.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 2</p> </td> 
    <td> <p>Aufgabe 2 Ausl. 4</p> </td> 
-   <td> <p>700,00 $</p> </td> 
-   <td> <p>- 200,00 $</p> </td> 
+   <td> <p>$700.00</p> </td> 
+   <td> <p>-$200.00</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -649,8 +649,8 @@ EAC-Methode = Berechnung auf Projektebene
   <tr> 
    <td> <p>Aufgabe 3</p> </td> 
    <td> <p>Aufgabe 3 Ausl</p> </td> 
-   <td> <p>0,00 $</p> </td> 
-   <td> <p>1 000,00 $</p> </td> 
+   <td> <p>$0.00</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -661,20 +661,20 @@ EAC-Methode = Berechnung auf Projektebene
   <tr> 
    <td> <p>Aufgabe 4</p> </td> 
    <td> <p>Aufgabe 4 Ausl. 1</p> </td> 
-   <td> <p>800,00 $</p> </td> 
-   <td> <p>0,00 $</p> </td> 
+   <td> <p>$800.00</p> </td> 
+   <td> <p>$0.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 4</p> </td> 
    <td> <p>Aufgabe 4 Ausl. 2</p> </td> 
-   <td> <p>- 100,00 $</p> </td> 
-   <td> <p>300,00 $</p> </td> 
+   <td> <p>-$100.00</p> </td> 
+   <td> <p>$300.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 4 </p> </td> 
    <td> <p>Aufgabe 4 Ausl. 3</p> </td> 
-   <td> <p>-200,00</p> </td> 
-   <td> <p>0,00 $</p> </td> 
+   <td> <p>-200.00</p> </td> 
+   <td> <p>$0.00</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -685,20 +685,20 @@ EAC-Methode = Berechnung auf Projektebene
   <tr> 
    <td> <p>Aufgabe 5</p> </td> 
    <td> <p>Aufgabe 5 Ausl. 1</p> </td> 
-   <td> <p>700,00 $</p> </td> 
-   <td> <p>800,00 $</p> </td> 
+   <td> <p>$700.00</p> </td> 
+   <td> <p>$800.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 5</p> </td> 
    <td> <p>Aufgabe 5 Ausl. 2</p> </td> 
-   <td> <p>- 100,00 $</p> </td> 
-   <td> <p>300,00 $</p> </td> 
+   <td> <p>-$100.00</p> </td> 
+   <td> <p>$300.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 5</p> </td> 
    <td> <p>Aufgabe 5 Ausl. 3</p> </td> 
-   <td> <p>- 400,00 $</p> </td> 
-   <td> <p>- 200,00 $</p> </td> 
+   <td> <p>-$400.00</p> </td> 
+   <td> <p>-$200.00</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -709,14 +709,14 @@ EAC-Methode = Berechnung auf Projektebene
   <tr> 
    <td> <p>Aufgabe 6</p> </td> 
    <td> <p>Aufgabe 6 Ausl. 1</p> </td> 
-   <td> <p>600,00 $</p> </td> 
-   <td> <p>700,00 $</p> </td> 
+   <td> <p>$600.00</p> </td> 
+   <td> <p>$700.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 6</p> </td> 
    <td> <p>Aufgabe 6 Ausl. 2</p> </td> 
-   <td> <p>500,00 $</p> </td> 
-   <td> <p>- 300,0 $</p> </td> 
+   <td> <p>$500.00</p> </td> 
+   <td> <p>-$300.0</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -737,13 +737,13 @@ EAC-Methode = Berechnung auf Projektebene
  <tbody> 
   <tr> 
    <td> <p>Projektausgabe 1</p> </td> 
-   <td> <p>1 000,00 $</p> </td> 
-   <td> <p>1 500,00 $</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
+   <td> <p>$1,500.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 1 Ausl. 2</p> </td> 
-   <td> <p>2 500,00 $</p> </td> 
-   <td> <p> 0,00 $ <strong></strong></p> </td> 
+   <td> <p>$2,500.00</p> </td> 
+   <td> <p> $0.00 <strong></strong></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -766,45 +766,45 @@ EAC-Methode = Berechnung auf Projektebene
  <tbody> 
   <tr> 
    <td> <p>Aufgabe 1</p> </td> 
-   <td> <p>400,00 $</p> </td> 
-   <td> <p>- 500,00 $</p> </td> 
-   <td> <p>800,00 $</p> </td> 
+   <td> <p>$400.00</p> </td> 
+   <td> <p>-$500.00</p> </td> 
+   <td> <p>$800.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 2</p> </td> 
-   <td> <p>- 400,00 $</p> </td> 
-   <td> <p>300,00 $</p> </td> 
-   <td> <p>1 300,00 $</p> </td> 
+   <td> <p>-$400.00</p> </td> 
+   <td> <p>$300.00</p> </td> 
+   <td> <p>$1,300.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 3</p> </td> 
-   <td> <p>0,00 $</p> </td> 
-   <td> <p>0,00 $</p> </td> 
-   <td> <p>1 000,00 $</p> </td> 
+   <td> <p>$0.00</p> </td> 
+   <td> <p>$0.00</p> </td> 
+   <td> <p>$1,000.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 4</p> </td> 
-   <td> <p>600,00 $</p> </td> 
-   <td> <p>- 100,00 $</p> </td> 
-   <td> <p>300,00 $</p> </td> 
+   <td> <p>$600.00</p> </td> 
+   <td> <p>-$100.00</p> </td> 
+   <td> <p>$300.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 5</p> </td> 
-   <td> <p>0,00 $</p> </td> 
-   <td> <p>600,00 $</p> </td> 
-   <td> <p>1 100,00 $</p> </td> 
+   <td> <p>$0.00</p> </td> 
+   <td> <p>$600.00</p> </td> 
+   <td> <p>$1,100.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 6</p> </td> 
-   <td> <p>0,00 $</p> </td> 
-   <td> <p>600,00 $</p> </td> 
-   <td> <p>700,00 $</p> </td> 
+   <td> <p>$0.00</p> </td> 
+   <td> <p>$600.00</p> </td> 
+   <td> <p>$700.00</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Projekt</p> </td> 
-   <td> <p>2 500,00 $</p> </td> 
-   <td> <p>1000,00 $</p> </td> 
-   <td> <p>1 500,00 $</p> </td> 
+   <td> <p>$2,500.00</p> </td> 
+   <td> <p>$1000.00</p> </td> 
+   <td> <p>$1,500.00</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -823,7 +823,7 @@ EAC-Methode = Berechnung auf Projektebene
    **CPI Labor**&#x200B;**Task 2** = 100/1000\
    **CPI Labor**&#x200B;**Task 2** = .1
 
-   **EAC Labor**&#x200B;**Task 2** = *IF* CPI_Labour &lt;> 0 *THEN*
+   **EAC Labor**&#x200B;**&#x200B; Task 2 &#x200B;** = *IF* CPI_Labour &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost/CPI_Labor
@@ -831,7 +831,7 @@ EAC-Methode = Berechnung auf Projektebene
 
    * SONSTIGE* EAC-Arbeitskosten = Geplante Arbeitskosten + Ist-Arbeitskosten\
      **EAC Labor**&#x200B;**Task 2** = 500.00/.1\
-     **EAC Labor**&#x200B;**Task 2** = $5.000.00 **&#x200B;**&#x200B;**&#x200B; EAC Expense &#x200B;**&#x200B;**Task 2 &#x200B;**= IncurredActualExpenseCost + NotIncurredPlannedExpense\
+     **EAC Labor**&#x200B;**Task 2** = $5.000.00 **&#x200B;**&#x200B;**EAC Expense &#x200B;**&#x200B;**Task 2** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
      **EAC-Ausgabe &#x200B;**&#x200B;**Aufgabe 2** = 1.300,00 $ + - 400,00 $\
      **EAC-Ausgabe**&#x200B;**Aufgabe 2** = 900,00 $
 
@@ -845,7 +845,7 @@ EAC-Methode = Berechnung auf Projektebene
    Aufgabe 6: 1,06 / 2.366,67 $
 
 1. CPI für Aufgabe 3 = .31 wie folgt berechnet:\
-   **CPI**&#x200B;**Task 3** = *IF* Ist-Lohnkosten + IncurredActualExpenseCost &lt;> 0 *THEN*
+   **CPI**&#x200B;**&#x200B; Task 3 &#x200B;** = *IF* Ist-Lohnkosten + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)
@@ -854,7 +854,7 @@ EAC-Methode = Berechnung auf Projektebene
    * ELSE* CPI = CPI_Labour\
      **CPI**&#x200B;**Aufgabe 3** = (1.150 + 500) / (3.000 + 2.400)\
      **CPI**&#x200B;**Task 3** = 1650 / 5400\
-     **CPI**&#x200B;**Task 3** = .31 **&#x200B;**&#x200B;**&#x200B; EAC für Task 3 &#x200B;**= $9.521.74 Berechnet wie folgt:\
+     **CPI**&#x200B;**Task 3** = .31 **&#x200B;**&#x200B;**EAC für Task 3** = $9.521.74 Berechnet wie folgt:\
      **CPI Labor &#x200B;**&#x200B;**Task 3** = WENN die tatsächlichen Lohnkosten &lt;> 0 DANN
 
    ```
@@ -866,7 +866,7 @@ EAC-Methode = Berechnung auf Projektebene
    **CPI Labor**&#x200B;**Task 3** = .383333\
    **CPI Labor**&#x200B;**Task 3** = .38
 
-   **EAC Labor**&#x200B;**Task 3** = *IF* CPI_Labour &lt;> 0 *THEN*
+   **EAC Labor**&#x200B;**&#x200B; Task 3 &#x200B;** = *IF* CPI_Labour &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor
@@ -885,7 +885,7 @@ EAC-Methode = Berechnung auf Projektebene
    **EAC**&#x200B;**Task 3** = $ 9.521,74
 
 1. CPI für Aufgabe 1 = .16 berechnet wie folgt:\
-   **CPI**&#x200B;**Task 1** = *IF* Ist-Lohnkosten + IncurredActualExpenseCost &lt;> 0 *THEN*
+   **CPI**&#x200B;**&#x200B; Task 1 &#x200B;** = *IF* Ist-Lohnkosten + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)
@@ -907,7 +907,7 @@ EAC-Methode = Berechnung auf Projektebene
    **CPI Labor**&#x200B;**Task 1** = 1250 / 5000\
    **CPI Labor**&#x200B;**Task 1** = .25
 
-   **EAC Labor**&#x200B;**Task 1** = *IF* CPI_Labor &lt;> 0 *THEN* EAC Labor = Geplante Lohnkosten / CPI_Labor
+   **EAC Labor**&#x200B;**&#x200B; Task 1 &#x200B;** = *IF* CPI_Labor &lt;> 0 *THEN* EAC Labor = Geplante Lohnkosten / CPI_Labor
    * SONSTIGE* EAC-Arbeitskosten = Geplante Arbeitskosten + Ist-Arbeitskosten\
      **EAC Labor**&#x200B;**Task 1** = 3.000,00 $ / .25\
      **EAC Labor**&#x200B;**Task 1** = 12.000,00 $
@@ -921,7 +921,7 @@ EAC-Methode = Berechnung auf Projektebene
    **EAC**&#x200B;**Task 1** = 17.100,00 $
 
 1. CPI für Projekt ist .25\
-   **CPI**&#x200B;**für Projekt** = *IF* Tatsächliche Arbeitskosten + IncurredActualExpenseCost &lt;> 0 *THEN*
+   **CPI**&#x200B;**&#x200B; für Projekt &#x200B;** = *IF* Tatsächliche Arbeitskosten + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)
@@ -930,7 +930,7 @@ EAC-Methode = Berechnung auf Projektebene
    * ELSE* CPI = CPI_Labour
 
    **CPI**&#x200B;**für Projekt** = (2450 + 1900) / (11000 + 6700)\
-   **CPI**&#x200B;**für Projekt** =   4350/17700\
+   **CPI**&#x200B;**für Projekt** = 4350 / 17700\
    **CPI**&#x200B;**for Project** = .25
 
 1. **EAC für Projekt** = 32.248,98 $ wie folgt berechnet:\
@@ -945,7 +945,7 @@ EAC-Methode = Berechnung auf Projektebene
    **CPI Labor**&#x200B;**for Project** = .22272\
    **CPI Labor**&#x200B;**for Project** = .22
 
-   **EAC Labor**&#x200B;**for Project** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **EAC Labor**&#x200B;**&#x200B; for Project &#x200B;** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor

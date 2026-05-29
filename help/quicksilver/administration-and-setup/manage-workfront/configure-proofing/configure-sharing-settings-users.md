@@ -10,8 +10,8 @@ role: Admin
 exl-id: 505c183b-6252-4367-898f-2429824860be
 source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 0%
+source-wordcount: '580'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +21,7 @@ Als Adobe Workfront-Administrator oder Workfront Proof-Administrator können Sie
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 

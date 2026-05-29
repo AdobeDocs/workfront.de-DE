@@ -9,8 +9,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1653'
-ht-degree: 18%
+source-wordcount: '1739'
+ht-degree: 16%
 
 ---
 
@@ -61,7 +61,7 @@ Sofern nicht anders angegeben, sind monatliche und vierteljährliche Versionen a
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Freitag, 13. März 2025</li>
+                <li>Vorschau der Version: 13. März 2025</li>
                 <li>Produktionsversion für alle Kunden: Mit der Version 25.4 (April 2025)</li>
             </ul>
         </td>
@@ -76,7 +76,7 @@ Sofern nicht anders angegeben, sind monatliche und vierteljährliche Versionen a
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Samstag, 31. Januar 2025</li>
+                <li>Vorschau der Version: 31. Januar 2025</li>
                 <span class="preview"><li>Produktionsversion für alle Kunden: 31. Januar 2025</li></span>
             </ul>
         </td>
@@ -116,7 +116,7 @@ Sofern nicht anders angegeben, sind monatliche und vierteljährliche Versionen a
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Freitag, 20. März 2025</li>
+                <li>Vorschau der Version: 20. März 2025</li>
                 <span class="preview"><li>Produktionsversion für alle Kunden: 20. März 2025</li></span>
             </ul>
         </td>
@@ -130,7 +130,7 @@ Sofern nicht anders angegeben, sind monatliche und vierteljährliche Versionen a
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Freitag, 6. Februar 2025</li>
+                <li>Vorschau der Version: 6. Februar 2025</li>
                 <span class="preview"><li>Produktionsversion für alle Kunden: 13. März 2025</li></span>
             </ul>
         </td>
@@ -185,7 +185,7 @@ Sofern nicht anders angegeben, sind monatliche und vierteljährliche Versionen a
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Freitag, 13. Februar 2025</li>
+                <li>Vorschau der Version: 13. Februar 2025</li>
                 <li>Produktion für die schnelle Veröffentlichung: Mit der Version 25.3 (März 2025)</li>
                 <li>Produktionsversion für alle Kunden: Mit der Version 25.4 (April 2025)</li>
             </ul>
@@ -209,7 +209,7 @@ Sofern nicht anders angegeben, sind monatliche und vierteljährliche Versionen a
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Mittwoch, 25. März 2025</li>
+                <li>Vorschau der Version: 25. März 2025</li>
                 <li>Produktionsversion für alle Kunden: 25. März 2025</li>
             </ul>
         </td>
@@ -228,7 +228,7 @@ Sofern nicht anders angegeben, sind monatliche und vierteljährliche Versionen a
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Freitag, 27. Februar 2025</li>
+                <li>Vorschau der Version: 27. Februar 2025</li>
                 <li>Diese Funktion wird in einem dreistufigen Rollout in die Produktion veröffentlicht: Ab Version 25.4 (10. April 2025) und nach Abschluss am 17. April 2024</li>
             </ul>
         </td>
@@ -264,7 +264,7 @@ Sofern nicht anders angegeben, sind monatliche und vierteljährliche Versionen a
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Geplante Veröffentlichung: Freitag, 23. Januar 2025</li>
+                <li>Vorschau der Version: 23. Januar 2025</li>
                 <li>Produktion für die schnelle Veröffentlichung: Mit der Version 25.2 (13. Februar 2025)</li>
                 <li>Produktionsversion für alle Kunden: Mit der Version 25.4 (April 2025)</li>
             </ul>
@@ -322,7 +322,7 @@ Wir aktualisieren die Benutzeroberfläche in Adobe Workfront, um das Anwendererl
 
 >[!IMPORTANT]
 >
->Die Dokumentation zu Workfront Fusion wurde an einen neuen Speicherort verschoben. Informationen, Anweisungen und Versionen für Fusion finden Sie in der [Dokumentation zu Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/home).
+>Die Dokumentation zu Workfront Fusion wurde an einen neuen Speicherort verschoben. Informationen, Anweisungen und Versionen für Fusion finden Sie in der [Dokumentation zu Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home).
 >
 >Jeder aktuelle Artikel in der Fusion-Dokumentation enthält einen Link zum entsprechenden Artikel am neuen Speicherort. Bitte aktualisieren Sie Ihre Lesezeichen.
 >
@@ -346,11 +346,11 @@ Es gibt derzeit keine Workfront Proof-Updates in der Version. Dieser Bereich wir
 
 Es gibt derzeit keine Updates zu Workfront Goals in der Version. Dieser Bereich wird aktualisiert, sobald Aktualisierungen verfügbar sind.
 
-### API-Version 19
+### API-Version 19
 
-Für die API-Version 19 haben wir einige Ressourcen und Endpunkte geändert. Einige der Änderungen unterstützen neue Funktionen, andere erleichtern Ihnen die Verwendung der über die API verfügbaren Informationen.
+Für API-Version 19 haben wir einige Ressourcen und Endpunkte geändert. Einige der Änderungen unterstützen neue Funktionen, andere erleichtern Ihnen die Verwendung der über die API verfügbaren Informationen.
 
-Informationen zu neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in der API-Version 19](/help/quicksilver/wf-api/api/new-api-version-19.md).
+Informationen zu neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in der API-Version 19](/help/quicksilver/wf-api/api/new-api-version-19.md).
 
 Informationen dazu, welche API-Versionen derzeit unterstützt werden, finden Sie unter [API-Versionierung und Support-Zeitplan](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 

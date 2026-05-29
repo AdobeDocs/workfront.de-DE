@@ -2,7 +2,7 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
-title: Zugreifen auf einen Korrekturabzug, der für Sie freigegeben wurde
+title: Zugreifen auf einen für Sie freigegebenen Korrekturabzug
 description: Wenn Sie eine E-Mail zu einem Korrekturabzug erhalten, enthält sie eine persönliche URL für den Zugriff auf den Korrekturabzug. Weitere Informationen finden Sie unter Neue Korrekturabzugs-E-Mail .
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -10,11 +10,11 @@ exl-id: 901013f2-833f-4f6b-921c-eddd4f063247
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
 source-wordcount: '363'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Zugreifen auf einen Korrekturabzug, der für Sie freigegeben wurde
+# Zugreifen auf einen für Sie freigegebenen Korrekturabzug
 
 >[!IMPORTANT]
 >

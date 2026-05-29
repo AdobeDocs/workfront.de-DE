@@ -1,21 +1,21 @@
 ---
 content-type: api
 navigation-topic: general-api
-title: Rich-Textfelder in der Adobe Workfront-API
-description: Rich-Textfelder in der Adobe Workfront-API
+title: Rich-Text-Felder in der Adobe Workfront-API
+description: Rich-Text-Felder in der Adobe Workfront-API
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 67fc34dc-0722-4419-8254-0371ad5abfc3
 source-git-commit: f9a154fa92217810b762ac48169512bc0bca7305
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 0%
+source-wordcount: '775'
+ht-degree: 3%
 
 ---
 
 
-# Rich-Textfelder in der Adobe Workfront-API
+# Rich-Text-Felder in der Adobe Workfront-API
 
 <!-- Audited: 5/2025 -->
 
@@ -120,7 +120,7 @@ So speichern Sie die folgenden Werte eines Rich-Text-Felds mithilfe der Workfron
    >
    >Während die entityMap-Funktion bei der ersten Version nicht unterstützt wird, ist es dennoch ein erforderliches Feld, um diese JSON in einer Anfrage zu übergeben.
 
-1. Verwenden Sie die Stringify-Methode für die oben beschriebene JSON, um eine PUT-Anfrage zu stellen und Aktualisierungen zu senden.
+1. Verwenden Sie die stringify-Methode für die oben beschriebene JSON, um eine PUT-Anfrage zu stellen und Aktualisierungen zu senden.
 
    <!-- [Copy](javascript:void(0);) -->
    <pre>&lt;OBJ Code>&lt;OBJ ID></pre>

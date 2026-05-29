@@ -10,12 +10,12 @@ role: Admin
 exl-id: 9bc5987b-6e32-47df-90c8-08ea4b1b7451
 source-git-commit: 75fea812b4574191522af4721a013b57aa5d609f
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 1%
+source-wordcount: '849'
+ht-degree: 5%
 
 ---
 
-# Konfigurieren von Adobe Workfront mit SAML 2.0 mithilfe von ADFS
+# Konfigurieren von Adobe Workfront mit SAML 2.0 mithilfe von ADFS
 
 {{important-admin-console-onboard}}
 
@@ -25,7 +25,7 @@ In diesem Handbuch wird das Einrichten von ADFS ohne automatische Bereitstellung
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +37,7 @@ In diesem Handbuch wird das Einrichten von ADFS ohne automatische Bereitstellung
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Standard</p><p>Plan</p></td> 
+   <td><p>Standard</p><p>Abo</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -46,7 +46,7 @@ In diesem Handbuch wird das Einrichten von ADFS ohne automatische Bereitstellung
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

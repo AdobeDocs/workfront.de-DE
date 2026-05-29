@@ -3,7 +3,7 @@ user-type: administrator
 content-type: how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: Installieren eines Umgebungs-Promotion-Pakets
+title: Installieren eines Umgebungsförderungspakets
 description: Die Funktion zum Hochstufen der Umgebung soll die Möglichkeit bieten, konfigurationsbezogene Objekte von einer Umgebung in eine andere zu verschieben. Erfahren Sie, wie Sie ein Umgebungs-Promotion-Paket in einer Zielumgebung installieren.
 author: Becky
 feature: System Setup and Administration
@@ -11,12 +11,12 @@ role: Admin
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
 source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
 workflow-type: tm+mt
-source-wordcount: '946'
-ht-degree: 0%
+source-wordcount: '950'
+ht-degree: 3%
 
 ---
 
-# Installieren eines Umgebungs-Promotion-Pakets
+# Installieren eines Umgebungsförderungspakets
 
 Nachdem Sie ein Paket erstellt haben, können Sie es in einer anderen Umgebung installieren.
 
@@ -52,7 +52,7 @@ Sie müssen über Folgendes verfügen:
   </tr>
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 ## Voraussetzungen
 

@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1252'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Die Zeitzone in Ihrem Browser sollte für den Ort konfiguriert werden, an dem Si
 
   Wenn einem Objekt Benutzende in mehreren Zeitzonen zugewiesen sind, konvertiert [!DNL Workfront] die Objektzeiten für alle Beteiligten mithilfe der im Browser jedes Benutzers konfigurierten Zeitzone.
 
-  **BEISPIEL**
+  **EXAMPLE**
 In der Eastern Standard Time (EST)-Zone, in der Sie arbeiten, legen Sie eine Aufgabe so fest, dass sie um 16 :00 beginnt, und weisen Sie sie Benutzern zu, die in der Pacific Standard Time (PST)-Zone arbeiten. Für diese Benutzer wird die Startzeit als 13 :00 angezeigt. Würde sie um 16 :00 angezeigt, würden sie mit drei Stunden Verspätung damit beginnen.
 
   Wenn der Ersteller des Objekts den Unterschied zwischen den Zeitzonen der Verantwortlichen nicht kennt und beim Festlegen der Objektzeiten nicht die erforderlichen Anpassungen vornimmt, oder die Verantwortlichen diesen Unterschied nicht kennen, kann es schwierig sein, den richtigen Zeitpunkt zu finden, während alle am Objekt zusammenarbeiten.
@@ -125,7 +125,7 @@ Sie können Benutzenden auf verschiedene Weise dabei helfen, einfacher über meh
 
 >[!BEGINSHADEBOX]
 
-**BEISPIEL:**
+**BEISPIEL**
 Ein EST-Benutzer wird einer eintägigen Aufgabe zugewiesen, die um 9:00 :00 PST beginnen soll, d. h. um 12:00 Uhr EST. Da dem EST-Benutzer nur noch 2 Arbeitsstunden für den Tag verbleiben, verlängert sich das Abschlussdatum der Aufgabe um etwa 6 Stunden auf den nächsten Arbeitstag.
 
 

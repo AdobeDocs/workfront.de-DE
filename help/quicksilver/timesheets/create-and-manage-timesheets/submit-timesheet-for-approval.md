@@ -8,12 +8,12 @@ feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
 source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 0%
+source-wordcount: '845'
+ht-degree: 6%
 
 ---
 
-# Arbeitszeittabelle zur Genehmigung einreichen
+# Übermitteln einer Arbeitszeittabelle zur Genehmigung
 
 <!--Audited: 8/2024-->
 
@@ -21,7 +21,7 @@ Durch das Einreichen Ihrer Arbeitszeittabelle zur Genehmigung erhält Ihr Vorges
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,12 +51,12 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 +++
 
-## Arbeitszeittabelle zur Genehmigung einreichen
+## Übermitteln einer Arbeitszeittabelle zur Genehmigung
 
 * [Arbeitszeittabelle zur Genehmigung einreichen](#submit-a-timesheet-for-approval)
 * [Anzeigen des Status einer übermittelten Arbeitszeittabelle](#view-the-status-of-a-submitted-timesheet)
 
-### Arbeitszeittabelle zur Genehmigung einreichen
+### Übermitteln einer Arbeitszeittabelle zur Genehmigung
 
 Nachdem eine genehmigende Person für Arbeitszeittabellen festgelegt wurde (wie im Abschnitt [Bestimmen von &#x200B;](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver)) im Artikel [Genehmigen einer Arbeitszeittabelle](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md) beschrieben), ändert sich die Schaltfläche **Schließen** am unteren Rand der Arbeitszeittabelle in eine Schaltfläche **Zur Genehmigung einreichen**.
 
@@ -96,7 +96,7 @@ So zeigen Sie den Status einer Arbeitszeittabelle an:
 
    * Wählen Sie **Meine Arbeitszeittabellen-Genehmigungen** in der rechten oberen Ecke der Seite aus, um nur die von Ihnen genehmigten Arbeitszeittabellen anzuzeigen
 
-     Oder
+     ODER
 
      Wählen Sie **Meine Arbeitszeittabellen** aus, um nur Ihre Arbeitszeittabellen anzuzeigen.
 

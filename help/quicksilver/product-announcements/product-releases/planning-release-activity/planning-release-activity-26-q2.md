@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 79d4ad4a-1dd0-431e-92cd-582b5a1b7ec8
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: f11daa69f72c32418298ac75f81b0fb64835d99b
+source-git-commit: 3988b9f7ce6f0de0a1864cd3a81fc7b8f15cd90f
 workflow-type: tm+mt
-source-wordcount: '2254'
+source-wordcount: '2278'
 ht-degree: 1%
 
 ---
@@ -334,6 +334,7 @@ Weitere Informationen und Anweisungen finden Sie [Hinzufügen von Genehmigungsre
 >Vorschau: 29. Januar 2026>Produktions-Schnellveröffentlichung: 12. Februar 2026>Produktion für alle: 16. April 2026
 
 Wir haben die Feldtypen Genehmigt am und Genehmigt nach entfernt.
+Vorhandene Informationen in den Feldern Vormals genehmigt am und Genehmigt von wurden in die Felder Ursprüngliches Datum der Anforderung genehmigt und Genehmigt von verschoben.
 
 Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
 

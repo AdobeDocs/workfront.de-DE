@@ -8,8 +8,8 @@ feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
 source-git-commit: 3bc953ebb6f16d3d4a71fe9764551a8a4cf1087a
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 10%
+source-wordcount: '1172'
+ht-degree: 6%
 
 ---
 
@@ -69,12 +69,12 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
    * Verwalten
    * Mitwirken
 * Wenn Sie eine Aufgabe freigeben, erben Benutzer standardmäßig dieselben Berechtigungen für alle untergeordneten Objekte, die mit der Aufgabe verknüpft sind. Beispielsweise erben sie dieselben Berechtigungen für die untergeordneten Aufgaben, Probleme und Dokumente, die an die Aufgabe angehängt sind.\
-  Weitere Informationen zur Hierarchie von Objekten in Workfront finden Sie unter   [Verstehen von Objekten in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+  Weitere Informationen zur Objekthierarchie in Workfront finden Sie unter [Grundlegendes zu Objekten in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
   Der Workfront-Administrator kann angeben, ob Dokumente Berechtigungen von höheren Objekten auf der Zugriffsebene der Benutzenden erben sollen. Weitere Informationen zum Beschränken von geerbten Berechtigungen für Dokumente finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 * Sie können geerbte Berechtigungen aus einer Aufgabe entfernen.\
-  Weitere Informationen zum Entfernen geerbter Berechtigungen von Objekten finden Sie unter   [Entfernen von Berechtigungen aus Objekten](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+  Weitere Informationen zum Entfernen geerbter Berechtigungen aus Objekten finden Sie unter [Entfernen von Berechtigungen aus Objekten](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
 ## Möglichkeiten zum Freigeben einer Aufgabe
 

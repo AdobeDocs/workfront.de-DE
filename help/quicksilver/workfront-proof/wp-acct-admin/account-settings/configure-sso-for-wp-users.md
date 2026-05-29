@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 52ac1919-1821-424f-89f8-72865b236e4e
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1321'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Das bedeutet, dass Sie sich über Ihr eigenes Anmeldesystem authentifizieren, ni
 
 >[!NOTE]
 >
->Sie müssen eine benutzerdefinierte Subdomain oder Domain in Ihrem [!DNL Workfront Proof] Konto eingerichtet haben, um SAML zu aktivieren. Benutzerdefinierte Subdomains können frei eingerichtet werden. Weitere Informationen finden Sie [Branding](https://support.workfront.com/hc/en-us/sections/115000921208-Branding). Weitere Informationen zu vollständig angepassten Domains finden Sie auf unserer [Marke der Website [!DNL Workfront Proof]  „Erweitert](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
+>Sie müssen eine benutzerdefinierte Subdomain oder Domain in Ihrem [!DNL Workfront Proof] Konto eingerichtet haben, um SAML zu aktivieren. Benutzerdefinierte Subdomains können frei eingerichtet werden. Weitere Informationen finden [&#x200B; unter &#x200B;](https://support.workfront.com/hc/en-us/sections/115000921208-Branding).Weitere Informationen über vollständig angepasste Domains finden Sie auf unserer [Brand the  [!DNL Workfront Proof] -Site - advanced](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
 
 ## Aktivieren von SSO in [!DNL Workfront Proof]
 
@@ -45,9 +45,9 @@ Als Dienstleister haben wir hier unsere Entitäts-ID veröffentlicht:
 * http://schemas.xmlsoap.org/claims/EmailAddress
 * urn:oid:0.9.2342.19200300.100.1.3
 * http://axschema.org/contact/email
-* openid.sreg.email
+* openid.serg.email
 * E-Mail
-* E-Mail
+* email
 * emailAddress
 
 SSO konfigurieren:

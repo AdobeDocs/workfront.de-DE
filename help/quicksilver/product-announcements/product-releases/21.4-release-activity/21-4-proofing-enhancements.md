@@ -1,6 +1,6 @@
 ---
-title: 21.4 Proofing-Verbesserungen
-description: 21.4 Proofing-Verbesserungen
+title: Verbesserungen beim Proofing in Version 21.4
+description: Verbesserungen beim Proofing in Version 21.4
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
@@ -8,12 +8,12 @@ recommendations: noDisplay, noCatalog
 exl-id: a8141c36-3e57-47df-8f27-9166fbdf1358
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 0%
+source-wordcount: '183'
+ht-degree: 4%
 
 ---
 
-# 21.4 Proofing-Verbesserungen
+# Verbesserungen beim Proofing in Version 21.4
 
 Auf dieser Seite werden alle Proofing-Verbesserungen beschrieben, die mit der Version 21.4 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 4. Oktober 2021 in der Produktionsumgebung verfügbar gemacht.
 

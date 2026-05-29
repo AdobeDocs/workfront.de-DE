@@ -1,6 +1,6 @@
 ---
-title: 22.1 Verbesserungen beim Ressourcenmanagement
-description: 22.1 Verbesserungen beim Ressourcenmanagement
+title: Verbesserungen beim Ressourcen-Management in Version 22.1
+description: Verbesserungen beim Ressourcen-Management in Version 22.1
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -8,12 +8,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 513e0831-5571-4432-ade3-4f11b7e97266
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 0%
+source-wordcount: '378'
+ht-degree: 8%
 
 ---
 
-# 22.1 Verbesserungen beim Ressourcenmanagement
+# Verbesserungen beim Ressourcen-Management in Version 22.1
 
 Auf dieser Seite werden alle Verbesserungen des Ressourcen-Managements beschrieben, die mit der Version 22.1 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung verfügbar gemacht
 
@@ -36,7 +36,7 @@ Um die Verwendung des Workload Balancer zu verbessern, haben wir die folgenden V
 
 Weitere Informationen finden Sie unter [Navigieren im Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-## Massenzuweisung von Arbeit mit dem Workload Balancer
+## Massenzuweisung von Arbeit im Workload Balancer
 
 In dem Bemühen, die Planungs-Tools zu verwerfen und durch den Workload Balancer zu ersetzen, haben wir die Möglichkeit hinzugefügt, Zuweisungen stapelweise zu verwalten. Sie können jetzt mehreren Benutzern mehrere Arbeitselemente gleichzeitig zuweisen, Benutzer aus mehreren Arbeitselementen durch andere ersetzen und die Zuweisung von Benutzern aus mehreren Elementen gleichzeitig aufheben. Sie können alle diese Aufgaben mit einer Aktion durchführen, indem Sie die neue Funktion für die Massenzuweisung im Workload-Balancer verwenden.
 
@@ -44,7 +44,7 @@ Vor dieser Verbesserung konnten Sie nur einen Benutzer einem Arbeitselement zuwe
 
 Die neuen Massenzuweisungen enthalten zusätzlich zum Namen auch neue Filterfunktionen nach Projekt- und Aufgabenstatus.
 
-Weitere Informationen finden Sie unter [Übersicht über die Zuweisung von Arbeit im Workload-Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Weitere Informationen finden Sie unter [Überblick über die Zuweisung von Arbeit im Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Währung bei der Verwaltung von Aufgabengebieten überschreiben
 

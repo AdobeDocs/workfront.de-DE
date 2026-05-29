@@ -8,8 +8,8 @@ feature: Get Started with Workfront
 exl-id: a13dbe33-f283-4732-a7f2-5a94a37855f0
 source-git-commit: c6272c7631941720e3ab1e1c80ed7d304a67d34b
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 0%
+source-wordcount: '319'
+ht-degree: 10%
 
 ---
 
@@ -28,7 +28,7 @@ Weitere Informationen dazu, wie Workfront-Admins neue Benutzende zu [!DNL Adobe 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,8 +41,8 @@ Weitere Informationen dazu, wie Workfront-Admins neue Benutzende zu [!DNL Adobe 
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Mitwirkender oder höher</p>
-   <p>Anfrage oder höher</p> </td> 
+   <p>Mitwirkende oder höher</p>
+   <p>Anfragende oder höher</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -57,7 +57,7 @@ Als neuer Benutzer können Sie nach Erhalt der Einladungs-E-Mail dem Link in der
 
 >[!NOTE]
 >
->Der Link in der E-Mail ist nur für die Anzahl der Tage gültig[!UICONTROL &#x200B; die Ihr &#x200B;]-Administrator im Bereich [!UICONTROL Allgemeine Optionen] der [!DNL Workfront]Einladungen“ angegeben hat.
+>Der Link in der E-Mail ist nur für die Anzahl der Tage gültig[!UICONTROL &#x200B; die Ihr [!DNL Workfront]-Administrator im Bereich &#x200B;]Allgemeine Optionen[!UICONTROL &#x200B; der &#x200B;]Einladungen“ angegeben hat.
 
 So erstellen Sie ein Kennwort für [!DNL Workfront] mithilfe der Einladungs-E-Mail:
 

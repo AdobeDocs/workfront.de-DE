@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-1-release-activity
-title: Übersicht über die Versionsaktivität 2019.1
+title: Überblick über Version 2019.1
 description: Diese Seite enthält Informationen zu den Funktionen, die in der Version 2019.1 enthalten sind.
 author: Luke
 feature: Product Announcements
@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: da5e3490-da33-4f96-84cb-f539f07064a1
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '1710'
+source-wordcount: '2065'
 ht-degree: 0%
 
 ---
 
-# Übersicht über die Versionsaktivität 2019.1
+# Überblick über Version 2019.1
 
 Diese Seite enthält Informationen zu den Funktionen, die in der Version 2019.1 enthalten sind.
 
@@ -62,9 +62,9 @@ Die Version 2019.1 enthält Verbesserungen sowohl für Administratoren als auch 
 
   Sie können nicht mehr auf das Dialogfeld Erweiterte Zuweisungen zugreifen, während sich das Gantt-Diagramm im Bearbeitungsmodus befindet. Sie können nur Inline-Bearbeitungen vornehmen, während sich die Aufgabenliste Gantt-Diagramm im Bearbeitungsmodus befindet.
 
-* [Aufgabeninformationen in einem Programm oder Portfolio im Gantt-Diagramm der Projektliste anzeigen](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-project-enhancements.md#view)
+* [Aufgabeninformationen im Gantt-Diagramm der Projektliste in einem Programm oder in Portfolio anzeigen](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-project-enhancements.md#view)
 
-  Sie können jetzt Informationen zu den Aufgaben eines Projekts in der Projektliste im Gantt-Diagramm innerhalb eines Programms oder Portfolios anzeigen.
+  Sie können jetzt Informationen zu den Aufgaben eines Projekts im Gantt-Diagramm zur Projektliste innerhalb eines Programms oder einer Portfolio anzeigen.
 
 * [Zugriff auf das Gantt-Diagramm der Aufgabenliste in Vorlagen](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-project-enhancements.md#access)
 
@@ -90,7 +90,7 @@ Die Version 2019.1 enthält Verbesserungen sowohl für Administratoren als auch 
 
   Wir haben die Leistung verbessert und das Erscheinungsbild des Projekts und der Aufgabenlisten in weiteren Bereichen verbessert.
 
-* [Senden eines zugestellten Berichts im XLSX-Format](https://support.workfront.com/hc/en-us/articles/360016246394#send-a-delivered-report)
+* [Gesendeten Bericht im XLSX-Format senden](https://support.workfront.com/hc/en-us/articles/360016246394#send-a-delivered-report)
 
   Zusätzlich zu allen anderen aktuellen Formaten können Sie jetzt die Bereitstellung eines Berichts im MS Excel-Format (.xlsx) planen.
 
@@ -98,7 +98,7 @@ Die Version 2019.1 enthält Verbesserungen sowohl für Administratoren als auch 
 
   Auditprotokolleinträge können jetzt in eine CSV-Datei exportiert werden. Sie können bis zu 50.000 Auditprotokolleinträge gleichzeitig in eine CSV-Datei exportieren.
 
-* [Die PSP-Ansicht in einer Aufgabenliste ist nicht mehr verfügbar, indem Sie mit der rechten Maustaste auf die Spalte Aufgabennummer klicken](https://support.workfront.com/hc/en-us/articles/360016246394#wbs-view-from-the-task-list)
+* [Die PSP-Ansicht einer Aufgabenliste ist nicht mehr verfügbar, indem Sie mit der rechten Maustaste auf die Spalte Aufgabennummer klicken](https://support.workfront.com/hc/en-us/articles/360016246394#wbs-view-from-the-task-list)
 
   Sie können nicht mehr mit der rechten Maustaste auf die Spalte Vorgangsnummer in einer Vorgangsliste klicken, um die Arbeitsaufteilungsstruktur (PSP) des Projekts anzuzeigen.
 
@@ -142,7 +142,7 @@ Die Version 2019.1 enthält Verbesserungen sowohl für Administratoren als auch 
 
   Wenn die Sicherheitsrichtlinien Ihres Unternehmens die Verwendung der eigenständigen Desktop Proofing Viewer-App nicht zulassen, kann Ihr Workfront-Administrator jetzt interaktive Inhalte im Web Proofing Viewer aktivieren.
 
-* [Die standardmäßige Sortierreihenfolge für Kommentare im Proofing Viewer ist jetzt von „Von alt nach aktuell“ &#x200B;](https://support.workfront.com/hc/en-us/articles/360016372633#default-sorting-order-for-comments)
+* [Die standardmäßige Sortierreihenfolge für Kommentare im Proofing Viewer ist jetzt von „Von alt nach aktuell“.](https://support.workfront.com/hc/en-us/articles/360016372633#default-sorting-order-for-comments)
 
   In der Korrekturabzugsansicht ist die standardmäßige Sortierreihenfolge für Kommentare zu einem Korrekturabzug jetzt von Alt nach Neu , wie in einer verbalen Konversation.
 
@@ -154,7 +154,7 @@ Die Version 2019.1 enthält Verbesserungen sowohl für Administratoren als auch 
 
   Wenn Sie eine E-Mail erhalten, in der Sie eingeladen werden, einen Korrekturabzug zu prüfen, oder einen Korrekturabzug in der Korrekturabzugsansicht prüfen, können Sie jetzt schnell auf die Dokumentdetailseite für den Korrekturabzug zugreifen.
 
-* [E-Mail-Benachrichtigungen im Proofing Viewer ändern](https://support.workfront.com/hc/en-us/articles/360016372633#change-your-email-notifications)
+* [E-Mail-Benachrichtigungen im Proofing-Viewer ändern](https://support.workfront.com/hc/en-us/articles/360016372633#change-your-email-notifications)
 
   Jetzt können alle Proofing-Reviewer angeben, welche Proofing-Benachrichtigungen sie für einen Korrekturabzug erhalten möchten. Dies ist besonders wichtig bei der Zusammenarbeit mit externen Stakeholdern.
 
@@ -172,7 +172,7 @@ Die Version 2019.1 enthält Verbesserungen sowohl für Administratoren als auch 
 
   Die Suche nach Elementen in der Workfront Mobile App ist jetzt benutzerfreundlicher und intuitiver.
 
-* [Startseite ist die neue standardmäßige Landingpage in den Mobile Apps von Workfront](https://support.workfront.com/hc/en-us/articles/360016374093#home-is-the-new-default)
+* [Die Startseite ist die neue standardmäßige Landingpage in den Mobile Apps von Workfront](https://support.workfront.com/hc/en-us/articles/360016374093#home-is-the-new-default)
 
   Der Bereich Startseite ist jetzt die neue standardmäßige Landingpage für die Mobile Apps von Workfront. Dies wird sowohl für iOS- als auch für Android-Geräte unterstützt.
 
@@ -194,11 +194,11 @@ Die Version 2019.1 enthält Verbesserungen sowohl für Administratoren als auch 
 
 ### Verbesserungen bei der Integration von Drittanbieter-Apps
 
-* [Verbesserungen bei Workfront for Slack](https://support.workfront.com/hc/en-us/articles/360016374093#workfront-for-slack-improvements)
+* [Verbesserungen bei Workfront für Slack](https://support.workfront.com/hc/en-us/articles/360016374093#workfront-for-slack-improvements)
 
-  Verschiedene Updates sind jetzt in Workfront zum Slack verfügbar, einschließlich der Möglichkeit, einen Kommentar, den Sie auf Slack als Kommentar zu einem Objekt in Workfront abgegeben haben, zu abonnieren, um auf Slack benachrichtigt zu werden, wenn jemand einen Kommentar zu einer Ihrer Anfragen abgibt, und mehr.
+  In Workfront für Slack sind jetzt verschiedene Aktualisierungen verfügbar, darunter die Möglichkeit, einen von Ihnen in Slack abgegebenen Kommentar als Kommentar zu einem Objekt in Workfront zu posten, sich zu abonnieren, um in Slack benachrichtigt zu werden, wenn jemand eine Ihrer Anfragen kommentiert, und mehr.
 
-* Verbesserungen bei [Workfront für Jira](https://support.workfront.com/hc/en-us/articles/360016374093#workfront-for-jira-enhancements)
+* [Verbesserungen bei Workfront for Jira](https://support.workfront.com/hc/en-us/articles/360016374093#workfront-for-jira-enhancements)
 
   Die Integration von Workfront für Jira enthält jetzt die verschiedenen Verbesserungen, darunter die Angabe, wann die Integration automatisch einen Benutzer in Jira erstellt, eine Option zur Deaktivierung der automatischen Workfront-Benutzererstellung und mehr.
 
@@ -209,7 +209,7 @@ Die Version 2019.1 enthält Verbesserungen sowohl für Administratoren als auch 
 
 ### API Version 4 wird nicht mehr unterstützt
 
-Die Unterstützung für die API-Version 4 endet zusammen mit der Version 2019.1. Weitere Informationen zum Support-Zeitplan für Versionen der Workfront-API finden Sie unter  [API-Versionierung und Support-Zeitplan](../../../../wf-api/api/api-version-support-schedule.md).
+Die Unterstützung für die API-Version 4 endet zusammen mit der Version 2019.1. Weitere Informationen zum Support-Zeitplan für Versionen der Workfront-API finden Sie unter [API-Versionierung und Support-Zeitplan](../../../../wf-api/api/api-version-support-schedule.md).
 
 ### Aktualisierungen des Agile-Tools
 

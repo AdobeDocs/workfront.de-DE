@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: fdbe3945f59306fc26424d7e88b799d9dcaea4da
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '793'
 ht-degree: 2%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 2%
 
 {{planning-important-intro}}
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 Als Workspace-Manager können Sie einen Datensatztyp, der in einem anderen Workspace vorhanden ist, zu einem Workspace hinzufügen, den Sie in Adobe Workfront Planning verwalten.
 
@@ -76,6 +76,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 +++   
 
 <!--
+
 Old:
 <table style="table-layout:auto"> 
 <col> 
@@ -114,6 +115,7 @@ And
   </tr>  
 </tbody> 
 </table>
+
 -->
 
 ## Erstellen eines Datensatztyps durch Hinzufügen eines vorhandenen Datensatztyps aus einem anderen Arbeitsbereich
@@ -134,7 +136,9 @@ And
    >Wenn keine Datensatztypen zum Hinzufügen zu anderen Arbeitsbereichen in Ihrem System konfiguriert sind, wird die Option **Vorhandene hinzufügen** nicht angezeigt.
 
 1. Klicken Sie auf **Fortfahren**.
-1. Klicken **im Feld &quot;** auswählen“ auf die Karte für den Datensatztyp, den Sie aus einem vorhandenen Arbeitsbereich hinzufügen möchten, und klicken Sie dann auf **Hinzufügen**.
+1. (Bedingt) Klicken Sie im **Wählen Sie den Datensatztyp aus** auf die Karte für den Datensatztyp, den Sie aus einem vorhandenen Arbeitsbereich hinzufügen möchten, und klicken Sie dann auf **Hinzufügen**.
+
+   <span class="preview">Wenn Sie die Vorschau -Umgebung verwenden, können Sie auf mehrere Datensatztypen klicken und dann auf **Hinzufügen**. Alle globalen Datensatztypen aus allen Arbeitsbereichen, in denen sie verfügbar sind, werden in der Liste angezeigt.</span>
 
    Der Datensatztyp wird dem ausgewählten sekundären Arbeitsbereich hinzugefügt und das Symbol **globaler Datensatztyp** (Symbol ![Globaler Datensatz im sekundären Arbeitsbereich](assets/global-icon-secondary-workspace.png) wird auf der Karte des Datensatztyps angezeigt.
 Das Symbol für den globalen Datensatztyp enthält einen Pfeil, wenn er auf einem Datensatztyp im sekundären Arbeitsbereich angezeigt wird, um anzugeben, dass der Datensatztyp aus einem vorhandenen Datensatztyp hinzugefügt wurde.
@@ -171,7 +175,7 @@ This will be released later with another epic:
 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) in the new record type's card, or to the right of the record type's name on its page, then click **Share** to share it with other users in the same workspace, or adjust their permissions to the record type.
 -->
 
-&lt;!—Mit Lilit prüfen, ob wir Automatisierungen hinzufügen oder Formulare an sekundäre globale RTs anfordern können??—Schritt mit Links zu diesen Artikeln hinzufügen, wenn/ wenn ja—>
+&lt;!—Überprüfung mit Lilit, ob wir Automatisierungen hinzufügen oder Formulare an sekundäre globale RTs anfordern können??—Schritt mit Links zu diesen Artikeln hinzufügen, wenn/ wenn ja—>
 
 
 

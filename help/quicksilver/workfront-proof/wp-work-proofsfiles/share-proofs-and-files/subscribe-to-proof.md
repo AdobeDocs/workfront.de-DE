@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 8f488839-efb5-44fb-9757-7e4d1c4aceef
 source-git-commit: 178fcf680fbf97e3fa634182f161ba3c73439fe5
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '255'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ So abonnieren Sie einen Korrekturabzug:
 1. Klicken **[!UICONTROL oben]** der Proofing-Anzeige auf „Anmelden“.
 1. Geben Sie Ihre E-Mail-Adresse in das **[!UICONTROL Anmelden]** Feld ein.
 1. Wenn Sie weder ein Prüfer für den Korrekturabzug noch ein Benutzer von [!DNL Workfront Proof] sind, geben Sie Ihren Anzeigenamen ein.\
-   Oder\
+   ODER\
    Wenn Sie über ein [!DNL Workfront Proof] Kennwort verfügen, geben Sie es ein (unabhängig davon, ob Sie ein Prüfer für den Korrekturabzug sind oder nicht).\
    Abhängig von den Einstellungen für die Freigabe der Korrekturabzugs-E-Mails, die von der Person ausgewählt wurden, die den Korrekturabzug freigegeben hat, müssen Sie möglicherweise die Validierungsanweisungen in einer E-Mail befolgen, die Sie per E-Mail erhalten haben.
 

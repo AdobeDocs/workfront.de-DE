@@ -9,12 +9,12 @@ feature: Work Management
 exl-id: 142e9637-841c-43d1-b297-e42c28a9e010
 source-git-commit: ef64e5c8169fd0a12d303c17649a20400ccbeb58
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 0%
+source-wordcount: '263'
+ht-degree: 1%
 
 ---
 
-# Übersicht über die Aufgabenabhängigkeitsschleife
+# Überblick über die Aufgabenabhängigkeitsschleife
 
 Beim Hinzufügen von Vorgängerbeziehungen zu Aufgaben können Abhängigkeitsschleifen auftreten. Informationen zu Vorgängern finden Sie unter [Übersicht über Aufgabenvorgänger](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 

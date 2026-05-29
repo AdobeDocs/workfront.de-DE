@@ -1,6 +1,6 @@
 ---
-title: Versionsübersicht 22.1
-description: Versionsübersicht 22.1
+title: Überblick über Version 22.1
+description: Überblick über Version 22.1
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -8,12 +8,12 @@ recommendations: noDisplay, noCatalog
 exl-id: daf977fe-957a-40ad-a37f-1c164cb4ada3
 source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '4758'
-ht-degree: 0%
+source-wordcount: '4991'
+ht-degree: 3%
 
 ---
 
-# Versionsübersicht 22.1
+# Überblick über Version 22.1
 
 Diese Seite enthält Informationen zur Funktionalität, die in Version 22.1 enthalten ist. In der neuen Adobe Workfront-Version sind alle Funktionen verfügbar. Einige Funktionen sind auch in Adobe Workfront Classic verfügbar. [Workfront Classic wird jedoch im März 2022 eingestellt](https://experienceleague.adobe.com/de/docs/workfront/using/home) kurz darauf folgt das Ende der Nutzungsdauer von Workfront Classic im Juli 2022.
 
@@ -157,7 +157,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Projektverbesserungen {#project-enhancements}
+### Verbesserungen bei Projekten {#project-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -363,9 +363,9 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-## Workfront Fusion-Verbesserungen
+## Verbesserungen in Workfront Fusion
 
-Neue Funktionen in Workfront Fusion sind außerhalb des Veröffentlichungszeitplans für 22.1 in der Produktionsumgebung verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Versionsaktivität von Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Neue Funktionen in Workfront Fusion sind außerhalb des Veröffentlichungszeitplans für 22.1 in der Produktionsumgebung verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Adobe Workfront Fusion-Veröffentlichungen](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Verbesserungen am Workfront-Szenarioplaner
 
@@ -395,7 +395,7 @@ Informationen zu neuen und aktualisierten Funktionen finden Sie unter [Neue Funk
 
 Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Zeitplan](../../../wf-api/api/api-version-support-schedule.md).
 
-## Wartungs-Updates für Workfront 
+## Wartungs-Updates für Workfront
 
 Informationen zu den Wartungs-Updates, die während der Version 22.1 vorgenommen wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
@@ -415,9 +415,9 @@ Das Webinar zur Version Workfront 22.1 wurde am 12. Januar 2022 vorgestellt. Sie
 </div>
 -->
 
-## Schulungsaktualisierungen
+## Updates für Schulungen
 
-Erfahren Sie mehr über die neuesten Aktualisierungen von Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie auf der [Seite mit Schulungsversions-Updates](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home).
+Erfahren Sie mehr über die neuesten Updates von Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie auf der [Seite mit Schulungsversions-Updates](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home).
 
 ## Funktion wird nicht mehr unterstützt
 

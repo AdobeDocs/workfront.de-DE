@@ -12,8 +12,8 @@ role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
 source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 2%
+source-wordcount: '908'
+ht-degree: 48%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->Die Informationen in diesem Artikel beziehen sich auf die alten Zugriffsebenen. Informationen zu den aktuellen Zugriffsebenen finden Sie unter [Übersicht über neue Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>Die Informationen in diesem Artikel beziehen sich auf die alten Zugriffsebenen. Informationen zu den aktuellen Zugriffsebenen finden Sie unter [Überblick über die neuen Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 Der Adobe Workfront-Administrator legt fest, welche Zugriffsebene jede Benutzerin bzw. jeder Benutzer haben soll. Diese Zugriffsebene definiert, was Benutzende mit Objekttypen und Bereichen im System sehen und tun können.
 
@@ -69,7 +69,7 @@ In einer benutzerdefinierten Zugriffsebene können Sie die Einstellungen für di
 
 >[!IMPORTANT]
 >
->Es wird dringend empfohlen, die integrierten Zugriffsebenen unverändert zu lassen, damit Sie nach der Einrichtung Ihrer Benutzer darauf verweisen können. Um eine Zugriffsebene anzupassen, kopieren Sie die standardmäßige Zugriffsebene und ändern Sie die Kopie. (Dies ist für jede Zugriffsebene möglich, mit Ausnahme von Systemadministrator und externem Benutzer.)
+>Es wird dringend empfohlen, die integrierten Zugriffsebenen unverändert zu lassen, damit Sie sich nach der Einrichtung Ihrer Benutzenden darauf beziehen können. Um eine Zugriffsebene anzupassen, kopieren Sie die standardmäßige Zugriffsebene und ändern Sie die Kopie. (Dies ist für jede Zugriffsebene möglich, mit Ausnahme von Systemadministrator und externem Benutzer.)
 
 Eine ausführliche Erläuterung der Standardzugriffsebenen finden Sie unter [Integrierte Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
 
@@ -79,22 +79,22 @@ Anweisungen zum Zuweisen einer Zugriffsebene zu einem Benutzer finden Sie unter 
 
 Wenn ein Objekt für eine Person im System freigegeben wird, kann ein Benutzer dem Empfänger eine der folgenden Berechtigungen für das Objekt gewähren.
 
-* **Ansicht**: Mit dieser Berechtigungsstufe kann der Empfänger das Objekt auf eine der folgenden Arten freigeben:
+* **Anzeigen**: Mit dieser Berechtigungsstufe kann der Empfänger bzw. die Empfängerin das Objekt auf eine der folgenden Arten freigeben:
 
-   * Systemweit, sodass alle Benutzer es sehen können (nicht für alle Objekte verfügbar)
-   * Bei externen Benutzern, die keine Workfront-Lizenz haben (nicht für alle Objekte verfügbar)
+   * Systemweit, sodass alle Benutzenden es sehen können (nicht für alle Objekte verfügbar)
+   * Für externe Benutzende, die keine Workfront-Lizenz haben (nicht für alle Objekte verfügbar)
    * Mit einer E-Mail-Adresse (nur für Dokumente verfügbar)
 
-* **Contribute**: (nicht für alle Objekte verfügbar)
-* **Verwalten**: Wenn jemand ein Objekt freigibt, werden die Rechte des Empfängers am Objekt durch eine Kombination aus der Zugriffsebene des Empfängers und den vom Teilenden gewährten Berechtigungen für das Objekt bestimmt. Der niedrigste verfügbare Zugriffsgrad in dieser Kombination bestimmt, was der Empfänger mit dem Objekt tun kann.
+* **Mitwirken**: (nicht für alle Objekte verfügbar)
+* **Verwalten**: Wenn jemand ein Objekt freigibt, werden die Rechte des Empfängers bzw. der Empfängerin am Objekt durch eine Kombination aus der Zugriffsebene der empfangenden Person und den von der freigebenden Person gewährten Berechtigungen für das Objekt bestimmt. Der niedrigste verfügbare Zugriffsgrad in dieser Kombination bestimmt, was der Empfänger bzw. die Empfängerin mit dem Objekt tun kann.
 
   >[!INFO]
   >
   >**Beispiel** Wenn die Zugriffsebene des Empfängers keine Projektbearbeitung zulässt, kann diese Person ein Projekt nicht bearbeiten oder löschen, selbst wenn der Teilende die Berechtigung zur Verwaltung erteilt hat.
   >
-  >Wenn die Zugriffsebene des Empfängers die Bearbeitung eines Projekts zulässt, der freigebende Benutzer jedoch schreibgeschützte Berechtigungen für ein Projekt erteilt hat, kann der Benutzer das Projekt nicht bearbeiten oder löschen.
+  >Wenn die Zugriffsebene des Empfängers bzw. der Empfängerin die Bearbeitung eines Projekts zulässt, die freigebende Person jedoch schreibgeschützte Berechtigungen für ein Projekt erteilt hat, kann der Benutzer bzw. die Benutzerin das Projekt nicht bearbeiten oder löschen.
 
-In der folgenden Tabelle wird der allgemeine Zugriff eines Benutzers auf Objekte (definiert durch die Zugriffsebene des Benutzers) mit den Berechtigungen für ein bestimmtes freigegebenes Objekt verglichen:
+In der folgenden Tabelle wird der allgemeine Zugriff eines Benutzers bzw. einer Benutzerin auf Objekte (definiert durch die Zugriffsebene der Benutzenden) mit den Berechtigungen für ein bestimmtes freigegebenes Objekt verglichen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -109,17 +109,17 @@ In der folgenden Tabelle wird der allgemeine Zugriff eines Benutzers auf Objekte
  </thead> 
  <tbody> 
   <tr> 
-   <td>Wird von einem Workfront-Administrator in der Zugriffsebene eines Benutzers gewährt</td> 
+   <td>Wird von einem Workfront-Admin in der Zugriffsebene eines Benutzers bzw. einer Benutzerin gewährt</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Wird von einem Benutzer erteilt, der ein Objekt auf der Objektebene teilt</td> 
+   <td>Wird durch einen Benutzer bzw. eine Benutzerin gewährt, der bzw. die ein Objekt auf Objektebene freigibt</td> 
    <td> </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Von einem höherrangigen freigegebenen Objekt geerbt 
+   <td> <p>Wird von einem höherrangigen freigegebenen Objekt übernommen 
    </td> 
    <td> </td> 
    <td>✓</td> 
@@ -129,18 +129,18 @@ In der folgenden Tabelle wird der allgemeine Zugriff eines Benutzers auf Objekte
 
 >[!NOTE]
 >
->* Wenn ein Benutzer ein Objekt mit bestimmten Berechtigungen teilt und dieses Objekt untergeordnete Objekte hat, erbt der Empfänger dieselben Berechtigungen für diese untergeordneten Objekte.
->* Wenn eine Zugriffsebene Benutzer daran hindert, bestimmte Objekte zu löschen, verhindert dies nicht, dass sie untergeordnete Objekte löschen, die in diesen Objekten enthalten sind.
+>* Wenn ein Benutzer bzw. eine Benutzerin ein Objekt mit bestimmten Berechtigungen teilt und dieses Objekt untergeordnete Objekte hat, übernimmt der Empfänger bzw. die Empfängerin dieselben Berechtigungen für diese untergeordneten Objekte.
+>* Wenn eine Zugriffsebene Benutzende daran hindert, bestimmte Objekte zu löschen, verhindert dies nicht, dass sie untergeordnete Objekte löschen, die in diesen Objekten enthalten sind.
 >
 
 ## Weitere Beispielszenarien
 
-Wenn Olivia ein Workfront-Projekt mit Tony teilt, wird Tonys Zugang dazu durch eine Kombination zweier Dinge bestimmt:
+Wenn Olivia ein Workfront-Projekt für Tony freigibt, hängt es von einer Kombination aus zwei Dingen ab, welchen Zugriff Tony auf das Projekt hat:
 
-* Tony&#39;s access level, zugewiesen von der Workfront-Administratorin bzw. dem -Administrator
-* Tonys Berechtigungen für das Projekt, angegeben von Olivia
+* Die Zugriffsebene von Tony, zugewiesen durch den bzw. die Workfront-Admin
+* Die Berechtigungen von Tony für das Projekt, angegeben von Olivia
 
-Tonys Aktionen im Projekt können im Projekt weiter eingeschränkt werden, sie können jedoch nicht über die auf seiner Zugriffsebene erlaubte Zugriffsebene hinausgehen:
+Die Aktionen, die Tony am Projekt ausführen kann, können weiter eingeschränkt werden, Einschränkungen können jedoch nicht über das hinaus aufgehoben werden, was seine Zugriffsebene zulässt:
 
-* Wenn Tonys Zugriffsebene ihm nicht erlaubt, Aufgaben zu erstellen, kann er keine Aufgaben zum Projekt hinzufügen, selbst wenn Olivia ihm die Berechtigung zum Hinzufügen von Aufgaben erteilt hat.
-* Wenn Tonys Zugriffsebene es ihm erlaubt, Aufgaben zu erstellen, Olivia jedoch keine Berechtigungen zum Hinzufügen von Aufgaben zu dem Projekt erteilt hat, kann er keine Aufgaben zu diesem Projekt hinzufügen, aber er kann Aufgaben zu anderen Projekten hinzufügen, für die ihm entsprechende Berechtigungen erteilt wurden.
+* Wenn seine Zugriffsebene es Tony nicht gestattet, Aufgaben zu erstellen, kann er keine Aufgaben zum Projekt hinzufügen, selbst wenn Olivia ihm die Berechtigung zum Hinzufügen von Aufgaben erteilt hat.
+* Wenn seine Zugriffsebene es Tony gestattet, Aufgaben zu erstellen, Olivia jedoch keine Berechtigungen zum Hinzufügen von Aufgaben zu dem Projekt erteilt hat, kann er diesem Projekt keine Aufgaben hinzufügen, aber er kann Aufgaben zu anderen Projekten hinzufügen, für die ihm entsprechende Berechtigungen erteilt wurden.

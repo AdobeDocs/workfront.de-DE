@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Übersicht über geplante Stunden
+# Überblick über geplante Stunden
 
 <!-- Audited: 01/2024 -->
 
@@ -250,7 +250,7 @@ Informationen zur Verwaltung der täglichen Zuweisungen für Aufgaben finden Sie
 Die folgenden Szenarien bestehen, wenn die Zuordnung von Benutzenden oder Aufgabengebieten für Aufgaben manuell aktualisiert wird:
 
 * Wenn Sie die Trigger- oder Rollenzuweisungen für eine Aufgabenänderung nicht manuell aktualisiert haben, bleiben die geplanten Stunden unverändert, wenn Sie Zuweisungen zu der Aufgabe hinzufügen, entfernen oder ersetzen. Beim Hinzufügen einer neuen Zuweisung zur Aufgabe werden die individuellen Zuweisungen zwischen allen Bevollmächtigten neu verteilt.
-* Trigger Wenn Sie die Zuordnungen manuell aktualisiert haben, um eine Änderung an den Vorgangsplanstunden vorzunehmen, verringern sich die Planstunden, wenn Sie Zuweisungen aus der Aufgabe entfernen. Sie bleiben unverändert, wenn Sie eine Zuweisung ersetzen.
+* Wenn Sie die Zuordnungen manuell aktualisiert haben, um eine Änderung an den Vorgangsplanstunden vorzunehmen, verringern sich die Planstunden, wenn Sie Zuweisungen aus der Aufgabe entfernen. Sie bleiben unverändert, wenn Sie eine Zuweisung ersetzen.
 * Wenn Sie die Zuordnungen manuell in den Trigger „Geplante Stunden für die Aufgabe“ aktualisiert haben und der Aufgabe eine Zuweisung hinzufügen, wird die neue Zuweisung standardmäßig mit 0 Stunden zugeordnet. Sie müssen die Zuordnung der Aufgaben manuell aktualisieren, was sich auf die geplanten Stunden auswirken kann.
 * Wenn Sie die Zuordnungen nicht manuell aktualisiert haben, um eine Änderung an den Vorgangsplanstunden in den Trigger zu übernehmen, und Sie alle Zuweisungen zu der Aufgabe entfernen, bleiben die Planstunden unverändert.
 * Wenn Sie die Zuordnungen manuell in Trigger A geändert haben und alle Zuweisungen zu der Aufgabe entfernen, werden auch die geplanten Stunden entfernt und die geplanten Stunden der Aufgabe werden zu 0.

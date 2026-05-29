@@ -9,8 +9,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: bc145c50-9ab5-4ee8-9ed7-d307da6b0e8f
 source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 0%
+source-wordcount: '527'
+ht-degree: 1%
 
 ---
 
@@ -69,6 +69,6 @@ Sie können Reviewer zu einem Korrekturabzug hinzufügen, wenn Sie einen neuen K
    * Benutzerdefinierte Nachricht einschließen oder verwerfen (10).
    * Fügen Sie Text zum Textkörper und zur Betreffzeile der benutzerdefinierten Nachricht hinzu (11).
 
-1. Klicken Sie auf **[!UICONTROL Freigeben]**.
+1. Klicken Sie auf **[!UICONTROL Freigabe]**.
 1. ![Share_this_version_page.png](assets/share-this-version-page-350x330.png)
 

@@ -1,18 +1,18 @@
 ---
-title: 23.3 Agile-Verbesserungen
-description: 23.3 Agile-Verbesserungen
+title: Verbesserungen bei Agile in Version 23.3
+description: Verbesserungen bei Agile in Version 23.3
 author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a47d2592-0f00-4bcd-bc8e-75f8e707a573
 source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '1315'
-ht-degree: 0%
+source-wordcount: '1323'
+ht-degree: 1%
 
 ---
 
-# 23.3 Agile-Verbesserungen
+# Verbesserungen bei Agile in Version 23.3
 
 Auf dieser Seite werden alle Boards und Agile-Verbesserungen beschrieben, die mit Version 23.3 vorgenommen wurden. Diese Verbesserungen wurden mit der Version 23.3 vom 20. und 21. Juli 2023 in der Produktionsumgebung verfügbar gemacht.
 
@@ -32,7 +32,7 @@ Wenn Sie sich im -Board befinden, können Sie zur veralteten Agile-Ansicht wechs
 
 Weitere Informationen finden Sie unter [Verwalten eines Projekts in der Agile-Ansicht](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3421283/){target=_blank}
+[Sehen Sie sich eine Videodemonstration dieser Funktion an.](https://video.tv.adobe.com/v/3421283/){target=_blank}
 
 ## Nach Pinnwand-Spalten sortieren
 
@@ -44,7 +44,7 @@ Die Option „Benutzerreihenfolge“ gibt die Karten in der Reihenfolge zurück,
 
 Weitere Informationen finden Sie unter [Filtern und Suchen in einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3420932/){target=_blank}
+[Sehen Sie sich eine Videodemonstration dieser Funktion an.](https://video.tv.adobe.com/v/3420932/){target=_blank}
 
 ## Dunkelmodus jetzt auf Adobe Workfront-Motherboards verfügbar
 
@@ -74,7 +74,7 @@ Sie können jetzt sowohl Ad-hoc- als auch verbundenen Karten auf Pinnwänden Kom
 
 Weitere Informationen finden Sie unter [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) und [Verwenden von verbundenen Karten auf Pinnwänden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-[Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3420832/){target=_blank}
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an](https://video.tv.adobe.com/v/3420832/){target=_blank}
 
 ## Verbesserungen am Tag-Manager für Pinnwände
 
@@ -92,7 +92,7 @@ Zur Einrichtung der Aufnahmespalte wurden vereinfachte Filter hinzugefügt, dami
 
 Weitere Informationen finden Sie unter [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
-[Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3419420/){target=_blank}
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an](https://video.tv.adobe.com/v/3419420/){target=_blank}
 
 ## Einfache Filter zur dynamischen Pinnwand-Vorlage hinzugefügt
 
@@ -116,7 +116,7 @@ Mit der dynamischen Pinnwand können Sie eine Pinnwand basierend auf einem Workf
 
 Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/create-edit-board.md).
 
-[Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3418600/){target=_blank}
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an](https://video.tv.adobe.com/v/3418600/){target=_blank}
 
 ## Agile-Team-Kanban-Karten zu Pinnwänden migrieren
 
@@ -128,7 +128,7 @@ Die Karten werden nicht aus dem Agile-Team-Kanban-Board entfernt und Kartenstatu
 
 Weitere Informationen finden Sie unter [Migrieren von Agile-Team-Kanban-Karten zu Workfront-Boards](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
-[Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3420425/){target=_blank}
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an](https://video.tv.adobe.com/v/3420425/){target=_blank}
 
 ## Linker Navigationsbereich zu Kartendetails auf Pinnwänden hinzugefügt
 
@@ -142,9 +142,9 @@ Außerdem können Sie jetzt im Feld Beschreibung URLs hinzufügen, die beim Spei
 
 Weitere Informationen finden Sie unter [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md) und [Verwenden von verbundenen Karten auf Pinnwänden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3418598/){target=_blank}
+[Sehen Sie sich eine Videodemonstration dieser Funktion an.](https://video.tv.adobe.com/v/3418598/){target=_blank}
 
-## Pinnwände - E-Mail-Benachrichtigungen und Voreinstellungen
+## E-Mail-Benachrichtigungen und Voreinstellungen für Pinnwände
 
 >[!NOTE]
 >
@@ -154,4 +154,4 @@ E-Mail-Benachrichtigungen sind jetzt für Adobe Workfront-Boards verfügbar. Die
 
 Weitere Informationen finden Sie unter [Pinnwände - E-Mail-Benachrichtigungen und -Voreinstellungen](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
 
-[Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3418597/){target=_blank}
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an](https://video.tv.adobe.com/v/3418597/){target=_blank}

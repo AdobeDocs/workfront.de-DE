@@ -2,7 +2,7 @@
 content-type: release-notes
 keywords: Anmerkungen,vierteljährlich,aktualisieren
 navigation-topic: product-releases
-title: Versionsübersicht 21.1
+title: Überblick über Version 21.1
 description: Die Version 21.1 wurde in der Woche vom in der Produktionsumgebung bereitgestellt.
 author: Luke
 feature: Product Announcements
@@ -10,12 +10,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 3affee76-347e-4610-b255-4b1bb4414c5d
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '3659'
-ht-degree: 0%
+source-wordcount: '3831'
+ht-degree: 1%
 
 ---
 
-# Versionsübersicht 21.1
+# Überblick über Version 21.1
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The 21.1 release was made available in the Production environment the week of .</p>
@@ -105,7 +105,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 2. Dezember 2020</p> <p>Produktionsversion: Mit Version 21.1 <span style="color: #dc143c; font-weight: bold;">(derzeit nicht verfügbar, wenn eine Anfrage gesendet wird).</span></p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#configur2" class="MCXref xref" xrefformat="{para}">Konfigurieren Ihrer Workfront auf die Zulassungsliste setzen-E-Mail-Adresse</a> </p> <p>Um Ihre Daten besser zu schützen, können Sie jetzt eine E-Mail-Domain-Zulassungsliste verwenden, um:</p> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.1-release-activity/21-1-admin-enhancements.md#configur2" class="MCXref xref" xrefformat="{para}">Konfigurieren Ihrer Workfront-E-Mail-Adresse</a> </p> <p>Um Ihre Daten besser zu schützen, können Sie jetzt eine E-Mail-Domain-Zulassungsliste verwenden, um:</p> 
     <ul> 
      <li> <p>Steuern, wohin Workfront-E-Mails gesendet werden können, wenn sie in Workfront gespeicherte Berichte oder Dokumente enthalten</p> </li> 
      <li> <p>E-Mail-Domains können in der E-Mail-Adresse gespeichert werden, die Benutzer in ihrem Benutzerprofil angeben können</p> </li> 
@@ -323,7 +323,7 @@ Die meisten neuen Funktionen der Workfront Goals-Version 21.1. Weitere Informati
 
 Neue Funktionen in Workfront Scenario Planner Version 21.1. Weitere Informationen zu diesen neuen Funktionen, die jetzt in der Vorschau verfügbar sind, finden Sie unter [Adobe Workfront Scenario Planner mit Version 21.1](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-1.md).
 
-## Workfront Fusion-Verbesserungen
+## Verbesserungen in Workfront Fusion
 
 Neue Funktionen in Workfront Fusion sind außerhalb des Veröffentlichungszeitplans für 21.1 in der Produktionsumgebung verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Versionsaktivität von Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 
@@ -347,7 +347,7 @@ Weitere Informationen zu API-Versionen finden Sie unter [API-Versionierung und S
 
 .
 
-## Wartungs-Updates für Workfront 
+## Wartungs-Updates für Workfront
 
 Informationen zu den Wartungs-Updates, die während der Version 21.1 vorgenommen wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
@@ -392,7 +392,7 @@ Weitere Informationen zu Ersatzlösungen für jedes spezifische Flash-basierte T
 
 ### Webinar zur Version 21.1 {#21-1-release-webinar}
 
-Das Workfront-Webinar Version 21.1 wird am 3. Februar um 11:00 Uhr EDT/16:00 Uhr BST präsentiert. Registrieren Sie sich für das Webinar [hier](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=ac&eventid=2934272&sessionid=1&key=5C231B3385686D1E224A49EBE0BF0E37&regTag=&V2=false&sourcepage=register).
+Das Webinar zur Workfront-Version 21.1 wird am 3. Februar um 11 :00 Uhr EDT / 16 :00 Uhr BST präsentiert. Registrieren Sie sich für das Webinar [hier](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=ac&eventid=2934272&sessionid=1&key=5C231B3385686D1E224A49EBE0BF0E37&regTag=&V2=false&sourcepage=register).
 
 ### Änderung des Veröffentlichungsintervalls für die Vorschau {#change-in-preview-release-cadence}
 

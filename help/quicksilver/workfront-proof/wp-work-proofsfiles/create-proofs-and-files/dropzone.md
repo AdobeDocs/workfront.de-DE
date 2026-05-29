@@ -2,19 +2,19 @@
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: create-proofs-and-files
-title: Der Ablagebereich
+title: Der Ablegebereich
 description: Wenn Sie über den Enterprise-Plan verfügen, können Sie den Ablagebereich verwenden, um neue Korrekturabzüge und neue Versionen von Korrekturabzügen an Ihr Konto zu senden, ohne sich bei Ihrem Konto anmelden zu müssen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e66142fa-3b0d-4821-9aa5-040c62f00d62
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '952'
 ht-degree: 0%
 
 ---
 
-# Der Ablagebereich
+# Der Ablegebereich
 
 >[!IMPORTANT]
 >

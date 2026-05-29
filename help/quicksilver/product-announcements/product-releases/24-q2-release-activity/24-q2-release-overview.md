@@ -1,18 +1,18 @@
 ---
-title: Übersicht über die Version 2024 im zweiten Quartal
-description: Diese Seite enthält Informationen zur Funktionalität, die in der Version vom zweiten Quartal 2024 enthalten ist. Diese Verbesserungen werden voraussichtlich im gesamten Quartal in der Produktionsumgebung verfügbar sein.
+title: Versionsüberblick für das zweite Quartal 2024
+description: Diese Seite enthält Informationen zur Funktionalität, die in der Version vom zweiten Quartal 2024 enthalten ist. Diese Verbesserungen werden voraussichtlich im Lauf des Quartals in der Produktionsumgebung zur Verfügung gestellt.
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '2247'
-ht-degree: 0%
+source-wordcount: '2430'
+ht-degree: 9%
 
 ---
 
-# Übersicht über die Version 2024 im zweiten Quartal
+# Versionsüberblick für das zweite Quartal 2024
 
 Diese Seite enthält Informationen zur Funktionalität, die in der Version vom zweiten Quartal 2024 enthalten ist. Diese Verbesserungen wurden mit der Version 24.4 vom 10. und 11. April 2024 in der Produktionsumgebung für alle Kunden verfügbar gemacht.
 
@@ -31,20 +31,20 @@ Sie können auch [eine PDF-Datei anzeigen](https://acrobat.adobe.com/id/urn:aaid
 >
 >Die Version 23.3 enthielt die Option, Ihr Unternehmen auf monatliche Versionen umzustellen. Aus diesem Grund hat Workfront das Nummerierungsschema der Versionen geändert, um sowohl monatliche als auch vierteljährliche Veröffentlichungsspuren zu berücksichtigen. Die erste Zahl bezeichnet das Jahr und die zweite Zahl den Monat der Veröffentlichung. Beispiel: Die Version für April 2024 lautet wie 24.4.
 >
->Sofern nicht anders angegeben, sind monatliche und vierteljährliche Versionen am Donnerstag der zweiten vollen Woche des Monats verfügbar.
+>Sofern nicht anders angegeben, sind monatliche und vierteljährliche Veröffentlichungen am Donnerstag der zweiten vollen Woche des Monats verfügbar.
 >
->| Monatliche Version | Vierteljährliche Veröffentlichung |
+>| Monatliche Veröffentlichung | Vierteljährliche Veröffentlichung |
 >|----|----|
 >| <ul><li>24.2 (15. Februar 2024)</li><li>24.3 (14. März 2024)</li><li>24.4 (11. April 2024)</li></ul> | <ul><li>24.4 (11. April 2024)</li></ul> |
 >
->Weitere Informationen zum Schnellfreigabeprozess finden Sie unter [Aktivieren oder Deaktivieren des Schnellfreigabeprozesses](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>Weitere Informationen zum Schnellveröffentlichungsprozess finden Sie unter [Aktivieren oder Deaktivieren des Schnellveröffentlichungsprozesses](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Adobe Workfront-Verbesserungen
 
 * [Administrator-Verbesserungen](#administrator-enhancements)
 * [Verbesserungen beim Dokumentenmanagement](#document-management-enhancements)
-* [Home-Verbesserungen](#home-enhancements)
-* [Projektverbesserungen](#project-enhancements)
+* [Verbesserungen auf der Startseite](#home-enhancements)
+* [Verbesserungen bei Projekten](#project-enhancements)
 * [Verbesserungen beim Ressourcenmanagement](#resource-management-enhancements)
 * [Verbesserungen bei Aktualisierungs-Streams und Benachrichtigungen](#update-stream-and-notification-enhancements)
 * [Weitere Verbesserungen](#other-enhancements)
@@ -268,7 +268,7 @@ Sie können auch [eine PDF-Datei anzeigen](https://acrobat.adobe.com/id/urn:aaid
             </tbody>
 </table>
 
-### Home-Verbesserungen
+### Verbesserungen auf der Startseite
 
 <table>
             <col style="width: 50%;" />
@@ -341,7 +341,7 @@ Sie können auch [eine PDF-Datei anzeigen](https://acrobat.adobe.com/id/urn:aaid
             </tbody>
         </table>
 
-### Projektverbesserungen
+### Verbesserungen bei Projekten
 
 <table>
             <col style="width: 50%;" />
@@ -636,9 +636,9 @@ Sie können auch [eine PDF-Datei anzeigen](https://acrobat.adobe.com/id/urn:aaid
 
 ## Ankündigungen
 
-### Workfront Fusion-Verbesserungen
+### Verbesserungen in Workfront Fusion
 
-Neue Funktionen in Workfront Fusion sind außerhalb des Veröffentlichungszeitplans für das zweite Quartal 2024 in der Produktionsumgebung verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Versionsaktivität von Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Neue Funktionen in Workfront Fusion sind außerhalb des Veröffentlichungszeitplans für das zweite Quartal 2024 in der Produktionsumgebung verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Adobe Workfront Fusion-Veröffentlichungen](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Verbesserungen am Workfront-Szenarioplaner
 
@@ -660,11 +660,11 @@ Informationen zu neuen und aktualisierten Funktionen finden Sie unter [Neue Funk
 
 Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Zeitplan](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
-### Wartungs-Updates für Workfront 
+### Wartungs-Updates für Workfront
 
 Informationen zu den Wartungs-Updates, die im zweiten Quartal 2024 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/de/docs/workfront-known-issues/releases/current-updates).
 
-### Schulungsaktualisierungen
+### Updates für Schulungen
 
-Erfahren Sie mehr über die neuesten Aktualisierungen von Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie im Abschnitt Neue Funktionen auf der Seite [Workfront-Tutorials](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home).
+Erfahren Sie mehr über die neuesten Updates von Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie im Abschnitt „Neue Funktionen“ der Seite [Workfront-Tutorials](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home).
 

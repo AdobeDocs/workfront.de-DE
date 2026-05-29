@@ -73,7 +73,7 @@ Wenn beispielsweise der größere Arbeitsaufwand in Ihrer Organisation als „In
 
 >[!NOTE]
 >
->Damit die neuen Namen der Objekte für Ihre Benutzer sichtbar sind, müssen sie sich nach dem Speichern der [!DNL Workfront]Layout-Vorlage“ ab- und wieder bei .
+>Damit die neuen Namen der Objekte für Ihre Benutzer sichtbar sind, müssen sie sich nach dem Speichern der [!UICONTROL Layout-Vorlage“ ab- und wieder bei [!DNL Workfront] &#x200B;].
 
 >[!IMPORTANT]
 >

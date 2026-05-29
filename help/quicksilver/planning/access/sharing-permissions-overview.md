@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1372'
 ht-degree: 5%
 
 ---
@@ -22,13 +22,9 @@ ht-degree: 5%
 
 # Überblick über das Freigeben von Berechtigungen in Adobe Workfront-Planung
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
-
-
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -60,15 +56,27 @@ Sie können die folgenden Objekte in Workfront Planning manuell freigeben:
 
   Weitere Informationen finden Sie unter [Freigeben von Datensatztypen](/help/quicksilver/planning/access/share-record-types.md).
 
+<div class="preview">
 
-* Ansichten 
+* Einträge
+
+   * Sie können Datensätze für Personen in Ihrer Organisation freigeben.
+   * Benutzer erben standardmäßig Berechtigungen vom Arbeitsbereich und vom Datensatztyp.
+   * Sie können einen Datensatz nicht mit einer höheren oder niedrigeren Berechtigungsstufe freigeben, als der Benutzer für den Datensatztyp hat.
+
+  Weitere Informationen finden Sie unter [Freigeben von Datensätzen](/help/quicksilver/planning/access/share-records.md).
+
+</div>
+
+* Ansichten
 
    * Sie müssen Benutzenden, einschließlich Systemadministratoren, Berechtigungen für den Zugriff auf Ansichten erteilen, getrennt von ihren Berechtigungen für den Zugriff auf Arbeitsbereiche.
    * Wenn Sie eine Ansicht freigeben, werden alle Ansichtselemente freigegeben, einschließlich Filter, Gruppierung, Sortierung oder Einstellungen.
    * Wenn Sie eine Ansicht freigeben, werden die in der Ansicht sichtbaren Datensätze nicht freigegeben. Datensätze müssen durch die Freigabe von Arbeitsbereichen freigegeben werden.
-   * Sie können eine Ansicht öffentlich für Personen außerhalb Ihres Unternehmens freigeben, wenn Sie einen öffentlichen Link für eine Ansicht generieren. Personen, die über einen öffentlichen Link auf die Datensatzseite zugreifen, können alle Datensätze und ihre Felder anzeigen, einschließlich der verbundenen Datensätze und Felder.
+   * Sie können eine Ansicht öffentlich für Personen außerhalb Ihrer Organisation freigeben, wenn Sie einen öffentlichen Link für eine Ansicht generieren.Personen, die über einen öffentlichen Link auf die Datensatzseite zugreifen, können alle Datensätze und ihre Felder anzeigen, einschließlich der verbundenen Datensätze und Felder.
 
   Weitere Informationen finden Sie unter [Freigeben von Ansichten](/help/quicksilver/planning/access/share-views.md).
+
 
 ## Überlegungen zur Freigabe von Objekten in Adobe Workfront Planning
 
@@ -78,15 +86,11 @@ Sie können die folgenden Objekte in Workfront Planning manuell freigeben:
 * Systemadministratoren können alle Arbeitsbereiche im System verwalten, einschließlich der Arbeitsbereiche, die sie nicht erstellt haben.
 * Andere Benutzende, einschließlich Systemadministratoren, können nur auf Ansichten zugreifen, die sie erstellt haben oder die für sie freigegeben wurden. Systemadministratoren können nur Berechtigungen zum Verwalten einer Ansicht erteilen.
 
-* Wenn Sie Arbeitsbereiche und Datensatztypen für andere freigeben, wird die Berechtigungsstufe des Datensatztyps automatisch auf die Datensätze und die mit ihnen verknüpften Felder übernommen.
-
-  >[!IMPORTANT]
-  >
-  >Die Benutzer, für die Sie Planning-Objekte freigeben möchten, müssen zur Adobe Admin Console hinzugefügt werden. Sie können Planning-Objekte nicht für Benutzende von Workfront freigeben, die nicht zum Adobe Admin Console hinzugefügt wurden.
+* Wenn Sie Arbeitsbereiche und Datensatztypen für andere freigeben, wird die Berechtigungsstufe des Datensatztyps automatisch auf die Datensätze und Felder vererbt, die mit ihnen standardmäßig verknüpft sind.
 
 * Sie können Planning-Objekte wie folgt freigeben:
 
-   * Intern können Sie einen Arbeitsbereich, eine Ansicht oder einen Datensatztyp für die folgenden Workfront-Entitäten freigeben:
+   * Intern können Sie Workfront Planning-Objekte für die folgenden Workfront-Entitäten freigeben:
 
       * Benutzende
       * Gruppen
@@ -179,9 +183,9 @@ Die folgenden Szenarien sind vorhanden:
 
 ### Berechtigungen für Datensätze
 
-Datensatzberechtigungen werden vom Datensatztyp übernommen, wenn Sie Berechtigungen für den Arbeitsbereich und den Datensatztyp gewähren.
+Datensatzberechtigungen werden vom Datensatztyp übernommen, wenn Sie standardmäßig Berechtigungen für den Arbeitsbereich und den Datensatztyp gewähren.
 
-Im Folgenden finden Sie die Berechtigungsebenen für Datensätze:
+In der Produktionsumgebung gibt es die folgenden Berechtigungsebenen für Datensätze:
 
 
 |        | Verwalten | Mitwirken | Ansicht |
@@ -190,6 +194,37 @@ Im Folgenden finden Sie die Berechtigungsebenen für Datensätze:
 | Löschen | ✓ | ✓ |       |
 | Bearbeiten | ✓ | ✓ |       |
 | Ansicht | ✓ | ✓ | ✓ |
+
+<div class="preview">
+
+In der Vorschau -Umgebung sind die folgenden Berechtigungsebenen für Datensätze verfügbar:
+
+|        | Verwalten | Ansicht |
+|--------|--------|-------|
+| Erstellen | ✓ |       |
+| Löschen | ✓ |       |
+| Bearbeiten | ✓ |       |
+| Ansicht | ✓ | ✓ |
+
+Datensatzberechtigungen werden immer vererbt, wenn Sie Berechtigungen für den Arbeitsbereich und den Datensatztyp gewähren.
+
+Sie können die geerbten Berechtigungen des Datensatzes, die Sie vom Datensatztyp erhalten haben, entfernen. Workspace-Manager und Datensatzersteller behalten die Verwaltungsberechtigungen für den Datensatz bei.
+
+Sie können Benutzenden für den Datensatz keine Berechtigungen erteilen, die niedriger oder höher sind als die für den Datensatztyp.
+
+Die folgenden Szenarien sind vorhanden:
+
+| Berechtigungen für Workspace und Datensatztypen | Automatische geerbte Berechtigungen für einen Datensatz | Mögliche Datensatzberechtigungen, wenn geerbte Berechtigungen deaktiviert (manuell gewährt) sind |
+|--------|--------|-------------|
+| Verwalten | Verwalten | Verwalten, Entfernen von Berechtigungen* |
+| Mitwirken | Verwalten | Verwalten, Entfernen von Berechtigungen* |
+| Ansicht | Ansicht | Anzeigen, Entfernen von Berechtigungen* |
+
+>[!NOTE]
+>
+>*Wenn Sie Berechtigungen aus einem Datensatz entfernen, behalten Benutzer weiterhin die Anzeigeberechtigungen für den Arbeitsbereich und den Datensatztyp bei, es sei denn, Sie entfernen deren Berechtigungen aus dem Arbeitsbereich.
+
+</div>
 
 ### Berechtigungen zum Aufzeichnen von Feldern
 
@@ -235,7 +270,10 @@ Im Folgenden finden Sie die Berechtigungsebenen für Ansichten und Ansichtseleme
 | Ansicht | ✓ |
 | Anwenden | ✓ |
 
-*Benutzer müssen über Ansichtsberechtigungen oder höhere Berechtigungen für einen Arbeitsbereich verfügen, um Zugriff auf diese Ansicht zu erhalten.
+>[!NOTE]
+>
+>*Benutzer müssen über Ansichtsberechtigungen oder höhere Berechtigungen für einen Arbeitsbereich verfügen, um Zugriff auf diese Ansicht zu erhalten.
+
 
 <!--
 old view permissions, before sharing View permissions to a view through a workspace:

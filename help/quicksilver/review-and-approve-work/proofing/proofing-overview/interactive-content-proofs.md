@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: proofing-overview
-title: Übersicht über Korrekturabzüge für interaktive Inhalte
+title: Überblick über Korrekturabzüge mit interaktiven Inhalten
 description: Interaktive Inhalte bieten verschiedene Methoden, um Betrachter anzusprechen. Agenturen können den Erfolg ihrer Kampagnen mithilfe von Analysen messen, die aus Antworten auf diesen Inhalt gesammelt wurden.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fdcad9c6-5508-476a-bfb8-2fe3bfbb007b
 source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 0%
+source-wordcount: '604'
+ht-degree: 1%
 
 ---
 
-# Übersicht über Korrekturabzüge für interaktive Inhalte
+# Überblick über Korrekturabzüge mit interaktiven Inhalten
 
 <!-- Audited: 01/2024 -->
 

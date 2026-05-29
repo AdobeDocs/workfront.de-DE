@@ -8,12 +8,12 @@ recommendations: noDisplay, noCatalog
 exl-id: e16e54ee-b74d-495a-9e1b-f5c429458772
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 3%
+source-wordcount: '751'
+ht-degree: 4%
 
 ---
 
-# Lookand-Feel-Aktualisierungen während des Zeitrahmens der Version 23.1
+# Look-and-Feel-Aktualisierungen im Veröffentlichungszeitraum der Version 23.1
 
 Auf dieser Seite werden kleinere Aktualisierungen des Erscheinungsbilds verschiedener Bereiche des Adobe Workfront-Programms beschrieben, die innerhalb des Zeitrahmens der Version 23.1 vorgenommen wurden. Diese Verbesserungen werden mindestens 2 Wochen nach der Veröffentlichung in der Vorschau in der Produktionsumgebung verfügbar gemacht.
 

@@ -8,12 +8,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 4be185e7-12b1-49af-973e-c6eb3e134d38
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 0%
+source-wordcount: '180'
+ht-degree: 2%
 
 ---
 
-# 22.3 Verbesserungen beim Ressourcenmanagement
+# Verbesserungen beim Ressourcen-Management in Version 22.3
 
 Auf dieser Seite werden alle Verbesserungen des Ressourcen-Managements beschrieben, die mit der Version 22.3 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen wurden in der Woche vom 11. Juli 2022 in der Produktionsumgebung verfügbar gemacht. Eine Liste aller mit Version 22.3 verfügbaren Änderungen finden Sie unter Übersicht über die Version [22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 

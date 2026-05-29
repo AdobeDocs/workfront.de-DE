@@ -10,8 +10,8 @@ author: Lisa
 exl-id: e2e4fbb7-5433-4d88-8e36-d82f4cc8a194
 source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 1%
+source-wordcount: '625'
+ht-degree: 7%
 
 ---
 
@@ -45,7 +45,7 @@ Weitere Informationen zu den Wartungsfenstern für die Sandbox-Vorschau-Umgebung
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -58,11 +58,11 @@ Weitere Informationen zu den Wartungsfenstern für die Sandbox-Vorschau-Umgebung
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
-   <td>Systemadministrator</td> 
+   <td>Systemadmin</td> 
   </tr> 
  </tbody> 
 </table>

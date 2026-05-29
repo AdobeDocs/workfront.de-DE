@@ -8,8 +8,8 @@ feature: Digital Content and Documents
 exl-id: c676c696-ab7d-415b-bf5e-5d0335a3920f
 source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 2%
+source-wordcount: '250'
+ht-degree: 25%
 
 ---
 
@@ -19,7 +19,7 @@ Wenn Sie der Inhaber des Korrekturabzugs sind, können Sie den grundlegenden Wor
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,17 +37,17 @@ Wenn Sie der Inhaber des Korrekturabzugs sind, können Sie den grundlegenden Wor
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof-Berechtigungsprofil </td> 
+   <td role="rowheader">Korrekturabzug-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> </td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

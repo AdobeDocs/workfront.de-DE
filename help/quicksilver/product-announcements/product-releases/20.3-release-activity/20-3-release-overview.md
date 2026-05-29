@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases
-title: Übersicht über die Version 20.3
+title: Überblick über Version 20.3
 description: Die Version 20.3 wurde in der Woche vom in der Produktionsumgebung bereitgestellt. Diese Seite enthält Informationen über die Funktionen, die in Version 20.3 enthalten sind.
 author: Luke
 feature: Product Announcements
@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 9d25fda7-8116-42ba-961b-12aed4678614
 source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '3829'
-ht-degree: 0%
+source-wordcount: '3985'
+ht-degree: 2%
 
 ---
 
-# Übersicht über die Version 20.3
+# Überblick über Version 20.3
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The 20.3 release was made available in the Production environment the week of . This page provides information about the functionality included in the 20.3 release.</p>
@@ -118,14 +118,14 @@ Die Version 2020.3 enthält die folgenden Verbesserungen für alle Benutzer:
 >
 >Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebenen Funktionen nutzen zu können:
 >
->* Ein Pro- oder höher [Adobe Workfront-Plan](https://business.adobe.com/de/products/workfront/pricing.html).
+>* Ein Pro- oder höher [Adobe Workfront-Plan](https://business.adobe.com/products/workfront/pricing.html).
 >* Eine Adobe Workfront-Ziellizenz zusätzlich zu einer Workfront-Lizenz.
 >
 >  Wenden Sie sich an Ihren Workfront Account Manager, um mehr über eine Workfront Goals-Lizenz zu erfahren.
 >
 >  Workfront Goals ist nur in der neuen Adobe Workfront-Version verfügbar.
 >
->Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>Weitere Informationen zum Zugriff auf Workfront Goals finden Sie unter [Voraussetzungen für die Verwendung von Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -155,7 +155,7 @@ Die Version 2020.3 enthält die folgenden Verbesserungen für alle Benutzer:
 >&gt; <col> 
 >&gt; <tbody> 
 >&gt;  <tr> 
->&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/de/products/workfront/pricing.html" target="_blank">Workfront-Plan</a>*</p> </td> 
+>&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Workfront-Plan</a>*</p> </td> 
 >&gt;   <td>Unternehmen oder höher</td> 
 >&gt;  </tr> 
 >&gt;  <tr> 
@@ -164,7 +164,7 @@ Die Version 2020.3 enthält die folgenden Verbesserungen für alle Benutzer:
 >&gt;  </tr> 
 >&gt;  <tr> 
 >&gt;   <td role="rowheader">Produkt</td> 
->&gt;   <td>Workfront-Szenarienplaner <p>Weitere Informationen zum Workfront-Szenarioplaner finden Sie unter <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Szenarioplaner - Übersicht</a>.</p> </td> 
+>&gt;   <td>Workfront-Szenarienplaner <p>Weitere Informationen zum Workfront-Szenarienplaner finden Sie unter <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Überblick über den Szenarienplaner</a>.</p> </td> 
 >&gt;  </tr> 
 >&gt;  <tr data-mc-conditions=""> 
 >&gt;   <td role="rowheader"><strong>Zugriffsebene*</strong> </td> 
@@ -396,7 +396,7 @@ Die Version 2020.3 enthält die folgenden Verbesserungen für alle Benutzer:
    <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 29. Juli 2020</p> <p>Produktionsversion: Ab Version 20.3 erfolgt ein schrittweiser Rollout und steht allen Kunden bis zum 1. September 2020 zur Verfügung.</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#base64" class="MCXref xref">Base64-Codierung für Ereignisabonnements</a> </p> <p>Das Feld base64encoding ist ein optionales Feld, das verwendet wird, um die Base64-Codierung von Payloads von Ereignisabonnements zu aktivieren. Wenn eine Anfrage mit dem Feld base64Encoding gestellt wird, das auf „true“ gesetzt ist, werden die newState- und oldState-Objekte in der Payload als Base64-Codierungszeichenfolgen bereitgestellt. Diese Funktion kann nützlich sein, wenn Ihr Netzwerk so konfiguriert ist, dass Sonderzeichen in Ereignisabonnements nicht zulässig sind.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#base64" class="MCXref xref">Base64-Codierung für Ereignisabonnements</a> </p> <p>Das Feld „base64Encoding“ ist ein optionales Feld, das verwendet wird, um die Base64-Codierung von Payloads für Ereignisabonnements zu aktivieren. Wenn eine Anfrage mit dem Feld base64Encoding gestellt wird, das auf „true“ gesetzt ist, werden die newState- und oldState-Objekte in der Payload als Base64-Codierungszeichenfolgen bereitgestellt. Diese Funktion kann nützlich sein, wenn Ihr Netzwerk so konfiguriert ist, dass Sonderzeichen in Ereignisabonnements nicht zulässig sind.</p> </td> 
    <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 8. Juli 2020</p> <p>Produktionsversion: 10. Juli 2020</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
@@ -420,7 +420,7 @@ Weitere Informationen zu API-Versionen finden Sie unter [API-Versionierung und S
 
 .
 
-## Wartungs-Updates für Workfront 
+## Wartungs-Updates für Workfront
 
 Informationen zu den Wartungs-Updates, die während der Version 20.3 vorgenommen wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
@@ -451,7 +451,7 @@ Weitere Informationen finden Sie [Zulassungsliste zum Konfigurieren der Firewall
 
 Mit Workfront One entdecken Sie die wichtigsten Inhalte, Ressourcen und Neuigkeiten aus Workfront - alles an einem Ort, mit einer Anmeldung. Wir haben die Sites für Erlebnis, Community und Schulung zusammengeführt, damit Sie leichter finden können, wonach Sie suchen.
 
-[Weitere Informationen zu Workfront One](https://business.adobe.com/de/products/workfront.html).
+[Weitere Informationen zu Workfront One](https://business.adobe.com/products/workfront.html).
 
 ### Webinar zur Version 20.3 {#20-3-release-webinar}
 

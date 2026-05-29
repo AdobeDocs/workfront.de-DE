@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 7d2db918-ebf0-4c52-9039-54c3eb5515f0
 source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---

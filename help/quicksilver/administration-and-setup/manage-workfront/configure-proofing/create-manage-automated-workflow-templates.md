@@ -10,8 +10,8 @@ role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
 source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '2079'
-ht-degree: 0%
+source-wordcount: '2083'
+ht-degree: 3%
 
 ---
 
@@ -35,16 +35,16 @@ Informationen zu automatisierten Workflows finden Sie unter [Automatisierter Wor
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+Sie benötigen die folgenden Zugriffsrechte, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td role="rowheader">Adobe Workfront-Abo</td> 
    <td> <p>Neu: Beliebig</p><p>Aktuell: Pro oder höher</p><p>Legacy: Premium oder Select</p> <p>Weitere Informationen zum Proofing-Zugriff für die verschiedenen Pläne finden Sie unter <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Proofing-Funktionalität in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -58,7 +58,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -134,7 +134,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <td> <p>Die verfügbaren Entscheidungsträger werden erst dann in der Liste angezeigt, nachdem Sie die Reviewer zur Phase hinzugefügt haben.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Nur eine Entscheidung erforderlich</td> 
+      <td role="rowheader">Nur 1 Entscheidung erforderlich</td> 
       <td>Der Überprüfungsprozess für die Phase wird abgeschlossen, sobald einer der Entscheidungsträger seine Entscheidung vorlegt. Weitere Informationen finden Sie unter <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Konfigurieren der Testversandeinstellungen in Workfront Proof</a>.</td> 
      </tr> 
      <tr> 
@@ -236,7 +236,7 @@ Als Workfront Proof-Administrator können Sie eine Vorlage für einen automatisi
       <td>Beendet die Phase, wenn einer der Entscheidungsträger seine Entscheidung zum ersten Mal einreicht. Weitere Informationen finden Sie unter <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Konfigurieren der Testversandeinstellungen in Workfront Proof</a>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">DATENSCHUTZ</td> 
+      <td role="rowheader">Datenschutz</td> 
       <td>Blendet Kommentare und Entscheidungen aus für Personen aus, die nicht zur Phase hinzugefügt werden oder die nicht Supervisoren und höher im Konto sind. Weitere Informationen finden Sie unter <a href="../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Automatisierter Workflow - Übersicht</a>.</td> 
      </tr> 
      <tr> 

@@ -9,8 +9,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1875'
-ht-degree: 37%
+source-wordcount: '2048'
+ht-degree: 39%
 
 ---
 
@@ -381,11 +381,11 @@ Die aktualisierte Workfront-Integration ist jetzt verfügbar und vollständig mi
 
 Im Rahmen dieser Änderung hat Microsoft die Entscheidung getroffen, die Art und Weise zu ändern, wie Token wieder aktiviert werden. Nach dem **30. Juni 2025** können Admins Token nicht mehr selbst erneut aktivieren – nur der Microsoft-Support kann Ausnahmen gewähren. **Am 1. Oktober 2025 werden alte Token für alle Mandanten deaktiviert. Ausnahmen werden nicht gewährt.**
 
-### API-Version 20
+### API-Version 20
 
-Die Version 20 der Workfront-API wurde am Montag, 4. Mai 2025 veröffentlicht. Für die API-Version 20 haben wir einige Ressourcen und Endpunkte geändert. Einige der Änderungen unterstützen neue Funktionen, andere erleichtern Ihnen die Verwendung der über die API verfügbaren Informationen.
+Workfront API Version 20 wurde am 4. Mai 2025 veröffentlicht. Für die API-Version 20 haben wir einige Ressourcen und Endpunkte geändert. Einige der Änderungen unterstützen neue Funktionen, andere erleichtern Ihnen die Verwendung der über die API verfügbaren Informationen.
 
-Informationen zu neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in der API-Version 20](/help/quicksilver/wf-api/api/new-api-version-19.md).
+Informationen zu neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in der API-Version 20](/help/quicksilver/wf-api/api/new-api-version-19.md).
 
 Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Zeitplan](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 

@@ -11,7 +11,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
-source-wordcount: '4076'
+source-wordcount: '4104'
 ht-degree: 6%
 
 ---
@@ -214,7 +214,7 @@ Sie können eine Aufgabe über die Bereiche Aufgabe bearbeiten oder Aufgabendeta
 
 1. (Bedingt) Um alle Informationen zu der Aufgabe zu bearbeiten, klicken Benutzende mit der Berechtigung zum Verwalten der Aufgabe auf das Menü **Mehr** ![Mehr](assets/more-icon.png) neben dem Namen der Aufgabe und anschließend auf **Bearbeiten**.
 
-   Oder
+   ODER
 
    Wählen Sie aus einer Aufgabenliste eine Aufgabe aus und klicken Sie dann oben in der Liste auf **Bearbeiten** Symbol ![Bearbeiten](assets/edit-icon.png).
 
@@ -549,7 +549,7 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
 
 1. Klicken Sie **Benutzerdefiniertes Formular hinzufügen** und wählen Sie das oder die benutzerdefinierten Formulare aus, die Sie mit der Aufgabe verknüpfen möchten. Sie müssen die benutzerdefinierten Formulare erstellen, bevor sie in diesem Feld ausgewählt werden können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt.
 
-   Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Sie können einer Aufgabe bis zu zehn benutzerdefinierte Formulare hinzufügen
+   Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).Sie können einer Aufgabe bis zu zehn benutzerdefinierte Formulare hinzufügen
 
 1. (Bedingt) Wenn Sie ein benutzerdefiniertes Formular an die Aufgabe angehängt haben, bearbeiten Sie alle Felder im Formular. Sie müssen alle erforderlichen Felder angeben, bevor Sie die Aufgabe speichern können.
 

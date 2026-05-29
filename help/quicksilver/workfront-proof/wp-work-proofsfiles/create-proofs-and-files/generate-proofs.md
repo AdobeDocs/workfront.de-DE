@@ -9,8 +9,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
 source-git-commit: de23513976d7bc4fe34cbf7b007a41c3b9797347
 workflow-type: tm+mt
-source-wordcount: '1889'
-ht-degree: 1%
+source-wordcount: '1895'
+ht-degree: 3%
 
 ---
 
@@ -101,29 +101,29 @@ ht-degree: 1%
         <li>Benutzende können sich nicht beim Korrekturabzug anmelden, um ihn anzuzeigen, es sei denn, sie wurden ihm hinzugefügt.</li> 
         <li>Abonnements können nicht aktiviert werden.</li> 
        </ul> 
-       <p>Diese Option ist standardmäßig deaktiviert.</p> 
+       <p>Standardmäßig ist diese Option deaktiviert.</p> 
        </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Entscheidungen müssen elektronisch signiert werden</td> 
       <td><p>Wenn diese Option ausgewählt ist, müssen Benutzende ihren Benutzernamen und ihr Kennwort zum Zeitpunkt der Entscheidung über einen Korrekturabzug angeben.</p>
-      <p>Diese Option ist standardmäßig deaktiviert.</p>
+      <p>Standardmäßig ist diese Option deaktiviert.</p>
       </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Korrekturabzug sperren, wenn alle erforderlichen Entscheidungen getroffen werden</td> 
       <td> <p>Wenn diese Einstellung aktiviert ist, wird der Status des Korrekturabzugs gesperrt, nachdem alle Entscheidungen getroffen wurden. Der Status wird automatisch von entsperrt in gesperrt geändert, wenn die endgültige genehmigende Person ihre Entscheidung trifft.</p> 
-      <p>Diese Option ist standardmäßig deaktiviert.</p> </td> 
+      <p>Standardmäßig ist diese Option deaktiviert.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Herunterladen der Originaldatei zulassen</td> 
       <td> <p><strong></strong> Wenn diese Option ausgewählt ist, können Prüfer die Originaldatei, aus der der Korrekturabzug erstellt wurde, herunterladen.</p> <p>Wenn diese Option deaktiviert ist, ist das Download-Symbol nicht mehr sichtbar.</p>
-      <p>Diese Option ist standardmäßig aktiviert.</p> </td> 
+      <p>Standardmäßig ist diese Option aktiviert.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Freigabe des Korrekturabzugs über öffentliche URL oder eingebetteten Code erlauben</td> 
       <td><p>Wenn diese Option ausgewählt ist, kann der Korrekturabzug über eine öffentliche URL oder einen Einbettungs-Code freigegeben werden.</p>
-       <p>Diese Option ist standardmäßig aktiviert.</p>
+       <p>Standardmäßig ist diese Option aktiviert.</p>
       </td> 
      </tr> 
      <tr> 
@@ -134,7 +134,7 @@ ht-degree: 1%
         <li><strong>E-Mail-Warnhinweiseinstellungen für Abonnenten</strong>: Der E-Mail-Warnhinweis, der standardmäßig allen Reviewern zugewiesen wird, die den Testversand abonniert haben.</li> 
         <li> <p><strong>Zugriff auf Korrekturabzug über einen E-Mail-Link erforderlich für</strong>: Konfigurieren Sie, ob der Abonnent eine E-Mail mit einem Link zum Korrekturabzug erhält. Sie können zwischen <strong>Keine E-Mail</strong> (für den Zugriff auf den Korrekturabzug ist kein E-Mail-Link erforderlich), <strong>Nur E-Mail-Benachrichtigung über den Korrekturabzug</strong> (der Abonnent erhält einen Link zum Korrekturabzug per E-Mail ohne Bestätigung) oder <strong>E-Mails zu Validierung und </strong> über den Korrekturabzug) wählen (der Abonnent erhält einen Link zum Korrekturabzug per E-Mail und muss auf den Link klicken, um auf den Korrekturabzug zuzugreifen. Mit dieser Option soll sichergestellt werden, dass die Person eine korrekte E-Mail-Adresse eingegeben hat (zu der sie Zugriff hat).</p> <p>Hinweis: Wenn an die Korrekturabzüge ein automatisierter Workflow angehängt ist, generieren alle Abonnements Bestätigungs-E-Mails an den Testversand-Inhaber, damit dieser entscheiden kann, zu welchem Schritt die Person hinzugefügt werden soll.</p> </li> 
        </ul> 
-        <p>Diese Option ist standardmäßig deaktiviert.</p>
+        <p>Standardmäßig ist diese Option deaktiviert.</p>
        </td> 
      </tr> 
     </tbody> 
@@ -198,9 +198,9 @@ Sie können einen statischen Korrekturabzug mithilfe einer Website-URL erstellen
 
    * [Freigeben eines Korrekturabzugs für [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
    * [Einrichten eines Korrekturabzugs mit einem automatisierten Workflow in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/set-up-proof-auto-workflow.md)
-   * [Konfigurieren der Zugriffs- und Abonnementeinstellungen für einen Testversand](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
+   * [Konfigurieren der Zugriffs- und Abonnementeinstellungen für einen Korrekturabzug](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
 
-1. Klicken Sie **[!UICONTROL Fertig]**.
+1. Klicken Sie auf **[!UICONTROL Fertig]**.
 
 1. Klicken Sie **[!UICONTROL Korrekturabzug erstellen]**.
 
@@ -233,7 +233,7 @@ Informationen zum Hinzufügen eines interaktiven URL-Korrekturabzugs finden Sie 
 1. (Optional) Konfigurieren Sie erweiterte Proofing-Optionen, z. B. die Freigabe des Korrekturabzugs, das Hinzufügen eines automatisierten Workflows oder das Einrichten von Zugriffs- und Abonnementeinstellungen. Weitere Informationen zu diesen Optionen finden Sie in den folgenden Artikeln:
 
    * [Freigeben eines Korrekturabzugs für [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
-   * [Konfigurieren der Zugriffs- und Abonnementeinstellungen für einen Testversand](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
+   * [Konfigurieren der Zugriffs- und Abonnementeinstellungen für einen Korrekturabzug](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
 
 1. Klicken Sie **[!UICONTROL Korrekturabzug erstellen]**. Workfront generiert einen Korrekturabzug der ZIP-Datei.
 

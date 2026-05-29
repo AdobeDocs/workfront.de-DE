@@ -12,7 +12,7 @@ exl-id: fcc876d9-0512-424a-a731-6bbacd55af3f
 source-git-commit: 929502c256011b464d938ad1095c127407e4a795
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 4%
+ht-degree: 24%
 
 ---
 
@@ -24,7 +24,7 @@ Ich kann den Lizenztyp Externer Benutzer unter „Zugriffsebenen“ im Setup nic
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +37,7 @@ Ich kann den Lizenztyp Externer Benutzer unter „Zugriffsebenen“ im Setup nic
   <tr> 
    <td>[!DNL Adobe Workfront] Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -46,7 +46,7 @@ Ich kann den Lizenztyp Externer Benutzer unter „Zugriffsebenen“ im Setup nic
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

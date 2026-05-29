@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: Erinnerungsnachricht an ein Objekt anhängen
+title: Anhängen einer Erinnerungsbenachrichtigung an ein Objekt
 description: 'Sie können Erinnerungsnachrichten mit verschiedenen Objekttypen verknüpfen: Projekte, Aufgaben, Probleme, Arbeitszeittabellen, Vorlagen, Vorlagenaufgaben und wiederkehrende Arbeitszeittabellen-Profile.'
 author: Courtney
 feature: Get Started with Workfront
@@ -10,11 +10,11 @@ exl-id: ea04d807-1a9f-4a23-96de-cd83f0821ba0
 source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 2%
+ht-degree: 19%
 
 ---
 
-# Erinnerungsnachricht an ein Objekt anhängen
+# Anhängen einer Erinnerungsbenachrichtigung an ein Objekt
 
 Sie können Erinnerungsnachrichten mit verschiedenen Objekttypen verknüpfen: Projekte, Aufgaben, Probleme, Arbeitszeittabellen, Vorlagen, Vorlagenaufgaben und wiederkehrende Arbeitszeittabellen-Profile.
 
@@ -24,7 +24,7 @@ Die Schritte zum Anhängen einer Erinnerungsbenachrichtigung sind unabhängig vo
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,7 +40,7 @@ Die Schritte zum Anhängen einer Erinnerungsbenachrichtigung sind unabhängig vo
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> 
    <p>Standard</p>
-   <p>Arbeit oder höher</p> </td> 
+   <p>Work oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 

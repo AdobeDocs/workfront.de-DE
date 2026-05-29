@@ -1,7 +1,7 @@
 ---
 user-type: administrator
 product-area: system-administration
-keywords: Kickstart,Kickstart,Kickstarts,Kickstarts
+keywords: Kickstart,Kick-Start,Kickstarts,Kick-Starts
 navigation-topic: use-kick-starts
 title: Exportieren von Daten aus Workfront über Kickstarts
 description: Als Adobe Workfront-Administrator können Sie den Kickstart-Datenexporteur verwenden, um Daten aus Workfront zu exportieren.
@@ -11,8 +11,8 @@ role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
 source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 8%
+source-wordcount: '980'
+ht-degree: 15%
 
 ---
 
@@ -30,7 +30,7 @@ Der Export von Daten über Kickstarts ist auch hilfreich, um zu verstehen, welch
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,11 +43,11 @@ Der Export von Daten über Kickstarts ist auch hilfreich, um zu verstehen, welch
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
-   <td>Systemadministrator</td> 
+   <td>Systemadmin</td> 
   </tr> 
  </tbody> 
 </table>
@@ -123,12 +123,12 @@ Beim Exportieren von Daten über Kickstarts (Daten werden im Excel-Dateiformat e
      <tr> 
       <td scope="col" valign="top"> <p>Dashboard</p> <p> </p> <p> </p> </td> 
       <td scope="col" valign="top"> <p>Parameter<br>Parameteroption<br>Parametergruppe<br>Kategorieparameter<br>Kategorie<br>Bericht<br>Portalregisterkartenabschnitt<br>dashboard<br>preferences</p> </td> 
-      <td scope="col" valign="top"> PLZ</td> 
+      <td scope="col" valign="top"> ZIP CODE</td> 
      </tr> 
      <tr> 
       <td scope="col" valign="top"> <p>Bericht</p> <p> </p> <p> </p> </td> 
       <td scope="col" valign="top">Parameter<br>Parameteroption<br>Parametergruppe<br>Kategorieparameter<br>Kategorie<br>Bericht<br>Voreinstellungen</td> 
-      <td scope="col" valign="top"> PLZ </td> 
+      <td scope="col" valign="top"> ZIP CODE </td> 
      </tr> 
      <tr> 
       <td scope="col" valign="top"> <p>Genehmigung</p> </td> 
@@ -156,7 +156,7 @@ Beim Exportieren von Daten über Kickstarts (Daten werden im Excel-Dateiformat e
       <td scope="col" valign="top"> <p> Excel</p> </td> 
      </tr> 
      <tr> 
-      <td valign="top"> <p>Benutzerin bzw. Benutzer</p> </td> 
+      <td valign="top"> <p>Benutzerin oder Benutzer</p> </td> 
       <td valign="top"> <p><br></p> </td> 
       <td valign="top"> <p> Excel</p> </td> 
      </tr> 
@@ -233,7 +233,7 @@ Beim Exportieren von Daten über Kickstarts (Daten werden im Excel-Dateiformat e
       <td valign="top">ZIP CODE</td> 
      </tr> 
      <tr> 
-      <td valign="top">Hour</td> 
+      <td valign="top">Stunde</td> 
       <td valign="top"> <br> </td> 
       <td valign="top">Excel</td> 
      </tr> 
@@ -253,7 +253,7 @@ Beim Exportieren von Daten über Kickstarts (Daten werden im Excel-Dateiformat e
       <td valign="top">Excel </td> 
      </tr> 
      <tr> 
-      <td valign="top">Hinweis</td> 
+      <td valign="top">Notiz</td> 
       <td valign="top"> Hinweis<br>Voreinstellungen </td> 
       <td valign="top">Excel</td> 
      </tr> 
@@ -333,7 +333,7 @@ Beim Exportieren von Daten über Kickstarts (Daten werden im Excel-Dateiformat e
 
    Matrixberichte können nicht exportiert werden. Weitere Informationen zu Matrixberichten finden Sie unter [Erstellen eines Matrixberichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-   Kickstarts unterstützen keine Textmodusfilter oder Gruppierungen. Für einen erfolgreichen Export müssen die Berichtsfilter und Gruppierungen in den Standardmodus umgeschaltet werden.
+   Kickstarts unterstützen keine Textmodusfilter oder Gruppierungen. Für einen erfolgreichen Export muss für Berichtsfilter und Gruppierungen in den Standardmodus gewechselt werden.
 
    Sie können in einem Export bis zu 100 Dashboards und 100 Berichte auswählen.
 

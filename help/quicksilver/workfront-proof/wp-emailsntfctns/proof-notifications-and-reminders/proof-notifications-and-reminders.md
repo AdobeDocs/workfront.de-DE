@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: emails-and-notifications-workfront-proof
-title: Proof-Benachrichtigungen und -Erinnerungen
+title: Benachrichtigungen und Erinnerungen für Korrekturabzüge
 description: Erfahren Sie mehr über Korrekturabzugs-Benachrichtigungen und -Erinnerungen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -12,11 +12,11 @@ exl-id: 48afedba-b58a-42db-b0fe-befb09ba8acb
 source-git-commit: 692d0e903c1b92ad539eacf6d26e18e81530a8b0
 workflow-type: tm+mt
 source-wordcount: '50'
-ht-degree: 0%
+ht-degree: 28%
 
 ---
 
-# Proof-Benachrichtigungen und -Erinnerungen
+# Benachrichtigungen und Erinnerungen für Korrekturabzüge
 
 >[!IMPORTANT]
 >

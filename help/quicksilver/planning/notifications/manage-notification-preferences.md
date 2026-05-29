@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 8%
+source-wordcount: '555'
+ht-degree: 10%
 
 ---
 
@@ -174,7 +174,7 @@ Weitere Informationen zu Workfront Planning-Benachrichtigungen finden Sie in den
 1. Klicken Sie auf **Kontomenü**-Symbol ![Kontomenüsymbol in Experience Cloud](assets/account-menu-icon-on-experience-cloud.png) oben rechts im Bildschirm und dann auf **Voreinstellungen**.
 1. Klicken **im Abschnitt** auf **Workfront**.
 1. Wählen Sie die Benachrichtigungen aus, die Sie erhalten möchten.
-oder
+ODER
 Heben Sie die Markierung der Benachrichtigungen auf, die Sie nicht mehr erhalten möchten.
 
    ![Adobe Experience Cloud-Benachrichtigungsbereich für Workfront Planning](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)

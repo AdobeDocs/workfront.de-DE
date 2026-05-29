@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '932'
 ht-degree: 5%
 
 ---
@@ -44,7 +44,7 @@ Weitere Informationen zum Konfigurieren von [!DNL Workfront] mit [!DNL Slack] fi
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -57,7 +57,7 @@ Bevor Sie Ihre Arbeit und Genehmigungen von [!DNL Slack] aus verwalten können, 
 
 ## Verwalten von Arbeit aus [!DNL Slack]
 
-1. Melden Sie sich bei Ihrer [!DNL Slack]-Instanz an und melden Sie sich von [!DNL Workfront] aus bei [!DNL Slack] an.\
+1. Melden Sie sich bei Ihrer [!DNL Slack]-Instanz an und melden Sie sich von [!DNL Slack] aus bei [!DNL Workfront] an.\
    Weitere Informationen zum Anmelden bei [!DNL Workfront] von [!DNL Slack] finden Sie im Abschnitt „Anmelden bei [!DNL Workfront] von [!DNL Slack]&quot; in [Zugriff [!DNL Adobe Workfront] von [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. Geben Sie in einem beliebigen Kanal den folgenden Befehl in das Feld Nachricht ein:
@@ -84,7 +84,7 @@ Bevor Sie Ihre Arbeit und Genehmigungen von [!DNL Slack] aus verwalten können, 
 
 ## Verwalten von Aufgaben über [!DNL Slack] {#manage-your-tasks-from-slack}
 
-1. Melden Sie sich bei Ihrer [!DNL Slack]-Instanz an und melden Sie sich von [!DNL Workfront] aus bei [!DNL Slack] an.\
+1. Melden Sie sich bei Ihrer [!DNL Slack]-Instanz an und melden Sie sich von [!DNL Slack] aus bei [!DNL Workfront] an.\
    Weitere Informationen zur Anmeldung bei [!DNL Workfront] von [!DNL Slack] finden Sie im Abschnitt „Anmelden bei [!DNL Workfront] von [!DNL Slack]&quot; in [Zugriff [!DNL Adobe Workfront] von [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. Geben Sie in einem beliebigen Kanal einen der folgenden Befehle in das Feld Nachricht ein:
@@ -127,7 +127,7 @@ Bevor Sie Ihre Arbeit und Genehmigungen von [!DNL Slack] aus verwalten können, 
 
 ## Verwalten von Problemen über [!DNL Slack] {#manage-your-issues-from-slack}
 
-1. Melden Sie sich bei Ihrer [!DNL Slack]-Instanz an und melden Sie sich von [!DNL Workfront] aus bei [!DNL Slack] an.\
+1. Melden Sie sich bei Ihrer [!DNL Slack]-Instanz an und melden Sie sich von [!DNL Slack] aus bei [!DNL Workfront] an.\
    Weitere Informationen zur Anmeldung bei [!DNL Workfront] von [!DNL Slack] finden Sie unter [Anmelden bei [!DNL Workfront] von [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#logging-in-to-workfront) section in [Access [!DNL Adobe Workfront] von [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. Geben Sie in einem beliebigen Kanal einen der folgenden Befehle in das Feld Nachricht ein:
@@ -162,7 +162,7 @@ Bevor Sie Ihre Arbeit und Genehmigungen von [!DNL Slack] aus verwalten können, 
 
 Genehmigungen beziehen sich auf Genehmigungen von veralteten Dokumenten. Einheitliche Dokumentgenehmigungen werden in [!DNL Microsoft Teams] derzeit nicht unterstützt. Weitere Informationen zu den verschiedenen Genehmigungssystemen in Workfront finden Sie unter [Verfügbare Funktionen für Dokumentgenehmigungen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md).
 
-1. Melden Sie sich bei Ihrer [!DNL Slack]-Instanz an und melden Sie sich von [!DNL Workfront] aus bei [!DNL Slack] an.\
+1. Melden Sie sich bei Ihrer [!DNL Slack]-Instanz an und melden Sie sich von [!DNL Slack] aus bei [!DNL Workfront] an.\
    Weitere Informationen zum Anmelden bei [!DNL Workfront] von [!DNL Slack] finden Sie im Abschnitt „Anmelden bei [!DNL Workfront] von [!DNL Slack]&quot; in [Zugriff [!DNL Adobe Workfront] von [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. Geben Sie in einem beliebigen Kanal einen der folgenden Befehle in das Feld Nachricht ein:

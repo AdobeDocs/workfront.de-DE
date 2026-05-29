@@ -1,6 +1,6 @@
 ---
-title: 20.4 Weitere Verbesserungen
-description: 20.4 Weitere Verbesserungen
+title: Weitere Verbesserungen in Version 20.4
+description: Weitere Verbesserungen in Version 20.4
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -8,12 +8,12 @@ recommendations: noDisplay, noCatalog
 exl-id: bd8fcafc-00cc-4025-b2d3-e3a6f12e40fc
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 0%
+source-wordcount: '511'
+ht-degree: 5%
 
 ---
 
-# 20.4 Weitere Verbesserungen
+# Weitere Verbesserungen in Version 20.4
 
 Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 20.4 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 9. November 2020 in der Produktionsumgebung verfügbar gemacht.
 

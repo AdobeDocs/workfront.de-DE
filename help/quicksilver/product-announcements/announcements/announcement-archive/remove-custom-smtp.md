@@ -1,19 +1,19 @@
 ---
 content-type: reference
 navigation-topic: announcements
-title: Benutzerdefinierte SMTP als Option für ausgehende E-Mails entfernen
+title: Benutzerdefiniertes SMTP als Option für ausgehende E-Mails entfernen
 description: Mit Version 20.3 (geplant für August 2020) wird Adobe Workfront auf ein neues E-Mail-System umstellen, das die Zuverlässigkeit Ihres E-Mail-Versands für Workfront-Updates und -Benachrichtigungen erheblich verbessern wird. Dadurch können Kunden nicht mehr ihren eigenen SMTP-E-Mail-Server verwenden, um ihre E-Mails von der Workfront-Plattform an die gewünschten Empfänger weiterzuleiten. Alle E-Mails werden direkt vom Workfront Mail-Server gesendet.
 author: Luke
 feature: Product Announcements
 exl-id: 73abd185-81c6-43fc-b8b0-cad14d15b348
 source-git-commit: 31e5f5e039e25fa25f3038c23ee579ba1f830bb7
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 0%
+source-wordcount: '306'
+ht-degree: 7%
 
 ---
 
-# Benutzerdefinierte SMTP als Option für ausgehende E-Mails entfernen
+# Benutzerdefiniertes SMTP als Option für ausgehende E-Mails entfernen
 
 >[!NOTE]
 >

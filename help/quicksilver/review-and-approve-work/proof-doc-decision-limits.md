@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Eingeschränkte Dokument- und Korrekturabzugsentscheidung für nicht bezahlte Benutzer - Überblick 
+title: Überblick über eingeschränkte Dokument- und Korrekturabzugsentscheidungen für nicht zahlende Benutzende 
 description: Korrekturabzugs- und Dokumentenentscheidungen sind auf alle nicht gebührenpflichtigen Workfront-Lizenzen beschränkt. Die Limits werden monatlich pro Benutzer zurückgesetzt.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
 source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 8%
+source-wordcount: '292'
+ht-degree: 16%
 
 ---
 
-# Eingeschränkte Dokument- und Korrekturabzugsentscheidung für nicht bezahlte Benutzer - Überblick
+# Überblick über eingeschränkte Dokument- und Korrekturabzugsentscheidungen für nicht zahlende Benutzende
 
 Korrekturabzugs- und Dokumentenentscheidungen sind für alle nicht bezahlten Workfront-Lizenzen in den neuen Plänen beschränkt. Wenn Sie als genehmigende Person für ein Dokument oder einen Korrekturabzug zugewiesen werden, müssen Sie eine Entscheidung treffen, um den Prüfungs- und Genehmigungsprozess voranzubringen.
 

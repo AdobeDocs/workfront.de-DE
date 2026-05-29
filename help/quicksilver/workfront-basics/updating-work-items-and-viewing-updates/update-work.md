@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '3154'
-ht-degree: 3%
+source-wordcount: '3171'
+ht-degree: 2%
 
 ---
 
@@ -464,7 +464,7 @@ Sie können Ihre Kommentare verbessern, indem Sie Rich-Text verwenden oder versc
 Sie können im Abschnitt Aktualisierungen eines Objekts nach einem Kommentar oder einer Antwort suchen.
 
 1. Gehen Sie zum **Updates** eines Objekts.
-1. Geben Sie oben rechts auf der Registerkarte <!--or a user's name -->Kommentare **ein Keyword-** in das Feld **Suche** ein.
+1. Geben Sie oben rechts auf der Registerkarte **Kommentare** ein Keyword-<!--or a user's name --> in das Feld **Suche** ein.
 
    <!--Add this tip or note instead of the note below - when it'll be possible: You can search for users who have been tagged or for comment owners.-->
 

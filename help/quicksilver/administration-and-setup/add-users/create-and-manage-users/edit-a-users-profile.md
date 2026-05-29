@@ -10,7 +10,7 @@ role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
 source-git-commit: 579b550fef222922de1ed5fe2c9928a92b3fb7f2
 workflow-type: tm+mt
-source-wordcount: '3425'
+source-wordcount: '3451'
 ht-degree: 3%
 
 ---
@@ -50,7 +50,7 @@ Informationen dazu, wie Benutzer ihre eigenen Profile aktualisieren, finden Sie 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -93,8 +93,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
   Das Kennwort eines Workfront-Administrators kann nicht zurückgesetzt werden.
 
-* **&lt;SSO Configuration> Username**: Wenn Ihr Workfront-Administrator eine SSO-Integration mit Workfront aktiviert hat, wird der SSO-Benutzername in diesem Feld angezeigt. Der Typ der für Ihre Workfront-Instanz aktivierten SSO-Konfiguration wird in diesem Feld angezeigt.
-* **OnlyAllow &lt;SSO Configuration> Authentication**: Wenn der Workfront-Administrator eine SSO-Integration mit Workfront aktiviert und alle Anwender für SSO aktualisiert hat, ist dieses Feld standardmäßig aktiviert. Der Typ der für Ihre Workfront-Instanz aktivierten SSO-Konfiguration wird in diesem Feld angezeigt.
+* **&lt;SSO-Konfiguration> Benutzername**: Wenn Ihr Workfront-Administrator eine SSO-Integration mit Workfront aktiviert hat, wird der SSO-Benutzername in diesem Feld angezeigt. Der Typ der für Ihre Workfront-Instanz aktivierten SSO-Konfiguration wird in diesem Feld angezeigt.
+* **Nur &lt;SSO-Konfiguration> Authentifizierung zulassen**: Wenn der Workfront-Administrator eine SSO-Integration mit Workfront aktiviert hat und alle Benutzer für SSO aktualisiert hat, ist dieses Feld standardmäßig ausgewählt. Der Typ der für Ihre Workfront-Instanz aktivierten SSO-Konfiguration wird in diesem Feld angezeigt.
 
   Wenn dieses Feld ausgewählt ist, muss sich der Benutzer mit seinen SSO-Anmeldeinformationen bei Workfront anmelden. Wenn Sie diese Option deaktivieren, können sich Benutzer mit ihren Workfront-Anmeldeinformationen bei Workfront anmelden.
 
@@ -113,7 +113,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
   Das Profilbild wird zum Avatar der Benutzerin oder des Benutzers und ist im gesamten Workfront-System sichtbar, unabhängig davon, wo der Name der Person angezeigt wird.
 
 * **Jobinfo**: Informationen über den Auftrag, wie z. B. die Stellenbezeichnung (im **Titel**-Feld) und den Fachbereich, für den der Benutzer verantwortlich ist (im **Sprechen Sie mit mir über**).
-* **Kontaktinformationen**: Die Telefonnummer des Benutzers (in der **Telefonnummer**, **Durchwahl.** und **Mobiltelefonnummer**) und Adresse (in den Feldern **Adresse**, **Stadt**, **Staat**, **Postleitzahl** und **Land**).
+* **Kontaktinfo**: Die Telefonnummer des Benutzers (in den Feldern **Telefonnummer**, **Ext.** und **Mobilnummer**) und Adresse (in den Feldern **Adresse**, **Stadt**, **Staat**, **Postleitzahl** und **Land**).
 
   Das Feld **Land** im Abschnitt Kontaktinformationen akzeptiert nur Werte des Länder-Codes (z. B. USA, GB, IN).
 
@@ -227,7 +227,7 @@ Weitere Informationen finden Sie unter [Konfigurieren von Ereignisbenachrichtigu
   >Legen Sie den Wert für Arbeitszeit auf 1 fest, um anzugeben, dass der Benutzer für projektbezogene Arbeit bis zum gesamten Vollzeitäquivalent verfügbar ist.
 
 * **Deaktivierungsdatum festlegen** Klicken Sie auf diese Schaltfläche, um die Deaktivierung dieses Benutzers zu einem bestimmten Datum und zu einer bestimmten Uhrzeit zu planen.
-* **Deaktivierungsdatum**: Datum und Uhrzeit der Deaktivierung des Benutzers. Informationen zum Planen von Benutzern für die Deaktivierung finden Sie unter [Planen von Benutzern für die &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation)) in [Deaktivieren oder Reaktivieren von Benutzern](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+* **Deaktivierungsdatum**: Datum und Uhrzeit der Deaktivierung des Benutzers. Informationen zum Planen von Benutzern für die Deaktivierung finden Sie unter [Planen von Benutzern für die ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation)) in [Deaktivieren oder Reaktivieren von Benutzern](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 * **Primäre Rolle**: Dies ist das primäre Aufgabengebiet, das Benutzende in Workfront erfüllen können. Jede Aufgabe und jedes Problem, der bzw. dem der Benutzer zugewiesen ist, wird ebenfalls diesem Aufgabengebiet zugewiesen. Aufgabengebiete sind im Ressourcen-Management von entscheidender Bedeutung. Sie können dieses Feld nur aktualisieren, wenn Sie über eine Standard- oder Planlizenz mit administrativem Benutzerzugriff verfügen oder wenn Sie ein Workfront-Administrator sind. Weitere Informationen zum Einrichten von Benutzern mit administrativem Benutzerzugriff finden Sie unter [Gewähren des Zugriffs für Benutzer](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
   In der Liste werden nur aktive Aufgabengebiete angezeigt.
@@ -253,7 +253,7 @@ Weitere Informationen finden Sie unter [Konfigurieren von Ereignisbenachrichtigu
 
   Informationen zur Berechnung der Verfügbarkeit für den Benutzer finden Sie unter [Übersicht über die Berechnung von Stunden und VZÄ für Benutzer und Funktionen im Ressourcenplaner](/help/quicksilver/resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
 
-  Informationen zum Konfigurieren der Voreinstellungen für die Ressourcenverwaltung finden Sie [Konfigurieren der Voreinstellungen für die &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)).
+  Informationen zum Konfigurieren der Voreinstellungen für die Ressourcenverwaltung finden Sie [Konfigurieren der Voreinstellungen für die ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)).
 
 <!--
 <span class="preview">(Optional) Date effective job role assignments are used in financial calculations if the user's job role changes during a project.</span>
@@ -271,7 +271,7 @@ Weitere Informationen finden Sie unter [Konfigurieren von Ereignisbenachrichtigu
 
   >[!IMPORTANT]
   >
-  >Workfront verwendet den Zeitplan eines Benutzers nur, wenn die Einstellung **Ressourcenverfügbarkeit berechnen mit** auf &quot;**des Benutzers“** ist. Weitere Informationen darüber, wie sich diese Einstellung auf den für die Ressourcenverwaltung verwendeten Zeitplan auswirkt, finden Sie [Konfigurieren der Voreinstellungen für die &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)&quot;.
+  >Workfront verwendet den Zeitplan eines Benutzers nur, wenn die Einstellung **Ressourcenverfügbarkeit berechnen mit** auf &quot;**des Benutzers“** ist. Weitere Informationen darüber, wie sich diese Einstellung auf den für die Ressourcenverwaltung verwendeten Zeitplan auswirkt, finden Sie [Konfigurieren der Voreinstellungen für die ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)&quot;.
 
 * **Arbeitszeittabellen-**: Verknüpfen Sie ein Arbeitszeittabellen-Profil mit dem Benutzer, um sicherzustellen, dass Arbeitszeittabellen automatisch für den Benutzer generiert werden.
 

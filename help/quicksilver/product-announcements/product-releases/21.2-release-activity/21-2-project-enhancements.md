@@ -2,7 +2,7 @@
 content-type: release-notes
 keywords: Hinweise,vierteljährlich,Aktualisierung,Freigabe
 navigation-topic: 2021-2-release-activity
-title: 21.2 Projektverbesserungen
+title: Verbesserungen bei Projekten in Version 21.2
 description: Auf dieser Seite werden alle mit Version 21.2 vorgenommenen Projektverbesserungen in der Vorschau-Umgebung beschrieben. Diese Verbesserungen werden in der Woche vom 10. Mai 2021 in der Produktionsumgebung verfügbar gemacht. Eine Liste aller mit Version 21.2 verfügbaren Änderungen finden Sie in der Übersicht über die Version 21.2.
 author: Luke
 feature: Product Announcements
@@ -10,12 +10,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 4e954d79-da5a-42f5-b43f-b1fdd17316d2
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '1653'
-ht-degree: 1%
+source-wordcount: '1698'
+ht-degree: 4%
 
 ---
 
-# 21.2 Projektverbesserungen
+# Verbesserungen bei Projekten in Version 21.2
 
 Auf dieser Seite werden alle mit Version 21.2 vorgenommenen Projektverbesserungen in der Vorschau-Umgebung beschrieben. Diese Verbesserungen werden in der Woche vom 10. Mai 2021 in der Produktionsumgebung verfügbar gemacht. Eine Liste aller mit Version 21.2 verfügbaren Änderungen finden Sie unter Übersicht über Version [21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
@@ -81,7 +81,7 @@ Vor dieser Verbesserung befanden sich diese Schaltflächen in der oberen rechten
 Informationen zum Bearbeiten von Projekten oder Aufgaben finden Sie in den folgenden Artikeln:
 
 * [Bearbeiten von Projekten](../../../manage-work/projects/manage-projects/edit-projects.md)
-* [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
+* [Bearbeiten von Aufgaben](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 
 ![Projektbeispiel bearbeiten](assets/pasted-image-4-5-2021-0-350x278.png)
 

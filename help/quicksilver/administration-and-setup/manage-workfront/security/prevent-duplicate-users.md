@@ -10,8 +10,8 @@ role: Admin
 exl-id: 84d9a752-e894-42cf-9b40-375e35f02c97
 source-git-commit: 6b2d93d2573d72e4390761038d8078f47d96d55e
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 0%
+source-wordcount: '577'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +21,7 @@ Beim Erstellen eines neuen Benutzers in Adobe Workfront können Sie keine E-Mail
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,7 +33,7 @@ Beim Erstellen eines neuen Benutzers in Adobe Workfront können Sie keine E-Mail
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Standard</p><p>Plan</p></td> 
+   <td><p>Standard</p><p>Abo</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -42,7 +42,7 @@ Beim Erstellen eines neuen Benutzers in Adobe Workfront können Sie keine E-Mail
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

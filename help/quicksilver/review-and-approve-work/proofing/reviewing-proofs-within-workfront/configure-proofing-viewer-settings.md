@@ -1,19 +1,19 @@
 ---
 product-area: documents;setup
 navigation-topic: review-a-proof
-title: Einstellungen der Proofing-Anzeige konfigurieren
+title: Konfigurieren von Einstellungen für den Proofing Viewer
 description: Sie können Einstellungen für den Web Proofing Viewer und den Desktop Proofing Viewer konfigurieren.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 3993cd67-90a9-4d7e-bbc0-7b9bd1057f54
 source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
 workflow-type: tm+mt
-source-wordcount: '1354'
-ht-degree: 1%
+source-wordcount: '1358'
+ht-degree: 4%
 
 ---
 
-# Einstellungen der Proofing-Anzeige konfigurieren
+# Konfigurieren von Einstellungen für den Proofing Viewer
 
 Sie können die folgenden Einstellungen für den Web Proofing Viewer und den Desktop Proofing Viewer konfigurieren:
 
@@ -42,7 +42,7 @@ Sie können die folgenden Einstellungen für den Desktop Proofing Viewer konfigu
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -61,21 +61,21 @@ Sie können die folgenden Einstellungen für den Desktop Proofing Viewer konfigu
    <td>Prüfer, Prüfer und genehmigende Person, Autor, Moderator</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof-Berechtigungsprofil </td> 
+   <td role="rowheader">Korrekturabzug-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> </td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
-## Einstellungen der Proofing-Anzeige konfigurieren
+## Konfigurieren von Einstellungen für den Proofing Viewer
 
 So konfigurieren Sie Einstellungen für die Proofing-Anzeige:
 

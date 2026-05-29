@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: review-proofs-within-workfront
-title: Freigeben eines Korrekturabzugs über die Korrekturabzugsansicht
+title: Freigeben eines Korrekturabzugs aus dem Proofing Viewer
 description: Sie können einen Korrekturabzug über die Korrekturabzugsansicht freigeben, wenn die Freigabe durch die Person, die den Korrekturabzug besitzt oder erstellt, aktiviert ist.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 20bd2d94-1401-4a38-9042-335d0cb32a3d
 source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 1%
+source-wordcount: '1446'
+ht-degree: 4%
 
 ---
 
-# Freigeben eines Korrekturabzugs über die Korrekturabzugsansicht
+# Freigeben eines Korrekturabzugs aus dem Proofing Viewer
 
 Sie können einen Korrekturabzug über die Korrekturabzugsansicht freigeben, wenn die Freigabe durch die Person, die den Korrekturabzug besitzt oder erstellt, aktiviert ist.
 
@@ -23,7 +23,7 @@ Sie können einen Korrekturabzug über die Korrekturabzugsansicht freigeben, wen
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,17 +42,17 @@ Sie können einen Korrekturabzug über die Korrekturabzugsansicht freigeben, wen
    <td>Prüfer, Prüfer und genehmigende Person, Autor, Moderator</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof-Berechtigungsprofil </td> 
+   <td role="rowheader">Korrekturabzug-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> </td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -153,7 +153,7 @@ So geben Sie einen Korrekturabzug für einzelne Benutzer frei:
 
    * **Rolle des Korrekturabzugs**: Weitere Informationen finden Sie unter [Rollen von Korrekturabzügen in Workfront Proof verwalten](../../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-   * **Staging**: (nur verfügbar, wenn der Korrekturabzug einen automatisierten Workflow aufweist). Weitere Informationen finden Sie unter  [Übersicht über die automatisierten Workflow-](../../../../review-and-approve-work/proofing/proofing-overview/stages.md).
+   * **Staging**: (nur verfügbar, wenn der Korrekturabzug einen automatisierten Workflow aufweist). Weitere Informationen finden Sie unter [Automatisierte Workflow-Phasen - Übersicht](../../../../review-and-approve-work/proofing/proofing-overview/stages.md).
 
    * **E-Mail-**: Wählen Sie eine der folgenden Optionen, um festzulegen, wie die Person über Aktivitäten im Testversand benachrichtigt werden soll.
 

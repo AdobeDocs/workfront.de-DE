@@ -1,7 +1,7 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Neue Funktionen in der API-Version 15
+title: Neue Funktionen in der API-Version 15
 description: Adobe Workfront hat API Version 14 am 14. Juni 2022 veröffentlicht. Die API-Version 15 enthält die folgenden Änderungen gegenüber Version 14.
 author: Becky
 feature: Workfront API
@@ -9,12 +9,12 @@ role: Developer
 exl-id: 1cfdc136-f3b4-4beb-b58b-f546a5510e6d
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
-source-wordcount: '2286'
-ht-degree: 0%
+source-wordcount: '2294'
+ht-degree: 3%
 
 ---
 
-# Neue Funktionen in der API-Version 15
+# Neue Funktionen in der API-Version 15
 
 Adobe Workfront hat API Version 15 am 14. Juni 2022 veröffentlicht. Die API-Version 15 enthält die folgenden Änderungen gegenüber Version 14.
 
@@ -67,7 +67,7 @@ Weitere Informationen zu Initiativen finden Sie unter [Initiativen - Übersicht 
             <p>Die ID, die dem Benutzer zugeordnet ist, der die Anfrage gesendet hat.</p>
           </li>
           <li>
-            <p><b>ID</b>
+            <p><b>Kennung</b>
             </p>
             <p>Die mit der Aktion verknüpfte ID</p>
           </li>
@@ -138,7 +138,7 @@ Weitere Informationen zu Initiativen finden Sie unter [Initiativen - Übersicht 
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>Kennung</b>
             </p>
           </li>
           <li>
@@ -169,7 +169,7 @@ Weitere Informationen zu Initiativen finden Sie unter [Initiativen - Übersicht 
             </p>
           </li>
           <li>
-            <p><b>SUCHE</b>
+            <p><b>SEARCH</b>
             </p>
           </li>
         </ul>
@@ -191,7 +191,7 @@ Das IssueDef-Objekt stellt einen Satz von Daten zum Format von Anfragen dar. Die
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>Kennung</b>
             </p>
           </li>
           <li>
@@ -206,7 +206,7 @@ Das IssueDef-Objekt stellt einen Satz von Daten zum Format von Anfragen dar. Die
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>Kennung</b>
             </p>
           </li>
           <li>
@@ -242,7 +242,7 @@ In einigen Fällen ist es möglich, Workfront-Arbeitselemente direkt mit Objekte
             <p>Datum und Uhrzeit der Eingabe der ObjectIntegration in das Workfront-System.</p>
           </li>
           <li>
-            <p><b>ID</b>
+            <p><b>Kennung</b>
             </p>
             <p>Die eindeutige Workfront-ID des spezifischen ObjectIntegration-Objekts.</p>
           </li>
@@ -310,7 +310,7 @@ In einigen Fällen ist es möglich, Workfront-Arbeitselemente direkt mit Objekte
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>Kennung</b>
             </p>
           </li>
           <li>
@@ -340,7 +340,7 @@ Das TaskDef-Objekt stellt einen Satz von Daten zum Format von Aufgaben dar. Dies
             </p>
           </li>
           <li>
-            <p><b>ID</b>
+            <p><b>Kennung</b>
             </p>
           </li>
         </ul>
@@ -374,7 +374,7 @@ Das TaskDef-Objekt stellt einen Satz von Daten zum Format von Aufgaben dar. Dies
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>Kennung</b>
             </p>
           </li>
           <li>
@@ -406,7 +406,7 @@ Das TaskDef-Objekt stellt einen Satz von Daten zum Format von Aufgaben dar. Dies
             </p>
           </li>
           <li>
-            <p><b>ID</b>
+            <p><b>Kennung</b>
             </p>
           </li>
           <li>
@@ -456,7 +456,7 @@ Das TaskDef-Objekt stellt einen Satz von Daten zum Format von Aufgaben dar. Dies
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>Kennung</b>
             </p>
           </li>
           <li>
@@ -517,7 +517,7 @@ Das TaskDef-Objekt stellt einen Satz von Daten zum Format von Aufgaben dar. Dies
             </p>
           </li>
           <li>
-            <p><b>DELETE </b>
+            <p><b>DELETE</b>
             </p>
           </li>
           <li>
@@ -529,7 +529,7 @@ Das TaskDef-Objekt stellt einen Satz von Daten zum Format von Aufgaben dar. Dies
             </p>
           </li>
           <li>
-            <p><b>SUCHE</b>
+            <p><b>SEARCH</b>
             </p>
           </li>
         </ul>
@@ -781,7 +781,7 @@ Ein AccessRule-Objekt stellt einen Regelsatz in benutzerdefinierten Zugriffseben
 
 ### Validierung (VALIDIERUNG)
 
-Für ein bestimmtes Arbeitselement, z. B. eine Aufgabe, ein Dokument oder eine Arbeitszeittabelle, kann es erforderlich sein, dass ein Verantwortlicher oder ein anderer Benutzer das Arbeitselement abzeichnet. Ein Validierungsobjekt stellt die Aktion des Abzeichnens eines Arbeitselements dar.
+Für ein bestimmtes Arbeitselement, z. B. eine Aufgabe, ein Dokument oder eine Arbeitszeittabelle, kann es erforderlich sein, dass eine verantwortliche Person oder ein anderer Benutzer bzw. eine andere Benutzerin das Arbeitselement abzeichnet. Ein Validierungsobjekt stellt die Aktion des Abzeichnens eines Arbeitselements dar.
 
 <table>
   <col/>
@@ -1405,7 +1405,7 @@ Weitere Informationen zu Anfrage-Warteschlangen finden Sie unter [Erstellen eine
 
 ### ScoreCardQuestion (SCOREQ)
 
-Ein ScoreCardQuestion-Objekt stellt eine Frage dar, die zu einer Scorecard hinzugefügt wurde. Diese Fragen werden in der Regel vom Portfoliomanager bestimmt und ihre Antworten geben dem Portfolio die Möglichkeit zu verstehen, wie gut ein Projekt mit den Portfoliozielen übereinstimmt.
+Ein ScoreCardQuestion-Objekt stellt eine Frage dar, die zu einer Scorecard hinzugefügt wurde. Diese Fragen werden in der Regel vom Portfolio-Manager bestimmt, und die Antworten geben dem Manager die Möglichkeit zu verstehen, wie gut ein Projekt mit den Portfoliozielen übereinstimmt.
 
 Weitere Informationen zu Scorecard-Fragen finden Sie unter [Erstellen einer Scorecard](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 

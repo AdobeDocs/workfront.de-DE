@@ -10,8 +10,8 @@ role: Developer
 exl-id: 2c5727ee-bf8f-4664-a9b1-c5da356d94f5
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 1%
+source-wordcount: '266'
+ht-degree: 12%
 
 ---
 
@@ -37,7 +37,7 @@ POST/uploadInit
  <col> 
  <thead> 
   <tr> 
-   <th>-Name </th> 
+   <th>Name </th> 
    <th>Beschreibung</th> 
   </tr> 
  </thead> 
@@ -81,12 +81,12 @@ PUT/Upload
 
 ## Abfrageparameter
 
-| -Name  | Beschreibung |
+| Name  | Beschreibung |
 |---|---|
-| ID  |  Die Dokument-ID, die gerade erstellt wurde. |
+| id  |  Die Dokument-ID, die gerade erstellt wurde. |
 
 
-**Anfragetext**
+**Anfrageinhalt**
 
 Die Rohdaten-Inhaltsbytes für das Dokument.
 

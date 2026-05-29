@@ -2,19 +2,19 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: groups-workfront-proof
-title: Gruppen zu einem Korrekturabzug hinzufügen
+title: Hinzufügen von Gruppen zu einem Korrekturabzug
 description: Fügen Sie zu einem Testversand eine Gruppe hinzu, um den Inhalt automatisch an alle Gruppenmitglieder zu senden.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 6ec52948-0317-4ffa-b135-1c9696a937b7
 source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 0%
+source-wordcount: '228'
+ht-degree: 4%
 
 ---
 
-# Gruppen zu einem Korrekturabzug hinzufügen
+# Hinzufügen von Gruppen zu einem Korrekturabzug
 
 >[!IMPORTANT]
 >
@@ -41,6 +41,6 @@ Mitglieder der Gruppe werden jetzt angezeigt.<br><img src="assets/membersofthegr
 1. (Optional) Ändern Sie die **Rolle eines Testversands** oder **E-Mail-Warnhinweise** in den Dropdown-Menüs.
 Weitere Informationen finden Sie unter <a href="../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md" class="MCXref xref">Verwalten von Korrekturabzugsrollen in [!DNL Workfront Proof]</a> und <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" class="MCXref xref">Konfigurieren der E-Mail-Benachrichtigungseinstellungen in [!DNL Workfront Proof]</a>.
 1. (Optional) Löschen Sie ein Gruppenmitglied aus dem Korrekturabzug, indem Sie den Mauszeiger über die Benutzerinformationen bewegen und auf das **[!UICONTROL X]** klicken.
-oder
+ODER
 Löschen Sie alle Mitglieder aus dem Korrekturabzug, indem Sie auf **[!UICONTROL Alle löschen]** klicken.
-1. Fahren Sie mit der Erstellung des Korrekturabzugs fort, wie unter <a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md" class="MCXref xref">Erstellen von Korrekturabzügen in [!DNL Workfront Proof]</a> beschrieben  oder <a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md" class="MCXref xref">Testsendungen in [!DNL Workfront Proof]</a> kopieren. 
+1. Fahren Sie mit der Erstellung des Korrekturabzugs fort, wie unter <a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md" class="MCXref xref">Erzeugen von Korrekturabzügen in [!DNL Workfront Proof]</a> oder <a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md" class="MCXref xref">Kopieren von Korrekturabzügen in [!DNL Workfront Proof]</a> beschrieben. 

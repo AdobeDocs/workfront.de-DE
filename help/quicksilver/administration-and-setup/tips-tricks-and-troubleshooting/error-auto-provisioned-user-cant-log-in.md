@@ -11,8 +11,8 @@ role: Admin
 exl-id: 4c88933e-d3da-447e-ab6c-be9261a94a19
 source-git-commit: 929502c256011b464d938ad1095c127407e4a795
 workflow-type: tm+mt
-source-wordcount: '194'
-ht-degree: 4%
+source-wordcount: '200'
+ht-degree: 16%
 
 ---
 
@@ -30,7 +30,7 @@ Standardmäßig wird bei der automatischen Bereitstellung der Lizenztyp Anfrage 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +43,7 @@ Standardmäßig wird bei der automatischen Bereitstellung der Lizenztyp Anfrage 
   <tr> 
    <td>[!DNL Adobe Workfront] Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -52,7 +52,7 @@ Standardmäßig wird bei der automatischen Bereitstellung der Lizenztyp Anfrage 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

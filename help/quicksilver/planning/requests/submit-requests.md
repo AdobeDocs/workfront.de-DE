@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: fdbe3945f59306fc26424d7e88b799d9dcaea4da
 workflow-type: tm+mt
-source-wordcount: '2342'
+source-wordcount: '2582'
 ht-degree: 1%
 
 ---
@@ -19,11 +19,10 @@ ht-degree: 1%
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -95,13 +94,15 @@ Folgendes muss vorhanden sein, bevor Sie eine Anfrage an ein Workfront Planning-
 
    * Extern, indem Sie einen Link zum Datensatzformular für externe Personen freigeben, die kein Workfront-Konto haben.
 
-     Workfront users can also access the link shared with external people.
+     Benutzende von Workfront können auch auf den Link zugreifen, der für externe Personen freigegeben wurde.
 
-* If shared with a link, the link to the form must not be expired.
+* Bei Freigabe über einen Link darf der Link zum Formular nicht abgelaufen sein.
 
 ## Überlegungen zum Senden von Anfragen an Workfront Planning
 
-* Eine Anfrage kann nach dem Senden nicht mehr in Workfront bearbeitet werden.
+* In der Produktionsumgebung können Sie eine Anfrage nach deren Übermittlung nicht mehr in Workfront bearbeiten.
+
+  <span class="preview">In der Vorschau-Umgebung können gesendete Anfragen nur bearbeitet werden, bevor daraus ein Datensatz erstellt wird. Nachdem der Datensatz erstellt wurde, können Sie die gesendete Anfrage nicht mehr bearbeiten. </span>
 * Jede gesendete Anfrage erstellt einen Datensatz für den Datensatztyp, der mit dem von Ihnen verwendeten Formular verknüpft ist, wenn das Formular nicht mit einer Genehmigung verknüpft ist oder wenn die Genehmigung von allen genehmigenden Personen erteilt wurde.
 * Durch das Übermitteln von Anfrageformularen erstellte Datensätze sind mit den Datensätzen identisch, die über eine andere Methode in Workfront Planning hinzugefügt wurden.
 
@@ -144,7 +145,7 @@ Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformula
    >
    >* Sie haben Zugriff, um mindestens einen Arbeitsbereich anzuzeigen.
 
-1. Klicken Sie in die **Welche Anfrage möchten Sie senden?** zum Öffnen einer Liste von Anfrageformularen.
+1. Klicken Sie in die **Welche Anfrage möchten Sie senden?** Leiste zum Öffnen einer Liste von Anfrageformularen.
 1. Wählen Sie ein Anfrageformular aus der Liste aus oder geben Sie den Namen des Anfrageformulars ein und wählen Sie es aus, wenn es in der Liste angezeigt wird.
 
    Ein Fenster mit dem Namen des Anforderungsformulars wird oben geöffnet.
@@ -193,7 +194,7 @@ Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformula
 
      In der Bestätigungs- oder Validierungsbenachrichtigung per E-Mail ist ein Link zur Anfrage vorhanden.
 
-1. (Optional) Klicken Sie in **Bestätigungsmeldung auf** Anforderung anzeigen“, um die Anforderung zu öffnen, oder klicken Sie auf das Symbol **X**, um die Bestätigung zu schließen.
+1. (Optional) Klicken Sie auf **Ihre Anfrage anzeigen** in der Bestätigungsnachricht oder auf den Namen der Anfrage in der Liste, um die Anfrage zu öffnen, oder klicken Sie auf das Symbol **X**, um die Bestätigung zu schließen.
 1. (Optional) Um zu verwalten, wie die Informationen in der Anfragenliste angezeigt werden, aktualisieren Sie die folgenden Ansichtselemente für die Liste:
 
    * Ansicht
@@ -218,7 +219,7 @@ Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformula
          * **Status**: The status of the request.
          * **Entered by**: The name of the user who added the request. If the request was added by someone outside of Workfront, the **Entered by** field shows `N/A`.
         You can have multiple filters joined by either **And** or **Or**.
-         The request list is filtered automatically, as you add the filter conditions. 
+         The request list is filtered automatically, as you add the filter conditions.  
       * Click **Columns** to open the **Fields visibility and order** box, then hide, show, or rearrange the columns in the request list. 
          >[!TIP]
          >
@@ -234,6 +235,17 @@ Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformula
    ![Seite mit Kommentar anfordern](assets/new-request-page-with-comment.png)
 
 1. (Optional) Geben Sie einen Kommentar im Bereich **Kommentare** ein.
+1. <span class="preview">(Optional und bedingt) Wenn die Anfrage darauf wartet, genehmigt zu werden, und Sie die Anfrage geöffnet haben, klicken Sie entweder auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/more-menu.png) rechts neben dem Anfragenamen und klicken Sie dann auf **Bearbeiten** oder doppelklicken Sie auf die Felder in der Anfrage, um sie zu bearbeiten. </span>
+
+   >[!NOTE]
+   >
+   >  <div class="preview">
+   >
+   >   * Das Bearbeiten einer Anfrage ist nur möglich, wenn ein Datensatz noch nicht erstellt wurde und die Anfrage auf Genehmigung wartet.
+   >   * Einige Felder sind schreibgeschützt und können nicht bearbeitet werden.
+   >  * Sie können eine Anfrage nicht mehr bearbeiten, nachdem ein Datensatz daraus erstellt wurde.
+   >
+   >  </div>
 1. (Bedingt) Wenn das Anfrageformular nicht mit einer Genehmigung verknüpft ist oder die Anfrage genehmigt wurde, klicken Sie auf den Namen der Anfrage und dann auf den Namen des Datensatzes im Feld **Erstelltes** Objekt“.
 
    Die Seite des Datensatzes wird in Workfront Planning geöffnet.
@@ -289,7 +301,7 @@ Externe Personen können nicht auf interne Bereiche von Workfront zugreifen, z *
 
 1. (Optional) Klicken Sie auf **Ihre Anfrage anzeigen**, um die Anfrage in Workfront zu öffnen.
 
-Oder
+ODER
 
 Klicken Sie [Weitere Anfrage senden](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request), um das Anfrageformular zu öffnen und eine neue Anfrage hinzuzufügen.
 
@@ -340,9 +352,17 @@ Wenn Sie eine Planungsanfrage löschen, treten folgende Dinge auf:
 * Der aus der Anfrage erstellte Datensatz wird nicht gelöscht.
 * Gelöschte Entwürfe können nicht wiederhergestellt werden. Es sind keine Datensätze mit Entwürfen verknüpft.
 
-Das Löschen von Planungsanfragen ähnelt dem Löschen von Workfront-Anfragen.
+Das Löschen von Planungsanfragen aus einer Liste ähnelt dem Löschen von Workfront-Anfragen.
 
 Weitere Informationen finden Sie [Löschen einer gesendeten Anfrage oder eines Anfrageentwurfs](/help/quicksilver/manage-work/requests/create-requests/delete-request-draft.md).
+
+So löschen Sie eine Planungsanfrage nach dem Öffnen der Anfrage:
+
+1. Öffnen Sie eine Planungsanfrage, indem Sie in der Anfragenliste auf den entsprechenden Namen klicken.
+1. Klicken Sie auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/more-menu.png) rechts neben dem Anfragenamen und klicken Sie dann auf **Löschen**.
+1. Klicken Sie zur Bestätigung **D** e **delete** das Feld „Dauerhaft löschen“.
+
+   Die Anfrage wurde gelöscht und kann nicht wiederhergestellt werden.
 
 
 

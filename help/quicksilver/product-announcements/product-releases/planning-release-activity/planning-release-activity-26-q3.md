@@ -6,16 +6,18 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 3988b9f7ce6f0de0a1864cd3a81fc7b8f15cd90f
+source-git-commit: 4eeb229206421d737b9543613608935eacb058f9
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 1%
+source-wordcount: '1559'
+ht-degree: 0%
 
 ---
 
 # Versionsaktivität für Adobe Workfront Planning im dritten Quartal 2026
 
-<!--take the next sentence out when we start listing features-->
+<!--
+take the next sentence out when we start listing features
+-->
 
 <!--
 There are no features released during the Third Quarter Release for 2026. When features are released for this quarter, we will document them in this article. 
@@ -30,87 +32,6 @@ Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen find
 
 
 <!--
-
-## Planning Designer now available in Beta for all Workfront Planning customers
-
->[!NOTE]
->
->Preview: May 28, 2026 
->Production fast release: June 11, 2026 
->Production for everyone: July 16, 2026 
->[!BADGE In Beta]{type=Neutral}
-
-
-You can now use the Adobe Planning Designer powered by AI to configure your workspaces and data structures with ease. The Planning Designer supports everything from creating and configuring workspaces to defining fields and formulas, managing records, reviewing change history and building custom views.  
-
-Whether used directly or through the AI Assistant, the Planning Designer provides a flexible, powerful environment for building and maintaining structured, connected information. 
-
-A Workfront administrator can manage the availability of the Planning Designer from the System Preferences area in Setup.   
-
-For information, see [Get started with the Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
-
-## Synchronize Metadata from Planning to AEM Content Fragments  
-
->[!NOTE]
->
->Preview: May 28 , 2026
->Production fast release: May 28, 2026
->Production for everyone: May 28, 2026
->[!BADGE Off schedule]{type=Neutral}
-
-***************TO ADD MORE INFO AFTER TALKING WITH SYUZANNA**********
-
-To improve data integrity, we've released seamless metadata synchronization between Planning record types in the GenStudio workspace and AEM Content Fragments when Content Fragments are linked to GenStudio campaigns.  
-
-GenStudio campaign information now displays in the Metadata tab of a Content Fragment in AEM.  
-
-With this release key metadata is consistent across both platforms and reflects updates in near real-time, reducing manual reconciliation. 
-
-For information, see [Get Started with Adobe Workfront Planning and GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).  
-
-## Synchronize Metadata from Planning to AEM Assets (title)
- 
->[!NOTE]
->
->Preview: May 28 , 2026
->Production fast release: May 28, 2026
->Production for everyone: May 28, 2026
->[!BADGE Off schedule]{type=Neutral} 
-
-To improve data integrity, we've released seamless metadata synchronization between  GenStudio record types and AEM Assets when AEM Assets are linked to GenStudio record types in Workfront Planning. The following GenStudio for Performance Marketing record types can be connected to AEM Assets: Campaign, Product, Persona, Region, and Channel. 
-
-Information added to a GenStudio record type in Workfront Planning displays in a separate Campaign tab of an AEM Asset in AEM. 
-
-For information, see [Get Started with Adobe Workfront Planning and GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md).
-
-## Grant permissions to records
-
-***********CHECKING WITH LILIT ABOUT PREVIEW************ 
-
->[!NOTE]
->
->Preview: Not available
->Production fast release: May 28, 2026
->Production for everyone: May 28, 2026
->[!BADGE Off schedule]{type=Neutral}
-
-You can now share individual records with users.  
-
-By default, users inherit permissions from the workspace and the record type.  
-
-You can give users the following permissions levels: 
-
-* View 
-* Manage 
-
->[!NOTE]
->
->* You cannot remove a user's permissions from a record at this time. If they have at least View permissions to the record type, they can view all the records of that type.  
->* Sharing records is not available in the Preview environment. It is only available in the Production environment.  
-
-For information, see [Share records](/help/quicksilver/planning/access/share-records.md).
-
-
 
 ## New Sample workspaces tab added to the Planning landing page
 
@@ -130,45 +51,120 @@ For information, see Workspaces overview (/help/quicksilver/planning/architectur
 
 -->
 
-<!--
-
-API new version delayed till May 21, 2026
-
-## Workfront Planning API version 2 
+## Workfront Planning-API, Version 2
 
 >[!NOTE]
 >
->Available for all customers: May 28, 2026
+>Verfügbar für alle Kunden: 28. Mai 2026>[!BADGE Aus Zeitplan]{type=Neutral}
 
-Version 2 of Workfront Planning API is now available and it significantly expands the capabilities of Version 1.  
+Version 2 der Workfront Planning-API ist jetzt verfügbar und erweitert die Funktionen von Version 1 erheblich.
 
-The following enhancements are included in Version 2: 
+Die folgenden Verbesserungen sind in Version 2 enthalten:
 
-* Create, update, and delete workspaces, record types, and fields programmatically. 
+* Programmgesteuertes Erstellen, Aktualisieren und Löschen von Arbeitsbereichen, Datensatztypen und Feldern.
 
-* Fully manage records. 
-* Improvements to URL structure, error handling, pagination, filtering, and permissions. 
-* Includes partial updates via PATCH 
-* Includes bulk record operations. 
+* Einträge vollständig verwalten.
+* Verbesserungen der URL-Struktur, Fehlerbehandlung, Paginierung, Filterung und Berechtigungen.
+* Beinhaltet partielle Updates über PATCH
+* Umfasst Masseneintragsvorgänge.
 
-Version 1 remains available, although we recommend that you switch to using Version 2.  
+Version 1 bleibt verfügbar, obwohl wir empfehlen, zur Verwendung von Version 2 zu wechseln.
 
 >[!NOTE]
 >
->The Workfront Planning connector for Fusion has not been updated to API Version 2 and it will continue to use Version 1 until further notice.   
+>Der Workfront Planning-Connector für Fusion wurde nicht auf API-Version 2 aktualisiert und verwendet Version 1 bis auf Weiteres.
 
-For information, see [Adobe Workfront Planning API basics](/help/quicksilver/planning/general/planning-api-basics.md).  
+Weitere Informationen finden Sie unter [Grundlagen zur Adobe Workfront Planning-API](/help/quicksilver/planning/general/planning-api-basics.md).
 
-For Workfront Planning API specifications, see the [Workfront Planning API](https://developer.adobe.com/wf-planning/) developer documentation. 
+Informationen zu den Spezifikationen der Workfront Planning-API finden Sie in der Entwicklerdokumentation zur [Workfront &#x200B;](https://developer.adobe.com/wf-planning/)-API.
 
--->
+## Berechtigungen für Datensätze erteilen
+
+>[!NOTE]
+>
+>Vorschau: 28. Mai 2026>Produktions-Schnellversion: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+
+Sie können jetzt einzelne Datensatzberechtigungen anpassen, um zu steuern, wer sie in einem Datensatztyp verwalten kann.
+
+Benutzer erben standardmäßig die Datensatzberechtigungen vom Arbeitsbereich und vom Datensatztyp. Um nur ausgewählten Benutzern mit Berechtigungen für Datensatztypen Berechtigungen zum Verwalten nur bestimmter Datensätze zu erteilen, können Sie geerbte Berechtigungen für ausgewählte Datensätze deaktivieren und nur diesen Benutzern den Zugriff auf diese Datensätze verwalten gewähren. Sie können die Berechtigungen für einen Datensatz oder für mehrere Datensätze gleichzeitig stapelweise anpassen.
+
+Sie können Benutzern die folgenden Berechtigungsebenen gewähren:
+
+* Ansicht
+* Verwalten
+
+>[!NOTE]
+>
+>* Die Berechtigungen eines Benutzers auf Datensatzebene können seine Berechtigungen für den Datensatztyp nicht überschreiten. Beispielsweise kann einem Benutzer mit Ansichtszugriff auf einen Datensatztyp kein Verwaltungszugriff auf einzelne Datensätze dieses Typs gewährt werden.
+>* Derzeit können Sie die Berechtigungen von Benutzenden nicht aus einem Datensatz entfernen. Jeder Benutzer, der zumindest Anzeigezugriff auf den Datensatztyp hat, kann alle Datensätze dieses Typs anzeigen.
+
+Weitere Informationen finden Sie unter [Freigeben von Datensätzen](/help/quicksilver/planning/access/share-records.md).
+
+## Optimierte Hinzufügung globaler Datensatztypen
+
+>[!NOTE]
+>
+>Vorschau: 28. Mai 2026>Produktions-Schnellversion: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+
+Um Klicks zu reduzieren und das schnelle Auffinden der benötigten Datensatztypen zu erleichtern, haben wir das Hinzufügen von Datensätzen verbessert, sodass es beim Hinzufügen globaler Datensatztypen zu einem anderen Arbeitsbereich schneller und intuitiver wird.
+
+Wenn Sie einen Datensatz aus vorhandenen Datensatztypen hinzufügen, wird sofort eine Liste aller verfügbaren globalen Datensatztypen angezeigt.
+
+Direkt auf diesem Bildschirm können Sie einen oder mehrere globale Datensatztypen auswählen und gleichzeitig hinzufügen.
+
+Weitere Informationen finden Sie unter [Hinzufügen vorhandener Datensatztypen aus einem anderen Arbeitsbereich](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
+
+## Planning Designer ist jetzt in Beta für alle Workfront Planning-Kunden verfügbar
+
+>[!NOTE]
+>
+>Vorschau: 28. Mai 2026>Produktions-Schnellversion: 11. Juni 2026>Produktion für alle: 16. Juli 2026>[!BADGE In Beta]{type=Neutral}
+
+Sie können jetzt die Adobe Planning Designer powered by AI verwenden, um Ihre Arbeitsbereiche und Datenstrukturen einfach zu konfigurieren. Die Planning Designer unterstützt alle Funktionen, von der Erstellung und Konfiguration von Arbeitsbereichen über die Definition von Feldern und Formeln bis hin zur Verwaltung von Datensätzen, der Überprüfung des Änderungsverlaufs und der Erstellung benutzerdefinierter Ansichten.
+
+Unabhängig davon, ob es direkt oder über den KI-Assistenten verwendet wird, bietet Planning Designer eine flexible, leistungsstarke Umgebung für das Erstellen und Verwalten strukturierter, vernetzter Informationen.
+
+Ein Workfront-Administrator kann die Verfügbarkeit der Planning-Designer im Bereich „Systemeinstellungen“ im Setup verwalten.
+
+Weitere Informationen finden Sie [Erste Schritte mit der Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md).
+
+
+## Synchronisieren von Metadaten von Planning mit AEM Assets
+
+>[!NOTE]
+>
+>Vorschau: 28. Mai 2026>Produktionsschnellveröffentlichung: 28. Mai 2026>Produktion für alle: 28. Mai 2026>[!BADGE Zeitplan]{type=Neutral}
+
+Um die Datenintegrität zu verbessern, haben wir eine nahtlose Metadatensynchronisation zwischen GenStudio for Performance Marketing-Datensatztypen und AEM Assets veröffentlicht, wenn AEM Assets in Workfront Planning mit GenStudio-Datensatztypen verknüpft ist.
+
+Die folgenden GenStudio for Performance Marketing-Datensatztypen können mit AEM Assets verbunden werden: Kampagne, Produkt, Rolle, Region und Kanal.
+
+Informationen, die in Workfront Planning zu einem GenStudio-Datensatztyp hinzugefügt wurden, werden auf einer separaten Registerkarte Kampagnen eines AEM Assets in AEM angezeigt. Auf dieser Registerkarte werden auch Informationen zu Produkt, Persona, Region und Kanal für diese Kampagne im schreibgeschützten Modus angezeigt.
+
+Mit dieser Version sind wichtige Metadaten auf beiden Plattformen konsistent und spiegeln Aktualisierungen nahezu in Echtzeit wider, wodurch die manuelle Abstimmung reduziert wird.
+
+Weitere Informationen finden Sie unter [Verwalten des GenStudio-Arbeitsbereichs in Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md).
+
+## Synchronisieren von Metadaten aus Planning mit AEM-Inhaltsfragmenten
+
+>[!NOTE]
+>
+>Vorschau: 28. Mai 2026>Produktionsschnellveröffentlichung: 28. Mai 2026>Produktion für alle: 28. Mai 2026>[!BADGE Zeitplan]{type=Neutral}
+
+Um die Datenintegrität zu verbessern, haben wir eine nahtlose Metadaten-Synchronisation zwischen Planning-Datensatztypen im GenStudio-Arbeitsbereich und AEM-Inhaltsfragmenten veröffentlicht, wenn Inhaltsfragmente mit GenStudio for Performance Marketing-Kampagnen verknüpft sind.
+
+Informationen zu GenStudio Campaign werden jetzt auf der Registerkarte Metadaten eines Inhaltsfragments in AEM angezeigt.  Auf dieser Registerkarte werden auch Informationen zu Produkt, Persona, Region und Kanal für diese Kampagne im schreibgeschützten Modus angezeigt.
+
+Mit dieser Version sind wichtige Metadaten auf beiden Plattformen konsistent und spiegeln Aktualisierungen nahezu in Echtzeit wider, wodurch die manuelle Abstimmung reduziert wird.
+
+Weitere Informationen finden Sie unter [Verwalten des GenStudio-Arbeitsbereichs in Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md).
 
 
 ## Aktualisierungen der Listenansicht
 
 >[!NOTE]
 >
->Vorschau: 27. Mai 2026>Produktions-Schnellveröffentlichung: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 27. Mai 2026>Produktions-Schnellversion: 11. Juni 2026>Produktion für alle: 16. Juli 2026
 
 Mehrere Feldtypen in der Listenansicht wurden aktualisiert und enthalten jetzt eine Tastaturnavigation und andere Verbesserungen.
 
@@ -194,7 +190,7 @@ Weitere Informationen finden Sie unter [Verwalten der Listenansicht in Adobe Wor
 
 >[!NOTE]
 >
->Vorschau: 27. Mai 2026>Produktions-Schnellveröffentlichung: 11. Juni 2026\
+>Vorschau: 27. Mai 2026>Produktions-Schnellversion: 11. Juni 2026\
 >Produktion für alle: 16. Juli 2026
 
 Sie können jetzt Workfront-Referenzfelder als Lookup-Felder hinzufügen, wenn Sie einen Planning-Datensatztyp mit einem Workfront-Objekttyp verbinden.
@@ -207,7 +203,7 @@ Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quic
 
 >[!NOTE]
 >
->Vorschau: 27. Mai 2026>Produktions-Schnellveröffentlichung: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 27. Mai 2026>Produktions-Schnellversion: 11. Juni 2026>Produktion für alle: 16. Juli 2026
 
 Sie können jetzt Informationen in der Zeitleisten -Ansicht anhand von Kriterien filtern, die mit den Objekten übereinstimmen, die in der Aufschlüsselung der Datensätze enthalten sind.
 
@@ -219,7 +215,7 @@ Weitere Informationen finden Sie unter [Verwalten der Timeline-Ansicht](/help/qu
 
 >[!NOTE]
 >
->Vorschau: 27. Mai 2026>Produktions-Schnellveröffentlichung: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 27. Mai 2026>Produktions-Schnellversion: 11. Juni 2026>Produktion für alle: 16. Juli 2026
 
 Wir haben eine Erinnerung hinzugefügt, dass sich das Bearbeiten oder Löschen von Datensatzfeldern auf Anfrageformulare auswirken kann, die diese Felder enthalten. Jetzt haben Sie die Möglichkeit, die betroffenen Formulare zu überprüfen und sicherzustellen, dass die Änderungen, die Sie an den Feldern vornehmen möchten, keine Auswirkungen auf bestehende Informationen haben.
 
@@ -229,7 +225,7 @@ Weitere Informationen finden Sie unter [Bearbeiten von Feldeinstellungen](/help/
 
 >[!NOTE]
 >
->Vorschau: 27. Mai 2026>Produktions-Schnellveröffentlichung: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 27. Mai 2026>Produktions-Schnellversion: 11. Juni 2026>Produktion für alle: 16. Juli 2026
 
 Sie können jetzt Planungsanfragen bearbeiten, nachdem Sie sie übermittelt haben, bevor aus der Anfrage ein Datensatz erstellt wird.
 
@@ -247,7 +243,7 @@ Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfra
 
 >[!NOTE]
 >
->Vorschau: 14. Mai 2026>Produktions-Schnellveröffentlichung: 14. Mai 2026>Produktion für alle: 14. Mai 2026>[!BADGE Außerplanmäßig]{type=Neutral}
+>Vorschau: 14. Mai 2026>Produktionsschnellveröffentlichung: 14. Mai 2026>Produktion für alle: 14. Mai 2026>[!BADGE Zeitplan]{type=Neutral}
 
 Für eine bessere Sichtbarkeit bei der Arbeit mit AEM-Inhaltsfragmenten, die mit Workfront Planning-Datensätzen verbunden sind, wurde ein Vorschaufenster hinzugefügt, in dem Informationen zu den Fragmenten in Workfront Planning angezeigt werden.
 
@@ -259,7 +255,7 @@ Weitere Informationen finden Sie unter [Verbinden von Datensätzen](/help/quicks
 
 >[!NOTE]
 >
->Vorschau: 14. Mai 2026>Produktions-Schnellveröffentlichung: 14. Mai 2026>Produktion für alle: 14. Mai 2026>[!BADGE Außerplanmäßig]{type=Neutral}
+>Vorschau: 14. Mai 2026>Produktionsschnellveröffentlichung: 14. Mai 2026>Produktion für alle: 14. Mai 2026>[!BADGE Zeitplan]{type=Neutral}
 
 Sie können jetzt die folgenden Suchfelder hinzufügen, wenn Sie einen Planning-Datensatztyp mit einem AEM-Inhaltsfragment verbinden:
 
@@ -278,7 +274,7 @@ Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quic
 
 >[!NOTE]
 >
->Vorschau: 14. Mai 2026>Produktions-Schnellveröffentlichung: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 14. Mai 2026>Produktions-Schnellversion: 11. Juni 2026>Produktion für alle: 16. Juli 2026
 
 Um eine bessere Flexibilität bei der Visualisierung Ihrer Informationen auf der Detailseite eines Datensatzes zu ermöglichen, haben wir die Möglichkeit eingeführt, benutzerdefinierte Ansichten für diese Seite zu erstellen.
 
@@ -293,7 +289,7 @@ Weitere Informationen finden Sie unter [Verwalten der Datensatzseite](/help/quic
 >[!NOTE]
 >
 >Vorschau: 14. Mai 2026\
->Produktionsschnell: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+>Produktion schnell: 11. Juni 2026>Produktion für alle: 16. Juli 2026
 
 Sie können Ihre Informationen jetzt auf der Seite „Mit Projekten verbundene Datensätze“ eines Datensatzes in Workfront Planning gruppieren. Diese Funktion war in diesem Bereich vor dieser Verbesserung nicht vorhanden.
 

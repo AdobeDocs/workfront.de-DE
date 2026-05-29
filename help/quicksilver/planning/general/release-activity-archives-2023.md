@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '2900'
-ht-degree: 2%
+source-wordcount: '3065'
+ht-degree: 3%
 
 ---
 
@@ -128,7 +128,7 @@ Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/qui
 
 ### Verbinden von Planungsfunktionsdatensätzen mit Adobe Experience Manager Assets
 
-Geplante Veröffentlichung: Freitag, 14. Dezember 2023
+Vorschau-Version: 14. Dezember 2023
 
 Produktionsversion: 21. Dezember 2023
 

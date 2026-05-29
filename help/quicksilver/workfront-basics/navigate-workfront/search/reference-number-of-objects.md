@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: search
-title: Referenznummer der Objekte verwenden
+title: Verwenden der Referenznummer der Objekte
 description: In  [!DNL Adobe Workfront] werden Elemente als Objekte identifiziert. Objekte entsprechen der Datenbank und werden verwendet, um Daten mit einem Element zu korrelieren. Referenznummern sind nützlich, um zwischen zwei ansonsten ähnlichen Objekten (z. B. Aufgaben mit demselben Namen) zu unterscheiden. Sie können nach Referenznummern suchen und sie in Berichte aufnehmen.
 feature: Get Started with Workfront
 author: Courtney
@@ -9,11 +9,11 @@ exl-id: 94f5a174-21cc-4c10-88ed-89a8014d28f4
 source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
 source-wordcount: '448'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
-# Referenznummer der Objekte verwenden
+# Verwenden der Referenznummer der Objekte
 
 In [!DNL Adobe Workfront] werden Elemente als Objekte identifiziert. Objekte entsprechen der Datenbank und werden verwendet, um Daten mit einem Element zu korrelieren.
 

@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 838e8f3d-0ea6-4844-a261-ef7b0e78a755
 source-git-commit: 243aa2b0893e3034d37b959384a50b8a5e4a4bf0
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Sie können die Bewertung und das Feedback der Inhaltsvalidierer im Bedienfeld D
 
 1. Klicken Sie in der Workfront-Benachrichtigungs-E **Mail auf „Zum Überprüfen wechseln**.
 
-   Oder
+   ODER
 
    Wechseln Sie zum Bereich Dokumente , in den das Dokument hochgeladen wird, und öffnen Sie das Bedienfeld Dokumentzusammenfassung .
 1. Klicken Sie auf **Score**.

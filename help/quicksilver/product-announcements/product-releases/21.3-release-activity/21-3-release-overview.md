@@ -2,7 +2,7 @@
 content-type: release-notes
 keywords: Anmerkungen,vierteljährlich,aktualisieren
 navigation-topic: 2021-3-release-activity
-title: Versionsübersicht 21.3
+title: Überblick über Version 21.3
 description: Auf dieser Seite finden Sie Informationen zur Funktionalität von Adobe Workfront Classic und zum neuen Adobe Workfront-Erlebnis, das in Version 21.3 enthalten ist. Damit können Sie Ihre Produktivität und Zusammenarbeit steigern. [Marketing-One-Liner für die Version]
 author: Luke
 feature: Product Announcements
@@ -10,12 +10,12 @@ recommendations: noDisplay, noCatalog
 exl-id: f441a887-0670-4d55-8c60-cbe96aaf8379
 source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '2310'
-ht-degree: 0%
+source-wordcount: '2403'
+ht-degree: 4%
 
 ---
 
-# Versionsübersicht 21.3
+# Überblick über Version 21.3
 
 Diese Seite enthält Informationen zur Funktionalität von Adobe Workfront Classic und zum neuen Adobe Workfront-Erlebnis, das in Version 21.3 enthalten ist
 
@@ -96,7 +96,7 @@ For specific release dates and times for each cluster, see the
  </tbody> 
 </table>
 
-### Projektverbesserungen {#project-enhancements}
+### Verbesserungen bei Projekten {#project-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -231,7 +231,7 @@ For specific release dates and times for each cluster, see the
    <td> <p><strong>Verfügbar zu diesen Daten:</strong> </p> <p>Vorschau-Version: Nicht zutreffend<br></p> <p>Produktionsversion: Mit Version 21.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>iOS</p> <p>Android</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-other-enhancements.md#event" class="MCXref xref" xrefformat="{para}">Filter für Ereignisabonnements</a> </p> <p>Ereignisabonnementfilter sind jetzt in Vorschauumgebungen aktiviert. Mit der Filterung der Ereignisabonnements können Sie sicherstellen, dass Sie nur relevante Nachrichten erhalten. Das Erstellen von Filtern für Ihre Abonnements kann die Anzahl der Nachrichten, die Ihr Endpunkt verarbeiten muss, erheblich verringern. </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.3-release-activity/21-3-other-enhancements.md#event" class="MCXref xref" xrefformat="{para}">Filter für Ereignisabonnements</a> </p> <p>Ereignisabonnementfilter sind jetzt in Vorschauumgebungen aktiviert. Durch das Filtern von Ereignisabonnements können Sie sicherstellen, dass Sie nur relevante Nachrichten erhalten. Durch das Erstellen von Filtern für Ihre Abonnements kann die Anzahl der Nachrichten, die Ihr Endpunkt verarbeiten muss, erheblich verringert werden. </p> </td> 
    <td><strong>Verfügbar an diesen Daten: Vorschau-Version: 20. Mai 2021 Produktionsversion: 3. Juni 2021 Verfügbar in diesen Umgebungen: Das neue Adobe Workfront-Erlebnis</strong>Adobe Workfront Classic </td> 
   </tr> 
  </tbody> 
@@ -247,9 +247,9 @@ For specific release dates and times for each cluster, see the
 
 Mit Version 21.3 erhalten Sie neue Funktionen für die Version Workfront Scenario Planner . Weitere Informationen zu diesen neuen Funktionen, die jetzt in der Vorschau verfügbar sind, finden Sie unter [Adobe Workfront Scenario Planner mit Version 21.3](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md).
 
-## Workfront Fusion-Verbesserungen
+## Verbesserungen in Workfront Fusion
 
-Neue Funktionen in Workfront Fusion sind außerhalb des Veröffentlichungszeitplans für 21.3 in der Produktionsumgebung verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Versionsaktivität von Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Neue Funktionen in Workfront Fusion sind außerhalb des Veröffentlichungszeitplans für 21.3 in der Produktionsumgebung verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Adobe Workfront Fusion-Veröffentlichungen](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Workfront Proof-Verbesserungen
 
@@ -267,7 +267,7 @@ Es gibt derzeit keine Updates zu Workfront Goals in der Version. Dieser Bereich 
 
 ### Update der IP-Zulassungsliste für die Verwendung der Integration von Workfront for Jira erforderlich
 
-Wir haben einige Backend-Aktualisierungen für die Workfront for Jira-Integration vorgenommen. Auf die Zulassungsliste setzen auf die Zulassungsliste setzen Stellen Sie sicher, dass die folgenden IP-Adressen, [&#x200B; im Artikel „Konfigurieren der Firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) aufgeführt sind, zu Ihrer für eingehende und ausgehende Verbindungen hinzugefügt wurden:
+Wir haben einige Backend-Aktualisierungen für die Workfront for Jira-Integration vorgenommen. Stellen Sie sicher, dass die folgenden IP-Adressen, [&#x200B; im Artikel „Konfigurieren der Firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) aufgeführt sind, zu Ihrer für eingehende und ausgehende Verbindungen hinzugefügt wurden:
 
 * 34.213.36.118
 * 35.160.0.242
@@ -304,7 +304,7 @@ Das Webinar zur Version Workfront 21.3 wurde am 16. Juni 2021 vorgestellt. Sie k
 
 ## Funktion wird nicht mehr unterstützt
 
-### Internet Explorer 11
+### Internet Explorer 11
 
 Nachdem die Unterstützung für Internet Explorer eingestellt wurde, unterstützt Workfront jetzt offiziell Microsoft Edge.
 

@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Versionsaktivität von Beta 2 2017.2
+title: Veröffentlichungen für Version 2017.2 Beta 2
 description: Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschau-Umgebung mit Beta 2 Version 2017.2 verfügbar sind. Die Funktion auf dieser Seite wurde am 24. Mai 2017 in der Vorschau-Umgebung verfügbar gemacht. Sie wird zwischen Ende Juli und Anfang August 2017 in der Produktionsumgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements
@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 0aa8d61e-cf8c-46a7-b093-a0dbc90d37fd
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 0%
+source-wordcount: '796'
+ht-degree: 1%
 
 ---
 
-# Versionsaktivität von Beta 2 2017.2
+# Veröffentlichungen für Version 2017.2 Beta 2
 
 Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschau-Umgebung mit Beta 2 Version 2017.2 verfügbar sind. Die Funktion auf dieser Seite wurde am 24. Mai 2017 in der Vorschau-Umgebung verfügbar gemacht. Sie wird zwischen Ende Juli und Anfang August 2017 in der Produktionsumgebung verfügbar gemacht.
 

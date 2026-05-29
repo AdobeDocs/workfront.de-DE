@@ -8,8 +8,8 @@ feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
 source-git-commit: 41f58261d4f2e6075187886b371a23eb5e97d823
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 4%
+source-wordcount: '1001'
+ht-degree: 7%
 
 ---
 
@@ -26,7 +26,7 @@ Jedes Widget enthält eine eigene Arbeitsliste. Arbeitslisten zeigen alle Arbeit
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,7 +40,7 @@ Jedes Widget enthält eine eigene Arbeitsliste. Arbeitslisten zeigen alle Arbeit
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz</strong></td> 
-   <td><ul><li>[!UICONTROL Contributor] nur für Genehmigungen</li> <li>[!UICONTROL Standard] oder höher für alle anderen Objekte</li> <p>Oder</p> 
+   <td><ul><li>[!UICONTROL Contributor] nur für Genehmigungen</li> <li>[!UICONTROL Standard] oder höher für alle anderen Objekte</li> <p>ODER</p> 
   </ul><ul><li>[!UICONTROL Überprüfung] nur für Genehmigungen</li> <li>[!UICONTROL Work] oder höher für alle anderen Objekte</li> </td> 
   </tr> </ul>
   <tr> 
@@ -54,7 +54,7 @@ Jedes Widget enthält eine eigene Arbeitsliste. Arbeitslisten zeigen alle Arbeit
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

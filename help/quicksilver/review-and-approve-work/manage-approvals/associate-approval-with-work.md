@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: approvals
-title: Einen neuen oder vorhandenen Genehmigungsprozess mit Arbeit verknüpfen
+title: Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit Arbeit
 description: Dieser Artikel beschreibt, wie Sie Genehmigungsprozesse mit Arbeitselementen verknüpfen können. Informationen zum Verknüpfen von Genehmigungen mit Korrekturabzügen oder Dokumenten finden Sie in den folgenden Artikeln.
 author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
@@ -9,12 +9,12 @@ sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
 workflow-type: tm+mt
-source-wordcount: '1821'
-ht-degree: 0%
+source-wordcount: '1856'
+ht-degree: 3%
 
 ---
 
-# Einen neuen oder vorhandenen Genehmigungsprozess mit Arbeit verknüpfen
+# Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit Arbeit
 
 Dieser Artikel beschreibt, wie Sie Genehmigungsprozesse mit Arbeitselementen verknüpfen können. Informationen zum Verknüpfen von Genehmigungen mit Korrekturabzügen oder Dokumenten finden Sie in den folgenden Artikeln:
 
@@ -38,7 +38,7 @@ Informationen zum Erstellen eines globalen Genehmigungsprozesses finden Sie unte
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,7 +52,7 @@ Informationen zum Erstellen eines globalen Genehmigungsprozesses finden Sie unte
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
    <p>Standard</p>
-   <p>Arbeit oder höher</p> </td> 
+   <p>Work oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Zugriffsebene</td> 
@@ -65,13 +65,13 @@ Informationen zum Erstellen eines globalen Genehmigungsprozesses finden Sie unte
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
 ## Überlegungen zum Verknüpfen von Genehmigungsprozessen mit Arbeitselementen
 
-Zusätzlich zu den unten beschriebenen Überlegungen empfehlen wir, die allgemeinen Überlegungen zu Genehmigungsprozessen in Workfront zu überprüfen. Weitere Informationen finden Sie unter [Übersicht über den Genehmigungsprozess](../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
+Zusätzlich zu den unten beschriebenen Überlegungen empfehlen wir, die allgemeinen Überlegungen zu Genehmigungsprozessen in Workfront zu überprüfen. Weitere Informationen finden Sie unter [Überblick über den Genehmigungsprozess](../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
 
 <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Approvals can only be associated with the status of a project, task, or issue in Workfront.</li>

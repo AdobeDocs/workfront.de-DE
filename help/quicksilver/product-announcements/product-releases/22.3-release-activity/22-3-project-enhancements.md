@@ -8,12 +8,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 1235ad4a-72dd-45c5-8513-d073b3e9a2da
 source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
 workflow-type: tm+mt
-source-wordcount: '1535'
+source-wordcount: '1545'
 ht-degree: 0%
 
 ---
 
-# 22.3 Projektverbesserungen
+# Verbesserungen bei Projekten in Version 22.3
 
 Auf dieser Seite werden alle mit Version 22.3 vorgenommenen Projektverbesserungen in der Vorschau-Umgebung beschrieben. Diese Verbesserungen wurden in der Woche vom 11. Juli 2022 in der Produktionsumgebung verfügbar gemacht. Eine Liste aller mit Version 22.3 verfügbaren Änderungen finden Sie unter Übersicht über die Version [22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 

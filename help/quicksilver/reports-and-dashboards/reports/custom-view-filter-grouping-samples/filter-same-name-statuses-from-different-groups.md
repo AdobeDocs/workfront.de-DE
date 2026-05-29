@@ -11,7 +11,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '479'
 ht-degree: 11%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 11%
 
 <!--Audited: 10/2024-->
 
-Sie können der Gruppe A einen Aufgabenstatus mit dem Namen *Neuer Status* mit dem aus drei Buchstaben bestehenden Schlüssel *NST* zuweisen. Der Gruppe B kann ein weiterer Aufgabenstatus zugewiesen werden, der auch *Neuer Status* mit dem 3-Buchstaben-Schlüssel *NES heißt.* Obwohl die Namen für die beiden Status identisch sein können, ist der aus drei Buchstaben bestehende Code immer eindeutig.
+Sie können der Gruppe A einen Aufgabenstatus mit dem Namen *Neuer Status* mit dem aus drei Buchstaben bestehenden Schlüssel *NST* zuweisen. Der Gruppe B kann ein weiterer Aufgabenstatus zugewiesen werden, der auch *Neuer Status* mit dem aus 3 Buchstaben bestehenden Schlüssel *NES.* Obwohl die Namen für die beiden Status identisch sein können, ist der aus drei Buchstaben bestehende Code immer eindeutig.
 
 Weitere Informationen zum Gruppenstatus finden Sie unter [Erstellen oder Bearbeiten eines Gruppenstatus](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 

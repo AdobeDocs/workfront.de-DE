@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1390'
 ht-degree: 5%
 
 ---
@@ -62,7 +62,7 @@ Datensätze können in den folgenden Ansichten angezeigt werden:
 In diesem Artikel werden die folgenden Informationen zu Datensatzansichten beschrieben:
 
 * [Erstellen und Bearbeiten einer Ansicht](#create-or-edit-record-views)
-* [Aktivieren der Echtzeit-Anwesenheitsindikatoren in einer Ansicht](#enable-the-real-time-presence-indicator-in-a-view)
+* [Aktivieren der Echtzeit-Präsenzindikatoren in einer Ansicht](#enable-the-real-time-presence-indicator-in-a-view)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 Weitere Informationen zum Verwalten von Workfront Planning-Datensatzansichten finden Sie in den folgenden Artikeln:

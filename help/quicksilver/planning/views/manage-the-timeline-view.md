@@ -8,20 +8,20 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b0fdb3c74882b566a397872e1cc8007728b770c
+source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
 workflow-type: tm+mt
-source-wordcount: '4068'
+source-wordcount: '4251'
 ht-degree: 3%
 
 ---
 
 # Verwalten der Timeline-Ansicht
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -286,11 +286,13 @@ Beachten Sie beim Arbeiten mit Filtern in der Zeitleisten -Ansicht Folgendes:
 
 * Sie können nach verbundenen Datensatzfeldern oder Suchfeldern filtern.
 * Sie können nach Suchfeldern filtern, die mehrere Werte anzeigen.
+* <span class>Sie können nach den Datensatztypen in der Zeitleisten -Ansicht oder nach allen verbundenen Datensatztypen filtern, die Teil der Aufschlüsselungsstruktur in der Ansicht sind. </span>
 
 So fügen Sie einen Filter zu einer Zeitleisten -Ansicht hinzu:
 
 1. Erstellen Sie eine Zeitleisten -Ansicht für eine Seite vom Typ Datensatz, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Wählen Sie eine Zeitleisten -Ansicht aus **klicken Sie dann** oben rechts in der Tabelle auf „Filter“.
+1. Wählen Sie eine Zeitleisten -Ansicht aus **klicken Sie dann** oben links in der Tabelle auf „Filter“.
+1. <span class>(Bedingt) Wenn Sie der Zeitleisten -Ansicht eine Aufschlüsselungsstruktur hinzugefügt haben, erweitern Sie den Datensatztyp in der ersten Dropdown-Liste im Filterfeld. Dies ist der Datensatztyp, dessen Zeitleisten-Ansicht Sie anzeigen. </span>
 1. Klicken Sie **Bedingung hinzufügen** und fügen Sie die folgenden Informationen hinzu:
 
    * **Feld auswählen**, um nach einem Feld zu suchen und es aus der Liste auszuwählen.
@@ -374,14 +376,19 @@ So fügen Sie einen Filter zu einer Zeitleisten -Ansicht hinzu:
    * **OR**: Jede der angegebenen Bedingungen muss erfüllt sein.
 Dies ist die Standardoption.
 
-   1. (Optional) Fügen Sie zusätzliche Filtergruppierungen hinzu und verbinden Sie sie mit den Operatoren **AND** oder **OR**.
-
-      ![Mehrstufige Filter in Ansichten](assets/multi-tiered-filters-in-views.png)
+1. (Optional) Fügen Sie zusätzliche Filtergruppierungen hinzu und verbinden Sie sie mit den Operatoren **AND** oder **OR**.
 
    Die Liste der Datensätze wird automatisch anhand Ihrer Filterkriterien gefiltert.  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. (Optional) Klicken Sie auf das Symbol **x**, um eine Filterbedingung zu entfernen.
+1. <span class="preview">(Optional und bedingt) Wenn Sie eine Aufschlüsselungsstruktur zu Ihrer Zeitleisten -Ansicht hinzugefügt haben, erweitern Sie den Datensatztyp im folgenden Dropdown-Menü und wiederholen Sie die obigen Schritte, um einen Filter für einen in der Aufschlüsselung enthaltenen Datensatztyp hinzuzufügen. </span>
+
+   <span class="preview"> Wiederholung für jeden Datensatztyp in der Aufschlüsselung.</span>
+
+   ![Mehrstufiger Filter mit Aufschlüsselung für die Zeitleisten-Ansicht](assets/multi-tiered-filters-with-breakdown-for-timeline-view.png)
+
+   <span class="preview">Sie können Filter für Aufschlüsselungs-Datensatztypen nur in der Zeitleisten -Ansicht verwenden.</span>
 1. (Optional) Klicken Sie auf **Filter** oder an einer anderen Stelle auf der Seite, um das Feld „Filter“ zu schließen. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 

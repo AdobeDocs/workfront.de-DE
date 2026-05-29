@@ -12,7 +12,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '2615'
+source-wordcount: '2620'
 ht-degree: 2%
 
 ---
@@ -104,7 +104,7 @@ Konfigurieren Sie eine der folgenden Voreinstellungen für neu erstellte Projekt
           </li>
          </ul>
         <p>Diese Einstellung ist standardmäßig aktiviert. </p> 
-        <p><b>NOTIZ</b></p>
+        <p><b>HINWEIS</b></p>
         <p> Ein Gruppenadministrator kann diese Einstellung für eine Gruppe ändern. Wenn ein(e) Benutzende(r) mehreren Gruppen mit unterschiedlichen Voreinstellungen angehört, kann er/sie ein Projekt ohne Vorlage erstellen, wenn diese Einstellung für die Hauptgruppe aktiviert ist.</p> 
         </td> 
   </tr>

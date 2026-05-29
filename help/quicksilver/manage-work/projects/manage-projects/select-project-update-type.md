@@ -8,12 +8,12 @@ feature: Work Management
 exl-id: ffdfffec-d217-4daa-9849-cb0c794992c0
 source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 3%
+source-wordcount: '665'
+ht-degree: 6%
 
 ---
 
-# Wählen Sie den Projektaktualisierungstyp
+# Auswählen des Aktualisierungstyps eines Projekts
 
 Durch Auswahl eines Aktualisierungstyps für ein Projekt können Sie steuern, wie oft die Änderungen, die Sie an der Zeitleiste des Projekts vornehmen, in den übergeordneten Aufgaben oder im Projekt gespeichert werden.
 
@@ -40,7 +40,7 @@ Beispielsweise wird durch die folgenden Änderungen an den Aufgaben im Projekt-T
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p> 
-   <p>Plan</p> </td> 
+   <p>Abo</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -79,7 +79,7 @@ Wenn die Aufgaben aktualisiert werden, werden ihre übergeordneten Objekte (übe
    * **Automatisch und Bei Änderung** Dies ist die Standardeinstellung. Die Zeitleiste des Projekts wird jedes Mal aktualisiert, wenn eine Änderung im Projekt oder in einem anderen Projekt auftritt, von dem die Zeitleiste abhängig ist. Die Zeitleiste des Projekts wird ebenfalls jede Nacht aktualisiert.\
      Dies ist die empfohlene Einstellung, da sie sicherstellt, dass die Zeitleiste des Projekts immer auf dem neuesten Stand ist.
 
-     Trigger Wenn Sie eine Aufgabe oder das Projekt aktualisieren und eine Neuberechnung der Zeitleiste durchführen, werden alle verfügbaren Daten sofort angezeigt, sodass Sie weiterarbeiten können. Bei Projekten mit mehr als 100 Aufgaben werden Datumsangaben, für die längere Berechnungen erforderlich sind, abgeblendet.
+     Wenn Sie eine Aufgabe oder das Projekt aktualisieren und eine Neuberechnung der Zeitleiste durchführen, werden alle verfügbaren Daten sofort angezeigt, sodass Sie weiterarbeiten können. Bei Projekten mit mehr als 100 Aufgaben werden Datumsangaben, für die längere Berechnungen erforderlich sind, abgeblendet.
 
      ![Datumsangaben bei Inline-Bearbeitung abgeblendet](assets/dates-dimmed-when-insline-editing-350x146.png)
 

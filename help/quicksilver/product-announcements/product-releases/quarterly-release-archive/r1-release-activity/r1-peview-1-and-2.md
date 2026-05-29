@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: R1 Vorschau 1 und 2
+title: R1-Vorschau 1 und 2
 description: Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschau-Umgebung mit den Versionen R1.1 und R1.2 verfügbar sind. Die Funktion auf dieser Seite wurde am 19. Januar 2017 in der Vorschau-Umgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements
@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 65219cf1-809f-4d8e-a858-01f7881064d7
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 2%
+source-wordcount: '1153'
+ht-degree: 3%
 
 ---
 
-# R1 Vorschau 1 und 2
+# R1-Vorschau 1 und 2
 
 Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschau-Umgebung mit den Versionen R1.1 und R1.2 verfügbar sind. Die Funktion auf dieser Seite wurde am 19. Januar 2017 in der Vorschau-Umgebung verfügbar gemacht.
 
@@ -38,7 +38,7 @@ Vor dieser Änderung waren Informationen zu Genehmigungsschritten nur auf der Re
 
 Bei Projekten werden die Genehmigungsinformationen in der Kopfzeile neben dem Projekttitel angezeigt. Bei Aufgaben und Problemen werden die Genehmigungsinformationen im rechten Bedienfeld angezeigt.
 
-Weitere Informationen finden Sie unter [Genehmigen von &#x200B;](../../../../review-and-approve-work/manage-approvals/approving-work.md) in  [Arbeit genehmigen](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+Weitere Informationen finden Sie unter [Genehmigen von &#x200B;](../../../../review-and-approve-work/manage-approvals/approving-work.md)&quot; in [Genehmigen von &#x200B;](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 
 ## Zu aktualisierende Objekte konfigurieren, für die die Genehmigung aussteht
 
@@ -110,7 +110,7 @@ Sie können jetzt die URL für die folgenden Objekte in der Workfront Mobile App
 * Projekte
 * Aufgaben
 * Probleme
-* Arbeitszeit- tabellen
+* Arbeitszeittabellen
 * Dokumente
 
 Sie können eine URL eines Objekts in den folgenden Anwendungen freigeben:

@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 5a7c4c8d-3136-4ea2-8b2c-98eed06822b0
 source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '766'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 ## Erstellen eines neuen Ordners der obersten Ebene {#creating-a-new-top-level-folder}
 
 1. Klicken Sie in der Seitenleiste auf den Dropdown-Pfeil (1) neben der grünen Schaltfläche **[!UICONTROL Neuer Korrekturabzug]**.
-1. Wählen Sie **[!UICONTROL Neuer Ordner]** aus. 2)\
+1. Wählen Sie **[!UICONTROL Neuer Ordner]** aus. (2)\
    Die [!UICONTROL Neuer Ordner] wird angezeigt.
 
 1. Fahren Sie mit [Konfigurieren des neuen Ordners](#configuring-the-new-folder) fort.\
@@ -52,9 +52,9 @@ So erstellen Sie einen Unterordner über die Seite [!UICONTROL Ordnerdetails]:
 
 1. Klicken Sie oben auf der Seite auf die Schaltfläche Neuer Unterordner (2).\
    Ein neuer Ordner wird in der Liste der Elemente im Ordner angezeigt.
-1. Geben Sie einen Namen für den neuen Unterordner ein. 3)
+1. Geben Sie einen Namen für den neuen Unterordner ein. (3)
 1. Drücken Sie **[!UICONTROL ENTER]**.\
-   Oder\
+   ODER\
    Klicken Sie außerhalb des Felds Ordnername .
 
 1. (Optional) Bearbeiten Sie die Details des neuen Unterordners auf der Seite Ordnerdetails .

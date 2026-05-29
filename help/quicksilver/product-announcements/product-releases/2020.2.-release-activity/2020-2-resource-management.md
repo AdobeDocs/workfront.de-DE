@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-2-release-activity
-title: 'Verbesserungen beim Ressourcenmanagement in 2020.2: Der Workload-Balancer'
+title: 'Verbesserungen beim Ressourcen-Management in Version 2020.2: Der Workload Balancer'
 description: Auf dieser Seite werden alle Verbesserungen des Ressourcen-Managements beschrieben, die mit der Version 2020.2 in der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Woche vom 11. Mai 2020 in der Produktionsumgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements
@@ -9,8 +9,8 @@ recommendations: noDisplay, noCatalog
 exl-id: 00cc1205-5d58-485b-8076-e177f1d931f9
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '1741'
-ht-degree: 0%
+source-wordcount: '1814'
+ht-degree: 4%
 
 ---
 
@@ -97,7 +97,7 @@ Weitere Informationen zum Anzeigen von Informationen im Workload-Balancer finden
 * Adobe Workfront Classic
 * Das neue Adobe Workfront-Erlebnis
 
-## Freigeben des Workload Balancer für einen Link
+## Freigeben des Workload Balancers mit einem Link
 
 Jetzt können Sie den Arbeitsaufwand Ihrer Mitarbeiter für Führungskräfte aufteilen, damit diese über Kontext zu Ihrem Personalbedarf verfügen. Dazu können Sie jetzt den Workload-Balancer freigeben, indem Sie eine eindeutige URL für den Workload-Balancer für andere freigeben.
 

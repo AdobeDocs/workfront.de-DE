@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 57f846a1-f315-42c1-911a-cfbc8b4879ba
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '955'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Sie können auch Elemente in einem Ordner (anstelle des Ordners selbst) freigebe
 1. Klicken Sie in der linken **[!UICONTROL auf]** Registerkarte „Ordner“.
 1. Klicken Sie auf den Namen des Ordners, der die Ordner enthält, die Sie freigeben möchten.
 1. Klicken Sie in der rechts angezeigten Ordnerliste auf das Kontrollkästchen links neben jedem Ordner, den Sie freigeben möchten.\
-   Oder\
+   ODER\
    Aktivieren Sie das Kontrollkästchen über der Ordnerliste, um alle Ordner in der Liste auszuwählen.
 
 1. Klicken Sie **[!UICONTROL Ausgewählte Elemente freigeben]**.\

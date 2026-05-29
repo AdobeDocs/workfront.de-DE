@@ -7,8 +7,8 @@ feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
 source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
-source-wordcount: '1556'
-ht-degree: 0%
+source-wordcount: '1563'
+ht-degree: 2%
 
 ---
 
@@ -34,7 +34,7 @@ Weitere Informationen zum Arbeiten mit Abonnements finden Sie unter [Über das A
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,8 +49,8 @@ Weitere Informationen zum Arbeiten mit Abonnements finden Sie unter [Über das A
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz</strong></td> 
    <td> 
-   <p>Mitwirkender oder höher</p>
-   <p>Anfrage oder höher</p> </td> 
+   <p>Mitwirkende oder höher</p>
+   <p>Anfragende oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen der Zugriffsebene</strong></td> 
@@ -63,7 +63,7 @@ Weitere Informationen zum Arbeiten mit Abonnements finden Sie unter [Über das A
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -167,7 +167,7 @@ Wenn jemand einen Kommentar zur Registerkarte [!UICONTROL Aktualisierungen] des 
 1. Klicken Sie auf die Nummernblase neben dem Link **[!UICONTROL Abonnieren]** oder **[!UICONTROL Abmelden]**.
 1. Auf der **[!UICONTROL Abonnenten]** Seite, die angezeigt wird, klicken Sie auf das „X“ neben dem Namen des Benutzers, den Sie abmelden möchten.
 
-   Oder
+   ODER
 
    Geben Sie den Namen des Benutzers in das Feld **[!UICONTROL Suche nach Personen in der Liste]** ein und klicken Sie dann auf das „X“ rechts neben dem Namen des Benutzers.
 

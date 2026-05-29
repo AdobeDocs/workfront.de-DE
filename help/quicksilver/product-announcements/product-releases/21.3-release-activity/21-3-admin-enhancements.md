@@ -1,6 +1,6 @@
 ---
-title: 21.3 Verbesserungen für Administratoren
-description: 21.3 Verbesserungen für Administratoren
+title: Verbesserungen für Admins in Version 21.3
+description: Verbesserungen für Admins in Version 21.3
 author: Luke
 draft: Probably
 feature: Product Announcements, System Setup and Administration
@@ -8,12 +8,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 18f8f5ac-48a3-45fe-9bf0-12b4b402f85f
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 0%
+source-wordcount: '349'
+ht-degree: 5%
 
 ---
 
-# 21.3 Verbesserungen für Administratoren
+# Verbesserungen für Admins in Version 21.3
 
 Auf dieser Seite werden alle Admin-Verbesserungen beschrieben, die mit Version 21.3 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen wurden in der Woche vom 21. Juli 2021 in der Produktionsumgebung verfügbar gemacht.
 

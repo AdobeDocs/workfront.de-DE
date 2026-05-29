@@ -8,8 +8,8 @@ feature: Work Management
 exl-id: 68774286-da24-409a-bbd8-eb18dfe75063
 source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 1%
+source-wordcount: '422'
+ht-degree: 8%
 
 ---
 
@@ -33,7 +33,7 @@ Informationen zu Vorgängern finden Sie unter [Übersicht über Aufgabenvorgäng
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -46,7 +46,7 @@ Informationen zu Vorgängern finden Sie unter [Übersicht über Aufgabenvorgäng
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p> 
-   <p>Plan</p> </td> 
+   <p>Abo</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 

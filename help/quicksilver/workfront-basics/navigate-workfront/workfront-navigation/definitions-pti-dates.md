@@ -8,8 +8,8 @@ author: Alina
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
 source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '2357'
-ht-degree: 3%
+source-wordcount: '2359'
+ht-degree: 8%
 
 ---
 
@@ -259,7 +259,7 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 
 ## Ausrichtung am geplanten Datum
 
-Hierbei handelt es sich um einen automatischen Indikator, mit dem Workfront Projekte, Aufgaben und Probleme zuweist, um anzuzeigen, wann ein Element in Bezug auf das geplante Abschlussdatum abgeschlossen wird.
+Hierbei handelt es sich um einen automatischen Indikator, mit dem Workfront Projekte, Aufgaben und Probleme zuweist, um zu zeigen, wann ein Element in Bezug auf das geplante Abschlussdatum abgeschlossen wird.
 
 Im Folgenden finden Sie mögliche Werte für den Indikator für die Ausrichtung am geplanten Datum:
 
@@ -267,7 +267,7 @@ Im Folgenden finden Sie mögliche Werte für den Indikator für die Ausrichtung 
 * Wird vor dem geplanten Abschlussdatum fertiggestellt
 * Wird nach dem geplanten Abschlussdatum fertiggestellt
 
-Die Ausrichtung am geplanten Datum ist in Projekt-, Aufgaben- und Problemlisten und Berichten sichtbar.
+Die Ausrichtung am geplanten Datum ist in Projekt-, Aufgaben- und Problemlisten und -berichten sichtbar.
 
 ## [!UICONTROL Geplantes Startdatum]
 

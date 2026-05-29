@@ -1,15 +1,15 @@
 ---
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: Kommentar zu Testsendungen in Android
+title: Kommentare zu Korrekturabzügen in Android
 description: Sie können vorhandene Kommentare zu einem Korrekturabzug überprüfen und auflösen und dem Korrekturabzugsdokument neue Kommentare und Anmerkungen hinzufügen.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5124144e-b613-46c4-8697-b40caf22af04
 source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 0%
+source-wordcount: '881'
+ht-degree: 1%
 
 ---
 
@@ -77,7 +77,7 @@ Sie können Kommentare zu einem Korrekturabzugsdokument überprüfen. Kommentare
 1. Um die ausgewählten Kommentare zu löschen, wählen Sie das Menü **[!UICONTROL Mehr]** oben rechts ![Mehr](assets/mobile-verticalmoremenu-20x33.png) und wählen Sie **[!UICONTROL Löschen]**. Wählen Sie dann **[!UICONTROL Löschen]** in der Bestätigungsmeldung aus, um den Kommentar dauerhaft zu löschen.
 1. Wählen Sie den Pfeil oben links aus, um die Auswahlansicht zu verlassen und zur Kommentarliste zurückzukehren.
 
-## Kommentar zu einem Korrekturabzug
+## Kommentieren eines Korrekturabzugs
 
 Sie können Ihre Kommentare zu Korrekturabzügen einem bestimmten Bereich im Dokument zuordnen. Wählen Sie mit den Zeichnungswerkzeugen einen Bereich aus, der kommentiert werden soll.
 

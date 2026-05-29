@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '675'
 ht-degree: 1%
 
 ---
@@ -39,17 +39,17 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Eine delegierte Anfragegenehmigungsanfrage wurde abgeschlossen</strong> </p> <p>Eine Problemgenehmigung, die Sie an einen anderen Benutzer delegiert haben, wurde von diesem Benutzer genehmigt oder abgelehnt.</p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail ist: <em>[!UICONTROL Problem Approval/ Rejection Made on Your Bevollmächtigter by] &lt;Benutzername&gt;</em></p> <p>Der Betreff der täglichen Digest-Benachrichtigung ist:<em> [!UICONTROL Digest of Approval Information] &lt;Datum der täglichen Digest&gt;</em></p> </td> 
+   <td> <p><strong>Eine delegierte Anfragegenehmigungsanfrage wurde abgeschlossen</strong> </p> <p>Eine Problemgenehmigung, die Sie an einen anderen Benutzer delegiert haben, wurde von diesem Benutzer genehmigt oder abgelehnt.</p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail ist: <em>[!UICONTROL Problem Approval/ Rejection Made in Your Bevollmächtigte by] &lt;Benutzername&gt;</em></p> <p>Der Betreff der täglichen Digest-Benachrichtigung ist:<em> [!UICONTROL Digest of Approval Information] &lt;Datum der täglichen Digest&gt;</em></p> </td> 
    <td> <p>Anfragename<br>Projektname<br>Anfragenummer<br>Name des Benutzers, der das Problem in Ihrem Auftrag genehmigt/abgelehnt hat<br>Genehmigungsentscheidung<br>Anfragenstatus<br>Name des Benutzers, der die Genehmigung angefordert hat<br><strong>[!UICONTROL Weitere Details anzeigen]</strong> Schaltfläche<br>*Projektreferenznummer<br>*Projektname<br>*Gesamtzahl der delegierten Anfragengenehmigungen<br>*Anfragename<br>*Name des genehmigenden Benutzers<br>*Datum der täglichen Zusammenfassung<br><br></p> </td> 
    <td><strong>Täglich</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Eine delegierte Projektgenehmigungsanfrage ist abgeschlossen</strong> </p> <p>Eine Projektgenehmigung, die Sie an einen anderen Benutzer delegiert haben, wurde von diesem Benutzer genehmigt oder abgelehnt.</p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail ist: <em>[!UICONTROL Projektgenehmigung/-ablehnung in Ihrem Auftrag von] &lt;Benutzername&gt;</em></p> <p><em>Der Betreff der täglichen Digest-Benachrichtigung ist: [!UICONTROL Digest of Approval Information] &lt;Datum der täglichen Digest&gt;</em> </p> </td> 
+   <td> <p><strong>Eine delegierte Projektgenehmigungsanfrage ist abgeschlossen</strong> </p> <p>Eine Projektgenehmigung, die Sie an einen anderen Benutzer delegiert haben, wurde von diesem Benutzer genehmigt oder abgelehnt.</p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail ist: <em>[!UICONTROL Projektgenehmigung/ -ablehnung in Ihrem Auftrag von] &lt;Benutzername&gt;</em></p> <p><em>Der Betreff der täglichen Digest-Benachrichtigung ist: [!UICONTROL Digest of Approval Information] &lt;Datum der täglichen Digest&gt;</em> </p> </td> 
    <td> Projektname<br>[!UICONTROL Portfolio-Name]<br>[!UICONTROL -Projekt-Referenznummer]<br>Name des Benutzers, der das Projekt in Ihrem Auftrag genehmigt/abgelehnt hat<br>[!UICONTROL -Genehmigungsentscheidung]<br>[!UICONTROL -Projektstatus]<br>Name des Benutzers, der die Genehmigung angefordert hat<br><strong>[!UICONTROL Weitere Details anzeigen]</strong>-Schaltfläche<br>*Projekt-Referenznummer<br>*Projektname<br>*Name des genehmigenden Benutzers<br>[!UICONTROL *Datum der täglichen Zusammenfassung]<br></td> 
    <td><strong>Täglich</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Eine delegierte Aufgabengenehmigungsanfrage ist abgeschlossen</strong> </p> <p>Eine Aufgabengenehmigung, die Sie an einen anderen Benutzer delegiert haben, wurde von diesem Benutzer genehmigt oder abgelehnt.</p> <p>Der Betreff der Sofortbenachrichtigungs-E-Mail ist: <em>[!UICONTROL Aufgabe in Ihrem Auftrag von] &lt;Benutzername&gt;</em> genehmigt/abgelehnt</p> <p>Der Betreff der täglichen Digest-Benachrichtigung ist:<em> [!UICONTROL Digest of Approval Information] &lt;Datum der täglichen Digest&gt;</em></p> </td> 
+   <td> <p><strong>Eine delegierte Aufgabengenehmigungsanfrage ist abgeschlossen</strong> </p> <p>Eine Aufgabengenehmigung, die Sie an einen anderen Benutzer delegiert haben, wurde von diesem Benutzer genehmigt oder abgelehnt.</p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail ist: <em>[!UICONTROL Aufgabe in Ihrem Auftrag von] &lt;Benutzername&gt;</em></p> <p>Der Betreff der täglichen Digest-Benachrichtigung ist:<em> [!UICONTROL Digest of Approval Information] &lt;Datum der täglichen Digest&gt;</em></p> </td> 
    <td> Aufgabenname<br>Projektname<br>Aufgabenreferenznummer<br>Name des Benutzers, der die Aufgabe in Ihrem Auftrag genehmigt/abgelehnt hat<br>Genehmigungsentscheidung<br>Aufgabenstatus<br>Name des Benutzers, der die Genehmigung angefordert hat<br><strong>Weitere Details anzeigen</strong> Schaltfläche<br>*Projektreferenznummer<br>*Projektname<br>*Gesamtzahl der delegierten Aufgabengenehmigungen<br>*Aufgabenname<br>*Genehmigername<br>*Datum der täglichen Zusammenfassung<br></td> 
    <td><strong>Täglich</strong> </td> 
   </tr> 
@@ -64,7 +64,7 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
    <td><strong>Instant</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Meine Arbeitszeittabelle wurde genehmigt</strong> </p> <p>Wenn Ihre Arbeitszeittabelle genehmigt wurde, erhalten Sie eine E-Mail-Benachrichtigung.</p> <p>Der Betreff der Sofortbenachrichtigungs-E-Mail ist: <em>[!UICONTROL Arbeitszeittabelle genehmigt]: &lt;Startdatum der Arbeitszeittabelle&gt; - &lt;Enddatum der Arbeitszeittabelle&gt;</em></p> <p> <p>Hinweis: Sie können diese Benachrichtigung nicht für eine Daily Digest -E-Mail konfigurieren.</p> </p> </td> 
+   <td> <p><strong>Meine Arbeitszeittabelle wurde genehmigt</strong> </p> <p>Wenn Ihre Arbeitszeittabelle genehmigt wurde, erhalten Sie eine E-Mail-Benachrichtigung.</p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail ist: <em>[!UICONTROL Arbeitszeittabelle genehmigt]: &lt;Startdatum der Arbeitszeittabelle&gt; - &lt;Enddatum der Arbeitszeittabelle&gt;</em></p> <p> <p>Hinweis: Sie können diese Benachrichtigung nicht für eine Daily Digest -E-Mail konfigurieren.</p> </p> </td> 
    <td> Name des Benutzers, der Ihre Arbeitszeittabelle genehmigt hat<br>Datum und Uhrzeit der Genehmigung der Arbeitszeittabelle<br>Status der Arbeitszeittabelle ([!UICONTROL Genehmigt])<br>Startdatum und Enddatum der Arbeitszeittabelle<br>Gesamtstundenzahl, die in der Arbeitszeittabelle erfasst <br>Überstunden, die in der Arbeitszeittabelle erfasst sind </td> 
    <td><strong>Instant</strong> </td> 
   </tr> 

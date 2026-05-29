@@ -5,32 +5,42 @@ title: Verwenden des Adobe Workfront MCP-Servers
 description: Verwenden Sie den Adobe Workfront-MCP-Server, um Workfront-Elemente über eine Sprachkonversation in einer KI-Agentenplattform zu suchen, zu erstellen, zu aktualisieren und zu verwalten.
 author: Courtney
 feature: Get Started with Workfront
-hide: true
-source-git-commit: 152486b7850e01f3de23f22bbe3729c5cd3d3aa2
+source-git-commit: 7d961bca74884baa869f92a24a3f586500b824a5
 workflow-type: tm+mt
-source-wordcount: '1164'
-ht-degree: 1%
+source-wordcount: '1755'
+ht-degree: 0%
 
 ---
 
 
 # Verwenden des Adobe Workfront MCP-Servers
 
-Mit dem [!DNL Adobe Workfront] MCP-Server können Sie Workfront-Elemente suchen, erstellen, aktualisieren und verwalten, indem Sie eine KI-Agentenplattform in einfachem Englisch anfragen. Die -Plattform entscheidet, welche Workfront-Aktionen aufgerufen werden sollen, und übernimmt die Unterhaltung mit Workfront für Sie.
+{{highlighted-preview-article-level}}
 
-[!DNL Claude] ist derzeit die einzige unterstützte KI-Agentenplattform. Die Beispiele und Muster in diesem Artikel gelten jedoch für alle KI-Agentenplattformen, die den Workfront MCP-Server unterstützen.
-
-In diesem Artikel wird davon ausgegangen, dass Sie die Verbindung bereits eingerichtet haben. Weitere Informationen zum Setup finden Sie unter [Konfigurieren des Adobe Workfront MCP-Servers](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md). Weitere Informationen zum Workfront MCP-Server finden Sie unter [Übersicht über den Adobe Workfront MCP-Server](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md).
-
-## Verfügbare Tools
-
-Der Workfront MCP-Server stellt eine Reihe von Tools bereit, die die KI-Agentenplattform in Ihrem Namen aufruft, z. B. Tools zum Durchsuchen von Workfront, Erstellen von Elementen, Aktualisieren von Feldern und Verwalten von Genehmigungen. Die vollständige Referenzliste, gruppiert nach Workfront-Bereich, finden Sie unter [Adobe Workfront MCP Server Tools](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md).
+Mit dem [!DNL Adobe Workfront] MCP-Server können Sie Workfront-Elemente suchen, erstellen, aktualisieren und verwalten, indem Sie eine KI-Agentenplattform in natürlicher Sprache anfordern. Die -Plattform entscheidet, welche Workfront-Aktionen aufgerufen werden sollen, und übernimmt die Unterhaltung mit Workfront für Sie.
 
 >[!IMPORTANT]
 >
->Wenn Sie eine KI-Agentenplattform mit Workfront verbinden, wird sie in Workfront mithilfe Ihres Workfront-Kontos und Ihrer Berechtigungen ausgeführt. Die Aktionen der Plattform haben dieselbe Wirkung wie Aktionen, die Sie direkt in der Workfront-Benutzeroberfläche ausführen.
+>Derzeit steht der Workfront MCP-Server nur Kunden in den USA zur Verfügung, die AWS verwenden.
+
+## Voraussetzungen
+
+* Sie müssen die Verbindung zwischen Ihrer KI-Agentenplattform und dem Workfront MCP-Server einrichten. Setup-Anweisungen finden Sie unter [Konfigurieren des Adobe Workfront MCP-Servers](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
+* Ihre Workfront-Instanz muss auf dem Adobe Identity Management System (IMS) aktiviert sein.
+* Sie müssen über ein Workfront-Konto mit der erforderlichen Zugriffsebene und den erforderlichen Objektberechtigungen für die Elemente verfügen, mit denen Sie arbeiten möchten.
+
+
+In diesem Artikel wird davon ausgegangen, dass Sie die Verbindung bereits eingerichtet haben. Weitere Informationen zum Setup finden Sie unter [Konfigurieren des Adobe Workfront MCP-Servers](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
+
+## Verfügbare Tools
+
+Der Workfront MCP-Server stellt eine Reihe von Tools bereit, die die KI-Agentenplattform in Ihrem Namen aufruft. Beispielsweise Tools zum Durchsuchen von Workfront, Erstellen von Elementen, Aktualisieren von Feldern und Verwalten von Genehmigungen. Die vollständige Referenzliste finden Sie unter [Adobe Workfront MCP-Server-Tools](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md).
+
+>[!IMPORTANT]
 >
->Sie und Ihr KI-Agent-Plattformanbieter sind für die Aktionen verantwortlich, die die Plattform in Workfront durchführt. Adobe übernimmt keine Verantwortung für Änderungen, die die KI-Agentenplattform an Ihren Workfront-Daten vornimmt.
+>Wenn Sie eine KI-Agentenplattform mit Workfront verbinden, wird sie in Workfront mithilfe Ihres Workfront-Kontos und Ihrer Berechtigungen ausgeführt. Die Aktionen der Plattform haben dieselbe Wirkung wie Aktionen, die Sie direkt in der Workfront-Benutzeroberfläche ausführen.<br>
+>
+>Sie und Ihr KI-Agent-Plattformanbieter sind für die Aktionen verantwortlich, die die Plattform in Workfront durchführt. Adobe übernimmt keine Verantwortung für Änderungen, die die KI-Agentenplattform an Ihren Workfront-Daten vornimmt.<br>
 >
 >Bevor Sie die KI-Agent-Plattform mit einer Anfrage fortfahren lassen, bestätigen Sie, dass Sie verstehen, was sie zu tun beabsichtigt, insbesondere für Aktionen, die Daten ändern oder löschen.
 
@@ -38,6 +48,11 @@ Der Workfront MCP-Server stellt eine Reihe von Tools bereit, die die KI-Agentenp
 ## Beispiele für Fragen
 
 Geben Sie nach der Herstellung der Verbindung Anfragen in natürlicher Sprache in Ihre KI-Agentenplattform ein. Die KI-Agentplattform entscheidet, welche Workfront-Aktionen aufgerufen werden sollen, und gibt die Ergebnisse zurück.
+
+>[!NOTE]
+>
+>Einige Aktionen sind möglicherweise aufgrund von Admin-Steuerelementen im Bereich &quot;Workfront-Setup“ nicht verfügbar. Sie können beispielsweise keine Elemente erstellen, wenn der Workfront-Administrator Schreibaktionen für den MCP-Server deaktiviert hat.
+
 
 ### Suchen und Anzeigen Ihrer Arbeit
 
@@ -108,11 +123,10 @@ Sie können Anfragen in einer einzigen Konversation verketten. Die KI-Agent-Plat
 1. Nach einer Reihe von Elementen fragen: *Finde meine überfälligen Aufgaben.*
 1. Nachdem Sie die Liste erhalten haben, bitten Sie um eine Aktion für die Ergebnisse: *Aktualisieren Sie alle bis zum nächsten Freitag.*
 
-<!-- NEEDS DETAIL: Test multi-step prompt chaining in a working setup and document the patterns that produce reliable results. -->
 
 ## Zu beachten
 
-Beachten Sie bei der Verwendung des Workfront MCP-Servers die folgenden Punkte.
+Beachten Sie bei der Verwendung des Workfront MCP-Servers die folgenden Punkte:
 
 ### Die KI-Agent-Plattform kann Informationen aus früheren Gesprächen verwenden
 
@@ -122,25 +136,27 @@ Um die KI-Agent-Plattform zu zwingen, neue Daten abzurufen, fragen Sie explizit 
 
 * *Erhalten Sie die neuesten Daten aus Workfront. Keine zwischengespeicherten Ergebnisse verwenden.*
 
-### Der Workfront MCP-Server wird automatisch aktualisiert
+### Auf Updates für den Workfront MCP-Server prüfen
 
-Wenn Adobe eine neue Version des Workfront MCP-Servers veröffentlicht, verwendet Ihre KI-Agentenplattform die neue Version automatisch. Sie müssen nichts auf Ihrer Seite neu verbinden oder ändern.
+Sie sollten Ihre Verbindung zum Workfront MCP-Server regelmäßig aktualisieren, um sicherzustellen, dass Sie über die neuesten Tools und Funktionen verfügen.
+
+Die meisten Aktualisierungen sollten automatisch erfolgen. Es wird jedoch empfohlen, die Versionshinweise zu Workfront regelmäßig zu lesen.
+
 
 ## Daten und Sicherheit
 
-<!-- NEEDS DETAIL: Document Adobe's official position on data handling and security when Workfront data is passed through an AI agentic platform. Cover: what data leaves Workfront, where it goes, whether it is retained or used for training by the AI agentic platform provider, what happens to it after the conversation ends, and any differences between AI agentic platforms (for example, Anthropic's enterprise data handling policies for Claude). This section needs sign-off from security and legal before publication. -->
+Die Workfront MCP-Server-Tools sind konsistent mit der Funktionsweise von API-Aufrufen. Workfront speichert keine Eingabeaufforderungen, Antworten oder andere Daten. Die gewünschten Workfront-Daten sind über die Workfront-Plattform verfügbar.
+
+Ihre Zugriffsebene und Ihre Objektberechtigungen bestimmen, wonach Sie Abfragen durchführen oder in Workfront schreiben können. Ihr Workfront-Administrator hat die Kontrolle über die MCP-Lese- und Schreibaktionen im Bereich &quot;Workfront Setup“.
 
 ### Welche Daten Workfront verlassen
 
-<!-- NEEDS DETAIL: List the categories of Workfront data that can be sent to the AI agentic platform (item names, field values, attachments, user identifiers, etc.) and any data that the MCP server explicitly does not expose. -->
+Der Anbieter der KI-Agentenplattform hat Zugriff auf die Workfront-Daten, mit denen Sie über den Workfront MCP-Server interagieren. Weitere Informationen erhalten Sie von Ihrem KI-Agenten-Plattformanbieter.
+
 
 ### Handhabung von Workfront-Daten durch KI-Plattformanbieter
 
-<!-- NEEDS DETAIL: For each supported AI agentic platform, summarize the provider's data handling stance: retention, training opt-out, and enterprise vs. consumer differences. Link to the provider's official documentation. Start with Claude (Anthropic). -->
-
-### Unterschiede zwischen KI-magnetischen Plattformen
-
-<!-- NEEDS DETAIL: Note any meaningful differences in how each supported AI agentic platform handles Workfront data once additional AI agentic platforms are supported. -->
+Workfront hat keine Kontrolle darüber, wie der KI-Plattformanbieter Ihre Workfront-Daten verarbeitet. Weitere Informationen erhalten Sie von Ihrem KI-Agenten-Plattformanbieter.
 
 ## Fehlerbehebung bei der täglichen Verwendung
 
@@ -150,7 +166,7 @@ Wenn Adobe eine neue Version des Workfront MCP-Servers veröffentlicht, verwende
 |---|---|---|
 | Die KI-Agent-Plattform liefert Ihnen veraltete Informationen. | Die KI-Agentenplattform verwendet Daten aus früheren Phasen der Konversation wieder. | Fordern Sie neue Daten von Workfront an. |
 | Die KI-Agent-Plattform hat Daten von falschen Workfront-Elementen zurückgegeben. | Die KI-Agentenplattform wählte die falschen Elemente basierend auf mehrdeutigen Formulierungen aus. | Fragen Sie erneut mit spezifischeren Namen, IDs oder Filtern. |
-| Eine Aktualisierung oder Löschung wurde in Workfront nicht wirksam. | Die KI-Agent-Plattform hat die Aktion noch nicht aufgerufen, oder Ihre Berechtigungen lassen dies nicht zu. | Bestätigen Sie mit der KI-Agentplattform, dass die Aktion ausgeführt wurde, und überprüfen Sie dann Ihre Workfront-Berechtigungen. |
+| Eine Aktualisierung oder Löschung wurde in Workfront nicht wirksam. | Ihr Workfront-Administrator hat Schreibaktionen für den Workfront MCP-Server deaktiviert oder Sie sind nicht berechtigt, die Aktion für das jeweilige Element durchzuführen. | Bestätigen Sie mit der KI-Agent-Plattform, dass die Aktion ausgeführt wurde. Vergewissern Sie sich anschließend, dass Schreibaktionen für den Workfront MCP-Server aktiviert sind und dass Sie berechtigt sind, das Element zu ändern. |
 
 Weitere Informationen zu Setup- und Authentifizierungsproblemen finden Sie unter [Fehlerbehebung bei Setup und Authentifizierung](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#troubleshoot-setup-and-authentication) in [Konfigurieren des Adobe Workfront MCP-Servers](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
 
@@ -160,22 +176,90 @@ Weitere Informationen zu Setup- und Authentifizierungsproblemen finden Sie unter
 
 +++ Erweitern Sie , um häufig gestellte Fragen zur Verwendung des Workfront MCP-Servers anzuzeigen.
 
+### Was ist eine KI-Agentenplattform?
+
+Eine KI-Agent-Plattform ist ein KI-Tool, mit dem Sie in Ihrem Namen Aktionen durchführen können.
+Andere Systeme beantworten nicht nur Fragen. Wenn Sie eine Verbindung zu Workfront herstellen
+über den MCP-Server kann es Workfront finden, erstellen, aktualisieren und löschen
+Elemente basierend auf dem, was Sie es in natürlicher Sprache fragen. Beispiele sind Claude
+Desktop, ChatGPT und andere MCP-kompatible KI-Clients.
+
+
+### Muss ich Workfront-Administrator sein, um den Workfront MCP-Server zu verwenden?
+
+Nein. Jeder Workfront-Benutzer kann den Workfront MCP-Server über eine verbundene
+KI-Agent-Plattform. Die KI-Agentenplattform verwendet Ihre Workfront
+Konto-, Zugriffsebenen- und Objektberechtigungen, sodass Sie nur das tun können, was Sie auch tun
+Konnte bereits direkt in Workfront.
+
+### Warum kann die KI-Agent-Plattform keine Elemente für mich erstellen, aktualisieren oder löschen?
+
+Ihr Workfront-Administrator steuert, welche MCP-Aktionen in der
+Workfront-Setup-Bereich. Wenn Schreibaktionen deaktiviert sind, nutzt die KI-Agent-Plattform
+Workfront-Elemente können weiterhin gefunden und gelesen, aber keine Änderungen vorgenommen werden. Sie auch
+Sie benötigen die richtige Zugriffsebene und Objektberechtigungen für die spezifischen Elemente
+Du arbeitest mit.
+
+### Fragt mich die KI-Agentenplattform, bevor sie Workfront-Daten ändert oder löscht?
+
+Das hängt von der KI-Agentenplattform ab, nicht von Workfront. Die meisten Plattformen
+Sie vor der Ausführung einer Aktion zur Bestätigung auffordern, insbesondere bei Löschvorgängen.
+Bevor Sie eine Anfrage genehmigen, lesen Sie, was die Plattform sagt, dass sie tun wird —
+Die Änderungen erfolgen in Workfront auf die gleiche Weise wie bei einer Vornahme
+sich selbst in der Benutzeroberfläche.
+
+<!--
+
+### Can I undo something the AI agentic platform did in Workfront?
+
+Changes the AI agentic platform makes in Workfront work the same way as 
+changes you make in the interface. If Workfront supports undoing or 
+restoring a particular action (for example, restoring a deleted item from 
+the Recycle Bin), the same options apply. If Workfront doesn't normally let 
+you undo an action, you can't undo it through the AI agentic platform either.
+
+-->
+
+### Warum hat die KI-Agent-Plattform die falschen Workfront-Elemente zurückgegeben?
+
+Die KI-Agent-Plattform wählt Elemente basierend auf den von Ihnen verwendeten Wörtern aus. Wenn Ihre
+Die Anfrage ist mehrdeutig - z. B. haben zwei Projekte ähnliche Namen - sie
+Sie könnten sich die falsche aussuchen. Fragen Sie erneut mit spezifischeren Namen, IDs, Daten,
+oder Filtern, um die Ergebnisse einzugrenzen.
+
+
 ### Mit welchen Workfront-Elementen kann ich über eine KI-Agentenplattform arbeiten?
 
-Alle Elemente, auf die Sie in Workfront über Zugriffsebenen und Objektberechtigungen Zugriff haben.
+Alle Elemente, auf die Sie in Workfront über Ihre Zugriffsebene Zugriff haben, und
+Objektberechtigungen. Dazu gehören Projekte, Aufgaben, Probleme, Dokumente,
+Validierungen, Planungsunterlagen und mehr.
 
-<!-- NEEDS DETAIL: List the supported Workfront object types. -->
+### Können andere Leute meine Konversationen mit der KI-Agentenplattform sehen?
+
+Workfront speichert weder Ihre Eingabeaufforderungen noch die Antworten der KI-Agentenplattform.
+Wer auch immer Ihre KI-Agentenplattform bereitstellt, steuert, wie Ihre Konversationen
+werden gespeichert oder freigegeben. Fragen Sie Ihren KI-Agenten-Plattformanbieter nach
+Details.
+
+### Muss ich die Workfront-API kennen oder welches MCP-Tool ich verwenden?
+
+Nein. Die KI-Agentenplattform übersetzt Ihre Anforderung in natürlicher Sprache in
+Wählen Sie die richtigen Workfront-Aktionen und die richtigen Tools für Sie aus. Wenn Sie
+Sie sind bereits mit der Workfront-API vertraut.
+Aber das ist keine Voraussetzung.
 
 ### Werden meine Workfront-Daten an den Anbieter der KI-Agentenplattform gesendet oder von diesem gespeichert?
 
-Weitere Informationen finden Sie unter [&#x200B; und Sicherheit &#x200B;](#data-and-security) diesem Artikel.
+Weitere Informationen finden Sie unter [Daten und Sicherheit](#data-and-security) in diesem Abschnitt
+Artikel.
 
 ### Was passiert, wenn eine neue Version des Workfront MCP-Servers veröffentlicht wird?
 
-Der MCP-Server wird automatisch aktualisiert. Sie müssen keine Verbindung wiederherstellen oder etwas ändern.
+Der MCP-Server wird im Allgemeinen automatisch aktualisiert. Möglicherweise müssen Sie jedoch Ihre Verbindung zum MCP-Server gelegentlich aktualisieren, um die neuesten Tools und Funktionen zu sehen.
 
-### Muss ich die Workfront-API kennen, um den Workfront MCP-Server zu verwenden?
+### Kann ich den Workfront MCP-Server verwenden, wenn meine Workfront-Instanz auf dem Adobe Identity Management System (IMS) nicht aktiviert ist?
 
-Nein. Die KI-Agentenplattform übersetzt Ihre Anfragen in natürlicher Sprache in die richtigen Workfront-Aktionen. Wenn Sie bereits mit der Workfront-API vertraut sind, fühlen sich die Aktionen vertraut an, sind aber keine Voraussetzung.
+Nein. Ihre Workfront-Instanz muss auf dem Adobe Identity Management System (IMS) aktiviert sein, damit der Workfront MCP-Server verwendet werden kann. Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie nicht sicher sind, ob Ihre Instanz für IMS aktiviert ist.
+
 
 +++

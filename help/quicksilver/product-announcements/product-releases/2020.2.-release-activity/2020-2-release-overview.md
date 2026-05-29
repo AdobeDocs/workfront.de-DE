@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases
-title: Übersicht über die Version 2020.2
+title: Überblick über Version 2020.2
 description: Die Version 2020.2 wurde in der Woche vom 11. Mai 2020 in der Produktionsumgebung bereitgestellt. Die aktuellsten Informationen zum Veröffentlichungsstatus finden Sie auf der Workfront Status-Website. Diese Seite enthält Informationen über die Funktionen, die in der Version 2020.2 enthalten sind.
 author: Luke
 feature: Product Announcements
@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 88a97b1e-4052-485e-8566-963c6ba640b9
 source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '2544'
-ht-degree: 0%
+source-wordcount: '2706'
+ht-degree: 1%
 
 ---
 
-# Übersicht über die Version 2020.2
+# Überblick über Version 2020.2
 
 Die Version 2020.2 wurde in der Woche vom 11. Mai 2020 in der Produktionsumgebung bereitgestellt.
 
@@ -152,7 +152,7 @@ Ein überarbeitetes Planerlebnis, mit dem Sie die Arbeitslasten und Anforderunge
  </tbody> 
 </table>
 
-### Projektverbesserungen {#project-enhancements}
+### Verbesserungen bei Projekten {#project-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -250,7 +250,7 @@ API-Version 11, veröffentlicht mit der Version 2020.1. Weitere Informationen zu
 
 Weitere Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Zeitplan](../../../wf-api/api/api-version-support-schedule.md) [API-Versionsveröffentlichung und Support-Zeitplan](https://experience.workfront.com/s/article/API-Version-Release-and-Support-Schedule-272875487?language=en_US&r=13&ui-comm-runtime-components-aura-components-siteforce-qb.Quarterback.validateRoute=1&ui-communities-components-aura-components-forceCommunity-breadcrumbs.Breadcrumbs.getAncestors=1&ui-communities-components-aura-components-forceCommunity-seoAssistant.SeoAssistant.getSeoData=1&ui-force-components-controllers-recordGlobalValueProvider.RecordGvp.getRecord=1&ui-self-service-components-controller.ArticleTopicList.getTopics=1&ui-self-service-components-controller.ArticleView.getArticleHeaderDetail=1).
 
-## Wartungs-Updates für Workfront 
+## Wartungs-Updates für Workfront
 
 Informationen zu den Wartungs-Updates, die während der Version 2020.1 vorgenommen wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
@@ -258,7 +258,7 @@ Informationen zu den Wartungs-Updates, die während der Version 2020.1 vorgenomm
 
 * [Änderung des Veröffentlichungsintervalls für die Vorschau](#change-in-preview-release-cadence) Neu!
 
-* auf die Zulassungsliste setzen [Hinzufügen zusätzlicher Domains zu der für den Zugriff auf Workfront erforderlichen &#x200B;](#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront)
+* [Hinzufügen zusätzlicher Domains zu der für den Zugriff auf Workfront erforderlichen &#x200B;](#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront)
 * [Workfront One](#workfront-one)
 * Webinar zur Version [.2020.1](#2020-1-release-webinar)
 * [Webinar zur Produkt-Roadmap im 1. Quartal](#q1-product-roadmap-webinar)

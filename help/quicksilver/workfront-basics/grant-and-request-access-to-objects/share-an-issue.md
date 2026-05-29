@@ -8,8 +8,8 @@ feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
 source-git-commit: 3bc953ebb6f16d3d4a71fe9764551a8a4cf1087a
 workflow-type: tm+mt
-source-wordcount: '1259'
-ht-degree: 9%
+source-wordcount: '1226'
+ht-degree: 6%
 
 ---
 
@@ -243,7 +243,7 @@ Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern erteilen können
    <td><strong>Anzeigen</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p> Probleme hinzufügen</p> </td> 
+   <td> <p>Probleme hinzufügen</p> </td> 
    <td>✓</td> 
    <td>  </td> 
    <td>  </td> 

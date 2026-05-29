@@ -9,12 +9,12 @@ role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
 source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 1%
+source-wordcount: '748'
+ht-degree: 7%
 
 ---
 
-# Manuelles Zuweisen von Arbeit über den Workload Balancer
+# Manuelles Zuweisen von Arbeit im Workload Balancer
 
 Mit dem Adobe Workfront Workload Balancer können Sie Benutzenden manuell Arbeitselemente zuweisen.
 
@@ -22,7 +22,7 @@ Allgemeine Informationen zum Zuweisen von Arbeit zu Benutzern mithilfe des Workl
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -55,7 +55,7 @@ Allgemeine Informationen zum Zuweisen von Arbeit zu Benutzern mithilfe des Workl
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -69,7 +69,7 @@ Sie können Arbeitselemente, die noch keinem Benutzer zugewiesen wurden, oder El
 
 1. (Optional) Wechseln Sie zum Bereich **Nicht zugewiesene Arbeit** und wenden Sie einen Filter an, um Aufgaben, Probleme oder Rollenzuweisungen anzuzeigen.
 
-   Oder
+   ODER
 
    Wechseln Sie zum Bereich **Zugewiesene Arbeit** und erweitern Sie den Namen eines Benutzers, um die ihm zugewiesenen Arbeitselemente anzuzeigen, wenn Sie seine Elemente neu zuweisen möchten.
 
@@ -132,7 +132,7 @@ Sie können Arbeitselemente, die noch keinem Benutzer zugewiesen wurden, oder El
 
 1. (Optional) Klicken Sie auf das **Zuordnungssymbol anzeigen** ![Zuordnungssymbol anzeigen](assets/show-allocations-icon-small.png) und klicken Sie dann auf das **Mehr Menü** ![Mehr Menü](assets/qs-more-menu.png) > **Zuordnungen bearbeiten**.
 
-   Oder
+   ODER
 
    Doppelklicken Sie auf eine tägliche oder wöchentliche Zuordnung, um die Zeit zu ändern, die der Benutzer dem Arbeitselement zugewiesen ist.
 

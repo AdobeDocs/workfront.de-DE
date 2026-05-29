@@ -4,10 +4,10 @@ description: Verbesserungen bei der Berichterstellung für das dritte Quartal 20
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 9a86968cf8fff2c7c930aa6c8408ab8566905cb8
+source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 6%
+source-wordcount: '289'
+ht-degree: 4%
 
 ---
 
@@ -17,11 +17,23 @@ Auf dieser Seite werden die Verbesserungen beim Reporting in der Vorschau-Umgebu
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2026 verfügbar sind, finden Sie unter [Versionsübersicht für das dritte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+## Benutzerdefinierte Währungsdatenfelder in Dashboard-Berichten der Arbeitsfläche
+
+>[!NOTE]
+>
+>Vorschau: 28. Mai 2026>Produktions-Schnellversion: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+
+Arbeitsflächen-Dashboard-Berichte unterstützen jetzt benutzerdefinierte Währungsdatenfelder als Spalten, Filter, Gruppierungen und Aggregationen, auch wenn im System-Setup mehrere Wechselkurse konfiguriert sind. Wenn ein benutzerdefiniertes Währungsdatenfeld als Spalte oder Aggregation angezeigt wird, konvertieren Sie Werte in die Währung, die im Umschalter Wechselkurs des Dashboards ausgewählt ist, es sei denn, das Feld ist auf Berichtsebene gesperrt.
+
+Berichte, die zuvor nach Hinzufügen einer zweiten Wechselkurswährung mit der Meldung „Eingeschränktes Feld“ fehlgeschlagen sind, werden jetzt gerendert. Felder in der Planungswährung bleiben eingeschränkt, wenn mehrere Wechselkurse definiert werden.
+
+Weitere Informationen finden Sie unter [Verwenden von Währungsfeldern in Arbeitsflächen-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md).
+
 ## Verbesserte Datengenauigkeit in Dashboard-Berichten der Arbeitsfläche
 
 >[!NOTE]
 >
->Vorschau: 14. Mai 2026>Produktions-Schnellveröffentlichung: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 14. Mai 2026>Produktions-Schnellversion: 11. Juni 2026>Produktion für alle: 16. Juli 2026
 >
 >Canvas Dashboards befindet sich derzeit in der Beta-Phase.
 

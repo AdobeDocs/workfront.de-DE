@@ -8,8 +8,8 @@ feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
 source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 4%
+source-wordcount: '1123'
+ht-degree: 6%
 
 ---
 
@@ -119,7 +119,7 @@ Hinzufügen eines Widgets:
        Zeigt alle ausstehenden Anfragen für Teams an, in denen Sie Mitglied sind, sortiert nach Team. Außerdem gibt es Schaltflächen, um eine Anfrage direkt einer Benutzerin oder einem Benutzer zuzuweisen oder sie selbst zu bearbeiten.
 
    * **Meine Genehmigungen**\
-       Zeigt alle ausstehenden zugewiesenen oder delegierten Genehmigungen, eine Schaltfläche zum Delegieren von Genehmigungen und Schaltflächen zum Treffen von Genehmigungsentscheidungen direkt im Widget an. Genehmigungen werden wie folgt geordnet:
+       Zeigt alle ausstehenden zugewiesenen oder delegierten Genehmigungen an, sowie eine Schaltfläche zum Delegieren von Genehmigungen und eine Schaltfläche zum Treffen von Genehmigungsentscheidungen direkt im Widget. Genehmigungen werden wie folgt geordnet:
       * Überfällige Fristen
       * Bevorstehende Fristen
       * Elemente ohne Frist

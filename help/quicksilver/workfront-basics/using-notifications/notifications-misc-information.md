@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
 source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: '928'
 ht-degree: 0%
 
 ---

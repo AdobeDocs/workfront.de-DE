@@ -1,6 +1,6 @@
 ---
-title: Versionsüberblick für das vierte Quartal 2023
-description: Versionsüberblick für das vierte Quartal 2023
+title: Versionsübersicht 4. Quartal 2023
+description: Versionsübersicht 4. Quartal 2023
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -9,12 +9,12 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '2773'
-ht-degree: 10%
+source-wordcount: '2909'
+ht-degree: 6%
 
 ---
 
-# Versionsüberblick für das vierte Quartal 2023
+# Versionsübersicht 4. Quartal 2023
 
 Diese Seite enthält Informationen zur Funktionalität, die in der Version vom vierten Quartal 2023 enthalten ist. Diese Verbesserungen sollen ab Version 23.10 vom 26. bis 27. Oktober 2023 in der Produktionsumgebung für alle Kunden verfügbar sein.
 
@@ -82,10 +82,10 @@ Das Webinar zur Version 23.10 von wurde am 5. Oktober 2023 veröffentlicht. Sie 
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Freitag, 12. Oktober 2023</p>
+                                <p>Vorschau der Version: 12. Oktober 2023</p>
                             </li>
                             <li>
-                                <p><span class="preview">Produktion für alle: Freitag, 12. Oktober 2023</span></p>
+                                <p><span class="preview">Produktion für alle Kunden: 12. Oktober 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -98,7 +98,7 @@ Das Webinar zur Version 23.10 von wurde am 5. Oktober 2023 veröffentlicht. Sie 
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Freitag, 5. Oktober 2023</p>
+                                <p>Vorschau der Version: 5. Oktober 2023</p>
                             </li>
                             <li>
                                 <p>Produktion für die schnelle Veröffentlichung: Mit der Version 23.10</p>
@@ -118,7 +118,7 @@ Das Webinar zur Version 23.10 von wurde am 5. Oktober 2023 veröffentlicht. Sie 
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Freitag, 14. September 2023</p>
+                                <p>Vorschau der Version: 14. September 2023</p>
                             </li>
                             <li>
                                 <p>Produktion für die schnelle Veröffentlichung: Mit der Version 23.9</p>
@@ -155,7 +155,7 @@ Das Webinar zur Version 23.10 von wurde am 5. Oktober 2023 veröffentlicht. Sie 
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Freitag, 12. Oktober 2023</p>
+                                <p>Vorschau der Version: 12. Oktober 2023</p>
                             </li>
                             <li>
                                 <p>Pinnwände für frühzeitigen Zugriff: Nicht zutreffend</p>
@@ -176,7 +176,7 @@ Das Webinar zur Version 23.10 von wurde am 5. Oktober 2023 veröffentlicht. Sie 
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Dienstag, 21. August 2023</p>
+                                <p>Vorschau-Version: 21. August 2023</p>
                             </li>
                             <li>
                                 <p><span class="preview">Produktion für alle Kunden: 24. August 2023</span>
@@ -191,7 +191,7 @@ Das Webinar zur Version 23.10 von wurde am 5. Oktober 2023 veröffentlicht. Sie 
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Dienstag, 21. August 2023</p>
+                                <p>Vorschau-Version: 21. August 2023</p>
                             </li>
                             <li>
                                 <p>Produktion für Pinnwände Vorzeitiger Zugriff: 24. August 2023</p>
@@ -212,7 +212,7 @@ Das Webinar zur Version 23.10 von wurde am 5. Oktober 2023 veröffentlicht. Sie 
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Freitag, 3. August 2023</p>
+                                <p>Vorschau der Version: 3. August 2023</p>
                             </li>
                             <li>
                                 <p>Produktion für Pinnwände Vorzeitiger Zugriff: 10. August 2023</p>
@@ -233,7 +233,7 @@ Das Webinar zur Version 23.10 von wurde am 5. Oktober 2023 veröffentlicht. Sie 
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Freitag, 3. August 2023</p>
+                                <p>Vorschau der Version: 3. August 2023</p>
                             </li>
                             <li>
                                 <p>Pinnwände für frühzeitigen Zugriff: Nicht zutreffend</p>
@@ -274,7 +274,7 @@ Das Webinar zur Version 23.10 von wurde am 5. Oktober 2023 veröffentlicht. Sie 
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Freitag, 29. Juni 2023</p>
+                                <p>Vorschau der Version: 29. Juni 2023</p>
                             </li>
                             <li>
                                 <p>Produktion für die schnelle Veröffentlichung: Mit der Version 23.10</p>
@@ -312,7 +312,7 @@ Das Webinar zur Version 23.10 von wurde am 5. Oktober 2023 veröffentlicht. Sie 
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Freitag, 12. Oktober 2023</p>
+                                <p>Vorschau der Version: 12. Oktober 2023</p>
                             </li>
                             <li>
                                 <p>Produktion für die schnelle Veröffentlichung: Mit der Version 23.10</p>
@@ -331,7 +331,7 @@ Das Webinar zur Version 23.10 von wurde am 5. Oktober 2023 veröffentlicht. Sie 
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Freitag, 12. Oktober 2023</p>
+                                <p>Vorschau der Version: 12. Oktober 2023</p>
                             </li>
                             <li>
                                 <p>Produktion für die schnelle Veröffentlichung: Mit der Version 23.10</p>
@@ -350,7 +350,7 @@ Das Webinar zur Version 23.10 von wurde am 5. Oktober 2023 veröffentlicht. Sie 
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Freitag, 12. Oktober 2023</p>
+                                <p>Vorschau der Version: 12. Oktober 2023</p>
                             </li>
                             <li>
                                 <p>Produktion für die schnelle Veröffentlichung: Mit der Version 23.10</p>
@@ -370,7 +370,7 @@ Das Webinar zur Version 23.10 von wurde am 5. Oktober 2023 veröffentlicht. Sie 
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Donnerstag, 13. September 2023<br /></p>
+                                <p>Vorschau der Version: 13. September 2023<br /></p>
                             </li>
                             <li>
                                 <p>Produktion für die schnelle Veröffentlichung: Mit der Version 23.9</p>
@@ -390,7 +390,7 @@ Das Webinar zur Version 23.10 von wurde am 5. Oktober 2023 veröffentlicht. Sie 
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Donnerstag, 13. September 2023<br /></p>
+                                <p>Vorschau der Version: 13. September 2023<br /></p>
                             </li>
                             <li>
                                 <p>Produktion für die schnelle Veröffentlichung: Mit der Version 23.9</p>
@@ -410,7 +410,7 @@ Das Webinar zur Version 23.10 von wurde am 5. Oktober 2023 veröffentlicht. Sie 
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Freitag, 17. August 2023<br /></p>
+                                <p>Vorschau-Version: 17. August 2023<br /></p>
                             </li>
                             <li>
                                 <p>Produktion für die schnelle Veröffentlichung: Mit der Version 23.8</p>
@@ -429,10 +429,10 @@ Das Webinar zur Version 23.10 von wurde am 5. Oktober 2023 veröffentlicht. Sie 
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Freitag, 17. August 2023<br /></p>
+                                <p>Vorschau-Version: 17. August 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Produktion für alle: Freitag, 31. August 2023</span></p>
+                                <p><span class="preview">Produktion für alle Kunden: 31. August 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -446,7 +446,7 @@ Das Webinar zur Version 23.10 von wurde am 5. Oktober 2023 veröffentlicht. Sie 
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Freitag, 17. August 2023<br /></p>
+                                <p>Vorschau-Version: 17. August 2023<br /></p>
                             </li>
                             <li>
                                 <p>Produktion für die schnelle Veröffentlichung: Mit der Version 23.8</p>
@@ -466,7 +466,7 @@ Das Webinar zur Version 23.10 von wurde am 5. Oktober 2023 veröffentlicht. Sie 
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Freitag, 17. August 2023<br /></p>
+                                <p>Vorschau-Version: 17. August 2023<br /></p>
                             </li>
                             <li>
                                 <p>Produktion für die Schnellveröffentlichung: 17. August 2023</p>
@@ -503,10 +503,10 @@ Das Webinar zur Version 23.10 von wurde am 5. Oktober 2023 veröffentlicht. Sie 
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Freitag, 24. August 2023<br /></p>
+                                <p>Vorschau der Version: 24. August 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Produktion für alle: Freitag, 31. August 2023</span></p>
+                                <p><span class="preview">Produktion für alle Kunden: 31. August 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -518,7 +518,7 @@ Das Webinar zur Version 23.10 von wurde am 5. Oktober 2023 veröffentlicht. Sie 
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Freitag, 24. August 2023<br /></p>
+                                <p>Vorschau der Version: 24. August 2023<br /></p>
                             </li>
                             <li>
                                 <p><span class="preview">Produktion für alle Kunden: Nach der Version 23.10</span></p>
@@ -553,7 +553,7 @@ Das Webinar zur Version 23.10 von wurde am 5. Oktober 2023 veröffentlicht. Sie 
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Freitag, 12. Oktober 2023<br /></p>
+                                <p>Vorschau der Version: 12. Oktober 2023<br /></p>
                             </li>
                             <li>
                                 <p>Produktion für die schnelle Veröffentlichung: Mit der Version 23.10</p>
@@ -592,7 +592,7 @@ Das Webinar zur Version 23.10 von wurde am 5. Oktober 2023 veröffentlicht. Sie 
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Donnerstag, 26. Juli 2023<br /></p>
+                                <p>Vorschau der Version: 26. Juli 2023<br /></p>
                             </li>
                             <li>
                                 <p>Produktion für die schnelle Veröffentlichung: Mit der Version 23.8</p>
@@ -612,7 +612,7 @@ Das Webinar zur Version 23.10 von wurde am 5. Oktober 2023 veröffentlicht. Sie 
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Freitag, 17. August 2023<br /></p>
+                                <p>Vorschau-Version: 17. August 2023<br /></p>
                             </li>
                             <li>
                                 <p>Produktion für die schnelle Veröffentlichung: Mit der Version 23.8</p>
@@ -632,7 +632,7 @@ Das Webinar zur Version 23.10 von wurde am 5. Oktober 2023 veröffentlicht. Sie 
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Freitag, 17. August 2023<br /></p>
+                                <p>Vorschau-Version: 17. August 2023<br /></p>
                             </li>
                             <li>
                                 <p>Produktion für die schnelle Veröffentlichung: Mit der Version 23.8</p>
@@ -670,7 +670,7 @@ Das Webinar zur Version 23.10 von wurde am 5. Oktober 2023 veröffentlicht. Sie 
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>
                             <li>
-                                <p>Geplante Veröffentlichung: Freitag, 12. Oktober 2023</p>
+                                <p>Vorschau der Version: 12. Oktober 2023</p>
                             </li>
                             <li>
                                 <p>Produktion für die schnelle Veröffentlichung: Mit der Version 23.10</p>
@@ -757,11 +757,11 @@ Es gibt derzeit keine Workfront Proof-Updates in der Version. Dieser Bereich wir
 
 Es gibt derzeit keine Updates zu Workfront Goals in der Version. Dieser Bereich wird aktualisiert, sobald Aktualisierungen verfügbar sind.
 
-### API-Version 17
+### API-Version 17
 
-API-Version 17 wurde am 12. Oktober 2023 veröffentlicht. Für die API-Version 17 haben wir einige Ressourcen und Endpunkte geändert. Einige der Änderungen unterstützen neue Funktionen, andere erleichtern Ihnen die Verwendung der über die API verfügbaren Informationen.
+API-Version 17 wurde am 12. Oktober 2023 veröffentlicht. Für API-Version 17 haben wir einige Ressourcen und Endpunkte geändert. Einige der Änderungen unterstützen neue Funktionen, andere erleichtern Ihnen die Verwendung der über die API verfügbaren Informationen.
 
-Informationen zu neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in der API-Version 17](/help/quicksilver/wf-api/api/new-api-version-17.md).
+Informationen zu neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in der API-Version 17](/help/quicksilver/wf-api/api/new-api-version-17.md).
 
 Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Zeitplan](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
@@ -785,7 +785,7 @@ Beachten Sie, dass für die Mobile App von Workfront eine Workfront-Anmeldung er
 
 #### Arbeitsabläufe für Konten entfernt, die sie nicht verwenden
 
-Für Konten, die noch nie einen Arbeitsablauf in Adobe Workfront-Boards erstellt haben, wurde der Bereich Arbeitsströme ab dem 11. Oktober 2023 aus dem Dashboard Boards entfernt. Konten, die Workflows verwenden, haben weiterhin Zugriff darauf. Erweiterte Scrum-Funktionen werden in zukünftigen Versionen behandelt.
+Für Konten, die noch nie einen Arbeitsablauf in Adobe Workfront-Boards erstellt haben, wurde der Bereich Arbeitsströme ab dem 11. Oktober 2023 aus dem Dashboard Boards entfernt. Konten, die Arbeitsabläufe verwenden, haben weiterhin Zugriff darauf. Erweiterte Scrum-Funktionen werden in zukünftigen Versionen behandelt.
 
 <!--
  HTML you might need

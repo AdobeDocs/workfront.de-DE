@@ -30,11 +30,11 @@ Die E-Mail repliziert die Benachrichtigungs-E-Mail, die ursprünglich gesendet w
    Diese Option variiert je nachdem, ob Sie einen Benutzer, Gast oder ein Mitglied kontaktieren.
 1. Öffnen Sie auf der angezeigten Seite den Abschnitt **[!UICONTROL Freigegebene Elemente]** .
 1. Aktivieren Sie das Kontrollkästchen für die Elemente, an die Sie diesen Reviewer erinnern möchten.\
-   Oder\
+   ODER\
    Wenn Sie sie an alle Korrekturabzüge erinnern möchten, aktivieren Sie das Kontrollkästchen über der Liste.
 
 1. Klicken Sie auf **[!UICONTROL Mehr]** > **[!UICONTROL Nachricht.]**
 
-1. Geben Sie im angezeigten **&#x200B;**&#x200B;Nachricht senden die Werte **[!UICONTROL Titel]** und **[!UICONTROL Nachricht] ein** klicken Sie dann auf **[!UICONTROL Senden].**&#x200B; Der Kontakt erhält in einer einzigen E-Mail eine E-Mail mit Informationen und persönlichen Links zu allen Korrekturabzügen.
+1. Geben Sie im angezeigten ]****[!UICONTROL  Nachricht senden einen **[!UICONTROL Titel]** und **[!UICONTROL Nachricht] ein,** klicken Sie dann auf **[!UICONTROL Senden].**&#x200B;Der Kontakt erhält in einer einzigen E-Mail eine E-Mail mit Informationen und persönlichen Links für alle Testsendungen.
 
 

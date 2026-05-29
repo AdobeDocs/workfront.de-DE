@@ -8,9 +8,9 @@ author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 69414cbbee8899bdbf241d57e50e3ef1c10cc162
+source-git-commit: 12552dfefc58a664c278598496097f1b30d3cf0e
 workflow-type: tm+mt
-source-wordcount: '3546'
+source-wordcount: '3585'
 ht-degree: 2%
 
 ---
@@ -96,7 +96,7 @@ Sie können Folgendes verbinden:
    <p> Zusätzlich zu Adobe Workfront müssen Sie über Folgendes verfügen, wenn Sie Datensätze mit Objekten aus den folgenden Programmen verbinden möchten:</p>
    <ul><li><p>Eine Adobe Experience Manager-Lizenz und eine Integration zwischen Adobe Experience Manager und Workfront, um AEM-Assets oder -Inhaltsfragmente mit Planungs-Datensatztypen zu verbinden.</p>
    <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront für Experience Manager Assets und Assets Essentials: Artikelindex</a>. </p></li>
-   <li><p> Eine Adobe GenStudio for Performance Marketing-Lizenz zum Verbinden von Datensatztypen mit GenStudio Brands</p>
+   <li><p> Eine Adobe GenStudio for Performance Marketing-Lizenz für die Verbindung von Datensatztypen mit GenStudio Brands oder für den Zugriff auf GenStudio Workspace</p>
    <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr>   
@@ -408,12 +408,13 @@ Nachdem Sie eine Verbindung zwischen einem Datensatztyp und Adobe Experience Man
 >[!NOTE]
 >
 >Auf Planungsdatensätze und deren Felder kann über Experience Manager Assets zugegriffen werden, wenn Ihr Workfront-Administrator die Metadatenzuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter &quot;[&#x200B; der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+>Wenn Sie in Planning Datensätze aus dem GenStudio-Arbeitsbereich mit AEM-Objekten (Assets und Inhaltsfragmenten) verbinden, werden die GenStudio-Informationen automatisch für die AEM-Objekte in AEM angezeigt. AEM-Informationen werden für GenStudio-Datensätze in den Suchfeldern angezeigt, die hinzugefügt werden, wenn die Verbindung in Workfront Planning hergestellt wird. Weitere Informationen finden Sie unter [Verwalten des GenStudio-Arbeitsbereichs in Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md).
 
 <!--
 metadata mapping is not available yet for content fragments - as of April 22, 2026. Syuzanna said the mapping is available just for GenS workspace, but checking again with her and Isk.
 -->
 
-Verbinden von Datensätzen mit Experience Manager-Objekten:
+Verbinden von Datensätzen mit Adobe Experience Manager-Objekten:
 
 {{step1-to-planning}}
 
@@ -424,7 +425,7 @@ Verbinden von Datensätzen mit Experience Manager-Objekten:
 1. Wählen Sie **Tabellenansicht** aus dem Dropdown **Menü „Ansicht** in der linken oberen Ecke der Seite „Datensatztyp“ aus.
 
 1. (Optional) Klicken Sie auf **Neuer Datensatz**, um dem ausgewählten Datensatztyp neue Datensätze hinzuzufügen. Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
-1. (Bedingt) Nachdem Sie den ausgewählten Datensatztyp mit Experience Manager-Objekten verbunden haben, wechseln Sie zum verbundenen Feld eines Datensatzes und klicken Sie entweder auf das Feld oder klicken Sie auf **Verbinden**, um dem Datensatz Experience Manager-Objekte hinzuzufügen, und klicken Sie dann auf das Symbol **+**.
+1. (Bedingt) Nachdem Sie den ausgewählten Datensatztyp mit AEM-Objekten verbunden haben, wechseln Sie zum verbundenen Feld eines Datensatzes und klicken Sie entweder auf das Feld oder klicken Sie auf **Verbinden**, um dem Datensatz Experience Manager-Objekte hinzuzufügen, und klicken Sie dann auf das Symbol **+**.
 
    >[!TIP]
    >
@@ -465,13 +466,19 @@ Verbinden von Datensätzen mit Experience Manager-Objekten:
    * Die ausgewählten Experience Manager-Assets oder Inhaltsfragmente werden dem verknüpften Datensatzfeld hinzugefügt.
    * Die verknüpften Felder (oder Lookup-Felder) werden mit Informationen aus den mit Experience Manager verbundenen Objekten gefüllt.
 
-     Vorhandene Informationen aus den Feldern der Experience Manager-Assets oder -Inhaltsfragmente werden automatisch in den verknüpften Feldern oder den Suchfeldern angezeigt. <!--verifying of fragments also share lookup fields - not sure from the UI available-->
-
      >[!TIP]
      >
      >* Wenn Sie beim Verbinden der Datensatztypen auswählen, dass mehrere Datensätze verbunden werden sollen, werden die Werte der verschiedenen Objekte entweder durch Kommas getrennt oder entsprechend dem gewählten Aggregator aggregiert angezeigt.
      >
      >* Für die verknüpften Experience Manager-Assets in der Experience Manager Assets-Anwendung wird kein verknüpftes Datensatzfeld mit den verknüpften Workfront Planning-Datensätzen erstellt.
+
+     Vorhandene Informationen aus den Feldern der Experience Manager-Assets oder -Inhaltsfragmente werden automatisch in den verknüpften Feldern oder in den Suchfeldern angezeigt, die zu Planning hinzugefügt wurden.
+
+     Wenn Sie GenStudio for Performance Marketing-Datensatztypen aus dem GenStudio-Arbeitsbereich in Planning mit AEM-Objekten verbinden, können Sie GenStudio-Informationen für Kampagnen, Regionen, Personas, Produkte und Kanäle in AEM anzeigen.
+
+     Sie müssen über eine Adobe GenStudio for Performance Marketing-Lizenz zusätzlich zu einer AEM- und einer Workfront Planning-Lizenz verfügen, um den GenStudio Workspace in Workfront Planning anzeigen zu können.
+
+     Weitere Informationen finden Sie unter [Verwalten des GenStudio-Arbeitsbereichs in Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
 
 1. (Optional und bedingt) Wechseln Sie zu dem Datensatztyp, von dem aus Sie eine Verknüpfung mit Experience Manager hergestellt haben, und klicken Sie auf den Namen eines Assets im Feld Verknüpfter Datensatz . Die Experience Manager-Details des Assets werden in einem Popup-Fenster angezeigt. <!--not sure if this is also possible for fragments??-->
 

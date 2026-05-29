@@ -1,6 +1,6 @@
 ---
-title: 22.4 Weitere Verbesserungen
-description: 22.4 Weitere Verbesserungen
+title: Weitere Verbesserungen in Version 22.4
+description: Weitere Verbesserungen in Version 22.4
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -8,16 +8,16 @@ recommendations: noDisplay, noCatalog
 exl-id: 4e41eed3-1a3b-4247-8c0c-630efc9c1b69
 source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 0%
+source-wordcount: '608'
+ht-degree: 1%
 
 ---
 
-# 22.4 Weitere Verbesserungen
+# Weitere Verbesserungen in Version 22.4
 
 Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 22.4 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 3. Oktober 2022 zur Verfügung gestellt.
 
-Eine Liste aller in Version 22.4 verfügbaren Änderungen finden Sie in der Übersicht über [&#x200B; Version 22.4 &#x200B;](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Eine Liste aller in Version 22.4 verfügbaren Änderungen finden Sie in der Übersicht über [ Version 22.4 ](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
 ## Adobe Workfront für InDesign
 
@@ -27,7 +27,7 @@ Weitere Informationen über das Plug-in finden Sie unter [[!DNL Adobe Workfront]
 
 [Laden Sie Adobe Workfront für InDesign noch heute auf den Markt](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-indesign).
 
-Administratoren können [&#x200B; Admin Console auch ein Paket mit den Plug](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html)ins erstellen und es Benutzern entweder auf verwaltete oder selbst verwaltete Weise bereitstellen.
+Administratoren können [ Admin Console auch ein Paket mit den Plug](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html)ins erstellen und es Benutzern entweder auf verwaltete oder selbst verwaltete Weise bereitstellen.
 
 ## Synchronisieren von Objektmetadaten mit der nativen Experience Manager Assets-Integration
 

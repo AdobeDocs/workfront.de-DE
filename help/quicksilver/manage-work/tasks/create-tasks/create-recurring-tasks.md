@@ -11,7 +11,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '895'
 ht-degree: 4%
 
 ---
@@ -143,8 +143,8 @@ Old:
       <td role="rowheader"><strong>Month</strong> </td> 
       <td> <p>Die Aufgabe wird monatlich, alle 2 Monate, alle 3 Monate usw. wiederholt, je nach ausgewählter Kadenz. Sie können zwischen 1 und 12 Monaten wählen. </p> <p>Wählen <strong> im Feld „Wiederholungen</strong> eine der folgenden Optionen aus, wenn die Aufgabe ausgeführt werden soll:</p> 
        <ul> 
-        <li> <p><strong>Jeden Monat an Tag &lt;Monatsdatum&gt;&lt;PH ID='33'/&gt;</strong> </p> <p>Sie können Tage von 1 bis 30 auswählen oder "<strong>" </strong>. Sie können beispielsweise „Jeden Monat am 30.“ auswählen. </p> </li> 
-        <li> <p><strong>Jeden Monat am &lt;number&gt; &lt;day of the week&gt;</strong> </p> <p>Im ersten Dropdown-Menü können Sie eine Zahl zwischen 1 und 4 für die Zahl der Woche im Monat auswählen oder Sie können „Letzte“ auswählen. </p> <p>Im zweiten Dropdown-Menü können Sie einen beliebigen Wochentag auswählen. </p> <p>Sie können beispielsweise „Jeden Monat am 2. Dienstag“ auswählen. </p> </li> 
+        <li> <p><strong>Jeden Monat an Tag &lt;Monatsdatum&gt;</strong> </p> <p>Sie können Tage von 1 bis 30 auswählen oder "<strong>" </strong>. Sie können beispielsweise „Jeden Monat am 30.“ auswählen. </p> </li> 
+        <li> <p><strong>Jeden Monat am &lt;number&gt; &lt;Tag der Woche&gt;</strong> </p> <p>Im ersten Dropdown-Menü können Sie eine Zahl zwischen 1 und 4 für die Zahl der Woche im Monat auswählen oder Sie können „Letzte“ auswählen. </p> <p>Im zweiten Dropdown-Menü können Sie einen beliebigen Wochentag auswählen. </p> <p>Sie können beispielsweise „Jeden Monat am 2. Dienstag“ auswählen. </p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 

@@ -45,7 +45,7 @@ E-Mail-Vorlagen können mit Erinnerungsbenachrichtigungen für Probleme, Aufgabe
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-   <p>Plan</p>
+   <p>Abo</p>
    </td> 
   </tr> 
   <tr> 

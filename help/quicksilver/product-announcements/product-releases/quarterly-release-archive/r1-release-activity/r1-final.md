@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: R1 Endgültig
+title: R1-Endversion
 description: Versionsaktivität 2018.3
 author: Luke
 feature: Product Announcements
@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 38974e97-dea3-4c9e-bc32-bd55665370c7
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1195'
 ht-degree: 0%
 
 ---
 
-# R1 Endgültig
+# R1-Endversion
 
 Die folgenden Funktionen sind derzeit weder in der Vorschau noch in Beta verfügbar, werden jedoch in der Produktionsumgebung in R1 freigegeben:
 
@@ -50,7 +50,7 @@ Wenn Sie eine neue Version des Dokuments hinzugefügt haben, wurde der Korrektur
 
 Wenn Sie das Menü Weitere Dokumente verwenden, um eine neue Version hochzuladen, wird nicht automatisch ein Korrekturabzug generiert.
 
-Weitere Informationen finden Sie in der  Abschnitt in
+Weitere Informationen finden Sie im Abschnitt unter
 
 ## Ermöglichen Sie allen Proofing-Benutzern den direkten Zugriff auf ProofHQ über die Workfront-Benutzeroberfläche (Workfront)
 
@@ -58,7 +58,7 @@ Jetzt können Sie allen Proofing-Benutzern in Ihrem System nahtlosen Zugriff auf
 
 Diese Option ist nicht standardmäßig aktiviert. Um diese Option zu aktivieren, wenden Sie sich an den technischen Support von Workfront und fordern Sie diesen Zugriff für alle Proofing-Benutzer in Ihrem System an.
 
-Weitere Informationen finden Sie unter [Zugriff auf Workfront Proof über Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md) in  [Zugriff auf Workfront Proof über Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
+Weitere Informationen finden Sie unter [Zugriff auf Workfront Proof von Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md) in [Zugriff auf Workfront Proof von Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
 
 Vor dieser Änderung konnte nur der Workfront-Administrator über die Workfront-Benutzeroberfläche direkten Zugriff auf die ProofHQ-Site haben.
 
@@ -106,7 +106,7 @@ Weitere Informationen zur Mobile App finden Sie unter .
 
 Sie können jetzt Suchvorgänge in PDF-Dokumenten, Office-Dokumenten und statischen Web-Seiten durchführen.
 
-Weitere Informationen finden Sie unter  [Durchsuchen von Inhalten in einem Korrekturabzug](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md).
+Weitere Informationen finden Sie unter [Durchsuchen von Inhalten in einem Korrekturabzug](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md).
 
 ## Aktualisierte globale Navigationsleiste (ProofHQ)
 

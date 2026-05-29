@@ -3,19 +3,19 @@ content-type: faq
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: faqs-workfront-proof
-title: Häufig gestellte Fragen - Testsendungen überprüfen
+title: 'Häufig gestellte Fragen: Überprüfen von Korrekturabzügen'
 description: Gastreviewer, die nicht über eigene Anmeldungen bei ProofHQ verfügen, greifen über den Link [!UICONTROL Zum Korrekturabzug gehen] in den empfangenen E-Mails auf ihre Korrekturabzüge zu. Benutzer können über die E-Mails auf ihre Korrekturabzüge zugreifen und auch ihr Dashboard im Konto verwenden. Über die Dashboard-Ansicht können sie sich eine Liste der Korrekturabzüge ansehen, für die ihre Entscheidung erforderlich ist, und mit einem Klick auf das blaue Symbol [!UICONTROL Zum Korrekturabzug gehen] zugreifen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d8bcddf8-0586-4263-8445-26615fdf07f7
 source-git-commit: d5ffd576fcedf9b10dce5e5d5bd9245dd7f67ef8
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
 
-# Häufig gestellte Fragen - Testsendungen überprüfen
+# Häufig gestellte Fragen: Überprüfen von Korrekturabzügen
 
 >[!IMPORTANT]
 >
@@ -59,7 +59,7 @@ Mit dem in der [!UICONTROL Korrekturabzugsansicht“ verfügbaren Textanmerkungs
 
 * Hervorheben - Markiert den Text und kopiert ihn in das Kommentarfeld
 * replace - Kopiert den Text und fügt [[!UICONTROL REPLACE]] und [[!UICONTROL WITH]] in das Kommentarfeld ein, damit Sie leicht Ersatztext vorschlagen können
-* Löschen - Durchgestrichen und [[!UICONTROL DELETE &#x200B;]] in das Kommentarfeld eingefügt
+* Löschen - Durchgestrichen und [[!UICONTROL DELETE]] in das Kommentarfeld eingefügt
 * Einfügen nach : ermöglicht es Ihnen, einfach Text vorzuschlagen, der nach dem hervorgehobenen Satz eingefügt werden muss
 
 Wenn der Text, den Sie verwenden möchten, in einem separaten Dokument gespeichert wird, können Sie die Tastaturbefehle (Strg+C und Strg+V auf einem PC, Befehl+C und Befehl+V auf einem [!DNL Mac]) verwenden, um ihn zu kopieren und in das Feld [!UICONTROL Kommentar] einzufügen.

@@ -9,8 +9,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: c4ca7a87-cacc-4b9b-aa9b-d7022ef9e267
 source-git-commit: 178fcf680fbf97e3fa634182f161ba3c73439fe5
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 0%
+source-wordcount: '562'
+ht-degree: 1%
 
 ---
 
@@ -49,4 +49,4 @@ Rechnungsadministratoren, Administratoren, Supervisoren und Manager können Date
    Sie können auf **[!UICONTROL Benutzerdefinierte Nachricht hinzufügen]** klicken, um eine Nachricht einzugeben, die in die E-Mail aufgenommen werden soll.\
    Der E-Mail-Warnhinweis enthält eine persönliche URL, über die der Benutzer zu einer Seite gelangt, auf der er die Datei herunterladen kann.
 
-1. Klicken Sie auf **[!UICONTROL Freigeben]**.
+1. Klicken Sie auf **[!UICONTROL Freigabe]**.

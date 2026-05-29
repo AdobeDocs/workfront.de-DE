@@ -3,7 +3,7 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Verwalten von Korrekturabzugsversionen in [!DNL Workfront Proof]
-description: Das Verwalten des Feedbacks über mehrere Versionen oder Revisionen eines Arbeitsstücks kann eine große Herausforderung sein. [!DNL Workfront Proof] vereinfacht diesen Prozess, da Sie mehrere Versionen eines Korrekturabzugs erstellen und vergleichen können.
+description: Das Verwalten des Feedbacks über mehrere Versionen oder Revisionen eines Arbeitsstücks kann eine große Herausforderung sein. [!DNL Workfront Proof] vereinfacht diesen Prozess, indem es Ihnen ermöglicht, mehrere Versionen eines Korrekturabzugs zu erstellen und zu vergleichen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d1bee64d-c091-40d3-a9c1-847c7f645b96

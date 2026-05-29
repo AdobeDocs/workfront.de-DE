@@ -1,19 +1,19 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 'Benachrichtigungen: Informationen zu meiner Arbeit'
+title: 'Benachrichtigungen: Informationen über mir zugewiesene Arbeit'
 description: Die folgenden Benachrichtigungen informieren Sie über Aktivitäten, die in einem Ihnen zugewiesenen Arbeitselement stattfinden.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 5d7fdee8-cb5c-4ab8-bec3-beff9851b8f6
 source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
-source-wordcount: '2088'
-ht-degree: 1%
+source-wordcount: '2016'
+ht-degree: 2%
 
 ---
 
-# Benachrichtigungen: Informationen zu meiner Arbeit
+# Benachrichtigungen: Informationen über mir zugewiesene Arbeit
 
 Die folgenden Benachrichtigungen informieren Sie über Aktivitäten, die in einem Ihnen zugewiesenen Arbeitselement stattfinden.
 

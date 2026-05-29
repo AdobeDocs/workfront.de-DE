@@ -43,12 +43,12 @@ Suchen Sie die Ihnen zugewiesene Arbeit in [!DNL Adobe Workfront], ohne die folg
   -->
   <tr> 
    <td role="rowheader">Zusätzliche Produkte</td> 
-   <td>Sie müssen zusätzlich zu einer [!DNL Adobe Creative Cloud] über eine [!DNL Workfront]-Lizenz verfügen.</td> 
+   <td>Sie müssen zusätzlich zu einer [!DNL Workfront] über eine [!DNL Adobe Creative Cloud]-Lizenz verfügen.</td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

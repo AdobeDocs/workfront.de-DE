@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
 source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
 workflow-type: tm+mt
-source-wordcount: '2112'
-ht-degree: 0%
+source-wordcount: '2204'
+ht-degree: 2%
 
 ---
 
-# Versionsaktivität für Adobe Workfront Planning im ersten Quartal 2025
+# Veröffentlichungen für Adobe Workfront-Planung im ersten Quartal 2025
 
 In diesem Artikel werden die Funktionen beschrieben, die in der ersten Version des Quartals 2025 für Workfront Planning veröffentlicht werden.
 
@@ -28,7 +28,7 @@ Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen find
 >
 >Vorschau-Version: 20. Dezember 2024; Produktionsversion für alle Kunden: 16. Januar 2025
 
-In Workfront Planning können Sie jetzt Verbindungsfelder mit AEM-Assets zu einem Datensatztyp-Anfrageformular hinzufügen.
+Sie können jetzt in Workfront Planning Verbindungsfelder mit AEM-Assets zu einem Datensatztyp-Anfrageformular hinzufügen.
 
 Vor dieser Verbesserung konnten diese Feldtypen nicht zu Anfrageformularen hinzugefügt werden.
 
@@ -65,7 +65,7 @@ Nachdem Sie eine Anfrage in Workfront Planning gesendet haben, erhalten Sie jetz
 
 Informationen zum Senden oder Genehmigen von Anfragen finden Sie in den folgenden Artikeln:
 
-* [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md)
+* [Senden von Anfragen zum Erstellen von Einträgen in Adobe Workfront-Planung](/help/quicksilver/planning/requests/submit-requests.md)
 
 * [Genehmigen einer Anfrage in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).
 
@@ -201,7 +201,7 @@ Jetzt können Datensätze wöchentlich in der Kalenderansicht angezeigt werden. 
 
 Weitere Informationen finden Sie unter [Verwalten der Kalenderansicht](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
-## Gelöschte Einträge wiederherstellen
+## Wiederherstellen gelöschter Einträge
 
 >[!NOTE]
 >
@@ -215,13 +215,13 @@ Vor dieser Verbesserung konnten gelöschte Datensätze nicht wiederhergestellt w
 
 Weitere Informationen finden Sie unter [Wiederherstellen gelöschter Datensätze](/help/quicksilver/planning/records/records-information.md).
 
-## Adobe-KI-Assistent in den Datensatzdetailbereichen verfügbar
+## Adobe AI-Assistent in den Datensatzdetailbereichen verfügbar
 
 >[!NOTE]
 >
 >Vorschau-Version: 21. November 2024; Produktion für die schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
 
-Um Ihnen die Arbeit zu erleichtern, haben wir den Adobe-KI-Assistenten zur Detailvorschau oder Datensatzseite eines Datensatzes hinzugefügt. Sie können den KI-Assistenten innerhalb einer Datensatzseite verwenden, um Informationen über den Datensatz zu aktualisieren.
+Um Ihnen die Arbeit zu erleichtern, haben wir den Adobe AI-Assistenten zur Detailvorschau oder Datensatzseite eines Datensatzes hinzugefügt. Sie können den KI-Assistenten innerhalb einer Datensatzseite verwenden, um Informationen über den Datensatz zu aktualisieren.
 
 Weitere Informationen finden Sie unter [Übersicht über den Adobe Workfront Planning AI-Assistenten](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
 
@@ -235,7 +235,7 @@ Wenn Sie die Vorschau oder Seite eines Datensatzes öffnen und der Datensatz kei
 
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
-* [Hinzufügen eines Cover-Bildes zu einem Datensatz](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
+* [Hinzufügen eines Titelbilds zu einem Eintrag](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
 * [Hinzufügen eines Miniaturbilds zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
 
 ## Neue Anzeigetypen für Felder vom Typ Prozentsatz in der Tabellenansicht
@@ -254,7 +254,7 @@ Dieser Anzeigetyp wird nur in der Tabellenansicht unterstützt.
 
 Vor dieser Verbesserung konnten Sie Prozentwerte nur als Zahlen anzeigen.
 
-Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
+Weitere Informationen finden Sie unter [Erstellen von Feldern](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Verbindungsfelder werden jetzt in Anfrageformularen unterstützt
 
@@ -302,10 +302,10 @@ Um weiterhin Workfront-Objekte mit Workfront Planning-Datensätzen zu verbinden,
 
 * Verbinden Sie Workfront-Planungsdatensätze mit einem Workfront-Objekt und trennen Sie sie.
 
-Sie können das neue Feld für alle Objekttypen zu Formularen hinzufügen. Sie können die Informationen im Feld jedoch nur aus Formularen bearbeiten, die mit den folgenden Workfront-Objekten verbunden sind, die über Workfront Planning-Datensatztypen verbunden werden können: Portfolio, Programm, Projekt, Unternehmen, Gruppe.
+Sie können das neue Feld für alle Objekttypen zu Formularen hinzufügen. Sie können die Informationen im Feld jedoch nur aus Formularen bearbeiten, die mit den folgenden Workfront-Objekten verbunden sind, die über Workfront Planning-Datensatztypen verbunden werden können: Portfolio, Program, Project, Company, Group.
 
 Die Planning-Verbindungsfelder für Workfront-Objekte können noch nicht stapelweise bearbeitet werden.
 
 Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-[Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3435633/){target=_blank}
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an](https://video.tv.adobe.com/v/3435633/){target=_blank}

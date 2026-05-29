@@ -8,7 +8,7 @@ feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
 source-git-commit: e974adc053a076a4370aa0c4ec41fea700d836be
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1282'
 ht-degree: 6%
 
 ---
@@ -86,7 +86,7 @@ Beachten Sie beim Anzeigen oder Bearbeiten von Informationen im Bereich „Finan
      </tr> 
      <tr> 
       <td role="rowheader">CPI/SPI/CSI</td> 
-      <td> <p>Dies sind Projektleistungsmetriken, die zeigen, wie Ihr Projekt zu einem bestimmten Zeitpunkt funktioniert. Die Werte werden anhand der Performance-Index-Methode berechnet.<br>Weitere Informationen finden Sie in den folgenden Artikeln: </p> 
+      <td> <p>Dies sind Projektleistungsmetriken, die zeigen, wie Ihr Projekt zu einem bestimmten Zeitpunkt funktioniert. Die Werte werden anhand der Performance-Index-Methode berechnet<br>Weitere Informationen finden Sie in den folgenden Artikeln: </p> 
        <ul> 
         <li> <p><a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">Kostenentwicklungsindex (Cost Performance Index, CPI) berechnen</a> </p> </li> 
         <li> <p><a href="../../../manage-work/projects/project-finances/calculate-spi.md" class="MCXref xref">Planleistungsindex (SPI)-</a> berechnen </p> </li> 
@@ -95,7 +95,7 @@ Beachten Sie beim Anzeigen oder Bearbeiten von Informationen im Bereich „Finan
      </tr> 
      <tr> 
       <td role="rowheader">Schätzung bei Fertigstellung</td> 
-      <td> Projizierte Gesamtkosten Ihres Projekts in Stunden, wenn die Leistungsindexmethode (PIM) stundenbasiert ist, und in einem Währungswert dargestellt, wenn die Leistungsindexmethode (PIM) kostenbasiert ist.<br>Weitere Informationen zur Berechnung der Schätzung bis zum Abschluss finden Sie im Artikel <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">Berechnung der Schätzung bis zum Abschluss (EAC)</a></td> 
+      <td> Projizierte Gesamtkosten Ihres Projekts, dargestellt in Stunden, wenn die Performance-Index-Methode (PIM) stundenbasiert und in einem Währungswert dargestellt wird, wenn die Performance-Index-Methode (PIM) kostenbasiert ist.<br>Weitere Informationen zur Berechnung der Schätzung bei Abschluss finden Sie im Artikel <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">Kalkulation bei Abschluss (EAC))</a></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Budget</td> 

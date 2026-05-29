@@ -11,8 +11,8 @@ role: Admin
 exl-id: 4f7b6f40-cfbd-4f02-8c3e-de26b05db13b
 source-git-commit: 929502c256011b464d938ad1095c127407e4a795
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 1%
+source-wordcount: '434'
+ht-degree: 6%
 
 ---
 
@@ -28,7 +28,7 @@ Bevor Sie Zeit mit der Fehlerbehebung des Problems verbringen, stellen Sie siche
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,7 +41,7 @@ Bevor Sie Zeit mit der Fehlerbehebung des Problems verbringen, stellen Sie siche
   <tr> 
    <td>[!DNL Adobe Workfront] Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -50,7 +50,7 @@ Bevor Sie Zeit mit der Fehlerbehebung des Problems verbringen, stellen Sie siche
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

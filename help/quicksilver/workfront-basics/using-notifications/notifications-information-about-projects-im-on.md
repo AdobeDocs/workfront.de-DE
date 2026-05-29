@@ -1,19 +1,19 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 'Benachrichtigungen: Informationen zu Projekten, an denen ich mitwirke'
+title: 'Benachrichtigungen: Informationen über Projekte, an denen ich mitwirke'
 description: Die folgenden Benachrichtigungen informieren Sie über Aktivitäten in Projekten, an denen Sie arbeiten.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c4cf84eb-8911-4bff-a548-7f0e6d8aa7b5
 source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
-source-wordcount: '1586'
-ht-degree: 0%
+source-wordcount: '1516'
+ht-degree: 1%
 
 ---
 
-# Benachrichtigungen: Informationen zu Projekten, an denen ich mitwirke
+# Benachrichtigungen: Informationen über Projekte, an denen ich mitwirke
 
 Die folgenden Benachrichtigungen informieren Sie über Aktivitäten in Projekten, an denen Sie arbeiten.
 

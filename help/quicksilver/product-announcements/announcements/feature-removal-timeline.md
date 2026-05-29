@@ -11,7 +11,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '282'
 ht-degree: 6%
 
 ---
@@ -43,7 +43,7 @@ Verschiedene Funktionen werden aus dem Adobe Workfront-Produkt schrittweise entf
   <tr> 
    <td> <p>Ressourcenplanung</p> <p>Workload Balancer bietet ein verbessertes Erlebnis bei der Planung von Ressourcen.</p> <p>Weitere Informationen zum Workload-Balancer finden Sie unter <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md">Übersicht über den Workload-Balancer</a>.</p> </td> 
    <td> </td> 
-   <td> <p>Wird ab dem 9. November 2020 nicht mehr unterstützt (mit Version 20.4)</p> <p>—</p> <p>Aus der Workfront-Plattform nach der ersten Jahreshälfte 2022 entfernt</p> </td> 
+   <td> <p>Wird ab dem 9. November 2020 nicht mehr unterstützt (mit Version 20.4)</p> <p>--</p> <p>Aus der Workfront-Plattform nach der ersten Jahreshälfte 2022 entfernt</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Legacy Workfront Fusion</p> <p>Workfront Fusion bietet ein verbessertes Erlebnis mit dem bisherigen Workfront Fusion-Tool.</p> <p>Weitere Informationen zu Workfront Fusion finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/workfront-fusion/using/home">Adobe Workfront Fusion</a>.</p> </td> 

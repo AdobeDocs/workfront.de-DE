@@ -8,8 +8,8 @@ feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
 source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 0%
+source-wordcount: '1784'
+ht-degree: 4%
 
 ---
 
@@ -21,7 +21,7 @@ Ein automatisierter Workflow erleichtert die Verwaltung des Überprüfungsprozes
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,17 +37,17 @@ Ein automatisierter Workflow erleichtert die Verwaltung des Überprüfungsprozes
    <p>Arbeit oder Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof-Berechtigungsprofil </td> 
+   <td role="rowheader">Korrekturabzug-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p></td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

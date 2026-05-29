@@ -12,7 +12,7 @@ exl-id: 644b9323-c6c3-49bd-8295-b51352992316
 source-git-commit: 86c0517443537ec5af640036c290b3a495825fdc
 workflow-type: tm+mt
 source-wordcount: '116'
-ht-degree: 0%
+ht-degree: 66%
 
 ---
 
@@ -28,6 +28,6 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Hinzufügen erweiterter Proofing-Optionen beim Erstellen eines Korrekturabzugs über die Adobe Workfront-API](../../wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md)
 * [Konfiguration der Optionen für OPTASK copyIssue](../../wf-api/tips-tricks-and-troubleshooting/copyissue-options.md)
 * [Abrufen von Währungsinformationen für ein Projekt, wenn die Währung null ist (nicht zugewiesen)](../../wf-api/tips-tricks-and-troubleshooting/retrieve-currency-when-null.md)
-* [Die Verwendung der -API zum Hinzufügen eines verknüpften Ordners wird nicht unterstützt](../../wf-api/tips-tricks-and-troubleshooting/linked-folders-for-docu-not-supported.md)
-* [Aktion zum Verschieben von Dokumenten funktioniert nicht](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/error-using-movetofolder.md)
+* [Die Verwendung der API zum Hinzufügen eines verknüpften Ordners wird nicht unterstützt](../../wf-api/tips-tricks-and-troubleshooting/linked-folders-for-docu-not-supported.md)
+* [Dokumentaktion „moveToFolder“ funktioniert nicht](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/error-using-movetofolder.md)
 

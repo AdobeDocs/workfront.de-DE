@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Beta-Endspiel 2017.2
+title: 2017.2 Beta-Endversion
 description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit der Version 2017.2 verfügbar waren. Die Funktion auf dieser Seite wurde am 28. Juni 2017 in der Vorschau-Umgebung verfügbar gemacht. Sie wird am 26. Juli 2017 in der Produktionsumgebung bereitgestellt.
 author: Luke
 feature: Product Announcements
@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 768e9aad-d7e7-4a3c-9f93-926cf588ddc7
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '2314'
-ht-degree: 0%
+source-wordcount: '2347'
+ht-degree: 1%
 
 ---
 
-# Beta-Endspiel 2017.2
+# 2017.2 Beta-Endversion
 
 Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit der Version 2017.2 verfügbar waren. Die Funktion auf dieser Seite wurde am 28. Juni 2017 in der Vorschau-Umgebung verfügbar gemacht. Sie wird am 26. Juli 2017 in der Produktionsumgebung bereitgestellt.
 
@@ -123,7 +123,7 @@ Sie können jetzt zusätzlich zum XLSX-Format den Auslastungsbericht für ein Pr
 
 Vor dieser Änderung konnten Sie den Auslastungsbericht nur im XLSX-Format exportieren.
 
-Weitere Informationen zum Exportieren des Auslastungsberichts finden Sie unter [Übersicht über den &#x200B;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) unter [Übersicht über den Ressourcenauslastungsbericht](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Weitere Informationen zum Exportieren des Auslastungsberichts finden Sie unter [Übersicht über den ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) unter [Übersicht über den Ressourcenauslastungsbericht](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Die Korrekturabzugsentscheidung wird im Bereich Meine Arbeit (Workfront) angezeigt {#proof-decision-displays-in-the-my-work-area-workfront}
 
@@ -131,7 +131,7 @@ Wenn Sie jetzt Korrekturabzugsgenehmigungen auf der Registerkarte Meine Genehmig
 
 Vor dieser Änderung gab es keinen Hinweis darauf, dass bereits eine Entscheidung über den Korrekturabzug getroffen wurde. Der Korrekturabzug blieb auf der Registerkarte Meine Genehmigungen , bis Sie den Browser aktualisiert haben.
 
-Weitere Informationen finden Sie unter [Genehmigen von &#x200B;](../../../../review-and-approve-work/manage-approvals/approving-work.md)&quot; in [Genehmigen von &#x200B;](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+Weitere Informationen finden Sie unter [Genehmigen von ](../../../../review-and-approve-work/manage-approvals/approving-work.md)&quot; in [Genehmigen von ](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 
 ## Rich-Media-Korrekturabzüge in voreingestellten Auflösungen anzeigen (ProofHQ und Workfront) {#view-rich-media-proofs-in-preset-resolutions-proofhq-and-workfront}
 
@@ -155,7 +155,7 @@ Weitere Informationen finden Sie unter
 
 ## Ermitteln der Verfügbarkeit des HTML5-Video-Proofing-Viewers (ProofHQ und Workfront) {#determine-the-availability-of-the-html5-video-proofing-viewer-proofhq-and-workfront}
 
-Als Workfront-Administrator in ProofHQ können Sie festlegen, ob Benutzende in Ihrem Unternehmen Zugriff auf den neuen HTML5-Proofing-Viewer für Videoprüfungen haben.
+Als Workfront-Administrator in ProofHQ können Sie festlegen, ob Benutzende in Ihrem Unternehmen Zugriff auf den neuen HTML5 Proofing Viewer für Videoprüfungen haben.
 
 Weitere Informationen zum Konfigurieren dieser Option in Workfront finden Sie unter in .
 
@@ -171,13 +171,13 @@ Weitere Informationen finden Sie unter [Erstellen einer benutzerdefinierten Ansi
 
 Standardmäßig enthalten die auf der Registerkarte Berichte angezeigten Daten alle Informationen aus Ihrem ProofHQ-System. Sie können jetzt Filter verwenden, um nur Informationen anzuzeigen, die für Ihre Anforderungen relevant sind. 
 
-Weitere Informationen finden Sie unter [Filtern von Berichten](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#filtering-reports) in  [Berichte in Workfront Proof &#x200B;](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
+Weitere Informationen finden Sie unter [Berichte filtern](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#filtering-reports) in [Berichte in Workfront Proof ausführen](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
 
 ## Anzeigen der Mindest- und Höchstwerte in Berichten (ProofHQ) {#display-minimum-and-maximum-values-in-reports-proofhq}
 
 Sie können jetzt konfigurieren, ob Mindest- und Höchstwerte im Diagramm angezeigt werden, wenn Berichte angezeigt werden.
 
-Weitere Informationen finden Sie unter [&#x200B; von Berichten &#x200B;](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#viewing-reports) in  [Berichte in Workfront Proof &#x200B;](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
+Weitere Informationen finden Sie unter [Anzeigen von Berichten](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md#viewing-reports) in [Berichte in Workfront Proof ausführen](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/run-reports.md).
 
 ## Unterstützung von SHA-256-Zertifikaten für SAML 2.0 {#support-sha-256-certificates-for-saml-2-0}
 
@@ -212,7 +212,7 @@ In den mobilen Apps werden die folgenden zusätzlichen Funktionen sowohl für di
 
 Für einige dieser Funktionen wird es ein öffentliches Beta-Programm für die Android-Plattform geben.
 
-Weitere Informationen über das bevorstehende Beta-Programm für Mobile-Apps finden Sie unter  [&#x200B; Seite „Betas](https://support.workfront.com/hc/en-us/sections/115000743248).
+Weitere Informationen zum kommenden Beta-Programm für Mobilgeräte finden Sie auf der [ „Betas“](https://support.workfront.com/hc/en-us/sections/115000743248)Seite.
 
 Weitere Informationen zur Verwendung der Mobile App von Workfront finden Sie unter .  
 
@@ -221,7 +221,7 @@ Weitere Informationen zur Verwendung der Mobile App von Workfront finden Sie unt
 Beim Erstellen eines Filters im Textmodus und Filtern nach Feldwerten, die Kommas enthalten, müssen Sie einen Schrägstrich (“/„) vor den Kommas hinzufügen, die die Werte trennen, um sicherzustellen, dass der Wert als eine Filteroption gelesen wird. Dies gilt nur für die folgenden Feldtypen:
 
 * Dropdown-Listen
-* Optionsschaltflächen
+* Optionsfelder
 * Kontrollkästchen
 
 Vor dieser Änderung konnten Sie nicht nach Feldern filtern, die Optionen mit Kommas enthielten.

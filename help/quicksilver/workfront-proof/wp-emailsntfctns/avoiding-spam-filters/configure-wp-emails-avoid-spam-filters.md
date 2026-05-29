@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 1fce3d83-fdce-4ded-8e78-3468243a59e1
 source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Um sicherzustellen, dass Ihre [!DNL Workfront Proof]-E-Mails immer an Ihren Post
 * [!DNL Workfront Proof]-Mailserver: **[!DNL mx.proofhq.com]**
 * [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot;-E-Mail-Adressen (z. B. notification@proofhq.com)
 
-Weitere Informationen zu URLs, die Sie Ihrer Zulassungsliste auf die Zulassungsliste setzte hinzufügen können, finden [&#x200B; unter „Konfigurieren der Firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) im Artikel [Konfigurieren der Firewall-Zulassungsliste &#x200B;](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Weitere Informationen zu URLs, die Sie Ihrer Zulassungsliste hinzufügen können, finden [&#x200B; unter „Konfigurieren der Firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) im Artikel [Konfigurieren der Firewall-Zulassungsliste &#x200B;](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## [!DNL Workfront Proof] E[!UICONTROL Mail]Adressen „Von“
 

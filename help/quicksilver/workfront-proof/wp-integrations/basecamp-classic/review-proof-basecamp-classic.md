@@ -2,15 +2,15 @@
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: basecamp-classic
-title: Testversand in Basecamp Classic überprüfen
+title: Überprüfen eines Korrekturabzugs in Basecamp Classic
 description: Basecamp ist ein Online-Projektmanagement-Tool, das von 37signals entwickelt wurde. Wenn Sie Basecamp für das Projektmanagement verwenden, können Sie Ihrem Projektteam umfangreichere Überprüfungs- und Validierungs-Tools anbieten, indem Sie [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b14f33dc-e059-4ee2-a429-9f1852a2b9bb
 source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 0%
+source-wordcount: '864'
+ht-degree: 1%
 
 ---
 
@@ -51,7 +51,7 @@ Wenn Sie einen Korrekturabzug mit [!DNL Basecamp] verknüpfen, sendet [!DNL Work
 So öffnen Sie den Korrekturabzug über die E-Mail-Benachrichtigung:
 
 1. Um den Korrekturabzug in [!DNL Workfront Proof] zu öffnen, klicken Sie auf **[!UICONTROL Zum Korrekturabzug gehen]**.\
-   Oder\
+   ODER\
    Um den Korrekturabzug in [!DNL Basecamp] zu öffnen, klicken Sie auf die im Feld **[!UICONTROL [!DNL Basecamp]-URL]** aufgeführte URL.\
    Informationen zur Überprüfung eines Korrekturabzugs in [!DNL Basecamp Classic] finden Sie unter [Überprüfen eines Korrekturabzugs in [!DNL Basecamp]](#reviewing-a-proof-in-basecamp) in diesem Artikel.
 
@@ -62,7 +62,7 @@ Sie können über eine [!DNL Basecamp Classic] auf einen Korrekturabzug zugreife
 1. Navigieren Sie [!DNL Basecamp] zu Ihrer Projektseite (1).\
    ![Basecamp_Classic_messages_1.png](assets/basecamp-classic-messages-1-350x120.png)
 
-1. Klicken Sie auf die Nachricht für den Korrekturabzug, den Sie öffnen möchten. 2)\
+1. Klicken Sie auf die Nachricht für den Korrekturabzug, den Sie öffnen möchten. (2)\
    Die Meldung für den Korrekturabzug wird geöffnet und zeigt einen kleinen Korrekturabzug an. Der Name des Testversands wird oben im Nachrichtenfenster angezeigt (3).\
    Sie können den Korrekturabzug für die Miniaturansicht entweder in [!DNL Basecamp Classic] oder in [!DNL Workfront Proof] anzeigen.\
    ![Basecamp_Classic_messages_2.png](assets/basecamp-classic-messages-2-350x501.png)
@@ -74,10 +74,10 @@ Sie können über eine [!DNL Basecamp Classic] auf einen Korrekturabzug zugreife
    1. Geben Sie Ihre E-Mail-Adresse ein (6).\
 
       Sie müssen dieselbe E-Mail-Adresse verwenden, die beim Hinzufügen zum Korrekturabzug verwendet wurde.
-   1. Klicken Sie **[!UICONTROL Weiter]**.
+   1. Klicken Sie auf **[!UICONTROL Weiter]**.
    1. Geben Sie Ihr [!DNL Workfront Proof] Kennwort ein (7).\
 
-      Oder\
+      ODER\
       Wenn Sie kein [!DNL Workfront Proof] Konto haben, geben Sie einen öffentlichen Namen ein, der angezeigt werden soll.\
       Sie können &quot;[!UICONTROL Merke mich]&quot; auswählen, sodass Sie Ihre Daten nur einmal eingeben müssen.
 
@@ -89,7 +89,7 @@ Sie können über eine [!DNL Basecamp Classic] auf einen Korrekturabzug zugreife
 
 ## Überprüfen eines Korrekturabzugs in [!DNL Basecamp]
 
-Der Mini-Korrekturabzug in [!DNL Basecamp] bietet Ihnen die Tools, die Sie hinzufügen müssen, um [&#x200B; Korrekturabzug in der Korrekturabzugsansicht &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) entscheiden. Alle dem Projekt zugewiesenen Benutzer sehen Ihre Markierungen und Kommentare und können mit ihren eigenen Kommentaren in Echtzeit antworten.
+Der Mini-Korrekturabzug in [!DNL Basecamp] bietet Ihnen die Tools, die Sie hinzufügen müssen, um [ Korrekturabzug in der Korrekturabzugsansicht ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) entscheiden. Alle dem Projekt zugewiesenen Benutzer sehen Ihre Markierungen und Kommentare und können mit ihren eigenen Kommentaren in Echtzeit antworten.
 
 Wenn Sie den Korrekturabzug öffnen, wird der Korrekturabzug im Fenster [!UICONTROL Proofing] (1) angezeigt, und der Name des Korrekturabzugs und die Versionsnummer werden in der oberen linken Ecke (2) angezeigt.
 

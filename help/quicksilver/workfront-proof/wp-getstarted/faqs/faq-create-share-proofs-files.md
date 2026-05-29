@@ -3,19 +3,19 @@ content-type: faq
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: faqs-workfront-proof
-title: 'Häufig gestellte Fragen: Erstellen und Freigeben von Testsendungen und Dateien'
+title: 'Häufig gestellte Fragen: Erstellen und Freigeben von Korrekturabzügen und Dateien'
 description: Ein Korrekturabzug ist eine statische Audio- oder Videodatei, die in der Korrekturabzugsansicht angezeigt wird. Reviewer, die zu einem Korrekturabzug hinzugefügt werden, können mit einem Satz von Tools Kommentare abgeben und Entscheidungen zu dem Korrekturabzug treffen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb0eb160-4bcf-4bc1-ad13-df19f692bef6
 source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
 workflow-type: tm+mt
-source-wordcount: '1369'
-ht-degree: 1%
+source-wordcount: '1370'
+ht-degree: 2%
 
 ---
 
-# Häufig gestellte Fragen: Erstellen und Freigeben von Testsendungen und Dateien
+# Häufig gestellte Fragen: Erstellen und Freigeben von Korrekturabzügen und Dateien
 
 >[!IMPORTANT]
 >
@@ -31,7 +31,7 @@ Ein Korrekturabzug ist eine statische Audio- oder Videodatei, die in der Korrekt
 
 ### Antwort
 
-Testsendungen können aus statischen, Audio- und Videodateien erstellt werden. Dateien mit mehr als 4 GB können nicht hochgeladen werden. [!DNL Workfront] unterstützt mehr als 150 Dateitypen (eine vollständige Liste finden Sie [Unterstützte Proofing-Dateitypen &#x200B;](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md) Größenbeschränkungen - Übersicht).
+Testsendungen können aus statischen, Audio- und Videodateien erstellt werden. Dateien mit mehr als 4 GB können nicht hochgeladen werden. [!DNL Workfront] unterstützt mehr als 150 Dateitypen (eine vollständige Liste finden Sie [Unterstützte Proofing-Dateitypen ](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md) Größenbeschränkungen - Übersicht).
 
 ## Was ist der Unterschied zwischen einem Korrekturabzug und einer Datei?
 
@@ -73,7 +73,7 @@ Die Kombination mehrerer Dateien zu einem einzigen Korrekturabzug ist eine Funkt
 
 Ja, Sie können Korrekturabzüge von Websites und anderen Web-Inhalten erstellen. Wenn Sie eine URL hinzufügen, um einen Korrekturabzug zu erstellen, können Sie angeben, ob Sie einen statischen oder einen interaktiven Korrekturabzug wünschen:
 
-* Bei einem interaktiven Korrekturabzug können Prüfende wie gewohnt mit der Website oder anderen Web-Inhalten wie Anzeigen mit Streaming-Video oder Audio, [!DNL Flash] in einer Anzeige, HTML-Animationen und interaktiven Bannern navigieren und interagieren. Weitere Informationen finden Sie unter [Erstellen eines Korrekturabzugs für interaktive Inhalte in einer ZIP-Datei](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
+* Bei einem interaktiven Korrekturabzug können Prüfende wie gewohnt mit der Website oder anderen Web-Inhalten wie Anzeigen mit Streaming-Video oder Audio, [!DNL Flash] Elemente in einer Anzeige, HTML-Animationen und interaktiven Bannern navigieren und interagieren. Weitere Informationen finden Sie unter [Erstellen eines Korrekturabzugs für interaktive Inhalte in einer ZIP-Datei](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
 * Für einen statischen Korrekturabzug erstellt [!DNL Workfront] eine Reihe von Screenshots der angegebenen Seiten und Unterseiten. Hyperlinks sind im Testversand live, sodass Sie testen können, ob sie zum richtigen Ziel führen. Weitere Informationen finden Sie unter [Erstellen eines statischen Korrekturabzugs für eine Website oder andere Webinhalte](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md).
 
 Sie können mehrere URLs gleichzeitig hinzufügen, wenn Sie sie durch ein Leerzeichen trennen. Beachten Sie, dass die Kombination nur für Pläne der [!UICONTROL Enterprise] und [!UICONTROL Unlimited] Edition verfügbar ist.
@@ -121,9 +121,9 @@ Wenn Ihr Unternehmen von Validierungsverantwortlichen verlangt, dass diese Korre
 
 ### Antwort
 
-Sie können bei der Erstellung des Korrekturabzugs eine Frist für einen neuen Korrekturabzug oder eine neue Korrekturabzugsversion festlegen. Dies tun Sie im Abschnitt [!UICONTROL Workflow] der Seite [!UICONTROL Neuer &#x200B;]). Wenn Sie [!UICONTROL automatisierten Workflow] verwenden, können Sie für jeden Schritt Ihrer Überprüfung eine andere Frist festlegen.
+Sie können bei der Erstellung des Korrekturabzugs eine Frist für einen neuen Korrekturabzug oder eine neue Korrekturabzugsversion festlegen. Dies tun Sie im Abschnitt [!UICONTROL Workflow] der Seite [!UICONTROL Neuer ]). Wenn Sie [!UICONTROL automatisierten Workflow] verwenden, können Sie für jeden Schritt Ihrer Überprüfung eine andere Frist festlegen.
 
-Sie können auch eine Frist für einen vorhandenen Korrekturabzug auf der Seite [!UICONTROL Details des Korrekturabzugs“ festlegen &#x200B;] aktualisieren. Weitere Informationen finden Sie unter [Verwalten von Korrekturabzugsdetails in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+Sie können auch eine Frist für einen vorhandenen Korrekturabzug auf der Seite [!UICONTROL Details des Korrekturabzugs“ festlegen ] aktualisieren. Weitere Informationen finden Sie unter [Verwalten von Korrekturabzugsdetails in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
 ## Wie kann ich eine neue Version meines Korrekturabzugs erstellen?
 

@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: fd9e01ae-71c5-45fe-a874-4ee359fbe057
 source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '793'
 ht-degree: 1%
 
 ---
@@ -79,7 +79,7 @@ Farbe : Hier können Sie wie bei allen anderen Branding-Feldern der Farbschemako
 
 Hintergrundbild - kann mit dem Branding-Bild kombiniert werden.
 
-* Sie können JPGs, GIFs oder PNGs verwenden. Für Dateien mit Transparenz wird eine weiße Hintergrundfarbe angezeigt.
+* Sie können JPGs, GIFs oder PNGs verwenden - für die Dateien mit Transparenz wird eine weiße Hintergrundfarbe angezeigt.
 * Die Kopfzeilenhöhe beträgt 96 Pixel und die Größe des hochgeladenen Bildes wird für die Option [!UICONTROL Keine Wiederholung] nicht geändert.
 * Das Hintergrundbild wird oben links positioniert.
 
@@ -117,7 +117,7 @@ In diesem Feld (10) der Branding-Konfiguration können Sie eine Fußzeile erstel
 
 >[!NOTE]
 >
->Im Fußzeilen-Texteditor können Sie HTML nicht bearbeiten, aber ein kopiertes Design (einschließlich aller Links und Bilder) einfügen.
+>Sie können HTML zwar nicht im Fußzeilen-Texteditor bearbeiten, aber Sie können ein kopiertes Design (einschließlich aller Links und Bilder) einfügen.
 
 **Favicon und Seitentitel**
 

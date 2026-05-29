@@ -9,8 +9,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
 source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '2065'
-ht-degree: 0%
+source-wordcount: '2072'
+ht-degree: 1%
 
 ---
 
@@ -54,9 +54,9 @@ Weitere Informationen zu Profilen finden Sie unter [Korrekturabzugsberechtigunge
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+Sie benötigen die folgenden Zugriffsrechte, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
 <tr> 

@@ -9,7 +9,7 @@ feature: Work Management
 exl-id: 832d3aab-3e09-4d83-91a6-be0145ce3554
 source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '349'
 ht-degree: 11%
 
 ---
@@ -62,7 +62,7 @@ Geplanter Umsatz = Abrechnungssatz × geplante Stunden
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

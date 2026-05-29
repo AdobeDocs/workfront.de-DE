@@ -1,19 +1,19 @@
 ---
 product-area: projects
 navigation-topic: approvals
-title: Genehmigende Arbeit
-description: Genehmigende Arbeit
+title: Genehmigen von Arbeit
+description: Genehmigen von Arbeit
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
 source-git-commit: 628f668f0c5df34eb967729224d91a28cebbb17c
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 2%
+source-wordcount: '851'
+ht-degree: 6%
 
 ---
 
-# Genehmigende Arbeit
+# Genehmigen von Arbeit
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;From&nbsp;Courtney: Linked to Training sites/ articles , don't change title and link)</p>
@@ -27,7 +27,7 @@ Informationen zum Verknüpfen von Genehmigungen mit Arbeiten in Workfront finden
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,7 +40,7 @@ Informationen zum Verknüpfen von Genehmigungen mit Arbeiten in Workfront finden
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
-   <p>Mitwirkender oder höher</p>
+   <p>Mitwirkende oder höher</p>
    <p>Überprüfen oder höher</p> </td> 
   </tr> 
   <tr> 
@@ -54,7 +54,7 @@ Informationen zum Verknüpfen von Genehmigungen mit Arbeiten in Workfront finden
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

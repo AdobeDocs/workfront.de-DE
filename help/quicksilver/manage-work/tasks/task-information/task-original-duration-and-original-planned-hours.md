@@ -10,11 +10,11 @@ exl-id: 96d77d9f-3d5f-457e-a4ad-10edc371a991
 source-git-commit: 7427706f6ce6cad3370b91269c1b4e7a10ed09f9
 workflow-type: tm+mt
 source-wordcount: '578'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
-# Übersicht über die ursprüngliche Aufgabendauer und die ursprünglich geplanten Stunden
+# Überblick über die ursprüngliche Dauer und die ursprünglich geplanten Stunden einer Aufgabe
 
 Im Rahmen der Planung eines Projekts sollten Sie die Werte für die geplanten Stunden und für die Dauer (oder geplante Dauer) jeder Aufgabe im Projekt festlegen.
 

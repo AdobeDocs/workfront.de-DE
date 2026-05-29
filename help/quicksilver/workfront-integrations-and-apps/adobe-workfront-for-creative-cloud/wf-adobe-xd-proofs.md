@@ -8,8 +8,8 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
 source-git-commit: a65a4568c6428768ee6bc60a59a8499efdbec9f8
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 0%
+source-wordcount: '1014'
+ht-degree: 4%
 
 ---
 
@@ -19,7 +19,7 @@ Sie können Ihre Zeichenflächen als Korrekturabzüge direkt in [!DNL Adobe Work
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,14 +31,14 @@ Sie können Ihre Zeichenflächen als Korrekturabzüge direkt in [!DNL Adobe Work
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
-   <td> <p>Standard</p> <p>Arbeit oder höher</p> </td> 
+   <td> <p>Standard</p> <p>Work oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Zusätzliche Produkte</td> 
-   <td>Sie müssen zusätzlich zu einer [!DNL Adobe Creative Cloud] über eine [!DNL Workfront]-Lizenz verfügen.</td> 
+   <td>Sie müssen zusätzlich zu einer [!DNL Workfront] über eine [!DNL Adobe Creative Cloud]-Lizenz verfügen.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof-Berechtigungsprofil </td> 
+   <td role="rowheader">Korrekturabzug-Berechtigungsprofil </td> 
    <td>[!UICONTROL Manager] oder höher</td> 
   </tr> 
   <tr> 
@@ -48,7 +48,7 @@ Sie können Ihre Zeichenflächen als Korrekturabzüge direkt in [!DNL Adobe Work
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 
 +++
@@ -118,7 +118,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    ![PDF-Optionen](assets/pdf-options.png)
 
-1. Klicken Sie **[!UICONTROL Hochladen]**.\
+1. Klicken Sie auf **[!UICONTROL Hochladen]**.\
    Das Dokument wird im Bereich [!UICONTROL Dokumente] im Plug-in und im Desktop-Programm angezeigt.
 
 ## Hochladen eines interaktiven Korrekturabzugs {#upload-an-interactive-proof}
@@ -188,7 +188,7 @@ Mit dem Plug-in [!DNL Workfront for Adobe] können Sie einen interaktiven Korrek
 1. Wählen Sie **[!UICONTROL Dropdown-Menü]** Asset-Typ“ den soeben erstellten Link auf der Registerkarte **Freigegebene Links** aus. Weitere Informationen finden Sie unter [Erstellen eines interaktiven Links für Ihre Zeichenfläche](#create-an-interactive-link-for-your-artboard).\
    ![Freigegebene Links in XDS](assets/shared-links-xd-350x870.png)
 
-1. Klicken Sie **[!UICONTROL Hochladen]**.
+1. Klicken Sie auf **[!UICONTROL Hochladen]**.
 
    Das Dokument wird im Bereich [!UICONTROL Dokumente] im Plug-in und im Desktop-Programm angezeigt.
 
@@ -254,5 +254,5 @@ Sie können eine neue Version eines Korrekturabzugs hochladen. Das Plug-in speic
 
    PDF-Optionen
 
-1. Klicken Sie **[!UICONTROL Hochladen]**.\
+1. Klicken Sie auf **[!UICONTROL Hochladen]**.\
    Das Dokument wird im Bereich [!UICONTROL Dokumente] im Plug-in und im Desktop-Programm angezeigt.

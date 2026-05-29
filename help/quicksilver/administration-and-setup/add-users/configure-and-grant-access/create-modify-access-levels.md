@@ -12,8 +12,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 8cfb8ff3a2af48ea6ef08ce7ad4ef129b4cbac37
 workflow-type: tm+mt
-source-wordcount: '1423'
-ht-degree: 9%
+source-wordcount: '1424'
+ht-degree: 11%
 
 ---
 
@@ -30,7 +30,7 @@ Als Adobe Workfront-Administrator können Sie benutzerdefinierte Zugriffsebenen 
 
 >[!IMPORTANT]
 >
->Es wird dringend empfohlen, die integrierten Zugriffsebenen unverändert zu lassen, damit Sie nach der Einrichtung Ihrer Benutzer darauf verweisen können. Um eine Zugriffsebene anzupassen, kopieren Sie die standardmäßige Zugriffsebene und ändern Sie die Kopie. Dies ist für jede Zugriffsebene möglich, mit Ausnahme von Systemadministrator und externem Benutzer.
+>Es wird dringend empfohlen, die integrierten Zugriffsebenen unverändert zu lassen, damit Sie sich nach der Einrichtung Ihrer Benutzenden darauf beziehen können. Um eine Zugriffsebene anzupassen, kopieren Sie die standardmäßige Zugriffsebene und ändern Sie die Kopie. Dies ist für jede Zugriffsebene möglich, mit Ausnahme von Systemadministrator und externem Benutzer.
 
 ## Zugriffsanforderungen
 
@@ -67,7 +67,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 1. Klicken **im linken** auf „Zugriffsebenen“.
 1. Wählen Sie die Zugriffsebene aus, die Sie kopieren und anpassen möchten, und klicken Sie dann auf das **Kopieren**-Symbol ![Kopieren](assets/copy-icon.png).
 
-   Oder
+   ODER
 
    Wenn Sie eine vorhandene Zugriffsebene bearbeiten, wählen Sie die Zugriffsebene aus, indem Sie auf das Kästchen links neben dieser Zugriffsebene und dann auf das Symbol **Bearbeiten** ![Bearbeiten](assets/edit-icon.png) klicken.
 
@@ -183,7 +183,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
       <td>Verhindert, dass Benutzer Ankündigungen im Ankündigungscenter löschen. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref">Ankündigungen senden</a>.</td> 
      </tr> 
      <tr>
-      <td role="rowheader">Zulassen des Zugriffs von Benutzern auf Marken</td> 
+      <td role="rowheader">Benutzende dürfen auf Marken zugreifen</td> 
       <td>Ermöglicht Benutzenden den Zugriff auf und die Verwaltung von GenStudio-Marken in Workfront. Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-brands.md" class="MCXref xref">Zugriff auf Markenberechtigungen gewähren</a>.</td> 
      </tr>
     </tbody> 

@@ -2,19 +2,19 @@
 content-type: overview
 product-area: documents
 navigation-topic: proofing-overview
-title: Automatisierter Workflow - Übersicht
+title: Überblick über den automatisierten Workflow
 description: Automatisierte Workflows ermöglichen es Ihnen, eine Reihe sequenzieller oder paralleler Überprüfungsphasen zu erstellen, Abhängigkeiten zwischen diesen Phasen festzulegen und die Sichtbarkeit für bestimmte Benutzer zu begrenzen. Wenn es voneinander abhängige Phasen in Ihrem Prüfungsprozess gibt, leiten automatisierte Workflows Ihren Korrekturabzug automatisch durch die Phasen und benachrichtigen dabei die entsprechenden Prüfer und genehmigenden Personen.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d643970a-c00c-4fb4-94bc-fca4e090dcc9
 source-git-commit: 1fd3b135682c096f1715e5da0455fed12e882582
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 0%
+source-wordcount: '730'
+ht-degree: 1%
 
 ---
 
-# Automatisierter Workflow - Übersicht
+# Überblick über den automatisierten Workflow
 
 <!-- Audited: 01/2024 -->
 
@@ -28,7 +28,7 @@ Automatisierte Workflows ermöglichen es Ihnen, eine Reihe sequenzieller oder pa
 * Wenn Sie den Zeitraum steuern möchten, in dem Reviewer Inhalte anzeigen
 * Wenn Sie einige Prüfungsaktivitäten privat halten möchten
 
-## Phasen
+## Schritte
 
 Für jede Phase des automatisierten Workflows können Sie Einstellungen wie eine Frist für die Phase, eine Sperre für die Phase, einen Prüfer, der als Entscheidungsträger für die Phase festgelegt ist, und eine Datenschutzeinstellung konfigurieren, die es nur bestimmten Personen ermöglicht, Prüfer-Kommentare auf der Phase zu sehen.
 

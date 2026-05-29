@@ -1,6 +1,6 @@
 ---
-title: 22.4 Projektverbesserungen
-description: 22.4 Projektverbesserungen
+title: Verbesserungen bei Projekten in Version 22.4
+description: Verbesserungen bei Projekten in Version 22.4
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -8,12 +8,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 41372dd8-5002-4f8b-a5ac-a577c8b05d11
 source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 2%
+source-wordcount: '965'
+ht-degree: 3%
 
 ---
 
-# 22.4 Projektverbesserungen
+# Verbesserungen bei Projekten in Version 22.4
 
 Auf dieser Seite werden alle mit Version 22.4 vorgenommenen Projektverbesserungen in der Vorschau-Umgebung beschrieben. Diese Verbesserungen werden in der Woche vom 3. Oktober 2022 zur Verfügung gestellt.
 
@@ -51,7 +51,7 @@ Weitere Informationen finden Sie unter [Projekte &#x200B;](/help/quicksilver/man
 
 HINWEIS: Zusätzliche Benutzerfelder für Projekte, Aufgaben und Probleme werden mit dieser Funktion in zukünftigen Versionen aktualisiert.
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412390/){target=_blank}
+[Sehen Sie sich eine Videodemonstration dieser Funktion an.](https://video.tv.adobe.com/v/3412390/){target=_blank}
 
 ## Berechnete Datumsfelder werden immer basierend auf der koordinierten Weltzeit (UTC) gespeichert
 
@@ -78,7 +78,7 @@ Basierend auf Ihrem Feedback haben wir die folgenden Verbesserungen eingeführt,
 
   Weitere Informationen zum Schnellfilter finden Sie unter [Anwenden des Schnellfilters auf eine Liste](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412469/){target=_blank}
+[Sehen Sie sich eine Videodemonstration dieser Funktion an.](https://video.tv.adobe.com/v/3412469/){target=_blank}
 
 ## Öffentliche Beta - Neues Filtererlebnis für Projekte, Aufgaben und Probleme
 
@@ -107,7 +107,7 @@ Der Textmodus bleibt für die erweiterte Filterbearbeitung verfügbar, und Syste
 
 * Szenarienplaner
 
-* Arbeitszeit- tabellen
+* Arbeitszeittabellen
 
 
 ### Wir möchten Ihr Feedback!
@@ -129,4 +129,4 @@ Wir möchten Ihnen iterativ einen Mehrwert bieten, sodass wir weiterhin liefern 
 
 Weitere Informationen finden Sie unter [Filterübersicht](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md) und [Filter in Adobe Workfront erstellen oder bearbeiten](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412391/)
+[Sehen Sie sich eine Videodemonstration dieser Funktion an.](https://video.tv.adobe.com/v/3412391/)

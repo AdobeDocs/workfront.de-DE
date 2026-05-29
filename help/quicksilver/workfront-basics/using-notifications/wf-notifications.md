@@ -1,19 +1,19 @@
 ---
 content-type: overview;reference
 navigation-topic: notifications
-title: Benachrichtigungen - Übersicht
+title: Überblick über Benachrichtigungen
 description: Adobe Workfront sendet E-Mail-Benachrichtigungen, In-App-Benachrichtigungen und Benachrichtigungen auf Ihrem Mobilgerät.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
 source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
-source-wordcount: '1395'
-ht-degree: 1%
+source-wordcount: '1398'
+ht-degree: 2%
 
 ---
 
-# Benachrichtigungen - Übersicht
+# Überblick über Benachrichtigungen
 
 <!--Audited: 12/2023-->
 

@@ -10,12 +10,12 @@ role: Admin
 exl-id: 3c15f90f-ce87-484d-93a7-9eeb2963a798
 source-git-commit: 2a83e5a415ff254cf5525d6f44ecb0e447e7e70a
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 0%
+source-wordcount: '440'
+ht-degree: 10%
 
 ---
 
-# Zugriff auf Anfragen gewähren
+# Gewähren von Zugriff auf Probleme
 
 Als Adobe Workfront-Administrator können Sie eine Zugriffsebene verwenden, um den Zugriff eines Benutzers auf Probleme zu definieren, wie in [Übersicht über Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) beschrieben.
 
@@ -23,7 +23,7 @@ Informationen zur Verwendung benutzerdefinierter Zugriffsebenen zur Verwaltung d
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +36,7 @@ Informationen zur Verwendung benutzerdefinierter Zugriffsebenen zur Verwaltung d
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>  <p>Standard</p>
-   <p>Plan</p></td> 
+   <p>Abo</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -45,13 +45,13 @@ Informationen zur Verwendung benutzerdefinierter Zugriffsebenen zur Verwaltung d
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Gewähren des Benutzerzugriffs auf Probleme mithilfe einer benutzerdefinierten Zugriffsebene
 
-1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Klicken Sie auf das Zahnradsymbol ![](assets/gear-icon-settings.png) der Schaltfläche **Anzeigen** oder **Bearbeiten** rechts neben „Probleme“ und wählen Sie dann unter **Einstellungen optimieren** die Funktionen aus, die Sie gewähren möchten.
 
    ![Anfrageeinstellungen optimieren](assets/fine-tune-issues.png)

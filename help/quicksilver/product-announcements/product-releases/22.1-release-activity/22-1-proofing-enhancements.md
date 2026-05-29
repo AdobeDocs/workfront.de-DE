@@ -1,6 +1,6 @@
 ---
-title: 22.1 Proofing-Verbesserungen
-description: 22.1 Proofing-Verbesserungen
+title: Verbesserungen beim Proofing in Version 22.1
+description: Verbesserungen beim Proofing in Version 22.1
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
@@ -8,12 +8,12 @@ recommendations: noDisplay, noCatalog
 exl-id: c76c2dba-1497-414a-8979-712f093efd73
 source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 1%
+source-wordcount: '375'
+ht-degree: 3%
 
 ---
 
-# 22.1 Proofing-Verbesserungen
+# Verbesserungen beim Proofing in Version 22.1
 
 Auf dieser Seite werden alle Proofing-Verbesserungen beschrieben, die mit der Version 22.1 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung verfügbar gemacht
 
@@ -45,7 +45,7 @@ Sie können Korrekturabzüge, für die eine Anmeldung erforderlich ist oder die 
 
 Alle Benutzer profitieren außerdem von der verbesserten Konnektivität zwischen Workfront und Proof. Wenn Sie jetzt eine Benutzerin oder einen Benutzer deaktivieren oder seine E-Mail-Adresse aktualisieren, werden Ihre Aktualisierungen beim Ändern in Workfront korrekt im Proofing angezeigt.
 
-Weitere Informationen finden Sie unter 
+Weitere Informationen finden Sie unter
 
 * [Rollen für Korrekturabzüge - Übersicht](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)
 

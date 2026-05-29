@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '3265'
+source-wordcount: '3275'
 ht-degree: 1%
 
 ---
@@ -197,7 +197,7 @@ Alle Datensätze des ausgewählten Typs werden in der Ansicht angezeigt.
         Fügen Sie Informationen über den Datensatz hinzu, wie im Abschnitt [Erstellen von Datensätzen durch Hinzufügen inline über die Tabellenansicht des Datensatztyps](#create-records-by-adding-them-inline-from-the-record-type-table-view) in diesem Artikel beschrieben, beginnend mit Schritt 6. <!--insure this stays accurate-->
       * **Aus Datei hochladen**
 Fügen Sie Datensätze hinzu, wie im Artikel [Erstellen von Datensätzen durch Importieren von Informationen aus einer CSV- oder Excel-Datei](/help/quicksilver/planning/records/import-file-to-create-records.md) beschrieben, beginnend mit Schritt 6. <!--ensure this stays accurate-->
-      * **Anforderung einreichen**
+      * **Anfrage senden**
 Das Anfrageformular des Datensatztyps wird geöffnet.
 
         Ein Workspace-Manager muss ein Anfrageformular erstellen, um einen Datensatz mithilfe eines Anfrageformulars hinzufügen zu können.
@@ -522,7 +522,7 @@ So erstellen Sie Datensätze, während Sie sie mit anderen Datensätzen verbinde
 
 1. (Bedingt) Wenn Sie beim Versuch, eine Verbindung herzustellen, einen Datensatz nicht finden können, klicken Sie auf **+ Hinzufügen**
 
-   oder
+   ODER
 Geben Sie einen Namen ein und klicken Sie dann auf **+ Hinzufügen**. Auf die Schaltfläche **+ Hinzufügen** folgt der Name des Datensatztyps, mit dem Sie eine Verbindung herstellen. Beispiel: „Hinzufügen von Marken“, wenn eine Marke zu einer bestehenden Kampagne hinzugefügt wird. Der eingegebene Name folgt auch der Schaltfläche Hinzufügen .
 
    ![Schaltfläche „Hinzufügen“ zum Erstellen von Datensätzen im hervorgehobenen Kontext](assets/add-button-to-create-records-in-context-highlighted.png)
@@ -538,7 +538,7 @@ Geben Sie einen Namen ein und klicken Sie dann auf **+ Hinzufügen**. Auf die Sc
 
 1. (Optional) Wechseln Sie zur Tabellenansicht des Datensatztyps, dessen Datensatz Sie erstellt haben. Ein neuer Datensatz wird in der letzten Zeile der Ansicht angezeigt.
 1. (Optional) Mit dem Hinzufügen von Informationen für den neuen Datensatz in der Tabellenansicht beginnen
-oder
+ODER
 Klicken Sie auf den Namen, um die Detailseite zu öffnen und dort Informationen hinzuzufügen.
 
 ## Erstellen von Datensätzen durch Senden eines Anforderungsformulars an einen Datensatztyp

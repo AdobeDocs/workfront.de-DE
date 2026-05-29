@@ -11,7 +11,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '3292'
+source-wordcount: '3297'
 ht-degree: 1%
 
 ---
@@ -364,7 +364,7 @@ Die folgenden Begriffe werden für Workfront-Berichte verwendet:
      <li>Auf der Registerkarte Filter</li> 
      <li>Der Bildschirm Erweiterte Optionen für die Spalte auf der Registerkarte Spalten (Ansicht) . Durch Definieren eines Qualifizierers können Sie den Feldnamen mit einem anderen Feld oder Wert vergleichen.</li> 
      <li> In einer benutzerdefinierten Eingabeaufforderung<br><p>Informationen zu Eingabeaufforderungen finden Sie unter <a href="/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Hinzufügen einer Eingabeaufforderung zu einem Bericht</a>.</p>.</li> 
-    </ul> <p>Wenn Sie beispielsweise einen Filter für Aufgaben mit dem geplanten Abschlussdatum „Heute“ erstellen, wählen Sie <strong>Gleich</strong> in Ihrem Qualifizierungsfeld und das heutige Datum im Datumsfeld aus:</p> <p><em>Aufgabe&gt; Geplantes Abschlussdatum&gt;Gleich&gt;(heutiges Datum)</em> </p> <p>In diesem Szenario lautet der Qualifizierer <strong>Gleich</strong>.<br>Weitere Informationen zu Kriterien finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter- und Bedingungsmodifikatoren</a>.</p> </td> 
+    </ul> <p>Wenn Sie beispielsweise einen Filter für Aufgaben mit dem geplanten Abschlussdatum „Heute“ erstellen, wählen Sie <strong>Gleich</strong> in Ihrem Qualifizierungsfeld und das heutige Datum im Datumsfeld aus:</p> <p><em>Aufgabe&gt; Geplantes Abschlussdatum&gt;Gleich&gt;(heutiges Datum)</em> </p> <p>In diesem Szenario lautet der <strong> "</strong>.<br>Weitere Informationen zu Kriterien finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter- und Bedingungsmodifikatoren</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Bericht </td> 

@@ -9,12 +9,12 @@ feature: Work Management
 exl-id: 68b582c9-f72a-4000-9d28-f7dafa23541f
 source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
 workflow-type: tm+mt
-source-wordcount: '1122'
-ht-degree: 2%
+source-wordcount: '1155'
+ht-degree: 5%
 
 ---
 
-# Berechnungsbeispiel - EAC als Rollup aus Aufgaben berechnen
+# Berechnungsbeispiel – Berechnen des EAC als Rollup aus Aufgaben
 
 ## EAC-Methode: aus Aufgaben oder Teilaufgaben aggregieren
 
@@ -53,13 +53,13 @@ EAC-Methode = Datenaggregation aus Aufgaben/Teilaufgaben
    <td> <p>Aufgabe 1</p> </td> 
    <td> <p>5 Std</p> </td> 
    <td> <p>25 Std</p> </td> 
-   <td> <p>20 %</p> </td> 
+   <td> <p>20%</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 2</p> </td> 
    <td> <p>10 Std</p> </td> 
    <td> <p>25 Std</p> </td> 
-   <td> <p>30 %</p> </td> 
+   <td> <p>30%</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 3</p> </td> 
@@ -156,7 +156,7 @@ EAC-Methode = Datenaggregation aus Aufgaben/Teilaufgaben
       <td> <p>Aufgabe 2</p> </td> 
       <td> <p>5 Std</p> </td> 
       <td> <p>10 Std</p> </td> 
-      <td> <p>20 %</p> </td> 
+      <td> <p>20%</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Aufgabe 3</p> </td> 
@@ -168,13 +168,13 @@ EAC-Methode = Datenaggregation aus Aufgaben/Teilaufgaben
       <td> <p>Aufgabe 4</p> </td> 
       <td> <p>10 Std</p> </td> 
       <td> <p>10 Std</p> </td> 
-      <td> <p>40 %</p> </td> 
+      <td> <p>40%</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Aufgabe 5</p> </td> 
       <td> <p>15 Std</p> </td> 
       <td> <p>10 Std</p> </td> 
-      <td> <p>50 %</p> </td> 
+      <td> <p>50%</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Aufgabe 6</p> </td> 
@@ -294,25 +294,25 @@ EAC-Methode = Datenaggregation aus Aufgaben/Teilaufgaben
    <tr> 
       <td> <p>Aufgabe 1</p> </td> 
       <td> <p>5 Std</p> </td> 
-      <td> <p>500,00 $</p> </td> 
+      <td> <p>$500.00</p> </td> 
       <td> <p>25 Std</p> </td> 
-      <td> <p>2 500,00 $</p> </td> 
-      <td> <p>20 %</p> </td> 
+      <td> <p>$2,500.00</p> </td> 
+      <td> <p>20%</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Aufgabe 2</p> </td> 
       <td> <p>10 Std</p> </td> 
-      <td> <p>1 000,00 $</p> </td> 
+      <td> <p>$1,000.00</p> </td> 
       <td> <p>25 Std</p> </td> 
-      <td> <p>2 500,00 $</p> </td> 
-      <td> <p>30 %</p> </td> 
+      <td> <p>$2,500.00</p> </td> 
+      <td> <p>30%</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Aufgabe 3</p> </td> 
       <td> <p>15 Std</p> </td> 
-      <td> <p>1 500,00 $</p> </td> 
+      <td> <p>$1,500.00</p> </td> 
       <td> <p>25 Std</p> </td> 
-      <td> <p>2 500,00 $</p> </td> 
+      <td> <p>$2,500.00</p> </td> 
       <td> <p>40 %</p> </td> 
    </tr> 
    </tbody> 
@@ -337,26 +337,26 @@ EAC-Methode = Datenaggregation aus Aufgaben/Teilaufgaben
    <tr> 
       <td> <p>Aufgabe 1</p> </td> 
       <td> <p>Aufgabe 1 Ausl. 1</p> </td> 
-      <td> <p>300,00 $</p> </td> 
-      <td> <p>400,00 $</p> </td> 
+      <td> <p>$300.00</p> </td> 
+      <td> <p>$400.00</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Aufgabe 1</p> </td> 
       <td> <p>Aufgabe 1 Ausl. 2</p> </td> 
-      <td> <p>500,00 $</p> </td> 
-      <td> <p>0,00 $</p> </td> 
+      <td> <p>$500.00</p> </td> 
+      <td> <p>$0.00</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Aufgabe 2</p> </td> 
       <td> <p>Aufgabe 2 Ausl</p> </td> 
-      <td> <p>200,00 $</p> </td> 
-      <td> <p>100,00 $</p> </td> 
+      <td> <p>$200.00</p> </td> 
+      <td> <p>$100.00</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Aufgabe 3</p> </td> 
       <td> <p>Aufgabe 3 Ausl</p> </td> 
-      <td> <p>800,00 $</p> </td> 
-      <td> <p>700,00 $</p> </td> 
+      <td> <p>$800.00</p> </td> 
+      <td> <p>$700.00</p> </td> 
    </tr> 
    </tbody> 
    </table>
@@ -377,13 +377,13 @@ EAC-Methode = Datenaggregation aus Aufgaben/Teilaufgaben
    <tbody> 
    <tr> 
       <td> <p>Projektausgabe 1</p> </td> 
-      <td> <p>1 000,00 $</p> </td> 
-      <td> <p>1 500,00 $</p> </td> 
+      <td> <p>$1,000.00</p> </td> 
+      <td> <p>$1,500.00</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Aufgabe 1 Ausl. 2</p> </td> 
-      <td> <p>2 500,00 $</p> </td> 
-      <td> <p>0,00 $</p> </td> 
+      <td> <p>$2,500.00</p> </td> 
+      <td> <p>$0.00</p> </td> 
    </tr> 
    </tbody> 
    </table>
@@ -406,34 +406,34 @@ EAC-Methode = Datenaggregation aus Aufgaben/Teilaufgaben
    <tbody> 
    <tr> 
       <td> <p>Aufgabe 1</p> </td> 
-      <td> <p>500,00 $</p> </td> 
-      <td> <p>300,00 $</p> </td> 
-      <td> <p>400,00 $</p> </td> 
+      <td> <p>$500.00</p> </td> 
+      <td> <p>$300.00</p> </td> 
+      <td> <p>$400.00</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Aufgabe 2</p> </td> 
-      <td> <p>0,00 $</p> </td> 
-      <td> <p>200,00 $</p> </td> 
-      <td> <p>100,00 $</p> </td> 
+      <td> <p>$0.00</p> </td> 
+      <td> <p>$200.00</p> </td> 
+      <td> <p>$100.00</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Aufgabe 3</p> </td> 
-      <td> <p>0,00 $</p> </td> 
-      <td> <p>800,00 $</p> </td> 
-      <td> <p>700,00 $</p> </td> 
+      <td> <p>$0.00</p> </td> 
+      <td> <p>$800.00</p> </td> 
+      <td> <p>$700.00</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Projekt</p> </td> 
-      <td> <p>3 000,00 $</p> </td> 
-      <td> <p>2 300,00 $</p> </td> 
-      <td> <p>2 700,00 $</p> </td> 
+      <td> <p>$3,000.00</p> </td> 
+      <td> <p>$2,300.00</p> </td> 
+      <td> <p>$2,700.00</p> </td> 
    </tr> 
    </tbody> 
    </table>
 
 1. Führen Sie in Projektaktionen die Option Finanzen neu berechnen aus.
 1. **CPI**&#x200B;**für Aufgabe 1** = .14 wie folgt berechnet:\
-   **CPI**&#x200B;**für Aufgabe 1** = *IF* Ist-Lohnkosten + IncurredActualExpenseCost &lt;> 0 *THEN*
+   **CPI**&#x200B;**&#x200B; für Aufgabe 1 &#x200B;** = *IF* Ist-Lohnkosten + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)
@@ -455,7 +455,7 @@ EAC-Methode = Datenaggregation aus Aufgaben/Teilaufgaben
    **CPI Labor**&#x200B;**für Aufgabe 1** = 100/2500\
    **CPI Labor**&#x200B;**für Aufgabe 1** = .04
 
-   **EAC Labor**&#x200B;**für Aufgabe 1** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **EAC Labor**&#x200B;**&#x200B; für Aufgabe 1 &#x200B;** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor
@@ -478,7 +478,7 @@ EAC-Methode = Datenaggregation aus Aufgaben/Teilaufgaben
    Task 3 = .44 / $6.950.00&#x200B;**&#x200B;**
 
 1. Der CPI für das Projekt = .32\
-   **CPI**&#x200B;**für Projekt** = *IF* Tatsächliche Arbeitskosten + IncurredActualExpenseCost &lt;> 0 *THEN*
+   **CPI**&#x200B;**&#x200B; für Projekt &#x200B;** = *IF* Tatsächliche Arbeitskosten + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)

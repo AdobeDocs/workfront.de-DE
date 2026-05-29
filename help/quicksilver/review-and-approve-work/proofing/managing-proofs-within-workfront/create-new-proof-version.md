@@ -8,8 +8,8 @@ feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
 source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '1454'
-ht-degree: 0%
+source-wordcount: '1460'
+ht-degree: 4%
 
 ---
 
@@ -26,7 +26,7 @@ Beachten Sie beim Erstellen einer neuen Version eines Korrekturabzugs die folgen
 
   Weitere Informationen finden Sie unter [Verwalten von Korrekturabzugsrollen in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) und [Profile für Korrekturabzugsberechtigungen in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-  Informationen zur Freigabe von Korrekturabzugsversionen finden Sie unter  [Freigeben eines Korrekturabzugs in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
+  Informationen zur Freigabe von Korrekturabzugsversionen finden Sie unter [Freigeben eines Korrekturabzugs in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 
 >[!IMPORTANT]
 >
@@ -34,7 +34,7 @@ Beachten Sie beim Erstellen einer neuen Version eines Korrekturabzugs die folgen
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,17 +51,17 @@ Beachten Sie beim Erstellen einer neuen Version eines Korrekturabzugs die folgen
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof-Berechtigungsprofil </td> 
+   <td role="rowheader">Korrekturabzug-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> </td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -79,7 +79,7 @@ Erstellen einer neuen Version eines Korrekturabzugs:
 1. Öffnen Sie die Dokumentliste, die den Korrekturabzug enthält.
 1. Ziehen Sie aus dem Dateisystem Ihres Computers eine neue Datei per Drag-and-Drop über den Korrekturabzug.
 
-   Oder
+   ODER
 
    Wählen Sie die Zeile aus, in der der Korrekturabzug aufgeführt ist **klicken Sie auf „Neu hinzufügen** > **Version** und klicken Sie dann auf die Option, die Sie zum Hinzufügen der neuen Version des Korrekturabzugs verwenden möchten.
 
@@ -102,7 +102,7 @@ So erstellen Sie eine neue Version eines Korrekturabzugs in Workfront Proof:
 
 1. Laden Sie im Abschnitt **Dateien hinzufügen** eine Datei als neue Korrekturabzugsversion hoch, indem Sie sie per Drag-and-Drop von Ihrem Computer ziehen oder indem Sie auf **Durchsuchen** klicken und eine Datei auswählen.
 
-   Oder
+   ODER
 
    Erfassen Sie eine Web-Seite als neue Version des Korrekturabzugs, indem Sie eine URL eingeben.
 

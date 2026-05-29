@@ -8,8 +8,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 7%
+source-wordcount: '1351'
+ht-degree: 9%
 
 ---
 
@@ -97,7 +97,7 @@ Kaskadieren Sie die allgemeinen Ziele. Aufbauend auf den zuerst umrissenen strat
 Beachten Sie beim Erstellen und Ausrichten von Zielen die folgenden Richtlinien:
 
 * Betrachten wir die Frage: „Was müssen meine Teams und ich erreichen, um dieses übergeordnete Ziel zu erreichen?“
-* Kaskadierte Ziele sollten ein erforderliches Ergebnis darstellen, das erreicht werden muss, um die Erreichung des übergeordneten Ziels zu fördern oder zu ermöglichen. Der Umfang dieser Leistung sollte enger gefasst sein als der des übergeordneten Elements.
+* Kaskadierte Ziele sollten ein notwendiges Ergebnis widerspiegeln, das erreicht werden muss, um die Umsetzung des übergeordneten Ziels zu fördern oder zu ermöglichen. Der Umfang dieser Leistung sollte enger gefasst sein als der des übergeordneten Elements.
 * Erstellen Sie keine komplexen Zielhierarchien, die schwer zu befolgen sind oder zu viele Ebenen haben.
 
 Informationen zum Erstellen und Ausrichten von Zielen finden Sie in den folgenden Artikeln:

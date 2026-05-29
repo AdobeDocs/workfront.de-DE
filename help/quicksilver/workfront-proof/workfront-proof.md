@@ -12,7 +12,7 @@ exl-id: f9c782b7-23dc-4fde-83e1-b7ef71a3b741
 source-git-commit: 6255181469b517fa4e0c487ca372c08b540abadd
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 0%
+ht-degree: 21%
 
 ---
 
@@ -34,4 +34,4 @@ Dieser Abschnitt enthält die folgenden Unterabschnitte:
 * [E-Mail-Warnungen](../workfront-proof/wp-emailsntfctns/email-alerts/email-alerts.md)
 * [Verwalten von Benutzern und Kontakten in [!DNL Workfront Proof]](../workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
 * [[!DNL Workfront Proof] Tech-Ecke](../workfront-proof/wp-tech-corner/tech-corner.md)
-* [[!DNL Workfront Proof] Integrationen](../workfront-proof/wp-integrations/wp-integrations.md)
+* [[!DNL Workfront Proof]-Integrationen](../workfront-proof/wp-integrations/wp-integrations.md)

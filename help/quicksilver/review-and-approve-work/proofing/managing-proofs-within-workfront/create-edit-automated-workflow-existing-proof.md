@@ -8,8 +8,8 @@ feature: Digital Content and Documents
 exl-id: 852f960f-1b57-4a8a-a928-407ad52418e6
 source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
 workflow-type: tm+mt
-source-wordcount: '1142'
-ht-degree: 1%
+source-wordcount: '1149'
+ht-degree: 6%
 
 ---
 
@@ -21,7 +21,7 @@ Informationen zum Erstellen eines automatisierten Workflows für einen neuen Kor
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,17 +39,17 @@ Informationen zum Erstellen eines automatisierten Workflows für einen neuen Kor
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof-Berechtigungsprofil </td> 
+   <td role="rowheader">Korrekturabzug-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p></td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -57,9 +57,9 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 1. Bewegen Sie den Mauszeiger über das Dokument im Bereich Dokumente und klicken Sie dann auf Proofing-Workflow.
 
-   Oder
+   ODER
 
-   Wenn Sie den Korrekturabzug im Proofing Viewer ansehen, klicken Sie im linken **auf** Workflow![&#x200B; &#x200B;](assets/workflow-icon-proofing-viewer.png)Workflow-Symbol und dann auf das Symbol „Bearbeiten![Symbol „Bearbeiten“](assets/edit-icon-proofing-viewer.png), um die automatisierten Workflow-Einstellungen für den Korrekturabzug zu öffnen.
+   Wenn Sie den Korrekturabzug im Proofing Viewer ansehen, klicken Sie im linken ![&#128279;](assets/workflow-icon-proofing-viewer.png) auf **Workflow** Workflow-Symbol und dann auf das Symbol „Bearbeiten![Symbol „Bearbeiten“](assets/edit-icon-proofing-viewer.png), um die automatisierten Workflow-Einstellungen für den Korrekturabzug zu öffnen.
 
 1. (Bedingt) Wenn für den Korrekturabzug derzeit ein einfacher Workflow (ohne Phasen) verwendet wird, klicken Sie im angezeigten **auf In automatisierten Workflow**.
 
@@ -178,4 +178,4 @@ Beachten Sie Folgendes, wenn Sie Reviewer zu einem Schritt hinzufügen:
 * Prüfer, die nicht zu einer privaten Phase hinzugefügt wurden, können diese Phase nicht im Korrekturabzug oder in Kommentaren sehen, die in dieser Phase gemacht wurden.
 * Standardmäßig gewährt das Hinzufügen eines Benutzers zu einem Schritt diesem Benutzer Zugriff, um den Korrekturabzug ab dem Zeitpunkt anzuzeigen, zu dem der Korrekturabzug erstellt wird.
 
-  Ihr Workfront-Administrator kann Benutzende vom Zugriff auf den Korrekturabzug ausschließen, bis der Workflow in das Stadium eintritt, in dem der/die Benutzende hinzugefügt wurde. Weitere Informationen finden Sie unter  in .
+  Ihr Workfront-Administrator kann Benutzende vom Zugriff auf den Korrekturabzug ausschließen, bis der Workflow in das Stadium eintritt, in dem der/die Benutzende hinzugefügt wurde. Weitere Informationen finden Sie unter in .

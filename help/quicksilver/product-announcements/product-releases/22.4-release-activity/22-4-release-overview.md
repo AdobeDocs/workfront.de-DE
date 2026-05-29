@@ -8,12 +8,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
 source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
 workflow-type: tm+mt
-source-wordcount: '3232'
-ht-degree: 0%
+source-wordcount: '3370'
+ht-degree: 4%
 
 ---
 
-# Versionsübersicht 22.4
+# Überblick über Version 22.4
 
 Diese Seite enthält Informationen zur Funktionalität, die in der Version 22.4 von enthalten ist.
 
@@ -23,7 +23,7 @@ Diese Verbesserungen wurden mit der Version 22.4 vom 6. und 7. Oktober 2022 in d
 
 * [Administrator-Verbesserungen](#administrator-enhancements)
 
-* [Projektverbesserungen](#project-enhancements)
+* [Verbesserungen bei Projekten](#project-enhancements)
 
 * [Agile-Verbesserungen](#agile-enhancements)
 
@@ -166,7 +166,7 @@ Diese Verbesserungen wurden mit der Version 22.4 vom 6. und 7. Oktober 2022 in d
             </tbody>
         </table>
 
-### Projektverbesserungen
+### Verbesserungen bei Projekten
 
 <table>
             <col style="width: 50%;" />
@@ -707,9 +707,9 @@ Wir haben eine neue Version des Desktop Proofing Viewers veröffentlicht. Dieses
 
 Mit diesem Upgrade unterstützt der Desktop Proofing Viewer Chrome Version 98, um die Kompatibilität mit interaktiven Korrekturabzügen zu verbessern.
 
-### Workfront Fusion-Verbesserungen
+### Verbesserungen in Workfront Fusion
 
-Neue Funktionen in Workfront Fusion sind außerhalb des Veröffentlichungszeitplans für 22.4 in der Produktionsumgebung verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Versionsaktivität von Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+Neue Funktionen in Workfront Fusion sind außerhalb des Veröffentlichungszeitplans für 22.4 in der Produktionsumgebung verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Adobe Workfront Fusion-Veröffentlichungen](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Verbesserungen am Workfront-Szenarioplaner
 
@@ -731,7 +731,7 @@ Informationen zu neuen und aktualisierten Funktionen finden Sie unter [Neue Funk
 
 Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Zeitplan](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
-### Wartungs-Updates für Workfront 
+### Wartungs-Updates für Workfront
 
 Informationen zu den Wartungs-Updates, die während der Version 22.3 vorgenommen wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/de/docs/workfront-known-issues/releases/current-updates).
 
@@ -739,9 +739,9 @@ Informationen zu den Wartungs-Updates, die während der Version 22.3 vorgenommen
 
 Das Webinar zur Version 22.4 von findet am Donnerstag, 22. September 2022 um 9 :00 PDT statt. Sie können [sich hier für das Webinar registrieren](https://event.on24.com/wcc/r/3915365/9E496D02A98ECB8C86B1D2D09DDAA443?partnerref=prodmgt).
 
-### Schulungsaktualisierungen
+### Updates für Schulungen
 
-Erfahren Sie mehr über die neuesten Aktualisierungen von Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie auf der [Seite mit Schulungsversions-Updates](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home).
+Erfahren Sie mehr über die neuesten Updates von Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie auf der [Seite mit Schulungsversions-Updates](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home).
 
 ### Funktion wird mit Version 22.4 entfernt
 

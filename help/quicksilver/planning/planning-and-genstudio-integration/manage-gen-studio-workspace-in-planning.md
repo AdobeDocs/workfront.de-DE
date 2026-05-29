@@ -8,15 +8,16 @@ recommendations: noDisplay, noCatalog
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 058abefdf7bcee16b9cee7f28e10337886c7fb05
+source-git-commit: fdbe3945f59306fc26424d7e88b799d9dcaea4da
 workflow-type: tm+mt
-source-wordcount: '1474'
-ht-degree: 3%
+source-wordcount: '1769'
+ht-degree: 5%
 
 ---
 
 
 <!--
+
 Better metadata, at publishing:
 ---
 title: Manage the GenStudio Workspace in Adobe Workfront Planning
@@ -26,6 +27,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 ---
+
 -->
 
 <!--MUST update the access requirements below - not complete!!!!!!!!!-->
@@ -304,9 +306,9 @@ Die Hauptseite von Workfront-Planung wird geöffnet.
 Weitere Informationen finden Sie [Datensatztypen freigeben](/help/quicksilver/planning/access/share-record-types.md).
       * **Aktuelle Ansicht freigeben**
 Weitere Informationen finden Sie unter [Freigeben von Ansichten](/help/quicksilver/planning/access/share-views.md).
-      * **Kopieren Sie den Link Ansicht**
+      * **Link „Ansicht kopieren“**
 Ein Link zur Ansicht wird in die Zwischenablage kopiert.
-      * **Exportiert die aktuelle Ansicht**
+      * **Aktuelle Ansicht exportieren**
 Weitere Informationen finden Sie [Exportieren von Datensätzen aus der Tabellenansicht](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
 
         >[!NOTE]
@@ -377,17 +379,34 @@ Weitere Informationen finden Sie [Exportieren von Datensätzen aus der Tabellena
 
      Aus dem GenStudio-Arbeitsbereich erstellte Felder sind in den folgenden Bereichen sichtbar:
 
-      * Workfront-Planungsansichten
-      * Details zum Workfront-Planungsdatensatz
-      * GenStudio-Datensatzdetails
+      * Workfront-Planungsansichten in Workfront Planning
+      * Workfront-Planungs-Datensatzdetails in Workfront Planning
+      * Details zu GenStudio-Einträgen in GenStudio for Performance Marketing
 
      >[!NOTE]
      >
-     >* Sie können weitere Felder nur hinzufügen, wenn Sie über Verwaltungsberechtigungen in GenStudio verfügen.
+     >* Sie können Felder nur hinzufügen, wenn Sie über Verwaltungsberechtigungen in GenStudio verfügen.
      >* In Workfront Planning erstellte Felder sind in der Listenansicht in GenStudio nicht sichtbar.
      >
      >* Sie können einen beliebigen GenStudio-Datensatztyp mit dem GenStudio-Datensatztyp von Brands verbinden.
      >  Produkte und Rollen sind standardmäßig mit Marken verbunden.
+     >
+     >* Sie können GenStudio-Datensatztypen in Planning mit AEM Assets oder Inhaltsfragmenten in Adobe Experience Manager verbinden. Sie müssen über eine AEM-Lizenz verfügen, um eine Verbindung zu AEM-Objekten herstellen zu können.
+     >
+
+1. (Bedingt) Wenn Sie GenStudio-Datensatztypen aus GenStudio Workspace in Planning mit AEM-Assets oder Inhaltsfragmenten verbunden haben, gehen Sie folgendermaßen vor, um zu AEM zu navigieren und GenStudio-Datensatzinformationen anzuzeigen:
+
+   1. (Bedingt) Klicken Sie in einem verbundenen AEM-Asset im GenStudio-Arbeitsbereich auf den Namen des Assets und dann auf das Symbol **In AEM öffnen** ![In AEM öffnen](assets/open-in-aem-icon.png), um das Asset in AEM zu öffnen.
+   1. Klicken Sie auf die **Kampagne** im rechten Bedienfeld, um sie auszuwählen.
+
+      Der Name der mit dem Asset verbundenen Kampagne wird im Feld **Kampagne** angezeigt. Dies ist ein schreibgeschütztes Feld.
+Wenn das Asset auch mit einer **Region**, **Persona**, **Product** oder **Channel** im GenStudio-Arbeitsbereich in Planning verbunden ist, werden die Namen der entsprechenden Felder für diese Datensatztypen auf der Registerkarte **Campaign** des Assets im schreibgeschützten Modus angezeigt.
+   1. (Bedingt) Klicken Sie in Planning auf den Namen eines verbundenen AEM-Inhaltsfragments im GenStudio-Arbeitsbereich und dann auf das Symbol **In AEM öffnen** ![In AEM öffnen](assets/open-in-aem-icon.png) um das Inhaltsfragment in AEM zu öffnen.
+   1. Klicken Sie auf das **Startseite**-Symbol ![Startseite-Symbol in AEM](assets/home-icon-in-aem.png), um zu einer Liste von Inhaltsfragmenten zu wechseln, und klicken Sie dann auf das **Informationen**-Symbol ![Informationssymbol in AEM](assets/info-icon-in-aem.png) rechts neben dem Namen des Inhaltsfragments.
+   1. Klicken Sie auf **Registerkarte** Metadaten“ im rechten Bedienfeld.
+
+      Der Name der mit dem Inhaltsfragment verbundenen Kampagne wird im Feld **xdm: campaignName** angezeigt. Dies ist ein schreibgeschütztes Feld. <!--tried to log a bug to rename this field-->
+Wenn das Asset in Planning auch mit einer **Region**, **Persona**, **Product** oder **Channel** im GenStudio-Arbeitsbereich verbunden ist, werden die Namen der entsprechenden Felder für diese Datensatztypen auf der Registerkarte **Metadaten** im Inhaltsfragment im schreibgeschützten Modus angezeigt.
 
 1. Bewegen Sie den Mauszeiger über ein Feld in der Tabellenansicht und klicken Sie dann auf das Dropdown-Menü, um eine der folgenden Aktionen auszuführen:
 

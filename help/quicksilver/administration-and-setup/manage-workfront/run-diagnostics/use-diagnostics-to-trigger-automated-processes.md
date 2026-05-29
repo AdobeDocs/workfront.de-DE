@@ -10,8 +10,8 @@ author: Lisa
 exl-id: 9243ee60-006b-4628-bde7-5b037dde7511
 source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 11%
+source-wordcount: '329'
+ht-degree: 20%
 
 ---
 
@@ -25,7 +25,7 @@ Sie können Diagnostics verwenden, um automatisierte Prozesse wie zeitbasierte S
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,11 +38,11 @@ Sie können Diagnostics verwenden, um automatisierte Prozesse wie zeitbasierte S
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
-   <td>Systemadministrator</td> 
+   <td>Systemadmin</td> 
   </tr> 
  </tbody> 
 </table>

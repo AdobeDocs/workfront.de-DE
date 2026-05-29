@@ -7,8 +7,8 @@ feature: Product Announcements, Workfront Goals
 exl-id: 9898531c-f520-46ed-8943-0878e5193a33
 source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 0%
+source-wordcount: '607'
+ht-degree: 1%
 
 ---
 
@@ -54,7 +54,7 @@ Um einige der Rückmeldungen zu integrieren, die wir von Ihnen erhalten haben, h
 Informationen zum Hinzufügen und Bearbeiten von Ergebnissen finden Sie in den folgenden Artikeln:
 
 * [Hinzufügen von Ergebnissen zu Zielen in Adobe Workfront-Zielen](../../../../workfront-goals/results-and-activities/add-results-to-goals.md)
-* [Ergebnisse und Aktivitäten in Adobe Workfront Goals bearbeiten](../../../../workfront-goals/results-and-activities/edit-results-and-activities.md)
+* [Bearbeiten von Ergebnissen und Aktivitäten in Adobe Workfront Goals](../../../../workfront-goals/results-and-activities/edit-results-and-activities.md)
 
 ## Neugestalteter Abschnitt zur Zielausrichtung
 

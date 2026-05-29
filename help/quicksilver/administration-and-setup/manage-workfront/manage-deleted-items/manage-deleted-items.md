@@ -13,11 +13,11 @@ exl-id: 6b76ff52-2809-4d11-aeb0-a328e1efc489
 source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 0%
+ht-degree: 12%
 
 ---
 
-# Gelöschte Elemente verwalten
+# Verwalten von gelöschten Elementen
 
 Dieser Abschnitt enthält die folgenden Artikel:
 

@@ -8,7 +8,7 @@ feature: Get Started with Workfront
 exl-id: dd383bd4-da30-45ea-889e-e6b49416974b
 source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
-source-wordcount: '2442'
+source-wordcount: '2366'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
   </tr> 
   <tr> 
    <td> <p><strong>Ich muss ein Projekt genehmigen</strong> </p> <p>Bei Aufgabengebietsgenehmigungen hängt es davon ab, welche Benutzer eine E-Mail-Benachrichtigung für dieses Ereignis erhalten, ob die Einstellung "[!UICONTROL Genehmiger, die nicht dem Projektteam angehören müssen (für Genehmigungsprozesse, die eine Rolle beinhalten)]" aktiviert ist (wie in <a href="../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Konfigurieren globaler Genehmigungseinstellungen</a> beschrieben). </p> <p><strong>Wenn diese Option aktiviert ist</strong> wird eine E-Mail-Benachrichtigung an alle Benutzer im System mit dem Aufgabengebiet gesendet, das mit der Genehmigung verknüpft ist. </p> <p><strong>Wenn diese Option deaktiviert ist</strong> erhalten nur Projektteammitglieder mit dem Aufgabengebiet, das mit dem Genehmigungsprozess verknüpft ist, eine E-Mail-Benachrichtigung.</p> <p>Wenn die Genehmigung mit einem Benutzer verknüpft ist, erhält dieser Benutzer die Benachrichtigung.</p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail ist: <em>[!UICONTROL Projekt mit ausstehender Genehmigung]: &lt;Projektname&gt;</em></p> <p> Der Betreff der täglichen Digest-Benachrichtigung ist: <em> [!UICONTROL Digest of Action Needed] &lt;Datum der täglichen Digest&gt; </em></p> </td> 
-   <td> <p>Projektname<br>Portfolio-Name<br>Projekt-Referenznummer<br>Name des Benutzers, der die Genehmigung eingereicht hat<br>Status der ausstehenden Genehmigung<br>Datum und Uhrzeit der Anforderung der Genehmigung<br>Projektpriorität<br>Genehmigungsschritt ausstehende Genehmigung<br>Anzahl der Entscheidungen, die auf die Genehmigung warten<br>Name der genehmigenden Person (nur Benutzer)<br>[!UICONTROL Geplantes Abschlussdatum des Projekts] <br><strong>[!UICONTROL Genehmigungsentscheidung treffen]</strong><br><br>*Gesamtzahl der ausstehenden Projektgenehmigungen <strong>*Link zu </strong><br>[!UICONTROL Projektgenehmigungen]<strong>*Alle Genehmigungen anzeigen&rbrack;</strong> <br>*Tag des täglichen Digest</p> </td> 
+   <td> <p>Projektname<br>Portfolio-Name<br>Projekt-Referenznummer<br>Name des Benutzers, der die Genehmigung eingereicht hat<br>Status der ausstehenden Genehmigung<br>Datum und Uhrzeit der Anforderung der Genehmigung<br>Projektpriorität<br>Genehmigungsschritt ausstehende Genehmigung<br>Anzahl der Entscheidungen, die auf die Genehmigung warten<br>Name der genehmigenden Person (nur Benutzer)<br>[!UICONTROL Geplantes Abschlussdatum des Projekts] <br><strong>[!UICONTROL Genehmigungsentscheidung treffen]</strong><strong><br>*Gesamtzahl der ausstehenden Projektgenehmigungen <br>*Link zu <strong>[!UICONTROL Projektgenehmigungen]</strong><br>*Alle Genehmigungen anzeigen&rbrack;</strong> <br>*Tag des täglichen Digest</p> </td> 
    <td><strong>Sofort und Täglich</strong> </td> 
   </tr> 
   <tr> 

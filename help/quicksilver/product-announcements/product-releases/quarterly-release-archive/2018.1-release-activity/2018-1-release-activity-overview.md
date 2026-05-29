@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Übersicht über die Versionsaktivität 2018.1
+title: Überblick über Version 2018.1
 description: Diese Seite enthält Informationen zu den in der Version 2018.1 verfügbaren Funktionen.
 author: Luke
 feature: Product Announcements
@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: f972c717-305b-4660-a094-ccfcf563df0f
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 0%
+source-wordcount: '644'
+ht-degree: 2%
 
 ---
 
-# Übersicht über die Versionsaktivität 2018.1
+# Überblick über Version 2018.1
 
 Diese Seite enthält Informationen zu den in der Version 2018.1 verfügbaren Funktionen.  
 
@@ -73,7 +73,7 @@ In den folgenden Abschnitten werden die Verbesserungen beschrieben, die für End
 * [Bearbeitungsmodus im Gantt-Diagramm aktivieren](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md#enable-edit-mode-in-gantt) 
 * [Vorgänger beim Bearbeiten des Gantt-Diagramms entfernen](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md#remove-predecessors-when-editing-the-gantt-chart)
 * [Gantt-Diagramm - Aktualisierungen](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-4-release-activity.md#gantt-chart-updates) 
-* [Neuer Portfolio-Optimizer](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-4-release-activity.md#new-portfolio-optimizer) 
+* [Neuer Portfolio Optimizer](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-4-release-activity.md#new-portfolio-optimizer) 
 
 ### Home-Bereich (Meine Arbeit aktualisiert)
 
@@ -90,7 +90,7 @@ In den folgenden Abschnitten werden die Verbesserungen beschrieben, die für End
 * [Leere Iteration erstellen und später aktualisieren](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md#create-a-blank-iteration-and-update-it-later)
 * [Die Felder „Fokus“ und „Kapazität“ werden beim Erstellen einer Iteration vorab ausgefüllt](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md#focus-and-capacity-fields-are-prepopulated)
 
-### Verbesserungen bei der Korrekturabzugsanzeige (HTML5)
+### Verbesserungen bei der Korrekturabzugsansicht (HTML5)
 
 * [Neue Korrekturabzugs-Viewer-Verbesserungen](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-2-release-activity.md#html5-proofing-viewer-improvements) 
 * [Vergleichsmodus](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-3-release-activity.md#compare-mode)
@@ -130,5 +130,5 @@ In den folgenden Abschnitten werden die Verbesserungen beschrieben, die für End
 
 ## API-Verbesserungen {#api-enhancements}
 
-* [Neue Funktionen in der API-Version 9](../../../../wf-api/api/new-api-version-9.md) 
+* [Neue Funktionen in der API-Version 9](../../../../wf-api/api/new-api-version-9.md) 
 * [Neue Ressourcen zu Ereignisabonnements hinzugefügt](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-beta-1-release-activity.md#new-resources-added-to-event-subscriptions)

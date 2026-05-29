@@ -10,8 +10,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 4%
+source-wordcount: '1003'
+ht-degree: 7%
 
 ---
 
@@ -46,7 +46,7 @@ Informationen zum Hinzufügen, Verschieben, Ändern der Größe oder Löschen vo
 Im Folgenden finden Sie die 11 Widgets, aus denen Sie derzeit wählen können, sowie eine Zusammenfassung der angezeigten Informationen:
 
 * **Meine Arbeit**\
-    Dieses Widget ist ein hervorragender Ausgangspunkt für die Verwaltung einer Vielzahl von Aufgaben. Es zeigt alle Ihnen zugewiesenen Aufgaben, Probleme und Anfragen an einem Ort an. Sie können auf die Schaltfläche Bearbeiten klicken, um mit der Bearbeitung eines Elements zu beginnen, oder auf die Schaltfläche Fertig , um das Element als abgeschlossen zu markieren. Sie können auch über das Widget Meine Arbeit Informationen (Status, Bedingung, Prozent abgeschlossen) zu Aufgaben und Problemen aktualisieren, die Zeit protokollieren und Aktualisierungen hinzufügen.
+    Dieses Widget ist ein hervorragender Ausgangspunkt für die Verwaltung einer Vielzahl von Aufgaben und zeigt alle zugewiesenen Aufgaben, Probleme und Anfragen an einem Ort an. Sie können auf die Schaltfläche Bearbeiten klicken, um mit der Bearbeitung eines Elements zu beginnen, oder auf die Schaltfläche Fertig , um das Element als abgeschlossen zu markieren. Sie können auch über das Widget Meine Arbeit Informationen (Status, Bedingung, Prozent abgeschlossen) zu Aufgaben und Problemen aktualisieren, die Zeit protokollieren und Aktualisierungen hinzufügen.
 
 * **Pinnwände**\
     Zeigt alle Boards an, die Sie erstellt haben oder die Sie zur Verwendung eingeladen wurden. Sie können auch eine neue Pinnwand erstellen, die auf den folgenden Vorlagen basiert: Grundlegende Pinnwand, Kanban-Pinnwand, retrospektive Pinnwand, dynamische Pinnwand

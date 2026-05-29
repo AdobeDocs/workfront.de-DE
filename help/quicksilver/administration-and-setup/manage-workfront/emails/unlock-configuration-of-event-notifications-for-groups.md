@@ -10,8 +10,8 @@ role: Admin
 exl-id: 056d76c1-7e9b-49b9-974a-75765e53b7fd
 source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 1%
+source-wordcount: '553'
+ht-degree: 6%
 
 ---
 
@@ -31,7 +31,7 @@ Wenn Admins eine Ereignisbenachrichtigung für eine Gruppe konfigurieren, wirkt 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,7 +45,7 @@ Wenn Admins eine Ereignisbenachrichtigung für eine Gruppe konfigurieren, wirkt 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>
    <p>Standard</p>
-   <p>Plan</p></td> 
+   <p>Abo</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -54,7 +54,7 @@ Wenn Admins eine Ereignisbenachrichtigung für eine Gruppe konfigurieren, wirkt 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -71,7 +71,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 1. Stellen Sie sicher **dass die Registerkarte** Ereignisbenachrichtigungen“ geöffnet ist.
 1. Klicken Sie auf das Symbol rechts neben der Benachrichtigung, um es auf die Position Gesperrtes ![Sperrsymbol](assets/lock-toggle-button.png) oder Entsperrtes ![Entsperrsymbol](assets/unlock-toggle-button.png) zu ändern.
 
-   Oder
+   ODER
 
    Wenn Sie mehrere Benachrichtigungen gleichzeitig entsperren oder sperren möchten, wählen Sie diese aus und klicken Sie dann auf die Schaltfläche Entsperren ![Entsperrsymbol](assets/unlock-icon-toolbar.png) oder Sperrsymbol ![Sperrsymbol](assets/lock-icon-locked-qs.png), die in der Symbolleiste über der Liste angezeigt wird.
 

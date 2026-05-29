@@ -11,7 +11,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '696'
 ht-degree: 5%
 
 ---
@@ -40,7 +40,7 @@ Die folgenden Funktionen können sich auf den kritischen Pfad eines Projekts aus
      >Wenn sich das Nachfolgedatum einer Aufgabe nicht direkt auf das Datum der von ihr abhängigen Aufgaben oder das Projektdatum auswirkt, befindet sich die Nachfolgeaufgabe nicht auf dem kritischen Pfad.
      >
      >
-     >![Nachfolger befindet sich nicht auf kritischem Pfad](assets/successor-not-on-critical-path-350x150.png)     >
+     >![Nachfolger befindet sich nicht auf kritischem Pfad](assets/successor-not-on-critical-path-350x150.png) >
      >
 
    * Wenn eine Teilaufgabe als Aufgabe vom Typ „Kritischer Pfad“ identifiziert wird, wird die übergeordnete Aufgabe auch als Aufgabe vom Typ „Kritischer Pfad“ identifiziert, wenn das voraussichtliche Startdatum und die Uhrzeit der übergeordneten Aufgabe mit der Zeit der Teilaufgabe übereinstimmen.

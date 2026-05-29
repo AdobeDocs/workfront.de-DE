@@ -9,8 +9,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 5%
+source-wordcount: '282'
+ht-degree: 4%
 
 ---
 
@@ -39,7 +39,7 @@ Weitere Informationen finden Sie unter [Planen einer automatischen Berichtsberei
 >[!NOTE]
 >
 >* Vorschau: 30. April 2025
->* Produktions-Schnellveröffentlichung: Freitag, 15. Mai 2025
+>* Produktions-Schnellveröffentlichung: 15. Mai 2025
 >* Produktion für alle Kunden: 17. Juli 2025
 
 Das Verhalten der Benutzer-Platzhalter wurde aktualisiert, um beim Filtern eines Berichts einen Nullwert auszuschließen. Diese Änderung hilft dem Filter, genauere Ergebnisse zu erzielen, anstatt Ergebnisse zurückzugeben, bei denen ein Benutzer nicht richtig konfiguriert ist (ein Nullergebnis).

@@ -9,8 +9,8 @@ feature: Resource Management
 exl-id: 0db9fbb3-4e94-47bd-b272-00b3ca4decaf
 source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 0%
+source-wordcount: '561'
+ht-degree: 7%
 
 ---
 
@@ -51,7 +51,7 @@ Um Zeit für Ihre Ressourcen für die Projekte zu budgetieren, denen Sie sie zuw
   >
   >Der Bereich Ressourcenbudgetierung eines Projekts ist der Ressourcenplaner auf Projektebene. Wenn Sie Ressourcen im Business Case eines Projekts budgetieren, werden diese Informationen auch im Ressourcenplaner auf Systemebene angezeigt.
 
-* Verwenden Sie den Adobe Workfront-Szenarioplaner, um Ressourcen auf einer allgemeinen Ebene und über mehrere Initiativen hinweg zu verwalten und Ihre Arbeit an der Strategie Ihres Unternehmens auszurichten. Für den Szenario-Planer ist eine zusätzliche Lizenz erforderlich. Weitere Informationen zum Workfront-Szenarioplaner finden Sie unter [Szenarioplaner - Übersicht](../../scenario-planner/scenario-planner-overview.md).
+* Verwenden Sie den Adobe Workfront-Szenarioplaner, um Ressourcen auf einer allgemeinen Ebene und über mehrere Initiativen hinweg zu verwalten und Ihre Arbeit an der Strategie Ihres Unternehmens auszurichten. Für den Szenarienplaner ist eine zusätzliche Lizenz erforderlich. Weitere Informationen zum Workfront-Szenarienplaner finden Sie unter [Überblick über den Szenarienplaner](../../scenario-planner/scenario-planner-overview.md).
 
   Sie können den Ressourcenplaner sowohl auf Systemebene für mehrere Projekte als auch zum Budgetieren von Ressourcen für ein einzelnes Projekt im Bereich Ressourcenbudgetierung des Business Cases verwenden. Weitere Informationen zur Budgetierung von Ressourcen für ein Projekt im Business Case finden Sie [Budgetressourcen im Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
@@ -67,7 +67,7 @@ Um Zeit für Ihre Ressourcen für die Projekte zu budgetieren, denen Sie sie zuw
 
 * Mit dem Szenario-Planer können Sie Pläne auf Unternehmensebene für mehrere Initiativen erstellen, die die allgemeinen strategischen Ergebnisse Ihres Unternehmens beschreiben. Weitere Informationen finden Sie unter [Erste Schritte mit dem Szenario-Planer](../../scenario-planner/get-started-with-scenario-planning.md).
 
-  Für den Szenario-Planer ist eine zusätzliche Lizenz erforderlich. Weitere Informationen zum Workfront-Szenarioplaner finden Sie unter [Szenarioplaner - Übersicht](../../scenario-planner/scenario-planner-overview.md).
+  Für den Szenarienplaner ist eine zusätzliche Lizenz erforderlich. Weitere Informationen zum Workfront-Szenarienplaner finden Sie unter [Überblick über den Szenarienplaner](../../scenario-planner/scenario-planner-overview.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Prerequisites for resource planning</h2>

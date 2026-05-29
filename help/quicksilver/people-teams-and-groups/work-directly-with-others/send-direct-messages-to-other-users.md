@@ -9,12 +9,12 @@ feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
 source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 0%
+source-wordcount: '565'
+ht-degree: 7%
 
 ---
 
-# Senden von Direktnachrichten an andere Benutzer
+# Senden von Direktnachrichten an andere Benutzende
 
 [!DNL Adobe Workfront] können Sie schnell und einfach Nachrichten, die mit keinem Arbeitselement in Verbindung stehen, direkt an andere [!DNL Workfront] senden. Nachrichten, die wie in diesem Abschnitt beschrieben gesendet werden[!UICONTROL &#x200B; werden auf der Profilseite des Benutzers auf der Registerkarte &#x200B;]Updates“ angezeigt und sind für alle Benutzer sichtbar. Weitere Informationen zu Aktualisierungen finden Sie unter [Arbeitselemente aktualisieren und Aktualisierungen anzeigen: Artikelindex](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
@@ -27,7 +27,7 @@ Der Benutzer, an den Sie die Nachricht senden, erhält die folgenden Arten von B
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,12 +45,12 @@ Der Benutzer, an den Sie die Nachricht senden, erhält die folgenden Arten von B
    <p>Überprüfen oder höher</p>
    <p>Zum Senden einer Nachricht über die Benutzerliste ist Folgendes erforderlich:</p>
    <p>Standard</p>
-   <p>Arbeit oder höher</p></td>
+   <p>Work oder höher</p></td>
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -93,5 +93,5 @@ Diese Option ist nur verfügbar, wenn Sie über eine Standard-, Plan- oder Arbei
    >[!TIP]
    >
    >Die Einstellung [!UICONTROL **Privat für meine**]) ist nur verfügbar, wenn Ihr Workfront-Profil mit einer Firma verknüpft ist.
-1. Klicken Sie [!UICONTROL **Senden**].
+1. Klicken Sie auf [!UICONTROL **Senden**].
 Die Nachricht wird oben in der Nachrichtenliste auf der Registerkarte **[!UICONTROL Updates]** auf der Profilseite jedes getaggten Benutzers veröffentlicht.

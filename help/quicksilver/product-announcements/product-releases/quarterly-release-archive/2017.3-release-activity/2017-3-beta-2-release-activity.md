@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Versionsaktivität von Beta 2 2017.3
+title: Veröffentlichungen für Version 2017.3 Beta 2
 description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 2 Version 2017.3 verfügbar waren. Die Funktion auf dieser Seite wurde am 23. August 2017 in der Vorschau-Umgebung verfügbar gemacht. Sie wird Anfang November 2017 in der Produktionsumgebung bereitgestellt.
 author: Luke
 feature: Product Announcements
@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: f3293166-ef91-4623-828b-9530d746296d
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 0%
+source-wordcount: '831'
+ht-degree: 1%
 
 ---
 
-# Versionsaktivität von Beta 2 2017.3
+# Veröffentlichungen für Version 2017.3 Beta 2
 
 Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 2 Version 2017.3 verfügbar waren. Die Funktion auf dieser Seite wurde am 23. August 2017 in der Vorschau-Umgebung verfügbar gemacht. Sie wird Anfang November 2017 in der Produktionsumgebung bereitgestellt.
 
@@ -22,7 +22,7 @@ Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorscha
 >
 > Die auf dieser Seite beschriebene Funktion kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller Änderungen in Version 2017.3 finden Sie unter  [Übersicht über die Versionsaktivität 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
+Eine Liste aller in 2017.3 vorgenommenen Änderungen finden Sie unter [Übersicht über die Versionsaktivität 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
 
 Die Beta-Version 2017.3 enthält Verbesserungen für Workfront-Administratoren und andere Benutzende:
 
@@ -61,7 +61,7 @@ Vor dieser Änderung konnten Sie nicht sehen, ob ein Bericht in einem Dashboard 
 
 Jetzt können Sie den in einem Auslastungsbericht angezeigten Inhalt nach einem Projekt filtern.
 
-Weitere Informationen finden Sie unter [Übersicht über den Ressourcenauslastungsbericht](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in  [Überblick über den Bericht zur Ressourcenauslastung](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Weitere Informationen finden Sie [Übersicht über den Ressourcenauslastungsbericht](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) unter [Übersicht über den Ressourcenauslastungsbericht](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Kosteninformationen im Auslastungsbericht für ein Projekt anzeigen {#view-cost-information-in-the-utilization-report-on-a-project}
 
@@ -69,7 +69,7 @@ Jetzt können Sie im Auslastungsbericht neben Ihren Informationen auch Kosteninf
 
 Vor dieser Änderung waren im Auslastungsbericht nur Stundeninformationen verfügbar.
 
-Weitere Informationen finden Sie unter [Übersicht über den Ressourcenauslastungsbericht](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in  [Überblick über den Bericht zur Ressourcenauslastung](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Weitere Informationen finden Sie [Übersicht über den Ressourcenauslastungsbericht](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) unter [Übersicht über den Ressourcenauslastungsbericht](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## An- und Abmeldung von Benutzern für Elemente {#subscribing-and-unsubscribing-users-to-items}
 
@@ -79,7 +79,7 @@ Wenn Sie Benutzende für ein Element an- oder abmelden, wird automatisch ein Ein
 
 Nach dem Abonnieren erhält der Benutzer eine In-App-Benachrichtigung, wenn ein Kommentar zum Aktualisierungsverlauf des abonnierten Objekts abgegeben wird. Darüber hinaus kann der Abonnent wählen, E-Mail- und mobile Benachrichtigungen zu erhalten.
 
-Weitere Informationen zum An- und Abmelden von Benutzern für Objekte finden Sie unter [Elemente in Adobe Workfront abonnieren](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md) in   [Elemente in Adobe Workfront abonnieren](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md).
+Weitere Informationen zum An- und Abmelden von Benutzern für Objekte finden Sie unter [Elemente in Adobe Workfront abonnieren](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md) in [Elemente in Adobe Workfront abonnieren](../../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md).
 
 ## Anzeigen der Abonnentenliste in einem Bericht oder einer Ansicht {#viewing-the-subscriber-list-in-a-report-or-view}
 
@@ -89,7 +89,7 @@ Sie können schnell anzeigen, wer ein Projekt, eine Aufgabe oder ein Problem abo
 
 Das Erscheinungsbild von Kommunikations-E-Mails wurde aktualisiert, sodass Sie viel mehr Kontext zu den Kommunikationen haben, die mit einem Objekt gemacht werden. Sie können jetzt schnell einem Kommentar-Thread folgen und sehen, wer in den Nachrichten enthalten ist.
 
-Weitere Informationen finden Sie unter [Adobe Workfront-Benachrichtigungen](../../../../workfront-basics/using-notifications/wf-notifications.md) in  [Adobe Workfront-](../../../../workfront-basics/using-notifications/wf-notifications.md).
+Weitere Informationen finden Sie unter [Adobe Workfront-Benachrichtigungen](../../../../workfront-basics/using-notifications/wf-notifications.md) in [Adobe Workfront-](../../../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Beschränken des Zugriffs auf Workflows durch Staging-Aktivierung (Workfront Proof) {#restrict-access-to-workflows-by-stage-activation-workfront-proof}
 

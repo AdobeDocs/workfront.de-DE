@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-3-release-activity
-title: Projektverbesserungen in 2019.3
+title: Verbesserungen bei Projekten in Version 2019.3
 description: Auf dieser Seite werden alle Änderungen beschrieben, die mit Projektverbesserungen in der Version 2019.3 vorgenommen wurden. Es wurde in der Woche vom 19. August 2019 in der Produktionsumgebung bereitgestellt.
 author: Luke
 feature: Product Announcements
@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 127d695c-74e4-45f9-b5f6-55c1d05935cf
 source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: '1385'
 ht-degree: 0%
 
 ---
 
-# Projektverbesserungen in 2019.3
+# Verbesserungen bei Projekten in Version 2019.3
 
 Auf dieser Seite werden alle Änderungen beschrieben, die mit Projektverbesserungen in der Version 2019.3 vorgenommen wurden. Es wurde in der Woche vom 19. August 2019 in der Produktionsumgebung bereitgestellt.
 

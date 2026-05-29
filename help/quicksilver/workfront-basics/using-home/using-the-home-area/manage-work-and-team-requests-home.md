@@ -1,15 +1,15 @@
 ---
 product-area: projects;agile-and-teams
 navigation-topic: use-the-home-area
-title: Arbeits- und Teamanfragen im Bereich Startseite verwalten
+title: Verwalten von Arbeits- und Team-Anfragen im Startseiten-Bereich
 description: Wenn Ihnen Arbeitsaufgaben und Probleme zugewiesen werden, werden diese im Widget „Meine Arbeit“, im Widget „Meine Aufgaben“ und im Widget „Meine Probleme“ aufgelistet.  Sie können Arbeitselemente und Anfragen anzeigen, bearbeiten oder entfernen.
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+source-git-commit: f1ab7f32131f997f65fb56834fa683ed6a020b0a
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 2%
+source-wordcount: '808'
+ht-degree: 4%
 
 ---
 
@@ -85,7 +85,9 @@ So zeigen Sie ein Arbeitselement im Widget Meine Arbeit an:
 
 ## Zugriff auf eine Teamanfrage im Widget „Teamanfrage“
 
-Sie können direkt über das Widget „Teamanfragen“ im Bereich &quot;[!UICONTROL &quot; auf eine Ihrem Team zugewiesene &#x200B;] zugreifen. Weitere Informationen zu Teamanfragen finden Sie unter [Teamanfragen - Übersicht](../../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
+Sie können direkt über das Widget „Teamanfragen“ im Bereich &quot;[!UICONTROL &quot; auf eine Ihrem Team zugewiesene &#x200B;] zugreifen. Das [!UICONTROL Team-Anfragen]-Widget kann bis zu 2.000 Anfragen für ein Team anzeigen.
+
+Weitere Informationen zu Teamanfragen finden Sie unter [Teamanfragen - Übersicht](../../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
 
 So greifen Sie auf eine Teamanfrage zu:
 

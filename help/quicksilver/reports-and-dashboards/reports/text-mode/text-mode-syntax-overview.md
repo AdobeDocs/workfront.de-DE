@@ -11,8 +11,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '1862'
-ht-degree: 8%
+source-wordcount: '1864'
+ht-degree: 10%
 
 ---
 
@@ -229,7 +229,7 @@ Weitere `valueformat` finden Sie in den folgenden Artikeln:
 
 #### `width` für Ansichten
 
-`width=` ist die Codezeile, in der Sie die Breite jeder Spalte in Pixel angeben können. Workfront bietet eine empfohlene Breite für jedes Feld. Je nach Feldtyp und Format können Sie jedoch Anpassungen vornehmen.
+`width=` ist die Codezeile, in der Sie die Breite jeder Spalte in Pixel angeben können. Workfront bietet eine empfohlene Breite für jedes Feld. Je nach Typ des Feldes und Format können Sie jedoch Anpassungen vornehmen.
 
 Sie müssen die zusätzliche Code-Zeile `usewidths=true` verwenden, um die für die Spalte angegebene Breite zu erzwingen.
 
@@ -241,7 +241,7 @@ Sie müssen die zusätzliche Code-Zeile `usewidths=true` verwenden, um die für 
 
 #### `stretch` für Ansichten
 
-Mit `stretch` wird ermittelt, welche Spalten zusätzlichen Platz belegen, der für die Ansicht nicht benötigt wird. Die Breite der Benutzeroberfläche des Arbeitsbereichs beträgt für typische Benutzende etwa 850 Pixel. Das bedeutet, dass bei einer Ansicht mit vier Spalten (je 150 Pixel) die Ansicht 600 von 850 Pixel ausfüllt. Es gibt 250 zusätzliche Pixel in der Benutzeroberfläche, die zu den Spalten hinzugefügt werden, für die ein Ausdehnungsprozentsatz angegeben ist.
+Mit `stretch` wird ermittelt, welche Spalten zusätzlichen Platz belegen, der für die Ansicht nicht benötigt wird. Die Breite der Benutzeroberfläche des Arbeitsbereichs beträgt für typische Benutzende etwa 850 Pixel. Das bedeutet, dass eine Ansicht mit vier Spalten (jeweils 150 Pixel) 600 von 850 Pixeln einnimmt. Es gibt 250 zusätzliche Pixel in der Benutzeroberfläche, die zu den Spalten hinzugefügt werden, für die ein Ausdehnungsprozentsatz angegeben ist.
 
 Die Ausdehnung einer Spalte wird erzwungen, wenn Sie die zusätzliche Code-Zeile `usewidths=true` für mindestens eine der Spalten in der Ansicht verwenden.
 

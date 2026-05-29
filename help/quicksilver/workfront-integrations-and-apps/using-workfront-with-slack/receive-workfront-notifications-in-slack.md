@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '612'
 ht-degree: 6%
 
 ---
@@ -48,7 +48,7 @@ Sie können jedoch [!DNL Workfront] Benachrichtigungen deaktivieren, die Sie mö
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -61,7 +61,7 @@ Bevor Sie [!DNL Workfront]-Benachrichtigungen in [!DNL Slack] erhalten können, 
 
 ## Konfigurieren von [!DNL Workfront]-Benachrichtigungen für [!DNL Slack] {#configure-workfront-notifications-for-slack}
 
-1. (Bedingt) Nachdem [!DNL Workfront] zu Ihrer [!DNL Slack]-Instanz hinzugefügt wurde, melden Sie sich von [!DNL Workfront] aus bei [!DNL Slack] an.\
+1. (Bedingt) Nachdem [!DNL Workfront] zu Ihrer [!DNL Slack]-Instanz hinzugefügt wurde, melden Sie sich von [!DNL Slack] aus bei [!DNL Workfront] an.\
    Weitere Informationen zur Anmeldung bei [!DNL Workfront] von [!DNL Slack] finden Sie unter [Zugriff [!DNL Adobe Workfront] von [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. Geben Sie in einem beliebigen Kanal einen der folgenden Befehle in das Feld Nachricht ein:
@@ -106,7 +106,7 @@ Benachrichtigungen in der [!DNL Workfront] können nicht deaktiviert werden.
 So verwalten Sie [!DNL Workfront]-Benachrichtigungen für [!DNL Slack]:
 
 1. Anmelden bei [!UICONTROL Slack].
-1. Melden Sie sich von [!DNL Workfront] aus bei [!DNL Slack] an.\
+1. Melden Sie sich von [!DNL Slack] aus bei [!DNL Workfront] an.\
    Weitere Informationen zur Anmeldung bei [!DNL Workfront] von [!DNL Slack] finden Sie im Abschnitt „Anmelden bei [!DNL Workfront] von [!DNL Slack]&quot; in [Zugriff [!DNL Adobe Workfront] von [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
 1. Stellen Sie sicher, dass Ihre [!DNL Workfront] Benachrichtigungen für [!DNL Slack] aktiviert sind.\

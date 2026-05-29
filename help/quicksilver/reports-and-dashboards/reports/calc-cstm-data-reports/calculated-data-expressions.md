@@ -11,8 +11,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '2551'
-ht-degree: 100%
+source-wordcount: '2553'
+ht-degree: 98%
 
 ---
 
@@ -70,7 +70,7 @@ Beispiel:
   `valuefield=project:name`
 
 
-  Oder
+  ODER
 
   `valueexpression={project}.{name}`
 
@@ -411,7 +411,7 @@ Sie können ein berechnetes benutzerdefiniertes Feld erstellen, das einen als Te
   </tr>
   <tr> 
    <td><strong>ARRAYELEMENT</strong> </td> 
-   <td> <p>Gibt das Element unter der im Array angegebenen Nummer zurück. Wenn der Index außerhalb des zulässigen Bereichs liegt, wird ein leerer Wert zurückgegeben.</p> 
+   <td> <p>Gibt das Element mit der angegebenen Zahl im Array zurück. Wenn der Index außerhalb des Bereichs liegt, gibt er leer zurück.</p> 
    <p>Der Ausdruck wird wie folgt formatiert:</p>
    <p><code>ARRAYELEMENT(array, number)</code></p> 
    </td> 

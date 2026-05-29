@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: notifications
-title: 'Benachrichtigungen: Delegation'
+title: 'Benachrichtigungen: Delegierung'
 description: Die folgenden Benachrichtigungen informieren Sie über Aufgaben- und Problemdelegierungen, die Sie oder andere für Sie in Adobe Workfront vorgenommen haben.
 author: Courtney
 feature: Get Started with Workfront
@@ -9,11 +9,11 @@ exl-id: bd329c5a-4440-4bb7-96f1-30e83c213851
 source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
 workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Benachrichtigungen: Delegation
+# Benachrichtigungen: Delegierung
 
 Die folgenden Benachrichtigungen informieren Sie über Aufgaben- und Problemdelegierungen, die Sie oder andere in [!DNL Adobe Workfront] für Sie vorgenommen haben.
 

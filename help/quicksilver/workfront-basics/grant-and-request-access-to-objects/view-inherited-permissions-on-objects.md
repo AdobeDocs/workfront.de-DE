@@ -96,7 +96,7 @@ Die Anzeige geerbter Berechtigungen ist für alle Objekte identisch.
 So zeigen Sie geerbte Berechtigungen für ein Projekt an:
 
 1. Wechseln Sie zu einem Projekt, dessen Freigabeberechtigungen Sie anzeigen möchten.
-1. Klicken Sie auf die **&#x200B;**&#x200B;Mehr![](assets/more-icon.png) und dann auf **Freigabe**.
+1. Klicken Sie auf die ![](assets/more-icon.png) **Mehr** und dann auf **Freigabe**.
 
 1. Erweitern Sie die Liste **Geerbte Berechtigungen** .
 

@@ -9,16 +9,16 @@ feature: People Teams and Groups
 exl-id: dc9accf0-7ef4-4555-9b1c-d69b2110f3da
 source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 2%
+source-wordcount: '300'
+ht-degree: 14%
 
 ---
 
-# Bereits verwendeter Benutzername
+# Benutzername wird bereits verwendet
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto">
  <col> 
@@ -32,7 +32,7 @@ ht-degree: 2%
    <td>Adobe Workfront-Lizenz</td> 
    <td>
    <p>Standard</p>
-   <p>Plan</p></td>
+   <p>Abo</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -41,7 +41,7 @@ ht-degree: 2%
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

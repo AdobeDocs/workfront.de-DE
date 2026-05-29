@@ -11,8 +11,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '3573'
-ht-degree: 3%
+source-wordcount: '3591'
+ht-degree: 4%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 3%
     <ul> 
      <li style="font-weight: bold;">Accessor</li> 
      <li style="font-weight: bold;">Kundin bzw. Kunde</li> 
-     <li style="font-weight: bold;">Benutzer  </li> 
+     <li style="font-weight: bold;">Benutzerin bzw. Benutzer  </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -108,7 +108,7 @@ ht-degree: 3%
    <td>Referenzfelder</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;">Kunde  </li> 
+     <li style="font-weight: bold;">Kundin bzw. Kunde  </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -148,7 +148,7 @@ ht-degree: 3%
    <td>Referenzfelder</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;">Kunde  </li> 
+     <li style="font-weight: bold;">Kundin bzw. Kunde  </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -996,7 +996,7 @@ Die ReservedTime -Ressource hat das Flag REPORTABLE hinzugefügt.
    <td>Referenzfelder</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>Aufgabe</p> <p style="font-weight: normal;">entfernt  </p> </li> 
+     <li style="font-weight: bold;"> <p>Aufgabe</p> <p style="font-weight: normal;">Entfernt  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -1121,7 +1121,7 @@ Ein Aufgabenobjekt stellt ein Arbeitselement dar, das als Schritt zum Erreichen 
    <td>Referenzfelder</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>reservierteZeit</p> <p style="font-weight: normal;">entfernt  </p> </li> 
+     <li style="font-weight: bold;"> <p>reservierteZeit</p> <p style="font-weight: normal;">Entfernt  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -1380,7 +1380,7 @@ Ein Arbeitsobjekt ist eine gemeinsame Schnittstelle, die sowohl von Task als auc
    <td>Referenzfelder</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>reservierteZeit</p> <p style="font-weight: normal;">entfernt  </p> </li> 
+     <li style="font-weight: bold;"> <p>reservierteZeit</p> <p style="font-weight: normal;">Entfernt  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

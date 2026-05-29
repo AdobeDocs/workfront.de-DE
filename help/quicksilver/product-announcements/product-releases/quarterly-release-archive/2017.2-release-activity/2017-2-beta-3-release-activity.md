@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Versionsaktivität von Beta 3 2017.2
+title: Veröffentlichungen für Version 2017.2 Beta 3
 description: Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschau-Umgebung mit Beta 2 Version 2017.2 verfügbar sind. Die Funktion auf dieser Seite wurde am 24. Mai 2017 in der Vorschau-Umgebung verfügbar gemacht. Sie wird zwischen Ende Juli und Anfang August 2017 in der Produktionsumgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements
@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 9647f3c6-f287-426c-a5e7-eb33b8b22a34
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
-source-wordcount: '1387'
-ht-degree: 0%
+source-wordcount: '1394'
+ht-degree: 1%
 
 ---
 
-# Versionsaktivität von Beta 3 2017.2
+# Veröffentlichungen für Version 2017.2 Beta 3
 
 Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschau-Umgebung mit Beta 2 Version 2017.2 verfügbar sind. Die Funktion auf dieser Seite wurde am 24. Mai 2017 in der Vorschau-Umgebung verfügbar gemacht. Sie wird zwischen Ende Juli und Anfang August 2017 in der Produktionsumgebung verfügbar gemacht.
 
@@ -35,7 +35,7 @@ Die Beta-Version 2017.2 enthält Verbesserungen sowohl für Workfront-Administra
 
 * [Abonnierte Benutzer anzeigen](#view-subscribed-users)
 * [Konfigurieren Sie, wie Meilensteine im Gantt-Diagramm angezeigt werden](#configure-how-milestones-are-displayed-on-the-gantt-chart)
-* [Binden Sie beim Exportieren nach PDF die Legende des Gantt-Diagramms ein](#include-the-gantt-chart-legend-when-exporting-to-pdf)
+* [Binden Sie beim Exportieren nach PDF die Legende zum Gantt-Diagramm ein](#include-the-gantt-chart-legend-when-exporting-to-pdf)
 * [Korrekturabzugsgenehmigungen im Bereich „Meine Arbeit“ (Workfront) anzeigen](#view-proof-approvals-in-the-my-work-area-workfront)
 * [Anzeigen von Benutzernamen beim Bearbeiten von Proofing-Genehmigungsanfragen im Bereich Meine Arbeit (Workfront)](#view-user-names-when-addressing-proofing-approval-requests-from-the-my-work-area-workfront)
 * [Verbesserter Proofing-Viewer für Video-Korrekturabzüge (ProofHQ und Workfront)](#improved-proofing-viewer-for-video-proofs-proofhq-and-workfront)
@@ -77,9 +77,9 @@ Weitere Informationen zum Konfigurieren der Anzeige von Informationen im Gantt-D
 
 ## Beim Exportieren nach PDF die Gantt-Diagramm-Legende einschließen {#include-the-gantt-chart-legend-when-exporting-to-pdf}
 
-Wenn Sie das Gantt-Diagramm auf eine PDF exportieren, können Sie jetzt auswählen, ob Sie auch die Legende des Diagramms zusammen mit dem Diagramm selbst exportieren möchten. Die Legende enthält nur die Elemente, die Sie für die Anzeige im Gantt-Diagramm in der Benutzeroberfläche aktiviert haben. Diese Optionen sind in der Legende enthalten, wenn sie für die Aufgaben im Projekt vorhanden sind. Wenn Sie beispielsweise die Anzeige von Meilensteinen im Gantt-Diagramm aktivieren, werden diese ebenfalls in der Legende angezeigt, allerdings nur, wenn mit einem Meilenstein mindestens eine Aufgabe verknüpft ist.
+Wenn Sie das Gantt-Diagramm in eine PDF exportieren, können Sie jetzt auswählen, ob Sie auch die Legende des Diagramms zusammen mit dem Diagramm selbst exportieren möchten. Die Legende enthält nur die Elemente, die Sie für die Anzeige im Gantt-Diagramm in der Benutzeroberfläche aktiviert haben. Diese Optionen sind in der Legende enthalten, wenn sie für die Aufgaben im Projekt vorhanden sind. Wenn Sie beispielsweise die Anzeige von Meilensteinen im Gantt-Diagramm aktivieren, werden diese ebenfalls in der Legende angezeigt, allerdings nur, wenn mit einem Meilenstein mindestens eine Aufgabe verknüpft ist.
 
-Vor dieser Änderung konnten Sie die Legende nicht von der exportierten PDF ausschließen. Die Legende enthielt alle möglichen Optionen und Markierungen des Gantt-Elements, unabhängig davon, ob sie in der Benutzeroberfläche aktiviert waren oder vorhanden waren.
+Vor dieser Änderung konnten Sie die Legende nicht aus dem exportierten PDF ausschließen. Die Legende enthielt alle möglichen Optionen und Markierungen des Gantt-Fensters, unabhängig davon, ob sie in der Benutzeroberfläche aktiviert waren oder vorhanden waren.
 
 Weitere Informationen zum Exportieren des Gantt-Diagramms finden Sie unter [Exportieren des Gantt-Diagramms nach PDF](../../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md).
 
@@ -149,7 +149,7 @@ Der neue Proofing Viewer ist zum Testen in den folgenden Vorschauumgebungen verf
 
 * Workfront-Vorschau-Umgebung, wenn das Konto für das Proofing aktiviert ist
 
-  Weitere Informationen zur Workfront-Vorschau-Umgebung finden Sie unter  [Die Sandbox-Vorschau-Umgebung von Adobe Workfront](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+  Weitere Informationen zur Workfront-Vorschau-Umgebung finden Sie unter [Die Adobe Workfront-Vorschau-Sandbox-Umgebung](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 In dieser Version unterstützt der neue Proofing-Viewer nur Video-Proofing. Das bedeutet, dass alle Korrekturabzüge den neuen Proofing Viewer nutzen, während alle statischen Korrekturabzüge und Rich-Media-Korrekturabzüge weiterhin den vorhandenen Proofing Viewer nutzen.
 

@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 99048cf2b9320b7f00e1de3bae3f48bc145af5f0
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '965'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Es gibt einige wichtige Unterschiede im Workflow bei der gemeinsamen Verwendung 
 
 1. Navigieren Sie zum Projekt, zur Aufgabe oder zum Problem, dem bzw. dem Sie ein neues Dokument hinzufügen möchten.
 1. Klicken Sie auf **Registerkarte** Dokumente“ und dann auf das **Neu hinzufügen** Dropdown-Menü.
-oder
+ODER
 Ziehen Sie das Dokument per Drag-and-Drop in die Dokumentliste.
 
    >[!NOTE]

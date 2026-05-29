@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: e9e00f99ec75156b20407cba7914e746123ec010
+source-git-commit: e94f01963995e80853fa1492cf2d23d811fc9373
 workflow-type: tm+mt
-source-wordcount: '14155'
+source-wordcount: '14165'
 ht-degree: 94%
 
 ---
@@ -21,10 +21,12 @@ ht-degree: 94%
       * [Vorbereiten auf eine vierteljährliche Adobe Workfront-Version](product-announcements/product-releases/release-readiness.md)
       * Version 2026 Q3 {#release-26-q3}
          * [Versionsübersicht für das dritte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md)
+         * [Verbesserungen für Administratoren im dritten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md)
          * [Verbesserungen bei Dokumenten für das dritte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md)
          * [Verbesserungen beim Finanzmanagement für das dritte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md)
          * [Verbesserungen bei der Berichterstellung für das dritte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md)
          * [Drittes Quartal 2026 - Verbesserungen anfordern](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md)
+         * [Drittes Quartal 2026 Weitere Verbesserungen](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md)
       * Version 2026 Q2 {#release-26-q2}
          * [Übersicht über die Version 2026 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-release-overview.md)
          * [Verbesserungen für Administratoren im zweiten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md)
@@ -941,12 +943,12 @@ ht-degree: 94%
       * [Aktivieren oder Deaktivieren des KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
       * [Automatisches Ausfüllen einer Anfrage mit KI](/help/quicksilver/workfront-basics/ai-assistant/autofill-request-with-ai.md)
       * [Überblick über den Projektzustand](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md)
-   * {hide-from-toc} Workfront MCP-Server {#workfront-mcp-server}
-      * {hide-from-toc}[Workfront MCP-Server: Artikelindex](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server.md)
-      * {hide-from-toc}[Übersicht über den Adobe Workfront MCP-Server](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md)
-      * {hide-from-toc}[Konfigurieren des Adobe Workfront MCP-Servers](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)
-      * {hide-from-toc}[Verwenden des Adobe Workfront MCP-Servers](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
-      * {hide-from-toc}[Adobe Workfront MCP-Server-Tools](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)
+   * Workfront MCP-Server {#workfront-mcp-server}
+      * [Workfront MCP-Server: Artikelindex](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server.md)
+      * [Adobe Workfront MCP-Server - Übersicht](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md)
+      * [Konfigurieren des Adobe Workfront MCP-Servers](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md)
+      * [Verwenden des Adobe Workfront MCP-Servers](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
+      * [Adobe Workfront MCP-Server-Tools](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)
    * Aktualisieren von Arbeitselementen und Anzeigen von Aktualisierungen {#update-work-items-view-updates}
       * [Aktualisieren von Arbeitselementen und Anzeigen von Aktualisierungen: Artikelindex](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
       * [Überblick über den Abschnitt „Aktualisierungen“](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -2197,7 +2199,7 @@ ht-degree: 94%
       * [Freigeben von Arbeitsbereichen](planning/access/share-workspaces.md)
       * [Freigeben von Eintragstypen](planning/access/share-record-types.md)
       * [Freigeben von Ansichten](planning/access/share-views.md)
-      * {hide-from-toc}[Freigeben von Datensätzen](planning/access/share-records.md)
+      * [Freigeben von Einträgen](planning/access/share-records.md)
       * [Anfordern von Berechtigungen für eine Ansicht oder einen Arbeitsbereich](planning/access/request-permissions.md)
    * Einträge in Adobe Workfront-Planung {#adobe-workfront-planning-records}
       * [Einträge: Artikelindex](planning/records/records-information.md)

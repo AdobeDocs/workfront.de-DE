@@ -12,8 +12,8 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 12%
+source-wordcount: '862'
+ht-degree: 13%
 
 ---
 
@@ -232,4 +232,4 @@ Die folgenden Zielinformationen sind in einer Projektliste oder einem Bericht si
 |---|---|
 | Ziele | Eine Liste aller Ziele, denen ein Projekt zugeordnet ist. |
 | Zielhierarchie | Die Hierarchie, zu der ein Ziel gehört. In diesem Feld werden nur die übergeordneten Elemente des Ziels und das Ziel selbst angezeigt. Untergeordnete Ziele werden nicht angezeigt. |
-| Anzahl verknüpfter Ziele | Die Anzahl der mit einem Projekt verknüpften Ziele. |
+| Anzahl der verlinkten Ziele | Die Anzahl der mit einem Projekt verknüpften Ziele. |

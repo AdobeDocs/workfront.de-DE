@@ -31,11 +31,11 @@ Sie können einen Korrekturabzug, den Sie erstellen oder bearbeiten, auf eine de
 Sie können einen Korrekturabzugsstatus festlegen, der gesperrt wird, wenn die endgültige genehmigende Person ihre Entscheidung trifft. Dies ist nützlich, wenn Sie sicherstellen möchten, dass Ihre Prüfer nicht zum Korrekturabzug zurückkehren und zusätzliche Kommentare hinzufügen oder ihre Entscheidungen ändern können.
 
 1. Erstellen Sie einen neuen Korrekturabzug, wie in [Korrekturabzüge generieren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) beschrieben.\
-   Oder\
+   ODER\
    Öffnen Sie die Seite mit den Korrekturabzugsdetails für einen vorhandenen Korrekturabzug, wie unter [Verwalten von Korrekturabzugsdetails in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) beschrieben.
 
 1. Wählen Sie für einen neuen Korrekturabzug unter **[!UICONTROL Korrekturabzugseinstellungen]** die Option **[!UICONTROL Korrekturabzug sperren, wenn alle erforderlichen Entscheidungen getroffen werden]**.\
-   Oder\
+   ODER\
    Wählen Sie für einen vorhandenen Korrekturabzug unter **[!UICONTROL Einstellungen]** die Option **[!UICONTROL Korrekturabzug sperren, wenn alle Entscheidungen getroffen werden]** aus.
 
 Weitere Informationen zu Entscheidungen finden Sie unter [Entscheidung über einen Korrekturabzug in der Korrekturabzugsansicht treffen](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
@@ -54,11 +54,11 @@ Wenn Sie jedoch höhere Sicherheitsstufen für Ihren Prüfungs- und Genehmigungs
 So fordern Sie die Anmeldung für alle Benutzer an, die den Korrekturabzug überprüfen:
 
 1. Erstellen Sie einen neuen Korrekturabzug, wie in [Korrekturabzüge generieren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) beschrieben.\
-   Oder\
+   ODER\
    Öffnen Sie die Seite mit den Korrekturabzugsdetails für einen vorhandenen Korrekturabzug, wie unter [Verwalten von Korrekturabzugsdetails in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) beschrieben.
 
 1. Wählen Sie für einen neuen Korrekturabzug unter **[!UICONTROL Korrekturabzugseinstellungen]** die Option **[!UICONTROL Anmeldung erforderlich]** aus.\
-   Oder\
+   ODER\
    Wählen Sie für einen vorhandenen Korrekturabzug unter **[!UICONTROL Einstellungen]** die Option **[!UICONTROL Anmeldung erforderlich]** aus.
 
 ## Nur eine Entscheidung für den Testversand verlangen
@@ -68,11 +68,11 @@ Diese Einstellung ist nützlich, wenn Sie nur eine Person aus einer Gruppe, Abte
 Selbst wenn Sie die Rolle einer genehmigenden Person oder einer prüfenden Person und einer genehmigenden Person mehreren Personen zuweisen, wird der Status des Korrekturabzugs aktualisiert, sobald eine Person eine Entscheidung über einen Korrekturabzug trifft (gemäß der getroffenen Entscheidung). Weitere Informationen zum Korrekturabzugsstatus finden Sie unter [Anzeigen des Fortschritts und Status eines Korrekturabzugs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md)
 
 1. Erstellen Sie einen neuen Korrekturabzug, wie in [Korrekturabzüge generieren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) beschrieben.\
-   Oder\
+   ODER\
    Öffnen Sie die Seite mit den Korrekturabzugsdetails für einen vorhandenen Korrekturabzug, wie unter [Verwalten von Korrekturabzugsdetails in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) beschrieben.
 
 1. Wählen Sie für einen neuen Korrekturabzug unter **[!UICONTROL Workflow]** die Option **[!UICONTROL Nur eine Entscheidung für diesen Schritt erforderlich]** aus.\
-   Oder\
+   ODER\
    Wählen Sie für einen vorhandenen Korrekturabzug unter **[!UICONTROL Einstellungen]** die Option **[!UICONTROL Nur eine Entscheidung erforderlich]** aus.
 
 Weitere Informationen zu Entscheidungen finden Sie unter [Entscheidung über einen Korrekturabzug in der Korrekturabzugsansicht treffen](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md#making-a-decision-on-a-proof).
@@ -82,11 +82,11 @@ Weitere Informationen zu Entscheidungen finden Sie unter [Entscheidung über ein
 Sie können von jedem Prüfer, der über den Korrekturabzug entscheidet, eine elektronische Signatur verlangen, um seine E-Mail-Adresse und sein Passwort anzugeben. Wenn ein Validierungsverantwortlicher eine Entscheidungsaufforderung anzeigt, in der er aufgefordert wird, seine E-Mail-Adresse und sein Passwort einzugeben und seine Entscheidung zu bestätigen. Weitere Informationen finden Sie unter [Grundlagen zu elektronischen Signaturen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md)
 
 1. Erstellen Sie einen neuen Korrekturabzug, wie in [Korrekturabzüge generieren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) beschrieben.\
-   Oder\
+   ODER\
    Öffnen Sie die Seite mit den Korrekturabzugsdetails für einen vorhandenen Korrekturabzug, wie unter [Verwalten von Korrekturabzugsdetails in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) beschrieben.
 
 1. Wählen Sie für einen neuen Korrekturabzug unter **[!UICONTROL Korrekturabzugseinstellungen]** die Option **[!UICONTROL Entscheidungen müssen elektronisch signiert werden]** aus.\
-   Oder\
+   ODER\
    Wählen Sie für einen vorhandenen Korrekturabzug unter **[!UICONTROL Einstellungen]** die Option **[!UICONTROL Entscheidungen müssen elektronisch signiert sein]** aus.
 
 Weitere Informationen zu Entscheidungen finden Sie [Konfigurieren von Genehmigungsentscheidungsoptionen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
@@ -96,11 +96,11 @@ Weitere Informationen zu Entscheidungen finden Sie [Konfigurieren von Genehmigun
 Sie können verhindern, dass Prüfer eines Korrekturabzugs die Originaldatei herunterladen, aus der ein Korrekturabzug erstellt wurde.
 
 1. Erstellen Sie einen neuen Korrekturabzug, wie in [Korrekturabzüge generieren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) beschrieben.\
-   Oder\
+   ODER\
    Öffnen Sie die Seite mit den Korrekturabzugsdetails für einen vorhandenen Korrekturabzug, wie unter [Verwalten von Korrekturabzugsdetails in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) beschrieben.
 
 1. Deaktivieren Sie für einen neuen Korrekturabzug unter **[!UICONTROL Korrekturabzugseinstellungen]** die Option **[!UICONTROL Originaldatei herunterladen]**.\
-   Oder\
+   ODER\
    Wählen Sie für einen vorhandenen Korrekturabzug unter **[!UICONTROL Einstellungen]** die Option **[!UICONTROL Download der Originaldatei]** aus.
 
 ## Anderen Benutzern erlauben, den Korrekturabzug zu abonnieren
@@ -125,9 +125,9 @@ Siehe auch [Abonnieren eines Korrekturabzugs in [!DNL Workfront Proof]](../../..
 So lassen Sie es zu, dass andere Benutzer einen Korrekturabzug abonnieren:
 
 1. Erstellen Sie einen neuen Korrekturabzug, wie in [Korrekturabzüge generieren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) beschrieben.\
-   Oder\
+   ODER\
    Öffnen Sie die Seite mit den Korrekturabzugsdetails für einen vorhandenen Korrekturabzug, wie unter [Verwalten von Korrekturabzugsdetails in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) beschrieben.
 
 1. Deaktivieren Sie für einen neuen Korrekturabzug unter **[!UICONTROL Korrekturabzugseinstellungen]** die Option **[!UICONTROL Korrekturabzug über öffentliche URL oder Einbettungs-Code abonnieren]**.\
-   Oder\
+   ODER\
    Wählen Sie für einen vorhandenen Korrekturabzug unter **[!UICONTROL Einstellungen]** die Option **[!UICONTROL Abonnement]** aus.

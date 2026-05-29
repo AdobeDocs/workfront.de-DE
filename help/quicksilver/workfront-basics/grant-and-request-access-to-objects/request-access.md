@@ -8,8 +8,8 @@ feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
 source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
 workflow-type: tm+mt
-source-wordcount: '1327'
-ht-degree: 1%
+source-wordcount: '1343'
+ht-degree: 5%
 
 ---
 
@@ -36,7 +36,7 @@ Sie können den erstmaligen Zugriff auf Objekte anfordern, wenn jemand einen Lin
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,7 +49,7 @@ Sie können den erstmaligen Zugriff auf Objekte anfordern, wenn jemand einen Lin
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p> 
-   <p>Arbeit oder höher</p> 
+   <p>Work oder höher</p> 
    </td> 
   </tr> 
   <tr> 
@@ -59,7 +59,7 @@ Sie können den erstmaligen Zugriff auf Objekte anfordern, wenn jemand einen Lin
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

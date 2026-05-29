@@ -11,8 +11,8 @@ role: Admin
 exl-id: e93e3334-d72a-4f7b-9379-358f498c873b
 source-git-commit: 929502c256011b464d938ad1095c127407e4a795
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 1%
+source-wordcount: '292'
+ht-degree: 9%
 
 ---
 
@@ -24,7 +24,7 @@ Wenn Benutzer keine [!DNL Adobe Workfront]-E-Mail-Benachrichtigungen erhalten, m
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,7 +37,7 @@ Wenn Benutzer keine [!DNL Adobe Workfront]-E-Mail-Benachrichtigungen erhalten, m
   <tr> 
    <td>[!DNL Adobe Workfront] Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -46,19 +46,19 @@ Wenn Benutzer keine [!DNL Adobe Workfront]-E-Mail-Benachrichtigungen erhalten, m
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
 ## Lösung
 
-Wenn Sie bereits die IP-Adressen Ihrer für Ihre Produktionsumgebung hinzugefügt haben, wie unter [Konfigurieren der-Zulassungsliste auf die Zulassungsliste setzte Ihrer Firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md), und Benutzer immer noch keine E-Mails erhalten:
+Wenn Sie bereits die IP-Adressen Ihrer für Ihre Produktionsumgebung hinzugefügt haben, wie unter [Konfigurieren der-Zulassungsliste Ihrer Firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md), und Benutzer immer noch keine E-Mails erhalten:
 
 1. Fügen Sie der Firewall den folgenden SPF-Eintrag hinzu:
 
    *spf.workfront.com*
 
-   Auf die Zulassungsliste setzen Dadurch werden automatisch alle [!DNL Workfront] IP-Adressen zu Ihrer in Ihrer Firewall hinzugefügt und alle Spam-Filter (die SPF-Einträge verwenden) können [!DNL Workfront] Server als gültige Absender für Ihre Domain validieren.
+   Dadurch werden automatisch alle [!DNL Workfront] IP-Adressen zu Ihrer in Ihrer Firewall hinzugefügt und alle Spam-Filter (die SPF-Einträge verwenden) können [!DNL Workfront] Server als gültige Absender für Ihre Domain validieren.
 
    >[!NOTE]
    >

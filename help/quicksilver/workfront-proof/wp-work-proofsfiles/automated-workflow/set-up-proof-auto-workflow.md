@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 605569df-8e63-476d-a0cd-e73802042011
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '1637'
+source-wordcount: '1642'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Sie können einen automatisierten Workflow zu einem Korrekturabzug hinzufügen, 
       * An einem bestimmten Datum und zu einer bestimmten Uhrzeit
       * Manuell\
 
-        Für nachfolgende Phasen stehen zusätzliche Optionen zur Verfügung. Diese Optionen erfordern ein übergeordnetes Stadium. Sie sind:
+        Für nachfolgende Phasen stehen zusätzliche Optionen zur Verfügung. Diese Optionen erfordern ein übergeordnetes Stadium. Dabei handelt es sich um:
       * Nach Ablauf der vorherigen Frist
       * Alle Entscheidungen werden genehmigt oder mit Änderungen genehmigt
       * Alle Entscheidungen werden genehmigt
@@ -131,7 +131,7 @@ Sie können einem Workflow, den Sie erstellen oder ändern, einen zusätzlichen 
    * Bei der Erstellung des Korrekturabzugs: Im Feld [!UICONTROL Frist] (9) können Sie das Fristdatum für den Korrekturabzug auswählen.
    * Aus der Staging-Aktivierung[!UICONTROL &#x200B; Wählen Sie in der Dropdown]Liste „Frist“ die Anzahl der Werktage aus, die zum Staging-Aktivierungsdatum hinzugefügt werden sollen, um automatisch eine Frist für den Korrekturabzug festzulegen.
 
-* **[!UICONTROL lock]:** Es gibt eine Reihe von Optionen, die bestimmen, wann ein Schritt gesperrt werden kann. Zu den Optionen gehören:
+* **[!UICONTROL lock]:** Es gibt eine Reihe von Optionen, die bestimmen, wann ein Schritt gesperrt werden kann. Die Optionen sind:
 
    * Manuelle Sperre
    * Nie

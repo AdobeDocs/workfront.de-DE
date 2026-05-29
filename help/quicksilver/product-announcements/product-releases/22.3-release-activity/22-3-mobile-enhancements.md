@@ -8,12 +8,12 @@ recommendations: noDisplay, noCatalog
 exl-id: eb62baf2-109c-4b50-8cd1-415d3c40c7ed
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 0%
+source-wordcount: '160'
+ht-degree: 1%
 
 ---
 
-# 22.3 Verbesserungen für Mobilgeräte
+# Verbesserungen bei Mobilgeräten in Version 22.3
 
 Auf dieser Seite werden alle mit Version 22.3 vorgenommenen Verbesserungen an Mobilgeräten in der Vorschau-Umgebung beschrieben. Diese Verbesserungen wurden in der Woche vom 11. Juli 2022 in der Produktionsumgebung verfügbar gemacht. Eine Liste aller mit Version 22.3 verfügbaren Änderungen finden Sie unter Übersicht über die Version [22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 

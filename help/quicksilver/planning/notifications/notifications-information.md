@@ -8,13 +8,13 @@ recommendations: noDisplay, noCatalog
 exl-id: 9c2f5b14-77c5-42fd-83ad-acbe7da801bd
 source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 0%
+source-wordcount: '136'
+ht-degree: 13%
 
 ---
 
 
-# Adobe Workfront-Planungsbenachrichtigungen: Artikelindex
+# Benachrichtigungen in Adobe Workfront-Planung: Artikelindex
 
 <!--add this to major TOC and Planning article index-->
 
@@ -25,5 +25,5 @@ Sie erhalten möglicherweise eine E-Mail- oder In-App-Benachrichtigung, wenn jem
 In den folgenden Artikeln wird beschrieben, welche Workfront-Planungsbenachrichtigungen Sie erhalten und wie Sie Ihre Voreinstellungen verwalten:
 
 * [Verwalten von Adobe Workfront Planning-Benachrichtigungseinstellungen](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
-* [Verwalten von Adobe Workfront Planning-E-Mail-Benachrichtigungen](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md)
-* [Verwalten von In-App-Benachrichtigungen in Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md)
+* [Verwalten von E-Mail-Benachrichtigungen in Adobe Workfront-Planung](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md)
+* [Verwalten von In-App-Benachrichtigungen in Adobe Workfront-Planung](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md)

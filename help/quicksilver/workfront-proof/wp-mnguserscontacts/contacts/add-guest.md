@@ -2,7 +2,7 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: contacts-workfront-proof
-title: Einen Gast zu Workfront Proof hinzufügen
+title: Hinzufügen eines Gasts zu Workfront Proof
 description: Kontakte werden standardmäßig in einer Organisation freigegeben. Wenn Sie also einen Gast hinzufügen, sehen Ihre Kollegen diese Person auch in ihrer Kontaktliste. Informationen zu Gästen und Kollegen finden Sie unter Grundlegendes zu Benutzern, Mitgliedern und Gästen in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -10,7 +10,7 @@ exl-id: 208d719e-a2fc-4080-88be-954c2f87f7ff
 source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 

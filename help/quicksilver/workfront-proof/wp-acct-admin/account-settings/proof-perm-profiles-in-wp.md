@@ -10,8 +10,8 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 249aa332-c051-49ac-be85-264d8babfcad
 source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1924'
-ht-degree: 0%
+source-wordcount: '1840'
+ht-degree: 1%
 
 ---
 
@@ -33,7 +33,7 @@ Als [!DNL Workfront] oder [!DNL Workfront Proof] können Sie einem Benutzer ein 
 
 In der folgenden Tabelle werden die Berechtigungen angezeigt, die mit jedem Profil für Korrekturabzugsberechtigungen verfügbar sind.
 
-| **Eigene Elemente** |  |  |  |  | **Elemente anderer Benutzer** |  |  | **admin** | **Abrechnung** |
+| **Eigene Elemente** |  |  |  |  | **Elemente anderer Benutzer** |  |  | **Administrator** | **Abrechnung** |
 |---|---|---|---|---|---|---|---|---|---|
 |   | **Hinzufügen** | **Anzeigen** | **Bearbeiten** | **Löschen** | **Anzeigen** | **Bearbeiten** | **Löschen** | **Bearbeiten und Löschen** | **Bearbeiten** |
 | Abrechnungs-Administrator | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) |
@@ -41,7 +41,7 @@ In der folgenden Tabelle werden die Berechtigungen angezeigt, die mit jedem Prof
 | Supervisor | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) |   |   |
 | Managerin bzw. Manager | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) |   |   |   |   |   |
 | Beobachter |   | ![Häkchen](assets/cleaner2.png) |   |   |   |   |   |   |   |
-| Besucher |   | ![Häkchen](assets/cleaner2.png) |   |   |   |   |   |   |   |
+| Visitor |   | ![Häkchen](assets/cleaner2.png) |   |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -234,7 +234,7 @@ Beobachter haben die folgenden Berechtigungen:
 >* Beobachter sehen nicht die folgenden Links in ihren Einstellungen: Kontoeinstellungen, Abrechnung
 >
 
-### Besucher {#visitor}
+### Visitor {#visitor}
 
 Besucher haben die folgenden Berechtigungen:
 

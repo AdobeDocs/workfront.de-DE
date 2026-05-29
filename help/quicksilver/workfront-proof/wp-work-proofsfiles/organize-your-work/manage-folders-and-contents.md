@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: cec385de-f1b9-4e28-8493-987536c04905
 source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1260'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Weitere Informationen finden Sie unter [Verwalten von Dateien in [!DNL Workfront
 
    * Wenn Sie einen Korrekturabzug aus einem Ordner verschieben, gehen Sie zur Seite [!UICONTROL Korrekturabzugsdetails], wie unter [[!UICONTROL Verwalten von &#x200B;] [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) beschrieben
 
-     Oder\
+     ODER\
       Wenn Sie eine Datei aus einem Ordner verschieben, gehen Sie zur Seite mit den Dateidetails, wie in [Verwalten von Dateien in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) beschrieben.
 
 1. Klicken Sie auf den Namen des **Ordners**, in dem sich die Datei oder der Korrekturabzug befindet, und klicken Sie dann auf **[!UICONTROL Verschieben nach]** > **[!UICONTROL (Kein Ordner ausgewählt)]**.\

@@ -1,15 +1,15 @@
 ---
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: Kommentar zu Testsendungen in iOS
+title: Kommentare zu Korrekturabzügen in iOS
 description: Sie können vorhandene Kommentare zu einem Korrekturabzug überprüfen und auflösen und dem Korrekturabzugsdokument neue Kommentare und Anmerkungen hinzufügen.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c38f0d80-11e0-4d5a-9591-602543177fe6
 source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
 workflow-type: tm+mt
-source-wordcount: '819'
-ht-degree: 0%
+source-wordcount: '817'
+ht-degree: 1%
 
 ---
 
@@ -67,7 +67,7 @@ In der [!UICONTROL Kommentar]-Liste können Sie verschiedene Aktionen ausführen
 
 1. Um die ausgewählten Kommentare zu löschen, wählen Sie das Symbol **[!UICONTROL Löschen]** (![) &#x200B;](assets/delete-30x28.png) der unteren Symbolleiste aus. Wählen Sie dann **[!UICONTROL Löschen]** in der Bestätigungsmeldung aus, um den Kommentar dauerhaft zu löschen.
 
-## Kommentar zu einem Korrekturabzug
+## Kommentieren eines Korrekturabzugs
 
 Sie können Ihre Kommentare zu Korrekturabzügen einem bestimmten Bereich im Dokument zuordnen. Wählen Sie mit den Zeichnungswerkzeugen einen Bereich aus, der kommentiert werden soll.
 

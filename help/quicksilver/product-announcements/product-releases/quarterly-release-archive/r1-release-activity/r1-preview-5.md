@@ -1,7 +1,7 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: R1-Vorschau 5
+title: R1-Vorschau 5
 description: Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschau-Umgebung mit der R1 Preview 5-Version verfügbar sind. Die Funktion auf dieser Seite wurde am 16. März 2017 in der Vorschau-Umgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements
@@ -9,12 +9,12 @@ recommendations: noDisplay, noCatalog
 exl-id: 4fba14b5-6c5a-4b03-99a7-f0e6f75807c3
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
-source-wordcount: '1288'
+source-wordcount: '1301'
 ht-degree: 13%
 
 ---
 
-# R1-Vorschau 5
+# R1-Vorschau 5
 
 Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschau-Umgebung mit der R1 Preview 5-Version verfügbar sind. Die Funktion auf dieser Seite wurde am 16. März 2017 in der Vorschau-Umgebung verfügbar gemacht.
 
@@ -82,7 +82,7 @@ Das Erscheinungsbild der folgenden Seiten im Menü System des Bereichs Setup wur
 
 Die Organisationskopfzeilen der Ereignisbenachrichtigungen im Bereich „E-Mail-Setup“ stimmen jetzt mit den Abschnittsüberschriften überein, die im Bereich „Benutzerprofileinstellungen“ verwendet werden.
 
-Weitere Informationen zu Ereignisbenachrichtigungen finden Sie unter  [Konfigurieren Sie Ereignisbenachrichtigungen für alle Personen im System](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+Weitere Informationen zu Ereignisbenachrichtigungen finden Sie unter [Konfigurieren von Ereignisbenachrichtigungen für alle Personen im System](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 ## Opt-out von sofortigen Benachrichtigungen: Konfiguration des kontextbezogenen Auszugs
 

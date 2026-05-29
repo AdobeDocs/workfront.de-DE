@@ -10,7 +10,7 @@ last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
 workflow-type: tm+mt
-source-wordcount: '3405'
+source-wordcount: '3415'
 ht-degree: 2%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 2%
 >
 >Weitere Informationen finden Sie in den Artikeln in den [Best Practices für die Adobe Workfront-Planung: Artikelindex](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
 
-Als Leiter von Marketing-Abläufen können Sie mit Adobe Workfront Planning die Arbeit über den gesamten Marketing-Lebenszyklus hinweg für alle Ihre Teams organisieren.
+Als Führungskraft der Marketing-Abteilung können Sie mit Adobe Workfront-Planung die Arbeit Ihrer sämtlichen Teams über den gesamten Marketing-Zyklus hinweg organisieren.
 
 In diesem Artikel werden einige häufig gestellte Fragen und Best Practices beschrieben, die wir für den Einstieg in Workfront Planning empfehlen.
 
@@ -159,7 +159,7 @@ Felder sind Attribute von Datensatztypen und werden in der Tabellenansicht als S
 
 * ✅ Verwenden Sie ein einzeiliges Textfeld, um einem Datensatz URL-Daten hinzuzufügen.
 
-### Ansichten 
+### Ansichten
 
 #### Wie entscheide ich zwischen einer Ansicht und einem Datensatztyp?
 
@@ -269,7 +269,7 @@ Sie können für jeden Datensatztyp ein Anfrageformular erstellen, wenn Benutzer
 
 #### Wie sollte ich ein Anfrageformular für einen Datensatztyp erstellen oder bearbeiten?
 
-* ✅ Benutzer mit der Rolle „Zugriff auf den Arbeitsbereich verwalten“ können die Schritte ausführen, die im Artikel [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning“ beschrieben &#x200B;](/help/quicksilver/planning/requests/create-request-form.md).
+* ✅ Benutzer mit der Rolle „Zugriff auf den Arbeitsbereich verwalten“ können die Schritte ausführen, die im Artikel [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning“ beschrieben ](/help/quicksilver/planning/requests/create-request-form.md).
 
 
 #### Wer kann neue Datensätze mithilfe des Anfrageformulars einreichen?
