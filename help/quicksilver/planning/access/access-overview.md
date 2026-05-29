@@ -8,9 +8,9 @@ role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '759'
 ht-degree: 8%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 8%
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 >[!IMPORTANT]
 >
@@ -96,7 +96,8 @@ Sie müssen über die folgenden Zugriffsrechte verfügen, um Workfront Planning 
    <td>
    <ul>
    <li><p>Zeigen Sie oder höhere Berechtigungen für Arbeitsbereiche, Datensatztypen und Ansichten an, die Sie nicht für den Zugriff auf sie und ihre Objekte erstellt haben.</p></li>
-   <li><p>Tragen Sie oder höhere Berechtigungen zu Arbeitsbereichen und Datensatztypen bei, die Sie nicht erstellt haben, um sie zu bearbeiten und Datensatztypen und Datensätze zu erstellen, zu bearbeiten oder zu löschen.</p></li>
+   <li><p>Tragen Sie oder höhere Berechtigungen zu Arbeitsbereichen und Datensatztypen bei, die Sie nicht erstellt haben, um sie zu bearbeiten und Datensatztypen zu erstellen, zu bearbeiten oder zu löschen.</p></li>
+   <li><p><span class="preview">Verwalten Sie Berechtigungen für Datensätze, um sie zu bearbeiten, freizugeben oder zu löschen.</p>
    <li><p>Beitragen oder höhere Berechtigungen für Ansichten, die Sie nicht erstellt haben, zum Bearbeiten, Löschen und Freigeben</p>
    </li>
     <li><p>Systemadministratoren können Arbeitsbereiche verwalten, die sie nicht erstellt haben. </p></li>

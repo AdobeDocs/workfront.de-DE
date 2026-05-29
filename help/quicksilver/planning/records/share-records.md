@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 3%
+source-wordcount: '751'
+ht-degree: 2%
 
 ---
 
@@ -22,11 +22,9 @@ ht-degree: 3%
 
 # Freigeben von Einträgen über einen Link
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -38,41 +36,27 @@ Sie können einen Adobe Workfront Planning-Datensatz wie folgt freigeben:
 
 * Kopieren Sie bei der Anzeige von Datensätzen in der Tabellenansicht des Datensatztyps einen Link auf die Seite des Datensatzes.
 
-* Sie können alle Datensätze in einem Arbeitsbereich für andere Benutzer freigeben, indem Sie den Arbeitsbereich und den Datensatztyp freigeben.
+* In der Produktionsumgebung:
 
-  Weitere Informationen finden Sie in den folgenden Artikeln:
+   * Sie können alle Datensätze in einem Arbeitsbereich für andere Benutzer freigeben, indem Sie den Arbeitsbereich und den Datensatztyp freigeben.
 
-   * [Freigeben eines Arbeitsbereichs](/help/quicksilver/planning/access/share-workspaces.md)
+     Weitere Informationen finden Sie in den folgenden Artikeln:
 
-   * [Datensatztyp freigeben](/help/quicksilver/planning/access/share-record-types.md)
+      * [Freigeben eines Arbeitsbereichs](/help/quicksilver/planning/access/share-workspaces.md)
 
-<!--
-When we release record-level permissions, replace the bullets above with these:
-
-You can share an Adobe Workfront Planning record in the following ways: 
-
-* Copy the link of the record page from your browser when the page is open. 
-
-* Copy a link to the record's page when viewing records in the record type's table view.   
-
-* In the Production environment: 
-
-   * You can share all records in a workspace with other users by sharing the workspace and the record type.
-
-      For more information see the following articles:
-
-      * [Share a workspace](/help/quicksilver/planning/access/share-workspaces.md)
-
-      * [Share a record type](/help/quicksilver/planning/access/share-record-types.md)
+      * [Datensatztyp freigeben](/help/quicksilver/planning/access/share-record-types.md)
 
 <div class="preview">
 
-* In the Preview environment: 
+* In der Vorschau-Umgebung:
 
-   * You can share individual records with people, teams, roles, groups, or companies.
+   * Sie können einzelne Datensätze für Personen, Teams, Funktionen, Gruppen oder Unternehmen freigeben.
+
+     Weitere Informationen finden Sie unter [Freigeben von Datensätzen](/help/quicksilver/planning/access/share-records.md).
 
 </div>
--->
+
+
 
 <!--take out the sentence below when we release record-level sharing-->
 
@@ -225,7 +209,7 @@ Der zuletzt aufgerufene Arbeitsbereich wird geöffnet.
 
 Sie können alle Datensätze in einem Arbeitsbereich freigeben, wenn Sie den Arbeitsbereich für andere freigeben.
 
-Datensatztypen und Datensätze übernehmen dieselben Berechtigungen vom Arbeitsbereich.
+Datensatztypen und Datensätze erben standardmäßig dieselben Berechtigungen vom Arbeitsbereich.
 
 Nur Benutzer mit der Berechtigung Verwalten für einen Arbeitsbereich können ihn für andere freigeben.
 
@@ -233,16 +217,30 @@ Weitere Informationen finden Sie unter [Freigeben eines Arbeitsbereichs](/help/q
 
 ## Freigabe aller Datensätze in einem Datensatztyp durch Freigabe des Datensatztyps
 
-Datensätze erben Berechtigungen vom Datensatztyp.
+Standardmäßig erben Datensätze Berechtigungen vom Datensatztyp.
 
 Standardmäßig erben Datensatztypen Berechtigungen vom Arbeitsbereich.
 
 Sie können jedoch einen der folgenden Schritte ausführen:
 
 * Deaktivieren Sie geerbte Berechtigungen aus dem Arbeitsbereich für einen Datensatztyp. Dadurch werden höhere Berechtigungen für die Datensätze entfernt, aber die Anzeigeberechtigungen für den Arbeitsbereich, den Datensatztyp und die Datensätze werden beibehalten.
-* Benutzern manuell Berechtigungen für einen Datensatztyp erteilen, selbst wenn sie keine Berechtigungen für den Arbeitsbereich haben. Dadurch erhalten sie automatisch Ansichtsberechtigungen für den Arbeitsbereich. Dadurch erhalten Benutzende Berechtigungen für die Datensätze.
+* Benutzern manuell Berechtigungen für einen Datensatztyp erteilen, selbst wenn sie keine Berechtigungen für den Arbeitsbereich haben. Dadurch erhalten sie automatisch Ansichtsberechtigungen für den Arbeitsbereich. Dadurch erhalten Benutzende standardmäßig Anzeigeberechtigungen für die Datensätze.
 
 Nur Benutzer mit der Berechtigung Verwalten für einen Arbeitsbereich können seine Datensatztypen und Datensätze für andere freigeben.
 
 Weitere Informationen finden Sie unter [Freigeben von Datensatztypen](/help/quicksilver/planning/access/share-record-types.md).
+
+<div class="preview">
+
+## Freigeben einzelner Datensätze
+
+Benutzer erben standardmäßig die Datensatzberechtigungen vom Arbeitsbereich und vom Datensatztyp.
+
+Um nur ausgewählten Benutzern mit Berechtigungen für Datensatztypen Berechtigungen zum Verwalten nur bestimmter Datensätze zu erteilen, können Sie geerbte Berechtigungen für ausgewählte Datensätze deaktivieren und nur diesen Benutzern den Zugriff auf diese Datensätze verwalten gewähren.
+
+Sie können die Berechtigungen für einen Datensatz oder für mehrere Datensätze gleichzeitig stapelweise anpassen.
+
+Weitere Informationen finden Sie unter [Freigeben von Datensätzen](/help/quicksilver/planning/access/share-records.md).
+
+</div>
 

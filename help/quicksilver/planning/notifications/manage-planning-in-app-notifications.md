@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a9f14c6726bcec0cc9b040dde9b6bf90a5868edc
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '396'
 ht-degree: 4%
 
 ---
@@ -54,14 +54,8 @@ In-App-Benachrichtigungen von Workfront Planning können empfangen werden, wenn 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td>   <p>Anzeigen oder Erweitern von Berechtigungen für einen Arbeitsbereich</a> </p>  
+   <td>   <p>Anzeigen oder Erweitern von Berechtigungen für einen Arbeitsbereich </p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p> </td> 
-  </tr> 
-<tr>
-   <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> Benutzenden mit einer Light- oder Contributor-Lizenz muss eine Layout-Vorlage zugewiesen werden, die Planning enthält.
-   <p>Für Standardbenutzer und Systemadministratoren sind die Planungsbereiche standardmäßig aktiviert.</p></div></li></ul>
-</td>
   </tr> 
 </tbody> 
 </table>
