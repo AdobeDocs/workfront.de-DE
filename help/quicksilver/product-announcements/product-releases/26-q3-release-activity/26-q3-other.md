@@ -4,10 +4,10 @@ description: Weitere Verbesserungen im Zeitraum der Veröffentlichung im dritten
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: c90d91ab7b901d20d639d2507297f147821db8b2
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 2%
+source-wordcount: '606'
+ht-degree: 1%
 
 ---
 
@@ -17,6 +17,26 @@ Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom 
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2026 verfügbar sind, finden Sie unter [Versionsübersicht für das dritte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+
+## Aktualisiertes Erscheinungsbild für E-Mails mit Kommentarbenachrichtigungen
+
+>[!NOTE]
+>
+>Produktionsversion für Kunden: Schrittweiser Rollout, Startdatum wird noch bekannt gegeben
+
+E-Mail-Benachrichtigungen für Kommentare im Bereich Aktualisierungen haben ein neues Erscheinungsbild, das mit dem umfassenderen E-Mail-Design von Adobe übereinstimmt.
+
+Das aktualisierte E-Mail-Format enthält:
+
+* Ein neuer Adobe Workfront-Header ersetzt das bisherige Workfront-Branding.
+* Ein optimiertes Layout, das sich auf den letzten Kommentar konzentriert.
+* Eine primäre Schaltfläche **In Workfront anzeigen** zum direkten Öffnen des Elements.
+
+Der Thread der vorherigen Kommentare ist nicht mehr im E-Mail-Textkörper enthalten. Um frühere Kommentare zu dem Element anzuzeigen, verwenden Sie **In Workfront anzeigen** um die Unterhaltung in Workfront zu öffnen.
+
+Diese Änderung wird in Phasen an Kunden ausgerollt. Diese Seite wird aktualisiert, wenn der Rollout-Zeitplan bestätigt wird.
+
+![Aktualisierte Kommentar-Benachrichtigung email.png](assets/email-look-and-feel-update.png)
 
 ## Verbinden von Workfront mit Ihren KI-Tools mit dem Workfront MCP-Server
 

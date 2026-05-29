@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: c90d91ab7b901d20d639d2507297f147821db8b2
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1443'
 ht-degree: 20%
 
 ---
@@ -248,6 +248,15 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             <td><strong>Vorschau</strong></td>
             <td><strong>Schnellveröffentlichung</strong></td>
             <td><strong>Vierteljährlich</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Das Erscheinungsbild für Kommentar-Benachrichtigungs-E-Mails wurde aktualisiert</a><p>[!BADGE Außerplanmäßig]{type=Neutral}</p>
+                <p>E-Mail-Benachrichtigungen für Kommentare im Bereich Aktualisierungen haben ein neues Erscheinungsbild, das mit dem umfassenderen E-Mail-Design von Adobe übereinstimmt. Der Thread der vorherigen Kommentare ist nicht mehr im E-Mail-Textkörper enthalten.</p>
+            </td>
+            <td><p>Schrittweiser Rollout, Startdatum wird noch bekannt gegeben</p></td>
+            <td><p>Schrittweiser Rollout, Startdatum wird noch bekannt gegeben</p></td>
+            <td><p>Schrittweiser Rollout, Startdatum wird noch bekannt gegeben</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Verbinden Sie Ihre KI-Agentenplattform mit Workfront mit dem Workfront MCP-Server</a>
