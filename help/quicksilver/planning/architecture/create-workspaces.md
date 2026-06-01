@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+source-git-commit: 4692dc6f7ab840bb43f3788126471425e9f8a396
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1146'
 ht-degree: 2%
 
 ---
@@ -164,6 +164,8 @@ Sie können Arbeitsbereiche wie folgt erstellen:
 
 1. (Optional und bedingt) Klicken Sie **Vorschau** innerhalb einer der folgenden vordefinierten Arbeitsbereichsvorlagen:
 
+   * Operations Initiative Studio
+   * Kommunikationsstudio
    * Basis: Marketing-Management
    * Erweitert: Marketing-Management
    * Enterprise: Marketing-Management
@@ -172,7 +174,7 @@ Sie können Arbeitsbereiche wie folgt erstellen:
 
    Das Vorschaufeld für Vorlagen wird geöffnet.
 
-   Es gibt einen Hinweis darauf, welche operativen Datensatztypen, Taxonomien und wie viele Felder mit jeder Vorlage verknüpft sind.
+   Es gibt einen Hinweis darauf, welche Datensatztypen, Abschnitte und wie viele Felder mit jeder Vorlage verknüpft sind.
 
    ![Vorschau einer Workspace-Vorlage](assets/previewing-a-workspace-template.png)
 
@@ -262,7 +264,7 @@ Die im Bundle enthaltenen Vorlagen enthalten Arbeitsbereiche, Datensatztypen, Da
    * 5.Fréscopa Global Events
    * 6.Fréscopa Führende Unternehmensführung
 
-1. Nachdem Sie das Feld **Vorschau** für jede Arbeitsbereichsvorlage geöffnet haben, klicken Sie auf Zurück , um zum Feld **Arbeitsbereich erstellen** zurückzukehren, oder klicken Sie auf Vorlagen verwenden , um die Vorlagen zu verwenden, einschließlich im Bundle, und Arbeitsbereiche zu erstellen.
+1. Nachdem Sie das Feld **Vorschau** für jede Arbeitsbereichsvorlage geöffnet haben, klicken Sie auf **Zurück**, um zum Feld **Arbeitsbereich erstellen** zurückzukehren, oder klicken Sie auf **Vorlagen verwenden**, um die Vorlagen zu verwenden, einschließlich im Bundle, und Arbeitsbereiche zu erstellen.
 
    Die Arbeitsbereiche werden erstellt und auf den Registerkarten **Workspaces I&#39;m** und **All Workspaces** für Systemadministratoren angezeigt. Alle Benutzer von Standardlizenzen sehen die Arbeitsbereiche in ihrem Arbeitsbereich, nachdem ein Systemadministrator sie erstellt und die neuen Arbeitsbereiche für sie freigegeben hat.
 

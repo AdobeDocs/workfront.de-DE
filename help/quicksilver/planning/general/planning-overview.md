@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
+source-git-commit: 4692dc6f7ab840bb43f3788126471425e9f8a396
 workflow-type: tm+mt
-source-wordcount: '2294'
-ht-degree: 79%
+source-wordcount: '2365'
+ht-degree: 76%
 
 ---
 
@@ -242,13 +242,27 @@ Sie können einen Arbeitsbereich mithilfe vordefinierter Vorlagen erstellen. Sie
 
 Adobe Workfront-Planung enthält die folgenden Vorlagen:
 
+* Operations Initiative Studio
+* Kommunikationsstudio
 * Basis: Marketing-Management
 * Erweitert: Marketing-Management
 * Enterprise: Marketing-Management
 * Vertriebs-Management
 * Produkt-Management
 
-Weitere Informationen finden Sie unter [Liste der Arbeitsbereichsvorlagen](/help/quicksilver/planning/architecture/workspace-templates.md).
+Systemadministratoren können auch sechs Arbeitsbereiche installieren, wenn sie die Best-Practice-Vorlage für mehrere Arbeitsbereiche verwenden. Die Multi-Space-Vorlage enthält die folgenden Vorlagen, die 6 separate, aber miteinander verbundene Arbeitsbereiche gleichzeitig generieren:
+
+* &#x200B;1. Globale Klassifizierungen und Taxonomien
+* 2.Fréscopa Global Marketing
+* 3.Fréscopa Social Marketing
+* 4.Fréscopa Medien und PR
+* 5.Fréscopa Global Events
+* 6.Fréscopa Führende Unternehmensführung
+
+Weitere Informationen finden Sie in den folgenden Artikeln:
+
+* [Liste der Arbeitsbereichsvorlagen](/help/quicksilver/planning/architecture/workspace-templates.md).
+* [Erstellen von Arbeitsbereichen](/help/quicksilver/planning/architecture/create-workspaces.md).
 
 ### Felder
 

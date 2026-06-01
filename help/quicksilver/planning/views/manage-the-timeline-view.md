@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
+source-git-commit: 4692dc6f7ab840bb43f3788126471425e9f8a396
 workflow-type: tm+mt
-source-wordcount: '4251'
+source-wordcount: '4209'
 ht-degree: 3%
 
 ---
@@ -388,7 +388,7 @@ Dies ist die Standardoption.
 
    ![Mehrstufiger Filter mit Aufschlüsselung für die Zeitleisten-Ansicht](assets/multi-tiered-filters-with-breakdown-for-timeline-view.png)
 
-   <span class="preview">Sie können Filter für Aufschlüsselungs-Datensatztypen nur in der Zeitleisten -Ansicht verwenden.</span>
+   <span class="preview">Aufschlüsselungs-Datensatztypen können nur in der Zeitleisten -Ansicht gefiltert werden.</span>
 1. (Optional) Klicken Sie auf **Filter** oder an einer anderen Stelle auf der Seite, um das Feld „Filter“ zu schließen. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 
@@ -402,7 +402,7 @@ Beachten Sie beim Arbeiten mit Gruppierungen in der Zeitleisten -Ansicht Folgend
 
 * Sie können Gruppierungen sowohl in der Tabellen- als auch in der Zeitleisten-Ansicht anwenden. Die Gruppierungen der Tabellenansicht sind unabhängig von denen in der Zeitleisten -Ansicht desselben Datensatztyps.
 * Sie können in einer Ansicht drei Gruppierungsebenen anwenden. Die Datensätze werden in der Reihenfolge der ausgewählten Gruppierungen gruppiert.
-&lt;!—!—* Bei Verwendung der API können Sie bis zu 4 Gruppierungsebenen anwenden. —Diese wird vorerst überprüft—>
+&lt;!—* Bei Verwendung der API können bis zu 4 Gruppierungsebenen angewendet werden. —Diese werden vorerst überprüft—>
 * Die Gruppierungen sind für die ausgewählte Ansicht eindeutig. Auf zwei Tabellenansichten desselben Datensatztyps können unterschiedliche Gruppierungen angewendet werden. Zwei Benutzende, die dieselbe Tabellenansicht betrachten, sehen dieselbe Gruppierung, die derzeit angewendet wird.
 * Die von Ihnen erstellten Gruppierungen können nicht für eine Tabellenansicht benannt werden.
 * Das Entfernen von Gruppierungen entfernt sie von allen Benutzern, die auf denselben Datensatztyp zugreifen wie Sie und die dieselbe Ansicht anzeigen wie Sie.
