@@ -8,10 +8,10 @@ recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 31aff197d6af521df2258f3f99fea6fb5785b9e3
+source-git-commit: 4692dc6f7ab840bb43f3788126471425e9f8a396
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 2%
+source-wordcount: '759'
+ht-degree: 3%
 
 ---
 
@@ -152,12 +152,18 @@ Old:
    * **Workspaces I&#39;m on**, um auf von Ihnen erstellte Workspaces zuzugreifen
    * **Alle Arbeitsbereiche**, um auf für Sie freigegebene Arbeitsbereiche oder von Ihnen erstellte Arbeitsbereiche zuzugreifen
 
+   <!--
+   >[!NOTE]
+   >
+   ><span class="preview">You cannot edit the workspaces on the **Sample workspaces** tab. We recommend using the multi-workspace template bundle to create workspaces similar to those on the Sample workspace tab and edit your own. For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).</span> 
+   -->
+
 1. (Optional) Klicken Sie auf **Alle anzeigen**, um zusätzliche Arbeitsbereiche anzuzeigen. Der **Alle anzeigen** wird nur angezeigt, wenn Sie mehr als zwei Zeilen Arbeitsbereichskarten haben.
 1. (Optional) Klicken Sie auf **Weniger anzeigen**, um die Anzahl der Arbeitsbereiche zu begrenzen, die auf dem Bildschirm angezeigt werden.
 1. Führen Sie einen der folgenden Schritte aus, um einen Arbeitsbereich zu bearbeiten:
 
    * Bewegen Sie den Mauszeiger über die Arbeitsbereichskarte und klicken Sie dann auf **Mehr** Menü ![Mehr](assets/more-menu.png) in der oberen rechten Ecke der Karte
-oder
+ODER
    * Klicken Sie auf **search**-Symbol ![search-Symbol](assets/search-icon.png) in der rechten oberen Ecke der Seite „Workspace“, um nach einem Workspace anhand des Namens zu suchen, und klicken Sie auf eine Workspace-Karte, um den Workspace zu öffnen. Klicken Sie dann auf das **More**-Menü ![More-Menü](assets/more-menu.png) rechts neben dem Workspace-Namen.
 
    >[!TIP]
