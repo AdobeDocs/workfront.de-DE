@@ -7,12 +7,9 @@ author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
 TQID: https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: bd1c8dfc4b03b4b8d9948da278406addf801d226
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
 source-wordcount: 516
 ht-degree: 3%
@@ -53,16 +50,11 @@ Ein Arbeitsbereich ist eine Sammlung von Datensatztypen, die von einer Organisat
 
    * **Arbeitsbereiche, an denen ich mitwirke**: Zeigt von Ihnen erstellte Arbeitsbereiche oder Arbeitsbereiche an, die für Sie freigegeben sind.
    * **Andere Arbeitsbereiche**: Zeigt alle anderen Arbeitsbereiche im System an. Dies ist nur für Systemadministratoren verfügbar.
-
-  <div class="preview">
-
-   * **Beispiel-Arbeitsbereiche**: Zeigt integrierte Beispiele für Best Practice-Arbeitsbereiche an. Sie können die Arbeitsbereiche, Datensatztypen oder Datensätze oder Felder nicht bearbeiten, aber Sie können Ansichten hinzufügen, bearbeiten und für andere freigeben.
-
-  </div>
+   * <span class="preview">**Beispiel-Arbeitsbereiche**: Zeigt integrierte Beispiele für Best Practice-Arbeitsbereiche an. Sie können die Arbeitsbereiche, Datensatztypen oder Datensätze oder Felder nicht bearbeiten, aber Sie können Ansichten hinzufügen, bearbeiten und für andere freigeben.</span>
 
   >[!NOTE]
   >
-  ><span class="preview">Es wird empfohlen, die Beispiel-Arbeitsbereiche nicht zu bearbeiten, sondern sie als Referenz zum Erstellen eigener Arbeitsbereiche zu verwenden. Verwenden Sie das Vorlagenpaket für mehrere Arbeitsbereiche , um Arbeitsbereiche zu erstellen, die mit den auf der Registerkarte Beispiel-Arbeitsbereiche aufgeführten Arbeitsbereichen identisch sind. Weitere Informationen finden Sie im Abschnitt „Erstellen mehrerer Arbeitsbereiche mithilfe eines Best-Practice-Vorlagenpakets für mehrere Arbeitsbereiche“ im Artikel [Erstellen von &#x200B;](/help/quicksilver/planning/architecture/create-workspaces.md)&quot; </span>
+  ><span class="preview">Es wird empfohlen, die Beispiel-Arbeitsbereiche nicht zu bearbeiten, sondern sie als Referenz zum Erstellen eigener Arbeitsbereiche zu verwenden. Verwenden Sie das Vorlagenpaket für mehrere Arbeitsbereiche , um Arbeitsbereiche zu erstellen, die mit den auf der Registerkarte Beispiel-Arbeitsbereiche aufgeführten Arbeitsbereichen identisch sind. Weitere Informationen finden Sie im Abschnitt „Erstellen mehrerer Arbeitsbereiche mithilfe eines Best-Practice-Vorlagenpakets für mehrere Arbeitsbereiche“ im Artikel [Erstellen von ](/help/quicksilver/planning/architecture/create-workspaces.md)&quot; </span>
 
 <!--
 No longer the case - they match now: 

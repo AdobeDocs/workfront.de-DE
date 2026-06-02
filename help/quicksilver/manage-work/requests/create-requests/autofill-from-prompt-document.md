@@ -5,11 +5,16 @@ description: Sie können KI zum automatischen Ausfüllen von Anfragefeldern verw
 author: Alina, Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 83adea16ed7d66cec9ec2ce5b385b5ac4a7fdbac
+TQID: https://experienceleague.adobe.com/Z2t6RQBsQZK6MNRd3w2gWEY8k9YU48Jsco7pev7papM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '1499'
+source-wordcount: 1503
 ht-degree: 8%
 
 ---
@@ -22,7 +27,7 @@ ht-degree: 8%
 
 Mit KI-Formularausfüllen können Sie Anfragefelder basierend auf einer von Ihnen eingegebenen Eingabeaufforderung automatisch ausfüllen. Es kann auch Felder basierend auf Text ausfüllen, z. B. E-Mails oder hochgeladene Dokumente. Sie können diese Vorschläge vor dem Absenden der Anfrage genehmigen oder ablehnen.
 
-Diese Funktion ist beim Erstellen einer Anfrage im Bereich Workfront-Anfragen und in Workfront Planning verfügbar.
+Diese Funktion ist beim Erstellen einer Anfrage im Bereich Workfront-Anfragen sowohl für Workfront- als auch für Workfront Planning-Anfragen verfügbar.
 
 ## Zugriffsanforderungen
 
@@ -86,7 +91,6 @@ Beachten Sie bei der Verwendung von Formularausfüllen auf Basis von KI Folgende
 * All files uploaded to Azure are currently stored in US Azure clusters for the 24 hour storage window. 
 -->
 
-
 ## Aktivieren von Formularausfüllen mit KI für Ihre Organisation
 
 >[!NOTE]
@@ -95,8 +99,8 @@ Beachten Sie bei der Verwendung von Formularausfüllen auf Basis von KI Folgende
 
 1. Klicken Sie oben links auf **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) und dann auf **[!UICONTROL Setup]** ![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
 1. Klicken Sie auf **System** und dann unter „System“ auf **Voreinstellungen**.
-1. Stellen Sie im Abschnitt KI-Voreinstellungen sicher, dass **KI aktivieren** aktiviert ist.
-1. Schalten Sie **KI-Formular ausfüllen** ein.
+1. Aktivieren Sie im Abschnitt „KI-Voreinstellungen“ die Einstellung **KI aktivieren**.
+1. Schalten Sie die Einstellung **KI-Formularausfüllen** ein.
 1. Um das Ausfüllen von Formularen mit künstlicher Intelligenz zu deaktivieren, deaktivieren Sie **KI-Formularausfüllen**.
 
 ## Abrufen von Vorschlägen aus einer Textaufforderung
