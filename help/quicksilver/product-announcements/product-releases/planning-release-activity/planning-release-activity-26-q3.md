@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 4eeb229206421d737b9543613608935eacb058f9
+source-git-commit: bd1c8dfc4b03b4b8d9948da278406addf801d226
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1665'
 ht-degree: 0%
 
 ---
@@ -50,6 +50,18 @@ Workspace managers can modify views in sample workspaces.
 For information, see Workspaces overview (/help/quicksilver/planning/architecture/workspaces-overview.md). 
 
 -->
+
+## Neue Registerkarte Beispiel-Arbeitsbereiche zur Landingpage Planung hinzugefügt
+
+>[!NOTE]
+>
+>Vorschau: 1. Juni 2026>Produktions-Schnellveröffentlichung: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+
+Wir haben die Registerkarte Beispiel-Arbeitsbereiche im Bereich Planung hinzugefügt, wo Sie Beispiele für Best Practice-Arbeitsbereiche sehen können. Die Arbeitsbereiche können nicht bearbeitet werden. Workspace-Manager können Ansichten in Beispiel-Arbeitsbereichen ändern. Die Registerkarte ist für Benutzer von Standard und Systemadministrator sichtbar.
+
+Es wird empfohlen, die Beispiel-Arbeitsbereiche als Beispiele anzuzeigen und das Vorlagen-Bundle mit mehreren Arbeitsbereichen zu verwenden, um Arbeitsbereiche zu erstellen, zu bearbeiten und freizugeben, die bei der Verwendung dieser Vorlage entstehen.  Das Vorlagenpaket enthält dieselben Arbeitsbereiche wie die Registerkarte Beispiel-Arbeitsbereiche .
+
+Weitere Informationen finden Sie unter [Arbeitsbereiche - Übersicht](/help/quicksilver/planning/architecture/workspaces-overview.md).
 
 ## Workfront Planning-API, Version 2
 
