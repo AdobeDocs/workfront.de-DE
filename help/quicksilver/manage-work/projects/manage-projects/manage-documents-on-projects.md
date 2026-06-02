@@ -6,9 +6,9 @@ description: Je nachdem, ob Ihr Workfront-Administrator für Ihre standardmäßi
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: 9a35246858141a3b69ec85be3372c7a8d9497d6e
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '1920'
+source-wordcount: '1961'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Ihr Adobe Workfront-Administrator kann den Standard für die Speichervoreinstell
 Der Workfront-Administrator kann eine der folgenden Optionen auswählen:
 
 * Workfront-Speicher
-* Adobe Cloud-Speicher
+* Cloud-Speicherplatz von Adobe
 
 Mit dieser Einstellung können Sie an Workfront-Objekte angehängte Dokumente automatisch an einem der verfügbaren Speicherorte speichern.
 
@@ -187,13 +187,17 @@ Beachten Sie beim Arbeiten mit Problemen Folgendes:
 * Sie können den Dokumentordner umbenennen und aus dem Adobe-Cloud-Speicher löschen, wodurch auch die Dokumente im Ordner gelöscht werden. Nachdem Sie dem Problem neue Dokumente hinzugefügt haben, wird der Ordner automatisch neu erstellt. Gelöschte Dokumente werden nicht wieder im Ordner abgelegt.
 * Bei Adobe-Cloud-Speicherprojekten wird der Dokumentordner in einem Problem als Unterordner in dem automatisch für das Projekt erstellten Dokumentenordner angezeigt.
 * Sie können ein Problem nicht aus einem alten Workfront-Speicherprojekt kopieren oder in ein Adobe-Cloud-Speicherprojekt verschieben. Auch das Gegenteil ist nicht möglich.
-* Wenn Sie eine Anfrage mit einem an ein älteres Workfront-Speicherprojekt angehängten Dokument senden, wird das Dokument im Bereich Dokumente der Anfrage unter Verwendung des Speichertyps des Projekts angezeigt, auch wenn die Standardeinstellung für den Systemspeicher Adobe Cloud-Speicher ist.
 * Beim Konvertieren eines Problems in ein Projekt treten die folgenden Szenarien auf: <!--this info also duplicated in Convert an issue to a project-->
    * Ein Problem mit einem alten Workfront-Speicher erstellt ein veraltetes Workfront-Speicherprojekt.
    * Ein Adobe-Cloud-Speicherproblem erstellt ein Adobe-Cloud-Speicherprojekt.
    * Wenn Sie eine ältere Workfront-Speichervorlage verwenden, um ein Adobe-Cloud-Speicherproblem zu konvertieren, wird ein Adobe-Cloud-Speicherprojekt erstellt.
    * Wenn Sie eine Adobe-Cloud-Speichervorlage verwenden, um ein veraltetes Workfront-Speicherproblem zu konvertieren, wird ein veraltetes Workfront-Speicherprojekt erstellt.
 * Sie können im Bedienfeld „Zusammenfassung“ keine Dokumente zu Problemen mit der Adobe-Cloud-Datenspeicherung hinzufügen.
+
+### Dokumentenverwaltung für Anfragen
+
+* Wenn Sie eine Workfront-Anfrage mit einem angehängten Dokument an ein veraltetes Workfront-Speicherprojekt senden, das als Anfrage-Warteschlange funktioniert, wird das Dokument im Bereich Dokumente der Anfrage unter Verwendung des Speichertyps des Projekts angezeigt, auch wenn die Standardeinstellung für den Systemspeicher Adobe Cloud Storage ist.
+* Wenn Sie ein Dokument an ein Problem anhängen, das Sie an eine mit dem Adobe-Speicher verknüpfte Anfrage-Warteschlange senden, wird für jedes gesendete Problem ein Ordner erstellt, in dem die Dokumente gespeichert werden. Der Ordner wird auch als Unterordner zum automatisch erstellten Projektordner im Anfrage-Warteschlangenprojekt hinzugefügt.
 
 ### Dokumentenverwaltung für Projektvorlagen
 
@@ -203,6 +207,8 @@ Beachten Sie beim Arbeiten mit Vorlagen Folgendes:
 * Sie können eine ältere Workfront-Speichervorlage verwenden, um ältere Workfront-Speicherprojekte zu erstellen. Sie können eine Adobe-Cloud-Speichervorlage verwenden, um ein Adobe-Cloud-Speicherprojekt zu erstellen.
 * Sie können eine ältere Workfront-Speichervorlage an ein Adobe-Cloud-Speicherprojekt anhängen. Dadurch wird der Speicherort der Dokumente im Projekt nicht geändert.
 * Sie können eine Adobe-Cloud-Speichervorlage an ein veraltetes Workfront-Speicherprojekt anhängen. Dadurch wird der Speicherort der Dokumente im Projekt nicht geändert. Dokumente im Cloud-Speicherordner von Adobe für die Vorlage werden dem Projekt direkt und ohne den Ordner hinzugefügt, während die Dokumente in den Vorlagenaufgabenordnern den Ordnern hinzugefügt werden, die an die Projektaufgaben im Abschnitt Dokumente der Aufgaben angehängt sind.
+* Wenn Sie ein Projekt als Vorlage speichern, wird der Speichertyp des Projekts auf die Vorlage übertragen, unabhängig davon, was Ihr Workfront-Administrator für die Speichervoreinstellung Ihres Systems festgelegt hat.
+
 
 ### Dokumentverwaltung für Vorlagenaufgaben
 
@@ -213,4 +219,4 @@ Beachten Sie beim Arbeiten mit Vorlagenaufgaben Folgendes:
 * Sie können den Dokumentordner umbenennen und aus der Vorlagenaufgabe für die Adobe-Cloud-Datenspeicherung löschen, wodurch auch die Dokumente im Ordner gelöscht werden. Nachdem Sie der Vorlagenaufgabe neue Dokumente hinzugefügt haben, wird der Ordner automatisch neu erstellt. Gelöschte Dokumente werden nicht wieder im Ordner abgelegt.
 * Bei Adobe Cloud-Speichervorlagen wird der Dokumentordner auf einer Vorlagenaufgabe als Unterordner im Ordner Dokumente angezeigt, der automatisch für die Vorlage erstellt wird.
 * Sie können eine Vorlagenaufgabe nicht von einer alten Workfront-Speichervorlage kopieren oder in eine Adobe-Cloud-Speichervorlage verschieben. Auch das Gegenteil ist nicht möglich.
-* Wenn Sie ein Dokument an ein Problem anhängen, das Sie an eine mit dem Adobe-Speicher verknüpfte Anfrage-Warteschlange senden, wird für jedes gesendete Problem ein Ordner erstellt, in dem die Dokumente gespeichert werden. Der Ordner wird auch als Unterordner zum automatisch erstellten Projektordner in der Anfrage-Warteschlange hinzugefügt.
+

@@ -6,14 +6,28 @@ description: Sie können Aufgaben in einem Projekt erst erstellen, nachdem Sie d
 author: Alina
 feature: Work Management
 exl-id: 7bd6578e-9288-4793-ba07-a0c126c479b9
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/-xOLBxAGitQAXXRxHSr6R9mv-2hfuLOq0VZKB2TzuqI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: 926
 ht-degree: 0%
 
 ---
 
-# Erstellen von Aufgaben - Übersicht
+# Erstellen von Aufgaben – Überblick
 
 Sie können Aufgaben in einem Projekt erst erstellen, nachdem Sie das Projekt erstellt haben.
 
@@ -91,3 +105,7 @@ Beachten Sie beim Definieren von Standardinformationen, die mit Aufgaben verknü
 * Wenn Sie die Aufgabe in ein anderes Projekt verschieben, werden die Standardaufgabeneinstellungen für die Aufgaben aus dem ursprünglichen Projekt gespeichert, unabhängig von den standardmäßigen Aufgabeneinstellungen für das neue Projekt.
 
   Informationen zum Verschieben von Aufgaben finden Sie unter [Aufgaben verschieben](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+
+* Wenn Ihr Unternehmen sowohl den alten Workfront- als auch den Adobe-Cloud-Speicher verwendet, können Sie keine Aufgaben zwischen Projekten verschieben oder kopieren, die unterschiedliche Speichertypen verwenden.
+
+  Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und zugehörige Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).

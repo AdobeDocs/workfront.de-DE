@@ -6,24 +6,33 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 4692dc6f7ab840bb43f3788126471425e9f8a396
+TQID: https://experienceleague.adobe.com/LtHxTws4o0FI964-qOtFE-sbKaLGRQroBQvMD5fOUvY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: 1311
 ht-degree: 2%
 
 ---
 
-
 # Erstellen von Arbeitsbereichen
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
-
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -230,12 +239,12 @@ Sie können Arbeitsbereiche wie folgt erstellen:
 >
 >Das gleichzeitige Erstellen mehrerer Arbeitsbereiche mithilfe des Best-Practice-Vorlagenpakets ist nur verfügbar, wenn die folgenden Voraussetzungen erfüllt sind:
 >
->* Ihr Unternehmen hat ein Workfront Planning Prime- oder Ultimate-Paket erworben.
+>* Ihr Unternehmen hat ein Workfront- oder Workflow Planning Prime- oder Ultimate-Paket erworben
 >* Sie sind Systemadministrator
 
-Sie können ein Vorlagenpaket mit mehreren Arbeitsbereichen verwenden, um 6 Arbeitsbereiche mit einem Klick zu erstellen.
+Sie können das Vorlagenpaket für mehrere Arbeitsbereiche verwenden, um mit einem Klick 6 Arbeitsbereiche zu erstellen.
 
-Die im Bundle enthaltenen Vorlagen enthalten Arbeitsbereiche, Datensatztypen, Datensätze, Ansichten und Felder, um Ihnen den Einstieg in Ihre Planungsimplementierung zu erleichtern.
+Die im Bundle enthaltenen Vorlagen enthalten Arbeitsbereiche, Datensatztypen, Datensätze, Ansichten und Felder, um Ihnen den Einstieg in Ihre Planungsimplementierung zu erleichtern. Weitere Informationen finden Sie unter [Liste der Arbeitsbereichsvorlagen](/help/quicksilver/planning/architecture/workspace-templates.md).
 
 >[!IMPORTANT]
 >
@@ -246,27 +255,44 @@ Die im Bundle enthaltenen Vorlagen enthalten Arbeitsbereiche, Datensatztypen, Da
 
 {{step1-to-planning}}
 
-1. Klicken Sie auf **Arbeitsbereich erstellen**
+1. Führen Sie einen der folgenden Schritte aus:
 
-   Das Feld Arbeitsbereich erstellen wird angezeigt. Sie können einen Arbeitsbereich von Grund auf neu erstellen oder ihn mit einer der verfügbaren Vorlagen erstellen.
+   * Klicken Sie **Arbeitsbereich erstellen** und führen Sie dann die folgenden Schritte aus:
 
-1. Klicken Sie **Bereich** Hier beginnen (empfohlen **auf „Arbeitsbereich-Setup überprüfen**.
-1. (Optional) Klicken Sie **Vorschau** in einer der folgenden vordefinierten Arbeitsbereichsvorlagen, um das Vorschaufeld für jede Vorlage zu öffnen:
+      1. Das Feld Arbeitsbereich erstellen wird angezeigt. Sie können einen Arbeitsbereich von Grund auf neu erstellen oder ihn mit einer der verfügbaren Vorlagen erstellen.
 
-   * &#x200B;1. Globale Klassifizierungen und Taxonomien
+      1. Klicken Sie **Bereich** Hier beginnen (empfohlen **auf „Arbeitsbereich-Setup überprüfen**.
+      1. (Optional) Klicken Sie **Vorschau** in einer der folgenden vordefinierten Arbeitsbereichsvorlagen, um das Vorschaufeld für jede Vorlage zu öffnen:
 
-     Die Vorlage Globale Klassifizierungen und Taxonomien enthält alle Datensatztypen und -felder, die Sie in Ihrer Umgebung für eine erfolgreiche Implementierung von Workfront Planning erstellen sollten.
+         * &#x200B;1. Globale Klassifizierungen und Taxonomien
 
-     Sie können die Datensatztypen in dieser Vorlage später in andere von Ihnen erstellte Arbeitsbereiche verknüpfen oder importieren.
-   * 2.Fréscopa Global Marketing
-   * 3.Fréscopa Social Marketing
-   * 4.Fréscopa Medien und PR
-   * 5.Fréscopa Global Events
-   * 6.Fréscopa Führende Unternehmensführung
+           Die Vorlage Globale Klassifizierungen und Taxonomien enthält alle Datensatztypen und -felder, die Sie in Ihrer Umgebung für eine erfolgreiche Implementierung von Workfront Planning erstellen sollten.
 
-1. Nachdem Sie das Feld **Vorschau** für jede Arbeitsbereichsvorlage geöffnet haben, klicken Sie auf **Zurück**, um zum Feld **Arbeitsbereich erstellen** zurückzukehren, oder klicken Sie auf **Vorlagen verwenden**, um die Vorlagen zu verwenden, einschließlich im Bundle, und Arbeitsbereiche zu erstellen.
+           Sie können die Datensatztypen in dieser Vorlage später in andere von Ihnen erstellte Arbeitsbereiche verknüpfen oder importieren.
+         * 2.Fréscopa Global Marketing
+         * 3.Fréscopa Social Marketing
+         * 4.Fréscopa Medien und PR
+         * 5.Fréscopa Global Events
+         * 6.Fréscopa Führende Unternehmensführung
 
-   Die Arbeitsbereiche werden erstellt und auf den Registerkarten **Workspaces I&#39;m** und **All Workspaces** für Systemadministratoren angezeigt. Alle Benutzer von Standardlizenzen sehen die Arbeitsbereiche in ihrem Arbeitsbereich, nachdem ein Systemadministrator sie erstellt und die neuen Arbeitsbereiche für sie freigegeben hat.
+      1. Nachdem Sie das Feld **Vorschau** für jede Arbeitsbereichsvorlage geöffnet haben, klicken Sie auf **Zurück**, um zum Feld **Arbeitsbereich erstellen** zurückzukehren, oder klicken Sie auf **Vorlagen verwenden**, um die Vorlagen zu verwenden, einschließlich im Bundle, und Arbeitsbereiche zu erstellen.
+
+   <div class="preview">
+
+   * Klicken Sie auf **Registerkarte** Beispielarbeitsbereiche“ und führen Sie dann die folgenden Schritte aus:
+
+      1. Klicken Sie auf der Registerkarte auf eine der Arbeitsbereichsvorlagen, um die Datensatztypen und -felder in den einzelnen Vorlagen zu überprüfen. Vorlagen auf der Registerkarte **Beispiel-**&quot; sind schreibgeschützt.
+      1. Klicken **oben rechts** einer Vorlage auf „Erstellen aus Vorlagen“.
+      1. (Optional) Klicken Sie **einer** auf „Vorschau“, um die Datensatztypen und ihre Felder anzuzeigen.
+
+         >[!TIP]
+         >
+         >Wenn Sie in einer Vorlage auf eine Karte für den Datensatztyp klicken, werden die Felder des Datensatztyps im rechten Bedienfeld angezeigt.
+      1. Klicken Sie **Vorlagen verwenden**.
+
+   </div>
+
+   Die 6 Arbeitsbereiche werden erstellt und auf den Registerkarten **Arbeitsbereiche bin ich** und **Alle Arbeitsbereiche** für Systemadministratoren angezeigt. Alle Benutzer von Standardlizenzen sehen die Arbeitsbereiche in ihrem Arbeitsbereich, nachdem ein Systemadministrator sie erstellt und die neuen Arbeitsbereiche für sie freigegeben hat.
 
 1. Beginnen Sie mit der Bearbeitung der von Ihnen erstellten Arbeitsbereiche und fügen Sie Datensatztypen, Datensätze, Ansichten und Felder hinzu, die für Ihre Organisation relevant sind.
 

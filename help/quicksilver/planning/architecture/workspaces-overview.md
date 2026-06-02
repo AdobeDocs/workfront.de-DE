@@ -12,7 +12,7 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: bd1c8dfc4b03b4b8d9948da278406addf801d226
+source-git-commit: 9053a824ecec4feb35a612b26aebb91904ef2546
 workflow-type: tm+mt
 source-wordcount: 516
 ht-degree: 3%
@@ -53,12 +53,7 @@ Ein Arbeitsbereich ist eine Sammlung von Datensatztypen, die von einer Organisat
 
    * **Arbeitsbereiche, an denen ich mitwirke**: Zeigt von Ihnen erstellte Arbeitsbereiche oder Arbeitsbereiche an, die für Sie freigegeben sind.
    * **Andere Arbeitsbereiche**: Zeigt alle anderen Arbeitsbereiche im System an. Dies ist nur für Systemadministratoren verfügbar.
-
-  <div class="preview">
-
-   * **Beispiel-Arbeitsbereiche**: Zeigt integrierte Beispiele für Best Practice-Arbeitsbereiche an. Sie können die Arbeitsbereiche, Datensatztypen oder Datensätze oder Felder nicht bearbeiten, aber Sie können Ansichten hinzufügen, bearbeiten und für andere freigeben.
-
-  </div>
+   * <span class="preview">**Beispiel-Arbeitsbereiche**: Zeigt integrierte Beispiele für Best Practice-Arbeitsbereiche an. Sie können die Arbeitsbereiche, Datensatztypen oder Datensätze oder Felder nicht bearbeiten, aber Sie können Ansichten hinzufügen, bearbeiten und für andere freigeben.</span>
 
   >[!NOTE]
   >
