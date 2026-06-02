@@ -6,26 +6,27 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
-source-git-commit: 4692dc6f7ab840bb43f3788126471425e9f8a396
+TQID: https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: bd1c8dfc4b03b4b8d9948da278406addf801d226
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 4%
+source-wordcount: 516
+ht-degree: 3%
 
 ---
 
 # Überblick über Arbeitsbereiche
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
 Ein Arbeitsbereich ist eine Sammlung von Datensatztypen, die von einer Organisationseinheit verwendet werden. Er stellt den Arbeitszyklus und die Prozesse der Einheit dar. Sie können Arbeitsbereiche in Adobe Workfront Planning vollständig anpassen.
 
-<!--update screenshot with preview-->
+<!--update screenshot with production, it was broken at Preview-->
 
 ![Workspaces Landingpage-Administratorkonto](assets/workspaces-landing-page-admin-account.png)
 
@@ -45,35 +46,36 @@ Ein Arbeitsbereich ist eine Sammlung von Datensatztypen, die von einer Organisat
 * Arbeitsbereiche sind Frameworks, in denen Ihre Organisationseinheiten (ein Team, eine Gruppe, eine Abteilung oder ein Unternehmensbereich) arbeiten. Sie können nicht mit Feldern verknüpft werden. Nur die Datensatztypen innerhalb eines Arbeitsbereichs können Feldern zugeordnet werden.
 
   Weitere Informationen finden Sie unter [Datensatztypen - Übersicht](/help/quicksilver/planning/architecture/overview-of-record-types.md).
-* Abhängig von Ihrer Workfront-Lizenz werden Arbeitsbereiche auf den folgenden Registerkarten im Bereich Planung angezeigt:
+* Arbeitsbereiche werden auf den folgenden Registerkarten im Bereich Planung angezeigt:
 
-   * Für Systemadministratoren werden Arbeitsbereiche auf den folgenden Registerkarten angezeigt:
+   * **Arbeitsbereiche, an denen ich mitwirke**: Zeigt von Ihnen erstellte Arbeitsbereiche oder Arbeitsbereiche an, die für Sie freigegeben sind.
+   * **Andere Arbeitsbereiche**: Zeigt alle anderen Arbeitsbereiche im System an. Dies ist nur für Systemadministratoren verfügbar.
 
-      * **Arbeitsbereiche, an denen ich mitwirke**: Zeigt von Ihnen erstellte Arbeitsbereiche oder Arbeitsbereiche an, die für Sie freigegeben sind.
-      * **Andere Arbeitsbereiche**: Zeigt alle anderen Arbeitsbereiche im System an.
+  <div class="preview">
 
-     <!--
-      * <span class="preview">**Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces, record types, or add records, but you can add, edit, and share views with others.</span> (************TEST THIS WITH SYSTEM ADMINS AND STANDARD USERS**********)
-      -->
+   * **Beispiel-Arbeitsbereiche**: Zeigt integrierte Beispiele für Best Practice-Arbeitsbereiche an. Sie können die Arbeitsbereiche, Datensatztypen oder Datensätze oder Felder nicht bearbeiten, aber Sie können Ansichten hinzufügen, bearbeiten und für andere freigeben.
 
-   * Für alle anderen Benutzer werden die von ihnen erstellten Arbeitsbereiche und die von anderen für sie freigegebenen Arbeitsbereiche im Arbeitsbereich angezeigt.
+  </div>
 
-  <!--
+  >[!NOTE]
+  >
+  ><span class="preview">Es wird empfohlen, die Beispiel-Arbeitsbereiche nicht zu bearbeiten, sondern sie als Referenz zum Erstellen eigener Arbeitsbereiche zu verwenden. Verwenden Sie das Vorlagenpaket für mehrere Arbeitsbereiche , um Arbeitsbereiche zu erstellen, die mit den auf der Registerkarte Beispiel-Arbeitsbereiche aufgeführten Arbeitsbereichen identisch sind. Weitere Informationen finden Sie im Abschnitt „Erstellen mehrerer Arbeitsbereiche mithilfe eines Best-Practice-Vorlagenpakets für mehrere Arbeitsbereiche“ im Artikel [Erstellen von ](/help/quicksilver/planning/architecture/create-workspaces.md)&quot; </span>
 
-    ******************* If Standard users can see the Sample workspaces, then replace the last bullet with this: 
+<!--
+No longer the case - they match now: 
 
-   * For all other users:
+* For all other users:
 
-        * (****************what is the name of this tab????*******) Workspaces they created and workspaces others shared with them display in the Workspaces area. 
-        * <span class="preview">**Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces, record types, or add records, but you can add, edit, and share views with others.</span>
-    
-    -->
+* **Workspaces I'm on**: Workspaces they created (for Standard-license users) and workspaces others shared with them display in the Workspaces area.
 
-  <!--      
-    >[!NOTE]
-    >
-    ><span class="preview">We recommend to not edit the sample workspaces, but instead to use them as a reference to create your own. Use the multi-workspace template bundle to create workspaces identical to the ones listed in the Sample workspaces tab. For information, see the section "Create multiple workspaces using a best-practice multi-workspace template bundle" in the article [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md). </span> 
-    -->
+<div class="preview"> 
+
+* **Sample workspaces**: Displays built-in examples of best-practice workspaces. You cannot edit the workspaces, record types, or add records, but you can add, edit, and share views with others.
+
+</div>
+-->
+
+
 
 * Die Datensatztypen, die ein Arbeitsbereich enthält, sollten den Arbeitszyklus und die Konzepte einer Organisationseinheit widerspiegeln.
 

@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 4eeb229206421d737b9543613608935eacb058f9
+source-git-commit: bd1c8dfc4b03b4b8d9948da278406addf801d226
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1665'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,18 @@ For information, see Workspaces overview (/help/quicksilver/planning/architectur
 
 -->
 
+## Neue Registerkarte Beispiel-Arbeitsbereiche zur Landingpage Planung hinzugefügt
+
+>[!NOTE]
+>
+>Vorschau: 1. Juni 2026>Produktions-Schnellveröffentlichung: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+
+Wir haben die Registerkarte Beispiel-Arbeitsbereiche im Bereich Planung hinzugefügt, wo Sie Beispiele für Best Practice-Arbeitsbereiche sehen können. Die Arbeitsbereiche können nicht bearbeitet werden. Workspace-Manager können Ansichten in Beispiel-Arbeitsbereichen ändern. Die Registerkarte ist für Benutzer von Standard und Systemadministrator sichtbar.
+
+Es wird empfohlen, die Beispiel-Arbeitsbereiche als Beispiele anzuzeigen und das Vorlagen-Bundle mit mehreren Arbeitsbereichen zu verwenden, um Arbeitsbereiche zu erstellen, zu bearbeiten und freizugeben, die bei der Verwendung dieser Vorlage entstehen.  Das Vorlagenpaket enthält dieselben Arbeitsbereiche wie die Registerkarte Beispiel-Arbeitsbereiche .
+
+Weitere Informationen finden Sie unter [Arbeitsbereiche - Übersicht](/help/quicksilver/planning/architecture/workspaces-overview.md).
+
 ## Workfront Planning-API, Version 2
 
 >[!NOTE]
@@ -76,7 +88,7 @@ Version 1 bleibt verfügbar, obwohl wir empfehlen, zur Verwendung von Version 2 
 
 Weitere Informationen finden Sie unter [Grundlagen zur Adobe Workfront Planning-API](/help/quicksilver/planning/general/planning-api-basics.md).
 
-Informationen zu den Spezifikationen der Workfront Planning-API finden Sie in der Entwicklerdokumentation zur [Workfront &#x200B;](https://developer.adobe.com/wf-planning/)-API.
+Informationen zu den Spezifikationen der Workfront Planning-API finden Sie in der Entwicklerdokumentation zur [Workfront ](https://developer.adobe.com/wf-planning/)-API.
 
 ## Berechtigungen für Datensätze erteilen
 
