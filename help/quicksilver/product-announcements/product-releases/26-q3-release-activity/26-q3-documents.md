@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: 3bd72ca7e9a55dded97fa65d403d661f3ca95d3e
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 3%
+source-wordcount: '450'
+ht-degree: 2%
 
 ---
 
@@ -18,21 +18,19 @@ Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom 
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2026 verfügbar sind, finden Sie unter [Versionsübersicht für das dritte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
-<!--
-## Print summary for documents in the new Documents area
+
+## Druckzusammenfassung für Dokumente im neuen Dokumentbereich
 
 >[!NOTE]
 >
->Preview: May 28, 2026
->Production fast release: June 11, 2026
->Production for everyone: July 16, 2026
+>Vorschau: 2. Juni 2026>Produktions-Schnellveröffentlichung: 11. Juni 2026>Produktion für alle: 16. Juli 2026
 
-You can now open a printable summary of a document's approval directly from the new Documents area. This feature is available to organizations using Adobe cloud storage. 
+Sie können jetzt direkt im Bereich Neue Dokumente eine druckbare Zusammenfassung der Genehmigung eines Dokuments öffnen. Diese Funktion steht Organisationen zur Verfügung, die Adobe Cloud-Speicher verwenden.
 
-After a document has an approval, a **Print summary** option appears in the Document Details panel's Overview section. Clicking **Open Print Summary** opens the Frame.io Print Comments page, which shows the asset preview, comments, and approval decisions in a printable format.
+Nachdem ein Dokument genehmigt wurde, wird **Option „Zusammenfassung drucken** im Bereich Überblick des Dokumentdetailbereichs angezeigt. Wenn Sie auf **Druckzusammenfassung öffnen** klicken, wird die Seite Frame.io-Druckkommentare geöffnet, auf der die Asset-Vorschau, Kommentare und Genehmigungsentscheidungen in einem druckbaren Format angezeigt werden.
 
-For more information, see [Document Details overview](/help/quicksilver/documents/managing-documents/document-details-overview.md) and [Summary for documents overview](/help/quicksilver/documents/managing-documents/summary-for-documents.md).
--->
+Weitere Informationen finden Sie unter [Übersicht über Dokumentdetails](/help/quicksilver/documents/managing-documents/document-details-overview.md) und [Übersicht über Dokumente](/help/quicksilver/documents/managing-documents/summary-for-documents.md).
+
 
 ## Hinzufügen einer benutzerdefinierten Nachricht zu einem Workflow-Schritt für die Dokumentvalidierung
 

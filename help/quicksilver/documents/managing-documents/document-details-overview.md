@@ -7,16 +7,21 @@ description: Auf der Seite „Dokumentdetails“ können Sie die Eigenschaften e
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+TQID: https://experienceleague.adobe.com/k4qFA-R7MGSh5NBTbJCeOEac5Z30PVxzO8rxLRJi23Q
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 322583384e4397bf02d534c14db46020e409aa35
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 5%
+source-wordcount: 474
+ht-degree: 4%
 
 ---
 
 # Überblick über Dokumentdetails
+
+{{highlighted-preview}}
 
 Auf der Seite „Dokumentdetails“ können Sie die Eigenschaften eines Dokuments, das an ein Adobe Workfront-Objekt angehängt ist, anzeigen, darüber kommunizieren und verwalten.
 
@@ -96,9 +101,32 @@ Sie können auf der Seite Dokumentdetails die folgenden Aktionen für Dokumente 
 ![Menüsymbol „Dokumentdetails - Mehr“](assets/more-menu-new-doc.png)
 
 
+
 ### Öffnen Sie das Bedienfeld Dokumentdetails im Bereich Neue Dokumente .
 
 1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen **Dokumente** im linken Bereich aus.
-1. Wählen Sie das Dokument aus und klicken Sie dann auf **Details anzeigen**.
+1. Wählen Sie das Dokument aus und klicken Sie dann in **linken Seitenleiste auf** Details anzeigen“.
 
    ![Dokumentdetails](assets/doc-details.png)
+
+
+<div class="preview">
+
+### Anzeigen der Druckzusammenfassung im neuen Dokumentbereich
+
+Nachdem ein Dokument eine Genehmigung erhalten hat, können Sie die Seite Druckkommentare für Frame.io öffnen, um die Asset-Vorschau, Kommentare und Genehmigungsentscheidungen in einem druckbaren Format anzuzeigen.
+
+1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen **Dokumente** im linken Bereich aus.
+1. Wählen Sie das Dokument aus und klicken Sie dann in **linken Seitenleiste auf** Details anzeigen“.
+
+   ![Dokumentdetails](assets/doc-details.png)
+
+1. Klicken **Abschnitt „Übersicht** auf **Druckzusammenfassung öffnen**.
+
+
+>[!NOTE]
+>
+>Der Link Druckzusammenfassung wird erst angezeigt, nachdem dem Dokument eine Genehmigung hinzugefügt wurde.
+
+
+</div>
