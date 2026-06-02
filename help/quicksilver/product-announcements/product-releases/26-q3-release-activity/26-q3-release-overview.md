@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: c90d91ab7b901d20d639d2507297f147821db8b2
+source-git-commit: 3bd72ca7e9a55dded97fa65d403d661f3ca95d3e
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 20%
+source-wordcount: '1493'
+ht-degree: 19%
 
 ---
 
@@ -105,17 +105,15 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             <td><strong>Vorschau</strong></td>
             <td><strong>Schnellveröffentlichung</strong></td>
             <td><strong>Vierteljährlich</strong></td>
-        <!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Print summary for documents in the new Documents area</a>
-                <p>You can now open a printable summary of a document's approval directly from the new Documents area. This feature is available to organizations using Adobe cloud storage.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Druckzusammenfassung für Dokumente im neuen Dokumentbereich</a><p>[!BADGE Außerplanmäßig]{type=Neutral}</p>
+                <p>Sie können jetzt direkt im Bereich Neue Dokumente eine druckbare Zusammenfassung der Genehmigung eines Dokuments öffnen. Diese Funktion steht Organisationen zur Verfügung, die Adobe Cloud-Speicher verwenden.</p>
             </td>
-            <td><p>TBD</p></td>
-            <td><p>TBD</p></td>
-            <td><p>TBD</p></td>
+            <td><p>2. Juni 2026</p></td>
+            <td><p>11. Juni 2026</p></td>
+            <td><p>16. Juli 2026</p></td>
         </tr>
-        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Fügen Sie einer Workflow-Phase für die Dokumentvalidierung eine benutzerdefinierte Nachricht hinzu</a>
