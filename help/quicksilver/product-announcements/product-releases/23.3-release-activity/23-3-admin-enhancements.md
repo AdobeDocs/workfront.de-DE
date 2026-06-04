@@ -1,18 +1,30 @@
 ---
-title: 23.3 Administrator-Verbesserungen
-description: 23.3 Administrator-Verbesserungen
+title: Verbesserungen für Admins in Version 23.3
+description: Verbesserungen für Admins in Version 23.3
 author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5d8a0858-aa4a-4b5f-bbc4-7215e145b59a
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+TQID: https://experienceleague.adobe.com/EaBgUmWMJByCS3QoH-GoOEheVUKihKNw17cgJnbkm9A
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 0%
+source-wordcount: 326
+ht-degree: 2%
 
 ---
 
-# 23.3 Administrator-Verbesserungen
+# Verbesserungen für Admins in Version 23.3
 
 Auf dieser Seite werden alle mit Version 23.3 vorgenommenen Verbesserungen für Administratoren beschrieben. Diese Verbesserungen wurden mit der Version 23.3 vom 20. und 21. Juli 2023 in der Produktionsumgebung verfügbar gemacht.
 
@@ -32,7 +44,7 @@ Der Systemadministrator kann jetzt die Arbeitszeittabelle „Wo Benutzer die Zei
 
 Weitere Informationen finden Sie unter [Konfigurieren von Arbeitszeittabellen- und &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) und [Konfigurieren von Arbeitszeittabellen- und Stundeneinstellungen für eine Gruppe](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
-[Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3419111/){target=_blank}
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an](https://video.tv.adobe.com/v/3419111/){target=_blank}
 
 ## Anzeigen von Logikindikatoren und Regeln, die in der Beta-Version von Form Designer angezeigt werden
 

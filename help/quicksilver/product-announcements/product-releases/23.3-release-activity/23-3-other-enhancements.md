@@ -1,18 +1,29 @@
 ---
-title: 23.3 Weitere Verbesserungen
-description: 23.3 Weitere Verbesserungen
+title: Weitere Verbesserungen in Version 23.3
+description: Weitere Verbesserungen in Version 23.3
 author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 588dc03b-3b39-4640-8a28-023c7f4a1972
-source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
+TQID: https://experienceleague.adobe.com/s8ynESiXXqNKhf0pGTyVkcgm30-cNj-ileaUsQOXnAs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 0%
+source-wordcount: 441
+ht-degree: 2%
 
 ---
 
-# 23.3 Weitere Verbesserungen
+# Weitere Verbesserungen in Version 23.3
 
 Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 23.3 vorgenommen wurden. Diese Verbesserungen wurden mit der Version 23.3 vom 20. und 21. Juli 2023 in der Produktionsumgebung verfügbar gemacht.
 
@@ -31,7 +42,7 @@ New Home ist eine wichtige neue Funktion, die wir weiter entwickeln und verbesse
 Die neue Startseite wird ab ihrer Veröffentlichung das Standarderlebnis für alle Benutzer sein. Sie können sich jedoch dafür entscheiden, zum vorhandenen Startseiten-Erlebnis zurückzukehren, während wir dessen Funktionen weiter entwickeln.
 
 
-[Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3420969/){target=_blank}
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an](https://video.tv.adobe.com/v/3420969/){target=_blank}
 
 ## Neues Kommentierungserlebnis für zusätzliche Objekte
 

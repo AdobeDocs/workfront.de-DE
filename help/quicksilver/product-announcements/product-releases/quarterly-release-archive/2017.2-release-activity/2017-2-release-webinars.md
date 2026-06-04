@@ -1,20 +1,29 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Webinare zur Version 2017.2
+title: Webinare zu Version 2017.2
 description: Diese Webinare konzentrierten sich auf die in der Version 2017.2 enthaltenen Funktionen.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 97091ac4-f5de-4256-aa24-f96d083ced49
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/j-B0syjTynUyElEvzamXoagAzd8pl4FfutepHohOHPA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 2%
+source-wordcount: 426
+ht-degree: 3%
 
 ---
 
-# Webinare zur Version 2017.2
+# Webinare zu Version 2017.2
 
 Diese Webinare konzentrierten sich auf die in der Version 2017.2 enthaltenen Funktionen. 
 
@@ -73,7 +82,7 @@ Dieser Teil des Webinars umfasst die folgenden Themen:
 Dieser Teil des Webinars umfasst die folgenden Themen:
 
 * In-App-Benachrichtigung für ausstehende Genehmigungen von Korrekturabzügen
-* Elemente abonnieren: Aufgaben, Probleme, Projekte
+* Elemente, :Tasks, Projekte abonnieren
 * Exportieren des Auslastungsberichts als TSV und PDF
 * Mein Arbeitskalender wurde aktualisiert
 * Verbesserungen am Gantt-Diagramm

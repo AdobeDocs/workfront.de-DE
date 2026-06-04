@@ -1,18 +1,23 @@
 ---
-title: Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version 23.3
-description: Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version 23.3
+title: Look-and-Feel-Aktualisierungen im Veröffentlichungszeitraum der Version 23.3
+description: Look-and-Feel-Aktualisierungen im Veröffentlichungszeitraum der Version 23.3
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 86287956-445b-4d1c-9f62-1d5c8d58ee89
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/5YQwAWfSpW7jq940-7eTayXIvlMlkcHUjw7gfRy-ais
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 0%
+source-wordcount: 323
+ht-degree: 9%
 
 ---
 
-# Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version 23.3
+# Look-and-Feel-Aktualisierungen im Veröffentlichungszeitraum der Version 23.3
 
 Auf dieser Seite werden kleinere Aktualisierungen des Erscheinungsbilds verschiedener Bereiche des Adobe Workfront-Programms beschrieben, die innerhalb des Zeitrahmens von Version 23.3 vorgenommen wurden. Diese Verbesserungen werden mindestens 2 Wochen nach der Veröffentlichung in der Vorschau in der Produktionsumgebung verfügbar gemacht.
 

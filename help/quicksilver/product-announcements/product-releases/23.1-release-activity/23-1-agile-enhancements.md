@@ -1,19 +1,26 @@
 ---
-title: 23.1 Agile-Verbesserungen
-description: 23.1 Agile-Verbesserungen
+title: Verbesserungen bei Agile in Version 23.1
+description: Verbesserungen bei Agile in Version 23.1
 author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bd041a5-a6e3-4fe3-ae23-45980701e904
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/owoXC1kzVMTER0p-z1l3nKfa1d0z8JHMzZTsP26QLkc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 0%
+source-wordcount: 899
+ht-degree: 1%
 
 ---
 
-# 23.1 Agile-Verbesserungen
+# Verbesserungen bei Agile in Version 23.1
 
 Auf dieser Seite werden alle Agile-Verbesserungen beschrieben, die mit der Version 23.1 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 16. Januar 2023 in der Produktionsumgebung verfügbar gemacht.
 
@@ -43,7 +50,7 @@ Das Fälligkeitsdatum sowohl für verbundene Karten als auch für Ad-hoc-Karten 
 
 Weitere Informationen finden Sie unter [Verwenden von Karten auf Pinnwänden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-[Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3411952/){target=_blank}
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an](https://video.tv.adobe.com/v/3411952/){target=_blank}
 
 ## Pinnwand-Checklisten-Elemente und Workfront-Teilaufgaben sind jetzt verknüpft
 
@@ -57,7 +64,7 @@ Zuvor waren Checklisten-Elemente und -Teilaufgaben nicht verknüpft. Wenn Sie ei
 
 Weitere Informationen finden Sie unter [Verwenden von verbundenen Karten auf Pinnwänden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) und [Verwalten von Checklisten-Elementen auf Karten](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md).
 
-[Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3411951/){target=_blank}
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an](https://video.tv.adobe.com/v/3411951/){target=_blank}
 
 ## Kartenzähler an Bord von Spalten
 
@@ -121,7 +128,7 @@ Die Liste der Filter auf einer Pinnwand enthält jetzt die Option, nach Verbindu
 
 Weitere Informationen finden Sie unter [Filtern und Suchen in einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-[Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3412381/){target=_blank}
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an](https://video.tv.adobe.com/v/3412381/){target=_blank}
 
 ## Archivieren von Karten von einer Pinnwand nach einem Zeitplan
 
@@ -135,4 +142,4 @@ Wenn Sie die Karten wieder anzeigen möchten, nachdem sie von der Pinnwand gefal
 
 Weitere Informationen finden Sie unter [Konfigurieren von &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
-[Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3412323/){target=_blank}
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an](https://video.tv.adobe.com/v/3412323/){target=_blank}

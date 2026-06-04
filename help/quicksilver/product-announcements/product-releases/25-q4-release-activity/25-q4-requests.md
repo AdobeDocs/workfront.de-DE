@@ -5,12 +5,19 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/uax0SXlgrYrYkzCwQ8E25jA3mtYS59XrNjMUkw7G0Sg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 11%
+source-wordcount: 387
+ht-degree: 6%
 
 ---
 
@@ -24,9 +31,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2025-Ve
 
 >[!NOTE]
 >
->Vorschau: Freitag, 2. Oktober 2025
->Produktions-Schnellveröffentlichung: Donnerstag, 15. Oktober 2025
->Produktion für alle: Freitag, 16. Oktober 2025
+>Vorschau: 2. Oktober 2025>Produktions-Schnellveröffentlichung: 15. Oktober 2025>Produktion für alle: 16. Oktober 2025
 
 Um die Anzeige der benötigten Informationen zu vereinfachen, haben wir die Möglichkeit hinzugefügt, Ansichten im Bereich Anfragen zu erstellen und zu speichern. Jetzt können Sie eine Ansicht, einschließlich Filtern und Spaltenkonfigurationen, speichern und zwischen Ansichten wechseln. Ein Workfront-Administrator kann die neue Ansicht zu Layout-Vorlagen hinzufügen.
 
@@ -56,8 +61,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >* Vorschau: 21. August 2025
->* Produktions-Schnellveröffentlichung: Freitag, 11. September 2025
->* Produktion für alle: Freitag, 16. Oktober 2025
+>* Produktions-Schnellveröffentlichung: 11. September 2025
+>* Produktion für alle Kunden: 16. Oktober 2025
 
 Um bei Anfragen in Workfront und Workfront Planning ein besseres Benutzererlebnis zu schaffen, haben wir das anfragende Erlebnis aktualisiert.
 

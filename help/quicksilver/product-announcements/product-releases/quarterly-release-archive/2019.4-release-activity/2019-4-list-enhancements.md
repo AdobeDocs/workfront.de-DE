@@ -1,20 +1,27 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-4-release-activity
-title: Listenerweiterungen 2019.4
+title: Verbesserungen bei Listen in Version 2019.4
 description: Auf dieser Seite werden alle Listenerweiterungen beschrieben, die mit der Version 2019.4 vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 11. November 2019 in der Produktionsumgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 77de46a0-cf3c-4226-ad03-08f30420724b
-source-git-commit: e1bf5fbc7dc25bf8ce472b21b9a0906530f82cf0
+TQID: https://experienceleague.adobe.com/Di5TIVt-f10GPYJ3NRTVEF5vhOOzpgw4YIYN08O1KXQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 4%
+source-wordcount: 541
+ht-degree: 5%
 
 ---
 
-# Listenerweiterungen 2019.4
+# Verbesserungen bei Listen in Version 2019.4
 
 >[!IMPORTANT]
 >
@@ -37,7 +44,7 @@ Eine Liste aller Änderungen in Version 2019.4 finden Sie unter [Übersicht übe
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><strong>Neues Design, das auf Listen für Berichte, Vorlagenaufgaben, Portfolios und mehr angewendet wird</strong> <p>Wichtig: Diese Verbesserungen wurden am 8. November 2019 aus der Vorschau-Umgebung entfernt und werden nicht in die Produktionsversion 2019.4 aufgenommen. Diese Verbesserungen werden der Vorschau-Umgebung nach der Veröffentlichung der Version 2019.4 wieder hinzugefügt und in einer zukünftigen Version für die Produktion verfügbar gemacht.</p> <p>Das neue Listendesign ist jetzt in den folgenden Listen verfügbar:</p> 
+   <td><strong>Neuer Entwurf wird auf Listen für Berichte, Vorlagenaufgaben, Portfolios und mehr angewendet</strong> <p>Wichtig: Diese Verbesserungen wurden am 8. November 2019 aus der Vorschau-Umgebung entfernt und werden nicht in die Produktionsversion 2019.4 aufgenommen. Diese Verbesserungen werden der Vorschau-Umgebung nach der Veröffentlichung der Version 2019.4 wieder hinzugefügt und in einer zukünftigen Version für die Produktion verfügbar gemacht.</p> <p>Das neue Listendesign ist jetzt in den folgenden Listen verfügbar:</p> 
     <ul> 
      <li>Berichte </li> 
      <li>Probleme</li> 
@@ -45,7 +52,7 @@ Eine Liste aller Änderungen in Version 2019.4 finden Sie unter [Übersicht übe
      <li>Themengruppen </li> 
      <li>Routing-Regeln </li> 
      <li>Vorgänger </li> 
-     <li>Abrechnungs-Datensätze </li> 
+     <li>Abrechnungseinträge </li> 
      <li>Ausgaben </li> 
      <li>Risiken </li> 
      <li>Personen -Abschnitt unter Projekt </li> 
@@ -58,11 +65,11 @@ Eine Liste aller Änderungen in Version 2019.4 finden Sie unter [Übersicht übe
      <li>Baselines </li> 
      <li>Abrechnungssätze </li> 
      <li> <p>Dashboards </p> </li> 
-     <li> <p>Wiederholungen </p> </li> 
+     <li> <p>Iterationen </p> </li> 
      <li> <p>Programme </p> </li> 
-     <li> <p>Ressourcenpools </p> </li> 
+     <li> <p>Ressourcen-Pools </p> </li> 
      <li> <p>Vorlagen </p> </li> 
-     <li> <p>Arbeitszeit- tabellen </p> </li> 
+     <li> <p>Arbeitszeittabellen </p> </li> 
      <li> <p>Benutzende </p> </li> 
     </ul> <p>Informationen zum Anzeigen von Elementen in Listen finden Sie unter <a href="../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md" class="MCXref xref" xrefformat="{para}">Erste Schritte mit Listen in Adobe Workfront</a>.</p> <p>Alle aktualisierten Listen funktionieren auf die gleiche Weise. </p> </td> 
   </tr> 

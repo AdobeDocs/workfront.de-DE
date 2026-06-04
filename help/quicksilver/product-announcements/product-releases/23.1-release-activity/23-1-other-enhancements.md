@@ -1,19 +1,28 @@
 ---
-title: 23.1 Weitere Verbesserungen
-description: 23.1 Weitere Verbesserungen
+title: Weitere Verbesserungen in Version 23.1
+description: Weitere Verbesserungen in Version 23.1
 author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4ade4df7-f910-45f6-b04d-55fe73131289
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/5SjbF4tftb0c9nmRWo5TNNVlmtDofkavvw-y7XprcRY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 0%
+source-wordcount: 773
+ht-degree: 1%
 
 ---
 
-# 23.1 Weitere Verbesserungen
+# Weitere Verbesserungen in Version 23.1
 
 Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 23.1 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 16. Januar 2023 in der Produktionsumgebung verfügbar gemacht.
 
@@ -21,15 +30,15 @@ Eine Liste aller Änderungen, die mit Version 23.1 verfügbar sind, finden Sie u
 
 ## Einführung in das Hinzufügen von Illustrator zum Adobe Workfront-Plug-in für Design und Video
 
-Wir freuen uns, die Erweiterung unseres Adobe Workfront for InDesign-Plug-ins auf Adobe Illustrator bekannt geben zu können.
+Wir freuen uns, die Erweiterung unseres Plug-ins Adobe Workfront for InDesign um Adobe Illustrator bekannt geben zu können.
 
 Das aktualisierte Plug-in Adobe Workfront for Design and Video unterstützt jetzt InDesign, Illustrator, Premiere Pro und After Effects.
 
-Mit diesem Plug-in können Sie auf Details zu Arbeitselementen zugreifen, mit Kollegen im Bereich Updates zusammenarbeiten und Zeitüberschreitungen protokollieren, ohne die bevorzugte Creative Cloud-Anwendung verlassen zu müssen.
+Mit diesem Plug-in können Sie auf Details zu Arbeitselementen zugreifen, mit Kollegen im Bereich Aktualisierungen zusammenarbeiten und Zeitüberschreitungen protokollieren, ohne Ihr bevorzugtes Creative Cloud-Programm verlassen zu müssen.
 
 Laden Sie [Adobe Workfront for Design and Video](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) noch heute auf den Marketplace herunter.
 
-Admins können [&#x200B; aus der -Admin Console auch ein -Paket mit &#x200B;](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) Plug-ins erstellen und es Benutzern entweder auf verwaltete oder selbst verwaltete Weise bereitstellen.
+Administratoren können [&#x200B; Admin Console auch ein Paket mit den Plug](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html)ins erstellen und es Benutzern entweder auf verwaltete oder selbst verwaltete Weise bereitstellen.
 
 ## Verbessertes Filtererlebnis allgemein verfügbar in Adobe Workfront
 
@@ -55,34 +64,34 @@ Wir haben den Seiten „Filter“, „Ansichten“ und „Gruppierungen“ im Be
 
 Weitere Informationen finden Sie [Erstellen, Bearbeiten und Freigeben von Standardfiltern, Ansichten und Gruppierungen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-and-share-default-fvgs.md).
 
-[Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3412057/){target=_blank}
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an](https://video.tv.adobe.com/v/3412057/){target=_blank}
 
 ## Einführung in Adobe Workfront für Design und Video
 
-Wir freuen uns, die Erweiterung unseres Adobe Workfront for InDesign-Plug-ins auf Adobe Premiere Pro und After Effects bekannt geben zu können. Das Plug-in wird für Design und Video in Adobe Workfront umbenannt.
+Wir freuen uns, die Erweiterung unseres Plug-ins Adobe Workfront for InDesign um Adobe Premiere Pro und After Effects bekannt geben zu können. Das Plug-in wird für Design und Video in Adobe Workfront umbenannt.
 
 Das aktualisierte Plug-in, Adobe Workfront für Design und Video, unterstützt jetzt InDesign, Premiere Pro und After Effects. Illustrator wird in Kürze folgen.
 
-Mit diesem Plug-in können Sie auf Details zu Arbeitselementen zugreifen, mit Kollegen im Bereich Updates zusammenarbeiten und Zeitüberschreitungen protokollieren, ohne die bevorzugte Creative Cloud-Anwendung verlassen zu müssen.
+Mit diesem Plug-in können Sie auf Details zu Arbeitselementen zugreifen, mit Kollegen im Bereich Aktualisierungen zusammenarbeiten und Zeitüberschreitungen protokollieren, ohne Ihr bevorzugtes Creative Cloud-Programm verlassen zu müssen.
 
 Laden Sie [Adobe Workfront for Design and Video](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) noch heute auf den Markt.
 
-Admins können [&#x200B; aus der -Admin Console auch ein -Paket mit &#x200B;](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html) Plug-ins erstellen und es Benutzern entweder auf verwaltete oder selbst verwaltete Weise bereitstellen.
+Administratoren können [&#x200B; Admin Console auch ein Paket mit den Plug](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html)ins erstellen und es Benutzern entweder auf verwaltete oder selbst verwaltete Weise bereitstellen.
 
-## So greifen Sie auf die Workfront-Hilfe zu - für Kunden mit der einheitlichen Adobe-Benutzeroberfläche
+## Zugriff auf die Workfront-Hilfe für Kunden mit dem einheitlichen Adobe-Erlebnis
 
 >[!NOTE]
 >
->Diese Funktion gilt nur für Kunden, die das Adobe Unified Experience für Workfront eingeführt haben.
+>Diese Funktion gilt nur für Kunden, die das einheitliche Adobe-Erlebnis für Workfront eingeführt haben.
 
-Wenn Ihre Organisation das Onboarding für Adobe Admin Console und das Adobe Unified Experience für Workfront abgeschlossen hat, enthält die Workfront-Navigationsleiste keinen Link mehr für „Hilfe“.
+Wenn Ihr Unternehmen das neue Adobe Admin Console und das einheitliche Adobe-Erlebnis für Workfront erhalten hat, enthält die Workfront-Navigationsleiste keinen Link mehr für „Hilfe“.
 
 Sie können auf zwei Arten auf die Workfront-Hilfe in Adobe Experience League zugreifen:
 
 * Das Hauptmenü links in der Workfront-Navigationsleiste enthält unten einen Hilfe-Link
 * Das Fragezeichen-Symbol im oberen Navigationsbereich enthält Links zu Hilfe, Support und Feedback
 
-Weitere Informationen finden Sie unter [Einheitliches Erlebnis für Workfront Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) oder [Zugriff auf die Adobe Workfront-Hilfe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
+Weitere Informationen finden Sie unter [Einheitliches Adobe-Erlebnis für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) oder [Zugriff auf die Adobe Workfront-Hilfe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
 
 ## Pins umbenennen und ein neues Erlebnis beim Löschen von Pins erstellen
 
@@ -96,4 +105,4 @@ Die Optionen zum Umbenennen einer Nadel und zum Entfernen einer Nadel werden in 
 
 Weitere Informationen finden Sie unter [Seiten anheften, um Ihren Arbeitsbereich anzupassen](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
 
-[Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3412389/){target=_blank}
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an](https://video.tv.adobe.com/v/3412389/){target=_blank}

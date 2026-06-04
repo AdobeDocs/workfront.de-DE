@@ -4,10 +4,16 @@ description: Projektverbesserungen im zweiten Quartal 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c4ec10bde03404befd75464841f8d3c90421dde8
+exl-id: def76c9c-d808-489b-82c7-b1f44c241116
+TQID: https://experienceleague.adobe.com/4aDDK3EIDecA-DcuB7wb3e6-NV5IvIUF7mKl-lhnY8I
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 1%
+source-wordcount: 262
+ht-degree: 6%
 
 ---
 
@@ -21,8 +27,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im zweiten Quartal 2026 ve
 
 >[!NOTE]
 >
->Vorschau: 5. Februar 2026
->Produktion: Ab 5. Februar 2026\
+>Vorschau: 5. Februar 2026>Produktion: Ab 5. Februar 2026\
 >[!BADGE Aus Zeitplan]{type=Neutral}
 
 Der Abschnitt „Zuweisungen“ im Feld „Vorlagenaufgaben bearbeiten“ wurde aktualisiert, wenn einzelne Vorlagenaufgaben bearbeitet oder stapelweise bearbeitet wurden.  
@@ -42,8 +47,7 @@ Weitere Informationen finden Sie unter [Vorlagenaufgaben bearbeiten](/help/quick
 
 >[!NOTE]
 >
->Vorschau: 26. Januar 2026
->Produktion: Ab 5. Februar 2026
+>Vorschau: 26. Januar 2026>Produktion: ab 5. Februar 2026
 
 Der Abschnitt „Zuweisungen“ im Feld „Aufgaben bearbeiten“ wurde aktualisiert, wenn einzelne Aufgaben bearbeitet oder stapelweise bearbeitet wurden.
 
@@ -60,6 +64,3 @@ Die folgenden Änderungen sind in diesem Update enthalten:
 * Die Option „Zurück zum alten Erlebnis wechseln“ wurde entfernt.
 
 Weitere Informationen finden Sie unter [Aufgaben bearbeiten](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
-
-
-

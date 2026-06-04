@@ -5,12 +5,27 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/9hpQYI71fmR-r3Wr6FaWpJlf2Dd2PcKlEl8rXiQ33cE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2194'
-ht-degree: 14%
+source-wordcount: 2308
+ht-degree: 11%
 
 ---
 
@@ -71,7 +86,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom v
                 <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
-                            <p>Geplante Veröffentlichung: Freitag, 17. Oktober 2024</p>
+                            <p>Vorschau der Version: 17. Oktober 2024</p>
                         </li>
                         <li>
                             <p>Produktionsversion für alle Kunden: Mit der Version 24.10 (17. Oktober 2024)</p>
@@ -88,7 +103,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom v
                 <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
-                            <p>Geplante Veröffentlichung: Mittwoch, 1. Oktober 2024</p>
+                            <p>Vorschau der Version: 1. Oktober 2024</p>
                         </li>
                         <li>
                             <p>Produktionsversion für alle Kunden: Mit der Version 24.10 (17. Oktober 2024)</p>
@@ -105,7 +120,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom v
                 <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
-                            <p>Geplante Veröffentlichung: Freitag, 29. August 2024</p>
+                            <p>Vorschau-Version: 29. August 2024</p>
                         </li>
                         <li>
                             <p><span class="preview">Produktionsversion für alle Kunden: 29. August 2024</span></p>
@@ -122,7 +137,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom v
                 <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
-                            <p>Geplante Veröffentlichung: Freitag, 29. August 2024</p>
+                            <p>Vorschau-Version: 29. August 2024</p>
                         </li>
                         <li>
                             <p>Produktion für die schnelle Veröffentlichung: Mit der Version 24.9 (12. September 2024)</p>
@@ -141,7 +156,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom v
                 <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
-                            <p><s>Geplante Veröffentlichung: Dienstag, 12. August 2024</s></p>
+                            <p><s>Vorschau-Version: 12. August 2024</s></p>
                         </li>
                         <li>
                             <p>Produktion für schnelle Freigabe: Nicht zutreffend</p>
@@ -184,7 +199,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom v
                 <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
-                            <p><s>Geplante Veröffentlichung: Freitag, 3. Oktober 2024</s></p>
+                            <p><s>Vorschau der Version: 3. Oktober 2024</s></p>
                         </li>
                         <li>
                             <p>Produktionsversion für alle Kunden: Mit der Version 24.10 (17. Oktober 2024)</p>
@@ -201,7 +216,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom v
                 <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
-                            <p>Geplante Veröffentlichung: Freitag, 3. Oktober 2024</p>
+                            <p>Vorschau der Version: 3. Oktober 2024</p>
                         </li>
                         <li>
                             <p>Produktionsversion für alle Kunden: Mit der Version 24.10 (17. Oktober 2024)</p>
@@ -242,7 +257,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom v
                 <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
-                            <p>Geplante Veröffentlichung: Freitag, 10. Oktober 2024</p>
+                            <p>Vorschau der Version: 10. Oktober 2024</p>
                         </li>
                         <li>
                             <p><span class="preview">Produktionsversion für alle Kunden: 10. Oktober 2024</span></p>
@@ -265,7 +280,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom v
                 <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
-                            <p>Geplante Veröffentlichung: Freitag, 3. Oktober 2024</p>
+                            <p>Vorschau der Version: 3. Oktober 2024</p>
                         </li>
                         <li>
                             <p>Produktionsversion für alle Kunden: Mit der Version 24.10 (17. Oktober 2024)</p>
@@ -301,7 +316,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom v
                 <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
-                            <p>Geplante Veröffentlichung: Mittwoch, 6. August 2024</p>
+                            <p>Vorschau der Version: 6. August 2024</p>
                         </li>
                         <li>
                             <p><span class="preview">Produktionsversion für alle Kunden: 6. August 2024</span></p>
@@ -337,7 +352,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom v
                 <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
-                            <p>Geplante Veröffentlichung: Mittwoch, 13. Februar 2024</p>
+                            <p>Vorschau der Version: 13. Februar 2024</p>
                         </li>
                         <li>
                             <p>Produktion für die schnelle Veröffentlichung: Mit der Version 24.5 (16. Mai 2024)</p>
@@ -355,7 +370,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom v
                 <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
-                            <p>Geplante Veröffentlichung: Freitag, 21. Dezember 2023</p>
+                            <p>Vorschau-Version: 21. Dezember 2023</p>
                         </li>
                         <li>
                             <p>Produktion für die schnelle Veröffentlichung: Mit der Version 24.5 (16. Mai 2024)</p>
@@ -393,7 +408,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom v
                 <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
-                            <p>Geplante Veröffentlichung: Donnerstag, 2. Oktober 2024</p>
+                            <p>Vorschau der Version: 2. Oktober 2024</p>
                         </li>
                         <li>
                             <p><span class="preview">Produktionsversion für alle Kunden: 2. Oktober 2024</span></p>
@@ -411,7 +426,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom v
                 <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
-                            <p>Geplante Veröffentlichung: Samstag, 30. August 2024</p>
+                            <p>Vorschau der Version: 30. August 2024</p>
                         </li>
                         <li>
                             <p><span class="preview">Produktionsversion für alle Kunden: 30. August 2024</span></p>
@@ -428,7 +443,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom v
                 <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
-                            <p>Geplante Veröffentlichung: Freitag, 29. August 2024</p>
+                            <p>Vorschau-Version: 29. August 2024</p>
                         </li>
                         <li>
                             <p><span class="preview">Produktionsversion für alle Kunden: 29. August 2024</span></p>
@@ -488,7 +503,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom v
                 <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
-                            <p>Geplante Veröffentlichung: Freitag, 3. Oktober 2024</p>
+                            <p>Vorschau der Version: 3. Oktober 2024</p>
                         </li>
                         <li>
                             <p>Produktionsversion für alle Kunden: Mit der Version 24.10 (17. Oktober 2024)</p>
@@ -526,7 +541,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom v
                 <td><p><b>Verfügbar zu diesen Daten:</b></p>
                     <ul>
                         <li>
-                            <p>Geplante Veröffentlichung: Donnerstag, 28. August 2024</p>
+                            <p>Vorschau der Version: 28. August 2024</p>
                         </li>
                         <li>
                             <p class="preview">Produktionsversion: 28. August 2024</p>
@@ -583,11 +598,11 @@ Es gibt derzeit keine Workfront Proof-Updates in der Version. Dieser Bereich wir
 
 Es gibt derzeit keine Updates zu Workfront Goals in der Version. Dieser Bereich wird aktualisiert, sobald Aktualisierungen verfügbar sind.
 
-### API-Version 19
+### API-Version 19
 
-Für die API-Version 19 haben wir einige Ressourcen und Endpunkte geändert. Einige der Änderungen unterstützen neue Funktionen, andere erleichtern Ihnen die Verwendung der über die API verfügbaren Informationen.
+Für API-Version 19 haben wir einige Ressourcen und Endpunkte geändert. Einige der Änderungen unterstützen neue Funktionen, andere erleichtern Ihnen die Verwendung der über die API verfügbaren Informationen.
 
-Informationen zu neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in der API-Version 19](/help/quicksilver/wf-api/api/new-api-version-19.md).
+Informationen zu neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in der API-Version 19](/help/quicksilver/wf-api/api/new-api-version-19.md).
 
 Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Zeitplan](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 

@@ -1,20 +1,34 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Versionsaktivität von Beta 4 2017.3
+title: Veröffentlichungen für Version 2017.3 Beta 4
 description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 4 Version 2017.3 verfügbar waren. Die Funktion auf dieser Seite wurde in der Woche vom 25. September 2017 in der Vorschau-Umgebung verfügbar gemacht. Sie wird Anfang November 2017 in der Produktionsumgebung bereitgestellt.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d6bb889c-a057-453f-8f80-761cfb1ad4a1
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+TQID: https://experienceleague.adobe.com/JB7Mhf1RUya-cG9B1OJ-xuAW-y9aq-V2Jxa3Xpf7VFI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1676'
+source-wordcount: 1625
 ht-degree: 0%
 
 ---
 
-# Versionsaktivität von Beta 4 2017.3
+# Veröffentlichungen für Version 2017.3 Beta 4
 
 Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 4 Version 2017.3 verfügbar waren. Die Funktion auf dieser Seite wurde in der Woche vom 25. September 2017 in der Vorschau-Umgebung verfügbar gemacht. Sie wird Anfang November 2017 in der Produktionsumgebung bereitgestellt.
 
@@ -22,7 +36,7 @@ Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorscha
 >
 > Die auf dieser Seite beschriebene Funktion kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller Änderungen in Version 2017.3 finden Sie unter  [Übersicht über die Versionsaktivität 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
+Eine Liste aller in 2017.3 vorgenommenen Änderungen finden Sie unter [Übersicht über die Versionsaktivität 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
 
 Die Beta 4-Version 2017.3 enthält Verbesserungen für Workfront-Administratoren und andere Benutzende:
 
@@ -39,7 +53,7 @@ Die Beta 4-Version 2017.3 enthält Verbesserungen für Workfront-Administratoren
 * [Abschnitt „Aufgabengebiet“ für Benutzereinstellungen enthält Prozentsatz der FTE-Verfügbarkeit](#job-role-section-for-user-settings-includes-percentage-of-fte-availability)
 * [Speichern und Verwalten von Filtern im Auslastungsbericht für ein Projekt](#save-and-manage-filters-in-the-utilization-report-on-a-project)
 * [Zusätzliche Filteroptionen im Auslastungsbericht](#additional-filtering-options-in-the-utilization-report)
-* [Anzeigen des Auslastungsberichts nach Programm oder Portfolio &#x200B;](#view-the-utilization-report-by-program-or-portfolio)
+* [Anzeigen des Auslastungsberichts nach Programm oder Portfolio](#view-the-utilization-report-by-program-or-portfolio)
 * [Ursprüngliche Anfrageinformationen in Projekt- und Aufgabenberichten anzeigen](#show-original-issue-information-in-project-and-task-reports)
 * [Filtersystemaktualisierungen im Aktualisierungsstrom sind jetzt objektübergreifend persistent](#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects)
 * [Berichte zu aktiven Korrekturabzugsschritten in Workfront](#report-on-active-proof-stages-within-workfront)
@@ -52,7 +66,7 @@ Sie können jetzt eine Aufgabe oder eine Reihe von Aufgaben innerhalb eines Proj
 
 Vor dieser Änderung konnten Sie eine Aufgabe entweder in ein neues Projekt oder in das vorhandene Projekt kopieren und einige Informationen ändern, während Sie sie kopiert haben.
 
-für  Weitere Informationen zum Duplizieren von Aufgaben finden Sie unter [Aufgaben kopieren und duplizieren](../../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+Weitere Informationen zum Duplizieren von Aufgaben finden Sie unter [Aufgaben kopieren und duplizieren](../../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
 ## Zuweisungen beim Planen von Ressourcen automatisieren {#automate-assignments-when-scheduling-resources}
 
@@ -119,7 +133,7 @@ Weitere Informationen zum Speichern und Verwalten von Filtern im Auslastungsberi
 
 ## Zusätzliche Filteroptionen im Auslastungsbericht {#additional-filtering-options-in-the-utilization-report}
 
-Beim Ausführen des Auslastungsberichts sind jetzt beim Erstellen des Filters neue Filterfelder für Portfolios, Programme und Projekte verfügbar, zusätzlich zu den zuvor verfügbaren Feldern „Aufgaben“, „Probleme“ und „Rollen“.
+Beim Ausführen des Auslastungsberichts sind jetzt beim Erstellen des Filters neue Filterfelder für Portfolios, Programme und Projekte sowie die Felder Aufgaben, Probleme und Rollen verfügbar, die zuvor verfügbar waren.
 
 Vor dieser Änderung konnten Sie nur durch Hinzufügen einer neuen Filterregel nach Portfolio, Programm und Projekt filtern.
 
@@ -133,7 +147,7 @@ Um diese Änderung zu erleichtern, ist die Registerkarte Nutzung jetzt sowohl im
 
 Vor dieser Änderung konnten Nutzungsberichte nur innerhalb eines Projekts aufgerufen werden.
 
-Weitere Informationen finden Sie unter  [Überblick über den Bericht zur Ressourcenauslastung](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md). 
+Weitere Informationen finden Sie unter [Übersicht über den Bericht zur Ressourcenauslastung](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md). 
 
 ## Ursprüngliche Anfrageinformationen in Projekt- und Aufgabenberichten anzeigen {#show-original-issue-information-in-project-and-task-reports}
 

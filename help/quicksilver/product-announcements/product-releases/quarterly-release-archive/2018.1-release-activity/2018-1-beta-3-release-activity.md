@@ -1,20 +1,32 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Versionsaktivität von Beta 3 2018.1
+title: Veröffentlichungen für Version 2018.1 Beta 3
 description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 3 Version 2018.1 verfügbar waren. Die Funktion wurde am 7. Januar 2018 in der Vorschau-Umgebung bereitgestellt. Es wird Anfang 2018 in der Produktionsumgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 26bbc4a0-e5ed-4b5f-bfc2-f888362c1d22
-source-git-commit: 66d59467e7e9857ca5573b819d51da839ddbd4f7
+TQID: https://experienceleague.adobe.com/O9xy5YXPnfSooL6rSHuODkP2Bn-1wyC1569ZbsTfiYA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1850'
+source-wordcount: 1857
 ht-degree: 0%
 
 ---
 
-# Versionsaktivität von Beta 3 2018.1
+# Veröffentlichungen für Version 2018.1 Beta 3
 
 Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 3 Version 2018.1 verfügbar waren. Die Funktion wurde am 7. Januar 2018 in der Vorschau-Umgebung bereitgestellt. Es wird Anfang 2018 in der Produktionsumgebung verfügbar gemacht.
 
@@ -22,7 +34,7 @@ Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorscha
 >
 > Die auf dieser Seite beschriebene Funktion kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller Änderungen in Version 2018.1 finden Sie unter  Übersicht über die Versionsaktivität [2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+Eine Liste aller in 2018.1 vorgenommenen Änderungen finden Sie unter [Übersicht über die Versionsaktivität von 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
 Die Beta-Version 3 2018.1 enthält Verbesserungen für Workfront-Administratoren und andere Benutzende:
 
@@ -188,7 +200,7 @@ Probleme werden jetzt standardmäßig in den Rückstand Ihres Agile-Teams aufgen
 
 Vor dieser Änderung konnten nur Aufgaben zum Rückstand hinzugefügt werden. Wenn Sie ein Problem hinzufügen möchten, müssen Sie das Problem zunächst in eine Aufgabe konvertieren, bevor es hinzugefügt werden kann.
 
-Informationen zur Verwendung von Problemen im Auftragsbestand finden Sie unter  [Verwalten des Agile-Rückstands](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Informationen zur Verwendung von Problemen im Rückstand finden Sie unter [Verwalten des Agile-Rückstands](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 ### Anwenden von Gruppierungen und Filtern auf den Rückstand eines agilen Teams {#apply-groupings-and-filters-to-the-backlog-for-an-agile-team}
 
@@ -196,7 +208,7 @@ Die Gruppierungs- und Filteroptionen sind jetzt im agilen Rückstand verfügbar,
 
 Vor dieser Änderung konnten Sie Ansichten auf den Agile-Rückstand anwenden.
 
-Weitere Informationen finden Sie unter  [Verwalten des Agile-](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md) in  [Verwalten des Agile-Rückstands](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Weitere Informationen finden Sie unter [Verwalten des Agile-](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)&quot; in [Verwalten des Agile-Rückstands](../../../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
 ### Leere Iteration erstellen und später aktualisieren {#create-a-blank-iteration-and-update-it-later}
 

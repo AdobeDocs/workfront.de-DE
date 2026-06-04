@@ -6,9 +6,18 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 02eb390b-b733-4080-86cb-ed28c99cf2b4
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/NoBV-XCdKn6K1YNWOMBCSj7ANhisRxiA8Z1n-rjz-p8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: 515
 ht-degree: 0%
 
 ---
@@ -41,11 +50,11 @@ Neben einem aktualisierten Erscheinungsbild der Benutzeroberfläche sind auch di
 
 Weitere Informationen finden Sie unter [Projekte bearbeiten](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
-[Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3416587/){target=_blank}
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an](https://video.tv.adobe.com/v/3416587/){target=_blank}
 
 ## Verbessertes Filtererlebnis allgemein verfügbar in Adobe Workfront
 
-Im August 2022 wurde ein Upgrade des Filtererlebnisses in der öffentlichen Beta-Version zu Projekt-, Aufgaben- und Problemlisten veröffentlicht. Die meisten Listen bieten jetzt die erweiterten Filter. (Um alle diese Listen zu überprüfen, lesen Sie die [23.1-Versionshinweise für Look-and-Feel-Updates](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).) Das erweiterte Filtererlebnis ist allgemein verfügbar und wird am 2. März 2023 in der Vorschau zum standardmäßigen Filter-Builder. Ein schrittweiser Rollout in der Produktion beginnt ebenfalls am 2. März, wobei in Version 23.2 für alle Kunden verfügbar ist.
+Im August 2022 wurde ein Upgrade des Filtererlebnisses in der öffentlichen Beta-Version zu Projekt-, Aufgaben- und Problemlisten veröffentlicht. Die meisten Listen bieten jetzt die erweiterten Filter. (Informationen zu allen diesen Listen finden Sie in den Versionshinweisen zu [23.1-Look-and-Feel-Updates](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-look-and-feel-updates.md).) Das erweiterte Filtererlebnis ist allgemein verfügbar und wird am 2. März 2023 in der Vorschau zum standardmäßigen Filter-Builder. Ein schrittweiser Rollout in der Produktion beginnt ebenfalls am 2. März, wobei in Version 23.2 für alle Kunden verfügbar ist.
 
 Sie können weiterhin auf die alten Filter in Listen zugreifen, indem Sie sie im Filterbedienfeld aktivieren. Legacy-Filter werden in Zukunft nicht mehr in Listen unterstützt, bleiben aber in Berichten verfügbar, da der standardmäßige Filter Builder in Berichten nicht verfügbar ist.
 
@@ -63,4 +72,4 @@ Jetzt haben Sie die Möglichkeit, beim Kopieren eines Projekts die budgetierten 
 
 Weitere Informationen finden Sie unter [Kopieren eines Projekts](/help/quicksilver/manage-work/projects/manage-projects/copy-project.md).
 
-[Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3415713/){target=_blank}
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an](https://video.tv.adobe.com/v/3415713/){target=_blank}

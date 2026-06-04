@@ -1,20 +1,33 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Versionsaktivität von Beta 5 2018.2
+title: Veröffentlichungen für Version 2018.2 Beta 5
 description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 5 Version 2018.2 verfügbar waren. Die Funktion ist ab dem 1. Juni 2018 in der Vorschau-Umgebung verfügbar. Die mit Beta 5 veröffentlichten Proofing-Verbesserungen sind ab Montag, dem 4. Juni, in der Vorschau-Umgebung verfügbar. Sie wird ab Juli 2018 in der Produktionsumgebung verfügbar sein.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/0JlkGC-ZucJr8R-AIrVZULqKmRWNL1ZnTohl50PWMLs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3158'
+source-wordcount: 3190
 ht-degree: 1%
 
 ---
 
-# Versionsaktivität von Beta 5 2018.2
+# Veröffentlichungen für Version 2018.2 Beta 5
 
 Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 5 Version 2018.2 verfügbar waren. Die Funktion ist ab dem 1. Juni 2018 in der Vorschau-Umgebung verfügbar. Die mit Beta 5 veröffentlichten Proofing-Verbesserungen sind ab Montag, dem 4. Juni, in der Vorschau-Umgebung verfügbar. Sie wird ab Juli 2018 in der Produktionsumgebung verfügbar sein.
 
@@ -22,7 +35,7 @@ Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorscha
 >
 > Die auf dieser Seite beschriebene Funktion kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller Änderungen in Version 2018.2 finden Sie unter  Übersicht über die Versionsaktivität [2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Eine Liste aller in 2018.2 vorgenommenen Änderungen finden Sie unter [Übersicht über die Versionsaktivität 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
 Die Beta-Version 5 von 2018.2 enthält die Verbesserungen für Workfront-Administratoren und andere Benutzende:
 
@@ -216,7 +229,7 @@ Vor dieser Verbesserung konnten Sie nur auf eine Sammlung von Aufgaben in einer 
 
 Informationen zum Referenzieren einer Sammlung in einem Bericht finden Sie unter [Referenzieren von Sammlungen in einem Bericht](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
 
-Informationen zur Verwendung des Textmodus finden Sie unter  [Übersicht über häufige Verwendungen für den Textmodus](../../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+Informationen zur Verwendung des Textmodus finden Sie [Übersicht über häufig verwendete Anwendungen für den Textmodus](../../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
 >[!NOTE]
 >
@@ -295,7 +308,7 @@ Jetzt können Sie Benutzer direkt über die Web Proofing Viewer und die Desktop 
 
 Zuvor konnten Sie keine einzelnen Benutzer zu einem Korrekturabzug hinzufügen. Stattdessen konnten Sie nur die öffentliche URL oder den Einbettungs-Code kopieren.
 
-Weitere Informationen finden Sie unter [Freigeben eines Korrekturabzugs durch Hinzufügen von Benutzern](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users) im Artikel  [Freigeben eines Korrekturabzugs über die Korrekturabzugsanzeige](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
+Weitere Informationen finden Sie unter [Freigeben eines Korrekturabzugs durch Hinzufügen von Benutzenden](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-with-individual-users) im Artikel [Freigeben eines Korrekturabzugs über die Korrekturabzugsanzeige](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
 
 ### Alle Markup-Tools im Proofing Viewer anzeigen {#display-all-markup-tools-in-the-proofing-viewer}
 
@@ -319,7 +332,7 @@ Jetzt können Sie im Desktop Proofing Viewer eine Workfront-Dokumentgenehmigungs
 
 Zuvor war es Ihnen nur mit der Web Proofing Viewer möglich, eine Workfront-Dokumentgenehmigungsentscheidung zu treffen. 
 
-Weitere Informationen finden Sie unter  [Entscheidung über einen Korrekturabzug in der Korrekturabzugsansicht treffen](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) im Artikel  [Treffen einer Entscheidung über einen Korrekturabzug in der Korrekturabzugsansicht](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
+Weitere Informationen finden Sie unter [Entscheidung über einen Korrekturabzug in der Korrekturabzugsansicht treffen](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) im Artikel [Entscheidung über einen Korrekturabzug in der Korrekturabzugsansicht treffen](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
 
 ### Konfigurieren Sie Links, die neue Registerkarten und Fenster öffnen, um sie im Desktop Proofing Viewer zu öffnen {#configure-links-that-open-new-tabs-and-windows-to-open-within-the-desktop-proofing-viewer}
 
@@ -405,7 +418,7 @@ In Berichten, die das Objekt Dokumentversion enthalten (z. B. Berichte zur Dokum
 
   Zeigt den Fortschrittsstatus des Testversands an (gesendet, geöffnet, kommentiert, Entscheidung getroffen).
 
-Weitere Informationen zu den einzelnen Feldern finden Sie unter  [Glossar der Terminologie von Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+Weitere Informationen zu den einzelnen Feldern finden Sie unter [Glossar der Adobe Workfront-Terminologie](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 ### Anzeigen historischer Daten für Korrekturabzugsgenehmigungen in Workfront {#view-historical-data-for-proof-approvals-in-workfront}
 
@@ -413,7 +426,7 @@ Dem Bericht zu Korrekturabzugsgenehmigungen können Sie ein Feld hinzufügen, in
 
 Vor dieser Änderung konnte die Entscheidung, nachdem eine Entscheidung über einen Korrekturabzug getroffen wurde, nicht mehr in einem Workfront-Bericht angezeigt werden.
 
-Weitere Informationen finden Sie unter  [Glossar der Terminologie von Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+Weitere Informationen finden Sie unter [Glossar der Adobe Workfront-Terminologie](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 ## Proofing-Verbesserungen in Workfront Proof {#proofing-enhancements-in-workfront-proof}
 
@@ -426,7 +439,7 @@ Sie können jetzt beim Proofing in Workfront Proof direkt über die neue Proofin
 
 Zuvor war diese Option nur in Legacy Flash Viewer verfügbar.
 
-Weitere Informationen finden Sie unter [&#x200B; von Testsendungen in Workfront Proof &#x200B;](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md) Artikel  [Testsendungen in Workfront Proof kopieren](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).
+Weitere Informationen finden Sie unter [Kopieren von Testsendungen in Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md) im Artikel [Kopieren von Testsendungen in Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).
 
 ### Neuer Link „Korrekturabzugsdetails“ im Proofing Viewer und Desktop Proofing Viewer (Workfront Proof) {#new-proof-details-link-in-the-proofing-viewer-and-desktop-proofing-viewer-workfront-proof}
 

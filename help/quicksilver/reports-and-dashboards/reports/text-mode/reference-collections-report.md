@@ -6,11 +6,22 @@ description: Referenzieren von Sammlungen in einem Bericht
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/HPw9hvYELkeZOzP2OpoJcpicXdEP76nmeEwdn3uWojY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2615'
+source-wordcount: 2624
 ht-degree: 3%
 
 ---
@@ -110,7 +121,7 @@ So erfahren Sie, über welche Sammlungen berichtet werden kann:
 
 In den folgenden Berichtelementen können Sie auf Objekte aus einer Sammlung verweisen:
 
-* Ansichten 
+* Ansichten
 * Filter
 * Prompts
 
@@ -268,7 +279,7 @@ Die Zeilen in einer Textmodusansicht für eine Sammlung sind in der folgenden Ta
   </tr> 
   <tr> 
    <td><code>listdelimiter=&lt;p&gt;</code> </td> 
-   <td> <p>Dies ist das Trennzeichen, das verwendet wird, um die Werte in Ihrer Liste zu trennen.<br>Es wird empfohlen, <code>&lt;p&gt;</code> zu verwenden, das einen Zeilenumbruch zwischen den Werten hinzufügt.</p> <p>Sie können auch Folgendes verwenden:</p> <p><code>&zwj;</code> (Joiner mit Nullbreite). Die Werte der Sammlung sind nicht voneinander getrennt.<br><strong>,</strong> =Kommatrennzeichen. Die Werte der Sammlung werden durch ein Komma getrennt, gefolgt von keinem Leerzeichen.<br><strong>/</strong> = Schrägstrich-Trennzeichen. Die Werte der Sammlung werden durch einen Schrägstrich getrennt.<br><strong>-</strong> = Bindestrich-Trennzeichen. Die Werte der Sammlung werden durch einen Bindestrich getrennt.<br>Wenn diese Zeile leer gelassen wird, wird standardmäßig ein Komma gefolgt von einem Leerzeichen zwischen den Werten der Sammlung hinzugefügt.</p> </td> 
+   <td> <p>Dies ist das Trennzeichen, das verwendet wird, um die Werte in Ihrer Liste zu trennen.<br>Es wird empfohlen, <code>&lt;p&gt;</code> zu verwenden, das einen Zeilenumbruch zwischen den Werten hinzufügt.</p> <p>Sie können auch Folgendes verwenden:</p> <p><code>&zwj;</code> (Joiner mit Nullbreite). Die Werte der Sammlung haben keine Trennung zwischen ihnen.<br><strong>,</strong> =Kommatrennzeichen. Die Werte der Auflistung werden durch ein Komma getrennt, gefolgt von keinem Leerzeichen.<br><strong>/</strong> = Schrägstrich-Trennzeichen. Die Werte der Sammlung werden durch einen Schrägstrich getrennt. <br><strong>-</strong> = Bindestrich-Trennzeichen. Die Werte der Sammlung werden durch einen Bindestrich getrennt.<br>Wenn diese Zeile leer gelassen wird, wird standardmäßig ein Komma gefolgt von einem Leerzeichen zwischen den Werten der Sammlung hinzugefügt.</p> </td> 
   </tr> 
   <tr> 
    <td><code>displayname=</code><em>Spaltenname</em> </td> 
@@ -280,7 +291,7 @@ Die Zeilen in einer Textmodusansicht für eine Sammlung sind in der folgenden Ta
   </tr> 
   <tr> 
    <td><code>valuefield=collection object field</code> </td> 
-   <td> <p>Diese Zeile definiert, auf welches Feld Sie vom Sammlungsobjekt verweisen.</p> <p>Ersetzen Sie <strong>Feld des Sammlungsobjekts</strong> durch den Namen des Felds des Objekts, auf das Sie in Ihrer Sammlung verweisen, wie es im <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API-Explorer) </a>.</p> <p>Sie können diese Zeile ersetzen durch:</p> <p><strong>valueExpression</strong>=Feld/Felder des berechneten Sammlungsobjekts</p> <p>Mit <strong>valueExpression</strong> können Sie  Zeigt einen berechneten benutzerdefinierten Ausdruck in der Spalte an.</p> <p>Weitere Informationen zum Formatieren von <strong>valueExpression</strong>-Zeilen finden Sie unter <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Übersicht über die Textmodus-Syntax</a>.</p> </td> 
+   <td> <p>Diese Zeile definiert, auf welches Feld Sie vom Sammlungsobjekt verweisen.</p> <p>Ersetzen Sie <strong>Feld des Sammlungsobjekts</strong> durch den Namen des Felds des Objekts, auf das Sie in Ihrer Sammlung verweisen, wie es im <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API-Explorer) </a>.</p> <p>Sie können diese Zeile ersetzen durch:</p> <p><strong>valueExpression</strong>=Feld/Felder des berechneten Sammlungsobjekts</p> <p>Mit <strong>valueExpression</strong> können Sie einen berechneten benutzerdefinierten Ausdruck in der Spalte anzeigen.</p> <p>Weitere Informationen zum Formatieren von <strong>valueExpression</strong>-Zeilen finden Sie unter <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Übersicht über die Textmodus-Syntax</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

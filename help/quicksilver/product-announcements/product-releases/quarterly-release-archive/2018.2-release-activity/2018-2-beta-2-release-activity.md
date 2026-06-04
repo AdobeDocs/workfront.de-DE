@@ -1,20 +1,31 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Versionsaktivität von Beta 2 2018.2
+title: Veröffentlichungen für Version 2018.2 Beta 2
 description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 2 Version 2018.2 verfügbar waren. Die Funktion wurde am 5. April 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird im Juni 2018 in der Produktionsumgebung bereitgestellt.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c8ef68f5-53db-4c3c-af0f-e1c98521ec27
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/H6fYgtO6-VLGp-dfmhuzIga3Ko0p3dDOF3qupCEVlGo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 0%
+source-wordcount: 865
+ht-degree: 1%
 
 ---
 
-# Versionsaktivität von Beta 2 2018.2
+# Veröffentlichungen für Version 2018.2 Beta 2
 
 Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 2 Version 2018.2 verfügbar waren. Die Funktion wurde am 5. April 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird im Juni 2018 in der Produktionsumgebung bereitgestellt.
 
@@ -22,14 +33,14 @@ Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorscha
 >
 > Die auf dieser Seite beschriebene Funktion kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller Änderungen in Version 2018.2 finden Sie unter  Übersicht über die Versionsaktivität [2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Eine Liste aller in 2018.2 vorgenommenen Änderungen finden Sie unter [Übersicht über die Versionsaktivität 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
 Die Beta-Version 2018.2 enthält die folgenden Verbesserungen:
 
 * [Bearbeiten von Feldern direkt im Bereich „Startseite“](#edit-fields-directly-from-the-home-area)
 * [Zeit in Tagen erfassen](#log-time-in-days)
 * [Zeigen Sie projektübergreifende Vorgängerbeziehungen im Gantt-Diagramm in einer Projektliste an](#view-cross-project-predecessor-relationships-on-the-gantt-chart-in-a-list-of-projects)
-* [Budgetierte Kosten im Portfolio-Optimizer zur Berechnung der Portfolio-Finanzen verwenden](#use-budgeted-cost-in-the-portfolio-optimizer-to-calculate-portfolio-finances)
+* [Budgetierte Kosten in Portfolio Optimizer zur Berechnung der Portfolio-Finanzen verwenden](#use-budgeted-cost-in-the-portfolio-optimizer-to-calculate-portfolio-finances)
 * [Auslastungsbericht: Befüllt budgetierte Stunden aus dem neuen Bereich für Ressourcenbudgetierung](#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area) (nur Vorschau)
 
 * [Auslastungsbericht: Budgetierte Stunden nach Benutzer für ein Projekt anzeigen](#utilization-report-view-budgeted-hours-by-user-on-a-project) (nur Vorschau)
@@ -43,7 +54,7 @@ Wenn Sie jetzt ein Objekt im Bereich „Startseite“ auswählen, können Sie Fe
 
 Vor dieser Änderung konnten Informationen nur im Bereich Startseite angezeigt, aber nicht bearbeitet werden.
 
-Weitere Informationen finden Sie unter [Aktualisieren oder Bearbeiten eines Arbeitselements im Bereich „Startseite](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md) im Artikel  [Aktualisieren oder Bearbeiten eines Arbeitselements im Bereich „Startseite“](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
+Weitere Informationen finden Sie unter [Aktualisieren oder Bearbeiten eines Arbeitselements im Bereich Startseite](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md) im Artikel [Aktualisieren oder Bearbeiten eines Arbeitselements im Bereich Startseite](../../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
 
 ## Zeit in Tagen erfassen {#log-time-in-days}
 
@@ -66,19 +77,19 @@ Vor dieser Änderung konnten Sie projektübergreifende Vorgängerbeziehungen nur
 
 Weitere Informationen finden Sie unter [Konfigurieren der Anzeige von Informationen im Gantt-Diagramm](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md). 
 
-## Budgetierte Kosten im Portfolio-Optimizer zur Berechnung der Portfolio-Finanzen verwenden {#use-budgeted-cost-in-the-portfolio-optimizer-to-calculate-portfolio-finances}
+## Budgetierte Kosten in Portfolio Optimizer zur Berechnung der Portfolio-Finanzen verwenden {#use-budgeted-cost-in-the-portfolio-optimizer-to-calculate-portfolio-finances}
 
-Der neue Portfolio-Optimizer verwendet jetzt die budgetierten Kosten aus dem neuen Bereich Ressourcenbudgetierung des Business Case oder aus dem Ressourcenplaner, um die folgenden Felder zu berechnen:
+Der neue Portfolio Optimizer verwendet jetzt die budgetierten Kosten aus dem neuen Bereich Ressourcenbudgetierung des Business Case oder aus dem Ressourcenplaner, um die folgenden Felder zu berechnen:
 
 * Nettowert
 * Return on Investment (ROI)
 * Kosten
 
-Zuvor verwendeten sowohl der neue als auch der alte Portfolio-Optimizer die budgetierten Legacy-Kosten. Der Legacy Portfolio Optimizer verwendet weiterhin die budgetierten Legacy-Kosten, um Nettowert, Kapitalrendite und Kosten zu berechnen.
+Zuvor verwendeten sowohl der neue als auch der alte Portfolio Optimizer die budgetierten Legacy-Kosten. Portfolio Optimizer verwendet weiterhin die budgetierten Legacy-Kosten, um Nettowert, Kapitalrendite und Kosten zu berechnen.
 
-Wir haben außerdem zwei neue Felder zu den Finanzfeldern des Portfolios hinzugefügt: Legacy ROI und Legacy Net Value , um die neuen Werte aus den neuen Tools für das Ressourcenmanagement zu erfassen.
+Wir haben außerdem zwei neue Felder zu den Portfolio-Finanzfeldern hinzugefügt: Legacy-ROI und Legacy-Nettowert , um die neuen Werte aus den neuen Tools für das Ressourcenmanagement zu erfassen.
 
-Weitere Informationen finden Sie unter Übersicht über den [Portfolio Optimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md) im Artikel  [Übersicht über Portfolio Optimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+Weitere Informationen finden Sie unter [Übersicht über Portfolio &#x200B;](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md) im Artikel [Übersicht über Portfolio Optimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 ## Auslastungsbericht: Befüllt budgetierte Stunden aus dem neuen Ressourcenbudgetierungsbereich {#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area}
 
@@ -90,7 +101,7 @@ Budgetierte Stunden im Auslastungsbericht werden jetzt mit Informationen ausgef�
 
 Vor dieser Änderung wurden Informationen aus dem Bereich Legacy-Ressourcenkalkulationen verwendet.
 
-Weitere Informationen finden Sie unter [Übersicht über den Bericht zur Ressourcenauslastung](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) im Artikel  [Überblick über den Bericht zur Ressourcenauslastung](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Weitere Informationen finden Sie [Überblick über den Ressourcenauslastungsbericht](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) im Artikel [Überblick über den Ressourcenauslastungsbericht](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Auslastungsbericht: Budgetierte Stunden nach Benutzer für ein Projekt anzeigen {#utilization-report-view-budgeted-hours-by-user-on-a-project}
 

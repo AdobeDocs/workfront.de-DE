@@ -1,20 +1,27 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-2-release-activity
-title: 2019.2 Verbesserungen bei Integration und Mobilgeräten
+title: Verbesserungen bei Integrationen und Mobilgeräten in Version 2019.2
 description: Auf dieser Seite werden alle in der Version 2019.2 enthaltenen Integrations- und Mobilgeräteverbesserungen beschrieben. Die Funktion soll in der Produktionsumgebung ab der Woche vom 20. Mai 2019 verfügbar sein.
 author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: ad2ca56c-27cf-4238-84dc-08ce575d2bec
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/EzTWdwdTXcFyk1IYUebYtdVqhDZcHzJWVRL55EFloPg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 0%
+source-wordcount: 243
+ht-degree: 4%
 
 ---
 
-# 2019.2 Verbesserungen bei Integration und Mobilgeräten
+# Verbesserungen bei Integrationen und Mobilgeräten in Version 2019.2
 
 Auf dieser Seite werden alle in der Version 2019.2 enthaltenen Integrations- und Mobilgeräteverbesserungen beschrieben. Die Funktion soll in der Produktionsumgebung ab der Woche vom 20. Mai 2019 verfügbar sein.
 
@@ -22,17 +29,17 @@ Eine Liste aller in Version 2019.2 vorgenommenen Änderungen finden Sie unter [�
 
 ## Verbesserungen bei Workfront für Microsoft Teams
 
-Bei der Verwendung von Workfront für Microsoft Teams können Sie jetzt Folgendes tun:
+Bei Verwendung von Workfront für Microsoft Teams können Sie jetzt Folgendes tun:
 
 * Workfront-Anfragen senden
 
-  Weitere Informationen finden Sie unter „Senden von Workfront-Anfragen über Microsoft Teams&quot;.
+  Weitere Informationen finden Sie unter „Senden von Workfront-Anfragen von Microsoft Teams&quot;.
 
-* Workfront-Benachrichtigungseinstellungen für Microsoft Teams verwalten
+* Verwalten der Workfront-Benachrichtigungseinstellungen für Microsoft Teams
 
   Vor dieser Verbesserung konnten Sie keine der Workfront-Benachrichtigungen in Microsoft Teams deaktivieren.
 
-  Weitere Informationen finden Sie unter [Verwalten von Workfront-Benachrichtigungen und Genehmigungsanfragen in Microsoft Teams &#x200B;](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
+  Weitere Informationen finden Sie unter [Verwalten von Workfront-Benachrichtigungen und Genehmigungsanfragen in Microsoft Teams](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
 
 ## Aktualisierte Integration von Workfront für Adobe Creative Cloud
 

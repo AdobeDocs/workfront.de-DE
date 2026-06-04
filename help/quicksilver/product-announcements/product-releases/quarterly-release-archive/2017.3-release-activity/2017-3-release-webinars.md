@@ -1,20 +1,30 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Webinare zur Version 2017.3
+title: Webinare zu Version 2017.3
 description: Diese Webinare konzentrierten sich auf die in der Version 2017.3 enthaltenen Funktionen.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3fb7498a-585d-4692-9217-434eef38ad40
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/FGBvFp-OolkU5IdUW2Xog2RmQyht1s41mta19WNx4bE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 0%
+source-wordcount: 241
+ht-degree: 3%
 
 ---
 
-# Webinare zur Version 2017.3
+# Webinare zu Version 2017.3
 
 Diese Webinare konzentrierten sich auf die in der Version 2017.3 enthaltenen Funktionen. 
 
@@ -43,11 +53,11 @@ Zur Vereinfachung ist das Webinar in die folgenden Themen unterteilt:
 * [Apps und Integrationen](#apps-and-integrations)
 * [Proofing-Verbesserungen](#proofing-enhancements)
 * [API-Verbesserungen](#api-enhancements)
-* [Schlussfolgerung](#conclusion)
+* [Zusammenfassung](#conclusion)
 
 ## Vorschauversionen von Workfront 2017.3 September {#workfront-2017-3-september-preview-releases}
 
-Das Webinar Workfront 2017.3 September Preview Releases wurde vom Workfront Release Readiness Team am 26. September 2017 um 9:00 Uhr MT vorgestellt. Dieses Webinar konzentriert sich auf die neuen Funktionen, die im September in der Vorschau verfügbar gemacht wurden.
+Das Webinar Workfront 2017.3 September Preview Releases wurde vom Workfront Release Readiness Team am 26. September 2017 um 9:00 :00 MT vorgestellt. Dieses Webinar konzentriert sich auf die neuen Funktionen, die im September in der Vorschau verfügbar gemacht wurden.
 
 ## Webinar zu Workfront 2017.3 Beta 1 und Beta 2 {#workfront-2017-3-beta-1-and-beta-2-webinar}
 

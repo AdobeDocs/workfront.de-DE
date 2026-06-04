@@ -5,10 +5,22 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+TQID: https://experienceleague.adobe.com/xcYDVGJSTKtR0dRM3EhQf62WokddEzsudevZ6Ur6Wn0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 0%
+source-wordcount: 827
+ht-degree: 11%
 
 ---
 
@@ -56,9 +68,9 @@ Weitere Informationen zur JumpSeat-Integration finden Sie unter [Konfigurieren d
 
 Die in Workfront nativen Felder können jetzt zu Ihren benutzerdefinierten Formularen hinzugefügt werden. Mit diesem neuen Feldtyp können Sie Daten logisch organisieren und den Benutzern präsentieren, ohne vorhandene Daten in benutzerdefinierten Feldern neu erstellen zu müssen.
 
-Nachdem Sie in der Liste der benutzerdefinierten Formularfelder das native Feld ausgewählt haben, um das Feld zum Formular-Designer hinzuzufügen, können Sie jedes native Feld für die Objekte des Formulars auswählen. Wenn beispielsweise die Liste Objekttypen oben im Formular-Designer „Projekt“ anzeigt, können Sie native Felder für Projekte auswählen, jedoch keine Felder, die speziell für Aufgaben verwendet werden.
+Nachdem Sie in der Liste der benutzerdefinierten Formularfelder das native Feld ausgewählt haben, um das Feld zum Formular-Designer hinzuzufügen, können Sie jedes native Feld für die Objekte des Formulars auswählen. Wenn beispielsweise in der Liste „Objekttypen“ oben im Formular-Designer „Projekt“ angezeigt wird, können Sie native Felder für Projekte auswählen, jedoch keine Felder, die speziell für Aufgaben verwendet werden.
 
-Wenn das benutzerdefinierte Formular an ein Objekt angehängt wird, wird das Feld aus den Objektdaten gefüllt. Beispielsweise ruft das Feld Beschreibung in einem benutzerdefinierten Formular, das an ein Projekt angehängt ist, die Projektbeschreibung ab. (Wenn keine Daten verfügbar sind, kann das Feld „K. A.“ anzeigen.)
+Wenn das benutzerdefinierte Formular an ein Objekt angehängt wird, werden die Daten im Feld aus den Objektdaten übernommen. Beispielsweise ruft das Feld „Beschreibung“ in einem benutzerdefinierten Formular, das an ein Projekt angehängt ist, die Projektbeschreibung ab. (Wenn keine Daten verfügbar sind, wird in dem Feld möglicherweise „K. A.“ angegeben.)
 
 Native Felder, die in benutzerdefinierten Formularen verwendet werden, stehen in der Feldbibliothek im Designer zur Wiederverwendung zur Verfügung. Sie sind auch im Bereich Einrichtung > Benutzerdefinierte Forms > Felder sichtbar, sodass Sie sehen können, in welchen Formularen sie verwendet werden.
 
@@ -66,7 +78,7 @@ Diese Funktion ist nur in der Form Designer-Betaversion verfügbar, nicht in For
 
 Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3427702/){target=_blank}
+[Sehen Sie sich eine Videodemonstration dieser Funktion an.](https://video.tv.adobe.com/v/3427702/){target=_blank}
 
 ## Attributzuordnung jetzt für Organisationen verfügbar, die zu Adobe IMS migriert haben
 

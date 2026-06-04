@@ -7,9 +7,21 @@ description: Mithilfe des Adobe Workfront-Ressourcenplaners können Sie die Verf
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: af7789f3a4c7443854639fd60bcf0661217b37ae
+TQID: https://experienceleague.adobe.com/aDlEs3QYjcq5ycrGOI5X-T0GGvBngLiw1b-7i-WSeU4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2424'
+source-wordcount: 2411
 ht-degree: 2%
 
 ---
@@ -24,7 +36,7 @@ Der Adobe Workfront-Ressourcenplaner hilft Ihnen, die Verfügbarkeit Ihrer Resso
 >
 >Sie können die Zuweisung von Teams zu den Aufgaben, denen sie im Ressourcenplaner zugewiesen sind, nicht verwalten.
 
-Sie müssen die Voraussetzungen erfüllen, um den Ressourcenplaner vollständig nutzen zu können. Weitere Informationen zum Ressourcenplaner finden Sie unter [Ressourcenplaner - Übersicht](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+Sie müssen die Voraussetzungen erfüllen, um den Ressourcenplaner vollständig nutzen zu können. Weitere Informationen zum Ressourcenplaner finden Sie unter [Überblick über den Ressourcenplaner](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ![Ressourcenplaner](assets/resource-planner-overview.png)
 
@@ -60,7 +72,7 @@ Um in der Zeitleiste zu navigieren, klicken Sie auf die Pfeile nach vorne und zu
       <td>Zeigt Informationen nach Woche an.<br>Die Anzahl der Wochen wird neben den Datumsangaben in der Spaltenüberschrift angezeigt. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Monat</td> 
+      <td role="rowheader">Month</td> 
       <td> Zeigt Informationen nach Monat an.</td> 
      </tr> 
      <tr> 
@@ -184,7 +196,7 @@ Beachten Sie bei der Auswahl der Benutzeransicht im Ressourcenplaner Folgendes:
    * Wenn Sie nicht über die erforderlichen Berechtigungen zum Anzeigen der Projekte verfügen, aber Zugriff haben, um die Aufgaben oder Probleme in den Projekten anzuzeigen, werden die Projekte, Aufgaben und Probleme unter den Namen der ihnen zugewiesenen Benutzer aufgeführt.
    * Wenn Sie berechtigt sind, die Projekte anzuzeigen, aber keine Aufgaben oder Probleme in den Projekten, wird der Projektname angezeigt und die Aufgaben und Probleme werden im Abschnitt Nicht zugängliche Elemente aufgeführt.
 
-     Weitere Informationen finden Sie unter [Übersicht über Freigabeberechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+     Weitere Informationen finden Sie unter [Überblick über Freigabeberechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 
 * Sie können die folgenden Stunden- und FTE-Informationen in der Benutzeransicht anzeigen:
