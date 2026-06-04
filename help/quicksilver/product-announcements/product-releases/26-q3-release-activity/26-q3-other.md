@@ -4,9 +4,9 @@ description: Weitere Verbesserungen im Zeitraum der Veröffentlichung im dritten
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d5136ed606ab50c403552a4be9ee5dc845b27eaa
+source-git-commit: a207fe30b02ed006d37bd07a72274e085db68e60
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '605'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2026 ve
 
 >[!NOTE]
 >
->Produktionsversion für Kunden: Schrittweiser Rollout, Startdatum wird noch bekannt gegeben
+>Produktionsversion für Kunden: Schrittweiser Rollout ab 16. Juli 2026
 
 E-Mail-Benachrichtigungen für Kommentare im Bereich Aktualisierungen haben ein neues Erscheinungsbild, das mit dem umfassenderen E-Mail-Design von Adobe übereinstimmt.
 
