@@ -9,8 +9,10 @@ exl-id: e152913e-de7e-405f-af63-827a9b91e2ae
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/P2AOhU62RdYgN1vJCky27ZjE9X6VWmDfJF4E-5M-dgo
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 675
@@ -48,7 +50,7 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
   </tr> 
   <tr> 
    <td> <p><strong>Eine delegierte Projektgenehmigungsanfrage ist abgeschlossen</strong> </p> <p>Eine Projektgenehmigung, die Sie an einen anderen Benutzer delegiert haben, wurde von diesem Benutzer genehmigt oder abgelehnt.</p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail ist: <em>[!UICONTROL Projektgenehmigung/ -ablehnung in Ihrem Auftrag von] &lt;Benutzername&gt;</em></p> <p><em>Der Betreff der täglichen Digest-Benachrichtigung ist: [!UICONTROL Digest of Approval Information] &lt;Datum der täglichen Digest&gt;</em> </p> </td> 
-   <td> Projektname<br>[!UICONTROL Portfolio-Name]<br>[!UICONTROL-Projekt-Referenznummer]<br>Name des Benutzers, der das Projekt in Ihrem Auftrag genehmigt/abgelehnt hat<br>[!UICONTROL-Genehmigungsentscheidung]<br>[!UICONTROL-Projektstatus]<br>Name des Benutzers, der die Genehmigung angefordert hat<br><strong>[!UICONTROL Weitere Details anzeigen]</strong>-Schaltfläche<br>*Projekt-Referenznummer<br>*Projektname<br>*Name des genehmigenden Benutzers<br>[!UICONTROL *Datum der täglichen Zusammenfassung]<br></td> 
+   <td> Projektname<br>[!UICONTROL Portfolio-Name]<br>[!UICONTROL -Projekt-Referenznummer]<br>Name des Benutzers, der das Projekt in Ihrem Auftrag genehmigt/abgelehnt hat<br>[!UICONTROL -Genehmigungsentscheidung]<br>[!UICONTROL -Projektstatus]<br>Name des Benutzers, der die Genehmigung angefordert hat<br><strong>[!UICONTROL Weitere Details anzeigen]</strong>-Schaltfläche<br>*Projekt-Referenznummer<br>*Projektname<br>*Name des genehmigenden Benutzers<br>[!UICONTROL *Datum der täglichen Zusammenfassung]<br></td> 
    <td><strong>Täglich</strong> </td> 
   </tr> 
   <tr> 

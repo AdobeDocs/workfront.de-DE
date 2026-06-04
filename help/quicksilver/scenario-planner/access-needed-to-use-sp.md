@@ -10,11 +10,16 @@ exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Trk0732l-rvF7JrmyZCqptC8SkSJ8nCD7dTl0yHVjk4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 394
@@ -32,7 +37,7 @@ ht-degree: 0%
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
-Ohne korrekte Zugriffsrechte oder Berechtigungen können Sie möglicherweise den Bereich [!UICONTROL Szenarien] von nicht anzeigen [!DNL  Adobe Workfront] Pläne oder Initiativen für Ihr Unternehmen verwalten. Die Verwaltung von Plänen und Initiativen umfasst das Erstellen, Bearbeiten und Löschen.
+Ohne korrekte Zugriffsrechte oder Berechtigungen können Sie möglicherweise den Bereich [!UICONTROL Szenarien] von nicht anzeigen [!DNL &#x200B; Adobe Workfront] Pläne oder Initiativen für Ihr Unternehmen verwalten. Die Verwaltung von Plänen und Initiativen umfasst das Erstellen, Bearbeiten und Löschen.
 
 ## Zugriff zum Anzeigen und Verwenden der [!DNL Adobe Workfront Scenario Planner] erforderlich
 

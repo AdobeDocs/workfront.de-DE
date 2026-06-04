@@ -11,8 +11,10 @@ exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/yBJa1km1L7-DnwPLDLUZgN-zqUeWgRO6Fg04sghMUWo
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 774
@@ -45,7 +47,7 @@ Je nachdem, über welchen Bereich von Workfront Sie auf Ihre Aufgabe oder Ihr Pr
 
   >[!TIP]
   >
-  >Sie können die Schaltfläche Bearbeiten durch eine Schaltfläche Starten ersetzen. Informationen zum Ersetzen der Schaltfläche „Bearbeiten“ durch eine Schaltfläche „Starten“ [ Sie unter „Ersetzen der Schaltfläche „Bearbeiten“ durch eine Schaltfläche „Starten](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md) .
+  >Sie können die Schaltfläche Bearbeiten durch eine Schaltfläche Starten ersetzen. Informationen zum Ersetzen der Schaltfläche „Bearbeiten“ durch eine Schaltfläche „Starten“ [&#x200B; Sie unter „Ersetzen der Schaltfläche „Bearbeiten“ durch eine Schaltfläche „Starten](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md) .
 
 * Nachdem Sie auf „Bearbeiten“ geklickt haben, wird die Schaltfläche als „Fertig stellen“ markiert. Informationen dazu, wo Sie auf die Schaltfläche „Bearbeiten“ zugreifen können, finden Sie im Abschnitt [Suchen der Schaltfläche „Bearbeiten“ und „Fertig](#locate-the-work-on-it-and-done-button) in diesem Artikel.
 
@@ -98,7 +100,7 @@ Wenn Sie auf „Bearbeiten“ klicken, werden auch die folgenden Elemente aktual
 
 ### Start-Schaltfläche {#start-button}
 
-Wenn Sie Zugriff auf die Bearbeitung von Teams haben, können Sie die Schaltfläche Bearbeiten durch eine Schaltfläche Starten für ein Team ersetzen. Wenn Benutzer mit diesem Team als Home-Team auf die Schaltfläche Start für Elemente klicken, denen sie zugewiesen sind, werden zusätzliche Felder in ihren Arbeitselementen automatisch aktualisiert. Informationen zum Ersetzen der Schaltfläche „Bearbeiten“ durch eine Schaltfläche „Starten“ finden [ unter „Ersetzen der Schaltfläche „Bearbeiten“ durch eine Schaltfläche „Starten](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
+Wenn Sie Zugriff auf die Bearbeitung von Teams haben, können Sie die Schaltfläche Bearbeiten durch eine Schaltfläche Starten für ein Team ersetzen. Wenn Benutzer mit diesem Team als Home-Team auf die Schaltfläche Start für Elemente klicken, denen sie zugewiesen sind, werden zusätzliche Felder in ihren Arbeitselementen automatisch aktualisiert. Informationen zum Ersetzen der Schaltfläche „Bearbeiten“ durch eine Schaltfläche „Starten“ finden [&#x200B; unter „Ersetzen der Schaltfläche „Bearbeiten“ durch eine Schaltfläche „Starten](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
 
 Zusätzlich zu den Feldern, die beim Klicken auf die Schaltfläche „Bearbeiten“ aktualisiert werden, werden beim Klicken auf die Schaltfläche „Starten“ automatisch die folgenden Felder zu einer Aufgabe oder einem Problem aktualisiert:
 

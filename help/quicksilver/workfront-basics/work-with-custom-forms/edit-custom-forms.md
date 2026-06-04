@@ -10,11 +10,16 @@ exl-id: c2b6afde-91a8-4e17-8e1a-3428b48e500a
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/JfnVyJAxwaCJ8BeCOo3gP783O8L8GtAegswSceEhYfo
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1231
@@ -110,7 +115,7 @@ Die Bearbeitung von Informationen in einem benutzerdefinierten Formular, das an 
 Informationen dazu, welche Objekte ein benutzerdefiniertes Formular haben können, finden Sie unter [Übersicht über benutzerdefinierte Formulare](../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
 
 1. Wechseln Sie zu einer beliebigen Liste von Objekten, für die Sie Informationen im benutzerdefinierten Formular bearbeiten möchten, mit Ausnahme einer Liste von Iterationen.
-1. Wählen Sie ein oder mehrere Objekte in der Liste aus und klicken Sie dann oben in **Liste auf** Bearbeiten![Symbol ](assets/edit-icon.png)Bearbeiten“.
+1. Wählen Sie ein oder mehrere Objekte in der Liste aus und klicken Sie dann oben in **Liste auf** Bearbeiten![Symbol &#x200B;](assets/edit-icon.png)Bearbeiten“.
 1. Klicken Sie **linken Bereich** Custom Forms&quot; im Feld **Objekt bearbeiten**.
 
    Wenn ein benutzerdefiniertes Formular an das -Objekt angehängt ist, wird der Name des Formulars als Bereich im Abschnitt **Benutzerdefinierte Forms** angezeigt.

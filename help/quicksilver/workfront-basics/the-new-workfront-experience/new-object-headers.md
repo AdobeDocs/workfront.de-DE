@@ -9,11 +9,20 @@ exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/TmMmBW3KGYiabGLEiJ40fnBBo8EEpr6PBAaEaddTGq8
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d3382524-5489-431b-bde9-271ab257bc37id: e147ce9d-7675-49bd-8a32-44f27d865560id: fceb5125-bb41-419a-b0db-31958cb42f6c
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 3702
@@ -115,7 +124,7 @@ Die Projekt-Kopfzeile zeigt standardmäßig die folgenden Informationen an:
    <td>Sie können das Projekt [!UICONTROL Status] in der Kopfzeile bearbeiten.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Der Bereich [!UICONTROL-Genehmigungen]</td> 
+   <td role="rowheader">Der Bereich [!UICONTROL -Genehmigungen]</td> 
    <td> <p>Wenn Sie einer der genehmigenden Personen sind, verwenden Sie die folgenden Symbole, um die Genehmigungen für das Projekt zu verwalten:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [!UICONTROL genehmigen]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [!UICONTROL Reject]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [!UICONTROL recall]</p> <p>Wenn Sie keine genehmigende Person sind, klicken Sie auf das Symbol [!UICONTROL Mehr] <img src="assets/more-icon-for-approvals-area.png">, um Informationen zum aktuellen Genehmigungsschritt anzuzeigen.</p> <p>Weitere Informationen zu Validierungen finden Sie unter <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Übersicht über den Genehmigungsprozess</a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -167,18 +176,18 @@ Die Aufgabenkopfzeile enthält standardmäßig die folgenden Informationen:
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Schaltfläche [!UICONTROL Bearbeiten], [!UICONTROL Fertig] oder [!UICONTROL Aufgabe starten]</p> </td> 
-   <td> <p>Wenn Ihnen die Aufgabe zugewiesen ist, können Sie auf die Schaltfläche [!UICONTROL Bearbeiten] <span>oder [!UICONTROL Aufgabe starten]</span> klicken, um anzugeben, dass Sie die Aufgabe jetzt bearbeiten, oder auf die Schaltfläche [!UICONTROL Fertig], um anzugeben, dass Sie die Aufgabe abgeschlossen haben.</p> <p><span>Informationen zum Ersetzen der Schaltfläche [!UICONTROL Work On It] durch eine Schaltfläche [!UICONTROL Start Task] finden Sie unter <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersetzen der Schaltfläche [!UICONTROL Work On It] durch eine Schaltfläche [!UICONTROL Start</a></span>.</p> </td> 
+   <td> <p>Wenn Ihnen die Aufgabe zugewiesen ist, können Sie auf die Schaltfläche [!UICONTROL Bearbeiten] <span>oder [!UICONTROL Aufgabe starten]</span> klicken, um anzugeben, dass Sie die Aufgabe jetzt bearbeiten, oder auf die Schaltfläche [!UICONTROL Fertig], um anzugeben, dass Sie die Aufgabe abgeschlossen haben.</p> <p><span>Informationen zum Ersetzen der Schaltfläche [!UICONTROL Work On It] durch eine Schaltfläche [!UICONTROL Start Task] finden Sie unter <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersetzen der Schaltfläche [!UICONTROL Work On It] durch eine Schaltfläche Start</a></span>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Geplantes Abschlussdatum]</td> 
-   <td> <p>Sie können das geplante Abschlussdatum (!UICONTROL Geplant) <span>und die Uhrzeit</span> in der Kopfzeile bearbeiten.</p> <p>Tipp: Beachten Sie, dass das [!UICONTROL Commit Date] in der Kopfzeile nicht angezeigt wird. Sie können sie auf der Seite [!UICONTROL Details] anzeigen.</p> </td> 
+   <td> <p>Sie können das geplante Abschlussdatum (Geplant) <span>und die Uhrzeit</span> in der Kopfzeile bearbeiten.</p> <p>Tipp: Beachten Sie, dass das [!UICONTROL Commit Date] in der Kopfzeile nicht angezeigt wird. Sie können sie auf der Seite [!UICONTROL Details] anzeigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Status]</td> 
    <td>Sie können die Aufgabe [!UICONTROL Status] in der Kopfzeile bearbeiten.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Der Bereich [!UICONTROL-Genehmigungen]</td> 
+   <td role="rowheader">Der Bereich [!UICONTROL -Genehmigungen]</td> 
    <td> <p>Wenn Sie eine der genehmigenden Personen sind, verwenden Sie die folgenden Symbole, um die Genehmigungen für die Aufgabe zu verwalten:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> </img> [!UICONTROL genehmigen]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> </img> [!UICONTROL Reject]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> </img> [!UICONTROL recall]</p> <p>Wenn Sie keine genehmigende Person sind, klicken Sie auf das Symbol [!UICONTROL Mehr] <img src="assets/more-icon-for-approvals-area.png">, um Informationen zum aktuellen Genehmigungsschritt anzuzeigen.</p> <p>Weitere Informationen zu Validierungen finden Sie unter <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Übersicht über den Genehmigungsprozess</a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -230,18 +239,18 @@ Die Problem-Kopfzeile enthält standardmäßig die folgenden Informationen:
   </tr> 
   <tr> 
    <td role="rowheader">Schaltfläche [!UICONTROL Bearbeiten], [!UICONTROL Fertig] <span> [!UICONTROL Problem starten] </span></td> 
-   <td>Wenn Ihnen das Problem zugewiesen wurde, können Sie auf die Schaltfläche [!UICONTROL Bearbeiten] <span>oder [!UICONTROL Problem starten]</span> klicken, um anzugeben, dass Sie das Problem jetzt bearbeiten, oder auf die Schaltfläche [!UICONTROL Fertig], um anzugeben, dass Sie das Problem abgeschlossen haben.<span>Informationen zum Ersetzen der Schaltfläche [!UICONTROL Work On It] durch eine Schaltfläche [!UICONTROL Start Task] finden Sie unter</span> <span href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersetzen der Schaltfläche [!UICONTROL Work On It] durch eine Schaltfläche [!UICONTROL Start</a></span><span>.</span></td> 
+   <td>Wenn Ihnen das Problem zugewiesen wurde, können Sie auf die Schaltfläche [!UICONTROL Bearbeiten] <span>oder [!UICONTROL Problem starten]</span> klicken, um anzugeben, dass Sie das Problem jetzt bearbeiten, oder auf die Schaltfläche [!UICONTROL Fertig], um anzugeben, dass Sie das Problem abgeschlossen haben.<span>Informationen zum Ersetzen der Schaltfläche [!UICONTROL Work On It] durch eine Schaltfläche [!UICONTROL Start Task] finden Sie unter</span> <span href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersetzen der Schaltfläche [!UICONTROL Work On It] durch eine Schaltfläche Start</a></span><span>.</span></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Geplantes Abschlussdatum]</td> 
-   <td> <p>Sie können das geplante Abschlussdatum (!UICONTROL Geplant) <span>und die Uhrzeit) </span> Problem in der Kopfzeile bearbeiten.</p> <p>Tipp: Beachten Sie, dass das [!UICONTROL Commit Date] in der Kopfzeile nicht angezeigt wird. Sie können sie auf der Seite [!UICONTROL Details] anzeigen.</p> </td> 
+   <td> <p>Sie können das geplante Abschlussdatum (Geplant) <span>und die Uhrzeit) </span> Problem in der Kopfzeile bearbeiten.</p> <p>Tipp: Beachten Sie, dass das [!UICONTROL Commit Date] in der Kopfzeile nicht angezeigt wird. Sie können sie auf der Seite [!UICONTROL Details] anzeigen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Status]</td> 
    <td>Sie können das Problem [!UICONTROL Status] in der Kopfzeile bearbeiten.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Der Bereich [!UICONTROL-Genehmigungen]</td> 
+   <td role="rowheader">Der Bereich [!UICONTROL -Genehmigungen]</td> 
    <td> <p>Wenn Sie eine der genehmigenden Personen sind, verwenden Sie die folgenden Symbole, um die Genehmigungen für das Problem zu verwalten:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL genehmigen]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Reject]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Rückruf]</p> <p>Wenn Sie keine genehmigende Person sind, klicken Sie auf das Symbol [!UICONTROL Mehr] <img src="assets/more-icon-for-approvals-area.png">, um Informationen zum aktuellen Genehmigungsschritt anzuzeigen.</p> <p>Weitere Informationen zu Validierungen finden Sie unter <a href="../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">Übersicht über den Genehmigungsprozess</a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -265,7 +274,7 @@ Die Kopfzeile des Programms enthält folgende Informationen:
  <tbody> 
   <tr> 
    <td role="rowheader">Breadcrumb mit dem Namen der Portfolio</td> 
-   <td> <p>Sie können über den Header des [!UICONTROL-Programms] auf [!UICONTROL Portfolio] zugreifen. Durch Klicken auf den Namen des übergeordneten Objekts wird dieses übergeordnete Objekt geöffnet.</p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Überblick über Breadcrumbs</a>.</p> </td> 
+   <td> <p>Sie können über den Header des [!UICONTROL -Programms] auf [!UICONTROL Portfolio] zugreifen. Durch Klicken auf den Namen des übergeordneten Objekts wird dieses übergeordnete Objekt geöffnet.</p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Überblick über Breadcrumbs</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Symbol für Objekt </td> 
@@ -301,7 +310,7 @@ Die Kopfzeile des Programms enthält folgende Informationen:
   </tr> 
   <tr> 
    <td role="rowheader">Bedingung für [!UICONTROL Active Projects]</td> 
-   <td>Dies ist eine Berechnung, die angibt, für welchen Prozentsatz der aktiven Projekte im Programm die [!UICONTROL-Bedingung] als [!UICONTROL On Target], [!UICONTROL At Risk] oder [!UICONTROL In Trouble] festgelegt ist.</td> 
+   <td>Dies ist eine Berechnung, die angibt, für welchen Prozentsatz der aktiven Projekte im Programm die [!UICONTROL -Bedingung] als [!UICONTROL On Target], [!UICONTROL At Risk] oder [!UICONTROL In Trouble] festgelegt ist.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -752,7 +761,7 @@ In der Kopfzeile des Dokuments werden die folgenden Informationen angezeigt:
    <td> <p>Neben dem Namen des Dokuments wird der Bereich Aktionen angezeigt.</p> <p> <img src="assets/actions-area-icons-for-a-document.png"> </p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Der Bereich für die [!UICONTROL-Entscheidung] Genehmigung</td> 
+   <td role="rowheader">Der Bereich für die [!UICONTROL -Entscheidung] Genehmigung</td> 
    <td> Der Bereich [!UICONTROL Entscheidungen] wird in der oberen rechten Ecke der Dokumentkopfzeile angezeigt.Dieser Bereich unterscheidet sich je nach Genehmigungsphase und abhängig davon, ob Sie eine genehmigende Person, eine prüfende Person oder eine der beiden Personen sind. <ul><li> <p>Wenn Sie eine genehmigende Person sind, können Sie die folgenden Symbole verwenden, um die Genehmigungen für das Dokument zu verwalten:</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL genehmigen]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Rückruf]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Reject]</p> <p>Weitere Informationen zu Genehmigungsentscheidungen finden Sie unter <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Genehmigen von </a>.</li><li><p>Als Reviewer können Sie auf die Schaltfläche Meine Überprüfung abschließen klicken, um anzugeben, dass Sie das Dokument geprüft haben.</p><p>Weitere Informationen zur Überprüfung eines Dokuments finden Sie unter <a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">Überprüfen eines Dokuments</a>.</p></li><li>Andernfalls wird in diesem Bereich der aktuelle Prüfungs- und Genehmigungsstatus für das Dokument angezeigt.</li><ul></p> </td> 
   </tr> 
  </tbody> 

@@ -6,10 +6,15 @@ author: Jenny
 feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
 TQID: https://experienceleague.adobe.com/JKswbVxwKRxGdUpn7GlLRNwu7lDLxGOL3l-ZD4SffKE
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2065
@@ -103,7 +108,7 @@ Der KI-Assistent bietet Ihnen eine schnelle Bewertung der Gesamtbedingung eines 
 * Gefährdet
 * In Schwierigkeiten
 
-Dieser Status wird mithilfe von Projektkomponenten wie Projektfortschritt, unterschätzte Arbeit usw. berechnet. Eine vollständige Liste der Komponenten, die zur Messung des Projektzustands verwendet werden, finden Sie im Abschnitt [Liste der Projekt- und ](#project-and-program-states-list)).
+Dieser Status wird mithilfe von Projektkomponenten wie Projektfortschritt, unterschätzte Arbeit usw. berechnet. Eine vollständige Liste der Komponenten, die zur Messung des Projektzustands verwendet werden, finden Sie im Abschnitt [Liste der Projekt- und &#x200B;](#project-and-program-states-list)).
 
 Jeder Projektkomponente wird eine numerische Risikobewertung zugewiesen, die von (0-100) ausgeht und dann gemittelt wird, um den Gesamtzustand des Projekts zu erstellen:
 
@@ -330,7 +335,7 @@ So generieren Sie eine Bewertung des Projektzustands für ein Projekt oder Progr
 
    ![Bewertung des Projektzustands](assets/health-assessment.png)
 
-   Wenn Sie eine Bewertung für ein Programm erstellen, werden mehrere Abzeichen aufgelistet, die den Zustand jedes Projekts im Programm anzeigen. Weitere Informationen zu den Badge-Kennzeichnungen finden Sie im Abschnitt [Liste der Projekt- und ](#project-and-program-states-list)) in diesem Artikel.
+   Wenn Sie eine Bewertung für ein Programm erstellen, werden mehrere Abzeichen aufgelistet, die den Zustand jedes Projekts im Programm anzeigen. Weitere Informationen zu den Badge-Kennzeichnungen finden Sie im Abschnitt [Liste der Projekt- und &#x200B;](#project-and-program-states-list)) in diesem Artikel.
 
 1. (Optional) Klicken Sie auf einen der Bewertungspunkte, um dessen Details zu erweitern.
 
@@ -346,7 +351,7 @@ Sie können eine kombinierte Bewertung des Projektzustands für alle Projekte ge
 
 Ein Projekt wird nur dann in die kombinierte Bewertung des Projektzustands einbezogen, wenn es gestartet wurde. Sie können konfigurieren, welche Ereignis-Trigger ein Projekt in den Projekteinstellungen starten sollen. Weitere Informationen finden Sie im Abschnitt [Verwalten von Projektzustandskonfigurationen](#manage-project-health-configurations) in diesem Artikel.
 
-1. Klicken Sie auf **KI** Assistent![ Symbol KI-Assistent](assets/ai-assistant-icon.png) in der rechten oberen Ecke des Bildschirms. KI-Assistent wird geöffnet.
+1. Klicken Sie auf **KI** Assistent![&#x200B; Symbol KI-Assistent](assets/ai-assistant-icon.png) in der rechten oberen Ecke des Bildschirms. KI-Assistent wird geöffnet.
 
 1. Geben Sie Folgendes in das Feld **Fragen zu Workfront** ein: *Wie sieht der Zustand meiner Projekte aus?*
 

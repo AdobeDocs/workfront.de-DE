@@ -7,9 +7,12 @@ author: Courtney
 feature: Get Started with Workfront
 exl-id: c4cf84eb-8911-4bff-a548-7f0e6d8aa7b5
 TQID: https://experienceleague.adobe.com/RLrCDv5K-2Qf2VfoSGJ1NGxyFuhc03bS-U5QKKtL4ws
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1516
@@ -39,7 +42,7 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
  <tbody> 
   <tr> 
    <td> <p><strong>Einem Projekt, an dem ich mitarbeite, wurde ein Dokument hinzugefügt</strong> </p> <p>Mitglieder eines Projekt-Teams erhalten eine E-Mail-Benachrichtigung, wenn ein Dokument zum Projekt hinzugefügt wird, mit Ausnahme des Benutzers, der das Dokument hinzugefügt hat.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus [!UICONTROL Aktuell] und das Dokument nicht Privat ist.</p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail ist <em>[!UICONTROL Dokument hinzugefügt zu] &lt;Projektname&gt;</em></p> <p>Der Betreff der täglichen Digest-Benachrichtigung ist <em>[!UICONTROL Digest of Projects You're On] &lt;Date of daily Digest&gt;</em></p> </td> 
-   <td> Projektname<br>Portfolio-Name<br>Dokument-Referenznummer<br>Name des Benutzers, der das Dokument hinzugefügt hat<br>Dokumentname<br>Am Datum hinzugefügt<br>Dokumentdetails (Format, Größe, Versionsnummer)<br>Dokumentminiatur<br><strong>[!UICONTROL-Vorschau]</strong> und <strong>[!UICONTROL-Download]</strong> Schaltflächen<br>*Projektname<br>*Projekt-Referenznummer<br>*Gesamtzahl der hinzugefügten Dokumente<br>*Dokumentname<br>*Name des Benutzers, der das Dokument hochgeladen hat<br>*Datum der täglichen Zusammenfassung </td> 
+   <td> Projektname<br>Portfolio-Name<br>Dokument-Referenznummer<br>Name des Benutzers, der das Dokument hinzugefügt hat<br>Dokumentname<br>Am Datum hinzugefügt<br>Dokumentdetails (Format, Größe, Versionsnummer)<br>Dokumentminiatur<br><strong>[!UICONTROL -Vorschau]</strong> und <strong>[!UICONTROL -Download]</strong> Schaltflächen<br>*Projektname<br>*Projekt-Referenznummer<br>*Gesamtzahl der hinzugefügten Dokumente<br>*Dokumentname<br>*Name des Benutzers, der das Dokument hochgeladen hat<br>*Datum der täglichen Zusammenfassung </td> 
    <td><strong>Täglich</strong> </td> 
   </tr> 
   <tr> 

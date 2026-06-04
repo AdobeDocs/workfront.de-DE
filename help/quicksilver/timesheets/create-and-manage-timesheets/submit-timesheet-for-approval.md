@@ -7,11 +7,19 @@ author: Lisa
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
 TQID: https://experienceleague.adobe.com/uxfkWowkcyC9zeX1vNaZaY-i3AFCHMngvflZ8-REnac
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 845
@@ -64,7 +72,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ### Übermitteln einer Arbeitszeittabelle zur Genehmigung
 
-Nachdem eine genehmigende Person für Arbeitszeittabellen festgelegt wurde (wie im Abschnitt [Bestimmen von ](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver)) im Artikel [Genehmigen einer Arbeitszeittabelle](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md) beschrieben), ändert sich die Schaltfläche **Schließen** am unteren Rand der Arbeitszeittabelle in eine Schaltfläche **Zur Genehmigung einreichen**.
+Nachdem eine genehmigende Person für Arbeitszeittabellen festgelegt wurde (wie im Abschnitt [Bestimmen von &#x200B;](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver)) im Artikel [Genehmigen einer Arbeitszeittabelle](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md) beschrieben), ändert sich die Schaltfläche **Schließen** am unteren Rand der Arbeitszeittabelle in eine Schaltfläche **Zur Genehmigung einreichen**.
 
 So senden Sie eine Arbeitszeittabelle zur Genehmigung:
 
@@ -81,7 +89,7 @@ So senden Sie eine Arbeitszeittabelle zur Genehmigung:
    * Wenn er/sie die Genehmigung erteilt **ändert sich die Schaltfläche** Rückruf **in „Erneut öffnen** und der Arbeitszeittabellen-Status ändert sich in &quot;**Öffnen**.
    * Wenn er/sie ihn ablehnt, ersetzt **Schaltfläche „Zur Genehmigung**&quot; die Schaltfläche **Rückruf** und der Arbeitszeittabellen-Status wird auf **Abgelehnt** aktualisiert.
 
-1. (Optional) Klicken Sie **Rückruf**, wenn Sie die Arbeitszeittabelle erneut öffnen und Ihre Zeit aktualisieren müssen. Weitere Informationen finden Sie [ Abschnitt „Arbeitszeittabelle ](#recall-a-timesheet)&quot; in diesem Artikel.
+1. (Optional) Klicken Sie **Rückruf**, wenn Sie die Arbeitszeittabelle erneut öffnen und Ihre Zeit aktualisieren müssen. Weitere Informationen finden Sie [&#x200B; Abschnitt „Arbeitszeittabelle &#x200B;](#recall-a-timesheet)&quot; in diesem Artikel.
 
 ### Anzeigen des Status einer übermittelten Arbeitszeittabelle {#view-the-status-of-a-submitted-timesheet}
 

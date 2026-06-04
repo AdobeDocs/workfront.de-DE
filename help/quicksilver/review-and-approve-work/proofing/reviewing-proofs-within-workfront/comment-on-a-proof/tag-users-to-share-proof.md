@@ -7,10 +7,15 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: 4efbfdeb-3834-48dd-aa5b-515891bac519
 TQID: https://experienceleague.adobe.com/2SXtiuPnP7J6jRrlsWFlrmgeqAmWsBzMwyhAs-Rp7bI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 653
@@ -65,7 +70,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 ## Tagging von Benutzenden für die Freigabe eines Korrekturabzugs
 
-Benutzende mit dem im Abschnitt [Zugriffsanforderungen“ oben beschriebenen Profil für Korrekturabzugsberechtigungen oder der Rolle für ](#access-requirements) können Benutzende taggen, damit sie einen Korrekturabzug standardmäßig freigeben. Sie können Benutzende auch taggen, um einen Korrekturabzug unabhängig vom Profil der Korrekturabzugsberechtigung oder von der Rolle des Korrekturabzugs freizugeben, wenn Sie der Inhaber oder Ersteller des Korrekturabzugs sind. Sie können Benutzern mit einem niedrigeren Profil für Korrekturabzugsberechtigungen oder Korrekturabzugsrollen die Möglichkeit geben, bei der Erstellung eines Korrekturabzugs einen Korrekturabzug für andere Benutzer freizugeben. Weitere Informationen finden Sie im Abschnitt [Konfigurieren des Workflows und Hinzufügen von Reviewern](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md#configur) im Artikel [Erstellen eines erweiterten Korrekturabzugs mit einem einfachen Workflow](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md).
+Benutzende mit dem im Abschnitt [Zugriffsanforderungen“ oben beschriebenen Profil für Korrekturabzugsberechtigungen oder der Rolle für &#x200B;](#access-requirements) können Benutzende taggen, damit sie einen Korrekturabzug standardmäßig freigeben. Sie können Benutzende auch taggen, um einen Korrekturabzug unabhängig vom Profil der Korrekturabzugsberechtigung oder von der Rolle des Korrekturabzugs freizugeben, wenn Sie der Inhaber oder Ersteller des Korrekturabzugs sind. Sie können Benutzern mit einem niedrigeren Profil für Korrekturabzugsberechtigungen oder Korrekturabzugsrollen die Möglichkeit geben, bei der Erstellung eines Korrekturabzugs einen Korrekturabzug für andere Benutzer freizugeben. Weitere Informationen finden Sie im Abschnitt [Konfigurieren des Workflows und Hinzufügen von Reviewern](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md#configur) im Artikel [Erstellen eines erweiterten Korrekturabzugs mit einem einfachen Workflow](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md).
 
 >[!NOTE]
 >

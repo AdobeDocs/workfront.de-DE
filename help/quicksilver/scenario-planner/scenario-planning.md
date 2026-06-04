@@ -9,9 +9,12 @@ feature: Workfront Scenario Planner
 recommendations: noDisplay, noCatalog
 exl-id: 3d942ea6-6860-4463-b610-8c120a109071
 TQID: https://experienceleague.adobe.com/RB9yZzjEaDZSo1qVutyeIPgo4iDbMw1xB-vxu6TtEfU
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 143
@@ -42,6 +45,6 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Aktualisieren oder Erstellen von Projekten durch Veröffentlichung von Initiativen im [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)
 * [Übersicht über die Abstimmung der Ressourcenzuweisungen zwischen Projekten und Initiativen](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)
 * [Funktionszuordnung für Projekte und Initiativen in der Aufgabenliste anzeigen](../scenario-planner/show-role-allocation-task-list-nwe.md)
-* [Rollenzuweisung für Projekte und Initiativen im [!UICONTROL Workload-Balancer“ ]](../scenario-planner/show-role-allocation-workload-balancer.md)
+* [Rollenzuweisung für Projekte und Initiativen im [!UICONTROL Workload-Balancer“ &#x200B;]](../scenario-planner/show-role-allocation-workload-balancer.md)
 
 

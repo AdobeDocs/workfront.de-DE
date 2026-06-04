@@ -7,8 +7,10 @@ author: Alina
 feature: Workfront Scenario Planner
 exl-id: 82cd9641-1213-436c-935a-2f04a0425e9c
 TQID: https://experienceleague.adobe.com/5f7nqfiPgToyiGZykzR61M0VKrqpWdu-Ge9vrYIb7Lo
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 526
@@ -76,7 +78,7 @@ Beide Prozesse schaffen eine Verbindung zwischen den Projekten und den entsprech
      >
      >Aufgabengebiet-Informationen aus dem Projekt und der Initiative werden nicht nebeneinander im [!DNL Scenario Planner] Abschnitt der [!UICONTROL Projektdetails] angezeigt.
 
-   * Das [!UICONTROL  &quot;]&quot; in den folgenden Bereichen:
+   * Das [!UICONTROL &#x200B; &quot;]&quot; in den folgenden Bereichen:
 
       * [!UICONTROL Workload-] des Projekts
 
@@ -88,7 +90,7 @@ Beide Prozesse schaffen eine Verbindung zwischen den Projekten und den entsprech
 
      >[!TIP]
      >
-     >Sie können Aufgabenrolleninformationen aus dem Projekt und der Initiative Seite an Seite im Bedienfeld [!UICONTROL Rollenzuweisung“ ].
+     >Sie können Aufgabenrolleninformationen aus dem Projekt und der Initiative Seite an Seite im Bedienfeld [!UICONTROL Rollenzuweisung“ &#x200B;].
 
 * Sie können keine Aufgabengebiet-Zuordnung für ein Projekt für eine verknüpfte Initiative anzeigen. Weitere Informationen finden Sie unter [Projekte in Pläne importieren in der [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
 

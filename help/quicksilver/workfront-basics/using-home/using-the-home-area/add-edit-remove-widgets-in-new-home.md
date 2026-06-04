@@ -7,8 +7,10 @@ author: Courtney
 feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
 TQID: https://experienceleague.adobe.com/L9mVwCYmv2KOs2OKFlubf3MxjeRdthyE6prepRWebGc
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1123
@@ -86,7 +88,7 @@ Standardmäßig werden der Startseite je nach Lizenztyp bestimmte Widgets hinzug
 
 ## Widget zur Startseite hinzufügen
 
-Widgets sind die Grundlage der Startseite. Durch Hinzufügen von Widgets zu Ihrer Startseite können Sie den Typ der Informationen auswählen, die angezeigt werden, um Ihren Arbeitsanforderungen am besten zu entsprechen. Einige Widgets stehen nur für bestimmte Lizenztypen zur Verfügung, da die von ihnen verfolgten Objekte nur für diese Lizenzen verfügbar sind. Weitere Informationen finden Sie [ Abschnitt „Widgets, die für bestimmte Lizenztypen verfügbar ](#widgets-available-for-specific-license-types)&quot; weiter oben.
+Widgets sind die Grundlage der Startseite. Durch Hinzufügen von Widgets zu Ihrer Startseite können Sie den Typ der Informationen auswählen, die angezeigt werden, um Ihren Arbeitsanforderungen am besten zu entsprechen. Einige Widgets stehen nur für bestimmte Lizenztypen zur Verfügung, da die von ihnen verfolgten Objekte nur für diese Lizenzen verfügbar sind. Weitere Informationen finden Sie [&#x200B; Abschnitt „Widgets, die für bestimmte Lizenztypen verfügbar &#x200B;](#widgets-available-for-specific-license-types)&quot; weiter oben.
 
 Hinzufügen eines Widgets:
 

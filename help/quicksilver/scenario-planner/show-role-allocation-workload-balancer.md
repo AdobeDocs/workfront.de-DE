@@ -9,11 +9,16 @@ exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/QAF28EW2SXRQc1q2lBBGWEJTQETSuSrdnz-JA9tpQVM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 809
@@ -21,7 +26,7 @@ ht-degree: 4%
 
 ---
 
-# Rollenzuweisung für Projekte und Initiativen im [!UICONTROL Workload-Balancer“ ]
+# Rollenzuweisung für Projekte und Initiativen im [!UICONTROL Workload-Balancer“ &#x200B;]
 
 <!--Audited: 07/2024-->
 
@@ -109,9 +114,9 @@ Old:
 </table>
 -->
 
-## Rollenzuweisung für Projekte und Initiativen im [!UICONTROL Workload-Balancer“ ]
+## Rollenzuweisung für Projekte und Initiativen im [!UICONTROL Workload-Balancer“ &#x200B;]
 
-Wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] Lizenz erworben hat, können Sie die Ressourcenzuteilungen zwischen der Initiative und dem mit ihr verknüpften Projekt auf Projektebene (Workload [!UICONTROL ) ].
+Wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] Lizenz erworben hat, können Sie die Ressourcenzuteilungen zwischen der Initiative und dem mit ihr verknüpften Projekt auf Projektebene (Workload [!UICONTROL ) &#x200B;].
 
 1. (Bedingt) Verbinden eines Projekts mit einer Initiative mithilfe einer der in den folgenden Artikeln beschriebenen Methoden:
 
@@ -123,7 +128,7 @@ Wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] Lizenz erworben hat,
    >Wenn Sie Änderungen an den Ressourcen der Initiative vornehmen, müssen Sie das Szenario, zu dem die Initiative gehört, erneut veröffentlichen, damit die neuesten Ressourceninformationen der Initiative im Projekt aktualisiert werden.
 
 1. Wechseln Sie zu dem Projekt, in dem Sie die Zuordnung der Aufgabengebiete für das Projekt sowie für die zugehörige Initiative überprüfen möchten.
-1. Klicken Sie [!UICONTROL  linken Bedienfeld ]Workload Balancer“.
+1. Klicken Sie [!UICONTROL &#x200B; linken Bedienfeld &#x200B;]Workload Balancer“.
 
    Möglicherweise müssen Sie auf **[!UICONTROL Planung]** und dann auf **[!UICONTROL Zum Workload-Balancer wechseln]** klicken.
 
@@ -168,8 +173,8 @@ Wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] Lizenz erworben hat,
       <td>Die Anzahl der geplanten Stunden, die mit jedem Aufgabengebiet in den Aufgaben oder Problemen des Projekts für die Gesamtdauer des Projekts verknüpft sind. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL-Varianz]</td> 
-      <td> <p>Die Differenz zwischen den für die Initiative erforderlichen Stunden und den geplanten Stunden für die Arbeit am Projekt. [!DNL Workfront] berechnet die [!UICONTROL Variance] anhand der folgenden Formel:</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>Wenn Ressourcen für mehr Stunden als auf Initiative erforderlich eingeplant sind, ist die [!UICONTROL-Varianz] negativ und wird rot angezeigt. Das bedeutet, dass Ihre Ressourcen überlastet sind. </p> </td> 
+      <td role="rowheader">[!UICONTROL -Varianz]</td> 
+      <td> <p>Die Differenz zwischen den für die Initiative erforderlichen Stunden und den geplanten Stunden für die Arbeit am Projekt. [!DNL Workfront] berechnet die [!UICONTROL Variance] anhand der folgenden Formel:</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>Wenn Ressourcen für mehr Stunden als auf Initiative erforderlich eingeplant sind, ist die [!UICONTROL -Varianz] negativ und wird rot angezeigt. Das bedeutet, dass Ihre Ressourcen überlastet sind. </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -204,13 +209,13 @@ Wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] Lizenz erworben hat,
 
 1. (Optional) Klicken Sie auf das Dropdown-Symbol, um einen der Monate im Bedienfeld [!UICONTROL Rollenzuweisung] oder in der Zeitleiste des [!UICONTROL Workload-Balancer] zu erweitern.
 
-   ![Monat im Bedienfeld „Rollenzuweisung“ ](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
+   ![Monat im Bedienfeld „Rollenzuweisung“ &#x200B;](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
 
-   Die gleichen Informationen, die im Bereich &quot;[!UICONTROL &quot; angezeigt ], werden auch für jeden Monat angezeigt.
+   Die gleichen Informationen, die im Bereich &quot;[!UICONTROL &quot; angezeigt &#x200B;], werden auch für jeden Monat angezeigt.
 
    >[!TIP]
    >
-   >Die im Bedienfeld [!UICONTROL Rollenzuweisung] aufgelisteten Monate sind die Monate in der Zeitleiste, die auf dem Bildschirm im [!UICONTROL Workload Balancer“ ]. Scrollen Sie in der Timeline vor und zurück, um zusätzliche Monate anzuzeigen.
+   >Die im Bedienfeld [!UICONTROL Rollenzuweisung] aufgelisteten Monate sind die Monate in der Zeitleiste, die auf dem Bildschirm im [!UICONTROL Workload Balancer“ &#x200B;]. Scrollen Sie in der Timeline vor und zurück, um zusätzliche Monate anzuzeigen.
 
    <!--
    <li value="8" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p> </p> </li>

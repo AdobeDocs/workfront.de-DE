@@ -8,11 +8,16 @@ hide: true
 feature: Get Started with Workfront
 exl-id: cfb3de96-0710-44e9-a934-05877fa75b51
 TQID: https://experienceleague.adobe.com/Qs0ZW7b--KQ3vFSo2W-taevADl7iiRgQ416ZUl0sOXk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1667
@@ -261,7 +266,7 @@ Unsere primäre Empfehlung ist, so bald wie möglich mit der Umstellung auf ein 
 
 Wir empfehlen Administratoren:
 
-1. Erstellen Sie ein standardmäßiges neues Homepage-Layout mithilfe von Layout-Vorlagen (oder erstellen Sie optional eines für jeden Benutzer, jedes Team, jede Gruppe oder jedes Aufgabengebiet, für das ein eindeutiges Layout erforderlich ist). Weitere [ finden Sie unter „Anpassen einer neuen Startseite mithilfe ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md) Layout-Vorlage“.
+1. Erstellen Sie ein standardmäßiges neues Homepage-Layout mithilfe von Layout-Vorlagen (oder erstellen Sie optional eines für jeden Benutzer, jedes Team, jede Gruppe oder jedes Aufgabengebiet, für das ein eindeutiges Layout erforderlich ist). Weitere [&#x200B; finden Sie unter „Anpassen einer neuen Startseite mithilfe &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md) Layout-Vorlage“.
 
 1. Weisen Sie Ihre neuen Layout-Vorlagen einer kleinen Anzahl von Testbenutzern zu, die überprüfen können, ob ihre Widgets und allgemeinen Einstellungen ihren Arbeitsanforderungen entsprechen.
 

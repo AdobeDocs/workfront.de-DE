@@ -8,8 +8,10 @@ exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/cJBIqyDvl1wPpYWy4mFvJrcAOr52kRzyHDTCWyD8LdE
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 914
@@ -45,7 +47,7 @@ Ihr Workfront- oder Gruppen-Administrator kann die Bereiche und Felder ändern, 
 
 
 
-In der folgenden Tabelle werden die Bereiche angezeigt, in denen Sie das Bedienfeld [!UICONTROL Zusammenfassung“ finden ] verwenden können:
+In der folgenden Tabelle werden die Bereiche angezeigt, in denen Sie das Bedienfeld [!UICONTROL Zusammenfassung“ finden &#x200B;] verwenden können:
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -81,7 +83,7 @@ In der folgenden Tabelle werden die Bereiche angezeigt, in denen Sie das Bedienf
    <td>Probleme im Bereich [!UICONTROL Zugewiesene Arbeit] des [!UICONTROL Workload Balancer]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Probleme im Abschnitt [!UICONTROL Submitted] im Bereich [!UICONTROL-Anforderungen]</td> 
+   <td>Probleme im Abschnitt [!UICONTROL Submitted] im Bereich [!UICONTROL -Anforderungen]</td> 
   </tr> 
 </tr> 
    <tr> 
@@ -92,10 +94,10 @@ In der folgenden Tabelle werden die Bereiche angezeigt, in denen Sie das Bedienf
    <td><b>Dokumente</b></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Bereich [!UICONTROL-Dokumente]</td> 
+   <td>Bereich [!UICONTROL -Dokumente]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL-Dokumente]-Abschnitt eines beliebigen Objekts (Projekt, Aufgabe, Problem, Programm, Portfolio, Vorlage, Vorlagenaufgabe, Benutzer)</td> 
+   <td>[!UICONTROL -Dokumente]-Abschnitt eines beliebigen Objekts (Projekt, Aufgabe, Problem, Programm, Portfolio, Vorlage, Vorlagenaufgabe, Benutzer)</td> 
   </tr> 
  </tbody> 
 </table>
@@ -128,7 +130,7 @@ Informationen zum Zugriff auf die [!UICONTROL Zusammenfassung] für Dokumente fi
 
    ![Bedienfeld Zusammenfassung](assets/summary-panel-for-task-new-comments.png)
 
-1. (Optional) Führen Sie einen [!UICONTROL  folgenden Schritte aus] um das Bedienfeld „Zusammenfassung“ zu schließen:
+1. (Optional) Führen Sie einen [!UICONTROL &#x200B; folgenden Schritte aus] um das Bedienfeld „Zusammenfassung“ zu schließen:
 
    * Klicken Sie in einer Aufgaben- oder Problemliste auf das Symbol **[!UICONTROL Zusammenfassung öffnen]** ![Symbol im Zusammenfassungsbereich](assets/summary-panel-icon.png)
 
@@ -136,7 +138,7 @@ Informationen zum Zugriff auf die [!UICONTROL Zusammenfassung] für Dokumente fi
 
      Klicken Sie auf **X** in der oberen rechten Ecke des Bedienfelds [!UICONTROL Zusammenfassung].
 
-   * Klicken Sie [!UICONTROL  Abschnitt ]Gesendet“ im Bereich [!UICONTROL Anfragen] auf das Symbol **[!UICONTROL Zusammenfassung schließen]** ![Zusammenfassung mit Text schließen](assets/close-summary-with-text-nwe.png)
+   * Klicken Sie [!UICONTROL &#x200B; Abschnitt &#x200B;]Gesendet“ im Bereich [!UICONTROL Anfragen] auf das Symbol **[!UICONTROL Zusammenfassung schließen]** ![Zusammenfassung mit Text schließen](assets/close-summary-with-text-nwe.png)
 
      ODER
 
@@ -182,9 +184,9 @@ Wenn Sie der Aufgabe keine Teilaufgaben hinzugefügt haben, klicken Sie auf **[!
 
 Verwenden Sie den [!UICONTROL Stunden] des Abschnitts [!UICONTROL Zusammenfassung], um Stunden für die ausgewählte Aufgabe oder das ausgewählte Problem zu protokollieren. Klicken Sie **[!UICONTROL Zeit erfassen]** und geben Sie Ihre Stunden ein. Um direkt zur Registerkarte „Stunden“ für die Aufgabe oder das Problem zu wechseln, klicken Sie auf den **[!UICONTROL Stunden]** Titel.
 
-Die Stundenanzahl in der [!UICONTROL Zusammenfassung] zeigt die protokollierten Stunden an. Andere Benutzende haben in der [!UICONTROL Zusammenfassung) je ] Zeit, in der sie sich bei der Aufgabe anmelden, unterschiedliche Stundensummen.
+Die Stundenanzahl in der [!UICONTROL Zusammenfassung] zeigt die protokollierten Stunden an. Andere Benutzende haben in der [!UICONTROL Zusammenfassung) je &#x200B;] Zeit, in der sie sich bei der Aufgabe anmelden, unterschiedliche Stundensummen.
 
-Wenn für die Aufgabe oder ] keine geplanten [!UICONTROL Stunden“ vorhanden sind und Sie die Zeit protokolliert haben, wird die Stundenleiste rot angezeigt.
+Wenn für die Aufgabe oder  keine geplanten Stunden“ vorhanden sind und Sie die Zeit protokolliert haben, wird die Stundenleiste rot angezeigt.
 
 ![Abschnitt „Stunden“ im Bedienfeld „Zusammenfassung“](assets/summary-hours-section.png)
 

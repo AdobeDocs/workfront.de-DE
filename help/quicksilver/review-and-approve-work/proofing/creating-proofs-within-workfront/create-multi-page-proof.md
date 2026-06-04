@@ -7,10 +7,14 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: a8ad80d8-0758-4fea-824e-8c206424e295
 TQID: https://experienceleague.adobe.com/ftAfhh-z2L4bKJ9l5IErMy8cJ-YASuKcIcjSEJjavcU
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 611
@@ -63,7 +67,7 @@ So erstellen Sie einen mehrseitigen Korrekturabzug:
 
 1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, in dem/der Sie den Korrekturabzug anzeigen möchten, und klicken Sie dann auf den Abschnitt **Dokumente**.
 1. Klicken Sie **Neu hinzufügen** > **Testversand** .
-1. Ziehen Sie die Dateien per Drag-and-Drop oder durchsuchen Sie sie und wählen Sie sie aus Ihrem Datei-Explorer aus. Sie können bis zu 50 Dateien gleichzeitig hochladen. Informationen zu Dateibeschränkungen finden Sie [ Abschnitt &quot;](#considerations)&quot; in diesem Artikel.
+1. Ziehen Sie die Dateien per Drag-and-Drop oder durchsuchen Sie sie und wählen Sie sie aus Ihrem Datei-Explorer aus. Sie können bis zu 50 Dateien gleichzeitig hochladen. Informationen zu Dateibeschränkungen finden Sie [&#x200B; Abschnitt &quot;](#considerations)&quot; in diesem Artikel.
 
    >[!NOTE]
    >

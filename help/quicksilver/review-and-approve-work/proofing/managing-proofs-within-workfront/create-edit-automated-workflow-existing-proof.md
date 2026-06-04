@@ -7,10 +7,14 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: 852f960f-1b57-4a8a-a928-407ad52418e6
 TQID: https://experienceleague.adobe.com/-DB-GcrMJXtRFlMwPnH6yTfoN7MMy1-9Q1weey8U6r4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1149
@@ -64,7 +68,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
    ODER
 
-   Wenn Sie den Korrekturabzug im Proofing Viewer ansehen, klicken Sie im linken ](assets/workflow-icon-proofing-viewer.png) auf **Workflow** ![Workflow-Symbol und dann auf das Symbol „Bearbeiten![Symbol „Bearbeiten“](assets/edit-icon-proofing-viewer.png), um die automatisierten Workflow-Einstellungen für den Korrekturabzug zu öffnen.
+   Wenn Sie den Korrekturabzug im Proofing Viewer ansehen, klicken Sie im linken ![&#128279;](assets/workflow-icon-proofing-viewer.png) auf **Workflow** Workflow-Symbol und dann auf das Symbol „Bearbeiten![Symbol „Bearbeiten“](assets/edit-icon-proofing-viewer.png), um die automatisierten Workflow-Einstellungen für den Korrekturabzug zu öffnen.
 
 1. (Bedingt) Wenn für den Korrekturabzug derzeit ein einfacher Workflow (ohne Phasen) verwendet wird, klicken Sie im angezeigten **auf In automatisierten Workflow**.
 
@@ -116,7 +120,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
    1. Geben Sie einen Kontaktnamen oder eine E-Mail-Adresse ein und konfigurieren Sie die Einstellungen für Validierungsverantwortliche für das Stadium.
 
-      Informationen zum Hinzufügen von Reviewern finden Sie unter [Informationen zum Hinzufügen von Reviewern zu ](#about-adding-reviewers-to-a-stage) in diesem Artikel.
+      Informationen zum Hinzufügen von Reviewern finden Sie unter [Informationen zum Hinzufügen von Reviewern zu &#x200B;](#about-adding-reviewers-to-a-stage) in diesem Artikel.
 
    1. Verwenden Sie eine der folgenden Optionen, um das Stadium weiter zu konfigurieren:
 
