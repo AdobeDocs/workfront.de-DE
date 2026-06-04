@@ -7,11 +7,17 @@ description: Sie können die Art der Informationen, die Sie in einer Liste oder 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 18016417-e24d-4797-9422-00915db47bb9
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/JZGAc7Xgiy2klEmiAorTPwOjqCjyYezk3xfUSrmKGZo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: 592
 ht-degree: 2%
 
 ---
@@ -20,7 +26,7 @@ ht-degree: 2%
 
 <!--Audited: 11/2024-->
 
-Sie können die Art der Informationen, die Sie in einer Liste oder einem Bericht anzeigen, anpassen, indem Sie die Ansicht der Liste oder des Berichts verwalten. Sie können Objekte und ihre Attribute in einer Ansicht anzeigen. Informationen zu den Objekten von Adobe Workfront finden Sie unter [Objekte in Adobe Workfront &#x200B;](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Sie können die Art der Informationen, die Sie in einer Liste oder einem Bericht anzeigen, anpassen, indem Sie die Ansicht der Liste oder des Berichts verwalten. Sie können Objekte und ihre Attribute in einer Ansicht anzeigen. Informationen zu den Objekten von Adobe Workfront finden Sie unter [Objekte in Adobe Workfront ](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Überlegungen zu Ansichten
 

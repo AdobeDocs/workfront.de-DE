@@ -8,10 +8,15 @@ author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: b6a9e2ad-bd69-4075-8b87-3545e07b744d
-source-git-commit: fc82ce4b5abb2cd7411d62ac8bb428bc5337386f
+TQID: https://experienceleague.adobe.com/fzwRIaef0-H1O81i1-sy04oJoIF4HTZtwanlyo0fueA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 0%
+source-wordcount: 151
+ht-degree: 18%
 
 ---
 
@@ -34,5 +39,5 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Massenzuweisung von Arbeit mithilfe des Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md)
 * [Zuweisung von Arbeit im Workload Balancer aufheben](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md)
 * [Verwalten von Benutzerzuweisungen im Workload Balancer](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
-* [Freigeben des Workload Balancer für einen Link](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
+* [Freigeben des Workload Balancers mit einem Link](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
 * [Aktualisieren von Arbeitselementen im Workload Balancer mithilfe der Zusammenfassung](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)

@@ -6,11 +6,16 @@ description: Sie können Kalenderberichte und Ereignisdetails anzeigen, die Sie 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/uBBzqWVxR4akDI-mgnuTbRCfnY9o2-hzpLw-SVWJ-Eo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: 590
 ht-degree: 8%
 
 ---
@@ -71,7 +76,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
    * Kalender, die andere Benutzer für Sie freigegeben haben
 
-     Weitere Informationen zum Freigeben von Kalendern finden Sie unter [[!UICONTROL Freigeben &#x200B;] Kalenders](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
+     Weitere Informationen zum Freigeben von Kalendern finden Sie unter [[!UICONTROL Freigeben ] Kalenders](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
 
 1. (Bedingt) Klicken Sie auf die **[!UICONTROL Ansicht]** und wählen Sie dann die Kalenderdauer aus, die Sie anzeigen möchten.
    ![Kalenderdauer](assets/view-menu-calendar-report-350x189.png)

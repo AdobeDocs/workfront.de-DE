@@ -5,11 +5,17 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/0Nu-Le3Lidn8TI-Eq-p9iAQR4IwM6QD2tZpDeV1gF2U
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '9997'
+source-wordcount: 9918
 ht-degree: 1%
 
 ---
@@ -295,7 +301,7 @@ Das Erscheinungsbild des Felds Aktualisierung an Benutzer senden wurde aktualisi
 
 Das Feld Update an Benutzer senden stimmt jetzt mit anderen Bereichen von Workfront überein, wenn Sie ein Update an einen oder mehrere Benutzer senden.
 
-Weitere Informationen finden Sie unter [Anzeigen und Verwalten der &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md) einer Gruppe und [Anzeigen und Verwalten von Untergruppenmitgliedern](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
+Weitere Informationen finden Sie unter [Anzeigen und Verwalten der ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md) einer Gruppe und [Anzeigen und Verwalten von Untergruppenmitgliedern](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
 
 ### Aktualisierung der Benutzeroberfläche für kürzlich gelöschte Elemente
 
@@ -685,7 +691,7 @@ Das Erscheinungsbild des Dialogfelds „Neue Benutzer“ wurde aktualisiert, dam
 
 Um diese Änderung anzuzeigen, gehen Sie zu Benutzer > Neuer Benutzer > Neuer Benutzer.
 
-Weitere Informationen finden Sie unter [Hinzufügen von &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) und [Aktualisierungen des Workfront-](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile)) auf der Seite [Verbesserungen für Administratoren im vierten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
+Weitere Informationen finden Sie unter [Hinzufügen von ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) und [Aktualisierungen des Workfront-](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile)) auf der Seite [Verbesserungen für Administratoren im vierten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
 
 
 ### Aktualisierungen der Benutzeroberfläche im Dialogfeld „Benutzer importieren“
@@ -764,7 +770,7 @@ Das Erscheinungsbild der folgenden Listen im Abschnitt Arbeitszeittabellen und S
 
 Diese Listen stimmen nun mit anderen Bereichen von Workfront überein.
 
-Weitere Informationen finden [&#x200B; unter „Arbeitszeittabellen-Profile erstellen, bearbeiten und zuweisen](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+Weitere Informationen finden [ unter „Arbeitszeittabellen-Profile erstellen, bearbeiten und zuweisen](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 ### Aktualisierungen der Benutzeroberfläche für die Seite Unternehmen
 

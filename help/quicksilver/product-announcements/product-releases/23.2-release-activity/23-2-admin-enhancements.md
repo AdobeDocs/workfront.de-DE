@@ -1,19 +1,25 @@
 ---
-title: 23.2 Administrator-Verbesserungen
-description: 23.2 Administrator-Verbesserungen
+title: Verbesserungen für Admins in Version 23.2
+description: Verbesserungen für Admins in Version 23.2
 author: Courtney
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+TQID: https://experienceleague.adobe.com/xL8MU-Yhd3nI9S-HcTWzCy4akZFe1PZruOlVnyZarTk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 0%
+source-wordcount: 415
+ht-degree: 2%
 
 ---
 
-# 23.2 Administrator-Verbesserungen
+# Verbesserungen für Admins in Version 23.2
 
 Auf dieser Seite werden alle Admin-Verbesserungen beschrieben, die mit Version 23.2 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden mit Version 23.2 in der Produktionsumgebung verfügbar gemacht.
 
@@ -25,9 +31,9 @@ Jetzt können Sie Assets anhand von Daten aus Workfront kategorisieren und schne
 
 Zuvor war das Zuordnen von Workfront-Daten zu Experience Manager Assets-Tags nicht verfügbar.
 
-Weitere Informationen zu dieser Funktion in Experience Manager Assets as a Cloud Service finden Sie unter [Konfigurieren der [!UICONTROL Experience Manager Assets as a Cloud Service]-Integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+Weitere Informationen zu dieser Funktion in Experience Manager Assets as a Cloud Service finden Sie unter [Konfigurieren der Integration von [!UICONTROL Experience Manager Assets ]](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 
-Weitere Informationen zu dieser Funktion in Experience Manager Assets Essentials finden Sie unter [&#x200B; der Experience Manager Assets Essentials-Integration &#x200B;](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+Weitere Informationen zu dieser Funktion in Experience Manager Assets Essentials finden Sie unter [ der Experience Manager Assets Essentials-Integration ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Erstellen benutzerdefinierter Formulare mit dem neuen Formular-Designer - Beta
 
@@ -43,7 +49,7 @@ Mit dem neuen Formular-Designer haben wir die Möglichkeit hinzugefügt,
 
 Weitere Informationen finden Sie unter [Übersicht über benutzerdefinierte Formulare](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
 
-[Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3416586/){target=_blank}
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an](https://video.tv.adobe.com/v/3416586/){target=_blank}
 
 ## Pins in Layout-Vorlage umbenennen
 
@@ -51,4 +57,4 @@ Sie können jetzt Pins in einer Layout-Vorlage umbenennen, damit sie für Ihre B
 
 Weitere Informationen finden Sie unter [Anpassen von fixierten Seiten mithilfe einer Layout-Vorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md). Weitere Informationen dazu, wie Benutzer ihre persönlichen angehefteten Seiten umbenennen können, finden Sie unter [Anheften von Seiten zum Anpassen Ihres Arbeitsbereichs](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
 
-[Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3414364/){target=_blank}
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an](https://video.tv.adobe.com/v/3414364/){target=_blank}

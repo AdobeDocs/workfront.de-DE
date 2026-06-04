@@ -7,11 +7,17 @@ description: Berichte bieten Einblicke in das, was mit Benutzenden und der Arbei
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/36hlWb4SKgHqZCt70lm6rt7l2V-qzpisXj6HJJUf9XQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3297'
+source-wordcount: 3259
 ht-degree: 1%
 
 ---
@@ -92,7 +98,7 @@ Informationen zum Erstellen von Berichten finden Sie [Erstellen eines benutzerde
 
 * Sie müssen über eine Standard- oder Planlizenz verfügen, um Ihre eigenen Berichte zu erstellen.
 
-  Informationen zu den Workfront-Lizenztypen finden Sie unter [Lizenzübersicht](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) für die aktuellen Lizenzen und [Übersicht über neue &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)).
+  Informationen zu den Workfront-Lizenztypen finden Sie unter [Lizenzübersicht](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) für die aktuellen Lizenzen und [Übersicht über neue ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)).
 
 * Ihr Workfront-Administrator muss Ihnen Zugriff auf „Berichte bearbeiten“ auf Ihrer Zugriffsebene gewähren.
 
@@ -120,7 +126,7 @@ Sie können sehen, wem ein Bericht gehört, indem Sie das Feld **Eingegeben von*
 Es wird empfohlen, zuerst die Berichterstellungsoberfläche zu verwenden, um einen neuen Bericht zu erstellen. Die Benutzeroberfläche bietet eine optimierte Reihe von Tools, die Sie durch das Zusammenfügen von Elementen führen, um den gewünschten Bericht zu erstellen. Sie verfügen über Objekte und Felder, die Sie aus Listen auswählen und zu allen Berichtselementen hinzufügen können.\
 Weitere Informationen zum Erstellen von Berichten in der Benutzeroberfläche zum Erstellen von Berichten finden Sie unter [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Eine Liste der Objekte, über die Sie einen Bericht erstellen können, finden Sie [&#x200B; Abschnitt „Bericht über &#x200B;](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#report-on-objects)&quot; im Artikel [Übersicht über Adobe Workfront-Objekte](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Eine Liste der Objekte, über die Sie einen Bericht erstellen können, finden Sie [ Abschnitt „Bericht über ](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#report-on-objects)&quot; im Artikel [Übersicht über Adobe Workfront-Objekte](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 Weitere Informationen zu den Feldern, die Sie in Berichten anzeigen können, finden Sie unter [Glossar der Adobe Workfront-Terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
@@ -151,7 +157,7 @@ Eine Liste der häufigsten Verwendungen des Textmodus in einem Bericht finden Si
 
 Informationen zur Aufnahme berechneter benutzerdefinierter Daten in Berichte finden Sie unter [Berechnete benutzerspezifische Daten in Berichten](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md).
 
-Informationen zum Vergleichen von Feldern in bedingter Formatierung finden Sie unter [Felder in bedingter Formatierung &#x200B;](../../../reports-and-dashboards/reports/text-mode/compare-fields-conditional-formatting.md).
+Informationen zum Vergleichen von Feldern in bedingter Formatierung finden Sie unter [Felder in bedingter Formatierung ](../../../reports-and-dashboards/reports/text-mode/compare-fields-conditional-formatting.md).
 
 Sie können Sammlungsfelder auch mithilfe des Textmodus in Berichten referenzieren.\
 Informationen zur Verwendung des Textmodus zum Anzeigen von Sammlungsinformationen in einem Bericht finden Sie unter [Referenzieren von Sammlungen in einem Bericht](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).

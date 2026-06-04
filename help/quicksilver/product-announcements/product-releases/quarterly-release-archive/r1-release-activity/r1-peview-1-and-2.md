@@ -7,9 +7,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 65219cf1-809f-4d8e-a858-01f7881064d7
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/SjemPIUQMpaqkse8vDfjJWaVLtNtritW3M1lcIe6OaM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: 1024
 ht-degree: 3%
 
 ---
@@ -38,7 +44,7 @@ Vor dieser Änderung waren Informationen zu Genehmigungsschritten nur auf der Re
 
 Bei Projekten werden die Genehmigungsinformationen in der Kopfzeile neben dem Projekttitel angezeigt. Bei Aufgaben und Problemen werden die Genehmigungsinformationen im rechten Bedienfeld angezeigt.
 
-Weitere Informationen finden Sie unter [Genehmigen von &#x200B;](../../../../review-and-approve-work/manage-approvals/approving-work.md)&quot; in [Genehmigen von &#x200B;](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+Weitere Informationen finden Sie unter [Genehmigen von ](../../../../review-and-approve-work/manage-approvals/approving-work.md)&quot; in [Genehmigen von ](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 
 ## Zu aktualisierende Objekte konfigurieren, für die die Genehmigung aussteht
 
@@ -51,7 +57,7 @@ Wenn für ein Projekt, eine Aufgabe oder ein Problem die Genehmigung aussteht, k
   Informationen zum Konfigurieren von Projekten, damit Benutzer Probleme hinzufügen können, wenn das Projekt noch nicht genehmigt wurde, finden Sie [Konfigurieren von systemweiten Projektvoreinstellungen](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * Bearbeiten von Aufgaben und Problemen innerhalb eines Projekts, das noch nicht genehmigt wurde.\
-  Informationen zum Konfigurieren von Projekten, damit Benutzer Aufgaben und Probleme bearbeiten können, wenn die Genehmigung für das Projekt aussteht, finden [&#x200B; unter Systemweite Projektvoreinstellungen konfigurieren](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Informationen zum Konfigurieren von Projekten, damit Benutzer Aufgaben und Probleme bearbeiten können, wenn die Genehmigung für das Projekt aussteht, finden [ unter Systemweite Projektvoreinstellungen konfigurieren](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 Vor dieser Änderung konnten Projekte, Aufgaben und Probleme, für die die Genehmigung ausstand, nicht bearbeitet werden. Außerdem konnten Probleme nicht zu Projekten hinzugefügt werden, für die die Genehmigung ausstand, und Aufgaben und Probleme konnten nicht in Projekten bearbeitet werden, für die die Genehmigung ausstand.
 
@@ -95,7 +101,7 @@ Für die folgenden Benachrichtigungsbereiche wurde die Option „Täglicher Dige
 * Informationen über mir zugewiesene Arbeiten
 * Kommunikation
 
-Weitere Informationen finden Sie unter [Adobe Workfront-](../../../../workfront-basics/using-notifications/wf-notifications.md).  Denken Sie daran, die mit Ihrem Konto verknüpfte E-Mail-Adresse zu aktualisieren, um diese Funktion testen zu können, da die Vorschau-Sandbox die E-Mail-Adressen für alle Benutzer löscht. 
+Weitere Informationen finden Sie unter [Adobe Workfront-Benachrichtigungen](../../../../workfront-basics/using-notifications/wf-notifications.md). Denken Sie daran, die mit Ihrem Konto verknüpfte E-Mail-Adresse zu aktualisieren, um diese Funktion testen zu können, da die Vorschau-Sandbox die E-Mail-Adressen für alle Benutzer löscht. 
 
 ## Gruppe öffentlich machen
 

@@ -1,20 +1,23 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-3-release-activity
-title: 2019.3 - Home-Verbesserungen
+title: Verbesserungen bei der Startseite in Version 2019.3
 description: Auf dieser Seite werden alle Änderungen beschrieben, die mit der Version 2019.3 vorgenommen wurden. Es wurde in der Woche vom 19. August 2019 in der Produktionsumgebung bereitgestellt.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b4b9328e-6912-4259-9250-2e4609a0aea4
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/5TSd5PEWkGmuQ1EMlLAh7ppikgZb2iSNBH3pwTw2Ivs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 0%
+source-wordcount: 105
+ht-degree: 5%
 
 ---
 
-# 2019.3 - Home-Verbesserungen
+# Verbesserungen bei der Startseite in Version 2019.3
 
 Auf dieser Seite werden alle Änderungen beschrieben, die mit der Version 2019.3 vorgenommen wurden. Es wurde in der Woche vom 19. August 2019 in der Produktionsumgebung bereitgestellt.
 

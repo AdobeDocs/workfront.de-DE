@@ -1,20 +1,24 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Versionsaktivität von Beta 1 2018.2
+title: Veröffentlichungen für Version 2018.2 Beta 1
 description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 1 Version 2018.2 verfügbar waren. Die Funktion wurde am 22. März 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird im Juni 2018 in der Produktionsumgebung bereitgestellt.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: cbe98ee2-f155-4d31-88c4-7f41b6f91eb2
-source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
+TQID: https://experienceleague.adobe.com/H5f7NknmUezFvDKRQJy4eDhvsnZIBjdyeneCqPh5Ico
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1166'
-ht-degree: 0%
+source-wordcount: 1178
+ht-degree: 1%
 
 ---
 
-# Versionsaktivität von Beta 1 2018.2
+# Veröffentlichungen für Version 2018.2 Beta 1
 
 Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 1 Version 2018.2 verfügbar waren. Die Funktion wurde am 22. März 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird im Juni 2018 in der Produktionsumgebung bereitgestellt.
 
@@ -27,7 +31,7 @@ Eine Liste aller in 2018.2 vorgenommenen Änderungen finden Sie unter [Übersich
 Die Beta 1-Version 2018.2 enthält die folgenden Verbesserungen:
 
 * [Ändern von Aufgabendaten im Gantt-Diagramm](#modify-task-dates-in-the-gantt-chart)
-* [Rufen Sie das Projekt-Gantt-Diagramm über die Registerkarte Aktualisierungen &#x200B;](#access-the-project-gantt-chart-from-the-updates-tab)vorübergehend entfernt)
+* [Rufen Sie das Projekt-Gantt-Diagramm über die Registerkarte Aktualisierungen ](#access-the-project-gantt-chart-from-the-updates-tab)vorübergehend entfernt)
 
 * [Verschiedene Links wurden wieder zu Dokumenten in der Dokumentliste hinzugefügt](#various-links-re-introduced-to-documents-on-the-document-list)
 * [Verbesserungen an der Benutzeransicht im Ressourcenplaner](#user-view-improvements-in-the-resource-planner)
@@ -55,7 +59,7 @@ Vor dieser Änderung wurde über den Link Projektzeitleiste das alte Gantt-Diagr
 
 Weitere Informationen finden Sie unter [Übersicht über das Übertragungsdatum](../../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
-Weitere Informationen finden Sie unter Übersicht über den [Portfolio-Optimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+Weitere Informationen finden Sie unter [Übersicht über Portfolio Optimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 ## Verschiedene Links wurden wieder zu Dokumenten in der Dokumentliste eingeführt {#various-links-re-introduced-to-documents-on-the-document-list}
 

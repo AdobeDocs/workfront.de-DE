@@ -6,20 +6,26 @@ description: Sie können die Verfügbarkeit Ihrer Ressourcen und den Umfang der 
 author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+TQID: https://experienceleague.adobe.com/DNuM9v5xgKJAH1NeafW8RcU4eq6ZFcpC1TaaYycGN0E
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1199'
-ht-degree: 5%
+source-wordcount: 1200
+ht-degree: 8%
 
 ---
 
-# Ressourcenverfügbarkeit und -zuordnung mit dem Adobe Workfront-Ressourcenplaner überprüfen
+# Überprüfen der Ressourcenverfügbarkeit und -zuteilung mit dem Ressourcenplaner von Adobe Workfront
 
 Sie können die Verfügbarkeit Ihrer Ressourcen und den Umfang der geplanten oder budgetierten Arbeit für Ihre Projekte im Ressourcenplaner anzeigen. Diese Werte werden in Stunden, FTE (Vollzeitäquivalent) oder Kostenbeträgen angezeigt und in Spalten organisiert.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +57,7 @@ Sie können die Verfügbarkeit Ihrer Ressourcen und den Umfang der geplanten ode
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -132,7 +138,7 @@ Beachten Sie beim Ändern Ihrer Ansicht in den Ressourcenplaner Folgendes:
       <td role="rowheader">Kosten</td> 
       <td> <p>Zeigt Verfügbarkeits- und Zuordnungsinformationen nach Kosten an, wenn Sie den Ressourcenplaner in der Projekt- oder Aufgabenansicht anzeigen. Die Informationen zeigen Werte in der Währung Ihres Systems an. Ihr Workfront-Administrator definiert die Systemwährung. Weitere Informationen zum Einrichten der Systemwährung in Workfront finden Sie unter <a href="../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Einrichten von Wechselkursen</a>.</p> <p><b>NOTIZ</b>
 
-   Sie müssen Benutzer und Aufgabengebiete mit Kosten pro Stunde verknüpfen, um Kosteninformationen im Ressourcenplaner anzeigen zu können.<br style="font-style: italic;">Weitere Informationen zum Verknüpfen der Stundensätze für Kosten pro Stunde mit Aufgabengebieten finden Sie unter <a href="../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Erstellen und Verwalten von Aufgabengebieten</a>.<br style="font-style: italic;">Weitere Informationen zum Verknüpfen von Stundensätzen mit Benutzern finden Sie unter <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Bearbeiten des Benutzerprofils</a>.<br style="font-style: italic;">Weitere Informationen zur Kostenberechnung im Ressourcenplaner finden Sie unter <a href="../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md" class="MCXref xref">Kosten berechnen im Ressourcenplaner </a>.</p> </td>
+   Sie müssen Benutzer und Aufgabengebiete mit Kosten pro Stunde verknüpfen, um Kosteninformationen im Ressourcenplaner anzuzeigen.<br style="font-style: italic;">Weitere Informationen zum Verknüpfen von Kosten pro Stunde mit Aufgabengebieten finden Sie unter <a href="../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Erstellen und Verwalten von Aufgabengebieten</a>.<br style="font-style: italic;">Weitere Informationen zum Verknüpfen von Stundensätzen mit Benutzern finden Sie unter <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Bearbeiten des Benutzerprofils</a>.<br style="font-style: italic;">Weitere Informationen zur Kostenberechnung im Ressourcenplaner finden Sie unter <a href="../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md" class="MCXref xref">Kosten berechnen im Ressourcenplaner </a>.</p> </td>
    </tr> 
      <tr> 
       <td role="rowheader">Anpassen</td> 
@@ -149,7 +155,7 @@ Beachten Sie beim Ändern Ihrer Ansicht in den Ressourcenplaner Folgendes:
 
    * Projekt
    * Rolle
-   * Benutzerin bzw. Benutzer
+   * Benutzerin oder Benutzer
 
 1. Wählen **Abschnitt „Ausgewählte Elemente anzeigen** den Typ der Informationen aus, die in den Spalten der ausgewählten Ansicht angezeigt werden sollen. Die folgende Tabelle zeigt, welche Optionen in den einzelnen Ansichten verfügbar sind:
 
@@ -194,7 +200,7 @@ So zeigen Sie die Benutzerzuordnung in einem Diagramm an:
 
 1. Wechseln Sie zum Ressourcenplaner.
 
-   Weitere Informationen zum Zugriff auf den Ressourcenplaner finden Sie im Abschnitt [Suchen des &#x200B;](../../resource-mgmt/resource-planning/get-started-resource-planner.md#accessing-the-resource-planner)) im Artikel [Ressourcenplaner - Übersicht](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+   Weitere Informationen zum Zugriff auf den Ressourcenplaner finden Sie im Abschnitt [Suchen des ](../../resource-mgmt/resource-planning/get-started-resource-planner.md#accessing-the-resource-planner)) im Artikel [Ressourcenplaner - Übersicht](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 1. Wählen Sie **Nach Benutzer anzeigen** aus.
 

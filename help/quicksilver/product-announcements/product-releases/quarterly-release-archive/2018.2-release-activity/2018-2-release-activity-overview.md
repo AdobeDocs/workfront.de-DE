@@ -7,9 +7,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91e79c87-9c70-4050-9a3f-236eff0be41d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/BpvPAawc1yatEYsfS9YYjjz-6lOzw5-3cgD68D2dQhs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: b18b693b-6d59-4359-95fd-a386b7a615fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: 1158
 ht-degree: 1%
 
 ---
@@ -48,7 +54,7 @@ Die Version 2018.2 enthält Verbesserungen sowohl für Workfront-Administratoren
 
 * [Symbolunterstützung für die neuen Projektlisten](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#icon-support-for-the-new-project-lists)
 * [Spaltenbreiten für Projektlisten ändern](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#resize-column-widths-for-project-lists)
-* [&#x200B; Feld „Große Miniaturansicht“ in Dokumentansichten hinzufügen](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#add-large-thumbnail-field-in-document-views)
+* [ Feld „Große Miniaturansicht“ in Dokumentansichten hinzufügen](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#add-large-thumbnail-field-in-document-views)
 * [Schnellfilter für Projektlisten](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#quick-filters-for-project-lists) 
 * [Excel-Exportbeschränkung erhöhen](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md#increase-excel-export-limit) 
 * [Support für Google Team Drives](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md#support-for-google-team-drives) 
@@ -137,7 +143,7 @@ Die Version 2018.2 enthält Verbesserungen sowohl für Workfront-Administratoren
 * [Verbesserte Suchrelevanz für mehrere Wörter](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md#search-for-phrases) 
 * [Verbesserungen für Mobilgeräte](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md#mobile-improvements)
 * [Verschiedene Links wurden wieder zu Dokumenten in der Dokumentliste hinzugefügt](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-1-release-activity.md#various-links-reintroduced-to-documents-on-the-document-list)
-* [E-Mail-Benachrichtigungen für Kommentare zu Dokumenten &#x200B;](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#receive-email-notifications-for-comments-on-documents)!
+* [E-Mail-Benachrichtigungen für Kommentare zu Dokumenten ](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#receive-email-notifications-for-comments-on-documents)!
 
 * [System-getrackte Updates enthalten kein Symbol mehr](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md#system-tracked-updates-no-longer-contain-an-icon) Neu!
 
@@ -215,11 +221,11 @@ Wenn Sie das neue Workfront für Outlook in einer Ihrer Umgebungen installieren,
 
 Verwenden Sie die folgenden Ressourcen, um mehr über Workfront für Outlook und die ersten Schritte zu erfahren:
 
-* [Website und Video](https://business.adobe.com/de/products/workfront/integrations.html) 
+* [Website und Video](https://business.adobe.com/products/workfront/integrations.html) 
 * [Verwenden von Workfront mit Outlook](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md) (Hilfeartikel)
 
 ### Alte API-Versionen entfernen {#removing-old-api-versions}
 
 Im Rahmen unserer ständigen Bemühungen, unsere API zu verbessern, entfernen wir alte API-Versionen, die nicht mehr mit neueren Versionen von Workfront kompatibel sind.
 
-Weitere Informationen finden [&#x200B; unter „API-Versionierung &#x200B;](../../../../wf-api/api/api-version-support-schedule.md) Support-Zeitplan“. 
+Weitere Informationen finden [ unter „API-Versionierung ](../../../../wf-api/api/api-version-support-schedule.md) Support-Zeitplan“. 

@@ -6,11 +6,17 @@ description: Verwenden Sie den Workload Balancer, um die Verfügbarkeit Ihrer Re
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 900e29200bef2d4f70b17cd810ea0e2b936c8aad
+TQID: https://experienceleague.adobe.com/8bwTS-3UaNbMLtyx8yEmH7zF5vMYaWP1nedWaGP4UJE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '4458'
+source-wordcount: 4433
 ht-degree: 2%
 
 ---
@@ -23,7 +29,7 @@ Verwenden Sie den Workload Balancer in Adobe Workfront, um Benutzenden je nach V
 
 Der Workload Balancer ist in mehreren Bereichen von Adobe Workfront verfügbar. Die Navigation ist in allen Bereichen ähnlich.
 
-Weitere Informationen dazu, wo sich der Workload Balancer befindet, finden Sie unter [Suchen des Workload Balancer](https://experienceleague.adobe.com/de/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
+Weitere Informationen dazu, wo sich der Workload Balancer befindet, finden Sie unter [Suchen des Workload Balancer](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer).
 
 ## Zugriffsanforderungen
 
@@ -105,8 +111,8 @@ Weitere Informationen zum Anzeigen von Informationen im Workload Balancer finden
 
 Informationen zum Verwalten von Ressourcen mit dem Workload Balancer finden Sie auch in den folgenden Artikeln:
 
-* [Überblick über die Zuweisung von Arbeit im Workload Balancer](https://experienceleague.adobe.com/de/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [Verwalten von Benutzerzuordnungen im Workload Balancer](https://experienceleague.adobe.com/de/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [Überblick über die Zuweisung von Arbeit im Workload Balancer](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [Verwalten von Benutzerzuordnungen im Workload Balancer](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 ## Navigieren im Workload Balancer für mehrere Projekte im Bereich Ressourcen
 

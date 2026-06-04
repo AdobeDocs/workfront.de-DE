@@ -7,11 +7,16 @@ description: Sie können im Textmodus beim Erstellen berechneter benutzerdefinie
 author: Courtney
 feature: Reports and Dashboards
 exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/EFPOvBUiZ8UCCwXvIbVI7Q1GTJSxMueFvHSKgqtr0YI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: 731
 ht-degree: 5%
 
 ---
@@ -28,7 +33,7 @@ Sie können „IF“-Anweisungen in Workfront verwenden, um Datenfelder sowohl f
 
 Sie können „IF“-Anweisungen für die folgenden Workfront-Elemente erstellen:
 
-* Ansichten 
+* Ansichten
 * Gruppierungen
 * Berechnete benutzerdefinierte Felder
 * Geschäftsregeln
@@ -75,12 +80,12 @@ Sie können die folgenden Bedingungsmodifikatoren in Workfront verwenden:
   <tr> 
    <td>Kleiner als </td> 
    <td>&lt; </td> 
-   <td>Mit diesem Operator geben Sie an, dass die Bedingung erfüllt ist, wenn  Das erste Feld Ihrer Anweisung ist kleiner als das zweite Feld. <p>Verwenden Sie beispielsweise die folgende Anweisung in einem berechneten benutzerdefinierten Feld, um eine „IF“-Anweisung zu erstellen, die das geplante Abschlussdatum mit dem voraussichtlichen Abschlussdatum einer Aufgabe vergleicht: </p><p><code>IF({projectedCompletionDate}&lt;{plannedCompletionDate},"Early","")</code></p></td> 
+   <td>Verwenden Sie diesen Operator, um anzugeben, dass die Bedingung erfüllt ist, wenn das erste Feld Ihrer Anweisung kleiner als das zweite Feld ist. <p>Verwenden Sie beispielsweise die folgende Anweisung in einem berechneten benutzerdefinierten Feld, um eine „IF“-Anweisung zu erstellen, die das geplante Abschlussdatum mit dem voraussichtlichen Abschlussdatum einer Aufgabe vergleicht: </p><p><code>IF({projectedCompletionDate}&lt;{plannedCompletionDate},"Early","")</code></p></td> 
   </tr> 
   <tr> 
    <td>Kleiner oder gleich </td> 
    <td>&lt;= </td> 
-   <td>Mit diesem Operator geben Sie an, dass die Bedingung erfüllt ist, wenn  Das erste Feld Ihrer Anweisung ist kleiner oder gleich dem zweiten Feld. <p>Verwenden Sie beispielsweise die folgende Anweisung in einem berechneten benutzerdefinierten Feld, um eine „IF“-Anweisung zu erstellen, die das geplante Abschlussdatum mit dem voraussichtlichen Abschlussdatum einer Aufgabe vergleicht: </p><p><code>IF({projectedCompletionDate}&lt;={plannedCompletionDate},"Early","Late")</code></p></td> 
+   <td>Verwenden Sie diesen Operator, um anzugeben, dass die Bedingung erfüllt ist, wenn das erste Feld Ihrer Anweisung kleiner oder gleich dem zweiten Feld ist. <p>Verwenden Sie beispielsweise die folgende Anweisung in einem berechneten benutzerdefinierten Feld, um eine „IF“-Anweisung zu erstellen, die das geplante Abschlussdatum mit dem voraussichtlichen Abschlussdatum einer Aufgabe vergleicht: </p><p><code>IF({projectedCompletionDate}&lt;={plannedCompletionDate},"Early","Late")</code></p></td> 
   </tr> 
   <tr> 
    <td>Ist nicht </td> 
@@ -100,12 +105,12 @@ Sie können die folgenden Bedingungsmodifikatoren in Workfront verwenden:
   <tr> 
    <td>ODER </td> 
    <td>|| </td> 
-   <td> <p>Verwenden Sie diesen Operator, um anzugeben, dass die Bedingung erfüllt ist, wenn der Ausdruck  Sucht entweder den ersten oder den zweiten Wert Ihrer Anweisung. </p> <p>Verwenden Sie beispielsweise die folgende Anweisung in einem berechneten benutzerdefinierten Feld, um eine „IF“-Anweisung zu erstellen, die Projekte im aktuellen Status oder im Planungsstatus als „Aktiv“ markiert: </p><p><code>IF({status}="PLN"||{status}="CUR","Active","Not Active")</code></p> </td> 
+   <td> <p>Verwenden Sie diesen Operator, um anzugeben, dass die Bedingung erfüllt ist, wenn der Ausdruck entweder den ersten oder den zweiten Wert Ihrer Anweisung findet. </p> <p>Verwenden Sie beispielsweise die folgende Anweisung in einem berechneten benutzerdefinierten Feld, um eine „IF“-Anweisung zu erstellen, die Projekte im aktuellen Status oder im Planungsstatus als „Aktiv“ markiert: </p><p><code>IF({status}="PLN"||{status}="CUR","Active","Not Active")</code></p> </td> 
   </tr> 
   <tr> 
-   <td> und </td> 
+   <td> Und </td> 
    <td>&amp;&amp; </td> 
-   <td> <p>Verwenden Sie diesen Operator, um anzugeben, dass die Bedingung erfüllt ist, wenn der Ausdruck  Sucht ein Element, das zwei Bedingungen gleichzeitig erfüllt. </p> <p>Verwenden Sie beispielsweise die folgende Anweisung in einem berechneten benutzerdefinierten Feld, um eine „IF“-Anweisung zu erstellen, die Projekte im aktuellen Status mit der Bedingung „Gefährdet“ findet und als „Mediation erforderlich“ kennzeichnet. </p><p><code>IF({status}="CUR"&&{condition}="AR","Mediation Needed","")</code></p> </td> 
+   <td> <p>Verwenden Sie diesen Operator, um anzugeben, dass die Bedingung erfüllt ist, wenn der Ausdruck ein Element findet, das zwei Bedingungen gleichzeitig erfüllt. </p> <p>Verwenden Sie beispielsweise die folgende Anweisung in einem berechneten benutzerdefinierten Feld, um eine „IF“-Anweisung zu erstellen, die Projekte im aktuellen Status mit der Bedingung „Gefährdet“ findet und als „Mediation erforderlich“ kennzeichnet. </p><p><code>IF({status}="CUR"&&{condition}="AR","Mediation Needed","")</code></p> </td> 
   </tr> 
  </tbody> 
 </table>

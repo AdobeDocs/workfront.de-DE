@@ -1,18 +1,21 @@
 ---
-title: Home-Verbesserungen für das vierte Quartal 2025
-description: Home-Verbesserungen für das vierte Quartal 2025
+title: Verbesserungen bei der Startseite im vierten Quartal 2025
+description: Verbesserungen bei der Startseite im vierten Quartal 2025
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2d8c5d2b-a026-4741-b907-aac4c0eac98f
-source-git-commit: f9e1bfc5670754a8fc4aafb360b41c2721de4154
+TQID: https://experienceleague.adobe.com/QSEPhlo-bN-Iotp75LDjt0OgGatHHlj8-ryVyQ6UaK4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 0%
+source-wordcount: 225
+ht-degree: 12%
 
 ---
 
-# Home-Verbesserungen für das vierte Quartal 2025
+# Verbesserungen bei der Startseite im vierten Quartal 2025
 
 Auf dieser Seite werden die Verbesserungen auf der Startseite beschrieben, die mit der Version vom vierten Quartal 2025 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 

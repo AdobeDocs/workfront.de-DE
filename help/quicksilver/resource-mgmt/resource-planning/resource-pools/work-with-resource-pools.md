@@ -6,14 +6,19 @@ description: Als Ressourcen-Manager können Sie Ihre Ressourcen verwalten, indem
 author: Lisa
 feature: Resource Management
 exl-id: f3fc65c8-e436-44a4-9e9d-5b4b138a9f21
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+TQID: https://experienceleague.adobe.com/ZQdzgCsLVITuWGbOaXfjbnk90MUGr3KFJ7xXJdrAK30
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 0%
+source-wordcount: 484
+ht-degree: 5%
 
 ---
 
-# Ressourcenpools - Übersicht
+# Überblick über Ressourcen-Pools
 
 <!--Audited: 10/2024-->
 
@@ -28,11 +33,11 @@ Informationen zum Erstellen und Verwalten von Ressourcenpools finden Sie in den 
 * [Ressourcenpools erstellen](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
 * [Ressourcenpools mit Projekten und Vorlagen verknüpfen](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)
 * [Ressourcenpools mit Benutzern verknüpfen](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
-* [Benutzer aus Ressourcenpools entfernen](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
+* [Entfernen von Benutzenden aus Ressourcen-Pools](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
 
 ## Übersicht über Ressourcenpools
 
-* Ein Ressourcenpool ist eine Sammlung von Benutzern, die gleichzeitig zum Abschließen eines Projekts benötigt werden.
+* Ein Ressourcenpool-Pool ist eine Sammlung von Benutzenden, die gleichzeitig für die Fertigstellung eines Projekts benötigt werden.
 * Ein Ressourcenpool kann für mehrere Projekte, Programme oder Portfolios freigegeben werden, wenn er mit allen Projekten in den Programmen und Portfolios verknüpft ist.
 * Sie können entweder einen Ressourcenpool erstellen und ihn bei seiner Erstellung mit vorhandenen Benutzern füllen, oder Sie können den Ressourcenpool erstellen und ihn mit einem vorhandenen Benutzer oder mit einem neuen Benutzer verknüpfen, während Sie den Benutzer erstellen oder bearbeiten.
 * Nachdem Sie Ihre Ressourcenpools mit Benutzern gefüllt haben, können Sie sie mit Projekten und Vorlagen verknüpfen und Ihre Benutzerzuordnung zu den Projekten effizienter verwalten.

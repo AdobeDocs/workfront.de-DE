@@ -1,20 +1,25 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Versionsaktivität von Beta 3 2017.3
+title: Veröffentlichungen für Version 2017.1 Beta 3
 description: Die Version 2017.3 wird Anfang November 2017 in der Produktionsumgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: dc0cada8-4b9e-40cb-89a5-16f15268b513
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/12nUGoSnwlcVACSTf-b-Fks7QRuCCl9HBujkDNG5ubU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 6%
+source-wordcount: 572
+ht-degree: 7%
 
 ---
 
-# Versionsaktivität von Beta 3 2017.3
+# Veröffentlichungen für Version 2017.1 Beta 3
 
 Die Version 2017.3 wird Anfang November 2017 in der Produktionsumgebung verfügbar gemacht.
 
@@ -22,7 +27,7 @@ Die Version 2017.3 wird Anfang November 2017 in der Produktionsumgebung verfügb
 >
 > Die auf dieser Seite beschriebene Funktion kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller Änderungen in Version 2017.3 finden Sie unter  [Übersicht über die Versionsaktivität 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
+Eine Liste aller in 2017.3 vorgenommenen Änderungen finden Sie unter [Übersicht über die Versionsaktivität 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
 
 Die Beta-Version 3 2017.3 enthält Verbesserungen für alle Benutzenden:
 
@@ -62,7 +67,7 @@ Mit der neuen Funktion wurden die vorherigen Optionen entfernt und die folgenden
 * Berechtigungen leeren
 * Alle auswählen
 
-Weitere Informationen zu den neuen Funktionen zum Kopieren von Projekten finden Sie im Abschnitt „Kopieren eines Projekts in die Vorschau-Umgebung“ in   [Kopieren eines Projekts](../../../../manage-work/projects/manage-projects/copy-project.md).
+Weitere Informationen zu den neuen Funktionen zum Kopieren von Projekten finden Sie im Abschnitt „Kopieren eines Projekts in die Vorschau-Umgebung“ in [Projekt kopieren](../../../../manage-work/projects/manage-projects/copy-project.md).
 
 ## Ressourcenplaner-Verbesserung: Filter {#resource-planner-improvement-filters}
 

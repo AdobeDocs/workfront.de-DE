@@ -6,9 +6,15 @@ description: Mithilfe von Filtern können Sie festlegen, welche Informationen im
 author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+TQID: https://experienceleague.adobe.com/VA0bJYfRCQrZECzbiBOMjDD9Rpzf4ePG4EwQlowlhyI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2381'
+source-wordcount: 2369
 ht-degree: 2%
 
 ---
@@ -278,7 +284,7 @@ So entfernen Sie einen Filter:
 
    ![Filter löschen](assets/rp-filter-options---delete-350x154.png)
 
-1. Klicken **&#x200B;**&#x200B;im Dialogfeld **Filter löschen** auf Löschen.
+1. Klicken **** im Dialogfeld **Filter löschen** auf Löschen.
 
 1. Der Filter wird gelöscht und aus dem Ressourcenplaner entfernt.
 
@@ -292,7 +298,7 @@ Sie können einen Filter, den Sie erstellt haben oder auf den Sie Zugriff haben,
 
 Informationen zum Standardfilter finden Sie im Abschnitt [Übersicht über den Standardfilter im Ressourcenplaner](#overview-of-the-default-filter-in-the-resource-planner) in diesem Artikel.
 
-Informationen zum Duplizieren von Filtern finden Sie [&#x200B; Abschnitt „Duplizieren &#x200B;](#duplicate-a-filter) Filters“ in diesem Artikel.
+Informationen zum Duplizieren von Filtern finden Sie [ Abschnitt „Duplizieren ](#duplicate-a-filter) Filters“ in diesem Artikel.
 
 1. Wechseln Sie zum Ressourcenplaner.
 1. Erweitern Sie das **Filter**-Dropdown-Menü.

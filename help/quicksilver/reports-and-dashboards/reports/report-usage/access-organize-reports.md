@@ -6,11 +6,16 @@ description: Sie können Berichte in Adobe Workfront verwenden, um Informationen
 author: Courtney
 feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/hvZKawl62R2rFe-C8gligDHZH-rKLDzEt1SYyhE7xIM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: 469
 ht-degree: 11%
 
 ---
@@ -80,7 +85,7 @@ Sie können Ordner verwenden, um die von Ihnen erstellten Berichte zu organisier
 
 1. Geben Sie einen Namen für den neuen Ordner ein und drücken Sie dann die Eingabetaste.
 1. Fügen Sie im Ordner **Meine**&quot; Berichte zum Ordner „NEU“ hinzu.\
-   Informationen zum Hinzufügen eines Berichts zu einem neuen Ordner finden Sie [&#x200B; Abschnitt „Hinzufügen von Berichten zu &#x200B;](#add-reports-to-a-folder)&quot; in diesem Artikel.
+   Informationen zum Hinzufügen eines Berichts zu einem neuen Ordner finden Sie [ Abschnitt „Hinzufügen von Berichten zu ](#add-reports-to-a-folder)&quot; in diesem Artikel.
 
    >[!NOTE]
    >
@@ -94,7 +99,7 @@ Sie können Ordner verwenden, um die von Ihnen erstellten Berichte zu organisier
    ODER\
    Klicken Sie auf einen beliebigen unter dem Ordner **Meine Berichte** verschachtelten Ordner.
 
-1. Wählen Sie den Bericht aus und klicken Sie dann oben in ![&#x200B; Liste &#x200B;](assets/folder-icon.png) Ordnersymbol (Ordnersymbol).
+1. Wählen Sie den Bericht aus und klicken Sie dann oben in ![ Liste ](assets/folder-icon.png) Ordnersymbol (Ordnersymbol).
 
 1. Wählen Sie den Ordner aus, dem Sie den Bericht hinzufügen möchten.
 

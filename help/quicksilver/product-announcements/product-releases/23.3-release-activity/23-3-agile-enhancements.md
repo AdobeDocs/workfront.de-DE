@@ -5,9 +5,12 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a47d2592-0f00-4bcd-bc8e-75f8e707a573
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/MuQQDV7Uvjj7qcG3nwa4Ec7lhAig2o4FiuifiR4Fz9I
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1323'
+source-wordcount: 1323
 ht-degree: 1%
 
 ---
@@ -52,7 +55,7 @@ Sie können jetzt alle Ihre Pinnwände und Arbeitsabläufe im Dunkelmodus anzeig
 
 >[!NOTE]
 >
->Wenn die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert wurde, können Sie die Formatierung dunkler Designs für alle Adobe Experience Cloud über Ihr Voreinstellungsmenü (Ihr Profilbild) aktivieren. Für Workfront-Boards wird keine separate Option für den dunklen Modus angezeigt.
+>Wenn die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert wurde, können Sie die Formatierung dunkler Designs für alle Komponenten von Adobe Experience Cloud über Ihr Voreinstellungsmenü (Ihr Profilbild) aktivieren. Für Workfront-Boards wird keine separate Option für den dunklen Modus angezeigt.
 
 Weitere Informationen finden Sie unter [Pinnwände - E-Mail-Benachrichtigungen und -Voreinstellungen](/help/quicksilver/agile/get-started-with-boards/boards-emails.md).
 

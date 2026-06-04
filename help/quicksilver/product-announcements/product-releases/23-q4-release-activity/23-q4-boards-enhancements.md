@@ -5,9 +5,12 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4a527328-df5d-446a-899c-a613131c7001
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/mv5U1jTFgfL7MpI6sOL6SLT5psOP2hQ-mIFnUb-dC4E
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: 530
 ht-degree: 0%
 
 ---
@@ -30,7 +33,7 @@ Derzeit sind Teilaufgaben auf der Pinnwand nicht als separate Karten sichtbar, u
 
 Weitere Informationen finden Sie unter [Teilaufgaben auf Pinnwänden verwalten](/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3424860/){target=_blank}
+[Sehen Sie sich eine Videodemonstration dieser Funktion an.](https://video.tv.adobe.com/v/3424860/){target=_blank}
 
 ## Dokumente zu verbundenen Karten hinzufügen
 
@@ -40,7 +43,7 @@ Derzeit können Sie Dokumente nicht aus der Karte löschen, ein Dokument können
 
 Weitere Informationen finden Sie unter [Dokumente auf Karten hinzufügen](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3423070/){target=_blank}
+[Sehen Sie sich eine Videodemonstration dieser Funktion an.](https://video.tv.adobe.com/v/3423070/){target=_blank}
 
 ## Verbesserungen bei Benutzerzuweisungen auf Pinnwänden und Karten
 
@@ -52,11 +55,11 @@ Beim Hinzufügen von Benutzenden zu Pinnwänden und Karten in Adobe Workfront-Pi
 
 Weitere Informationen finden Sie unter [Mitglieder zu einer Pinnwand hinzufügen oder daraus entfernen](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
-[Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3423222/){target=_blank}
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an](https://video.tv.adobe.com/v/3423222/){target=_blank}
 
 ## Dokumente, die auf verbundenen Karten nur zur Ansicht verfügbar sind
 
-Für verbundene Karten auf Adobe Workfront-Boards können Sie jetzt Dokumente wie Bilder und PDF anzeigen. Sie können ein Dokument entweder in der Vorschau im Browser anzeigen oder auf Ihren Computer herunterladen.
+Für verbundene Karten auf Adobe Workfront-Boards können Sie jetzt Dokumente wie Bilder und PDFs anzeigen. Sie können ein Dokument entweder in der Vorschau im Browser anzeigen oder auf Ihren Computer herunterladen.
 
 Zu diesem Zeitpunkt muss ein Dokument in die Workfront-Aufgabe hochgeladen werden, damit es auf der verbundenen Karte verfügbar ist.
 

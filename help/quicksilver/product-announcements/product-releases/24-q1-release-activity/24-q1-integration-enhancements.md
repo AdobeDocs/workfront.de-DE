@@ -5,9 +5,14 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0d581f3c-2aaf-4ac1-97a5-df1b01627080
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/ZPt9H-R2eSNNha-gjfwkgnUOQqvU5tzAQPE5fMA-9uA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: 385
 ht-degree: 0%
 
 ---
@@ -22,7 +27,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2024 ver
 
 Wir haben die Experience Manager Assets Essentials-Integration aktualisiert, damit sie dem Erlebnis der Experience Manager Assets as a Cloud Service-Integration entspricht. Wenn Sie nun in Experience Manager Assets mehrere einzeilige Textfelder einem einzigen Feld zuordnen, verwenden beide Services das `xcm:keywords`.
 
-Zuvor wurden diese Felder dem `dc:subject` Feld in Experience Manager Assets Essentials zugeordnet. Die Experience Manager Assets as a Cloud Service-Funktionalität bleibt unverändert.
+Zuvor wurden diese Felder dem `dc:subject` Feld in Experience Manager Assets Essentials zugeordnet. Die Funktionalität von Experience Manager Assets as a Cloud Service bleibt unverändert.
 
 Alle Experience Manager Assets Essentials-Metadaten, die derzeit `dc:subject` zugeordnet sind, müssen `xcm:keywords` zugeordnet werden.
 
@@ -40,6 +45,6 @@ Informationen und Anweisungen zur Metadatenzuordnung in der Adobe Experience Man
 
 Wir haben der Adobe Experience Manager-Integration einen weiteren Workflow hinzugefügt. Jetzt können Sie Ihre Assets so einstellen, dass sie automatisch veröffentlicht werden, wenn sie an Adobe Experience Manager gesendet werden. Die Integration kann so konfiguriert werden, dass sie im Adobe Experience Manager-Veröffentlichungs-Service oder in Adobe Experience Manager Brand Portal veröffentlicht wird.
 
-Der automatische Publish-Workflow kann in der Adobe Experience Manager-Integration aktiviert und konfiguriert werden. Nach der Aktivierung kann der Workflow auf Projektvorlagen- oder Projektebene bearbeitet werden.
+Der Workflow für die automatische Veröffentlichung kann in der Adobe Experience Manager-Integration aktiviert und konfiguriert werden. Nach der Aktivierung kann der Workflow auf Projektvorlagen- oder Projektebene bearbeitet werden.
 
-Weitere Informationen finden Sie unter [Veröffentlichen von &#x200B;](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#publishing-assets)&quot; in [Verwenden von Workflows in der Experience Manager Assets-Integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
+Weitere Informationen finden Sie unter [Veröffentlichen von ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#publishing-assets)&quot; in [Verwenden von Workflows in der Experience Manager Assets-Integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
