@@ -7,8 +7,10 @@ recommendations: noDisplay, noCatalog
 hide: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
 TQID: https://experienceleague.adobe.com/DaxBkn2BAzxTm1LyIfts1KfghH2QmuOJGZj-XAl1VHA
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 873
@@ -116,6 +118,6 @@ Um klarer zu machen, wie der KI-Assistent Antworten auf Fragen zu Workfront-Proj
 
 Zuvor waren diese Informationen in der Antwort des KI-Assistenten nicht verfügbar.
 
-Informationen zur Verwendung des KI-Assistenten, um Informationen zu Workfront-Elementen zu erhalten, finden [ unter „Verwenden des KI-Assistenten zur Arbeit mit Projekten, Aufgaben und Problemen](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md).
+Informationen zur Verwendung des KI-Assistenten, um Informationen zu Workfront-Elementen zu erhalten, finden [&#x200B; unter „Verwenden des KI-Assistenten zur Arbeit mit Projekten, Aufgaben und Problemen](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md).
 
 

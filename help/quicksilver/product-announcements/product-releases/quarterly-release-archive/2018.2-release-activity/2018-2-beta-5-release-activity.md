@@ -8,11 +8,18 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
 TQID: https://experienceleague.adobe.com/0JlkGC-ZucJr8R-AIrVZULqKmRWNL1ZnTohl50PWMLs
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 3190
@@ -45,7 +52,7 @@ Die Beta-Version 5 von 2018.2 enthält die Verbesserungen für Workfront-Adminis
 * [Verbesserungen der Projekt- und Rollenansicht im Ressourcenplaner](#project-and-role-view-improvements-in-the-resource-planner)
 * [Spaltenbreiten für Projektlisten ändern](#resize-column-widths-for-project-lists)
 * [Symbolunterstützung für die neuen Projektlisten](#icon-support-for-the-new-project-lists)
-* [ Feld „Große Miniaturansicht“ in Dokumentansichten hinzufügen](#add-large-thumbnail-field-in-document-views)
+* [&#x200B; Feld „Große Miniaturansicht“ in Dokumentansichten hinzufügen](#add-large-thumbnail-field-in-document-views)
 * [Excel-Exportbeschränkung erhöhen](#increase-excel-export-limit)
 * [Schnellfilter für Projektlisten](#quick-filters-for-project-lists)
 * [Referenzieren von Problemsammlungen in Projekt- und Aufgabenberichten](#reference-issue-collections-in-project-and-task-reports)
@@ -226,7 +233,7 @@ Informationen zur Verwendung des Textmodus finden Sie [Übersicht über häufig 
 
 >[!NOTE]
 >
->Im folgenden Video war der Beispiel-Textmodus für Problemsammlungen falsch. Der richtige Beispieltextmodus ist in &quot;[ in einem Bericht“ ](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
+>Im folgenden Video war der Beispiel-Textmodus für Problemsammlungen falsch. Der richtige Beispieltextmodus ist in &quot;[&#x200B; in einem Bericht“ &#x200B;](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
 
 ## Neues, robusteres Versionsmenü beim Hinzufügen neuer Dokumentversionen in Workfront {#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront}
 
@@ -247,7 +254,7 @@ Die folgenden Optionen sind jetzt im Menü Neue Version für alle Bereiche verf�
 * Verknüpfte Optionen (von Dropbox, von Google Drive usw.)
 * Aus Zwischenablage einfügen (dies ist eine neue Option beim Hinzufügen von Versionen)
 
-Weitere Informationen finden Sie unter [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem ](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)) im Artikel [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+Weitere Informationen finden Sie unter [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem &#x200B;](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)) im Artikel [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
 ## Verbesserungen bei Mobilgeräten in der Android Beta Mobile App {#mobile-improvements-in-the-android-beta-mobile-app}
 
@@ -339,7 +346,7 @@ Weitere Informationen finden Sie unter [Konfigurieren der Einstellungen für Pro
 
 Beim Überprüfen eines Korrekturabzugs im Web Proofing Viewer oder Desktop Proofing Viewer können Sie nun den Avatar jedes Benutzers anzeigen, der den Korrekturabzug derzeit betrachtet, der in der oberen rechten Ecke der Proofing Viewer angezeigt wird.
 
-Weitere Informationen finden Sie unter [Testversand gleichzeitig mit mehreren Validierungsverantwortlichen ](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proof-with-multiple-reviewers.md).
+Weitere Informationen finden Sie unter [Testversand gleichzeitig mit mehreren Validierungsverantwortlichen &#x200B;](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proof-with-multiple-reviewers.md).
 
 ### Filterkommentare, um im Desktop Proofing Viewer eine einzelne Seite für interaktive URL-Korrekturabzüge anzuzeigen {#filter-comments-to-display-a-single-page-for-interactive-url-proofs-in-the-desktop-proofing-viewer}
 

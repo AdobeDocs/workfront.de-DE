@@ -7,11 +7,17 @@ author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
 TQID: https://experienceleague.adobe.com/k8gK4CEKv7EatW5tFiS0ebNDQXfryINmjGi-hZVP2d4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1416
@@ -99,7 +105,7 @@ Um verfügbare Kostenwerte im Ressourcenplaner anzuzeigen, benötigen Sie Folgen
 * Informationen zur Benutzerverfügbarkeit.
 
   Das Erhalten von Informationen zur Benutzerverfügbarkeit hängt davon ab, wie der Workfront-Administrator die Voreinstellungen für die Ressourcenverwaltung konfiguriert.\
-  Weitere Informationen zum Berechnen der Benutzerverfügbarkeit und Festlegen der Voreinstellungen für die Ressourcenverwaltung finden Sie [Konfigurieren der Voreinstellungen für die ](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)&quot;.
+  Weitere Informationen zum Berechnen der Benutzerverfügbarkeit und Festlegen der Voreinstellungen für die Ressourcenverwaltung finden Sie [Konfigurieren der Voreinstellungen für die &#x200B;](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)&quot;.
 
 Die folgende Tabelle zeigt, wie die verfügbaren Kosten im Ressourcenplaner berechnet werden:
 

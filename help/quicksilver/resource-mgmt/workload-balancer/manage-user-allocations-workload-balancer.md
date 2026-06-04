@@ -9,11 +9,17 @@ exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 TQID: https://experienceleague.adobe.com/XyWVRXfAEOZppXJVTWL4jFX9UoB2s1uzXEebHrlY0xw
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2839
@@ -252,7 +258,7 @@ Im Rahmen der Zuweisung von Arbeit zu Benutzenden können Sie Benutzerzuweisunge
 
      ![Sperrsymbol](assets/lock-icon-on-simple-task-in-the-balancer.png)
 
-   Weitere Informationen zu den Bedingungen, die erfüllt sein müssen, um die geplanten Stunden im Workload Balancer zu aktualisieren, finden Sie im Abschnitt [Aktualisieren der geplanten Stunden bei der Verwaltung ](#update-task-planned-hours-when-managing-user-allocations) Benutzerzuweisungen) in diesem Artikel. Informationen zu den Aufgabendauer-Typen finden Sie [Übersicht über die Aufgabendauer und den ](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)).
+   Weitere Informationen zu den Bedingungen, die erfüllt sein müssen, um die geplanten Stunden im Workload Balancer zu aktualisieren, finden Sie im Abschnitt [Aktualisieren der geplanten Stunden bei der Verwaltung &#x200B;](#update-task-planned-hours-when-managing-user-allocations) Benutzerzuweisungen) in diesem Artikel. Informationen zu den Aufgabendauer-Typen finden Sie [Übersicht über die Aufgabendauer und den &#x200B;](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)).
 
 1. (Bedingt) Wenn die Aufgabe mehr als einem Benutzer zugewiesen ist, wiederholen Sie diese Schritte für jeden Benutzer, der der Aufgabe zugewiesen ist, um die Zuordnungen für jeden Benutzer zu aktualisieren.
 
@@ -282,7 +288,7 @@ Dies ist möglich, wenn die folgenden Bedingungen vorliegen:
    * Verwalten Sie die Berechtigungen für die Aufgaben.
    * Aktualisieren Sie die geplanten Stunden im Zugriff auf den Workload Balancer im Bereich „Ressourcenverwaltung“ Ihrer Zugriffsebene.
 
-  Weitere Informationen zum Zugriff, der für die Verwendung des Workload Balancer erforderlich ist, finden Sie [ Abschnitt &quot;](#access-requirements)&quot; in diesem Artikel.
+  Weitere Informationen zum Zugriff, der für die Verwendung des Workload Balancer erforderlich ist, finden Sie [&#x200B; Abschnitt &quot;](#access-requirements)&quot; in diesem Artikel.
 
 * Die Aufgabe hat den Dauertyp „Einfach“.
 

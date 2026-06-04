@@ -6,10 +6,14 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
 TQID: https://experienceleague.adobe.com/qzKIWQuPNT6M8enUpycz27L9y23wosi5C3g2CjMDJkg
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 874
@@ -47,7 +51,7 @@ Um die Bestimmung des Objekts, das in einem Umgebungs-Promotion-Paket enthalten 
 
 Wenn ein(e) Benutzende(r) zuvor Objekte zwischen Umgebungen vergleichen wollte, müssen diese Objekte manuell überprüft werden.
 
-Weitere Informationen finden Sie unter [Objekte zwischen Umgebungen ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md).
+Weitere Informationen finden Sie unter [Objekte zwischen Umgebungen &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md).
 
 ## Mehr Objekte für die Umgebungsförderung verfügbar
 
@@ -63,7 +67,7 @@ Um die Funktionen der Umgebung-Promotion zu erweitern, haben wir weitere Objekte
 
 Zuvor waren diese Objekte nicht für die Umgebungs-Promotion verfügbar.
 
-Weitere Informationen zu Objekten, die für die Umgebungs-Promotion verfügbar sind, finden Sie unter [Unterstützte Objekte für die ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)-Promotion“ im Artikel Übersicht über die Umgebungs-Promotion.
+Weitere Informationen zu Objekten, die für die Umgebungs-Promotion verfügbar sind, finden Sie unter [Unterstützte Objekte für die &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)-Promotion“ im Artikel Übersicht über die Umgebungs-Promotion.
 
 ## Verschieben von Aufgaben bei protokollierten Stunden verhindern
 

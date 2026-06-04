@@ -7,8 +7,10 @@ feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: 882b657a-1bde-4efd-93e8-1de80c065b2d
 TQID: https://experienceleague.adobe.com/WSTkOBXeb30iXwB9jNeaSeAo-6twy3cHfRlTnGf0GXo
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 270
@@ -28,7 +30,7 @@ Die öffentliche Benutzeroberfläche ist mit SOAP 1.1 kompatibel und unterstütz
 
 ## API-Versionierung
 
-Um die Kompatibilität mit den vorhandenen Client-Integrationen zu wahren, haben wir die API-Versionierung ab unserer Version 12.1 eingeführt. Weitere Informationen finden Sie auf [ Seite ](https://api.proofhq.com/new-updates.html)API-Updates“. Wenn eine Methode oder ein Parameter keine Versionsinformationen enthält, bedeutet dies, dass Sie dies als Teil unserer Standard-API finden, siehe den Abschnitt „Erste Schritte mit der API“ unten.
+Um die Kompatibilität mit den vorhandenen Client-Integrationen zu wahren, haben wir die API-Versionierung ab unserer Version 12.1 eingeführt. Weitere Informationen finden Sie auf [&#x200B; Seite &#x200B;](https://api.proofhq.com/new-updates.html)API-Updates“. Wenn eine Methode oder ein Parameter keine Versionsinformationen enthält, bedeutet dies, dass Sie dies als Teil unserer Standard-API finden, siehe den Abschnitt „Erste Schritte mit der API“ unten.
 
 ## Erste Schritte mit der API
 

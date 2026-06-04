@@ -9,10 +9,15 @@ exl-id: fd659f56-d67f-4a0f-8735-b214934903ac
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/K9eFg04PjbqHlseDjHQQJXw9uAjNLSGDBu870P-ZCVk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 513
@@ -87,7 +92,7 @@ Weitere Informationen finden Sie unter [Erstellen eines Arbeitsflächen-Dashboar
 
 1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
 
-1. Klicken Sie auf **Seite** Arbeitsflächen-Dashboards“ auf das Symbol **Mehr**![ Mehr](assets/more-icon.png) in der oberen rechten Ecke des Berichts, den Sie bearbeiten möchten, und wählen Sie dann **Bearbeiten** aus.
+1. Klicken Sie auf **Seite** Arbeitsflächen-Dashboards“ auf das Symbol **Mehr**![&#x200B; Mehr](assets/more-icon.png) in der oberen rechten Ecke des Berichts, den Sie bearbeiten möchten, und wählen Sie dann **Bearbeiten** aus.
 
    ![Bearbeiten eines Berichts](assets/edit-report-box.png)
 
@@ -138,6 +143,6 @@ Weitere Informationen finden Sie unter [Hinzufügen eines vorhandenen Berichts z
 
 1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
 
-1. Klicken Sie auf **Seite** Arbeitsflächen-Dashboards“ auf das Symbol **Mehr**![ Mehr](assets/more-icon.png) in der oberen rechten Ecke des Berichts, den Sie bearbeiten möchten, und wählen Sie dann **Bearbeiten** aus.
+1. Klicken Sie auf **Seite** Arbeitsflächen-Dashboards“ auf das Symbol **Mehr**![&#x200B; Mehr](assets/more-icon.png) in der oberen rechten Ecke des Berichts, den Sie bearbeiten möchten, und wählen Sie dann **Bearbeiten** aus.
 
 1. Klicken Sie im **Berichtsauswahl** auf **Hinzufügen** für den Bericht, mit dem Sie die Daten des vorhandenen Berichts-Widgets ersetzen möchten.

@@ -7,11 +7,18 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
 TQID: https://experienceleague.adobe.com/xL8MU-Yhd3nI9S-HcTWzCy4akZFe1PZruOlVnyZarTk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 415
@@ -31,9 +38,9 @@ Jetzt können Sie Assets anhand von Daten aus Workfront kategorisieren und schne
 
 Zuvor war das Zuordnen von Workfront-Daten zu Experience Manager Assets-Tags nicht verfügbar.
 
-Weitere Informationen zu dieser Funktion in Experience Manager Assets as a Cloud Service finden Sie unter [Konfigurieren der Integration von [!UICONTROL Experience Manager Assets ]](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+Weitere Informationen zu dieser Funktion in Experience Manager Assets as a Cloud Service finden Sie unter [Konfigurieren der Integration von [!UICONTROL Experience Manager Assets &#x200B;]](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 
-Weitere Informationen zu dieser Funktion in Experience Manager Assets Essentials finden Sie unter [ der Experience Manager Assets Essentials-Integration ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+Weitere Informationen zu dieser Funktion in Experience Manager Assets Essentials finden Sie unter [&#x200B; der Experience Manager Assets Essentials-Integration &#x200B;](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Erstellen benutzerdefinierter Formulare mit dem neuen Formular-Designer - Beta
 

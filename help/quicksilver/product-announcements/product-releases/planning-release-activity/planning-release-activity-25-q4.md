@@ -10,9 +10,12 @@ exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/YevcG4U3icxvqEeztbgudX-vvS4nF-5xTnn9jUkGVJ0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2530
@@ -211,7 +214,7 @@ Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/qui
 
 >[!NOTE]
 >
->Vorschau: 11. September 2025>Produktion für alle Kunden: 11. September 2025 >[!BADGE  Zeitplan]{type=Neutral}
+>Vorschau: 11. September 2025>Produktion für alle Kunden: 11. September 2025 >[!BADGE &#x200B; Zeitplan]{type=Neutral}
 
 Wenn Ihr Unternehmen sowohl Adobe Workfront Planning als auch Adobe GenStudio for Performance Marketing verwendet, sollten Sie Marketing-Konzepte wie Kampagnen, Produkte und Personas detaillierter definieren, als dies standardmäßig von GenStudio unterstützt wird.
 
@@ -389,7 +392,7 @@ Weitere Informationen finden Sie unter [Übersicht über berechnete Datenausdrü
 
 >[!NOTE]
 >
->Vorschau: 31. Juli 2025>Produktion für alle Kunden: 31. Juli 2025 >[!BADGE  Zeitplan]{type=Neutral}
+>Vorschau: 31. Juli 2025>Produktion für alle Kunden: 31. Juli 2025 >[!BADGE &#x200B; Zeitplan]{type=Neutral}
 
 Es wurde eine Schaltfläche Maximieren hinzugefügt, um das Feld Formel beim Erstellen oder Bearbeiten des Felds in einer Datensatztabellen-Ansicht zu vergrößern. Darüber hinaus wurde im neuen vergrößerten Fenster eine Schaltfläche Minimieren hinzugefügt, um zum Feld Felderstellung zurückzukehren.
 

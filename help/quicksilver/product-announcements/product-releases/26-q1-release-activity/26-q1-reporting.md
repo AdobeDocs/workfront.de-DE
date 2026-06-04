@@ -6,9 +6,12 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 326ca4c6-f5d6-4060-9e2b-712d8bcd2ff1
 TQID: https://experienceleague.adobe.com/HR7S7Kj-JqPsJIx7fx9MCXomVrLJMGujYF3icuY4t-M
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 878
@@ -116,7 +119,7 @@ Weitere Informationen finden Sie unter [Erstellen eines Diagrammberichts in eine
 
 >[!NOTE]
 >
->Vorschau-Version: 23. Oktober 2025>Produktion für alle Kunden: 23. Oktober 2025 >[!BADGE  Zeitplan]{type=Neutral}
+>Vorschau-Version: 23. Oktober 2025>Produktion für alle Kunden: 23. Oktober 2025 >[!BADGE &#x200B; Zeitplan]{type=Neutral}
 
 Sie können jetzt einen KPI-, Tabellen- oder Diagrammbericht in einem Arbeitsflächen-Dashboard duplizieren, nachdem er erstellt wurde. Nach dem Duplizieren können Sie den Bericht nach Bedarf bearbeiten, bevor Sie ihn speichern.
 

@@ -8,11 +8,19 @@ author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
 TQID: https://experienceleague.adobe.com/xi553ymGC9ZqiMp5wueog3-wIqu072uVXeuXpsQbvIo
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 3089
@@ -51,7 +59,7 @@ Beachten Sie bei der Budgetierung von Ressourcen mit dem Ressourcenplaner Folgen
   >[!NOTE]
   >
   >Es wird empfohlen, zuerst die Stunden, VZÄ oder Kosten für Aufgabengebiete oder für Benutzer manuell zu budgetieren. Sie können die automatischen Optionen verwenden, um die Zeit für Ihre Projekte und Ressourcen nur dann zu budgetieren, wenn Sie sicher sind, dass der Betrag der geplanten Stunden, VZÄ oder Kosten immer mit Ihren budgetierten Stunden, VZÄ oder Kosten übereinstimmen sollte.\
-  >Informationen zur Verwendung der automatischen Optionen für die Budgetierung im Ressourcenplaner finden Sie im Abschnitt „Projekt und Aufgabengebiete automatisch budgetieren“ im Artikel [Ressourcenverfügbarkeit und -zuordnung mit dem Adobe Workfront-Ressourcenplaner ](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
+  >Informationen zur Verwendung der automatischen Optionen für die Budgetierung im Ressourcenplaner finden Sie im Abschnitt „Projekt und Aufgabengebiete automatisch budgetieren“ im Artikel [Ressourcenverfügbarkeit und -zuordnung mit dem Adobe Workfront-Ressourcenplaner &#x200B;](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
 
 * Die Budgetierung von FTE oder Kosten ist identisch mit der Budgetierung von Stunden, bei der Adobe Workfront die FTE- und Kostenwerte anstelle von Stunden für die Ressourcen verwendet, die Sie budgetieren.
 
@@ -229,7 +237,7 @@ Beachten Sie beim Arbeiten mit budgetierten Stunden Folgendes:
 
 * Standardmäßig sind die budgetierten Stunden im Ressourcenplaner für alle Ressourcen und Projekte gleich null.
 * Sie können die budgetierten Stunden für Benutzer und Funktionen manuell schätzen oder einen der Links in den Menüs Projekt oder Aufgabengebiet **Mehr** verwenden, um sie entsprechend der Anzahl der geplanten Stunden zu aktualisieren.\
-  Weitere Informationen zu Projekt- und Rollenoptionen finden Sie im Abschnitt [Übersicht über Stunden, FTE und Kosteninformationen in den Projekt- und Rollenansichten des ](#Budget) in diesem Artikel.
+  Weitere Informationen zu Projekt- und Rollenoptionen finden Sie im Abschnitt [Übersicht über Stunden, FTE und Kosteninformationen in den Projekt- und Rollenansichten des &#x200B;](#Budget) in diesem Artikel.
 
 * Der kleinste Zeitraum, für den Sie Stunden, FTE oder Kosten budgetieren können, ist eine Woche. Sie können keine Stunden, FTE oder Kosten für einen Tag budgetieren.
 * Budgetierte Stunden werden für jede Ressource, die ihnen zugewiesen ist, innerhalb der Aufgabendauer gleichmäßig auf jeden Tag verteilt. Die Aufgabendauer basiert auf den geplanten Start- und Abschlussdaten der Aufgabe und umfasst jeden Kalendertag innerhalb dieses Zeitraums.
@@ -240,7 +248,7 @@ Beachten Sie beim Arbeiten mit budgetierten Stunden Folgendes:
 
 * Sie können einen Bericht zu budgetierten Stunden erstellen, indem Sie Budgetierte Stunde als Berichtobjekt für einen neuen Bericht auswählen.
 
-  Informationen dazu, über welche Objekte Sie in Workfront Berichte erstellen können, finden Sie im Abschnitt „Berichte zu Objekten“ im Artikel &quot;[ von Objekten in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+  Informationen dazu, über welche Objekte Sie in Workfront Berichte erstellen können, finden Sie im Abschnitt „Berichte zu Objekten“ im Artikel &quot;[&#x200B; von Objekten in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
   Informationen zum Erstellen eines Berichts zur budgetierten Stunde finden Sie im Artikel [Bericht: Budgetierte Stunde](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md).
 

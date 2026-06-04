@@ -9,10 +9,15 @@ exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9YTbzW6MnqD4EpNYObP4HEtbZw2r7eBwNdheE0qxsEo
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1738
@@ -89,7 +94,7 @@ So fügen Sie einer Ansicht in der Textmodus-Benutzeroberfläche bedingte Format
 1. Klicken Sie auf die Spalte in der Ansicht, auf die Sie eine bedingte Formatierung anwenden möchten.
 1. Klicken Sie **In Textmodus wechseln**.
 1. Klicken Sie im Bereich **In dieser Spalte anzeigen:** auf **Klicken, um Text zu bearbeiten**.
-1. Fügen Sie die Code-Beispiele [ „Formatansichten im Textmodus](#format-views-using-text-mode) am unteren Rand des Texts in der ausgewählten Spalte hinzu.
+1. Fügen Sie die Code-Beispiele [&#x200B; „Formatansichten im Textmodus](#format-views-using-text-mode) am unteren Rand des Texts in der ausgewählten Spalte hinzu.
 1. Klicken Sie **Speichern** und dann auf **Ansicht speichern**.
 
 ## Ansichten im Textmodus formatieren {#format-views-using-text-mode}

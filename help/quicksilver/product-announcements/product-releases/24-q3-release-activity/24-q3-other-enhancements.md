@@ -8,9 +8,12 @@ exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/aW5kAUq4zhTPslAsU5d9gwX7Mncz647yAKttkigDniI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 451
@@ -22,7 +25,7 @@ ht-degree: 15%
 
 Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom dritten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2024 verfügbar sind, finden Sie in der [ zum dritten Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2024 verfügbar sind, finden Sie in der [&#x200B; zum dritten Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 ## Backend-Änderung an produktinternen Handbüchern
 

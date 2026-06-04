@@ -8,11 +8,17 @@ author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
 TQID: https://experienceleague.adobe.com/aDlEs3QYjcq5ycrGOI5X-T0GGvBngLiw1b-7i-WSeU4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2411
@@ -115,7 +121,7 @@ Beachten Sie bei der Auswahl der Projektansicht im Ressourcenplaner Folgendes:
   Weitere Informationen finden Sie im Abschnitt Einschränkungen in der Projektansicht im Artikel [Anzeigebeschränkungen für den Ressourcenplaner](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md).
 
 * Die Projekte werden in der Projektansicht nach ihrer Priorität aufgelistet.\
-  Weitere Informationen finden Sie [ Abschnitt „Projektplanungspriorität](#project-planning-priority) in diesem Artikel.
+  Weitere Informationen finden Sie [&#x200B; Abschnitt „Projektplanungspriorität](#project-planning-priority) in diesem Artikel.
 
 * Wenn Sie die einzelnen Projekte erweitern, können Sie die damit verbundenen Aufgabengebiete anzeigen.
 
@@ -172,7 +178,7 @@ Beachten Sie bei der Auswahl der Benutzeransicht im Ressourcenplaner Folgendes:
   Weitere Informationen finden Sie unter Einschränkungen im Abschnitt „Benutzeransicht“ in [Anzeigebeschränkungen für den Ressourcenplaner](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md) .
 
 * Die Projekte werden unter dem Benutzernamen in derselben Prioritätsreihenfolge aufgelistet wie in der Projektansicht.\
-  Weitere Informationen finden Sie [ Abschnitt „Projektplanungspriorität](#project-planning-priority) in diesem Artikel.
+  Weitere Informationen finden Sie [&#x200B; Abschnitt „Projektplanungspriorität](#project-planning-priority) in diesem Artikel.
 
 * Wenn Benutzenden kein Aufgabengebiet zugeordnet ist, werden die Stunden- oder FTE-Werte im Abschnitt Keine Funktion aufgeführt.
 * Wenn diese Ansicht angewendet wird, summieren sich die Projektstunden oder VZÄ zu den Benutzerstunden oder VZÄ.

@@ -8,11 +8,17 @@ exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/yfj-JXyOLDYb3vEya1zOqyn7kSTIGIANgVQfNaRkKQw
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 848
@@ -74,7 +80,7 @@ Wir haben Leistungsverbesserungen für den Bereich in Setup vorgenommen, in dem 
 
 Wir haben die Seiten „Mitglieder des Unternehmens“ und „Abrechnungssätze des Unternehmens“ mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist. Auf Firmenmitgliedschaften kann über Setup > Firmen > Firmennamen auswählen > Firmenmitglieder im linken Bereich auswählen zugegriffen werden. Die Abrechnungssätze für Unternehmen sind über Setup > Firmen > Firmenname auswählen > Abrechnungssätze im linken Bedienfeld auswählen zugänglich.
 
-Weitere Informationen finden Sie unter [Erstellen und Bearbeiten von ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) und [Verwalten von Unternehmensmitgliedschaften](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
+Weitere Informationen finden Sie unter [Erstellen und Bearbeiten von &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) und [Verwalten von Unternehmensmitgliedschaften](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
 
 ## Aktualisierungen des Erscheinungsbilds für die Haupt- und sekundären Navigationsbereiche
 
