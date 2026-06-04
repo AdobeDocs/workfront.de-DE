@@ -9,10 +9,15 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c67d411e-1cea-4a89-94a3-7503c4ce2eb7
 TQID: https://experienceleague.adobe.com/VegCU8Bt-m-loHvC41n5njkRi5TpqbJBLZlemtAaOnI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 550
@@ -31,7 +36,7 @@ ht-degree: 4%
 
 1. Navigieren Sie [Anmeldeseite](https://app.proofhq.com/login).
 
-1. Klicken Sie oben [!UICONTROL  auf ] Schaltfläche „Anmelden“.
+1. Klicken Sie oben [!UICONTROL &#x200B; auf &#x200B;] Schaltfläche „Anmelden“.
 1. Geben Sie Ihre E-Mail-Adresse und Ihr Passwort ein.\
    Wenn Sie Ihr Kennwort vergessen haben, lesen Sie den Abschnitt [Wenn Sie Ihr Kennwort vergessen](#when-you-forget-your-password) weiter unten in diesem Artikel.
 
@@ -81,4 +86,4 @@ Sie können Ihrem [!DNL Workfront Proof]-Konto mehrere E-Mail-Adressen hinzufüg
 
 1. Klicken Sie in der erhaltenen Validierungs-E-Mail auf den Bestätigungs-Link.\
    Die E-Mail-Änderung wird in Ihrem Profil gespeichert. Möglicherweise müssen Sie den Browser aktualisieren, in dem Sie [!DNL Workfront Proof] Seite [!UICONTROL Persönliche Einstellungen] anzeigen, um anzuzeigen, dass es sich um eine Alias-E-Mail handelt.
-1. (Optional) Um die neue E-Mail-Adresse zu Ihrer primären E-Mail-Adresse in [!DNL Workfront Proof] zu machen, klicken Sie auf die Schaltfläche [!UICONTROL Mehr] (drei Punkte) ganz rechts neben der Adresse und klicken Sie dann im angezeigten ]**auf**[!UICONTROL  Primäre E-Mail erstellen.
+1. (Optional) Um die neue E-Mail-Adresse zu Ihrer primären E-Mail-Adresse in [!DNL Workfront Proof] zu machen, klicken Sie auf die Schaltfläche [!UICONTROL Mehr] (drei Punkte) ganz rechts neben der Adresse und klicken Sie dann im angezeigten **auf** Primäre E-Mail erstellen.

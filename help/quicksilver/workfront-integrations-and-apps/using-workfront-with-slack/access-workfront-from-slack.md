@@ -7,11 +7,19 @@ author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5f531217-3bd6-4156-8b9f-eabc95d4df10
 TQID: https://experienceleague.adobe.com/V4D5BMnBLj86eShUxyR6UP8lRM3ibi6fwdL8G9QbN0k
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e4fedd42-4a54-4109-859f-13c7f0366a72
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: e4fedd42-4a54-4109-859f-13c7f0366a72
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1092
@@ -67,7 +75,7 @@ Eine Liste aller Befehle, die Sie von Slack für [!DNL Workfront] ausführen kö
 ## Anmelden bei [!DNL Workfront] von [!DNL Slack] {#log-in-to-workfront-from-slack}
 
 Wenn Sie einen Befehl in das Nachrichtenfeld in Slack eingeben, werden Sie aufgefordert, sich zuerst bei [!DNL Workfront] anzumelden.\
-Eine vollständige Liste der [!DNL Workfront] Befehle aus [!DNL Slack] finden Sie [ Abschnitt Zugriff [!DNL Workfront] von einem Schrägstrich in  [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack) diesem Artikel.
+Eine vollständige Liste der [!DNL Workfront] Befehle aus [!DNL Slack] finden Sie [&#x200B; Abschnitt Zugriff [!DNL Workfront] von einem Schrägstrich in  [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack) diesem Artikel.
 
 So melden Sie sich von [!DNL Slack] aus bei [!DNL Workfront] an:
 
@@ -94,7 +102,7 @@ So melden Sie sich von [!DNL Slack] aus bei [!DNL Workfront] an:
 
 1. (Optional) Deaktivieren Sie alle [!DNL Workfront], die Sie in [!DNL Slack] nicht erhalten möchten.
 
-   Informationen zum Konfigurieren [!DNL Workfront] Einstellungen für [!DNL Slack] finden Sie [ Abschnitt „Konfigurieren ](#configure-settings-configure-settings)&quot; in diesem Artikel
+   Informationen zum Konfigurieren [!DNL Workfront] Einstellungen für [!DNL Slack] finden Sie [&#x200B; Abschnitt „Konfigurieren &#x200B;](#configure-settings-configure-settings)&quot; in diesem Artikel
 
 1. Navigieren Sie zurück zu Ihrem [!DNL Slack].
 

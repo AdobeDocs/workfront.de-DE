@@ -8,8 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: aa3fd399-6381-4118-a64a-a331784b4854
 TQID: https://experienceleague.adobe.com/Atbe7oIceQ6Rk0WKQjeFd1lgSWwR4gfPs18K1Q0qIzA
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 462
@@ -29,7 +31,7 @@ Personen, die nicht zum Korrekturabzug hinzugefügt wurden und ihn über die Kor
 
 Die Option zum Anmelden ist jedoch verfügbar. Wenn also ein Empfänger bereits zum Korrekturabzug hinzugefügt wurde, kann er einfach seine Details eingeben und dann Kommentare/Entscheidungen treffen (je nach vorhandener Rolle).
 
-Wenn die Abonnementeinstellung für den Korrekturabzug aktiviert ist, kann jeder Empfänger, der nicht hinzugefügt wurde, den Korrekturabzug abonnieren (hinzufügen). Weitere Informationen [ Sie unter „Abonnieren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) Korrekturabzugs“.
+Wenn die Abonnementeinstellung für den Korrekturabzug aktiviert ist, kann jeder Empfänger, der nicht hinzugefügt wurde, den Korrekturabzug abonnieren (hinzufügen). Weitere Informationen [&#x200B; Sie unter „Abonnieren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) Korrekturabzugs“.
 
 >[!NOTE]
 >

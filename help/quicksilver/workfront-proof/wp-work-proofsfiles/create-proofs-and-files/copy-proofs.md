@@ -8,8 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7d2db918-ebf0-4c52-9039-54c3eb5515f0
 TQID: https://experienceleague.adobe.com/PS4LlvkS0KTleGJj-6aNtOjbTtRpqQTXoKKFdcSZb-8
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 716
@@ -45,7 +47,7 @@ Die im ursprünglichen Korrekturabzug enthaltenen Reviewer werden automatisch im
 1. (Optional) Um den KopierKorrekturabzug umzubenennen, geben Sie einen neuen **[!UICONTROL Korrekturabzugsnamen]** ein.
 1. (Optional) Führen Sie im Abschnitt **[!DNL Share]** einen der folgenden Schritte aus:
 
-   * Fügen Sie dem Testversand Prüfer hinzu. Weitere Informationen finden [ unter  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) eines Korrekturabzugs in . Informationen zum Hinzufügen von Gruppen zu einem Korrekturabzug finden Sie unter [Hinzufügen von Gruppen zu einem Korrekturabzug](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md).
+   * Fügen Sie dem Testversand Prüfer hinzu. Weitere Informationen finden [&#x200B; unter  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) eines Korrekturabzugs in . Informationen zum Hinzufügen von Gruppen zu einem Korrekturabzug finden Sie unter [Hinzufügen von Gruppen zu einem Korrekturabzug](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md).
 
    * Weisen Sie einem Reviewer eine Korrekturabzugsrolle zu. Weitere Informationen finden Sie unter [Verwalten von Korrekturabzugsrollen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
    * Festlegen von E-Mail-Warnungen für Prüfer. Weitere Informationen finden Sie unter [Konfigurieren von E-Mail-Benachrichtigungseinstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
@@ -87,4 +89,4 @@ So kopieren Sie vorhandene Korrekturabzugseinstellungen für einen neuen Korrekt
    ![more_button_text_version.png](assets/more-button-text-version.png)
 
 1. Klicken Sie **[!UICONTROL Dropdown-Menü auf]** Mit neuer Datei kopieren“.
-1. Laden Sie auf der ]**&quot;**[!UICONTROL  Korrekturabzug“ eine neue Datei hoch und klicken Sie dann auf **[!UICONTROL Erstellen]**.
+1. Laden Sie auf der **&quot;** Korrekturabzug“ eine neue Datei hoch und klicken Sie dann auf **[!UICONTROL Erstellen]**.

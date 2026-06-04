@@ -8,8 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 88693211-b5f5-4f99-97a9-5c29039f4f01
 TQID: https://experienceleague.adobe.com/uF6cyqGq5aWa9OL5OJW3-Adry0NZ628zn8IqfjaYx9E
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 560
@@ -39,7 +41,7 @@ Außerdem können Sie [!DNL Workfront Proof] als Cloud-Speicher für Dateien ver
 
 Hochladen einer Datei in [!DNL Workfront Proof]:
 
-1. Klicken Sie in der linken oberen Ecke von [!DNL Workfront Proof] auf den Abwärtspfeil auf der Schaltfläche **[!UICONTROL Neuer Korrekturabzug]** und klicken Sie dann im angezeigten ]**auf**[!UICONTROL  Datei hochladen.\
+1. Klicken Sie in der linken oberen Ecke von [!DNL Workfront Proof] auf den Abwärtspfeil auf der Schaltfläche **[!UICONTROL Neuer Korrekturabzug]** und klicken Sie dann im angezeigten **auf** Datei hochladen.\
    ![Schaltfläche „Neuer Korrekturabzug“](assets/new-proof-button-menu.png)
 
 1. Die Seite **[!DNL New File]** wird angezeigt.
@@ -57,7 +59,7 @@ Hochladen einer Datei in [!DNL Workfront Proof]:
    Wenn Sie diese Schritte abgeschlossen haben, erhalten diese Empfänger eine E-Mail mit den Download-Links für die Dateien.\
    Sie können die Dateien für Kontakte, Gruppen und Partner freigeben (siehe [Kontakte](https://support.workfront.com/hc/en-us/sections/115000920808-Contacts), [Gruppen](https://support.workfront.com/hc/en-us/sections/115000920828-Groups) und [Partnerkonten](https://support.workfront.com/hc/en-us/sections/115000912107-Partner-accounts)).
 
-1. (Optional) Sie können **[!UICONTROL Personen per E-Mail benachrichtigen]** auswählen, wenn Sie einen benutzerdefinierten Betreff und eine benutzerdefinierte Nachricht zu der E-Mail hinzufügen möchten, die von den Empfängern der Dateien empfangen wurde. Weitere Informationen finden [ unter „Freigeben ](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md) Dateien in Workfront Proof&quot;.
+1. (Optional) Sie können **[!UICONTROL Personen per E-Mail benachrichtigen]** auswählen, wenn Sie einen benutzerdefinierten Betreff und eine benutzerdefinierte Nachricht zu der E-Mail hinzufügen möchten, die von den Empfängern der Dateien empfangen wurde. Weitere Informationen finden [&#x200B; unter „Freigeben &#x200B;](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md) Dateien in Workfront Proof&quot;.
 
 1. (Optional) Unter **[!UICONTROL Organisieren]** können Sie einen Ordner auswählen oder erstellen, um die Dateien zu organisieren, die Sie hochladen. Sie können auch Tags hinzufügen, um die Dateien einfach zu identifizieren und zu finden.
 1. Tags sind einfache Wörter oder Wortkombinationen, mit denen Sie den Inhalt einer Datei beschreiben können. Sie erleichtern die Suche nach dem, was Sie benötigen.

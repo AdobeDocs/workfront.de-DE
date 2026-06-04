@@ -10,10 +10,15 @@ feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 8f43fee1-02ee-4073-aacb-653a11ad897b
 TQID: https://experienceleague.adobe.com/r1BRT9U0L8hP5gPpNQSpyCmX5cAPQaGXN3hUdhjEyuU
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 107
@@ -32,7 +37,7 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [manage [!DNL Workfront Proof] users](../../../workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md)
 * [Konfigurieren des Berechtigungsprofils für Korrekturabzüge von Benutzenden in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/config-user-pref-in-wp.md)
 * [Konfigurieren Sie benutzerdefinierte Profile in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md)
-* [Konfigurieren von Single Sign-On für  [!DNL Workfront Proof] ](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+* [Konfigurieren von Single Sign-On für  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
 * [Single Sign-On [!DNL Workfront Proof]: AD FS-Konfiguration](../../../workfront-proof/wp-acct-admin/account-settings/sso-in-wp-adfs-configuration.md)
 * [Korrekturabzug-Berechtigungsprofile in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)
 * [Konfigurieren Sie die Optionen für Genehmigungsentscheidungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md)

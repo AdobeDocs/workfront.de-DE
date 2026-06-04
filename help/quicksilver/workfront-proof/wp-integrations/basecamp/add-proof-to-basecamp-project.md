@@ -8,9 +8,12 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fd62db43-bc45-4ede-b1ef-a198323793ca
 TQID: https://experienceleague.adobe.com/9I0B1LPJmHz77brClrBv91-PyJ59w8ri-Foq6VRV3mc
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 674
@@ -65,7 +68,7 @@ Nachdem Sie einen Korrekturabzug zu einem [!DNL Basecamp] Projekt hinzugefügt h
 1. Stellen Sie sicher **[!UICONTROL dass]** Korrekturabzugs-URL) und **[!UICONTROL Einbettungs-Code]** auf &quot;**[!UICONTROL &quot;]**.
 
 1. Klicken Sie **[!UICONTROL Testversand zu einem Basecamp-Projekt hinzufügen]**.
-1. Gehen Sie [!UICONTROL  Feld „Zu Basecamp ]&quot; wie folgt vor:
+1. Gehen Sie [!UICONTROL &#x200B; Feld „Zu Basecamp &#x200B;]&quot; wie folgt vor:
 
    1. Klicken Sie auf **[!UICONTROL Daten aktualisieren]** um mit Basecamp Classic zu synchronisieren, bevor Sie fortfahren.
    1. Wählen Sie Ihr Basecamp-Projekt aus.

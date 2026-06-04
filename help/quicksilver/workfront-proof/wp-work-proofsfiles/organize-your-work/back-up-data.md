@@ -8,8 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 3b831bb5-2d03-4d7e-ad1f-54ae95f05ccd
 TQID: https://experienceleague.adobe.com/GLlV0VddtRk0rbow8cD4FLPbneOrWOpUAT97c13WYoA
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1056
@@ -66,7 +68,7 @@ Mit [!UICONTROL Backup]-Funktion können Sie entscheiden, wie Sie Ihre Ressource
 Wenn das Backup fertig ist, geschieht Folgendes:
 
 * Sie erhalten eine E-Mail von [!DNL Workfront Proof], in der Sie darüber informiert werden („Ihr [!DNL Workfront Proof]-Backup ist bereit„). Die E-Mail enthält einen Download-Link für Ihre Sicherungsdaten.
-* Auf [ Registerkarte ](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)Kontoeinstellungen“ wird ein Download-Link für Ihre Sicherungsdaten angezeigt.
+* Auf [&#x200B; Registerkarte &#x200B;](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)Kontoeinstellungen“ wird ein Download-Link für Ihre Sicherungsdaten angezeigt.
 * Der Link Neues Backup anfordern (3) wird erneut auf der Registerkarte Backups angezeigt
 
 Ihre Daten können als ZIP-Datei heruntergeladen werden. Sie können die ZIP-Sicherungsdatei entweder über die Benachrichtigungs-E-Mail oder in den [!UICONTROL Kontoeinstellungen] herunterladen, wie in den folgenden Abschnitten beschrieben:

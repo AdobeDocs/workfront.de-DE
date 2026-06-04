@@ -8,10 +8,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b371cc20-4226-49ce-96c6-9815b2e84713
 TQID: https://experienceleague.adobe.com/-kFiMr-1GYxY3JvfHTW0NBNupGvnob0KuzELquFISDI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1317
@@ -186,7 +190,7 @@ Sie können Korrekturabzug-Rollen zuweisen, wenn Sie neue Korrekturabzüge erste
 
 ### Neue Korrekturabzüge {#new-proofs}
 
-Korrekturabzug-Rollen können Prüfern auf der Seite &quot;[!UICONTROL  Korrekturabzug] während des Erstellungsprozesses des Korrekturabzugs zugewiesen werden (1).
+Korrekturabzug-Rollen können Prüfern auf der Seite &quot;[!UICONTROL &#x200B; Korrekturabzug] während des Erstellungsprozesses des Korrekturabzugs zugewiesen werden (1).
 
 ![Proof_roles_-_New_Proof_page.png](assets/proof-roles---new-proof-page-350x184.png)
 
@@ -218,7 +222,7 @@ Sie können die Standardrolle für den Korrekturabzug auf der Seite [!DNL Proofi
 >
 >Nur Benutzer mit Administrator- oder Billing-Administratorprofilen können die Proofing-Standardeinstellungen für andere Benutzer in ihrem Konto ändern.
 
-Weitere Informationen finden Sie unter &quot;[ Einstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md).
+Weitere Informationen finden Sie unter &quot;[&#x200B; Einstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md).
 
 ## Ersteller und Inhaber
 
@@ -234,7 +238,7 @@ Die Erstellerin bzw. der Ersteller des Korrekturabzugs kann nicht geändert oder
 
 ### Inhaber {#owners}
 
-Standardmäßig ist der Ersteller auch der Inhaber des Korrekturabzugs. Der Ersteller kann jedoch eine andere Person zum Besitzer des Korrekturabzugs machen, wenn er den Korrekturabzug anfänglich erstellt (auf der Seite &quot;[!UICONTROL  Korrekturabzug]).
+Standardmäßig ist der Ersteller auch der Inhaber des Korrekturabzugs. Der Ersteller kann jedoch eine andere Person zum Besitzer des Korrekturabzugs machen, wenn er den Korrekturabzug anfänglich erstellt (auf der Seite &quot;[!UICONTROL &#x200B; Korrekturabzug]).
 
 So ändern Sie den Inhaber auf der Seite Neuer Korrekturabzug :
 
@@ -243,9 +247,9 @@ So ändern Sie den Inhaber auf der Seite Neuer Korrekturabzug :
 
 ![Proof_roles_-_new_proof_page_change_owner_2.png](assets/proof-roles---new-proof-page-change-owner-2-350x185.png)
 
-Sobald der Korrekturabzug erstellt wurde, kann der Besitzer noch geändert werden. Jeder Benutzer mit Bearbeitungsrechten für den Korrekturabzug kann über die Seite „Korrekturabzugsdetails“ ([!UICONTROL  unten) die Eigentümerschaft ] Korrekturabzugs an einen anderen Benutzer ändern.
+Sobald der Korrekturabzug erstellt wurde, kann der Besitzer noch geändert werden. Jeder Benutzer mit Bearbeitungsrechten für den Korrekturabzug kann über die Seite „Korrekturabzugsdetails“ ([!UICONTROL &#x200B; unten) die Eigentümerschaft &#x200B;] Korrekturabzugs an einen anderen Benutzer ändern.
 
-Die Möglichkeit, den/die Verantwortliche(n) für einen Korrekturabzug zu ändern, ist aus Sicht der Workflow-Verwaltung besonders nützlich. Dadurch kann die für das Projekt verantwortliche Person die Verantwortung für den Testversand übernehmen, indem ihr Bearbeitungsrechte für die Testsendungen erteilt werden und sie in der Ansicht &quot;[!UICONTROL  Testsendungen“ ] kann.
+Die Möglichkeit, den/die Verantwortliche(n) für einen Korrekturabzug zu ändern, ist aus Sicht der Workflow-Verwaltung besonders nützlich. Dadurch kann die für das Projekt verantwortliche Person die Verantwortung für den Testversand übernehmen, indem ihr Bearbeitungsrechte für die Testsendungen erteilt werden und sie in der Ansicht &quot;[!UICONTROL &#x200B; Testsendungen“ &#x200B;] kann.
 
 So ändern Sie den/die Verantwortliche für den Korrekturabzug über die Seite [!UICONTROL Details des Korrekturabzugs]:
 

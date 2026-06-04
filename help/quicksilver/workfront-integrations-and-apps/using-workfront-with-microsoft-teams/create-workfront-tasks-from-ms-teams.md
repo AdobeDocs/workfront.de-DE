@@ -7,11 +7,17 @@ author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 31b86c8d-967a-446a-86f2-3d38e44c45e1
 TQID: https://experienceleague.adobe.com/EGXeEO-HU8813eA-dyVAuKSv6rAQg8tsDiDT5leVee0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: a7ef0b24-c866-4849-a368-53678af2dfe5
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 449
@@ -84,7 +90,7 @@ Informationen zum Installieren von [!DNL Workfront for Microsoft Teams] und zum 
 
         ![ms_teams_new_task_card.png](assets/ms-teams-new-task-card-350x181.png)
 
-1. Geben Sie im Bot-] [!UICONTROL Workfront die folgenden Informationen auf der Karte [!UICONTROL Neue Aufgabe] an:
+1. Geben Sie im Bot- Workfront die folgenden Informationen auf der Karte [!UICONTROL Neue Aufgabe] an:
 
    * Aufgabenname im Feld **[!UICONTROL Den Titel der Aufgabe]**.
    * Beschreibung der Aufgabe im Feld **[!UICONTROL Beschreibung der Aufgabe]**.
@@ -94,7 +100,7 @@ Informationen zum Installieren von [!DNL Workfront for Microsoft Teams] und zum 
 
    Die neue persönliche Aufgabe wird in [!DNL Workfront] erstellt. Eine [!UICONTROL Referenznummer] wird ihm zugewiesen und auf der Karte [!UICONTROL Neue Aufgabe] angezeigt.
 
-   Informationen zu Referenznummern finden Sie im Abschnitt [[!UICONTROL Referenznummern] von Objekten ](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects) Abschnitt im Artikel [Grundlegendes zu Objekten in [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+   Informationen zu Referenznummern finden Sie im Abschnitt [[!UICONTROL Referenznummern] von Objekten &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects) Abschnitt im Artikel [Grundlegendes zu Objekten in [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 1. (Optional) Klicken Sie auf **[!UICONTROL Bearbeiten]**, um die Aufgabeninformationen weiter zu bearbeiten.
 1. (Optional) Klicken Sie auf **[!UICONTROL In[!DNL Workfront]]** anzeigen , um die Aufgabe in einer neuen Registerkarte in [!DNL Workfront] zu öffnen und die Aufgabe weiter zu bearbeiten, in ein Projekt zu verschieben oder sie einer anderen Person zuzuweisen.

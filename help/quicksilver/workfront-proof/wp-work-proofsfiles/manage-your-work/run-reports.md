@@ -8,9 +8,12 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 342f9282-b6f5-425e-a7ef-e23bd011d284
 TQID: https://experienceleague.adobe.com/85Z2YFfmz4zUV2oIkQFUDFOYVtLFgiGh44KEm6pAlr4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 694
@@ -73,7 +76,7 @@ In diesem Bedienfeld haben Sie folgende Möglichkeiten
 1. (Optional) Wählen Sie die Option **[!UICONTROL Min-Max-Bereich anzeigen]** aus, um zu bestimmen, ob Mindest- und Höchstwerte im Diagramm angezeigt werden.\
    Bei Auswahl dieser Option wird zwischen den minimalen und maximalen Werten eine blaue Schattierung angezeigt.
 
-1. (Optional) Sie können die angezeigten Daten filtern, wie unter [Filterberichte“ ](#filtering-reports).
+1. (Optional) Sie können die angezeigten Daten filtern, wie unter [Filterberichte“ &#x200B;](#filtering-reports).
 
 ## Berichte filtern {#filtering-reports}
 

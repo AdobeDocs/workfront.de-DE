@@ -4,8 +4,10 @@ description: Erfahren Sie mehr über die Mobile App von Workfront Proof.
 hide: true
 exl-id: 865019d7-55b4-4d53-93aa-1370d153916e
 TQID: https://experienceleague.adobe.com/ckqEjDCVinM7RQjmY-weI-RQQrtvbiY9UjCgdTEswQ0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1352
@@ -120,7 +122,7 @@ Wenn Sie einen Korrekturabzug in der Mobile App öffnen, können Sie Folgendes t
 
       1. Kommentar öffnen.
       1. Tippen Sie auf **[!UICONTROL Antworten]**.
-      1. Öffnen Sie [!UICONTROL  Menü ]Aktionen“ auf der rechten Seite des Textfelds (1).
+      1. Öffnen Sie [!UICONTROL &#x200B; Menü &#x200B;]Aktionen“ auf der rechten Seite des Textfelds (1).
       1. Tippen Sie **[!UICONTROL Aktion hinzufügen]** (2).
 
          ![actions_on_comments.png](assets/actions-on-comments-350x543.png)

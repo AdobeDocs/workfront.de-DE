@@ -8,8 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d4ec0c53-1451-4475-aa38-2319c6432936
 TQID: https://experienceleague.adobe.com/WqMIoCFL-uqoaiZN59IyGljdSPb1sn0Py3RaVgjuuKM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 964
@@ -53,7 +55,7 @@ Sie können zwei separate Korrekturabzüge vergleichen.
 
 ### Vergleichen separater Korrekturabzüge in [!DNL Workfront] {#compare-separate-proofs-in-workfront}
 
-Informationen zum Vergleichen separater Korrekturabzüge aus der Dokumentliste in [!DNL Workfront] finden Sie im Abschnitt [Vergleichen ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md#comparing-two-proofs-from-a-document-list) Korrekturabzügen“ im Artikel [Korrekturabzüge vergleichen](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md).
+Informationen zum Vergleichen separater Korrekturabzüge aus der Dokumentliste in [!DNL Workfront] finden Sie im Abschnitt [Vergleichen &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md#comparing-two-proofs-from-a-document-list) Korrekturabzügen“ im Artikel [Korrekturabzüge vergleichen](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md).
 
 ### Vergleichen separater Korrekturabzüge in [!DNL Workfront Proof] {#compare-separate-proofs-in-workfront-proof}
 

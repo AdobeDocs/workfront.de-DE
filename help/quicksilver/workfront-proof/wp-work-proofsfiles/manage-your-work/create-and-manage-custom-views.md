@@ -8,9 +8,12 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7c6f3fdd-f767-4e8d-937a-1c7645aba55b
 TQID: https://experienceleague.adobe.com/QMQKw8XzYi2H-SA-paAka7w4fbJvQpitTxAwuJrjueA
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2482
@@ -320,7 +323,7 @@ Kopieren einer benutzerdefinierten Ansicht:
 
 ## Freigeben benutzerdefinierter Ansichten
 
-Mit der Funktion Ansicht freigeben können Sie eine Ansicht für andere Benutzer in Ihrem Konto freigeben, falls Sie diese nicht bereits im Abschnitt Freigabe für die Ansicht ausgewählt haben. Wenn Sie eine benutzerdefinierte Ansicht für andere Benutzer freigeben, wird die Ansicht im Abschnitt &quot;[!UICONTROL  benutzerdefinierten Ansichten] des Dropdown-Menüs „Ansichten“ angezeigt.
+Mit der Funktion Ansicht freigeben können Sie eine Ansicht für andere Benutzer in Ihrem Konto freigeben, falls Sie diese nicht bereits im Abschnitt Freigabe für die Ansicht ausgewählt haben. Wenn Sie eine benutzerdefinierte Ansicht für andere Benutzer freigeben, wird die Ansicht im Abschnitt &quot;[!UICONTROL &#x200B; benutzerdefinierten Ansichten] des Dropdown-Menüs „Ansichten“ angezeigt.
 
 So geben Sie eine benutzerdefinierte Ansicht für andere Benutzer frei:
 
@@ -350,7 +353,7 @@ So exportieren Sie die Daten aus einer benutzerdefinierten Ansicht in eine CSV-D
 1. Klicken Sie auf **[!UICONTROL Menü]** Aktionen“. (3)\
    Diese Schaltfläche ist nur verfügbar, wenn Sie die Spalte Korrekturabzugsname in Ihre Ansicht aufnehmen.
 
-1. Wählen Sie [!UICONTROL  Menü ]In CSV exportieren) aus. (4)\
+1. Wählen Sie [!UICONTROL &#x200B; Menü &#x200B;]In CSV exportieren) aus. (4)\
    ![export_custom_view.png](assets/exporting-custom-view-350x258.png)\
    In einem separaten Browser-Fenster wird „Bericht wird generiert: 100 %&quot; plus die Anzahl der Datensätze (die Anzahl der in Ihrem benutzerdefinierten Bericht enthaltenen Elemente) angezeigt
 
@@ -370,7 +373,7 @@ Sie können eine benutzerdefinierte Ansicht einfach löschen. Gehen Sie dazu fol
 1. Klicken Sie auf **[!UICONTROL Menü]** Aktionen“. (3)\
    Diese Schaltfläche ist nur verfügbar, wenn Sie die Spalte Korrekturabzugsname in Ihre Ansicht aufnehmen.
 
-1. Wählen [!UICONTROL  im ] die Option „Löschen“ aus. (4)\
+1. Wählen [!UICONTROL &#x200B; im &#x200B;] die Option „Löschen“ aus. (4)\
    ![deleting_custom_view.png](assets/deleting-custom-view-350x258.png)
 
 1. Klicken Sie **[!UICONTROL (]**), um zu bestätigen, dass Sie die aktuelle benutzerdefinierte Ansicht löschen möchten\

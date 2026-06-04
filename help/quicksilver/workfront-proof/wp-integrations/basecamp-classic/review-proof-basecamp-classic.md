@@ -8,9 +8,12 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b14f33dc-e059-4ee2-a429-9f1852a2b9bb
 TQID: https://experienceleague.adobe.com/H4oPVQW1kV-6efM04x0lIa1mUOrGfskjfcSVo8t8O2I
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 864
@@ -93,7 +96,7 @@ Sie können über eine [!DNL Basecamp Classic] auf einen Korrekturabzug zugreife
 
 ## Überprüfen eines Korrekturabzugs in [!DNL Basecamp]
 
-Der Mini-Korrekturabzug in [!DNL Basecamp] bietet Ihnen die Tools, die Sie hinzufügen müssen, um [ Korrekturabzug in der Korrekturabzugsansicht ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) entscheiden. Alle dem Projekt zugewiesenen Benutzer sehen Ihre Markierungen und Kommentare und können mit ihren eigenen Kommentaren in Echtzeit antworten.
+Der Mini-Korrekturabzug in [!DNL Basecamp] bietet Ihnen die Tools, die Sie hinzufügen müssen, um [&#x200B; Korrekturabzug in der Korrekturabzugsansicht &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) entscheiden. Alle dem Projekt zugewiesenen Benutzer sehen Ihre Markierungen und Kommentare und können mit ihren eigenen Kommentaren in Echtzeit antworten.
 
 Wenn Sie den Korrekturabzug öffnen, wird der Korrekturabzug im Fenster [!UICONTROL Proofing] (1) angezeigt, und der Name des Korrekturabzugs und die Versionsnummer werden in der oberen linken Ecke (2) angezeigt.
 

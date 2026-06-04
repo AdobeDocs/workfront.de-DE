@@ -8,8 +8,10 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 57f846a1-f315-42c1-911a-cfbc8b4879ba
 TQID: https://experienceleague.adobe.com/J7dSfuj-8f8m4pNsPGejE-k29Bkk1Rlh-HbpYkwx2xM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 955
@@ -77,7 +79,7 @@ Wenn jemand einen Ordner für Sie freigibt, wird er in der Seitenleiste seines [
 
 1. Klicken Sie auf den Link in der Benachrichtigungs-E-Mail, die Sie erhalten.
 1. Melden Sie sich bei [!DNL Workfront Proof] an.\
-     [!DNL  Workfront Proof] zeigt die Seite Ordnerdetails an. Weitere Informationen finden Sie unter [Verwalten von Ordnern und ihrem Inhalt in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
+     [!DNL &#x200B; Workfront Proof] zeigt die Seite Ordnerdetails an. Weitere Informationen finden Sie unter [Verwalten von Ordnern und ihrem Inhalt in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
 
 ## Über die Freigabe von Unterordnern
 
@@ -100,4 +102,4 @@ Die Freigabe eines Ordners für einen Partner bedeutet:
 * Alle Benutzer in dieser Organisation haben schreibgeschützten Zugriff auf den Ordner (und die Ordnerelemente).
 * Alle neuen Benutzer, die der Organisation hinzugefügt werden, haben automatisch schreibgeschützten Zugriff auf den Ordner (und alle Elemente im Ordner).
 
-Weitere Informationen [ Sie unter „Freigeben von Elementen für einen  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md) in“.
+Weitere Informationen [&#x200B; Sie unter „Freigeben von Elementen für einen  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/partner-accounts/share-items-partner-in-wp.md) in“.

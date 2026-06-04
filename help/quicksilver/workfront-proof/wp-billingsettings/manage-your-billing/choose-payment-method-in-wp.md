@@ -8,10 +8,14 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cc23012f-ea1a-41e6-b101-877b85605775
 TQID: https://experienceleague.adobe.com/c5PekqBFApp6g08M-vg9eTw8pIVWvAByA7Y1vXvEXY8
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 348
@@ -72,7 +76,7 @@ Wenn Sie über Satellitenkonten verfügen, müssen Sie Ihre Kreditkartendetails 
 1. Navigieren Sie zur Seite [!UICONTROL Abrechnung] in Ihrem Hub-Konto.\
    Weitere Informationen zur Seite Abrechnung finden Sie unter [Die  [!DNL Workfront] -Seite Abrechnung](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
-1. Öffnen Sie [!UICONTROL  Dropdown-Menü ]Kontoliste“. (1)
+1. Öffnen Sie [!UICONTROL &#x200B; Dropdown-Menü &#x200B;]Kontoliste“. (1)
 1. Wählen Sie das Satellitenkonto (2) aus, das mit der Kreditkarte verknüpft ist, die Sie aktualisieren möchten.
 1. Fahren Sie fort mit [Ändern Ihrer Zahlungsmethode und Kreditkartendetails](#changing-your-payment-method-and-credit-card-details).\
    ![satellite_account_billing_page.png](assets/satellite-account-billing-page-350x167.png)
