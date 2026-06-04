@@ -1,20 +1,25 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-3-release-activity
-title: 20.3 Verbesserungen bei Korrekturabzügen
+title: Verbesserungen bei Proof in Version 20.3
 description: Auf dieser Seite werden alle Korrekturabzugsverbesserungen beschrieben, die mit Version 20.3 an der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Woche vom 10. August 2020 in der Produktionsumgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: d719c8e8-be72-42ca-80e4-83a1237c299f
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/L8r3oUDq9ykejDv-K-P-mNaKRhHLawstl9VJ8kdui08
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 0%
+source-wordcount: 371
+ht-degree: 1%
 
 ---
 
-# 20.3 Verbesserungen bei Korrekturabzügen
+# Verbesserungen bei Proof in Version 20.3
 
 Auf dieser Seite werden alle Korrekturabzugsverbesserungen beschrieben, die mit Version 20.3 an der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Woche vom 10. August 2020 in der Produktionsumgebung verfügbar gemacht.
 

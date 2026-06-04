@@ -1,19 +1,24 @@
 ---
-title: 21.4 Weitere Verbesserungen
-description: 21.4 Weitere Verbesserungen
+title: Weitere Verbesserungen in Version 21.4
+description: Weitere Verbesserungen in Version 21.4
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7afff4ec-a296-483c-819f-84932b6da4d8
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/AzWZ6ApnTZv2pTlQKuzkwvQ52JLWMwz7hi5lIMWm9qk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 0%
+source-wordcount: 171
+ht-degree: 5%
 
 ---
 
-# 21.4 Weitere Verbesserungen
+# Weitere Verbesserungen in Version 21.4
 
 Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 21.4 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 4. Oktober 2021 in der Produktionsumgebung verfügbar gemacht.
 

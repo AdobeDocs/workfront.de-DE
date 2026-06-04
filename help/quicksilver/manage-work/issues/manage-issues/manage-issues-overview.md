@@ -8,14 +8,23 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 12fa2d34-a7b4-47ba-825c-a00fb5f71efd
-source-git-commit: 0542587bb3254dec5664de493c1c321528cf7f3e
+TQID: https://experienceleague.adobe.com/XcSaTUqdc6c0-3uPOIkru8O--hIk0cqpy12gigL2VXs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 0%
+source-wordcount: 121
+ht-degree: 16%
 
 ---
 
-# Probleme verwalten: Artikelindex
+# Verwalten von Problemen: Artikelindex
 
 <!--Audited: 08/2025-->
 
@@ -33,4 +42,4 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Probleme verschieben](../../../manage-work/issues/manage-issues/move-issues.md)
 * [Probleme löschen](../../../manage-work/issues/manage-issues/delete-issues.md)
 * [Ändern von Benutzerzuweisungen für mehrere Probleme in einer Liste](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
-* [Problemstatus von „Auf Feedback warten“ automatisch auf „In Bearbeitung“ aktualisieren](../../../manage-work/issues/manage-issues/turn-issue-status-from-awf-to-inp-automatically.md)
+* [Automatisches Aktualisieren des Problemstatus von „Auf Feedback warten“ auf „In Bearbeitung“](../../../manage-work/issues/manage-issues/turn-issue-status-from-awf-to-inp-automatically.md)

@@ -1,5 +1,5 @@
 ---
-title: Übersicht über Projektbedingung und Bedingungstyp
+title: Überblick über Projektbedingung und Bedingungstyp
 content-type: overview
 product-area: projects
 navigation-topic: manage-projects
@@ -7,14 +7,27 @@ description: Die Projektbedingung ist eine visuelle Darstellung des Projektforts
 author: Alina
 feature: Work Management
 exl-id: 0c847b26-b0cb-49bb-84be-32534c72d5b6
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/wj01GJqYRaeo-Dfq66v9-3qrRWxt9lQo6nDPaM1hsKc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 1%
+source-wordcount: 706
+ht-degree: 6%
 
 ---
 
-# Übersicht über Projektbedingung und Bedingungstyp
+# Überblick über Projektbedingung und Bedingungstyp
 
 <!-- Audited: 12/2023 -->
 
@@ -114,6 +127,6 @@ In der Ansicht eines Projektberichts können Sie die folgenden Felder anzeigen, 
   Kommentare zu Bedingungsaktualisierungen werden nicht in der Spalte **Bedingungsaktualisierung** angezeigt, sondern nur zur Hauptaktualisierung.
 
 * **Letzte Bedingung Hinweis**: Zeigt die Aktualisierung an, die zuletzt vom Eigentümer des Objekts für ein Objekt eingegeben wurde. Dieses Feld ist hilfreich, um die neueste Aktivität oder Interaktion des Besitzers mit einem Objekt anzuzeigen.\
-  Die Spalte **Letzte Bedingung** ist leer, wenn der Notiztext der letzten Anmerkung eines Objekts gelöscht wurde. Wenn eine neue Anmerkung in das Objekt eingegeben wird, wird sie zur letzten Anmerkung und wird erneut in der Spalte angezeigt.
+  Die Spalte **Letzte Bedingung** ist leer, wenn der Notiztext der letzten Anmerkung eines Objekts gelöscht wurde. Wenn eine neue Notiz für das Objekt eingegeben wird, wird sie zur letzten Notiz und wird erneut in der Spalte angezeigt.
 
 Informationen zum Erstellen eines Berichts finden Sie im Artikel [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).

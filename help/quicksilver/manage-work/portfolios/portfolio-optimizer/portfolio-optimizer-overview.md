@@ -2,14 +2,25 @@
 content-type: overview
 product-area: portfolios
 navigation-topic: portfolio-optimizer
-title: Übersicht über Portfolio Optimizer
+title: Überblick über den Portfolio-Optimizer
 description: Der [!UICONTROL Portfolio Optimizer] ist das Tool, das für die Evaluierung und den Vergleich von Projekten verwendet wird. Beim Überprüfen und Vergleichen von Business Case-Werten für Projekte, die einem Portfolio zugewiesen sind, kann ein Portfolio-Manager Projekte priorisieren und den größten Nutzen für eine Organisation generieren.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+TQID: https://experienceleague.adobe.com/rboyRUa-HquCIv42DGtpGjwFa-eLptIWOnAb8Lo4W28
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1647'
+source-wordcount: 1648
 ht-degree: 0%
 
 ---
@@ -53,7 +64,7 @@ Finanzinformationen finden Sie in den folgenden Bereichen von [!UICONTROL Portfo
 * **[!UICONTROL Portfolio-Finanzen für ausgewählte Projekte]**: Dieser Bereich zeigt Finanzinformationen an, die aus den Projekten gesammelt wurden, die in [!UICONTROL Portfolio Optimizer&rbrace; ausgewählt &#x200B;]. Sie können Projekte hinzufügen oder entfernen und verstehen, wie sich dies auf die Finanzen des Portfolios auswirkt, indem Sie die Informationen in diesem Bereich anzeigen.
 * **[!UICONTROL Projektfinanzen]**: In diesem Bereich werden die Finanzinformationen der einzelnen Projekte angezeigt, die in [!UICONTROL Portfolio Optimizer&rbrace; &#x200B;] sind.
 
-### Die Finanzfelder im [!UICONTROL Portfolio Optimizer] {#the-financial-fields-in-the-portfolio-optimizer}
+### Die Finanzfelder im [!UICONTROL Portfolio Optimizer]  {#the-financial-fields-in-the-portfolio-optimizer}
 
 Die folgenden Finanzfelder werden in [!UICONTROL Portfolio Optimizer] angezeigt:
 
@@ -179,7 +190,7 @@ Die folgenden Symbole und Optionen sind für den [!UICONTROL Portfolio Optimizer
     <ul>
      <li>[!UICONTROL Kosten]</li>
      <li>[!UICONTROL -Ausrichtung]</li>
-     <li>[!UICONTROL -Wert]</li>
+     <li>[!UICONTROL Wert]</li>
      <li>[!UICONTROL Risiko-Nutzen-Verhältnis]</li>
      <li>[!UICONTROL ROI]</li>
     </ul><p>Weitere Informationen zur Portfoliooptimierung finden Sie im Artikel <a href="../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md" class="MCXref xref">Optimieren von Projekten in [!UICONTROL Portfolio Optimizer]</a>.</p></td> 

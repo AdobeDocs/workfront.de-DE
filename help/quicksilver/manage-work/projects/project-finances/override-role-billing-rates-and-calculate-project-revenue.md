@@ -6,9 +6,21 @@ description: Sie können Verrechnungssätze verwenden, um den Umsatz Ihrer Proje
 author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+TQID: https://experienceleague.adobe.com/R4sO92imTe1YBO0YGJIsuD5OOlhfbhlN-0qvyYU48t0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '4653'
+source-wordcount: 4595
 ht-degree: 1%
 
 ---
@@ -365,7 +377,7 @@ Weitere Informationen zur Neuberechnung der Projektfinanzen finden Sie im Artike
 
 ## Hinzufügen eines neuen Abrechnungssatzes mithilfe der API
 
-Um mithilfe der API einen neuen Abrechnungssatz für ein Aufgabengebiet hinzuzufügen, führen Sie eine Aktion *setRatesForRole* für das Objekt **Rate** mithilfe der Methode *PUT*.
+Um mithilfe der API einen neuen Abrechnungssatz für ein Aufgabengebiet hinzuzufügen, führen Sie eine Aktion *setRatesForRole* für das Objekt **Rate** mithilfe der *PUT-Methode aus*.
 Die Aktion und die Datumsfelder im Objekt **Rate** sind in der API-Version 8.0 verfügbar.
 Wenn Sie bereits mehrere Abrechnungssätze für ein Aufgabengebiet in einem Projekt definiert haben und einen neuen Abrechnungssatz mit einem neuen Datumsbereich hinzufügen möchten, müssen Sie sowohl den vorhandenen Satz als auch den Satz einbeziehen, der in demselben API-Aufruf hinzugefügt werden soll. Dies ähnelt dem Aktualisieren von Sammlungen auf Objekten.
 

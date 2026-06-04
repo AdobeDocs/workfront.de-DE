@@ -1,19 +1,28 @@
 ---
-title: 22.1 Projektverbesserungen
-description: 22.1 Projektverbesserungen
+title: Verbesserungen bei Projekten in Version 22.1
+description: Verbesserungen bei Projekten in Version 22.1
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d24f2aae-1c3d-41ed-ad17-6276bef2cf45
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/QLnfzVhpml4MQ4XC3sr4NRHrM-PT36-n2CJwDMgwE5Q
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 0%
+source-wordcount: 1223
+ht-degree: 1%
 
 ---
 
-# 22.1 Projektverbesserungen
+# Verbesserungen bei Projekten in Version 22.1
 
 Auf dieser Seite werden alle mit Version 22.1 vorgenommenen Projektverbesserungen in der Vorschau-Umgebung beschrieben. Diese Verbesserungen werden in der Produktionsumgebung verfügbar gemacht
 
@@ -130,7 +139,7 @@ Zuvor wurde die Liste Nach Benutzer filtern sowohl auf Kanban- als auch auf Scru
 Weitere Informationen finden Sie in den folgenden Abschnitten
 
 * [Filtern Sie nach Benutzer auf dem Scrum-Board](../../../agile/use-scrum-in-an-agile-team/scrum-board/filter-by-user-scrum-board.md)
-* [Nach Benutzer auf dem Kanban-Board filtern](../../../agile/use-kanban-in-an-agile-team/filter-by-user.md)
+* [Filtern nach Benutzenden auf dem Kanban-Board](../../../agile/use-kanban-in-an-agile-team/filter-by-user.md)
 
 ## Möglichkeit beschränken, Dokumente zu einer Vorlage hinzuzufügen, die Sie freigeben
 
@@ -140,7 +149,7 @@ Anweisungen zum Freigeben einer Vorlage finden Sie unter [Freigeben von Projektv
 
 Informationen zur neuen erweiterten Einstellung „Dokumente hinzufügen“ finden Sie im Abschnitt im Artikel [Freigeben einer Vorlage](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-## Dokumentenordner freigeben
+## Freigeben eines Dokumentenordners
 
 Jetzt können Sie einen Dokumentordner und seinen Inhalt über den Bereich Dokumente freigeben. Zuvor war dies nicht möglich - Sie mussten jedes Dokument in einem Ordner separat freigeben.
 

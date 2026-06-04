@@ -1,20 +1,30 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-1-release-activity
-title: Verbesserungen beim Ressourcenmanagement in 2020.1
+title: Verbesserungen beim Ressourcen-Management in Version 2020.1
 description: Auf dieser Seite werden alle Verbesserungen beschrieben, die mit der Version 2020.1 an der Ressourcenverwaltungsfunktionalität vorgenommen wurden. Diese Verbesserungen sind derzeit in der Vorschau -Umgebung verfügbar und werden Ende März oder Anfang April 2020 in der Produktionsumgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d4d96040-f316-4dc2-9422-b9ef82e6b2e4
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/8azsUK4tg3uCUPhsZYtNRPh9p6QUTBPz1RkWyhJZ26Y
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 0%
+source-wordcount: 447
+ht-degree: 1%
 
 ---
 
-# Verbesserungen beim Ressourcenmanagement in 2020.1
+# Verbesserungen beim Ressourcen-Management in Version 2020.1
 
 Auf dieser Seite werden alle Verbesserungen beschrieben, die mit der Version 2020.1 an der Ressourcenverwaltungsfunktionalität vorgenommen wurden. Diese Verbesserungen sind derzeit in der Vorschau -Umgebung verfügbar und werden Ende März oder Anfang April 2020 in der Produktionsumgebung verfügbar gemacht.
 

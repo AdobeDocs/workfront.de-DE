@@ -1,19 +1,26 @@
 ---
-title: 22.4 Agile-Verbesserungen
-description: 22.4 Agile-Verbesserungen
+title: Verbesserungen bei Agile in Version 22.4
+description: Verbesserungen bei Agile in Version 22.4
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5d954537-5ee4-43b5-b1ab-d62433496e35
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/aT7LstXDYaNh1acR5Zwzj4eNFiqKwDSL7iEWJaKGoDs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 0%
+source-wordcount: 750
+ht-degree: 1%
 
 ---
 
-# 22.4 Agile-Verbesserungen
+# Verbesserungen bei Agile in Version 22.4
 
 Auf dieser Seite werden alle Agile-Verbesserungen beschrieben, die mit der Version 22.4 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 3. Oktober 2022 zur Verfügung gestellt.
 
@@ -31,7 +38,7 @@ Auf einer Pinnwand ist nur eine Aufnahmespalte zulässig.
 
 Weitere Informationen finden Sie unter [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
 
-[Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3412867/){target=_blank}
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an](https://video.tv.adobe.com/v/3412867/){target=_blank}
 
 ## Aktualisiertes Filterbedienfeld in Pinnwänden
 
@@ -41,7 +48,7 @@ Die Filter- und Suchsymbole auf einer Pinnwand wurden nach links verschoben. Wen
 
 Weitere Informationen finden Sie unter [Filtern und Suchen in einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-[Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3412868/){target=_blank}
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an](https://video.tv.adobe.com/v/3412868/){target=_blank}
 
 ## Verwenden von Gruppen auf einem Board zum Erstellen von Swimlines
 
@@ -53,7 +60,7 @@ Karten in der Aufnahmespalte sind nicht in einer Gruppe enthalten.
 
 Weitere Informationen finden Sie unter [Verwenden von Gruppen auf einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412869/){target=_blank}
+[Sehen Sie sich eine Videodemonstration dieser Funktion an.](https://video.tv.adobe.com/v/3412869/){target=_blank}
 
 ## Verbesserungen bei Checklisten-Elementen auf Pinnwänden
 
@@ -77,7 +84,7 @@ Nachdem Sie das Team der Pinnwand hinzugefügt haben, können Sie das Team Karte
 
 Weitere Informationen finden Sie unter [Mitglieder zu einer Pinnwand hinzufügen oder daraus entfernen](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412870/){target=_blank}
+[Sehen Sie sich eine Videodemonstration dieser Funktion an.](https://video.tv.adobe.com/v/3412870/){target=_blank}
 
 ## Limit für laufende Arbeiten ist jetzt in den Spalten der Pinnwand verfügbar
 
@@ -89,7 +96,7 @@ Sie können jetzt für jede Spalte einer Pinnwand ein Limit für laufende Arbeit
 
 Weitere Informationen finden Sie unter [Pinnwand-Spalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412871/){target=_blank}
+[Sehen Sie sich eine Videodemonstration dieser Funktion an.](https://video.tv.adobe.com/v/3412871/){target=_blank}
 
 ## Zu Karten hinzugefügtes Schätzfeld
 
@@ -99,4 +106,4 @@ Weitere Informationen finden Sie unter [Pinnwand-Spalten verwalten](/help/quicks
 
 In einem neuen Feld Schätzung auf sowohl Ad-hoc- als auch verbundenen Karten können Sie die geschätzte Anzahl der Stunden eingeben, die für die Karte ausgeführt werden soll. Dies ist ein manueller Eintrag, kein berechneter Wert, und der Wert darf nicht mehr als 99 sein. Der Schätzwert wird auf der Karte auf der Pinnwand sowie in den Kartendetails angezeigt.
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412872/){target=_blank}
+[Sehen Sie sich eine Videodemonstration dieser Funktion an.](https://video.tv.adobe.com/v/3412872/){target=_blank}

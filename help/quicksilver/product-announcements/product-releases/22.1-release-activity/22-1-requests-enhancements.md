@@ -1,19 +1,26 @@
 ---
-title: 22.1 Verbesserungen bei Anfragen
-description: 22.1 Verbesserungen bei Anfragen
+title: Verbesserungen bei Anfragen in Version 22.1
+description: Verbesserungen bei Anfragen in Version 22.1
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be6da26d-1d80-4946-8222-cd164b2b633f
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+TQID: https://experienceleague.adobe.com/AmKIQPLxnJW4nPNdIEUlnMvUlxMbh4jquWpFYz0k6qY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 0%
+source-wordcount: 456
+ht-degree: 2%
 
 ---
 
-# 22.1 Verbesserungen bei Anfragen
+# Verbesserungen bei Anfragen in Version 22.1
 
 Auf dieser Seite werden alle mit Version 22.1 vorgenommenen Verbesserungen bei Anfragen an die Vorschau-Umgebung beschrieben. Diese Verbesserungen werden in der Produktionsumgebung verfügbar gemacht
 
@@ -35,7 +42,7 @@ Vor dieser Verbesserung wurde die Schaltfläche Neue Anfrage für diese Benutzer
 
 Weitere Informationen zum Erstellen von Anfragen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anfragen](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-## Anforderungen kopieren und senden
+## Kopieren und Senden von Anfragen
 
 Um Ihren Prozess für das Senden von Anfragen zu optimieren, führen wir eine neue Funktion ein, mit der Sie eine vorhandene Anfrage kopieren und als neue Anfrage senden können. Dies ist hilfreich, wenn Sie häufig ähnliche Anfragen senden. In diesem Fall können Sie eine vorhandene Anfrage wiederverwenden, einige Änderungen vornehmen und sie dann als neue Anfrage senden.
 

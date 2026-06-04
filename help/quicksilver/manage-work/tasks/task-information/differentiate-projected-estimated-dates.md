@@ -2,19 +2,29 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Übersicht über geplante und geschätzte Termine
+title: Überblick über geplante und geschätzte Termine
 description: Es gibt verschiedene Datumstypen, die den zeitlichen Ablauf von Aufgaben zwischen dem Start und dem Abschluss anzeigen.
 author: Alina
 feature: Work Management
 exl-id: 7cc68fc4-5f79-4ce6-a404-737ea8959ec3
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+TQID: https://experienceleague.adobe.com/H-lO-an4TrEuwNx-l76JFpACJfyM22g36F3pa3aP6EY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 0%
+source-wordcount: 925
+ht-degree: 1%
 
 ---
 
-# Übersicht über geplante und geschätzte Termine
+# Überblick über geplante und geschätzte Termine
 
 <!--Audited: 07/2024-->
 
@@ -39,7 +49,7 @@ Die geplanten Termine sind die Termine, die der Projektbesitzer als Start- und E
 
 Wenn eine Aufgabe zum ersten Mal erstellt wird, hat sie keine tatsächlichen Daten, da sie noch nicht gestartet oder abgeschlossen ist.
 
-## Übersicht über geplante und geschätzte Termine
+## Überblick über geplante und geschätzte Termine
 
 Während der Laufzeit eines Projekts entsprechen die voraussichtlichen und geschätzten Termine eher der Realität des Projekts, da sie berücksichtigen, was sich auf den tatsächlichen Beginn und das Ende einer Aufgabe auswirken kann. Dies führt dazu, dass sie von den geplanten Terminen abweichen.
 

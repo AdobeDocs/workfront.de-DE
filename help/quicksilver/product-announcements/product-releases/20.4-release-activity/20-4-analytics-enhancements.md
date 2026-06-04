@@ -1,19 +1,26 @@
 ---
-title: ​20. 4 Analytics-Verbesserungen
-description: ​20. 4 Analytics-Verbesserungen
+title: ​20. 4 Verbesserungen der Analyse
+description: ​20. 4 Verbesserungen der Analyse
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39e09278-afce-4e9b-857c-f18453081f9d
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+TQID: https://experienceleague.adobe.com/RCi84gNcFN4SiAwEWYqSBTu-BBL-pFoGr0jc9o6yiYw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 0%
+source-wordcount: 209
+ht-degree: 5%
 
 ---
 
-# &#x200B;20. 4 Analytics-Verbesserungen
+# &#x200B;20. 4 Verbesserungen der Analyse
 
 Auf dieser Seite werden alle Analytics-Verbesserungen beschrieben, die mit Version 20.4 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 9. November 2020 in der Produktionsumgebung verfügbar gemacht.
 

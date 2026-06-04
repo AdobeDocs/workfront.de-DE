@@ -7,14 +7,23 @@ description: Der Aktualisierungstyp eines Projekts gibt an, wie Adobe Workfront 
 author: Alina
 feature: Work Management
 exl-id: a6394961-2ac8-4b95-aa1b-dba8108c612f
-source-git-commit: 885bdb0e28c2807f14cc3919a3057a4a48b2422d
+TQID: https://experienceleague.adobe.com/bLY-ljw7HxR2kXRpi9jzMkSKbGSKhDrvzogvK5-wZ90
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: 520
 ht-degree: 0%
 
 ---
 
-# Übersicht über den Projektaktualisierungstyp
+# Überblick über den Projektaktualisierungstyp
 
 Der Aktualisierungstyp eines Projekts gibt an, wie Adobe Workfront die Zeitleiste eines Projekts berechnet. Änderungen am Projektplan können zu Triggern in der Zeitleiste des Projekts führen. Die Zeitleiste des Projekts muss automatisch oder manuell neu berechnet werden, um sicherzustellen, dass es mit diesen Änderungen auf dem neuesten Stand ist.
 
@@ -33,7 +42,7 @@ Informationen zum Aktualisieren des Aktualisierungstyps des Projekts finden Sie 
 * **Automatisch und Bei Änderung** Dies ist die Standardeinstellung. Die Zeitleiste des Projekts wird jedes Mal aktualisiert, wenn eine Änderung im Projekt oder in einem anderen Projekt auftritt, von dem die Zeitleiste abhängig ist. Die Zeitleiste des Projekts wird ebenfalls jede Nacht aktualisiert.\
   Dies ist die empfohlene Einstellung, da sie sicherstellt, dass die Zeitleiste des Projekts immer auf dem neuesten Stand ist.
 
-  Trigger Wenn Sie eine Aufgabe oder das Projekt aktualisieren und eine Neuberechnung der Zeitleiste durchführen, werden alle verfügbaren Daten sofort angezeigt, sodass Sie weiterarbeiten können. Bei Projekten mit mehr als 100 Aufgaben werden Datumsangaben, für die längere Berechnungen erforderlich sind, abgeblendet.
+  Wenn Sie eine Aufgabe oder das Projekt aktualisieren und eine Neuberechnung der Zeitleiste durchführen, werden alle verfügbaren Daten sofort angezeigt, sodass Sie weiterarbeiten können. Bei Projekten mit mehr als 100 Aufgaben werden Datumsangaben, für die längere Berechnungen erforderlich sind, abgeblendet.
 
   ![Datumsangaben bei Inline-Bearbeitung abgeblendet](assets/dates-dimmed-when-insline-editing-350x146.png)
 

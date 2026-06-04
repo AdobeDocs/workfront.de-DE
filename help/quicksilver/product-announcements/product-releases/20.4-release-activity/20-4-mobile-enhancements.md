@@ -1,19 +1,28 @@
 ---
-title: 20.4 Verbesserungen bei Mobile und Integration
-description: 20.4 Verbesserungen bei Mobile und Integration
+title: Verbesserungen bei Mobilgeräten und Integrationen in Version 20.4
+description: Verbesserungen bei Mobilgeräten und Integrationen in Version 20.4
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: b7f986a6-a876-4e0d-84e5-237ec8fcf590
-source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
+TQID: https://experienceleague.adobe.com/E8E3zY1dajNPGM7Kau4qYevs3-BEsq-8WLaRlOUUkYQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 0%
+source-wordcount: 453
+ht-degree: 5%
 
 ---
 
-# 20.4 Verbesserungen bei Mobile und Integration
+# Verbesserungen bei Mobilgeräten und Integrationen in Version 20.4
 
 Auf dieser Seite werden alle mit Version 20.4 vorgenommenen Verbesserungen an Mobilgeräten in der Vorschau-Umgebung beschrieben. Diese Verbesserungen werden in der Woche vom 9. November 2020 in der Produktionsumgebung verfügbar gemacht.
 
@@ -32,7 +41,7 @@ Um die Verwendung von Workfront über Microsoft Teams zu vereinfachen, haben wir
 * Wir haben es Ihnen ermöglicht, die benutzerdefinierten Formulare eines Arbeitselements in der Benachrichtigung zu sehen und das benutzerdefinierte Formular zu erweitern, um die Felder zu sehen.
 * Wenn Sie eine Benachrichtigung über ein Projekt, eine Aufgabe oder ein Problem erhalten, können Sie jetzt den Status des Arbeitselements direkt in der Benachrichtigung ändern.
 
-Weitere Informationen finden Sie unter [Verwalten von Adobe Workfront-Benachrichtigungen in Microsoft Teams &#x200B;](../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
+Weitere Informationen finden Sie unter [Verwalten von Adobe Workfront-Benachrichtigungen in Microsoft Teams](../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
 
 ## Einführung in Workfront für MobileIron
 

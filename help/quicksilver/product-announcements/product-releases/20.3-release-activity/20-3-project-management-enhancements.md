@@ -1,20 +1,33 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-3-release-activity
-title: 20.3 Verbesserungen beim Projektmanagement
+title: Verbesserungen beim Projekt-Management in Version 20.3
 description: Auf dieser Seite werden alle mit Version 20.3 vorgenommenen Verbesserungen des Projektmanagements für die Produktionsumgebung beschrieben. Diese Verbesserungen wurden in der Woche vom 10. August 2020 in der Produktionsumgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: acde4cf2-a755-4e77-9469-f5152991dd34
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+TQID: https://experienceleague.adobe.com/m72HcdqC9ZH3Kzn11Lb1EoL-LZmosFkPVW3FUxa1gq8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '924'
+source-wordcount: 932
 ht-degree: 0%
 
 ---
 
-# 20.3 Verbesserungen beim Projektmanagement
+# Verbesserungen beim Projekt-Management in Version 20.3
 
 Auf dieser Seite werden alle mit Version 20.3 vorgenommenen Verbesserungen des Projektmanagements für die Produktionsumgebung beschrieben. Diese Verbesserungen wurden in der Woche vom 10. August 2020 in der Produktionsumgebung verfügbar gemacht.
 

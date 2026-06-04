@@ -1,20 +1,25 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-3-release-activity
-title: 20.3 Agile-Verbesserungen
+title: Verbesserungen bei Agile in Version 20.3
 description: Auf dieser Seite werden alle Agile-Verbesserungen beschrieben, die mit der Version 20.3 in der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Woche vom 10. August 2020 in der Produktionsumgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f86122a2-17c7-4df5-a958-177cc3d14f73
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/MoQigSOg9AvIVI0Z5IhS-BttZJn6xTkD9elVY1QVrNw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 0%
+source-wordcount: 177
+ht-degree: 3%
 
 ---
 
-# 20.3 Agile-Verbesserungen
+# Verbesserungen bei Agile in Version 20.3
 
 Auf dieser Seite werden alle Agile-Verbesserungen beschrieben, die mit der Version 20.3 in der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Woche vom 10. August 2020 in der Produktionsumgebung verfügbar gemacht.
 
