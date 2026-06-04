@@ -9,10 +9,15 @@ exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/WK0xnK-IRQhM5mHeps2rjiC-YIPuYS5eFX7LzAoesHM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 566
@@ -69,7 +74,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
    Wenn Sie eine Teilaufgabe auswählen, wird sie auch als Karte auf der Pinnwand hinzugefügt.
 
 1. Klicken Sie auf [!UICONTROL **Mehr**] > [!UICONTROL **Zu Pinnwänden hinzufügen**] oder [!UICONTROL **Zu Arbeitsabläufen hinzufügen**].
-1. Wählen [!UICONTROL  Dialogfeld „Hinzufügen zu] die Pinnwand oder den Arbeitsablauf aus, dem die Elemente hinzugefügt werden sollen.
+1. Wählen [!UICONTROL &#x200B; Dialogfeld „Hinzufügen zu] die Pinnwand oder den Arbeitsablauf aus, dem die Elemente hinzugefügt werden sollen.
 
    Für eine Pinnwand sind nur eigenständige Pinnwände verfügbar, nicht Pinnwände, die Teil von Arbeitsabläufen sind.
 
@@ -77,7 +82,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
    Bei einer Pinnwand: Die Aufgabe oder das Problem wird der Pinnwand als Karte hinzugefügt. Wenn auf die Pinnwand Spaltenrichtlinien auf den Status angewendet wurden, wird die Karte in der Spalte hinzugefügt, die ihrem Status entspricht. Andernfalls wird sie in der ersten Spalte auf der linken Seite angezeigt, ohne die Aufnahmespalte.
 
-   Informationen zu Spaltenrichtlinien finden Sie unter [Verwalten von ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)).
+   Informationen zu Spaltenrichtlinien finden Sie unter [Verwalten von &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)).
 
    Für einen Arbeitsablauf: Die Aufgabe oder das Problem wird der Kartenliste des Arbeitsablaufs als ungeplante Karte hinzugefügt.
 
@@ -89,7 +94,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 1. Klicken Sie [!UICONTROL **linken Bedienfeld**] Aufgaben [!UICONTROL **oder**] Probleme“.
 1. Klicken Sie auf die Aufgabe, Unteraufgabe oder das Problem, die bzw. das Sie einer Pinnwand oder einem Arbeitsablauf hinzufügen möchten.
 1. Klicken Sie auf das **[!UICONTROL Mehr]**-Menü neben dem Objektnamen und wählen Sie [!UICONTROL **Zu Pinnwänden hinzufügen**] oder [!UICONTROL **Zu Arbeitsabläufen hinzufügen**].
-1. Wählen [!UICONTROL  Dialogfeld „Hinzufügen zu] die Pinnwand oder den Arbeitsablauf aus, dem die Elemente hinzugefügt werden sollen.
+1. Wählen [!UICONTROL &#x200B; Dialogfeld „Hinzufügen zu] die Pinnwand oder den Arbeitsablauf aus, dem die Elemente hinzugefügt werden sollen.
 
    Für eine Pinnwand sind nur eigenständige Pinnwände verfügbar, nicht Pinnwände, die Teil von Arbeitsabläufen sind.
 
@@ -97,7 +102,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
    Bei einer Pinnwand: Die Aufgabe oder das Problem wird der Pinnwand als Karte hinzugefügt. Wenn auf die Pinnwand Spaltenrichtlinien auf den Status angewendet wurden, wird die Karte in der Spalte hinzugefügt, die ihrem Status entspricht. Andernfalls wird sie in der ersten Spalte auf der linken Seite angezeigt, ohne die Aufnahmespalte.
 
-   Informationen zu Spaltenrichtlinien finden Sie unter [Verwalten von ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)).
+   Informationen zu Spaltenrichtlinien finden Sie unter [Verwalten von &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)).
 
    Für einen Arbeitsablauf: Die Aufgabe oder das Problem wird der Kartenliste des Arbeitsablaufs als ungeplante Karte hinzugefügt.
 

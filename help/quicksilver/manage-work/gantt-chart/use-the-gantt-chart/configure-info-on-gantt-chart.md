@@ -10,11 +10,19 @@ exl-id: 465365a2-d94b-47b6-a393-16770fca2714
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/k9q-K34EL3-iU9mmqH4nWFHPQhLeJ-85fk-AKOprHJI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 845
@@ -105,7 +113,7 @@ In der folgenden Tabelle sind die Anzeigeoptionen für das [!UICONTROL Gantt-Dia
   <tr> 
    <td role="rowheader">Tatsächliche Termine</td> 
    <td> <img src="assets/actual-dates-in-gantt-183x213.png" alt="actual_dates_in_gant.png" style="width: 183;height: 213;"> </td> 
-   <td> <p>[!UICONTROL Tatsächliches Startdatum] und [!UICONTROL Tatsächliches Abschlussdatum] werden mit einem Dreieckssymbol angezeigt. Wenn das tatsächliche Abschlussdatum von [!UICONTROL] null ist, wird nur das tatsächliche Startdatum von [!UICONTROL] angezeigt.</p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">Übersicht über das Projekt [!UICONTROL Tatsächliches Abschlussdatum] </a> und <a href="../../../manage-work/projects/planning-a-project/project-actual-start-date.md" class="MCXref xref">Übersicht über das Projekt [!UICONTROL Tatsächliches Startdatum] </a>.</p> </td> 
+   <td> <p>[!UICONTROL Tatsächliches Startdatum] und [!UICONTROL Tatsächliches Abschlussdatum] werden mit einem Dreieckssymbol angezeigt. Wenn das tatsächliche Abschlussdatum von  null ist, wird nur das tatsächliche Startdatum von  angezeigt.</p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">Übersicht über das Projekt [!UICONTROL Tatsächliches Abschlussdatum] </a> und <a href="../../../manage-work/projects/planning-a-project/project-actual-start-date.md" class="MCXref xref">Übersicht über das Projekt [!UICONTROL Tatsächliches Startdatum] </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Arbeitsaufträge]</td> 
@@ -150,7 +158,7 @@ In der folgenden Tabelle sind die Anzeigeoptionen für das [!UICONTROL Gantt-Dia
   <tr> 
    <td role="rowheader">[!UICONTROL Fortschrittsstatus]</td> 
    <td> <p>[!UICONTROL on time] <img src="assets/task-on-time--oct.-2017.png" alt="task_on_time__Oct._2017.png"></p> <p>[!UICONTROL dahinter]    <img src="assets/task-behind--oct.-2017.png" alt="task_Behind__Oct._2017.png"></p> <p>[!UICONTROL Gefährdet]    <img src="assets/task-at-risk.png" alt="task_at_risk.png"></p> <p>Verspätet        <img src="assets/task-late-oct.2017.png" alt="task_late_oct.2017.png"></p> </td> 
-   <td> <p> </p> <p>Der Status des aktuellen Fortschritts bei einer bestimmten Aufgabe. </p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Übersicht über den [!UICONTROL-Fortschrittsstatus</a>.</p> </td> 
+   <td> <p> </p> <p>Der Status des aktuellen Fortschritts bei einer bestimmten Aufgabe. </p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Übersicht über den -Fortschrittsstatus</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Voraussichtliche Termine</td> 
@@ -169,10 +177,10 @@ In der folgenden Tabelle sind die Anzeigeoptionen für das [!UICONTROL Gantt-Dia
 1. Klicken Sie auf **Symbol** Optionen“. Das **Optionen** wird geöffnet.\
    ![options.png](assets/options-350x129.png)
 
-1. Wählen Sie die Konfigurationsoptionen aus, die Sie im [!UICONTROL Gantt-Diagramm“ anzeigen ].
+1. Wählen Sie die Konfigurationsoptionen aus, die Sie im [!UICONTROL Gantt-Diagramm“ anzeigen &#x200B;].
 
    >[!NOTE]
    >
-   > Nicht alle Konfigurationsoptionen sind in der Projektliste (Gantt[!UICONTROL Diagramm) ].
+   > Nicht alle Konfigurationsoptionen sind in der Projektliste (Gantt[!UICONTROL Diagramm) &#x200B;].
 
 1. Klicken Sie auf eine beliebige Stelle im Gantt-Diagramm, um das Dialogfeld **Optionen** zu schließen.

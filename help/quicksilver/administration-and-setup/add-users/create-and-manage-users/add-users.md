@@ -9,11 +9,16 @@ feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
 TQID: https://experienceleague.adobe.com/TeDJRpOI2i7PQIb-ImUyHTTi0ETJ7pZcOVRM3WMQhWY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1221
@@ -98,7 +103,7 @@ Bevor Sie einen Benutzer hinzufügen, sammeln Sie die unten aufgeführten Inform
   >Sie können bestimmen, ob Benutzer die Kontaktinformationen anderer Benutzer anzeigen können, indem Sie die Einstellung „Benutzeransicht“ optimieren, wenn Sie Zugriffsebenen für Workfront-Objekte angeben. Weitere Informationen finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 * Welche Position hat der neue Benutzer innerhalb des Unternehmens? Hat diese Person direkt unterstellte Mitarbeiter? Wem berichtet diese Person?
-* Welche Aufgabengebiete hat die Person? Gibt es dieses Aufgabengebiet in Workfront? Gibt es eine Begrenzung für die Anzahl der Personen, die dieses Aufgabengebiet ausfüllen können? Informationen zum Erstellen von Aufgabengebieten finden Sie unter [Erstellen und Verwalten von ](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)).
+* Welche Aufgabengebiete hat die Person? Gibt es dieses Aufgabengebiet in Workfront? Gibt es eine Begrenzung für die Anzahl der Personen, die dieses Aufgabengebiet ausfüllen können? Informationen zum Erstellen von Aufgabengebieten finden Sie unter [Erstellen und Verwalten von &#x200B;](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)).
 * Welche Zugriffsebene sollte der Benutzer haben? Ist es bereits vorhanden oder muss ein neues erstellt werden? Weitere Informationen finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 * In welcher Hauptgruppe sollte sich dieser Benutzer befinden? Sollte die Person in mehr als einer Gruppe sein? Informationen zu Gruppen finden Sie unter [Gruppen - Übersicht](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 * In welchem Haupt-Team sollte sich dieser Benutzer befinden? Sollte die Person in mehr als einem Team sein? Informationen zu Teams finden Sie unter [Teams - Übersicht](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
@@ -120,7 +125,7 @@ Bevor Sie einen Benutzer hinzufügen, sammeln Sie die unten aufgeführten Inform
 
 1. Klicken Sie im **Neuer Benutzer** auf **Erweiterte Optionen anzeigen** und konfigurieren Sie dann die verfügbaren Optionen, um die Informationen der Person einzugeben.
 
-   Weitere Informationen zu diesen Optionen finden [ unter „Benutzerprofil bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   Weitere Informationen zu diesen Optionen finden [&#x200B; unter „Benutzerprofil bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 1. Führen Sie einen der folgenden Schritte aus:
 
@@ -171,7 +176,7 @@ So erstellen Sie einen neuen Benutzer durch Kopieren eines vorhandenen Benutzers
 
 {{step-1-to-users}}
 
-1. Wählen Sie den Benutzer aus, den Sie kopieren möchten, und klicken Sie dann auf das Symbol „Kopieren![ „Kopieren](assets/copy-icon.png).
+1. Wählen Sie den Benutzer aus, den Sie kopieren möchten, und klicken Sie dann auf das Symbol „Kopieren![&#x200B; „Kopieren](assets/copy-icon.png).
 1. Bearbeiten Sie im **Benutzer kopieren** angezeigten Feld die für den neuen Benutzer verfügbaren Felder.
 
    Informationen zu allen mit einem Benutzer verknüpften Feldern finden Sie unter [Bearbeiten des Benutzerprofils](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).

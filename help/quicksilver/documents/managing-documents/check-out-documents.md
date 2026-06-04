@@ -9,10 +9,14 @@ exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/kkWxK2NzQtSfeRqsd0vEB-2AUYFrO6WIU3A752w7kM4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 593
@@ -91,7 +95,7 @@ Wenn Sie über Verwaltungsberechtigungen für ein Dokument verfügen, können Si
 
 1. Klicken Sie auf das **Auschecken**-Symbol ![Auschecken-Symbol](assets/check-out-25x23.png).
 
-1. Rechts neben dem ![ wird ein Sperrsymbol ](assets/lock-icon-locked-qs.png)Sperrsymbol) angezeigt. Das Dokument bleibt nach der Abmeldung von Workfront ausgecheckt.
+1. Rechts neben dem ![&#x200B; wird ein Sperrsymbol &#x200B;](assets/lock-icon-locked-qs.png)Sperrsymbol) angezeigt. Das Dokument bleibt nach der Abmeldung von Workfront ausgecheckt.
 1. Nur der Benutzer, der das Dokument ausgecheckt hat, oder der Workfront-Administrator können das Dokument einchecken.
 
 ## Ausgecheckte Dokumente verwalten
@@ -115,6 +119,6 @@ Einchecken eines Dokuments:
 
 1. Wechseln Sie zum Bereich, in dem Ihr Dokument gespeichert ist, und wählen Sie das Dokument aus. 
 
-   Rechts neben dem ![ wird ein Sperrsymbol ](assets/lock-icon-locked-qs.png)Sperrsymbol) angezeigt.
+   Rechts neben dem ![&#x200B; wird ein Sperrsymbol &#x200B;](assets/lock-icon-locked-qs.png)Sperrsymbol) angezeigt.
 
-1. Klicken Sie auf **Symbol** Einchecken![ (Einchecksymbol](assets/check-in-25x22.png).
+1. Klicken Sie auf **Symbol** Einchecken![&#x200B; (Einchecksymbol](assets/check-in-25x22.png).

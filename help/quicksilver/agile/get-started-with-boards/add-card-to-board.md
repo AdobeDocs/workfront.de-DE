@@ -9,10 +9,15 @@ exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/tCSdvnFEH5GpjBVE8bFNxB4XlWaY3X904Eko1Ebzv-c
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 873
@@ -100,7 +105,7 @@ Eine Ad-hoc-Karte ist nicht mit einem Arbeitselement in [!DNL Adobe Workfront] v
       <td>Geben Sie die geschätzte Anzahl der Stunden ein, die die Karte vervollständigt werden soll. Dies ist nur eine manuelle Eingabe.</td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL-Arbeitsaufträge]</strong> </td> 
+      <td role="rowheader"><strong>[!UICONTROL -Arbeitsaufträge]</strong> </td> 
       <td>Um die Karte zuzuweisen, klicken Sie auf <strong>[!UICONTROL Zuweisung hinzufügen]</strong> und geben Sie einen Namen in das Suchfeld ein. Wählen Sie ihn dann aus, wenn er in der Ergebnisliste angezeigt wird. Sie können sowohl Einzelpersonen als auch Teams hinzufügen und einer Karte mehr als eine Person oder ein Team zuweisen.</td>
      </tr>     
      <tr> 
@@ -108,7 +113,7 @@ Eine Ad-hoc-Karte ist nicht mit einem Arbeitselement in [!DNL Adobe Workfront] v
       <td>Suchen Sie nach Tags für die Karte und wählen Sie diese aus. Informationen zum Erstellen neuer Tags finden Sie unter <a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref">Tags hinzufügen</a>.</td> 
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL-Verbindung]</strong> </td>
+      <td role="rowheader"><strong>[!UICONTROL -Verbindung]</strong> </td>
       <td>Sie können eine Ad-hoc-Karte mit einer [!DNL Workfront] Aufgabe oder einem Problem verbinden. Weitere Informationen finden Sie unter „Konvertieren einer Ad-hoc-Karte in eine verbundene Karte“ im Artikel <a href="/help/quicksilver/agile/get-started-with-boards/connected-cards.md">Verwenden von verbundenen Karten auf Pinnwänden</a>.</td>
      </tr>
      <tr> 
@@ -156,6 +161,6 @@ Sie können Ad-hoc-Karten mit nur einem Titel hinzufügen, um Ihre Pinnwand schn
 
    Klicken Sie auf das **[!UICONTROL Mehr]**-Menü ![[!UICONTROL Mehr]](assets/more-icon-spectrum.png) auf der Karte und wählen Sie **[!UICONTROL Bearbeiten]**.
 
-1. Aktualisieren Sie [!UICONTROL  Feld ]Kartendetails“ die Informationen nach Bedarf und klicken Sie auf **[!UICONTROL Schließen]**, um zur Pinnwand zurückzukehren.
+1. Aktualisieren Sie [!UICONTROL &#x200B; Feld &#x200B;]Kartendetails“ die Informationen nach Bedarf und klicken Sie auf **[!UICONTROL Schließen]**, um zur Pinnwand zurückzukehren.
 
-   Wenn Sie Spaltenrichtlinien zum Aktualisieren von Feldwerten aktiviert haben, wird die Karte beim Ändern des Status auf der Karte automatisch in die entsprechende Spalte verschoben. Weitere Informationen finden Sie unter „Definieren von Spalteneinstellungen und Richtlinien“ im Artikel [Verwalten von ](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)&quot;.
+   Wenn Sie Spaltenrichtlinien zum Aktualisieren von Feldwerten aktiviert haben, wird die Karte beim Ändern des Status auf der Karte automatisch in die entsprechende Spalte verschoben. Weitere Informationen finden Sie unter „Definieren von Spalteneinstellungen und Richtlinien“ im Artikel [Verwalten von &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)&quot;.

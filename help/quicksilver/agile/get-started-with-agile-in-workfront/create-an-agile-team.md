@@ -9,10 +9,14 @@ exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LPML04xJOX-N5kVmXX5iBgDipiFIAPbQ11vA1zrZtBo
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 944
@@ -79,9 +83,9 @@ Die folgende Funktion unterstützt diese Methode:
 Weitere Informationen finden Sie unter [Hinzufügen des Rückstands zum [!UICONTROL Kanban]-Board](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md).
 
 * Konfigurieren Sie Elemente im Rückstand, die automatisch zum [!UICONTROL Kanban) Agile-Story]Board hinzugefügt werden sollen, wenn andere Elemente in einen Status verschoben werden, der mit „Abgeschlossen“ übereinstimmt.
-Weitere Informationen finden Sie im Abschnitt [Konfigurieren von Storys, die automatisch aus dem ](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) hinzugefügt werden“ im Artikel [Konfigurieren von Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+Weitere Informationen finden Sie im Abschnitt [Konfigurieren von Storys, die automatisch aus dem &#x200B;](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) hinzugefügt werden“ im Artikel [Konfigurieren von Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
-* Konfigurieren Sie ein Work In Progress (WIP)-Limit, das auf dem Agile-Story[!UICONTROL Board von ]Kanban“ angezeigt werden soll.
+* Konfigurieren Sie ein Work In Progress (WIP)-Limit, das auf dem Agile-Story[!UICONTROL Board von &#x200B;]Kanban“ angezeigt werden soll.
 Weitere Informationen finden Sie unter [Verwalten des Work In Progress (WIP)-Limits auf dem Kanban-Board](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
 
 ### Vorteile der Verwendung von Scrum in [!DNL Workfront]
@@ -166,7 +170,7 @@ Sie können ein vorhandenes Team in ein Agile-Team umwandeln:
 
 1. Wählen Sie im Abschnitt **[!UICONTROL Agile]** die Option **[!UICONTROL Dies ist ein Agile-Team]** aus.
 
-1. Wählen Sie **[!UICONTROL Abschnitt]** Methodik“ aus, ob das Team eine **** Scrum- oder **[!UICONTROL Kanban]** Methode verwenden soll.
+1. Wählen Sie **[!UICONTROL Abschnitt]** Methodik“ aus, ob das Team eine **&#x200B;**&#x200B;Scrum- oder **[!UICONTROL Kanban]** Methode verwenden soll.
 
 1. Klicken Sie auf **Änderungen speichern**.
 

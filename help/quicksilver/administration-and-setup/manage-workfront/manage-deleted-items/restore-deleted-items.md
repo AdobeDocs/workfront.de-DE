@@ -9,11 +9,18 @@ author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
 TQID: https://experienceleague.adobe.com/1IXsiNHxckJbTd30JCR3N4bEGOyAWfLRBdGj8dGsHnY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1029
@@ -140,7 +147,7 @@ Wenn Sie ein Projekt, eine Aufgabe oder ein Problem wiederherstellen, werden die
 
   Ein Lösungsobjekt ist ein konvertiertes Problem, das mit der Option **Ursprüngliches Problem beibehalten und seine Lösung hiermit verknüpfen** &lt;**(Projekt** oder **Aufgabe)**> konfiguriert wurde. Wenn Sie das übergeordnete Projekt oder die übergeordnete Aufgabe löschen, wird das Problem nicht mehr als Lösungsobjekt identifiziert, da keine Verbindung mehr zum Projekt oder zur Aufgabe besteht. Wenn Sie das übergeordnete Element wiederherstellen, wird die Verknüpfung nicht wiederhergestellt.
 
-  Weitere Informationen dazu, wie Workfront-Admins oder Gruppenadmins Probleme so konfigurieren, dass sie beim Konvertieren dem Lösungsobjekt entsprechen, finden Sie unter [Konfigurieren von systemweiten Aufgaben- und ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) und [Konfigurieren von Aufgaben- und Problemeinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+  Weitere Informationen dazu, wie Workfront-Admins oder Gruppenadmins Probleme so konfigurieren, dass sie beim Konvertieren dem Lösungsobjekt entsprechen, finden Sie unter [Konfigurieren von systemweiten Aufgaben- und &#x200B;](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) und [Konfigurieren von Aufgaben- und Problemeinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
   Weitere Informationen zum Konvertieren von Problemen finden Sie unter [Übersicht über das Konvertieren von Problemen in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 

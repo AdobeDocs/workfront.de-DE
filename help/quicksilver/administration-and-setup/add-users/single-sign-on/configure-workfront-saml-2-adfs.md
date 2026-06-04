@@ -9,10 +9,16 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 9bc5987b-6e32-47df-90c8-08ea4b1b7451
 TQID: https://experienceleague.adobe.com/X8pRi3tIYP9R-ZGcSaIKpOn50-K44RNZryjjircaaSY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 849
@@ -71,7 +77,7 @@ Um die Authentifizierung für die Workfront-Web-Anwendung und die Workfront-Mobi
 1. Klicken Sie im linken Bereich auf **System** > **Single Sign-On (SSO)**.
 1. Klicken Sie **Dropdown-** „Typ“ auf **SAML 2.0**, um zusätzliche Informationen und Optionen anzuzeigen.
 1. Kopieren Sie die URL, die nach **Metadaten-URL** angezeigt wird.
-1. Fahren Sie mit dem folgenden Abschnitt fort[ „Konfigurieren von Vertrauensstellungen vertrauender Parteien](#configure-relying-party-trusts).
+1. Fahren Sie mit dem folgenden Abschnitt fort[&#x200B; „Konfigurieren von Vertrauensstellungen vertrauender Parteien](#configure-relying-party-trusts).
 
 ### Konfigurieren von Vertrauensstellungen vertrauender Parteien {#configure-relying-party-trusts}
 
@@ -91,7 +97,7 @@ Um die Authentifizierung für die Workfront-Web-Anwendung und die Workfront-Mobi
 
    Dadurch gelangen Sie zum Abschnitt **Bereit zum Hinzufügen von**&quot;.
 
-1. Fahren Sie mit dem folgenden Abschnitt [Konfigurieren von ](#configure-claim-rules) fort.
+1. Fahren Sie mit dem folgenden Abschnitt [Konfigurieren von &#x200B;](#configure-claim-rules) fort.
 
 ### Anspruchsregeln konfigurieren {#configure-claim-rules}
 

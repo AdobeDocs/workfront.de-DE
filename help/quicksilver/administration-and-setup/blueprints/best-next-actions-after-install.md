@@ -12,11 +12,19 @@ exl-id: 6e5da58f-105a-4edf-8fc1-65e8762d43c6
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/g6c8t3kp1NMAAiXowWC-0CZYnTjJg6A8vd9zgWimvIw
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1138
@@ -46,7 +54,7 @@ Im Installationsprozess wird die Projektvorlage mit keinen benutzerdefinierten F
 
 ### Vorlagenaufgabe - Dauer und Aufwandsschätzungen aktualisieren {#update-template-task-duration-and-effort-estimates}
 
-Jede Aufgabe in der Vorlage enthält eine geplante Dauer und eine geplante Aufwandsschätzung. Diese Schätzungen dienen als Ausgangspunkt für die Dauer und die für diese Aktivitäten aufgewendete Zeit. Die Fähigkeiten, Fähigkeiten und das Tempo Ihres Unternehmens sind jedoch einzigartig. Sie sollten die geschätzte Dauer und den geschätzten Aufwand jeder Aufgabe überprüfen, um sie an die Anforderungen Ihres Unternehmens anzupassen. Weitere Informationen finden Sie unter [Verwalten von Aufgabeninformationen im Bereich [!UICONTROL Übersicht über ] Aufgabendetails](../../manage-work/tasks/manage-tasks/task-information-in-overview.md).
+Jede Aufgabe in der Vorlage enthält eine geplante Dauer und eine geplante Aufwandsschätzung. Diese Schätzungen dienen als Ausgangspunkt für die Dauer und die für diese Aktivitäten aufgewendete Zeit. Die Fähigkeiten, Fähigkeiten und das Tempo Ihres Unternehmens sind jedoch einzigartig. Sie sollten die geschätzte Dauer und den geschätzten Aufwand jeder Aufgabe überprüfen, um sie an die Anforderungen Ihres Unternehmens anzupassen. Weitere Informationen finden Sie unter [Verwalten von Aufgabeninformationen im Bereich [!UICONTROL Übersicht über &#x200B;] Aufgabendetails](../../manage-work/tasks/manage-tasks/task-information-in-overview.md).
 
 ### Meilensteinpfad und Meilensteine verknüpfen {#associate-a-milestone-path-and-milestones}
 
@@ -58,7 +66,7 @@ Bereiten Sie Schulungsmaterialien für die beiden Arbeitsverantwortlichen vor, d
 
 ### Erstellen oder Aktualisieren von Berichten und Dashboards {#create-or-update-reports-and-dashboards}
 
-Wenn es sich bei der Lösung um eine neue Art von Arbeit handelt, die Ihr Unternehmen zuvor noch nicht in [!DNL Workfront] ausgeführt hat, müssen Sie möglicherweise neue Berichte und Dashboards erstellen, um die Arbeit zu unterstützen. Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten ](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) und [Erstellen eines Dashboards](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+Wenn es sich bei der Lösung um eine neue Art von Arbeit handelt, die Ihr Unternehmen zuvor noch nicht in [!DNL Workfront] ausgeführt hat, müssen Sie möglicherweise neue Berichte und Dashboards erstellen, um die Arbeit zu unterstützen. Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten &#x200B;](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) und [Erstellen eines Dashboards](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
 Wenn die Lösung der Arbeit ähnelt, die Sie bereits in [!DNL Workfront] ausgeführt haben, sollten Sie überprüfen, ob die Arbeit erwartungsgemäß in vorhandene Berichte und Dashboards einfließt. Wenn er nicht in Ihr vorhandenes Reporting einfließt, ergreifen Sie Maßnahmen, um Filter zu aktualisieren oder neue Berichte zu erstellen.
 
@@ -75,7 +83,7 @@ Nach der Installation eines Blueprints, der ein Unternehmen enthält:
 * Wenn das Unternehmen einen Kunden repräsentiert und es andere Projektvorlagen gibt, die eindeutig für diese Organisation sind, verknüpfen Sie die Projektvorlagen zunächst mit dem neu hinzugefügten Unternehmen. Weitere Informationen finden Sie unter [Projektvorlagen bearbeiten](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 * Wenn das Unternehmen einen Kunden oder einen Anbieter vertritt, verknüpfen Sie bestehende Benutzer der externen Organisation, die sich möglicherweise bereits in Ihrer Umgebung befindet. Weitere Informationen finden Sie unter [Erstellen und Bearbeiten von Unternehmen](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 * Wenn das Unternehmen einen Kunden oder Anbieter repräsentiert, erstellen Sie zusätzliche Mitarbeiter-Benutzer für die externe Organisation, die Sie möglicherweise in Ihrer Umgebung benötigen, um Kommunikation, Arbeitsausführung und Genehmigungen zu optimieren. Informationen zum Erstellen neuer Benutzer finden Sie unter [Benutzer hinzufügen](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
-* Aktualisieren Sie die Organigrammbeziehungen für alle Benutzer, die jetzt mit dem neu hinzugefügten Unternehmen verknüpft sind. Weitere Informationen finden Sie unter [Erstellen von ](../../administration-and-setup/add-users/create-and-manage-users/create-direct-reports.md) und [Anzeigen des Organigramms](../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
+* Aktualisieren Sie die Organigrammbeziehungen für alle Benutzer, die jetzt mit dem neu hinzugefügten Unternehmen verknüpft sind. Weitere Informationen finden Sie unter [Erstellen von &#x200B;](../../administration-and-setup/add-users/create-and-manage-users/create-direct-reports.md) und [Anzeigen des Organigramms](../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
 
 Weitere Informationen zu Unternehmen finden Sie unter [Erstellen und Bearbeiten von Unternehmen](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
@@ -89,7 +97,7 @@ Die aus einer Blueprint hinzugefügten Dashboards verfügen über einen oder meh
 
 ### Aktualisieren Sie die neu erstellten Berichte, um Spalten oder Filterkriterien hinzuzufügen/zu entfernen
 
-Die über einen Dashboard-Blueprint verteilten Berichte verfügen nicht über alle Spalten oder Filterkriterien, um Ihre Konfiguration von [!DNL Workfront] zu unterstützen. Es wird erwartet, dass Sie einige Anpassungen an den Berichten vornehmen werden, um sie an Ihre Standards anzupassen. Um die Konsistenz mit anderen Berichten in Ihrer Umgebung zu gewährleisten, empfiehlt es sich, eine Spalte in alle Berichte für das aufgelistete Objekt aufzunehmen oder Filterkriterien hinzuzufügen, die die Ergebnisse auf einen bestimmten Projekttyp oder eine bestimmte Benutzergruppe beschränken. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten von ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md) und [Erstellen oder Bearbeiten von Filtern](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+Die über einen Dashboard-Blueprint verteilten Berichte verfügen nicht über alle Spalten oder Filterkriterien, um Ihre Konfiguration von [!DNL Workfront] zu unterstützen. Es wird erwartet, dass Sie einige Anpassungen an den Berichten vornehmen werden, um sie an Ihre Standards anzupassen. Um die Konsistenz mit anderen Berichten in Ihrer Umgebung zu gewährleisten, empfiehlt es sich, eine Spalte in alle Berichte für das aufgelistete Objekt aufzunehmen oder Filterkriterien hinzuzufügen, die die Ergebnisse auf einen bestimmten Projekttyp oder eine bestimmte Benutzergruppe beschränken. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten von &#x200B;](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md) und [Erstellen oder Bearbeiten von Filtern](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 ### Freigeben von Dashboards oder Berichten für Benutzer
 

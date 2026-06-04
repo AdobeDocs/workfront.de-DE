@@ -11,11 +11,18 @@ exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/N-DtYyvhQ--RI0X4UlY2p9F304tTg0zT-5qKCaVjvig
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 629
@@ -137,7 +144,7 @@ Informationen zur Planung und Planung von Ressourcen in [!DNL Workfront] finden 
       </div></li>      
       -->
 
-   * **Der Zeitplan des Benutzers**: [!DNL Workfront] verwendet den Zeitplan des Benutzers sowie den [!UICONTROL Standardzeitplan] des Systems, um den Wert „Verfügbar [!UICONTROL VZÄ] des Benutzers in Ressourcen-Management-Tools zu berechnen. Die verfügbaren Stunden werden nur gemäß dem Zeitplan des Benutzers berechnet, und der Wert des [!UICONTROL  (VZÄ] des Benutzers wird ignoriert. Dies ist die Standardeinstellung.
+   * **Der Zeitplan des Benutzers**: [!DNL Workfront] verwendet den Zeitplan des Benutzers sowie den [!UICONTROL Standardzeitplan] des Systems, um den Wert „Verfügbar [!UICONTROL VZÄ] des Benutzers in Ressourcen-Management-Tools zu berechnen. Die verfügbaren Stunden werden nur gemäß dem Zeitplan des Benutzers berechnet, und der Wert des [!UICONTROL &#x200B; (VZÄ] des Benutzers wird ignoriert. Dies ist die Standardeinstellung.
 
      Weitere Informationen finden Sie unter [Erstellen eines Zeitplans](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) und [Bearbeiten des Benutzerprofils](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
@@ -151,7 +158,7 @@ Informationen zur Planung und Planung von Ressourcen in [!DNL Workfront] finden 
      `User Available Hours = (Hours from the [!UICONTROL Schedule] of the User - Schedule Exceptions - Time off hours) * [!UICONTROL Work Time]`
 
 
-     Der verfügbare [!UICONTROL  (VZÄ] für den Benutzer wird anhand der folgenden Formel berechnet:
+     Der verfügbare [!UICONTROL &#x200B; (VZÄ] für den Benutzer wird anhand der folgenden Formel berechnet:
 
 
      `User Available [!UICONTROL FTE] = [(Hours from the [!UICONTROL Schedule] of the User - Schedule Exceptions - Time off hours) * [!UICONTROL Work Time]] / [!UICONTROL Default Schedule] hours`

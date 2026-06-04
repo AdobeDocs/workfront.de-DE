@@ -9,10 +9,16 @@ feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
 TQID: https://experienceleague.adobe.com/KwUrEyHt6dqTcmP3JrTObsfvkcjP9q7O6-msiBuZVP4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 578
@@ -100,7 +106,7 @@ Sie können Folgendes tun, um die Anzahl der Risikotypen in Ihrer Workfront-Inst
 
 1. (Optional) Ändern Sie den Namen und die Beschreibung des Risikotyps.
 
-   Für die Felder **[!UICONTROL Name“ und]** Beschreibung ]**gibt es eine Zeichenbeschränkung von**[!UICONTROL  0 Zeichen.
+   Für die Felder **[!UICONTROL Name“ und]** Beschreibung **gibt es eine Zeichenbeschränkung von** 0 Zeichen.
 
 1. Klicken Sie **[!UICONTROL Änderungen speichern].**
 
@@ -137,7 +143,7 @@ Zusätzlich zu den standardmäßigen Risikotypen können Sie Risikotypen erstell
 
 1. Fügen Sie **[!UICONTROL Risikotyp einen]** Namen“ (erforderlich) und **[!UICONTROL Beschreibung]** (optional) hinzu.
 
-   Für die Felder **[!UICONTROL Name“ und]** Beschreibung ]**gibt es eine Zeichenbeschränkung von**[!UICONTROL  0 Zeichen.
+   Für die Felder **[!UICONTROL Name“ und]** Beschreibung **gibt es eine Zeichenbeschränkung von** 0 Zeichen.
 
 1. Klicken Sie **[!UICONTROL Risikotyp erstellen]**,
 
@@ -145,7 +151,7 @@ Zusätzlich zu den standardmäßigen Risikotypen können Sie Risikotypen erstell
 
    >[!TIP]
    >
-   >Informationen zum Bearbeiten eines benutzerdefinierten Risikotyps finden Sie im Abschnitt [[!UICONTROL Bearbeiten ] Risikotypen](#edit-existing-risk-types) in diesem Artikel.
+   >Informationen zum Bearbeiten eines benutzerdefinierten Risikotyps finden Sie im Abschnitt [[!UICONTROL Bearbeiten &#x200B;] Risikotypen](#edit-existing-risk-types) in diesem Artikel.
 
 ## Risiken mit Risikotypen an Projekte anhängen
 
