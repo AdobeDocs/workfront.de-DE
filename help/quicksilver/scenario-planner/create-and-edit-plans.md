@@ -6,11 +6,17 @@ description: Sie können Pläne im Rahmen der Verwendung des Workfront-Szenariop
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/i0-G-8KxjFmKp0R4oFPsELMmD6cS06HFKRROeosApYM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2399'
+source-wordcount: 2407
 ht-degree: 1%
 
 ---
@@ -313,8 +319,8 @@ Eine Liste der vorhandenen Pläne, die Sie erstellt haben, wird im [!DNL Workfro
        </div> </td> 
       <td> <p><span>Je nachdem, ob Sie für Ihren Plan Stunden oder VZÄ verwendet haben, </span> Sie die monatliche Anzahl der für das Szenario erforderlichen Aufgabengebiets-VZÄ oder Stunden in den folgenden Feldern: </p> 
        <ul> 
-        <li> <p><strong>[!UICONTROL Erforderlich] (Max. &lt;Anzahl der FTEs&gt;)</strong>: Die Zahl in Klammern zeigt die maximale Anzahl von Rollen an, die für einen der Monate für das Szenario erforderlich sind. </p> </li> 
-        <li> <p><span><strong>[!UICONTROL Erforderlich] (Gesamtstundenzahl)</strong>: Die Zahl in Klammern gibt die Gesamtstundenzahl an, die für alle Monate des Szenarios erforderlich ist.</span> </p> </li> 
+        <li> <p><strong>[!UICONTROL Erforderlich] (Max. &lt;Anzahl VZÄ&gt;)</strong>: Die Zahl in Klammern zeigt die maximale Anzahl von Rollen an, die für einen der Monate für das Szenario erforderlich sind. </p> </li> 
+        <li> <p><span><strong>[!UICONTROL Erforderlich] (Gesamtstundenzahl&gt;)</strong>: Die Zahl in Klammern gibt die Gesamtstundenzahl an, die für alle Monate im Szenario erforderlich ist.</span> </p> </li> 
        </ul> <p>Tipp: Sie können die erforderliche Anzahl von VZÄ (<span> Stunden) </span> Aufgabengebiet nicht ändern. Diese Zahl wird für das Szenario ausgefüllt, nachdem Sie mit dem Hinzufügen von Initiativen und deren Aufgabengebiet-Anforderungen begonnen haben. </p> </td> 
      </tr> 
      <tr> 
@@ -327,7 +333,7 @@ Eine Liste der vorhandenen Pläne, die Sie erstellt haben, wird im [!DNL Workfro
        </div> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL -Auslastung] %</td> 
+      <td role="rowheader">[!UICONTROL-Auslastung] %</td> 
       <td> 
        <div> 
         <p>Der Prozentsatz der Nutzung zeigt an, wie viele der verfügbaren Aufgabengebiete tatsächlich für die Initiativen im Szenario verwendet (oder erforderlich) werden. </p> 

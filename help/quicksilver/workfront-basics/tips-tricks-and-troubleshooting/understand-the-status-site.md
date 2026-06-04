@@ -5,10 +5,14 @@ draft: Probably
 feature: Get Started with Workfront
 author: Becky
 exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+TQID: https://experienceleague.adobe.com/kUbG1fpDJmiptk-0e2lb7JlgEs0sX6dErLq8Yqq0TBM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 0%
+source-wordcount: 368
+ht-degree: 1%
 
 ---
 
@@ -31,16 +35,16 @@ Sie haben Zugriff auf die folgenden Informationen auf der Status-Website:
 
 Sie können Statusaktualisierungen auf der [!DNL Adobe] Status-Site anzeigen.
 
-1. Geben Sie [status.adobe.com](https://status.adobe.com/de-de/) in Ihrem Browser ein, um auf die Status-Site zuzugreifen.
+1. Geben Sie [status.adobe.com](https://status.adobe.com/de/) in Ihrem Browser ein, um auf die Status-Site zuzugreifen.
 
-1. **[!UICONTROL Experience Cloud]**.
+1. Wählen Sie **[!UICONTROL Experience Cloud]** aus.
 1. Scrollen Sie nach unten und wählen Sie **[!UICONTROL Adobe Workfront]** aus der Liste der Lösungen aus.
 
 ## Abonnement abonnieren oder verwalten
 
 So abonnieren Sie die Status-Site oder verwalten Sie Ihr Abonnement, nachdem Sie bereits ein Abonnement abgeschlossen haben:
 
-1. Navigieren Sie zu [status.adobe.com](https://status.adobe.com/de-de/).
+1. Navigieren Sie zu [status.adobe.com](https://status.adobe.com/de/).
 1. Wählen Sie in der Statusleiste **[!UICONTROL Abonnements verwalten]** aus.
    ![](assets/manage-subs.png)
 1. Wenn Sie bereits über ein Konto verfügen, melden Sie sich beim Konto an. Erstellen Sie andernfalls ein neues Konto.
@@ -59,7 +63,7 @@ Vulnerability-Forscher und Exploit-Ersteller benennen ihre Projekte intern, um d
 
 ### Wie kann ich benannte Schwachstellen anzeigen, die von [!DNL Workfront?] identifiziert wurden? {#how-do-i-view-named-vulnerabilities-identified-by-workfront}
 
-1. Gehen Sie zu [status.adobe.com](https://status.adobe.com/de-de/) und klicken Sie dann auf **[!UICONTROL Sicherheit]**.
+1. Gehen Sie zu [status.adobe.com](https://status.adobe.com/de/) und klicken Sie dann auf **[!UICONTROL Sicherheit]**.
 
 ## Warum ist das wichtig? {#why-is-this-important}
 

@@ -7,9 +7,15 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: ac24b2486b9fc5a0b8c2944a6ec240140238b908
+TQID: https://experienceleague.adobe.com/hneYUl0QJcsdaaxySdzlvC2DhxvtCUORTSKLeHpRgWQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: c10f2e93-7a58-4212-aa24-684c265ebe76id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1856'
+source-wordcount: 1856
 ht-degree: 3%
 
 ---
@@ -92,7 +98,7 @@ Zusätzlich zu den unten beschriebenen Überlegungen empfehlen wir, die allgemei
 
   >[!TIP]
   >
-  >Der erste Status für eine Aufgabe oder ein Problem ist Neu. Der erste Status für ein Projekt ist der Status, den Ihr Workfront-Administrator in den Projektvoreinstellungen in Ihrem System ausgewählt hat. Weitere Informationen finden [&#x200B; unter „Systemweite Projektvoreinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  >Der erste Status für eine Aufgabe oder ein Problem ist Neu. Der erste Status für ein Projekt ist der Status, den Ihr Workfront-Administrator in den Projektvoreinstellungen in Ihrem System ausgewählt hat. Weitere Informationen finden [ unter „Systemweite Projektvoreinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * Die Zuordnung von Genehmigungsprozessen zu einem Objekt wird im Bereich Aktualisierungen für das Objekt nicht aufgezeichnet.
 * Ein Genehmigungsprozess kann nicht mit einer übergeordneten Aufgabe verknüpft werden.
@@ -169,7 +175,7 @@ So ändern Sie einen Genehmigungsprozess, der bereits an ein Element angehängt 
    >Stellen Sie sicher, dass Sie beim Hinzufügen **Genehmigung auf** Speichern“ klicken.
 
 1. Nachdem der globale Genehmigungsprozess hinzugefügt wurde, klicken Sie auf **Bearbeiten** Symbol ![Bearbeiten](assets/edit-icon.png) in der rechten oberen Ecke der Seite „Genehmigung“. Diese Aktion wandelt den globalen Genehmigungsprozess oder den Genehmigungsprozess auf Gruppenebene in einen einmaligen Genehmigungsprozess um.
-1. Nehmen Sie Änderungen am vorhandenen Genehmigungsprozess vor. Weitere Informationen finden Sie im Abschnitt [Verknüpfen eines einmaligen Genehmigungsprozesses mit einem Projekt, einer Aufgabe, einem Problem, einer Vorlage oder einer &#x200B;](#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task)) in diesem Artikel.
+1. Nehmen Sie Änderungen am vorhandenen Genehmigungsprozess vor. Weitere Informationen finden Sie im Abschnitt [Verknüpfen eines einmaligen Genehmigungsprozesses mit einem Projekt, einer Aufgabe, einem Problem, einer Vorlage oder einer ](#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task)) in diesem Artikel.
 1. Klicken Sie **Speichern** und anschließend erneut auf **Speichern**, um zu bestätigen, dass Sie den globalen Genehmigungsprozess in einen einmaligen Genehmigungsprozess konvertieren möchten, der nur für dieses Objekt verfügbar ist.
 
 ## Verknüpfen eines einmaligen Genehmigungsprozesses mit einem Projekt, einer Aufgabe, einem Problem, einer Vorlage oder einer Vorlagenaufgabe {#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task}
@@ -197,7 +203,7 @@ So erstellen Sie einen Genehmigungsprozess für den einmaligen Gebrauch:
 
    ![Menü „Genehmigungen“](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
 
-1. Führen Sie die Schritte ab Schritt 6 im Abschnitt „Erstellen eines globalen Genehmigungsprozesses auf Systemebene oder Gruppenebene für Arbeitselemente“ im Artikel „Erstellen [&#x200B; Genehmigungsprozesses für Arbeitselemente“ &#x200B;](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+1. Führen Sie die Schritte ab Schritt 6 im Abschnitt „Erstellen eines globalen Genehmigungsprozesses auf Systemebene oder Gruppenebene für Arbeitselemente“ im Artikel „Erstellen [ Genehmigungsprozesses für Arbeitselemente“ ](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: overtime, ensure step 6 is still accurate here)&nbsp;</p>

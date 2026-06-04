@@ -6,14 +6,20 @@ description: Ein Stundentyp ist eine Bezeichnung, mit der Sie Zeiteinträge kate
 author: Lisa
 feature: Timesheets
 exl-id: 3c07a6b0-4751-4fce-ac28-6a83084025d4
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+TQID: https://experienceleague.adobe.com/EAwrDZagapXvWyUQ2PS4Bcmxi42n8W-mARDXDix0ZlY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1479'
-ht-degree: 0%
+source-wordcount: 1498
+ht-degree: 4%
 
 ---
 
-# Stundentypen und Verfügbarkeit definieren
+# Definieren von Stundentypen und Verfügbarkeit
 
 <!--Audited: 6/2025-->
 
@@ -32,7 +38,7 @@ Nachdem die entsprechenden Stundentypen konfiguriert wurden, können Sie die Zei
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,7 +51,7 @@ Nachdem die entsprechenden Stundentypen konfiguriert wurden, können Sie die Zei
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p> 
-   <p>Plan</p>
+   <p>Abo</p>
    </td> 
   </tr> 
   <tr> 
@@ -59,7 +65,7 @@ Nachdem die entsprechenden Stundentypen konfiguriert wurden, können Sie die Zei
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -80,7 +86,7 @@ Der Projektbesitzer bestimmt, ob alle auf Systemebene definierten Stundentypen f
 
 1. Wählen **Nein**, um alle projektspezifischen Stundentypen für das Projekt verfügbar zu machen.
 
-   Oder
+   ODER
 
    Wählen Sie **Ja**, um nur eine Teilmenge der projektspezifischen Stundentypen für das Projekt verfügbar zu machen, und wählen Sie dann die **Stundentypen**, die Sie verfügbar machen möchten. Sie können mehrere Stundentypen auswählen.
 
@@ -108,7 +114,7 @@ So definieren Sie die Stundentypen, die einem Benutzer zur Verfügung stehen:
 
 1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront und dann auf Ihren Benutzeravatar in der linken oberen Ecke.
 
-   Oder
+   ODER
 
    Klicken Sie auf das **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/adobe-main-menu.png) in der oberen rechten Ecke (falls verfügbar) und dann auf **Workfront-Profil**.
 
@@ -129,7 +135,7 @@ So definieren Sie die Stundentypen, die einem Benutzer zur Verfügung stehen:
 
 1. (Optional) Wählen Sie **Dropdown-Menü** Standardstundentyp) einen Stundentyp aus. Wenn der Benutzer-Standardstundentyp und ein projektgefilterter Stundentyp übereinstimmen, wird dieser Stundentyp beim Protokollieren der Zeit standardmäßig ausgewählt.
 
-1. Klicken Sie **Änderungen speichern**. Wenn Sie jetzt Stunden für ein Projekt, eine Aufgabe oder ein Problem protokollieren, sind die ausgewählten Stundentypen verfügbar, wenn dieselben Stundentypen auf Projektebene verfügbar gemacht wurden.
+1. Klicken Sie auf **Änderungen speichern**. Wenn Sie jetzt Stunden für ein Projekt, eine Aufgabe oder ein Problem protokollieren, sind die ausgewählten Stundentypen verfügbar, wenn dieselben Stundentypen auf Projektebene verfügbar gemacht wurden.
 
 ## So arbeiten Stundentypen auf Benutzerebene und auf Projektebene zusammen
 

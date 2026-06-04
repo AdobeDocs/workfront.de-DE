@@ -6,15 +6,20 @@ description: Das Glossar für [!DNL Adobe Workfront] enthält Begriffe, die häu
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: dbed69be1a57571e6c0701b7370e20be323037fe
+TQID: https://experienceleague.adobe.com/Nwg9J4XQcWv8PsTyUu9iHRHGd5anfcDJT9FKGt5rwy8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: be65ef36-43e4-48e1-a062-caa3778e15beid: c10f2e93-7a58-4212-aa24-684c265ebe76id: c33d85a1-be85-4290-854c-87408c10aa80id: c3a155b4-a54b-4a82-a3d2-c8f0f971673eid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560id: eb361af2-3e4f-4a79-b5f3-7a344ac5794cid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '21953'
-ht-degree: 97%
+source-wordcount: 21553
+ht-degree: 96%
 
 ---
-
 
 # Glossar der Terminologie von [!DNL Adobe Workfront]
 
@@ -137,13 +142,13 @@ In der folgenden Tabelle finden Sie eine Liste häufig verwendeter Begriffe in A
       <!--
       Resource Estimates or a
       -->
-     Erstellen Sie einen Bericht zu den (finanziellen) Daten des Projekts und fügen Sie eine Matrix-Gruppierung für das [!UICONTROL Zuteilungsdatum] hinzu. Gruppieren Sie dann die Ergebnisse wöchentlich, monatlich, vierteljährlich oder jährlich, um die genauesten Daten zu erhalten.<br>Informationen zum Erstellen einer Matrixgruppierung finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Erstellen eines Matrixberichts</a>.</p> </li>
+     Erstellen Sie einen Projektbericht (Finanzdaten), fügen Sie eine Matrix-Gruppierung für das [!UICONTROL Zuteilungsdatum] hinzu und gruppieren Sie dann die Ergebnisse wöchentlich, monatlich, vierteljährlich oder jährlich für die genauesten Daten.<br>Informationen zum Erstellen einer Matrix-Gruppierung finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Erstellen eines Matrix-Berichts</a>.</p> </li>
     </ul> <p>Finanzinformationen werden nur dann in Berichten zum [!UICONTROL Projekt (Finanzdaten)] übernommen, wenn die damit verbundenen Daten weniger als 5 Jahre alt sind. Wenn beispielsweise einer Aufgabe im Januar 2015 ein Aufgabengebiet zugewiesen wurde und jetzt September 2021 ist, wird ein Finanzfeld wie das [!UICONTROL Zuteilungsdatum] für das Aufgabengebiet im Bericht zum [!UICONTROL Projekt (Finanzdaten)] nicht mit Daten gefüllt. </p> 
     <div> 
      <p>Für einen Bericht des Typs „[!UICONTROL Budgetierte Stunde]“:</p> 
      <ul> 
       <li>Erstellen Sie diesen Bericht, wenn Sie versuchen, die Menge unter „[!UICONTROL Budgetierte Stunden]“ zu verstehen, die Ihren Ressourcen oder Ihren Projekten im Ressourcenplaner zugewiesen ist.</li> 
-      <li> <p>Das [!UICONTROL Zuteilungsdatum] ist der erste Tag (ein Sonntag) der Woche, für die Sie die Stunden im [!UICONTROL Ressourcenplaner] budgetiert haben. </p> <p><b>TIPP</b></p> <p>Wenn sich eine Woche über zwei Monate erstreckt, werden zwei Zeilen im Bericht generiert: eine Zeile, die dem ersten Wochentag entspricht (Sonntag der ersten Woche, die im ersten Monat liegt), und die zweite Zeile zeigt den ersten Tag des zweiten Monats an. </p> <p>Wenn Sie beispielsweise 8 Stunden für einen Benutzer bzw. eine Benutzerin für die Woche vom 30. Juni (Sonntag) bis zum 6. Juli (Samstag) budgetieren, wird in den beiden Zeilen als [!UICONTROL Zuteilungsdatum] der 30. Juni und der 1. Juli angezeigt. </p> </p> <p>Informationen zur Budgetierung von Ressourcen im [!DNL Resource Planner] finden Sie im Artikel <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budgetieren von Ressourcen im [!DNL Resource Planner] mithilfe der Ansichten [!UICONTROL Projekt] und Rolle</a>.</p> <p>Informationen zum Erstellen eines Berichts vom Typ [!UICONTROL Budgetierte Stunde] finden Sie unter <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">Bericht: Budgetierte Stunde</a>. </p> </li> 
+      <li> <p>Das [!UICONTROL Zuteilungsdatum] ist der erste Tag (ein Sonntag) der Woche, für die Sie die Stunden im [!UICONTROL Ressourcenplaner] budgetiert haben. </p> <p><b>TIPP</b></p> <p>Wenn sich eine Woche über zwei Monate erstreckt, werden zwei Zeilen im Bericht generiert: eine Zeile, die dem ersten Wochentag entspricht (Sonntag der ersten Woche, die im ersten Monat liegt), und die zweite Zeile zeigt den ersten Tag des zweiten Monats an. </p> <p>Wenn Sie beispielsweise 8 Stunden für einen Benutzer bzw. eine Benutzerin für die Woche vom 30. Juni (Sonntag) bis zum 6. Juli (Samstag) budgetieren, wird in den beiden Zeilen als [!UICONTROL Zuteilungsdatum] der 30. Juni und der 1. Juli angezeigt. </p> </p> <p>Informationen zur Budgetierung von Ressourcen im [!DNL Resource Planner] finden Sie im Artikel <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budgetieren von Ressourcen im [!DNL Resource Planner] mithilfe der Ansichten [!UICONTROL Projekt] und [!UICONTROL Rolle</a>.</p> <p>Informationen zum Erstellen eines Berichts vom Typ [!UICONTROL Budgetierte Stunde] finden Sie unter <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">Bericht: Budgetierte Stunde</a>. </p> </li> 
      </ul> 
     </div> </td> 
   </tr> 
@@ -357,7 +362,7 @@ In der folgenden Tabelle finden Sie eine Liste häufig verwendeter Begriffe in A
        </tr> 
        <tr> 
         <td>[!UICONTROL Budgetierte Stunden]</td> 
-        <td> <p>Ansicht „Auslastungsbericht – [!UICONTROL Stunden]“</p> <p>Weitere Informationen zum Bericht zur [!UICONTROL Auslastung] finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md" class="MCXref xref">Überblick über den Bericht zur Ressourcenauslastung</a>.</p> </td> 
+        <td> <p>Ansicht „Auslastungsbericht – [!UICONTROL Stunden]“</p> <p>Weitere Informationen zum Bericht zur [!UICONTROL Auslastung] finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md" class="MCXref xref">Überblick über den Bericht zur [!UICONTROL Ressourcenauslastung</a>.</p> </td> 
        </tr> 
        <tr> 
         <td>[!UICONTROL Bud. Stunden]</td> 
@@ -965,8 +970,8 @@ In der folgenden Tabelle finden Sie eine Liste häufig verwendeter Begriffe in A
    <td>Mit Ordnern können Sie Dokumente oder Berichte organisieren, die mit einem Objekt verknüpft sind.</td> </tr>
   <tr>
   <td>[!UICONTROL FTE] (Vollzeitäquivalent)</td> 
-   <td>Dies ist das Vollzeitäquivalent, das angibt, für wie lange eine Ressource für die Arbeit verfügbar ist. 
-   Das Feld „[!UICONTROL FTE]“ wird in den folgenden Bereichen angezeigt: 
+   <td>Dies ist die Vollzeitäquivalenz, die die Zeitdauer angibt, während der eine Ressource für Arbeit verfügbar ist. 
+   Das Feld [!UICONTROL FTE] wird in den folgenden Bereichen angezeigt: 
   <ul>
    <li> Benutzerprofil beim Bearbeiten oder Erstellen des Benutzers bzw. der Benutzerin </li>
    <li> [!UICONTROL Ressourcenplaner] </li>
@@ -1204,7 +1209,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Letzte Bedingung – Notiz]</td> 
-   <td> <p>Dieses Feld zeigt die letzte Aktualisierung an, die der Inhaber bzw. die Inhaberin des Objekts für ein Objekt eingegeben hat. Dies ist die letzte Aktivität oder Interaktion des Inhabers bzw. der Inhaberin für ein Objekt.</p> <p>Die Spalte [!DNL Last Condition Note] ist leer, wenn der Notiztext der letzten Notiz eines Objekts gelöscht wurde. Wenn eine neue Notiz für das Objekt eingegeben wird, wird sie zur letzten Notiz und wird erneut in der Spalte angezeigt. </p> </td> 
+   <td> <p>Dieses Feld zeigt die letzte Aktualisierung an, die der Inhaber bzw. die Inhaberin des Objekts für ein Objekt eingegeben hat. Dies ist die letzte Aktivität oder Interaktion des Inhabers bzw. der Inhaberin für ein Objekt.</p> <p>Die Spalte [!DNL Last Condition Note] ist leer, wenn der Notiztext der letzten Anmerkung eines Objekts gelöscht wurde. Wenn eine neue Anmerkung in das Objekt eingegeben wird, wird sie zur letzten Anmerkung und wird erneut in der Spalte angezeigt. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Datum der letzten Finanzaktualisierung]</td> 
@@ -1367,8 +1372,8 @@ The designated full time equivalency for users. A full-time user should have 100
  </tr> 
   <tr> 
    <td>[!UICONTROL Neuer Zahlenwert]</td> 
-   <td>In einem Bericht des Typs „[!UICONTROL Journaleintrag]“ zeigt dies den aktualisierten Wert eines Feldes an, der den [!UICONTROL alten Zahlenwert] ersetzt.
-   Weitere Informationen finden Sie unter „[!UICONTROL Alter Zahlenwert]“ in diesem Artikel.</td> 
+   <td>In einem [!UICONTROL Tagebucheintrag]-Bericht wird der aktualisierte Wert eines Felds angezeigt, das den [!UICONTROL Alter Zahlenwert] ersetzt.
+   Weitere Informationen finden Sie unter "[!UICONTROL Alter Zahlenwert]" in diesem Artikel.</td> 
   </tr>
   <tr> 
    <td>[!UICONTROL Nicht fakturierbare Kosten]</td> 
@@ -1545,7 +1550,7 @@ The designated full time equivalency for users. A full-time user should have 100
  <tbody> 
   <tr> 
    <td>[!UICONTROL Parameter]</td> 
-   <td> <p>Ein [!UICONTROL Parameter] ist ein benutzerdefiniertes Feld. Sie können einen Bericht für alle Parameter oder für benutzerdefinierte Felder in Ihrem System erstellen. </p> </td> 
+   <td> <p>Ein [!UICONTROL-Parameter] ist ein benutzerdefiniertes Feld. Sie können einen Bericht für alle Parameter oder benutzerdefinierten Felder in Ihrem System erstellen. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Übergeordnet]</td> 
@@ -1565,7 +1570,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Prozent abgeschlossen]</td> 
-   <td> <p>Ein Projekt, eine Aufgabe oder ein Problem, das bzw. die anzeigt, welcher Prozentsatz der mit der Aufgabe, dem Projekt oder dem Problem verbundenen Arbeit abgeschlossen ist.</p> <p>Sie können dieses Feld für Probleme und Arbeitsaufgaben manuell aktualisieren. </p> <p>Für Projekte und übergeordnete Aufgaben ist dieses Feld eine Zusammenfassung aller laufenden Aufgaben. Sie können es nicht manuell aktualisieren. </p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/tasks/task-information/project-percent-complete.md" class="MCXref xref">Überblick über den Prozentwert des Projektabschlusses</a>.</p> </td> 
+   <td> <p>Ein Projekt, eine Aufgabe oder ein Problem, das bzw. die anzeigt, welcher Prozentsatz der mit der Aufgabe, dem Projekt oder dem Problem verbundenen Arbeit abgeschlossen ist.</p> <p>Sie können dieses Feld für Probleme und Arbeitsaufgaben manuell aktualisieren. </p> <p>Für Projekte und übergeordnete Aufgaben ist dieses Feld eine Zusammenfassung aller laufenden Aufgaben. Sie können es nicht manuell aktualisieren. </p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/tasks/task-information/project-percent-complete.md" class="MCXref xref">Überblick über den [!UICONTROL Prozentwert des Projektabschlusses</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Performance Index Method (PIM)]</td> 
@@ -1622,7 +1627,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Geplante Kosten]</td> 
-   <td> <p>Summe von „[!UICONTROL Geplante Arbeitskosten]“ und „[!UICONTROL Geplante Ausgabenkosten]“ des Projekts. Dies umfasst nicht die [!UICONTROL geplanten Risikokosten] für das Projekt.  </p> </td> 
+   <td> <p>Summe der [!UICONTROL Geplanten Lohnkosten] und der [!UICONTROL Geplanten Ausgaben] des Projekts. Dies umfasst nicht die [!UICONTROL Geplante Risikokosten] für das Projekt.  </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Ausrichtung am geplanten Datum]</td> 
@@ -1636,7 +1641,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Geplante Dauer]</td> 
-   <td> <p>Die [!UICONTROL geplante Dauer] einer Aufgabe ist in der Regel mit der [!UICONTROL Dauer] einer Aufgabe identisch. Sie stellt die Differenz in Tagen zwischen dem [!UICONTROL geplanten Start] und dem [!UICONTROL geplanten Abschlussdatum] der Aufgabe dar. </p> <p>Wenn für die Aufgabe als [!UICONTROL Dauer] der Typ „[!UICONTROL Leistungsgesteuert]“ verwendet wird, kann die [!UICONTROL geplante Dauer] von der [!UICONTROL Dauer] der Aufgabe abweichen, je nachdem, wie viele Ressourcen Sie der Aufgabe zuweisen. </p> <p>Wenn beispielsweise eine Aufgabe, deren [!UICONTROL Dauer] den Typ „[!UICONTROL Leistungsgesteuert]“ verwendet, eine [!UICONTROL Dauer] von 3 Tagen hat und Sie der Aufgabe eine Ressource mit einem Vollzeitplan zuweisen, ist die [!UICONTROL geplante Dauer] ebenfalls 3 Tage. Wenn Sie derselben Aufgabe drei Ressourcen mit einem Vollzeitplan zuweisen, bleibt die [!UICONTROL Dauer] 3 Tage, aber die [!UICONTROL geplante Dauer] wird zu 1 Tag. Die [!UICONTROL geplante Dauer] ändert auch die Termine unter „[!UICONTROL Geplanter Start]“ und „[!UICONTROL Geplanter Abschluss]“ für die Aufgabe, um die neue [!UICONTROL geplante Dauer] widerzuspiegeln. Daher ist auch die Timeline des Projekts betroffen. </p> <p>Weitere Informationen zum Unterschied zwischen der [!UICONTROL Dauer] und der [!UICONTROL geplanten Dauer] für Aufgaben finden Sie im Artikel <a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">Unterschied zwischen [!UICONTROL geplanter Dauer] und [!UICONTROL Dauer] für Aufgaben</a>.</p> <p>Projekte und Probleme haben keine [!UICONTROL geplante Dauer]. </p> </td> 
+   <td> <p>Die geplante Dauer einer Aufgabe [!UICONTROL] ist normalerweise mit der [!UICONTROL-Dauer] der Aufgabe identisch. Sie stellt die Differenz in Tagen zwischen dem [!UICONTROL Geplanter Start] und dem [!UICONTROL Geplante Abschlussdatum] der Aufgabe dar. </p> <p>Wenn für die Aufgabe als [!UICONTROL Dauer] der Typ „[!UICONTROL Leistungsgesteuert]“ verwendet wird, kann die [!UICONTROL geplante Dauer] von der [!UICONTROL Dauer] der Aufgabe abweichen, je nachdem, wie viele Ressourcen Sie der Aufgabe zuweisen. </p> <p>Wenn beispielsweise eine Aufgabe mit dem [!UICONTROL Duration]-Typ [!UICONTROL Effort Driven] eine [!UICONTROL Duration] von 3 Tagen hat und Sie der Aufgabe eine Ressource mit einem Vollzeitplan zuweisen, beträgt die [!UICONTROL Planned Duration] ebenfalls 3 Tage. Wenn Sie derselben Aufgabe drei Ressourcen mit einem Vollzeitplan zuweisen, bleibt die [!UICONTROL Duration] 3 Tage, aber die [!UICONTROL Planned Duration] wird zu 1 Tag. Die geplante Dauer von [!UICONTROL] ändert auch die Daten von [!UICONTROL Geplanter Start] und [!UICONTROL Geplanter Abschluss] der Aufgabe, um die neue geplante Dauer von [!UICONTROL] widerzuspiegeln. Daher ist auch die Zeitleiste des Projekts betroffen. </p> <p>Weitere Informationen zum Unterschied zwischen der [!UICONTROL Dauer] und der [!UICONTROL geplanten Dauer] für Aufgaben finden Sie im Artikel <a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">Unterschied zwischen [!UICONTROL geplanter Dauer] und [!UICONTROL Dauer] für Aufgaben</a>.</p> <p>Projekte und Probleme haben keine [!UICONTROL geplante Dauer]. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Geplante Dauer in Minuten]</td> 
@@ -1874,11 +1879,11 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Rang]</td> 
-   <td> <p>In einem Bericht zur [!UICONTROL Zugriffsebene] können Sie manuell einen [!UICONTROL Rang] der [!UICONTROL Zugriffsebene] angeben. Auf diese Weise können Sie als Admin in [!DNL Workfront] den mit den einzelnen Zugriffsebenen verbundenen Komplexitätsgrad visuell erkennen. Beispielsweise können Sie niedrigere Zahlen für komplexere Zugriffsebenen ([!UICONTROL Plan]-Ebene) und höhere Zahlen für weniger komplexe Zugriffsebenen ([!UICONTROL Anforderer]-Ebene) angeben. Sie können die standardmäßigen Zugriffsebenen nicht nach Rang ordnen. </p> </td> 
+   <td> <p>In einem Bericht der [!UICONTROL Zugriffsebene] können Sie manuell einen [!UICONTROL-Rang] der [!UICONTROL-Zugriffsebene] angeben. Auf diese Weise können Sie als [!DNL Workfront]-Admin den mit den einzelnen Zugriffsebenen verbundenen Komplexitätsgrad visuell erkennen. Beispielsweise können Sie niedrigere Zahlen für komplexere Zugriffsebenen ([!UICONTROL Plan]-Ebene) und höhere Zahlen für weniger komplexe Zugriffsebenen ([!UICONTROL Anforderer]-Ebene) angeben. Sie können die standardmäßigen Zugriffsebenen nicht nach Rang ordnen. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Bereit]</td> 
-   <td> <p>Dieses Feld in einem Aufgabenbericht gibt an, ob eine [!UICONTROL Agile]-Aufgabe im Rückstand als „[!UICONTROL Bereit]“ gekennzeichnet wurde. Diese Markierung nur für [!UICONTROL Agile]-Aufgaben, bei denen es sich um Aufgaben handelt, die einem [!UICONTROL Agile]-Team zugewiesen sind. </p> </td> 
+   <td> <p>Dieses Feld in einem Aufgabenbericht gibt an, ob eine [!UICONTROL Agile]-Aufgabe im Rückstand als [!UICONTROL Ready] markiert wurde. Dieses Flag gilt nur für [!UICONTROL Agile]-Aufgaben, bei denen es sich um Aufgaben handelt, die einem [!UICONTROL Agile]-Team zugewiesen sind. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Eintrag]</td> 
@@ -2142,7 +2147,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Quelle]</td> 
-   <td> <p>Gibt das übergeordnete Objekt eines anderen Objekts an. Beispiel: Bei einem an eine Aufgabe angefügten Dokument ist der Name der Aufgabe im Feld „[!UICONTROL Quelle]“ eines Berichts oder einer Ansicht zu einem [!UICONTROL Dokument] angegeben. Bei einem Problem, das unter einem Projekt erfasst ist, ist der Name des Projekts im Feld „[!UICONTROL Quelle]“ eines Problemberichts oder einer Ansicht angegeben. </p> 
+   <td> <p>Gibt das übergeordnete Objekt eines anderen Objekts an. Beispiel: Ein an eine Aufgabe angehängtes Dokument hat den Namen der Aufgabe im Feld [!UICONTROL Source] eines Berichts oder einer Ansicht von [!UICONTROL Document]. Ein unter einem Projekt protokolliertes Problem hat den Namen des Projekts im Feld [!UICONTROL Source] eines Problemberichts oder einer Ansicht. </p> 
    <p>Die folgenden Berichte enthalten die Spalte „Quelle“, in der Sie Informationen zum übergeordneten Objekt anzeigen können:</p>
   <ul><li>Berichte zu Problemen</li>
     <li>Berichte zu Stunden</li>
@@ -2487,7 +2492,7 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr>
   <td> <code>[!UICONTROL width]</code>
   </td>
-  <td> In einem Bericht wird bei Verwendung der Schnittstelle im [!UICONTROL Textmodus] die Code-Zeile verwendet, in der Sie die Breite jeder Spalte in Pixel angeben können. Workfront bietet eine empfohlene Breite für jedes Feld. Je nach Typ des Feldes und Format können Sie jedoch Anpassungen vornehmen. Sie müssen die zusätzliche Code-Zeile <code>[!UICONTROL usewidths=true]</code> verwenden, um die für die Spalte angegebene Breite zu erzwingen. 
+  <td> In einem Bericht wird bei Verwendung der [!UICONTROL Textmodus]-Schnittstelle die Codezeile verwendet, in der Sie die Breite jeder Spalte in Pixel angeben können. Workfront bietet eine empfohlene Breite für jedes Feld. Je nach Feldtyp und Format können Sie jedoch Anpassungen vornehmen. Sie müssen die zusätzliche <code>[!UICONTROL usewidths=true]</code> Codezeile verwenden, um die für die Spalte angegebene Breite zu erzwingen. 
   </td>
   </tr>
   <tr> 

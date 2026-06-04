@@ -7,9 +7,13 @@ description: Als Business Manager können Sie mit dem Adobe Workfront-Szenariopl
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: df2b895b-8bc1-4a55-b0d7-8a06db420315
-source-git-commit: 3f53cb49bbe8de21c42ec557fd367490f8ae8956
+TQID: https://experienceleague.adobe.com/FvNrULxi5wJwH6C6Rok0gnIriccNiYRXx150Ea-9-HI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: 1167
 ht-degree: 0%
 
 ---
@@ -100,7 +104,7 @@ Sie können Folgendes in den Feldern [!UICONTROL Finanzen] und [!UICONTROL Zusam
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Bereich [!UICONTROL Net Value] <span>im Feld [!UICONTROL Summary]</span></p> <p role="rowheader"> </p> </td> 
-   <td> <p>Dies ist eine Berechnung aller Nettowerte aller Initiativen im Plan. </p> <p>Workfront berechnet den Nettowert für den Plan anhand der folgenden Formel: </p> <p><code>Plan Net Value = SUM(Initiative Planned Benefit - People Costs)</code> </p> <p>Oder</p> <p><code>Plan Net Value = SUM(Initiative Net Value)</code> </p> <p>Informationen zu den Nettowerten der Initiativen finden Sie im Artikel <a href="../scenario-planner/initiatives-overview.md" class="MCXref xref">Initiativen - Übersicht im [!DNL Scenario Planner]</a>.</p> </td> 
+   <td> <p>Dies ist eine Berechnung aller Nettowerte aller Initiativen im Plan. </p> <p>Workfront berechnet den Nettowert für den Plan anhand der folgenden Formel: </p> <p><code>Plan Net Value = SUM(Initiative Planned Benefit - People Costs)</code> </p> <p>ODER</p> <p><code>Plan Net Value = SUM(Initiative Net Value)</code> </p> <p>Informationen zu den Nettowerten der Initiativen finden Sie im Artikel <a href="../scenario-planner/initiatives-overview.md" class="MCXref xref">Initiativen - Übersicht im [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

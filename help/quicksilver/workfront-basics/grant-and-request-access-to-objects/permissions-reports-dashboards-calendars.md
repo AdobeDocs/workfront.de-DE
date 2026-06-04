@@ -1,5 +1,5 @@
 ---
-title: Berichte, Dashboards und Kalender freigeben
+title: Freigeben von Berichten, Dashboards und Kalendern
 content-type: reference
 product-area: user-management;reports;dashboards;calendars
 navigation-topic: grant-and-request-access-to-objects
@@ -7,14 +7,19 @@ description: Ihr Adobe Workfront-Administrator gewährt Benutzenden Zugriff zum 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c2dac54b-6506-41b0-a7f2-6fafab12c2d1
-source-git-commit: 883ec4eaa2258de2e464acf14b6b4083db05b99a
+TQID: https://experienceleague.adobe.com/-jlMqisDlyWp1rpYTDhSfiwq32-qoxfvvDhFyKw7yvk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 0%
+source-wordcount: 573
+ht-degree: 2%
 
 ---
 
-# Berichte, Dashboards und Kalender freigeben
+# Freigeben von Berichten, Dashboards und Kalendern
 
 Ihr Adobe Workfront-Administrator gewährt Benutzenden Zugriff zum Anzeigen oder Bearbeiten von Berichten, Dashboards und Kalendern, wenn sie Zugriffsebenen zuweisen. Weitere Informationen zum Gewähren des Zugriffs auf Berichte, Dashboards und Kalender finden Sie unter [Gewähren des Zugriffs auf Berichte, Dashboards und Kalender](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
@@ -35,13 +40,13 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
 * Der Ersteller eines Berichts, Dashboards oder Kalenders hat standardmäßig Verwaltungsberechtigungen für ihn.
 * Die Freigabe von Berichten, Dashboards und Kalendern ähnelt der Freigabe anderer Objekte in Workfront.
 
-  Weitere Informationen zum Freigeben von Objekten in Workfront finden Sie unter [Freigeben eines &#x200B;](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+  Weitere Informationen zum Freigeben von Objekten in Workfront finden Sie unter [Freigeben eines ](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
   In den folgenden Artikeln erfahren Sie außerdem, wie Sie Berichte, Dashboards und Kalender freigeben:
 
    * [Freigeben eines Berichts in Adobe Workfront](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
    * [Freigeben eines Dashboards](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
-   * [Kalenderbericht freigeben](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
+   * [Freigeben eines Kalenderberichts](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
 * Sie können Berichte und Dashboards einzeln oder zusammen freigeben.
 
@@ -59,7 +64,7 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
 * Wenn Sie ein Dashboard freigeben, haben Benutzer standardmäßig Anzeigeberechtigungen für alle Berichte, Kalender und externen Seiten im Dashboard.
 * Benutzende mit einer Anfragelizenz können keinen systemweiten Bericht anzeigen. Ein Bericht muss für die Antragsteller einzeln freigegeben werden, wenn sie ihn anzeigen müssen.
 * Wenn ein Bericht eine Eingabeaufforderung enthält und Sie ihn öffentlich freigeben, müssen die Benutzenden, die auf den Bericht zugreifen, bei Workfront angemeldet sein, damit der Bericht über die Eingabeaufforderung ausgeführt werden kann. Wenn er sich nicht bei Workfront anmelden kann, wird der Bericht ohne die Eingabeaufforderung angezeigt.\
-  Weitere Informationen zu den Einschränkungen bei der Freigabe von Berichten mit Eingabeaufforderungen finden Sie im Abschnitt [Einschränkungen bei der Freigabe &#x200B;](../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) Berichten) im Artikel [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+  Weitere Informationen zu den Einschränkungen bei der Freigabe von Berichten mit Eingabeaufforderungen finden Sie im Abschnitt [Einschränkungen bei der Freigabe ](../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) Berichten) im Artikel [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 * Sie können geerbte Berechtigungen aus einem Bericht oder Kalender entfernen.
 

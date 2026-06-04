@@ -6,10 +6,15 @@ description: Sie können Genehmigungsmetriken in Arbeitsflächen-Dashboards übe
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-source-git-commit: 0b4884d6c9a88c096b15af65a2aff0a54ca66811
+TQID: https://experienceleague.adobe.com/c8-TIFSw6jfjZq-S76dP7SSrf69EFAfjB-OPAJJdVOQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2520'
-ht-degree: 0%
+source-wordcount: 2561
+ht-degree: 1%
 
 ---
 
@@ -24,7 +29,7 @@ Sie können im Bereich der Arbeitsflächen-Dashboards ein Berichts-Dashboard ers
 
 ![Beispiel-Dashboard](assets/whole-dashboard.png)
 
-## Dashboard erstellen
+## Erstellen eines Dashboards
 
 {{step1-to-dashboards}}
 
@@ -52,7 +57,7 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
 
 #### Ausstehende Genehmigungen
 
-1. [Erstellen Sie ein &#x200B;](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
 1. Klicken Sie oben rechts auf der Detailseite des Dashboards auf **Bericht hinzufügen**.
 
 1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
@@ -64,7 +69,7 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
 1. Gehen Sie wie folgt vor, um den Abschnitt **Details** zu konfigurieren:
 
    1. Geben Sie *Ausstehend* in das Feld **Name** ein.
-   1. Geben Sie *Feld* Beschreibung **„Ausstehende Genehmigungen** ein. Wird als Beschriftung unterhalb des KPI-Werts angezeigt.
+   1. Geben Sie *Feld **Beschreibung* „Ausstehende Genehmigungen** ein. Wird als Beschriftung unterhalb des KPI-Werts angezeigt.
 
 1. Gehen Sie wie folgt vor, um den Abschnitt **KPI erstellen** zu konfigurieren:
 
@@ -88,14 +93,13 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
 
    1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Status** aus.
    1. Belassen Sie den Operator **Gleich** und geben Sie dann _Überprüfung ausstehend_ in das Textfeld ein.
-
       ![Beispiel für ausstehenden KPI-Filter](assets/pending-kpi-filter.png)
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
 
 
 #### Überfällige Genehmigungen
 
-1. [Erstellen Sie ein &#x200B;](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
 1. Klicken Sie oben rechts auf der Detailseite des Dashboards auf **Bericht hinzufügen**.
 
 1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
@@ -107,7 +111,7 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
 1. Gehen Sie wie folgt vor, um den Abschnitt **Details** zu konfigurieren:
 
    1. Geben Sie _Überfällig_ in das Feld **Name** ein.
-   1. Geben Sie _Feld_ Beschreibung **„Genehmigungsphase**&quot; ein. Diese Beschreibung wird als Beschriftung unter dem KPI-Wert angezeigt.
+   1. Geben Sie _Feld **Beschreibung**„Genehmigungsphase_&quot; ein. Diese Beschreibung wird als Beschriftung unter dem KPI-Wert angezeigt.
 
 1. Gehen Sie wie folgt vor, um den Abschnitt **KPI erstellen** zu konfigurieren:
 
@@ -134,13 +138,11 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
    1. Wählen Sie **Genehmigungsphase** > **Frist** aus.
    1. Ändern Sie den Operator in **Kleiner als**.
    1. Schalten Sie **Relatives Datum festlegen** auf **EIN** und geben Sie dann _$$TODAY_ in das Textfeld ein.
-
       ![Beispiel für überfälligen KPI-Filter](assets/overdue-kpi-filter.png)
    1. Klicken Sie **Bedingung hinzufügen**.
    1. Klicken Sie auf den leeren Bedingungsfilter und dann auf **Feld auswählen**.
    1. Wählen Sie **Status** aus.
    1. Ändern Sie den Operator in **Nicht enthält** und geben Sie dann _Genehmigt_ in das Textfeld ein.
-
       ![Überfälliger KPI-Filter - Beispiel 2](assets/overdue-kpi-filter-2.png)
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
 
@@ -148,7 +150,7 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
 #### Abgeschlossene Genehmigungen
 
 
-1. [Erstellen Sie ein &#x200B;](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
 1. Klicken Sie oben rechts auf der Detailseite des Dashboards auf **Bericht hinzufügen**.
 
 1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
@@ -160,7 +162,7 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
 1. Gehen Sie wie folgt vor, um den Abschnitt **Details** zu konfigurieren:
 
    1. Geben Sie _Feld_ Name **den Wert** Completed“ ein.
-   1. Geben Sie _Feld_ Beschreibung **„Anzahl** Validierungsstatus“ ein. Diese Beschreibung wird als Beschriftung unter dem KPI-Wert angezeigt.
+   1. Geben Sie _Feld **Beschreibung_ „Anzahl** Validierungsstatus“ ein. Diese Beschreibung wird als Beschriftung unter dem KPI-Wert angezeigt.
 
 1. Gehen Sie wie folgt vor, um den Abschnitt **KPI erstellen** zu konfigurieren:
 
@@ -187,20 +189,18 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
    1. Wählen Sie **Status** aus.
 
    1. Ändern Sie den Operator in **Enthält** und geben Sie _Genehmigt_ in das Textfeld ein.
-
       ![Beispiel für abgeschlossenen KPI-Filter](assets/completed-kpi-filter.png)
    1. Klicken Sie **Bedingung hinzufügen**.
    1. Klicken Sie auf **Und**, um sie in **Oder** zu ändern.
    1. Klicken Sie auf den leeren Bedingungsfilter und dann auf **Feld auswählen**.
    1. Wählen Sie **Status** aus.
    1. Ändern Sie den Operator in **Gleich** und geben Sie _Überprüft_ in das Textfeld ein.
-
       ![Beispiel für abgeschlossenen KPI-Filter](assets/completed-kpi-filter-2.png)
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
 
 #### Abgebrochene Genehmigungen
 
-1. [Erstellen Sie ein &#x200B;](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
 1. Klicken Sie oben rechts auf der Detailseite des Dashboards auf **Bericht hinzufügen**.
 
 1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
@@ -239,14 +239,12 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
    1. Wählen Sie **Status** aus.
 
    1. Ändern Sie den Operator in **Nicht enthält** und geben Sie _Genehmigt_ in das Textfeld ein.
-
       ![Beispiel für abgebrochenen KPI-Filter](assets/abandoned-kpi-filter.png)
    1. Klicken Sie **Bedingung hinzufügen**.
    1. Klicken Sie auf den leeren Bedingungsfilter und dann auf **Feld auswählen**.
    1. Wählen Sie **Frist** aus.
    1. Ändern Sie den Operator in **kleiner als** und schalten Sie dann **Relatives Datum festlegen** auf **EIN**.
    1. Geben Sie _$$TODAY-2w_ in das Textfeld ein.
-
       ![Beispiel für abgebrochenen KPI-Filter](assets/abandoned-kpi-filter-2.png)
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
 
@@ -256,7 +254,7 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
 
 #### Validierungen nach Entscheidungsbalkendiagramm
 
-1. [Erstellen Sie ein &#x200B;](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
 1. Klicken Sie oben rechts auf der Detailseite des Dashboards auf **Bericht hinzufügen**.
 
 1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
@@ -284,14 +282,13 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
    1. Klicken Sie auf den leeren Bedingungsfilter und dann auf **Feld auswählen**.
    1. Wählen Sie **Dokumentversion** > **Version** aus.
    1. Ändern Sie den Operator in **Ist nicht null**.
-
       ![Filterbeispiel](assets/approvals-by-decision-chart-filter.png)
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
 
 
 #### Überarbeitungen Balkendiagramm
 
-1. [Erstellen Sie ein &#x200B;](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
 1. Klicken Sie oben rechts auf der Detailseite des Dashboards auf **Bericht hinzufügen**.
 
 1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
@@ -323,14 +320,12 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
    1. Wählen Sie **Genehmigungsphase** > **Teilnehmer der Genehmigungsphase** > **Entscheidungsdatum**.
 
    1. Ändern Sie den Operator in **Ist Null**.
-
       ![Beispiel für Revisionsdiagrammfilter](assets/revision-chart-filter.png)
    1. Klicken Sie **Bedingung hinzufügen**.
    1. Klicken Sie auf den leeren Bedingungsfilter und dann auf **Feld auswählen**.
    1. Wählen Sie **Genehmigungsphase** > **Frist** aus.
    1. Ändern Sie den Operator in **Kleiner oder gleich** und schalten Sie **Relatives Datum festlegen** auf **EIN**.
    1. Geben Sie _$$TODAYem_ in das Textfeld ein.
-
       ![Beispiel für Revisionsdiagrammfilter](assets/revision-chart-filter-2.png)
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
 
@@ -342,7 +337,7 @@ Weitere Informationen zum Erstellen eines Tabellenberichts finden Sie unter [Ers
 
 ### Liste der ausstehenden Genehmigungen
 
-1. [Erstellen Sie ein &#x200B;](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
 1. Klicken Sie oben rechts auf der Detailseite des Dashboards auf **Bericht hinzufügen**.
 
 1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
@@ -404,7 +399,6 @@ Weitere Informationen zum Erstellen eines Tabellenberichts finden Sie unter [Ers
    1. Klicken Sie auf den leeren Bedingungsfilter und dann auf **Feld auswählen**.
    1. Wählen Sie **Status** aus.
    1. Ändern Sie den Operator in **Gleich** und geben Sie dann _Ausstehende_) in das Textfeld ein.
-
       ![Filterbeispiel für Tabelle mit ausstehender Genehmigung](assets/pending-approval-table-filter.png)
    1. (Optional) Fügen Sie zusätzliche Filter hinzu, wie im Abschnitt **Optionale Filter** unten beschrieben.
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
@@ -422,7 +416,6 @@ Um spezifischere Informationen je nach Anwendungsfall anzuzeigen, können Sie zu
    1. Klicken Sie auf den leeren Bedingungsfilter und dann auf **Feld auswählen**.
    1. Wählen Sie **Dokumentversion** > **Dokument** > **Projekt** > **Inhaber** > Typ _Name_ im Suchfeld aus.
    1. Ändern Sie den Operator in **Gleich** und wählen Sie dann **Ich (angemeldeter Benutzer)**, um Projekte in Workfront anzuzeigen, bei denen Sie als Projektbesitzer markiert sind.
-
       ![Filterbeispiel für Tabelle mit ausstehender Genehmigung](assets/pending-approvals-my-project-filter.png)
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
 
@@ -432,7 +425,6 @@ Um spezifischere Informationen je nach Anwendungsfall anzuzeigen, können Sie zu
    1. Klicken Sie in den leeren Bedingungsfilter und klicken Sie auf **Feld auswählen**.
    1. Wählen **im Suchfeld** Genehmigungsphase **> Genehmigungsphase Teilnehmer** > **Anforderer** > Typ _Name_ aus.
    1. Ändern Sie den Operator in **Gleich** und wählen Sie dann **Ich (angemeldeter Benutzer)**, um Projekte in Workfront anzuzeigen, bei denen Sie als Projektbesitzer markiert sind.
-
       ![Filterbeispiel für Tabelle mit ausstehender Genehmigung](assets/pending-approvals-my-project-filter.png)
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
 
@@ -440,7 +432,7 @@ Um spezifischere Informationen je nach Anwendungsfall anzuzeigen, können Sie zu
 
 ### Liste der überfälligen Genehmigungen
 
-1. [Erstellen Sie ein &#x200B;](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
 
 1. Klicken Sie oben rechts auf der Detailseite des Dashboards auf **Bericht hinzufügen**.
 
@@ -502,7 +494,6 @@ Um spezifischere Informationen je nach Anwendungsfall anzuzeigen, können Sie zu
    1. Wählen Sie **Genehmigungsphase** > **Frist** aus.
    1. Ändern Sie den Operator in **Kleiner als** und schalten Sie dann **Relatives Datum festlegen** auf **EIN**.
    1. Geben Sie _$$TODAY_ in das Textfeld ein.
-
       ![Beispiel für überfällige Genehmigungstabelle](assets/overdue-approval.png)
    1. (Optional) Fügen Sie zusätzliche Filter hinzu, wie im Abschnitt **Optionale Filter** unten beschrieben.
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
@@ -521,7 +512,6 @@ Um spezifischere Informationen je nach Anwendungsfall anzuzeigen, können Sie zu
    1. Klicken Sie in den leeren Bedingungsfilter und klicken Sie auf **Feld auswählen**.
    1. Wählen Sie **Dokumentversion** > **Dokument** > **Projekt** > **Inhaber** > Typ _Name_ im Suchfeld aus.
    1. Ändern Sie den Operator in **Gleich** und wählen Sie dann **Ich (angemeldeter Benutzer)**, um Projekte in Workfront anzuzeigen, in denen Sie als Projektbesitzer markiert sind.
-
       ![Filterbeispiel für Tabelle mit ausstehender Genehmigung](assets/pending-approvals-my-project-filter.png)
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
 
@@ -531,7 +521,6 @@ Um spezifischere Informationen je nach Anwendungsfall anzuzeigen, können Sie zu
    1. Klicken Sie in den leeren Bedingungsfilter und klicken Sie auf **Feld auswählen**.
    1. Wählen **im Suchfeld** Genehmigungsphase **> Genehmigungsphase Teilnehmer** > **Anforderer** > Typ _Name_ aus.
    1. Ändern Sie den Operator in **Gleich** und wählen Sie dann **Ich (angemeldeter Benutzer)**, um Projekte in Workfront anzuzeigen, in denen Sie als Projektbesitzer markiert sind.
-
       ![Filterbeispiel für Tabelle mit ausstehender Genehmigung](assets/pending-approvals-my-project-filter.png)
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
 
@@ -541,7 +530,6 @@ Um spezifischere Informationen je nach Anwendungsfall anzuzeigen, können Sie zu
    1. Klicken Sie in den leeren Bedingungsfilter und klicken Sie auf **Feld auswählen**.
    1. Wählen Sie **Genehmigungsphase** > **Genehmigungsphase Teilnehmer** > **Teilnehmer-Team** > Typ _Name_ im Suchfeld.
    1. Ändern Sie den Operator in **Gleich** und wählen Sie dann **Meine Standard-Teams (angemeldeter Benutzer)** oder **Meine anderen Teams (angemeldeter Benutzer)**, um Projekte anzuzeigen, die Ihrem Standard-Team oder anderen Teams, denen Sie angehören, zugewiesen sind.
-
       ![Filterbeispiel für Tabelle mit ausstehender Genehmigung](assets/approvals-ive-submitted-filter.png)
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
 +++

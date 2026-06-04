@@ -1,25 +1,29 @@
 ---
 product-area: documents
 navigation-topic: proofing-overview
-title: Übersicht über die Neuverarbeitung von Dokumenten für das Proofing
+title: Überblick über die erneute Verarbeitung von Dokumenten für das Proofing
 description: Wenn Sie ein Dokument (DOCX, PDF, XLSX, AI) für das Proofing übermitteln, verarbeitet Adobe Workfront es erneut, sodass es in der Proofing-Ansicht ohne die Software-Anwendung angezeigt werden kann, die Sie zum Erstellen verwendet haben.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e577fa71-4828-4fc2-93a2-0eddbb5ad2ad
-source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
+TQID: https://experienceleague.adobe.com/giMfktfCHbpzATLm-1ZrKi1bkoc4OeFlAqXYu-YWQtA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 0%
+source-wordcount: 632
+ht-degree: 1%
 
 ---
 
-# Übersicht über die Neuverarbeitung von Dokumenten für das Proofing
+# Überblick über die erneute Verarbeitung von Dokumenten für das Proofing
 
 Wenn Sie ein Dokument (DOCX, PDF, XLSX, AI) für das Proofing übermitteln, verarbeitet Adobe Workfront es erneut, sodass es in der Proofing-Ansicht ohne die Software-Anwendung angezeigt werden kann, die Sie zum Erstellen verwendet haben. 
 
 Jede Seite Ihres Dokuments wird im Proofing Viewer als Miniaturbild angezeigt. Wenn Sie auf eine Miniatur klicken, können Sie eine Bitmap-Version dieser Seite zu 100 %, 200 % und 400 % einzoomen. Für Korrekturabzüge mit einer Höhe oder Breite von mehr als 800 mm beträgt der maximale Zoom-Faktor 200 %.
 
-Die Farben in Ihrem Dokument werden in sRGB mit Farbkonvertierung von der neuesten Adobe-Bibliothek angezeigt. Der Proofing Viewer unterstützt alle im Dokument eingebetteten ICC-Profile (International Color Consortium).
+Die Farben in Ihrem Dokument werden in sRGB mit Farbkonvertierung aus der neuesten Adobe-Bibliothek angezeigt. Der Proofing Viewer unterstützt alle im Dokument eingebetteten ICC-Profile (International Color Consortium).
 
 Der gesamte Schrifttext wird in seiner Ebene extrahiert, sofern Sie beim Hochladen des Dokuments in das System die richtige Dateierweiterung angeben. Als Bilder oder Kurven enthaltener Text wird nicht angezeigt.
 

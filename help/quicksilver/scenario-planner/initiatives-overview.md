@@ -7,11 +7,14 @@ description: Der Szenario-Planer ist nur in der neuen Adobe Workfront-Version ve
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d67f51e5-7c5c-436b-b0c3-e5afbd7cebca
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/LvjgUviaZwtv02BBrBjc8HGjUyZBYfF-yEz--COompY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: 946
 ht-degree: 0%
 
 ---
@@ -69,7 +72,7 @@ Sie können die folgenden Finanzindikatoren zu einer Initiative anzeigen, indem 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Fixkosten]</td> 
-   <td> <p><span style="font-weight: normal;">Dies ist ein manueller Eintrag, mit dem Sie <span> monatlichen Fixkosten für jeden Monat der Initiative schätzen können.</span> Dies umfasst nicht die Kosten im Zusammenhang mit den Rollen, die der Initiative hinzugefügt wurden und die im Feld [!UICONTROL Personalkosten] erfasst werden.</span> </p> </td> 
+   <td> <p><span style="font-weight: normal;">Dies ist ein manueller Eintrag, mit dem Sie <span>einen monatlichen Betrag an Fixkosten für jeden Monat der Initiative schätzen können.</span> Dies umfasst nicht die Kosten im Zusammenhang mit den Rollen, die der Initiative hinzugefügt wurden und die im Feld [!UICONTROL Personalkosten] erfasst werden.</span> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Personalkosten]</td> 
@@ -130,7 +133,7 @@ Sie können Initiativinformationen in Berichten anzeigen, wie in der folgenden T
    <td>Alle oben aufgeführten Informationen zur Initiative, (Aufgabengebiet)-ID, Projekt*, Projektzuweisung, geplante Stunden*, Aufgabengebiet-Stunden für die Initiative, (Aufgabengebiet)-Anzahl, alle Projektfelder einschließlich benutzerdefinierter Felder*</td> 
   </tr> 
   <tr> 
-   <td><p>[!UICONTROL -Projekt]*</p></td> 
+   <td><p>[!UICONTROL-Projekt]*</p></td> 
    <td> <p>Alle oben aufgeführten Informationen zur Initiative*</p> </td> 
   </tr> 
  </tbody> 

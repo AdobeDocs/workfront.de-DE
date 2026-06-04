@@ -7,11 +7,17 @@ description: Wenn Sie die langfristige Strategie Ihres Unternehmens planen, gibt
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 9a79ef81-6271-4cc9-b701-3ba0aeafb324
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/xf-c8wX5aGmp5p9O58Zsz6zFHyoPw-om6SvzlU9wqdI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: 936
 ht-degree: 4%
 
 ---
@@ -110,11 +116,11 @@ Ein Szenario ist eine Kopie eines Plans. Sie können so viele Szenarien erstelle
 
    Informationen zum Erstellen von Plänen finden Sie unter [Erstellen und Bearbeiten von Plänen in der [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
 
-   Der erste von Ihnen erstellte Plan wird automatisch als &quot;[!UICONTROL &#x200B; Szenario“ &#x200B;].
+   Der erste von Ihnen erstellte Plan wird automatisch als &quot;[!UICONTROL  Szenario“ ].
 
 1. Klicken Sie auf den Abwärtspfeil neben einem vorhandenen Szenario und dann auf das Symbol **[!UICONTROL Kopieren]**.
 
-   ![Szenario &#x200B;](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
+   ![Szenario ](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
 
    Dadurch wird ein neues Szenario mit denselben Informationen wie das kopierte Szenario erstellt. Sie erhält automatisch den Namen &quot;[!UICONTROL Szenario 2]&quot;, wenn es sich um das zweite Szenario Ihres Plans handelt, &quot;[!UICONTROL Szenario 3]&quot;, wenn es das dritte ist usw. Sie können Ihre Szenarien nicht umbenennen. Die Anzahl der Kopien, die Sie erstellen können, ist unbegrenzt.
 
@@ -225,7 +231,7 @@ Nachdem Sie Ihre Szenarien erstellt haben, können Sie sie vergleichen, um das b
 
 1. (Optional) Klicken Sie auf das **[!UICONTROL Mehr]** Menü ![Mehr](assets/more-icon.png), um das Szenario **[!UICONTROL Kopieren]** oder **[!UICONTROL Löschen]**.
 
-   ![Szenario kopieren oder &#x200B;](assets/copy-or-delete-scenario-links-from-card-350x109.png)
+   ![Szenario kopieren oder ](assets/copy-or-delete-scenario-links-from-card-350x109.png)
 
    Wenn Sie ein Szenario kopieren, wird es automatisch auf der Kartenseite angezeigt und gemäß diesem Muster umbenannt: &quot;[!UICONTROL Szenario] `<next number in order>`.“
 

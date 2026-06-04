@@ -1,26 +1,30 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Neue Funktionen in der API-Version 7
+title: Neue Funktionen in der API-Version 7
 description: Sammlungen
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 8c575251-677b-474d-84aa-02b637ef7760
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/16roY0csrhwq92dDL9hI0NNGj3LcbUw9FGSJMyxbKMA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 50%
+source-wordcount: 488
+ht-degree: 64%
 
 ---
 
-# Neue Funktionen in der API-Version 7
+# Neue Funktionen in der API-Version 7
 
 ## Neue Objekte
 
 ### Proofbohne
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | Suchen |
 | tote Linie |   |   |   |   |   |   |
@@ -41,7 +45,7 @@ ht-degree: 50%
  <thead> 
   <tr> 
    <th>Felder</th> 
-   <th>Verweise</th> 
+   <th>Referenzen</th> 
    <th> <p data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type&quot;}">Sammlungen</p> <p data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type&quot;}">+++++++++++ </p> </th> 
    <th>Suchen</th> 
    <th>Aktionen</th> 
@@ -66,7 +70,7 @@ ht-degree: 50%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>Zählung </td> 
+   <td>Count </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -102,17 +106,17 @@ ht-degree: 50%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>Suche </td> 
+   <td>Suchen </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### DocMetadataLinkGroup
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | Hinzufügen |
-|   |   |   |   |   |   | Anzahl |
+|   |   |   |   |   |   | Count |
 |   |   |   |   |   |   | Löschen |
 |   |   |   |   |   |   | Abrufen |
 |   |   |   |   |   |   | Bericht |
@@ -122,9 +126,9 @@ ht-degree: 50%
 
 ### Testversandvalidierung
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| ID |   |   |   |   |   | Anzahl |
+| ID |   |   |   |   |   | Count |
 |   |   |   |   |   |   | Abrufen |
 |   |   |   |   |   |   | Bericht |
 |   |   |   |   |   |   | Suchen |
@@ -135,10 +139,10 @@ ht-degree: 50%
 
 ### Ressourcenprofil
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | Hinzufügen |
-|   |   |   |   |   |   | Anzahl |
+|   |   |   |   |   |   | Count |
 |   |   |   |   |   |   | Löschen |
 |   |   |   |   |   |   | Bearbeiten |
 |   |   |   |   |   |   | Abrufen |
@@ -151,10 +155,10 @@ ht-degree: 50%
 
 ### UserGroups
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | groupID | Gruppe |   |   |   |   |   |
-| isOwner  | Benutzer  |   |   |   |   |   |
+| isOwner  | Benutzerin bzw. Benutzer  |   |   |   |   |   |
 | userID  |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
@@ -163,11 +167,11 @@ ht-degree: 50%
 
 ### Arbeitszeittabellen-Profil
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | ID |   |  hourTypes |   |   |   | Hinzufügen |
 | name |   |   |   |   |   | Kopieren |
-|   |   |   |   |   |   | Anzahl |
+|   |   |   |   |   |   | Count |
 |   |   |   |   |   |   | Löschen |
 |   |   |   |   |   |   | Bearbeiten |
 |   |   |   |   |   |   | Abrufen |
@@ -181,10 +185,10 @@ ht-degree: 50%
 
 ### RsrcPool
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| ID | Kunde | Benutzer |   |   |   | Hinzufügen |
-| customerID  | enteredBy  |   |   |   |   | Anzahl |
+| ID | Kundin bzw. Kunde | Benutzer |   |   |   | Hinzufügen |
+| customerID  | enteredBy  |   |   |   |   | Count |
 | Beschreibung  | lastUpdatedBy  |   |   |   |   | Löschen |
 | enteredByID  |   |   |   |   |   | Bearbeiten |
 | entryDate  |   |   |   |   |   | Abrufen |
@@ -199,9 +203,9 @@ ht-degree: 50%
 
 ### DocMetadataLinkGroup
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| ID |   |   |   |   |   | Anzahl |
+| ID |   |   |   |   |   | Count |
 | articleName  |   |   |   |   |   | Abrufen |
 | pageID  |   |   |   |   |   | Bericht |
 | URL  |   |   |   |   |   | Suchen |
@@ -220,7 +224,7 @@ ht-degree: 50%
 
 ### Bean aktualisieren
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | updateType<sup>1</sup> |   |   |   |   |   |   |
 
@@ -232,7 +236,7 @@ ht-degree: 50%
 
 ### ApprovalServiceObject
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |   |   |   |   |   |   |
 | approvalStartDate<sup>1</sup> |   |   |   |   |   |   |
@@ -250,7 +254,7 @@ ht-degree: 50%
 
 ### Genehmigungsprozess
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 |   |   | `AttachedApprovalPaths`  |   |   |   |   |
 
@@ -260,7 +264,7 @@ ht-degree: 50%
 
 ### Genehmigungspfad<sup>1</sup>
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |   | `Add` |
 |   |   |   |   |   |   | `Delete` |
@@ -274,7 +278,7 @@ ht-degree: 50%
 
 ### Work Service-Objekt
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |   |   |   |   |   |   |
 | approvalStartDate |   |   |   |   |   |   |
@@ -290,7 +294,7 @@ ht-degree: 50%
 
 ### Zuweisung
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 |  workPerDayList |   |   |   | assignUserToRoleOnProjects<sup>1</sup> |   |   |
 |   |   |   |   | swapUsersOnProjects<sup>1</sup> |   |   |
@@ -302,9 +306,9 @@ ht-degree: 50%
 
  
 
-### KUNDE 
+### Kunde 
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | bizRuleExclusions<sup>1</sup> |   |   |   |   |   |   |
 
@@ -314,9 +318,9 @@ ht-degree: 50%
 
  
 
-### Benutzerdefinierte Enumeration 
+### Benutzerdefinierte Aufzählung 
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | groupID  |   |   |   |   |   |   |
 
@@ -326,7 +330,7 @@ ht-degree: 50%
 
 ### Dokument 
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | checkOutTimestamp |   |   |   |  createProof |   |   |
 
@@ -336,7 +340,7 @@ ht-degree: 50%
 
 ### DocumentVersion 
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 |   |   |   |   |  getProofingTokens |   |   |
 
@@ -346,7 +350,7 @@ ht-degree: 50%
 
 ### Gruppe
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | isPublic |  layoutTemplate | userGroups  |   |   |   |   |
 | layoutTemplateID |   |   |   |   |   |   |
@@ -359,7 +363,7 @@ ht-degree: 50%
 
 ### Stundentyp
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 |   |   |   |   |   | defaultOpTaskHourType |   |
 |   |   |   |   |   | defaultProjectHourType |   |
@@ -373,7 +377,7 @@ ht-degree: 50%
 
 ### Journaleintrag
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | changeType<sup>1</sup> |   |   |   |   |   |   |
 
@@ -385,7 +389,7 @@ ht-degree: 50%
 
 ### Optask (Problem)
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |   |   |   |  assignMultiple |   |   |
 | approvalStartDate |   |   |   |   |   |   |
@@ -398,7 +402,7 @@ ht-degree: 50%
 
 ### Projekt
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |   |   |   |   |   |   |
 | approvalStartDate |   |   |   |   |   |   |
@@ -411,7 +415,7 @@ ht-degree: 50%
 
 ### QueueDef
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | allowedLegacyQueueTopicIDs |  |  |  | getQueueDefTree |   |   |
 
@@ -421,7 +425,7 @@ ht-degree: 50%
 
 ### Warteschlangenthema
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |  queueTopicID |   |
 
@@ -431,7 +435,7 @@ ht-degree: 50%
 
 ### Zuletzt
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 |   |   |   |   |  updateLastViewedObject |   |   |
 
@@ -441,7 +445,7 @@ ht-degree: 50%
 
 ### Aufgabe
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |   |   |   | assignMultiple  |   |   |
 | approvalStartDate |   |   |   |   |   |   |
@@ -453,7 +457,7 @@ ht-degree: 50%
 
 ### Vorlagenaufgabe
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | workRequired<sup>1</sup> |   |   |   |   |   |   |
 
@@ -476,7 +480,7 @@ ht-degree: 50%
  <thead> 
   <tr> 
    <th>Felder</th> 
-   <th>Verweise</th> 
+   <th>Referenzen</th> 
    <th>Sammlungen</th> 
    <th>Suchen</th> 
    <th>Aktionen</th> 
@@ -546,7 +550,7 @@ ht-degree: 50%
 
 ### Benutzerhinweis
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | `acknowledgedmentIDs` |   |   |   |  unackknowledgeMany |   |   |
 | BackDate |   |   |   |   |   |   |
@@ -560,9 +564,9 @@ ht-degree: 50%
 
 ### CustomerPrefObject
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-|  -Name |   |   |   |   |   |   |
+|  name |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 

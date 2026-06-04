@@ -7,11 +7,15 @@ description: Der Starttag der Woche auf meiner Arbeitszeittabelle entspricht nic
 author: Lisa
 feature: Timesheets
 exl-id: 5c6c100f-2a04-4a6b-9f95-acc8de3a90f1
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/-mf4ubX7c-siYROEoY3IQzHp94lJ1nwsR1UMpD2y-sk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: 205
 ht-degree: 5%
 
 ---
@@ -31,7 +35,7 @@ Dies tritt in der Regel auf, wenn Sie keinem Arbeitszeittabellen-Profil zugewies
 
 Ihr Workfront-Administrator sollte Arbeitszeittabellen-Profile erstellen und alle Benutzer einem Profil zuweisen, wie in [Erstellen, Bearbeiten und Zuweisen von Arbeitszeittabellen-Profilen](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) beschrieben. Ihr Workfront-Administrator definiert möglicherweise das Startdatum einer Arbeitszeittabelle an einem anderen Tag als dem erwarteten wöchentlichen Startdatum. Erkundigen Sie sich bei ihnen, wann das Startdatum eines Arbeitszeittabellen-Profils für Ihre Arbeitszeittabelle ist.
 
-Wenn Ihre Arbeitszeittabelle manuell erstellt wurde, verwendet der Starttag der Woche in der Arbeitszeittabelle die E-Mail-Gebietsschema-Einstellungen im Benutzerprofil, wie im Artikel &quot;[&#x200B; konfigurieren“ &#x200B;](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+Wenn Ihre Arbeitszeittabelle manuell erstellt wurde, verwendet der Starttag der Woche in der Arbeitszeittabelle die E-Mail-Gebietsschema-Einstellungen im Benutzerprofil, wie im Artikel &quot;[ konfigurieren“ ](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 
 Wenn beispielsweise das E-Mail-Gebietsschema auf Englisch (Vereinigte Staaten) eingestellt ist, beginnt die Woche in der Arbeitszeittabelle am Sonntag. Wenn das E-Mail-Gebietsschema auf Englisch (Großbritannien) festgelegt ist, beginnt die Woche in der Arbeitszeittabelle alternativ an einem Montag.
 

@@ -3,19 +3,23 @@ filename: api-changes-search
 content-type: api
 keywords: Objekt,Status,Suche,Best,Practice,Antwort
 navigation-topic: api-navigation-topic
-title: 'Änderungen an der Kern-API: Antworten auf die Statussuche'
+title: 'Wichtige API-Änderungen: Antworten bei der Statussuche'
 description: Änderungen bei der Speicherung von Statusobjekten in Workfront.
 feature: Workfront API
 role: Developer
 exl-id: 322f1525-d1d5-4845-a590-e34eb94ccdc2
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/aV-wJXoO5uQBbw7O63g49rmH3CJkb4yL7nWtXLeoFu8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 0%
+source-wordcount: 452
+ht-degree: 4%
 
 ---
 
-# Änderungen an der Kern-API: Antworten auf die Statussuche
+# Wichtige API-Änderungen: Antworten bei der Statussuche
 
 Die Art und Weise, wie Workfront Statusobjekte speichert, wurde geändert. Diese Änderungen wirken sich nicht auf die Art und Weise aus, wie Statussuchanfragen gestellt werden. Sie wirken sich jedoch auf die Antwort von API-Anfragen aus, die eine Suche nach Statusobjekten durch Rückgabe einer unvollständigen Liste von Gruppenstatus enthalten.
 

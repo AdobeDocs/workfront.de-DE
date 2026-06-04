@@ -1,18 +1,23 @@
 ---
 navigation-topic: the-new-workfront-experience
-title: Seiten anheften, um den Arbeitsbereich anzupassen
+title: Anheften von Seiten, um den Arbeitsbereich anzupassen
 description: Sie können Ihre wichtigste Arbeit anheften [!DNL Adobe Workfront]  um die Sichtbarkeit zu erhöhen, die Organisation zu verbessern und schneller darauf zuzugreifen. Angeheftete Seiten sind in Workfront immer oben auf jeder Seite verfügbar.
 feature: Get Started with Workfront
 author: Courtney
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: d7b8d7285d23d14f5390c9de1001de553c2b796f
+TQID: https://experienceleague.adobe.com/xXHYO3esg0zhwMvdpQEXitxMBnwWDLWEQvLhHeIhXkw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 1%
+source-wordcount: 401
+ht-degree: 9%
 
 ---
 
-# Seiten anheften, um den Arbeitsbereich anzupassen
+# Anheften von Seiten, um den Arbeitsbereich anzupassen
 
 <!-- Audited: 4/2025 -->
 
@@ -22,7 +27,7 @@ Möglicherweise wurden Sie einer Layout-Vorlage zugewiesen, an die bereits Seite
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,7 +48,7 @@ Möglicherweise wurden Sie einer Layout-Vorlage zugewiesen, an die bereits Seite
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -63,7 +68,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    >
    >Bewegen Sie den Mauszeiger über eine angeheftete Seite, um den vollständigen Namen und die Beschreibung anzuzeigen.
 
-   Oder
+   ODER
 
    Wenn Sie viele Seiten angeheftet haben, klicken Sie auf das Symbol **[!UICONTROL Mehr]** ![Klicken Sie auf das Symbol Mehr](assets/more-icon.png), um zusätzliche angeheftete Seiten anzuzeigen.
 

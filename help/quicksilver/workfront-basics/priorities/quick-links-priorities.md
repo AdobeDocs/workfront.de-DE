@@ -1,19 +1,24 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Hinzufügen und Verwalten von Schnellverknüpfungen in Prioritäten
+title: Hinzufügen und Verwalten von Schnellverknüpfungen in „Prioritäten“
 description: Sie speichern Links, die Sie häufig in einer Aufgabe oder einem Problem in „Prioritäten“ besuchen.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 2d76077d-2913-40b8-9596-4e201d12ec1a
-source-git-commit: 985f1aa11ad1d5efc8d043907d60ad5f5c1bba13
+TQID: https://experienceleague.adobe.com/xCCyTLfCsX3-hFfqKaiAtBgLLCQ6QmVTx7UfSGpBp3s
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 1%
+source-wordcount: 283
+ht-degree: 14%
 
 ---
 
-# Hinzufügen und Verwalten von Schnellverknüpfungen in Prioritäten
+# Hinzufügen und Verwalten von Schnellverknüpfungen in „Prioritäten“
 
 Sie können Links, die Sie häufig im Rahmen einer Aufgabe oder eines Problems besuchen, speichern und auf die Sie über die Registerkarte Übersicht unter Prioritäten zugreifen.
 
@@ -21,7 +26,7 @@ Mit Priorität werden die Ihnen zugewiesenen Arbeitselemente angezeigt. Sie kön
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -71,7 +76,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 1. Klicken Sie auf den Namen eines Arbeitselements, um die Seite **Übersicht** zu öffnen.
 1. Suchen Sie **Abschnitt &quot;**&quot; den Link, den Sie kopieren möchten.
-1. Klicken Sie auf das **Kopieren**![&#x200B; Kopieren](assets/copy-icon.png)Symbol.
+1. Klicken Sie auf das **Kopieren**![ Kopieren](assets/copy-icon.png)Symbol.
    ![Link kopieren](assets/copy-link.png)
 
 ## Schnelllink öffnen

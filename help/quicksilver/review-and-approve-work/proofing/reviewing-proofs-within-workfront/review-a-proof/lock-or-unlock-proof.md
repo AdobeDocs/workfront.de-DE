@@ -1,25 +1,30 @@
 ---
 product-area: documents
 navigation-topic: review-a-proof
-title: Korrekturabzug sperren oder entsperren
+title: Sperren oder Entsperren eines Korrekturabzugs
 description: Sie können einen Korrekturabzug jederzeit im Überprüfungsprozess manuell sperren und entsperren.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 39dc8c17-b087-4c7c-be19-3bbe93577966
-source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
+TQID: https://experienceleague.adobe.com/7G9-SDd45bYCFByK64Ro7cIgItOQdbVWwDve-2-4IGs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 2%
+source-wordcount: 330
+ht-degree: 13%
 
 ---
 
-# Korrekturabzug sperren oder entsperren
+# Sperren oder Entsperren eines Korrekturabzugs
 
 Sie können einen Korrekturabzug jederzeit im Überprüfungsprozess manuell sperren und entsperren.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,13 +43,13 @@ Sie können einen Korrekturabzug jederzeit im Überprüfungsprozess manuell sper
    <td>Inhaber oder Moderator</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof-Berechtigungsprofil </td> 
+   <td role="rowheader">Korrekturabzug-Berechtigungsprofil </td> 
    <td>Verantwortlicher oder Administrator</td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -57,7 +62,7 @@ Korrekturabzug sperren:
 1. Navigieren Sie zur Dokumentliste, die den Korrekturabzug enthält, den Sie öffnen möchten.
 1. Bewegen Sie den Mauszeiger über das Dokument und klicken Sie dann auf den **Korrekturabzug öffnen**-Link, der angezeigt wird.
 
-   Oder
+   ODER
 
    Wenn Sie einen Korrekturabzug für eine frühere Version des Dokuments öffnen möchten, klicken Sie auf das Symbol Mehr ![Mehr](assets/more-icon.png) für diese Version in der Zusammenfassung und dann auf **Korrekturabzug öffnen**.
 
@@ -75,7 +80,7 @@ So entsperren Sie einen Korrekturabzug:
 
 1. Bewegen Sie den Mauszeiger über das Dokument und klicken Sie dann auf den **Korrekturabzug öffnen**-Link, der angezeigt wird.
 
-   Oder
+   ODER
 
    Wenn Sie einen Korrekturabzug für eine frühere Version des Dokuments öffnen möchten, klicken Sie auf das Symbol Mehr ![Mehr](assets/more-icon.png) für diese Version in der Zusammenfassung und dann auf **Korrekturabzug öffnen**.
 

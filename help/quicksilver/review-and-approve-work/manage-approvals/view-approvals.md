@@ -1,19 +1,25 @@
 ---
 product-area: projects
 navigation-topic: approvals
-title: Genehmigungen anzeigen
+title: Anzeigen von Genehmigungen
 description: Genehmigungsprozesse bieten die Flexibilität, mehrstufige Genehmigungen für Projekte, Aufgaben und Probleme zu erstellen. Adobe Workfront-Administratoren definieren Genehmigungsprozesse, um im gesamten System für Konsistenz zu sorgen.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: a3ce37193025ff8bb2e0be88ef5556fcadbb542c
+TQID: https://experienceleague.adobe.com/yAn-wNxLfDdPMOqoalYmuZjI5X8wu7RAkIIFbHj8OC0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: e147ce9d-7675-49bd-8a32-44f27d865560id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 2%
+source-wordcount: 754
+ht-degree: 5%
 
 ---
 
-# Genehmigungen anzeigen
+# Anzeigen von Genehmigungen
 
 <span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
@@ -53,13 +59,13 @@ Informationen zum Verknüpfen von Genehmigungen mit Arbeiten in Workfront finden
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
 ## Suchen von Validierungen in Adobe Workfront
 
-Sie können Validierungen aus verschiedenen Bereichen von Workfront anzeigen oder verwalten. Informationen zum Verwalten von Validierungen in verschiedenen Bereichen finden Sie unter [Genehmigen von &#x200B;](../../review-and-approve-work/manage-approvals/approving-work.md).
+Sie können Validierungen aus verschiedenen Bereichen von Workfront anzeigen oder verwalten. Informationen zum Verwalten von Validierungen in verschiedenen Bereichen finden Sie unter [Genehmigen von ](../../review-and-approve-work/manage-approvals/approving-work.md).
 
 Sie können Validierungen aus den folgenden Bereichen anzeigen oder verwalten:
 

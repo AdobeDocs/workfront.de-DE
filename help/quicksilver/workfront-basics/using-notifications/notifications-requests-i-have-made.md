@@ -6,9 +6,13 @@ description: Die folgenden Benachrichtigungen informieren Sie über Anfragen, di
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 42771f71-dbf8-4e73-9a0e-8efea612af4a
-source-git-commit: 64b8a835a57be8995c82a0ab15c40f46170c7067
+TQID: https://experienceleague.adobe.com/IVweQmtHXCXNs7hC6hIIq4mJ-9XLmuucpmBs2AQQDKo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: 1348
 ht-degree: 0%
 
 ---
@@ -36,7 +40,7 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
   </tr> 
   <tr> 
    <td> <p><strong>Ein Dokument zu einem Problem, für das ich der primäre Ansprechpartner bin, wurde geändert oder hochgeladen</strong> </p> <p>Der primäre Kontakt des Problems erhält eine E-Mail-Benachrichtigung, wenn ein Dokument zu dem Problem hochgeladen oder geändert wird, es sei denn, der Benutzer, der das Dokument hochgeladen oder geändert hat, ist auch der primäre Kontakt.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn das Projekt als [!UICONTROL Help Request Queue] eingerichtet ist (wie in <a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">[!UICONTROL Create a Request Queue] beschrieben</a>.</p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail lautet: <em>Dokument hinzugefügt zu &lt;Name des Problems&gt;</em></p> <p>Der Betreff der täglichen Digest-Benachrichtigung ist: <em>Zusammenfassung Ihrer Anfragen &lt;Datum der täglichen Digest&gt;</em></p> </td> 
-   <td> Objektname, in den das Dokument hochgeladen wurde<br>Übergeordneter Objektname<br>Dokumentreferenznummer<br>Name des Benutzers, der das Dokument hochgeladen hat<br>Dokumentname<br>Am Datum hinzugefügt<br>Dokumentdetails (Format, Größe, Versionsnummer)<br>Dokumentminiaturansicht<br><strong>[!UICONTROL -Vorschau]</strong> und <strong>[!UICONTROL -Download]</strong>-Schaltflächen<br>*Projektname<br>*Projektreferenznummer<br>*Gesamtzahl der hochgeladenen Dokumente<br>*Name des Dokuments<br>*Name des übergeordneten Objekts<br>*Name des Benutzers, der das Dokument hinzugefügt hat<br>*Datum der täglichen Zusammenfassung </td> 
+   <td> Objektname, in den das Dokument hochgeladen wurde<br>Übergeordneter Objektname<br>Dokumentreferenznummer<br>Name des Benutzers, der das Dokument hochgeladen hat<br>Dokumentname<br>Am Datum hinzugefügt<br>Dokumentdetails (Format, Größe, Versionsnummer)<br>Dokumentminiaturansicht<br><strong>[!UICONTROL-Vorschau]</strong> und <strong>[!UICONTROL-Download]</strong>-Schaltflächen<br>*Projektname<br>*Projektreferenznummer<br>*Gesamtzahl der hochgeladenen Dokumente<br>*Name des Dokuments<br>*Name des übergeordneten Objekts<br>*Name des Benutzers, der das Dokument hinzugefügt hat<br>*Datum der täglichen Zusammenfassung </td> 
    <td><strong>Täglich</strong> </td> 
   </tr> 
   <tr> 

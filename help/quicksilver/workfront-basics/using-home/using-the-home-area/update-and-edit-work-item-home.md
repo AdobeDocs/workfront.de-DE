@@ -6,11 +6,17 @@ description: Sie können Aktualisierungen zu einem Arbeitselement im Bereich [!U
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/stUm9llYC3331mkk1MJkQTpOtucveUyjTeXBlxDfSgA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: c10f2e93-7a58-4212-aa24-684c265ebe76id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: 826
 ht-degree: 10%
 
 ---
@@ -103,7 +109,7 @@ Sie können Arbeitselemente in den folgenden Widgets im Bereich Startseite bearb
 
 ## Hinzufügen eines Kommentars zu einem Arbeitselement im Widget Meine Arbeit
 
-Sie können Aktualisierungen zu jedem Arbeitselement im Widget &quot;[!UICONTROL &#x200B; Arbeit“ &#x200B;]:
+Sie können Aktualisierungen zu jedem Arbeitselement im Widget &quot;[!UICONTROL  Arbeit“ ]:
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke oder auf das Symbol **Hauptmenü** ![Hauptmenüzeilen](assets/lines-main-menu.png) in der oberen linken Ecke, falls verfügbar, und klicken Sie dann auf **[!UICONTROL Home]**.
 1. (Bedingt) Klicken Sie auf **Anpassen**, um das Widget [!UICONTROL **Meine Arbeit**] hinzuzufügen.

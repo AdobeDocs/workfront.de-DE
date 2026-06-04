@@ -7,13 +7,15 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 67fc34dc-0722-4419-8254-0371ad5abfc3
-source-git-commit: f9a154fa92217810b762ac48169512bc0bca7305
+TQID: https://experienceleague.adobe.com/mbMDFBRO9-bIJdlxbJjy2nqsvkjnppOJsMqTltjQ2qM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: 769
 ht-degree: 3%
 
 ---
-
 
 # Rich-Text-Felder in der Adobe Workfront-API
 
@@ -123,4 +125,4 @@ So speichern Sie die folgenden Werte eines Rich-Text-Felds mithilfe der Workfron
 1. Verwenden Sie die stringify-Methode für die oben beschriebene JSON, um eine PUT-Anfrage zu stellen und Aktualisierungen zu senden.
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre>&lt;OBJ Code>&lt;OBJ ID></pre>
+   <pre><OBJ Code><OBJ ID></pre>

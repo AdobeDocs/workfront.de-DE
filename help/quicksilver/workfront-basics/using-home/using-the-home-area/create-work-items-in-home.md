@@ -2,22 +2,28 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: Erstellen von Arbeitselementen und Projekten im Bereich Startseite
-description: Sie können Arbeitselemente und Projekte über den Bereich "[!UICONTROL " &#x200B;].
+description: Sie können Arbeitselemente und Projekte über den Bereich "[!UICONTROL " ].
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/00U8FspScYDtQBKl056DfxAKrgOkFhr2S0SXCx-hdkg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '816'
+source-wordcount: 804
 ht-degree: 8%
 
 ---
 
 # Erstellen von Arbeitselementen und Projekten im Startseiten-Bereich
 
-Sie können Arbeitselemente und Projekte über den Bereich &quot;[!UICONTROL &quot; &#x200B;].
+Sie können Arbeitselemente und Projekte über den Bereich &quot;[!UICONTROL &quot; ].
 
 Von zu Hause aus haben Sie folgende Möglichkeiten
 
@@ -64,7 +70,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 ## Persönliches Aufgabenelement erstellen
 
-Sie können im Bereich „Startseite“ im Widget „Aufgaben[!UICONTROL &#x200B; persönliche &#x200B;] erstellen. Die Aufgaben sind persönliche Aufgaben, die Sie selbst erstellen.
+Sie können im Bereich „Startseite“ im Widget „Aufgaben[!UICONTROL  persönliche ] erstellen. Die Aufgaben sind persönliche Aufgaben, die Sie selbst erstellen.
 
 Sie und andere Benutzer können Ihre persönlichen Aufgaben in einem persönlichen Aufgabenbericht anzeigen. Von dort aus können sie sie bei Bedarf zu Projekten hinzufügen.
 

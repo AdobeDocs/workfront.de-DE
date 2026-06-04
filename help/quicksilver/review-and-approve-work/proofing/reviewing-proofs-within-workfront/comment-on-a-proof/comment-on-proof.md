@@ -3,15 +3,18 @@ content-type: reference
 product-area: documents
 navigation-topic: review-proofs-within-workfront
 title: 'Kommentar zu einer Korrekturabzugsübersicht: Artikelindex'
-description: Kommentar zu einem Korrekturabzug
+description: Kommentieren eines Korrekturabzugs
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 526d4f65-54c1-480c-ab7b-f207b74cafbf
-source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
+TQID: https://experienceleague.adobe.com/PboluUuB4rI-t6aUntr-rh5UClud5ro61M1Srcp7Y04
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 0%
+source-wordcount: 53
+ht-degree: 18%
 
 ---
 
@@ -24,4 +27,4 @@ ht-degree: 0%
 * [Korrekturabzugskommentare auflösen](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/resolve-proof-comments.md)
 * [Korrekturabzugskommentare löschen](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/delete-proof-comment.md)
 * [Aktionen für Korrekturabzugskommentare verwenden](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)
-* [Tagging von Benutzern für die Freigabe eines Korrekturabzugs](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md)
+* [Tagging von Benutzenden für die Freigabe eines Korrekturabzugs](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md)

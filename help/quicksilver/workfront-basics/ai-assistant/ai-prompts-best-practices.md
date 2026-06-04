@@ -5,10 +5,13 @@ description: Erfahren Sie mehr über die Best Practices für die Verwendung des 
 author: Jenny
 feature: Get Started with Workfront
 exl-id: 34a60482-e060-49f9-bbaf-8aed85845e26
-source-git-commit: dc472e93541641ee1c960ec7246365200f522a17
+TQID: https://experienceleague.adobe.com/FTfet4al9-gwRXHYFzVlC3qrDfW8HUJA22sHN00eKOM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 4%
+source-wordcount: 744
+ht-degree: 5%
 
 ---
 
@@ -36,7 +39,7 @@ Der KI-Assistent kann Daten für die folgenden Objekttypen bereitstellen:
 * Probleme
 * Benutzerdefinierte Formulare
 * Benutzende
-* Workfront-Planungsdatensätze
+* Einträge in Workfront-Planung
 
 >[!NOTE]
 >

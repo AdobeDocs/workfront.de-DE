@@ -1,25 +1,30 @@
 ---
 product-area: documents
 navigation-topic: comment-on-a-proof
-title: Kommentare zu Korrekturabzügen bearbeiten
+title: Bearbeiten von Kommentaren zu Korrekturabzügen
 description: Kommentare können nicht bearbeitet werden, nachdem eine Antwort zum Kommentar hinzugefügt wurde. Diese Einschränkung wahrt die Integrität des Kommentar-Threads. Wenn Sie einen Kommentar bearbeiten, wird der Zeitpunkt, zu dem der Kommentar abgegeben wurde, nicht beeinflusst.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ae92fb7d-372f-4cae-b0c3-03801248ccdc
-source-git-commit: a117b4e671490a380518cb987b897ca17e54cb16
+TQID: https://experienceleague.adobe.com/eN3W6aJxnYEJelFm3yuDnrnkza7Gk9Bl3NDUIbq-Alo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 2%
+source-wordcount: 296
+ht-degree: 14%
 
 ---
 
-# Kommentare zu Korrekturabzügen bearbeiten
+# Bearbeiten von Kommentaren zu Korrekturabzügen
 
 Kommentare können nicht bearbeitet werden, nachdem eine Antwort zum Kommentar hinzugefügt wurde. Diese Einschränkung wahrt die Integrität des Kommentar-Threads. Wenn Sie einen Kommentar bearbeiten, wird der Zeitpunkt, zu dem der Kommentar abgegeben wurde, nicht beeinflusst.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,21 +39,21 @@ Kommentare können nicht bearbeitet werden, nachdem eine Antwort zum Kommentar h
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof-Berechtigungsprofil </td> 
+   <td role="rowheader">Korrekturabzug-Berechtigungsprofil </td> 
    <td>Supervisor</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p></td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
-## Kommentare zu Korrekturabzügen bearbeiten
+## Bearbeiten von Kommentaren zu Korrekturabzügen
 
 Sie können jeden Kommentar bearbeiten, den Sie zu einem Korrekturabzug eingeben. Darüber hinaus können die folgenden Benutzer Kommentare anderer Benutzer bearbeiten:
 

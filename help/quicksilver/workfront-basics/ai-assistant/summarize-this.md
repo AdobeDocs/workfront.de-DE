@@ -1,18 +1,23 @@
 ---
-title: Zusammenfassen mithilfe des KI-Assistenten
+title: Erstellen von Zusammenfassungen mithilfe des KI-Assistenten
 content-type: reference
 description: Mit der Funktion „Zusammenfassen“ können Sie Arbeitselemente und Dokumente schnell zusammenfassen.
 author: Becky
 feature: Get Started with Workfront
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: e9a9e45720c8b9ad25e3fa9340c813a73989fb4a
+TQID: https://experienceleague.adobe.com/rE6-LoIb9rlLjYMvVWOwpCDAsdYI-YcrrYXq4hcEUP4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 1%
+source-wordcount: 398
+ht-degree: 12%
 
 ---
 
-# Zusammenfassen mithilfe des KI-Assistenten
+# Erstellen von Zusammenfassungen mithilfe des KI-Assistenten
 
 Der KI-Assistent von Workfront kann einige Objekte zusammenfassen und Ihnen einen Überblick über den Zweck oder die Details des Objekts geben.
 
@@ -35,7 +40,7 @@ Der KI-Assistent kann die folgenden Objekte zusammenfassen:
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,7 +57,7 @@ Der KI-Assistent kann die folgenden Objekte zusammenfassen:
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -90,7 +95,7 @@ So verwenden Sie die Schaltfläche Projekt zusammenfassen oder Kommentare zusamm
 So zeigen Sie eine Zusammenfassung eines Objekts an:
 
 1. Navigieren Sie zu dem Objekt, für das Sie eine Zusammenfassung anzeigen möchten.
-1. Klicken Sie auf **KI** Assistent![&#x200B; Symbol KI-Assistent](assets/ai-assistant-icon.png) in der oberen rechten Ecke des Bildschirms.
+1. Klicken Sie auf **KI** Assistent![ Symbol KI-Assistent](assets/ai-assistant-icon.png) in der oberen rechten Ecke des Bildschirms.
 1. Geben Sie im Bedienfeld KI-Assistent eine Eingabeaufforderung ein, z. B.:
 
    * Eine Zusammenfassung in drei Sätzen geben

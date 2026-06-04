@@ -6,9 +6,14 @@ description: Das Verwalten des Feedbacks über mehrere Versionen oder Revisionen
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/ZqIOiAuptaPBQBAMkiLZeLa3rBZUW3UuZOTwhlvJWBw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1460'
+source-wordcount: 1460
 ht-degree: 4%
 
 ---
@@ -91,7 +96,7 @@ Wenn Sie die eigenständige Workfront Proof verwenden, können Sie eine neue Ver
 
 >[!NOTE]
 >
->Wenn für Ihr Konto ein Unternehmensabo erstellt wurde und Sie mehrere Dateien oder Web-Aufnahmen hochladen, werden diese automatisch in einer neuen Version kombiniert. Weitere Informationen finden [&#x200B; unter „Erstellen eines mehrseitigen &#x200B;](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)&quot;.
+>Wenn für Ihr Konto ein Unternehmensabo erstellt wurde und Sie mehrere Dateien oder Web-Aufnahmen hochladen, werden diese automatisch in einer neuen Version kombiniert. Weitere Informationen finden [ unter „Erstellen eines mehrseitigen ](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)&quot;.
 
 So erstellen Sie eine neue Version eines Korrekturabzugs in Workfront Proof:
 

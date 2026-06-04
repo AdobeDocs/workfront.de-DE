@@ -1,20 +1,24 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Neue Funktionen in der API-Version 17
+title: Neue Funktionen in der API-Version 17
 description: Adobe Workfront hat API Version 17 am 6. April 2022 veröffentlicht. Die API-Version 17 enthält die folgenden Änderungen gegenüber Version 16.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 08e90754-5505-424c-ae67-015cc987b5df
-source-git-commit: 842b26177a11225049ef42f779ca77dd81926b74
+TQID: https://experienceleague.adobe.com/6cMTHhlWM6xf4Y7w4HRIdqV-w0aOOj0cq21fp1fDa2s
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1353'
-ht-degree: 1%
+source-wordcount: 1358
+ht-degree: 6%
 
 ---
 
-# Neue Funktionen in der API-Version 17
+# Neue Funktionen in der API-Version 17
 
 Adobe Workfront hat API Version 17 am 12. Oktober 2023 veröffentlicht. Die API-Version 17 enthält die folgenden Änderungen gegenüber Version 16.
 
@@ -49,7 +53,7 @@ Ein ExternalDocument-Objekt ist ein Dokument oder ein anderes digitales Asset, d
           <li><p><b>Pfad</b></p></li>
           <li><p><b>providerType</b></p></li>
           <li><p><b>readOnly</b></p></li>
-          <li><p><b>Größe</b></p></li>
+          <li><p><b>size</b></p></li>
           <li><p><b>thumbnailURL</b></p></li>
         </ul>
       </td>
@@ -72,9 +76,9 @@ Ein ExternalDocument-Objekt ist ein Dokument oder ein anderes digitales Asset, d
           <li><p><b>Pfad</b></p></li>
           <li><p><b>providerType</b></p></li>
           <li><p><b>readOnly</b></p></li>
-          <li><p><b>Größe</b></p></li>
+          <li><p><b>size</b></p></li>
           <li><p><b>thumbnailURL</b></p></li>
-          <li><p><b>Wert</b></p></li>
+          <li><p><b>value</b></p></li>
         </ul>
       </td>
     </tr>
@@ -160,8 +164,8 @@ Ein ExternalDocument-Objekt ist ein Dokument oder ein anderes digitales Asset, d
       <td role="rowheader">Referenzfelder</td>
       <td>
         <ul>
-          <li><p><b>Kunde</b></p></li>
-          <li><p><b>Benutzer</b></p></li>
+          <li><p><b>Kundin bzw. Kunde</b></p></li>
+          <li><p><b>Benutzerin bzw. Benutzer</b></p></li>
         </ul>
       </td>
     </tr>
@@ -236,7 +240,7 @@ Ein Unternehmensobjekt stellt eine Organisation dar, die aus einer Sammlung von 
           <li>
             <p><b>defaultInterface</b>
             </p>
-            <p>entfernt</p>
+            <p>Entfernt</p>
           </li>
         </ul>
       </td>
@@ -345,7 +349,7 @@ Ein Gruppenobjekt steht für eine Gruppe von Benutzern und Teams. Gruppen reprä
           <li>
             <p><b>defaultInterface</b>
             </p>
-            <p>entfernt</p>
+            <p>Entfernt</p>
           </li>
         </ul>
       </td>
@@ -395,7 +399,7 @@ Das JournalEntry-Objekt kann so eingerichtet werden, dass Informationen zu besti
               <li>Reviewer Changed (ARC)</li>
               <li>Überprüfung abgeschlossen (RDC)</li>
               <li>Überprüfung widerrufen (RDR)</li>
-              <li>Publish (PUB)</li>
+              <li>Veröffentlichen (PUB)</li>
             </ul>
           </li>
         </ul>
@@ -459,7 +463,7 @@ Ein ProjectUser-Objekt stellt einen Benutzer dar, der einem bestimmten Projekt z
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>Kennung</b>
             </p>
             <p>hinzugefügt.</p>
           </li>
@@ -471,7 +475,7 @@ Ein ProjectUser-Objekt stellt einen Benutzer dar, der einem bestimmten Projekt z
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>Kennung</b>
             </p>
             <p>hinzugefügt.</p>
           </li>
@@ -540,7 +544,7 @@ Ein Rollenobjekt (Aufgabengebiet) stellt eine funktionale Kapazität oder eine Q
           <li>
             <p><b>defaultInterface</b>
             </p>
-            <p>entfernt</p>
+            <p>Entfernt</p>
           </li>
         </ul>
       </td>
@@ -569,7 +573,7 @@ Ein Team-Objekt ist eine Sammlung von Benutzern, die einem Arbeitselement zugewi
           <li>
             <p><b>defaultInterface</b>
             </p>
-            <p>entfernt</p>
+            <p>Entfernt</p>
           </li>
         </ul>
       </td>
@@ -590,7 +594,7 @@ Ein TeamMember-Objekt ist ein einem bestimmten Team zugeordneter Benutzer.
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>Kennung</b>
             </p>
             <p>hinzugefügt.</p>
           </li>
@@ -602,7 +606,7 @@ Ein TeamMember-Objekt ist ein einem bestimmten Team zugeordneter Benutzer.
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>Kennung</b>
             </p>
             <p>hinzugefügt.</p>
           </li>
@@ -623,7 +627,7 @@ Ein TeamMember-Objekt ist ein einem bestimmten Team zugeordneter Benutzer.
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>Kennung</b>
             </p>
             <p>hinzugefügt.</p>
           </li>
@@ -635,7 +639,7 @@ Ein TeamMember-Objekt ist ein einem bestimmten Team zugeordneter Benutzer.
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>Kennung</b>
             </p>
             <p>hinzugefügt.</p>
           </li>
@@ -660,7 +664,7 @@ Ein Arbeitszeittabellen-Objekt stellt eine virtuelle Arbeitszeitkarte dar, mit d
           <li>
             <p><b>objCode</b>
             </p>
-            <p>entfernt</p>
+            <p>Entfernt</p>
           </li>
         </ul>
       </td>
@@ -755,7 +759,7 @@ Das Benutzerobjekt hat das Flag &quot;**_EDITABLE“**.
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>Kennung</b>
             </p>
             <p>hinzugefügt.</p>
           </li>
@@ -767,7 +771,7 @@ Das Benutzerobjekt hat das Flag &quot;**_EDITABLE“**.
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>Kennung</b>
             </p>
             <p>hinzugefügt.</p>
           </li>
@@ -805,9 +809,9 @@ Ein UserNote-Objekt ist eine Benachrichtigung.
               <li>Dokument genehmigt (ADA)</li>
               <li>Dokument mit Änderungen genehmigt (ADC)</li>
               <li>Dokument muss bearbeitet werden (ADN)</li>
-              <li>(Benutzer) hat (Dokument) als genehmigt markiert. Ihre Genehmigung ist nicht mehr erforderlich. (AAN)</li>
-              <li>(Benutzer) hat (Dokument) mit Änderungen als genehmigt markiert. Ihre Genehmigung ist nicht mehr erforderlich. (ACN)</li>
-              <li>(Benutzer) hat (Dokument) als arbeitsbedürftig markiert. Ihre Genehmigung ist nicht mehr erforderlich. (AWN)</li>
+              <li>(Benutzer) hat (Dokument) als genehmigt markiert. Ihre Genehmigung ist nicht mehr erforderlich (AAN)</li>
+              <li>(Benutzer) hat (Dokument) mit Änderungen als genehmigt markiert. Ihre Genehmigung ist nicht mehr erforderlich (ACN)</li>
+              <li>(Benutzer) hat (Dokument) als arbeitsbedürftig markiert. Ihre Genehmigung ist nicht mehr erforderlich (AWN)</li>
               <li>Das Dokument muss jetzt überprüft und nicht genehmigt werden (AAC).</li>
               <li>Das Dokument muss jetzt von Ihnen genehmigt und nicht überprüft werden (ADN)</li>
               <li>Dokument geprüft (RDC)</li>
@@ -832,7 +836,7 @@ Ein UserNote-Objekt ist eine Benachrichtigung.
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>Kennung</b>
             </p>
             <p>hinzugefügt.</p>
           </li>
@@ -844,7 +848,7 @@ Ein UserNote-Objekt ist eine Benachrichtigung.
       <td>
         <ul>
           <li>
-            <p><b>ID</b>
+            <p><b>Kennung</b>
             </p>
             <p>hinzugefügt.</p>
           </li>

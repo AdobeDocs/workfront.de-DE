@@ -6,11 +6,17 @@ description: Sie können Arbeitszeittabellen-Profile erstellen, bearbeiten und z
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/yxgLrUYYpVo-DhroRvE3zUP4zLYdDDg-1Ni3yXj06Ms
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1593'
+source-wordcount: 1593
 ht-degree: 4%
 
 ---
@@ -157,7 +163,7 @@ Old info:
 
    <!--To associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams, scroll towards the bottom of the page and find the **Assign People** section.-->
 
-   Wenn Sie Gruppenadministrator sind, können Sie das Arbeitszeittabellen-Profil Gruppen zuweisen, die Sie verwalten, jedoch nicht Teams. Weitere Informationen finden Sie unter [&#x200B; für einen Gruppenadministrator beim Zuweisen eines Arbeitszeittabellen-Profils &#x200B;](#limitations-for-a-group-administrator-assigning-a-timesheet-profile) diesem Artikel.
+   Wenn Sie Gruppenadministrator sind, können Sie das Arbeitszeittabellen-Profil Gruppen zuweisen, die Sie verwalten, jedoch nicht Teams. Weitere Informationen finden Sie unter [ für einen Gruppenadministrator beim Zuweisen eines Arbeitszeittabellen-Profils ](#limitations-for-a-group-administrator-assigning-a-timesheet-profile) diesem Artikel.
 
    >[!NOTE]
    >

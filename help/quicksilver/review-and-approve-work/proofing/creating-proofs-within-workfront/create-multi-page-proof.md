@@ -6,10 +6,15 @@ description: Sie können mehrere Dateien in einem mehrseitigen Korrekturabzug ko
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a8ad80d8-0758-4fea-824e-8c206424e295
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/ftAfhh-z2L4bKJ9l5IErMy8cJ-YASuKcIcjSEJjavcU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 1%
+source-wordcount: 611
+ht-degree: 9%
 
 ---
 
@@ -19,7 +24,7 @@ Sie können mehrere Dateien in einem mehrseitigen Korrekturabzug kombinieren. Re
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,17 +41,17 @@ Sie können mehrere Dateien in einem mehrseitigen Korrekturabzug kombinieren. Re
     <p>Arbeit oder Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof-Berechtigungsprofil </td> 
+   <td role="rowheader">Korrekturabzug-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> </td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -58,7 +63,7 @@ So erstellen Sie einen mehrseitigen Korrekturabzug:
 
 1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, in dem/der Sie den Korrekturabzug anzeigen möchten, und klicken Sie dann auf den Abschnitt **Dokumente**.
 1. Klicken Sie **Neu hinzufügen** > **Testversand** .
-1. Ziehen Sie die Dateien per Drag-and-Drop oder durchsuchen Sie sie und wählen Sie sie aus Ihrem Datei-Explorer aus. Sie können bis zu 50 Dateien gleichzeitig hochladen. Informationen zu Dateibeschränkungen finden Sie [&#x200B; Abschnitt &quot;](#considerations)&quot; in diesem Artikel.
+1. Ziehen Sie die Dateien per Drag-and-Drop oder durchsuchen Sie sie und wählen Sie sie aus Ihrem Datei-Explorer aus. Sie können bis zu 50 Dateien gleichzeitig hochladen. Informationen zu Dateibeschränkungen finden Sie [ Abschnitt &quot;](#considerations)&quot; in diesem Artikel.
 
    >[!NOTE]
    >
@@ -69,7 +74,7 @@ So erstellen Sie einen mehrseitigen Korrekturabzug:
 1. (Optional) Ordnen Sie die Dateien in der Liste der hochgeladenen Dateien durch Ziehen neu an. Die Reihenfolge der Dateien entspricht der Seitenreihenfolge des kombinierten Korrekturabzugs.
 1. (Optional) Um eine einzelne Datei aus der Seite Neuer Korrekturabzug zu entfernen, bewegen Sie den Mauszeiger über die Datei und klicken Sie auf **Symbol „Papierkorb** auf der rechten Seite.
 
-   Oder
+   ODER
 
    Um alle hochgeladenen Dateien auf einmal zu löschen, klicken **oben rechts** der Liste auf „Alle löschen“.
 
@@ -89,4 +94,4 @@ Beachten Sie beim Kombinieren von Dateien zu einem einzigen Korrekturabzug Folge
 * Es ist nicht möglich, AV-Dateien und interaktive Web-Aufnahmen zu kombinieren.
 * Das Miniaturbild des Korrekturabzugs wird von der ersten Seite des Korrekturabzugs übernommen (siehe [Verwalten von Korrekturabzugsdetails in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)).
 * Sie können die Namen der Dateien, die zum Erstellen des Korrekturabzugs kombiniert wurden, auf der Seite mit den Korrekturabzugsdetails überprüfen. Weitere Informationen finden Sie unter [Verwalten von Korrekturabzugsdetails in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
-* Wenn die Option zum Herunterladen der Originaldateien im Korrekturabzug aktiviert ist, können Sie alle Dateien herunterladen, die kombiniert wurden, um den Korrekturabzug als ZIP-Datei zu erstellen. Weitere Informationen finden Sie unter  [Herunterladen von in Workfront Proof gespeicherten Dateien](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md).
+* Wenn die Option zum Herunterladen der Originaldateien im Korrekturabzug aktiviert ist, können Sie alle Dateien herunterladen, die kombiniert wurden, um den Korrekturabzug als ZIP-Datei zu erstellen. Weitere Informationen finden Sie unter [Herunterladen von in Workfront Proof gespeicherten Dateien](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md).

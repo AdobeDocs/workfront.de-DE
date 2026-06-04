@@ -6,9 +6,14 @@ description: In diesem Artikel werden die standardmäßigen Hauptmenüelemente f
 author: Lisa and Courtney
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
-source-git-commit: 0a38554b8bbd870b8b9b0e221b25c120cd0f941e
+TQID: https://experienceleague.adobe.com/JSuh2kxo-6XXc9DZVH15O6S4gOB8oPUKhRP7O9MYqeA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: 364
 ht-degree: 0%
 
 ---
@@ -19,9 +24,9 @@ Das [!UICONTROL Hauptmenü] ändert sich mit der Zugriffsebene, die Ihnen von Ih
 
 ## Grundlegendes zum Standardmenü [!UICONTROL Hauptmenü] eines [!UICONTROL Light-Benutzers]
 
-Als [!UICONTROL Light-Benutzer] liegt Ihre Hauptverantwortung darin, Ihre Arbeit zu überprüfen, zu kommentieren und zu genehmigen. Die Bereiche, die Ihnen im Hauptmenü angezeigt werden[!UICONTROL &#x200B; ermöglichen &#x200B;] diesen Vorgang.
+Als [!UICONTROL Light-Benutzer] liegt Ihre Hauptverantwortung darin, Ihre Arbeit zu überprüfen, zu kommentieren und zu genehmigen. Die Bereiche, die Ihnen im Hauptmenü angezeigt werden[!UICONTROL  ermöglichen ] diesen Vorgang.
 
-Die folgenden Bereiche sind im Standardlayout eines „Light[!UICONTROL Benutzers“ &#x200B;]:
+Die folgenden Bereiche sind im Standardlayout eines „Light[!UICONTROL Benutzers“ ]:
 
 * **[!UICONTROL Meine Updates]**: Der Bereich **[!UICONTROL Startseite]**, der Benutzern aller Zugriffsebenen zur Verfügung steht, wird bei Benutzern mit einem Light-Lizenztyp standardmäßig durch **[!UICONTROL Meine Updates]** ersetzt. Als [!UICONTROL Light-Benutzer] schließen Sie die Arbeit nicht ab. Sie müssen nur Informationen über Arbeiten sehen, die Sie überprüfen, kommentieren oder genehmigen müssen. Im Bereich **[!UICONTROL Meine Aktualisierungen]** können Sie diese Aktionen durchführen. Dies ist der standardmäßige Landingpage für neue Light-Benutzer.
 

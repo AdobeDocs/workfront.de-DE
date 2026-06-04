@@ -6,14 +6,19 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c3ff90cc-2a9b-472e-ac6c-88b8ec93c8fb
-source-git-commit: 0940e4c89de6cd3518cd98a1e06dc726f434846b
+TQID: https://experienceleague.adobe.com/mBMWgWWwrY4CufE8bc9yyV4PnNGdzvaOv8cbcCURp1w
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 4%
+source-wordcount: 176
+ht-degree: 27%
 
 ---
 
-# Aufholprozess bei den Prioritäten
+# Aktuelle Informationen zur Arbeit in „Prioritäten“
 
 Catch me up - powered by Workfront AI Assistant - fasst Aktualisierungen, hochgeladene Dokumente und andere wichtige Änderungen an Ihren Projekten innerhalb der folgenden Zeitrahmen zusammen: 24 Stunden, 3 Tage, 7 Tage. Dadurch wird der Zeitaufwand für die Suche nach Informationen zu aktiven Projekten reduziert.
 
@@ -23,7 +28,7 @@ Catch me up - powered by Workfront AI Assistant - fasst Aktualisierungen, hochge
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,7 +45,7 @@ Catch me up - powered by Workfront AI Assistant - fasst Aktualisierungen, hochge
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
