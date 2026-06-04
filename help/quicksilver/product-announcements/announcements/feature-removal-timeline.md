@@ -7,11 +7,15 @@ description: Verschiedene Funktionen werden aus dem Adobe Workfront-Produkt schr
 author: Luke
 feature: Product Announcements
 exl-id: 119d65c7-2925-4b36-832a-ee06a718ce7e
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/UWIgItczhaLrXRwcE39PHyx7-SD3QmBhs2-JfmURLa8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: 282
 ht-degree: 6%
 
 ---
@@ -46,7 +50,7 @@ Verschiedene Funktionen werden aus dem Adobe Workfront-Produkt schrittweise entf
    <td> <p>Wird ab dem 9. November 2020 nicht mehr unterstützt (mit Version 20.4)</p> <p>--</p> <p>Aus der Workfront-Plattform nach der ersten Jahreshälfte 2022 entfernt</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Legacy Workfront Fusion</p> <p>Workfront Fusion bietet ein verbessertes Erlebnis mit dem bisherigen Workfront Fusion-Tool.</p> <p>Weitere Informationen zu Workfront Fusion finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/workfront-fusion/using/home">Adobe Workfront Fusion</a>.</p> </td> 
+   <td> <p>Legacy Workfront Fusion</p> <p>Workfront Fusion bietet ein verbessertes Erlebnis mit dem bisherigen Workfront Fusion-Tool.</p> <p>Weitere Informationen zu Workfront Fusion finden Sie unter <a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home">Adobe Workfront Fusion</a>.</p> </td> 
    <td> </td> 
    <td>Am 31. März 2021 aus der Workfront-Plattform entfernt</td> 
   </tr> 

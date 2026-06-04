@@ -6,9 +6,14 @@ description: Mit Version 20.3 (geplant für August 2020) ändern wir die Art und
 author: Luke
 feature: Product Announcements
 exl-id: 9110f04d-b7a9-428b-928c-c4eb746fec3f
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/eOFRSbJicMbYHqq74-O9VW0c73RDQmAC-OIkLX-FKFw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: 319
 ht-degree: 3%
 
 ---
@@ -31,4 +36,4 @@ Bestimmte E-Mail-Benachrichtigungen ermöglichen es Benutzenden, per E-Mail zu a
 
 E-Mails, die direkt aus dem Workfront Proof-System stammen, werden nicht geändert. Sie werden weiterhin diese E-Mails erhalten, wie Sie es bereits getan haben.
 
-Bei weiteren Fragen oder Anliegen wenden Sie sich bitte an das [Workfront-Supportteam](https://experienceleague.adobe.com/de?support-tab=home&lang=de#support).
+Bei weiteren Fragen oder Anliegen wenden Sie sich bitte an das [Workfront-Supportteam](https://experienceleague.adobe.com/?support-tab=home&lang=de#support).

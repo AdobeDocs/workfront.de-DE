@@ -1,18 +1,24 @@
 ---
 navigation-topic: business-case-and-scorecards
-title: Business Case genehmigen
+title: Genehmigen eines Business-Case
 description: Nachdem Sie den Business Case für eine Projektanfrage abgeschlossen und gesendet haben, muss der Business Case genehmigt werden. Dies hängt vom Workflow in Ihrer Organisation ab. Ein Projekt kann beginnen, ohne dass der Business Case genehmigt werden muss, aber Ihr Adobe Workfront-Administrator und die Projektbesitzer halten es möglicherweise nicht für ideal, dies zu tun.
 author: Becky
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: aa3ae2a5d92420f4adcedb60a4f7404533eaa59b
+TQID: https://experienceleague.adobe.com/DCLPGdt9b-7jkg7ajSbaRJRO968yAdetzVvOXpNI9nc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 0%
+source-wordcount: 682
+ht-degree: 6%
 
 ---
 
-# Business Case genehmigen
+# Genehmigen eines Business-Case
 
 <!--Audit: 6/2025-->
 
@@ -22,7 +28,7 @@ Weitere Informationen zum Abschließen und Senden eines Business Case finden Sie
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +44,7 @@ Weitere Informationen zum Abschließen und Senden eines Business Case finden Sie
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
    <p>Standard </p> 
-   <p>Plan </p> </td> 
+   <p>Abo </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -51,7 +57,7 @@ Weitere Informationen zum Abschließen und Senden eines Business Case finden Sie
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

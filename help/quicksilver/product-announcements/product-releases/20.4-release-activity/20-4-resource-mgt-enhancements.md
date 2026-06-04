@@ -1,19 +1,24 @@
 ---
-title: 20.4 Verbesserungen beim Ressourcenmanagement
-description: 20.4 Verbesserungen beim Ressourcenmanagement
+title: Verbesserungen beim Ressourcen-Management in Version 20.4
+description: Verbesserungen beim Ressourcen-Management in Version 20.4
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9f660a38-4a59-4135-8178-0841088cc7d6
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/0epzoLYAQGEpKRWCTRDE4-aTFISBr6fFsnZSXtuerd0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1042'
-ht-degree: 0%
+source-wordcount: 1058
+ht-degree: 1%
 
 ---
 
-# 20.4 Verbesserungen beim Ressourcenmanagement
+# Verbesserungen beim Ressourcen-Management in Version 20.4
 
 Auf dieser Seite werden alle Verbesserungen des Ressourcen-Managements beschrieben, die mit der Version 20.4 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 9. November 2020 in der Produktionsumgebung verfügbar gemacht.
 
@@ -32,7 +37,7 @@ Mit dieser neuen Funktion sind jetzt die folgenden Verbesserungen verfügbar:
 
 Weitere Informationen über den Arbeitsaufwand finden Sie [Arbeitsaufwand - Übersicht](../../../manage-work/tasks/task-information/work-effort.md).
 
-Diese Funktion ist jetzt in den [Planergrundlagen, Teil 2 des Lernpfads) &#x200B;](https://experienceleague.adobe.com/de/docs/workfront/using/home) Workfront One enthalten.
+Diese Funktion ist jetzt in den [Planergrundlagen, Teil 2 des Lernpfads) ](https://experienceleague.adobe.com/de/docs/workfront/using/home) Workfront One enthalten.
 
 ## Projektstatusbasierte Farben für Arbeitselemente im Workload Balancer
 

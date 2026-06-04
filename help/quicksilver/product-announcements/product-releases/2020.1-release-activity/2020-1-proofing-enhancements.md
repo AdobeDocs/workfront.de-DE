@@ -1,20 +1,26 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-1-release-activity
-title: Verbesserungen bei der Korrekturabzugsfunktion 2020.1
+title: Verbesserungen bei Proofing in Version 2020.1
 description: Auf dieser Seite werden alle Proofing-Verbesserungen mit der Version 2020.1 beschrieben. Diese Verbesserungen sind derzeit in der Vorschau -Umgebung verfügbar und werden Ende März oder Anfang April 2020 in der Produktionsumgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: 8371aca4-218b-4501-9db2-5acb1e775917
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/o--qHJcNV3yHrDIUWtOlx2RsrfWBC2M7-bk7-KFxpOc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b18b693b-6d59-4359-95fd-a386b7a615fe
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 0%
+source-wordcount: 404
+ht-degree: 1%
 
 ---
 
-# Verbesserungen bei der Korrekturabzugsfunktion 2020.1
+# Verbesserungen bei Proofing in Version 2020.1
 
 Auf dieser Seite werden alle Proofing-Verbesserungen mit der Version 2020.1 beschrieben. Diese Verbesserungen sind derzeit in der Vorschau -Umgebung verfügbar und werden Ende März oder Anfang April 2020 in der Produktionsumgebung verfügbar gemacht.
 

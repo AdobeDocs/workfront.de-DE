@@ -6,19 +6,21 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 9a7ab1928bfd25c197fca65eddfba1bc01977ea7
+TQID: https://experienceleague.adobe.com/EQBOcWZ90EDMHab3XDXJDwNN97-b019ciwr2srvCvrQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 0%
+source-wordcount: 235
+ht-degree: 42%
 
 ---
-
 
 # Architektur: Artikelindex
 
 {{planning-important-intro}}
 
-Als Leiter von Marketing-Abläufen können Sie mit Adobe Workfront Planning die Arbeit über den gesamten Marketing-Lebenszyklus hinweg für alle Ihre Teams organisieren.
+Als Führungskraft der Marketing-Abteilung können Sie mit Adobe Workfront-Planung die Arbeit Ihrer sämtlichen Teams über den gesamten Marketing-Zyklus hinweg organisieren.
 
 Mit Workfront Planning können Sie Ihre Workflows vollständig anpassen, von der Entscheidung, welche Objekttypen (oder Datensatztypen) Ihr Unternehmen verwendet, bis zur Konfiguration, wie diese Objekte miteinander verknüpft werden.
 
@@ -26,22 +28,22 @@ Außerdem kann Workfront Planning eine Verknüpfung zu Objekttypen aus anderen S
 
 In den Artikeln in den folgenden Abschnitten wird beschrieben, wie Sie die Adobe Workfront Planning-Arbeitsbereiche konfigurieren, die Datensatztypen definieren, die die Bausteine dieser Arbeitsbereiche sind, und mit der Verwendung ihrer Funktionen beginnen können:
 
-* [Arbeitsbereiche - Übersicht](/help/quicksilver/planning/architecture/workspaces-overview.md)
+* [Überblick über Arbeitsbereiche](/help/quicksilver/planning/architecture/workspaces-overview.md)
 * [Erstellen von Arbeitsbereichen](/help/quicksilver/planning/architecture/create-workspaces.md)
-* [Liste der Arbeitsbereich-Vorlagen](/help/quicksilver/planning/architecture/workspace-templates.md)
-* [Übersicht über Datensatztypen](/help/quicksilver/planning/architecture/overview-of-record-types.md)
-* [Datensatztypen erstellen](/help/quicksilver/planning/architecture/create-record-types.md)
-* [Erstellen von Datensatztypen durch Importieren von Informationen aus einer CSV- oder Excel-Datei](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md)
-* [Datensatztypen bearbeiten](/help/quicksilver/planning/architecture/edit-record-types.md)
+* [Liste der Arbeitsbereichsvorlagen](/help/quicksilver/planning/architecture/workspace-templates.md)
+* [Überblick über Eintragstypen](/help/quicksilver/planning/architecture/overview-of-record-types.md)
+* [Erstellen von Eintragstypen](/help/quicksilver/planning/architecture/create-record-types.md)
+* [Erstellen von Eintragstypen durch Importieren von Informationen aus einer CSV- oder Excel-Datei](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md)
+* [Bearbeiten von Eintragstypen](/help/quicksilver/planning/architecture/edit-record-types.md)
 * [Übersicht über verbundene Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
-* [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md)
-* [Beispiel für das Verbinden von Datensatztypen und Datensätzen](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md)
-* [Arbeitsbereiche löschen](/help/quicksilver/planning/architecture/delete-workspaces.md)
-* [Arbeitsbereiche bearbeiten](/help/quicksilver/planning/architecture/edit-workspaces.md)
-* [Datensatztypen löschen](/help/quicksilver/planning/architecture/delete-record-types.md)
-* [Übersicht über arbeitsbereichsübergreifende Datensatztypen](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
-* [Konfigurieren von arbeitsbereichsübergreifenden Funktionen für Datensatztypen](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
-* [Hinzufügen vorhandener Datensatztypen aus einem anderen Arbeitsbereich](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
-* [Konfigurieren des Bereichs Einstellungen eines Datensatztyps](/help/quicksilver/planning/architecture/configure-record-type-settings.md)
+* [Verbinden von Eintragstypen](/help/quicksilver/planning/architecture/connect-record-types.md)
+* [Beispiel für das Verbinden von Eintragstypen und Einträgen](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md)
+* [Löschen von Arbeitsbereichen](/help/quicksilver/planning/architecture/delete-workspaces.md)
+* [Bearbeiten von Arbeitsbereichen](/help/quicksilver/planning/architecture/edit-workspaces.md)
+* [Löschen von Eintragstypen](/help/quicksilver/planning/architecture/delete-record-types.md)
+* [Überblick über arbeitsbereichsübergreifende Eintragstypen](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
+* [Konfigurieren von arbeitsbereichsübergreifenden Funktionen für Eintragstypen](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+* [Hinzufügen vorhandener Eintragstypen aus einem anderen Arbeitsbereich](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
+* [Konfigurieren des Bereichs „Einstellungen“ eines Eintragstyps](/help/quicksilver/planning/architecture/configure-record-type-settings.md)
 * [Übersicht über Hierarchie und Breadcrumb](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)
-* [Workspace-Hierarchien erstellen](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)
+* [Erstellen von Arbeitsbereichshierarchien](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md)

@@ -7,11 +7,14 @@ description: Teamanfragen finden Sie im Bereich Teams im Hauptmenü.
 author: Courtney
 feature: People Teams and Groups
 exl-id: c131c021-8bc0-4a48-a873-9ee0e189bcab
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ab336c13968f1420ec08eb7ae965b697a862bfb4
+TQID: https://experienceleague.adobe.com/usIfdIZm77U8ltA5lj37cqAp7uHoSSnRD4wuPx863ZM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: 486
 ht-degree: 0%
 
 ---
@@ -26,7 +29,7 @@ Teamanfragen finden Sie im Bereich [!UICONTROL Teams] im [!UICONTROL Hauptmenü]
 >
 >Agile-Teams haben keine Teamanfragen.
 
-Die [!UICONTROL Team-Anfragen] zeigt die Anforderungen an, die für das Team, das derzeit in der Dropdown-Liste ausgewählt ist, auf Zuweisung warten. Die Zahl in Klammern gibt an, wie viele Elemente bereit zur Bearbeitung sind. Auf [!UICONTROL &#x200B; Registerkarte &#x200B;]Teamanfragen“ können bis zu 2.000 Anfragen für ein Team angezeigt werden.
+Die [!UICONTROL Team-Anfragen] zeigt die Anforderungen an, die für das Team, das derzeit in der Dropdown-Liste ausgewählt ist, auf Zuweisung warten. Die Zahl in Klammern gibt an, wie viele Elemente bereit zur Bearbeitung sind. Auf [!UICONTROL  Registerkarte ]Teamanfragen“ können bis zu 2.000 Anfragen für ein Team angezeigt werden.
 
 Eine Teamanfrage stellt ein ausstehendes Arbeitselement dar, das keinem bestimmten Benutzer zugewiesen ist. Stattdessen wird es einem Team zugewiesen und jedes Mitglied dieses Teams kann sich freiwillig dazu bereit erklären, die Verantwortung für das Element zu übernehmen. Wenn sich ein(e) Benutzende(r) bereit erklärt, an einer Teamanfrage zu arbeiten, akzeptiert er/sie die Arbeitsaufgabe als seine/ihre eigene. Die Aufgabe wird dem einzelnen Benutzer zusätzlich zum Team zugewiesen.
 
@@ -44,7 +47,7 @@ Die [!UICONTROL Bereit zum Start]-Option zeigt nur Aufgaben und Probleme an, die
   Wenn der Typ der Vorgängerbeziehung beispielsweise [!UICONTROL Ende-Anfang] lautet (Vorgängeraufgabe muss abgeschlossen sein, bevor die abhängige Aufgabe beginnen kann), muss der Vorgänger als [!UICONTROL Abgeschlossen] markiert sein. (Weitere Informationen zu Vorgängerabhängigkeitstypen finden Sie unter [Übersicht über Aufgabenabhängigkeitstypen](../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).)
 
 * Der angemeldete Benutzer ist die Person, die diesen Aufgaben und Problemen (bei Arbeitsanfragen) zugewiesen ist, oder das ausgewählte Team wird diesen Aufgaben und Problemen (bei Teamanfragen) zugewiesen.
-* Der Projektstatus hat den Status &quot;[!UICONTROL &quot; &#x200B;].
+* Der Projektstatus hat den Status &quot;[!UICONTROL &quot; ].
 * Das [!UICONTROL Voraussichtliches Startdatum] oder [!UICONTROL Geplantes Startdatum] wurde überschritten oder soll innerhalb von zwei Wochen ab dem heutigen Datum beginnen (oder es wurde kein [!UICONTROL Voraussichtliches Startdatum] oder [!UICONTROL Geplantes Startdatum] definiert).
 * Das [!UICONTROL Übergabedatum] ist bereits abgelaufen oder wird innerhalb von zwei Wochen ab dem aktuellen Datum liegen.
 

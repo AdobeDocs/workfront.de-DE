@@ -6,14 +6,20 @@ description: Sowohl das geplante Abschlussdatum als auch das Commit-Datum geben 
 author: Alina
 feature: Work Management
 exl-id: 1709c60c-ac75-48eb-9226-ec2cf556ebf0
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+TQID: https://experienceleague.adobe.com/iy-L6-ZnhDgVTJjhEBlqwdRH3TRA5OqT3Gj-LIoEgDA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 1%
+source-wordcount: 422
+ht-degree: 9%
 
 ---
 
-# Interaktionen zwischen dem Commit-Datum und dem geplanten Abschlussdatum
+# Interaktionen zwischen dem Verpflichtungsdatum und dem geplanten Abschlussdatum
 
 <!--
 this article has mostly information that is repeated from the articles linked from here. I left it in here for searchability's sake.
@@ -42,7 +48,7 @@ Die folgende Tabelle enthält Informationen zum Unterschied zwischen dem Commit-
  </tbody> 
 </table>
 
-## Interaktionen zwischen dem Commit-Datum und dem geplanten Abschlussdatum
+## Interaktionen zwischen dem Verpflichtungsdatum und dem geplanten Abschlussdatum
 
 Wenn der Projektbesitzer eine Aufgabe oder ein Problem erstellt und zuweist, hat die Aufgabe oder das Problem Folgendes:
 
@@ -64,4 +70,4 @@ Wenn das vom Verantwortlichen angebotene Commit-Datum für den Projektbesitzer a
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
 * [Übersicht über das Commit-Datum](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
-* [Aktualisieren von Commit-Terminen für Aufgaben und Probleme](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)
+* [Aktualisieren des Verpflichtungsdatums für Aufgaben und Probleme](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)

@@ -6,10 +6,15 @@ description: Die Kopfzeile des Projekts enthält eine Schaltfläche, mit der KI-
 author: Becky
 feature: Get Started with Workfront
 exl-id: e0ac2a50-a75b-4453-8edf-850b8de74327
-source-git-commit: a24180f95c89c76605eaa735467a791102254645
+TQID: https://experienceleague.adobe.com/II1JXY--V38Wid7Cs3vvQW3Q9Rq9teIiK9cRAqoaZLM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 0%
+source-wordcount: 357
+ht-degree: 13%
 
 ---
 
@@ -27,7 +32,7 @@ Sie können die Schaltfläche Projektzusammenfassung verwenden, um eine Zusammen
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,7 +54,7 @@ Sie können die Schaltfläche Projektzusammenfassung verwenden, um eine Zusammen
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -81,7 +86,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 So zeigen Sie eine Zusammenfassung eines Objekts an:
 
 1. Navigieren Sie zu dem Objekt, für das Sie eine Zusammenfassung anzeigen möchten.
-1. Klicken Sie auf **KI** Assistent![&#x200B; Symbol KI-Assistent](assets/ai-assistant-icon.png) in der oberen rechten Ecke des Bildschirms.
+1. Klicken Sie auf **KI** Assistent![ Symbol KI-Assistent](assets/ai-assistant-icon.png) in der oberen rechten Ecke des Bildschirms.
 1. Geben Sie im Bedienfeld KI-Assistent eine Eingabeaufforderung ein, z. B.:
 
    * Eine Zusammenfassung in drei Sätzen geben

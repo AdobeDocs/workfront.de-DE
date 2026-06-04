@@ -6,20 +6,26 @@ description: Sie können eine Priorität für ein Problem definieren, um anzugeb
 author: Alina
 feature: Work Management
 exl-id: eff5c9e8-1908-4654-9629-e20c0ce2a225
-source-git-commit: 4ef71db5d93e314b746e8acdbf90fd041c6e71ae
+TQID: https://experienceleague.adobe.com/ACNxmxtbbBoIqnid1-W3Lyc4HkMh8gw2Rbcutx4PgFA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 4%
+source-wordcount: 295
+ht-degree: 15%
 
 ---
 
-# Anfragepriorität aktualisieren
+# Aktualisieren der Problempriorität
 
 Sie können eine Priorität für ein Problem definieren, um anzugeben, wie wichtig das Problem ist.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,8 +37,8 @@ Sie können eine Priorität für ein Problem definieren, um anzugeben, wie wicht
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Mitwirkender oder höher</p> 
-   <p>Anfrage oder höher</p> </td> 
+   <td><p>Mitwirkende oder höher</p> 
+   <p>Anfragende oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 

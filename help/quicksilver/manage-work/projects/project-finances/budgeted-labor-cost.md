@@ -2,19 +2,25 @@
 content-type: reference
 product-area: projects
 navigation-topic: financials
-title: Budgetierte Lohnkosten und budgetierte Stunden für Projekte verstehen
-description: Budgetierte Lohnkosten und budgetierte Stunden für Projekte verstehen
+title: Grundlegendes zu budgetierten Lohnkosten und budgetierten Stunden für Projekte
+description: Grundlegendes zu budgetierten Lohnkosten und budgetierten Stunden für Projekte
 author: Lisa
 feature: Work Management
 exl-id: 01020bbb-7cf9-4461-b0b6-dcbbc537c616
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+TQID: https://experienceleague.adobe.com/bIS8VOfmyYX32cnh3oL7DgHYfx3Jmal6exqdWe96DAw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: d3382524-5489-431b-bde9-271ab257bc37id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1140'
-ht-degree: 0%
+source-wordcount: 1140
+ht-degree: 6%
 
 ---
 
-# Budgetierte Lohnkosten und budgetierte Stunden für Projekte verstehen
+# Grundlegendes zu budgetierten Lohnkosten und budgetierten Stunden für Projekte
 
 <!--
 <(NOTE: Keep the structure of this article similar to Calculating Budgeted Cost)</p>
@@ -129,7 +135,7 @@ Die budgetierten Lohnkosten, wie sie im Bereich Ressourcenbudgetierung des Busin
 
 >[!NOTE]
 >
->Wenn Sie den Adobe Workfront-Szenarioplaner verwenden, um Projektressourcen zu budgetieren, sind die budgetierten Lohnkosten im Bereich Ressourcenbudgetierung des Business Case mit den Personalkosten der mit dem Projekt verknüpften Initiative identisch. Der Szenario-Planer ist nur in der neuen Adobe Workfront-Version verfügbar und erfordert eine zusätzliche Lizenz. Weitere Informationen zum Workfront-Szenarioplaner finden Sie unter [Szenarioplaner - Übersicht](../../../scenario-planner/scenario-planner-overview.md). Informationen zur Budgetierung von Ressourcen mit dem Szenarienplaner finden Sie unter [Budgetieren von Ressourcen im Business Case mit dem Szenarienplaner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
+>Wenn Sie den Adobe Workfront-Szenarioplaner verwenden, um Projektressourcen zu budgetieren, sind die budgetierten Lohnkosten im Bereich Ressourcenbudgetierung des Business Case mit den Personalkosten der mit dem Projekt verknüpften Initiative identisch. Der Szenario-Planer ist nur in der neuen Adobe Workfront-Version verfügbar und erfordert eine zusätzliche Lizenz. Weitere Informationen zum Workfront-Szenarienplaner finden Sie unter [Überblick über den Szenarienplaner](../../../scenario-planner/scenario-planner-overview.md). Informationen zur Budgetierung von Ressourcen mit dem Szenarienplaner finden Sie unter [Budgetieren von Ressourcen im Business Case mit dem Szenarienplaner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
 ## Suchen der budgetierten Stunden eines Projekts
 
@@ -150,7 +156,7 @@ Sie können die budgetierten Stunden in Workfront in den Feldern der folgenden T
 Die budgetierten Stunden im Bereich Ressourcenbudgetierung des Business Case oder des Ressourcenplaners werden in den folgenden Bereichen von Workfront und unter den folgenden Namen angezeigt:
 
 * **Stunden**: Bereich „Ressourcenbudgetierung“ des Business Case
-* **BDG**:Ressourcenplaner nach Stunden angezeigt
+* **BDG**:Resource Planer nach Stunden angezeigt
 * **Budgetierte Stunden**: Ansicht „Stunden“ im Auslastungsbericht
 Weitere Informationen finden Sie unter [Informationen zur Ressourcenauslastung anzeigen](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
 * **Bud. Stunden**: Bericht „Budgetierte Stunde“

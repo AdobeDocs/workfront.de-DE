@@ -2,19 +2,25 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: Übersicht über das voraussichtliche Abschlussdatum für Projekte, Aufgaben und Probleme
+title: Überblick über das voraussichtliche Abschlussdatum für Projekte, Aufgaben und Probleme
 description: Das voraussichtliche Abschlussdatum ist ein Echtzeitindikator für den Zeitpunkt, zu dem das Projekt, die Aufgabe oder das Problem abgeschlossen wird. Wenn das Projekt, die Aufgabe oder das Problem als „Abgeschlossen“ gekennzeichnet ist, ändert sich das voraussichtliche Abschlussdatum in das tatsächliche Abschlussdatum.
 author: Alina
 feature: Work Management
 exl-id: dde400e6-189f-4431-8f2f-7142ce424826
-source-git-commit: 4897f165a7316a52b968601b45f95f7045f63840
+TQID: https://experienceleague.adobe.com/qpYXoo1C-GZi1B--dhKTGjzvSWdLxrQM3IqX4Q6GZt8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 0%
+source-wordcount: 869
+ht-degree: 5%
 
 ---
 
-# Übersicht über das voraussichtliche Abschlussdatum für Projekte, Aufgaben und Probleme
+# Überblick über das voraussichtliche Abschlussdatum für Projekte, Aufgaben und Probleme
 
 <!-- Audited: 11/2025 -->
 
@@ -24,7 +30,7 @@ In den folgenden Abschnitten wird beschrieben, wie das voraussichtliche Abschlus
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 
 <table style="table-layout:auto"> 
@@ -39,7 +45,7 @@ In den folgenden Abschnitten wird beschrieben, wie das voraussichtliche Abschlus
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
    <ul><li><p>Mitarbeiter oder höher, um das voraussichtliche Abschlussdatum in einem Bericht anzuzeigen</p></li> <li><p>Eine Standardlizenz zum Erstellen eines Berichts</p></li> </ul>
-   Oder
+   ODER
    <ul><li><p>Überprüfen Sie oder höher, um das voraussichtliche Abschlussdatum in einem Bericht anzuzeigen</p></li> 
    <li><p>Planlizenz zum Erstellen eines Berichts</p> </li></ul>
       </td> 

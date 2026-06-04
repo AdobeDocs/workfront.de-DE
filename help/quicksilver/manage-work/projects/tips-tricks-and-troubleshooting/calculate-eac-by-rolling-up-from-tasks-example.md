@@ -7,9 +7,15 @@ description: In diesem Artikel finden Sie ein Beispiel für die Berechnung der K
 author: Lisa
 feature: Work Management
 exl-id: 68b582c9-f72a-4000-9d28-f7dafa23541f
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+TQID: https://experienceleague.adobe.com/O-A-9mMVMuqsnHXpph-J5Qwh6Qj5r46zxj7VG85rX04
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: 1155
 ht-degree: 5%
 
 ---
@@ -53,13 +59,13 @@ EAC-Methode = Datenaggregation aus Aufgaben/Teilaufgaben
    <td> <p>Aufgabe 1</p> </td> 
    <td> <p>5 Std</p> </td> 
    <td> <p>25 Std</p> </td> 
-   <td> <p>20%</p> </td> 
+   <td> <p>20 %</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 2</p> </td> 
    <td> <p>10 Std</p> </td> 
    <td> <p>25 Std</p> </td> 
-   <td> <p>30%</p> </td> 
+   <td> <p>30 %</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Aufgabe 3</p> </td> 
@@ -156,7 +162,7 @@ EAC-Methode = Datenaggregation aus Aufgaben/Teilaufgaben
       <td> <p>Aufgabe 2</p> </td> 
       <td> <p>5 Std</p> </td> 
       <td> <p>10 Std</p> </td> 
-      <td> <p>20%</p> </td> 
+      <td> <p>20 %</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Aufgabe 3</p> </td> 
@@ -168,13 +174,13 @@ EAC-Methode = Datenaggregation aus Aufgaben/Teilaufgaben
       <td> <p>Aufgabe 4</p> </td> 
       <td> <p>10 Std</p> </td> 
       <td> <p>10 Std</p> </td> 
-      <td> <p>40%</p> </td> 
+      <td> <p>40 %</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Aufgabe 5</p> </td> 
       <td> <p>15 Std</p> </td> 
       <td> <p>10 Std</p> </td> 
-      <td> <p>50%</p> </td> 
+      <td> <p>50 %</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Aufgabe 6</p> </td> 
@@ -297,7 +303,7 @@ EAC-Methode = Datenaggregation aus Aufgaben/Teilaufgaben
       <td> <p>$500.00</p> </td> 
       <td> <p>25 Std</p> </td> 
       <td> <p>$2,500.00</p> </td> 
-      <td> <p>20%</p> </td> 
+      <td> <p>20 %</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Aufgabe 2</p> </td> 
@@ -305,7 +311,7 @@ EAC-Methode = Datenaggregation aus Aufgaben/Teilaufgaben
       <td> <p>$1,000.00</p> </td> 
       <td> <p>25 Std</p> </td> 
       <td> <p>$2,500.00</p> </td> 
-      <td> <p>30%</p> </td> 
+      <td> <p>30 %</p> </td> 
    </tr> 
    <tr> 
       <td> <p>Aufgabe 3</p> </td> 
@@ -432,64 +438,64 @@ EAC-Methode = Datenaggregation aus Aufgaben/Teilaufgaben
    </table>
 
 1. Führen Sie in Projektaktionen die Option Finanzen neu berechnen aus.
-1. **CPI**&#x200B;**für Aufgabe 1** = .14 wie folgt berechnet:\
-   **CPI**&#x200B;**&#x200B; für Aufgabe 1 &#x200B;** = *IF* Ist-Lohnkosten + IncurredActualExpenseCost &lt;> 0 *THEN*
+1. **CPI****für Aufgabe 1** = .14 wie folgt berechnet:\
+   **CPI**** für Aufgabe 1 ** = *IF* Ist-Lohnkosten + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    * ELSE* CPI = CPI_Labour\
-     **CPI**&#x200B;**für Aufgabe 1** = (100+300) / (2500+400)\
-     **CPI**&#x200B;**für Aufgabe 1** = 400 / 2900\
-     **CPI**&#x200B;**für Aufgabe 1** = .14
+     **CPI****für Aufgabe 1** = (100+300) / (2500+400)\
+     **CPI****für Aufgabe 1** = 400 / 2900\
+     **CPI****für Aufgabe 1** = .14
 
-1. **EAC**&#x200B;**für Aufgabe 1** = 13.400,00 $\
-   **CPI Labor**&#x200B;**for Task 1** = IF Actual Labour Cost &lt;> 0 THEN
+1. **EAC****für Aufgabe 1** = 13.400,00 $\
+   **CPI Labor****for Task 1** = IF Actual Labour Cost &lt;> 0 THEN
 
    ```
    CPI_Labor = TotalBudgetedCostWorkPerformed / Actual Labor Cost
    ```
 
    ELSE CPI_Labour = 1\
-   **CPI Labor**&#x200B;**für Aufgabe 1** = 100/2500\
-   **CPI Labor**&#x200B;**für Aufgabe 1** = .04
+   **CPI Labor****für Aufgabe 1** = 100/2500\
+   **CPI Labor****für Aufgabe 1** = .04
 
-   **EAC Labor**&#x200B;**&#x200B; für Aufgabe 1 &#x200B;** = *IF* CPI_Labor &lt;> 0 *THEN*
+   **EAC Labor**** für Aufgabe 1 ** = *IF* CPI_Labor &lt;> 0 *THEN*
 
    ```
    EAC Labor = Planned Labor Cost / CPI_Labor
    ```
 
    * SONSTIGE* EAC-Arbeitskosten = Geplante Arbeitskosten + Ist-Arbeitskosten\
-     **EAC Arbeit**&#x200B;**für Aufgabe 1** = 500.00/.04\
-     **EAC Labor**&#x200B;**für Aufgabe 1** = 12.500,00 $
+     **EAC Arbeit****für Aufgabe 1** = 500.00/.04\
+     **EAC Labor****für Aufgabe 1** = 12.500,00 $
 
-   **EAC-Ausgabe**&#x200B;**für Aufgabe 1** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
-   **EAC-**&#x200B;**&#x200B; für Aufgabe 1** = 400,00 $ + 500,00 $\
-   **EAC-Ausgabe**&#x200B;**für Aufgabe 1** = 900,00 $
+   **EAC-Ausgabe****für Aufgabe 1** = IncurredActualExpenseCost + NotIncurredPlannedExpense\
+   **EAC-**** für Aufgabe 1** = 400,00 $ + 500,00 $\
+   **EAC-Ausgabe****für Aufgabe 1** = 900,00 $
 
-   **EAC**&#x200B;**für Aufgabe 1** = EAC-Arbeitsaufwand + EAC-Ausgaben\
-   **EAC**&#x200B;**für Aufgabe 1** = 12.500,00 $ + 900,00 $\
-   **EAC**&#x200B;**für Aufgabe 1** = 13.400,00 $
+   **EAC****für Aufgabe 1** = EAC-Arbeitsaufwand + EAC-Ausgaben\
+   **EAC****für Aufgabe 1** = 12.500,00 $ + 900,00 $\
+   **EAC****für Aufgabe 1** = 13.400,00 $
 
 1. Im Folgenden finden Sie die CPI-/EAC-Werte für Aufgabe 2 und Aufgabe 3:\
    Task 2 = .19 / $ 8.433,33\
-   Task 3 = .44 / $6.950.00&#x200B;**&#x200B;**
+   Task 3 = .44 / $6.950.00****
 
 1. Der CPI für das Projekt = .32\
-   **CPI**&#x200B;**&#x200B; für Projekt &#x200B;** = *IF* Tatsächliche Arbeitskosten + IncurredActualExpenseCost &lt;> 0 *THEN*
+   **CPI**** für Projekt ** = *IF* Tatsächliche Arbeitskosten + IncurredActualExpenseCost &lt;> 0 *THEN*
 
    ```
    CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost)/(ActualLaborCost + IncurredActualExpenseCost)
    ```
 
    * ELSE* CPI = CPI_Labour\
-     **CPI**&#x200B;**für Projekt** = (1000 + 2300) / (7500 + 2700)\
-     **CPI**&#x200B;**für Projekt** = 3300 / 10200\
-     **CPI**&#x200B;**for Project** = .32
+     **CPI****für Projekt** = (1000 + 2300) / (7500 + 2700)\
+     **CPI****für Projekt** = 3300 / 10200\
+     **CPI****for Project** = .32
 
 1. EAC für das Projekt beträgt $28.783,33\
-   **EAC**&#x200B;**für Projekt** = EAC Aufgabe 1 + EAC Aufgabe 2 + EAC Aufgabe 3\
-   **EAC**&#x200B;**für Projekt** = 13.400,00 $ + 8.433,33 $ + 6.950,00 $\
-   **EAC**&#x200B;**für Projekt** = 28.783,33 $
+   **EAC****für Projekt** = EAC Aufgabe 1 + EAC Aufgabe 2 + EAC Aufgabe 3\
+   **EAC****für Projekt** = 13.400,00 $ + 8.433,33 $ + 6.950,00 $\
+   **EAC****für Projekt** = 28.783,33 $

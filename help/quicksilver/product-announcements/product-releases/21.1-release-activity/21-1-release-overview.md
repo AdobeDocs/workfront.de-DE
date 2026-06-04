@@ -8,9 +8,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3affee76-347e-4610-b255-4b1bb4414c5d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/MKm0PiSRhZmTgQEGSv7BnoZZKsEyxDoajFr3JHMEV14
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: c33d85a1-be85-4290-854c-87408c10aa80id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '3831'
+source-wordcount: 3831
 ht-degree: 1%
 
 ---
@@ -337,7 +343,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-Informationen zu neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in der API-Version 12](https://experienceleague.adobe.com/de/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12).
+Informationen zu neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in der API-Version 12](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12).
 
 Weitere Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Zeitplan](../../../wf-api/api/api-version-support-schedule.md)
 
@@ -404,4 +410,4 @@ Weitere Informationen finden Sie unter [Häufig gestellte Fragen zur Änderung d
 
 Mit Workfront One entdecken Sie die wichtigsten Inhalte, Ressourcen und Neuigkeiten aus Workfront - alles an einem Ort, mit einer Anmeldung. Wir haben die Sites für Erlebnis, Community und Schulung zusammengeführt, damit Sie leichter finden können, wonach Sie suchen.
 
-[Weitere Informationen zu Workfront One](https://business.adobe.com/de/products/workfront.html).
+[Weitere Informationen zu Workfront One](https://business.adobe.com/products/workfront.html).

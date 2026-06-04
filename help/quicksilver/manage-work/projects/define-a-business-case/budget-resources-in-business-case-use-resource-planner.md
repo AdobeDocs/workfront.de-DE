@@ -1,18 +1,24 @@
 ---
 navigation-topic: business-case-and-scorecards
-title: Budgetressourcen im Business Case mit dem Ressourcenplaner
+title: Budgetieren von Ressourcen im Business-Case mit dem Ressourcenplaner
 description: Im Rahmen der Ressourcenplanung können Sie mit dem Ressourcenplaner auf Projektebene die Aufgabengebiete budgetieren, die zum Abschließen der Arbeit in einem Projekt beim Erstellen des Business Case erforderlich sind.
 author: Becky
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/qCdK5wvSZkx4ROkfy21JK7P5v7YY1hKkJwwIUDKXvNI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: d3382524-5489-431b-bde9-271ab257bc37id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 1%
+source-wordcount: 1212
+ht-degree: 8%
 
 ---
 
-# Budgetressourcen im Business Case mit dem Ressourcenplaner
+# Budgetieren von Ressourcen im Business-Case mit dem Ressourcenplaner
 
 <!--Audited: 06/2025-->
 
@@ -35,7 +41,7 @@ Sie können Ressourcen auch im Business Case mit dem Adobe Workfront-Szenariopla
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Plan</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-Abo</p></td> 
    <td> <p>Prime oder höher</p>
     </td> 
   </tr> 
@@ -64,7 +70,7 @@ Sie können Ressourcen auch im Business Case mit dem Adobe Workfront-Szenariopla
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -72,7 +78,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 Bevor Sie beginnen, müssen Sie Folgendes tun:
 
-* Erfüllen Sie alle Voraussetzungen für die Ressourcenplanung in Adobe Workfront. Weitere Informationen finden Sie unter [Ressourcenplaner - Übersicht](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+* Erfüllen Sie alle Voraussetzungen für die Ressourcenplanung in Adobe Workfront. Weitere Informationen finden Sie unter [Überblick über den Ressourcenplaner](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 * Verknüpfen Sie Ressourcenpools mit dem Projekt.
 
@@ -82,7 +88,7 @@ Bevor Sie beginnen, müssen Sie Folgendes tun:
 
   >[!NOTE]
   >
-  >Sie können keine Ressourcen budgetieren, die Problemen im Business Case zugewiesen sind. Sie können sie im Ressourcenplaner auf Systemebene budgetieren. Weitere Informationen zum Ressourcenplaner finden Sie unter [Ressourcenplaner - Übersicht](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+  >Sie können keine Ressourcen budgetieren, die Problemen im Business Case zugewiesen sind. Sie können sie im Ressourcenplaner auf Systemebene budgetieren. Weitere Informationen zum Ressourcenplaner finden Sie unter [Überblick über den Ressourcenplaner](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 * Obwohl dies keine Voraussetzung ist, empfehlen wir Ihnen auch, die geplanten Stunden für die Aufgaben im Projekt anzugeben. Auf diese Weise lässt sich erkennen, wie viel Arbeit eine Aufgabe ggf. abschließen muss. Dies erleichtert die Entscheidung, wie viel Zeit die Ressourcen in Anspruch nehmen sollen, um die Aufgabe abzuschließen. Informationen zum Verknüpfen von Aufgaben mit geplanten Stunden finden Sie unter [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
@@ -114,7 +120,7 @@ So wenden Sie Ressourcenpools und Budgetprojektressourcen im Business Case auf e
 
    Hierbei werden die budgetierten Stunden des Projekts verwendet, um die budgetierten Lohnkosten für das Projekt zu berechnen.
 
-   Der Szenario-Planer ist nur in der neuen Adobe Workfront-Version verfügbar und erfordert eine zusätzliche Lizenz. Weitere Informationen zum Workfront-Szenarioplaner finden Sie unter [Szenarioplaner - Übersicht](../../../scenario-planner/scenario-planner-overview.md).
+   Der Szenario-Planer ist nur in der neuen Adobe Workfront-Version verfügbar und erfordert eine zusätzliche Lizenz. Weitere Informationen zum Workfront-Szenarienplaner finden Sie unter [Überblick über den Szenarienplaner](../../../scenario-planner/scenario-planner-overview.md).
 
    >[!NOTE]
    >
@@ -134,7 +140,7 @@ So wenden Sie Ressourcenpools und Budgetprojektressourcen im Business Case auf e
 
    Standardmäßig werden die ersten 20 Aufgabengebiete, die mit diesem Projekt verknüpft sind, im Abschnitt Ressourcenbudgetierung in alphabetischer Reihenfolge aufgeführt.
 
-   Weitere Informationen zum Ressourcenplaner finden Sie unter [Ressourcenplaner - Übersicht](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+   Weitere Informationen zum Ressourcenplaner finden Sie unter [Überblick über den Ressourcenplaner](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
    <!--![BC_resource_budgeting_area.png](assets/bc-resource-budgeting-area-350x276.png)-->
 

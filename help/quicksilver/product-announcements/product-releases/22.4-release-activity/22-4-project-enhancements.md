@@ -6,9 +6,13 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 41372dd8-5002-4f8b-a5ac-a577c8b05d11
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+TQID: https://experienceleague.adobe.com/h42aq8ShyeC-mZrt8JlpHYFGfgml9HQ2vWHI0-Op-io
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: 965
 ht-degree: 3%
 
 ---
@@ -17,7 +21,7 @@ ht-degree: 3%
 
 Auf dieser Seite werden alle mit Version 22.4 vorgenommenen Projektverbesserungen in der Vorschau-Umgebung beschrieben. Diese Verbesserungen werden in der Woche vom 3. Oktober 2022 zur Verfügung gestellt.
 
-Eine Liste aller in Version 22.4 verfügbaren Änderungen finden Sie in der Übersicht über [&#x200B; Version 22.4 &#x200B;](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Eine Liste aller in Version 22.4 verfügbaren Änderungen finden Sie in der Übersicht über [ Version 22.4 ](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
 ## Vorgängerdetails jetzt verfügbar
 
@@ -47,7 +51,7 @@ Wir haben die Art und Weise verbessert, wie Benutzende angezeigt werden, wenn Si
 
 Wenn Sie jetzt Benutzende zu einem dieser Felder im Bereich Bearbeiten oder Details hinzufügen, werden neben ihrem Namen und Avatar auch ihre Primäre Rolle und ihre E-Mail-Adresse angezeigt. Dies hilft bei der Unterscheidung zwischen mehreren Benutzenden mit ähnlichen oder identischen Namen.
 
-Weitere Informationen finden Sie unter [Projekte &#x200B;](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+Weitere Informationen finden Sie unter [Projekte ](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
 HINWEIS: Zusätzliche Benutzerfelder für Projekte, Aufgaben und Probleme werden mit dieser Funktion in zukünftigen Versionen aktualisiert.
 
@@ -112,7 +116,7 @@ Der Textmodus bleibt für die erweiterte Filterbearbeitung verfügbar, und Syste
 
 ### Wir möchten Ihr Feedback!
 
-Mit diesem Public Beta erhalten Anwender die Möglichkeit, Feedback direkt an das Team zu senden, das am Filtererlebnis arbeitet, indem sie auf die Feedback-Schaltfläche klicken. Wir freuen uns, von Ihnen und Ihren Benutzern über das neue Filtererlebnis in der öffentlichen Beta-Version zu hören. Wenn Ihr Team sich direkt mit dem Produkt treffen möchte, um zusätzliches Feedback zu geben, können Sie hier ein Meeting planen: https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&date=2022-08-25
+Mit diesem Public Beta erhalten Anwender die Möglichkeit, Feedback direkt an das Team zu senden, das am Filtererlebnis arbeitet, indem sie auf die Feedback-Schaltfläche klicken. Wir freuen uns, von Ihnen und Ihren Benutzern über das neue Filtererlebnis in der öffentlichen Beta-Version zu hören. Wenn Ihr Team sich direkt mit dem Produkt treffen möchte, um zusätzliches Feedback zu geben, können Sie hier ein Meeting planen: https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&amp;date=2022-08-25
 
 ### Wie geht es weiter?
 

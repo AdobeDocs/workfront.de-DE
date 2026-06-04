@@ -7,9 +7,15 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 00cc1205-5d58-485b-8076-e177f1d931f9
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/QAgsK1-saTn4aaPn81bazNS4J2eyvAGP8C6ndMGLY7A
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1814'
+source-wordcount: 1814
 ht-degree: 4%
 
 ---
@@ -163,7 +169,7 @@ Benutzerdefinierte Status können jetzt sowohl in einmaligen als auch systemweit
 
 Für Benutzer mit administrativem Zugriff auf Genehmigungsprozesse sind Informationen zum Konfigurieren von Genehmigungsprozessen unter [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) verfügbar (oder wenn Sie Adobe Workfront Classic verwenden, siehe [Erstellen von Genehmigungsprozessen](https://experienceleague.adobe.com/de/docs/workfront/using/home)).
 
-Für Benutzende sind Informationen zum Verknüpfen von Genehmigungsprozessen mit Arbeitselementen unter [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit Arbeit](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) verfügbar (oder wenn Sie Adobe Workfront Classic verwenden, siehe &quot;[&#x200B; eines neuen oder vorhandenen Genehmigungsprozesses mit Arbeit](https://experienceleague.adobe.com/de/docs/workfront/using/home)).
+Für Benutzende sind Informationen zum Verknüpfen von Genehmigungsprozessen mit Arbeitselementen unter [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit Arbeit](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) verfügbar (oder wenn Sie Adobe Workfront Classic verwenden, siehe &quot;[ eines neuen oder vorhandenen Genehmigungsprozesses mit Arbeit](https://experienceleague.adobe.com/de/docs/workfront/using/home)).
 
 **In diesen Umgebungen verfügbar:**
 

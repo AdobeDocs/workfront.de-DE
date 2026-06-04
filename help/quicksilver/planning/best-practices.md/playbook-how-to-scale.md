@@ -6,11 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 54df36b3-01a3-4fd3-b2d3-64ffb2fe5918
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/9T0iHPXONMWUcVb03kMr-rmQ1hAvTxtLoDzlucqaK6A
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2574'
+source-wordcount: 2611
 ht-degree: 1%
 
 ---
@@ -44,7 +48,7 @@ Manchmal hat es den Eindruck, dass die gefährlichste Phase der Workfront-Planun
 
 * **Zero Governance**: Jedes Team kann seine eigenen Felder und Datensatztypen erstellen und so die fragmentierte Zunahme der Metadaten in alten Umgebungen umsetzen.
 
-## &#x200B;2. Die Kernphilosophie: Workfront Planning als Abstimmungsmaschine
+## &#x200B;2. Die Kernphilosophie: Workfront Planning als Abstimmmaschine
 
 Anstatt zu versuchen, Teams daran zu hindern, anders zu sein, positionieren wir Workfront Planning als den Ort, an dem diese Unterschiede sichtbar gemacht werden, damit sie abgestimmt werden können.
 
@@ -194,7 +198,7 @@ So löschen Sie Felder:
 
 4. Beginnen Sie den Sunset-Zeitraum, indem Sie das verworfene Feld (mit dem Präfix und entfernt aus den Formularen) 30 bis 60 Tage lang beibehalten, um sicherzustellen, dass während der Migration keine Daten ausgelassen wurden. Nach diesem Zeitraum kann das lokale Feld aus dem Arbeitsbereich gelöscht werden, wenn die Daten auf der globalen Spur vollständig abgestimmt sind.
 
-## &#x200B;6. Vermeiden der Workfront-Drift
+## &#x200B;6. Vermeiden der Workfront-Verschiebung
 
 Gehen Sie wie folgt vor, um die Planung nicht zu überladen:
 
@@ -202,7 +206,7 @@ Gehen Sie wie folgt vor, um die Planung nicht zu überladen:
 
 * **Konsolidierung zuerst erreichen**: Wenn ein Team ein neues Metadatenfeld benötigt, laden Sie es ein, zunächst die globale Taxonomie zu überprüfen. Dies erfordert, dass Team-Leads schreibgeschützten Zugriff auf den Arbeitsbereich der globalen Taxonomie erhalten (siehe Abschnitt 7). Indem Sie ihre taktischen Anforderungen einem vorhandenen strategischen Feld zuordnen, können Sie unnötige Duplizierungen vermeiden und die Reporting-Integrität aufrechterhalten.
 
-## &#x200B;7. Sichtbarkeitsmodell für schreibgeschützten Zugriff
+## &#x200B;7. Das Sichtbarkeitsmodell für schreibgeschützten Zugriff
 
 Sie können dieses isolierte Gefühl ohne das Geräusch isolierter Arbeit lösen, indem Sie Teams schreibgeschützten Zugriff auf den Arbeitsbereich Globale Taxonomie gewähren, um zu sehen, welche Konzepte für ihre eigenen Workflows gelten könnten.
 
@@ -267,7 +271,7 @@ Im Folgenden finden Sie Ideen für Workshops, die Sie haben können:
 
 * **Ergebnis**: Erhöhtes Anwendervertrauen, schnellere Behebung technischer Probleme und die Identifizierung neuer Muster, die eine globale Standardisierung rechtfertigen könnten.
 
-## &#x200B;9. Personalausstattung in größerem Maßstab: Funktionen und Zuständigkeiten
+## &#x200B;9. Personalausstattung für den Einsatz in größerem Maßstab: Rollen und Zuständigkeiten
 
 Um in einem verwalteten Skalierungsmodell erfolgreich zu sein, ist mehr als nur die Konfiguration des Tools erforderlich. Dies erfordert eine klare Verteilung der Rollen auf die Global- und Spoke-Teams.
 

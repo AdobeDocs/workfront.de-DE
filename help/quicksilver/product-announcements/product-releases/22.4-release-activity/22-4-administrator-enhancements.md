@@ -1,23 +1,28 @@
 ---
-title: 22.4 Administrator-Verbesserungen
-description: 22.4 Administrator-Verbesserungen
+title: Verbesserungen für Admins in Version 22.4
+description: Verbesserungen für Admins in Version 22.4
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1e62e7b3-14b6-4669-b3e1-ac6507343479
-source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
+TQID: https://experienceleague.adobe.com/d5r4VDW3ZD3sNx5s9Kj9V8PKt39fZNFtwfiAj6dzdzk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 0%
+source-wordcount: 881
+ht-degree: 6%
 
 ---
 
-# 22.4 Administrator-Verbesserungen
+# Verbesserungen für Admins in Version 22.4
 
 Auf dieser Seite werden alle Admin-Verbesserungen beschrieben, die mit Version 22.4 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 3. Oktober 2022 zur Verfügung gestellt.
 
-Eine Liste aller in Version 22.4 verfügbaren Änderungen finden Sie in der Übersicht über [&#x200B; Version 22.4 &#x200B;](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Eine Liste aller in Version 22.4 verfügbaren Änderungen finden Sie in der Übersicht über [ Version 22.4 ](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
 ## Verwenden entsperrter Status in einem Genehmigungsprozess
 
@@ -43,7 +48,7 @@ Vorhandene Layout-Vorlagen enthalten automatisch das Symbol Blueprints , und Adm
 
 Weitere Informationen finden Sie unter [Zugriff auf Blueprints konfigurieren](/help/quicksilver/administration-and-setup/blueprints/configure-access-to-blueprints.md).
 
-[Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3412382/){target=_blank}
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an](https://video.tv.adobe.com/v/3412382/){target=_blank}
 
 ## Anpassung der Anfragekopfzeile
 
@@ -65,7 +70,7 @@ Vor dieser Version konnten nur Projekt- und Aufgabenkopfzeilen angepasst werden.
 
 Weitere Informationen finden Sie unter [Anpassen von Objektkopfzeilen mithilfe einer Layout-Vorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-[Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3412383/){target=_blank}
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an](https://video.tv.adobe.com/v/3412383/){target=_blank}
 
 ## Anpassung der Aufgabenkopfzeile
 
@@ -83,7 +88,7 @@ Vor dieser Version konnten nur die Projekt-Kopfzeilen angepasst werden.
 
 Weitere Informationen finden Sie unter [Anpassen von Objektkopfzeilen mithilfe einer Layout-Vorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412384/){target=_blank}
+[Sehen Sie sich eine Videodemonstration dieser Funktion an.](https://video.tv.adobe.com/v/3412384/){target=_blank}
 
 ## Frühzeitiges Opt-in für die neuesten Funktionen auf Pinnwänden
 
@@ -93,7 +98,7 @@ Nur ein Workfront-Administrator kann sich für die frühen Funktionen anmelden. 
 
 Weitere Informationen finden Sie unter [Early Feature Opt-in for Adobe Workfront Boards](/help/quicksilver/agile/get-started-with-boards/boards-early-feature-opt-in.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412386/){target=_blank}
+[Sehen Sie sich eine Videodemonstration dieser Funktion an.](https://video.tv.adobe.com/v/3412386/){target=_blank}
 
 ## Im Editor zur Berechnung von benutzerdefinierten Formularfeldern werden Fehlerinformationen angezeigt
 
@@ -103,17 +108,17 @@ Weitere Informationen finden Sie unter [Early Feature Opt-in for Adobe Workfront
 
 Die Bearbeitung von Berechnungen für benutzerdefinierte Felder ist jetzt einfacher, da hilfreiche Fehlerinformationen direkt in der Berechnung angezeigt werden. Beim Erstellen eines berechneten Felds in einem benutzerdefinierten Formular werden Fehler in rosa hervorgehoben. Wenn Sie den Mauszeiger über den hervorgehobenen Teil bewegen, wird eine QuickInfo angezeigt, die das Problem beschreibt.
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412387/){target=_blank}
+[Sehen Sie sich eine Videodemonstration dieser Funktion an.](https://video.tv.adobe.com/v/3412387/){target=_blank}
 
 ## Migration zu Adobe Unified Experience
 
 HINWEIS: Diese Migration wurde auf das 1. bis 2. Quartal 2023 verschoben. Alle betroffenen Kunden werden zu diesem Zeitpunkt benachrichtigt.
 
-Wenn Ihr Unternehmen Adobe Admin Console verwendet hat, wird Ihre Workfront-Instanz auf das einheitliche Adobe-Erlebnis mit Version 22.4 migriert.
+Wenn Ihr Unternehmen Adobe Admin Console verwendet hat, wird Ihre Workfront-Instanz mit Version 22.4 zum einheitlichen Adobe-Erlebnis migriert.
 
-Das einheitliche Adobe-Erlebnis umfasst:
+Adobe Unified Experience umfasst Folgendes:
 
-* Eine einzige Anmeldung für alle Adobe-Anwendungen über Adobe Experience Cloud
+* Eine einzige Anmeldung für alle Adobe-Programme über Adobe Experience Cloud
 
 * Ein „Organisationswechsel“, um zwischen Workfront-Organisationen und -Umgebungen zu wechseln
 
@@ -121,4 +126,4 @@ Das einheitliche Adobe-Erlebnis umfasst:
 
 Weitere Informationen finden Sie unter [Adobe Unified Experience für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[Sehen Sie sich eine Videodemonstration dieser Funktion an.](https://video.tv.adobe.com/v/3412388/){target=_blank}

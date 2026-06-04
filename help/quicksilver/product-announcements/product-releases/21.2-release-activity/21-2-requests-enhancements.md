@@ -2,20 +2,24 @@
 content-type: release-notes
 keywords: Hinweise,vierteljährlich,Aktualisierung,Freigabe
 navigation-topic: 2021-2-release-activity
-title: 21.2 Verbesserungen bei Anfragen
+title: Verbesserungen bei Anfragen in Version 21.2
 description: Auf dieser Seite werden alle mit Version 21.2 vorgenommenen Verbesserungen an der Vorschau-Umgebung beschrieben. Diese Verbesserungen werden in der Woche vom 10. Mai 2021 in der Produktionsumgebung verfügbar gemacht. Eine Liste aller mit Version 21.2 verfügbaren Änderungen finden Sie in der Übersicht über die Version 21.2.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: af9c801f-ae40-439a-8749-ae8d178040ae
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/75UJsTlD3ZTmZV3owwnoIuPTP89VkL-zN2YRm2Vjq1U
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 0%
+source-wordcount: 1131
+ht-degree: 8%
 
 ---
 
-# 21.2 Verbesserungen bei Anfragen
+# Verbesserungen bei Anfragen in Version 21.2
 
 Auf dieser Seite werden alle mit Version 21.2 vorgenommenen Verbesserungen an der Vorschau-Umgebung beschrieben. Diese Verbesserungen werden in der Woche vom 10. Mai 2021 in der Produktionsumgebung verfügbar gemacht. Eine Liste aller mit Version 21.2 verfügbaren Änderungen finden Sie unter Übersicht über Version [21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
@@ -34,7 +38,7 @@ Im Feld Arbeitsaufträge wird angegeben, welche Arten von Arbeitsaufträgen zul�
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
 * [Erstellen und Senden von Adobe Workfront-Anfragen](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
-* [Anfrage-Warteschlange erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
+* [Erstellen einer Anfrage-Warteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
 
 ## Verbesserungen beim Erstellen von Anfragen und Verwalten von Entwürfen
 

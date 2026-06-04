@@ -1,20 +1,25 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-3-release-activity
-title: 20.3 Verbesserungen bei Integration und Mobilgeräten
+title: Verbesserungen bei Integrationen und Mobilgeräten in Version 20.3
 description: Auf dieser Seite werden alle Integrations- und Mobile-Verbesserungen beschrieben, die mit Version 20.3 an der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Woche vom 10. August 2020 in der Produktionsumgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 891be3ab-ba65-406e-a90c-d7a9db8310e3
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+TQID: https://experienceleague.adobe.com/tV8tsEkumdgpfAcO-UWwOd8BkSf9LZDqmKq44fL3WsA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 0%
+source-wordcount: 329
+ht-degree: 3%
 
 ---
 
-# 20.3 Verbesserungen bei Integration und Mobilgeräten
+# Verbesserungen bei Integrationen und Mobilgeräten in Version 20.3
 
 Auf dieser Seite werden alle Integrations- und Mobile-Verbesserungen beschrieben, die mit Version 20.3 an der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Woche vom 10. August 2020 in der Produktionsumgebung verfügbar gemacht.
 
@@ -26,7 +31,7 @@ Workfront hat vor kurzem Technologie für eine völlig neue Generation von Workf
 
 Bisherige Workfront Fusion-Kunden können mit mehr Leistung, Geschwindigkeit, Benutzerfreundlichkeit und Vorhersehbarkeit in Workfront Fusion 2.0 rechnen. Wir sind dabei, aktuelle Workfront Fusion-Kunden auf Workfront Fusion 2.0 zu migrieren. Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer.
 
-Weitere Informationen finden Sie unter [Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/home).
+Weitere Informationen finden Sie unter [Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home).
 
 ## Einführung in Workfront für MobileIron
 

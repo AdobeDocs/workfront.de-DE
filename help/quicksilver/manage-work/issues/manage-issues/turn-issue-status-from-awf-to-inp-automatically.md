@@ -6,14 +6,20 @@ description: Wenn der Primäre Kontaktperson eines Problems das Problem aktualis
 author: Alina
 feature: Work Management
 exl-id: f94bb644-910f-4b46-80fd-fecbdf9cb18a
-source-git-commit: dc4b6dc284c59281206a457395765e634067ba91
+TQID: https://experienceleague.adobe.com/axgDUT8M6p79omHTSO8OrvM7qAM81AjG0Fug2JUl4ck
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 0%
+source-wordcount: 282
+ht-degree: 3%
 
 ---
 
-# Problemstatus von „Auf Feedback warten“ automatisch auf „In Bearbeitung“ aktualisieren
+# Automatisches Aktualisieren des Problemstatus von „Auf Feedback warten“ auf „In Bearbeitung“
 
 <!--Audited: 109/2025-->
 
@@ -23,7 +29,7 @@ Damit diese automatische Statusänderung erfolgt, sind folgende Schritte erforde
 
 * Das Problem muss mithilfe einer Anfrage-Warteschlange hinzugefügt werden.
 
-  Informationen zum Erstellen von Anfrage-Warteschlangen finden Sie [&#x200B; Abschnitt „Erstellen und Verwalten &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md) Anfrage-Warteschlangen“.
+  Informationen zum Erstellen von Anfrage-Warteschlangen finden Sie [ Abschnitt „Erstellen und Verwalten ](../../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md) Anfrage-Warteschlangen“.
 
   Informationen zum Senden von Anfragen an eine Anfrage-Warteschlange finden Sie unter [Erstellen und Senden von Adobe Workfront-Anfragen](../../../manage-work/requests/create-requests/create-submit-requests.md).
 

@@ -2,19 +2,24 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: Kostenplan-Leistungsindex (CSI) berechnen
+title: Berechnen des Kostenplan-Leistungsindex (Cost Schedule Performance Index, CSI)
 description: Der Cost Schedule Performance Index (CSI) ist eine automatische Berechnung, die den Cost Performance Index (CPI) und den Schedule Performance Index (SPI) zu einer allgemeinen Kennzahl kombiniert, die Kosten und Zeitplan ausgleicht.
 author: Lisa
 feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+TQID: https://experienceleague.adobe.com/USODdaQOyE-D76BVmLLVUS1WxUMrK6Q05xZU1Xg9Gjc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 0%
+source-wordcount: 332
+ht-degree: 16%
 
 ---
 
-# Kostenplan-Leistungsindex (CSI) berechnen
+# Berechnen des Kostenplan-Leistungsindex (Cost Schedule Performance Index, CSI)
 
 <!-- Audited: 6/2025 -->
 
@@ -24,7 +29,7 @@ ht-degree: 0%
 
 ## Übersicht über den Kostenplan-Leistungsindex (CSI)
 
-Der Cost Schedule Performance Index (CSI) ist eine automatische Berechnung, die den Cost Performance Index (CPI) und den Schedule Performance Index (SPI) zu einer allgemeinen Kennzahl kombiniert, die Kosten und Zeitplan ausgleicht. Indem Sie diese Werte miteinander multiplizieren, kann eine einzelne Metrik einen längeren Zeitplan mit einem niedrigeren Budget berücksichtigen oder umgekehrt. Projektmanager können dies verwenden, um den allgemeinen Projekt- oder Aufgabenzustand zu bestimmen, wenn Kosten geopfert werden, um den Zeitplan während des Projekts zu erstellen.
+Der Cost Schedule Performance Index (CSI) ist eine automatische Berechnung, die den Cost Performance Index (CPI) und den Schedule Performance Index (SPI) zu einer allgemeinen Kennzahl kombiniert, die Kosten und Zeitplan ausgleicht. Durch Multiplikation dieser Werte kann eine einzige Metrik einen verlängerten Zeitplan bei geringerem Budget oder umgekehrt berücksichtigen. Das Projekt-Management kann dieses Objekt verwenden, um den allgemeinen Projekt- oder Aufgabenzustand zu bestimmen, wenn Kosten geopfert werden, um den Zeitplan während des Projekts voranzutreiben.
 
 >[!TIP]
 >

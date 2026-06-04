@@ -1,18 +1,23 @@
 ---
 navigation-topic: business-case-and-scorecards
-title: Budgetressourcen im Business Case
+title: Budgetieren von Ressourcen im Business-Case
 description: Im Rahmen der Ressourcenplanung können Sie die Aufgabengebiete budgetieren, die zum Abschließen der Arbeit in einem Projekt erforderlich sind, wenn Sie den Business Case erstellen. Weitere Informationen zum Erstellen eines Business-Case finden Sie unter Erstellen eines Business-Case für ein Projekt .
 author: Becky
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/Kwb3yp8Sqjnch5vlnWHT2rixXbUODjOFG3xs8wIp1Cs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 0%
+source-wordcount: 261
+ht-degree: 9%
 
 ---
 
-# Budgetressourcen im Business Case
+# Budgetieren von Ressourcen im Business-Case
 
 Im Rahmen der Ressourcenplanung können Sie die Aufgabengebiete budgetieren, die zum Abschließen der Arbeit in einem Projekt erforderlich sind, wenn Sie den Business Case erstellen. Weitere Informationen zum Erstellen eines Business-Case finden Sie unter [Erstellen eines Business-Case für ein Projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
@@ -30,7 +35,7 @@ Sie müssen dem Projekt Aufgabengebiete zuordnen, bevor Sie die Ressourcen dafü
 
   >[!NOTE]
   >
-  >Der Szenario-Planer ist nur in der neuen Adobe Workfront-Version verfügbar und erfordert eine zusätzliche Lizenz. Weitere Informationen zum Workfront-Szenarioplaner finden Sie unter [Szenarioplaner - Übersicht](../../../scenario-planner/scenario-planner-overview.md).
+  >Der Szenario-Planer ist nur in der neuen Adobe Workfront-Version verfügbar und erfordert eine zusätzliche Lizenz. Weitere Informationen zum Workfront-Szenarienplaner finden Sie unter [Überblick über den Szenarienplaner](../../../scenario-planner/scenario-planner-overview.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:ALL content below has been moved to another article - we now have two "how to" budget in the business case: one for the resource planner and one of the scenario planner)</p>

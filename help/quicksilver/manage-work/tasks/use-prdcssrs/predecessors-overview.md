@@ -7,11 +7,17 @@ description: Ein Vorgänger ist die Aufgabe, von der eine andere Aufgabe (eine s
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/xnJhXh7e9V24uGPI-ZcHubQCm83HFcJ4ReoswREXnL8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1184'
+source-wordcount: 1200
 ht-degree: 0%
 
 ---
@@ -66,7 +72,7 @@ Um Vorgängerbeziehungen zu verstehen, müssen Sie Folgendes verstehen:
 
 Informationen zum Erstellen von Vorgängern finden Sie in den folgenden Artikeln:
 
-* Informationen zum Erstellen von Vorgängern mithilfe der Registerkarte „Vorgänger“ der Aufgabe finden [&#x200B; unter „Erstellen einer Vorgängerbeziehung mithilfe des Bereichs „Vorgänger“](../../../manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
+* Informationen zum Erstellen von Vorgängern mithilfe der Registerkarte „Vorgänger“ der Aufgabe finden [ unter „Erstellen einer Vorgängerbeziehung mithilfe des Bereichs „Vorgänger“](../../../manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md).
 * Informationen zum Einrichten von Vorgängern in einer Aufgabenliste finden Sie unter [Erstellen einer Vorgängerbeziehung in der Aufgabenliste](../../../manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
 * Informationen zum Erstellen von Vorgängerbeziehungen durch Verketten von Aufgaben finden Sie unter [Erstellen von Vorgängerbeziehungen durch Verketten von Aufgaben](../../../manage-work/tasks/use-prdcssrs/create-predecessors-by-chaining-tasks.md).
 * Informationen zum Einrichten von projektübergreifenden Vorgängern finden Sie unter [Erstellen von projektübergreifenden Vorgängern](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).

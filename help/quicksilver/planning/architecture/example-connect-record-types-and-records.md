@@ -6,14 +6,17 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 1f9a0e6064f83c6f0947e3c7ef596e96c934a687
+TQID: https://experienceleague.adobe.com/NIe7YaEVogtG4WVzWRhGA4QUf29Igy98-KlJD6OwDT8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2050'
+source-wordcount: 2061
 ht-degree: 1%
 
 ---
 
-# Beispiel für das Verbinden von Datensatztypen und Datensätzen
+# Beispiel für das Verbinden von Eintragstypen und Einträgen
 
 {{planning-important-intro}}
 
@@ -25,7 +28,7 @@ In diesem Artikel wird ein Beispiel für Folgendes beschrieben:
 
 Weitere Informationen finden Sie auch in den folgenden Artikeln:
 
-* [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md)
+* [Verbinden von Eintragstypen](/help/quicksilver/planning/architecture/connect-record-types.md)
 * [Einträge verbinden](/help/quicksilver/planning/records/connect-records.md)
 
 ## Verbinden von zwei Workfront Planning-Datensatztypen und -Datensätzen (Beispiel)
@@ -88,7 +91,7 @@ Gehen Sie dazu folgendermaßen vor:
 
    >[!TIP]
    >
-   >    Verknüpfte Datensatzfelder werden durch das Beziehungssymbol (Beziehungsfeldsymbol![&#x200B; vorangestellt](assets/relationship-field-icon.png).
+   >    Verknüpfte Datensatzfelder werden durch das Beziehungssymbol (Beziehungsfeldsymbol![ vorangestellt](assets/relationship-field-icon.png).
 
 1. Erstellen Sie in **Tabellenansicht** Kampagne) eine Kampagne, indem Sie eine neue Zeile zur Tabelle des Kampagnendatensatztyps hinzufügen.
 
@@ -108,7 +111,7 @@ Gehen Sie dazu folgendermaßen vor:
 
 1. Beginnen Sie, den Namen eines Produkts in das Suchfeld einzugeben, und wählen Sie es aus, wenn es in der Liste angezeigt wird
 
-   Oder
+   ODER
 
    Wählen Sie die Produktdatensätze aus, die Sie mit den Campaign-Datensätzen verbinden möchten, und klicken Sie dann auf **Objekte verbinden**.
 
@@ -180,7 +183,7 @@ Gehen Sie dazu folgendermaßen vor:
 
    >[!TIP]
    >
-   >    Verknüpfte Objektfelder werden durch das Beziehungssymbol (Beziehungsfeldsymbol![&#x200B; vorangestellt](assets/relationship-field-icon.png).
+   >    Verknüpfte Objektfelder werden durch das Beziehungssymbol (Beziehungsfeldsymbol![ vorangestellt](assets/relationship-field-icon.png).
 
 1. Erstellen Sie in **Tabellenansicht** Datensatztyps (Campaign) eine Kampagne, indem Sie eine neue Zeile in der Tabelle hinzufügen.
 
@@ -200,7 +203,7 @@ Gehen Sie dazu folgendermaßen vor:
 
 1. Beginnen Sie, den Namen eines Projekts in das Suchfeld einzugeben, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird
 
-   Oder
+   ODER
 
    Wählen Sie die Projektdatensätze aus, die Sie mit den Campaign-Datensätzen verbinden möchten, und klicken Sie dann auf **Objekte verbinden**.
 
