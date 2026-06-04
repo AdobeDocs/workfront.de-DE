@@ -151,7 +151,7 @@ Wenn Sie Fragen oder Probleme beim Einreichen einer Anfrage haben, wenden Sie si
 
 
 <!--
-drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
+drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737?profile.language=de)
 
 - this is the information that was there before - pointing to WorkfrontOne: 
 
