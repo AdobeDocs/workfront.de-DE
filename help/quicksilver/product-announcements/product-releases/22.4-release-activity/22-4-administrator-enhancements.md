@@ -7,10 +7,14 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1e62e7b3-14b6-4669-b3e1-ac6507343479
 TQID: https://experienceleague.adobe.com/d5r4VDW3ZD3sNx5s9Kj9V8PKt39fZNFtwfiAj6dzdzk
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 881
@@ -22,7 +26,7 @@ ht-degree: 6%
 
 Auf dieser Seite werden alle Admin-Verbesserungen beschrieben, die mit Version 22.4 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 3. Oktober 2022 zur Verfügung gestellt.
 
-Eine Liste aller in Version 22.4 verfügbaren Änderungen finden Sie in der Übersicht über [ Version 22.4 ](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Eine Liste aller in Version 22.4 verfügbaren Änderungen finden Sie in der Übersicht über [&#x200B; Version 22.4 &#x200B;](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
 ## Verwenden entsperrter Status in einem Genehmigungsprozess
 

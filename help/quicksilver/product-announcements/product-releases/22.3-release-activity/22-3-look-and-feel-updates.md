@@ -7,9 +7,12 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7f85bc50-52c7-4fe8-9f0f-489eaf19b441
 TQID: https://experienceleague.adobe.com/nY1jX-jSZQhuraFoxOUQc75yQqMAOImPidOCglpbRNA
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 251
@@ -47,6 +50,6 @@ Die Symbolleisten in den folgenden Listen und Berichten sind jetzt modern gestal
 
 >[!NOTE]
 >
->Diese Änderung wurde in der Produktionsumgebung am 23. Mai 2022 aktualisiert. Weitere Informationen finden Sie [ „Wartungs-Update vom 26. Mai 2022](https://experienceleague.adobe.com/de/docs/workfront/using/home).
+>Diese Änderung wurde in der Produktionsumgebung am 23. Mai 2022 aktualisiert. Weitere Informationen finden Sie [&#x200B; „Wartungs-Update vom 26. Mai 2022](https://experienceleague.adobe.com/de/docs/workfront/using/home).
 
 Wir haben die Breadcrumb-Trennzeichen in allen Bereichen aktualisiert, in denen Breadcrumbs verfügbar sind. Jetzt werden die Objekte in den Breadcrumbs durch senkrechte Striche (|) getrennt. Vor dieser Aktualisierung wurden sie durch Schrägstriche (/) getrennt.

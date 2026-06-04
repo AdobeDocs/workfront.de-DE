@@ -9,11 +9,21 @@ exl-id: daf89062-cf58-4c39-83ff-727d969a9630
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/4woD6-qOZKqPQvGDYALAku7uX3-wD90jxj58zAjc2N0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 1756
@@ -101,7 +111,7 @@ Beachten Sie beim Kopieren einer Aufgabe Folgendes:
 * Sie haben während des Kopiervorgangs die Möglichkeit, einige mit der Aufgabe verknüpfte Elemente in die kopierte Aufgabe zu kopieren. Standardmäßig werden die folgenden Objekte jedoch nicht an die kopierte Aufgabe übertragen:
    * Probleme
    * Protokollierte Stunden
-   * <!--not sure about this, enable only if requested by users and verified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. --> der Benutzerkommentare
+   * &#x200B;<!--not sure about this, enable only if requested by users and verified by Product: System activity comments transfer to the new task if they relate to information that you specifically select to be copied. For example, if you select to copy Expenses to the new task, system comments that identify adding expenses to the task will transfer to the copied task. --> der Benutzerkommentare
 * Die folgenden Elemente werden standardmäßig zur kopierten Aufgabe verschoben:
 
    * Meilensteine werden auf die kopierte Aufgabe übertragen und aus der ursprünglichen Aufgabe entfernt.
@@ -134,7 +144,7 @@ Beachten Sie beim Kopieren einer Aufgabe Folgendes:
 
    * Klicken Sie oben **der Aufgabenliste** das Menü „Mehr“ und dann auf **Kopieren nach**.
    * Klicken Sie mit der rechten Maustaste auf die ausgewählten Aufgaben und dann auf **Kopieren nach**.
-   * Klicken Sie bei der Auswahl einer Aufgabe auf das **Mehr** Menü ![Mehr Symbol in ](assets/more-icon-task-list.png) Aufgabenliste neben dem Aufgabennamen in der Liste und klicken Sie dann auf **Kopieren nach**.
+   * Klicken Sie bei der Auswahl einer Aufgabe auf das **Mehr** Menü ![Mehr Symbol in &#x200B;](assets/more-icon-task-list.png) Aufgabenliste neben dem Aufgabennamen in der Liste und klicken Sie dann auf **Kopieren nach**.
 
    ![Aufgabe in Liste kopieren](assets/copy-task-in-list-nwe-350x131.png)
 

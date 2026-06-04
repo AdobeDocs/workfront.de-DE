@@ -7,9 +7,12 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5d954537-5ee4-43b5-b1ab-d62433496e35
 TQID: https://experienceleague.adobe.com/aT7LstXDYaNh1acR5Zwzj4eNFiqKwDSL7iEWJaKGoDs
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 750
@@ -21,7 +24,7 @@ ht-degree: 1%
 
 Auf dieser Seite werden alle Agile-Verbesserungen beschrieben, die mit der Version 22.4 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 3. Oktober 2022 zur Verfügung gestellt.
 
-Eine Liste aller in Version 22.4 verfügbaren Änderungen finden Sie in der Übersicht über [ Version 22.4 ](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Eine Liste aller in Version 22.4 verfügbaren Änderungen finden Sie in der Übersicht über [&#x200B; Version 22.4 &#x200B;](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
 ## Auf Pinnwänden verfügbare Aufnahmespalte
 

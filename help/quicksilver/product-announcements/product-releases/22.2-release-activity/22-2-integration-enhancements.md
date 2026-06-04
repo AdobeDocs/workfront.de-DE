@@ -7,11 +7,18 @@ feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 5e841349-7d76-4ab9-9625-a0c53111bf35
 TQID: https://experienceleague.adobe.com/qTSusDr5AYmDf-RE0-w1bl0OR1vKEER6BwuxKFhCRYI
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: bbf3fe51-0066-4980-9062-f8005585ee10
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: bbf3fe51-0066-4980-9062-f8005585ee10
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 777
@@ -61,7 +68,7 @@ Weitere Informationen finden Sie unter Übersicht über den erweiterten Connecto
 
 >[!NOTE]
 >
->Für die Bereitstellung und Konfiguration dieses Connectors ist ein zertifizierter Partner erforderlich. Weitere Informationen finden [ unter „Installieren des erweiterten Connectors ](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install) Workfront für Experience Manager&quot;.
+>Für die Bereitstellung und Konfiguration dieses Connectors ist ein zertifizierter Partner erforderlich. Weitere Informationen finden [&#x200B; unter „Installieren des erweiterten Connectors &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install) Workfront für Experience Manager&quot;.
 
 ## Adobe Creative Cloud-Integrationen verwenden jetzt OAuth2
 

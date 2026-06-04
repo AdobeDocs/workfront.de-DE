@@ -7,11 +7,17 @@ author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
 TQID: https://experienceleague.adobe.com/R4sO92imTe1YBO0YGJIsuD5OOlhfbhlN-0qvyYU48t0
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 4595
@@ -235,7 +241,7 @@ Beachten Sie bei der Berechnung des geplanten Umsatzes auf der Grundlage mehrere
    * Eine manuelle Überschreibungsrate für das Aufgabengebiet in der Aufgabe
    * Die Quote für Projektaufgabengebiete, die von einer Tarifkarte oder von der Systemebene stammen kann.
 
-  Weitere Informationen dazu, welches Aufgabengebiet zur Berechnung des geplanten Umsatzes verwendet wird, finden Sie [ Abschnitt „Übersicht über Umsatz- und ](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)&quot; und [Umsatzberechnungen für Aufgaben basierend auf Benutzer- und ](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments)&quot; im Artikel [Übersicht über Abrechnung und Umsatz](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+  Weitere Informationen dazu, welches Aufgabengebiet zur Berechnung des geplanten Umsatzes verwendet wird, finden Sie [&#x200B; Abschnitt „Übersicht über Umsatz- und &#x200B;](/help/quicksilver/manage-work/projects/project-finances/overview-revenue-cost-hierarchy.md)&quot; und [Umsatzberechnungen für Aufgaben basierend auf Benutzer- und &#x200B;](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md#revenue-calculations-for-tasks-based-on-user-and-role-assignments)&quot; im Artikel [Übersicht über Abrechnung und Umsatz](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 * Bei Überschreibungen mehrerer Abrechnungssätze ändert sich der Satz, mit dem die geplanten Stunden multipliziert werden, während der Dauer einer Aufgabe. Standardmäßig verteilt Workfront die geplanten Stunden gleichmäßig auf die Dauer einer Aufgabe, wobei für jeden Aufgabentag die gleiche Anzahl von Stunden zugewiesen wird. Bei der Berechnung **Geplanter Umsatz** für eine Aufgabe multipliziert Workfront die geplante Stunde pro Tag mit dem Abrechnungssatz des Tages. Bei mehreren Abrechnungssätzen kann dieser Satz jeden Tag anders sein.
 
@@ -340,7 +346,7 @@ Beachten Sie bei der Berechnung des geplanten Umsatzes für Benutzer in verschie
 
 * Die **Geplanten Stunden** werden gleichmäßig über die **Dauer** der Aufgabe verteilt.
 
-* Die **Dauer** ist der Zeitraum zwischen dem **geplanten Start****Datum** und dem **geplanten Abschlussdatum** der Aufgabe. Da das **Geplantes Startdatum** und **Geplantes Abschlussdatum** der Aufgaben je nach Zeitzonen der Benutzer, die die Aufgabe angezeigt haben, unterschiedlich sein können, kann die Anzahl der geplanten Stunden pro Tag für zwei Benutzer in zwei verschiedenen Zeitzonen unterschiedlich sein.
+* Die **Dauer** ist der Zeitraum zwischen dem **geplanten Start**&#x200B;**Datum** und dem **geplanten Abschlussdatum** der Aufgabe. Da das **Geplantes Startdatum** und **Geplantes Abschlussdatum** der Aufgaben je nach Zeitzonen der Benutzer, die die Aufgabe angezeigt haben, unterschiedlich sein können, kann die Anzahl der geplanten Stunden pro Tag für zwei Benutzer in zwei verschiedenen Zeitzonen unterschiedlich sein.
 
 * Der Betrag der geplanten Stunden pro Tag ändert den geplanten Umsatz eines Projekts nicht, wenn der Abrechnungssatz des Aufgabengebiets nicht geändert wird oder wenn nur eine Überschreibung des Abrechnungssatzes erfolgt. Selbst wenn zwei Benutzer aus zwei verschiedenen Zeitzonen unterschiedliche geplante Stunden pro Tag sehen, sind die geplanten Gesamteinnahmen des Projekts zwischen den beiden Benutzern identisch.
 

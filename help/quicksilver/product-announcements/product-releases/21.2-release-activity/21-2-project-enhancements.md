@@ -9,11 +9,17 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4e954d79-da5a-42f5-b43f-b1fdd17316d2
 TQID: https://experienceleague.adobe.com/WvKzdm-PGGseRZDvHqDW7TxIeTflgx-XCv-rFaehbps
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1698
@@ -35,7 +41,7 @@ Im Rahmen der Neugestaltung der Felder Neu und Aufgabe bearbeiten haben wir die 
 
 Weitere Informationen finden Sie unter [Wiederkehrende Aufgaben erstellen](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md).
 
-Diese Funktion ist jetzt in Teil 2: [ eines Projekts, Lernpfad ](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Workfront One, „Grundlagen für die neue Workfront-Version“ enthalten.
+Diese Funktion ist jetzt in Teil 2: [&#x200B; eines Projekts, Lernpfad &#x200B;](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Workfront One, „Grundlagen für die neue Workfront-Version“ enthalten.
 
 ## Neue Schaltflächen in der Kopfzeile Projekte verfügbar
 

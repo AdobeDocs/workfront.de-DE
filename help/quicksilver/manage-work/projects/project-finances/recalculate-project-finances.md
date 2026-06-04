@@ -7,11 +7,17 @@ author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
 TQID: https://experienceleague.adobe.com/b3urO3jsw7wxvdDhpYHZqgf01ewJi0LvulUaQHlCYWY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1614
@@ -156,9 +162,9 @@ Wenn sich Ihre Sätze während der Laufzeit eines Projekts ändern und Ihre Kost
 
 Sie können die Finanzen von Projekten in Workfront auf der Projektseite oder in einer Projektliste oder einem Bericht neu berechnen.
 
-Sie können die Finanzen neu berechnen, während Sie sie stapelweise bearbeiten. Weitere Informationen finden Sie im Abschnitt [Manuelles Neuberechnen der Finanzen in ](#manually-recalculate-finances-in-bulk)) in diesem Artikel.
+Sie können die Finanzen neu berechnen, während Sie sie stapelweise bearbeiten. Weitere Informationen finden Sie im Abschnitt [Manuelles Neuberechnen der Finanzen in &#x200B;](#manually-recalculate-finances-in-bulk)) in diesem Artikel.
 
-1. Wechseln Sie zu dem Projekt, für das Sie die Finanzen neu berechnen möchten, und klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/qs-more-icon-on-an-object.png) rechts neben dem Projektnamen.
+1. Wechseln Sie zu dem Projekt, für das Sie die Finanzen neu berechnen möchten, und klicken Sie auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/qs-more-icon-on-an-object.png) rechts neben dem Projektnamen.
 
    ![Dropdown „Mehr“ auf Projektebene](assets/project-level-more-dropdown.png)
 
@@ -166,7 +172,7 @@ Sie können die Finanzen neu berechnen, während Sie sie stapelweise bearbeiten.
 
    Gehen Sie zu einer Projektliste oder einem Bericht, wählen Sie ein oder mehrere Projekte aus und klicken Sie dann oben in der Liste auf das **Mehr**-Symbol ![](assets/qs-more-icon-on-an-object.png)Mehr Menü).
 
-   ![Finanzen neu ](assets/recalculate-expressions-timeline-finance.png)
+   ![Finanzen neu &#x200B;](assets/recalculate-expressions-timeline-finance.png)
 
    >[!TIP]
    >
@@ -192,7 +198,7 @@ So berechnen Sie die Finanzen mehrerer Projekte manuell neu:
 1. Zu einer Projektliste gehen.
 1. Wählen Sie mehrere Projekte in der Liste aus und klicken Sie dann oben in der Liste auf **Mehr**-Symbol ![](assets/qs-more-icon-on-an-object.png)Mehr Menü).
 
-   ![Finanzen neu ](assets/recalculate-expressions-timeline-finance.png)
+   ![Finanzen neu &#x200B;](assets/recalculate-expressions-timeline-finance.png)
 
    >[!TIP]
    >

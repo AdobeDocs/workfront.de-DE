@@ -7,11 +7,20 @@ feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: fc85b4c2-4a76-4226-9120-11635b03aa4e
 TQID: https://experienceleague.adobe.com/K-UQvRju78bEQ99DvfIdJff9Hfvl-XbwCGQt0pXtUhQ
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: a29813d3-f0cc-4b60-9396-13b558370803id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1912
@@ -45,7 +54,7 @@ Diese Funktion wurde kürzlich für Projektvoreinstellungen sowie für Aufgaben-
 
 Informationen dazu, wie Workfront-Admins eine Arbeitszeittabelle und Stundeneinstellungen entsperren, finden Sie im Abschnitt [Arbeitszeittabelle und Stundeneinstellungen für Gruppen entsperren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) im Artikel [Arbeitszeittabelle und Stundeneinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-Informationen dazu, wie Gruppenadmins die Einstellungen für entsperrte Aufgaben und Probleme für eine Gruppe konfigurieren, finden [ unter „Arbeitszeittabelle und Stundeneinstellungen für eine Gruppe konfigurieren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+Informationen dazu, wie Gruppenadmins die Einstellungen für entsperrte Aufgaben und Probleme für eine Gruppe konfigurieren, finden [&#x200B; unter „Arbeitszeittabelle und Stundeneinstellungen für eine Gruppe konfigurieren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
 ## Neu für Workfront-Admins: Konfigurieren von Layout-Vorlagen für automatisch bereitgestellte Benutzende in der neuen Workfront-Version
 

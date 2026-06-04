@@ -8,11 +8,17 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 267757fb-a8ef-43cf-a93c-3ac59d8bb432
 TQID: https://experienceleague.adobe.com/E-knnp2lqfo7D45q9KtIRzazdBO-woliweMCHAl7Xww
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: b8ea32d4-f1fe-4c71-8871-afe5a702a009
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b8ea32d4-f1fe-4c71-8871-afe5a702a009
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 355
@@ -24,7 +30,7 @@ ht-degree: 15%
 
 Die folgenden Funktionen wurden der Workfront Classic-Produktionsumgebung vor der Veröffentlichung der Version 2020.1 in der Produktionsumgebung zur Verfügung gestellt.
 
-Informationen zum Veröffentlichungszeitrahmen und allen mit der Version 2020.1 verfügbaren Funktionen finden Sie unter [ der Version 2020.1 - Übersicht](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+Informationen zum Veröffentlichungszeitrahmen und allen mit der Version 2020.1 verfügbaren Funktionen finden Sie unter [&#x200B; der Version 2020.1 - Übersicht](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 

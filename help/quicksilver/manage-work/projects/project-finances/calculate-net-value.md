@@ -8,11 +8,16 @@ author: Lisa
 feature: Work Management
 exl-id: 44e3f211-c816-4ee1-aafc-c40fc8732f1a
 TQID: https://experienceleague.adobe.com/Bj8-Lz2cRE0HeMF7xGryTucaqddQW25DzyPpbzWQR94
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 402
@@ -52,7 +57,7 @@ Die folgenden Felder können sich auf den Nettowert eines Projekts auswirken:
 Den Nettowert für ein Projekt finden Sie in den folgenden Bereichen in Workfront:
 
 * Im Business Case-Zusammenfassungsbereich des Business Case\
-  Weitere Informationen zum Bereich „Zusammenfassung eines Business-Case“ finden Sie im Abschnitt „Grundlagen zur Zusammenfassung eines Business-Case“ im Artikel [Erstellen eines Business-Case für ](../../../manage-work/projects/define-a-business-case/create-business-case.md) Projekt[Erstellen eines Business-Case für ein Projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+  Weitere Informationen zum Bereich „Zusammenfassung eines Business-Case“ finden Sie im Abschnitt „Grundlagen zur Zusammenfassung eines Business-Case“ im Artikel [Erstellen eines Business-Case für &#x200B;](../../../manage-work/projects/define-a-business-case/create-business-case.md) Projekt[Erstellen eines Business-Case für ein Projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
   ![Nettowert im Business Case](assets/net-value-on-business-case-summary-highlighted-350x444.png)
 

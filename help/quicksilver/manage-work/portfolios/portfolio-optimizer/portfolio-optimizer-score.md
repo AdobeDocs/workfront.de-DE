@@ -3,16 +3,21 @@ content-type: overview
 product-area: portfolios
 navigation-topic: portfolio-optimizer
 title: Überblick über die Portfolio-Optimizer-Bewertung
-description: Den Portfolio Optimizer-Score finden Sie im Portfolio Optimizer. Er wird für jedes Projekt in [!UICONTROL  Spalte ]Score“ angezeigt. Dies stellt eine Bewertung für jedes Projekt im Portfolio dar.
+description: Den Portfolio Optimizer-Score finden Sie im Portfolio Optimizer. Er wird für jedes Projekt in [!UICONTROL &#x200B; Spalte &#x200B;]Score“ angezeigt. Dies stellt eine Bewertung für jedes Projekt im Portfolio dar.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 4451b1a3-57ae-4c66-a6a1-a85bd51a1648
 TQID: https://experienceleague.adobe.com/-DZAndwU0-o1YameaYjT9Bbv3AKkTHtffvdYvjtJwLs
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 737
@@ -20,7 +25,7 @@ ht-degree: 0%
 
 ---
 
-# Übersicht über die Bewertung von [!UICONTROL Portfolio ]Optimizer&#39;
+# Übersicht über die Bewertung von [!UICONTROL Portfolio &#x200B;]Optimizer&#39;
 
 <!--Audited: 01/2025-->
 
@@ -44,11 +49,11 @@ Der Ausrichtungswert eines Projekts wird in der Spalte **[!UICONTROL Ausrichtung
 
 Weitere Informationen zum Generieren der Ausrichtungsbewertung eines Projekts finden Sie im Artikel [Anwenden einer Scorecard auf ein Projekt und Generieren einer Ausrichtungsbewertung](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
-Der [!UICONTROL Portfolio-Optimizer]-Wert ist ein im [!UICONTROL Portfolio Optimizer} automatisch berechneter Rang] nach dem Projekte priorisiert werden können. Der Portfolio-Optimizer-Score wird als Indikatorsymbol zusammen mit einer Zahl angezeigt und in der Spalte **[!UICONTROL Score]** des [!UICONTROL Portfolio Optimizer] angezeigt.
+Der [!UICONTROL Portfolio-Optimizer]-Wert ist ein im [!UICONTROL Portfolio Optimizer&rbrace; automatisch berechneter Rang] nach dem Projekte priorisiert werden können. Der Portfolio-Optimizer-Score wird als Indikatorsymbol zusammen mit einer Zahl angezeigt und in der Spalte **[!UICONTROL Score]** des [!UICONTROL Portfolio Optimizer] angezeigt.
 
 >[!NOTE]
 >
->Ein Projekt kann in [!UICONTROL Portfolio Optimizer} nur bewertet ], wenn sein Business Case abgeschlossen wurde. Weitere Informationen zum Abschließen eines Business-Case finden Sie im Artikel [[!UICONTROL Erstellen eines Business-Case] für ein Projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+>Ein Projekt kann in [!UICONTROL Portfolio Optimizer&rbrace; nur bewertet &#x200B;], wenn sein Business Case abgeschlossen wurde. Weitere Informationen zum Abschließen eines Business-Case finden Sie im Artikel [[!UICONTROL Erstellen eines Business-Case] für ein Projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 ![Projektpunktzahl](assets/portfolio-optimizer-project-score-highlighted-350x132.png)
 
@@ -119,7 +124,7 @@ Score = Cost Score * Cost Weight + Alignment Score * Alignment Weight + ROI Scor
 
 Bei den Projektkosten und [!UICONTROL Risiko] funktioniert die Logik umgekehrt wie bei den anderen Kriterien: Wenn Sie möchten, dass Ihnen die [!UICONTROL niedrigen Kosten] wichtig sind, wird dies den Gesamtwert des Projekts nicht erhöhen, sondern um `Cost Score * Cost Weight` verringern.
 
-Nachdem Sie für jedes Projekt die Punktzahl berechnet haben[!UICONTROL  wird der ]Optimierungswert“ für die Projekte wie folgt definiert:
+Nachdem Sie für jedes Projekt die Punktzahl berechnet haben[!UICONTROL &#x200B; wird der &#x200B;]Optimierungswert“ für die Projekte wie folgt definiert:
 
 1. [!UICONTROL Minimum] und [!UICONTROL Maximum] werden definiert.
 1. Der Bereich zwischen diesen Werten wird berechnet.

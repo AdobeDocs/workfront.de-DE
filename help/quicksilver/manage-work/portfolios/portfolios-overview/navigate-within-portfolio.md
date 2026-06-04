@@ -9,11 +9,19 @@ exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/tPholEwp3lv7fadB0JvoUARL6G1xn19GpghaAb8LDHQ
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 660
@@ -114,7 +122,7 @@ Weitere Informationen zu Berechtigungen für Portfolios finden Sie unter [Freige
 Die folgenden Portfolioleistungsmetriken werden im Bereich [!UICONTROL Portfolio-Details] innerhalb eines Portfolios angezeigt:
 
    * Gibt an, ob das Portfolio [!UICONTROL rechtzeitig]
-   * Gibt an, ob das Portfolio &quot;[!UICONTROL  Budget“ ]
+   * Gibt an, ob das Portfolio &quot;[!UICONTROL &#x200B; Budget“ &#x200B;]
    * Die [!UICONTROL Rentabilität] (ROI)
    * Das Portfolio [!UICONTROL Ausrichtung]
    * Das Portfolio [!UICONTROL Nettowert]
@@ -139,12 +147,12 @@ Die folgenden Portfolioleistungsmetriken werden im Bereich [!UICONTROL Portfolio
      Weitere Informationen zum Erstellen von Filtern finden Sie unter [Filter - Übersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 
-1. Klicken Sie **[!UICONTROL linken Bedienfeld]**Programme“, um Programme innerhalb des Portfolios zu erstellen oder vorhandene zu verwalten.
-Informationen zu Programmen finden Sie im Abschnitt [Erstellen und Verwalten ](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md) Programmen“.
+1. Klicken Sie **[!UICONTROL linken Bedienfeld]**&#x200B;Programme“, um Programme innerhalb des Portfolios zu erstellen oder vorhandene zu verwalten.
+Informationen zu Programmen finden Sie im Abschnitt [Erstellen und Verwalten &#x200B;](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md) Programmen“.
 
 1. (Optional) Erweitern Sie den Bereich **[!UICONTROL Portfolio]** Details im linken Bereich und klicken Sie dann auf **[!UICONTROL Übersicht]** oder **[!UICONTROL Benutzerdefinierte Forms]**, um Informationen zum Portfolio zu bearbeiten.
 
-1. (Optional) Klicken Sie im linken ]**auf**[!UICONTROL  Portfolio-Optimierung, um die Leistung des Portfolios zu optimieren.
+1. (Optional) Klicken Sie im linken **auf** Portfolio-Optimierung, um die Leistung des Portfolios zu optimieren.
 
    ![Portfolio Optimizer mit Projekten](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
@@ -173,7 +181,7 @@ Informationen zu Programmen finden Sie im Abschnitt [Erstellen und Verwalten ](.
    >Weitere Informationen finden Sie unter [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
 1. (Optional) Klicken Sie **[!UICONTROL linken]** auf „Updates“, um dem Aktualisierungsverlauf des Portfolios Kommentare hinzuzufügen. Weitere Informationen finden Sie unter [Arbeit aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Optional) Klicken Sie auf das **[!UICONTROL Mehr] Menü** ![Mehr ](assets/qs-more-icon-on-an-object.png), um einen der folgenden Schritte auszuführen:
+1. (Optional) Klicken Sie auf das **[!UICONTROL Mehr] Menü** ![Mehr &#x200B;](assets/qs-more-icon-on-an-object.png), um einen der folgenden Schritte auszuführen:
 
    * Deaktivieren Sie das Portfolio. Wenn ein Portfolio deaktiviert ist, können Sie es nicht mehr mit Projekten auf Projektebene verknüpfen.
    * Löschen Sie das Portfolio.

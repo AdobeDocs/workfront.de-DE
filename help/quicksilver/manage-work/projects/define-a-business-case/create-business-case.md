@@ -6,11 +6,19 @@ author: Becky
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
 TQID: https://experienceleague.adobe.com/LqbRptv6SejiN1K5SsAHDKzXDbKCwFeFT9W1rPjRafo
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 783
@@ -109,14 +117,14 @@ Beachten Sie Folgendes, wenn Sie ein Projekt über einen Business Case anfordern
    >
    >Die hier angezeigten Informationen entsprechen den Informationen, die in den Tools für die Ressourcenbudgetierung auf Systemebene angezeigt werden.
 
-1. (Optional) Klicken Sie auf **Risiken bearbeiten**, um diesem Projekt potenzielle Risiken hinzuzufügen. Informationen zum Hinzufügen von Risiken zum Business-Case finden Sie [ Abschnitt ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#risks)Risiken“ im Artikel [Überblick über die Bereiche des Business-Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
-1. (Optional) Wählen Sie im Dropdown **** Menü **Eine Scorecard zu diesem Projekt hinzufügen** eine Scorecard aus.
+1. (Optional) Klicken Sie auf **Risiken bearbeiten**, um diesem Projekt potenzielle Risiken hinzuzufügen. Informationen zum Hinzufügen von Risiken zum Business-Case finden Sie [&#x200B; Abschnitt &#x200B;](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#risks)Risiken“ im Artikel [Überblick über die Bereiche des Business-Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
+1. (Optional) Wählen Sie im Dropdown **&#x200B;**&#x200B;Menü **Eine Scorecard zu diesem Projekt hinzufügen** eine Scorecard aus.
 
    Scorecards müssen erstellt werden, bevor sie mit Projekten verbunden werden können.
 
    Weitere Informationen zu Scorecards finden Sie im Artikel [Anwenden einer Scorecard auf ein Projekt und Generieren eines Alignment-Scorecards](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
-1. (Optional) Wählen Sie im Dropdown **** Menü **Benutzerdefinierte Forms** ein benutzerdefiniertes Formular aus.
+1. (Optional) Wählen Sie im Dropdown **&#x200B;**&#x200B;Menü **Benutzerdefinierte Forms** ein benutzerdefiniertes Formular aus.
 
    Benutzerdefinierte Forms muss erstellt werden, bevor sie an Projekte angehängt werden können.
 

@@ -9,11 +9,17 @@ exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/v1IRcsFil5-ba26LoUX6IgD5gG-9h2344Tfs-qRvvPU
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1101
@@ -162,7 +168,7 @@ Old:
 
 * Ein globaler Datensatztyp, der anderen Arbeitsbereichen hinzugefügt wurde, kann nicht gelöscht werden.
 
-  Weitere Informationen finden Sie im Abschnitt [Löschen globaler ](#delete-global-record-types)) in diesem Artikel.
+  Weitere Informationen finden Sie im Abschnitt [Löschen globaler &#x200B;](#delete-global-record-types)) in diesem Artikel.
 
 ## Löschen von Eintragstypen
 
@@ -219,7 +225,7 @@ Alle Datensätze und Felder werden ebenfalls gelöscht und können nicht wiederh
    * Wenn der Datensatztyp nicht zu einem sekundären Arbeitsbereich hinzugefügt wurde, klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) auf der Karte des Datensatztyps oder rechts neben dem Namen des Datensatztyps auf seiner Seite und klicken Sie dann auf **Löschen**.
    * Wenn der Datensatztyp mindestens einem anderen sekundären Arbeitsbereich hinzugefügt wurde, wechseln Sie zunächst zum sekundären Arbeitsbereich und löschen Sie den globalen Datensatz aus diesem Bereich.
 
-     Weitere Informationen finden Sie im Abschnitt [Löschen eines globalen Datensatztyps aus einem sekundären ](#delete-a-global-record-type-from-a-secondary-workspace)) in diesem Artikel.
+     Weitere Informationen finden Sie im Abschnitt [Löschen eines globalen Datensatztyps aus einem sekundären &#x200B;](#delete-a-global-record-type-from-a-secondary-workspace)) in diesem Artikel.
 
 1. (Bedingt) Löschen Sie den Datensatztyp weiter, wie im Abschnitt [Löschen von Datensatztypen](#delete-record-types-1) in diesem Artikel beschrieben.
 

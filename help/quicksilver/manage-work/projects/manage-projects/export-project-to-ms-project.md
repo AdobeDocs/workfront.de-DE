@@ -9,11 +9,17 @@ exl-id: 3f0f3644-a763-4b72-a93a-85af8626b5b3
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/bVuEXWVZ9EuYcuSYYgKwiKFCLqOmrqUkuxnGFlOVeh4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 244
@@ -99,13 +105,13 @@ Old:
 
 Sie können ein Projekt aus Workfront über die Projektseite oder aus einer Projektliste oder einem Bericht exportieren.
 
-1. Gehen Sie zu dem Projekt, das Sie exportieren möchten, und klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/qs-more-menu.png) rechts neben dem Projektnamen
+1. Gehen Sie zu dem Projekt, das Sie exportieren möchten, und klicken Sie auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/qs-more-menu.png) rechts neben dem Projektnamen
 
    ![Dropdown „Mehr“](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    ODER
 
-   Gehen Sie zu einer Projektliste oder einem Bericht und wählen Sie ein Projekt aus, und klicken Sie dann oben in der Liste ![ das Symbol Mehr ](assets/qs-more-menu.png)Mehr Menü).
+   Gehen Sie zu einer Projektliste oder einem Bericht und wählen Sie ein Projekt aus, und klicken Sie dann oben in der Liste ![&#x200B; das Symbol Mehr &#x200B;](assets/qs-more-menu.png)Mehr Menü).
 
    ![Mehr Menü erweitert](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 

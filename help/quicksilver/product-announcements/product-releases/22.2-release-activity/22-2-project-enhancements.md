@@ -7,9 +7,12 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 43ea91db-d6f2-4218-9261-580a7e5b31d0
 TQID: https://experienceleague.adobe.com/hREqbBqRZmf8J3FS6PUwtgkfb3ZTyfcdeWZCZUvBRyY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1099
@@ -116,7 +119,7 @@ Wir haben ein neues Menü Mehr in Projektlisten und Berichten hinzugefügt, dami
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
 * [Projektzeitleisten neu berechnen](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md)
-* [Projektfinanzen neu ](../../../manage-work/projects/project-finances/recalculate-project-finances.md)
+* [Projektfinanzen neu &#x200B;](../../../manage-work/projects/project-finances/recalculate-project-finances.md)
 * [Informationen in benutzerdefinierten Formularfeldern bearbeiten](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)
 * [Vorlage an ein Projekt anhängen](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md)
 * [Exportieren eines Projekts in das Microsoft-Projekt](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md)

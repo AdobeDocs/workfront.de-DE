@@ -8,11 +8,20 @@ author: Alina
 feature: Work Management
 exl-id: 0b86c760-691a-436e-9beb-31e9ac36440a
 TQID: https://experienceleague.adobe.com/L8Z7JFYj68n3f5ErCcj43KszgDbB3bKAsVCutD-oMow
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: c33d85a1-be85-4290-854c-87408c10aa80id: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2815
@@ -34,7 +43,7 @@ Die mit einer Aufgabe, einem Problem oder einem Projekt verknüpften geplanten S
 * Wenn Sie die Ressourcenverwaltungstools in Workfront verwenden möchten, müssen Sie den Wert der geplanten Stunden für Aufgaben und Probleme definieren.
 * Sie können den Wert der geplanten Stunden für Aufgaben nur für einige Dauertypen ändern.
 
-  Weitere Informationen zur Änderung der geplanten Stunden für Aufgaben in Bezug auf den Dauertyp der Aufgaben finden Sie im Abschnitt [Aktualisieren der geplanten Stunden für Aufgaben basierend auf dem ](#update-task-planned-hours-based-on-duration-type)) in diesem Artikel.
+  Weitere Informationen zur Änderung der geplanten Stunden für Aufgaben in Bezug auf den Dauertyp der Aufgaben finden Sie im Abschnitt [Aktualisieren der geplanten Stunden für Aufgaben basierend auf dem &#x200B;](#update-task-planned-hours-based-on-duration-type)) in diesem Artikel.
 
 * Sie können den Wert der geplanten Stunden für Probleme jederzeit ändern.
 * Der Wert der geplanten Stunden von Projekten oder übergeordneten Aufgaben kann nicht geändert werden, da es sich um die berechnete Summe aller geplanten Stunden aller zugehörigen Aufgaben und Teilaufgaben handelt.
@@ -103,7 +112,7 @@ Geplante Stunden finden Sie in den folgenden Bereichen von Workfront:
 
 Die geplanten Stunden im Abschnitt „Details“ einer Aufgabe, eines Problems oder Projekts sind die geplanten Gesamtstunden, die mit dem Element verknüpft sind.
 
-Weitere Informationen zu den geplanten Stunden für das Projekt finden Sie [ Abschnitt „Geplante Stunden für Aufgaben vs. Geplante Stunden für Projekte](#planned-hours-on-tasks-vs-planned-hours-on-projects) in diesem Artikel.
+Weitere Informationen zu den geplanten Stunden für das Projekt finden Sie [&#x200B; Abschnitt „Geplante Stunden für Aufgaben vs. Geplante Stunden für Projekte](#planned-hours-on-tasks-vs-planned-hours-on-projects) in diesem Artikel.
 
 ### Das Feld „Aufgabe bearbeiten“ oder „Problem bearbeiten“ {#the-edit-task-or-edit-issue-box}
 
@@ -111,9 +120,9 @@ Weitere Informationen zu den geplanten Stunden für das Projekt finden Sie [ Abs
 
 Die geplanten Stunden im Feld „Bearbeiten“ einer Aufgabe oder eines Problems entsprechen den geplanten Gesamtstunden des jeweiligen Elements.
 
-Weitere Informationen zu den geplanten Stunden für das Projekt finden Sie [ Abschnitt „Geplante Stunden für Aufgaben vs. Geplante Stunden für Projekte](#planned-hours-on-tasks-vs-planned-hours-on-projects) in diesem Artikel.
+Weitere Informationen zu den geplanten Stunden für das Projekt finden Sie [&#x200B; Abschnitt „Geplante Stunden für Aufgaben vs. Geplante Stunden für Projekte](#planned-hours-on-tasks-vs-planned-hours-on-projects) in diesem Artikel.
 
-Bei Aufgaben können Sie die Anzahl der geplanten Stunden nur für bestimmte Dauertypen bearbeiten. Weitere Informationen finden Sie im Abschnitt [Aktualisieren der geplanten Stunden auf der Grundlage ](#update-task-planned-hours-based-on-duration-type) Dauertyps“ in diesem Artikel.
+Bei Aufgaben können Sie die Anzahl der geplanten Stunden nur für bestimmte Dauertypen bearbeiten. Weitere Informationen finden Sie im Abschnitt [Aktualisieren der geplanten Stunden auf der Grundlage &#x200B;](#update-task-planned-hours-based-on-duration-type) Dauertyps“ in diesem Artikel.
 
 Sie können die individuelle Zuordnung der geplanten Stunden für jeden Benutzer oder jedes Aufgabengebiet anzeigen, der bzw. das der Aufgabe oder dem Problem im Bereich „Zuweisungen“ zugewiesen wurde.
 
@@ -220,7 +229,7 @@ Die „Geplante Stunden“ im Bedienfeld „Rollenzuweisung“ stellen die Anzah
 >
 >Beachten Sie, dass die mit Benutzenden verknüpften geplanten Stunden nicht im Bedienfeld „Rollenzuweisung“ angezeigt werden.
 
-Weitere Informationen finden Sie unter &quot;[ für Projekte und Initiativen anzeigen“ im Workload-Balancer](../../../scenario-planner/show-role-allocation-workload-balancer.md).
+Weitere Informationen finden Sie unter &quot;[&#x200B; für Projekte und Initiativen anzeigen“ im Workload-Balancer](../../../scenario-planner/show-role-allocation-workload-balancer.md).
 
 ## Geplante Stunden für Aufgabe basierend auf Dauertyp aktualisieren {#update-task-planned-hours-based-on-duration-type}
 

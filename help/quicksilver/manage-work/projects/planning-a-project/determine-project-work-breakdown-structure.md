@@ -7,11 +7,21 @@ author: Alina
 feature: Work Management
 exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
 TQID: https://experienceleague.adobe.com/iXd6BCTr1Cbysf-mamayrLzIm8v8WEt-clVZ05NC7MA
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
 source-wordcount: 1755
@@ -63,7 +73,7 @@ Um PSP-Ergebnisse und -Ergebnisse in Workfront zu definieren, empfehlen wir die 
   Informationen zum Erstellen von Meilensteinaufgaben finden Sie in den Artikeln [Erstellen eines Meilensteinpfads](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) und [Zuordnen von Meilensteinen zu Aufgaben](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
 * Schlüsseln Sie die Aufgaben mit einem zu großen Bereich in Teilaufgaben auf. Verknüpfen Sie sie mit dem übergeordneten Element, das Ihre Leistung definiert .\
-  Informationen zum Erstellen von Teilaufgaben finden Sie im Artikel [Erstellen von ](../../../manage-work/tasks/create-tasks/create-subtasks.md)&quot;.
+  Informationen zum Erstellen von Teilaufgaben finden Sie im Artikel [Erstellen von &#x200B;](../../../manage-work/tasks/create-tasks/create-subtasks.md)&quot;.
 
 * Identifizieren Sie Abhängigkeitsbeziehungen zwischen Teilaufgaben und zwischen Meilensteinen.\
   In einer Abhängigkeitsbeziehung hängt der Beginn einer Aufgabe vom Abschluss einer anderen Aufgabe oder einer Gruppe von Aufgaben ab.\
@@ -86,7 +96,7 @@ Beachten Sie Folgendes:
 
   Da es sich bei der Dauer um eine Schätzung handelt, stellen Sie sicher, dass Sie optimistische Zeitwerte festlegen, um Faktoren zu berücksichtigen, die sich auf die Aufgabe auswirken können, z. B. Wetter, Stromausfälle, Lieferantenschwierigkeiten oder andere unvorhergesehene Ereignisse. Überlegen Sie außerdem, ob es Vorgänger- oder Abhängigkeitsaufgaben gibt und wie diese Einschränkungen für die Arbeit verursachen und sich auf den Abschluss von Aufgaben auswirken können.
 
-  Je nach Dauertyp der Aufgabe können Sie die Dauer einer Aufgabe während der Lebensdauer eines Projekts ändern. Dies wirkt sich jedoch auch auf die Zeitleiste des Projekts aus. Informationen zur Dauer einer Aufgabe finden Sie im Artikel [Übersicht über die Aufgabendauer und den ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) .
+  Je nach Dauertyp der Aufgabe können Sie die Dauer einer Aufgabe während der Lebensdauer eines Projekts ändern. Dies wirkt sich jedoch auch auf die Zeitleiste des Projekts aus. Informationen zur Dauer einer Aufgabe finden Sie im Artikel [Übersicht über die Aufgabendauer und den &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) .
 
 ## Zuweisen von Aufgaben
 

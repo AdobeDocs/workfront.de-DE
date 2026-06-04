@@ -8,11 +8,26 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d25fda7-8116-42ba-961b-12aed4678614
 TQID: https://experienceleague.adobe.com/VfnZ55ge62fYOUITajcdR8S4pqHyPzri5QoUDEZUv2s
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b18b693b-6d59-4359-95fd-a386b7a615feid: c33d85a1-be85-4290-854c-87408c10aa80id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d3382524-5489-431b-bde9-271ab257bc37id: d83a421c-ecb9-4757-b609-c531392f90ebid: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: fceb5125-bb41-419a-b0db-31958cb42f6c
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d83a421c-ecb9-4757-b609-c531392f90eb
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 3985
@@ -157,32 +172,32 @@ Die Version 2020.3 enthält die folgenden Verbesserungen für alle Benutzer:
 >Sie müssen über Folgendes verfügen:
 >
 ><table style="table-layout:auto"> 
-&gt; <col> 
-&gt; <col> 
-&gt; <tbody> 
-&gt;  <tr> 
-&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Workfront-Plan</a>*</p> </td> 
-&gt;   <td>Unternehmen oder höher</td> 
-&gt;  </tr> 
-&gt;  <tr> 
-&gt;   <td role="rowheader"> <p>Lizenztyp*</p> </td> 
-&gt;   <td> <p>Überprüfen Sie oder höher. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Übersicht über Adobe Workfront-Lizenzen</a>.</p> </td> 
-&gt;  </tr> 
-&gt;  <tr> 
-&gt;   <td role="rowheader">Produkt</td> 
-&gt;   <td>Workfront-Szenarienplaner <p>Weitere Informationen zum Workfront-Szenarienplaner finden Sie unter <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Überblick über den Szenarienplaner</a>.</p> </td> 
-&gt;  </tr> 
-&gt;  <tr data-mc-conditions=""> 
-&gt;   <td role="rowheader"><strong>Zugriffsebene*</strong> </td> 
-&gt;   <td> <p>Anzeigen des Zugriffs auf den Szenario-Planer oder höher</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
-&gt;  </tr> 
-&gt;  <tr data-mc-conditions=""> 
-&gt;   <td role="rowheader"> <p><strong>Objektberechtigungen</strong> </p> </td> 
-&gt;   <td> <p>Anzeigen von Berechtigungen oder höher für einen Plan</p> <p>Informationen zum Anfordern zusätzlichen Zugriffs auf einen Plan finden Sie unter <a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">Anfordern des Zugriffs auf einen Plan im Szenario-Planer</a>.</p> </td> 
-&gt;  </tr> 
-&gt; </tbody> 
-&gt;</table>
-&gt;*Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+>&gt; <col> 
+>&gt; <col> 
+>&gt; <tbody> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Workfront-Plan</a>*</p> </td> 
+>&gt;   <td>Unternehmen oder höher</td> 
+>&gt;  </tr> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader"> <p>Lizenztyp*</p> </td> 
+>&gt;   <td> <p>Überprüfen Sie oder höher. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Übersicht über Adobe Workfront-Lizenzen</a>.</p> </td> 
+>&gt;  </tr> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader">Produkt</td> 
+>&gt;   <td>Workfront-Szenarienplaner <p>Weitere Informationen zum Workfront-Szenarienplaner finden Sie unter <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Überblick über den Szenarienplaner</a>.</p> </td> 
+>&gt;  </tr> 
+>&gt;  <tr data-mc-conditions=""> 
+>&gt;   <td role="rowheader"><strong>Zugriffsebene*</strong> </td> 
+>&gt;   <td> <p>Anzeigen des Zugriffs auf den Szenario-Planer oder höher</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+>&gt;  </tr> 
+>&gt;  <tr data-mc-conditions=""> 
+>&gt;   <td role="rowheader"> <p><strong>Objektberechtigungen</strong> </p> </td> 
+>&gt;   <td> <p>Anzeigen von Berechtigungen oder höher für einen Plan</p> <p>Informationen zum Anfordern zusätzlichen Zugriffs auf einen Plan finden Sie unter <a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">Anfordern des Zugriffs auf einen Plan im Szenario-Planer</a>.</p> </td> 
+>&gt;  </tr> 
+>&gt; </tbody> 
+>&gt;</table>
+>&gt;*Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
  
 

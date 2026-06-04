@@ -11,11 +11,18 @@ exl-id: 4048f8b5-70e2-4d63-ae64-a4fbf91a57df
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/YwQRzexSfJWorc-GxqUoGQsMyb40xxW-X4N5j09Zo-w
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2: id: a29813d3-f0cc-4b60-9396-13b558370803id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1397
@@ -39,7 +46,7 @@ Informationen zur Zugriffsebene „Plan“ finden Sie unter [Zugriff auf Projekt
 
 Informationen zum Kopieren eines Projekts finden Sie unter [Kopieren eines Projekts](../../../manage-work/projects/manage-projects/copy-project.md).
 
-Diese Funktion ist jetzt in den [Administratorgrundlagen in der neuen Workfront-Version, Teil 1: Benutzerorganisation, Lernpfad ](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
+Diese Funktion ist jetzt in den [Administratorgrundlagen in der neuen Workfront-Version, Teil 1: Benutzerorganisation, Lernpfad &#x200B;](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
 
 ## Wählen Sie in einem benutzerdefinierten Formular für ein Objekt alle Elemente in einem Dropdown-Feld mit Mehrfachauswahl aus
 
@@ -71,7 +78,7 @@ Adobe Workfront-Administratoren können Gruppenadministratoren nun mehr Autonomi
 
 Weitere Informationen finden Sie unter [Konfigurieren von Aufgaben- und Problemeinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-Diese Funktion ist jetzt in den Administrator[Grundlagen der neuen Workfront-Version, Teil 2: Projekteinrichtung, Lernpfad ](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
+Diese Funktion ist jetzt in den Administrator[Grundlagen der neuen Workfront-Version, Teil 2: Projekteinrichtung, Lernpfad &#x200B;](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
 
 ## Zugriffsebenen-Einstellungen für Portfolios und Programme separat konfigurieren
 
@@ -83,7 +90,7 @@ Informationen zum Konfigurieren einer Zugriffsebene finden Sie unter [Erstellen 
 
 Informationen zu den Zugriffseinstellungen, die Sie für Programme und Portfolios konfigurieren können, finden Sie unter [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-Diese Funktion ist jetzt in den [Administratorgrundlagen in der neuen Workfront-Version, Teil 1: Benutzerorganisation, Lernpfad ](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
+Diese Funktion ist jetzt in den [Administratorgrundlagen in der neuen Workfront-Version, Teil 1: Benutzerorganisation, Lernpfad &#x200B;](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
 
 ## Aktivieren aller Kontrollkästchen in einer Reihe beim Bearbeiten von Informationen in einem benutzerdefinierten Formular
 
@@ -106,7 +113,7 @@ Um Ihre Daten besser zu schützen, können Sie jetzt eine E-Mail-Domain-Zulassun
 
 Wenn Sie beispielsweise sensible Daten schützen möchten, z. B. einen Bericht, in dem Ihre gefährdeten Kunden aufgeführt sind, können Sie nur Ihre interne E-Mail-Domain oder Ihre Domains in die E-Mail-Zulassungsliste einbeziehen. Auf diese Weise können Benutzende diesen Bericht (oder einen anderen Workfront-Bericht) nicht an eine externe E-Mail-Adresse senden.
 
-Weitere Informationen finden Sie im Abschnitt [Konfigurieren der Firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md#configur) im Artikel [Konfigurieren der Firewall-Zulassungsliste ](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Weitere Informationen finden Sie im Abschnitt [Konfigurieren der Firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md#configur) im Artikel [Konfigurieren der Firewall-Zulassungsliste &#x200B;](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## Zuweisen eines Gruppenadministrators für eine Untergruppe
 
@@ -116,7 +123,7 @@ Zuvor konnte nur eine Gruppe auf oberster Ebene Gruppenadministratoren haben, un
 
 Weitere Informationen finden Sie im Abschnitt [Gruppenadministratoren für Untergruppen](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md#for) im Artikel [Untergruppen - Übersicht](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
-Diese Funktion ist jetzt in den [Administratorgrundlagen in der neuen Workfront-Version, Teil 1: Benutzerorganisation, Lernpfad ](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
+Diese Funktion ist jetzt in den [Administratorgrundlagen in der neuen Workfront-Version, Teil 1: Benutzerorganisation, Lernpfad &#x200B;](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
 
 ## Konfigurieren von Ereignisbenachrichtigungen für Gruppen
 
