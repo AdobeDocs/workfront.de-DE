@@ -9,19 +9,14 @@ exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/uUnIDCZ1-906MSz5B8La-9cu0k4pabUarBuUE9t8zhw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
 workflow-type: tm+mt
-source-wordcount: 876
+source-wordcount: 846
 ht-degree: 2%
 
 ---
@@ -72,13 +67,7 @@ Im rechten Bereich eines Datensatzes werden die folgenden Abschnitte angezeigt:
    <td>   <p>Anzeigen oder Erweitern von Berechtigungen für einen Arbeitsbereich, einen Datensatztyp und <span class="preview">Datensatz</span></p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p> </td> 
   </tr> 
-  </tr> 
-  <tr>
-   <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> Benutzenden mit einer Light- oder Contributor-Lizenz muss eine Layout-Vorlage zugewiesen werden, die Planning enthält.
-   <p>Für Standardbenutzer und Systemadministratoren sind die Planungsbereiche standardmäßig aktiviert.</p></div></li></ul>
-</td>
-  </tr>  
+  </tr>   
 </tbody> 
 </table>
 
@@ -215,7 +204,7 @@ Die Seite „Datensatztyp“ wird geöffnet und alle Datensätze dieses Typs wer
 
    Weitere Informationen zum Aktualisieren von Objekten, einschließlich Workfront-Planungsdatensätzen, finden Sie unter [Arbeit aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Optional) Klicken Sie auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/more-menu.png) oben rechts im Kommentar und dann auf **Löschen**, um den Kommentar zu löschen.
+1. (Optional) Klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/more-menu.png) oben rechts im Kommentar und dann auf **Löschen**, um den Kommentar zu löschen.
 1. (Optional) Klicken Sie auf das Symbol **Kommentare ausblenden** ![Symbol „Kommentare ausblenden](assets/hide-comments-icon.png), um das rechte Bedienfeld zu schließen.
 
 <!--

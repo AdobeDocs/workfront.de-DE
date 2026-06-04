@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: fe952ab2c08d2fd45381614618686da201decd0e
+source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1447'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ Sie können einen Datensatztyp für andere freigeben, um die Zusammenarbeit beim
 >Bei der Freigabe von Ansichten erhalten Benutzende keine Berechtigungen für Datensatztypen. Nur freigegebene Arbeitsbereiche können Benutzern Berechtigungen für Datensatztypen erteilen.
 >
 >* Allgemeine Informationen zum Freigeben von Objekten in Workfront Planning finden Sie auch unter [Übersicht über Freigabeberechtigungen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
->* Weitere Informationen finden Sie im Abschnitt [Überlegungen bei der Freigabe &#x200B;](#considerations-when-sharing-record-types) Datensatztypen“ in diesem Artikel.
+>* Weitere Informationen finden Sie im Abschnitt [Überlegungen bei der Freigabe ](#considerations-when-sharing-record-types) Datensatztypen“ in diesem Artikel.
 
 ## Zugriffsanforderungen
 
@@ -72,14 +72,6 @@ ODER
    <p><b>WICHTIG</b></p>
    <p>Nur Benutzer mit der Berechtigung Verwalten für einen Arbeitsbereich können die Berechtigung Verwalten für einen Datensatztyp freigeben.</p></td> 
   </tr>
-<tr>
-   <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> Benutzenden mit einer Light- oder Contributor-Lizenz muss eine Layout-Vorlage zugewiesen werden, die Planning enthält.
-   <p>Für Standardbenutzer und Systemadministratoren sind die Planungsbereiche standardmäßig aktiviert.</p></div></li></ul>
-
-</td>
-  </tr>
-
 </tbody> 
 </table>
 
