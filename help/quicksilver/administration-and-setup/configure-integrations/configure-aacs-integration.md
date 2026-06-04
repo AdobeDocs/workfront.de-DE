@@ -6,11 +6,17 @@ description: Sie können Ihre Arbeit mit Ihren Inhalten in  [!DNL Experience Man
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/URGZIZPNbkj-wshinxLbaj2AFhWtXG-KPvNyz-5mkcw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: 1733
 ht-degree: 2%
 
 ---
@@ -100,7 +106,7 @@ Bevor Sie beginnen,
 
 1. Wählen **[!UICONTROL Integration [!DNL Experience Manager] hinzufügen]**.
 1. Geben Sie im Feld **[!UICONTROL Name]** den Namen ein, den Benutzer sehen sollen, wenn sie mit dieser Integration in Workfront und Experience Manager Assets interagieren.
-1. Im Feld **[!UICONTROL Navigations-URL]** füllt das System automatisch die Navigations-URL. Diese schreibgeschützte URL wird verwendet, um über das Hauptmenü eine Verknüpfung mit der [!DNL Experience Manager]-Instanz Ihrer Organisation [!UICONTROL &#x200B; erstellen] um Schnellzugriff zu erhalten.
+1. Im Feld **[!UICONTROL Navigations-URL]** füllt das System automatisch die Navigations-URL. Diese schreibgeschützte URL wird verwendet, um über das Hauptmenü eine Verknüpfung mit der [!DNL Experience Manager]-Instanz Ihrer Organisation [!UICONTROL  erstellen] um Schnellzugriff zu erhalten.
 1. Wählen Sie ein Repository aus dem Dropdown-Menü **[!UICONTROL [!DNL Experience Manager]Assets]** Repository aus. Das System füllt automatisch alle [!DNL Experience Manager]-Repositorys, die mit der Organisations-ID verknüpft sind, der Ihr Benutzerprofil zugewiesen ist.
    ![Wählen Sie das Experience Manager-Repository](assets/setup-information.png)
 
@@ -124,7 +130,7 @@ Bevor Sie mit der Zuordnung von Metadatenfeldern beginnen, müssen Sie Metadaten
 
 So konfigurieren Sie Metadatenfelder:
 
-1. Konfigurieren Sie ein Metadatenschema in [!DNL Experience Manager Assets], wie unter [Konfigurieren der Asset-Metadatenzuordnung zwischen Adobe  [!DNL Workfront]  und  [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+1. Konfigurieren Sie ein Metadatenschema in [!DNL Experience Manager Assets], wie unter [Konfigurieren der Asset-Metadatenzuordnung zwischen Adobe  [!DNL Workfront]  und  [!DNL Experience Manager Assets]](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. Konfigurieren von benutzerdefinierten Formularfeldern in Workfront. [!DNL Workfront] verfügt über viele integrierte benutzerdefinierte Felder, die Sie verwenden können. Sie können jedoch auch eigene benutzerdefinierte Felder erstellen, wie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) beschrieben.
@@ -154,7 +160,7 @@ Sie können jedes von Workfront unterstützte Feld einem Tag in Experience Manag
 
 Nachdem Sie die Tags in Experience Manager Assets erstellt haben, werden sie unter der Dropdown-Liste „Tags“ im Abschnitt „Metadaten“ angezeigt. Um ein Feld mit einem Tag zu verknüpfen, wählen Sie `xcm:keywords` in der Dropdown-Liste Experience Manager Assets-Feld im Bereich für die Metadatenzuordnung aus.
 
-Weitere Informationen zu Tags in Experience Manager Assets, einschließlich der Erstellung und Verwaltung von Tags, finden Sie unter [Verwalten von Tags](https://experienceleague.adobe.com/de/docs/experience-manager-64/administering/contentmanagement/tags).
+Weitere Informationen zu Tags in Experience Manager Assets, einschließlich der Erstellung und Verwaltung von Tags, finden Sie unter [Verwalten von Tags](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags).
 
 **Benutzerdefinierte Experience Manager Assets-Metadatenschemafelder**
 
@@ -193,11 +199,11 @@ Zuordnen von Metadaten für Assets:
 <!--
 1. Select **[!UICONTROL Assets]** above the metadata table.
 -->
-1. Wählen Sie in der **[!UICONTROL [!DNL Workfront]&quot;]**&quot; ein integriertes oder ein benutzerdefiniertes Workfront-Feld aus.
+1. Wählen Sie in der ]**&quot;**[!UICONTROL [!DNL Workfront]&quot; ein integriertes oder ein benutzerdefiniertes Workfront-Feld aus.
 
    >[!NOTE]
    >
-   >Sie können ein einzelnes [!DNL Workfront] mehreren [!UICONTROL Experience Manager Assets-Feldern &#x200B;]. Sie können nicht mehrere [!DNL Workfront] einem einzelnen [!DNL Experience Manager Assets] zuordnen.
+   >Sie können ein einzelnes [!DNL Workfront] mehreren [!UICONTROL Experience Manager Assets-Feldern ]. Sie können nicht mehrere [!DNL Workfront] einem einzelnen [!DNL Experience Manager Assets] zuordnen.
    ><!--To map a Workfront field to an Experience Manager Assets tag, see -->
 
 1. Suchen Sie im Feld [!DNL Experience Manager Assets] nach den vorausgefüllten Kategorien oder geben Sie mindestens zwei Buchstaben in das Suchfeld ein, um auf zusätzliche Kategorien zuzugreifen.
@@ -267,7 +273,7 @@ Sie können pro Ordnerstruktur bis zu 100 verknüpfte Ordner erstellen.
 1. Wählen Sie einen Ordnerpfad aus, um anzugeben, wo alle verknüpften Ordner mit dieser Integration sein sollen.
 1. (Bedingt) Gehen Sie wie folgt vor, um dieser Integration eine Ordnerstruktur (verschachtelte Ordner) hinzuzufügen:
 
-   1. Klicken Sie auf **Symbol** Ordner hinzufügen![&#x200B; (Ordner hinzufügen](assets/add-folder-aem.png).
+   1. Klicken Sie auf **Symbol** Ordner hinzufügen![ (Ordner hinzufügen](assets/add-folder-aem.png).
    1. Wählen Sie im Feld **Name** aus, wie Sie den Ordner benennen möchten:
 
       * **Name**: Geben Sie einen Namen für den Ordner ein.
@@ -281,7 +287,7 @@ Sie können pro Ordnerstruktur bis zu 100 verknüpfte Ordner erstellen.
       >   `/`, `:`, `[`, `]`, `|`, `*`
 
    1. Um einen verschachtelten Ordner zur Ordnerstruktur hinzuzufügen, klicken Sie auf das Dreipunkt-Menü neben dem Ordner, in dem Sie einen verschachtelten Ordner erstellen möchten, und wählen Sie **Ordner hinzufügen**. Füllen Sie die Felder wie im vorherigen Schritt beschrieben aus.
-   1. Um einen Ordner mit Workfront zu verknüpfen, wählen Sie den Ordner aus und klicken Sie auf **Verknüpften Ordner erstellen**   Symbol ![Verknüpfungsordner](assets/link-folder.png).
+   1. Um einen Ordner mit Workfront zu verknüpfen, wählen Sie den Ordner aus und klicken Sie auf das **Verknüpften Ordner erstellen**-Symbol ![Ordner verknüpfen](assets/link-folder.png).
    1. (Optional) Um einen Ordner zu bearbeiten, wählen Sie den Ordner aus und klicken Sie auf das **Ordner bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png).
    1. (Optional) Um einen Ordner zu löschen, wählen Sie den Ordner aus und klicken Sie auf das Symbol **Ordner löschen** ![Ordner löschen](assets/delete-folder.png).
 1. (Bedingt) Um eine weitere Ordnerstruktur hinzuzufügen, klicken Sie auf **+ Ordnerstruktur hinzufügen** führen Sie die Schritte in Schritt 5 aus.
@@ -308,7 +314,7 @@ Sie können pro Ordnerstruktur bis zu 100 verknüpfte Ordner erstellen.
 
 ## Verknüpfte Ordner einrichten (optional)
 
-Sie können Benutzern erlauben, in einem [!DNL Experience Manager] Projekt Ordner zu erstellen, die mit [!DNL Workfront] verknüpft sind. Wenn ein Ordner verknüpft ist, wird jedes zum Ordner hinzugefügte Asset automatisch sowohl in [!DNL Workfront] als auch in [!DNL Experience Manager] angezeigt. Wenn ein Asset zum ersten Mal zum verknüpften Ordner in [!DNL Workfront] hinzugefügt wird, werden die Metadaten des Assets an [!DNL Experience Manager Assets] gesendet.
+Sie können Benutzern erlauben, in einem [!DNL Workfront] Projekt Ordner zu erstellen, die mit [!DNL Experience Manager] verknüpft sind. Wenn ein Ordner verknüpft ist, wird jedes zum Ordner hinzugefügte Asset automatisch sowohl in [!DNL Workfront] als auch in [!DNL Experience Manager] angezeigt. Wenn ein Asset zum ersten Mal zum verknüpften Ordner in [!DNL Workfront] hinzugefügt wird, werden die Metadaten des Assets an [!DNL Experience Manager Assets] gesendet.
 
 In den folgenden Schritten geben Sie an, wo die verknüpften Ordner erstellt werden sollen. Jede Integration kann für alle verknüpften Ordner nur einen Speicherort haben.
 

@@ -8,10 +8,15 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: d64213bf-f270-404f-a45a-6f94c7b7cb91
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+TQID: https://experienceleague.adobe.com/1bEnBH5l58juHFYsg1bfR-LMcQ-wGgKNkeGAGQlNbJs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 2%
+source-wordcount: 505
+ht-degree: 8%
 
 ---
 
@@ -21,9 +26,9 @@ Als Adobe Workfront-Administrator können Sie die standardmäßigen Proofing-Rol
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+Sie benötigen die folgenden Zugriffsrechte, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -59,7 +64,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Klicken Sie **unten** der Liste auf der linken Seite auf „Überprüfen und bestätigen“.
 1. Wählen Sie **Abschnitt Rollen für bestimmte Empfängerinnen und Empfänger eines** die Standardrolle für Benutzerinnen und Benutzer sowie Gastbenutzer aus, die zum Workflow eines Korrekturabzugs hinzugefügt werden.
 
-   Unten [Rechte, die Proofing-Rollen &#x200B;](#rights-associated-with-proofing-roles) sind) finden Sie eine Liste der einzelnen Proofing-Rollen und der damit verbundenen Rechte.
+   Unten [Rechte, die Proofing-Rollen ](#rights-associated-with-proofing-roles) sind) finden Sie eine Liste der einzelnen Proofing-Rollen und der damit verbundenen Rechte.
 
    >[!NOTE]
    >
@@ -199,7 +204,7 @@ In der folgenden Tabelle sind die einzelnen Rollen und die damit verbundenen Rec
    <td> <p><strong>Moderator</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>✓ <strong></strong> </p> </td> 
+   <td> <p><strong>✓</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> <p> </p> </td> 

@@ -8,20 +8,25 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: dea77522-d89f-4baa-a701-aea124d2b3a5
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/J-2MAo46KrxdE-b8InXVnihPhQd7wfZAo5IgWYiugEw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 2%
+source-wordcount: 234
+ht-degree: 17%
 
 ---
 
-# Erstellen von Direktberichten
+# Erstellen von direkten Berichten
 
 Sie können Benutzer als direkt unterstellte Mitarbeiter eines anderen Benutzers festlegen. Auf diese Weise können Sie ein Organigramm erstellen, das die Verwaltungsstruktur Ihrer Organisation anzeigt. Weitere Informationen finden Sie unter [Organigramm anzeigen](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,7 +38,7 @@ Sie können Benutzer als direkt unterstellte Mitarbeiter eines anderen Benutzers
   </tr> 
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
-   <td><p>Standard</p><p>Plan</p></td> 
+   <td><p>Standard</p><p>Abo</p></td> 
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -46,13 +51,13 @@ Sie können Benutzer als direkt unterstellte Mitarbeiter eines anderen Benutzers
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
-## Erstellen von Direktberichten
+## Erstellen von direkten Berichten
 
-1. Beginnen Sie mit der Bearbeitung eines Benutzers, wie [&#x200B; in Bearbeiten eines Benutzerprofils beschrieben](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+1. Beginnen Sie mit der Bearbeitung eines Benutzers, wie [ in Bearbeiten eines Benutzerprofils beschrieben](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 1. Stellen Sie **Abschnitt** Organisation) sicher, dass im Feld **Firma** eine Firma ausgewählt ist.
 
    Dieses Feld darf nicht leer sein.

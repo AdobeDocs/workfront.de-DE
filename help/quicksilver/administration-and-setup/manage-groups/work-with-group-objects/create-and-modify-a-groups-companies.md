@@ -8,10 +8,16 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: 5d7cc28ebb1c7d7401a60ef4fc383fc90ed20631
+TQID: https://experienceleague.adobe.com/Jmo6PQZ14wo8ROdKO0UvLd0Cakq1vciAhTEjZPjA9Bk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 1%
+source-wordcount: 786
+ht-degree: 4%
 
 ---
 
@@ -23,7 +29,7 @@ Wenn es Gruppen oberhalb Ihrer Gruppe gibt, können deren Administratoren diese 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +42,7 @@ Wenn es Gruppen oberhalb Ihrer Gruppe gibt, können deren Administratoren diese 
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr>
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -45,7 +51,7 @@ Wenn es Gruppen oberhalb Ihrer Gruppe gibt, können deren Administratoren diese 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -97,4 +103,4 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    Informationen zum Bearbeiten eines Unternehmens finden Sie im Abschnitt [Erstellen oder Bearbeiten eines Unternehmens in Workfront](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront) im Artikel [Erstellen und Bearbeiten von Unternehmen](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
-1. (Optional) Klicken Sie zum Exportieren der Unternehmensliste auf das Symbol „Exportieren![&#x200B; und wählen &#x200B;](assets/export.png) das gewünschte Dateiformat für die exportierte Liste aus.
+1. (Optional) Klicken Sie zum Exportieren der Unternehmensliste auf das Symbol „Exportieren![ und wählen ](assets/export.png) das gewünschte Dateiformat für die exportierte Liste aus.

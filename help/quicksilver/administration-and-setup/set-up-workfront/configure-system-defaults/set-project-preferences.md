@@ -8,11 +8,17 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 453dbf1c7598858e99d963f7a3806355a8cc80a9
+TQID: https://experienceleague.adobe.com/h8QFgoFvlsgYnlPsYOe9BMMzaCRWkHDTkg0AtuM9EpU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2620'
+source-wordcount: 2619
 ht-degree: 2%
 
 ---
@@ -128,7 +134,7 @@ Konfigurieren Sie eine der folgenden Voreinstellungen für neu erstellte Projekt
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL : Legt die Projektbedingung basierend auf dem Verlaufsstatus automatisch fest]</td> 
-   <td> <p>Diese Voreinstellung ermöglicht es Benutzern, die [!UICONTROL -Bedingung] eines Projekts manuell auf ([!UICONTROL On Target], [!UICONTROL At Risk], [!UICONTROL In Trouble]) festzulegen oder die [!UICONTROL -Bedingung] (Fortschrittsstatus) automatisch basierend auf dem Fortschritt des Projekts auf der Timeline festlegen [!DNL Workfront]. Weitere Informationen über den Zustand von Projekten finden Sie unter <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Übersicht über Projektbedingung und Bedingungstyp</a>.</p> </td> 
+   <td> <p>Diese Voreinstellung ermöglicht es Benutzern, die [!UICONTROL-Bedingung] eines Projekts manuell auf ([!UICONTROL On Target], [!UICONTROL At Risk], [!UICONTROL In Trouble]) festzulegen oder die [!UICONTROL-Bedingung] (Fortschrittsstatus) automatisch basierend auf dem Fortschritt des Projekts auf der Timeline festlegen [!DNL Workfront]. Weitere Informationen über den Zustand von Projekten finden Sie unter <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Übersicht über Projektbedingung und Bedingungstyp</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Baselines automatisch erstellen]</p> </td> 
@@ -139,15 +145,15 @@ Konfigurieren Sie eine der folgenden Voreinstellungen für neu erstellte Projekt
    <td> <p>Die Leistungsindexmethode (PIM) für das Projekt steuert die Methode, die [!DNL Workfront] verwendet, um Earned Value-Metriken wie [!UICONTROL Cost Performance Index] (CPI) und [!UICONTROL Estimate At Completion] (EAC) zu berechnen. Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref" data-mc-variable-override="">Calculate [!UICONTROL Cost Performance Index] (CPI)</a> und <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">[!UICONTROL Calculate Estimate at Completion] (EAC)</a></p> 
     <ul> 
      <li><strong>[!UICONTROL Stundenbasiert]</strong>: [!DNL Workfront] verwendet [!UICONTROL Geplante Stunden], um Leistungsmetriken wie EAC und CPI zu berechnen. Wenn das PIM auf der Grundlage von Stunden berechnet wird, wird die EAC als Anzahl von Stunden angezeigt. Stellen Sie sicher, dass Sie einen anderen Wert für [!UICONTROL Geplante Stunden] als null haben.</li> 
-     <li> <p><strong>[!UICONTROL Kostenbasiert]</strong>: [!DNL Workfront] verwendet [!UICONTROL Geplante Lohnkosten], um Leistungsmetriken wie EAC und CPI zu berechnen. Stellen Sie sicher, dass Ihre Aufgabengebiete oder Benutzer den Stundensätzen „Kosten pro Stunde“ zugeordnet sind. Wenn die PIM auf der Grundlage von Kosten berechnet wird, wird die EAC als Währungswert angezeigt.</p> <p>Der Projekt-Manager kann diese Einstellung auf Projektebene ändern, indem er den Bereich [!UICONTROL Finance] in [!UICONTROL Projektdetails] verwendet. Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">Verwalten von Informationen im Projektbereich Finance</a>.</p> </li> 
+     <li> <p><strong>[!UICONTROL Kostenbasiert]</strong>: [!DNL Workfront] verwendet [!UICONTROL Geplante Lohnkosten], um Leistungsmetriken wie EAC und CPI zu berechnen. Stellen Sie sicher, dass Ihre Aufgabengebiete oder Benutzer den Stundensätzen „Kosten pro Stunde“ zugeordnet sind. Wenn die PIM auf der Grundlage von Kosten berechnet wird, wird die EAC als Währungswert angezeigt.</p> <p>Der Projekt-Manager kann diese Einstellung auf Projektebene ändern, indem er den Bereich [!UICONTROL Finance] in [!UICONTROL Projektdetails] verwendet. Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">Verwalten von Informationen im Projektbereich [!UICONTROL Finance</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Schätzung bei Abschluss &#x200B;]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Schätzung bei Abschluss ]</p> </td> 
    <td> <p>Legen Sie fest, welche Daten [!DNL Workfront] zur Berechnung der [!UICONTROL Estimate at Completion] (EAC) verwendet, die die erwarteten Gesamtkosten eines Projekts darstellen.</p> 
     <ul> 
      <li><strong>[!UICONTROL Auf Projektebene berechnen]</strong>: Die BK für die übergeordnete Aufgabe und das übergeordnete Projekt wird durch Eingabe von [!UICONTROL Ist-Stunden] oder [!UICONTROL Ist-Arbeitskosten] in die BK-Formeln bestimmt. Diese Berechnung enthält [!UICONTROL Tatsächliche Stunden] oder [!UICONTROL Kosten und Ausgaben], die der übergeordneten Aufgabe oder dem übergeordneten Projekt direkt hinzugefügt werden.</li> 
-     <li> <p><strong>[!UICONTROL Rollup from tasks/subtasks]</strong>: Die BK für die übergeordnete Aufgabe und das übergeordnete Projekt werden bestimmt, indem die BK für jede untergeordnete Aufgabe zusammengefasst werden. Diese Berechnung schließt [!UICONTROL Ist-Stunden] oder [!UICONTROL Ist-Kosten und -Ausgaben] aus, die der übergeordneten Aufgabe oder dem übergeordneten Projekt direkt hinzugefügt werden.</p> <p>Der Projekt-Manager kann diese Einstellung auf Projektebene ändern, indem er den Bereich [!UICONTROL Finance] in [!UICONTROL Projektdetails] verwendet. Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">Verwalten von Informationen im Projektbereich Finance</a>.</p> </li> 
+     <li> <p><strong>[!UICONTROL Rollup from tasks/subtasks]</strong>: Die BK für die übergeordnete Aufgabe und das übergeordnete Projekt werden bestimmt, indem die BK für jede untergeordnete Aufgabe zusammengefasst werden. Diese Berechnung schließt [!UICONTROL Ist-Stunden] oder [!UICONTROL Ist-Kosten und -Ausgaben] aus, die der übergeordneten Aufgabe oder dem übergeordneten Projekt direkt hinzugefügt werden.</p> <p>Der Projekt-Manager kann diese Einstellung auf Projektebene ändern, indem er den Bereich [!UICONTROL Finance] in [!UICONTROL Projektdetails] verwendet. Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">Verwalten von Informationen im Projektbereich [!UICONTROL Finance</a>.</p> </li> 
     </ul> <p>Weitere Informationen dazu, wie der EAC berechnet, finden Sie unter <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">Calculate [!UICONTROL Estimate at Completion] (EAC)</a>.</p> </td> 
   </tr> 
  </tbody> 
@@ -173,7 +179,7 @@ Konfigurieren Sie eine der folgenden Voreinstellungen für neu erstellte Projekt
    <td role="rowheader">[!UICONTROL Benutzerauszeit]</td> 
    <td> <p>Legen Sie fest, ob die Ausfallzeit des Primären Verantwortlichen für eine Aufgabe die geplanten Termine für diese Aufgabe in einem Projekt anpasst.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL : Auszeiten von Benutzern in Aufgabenlaufzeiten berücksichtigen]</strong>: Jede für den Primären Beauftragten einer Aufgabe geplante Auszeit passt die geplanten Termine der Aufgabe an, wenn die Auszeit während der Aufgabenlaufzeit eintritt. Dies ist die Standardeinstellung. </p> <p>Wenn beispielsweise eine Aufgabe mit der Einschränkung [!UICONTROL As Sofort As Without As Possible] für den 1. Juni geplant ist, um sie am 3. Juni abzuschließen, und der Primäre Verantwortliche für den 2. Juni Ausfallzeiten markiert hat, werden die Termine der Aufgabe auf den 1. Juni bis zum 4. Juni angepasst.</p> <p><b>WICHTIG</b>:</p> <p>Die Dauer der Aufgabe ändert sich nicht, wenn Sie diese Einstellung auswählen. Je nach Aufgabenbeschränkung ändern sich nur die geplanten Termine.</p> </li> 
+     <li> <p><strong>[!UICONTROL: Auszeiten von Benutzern in Aufgabenlaufzeiten berücksichtigen]</strong>: Jede für den Primären Beauftragten einer Aufgabe geplante Auszeit passt die geplanten Termine der Aufgabe an, wenn die Auszeit während der Aufgabenlaufzeit eintritt. Dies ist die Standardeinstellung. </p> <p>Wenn beispielsweise eine Aufgabe mit der Einschränkung [!UICONTROL As Sofort As Without As Possible] für den 1. Juni geplant ist, um sie am 3. Juni abzuschließen, und der Primäre Verantwortliche für den 2. Juni Ausfallzeiten markiert hat, werden die Termine der Aufgabe auf den 1. Juni bis zum 4. Juni angepasst.</p> <p><b>WICHTIG</b>:</p> <p>Die Dauer der Aufgabe ändert sich nicht, wenn Sie diese Einstellung auswählen. Je nach Aufgabenbeschränkung ändern sich nur die geplanten Termine.</p> </li> 
      <li><strong>[!UICONTROL Benutzer-Ausfallzeit in Aufgabendauer ignorieren]</strong>: Die geplanten Termine jeder Aufgabe in einem Projekt bleiben wie ursprünglich geplant, auch wenn der Primäre Verantwortliche einer Aufgabe während ihrer Laufzeit Ausfallzeiten hat.</li> 
     </ul> <p>Beachten Sie bei der Auswahl von Optionen für diese Einstellung Folgendes:</p> 
     <ul> 

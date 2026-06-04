@@ -8,14 +8,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
-source-git-commit: 15063d937a5ba9b5285c66a0987e8deea6cc6d74
+TQID: https://experienceleague.adobe.com/e8vdktak-XCg5wC1h4mYTMUtOHVOssw7BSFri6rAx5Y
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 1%
+source-wordcount: 643
+ht-degree: 6%
 
 ---
 
-# Aufgabengebiete deaktivieren
+# Deaktivieren von Aufgabengebieten
 
 Als [!DNL Adobe Workfront] oder Benutzer mit administrativem Zugriff auf Aufgabengebiete können Sie Aufgabengebiete deaktivieren, die in Ihrem System veraltet sind. Wenn Sie ein Aufgabengebiet deaktivieren, anstatt es zu löschen, können Sie alle historischen Informationen beibehalten, die mit ihm verknüpft sind.
 
@@ -25,7 +31,7 @@ Sie können auch Aufgabengebiete reaktivieren, die zuvor deaktiviert wurden.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +44,7 @@ Sie können auch Aufgabengebiete reaktivieren, die zuvor deaktiviert wurden.
   <tr> 
    <td>[!DNL Adobe Workfront] Lizenz</td> 
    <td><p>[!UICONTROL Standard]</p>
-       <p>[!UICONTROL -Plan]</p></td>
+       <p>[!UICONTROL Plan]</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -47,7 +53,7 @@ Sie können auch Aufgabengebiete reaktivieren, die zuvor deaktiviert wurden.
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -67,14 +73,14 @@ Wenn Sie ein Aufgabengebiet deaktivieren, wird es nicht mehr in den folgenden Be
 * Felder mit automatischer Textvervollständigung in benutzerdefinierten Formularen
 * Das Feld [!UICONTROL Pool-Mitglieder] in [!UICONTROL Ressourcenpools]
 * Das Feld [!UICONTROL Aufgabengebiet] eines Bearbeitungsbildschirms [!UICONTROL Abrechnungssatz], wenn ein Benutzer Abrechnungssätze für Projekte überschreibt
-* Das [!UICONTROL &#x200B; „Zuweisung zu Kanban-Board hinzufügen] in einem Projekt
+* Das [!UICONTROL  „Zuweisung zu Kanban-Board hinzufügen] in einem Projekt
 * Das [!UICONTROL Aufgabengebiet] eines Plans oder einer Initiative, wenn jemand die [!DNL Adobe Workfront Scenario Planner] verwendet.
 
   Die [!DNL Scenario Planner] ist nur in der neuen [!DNL Adobe Workfront] verfügbar und erfordert eine zusätzliche Lizenz. Weitere Informationen zum [!DNL Workfront Scenario Planner] finden Sie unter [Die [!DNL Scenario Planner] Übersicht](../../../scenario-planner/scenario-planner-overview.md).
 
 >[!TIP]
 >
->Deaktivierte Rollen werden immer in Filtern in Listen, Berichten und anderen Tools wie dem [!UICONTROL Workload Balancer) &#x200B;].
+>Deaktivierte Rollen werden immer in Filtern in Listen, Berichten und anderen Tools wie dem [!UICONTROL Workload Balancer) ].
 
 ## Überlegungen vor der Deaktivierung eines Aufgabengebiets
 
@@ -101,7 +107,7 @@ Es wird empfohlen, Folgendes zu tun, bevor Sie ein nicht verwendetes Aufgabengeb
   Informationen zum Erstellen von Genehmigungsprozessen und Routing-Regeln finden Sie in den folgenden Artikeln:
 
    * [Einen Genehmigungsprozess für Arbeitselemente erstellen](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
-   * [Routingregeln erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
+   * [Erstellen von Routing-Regeln](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
 
 ## Aufgabengebiet deaktivieren
 

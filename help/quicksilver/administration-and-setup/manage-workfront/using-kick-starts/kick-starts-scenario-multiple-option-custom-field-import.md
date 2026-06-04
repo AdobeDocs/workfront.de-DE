@@ -9,9 +9,15 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 156341072c291b5c03432da399a509d9772b73ea
+TQID: https://experienceleague.adobe.com/VN48OQlXHrmfEYUZ2hOusWN-LE-U6BhXBvqprFOsczY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: a91f865d-c69e-423f-aeff-28a3d6e8554did: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2175'
+source-wordcount: 2136
 ht-degree: 5%
 
 ---
@@ -218,7 +224,7 @@ So füllen Sie die Excel-Tabelle mit Informationen für die neuen benutzerdefini
      >
      >Pro Feld kann nur eine Standardoption ausgewählt werden.
 
-   * **`setParameterID`** = die Optionen, die dem benutzerdefinierten Feld _Marke_ entsprechen, haben einen **`setParameterID`** von 1, und die Optionen, die dem _Media_ entsprechen, haben einen **`setParameterID`**&#x200B;von 2. Die `PARAM`- und `POPT`-Blätter verweisen einander, um anzugeben, welche Optionen zu welchem benutzerdefinierten Feld gehören.
+   * **`setParameterID`** = die Optionen, die dem benutzerdefinierten Feld _Marke_ entsprechen, haben einen **`setParameterID`** von 1, und die Optionen, die dem _Media_ entsprechen, haben einen **`setParameterID`**von 2. Die `PARAM`- und `POPT`-Blätter verweisen einander, um anzugeben, welche Optionen zu welchem benutzerdefinierten Feld gehören.
    * **`setDisplayOrder`**= Die Spalte Anzeigereihenfolge gibt die Reihenfolge an, in der die Optionen in Ihrem benutzerdefinierten Feld angezeigt werden. Sie können mit 1 beginnen und für alle Optionen in aufsteigender Reihenfolge fortfahren, unabhängig davon, zu welchen Feldern sie gehören. Wichtig ist hier, dass für jede Option eindeutige Zahlen vorhanden sind.
    * Die Spalten **`setLabel`** und `**setValue`** enthalten in der Regel dieselben Informationen und sollten die gewünschten Namen in der Workfront-Benutzeroberfläche widerspiegeln. Der Wert einer Option ist beispielsweise der Name, der in Berichten angezeigt wird, während die Beschriftung in den benutzerdefinierten Formularen angezeigt wird, wenn sie an ein Objekt angehängt wird. Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
    * **`setIsHidden`** = Geben Sie `TRUE` ein, wenn eine der Optionen ausgeblendet werden soll.

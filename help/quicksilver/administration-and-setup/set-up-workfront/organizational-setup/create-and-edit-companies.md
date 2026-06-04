@@ -8,11 +8,17 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/NUy63Nw1T8QndFvqkJKLIfY4Z5ECSSmbSuvfGzvbgEE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: 1469
 ht-degree: 2%
 
 ---
@@ -57,7 +63,7 @@ Ein Unternehmen ist eine Organisationseinheit in [!DNL Adobe Workfront], die Ihr
       <li> <p>Um Benutzer zum [!DNL Workfront] hinzuzufügen oder daraus zu entfernen, benötigen Sie eine der folgenden Eigenschaften:</p> 
        <ul> 
         <li> <p>Zugriffsebene des [!UICONTROL Systemadministrators]. </p> </li> 
-        <li> <p><b>[!UICONTROL Users]</b> Einstellung in der Zugriffsebene konfiguriert, um den[!UICONTROL Edit]<b>-Zugriff zu </b>, wobei <b>[!UICONTROL Create]</b> und mindestens eine der beiden <b>[!UICONTROL User Admin]</b> Optionen unter <b> </b>[!UICONTROL Feinabstimmung der Einstellungen]<img src="assets/gear-icon-in-access-levels.png"> aktiviert ist. </p> <p> <img src="assets/access-req-users.png"> </p> <p>Wenn <b>[!UICONTROL User Admin (Group Users)]</b> aktiviert ist, müssen Sie unter diesen beiden Optionen Gruppenadministrator einer Gruppe sein, in der der Benutzer Mitglied ist.</p> </li> 
+        <li> <p><b>[!UICONTROL Users]</b> Einstellung in der Zugriffsebene konfiguriert, um den[!UICONTROL Edit]</b>-Zugriff zu <b>, wobei <b>[!UICONTROL Create]</b> und mindestens eine der beiden <b>[!UICONTROL User Admin]</b> Optionen unter <b> </b>[!UICONTROL Feinabstimmung der Einstellungen]<img src="assets/gear-icon-in-access-levels.png"> aktiviert ist. </p> <p> <img src="assets/access-req-users.png"> </p> <p>Wenn <b>[!UICONTROL User Admin (Group Users)]</b> aktiviert ist, müssen Sie unter diesen beiden Optionen Gruppenadministrator einer Gruppe sein, in der der Benutzer Mitglied ist.</p> </li> 
        </ul>
        </li> 
      </ul> </p> </td> 
@@ -153,7 +159,7 @@ So fügen Sie eine Firma hinzu oder bearbeiten sie:
 
    Eine Liste der Unternehmen wird angezeigt.
 
-1. Aktivieren Sie das Kontrollkästchen neben dem Unternehmen, das Sie löschen möchten, und klicken Sie dann oben auf ![&#x200B; Seite auf das Symbol „Löschen](assets/delete-icon.png) „Löschen“.
+1. Aktivieren Sie das Kontrollkästchen neben dem Unternehmen, das Sie löschen möchten, und klicken Sie dann oben auf ![ Seite auf das Symbol „Löschen](assets/delete-icon.png) „Löschen“.
 1. Wenn Sie ein Unternehmen löschen, das als Primäres Unternehmen festgelegt ist oder in einem anderen Objekt verwendet wird, wählen Sie ein Unternehmen aus, das das zu löschende Unternehmen ersetzen soll. Das ausgewählte Unternehmen wird zum Primären Unternehmen oder ersetzt das gelöschte Unternehmen durch die Objekte, denen das Unternehmen zugewiesen ist.
 1. Klicken Sie auf **Löschen**.
 

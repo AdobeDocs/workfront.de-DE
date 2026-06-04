@@ -8,11 +8,17 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
+TQID: https://experienceleague.adobe.com/hCzefaueJPFQ1jTzePSOC9FIR1SRYTrC3NIKmtIOpp4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: c549503a-6440-4802-9525-ceb73a00feff
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '938'
+source-wordcount: 940
 ht-degree: 4%
 
 ---
@@ -29,7 +35,7 @@ Sie können demselben Namen mehrere verschiedene Layout-Vorlagen zuweisen. Weite
 
 Weitere Informationen zu Layout-Vorlagen finden Sie unter [Layout-Vorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/use-layout-templates-customize-ui.md).
 
-Weitere Informationen zu Layout-Vorlagen für Gruppen finden [&#x200B; unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 Informationen zu Layoutvorlagen und Geschäftsprofilen finden Sie unter [Geschäftsprofile - Übersicht](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
 
@@ -76,13 +82,13 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
    Kürzlich hinzugefügte Namen werden mit blauem Hintergrund angezeigt. Dies ist hilfreich, wenn Sie eine vorhandene Layout-Vorlage bearbeiten, da Sie die soeben hinzugefügten Namen von den bereits in der Liste vorhandenen unterscheiden können.
 
-   Rechts neben dem Namen eines Benutzers![&#x200B; eines Aufgabengebiets, Teams, einer Gruppe oder Zugriffsebene, &#x200B;](assets/info-icon.png) bereits einer anderen Layout-Vorlage zugewiesen ist, wird ein Infosymbol (Infosymbol) angezeigt. Sie können den Mauszeiger über das Symbol bewegen, um den Namen dieser Layout-Vorlage anzuzeigen und zu entscheiden, ob Sie die vorhandene Zuweisung überschreiben möchten.
+   Rechts neben dem Namen eines Benutzers![ eines Aufgabengebiets, Teams, einer Gruppe oder Zugriffsebene, ](assets/info-icon.png) bereits einer anderen Layout-Vorlage zugewiesen ist, wird ein Infosymbol (Infosymbol) angezeigt. Sie können den Mauszeiger über das Symbol bewegen, um den Namen dieser Layout-Vorlage anzuzeigen und zu entscheiden, ob Sie die vorhandene Zuweisung überschreiben möchten.
 
 1. Wiederholen Sie die beiden vorherigen Schritte, um die Layout-Vorlage ggf. anderen Benutzern, Aufgabengebieten, Teams, Gruppen oder Zugriffsebenen zuzuweisen.
 
    Sie können bis zu 100 Benutzer gleichzeitig zuweisen.
 
-1. Klicken **auf**&#x200B;**Fertig“ und dann in der linken unteren** auf „Speichern und schließen“.
+1. Klicken **auf****Fertig“ und dann in der linken unteren** auf „Speichern und schließen“.
 
    Dieser Schritt schließt den Prozess der Erstellung und Zuweisung einer Layout-Vorlage ab.
 

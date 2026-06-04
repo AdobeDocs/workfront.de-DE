@@ -6,10 +6,14 @@ description: Sie müssen den erweiterten Connector von Workfront mit Adobe Exper
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: c6203c71-a4c4-41ee-ac4e-57137661e5b3
-source-git-commit: 9673009f12509b5e7051ee91e142d311f333f215
+TQID: https://experienceleague.adobe.com/CeCyF8zbwp4tVcxQebq0EdaJqagDyppVuCL6ilqEvJA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 0%
+source-wordcount: 260
+ht-degree: 3%
 
 ---
 
@@ -19,7 +23,7 @@ Sie müssen den erweiterten Connector von Workfront mit Adobe Experience Manager
 
 ## Voraussetzungen
 
-* (Optional) Setzen Sie bei Bedarf alle Änderungen zurück, die an der Workfront-Firewall-Konfiguration und den AEM-Dispatcher-Einstellungen vorgenommen wurden.
+* (Optional) Setzen Sie bei Bedarf alle Änderungen zurück, die an der Workfront-Firewallkonfiguration und den AEM-Dispatcher-Einstellungen vorgenommen wurden.
 
 ## Deinstallieren des erweiterten Connectors
 
@@ -86,7 +90,7 @@ Sie müssen den erweiterten Connector von Workfront mit Adobe Experience Manager
    </repository>
    ```
 
-1. (Bedingt) Entfernen Sie die Server-Konfiguration aus der Datei settings.xml, die im folgenden Pfad vorhanden ist./cloudmanager/maven/settings.xml im Projektstamm.&#39;
+1. (Bedingt) Entfernen Sie die Server-Konfiguration aus der settings.xml, die im folgenden Pfad ./cloudmanager/maven/settings.xml im Projektstamm vorhanden ist.“
 
    ```
            <server>
@@ -104,4 +108,4 @@ Sie müssen den erweiterten Connector von Workfront mit Adobe Experience Manager
 
 1. Übertragen Sie die Änderungen und übertragen Sie den Code in das Cloud Manager-Repository
 
-1. Führen Sie die Cloud Manager-Pipeline aus, um die Änderungen auf Ihrer Cloud Service-Instanz bereitzustellen
+1. Führen Sie die Cloud Manager-Pipeline aus, um die Änderungen auf Ihrer Cloud Services-Instanz bereitzustellen

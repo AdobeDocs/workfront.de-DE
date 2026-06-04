@@ -3,15 +3,18 @@ content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Agile-Übersicht
-description: Agile ist eine Arbeitsmethode, mit der Teams kleine, überschaubare Arbeitsmengen in einer konsistenten Kadenz erledigen können. In Agile verwalten Teams Storys auf einem Backlog oder einem Story Board und nicht Aufgaben in einem Projekt. [!DNL Adobe Workfront] stellt Tools bereit, die Teams dabei unterstützen, agil zu arbeiten.
+description: Agile ist eine Arbeitsmethode, mit der Teams kleine, überschaubare Arbeitsmengen in einer konsistenten Kadenz erledigen können. In „Agile“ verwalten Teams Geschichten auf einem Rückstand oder in einem Story Board und nicht Aufgaben in einem Projekt. [!DNL Adobe Workfront]  stellt Tools bereit, die Teams dabei helfen, auf agile Weise zu arbeiten.
 author: Courtney
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/AVFfEFh0oIM6Pd7BMCYw7As75M00qbzP37burvpCI4U
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: 324
 ht-degree: 0%
 
 ---
@@ -22,7 +25,7 @@ Agile ist eine Arbeitsmethode, mit der Teams kleine, überschaubare Arbeitsmenge
 
 [!DNL Workfront] Boards sind einfache, aber flexible Werkzeuge für die Teamzusammenarbeit. Weitere Informationen zu Pinnwänden finden Sie unter [Pinnwände - Übersicht](../agile/boards-overview.md).
 
-Weitere erweiterte Agile-Team-Tools verwenden entweder Kanban oder Scrum. Informationen zu den Kanban- und Scrum-Methoden finden Sie im Abschnitt [Entscheidung über eine agile &#x200B;](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding)) im Artikel [Erstellen eines agilen Teams](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+Weitere erweiterte Agile-Team-Tools verwenden entweder Kanban oder Scrum. Informationen zu den Kanban- und Scrum-Methoden finden Sie im Abschnitt [Entscheidung über eine agile ](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#deciding)) im Artikel [Erstellen eines agilen Teams](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
 So verwenden Sie fortschrittliche Agile-Funktionen in Workfront:
 
@@ -40,7 +43,7 @@ So verwenden Sie fortschrittliche Agile-Funktionen in Workfront:
 
 1. Scrum-Teams: Verwalten Sie den Rückstand, erstellen Sie eine Iteration und erstellen Sie das [!UICONTROL Scrum]-Board.
 
-   Weitere Informationen finden Sie unter [Verwalten des Agile-](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)&quot;, [Übersicht über &#x200B;](../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md) und [Übersicht über das Scrum-Board](../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md).
+   Weitere Informationen finden Sie unter [Verwalten des Agile-](../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)&quot;, [Übersicht über ](../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md) und [Übersicht über das Scrum-Board](../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md).
 
 1. Fügen Sie Aufgaben aus Projekten zum Rückstand oder zum Story Board für das Team hinzu.
 

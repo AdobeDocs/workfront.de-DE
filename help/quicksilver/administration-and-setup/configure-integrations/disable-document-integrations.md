@@ -8,14 +8,19 @@ feature: System Setup and Administration, Workfront Integrations and Apps, Digit
 role: Admin
 author: Courtney, Becky
 exl-id: 78281bca-1fa1-4e78-96e5-70be12142bbd
-source-git-commit: 53596271a838733b858c0b14a4e22b07a7cd20f6
+TQID: https://experienceleague.adobe.com/3tfxxth82eJEjEmdVD3AJFxl6B1m3EVKMQP9Gy4LC24
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 9%
+source-wordcount: 279
+ht-degree: 13%
 
 ---
 
-# Dokumentintegrationen deaktivieren
+# Deaktivieren von Dokumentintegrationen
 
 Als [!DNL Adobe] [!DNL Workfront] können Sie die Verbindung zwischen [!DNL Workfront] und den Dokumentanbietern von Drittanbietern deaktivieren.
 
@@ -37,7 +42,7 @@ Wenn Sie die Verbindung zwischen [!DNL Workfront] und einem Dokumentanbieter dea
    <td>Adobe Workfront-Lizenzen
    </td>
    <td><p>Standard</p>
-   <p>Plan</p>
+   <p>Abo</p>
    </td>
   </tr>
    <tr>
@@ -48,7 +53,7 @@ Wenn Sie die Verbindung zwischen [!DNL Workfront] und einem Dokumentanbieter dea
   </tr>
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

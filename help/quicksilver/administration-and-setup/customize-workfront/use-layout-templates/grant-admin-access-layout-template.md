@@ -8,10 +8,15 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 066a55ef-1904-4678-8866-c59428f78bc1
-source-git-commit: c037b4f9e5530d8dd796bed25021f7073f16061f
+TQID: https://experienceleague.adobe.com/hV6I8IYKJWZBeIibkJh2KMfeVlimx1i0Yd-lIVQd4tE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 4%
+source-wordcount: 430
+ht-degree: 7%
 
 ---
 
@@ -23,7 +28,7 @@ Informationen zum Zuweisen von Benutzern zu einer Layout-Vorlage finden Sie unte
 
 Weitere Informationen zu Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-Weitere Informationen zu Layout-Vorlagen für Gruppen finden [&#x200B; unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 ## Zugriffsanforderungen
 
@@ -40,7 +45,7 @@ Weitere Informationen zu Layout-Vorlagen für Gruppen finden [&#x200B; unter „
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr> 
   </tr> 
   <tr> 
@@ -51,7 +56,7 @@ Weitere Informationen zu Layout-Vorlagen für Gruppen finden [&#x200B; unter „
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -61,7 +66,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 1. Klicken **im oberen Bereich** Seite auf „Zugriff gewähren auf“.
 1. Klicken Sie im angezeigten Feld auf **Gruppe hinzufügen**, geben Sie den Namen der Gruppe ein, klicken Sie auf den Namen, wenn er angezeigt wird, und klicken Sie dann auf **Fertig**.
 
-   Alle Benutzer, die als Gruppenadministratoren für die von Ihnen angegebene Gruppe festgelegt wurden, können die Layout-Vorlage verwalten. Die Vorlage wird jedoch nicht den Mitgliedern der Gruppe für ihre Verwendung zugewiesen. Informationen zum Zuweisen einer Layout-Vorlage zu einer Gruppe finden Sie unter [Zuweisen einer Layout-Vorlage zu &#x200B;](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md#assign) in diesem Artikel.
+   Alle Benutzer, die als Gruppenadministratoren für die von Ihnen angegebene Gruppe festgelegt wurden, können die Layout-Vorlage verwalten. Die Vorlage wird jedoch nicht den Mitgliedern der Gruppe für ihre Verwendung zugewiesen. Informationen zum Zuweisen einer Layout-Vorlage zu einer Gruppe finden Sie unter [Zuweisen einer Layout-Vorlage zu ](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md#assign) in diesem Artikel.
 
    >[!NOTE]
    >

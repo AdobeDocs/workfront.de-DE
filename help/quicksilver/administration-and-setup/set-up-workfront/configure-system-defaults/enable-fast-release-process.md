@@ -8,16 +8,21 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 71ef7a50-7a9f-43c4-b67c-8d9fc722569f
-source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
+TQID: https://experienceleague.adobe.com/gJ8o3kijaGF2W2aIaal4mv9iWXRfGMJ1-kkG3XLSB18
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 1%
+source-wordcount: 406
+ht-degree: 13%
 
 ---
 
 # Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation
 
-Adobe Workfront verfügt über zwei Modelle zur Veröffentlichung neuer Funktionen und Aktualisierungen. Sie können auswählen, ob neue Funktionen vierteljährlich oder nach einem schnelleren Veröffentlichungszeitplan bereitgestellt werden sollen.
+Adobe Workfront verfügt über zwei Modelle zur Veröffentlichung neuer Funktionen und Updates. Sie können auswählen, ob neue Funktionen vierteljährlich oder nach einem schnelleren Veröffentlichungszeitplan bereitgestellt werden sollen.
 
 Beide Modelle bieten dieselben Funktionen und Updates. Der einzige Unterschied ist das Timing.
 
@@ -33,7 +38,7 @@ Beispiel:
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,7 +50,7 @@ Beispiel:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Standard</p> <p>Plan</p></td> 
+   <td><p>Standard</p> <p>Abo</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -54,7 +59,7 @@ Beispiel:
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -79,7 +84,7 @@ So aktivieren oder deaktivieren Sie den Schnellfreigabeprozess:
 1. Erweitern Sie **System** im linken Navigationsbereich und klicken Sie dann auf **Voreinstellungen**.
 1. Um Schnellveröffentlichungen zu aktivieren, aktivieren Sie das **Schnellfreigabeprozess zulassen**.
 
-   Oder
+   ODER
 
    Um Schnellveröffentlichungen zu deaktivieren und zu einem vierteljährlichen Veröffentlichungszyklus zu wechseln, deaktivieren Sie das Kontrollkästchen **Schnellveröffentlichungsprozess**.
 

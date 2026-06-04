@@ -8,11 +8,16 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/wQAqAplnYGWGCSSb1oVg2wIUK7Pn-Q0k4YIJIPJlqaQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1711'
+source-wordcount: 1744
 ht-degree: 2%
 
 ---
@@ -35,7 +40,7 @@ ht-degree: 2%
 >
 >* Die neue SharePoint-Integration muss möglicherweise nicht von einem Administrator konfiguriert werden. Sie kann auch von einzelnen Benutzern eingerichtet werden. Um jedoch einen reibungslosen Übergang zur neuen SharePoint-Integration sicherzustellen, muss ein Workfront-Administrator einige kleine Änderungen an den Einstellungen im Bereich &quot;Workfront-Setup“ vornehmen.
 >
->    Weitere Informationen und Anweisungen finden Sie unter [Konfigurieren der Legacy-SharePoint-Integration für den kontinuierlichen Zugriff auf &#x200B;](#configure-the-legacy-sharepoint-integration-for-continued-access-to-documents) in diesem Artikel.
+>    Weitere Informationen und Anweisungen finden Sie unter [Konfigurieren der Legacy-SharePoint-Integration für den kontinuierlichen Zugriff auf ](#configure-the-legacy-sharepoint-integration-for-continued-access-to-documents) in diesem Artikel.
 >    
 >* Es wird empfohlen, dass Benutzer Dokumente verknüpfen, die derzeit über die alte [!DNL SharePoint]-Integration über die neue Integration verknüpft sind.
 >    
@@ -68,7 +73,7 @@ Diese Integration ist nur mit [!DNL SharePoint Online] kompatibel. On-Premise-In
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -142,7 +147,7 @@ Die folgenden Berechtigungen werden angefordert:
 * Dieser Zugriff wird vom Benutzer bei der ersten Verwendung der Integration gewährt und kann jederzeit widerrufen werden.
 * Die für diese Integration angeforderten Berechtigungen sind **delegiert** Berechtigungen.
 * [!DNL Workfront] fordert den Mindestzugriff an, der zum Ausführen von Vorgängen in der Integration erforderlich ist.
-* Der Zugriff auf das Anzeigen, Bearbeiten oder Löschen eines mit [!DNL Adobe Workfront] verknüpften [!DNL SharePoint]-Dokuments basiert auf dem Zugriff des Benutzers in [!DNL Workfront]. Allerdings erfordert jedes Navigieren, Herunterladen oder Bearbeiten einer [!DNL SharePoint] Datei oder eines Ordners Zugriff auf [!DNL SharePoint], und der Zugriff auf diese Aktionen wird von [!DNL SharePoint] gesteuert.
+* Der Zugriff auf das Anzeigen, Bearbeiten oder Löschen eines mit [!DNL SharePoint] verknüpften [!DNL Adobe Workfront]-Dokuments basiert auf dem Zugriff des Benutzers in [!DNL Workfront]. Allerdings erfordert jedes Navigieren, Herunterladen oder Bearbeiten einer [!DNL SharePoint] Datei oder eines Ordners Zugriff auf [!DNL SharePoint], und der Zugriff auf diese Aktionen wird von [!DNL SharePoint] gesteuert.
 * Benutzer können Miniaturansichten anzeigen und eine Vorschau von Bildern anzeigen, die aus [!DNL SharePoint] bezogen wurden, und können Datei- und Ordnernamen in [!DNL SharePoint] sehen, ohne sich bei [!DNL SharePoint] anzumelden.
 * Das Zugriffstoken eines Benutzers wird nur verwendet, wenn der Benutzer offline ist und ein anderer Benutzer den Inhalt eines Ordners anzeigt, der mit [!DNL Workfront] verknüpft ist. Mit dem Zugriffstoken wird ermittelt, ob Dokumente im Ordner hinzugefügt, entfernt oder bearbeitet wurden.
 
@@ -159,7 +164,7 @@ Wenn ein Asset zuerst in [!DNL Workfront] hochgeladen und dann an [!DNL SharePoi
 Um sicherzustellen, dass Ihre Benutzerinnen und Benutzer weiterhin über die alte [!DNL SharePoint]-Integration Zugriff auf Dokumente haben, die mit Workfront verknüpft sind, müssen Sie den Zugriff auf die alte [!DNL SharePoint]-Integration neu konfigurieren und den SharePoint-Client-Geheim-Code auf dem neuesten Stand halten.
 
 * [Zugriff auf die Legacy- [!DNL SharePoint]  neu konfigurieren](#reconfigure-access-to-the-legacy-sharepoint-integration)
-* [Konfigurieren des Client-Geheimnisses für den kontinuierlichen Zugriff auf die Legacy- [!DNL SharePoint] &#x200B;](#configure-the-client-secret-for-continued-access-to-the-legacy-sharepoint-integration)
+* [Konfigurieren des Client-Geheimnisses für den kontinuierlichen Zugriff auf die Legacy- [!DNL SharePoint] ](#configure-the-client-secret-for-continued-access-to-the-legacy-sharepoint-integration)
 
 ### Zugriff auf die alte [!DNL SharePoint]-Integration neu konfigurieren
 
@@ -170,9 +175,9 @@ Durch die Neukonfiguration der Legacy-[!DNL SharePoint]-Integration können Ihre
 > * Die alte [!DNL SharePoint]-Integration trägt die Bezeichnung &quot;[!DNL SharePoint]&quot;.
 > * Die neue [!DNL SharePoint]-Integration trägt die Bezeichnung &quot;[!UICONTROL [!DNL SharePoint] (Graph API)].
 
-1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **&#x200B;**&#x200B;Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **** Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
 1. Wählen Sie **[!UICONTROL linken Navigationsbereich]** Dokumente“ und dann **[!UICONTROL Cloud-Anbieter]** aus.
-1. Stellen Sie sicher, dass die Optionen **[!DNL SharePoint]** und **[!UICONTROL [!DNL SharePoint] (Graph API)]** beide aktiviert sind.
+1. Stellen Sie sicher, dass die Optionen **[!DNL SharePoint]** und **[!UICONTROL [!DNL SharePoint](Graph API)]** beide aktiviert sind.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 1. Wählen Sie **[!UICONTROL linken Navigationsbereich]** Dokumente“ und dann **[!UICONTROL [!DNL SharePoint]Integration aus]**.
 1. Aktivieren Sie das Kontrollkästchen links in der Liste für alle vorhandenen Integrationen und klicken Sie dann auf **[!UICONTROL Deaktivieren]**.
@@ -185,7 +190,7 @@ Ihr [!DNL SharePoint]-Client-Geheimnis läuft einmal im Jahr ab. Um den kontinui
 
 >[!IMPORTANT]
 >
-> Da [!DNL SharePoint] Client-Geheimnisse von [!DNL Microsoft] verarbeitet werden, können sich Funktionen und Verfahren des Client-Geheimnisses je nach Aktualisierungen der von [!DNL SharePoint] vorgenommenen [!DNL Microsoft] ändern. In der [!DNL Microsoft] Dokumentation finden Sie immer die neuesten Informationen zu Verfahren und Funktionen in [!DNL SharePoint].
+> Da [!DNL SharePoint] Client-Geheimnisse von [!DNL Microsoft] verarbeitet werden, können sich Funktionen und Verfahren des Client-Geheimnisses je nach Aktualisierungen der von [!DNL Microsoft] vorgenommenen [!DNL SharePoint] ändern. In der [!DNL Microsoft] Dokumentation finden Sie immer die neuesten Informationen zu Verfahren und Funktionen in [!DNL SharePoint].
 
 <!--
 1. Go to the site that your [!DNL SharePoint] integration uses. This may be a site that you created when setting up the integrations, or it may be your organization's root site.
@@ -193,7 +198,7 @@ Ihr [!DNL SharePoint]-Client-Geheimnis läuft einmal im Jahr ab. Um den kontinui
 1. Add `/_layouts/15/appregnew.aspx` to the end of the URL in the search bar at the top of your browser window.
 -->
 
-1. Generieren Sie ein neues Client-Geheimnis, wie unter [Ersetzen eines ablaufenden Client-Geheimnisses in einem Add [!DNL SharePoint] In“ &#x200B;](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret).
+1. Generieren Sie ein neues Client-Geheimnis, wie unter [Ersetzen eines ablaufenden Client-Geheimnisses in einem Add [!DNL SharePoint] In“ ](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret).
 1. Kopieren Sie dieses Client-Geheimnis an einen sicheren Speicherort.
 1. Melden Sie sich bei [!DNL Workfront] als Administrator an.
 1. Klicken Sie in Workfront auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und dann auf **[!UICONTROL Setup]**![Setup](/help/_includes/assets/gear-icon-setup.png).
@@ -444,7 +449,7 @@ Benutzer mit [!UICONTROL Vollzugriff] verfügen über alle erforderlichen Berech
    <td> <p>Kann Listenelemente und Dokumente anzeigen, hinzufügen, aktualisieren und löschen</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Nur-Ansicht]</p> </td> 
+   <td role="rowheader"> <p>[!Nur UICONTROL-Ansicht]</p> </td> 
    <td> <p>Kann Seiten, Listenelemente und Dokumente anzeigen (Dokumenttypen mit Server-seitigen Datei-Handlern können im Browser angezeigt, aber nicht heruntergeladen werden)</p> </td> 
   </tr> 
  </tbody> 

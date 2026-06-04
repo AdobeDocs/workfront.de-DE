@@ -5,13 +5,17 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: a22bff203680d2b59e14a9d705c963f2a1d3a80b
+TQID: https://experienceleague.adobe.com/jLoqncsE3CSAK27siU8Ro2EQdZkbJC-gs040vGxX-5E
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: 900
 ht-degree: 7%
 
 ---
-
 
 # Gewähren von Zugriff auf Benutzende
 
@@ -65,7 +69,7 @@ Sie können mithilfe einer standardmäßigen Zugriffsebene oder einer benutzerde
 
 ## Benutzerzugriff konfigurieren, um Benutzer mithilfe einer benutzerdefinierten Zugriffsebene zu bearbeiten
 
-1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Um zu ändern, dass Benutzer mit einer Standard-, Plan- oder Arbeitslizenz Informationen für andere Benutzer anzeigen können, klicken Sie auf das Zahnradsymbol ![Zahnradsymbol](assets/gear-icon-settings.png) auf der Schaltfläche **Anzeigen** rechts neben **Benutzer** und wählen Sie dann die Anzeigeoptionen aus, die Sie gewähren möchten, **Sie Ihre Einstellungen optimieren**:
 
    <table style="table-layout:auto"> 

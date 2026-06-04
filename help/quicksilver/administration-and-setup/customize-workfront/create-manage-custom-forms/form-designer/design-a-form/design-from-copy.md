@@ -8,10 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 578a8bd5-d93f-4327-bb4f-2c17b91b170a
-source-git-commit: 15ac51cc13eeb57d2de194a9a6ceec7683acfbe6
+TQID: https://experienceleague.adobe.com/WaLGsLpGDMXGvNd7W-8JzmgJYiCaxSd-gaMoGy6j-Zc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 2%
+source-wordcount: 373
+ht-degree: 26%
 
 ---
 
@@ -19,11 +25,11 @@ ht-degree: 2%
 
 <!--add preview tags and see below in comment out-->
 
-Sie können ein neues benutzerdefiniertes Formular entwerfen, das auf einem vorhandenen Formular basiert. Sie können benutzerdefinierte Formulare an verschiedene Workfront-Objekte anhängen, um Daten über diese Objekte zu erfassen.
+Sie können ein neues benutzerdefiniertes Formular entwerfen, das auf einem vorhandenen Formular basiert. Sie können benutzerdefinierte Formulare an verschiedene Workfront-Objekte anhängen, um Daten zu diesen Objekten zu erfassen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +42,7 @@ Sie können ein neues benutzerdefiniertes Formular entwerfen, das auf einem vorh
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -84,13 +90,13 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 1. Wählen Sie das soeben kopierte Formular aus und klicken Sie dann auf ![Symbol „Bearbeiten](assets/edit-icon.png).
 1. Nehmen Sie Änderungen am Formular vor, wie in den folgenden Abschnitten des Artikels [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) erläutert:
 
-   * [Vorhandenes Feld oder Widget wiederverwenden, das bereits in einem anderen benutzerdefinierten Formular verwendet wurde](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
-   * [Textfelder hinzufügen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-text-fields)
+   * [Wiederverwenden eines vorhandenen Feldes oder Widgets, das bereits in einem anderen benutzerdefinierten Formular verwendet wurde](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
+   * [Hinzufügen von Textfeldern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-text-fields)
    * [Hinzufügen von berechneten Feldern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-calculated-fields)
    * [Hinzufügen von Optionsfeldern, Kontrollkästchen-Gruppen und Dropdown-Listen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkboxes-and-dropdowns)
-   * [Felder für automatische Textvervollständigung und Datum hinzufügen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-typeahead-and-date-fields)
-   * [Bilder, PDFs und Videos hinzufügen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-images-pdfs-and-videos)
-   * [Adobe XD-Dateien hinzufügen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-adobe-xd-files)
-   * [Planning-Verbindungsfelder hinzufügen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-planning-connection-fields)
+   * [Hinzufügen von Feldern für die automatische Vervollständigung und von Datumsfeldern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-typeahead-and-date-fields)
+   * [Hinzufügen von Bildern, PDFs und Videos](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-images-pdfs-and-videos)
+   * [Hinzufügen von Adobe XD-Dateien](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-adobe-xd-files)
+   * [Hinzufügen von Planung-Verbindungsfeldern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-planning-connection-fields)
 
-1. (Optional) Fügen Sie nach dem Klicken auf **Speichern und schließen** das Formular an das Objekt an, in dem Sie es verwenden möchten, wie in [Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt“ &#x200B;](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+1. (Optional) Fügen Sie nach dem Klicken auf **Speichern und schließen** das Formular an das Objekt an, in dem Sie es verwenden möchten, wie in [Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt“ ](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).

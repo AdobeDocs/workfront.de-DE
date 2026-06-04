@@ -3,17 +3,22 @@ title: Deaktivieren Sie die Option Automatisches Upgrade für nicht bezahlte Ben
 user-type: administrator
 content-type: reference
 product-area: system-administration
-keywords: Zugriff,Ebene,System,Administrator,Standard,Licht,Mitwirkende
+keywords: Zugriff,Ebene,System,Admin,Standard,Light,Mitwirkende
 navigation-topic: access-levels
-description: Jeder Benutzer muss über eine Zugriffsebene verfügen, um sich anmelden und in Workfront arbeiten zu können. Mithilfe der Zugriffsebene können Sie steuern, was ein Benutzer mit bestimmten Workfront-Objekten und -Bereichen sehen und machen kann.
+description: Alle Benutzenden müssen über eine Zugriffsebene verfügen, um sich anmelden und in Workfront arbeiten zu können. Mithilfe der Zugriffsebene können Sie steuern, was Benutzende sehen und mit bestimmten Workfront-Objekten und -Bereichen tun können.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+TQID: https://experienceleague.adobe.com/NNGzz1vNdy07htr8QPY-m-pTpWinPkHG11xWeH5RX5s
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 11%
+source-wordcount: 206
+ht-degree: 33%
 
 ---
 
@@ -42,7 +47,7 @@ Sie können die Option für das automatische Upgrade im Bereich Setup deaktivier
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>Standard
-   <p>Plan</p></td> 
+   <p>Abo</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 

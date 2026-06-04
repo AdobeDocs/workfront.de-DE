@@ -8,10 +8,15 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f97a12eb-9002-4f11-908a-c68c1e6dc9c9
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/GL1yGKWO2xOV-qfFHBNEJrMEmyi8a9-EKshCaYU1Cd4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 1%
+source-wordcount: 1267
+ht-degree: 4%
 
 ---
 
@@ -23,7 +28,7 @@ Wenn es Gruppen oberhalb Ihrer Gruppe gibt, können deren Administratoren diese 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +41,7 @@ Wenn es Gruppen oberhalb Ihrer Gruppe gibt, können deren Administratoren diese 
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr>
   <tr>
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -49,7 +54,7 @@ Wenn es Gruppen oberhalb Ihrer Gruppe gibt, können deren Administratoren diese 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -86,7 +91,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
       <td role="rowheader">Freigeben einer oder mehrerer Vorlagen</td> 
       <td> <p>Wählen Sie mindestens eine Vorlage aus, klicken Sie auf das Symbol Freigeben <img src="assets/share-icon.png"> dann auf eine der folgenden Optionen im Dropdown-Menü:</p> 
        <ul> 
-        <li> <p><strong>Vorlage</strong>: Fügen Sie im <strong> „Zugriff auf </strong>" Namen hinzu, um anzugeben, wer Zugriff auf die Vorlage selbst haben möchte.</p> <p>Weitere Informationen finden Sie im Abschnitt <a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md#share" class="MCXref xref">Freigeben einer Vorlage</a> im Artikel <a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md" class="MCXref xref">Freigeben von Projektvorlagen</a>.</p> </li> 
+        <li> <p><strong>Vorlage</strong>: Fügen Sie im </strong> „Zugriff auf <strong>" Namen hinzu, um anzugeben, wer Zugriff auf die Vorlage selbst haben möchte.</p> <p>Weitere Informationen finden Sie im Abschnitt <a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md#share" class="MCXref xref">Freigeben einer Vorlage</a> im Artikel <a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md" class="MCXref xref">Freigeben von Projektvorlagen</a>.</p> </li> 
         <li><strong>Projekt</strong> <strong>: Fügen Sie im </strong> „Projektzugriff“ Namen hinzu, um anzugeben, wem Sie Zugriff auf die aus der Vorlage erstellten Projekte gewähren möchten</li> 
        </ul> <p>Das Symbol Freigeben ist nur verfügbar, wenn Sie Freigabezugriff auf alle ausgewählten Vorlagen haben. Weitere Informationen zu diesem Zugriff finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Zugriff auf Vorlagen gewähren</a>.</p> </td> 
      </tr> 

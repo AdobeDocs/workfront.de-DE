@@ -8,10 +8,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 9527a0597f90e20cd611d9f64056b8f7e1116be1
+TQID: https://experienceleague.adobe.com/voAiMROhu9NJkN-WLjPWcpDu-x8YYgtlZNeNWk8dFjA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: ec8965fc-2f75-47f6-a9bb-730e8c2725f3
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '1482'
-ht-degree: 8%
+source-wordcount: 1456
+ht-degree: 6%
 
 ---
 
@@ -25,7 +31,7 @@ ht-degree: 8%
 >
 >Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch keine Einführung in Admin Console erhalten haben. Da nun alle Organisationen in die Adobe Admin Console integriert wurden, müssen Sie diese Aktion über die Adobe Admin Console durchführen.
 >
->Informationen zum Konfigurieren Ihrer Zulassungsliste nach dem Onboarding Ihres Unternehmens für die Adobe Admin Console finden Sie unter [Domains dürfen für Adobe-Apps und -Services nicht verwendet werden](https://helpx.adobe.com/de/enterprise/kb/network-endpoints.html).
+>Informationen zum Konfigurieren Ihrer Zulassungsliste nach dem Onboarding Ihres Unternehmens für die Adobe Admin Console finden Sie unter [Domains dürfen für Adobe-Apps und -Services nicht verwendet werden](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen in Adobe Admin Console integriert wurde, unterscheiden, finden Sie unter [Administrationsunterschiede zwischen Adobe Workfront und Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 

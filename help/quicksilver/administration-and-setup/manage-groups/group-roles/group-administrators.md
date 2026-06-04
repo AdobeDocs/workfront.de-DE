@@ -9,10 +9,16 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 589cf9fb-f195-4b69-a240-3f73e6ca623e
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/Ne32ZVtfFZjrw4kw-c-Tl-j7uEIVz-uBnb7-vxcVcjA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 1%
+source-wordcount: 1037
+ht-degree: 5%
 
 ---
 
@@ -42,7 +48,7 @@ Wenn Sie Workfront-Administrator sind, empfehlen wir, Folgendes zu tun, bevor Si
 * Notieren Sie sich die Anzahl der Gruppen, die Sie in Ihrem System haben.
 * Ermitteln Sie, ob Sie die Zugriffsebene einiger Workfront-Administratoren ändern und sie stattdessen als Gruppenadministratoren festlegen können.
 
-  Weitere Informationen zu den Funktionen von Gruppenadministratoren finden Sie unter [Aufgaben von &#x200B;](#tasks-done-by-group-administrators) in diesem Artikel.
+  Weitere Informationen zu den Funktionen von Gruppenadministratoren finden Sie unter [Aufgaben von ](#tasks-done-by-group-administrators) in diesem Artikel.
 
 * Legen Sie fest, ob Gruppenadministratoren in der Lage sein sollen, sich als andere Benutzer anzumelden, oder die Passwörter für Benutzer in den von Ihnen verwalteten Gruppen zurücksetzen können. Für diese Aufgaben ist zusätzlicher Zugriff erforderlich, wie unten unter [Zugriff für Gruppenadministratoren erforderlich](#access-needed-for-group-administrators) beschrieben.
 * Für eine bessere Benutzerverwaltung sollten Sie ggf. Gruppen oder Untergruppen anstelle von Benutzern den folgenden Objekten zuweisen:
@@ -66,7 +72,7 @@ Es wird empfohlen, dass Gruppenadministratoren Bearbeitungszugriff auf Benutzer 
 >[!IMPORTANT]
 >
 >Gruppenadministratoren müssen höhere Zugriffsrechte als die von ihnen verwalteten haben. Andernfalls können sie niedrigere Zugriffsebenen nicht anzeigen oder ändern.
->&#x200B;>Anweisungen zum Gewähren dieses Zugriffs finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>Anweisungen zum Gewähren dieses Zugriffs finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 Für einen Gruppenadministrator, der Benutzern in ihren Gruppen und Untergruppen Arbeitszeittabellen-Profile zuweisen muss, empfehlen wir außerdem den administrativen Zugriff auf Arbeitszeittabellen und Stunden. Anweisungen zum Gewähren dieses Zugriffs finden Sie unter [Gewähren von administrativem Zugriff für Benutzer auf bestimmte Bereiche](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
@@ -79,11 +85,11 @@ Als Gruppenadministrator können Sie die unten beschriebenen Aufgaben ausführen
 >Im neuen Preis- und Verpackungsmodell benötigen Sie einen Prime-Plan oder höher, um Folgendes durchzuführen:
 >
 > * Erstellen von Gruppenereignis-Benachrichtigungen
-> * Gruppenprojekteinstellungen konfigurieren
-> * Voreinstellungen für Gruppenaufgaben und -Anfragen konfigurieren
-> * Konfiguration von Untergruppeneinstellungen entsperren
-> * Arbeitszeittabelle und Stundeneinstellungen gruppieren
-> * Arbeitszeittabelle und Stundeneinstellungen entsperren
+> * Konfigurieren von Projektvoreinstellungen für Gruppen
+> * Konfigurieren von Aufgaben- und Problemvoreinstellungen für Gruppen
+> * Entsperren der Konfiguration von Untergruppeneinstellungen
+> * Arbeitszeittabellen- und Stundeneinstellungen für Gruppen
+> * Entsperren von Arbeitszeittabellen- und Stundeneinstellungen
 
 ### Gruppenmitglieder verwalten {#manage-group-members}
 
@@ -102,7 +108,7 @@ Als Gruppenadministrator können Sie die unten beschriebenen Aufgaben ausführen
 * Melden Sie sich als Benutzer an, die Mitglieder der von Ihnen verwalteten Gruppen sind. Weitere Informationen finden Sie unter [Als anderer Benutzer anmelden](../../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 * Anzeigen der Anzahl der für Ihre Gruppe verfügbaren Lizenzen und der darunter liegenden Untergruppen Weitere Informationen finden Sie unter [Verfügbare Lizenzen in Ihrem System verwalten](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
-### Gruppenobjekte verwalten {#manage-group-objects}
+### Verwalten von Gruppenobjekten {#manage-group-objects}
 
 * Erstellen Sie Layoutvorlagen auf Gruppenebene und verknüpfen Sie sie mit den von Ihnen verwalteten Gruppen und Untergruppen. Weitere Informationen finden Sie unter [Erstellen und Verwalten von Layout-Vorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 * Erstellen Sie Arbeitszeittabellen-Profile auf Gruppenebene, verknüpfen Sie sie mit von Ihnen verwalteten Benutzern und Gruppen und generieren Sie Arbeitszeittabellen manuell. Weitere Informationen finden Sie unter [Erstellen, Bearbeiten und Zuweisen von Arbeitszeittabellen-Profilen](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).

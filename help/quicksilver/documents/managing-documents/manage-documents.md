@@ -2,20 +2,23 @@
 content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
-title: Dokumente verwalten
+title: Verwalten von Dokumenten
 description: Sie können Dokumente in Workfront im Bereich Dokumente organisieren und verwalten.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 985e4d3d-f07e-46df-b0e3-dd4b0ff59660
-source-git-commit: 060557085c6941fab4ca8df22641679199f5c55b
+TQID: https://experienceleague.adobe.com/zckPUXUuAo9IQhmsUUbphg-ZGHJIcP04Y0HAFLDwo1w
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 0%
+source-wordcount: 106
+ht-degree: 20%
 
 ---
 
-# Dokumente verwalten
+# Verwalten von Dokumenten
 
 Sie können Dokumente in Workfront im Bereich Dokumente organisieren und verwalten.
 
@@ -37,4 +40,4 @@ Dieser Abschnitt enthält die folgenden Artikel: &#x200B;
 * [Überprüfen Sie die Speicherbeschränkungen für Dokumente](../../documents/managing-documents/check-document-storage.md)
 * [Dokumente löschen](../../documents/managing-documents/delete-documents.md)
 * [Einfügen von Bildern aus der Zwischenablage](../../documents/managing-documents/paste-image-clipboard.md)
-* [Dokumente stapelweise bearbeiten](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)
+* [Massenbearbeitung von Dokumenten](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)

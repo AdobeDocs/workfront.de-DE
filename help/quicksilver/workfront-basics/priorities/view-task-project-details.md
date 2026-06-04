@@ -7,15 +7,11 @@ feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
 TQID: https://experienceleague.adobe.com/0he3DEiya4uyF6tdS-xHqhqnSYiQkXijNxwheJVvDU4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: bd7ae926356225423e6f986bef0b216b2a04584c
 workflow-type: tm+mt
 source-wordcount: 409
 ht-degree: 10%
@@ -76,7 +72,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 {{step1-to-priorities}}
 
 1. Bewegen Sie in der Arbeitsliste den Mauszeiger über den Namen des Arbeitselements und klicken Sie dann auf **Zusammenfassung** Symbol ![Zusammenfassung öffnen](assets/summary-icon.png).
-1. Klicken **oben** Zusammenfassungsbereich auf „Projekt“. Hier können Sie
+1. Klicken **oben** Zusammenfassungsbereich auf „Projekt“. Hier können Sie:
    * Projektdetails und -beschreibungen anzeigen und bearbeiten
    * Anzeigen und Hinzufügen von Kommentaren zum Projekt
    * Zeit erfassen
@@ -90,7 +86,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 {{step1-to-priorities}}
 
 1. Bewegen Sie in der Arbeitsliste den Mauszeiger über den Arbeitsnamen und klicken Sie dann auf **Zusammenfassung** Symbol ![Zusammenfassung öffnen](assets/summary-icon.png).
-1. Aufgabe ist standardmäßig ausgewählt. Hier können Sie
+1. Aufgabe ist standardmäßig ausgewählt. Hier können Sie:
    * Projekt- und Aufgabendetails und Beschreibung anzeigen und bearbeiten
    * Anzeigen und Hinzufügen von Kommentaren zum Projekt
    * Dokumente anzeigen und hinzufügen
@@ -127,7 +123,7 @@ Echtzeitaktualisierungen können auf der Detailseite einer Aufgabe oder eines Pr
 
 {{step1-to-priorities}}
 
-1. Klicken Sie in der Arbeitsliste auf den Namen des Arbeitselements. Auf der Seite Details haben Sie folgende Möglichkeiten
+1. Klicken Sie in der Arbeitsliste auf den Namen des Arbeitselements. Auf der Seite Details haben Sie folgende Möglichkeiten:
 
 * Projektdetails und -beschreibungen anzeigen und bearbeiten
 * Anzeigen und Hinzufügen von Kommentaren zum Projekt

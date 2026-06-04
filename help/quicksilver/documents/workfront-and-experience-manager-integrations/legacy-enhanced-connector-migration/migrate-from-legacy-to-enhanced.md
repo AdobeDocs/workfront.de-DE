@@ -6,10 +6,15 @@ description: Im folgenden Prozess werden die Best Practices für den Wechsel vom
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4a8d1e2b-9744-4f72-a337-5057448db4fb
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/px8ysyDqpwzajmCfRPJLclKOUSuIFacl99Uf6sRCKFQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 0%
+source-wordcount: 356
+ht-degree: 5%
 
 ---
 
@@ -30,9 +35,9 @@ Für Kunden mit Adobe Experience Manager Assets as a Cloud Service lautet der Mi
 >
 >Für die Implementierung des erweiterten Connectors ist ein zertifizierter Partner für Adobe Consulting Services erforderlich.
 >
-> Partner, die für den erweiterten Connector zertifizieren möchten, lesen bitte den folgenden Artikel: [Workfront for Experience Manager Enhanced Connector Expert Series](https://experienceleague.adobe.com/de/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview).
+> Partner, die für den erweiterten Connector zertifizieren möchten, lesen bitte den folgenden Artikel: [Workfront for Experience Manager Enhanced Connector Expert Series](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview).
 
-Informationen zum Implementieren des erweiterten Connectors finden Sie unter [Konfigurieren des erweiterten Connectors für Workfront für Experience Manager](https://experienceleague.adobe.com/de/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure).
+Informationen zum Implementieren des erweiterten Connectors finden Sie unter [Konfigurieren des erweiterten Connectors für Workfront für Experience Manager](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure).
 
 
 ## Verschieben vorhandener Assets

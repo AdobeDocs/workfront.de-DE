@@ -10,9 +10,15 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+TQID: https://experienceleague.adobe.com/DPZYagVdnJmk541crPr4k5Lgxh-pyY60E2phgZz1z2k
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: 1663
 ht-degree: 27%
 
 ---
@@ -86,7 +92,7 @@ Die Zugriffsebene des Planers, die ebenfalls an die Planlizenz angehängt ist, i
 * Alle, die für die Planung, Erstellung und Verwaltung von Aufgaben, Projekten, Portfolios und Programmen verantwortlich sind
 * Jeder, der für die Zuweisung von Arbeit (Aufgaben und Probleme) an andere Benutzer verantwortlich ist
 * Benutzer, die Berichte erstellen und Arbeitszeittabellen, Arbeitselemente und Dokumente genehmigen
-* Benutzer, die Zugriff auf alle Bereiche im Hauptmenü (![-Symbol) &#x200B;](assets/main-menu-icon.png) Hauptmenü (![-Symbol](assets/main-menu-icon.png) benötigen, falls verfügbar
+* Benutzer, die Zugriff auf alle Bereiche im Hauptmenü (![-Symbol) ](assets/main-menu-icon.png) Hauptmenü (![-Symbol](assets/main-menu-icon.png) benötigen, falls verfügbar
 
 Sie können eine benutzerdefinierte Version der integrierten Zugriffsebene von Planer erstellen und den Umfang des Zugriffs festlegen, den sie für die verschiedenen Workfront-Objekttypen zulässt. Weitere Informationen finden Sie unter [Erstellen und Ändern benutzerdefinierter Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -106,7 +112,7 @@ Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte au
 | Teams |   |   | ✓ |
 | Vorlagen |   |   | ✓ |
 | Finanzielle Daten |   |   | ✓ |
-| Ressourcen-Management |   |   | ✓ |
+| Ressourcenverwaltung |   |   | ✓ |
 | Szenarienplaner |   |   | ✓ (Die Standardeinstellung ist „Kein Zugriff“.) |
 | Workfront-Ziele |   |   | ✓ (Die Standardeinstellung ist „Kein Zugriff“.) |
 
@@ -122,7 +128,7 @@ Benutzer mit dieser Zugriffsebene:
 * Kann Arbeiten und Dokumente genehmigen, jedoch keine Arbeitszeittabellen
 * Kann auf Berichte zugreifen und sie freigeben
 * Kann mit anderen Benutzenden im System kommunizieren
-* Es können nicht alle Bereiche im Hauptmenü (![-Symbol) &#x200B;](assets/main-menu-icon.png) Hauptmenü (![-Symbol) &#x200B;](assets/main-menu-icon.png), falls verfügbar, aufgerufen werden. Ihr Bereich „Benutzer“ heißt „Teams“. Im Bereich Teams können Benutzer mit dieser Zugriffsebene nur die Teams sehen, denen sie angehören, sowie die diesen Teams zugewiesenen Arbeiten.
+* Es können nicht alle Bereiche im Hauptmenü (![-Symbol) ](assets/main-menu-icon.png) Hauptmenü (![-Symbol) ](assets/main-menu-icon.png), falls verfügbar, aufgerufen werden. Ihr Bereich „Benutzer“ heißt „Teams“. Im Bereich Teams können Benutzer mit dieser Zugriffsebene nur die Teams sehen, denen sie angehören, sowie die diesen Teams zugewiesenen Arbeiten.
 * Sie haben eingeschränkte Möglichkeiten, Objekte zu erstellen. Sie können keine Projekte, Portfolios, Programme oder Berichte erstellen.
 
 Sie können eine benutzerdefinierte Version der integrierten Zugriffsebene von Worker erstellen und den Umfang des Zugriffs festlegen, der für die verschiedenen Workfront-Objekttypen zulässig ist. Weitere Informationen finden Sie unter [Erstellen und Ändern benutzerdefinierter Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
@@ -143,7 +149,7 @@ Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte au
 | Teams |   |   | ✓ (eingeschränkter Zugriff) |
 | Vorlagen | ✓ |   |   |
 | Finanzielle Daten |   | ✓ (Die Standardeinstellung ist Kein Zugriff. Mit der Einstellung „Ansicht“ kann der Benutzer nur den Finanzbereich in den Projektdetails anzeigen.) |   |
-| Ressourcen-Management |   | ✓ |   |
+| Ressourcenverwaltung |   | ✓ |   |
 | Szenarienplaner |   |   | ✓ (Die Standardeinstellung ist „Kein Zugriff“.) |
 | Workfront-Ziele |   |   | ✓ (Die Standardeinstellung ist „Kein Zugriff“.) |
 
@@ -158,7 +164,7 @@ Beispielsweise könnte sich ein Stakeholder mit dieser Zugriffsebene bei Workfro
 Benutzer mit der Zugriffsebene des Reviewers:
 
 * Kann keine Arbeitselemente zugewiesen oder Arbeitszeittabellen genehmigt werden
-* Kann auf die Bereiche Anfragen und Dokumente im Hauptmenü (Hauptmenüsymbol![&#x200B; oder im Hauptmenü (Hauptmenüsymbol](assets/main-menu-icon.png) zugreifen, ![&#x200B; verfügbar](assets/main-menu-icon.png)
+* Kann auf die Bereiche Anfragen und Dokumente im Hauptmenü (Hauptmenüsymbol![ oder im Hauptmenü (Hauptmenüsymbol](assets/main-menu-icon.png) zugreifen, ![ verfügbar](assets/main-menu-icon.png)
 * Sie haben eingeschränkte Möglichkeiten, Objekte zu erstellen. Sie können keine Projekte, Portfolios, Programme oder Berichte erstellen.
 
 Sie können eine benutzerdefinierte Version der integrierten Zugriffsebene des Reviewers erstellen und den Umfang des Zugriffs festlegen, der für die verschiedenen Objekttypen von Workfront ermöglicht wird. Weitere Informationen finden Sie unter [Erstellen und Ändern benutzerdefinierter Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
@@ -305,7 +311,7 @@ Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte au
 | Teams |   | ✓ |   |
 | Vorlagen | ✓ |   |   |
 | Finanzielle Daten | ✓ |   |   |
-| Ressourcen-Management | ✓ |   |   |
+| Ressourcenverwaltung | ✓ |   |   |
 | Szenarienplaner | ✓ |   |   |
 | Workfront-Ziele |   |   | ✓ (Die Standardeinstellung ist „Kein Zugriff“.) |
 
@@ -345,6 +351,6 @@ Obwohl diese Einstellungen für die Zugriffsebene Externer Benutzer nicht im Ber
 | Teams |   | ✓ |   |
 | Vorlagen | ✓ |   |   |
 | Finanzielle Daten | ✓ |   |   |
-| Ressourcen-Management | ✓ |   |   |
+| Ressourcenverwaltung | ✓ |   |   |
 | Szenarienplaner | ✓ |   |   |
 | Workfront-Ziele | ✓ |   |   |

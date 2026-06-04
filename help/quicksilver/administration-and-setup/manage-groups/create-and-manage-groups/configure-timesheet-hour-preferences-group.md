@@ -9,10 +9,16 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/HI9qlIldQ6WFaHJZeoOOJTUK89MaLcxi3TPWKcYc4XE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 1%
+source-wordcount: 1347
+ht-degree: 4%
 
 ---
 
@@ -38,7 +44,7 @@ Informationen dazu, wie Workfront-Admins eine Arbeitszeittabelle und Stundeneins
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +57,7 @@ Informationen dazu, wie Workfront-Admins eine Arbeitszeittabelle und Stundeneins
   <tr> 
    <td>Adobe Workfront-Lizenz</td> 
    <td><p>Standard</p>
-       <p>Plan</p></td>
+       <p>Abo</p></td>
   </tr>
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -60,11 +66,11 @@ Informationen dazu, wie Workfront-Admins eine Arbeitszeittabelle und Stundeneins
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
-## Arbeitszeittabelle und Stundeneinstellungen gruppieren
+## Arbeitszeittabellen- und Stundeneinstellungen für Gruppen
 
 Beachten Sie die folgenden Informationen zum Konfigurieren einer entsperrten Arbeitszeittabelle oder Ihrer Stundenvoreinstellung für eine Gruppe:
 

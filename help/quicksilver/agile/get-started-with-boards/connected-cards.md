@@ -6,11 +6,17 @@ description: Sie können Ihrer Pinnwand eine Karte hinzufügen, die mit bestehen
 author: Courtney
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
+TQID: https://experienceleague.adobe.com/K08J41wUOl-fK3hBl-1KbBlpU48w-kGb8Jgbg8O3r0w
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: 1515
 ht-degree: 5%
 
 ---
@@ -211,11 +217,11 @@ So trennen Sie eine Karte auf Kartenebene:
 
 ## Konvertieren einer Ad-hoc-Karte in eine verbundene Karte
 
-Nachdem Sie eine Ad-hoc-Karte erstellt haben, können Sie sie in eine verbundene Karte konvertieren. Weitere Informationen zu Ad-hoc-Karten finden [&#x200B; unter „Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+Nachdem Sie eine Ad-hoc-Karte erstellt haben, können Sie sie in eine verbundene Karte konvertieren. Weitere Informationen zu Ad-hoc-Karten finden [ unter „Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
 1. Rufen Sie die Pinnwand auf und öffnen Sie die Ad-hoc-Karte.
 1. Überprüfen Sie den Namen und die Beschreibung auf der Karte. Sie werden zu der Aufgabe oder dem Problem hinzugefügt, die bzw. das Sie in [!DNL Workfront] erstellen.
-1. Klicken [!UICONTROL &#x200B; im Bereich &quot;]&quot; der Kartendetails auf **[!UICONTROL Mit Workfront verbinden]**.
+1. Klicken [!UICONTROL  im Bereich &quot;]&quot; der Kartendetails auf **[!UICONTROL Mit Workfront verbinden]**.
 1. Wählen Sie im Fenster [!UICONTROL Karte verbinden] aus, ob Sie eine Aufgabe oder ein Problem erstellen möchten.
 1. Suchen Sie nach einem Projekt und wählen Sie es aus, dem die Aufgabe oder das Problem hinzugefügt werden soll.
 
@@ -236,7 +242,7 @@ Nachdem Sie eine Ad-hoc-Karte erstellt haben, können Sie sie in eine verbundene
 
 Sie müssen über die richtigen Berechtigungen verfügen, um Stunden für die verbundene Aufgabe oder das verbundene Problem zu protokollieren.
 
-Die Zeitprotokollierungsfelder werden nicht standardmäßig auf verbundenen Karten angezeigt. Sie müssen [!UICONTROL **Stunden**] im Bereich [!UICONTROL Konfigurieren] unter &quot;[!UICONTROL &quot; &#x200B;]. Weitere Informationen finden Sie unter [Anpassen der auf einer Karte angezeigten Felder](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
+Die Zeitprotokollierungsfelder werden nicht standardmäßig auf verbundenen Karten angezeigt. Sie müssen [!UICONTROL **Stunden**] im Bereich [!UICONTROL Konfigurieren] unter &quot;[!UICONTROL &quot; ]. Weitere Informationen finden Sie unter [Anpassen der auf einer Karte angezeigten Felder](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
 1. Geben Sie die Anzahl der Stunden für die Aufgabe oder das Problem ein.
 1. Wählen Sie einen [!UICONTROL Stundentyp] aus dem Dropdown-Menü aus, wenn er sich von der Standardeinstellung unterscheidet.

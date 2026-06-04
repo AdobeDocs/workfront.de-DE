@@ -6,11 +6,17 @@ description: Aufgaben und Probleme können einem agilen Team zugewiesen und dem 
 author: Courtney
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: ad56d95f676a2c499ca21fc480cb7de0773f29d4
+TQID: https://experienceleague.adobe.com/JjHAd2LRZNEfB-tWKHrMvT5DOroHf1jDJmLPPj-4-6M
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '1337'
+source-wordcount: 1285
 ht-degree: 4%
 
 ---
@@ -183,7 +189,7 @@ So weisen Sie einem Agile-Team eine Aufgabe oder ein Problem zu:
 1. (Optional) Löschen Sie alle vorhandenen Zugewiesenen.
 1. Klicken Sie **[!UICONTROL Verantwortlichen hinzufügen]**.
 1. Geben Sie den Namen des Agile-Teams ein, das der Aufgabe oder dem Problem zugewiesen werden soll, und klicken Sie dann auf den Team-Namen, wenn er in der Dropdown-Liste angezeigt wird.
-1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
+1. Klicken Sie **[!UICONTROL Änderungen speichern]**.
 Die Aufgabe oder das Problem ist jetzt im Team-Rückstand verfügbar.
 
 ## Storys in den oder aus dem Auftragsbestand verschieben

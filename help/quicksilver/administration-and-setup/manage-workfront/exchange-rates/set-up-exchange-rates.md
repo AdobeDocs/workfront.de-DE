@@ -8,9 +8,14 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: dc71072107ce80f6cb9033fcb17fe4ac74d5af18
+TQID: https://experienceleague.adobe.com/7D54XR0cFqGEbzYzRh9dWHVEKj0xZLR-GYLIe5-0NMo
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '839'
+source-wordcount: 839
 ht-degree: 6%
 
 ---
@@ -81,7 +86,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um die Basiswährung (Standard) zu ändern:
 
    * Aktivieren Sie das Kontrollkästchen neben dem Währungsnamen und wählen Sie **Standard festlegen** in der Aktionsleiste am unteren Bildschirmrand aus.
-   * Bewegen Sie den Mauszeiger über den Währungsnamen und klicken Sie auf das **&#x200B;**&#x200B;Mehr. Wählen Sie dann **Als Standard festlegen** aus.
+   * Bewegen Sie den Mauszeiger über den Währungsnamen und klicken Sie auf das **** Mehr. Wählen Sie dann **Als Standard festlegen** aus.
 
      Die neue Standardwährung wird mit dem Symbol ![Standardwährungssymbol](assets/default-icon.png) aktualisiert.
 
@@ -123,7 +128,7 @@ Benutzer können die Standardwährung für ein Projekt ändern, wenn die folgend
 
 * Auf dem Workfront-System ist mehr als eine Währung aktiviert.
 
-Informationen dazu, wie Benutzer die Standardwährung für ein bestimmtes Projekt ändern können, finden Sie unter [Ändern der &#x200B;](../../../manage-work/projects/project-finances/change-project-currency.md).
+Informationen dazu, wie Benutzer die Standardwährung für ein bestimmtes Projekt ändern können, finden Sie unter [Ändern der ](../../../manage-work/projects/project-finances/change-project-currency.md).
 
 ## Benutzern ermöglichen, die Standardwährung für ein Aufgabengebiet zu ändern
 

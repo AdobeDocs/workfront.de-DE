@@ -6,11 +6,16 @@ description: Sie können die folgenden Optionen für Agile-Teams von Scrum währ
 author: Courtney
 feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 14b3bfaf16a4ab8749538b32100ce6363a3a9335
+TQID: https://experienceleague.adobe.com/gt8WP9pWYnTzQ4cyQTzj31PuZ8yH9JpkVRYoReTEj6w
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
 workflow-type: tm+mt
-source-wordcount: '1727'
+source-wordcount: 1727
 ht-degree: 2%
 
 ---
@@ -30,7 +35,7 @@ In diesem Artikel wird beschrieben, wie Sie die Einstellungen für ein Scrum-Tea
 * Verwendung von Farbindikatoren für Storys im Agile-Story-Board
 * Anwenden von Datumsangaben beim Hinzufügen von Arbeitselementen zu einer Iteration
 
-Informationen zum Konfigurieren eines Kanban-Teams finden Sie unter [Konfigurieren von &#x200B;](/help/quicksilver/agile/get-started-with-agile-in-workfront/configure-kanban.md)).
+Informationen zum Konfigurieren eines Kanban-Teams finden Sie unter [Konfigurieren von ](/help/quicksilver/agile/get-started-with-agile-in-workfront/configure-kanban.md)).
 
 ## Zugriffsanforderungen
 
@@ -128,7 +133,7 @@ So definieren Sie die Status, die für das mit dem Agile-Team verknüpfte Story 
 
    >[!NOTE]
    >
-   >Bei der Auswahl von Problemstatus wird in der dritten Spalte standardmäßig immer &quot;[!UICONTROL &quot; &#x200B;]. Wenn Sie mehr als drei Spalten haben, stellen Sie sicher, dass Sie die Spalten manuell aktualisieren, damit sie die richtigen Status widerspiegeln.
+   >Bei der Auswahl von Problemstatus wird in der dritten Spalte standardmäßig immer &quot;[!UICONTROL &quot; ]. Wenn Sie mehr als drei Spalten haben, stellen Sie sicher, dass Sie die Spalten manuell aktualisieren, damit sie die richtigen Status widerspiegeln.
 
 1. Klicken Sie **[!UICONTROL Änderungen speichern]**.
 
@@ -188,9 +193,9 @@ So ändern Sie das Verhalten bei der Zuweisung von Farben zu Storys für ein Agi
 
    Nur Team-Mitglieder mit entweder einer [!UICONTROL Standard], [!UICONTROL Plan] oder [!UICONTROL Work]-Lizenz sehen diese Option.
 
-1. Wählen [!UICONTROL &#x200B; im Abschnitt &#x200B;] im Bereich [!UICONTROL Kartenfarbe &#x200B;] verknüpfen“ eine der folgenden Optionen aus:
+1. Wählen [!UICONTROL  im Abschnitt ] im Bereich [!UICONTROL Kartenfarbe ] verknüpfen“ eine der folgenden Optionen aus:
 
-   * **[!UICONTROL Projekt]**: Farben sind mit dem Projekt verknüpft, an das die Story gebunden ist. (Wenn eine Story erstellt wird, muss sie einem Projekt zugeordnet werden, wie unter „Erstellen [&#x200B; Agile-Story](/help/quicksilver/agile/work-in-an-agile-environment/create-an-agile-story.md) beschrieben. Alle Aufgaben aus demselben Projekt werden in derselben Farbe angezeigt.
+   * **[!UICONTROL Projekt]**: Farben sind mit dem Projekt verknüpft, an das die Story gebunden ist. (Wenn eine Story erstellt wird, muss sie einem Projekt zugeordnet werden, wie unter „Erstellen [ Agile-Story](/help/quicksilver/agile/work-in-an-agile-environment/create-an-agile-story.md) beschrieben. Alle Aufgaben aus demselben Projekt werden in derselben Farbe angezeigt.
    * **[!UICONTROL Freiform]**: Alle Karten werden standardmäßig blau angezeigt, bis ein Benutzer die Farbe manuell ändert, wie [[!UICONTROL Storys nach Farbe kategorisieren] auf dem Scrum-Board beschrieben](/help/quicksilver/agile/use-scrum-in-an-agile-team//scrum-board/categorize-stories-by-color.md).
    * **[!UICONTROL Priorität]**: Der Story-Priorität sind Farben wie folgt zugeordnet:
 
@@ -218,7 +223,7 @@ Wenn Sie ein Arbeitselement zu einer Scrum-Iteration hinzufügen, werden standar
 
    * **[!UICONTROL Ändern Sie das geplante Startdatum und das geplante Abschlussdatum entsprechend dem Start- und Enddatum der Iteration]**: Wenn Arbeitselemente zu einer Iteration hinzugefügt werden, werden die Datumsangaben der Arbeitselemente in die Daten der Iteration geändert.
 
-     Weitere Informationen dazu, wie die Datumsangaben geändert werden, finden Sie im Abschnitt [Informationen dazu, wie sich das Hinzufügen von Storys auf &#x200B;](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understand-how-adding-stories-affects-task-dates) Aufgabendaten auswirkt im Artikel [Hinzufügen von Storys zu einer vorhandenen Iteration](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+     Weitere Informationen dazu, wie die Datumsangaben geändert werden, finden Sie im Abschnitt [Informationen dazu, wie sich das Hinzufügen von Storys auf ](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understand-how-adding-stories-affects-task-dates) Aufgabendaten auswirkt im Artikel [Hinzufügen von Storys zu einer vorhandenen Iteration](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
 
    * **[!UICONTROL Ändern Sie das geplante Startdatum und das geplante Abschlussdatum nicht entsprechend dem Start- und Enddatum der Iteration]**: Wenn Arbeitselemente zu einer Iteration hinzugefügt werden, behalten die Arbeitselemente ihr ursprüngliches Datum bei.
 

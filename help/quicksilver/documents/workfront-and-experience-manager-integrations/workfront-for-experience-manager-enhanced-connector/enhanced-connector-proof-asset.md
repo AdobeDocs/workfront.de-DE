@@ -6,10 +6,15 @@ description: Nachdem Sie ein Asset aus Experience Manager Assets verknüpft habe
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: d72ac84f-1865-4122-bc77-d8200a4d0f69
-source-git-commit: 3f9a824780f2ded914d461a473aef3b6ecfa8701
+TQID: https://experienceleague.adobe.com/hM4RFyi3jYJivKSovgU5lqP4zhdQSeH6SCWDgxL-rMk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 3%
+source-wordcount: 387
+ht-degree: 17%
 
 ---
 
@@ -19,7 +24,7 @@ Nachdem Sie ein Asset aus Experience Manager Assets verknüpft haben, können Si
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,7 +38,7 @@ Nachdem Sie ein Asset aus Experience Manager Assets verknüpft haben, können Si
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> 
    <p>Standard</p>
-   <p>Arbeit oder höher</p> 
+   <p>Work oder höher</p> 
     </td> 
   </tr> 
   <tr> 
@@ -42,7 +47,7 @@ Nachdem Sie ein Asset aus Experience Manager Assets verknüpft haben, können Si
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p></td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
@@ -52,7 +57,7 @@ Nachdem Sie ein Asset aus Experience Manager Assets verknüpft haben, können Si
 </table>
 
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -87,7 +92,7 @@ So erstellen Sie einen Korrekturabzug:
      </tr> 
      <tr> 
       <td role="rowheader">Erweiterter Korrekturabzug</td> 
-      <td> <p>Mit dieser Option können Sie einen einfachen oder erweiterten Workflow konfigurieren und die Korrekturabzugseinstellungen für den von Ihnen erstellten Korrekturabzug ändern. Weitere Informationen finden Sie unter  </p> 
+      <td> <p>Mit dieser Option können Sie einen einfachen oder erweiterten Workflow konfigurieren und die Korrekturabzugseinstellungen für den von Ihnen erstellten Korrekturabzug ändern. Weitere Informationen finden Sie unter </p> 
        <ul> 
         <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">Erstellen eines erweiterten Korrekturabzugs mit einem einfachen Workflow</a> </p> </li> 
         <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md" class="MCXref xref">Erstellen eines erweiterten Korrekturabzugs mit einem automatisierten Workflow</a> </p> </li> 
@@ -115,4 +120,4 @@ Zugewiesene Reviewer können beispielsweise folgende Aufgaben ausführen
 * Versionen vergleichen
 * Testversand genehmigen oder ablehnen
 
-Weitere Informationen dazu, was Sie mit dem Proofing-Tool tun können, finden Sie unter [Testsendungen in Adobe Workfront &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+Weitere Informationen dazu, was Sie mit dem Proofing-Tool tun können, finden Sie unter [Testsendungen in Adobe Workfront ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).

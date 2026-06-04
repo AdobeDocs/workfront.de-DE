@@ -5,61 +5,66 @@ content-type: reference
 product-area: system-administration
 keywords: Lizenz,Typ
 navigation-topic: access-levels
-description: Ihr Unternehmen hat beim Kauf von Adobe Workfront eine bestimmte Anzahl von Lizenzen erworben. Als Workfront-Administrator geben Sie jedem Benutzer eine von drei neuen Workfront-Lizenzen, wenn Sie dem Benutzer eine Zugriffsebene zuweisen.
+description: Ihre Organisation hat beim Kauf von Adobe Workfront eine bestimmte Anzahl von Lizenzen erworben. Als Workfront-Admin weisen Sie jedem Benutzer bzw. jeder Benutzerin eine von drei Arten neuer Workfront-Lizenzen zu, wenn Sie der Person eine Zugriffsebene zuweisen.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
-source-git-commit: 0ccf02a333b41705a582bcb10ab9a90198123997
+TQID: https://experienceleague.adobe.com/3C7cVwQbr8imqQsl3lQGT9u1XCiYAXGwZ3ruPFDqdu0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 2%
+source-wordcount: 369
+ht-degree: 99%
 
 ---
 
-# Lizenzen - Überblick
+# Überblick über Lizenzen
 
 <!-- Audited: 12/2023 -->
 
 >[!NOTE]
 >
->Die Informationen in diesem Artikel beziehen sich auf die aktuellen Zugriffsebenen. Informationen zu den alten Zugriffsebenen finden Sie unter [Zugriffsebenen - Übersicht](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+>Die Informationen in diesem Artikel beziehen sich auf die aktuellen Zugriffsebenen. Informationen zu den alten Zugriffsebenen finden Sie unter [Überblick über Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
-Ihr Unternehmen hat beim Kauf von Adobe Workfront eine bestimmte Anzahl von Lizenzen erworben. Als Workfront-Administrator geben Sie jedem Benutzer eine von zwei Arten von Workfront-Lizenzen, wenn Sie dem Benutzer eine Zugriffsebene zuweisen.
+Ihre Organisation hat beim Kauf von Adobe Workfront eine bestimmte Anzahl von Lizenzen erworben. Als Workfront-Admin weisen Sie jedem Benutzer bzw. jeder Benutzerin eine von zwei Arten von Workfront-Lizenzen zu, wenn Sie der Person eine Zugriffsebene zuweisen.
 
-## Wie neue Workfront-Lizenzen und neue Zugriffsebenen miteinander verknüpft werden
+## Wie neue Workfront-Lizenzen und neue Zugriffsebenen miteinander verbunden sind
 
-Die beiden neuen Workfront-Lizenztypen ermöglichen verschiedene Stufen des Zugriffs auf Workfront. Jede Zugriffsebene ist mit einer dieser Lizenzen verbunden.
+Die beiden Arten neuer Workfront-Lizenzen ermöglichen verschiedene Ebenen des Zugriffs auf Workfront. Jede Zugriffsebene ist mit einer dieser Lizenzen verbunden.
 
-Anstatt einem Benutzer eine Lizenz zuzuweisen, weisen Sie ihm die Zugriffsebene zu, die mit dieser Lizenz verbunden ist.
+Anstatt einem Benutzer bzw. einer Benutzerin eine Lizenz zuzuweisen, weisen Sie ihm bzw. ihr die Zugriffsebene zu, die mit dieser Lizenz verbunden ist.
 
-In der folgenden Tabelle und Abbildung sind die wichtigsten Zugriffsebenen auf Workfront dargestellt:
+In der folgenden Tabelle und Abbildung sind die wichtigsten Zugriffsebenen für Workfront dargestellt:
 
 | Lizenz | Zugeordnete Zugriffsebene |
 |--- |--- |
-| Standard | Systemadministrator, Standard |
-| Leicht | Leicht |
-| Mitwirkender oder Mitwirkende | Mitwirkender oder Mitwirkende |
-| Extern* | Externer Benutzer |
+| Standard | Systemadmin, Standard |
+| Light | Light |
+| Mitwirkende | Mitwirkende |
+| Extern* | Externe Benutzende |
 
 >[!NOTE]
 >
->Die externe Lizenz ist keine bezahlte Lizenz. Sie wurde in erster Linie für die Freigabe von Dokumenten für Personen entwickelt, die Workfront nicht verwenden. Weitere Informationen finden Sie unter [Übersicht über Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
+>Die externe Lizenz ist keine kostenpflichtige Lizenz. Sie wurde in erster Linie für die Freigabe von Dokumenten für Personen entwickelt, die Workfront nicht verwenden. Weitere Informationen finden Sie unter [Überblick über Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
-## Definieren einer Zugriffsebene durch eine Lizenz
+## So bestimmt eine Lizenz die Zugriffsebene
 
-Die an eine Zugriffsebene angehängte Lizenz bestimmt den gesamten Funktionsumfang, der auf der Zugriffsebene verfügbar ist.
+Die mit einer Zugriffsebene verbundene Lizenz bestimmt den gesamten Funktionsumfang, der auf der Zugriffsebene verfügbar ist.
 
-Sie können eine standardmäßige Zugriffsebene kopieren und die Kopie nach Bedarf für Ihre Benutzer anpassen. Innerhalb des durch die Lizenz für die kopierte Zugriffsebene zulässigen Funktionsumfangs können Sie die Zugriffseinstellungen an die Anforderungen der Benutzenden anpassen.
+Sie können eine standardmäßige Zugriffsebene kopieren und die Kopie nach Bedarf für Ihre Benutzenden anpassen. Innerhalb des durch die Lizenz für die kopierte Zugriffsebene zulässigen Funktionsumfangs können Sie die Zugriffseinstellungen an die Anforderungen der Benutzenden anpassen.
 
-Weitere Informationen finden Sie unter [Übersicht über Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) und [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Weitere Informationen finden Sie unter [Überblick über Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) und [Erstellen oder Ändern von benutzerdefinierten Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Lizenzanzahl
 
-Wenn Sie einem Benutzer eine Zugriffsebene zuweisen, wird die verfügbare Lizenzanzahl um 1 reduziert.
+Wenn Sie einer Person eine Zugriffsebene zuweisen, wird die verfügbare Lizenzanzahl um 1 reduziert.
 
-Wenn Sie beispielsweise einem Benutzer die Zugriffsebene Standard zuweisen, wird die Anzahl der verfügbaren Standardlizenzen um 1 reduziert.
+Wenn Sie beispielsweise einer Person die Zugriffsebene „Standard“ zuweisen, wird die Anzahl der verfügbaren Standard-Lizenzen um 1 reduziert.
 
-Sie können die Ihren Benutzern zugewiesenen Lizenzen und Zugriffsebenen anzeigen. Weitere Informationen finden Sie unter [Auflisten der Zugriffsebenen und Lizenzen Ihrer Benutzer](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).
+Sie können die Ihren Benutzenden zugewiesenen Lizenzen und Zugriffsebenen anzeigen. Weitere Informationen finden Sie unter [Auflisten der Zugriffsebenen und Lizenzen von Benutzenden](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).
 
-Informationen zum Verwalten Ihrer Lizenzen finden Sie unter [Verfügbare Lizenzen in Ihrem System verwalten](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+Informationen zum Verwalten Ihrer Lizenzen finden Sie unter [Verwalten verfügbarer Lizenzen in Ihrem System](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).

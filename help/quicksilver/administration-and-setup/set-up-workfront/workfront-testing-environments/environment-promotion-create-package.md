@@ -3,20 +3,25 @@ user-type: administrator
 content-type: how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: Erstellen oder Bearbeiten eines Umgebungs-Promotion-Pakets
+title: Erstellen oder Bearbeiten eines Umgebungsförderungspakets
 description: Die Funktion zum Hochstufen der Umgebung soll die Möglichkeit bieten, konfigurationsbezogene Objekte von einer Umgebung in eine andere zu verschieben. Erfahren Sie, wie Sie ein Umgebungs-Promotion-Paket erstellen, das Sie dann in einer anderen Umgebung installieren können.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
+TQID: https://experienceleague.adobe.com/wEVyLIZPMoEV-I4LDF6eqHbiFC-dr7bZouMPN4j-Jgw
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '792'
-ht-degree: 0%
+source-wordcount: 775
+ht-degree: 4%
 
 ---
 
-# Erstellen oder Bearbeiten eines Umgebungs-Promotion-Pakets
+# Erstellen oder Bearbeiten eines Umgebungsförderungspakets
 
 Sie müssen ein Paket in der Umgebung erstellen, aus der Sie Objekte (**)** möchten. Wenn Sie beispielsweise ein Projekt in Ihrer benutzerdefinierten Aktualisierungs-Sandbox-Umgebung konfigurieren und es in Ihre Produktionsumgebung übertragen, müssen Sie das Paket in Ihrer benutzerdefinierten Aktualisierungs-Sandbox-Umgebung erstellen.
 
@@ -49,12 +54,12 @@ Sie müssen über Folgendes verfügen:
   </tr>
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 ## Erstellen eines Pakets
 
-1. Wechseln Sie zu der Umgebung, in der Sie das Paket erstellen möchten. Dies ist die Umgebung, aus der Sie Objekte **&#x200B;**.
-1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **&#x200B;**&#x200B;Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
+1. Wechseln Sie zu der Umgebung, in der Sie das Paket erstellen möchten. Dies ist die Umgebung, aus der Sie Objekte ****.
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **** Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
 1. Wählen Sie **linken Navigationsbereich die Option** System“ und dann **Umgebungs-Promotion** aus.
 1. Klicken Sie **Paket erstellen**.
 
@@ -80,7 +85,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 1. (Optional) Um ein Objekt aus dem Paket zu entfernen, bewegen Sie den Mauszeiger über das Objekt im Bereich Paketinhalt und klicken Sie dann auf das X neben dem Objekt.
 1. Nachdem Sie alle gewünschten Objekte zum Paket hinzugefügt haben, klicken Sie auf **Speichern und schließen** um das Paket zu speichern, ohne es zusammenzustellen.
 
-   Oder
+   ODER
 
    Klicken Sie **Speichern und**), um das Paket zu speichern und zusammenzustellen.
 
@@ -94,7 +99,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 Ein Paket muss `DRAFT` Status haben, damit es bearbeitet werden kann.
 
 1. Wechseln Sie zu der Umgebung, in der Sie das Paket bearbeiten möchten. Dies ist die Umgebung, in der das Paket ursprünglich erstellt wurde.
-1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **&#x200B;**&#x200B;Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **** Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
 1. Wählen Sie **linken Navigationsbereich die Option** System“ und dann **Umgebungs-Promotion** aus.
 1. Wählen Sie das Paket aus der angezeigten Liste aus.
 1. (Bedingt) Um deaktivierte Pakete anzuzeigen, aktivieren Sie die Option **Eingestellte Pakete anzeigen**.
