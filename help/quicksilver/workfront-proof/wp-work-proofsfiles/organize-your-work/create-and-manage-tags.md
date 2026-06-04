@@ -7,9 +7,14 @@ description: Sie können Tags erstellen und bearbeiten und sie auf Ihre Korrektu
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb720a1b-5136-4158-9ea0-bcb5755e1761
-source-git-commit: 8e903592456512f1ebf5f1e8d6e496e577a7b352
+TQID: https://experienceleague.adobe.com/sIZ53VhqzZxlud-4OEFP-voJIjJXjNd2x2hog8UHmzs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: 915
 ht-degree: 0%
 
 ---
@@ -85,7 +90,7 @@ Weitere Informationen zu diesen Profilen und Berechtigungen finden Sie unter [Pr
 Die Tags, die auf einen Korrekturabzug oder eine Datei angewendet werden, werden auf der Seite „Korrekturabzugsdetails“ bzw. auf der Seite „Dateidetails“ angezeigt. Auf dieser Seite können Sie Tags anzeigen, ändern und entfernen. Weitere Informationen finden Sie unter [Verwalten von Korrekturabzugsdetails in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) und [Verwalten von Dateien in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md).
 
 1. Öffnen Sie die Seite mit den Korrekturabzugsdetails für einen Korrekturabzug, wie unter [Verwalten von Korrekturabzugsdetails in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) beschrieben.\
-   Oder\
+   ODER\
    Öffnen Sie die Seite mit den Dateidetails für eine Datei, wie in [Verwalten von Dateien in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) beschrieben.\
    Alle auf das Element angewendeten Tags werden in der Nähe der oberen rechten Ecke angezeigt.\
    ![tags_on_details_page.png](assets/tags-on-details-page-350x114.png)
@@ -98,7 +103,7 @@ Die Tags, die auf einen Korrekturabzug oder eine Datei angewendet werden, werden
 
 ## Suchen nach einem Element mithilfe eines Tag-Namens
 
-Sie können nach einem Element suchen, indem Sie den Namen eines Tags verwenden, von dem Sie wissen, dass es auf das Element angewendet wird.Wenn Sie ein Element für jemanden freigeben, können sie auf die gleiche Weise nach diesem Element suchen.So zeigen Sie eine Liste aller Elemente an, auf die das Tag angewendet wurde:
+Sie können mit dem Namen eines Tags nach einem Element suchen, von dem Sie wissen, dass es auf das Element angewendet wird.Wenn Sie ein Element für andere freigeben, können diese auf dieselbe Weise nach diesem Element suchen.So zeigen Sie eine Liste aller Elemente an, auf die das Tag angewendet wurde:
 
 1. Öffnen Sie in einer beliebigen Listenansicht oder im Dashboard die Registerkarte **[!UICONTROL Tags]** in der linken Seitenleiste und klicken Sie dann auf das Tag in der Liste der angezeigten Tags.\
    ![Searching_by_tag.png](assets/searching-by-tag-350x209.png)\

@@ -8,9 +8,19 @@ description: Ein Korrekturabzug ist eine statische Audio- oder Videodatei, die i
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb0eb160-4bcf-4bc1-ad13-df19f692bef6
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+TQID: https://experienceleague.adobe.com/0oYcd7WkVWw4a1mX8yXtOSdmcqcXXC2cxNbXTarsQt0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: 1370
 ht-degree: 2%
 
 ---
@@ -31,7 +41,7 @@ Ein Korrekturabzug ist eine statische Audio- oder Videodatei, die in der Korrekt
 
 ### Antwort
 
-Testsendungen können aus statischen, Audio- und Videodateien erstellt werden. Dateien mit mehr als 4 GB können nicht hochgeladen werden. [!DNL Workfront] unterstützt mehr als 150 Dateitypen (eine vollständige Liste finden Sie [Unterstützte Proofing-Dateitypen ](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md) Größenbeschränkungen - Übersicht).
+Testsendungen können aus statischen, Audio- und Videodateien erstellt werden. Dateien mit mehr als 4 GB können nicht hochgeladen werden. [!DNL Workfront] unterstützt mehr als 150 Dateitypen (eine vollständige Liste finden Sie [Unterstützte Proofing-Dateitypen &#x200B;](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md) Größenbeschränkungen - Übersicht).
 
 ## Was ist der Unterschied zwischen einem Korrekturabzug und einer Datei?
 
@@ -121,9 +131,9 @@ Wenn Ihr Unternehmen von Validierungsverantwortlichen verlangt, dass diese Korre
 
 ### Antwort
 
-Sie können bei der Erstellung des Korrekturabzugs eine Frist für einen neuen Korrekturabzug oder eine neue Korrekturabzugsversion festlegen. Dies tun Sie im Abschnitt [!UICONTROL Workflow] der Seite [!UICONTROL Neuer ]). Wenn Sie [!UICONTROL automatisierten Workflow] verwenden, können Sie für jeden Schritt Ihrer Überprüfung eine andere Frist festlegen.
+Sie können bei der Erstellung des Korrekturabzugs eine Frist für einen neuen Korrekturabzug oder eine neue Korrekturabzugsversion festlegen. Dies tun Sie im Abschnitt [!UICONTROL Workflow] der Seite [!UICONTROL Neuer &#x200B;]). Wenn Sie [!UICONTROL automatisierten Workflow] verwenden, können Sie für jeden Schritt Ihrer Überprüfung eine andere Frist festlegen.
 
-Sie können auch eine Frist für einen vorhandenen Korrekturabzug auf der Seite [!UICONTROL Details des Korrekturabzugs“ festlegen ] aktualisieren. Weitere Informationen finden Sie unter [Verwalten von Korrekturabzugsdetails in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+Sie können auch eine Frist für einen vorhandenen Korrekturabzug auf der Seite [!UICONTROL Details des Korrekturabzugs“ festlegen &#x200B;] aktualisieren. Weitere Informationen finden Sie unter [Verwalten von Korrekturabzugsdetails in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
 ## Wie kann ich eine neue Version meines Korrekturabzugs erstellen?
 

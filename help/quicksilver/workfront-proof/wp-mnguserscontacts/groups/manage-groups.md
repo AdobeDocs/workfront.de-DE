@@ -7,9 +7,19 @@ description: Als  [!DNL Workfront Proof]  können Sie Ihre öffentlichen und pri
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bb4cfe03-d2c8-47f5-8c5c-de5218935ab5
-source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
+TQID: https://experienceleague.adobe.com/LIZUQVXJnYbKZtmgZ6IhMJTv6Wo2AnFh8Y1M5bo6EfY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: 555
 ht-degree: 0%
 
 ---
@@ -59,7 +69,7 @@ Auf der Seite [!UICONTROL Gruppen] haben Sie folgende Möglichkeiten:
 Sie können Gruppen nach Gruppennamen, Datenschutzstatus und Beschreibung sortieren.
 
 1. Klicken Sie auf die Spaltenüberschrift, nach der Sie sortieren möchten.
-ODER
+oder
 Wählen Sie im Menü Sortieren eine Sortieroption aus.
    ![Groups_page-sort_menu.png](assets/groups-page-sort-menu-350x80.png)
 Das Dreieck in einer Spaltenüberschrift gibt die Sortierreihenfolge an. Nach oben zeigt es eine aufsteigende Reihenfolge an, nach unten zeigt es eine absteigende Reihenfolge an.
@@ -70,13 +80,13 @@ Das Dreieck in einer Spaltenüberschrift gibt die Sortierreihenfolge an. Nach ob
    ![Group_page-filter_icon_and_options.png](assets/group-page-filter-icon-and-options-350x134.png)
 
 1. Wählen Sie [!UICONTROL Filteroptionen] aus den Dropdown-Menüs aus und geben Sie die Filterfelder ein, die unter den einzelnen Spaltenüberschriften angezeigt werden. Klicken Sie dann erneut auf das **[!UICONTROL Filter]**-Symbol, um die Optionen anzuwenden.
-ODER\
+oder\
    Wählen Sie den ersten Buchstaben im Gruppennamen.
    ![Groups_page-filters_by_letter.png](assets/groups-page-filtering-by-letter-350x245.png)
 
 ## Anzeigen und Bearbeiten von Gruppendetails
 
-1. Klicken Sie auf **[!UICONTROL Mehr]** ganz rechts neben dem Gruppennamen und klicken Sie dann **[!UICONTROL Dropdown-Menü auf]**Gruppendetails anzeigen“.
+1. Klicken Sie auf **[!UICONTROL Mehr]** ganz rechts neben dem Gruppennamen und klicken Sie dann **[!UICONTROL Dropdown-Menü auf]**&#x200B;Gruppendetails anzeigen“.
 Auf der angezeigten Seite können Sie alle Personen anzeigen, die sich derzeit in der Gruppe befinden, zusammen mit ihren Standardrollen und E-Mail-Warnhinweisen für die Gruppe.
 
 1. Führen Sie einen der folgenden Schritte aus, um die Gruppendetails zu bearbeiten:

@@ -8,9 +8,21 @@ description: Um ein neues Konto zu eröffnen, gehen Sie zur Seite „Testanmeldu
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 47092717-3895-40a3-9db1-0009638e2544
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/tbPBGXTzfjmKuYgp32iFR6NsQCNf8sHZj4IH0zUXwt4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: 875
 ht-degree: 0%
 
 ---
@@ -39,7 +51,7 @@ Navigieren Sie zur [Anmeldeseite](https://app.proofhq.com/login) und klicken Sie
 
 ## Warum sind Berechtigungsprofile wichtig?
 
-Berechtigungsprofile definieren, welchen Zugriff Personen auf verschiedene Elemente in Ihrem Konto haben. Dies ist wichtig, wenn Sie verhindern möchten, dass andere Benutzer Korrekturabzüge sehen können oder auf [!UICONTROL Kontoeinstellungen“ oder „Abrechnung] [!UICONTROL  zugreifen ]. Sehen Sie sich den Artikel [Profile für Korrekturabzugsberechtigungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) an, um zu sehen, welche Profile in [!DNL Workfront Proof] verfügbar sind.
+Berechtigungsprofile definieren, welchen Zugriff Personen auf verschiedene Elemente in Ihrem Konto haben. Dies ist wichtig, wenn Sie verhindern möchten, dass andere Benutzer Korrekturabzüge sehen können oder auf [!UICONTROL Kontoeinstellungen“ oder „Abrechnung] [!UICONTROL &#x200B; zugreifen &#x200B;]. Sehen Sie sich den Artikel [Profile für Korrekturabzugsberechtigungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) an, um zu sehen, welche Profile in [!DNL Workfront Proof] verfügbar sind.
 
 Wenn Sie die Berechtigungen etwas weiter präzisieren müssen, sollten Sie benutzerdefinierte Profile in Betracht ziehen. Dies ist eine [!UICONTROL unbegrenzte] Funktion, mit der Sie Ihre eigenen Profile mit benutzerdefinierten Berechtigungen erstellen können. Weitere Informationen finden Sie im Artikel [[!UICONTROL Erstellen und Verwalten von benutzerdefinierten Profilen mithilfe von [!DNL Workfront Proof]]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md) .
 
@@ -55,7 +67,7 @@ Die häufigste Methode zum Organisieren von Testsendungen und Dateien besteht da
 
 Sie können beispielsweise für jeden Client separate Ordner und dann für jedes Projekt verschiedene Unterordner erstellen. Alternativ können Sie Ordner für Projekte und Unterordner für verschiedene Assets erstellen. Wenn Sie es vorziehen, können Korrekturabzug-Ersteller einfach ihren eigenen Ordner für die von ihnen erstellten Korrekturabzüge erstellen. Ordner werden im Artikel [Ordner in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md) beschrieben.
 
-*Tags* sind eine weitere Möglichkeit, Testsendungen und Dateien in Ihrem Konto zu organisieren. Sie können mehrere Tags auf Ihre Korrekturabzüge und Dateien anwenden, sodass Sie sie für Projektnamen, Inhaltstypen, Kundennamen usw. verwenden können. Sie können das Konto mithilfe von Tags durchsuchen und dann unterschiedliche Aktionen für die Ergebnisse Ihrer Suche durchführen. Sie können sie auch in Ihren benutzerdefinierten Ansichten verwenden. Weitere Informationen zu Tags finden Sie im Artikel [[!UICONTROL Erstellen und Verwalten ] Tags [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md) in .
+*Tags* sind eine weitere Möglichkeit, Testsendungen und Dateien in Ihrem Konto zu organisieren. Sie können mehrere Tags auf Ihre Korrekturabzüge und Dateien anwenden, sodass Sie sie für Projektnamen, Inhaltstypen, Kundennamen usw. verwenden können. Sie können das Konto mithilfe von Tags durchsuchen und dann unterschiedliche Aktionen für die Ergebnisse Ihrer Suche durchführen. Sie können sie auch in Ihren benutzerdefinierten Ansichten verwenden. Weitere Informationen zu Tags finden Sie im Artikel [[!UICONTROL Erstellen und Verwalten &#x200B;] Tags [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md) in .
 
 ## Wie kann ich meinen Kunden ein Dashboard geben?
 

@@ -7,10 +7,19 @@ description: Mit Korrekturabzug-Rollen können Sie Benutzern Berechtigungen erte
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b371cc20-4226-49ce-96c6-9815b2e84713
-source-git-commit: 6e24b9c717ecedd6efbdf62ec01e53ac98079cfe
+TQID: https://experienceleague.adobe.com/-kFiMr-1GYxY3JvfHTW0NBNupGvnob0KuzELquFISDI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1306'
-ht-degree: 1%
+source-wordcount: 1317
+ht-degree: 2%
 
 ---
 
@@ -36,7 +45,7 @@ Die folgenden Korrekturabzug-Rollen werden Benutzenden für einen einzelnen Korr
 * [Prüfende Person](#reviewer)
 * [Genehmigende Person](#approver)
 * [Prüfer und genehmigende Person](#reviewer-approver)
-* [Verfassende Person](#author)
+* [Autor](#author)
 * [Moderierende Person](#moderator)
 
 Die Rolle des Korrekturabzugs definiert, welche Aktionen ein Prüfer in Bezug auf diesen spezifischen Korrekturabzug durchführen kann.
@@ -47,7 +56,7 @@ Bestimmte Korrekturabzug-Rollen verleihen einem Prüfer Bearbeitungsrechte für 
 
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
-* [Aktionen für Korrekturabzugskommentare verwenden](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)
+* [Verwenden von Aktionen für Kommentare zu Korrekturabzügen](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)
 * [Freigeben eines Korrekturabzugs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)
 
 ### Schreibgeschützt
@@ -118,7 +127,7 @@ Weitere Informationen finden Sie unter [Freigeben von Ordnern in [!DNL Workfront
 
 ![no.png](assets/no.png) Verfügt nicht über Bearbeitungsrechte für den Korrekturabzug
 
-### Verfassende Person {#author}
+### Autor {#author}
 
 ![cleaner.png](assets/cleaner.png) Kann Markierungen hinzufügen
 
@@ -234,7 +243,7 @@ Standardmäßig ist der Ersteller auch der Inhaber des Korrekturabzugs. Der Erst
 So ändern Sie den Inhaber auf der Seite Neuer Korrekturabzug :
 
 1. Klicken Sie auf den Link Ändern neben dem Namen des Erstellers.
-1. Wählen Sie den neuen Inhaber aus dem Dropdown-Menü aus. 2)
+1. Wählen Sie den neuen Inhaber aus dem Dropdown-Menü aus. (2)
 
 ![Proof_roles_-_new_proof_page_change_owner_2.png](assets/proof-roles---new-proof-page-change-owner-2-350x185.png)
 

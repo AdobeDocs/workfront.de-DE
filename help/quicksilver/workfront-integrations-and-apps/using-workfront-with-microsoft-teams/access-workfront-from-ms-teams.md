@@ -6,10 +6,23 @@ description: Sie können auf  [!DNL Adobe Workfront] von [!DNL Microsoft Teams] 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
+TQID: https://experienceleague.adobe.com/ztTWhJ3wias0xujQofaN-PZZfSM1BHNnCajJnruzdO8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 1%
+source-wordcount: 516
+ht-degree: 29%
 
 ---
 
@@ -19,17 +32,17 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Da [Microsoft auf den neuen Teams-Client umstellt](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability) ist der Classic Teams-Client nach dem 1. Juli 2025 nicht mehr verfügbar. Um Microsoft Teams und integrierte Apps wie Workfront weiterhin verwenden zu können, müssen Kunden vor diesem Datum zum neuen Teams-Client wechseln.
+>Da [Microsoft auf den neuen Teams-Client umstellt](https://learn.microsoft.com/de-de/microsoftteams/teams-classic-client-end-of-availability), ist der Classic Teams-Client nach dem 1. Juli 2025 nicht mehr verfügbar. Um Microsoft Teams und integrierte Anwendungen wie Workfront weiterhin verwenden zu können, müssen Kundinnen und Kunden vor diesem Datum zum neuen Teams-Client wechseln.
 >
->Die aktualisierte Workfront-Integration ist jetzt verfügbar und vollständig mit der neuen Team-Erfahrung kompatibel. In den meisten Fällen wird Workfront automatisch angezeigt, sobald Benutzende den Wechsel vollzogen haben. Ist dies nicht der Fall, kann die Integration manuell über die Microsoft Teams App Store installiert werden. Informationen zum Installieren oder Überprüfen der Workfront-Integration im neuen Team-Client finden Sie unter [Installieren [!DNL Adobe Workfront]  für Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+>Die aktualisierte Workfront-Integration ist jetzt verfügbar und vollständig mit dem neuen Teams-Erlebnis kompatibel. In den meisten Fällen wird Workfront automatisch angezeigt, sobald Benutzende den Wechsel vollzogen haben. Ist dies nicht der Fall, kann die Integration manuell über den Microsoft Teams App Store installiert werden. Informationen zum Installieren oder Überprüfen der Workfront-Integration im neuen Teams-Client finden Sie unter [Installieren [!DNL Adobe Workfront]  für Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 
-Sie können von [!DNL Adobe Workfront] aus auf [!DNL Microsoft Teams] zugreifen und mehrere Aktionen in [!DNL Workfront] ausführen, indem Sie Befehle entweder im [!DNL Workfront] Bot-Kanal oder einem anderen Team-Kanal eingeben.
+Sie können von [!DNL Microsoft Teams] aus auf [!DNL Adobe Workfront] zugreifen und mehrere Aktionen in [!DNL Workfront] ausführen, indem Sie Befehle entweder im [!DNL Workfront] Bot-Kanal oder einem anderen Team-Kanal eingeben.
 
 Folgendes können Sie in [!DNL Workfront] von [!DNL Microsoft Teams] aus tun:
 
 * Nach Projekten, Aufgaben oder Problemen suchen
-* Persönliche Aufgaben erstellen
+* Erstellen persönlicher Aufgaben
 * Auf Benachrichtigungen antworten
 * Dokumentengenehmigungen verwalten
 
@@ -41,7 +54,7 @@ Die Befehle, die Sie von [!DNL Microsoft Teams] aus zum Ausführen dieser Aktion
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -54,12 +67,12 @@ Die Befehle, die Sie von [!DNL Microsoft Teams] aus zum Ausführen dieser Aktion
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Standard</p>
-   <p>Arbeit oder höher</p> </td> 
+   <p>Work oder höher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -68,7 +81,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 Sie können persönliche Aufgaben in [!DNL Adobe Workfront] aus [!DNL Microsoft Teams] erstellen, wenn die folgenden Bedingungen erfüllt sind:
 
 * Ein Teambesitzer hat [!DNL Workfront for Microsoft Teams] für Ihr Team installiert und konfiguriert.
-* Sie sind von [!DNL Workfront] aus bei [!DNL Microsoft Teams] angemeldet.
+* Sie sind von [!DNL Microsoft Teams] aus bei [!DNL Workfront] angemeldet.
 
 ## Zugriff auf [!DNL Workfront] über den [!DNL Workfront] Bot-Chat-Kanal
 
@@ -89,7 +102,7 @@ Sie müssen bei Workfront angemeldet sein.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie **[!UICONTROL Was kann ich tun?]** erstellen Sie dann **[!UICONTROL Anmelden]** oder **[!UICONTROL Abmelden]** von [!DNL Workfront] eine **[!UICONTROL Neue Aufgabe]** (persönliche Aufgabe) in [!DNL Workfront] oder erhalten Sie **[!UICONTROL Hilfe]** indem Sie die verfügbaren Befehle auflisten.
+   * Klicken Sie auf **[!UICONTROL Was kann ich tun?]** und dann auf **[!UICONTROL Anmelden]** oder **[!UICONTROL Abmelden]** von [!DNL Workfront], erstellen Sie eine **[!UICONTROL Neue Aufgabe]** (persönliche Aufgabe) in [!DNL Workfront] oder rufen Sie **[!UICONTROL Hilfe]** auf, indem Sie die verfügbaren Befehle auflisten.
 
    * Greifen Sie auf [!DNL Workfront] direkt zu, indem Sie einen Befehl in das Feld **[!UICONTROL Hier Ihre Fragen eingeben]** eingeben.
 

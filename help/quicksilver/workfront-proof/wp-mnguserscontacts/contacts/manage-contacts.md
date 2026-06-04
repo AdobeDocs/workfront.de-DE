@@ -7,9 +7,18 @@ description: Sie können Ihre Kollegen, Mitglieder und Gäste auf der Seite Kont
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e2fc091a-4c06-40c5-9fb4-256239f09ffc
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+TQID: https://experienceleague.adobe.com/TT-3Z8jO89qQQuJJlvJFK92fzhXpUwtvi4Qh6W2c8NI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: 492
 ht-degree: 0%
 
 ---
@@ -31,7 +40,7 @@ Sie können Ihre Kollegen, Mitglieder und Gäste auf der Seite Kontakte verwalte
 
 1. Klicken Sie **[!UICONTROL der linken]** auf „Kontakte“.
 1. Klicken Sie auf die Spaltenüberschrift, nach der Sie sortieren möchten.
-ODER
+oder
 Wählen Sie eine Option aus dem **[!UICONTROL Sortieren]** Menü in der oberen rechten Ecke der Seite Kontakte .
 
 1. ![Contacts_page-Sort_menu.png](assets/contacts-page-sort-menu.png)
@@ -71,7 +80,7 @@ Das Löschen eines Kontakts bedeutet nicht, dass ein Benutzer aus Ihrem Konto en
 
    * Klicken Sie auf **[!UICONTROL Mehr]** am Ende der Zeile eines Kontakts und verwenden Sie eine der Optionen im angezeigten Dropdown-Menü.
 
-     Diese Optionen sind für verschiedene Kontakttypen unterschiedlich. Weitere [ finden Sie unter „Grundlegendes zu Benutzern, Mitgliedern und Gästen in [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md) .
+     Diese Optionen sind für verschiedene Kontakttypen unterschiedlich. Weitere [&#x200B; finden Sie unter „Grundlegendes zu Benutzern, Mitgliedern und Gästen in [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md) .
 
 ## Kontakte importieren
 

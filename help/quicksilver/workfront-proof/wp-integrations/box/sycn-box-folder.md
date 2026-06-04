@@ -7,9 +7,18 @@ description: Sie können einen Ordner „Box“ mit einem Ordner in Workfront Pr
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d85577f5-6aa0-40a3-a6e3-45555a3124db
-source-git-commit: a6c79166c50af5bfe4c0341d003052179ce78373
+TQID: https://experienceleague.adobe.com/sJxqocTWlV--ZrYQ9OrcqW8udhfRBk9ujGyaDxmcAZw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: 662
 ht-degree: 0%
 
 ---
@@ -34,7 +43,7 @@ So synchronisieren Sie einen [!DNL Box] Ordner mit einem Ordner in [!DNL Workfro
 1. Klicken Sie auf das **[!UICONTROL Weitere Optionen]**-Menü neben dem Ordner, mit dem Sie [!DNL Workfront Proof] (1) synchronisieren möchten.
 1. Wählen Sie **[!UICONTROL Weitere Aktionen]** (2) aus.
 1. Klicken Sie **[!UICONTROL Mit[!DNL Workfront Proof]]** synchronisieren (3).
-1. Führen [!UICONTROL  im angezeigten ] „Ordner synchronisieren“ (wenn Sie bei [!DNL Workfront Proof] angemeldet sind) einen der folgenden Schritte aus:
+1. Führen [!UICONTROL &#x200B; im angezeigten &#x200B;] „Ordner synchronisieren“ (wenn Sie bei [!DNL Workfront Proof] angemeldet sind) einen der folgenden Schritte aus:
 
    * Klicken Sie auf einen [!DNL Workfront Proof] Ordnernamen, um ihn mit dem entsprechenden Ordner in Feld (4) zu synchronisieren.
    * Klicken Sie auf **[!UICONTROL Neuer Ordner]**, um einen neuen Ordner in [!DNL Workfront Proof] (5) zu erstellen.\
@@ -59,7 +68,7 @@ So synchronisieren Sie einen [!DNL Box] Ordner mit einem Ordner in [!DNL Workfro
 >[!NOTE]
 >
 >* Sie können den [!DNL Box] auch über das Menü [!UICONTROL Ordneroptionen] synchronisieren.
->* Wenn Sie eine eigene [!DNL Workfront Proof]-Anmeldeseite haben, werden Sie anstelle der standardmäßigen [!DNL Workfront Proof]-Anmeldeseite zu dieser Seite weitergeleitet. Weitere Informationen finden Sie in [ Artikeln unter ](https://support.workfront.com/hc/en-us/sections/115000921208-Branding)Branding“.
+>* Wenn Sie eine eigene [!DNL Workfront Proof]-Anmeldeseite haben, werden Sie anstelle der standardmäßigen [!DNL Workfront Proof]-Anmeldeseite zu dieser Seite weitergeleitet. Weitere Informationen finden Sie in [&#x200B; Artikeln unter &#x200B;](https://support.workfront.com/hc/en-us/sections/115000921208-Branding)Branding“.
 >* Wenn Sie die Funktion [!UICONTROL Single Sign-On (SSO)] in Ihrem [!DNL Workfront Proof]-Konto aktiviert haben, werden Sie zur SSO-Anmeldeseite weitergeleitet und aufgefordert, Ihre SSO-Anmeldedaten einzugeben, jedoch nur, wenn Sie dieselbe E-Mail-Adresse für Ihr [!DNL Box]-Konto und [!DNL Workfront Proof] verwenden. Weitere Informationen finden Sie unter [[!UICONTROL Single Sign-On] in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md).
 >* Wenn Sie nicht dieselbe E-Mail-Adresse sowohl für Ihr [!DNL Box]-Konto als auch für Ihr [!DNL Workfront Proof]-Konto verwenden, werden Sie immer zur standardmäßigen [!DNL Workfront Proof]-Anmeldeseite weitergeleitet.
 >

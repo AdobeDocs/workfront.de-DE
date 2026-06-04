@@ -6,22 +6,36 @@ description: Durch die  [!DNL Adobe Workfront]  von  [!DNL Slack]  können Sie a
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5f531217-3bd6-4156-8b9f-eabc95d4df10
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/V4D5BMnBLj86eShUxyR6UP8lRM3ibi6fwdL8G9QbN0k
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: e4fedd42-4a54-4109-859f-13c7f0366a72
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 1%
+source-wordcount: 1092
+ht-degree: 5%
 
 ---
 
 # Zugriff auf [!DNL Adobe Workfront] von [!DNL Slack]
 
-Durch die Integration von [!DNL Adobe Workfront] mit [!DNL Slack] können Sie von [!DNL Workfront] aus auf [!DNL Slack] zugreifen oder bestimmte Aktionen in [!DNL Workfront] mit einem Schrägstrich durchführen. Die Integration kann aus jeder [!DNL Slack]-Umgebung verwendet werden, einschließlich der [!DNL Slack] Mobile App.
+Durch die Integration von [!DNL Adobe Workfront] mit [!DNL Slack] können Sie von [!DNL Slack] aus auf [!DNL Workfront] zugreifen oder bestimmte Aktionen in [!DNL Workfront] mit einem Schrägstrich durchführen. Die Integration kann aus jeder [!DNL Slack]-Umgebung verwendet werden, einschließlich der [!DNL Slack] Mobile App.
 
 Sie oder Ihr [!DNL Slack] müssen die [!DNL Workfront] App in Ihrer [!DNL Slack]-Instanz installieren, bevor Sie [!DNL Workfront] von [!DNL Slack] verwenden können. Weitere Informationen finden Sie unter [Konfigurieren von Adobe Workfront für Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +52,7 @@ Sie oder Ihr [!DNL Slack] müssen die [!DNL Workfront] App in Ihrer [!DNL Slack]
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -63,13 +77,13 @@ Eine Liste aller Befehle, die Sie von Slack für [!DNL Workfront] ausführen kö
 Wenn Sie einen Befehl in das Nachrichtenfeld in Slack eingeben, werden Sie aufgefordert, sich zuerst bei [!DNL Workfront] anzumelden.\
 Eine vollständige Liste der [!DNL Workfront] Befehle aus [!DNL Slack] finden Sie [&#x200B; Abschnitt Zugriff [!DNL Workfront] von einem Schrägstrich in  [!DNL Slack]](#access-workfront-from-a-slash-command-in-slack-access-workfront-from-a-slash-command-in-slack) diesem Artikel.
 
-So melden Sie sich von [!DNL Workfront] aus bei [!DNL Slack] an:
+So melden Sie sich von [!DNL Slack] aus bei [!DNL Workfront] an:
 
 1. Melden Sie sich bei Ihrer [!DNL Slack] an.
 1. Geben Sie in einem beliebigen Kanal einen der folgenden Befehle ein:\
    `/workfront log in`
 
-   Oder
+   ODER
 
    `/wf log in`
 
@@ -92,7 +106,7 @@ So melden Sie sich von [!DNL Workfront] aus bei [!DNL Slack] an:
 
 1. Navigieren Sie zurück zu Ihrem [!DNL Slack].
 
-   Sie sind von Ihrer [!DNL Workfront]-Instanz aus bei [!DNL Slack] angemeldet.
+   Sie sind von Ihrer [!DNL Slack]-Instanz aus bei [!DNL Workfront] angemeldet.
 
 ## Zugriff auf [!DNL Workfront] von [!DNL Slack]
 
@@ -101,14 +115,14 @@ So melden Sie sich von [!DNL Workfront] aus bei [!DNL Slack] an:
 
 ## Zugriff auf [!DNL Workfront] über einen Schrägstrich in [!DNL Slack] {#access-workfront-from-a-slash-command-in-slack}
 
-1. Melden Sie sich bei Ihrer [!DNL Slack]-Instanz an und melden Sie sich von [!DNL Workfront] aus bei [!DNL Slack] an.\
+1. Melden Sie sich bei Ihrer [!DNL Slack]-Instanz an und melden Sie sich von [!DNL Slack] aus bei [!DNL Workfront] an.\
    Weitere Informationen zur Anmeldung bei [!DNL Workfront] von [!DNL Slack] finden Sie unter [Anmelden bei [!DNL Workfront] von [!DNL Slack]](#log-in-to-workfront-from-slack-log-in-to-workfront-from-slack)
 
 1. Geben Sie in einem beliebigen Kanal den folgenden Befehl in das Feld Nachricht ein:
 
    `/workfront help`
 
-   Oder
+   ODER
 
    `/wf help`
 
@@ -186,7 +200,7 @@ So melden Sie sich von [!DNL Workfront] aus bei [!DNL Slack] an:
         Weitere Informationen zum Suchen in [!DNL Slack] finden Sie unter [Suchen nach [!DNL Adobe Workfront] Elementen in Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md).
    * `/wf log in`
 
-     Meldet Sie von [!DNL Workfront] aus bei [!DNL Slack] an.
+     Meldet Sie von [!DNL Slack] aus bei [!DNL Workfront] an.
 
    * `/wf log out`
 
@@ -220,7 +234,7 @@ Weitere Informationen zum Zugriff auf [!DNL Workfront] über einen freigegebenen
 
    `/workfront settings`
 
-   Oder
+   ODER
 
    `/wf settings`
 

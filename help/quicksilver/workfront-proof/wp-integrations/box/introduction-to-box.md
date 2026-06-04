@@ -8,9 +8,16 @@ description: Durch unsere Integration mit dem Online File Sharing und Content Ma
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 0050a478-30a9-4400-9854-9d6339114243
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+TQID: https://experienceleague.adobe.com/2E60Y2iwE12qd8ofXwjXcuBj83lSZc9RqkhnKI-ydrs
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: 435
 ht-degree: 0%
 
 ---
@@ -48,7 +55,7 @@ Bitte befolgen Sie die folgenden einfachen Schritte, um unsere App zu Ihrem Box-
 
 1. Rufen Sie in Ihrem [!DNL Box]-Konto den Abschnitt **[!UICONTROL Apps]** auf.
 1. Geben Sie in die Suchleiste **[!DNL Workfront Proof]Sync** ein.
-1. Klicken Sie in ]**Suchergebnissen auf**[!UICONTROL [!DNL Workfront Proof] Synchronisieren .
+1. Klicken Sie in **Suchergebnissen auf**&#x200B;[!DNL Workfront Proof] Synchronisieren .
 1. Klicken Sie **[!UICONTROL Hinzufügen]**, um die [!DNL Workfront Proof] Sync-App zu Ihrem Box-Konto hinzuzufügen.
 1. Klicken Sie im angezeigten Bestätigungsfeld auf **[!UICONTROL OK]**.
 

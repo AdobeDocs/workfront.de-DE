@@ -8,10 +8,17 @@ description: Basecamp ist ein führendes webbasiertes Projektmanagement- und Col
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 8794a76a-c782-4038-9680-73e72697b21d
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+TQID: https://experienceleague.adobe.com/y3acXMLEzDp-rhxtFIhSpvc1w6H4mohLNQP0ZztgO4Y
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 0%
+source-wordcount: 317
+ht-degree: 1%
 
 ---
 
@@ -25,7 +32,7 @@ ht-degree: 0%
 
 Die [!DNL Workfront Proof] Integration mit [!DNL Basecamp] hilft Ihnen, die Überprüfung und Genehmigung von Kreativ-Assets in [!DNL Basecamp] erheblich zu verbessern, indem sie die Online-Proofing-Funktion direkt in Ihrem [!DNL Basecamp]-Konto aktiviert. Wenn Sie Testsendungen in [!DNL Workfront Proof] Konto erstellen, können Sie sie mit einem Projekt in [!DNL Basecamp] verbinden. Reviewer können die umfangreichen Kommentar- und Markup-Tools von [!DNL Workfront Proof] nutzen und Entscheidungen direkt in [!DNL Basecamp] treffen. [!DNL Workfront Proof] können Sie die Bereitstellung Ihrer kreativen Projekte beschleunigen, den Zeitaufwand für die Verwaltung von Genehmigungen reduzieren und die Anzahl der Design-Revisionen reduzieren.
 
-## Die wichtigsten Vorteile
+## Wesentliche Vorteile
 
 * **Zeit sparen:** Verfolgen Sie mühelos den Status von Kommentaren, Feedback und Entscheidungen.
 * **Schnellere Markteinführung:** Schnellere Bereitstellung von Design-Projekten mit kürzeren Überprüfungszyklen und weniger Revisionen.
