@@ -7,9 +7,12 @@ description: Sie können Informationen zu den Dateien (nicht zu Korrekturabzüge
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 9bbf2448-74dc-412a-b17c-4321d0acaf07
-source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
+TQID: https://experienceleague.adobe.com/IMVAWm0N74jNGqSnWShXORGLdvcelgQ-oGSVZaPsDo8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: 526
 ht-degree: 0%
 
 ---
@@ -24,7 +27,7 @@ Sie können Informationen zu den Dateien (nicht zu Korrekturabzügen) verwalten,
 
 1. Klicken Sie auf den Abwärtspfeil rechts neben **[!UICONTROL Ansichten]** im linken Navigationsbereich und klicken Sie dann **[!UICONTROL Dropdown-]** auf „Dateien“.
 
-1. Klicken Sie auf die **[!UICONTROL Mehr]**-Schaltfläche für die Datei und klicken Sie dann im **angezeigten Menü auf** Dateidetails anzeigen.\
+1. Klicken Sie auf die **[!UICONTROL Mehr]**-Schaltfläche für die Datei und klicken Sie dann im ]**angezeigten Menü auf**[!UICONTROL  Dateidetails anzeigen.\
    ![Dateidetails anzeigen](assets/click-more-then-view-file-details.png)\
    Im angezeigten Fenster können Sie Details zur Datei anzeigen und bearbeiten. Sie können beispielsweise den Dateinamen am oberen Rand des Fensters, den [!DNL Workfront Proof] &quot;**&quot;,** die Datei speichert, und den &quot;**&quot;** Datei ändern.\
    ![Dateidetails](assets/file-details-page-350x129.png)

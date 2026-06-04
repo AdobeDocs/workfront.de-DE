@@ -7,10 +7,15 @@ description: Weitere Informationen über Zahlungen in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cc23012f-ea1a-41e6-b101-877b85605775
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/c5PekqBFApp6g08M-vg9eTw8pIVWvAByA7Y1vXvEXY8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 0%
+source-wordcount: 348
+ht-degree: 2%
 
 ---
 
@@ -48,16 +53,16 @@ Wir akzeptieren keine Schecks
 So ändern Sie Ihre nächste Zahlungsmethode und aktualisieren Ihre Kreditkartendetails:
 
 1. Klicken **[!UICONTROL oben auf der Seite auf]** Zahlungsdetails ändern) (1).\
-   Oder\
-   Klicken Sie **[!UICONTROL Nächste Zahlungsmethode]**. 2)\
+   ODER\
+   Klicken Sie **[!UICONTROL Nächste Zahlungsmethode]**. (2)\
    ![Payment_and_CC_details1.png](assets/payment-and-cc-details1-350x205.png)
 
-1. Wählen **[!UICONTROL im Popup]** Zahlungsdetails ändern“ Ihre nächste Zahlungsmethode aus. 3)
+1. Wählen **[!UICONTROL im Popup]** Zahlungsdetails ändern“ Ihre nächste Zahlungsmethode aus. (3)
 1. (Bedingt) Geben Sie für Kreditkartenzahlungen Ihre Kartendetails ein.\
    Wenn Sie nur Ihre Kreditkartendaten ändern möchten, füllen Sie nur die Felder Kreditkartendetails (4) mit Ihren neuen Kartendaten aus und speichern (5) die Änderungen. Sie können Ihre Kreditkartendaten jederzeit ändern. Die neue Karte wird für alle Abonnementzahlungen verwendet, die sofort wirksam werden.\
    Wir akzeptieren [!DNL Visa], [!DNL American Express] und [!DNL MasterCard].
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**. 4)\
+1. Klicken Sie auf **[!UICONTROL Speichern]**. (4)\
    ![Payment_and_CC_details.png](assets/payment-and-cc-details-350x217.png)
 
 ## Ändern der Zahlungsmodusdetails für Satellitenkonten
@@ -67,7 +72,7 @@ Wenn Sie über Satellitenkonten verfügen, müssen Sie Ihre Kreditkartendetails 
 1. Navigieren Sie zur Seite [!UICONTROL Abrechnung] in Ihrem Hub-Konto.\
    Weitere Informationen zur Seite Abrechnung finden Sie unter [Die  [!DNL Workfront] -Seite Abrechnung](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
-1. Öffnen Sie [!UICONTROL &#x200B; Dropdown-Menü &#x200B;]Kontoliste“. 1)
+1. Öffnen Sie [!UICONTROL  Dropdown-Menü ]Kontoliste“. (1)
 1. Wählen Sie das Satellitenkonto (2) aus, das mit der Kreditkarte verknüpft ist, die Sie aktualisieren möchten.
 1. Fahren Sie fort mit [Ändern Ihrer Zahlungsmethode und Kreditkartendetails](#changing-your-payment-method-and-credit-card-details).\
    ![satellite_account_billing_page.png](assets/satellite-account-billing-page-350x167.png)

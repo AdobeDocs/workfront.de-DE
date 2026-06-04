@@ -7,9 +7,14 @@ description: Rechnungsadministratoren und -administratoren können benutzerdefin
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 26e76fb7-4a2d-4ae1-b9cb-293c074151da
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+TQID: https://experienceleague.adobe.com/O8MYCpzLUHxiOhoFs1GUiVogqziOwIBjMapChrEd5hs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: 994
 ht-degree: 0%
 
 ---
@@ -41,10 +46,10 @@ Weitere Informationen finden Sie unter [Erstellen von Korrekturabzügen in [!DNL
 Weitere Informationen finden Sie unter [Hochladen von Dateien und Web-Inhalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
 
 * Öffentliche Ordner
-Weitere Informationen finden Sie unter [&#x200B; zu Ordnerberechtigungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md).
+Weitere Informationen finden Sie unter [ zu Ordnerberechtigungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md).
 
 * Private Ordner
-Weitere Informationen finden Sie unter [&#x200B; zu Ordnerberechtigungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md).
+Weitere Informationen finden Sie unter [ zu Ordnerberechtigungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md).
 
 * Kontakte
 Weitere Informationen finden Sie unter [Kontakte](https://support.workfront.com/hc/en-us/sections/115000920808-Contacts).
@@ -176,7 +181,7 @@ Erstellen Sie Kopien eines vorhandenen Profils, um mehrere Profile mit ähnliche
    ![screen_shot_2018-04-06_12-34-41.png](assets/screenshot-2018-04-06-12-34-41.png)
 
 1. (Optional) Informationen zum Aktivieren des kopierten Profils finden Sie unter [Aktivieren und Deaktivieren eines Profils](#enabling-and-disabling-a-profile).
-1. (Optional) Informationen zum Bearbeiten des kopierten Profils finden Sie unter [&#x200B; eines Profils](#editing-a-profile).
+1. (Optional) Informationen zum Bearbeiten des kopierten Profils finden Sie unter [ eines Profils](#editing-a-profile).
 
 ## Profil bearbeiten {#editing-a-profile}
 
@@ -201,7 +206,7 @@ Weitere Informationen zu Berechtigungen finden Sie unter [Modulberechtigungen](#
 
    ![screen_shot_2018-04-06_12-36-21.png](assets/screenshot-2018-04-06-12-36-21-163x288.png)
 
-1. Klicken **&#x200B;**&#x200B;im **[!UICONTROL Bestätigungsdialogfeld]** auf „Ja“.
+1. Klicken **** im **[!UICONTROL Bestätigungsdialogfeld]** auf „Ja“.
 
 1. Wenn das Profil einem Benutzer zugewiesen ist, wählen Sie im Dropdown-Menü des Dialogfelds ein anderes Profil aus, das diesem Benutzer zugewiesen werden soll. Klicken Sie **[!UICONTROL Ja]** zur Bestätigung.
 

@@ -6,9 +6,15 @@ description: Sie können Benachrichtigungen von  [!DNL Adobe Workfront]  erhalte
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 7720d51864428e6d7cf493f88bbee13b5203774b
+TQID: https://experienceleague.adobe.com/VdZs7a8E9LDHRW8H-pu7-rFZqbwN6yVzxQCUfL4PBPA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: a7ef0b24-c866-4849-a368-53678af2dfe5id: f1b6c8ba-53d0-432b-b0f4-64800d4b376e
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: 1422
 ht-degree: 11%
 
 ---
@@ -144,7 +150,7 @@ Sie erhalten Genehmigungsbenachrichtigungen, wenn Sie aufgefordert werden, ein O
    <th>[!UICONTROL Reject]</th> 
    <th> <p>[!UICONTROL ändern]</p> </th> 
    <th> <p>[!UICONTROL Zum Korrekturabzug wechseln] </p> </th> 
-   <th>[!UICONTROL -Kommentar]</th> 
+   <th>[!UICONTROL-Kommentar]</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -278,7 +284,7 @@ Sie erhalten Zuweisungsbenachrichtigungen, wenn Sie oder ein Team, dem Sie angeh
   <tr> 
    <th>Benachrichtigung</th> 
    <th>[!UICONTROL Start]</th> 
-   <th>[!UICONTROL -Kommentar]</th> 
+   <th>[!UICONTROL-Kommentar]</th> 
    <th> <p>[!UICONTROL Status]</p> </th> 
   </tr> 
  </thead> 
@@ -429,7 +435,7 @@ Sie erhalten eine Benachrichtigung über eine Datumsänderung, wenn sich das Dat
  <thead> 
   <tr> 
    <th>Benachrichtigung</th> 
-   <th> <p>[!UICONTROL -Kommentar]</p> </th> 
+   <th> <p>[!UICONTROL-Kommentar]</p> </th> 
    <th> <p>[!UICONTROL Status]</p> </th> 
   </tr> 
  </thead> 

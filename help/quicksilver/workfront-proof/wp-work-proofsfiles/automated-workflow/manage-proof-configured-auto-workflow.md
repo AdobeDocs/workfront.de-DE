@@ -7,9 +7,13 @@ description: Den Fortschritt Ihrer automatisierten Workflow-Korrekturabzüge kö
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1d0ad905-f3fb-471a-8766-096b978cdf4e
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/3leSASgnGumvy-osh9SgS57U6czt2CRQDYEe44pTlIU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: 688
 ht-degree: 0%
 
 ---
@@ -20,7 +24,7 @@ ht-degree: 0%
 >
 >Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Den Fortschritt Ihrer automatisierten Workflow-Korrekturabzüge können Sie im Abschnitt Workflow der Seite [!UICONTROL Korrekturabzugsdetails“ &#x200B;]. Sie können die in den einzelnen Phasen durchgeführten Arbeiten anzeigen und die Phasen im Korrekturabzug ändern, hinzufügen, starten und sperren.
+Den Fortschritt Ihrer automatisierten Workflow-Korrekturabzüge können Sie im Abschnitt Workflow der Seite [!UICONTROL Korrekturabzugsdetails“ ]. Sie können die in den einzelnen Phasen durchgeführten Arbeiten anzeigen und die Phasen im Korrekturabzug ändern, hinzufügen, starten und sperren.
 
 ## Anzeigen eines automatisierten Workflows
 
@@ -93,7 +97,7 @@ Weitere Informationen zur Fortschrittsleiste finden Sie unter [Anzeigen des Fort
 
 ## Neues Stadium hinzufügen
 
-Sie können Ihrem automatisierten Workflow über die Seite [!UICONTROL Korrekturabzugsdetails“ einen neuen Schritt &#x200B;].
+Sie können Ihrem automatisierten Workflow über die Seite [!UICONTROL Korrekturabzugsdetails“ einen neuen Schritt ].
 
 1. Klicken Sie auf **[!UICONTROL Schaltfläche „Neues]**&quot; (1).
 

@@ -7,9 +7,14 @@ description: Am ersten Tag eines neuen Abrechnungszeitraums wird Ihre Abonnement
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 6bfb82b8-f127-4dac-a1cf-7c7962a86e48
-source-git-commit: 1312e3d5256f28ca0197c73a6c06016d6d7c7e2a
+TQID: https://experienceleague.adobe.com/awflnggvqWgcGKukvaZ51-mQzogYR9ZlfDaJc3x4t2g
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: 384
 ht-degree: 0%
 
 ---
@@ -22,7 +27,7 @@ ht-degree: 0%
 
 Am ersten Tag eines neuen Abrechnungszeitraums wird Ihre Abonnementrechnung an den Hauptkontakt für Abrechnungen in Ihrem Konto und an die E-Mail-Adresse [!UICONTROL Abrechnungs-CC] gesendet, sofern Sie eine solche Adresse definiert haben.
 
-Die Rechnung wird auch im Abschnitt [!UICONTROL Abrechnung] Ihres [!DNL Workfront Proof] Kontos angezeigt, das Sie herunterladen können. Weitere Informationen finden [&#x200B; unter  [!DNL Workfront Proof] Die Seite](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)Abrechnung“.
+Die Rechnung wird auch im Abschnitt [!UICONTROL Abrechnung] Ihres [!DNL Workfront Proof] Kontos angezeigt, das Sie herunterladen können. Weitere Informationen finden [ unter  [!DNL Workfront Proof] Die Seite](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)Abrechnung“.
 
 Auf Ihrer Rechnung finden Sie folgende Informationen:
 
@@ -59,6 +64,6 @@ Wir stellen alle unsere automatischen Rechnungen für die Abonnements standardm�
 
 Um die Rechnungsinformationen für Ihr Konto zu ändern, gehen Sie zum Abschnitt Rechnungskontakt und Adresse der Seite Abrechnung . Siehe [Seite  [!DNL Workfront] Proof-Abrechnung](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
-Informationen zum Ändern der Kreditkartendetails finden Sie unter „Auswählen [&#x200B; Zahlungsmethode in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md).
+Informationen zum Ändern der Kreditkartendetails finden Sie unter „Auswählen [ Zahlungsmethode in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md).
 
 <!--For the detailed information on payments and invoicing, see [Account Payment in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md). -->

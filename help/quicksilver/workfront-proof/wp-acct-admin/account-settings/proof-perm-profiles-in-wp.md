@@ -8,9 +8,14 @@ description: Als Workfront-Administrator oder Workfront Proof-Administrator kön
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 249aa332-c051-49ac-be85-264d8babfcad
-source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
+TQID: https://experienceleague.adobe.com/bnWwfz-MsjXnfJIix2k3prysLG6S-IGgAndYQLGT6o4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1840'
+source-wordcount: 1840
 ht-degree: 1%
 
 ---
@@ -98,7 +103,7 @@ Abrechnungsadministratoren haben Zugriff auf [Kontoeinstellungen auf  [!DNL Work
 
 Informationen zu Kontoeinstellungen finden Sie unter [Kontoeinstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
-Weitere Informationen zur Abrechnung finden Sie [&#x200B; „Die  [!DNL Workfront Proof] -Seite](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+Weitere Informationen zur Abrechnung finden Sie [ „Die  [!DNL Workfront Proof] -Seite](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
 ### Administrator {#administrator}
 
@@ -158,7 +163,7 @@ Supervisoren haben die folgenden Berechtigungen:
 
 ![Rot X](assets/no2.png)Korrekturabzugsantworten können nicht bearbeitet werden.
 
-![Rotes X](assets/no2.png) Die privaten Ordner anderer Benutzer können nicht gelöscht werden. Weitere Informationen finden Sie unter [&#x200B; in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md).
+![Rotes X](assets/no2.png) Die privaten Ordner anderer Benutzer können nicht gelöscht werden. Weitere Informationen finden Sie unter [ in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md).
 
 ![Rotes X](assets/no2.png)Kein Zugriff auf die Seite „Abrechnung“ oder die Kontoeinstellungen. Weitere Informationen finden Sie unter [Die  [!DNL Workfront Proof] -Abrechnungsseite](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) und [Kontoeinstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 

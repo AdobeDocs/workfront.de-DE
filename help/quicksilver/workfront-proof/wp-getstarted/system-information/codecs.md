@@ -8,9 +8,14 @@ description: Codecs in [!DNL Workfront Proof]
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: f760dbaf-edbb-49ec-a329-54727372bdc6
-source-git-commit: bf6c6c497d98d91ca78f892606a52f82ee4b5666
+TQID: https://experienceleague.adobe.com/oaiiey4FOEV8tgyFgTsNcqndQTj0RF3OAXxTGWTS--M
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '100'
+source-wordcount: 101
 ht-degree: 0%
 
 ---
@@ -149,8 +154,8 @@ ht-degree: 0%
 * [!DNL SoftMedia ViVD V2] Codec
 * [!DNL Sony Digital Video (DV)]
 * [!DNL Sony PlayStation MDEC (Motion DECoder)]
-* [!DNL Sorenson Vector Quantizer 1]/[!DNL Sorenson Video 1]/[!DNL SVQ1]
-* [!DNL Sorenson Vector Quantizer 3]/[!DNL Sorenson Video 3]/[!DNL SVQ3]
+* [!DNL Sorenson Vector Quantizer 1] / [!DNL Sorenson Video 1] / [!DNL SVQ1]
+* [!DNL Sorenson Vector Quantizer 3] / [!DNL Sorenson Video 3] / [!DNL SVQ3]
 * [!DNL SP4x]
 * [!DNL SP5x]
 * [!DNL Streambox ACT-L2]
@@ -165,7 +170,7 @@ ht-degree: 0%
 * [!DNL VDOWave] Codec
 * [!DNL Verint Video Manager]
 * [!DNL Vianet Lsvx Video]
-* [!DNL VMware Screen Codec]/[!DNL VMware Video]
+* [!DNL VMware Screen Codec] / [!DNL VMware Video]
 * [!DNL VP8]
 * Video [!DNL VQA (Vector Quantized Animation)]
 * [!DNL VSS Codec Light]

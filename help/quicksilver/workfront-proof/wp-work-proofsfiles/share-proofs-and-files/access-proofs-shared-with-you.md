@@ -7,9 +7,12 @@ description: Wenn Sie eine E-Mail zu einem Korrekturabzug erhalten, enthält sie
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 901013f2-833f-4f6b-921c-eddd4f063247
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/jJdQs2v-0xHMvwKyGerUrCJmOUCGtBBWzSCs3SstXf4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: 363
 ht-degree: 3%
 
 ---
@@ -24,7 +27,7 @@ Wenn Sie eine E-Mail zu einem Korrekturabzug erhalten, enthält sie eine persön
 
 >[!CAUTION]
 >
->Die URL aus der E-Mail ist für Sie persönlich und öffnet den Korrekturabzug, wenn Sie bereits als Prüfer identifiziert sind. Es ist wichtig, dass Sie die URL nicht an andere weiterleiten; wenn Sie dies tun, werden alle Kommentare oder Entscheidungen, die sie treffen, in Ihrem Namen veröffentlicht. Wenn Sie möchten, dass eine andere Person den Korrekturabzug betrachtet, und Sie über die Berechtigung zum Korrekturabzug verfügen, können Sie die Funktion zum Freigeben von Korrekturabzügen verwenden, die unter [Freigeben eines Korrekturabzugs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) beschrieben wird. Informationen zu Berechtigungen für Korrekturabzüge finden Sie unter [Freigeben eines &#x200B;](../../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md)Dokuments) oder, wenn Sie [!DNL Workfront Proof] verwenden, finden Sie weitere Informationen unter [Profile für Korrekturabzugsberechtigungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+>Die URL aus der E-Mail ist für Sie persönlich und öffnet den Korrekturabzug, wenn Sie bereits als Prüfer identifiziert sind. Es ist wichtig, dass Sie die URL nicht an andere weiterleiten; wenn Sie dies tun, werden alle Kommentare oder Entscheidungen, die sie treffen, in Ihrem Namen veröffentlicht. Wenn Sie möchten, dass eine andere Person den Korrekturabzug betrachtet, und Sie über die Berechtigung zum Korrekturabzug verfügen, können Sie die Funktion zum Freigeben von Korrekturabzügen verwenden, die unter [Freigeben eines Korrekturabzugs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) beschrieben wird. Informationen zu Berechtigungen für Korrekturabzüge finden Sie unter [Freigeben eines ](../../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md)Dokuments) oder, wenn Sie [!DNL Workfront Proof] verwenden, finden Sie weitere Informationen unter [Profile für Korrekturabzugsberechtigungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 >
 >Wenn die Freigabe eines Korrekturabzugs für den Korrekturabzug aktiviert ist, können Sie auch einen anderen Benutzer den Korrekturabzug anzeigen lassen, indem Sie die Korrekturabzugs-URL über die Korrekturabzugsansicht oder den Link [!UICONTROL Diesen Korrekturabzug für andere Personen freigeben] in der E-Mail Neuer Korrekturabzug verwenden) freigeben.
 

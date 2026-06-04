@@ -6,10 +6,16 @@ description: Nachdem Ihr Teambesitzer Adobe Workfront für Microsoft Teams insta
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
-source-git-commit: 4cf780aa1b1221cd6ff8e6ce58fbb7d3621f7fa9
+TQID: https://experienceleague.adobe.com/SAhx7otUvjrhEkQnMr87CF0gZFL3Fpvy8bXcnTf1-E8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: a7ef0b24-c866-4849-a368-53678af2dfe5id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 1%
+source-wordcount: 607
+ht-degree: 24%
 
 ---
 
@@ -17,9 +23,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Da [Microsoft auf den neuen Teams-Client umstellt](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability) ist der Classic Teams-Client nach dem 1. Juli 2025 nicht mehr verfügbar. Um Microsoft Teams und integrierte Apps wie Workfront weiterhin verwenden zu können, müssen Kunden vor diesem Datum zum neuen Teams-Client wechseln.
+>Da [Microsoft auf den neuen Teams-Client umstellt](https://learn.microsoft.com/de-de/microsoftteams/teams-classic-client-end-of-availability), ist der Classic Teams-Client nach dem 1. Juli 2025 nicht mehr verfügbar. Um Microsoft Teams und integrierte Anwendungen wie Workfront weiterhin verwenden zu können, müssen Kundinnen und Kunden vor diesem Datum zum neuen Teams-Client wechseln.
 >
->Die aktualisierte Workfront-Integration ist jetzt verfügbar und vollständig mit der neuen Team-Erfahrung kompatibel. In den meisten Fällen wird Workfront automatisch angezeigt, sobald Benutzende den Wechsel vollzogen haben. Ist dies nicht der Fall, kann die Integration manuell über die Microsoft Teams App Store installiert werden. Informationen zum Installieren oder Überprüfen der Workfront-Integration im neuen Team-Client finden Sie unter [Installieren [!DNL Adobe Workfront]  für Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+>Die aktualisierte Workfront-Integration ist jetzt verfügbar und vollständig mit dem neuen Teams-Erlebnis kompatibel. In den meisten Fällen wird Workfront automatisch angezeigt, sobald Benutzende den Wechsel vollzogen haben. Ist dies nicht der Fall, kann die Integration manuell über den Microsoft Teams App Store installiert werden. Informationen zum Installieren oder Überprüfen der Workfront-Integration im neuen Teams-Client finden Sie unter [Installieren [!DNL Adobe Workfront]  für Microsoft Teams](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 Nachdem Ihr Teambesitzer [!DNL Adobe Workfront for Microsoft Teams] installiert hat, können Sie [!DNL Workfront] Anfragen von Ihrem [!DNL Microsoft Teams]-Konto senden. Dazu benötigen Sie ein Workfront-Konto mit Zugriff auf die Übermittlungsanfragen. Informationen zum Installieren von [!DNL Workfront for Microsoft Teams] finden Sie unter [Installieren [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
@@ -32,7 +38,7 @@ Nachdem Ihr Teambesitzer [!DNL Adobe Workfront for Microsoft Teams] installiert 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,13 +50,13 @@ Nachdem Ihr Teambesitzer [!DNL Adobe Workfront for Microsoft Teams] installiert 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Mitwirkender oder höher</p>
+   <td> <p>Mitwirkende oder höher</p>
    <p>Antragsteller oder höher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -60,7 +66,7 @@ Ihr [!DNL Microsoft Teams] Teambesitzer muss [!DNL Workfront] für [!DNL Microso
 
 ## [!DNL Workfront] Anfragen von [!DNL Microsoft Teams] senden
 
-1. **[!UICONTROL Klicken Sie in der linken Navigationsleiste in]** auf [!DNL Microsoft Teams] Symbol „Mehr hinzugefügte Apps“ (drei Punkte).
+1. **[!UICONTROL Klicken Sie in der linken Navigationsleiste in [!DNL Microsoft Teams] auf]** Symbol „Mehr hinzugefügte Apps“ (drei Punkte).
 
 1. Klicken Sie in der angezeigten Liste auf **[!DNL Workfront]** .
 1. Klicken Sie auf die **[!UICONTROL Anfragen]**.
@@ -98,7 +104,7 @@ Ihr [!DNL Microsoft Teams] Teambesitzer muss [!DNL Workfront] für [!DNL Microso
 
 ## [!DNL Workfront] Anfragen anzeigen, die Sie in [!DNL Microsoft Teams] gesendet haben
 
-1. **[!UICONTROL Klicken Sie in der linken Navigationsleiste in]** auf [!DNL Microsoft Teams] Symbol „Mehr hinzugefügte Apps“ (drei Punkte).
+1. **[!UICONTROL Klicken Sie in der linken Navigationsleiste in [!DNL Microsoft Teams] auf]** Symbol „Mehr hinzugefügte Apps“ (drei Punkte).
 
 1. Klicken Sie in der angezeigten Liste auf **[!DNL Workfront]** .
 1. Klicken Sie auf die **[!UICONTROL Anfragen]**.

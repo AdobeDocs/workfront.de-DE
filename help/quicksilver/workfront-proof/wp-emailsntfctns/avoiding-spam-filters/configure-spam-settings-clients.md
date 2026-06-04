@@ -7,9 +7,14 @@ description: Sie können Ihren E-Mail-Client so konfigurieren [!DNL Workfront Pr
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 41517540-c5a8-4bf5-997b-e7a605337e73
-source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
+TQID: https://experienceleague.adobe.com/RllFMQS1iV3kuBc1IaSutqyd9HkWr-7P9NYC-jxlq7k
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1499'
+source-wordcount: 1499
 ht-degree: 1%
 
 ---
@@ -29,7 +34,7 @@ In den folgenden Abschnitten wird dieser Prozess für verschiedene E-Mail-Client
 In diesem Abschnitt:
 
 * Fügen Sie die beiden [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot;-Adressen Ihrer [!UICONTROL Kontakte]-Liste in [!DNL Gmail] hinzu oder erstellen Sie Filter, um [!UICONTROL Gmail] daran zu hindern, E-Mails von diesen Adressen an Ihren [!UICONTROL Spam]-Ordner weiterzuleiten
-* Entfernen Sie alle vorhandenen [!DNL Workfront Proof]-E[!UICONTROL Mails aus dem Ordner &#x200B;]Spam“ und ändern Sie alle Filter, die [!DNL Workfront Proof] Nachrichten zum Papierkorb weiterleiten
+* Entfernen Sie alle vorhandenen [!DNL Workfront Proof]-E[!UICONTROL Mails aus dem Ordner ]Spam“ und ändern Sie alle Filter, die [!DNL Workfront Proof] Nachrichten zum Papierkorb weiterleiten
 
 ### Für neue [!DNL Workfront Proof]-E-Mails
 
@@ -81,16 +86,16 @@ So ändern Sie alle Filter, die [!DNL Workfront Proof]-E-Mails an den Papierkorb
 
 In diesem Abschnitt:
 
-* Fügen Sie die beiden [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; der Liste [!UICONTROL Sichere &#x200B;]&quot; in [!DNL Outlook] hinzu
+* Fügen Sie die beiden [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot; der Liste [!UICONTROL Sichere ]&quot; in [!DNL Outlook] hinzu
 * Entfernen Sie alle vorhandenen [!DNL Workfront Proof]-E[!UICONTROL Mails aus dem Ordner „Junk-E] und alle [!UICONTROL Absender] aus der Liste [!UICONTROL Blockierte Absender].
 
 ### Für neue [!DNL Workfront Proof]-E-Mails
 
 So fügen Sie die beiden [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot;-Adressen zur Liste der sicheren Absender in Outlook hinzu:
 
-1. Klicken Sie **[!UICONTROL Menü**&#x200B;[!UICONTROL &#x200B; Extras &#x200B;]&#x200B;**auf „Optionen]**.
+1. Klicken Sie **[!UICONTROL Menü**[!UICONTROL  Extras ]**auf „Optionen]**.
 
-1. Klicken Sie auf **[!UICONTROL Registerkarte]** Voreinstellungen **unter**&#x200B;[!UICONTROL &#x200B; E &#x200B;]&#x200B;**Mail** auf Junk-E-Mail.
+1. Klicken Sie auf **[!UICONTROL Registerkarte]** Voreinstellungen ]**unter**[!UICONTROL  E ]**Mail**[!UICONTROL  auf Junk-E-Mail.
 
 1. Klicken **[!UICONTROL auf]** Registerkarte **[!UICONTROL Sichere Absender]**.
 
@@ -100,7 +105,7 @@ So fügen Sie die beiden [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot;-Ad
 
 ### Für bestehende [!DNL Workfront Proof]-E-Mails
 
-So entfernen Sie alle [!DNL Workfront Proof]-E-Mails, die [!DNL Outlook] seit der letzten Löschung in [!UICONTROL &#x200B; Ordner „Junk]Mail“ eingefügt hat:
+So entfernen Sie alle [!DNL Workfront Proof]-E-Mails, die [!DNL Outlook] seit der letzten Löschung in [!UICONTROL  Ordner „Junk]Mail“ eingefügt hat:
 
 1. Klicken Sie auf **[!UICONTROL Ordner „Junk-E]** im Navigationsbereich.
 1. Wenn sich [!DNL Workfront Proof] E-Mails im Ordner befinden, klicken Sie mit der rechten Maustaste auf jede E-Mail, wählen Sie [!UICONTROL Junk-E-Mail] und klicken Sie dann auf **[!UICONTROL Als Junk-E-Mail kennzeichnen]**.
@@ -108,9 +113,9 @@ So entfernen Sie alle [!DNL Workfront Proof]-E-Mails, die [!DNL Outlook] seit de
 
 So überprüfen Sie, ob [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot;-Adressen in der Liste der blockierten Absender vorhanden sind:
 
-1. Klicken Sie **[!UICONTROL Menü**&#x200B;[!UICONTROL &#x200B; Extras &#x200B;]&#x200B;**auf „Optionen]**
+1. Klicken Sie **[!UICONTROL Menü**[!UICONTROL  Extras ]**auf „Optionen]**
 
-1. Klicken Sie auf **[!UICONTROL Registerkarte]** Voreinstellungen **unter**&#x200B;[!UICONTROL &#x200B; E &#x200B;]&#x200B;**Mail** auf Junk-E-Mail.
+1. Klicken Sie auf **[!UICONTROL Registerkarte]** Voreinstellungen ]**unter**[!UICONTROL  E ]**Mail**[!UICONTROL  auf Junk-E-Mail.
 
 1. Klicken Sie auf die **[!UICONTROL Blockierte Absender]**.
 1. Wenn sich [!DNL Workfront Proof] Adressen in der Liste befinden, klicken Sie auf jede einzelne Adresse und dann auf **[!UICONTROL Entfernen]**.
@@ -119,12 +124,12 @@ So überprüfen Sie, ob [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot;-Adr
 
 In diesem Abschnitt:
 
-* Fügen Sie die beiden [!DNL Workfront Proof] &quot;[!UICONTROL von]&quot; zur Liste [!UICONTROL Sichere &#x200B;]&quot; in [!DNL Windows Live Hotmail] hinzu
-* Entfernen Sie alle vorhandenen [!DNL Workfront Proof]-E-Mails aus dem Junk-E-Mail-Ordner und alle &quot;[!UICONTROL from]-Adressen aus der Liste [!UICONTROL Blockierte &#x200B;]&quot;
+* Fügen Sie die beiden [!DNL Workfront Proof] &quot;[!UICONTROL von]&quot; zur Liste [!UICONTROL Sichere ]&quot; in [!DNL Windows Live Hotmail] hinzu
+* Entfernen Sie alle vorhandenen [!DNL Workfront Proof]-E-Mails aus dem Junk-E-Mail-Ordner und alle &quot;[!UICONTROL from]-Adressen aus der Liste [!UICONTROL Blockierte ]&quot;
 
 ### Für neue [!DNL Workfront Proof]-E-Mails
 
-So fügen Sie die beiden [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot;-Adressen zu Ihrer Liste [!UICONTROL sicherer &#x200B;]&quot; in [!DNL Windows Live Hotmail] hinzu:
+So fügen Sie die beiden [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot;-Adressen zu Ihrer Liste [!UICONTROL sicherer ]&quot; in [!DNL Windows Live Hotmail] hinzu:
 
 1. Klicken **[!UICONTROL oben]** auf der Postfachseite auf „Optionen“.
 1. Klicken Sie auf **[!UICONTROL Weitere Optionen]**.
@@ -137,7 +142,7 @@ So fügen Sie die beiden [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot;-Ad
 
 ### Für bestehende [!DNL Workfront Proof]-E-Mails
 
-So entfernen Sie alle [!DNL Workfront Proof] E-Mails, die [!DNL Windows Live Hotmail] seit der letzten [!UICONTROL &#x200B; in &#x200B;] Ordner „Junk“ platziert hat:
+So entfernen Sie alle [!DNL Workfront Proof] E-Mails, die [!DNL Windows Live Hotmail] seit der letzten [!UICONTROL  in ] Ordner „Junk“ platziert hat:
 
 1. Klicken **[!UICONTROL links auf]** Seite unter **[!UICONTROL Ordner]** auf „Junk“.
 
@@ -200,7 +205,7 @@ In diesem Abschnitt:
 
 ### Für neue [!DNL Workfront Proof]-E-Mails
 
-So fügen Sie die beiden [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot;-Adressen [!DNL Aol] &quot;[!UICONTROL &quot; &#x200B;]:
+So fügen Sie die beiden [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot;-Adressen [!DNL Aol] &quot;[!UICONTROL &quot; ]:
 
 1. Klicken Sie auf das **[!UICONTROL Mail]**-Menü.
 1. Wählen Sie **[!UICONTROL Adressbuch]** aus.
@@ -218,7 +223,7 @@ So entfernen Sie alle [!DNL Workfront Proof]-E-Mails, die [!DNL Aol] seit der le
 1. Wenn sich [!DNL Workfront Proof] E-Mails im Ordner befinden, öffnen Sie jede E-Mail einzeln und klicken Sie auf die Schaltfläche **[!UICONTROL Dies ist kein Spam]**.
 1. Diese [!DNL Workfront Proof] E-Mails befinden sich nun in Ihrem Posteingang.
 
-So überprüfen Sie, ob [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot;-Adressen im [!DNL Aol] ([!UICONTROL ) &#x200B;] sind:
+So überprüfen Sie, ob [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot;-Adressen im [!DNL Aol] ([!UICONTROL ) ] sind:
 
 1. Gehen Sie zu **[!UICONTROL [!DNL Aol]Keyword: Mail Controls]**, um die Seite [!UICONTROL Spam-Einstellungen] anzuzeigen.
 

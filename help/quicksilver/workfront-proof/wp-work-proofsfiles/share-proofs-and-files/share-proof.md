@@ -7,9 +7,12 @@ description: Wenn Sie Bearbeitungsrechte für einen Korrekturabzug haben, könne
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bc145c50-9ab5-4ee8-9ed7-d307da6b0e8f
-source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
+TQID: https://experienceleague.adobe.com/wL1b-NeZg34ePbcEXn3wO3YzbdztS19SRZ7GinuuQ88
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: 527
 ht-degree: 1%
 
 ---
@@ -32,7 +35,7 @@ Wenn Sie einen Korrekturabzug freigeben, indem Sie Validierungsverantwortliche h
 
 >[!NOTE]
 >
->* Wenn Sie jemanden zu einem Korrekturabzug hinzufügen, entscheiden Sie, ob Sie möchten, dass er über den Korrekturabzug benachrichtigt wird oder nicht. Weitere Informationen finden [&#x200B; unter &#x200B;](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md) Korrekturabzugs-E-Mail .
+>* Wenn Sie jemanden zu einem Korrekturabzug hinzufügen, entscheiden Sie, ob Sie möchten, dass er über den Korrekturabzug benachrichtigt wird oder nicht. Weitere Informationen finden [ unter ](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md) Korrekturabzugs-E-Mail .
 >* Sie können jeden zu einem Korrekturabzug hinzufügen (sofern er über eine gültige E-Mail-Adresse verfügt). Sie müssen kein [!DNL Workfront Proof] Konto haben!
 >* Reviewer werden nicht auf Ihr Benutzerlimit angerechnet. Sie können kostenlos so viele Personen wie gewünscht zu einem Korrekturabzug hinzufügen.
 >
@@ -57,7 +60,7 @@ Sie können Reviewer zu einem Korrekturabzug hinzufügen, wenn Sie einen neuen K
    ![Menü „Mehr“](assets/more-button-small.png)
 
 1. Klicken **[!UICONTROL im Dropdown]** Menü auf „Freigeben“.
-1. Fügen Sie auf der **&quot;** Version freigeben“ Validierungsverantwortliche hinzu, indem Sie deren E-Mail-Adressen hinzufügen.\
+1. Fügen Sie auf der ]**&quot;**[!UICONTROL  Version freigeben“ Validierungsverantwortliche hinzu, indem Sie deren E-Mail-Adressen hinzufügen.\
    Sie können auch einen der folgenden Schritte ausführen:
 
    * Entfernen Sie alle Reviewer mit einem Klick (4).

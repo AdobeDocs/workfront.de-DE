@@ -3,9 +3,12 @@ title: Workfront Proof-App für Tablets
 description: Mit  [!DNL Workfront Proof]  Tablet-App können Sie Ihre Korrekturabzüge bequem überprüfen und genehmigen, wenn Sie unterwegs sind. Die App kann von jedem heruntergeladen werden. Sie müssen kein  [!DNL Workfront Proof]  sein, um Testsendungen auf Ihrem Tablet oder Handy überprüfen zu können.
 hide: true
 exl-id: 7a3f1d96-103d-41cf-8470-3fc69e4bd507
-source-git-commit: 18ad93c364daa9225c2b2ba715e45e8644936a0d
+TQID: https://experienceleague.adobe.com/Unk0yRCZtepX7LK-J7Y8JnUtcbUdMRzWo3XmMQuBXQM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1995'
+source-wordcount: 1979
 ht-degree: 1%
 
 ---
@@ -142,7 +145,7 @@ Proofing-Text unterwegs ist wirklich in der [!DNL Workfront Proof] Tablet-App. D
 
    | **[!UICONTROL Hervorheben]** | Markiert den Text und kopiert ihn in das Kommentarfeld. |
    |---|---|
-   | **[!UICONTROL Replace]** | Fügt &lbrack;[!UICONTROL REPLACE] und [[!UICONTROL WITH]] zusammen mit dem Text in das Kommentarfeld ein, sodass Sie leichter Ersatztext empfehlen können. |
+   | **[!UICONTROL Replace]** | Fügt [[!UICONTROL REPLACE] und [[!UICONTROL WITH]] zusammen mit dem Text in das Kommentarfeld ein, sodass Sie leichter Ersatztext empfehlen können. |
    | **[!UICONTROL Löschen]** | Durchsucht den Text und fügt [DELETE] zum Kommentarfeld hinzu. |
    | **[!UICONTROL Einfügen nach]** | Fügt [EINFÜGEN NACH] in das Kommentarfeld ein. |
 

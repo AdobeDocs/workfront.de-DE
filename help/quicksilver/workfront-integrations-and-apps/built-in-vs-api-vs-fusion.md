@@ -3,18 +3,24 @@ content-type: reference
 product-area: workfront-integrations
 keywords: nativ,OOTB
 navigation-topic: workfront-integrations-navigation-topic
-title: Adobe Workfront-Integrationsmethoden
+title: Integrationsmethoden für Adobe Workfront
 description: Sie können  [!DNL Adobe Workfront]  mit Anwendungen von Drittanbietern integrieren. Durch diese Integrationen kann die Nützlichkeit von  [!DNL Workfront]  erweitert und an die Anforderungen Ihres Unternehmens angepasst werden. Sie können eine oder alle dieser Integrationen verwenden, je nachdem, welche für eine bestimmte Aufgabe am nützlichsten ist.
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: bf13a7c9-eab3-4ae3-a060-8a422236122d
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+TQID: https://experienceleague.adobe.com/uYKhcVyG4-ktNtWp9kz4CX8GIhMunU5UJhMfwcoLcM0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: ec8965fc-2f75-47f6-a9bb-730e8c2725f3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 0%
+source-wordcount: 977
+ht-degree: 2%
 
 ---
 
-# Adobe Workfront-Integrationsmethoden
+# Integrationsmethoden für Adobe Workfront
 
 Sie können [!DNL Adobe Workfront] mit Anwendungen von Drittanbietern sowie anderen [!DNL Adobe]-Produkten integrieren. Diese Integrationen können den Nutzen von [!DNL Workfront] erweitern und an die Anforderungen Ihres Unternehmens anpassen. Sie können eine oder alle dieser Integrationen verwenden, je nachdem, welche für eine bestimmte Aufgabe am nützlichsten ist.
 
@@ -97,4 +103,4 @@ Zu den Vorteilen für [!DNL Workfront Fusion] zählen:
 >
 >![Beispiel: Hinzufügen eines Kommentars in Fusion](assets/fusion-example-comment-350x416.png)
 
-Weitere Informationen zu [!DNL Workfront Fusion] finden Sie unter [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/home).
+Weitere Informationen zu [!DNL Workfront Fusion] finden Sie unter [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home).

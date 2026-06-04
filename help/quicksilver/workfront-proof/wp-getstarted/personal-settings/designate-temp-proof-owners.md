@@ -7,9 +7,14 @@ description: Wenn Sie für einen längeren Zeitraum abwesend sein werden, könne
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d00636d7-1eb1-4aac-9663-6335e7675836
-source-git-commit: bf6c6c497d98d91ca78f892606a52f82ee4b5666
+TQID: https://experienceleague.adobe.com/C5CDLekqdsrG3LBy6c5szAFFTTinNySLgh8IyEsnMuc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: 402
 ht-degree: 0%
 
 ---
@@ -53,11 +58,11 @@ So bestimmen Sie den temporären Besitz Ihrer Korrekturabzüge:
 
    ![activity-section-delegation.png](assets/activity-section-delegated-350x318.png)
 
-   Eine [!UICONTROL Abwesenheitsbenachrichtigung] wird auch im Konto des ursprünglichen Korrekturabzugsbesitzers angezeigt, solange die Funktion aktiviert ist. Dies dient als Erinnerung an den ursprünglichen Besitzer und ermöglicht es ihm auch, die Delegierung sofort zu beenden oder zu &quot;[!UICONTROL &#x200B; Einstellungen“ &#x200B;] gehen, um dies anzupassen.
+   Eine [!UICONTROL Abwesenheitsbenachrichtigung] wird auch im Konto des ursprünglichen Korrekturabzugsbesitzers angezeigt, solange die Funktion aktiviert ist. Dies dient als Erinnerung an den ursprünglichen Besitzer und ermöglicht es ihm auch, die Delegierung sofort zu beenden oder zu &quot;[!UICONTROL  Einstellungen“ ] gehen, um dies anzupassen.
 
    ![notification-on-account.png](assets/notification-on-account-350x15.png)
 
-   Wenn der ursprüngliche Besitzer die Verantwortung für Ihre Korrekturabzüge zurücknimmt, verschwindet der delegierte Besitzer aus dem Abschnitt [!UICONTROL Details] der Seite mit den Korrekturabzugsdetails, und die [!UICONTROL Abwesend]-Benachrichtigung wird nicht mehr im Konto des ursprünglichen Korrekturabzugsbesitzers angezeigt. Ein Hinweis, der anzeigt, dass die Eigentümerschaft des Korrekturabzugs zurückgesetzt wurde[!UICONTROL &#x200B; wird im Abschnitt &#x200B;]Aktivität“ der Seite mit den Korrekturabzugsdetails angezeigt.
+   Wenn der ursprüngliche Besitzer die Verantwortung für Ihre Korrekturabzüge zurücknimmt, verschwindet der delegierte Besitzer aus dem Abschnitt [!UICONTROL Details] der Seite mit den Korrekturabzugsdetails, und die [!UICONTROL Abwesend]-Benachrichtigung wird nicht mehr im Konto des ursprünglichen Korrekturabzugsbesitzers angezeigt. Ein Hinweis, der anzeigt, dass die Eigentümerschaft des Korrekturabzugs zurückgesetzt wurde[!UICONTROL  wird im Abschnitt ]Aktivität“ der Seite mit den Korrekturabzugsdetails angezeigt.
 
    >[!NOTE]
    >

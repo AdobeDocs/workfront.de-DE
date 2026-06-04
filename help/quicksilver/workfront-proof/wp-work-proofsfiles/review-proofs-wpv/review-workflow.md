@@ -7,9 +7,12 @@ description: Im Workflow-Bedienfeld wird der Workflow Ihres Korrekturabzugs so a
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 4e6736bb-2859-4309-841b-67ed83dab6a0
-source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
+TQID: https://experienceleague.adobe.com/npnr8trMiVQ-Hv4I-cMCgQIaNbefbT8m4Yq8G7-SMc4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: 276
 ht-degree: 5%
 
 ---
@@ -24,7 +27,7 @@ Das [!UICONTROL Workflow] zeigt den Workflow Ihres Korrekturabzugs so an, wie er
 Weitere Informationen zu Testversanddetails finden Sie unter [Verwalten von Testversanddetails in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).\
 Alle zugewiesenen Reviewer, einschließlich Benutzer und Gäste, können das Bedienfeld [!UICONTROL Workflow] anzeigen.
 
-So greifen Sie auf [!UICONTROL &#x200B; Bedienfeld &#x200B;]Workflow“ zu:
+So greifen Sie auf [!UICONTROL  Bedienfeld ]Workflow“ zu:
 
 1. Wenn das Menü mit dem Symbol auf der linken Seite nicht angezeigt wird **[!UICONTROL klicken Sie auf]** Symbol „Menü“ in der linken oberen Ecke der Korrekturabzugsansicht.
 

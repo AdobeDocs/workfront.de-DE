@@ -7,9 +7,14 @@ description: Wenn Sie über den Enterprise-Plan verfügen, können Sie den Ablag
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e66142fa-3b0d-4821-9aa5-040c62f00d62
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/BHaoBaXJte-ssHEPefYCEqjs3zTSJ9MDcOw8G7YsHUs
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: 952
 ht-degree: 0%
 
 ---
@@ -120,6 +125,6 @@ Die Dropzone-Seite erleichtert die Verwaltung der Übermittlungen an Ihre Dropzo
 * Korrekturabzug-Zusammenfassung erweitern/reduzieren (8)
 * Korrekturabzug auswählen (9)
 
-Das Seitenlayout sowie die Sortierungs- und Filteroptionen sind mit denen in den [!DNL Views] identisch. Weitere [&#x200B; finden Sie unter „Elemente auf der Seite &quot; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)&quot; in.
+Das Seitenlayout sowie die Sortierungs- und Filteroptionen sind mit denen in den [!DNL Views] identisch. Weitere [ finden Sie unter „Elemente auf der Seite &quot; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)&quot; in.
 
 ![New_Dropzone_design__Feb_2013_.jpg](assets/new-dropzone-design--feb-2013--350x224.jpg)

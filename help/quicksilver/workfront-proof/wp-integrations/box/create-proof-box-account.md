@@ -7,9 +7,14 @@ description: Über Ihr Box-Konto können Sie mühelos Korrekturabzüge und neue 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 6fdabea6-c380-4b64-9b26-93b3f773f996
-source-git-commit: a6c79166c50af5bfe4c0341d003052179ce78373
+TQID: https://experienceleague.adobe.com/7KC9FpJAVX7-inrT8y50iR5IalARRD3qWx3bZiUCDq8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: 617
 ht-degree: 1%
 
 ---
@@ -35,8 +40,8 @@ ht-degree: 1%
 
    Der Datei im Feld wird ein Kommentar mit einem persönlichen Link zum Korrekturabzug im [!DNL Workfront Proof] hinzugefügt.
 
-   * Wenn Sie Ihre eigene [!DNL Workfront Proof]-Anmeldeseite haben, werden Sie zu dieser Seite anstelle der standardmäßigen [!DNL Workfront Proof]-Anmeldeseite weitergeleitet. Weitere Informationen finden [&#x200B; unter &#x200B;](https://support.workfront.com/hc/en-us/sections/115000921208-Branding).
-   * Wenn Sie die Single-Sign-On-Funktion in Ihrem [!DNL Workfront Proof]-Konto aktiviert haben, werden Sie zur SSO-Anmeldeseite weitergeleitet und aufgefordert, Ihre Single-Sign-On-Anmeldedaten einzugeben, jedoch nur, wenn Sie dieselbe E-Mail-Adresse für Ihr Box-Konto und Ihre [!DNL Workfront Proof] verwenden. Weitere Informationen finden [&#x200B; unter „Single Sign [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)On“.
+   * Wenn Sie Ihre eigene [!DNL Workfront Proof]-Anmeldeseite haben, werden Sie zu dieser Seite anstelle der standardmäßigen [!DNL Workfront Proof]-Anmeldeseite weitergeleitet. Weitere Informationen finden [ unter ](https://support.workfront.com/hc/en-us/sections/115000921208-Branding).
+   * Wenn Sie die Single-Sign-On-Funktion in Ihrem [!DNL Workfront Proof]-Konto aktiviert haben, werden Sie zur SSO-Anmeldeseite weitergeleitet und aufgefordert, Ihre Single-Sign-On-Anmeldedaten einzugeben, jedoch nur, wenn Sie dieselbe E-Mail-Adresse für Ihr Box-Konto und Ihre [!DNL Workfront Proof] verwenden. Weitere Informationen finden [ unter „Single Sign [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)On“.
    * Wenn Sie nicht dieselbe E-Mail-Adresse sowohl für Ihr [!DNL Box]-Konto als auch für Ihr [!DNL Workfront Proof]-Konto verwenden, werden Sie immer zur standardmäßigen [!DNL Workfront Proof]-Anmeldeseite weitergeleitet.
 
 ## Erstellen einer neuen Version eines Korrekturabzugs mithilfe einer Datei in [!DNL Box]
@@ -46,7 +51,7 @@ Es ist einfach, mit einer neuen Version der Datei aus Ihrem Box-Konto eine neue 
 1. Führen Sie die oben genannten Schritte aus.
 1. Klicken Sie auf der Seite [!DNL New proof] auf den Link [!UICONTROL Neue Version] (1), um zur Seite [!DNL New version] zu gelangen, auf der Sie den Prozess zum Erstellen einer neuen Version eines vorhandenen Korrekturabzugs abschließen können.\
    Wenn Sie bereits einen Korrekturabzug über [!DNL Box] mit einer früheren Version der Datei erstellt haben, wird dies in der Benachrichtigung am oberen Seitenrand angezeigt
-1. Wählen **[!UICONTROL im Popup]** Vorhandener Korrekturabzug“ die übergeordnete Version Ihres neuen Korrekturabzugs aus. Wenn die vorherige Version des Korrekturabzugs auch von [!DNL Box] gesendet wurde, wird dieser Korrekturabzug im Abschnitt [!UICONTROL Abgleichen von &#x200B;]&quot; oben in der Liste angezeigt. Sie können Ihre übergeordnete Version auch im Abschnitt [!UICONTROL Andere Korrekturabzüge] auswählen.
+1. Wählen **[!UICONTROL im Popup]** Vorhandener Korrekturabzug“ die übergeordnete Version Ihres neuen Korrekturabzugs aus. Wenn die vorherige Version des Korrekturabzugs auch von [!DNL Box] gesendet wurde, wird dieser Korrekturabzug im Abschnitt [!UICONTROL Abgleichen von ]&quot; oben in der Liste angezeigt. Sie können Ihre übergeordnete Version auch im Abschnitt [!UICONTROL Andere Korrekturabzüge] auswählen.
 1. Wenn der Korrekturabzug, den Sie in der Liste auswählen möchten, nicht angezeigt wird, haben Sie folgende Möglichkeiten:
 
    * Sortieren Sie die Spalten durch Klicken auf die Spaltenüberschrift.

@@ -7,10 +7,13 @@ description: Benutzende, die Bearbeitungsrechte für einen Korrekturabzug haben,
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 0b2a953f-bd70-4606-b327-57412b0d2095
-source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
+TQID: https://experienceleague.adobe.com/JPW-DczCxMn4QXN5Io8hNHHd9DxmdA7R-X18rkpNbMM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 0%
+source-wordcount: 289
+ht-degree: 4%
 
 ---
 
@@ -45,6 +48,6 @@ Informationen zum Papierkorb finden Sie unter [Wiederherstellen und Leeren des P
 
 Sie können Testsendungen auch an den unten beschriebenen Speicherorten löschen. Beachten Sie bei einem Korrekturabzug mit mehreren Versionen, dass diese Methoden die gesamte Korrekturabzugskette löschen.
 
-* In der Korrekturabzugsansicht können Sie im Menü **auf der linken Seite auf** Löschen“ klicken.
+* In der Korrekturabzugsansicht können Sie im Menü ]**auf der linken Seite auf**[!UICONTROL  Löschen“ klicken.
 * In jeder Listenansicht können Sie das Kontrollkästchen links neben dem Korrekturabzug (oder das Kontrollkästchen in der Kopfzeile zur Auswahl aller aufgelisteten Korrekturabzüge) aktivieren und dann über der Liste auf [!UICONTROL Löschen] klicken.
 * In jeder Listenansicht klicken Sie auf das Menü **[!UICONTROL Mehr]** rechts neben dem Korrekturabzug und dann auf **[!UICONTROL Löschen]**.

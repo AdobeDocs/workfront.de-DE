@@ -7,9 +7,12 @@ description: Sie können in Workfront Proof Unterordner erstellen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 5a7c4c8d-3136-4ea2-8b2c-98eed06822b0
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+TQID: https://experienceleague.adobe.com/yHgnZWct7KCzUeazJ-HZcy39TFKmpPG1qrD6Q1L-22I
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: 766
 ht-degree: 0%
 
 ---
@@ -96,7 +99,7 @@ In diesem Abschnitt können Sie die folgenden Informationen zu dem Ordner hinzuf
 * Ordnername: Dieses Feld ist obligatorisch (1)
 * Wenn Sie auf den Link [!UICONTROL Liste anzeigen] (2) klicken, wird ein Popup mit einer Liste von Personen angezeigt, für die dieser Ordner freigegeben ist. Diese Information ist besonders nützlich, wenn Sie Unterordner erstellen, da Unterordner automatisch für dieselben Personen wie der übergeordnete Ordner freigegeben werden
 * Beschreibung (3) - Hier können Sie eine kurze Beschreibung des Ordners hinzufügen. Diese wird auf der Seite Ordnerdetails angezeigt.
-* Ordner als privat festlegen (4): Wenn Sie das Kontrollkästchen aktivieren, wird dieser Ordner privat (sodass nur für die Personen sichtbar ist, für die Sie den Ordner explizit freigeben, und für die Benutzer in Ihrem Konto mit den Profilen [Korrekturabzugsberechtigungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md), [Korrekturabzugsberechtigungsprofile in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) oder [Korrekturabzugsberechtigungsprofile in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) ). Weitere Informationen zu privaten [&#x200B; öffentlichen Ordnern in Workfront Proof finden  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md) unter „Grundlegendes zu in“.
+* Ordner als privat festlegen (4): Wenn Sie das Kontrollkästchen aktivieren, wird dieser Ordner privat (sodass nur für die Personen sichtbar ist, für die Sie den Ordner explizit freigeben, und für die Benutzer in Ihrem Konto mit den Profilen [Korrekturabzugsberechtigungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md), [Korrekturabzugsberechtigungsprofile in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) oder [Korrekturabzugsberechtigungsprofile in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) ). Weitere Informationen zu privaten [ öffentlichen Ordnern in Workfront Proof finden  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md) unter „Grundlegendes zu in“.
 
 ![New_folder_page_-_folder_details.png](assets/new-folder-page---folder-details-350x133.png)
 

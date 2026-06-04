@@ -7,9 +7,13 @@ description: Dies wiederholt Informationen, die unter Konfigurieren von Testsend
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 605569df-8e63-476d-a0cd-e73802042011
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/H0iX2AA8WPbkiPDHagBRmnL6G2FQJmDFpaAdr3oEKOk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: 1610
 ht-degree: 0%
 
 ---
@@ -103,7 +107,7 @@ Sie können einem Workflow, den Sie erstellen oder ändern, einen zusätzlichen 
 1. Wenn Sie einen Schritt zu einem vorhandenen Korrekturabzug hinzufügen, gehen Sie zur Seite mit den Korrekturabzugsdetails, wie unter [Verwalten von Korrekturabzugsdetails in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) beschrieben.
 1. Klicken Sie **[!UICONTROL Abschnitt]** Workflow“ auf **[!UICONTROL Neues]**.
 
-1. Geben Sie Informationen für die Phase an, wie in Schritt 4 [!UICONTROL &#x200B; Abschnitt „Erstellen eines Korrekturabzugs mit einem automatisierten Workflow] in diesem Artikel beschrieben.
+1. Geben Sie Informationen für die Phase an, wie in Schritt 4 [!UICONTROL  Abschnitt „Erstellen eines Korrekturabzugs mit einem automatisierten Workflow] in diesem Artikel beschrieben.
 1. Klicken Sie **[!UICONTROL Phase hinzufügen]** und dann auf **[!UICONTROL Fertig]**.
 
 ## Löschen eines Stadiums
@@ -129,7 +133,7 @@ Sie können einem Workflow, den Sie erstellen oder ändern, einen zusätzlichen 
 * **[!UICONTROL Frist]:** Sie können festlegen, wie die Frist in jedem Schritt eines Workflows berechnet werden soll. Die Optionen sind:
 
    * Bei der Erstellung des Korrekturabzugs: Im Feld [!UICONTROL Frist] (9) können Sie das Fristdatum für den Korrekturabzug auswählen.
-   * Aus der Staging-Aktivierung[!UICONTROL &#x200B; Wählen Sie in der Dropdown]Liste „Frist“ die Anzahl der Werktage aus, die zum Staging-Aktivierungsdatum hinzugefügt werden sollen, um automatisch eine Frist für den Korrekturabzug festzulegen.
+   * Aus der Staging-Aktivierung[!UICONTROL  Wählen Sie in der Dropdown]Liste „Frist“ die Anzahl der Werktage aus, die zum Staging-Aktivierungsdatum hinzugefügt werden sollen, um automatisch eine Frist für den Korrekturabzug festzulegen.
 
 * **[!UICONTROL lock]:** Es gibt eine Reihe von Optionen, die bestimmen, wann ein Schritt gesperrt werden kann. Die Optionen sind:
 
@@ -180,7 +184,7 @@ Nachdem ein einfacher Korrekturabzug in einen automatisierten Workflow konvertie
 
 1. Klicken Sie auf der Seite mit den Korrekturabzugsdetails im Abschnitt Workflow auf **[!UICONTROL Vorlage hinzufügen].**
 
-   * Vorlageneinstellungen bestimmen, was mit einem Korrekturabzug getan werden kann, dem diese Vorlage hinzugefügt wurde. Wenn in der Vorlage beispielsweise die Optionen [!UICONTROL Phase hinzufügen und Personen zu Phasen hinzufügen] deaktiviert sind, werden die Schaltflächen [!UICONTROL Phase hinzufügen] und [!UICONTROL Korrekturabzug &#x200B;].
+   * Vorlageneinstellungen bestimmen, was mit einem Korrekturabzug getan werden kann, dem diese Vorlage hinzugefügt wurde. Wenn in der Vorlage beispielsweise die Optionen [!UICONTROL Phase hinzufügen und Personen zu Phasen hinzufügen] deaktiviert sind, werden die Schaltflächen [!UICONTROL Phase hinzufügen] und [!UICONTROL Korrekturabzug ].
    * Wenn [!UICONTROL Option „Stadium hinzufügen] in der angegebenen Vorlage deaktiviert ist, ist nach dem Hinzufügen die Schaltfläche [!UICONTROL Vorlage hinzufügen] nicht sichtbar.
    * Wenn eine Person zu einem Schritt in einer automatisierten Workflow-Vorlage hinzugefügt wird, aber auch bereits im Korrekturabzug vorhanden ist, entfernt das System diese Person automatisch aus dem Schritt, wenn diese Vorlage angewendet wird. Wenn zu diesem Schritt keine weitere Person hinzugefügt wird, wird der folgende Fehler angezeigt, da das System das Hinzufügen einer leeren Phase zum Workflow nicht zulässt.
 

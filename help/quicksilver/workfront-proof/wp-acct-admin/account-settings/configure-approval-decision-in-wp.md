@@ -7,9 +7,14 @@ description: Sie können Optionen für Genehmigungsentscheidungen für alle Korr
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 9e1c2a4e-0641-4334-8ff9-dbb203ccbc82
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+TQID: https://experienceleague.adobe.com/byd7VyLV7IkwQ1YSHoQMHQNXOPAeJvP8-ENhHBvo01A
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: 462
 ht-degree: 0%
 
 ---
@@ -81,10 +86,10 @@ Sie können eine Nachricht für eine POST-Entscheidung erstellen, die angezeigt 
 1. Klicken Sie **[!UICONTROL Einstellungen]** > **[!UICONTROL Kontoeinstellungen]**.
 
 1. Öffnen Sie die **[!UICONTROL Entscheidungen]** .
-1. Klicken Sie **[!UICONTROL Abschnitt]** Nach der Entscheidung **am Ende der Zeile**&#x200B;[!UICONTROL &#x200B; Nachricht &#x200B;]&#x200B;**auf**&#x200B;Bearbeiten.
+1. Klicken Sie **[!UICONTROL Abschnitt]** Nach der Entscheidung ]**am Ende der Zeile**[!UICONTROL  Nachricht ]**auf**[!UICONTROL Bearbeiten.
 Sie können auch entscheiden, ob die Nachricht allen Entscheidungsträgern angezeigt werden soll oder ob sie auf den Primären Entscheidungsträger beschränkt werden soll.
    ![post_decision_message_set_up.png](assets/post-decision-message-set-up-350x125.png)
 
-1. Geben **[!UICONTROL in der Spalte]**&#x200B;Nachricht anzeigen“ die Entscheidungen an, für die diese Nachricht angezeigt werden soll.
+1. Geben **[!UICONTROL in der Spalte]**Nachricht anzeigen“ die Entscheidungen an, für die diese Nachricht angezeigt werden soll.
 Wenn Sie nicht mindestens eine Entscheidung auswählen, wird die Nachricht nicht auf Ihren Korrekturabzügen angezeigt. Stellen Sie sicher, dass Sie mindestens ein Kästchen in dieser Spalte aktivieren.
    ![post_decision_message_set_up_2.png](assets/post-decision-message-set-up-2-350x151.png)

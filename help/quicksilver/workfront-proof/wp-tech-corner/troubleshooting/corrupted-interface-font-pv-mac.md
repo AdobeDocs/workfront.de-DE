@@ -3,19 +3,23 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
-title: Fehlerbehebung - Schriftart für beschädigte Benutzeroberfläche im Proofing Viewer auf Mac
+title: Fehlerbehebung – Beschädigte Benutzeroberflächenschrift im Proofing Viewer auf Mac
 description: Fehlerbehebung bei beschädigter Schriftart für die Benutzeroberfläche im Proofing Viewer auf Mac
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1e96720a-b967-4447-bd14-26fc6a502b25
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+TQID: https://experienceleague.adobe.com/t6MNg6tX6QJ2v3SCwu7NhiXcMaYq8CYQrvSi-ng-HWY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 0%
+source-wordcount: 660
+ht-degree: 2%
 
 ---
 
-# Fehlerbehebung - Schriftart für beschädigte Benutzeroberfläche im Proofing Viewer auf Mac
+# Fehlerbehebung – Beschädigte Benutzeroberflächenschrift im Proofing Viewer auf Mac
 
 >[!IMPORTANT]
 >

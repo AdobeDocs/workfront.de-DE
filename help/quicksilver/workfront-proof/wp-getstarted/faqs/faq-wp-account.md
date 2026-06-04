@@ -8,9 +8,15 @@ description: Um ein neues Konto zu eröffnen, gehen Sie zur Seite „Testanmeldu
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 47092717-3895-40a3-9db1-0009638e2544
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/tbPBGXTzfjmKuYgp32iFR6NsQCNf8sHZj4IH0zUXwt4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: 875
 ht-degree: 0%
 
 ---
@@ -23,7 +29,7 @@ ht-degree: 0%
 
 ## Wie erstelle ich ein neues [!DNL Workfront Proof]?
 
-Um ein neues Konto zu eröffnen, gehen Sie zur [Testanmeldung](https://business.adobe.com/de/products/workfront/proofing-approvals.html) und öffnen Sie ein Testkonto. Ein Mitglied unseres Teams wird sich dann mit Ihnen in Verbindung setzen, um Ihnen bei den ersten Schritten mit [!DNL Workfront Proof] zu helfen.
+Um ein neues Konto zu eröffnen, gehen Sie zur [Testanmeldung](https://business.adobe.com/products/workfront/proofing-approvals.html) und öffnen Sie ein Testkonto. Ein Mitglied unseres Teams wird sich dann mit Ihnen in Verbindung setzen, um Ihnen bei den ersten Schritten mit [!DNL Workfront Proof] zu helfen.
 
 Wenn Sie das System bereits kennen und sich für einen kostenpflichtigen Plan anmelden möchten, gehen Sie zu *[!UICONTROL Einstellungen]* *>* *[!UICONTROL Abrechnung]* und aktualisieren Sie Ihr Konto auf einen unserer kostenpflichtigen Pläne.
 

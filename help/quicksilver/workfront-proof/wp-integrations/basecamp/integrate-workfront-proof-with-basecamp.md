@@ -7,9 +7,13 @@ description: Wenn Sie für  [!DNL Basecamp]  Projektmanagement verwenden, könne
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: f6d5aef6-573d-4398-a057-ffea2e67288f
-source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
+TQID: https://experienceleague.adobe.com/EyGqYRFaK3kCXNU-vY8DWhB4s8d2Gw1ZlVflB-0QqJk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: 737
 ht-degree: 0%
 
 ---
@@ -56,10 +60,10 @@ Informationen zum Konfigurieren von [!DNL Basecamp Classic] finden Sie unter [In
 
 Als [Profile mit Korrekturabzugsberechtigungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) oder [Profile mit Korrekturabzugsberechtigungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) können Sie die [!DNL Basecamp] Integration für das gesamte Konto in Ihren [Kontoeinstellungen](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings).
 
-1. Sammeln [!UICONTROL &#x200B; in &quot;]&quot; die folgenden Informationen:
+1. Sammeln [!UICONTROL  in &quot;]&quot; die folgenden Informationen:
 
    * Die URL für Ihr [!DNL Basecamp]
-   * Die URL im Abschnitt &quot;[!UICONTROL &#x200B; Informationen]
+   * Die URL im Abschnitt &quot;[!UICONTROL  Informationen]
 
 1. Melden Sie sich von [!DNL Basecamp] ab.
 1. Klicken Sie **[!UICONTROL oben]** auf „Kontoeinstellungen“.
@@ -77,7 +81,7 @@ Als [Profile mit Korrekturabzugsberechtigungen in [!DNL Workfront Proof]](../../
 
 1. Klicken Sie in den angezeigten Optionen rechts neben **[!UICONTROL [!DNL Basecamp]API-]** auf **[!UICONTROL Bearbeiten]**.
 
-1. Geben Sie in das sich öffnende Feld die URL im Abschnitt &quot;[!UICONTROL Meine &#x200B;]&quot; in [!DNL Basecamp] ein und klicken Sie auf **[!UICONTROL Speichern]**.\
+1. Geben Sie in das sich öffnende Feld die URL im Abschnitt &quot;[!UICONTROL Meine ]&quot; in [!DNL Basecamp] ein und klicken Sie auf **[!UICONTROL Speichern]**.\
    Sobald Sie [!DNL Workfront Proof] mit [!DNL Basecamp] integrieren, können Ihre Benutzerinnen und Benutzer ihre persönlichen Einstellungen konfigurieren. Informationen zum Einrichten persönlicher Einstellungen finden Sie unter [Persönliche Einstellungen konfigurieren](#configuring-personal-settings)
 
 1. Wenn Sie [!DNL Basecamp] Integration nicht aktivieren können, ist Ihre [!DNL Workfront Proof]-Konto-ID möglicherweise nicht mit der in [!DNL Basecamp] verwendeten Konto-ID identisch.

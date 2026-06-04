@@ -8,10 +8,16 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: 53aca72d33236e8680a8fd1c538f86ce14ac05a8
+TQID: https://experienceleague.adobe.com/BCihPeFt421LF8Fa0-XRsAmxSMv-T7kqGEZQ3XeZ-EQ
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: e4bd5f48-22a4-465d-a046-5ffb52e27856id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 3%
+source-wordcount: 520
+ht-degree: 11%
 
 ---
 
@@ -83,7 +89,7 @@ Wenn eine Express-Vorlage neu gemischt wird, ist vor der Veröffentlichung eine 
 
 Benutzende müssen über eine Standardlizenz für Workfront verfügen, um eine Genehmigung von Adobe Express anfordern zu können.
 
-Erfahren Sie, wie Sie [Genehmigung für Designs erhalten](https://helpx.adobe.com/de/express/web/share-and-publish/share-and-collaborate/request-approval.html).
+Erfahren Sie, wie Sie [Genehmigung für Designs erhalten](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).
 
 
 ## Express-Vorlagen neu mischen und zur Überprüfung und Genehmigung senden
@@ -95,15 +101,15 @@ Während des gesamten Prozesses der Inhaltserstellung, -überprüfung und -valid
 * Überprüfen, wer die Datei geöffnet hat
 * Anzeigen des Entscheidungsstatus aller Teilnehmer
 * Kommentare lesen
-* und weitere
+* und mehr
 
 ### Workfront-Projekt auswählen, wenn Genehmigung angefordert wird
 
-Bei der Anforderung einer Genehmigung für eine Remix-Express-Vorlage können Benutzende ein Workfront-Projekt auswählen, an das der Testversand gesendet werden soll. Auf diese Weise bleiben alle zugehörigen Assets und Testsendungen innerhalb desselben Projekts organisiert.
+Bei der Anforderung einer Genehmigung für eine Remix-Express-Vorlage können Benutzende ein Workfront-Projekt auswählen, an das der Testversand gesendet werden soll. Auf diese Weise bleiben alle zugehörigen Assets und Korrekturabzüge innerhalb desselben Projekts organisiert.
 
 Wenn kein Projekt ausgewählt ist, wird für den Korrekturabzug standardmäßig ein Express-spezifisches Projekt verwendet.
 
-Weitere Informationen finden Sie unter [Senden von Vorlagen zur Überprüfung und Genehmigung](https://helpx.adobe.com/de/express/web/invite-collaborate/request-approval.html).
+Weitere Informationen finden Sie unter [Senden von Vorlagen zur Überprüfung und Genehmigung](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html).
 
 ## Remixte Express-Datei überprüfen und genehmigen
 

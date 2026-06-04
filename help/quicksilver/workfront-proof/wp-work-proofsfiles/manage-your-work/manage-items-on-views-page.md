@@ -3,13 +3,16 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Elemente auf der Seite [!UICONTROL Ansichten] in  [!DNL Workfront Proof]
-description: Auf [!UICONTROL &#x200B; Seite &#x200B;]Ansichten“ können Sie alle Ihre Korrekturabzüge, Dateien und Ordner an einem Ort anzeigen und mit ihnen arbeiten.
+description: Auf [!UICONTROL  Seite ]Ansichten“ können Sie alle Ihre Korrekturabzüge, Dateien und Ordner an einem Ort anzeigen und mit ihnen arbeiten.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 56556d16-9aab-4b0e-b08c-ac5f1703e082
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/cEwm8LT22jENgN3OFGgqzGoMfrz8JSqIyHQGdYpiV04
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1544'
+source-wordcount: 1544
 ht-degree: 0%
 
 ---
@@ -20,7 +23,7 @@ ht-degree: 0%
 >
 >Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Auf [!UICONTROL &#x200B; Seite &#x200B;]Ansichten“ können Sie alle Ihre Korrekturabzüge, Dateien und Ordner an einem Ort anzeigen und mit ihnen arbeiten.
+Auf [!UICONTROL  Seite ]Ansichten“ können Sie alle Ihre Korrekturabzüge, Dateien und Ordner an einem Ort anzeigen und mit ihnen arbeiten.
 
 ## Anzeigen der [!UICONTROL Ansichten] Seite
 
@@ -53,7 +56,7 @@ So ändern Sie, was Sie in der Liste [!UICONTROL Ansichten] sehen:
    * **[!UICONTROL Gesperrte Korrekturabzüge]**: Nur gesperrte Korrekturabzüge.
    * **[!UICONTROL Archivierte Korrekturabzüge]**: Nur archivierte Korrekturabzüge (siehe [Archivieren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/archive.md))
 
-   * **[!UICONTROL Meine Korrekturabzüge]**: Zeigt nur Korrekturabzüge an, deren Inhaber Sie sind und die an Sie delegiert wurden. Weitere Informationen finden Sie unter &quot;[&#x200B; von Verantwortlichen für temporäre Korrekturabzüge in  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md).
+   * **[!UICONTROL Meine Korrekturabzüge]**: Zeigt nur Korrekturabzüge an, deren Inhaber Sie sind und die an Sie delegiert wurden. Weitere Informationen finden Sie unter &quot;[ von Verantwortlichen für temporäre Korrekturabzüge in  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md).
 
    * **[!UICONTROL Korrekturabzüge mit ausstehender Entscheidung]**: Zeigt nur Korrekturabzüge an, für die Sie eine Entscheidung treffen müssen
    * **[!UICONTROL Überfällige Korrekturabzüge]**: Zeigt nur Korrekturabzüge an, deren Frist abgelaufen ist
@@ -74,7 +77,7 @@ So ändern Sie, was Sie in der Liste [!UICONTROL Ansichten] sehen:
      >
      >Wenn Sie die Seite „Ansichten“ verlassen und in derselben Sitzung zu ihr zurückkehren, wird Ihre zuletzt ausgewählte Ansicht angezeigt.
 
-     Sie können auch eigene Ansichten erstellen. Weitere [&#x200B; finden Sie unter „Erstellen und Verwalten  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md) benutzerdefinierten Ansichten in“.
+     Sie können auch eigene Ansichten erstellen. Weitere [ finden Sie unter „Erstellen und Verwalten  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md) benutzerdefinierten Ansichten in“.
 
 
 
@@ -87,7 +90,7 @@ Sie können die in einer Ansicht aufgelisteten Informationen filtern.
 
 1. Die Filterleiste (2) wird angezeigt und jede Kategorie verfügt über ein Dropdown-Menü zur Filterung (3), um Ihren bevorzugten Wert auszuwählen. Der Standardwert für jede Kategorie ist „Alle“.
 1. Die Filterleiste wird in den von Ihnen erstellten benutzerdefinierten Ansichten nicht angezeigt. Für diese Ansichten können Sie Filter auf der Registerkarte [!UICONTROL Filter] anwenden und bearbeiten. Weitere Informationen finden Sie unter [Erstellen und Verwalten von benutzerdefinierten Ansichten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
-1. Um alle ausgewählten Filter anzuwenden, klicken Sie auf [!UICONTROL &#x200B; Symbol &#x200B;]Filter) (4) am Ende der Filterleiste.\
+1. Um alle ausgewählten Filter anzuwenden, klicken Sie auf [!UICONTROL  Symbol ]Filter) (4) am Ende der Filterleiste.\
    ![filters_2.png](assets/filters-2-350x102.png)
 
 Die ausgewählten Filterwerte bleiben so lange aktiv, bis Sie sie ändern. Wenn Sie die vollständige Liste der Elemente erneut anzeigen und darauf zugreifen möchten, müssen Sie alle Filterwerte wieder in die Standardeinstellung (**[!UICONTROL )]**.
@@ -141,7 +144,7 @@ So zeigen Sie detailliertere Informationen zu einem Korrekturabzug an:
    * Senden Sie dem Validierungsverantwortlichen eine Erinnerungsnachricht.
    * Bearbeiten Sie die Einstellungen des Reviewers für den Testversand.\
 
-     Im angezeigten Feld Reviewer bearbeiten können Sie nicht nur Rollen- und E-Mail-Warnungen, sondern auch den Anzeigenamen für die Reviewer ändern. Beachten Sie, dass der Anzeigename nur für den jeweiligen Korrekturabzug geändert werden kann, nicht in den Details des Reviewers auf der Seite „Kontakte“. Weitere Informationen finden [&#x200B; unter &#x200B;](https://support.workfront.com/hc/en-us/sections/115000920808-Contacts)Kontakte“.
+     Im angezeigten Feld Reviewer bearbeiten können Sie nicht nur Rollen- und E-Mail-Warnungen, sondern auch den Anzeigenamen für die Reviewer ändern. Beachten Sie, dass der Anzeigename nur für den jeweiligen Korrekturabzug geändert werden kann, nicht in den Details des Reviewers auf der Seite „Kontakte“. Weitere Informationen finden [ unter ](https://support.workfront.com/hc/en-us/sections/115000920808-Contacts)Kontakte“.
 
    * Wählen Sie den Prüfer als Primären Entscheidungsträger für den Korrekturabzug aus.
    * Löschen Sie den Prüfer aus dem Korrekturabzug.
@@ -187,7 +190,7 @@ So wählen Sie mehrere Elemente aus:
 
    * Klicken Sie auf das **[!UICONTROL Mehr]**-Menü, um zusätzliche Aktionen anzuzeigen.
 
-   * Die Aktionen werden nur auf die der ausgewählten Elemente angewendet, für die die jeweilige Option verfügbar ist. Wenn Sie beispielsweise Dateien und Korrekturabzüge und &quot;[!UICONTROL &quot; &#x200B;], werden nur die Korrekturabzüge gesperrt (da Sie keine Dateien sperren können)
+   * Die Aktionen werden nur auf die der ausgewählten Elemente angewendet, für die die jeweilige Option verfügbar ist. Wenn Sie beispielsweise Dateien und Korrekturabzüge und &quot;[!UICONTROL &quot; ], werden nur die Korrekturabzüge gesperrt (da Sie keine Dateien sperren können)
 
 ## Verschieben eines Elements in einen Ordner
 
@@ -197,4 +200,4 @@ Wenn Sie dazu berechtigt sind, können Sie Korrekturabzüge, Dateien und Ordner 
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Um ein Element zu verschieben, klicken und halten Sie es, ziehen Sie es per Drag-and-Drop in den Ordner, in dem Sie es ablegen möchten.
-   * Um mehrere Elemente gleichzeitig zu verschieben, können Sie die Kontrollkästchen links neben den Elementen aktivieren und dann oberhalb der Liste auf **[!UICONTROL Verschieben nach]**&#x200B;klicken und dann den Ordner auswählen, in dem Sie sie ablegen möchten, oder einen neuen Ordner für sie erstellen.
+   * Um mehrere Elemente gleichzeitig zu verschieben, können Sie die Kontrollkästchen links neben den Elementen aktivieren und dann oberhalb der Liste auf **[!UICONTROL Verschieben nach]**klicken und dann den Ordner auswählen, in dem Sie sie ablegen möchten, oder einen neuen Ordner für sie erstellen.
