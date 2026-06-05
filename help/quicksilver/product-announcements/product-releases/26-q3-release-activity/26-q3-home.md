@@ -4,7 +4,7 @@ description: Home-Verbesserungen im Zeitraum der Veröffentlichung im dritten Qu
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1fe4b945d6f346f1cfa06bda0a7ddc8b6ca92cfd
+source-git-commit: ca4b2ee8375442afa19bf0d3af2915d3aab20779
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 7%
@@ -28,4 +28,5 @@ Die Priorität unterstützt jetzt die Verwendung benutzerdefinierter Daten in de
 Sie können auch Ansichten für die Arbeitsliste „Prioritäten“ erstellen und freigeben.
 
 Informationen zu Prioritäten finden Sie unter [Anpassen der Spalten der Arbeitsliste „Prioritäten](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md). Informationen zum Erstellen von Ansichten und zum Verwenden des Spalten-Managers finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
 
