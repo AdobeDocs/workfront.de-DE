@@ -5,12 +5,15 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 42fe3f53-6f83-4769-aaa6-953875cdfb7d
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/QLkHTx4Ew5BM47EdLlzJE2yIsJvtIHpZdCIjokBgwEg
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 84%
+source-wordcount: 290
+ht-degree: 76%
 
 ---
 
@@ -31,9 +34,7 @@ Weitere Informationen finden Sie [Verwenden von Filtergruppen](/help/quicksilver
 
 >[!NOTE]
 >
->Vorschau: 30. Oktober 2025
->Produktions-Schnellveröffentlichung: 13. November 2025
->Produktion für alle: 15. Januar 2026
+>Vorschau: 30. Oktober 2025>Produktions-Schnellveröffentlichung: 13. November 2025>Produktion für alle: 15. Januar 2026
 
 Felder, die mehrere Auswahlmöglichkeiten zulassen, z. B. Kontrollkästchen und Mehrfachauswahl-Dropdown-Listen, sind jetzt auf 5.000 Auswahlmöglichkeiten beschränkt, wenn Benutzende das Formular ausfüllen.
 
@@ -46,9 +47,8 @@ Weitere Informationen finden Sie unter [Bearbeiten von Informationen in Feldern 
 
 >[!NOTE]
 >
->Vorschau: 11. Dezember 2025
->Produktions-Schnellveröffentlichung: Donnerstag, 11. Februar 2026\
->Produktion für alle: Donnerstag, 11. Februar 2026
+>Vorschau: 11. Dezember 2025>Produktions-Schnellversion: 11. Februar 2026\
+>Produktion für alle: 11. Februar 2026
 
 Um Organisationen den Zugriff auf die Leistungen von Adobe Unified Experience zu ermöglichen, stellen wir die Funktion immer mehr bestehenden Workfront-Kundinnen und -Kunden zur Verfügung.
 
@@ -62,4 +62,4 @@ Ihr bzw. Ihre Workfront-Admin erhält eine Announcement-Center-Nachricht bezügl
 
 Weitere Informationen finden Sie unter [Adobe Unified Experience für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[Sehen Sie sich eine Video-Demo zu dieser Funktion an.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[Sehen Sie sich eine Videodemonstration dieser Funktion an.](https://video.tv.adobe.com/v/3412388/){target=_blank}

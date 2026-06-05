@@ -1,20 +1,23 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Beta-Aktivität zur endgültigen Version 2018.1
+title: Veröffentlichungen für Version 2018.1 Beta-Endversion
 description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit der Beta-Endversion 2018.1 verfügbar waren. Die Funktion wurde am 31. Januar 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird ab März 2018 in der Produktionsumgebung verfügbar sein.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 35bd3604-5452-4b46-afb1-78bc2fbb48ec
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/d8MDB-E0EtqYt8meTvwOQPKwyJC1iCjgjklVdGdy5Rk
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 0%
+source-wordcount: 895
+ht-degree: 1%
 
 ---
 
-# Beta-Aktivität zur endgültigen Version 2018.1
+# Veröffentlichungen für Version 2018.1 Beta-Endversion
 
 Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit der Beta-Endversion 2018.1 verfügbar waren. Die Funktion wurde am 31. Januar 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird ab März 2018 in der Produktionsumgebung verfügbar sein.
 
@@ -22,7 +25,7 @@ Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorscha
 >
 > Die auf dieser Seite beschriebene Funktion kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller Änderungen in Version 2018.1 finden Sie unter  Übersicht über die Versionsaktivität [2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
+Eine Liste aller in 2018.1 vorgenommenen Änderungen finden Sie unter [Übersicht über die Versionsaktivität von 2018.1](../../../../product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity-overview.md).
 
 Die Beta-Endversion 2018.1 enthält Verbesserungen für Workfront-Admins und andere Benutzende:
 
@@ -63,7 +66,7 @@ Weitere Informationen zum Workfront-Add-on für Jira, einschließlich eines Link
 
 ## Aktualisieren der Proofing-Viewer-Namen {#update-to-proofing-viewer-names}
 
-Die Namen des HTML5-basierten Proofing Viewers und der Flash-basierten Proofing Viewer wurden im gesamten Workfront-System umbenannt. Die bisherigen und aktualisierten Namen lauten wie folgt: 
+Die Namen der HTML5-basierten Proofing Viewer und der Flash-basierten Proofing Viewer wurden im gesamten Workfront-System umbenannt. Die bisherigen und aktualisierten Namen lauten wie folgt: 
 
 | **vorheriger Name** | **Name aktualisiert** |
 |---|---|

@@ -1,20 +1,26 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-2-release-activity
-title: Verbesserungen beim Ressourcenmanagement 2019.2
+title: Verbesserungen beim Ressourcen-Management in Version 2019.2
 description: Auf dieser Seite werden alle in der Version 2019.2 enthaltenen Verbesserungen beim Ressourcen-Management beschrieben. Die Funktion soll in der Produktionsumgebung ab der Woche vom 20. Mai 2019 verfügbar sein.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b9c1a628-030b-437e-b609-5ab3e608fa31
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/GCxuDsSmsYlbavqYqQz-rSiADL2bKfwfA55BU1fCiD4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 0%
+source-wordcount: 518
+ht-degree: 3%
 
 ---
 
-# Verbesserungen beim Ressourcenmanagement 2019.2
+# Verbesserungen beim Ressourcen-Management in Version 2019.2
 
 Auf dieser Seite werden alle in der Version 2019.2 enthaltenen Verbesserungen beim Ressourcen-Management beschrieben. Die Funktion soll in der Produktionsumgebung ab der Woche vom 20. Mai 2019 verfügbar sein.
 
@@ -26,7 +32,7 @@ Sie können jetzt im Ressourcenplaner eine Einstellung aktivieren, mit der Sie d
 
 Vor dieser Verbesserung konnten Sie die Portfoliopriorität eines Projekts nicht im Ressourcenplaner anzeigen.
 
-Informationen zur Aktivierung dieser Einstellung finden Sie [&#x200B; Abschnitt &#x200B;](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md#settings)Einstellungen“ von [Grundlegendes zu den Bereichen des Ressourcenplaners](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Informationen zur Aktivierung dieser Einstellung finden Sie [ Abschnitt ](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md#settings)Einstellungen“ von [Grundlegendes zu den Bereichen des Ressourcenplaners](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Filter im Ressourcenplaner freigeben
 
@@ -54,7 +60,7 @@ Informationen zum neuen Zugriff, der für die Budgetierung von Ressourcen erford
 
 Informationen zur neuen Zugriffsebene für das Ressourcen-Management finden Sie unter [Grundlegendes zum Zugriff auf das Ressourcen-Management](../../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 
-## Ordnen von Projekten nach Portfolio-Prioritäten im Ressourcenplaner
+## Bestellen von Projekten nach Portfolio-Prioritäten im Ressourcenplaner
 
 Sie können jetzt Projekte nach ihrer Portfoliopriorität im Ressourcenplaner sortieren.
 

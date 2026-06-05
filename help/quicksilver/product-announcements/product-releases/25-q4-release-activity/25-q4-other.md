@@ -5,10 +5,14 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 357b5a80-424a-475c-9163-82cffbbd253e
-source-git-commit: e08ac842214a9bcff0acba3f34316bb5cfa4c4aa
+TQID: https://experienceleague.adobe.com/0abYVe3tHVDckYTIqVMlT-5i3tM5mp5KF-UOUe5P8fM
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 0%
+source-wordcount: 492
+ht-degree: 24%
 
 ---
 
@@ -24,8 +28,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2025-Ve
 >
 >* Vorschau: 13. Oktober 2025
 >* Produktions-Schnellveröffentlichung: 13. Oktober 2025
->* Produktion für alle Kunden: 13. Oktober 2025
->[!BADGE Aus dem Zeitplan]{type=Neutral}
+>* Produktion für alle Kunden: 13. Oktober 2025>[!BADGE Aus Zeitplan]{type=Neutral}
 
 Die Registerkarte Zusammenfassung eines Berichts wurde mit den folgenden Verbesserungen ergänzt:
 
@@ -46,7 +49,7 @@ Die Registerkarte Zusammenfassung eines Berichts wurde mit den folgenden Verbess
 >Die ersten vier Änderungen gelten gegebenenfalls auch für Exporte auf der Registerkarte Zusammenfassung . Einzüge und Fettformatierung werden nicht in eine exportierte, durch Tabulatoren getrennte Textdatei übertragen.
 
 
-## Einheitliches Adobe-Erlebnis jetzt für mehr Workfront-Organisationen verfügbar
+## Adobe Unified Experience ist jetzt für mehr Workfront-Organisationen verfügbar
 
 >[!NOTE]
 >
@@ -54,22 +57,22 @@ Die Registerkarte Zusammenfassung eines Berichts wurde mit den folgenden Verbess
 >
 >| Vorschau der Version | Produktionsfreigabe |
 >|---|---|
->| 30. September 2025 | &#x200B;16. Oktober 2025 (mit Version 25.10) |
+>| &#x200B;14. September 2022 | &#x200B;16. Oktober 2025 (mit Version 25.10) |
 >| Freitag, 11. Dezember 2025 | &#x200B;15. Januar 2026 (mit Version 26.1) |
 
-Um Unternehmen den Zugriff auf die Vorteile von Adobe Unified Experience zu ermöglichen, stellen wir es bestehenden Workfront-Kunden weiterhin zur Verfügung.
+Um Organisationen den Zugriff auf die Leistungen von Adobe Unified Experience zu ermöglichen, stellen wir die Funktion immer mehr bestehenden Workfront-Kundinnen und -Kunden zur Verfügung.
 
-Das einheitliche Adobe-Erlebnis umfasst:
+Adobe Unified Experience umfasst Folgendes:
 
 * Eine einzige Anmeldung für alle Adobe-Programme über Adobe Experience Cloud
 * Ein „Organisationswechsel“, um zwischen Workfront-Organisationen und -Umgebungen zu wechseln
 * Navigation mit Optionen für Workfront-Seiten, Adobe Experience Cloud-Voreinstellungen und Ihr Workfront-Profil
 
-Ihr Workfront-Administrator erhält eine Ankündigungscenter-Nachricht über das Datum, an dem Ihr Unternehmen zum einheitlichen Adobe-Erlebnis wechselt.
+Ihr bzw. Ihre Workfront-Admin erhält eine Announcement-Center-Nachricht bezüglich dem Datum, an dem Ihre Organisation zu Adobe Unified Experience wechselt.
 
-Weitere Informationen finden Sie unter [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Weitere Informationen finden Sie unter [Adobe Unified Experience für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[Sehen Sie sich eine Videodemonstration dieser Funktion an.](https://video.tv.adobe.com/v/3412388/){target=_blank}
 
 ## Aktualisierungen der erweiterten Listen
 

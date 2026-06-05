@@ -7,9 +7,14 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
-source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
+TQID: https://experienceleague.adobe.com/uC23s3GzNOgYxXOFwnaqXxlSbj7aIYYIXyC1RgU0dRE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: 1233
 ht-degree: 2%
 
 ---
@@ -42,7 +47,7 @@ Eine ausführliche Beschreibung des [!DNL Workfront]-Veröffentlichungsprozesses
 >
 >Sie können eine Projektvorlage erstellen, um die Arbeit im Zusammenhang mit geplanten [!DNL Workfront] zu verfolgen.
 >
->Weitere Informationen finden Sie unter [Verwenden eines Projekts [!DNL Workfront]  um die Versionsarbeit &#x200B;](#use-a-workfront-project-to-track-release-work) verfolgen.
+>Weitere Informationen finden Sie unter [Verwenden eines Projekts [!DNL Workfront]  um die Versionsarbeit ](#use-a-workfront-project-to-track-release-work) verfolgen.
 
 
 Es wird empfohlen, einige oder alle der folgenden Aktionen in Betracht zu ziehen, die Ihnen bei der Vorbereitung Ihres Unternehmens auf bevorstehende Versionen helfen können:
@@ -93,7 +98,7 @@ Die [!UICONTROL Sandbox-Vorschau]-Umgebung, auch bekannt als [!UICONTROL Vorscha
 
 Wenn eine Funktion in der Sandbox-Vorschau-Umgebung veröffentlicht wird, wird [!DNL Workfront] Dokumentation aktualisiert, um die neuen Funktionen hinzuzufügen. Sie können nach dem entsprechenden Artikel suchen oder den Links zur Dokumentation in den Versionshinweisen folgen.
 
-Weitere Informationen zur Sandbox[!UICONTROL Vorschau-Umgebung &#x200B;] Sie unter [Die [!DNL Adobe Workfront] [!UICONTROL Vorschau-Sandbox]Umgebung](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+Weitere Informationen zur Sandbox[!UICONTROL Vorschau-Umgebung ] Sie unter [Die [!DNL Adobe Workfront] [!UICONTROL Vorschau-Sandbox]Umgebung](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
 ### Nehmen Sie am Veröffentlichungs-Webinar teil
 

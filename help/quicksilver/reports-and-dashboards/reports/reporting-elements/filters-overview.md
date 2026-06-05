@@ -2,19 +2,25 @@
 content-type: overview
 product-area: reporting
 navigation-topic: reporting-elements
-title: Übersicht über Filter
+title: Überblick über Filter
 description: Sie können in Adobe Workfront Filter verwenden, um die Informationsmenge zu reduzieren, die auf dem Bildschirm in Listen, Berichten oder anderen Bereichen angezeigt wird.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+TQID: https://experienceleague.adobe.com/TQ8-NjL4FZ-bn9x1nh21irMvSwjgJttA6J5i6AjLheI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37id: e147ce9d-7675-49bd-8a32-44f27d865560id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1811'
-ht-degree: 1%
+source-wordcount: 1794
+ht-degree: 3%
 
 ---
 
-# Übersicht über Filter
+# Überblick über Filter
 
 <!-- Audited: 11/2024 -->
 
@@ -65,7 +71,7 @@ Weitere Informationen zu Filtern in Listen und Berichten finden Sie in den folge
 
 * [Erstellen oder Bearbeiten von Filtern in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
 * [Filter, Ansichten und Gruppierungen entfernen](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
-* [Filter, Ansichten oder Gruppierungen freigeben](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
+* [Freigeben von Filtern, Ansichten oder Gruppierungen](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
 
 ## Workfront-Filter für spezielle Bereiche {#workfront-filters-for-special-areas}
 
@@ -97,7 +103,7 @@ Sie können in den folgenden Bereichen von Workfront entweder integrierte Filter
 
 * Szenarienplaner
 
-  Für den Szenario-Planer ist eine zusätzliche Lizenz erforderlich. Weitere Informationen zum Workfront-Szenarioplaner finden Sie unter [Szenarioplaner - Übersicht](../../../scenario-planner/scenario-planner-overview.md).
+  Für den Szenarienplaner ist eine zusätzliche Lizenz erforderlich. Weitere Informationen zum Workfront-Szenarienplaner finden Sie unter [Überblick über den Szenarienplaner](../../../scenario-planner/scenario-planner-overview.md).
 
   >[!TIP]
   >
@@ -111,7 +117,7 @@ Sie können in den folgenden Bereichen von Workfront entweder integrierte Filter
 
    * [Erstellen und Bearbeiten von Plänen im Szenario-Planer](../../../scenario-planner/create-and-edit-plans.md)
    * [Aktualisieren oder Erstellen von Projekten durch Veröffentlichung von Initiativen im Szenario-Planer](../../../scenario-planner/publish-scenarios-update-projects.md)
-   * [Projekte in Pläne im Szenario-Planer importieren](../../../scenario-planner/import-projects-to-plans.md)
+   * [Importieren von Projekten in Pläne im Szenarienplaner](../../../scenario-planner/import-projects-to-plans.md)
 
 * Ziele
 
@@ -223,7 +229,7 @@ Sie können Filtermodifikatoren verwenden, um anzugeben, mit welcher Art von Inf
 >[!INFO]
 >
 >**Beispiel:**
->&#x200B;>Sie können nach Projekten filtern, die zu 100 % abgeschlossen sind. In diesem Fall können Sie den Modifikator „gleich“ in der folgenden Filteranweisung verwenden:
+>Sie können nach Projekten filtern, die zu 100 % abgeschlossen sind. In diesem Fall können Sie den Modifikator „gleich“ in der folgenden Filteranweisung verwenden:
 >
 >`Project: Percent Complete Equal(Case Sensitive) 100`
 

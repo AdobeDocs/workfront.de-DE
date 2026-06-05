@@ -7,14 +7,17 @@ description: Auf dieser Seite werden alle Verbesserungen beschrieben, die mit de
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: 2397339a-7a78-41ee-8882-0606309e356c
-source-git-commit: 112a5f21c80aaf9b689ee1f518ee633fdba82f3d
+TQID: https://experienceleague.adobe.com/i-U6B9h7BqNT-I8ZvUlwTltW3i1J1olWb6-fqv1eKJc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 0%
+source-wordcount: 190
+ht-degree: 5%
 
 ---
 
-# Adobe Workfront Goals 23.2 - Veröffentlichungsaktivität: Woche vom 20. März 2023
+# Veröffentlichungen von Adobe Workfront Goals 23.2: Woche vom 20. März 2023
 
 Auf dieser Seite werden alle Verbesserungen beschrieben, die mit der Version 23.2 für Adobe Workfront Goals an der Vorschau-Umgebung am 20. März 2023 vorgenommen wurden.
 

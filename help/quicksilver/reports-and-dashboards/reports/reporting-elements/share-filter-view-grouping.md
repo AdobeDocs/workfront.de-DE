@@ -6,11 +6,16 @@ description: Sie können Filter, Ansichten und Gruppierungen freigeben, auf die 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
+TQID: https://experienceleague.adobe.com/8pcOtwFrNqJrKYMzAgKEfRmHoJAkiimDVJxCav0NoiY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: 1182
 ht-degree: 8%
 
 ---
@@ -118,7 +123,7 @@ Freigeben von Filtern über die Standard-Builder-Oberfläche:
    </tbody>
    </table>
 
-1. Bewegen Sie den Mauszeiger über einen Filter, auf den Sie Zugriff haben, zumindest zum Anzeigen und Freigeben, und klicken Sie dann auf das Menü **Mehr** ![Mehr &#x200B;](assets/more-icon-spectrum.png) und anschließend auf **Freigeben**.
+1. Bewegen Sie den Mauszeiger über einen Filter, auf den Sie Zugriff haben, zumindest zum Anzeigen und Freigeben, und klicken Sie dann auf das Menü **Mehr** ![Mehr ](assets/more-icon-spectrum.png) und anschließend auf **Freigeben**.
 
    ![Weitere Menüoptionen](assets/new-filters-more-menu-options-with-delete.png)
 
@@ -179,7 +184,7 @@ Die Freigabe von Filtern, Ansichten und Gruppierungen in der veralteten Benutzer
    >Bei der Freigabe für Gruppen erhalten die Mitglieder der Gruppe und aller Untergruppen Berechtigungen für den Filter, die Ansicht oder die Gruppierung.
 
    **Für alle Benutzer im System freigeben:** Klicken Sie auf das Symbol **Einstellungen** und klicken Sie dann auf **Systemweit sichtbar machen**.\
-   Ihr Administrator muss die Option Systemweit freigeben auswählen, damit diese Option verfügbar ist. Weitere Informationen finden Sie in den Artikeln [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) und &quot;[&#x200B; von Berichten, Dashboards und Kalendern](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
+   Ihr Administrator muss die Option Systemweit freigeben auswählen, damit diese Option verfügbar ist. Weitere Informationen finden Sie in den Artikeln [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) und &quot;[ von Berichten, Dashboards und Kalendern](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
 1. (Bedingt) Wenn Sie Berechtigungen für einzelne Benutzer, Teams, Rollen, Gruppen oder Unternehmen freigeben, klicken Sie auf das Dropdown-Menü, um die Zugriffsebene zu definieren, die Sie gewähren möchten.
 

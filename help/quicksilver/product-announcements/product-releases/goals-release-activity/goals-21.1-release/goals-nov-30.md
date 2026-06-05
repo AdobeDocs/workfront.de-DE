@@ -7,9 +7,12 @@ description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in der
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: 3c3555df-9c8c-40d9-91d7-1e4b0e34ae1f
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+TQID: https://experienceleague.adobe.com/-pcn07HHpJ7Iy014DPCBrjG8zOc3IABiF9sHEmgM9EA
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: 246
 ht-degree: 4%
 
 ---

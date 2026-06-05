@@ -1,20 +1,26 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Versionsaktivität von Beta 4 2018.2
+title: Veröffentlichungen für Version 2018.2 Beta 4
 description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 4 Version 2018.2 verfügbar waren. Die Funktion wird am 17. Mai 2018 in der Vorschau-Umgebung verfügbar sein. Sie wird ab Juli 2018 in der Produktionsumgebung verfügbar sein.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4b54b9e6-d1bf-4802-9d6c-9c3d3b6a6583
-source-git-commit: f1e945ca2508fc7ae1feaa5e97677458d175212f
+TQID: https://experienceleague.adobe.com/gzQylGFyFhi6rQjzFHVOYuGU4nMqADtJ0vZ48L6NOmE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1705'
-ht-degree: 0%
+source-wordcount: 1700
+ht-degree: 1%
 
 ---
 
-# Versionsaktivität von Beta 4 2018.2
+# Veröffentlichungen für Version 2018.2 Beta 4
 
 Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 4 Version 2018.2 verfügbar waren. Die Funktion wird am 17. Mai 2018 in der Vorschau-Umgebung verfügbar sein. Sie wird ab Juli 2018 in der Produktionsumgebung verfügbar sein.
 
@@ -22,7 +28,7 @@ Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorscha
 >
 > Die auf dieser Seite beschriebene Funktion kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller Änderungen in Version 2018.2 finden Sie unter  Übersicht über die Versionsaktivität [2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Eine Liste aller in 2018.2 vorgenommenen Änderungen finden Sie unter [Übersicht über die Versionsaktivität 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
 Die Beta 4-Version 2018.2 enthält die Verbesserungen für Workfront-Administratoren und andere Benutzende:
 
@@ -51,7 +57,7 @@ Jetzt können Sie die Work In Progress (WIP)-Beschränkungen für jede Spalte au
 
 Vor dieser Änderung konnten Sie nur eine WIP-Beschränkung konfigurieren, die für alle Spalten auf dem Kanban-Board galt. 
 
-Weitere Informationen finden Sie in diesem Abschnitt .  [Konfigurieren des Work In Progress (WIP)-Limits](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4) im Artikel  [Kanban konfigurieren](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+Weitere Informationen finden Sie im Abschnitt [Konfigurieren des Work In Progress (WIP)-Limits](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4) im Artikel [Konfigurieren von Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
 ### Aktualisieren Sie das Work In Progress (WIP)-Limit direkt über das Kanban-Board
 
@@ -59,7 +65,7 @@ Jetzt können Team-Mitglieder mit Bearbeitungsrechten für das Team die WIP-Besc
 
 Vor dieser Änderung konnten Sie die WIP-Beschränkung nur im Bereich Team-Einstellungen aktualisieren.
 
-Weitere Informationen finden Sie unter  Im Artikel .
+Weitere Informationen finden Sie im Artikel .
 
 ## Verbesserte Benutzeroberfläche zum Konfigurieren von Status für ein Agile-Team {#improved-interface-for-configuring-statuses-for-an-agile-team}
 
@@ -111,7 +117,7 @@ Die Arbeitsliste im Bereich Startseite enthält die folgenden Verbesserungen:
 * Bei Anfragen wird jetzt der Benutzeravatar des Benutzers angezeigt, der die Anfrage gestellt hat, mit dem Text &quot;[Genehmiger_name] für den Ihre Genehmigung erforderlich ist.“
 * Beim Erstellen einer neuen persönlichen Aufgabe wird die Schaltfläche „Aufgaben“ jetzt als „Persönlich“ gekennzeichnet.
 
-  Weitere Informationen finden Sie unter [Erstellen von Arbeitselementen aus dem &#x200B;](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)) im Artikel [Erstellen von Arbeitselementen aus dem &#x200B;](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+  Weitere Informationen finden Sie unter [Erstellen von Arbeitselementen aus dem ](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)) im Artikel [Erstellen von Arbeitselementen aus dem ](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 * Verspätete Elemente werden erst nach einer Stunde nach dem geplanten Abschlussdatum als verspätet angezeigt.
 
@@ -145,7 +151,7 @@ Der Export der Daten aus dem Ressourcenplaner wurde vorübergehend deaktiviert, 
 
 Weitere Informationen zum Exportieren der Ressourcenplaner-Daten nach Excel finden Sie im Abschnitt „Exportoption“ in [Übersicht über die Ressourcenplaner-](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-Informationen zur Teilnahme an unserem aktuellen Beta-Programm für den Ressourcenplaner finden Sie unter [Resource Planner Performance Beta.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=de)
+Informationen zur Teilnahme an unserem aktuellen Beta-Programm für den Ressourcenplaner finden Sie unter [Resource Planner Performance Beta.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront)
 
 ## Systemeinstellung: Sitzungsinformationen auf externen Seiten {#system-setting-session-information-in-external-pages}
 

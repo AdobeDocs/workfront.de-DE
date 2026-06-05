@@ -1,20 +1,23 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Versionsaktivität von Beta 1 2018.3
+title: Veröffentlichungen für Version 2018.3 Beta 1
 description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 1 Version 2018.3 verfügbar waren. Die Funktion ist ab dem 1. Juni 2018 in der Vorschau-Umgebung verfügbar. Die mit Beta 1 veröffentlichten Proofing-Verbesserungen sind ab Mittwoch, 18. Juli in der Vorschau-Umgebung verfügbar. Sie wird im November 2018 in der Produktionsumgebung bereitgestellt.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b19c0086-89b2-46c3-a70d-0140dfbd11e8
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/K8AzmxJ1-IDBBvc7qZa-1q-Jl0stVWgDFUA1MufTewI
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 0%
+source-wordcount: 552
+ht-degree: 1%
 
 ---
 
-# Versionsaktivität von Beta 1 2018.3
+# Veröffentlichungen für Version 2018.3 Beta 1
 
 Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 1 Version 2018.3 verfügbar waren. Die Funktion ist ab dem 1. Juni 2018 in der Vorschau-Umgebung verfügbar. Die mit Beta 1 veröffentlichten Proofing-Verbesserungen sind ab Mittwoch, 18. Juli in der Vorschau-Umgebung verfügbar. Sie wird im November 2018 in der Produktionsumgebung bereitgestellt.
 
@@ -22,7 +25,7 @@ Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorscha
 >
 > Die auf dieser Seite beschriebene Funktion kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller Änderungen in Version 2018.3 finden Sie unter  [Übersicht über die Versionsaktivität 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Eine Liste aller in 2018.3 vorgenommenen Änderungen finden Sie unter [Übersicht über die Versionsaktivität 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
 Die Beta 1-Version 2018.3 enthält die folgenden Verbesserungen:
 

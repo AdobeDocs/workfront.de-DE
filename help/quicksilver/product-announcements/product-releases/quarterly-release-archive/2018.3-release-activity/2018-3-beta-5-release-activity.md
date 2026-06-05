@@ -1,29 +1,33 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Versionsaktivität von Beta 5 2018.3
+title: Veröffentlichungen für Version 2018.3 Beta 5
 description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 5 Version 2018.3 verfügbar waren. Die Funktion wird am 21. September 2018 in der Vorschau-Umgebung verfügbar sein. Sie wird im November 2018 in der Produktionsumgebung bereitgestellt.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f208b566-2529-4c4d-aa66-0c8756e55a5a
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/cRgFYpirYkFSGNPJT0CFwtIB4Pul0-Mml9i892nV1aE
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2147'
+source-wordcount: 2151
 ht-degree: 0%
 
 ---
 
-# Versionsaktivität von Beta 5 2018.3
+# Veröffentlichungen für Version 2018.3 Beta 5
 
 Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 5 Version 2018.3 verfügbar waren. Die Funktion wird am 21. September 2018 in der Vorschau-Umgebung verfügbar sein. Sie wird im November 2018 in der Produktionsumgebung bereitgestellt.
 
-Eine Liste aller Änderungen in Version 2018.3 finden Sie unter  [Übersicht über die Versionsaktivität 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Eine Liste aller in 2018.3 vorgenommenen Änderungen finden Sie unter [Übersicht über die Versionsaktivität 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
 Die Beta 5-Version 2018.3 enthält Verbesserungen für alle Benutzenden:
 
 * [Verfolgen Sie Genehmigungen, die Sie im Bereich „Startseite“ übermittelt haben](#track-approvals-you-ve-submitted-in-the-home-area)
-* [Ersetzen von Flash-basierten Tools in Workfront](#replacement-of-flash-based-tools-in-workfront)
+* [Ersatz von Flash-basierten Tools in Workfront](#replacement-of-flash-based-tools-in-workfront)
 * [Ermöglichen des Zugriffs von Arbeitslizenzbenutzenden auf die Unterregisterkarte Planung eines Projekts](#allowing-work-license-users-to-access-the-scheduling-subtab-of-a-project)
 * [Verbesserte Filter im Ressourcenplaner](#improved-filters-in-the-resource-planner)
 * [Tatsächliche Stunden im Ressourcenplaner anzeigen](#view-actual-hours-in-the-resource-planner)
@@ -61,11 +65,11 @@ Von zu Hause aus haben Sie folgende Möglichkeiten:
 
 Weitere Informationen finden Sie unter [Genehmigungen verwalten](../../../../review-and-approve-work/manage-approvals/manage-approvals.md). 
 
-## Ersetzen von Flash-basierten Tools in Workfront {#replacement-of-flash-based-tools-in-workfront}
+## Ersatz von Flash-basierten Tools in Workfront {#replacement-of-flash-based-tools-in-workfront}
 
-Alle Funktionen, die auf der Flash-Technologie basieren, sollen mit der Version 2018.3 aus Workfront entfernt und durch eine neue Lösung ersetzt werden.
+Sämtliche Funktionen, die auf der Flash-Technologie basieren, sollen mit der Version 2018.3 aus Workfront entfernt und durch eine neue Lösung ersetzt werden.
 
-Weitere Informationen zu allen Bereichen, die von der Entfernung dieser Funktionen betroffen sind, und dazu, welche Tools sie ersetzen werden, finden Sie [Ersetzen von Flash-basierten Tools in Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Weitere Informationen zu allen Bereichen, die von der Entfernung dieser Funktionen betroffen sind, und dazu, welche Tools sie ersetzen werden, finden Sie [Ersatz Flash-basierter Tools in Adobe Workfront](../../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
 
 ## Ermöglichen des Zugriffs von Arbeitslizenzbenutzern auf die Unterregisterkarte Planung eines Projekts {#allowing-work-license-users-to-access-the-scheduling-subtab-of-a-project}
 
@@ -97,11 +101,11 @@ Informationen zum Anzeigen Ihrer Informationen im Ressourcenplaner finden Sie un
 
 ## Ressourcenplaner-Daten im Business Case-Export {#resource-planner-data-in-the-business-case-export}
 
-Wenn Sie den Business Case auf eine PDF exportieren, spiegeln die Finanzinformationen in der exportierten Datei jetzt die Informationen im Bereich Ressourcenbudgetierung und im Ressourcenplaner wider. 
+Wenn Sie den Business Case in eine PDF exportieren, spiegeln die Finanzinformationen in der exportierten Datei jetzt die Informationen im Bereich Ressourcenbudgetierung und im Ressourcenplaner wider. 
 
 Zuvor spiegelt die exportierte Datei die Informationen im Bereich Legacy-Ressourcenkalkulationen und im Kapazitätsplaner wider. 
 
-Informationen zum Exportieren des Business-Case finden Sie [&#x200B; Abschnitt „Erstellen eines Business-Case für &#x200B;](../../../../manage-work/projects/define-a-business-case/create-business-case.md) Projekt[&#x200B; in „Erstellen eines Business-Case für ein Projekt](../../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Informationen zum Exportieren des Business-Case finden Sie [ Abschnitt „Erstellen eines Business-Case für ](../../../../manage-work/projects/define-a-business-case/create-business-case.md) Projekt[ in „Erstellen eines Business-Case für ein Projekt](../../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 ## Außerkraftsetzung des Abrechnungssatzes auf Firmenebene aktivieren {#enable-company-level-billing-rate-override}
 
@@ -131,7 +135,7 @@ Budgetierte Stunden im Auslastungsbericht werden jetzt mit Informationen ausgef�
 
 Vor dieser Änderung wurden Informationen aus dem Bereich Legacy-Ressourcenkalkulationen verwendet.
 
-Weitere Informationen finden Sie unter  [Überblick über den Bericht zur Ressourcenauslastung](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) im Artikel  [Überblick über den Bericht zur Ressourcenauslastung](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Weitere Informationen finden Sie [Überblick über den Ressourcenauslastungsbericht](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) im Artikel [Überblick über den Ressourcenauslastungsbericht](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Auslastungsbericht: Budgetierte Stunden nach Benutzer für ein Projekt anzeigen {#utilization-report-view-budgeted-hours-by-user-on-a-project}
 
@@ -143,11 +147,11 @@ Der Auslastungsbericht für ein Projekt zeigt jetzt Budgetierte Stunden nach Ben
 
 Vor dieser Änderung wurde im Auslastungsbericht „Budgetierte Stunden“ nur nach Aufgabengebiet angezeigt. 
 
-Weitere Informationen finden Sie unter  [Überblick über den Bericht zur Ressourcenauslastung](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) im Artikel  [Überblick über den Bericht zur Ressourcenauslastung](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Weitere Informationen finden Sie [Überblick über den Ressourcenauslastungsbericht](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) im Artikel [Überblick über den Ressourcenauslastungsbericht](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## SWF-Dateien werden im Proofing Viewer nicht mehr unterstützt {#swf-files-no-longer-supported-in-the-proofing-viewer}
 
-Aufgrund von Sicherheitsbedenken im Zusammenhang mit Adobe-Flash unterstützt die Korrekturabzugsansicht keine Korrekturabzüge mehr, die aus SWF-Dateien erstellt wurden. Wenn Sie einen zuvor für eine SWF-Datei erstellten Korrekturabzug öffnen, wird eine Meldung angezeigt, in der der Inhalt des Korrekturabzugs, der zuvor in der Korrekturabzugsansicht angezeigt wurde, angezeigt wird. Sie können alle Kommentare zum Korrekturabzug sehen. Sie können auch Kommentare herunterladen und die Original-SWF-Datei herunterladen.
+Aufgrund von Sicherheitsbedenken im Zusammenhang mit Adobe Flash unterstützt der Proofing Viewer keine Korrekturabzüge mehr, die aus SWF-Dateien erstellt wurden. Wenn Sie einen zuvor für eine SWF-Datei erstellten Korrekturabzug öffnen, wird eine Meldung angezeigt, in der der Inhalt des Korrekturabzugs, der zuvor in der Korrekturabzugsansicht angezeigt wurde, angezeigt wird. Sie können alle Kommentare zum Korrekturabzug sehen. Sie können auch Kommentare herunterladen und die SWF-Originaldatei herunterladen.
 
 Weitere Informationen finden Sie unter [Unterstützte Proofing-Dateitypen und Größenbeschränkungen](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md) im Artikel [Unterstützte Proofing-Dateitypen und Größenbeschränkungen - Übersicht](../../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md). 
 
@@ -165,7 +169,7 @@ Wenn Sie eine URL vom Proofing Viewer senden, sind die angezeigten Optionen jetz
 
 Zuvor boten diese Optionen dieselben Funktionen wie jetzt, ihre Organisation war jedoch nicht konsistent mit den entsprechenden Optionen in der Liste Dokumente .
 
-Weitere Informationen finden Sie in Abschnitt  [URL freigeben](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-the-url) im Artikel  [Freigeben eines Korrekturabzugs über die Korrekturabzugsanzeige](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
+Weitere Informationen finden Sie im Abschnitt [Freigeben der URL](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md#sharing-the-url) im Artikel [Freigeben eines Korrekturabzugs über die Korrekturabzugsanzeige](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md).
 
 ## Verbesserungen der Kommentarliste im Proofing-Viewer {#comments-list-enhancements-in-the-proofing-viewer}
 
@@ -254,4 +258,4 @@ Informationen zum Öffnen von Korrekturabzügen finden Sie unter .
 
 Das Erscheinungsbild der Registerkarte Aktualisierungen in der Mobile App wird jetzt aktualisiert. Diese Verbesserung ist derzeit nur in der Workfront Beta-App für Android verfügbar.
 
-Informationen zur Verwaltung von Aktualisierungen und Kommentaren in der Workfront Mobile App finden Sie im Abschnitt  in .
+Informationen zum Verwalten von Aktualisierungen und Kommentaren in der Workfront Mobile App finden Sie im Abschnitt in .

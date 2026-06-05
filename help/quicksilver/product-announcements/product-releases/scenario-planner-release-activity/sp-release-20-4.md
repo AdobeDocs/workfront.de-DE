@@ -3,25 +3,28 @@ product-previous: enterprise-scenario-planner
 content-type: release-notes
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: scenario-planner-release-activity
-title: Workfront Scenario Planner mit der Version 20.4 - 14. Oktober 2020
+title: Workfront-Szenarienplaner mit Version 20.4 – 14. Oktober 2020
 description: Workfront Scenario Planner ist nur mit dem neuen Adobe Workfront-Erlebnis verfügbar.
 author: Luke
 feature: Product Announcements, Workfront Scenario Planner
 exl-id: 32e124fe-81ea-42b3-b4aa-069aed78263e
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/hZeSLglCZ8Y-IAbfRJ53ALc3lLLGOUV4sl0M7mt37uY
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 0%
+source-wordcount: 347
+ht-degree: 5%
 
 ---
 
-# Workfront Scenario Planner mit der Version 20.4 - 14. Oktober 2020
+# Workfront-Szenarienplaner mit Version 20.4 – 14. Oktober 2020
 
 Workfront Scenario Planner ist nur mit dem neuen Adobe Workfront-Erlebnis verfügbar.
 
 Die folgenden Funktionen wurden für die Version 20.4 hinzugefügt:
 
-## Publish-Szenarien zum Aktualisieren und Erstellen von Projekten über den Workfront-Szenarioplaner
+## Veröffentlichen von Szenarien zur Aktualisierung und Erstellung von Projekten über den Workfront-Szenarioplaner
 
 Mit einer neuen Funktion im Workfront-Szenarioplaner können Sie jetzt ein Szenario veröffentlichen und seine Initiativen regulären Projekten zuordnen. Dadurch werden Projekte aus vorhandenen Initiativen erstellt oder Projekte aktualisiert, die bereits mit Initiativen verknüpft sind, die in den Plan importiert wurden. Initiativen übertragen Informationen in die Projekte, wodurch Sie Zeit bei der Dateneingabe sparen und die Genauigkeit sicherstellen können.
 

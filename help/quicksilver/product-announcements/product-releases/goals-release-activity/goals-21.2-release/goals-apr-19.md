@@ -2,15 +2,18 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: 'Adobe Workfront Goals 21.2 - Veröffentlichungsaktivität: Woche vom 19. April 2021'
+title: 'Veröffentlichungen von Adobe Workfront Goals 21.2: Woche vom 19. April 2021'
 description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Vorschau-Umgebung in der Woche vom 19. April 2021 mit der Version 21.2 für Adobe Workfront Goals vorgenommen wurden. Diese Verbesserungen werden ab dem ersten Quartal 21.2 in der Produktionsumgebung verfügbar sein.
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: afff3bfc-f888-46fd-8dc9-18b89289d8cd
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+TQID: https://experienceleague.adobe.com/FbFBrZr59FqzuRuk3DAAl01F3S-5Me-PBKquIK95ygc
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 0%
+source-wordcount: 488
+ht-degree: 4%
 
 ---
 
@@ -51,7 +54,7 @@ Das Erlebnis, das Bedienfeld „Zieldetails“ in der Liste zu öffnen, ist der 
 
 Informationen zum Überprüfen von Zielen in der Zielliste finden Sie unter [Verwalten von Zielen in der Zielliste von Adobe Workfront](../../../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
 
-## Ziel in Workfront Goals teilen
+## Freigeben eines Ziels in Workfront Goals
 
 >[!NOTE]
 >

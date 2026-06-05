@@ -7,12 +7,17 @@ description: 'Bericht: Budgetierte Stunde'
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/pNgl5pELeORB8eiEJLKNKIAOY3hf-rOtrzlTWHmTM5M
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 9%
+source-wordcount: 659
+ht-degree: 8%
 
 ---
 
@@ -115,15 +120,15 @@ Im Bericht „Budgetierte Stunde“ sind standardmäßig die folgenden Informati
    <td>Dies ist der Name des Benutzers, der mit der budgetierten Stunde verknüpft ist.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Zuteilungsdt.</td> 
+   <td role="rowheader">Zuteilung. Datum</td> 
    <td> <p>Dies ist das Zuteilungsdatum. Es ist der erste Tag (ein Sonntag) der Woche, für die Sie die Stunden budgetiert haben.</p> <p>Tipp:  <p>Wenn sich eine Woche über zwei Monate erstreckt, werden zwei Zeilen im Bericht generiert: eine Zeile, die dem ersten Tag der Woche entspricht (der Sonntag der Woche, der während des ersten Monats liegt), und eine zweite, die dem ersten Tag des zweiten Monats entspricht (und der ein beliebiger Tag der Woche sein kann).</p> <p>Wenn Sie beispielsweise 8 Stunden für einen Benutzer für die Woche vom 30. Juni (Sonntag) bis zum 6. Juli (Samstag) budgetieren, zeigen die beiden Zeilen das Zuordnungsdatum 30. Juni und 1. Juli an.</p> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Bdg. Stunden</td> 
+   <td role="rowheader">Bud. Stunden</td> 
    <td>Dies sind die budgetierten Stunden, die dem Benutzer im Ressourcenplaner zugeordnet sind.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Gpl. Bdg. Stunden</td> 
+   <td role="rowheader">Gpl. Bud. Stunden</td> 
    <td>Dies sind die budgetierten Stunden, die dem Aufgabengebiet oder Projekt im Ressourcenplaner zugeordnet sind.</td> 
   </tr> 
  </tbody> 

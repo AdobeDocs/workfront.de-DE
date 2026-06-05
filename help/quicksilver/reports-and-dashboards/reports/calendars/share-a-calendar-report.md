@@ -6,11 +6,16 @@ description: Sie können einen Kalender für andere Benutzer freigeben und öffe
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 28178c3794832e14552d988259c1792a6fed1da1
+TQID: https://experienceleague.adobe.com/stg5BuJJo-hPWoXl3E7QnO2RW2h7rwQ4Pptw5H2MGq4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: 593
 ht-degree: 8%
 
 ---
@@ -98,7 +103,7 @@ Sie können einen Kalender öffentlich machen und einen Link für Personen freig
 1. Wechseln Sie zu dem Kalender, den Sie freigeben möchten.
 1. Klicken Sie **[!UICONTROL Kalenderaktionen]** und dann auf **[!UICONTROL Freigabe]**.
 1. Klicken Sie auf das **Mehr**-Menü neben dem Kalendernamen.
-   ![Menü „Kalender Mehr“](assets/more-menu-calendar.png)
+   ![Menü „Mehr Kalender“](assets/more-menu-calendar.png)
 Klicken Sie **Öffentlichen Link kopieren**.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 

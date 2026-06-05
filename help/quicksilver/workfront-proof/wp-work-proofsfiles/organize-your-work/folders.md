@@ -8,9 +8,12 @@ description: Ordner sind der beste Weg, um Ihre Arbeit in Ihrem - [!DNL Workfron
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 2969d8f8-387f-403c-87e7-a1ff041f5089
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+TQID: https://experienceleague.adobe.com/SwRT0YaqVLihsuxAVQuNJ5Hds4QToUz3-rfYLKszBKU
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: 374
 ht-degree: 0%
 
 ---
@@ -27,7 +30,7 @@ Ordner sind die beste Möglichkeit, Ihre Arbeit in Ihrem [!DNL Workfront Proof]-
 
 Die Verwendung von Ordnern bietet die folgenden Vorteile:
 
-* **Zugriff auf vertrauliche Kundendaten einschränken**: Wenn Sie nicht möchten, dass einige Ihrer Benutzer einige Ihrer Korrekturabzüge sehen, können Sie die Ordner, in denen sie gespeichert sind, als privat festlegen. Weitere Informationen finden Sie unter [&#x200B; zu Ordnerberechtigungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md).
+* **Zugriff auf vertrauliche Kundendaten einschränken**: Wenn Sie nicht möchten, dass einige Ihrer Benutzer einige Ihrer Korrekturabzüge sehen, können Sie die Ordner, in denen sie gespeichert sind, als privat festlegen. Weitere Informationen finden Sie unter [ zu Ordnerberechtigungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md).
 
 * **Massenaktionen für Korrekturabzüge und Dateien durchführen**: Sie können Korrekturabzüge und Dateien, die in Ordnern gruppiert sind, bequem verwalten, indem Sie Massenaktionen für sie durchführen. Sie können beispielsweise mehrere Elemente in einer Aktion freigeben. Weitere Informationen finden Sie unter [Verwalten von Ordnern und ihrem Inhalt in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
 

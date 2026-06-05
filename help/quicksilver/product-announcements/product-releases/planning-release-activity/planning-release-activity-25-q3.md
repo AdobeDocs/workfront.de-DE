@@ -7,11 +7,16 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/R45hY-jNAlCSwIy-070BRL78-altmrnFIL1yNxxPrz8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '2398'
+source-wordcount: 2290
 ht-degree: 2%
 
 ---
@@ -28,7 +33,7 @@ Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen find
 
 >[!NOTE]
 >
->Vorschau: 10. Juli 2025>Produktion für alle: 10. Juli 2025>[!BADGE Außerplanmäßig]{type=Neutral}
+>Vorschau: 10. Juli 2025>Produktion für alle: 10. Juli 2025 >[!BADGE  Zeitplan]{type=Neutral}
 
 
 Die Registerkarte Erweiterte Einstellungen wurde aktualisiert, wenn ein Datensatztyp erstellt oder bearbeitet wird.
@@ -44,17 +49,17 @@ Weitere Informationen finden Sie unter [Datensatztypen erstellen](/help/quicksil
 
 >[!NOTE]
 >
->Vorschau: 10. Juli 2025>Produktion für alle: 10. Juli 2025>[!BADGE Außerplanmäßig]{type=Neutral}
+>Vorschau: 10. Juli 2025>Produktion für alle: 10. Juli 2025 >[!BADGE  Zeitplan]{type=Neutral}
 
 Wenn Sie jetzt in Workfront Planning ein Team zu einem Datensatzkommentar hinzufügen, erhalten alle Team-Mitglieder sowohl eine In-App- als auch eine E-Mail-Benachrichtigung zum Kommentar. Vor dieser Verbesserung wurden nur Benutzer benachrichtigt, die einzeln zu Kommentaren hinzugefügt wurden.
 
-Weitere Informationen finden Sie unter Verwalten von Datensatzkommentaren [Verwalten von &#x200B;](/help/quicksilver/planning/records/manage-record-comments.md)).
+Weitere Informationen finden Sie unter Verwalten von Datensatzkommentaren [Verwalten von ](/help/quicksilver/planning/records/manage-record-comments.md)).
 
 ## Felder basierend auf angewendeten Gruppierungen automatisch ausfüllen
 
 >[!NOTE]
 >
->Vorschau: 10. Juli 2025>Produktions-Schnellveröffentlichung: 14. August 2025>Produktion für alle: 16. Oktober 2025
+>Vorschau: 10. Juli 2025>Produktions-Schnellversion: 14. August 2025>Produktion für alle: 16. Oktober 2025
 
 
 Wenn Sie nun auf eine Tabellenansicht Gruppierungen angewendet haben, werden beim Hinzufügen eines Datensatzes zur Tabelle automatisch die Felder ausgefüllt, die mit den Gruppierungen verknüpft sind, denen Sie den Datensatz hinzufügen.
@@ -117,7 +122,7 @@ Um die Sicherheit und Einfachheit bei der Freigabe eines Anfrageformulars in Wor
 * Wir haben Optionen zum Verwalten und Beitragen für Benutzer entfernt, für die Sie das Anfrageformular freigeben. Jetzt können hinzugefügte Benutzer nur noch das Formular senden.
 * Auf der Registerkarte Öffentliche Freigabe werden jetzt das Feld Link und Ablaufdatum angezeigt, nachdem die Option Öffentlichen Link erstellen aktiviert wurde.
 
-Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](https://experienceleague.adobe.com/de/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Alle Gruppierungen in der Tabellenansicht erweitern und reduzieren
 
@@ -143,7 +148,7 @@ Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/qui
 >[!NOTE]
 >
 >* Vorschau: 26. Juni 2025
->* Produktion für alle: 26. Juni 2025>[!BADGE Außerplanmäßig]{type=Neutral}
+>* Produktion für alle: 26. Juni 2025>[!BADGE Aus Zeitplan]{type=Neutral}
 
 Wenn Sie jetzt Datensatztypen verbinden und ein Formelfeld als Suche einbringen, können Sie die Aggregatfunktionen (SUM, AVERAGE, MIN, MAX usw.) je nach Format des Formelfelds anwenden. Wenn das Formelfeld beispielsweise numerisch ist, können Sie Funktionen wie SUM oder AVG verwenden. Wenn das Formelfeld als Text formatiert ist, werden Aggregatfunktionen wie SUM nicht angewendet.
 
@@ -171,14 +176,14 @@ Sie können bis zu 100 benutzerdefinierte Quartale einrichten. Vor diesem Update
 
 Für Kunden, die Workfront Planning nicht erworben haben, ändert sich das benutzerdefinierte Quartalserlebnis nicht.
 
-Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale für Projekte &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale für Projekte ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
 ## Gleichzeitige Berechnung aller abhängigen Formeln
 
 >[!NOTE]
 >
 >* Vorschau: 12. Juni 2025
->* Produktion für alle: 12. Juni 2025>[!BADGE Außerplanmäßig]{type=Neutral}
+>* Produktion für alle: 12. Juni 2025 - >[!BADGE  Zeitplan]{type=Neutral}
 
 Wir haben eine Verbesserung eingeführt, die alle Formelfelder, die voneinander abhängig sind, gleichzeitig aktualisiert, nachdem ein referenziertes Feld manuell aktualisiert wurde. Formelfelder, die 2, 3 oder 4 Felder vom Feld entfernt sind, deren Wert manuell geändert wird und die sich gegenseitig referenzieren, werden jetzt automatisch gleichzeitig aktualisiert.
 
@@ -191,7 +196,7 @@ Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/qui
 >[!NOTE]
 >
 >* Vorschau: 6. Juni 2025
->* Produktion für alle Kunden: 6. Juni 2025>[!BADGE Außerplanmäßig]{type=Neutral}
+>* Produktion für alle Kunden: 6. Juni 2025>[!BADGE Aus Zeitplan]{type=Neutral}
 
 Wir haben die folgenden Ausdrücke zu Formelfeldern hinzugefügt:
 
