@@ -2,17 +2,25 @@
 content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Power BI-Tool kann keine Verbindung mit dem angegebenen Kennwort herstellen
+title: Power BI-Tool kann keine Verbindung mit dem angegebenen Passwort herstellen
 description: Wenn Sie versuchen, sich von Ihrem Power BI-Tool aus bei Data Connect anzumelden, erhalten Sie einen Anmeldefehler.
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 40050915153af6e1f70024461e193fb536d74e35
+exl-id: c3f2b4a9-0831-48f0-871b-486d09ae5ea4
+TQID: https://experienceleague.adobe.com/Z4RrMAPGd3CCti-cQFiJ7hlf-h8-suXeuoYfzk-9aKo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 0%
+source-wordcount: 229
+ht-degree: 6%
 
 ---
-
 
 # Power BI-Tool kann mit dem angegebenen Kennwort keine Verbindung herstellen
 
@@ -47,7 +55,6 @@ Setzen Sie das Verbindungskennwort in Workfront zurück und erstellen Sie dann e
 1. Kopieren Sie die URL und fügen Sie sie in eine neue Browser-Registerkarte ein.
 1. Kopieren Sie in Workfront den Benutzernamen für die Verbindung und fügen Sie das Standardkennwort in die neue Browser-Registerkarte ein.
    ![URL und Standardkennwort kopieren](assets/link-password.png)
-1. Klicken Sie **Anmelden**.
+1. Klicken Sie auf **Anmelden**.
 1. Geben Sie ein neues Kennwort ein und klicken Sie dann auf **Senden**.
 1. Wechseln Sie zu Ihrem Power BI-Tool und melden Sie sich mit dem neuen Kennwort an.
-

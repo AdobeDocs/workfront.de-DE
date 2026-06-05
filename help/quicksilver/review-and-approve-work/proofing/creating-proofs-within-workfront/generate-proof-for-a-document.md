@@ -6,10 +6,20 @@ description: Sie können einen Korrekturabzug für ein Dokument erstellen, wenn 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/Pn0eWLEK9gi1eqztoZCg-aR9s7zm60M-SLkRudYGdnU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 1%
+source-wordcount: 617
+ht-degree: 11%
 
 ---
 
@@ -27,7 +37,7 @@ If a proof fails to generate after following the steps described in the followin
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,17 +57,17 @@ If a proof fails to generate after following the steps described in the followin
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof-Berechtigungsprofil </td> 
+   <td role="rowheader">Korrekturabzug-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> </td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -99,7 +109,7 @@ Sie können ein Dokument per Drag-and-Drop aus Ihrem Dateisystem (z. B. Ihrem De
 So erstellen Sie per Drag-and-Drop einen neuen Korrekturabzug oder eine neue Korrekturabzugsversion:
 
 1. Stellen Sie sicher, dass Korrekturabzüge so konfiguriert sind, dass sie automatisch generiert werden, wie in beschrieben.
-1. Weiter mit  [Dokumente aus Ihrem Dateisystem zu Adobe Workfront hinzufügen](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md), in dem die Drag-and-Drop-Methode zum Hinzufügen von Dokumenten erläutert wird. 
+1. Fahren Sie mit [Dokumente aus Ihrem Dateisystem zu Adobe Workfront hinzufügen“ fort](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md) in dem die Drag-and-Drop-Methode zum Hinzufügen von Dokumenten erläutert wird. 
 
 ## Erstellen eines Korrekturabzugs für ein vorhandenes Dokument
 
@@ -122,7 +132,7 @@ So erstellen Sie per Drag-and-Drop einen neuen Korrekturabzug oder eine neue Kor
      </tr> 
      <tr> 
       <td role="rowheader">Erweiterter Korrekturabzug</td> 
-      <td> <p>Mit dieser Option können Sie einen einfachen oder erweiterten Workflow konfigurieren und die Korrekturabzugseinstellungen für den von Ihnen erstellten Korrekturabzug ändern. Weitere Informationen finden Sie unter  </p> 
+      <td> <p>Mit dieser Option können Sie einen einfachen oder erweiterten Workflow konfigurieren und die Korrekturabzugseinstellungen für den von Ihnen erstellten Korrekturabzug ändern. Weitere Informationen finden Sie unter </p> 
        <ul> 
         <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">Erstellen eines erweiterten Korrekturabzugs mit einem einfachen Workflow</a> </p> </li> 
         <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md" class="MCXref xref">Erstellen eines erweiterten Korrekturabzugs mit einem automatisierten Workflow</a> </p> </li> 

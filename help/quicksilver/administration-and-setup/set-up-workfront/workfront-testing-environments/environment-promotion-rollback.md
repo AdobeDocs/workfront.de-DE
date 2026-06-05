@@ -3,21 +3,30 @@ user-type: administrator
 content-type: how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: Zurücksetzen eines Umgebungs-Promotion-Pakets
+title: Zurücksetzen eines Umgebungsförderungspakets
 description: Die Funktion zum Hochstufen der Umgebung soll die Möglichkeit bieten, konfigurationsbezogene Objekte von einer Umgebung in eine andere zu verschieben. Erfahren Sie, wie Sie ein installiertes Promotion-Paket aus einer Zielumgebung zurücksetzen.
 author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 70f7e2a8-bb27-4546-afb7-53e0eec30bf1
-source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
+TQID: https://experienceleague.adobe.com/EPjuu-mWZH31cMvN-4tdzD8X-YFoW-DJ6YhfnJ0u06k
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 0%
+source-wordcount: 389
+ht-degree: 7%
 
 ---
 
-# Zurücksetzen eines Umgebungs-Promotion-Pakets
+# Zurücksetzen eines Umgebungsförderungspakets
 
 
 
@@ -50,7 +59,7 @@ Sie müssen über Folgendes verfügen:
   </tr>
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 ## Voraussetzungen
 
@@ -77,7 +86,7 @@ Um herauszufinden, ob eine bestimmte Paketbereitstellung zurückgesetzt werden k
 1. Wählen Sie das Paket aus, das Sie zurücksetzen möchten, und klicken Sie auf **Bereitstellungen**.
 1. Bewegen Sie den Mauszeiger über die Bereitstellung (Installation), die Sie zurücksetzen möchten, und klicken Sie dann auf Zurücksetzen , wenn sie rechts neben der Zeile dieser Bereitstellung angezeigt wird.
 
-   Oder
+   ODER
 
    Klicken Sie auf die Bereitstellung, für die Sie ein Rollback durchführen möchten, und klicken Sie **Paket zurücksetzen** in der oberen rechten Ecke des Bildschirms.
 

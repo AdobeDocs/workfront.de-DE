@@ -6,9 +6,19 @@ description: Wenn Sie ein Projekt über Workfront Fusion erstellen und Adobe Exp
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: b3c8559ddac934cc41461f88503b2fa71abaf452
+TQID: https://experienceleague.adobe.com/Hegf4kJc65Le5-PttBh6pLzyR8zvydUbbjidxrK0se0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '925'
+source-wordcount: 903
 ht-degree: 11%
 
 ---
@@ -20,7 +30,7 @@ Wenn Sie ein Projekt über Workfront Fusion erstellen und Adobe Experience Manag
 >[!NOTE]
 >
 >Workflows sind nur in einer Adobe Experience Manager as a Cloud Service-Integration verfügbar. Sie sind nicht in Integrationen mit Adobe Experience Manager Assets Essentials verfügbar.<br>
->Diese Funktion ist im Bereich Neue Dokumente nicht verfügbar.
+>Diese Funktion ist im Bereich „Neue Dokumente“ nicht verfügbar.
 
 
 ## Zugriffsanforderungen

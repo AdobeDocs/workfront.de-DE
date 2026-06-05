@@ -6,10 +6,20 @@ description: Text
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4b3834bf-2e6d-4588-8d77-671e14390115
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/vA8FflK8mA9a002-Mf8WKzECsEhOaIlvnd0kG958ySE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 0%
+source-wordcount: 397
+ht-degree: 3%
 
 ---
 
@@ -60,7 +70,7 @@ Wenn Sie den Day CQ Link Externalizer nicht benötigen, können Sie diesen wiede
 
 >[!NOTE]
 >
->Wenn Sie Adobe Experience Manager as a Cloud Service verwenden, können Sie dies ändern, indem Sie Ihr Projekt überprüfen und die Datei _com.day.cq.commons.impl.ExternalizerImpl.xml_ in _ui.apps/src/main/content/jcr_root/apps/mysite/config_ suchen.
+>Wenn Sie Adobe Experience Manager as a Cloud Service verwenden, können Sie dies ändern, indem Sie Ihr Projekt überprüfen und die Datei _com.day.cq.commons.impl.ExternalizerImpl.xml_ in _ui.apps/src/main/content/jcr_ root/apps/mysite/config_ suchen.
 
 ![Day CQ Link Externalizer](assets/Day-CQ-Link-Externalizer.png)
 

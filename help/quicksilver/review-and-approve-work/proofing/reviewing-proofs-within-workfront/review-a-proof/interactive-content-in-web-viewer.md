@@ -1,19 +1,24 @@
 ---
 product-area: documents
 navigation-topic: review-a-proof
-title: Einrichten des interaktiven Inhalts-Proofing im Web-Proofing-Viewer
+title: Einrichten des interaktiven Inhalts-Proofings im Web Proofing Viewer
 description: Wir empfehlen Ihnen, alle interaktiven Inhalte mit dem Desktop Proofing Viewer zu überprüfen. Wenn dies jedoch durch die Richtlinien Ihres Unternehmens verhindert wird, kann Ihr Workfront-Administrator Ihr System so konfigurieren, dass für interaktives Proofing der Web Proofing Viewer verwendet wird. Vergleichende Informationen zu diesen beiden Viewern finden Sie unter Unterschiede zwischen dem Web Proofing Viewer und der Übersicht über den Desktop Proofing Viewer.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: daddc225-62df-4e1a-98fd-8bb7c7c5553b
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/ICuW3kxD5GmRC4k2wDaxgqnDFva6iOnP5FRo-dBAVOw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 0%
+source-wordcount: 412
+ht-degree: 6%
 
 ---
 
-# Einrichten des interaktiven Inhalts-Proofing im Web-Proofing-Viewer
+# Einrichten des interaktiven Inhalts-Proofings im Web Proofing Viewer
 
 >[!IMPORTANT]
 >
@@ -36,7 +41,7 @@ Der Web Proofing Viewer weist die folgenden Einschränkungen auf:
 >
 >Sie müssen das alte Browser-Plug-in installieren, um interaktive Korrekturabzüge in der Web-Korrekturabzugsanzeige zu kommentieren. Dieses Plug-in ist nur in Firefox im [Firefox-Add-ons-Store](https://addons.mozilla.org/en-US/firefox/addon/proofhq-rich-media-review/) verfügbar.
 
-## Einrichten des interaktiven Inhalts-Proofing im Web-Proofing-Viewer
+## Einrichten des interaktiven Inhalts-Proofings im Web Proofing Viewer
 
 1. Öffnen Sie einen Korrekturabzug, der aus einer ZIP-Datei mit interaktiven Inhalten erstellt wurde.
 

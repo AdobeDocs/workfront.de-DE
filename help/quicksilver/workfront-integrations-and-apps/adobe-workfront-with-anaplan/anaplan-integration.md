@@ -6,16 +6,25 @@ draft: Probably
 feature: Workfront Integrations and Apps, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: c78d1276-6545-44f0-8ec9-62cfe1b66e35
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+TQID: https://experienceleague.adobe.com/V3991LF2iB578eD1mKpKHWt-riMA8ZjctIPGnVDWjOQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 0%
+source-wordcount: 162
+ht-degree: 4%
 
 ---
 
 # [!DNL Adobe Workfront] mit [!DNL Anaplan]
 
-Mit Adobe [!DNL Workfront Fusion] können Sie [!DNL Workfront] in Ihr [!DNL Anaplan]-Konto integrieren. Sie können beispielsweise Kampagnen in [!DNL Anaplan] erstellen und dann ein [!DNL Workfront] Projekt oder Programm erstellen, das mit der Kampagne verknüpft ist. Alle in [!DNL Workfront] nachverfolgten Kosten können dann wieder in [!DNL Anaplan] hochgeladen werden, um die Kampagnenleistung zu überprüfen.
+Mit Adobe [!DNL Workfront Fusion] können Sie [!DNL Workfront] in Ihr [!DNL Anaplan] integrieren. Sie können beispielsweise Kampagnen in [!DNL Anaplan] erstellen und dann ein [!DNL Workfront] Projekt oder Programm erstellen, das mit der Kampagne verknüpft ist. Alle in [!DNL Workfront] nachverfolgten Kosten können dann wieder in [!DNL Anaplan] hochgeladen werden, um die Kampagnenleistung zu überprüfen.
 
 Für diese Integration müssen Sie bestimmte Objekte sowohl in [!DNL Anaplan] als auch in Workfront konfigurieren. Die spezifischen Objekte und Konfigurationen hängen vom jeweiligen Workflow ab. Anschließend konfigurieren Sie eine Workfront Fusion-Vorlage mit den [!DNL Anaplan] und [!DNL Workfront] Objekten und Feldern. [!DNL Workfront Fusion] automatisiert dann die Integration basierend auf Ihren Konfigurationen.
 

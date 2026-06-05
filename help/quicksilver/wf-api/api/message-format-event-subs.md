@@ -7,10 +7,19 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: addcf5bc-a101-4bb0-93a6-46b4af67c848
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/-yUOhE9OsdK5SHaObgFhMgGt7Ih-FY7XqdEJn6QI4hk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 0%
+source-wordcount: 254
+ht-degree: 7%
 
 ---
 
@@ -30,7 +39,7 @@ Folgende Änderungen werden am Format der ausgehenden Nachricht vorgenommen:
 
   Dieses Feld gibt in Nanosekunden und Epochekunden den Zeitpunkt an, zu dem ein Ereignis aufgetreten ist. Verwenden Sie eventTime, wenn Sie von Ihrer Integration verarbeitete Ereignisse sortieren.
 
-* Das referenzierte Feld „owner:companyID“ in der NOTE-Ressource wird entfernt.
+* Das :companyID Besitzer referenzierte Feld auf der NOTE-Ressource wird entfernt.
 * Das Objekt „currentVersion“, auf das in der DOCU-Ressource (Dokument) verwiesen wird, wird entfernt.
 
 Wenn Sie derzeit Workfront-Ereignisabonnements verwenden, müssen Sie Ihre Workfront-Integrationen vor der Version 2017.3 aktualisieren, um diese Änderungen zu berücksichtigen.

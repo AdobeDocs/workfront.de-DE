@@ -1,20 +1,25 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Aktualisierungen der API-Version 8
+title: Aktualisierungen der API-Version 8
 description: Sehen Sie sich die Aktualisierungen für API Version 8 an.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c6d7d2d2-cd21-4ca8-a5a0-afe3669dc959
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+TQID: https://experienceleague.adobe.com/Vlqf19ewhFl6znlfdKapHUmpLWm0gyXDh7eTH1PrMRo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 37%
+source-wordcount: 492
+ht-degree: 48%
 
 ---
 
-# Aktualisierungen der API-Version 8
+# Aktualisierungen der API-Version 8
 
 ## Aktualisierte Ressourcen
 
@@ -26,7 +31,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 ### Zugriffsanforderung
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | action<sup>1</sup>  |   |   |   |   |   |   |
 
@@ -36,7 +41,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 ### AccessRule<sup>1</sup> 
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | coreAction<sup>2</sup>  |   |   |   |   |   |   |
 | forbiddenActions<sup>2</sup> |   |   |   |   |   |   |
@@ -49,7 +54,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 ### Genehmigung
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | auditTypes<sup>1</sup> | agiles Arbeiten  | Ressourcenpools |   |   |   |   |
 | backlogOrder<sup>2</sup> | kanbanBoard  |   |   |   |   |   |
@@ -63,7 +68,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 ### Zuweisung
 
-|   |   |   |   | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+|   |   |   |   | Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|---|---|---|---|
 |   |   |   |   | assignUserToRoleOnTasks | getAssignAssignmentsForTasks  |   |   |   |   |   |
 |   |   |   |   | swapUsersOnTasks | getUnassignAssignmentsForTasks |   |   |   |   |   |
@@ -73,7 +78,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 ### Kunde
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | bizRuleExclusions<sup>1</sup> |   |   |   | getPackagingOptionValue |   |   |
 | proofPlan<sup>1</sup> |   |   |   | isPackagingOptionEnabled |   |   |
@@ -84,7 +89,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 ### Kundenpräferenzen
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | name<sup>1</sup> |   |   |   |   |   |   |
 
@@ -94,7 +99,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 ### Dokumentengenehmigung
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | ID<sup>1</sup> |   |   |   |   |   |   |
 
@@ -104,7 +109,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 ### DocumentVersion
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | activeProofStages |   |   |   |   |   |   |
 
@@ -112,7 +117,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 ### Gruppe
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 |   |   | Inhaber |   |   |   |   |
 
@@ -120,7 +125,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 ### Stundentyp
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | appGlobalID<sup>1</sup> |   |   |   |   |   |   |
 
@@ -130,15 +135,15 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 ### Wiederholung
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 |   |   |   |   | moveStories |   |   |
 
 {style="table-layout:auto"}
 
-### Ähnlich
+### Ist wie
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | `endorsementID` | `endorsement` |   |   |   |   |   |
 
@@ -146,7 +151,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 ### Notiz
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | auditType<sup>1</sup> |   |   |   |   |   |   |
 
@@ -156,7 +161,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 ### OpTask
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | auditTypes<sup>1</sup> | agiles Arbeiten  |   |   |   | defaultShownTimesheetIssues  |   |
 | Auftragsbestand | Wiederholung |   |   |   |   |   |
@@ -170,7 +175,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 ### Portfolio
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | auditTypes<sup>1</sup> |   |   |   |   |   |   |
 
@@ -180,7 +185,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 ### Programm
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | auditTypes<sup>1</sup> |   |   |   |   |   |   |
 
@@ -190,7 +195,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 ### Projekt
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | auditTypes<sup>1</sup> |   | Ressourcenpools |   |   | defaultShownTimesheetProjects |   |
 
@@ -200,7 +205,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 ### Testversandvalidierung
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | Genehmiger-ID | Genehmigende Person |   |   |   |   |   |
 | documentVersionID | documentVersion |   |   |   |   |   |
@@ -213,7 +218,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 ### QueueDef
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | RequestorCoreAction<sup>1</sup> |   |   |   |   |   |   |
 | RequestorForbiddenActions<sup>1</sup> |   |   |   |   |   |   |
@@ -222,9 +227,9 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 <sup>1</sup>Änderungen an möglichen Werten
 
-### Satz
+### Rate
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | endDate |   |   |   | setRatesForRole  |   |   |
 | name |   |   |   |   |   |   |
@@ -234,7 +239,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 ### ReservedTime
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | extRefID |   |   |   |   |   |   |
 
@@ -242,7 +247,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 ### ResourceManager
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | projectPriority |   |   |   |   |   |   |
 
@@ -250,7 +255,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 ### Aufgabe
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | auditTypes<sup>1</sup> | agiles Arbeiten  |   |   |   | allTasksOnIterations  |   |
 | backlogParent | kanbanBoard |   |   |   | defaultShownTimesheetTasks |   |
@@ -262,7 +267,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 ### Team
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | agileMethodology |   |   |   |   |   |   |
 | autoAddNextStory |   |   |   |   |   |   |
@@ -274,7 +279,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 ### Vorlage
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 |   |   | Ressourcenpools |   |   |   |   |
 
@@ -282,7 +287,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 ### Vorlagenaufgabe
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | auditTypes<sup>1</sup> |   |   |   |   |   |   |
 
@@ -292,7 +297,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 Aktualisieren
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | updateType<sup>1</sup> | `updateEndorsement` |   |   |   |   |   |
 
@@ -302,7 +307,7 @@ Aktualisieren
 
 ### Benutzerin oder Benutzer
 
-|   |   | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+|   |   | Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|---|---|
 |   |   | Ressourcenpools |   |   |   |   |   |   |
 |   |   | userGroups |   |   |   |   |   |   |
@@ -312,7 +317,7 @@ Aktualisieren
 
 ### UserNote
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | `endorsementID` | `endorsement` |   |   |   |   |   |
 | `endorsementShareID` | `endorsementShare` |   |   |   |   |   |
@@ -324,7 +329,7 @@ Aktualisieren
 
 ### Arbeit
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | auditTypes<sup>1</sup> | agiles Arbeiten  |   |   |   |   |   |
 | backlogOrder<sup>2</sup> | kanbanBoard  |   |   |   |   |   |

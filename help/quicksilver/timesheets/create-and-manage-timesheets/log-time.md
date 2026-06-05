@@ -2,16 +2,27 @@
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: Zeit erfassen
-description: Sie können die Zeit für Arbeitselemente in&nbsp;Adobe Workfront protokollieren, um die Anzahl der Stunden anzugeben, die Sie mit deren Bearbeitung verbringen. Sie können auch Zeit erfassen, die nicht mit der Arbeit zusammenhängt, z. B. Urlaub, Krankenstand oder Zeit, die Sie in Meetings verbringen. Die Zeit, die Sie protokollieren, wird in Ihrer Arbeitszeittabelle angezeigt.
+description: Sie können die Zeit für Arbeitselemente in nbsp;Adobe Workfront protokollieren, um die Anzahl der Stunden anzugeben, die Sie mit deren Bearbeitung verbringen. Sie können auch Zeit erfassen, die nicht mit der Arbeit zusammenhängt, z. B. Urlaub, Krankenstand oder Zeit, die Sie in Meetings verbringen. Die Zeit, die Sie protokollieren, wird in Ihrer Arbeitszeittabelle angezeigt.
 author: Lisa
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/9X3rS1inVMen909T07aYLhn3tD1HiwKvzx-uSu8FVN4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '4139'
+source-wordcount: 4087
 ht-degree: 1%
 
 ---
@@ -117,7 +128,7 @@ So protokollieren Sie die Zeit in einer Arbeitszeittabelle:
    ![Arbeitszeittabelle](assets/timesheet-redesigned-nwe.png)
 
 
-1. (Optional) Klicken Sie auf das Symbol **Vollbild**, ![](assets/full-screen.png) die Arbeitszeittabelle im Vollbildmodus anzuzeigen, und klicken Sie dann auf das Symbol **exit-full-screen**, um ![](assets/exit-full-screen.png) Arbeitszeittabelle zurückzukehren.
+1. (Optional) Klicken Sie auf das Symbol **Vollbild**, ![](assets/full-screen.png) die Arbeitszeittabelle im Vollbildmodus anzuzeigen, und klicken Sie dann auf das Symbol **exit-full-screen![](assets/exit-full-screen.png), um** Arbeitszeittabelle zurückzukehren.
 
    <!-- drafted for the resize columns in timesheet story: 1. (optional) Click on the separator lines between weeks or between the time frame area and the work item area to resize the columns of the timesheet.-->
 
@@ -143,7 +154,7 @@ So protokollieren Sie die Zeit in einer Arbeitszeittabelle:
 1. (Bedingt) Wenn Sie 50 oder mehr Elemente gleichzeitig hinzufügen, wird eine Bestätigungsmeldung mit der Anzahl der zu Ihrer Arbeitszeittabelle hinzugefügten Elemente angezeigt.
 
    Klicken Sie **Alle hinzufügen**, um alle Elemente hinzuzufügen
-oder
+ODER
 Klicken Sie auf **Abbrechen**, um das Hinzufügen der ausgewählten Elemente zu stoppen, und dann auf **Abbrechen**, um die Liste der Elemente zu schließen.
 
    Aufgaben und Probleme werden unter dem Namen des Projekts aufgelistet.
@@ -306,7 +317,7 @@ So entfernen Sie einen Stundeneintrag aus einer Arbeitszeittabelle:
 
 1. Navigieren Sie zur Arbeitszeittabelle und suchen Sie den Stundeneintrag, den Sie entfernen möchten.
 1. Ersetzen Sie die eingegebenen Stunden durch 0
-oder
+ODER
 Entfernen Sie die Stunden, ersetzen Sie sie durch 0 und drücken Sie dann die Eingabetaste.
 
    Die Stunden werden entfernt und die Arbeitszeittabelle wird automatisch gespeichert.

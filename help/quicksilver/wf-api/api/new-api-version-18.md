@@ -1,20 +1,25 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Neue Funktionen in der API-Version 18
+title: Neue Funktionen in der API-Version 18
 description: Adobe Workfront hat API Version 18 am 6. April 2022 veröffentlicht. Die API-Version 18 enthält die folgenden Änderungen gegenüber Version 17.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d0675dc1-b2d9-4d80-8c12-f26284cfb4cf
-source-git-commit: 842b26177a11225049ef42f779ca77dd81926b74
+TQID: https://experienceleague.adobe.com/FEwGBTsppCVzahbxXInxmIc9nSJ0WjGekoDzZP6YovY
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1141'
-ht-degree: 0%
+source-wordcount: 1140
+ht-degree: 4%
 
 ---
 
-# Neue Funktionen in der API-Version 18
+# Neue Funktionen in der API-Version 18
 
 Adobe Workfront hat API Version 18 am 8. April 2024 veröffentlicht. Die API-Version 18 enthält die folgenden Änderungen gegenüber Version 17.
 
@@ -259,7 +264,7 @@ Ein AccessRule-Objekt stellt einen Regelsatz in benutzerdefinierten Zugriffseben
 
 ### Validierung (VALIDIERUNG)
 
-Für ein bestimmtes Arbeitselement, z. B. eine Aufgabe, ein Dokument oder eine Arbeitszeittabelle, kann es erforderlich sein, dass ein Verantwortlicher oder ein anderer Benutzer das Arbeitselement abzeichnet. Ein Validierungsobjekt stellt die Aktion des Abzeichnens eines Arbeitselements dar.
+Für ein bestimmtes Arbeitselement, z. B. eine Aufgabe, ein Dokument oder eine Arbeitszeittabelle, kann es erforderlich sein, dass eine verantwortliche Person oder ein anderer Benutzer bzw. eine andere Benutzerin das Arbeitselement abzeichnet. Ein Validierungsobjekt stellt die Aktion des Abzeichnens eines Arbeitselements dar.
 
 <table>
   <col/>
@@ -314,7 +319,7 @@ Für ein bestimmtes Arbeitselement, z. B. eine Aufgabe, ein Dokument oder eine A
                 </p>
               </li>
               <li>
-                <p><b>DELETE </b>
+                <p><b>DELETE</b>
                 </p>
               </li>
             </ul>
@@ -726,7 +731,7 @@ Projekte sind Arbeitselemente innerhalb von Workfront und ein wichtiger Baustein
             </p>
             <ul>
               <li>
-                <p><b>ID</b>
+                <p><b>Kennung</b>
                 </p>
               </li>
              </ul>
@@ -743,7 +748,7 @@ Projekte sind Arbeitselemente innerhalb von Workfront und ein wichtiger Baustein
             </p>
             <ul>
               <li>
-                <p><b>ID</b>
+                <p><b>Kennung</b>
                 </p>
               </li>
              </ul>
@@ -996,7 +1001,7 @@ Ein TemplateTask-Objekt stellt eine Aufgabe dar, die Teil einer Vorlage ist. Vor
             </p>
             <ul>
               <li>
-                <p><b>ID</b>
+                <p><b>Kennung</b>
                 </p>
               </li>
              </ul>
@@ -1013,7 +1018,7 @@ Ein TemplateTask-Objekt stellt eine Aufgabe dar, die Teil einer Vorlage ist. Vor
             </p>
             <ul>
               <li>
-                <p><b>ID</b>
+                <p><b>Kennung</b>
                 </p>
               </li>
              </ul>

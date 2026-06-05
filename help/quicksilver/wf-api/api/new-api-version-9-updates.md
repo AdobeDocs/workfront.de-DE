@@ -1,20 +1,25 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Aktualisierungen für API-Version 9
+title: Aktualisierungen für API-Version 9
 description: Aktualisierte Ressourcen
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 51892846-d93f-4363-8416-4118fb2ef84d
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/JAoiJn1kNmwFsYKeuSU67f43wBsgMXCgnMDbcOM-5Kg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 46%
+source-wordcount: 257
+ht-degree: 59%
 
 ---
 
-# Aktualisierungen für API-Version 9
+# Aktualisierungen für API-Version 9
 
 ## Aktualisierte Ressourcen
 
@@ -26,7 +31,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 ### AgileWork
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | `opTaskID`<sup>2</sup> |  |   |  |   |   |  |
 | `taskID`<sup>2</sup> |   |   |  |  |  |  |
@@ -38,7 +43,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 ### Genehmigung
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | `storyBoardOrder` | `agileWork` |   |   |   |   |   |
 
@@ -46,7 +51,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 Zuweisung
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | |   |  |  | `assignUserToRoleOnProjects`<sup>1</sup> |   |   |
 |   |   |   |   | `assignUserToRoleOnTasks`<sup>1</sup> |   |   |
@@ -59,7 +64,7 @@ Zuweisung
 
 ### Kundenpräferenzen
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | `name`<sup>1</sup> |   |   |   |   |   |   |
 
@@ -69,7 +74,7 @@ Zuweisung
 
 ### Stunde
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | `days` |   |   |   |   |   |   |
 | `workHoursPerDay` |   |   |   |   |   |   |
@@ -78,7 +83,7 @@ Zuweisung
 
 ### Wiederholung
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 |   |   |   |   | `moveIssues` |   |   |
 
@@ -86,7 +91,7 @@ Zuweisung
 
 ### Layout-Vorlagen
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | `groupID` | `group` |   |   |   |   |   |
 
@@ -94,7 +99,7 @@ Zuweisung
 
 ### Notiz
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | `html` |   |   |   |   |   |   |
 | `json` |   |   |   |   |   |   |
@@ -104,7 +109,7 @@ Zuweisung
 
 ### OpTask
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | `color` | `agileWork` |   |   | `convertToProject` |   |   |
 | `isReady` |   |   |   | `convertToTask` |   |   |
@@ -115,7 +120,7 @@ Zuweisung
 
 ### Ressourcenbudget
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | `ID` |   |   |   |   |   |   |
 
@@ -125,7 +130,7 @@ Zuweisung
 
 ### Zeitplan
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | `homeGroupID` | `homeGroup` |   |   |   |   |   |
 
@@ -133,7 +138,7 @@ Zuweisung
 
 ### Aufgabe
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 |   | `agileWork` |   |   | `convertToProject` |   |   |
 |   |   |   |   | `linkExternalObject` |   |   |
@@ -143,7 +148,7 @@ Zuweisung
 
 ### Team
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | `includeIssues` |   |   |   |   |   |   |
 
@@ -151,7 +156,7 @@ Zuweisung
 
 ### Arbeitszeittabellen-Profil
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | `groupID` | `group` |   |   |   |   |   |
 
@@ -159,7 +164,7 @@ Zuweisung
 
 ### UIFilter
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 |   |   |   |   |   | `filtersForObjCode` |   |
 
@@ -167,7 +172,7 @@ Zuweisung
 
 ### UIView
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 |   |   |   |   |   | `viewsForObjCode` |   |
 
@@ -175,7 +180,7 @@ Zuweisung
 
 ### Benutzerin oder Benutzer
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | `logTimeInDays` |   |   |   |   |   |   |
 | `workHoursPerDay` |   |   |   |   |   |   |
@@ -184,6 +189,6 @@ Zuweisung
 
 ### Arbeit
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | `storyBoardOrder` | `agileWork` |   |   | `getWFHomeObjects` |   |   |

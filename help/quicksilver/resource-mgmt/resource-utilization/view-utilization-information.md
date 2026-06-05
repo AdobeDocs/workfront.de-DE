@@ -6,11 +6,23 @@ description: Sie können die Auslastung Ihrer Ressourcen im Auslastungsbericht a
 author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 9e217d36d5aeb36761a9a433b84e73ac2b7a114b
+TQID: https://experienceleague.adobe.com/5fqDtEMgNA2MD8W7VGBvmbxjCsKkVzkVWhxXsmOlHKM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '7120'
+source-wordcount: 6542
 ht-degree: 1%
 
 ---
@@ -66,7 +78,7 @@ Sie können die Auslastung Ihrer Ressourcen im Auslastungsbericht anzeigen.
    <td>Konfigurationen der Zugriffsebene</td> 
    <td> <p>Zugriff auf Folgendes anzeigen oder höher:</p> 
     <ul> 
-     <li> <p>Ressourcen-Management </p> </li> 
+     <li> <p>Ressourcenverwaltung </p> </li> 
      <li> <p>Projekte</p> </li> 
      <li> <p>Portfolios</p> </li> 
      <li> <p>Programme</p> </li> 
@@ -139,7 +151,7 @@ Beim Verfolgen von Stunden sind im Auslastungsbericht die folgenden Informatione
    <td scope="col"><strong>Budgetierte Stunden</strong> </td> 
    <td scope="col"> <p>Die insgesamt budgetierten Stunden für die eingeschlossenen Projekte. Sie können die budgetierten Gesamtstunden für die Gesamtlebensdauer der eingeschlossenen Projekte anzeigen oder die budgetierten Gesamtstunden nur für den angegebenen Datumsbereich anzeigen (Sie können eine einzelne Woche oder einen einzelnen Monat angeben). </p> <p>Budgetierte Stunden werden aus Informationen ausgefüllt, die im Bereich Ressourcenbudgetierung des Business Case oder des Ressourcenplaners verfügbar sind<em>.</em></p> <p>Budgetierte Stunden werden im Auslastungsbericht in einer der folgenden Zeilen angezeigt:</p> 
     <ul> 
-     <li> Budgetierte Stunden werden nach Aufgabengebiet und nach einzelnen Benutzern im Auslastungsbericht wie folgt zusammengefasst:<br><strong>Einzelner Benutzer:</strong> Budgetierte Stunden werden für jeden Benutzer im Auslastungsbericht zusammengefasst. Diese budgetierten Stunden sind mit den Aufgaben und Problemen verknüpft, denen der Benutzer in den eingeschlossenen Projekten zugewiesen ist. (Sie können die Zeile des entsprechenden Aufgabengebiets erweitern, um eine Liste der Benutzer mit diesem Aufgabengebiet anzuzeigen.)<br><strong>Aufgabengebiet: </strong> Budgetierte Stunden werden nach Aufgabengebiet im Auslastungsbericht zusammengefasst.<br>Budgetierte Stunden werden in einem bestimmten Aufgabengebiet als Ergebnis eines der folgenden Szenarien angezeigt:
+     <li> Budgetierte Stunden werden nach Aufgabengebiet und nach einzelnen Benutzern im Auslastungsbericht wie folgt zusammengefasst:<br><strong>Einzelner Benutzer:</strong> Budgetierte Stunden werden für jeden Benutzer im Auslastungsbericht zusammengefasst. Diese budgetierten Stunden sind mit den Aufgaben und Problemen verknüpft, denen der Benutzer in den eingeschlossenen Projekten zugewiesen ist. (Sie können die Zeile des entsprechenden Aufgabengebiets erweitern, um eine Liste der Benutzer mit diesem Aufgabengebiet anzuzeigen.)<br><strong>Aufgabengebiet:</strong> Budgetierte Stunden werden nach Aufgabengebiet im Auslastungsbericht zusammengefasst.<br>Budgetierte Stunden werden in einem bestimmten Aufgabengebiet als Ergebnis eines der folgenden Szenarien angezeigt:
      <ul>
      <li>Das Aufgabengebiet wird als primäres Aufgabengebiet des Benutzers definiert, der der Aufgabe oder dem Problem zugewiesen ist, mit der bzw. dem die budgetierten Stunden verknüpft sind. </li> 
        <li>Wenn Sie Nutzungsinformationen für ein einzelnes Projekt anzeigen, wird das Aufgabengebiet des Benutzers verwendet, dem die Stunden zugewiesen wurden, unabhängig davon, ob für die Aufgabe oder das Problem keine Zuweisung vorhanden ist, ein anderer Benutzer ohne Zuweisung eines Aufgabengebiets zugewiesen wurde, ein anderer Benutzer mit einem anderen Aufgabengebiet zugewiesen wurde oder ein anderes Team zugewiesen wurde.</li> 
@@ -184,7 +196,7 @@ Informationen zum Ändern der Zuweisungen für Benutzer finden Sie unter <a href
 
 <li><strong>Einzelner Benutzer</strong>: Die geplanten Stunden werden für jeden Benutzer im Auslastungsbericht zusammengefasst. Diese geplanten Stunden sind mit den Aufgaben und Problemen verknüpft, denen der/die Benutzende in den eingeschlossenen Projekten zugewiesen ist. (Sie können die Zeile des entsprechenden Aufgabengebiets erweitern, um eine Liste von Benutzern mit diesem Aufgabengebiet anzuzeigen.)
 
-<li><strong>Aufgabengebiet</strong>: Die geplanten Stunden werden nach Aufgabengebiet im Auslastungsbericht eines einzelnen Projekts zusammengefasst.<br>Geplante Stunden werden in einem bestimmten Aufgabengebiet als Ergebnis eines der folgenden Szenarien angezeigt:  
+<li><strong>Aufgabengebiet</strong>: Geplante Stunden werden nach Aufgabengebiet im Auslastungsbericht eines einzelnen Projekts zusammengefasst.<br>Geplante Stunden werden in einem bestimmten Aufgabengebiet als Ergebnis eines der folgenden Szenarien angezeigt:  
 <ul>
 
 <li>Das Aufgabengebiet wird als primäres Aufgabengebiet des Benutzers definiert, der der Aufgabe oder dem Problem zugewiesen ist, mit der bzw. dem die geplanten Stunden verknüpft sind.
@@ -218,7 +230,7 @@ Informationen zum Ändern der Zuweisungen für Benutzer finden Sie unter <a href
    <td><strong>Tatsächliche Stunden</strong> </td> 
    <td> <p> Die Gesamtstunden, die für die Aufgaben, Probleme <span> das Projekt für </span> eingeschlossenen Projekte protokolliert wurden. Sie können die tatsächlichen Gesamtstunden für die Gesamtlebensdauer der eingeschlossenen Projekte anzeigen oder die tatsächlichen Gesamtstunden nur für den angegebenen Datumsbereich anzeigen (Sie können eine einzelne Woche oder einen einzelnen Monat angeben). </p> <p><strong>Warnung</strong> Der Auslastungsbericht enthält Stunden, die für das Projekt protokolliert wurden, untergeordnete Aufgaben, Probleme und übergeordnete Aufgaben mit mindestens einer Zuweisung. Sie enthält keine Stunden, die ohne Zuweisungen bei übergeordneten Aufgaben protokolliert wurden. Es wird empfohlen, keine übergeordneten Aufgaben als Arbeitsaufgaben zu verwenden und Ihren Ressourcen nur untergeordnete Aufgaben zuzuweisen. </p> <p>Tatsächliche Stunden werden im Auslastungsbericht in einer der folgenden Zeilen angezeigt:</p> 
     <ul> 
-     <li> Die tatsächlichen Stunden werden nach Aufgabengebiet und nach einzelnen Benutzenden im Auslastungsbericht eines Projekts wie folgt zusammengefasst:<br><strong>Einzelner Benutzer:</strong> Die tatsächlichen Stunden werden im Auslastungsbericht in der Zeile des Benutzers angezeigt, der die Stunden protokolliert hat. (Sie können die Zeile des entsprechenden Aufgabengebiets erweitern, um eine Liste der Benutzer mit diesem Aufgabengebiet anzuzeigen, die Stunden protokolliert haben.)<br><strong>Aufgabengebiet: </strong> Die tatsächlichen Stunden, die von den mit diesen Funktionen verknüpften Benutzern protokolliert wurden, werden im Auslastungsbericht in der Zeile des entsprechenden Aufgabengebiets zusammengefasst.<br>Tatsächliche Stunden werden in einem bestimmten Aufgabengebiet als Ergebnis eines der folgenden Szenarien angezeigt: 
+     <li> Die tatsächlichen Stunden werden nach Aufgabengebiet und nach einzelnen Benutzenden im Auslastungsbericht eines Projekts wie folgt zusammengefasst:<br><strong>Einzelner Benutzer:</strong> Die tatsächlichen Stunden werden im Auslastungsbericht in der Zeile des Benutzers angezeigt, der die Stunden protokolliert hat. (Sie können die Zeile des entsprechenden Aufgabengebiets erweitern, um eine Liste der Benutzer mit diesem Aufgabengebiet anzuzeigen, die Stunden protokolliert haben.)<br><strong>Aufgabengebiet:</strong> Die tatsächlichen Stunden, die von den mit diesen Funktionen verknüpften Benutzern protokolliert wurden, werden im Auslastungsbericht in der Zeile des entsprechenden Aufgabengebiets zusammengefasst.<br>Tatsächliche Stunden werden in einem bestimmten Aufgabengebiet als Ergebnis eines der folgenden Szenarien angezeigt: 
       <ul> 
        <li>Das Aufgabengebiet wird als primäres Aufgabengebiet des Benutzers definiert, der die Stunden protokolliert hat</li> 
        <li>Für die Aufgabe oder das Problem ist keine Zuweisung vorhanden</li> 

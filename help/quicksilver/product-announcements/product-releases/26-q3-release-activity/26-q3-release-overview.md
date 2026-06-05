@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 3bd72ca7e9a55dded97fa65d403d661f3ca95d3e
+source-git-commit: a207fe30b02ed006d37bd07a72274e085db68e60
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1541'
 ht-degree: 19%
 
 ---
@@ -38,6 +38,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
 * [Administrator-Verbesserungen](#administrator-enhancements)
 * [Verbesserungen bei Dokumenten](#documents-enhancements)
 * [Verbesserungen beim Finanzmanagement](#financial-management-enhancements)
+* [Verbesserungen auf der Startseite](#home-enhancements)
 * [Verbesserungen beim Reporting](#reporting-enhancements)
 * [Verbesserungen bei Anfragen](#requesting-enhancements)
 * [Weitere Verbesserungen](#other-enhancements)
@@ -168,6 +169,30 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
     </tbody>
 </table>
 
+### Verbesserungen auf der Startseite
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>Funktion</strong>
+            </td>
+            <td><strong>Vorschau</strong></td>
+            <td><strong>Schnellveröffentlichung</strong></td>
+            <td><strong>Vierteljährlich</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-home.md" class="MCXref xref" xrefformat="{para}">Verwenden benutzerdefinierter Daten und Ansichten in Prioritäten</a><p></p>
+                <p>Die Priorität unterstützt jetzt die Verwendung benutzerdefinierter Daten in den Spalten. Öffnen Sie den Spalten-Manager aus der Arbeitsliste, um benutzerdefinierte Felder hinzuzufügen, die Sie in Ihren Spaltendaten sehen möchten.</p>
+            </td>
+            <td><p>4. Juni 2026</p></td>
+            <td><p>11. Juni 2026</p></td>
+            <td><p>16. Juli 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
 ### Verbesserungen beim Reporting
 
 <table>
@@ -251,9 +276,9 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Das Erscheinungsbild für Kommentar-Benachrichtigungs-E-Mails wurde aktualisiert</a><p>[!BADGE Außerplanmäßig]{type=Neutral}</p>
                 <p>E-Mail-Benachrichtigungen für Kommentare im Bereich Aktualisierungen haben ein neues Erscheinungsbild, das mit dem umfassenderen E-Mail-Design von Adobe übereinstimmt. Der Thread der vorherigen Kommentare ist nicht mehr im E-Mail-Textkörper enthalten.</p>
             </td>
-            <td><p>Schrittweiser Rollout, Startdatum wird noch bekannt gegeben</p></td>
-            <td><p>Schrittweiser Rollout, Startdatum wird noch bekannt gegeben</p></td>
-            <td><p>Schrittweiser Rollout, Startdatum wird noch bekannt gegeben</p></td>
+            <td><p>K. A.</p></td>
+            <td><p>Schrittweiser Rollout ab 16. Juli 2026</p></td>
+            <td><p>Schrittweiser Rollout ab 16. Juli 2026</p></td>
         </tr>
         <tr>
             <td>

@@ -6,9 +6,19 @@ description: 'Problem: Assets werden nicht in Adobe Experience Manager gespeiche
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: f7e31e20-01e3-462d-9020-005e155f0259
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+TQID: https://experienceleague.adobe.com/VaiQnZXQe39sYlnJOblWoea9UwOaujEU3ME-jh7-0EI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: 247
 ht-degree: 0%
 
 ---
@@ -21,7 +31,7 @@ Wenn ein(e) Benutzende(r) ein Asset oder einen Ordner auswählt, um es nach Expe
 
 ### Ursache
 
-Dies kann aufgrund der Zulassungsliste in Adobe Cloud Manager auftreten. Wenn die Adobe Cloud Manager-Zulassungsliste für ein Unternehmen leer ist, sind IP-Adressen nicht beschränkt und Workfront kann auf die Ordner und Assets des Unternehmens in Adobe Experience Manager zugreifen. Wenn der Cloud Manager-Zulassungsliste auf die Zulassungsliste setzte jedoch nur eine IP-Adresse hinzugefügt wird, geht die davon aus, dass keine IP-Adresse in der Liste zulässig ist. Wenn die Cloud Manager-Zulassungsliste IP-Adressen enthält, müssen daher die Workfront-IP-Adressen auch zur -Zulassungsliste hinzugefügt werden, damit Workfront Assets an Experience Manager Assets senden kann.
+Dies kann aufgrund der Zulassungsliste in Adobe Cloud Manager auftreten. Wenn die Adobe Cloud Manager-Zulassungsliste für ein Unternehmen leer ist, sind IP-Adressen nicht beschränkt und Workfront kann auf die Ordner und Assets des Unternehmens in Adobe Experience Manager zugreifen. Wenn der Cloud Manager-Zulassungsliste jedoch nur eine IP-Adresse hinzugefügt wird, geht die davon aus, dass keine IP-Adresse in der Liste zulässig ist. Wenn die Cloud Manager-Zulassungsliste IP-Adressen enthält, müssen daher die Workfront-IP-Adressen auch zur -Zulassungsliste hinzugefügt werden, damit Workfront Assets an Experience Manager Assets senden kann.
 
 ### Lösung:
 

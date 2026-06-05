@@ -8,13 +8,21 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1d0583fc-1573-4279-a3fa-a912d9a4213c
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+TQID: https://experienceleague.adobe.com/7ozt2OXI0CWlPmtkJGlaD-n6pekapA0X-GBpwDhFZ4Q
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 0%
+source-wordcount: 478
+ht-degree: 2%
 
 ---
-
 
 # Verwenden der API zum Synchronisieren von Daten für Programme und Services
 
@@ -26,7 +34,7 @@ Adobe Workfront verwendet „Ereignisabonnements“ (auch allgemein als Webhooks
 
 ## Batch-Aktualisierungen
 
-Batch-Aktualisierungen stellen eine Möglichkeit dar, Ihr System für Aktualisierungen zu konfigurieren, indem Sie regelmäßig Anfragen an Workfront-Server senden. Dazu gibt es viele Möglichkeiten, aber im Allgemeinen besteht der Prozess darin, dass Ihr Service eine Anfrage an die Workfront-API-Server sendet und nach Objekten sucht, die seit dem letzten Anforderungsaufruf erstellt oder geändert wurden. Informationen zu potenziellen Anforderungsaufrufen und hilfreichen Parametern finden Sie im Abschnitt [GET-Verhalten](../../wf-api/general/api-basics.md#get-behavior) des Artikels [API-Grundlagen](../../wf-api/general/api-basics.md) .
+Batch-Aktualisierungen stellen eine Möglichkeit dar, Ihr System für Aktualisierungen zu konfigurieren, indem Sie regelmäßig Anfragen an Workfront-Server senden. Dazu gibt es viele Möglichkeiten, aber im Allgemeinen besteht der Prozess darin, dass Ihr Service eine Anfrage an die Workfront-API-Server sendet und nach Objekten sucht, die seit dem letzten Anforderungsaufruf erstellt oder geändert wurden. Informationen zu potenziellen -Aufrufen und hilfreichen Parametern finden Sie im Abschnitt [Verhalten abrufen](../../wf-api/general/api-basics.md#get-behavior) im Artikel [API-Grundlagen](../../wf-api/general/api-basics.md) .
 
 Beim Einrichten des Service für Batch-Aktualisierungen sollten Sie folgende wichtige Punkte beachten:
 
@@ -42,7 +50,7 @@ Eingabedaten werden mit ISO 8601-Formatierung gespeichert. Dieser Standard enth�
 
 Sowohl das Datum, an dem ein Objekt erstellt wird, als auch das letzte Datum, an dem das Objekt geändert wurde, werden als „entryDate“ bzw. „lastUpdateDate“ gespeichert. Detaillierte Informationen zu Workfront-Objekten, ihren zugehörigen Feldern und Feldnamen finden Sie im [API-Explorer](../../wf-api/general/api-explorer.md). Beachten Sie, dass sich das entryDate für ein bestimmtes Workfront-Objekt nicht ändert, wobei sich das lastUpdatedDate jedes Mal ändert, wenn das Objekt geändert wird.
 
-**Beispiel:** GET-Anfrage für ein Anfrageobjekt, die das Feld **lastUpdateDate** verwendet. Diese Anfrage gibt alle Probleme zurück, die seit diesem angegebenen Datum aktualisiert wurden.
+**Beispiel** GET-Anfrage für ein Anfrageobjekt, die das Feld **lastUpdateDate** verwendet. Diese Anfrage gibt alle Probleme zurück, die seit diesem angegebenen Datum aktualisiert wurden.
 
 <!-- [Copy](javascript:void(0);) -->
  

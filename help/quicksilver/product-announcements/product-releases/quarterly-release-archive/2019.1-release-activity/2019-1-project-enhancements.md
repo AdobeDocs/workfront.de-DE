@@ -1,20 +1,25 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-1-release-activity
-title: Projektverbesserungen in 2019.1
+title: Verbesserungen bei Projekten in Version 2019.1
 description: Auf dieser Seite werden alle in der Version 2019.1 enthaltenen Projektverbesserungen beschrieben. Die Funktion ist derzeit in der Vorschau-Umgebung verfügbar. Sie wird in der Produktionsumgebung im verfügbar gemacht.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7b39082a-ab96-4e54-8f28-96629760715a
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+TQID: https://experienceleague.adobe.com/cHyxMUlRSlpjq9pLWw-jBmewYCc7REao-zYdMQq861Y
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1461'
+source-wordcount: 1467
 ht-degree: 1%
 
 ---
 
-# Projektverbesserungen in 2019.1
+# Verbesserungen bei Projekten in Version 2019.1
 
 Auf dieser Seite werden alle in der Version 2019.1 enthaltenen Projektverbesserungen beschrieben. Die Funktion ist derzeit in der Vorschau-Umgebung verfügbar. Sie wird in der Produktionsumgebung im verfügbar gemacht.
 
@@ -36,7 +41,7 @@ Eine Liste aller Änderungen in 2019.1 finden Sie unter „Übersicht über die 
 * [Aufgaben und Probleme aus einer Liste zu einer Iteration hinzufügen](#add-tasks-and-issues-from-a-list-to-an-iteration)
 * [Neue Papiergrößen für den Gantt-Diagrammexport](#new-paper-sizes-for-gantt-chart-export)
 * [Der Zugriff auf Dialogfelder im Gantt-Diagramm wurde im Bearbeitungsmodus entfernt](#removed-access-to-dialog-boxes-in-the-gantt-chart-while-in-edit-mode)
-* [Aufgabeninformationen im Gantt-Diagramm der Projektliste in einem Programm oder Portfolio anzeigen](#view-task-information-in-the-project-list-gantt-chart-in-a-program-or-portfolio)
+* [Aufgabeninformationen im Gantt-Diagramm der Projektliste in einem Programm oder in Portfolio anzeigen](#view-task-information-in-the-project-list-gantt-chart-in-a-program-or-portfolio)
 * [Zugriff auf das Gantt-Diagramm der Aufgabenliste in Vorlagen](#access-the-task-list-gantt-chart-on-templates)
 * [Die Projektansicht im Gantt-Diagramm wurde umbenannt](#renamed-the-project-view-on-the-gantt-chart)
 * [Was-wäre-wenn-Szenarien im Gantt-Diagramm der Aufgabenliste](#what-if-scenarios-in-the-task-list-gantt-chart)
@@ -158,7 +163,7 @@ Projekte in meinem Besitz
 
 Alle Projekte
 
-Registerkarte „Projekte“ in einem Portfolio
+Registerkarte „Projekte“ in einer Portfolio
 
 Registerkarte „Projekte“ in einem Programm
 
@@ -174,7 +179,7 @@ Informationen zum Anzeigen von Objekten in Listen finden Sie unter „Elemente i
 
 Wir haben die Leistung verbessert und das Erscheinungsbild der Projekt- und Aufgabenlisten in den folgenden Bereichen verbessert:
 
-Registerkarten &quot;Portfolio&quot; und „Programme“ im Bereich „Projekte“
+Die Registerkarten Portfolio und Programme im Bereich Projekte
 
 Registerkarte „Teilaufgaben“ auf Aufgabenebene
 
@@ -186,9 +191,9 @@ Registerkarte „Aufgaben“ auf Projektebene
 
 Informationen zum Anzeigen von Objekten in Listen finden Sie unter „Elemente in einer Liste anzeigen“.
 
-## Aufgabeninformationen in einem Programm oder Portfolio im Gantt-Diagramm der Projektliste anzeigen {#view-task-information-in-the-project-list-gantt-chart-in-a-program-or-portfolio}
+## Aufgabeninformationen im Gantt-Diagramm der Projektliste in einem Programm oder in Portfolio anzeigen {#view-task-information-in-the-project-list-gantt-chart-in-a-program-or-portfolio}
 
-Sie können jetzt Informationen zu den Aufgaben eines Projekts in der Projektliste im Gantt-Diagramm innerhalb eines Programms oder Portfolios anzeigen.
+Sie können jetzt Informationen zu den Aufgaben eines Projekts im Gantt-Diagramm zur Projektliste innerhalb eines Programms oder einer Portfolio anzeigen.
 
 Zuvor konnten Sie Informationen zu Aufgaben nur im Gantt-Diagramm der Projektliste auf der Registerkarte Projekte anzeigen.
 
@@ -198,7 +203,7 @@ Weitere Informationen finden Sie unter „Anzeigen von Informationen im Gantt-Di
 
 Sie können jetzt die folgenden Aktionen für die Aufgaben in einem Projekt ausführen, wenn sie im Bearbeitungsmodus des Gantt-Diagramms angezeigt werden:
 
- Aufgaben hinzufügen
+Aufgaben hinzufügen
 
 Aufgaben entfernen
 

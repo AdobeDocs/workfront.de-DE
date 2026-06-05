@@ -7,14 +7,24 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 4bd56fe6-1f36-4c36-82cd-96de748ad680
-source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
+TQID: https://experienceleague.adobe.com/uxF82lsimZlGpWRe8BEt80-9wb0rnwz7uhBHCI8nAig
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 0%
+source-wordcount: 462
+ht-degree: 3%
 
 ---
 
-# Konfigurieren und verwenden Sie die benutzerdefinierten OAuth 2-Anwendungen Ihres Unternehmens mithilfe des JWT-Flusses
+# Konfigurieren und Verwenden von benutzerdefinierten OAuth 2-Anwendungen Ihrer Organisation mithilfe des JWT-Flusses
 
 Um mit Workfront zu integrieren und Ihrer Client-Anwendung zu ermöglichen, im Namen der Benutzerin bzw. des Benutzers mit Workfront zu kommunizieren, ist Folgendes erforderlich:
 
@@ -58,7 +68,7 @@ Die folgende Tabelle enthält Informationen zu Feldern, die möglicherweise erfo
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Exp</td> 
+   <td role="rowheader">exp</td> 
    <td> <p>Erforderlich. Der Parameter Ablauf ist ein erforderlicher Parameter, der die absolute Zeit seit dem 01/01/1970 GMT misst. Sie müssen sicherstellen, dass die Ablaufzeit nach dem Zeitpunkt der Anfrage liegt. Nach dieser Zeit ist der JWT nicht mehr gültig. </p> <p>Hinweis: Es wird empfohlen, über ein Token mit sehr kurzer Lebensdauer (einige Minuten) zu verfügen, damit es bald abläuft, nachdem es gegen ein Zugriffs-Token eingetauscht wurde. Jedes Mal, wenn ein neues Zugriffstoken erforderlich ist, wird ein JWT signiert und ausgetauscht. Dies ist ein sichererer Ansatz. Wir empfehlen nicht länger laufende Token, die wiederverwendet werden, um bei Bedarf Zugriffs-Token zu erhalten.</p> </td> 
   </tr> 
   <tr> 
@@ -74,7 +84,7 @@ Die folgende Tabelle enthält Informationen zu Feldern, die möglicherweise erfo
 
 ## Austauschen des JWT zum Abrufen eines Zugriffs-Tokens
 
-1. Anforderung einer POST senden an:
+1. Senden einer POST-Anfrage an:
 
    <!-- [Copy](javascript:void(0);) -->
    <pre><code>https://yourdomain.my.workfront.com/integrations/oauth2/api/v1/jwt/exchange</code></pre>

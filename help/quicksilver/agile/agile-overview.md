@@ -3,15 +3,20 @@ content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
 title: Agile-Übersicht
-description: Agile ist eine Arbeitsmethode, mit der Teams kleine, überschaubare Arbeitsmengen in einer konsistenten Kadenz erledigen können. In Agile verwalten Teams Storys auf einem Backlog oder einem Story Board und nicht Aufgaben in einem Projekt. [!DNL Adobe Workfront] stellt Tools bereit, die Teams dabei unterstützen, agil zu arbeiten.
+description: Agile ist eine Arbeitsmethode, mit der Teams kleine, überschaubare Arbeitsmengen in einer konsistenten Kadenz erledigen können. In „Agile“ verwalten Teams Geschichten auf einem Rückstand oder in einem Story Board und nicht Aufgaben in einem Projekt. [!DNL Adobe Workfront]  stellt Tools bereit, die Teams dabei helfen, auf agile Weise zu arbeiten.
 author: Courtney
 feature: Agile
 exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/AVFfEFh0oIM6Pd7BMCYw7As75M00qbzP37burvpCI4U
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: 324
 ht-degree: 0%
 
 ---

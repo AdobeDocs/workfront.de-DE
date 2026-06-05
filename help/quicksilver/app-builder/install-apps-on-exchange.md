@@ -1,21 +1,30 @@
 ---
-title: Abrufen und Installieren von Apps aus Adobe Exchange
+title: Abrufen und Installieren von Anwendungen aus Adobe Exchange
 description: Benutzeroberflächenerweiterungen für Workfront auf Basis von Adobe App Builder ermöglichen es Kundinnen und Kunden sowie Partnern, benutzerdefinierte Benutzererlebnisse zu erstellen.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: acbbd926-ca8f-4374-b1b3-297292b173bc
-source-git-commit: 92d4cd209a4e40f80420a3aebb116077cd2141a8
+TQID: https://experienceleague.adobe.com/Z48mL2K8rZ6YkPNAvfc3bnGNqjwpttBdwIgMECGzuxg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 1%
+source-wordcount: 1301
+ht-degree: 3%
 
 ---
 
-# Abrufen und Installieren von Apps aus Adobe Exchange
+# Abrufen und Installieren von Anwendungen aus Adobe Exchange
 
 Sie können jetzt von Partnern erstellte Apps für Workfront direkt von Adobe Exchange aus installieren. Diese Funktion verbindet Kunden mit einem wachsenden Ökosystem von Adobe-Partnern, die maßgeschneiderte Tools bereitstellen, die die Produktivität verbessern, den Betrieb optimieren und die Workfront-Funktionalität erweitern. Über Adobe Exchange können Kunden Apps entdecken und installieren, die sich mithilfe von Benutzeroberflächenerweiterungen nahtlos in Workfront integrieren lassen.
 
-Adobe Exchange ist der zentrale Marktplatz für Anwendungen, Erweiterungen und Integrationen von Drittanbietern in Adobe Experience Cloud, einschließlich Adobe Workfront. Für Workfront-Kunden ist dies das erste Ziel, um Apps zu entdecken und zu installieren, die die Funktionalität verbessern, Workflows optimieren und mit externen Systemen integrieren.
+Adobe Exchange ist der zentrale Marktplatz für Programme, Erweiterungen und Integrationen von Drittanbietern in Adobe Experience Cloud, einschließlich Adobe Workfront. Für Workfront-Kunden ist dies das erste Ziel, um Apps zu entdecken und zu installieren, die die Funktionalität verbessern, Workflows optimieren und mit externen Systemen integrieren.
 
 ## Adobe Partner-Apps
 
@@ -79,7 +88,7 @@ WorkFocus ist bestrebt zu erörtern, wie es als strategischer Partner in Workfro
 
 * Kann die Akquise starten, wird aber zur Anmeldung aufgefordert und kann Einschränkungen unterliegen, wenn für die App das Einverständnis des Administrators oder eine spezielle Lizenzierung erforderlich ist.
 
-## Abrufen und Installieren von Apps aus Adobe Exchange
+## Abrufen und Installieren von Anwendungen aus Adobe Exchange
 
 Adobe-Kunden können Apps direkt über den Adobe Exchange Marketplace durchsuchen, durchsuchen und installieren, um sie in Workfront zu verwenden.
 
@@ -129,7 +138,7 @@ Sobald eine App erworben wurde, kann sie direkt in Workfront installiert werden.
 1. Suchen Sie die App, die Sie installieren möchten, und öffnen Sie das Menü Aktionen auf der rechten Seite des Bildschirms.
 1. Klicken Sie auf App-Details anzeigen.
 1. Wählen Sie auf der linken Seite des Bildschirms eine Umgebung aus oder fügen Sie eine neue hinzu.
-1. Klicken Sie **Bereitstellen**.
+1. Klicken Sie auf **Bereitstellen**.
    ![Programm bereitstellen](assets/10-env-details-2.png)
 1. Weisen Sie Installations- oder Verwendungsrechte zu (falls erforderlich).
 

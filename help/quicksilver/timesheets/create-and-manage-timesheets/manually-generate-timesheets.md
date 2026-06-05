@@ -1,19 +1,30 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Arbeitszeittabellen manuell generieren
+title: Manuelles Generieren von Arbeitszeittabellen
 description: Damit Änderungen, die Sie an den Arbeitszeittabellen-Profilen vorgenommen haben, auch in den aktuellen Arbeitszeittabellen übernommen werden, müssen Sie zunächst die vorhandenen Arbeitszeittabellen löschen und dann manuell neue Arbeitszeittabellen erstellen. Sie können Arbeitszeittabellen im Setup-Bereich manuell aus dem Arbeitszeittabellen-Bereich oder dem Diagnosebereich generieren, wie in diesem Artikel erläutert.
 author: Lisa
 feature: Timesheets
 exl-id: 316c270a-c64e-4d83-a035-4128abe33f87
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+TQID: https://experienceleague.adobe.com/0hU3VlHM8l5TXee6K3lJaV9-W3ZKujDYf9-f1NXH-Nc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 0%
+source-wordcount: 437
+ht-degree: 9%
 
 ---
 
-# Arbeitszeittabellen manuell generieren
+# Manuelles Generieren von Arbeitszeittabellen
 
 Damit Änderungen, die Sie an den Arbeitszeittabellen-Profilen vorgenommen haben, auch in den aktuellen Arbeitszeittabellen übernommen werden, müssen Sie zunächst die vorhandenen Arbeitszeittabellen löschen und dann manuell neue Arbeitszeittabellen erstellen. Sie können Arbeitszeittabellen im Setup-Bereich manuell aus dem Arbeitszeittabellen-Bereich oder dem Diagnosebereich generieren, wie in diesem Artikel erläutert.
 
@@ -21,7 +32,7 @@ Anweisungen zum Löschen von Arbeitszeittabellen finden Sie unter [Löschen von 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto">
  <col> 
@@ -35,7 +46,7 @@ Anweisungen zum Löschen von Arbeitszeittabellen finden Sie unter [Löschen von 
    <td>Adobe Workfront-Lizenz</td> 
    <td>
    <p>Standard</p>
-   <p>Plan</p></td>
+   <p>Abo</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -44,7 +55,7 @@ Anweisungen zum Löschen von Arbeitszeittabellen finden Sie unter [Löschen von 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -63,7 +74,7 @@ Sie können im Bereich „Arbeitszeittabellen und Stunden“ im Setup manuell Ar
 
 1. Wenn Sie Arbeitszeittabellen generieren, die im gesamten System verwendet werden, klicken Sie auf **Arbeitszeittabellen und Stunden.**
 
-   Oder
+   ODER
 
    Wenn Sie Arbeitszeittabellen generieren, die von einer bestimmten Gruppe verwendet werden, klicken Sie auf **Gruppen** und dann auf den Namen der Gruppe.
 

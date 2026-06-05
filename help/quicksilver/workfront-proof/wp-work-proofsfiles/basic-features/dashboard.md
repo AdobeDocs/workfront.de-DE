@@ -8,9 +8,14 @@ description: Das Dashboard ist die erste Seite, die Sie sehen, wenn Sie sich bei
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bd0ecc43-4bbf-4caa-924f-6c8935123bf9
-source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
+TQID: https://experienceleague.adobe.com/70uFOpXwRaSaIKLxTLda7ro2sYSFh3s5sT4Olg7eis8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '996'
+source-wordcount: 994
 ht-degree: 3%
 
 ---
@@ -105,7 +110,7 @@ Das Dashboard-Menü enthält die folgenden Menüs:
 
 * Tags bearbeiten
 * Verschieben nach
-* Weitere Aktionen
+* Mehr Aktionen
 * Löschen
 
 ## Tags bearbeiten
@@ -128,7 +133,7 @@ Mit dieser Funktion können Sie Korrekturabzüge und Dateien in einen Ihrer Ordn
 
    ![Verschieben nach](assets/move-to-350x297.png)
 
-### Weitere Aktionen
+### Mehr Aktionen
 
 Im Menü [!UICONTROL Mehr Aktionen] (6) können Sie die folgenden Aktionen ausführen:
 
@@ -192,7 +197,7 @@ In diesem Abschnitt finden Sie die Schnelllinks zu:
 * Neuen Benutzer hinzufügen
 * Passwort ändern
 
-Im Abschnitt Übersicht werden auch vorgefilterte Informationen angezeigt. Diese sind:
+Im Abschnitt Übersicht werden auch vorgefilterte Informationen angezeigt. Sie lauten wie folgt:
 
 * Zu verwaltende Korrekturabzüge - Gesamtzahl der aktiven Korrekturabzüge, die Ihnen gehören und an Sie delegiert wurden
 * Korrekturabzüge, die auf eine Entscheidung warten - Gesamtzahl der aktiven Korrekturabzüge, für die Ihre Entscheidungen erforderlich sind

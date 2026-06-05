@@ -2,15 +2,24 @@
 product-previous: mobile
 product-area: projects
 navigation-topic: use-workfront-view
-title: Anzeigen von Projekten in der Adobe Workfront-Ansicht
+title: Anzeigen von Projekten in Adobe Workfront View
 description: Standardmäßig werden in der Liste der in der  [!DNL Adobe Workfront]  angezeigten Projekte die letzten 100 aktiven Projekte angezeigt. Die Liste der Projekte ist nach keinem Kriterium gruppiert.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 76db4ed0-a411-49aa-8acd-f149df1f38a4
-source-git-commit: dbc4404501e20b3f1905a5eebd13734a65db27ae
+TQID: https://experienceleague.adobe.com/sSql-PZInJUueNE7QBQFX2z7QyaaPhjZILcrS0en8mI
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 5%
+source-wordcount: 359
+ht-degree: 11%
 
 ---
 
@@ -35,13 +44,13 @@ Standardmäßig werden in der Liste der in [!DNL Adobe Workfront View] angezeigt
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Lizenz</strong></td> 
    <td> 
-   <p>Mitwirkender oder höher</p>
+   <p>Mitwirkende oder höher</p>
    <p>Überprüfen oder höher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

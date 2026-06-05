@@ -2,25 +2,34 @@
 content-type: reference
 product-area: documents
 navigation-topic: manage-proof-deadlines
-title: Festlegen der Fristen für die einzelnen Validierungsverantwortlichen
+title: Festlegen der Termine für die einzelnen prüfenden Personen
 description: Sie können für verschiedene Prüfer eines bereits erstellten Korrekturabzugs unterschiedliche Fristen festlegen. Dazu muss für jeden Reviewer, für den eine individuelle Frist festgelegt werden soll, ein separater Schritt erstellt werden.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8da49c52-295b-402e-b8cb-f4d1cff57aba
-source-git-commit: ac714bd5a5259d6f995ac445efbd0125e07022cb
+TQID: https://experienceleague.adobe.com/7Zr9HmQsfHEPqRjRYM0-wN8-Xj--iYlHA8ebug8Z-Ow
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 3%
+source-wordcount: 203
+ht-degree: 26%
 
 ---
 
-# Festlegen der Fristen für die einzelnen Validierungsverantwortlichen
+# Festlegen der Termine für die einzelnen prüfenden Personen
 
 Sie können für verschiedene Prüfer eines bereits erstellten Korrekturabzugs unterschiedliche Fristen festlegen. Dazu muss für jeden Reviewer, für den eine individuelle Frist festgelegt werden soll, ein separater Schritt erstellt werden.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +47,7 @@ Sie können für verschiedene Prüfer eines bereits erstellten Korrekturabzugs u
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof-Berechtigungsprofil </td> 
+   <td role="rowheader">Korrekturabzug-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
@@ -47,16 +56,16 @@ Sie können für verschiedene Prüfer eines bereits erstellten Korrekturabzugs u
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> </td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
-## Festlegen der Fristen für die einzelnen Validierungsverantwortlichen
+## Festlegen der Termine für die einzelnen prüfenden Personen
 
 1. Bewegen Sie den Mauszeiger über den Korrekturabzug und klicken Sie dann auf **Proofing-Workflow**, um die Workflow-Seite zu öffnen.
 1. Klicken Sie oben rechts auf &quot;**Phase**

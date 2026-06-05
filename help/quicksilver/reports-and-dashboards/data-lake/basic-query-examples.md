@@ -7,11 +7,19 @@ description: Beispielabfragen Sie können verwenden, um sich mit der Syntax und 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/flDonZVaLR3bTF2aZcY9iy2ZnWbfrdhctL7J8esvxng
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: 921
 ht-degree: 1%
 
 ---
@@ -163,7 +171,7 @@ Die obige Abfrage gibt die folgenden Daten zurück:
 
 ### Erklärung
 
-Die Abfrage verwendet die Tracking-Funktionen für Änderungsereignisse von Data Connect.  Sie bestimmt das Datum, an dem ein Ereignis ausgelöst wurde, das einen neuen Statuswert hatte, der sich vom vorherigen Ereignis unterschied. 
+Die Abfrage verwendet die Tracking-Funktionen für Änderungsereignisse von Data Connect. Sie ermittelt das Datum, an dem ein Ereignis ausgelöst wurde, das einen neuen Statuswert hatte, der sich vom vorherigen Ereignis unterschied. 
 
 Überprüfen der Abfrage von innen nach außen: 
 
@@ -172,7 +180,7 @@ Die Abfrage verwendet die Tracking-Funktionen für Änderungsereignisse von Data
 
 2. Filtern Sie nur nach den geänderten Datensätzen: 
 
-   * Wählen Sie Datensätze aus der Berechnung in Schritt 1, bei denen der vorherige Status != Aktueller Status. 
+   * Wählen Sie Datensätze aus der Berechnung in Schritt 1, bei denen der vorherige Status den aktuellen Status !=. 
 
 3. Berechnen Sie den effektiven Zeitstempel und die Dauer des Beginns/Endes in Tagen: 
 
@@ -183,11 +191,9 @@ Die Abfrage verwendet die Tracking-Funktionen für Änderungsereignisse von Data
 
 >[!NOTE]
 >
->Es wird empfohlen, diese Abfrage als eigene „Ansicht“ in Power BI oder Tableau zu verwenden.  Wenn Sie andere Felder aus dem `<object>_event view` einbringen möchten, verbinden Sie die Ausgabe aus dieser Abfrage wieder mit dem `<object>_event view`.  Die Verknüpfungsfelder lauten wie folgt: <br>
+>Es wird empfohlen, diese Abfrage als eigene „Ansicht“ in Power BI oder Tableau zu verwenden. Wenn Sie andere Felder aus dem `<object>_event view` einbringen möchten, verbinden Sie die Ausgabe aus dieser Abfrage wieder mit dem `<object>_event view`. Die Verknüpfungsfelder lauten wie folgt: <br>
 >Für projects_event: 
->`From projects_event p`
->`Join <above query> c on c.projectid = p.projectid  `
->`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
+>`From projects_event p`>`Join <above query> c on c.projectid = p.projectid  `>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
 
 
 

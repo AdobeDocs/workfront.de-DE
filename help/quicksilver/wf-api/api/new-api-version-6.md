@@ -1,38 +1,43 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Neue Funktionen in der API-Version 6
-description: Neue Funktionen in der API-Version 6
+title: Neue Funktionen in der API-Version 6
+description: Neue Funktionen in der API-Version 6
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/ZXBvvhz5ObfHlwX2BBBs2-F2DbSmgY4lj8TwWnMCzBM
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 39%
+source-wordcount: 513
+ht-degree: 54%
 
 ---
 
-# Neue Funktionen in der API-Version 6
+# Neue Funktionen in der API-Version 6
 
 ## Neue Objekte
 
 ### Ressourcenmanager
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| ID | Kunde |   |   |   |   | Hinzufügen |
-| customerID | Projekt |   |   |   |   | Anzahl |
+| ID | Kundin bzw. Kunde |   |   |   |   | Hinzufügen |
+| customerID | Projekt |   |   |   |   | Count |
 | projectID | resourceManager |   |   |   |   | Löschen |
 | resourceManagerID | Vorlage |   |   |   |   | Abrufen |
 | templateID |   |   |   |   |   | Bericht  |
-|   |   |   |   |   |   | Suche  |
+|   |   |   |   |   |   | Suchen  |
 
 
 ### EWS
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | fileName |   |   |   |   | Upload |   |
 | handhaben |   |   |   |   |   |   |
@@ -41,10 +46,10 @@ ht-degree: 39%
 
 ### Benutzerdefinierter Titel
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | ID |   |   |   | checkDelete | customLabels | Hinzufügen |
-|   |   |   |   | inUseByOtherLayoutTemplate | userCustomLabels | Anzahl |
+|   |   |   |   | inUseByOtherLayoutTemplate | userCustomLabels | Count |
 |   |   |   |   | removeCustomLabel |   | Löschen |
 |   |   |   |   |   |   | Abrufen |
 |   |   |   |   |   |   | Bericht |
@@ -59,7 +64,7 @@ ht-degree: 39%
 
  
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | updateType<sup>1</sup> |   |   |   |   | `sinceDate` |   |
 |   |   |   |   |   | objectUpdatesByCommentID<sup>2</sup> |   |
@@ -74,7 +79,7 @@ ht-degree: 39%
 
 ### Genehmigung
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | completedHours |   | resourceManager | resourceManagerIDs |   |   |   |
 | constraintDate<sup>1</sup> |   |   |   |   |   |   |
@@ -92,7 +97,7 @@ ht-degree: 39%
 
 ### Genehmigungsprozess
 
-|   | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+|   | Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|---|
 |   |  | `attachedApprovalPaths` |   |   |   |   |   |
 
@@ -104,7 +109,7 @@ ht-degree: 39%
 
  
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | approvalType<sup>1</sup> |   |   |   |   |   |   |
 
@@ -116,10 +121,10 @@ ht-degree: 39%
 
 ### Genehmigungspfad<sup>1</sup>
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | approvalStatus |   |   |   |   |   | Hinzufügen |
-| approvalStatusLabel |   |   |   |   |   | Anzahl |
+| approvalStatusLabel |   |   |   |   |   | Count |
 | Kommentar |   |   |   |   |   | Löschen |
 | enteredByID |   |   |   |   |   | Bearbeiten |
 | entryDate |   |   |   |   |   | Abrufen |
@@ -139,7 +144,7 @@ ht-degree: 39%
 
 ### Work Service-Objekt
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | constraintDate<sup>1</sup> |   |   |   | getMyWorkCountFiltered |   |   |
 | workRequired<sup>2</sup> |   |   |   | workItemStatusLabels  |   |   |
@@ -154,7 +159,7 @@ ht-degree: 39%
 
 ### Zuweisung
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 |   |   |   |   | assignUserToRoleOnProjects |   |   |
 |   |   |   |   | swapUsersOnProjects |   |   |
@@ -166,7 +171,7 @@ ht-degree: 39%
 
 ### Baseline 
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | workRequired<sup>1</sup> |   |   |   |   |   |   |
 
@@ -178,7 +183,7 @@ ht-degree: 39%
 
 ### Baseline-Aufgabe
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | workRequired<sup>1</sup> |   |   |   |   |   |   |
 
@@ -190,7 +195,7 @@ ht-degree: 39%
 
 ### Abrechnungseintrag
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | billingDate<sup>1</sup> |   |   |   |   |   |   |
 
@@ -200,7 +205,7 @@ ht-degree: 39%
 
 ### Burndown-Ereignis 
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | eventInitiator |   |   |   |   |   | `ADD` |
 |   |   |   |   |   |   | `DELETE` |
@@ -211,7 +216,7 @@ ht-degree: 39%
 
 ### Kategorie 
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 |   |   |   |   | getCascadingRules |   |   |
 |   |   |   |   | reorderCategories |   |   |
@@ -220,9 +225,9 @@ ht-degree: 39%
 
  
 
-Benutzerdefinierte Enumeration 
+Benutzerdefinierte Aufzählung 
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 |   |   |   |   | getGroupDefaultProjectStatus | opTaskGroupStatuses |   |
 |   |   |   |   | isPossibleToUnlockStatus | projectGroupStatuses |   |
@@ -234,7 +239,7 @@ Benutzerdefinierte Enumeration 
 
 Dokument 
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | `checkedOutByID` | `checkedOutBy`  |   |  isDir |   |   |   |
 | `isDir`  |   |   |   |   |   |   |
@@ -245,7 +250,7 @@ Dokument 
 
 Wechselkurs 
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | rate<sup>1</sup> |   |   |   |   |   |   |
 
@@ -257,7 +262,7 @@ Wechselkurs 
 
 ### Integration
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | syncBurndownDate |   |   |   |   |   |   |
 
@@ -267,7 +272,7 @@ Wechselkurs 
 
 ### Journaleintrag
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | changeType<sup>1</sup> |   |   |   |   |   |   |
 
@@ -279,7 +284,7 @@ Wechselkurs 
 
 ### Aufgabe (Problem)<sup>1</sup> 
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | workRequired<sup>2</sup> |   |   |   |   |   |   |
 
@@ -293,7 +298,7 @@ Wechselkurs 
 
 ### project<sup>1</sup> 
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | completedHours |   | `openOpTasks` |  openOpTasks |   |   |   |
 | isOriginalPlannedHoursSet |   | resourceManager | resourceManagerIDs  |   |   |   |
@@ -312,7 +317,7 @@ Wechselkurs 
 
 ### Aufgabe<sup>1</sup>
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | constraintDate<sup>2</sup> |   |   |   |   |   |   |
 | workRequired<sup>3</sup> |   |   |   |   |   |   |
@@ -329,7 +334,7 @@ Wechselkurs 
 
 ### Team
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | `myWorkViewID` |  `myWorkView` |   |   |   |   |   |
 | `requestsViewID`  | `myRequestsView`  |   |   |   |   |   |
@@ -340,7 +345,7 @@ Wechselkurs 
 
 ### template<sup>1</sup> 
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 |   |   | resourceManager | resourceManagerIDs |   |   |   |
 
@@ -350,7 +355,7 @@ Wechselkurs 
 
 ### Vorlagenaufgabe<sup>1</sup> 
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | workRequired<sup>2</sup> |   |   |   |   |   |   |
 
@@ -364,7 +369,7 @@ Wechselkurs 
 
 ### Benutzerin oder Benutzer
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | myInfo<sup>1</sup> |   |   |   |   |   |   |
 
@@ -376,7 +381,7 @@ Wechselkurs 
 
 ### Benutzerhinweis
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | eventType<sup>1</sup> |   |   |   |   | myNotifications<sup>2</sup> |   |
 
@@ -390,7 +395,7 @@ Wechselkurs 
 
 ### Ankündigung
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 |   |   |   |   | `fileHandle` |   |   |
 |   |   |   |   | `zipAnnouncementAttachments`  |   |   |

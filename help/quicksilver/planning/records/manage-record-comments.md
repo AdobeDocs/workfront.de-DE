@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
 workflow-type: tm+mt
-source-wordcount: 876
+source-wordcount: 846
 ht-degree: 2%
 
 ---
@@ -72,13 +72,7 @@ Im rechten Bereich eines Datensatzes werden die folgenden Abschnitte angezeigt:
    <td>   <p>Anzeigen oder Erweitern von Berechtigungen für einen Arbeitsbereich, einen Datensatztyp und <span class="preview">Datensatz</span></p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p> </td> 
   </tr> 
-  </tr> 
-  <tr>
-   <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> Benutzenden mit einer Light- oder Contributor-Lizenz muss eine Layout-Vorlage zugewiesen werden, die Planning enthält.
-   <p>Für Standardbenutzer und Systemadministratoren sind die Planungsbereiche standardmäßig aktiviert.</p></div></li></ul>
-</td>
-  </tr>  
+  </tr>   
 </tbody> 
 </table>
 

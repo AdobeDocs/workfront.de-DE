@@ -6,11 +6,22 @@ description: Sie können Initiativen in einem von Ihnen erstellten Plan oder in 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 799ca02e-c513-4409-b327-1ce7d8eb19ae
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/3c7WBOuAxzEvcJeG2iMVfVZX88szCj9JcGS26p09YZE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '485'
+source-wordcount: 485
 ht-degree: 5%
 
 ---
@@ -130,7 +141,7 @@ Eine Liste mit Plänen wird angezeigt.
 
    * Klicken Sie auf das **[!UICONTROL Mehr]** Menü ![Mehr](assets/more-menu.png) rechts neben dem Namen der Initiative und klicken Sie dann auf **[!UICONTROL Löschen]** > **[!UICONTROL Ja, löschen]**.
 
-   * Aktivieren Sie das Kästchen links von der Initiative und klicken Sie dann im unverankerten **[!UICONTROL , das unten im Plan angezeigt wird, auf]** Löschen und dann auf **[!UICONTROL Ja, löschen]**.
+   * Aktivieren Sie das Kästchen links von der Initiative und klicken Sie dann im unverankerten **, das unten im Plan angezeigt wird, auf** Löschen und dann auf **[!UICONTROL Ja, löschen]**.
 
    Die Initiative und ihre Aufgabengebiete sowie Kosteninformationen werden aus dem Plan gelöscht.
 
@@ -143,7 +154,7 @@ Eine Liste mit Plänen wird angezeigt.
 Eine Liste mit Plänen wird angezeigt.
 
 1. Klicken Sie auf den Namen eines Plans, um ihn zu öffnen, und suchen Sie dann die Initiative, die Sie löschen möchten.
-1. Markieren Sie die Kästchen links neben den Initiativen, die Sie löschen möchten, und klicken Sie dann im unten im Plan angezeigten **[!UICONTROL auf]** Löschen und anschließend auf **[!UICONTROL Ja, löschen]**.
+1. Markieren Sie die Kästchen links neben den Initiativen, die Sie löschen möchten, und klicken Sie dann im unten im Plan angezeigten **auf** Löschen und anschließend auf **[!UICONTROL Ja, löschen]**.
 
    ![Menü „Initiative verwalten“](assets/bottom-manage-initiative-menu-350x45.png)
 

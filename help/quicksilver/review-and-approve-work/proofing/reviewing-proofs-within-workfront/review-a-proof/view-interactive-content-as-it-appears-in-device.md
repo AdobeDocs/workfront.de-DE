@@ -6,10 +6,19 @@ description: Sie können eine Vorschau davon anzeigen, wie ein interaktiver Korr
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 99165790-0c34-4540-92d9-956ae178a874
-source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
+TQID: https://experienceleague.adobe.com/hIjZkmGSimSsJQBcnzDK2xcuDVMq7X3-y692PchHklk
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 1%
+source-wordcount: 522
+ht-degree: 10%
 
 ---
 
@@ -19,7 +28,7 @@ Sie können eine Vorschau davon anzeigen, wie ein interaktiver Korrekturabzug au
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,17 +47,17 @@ Sie können eine Vorschau davon anzeigen, wie ein interaktiver Korrekturabzug au
    <td>Prüfer, Prüfer und genehmigende Person, Autor, Moderator</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof-Berechtigungsprofil </td> 
+   <td role="rowheader">Korrekturabzug-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> </td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -74,7 +83,7 @@ Ihr Adobe Workfront-Administrator hat Ihr System so konfiguriert, dass Sie inter
 
 1. Klicken Sie im Desktop Proofing Viewer in der angezeigten Liste der Geräte und Lösungen auf das gewünschte Gerät.
 
-   Oder
+   ODER
 
    Klicken Sie im Web Proofing Viewer in der angezeigten Liste der Auflösungen auf die gewünschte Auflösung.
 
@@ -91,7 +100,7 @@ Ihr Adobe Workfront-Administrator hat Ihr System so konfiguriert, dass Sie inter
 
    ![Type_a_custom_resolution_DPV.png](assets/type-a-custom-resolution-dpv.png)
 
-   Oder
+   ODER
 
    Bewegen Sie den Mauszeiger über Ihren interaktiven Inhalt und ziehen Sie den blauen Rahmen auf die untere rechte Ecke oder die rechte oder untere Kante, um die gewünschte Auflösung zu erhalten.
 

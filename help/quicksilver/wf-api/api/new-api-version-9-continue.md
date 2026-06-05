@@ -1,26 +1,33 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Neue Funktionen in der API-Version 9 (Fortsetzung)
+title: Neue Funktionen in der API-Version 9 (Fortsetzung)
 description: Diese Liste ist die zweite Hälfte einer größeren Liste. Die erste Hälfte finden Sie unter Neue Funktionen in der API-Version 9. Die Liste der Updates für Version 9 finden Sie unter Updates für API Version 9.
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 0af97c16-e6a7-4796-92e0-4c2d9751c845
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/-NMFJ6yPuuzTjxTzsl0OdTLp7HbkR2dKG0-fT6hfjtQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 28%
+source-wordcount: 153
+ht-degree: 42%
 
 ---
 
-# Neue Funktionen in der API-Version 9 (Fortsetzung)
+# Neue Funktionen in der API-Version 9 (Fortsetzung)
 
 Diese Liste ist die zweite Hälfte einer größeren Liste. Die erste Hälfte finden Sie unter [Neue Funktionen in der API-Version 9](../../wf-api/api/new-api-version-9.md). Die Liste der Updates für Version 9 finden Sie unter [Updates für API Version 9](../../wf-api/api/new-api-version-9-updates.md).
 
 ## Portalabschnitt
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | `accessorIDs` | `customer` | `accessRules` | `accessLevelMM` | `exportFusionChartToPDF` |  | `ADD` |
 | `appGlobalID` | `enteredBy` | `lastViewers` | `displayDescription` | `getPK` |  | `COPY` |
@@ -88,7 +95,7 @@ Diese Liste ist die zweite Hälfte einer größeren Liste. Die erste Hälfte fin
 
 ## PortalSectionLastViewer
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | createDate | `customer` |  |  |  |  | `COUNT` |
 | `customerID` | `report` |  |  |  |  | `GET` |
@@ -100,7 +107,7 @@ Diese Liste ist die zweite Hälfte einer größeren Liste. Die erste Hälfte fin
 
 ## PortalSectionStatisticInfo
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | `allViews` | `customer` |  |  |  |  | `COUNT` |
 | `customerID` | `report` |  |  |  |  | `GET` |
@@ -118,7 +125,7 @@ Diese Liste ist die zweite Hälfte einer größeren Liste. Die erste Hälfte fin
 
 ## Registerkarte „Portal“
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | `accessorIDs` | `customer` | `accessRules` | `linkedRoleIDs` | `advancedCopy` |  | `ADD` |
 | `customerID` | `lastUpdatedBy` | `linkedRoles` | `linkedTeamIDs` | `exportDashboard` |  | `COPY` |
@@ -140,7 +147,7 @@ Diese Liste ist die zweite Hälfte einer größeren Liste. Die erste Hälfte fin
 
 ## PortalTabSection
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | `area` | `calendarPortalSection`  |   |   |   |   |   |
 | `calendarPortalSectionID` | `customer`  |   |   |   |   |   |
@@ -157,7 +164,7 @@ Diese Liste ist die zweite Hälfte einer größeren Liste. Die erste Hälfte fin
 
 ## ReportFolder
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | customerID | `customer` |   |   |   |   |   |
 | `ID`  |   |   |   |   |   |   |
@@ -167,7 +174,7 @@ Diese Liste ist die zweite Hälfte einer größeren Liste. Die erste Hälfte fin
 
 ## Bericht planen
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | `customerID` | `customer` | `groups` | `accessLevelMM` | `sendReportDeliveryNow` |  | `ADD` |
 | `description` | `enteredBy` | `roles` |  |  |  | `COPY` |

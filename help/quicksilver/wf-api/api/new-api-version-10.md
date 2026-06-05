@@ -1,20 +1,27 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Neue Funktionen in der API-Version 10
+title: Neue Funktionen in der API-Version 10
 description: Aktualisierte Ressourcen
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 8ac384ae-5d65-4c0e-98c1-cf38cfbff460
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/7paMh3l4zsoBaafv6U6pp1M-SQjk-kdmSho9GYa15SU
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 46%
+source-wordcount: 484
+ht-degree: 60%
 
 ---
 
-# Neue Funktionen in der API-Version 10
+# Neue Funktionen in der API-Version 10
 
 * [Neue Ressourcen](#new-resources)
 * [Ressourcen aktualisiert](#updated-resources)
@@ -24,7 +31,7 @@ ht-degree: 46%
 
 ### ActivityLog
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |   | HINZUFÜGEN |
 |   |   |   |   |   |   | ANZAHL |
@@ -35,11 +42,11 @@ ht-degree: 46%
 
 ### Kalendereintrag
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | HINZUFÜGEN |
 |   |   |   |   |   |   | ANZAHL  |
-|   |   |   |   |   |   | DELETE  |
+|   |   |   |   |   |   | LÖSCHEN  |
 |   |   |   |   |   |   | BEARBEITEN  |
 |   |   |   |   |   |   | GET  |
 |   |   |   |   |   |   | BERICHT  |
@@ -49,34 +56,34 @@ ht-degree: 46%
 
 ### CalendarEntryExternalReference
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | ANZAHL |
 |   |   |   |   |   |   | GET  |
 |   |   |   |   |   |   | BERICHT  |
-|   |   |   |   |   |   | SUCHEN  |
+|   |   |   |   |   |   | SEARCH  |
 
 {style="table-layout:auto"}
 
 ### ExternalAuthToken
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | HINZUFÜGEN |
 |   |   |   |   |   |   | ANZAHL |
-|   |   |   |   |   |   | DELETE  |
+|   |   |   |   |   |   | LÖSCHEN  |
 |   |   |   |   |   |   | BEARBEITEN  |
 |   |   |   |   |   |   | GET  |
 |   |   |   |   |   |   | BERICHT  |
-|   |   |   |   |   |   | SUCHEN  |
+|   |   |   |   |   |   | SEARCH  |
 
 {style="table-layout:auto"}
 
 ### LicenseTypeGroupLimit
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| customerID | Kunde |   |   |   |   |   |
+| customerID | Kundin bzw. Kunde |   |   |   |   |   |
 | groupID | Gruppe |   |   |   |   |   |
 | planLimit |   |   |   |   |   |   |
 | usedLicenses |   |   |   |   |   |   |
@@ -88,10 +95,10 @@ ht-degree: 46%
 
 ### UserHomeCalendarPreference
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| customerID | Kunde |   |   |   |   | HINZUFÜGEN |
-| edTime | Benutzer |   |   |   |   | ANZAHL |
+| customerID | Kundin bzw. Kunde |   |   |   |   | HINZUFÜGEN |
+| edTime | Benutzerin bzw. Benutzer |   |   |   |   | ANZAHL |
 | firstDayOfWeek |   |   |   |   |   | LÖSCHEN |
 | ID |   |   |   |   |   | BEARBEITEN |
 | showPTO |   |   |   |   |   | GET |
@@ -111,7 +118,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Workfront-API
 
 ### Genehmigung
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | Kanban-Flag |  |  | `<sup>1</sup>` ausstehend   |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
@@ -127,7 +134,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Workfront-API
 
 ### Zuweisung
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | assignmentPercent-`<sup>1</sup>` |   |   |   |   |   |   |
 | viewedByAssignedToUser |   |   |   |   |   |   |
@@ -138,7 +145,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Workfront-API
 
 ### Budgetierte Stunde
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   |   |
 
@@ -148,7 +155,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Workfront-API
 
 ### Kundenpräferenzen
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | Name `<sup>1</sup>` |   |   |   |   |   |   |
 
@@ -158,7 +165,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Workfront-API
 
 ### DocMetadataLinkGroup
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 |   |   |   |   | getMetadataForDocument |   |   |
 
@@ -166,7 +173,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Workfront-API
 
 ### Dokument
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | `masterTaskID` |  |   |   |   |   |   |
 
@@ -174,7 +181,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Workfront-API
 
 ### DocumentRequest
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | `masterTaskID` |   |   |   |   |   |   |
 
@@ -182,7 +189,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Workfront-API
 
 DocumentVersion
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | externalIntegrationType <sup>1</sup> |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
@@ -195,7 +202,7 @@ DocumentVersion
 
 Ausgabe
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | `masterTaskID` |   |   |   |   |   |   |
 
@@ -203,7 +210,7 @@ Ausgabe
 
 ### Gruppe
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 |   | licenseTypeLimit |   |   | addRemoveLicenseTypeLimits  |   |   |
 |   |   |   |   | setLicenseTypeLimit |   |   |
@@ -212,7 +219,7 @@ Ausgabe
 
 ### LinkedFolder
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | externalIntegrationType.<sup></sup> |  |  |  |  |   |   |
 
@@ -222,7 +229,7 @@ Ausgabe
 
 ### OpTask
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | priorityColor |   |  | pendingApproval<sup>1</sup> |   |   |   |
 
@@ -232,7 +239,7 @@ Ausgabe
 
 ### Portalabschnitt
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 |   |  |   | groupIDs |   |   |   |
 
@@ -240,7 +247,7 @@ Ausgabe
 
 ### Portfolio
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | portfolioNetValue |   |   |   |  |  |   |
 | portfolioROI |   |   |   |   |   |   |
@@ -249,7 +256,7 @@ Ausgabe
 
 ### Projekt
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | projectBudgetedCost  |   |   |   | linkExternalObject  |   |   |
 | projectNetValue |   |   |   | unlinkExternalObject |   |   |
@@ -260,15 +267,15 @@ Ausgabe
 
 ### Testversandvalidierung
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | Genehmigende Entscheidung |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-### Satz
+### Rate
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | rateValue <sup>1</sup> |  |  |  |  |  |   |
 
@@ -278,7 +285,7 @@ Ausgabe
 
 ### Aufgabe
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | Kanban-Flag |   |   |   |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
@@ -290,7 +297,7 @@ Ausgabe
 
 ### Team
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | hoursPerPoint <sup>1</sup> |   |   |   |   |   |   |
 
@@ -300,7 +307,7 @@ Ausgabe
 
 ### TeamAssignment
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | `masterTaskID` |   |   |   |   |   |   |
 
@@ -308,7 +315,7 @@ Ausgabe
 
 ### Teamaufgabe
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | `masterTaskID` |   |   |   |   |   |   |
 
@@ -316,7 +323,7 @@ Ausgabe
 
 ### Arbeitszeittabelle
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |   |   |
 
@@ -324,7 +331,7 @@ Ausgabe
 
 ### Aktualisieren
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | updateType `<sup>1</sup>` |   |   |   |   |   | objectUpdatesWithNoteAndJournalEntryIndex  |
 
@@ -334,7 +341,7 @@ Ausgabe
 
 ### Benutzerin oder Benutzer
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 |   | accessLevel  |   |   |   |   |   |
 
@@ -342,7 +349,7 @@ Ausgabe
 
 ### UserNote
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | eventType <sup>1</sup> |   |   |   |   |   |   |
 
@@ -352,7 +359,7 @@ Ausgabe
 
 ### Arbeit
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | Kanban-Flag |  |  | PendingApproval <sup>1</sup>  |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
@@ -366,11 +373,11 @@ Ausgabe
 
 ### ResourceBudgetedHour
 
-| Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
+| Felder | Referenzen | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | allocationDate |   |   |   |   |   | HINZUFÜGEN  |
 | budgetierte Stunden |   |   |   |   |   | ANZAHL  |
-| ID |   |   |   |   |   | DELETE  |
+| ID |   |   |   |   |   | LÖSCHEN  |
 | geplante budgetierte Stunden |   |   |   |   |   | BEARBEITEN  |
 | projectID |   |   |   |   |   | GET  |
 | roleID |   |   |   |   |   | BERICHT  |

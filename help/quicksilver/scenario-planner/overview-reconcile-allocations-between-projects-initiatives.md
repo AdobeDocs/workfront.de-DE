@@ -2,18 +2,23 @@
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: Übersicht über die Abstimmung der Ressourcenzuteilungen zwischen Projekten und Initiativen
-description: Übersicht über die Abstimmung der Ressourcenzuweisungen zwischen Projekten und Initiativen
+description: Überblick über die Abstimmung der Ressourcenzuteilungen zwischen Projekten und Initiativen
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 82cd9641-1213-436c-935a-2f04a0425e9c
-source-git-commit: 86ee649cdf0ac04230035a94a1326c45b67d36d2
+TQID: https://experienceleague.adobe.com/5f7nqfiPgToyiGZykzR61M0VKrqpWdu-Ge9vrYIb7Lo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 0%
+source-wordcount: 526
+ht-degree: 5%
 
 ---
 
-# Übersicht über die Abstimmung der Ressourcenzuweisungen zwischen Projekten und Initiativen
+# Überblick über die Abstimmung der Ressourcenzuteilungen zwischen Projekten und Initiativen
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: two more articles were added to split content from here according to where the reconciling can happen) </p>

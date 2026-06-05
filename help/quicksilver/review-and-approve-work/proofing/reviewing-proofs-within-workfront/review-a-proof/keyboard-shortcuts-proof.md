@@ -1,19 +1,24 @@
 ---
 product-area: documents
 navigation-topic: review-a-proof
-title: Tastaturbefehle in der Korrekturabzugsansicht
+title: Tastaturbefehle im Proofing Viewer
 description: Die in diesem Artikel beschriebenen Tastaturbefehle sind sowohl im Web Proofing Viewer als auch im Desktop Proofing Viewer verfügbar.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 5a408439-9767-4d68-be04-034f0bce275a
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+TQID: https://experienceleague.adobe.com/KaPjGHbES--UPqcVBW9yiZsne-MTeA6Ykcs--UnozWw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 1%
+source-wordcount: 348
+ht-degree: 7%
 
 ---
 
-# Tastaturbefehle in der Korrekturabzugsansicht
+# Tastaturbefehle im Proofing Viewer
 
 Die in diesem Artikel beschriebenen Tastaturbefehle sind sowohl im Web Proofing Viewer als auch im Desktop Proofing Viewer verfügbar. 
 
@@ -98,7 +103,7 @@ Die in diesem Artikel beschriebenen Tastaturbefehle sind sowohl im Web Proofing 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>fn+Nach-rechts-Taste</p> <p>Oder</p> <p>Endtaste</p> </td> 
+   <td> <p>fn+Nach-rechts-Taste</p> <p>ODER</p> <p>Endtaste</p> </td> 
    <td> <p>Zum Ende des Videos springen</p> </td> 
    <td> <p> </p> </td> 
   </tr> 
@@ -134,13 +139,13 @@ Die in diesem Artikel beschriebenen Tastaturbefehle sind sowohl im Web Proofing 
   </tr> 
   <tr> 
    <td> <p><strong>Mac:</strong> cmd++ <br>Oder <br>cmd+Umschalt+Bildlauf nach oben</p> <p><strong>Windows:</strong> Strg++</p> </td> 
-   <td> <p> Einzoomen</p> </td> 
-   <td> <p>Einzoomen </p> </td> 
+   <td> <p> Heranzoomen</p> </td> 
+   <td> <p>Heranzoomen </p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Mac:</strong> cmd+- <br>Oder <br>cmd+Umschalt+Scroll nach unten</p> <p><strong>Windows:</strong> Strg+-</p> </td> 
-   <td> <p>Verkleinern </p> </td> 
-   <td> <p>Verkleinern</p> </td> 
+   <td> <p>Herauszoomen </p> </td> 
+   <td> <p>Herauszoomen</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Windows:</strong> Halten Sie beim Ziehen eines Bildes die Leertaste gedrückt.</p> </td> 

@@ -6,9 +6,14 @@ description: Wenn Ihnen ein Korrekturabzug zur Genehmigung zugewiesen wird, wird
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4ab8dfd0-0a1f-425d-9e05-8e8134ce930a
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/50PA5RHzFX275EI4nPAZ-b9P8Xx0Ia9dlgB1JHAd6-s
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: 768
 ht-degree: 0%
 
 ---
@@ -28,7 +33,7 @@ Ihr Zugriff auf die Überprüfung und Genehmigung von Korrekturabzügen entspric
    * Wählen Sie die Genehmigungsaufgabe für Korrekturabzüge im Bereich [!UICONTROL Genehmigungen] von [!UICONTROL Meine Arbeit] aus.
 
      ![Abschnitt Meine Arbeitsgenehmigungen](assets/mobile-mywork-approvals-338x482.png)\
-      Oder
+      ODER
 
    * Wählen **[!UICONTROL Alle Genehmigungen anzeigen]** im Bereich [!UICONTROL Genehmigungen] von [!UICONTROL Meine Arbeit] aus. Wählen Sie dann die Aufgabe Testversand-Genehmigung in der Liste aller Genehmigungen aus.
 

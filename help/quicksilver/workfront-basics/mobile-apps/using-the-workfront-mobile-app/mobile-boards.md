@@ -1,15 +1,20 @@
 ---
 product-previous: mobile
 navigation-topic: mobile-apps
-title: Adobe Workfront Boards für Mobilgeräte
+title: Adobe Workfront-Pinnwände für Mobilgeräte
 description: In  [!DNL Workfront]  Mobile App können Sie alle Boards sehen, die Sie erstellt haben oder die in der Desktop-Version von hinzugefügt wurden [!DNL Workfront].
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 34a009f6-6b4f-43ee-9689-2b9d1876db07
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/ZwsNEdfQOIponHOPGKgux7II5ovrFo5glAq2lWXRHcE
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 0%
+source-wordcount: 1047
+ht-degree: 1%
 
 ---
 
@@ -99,7 +104,7 @@ Eine Ad-hoc-Karte ist nicht mit einer Workfront-Aufgabe oder -Anfrage verbunden.
 
 1. (Optional) Um eine Karte zu löschen, wählen Sie das Menü [!UICONTROL **Mehr**] ![Mehr](assets/more-icon-spectrum.png) auf der Karte und wählen Sie [!UICONTROL **Löschen**]. Wählen Sie dann [!UICONTROL **Bestätigungsmeldung**] Löschen“ aus.
 
-## Checklistenelemente auf Karten verwalten
+## Verwalten von Checklistenelementen auf Karten
 
 Checklisten-Elemente sind sowohl auf Ad-hoc- als auch auf verbundenen Karten verfügbar.
 

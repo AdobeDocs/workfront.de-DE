@@ -7,10 +7,21 @@ description: Sie können eine Echtzeitansicht der zugeordneten Metadaten im Bedi
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: cfad5855-033c-4a15-b5a2-7ff32ed65fe9
-source-git-commit: 4a0448583cbcfd1f1df10d6474fdf4e77e7bff3e
+TQID: https://experienceleague.adobe.com/qLz7SnubnOZKoh1J66yIHui8fessEmy80fdrGKq2t4k
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 1%
+source-wordcount: 328
+ht-degree: 18%
 
 ---
 
@@ -20,7 +31,7 @@ Sie können eine Echtzeitansicht der zugeordneten Metadaten im Bedienfeld Dokume
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table>
   <tr>
@@ -33,8 +44,8 @@ Sie können eine Echtzeitansicht der zugeordneten Metadaten im Bedienfeld Dokume
    <td><strong>Adobe Workfront-Lizenzen</strong>
    </td>
    <td>
-   <p>Mitwirkender oder höher</p>
-   <p>Anfrage oder höher</p>
+   <p>Mitwirkende oder höher</p>
+   <p>Anfragende oder höher</p>
    </td>
   </tr>
   <tr>
@@ -46,7 +57,7 @@ Sie können eine Echtzeitansicht der zugeordneten Metadaten im Bedienfeld Dokume
   <tr>
    <td><strong>Konfigurationen der Zugriffsebene</strong>
    </td>
-   <td><p>Zugriff auf Dokumente bearbeiten</p>
+   <td><p>Zugriffrecht „Bearbeiten“ für Dokumente</p>
    </td>
   </tr>
   <tr>
@@ -58,7 +69,7 @@ Sie können eine Echtzeitansicht der zugeordneten Metadaten im Bedienfeld Dokume
 </table>
 
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

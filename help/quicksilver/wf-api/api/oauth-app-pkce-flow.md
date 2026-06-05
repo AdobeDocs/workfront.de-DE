@@ -7,14 +7,24 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 61fe77b6-c6d7-4f23-bfb6-617bccaa1989
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/qBZFtRLkYCfnIVzOvX4ygc-KiAsJ9R9445hRsCF--G8
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 0%
+source-wordcount: 817
+ht-degree: 2%
 
 ---
 
-# Konfigurieren und verwenden Sie die benutzerdefinierten OAuth 2-Anwendungen Ihres Unternehmens mithilfe des PKCE-Flusses
+# Konfigurieren und Verwenden von benutzerdefinierten OAuth 2-Anwendungen Ihrer Organisation mithilfe des PKCE-Flusses
 
 PKCE ist ein sicherer Autorisierungsfluss, der gut mit dynamisch aktualisierten Programmen wie mobilen Apps funktioniert, aber für alle OAuth2-Clients nützlich ist. Anstelle eines statischen Client-Geheimnisses verwendet PKCE eine dynamisch generierte Zeichenfolge, wodurch das Risiko eines Lecks des Client-Geheimnisses vermieden wird.
 
@@ -125,7 +135,7 @@ Beachten Sie die Parameter, die übergeben werden:
 
 ## Code gegen Token austauschen
 
-Um den Autorisierungs-Code gegen ein Zugriffstoken einzutauschen, übergeben Sie ihn zusammen mit dem `/token` an den `code_verifier`-Endpunkt Ihres Autorisierungsservers.
+Um den Autorisierungs-Code gegen ein Zugriffstoken einzutauschen, übergeben Sie ihn zusammen mit dem `code_verifier` an den `/token`-Endpunkt Ihres Autorisierungsservers.
 
 >[!INFO]
 >

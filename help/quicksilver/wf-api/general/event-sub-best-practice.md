@@ -7,13 +7,21 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: 3a538a15daad5fa0dced8d45bb260d6087be81ff
+TQID: https://experienceleague.adobe.com/uT7erlnJR5-h-KKGQiuztzZKBtwtEvWQ8U-EUgN4TG4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 15%
+source-wordcount: 356
+ht-degree: 23%
 
 ---
-
 
 # Best Practices für Ereignisabonnements
 
@@ -30,9 +38,9 @@ Stellen Sie sicher, dass alle erforderlichen Felder für den Anfragetext für di
 
 Fügen Sie in die Anfrage keine zusätzlichen Textfelder ein, da dies dazu führt, dass die API kein Abonnement erstellen kann.
 
-## Überlastung von Ereignisabonnements vermeiden
+## Vermeiden einer Überlastung von Ereignisabonnements
 
-Der Service für Ereignisabonnements ist dafür konzipiert, einen zuverlässigen Versand von Ereignissen für alle Benutzer bereitzustellen. Damit dies sichergestellt wird, wurden Schutzmaßnahmen eingeführt, um eine übermäßige Ereignisproduktion durch eine einzelne Person zu verhindern, die potenziell die Service-Qualität für alle Benutzenden beeinträchtigen könnte. Daher kann es bei Benutzenden, die innerhalb eines kurzen Zeitraums zu viele Ereignisse mit hoher Rate produzieren, zu Sandboxing und zu Verzögerungen bei der Ereignisbereitstellung kommen.
+Der Ereignisabonnementdienst wurde entwickelt, um für alle Benutzenden eine zuverlässige Bereitstellung von Ereignissen zu gewährleisten. Damit dies sichergestellt wird, wurden Schutzmaßnahmen eingeführt, um eine übermäßige Ereignisproduktion durch eine einzelne Person zu verhindern, die potenziell die Service-Qualität für alle Benutzenden beeinträchtigen könnte. Daher kann es bei Benutzenden, die innerhalb eines kurzen Zeitraums zu viele Ereignisse mit hoher Rate produzieren, zu Sandboxing und zu Verzögerungen bei der Ereignisbereitstellung kommen.
 
 ## Vollständige Tests innerhalb der Übergangsphase
 
@@ -50,7 +58,7 @@ Um Payloads von Ereignisabonnements über Ihre Firewall zu erhalten, müssen Sie
 
 Um ein Ereignisabonnement zu erstellen, abzufragen oder zu löschen, benötigt Ihr Workfront-Benutzer Folgendes:
 
-* Zugriffsebene von **Systemadministrator**
+* Eine Zugriffsebene von **Systemadministrator**
 Weitere Informationen finden Sie unter [Gewähren des vollständigen administrativen Zugriffs für einen Benutzer](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) oder [Gewähren des administrativen Zugriffs für bestimmte Bereiche](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 * Wenn Ihr Unternehmen Adobe IMS (Identity Management-System) verwendet, schließen Sie ein IMS-Benutzer-Token ein, das in der `X-User-Token`-Kopfzeile übergeben wird.

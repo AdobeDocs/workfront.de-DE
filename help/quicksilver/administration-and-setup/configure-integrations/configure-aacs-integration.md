@@ -6,11 +6,24 @@ description: Sie können Ihre Arbeit mit Ihren Inhalten in  [!DNL Experience Man
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+TQID: https://experienceleague.adobe.com/URGZIZPNbkj-wshinxLbaj2AFhWtXG-KPvNyz-5mkcw
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: 1733
 ht-degree: 2%
 
 ---
@@ -193,7 +206,7 @@ Zuordnen von Metadaten für Assets:
 <!--
 1. Select **[!UICONTROL Assets]** above the metadata table.
 -->
-1. Wählen Sie in der **[!UICONTROL [!DNL Workfront]&quot;]**&quot; ein integriertes oder ein benutzerdefiniertes Workfront-Feld aus.
+1. Wählen Sie in der **&quot;**&#x200B;[!DNL Workfront]&quot; ein integriertes oder ein benutzerdefiniertes Workfront-Feld aus.
 
    >[!NOTE]
    >
@@ -281,7 +294,7 @@ Sie können pro Ordnerstruktur bis zu 100 verknüpfte Ordner erstellen.
       >   `/`, `:`, `[`, `]`, `|`, `*`
 
    1. Um einen verschachtelten Ordner zur Ordnerstruktur hinzuzufügen, klicken Sie auf das Dreipunkt-Menü neben dem Ordner, in dem Sie einen verschachtelten Ordner erstellen möchten, und wählen Sie **Ordner hinzufügen**. Füllen Sie die Felder wie im vorherigen Schritt beschrieben aus.
-   1. Um einen Ordner mit Workfront zu verknüpfen, wählen Sie den Ordner aus und klicken Sie auf **Verknüpften Ordner erstellen**   Symbol ![Verknüpfungsordner](assets/link-folder.png).
+   1. Um einen Ordner mit Workfront zu verknüpfen, wählen Sie den Ordner aus und klicken Sie auf das **Verknüpften Ordner erstellen**-Symbol ![Ordner verknüpfen](assets/link-folder.png).
    1. (Optional) Um einen Ordner zu bearbeiten, wählen Sie den Ordner aus und klicken Sie auf das **Ordner bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png).
    1. (Optional) Um einen Ordner zu löschen, wählen Sie den Ordner aus und klicken Sie auf das Symbol **Ordner löschen** ![Ordner löschen](assets/delete-folder.png).
 1. (Bedingt) Um eine weitere Ordnerstruktur hinzuzufügen, klicken Sie auf **+ Ordnerstruktur hinzufügen** führen Sie die Schritte in Schritt 5 aus.
@@ -308,7 +321,7 @@ Sie können pro Ordnerstruktur bis zu 100 verknüpfte Ordner erstellen.
 
 ## Verknüpfte Ordner einrichten (optional)
 
-Sie können Benutzern erlauben, in einem [!DNL Experience Manager] Projekt Ordner zu erstellen, die mit [!DNL Workfront] verknüpft sind. Wenn ein Ordner verknüpft ist, wird jedes zum Ordner hinzugefügte Asset automatisch sowohl in [!DNL Workfront] als auch in [!DNL Experience Manager] angezeigt. Wenn ein Asset zum ersten Mal zum verknüpften Ordner in [!DNL Workfront] hinzugefügt wird, werden die Metadaten des Assets an [!DNL Experience Manager Assets] gesendet.
+Sie können Benutzern erlauben, in einem [!DNL Workfront] Projekt Ordner zu erstellen, die mit [!DNL Experience Manager] verknüpft sind. Wenn ein Ordner verknüpft ist, wird jedes zum Ordner hinzugefügte Asset automatisch sowohl in [!DNL Workfront] als auch in [!DNL Experience Manager] angezeigt. Wenn ein Asset zum ersten Mal zum verknüpften Ordner in [!DNL Workfront] hinzugefügt wird, werden die Metadaten des Assets an [!DNL Experience Manager Assets] gesendet.
 
 In den folgenden Schritten geben Sie an, wo die verknüpften Ordner erstellt werden sollen. Jede Integration kann für alle verknüpften Ordner nur einen Speicherort haben.
 

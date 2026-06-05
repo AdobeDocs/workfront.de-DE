@@ -5,9 +5,9 @@ title: Adobe Workfront MCP-Server-Tools
 description: Referenzliste der über den Adobe Workfront MCP-Server verfügbaren Tools, gruppiert nach Workfront-Bereich.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 6301888b4d758fbf8a60c2698f800395618bb527
+source-git-commit: a2b2da49e9aba808dc7567bd5a7f29adeb381c1d
 workflow-type: tm+mt
-source-wordcount: '1582'
+source-wordcount: '1559'
 ht-degree: 6%
 
 ---
@@ -67,8 +67,11 @@ Wenn die KI-Agentenplattform Workfront-Elemente finden, diese jedoch nicht erste
 | Informationen zum Genehmigungs-Workflow abrufen | `approvals_get_approval_info` | Gibt den aktuellen Genehmigungs-Workflow (Phasen, Teilnehmer, Status) für eine Dokumentversion aus. | Lesen |
 | Genehmigungs-Workflow erstellen oder aktualisieren | `approvals_create_or_update_approval_workflow` | Erstellt oder aktualisiert die Genehmigungs-Workflow-Phasen für eine Dokumentversion. Unterstützt lineare und parallele (Graph-)Stufenabhängigkeiten. | Schreiben |
 | Genehmigung aus Vorlage erstellen | `approvals_create_approval_from_template` | Erstellt einen Genehmigungs-Workflow für ein Dokument unter Verwendung einer vorhandenen Vorlage. | Schreiben |
-| Dokumentgenehmigung anfordern | `approvals_request_document_approval` | Öffnet ein geführtes Formular zum Anfordern von Genehmigungen für eine Dokumentversion (Titel, genehmigende Personen/Prüfer, optionales Fälligkeitsdatum und Meldung). | Schreiben |
 | Genehmigungsphase löschen | `approvals_delete_approval_stage` | Löscht eine einzelne Phase aus einem Genehmigungs-Workflow nach Name oder Position. Nur nicht gestartete Stadien können gelöscht werden. | Schreiben |
+
+<!--
+| Request document approval | `approvals_request_document_approval` | Opens a guided form for requesting approval on a document version (title, approvers/reviewers, optional due date and message). | Write |
+-->
 
 ### Reminders
 
@@ -201,3 +204,4 @@ Wir arbeiten daran, dem Workfront MCP-Server in Zukunft die folgenden Tools hinz
 
 * Kommentare
 * Pinnwände
+

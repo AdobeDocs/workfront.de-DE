@@ -1,23 +1,33 @@
 ---
 product-area: documents
 navigation-topic: review-a-proof
-title: Steuern der Wiedergabe in einem Videobeweis
+title: Steuern der Wiedergabe in einem Video-Korrekturabzug
 description: Erfahren Sie, wie Sie die Wiedergabe in einem Video-Korrekturabzug steuern.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e1dce216-c41d-447b-b5b0-64b04b4132ff
-source-git-commit: 385f4a6663cacfdcf519bf5699fc1840c2cb2adc
+TQID: https://experienceleague.adobe.com/Z9ryMoqlFWfUg9-Hg2MfeLUYSk-IWnbzei1yAnXe32w
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 2%
+source-wordcount: 296
+ht-degree: 18%
 
 ---
 
-# Steuern der Wiedergabe in einem Videobeweis
+# Steuern der Wiedergabe in einem Video-Korrekturabzug
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,17 +46,17 @@ ht-degree: 2%
    <td>Prüfer, Prüfer und genehmigende Person, Autor, Moderator</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof-Berechtigungsprofil </td> 
+   <td role="rowheader">Korrekturabzug-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> </td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -86,6 +96,6 @@ Sie können die Lautstärke bei der Videowiedergabe einstellen.
 
    ![Volumen](assets/phq-viewer-volume.png)
 
-   Oder
+   ODER
 
    Klicken Sie auf **Lautstärkesymbol**, um die Stummschaltung der Lautstärke zu aktivieren und aufzuheben.

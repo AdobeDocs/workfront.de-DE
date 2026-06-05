@@ -1,19 +1,28 @@
 ---
 product-area: projects
 navigation-topic: recent-and-favorites
-title: Favoriten anzeigen und verwalten
+title: Anzeigen und Verwalten von Favoriten
 description: Das Menü Favoriten ermöglicht einen schnellen Zugriff auf Elemente. Elemente bleiben im Favoritenmenü, bis Sie sie entfernen. Im Menü Favoriten können bis zu 40 Elemente angezeigt werden.
 feature: Get Started with Workfront
 author: Courtney
 exl-id: bf9dc447-751c-4802-9e6a-ecd31538dba4
-source-git-commit: f0b3b8aa64fa0b03a196bbcc2bdd037eeeb0f89e
+TQID: https://experienceleague.adobe.com/S0cPTosyBInMh-Pji9TY1JEtsHB7lyTNlMlM6-M-yNQ
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 0%
+source-wordcount: 375
+ht-degree: 13%
 
 ---
 
-# Favoriten anzeigen und verwalten
+# Anzeigen und Verwalten von Favoriten
 
 <!-- Audited: 5/2025 -->
 
@@ -21,7 +30,7 @@ Das [!UICONTROL Favoriten] Menü ermöglicht den schnellen Zugriff auf Elemente.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,13 +45,13 @@ Das [!UICONTROL Favoriten] Menü ermöglicht den schnellen Zugriff auf Elemente.
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>
-      <p>Mitwirkender oder höher<p>
-      <p>Anfrage oder höher</td> 
+      <p>Mitwirkende oder höher<p>
+      <p>Anfragende oder höher</td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -86,6 +95,6 @@ Sie können dem Menü [!UICONTROL Favoriten“ die letzten Elemente oder die akt
 
 1. Bewegen Sie den Mauszeiger über das Element, das Sie als Favorit entfernen möchten, und klicken Sie dann auf **X** daneben.
 
-   Oder
+   ODER
 
    Wenn Sie sich auf der Seite befinden, die Sie als Favorit entfernen möchten, klicken Sie auf das Symbol **[!UICONTROL Favoriten]** ![Favoritensymbol](assets/remove-favorite-icon.png) neben dem Objektnamen, um es aus dem Menü **Favoriten** zu entfernen.

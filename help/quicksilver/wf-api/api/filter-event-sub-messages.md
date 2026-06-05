@@ -2,20 +2,27 @@
 filename: filter-event-sub-messages
 content-type: api
 navigation-topic: api-navigation-topic
-title: Nachrichten zu Ereignisabonnements filtern
-description: Nachrichten zu Ereignisabonnements filtern
+title: Filtern von Nachrichten zu Ereignisabonnements
+description: Filtern von Nachrichten zu Ereignisabonnements
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 8364c4b9-5604-47ab-8b4b-db6836dcd8ca
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+TQID: https://experienceleague.adobe.com/BJyCmAyuNBT-b8wscY66X9w4g6tq0TYh3NshJZjNy6o
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1767'
+source-wordcount: 1843
 ht-degree: 0%
 
 ---
 
-# Nachrichten zu Ereignisabonnements filtern
+# Filtern von Nachrichten zu Ereignisabonnements
 
 Sie können zwischengeschaltete Verarbeitungskomponenten erstellen, mit denen Sie nur die Ereignisabonnementnachrichten filtern und verarbeiten können, die Ihr Unternehmen benötigt.
 

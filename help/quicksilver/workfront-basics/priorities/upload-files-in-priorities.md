@@ -1,19 +1,29 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Hochladen von Dateien in den Prioritäten
+title: Hochladen von Dateien in „Prioritäten“
 description: Sie können Dateien aus der Arbeitsliste „Prioritäten“ oder aus einzelnen Arbeitselementen hochladen. Dateien, die über Prioritäten hochgeladen wurden, werden auf der Registerkarte Dokumente des Arbeitselements angezeigt.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/NCFVKM2w48sXJ6UhT13372feWIxLhyUz7on6cyJLUO4
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 4%
+source-wordcount: 309
+ht-degree: 19%
 
 ---
 
-# Hochladen von Dateien in den Prioritäten
+# Hochladen von Dateien in „Prioritäten“
 
 Sie können Dateien aus der Arbeitsliste „Prioritäten“ oder aus einzelnen Arbeitselementen hochladen. Dateien, die über Prioritäten hochgeladen wurden, werden auf der Registerkarte Dokumente des Arbeitselements angezeigt.
 
@@ -21,7 +31,7 @@ Mit Priorität werden die Ihnen zugewiesenen Arbeitselemente angezeigt. Sie kön
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,12 +44,12 @@ Mit Priorität werden die Ihnen zugewiesenen Arbeitselemente angezeigt. Sie kön
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen*</td> 
    <td> 
-   <p>Mitwirkender oder höher</p> 
-   <p>Anfrage oder höher</p> </td> 
+   <p>Mitwirkende oder höher</p> 
+   <p>Anfragende oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td> <p>Zugriffrecht „Bearbeiten“ für Dokumente</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +63,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 {{step1-to-priorities}}
 
 1. Bewegen Sie den Mauszeiger über den Namen und klicken Sie dann auf das Symbol **Mehr** ![Mehr](assets/more-icon.png) .
-1. Klicken Sie **Hochladen**.
+1. Klicken Sie auf **Hochladen**.
    ![Update, Protokollierungszeit und Upload](assets/update-log-upload.png)
 1. (Optional) Wählen Sie im Feld **Dateien**&quot; einen Ordner aus.
 1. Datei per Drag-and-Drop verschieben oder Befehl/Strg+V aus der Zwischenablage einfügen
@@ -66,7 +76,7 @@ Klicken Sie **Dateien hinzufügen**, um Dateien zu durchsuchen oder von einem Do
    >[!NOTE]
    >
    >Zusätzliche Dateien werden als separate Dokumente hochgeladen.
-1. Klicken Sie **Hochladen**.
+1. Klicken Sie auf **Hochladen**.
 
 ## Hochladen einer Datei in ein Arbeitselement
 
@@ -90,4 +100,4 @@ Klicken Sie **Dateien hinzufügen**, um Dateien zu durchsuchen oder von einem Do
    >
    >Zusätzliche Dateien werden als separate Dokumente hochgeladen.
 
-1. Klicken Sie **Hochladen**.
+1. Klicken Sie auf **Hochladen**.

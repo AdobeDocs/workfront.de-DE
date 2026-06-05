@@ -1,19 +1,26 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: HIPAA-Bereitschaft für Workfront
+title: HIPAA-Bereitschaft von Workfront
 description: Ein Workfront-Kunde, der gemäß der Definition in HIPAA ein Business Associate und/oder die abgedeckte Entität ist, für die der Business Associate Adobe Workfront bereitstellt, sollte die folgenden Richtlinien verwenden, um Workfront für die HIPAA-fähige Verwendung zu konfigurieren.
 feature: Get Started with Workfront
 author: Courtney
 exl-id: e3cdaa03-d523-46a4-954b-8456d5f190e4
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/l-NtMh5XxyfqH8jX87OPwwYbE8Qg2i5-vFK1tvdzuh0
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 0%
+source-wordcount: 457
+ht-degree: 2%
 
 ---
 
-# HIPAA-Bereitschaft für Workfront
+# HIPAA-Bereitschaft von Workfront
 
 Ein Workfront-Kunde, der gemäß der Definition in HIPAA ein Business Associate und/oder die abgedeckte Entität ist, für die der Business Associate Adobe Workfront bereitstellt, sollte die folgenden Richtlinien verwenden, um Workfront für die HIPAA-fähige Verwendung zu konfigurieren:
 
@@ -59,7 +66,7 @@ Insbesondere sollten die folgenden Zuständigkeiten und Pflichten überprüft un
 
 >[!IMPORTANT]
 >
->Workfront ist nicht als Repository für elektronische Patientenakten (EHR) konzipiert. ePHI darf nur verarbeitet werden, wenn Adobe dies ausdrücklich schriftlich genehmigt hat. 
+>Workfront ist nicht als Repository für elektronische Patientenakten (EHRs) konzipiert. ePHI darf nur verarbeitet werden, wenn Adobe dies ausdrücklich schriftlich genehmigt. 
 
 * Stellen Sie für jede Workfront-Datenbank, auf die ePHI zugreifen kann **sicher, dass „Encryption at Rest (EAR)** aktiviert ist.
    * Wenden Sie sich an Ihren Kundenbetreuer, um zu bestätigen, dass EAR in Ihrem Workfront-Kauf enthalten ist.

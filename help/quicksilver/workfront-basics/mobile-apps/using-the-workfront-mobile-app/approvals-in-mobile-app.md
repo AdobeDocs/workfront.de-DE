@@ -6,16 +6,21 @@ description: Sie können über den Bereich Genehmigungen in der Mobile App [!UIC
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 92259a17-209b-4bc1-8c14-826969b08a63
-source-git-commit: c711541f3e166f9700195420711d95ce782a44b2
+TQID: https://experienceleague.adobe.com/gHOishp5DInktXg4JXo73IGOSJCTfYGtzYirRPnqR-Y
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: 264
 ht-degree: 3%
 
 ---
 
 # Validierungen in der [!DNL Adobe Workfront] Mobile App
 
-Über den Bereich [!UICONTROL Genehmigungen“ in der Mobile App von &#x200B;] können Sie [!DNL Adobe Workfront] oder delegierte Genehmigungen verwalten. Im Bereich [!UICONTROL Genehmigungen] können Sie Folgendes genehmigen:
+Über den Bereich [!UICONTROL Genehmigungen“ in der Mobile App von [!DNL Adobe Workfront] können Sie &#x200B;] oder delegierte Genehmigungen verwalten. Im Bereich [!UICONTROL Genehmigungen] können Sie Folgendes genehmigen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -70,5 +75,5 @@ Korrekturabzüge folgen einem separaten Genehmigungsprozess. Sie können einen K
 
 1. (Optional) Wählen **[!UICONTROL Kommentar hinzufügen]** in der Bestätigungsmeldung am unteren Bildschirmrand aus, um der Entscheidung Kommentare hinzuzufügen. Diese Anmerkungen werden in den Aktualisierungen zur Genehmigung angezeigt.\
    ![Kommentar hinzufügen](assets/mobile-addcommenttoapproval-350x123.png)\
-   Oder\
+   ODER\
    Wählen Sie den Pfeil oben links im Bereich Genehmigungen aus, um zur Seite [!UICONTROL Genehmigungen“ &#x200B;] wechseln.

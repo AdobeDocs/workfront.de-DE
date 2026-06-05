@@ -1,19 +1,33 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Arbeitszeittabellen-Informationen bearbeiten
+title: Bearbeiten von Informationen in Arbeitszeittabellen
 description: Benutzende mit administrativem Zugriff auf Arbeitszeittabellen können Informationen zu bestehenden Arbeitszeittabellen in Adobe Workfront bearbeiten. Sie können beispielsweise den Eigentümer, die genehmigenden Personen oder den Zeitrahmen der Arbeitszeittabelle bearbeiten.
 author: Lisa
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+TQID: https://experienceleague.adobe.com/--QshuygnTfcEJtt6-Tx-2QtNT-5p9TrTWaQTMBZNAg
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 1%
+source-wordcount: 751
+ht-degree: 7%
 
 ---
 
-# Arbeitszeittabellen-Informationen bearbeiten
+# Bearbeiten von Informationen in Arbeitszeittabellen
 
 Benutzende mit administrativem Zugriff auf Arbeitszeittabellen können Informationen zu bestehenden Arbeitszeittabellen in Adobe Workfront bearbeiten. Sie können beispielsweise den Eigentümer, die genehmigenden Personen oder den Zeitrahmen der Arbeitszeittabelle bearbeiten.
 
@@ -25,7 +39,7 @@ Sie können Informationen auf einer einzigen Arbeitszeittabelle bearbeiten oder 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto">
  <col> 
@@ -39,7 +53,7 @@ Sie können Informationen auf einer einzigen Arbeitszeittabelle bearbeiten oder 
    <td>Adobe Workfront-Lizenz</td> 
    <td>
    <p>Standard</p>
-   <p>Plan</p></td>
+   <p>Abo</p></td>
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
@@ -48,7 +62,7 @@ Sie können Informationen auf einer einzigen Arbeitszeittabelle bearbeiten oder 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 
@@ -66,7 +80,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    * Wählen Sie **Meine Arbeitszeittabellen-Genehmigungen** in der rechten oberen Ecke der Seite aus, um nur die von Ihnen genehmigten Arbeitszeittabellen anzuzeigen
 
-     Oder
+     ODER
 
      Wählen Sie **Meine Arbeitszeittabellen** aus, um nur Ihre Arbeitszeittabellen anzuzeigen.
 

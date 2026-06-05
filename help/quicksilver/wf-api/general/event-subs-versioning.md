@@ -7,10 +7,17 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: f34f48d974db200d9ce1815c805885707ab27f6d
+TQID: https://experienceleague.adobe.com/cJnPxNppHK0lh8A6GQKNoUCCBrRUKdMvU3ym6zdHCXo
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '1288'
-ht-degree: 0%
+source-wordcount: 1055
+ht-degree: 17%
 
 ---
 
@@ -18,12 +25,12 @@ ht-degree: 0%
 
 Workfront verfügt über zwei Versionen von Ereignisabonnements. Dieser Artikel beschreibt die Unterschiede zwischen ihnen.
 
-Die neue Version ist keine Änderung der Workfront-API, sondern eine Änderung der Ereignisabonnementfunktion.
+Die neue Version bewirkt keine Änderung der Workfront-API, sondern der Ereignisabonnementfunktion.
 
-Die Möglichkeit, Ereignisabonnements zu aktualisieren oder herabzustufen, stellt sicher, dass vorhandene Abonnements nicht beschädigt werden, wenn Änderungen an der Ereignisstruktur vorgenommen werden, sodass Sie ohne Lücke in Ihrem Ereignisabonnement testen und auf die neue Version aktualisieren können.
+Durch die Möglichkeit, Ereignisabonnements zu aktualisieren oder herabzustufen, wird sichergestellt, dass bei Änderungen an der Struktur von Ereignissen bestehende Abonnements nicht unterbrochen werden. So können Sie ohne Unterbrechung Ihres Ereignisabonnements die neue Version testen.
 
 
-Wenn Sie Ihr Ereignisabonnement auf eine andere Version aktualisieren oder herunterstufen, erhalten Sie nach der Versionsänderung für jeden Ereignisversand für ein Zeitfenster von fünf Minuten doppelte Ereignisse. Die Duplikate enthalten je eines der Ereignisabonnements, Version 1 und Version 2. Dadurch wird sichergestellt, dass Sie keine Ereignisse aufgrund einer Änderung der Ereignisabonnementversion verpassen.
+Wenn Sie Ihr Ereignisabonnement auf eine andere Version aktualisieren oder herabstufen, erhalten Sie für jede Ereigniszustellung während eines Zeitfensters von fünf Minuten nach der Versionsänderung doppelte Ereignisse. Die Duplikate enthalten je eines der Ereignisabonnements, Version 1 und Version 2. Dadurch wird sichergestellt, dass Sie keine Ereignisse aufgrund einer Änderung der Version des Ereignisabonnements verpassen.
 
 Informationen zu den Endpunkten, die zum Aktualisieren oder Herunterstufen von Ereignisabonnements verwendet werden, finden Sie [Ereignisabonnement-Versionierung](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) im Artikel Ereignisabonnement-API.
 
@@ -90,7 +97,7 @@ Die folgenden Änderungen wurden für Ereignisabonnements Version 2 vorgenommen:
  </thead> 
  <tbody> 
   <tr> 
-   <th rowspan="1">ZUWEISEN</th> 
+   <th rowspan="1">ASSGN</th> 
    <td>
     <ul>
      <li><code>projectID</code></li>
@@ -105,7 +112,7 @@ Die folgenden Änderungen wurden für Ereignisabonnements Version 2 vorgenommen:
    </td> 
   </tr> 
   <tr> 
-   <th rowspan="2">DOKU</th> 
+   <th rowspan="2">DOCU</th> 
    <td>
     <ul>
      <li><code>referenceObjID</code></li>
@@ -141,7 +148,7 @@ Die folgenden Änderungen wurden für Ereignisabonnements Version 2 vorgenommen:
 </td> 
   </tr> 
   <tr> 
-   <th rowspan="2">AUSGABEN</th> 
+   <th rowspan="2">EXPNS</th> 
   <td>
     <ul>
      <li><code>topReferenceObjCode</code></li>
@@ -181,7 +188,7 @@ Die folgenden Änderungen wurden für Ereignisabonnements Version 2 vorgenommen:
    </td> 
    <td>Wenn dieses Objekt gelöscht wurde, wurden die betroffenen Felder im <code>DELETE</code>-Ereignis fälschlicherweise wie im Status Vor <code>null</code> angezeigt. </td> 
    <td>Das <code>DELETE</code>-Ereignis zeigt die betroffenen Felder im Status Vor korrekt an.</td> 
-   <td>Keine. Das <code>DELETE</code> wird weiterhin gesendet, zeigt aber jetzt die korrekten Daten für die betroffenen Felder an. </td> 
+   <td>Kein. Das <code>DELETE</code> wird weiterhin gesendet, zeigt aber jetzt die korrekten Daten für die betroffenen Felder an. </td> 
   </tr> 
   <tr> 
    <th rowspan="2">OPTASK</th> 
@@ -228,7 +235,7 @@ Die folgenden Änderungen wurden für Ereignisabonnements Version 2 vorgenommen:
    <td>Keine. Wenn Sie über einen Filter für das betroffene Feld verfügen, erhalten Sie nur dann ein <code>UPDATE</code>, wenn sich dieses Feld tatsächlich geändert hat, nicht jedoch, wenn sich ein anderer Parameterwert geändert hat.
   </tr> 
   <tr> 
-   <th rowspan="2">AUFGABE</th> 
+   <th rowspan="2">TASK</th> 
   <td>
     <ul>
      <li><code>rootGroupID</code></li>
@@ -257,4 +264,4 @@ Workfront Fusion verwendet Ereignisabonnements, um auf Änderungen in Szenarien 
 
 Anweisungen zur Verwendung dieses Moduls finden Sie unter [Workfront-Module](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) in der Dokumentation zu Workfront Fusion.
 
-Ressourcen zum Beibehalten Ihrer Workfront Fusion-Szenarien während des Ereignisabonnement-Upgrades, einschließlich einer Webinar-Aufzeichnung, finden Sie unter [Beibehalten Ihrer Fusion-Szenarien während des Ereignissabonnement-Upgrades V2](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182?profile.language=de).
+Ressourcen zum Beibehalten Ihrer Workfront Fusion-Szenarios während des Ereignisabonnement-Upgrades, einschließlich einer Webinar-Aufzeichnung, finden Sie unter [Beibehalten Ihrer Fusion-Szenarios beim Upgrade auf Ereignisabonnements V2](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182?profile.language=de).

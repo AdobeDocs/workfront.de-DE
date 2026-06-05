@@ -2,19 +2,32 @@
 content-type: overview
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: Arbeitszeittabellen - Übersicht
+title: Überblick über Arbeitszeittabellen
 description: Sie können Arbeitszeittabellen verwenden, um die Zeit zu verfolgen, die Sie innerhalb und außerhalb von Adobe Workfront mit der Arbeit verbringen.
 author: Lisa
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
-source-git-commit: 69cd5fb1d089b81b7a1673609b92537137b6b68e
+TQID: https://experienceleague.adobe.com/VJQGCqYo3FZNceECWZrbsrTNX7jnKMZnIV1N4TQo9GA
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 0%
+source-wordcount: 515
+ht-degree: 3%
 
 ---
 
-# Arbeitszeittabellen - Übersicht
+# Überblick über Arbeitszeittabellen
 
 <!-- Audited: 12/2023 -->
 
@@ -41,7 +54,7 @@ Arbeitszeittabellen bieten Benutzenden eine einfache Möglichkeit, die Zeit für
 
   Wenn eine Ressource Stunden direkt für Aufgaben aufzeichnet, werden Probleme und Projekte außerdem automatisch angezeigt, wenn der Benutzer auf die Arbeitszeittabelle zugreift. Dabei wird davon ausgegangen, dass der Datumsbereich der Arbeitszeittabelle die Daten umfasst, an denen die Stunden aufgezeichnet wurden.
 
-* **Zeit ohne Projekt:** Direkt auf der Arbeitszeittabelle des Benutzers. Weitere Informationen zum Tracking der Zeit in Workfront finden Sie unter   [Zeit erfassen](../../timesheets/create-and-manage-timesheets/log-time.md).
+* **Zeit ohne Projekt:** Direkt auf der Arbeitszeittabelle des Benutzers. Weitere Informationen zum Nachverfolgen der Zeit in Workfront finden Sie unter [Zeit protokollieren](../../timesheets/create-and-manage-timesheets/log-time.md).
 
   Sie können auf einer Arbeitszeittabelle Urlaubszeiten, Krankenstunden, Stunden auf der Durchreise, Stunden mit der Reparatur oder Wartung von Geräten oder andere allgemeine Arbeitsstundentypen, die Sie erstellen möchten, aufzeichnen.
 
