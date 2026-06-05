@@ -10,26 +10,14 @@ exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/iOGP-byuQ0X7Sd-DhKYw7aHJe3Q8n2blSj-rrlnfK9k
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5606ecce47d871bfaaa7d0c7e305651e6eb9c15b
 workflow-type: tm+mt
-source-wordcount: 1273
+source-wordcount: 1377
 ht-degree: 3%
 
 ---
@@ -133,7 +121,9 @@ Je nachdem, aus welchem Bereich von Workfront Sie auf die tatsächlichen Stunden
 
 >[!NOTE]
 >
->Es wird empfohlen, das Feld „Tatsächliche Stunden“ zu verwenden, wenn dies möglich ist, da im Feld „Frühere Tatsächliche Stunden“ ungenaue Stunden angezeigt werden können, da Inkremente gerundet werden, wenn Stunden in Minuten gespeichert werden.
+>Es wird dringend empfohlen, das Feld „Tatsächliche Stunden“ zu verwenden, wenn dies möglich ist, da im Feld „Frühere Tatsächliche Stunden“ ungenaue Stunden angezeigt werden können, da Inkremente gerundet werden, wenn Stunden in Minuten gespeichert werden. Außerdem werden die veralteten tatsächlichen Stunden in den Diagrammen in Berichten nicht korrekt angezeigt.
+> 
+>Alle benutzerdefinierten Formeln, die veraltete „Tatsächliche Stunden“ verwenden, wurden auf „Tatsächliche Stunden“ migriert. Legacy-Tatsächliche Stunden können nicht mehr in Berechnungen und Formeln verwendet werden.
 
 ## Tatsächliche Stunden für Aufgaben und Probleme im Vergleich zu tatsächlichen Stunden für Projekte
 
@@ -187,13 +177,19 @@ Beim Erstellen von Aufgaben, Problemen oder Projektberichten können Sie die Ist
 
 Informationen zur Differenz zwischen tatsächlichen Stunden und veralteten tatsächlichen Stunden finden Sie im Abschnitt [Tatsächliche Stunden vs. veraltete tatsächliche Stunden](#actual-hours-vs-legacy-actual-hours) in diesem Artikel.
 
+>[!NOTE]
+>
+>Es wird dringend empfohlen, in allen Berichten das Feld Tatsächliche Stunden zu verwenden. Alte Ist-Stunden werden in Diagrammen in Berichten nicht korrekt angezeigt.
+> 
+>Beachten Sie beim Ersetzen des Felds, dass in „Frühere Tatsächliche Stunden“ Werte in Minuten gespeichert werden, während in „Tatsächliche Stunden“ Werte in Stunden mit Dezimalgenauigkeit gespeichert werden.
+
 So zeigen Sie die tatsächlichen Stunden und die veralteten tatsächlichen Stunden in einem Aufgabenbericht an:
 
 {{step1-to-reports}}
 
 1. Klicken Sie auf der **Berichte** auf **Neuer Bericht** und wählen Sie dann **Aufgabe** als Objekt aus.
 1. Klicken Sie unten rechts auf der Seite auf **Spalte hinzufügen**.
-1. Beginnen Sie in **Dropdown-Feld**&#x200B;**In dieser Spalte anzeigen** mit der Eingabe von „Tatsächliche Stunden“ und wählen Sie dann das Feld aus, wenn es in der Liste angezeigt wird.
+1. Beginnen Sie in **Dropdown-Feld****In dieser Spalte anzeigen** mit der Eingabe von „Tatsächliche Stunden“ und wählen Sie dann das Feld aus, wenn es in der Liste angezeigt wird.
 1. Wiederholen Sie den obigen Schritt, um das Feld **Alte tatsächliche Stunden** zum Bericht hinzuzufügen.
 
 1. Klicken Sie unten links auf der Seite auf **Speichern + Schließen** um den Bericht zu speichern.
@@ -205,7 +201,8 @@ So zeigen Sie die tatsächlichen Stunden und die veralteten tatsächlichen Stund
 
 Wenn Sie den Fortschritt der Arbeit sehen möchten, die Ihre Benutzerinnen und Benutzer an ihren zugewiesenen Aufgaben und Problemen ausführen, können Sie sie in den folgenden Tools für das Ressourcenmanagement anzeigen:
 
-* Der Nutzungsbericht.\
+* Der Nutzungsbericht.
+
   Weitere Informationen finden Sie [Übersicht über den Bericht zur Ressourcenauslastung](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 * Der Ressourcenplaner.
@@ -219,7 +216,7 @@ Wenn Sie den Fortschritt der Arbeit sehen möchten, die Ihre Benutzerinnen und B
 
 Die meisten Workfront-Felder, in denen Stunden gespeichert werden, werden in Minuten in der Workfront-Datenbank gespeichert. Beispielsweise wird der Name des Felds „Geplante Stunden“ für eine Aufgabe in der Workfront-Datenbank `workRequired` und in Minuten gespeichert.
 
-Beim Zugriff auf diese Felder in API-Aufrufen oder in berechneten benutzerdefinierten Feldern oder Spalten muss die Konvertierung von Minuten in Stunden berücksichtigt werden.
+Beim Zugriff auf diese Felder in API-Aufrufen muss die Konvertierung von Minuten in Stunden berücksichtigt werden.<!-- or in calculated custom fields or columns.-->
 
 Die tatsächlichen Stunden, die für Projekte, Aufgaben oder Probleme protokolliert werden, werden derzeit als Minuten in der Workfront-Datenbank gespeichert und ihr Wertefeld wird `actualWorkRequired`.
 
@@ -229,6 +226,10 @@ Seit Oktober 2025 werden mit der API-Version 21 die tatsächlichen Stunden in de
 
 * **Tatsächliche Stunden**: Stunden, die für ein Projekt, Aufgaben oder Probleme nach Mai 2021 protokolliert wurden. Sie werden in Stunden in der Workfront-Datenbank gespeichert und ihr Wertefeld wird `actualWorkRequiredDouble`.
 * **Legacy Actual Hours**: Stunden, die für Projekte, Aufgaben oder Probleme jederzeit protokolliert werden, auch vor Mai 2021. Sie werden als Minuten in der Workfront-Datenbank gespeichert und ihr Wertefeld wird `actualWorkRequired`.
+
+>[!NOTE]
+>
+>Alle benutzerdefinierten Formeln, die veraltete „Tatsächliche Stunden“ verwenden, wurden auf „Tatsächliche Stunden“ migriert. Legacy-Stunden oder -`actualWorkRequired` können nicht mehr in Berechnungen und Formeln verwendet werden.
 
 Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Zeitplan](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
