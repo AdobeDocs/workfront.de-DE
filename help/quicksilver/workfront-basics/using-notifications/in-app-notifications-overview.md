@@ -101,7 +101,7 @@ Wenn Sie auf das nummerierte Symbol ![Benachrichtigungssymbol](assets/notificati
 * ![Ihnen zugewiesene Aufgabe](assets/icon-taskassngdtoyou.png) [!UICONTROL Ihnen zugewiesene Aufgabe] - [Name des Zuweisers]
 * ![Problem-Symbol](assets/issue.png) [!UICONTROL Problem zugewiesen] - [Name des Zuweisenden]
 * ![Problem-Symbol](assets/issue.png) [!UICONTROL Problem zugewiesen zu] [Team-] - [Name des Zuweisers]
-* ![Ihnen zugewiesene Aufgabe](assets/icon-taskassngdtoyou.png) [!UICONTROL Aufgabe zugewiesen &#x200B;][ Team-Name] - [Name des Zuweisers]
+* ![Ihnen zugewiesene Aufgabe](assets/icon-taskassngdtoyou.png) [!UICONTROL Aufgabe zugewiesen &#x200B;] [ Team-Name] - [Name des Zuweisers]
 
    * Zuweisungsbenachrichtigungen werden nur gesendet, wenn der Projektstatus auf [!UICONTROL Aktuell] (oder auf einen benutzerdefinierten Status, der [!UICONTROL Aktuell] entspricht) festgelegt ist.
    * Es ist nicht vorgesehen, dass Antragstellern und Prüfern Arbeiten zugewiesen werden. Daher werden sie nicht benachrichtigt, wenn sie Aufgaben und Problemen zugewiesen sind.
