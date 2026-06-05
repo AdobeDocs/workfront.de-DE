@@ -4,10 +4,10 @@ description: Verbesserungen bei der Berichterstellung für das dritte Quartal 20
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: b9c63e1ca4b2b301ee104ee84151a2d0148a8cea
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 4%
+source-wordcount: '399'
+ht-degree: 3%
 
 ---
 
@@ -16,6 +16,22 @@ ht-degree: 4%
 Auf dieser Seite werden die Verbesserungen beim Reporting in der Vorschau-Umgebung beschrieben, die mit der Version vom dritten Quartal 2026 vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2026 verfügbar sind, finden Sie unter [Versionsübersicht für das dritte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
+
+## Änderungen an den tatsächlichen Stunden in benutzerdefinierten Formeln
+
+>[!NOTE]
+>
+>Vorschau: 1. Juni 2026>Produktions-Schnellveröffentlichung: 1. Juni 2026>Produktion für alle: 1. Juni 2026
+
+Im Jahr 2025 wurde der Workfront-Datenbank ein neues Feld „Tatsächliche Stunden“ als `actualWorkRequiredDouble` hinzugefügt und das bestehende Feld „Tatsächliche Stunden“ (in der Datenbank `actualWorkRequired`) wurde in „Frühere Tatsächliche Stunden“ umbenannt. Weitere Informationen finden [&#x200B; in &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md) Versionshinweisen .
+
+Im Juni 2026 wurden vorhandene benutzerdefinierte Formeln, die `actualWorkRequired` (veraltete tatsächliche Stunden) verwenden, migriert, um stattdessen `actualWorkRequiredDouble` (tatsächliche Stunden) zu verwenden. `actualWorkRequired` können nicht mehr in Berechnungen und Formeln verwendet werden.
+
+Außerdem wird dringend empfohlen, `actualWorkRequiredDouble` in allen Berichten zu verwenden.
+
+Beachten Sie beim Ersetzen des Felds, dass `actualWorkRequired` Werte in Minuten speichert, während `actualWorkRequiredDouble` Werte in Stunden mit Dezimalgenauigkeit speichert.
+
+Weitere Informationen zu den tatsächlichen Stunden finden Sie unter [Tatsächliche Stunden anzeigen](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
 ## Benutzerdefinierte Währungsdatenfelder in Dashboard-Berichten der Arbeitsfläche
 
