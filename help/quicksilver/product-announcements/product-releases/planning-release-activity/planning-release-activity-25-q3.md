@@ -10,10 +10,15 @@ exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/R45hY-jNAlCSwIy-070BRL78-altmrnFIL1yNxxPrz8
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 2290
@@ -33,7 +38,7 @@ Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen find
 
 >[!NOTE]
 >
->Vorschau: 10. Juli 2025>Produktion für alle: 10. Juli 2025 >[!BADGE  Zeitplan]{type=Neutral}
+>Vorschau: 10. Juli 2025>Produktion für alle: 10. Juli 2025 >[!BADGE &#x200B; Zeitplan]{type=Neutral}
 
 
 Die Registerkarte Erweiterte Einstellungen wurde aktualisiert, wenn ein Datensatztyp erstellt oder bearbeitet wird.
@@ -49,11 +54,11 @@ Weitere Informationen finden Sie unter [Datensatztypen erstellen](/help/quicksil
 
 >[!NOTE]
 >
->Vorschau: 10. Juli 2025>Produktion für alle: 10. Juli 2025 >[!BADGE  Zeitplan]{type=Neutral}
+>Vorschau: 10. Juli 2025>Produktion für alle: 10. Juli 2025 >[!BADGE &#x200B; Zeitplan]{type=Neutral}
 
 Wenn Sie jetzt in Workfront Planning ein Team zu einem Datensatzkommentar hinzufügen, erhalten alle Team-Mitglieder sowohl eine In-App- als auch eine E-Mail-Benachrichtigung zum Kommentar. Vor dieser Verbesserung wurden nur Benutzer benachrichtigt, die einzeln zu Kommentaren hinzugefügt wurden.
 
-Weitere Informationen finden Sie unter Verwalten von Datensatzkommentaren [Verwalten von ](/help/quicksilver/planning/records/manage-record-comments.md)).
+Weitere Informationen finden Sie unter Verwalten von Datensatzkommentaren [Verwalten von &#x200B;](/help/quicksilver/planning/records/manage-record-comments.md)).
 
 ## Felder basierend auf angewendeten Gruppierungen automatisch ausfüllen
 
@@ -176,14 +181,14 @@ Sie können bis zu 100 benutzerdefinierte Quartale einrichten. Vor diesem Update
 
 Für Kunden, die Workfront Planning nicht erworben haben, ändert sich das benutzerdefinierte Quartalserlebnis nicht.
 
-Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale für Projekte ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale für Projekte &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
 ## Gleichzeitige Berechnung aller abhängigen Formeln
 
 >[!NOTE]
 >
 >* Vorschau: 12. Juni 2025
->* Produktion für alle: 12. Juni 2025 - >[!BADGE  Zeitplan]{type=Neutral}
+>* Produktion für alle: 12. Juni 2025 - >[!BADGE &#x200B; Zeitplan]{type=Neutral}
 
 Wir haben eine Verbesserung eingeführt, die alle Formelfelder, die voneinander abhängig sind, gleichzeitig aktualisiert, nachdem ein referenziertes Feld manuell aktualisiert wurde. Formelfelder, die 2, 3 oder 4 Felder vom Feld entfernt sind, deren Wert manuell geändert wird und die sich gegenseitig referenzieren, werden jetzt automatisch gleichzeitig aktualisiert.
 

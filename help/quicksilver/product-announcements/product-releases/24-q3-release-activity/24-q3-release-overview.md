@@ -8,11 +8,24 @@ exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LDVvgUqKZXiKNzhBA0N2oj7vLgKaUqyowRWtJ3dafWA
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3did: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: b18b693b-6d59-4359-95fd-a386b7a615feid: c33d85a1-be85-4290-854c-87408c10aa80id: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: fceb5125-bb41-419a-b0db-31958cb42f6c
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+  - id: c33d85a1-be85-4290-854c-87408c10aa80
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 1948
@@ -69,7 +82,7 @@ Das Webinar zur Live-Version 24.7 wurde abgesagt, aber Sie können [hier eine Vi
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Geschäftsregeln sind jetzt verfügbar</a></p>
-                        [!BADGE In Production ]{type=Informative}
+                        [!BADGE In Production &#x200B;]{type=Informative}
                         <p>Administratoren können jetzt im Bereich „Setup“ von Workfront Geschäftsregeln hinzufügen.</p>
                         <p>Mit einer Geschäftsregel können Sie Validierungen auf Workfront-Objekte anwenden und Benutzer daran hindern, ein Objekt zu erstellen, zu bearbeiten oder zu löschen, wenn bestimmte Bedingungen erfüllt sind. Die Regeln werden mithilfe einer Formel erstellt, die den berechneten Feldern in benutzerdefinierten Formularen ähnelt.</p>
                     </td>
@@ -88,7 +101,7 @@ Das Webinar zur Live-Version 24.7 wurde abgesagt, aber Sie können [hier eine Vi
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Benutzerdefinierter Formular-Designer allgemein verfügbar in Adobe Workfront</a></p>
-                        [!BADGE In Production ]{type=Informative}
+                        [!BADGE In Production &#x200B;]{type=Informative}
                         <p>Ab Version 24.7 ist der Formular-Designer allgemein verfügbar und wird zum Standarderlebnis für das Erstellen und Bearbeiten benutzerdefinierter Formulare in Adobe Workfront. Wenn Sie ein neues benutzerdefiniertes Formular erstellen oder ein vorhandenes Formular öffnen, wird der Arbeitsbereich im Arbeitsbereich-Stil des Formular-Designers angezeigt.</p>
                         <p>Nach dieser Version haben Sie keine Möglichkeit mehr, zum alten Formular-Builder zurückzukehren.</p>
                     </td>
@@ -106,7 +119,7 @@ Das Webinar zur Live-Version 24.7 wurde abgesagt, aber Sie können [hier eine Vi
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Verschieben von Objekten zwischen Workfront-Umgebungen mit Umgebungs-Promotion</a></p>
-                        [!BADGE In Production ]{type=Informative}
+                        [!BADGE In Production &#x200B;]{type=Informative}
                         <p>Umgebungs-Promotion ermöglicht es Ihnen, Objekte von einer Workfront-Umgebung in eine andere zu verschieben, z. B. von einer Sandbox-Umgebung in eine Produktionsumgebung. Sie können Objekte ohne Risiko für die Daten und Datensätze Ihres Unternehmens konfigurieren und testen. Sie können diese Objekte dann in die Produktion verschieben, ohne sie neu konfigurieren zu müssen, was Zeit und Aufwand spart.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
@@ -120,7 +133,7 @@ Das Webinar zur Live-Version 24.7 wurde abgesagt, aber Sie können [hier eine Vi
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Freigeben von benutzerdefinierten Formularen und Feldern im Designer für benutzerdefinierte Formulare</a></p>
-                        [!BADGE In Production ]{type=Informative}
+                        [!BADGE In Production &#x200B;]{type=Informative}
                         <p>Sie können jetzt sowohl benutzerdefinierte Formulare als auch benutzerdefinierte Felder im neuen Formular-Designer freigeben. Dies ermöglicht eine bessere Zusammenarbeit zwischen Benutzern in benutzerdefinierten Formularen.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
@@ -137,7 +150,7 @@ Das Webinar zur Live-Version 24.7 wurde abgesagt, aber Sie können [hier eine Vi
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Ein neues benutzerdefiniertes Feld aus dem Bereich „Felder“ hinzufügen</a></p>
-                        [!BADGE In Production ]{type=Informative}
+                        [!BADGE In Production &#x200B;]{type=Informative}
                         <p>Sie können jetzt ein neues benutzerdefiniertes Feld oder Widget direkt aus dem Bereich Felder in Workfront hinzufügen, ohne ein benutzerdefiniertes Formular zu öffnen, um das Feld zu erstellen. Auf diese Weise können Sie schnell wiederverwendbare benutzerdefinierte Felder erstellen.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
@@ -154,7 +167,7 @@ Das Webinar zur Live-Version 24.7 wurde abgesagt, aber Sie können [hier eine Vi
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Mehrfachauswahl-Dropdown-Feldtyp im Formular-Designer verfügbar</a></p>
-                        [!BADGE In Production ]{type=Informative}
+                        [!BADGE In Production &#x200B;]{type=Informative}
                         <p>Um Ihnen die Definition von Dropdown-Feldern zu erleichtern, haben wir das Dropdown-Feld Mehrfachauswahl zum benutzerdefinierten Formular-Designer hinzugefügt. Bei diesem Feldtyp können Benutzer mehr als eine Option aus einer Dropdown-Liste auswählen.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
@@ -190,7 +203,7 @@ Das Webinar zur Live-Version 24.7 wurde abgesagt, aber Sie können [hier eine Vi
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Abrechenbare und nicht abrechenbare Ausgaben für Projekte und Aufgaben</a></p>
-                        [!BADGE In Production ]{type=Informative}
+                        [!BADGE In Production &#x200B;]{type=Informative}
                         <p>Damit Sie Ausgabentypen leichter anzeigen können, wurden Ausgaben für Projekte und Aufgaben in fakturierbare und nicht fakturierbare Ausgaben unterteilt. Die folgenden Felder können zu Ansichten und Berichten hinzugefügt werden:</p>
                         <ul>
                             <li><p>Geplante abrechenbare Ausgabenkosten</p></li>
@@ -232,7 +245,7 @@ Das Webinar zur Live-Version 24.7 wurde abgesagt, aber Sie können [hier eine Vi
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Verbesserungen an Workfront für Experience Manager Assets und Assets Essentials</a></p>
-                        [!BADGE In Production ]{type=Informative}
+                        [!BADGE In Production &#x200B;]{type=Informative}
                         <p>Wir haben die folgenden Verbesserungen für die Integration von Workfront for Experience Manager Assets und Assets Essentials vorgenommen:</p>
                         <ul>
                             <li><p>Die Integration unterstützt jetzt GCP als Cloud Service Provider. AWS und Azure wurden zuvor unterstützt.</p></li>
@@ -272,7 +285,7 @@ Das Webinar zur Live-Version 24.7 wurde abgesagt, aber Sie können [hier eine Vi
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Bearbeiten Sie das Commit-Datum und die Commit-Bedingung für Aufgabe und Problem in der Kopfzeile oder im Abschnitt Details</a></p>
-                        [!BADGE In Production ]{type=Informative}
+                        [!BADGE In Production &#x200B;]{type=Informative}
                         <p>Um Ihnen das Aktualisieren von Aufgaben und Problemen zu erleichtern, haben wir jetzt die Felder „Übertragungsdatum“ und „Bedingung“ als Optionen hinzugefügt, die Sie den Kopfzeilen und Details von Aufgaben und Problemen in einer Layout-Vorlage hinzufügen können. Benutzer können diese Felder jetzt über den Kopfzeilen- oder Detailabschnitt einer Seite aktualisieren, wenn sie der geänderten Layout-Vorlage zugewiesen werden.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
@@ -292,7 +305,7 @@ Das Webinar zur Live-Version 24.7 wurde abgesagt, aber Sie können [hier eine Vi
                    <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Relevantere Zuweisungen zum Workflow Neue Aufgabe hinzugefügt</a></p>
-                        [!BADGE In Production for Fast Release ]{type=Positive}
+                        [!BADGE In Production for Fast Release &#x200B;]{type=Positive}
                         <p>Wir haben dem Feld Zuweisungen im Feld Neue Aufgabe dieselbe Funktion für relevantere Smart-Zuweisungen hinzugefügt, wenn eine Aufgabe zu einem Projekt und in einer Projektaufgabenliste hinzugefügt wird.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
@@ -310,7 +323,7 @@ Das Webinar zur Live-Version 24.7 wurde abgesagt, aber Sie können [hier eine Vi
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Relevantere Smart-Zuweisungen</a></p>
-                        [!BADGE In Production for Fast Release ]{type=Positive}
+                        [!BADGE In Production for Fast Release &#x200B;]{type=Positive}
                         <p>Wir haben den Algorithmus geändert, den Workfront verwendet, um smarte Zuweisungen für Aufgaben zu berechnen und vorzuschlagen. Der neue Algorithmus wird auf die folgenden Bereiche in Workfront angewendet, in denen Sie eine Aufgabe zuweisen: Aufgabenlisten, der Bereich „Zuweisungen“ in der Aufgabenkopfzeile, Startseite und das Bedienfeld „Zusammenfassung“.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
@@ -347,7 +360,7 @@ Das Webinar zur Live-Version 24.7 wurde abgesagt, aber Sie können [hier eine Vi
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Sicherheitsaktualisierungen für den Desktop Proofing Viewer</a></p>
-                        [!BADGE In Production ]{type=Informative}
+                        [!BADGE In Production &#x200B;]{type=Informative}
                         <p>Das Sicherheitsupdate Workfront Proof Desktop Proofing Viewer 2.1.35 bietet Sicherheitsfehlerbehebungen für Sicherheitslücken, die in früheren Versionen identifiziert wurden.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
@@ -383,7 +396,7 @@ Das Webinar zur Live-Version 24.7 wurde abgesagt, aber Sie können [hier eine Vi
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">Ausfallzeiten werden jetzt im Workload-Balancer angezeigt</a></p>
-                        [!BADGE In Production ]{type=Informative}
+                        [!BADGE In Production &#x200B;]{type=Informative}
                         <p>Um die Arbeit nahtlos anzupassen, wenn der primäre Zugewiesene für eine Aufgabe Ausfallzeiten geplant hat, weist der Workload Balancer jetzt beim Neuberechnen der Projekt-Zeitleiste sowohl dem primären als auch dem sekundären Benutzer Stunden neu zu.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
@@ -432,7 +445,7 @@ Das Webinar zur Live-Version 24.7 wurde abgesagt, aber Sie können [hier eine Vi
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience ist jetzt für mehr Workfront-Organisationen verfügbar</a></p>
-                        [!BADGE In Production ]{type=Informative}
+                        [!BADGE In Production &#x200B;]{type=Informative}
                         <p>Um Unternehmen den Zugriff auf die Vorteile des einheitlichen Adobe-Erlebnisses zu ermöglichen, haben wir begonnen, dieses für bestehende Workfront-Kunden verfügbar zu machen. </p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
@@ -450,7 +463,7 @@ Das Webinar zur Live-Version 24.7 wurde abgesagt, aber Sie können [hier eine Vi
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Schaltfläche „Hilfe“ wurde aus der Hauptnavigationsleiste entfernt</a></p>
-                        [!BADGE In Production ]{type=Informative}
+                        [!BADGE In Production &#x200B;]{type=Informative}
                         <p>Um das Erlebnis für Benutzende, die nicht in Unified Shell arbeiten, zu vereinheitlichen, wurde die Schaltfläche Hilfe in der Hauptnavigationsleiste entfernt. Diese Schaltfläche, die für Benutzende von Unified Shell nicht vorhanden, mit der Workfront-Dokumentation verknüpft und mit einer ähnlichen Schaltfläche „Hilfe“ redundant war, die für alle Benutzenden im Hauptmenü verfügbar ist.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
@@ -467,7 +480,7 @@ Das Webinar zur Live-Version 24.7 wurde abgesagt, aber Sie können [hier eine Vi
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Verbesserte Benutzeroberfläche für Benutzer mit eingeschränktem Objektzugriff</a></p>
-                        [!BADGE In Production ]{type=Informative}
+                        [!BADGE In Production &#x200B;]{type=Informative}
                         <p>Wenn ein(e) Benutzende(r) keinen Zugriff auf ein Objekt hat, wird „Kein Zugriff“ überall dort angezeigt, wo der Objektname in Workfront angezeigt wird. Dieses verbesserte Erlebnis gilt auch für die Workfront-API.</p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>

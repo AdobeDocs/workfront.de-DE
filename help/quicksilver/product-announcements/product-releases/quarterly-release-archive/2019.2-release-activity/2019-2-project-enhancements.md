@@ -8,11 +8,17 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 76292f90-af1a-4740-9b8e-b02a6303625c
 TQID: https://experienceleague.adobe.com/-4bsOXpJd8x1IKN-bqcvRqHDDiD5JawSrXgyRYmVYqA
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2:
+  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
 workflow-type: tm+mt
 source-wordcount: 741
@@ -92,7 +98,7 @@ Sie können jetzt die budgetierten Kosten der geplanten Arbeit (BCWS) und die bu
 
 Obwohl diese Projektleistungsmetriken zuvor in Finanzberechnungen in Workfront verwendet wurden, waren sie vor dieser Verbesserung nicht im System sichtbar.
 
-Weitere Informationen zur Berechnung des SKBA finden [ unter „Budgetierte Kosten für geplante Arbeit (SKBA) berechnen](../../../../manage-work/projects/project-finances/calculate-bcws.md).
+Weitere Informationen zur Berechnung des SKBA finden [&#x200B; unter „Budgetierte Kosten für geplante Arbeit (SKBA) berechnen](../../../../manage-work/projects/project-finances/calculate-bcws.md).
 
 Informationen zur Berechnung des SKAA finden Sie unter [Budgetierte Kosten der geleisteten Arbeit berechnen (SKAA)](../../../../manage-work/projects/project-finances/calculate-bcwp.md).
 
