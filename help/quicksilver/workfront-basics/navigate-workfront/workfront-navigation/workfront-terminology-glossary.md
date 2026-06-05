@@ -38,9 +38,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 5606ecce47d871bfaaa7d0c7e305651e6eb9c15b
 workflow-type: tm+mt
-source-wordcount: 21553
+source-wordcount: 21587
 ht-degree: 96%
 
 ---
@@ -98,7 +98,7 @@ In der folgenden Tabelle finden Sie eine Liste häufig verwendeter Begriffe in A
   </tr> 
   <tr> 
    <td>[!UICONTROL Tatsächliche Stunden]</td> 
-   <td> <p>In einem Projekt-, Aufgaben- oder Problembericht sind die [!UICONTROL tatsächlichen Stunden] die Summe aller Stunden, die nach Mai 2021 für das Projekt, die Aufgabe oder das Problem protokolliert wurden.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span> Wenn Sie auf der Registerkarte [!UICONTROL Updates] für Aufgabe 1 auf „Zeit erfassen“ klicken und 25 Stunden eingeben, sind die tatsächlichen Stunden von Aufgabe 1 = 25 Stunden. </p> <p>[!DNL Workfront] berechnet die [!UICONTROL tatsächlichen Stunden] für übergeordnete Aufgaben oder Projekte mithilfe der folgenden Formeln:</p> 
+   <td> <p>In einem Projekt-, Aufgaben- oder Problembericht sind die [!UICONTROL tatsächlichen Stunden] die Summe aller Stunden, die nach Mai 2021 für das Projekt, die Aufgabe oder das Problem protokolliert wurden. Es wird dringend empfohlen, in allen Berichten „Tatsächliche Stunden“ und nicht „Frühere Tatsächliche Stunden“ zu verwenden.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span> Wenn Sie auf der Registerkarte [!UICONTROL Updates] für Aufgabe 1 auf „Zeit erfassen“ klicken und 25 Stunden eingeben, sind die tatsächlichen Stunden von Aufgabe 1 = 25 Stunden. </p> <p>[!DNL Workfront] berechnet die [!UICONTROL tatsächlichen Stunden] für übergeordnete Aufgaben oder Projekte mithilfe der folgenden Formeln:</p> 
     <ul> 
      <li> <p><code>For parent tasks = children [!UICONTROL Actual Hours] + [!UICONTROL Actual Hours] on the parent task. </code> </p> </li> 
      <li> <p><code>For projects = [!UICONTROL Actual Hours] logged on the project + [!UICONTROL Actual Hours] logged on standalone or children tasks in the project + [!UICONTROL Actual Hours] logged on issues in the project</code>  </p> </li> 
@@ -1293,7 +1293,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Tatsächliche Legacy-Stunden]</td> 
-   <td> <p>In einem Projekt-, Aufgaben- oder Problembericht handelt es sich bei den [!UICONTROL tatsächlichen Legacy-Stunden] um die Summe aller Stunden, die zu einem beliebigen Zeitpunkt (auch vor Mai 2021) für das Projekt, die Aufgabe oder das Problem erfasst wurden.</p>  
+   <td> <p>In einem Projekt-, Aufgaben- oder Problembericht handelt es sich bei den [!UICONTROL tatsächlichen Legacy-Stunden] um die Summe aller Stunden, die zu einem beliebigen Zeitpunkt (auch vor Mai 2021) für das Projekt, die Aufgabe oder das Problem erfasst wurden. Es wird dringend empfohlen, in allen Berichten „Tatsächliche Stunden“ und nicht „Frühere Tatsächliche Stunden“ zu verwenden.</p>  
    <p>„Tatsächliche Legacy-Stunden“ wird als „Tatsächliche Stunden“ im Detailbereich eines Projekts, einer Aufgabe oder eines Problems angezeigt. </p>
    <p>Siehe auch <strong>Tatsächliche Stunden</strong>.
     <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md">Anzeigen der tatsächlichen Stunden</a>.</p>

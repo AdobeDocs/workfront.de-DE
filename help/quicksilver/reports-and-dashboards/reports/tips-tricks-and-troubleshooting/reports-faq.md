@@ -22,9 +22,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 5606ecce47d871bfaaa7d0c7e305651e6eb9c15b
 workflow-type: tm+mt
-source-wordcount: 1508
+source-wordcount: 1528
 ht-degree: 3%
 
 ---
@@ -95,13 +95,19 @@ Geplante Stunden werden in Minuten gespeichert.
 
 Je nachdem, welches Feld Tatsächliche Stunden für Ihre Berechnung verwendet werden soll, lauten die richtigen Formeln:
 
-* Für veraltete tatsächliche Stunden, die in Minuten gespeichert werden:
+* Für tatsächliche Stunden, die dezimal in Stunden gespeichert werden:
+
+  `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+
+* Für veraltete „Tatsächliche Stunden“, die in Minuten gespeichert werden:
 
   `valueexpression=SUB(workRequired,actualWorkRequired)/60`
 
-* Für tatsächliche Stunden, die in Stunden gespeichert sind:
-
-  `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+>[!NOTE]
+>
+>Es wird dringend empfohlen, in allen Berichten `actualWorkRequiredDouble` zu verwenden.
+>
+>`actualWorkRequired` wird in Diagrammen in Berichten nicht korrekt angezeigt.
 
 Weitere Informationen finden Sie unter [Anzeigen der tatsächlichen Stunden](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 
