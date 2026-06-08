@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 18ed9f36e497b0e419e3e119da50c85920e226df
 workflow-type: tm+mt
-source-wordcount: 3019
+source-wordcount: 3129
 ht-degree: 1%
 
 ---
@@ -212,7 +212,7 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
    >
    >  Informationen für die folgenden Felder können nicht bearbeitet werden, da sie schreibgeschützt sind und von Workfront automatisch aktualisiert werden:
    >  
-   >  * Verknüpfte Felder, die durch Verbinden von Datensatztypen erstellt werden. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >  * Suchfelder für Verbindungen, die durch Verbinden von Datensatztypen und hinzugefügten Suchfeldern erstellt werden. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Felder der folgenden Typen: Erstellt von, Erstellt am, Zuletzt geändert von, Zuletzt geändert am, Formelfelder.
 
 1. (Optional und bedingt) Verwenden Sie beim Bearbeiten eines Felds vom Typ Absatz die folgenden Formatierungsoptionen **Rich-Text**:
@@ -229,22 +229,24 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 1. (Optional) Doppelklicken Sie auf ein Feld Verbundener Datensatz , um einem anderen Datensatz verbundene Datensätze oder Objekte hinzuzufügen. Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md).
 1. Drücken Sie **Eingabetaste** auf der Tastatur oder klicken Sie außerhalb einer Zeile, um Ihre Änderungen zu speichern. Die Änderungen werden automatisch gespeichert. Ein **Gespeichert**-Indikator wird kurz in der oberen rechten Ecke der Tabellenansicht angezeigt, um anzuzeigen, dass die Änderungen gespeichert wurden.
 
-
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um Informationen von einem Feld in ein anderes zu kopieren und einzufügen:
 
    * Kopieren Sie einen oder mehrere vorhandene Werte eines Felds und fügen Sie sie dann in ein Feld desselben Typs in einem anderen Datensatz ein.
    * Klicken Sie auf die Spaltenüberschrift einer Spalte, um sie auszuwählen, und kopieren Sie sie. Klicken Sie dann auf die Spaltenüberschrift einer anderen Spalte, und fügen Sie den Inhalt der kopierten Spalte ein. Die Spalten müssen ähnliche Feldtypen enthalten.
-   * Klicken Sie bei gedrückter Umschalttaste auf mehrere Zeilen in einer Tabelle, kopieren Sie die Informationen in die ausgewählten Zeilen, klicken Sie dann auf eine andere Zeile und fügen Sie die ausgewählten Informationen in die neue Zeile und die folgenden Zeilen ein.
+   * Klicken Sie bei gedrückter Umschalttaste auf mehrere Zeilen in einer Tabelle, kopieren Sie die Informationen in die ausgewählten Zeilen, klicken Sie dann auf eine andere Zeile und fügen Sie die ausgewählten Informationen in die neue Zeile und die folgenden Zeilen ein. <!--<span class="preview">This is not possible in the Preview environment.</span>-->
    * Kopieren Sie die Informationen aus einer Zelle, wählen Sie dann mehrere Zellen aus und fügen Sie dieselben Informationen in mehrere Zellen ein. Sie können mehrere Zellen auswählen und dieselben Informationen in mehrere Zellen aus benachbarten Zeilen und Spalten einfügen.
    * Wählen Sie die untere rechte Ecke einer vorhandenen Zelle aus, die die Informationen enthält, die Sie kopieren möchten, und ziehen Sie sie dann per Drag-and-Drop über die angrenzenden Zellen, in die Sie dieselben Informationen einfügen möchten. Alle Zellen müssen dieselbe Art von Informationen enthalten.
 
      ![Ziehbare untere rechte Ecke für Kopieren und Einfügen in die Tabellenansicht](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
-
    * Kopieren Sie eine oder mehrere Zellen aus einer externen Quelle (z. B. einer Excel-Datei) und fügen Sie sie dann in einen der folgenden Feldtypen ein:
 
-      * Workfront Planning-Verbindungsfelder.
+      * Workfront Planning-Verbindungsfelder.\
+        <!--<span class="preview">This is not possible in the Preview environment.</span>-->
       * Personenfelder. Es werden nur Felder mit einem Wert unterstützt.
+      * Textfelder
+      * Felder auswählen.
+      * Zahlen-, Prozentsatz- und Währungsfelder.
 
      Es ist nicht möglich, Informationen aus einer externen Quelle zu kopieren und in andere Feldtypen einzufügen, einschließlich der Verbindungsfelder von Workfront oder anderen Anwendungen.
 
@@ -256,11 +258,12 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
    >   * Kopieren: STRG + C (⌘ + C für Mac)
    >   * Einfügen: STRG + V (⌘ + V für Mac)
    >
-   >* Feldwerte können nicht kopiert und in die Datensatzseite eingefügt werden. Diese Funktion wird nur in der Tabellenansicht eines Datensatztyps unterstützt.
+   >* Feldwerte können nicht auf der Seite mit den Datensatzdetails kopiert und eingefügt werden. Diese Funktion wird nur in der Tabellenansicht eines Datensatztyps unterstützt.
    >* Feldwerte für die folgenden Feldtypen können nicht kopiert und eingefügt werden:
    >
    >    * Suchfelder, die beim Verbinden von Datensatztypen erstellt werden. Sie können verknüpfte Datensatzfelder kopieren und einfügen. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
    >    * Felder der folgenden Typen: Erstellt von, Erstellt am, Zuletzt geändert von, Zuletzt geändert am
+   >* Wenn Sie Verbindungsfelder kopieren und einfügen oder Feldwerte auswählen, müssen die kopierten Werte zuerst in Workfront Planning vorhanden sein.
 
 1. (Optional) Verwenden Sie die folgenden Tastaturbefehle, um das Bearbeiten oder Kopieren und Einfügen von Datensatzinformationen rückgängig zu machen oder wiederherzustellen:
 
@@ -269,9 +272,17 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 
    >[!TIP]
    >
-   >    Sie können die Tastaturbefehle mehrmals hintereinander verwenden, um mehrere Änderungen rückgängig zu machen.
+   >Sie können die Tastaturbefehle mehrmals hintereinander verwenden, um mehrere Änderungen rückgängig zu machen.
 
-1. (Optional) Fügen Sie einem Datensatz eine Miniaturansicht hinzu. Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+1. (Optional) Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Datensatznamen und wählen Sie aus den folgenden Optionen:
+
+   * **Anzeigen** <!--or <span class="preview"Open in new tab</span>-->: Dadurch wird die Datensatzseite geöffnet.
+   * **Link kopieren**: Zum Kopieren eines Links auf die Datensatzseite.
+   * **Miniaturansicht bearbeiten**: Zum Hinzufügen einer Miniaturansicht zu einem Datensatz.
+Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+   * **Duplizieren**: Dadurch wird ein identisches Duplikat des Datensatzes erstellt.
+   * **Datensatz oberhalb einfügen/Datensatz unterhalb einfügen**: Fügt eine neue Zeile hinzu, damit Sie einen neuen Datensatz hinzufügen können. <!--<span class="preview">This is not possible in the Preview environment.</span>-->
+   * **Löschen**: Löschen des Datensatzes. Gelöschte Datensätze werden im Feld „Zuletzt gelöscht“ bis zu 30 Tage lang gespeichert.
 
 
 ### Bearbeiten eines Datensatzes in der Zeitleisten-Ansicht eines Datensatztyps
