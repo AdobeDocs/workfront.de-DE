@@ -5,9 +5,9 @@ title: Verwenden des Adobe Workfront MCP-Servers
 description: Verwenden Sie den Adobe Workfront-MCP-Server, um Workfront-Elemente über eine Sprachkonversation in einer KI-Agentenplattform zu suchen, zu erstellen, zu aktualisieren und zu verwalten.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 7d961bca74884baa869f92a24a3f586500b824a5
+source-git-commit: 648342f0002046febba1b8e751bc1cffec2c1346
 workflow-type: tm+mt
-source-wordcount: '1755'
+source-wordcount: '1793'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Mit dem [!DNL Adobe Workfront] MCP-Server können Sie Workfront-Elemente suchen,
 * Sie müssen die Verbindung zwischen Ihrer KI-Agentenplattform und dem Workfront MCP-Server einrichten. Setup-Anweisungen finden Sie unter [Konfigurieren des Adobe Workfront MCP-Servers](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
 * Ihre Workfront-Instanz muss auf dem Adobe Identity Management System (IMS) aktiviert sein.
 * Sie müssen über ein Workfront-Konto mit der erforderlichen Zugriffsebene und den erforderlichen Objektberechtigungen für die Elemente verfügen, mit denen Sie arbeiten möchten.
-
+* Um MCP mit Workfront Planning verwenden zu können, muss Ihr Unternehmen ein Workfront-Paket verwenden, das Adobe Workfront Planning enthält.
 
 In diesem Artikel wird davon ausgegangen, dass Sie die Verbindung bereits eingerichtet haben. Weitere Informationen zum Setup finden Sie unter [Konfigurieren des Adobe Workfront MCP-Servers](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
 
@@ -101,6 +101,10 @@ Um Dokument- und Asset-Genehmigungen zu verwalten, fragen Sie:
 
 ### Arbeiten mit Planungsdatensätzen
 
+>[!IMPORTANT]
+>
+>* Um MCP mit Workfront Planning verwenden zu können, muss Ihr Unternehmen ein Workfront-Paket verwenden, das Adobe Workfront Planning enthält.
+
 Um Planungsdatensätze zu verwalten, fragen Sie:
 
 * *Erstellen Sie einen neuen Planungsdatensatz mit dem Namen „Q2-Marketing-Plan“ für das Brand Marketing-Team.*
@@ -163,7 +167,7 @@ Workfront hat keine Kontrolle darüber, wie der KI-Plattformanbieter Ihre Workfr
 +++ Erweitern Sie , um Tipps zur Fehlerbehebung bei der täglichen Verwendung des Workfront MCP-Servers zu erhalten.
 
 | Problem | Wahrscheinliche Ursache | Korrigieren |
-|---|---|---|
+| --- | --- | --- |
 | Die KI-Agent-Plattform liefert Ihnen veraltete Informationen. | Die KI-Agentenplattform verwendet Daten aus früheren Phasen der Konversation wieder. | Fordern Sie neue Daten von Workfront an. |
 | Die KI-Agent-Plattform hat Daten von falschen Workfront-Elementen zurückgegeben. | Die KI-Agentenplattform wählte die falschen Elemente basierend auf mehrdeutigen Formulierungen aus. | Fragen Sie erneut mit spezifischeren Namen, IDs oder Filtern. |
 | Eine Aktualisierung oder Löschung wurde in Workfront nicht wirksam. | Ihr Workfront-Administrator hat Schreibaktionen für den Workfront MCP-Server deaktiviert oder Sie sind nicht berechtigt, die Aktion für das jeweilige Element durchzuführen. | Bestätigen Sie mit der KI-Agent-Plattform, dass die Aktion ausgeführt wurde. Vergewissern Sie sich anschließend, dass Schreibaktionen für den Workfront MCP-Server aktiviert sind und dass Sie berechtigt sind, das Element zu ändern. |

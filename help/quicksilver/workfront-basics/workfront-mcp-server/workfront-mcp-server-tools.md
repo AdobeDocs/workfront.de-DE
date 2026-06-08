@@ -5,9 +5,9 @@ title: Adobe Workfront MCP-Server-Tools
 description: Referenzliste der über den Adobe Workfront MCP-Server verfügbaren Tools, gruppiert nach Workfront-Bereich.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: a2b2da49e9aba808dc7567bd5a7f29adeb381c1d
+source-git-commit: 648342f0002046febba1b8e751bc1cffec2c1346
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1578'
 ht-degree: 6%
 
 ---
@@ -43,7 +43,7 @@ Wenn die KI-Agentenplattform Workfront-Elemente finden, diese jedoch nicht erste
 ### Dokumente
 
 | Titel | Tool-Name | Funktion | Aktion |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Dokumentversion nach Namen suchen | `approvals_find_document_version_by_name` | Sucht die aktuelle Versions-ID eines Dokuments nach Dateinamen. Unterstützt Teilübereinstimmungen. | Lesen |
 | Dokument nach Versions-ID abrufen | `approvals_get_document_by_version_id` | Ruft Dokumentdetails (Name, Größe, Upload-Datum, Uploader) für eine bekannte Dokumentversions-ID ab. | Lesen |
 | Dokumente nach Projekt abrufen | `approvals_get_documents_by_project` | Listet Dokumente innerhalb eines Workfront-Projekts mit der aktuellen Versions-ID jedes Dokuments auf. | Lesen |
@@ -63,7 +63,7 @@ Wenn die KI-Agentenplattform Workfront-Elemente finden, diese jedoch nicht erste
 ### Genehmigungs-Workflows
 
 | Titel | Tool-Name | Funktion | Aktion |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Informationen zum Genehmigungs-Workflow abrufen | `approvals_get_approval_info` | Gibt den aktuellen Genehmigungs-Workflow (Phasen, Teilnehmer, Status) für eine Dokumentversion aus. | Lesen |
 | Genehmigungs-Workflow erstellen oder aktualisieren | `approvals_create_or_update_approval_workflow` | Erstellt oder aktualisiert die Genehmigungs-Workflow-Phasen für eine Dokumentversion. Unterstützt lineare und parallele (Graph-)Stufenabhängigkeiten. | Schreiben |
 | Genehmigung aus Vorlage erstellen | `approvals_create_approval_from_template` | Erstellt einen Genehmigungs-Workflow für ein Dokument unter Verwendung einer vorhandenen Vorlage. | Schreiben |
@@ -76,14 +76,14 @@ Wenn die KI-Agentenplattform Workfront-Elemente finden, diese jedoch nicht erste
 ### Reminders
 
 | Titel | Tool-Name | Funktion | Aktion |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Erinnerung an Teilnehmer senden | `approvals_send_reminder_to_participants` | Sendet Erinnerungs-E-Mails an bestimmte Teilnehmer in einer Genehmigungsphase. Funktioniert nur bei gestarteten, nicht abgeschlossenen, nicht gesperrten Phasen. | Schreiben |
 | Erinnerung an unentschlossene Teilnehmer senden | `approvals_send_reminder_to_undecided` | Sendet Erinnerungs-E-Mails an alle unentschlossenen Teilnehmer (benachrichtigt, geöffnet oder kommentiert) in einer Genehmigungsphase. | Schreiben |
 
 ### Genehmigungsvorlagen
 
 | Titel | Tool-Name | Funktion | Aktion |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Genehmigungsvorlagen auflisten | `approvals_list_templates` | Listet die in dieser Workfront-Instanz verfügbaren Validierungsvorlagen auf. Unterstützt das Filtern nach Ersteller, Teilnehmer und das Sortieren nach Verwendung. | Lesen |
 | Vorlage nach Namen suchen | `approvals_search_template_by_name` | Sucht Validierungsvorlagen nach Namen (Teilübereinstimmung ohne Berücksichtigung der Groß-/Kleinschreibung). | Lesen |
 | Erstellen einer Validierungsvorlage | `approvals_create_template` | Erstellt eine neue Validierungsvorlage mit linearen oder diagrammbasierten Stufenabhängigkeiten. | Schreiben |
@@ -92,7 +92,7 @@ Wenn die KI-Agentenplattform Workfront-Elemente finden, diese jedoch nicht erste
 ### Suchen und Benutzer
 
 | Titel | Tool-Name | Funktion | Aktion |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Aktuellen Benutzer abrufen | `approvals_get_current_user` | Gibt die Workfront-Identität des aufrufenden Benutzers zurück, einschließlich Name, Benutzer-ID, Name des Home-Teams und ID des Home-Teams. | Lesen |
 | Benutzer nach Namen suchen | `approvals_find_user_by_name` | Sucht die ID eines Workfront-Benutzers nach Namen (unscharf oder teilweise Übereinstimmung). Gibt Namen, ID, E-Mail, Titel und Avatar-URL zurück. | Lesen |
 | Team nach Namen suchen | `approvals_find_team_by_name` | Sucht die ID eines Workfront-Teams nach Namen (unscharf oder teilweise Übereinstimmung). | Lesen |
@@ -102,10 +102,14 @@ Wenn die KI-Agentenplattform Workfront-Elemente finden, diese jedoch nicht erste
 
 ## Planungstools
 
+>[!IMPORTANT]
+>
+>* Um MCP mit Workfront Planning verwenden zu können, muss Ihr Unternehmen ein Workfront-Paket verwenden, das Adobe Workfront Planning enthält.
+
 ### Arbeitsbereiche
 
 | Titel | Tool-Name | Funktion | Aktion |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Arbeitsbereich abrufen | `planning_get_workspace` | Ruft vollständige Details eines Arbeitsbereichs nach ID oder Alias ab. | Lesen |
 | Arbeitsbereichsliste abrufen | `planning_get_workspace_list` | Listet alle verfügbaren Arbeitsbereiche mit Cursor-basierter Paginierung auf. | Lesen |
 | Arbeitsbereich erstellen | `planning_create_workspace` | Erstellt einen neuen leeren Arbeitsbereich zum Organisieren von Datensatztypen, Feldern und Daten. | Schreiben |
@@ -119,7 +123,7 @@ Wenn die KI-Agentenplattform Workfront-Elemente finden, diese jedoch nicht erste
 ### Eintragstypen
 
 | Titel | Tool-Name | Funktion | Aktion |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Datensatztyp abrufen | `planning_get_record_type` | Ruft alle Details eines Datensatztyps ab, einschließlich der Felder und Ansichten. | Lesen |
 | Erstellen von Eintragstypen | `planning_create_record_types` | Erstellt einen oder mehrere Datensatztypen in einem Workspace-Abschnitt. | Schreiben |
 | Eintragstyp aktualisieren | `planning_update_record_type` | Aktualisiert teilweise den Namen, die Beschreibung, das Symbol oder die Farbe eines Datensatztyps. | Schreiben |
@@ -135,7 +139,7 @@ Wenn die KI-Agentenplattform Workfront-Elemente finden, diese jedoch nicht erste
 ### Einträge
 
 | Titel | Tool-Name | Funktion | Aktion |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Datensatz abrufen | `planning_get_record` | Ruft alle Details eines einzelnen Datensatzes nach ID ab. | Lesen |
 | Datensätze suchen | `planning_search_records` | Durchsucht und filtert Datensätze innerhalb eines Datensatztyps. | Lesen |
 | Masseneintragsaktionen | `planning_bulk_record_actions` | Erstellt, aktualisiert, löscht oder stellt mehrere Datensätze in einer Anfrage wieder her. | Schreiben |
@@ -148,7 +152,7 @@ Wenn die KI-Agentenplattform Workfront-Elemente finden, diese jedoch nicht erste
 ### Felder
 
 | Titel | Tool-Name | Funktion | Aktion |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Feld abrufen | `planning_get_field` | Ruft vollständige Details und Schemawerte für ein Feld nach ID ab. | Lesen |
 | Erstellen von Feldern | `planning_create_fields` | Fügt einem Datensatztyp mindestens ein Feld (Spalten) hinzu. | Schreiben |
 | Feld aktualisieren | `planning_update_field` | Aktualisiert teilweise den Namen, die Beschreibung, die Optionen oder die Konfiguration eines Felds. | Schreiben |
@@ -157,7 +161,7 @@ Wenn die KI-Agentenplattform Workfront-Elemente finden, diese jedoch nicht erste
 ### Ansichten
 
 | Titel | Tool-Name | Funktion | Aktion |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Ansicht abrufen | `planning_get_view` | Gibt vollständige Details einer Ansicht nach ID zurück. | Lesen |
 | Ansicht erstellen | `planning_create_view` | Erstellt eine neue Tabelle, Timeline oder Kalenderansicht für einen Datensatztyp. | Schreiben |
 | Ansicht aktualisieren | `planning_update_view` | Aktualisiert teilweise die Konfiguration, Filter oder Sortierung einer vorhandenen Ansicht. | Schreiben |
@@ -168,14 +172,14 @@ Wenn die KI-Agentenplattform Workfront-Elemente finden, diese jedoch nicht erste
 ### Vorlagen
 
 | Titel | Tool-Name | Funktion | Aktion |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Vorlagenliste abrufen | `planning_get_template_list` | Listet alle verfügbaren Arbeitsbereichsvorlagen mit Zusammenfassungsinformationen auf. | Lesen |
 | Vorlage abrufen | `planning_get_template` | Ruft alle Details einer bestimmten Vorlage nach ID ab. | Lesen |
 
 ### Suche und Dienstprogramme
 
 | Titel | Tool-Name | Funktion | Aktion |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Ressourcen durchsuchen | `planning_search_resources` | Sucht nach Arbeitsbereichen, Datensatztypen und Ansichten nach Namen. | Lesen |
 | Daten zur Suchfreigabe | `planning_search_sharing_data` | Sucht Benutzende, Gruppen, Teams, Rollen und Unternehmen nach Namen für Freigabe und Berechtigungen. | Lesen |
 | Benutzende suchen | `planning_search_users` | Sucht nach Benutzern mit Paginierungsunterstützung. | Lesen |
@@ -185,7 +189,7 @@ Wenn die KI-Agentenplattform Workfront-Elemente finden, diese jedoch nicht erste
 Workflow-Tools sind allgemeine Aktionen, die die KI-Agentenplattform für die Arbeit mit beliebigen Workfront-Objekten verwendet - Projekten, Aufgaben, Problemen, Stunden, Zuweisungen, Programmen, Portfolios usw.
 
 | Titel | Tool-Name | Funktion | Aktion |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Objekte suchen | `workflow_search_any_object` | Sucht nach Workfront-Objekten mit flexiblen Filterparametern, Sortierung und Paginierung. | Lesen |
 | Objekt erstellen | `workflow_create_any_object` | Erstellt ein neues Workfront-Objekt wie ein Projekt, eine Aufgabe, ein Problem, eine Stunde, eine Zuweisung, ein Programm oder ein Portfolio. | Schreiben |
 | Objekt aktualisieren | `workflow_update_any_object` | Aktualisiert Felder eines bestehenden Workfront-Objekts. | Schreiben |
