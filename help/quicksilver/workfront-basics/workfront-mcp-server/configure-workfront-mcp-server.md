@@ -5,9 +5,9 @@ title: Konfigurieren des Adobe Workfront MCP-Servers
 description: Konfigurieren Sie Ihre Workfront-Instanz und Ihre KI-Agentenplattform, damit Sie über Konversationen in natürlicher Sprache mit Workfront arbeiten können.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 7d961bca74884baa869f92a24a3f586500b824a5
+source-git-commit: 648342f0002046febba1b8e751bc1cffec2c1346
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1291'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,8 @@ Bevor Sie Workfront mit einer KI-Agentenplattform verbinden können, müssen Sie
 * Ein aktives [!DNL Adobe Workfront]-Konto mit der Berechtigung für den Zugriff auf die Daten haben, mit denen Sie arbeiten möchten
 * Zugriff auf eine KI-Agentenplattform wie [!DNL Claude]
 * Ihre Workfront-Instanz muss auf dem Adobe Identity Management System (IMS) aktiviert sein.
+* Um MCP mit Workfront Planning verwenden zu können, muss Ihr Unternehmen ein Workfront-Paket verwenden, das Adobe Workfront Planning enthält.
+
 
 ### Voraussetzungen für Admin
 
@@ -103,7 +105,7 @@ To connect Workfront to [!DNL Claude]:
 
 So verbinden Sie Workfront mit [!DNL Claude] über eine URL:
 
-1. Melden Sie sich mit Ihren [&#x200B; bei &#x200B;](https://claude.ai)Claude“ an.
+1. Melden Sie sich mit Ihren [ bei ](https://claude.ai)Claude“ an.
 1. Wählen Sie im linken Menü das Symbol **Anpassen** aus.
 1. Wählen Sie **Connectoren** und klicken Sie dann auf das Symbol **+** , um einen Connector hinzuzufügen.
 1. Klicken Sie auf **Schaltfläche „App**&quot;.
@@ -121,7 +123,7 @@ Um mehr über [!DNL Claude] Fähigkeiten zu erfahren, lesen Sie die [Claude-Benu
 
 ## Mit ChatGPT verbinden
 
-1. Melden Sie sich mit Ihren [&#x200B; bei &#x200B;](https://chatgpt.com)ChatGPT) an.
+1. Melden Sie sich mit Ihren [ bei ](https://chatgpt.com)ChatGPT) an.
 1. Wählen Sie unten links &quot;**&quot;** → **Einstellungen**.
 1. Wählen Sie **Apps** aus und aktivieren Sie dann **Entwicklermodus**.
 1. Klicken Sie auf **Schaltfläche „App**&quot;.
@@ -210,7 +212,7 @@ What happens next
 +++ Erweitern Sie , um Tipps zur Fehlerbehebung bei der Einrichtung und Authentifizierung des Workfront MCP-Servers zu erhalten.
 
 | Problem | Wahrscheinliche Ursache | Korrigieren |
-|---|---|---|
+| --- | --- | --- |
 | Der [!DNL Adobe Workfront]-Connector wurde nicht in [!DNL Claude] gefunden. | Ihr [!DNL Claude] hat sie nicht aktiviert. | Wenden Sie sich an Ihren [!DNL Claude]-Administrator (nicht an Ihren Workfront-Administrator) und bitten Sie ihn, den [!DNL Adobe Workfront] Connector zu aktivieren. |
 | Sie haben verbunden, aber Sie können Ihre Daten nicht sehen. | Sie haben sich bei der falschen Workfront-Instanz authentifiziert. | Trennen Sie den Connector, stellen Sie erneut eine Verbindung her, und authentifizieren Sie sich bei der richtigen Instanz. |
 | Die Authentifizierung ist fehlgeschlagen, oder die Verbindung funktioniert nicht mehr. | Ihre Authentifizierungssitzung ist abgelaufen oder es liegt ein Verbindungsfehler vor. | Den Stecker abziehen und wieder anschließen. |
@@ -239,4 +241,4 @@ Sowohl der Workfront-Administrator als auch der Administrator für Ihre KI-Agent
 
 Nein. Ihre Workfront-Instanz muss auf dem Adobe Identity Management System (IMS) aktiviert sein, damit der Workfront MCP-Server verwendet werden kann. Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie nicht sicher sind, ob Ihre Instanz für IMS aktiviert ist.
 
-+++
++++ 
