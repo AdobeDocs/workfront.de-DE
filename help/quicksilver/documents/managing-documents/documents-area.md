@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: ea4de44f0669ca78eabe9f35f94f49fee2e5d016
 workflow-type: tm+mt
-source-wordcount: 822
+source-wordcount: 850
 ht-degree: 1%
 
 ---
@@ -85,9 +85,13 @@ Die Seite Dokumentdetails enthält eine umfangreichere Version der Dokumentdetai
 
 Der Bereich Neue Dokumente ist nur für verfügbar, wenn sich Ihr Unternehmen im Adobe Cloud-Speicher befindet. Weitere Informationen zu Adobe Cloud-Speicher finden Sie unter [Übersicht über Adobe Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
+![Bereich „Neue Dokumente“](assets/new-doc-area.png)
+
 ### Verwenden des Bedienfelds „Zusammenfassung“
 
 Wenn Sie ein Dokument im Bereich Dokumente auswählen, können Sie im Bedienfeld Zusammenfassung auf der rechten Seite Details zum Dokument anzeigen, angehängte benutzerdefinierte Formulare hinzufügen und bearbeiten, Genehmigungs-Workflows erstellen und verwalten, Versionen des Dokuments anzeigen und vieles mehr.
+
+![Zusammenfassungsbereich mit geöffneten Dokumentdetails](assets/new-doc-details.png)
 
 #### Überprüfen und Genehmigen mit Frame.io
 
@@ -95,11 +99,15 @@ Sie können Dokumente im neuen Dokumentbereich mit dem Frame.io-Viewer überprü
 
 Weitere Informationen finden Sie unter [Erste Schritte mit der einheitlichen Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
+![Zusammenfassungsbereich zur Überprüfung und Genehmigung geöffnet](assets/new-doc-approvals.png)
+
 #### Verwalten von Versionen
 
 Sie können neue Versionen eines Dokuments im Bereich „Neue Dokumente“ hochladen. Wenn Sie eine neue Version hochladen, wird die vorherige Version beibehalten und kann über das Bedienfeld Zusammenfassung aufgerufen werden. Versionen werden automatisch mit dem Datum und der Uhrzeit des Uploads benannt, können jedoch bei Bedarf umbenannt werden.
 
 Sie können auch einen neuen Genehmigungs-Workflow für eine bestimmte Version eines Dokuments starten.
+
+![Zusammenfassungsbereich, der auf der Registerkarte „Versionen“ geöffnet ist](assets/new-doc-versions.png)
 
 #### Dokumentverlauf anzeigen
 
@@ -109,6 +117,8 @@ Sie können den Verlauf eines Dokuments im Bereich Neue Dokumente anzeigen. Der 
 * Wenn neue Versionen hochgeladen wurden
 * Wenn Genehmigungs-Workflows für das Dokument gestartet wurden
 * Und mehr
+
+![Zusammenfassungsbereich, der auf der Registerkarte „Verlauf“ geöffnet ist](assets/new-doc-history.png)
 
 ### Ordner auf Systemebene für Dokumentberechtigungen
 
