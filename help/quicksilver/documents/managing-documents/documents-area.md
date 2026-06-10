@@ -10,17 +10,13 @@ exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/IdrQfkprrzF-Jt-ZwlnVfvIO07B2ejvbOLhbAhPh8Lc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: ea4de44f0669ca78eabe9f35f94f49fee2e5d016
 workflow-type: tm+mt
-source-wordcount: 822
+source-wordcount: 850
 ht-degree: 1%
 
 ---
@@ -69,13 +65,13 @@ Sobald eine Korrekturabzugsentscheidung getroffen wurde, wird sie in der Dokumen
 
 ### Ordner
 
-Sie können Ordner zum Organisieren von Dokumenten einrichten. Weitere Informationen finden Sie unter [Erstellen von &#x200B;](../../documents/organizing-documents/create-documents-folder.md).
+Sie können Ordner zum Organisieren von Dokumenten einrichten. Weitere Informationen finden Sie unter [Erstellen von ](../../documents/organizing-documents/create-documents-folder.md).
 
 Im Bereich Globale Dokumente können Sie zwei Arten von Ordnern einrichten, um die Dokumente zu organisieren, auf die Sie Zugriff haben:
 
 * **Intelligente Ordner:** Zeigt nur die Dokumente an, die angezeigt werden sollen. Weitere Informationen finden Sie unter [Erstellen und Verwalten von Smart Folders](../../documents/organizing-documents/create-manage-smart-folders.md).
 
-* **Meine Ordner** Dokumente nach Ihren Wünschen organisieren. Weitere Informationen finden Sie unter [Erstellen von &#x200B;](../../documents/organizing-documents/create-documents-folder.md).
+* **Meine Ordner** Dokumente nach Ihren Wünschen organisieren. Weitere Informationen finden Sie unter [Erstellen von ](../../documents/organizing-documents/create-documents-folder.md).
 
 ### Erweiterte Dokumentdetails
 
@@ -85,9 +81,13 @@ Die Seite Dokumentdetails enthält eine umfangreichere Version der Dokumentdetai
 
 Der Bereich Neue Dokumente ist nur für verfügbar, wenn sich Ihr Unternehmen im Adobe Cloud-Speicher befindet. Weitere Informationen zu Adobe Cloud-Speicher finden Sie unter [Übersicht über Adobe Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
+![Bereich „Neue Dokumente“](assets/new-doc-area.png)
+
 ### Verwenden des Bedienfelds „Zusammenfassung“
 
 Wenn Sie ein Dokument im Bereich Dokumente auswählen, können Sie im Bedienfeld Zusammenfassung auf der rechten Seite Details zum Dokument anzeigen, angehängte benutzerdefinierte Formulare hinzufügen und bearbeiten, Genehmigungs-Workflows erstellen und verwalten, Versionen des Dokuments anzeigen und vieles mehr.
+
+![Zusammenfassungsbereich mit geöffneten Dokumentdetails](assets/new-doc-details.png)
 
 #### Überprüfen und Genehmigen mit Frame.io
 
@@ -95,11 +95,15 @@ Sie können Dokumente im neuen Dokumentbereich mit dem Frame.io-Viewer überprü
 
 Weitere Informationen finden Sie unter [Erste Schritte mit der einheitlichen Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
+![Zusammenfassungsbereich zur Überprüfung und Genehmigung geöffnet](assets/new-doc-approvals.png)
+
 #### Verwalten von Versionen
 
 Sie können neue Versionen eines Dokuments im Bereich „Neue Dokumente“ hochladen. Wenn Sie eine neue Version hochladen, wird die vorherige Version beibehalten und kann über das Bedienfeld Zusammenfassung aufgerufen werden. Versionen werden automatisch mit dem Datum und der Uhrzeit des Uploads benannt, können jedoch bei Bedarf umbenannt werden.
 
 Sie können auch einen neuen Genehmigungs-Workflow für eine bestimmte Version eines Dokuments starten.
+
+![Zusammenfassungsbereich, der auf der Registerkarte „Versionen“ geöffnet ist](assets/new-doc-versions.png)
 
 #### Dokumentverlauf anzeigen
 
@@ -109,6 +113,8 @@ Sie können den Verlauf eines Dokuments im Bereich Neue Dokumente anzeigen. Der 
 * Wenn neue Versionen hochgeladen wurden
 * Wenn Genehmigungs-Workflows für das Dokument gestartet wurden
 * Und mehr
+
+![Zusammenfassungsbereich, der auf der Registerkarte „Verlauf“ geöffnet ist](assets/new-doc-history.png)
 
 ### Ordner auf Systemebene für Dokumentberechtigungen
 
