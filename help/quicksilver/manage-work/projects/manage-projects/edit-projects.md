@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
 workflow-type: tm+mt
-source-wordcount: 7941
+source-wordcount: 7980
 ht-degree: 2%
 
 ---
@@ -303,7 +303,9 @@ Informationen zum Erstellen eines Projekts über eine Vorlage finden Sie unter [
       <p><b>NOTIZEN</b></p>
       <ul>
       <li>Sie müssen über Verwaltungsberechtigungen für das Portfolio verfügen, um es zum Projekt hinzufügen oder daraus entfernen zu können.</li>
-      <li>Wenn Ihr Unternehmen sowohl den alten Workfront- als auch den Adobe-Cloud-Speicher verwendet, können Sie keine Aufgaben zwischen Projekten kopieren, die unterschiedliche Speichertypen verwenden. Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Arten von Dokumentspeicher.</li></ul> 
+      <li>Wenn Ihr Unternehmen sowohl den alten Workfront- als auch den Adobe-Cloud-Speicher verwendet, können Sie keine Aufgaben zwischen Projekten kopieren, die unterschiedliche Speichertypen verwenden. </li>
+      <li>Sie können kein älteres Speicherprojekt in ein Adobe-Cloud-Speicherportfolio oder -Programm oder ein Adobe-Cloud-Speicherprojekt in ein älteres Portfolio oder Programm verschieben.</li>
+      </ul> <p>Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Arten von Dokumentspeicher.</p>
       Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md">Übersicht über das Dokumentenmanagement für Projekte und verwandte Objekte</a>. 
       </td> 
       </tr> 
