@@ -15,10 +15,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 784f376722301da9d450a4021d1d24ffc21f3165
 workflow-type: tm+mt
-source-wordcount: 171
-ht-degree: 35%
+source-wordcount: 244
+ht-degree: 24%
 
 ---
 
@@ -70,3 +70,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
    ![Proofing_Viewer_toolbar_button_-_download.png](assets/proofing-viewer-toolbar-button---download.png)
 
 1. Navigieren Sie zu dem Speicherort auf Ihrem Dateisystem, an den Sie den Korrekturabzug herunterladen möchten, und klicken Sie dann auf **Speichern**.
+
+   >[!NOTE]
+   >
+   >Wenn ein Korrekturabzug mehrere Dateien enthält, generiert Workfront eine ZIP-Datei. Wenn zwei oder mehr Dateien im Korrekturabzug denselben Dateinamen teilen, enthält die ZIP-Datei nur eine Kopie dieser Datei. Daher kann die Anzahl der Dateien in der ZIP-Datei geringer sein als die Anzahl der Dateien, die in der Korrekturabzugsansicht angezeigt wird. Ein Korrekturabzug mit 5 Dateien, bei denen 2 benannt sind, erzeugt `document.pdf` eine ZIP-Datei mit 4 Dateien.
