@@ -4,9 +4,9 @@ description: Weitere Verbesserungen im Zeitraum der Veröffentlichung im dritten
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a207fe30b02ed006d37bd07a72274e085db68e60
+source-git-commit: a678a987703240680368b34c4095637b59a8bb60
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '706'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,15 @@ ht-degree: 1%
 Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom dritten Quartal 2026 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2026 verfügbar sind, finden Sie unter [Versionsübersicht für das dritte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
+
+## Aktualisierungen des Workfront MCP-Connectors
+
+Wir haben folgende Aktualisierungen am Workfront MCP-Connector vorgenommen:
+
+* Wir haben den MCP-Server erweitert, um mit Instanzen in der EU und den USA arbeiten zu können, die sich nicht auf AWS befinden. Jeder MCP-Server kann nur eine Verbindung zu einer Instanz herstellen, ist jedoch nicht mehr auf US-Instanzen auf AWS beschränkt.
+* Um die Flexibilität des Workfront MCP-Connectors zu erweitern, haben wir die Möglichkeit hinzugefügt, Claude zu verbinden. Jetzt können Sie Workfront in der Liste der Connectoren in Claude finden oder direkt über eine URL verbinden.
+
+Weitere Informationen und Anweisungen finden Sie unter [Konfigurieren des Adobe Workfront MCP-Servers](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
 
 
 ## Aktualisiertes Erscheinungsbild für E-Mails mit Kommentarbenachrichtigungen
