@@ -5,10 +5,10 @@ title: Konfigurieren des Adobe Workfront MCP-Servers
 description: Konfigurieren Sie Ihre Workfront-Instanz und Ihre KI-Agentenplattform, damit Sie über Konversationen in natürlicher Sprache mit Workfront arbeiten können.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 648342f0002046febba1b8e751bc1cffec2c1346
+source-git-commit: fd2f78e3dbeb29885f9c3045af9cb6f3278cd314
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 0%
+source-wordcount: '1690'
+ht-degree: 1%
 
 ---
 
@@ -34,8 +34,12 @@ Dieser Artikel führt Sie durch die Schritte zur Verbindung von:
 * [!DNL Claude]
 * [!DNL ChatGPT]
 
-Wenn Sie eine andere MCP-kompatible KI-Agent-Plattform verwenden (z. B. [!DNL Gemini] oder [!DNL Microsoft Copilot]), führen Sie die Schritte zum Hinzufügen eines benutzerdefinierten MCP-Servers in der Dokumentation dieser Plattform aus. Wenn Sie nach der URL des MCP-Servers gefragt werden, geben Sie Folgendes ein: `https://mcp.workfront.adobe.com/mcp/v1/workfront`
+Wenn Sie eine andere MCP-kompatible KI-Agent-Plattform verwenden (z. B. [!DNL Gemini] oder [!DNL Microsoft Copilot]), führen Sie die Schritte zum Hinzufügen eines benutzerdefinierten MCP-Servers in der Dokumentation dieser Plattform aus. Wenn Sie nach der URL des MCP-Servers gefragt werden, geben Sie die URL für Ihre Region ein:
 
+| Region | URL |
+| --- | --- |
+| US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
+| EU | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
 
 ## Voraussetzungen
 
@@ -66,38 +70,36 @@ Sie stellen eine Verbindung zu Workfront einmal pro [!DNL Claude] her. Die Verbi
 
 ### Verbinden mit Claude Desktop über das Connector-Verzeichnis
 
-Bald verfügbar.
+>[!IMPORTANT]
+>
+>Derzeit unterstützt der Claude-Connector nur die Verbindung zum Workfront MCP-Server in der US-Region.  Informationen zum Verbinden mit einer Workfront-Instanz in der EU-Region finden Sie unter [Verbinden mit Claude Desktop mit einer URL](#connect-to-claude-desktop-with-a-url) in diesem Artikel.
 
-<!--
++++ Erweitern Sie , um eine schrittweise Anleitung zum Verbinden von Workfront mit [!DNL Claude] anzuzeigen.
 
-+++ Expand to view step-by-step instructions for connecting Workfront to [!DNL Claude].
+So verbinden Sie Workfront mit [!DNL Claude]:
 
-To connect Workfront to [!DNL Claude]:
+1. Öffnen Sie [!DNL Claude].
 
-1. Open [!DNL Claude].
-
-1. Navigate to the connectors area.
-
-
-
-1. Find **[!DNL Adobe Workfront]** in the connector list.
-
-   If you don't see it, see [Admin prerequisites](#admin-prerequisites) in this article.
-
-1. Click **Connect**.
+1. Navigieren Sie zum Bereich Connectoren .
 
 
 
-1. When prompted, log in to your Workfront instance.
+1. Suchen Sie **[!DNL Adobe Workfront]** in der Connector-Liste.
+
+   Falls Sie sie nicht sehen, lesen Sie [Admin-Voraussetzungen](#admin-prerequisites) in diesem Artikel.
+
+1. Klicken Sie auf **Verbinden**.
 
 
-1. After authentication completes, you're connected.
+
+1. Melden Sie sich bei Aufforderung bei Ihrer Workfront-Instanz an.
+
+
+1. Nach Abschluss der Authentifizierung besteht eine Verbindung.
 
 
 
 +++
-
--->
 
 ### Verbindung zum Claude-Desktop über eine URL herstellen
 
@@ -105,13 +107,26 @@ To connect Workfront to [!DNL Claude]:
 
 So verbinden Sie Workfront mit [!DNL Claude] über eine URL:
 
-1. Melden Sie sich mit Ihren [&#x200B; bei &#x200B;](https://claude.ai)Claude“ an.
+1. Melden Sie sich mit Ihren [ bei ](https://claude.ai)Claude“ an.
 1. Wählen Sie im linken Menü das Symbol **Anpassen** aus.
 1. Wählen Sie **Connectoren** und klicken Sie dann auf das Symbol **+** , um einen Connector hinzuzufügen.
 1. Klicken Sie auf **Schaltfläche „App**&quot;.
-1. Geben Sie dem Connector einen gewünschten Namen (z. B. &quot;Workfront„) und die gewünschte MCP-Server-URL ein: `https://mcp.workfront.adobe.com/mcp/v1/workfront`
+1. Geben Sie dem Connector einen gewünschten Namen (z. B. &quot;Workfront„) und die gewünschte MCP-Server-URL ein:
+
+   | Region | URL |
+   | --- | --- |
+   | US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
+   | EU | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
 
 1. Nachdem der Connector erstellt wurde, wird ein Anmeldefenster angezeigt. Authentifizieren Sie sich mit Ihren Adobe ID-Anmeldeinformationen. Stellen Sie sicher, dass Sie die gewünschte Workfront-Instanz auswählen, wenn Sie zu mehreren gehören.
+
+   >HINWEIS:
+   >
+   >Ihre Workfront-Instanz muss eine Verbindung mit dem MCP-Server für die Region für diese Instanz herstellen. Beispielsweise muss eine EU-Instanz eine Verbindung zum MCP-Server der EU herstellen.
+   >
+   >Wenn Sie eine Instanz auswählen, werden Instanzen, die nicht mit der Region des MCP-Servers kompatibel sind, ausgegraut angezeigt und Sie können keine Verbindung zu ihnen herstellen.
+   >
+   >Um eine Verbindung zu einer Instanz herzustellen, die nicht mit der Region des MCP-Servers kompatibel ist, richten Sie eine neue MCP-Verbindung mit der richtigen URL für diese Region ein.
 
 +++
 
@@ -123,13 +138,28 @@ Um mehr über [!DNL Claude] Fähigkeiten zu erfahren, lesen Sie die [Claude-Benu
 
 ## Mit ChatGPT verbinden
 
-1. Melden Sie sich mit Ihren [&#x200B; bei &#x200B;](https://chatgpt.com)ChatGPT) an.
+1. Melden Sie sich mit Ihren [ bei ](https://chatgpt.com)ChatGPT) an.
 1. Wählen Sie unten links &quot;**&quot;** → **Einstellungen**.
 1. Wählen Sie **Apps** aus und aktivieren Sie dann **Entwicklermodus**.
 1. Klicken Sie auf **Schaltfläche „App**&quot;.
-1. Geben Sie der App einen gewünschten Namen (z. B. &quot;Workfront„) und die gewünschte MCP-Server-URL ein: `https://mcp.workfront.adobe.com/mcp/v1/workfront`
+1. Geben Sie der App einen gewünschten Namen (z. B. &quot;Workfront„) und die gewünschte MCP-Server-URL ein:
+
+   | Region | URL |
+   | --- | --- |
+   | US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
+   | EU | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+
 1. Stellen Sie sicher, dass die Authentifizierung auf **OAuth** (standardmäßig festgelegt) eingestellt ist, und aktivieren Sie das Kontrollkästchen Akzeptanz , um fortzufahren.
 1. Nachdem die App erstellt wurde, wird ein Anmeldefenster angezeigt. Authentifizieren Sie sich mit Ihren Adobe ID-Anmeldeinformationen. Stellen Sie sicher, dass Sie die gewünschte Workfront-Instanz auswählen, wenn Sie zu mehreren gehören.
+
+   >HINWEIS:
+   >
+   >Ihre Workfront-Instanz muss eine Verbindung mit dem MCP-Server für die Region für diese Instanz herstellen. Beispielsweise muss eine EU-Instanz eine Verbindung zum MCP-Server der EU herstellen.
+   >
+   >Wenn Sie eine Instanz auswählen, werden Instanzen, die nicht mit der Region des MCP-Servers kompatibel sind, ausgegraut angezeigt und Sie können keine Verbindung zu ihnen herstellen.
+   >
+   >Um eine Verbindung zu einer Instanz herzustellen, die nicht mit der Region des MCP-Servers kompatibel ist, richten Sie eine neue MCP-Verbindung mit der richtigen URL für diese Region ein.
+
 
 ### Anpassen des ChatGPT-Verhaltens mit benutzerdefinierten GPTs
 
@@ -162,7 +192,14 @@ So stellen Sie eine Verbindung zu einer anderen Workfront-Instanz her:
 
 >[!NOTE]
 >
->Durch die Abmeldung allein wird die Workfront-Instanz nicht gewechselt. Sie müssen den Stecker trennen und erneut anschließen.
+>* Durch die Abmeldung allein wird die Workfront-Instanz nicht gewechselt. Sie müssen den Stecker trennen und erneut anschließen.
+>
+>* Ihre Workfront-Instanz muss eine Verbindung mit dem MCP-Server für die Region für diese Instanz herstellen. Beispielsweise muss eine EU-Instanz eine Verbindung zum MCP-Server der EU herstellen.
+>
+>   Wenn Sie eine Instanz auswählen, werden Instanzen, die nicht mit der Region des MCP-Servers kompatibel sind, ausgegraut angezeigt und Sie können keine Verbindung zu ihnen herstellen.
+>
+>   Um eine Verbindung zu einer Instanz herzustellen, die nicht mit der Region des MCP-Servers kompatibel ist, richten Sie eine neue MCP-Verbindung mit der richtigen URL für diese Region ein.
+
 
 <!--
 
@@ -175,7 +212,13 @@ So stellen Sie eine Verbindung zu einer anderen Workfront-Instanz her:
 
 To set up the connection between Gemini and the Workfront MCP server, follow the instructions provided by Google for [connecting Gemini to external tools using MCP](https://docs.cloud.google.com/gemini/enterprise/docs/connectors/custom-mcp-server/set-up-custom-mcp-server). 
 
-When prompted for the MCP Server URL, enter the following URL for your Workfront MCP server: `https://mcp.workfront.adobe.com/mcp/v1/workfront`
+When prompted for the MCP Server URL, enter the following URL for your Workfront MCP server:  
+
+   | Region | URL |
+   | --- | --- |
+   | US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
+   | EU | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+   
 -->
 
 <!--
@@ -218,6 +261,7 @@ What happens next
 | Die Authentifizierung ist fehlgeschlagen, oder die Verbindung funktioniert nicht mehr. | Ihre Authentifizierungssitzung ist abgelaufen oder es liegt ein Verbindungsfehler vor. | Den Stecker abziehen und wieder anschließen. |
 | Sie möchten zu einer anderen Workfront-Instanz wechseln. | Eine einzige Verbindung verbindet Sie mit einer Instanz. | Trennen Sie die Verbindung zur neuen Instanz und stellen Sie erneut eine Verbindung her, und authentifizieren Sie sich für sie. |
 | Sie können keine Verbindung zu Workfront herstellen, oder es wird eine Meldung angezeigt, dass der Zugriff auf den MCP-Server deaktiviert ist. | Ihr Workfront-Administrator hat den MCP-Serverzugriff für Ihre Instanz deaktiviert. | Wenden Sie sich an Ihren Workfront-Administrator und bitten Sie ihn, den MCP-Serverzugriff in den Systemeinstellungen zu aktivieren. |
+| Die Workfront-Instanz, mit der Sie eine Verbindung herstellen möchten, ist ausgegraut und es wird eine Meldung angezeigt, dass es für die Verbindung in Ihrer Region nicht verfügbar ist | Ihr MCP-Server ist für eine andere Region (EU oder USA) als Ihre Instanz konfiguriert. | Richten Sie den MCP-Server mit der URL für die Region ein, der Ihre Workfront-Instanz zugewiesen ist. |
 | Die KI-Agentenplattform kann Ihre Workfront-Elemente finden, sie jedoch nicht erstellen, aktualisieren oder löschen. | Ihr Workfront-Administrator hat Schreibaktionen für den Workfront MCP-Server deaktiviert. | Wenden Sie sich an Ihren Workfront-Administrator und bitten Sie ihn, Schreibaktionen in den Systemeinstellungen zu aktivieren. |
 
 Eine tägliche Fehlerbehebung nach der Verbindung (z. B. veraltete Ergebnisse oder unerwartetes Verhalten) finden Sie unter [Verwenden des Adobe Workfront MCP-Servers](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
