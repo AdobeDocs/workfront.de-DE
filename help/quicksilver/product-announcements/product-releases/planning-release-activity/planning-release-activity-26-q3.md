@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: eea70c6013d3f43f78b679bf08f21bb40467940b
 workflow-type: tm+mt
-source-wordcount: '1784'
+source-wordcount: '1919'
 ht-degree: 0%
 
 ---
@@ -30,41 +30,34 @@ In diesem Artikel werden die Funktionen beschrieben, die im dritten Quartal 2026
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 
-<!--
-
-## Interface improvements in the table view
+## Verbesserungen der Benutzeroberfläche in der Tabellenansicht
 
 >[!NOTE]
 >
->Preview: June 11, 2026
->Production fast release: July 15, 2026
->Production for everyone: July 16, 2026
+>Vorschau: 11. Juni 2026>Produktions-Schnellversion: 15. Juli 2026>Produktion für alle: 16. Juli 2026
 
-We have updated the look and feel of the table view for the following areas in Workfront Planning: 
+Das Erscheinungsbild der Tabellenansicht wurde für die folgenden Bereiche in Workfront Planning aktualisiert:
 
-* All record type pages 
+* Alle Datensatztypseiten
 
-* All connected record type pages, except for Projects 
+* Alle verbundenen Datensatztypseiten mit Ausnahme von Projekten
 
-In addition to some navigation changes and design improvements, the following are some improvements included with this update: 
+Neben einigen Navigationsänderungen und Designverbesserungen umfassen einige Verbesserungen in dieser Aktualisierung Folgendes:
 
-* The addition of an aggregation row at the bottom of the table that summarizes number, currency, percentage, and formula fields formatted as numbers. The following aggregators are now available: SUM, AVG, MAX, MIN. 
+* Ein einfacheres Datumsformat mit weniger Formattypen beim Hinzufügen eines Datumsfelds.
 
-* A simpler date format with fewer format types when adding a Date field. 
+* Möglichkeit, beim Hinzufügen eines Datumsfelds eine Zeitzone auszuwählen, die für alle Benutzer sichtbar ist, unabhängig von der Zeitzone ihres Profils.
 
-* Ability to select a time zone visible to all users regardless of their profile's time zone, when adding a Date field. 
+* Entfernung der Zeilennummerierung für ein klareres Erscheinungsbild
 
-* Removal of row numbering for a cleaner look 
+* Auswahlfeld „Persistente Zeile“ anstelle von nur sichtbar, wenn der Mauszeiger über die Zeile bewegt wird
 
-* Persistent row selection box, instead of visible only when hovering on the row 
+* Beständige Spaltentrennlinien für bessere Lesbarkeit
 
-* Persistent column separator lines for better readability 
+* Ein einfacheres Sortiererlebnis beim Sortieren aus einer Spaltenüberschrift
 
-* A simpler sorting experience when sorting from a column header  
+Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
 
-For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).  
-
--->
 
 ## GenStudio for Performance Marketing-Marken können jetzt zu Planungsanfrageformularen hinzugefügt werden
 
@@ -118,7 +111,7 @@ Version 1 bleibt verfügbar, obwohl wir empfehlen, zur Verwendung von Version 2 
 
 Weitere Informationen finden Sie unter [Grundlagen zur Adobe Workfront Planning-API](/help/quicksilver/planning/general/planning-api-basics.md).
 
-Informationen zu den Spezifikationen der Workfront Planning-API finden Sie in der Entwicklerdokumentation zur [Workfront &#x200B;](https://developer.adobe.com/wf-planning/)-API.
+Informationen zu den Spezifikationen der Workfront Planning-API finden Sie in der Entwicklerdokumentation zur [Workfront ](https://developer.adobe.com/wf-planning/)-API.
 
 ## Berechtigungen für Datensätze erteilen
 
@@ -287,7 +280,7 @@ Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfra
 
 >[!NOTE]
 >
->Vorschau und Produktion für alle Kunden: 14. Mai 2026 >[!BADGE &#x200B; Zeitplan]{type=Neutral}
+>Vorschau und Produktion für alle Kunden: 14. Mai 2026 >[!BADGE  Zeitplan]{type=Neutral}
 
 Für eine bessere Sichtbarkeit bei der Arbeit mit AEM-Inhaltsfragmenten, die mit Workfront Planning-Datensätzen verbunden sind, wurde ein Vorschaufenster hinzugefügt, in dem Informationen zu den Fragmenten in Workfront Planning angezeigt werden.
 
