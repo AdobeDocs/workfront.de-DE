@@ -83,7 +83,7 @@ Benutzende müssen über eine Standardlizenz für Workfront verfügen, um eine G
 [Link erforderlich, um Hilfeartikel zum Anfordern der Genehmigung auszudrücken]
 
 <!--
-Learn how to [get approval on designs](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).   
+Learn how to [get approval on designs](https://helpx.adobe.com/de/express/web/share-and-publish/share-and-collaborate/request-approval.html).   
 -->
 
 ## Express-Vorlagen neu mischen und zur Überprüfung und Genehmigung senden
@@ -106,7 +106,7 @@ Wenn kein Projekt ausgewählt ist, wird das Asset standardmäßig in ein Express
 [Link erforderlich, um Hilfeartikel zum Anfordern der Genehmigung auszudrücken]
 
 <!--
-For more information, see [Send templates for review and approval](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html).
+For more information, see [Send templates for review and approval](https://helpx.adobe.com/de/express/web/invite-collaborate/request-approval.html).
 -->
 
 ## Überprüfen und Genehmigen von Remix-Express-Dateien mit Frame.io
