@@ -22,9 +22,9 @@ Wenn Courtney neue Inhalte einbindet - ein Eingangsdokument, Kunden- oder PM-Fee
 
 Selbst wenn der Inhalt „offensichtlich“ in einen bekannten Artikel gehört, werden dennoch 2-3 Alternativen angezeigt, damit Courtney die Platzierung bestätigen kann. Dadurch werden Beinahe-Duplikate und Stellen erfasst, an denen der Inhalt bereits teilweise abgedeckt war.
 
----
+&#x200B;---
 
-# Änderungen vor der Bearbeitung von Hilfeartikeln vorschlagen
+&#x200B;# Änderungen vor der Bearbeitung von Hilfeartikeln vorschlagen
 
 Wenn Sie im Begriff sind, einen `.md` Hilfeartikel unter `help/` zu bearbeiten, **bearbeiten Sie die Datei noch nicht**. Zeigen Sie zunächst an, was Sie ändern möchten, und warten Sie auf die explizite Genehmigung.
 
@@ -43,9 +43,9 @@ Für Änderungen, die mehrere Artikel umfassen: Gruppieren Sie die vorgeschlagen
 
 Dies blockiert **nicht** die schreibgeschützte Recherche (grep, read) oder das Entwerfen/die Untersuchung in Chat (keine Dateischreibvorgänge).
 
----
+&#x200B;---
 
-# Git-Commit-Nachrichten
+&#x200B;# Git-Commit-Nachrichten
 
 Folgen Sie beim Entwerfen oder Generieren einer Git-Commit-Nachricht diesem Format.
 
@@ -71,9 +71,9 @@ Add refresh token rotation to auth flow
 - ✏️ Update session middleware to rotate secrets and revoke old tokens.
 ```
 
----
+&#x200B;---
 
-# Pull-Anforderungen (PRs)
+&#x200B;# Pull-Anforderungen (PRs)
 
 ## Ableiten des Jira-Problems
 
