@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: d5136ed606ab50c403552a4be9ee5dc845b27eaa
+source-git-commit: 298865bbcdab40cda887d939529561e13a9ed093
 workflow-type: tm+mt
-source-wordcount: '14170'
+source-wordcount: '14175'
 ht-degree: 94%
 
 ---
@@ -807,6 +807,7 @@ ht-degree: 94%
       * [Importieren von Tarifkarten aus einer Vorlage](/help/quicksilver/administration-and-setup/manage-enterprise-operations/import-rate-cards.md)
       * [Änderungen der Push-Rate an Projekten](/help/quicksilver/administration-and-setup/manage-enterprise-operations/push-rates-to-projects.md)
       * [Tarifkarte freigeben](/help/quicksilver/administration-and-setup/manage-enterprise-operations/share-rate-cards.md)
+      * [Anzeigen und Verwalten des Änderungsverlaufs](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)
    * Konfigurieren von Integrationen {#configure-integrations}
       * [Konfigurieren von Integrationen](administration-and-setup/configure-integrations/workfront-integrations.md)
       * [Adobe Workfront-Integrationen](administration-and-setup/configure-integrations/workfront-integrations-1.md)
