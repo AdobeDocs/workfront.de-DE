@@ -21,7 +21,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
 workflow-type: tm+mt
 source-wordcount: 1087
 ht-degree: 1%
@@ -244,8 +244,12 @@ Möglicherweise verfügen Sie über ein Feld mit einer einzigen Auswahl namens S
 So fügen Sie beim Bearbeiten eines Datensatzes einem vorhandenen Auswahlfeld eine neue Auswahl hinzu:
 
 1. Wechseln Sie zu einer Seite vom Typ Datensatz und öffnen Sie die Tabellenansicht.
-1. Fügen Sie das Einzel- oder Mehrfachauswahlfeld, dem Sie eine Auswahl hinzufügen möchten, in der Tabellenansicht als neue Spalte hinzu. Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
+1. Fügen Sie das Einzel- oder Mehrfachauswahlfeld, dem Sie eine Auswahl hinzufügen möchten, in der Tabellenansicht als neue Spalte hinzu.
+
+   Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
+
 1. Beginnen Sie mit der Inline-Bearbeitung des Felds, indem Sie auf die Zelle für das Feld doppelklicken.
+
 1. Geben Sie den Namen der Auswahl ein, die Sie hinzufügen möchten, und klicken Sie dann auf **Auswahl hinzufügen**.
 
    ![Auswahl im Einzelauswahlfeld in der Tabellenansicht hinzufügen](assets/add-choice-in-table-view-for-single-select-field.png)

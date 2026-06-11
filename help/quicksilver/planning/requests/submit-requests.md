@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
 workflow-type: tm+mt
-source-wordcount: 2592
+source-wordcount: 2603
 ht-degree: 1%
 
 ---
@@ -254,11 +254,12 @@ Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformula
    >
    >  <div class="preview">
    >
-   >   * Das Bearbeiten einer Anfrage ist nur möglich, wenn ein Datensatz noch nicht erstellt wurde und die Anfrage auf Genehmigung wartet.
-   >   * Einige Felder sind schreibgeschützt und können nicht bearbeitet werden.
-   >  * Sie können eine Anfrage nicht mehr bearbeiten, nachdem ein Datensatz daraus erstellt wurde.
+   >* Das Bearbeiten einer Anfrage ist nur möglich, wenn ein Datensatz noch nicht erstellt wurde und die Anfrage auf Genehmigung wartet.
+   >* Einige Felder sind schreibgeschützt und können nicht bearbeitet werden.
+   >* Sie können eine Anfrage nicht mehr bearbeiten, nachdem ein Datensatz daraus erstellt wurde.
    >
    >  </div>
+1. <span class="preview">(Optional) Klicken Sie nach der Bearbeitung der Anfrage auf **Änderungen übermitteln**.</span>
 1. (Bedingt) Wenn das Anfrageformular nicht mit einer Genehmigung verknüpft ist oder die Anfrage genehmigt wurde, klicken Sie auf den Namen der Anfrage und dann auf den Namen des Datensatzes im Feld **Erstelltes** Objekt“.
 
    Die Seite des Datensatzes wird in Workfront Planning geöffnet.
@@ -268,6 +269,7 @@ Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformula
    >* Wenn das Primärfeld des Datensatzes im Anfrageformular nicht aktualisiert wurde, wird der Name des Datensatzes im Datensatzfeld der Anfrage als „Nicht **&quot;**.
    >
    >* Wenn das Anfrageformular mit einer Genehmigung verknüpft ist, muss die Genehmigung erteilt werden, bevor Sie auf den Datensatz auf der Anfrageseite zugreifen können. Der Datensatz wird erst erstellt, wenn die Genehmigung erteilt wurde.
+   >  Informationen zum Genehmigen von Anfragen finden Sie unter [Genehmigen einer Anfrage in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).
 
 1. (Optional) Klicken Sie auf den Namen des **Datensatztyps**.
 

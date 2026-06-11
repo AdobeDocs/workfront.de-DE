@@ -19,20 +19,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: b4a1643db287af5c9f641caf26ab9a8214adcb44
 workflow-type: tm+mt
-source-wordcount: 3499
+source-wordcount: 6148
 ht-degree: 2%
 
 ---
 
 # Verwalten der Tabellenansicht
 
-<!--
-<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Die auf dieser Seite hervorgehobenen Informationen beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -158,18 +158,9 @@ Weitere Informationen zum Bearbeiten von Datensätzen in der Tabellenansicht fin
 
 ## Verwalten einer Tabellenansicht {#manage-a-table-view}
 
-<!--
-Depending on what environment you access record types from, the record type page displays using two different views: 
+<span class="preview">Die Verwaltung der Tabellenansicht unterscheidet sich je nach der Umgebung, über die Sie darauf zugreifen. </span>
 
-* Table view, in the Production environment
-* <span class="preview">List view, in the Preview environment</span>
-
-OR: 
-
-If the List view in Project connected pages and request forms stays the same after GTable rolls out - keep that list as the List view and change the Table view in this article to "Table redesigned view" for now; keep it "the table view" here for the future; for the time being, just say "Updating the view in Prod and Preview is different and make the separate sections for Preview and Prod below with the different steps.
-
-### Manage the table view in the Production environment
--->
+## Verwalten der Tabellenansicht in der Produktionsumgebung
 
 Beim Erstellen einer Tabellenansicht werden alle Datensätze des ausgewählten Typs in einer Tabelle angezeigt. Jede Zeile ist ein eindeutiger Datensatz und jede Spalte ist ein Datensatzfeld. Standardmäßig werden alle Felder und Datensätze angezeigt.
 
@@ -627,131 +618,134 @@ Wenn Sie die Tabellenansicht anzeigen, können Sie auch anzeigen, welches Feld e
 >
 >In Echtzeit-Präsenzindikatoren werden Benutzende angezeigt, die derzeit ein Feld an einer beliebigen Stelle in Workfront Planning bearbeiten. Dazu gehören entweder die Tabellenansicht oder der Detailbereich des Datensatzes.
 
-<!--
+
 
 <div class="preview">
 
-### Manage the list view in the Preview environment
+## Verwalten der Listenansicht in der Vorschau-Umgebung
 
-**********MAYBE THIS IS VALID ONLY WHEN WE REPLACE THE NAVIGATION?????????*********
+<!--********** MAYBE THIS IS VALID ONLY WHEN WE REPLACE THE NAVIGATION ?????????*********-->
 
-(*****************Maybe add this when they remove the list view from connection pages and request form list: In the Preview environment, the table view has been replaced with the list view. *******************)
+<!-- In the Preview environment, the table view has been replaced with the list view. *******************-->
 
+<!--
 *******************IF THEY REPLACE THE LIST VIEW (IN PROJECTS AND FORMS) WITH THE NEW LIST, THEN JUST UPDATE THAT ARTICLE - "MANAGE THE LIST VIEW" - AND ADD A LINK TO IT HERE; IF NOT, THEN ADD THE SPECIFICS OF THE VIEW HERE**************
+-->
 
-When creating a table view, all records of the selected type display in a table. Each row is a unique record and each column is a record field. All fields and all records display by default. 
+Beim Erstellen einer Tabellenansicht werden alle Datensätze des ausgewählten Typs in einer Tabelle angezeigt. Jede Zeile ist ein eindeutiger Datensatz und jede Spalte ist ein Datensatzfeld. Standardmäßig werden alle Felder und Datensätze angezeigt.
 
-To manage a table view: 
+Verwalten einer Tabellenansicht:
 
-1. Create a table view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
+1. Erstellen Sie eine Tabellenansicht, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
 
-    ![Table view example](assets/table-view-example-g-list.png)
+   ![Beispiel für eine Tabellenansicht](assets/table-view-example-g-list.png)
 
-1. (Optional) Click **Row height**, then select from the following options to modify the height of the table rows: 
-    * Short
-    * Standard
-    * Medium
-    * Tall 
+1. (Optional) Klicken Sie auf **Zeilenhöhe** und wählen Sie dann eine der folgenden Optionen, um die Höhe der Tabellenzeilen zu ändern:
+   * Kurz
+   * Standard
+   * Mittel
+   * Groß
 
-1. (Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.
+1. (Optional) Klicken Sie auf das **Vollbildsymbol**-Symbol ![Vollbildsymbol öffnen](assets/open-full-screen-icon.png) um die Ansicht im Vollbildmodus zu öffnen. Klicken Sie dann auf das **Vollbildsymbol beenden**-Symbol ![Vollbildsymbol beenden](assets/exit-full-screen-icon.png) oder auf der Tastatur auf Esc , um den Vollbildmodus zu verlassen.
 
-1. Update the following view elements as described in the subsections below:
-    * [Columns (or fields)](#add-columns-or-fields)
-    * [Rows (or records)](#add-rows-or-records)
-    * [Filters](#add-filters) 
-    * [Sort](#add-a-sort) 
-    * [Grouping](#add-groupings)
-    * [Row colors](#add-row-colors)
-    * [Real-time presence indicator](#enable-the-real-time-presence-indicator)
-
-
-### Add columns (or fields) {#add-columns}
-
-The column headers of a table view display fields associated with the records in the view. Fields displayed in the table view also display in the Details section of a record. 
-
-For more information, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
-
-Adding columns to a view is identical to adding fields to a record type.  
-
-You can add up to 500 fields (or columns) in a table view. 
-
-1. Go to a record type page and click a table view tab, or click **+ View** to add a new view, then choose **Table**. 
-
-1. Start adding fields (or columns), as described in the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
-
-    The columns you add are visible to all users who access the record type and are added as new fields on the record's page.
-
-1. (Optional) Click the **Fields** icon ![Fields icon](assets/fields-icon.png) in the toolbar, search for a field, then unselect the toggle to the right of the field name to hide the field. 
-   
-1. Do one of the following to reorder columns in the table:
-
-    * Grab the column header and drag and drop it in the desired position. The column you moved briefly displays with a blue background until you make other adjustments to the table. 
-
-    * Click **Fields** in the table's toolbar, then drag and drop the fields in the desired order, then click outside the **Fields visibility and order** box to close it.
-        
-        ![Fields setting table view toolbar expanded](assets/fields-setting-table-view-toolbar-expanded.png)
-
-        >[!TIP]
-        >
-        >* The Name field is always the first field in the table view, by default. This is considered a primary field. 
-        >
-        >* You cannot move the Name field to another position, unless you designate another field as the primary field. For more information, continue with Step 5. **********************accurate?**************
-        >
-        >
- 
-    * Replace the field in the first column with another field by changing the primary field. For more information, continue to step 5. **********************accurate?**************
-
-1. (Optional) Hover over a field name in the column header of any field that does not display in the first column of the table, click the downward-pointing arrow to the right of the field name, then click **Set as primary field**. 
-    
-    ![Set as primary field option in table view](assets/set-as-primary-field-option-table-view.png)
+1. Aktualisieren Sie die folgenden Ansichtselemente wie in den folgenden Unterabschnitten beschrieben:
+   * [Spalten (oder Felder)](#add-columns-or-fields)
+   * [Zeilen (oder Datensätze)](#add-rows-or-records)
+   * [Filter](#add-filters)
+   * [sort](#add-a-sort)
+   * [Gruppierung](#add-groupings)
+   * [Zeilenfarben](#add-row-colors)
+   * [Echtzeit-Präsenz-Indikator](#enable-the-real-time-presence-indicator)
 
 
-1. Click **Set field** to confirm. 
+### Spalten (oder Felder) hinzufügen {#add-columns-1}
 
-    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves to the second column.
+Die Spaltenüberschriften einer Tabellenansicht zeigen Felder an, die mit den Datensätzen in der Ansicht verknüpft sind. Die in der Tabellenansicht angezeigten Felder werden auch im Abschnitt Details eines Datensatzes angezeigt.
 
-    Primary fields become the record's title and display in the header area of the record's page, and everywhere where the records display. For example, the record title displays in connected fields and all views. For more information about primary fields, see [Primary field overview](/help/quicksilver/planning/fields/primary-field-overview.md). 
+Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).
 
-    >[!TIP]
-    >
-    >Click on the **information** icon ![Information icon](assets/info-icon.png) to the right of the field name in a column to view its **Description**.
+Das Hinzufügen von Spalten zu einer Ansicht entspricht dem Hinzufügen von Feldern zu einem Datensatztyp.
 
-1. Click and drag the column separation lines and drop them in the desired spot to increase the width of the columns. 
+Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufügen.
 
-    >[!TIP]
-    >
-    >The changes you make to the column width and order are permanent and visible to all users who access the same view. 
+1. Wechseln Sie zu einer Seite vom Typ Datensatz und klicken Sie auf eine Registerkarte Tabellenansicht oder klicken Sie auf **+ Ansicht** um eine neue Ansicht hinzuzufügen, und wählen Sie dann **Tabelle** aus.
 
-1. Hover over the column header, then click the downward-pointing arrow, then click **Hide field**
+1. Beginnen Sie mit dem Hinzufügen von Feldern (oder Spalten), wie im Artikel [Erstellen von Feldern](/help/quicksilver/planning/fields/create-fields.md) beschrieben.
 
-    Or
+   Die hinzugefügten Spalten sind für alle Benutzer sichtbar, die auf den Datensatztyp zugreifen, und werden als neue Felder auf der Datensatzseite hinzugefügt.
 
-    Click **Fields** in the table toolbar and deselect the toggle associated with the fields (or columns) you want to hide. The **Fields visibility and order** box displays.
+1. (Optional) Klicken Sie auf das **Felder**-Symbol ![Felder-Symbol](assets/fields-icon.png) in der Symbolleiste, suchen Sie nach einem Feld und heben Sie dann die Auswahl des Umschalters rechts neben dem Feldnamen auf, um das Feld auszublenden.
 
-    >[!TIP]
-    >
-    >The number of hidden fields displays to the left of the Fields icon in the toolbar.
-    >
-    >By default, hidden fields do not display in the record's **Details** preview box. All fields display in the record's Details page. For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
+1. Führen Sie einen der folgenden Schritte aus, um die Spalten in der Tabelle neu anzuordnen:
+
+   * Nehmen Sie die Spaltenüberschrift und ziehen Sie sie per Drag-and-Drop an die gewünschte Position. Die verschobene Spalte wird kurz mit einem blauen Hintergrund angezeigt, bis Sie andere Anpassungen an der Tabelle vornehmen.
+
+   * Klicken Sie **der Symbolleiste der** auf „Felder“, ziehen Sie die Felder per Drag-and-Drop in die gewünschte Reihenfolge und klicken Sie dann außerhalb des Felds **Sichtbarkeit und Reihenfolge**, um es zu schließen.
+
+     ![Symbolleiste für die Tabellenansicht der Feldeinstellungen erweitert](assets/fields-setting-table-view-toolbar-expanded.png)
+
+     >[!TIP]
+     >
+     >* Standardmäßig ist das Feld Name immer das erste Feld in der Tabellenansicht. Dies wird als primäres Feld betrachtet.
+     >
+     >* Das Feld Name kann nur dann an eine andere Position verschoben werden, wenn Sie ein anderes Feld als primäres Feld angeben. Weitere Informationen finden Sie in Schritt 5. <!--**********************accurate?**************-->
+     >
+     >
+
+   * Ersetzen Sie das Feld in der ersten Spalte durch ein anderes Feld, indem Sie das primäre Feld ändern. Weitere Informationen finden Sie in Schritt 5. <!--**********************accurate?**************-->
+
+1. (Optional) Bewegen Sie den Mauszeiger über einen Feldnamen in der Spaltenüberschrift eines Felds, das nicht in der ersten Spalte der Tabelle angezeigt wird, klicken Sie auf den nach unten zeigenden Pfeil rechts neben dem Feldnamen und dann auf **Als Primärfeld festlegen**.
+
+   ![Option „Als Primärfeld festlegen“ in der Tabellenansicht](assets/set-as-primary-field-option-table-view.png)
 
 
-1. Click the **Fields** icon and select the toggle associated with the fields you want to display in the columns of the table. All fields display by default.
+1. Klicken Sie **Bestätigung auf** Feld festlegen“.
 
-1. Do the following to quickly find records that match a keyword:
+   Das Feld wird zu einem primären Feld, d. h. es wird als erste Spalte der Tabellenansicht angezeigt. Das vorherige primäre Feld wird in die zweite Spalte verschoben.
 
-    1. In the **Search** box ![Search icon](assets/search-icon.png) start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the field with the correct match is highlighted. 
+   Primäre Felder werden zum Titel des Datensatzes und werden im Kopfzeilenbereich der Datensatzseite und überall dort angezeigt, wo die Datensätze angezeigt werden. Beispielsweise wird der Datensatztitel in verbundenen Feldern und in allen Ansichten angezeigt. Weitere Informationen zu Primärfeldern finden Sie unter [Übersicht über Primäre Felder](/help/quicksilver/planning/fields/primary-field-overview.md).
 
-        ![Search box with results blue outline in table view](assets/search-box-with-results-blue-outline-table-view.png)
+   >[!TIP]
+   >
+   >Klicken Sie auf das **information**-Symbol ![information icon](assets/info-icon.png) rechts neben dem Feldnamen in einer Spalte, um deren **anzuzeigen**.
 
-        You can use any word or special character that is visible on the screen. 
-    
-        You cannot use keywords that are associated with fields that are hidden in the table view. 
+1. Klicken und ziehen Sie die Spaltentrennlinien und legen Sie sie an der gewünschten Stelle ab, um die Breite der Spalten zu erhöhen.
 
-    1. Press **Enter** on your keyboard to go to the next found field. 
+   >[!TIP]
+   >
+   >Die Änderungen an der Spaltenbreite und -reihenfolge sind dauerhaft und für alle Benutzer sichtbar, die auf dieselbe Ansicht zugreifen.
 
-    1. (Optional) If there is more than one match, click the up and down arrows to the right of the search keyword to find all the matches in the table. 
+1. Bewegen Sie den Mauszeiger über die Spaltenüberschrift, klicken Sie dann auf den nach unten zeigenden Pfeil und dann auf **Feld ausblenden**
 
-    1. Click the **x** icon in the search box to clear the search keyword. 
+   ODER
+
+   Klicken Sie **der** auf „Felder“ und heben Sie die Auswahl der Umschaltfläche auf, die mit den Feldern (oder Spalten) verknüpft ist, die Sie ausblenden möchten. Das Feld **Sichtbarkeit und Reihenfolge** wird angezeigt.
+
+   >[!TIP]
+   >
+   >Die Anzahl der ausgeblendeten Felder wird links neben dem Symbol Felder in der Symbolleiste angezeigt.
+   >
+   >Standardmäßig werden ausgeblendete Felder nicht im Vorschaufeld (Details **des** angezeigt. Alle Felder werden auf der Detailseite des Datensatzes angezeigt. Weitere Informationen finden Sie unter [Seitenlayout für Einträge verwalten](/help/quicksilver/planning/records/manage-the-record-page.md).
+
+
+1. Klicken Sie auf **Felder** und wählen Sie den Umschalter aus, der mit den Feldern verknüpft ist, die Sie in den Spalten der Tabelle anzeigen möchten. Standardmäßig werden alle Felder angezeigt.
+
+1. Gehen Sie folgendermaßen vor, um schnell Datensätze zu finden, die einem Keyword entsprechen:
+
+   1. Beginnen Sie im **&#x200B;**&#x200B;Suchfeld![Suchsymbol](assets/search-icon.png) mit der Eingabe eines Keywords, das mit einem beliebigen Feld eines Datensatzes verknüpft ist, der auf dem Bildschirm angezeigt wird. Die Anzahl der richtigen Übereinstimmungen wird neben dem Suchelement angezeigt, und das Feld mit der richtigen Übereinstimmung ist hervorgehoben.
+
+      ![Suchfeld mit Ergebnissen mit blauer Kontur in der Tabellenansicht](assets/search-box-with-results-blue-outline-g-table.png)
+
+      Sie können jedes Wort oder jedes Sonderzeichen verwenden, das auf dem Bildschirm sichtbar ist.
+
+      Sie können keine Schlüsselwörter verwenden, die mit Feldern verknüpft sind, die in der Tabellenansicht ausgeblendet sind.
+
+   1. Drücken Sie **Eingabetaste** auf der Tastatur, um zum nächsten gefundenen Feld zu wechseln.
+
+   1. (Optional) Wenn mehr als eine Übereinstimmung vorliegt, klicken Sie auf die Pfeile nach oben und unten rechts neben dem Suchbegriff, um alle Übereinstimmungen in der Tabelle zu finden.
+
+   1. Klicken Sie auf das **x**-Symbol im Suchfeld, um den Suchbegriff zu löschen.
+<!--    
 1. For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
 
     * **SUM**: Displays the total of all cells in the column. This is the default selection. 
@@ -760,26 +754,28 @@ You can add up to 500 fields (or columns) in a table view.
     * **AVG**: Displays the average value of all the cells in the column. 
 
     The aggregator row in the column is frozen and is part of the view settings. The aggregator you choose will be shared with the view when you share the view with others. 
+-->
 
-### Add rows (or records) {#add-rows}
+### Zeilen (oder Datensätze) hinzufügen {#add-rows-1}
 
-The rows of a table view display individual records of the selected record type. 
+Die Zeilen einer Tabellenansicht zeigen einzelne Datensätze des ausgewählten Datensatztyps an.
 
-You can have up to 50,000 records (or rows) for a record type. 
+Sie können bis zu 50.000 Datensätze (oder Zeilen) für einen Datensatztyp haben.
 
-1. Go to a record type page and select a table view, or click **+ View** to add a new view, then choose **Table**. 
+1. Wechseln Sie zu einer Seite vom Typ Datensatz und wählen Sie eine Tabellenansicht aus, oder klicken Sie auf **+ Ansicht** um eine neue Ansicht hinzuzufügen, und wählen Sie dann **Tabelle** aus.
 
-1. Start adding records (or rows), as described in the article [Create records](/help/quicksilver/planning/records/create-records.md). 
+1. Beginnen Sie mit dem Hinzufügen von Datensätzen (oder Zeilen), wie im Artikel [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md) beschrieben.
 
-    The records you add in the table view are saved immediately and are visible to all users who have View or higher permissions to the workspace. 
+   Die Datensätze, die Sie in der Tabellenansicht hinzufügen, werden sofort gespeichert und sind für alle Benutzer sichtbar, die über Ansichtsberechtigungen oder höhere Berechtigungen für den Arbeitsbereich verfügen.
 
-    A default thumbnail image is also added to the new record.
+   Dem neuen Datensatz wird auch ein Standardminiaturbild hinzugefügt.
 
-1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record, then click **Edit thumbnail** to edit the thumbnail. 
-1. Click **Fields** at the top of the table, then select the toggle for the **Thumbnail** field to display it to the left of the primary field. It is deselected by default. 
-    
-    For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+1. (Optional) Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Datensatz und dann auf **Miniaturansicht bearbeiten**, um die Miniaturansicht zu bearbeiten.
+1. Klicken Sie **oben in** Tabelle auf Felder und wählen Sie dann den Umschalter für das Feld **Miniatur** aus, um es links neben dem Primärfeld anzuzeigen. Diese Option ist standardmäßig deaktiviert.
 
+   Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+
+<!--
 ******************** NOT POSSIBLE NOW **********
 
 1. (Optional) Select one or multiple records in a row, then drag and drop the **handle** icon ![Handle icon](assets/handle-icon.png) to the left of the record to reorder the rows. 
@@ -792,143 +788,146 @@ You can have up to 50,000 records (or rows) for a record type.
 
 
 ******************** NOT POSSIBLE ABOVE **************
+-->
 
-### Add filters {#add-filters}
+### Filter hinzufügen {#add-filters-1}
 
-Filters help you reduce the amount of information displayed on the screen.
+Mit Filtern können Sie die Menge der auf dem Bildschirm angezeigten Informationen reduzieren.
 
-Adding filters in the table view in the Preview environment is identical to adding filters in the Production environment. 
+Das Hinzufügen von Filtern in der Tabellenansicht in der Vorschauumgebung ist mit dem Hinzufügen von Filtern in der Produktionsumgebung identisch.
 
-For information, see the [Add filters](#add-filters) section in this article. 
+Weitere Informationen finden Sie [&#x200B; Abschnitt &#x200B;](#add-filters) hinzufügen in diesem Artikel.
 
-*****************at production, paste here the information from the Production section above*******************
 
-### Add a sort {#sort-information} 
+<!--***************** at production, paste here the information from the Production section above *******************-->
 
-By applying a sort, you can organize information in a given order. 
+### Sortierung hinzufügen {#sort-information-1}
 
-Consider the following when sorting records in the table view: 
+Durch Anwendung einer Sortierung können Sie Informationen in einer bestimmten Reihenfolge organisieren.
 
-*********** if this is available for the timeline view, update both when you update one ****************
+Beachten Sie beim Sortieren von Datensätzen in der Tabellenansicht die folgenden Punkte:
 
-* Sorting is unique to the view that you select. Two table views of the same record type can have different sorting criteria applied to them. Two users looking at the same table view see the same sorting that is currently applied. 
+<!--*********** if this is available for the timeline view, update both when you update one ****************-->
 
-* You cannot name the sortings you build and apply to a table view.
+* Die Sortierung ist für die ausgewählte Ansicht eindeutig. Auf zwei Tabellenansichten desselben Datensatztyps können unterschiedliche Sortierkriterien angewendet werden. Zwei Benutzer, die dieselbe Tabellenansicht betrachten, sehen dieselbe Sortierung, die derzeit angewendet wird.
 
-* The sorting you create is preserved when you navigate away.
+* Die von Ihnen erstellten und auf eine Tabellenansicht angewendeten Sortierungen können nicht benannt werden.
 
-* You can sort by as many fields as you see displayed in the table view of a record type.
+* Die von Ihnen erstellte Sortierung wird beibehalten, wenn Sie sie verlassen.
 
-* You cannot sort by connected record fields, but you can sort by lookup fields from connected record types. 
+* Sie können nach so vielen Feldern sortieren, wie sie in der Tabellenansicht eines Datensatztyps angezeigt werden.
 
-* When you sort by lookup fields with multiple values (that have not been summarized by an aggregator), the first value is used for sorting. 
+* Sie können nicht nach verbundenen Datensatzfeldern sortieren, aber Sie können nach Suchfeldern aus verbundenen Datensatztypen sortieren.
 
-* Removing sorting criteria removes them from anyone accessing the same record type as you and uses the same view as you use.
+* Beim Sortieren nach Suchfeldern mit mehreren Werten (die nicht von einem Aggregator zusammengefasst wurden) wird der erste Wert zum Sortieren verwendet.
 
-* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a sort for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Status in the sort you are creating for the Activity record type. 
+* Das Entfernen von Sortierkriterien entfernt sie von allen, die auf denselben Datensatztyp zugreifen wie Sie und verwendet dieselbe Ansicht wie Sie.
 
-To sort records, do the following:
+* Sie können auf ein Feld verweisen, das bis zu vier Ebenen vom aktuellen Datensatztyp entfernt ist. Wenn Sie beispielsweise eine Sortierung für einen Aktivitätsdatensatztyp erstellen und die Aktivität mit dem Produktdatensatztyp verbunden ist, der mit dem Kampagnendatensatztyp verbunden ist, der mit einem Workfront-Projekt verbunden ist, können Sie den Projektstatus in der Sortierung referenzieren, die Sie für den Aktivitätsdatensatztyp erstellen.
 
-1. Create a table view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
-1. Click the **Sort** icon ![Sort icon](assets/sort-icon.png) at the top of the table
-    
-    Or
+Gehen Sie wie folgt vor, um Datensätze zu sortieren:
 
-    Hover over the name of a column in the table view, click the downward-pointing arrow to the right of the column header name, then click **Sort**. 
-    
-1. (Conditional) If you click **Sort** at the top of the table, the **Sort records by** box opens. Click one of the suggested fields, or click **Choose a different field** and search for a different field, then click it when it displays in the list. 
+1. Erstellen Sie eine Tabellenansicht, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
+1. Klicken Sie auf **Symbol** Sortieren![&#x200B; (](assets/sort-icon.png)) oben in der Tabelle
 
-    The sorting is applied automatically to the table view and records display sorted by your selected criteria. 
-    
-1. (Optional) Click **Add condition**, and repeat the above steps to sort by additional fields.  
+   ODER
 
-    The number of fields that you are sorting by displays to the left of the Sort icon in the upper-right corner of the toolbar. You can choose only fields that display in the columns of the table view.
-1. (Conditional) If you clicked the **Sort** icon at the top of the table, select the order in which you want the field sorted in the **Sort records by** box. The options for the sorting order depend on the type of field you are sorting by. 
+   Bewegen Sie den Mauszeiger über den Namen einer Spalte in der Tabellenansicht, klicken Sie auf den nach unten zeigenden Pfeil rechts neben dem Namen der Spaltenüberschrift und dann auf **Sortieren**.
 
-    >[!TIP]
-    >
-    >The selections below are not available when you access sorting from the column header. 
+1. (Bedingt) Wenn Sie oben in **Tabelle auf** Sortieren“ klicken, wird das Feld **Datensätze sortieren nach** geöffnet. Klicken Sie auf eines der vorgeschlagenen Felder oder klicken Sie auf **Anderes Feld auswählen** und suchen Sie nach einem anderen Feld. Klicken Sie dann auf das Feld, wenn es in der Liste angezeigt wird.
 
-    Choose from the following options: 
+   Die Sortierung wird automatisch auf die Tabellenansicht angewendet und die Datensätze werden nach den von Ihnen ausgewählten Kriterien sortiert angezeigt.
 
-    * Date fields: 
-        * Earliest to latest
-        * Latest to earliest
-    * Text, paragraph, select fields, people, Record ID:
-        * Alphabetical A to Z
-        * Reverse alphabetical Z to A
-    * Number, percentage, currency fields:
-        * Ascending 0 to 9
-        * Descending 9 to 0
-    * Checkbox fields: 
-        * Selected first
-        * Deselected first
+1. (Optional) Klicken Sie auf **Bedingung hinzufügen** und wiederholen Sie die obigen Schritte, um nach zusätzlichen Feldern zu sortieren.
 
-    The field is added as a sorting selection in the **Sort** icon at the top of the table. 
+   Die Anzahl der Felder, nach denen Sie sortieren, wird links neben dem Sortierungssymbol in der oberen rechten Ecke der Symbolleiste angezeigt. Sie können nur Felder auswählen, die in den Spalten der Tabellenansicht angezeigt werden.
+1. (Bedingt) Wenn Sie auf das Symbol **Sortieren** oben in der Tabelle geklickt haben, wählen Sie die Reihenfolge aus, in der das Feld im Feld **Datensätze sortieren nach** sortiert werden soll. Die Optionen für die Sortierreihenfolge hängen vom Typ des Felds ab, nach dem Sie sortieren.
 
-1. (Optional) In the **Sort records by** box, click the **x** icon to the right of a sorting field to remove the sort
+   >[!TIP]
+   >
+   >Die folgenden Auswahlen sind nicht verfügbar, wenn Sie über die Spaltenüberschrift auf die Sortierung zugreifen.
 
-    Or
+   Wählen Sie aus den folgenden Optionen:
 
-    Click **Clear all** to remove all fields from the sort. 
+   * Datumsfelder:
+      * Frühestens bis spätestens
+      * Spätestes bis frühestes
+   * Text, Absatz, Felder auswählen, Personen, Datensatz-ID:
+      * Alphabetisch von A bis Z
+      * Umgekehrt alphabetisch Z zu A
+   * Zahl, Prozentsatz, Währungsfelder:
+      * Aufsteigend 0 bis 9
+      * Absteigend 9 bis 0
+   * Kontrollkästchen-Felder:
+      * Zuerst ausgewählt
+      * Auswahl für erste aufgehoben
 
-1. Click outside the **Sort records by** box to close it. 
+   Das Feld wird als Sortierauswahl im Symbol **Sortieren** oben in der Tabelle hinzugefügt.
 
-    ![Sorting in table view](assets/sorting-in-table-view-g-list.png)
+1. (Optional) Klicken Sie im Feld **Datensätze sortieren nach** auf das Symbol **x** rechts neben einem Sortierfeld, um die Sortierung aufzuheben
 
-    The information displayed in the table is sorted according to your selected criteria. 
-    
-    The fields selected for the sort display a sorting icon followed by a number that indicates the order in which the sorting is applied. 
+   ODER
 
-### Add groupings {#add-groupings}
+   Klicken Sie **Alle löschen**, um alle Felder aus der Sortierung zu entfernen.
 
+1. Klicken Sie außerhalb des Felds **Datensätze sortieren nach**, um es zu schließen.
+
+   ![Sortieren in der Tabellenansicht](assets/sorting-in-table-view-g-list.png)
+
+   Die in der Tabelle angezeigten Informationen werden nach den von Ihnen ausgewählten Kriterien sortiert.
+
+   Die für die Sortierung ausgewählten Felder zeigen ein Sortiersymbol gefolgt von einer Zahl an, die die Reihenfolge angibt, in der die Sortierung angewendet wird.
+
+### Gruppierungen hinzufügen {#add-groupings-1}
+
+<!--
 ***********************this section exists in the timeline view too, but the display is slightly different, so I kept both procedures; consider updating both sections if any updates to groupings are introduced***************
+-->
 
-You can group records by similar information when applying  a grouping to a view.
+Beim Anwenden einer Gruppierung auf eine Ansicht können Sie Datensätze anhand ähnlicher Informationen gruppieren.
 
-Consider the following:
+Beachten Sie Folgendes:
 
-* You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type.
-* You can apply 3 levels of grouping in a view. The records are grouped in the order of groupings that you select. 
-***************  * You can apply up to 4 levels of grouping when using the API. --checking on this one for now ******************
-* The groupings are unique to the view that you select. Two table views of the same record type can have different groupings applied to them. Two users looking at the same table view see the same grouping that is currently applied. 
-* You cannot name the groupings you build for a table view.
-* Removing groupings removes them from anyone accessing the same record type as you and who displays the same view as you do. 
-* You can edit records listed under a grouping. 
-* You can group by connected record fields or lookup fields. 
-* When you group by lookup fields with multiple values (that have not been summarized by an aggregator), records are grouped by each unique combination of field values.  
-* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a grouping for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Status in the grouping you are creating for the Activity record type. 
-* Groupings are listed in the alphabetical order of their values. 
-********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************
+* Sie können Gruppierungen sowohl in der Tabellen- als auch in der Zeitleisten-Ansicht anwenden. Die Gruppierungen der Tabellenansicht sind unabhängig von denen in der Zeitleisten -Ansicht desselben Datensatztyps.
+* Sie können in einer Ansicht drei Gruppierungsebenen anwenden. Die Datensätze werden in der Reihenfolge der ausgewählten Gruppierungen gruppiert.
+&lt;!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * Bei Verwendung der API können bis zu 4 Gruppierungsebenen angewendet werden. —Diese werden vorerst überprüft &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+* Die Gruppierungen sind für die ausgewählte Ansicht eindeutig. Auf zwei Tabellenansichten desselben Datensatztyps können unterschiedliche Gruppierungen angewendet werden. Zwei Benutzende, die dieselbe Tabellenansicht betrachten, sehen dieselbe Gruppierung, die derzeit angewendet wird.
+* Die von Ihnen erstellten Gruppierungen können nicht für eine Tabellenansicht benannt werden.
+* Das Entfernen von Gruppierungen entfernt sie von allen Benutzern, die auf denselben Datensatztyp zugreifen wie Sie und die dieselbe Ansicht anzeigen wie Sie.
+* Sie können die unter einer Gruppierung aufgelisteten Datensätze bearbeiten.
+* Sie können nach verbundenen Datensatzfeldern oder Suchfeldern gruppieren.
+* Wenn Sie nach Suchfeldern mit mehreren Werten (die nicht von einem Aggregator zusammengefasst wurden) gruppieren, werden die Datensätze nach jeder eindeutigen Kombination von Feldwerten gruppiert.
+* Sie können auf ein Feld verweisen, das bis zu vier Ebenen vom aktuellen Datensatztyp entfernt ist. Wenn Sie z. B. eine Gruppierung für einen Aktivitätsdatensatztyp erstellen und die Aktivität mit dem Produktdatensatztyp verbunden ist, der mit dem Kampagnendatensatztyp verbunden ist, der mit einem Workfront-Projekt verbunden ist, können Sie den Projektstatus in der Gruppierung referenzieren, die Sie für den Aktivitätsdatensatztyp erstellen.
+* Gruppierungen werden in der alphabetischen Reihenfolge ihrer Werte aufgeführt.
+  <!--********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************-->
 
+Um eine Gruppierung hinzuzufügen:
 
-To add a grouping:
+1. Erstellen Sie eine Tabellenansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
+1. Klicken **oben** der Tabellenansicht auf „Gruppierung“.
 
-1. Create a table view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. Click **Grouping** in the upper-right corner of the table view.
+   ![Gruppieren der Tabellenansicht der Benutzeroberfläche mit verknüpften Feldern](assets/grouping-ui-table-view-with-linked-fields.png)
 
-    ![Grouping UI table view with linked fields](assets/grouping-ui-table-view-with-linked-fields.png)
+1. Klicken Sie auf eines der vorgeschlagenen Felder oder klicken Sie auf **Anderes Feld auswählen** suchen Sie nach einem anderen Feld und klicken Sie dann auf das Feld, wenn es in der Liste angezeigt wird.
 
-1. Click one of the suggested fields, or click **Choose a different field**, search for a different field, then click it when it displays in the list.
+   Die Gruppierung wird automatisch auf die Tabelle angewendet, und die Datensätze werden unter der Gruppierungstrennlinie angezeigt.
 
-    The grouping is applied automatically to the table and records display under the grouping separation line.
-    
-1. (Optional) Click **Add condition** and repeat the above steps to add up to 3 groupings. 
+1. (Optional) Klicken Sie auf **Bedingung hinzufügen** und wiederholen Sie die obigen Schritte, um bis zu 3 Gruppierungen hinzuzufügen.
 
-    The number of fields selected for the grouping displays next to the Grouping icon. 
+   Die Anzahl der für die Gruppierung ausgewählten Felder wird neben dem Gruppierungssymbol angezeigt.
 
-    ![Grouping applied in table view](assets/grouping-applied-in-table-view.png)
+   ![Gruppierung in Tabellenansicht angewendet](assets/grouping-applied-in-table-view.png)
 
-1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping. 
+1. (Optional) Klicken Sie innerhalb des **Datensätze gruppieren nach** auf das Symbol **x** rechts neben einem Feld, das für die Gruppierung ausgewählt wurde, um die Gruppierung zu entfernen.
 
-1. Click outside the **Group records by** box to close it. 
-1. (Optional) Click **+ New record** at the end of any grouping to add new records, then refresh your page to add the new record to the appropriate grouping.
+1. Klicken Sie außerhalb des Felds **Datensätze gruppieren nach**, um es zu schließen.
+1. (Optional) Klicken Sie auf **+ Neuer Datensatz** am Ende einer Gruppierung, um neue Datensätze hinzuzufügen, und aktualisieren Sie dann Ihre Seite, um den neuen Datensatz zur entsprechenden Gruppierung hinzuzufügen.
 
-1. To expand or collapse groupings, click the **Grouping** icon, then **Expand all**, or **Collapse all**. This expands all the groupings and subgroupings in the table view. 
+1. Um Gruppierungen zu erweitern oder zu reduzieren, klicken Sie auf das **Gruppierung**-Symbol und dann auf **Alle erweitern** oder **Alle reduzieren**. Dadurch werden alle Gruppierungen und Untergruppierungen in der Tabellenansicht erweitert.
 
-    ![Expand and collapse all buttons on grouping box table view](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
+   ![Alle Schaltflächen in der Tabellenansicht des Gruppierungsfelds erweitern und reduzieren](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
 
-    
+   <!--
     ******** NOT POSSIBLE **********
     1. Right-click any of the grouping headers in the table view, then click one of the following options:
         * **Expand group**
@@ -937,59 +936,58 @@ To add a grouping:
         * **Collapse all**
         * **Expand subgroups**
         * **Collapse subgroups**
-
         Depending on the number of groupings you apply to the view, some options might not be available.
     ********* NOT POSSIBLE ABOVE **********
-   
+   -->
 
-### Add row colors
+### Zeilenfarben hinzufügen
 
-1. (Optional) Click **Row colors** to define conditions and choose configure different colors for table rows.
+1. (Optional) Klicken Sie auf **Zeilenfarben**, um Bedingungen zu definieren und verschiedene Farben für Tabellenzeilen zu konfigurieren.
 
-1. Click **Add color**, then search for a field then select it when it displays in the list. This is the field whose value you want to define the color of a row.
+1. Klicken Sie **Farbe hinzufügen** suchen Sie nach einem Feld und wählen Sie es aus, wenn es in der Liste angezeigt wird. Dies ist das Feld, dessen Wert Sie als Farbe für eine Zeile definieren möchten.
 
-    For example, to display campaigns with a status of Active in green, select **Status**, then choose a modifier and a value for the field. 
+   Um beispielsweise Kampagnen mit dem Status Aktiv in Grün anzuzeigen, wählen Sie **Status** und wählen Sie dann einen Modifikator und einen Wert für das Feld aus.
 
-    ![Row colors box with Active status selected and default color choice](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
+   ![Feld „Zeilenfarben“ mit ausgewähltem Status „Aktiv“ und Standardfarbauswahl](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
 
-1. Click the drop-down menu for the color picker in the upper-left corner of the condition you selected, to pick the color for the condition, then click outside the color picker box to close it. 
+1. Klicken Sie auf das Dropdown-Menü für die Farbauswahl in der oberen linken Ecke der ausgewählten Bedingung, um die Farbe für die Bedingung auszuwählen, und klicken Sie dann außerhalb des Farbauswahlfelds, um es zu schließen.
 
-    ![Drop-down color picker menu in Row colors box highlighted](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
+   ![Dropdown-Farbauswahlmenü im Feld „Zeilenfarben“ hervorgehoben](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
 
-1. (Optional) Click **Add condition** to add more fields and values to the first set of conditions 
+1. (Optional) Klicken Sie **Bedingung hinzufügen**, um dem ersten Satz von Bedingungen weitere Felder und Werte hinzuzufügen
 
-    Or
+   ODER
 
-    Click **Add color** to add a new set of conditions and identify a new color. 
-    
-    For example, you can display campaigns in a Planning status in yellow by defining a new set of conditions. 
+   Klicken Sie **Farbe hinzufügen**, um einen neuen Satz von Bedingungen hinzuzufügen und eine neue Farbe zu identifizieren.
 
-    ![Row colors box with Active and Planning status custom colors](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
+   Sie können beispielsweise Kampagnen in einem Planungsstatus in Gelb anzeigen, indem Sie einen neuen Satz von Bedingungen definieren.
 
-1. (Optional) Turn on the **Apply to the entire row** setting in the upper-right corner of the **Row colors** box. The entire row where the condition is met automatically displays in the selected color. 
+   ![Zeilenfarbenfeld mit den benutzerdefinierten Farben „Aktiv“ und „Planungsstatus“](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
 
-    >[!NOTE]
-    >
-    >If the **Apply to the entire row** setting is turned off, only the background of the primary field cell displays in the selected color. The setting is turned off by default.
-    >
+1. (Optional) Aktivieren Sie die Einstellung **Auf die gesamte Zeile anwenden** in der oberen rechten Ecke des Felds **Zeilenfarben**. Die gesamte Zeile, in der die Bedingung erfüllt ist, wird automatisch in der ausgewählten Farbe angezeigt.
 
-1. Click outside the **Row colors** box to close it. The colors are applied automatically.
+   >[!NOTE]
+   >
+   >Wenn die Einstellung **Auf die gesamte Zeile anwenden** deaktiviert ist, wird nur der Hintergrund der primären Felderzelle in der ausgewählten Farbe angezeigt. Die Einstellung ist standardmäßig deaktiviert.
+   >
 
-### Enable the real-time presence indicator
+1. Klicken Sie auf eine Stelle außerhalb des **Zeilenfarben**-Felds, um es zu schließen. Die Farben werden automatisch angewendet.
 
-The avatars of other users who are editing record information at the same time as you display in the upper-right corner of all record views, by default.
+### Aktivieren der Echtzeit-Anwesenheitsindikator
 
-When you display the table view, you can also view which field another user is editing at the time you are viewing the record. 
+Die Avatare anderer Benutzer, die Datensatzinformationen gleichzeitig bearbeiten, wie Sie standardmäßig in der oberen rechten Ecke aller Datensatzansichten anzeigen.
 
-Enabling the real-time presence indicator in the table view in the Preview environment is identical to enabling it in the Production environment. 
+Wenn Sie die Tabellenansicht anzeigen, können Sie auch anzeigen, welches Feld ein anderer Benutzer zum Zeitpunkt der Anzeige des Datensatzes bearbeitet.
 
-For information, see the [Enable the real-time presence indicator](#enable-the-real-time-presence-indicator) section in this article. 
+Die Aktivierung der Echtzeitpräsenzanzeige in der Tabellenansicht in der Vorschau-Umgebung ist identisch mit der Aktivierung in der Produktionsumgebung.
 
-************* at production, paste here the information from the Production section above ****************
+Weitere Informationen finden Sie im [Aktivieren der Echtzeitanwesenheitsindikator](#enable-the-real-time-presence-indicator) in diesem Artikel.
+
+<!--*********** at production, paste here the information from the Production section above ****************-->
 
 </div>
 
--->
+
 
 
 
