@@ -5,9 +5,9 @@ title: Adobe Workfront MCP-Server-Tools
 description: Referenzliste der über den Adobe Workfront MCP-Server verfügbaren Tools, gruppiert nach Workfront-Bereich.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: b63c45eaf380137f2ebfc5cb99e503085f878389
+source-git-commit: c58007a9e72a9a2c04f04d3df83876b80ef1d12b
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1578'
 ht-degree: 6%
 
 ---
@@ -68,7 +68,10 @@ Wenn die KI-Agentenplattform Workfront-Elemente finden, diese jedoch nicht erste
 | Genehmigungs-Workflow erstellen oder aktualisieren | `approvals_create_or_update_approval_workflow` | Erstellt oder aktualisiert die Genehmigungs-Workflow-Phasen für eine Dokumentversion. Unterstützt lineare und parallele (Graph-)Stufenabhängigkeiten. | Schreiben |
 | Genehmigung aus Vorlage erstellen | `approvals_create_approval_from_template` | Erstellt einen Genehmigungs-Workflow für ein Dokument unter Verwendung einer vorhandenen Vorlage. | Schreiben |
 | Genehmigungsphase löschen | `approvals_delete_approval_stage` | Löscht eine einzelne Phase aus einem Genehmigungs-Workflow nach Name oder Position. Nur nicht gestartete Stadien können gelöscht werden. | Schreiben |
-| Hinzufügen und Entfernen von Teilnehmern für eine Massenvalidierung | `approvals_bulk_update_approval_participants`<br>`approvals__submit_bulk_update_approval_participants` | Fügt Teilnehmer mehreren Genehmigungen gleichzeitig hinzu oder entfernt sie. Derzeit können Massenaktualisierungen nur auf ein einzelnes Projekt angewendet werden. Massenaktualisierungen für mehrere Projekte werden in naher Zukunft verfügbar sein. | Schreiben |
+
+<!--
+| Add and remove participants for an approval in bulk | `approvals_bulk_update_approval_participants`<br>`approvals__submit_bulk_update_approval_participants` | Adds or removes participants to or from multiple approvals at the same time. Currently, bulk updates can be applied only across a single project. Bulk updates across multiple projects will be available in the near future. | Write |
+-->
 
 <!--
 | Request document approval | `approvals_request_document_approval` | Opens a guided form for requesting approval on a document version (title, approvers/reviewers, optional due date and message). | Write |
