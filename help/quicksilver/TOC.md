@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 433e908e6234490cb098b69916fe2b766729a27b
+source-git-commit: 5fc376d5e3fe8ab6e137d87f3ad0f57c06874d3d
 workflow-type: tm+mt
-source-wordcount: '14180'
+source-wordcount: '14184'
 ht-degree: 94%
 
 ---
@@ -1067,6 +1067,7 @@ ht-degree: 94%
       * [Filter „Projekte, an denen ich mitwirke“ enthält unerwartete Ergebnisse](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
       * [Mehrere Registerkarten im Browser führen zur Abmeldung von Workfront](workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
       * [Freigeben von Objekten ohne Generieren von Benachrichtigungen](workfront-basics/tips-tricks-and-troubleshooting/how-to-share-objects-without-sending-out-notifications.md)
+      * [Aktualisierte Zeitzonennamen](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/deprecated-time-zone-names.md)
 * Agile {#agile}
    * [Agile](agile/agile.md)
    * [Überblick über Pinnwände](agile/boards-overview.md)
