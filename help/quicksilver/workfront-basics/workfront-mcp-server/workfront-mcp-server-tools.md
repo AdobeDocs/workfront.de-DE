@@ -5,9 +5,9 @@ title: Adobe Workfront MCP-Server-Tools
 description: Referenzliste der über den Adobe Workfront MCP-Server verfügbaren Tools, gruppiert nach Workfront-Bereich.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 648342f0002046febba1b8e751bc1cffec2c1346
+source-git-commit: b63c45eaf380137f2ebfc5cb99e503085f878389
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1624'
 ht-degree: 6%
 
 ---
@@ -68,6 +68,7 @@ Wenn die KI-Agentenplattform Workfront-Elemente finden, diese jedoch nicht erste
 | Genehmigungs-Workflow erstellen oder aktualisieren | `approvals_create_or_update_approval_workflow` | Erstellt oder aktualisiert die Genehmigungs-Workflow-Phasen für eine Dokumentversion. Unterstützt lineare und parallele (Graph-)Stufenabhängigkeiten. | Schreiben |
 | Genehmigung aus Vorlage erstellen | `approvals_create_approval_from_template` | Erstellt einen Genehmigungs-Workflow für ein Dokument unter Verwendung einer vorhandenen Vorlage. | Schreiben |
 | Genehmigungsphase löschen | `approvals_delete_approval_stage` | Löscht eine einzelne Phase aus einem Genehmigungs-Workflow nach Name oder Position. Nur nicht gestartete Stadien können gelöscht werden. | Schreiben |
+| Hinzufügen und Entfernen von Teilnehmern für eine Massenvalidierung | `approvals_bulk_update_approval_participants`<br>`approvals__submit_bulk_update_approval_participants` | Fügt Teilnehmer mehreren Genehmigungen gleichzeitig hinzu oder entfernt sie. Derzeit können Massenaktualisierungen nur auf ein einzelnes Projekt angewendet werden. Massenaktualisierungen für mehrere Projekte werden in naher Zukunft verfügbar sein. | Schreiben |
 
 <!--
 | Request document approval | `approvals_request_document_approval` | Opens a guided form for requesting approval on a document version (title, approvers/reviewers, optional due date and message). | Write |
