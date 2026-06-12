@@ -5,9 +5,9 @@ title: Verwenden des Adobe Workfront MCP-Servers
 description: Verwenden Sie den Adobe Workfront-MCP-Server, um Workfront-Elemente über eine Sprachkonversation in einer KI-Agentenplattform zu suchen, zu erstellen, zu aktualisieren und zu verwalten.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: b63c45eaf380137f2ebfc5cb99e503085f878389
+source-git-commit: c58007a9e72a9a2c04f04d3df83876b80ef1d12b
 workflow-type: tm+mt
-source-wordcount: '1807'
+source-wordcount: '1793'
 ht-degree: 0%
 
 ---
@@ -95,7 +95,10 @@ Um Dokument- und Asset-Genehmigungen zu verwalten, fragen Sie:
 * *Fügen Sie Sarah Chen und Miguel Alvarez als genehmigende Personen für das aktuelle Dokument hinzu.*
 * *Erinnerung an genehmigende Personen, die nicht geantwortet haben, bezüglich des Assets „Frühlingskampagnenvideo“ senden.*
 * *Wenden Sie die Genehmigungsvorlage „Marketing-Launch“ auf das Asset „Frühling-Kampagnenvideo“ an*
-* *Entfernen Sie Anna Jones von allen Genehmigungen in diesem Projekt, und ersetzen Sie durch Sione Carter.*
+
+<!--
+* *Remove Anna Jones from all approvals in this project, and replace with Sione Carter.*
+-->
 
 
 ### Arbeiten mit Planungsdatensätzen
