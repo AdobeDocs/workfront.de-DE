@@ -1,7 +1,7 @@
 ---
-source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
+source-git-commit: 95859f692efbd6ce12238cc03e23e1cecbd99956
 workflow-type: tm+mt
-source-wordcount: '2317'
+source-wordcount: '2236'
 ht-degree: 3%
 
 ---
@@ -291,13 +291,6 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
 
    Die Landingpage von Workfront Planning wird geöffnet.
 
-1. (Optional und bedingt) Wenn Sie Workfront-Administrator sind, klicken Sie auf eine der folgenden Registerkarten:
-
-   * **Meine Arbeitsbereiche**: Zeigt von Ihnen erstellte Arbeitsbereiche an.
-   * **Andere Arbeitsbereiche**: Zeigt alle Arbeitsbereiche in Workfront Planning an, einschließlich der für Sie freigegebenen.
-
-   Für alle anderen Benutzer werden alle von Ihnen erstellten oder für Sie freigegebenen Arbeitsbereiche im Bereich &quot;**&quot;**.
-
 ## Workfront - Planungs-Einführung - {#planning-important-intro}
 
 >[!IMPORTANT]
@@ -481,7 +474,7 @@ So verknüpfen Sie Benutzer mit einem Home-Team:
 
 1. Wählen Sie **[!UICONTROL Abschnitt]** Organisation“ das Feld **[!UICONTROL Home-Team]** aus. Geben Sie den Namen des Teams ein, dessen Einstellungen Sie mit den Benutzern verknüpfen möchten. Klicken Sie auf den Namen des Teams, wenn Sie es in der Liste sehen.
 
-1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
+1. Klicken Sie **[!UICONTROL Änderungen speichern]**.
 Die ausgewählten Benutzer sind jetzt mit einem Home-Team verknüpft.
 Alle Team-Einstellungen, einschließlich der Status, die mit der Schaltfläche Fertig verknüpft sind, sind jetzt für diese Benutzer sichtbar.
 

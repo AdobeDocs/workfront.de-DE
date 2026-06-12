@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: fa50195be08ea164ab88ca30bd20ba8b021e7ecb
+source-git-commit: 95859f692efbd6ce12238cc03e23e1cecbd99956
 workflow-type: tm+mt
-source-wordcount: 5409
+source-wordcount: 5339
 ht-degree: 2%
 
 ---
@@ -440,20 +440,6 @@ Sie können ein Datumsfeld verwenden, um zusätzliche Informationen im Datums- u
    * **Name**: Der Name des Felds, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen oder auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.
    * **Datumsformat**: Der Typ des Datumsformats, das Sie in diesem Feld anzeigen möchten. <!--update this casing - submitted bug for it-->
-
-     Wählen Sie aus den folgenden Formaten aus:
-      * **Locale**: Entspricht dem Gebietsschema Ihres Browsers.
-      * **Standard**: 05/16/2023
-      * **Long**: 16. Mai 2023
-      * **Europäisch**: 16/05/2023
-      * **ISO**: 16.05.2023
-   * **Zeit einbeziehen**: Wählen Sie diese Option aus, wenn Sie einen Zeitstempel einbeziehen möchten. Diese Option ist standardmäßig deaktiviert. Nach dem Speichern des Felds kann keine Zeit eingeschlossen werden.
-
-     Wählen Sie aus den folgenden Optionen aus:
-
-      * **24hr**: Beispiel: 18:00
-      * **12hr**: Beispiel: 18:0000 Uhr
-
 
      Gehen Sie je nach Umgebung, in der Sie auf Felder zugreifen, wie folgt vor:
 
