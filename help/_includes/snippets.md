@@ -1,7 +1,7 @@
 ---
-source-git-commit: be11c7417023ce2f310fce3e0cf77724d101b89e
+source-git-commit: 95859f692efbd6ce12238cc03e23e1cecbd99956
 workflow-type: tm+mt
-source-wordcount: '2317'
+source-wordcount: '2236'
 ht-degree: 3%
 
 ---
@@ -63,7 +63,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der linken oberen Ecke von Adobe Workfront.
 
-## ​1. Schritt - Nur auf Hauptmenü-Shell klicken {#step1-click-main-menu-shell-only}
+## &#x200B;1. Schritt - Nur auf Hauptmenü-Shell klicken {#step1-click-main-menu-shell-only}
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke.
 
@@ -97,7 +97,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 <!-- Admin and Setup -->
 
-## ​1. Schritt - Setup wird eingerichtet {#step-1-to-setup}
+## &#x200B;1. Schritt - Setup wird eingerichtet {#step-1-to-setup}
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der linken oberen Ecke von Adobe Workfront und klicken Sie dann auf **[!UICONTROL Setup]** ![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
 
@@ -285,18 +285,11 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
 
 <!-- Workfront Planning -->
 
-## ​1. Schritt - Anreise zum Maestro - {#step1-to-planning}
+## &#x200B;1. Schritt - Anreise zum Maestro - {#step1-to-planning}
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]** Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der linken oberen Ecke von Adobe Workfront und dann auf **[!UICONTROL Planung]**.
 
    Die Landingpage von Workfront Planning wird geöffnet.
-
-1. (Optional und bedingt) Wenn Sie Workfront-Administrator sind, klicken Sie auf eine der folgenden Registerkarten:
-
-   * **Meine Arbeitsbereiche**: Zeigt von Ihnen erstellte Arbeitsbereiche an.
-   * **Andere Arbeitsbereiche**: Zeigt alle Arbeitsbereiche in Workfront Planning an, einschließlich der für Sie freigegebenen.
-
-   Für alle anderen Benutzer werden alle von Ihnen erstellten oder für Sie freigegebenen Arbeitsbereiche im Bereich &quot;**&quot;**.
 
 ## Workfront - Planungs-Einführung - {#planning-important-intro}
 
@@ -415,7 +408,7 @@ OLD:
 
 ## Schritt 1: Erfahren Sie mehr über die Auslastung - {#step1-to-utilization-report}
 
-1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der linken oberen Ecke von Adobe Workfront, klicken Sie dann im linken Bereich auf **&#x200B;**&#x200B;und dann auf [!UICONTROL **Nutzung**].
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der linken oberen Ecke von Adobe Workfront, klicken Sie dann im linken Bereich auf **** und dann auf [!UICONTROL **Nutzung**].
 
 <!-- Review and approve work -->
 
@@ -481,7 +474,7 @@ So verknüpfen Sie Benutzer mit einem Home-Team:
 
 1. Wählen Sie **[!UICONTROL Abschnitt]** Organisation“ das Feld **[!UICONTROL Home-Team]** aus. Geben Sie den Namen des Teams ein, dessen Einstellungen Sie mit den Benutzern verknüpfen möchten. Klicken Sie auf den Namen des Teams, wenn Sie es in der Liste sehen.
 
-1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
+1. Klicken Sie **[!UICONTROL Änderungen speichern]**.
 Die ausgewählten Benutzer sind jetzt mit einem Home-Team verknüpft.
 Alle Team-Einstellungen, einschließlich der Status, die mit der Schaltfläche Fertig verknüpft sind, sind jetzt für diese Benutzer sichtbar.
 

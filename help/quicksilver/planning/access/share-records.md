@@ -9,20 +9,14 @@ exl-id: 9ffad1aa-3c96-40fa-9c62-7a3e00699f18
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/NTytTWD-zq3PVhXn4n-GHinvQxna1wfnAXjaeYBgTEY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 95859f692efbd6ce12238cc03e23e1cecbd99956
 workflow-type: tm+mt
-source-wordcount: 1690
+source-wordcount: 1713
 ht-degree: 2%
 
 ---
@@ -120,6 +114,10 @@ maybe use the Share record types as example here and touch on the same points: h
 <!--checking on the below with Lilit-->
 
 * Sie können Datensätze für die folgenden Entitäten freigeben: Personen, Gruppen, Teams, Unternehmen oder Aufgabengebiete.
+* Die folgenden Einschränkungen bestehen:
+
+   * Es können nicht mehr als 100 Datensätze gleichzeitig freigegeben werden.
+   * Datensätze können nicht für mehr als 100 Entitäten freigegeben werden.
 * Wenn Sie die Berechtigungen auf einen Datensatz beschränken, können Benutzer diesen Datensatz und die Werte für die Suchfelder an keiner Stelle des Systems mehr anzeigen, an der dieser Datensatz angezeigt wird.
 * Workfront überprüft Datensatzberechtigungen in Verbindungen mit bis zu fünf Datensätzen, um sicherzustellen, dass Benutzende nur die für sie freigegebenen Datensätze sehen.
 * Sie können einem Datensatz die folgenden Berechtigungsebenen gewähren:
@@ -203,7 +201,7 @@ Als Workspace-Manager können Sie Berechtigungen an einzelne Datensätze anpasse
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Bewegen Sie in der Tabellenansicht den Mauszeiger über den Namen eines Datensatzes und klicken Sie auf das Menü **Mehr** ![Mehr &#x200B;](assets/more-menu.png) dann auf **Freigeben**.
+   * Bewegen Sie in der Tabellenansicht den Mauszeiger über den Namen eines Datensatzes und klicken Sie auf das Menü **Mehr** ![Mehr ](assets/more-menu.png) dann auf **Freigeben**.
    * Wählen Sie in der Tabellenansicht einen oder mehrere Datensätze aus und klicken Sie dann unten in **blauen Symbolleiste auf** Freigeben“.
    * Klicken Sie in einer beliebigen Ansicht auf den Namen eines Datensatzes und dann **Freigeben** in der oberen rechten Ecke der Detailseite des Datensatzes.
 
@@ -305,7 +303,7 @@ Sie können einen Benutzer nicht aus geerbten Berechtigungen entfernen.
 1. Öffnen Sie den Arbeitsbereich, dessen Datensätze Sie nicht mehr freigeben möchten, und klicken Sie dann auf eine Karte vom Typ Datensatz. Dadurch wird die Seite „Datensatztyp“ geöffnet.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Bewegen Sie in der Tabellenansicht den Mauszeiger über den Namen eines Datensatzes und klicken Sie auf das Menü **Mehr** ![Mehr &#x200B;](assets/more-menu.png) dann auf **Freigeben**.
+   * Bewegen Sie in der Tabellenansicht den Mauszeiger über den Namen eines Datensatzes und klicken Sie auf das Menü **Mehr** ![Mehr ](assets/more-menu.png) dann auf **Freigeben**.
    * Wählen Sie in der Tabellenansicht einen oder mehrere Datensätze aus und klicken Sie dann unten in **blauen Symbolleiste auf** Freigeben“.
 
      Sie müssen Datensätze auswählen, die im selben Arbeitsbereich erstellt wurden.
