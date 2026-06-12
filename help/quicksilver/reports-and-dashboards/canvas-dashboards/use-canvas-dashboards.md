@@ -16,14 +16,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 889f77efd9472cd2da5de1e5ec602aea63b2ce0b
 workflow-type: tm+mt
-source-wordcount: 480
+source-wordcount: 572
 ht-degree: 4%
 
 ---
 
 # Verwenden von Arbeitsflächen-Dashboards
+
+{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -48,6 +50,33 @@ Um auf die Arbeitsflächen-Dashboards zuzugreifen, gehen Sie zum Abschnitt Dashb
 1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
 1. Klicken Sie auf den Namen eines vorhandenen Dashboards, um es zu öffnen.
    ![Öffnen eines Dashboards](assets/open-dashboard.png)
+
+<div class="preview">
+
+## Sortieren der Liste der Arbeitsflächen-Dashboards in der Vorschau
+
+Sie können die Liste der Arbeitsflächen-Dashboards nach einer der folgenden Spalten sortieren:
+
+* Name
+* Beschreibung
+* Erstellt von
+* Erstellungsdatum
+
+So sortieren Sie die Liste:
+
+1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
+1. Klicken Sie auf eine Spaltenüberschrift, um die Liste nach dieser Spalte zu sortieren. Klicken Sie erneut auf dieselbe Kopfzeile, um die Sortierrichtung umzukehren.
+
+   Standardmäßig wird die Liste nach der Spalte &quot;**&quot;** A bis Z sortiert.
+
+   ![Sortieren Sie die Liste der Arbeitsflächen-Dashboards](assets/sort-canvas-dashboards-list.png)
+
+>[!NOTE]
+>
+>* Die Sortierreihenfolge wird beibehalten, wenn Sie in der Liste der Arbeitsflächen-Dashboards zwischen Registerkarten wechseln.
+
+
+</div>
 
 <!--
 ## Navigating the Dashboard
