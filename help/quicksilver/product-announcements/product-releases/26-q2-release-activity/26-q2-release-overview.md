@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: b18e58368da31806fa917ad688e7b8f3c7d0d91e
 workflow-type: tm+mt
-source-wordcount: 2586
+source-wordcount: 2626
 ht-degree: 20%
 
 ---
@@ -80,6 +80,14 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
         <td><p>2. April 2026</p></td>
         <td><p>15. April 2026</p></td>
         <td><p>16. April 2026</p></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Aktualisierte Zeitzonennamen</a><p>[!BADGE Außerplanmäßig]{type=Neutral}</p><p>Wir haben die in Workfront verfügbaren Zeitzonen aktualisiert, damit sie den IANA-Standards entsprechen. Dadurch wird die Kompatibilität mit anderen Systemen und die Genauigkeit im Laufe der Zeit sichergestellt.</p>
+        </td>
+        <td><p>27. März 2026</p></td>
+        <td><p>27. März 2026</p></td>
+        <td><p>27. März 2026</p></td>
     </tr>
     <tr>
         <td>

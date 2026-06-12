@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: a76f87dd9d37d4221c9f441da362dfc48b4960fb
 workflow-type: tm+mt
-source-wordcount: 512
+source-wordcount: 573
 ht-degree: 2%
 
 ---
@@ -43,6 +43,18 @@ Um es Ihnen zu erleichtern, in Ihrer täglichen Arbeit von KI zu profitieren, ha
 Derzeit ist die Inhaltsüberprüfung der einzige verfügbare KI-Mitwirkende. In Zukunft werden weitere KI-Collaborator-Funktionen verfügbar sein.
 
 Weitere Informationen finden Sie unter [Konfigurieren von KI-Mitwirkenden](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
+
+## Aktualisierte Zeitzonennamen
+
+>[!NOTE]
+>
+>Vorschau: 27. März 2026>Produktions-Schnellveröffentlichung: 27. März 2026>Produktion für alle: 27. März 2026
+
+Wir haben die in Workfront verfügbaren Zeitzonen aktualisiert, damit sie den IANA-Standards entsprechen. Dadurch wird die Kompatibilität mit anderen Systemen und die Genauigkeit im Laufe der Zeit sichergestellt.
+
+Im Rahmen dieser Änderung wurden einige Zeitzonen, die zuvor in Workfront verfügbar waren, durch standardmäßige IANA-Zeitzonen ersetzt.
+
+Eine Liste dieser Änderungen finden Sie unter [Aktualisierte Zeitzonennamen](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/deprecated-time-zone-names.md).
 
 ## Benutzerdefinierte Quartale sind jetzt als separate Seite im Setup verfügbar
 
