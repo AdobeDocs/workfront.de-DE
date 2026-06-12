@@ -105,7 +105,7 @@ So verbinden Sie Workfront mit [!DNL Claude]:
 
 So verbinden Sie Workfront mit [!DNL Claude] über eine URL:
 
-1. Melden Sie sich mit Ihren [ bei ](https://claude.ai)Claude“ an.
+1. Melden Sie sich mit Ihren [&#x200B; bei &#x200B;](https://claude.ai)Claude“ an.
 1. Wählen Sie im linken Menü das Symbol **Anpassen** aus.
 1. Wählen Sie **Connectoren** und klicken Sie dann auf das Symbol **+** , um einen Connector hinzuzufügen.
 1. Klicken Sie auf **Schaltfläche „App**&quot;.
@@ -136,7 +136,7 @@ Um mehr über [!DNL Claude] Fähigkeiten zu erfahren, lesen Sie die [Claude-Benu
 
 ## Mit ChatGPT verbinden
 
-1. Melden Sie sich mit Ihren [ bei ](https://chatgpt.com)ChatGPT) an.
+1. Melden Sie sich mit Ihren [&#x200B; bei &#x200B;](https://chatgpt.com)ChatGPT) an.
 1. Wählen Sie unten links &quot;**&quot;** → **Einstellungen**.
 1. Wählen Sie **Apps** aus und aktivieren Sie dann **Entwicklermodus**.
 1. Klicken Sie auf **Schaltfläche „App**&quot;.
