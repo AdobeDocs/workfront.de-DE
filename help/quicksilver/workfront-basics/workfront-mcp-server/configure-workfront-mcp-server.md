@@ -5,9 +5,9 @@ title: Konfigurieren des Adobe Workfront MCP-Servers
 description: Konfigurieren Sie Ihre Workfront-Instanz und Ihre KI-Agentenplattform, damit Sie über Konversationen in natürlicher Sprache mit Workfront arbeiten können.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: b63c45eaf380137f2ebfc5cb99e503085f878389
+source-git-commit: 0445376ea187b589040c8fdc56ea0d11f44b0b37
 workflow-type: tm+mt
-source-wordcount: '1701'
+source-wordcount: '1748'
 ht-degree: 1%
 
 ---
@@ -99,9 +99,15 @@ So verbinden Sie Workfront mit [!DNL Claude]:
 
 +++
 
-### Verbindung zum Claude-Desktop über eine URL herstellen
+### Verbindung mit Claude über eine URL herstellen
 
 +++ Erweitern Sie , um eine schrittweise Anleitung zum Verbinden von Workfront mit [!DNL Claude] mit einer URL zu erhalten.
+
+>[!NOTE]
+>
+>Sie müssen Eigentümer in einer Enterprise-Claude-Umgebung sein, um dieses Verfahren durchzuführen.
+>
+>Eine Erklärung von Claude zur Eigentümeranforderung finden Sie unter [Hinzufügen eines benutzerdefinierten Connectors](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp#:~:text=Note%3A%20While,has%20access%20to) in der Claude-Dokumentation.
 
 So verbinden Sie Workfront mit [!DNL Claude] über eine URL:
 
@@ -118,7 +124,7 @@ So verbinden Sie Workfront mit [!DNL Claude] über eine URL:
 
 1. Nachdem der Connector erstellt wurde, wird ein Anmeldefenster angezeigt. Authentifizieren Sie sich mit Ihren Adobe ID-Anmeldeinformationen. Stellen Sie sicher, dass Sie die gewünschte Workfront-Instanz auswählen, wenn Sie zu mehreren gehören.
 
-   >HINWEIS:
+   >[!NOTE]
    >
    >Ihre Workfront-Instanz muss eine Verbindung mit dem MCP-Server für die Region für diese Instanz herstellen. Beispielsweise muss eine EU-Instanz eine Verbindung zum MCP-Server der EU herstellen.
    >
@@ -150,7 +156,7 @@ Um mehr über [!DNL Claude] Fähigkeiten zu erfahren, lesen Sie die [Claude-Benu
 1. Stellen Sie sicher, dass die Authentifizierung auf **OAuth** (standardmäßig festgelegt) eingestellt ist, und aktivieren Sie das Kontrollkästchen Akzeptanz , um fortzufahren.
 1. Nachdem die App erstellt wurde, wird ein Anmeldefenster angezeigt. Authentifizieren Sie sich mit Ihren Adobe ID-Anmeldeinformationen. Stellen Sie sicher, dass Sie die gewünschte Workfront-Instanz auswählen, wenn Sie zu mehreren gehören.
 
-   >HINWEIS:
+   >[!NOTE]
    >
    >Ihre Workfront-Instanz muss eine Verbindung mit dem MCP-Server für die Region für diese Instanz herstellen. Beispielsweise muss eine EU-Instanz eine Verbindung zum MCP-Server der EU herstellen.
    >
