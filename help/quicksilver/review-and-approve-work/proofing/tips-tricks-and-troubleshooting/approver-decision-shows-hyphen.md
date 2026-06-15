@@ -5,8 +5,10 @@ navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
 title: Entscheidung der genehmigenden Person zeigt im Bericht zu Korrekturabzugsgenehmigungen einen Bindestrich an
 description: Ein Bindestrich im Feld Genehmigerentscheidung des Berichts zur Korrekturabzugsgenehmigung zeigt an, dass ein Empfänger im Korrekturabzug nicht mehr in der Entscheidungsrolle ist.
 author: Courtney
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
 source-git-commit: 25d403b9266c31a39c1dce6c1c45ad96ee90af28
 workflow-type: tm+mt
 source-wordcount: 287
