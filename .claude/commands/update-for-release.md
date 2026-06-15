@@ -1,9 +1,9 @@
 ---
 name: update-for-release
 description: ""
-source-git-commit: be4cbcd40353960ea65a1ca38a8b6b1e21fd2ad4
+source-git-commit: 744be221844b2e24fb738cab5403f581a83b6c16
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1443'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Zeigen Sie dem Benutzer die Kandidatenliste an. Fragen Sie, welche aktualisiert 
 `help/_includes/snippets.md` lesen und nach Verfügbarkeit auswählen:
 
 | Verfügbarkeit | Snippet |
-|---|---|
+| --- | --- |
 | Nur Vorschau - hervorgehobener Inhalt ist neu in einem Artikel mit ansonsten allgemeiner Verfügbarkeit | `{{highlighted-preview}}` |
 | Nur Vorschau - der gesamte Artikel ist neu | `{{highlighted-preview-article-level}}` |
 | Vorschau + Schnellfreigabe-Kunden, allgemein | `{{preview-fast-release-general}}` |
@@ -104,6 +104,38 @@ Für jeden Artikel in der vom Benutzer bestätigten Liste:
 ### &#x200B;5. Nach jedem Artikel
 
 Frage, ob zum nächsten Artikel übergegangen werden soll, ob der aktuelle Artikel gestoppt, übersprungen oder erneut aufgerufen werden soll.
+
+### &#x200B;6. Ende der Sitzung - Versionshinweise kopieren/einfügen
+
+Wenn der Benutzer die Sitzung beendet (sagt „Done“, „Das war&#39;s“, „Stopp“ oder lehnt es ab, zum nächsten Artikel fortzufahren), fragen Sie:
+
+> „Möchten Sie einen Eintrag mit Versionshinweisen zum Kopieren/Einfügen für die Seite mit der Verbesserung?“
+
+Wenn ja, generieren Sie einen Entwurfseintrag mit dem Funktionskontext aus Schritt 1 und dem in dieser Sitzung aktualisierten primären Hilfeartikel. **Schreiben Sie sie nicht in eine Datei** — geben Sie sie nur als Text zum Kopieren/Einfügen an.
+
+Formatieren Sie den Eintrag so, dass er zur Seitenstruktur des Produktbereichs der Qualifikation **Versionshinweise-Formatierer** passt:
+
+```markdown
+## {Feature name}
+
+>[!NOTE]
+>
+>Preview: {date or TBD}
+>Production fast release: {date or TBD}
+>Production for everyone: {date or TBD}
+
+{1–3 sentences describing what changed and why it helps users. Lead with the benefit, not the UI action.}
+
+For more information, see [{Primary article title}](/help/quicksilver/{path-to-article}.md).
+```
+
+Regeln:
+
+- Verwenden Sie `TBD` für alle noch nicht bekannten Datumsangaben. Fragen Sie den Benutzer, ob er über die Datumsangaben verfügt.
+- Der Funktionsname ist die Groß-/Kleinschreibung des Satzes (wobei nur das erste Wort und die Eigennamen großgeschrieben werden).
+- Die Beschreibung sollte sich auf das konzentrieren, was Benutzende jetzt tun können, und nicht auf die Implementierungsdetails.
+- Link zum spezifischsten aktualisierten Artikel mit Anleitungen, keine Übersichtsseite.
+- Wenn alle Datumsangaben unbekannt sind und der/die Benutzende keine Platzhalter verwenden möchte, `>[!NOTE]` Sie einen Datumsblock nicht ein. Lassen Sie ihn weg und beachten Sie, dass er später hinzugefügt werden muss.
 
 ## Inhaltsregeln
 
