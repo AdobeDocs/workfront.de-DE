@@ -1,9 +1,9 @@
 ---
 name: remove-preview-highlighting
 description: ""
-source-git-commit: 5d515c5ae4c79a4183f3c583bc267fea6e398644
+source-git-commit: 377568941333b399585a70ee023f30a23618b624
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Nur anwenden, wenn **alle** wahr sind:
 1. Der Benutzer hat diesen Workflow aufgerufen (z. B. **„Hervorhebung der Vorschau entfernen“** oder eindeutig dieselbe Absicht).
 2. Der Pfad der Markdown-Datei **nicht** enthält **`product-announcements`** (schließen Sie die gesamte Ordnerstruktur aus, z. B. Versionshinweise, Betas, Ankündigungen unter `help/quicksilver/product-announcements/`).
 3. Die Markdown-Datei wird **nicht** unten unter **[Ausgeschlossene Pfade](#excluded-paths)** aufgeführt.
-4. Die Frontseite der Markdown-Datei enthält **`Courtney`** in der `author:` Zeile (einziger Autor oder Co-Autor).
+4. Die Markdown-Datei wird in `git log` angezeigt, wie von Courtney innerhalb des vom Benutzer angegebenen Datumsbereichs vorgenommen (siehe Schritt „Inventar„).
 5. Der Artikel **(mindestens eine** von:
    - Vorschau-Umgebung **Sprache in Textprosa- oder echten Snippet-Absätzen** (typische Muster: „hervorgehobene Informationen“, „Vorschau-Umgebung“, „noch nicht allgemein verfügbar“, Schnellversionshinweise) - **nicht** Übereinstimmung aus **Link-Text allein** auf einer Inhaltsverzeichnis-/Indexseite (siehe unten); oder
    - alle HTML-Elemente mit **`class="preview"`** (z. B. `<span class="preview">`, `<div class="preview">`) oder
@@ -26,7 +26,7 @@ Nur anwenden, wenn **alle** wahr sind:
 
 Wenn der Umfang unklar ist, bestätigen Sie ihn vor der Bearbeitung.
 
-**INHALTSVERZEICHNIS-/INDEXSEITEN - Immer diesen Fall überspringen:** **Nie** Legen Sie eine Datei in das Inventar ein, wenn der **nur** vorschaubezogene Wortlaut **innerhalb** Anzeigetext eines Markdown-Links auf **einen anderen** Artikel verweist (z. B. *Senden eines Berichts in der Sandbox-Vorschau-Umgebung&#x200B;**&#x200B;*** no`class="preview"`, **noSnippet-Variablen und**&#x200B;**&#x200B;** **noPreview Boilerplate in**&#x200B;**prose außerhalb von Links**. Dies ist keine Vorschauhervorhebung auf dieser Seite - es ist nur eine Inhaltsverzeichniserwähnung. Gilt für jeden Index/Inhaltsverzeichnis, nicht nur für eine Datei.
+**INHALTSVERZEICHNIS-/INDEXSEITEN - Immer diesen Fall überspringen:** **Nie** Legen Sie eine Datei in das Inventar ein, wenn der **nur** vorschaubezogene Wortlaut **innerhalb** Anzeigetext eines Markdown-Links auf **einen anderen** Artikel verweist (z. B. *Senden eines Berichts in der Sandbox-Vorschau-Umgebung***** no`class="preview"`, **noSnippet-Variablen und****** **noPreview Boilerplate in****prose außerhalb von Links**. Dies ist keine Vorschauhervorhebung auf dieser Seite - es ist nur eine Inhaltsverzeichniserwähnung. Gilt für jeden Index/Inhaltsverzeichnis, nicht nur für eine Datei.
 
 ### Ausgeschlossene Pfade
 
@@ -40,7 +40,24 @@ Fügen Sie diese niemals zum Inventar hinzu oder bearbeiten Sie sie in diesem Wo
 Repository **nicht** ohne Genehmigung stapelweise bearbeiten.
 
 1. **Bestand**\
-   Erstellen Sie eine sortierte Liste von Pfaden, die den oben genannten Bereichsregeln entsprechen (durchsuchen Sie das Repository, bevorzugen Sie `help/`). **Auslassen** alle Pfade unter **`product-announcements`**, alle Pfade unter **[Ausgeschlossene Pfade](#excluded-paths)** und alle **TOC/index**-Seiten, die mit **TOC/index-Seiten** unter Umfang übereinstimmen. Wenn der/die Benutzende sagt, dass eine aufgelistete Datei keine Vorschau-Hervorhebung hat, entfernen Sie sie aus der Ausführung und verschärfen Sie die Kriterien, anstatt Bearbeitungen zu erzwingen.
+   a. **Fragen Sie den Benutzer, für welche vierteljährliche Version** die Vorschau-Hervorhebung entfernt wird (z. B. „Q3 2026“ oder „2026.07„).\
+   B. **Abrufen des Veröffentlichungskalenders** aus `https://wiki.corp.adobe.com/spaces/AWF/pages/3631617814/2026+Monthly+Release+Calendar` mithilfe des Adobe-Wiki MCP-Tools. Suchen:
+   - Das **Produktionsveröffentlichungsdatum** der **vorherigen** vierteljährlichen Veröffentlichung → `--since`.
+   - Das **Produktionsveröffentlichungsdatum** der vierteljährlichen **target**-Veröffentlichung → `--until`.
+   - Vierteljährliche Versionen werden durch die Spalte „Quartalsname der Version“ gekennzeichnet (z. B. 2026.01, 2026.04, 2026.07, 2026.10).
+   - **Wenn das aktuelle Datum im 4. Quartal (Oktober-Dezember) liegt:** Bitten Sie den Benutzer nach dem Abrufen des Kalenders des aktuellen Jahres, die URL für den Veröffentlichungskalender des nächsten Jahres anzugeben, und rufen Sie diese dann ebenfalls ab, damit alle erforderlichen vierteljährlichen Produktionstermine verfügbar sind.
+c. Führen Sie unter Verwendung der Produktions-Veröffentlichungsdaten aus Schritt b folgende Schritte aus:
+
+   ```
+   git log --since="YYYY-MM-DD" --until="YYYY-MM-DD" \
+     --author="Courtney" --name-only --pretty=format: \
+     -- "help/quicksilver/**/*.md" | sort -u
+   ```
+
+
+   d. Aus diesen Ergebnissen **filtern Sie nach Dateien, die** enthalten: `class="preview"`, `{{highlighted-preview` oder Vorschau Textbausteinprosa - Grep für `highlighted information\|Preview environment\|not yet generally available`.\
+   E. **Auslassen** alle Pfade unter **`product-announcements`**, alle **[ausgeschlossenen Pfade](#excluded-paths)** und alle **TOC/Index** Seiten gemäß der obigen Inhaltsverzeichnisregel.\
+   F. Zeigen Sie die resultierende sortierte Liste an. Wenn der/die Benutzende sagt, dass eine aufgelistete Datei keine Vorschau-Hervorhebung hat, entfernen Sie sie aus der Ausführung und verschärfen Sie die Kriterien, anstatt Bearbeitungen zu erzwingen.
 
 2. **Starten**\
    Fragen Sie, ob mit dem **ersten** Artikel in der Liste (oder einem Pfad mit den Benutzernamen) begonnen werden soll.
@@ -92,7 +109,7 @@ Wenn die Struktur mehrdeutig ist (keine klare Parallele), **stop** und zeigen Si
 - Diesen Workflow nicht für Pfade unter **`product-announcements`** (Versionshinweise und zugehörige Links) ausführen. Der Bestand muss diese Pfade ausschließen.
 - Inventarisieren oder bearbeiten Sie keine Pfade, die unter **[Ausgeschlossene Pfade](#excluded-paths)** aufgeführt sind, es sei denn, der Benutzer fragt ausdrücklich danach.
 - **Nicht** automatisch entfernen oder bearbeiten Sie **auskommentierte** (`<!-- … -->`) Blöcke. Befolgen Sie **auskommentierte Abschnitte** oben.
-- Entfernen Sie „Vorschau“ nicht, wenn es **nicht** um dieses Funktionsverfügbarkeitsmuster geht (z. B. [Vorschau der Sandbox-Umgebung] (·) als **Produktname** in einem anderen Kontext) - Urteilsvermögen verwenden und fragen Sie, ob Sie sich nicht sicher sind.
+- Entfernen Sie „Vorschau“ nicht, wenn es **nicht** um dieses Funktionsverfügbarkeitsmuster geht (z. B. [Vorschau der Sandbox-Umgebung](·) als **Produktname** in einem anderen Kontext) - Urteilsvermögen verwenden und fragen Sie, ob Sie sich nicht sicher sind.
 - Ändern Sie keine `author:` oder nicht verwandte Schriftart, es sei denn, der Benutzer fragt.
 - Überspringen Sie nicht den Schritt **Anzeigen → Genehmigen**.
 
@@ -104,4 +121,4 @@ Wenn die Struktur mehrdeutig ist (keine klare Parallele), **stop** und zeigen Si
 
 ## Referenzen
 
-- Übereinstimmung mit den **[Workfront](https://experienceleague.adobe.com/de?lang=de)** Dokumentationsstilen und Repo-Konventionen (Commit-/PR-Regeln, wenn der Benutzer einen Commit ausführt).
+- Übereinstimmung mit den **[Workfront](https://experienceleague.adobe.com/?lang=de)** Dokumentationsstilen und Repo-Konventionen (Commit-/PR-Regeln, wenn der Benutzer einen Commit ausführt).
