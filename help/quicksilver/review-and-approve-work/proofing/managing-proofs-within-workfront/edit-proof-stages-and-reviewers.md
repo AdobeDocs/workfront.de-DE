@@ -16,9 +16,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 25d403b9266c31a39c1dce6c1c45ad96ee90af28
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: 608
 ht-degree: 9%
 
 ---
@@ -105,6 +105,10 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
      </tr> 
     </tbody> 
    </table>
+
+   >[!NOTE]
+   >
+   >Wenn die validierungsverantwortliche Person, die Sie entfernen, bereits eine Entscheidung über den Korrekturabzug getroffen hat, wird im Feld Entscheidung der genehmigenden Person für diese Person im Bericht Korrekturabzugsgenehmigung ein Bindestrich (-) angezeigt. Weitere Informationen finden Sie unter [Entscheidung der genehmigenden Person zeigt im Bericht zu Korrekturabzugsgenehmigungen einen Bindestrich an](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/approver-decision-shows-hyphen.md).
 
 ## Reviewer-Details bearbeiten
 

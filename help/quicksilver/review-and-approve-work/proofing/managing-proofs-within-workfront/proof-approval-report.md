@@ -15,10 +15,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: a2241fa21f51f8146c1f3725d2ba2235f8458ab4
 workflow-type: tm+mt
-source-wordcount: 249
-ht-degree: 18%
+source-wordcount: 310
+ht-degree: 14%
 
 ---
 
@@ -85,5 +85,9 @@ Sie können die folgenden Felder zum Bericht über Korrekturabzugsgenehmigungen 
    * Die Genehmigung des Korrekturabzugs steht aus
 
 * **Testversand-Frist**: Zeigt die Frist für den Testversand an. Jeder Phase muss eine Frist zugewiesen sein, damit dieses Feld ausgefüllt werden kann. Das Feld zeigt den Termin für die zuletzt aktivierte Phase an.
+
+## Über das Feld Genehmigende Entscheidung
+
+Das Feld Entscheidung der genehmigenden Person zeigt die Entscheidung an, die ein Empfänger für den Korrekturabzug getroffen hat. In einigen Fällen wird in diesem Feld anstelle eines Entscheidungswerts ein Bindestrich (-) angezeigt, was bedeutet, dass der Empfänger im Korrekturabzug keine Entscheidungsrolle mehr hat. Weitere Informationen finden Sie unter [Entscheidung der genehmigenden Person zeigt im Bericht zu Korrekturabzugsgenehmigungen einen Bindestrich an](../tips-tricks-and-troubleshooting/approver-decision-shows-hyphen.md).
 
  
