@@ -4,10 +4,10 @@ description: Projektverbesserungen im dritten Quartal 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 84810b21d5dfa6183f0e3e63450623a4163f0b54
+source-git-commit: 8abebc25e7b966f3202e902463246c8217860f4a
 workflow-type: tm+mt
-source-wordcount: '66'
-ht-degree: 18%
+source-wordcount: '269'
+ht-degree: 4%
 
 ---
 
@@ -17,43 +17,41 @@ Auf dieser Seite werden die mit der Version vom dritten Quartal 2026 vorgenommen
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2026 verfügbar sind, finden Sie unter [Versionsübersicht für das dritte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
-<!--
 
-## Convert a legacy storage task to an Adobe cloud storage project
 
->[!NOTE]
->
->Preview: June 11, 2026
->Production for everyone: June 12, 2026
-
-If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now convert a legacy storage task to an Adobe cloud storage project.
-When you do this, documents and document approvals remain on the parent object rather than transferring to the newly created project.
-
-Previously, tasks could only be converted to projects using the same storage type.
-
-For more information, see [Convert a task to a project](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md).
-
-## Use a legacy storage template to create an Adobe cloud storage project
-
--->
-
-<!--
+## Konvertieren einer Legacy-Speicheraufgabe in ein Adobe-Cloud-Speicherprojekt
 
 >[!NOTE]
 >
->Preview: June 11, 2026
->Production for everyone: June 11, 2026
+>Vorschau: 11. Juni 2026>Produktion für alle: 12. Juni 2026
 
-If your organization uses both legacy Workfront storage and Adobe cloud storage, you can now use a legacy storage template to create an Adobe cloud storage project in the following scenarios:
+Wenn Ihr Unternehmen sowohl älteren Workfront-Speicher als auch Adobe-Cloud-Speicher verwendet, können Sie jetzt eine ältere Speicheraufgabe in ein Adobe-Cloud-Speicherprojekt konvertieren.
+In diesem Fall bleiben Dokumente und Dokumentgenehmigungen auf dem übergeordneten Objekt, anstatt in das neu erstellte Projekt übertragen zu werden.
 
-* Creating a project outside of a portfolio with a legacy template: You can choose to create the project on Adobe cloud storage instead. Legacy storage documents and folders from the template are not carried over to the new project.
-* Creating a project inside an Adobe cloud storage portfolio: The project is automatically created on Adobe cloud storage, regardless of the template's storage type. Projects must use the same storage as their parent portfolio.
+Zuvor konnten Aufgaben nur in Projekte konvertiert werden, die denselben Speichertyp verwendeten.
 
-Previously, Legacy storage templates could only be used to create Legacy storage projects.
+Weitere Informationen finden Sie unter [Konvertieren einer Aufgabe in ein Projekt](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md).
 
-For more information, see [Create projects](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
+## Verwenden einer Legacy-Speichervorlage zum Erstellen eines Adobe Cloud-Speicherprojekts
 
--->
+
+
+
+
+>[!NOTE]
+>
+>Vorschau: 11. Juni 2026>Produktion für alle: 11. Juni 2026
+
+Wenn Ihr Unternehmen sowohl Legacy-Workfront-Speicher als auch Adobe-Cloud-Speicher verwendet, können Sie jetzt eine Legacy-Speichervorlage verwenden, um ein Adobe-Cloud-Speicherprojekt in den folgenden Szenarien zu erstellen:
+
+* Erstellen eines Projekts außerhalb eines Portfolios mit einer Legacy-Vorlage: Sie können das Projekt stattdessen im Adobe Cloud-Speicher erstellen. Alte Speicherdokumente und -ordner aus der Vorlage werden nicht in das neue Projekt übernommen.
+* Erstellen eines Projekts innerhalb eines Adobe Cloud-Speicherportfolios: Das Projekt wird automatisch im Adobe Cloud-Speicher erstellt, unabhängig vom Speichertyp der Vorlage. Projekte müssen denselben Speicher wie ihr übergeordnetes Portfolio verwenden.
+
+Zuvor konnten Legacy-Speichervorlagen nur zum Erstellen von Legacy-Speicherprojekten verwendet werden.
+
+Weitere Informationen finden Sie unter [Erstellen von Projekten](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
+
+
 
 
 
