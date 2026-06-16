@@ -4,7 +4,8 @@ description: Ausgeblendeter Test
 hide: true
 exl-id: b6b0f429-b619-4b8e-ab81-ad190dae5a0b
 TQID: https://experienceleague.adobe.com/RlziN8Iol78I68TviI3xYG3HmfsooyCM4jwapInCXpM
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 source-git-commit: 1fa2eeee7a4acba12ca57781023878dee50f7035
 workflow-type: tm+mt
 source-wordcount: 615
@@ -227,7 +228,7 @@ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene 
    <td> 
 <p>Jedes Adobe Workfront Workflow-Paket und jedes Adobe Workfront Planning-Paket</p> 
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront-Plattform (****Möchten wir dies ausrufen oder möchten wir es einfach zu einem Teil des Artikels machen, der unten verlinkt ist???*****)</p></td> 
+<td role="rowheader"><p>Adobe Workfront-Plattform (**&#x200B;**&#x200B;Möchten wir dies ausrufen oder möchten wir es einfach zu einem Teil des Artikels machen, der unten verlinkt ist???**&#x200B;***)</p></td> 
    <td> 
 <p>Um auf Workfront Planning zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p> 
 <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>. </p> 
