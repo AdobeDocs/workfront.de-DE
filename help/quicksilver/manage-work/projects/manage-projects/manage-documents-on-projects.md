@@ -6,9 +6,9 @@ description: Je nachdem, ob Ihr Workfront-Administrator für Ihre standardmäßi
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: acd6989db41fad0a24015aac641c9821db1811f1
+source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '2037'
 ht-degree: 0%
 
 ---
@@ -146,16 +146,12 @@ Beachten Sie beim Arbeiten mit Portfolios Folgendes:
 
 * Wenn Sie ein Adobe-Cloud-Speicherprojekt zu einem alten Workfront-Speicherportfolio hinzufügen und dem Portfolio keine Dokumente angehängt sind, wird das Portfolio in ein Adobe-Cloud-Speicherportfolio konvertiert.
 * Wenn Sie ein Adobe-Cloud-Speicherprojekt zu einem alten Workfront-Speicherportfolio hinzufügen und dem Portfolio Dokumente beigefügt sind, bleibt der Speicher für Portfoliodokumente im Workfront-Speicher. Das Speichersymbol Legacy Workfront für das Portfolio ![Speichersymbol Legacy Portfolio](assets/legacy-storage-project-icon.png) wird jedoch aus dem Portfolio entfernt.
-* Sie können kein Legacy-Workfront-Speicherprojekt zu einem Adobe Cloud-Speicherportfolio hinzufügen.
+* Sie können kein Adobe-Cloud-Speicherprojekt zu einem alten Speicherportfolio oder ein älteres Speicherprojekt zu einem Adobe-Speicherportfolio hinzufügen.
+* Ihr Administrator kann im Bereich „Systemeinstellungen“ von „Setup“ ein Legacy-Speicherportfolio in Adobe Cloud-Speicher konvertieren. Alle untergeordneten Objekte (Programme, Projekte und Dokumente) verbleiben im alten Speicher. Für neue Projekte wird der Adobe-Cloud-Speicher verwendet. Neue Dokumente, die zum Portfolio hinzugefügt werden, werden weiterhin im alten Speicher gespeichert.
+Weitere Informationen finden Sie [Konfigurieren von Systemvoreinstellungen](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 * Wenn Sie Portfolios mit einer Workfront-Planungsautomatisierung erstellen, verwendet Workfront die standardmäßige Speichervoreinstellung Ihres Systems für das Portfolio. Sie müssen das Planning-Paket erwerben, um Zugriff auf Workfront Planning zu erhalten.
 
-<!--
-For preview/ Prod release: the third bullet above will need replacing with this:
-* You cannot add an Adobe cloud storage project to a Legacy storage portfolio or a Legacy storage project to an Adobe storage portfolio. 
-* Your administrator can convert a Legacy storage portfolio to Adobe cloud storage in the System Preferences area of Setup. All children objects (programs, projects, and documents) remain on Legacy storage. New projects will use Adobe cloud storage. New documents added to the portfolio will continue to be stored in Legacy storage.
-  For information, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
--->
 
 ### Dokumentenverwaltung für Programme
 
@@ -163,24 +159,12 @@ Beachten Sie beim Arbeiten mit Programmen Folgendes:
 
 * Wenn Sie ein Cloud-Speicherprogramm für Adobe erstellen, erstellt Workfront im Abschnitt Dokumente des Programms einen Ordner, in dem Dokumente gespeichert werden. Der Ordnername entspricht dem Namen des Programms. Sie können den Ordner nicht löschen oder manuell umbenennen. Wenn Sie den Programmnamen ändern, wird der Ordner umbenannt, damit er zum neuen Programmnamen passt.
 
-* Wenn Sie ein Adobe-Cloud-Speicherprojekt zu einem veralteten Workfront-Speicherprogramm hinzufügen und dem Programm keine Dokumente beigefügt sind, wird das Programm in ein Adobe-Cloud-Speicherprogramm konvertiert. Das Portfolio des Programms wird ebenfalls konvertiert.
-* Wenn Sie ein Adobe-Cloud-Speicherprojekt zu einem veralteten Workfront-Speicherprogramm hinzufügen und dem Programm Dokumente beigefügt sind, bleibt der Speicher für die Programmdokumente im Workfront-Speicher. Wenn das Portfolio auch Dokumente enthält, bleibt der Dokumentenspeicher ebenfalls im Workfront-Speicher. Andernfalls wird das Portfolio in den Adobe-Cloud-Speicher konvertiert.
-
-  Das Speichersymbol für veraltete Workfront für das Programm ![Speichersymbol für veraltete Portfolios](assets/legacy-storage-project-icon.png) wird aus dem Programm entfernt.
 * Sie können kein Legacy-Workfront-Speicherprojekt zu einem Adobe-Cloud-Speicherprogramm hinzufügen.
 
+* Sie können kein Adobe-Cloud-Speicherprogramm zu einem alten Speicherportfolio hinzufügen oder ein älteres Programm zu einem Adobe-Cloud-Speicherportfolio hinzufügen.
+* Sie können kein Projekt aus einer Adobe-Cloud-Speichervorlage in einem Legacy-Speicherprogramm erstellen.
+* Sie können ein Projekt aus einer Legacy-Speichervorlage in einem Adobe Cloud-Speicherprogramm erstellen, die Dokumente und Ordner in der Vorlage werden jedoch nicht zum neuen Projekt hinzugefügt. Das Projekt erhält Adobe Cloud-Speicher.
 * Wenn Sie Programme mithilfe einer Workfront-Planungsautomatisierung erstellen, verwendet Workfront die standardmäßige Speichervoreinstellung Ihres Systems für das Programm. Sie müssen das Planning-Paket erwerben, um Zugriff auf Workfront Planning zu erhalten.
-
-<!--
-For preview/Prod release - check for duplicates below with the bullets you want to keep above (??):
-
-* You cannot add an Adobe cloud storage program to a Legacy storage portfolio, or a Legacy program to an Adobe cloud storage portfolio.
-* You cannot add an Adobe cloud storage project to a Legacy storage program in a Legacy storage portfolio. (******* also take out bullet 2 above and maybe 3 too?? **********)
-* When you add an Adobe cloud storage project to a Legacy storage program, the program is converted to Adobe storage. Existing Legacy storage documents remain in the Legacy storage.
-* You cannot add a Legacy storage project to an Adobe cloud storage program, or an Adobe cloud storage project to a Legacy storage program. 
-* You cannot create a project from an Adobe cloud storage template in a Legacy storage program. 
-* You can create a project from a Legacy storage template in an Adobe cloud storage program, but the documents and folders on the template are not added to the new project. The project receives Adobe cloud storage.
--->
 
 ### Dokumentverwaltung für Aufgaben
 
@@ -226,12 +210,10 @@ Beachten Sie beim Arbeiten mit Vorlagen Folgendes:
 * Wenn Sie eine Adobe-Cloud-Speichervorlage erstellen, erstellt Workfront im Dokumentbereich der Vorlage einen Ordner, in dem Dokumente gespeichert werden. Der Ordnername ist mit dem Programmnamen identisch. Sie können den Ordner nicht löschen oder manuell umbenennen. Der Ordner wird umbenannt, wenn Sie den Namen der Vorlage ändern, sodass er zum neuen Namen der Vorlage passt.
 * Sie können eine ältere Workfront-Speichervorlage verwenden, um ältere Workfront-Speicherprojekte zu erstellen. Sie können eine Adobe-Cloud-Speichervorlage verwenden, um ein Adobe-Cloud-Speicherprojekt zu erstellen.
 
-<!--
-for preview/prod release: 
-* When creating projects using templates from a portfolio or program, the following scenarios exist: 
-  * You cannot use an Adobe cloud storage template from a legacy Workfront storage portfolio or program to create a project.
-  * You can create an Adobe cloud storage project for an Adobe storage portfolio or program using a Legacy storage template. Any template documents and folders are not attached to the new project. 
--->
+* Beim Erstellen von Projekten mit Vorlagen aus einem Portfolio oder Programm gibt es die folgenden Szenarien:
+   * Sie können keine Adobe-Cloud-Speichervorlage aus einem alten Workfront-Speicherportfolio oder -Programm verwenden, um ein Projekt zu erstellen.
+   * Sie können ein Adobe-Cloud-Speicherprojekt für ein Adobe-Speicherportfolio oder -Programm mithilfe einer Legacy-Speichervorlage erstellen. Vorlagendokumente und -ordner werden nicht an das neue Projekt angehängt.
+
 * Sie können eine ältere Workfront-Speichervorlage an ein Adobe-Cloud-Speicherprojekt anhängen. Dadurch wird der Speicherort der Dokumente im Projekt nicht geändert.
 * Sie können eine Adobe-Cloud-Speichervorlage an ein veraltetes Workfront-Speicherprojekt anhängen. Dadurch wird der Speicherort der Dokumente im Projekt nicht geändert. Dokumente im Cloud-Speicherordner von Adobe für die Vorlage werden dem Projekt direkt und ohne den Ordner hinzugefügt, während die Dokumente in den Vorlagenaufgabenordnern den Ordnern hinzugefügt werden, die an die Projektaufgaben im Abschnitt Dokumente der Aufgaben angehängt sind.
 * Wenn Sie ein Projekt als Vorlage speichern, wird der Speichertyp des Projekts auf die Vorlage übertragen, unabhängig davon, was Ihr Workfront-Administrator für die Speichervoreinstellung Ihres Systems festgelegt hat.

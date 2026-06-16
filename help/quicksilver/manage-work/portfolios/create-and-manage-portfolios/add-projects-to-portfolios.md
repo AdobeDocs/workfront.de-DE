@@ -9,21 +9,14 @@ exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/UkUQdW12tLqRjh5zmbwtjNfRxFwc-Uhj2gGwjmDyKb8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
 workflow-type: tm+mt
-source-wordcount: 689
+source-wordcount: 674
 ht-degree: 3%
 
 ---
@@ -134,7 +127,7 @@ Old:
 
    >[!TIP]
    >
-   >Sie können kein Projekt hinzufügen, wenn Sie die Liste der Projekte in der Ansicht &quot;[!UICONTROL &quot; &#x200B;].
+   >Sie können kein Projekt hinzufügen, wenn Sie die Liste der Projekte in der Ansicht &quot;[!UICONTROL &quot; ].
 
    Wählen Sie aus den folgenden Optionen aus:
 
@@ -162,7 +155,7 @@ Old:
       <td> <p>Fügen Sie ein Projekt hinzu, das Sie zuvor aus [!DNL MS Project] exportiert und auf Ihrem Computer gespeichert haben. </p> <p>Weitere Informationen zum Erstellen eines neuen Projekts durch Importieren aus [!DNL Microsoft Project] finden Sie unter <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Projekt aus [!DNL Microsoft Project]</a> importieren.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL -Anforderungsprojekt]</td> 
+      <td role="rowheader">[!UICONTROL-Anforderungsprojekt]</td> 
       <td> <p>Fordern Sie die Genehmigung eines Projekts an.</p> <p>Informationen zum Anfordern von Projekten finden Sie unter <a href="../../../manage-work/projects/create-projects/request-project.md">Anfordern eines Projekts</a>. </p> </td> 
      </tr> 
           <tr> 
@@ -189,20 +182,14 @@ Old:
    >Wenn Ihr Unternehmen sowohl den veralteten Workfront- als auch den Adobe-Cloud-Speicher für Dokumente verwendet, gibt es die folgenden Szenarien:
    >
    >
-   >* Wenn Sie ein Adobe-Cloud-Speicherprojekt zu einem alten Workfront-Speicherportfolio hinzufügen und dem Portfolio keine Dokumente angehängt sind, wird das Portfolio in ein Adobe-Cloud-Speicherportfolio konvertiert.
-   >* Wenn Sie ein Adobe-Cloud-Speicherprojekt zu einem alten Workfront-Speicherportfolio hinzufügen und dem Portfolio Dokumente beigefügt sind, bleibt der Speicher für Portfoliodokumente im Workfront-Speicher. Das alte Workfront-Speichersymbol ![Legacy-Workfront-Speichersymbol](assets/legacy-storage-project-icon.png) wird jedoch aus dem Portfolio entfernt.
-   >* Sie können kein Legacy-Workfront-Speicherprojekt zu einem Adobe Cloud-Speicherportfolio hinzufügen.
+   >* Sie können kein Legacy-Speicherprojekt zu einem Adobe Cloud-Speicherportfolio hinzufügen oder ein Adobe Cloud-Speicherprojekt zu einem Legacy-Speicherportfolio hinzufügen.
+   >* Sie können kein Projekt aus einer Adobe Cloud-Speichervorlage in einem Legacy-Speicherportfolio erstellen.
+   >* Sie können ein Projekt aus einer Legacy-Speichervorlage in einem Adobe Cloud-Speicherportfolio erstellen, die Dokumente und Ordner in der Vorlage werden jedoch nicht zum neuen Projekt hinzugefügt. Das Projekt erhält Adobe Cloud-Speicher.
    >
    >Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und verwandte Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
    >
    >Nicht alle Workfront-Instanzen verfügen über beide Arten von Dokumentspeichern.
 
-   <!--
-    For preview/ prod release: replace all bullets (i think!!) in the Note with this:
-    * You cannot add a Legacy storage project to an Adobe cloud storage portfolio, or an Adobe cloud storage project to a Legacy storage portfolio. 
-    * You cannot create a project from an Adobe cloud storage template in a Legacy storage portfolio. 
-    * You can create a project from a Legacy storage template in an Adobe cloud storage portfolio, but the documents and folders on the template are not added to the new project. The project receives Adobe cloud storage.
-    -->
 
 1. (Optional) Klicken Sie auf das **X**-Symbol rechts neben dem Projektnamen, um es aus der Liste zu entfernen, wenn Sie es nicht zum Portfolio hinzufügen möchten.
 
