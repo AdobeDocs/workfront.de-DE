@@ -173,7 +173,7 @@ Ein Workfront-Administrator kann im Bereich „Setup“ ein veraltetes Workfront
   >
   >Ein untergeordnetes Legacy-Programm kann nur dann automatisch in den Adobe-Cloud-Speicher konvertiert werden, wenn ihm manuell ein Adobe-Cloud-Speicherprojekt hinzugefügt wird.
 
-Weitere Informationen finden Sie unter [Ältere Portfolios in Adobe Cloud-Speicher ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md).
+Weitere Informationen finden Sie unter [Ältere Portfolios in Adobe Cloud-Speicher &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md).
 
 #### Erstellen eines Adobe-Cloud-Speicherprojekts aus einer Legacy-Vorlage
 
