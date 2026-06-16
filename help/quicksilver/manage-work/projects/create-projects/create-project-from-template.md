@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
 workflow-type: tm+mt
-source-wordcount: 1484
+source-wordcount: 1419
 ht-degree: 2%
 
 ---
@@ -187,18 +187,14 @@ Sie können ein Projekt über den Bereich Projekte im Hauptmenü oder über den 
       >
       >* Durch die Verwendung einer Legacy-Speichervorlage für Workfront wird ein Legacy-Speicherprojekt für Workfront erstellt.
       >
-      >* Wenn Sie eine Adobe-Cloud-Speichervorlage aus einem alten Workfront-Speicherportfolio oder -Programm verwenden, ist das Projekt ein Adobe-Cloud-Speicherprojekt und das Portfolio oder Programm wird ebenfalls in Adobe-Cloud-Speicherobjekte konvertiert. Alle anderen Legacy-Workfront-Speicherprojekte im selben Portfolio oder Programm bleiben unverändert.
+      >* Beim Erstellen von Projekten mit Vorlagen aus einem Portfolio oder Programm gibt es die folgenden Szenarien:
+      >     * Sie können keine Adobe-Cloud-Speichervorlage aus einem alten Workfront-Speicherportfolio oder -Programm verwenden, um ein Projekt zu erstellen.
+      >     * Sie können ein Adobe-Cloud-Speicherprojekt für ein Adobe-Speicherportfolio oder -Programm mithilfe einer Legacy-Speichervorlage erstellen. Vorlagendokumente und -ordner werden nicht an das neue Projekt angehängt.
       >
       > Ihre Workfront-Instanz verfügt möglicherweise nicht über beide Arten von Dokumentspeicher.
       >
       >Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und verwandte Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
-
-      Für die Vorschau-/Produktversion: Der dritte Aufzählungszeichen in der obigen ANMERKUNG muss umgeschrieben werden:
-
-      >* Beim Erstellen von Projekten mit Vorlagen aus einem Portfolio oder Programm gibt es die folgenden Szenarien:
-      >  * Sie können keine Adobe-Cloud-Speichervorlage aus einem alten Workfront-Speicherportfolio oder -Programm verwenden, um ein Projekt zu erstellen.
-      >  * Sie können ein Adobe-Cloud-Speicherprojekt für ein Adobe-Speicherportfolio oder -Programm mithilfe einer Legacy-Speichervorlage erstellen. Vorlagendokumente und -ordner werden nicht an das neue Projekt angehängt.
 
    1. Überprüfen Sie die folgenden Vorlagendetails auf der rechten Seite:
 

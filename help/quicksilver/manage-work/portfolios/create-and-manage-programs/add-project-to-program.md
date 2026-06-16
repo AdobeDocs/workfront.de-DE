@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a454add7458fb8dc00de88ef685ede4e26383e35
+source-git-commit: 397e5e36632872bb7be3f4e219b36e33b44136e9
 workflow-type: tm+mt
-source-wordcount: 676
+source-wordcount: 640
 ht-degree: 4%
 
 ---
@@ -174,22 +174,16 @@ old:
       >Wenn Ihr Unternehmen sowohl den veralteten Workfront- als auch den Adobe-Cloud-Speicher für Dokumente verwendet, gibt es die folgenden Szenarien:
       >
       >
-      >* Wenn Sie ein Adobe-Cloud-Speicherprojekt zu einem veralteten Workfront-Speicherprogramm hinzufügen und dem Programm keine Dokumente angehängt sind, werden das Programm und sein Portfolio in ein Adobe-Cloud-Speicherobjekt konvertiert.
-      >* Wenn Sie ein Adobe-Cloud-Speicherprojekt zu einem veralteten Workfront-Speicherprogramm hinzufügen und dem Programm oder dem Portfolio Dokumente beigefügt sind, bleibt das Programm oder der Speicher der Portfoliodokumente im Workfront-Speicher. Das Speichersymbol für veraltete Workfront ![Speichersymbol für veraltete Workfront](assets/legacy-storage-project-icon.png) wird jedoch aus dem Programm oder dem Portfolio entfernt (je nachdem, welche Dokumente angehängt wurden, bevor Sie das Projekt verschieben).
-      >* Sie können kein Legacy-Workfront-Speicherprojekt zu einem Adobe-Cloud-Speicherprogramm hinzufügen.
+      >* Sie können kein Legacy-Speicherprojekt zu einem Adobe-Cloud-Speicherprogramm oder kein Adobe-Cloud-Speicherprojekt zu einem Legacy-Speicherprogramm hinzufügen.
+      >* Sie können kein Projekt aus einer Adobe-Cloud-Speichervorlage in einem Legacy-Speicherprogramm erstellen.
+      >* Sie können ein Projekt aus einer Legacy-Speichervorlage in einem Adobe Cloud-Speicherprogramm erstellen, die Dokumente und Ordner in der Vorlage werden jedoch nicht zum neuen Projekt hinzugefügt. Das Projekt erhält Adobe Cloud-Speicher.
       >
       >Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und verwandte Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
       >
       >Nicht alle Workfront-Instanzen verfügen über beide Arten von Dokumentspeichern.
 
 
-      <!--
-        For preview/ prod release: replace all bullets (i think!!) in the Note with this:
-        * You cannot add a Legacy storage project to an Adobe cloud storage program, or an Adobe cloud storage project to a Legacy storage program. 
-        * You cannot create a project from an Adobe cloud storage template in a Legacy storage program. 
-        * You can create a project from a Legacy storage template in an Adobe cloud storage program, but the documents and folders on the template are not added to the new project. The project receives Adobe cloud storage.
-        * When you add an Adobe cloud storage project to a Legacy storage program, the program is converted to Adobe storage. Existing Legacy storage documents remain in the Legacy storage.
-        -->
+
 
    1. (Optional) Klicken Sie auf das **Löschen**-Symbol ![Löschen](assets/delete-icon.png) neben dem Namen eines Projekts, wenn Sie es nicht zum Programm hinzufügen möchten.
 
