@@ -26,9 +26,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 9d28f52ace4d443bdffc475baf79d482152d4157
 workflow-type: tm+mt
-source-wordcount: 933
+source-wordcount: 964
 ht-degree: 13%
 
 ---
@@ -152,6 +152,10 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
      <tr> 
       <td role="rowheader">Aktivieren von Adobe Cloud Storage </td> 
       <td>Ermöglicht die Aktivierung oder Deaktivierung der Adobe-Cloud-Datenspeicherung für das gesamte Unternehmen oder für bestimmte Gruppen. Weitere Informationen zu Adobe Cloud-Speicher finden Sie unter <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">Aktivieren von Adobe Cloud-Speicher für Ihr Unternehmen</a>.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Portfolios auswählen, die in Adobe Cloud-Speicher konvertiert werden sollen </td> 
+      <td>Ermöglicht die Konvertierung vorhandener Workfront-Speicherportfolios in Adobe Cloud-Speicher. Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md">Ältere Portfolios in Adobe Cloud-Speicher </a>.</td> 
      </tr>
      <tr> 
       <td role="rowheader">KI aktivieren </td> 

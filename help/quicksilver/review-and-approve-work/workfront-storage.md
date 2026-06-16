@@ -6,9 +6,9 @@ description: Planen Sie den Rollout von Workfront auf dem Adobe Cloud-Speicher. 
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 12242501adb13cd349a2282996c7186e90d6c94d
+source-git-commit: 4821a7db4014b2a73c0466726ba3d239c318d5f0
 workflow-type: tm+mt
-source-wordcount: '2375'
+source-wordcount: '2702'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ In der folgenden Tabelle sind die wichtigsten Unterschiede beim Wechsel zum Adob
 | [Objektberechtigungszuordnung](#object-permissions-mapping) | Die Berechtigungen Verwalten und Beitragen von Workfront sind beide in Frame.io den Optionen Bearbeiten und Freigeben zugeordnet. Karten nur zu Kommentaren anzeigen. | Berechtigungen werden in Workfront verwaltet. Benutzer von „Verwalten“ und „Beitragen“ erhalten in Frame.io externe Freigabefunktionen. |
 | [Prüfungs- und Genehmigungs-Viewer](#review-and-approval-viewer) | Der Frame.io-Viewer ersetzt den Workfront Proofing Viewer. | Enthalten für alle Workfront-Benutzer, einschließlich externer Benutzer, die einer Überprüfung oder Genehmigung zugewiesen wurden. Unterstützt Markup, Kommentare mit Zeitstempel, Versionsverlauf, Mobile, 40+ Formate, Dateien mit bis zu 500 GB. |
 | [Regeln für die Objektbenennung](#object-naming-rules) | Es gelten strenge Benennungsregeln: eindeutige Namen innerhalb eines Portfolios oder Projekts, keine Sonderzeichen, kein abschließender Punkt oder Leerzeichen, 255-Zeichen-Limit. | Workfront benennt Objekte bei Konflikten automatisch um. Audit-Vorlagen, die neue Projektnamen und -strukturen generieren. |
-| [Objektportabilität](#object-portability) | Sie können Objekte nur wie Speichermodelle zwischen Objekten verschieben, kopieren und konvertieren. | Adobe Cloud-Speicherobjekte können nicht in Legacy-Projekte verschoben werden oder umgekehrt. Wenn Sie ein Adobe Cloud-Speicherprojekt in ein veraltetes Portfolio oder Programm verschieben, wird das übergeordnete Element in Adobe Cloud-Speicher konvertiert. |
+| [Objektportabilität](#object-portability) | In den meisten Szenarien können Sie Objekte nur zwischen Speichermodellen verschieben, kopieren und konvertieren. | Sie können ein älteres Objekt in drei bestimmte Fälle in den Adobe-Cloud-Speicher konvertieren. Dokumente und Dokumentordner werden während der Konvertierung nicht aus dem alten Speicher verschoben. |
 | [Funktionen nicht verfügbar](#capabilities-not-available-on-adobe-cloud-storage-objects) | Workfront Proof, der Workfront-Dokument-Viewer, Favoriten-Dokumente und Anfragedokumente sind nicht Teil des Erlebnisses. | Ältere Objekte behalten diese Funktionen bei. Workfront Proof erhält keine neuen Investitionen und wird in einer zukünftigen Version eingestellt. |
 | [Speicherquote](#storage-quota) | Der Speicher wird für ältere Workfront-Projekte und Adobe-Cloud-Speicherprojekte gepoolt. 60 GB pro lizenziertem Benutzer. Keine feste Mütze. | Systemadministratoren können die Speicherverwendung auf der Seite „Kundeninformationen“ im Setup einsehen. |
 | [Jährliche Begrenzung der Videoprüfung](#annual-video-review-cap) | Obergrenze auf Organisationsebene für Anfragen zu Videoprüfungen bei 10 % der gebührenpflichtigen Workfront-Benutzerlizenzen (Standard und Light). | Nach dem Erreichen werden bis zum nächsten Jahreszeitraum keine neuen Videoprüfungen durchgeführt. In-App-Benachrichtigungen bei 80 % und 100 %. Gilt nicht für Frame.io Enterprise-Kunden. |
@@ -136,9 +136,54 @@ Wenn ein Name mit diesen Regeln in Konflikt steht, benennt Workfront das Objekt 
 
 ### Objektportabilität
 
-Sie können Workfront-Objekte wie Speichermodelle zwischen verschiedenen Modellen verschieben, kopieren und konvertieren. Sie können beispielsweise eine Aufgabe von einem Adobe-Cloud-Speicherprojekt in ein anderes Adobe-Cloud-Speicherprojekt verschieben. Sie können eine Aufgabe oder ein Problem nicht aus einem Adobe Cloud-Speicherprojekt in ein Legacy-Projekt oder umgekehrt verschieben oder kopieren.
+In den meisten Szenarien können Sie Workfront-Objekte wie Speichermodelle zwischen verschiedenen Modellen verschieben, kopieren und konvertieren. Sie können beispielsweise eine Aufgabe von einem Adobe-Cloud-Speicherprojekt in ein anderes Adobe-Cloud-Speicherprojekt verschieben. In drei bestimmten Fällen können Sie ein veraltetes Workfront-Speicherobjekt in Adobe Cloud-Speicher konvertieren:
 
-Wenn Sie heute ein Adobe-Cloud-Speicherprojekt erstellen oder in ein veraltetes Portfolio oder Programm verschieben, wird das Portfolio oder Programm automatisch in ein Adobe-Cloud-Speicherobjekt konvertiert. In einer zukünftigen Version erhalten Systemadministratoren mehr Kontrolle darüber, welche Objekte automatisch konvertiert werden.
+* Konvertieren einer alten Workfront-Speicheraufgabe in ein Adobe-Cloud-Speicherprojekt
+* Konvertieren eines alten Workfront-Speicherportfolios in ein Adobe-Cloud-Speicherportfolio
+* Erstellen eines Adobe-Cloud-Speicherprojekts aus einer alten Workfront-Speichervorlage
+
+>[!NOTE]
+>
+>In allen drei Konvertierungsszenarien werden Dokumente und Dokumentordner nicht vom alten Workfront-Speicher zum Adobe-Cloud-Speicher verschoben. Dokumente, die vor der Konvertierung im alten Objekt vorhanden waren, verbleiben im alten Speicher.
+
+#### Konvertieren einer Legacy-Aufgabe in ein Adobe Cloud-Speicherprojekt
+
+Um eine ältere Workfront-Speicheraufgabe in ein Adobe-Cloud-Speicherprojekt zu konvertieren, verwenden Sie den vorhandenen Fluss „In Projekt konvertieren“ für die Aufgabe. Während der Konvertierung:
+
+* Teilaufgaben und Probleme werden in das neue Projekt verschoben.
+* An die Aufgabe angehängte Dokumente und ihre Genehmigungs-Workflows bleiben im ursprünglichen Projekt erhalten.
+* Arbeitsgenehmigungen und Links für anfragelösende Objekte werden entfernt.
+* Die ursprüngliche Aufgabe wird gelöscht.
+
+<!--
+For more information, see [Convert a task to a project](/help/quicksilver/manage-work/tasks/convert-tasks/convert-task-to-project.md).
+-->
+
+#### Konvertieren eines alten Portfolios in ein Adobe Cloud-Speicherportfolio
+
+Ein Workfront-Administrator kann im Bereich „Setup“ ein veraltetes Workfront-Speicherportfolio in ein Adobe-Cloud-Speicherportfolio konvertieren. Nach der Konversion:
+
+* Ältere Workfront-Speicherprojekte können nicht mehr in das Portfolio verschoben werden.
+* Alle neuen Projekte, die im Portfolio erstellt werden, verwenden den Adobe Cloud-Speicher.
+* Frame.io ist der Viewer für Dokumente in den Adobe Cloud-Speicherprojekten des Portfolios.
+* Untergeordnete Projekte, die älteren Workfront-Speicher verwenden, bleiben auf dem alten Speicher.
+* Untergeordnete Programme verbleiben im alten Speicher.
+
+  >[!NOTE]
+  >
+  >Ein untergeordnetes Legacy-Programm kann nur dann automatisch in den Adobe-Cloud-Speicher konvertiert werden, wenn ihm manuell ein Adobe-Cloud-Speicherprojekt hinzugefügt wird.
+
+Weitere Informationen finden Sie unter [Ältere Portfolios in Adobe Cloud-Speicher &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md).
+
+#### Erstellen eines Adobe-Cloud-Speicherprojekts aus einer Legacy-Vorlage
+
+Wenn Sie ein Projekt aus einer Legacy-Workfront-Speichervorlage erstellen, bestimmt **Kontrollkästchen „Dieses Projekt im Adobe-Cloud-** erstellen“ im Dialogfeld „Projekterstellung“ den Speichertyp des neuen Projekts. Das Verhalten der Kontrollkästchen hängt davon ab, wo Sie das Projekt erstellen:
+
+* **Außerhalb eines Portfolios**: Das Kontrollkästchen ist standardmäßig verfügbar und deaktiviert. Wählen Sie es aus, um das neue Projekt im Adobe Cloud-Speicher zu erstellen.
+* **Innerhalb eines Adobe Cloud-**: Das Kontrollkästchen ist aktiviert und gesperrt. Das neue Projekt muss mit dem Speichertyp des Portfolios übereinstimmen.
+* **In einem alten Workfront-**: Das Kontrollkästchen ist nicht verfügbar. Das neue Projekt verwendet alten Workfront-Speicher.
+
+Weitere Informationen finden Sie unter [Erstellen von Projekten](/help/quicksilver/manage-work/projects/create-projects/create-project.md).
 
 ### Funktionen nicht verfügbar in Adobe Cloud-Speicherobjekten
 
