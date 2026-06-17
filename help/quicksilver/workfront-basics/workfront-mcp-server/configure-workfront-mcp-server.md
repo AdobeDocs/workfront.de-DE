@@ -5,9 +5,9 @@ title: Konfigurieren des Adobe Workfront MCP-Servers
 description: Konfigurieren Sie Ihre Workfront-Instanz und Ihre KI-Agentenplattform, damit Sie über Konversationen in natürlicher Sprache mit Workfront arbeiten können.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: f47b9ade625541cd095ee4fd7abb14b9295c4a9c
+source-git-commit: 3f59326d26a8c9ccd88f14d7d6459e486fcfe8c9
 workflow-type: tm+mt
-source-wordcount: '1748'
+source-wordcount: '1747'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ Sie stellen eine Verbindung zu Workfront einmal pro [!DNL Claude] her. Die Verbi
 
 >[!IMPORTANT]
 >
->Derzeit unterstützt der Claude-Connector nur die Verbindung zum Workfront MCP-Server in der US-Region.  Informationen zum Verbinden mit einer Workfront-Instanz in der EU-Region finden Sie unter [Verbinden mit Claude Desktop mit einer URL](#connect-to-claude-desktop-with-a-url) in diesem Artikel.
+>Derzeit unterstützt der Claude-Connector nur die Verbindung zum Workfront MCP-Server in der US-Region.  Informationen zum Verbinden mit einer Workfront-Instanz in der EU-Region finden Sie unter [Verbinden mit Claude mit einer URL](#connect-to-claude-with-a-url) in diesem Artikel.
 
 +++ Erweitern Sie , um eine schrittweise Anleitung zum Verbinden von Workfront mit [!DNL Claude] anzuzeigen.
 
@@ -111,7 +111,7 @@ So verbinden Sie Workfront mit [!DNL Claude]:
 
 So verbinden Sie Workfront mit [!DNL Claude] über eine URL:
 
-1. Melden Sie sich mit Ihren [&#x200B; bei &#x200B;](https://claude.ai)Claude“ an.
+1. Melden Sie sich mit Ihren [ bei ](https://claude.ai)Claude“ an.
 1. Wählen Sie im linken Menü das Symbol **Anpassen** aus.
 1. Wählen Sie **Connectoren** und klicken Sie dann auf das Symbol **+** , um einen Connector hinzuzufügen.
 1. Klicken Sie auf **Schaltfläche „App**&quot;.
@@ -142,7 +142,7 @@ Um mehr über [!DNL Claude] Fähigkeiten zu erfahren, lesen Sie die [Claude-Benu
 
 ## Mit ChatGPT verbinden
 
-1. Melden Sie sich mit Ihren [&#x200B; bei &#x200B;](https://chatgpt.com)ChatGPT) an.
+1. Melden Sie sich mit Ihren [ bei ](https://chatgpt.com)ChatGPT) an.
 1. Wählen Sie unten links &quot;**&quot;** → **Einstellungen**.
 1. Wählen Sie **Apps** aus und aktivieren Sie dann **Entwicklermodus**.
 1. Klicken Sie auf **Schaltfläche „App**&quot;.
