@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 1f811e3467e8efa7c048bdc148792c4b6f03416c
 workflow-type: tm+mt
-source-wordcount: 1792
+source-wordcount: 1828
 ht-degree: 2%
 
 ---
@@ -77,6 +77,10 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 ## Aktualisieren der benutzerdefinierten Sandbox
 
 Die benutzerdefinierte Aktualisierungs-Sandbox enthält Ihre tatsächlichen Produktionsdaten und wird erst aktualisiert, wenn Sie einen Zeitplan dafür festlegen. Sie können eine Aktualisierung zu jedem Zeitpunkt planen, der für Sie bequem ist, und zwar so oft wie einmal pro Woche.
+
+>[!IMPORTANT]
+>
+>Benutzerdefinierte Sandbox-Aktualisierungsumgebungen werden nur aus Ihrer Produktionsumgebung aktualisiert. Es gibt keinen Prozess zum Durchführen einer Point-in-Time-Wiederherstellung für Sandbox-Umgebungen. Um Ihre Sandbox-Daten zu aktualisieren, planen Sie eine standardmäßige Aktualisierung aus der Produktion.
 
 >[!NOTE]
 >
