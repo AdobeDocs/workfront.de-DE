@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: 3bd72ca7e9a55dded97fa65d403d661f3ca95d3e
+source-git-commit: 6490feeb9f07234609bd31cb9ab81a7787dc72d0
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 2%
+source-wordcount: '624'
+ht-degree: 1%
 
 ---
 
@@ -18,6 +18,24 @@ Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom 
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2026 verfügbar sind, finden Sie unter [Versionsübersicht für das dritte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+## Anfordern von Genehmigungen zu Adobe Express-Vorlagen mit Workfront und Frame.io
+
+>[!NOTE]
+>
+>Vorschau: K. A>Produktion Schnellveröffentlichung: 15. Juni 2026>Produktion für alle: 15. Juni 2026>[!BADGE Aus Zeitplan]{type=Neutral}
+
+Die Integration von Adobe Express und Workfront mit Frame.io ermöglicht die strukturierte Überprüfung und Genehmigung von in Adobe Express erstellten Inhalten. Designer können eine Workflow-Vorlage für Workfront-Genehmigungen einer Express-Vorlage zuordnen, sodass beim Remixen der Vorlage vor der Veröffentlichung automatisch eine Genehmigung erforderlich ist, sodass das Asset durch den vorkonfigurierten Workfront-Workflow und Frame.io-Viewer geleitet wird.
+
+Mit dieser Integration können Sie:
+
+* Optimierung der Zusammenarbeit zwischen Kreativ-, Rechts- und Compliance-Teams, um die Zeit bis zur Veröffentlichung zu verkürzen und gleichzeitig die Aufsicht zu wahren
+* Durchführen von tiefen Überprüfungen mit Zeichnungsmarkierungen, Anmerkungen und Kommentaren im Frame.io-Viewer
+* Einhaltung von Unternehmensstandards durch elektronische Signaturen und vollständige Auditprotokolle
+* Genehmigung für alle Remix-Dateien aus einer Express-Markenvorlage verlangen
+* Zuordnen einer Express-Vorlage zu einem mehrstufigen Prüfungs- und Genehmigungs-Workflow mithilfe einheitlicher Genehmigungsvorlagen in Workfront
+* Wählen Sie bei der Anforderung einer Genehmigung ein Workfront-Projekt aus, damit die zugehörigen Assets und Korrekturabzüge gemeinsam organisiert bleiben
+
+Weitere Informationen finden Sie unter [Erste Schritte mit Adobe Express und Workfront mit Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/express-wf-frame.md).
 
 ## Druckzusammenfassung für Dokumente im neuen Dokumentbereich
 
