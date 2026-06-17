@@ -23,9 +23,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: 54590f8d98a26bf3a7ee7e5becb3c21a24ffeab5
 workflow-type: tm+mt
-source-wordcount: 1257
+source-wordcount: 1266
 ht-degree: 5%
 
 ---
@@ -114,7 +114,7 @@ Old:
    * Eine alte Workfront-Speicheraufgabe erstellt ein veraltetes Workfront-Speicherprojekt.
    * Eine Adobe-Cloud-Speicheraufgabe erstellt ein Adobe-Cloud-Speicherprojekt.
    * Wenn Sie eine ältere Workfront-Speichervorlage zum Konvertieren einer Adobe-Cloud-Speicheraufgabe verwenden, wird ein Adobe-Cloud-Speicherprojekt erstellt.
-   * Wenn Sie eine Adobe-Cloud-Speichervorlage zum Konvertieren einer veralteten Workfront-Speicheraufgabe verwenden, wird ein veraltetes Workfront-Speicherprojekt erstellt.
+   * Wenn Sie eine Adobe-Cloud-Speichervorlage verwenden, um eine ältere Workfront-Speicheraufgabe zu konvertieren, wird ein Adobe-Cloud-Speicherprojekt erstellt. Dokumente und ihre Genehmigungen bleiben beim aktuellen Projekt erhalten.
 
      Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und verwandte Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
@@ -122,10 +122,7 @@ Old:
      >
      >Ihre Workfront-Instanz hat möglicherweise keinen Zugriff auf beide Arten von Dokumentspeicher.
 
-     <!--
-     For preview/ prod - rewrite the last bullet in the note: 
-     * Using an Adobe cloud storage template to convert a legacy Workfront storage task creates an Adobe cloud storage project. Documents and their approvals remain on the current project. 
-     -->
+
 * Der Status und der abgeschlossene Prozentsatz aller Teilaufgaben und Probleme werden beibehalten.
 * Aufgabenzugewiesene und der Benutzer, der die Aufgabe in das Projekt konvertiert, werden zu freigegebenen Benutzern im Projekt.
 * Das Startdatum des Projekts ist auf das Startdatum der Aufgabe festgelegt.
