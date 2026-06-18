@@ -11,7 +11,7 @@ role: Admin
 exl-id: 7f62de33-e544-4be9-8dcf-03a2e09e8a05
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: d348f7a97f4e47fab9083d6bb7a7e6e8f6eb351b
+source-git-commit: b6c2f0b8138948be7a6f9565503d05738c456857
 workflow-type: tm+mt
 source-wordcount: '1458'
 ht-degree: 0%
@@ -111,7 +111,7 @@ Informationen zur Zusammenarbeit von Zugriffsebenen und Berechtigungen finden Si
 
 ## Überlegungen zu Geschäftsprofilen
 
-* Geschäftsprofile stehen nur Organisationen zur Verfügung, die über einen Ultimate-Workflow verfügen.
+* Geschäftsprofile stehen nur Organisationen zur Verfügung, die über ein Workflow-Ultimate-Paket verfügen.
 * Ein Benutzer muss nicht Mitglied einer Gruppe sein, um ein Geschäftsprofil für diese Gruppe zu erhalten.
 * Die Zugriffsebene für das Geschäftsprofil kann nur die „Basis“-Zugriffsebene eines Benutzers aktualisieren. Das Geschäftsprofil kann die Basisberechtigungen auf Zugriffsebene nicht entfernen.
 * In Objektlisten und Berichten verfügt der Benutzer über alle Berechtigungen, die ihm von allen zugewiesenen Geschäftsprofilen über die Gruppen hinweg zur Verfügung stehen, die mit seiner Basiszugriffsebene zusammengeführt wurden. Auf anderen Seiten verfügt der Benutzer über Basisberechtigungen auf Zugriffsebene.
