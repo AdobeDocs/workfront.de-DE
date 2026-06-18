@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: eea70c6013d3f43f78b679bf08f21bb40467940b
+source-git-commit: 6503adcc34ba4ff2c9c6ec56ab786db7f412ff3f
 workflow-type: tm+mt
-source-wordcount: '1919'
+source-wordcount: '2001'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,17 @@ In diesem Artikel werden die Funktionen beschrieben, die im dritten Quartal 2026
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Standardoptionen für Felder vom Typ „Personen“ und „Personen“ hinzufügen
+
+>[!NOTE]
+>
+>Vorschau: 18. Juni 2026>Produktions-Schnellversion: 15. Juli 2026>Produktion für alle: 16. Juli 2026
+
+Wenn Sie ein Feld vom Typ Einzel- oder Mehrfachauswahl oder ein Feld vom Typ Personen erstellen, können Sie jetzt einen Standardwert für diese Felder angeben. Die Standardwerte werden immer angewendet, wenn das Feld in einem Datensatz sichtbar ist.
+
+Sie können die Standardeinstellungen des Felds nach dessen Speicherung ändern. Sie können die Standardwerte der Felder beim Arbeiten mit Datensätzen ersetzen.
+
+Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Verbesserungen der Benutzeroberfläche in der Tabellenansicht
 

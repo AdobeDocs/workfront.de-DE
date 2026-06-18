@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 54590f8d98a26bf3a7ee7e5becb3c21a24ffeab5
+source-git-commit: 6503adcc34ba4ff2c9c6ec56ab786db7f412ff3f
 workflow-type: tm+mt
-source-wordcount: 5339
+source-wordcount: 5497
 ht-degree: 2%
 
 ---
@@ -355,9 +355,9 @@ Sie können ein Feld mit Mehrfachauswahl verwenden, um zusätzliche Informatione
 
    Klicken Sie **Benutzerdefiniert**, um eine benutzerdefinierte Farbe mithilfe einer Farbauswahl oder eines Hexadezimalcodes auszuwählen.
 1. Klicken Sie auf eine Stelle außerhalb des Farbfelds, um es zu schließen.
-   <!--
-    1. <span class="preview">In the **Default choices** field, select the choices that you want to display in this field by default. You can choose more than one choice. Users can remove the default choices as they update this field. (********** and update all screen shots on this page ******) </span>
-    -->
+
+1. <span class="preview">Wählen Sie im Feld **Standardoptionen** die Optionen aus, die Sie standardmäßig in diesem Feld anzeigen möchten. Sie können mehrere Optionen auswählen. Benutzer können die Standardoptionen bei der Aktualisierung dieses Felds entfernen.</span>
+
 1. Klicken Sie auf **Erstellen**.
 
    Das neue Mehrfachauswahlfeld wird als Spalte zum Datensatztyp hinzugefügt und seine Werte können Datensätzen zugeordnet werden.
@@ -404,9 +404,9 @@ Mit Einzelauswahlfeldern können Sie zusätzliche Informationen in jedem beliebi
    ODER
 
    Klicken Sie **Benutzerdefiniert**, um eine benutzerdefinierte Farbe mithilfe einer Farbauswahl oder eines Hexadezimalcodes auszuwählen.
-<!--
-    1. <span class="preview">In the **Default choice** field, select the choice that you want to display in this field by default. You can choose only one choice. Users can remove the default choice as they update this field. (********** and update all screen shots on this page ******) </span>
-    -->
+
+1. <span class="preview">Wählen Sie im Feld **Standardauswahl** die Auswahl aus, die Sie standardmäßig in diesem Feld anzeigen möchten. Sie können nur eine Option auswählen. Benutzer können die Standardauswahl entfernen, während sie dieses Feld aktualisieren. </span>
+
 1. Klicken Sie auf eine Stelle außerhalb des Farbfelds, um es zu schließen.
 1. Klicken Sie auf **Erstellen**.
 
@@ -696,14 +696,15 @@ Mit dem Feldtyp Personen können Sie einen Benutzer zu einem Datensatz hinzufüg
    >
    >    Wenn Sie Mehrere Werte zulassen auswählen und mehrere Benutzende in den Datensätzen gespeichert werden, mit denen das Feld verbunden ist, können Sie die Auswahl der Einstellung in Zukunft nicht mehr aufheben, wenn Sie dieses Feld bearbeiten.
 
-   <!--
-    1. <span class="preview">In the **Default user** or **Default users** field, select the users that you want to display in this field by default. You can choose more than one user if you also selected the **Allow multiple values** setting. Users can remove the default users as they update this field.(********** and update all screen shots on this page ******) </span>
+1. <span class="preview">Wählen Sie im Feld **Standardbenutzer** oder **Standardbenutzer** die Benutzer aus, die Sie standardmäßig in diesem Feld anzeigen möchten. </span>
 
-    >[!TIP]
-    >
-    >Deactivating users chosen as default users in this setting preserves the users's names as the default. It does not remove the deactivated user from the field value and there is no indication to others that the user was deactivated.
-    -->
+   <span class="preview">Sie können mehrere Benutzer auswählen, wenn Sie auch die Einstellung **Mehrere Werte zulassen** ausgewählt haben. </span>
 
+   <span class="preview">Benutzer können die Standardbenutzer entfernen, während sie dieses Feld aktualisieren.</span>
+
+   >[!TIP]
+   >
+   ><span class="preview">Wenn Sie in dieser Einstellung Benutzer deaktivieren, die als Standardbenutzer ausgewählt wurden, bleiben die Namen der Benutzer als Standard erhalten. Der deaktivierte Benutzer wird nicht aus dem Feldwert entfernt, und es gibt keinen Hinweis darauf, dass der Benutzer deaktiviert wurde.</span>
 
 1. Klicken Sie auf **Erstellen**.
 

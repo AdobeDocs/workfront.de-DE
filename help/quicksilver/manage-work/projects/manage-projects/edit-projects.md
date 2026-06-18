@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c6b02fbaf2ee03728543c9d34068e4dd353ac441
+source-git-commit: a3db8ef0f43743232324a55f3e6968a26ce61404
 workflow-type: tm+mt
-source-wordcount: 7980
+source-wordcount: 7995
 ht-degree: 2%
 
 ---
@@ -169,11 +169,12 @@ Informationen zum Erstellen eines Projekts über eine Vorlage finden Sie unter [
    >
    >Je nachdem, wie Workfront-Admins oder Gruppenadmins Ihre Layout-Vorlage geändert haben, werden die Felder im Bereich Projektdetails möglicherweise neu angeordnet oder nicht angezeigt. Weitere Informationen finden Sie unter [Anpassen der Detailansicht mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-   Gehen Sie wie folgt vor, um Informationen im Abschnitt Details zu bearbeiten:
+   Gehen Sie wie folgt vor, um Informationen **Abschnitt** Details“ zu bearbeiten:
 
    1. (Optional) Klicken Sie auf das Symbol **Alle reduzieren** ![Symbol Alle reduzieren](assets/collapse-icon.png) in der oberen rechten Ecke, um alle Bereiche zu reduzieren.
-   1. (Optional und bedingt) Wenn ein Bereich reduziert ist, klicken Sie auf den **Nach rechts zeigenden Pfeil** Nach ![rechts zeigenden Pfeil](assets/right-pointing-arrow.png) neben jedem Bereich, um den Bereich zu erweitern, den Sie bearbeiten möchten.
-   1. Weitere Informationen zum Bearbeiten von Informationen auf der Registerkarte Projektdetails finden Sie in den folgenden Artikeln:
+   1. (Optional und bedingt) Wenn ein Bereich reduziert ist, klicken Sie auf den **Nach rechts zeigenden Pfeil** Nach ![rechts zeigenden Pfeil](assets/right-pointing-arrow.png) neben jedem Bereich, um den Bereich zu erweitern, den Sie bearbeiten möchten. Oder klicken Sie auf den **nach rechts zeigenden Pfeil** in der oberen rechten Ecke, um alle Bereiche zu erweitern.
+
+      Weitere Informationen zum Bearbeiten von Informationen auf der Registerkarte Projektdetails finden Sie in den folgenden Artikeln:
 
       * [Verwalten von Informationen im Projektübersichtsbereich](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
       * [Verwalten von Informationen im Bereich für Projektfinanzen](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
