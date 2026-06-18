@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: eea70c6013d3f43f78b679bf08f21bb40467940b
+source-git-commit: 6503adcc34ba4ff2c9c6ec56ab786db7f412ff3f
 workflow-type: tm+mt
-source-wordcount: '1919'
+source-wordcount: '2001'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,17 @@ In diesem Artikel werden die Funktionen beschrieben, die im dritten Quartal 2026
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Standardoptionen für Felder vom Typ „Personen“ und „Personen“ hinzufügen
+
+>[!NOTE]
+>
+>Vorschau: 18. Juni 2026>Produktions-Schnellversion: 15. Juli 2026>Produktion für alle: 16. Juli 2026
+
+Wenn Sie ein Feld vom Typ Einzel- oder Mehrfachauswahl oder ein Feld vom Typ Personen erstellen, können Sie jetzt einen Standardwert für diese Felder angeben. Die Standardwerte werden immer angewendet, wenn das Feld in einem Datensatz sichtbar ist.
+
+Sie können die Standardeinstellungen des Felds nach dessen Speicherung ändern. Sie können die Standardwerte der Felder beim Arbeiten mit Datensätzen ersetzen.
+
+Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Verbesserungen der Benutzeroberfläche in der Tabellenansicht
 
@@ -111,7 +122,7 @@ Version 1 bleibt verfügbar, obwohl wir empfehlen, zur Verwendung von Version 2 
 
 Weitere Informationen finden Sie unter [Grundlagen zur Adobe Workfront Planning-API](/help/quicksilver/planning/general/planning-api-basics.md).
 
-Informationen zu den Spezifikationen der Workfront Planning-API finden Sie in der Entwicklerdokumentation zur [Workfront &#x200B;](https://developer.adobe.com/wf-planning/)-API.
+Informationen zu den Spezifikationen der Workfront Planning-API finden Sie in der Entwicklerdokumentation zur [Workfront ](https://developer.adobe.com/wf-planning/)-API.
 
 ## Berechtigungen für Datensätze erteilen
 
@@ -280,7 +291,7 @@ Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfra
 
 >[!NOTE]
 >
->Vorschau und Produktion für alle Kunden: 14. Mai 2026 >[!BADGE &#x200B; Zeitplan]{type=Neutral}
+>Vorschau und Produktion für alle Kunden: 14. Mai 2026 >[!BADGE  Zeitplan]{type=Neutral}
 
 Für eine bessere Sichtbarkeit bei der Arbeit mit AEM-Inhaltsfragmenten, die mit Workfront Planning-Datensätzen verbunden sind, wurde ein Vorschaufenster hinzugefügt, in dem Informationen zu den Fragmenten in Workfront Planning angezeigt werden.
 
