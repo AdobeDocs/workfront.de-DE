@@ -18,10 +18,10 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 03ecdc53f80c25a77136d1735266bfdbcbe2a8f9
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
-source-wordcount: 1537
-ht-degree: 8%
+source-wordcount: 1493
+ht-degree: 7%
 
 ---
 
@@ -44,7 +44,7 @@ Diese Funktion ist beim Erstellen einer Anfrage im Bereich Workfront-Anfragen so
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td role="rowheader">Adobe Workfront- oder Workflow-Paket</td> 
    <td> <p>Beliebig </p> </td> 
   </tr> 
   <tr> 
@@ -77,7 +77,7 @@ Remove me October 2026
 * Your organization must have migrated to Adobe IMS (Identity Management System)
 * The Adobe Unified Experience must be enabled
 -->
-* Ihre Organisation muss über ein Workfront-Abo des Typs Select, Prime oder Ultimate verfügen.
+* Ihr Unternehmen muss über ein Select-, Prime- oder Ultimate Workfront- oder Workflow-Paket verfügen
 * Bei Adobe muss eine unterzeichnete Adobe GenAI-Vereinbarung hinterlegt sein
 
   Weitere Informationen zum Unterzeichnen des Vertrags finden Sie unter [Unterschreiben des Adobe Gen AI-](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)) im Artikel KI-Assistent - Übersicht.
@@ -104,11 +104,19 @@ Beachten Sie bei der Verwendung von Formularausfüllen auf Basis von KI Folgende
 >
 >Das Ausfüllen von Formularen mit künstlicher Intelligenz ist auf Organisationsebene aktiviert und kann für bestimmte Benutzer oder Zugriffsebenen nicht aktiviert oder deaktiviert werden.
 
-1. Klicken Sie oben links auf **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) und dann auf **[!UICONTROL Setup]** ![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
-1. Klicken Sie auf **System** und dann unter „System“ auf **Voreinstellungen**.
-1. Aktivieren Sie im Abschnitt „KI-Voreinstellungen“ die Einstellung **KI aktivieren**.
-1. Schalten Sie die Einstellung **KI-Formularausfüllen** ein.
-1. Um das Ausfüllen von Formularen mit künstlicher Intelligenz zu deaktivieren, deaktivieren Sie **KI-Formularausfüllen**.
+Weitere Informationen finden Sie [Konfigurieren von Systemvoreinstellungen](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+
+<!--
+
+This should point to the System Preferences article, since it's not a user function: 
+
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
+1. Click **System**, then under System, click **Preferences**.
+1. In the AI preference section, turn on the **Enable AI** setting.
+1. Turn on the **AI Form Fill** setting.
+1. To disable Form Fill powered by AI, turn off **AI Form Fill**.
+
+-->
 
 ## Abrufen von Vorschlägen aus einer Textaufforderung
 

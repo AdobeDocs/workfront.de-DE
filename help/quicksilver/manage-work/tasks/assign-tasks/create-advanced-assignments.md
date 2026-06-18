@@ -9,7 +9,8 @@ role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/zWSZMjnN-WSef9q6W6s9mIcO2DakU0f886IcxD15tzg
+autotag-review: '2026-06-18T17:43:58.800Z'
+TQID: 'https://experienceleague.adobe.com/qZvXwTMlCd5p08duYVqbyHpkML4oXtbijHuCzlukywg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 feature_v2:
@@ -23,10 +24,11 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
-source-wordcount: 3340
+source-wordcount: 3361
 ht-degree: 1%
 
 ---
@@ -63,17 +65,6 @@ Sie können bei erweiterten Zuweisungen die folgenden Zuweisungsinformationen an
 >
 >Wenn Sie Benutzende einer Arbeit zuweisen, wirkt sich ihre Verfügbarkeit entsprechend den Zeitplänen auf die geplanten und erwarteten Termine von Aufgaben und Problemen aus. Weitere Informationen zu Zeitplänen finden Sie unter [Erstellen eines Zeitplans](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-## Bereiche von Adobe Workfront, in denen Sie erweiterte Zuweisungen vornehmen können
-
-In diesem Artikel wird beschrieben, wie Sie in der Kopfzeile der Aufgabe oder des Problems auf erweiterte Zuweisungen zugreifen können.
-
-Darüber hinaus können Sie in den folgenden Bereichen von Workfront erweiterte Zuweisungen vornehmen:
-
-* In Listen und Berichten, wenn das Feld „Zuweisungen“ in der Ansicht angezeigt wird.
-* Im Abschnitt Arbeitsaufträge beim Bearbeiten einer Aufgabe. Weitere Informationen finden Sie unter [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md). <!--When we remove the old/ new experience: take this bullet out completely; in the new Edit Task experience, this is no longer possible-->
-* In der Aufgaben- oder Problem-Kopfzeile im Bereich Zuweisungen .
-* Im Workload Balancer. Weitere Informationen finden Sie unter [Arbeiten manuell über den Workload Balancer zuweisen](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
-
 ## Zugriffsanforderungen
 
 +++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
@@ -107,14 +98,27 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 +++
 
-## Erweiterte Zuweisungen erstellen - Workflow-Ultimate-Paket
+## Bereiche von Adobe Workfront, in denen Sie erweiterte Zuweisungen vornehmen können
 
-Dieses Layout für erweiterte Zuweisungen gilt nur für Aufgaben. Informationen zu Problemen finden Sie unter [Erweiterte Zuweisungen erstellen - Alle anderen Pakete](#create-advanced-assignments--all-other-packages).
+In diesem Artikel wird beschrieben, wie Sie in der Kopfzeile der Aufgabe oder des Problems auf erweiterte Zuweisungen zugreifen können.
+
+Darüber hinaus können Sie in den folgenden Bereichen von Workfront erweiterte Zuweisungen vornehmen:
+
+* In Listen und Berichten, wenn das Feld „Zuweisungen“ in der Ansicht angezeigt wird.
+* Im Abschnitt Arbeitsaufträge beim Bearbeiten einer Aufgabe. Weitere Informationen finden Sie unter [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md). <!--When we remove the old/ new experience: take this bullet out completely; in the new Edit Task experience, this is no longer possible-->
+* In der Aufgaben- oder Problem-Kopfzeile im Bereich Zuweisungen .
+* Im Workload Balancer. Weitere Informationen finden Sie unter [Arbeiten manuell über den Workload Balancer zuweisen](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
+
+Das Erstellen erweiterter Zuweisungen hängt davon ab, welches Workfront-Paket Ihr Unternehmen erworben hat.
+
+## Erweiterte Zuweisungen für Workflow-Ultimate-Pakete erstellen
+
+Dieses Layout für erweiterte Zuweisungen gilt nur für Aufgaben. Informationen zu Problemen finden Sie im Abschnitt [Erstellen erweiterter Zuweisungen für alle anderen Pakete](#create-advanced-assignments-for-all-other-packages) in diesem Artikel.
 
 >[!NOTE]
 >
 >Das alte Erlebnis Erweiterte Zuweisungen ist die Standardeinstellung. Sie müssen das neue Erlebnis manuell über die Schaltfläche oben rechts im Fenster Erweiterte Zuweisungen aktivieren.
->Weitere Informationen zum alten Erlebnis finden Sie [Erstellen erweiterter Zuweisungen - alle anderen Pakete](#create-advanced-assignments--all-other-packages) unten.
+>Informationen zum alten Erlebnis finden Sie im Abschnitt [Erstellen erweiterter Zuweisungen für alle anderen &#x200B;](#create-advanced-assignments-for-all-other-packages) in diesem Artikel.
 
 1. Wechseln Sie zu dem Projekt, dem Sie eine Aufgabe zuweisen möchten.
 1. Klicken Sie **linken Bereich** Aufgaben“ oder **Probleme** und klicken Sie dann auf den Namen einer Aufgabe in der Liste.
@@ -134,7 +138,7 @@ Dieses Layout für erweiterte Zuweisungen gilt nur für Aufgaben. Informationen 
 
    ![Klicken Sie auf Erweitert](assets/assignments-from-task-header-0825.png)
 
-   Das Fenster Erweiterte Zuweisungen wird angezeigt.
+   Das Fenster Erweiterte Zuweisungen wird geöffnet.
 
    ![Fenster „Erweiterte Zuweisungen“](assets/advanced-assignments-031826.png)
 
@@ -330,7 +334,7 @@ Zuweisungsdaten können nur nach Daten für einen einzelnen Benutzer oder eine e
 
    Wenn Sie mit der Überprüfung der Daten fertig sind, klicken Sie auf den Pfeil oben links, um zum Fenster Erweiterte Zuweisungen zurückzukehren.
 
-## Erweiterte Zuweisungen erstellen - alle anderen Pakete
+## Erweiterte Zuweisungen für alle anderen Pakete erstellen
 
 Dieses Layout für erweiterte Zuweisungen gilt sowohl für Aufgaben als auch für Probleme.
 
