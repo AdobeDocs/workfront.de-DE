@@ -7,7 +7,7 @@ description: Konvertieren Sie vorhandene alte Workfront-Speicherportfolios in Ad
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 9d28f52ace4d443bdffc475baf79d482152d4157
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 9%
@@ -16,7 +16,7 @@ ht-degree: 9%
 
 # Alte Portfolios in Adobe Cloud-Speicher konvertieren
 
-Als Workfront-Administrator können Sie bestehende alte Workfront-Speicherportfolios über den Bereich „Speichereinstellungen“ in den Systemeinstellungen in den Adobe-Cloud-Speicher konvertieren. Nachdem ein Portfolio konvertiert wurde, verhält es sich wie jedes andere Adobe-Cloud-Speicherportfolio.
+Als Workfront-Administrator können Sie bestehende Workfront-Speicherportfolios über den Bereich „Speichereinstellungen“ in den Systemeinstellungen in Adobe-Cloud-Speicher umwandeln. Nachdem ein Portfolio konvertiert wurde, verhält es sich wie jedes andere Adobe-Cloud-Speicherportfolio.
 
 Weitere Informationen dazu, wie sich konvertierte Portfolios verhalten und wie sich ihre untergeordneten Objekte auswirken, finden Sie unter [Objektportabilität](/help/quicksilver/review-and-approve-work/workfront-storage.md#object-portability) in [Wechseln zu Workfront im Adobe Cloud-Speicher](/help/quicksilver/review-and-approve-work/workfront-storage.md).
 
@@ -52,6 +52,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 Bevor Sie ein Legacy-Speicherportfolio von Workfront konvertieren, sollten Sie Folgendes beachten:
 
 * Die Konversion betrifft nur das Portfolio selbst. Untergeordnete Projekte und Programme, die alten Workfront-Speicher verwenden, bleiben auf dem alten Speicher.
+
   >[!NOTE]
   >
   >Ein untergeordnetes Legacy-Programm kann nur dann automatisch in den Adobe-Cloud-Speicher konvertiert werden, wenn ihm manuell ein Adobe-Cloud-Speicherprojekt hinzugefügt wird.

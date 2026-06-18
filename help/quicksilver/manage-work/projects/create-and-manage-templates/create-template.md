@@ -9,23 +9,14 @@ exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/JqR-bwIq1AVMOMz3aTWIKoiPep1VQ6IaONbbuDJ1AiA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
-source-wordcount: 905
+source-wordcount: 790
 ht-degree: 9%
 
 ---
@@ -62,7 +53,7 @@ Sie können eine neue Vorlage wie folgt erstellen:
 
 * Durch Kopieren aus einer anderen Vorlage.
 
-  Weitere Informationen zum Kopieren einer vorhandenen Vorlage finden Sie unter [Kopieren einer &#x200B;](../../../manage-work/projects/create-and-manage-templates/copy-template.md)).
+  Weitere Informationen zum Kopieren einer vorhandenen Vorlage finden Sie unter [Kopieren einer ](../../../manage-work/projects/create-and-manage-templates/copy-template.md)).
 
 * Durch den Import von Blueprints. Sie müssen Workfront-Administrator sein, um Blueprints importieren zu können. Weitere Informationen finden Sie unter [Blueprint konfigurieren](../../../administration-and-setup/blueprints/configure-template-package.md).
 
@@ -142,7 +133,7 @@ Old:
 
       * **Unbenannte Vorlage** für eine Workfront-Speichervorlage.
 
-        Bei einer Legacy-Workfront-Speichervorlage wird neben dem Namen das Symbol **Legacy** Workfront-Speicher![&#x200B; Legacy-](assets/legacy-storage-project-icon.png)-Projekt) angezeigt.
+        Bei einer Legacy-Workfront-Speichervorlage wird neben dem Namen das Symbol **Legacy** Workfront-Speicher![ Legacy-](assets/legacy-storage-project-icon.png)-Projekt) angezeigt.
 
       * **Nicht benannte Vorlage - &lt; Tag Monat, Jahr, Stunde.Minute.Sekunde >** für eine Adobe Cloud-Speichervorlage
 
@@ -160,11 +151,11 @@ Old:
 
    Klicken Sie auf **Neue Vorlagenaufgabe**, um Ihrer Vorlage im Feld **Neue Vorlagenaufgabe** Aufgaben hinzuzufügen.
 
-   Das **Vorlagenaufgabe erstellen** wird in der neuen -Version geöffnet, wenn Sie auf **Neue Vorlagenaufgabe** klicken.
+   Das **Vorlagenaufgabe erstellen** wird geöffnet, wenn Sie auf **Neue Vorlagenaufgabe** klicken.
 
    ![Neues Erlebnis für neue Vorlagenaufgabe](assets/new-template-task-box-unshimmed.png)
 
-1. (Bedingt) Aktualisieren Sie unter Verwendung der neuen -Version die Informationen in den folgenden Bereichen im Feld **Vorlagenaufgabe erstellen**:
+1. (Bedingt) Aktualisieren Sie Informationen in den folgenden Bereichen im Feld **Vorlagenaufgabe erstellen**:
 
    * Name der Vorlagenaufgabe
    * Übersicht
@@ -174,53 +165,29 @@ Old:
    * Dokumente
    * Einstellungen
 
-1. Klicken Sie **Vorlagenaufgabe erstellen**
+   Das Aktualisieren von Informationen für eine Vorlagenaufgabe ähnelt dem Bearbeiten von Vorlagenaufgaben.
 
-   ODER
-
-   Klicken Sie **unten im Feld** Vorlagenaufgabe erstellen **auf „Zurück zur alten** wechseln“.
-
-   Die **Neue Vorlagenaufgabe** wird in der alten Version geöffnet.
-
-   ![Feld „Neue Vorlagenaufgabe“](assets/new-template-task-box.png)
-
-   >[!TIP]
-   >
-   >In der Produktionsumgebung wird standardmäßig das alte Erlebnis geöffnet.
-
-1. Aktualisieren Sie die Informationen in den folgenden Bereichen im Feld **Neue Vorlagenaufgabe**:
-
-   * Übersicht
-   * Finanzielle Details
-   * Einstellungen
-   * Arbeitsaufträge
-   * Benutzerdefinierte Formulare
-   * Dokument anfügen
-
-     Das Aktualisieren von Informationen für eine Vorlagenaufgabe ähnelt dem Bearbeiten von Aufgaben in einem Projekt. Weitere Informationen finden Sie unter [Aufgaben bearbeiten](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md). <!--should this be relinked at preview/ prod release to say it's the same as Edit template tasks??-->
+   Weitere Informationen finden Sie unter [Vorlagenaufgaben bearbeiten](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-template-task.md).
 
    >[!NOTE]
    >
    >Sie können einer Vorlage keine wiederkehrenden Aufgaben hinzufügen.
 
-1. Klicken Sie auf eine der folgenden Optionen:
+1. Klicken Sie **Vorlagenaufgabe erstellen**.
 
-   * **Vorlagenaufgabe speichern** speichert die aktuelle Vorlagenaufgabe und schließt das Feld Neue Vorlagenaufgabe.
-   * **Vorlagenaufgabe speichern und eine andere**, um die aktuelle Vorlagenaufgabe zu speichern und ein weiteres **Neue Vorlagenaufgabe“** öffnen, um eine weitere Aufgabe hinzuzufügen.
-   * **Abbrechen**, um das Feld zu schließen, ohne die Vorlagenaufgabe zu speichern.
-1. (Optional) Klicken Sie nach dem Hinzufügen der Vorlagenaufgaben im Abschnitt Vorlagenaufgaben auf das **Gantt-Diagramm**-Symbol in der rechten oberen Ecke der Aufgabenliste, um eine visuelle Darstellung der Aufgabenliste der Vorlage anzuzeigen.
+1. (Optional) Klicken Sie nach dem Hinzufügen der Vorlagenaufgaben im **Vorlagenaufgaben** auf das **Gantt-Diagramm**-Symbol ![Gantt-Symbol](assets/gantt-icon.png) in der oberen rechten Ecke der Aufgabenliste, um eine visuelle Darstellung der Aufgabenliste der Vorlage anzuzeigen.
 
    >[!TIP]
    >
-   >Aufgaben können nicht direkt über dieses Gantt-Diagramm bearbeitet werden.
+   >Sie können Aufgaben nicht direkt über ein Gantt-Diagramm für Vorlagenaufgaben bearbeiten.
 
-1. Um Informationen zu Ihrer neuen Vorlage hinzuzufügen, klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-icon.png) links neben dem Vorlagennamen in der Kopfzeile und klicken dann auf **Bearbeiten**.
+1. Um Informationen zu Ihrer neuen Vorlage hinzuzufügen, klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-icon.png) rechts neben dem Vorlagennamen in der Kopfzeile und klicken dann auf **Bearbeiten**.
 
    Informationen zum Bearbeiten einer Vorlage finden Sie unter [Projektvorlagen bearbeiten](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
    >[!NOTE]
    >
-   >   Die Zuordnung einer Projektvorlage zu einer Gruppe (oder das Fehlen einer Gruppe) wirkt sich darauf aus, wie die Voreinstellungen für Projekte, Aufgaben und Probleme bestimmte Einstellungen in der Vorlage bestimmen.
+   >Die Zuordnung einer Projektvorlage zu einer Gruppe (oder das Fehlen einer Gruppe) wirkt sich darauf aus, wie die Voreinstellungen für Projekte, Aufgaben und Probleme bestimmte Einstellungen in der Vorlage bestimmen.
    >
    >Weitere Informationen finden Sie im Abschnitt „Wie Voreinstellungen auf Vorlagen und Vorlagenaufgaben angewendet werden“ im Artikel [Erstellen und Ändern der Projektvorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 
@@ -241,7 +208,7 @@ Old:
    * Ausgaben
    * Genehmigungen
 
-   Weitere Informationen finden Sie im Abschnitt „Hinzufügen weiterer Elemente zu einer Vorlage“ im Artikel &quot;[&#x200B; bearbeiten](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+   Weitere Informationen finden Sie im Abschnitt „Hinzufügen weiterer Elemente zu einer Vorlage“ im Artikel &quot;[ bearbeiten](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 
 

@@ -11,25 +11,15 @@ exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/46D3BBajFk39FP-dMDk0SuSSGM5nYPKas11Bs159R9Y
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9d28f52ace4d443bdffc475baf79d482152d4157
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
-source-wordcount: 964
-ht-degree: 13%
+source-wordcount: 1155
+ht-degree: 12%
 
 ---
 
@@ -121,7 +111,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
         <li>Dokumentanforderung<br></li>
         <li>Dokumentengenehmigung</li>
         <li>Kalender</li>
-       </ul><p>Standardmäßig ist diese Option aktiviert.</p> <p><b>Wichtig</b>: Die Zugriffsebene Externe Benutzer ist in Ihrer Workfront-Instanz nicht verfügbar, wenn diese Option deaktiviert ist. Weitere Informationen finden Sie <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Integrierte Zugriffsebenen</a>.</p> </td> 
+       </ul><p>Standardmäßig ist diese Option aktiviert.</p> <p><b>WICHTIG</b>: Die Zugriffsebene Externe Benutzer ist in Ihrer Workfront-Instanz nicht verfügbar, wenn diese Option deaktiviert ist. Weitere Informationen finden Sie <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Integrierte Zugriffsebenen</a>.</p> </td> 
      </tr> 
      <!--
      <tr> 
@@ -141,6 +131,10 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
       <td role="rowheader">Hilfe-URL</td> 
       <td>Ermöglicht die Definition einer internen benutzerdefinierten Hilfeseite, zu der das Hilfesymbol des Hauptmenüs wechseln soll. Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md">Konfigurieren einer benutzerdefinierten Hilfe-URL</a>.</p></td> 
      </tr>
+    <tr> 
+      <td role="rowheader">Automatisches Upgrade von Zugriffsberechtigungen deaktivieren</td> 
+      <td>Sie können den automatischen Upgrade-Prozess für die Zugriffsebenen von Mitwirkenden deaktivieren. Wenn diese Einstellung aktiviert ist, müssen Benutzende mit einer Mitwirkendenlizenz, die ihr Limit für Genehmigungsentscheidungen überschritten haben, vom Administrator manuell auf eine neue Lizenz aktualisiert werden.</p></td> 
+     </tr>
      <tr> 
       <td role="rowheader">Arbeitsliste „Prioritäten“ aktivieren </td> 
       <td>Ermöglicht die Auswahl oder Deaktivierung der Liste „Prioritäten“ für die Benutzer. Die Benutzer sehen weiterhin die Prioritätssymbole in Workfront, haben jedoch keinen Zugriff auf die Funktion. Weitere Informationen zu Prioritäten finden Sie unter <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Erste Schritte mit Prioritäten</a>.</td> 
@@ -150,20 +144,33 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
       <td><span class="preview"><p>Hier können Sie auswählen, ob Benutzer bei der Massenbearbeitung von Objekten zur Eingabe von Informationen in erforderliche Felder gezwungen werden sollen.</p> <p>Wenn diese Option ausgewählt ist, müssen die erforderlichen Felder vor dem Speichern im Massenbearbeitungsmodus Werte aufweisen. Wenn im erforderlichen Feld ein Wert für mindestens ein Massenobjekt fehlt, ist das Speichern nicht zulässig.</p> <p>Wenn diese Option nicht ausgewählt ist, werden erforderliche Felder nur erzwungen, wenn ein Benutzer das Feld ändert. Wenn ein Feld nicht geändert wird, wird es als optional behandelt und nicht validiert.</p></span></td>
      </tr>
      <tr> 
-      <td role="rowheader">Aktivieren von Adobe Cloud Storage </td> 
-      <td>Ermöglicht die Aktivierung oder Deaktivierung der Adobe-Cloud-Datenspeicherung für das gesamte Unternehmen oder für bestimmte Gruppen. Weitere Informationen zu Adobe Cloud-Speicher finden Sie unter <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">Aktivieren von Adobe Cloud-Speicher für Ihr Unternehmen</a>.</td> 
-     </tr>
-     <tr> 
+      <td role="rowheader">Speichereinstellungen </td> 
+      <td>In diesem Abschnitt können Sie die Adobe-Cloud-Voreinstellungen aktivieren. Ermöglicht die Aktivierung oder Deaktivierung der Adobe-Cloud-Datenspeicherung für das gesamte Unternehmen oder für bestimmte Gruppen. 
+      <p>Aktualisieren Sie die folgenden Informationen:</p>
+      <ul><li><b>Standard</b>: Wählen Sie Legacy Workfront-Speicher oder Adobe Cloud-Speicher aus</li>
+      <li><b>Auswahl des Speicheranbieters durch Benutzer zulassen</b>: Beim Erstellen von Workfront-Objekten können Benutzer somit zwischen den beiden Speichertypen wählen.</li>
+      <li><b>Gilt für</b>: Wählen Sie aus, ob die Standardeinstellungen für die gesamte Organisation oder für bestimmte Gruppen gelten sollen</li>
+      <li><b>Portfolios auswählen, die in den Adobe-Cloud-Speicher konvertiert werden sollen</b>: Wählen Sie Portfolios aus, die automatisch aus dem alten Workfront-Speicher in den Adobe-Cloud-Speicher konvertiert werden sollen. Die Portfolios werden konvertiert, wenn Sie die Systemeinstellungen speichern.</li></ul>     
+    Weitere Informationen zu Adobe Cloud-Speicher finden Sie unter <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md">Aktivieren von Adobe Cloud-Speicher für Ihr Unternehmen</a>.</td></tr>
+    <tr> 
       <td role="rowheader">Portfolios auswählen, die in Adobe Cloud-Speicher konvertiert werden sollen </td> 
       <td>Ermöglicht die Konvertierung vorhandener Workfront-Speicherportfolios in Adobe Cloud-Speicher. Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md">Ältere Portfolios in Adobe Cloud-Speicher </a>.</td> 
      </tr>
      <tr> 
       <td role="rowheader">KI aktivieren </td> 
-      <td>Ermöglicht die Auswahl der Aktivierung von KI, einschließlich des KI-Assistenten. <p><b>Hinweis</b>: Ihr Unternehmen muss bestimmte Anforderungen erfüllen, um KI zu aktivieren. Weitere Informationen zu KI, einschließlich der Anforderungen, finden Sie unter <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">KI-Assistent - Übersicht</a>.</p></td> 
+      <td>Durch Aktivieren der Einstellungen im Bereich KI-Voreinstellungen können Sie KI aktivieren, einschließlich KI-Assistent. <p><b>HINWEIS</b>: Ihr Unternehmen muss bestimmte Anforderungen erfüllen, um KI zu aktivieren. Weitere Informationen zu KI, einschließlich der Anforderungen, finden Sie unter <a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">KI-Assistent - Übersicht</a>.</p></td> 
+     </tr>
+    <tr> 
+      <td role="rowheader">KI-gestützte Formularausfüllung </td> 
+      <td>Benutzern erlauben, das Ausfüllen eines Formulars mit KI automatisch durchzuführen. Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md">Verwenden von Formularausfüllen mit KI zum Ausfüllen einer Anfrage mithilfe von Eingabeaufforderungen oder Dokumenten</a>.</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader">Formular automatisch ausfüllen </td> 
+      <td role="rowheader">Intelligente automatische Vervollständigung in Anfrageformularen </td> 
       <td>Ermöglicht die Auswahl der Möglichkeit, Anfrageformulare basierend auf den Daten einer vorherigen Anfrage automatisch auszufüllen. Weitere Informationen zum automatischen Vervollständigen von Formularen finden Sie unter <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Automatisches Ausfüllen einer Anfrage aus vorherigen Daten</a>.</td> 
+     </tr>
+    <tr> 
+      <td role="rowheader">Planungs-Designer</td> 
+      <td>Dies ist nur für Kunden verfügbar, die ein Workfront Planning-Paket erworben haben. Wenn Sie diese Einstellung aktivieren, können Ihre Benutzerinnen und Benutzer mit der Planning-Designer Arbeitsbereiche erstellen und bearbeiten. Weitere Informationen finden Sie <a href="/help/quicksilver/planning/general/planning-ai-designer.md">Erste Schritte mit der Adobe Workfront Planning Designer</a>.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Opt-in für KI-Betaversionen </td> 

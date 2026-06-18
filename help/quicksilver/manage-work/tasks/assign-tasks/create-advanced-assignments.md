@@ -9,24 +9,16 @@ role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/zWSZMjnN-WSef9q6W6s9mIcO2DakU0f886IcxD15tzg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+autotag-review: '2026-06-18T17:43:58.800Z'
+TQID: 'https://experienceleague.adobe.com/qZvXwTMlCd5p08duYVqbyHpkML4oXtbijHuCzlukywg'
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
 workflow-type: tm+mt
-source-wordcount: 3340
+source-wordcount: 3361
 ht-degree: 1%
 
 ---
@@ -63,17 +55,6 @@ Sie können bei erweiterten Zuweisungen die folgenden Zuweisungsinformationen an
 >
 >Wenn Sie Benutzende einer Arbeit zuweisen, wirkt sich ihre Verfügbarkeit entsprechend den Zeitplänen auf die geplanten und erwarteten Termine von Aufgaben und Problemen aus. Weitere Informationen zu Zeitplänen finden Sie unter [Erstellen eines Zeitplans](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-## Bereiche von Adobe Workfront, in denen Sie erweiterte Zuweisungen vornehmen können
-
-In diesem Artikel wird beschrieben, wie Sie in der Kopfzeile der Aufgabe oder des Problems auf erweiterte Zuweisungen zugreifen können.
-
-Darüber hinaus können Sie in den folgenden Bereichen von Workfront erweiterte Zuweisungen vornehmen:
-
-* In Listen und Berichten, wenn das Feld „Zuweisungen“ in der Ansicht angezeigt wird.
-* Im Abschnitt Arbeitsaufträge beim Bearbeiten einer Aufgabe. Weitere Informationen finden Sie unter [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md). <!--When we remove the old/ new experience: take this bullet out completely; in the new Edit Task experience, this is no longer possible-->
-* In der Aufgaben- oder Problem-Kopfzeile im Bereich Zuweisungen .
-* Im Workload Balancer. Weitere Informationen finden Sie unter [Arbeiten manuell über den Workload Balancer zuweisen](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
-
 ## Zugriffsanforderungen
 
 +++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
@@ -107,14 +88,27 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 +++
 
-## Erweiterte Zuweisungen erstellen - Workflow-Ultimate-Paket
+## Bereiche von Adobe Workfront, in denen Sie erweiterte Zuweisungen vornehmen können
 
-Dieses Layout für erweiterte Zuweisungen gilt nur für Aufgaben. Informationen zu Problemen finden Sie unter [Erweiterte Zuweisungen erstellen - Alle anderen Pakete](#create-advanced-assignments--all-other-packages).
+In diesem Artikel wird beschrieben, wie Sie in der Kopfzeile der Aufgabe oder des Problems auf erweiterte Zuweisungen zugreifen können.
+
+Darüber hinaus können Sie in den folgenden Bereichen von Workfront erweiterte Zuweisungen vornehmen:
+
+* In Listen und Berichten, wenn das Feld „Zuweisungen“ in der Ansicht angezeigt wird.
+* Im Abschnitt Arbeitsaufträge beim Bearbeiten einer Aufgabe. Weitere Informationen finden Sie unter [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md). <!--When we remove the old/ new experience: take this bullet out completely; in the new Edit Task experience, this is no longer possible-->
+* In der Aufgaben- oder Problem-Kopfzeile im Bereich Zuweisungen .
+* Im Workload Balancer. Weitere Informationen finden Sie unter [Arbeiten manuell über den Workload Balancer zuweisen](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
+
+Das Erstellen erweiterter Zuweisungen hängt davon ab, welches Workfront-Paket Ihr Unternehmen erworben hat.
+
+## Erweiterte Zuweisungen für Workflow-Ultimate-Pakete erstellen
+
+Dieses Layout für erweiterte Zuweisungen gilt nur für Aufgaben. Informationen zu Problemen finden Sie im Abschnitt [Erstellen erweiterter Zuweisungen für alle anderen Pakete](#create-advanced-assignments-for-all-other-packages) in diesem Artikel.
 
 >[!NOTE]
 >
 >Das alte Erlebnis Erweiterte Zuweisungen ist die Standardeinstellung. Sie müssen das neue Erlebnis manuell über die Schaltfläche oben rechts im Fenster Erweiterte Zuweisungen aktivieren.
->Weitere Informationen zum alten Erlebnis finden Sie [Erstellen erweiterter Zuweisungen - alle anderen Pakete](#create-advanced-assignments--all-other-packages) unten.
+>Informationen zum alten Erlebnis finden Sie im Abschnitt [Erstellen erweiterter Zuweisungen für alle anderen ](#create-advanced-assignments-for-all-other-packages) in diesem Artikel.
 
 1. Wechseln Sie zu dem Projekt, dem Sie eine Aufgabe zuweisen möchten.
 1. Klicken Sie **linken Bereich** Aufgaben“ oder **Probleme** und klicken Sie dann auf den Namen einer Aufgabe in der Liste.
@@ -122,7 +116,7 @@ Dieses Layout für erweiterte Zuweisungen gilt nur für Aufgaben. Informationen 
    >[!TIP]
    >
    >Erweiterte Zuweisungen können direkt in der Aufgabenliste vorgenommen werden. Klicken Sie in das **Arbeitsaufträge**-Feld in derselben Zeile wie die Aufgabe und klicken Sie dann unten in der Liste auf **Erweitert** oder auf das **Personen-** in der oberen rechten Ecke des Arbeitsauftragsfelds, um das Fenster „Erweiterte Arbeitsaufträge“ zu öffnen. Fahren Sie mit Schritt 5 fort, um mit dem Erstellen erweiterter Zuweisungen fortzufahren.
-   >![Klicken Sie auf Erweitert oder auf das Symbol Personen &#x200B;](assets/access-aa-from-lists.png)
+   >![Klicken Sie auf Erweitert oder auf das Symbol Personen ](assets/access-aa-from-lists.png)
 
 1. Klicken Sie **Zuweisen zu** im Feld **Zuweisungen** in der Kopfzeile der Aufgabe
 
@@ -134,7 +128,7 @@ Dieses Layout für erweiterte Zuweisungen gilt nur für Aufgaben. Informationen 
 
    ![Klicken Sie auf Erweitert](assets/assignments-from-task-header-0825.png)
 
-   Das Fenster Erweiterte Zuweisungen wird angezeigt.
+   Das Fenster Erweiterte Zuweisungen wird geöffnet.
 
    ![Fenster „Erweiterte Zuweisungen“](assets/advanced-assignments-031826.png)
 
@@ -205,7 +199,7 @@ Dieses Layout für erweiterte Zuweisungen gilt nur für Aufgaben. Informationen 
 
    >[!IMPORTANT]
    >
-   >Je nachdem, wie der Workfront-Administrator oder der Gruppenadministrator Ihre Projektvoreinstellungen eingerichtet hat, kann Workfront den Zeitplan des Aufgabenbesitzers verwenden, um den Zeitplan der Aufgabe zu berechnen, wenn mehrere Benutzende der Aufgabe zugewiesen sind. Informationen zu mehreren Aufgabenzuweisungen finden Sie im Abschnitt [Überlegungen zu mehreren Zuweisungen zu Aufgabengebieten, Teams und &#x200B;](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md#considerations-for-multiple-assignments-to-job-roles-teams-and-users) im Artikel [Aufgaben zuweisen](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
+   >Je nachdem, wie der Workfront-Administrator oder der Gruppenadministrator Ihre Projektvoreinstellungen eingerichtet hat, kann Workfront den Zeitplan des Aufgabenbesitzers verwenden, um den Zeitplan der Aufgabe zu berechnen, wenn mehrere Benutzende der Aufgabe zugewiesen sind. Informationen zu mehreren Aufgabenzuweisungen finden Sie im Abschnitt [Überlegungen zu mehreren Zuweisungen zu Aufgabengebieten, Teams und ](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md#considerations-for-multiple-assignments-to-job-roles-teams-and-users) im Artikel [Aufgaben zuweisen](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
 
 1. Geben Sie für jeden Benutzer in der Spalte **Verantwortlicher** die folgenden Informationen an:
 
@@ -225,7 +219,7 @@ Dieses Layout für erweiterte Zuweisungen gilt nur für Aufgaben. Informationen 
      >
      >Nachdem Sie die Zuweisungen für Aufgaben manuell geändert haben, werden die geplanten Stunden der Aufgaben möglicherweise entsprechend aktualisiert. Beachten Sie, dass Sie die Zuweisungen für Teams, die Aufgaben zugewiesen sind, nicht manuell ändern können. Weitere Informationen finden Sie im Abschnitt [Aktualisieren der geplanten Stunden bei der Verwaltung von Benutzerzuweisungen](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md#update-task-planned-hours-when-managing-user-allocations) im Artikel [Geplante Stunden - Übersicht](/help/quicksilver/manage-work/tasks/task-information/planned-hours.md).
 
-   * **Attribute**: Alle für den Benutzer verfügbaren Attribute werden in den Attributfeldern angezeigt. Der Administrator richtet die Attribute ein und sie werden dem Benutzerprofil hinzugefügt oder mit einem Aufgabengebiet in einer Tarifkarte verknüpft. Weitere Informationen finden Sie unter [Definieren von &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md) und [Bearbeiten des Benutzerprofils](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   * **Attribute**: Alle für den Benutzer verfügbaren Attribute werden in den Attributfeldern angezeigt. Der Administrator richtet die Attribute ein und sie werden dem Benutzerprofil hinzugefügt oder mit einem Aufgabengebiet in einer Tarifkarte verknüpft. Weitere Informationen finden Sie unter [Definieren von ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md) und [Bearbeiten des Benutzerprofils](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
      Attribute sind derzeit bei Benutzerzuweisungen schreibgeschützt. Sie können für Aufgabengebiete bearbeitet werden.
 
@@ -330,7 +324,7 @@ Zuweisungsdaten können nur nach Daten für einen einzelnen Benutzer oder eine e
 
    Wenn Sie mit der Überprüfung der Daten fertig sind, klicken Sie auf den Pfeil oben links, um zum Fenster Erweiterte Zuweisungen zurückzukehren.
 
-## Erweiterte Zuweisungen erstellen - alle anderen Pakete
+## Erweiterte Zuweisungen für alle anderen Pakete erstellen
 
 Dieses Layout für erweiterte Zuweisungen gilt sowohl für Aufgaben als auch für Probleme.
 
@@ -340,7 +334,7 @@ Dieses Layout für erweiterte Zuweisungen gilt sowohl für Aufgaben als auch fü
    >[!TIP]
    >
    >Erweiterte Zuweisungen können direkt in der Aufgaben- oder Problemliste vorgenommen werden. Klicken Sie in das **Arbeitsaufträge**-Feld in derselben Zeile wie die Aufgabe oder das Problem und klicken Sie dann unten in der Liste auf **Erweitert** oder auf das **Personen**-Symbol in der oberen rechten Ecke des Arbeitsauftragsfelds, um das Fenster „Erweiterte Arbeitsaufträge“ zu öffnen. Fahren Sie mit Schritt 5 fort, um mit dem Erstellen erweiterter Zuweisungen fortzufahren.
-   >![Klicken Sie auf Erweitert oder auf das Symbol Personen &#x200B;](assets/access-aa-from-lists.png)
+   >![Klicken Sie auf Erweitert oder auf das Symbol Personen ](assets/access-aa-from-lists.png)
 
 1. Klicken Sie **Zuweisen zu** im Feld **Zuweisungen** in der Kopfzeile der Aufgabe oder des Problems
 
@@ -381,7 +375,7 @@ Dieses Layout für erweiterte Zuweisungen gilt sowohl für Aufgaben als auch fü
 
      >[!IMPORTANT]
      >
-     >Je nachdem, wie der Workfront-Administrator oder der Gruppenadministrator Ihre Projektvoreinstellungen eingerichtet hat, kann Workfront den Zeitplan des Aufgabenbesitzers verwenden, um den Zeitplan der Aufgabe zu berechnen, wenn mehrere Benutzende der Aufgabe zugewiesen sind. Informationen zu mehreren Aufgabenzuweisungen finden Sie im Abschnitt [Überlegungen zu mehreren Zuweisungen zu Aufgabengebieten, Teams und &#x200B;](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md#considerations-for-multiple-assignments-to-job-roles-teams-and-users) im Artikel [Aufgaben zuweisen](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
+     >Je nachdem, wie der Workfront-Administrator oder der Gruppenadministrator Ihre Projektvoreinstellungen eingerichtet hat, kann Workfront den Zeitplan des Aufgabenbesitzers verwenden, um den Zeitplan der Aufgabe zu berechnen, wenn mehrere Benutzende der Aufgabe zugewiesen sind. Informationen zu mehreren Aufgabenzuweisungen finden Sie im Abschnitt [Überlegungen zu mehreren Zuweisungen zu Aufgabengebieten, Teams und ](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md#considerations-for-multiple-assignments-to-job-roles-teams-and-users) im Artikel [Aufgaben zuweisen](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
 
    * **Zuteilungen**: Wenn der Dauertyp einer Aufgabe „Einfach“ ist, geben Sie die Anzahl der Stunden an, die jeder Benutzer oder jedes Aufgabengebiet der Aufgabe zugewiesen werden soll. Die Summe aller zugewiesenen Stunden für jeden Benutzer ist gleich der Zahl im Feld **Geplante Stunden** am unteren Rand der Spalte „Zuordnungen“. Geben Sie in allen anderen Fällen den Prozentsatz der Zeit (oder Zuordnung) an, die der Beauftragte für die Lösung der Aufgabe oder des Problems aufwenden soll.
 
