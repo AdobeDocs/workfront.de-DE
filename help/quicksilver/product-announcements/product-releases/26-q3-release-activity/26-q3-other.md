@@ -4,7 +4,7 @@ description: Weitere Verbesserungen im Zeitraum der Veröffentlichung im dritten
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 937b49b44f102fee6c9847ab950eb2b274aee89b
+source-git-commit: f4ec604a43b2bc3b50b256081e45c4eb253dd2ad
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 1%
@@ -20,7 +20,6 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2026 ve
 ## Aktualisierungen des Workfront MCP-Connectors
 
 Wir haben das folgende Update am Workfront MCP-Connector durchgeführt:
-
 * Wir haben den MCP-Server erweitert, um mit Instanzen in der EU arbeiten zu können<!-- and US instances that are not on AWS. Each MCP server can only connect to one instance, but are no longer limited to US instances on AWS-->.
 * Um die Flexibilität des Workfront MCP-Connectors zu erweitern, haben wir die Möglichkeit hinzugefügt, Claude zu verbinden. Jetzt können Sie Workfront in der Liste der Connectoren in Claude finden oder direkt über eine URL verbinden.
 

@@ -5,9 +5,9 @@ title: Konfigurieren des Adobe Workfront MCP-Servers
 description: Konfigurieren Sie Ihre Workfront-Instanz und Ihre KI-Agentenplattform, damit Sie über Konversationen in natürlicher Sprache mit Workfront arbeiten können.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 3f59326d26a8c9ccd88f14d7d6459e486fcfe8c9
+source-git-commit: f4ec604a43b2bc3b50b256081e45c4eb253dd2ad
 workflow-type: tm+mt
-source-wordcount: '1747'
+source-wordcount: '1748'
 ht-degree: 1%
 
 ---
@@ -21,7 +21,7 @@ Bevor Sie eine KI-Agentenplattform mit Workfront verbinden können, muss ein Wor
 
 >[!IMPORTANT]
 >
->Derzeit ist der Workfront MCP-Server nur für Kunden verfügbar, die AWS verwenden. Kunden, die GCP oder Azure verwenden, werden diese Funktion in naher Zukunft nutzen können.
+>Derzeit ist der Workfront MCP-Server nur für Kunden verfügbar, die AWS verwenden. Kunden, die GCP oder Azure verwenden, werden in naher Zukunft Workfront MCP-Funktionen nutzen können.
 
 ## Unterstützte KI-Agentenplattformen
 
@@ -111,7 +111,7 @@ So verbinden Sie Workfront mit [!DNL Claude]:
 
 So verbinden Sie Workfront mit [!DNL Claude] über eine URL:
 
-1. Melden Sie sich mit Ihren [&#x200B; bei &#x200B;](https://claude.ai)Claude“ an.
+1. Melden Sie sich mit Ihren [ bei ](https://claude.ai)Claude“ an.
 1. Wählen Sie im linken Menü das Symbol **Anpassen** aus.
 1. Wählen Sie **Connectoren** und klicken Sie dann auf das Symbol **+** , um einen Connector hinzuzufügen.
 1. Klicken Sie auf **Schaltfläche „App**&quot;.
@@ -142,7 +142,7 @@ Um mehr über [!DNL Claude] Fähigkeiten zu erfahren, lesen Sie die [Claude-Benu
 
 ## Mit ChatGPT verbinden
 
-1. Melden Sie sich mit Ihren [&#x200B; bei &#x200B;](https://chatgpt.com)ChatGPT) an.
+1. Melden Sie sich mit Ihren [ bei ](https://chatgpt.com)ChatGPT) an.
 1. Wählen Sie unten links &quot;**&quot;** → **Einstellungen**.
 1. Wählen Sie **Apps** aus und aktivieren Sie dann **Entwicklermodus**.
 1. Klicken Sie auf **Schaltfläche „App**&quot;.
@@ -290,6 +290,4 @@ Sowohl der Workfront-Administrator als auch der Administrator für Ihre KI-Agent
 Nein. Ihre Workfront-Instanz muss auf dem Adobe Identity Management System (IMS) aktiviert sein, damit der Workfront MCP-Server verwendet werden kann. Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie nicht sicher sind, ob Ihre Instanz für IMS aktiviert ist.
 
 +++ 
-
-
 
