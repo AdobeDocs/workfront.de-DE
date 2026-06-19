@@ -7,21 +7,27 @@ description: Mit dem Änderungsverlauf können Sie ein Änderungsprotokoll für 
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 298865bbcdab40cda887d939529561e13a9ed093
+source-git-commit: 44292bc9cf8654d1ecfb398b0f118a6c001f544f
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 10%
+source-wordcount: '403'
+ht-degree: 7%
 
 ---
 
 # Änderungsverlauf anzeigen und verwalten
 
-Mit dem Änderungsverlauf können Sie ein Protokoll der Änderungen an Workfront-Objekten anzeigen, einschließlich Attributen wie:
+Sie können den Änderungsverlauf, einschließlich der Auditprotokolle, im Bereich „Änderungsverfolgung“ von Setup einsehen.
 
-* Objekt
-* Objekttyp
-* Art der Änderung (Vorgang)
-* Source der Änderung, z. B. bestimmte Benutzende, APIs, Workfront Fusion, KI-LLMs oder das Workfront-System
+* **Auditprotokolle** sind Änderungen, die von Benutzern ausgelöst werden.
+Weitere Informationen zu Auditprotokollen und zum Bereich Auditprotokolle finden Sie unter [Übersicht über Auditprotokolle](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+* **Konfiguration** zeigt an, welche Felder für die Liste „Änderungsverlauf“ verfolgt werden.
+Die Konfiguration ist derzeit nur als Information verfügbar und kann nicht geändert werden. Die Möglichkeit, zu ändern, welche Felder verfolgt werden, wird in naher Zukunft verfügbar sein.
+* Mit der Liste „Änderungsverlauf“ können Sie ein Protokoll der Änderungen an Workfront-Objekten anzeigen, einschließlich Attributen wie:
+
+   * Objekt
+   * Objekttyp
+   * Art der Änderung (Vorgang)
+   * Source der Änderung, z. B. bestimmte Benutzende, APIs, Workfront Fusion, KI-LLMs oder das Workfront-System
 
 ## Zugriffsanforderungen
 
@@ -41,7 +47,7 @@ Mit dem Änderungsverlauf können Sie ein Protokoll der Änderungen an Workfront
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
-   <td>Zugriff auf [!UICONTROL Rate Cards] bearbeiten</td> 
+   <td>Sie müssen ein Workfront-Administrator sein, um den Änderungsverlauf anzeigen zu können</td> 
   </tr> 
  </tbody> 
 </table>
@@ -50,9 +56,28 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 +++
 
+## Audit-Protokolle anzeigen und verwalten
 
+Informationen zum Anzeigen und Verwalten von Auditprotokollen finden Sie [Anzeigen und Exportieren von Auditprotokollen](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
 
-## Änderungsverlauf anzeigen
+## Anzeigen des Konfigurationsbereichs für die Änderungsnachverfolgung
+
+>[!NOTE]
+>
+>Die Konfiguration ist derzeit nur als Information verfügbar und kann nicht geändert werden. Die Möglichkeit, zu ändern, welche Felder verfolgt werden, wird in naher Zukunft verfügbar sein.
+
+So zeigen Sie die verfolgten Änderungstypen an:
+
+{{step-1-to-setup}}
+
+1. Klicken Sie im linken Bedienfeld auf **Tracking ändern** ![Verlaufssymbol ändern](assets/change-history-icon.png).
+1. Klicken Sie **Konfiguration**.
+
+   Die Felder werden nach Objekttyp gruppiert angezeigt.
+
+1. Um Felder unter einem bestimmten Objekt anzuzeigen, klicken Sie auf den Dropdown-Pfeil neben dem Objekttyp.
+
+## Anzeigen des Änderungsverlaufs
 
 Workfront-Administratoren können den Änderungsverlauf im Bereich „Setup“ anzeigen.
 
@@ -71,19 +96,9 @@ Die Liste „Änderungsverlauf“ ist eine erweiterte Liste und enthält Filter,
 1. Um nach einem bestimmten Begriff zu suchen, klicken Sie auf die Suchleiste und geben Sie den Begriff ein. Die Ergebnisse werden bei der Eingabe gefiltert.
 1. (Optional) Informationen zum Filtern nach einer Spalte finden Sie unter [Filtern von Elementen in einer erweiterten Liste](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#filter-items-in-an-enhanced-list) im Artikel Verwenden von erweiterten Listen.
 1. (Optional) Informationen zum Ausblenden, Anzeigen oder Neuanordnen von Spalten finden Sie unter [Spalten anpassen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#customize-columns) im Artikel Verwenden von Verbesserungslisten.
-1. Informationen zum Hinzufügen oder Entfernen von Spalten finden [&#x200B; unter „Hinzufügen und Entfernen von Spalten mit &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager) Spaltenmanager“ im Artikel Verwenden von erweiterten Listen.
-1. Informationen zum Anpassen der Zeilenhöhe finden [&#x200B; unter „Ändern der Zeilenhöhe in einer Ansicht](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#change-the-row-height-in-a-view) im Artikel Verwenden von Verbesserungslisten.
+1. Informationen zum Hinzufügen oder Entfernen von Spalten finden [ unter „Hinzufügen und Entfernen von Spalten mit ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager) Spaltenmanager“ im Artikel Verwenden von erweiterten Listen.
+1. Informationen zum Anpassen der Zeilenhöhe finden [ unter „Ändern der Zeilenhöhe in einer Ansicht](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#change-the-row-height-in-a-view) im Artikel Verwenden von Verbesserungslisten.
 
-## Verfügbare Änderungstypen anzeigen
-
-So zeigen Sie die verfolgten Änderungstypen an:
-
-{{step-1-to-setup}}
-
-1. Klicken Sie im linken Bedienfeld auf **Tracking ändern** ![Verlaufssymbol ändern](assets/change-history-icon.png).
-1. Klicken Sie **Konfiguration**.
-
-   Felder werden nach Objekt gruppiert angezeigt.
 
 
 
