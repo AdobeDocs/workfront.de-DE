@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+source-git-commit: a10385c56bcf1cdf942ab742e2884d1b5f381352
 workflow-type: tm+mt
-source-wordcount: '2001'
+source-wordcount: '1976'
 ht-degree: 0%
 
 ---
@@ -130,14 +130,21 @@ Informationen zu den Spezifikationen der Workfront Planning-API finden Sie in de
 >
 >Vorschau: 28. Mai 2026>Produktions-Schnellversion: 11. Juni 2026>Produktion für alle: 16. Juli 2026
 
+
 Sie können jetzt einzelne Datensatzberechtigungen anpassen, um zu steuern, wer sie in einem Datensatztyp verwalten kann.
 
-Benutzer erben standardmäßig die Datensatzberechtigungen vom Arbeitsbereich und vom Datensatztyp. Um nur ausgewählten Benutzern mit Berechtigungen für Datensatztypen Berechtigungen zum Verwalten nur bestimmter Datensätze zu erteilen, können Sie geerbte Berechtigungen für ausgewählte Datensätze deaktivieren und nur diesen Benutzern den Zugriff auf diese Datensätze verwalten gewähren. Sie können die Berechtigungen für einen Datensatz oder für mehrere Datensätze gleichzeitig stapelweise anpassen.
+Standardmäßig erben Benutzende die Datensatzberechtigungen vom Arbeitsbereich und vom Datensatztyp. Sie können jetzt geerbte Berechtigungen für bestimmte Datensätze überschreiben, um Zugriff auf eine Untergruppe von Benutzern zu gewähren, anzuzeigen oder zu verwalten. Berechtigungsüberschreibungen können auf einzelne Datensätze angewendet oder stapelweise über mehrere Datensätze hinweg aktualisiert werden.
 
-Sie können Benutzern die folgenden Berechtigungsebenen gewähren:
+<!-- 
+Laurel asked for this to be replaced with the above: 
 
-* Ansicht
-* Verwalten
+Users inherit record permissions from the workspace and record type by default. To give only select users with record type permissions Manage permissions to only certain records, you can disable inherited permissions on select records and grant only those users Manage access to those records. You can adjust permissions for one record, or for multiple records at the same time, in bulk.
+
+You can give users the following permissions levels: 
+
+* View 
+* Manage 
+-->
 
 >[!NOTE]
 >
