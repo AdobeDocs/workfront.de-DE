@@ -24,7 +24,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 705031456bf63cdc25a56bd7faaf95b2501d63bb
 workflow-type: tm+mt
 source-wordcount: 3163
 ht-degree: 98%
@@ -596,7 +596,7 @@ Die Version 21 der Workfront-API wurde am 23. Oktober 2025 veröffentlicht. F
 >
 >Diese API-Versionsänderung beinhaltet eine grundlegende Änderung, die sich auf Ihre vorhandenen API-Aufrufe auswirken kann. Dies liegt daran, dass die API-Version 21 die Version 2 der Ereignisabonnements verwendet.
 >
-> Bei Feldern mit Mehrfachauswahl werden Ereignisabonnements, Version 2, immer als Array gesendet. Version 1 sendete ein Array, wenn mehrere Werte ausgewählt wurden. Wenn nur ein Wert ausgewählt war, wurde eine Zeichenfolge gesendet.
+> Bei Feldern mit Mehrfachauswahl werden Ereignisabonnements in Version 2 immer als Array gesendet. Version 1 sendete ein Array, wenn mehrere Werte ausgewählt wurden. Wenn nur ein Wert ausgewählt war, wurde eine Zeichenfolge gesendet.
 
 Informationen zu neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in der API-Version 21](/help/quicksilver/wf-api/api/new-api-version-21.md).
 
