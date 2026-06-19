@@ -6,9 +6,9 @@ description: Inventarisieren, klassifizieren und beheben Sie Workfront Fusion-Sz
 author: Courtney
 feature: Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: a3ef3b4ea00298e23ebc8b6196c951417e75eebe
 workflow-type: tm+mt
-source-wordcount: '804'
+source-wordcount: '802'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,13 @@ Workfront Fusion-Szenarien, die auf veralteten Workfront-Proofing-Tests basieren
 
 Szenarien, die sich auf veraltete Workfront-Projekte beziehen, funktionieren weiterhin wie bisher. Die in diesem Artikel beschriebenen Korrekturmaßnahmen gelten für Szenarien, die Sie für Adobe-Cloud-Speicherprojekte ausführen möchten.
 
-Fusion-Connectoren mit nativer Unterstützung für einheitliche Überprüfung und Genehmigung werden voraussichtlich im 3. Quartal 2026 verfügbar sein. Planen Sie die Neuerstellung jetzt, wir empfehlen jedoch, vor der Erstellung auf die neuen Connectoren zu warten. Szenarien werden einfacher und zuverlässiger sein als das, was sie ersetzen.
+>[!IMPORTANT]
+>
+>Der Adobe Workfront Unified Review and Approvals-Connector ist jetzt in Workfront Fusion verfügbar. Es wird empfohlen, diesen Connector für einfachere und zuverlässigere Szenarien zu verwenden, wenn Sie Fusion mit Adobe Cloud Storage verwenden.
+>
+>Informationen und Anweisungen finden Sie unter [Einheitliche Adobe Workfront-Prüfungs- und Genehmigungs-Module](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules) in der Dokumentation zu Workfront Fusion.
 
-Detaillierte Automatisierungshandbücher werden zusammen mit der Version des Fusion-Connectors für das 3. Quartal 2026 veröffentlicht. Verwenden Sie diesen Artikel, um Szenarien jetzt zu inventarisieren und zu klassifizieren, damit Sie bereit sind zu handeln, sobald diese Anleitung verfügbar ist.
+Verwenden Sie diesen Artikel, um Szenarien zu inventarisieren und zu klassifizieren und zu verstehen, wie Sie Ihre Fusion-Szenarien am besten aktualisieren können, um den Adobe-Cloud-Speicher zu berücksichtigen.
 
 Eine allgemeine Zusammenfassung der Änderungen, die auftreten, wenn Ihr Unternehmen auf Workfront im Adobe Cloud-Speicher umstellt, finden Sie unter [Wechseln zu Workfront im Adobe Cloud-Speicher](/help/quicksilver/review-and-approve-work/workfront-storage.md).
 
@@ -58,7 +62,7 @@ Verwenden Sie den folgenden Ansatz, um die Fusion-Behebung zu planen und auszuf�
 1. **Klassifizieren Sie jedes** als „Bearbeiten“, „Neu erstellen“ oder „Einstellen“ basierend auf den Kriterien im vorherigen Abschnitt.
 1. **Korrekturabzug-abhängige Szenarien anhalten** bevor Sie Teams, die von ihnen abhängig sind, in Ihr Pilotprojekt für Cloud-Speicher in Adobe aufnehmen. Das Ausführen veralteter, auf Korrekturabzügen basierender Automatisierungen für das neue Modell kann zu stillen Fehlern oder doppelten Aktionen führen.
 1. **Verwenden Sie Genehmigungsvorlagen, um einfache Routing-Logik zu ersetzen.** Native mehrstufige Genehmigungsvorlagen mit Deadline-Automatisierung können viele Anwendungsfälle verarbeiten, für die zuvor Fusion erforderlich war. Weitere Informationen finden Sie unter [Erstellen einer Genehmigungsvorlage für Assets und Dokumente](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
-1. **Warten Sie vor dem Neuaufbau auf die Updates des Fusion-Connectors für das 3. Quartal 2026.** Die aktualisierten Connectoren stellen Module zur Verfügung, die speziell für die einheitliche Überprüfung und Genehmigung entwickelt wurden, und machen Neuaufbauten deutlich einfacher und zuverlässiger. Es wird nicht empfohlen, vorab eine Neuerstellung anhand der Workfront-API-Version 22 durchzuführen. Wenn Sie mit einem zeitkritischen Szenario fortfahren, planen Sie, diese Arbeit erneut aufzurufen, sobald die neuen Connectoren veröffentlicht werden.
+1. **Verwenden Sie beim Neuaufbau den Adobe Workfront Unified Review and Approvals Connector.** Die aktualisierten Connectoren stellen Module zur Verfügung, die speziell für die einheitliche Überprüfung und Genehmigung entwickelt wurden, und machen Neuaufbauten deutlich einfacher und zuverlässiger. Es wird nicht empfohlen, vorab eine Neuerstellung anhand der Workfront-API-Version 22 durchzuführen.
 1. **Testen Sie neu erstellte Szenarien End-to-End in einer Sandbox** Instanz, bevor Sie sie in der Produktion aktivieren. Achten Sie besonders auf die Payloads von Ereignisabonnements - Feldnamen und Schemata unterscheiden sich von alten Korrekturabzug-Ereignissen.
 
 >[!TIP]
