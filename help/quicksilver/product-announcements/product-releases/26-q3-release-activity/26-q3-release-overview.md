@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: f4ec604a43b2bc3b50b256081e45c4eb253dd2ad
+source-git-commit: b05cd2638ac0d35a0debb862d73dc8bee0cdb794
 workflow-type: tm+mt
-source-wordcount: '2095'
+source-wordcount: '2104'
 ht-degree: 17%
 
 ---
@@ -35,6 +35,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
 
 ## Adobe Workfront-Verbesserungen
 
+* [KI-Verbesserungen](#ai-enhancements)
 * [Administrator-Verbesserungen](#administrator-enhancements)
 * [Verbesserungen bei Dokumenten](#documents-enhancements)
 * [Verbesserungen beim Finanzmanagement](#financial-management-enhancements)
@@ -43,6 +44,40 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
 * [Verbesserungen beim Reporting](#reporting-enhancements)
 * [Verbesserungen bei Anfragen](#requesting-enhancements)
 * [Weitere Verbesserungen](#other-enhancements)
+
+### KI-Verbesserungen
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 25%;" />
+    <tbody>
+        <tr>
+            <td><strong>Funktion</strong>
+            </td>
+            <td><strong>Vorschau</strong></td>
+            <td><strong>Schnellveröffentlichung</strong></td>
+            <td><strong>Vierteljährlich</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md" class="MCXref xref" xrefformat="{para}">Aktualisierungen des Workfront MCP-Connectors</a><p>[!BADGE Außerplanmäßig]{type=Neutral}</p>
+                <p>Der Workfront MCP-Connector wurde aktualisiert:<ul><li>Claude kann sich jetzt mit dem MCP-Connector verbinden.</li><li>Sie können jetzt den MCP-Connector von Instanzen im EU-<!--or from instances that do not use AWS--> aus verwenden.</p>
+            </td>
+            <td><p>11. Juni 2026</p></td>
+            <td><p>11. Juni 2026</p></td>
+            <td><p>11. Juni 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md" class="MCXref xref" xrefformat="{para}">Verbinden Sie Ihre KI-Agentenplattform mit Workfront mit dem Workfront MCP-Server</a>
+                <p>Der neue Workfront MCP-Server verbindet Workfront mit einer unterstützten KI-Agentenplattform wie Claude oder ChatGPT, sodass Sie Workfront-Elemente über Gespräche in natürlicher Sprache finden, erstellen, aktualisieren und verwalten können. Derzeit nur für Kunden in der US-Region verfügbar, die AWS verwenden.</p>
+            </td>
+            <td><p>28. Mai 2026</p></td>
+            <td><p>11. Juni 2026</p></td>
+            <td><p>16. Juli 2026</p></td>
+        </tr>
+    </tbody>
+</table>
 
 ### Administrator-Verbesserungen
 
@@ -362,14 +397,6 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             <td><strong>Vorschau</strong></td>
             <td><strong>Schnellveröffentlichung</strong></td>
             <td><strong>Vierteljährlich</strong></td>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Aktualisierungen des Workfront MCP-Connectors</a><p>[!BADGE Außerplanmäßig]{type=Neutral}</p>
-                <p>Der Workfront MCP-Connector wurde aktualisiert:<ul><li>Claude kann sich jetzt mit dem MCP-Connector verbinden.</li><li>Sie können jetzt den MCP-Connector von Instanzen im EU-<!--or from instances that do not use AWS--> aus verwenden.</p>
-            </td>
-            <td><p>11. Juni 2026</p></td>
-            <td><p>11. Juni 2026</p></td>
-            <td><p>11. Juni 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -379,15 +406,6 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             <td><p>K. A.</p></td>
             <td><p>Schrittweiser Rollout ab 16. Juli 2026</p></td>
             <td><p>Schrittweiser Rollout ab 16. Juli 2026</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Verbinden Sie Ihre KI-Agentenplattform mit Workfront mit dem Workfront MCP-Server</a>
-                <p>Der neue Workfront MCP-Server verbindet Workfront mit einer unterstützten KI-Agentenplattform wie Claude oder ChatGPT, sodass Sie Workfront-Elemente über Gespräche in natürlicher Sprache finden, erstellen, aktualisieren und verwalten können. Derzeit nur für Kunden in der US-Region verfügbar, die AWS verwenden.</p>
-            </td>
-            <td><p>28. Mai 2026</p></td>
-            <td><p>11. Juni 2026</p></td>
-            <td><p>16. Juli 2026</p></td>
         </tr>
         <tr>
             <td>
