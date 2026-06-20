@@ -4,10 +4,10 @@ description: Weitere Verbesserungen im Zeitraum der Veröffentlichung im dritten
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f4ec604a43b2bc3b50b256081e45c4eb253dd2ad
+source-git-commit: b05cd2638ac0d35a0debb862d73dc8bee0cdb794
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 1%
+source-wordcount: '386'
+ht-degree: 3%
 
 ---
 
@@ -16,14 +16,6 @@ ht-degree: 1%
 Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom dritten Quartal 2026 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2026 verfügbar sind, finden Sie unter [Versionsübersicht für das dritte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
-
-## Aktualisierungen des Workfront MCP-Connectors
-
-Wir haben das folgende Update am Workfront MCP-Connector durchgeführt:
-* Wir haben den MCP-Server erweitert, um mit Instanzen in der EU arbeiten zu können<!-- and US instances that are not on AWS. Each MCP server can only connect to one instance, but are no longer limited to US instances on AWS-->.
-* Um die Flexibilität des Workfront MCP-Connectors zu erweitern, haben wir die Möglichkeit hinzugefügt, Claude zu verbinden. Jetzt können Sie Workfront in der Liste der Connectoren in Claude finden oder direkt über eine URL verbinden.
-
-Weitere Informationen und Anweisungen finden Sie unter [Konfigurieren des Adobe Workfront MCP-Servers](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
 
 
 ## Aktualisiertes Erscheinungsbild für E-Mails mit Kommentarbenachrichtigungen
@@ -45,26 +37,6 @@ Der Thread der vorherigen Kommentare ist nicht mehr im E-Mail-Textkörper enthal
 Diese Änderung wird in Phasen an Kunden ausgerollt. Diese Seite wird aktualisiert, wenn der Rollout-Zeitplan bestätigt wird.
 
 ![Aktualisierte Kommentar-Benachrichtigung email.png](assets/email-look-and-feel-update.png)
-
-## Verbinden von Workfront mit Ihren KI-Tools mit dem Workfront MCP-Server
-
->[!NOTE]
->
->Vorschau: 28. Mai 2026>Produktions-Schnellversion: 11. Juni 2026>Produktion für alle: 16. Juli 2026
-
-Der operative Kontext Ihres Teams lebt in Workfront. Mit dem Workfront MCP-Server wird dieser Kontext nun innerhalb der KI-Tools, die Ihr Team bereits verwendet, umsetzbar.
-
-Verbinden Sie Workfront mit einer beliebigen MCP-kompatiblen KI-Plattform, einschließlich Claude, ChatGPT, Copilot, Gemini und mehr, und verwenden Sie eine natürliche Sprache zum Suchen, Erstellen, Aktualisieren und Verwalten von Workfront-Elementen, ohne Ihr KI-Tool der Wahl verlassen zu müssen. Fragen Sie nach überfälligen Aufgaben, übertragen Sie den Endtermin eines Projekts, senden Sie eine Erinnerung an genehmigende Personen, aktualisieren Sie das Kampagnenbudget - und Ihre KI-Plattform erledigt die Arbeit für Sie in Workfront.
-
-Und mit Claudes KI-Fähigkeiten und geplanten Aufgaben können Sie sogar noch weiter gehen - indem Sie wiederkehrende Workflows automatisieren, die proaktiv mit Live-Workfront-Daten ausgeführt werden. Zum Beispiel ein Projekt-Briefing am Montagmorgen, ein wöchentlicher Kapazitätsbericht, eine monatliche Konsistenzprüfung einer Kampagne. Legen Sie sie einmal fest, und die KI verarbeitet sie automatisch, geerdet im gesamten Kontext Ihres Vorgangs.
-
-Dies ist die Grundlage eines agenten Arbeitsmanagementsystems, bei dem KI auf Ihren umfangreichsten Betriebsdaten basiert und Mensch und KI zusammenarbeiten, um die Arbeit mit voller Geschwindigkeit am Laufen zu halten.
-
->[!IMPORTANT]
->
->Derzeit steht der Workfront MCP-Server nur Kunden in den USA zur Verfügung, die AWS verwenden.
-
-Weitere Informationen finden Sie unter [Übersicht über den Adobe Workfront MCP-Server](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-overview.md).
 
 ## Erweiterte Listen-Updates
 
