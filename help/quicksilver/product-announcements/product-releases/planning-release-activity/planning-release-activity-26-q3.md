@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a10385c56bcf1cdf942ab742e2884d1b5f381352
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '2005'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,8 @@ Das Erscheinungsbild der Tabellenansicht wurde für die folgenden Bereiche in Wo
 * Alle verbundenen Datensatztypseiten mit Ausnahme von Projekten
 
 Neben einigen Navigationsänderungen und Designverbesserungen umfassen einige Verbesserungen in dieser Aktualisierung Folgendes:
+
+* Das Hinzufügen einer Aggregationszeile am unteren Rand der Tabelle, die Zahlen-, Währungs-, Prozentsatz- und einige Formelfelder mithilfe der folgenden Aggregatoren zusammenfasst: SUM, AVG, MAX, MIN.
 
 * Ein einfacheres Datumsformat mit weniger Formattypen beim Hinzufügen eines Datumsfelds.
 
@@ -122,7 +124,7 @@ Version 1 bleibt verfügbar, obwohl wir empfehlen, zur Verwendung von Version 2 
 
 Weitere Informationen finden Sie unter [Grundlagen zur Adobe Workfront Planning-API](/help/quicksilver/planning/general/planning-api-basics.md).
 
-Informationen zu den Spezifikationen der Workfront Planning-API finden Sie in der Entwicklerdokumentation zur [Workfront &#x200B;](https://developer.adobe.com/wf-planning/)-API.
+Informationen zu den Spezifikationen der Workfront Planning-API finden Sie in der Entwicklerdokumentation zur [Workfront ](https://developer.adobe.com/wf-planning/)-API.
 
 ## Berechtigungen für Datensätze erteilen
 
@@ -298,7 +300,7 @@ Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfra
 
 >[!NOTE]
 >
->Vorschau und Produktion für alle Kunden: 14. Mai 2026 >[!BADGE &#x200B; Zeitplan]{type=Neutral}
+>Vorschau und Produktion für alle Kunden: 14. Mai 2026 >[!BADGE  Zeitplan]{type=Neutral}
 
 Für eine bessere Sichtbarkeit bei der Arbeit mit AEM-Inhaltsfragmenten, die mit Workfront Planning-Datensätzen verbunden sind, wurde ein Vorschaufenster hinzugefügt, in dem Informationen zu den Fragmenten in Workfront Planning angezeigt werden.
 
