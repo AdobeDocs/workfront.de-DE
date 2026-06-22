@@ -19,7 +19,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
 source-wordcount: 516
 ht-degree: 10%
@@ -29,7 +29,7 @@ ht-degree: 10%
 # Verwalten der Benachrichtigungseinstellungen in Adobe Workfront-Planung
 
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
@@ -181,7 +181,7 @@ Weitere Informationen zu Workfront Planning-Benachrichtigungen finden Sie in den
 oder
 Heben Sie die Markierung der Benachrichtigungen auf, die Sie nicht mehr erhalten möchten.
 
-   ![Adobe Experience Cloud-Benachrichtigungsbereich für Workfront Planning](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
+   ![Benachrichtigungsbereich von Adobe Experience Cloud für Workfront Planning](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
 1. Die folgenden Benachrichtigungen sind für Workfront verfügbar:
 
    * **Validierungen**: Sie erhalten eine Benachrichtigung, wenn jemand eine Planning-Anforderung zur Validierung einreicht oder den Zugriff auf ein Planning-Objekt von Ihnen anfordern möchte.

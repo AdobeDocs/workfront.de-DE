@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a10385c56bcf1cdf942ab742e2884d1b5f381352
+source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '2005'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,8 @@ Das Erscheinungsbild der Tabellenansicht wurde für die folgenden Bereiche in Wo
 * Alle verbundenen Datensatztypseiten mit Ausnahme von Projekten
 
 Neben einigen Navigationsänderungen und Designverbesserungen umfassen einige Verbesserungen in dieser Aktualisierung Folgendes:
+
+* Das Hinzufügen einer Aggregationszeile am unteren Rand der Tabelle, die Zahlen-, Währungs-, Prozentsatz- und einige Formelfelder mithilfe der folgenden Aggregatoren zusammenfasst: SUM, AVG, MAX, MIN.
 
 * Ein einfacheres Datumsformat mit weniger Formattypen beim Hinzufügen eines Datumsfelds.
 
