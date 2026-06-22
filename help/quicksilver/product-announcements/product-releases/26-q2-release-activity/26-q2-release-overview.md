@@ -22,7 +22,7 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b18e58368da31806fa917ad688e7b8f3c7d0d91e
+source-git-commit: 347b94801a86f3357b46da4955605a9742b6cf83
 workflow-type: tm+mt
 source-wordcount: 2626
 ht-degree: 20%
@@ -166,7 +166,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
     </tr>
    <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">Bereitstellung von GenStudio Foundations zur Unterstützung von KI-Mitwirkenden aktiviert</a><p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/26-q2-release-activity/26-q2-documents.md" class="MCXref xref" xrefformat="{para}">GenStudio Foundation-Bereitstellung zur Unterstützung von KI-Mitwirkenden aktiviert</a><p></p>
             <p>Am 31. März 2026 wurden alle Workfront-Kundinnen und -Kunden für GenStudio Foundation bereitgestellt, und Admin Console-Systemadmins erhalten eine E-Mail, in der sie über diesen Zusatz informiert werden. Dieses Produkt wird nur bereitgestellt, damit Workfront-Kunden Workfront-Kunden nach Bedarf Zugriff auf die KI-Kollaborateure gewähren können. Das Produkt selbst ist nur ein Zugriffsmechanismus für Marken, und im GenStudio Foundation-Produkt sind keine zusätzlichen Funktionen verfügbar.</p><p>Kunden wird dieses neue Produkt nicht in Rechnung gestellt.</p>
         </td>
         <td><p>31. März 2026</p></td>

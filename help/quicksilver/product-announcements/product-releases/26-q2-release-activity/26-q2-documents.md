@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 347b94801a86f3357b46da4955605a9742b6cf83
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '798'
 ht-degree: 3%
 
 ---
@@ -39,7 +39,7 @@ Diese Integration hilft Teams, die Erstellung doppelter Inhalte zu reduzieren, d
 
 >[!VIDEO](https://video.tv.adobe.com/v/3483142/)
 
-## GenStudio Foundations-Bereitstellung zur Unterstützung von KI-Mitwirkenden aktiviert
+## GenStudio Foundation-Bereitstellung zur Unterstützung von KI-Mitwirkenden aktiviert
 
 >[!NOTE]
 >
