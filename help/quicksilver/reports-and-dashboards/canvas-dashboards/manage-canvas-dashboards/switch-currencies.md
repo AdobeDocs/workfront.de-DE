@@ -5,13 +5,13 @@ title: Verwenden von Währungsfeldern in Dashboards der Arbeitsfläche
 description: Sie können die Währungsfelder in einem Arbeitsflächen-Dashboard verwenden.
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 3e4ab2dfc66efd262c0c2ad30a9c62758084f8ce
+exl-id: 207c24d3-2b69-4ea3-88d7-716a3cf33dd1
+source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 4%
+source-wordcount: '551'
+ht-degree: 9%
 
 ---
-
 
 # Verwenden von Währungsfeldern in Dashboards der Arbeitsfläche
 
@@ -24,6 +24,12 @@ ht-degree: 4%
 >* Eigene Schlüssel für Amazon Web Services mitbringen
 >* Azure
 >* Google Cloud Platform
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 ## Zugriffsanforderungen
 
@@ -45,7 +51,7 @@ ht-degree: 4%
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
    <td> 
 <p>Standard</p> 
-<p>Plan</p> 
+<p>Abo</p> 
    </td> 
    </tr> 
   </tr> 
@@ -64,7 +70,7 @@ ht-degree: 4%
 </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 +++
 
 ## Voraussetzungen
@@ -146,7 +152,7 @@ In der folgenden Tabelle sind Einschränkungen aufgeführt, wenn Währungen im B
 <li>Weisen Sie dem Dashboard eine Standardwährung zu (bei der Erstellung oder bei der Bearbeitung des Dashboards)</li>
 <li>Den Umschalter für die Währung auf Dashboard-Ebene anzeigen und verwenden</li>
 <li>Sperren einer bestimmten Währung zur Anzeige in einem Arbeitsflächendiagramm, einem KPI oder einem Tabellenbericht</li>
-<li>Verwenden von Planning-Währungsfeldern in Arbeitsflächendiagrammen, KPIs und Tabellenberichten</li>
+<li>Verwenden von Planning-Währungsfeldern in Arbeitsflächendiagrammen, KPIs und Tabellenberichten <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
 </ul>
 </td> 
 </tr>
@@ -164,12 +170,7 @@ In der folgenden Tabelle sind Einschränkungen aufgeführt, wenn Währungen im B
 </td>
 <td><ul>
   <li>Verwenden benutzerdefinierter Datenwährungsfelder in Arbeitsflächen-Diagrammen, KPIs und Tabellenberichten</li>
-  <li>Verwenden von Planning-Währungsfeldern in Arbeitsflächendiagrammen, KPIs und Tabellenberichten</li>
+  <li>Verwenden von Planning-Währungsfeldern in Arbeitsflächendiagrammen, KPIs und Tabellenberichten <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
 </ul>
 </td>
 </tr></table>
-
-
-
-
-

@@ -18,9 +18,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
 workflow-type: tm+mt
-source-wordcount: 1866
+source-wordcount: 1864
 ht-degree: 7%
 
 ---
@@ -316,8 +316,8 @@ Dies ist eine bekannte Grenze, und wir planen, sie so schnell wie möglich zu be
 
 Die **Abschnitte** Dropdown-Liste im Abschnitt **Diagramm erstellen** dient dazu, die Auswahl in einer Feldauswahl einzugrenzen, damit ein Objekt beim Erstellen eines Tabellenberichts leichter zu finden ist. Wählen Sie zunächst ein Basiseinheitsobjekt aus.
 
-* **Alle Abschnitte**: Alle Objekttypen in Workfront Workflow und Workfront Planning.
-* **Workfront-Objekte**: Native Workfront-Workflow-Objekte.
+* **Alle Abschnitte**: Alle Objekttypen in Workfront und Workfront Planning.
+* **Workfront-Objekte**: Native Workfront-Objekte.
 * **Planning-Datensatztypen**: Benutzerdefinierte Datensatztypen, die in Workfront Planning definiert sind.
 
 ![Dropdown-Liste „Abschnitte](assets/sections-dropdown.png)
