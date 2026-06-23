@@ -9,19 +9,14 @@ exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/oajBrzqCNgufbSJPP0Wx8aI14d8VM7IFr-Hn1ed7Wks
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1002d0ce293d00b70821e13da280c6f817c8eb9d
 workflow-type: tm+mt
-source-wordcount: 6307
+source-wordcount: 6353
 ht-degree: 1%
 
 ---
@@ -622,7 +617,7 @@ Wenn Sie die Tabellenansicht anzeigen, können Sie auch anzeigen, welches Feld e
 
 <div class="preview">
 
-## Verwalten der Listenansicht in der Vorschau-Umgebung
+## Verwalten der Tabellenansicht in der Vorschau-Umgebung
 
 <!--********** MAYBE THIS IS VALID ONLY WHEN WE REPLACE THE NAVIGATION ?????????*********-->
 
@@ -732,7 +727,7 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
 
 1. Gehen Sie folgendermaßen vor, um schnell Datensätze zu finden, die einem Keyword entsprechen:
 
-   1. Beginnen Sie im **&#x200B;**&#x200B;Suchfeld![Suchsymbol](assets/search-icon.png) mit der Eingabe eines Keywords, das mit einem beliebigen Feld eines Datensatzes verknüpft ist, der auf dem Bildschirm angezeigt wird. Die Anzahl der richtigen Übereinstimmungen wird neben dem Suchelement angezeigt, und das Feld mit der richtigen Übereinstimmung ist hervorgehoben.
+   1. Beginnen Sie im **** Suchfeld![Suchsymbol](assets/search-icon.png) mit der Eingabe eines Keywords, das mit einem beliebigen Feld eines Datensatzes verknüpft ist, der auf dem Bildschirm angezeigt wird. Die Anzahl der richtigen Übereinstimmungen wird neben dem Suchelement angezeigt, und das Feld mit der richtigen Übereinstimmung ist hervorgehoben.
 
       ![Suchfeld mit Ergebnissen mit blauer Kontur in der Tabellenansicht](assets/search-box-with-results-blue-outline-g-table.png)
 
@@ -800,7 +795,7 @@ Mit Filtern können Sie die Menge der auf dem Bildschirm angezeigten Information
 
 Das Hinzufügen von Filtern in der Tabellenansicht in der Vorschauumgebung ist mit dem Hinzufügen von Filtern in der Produktionsumgebung identisch.
 
-Weitere Informationen finden Sie [&#x200B; Abschnitt &#x200B;](#add-filters) hinzufügen in diesem Artikel.
+Weitere Informationen finden Sie [ Abschnitt ](#add-filters) hinzufügen in diesem Artikel.
 
 
 <!--***************** at production, paste here the information from the Production section above *******************-->
@@ -832,7 +827,7 @@ Beachten Sie beim Sortieren von Datensätzen in der Tabellenansicht die folgende
 Gehen Sie wie folgt vor, um Datensätze zu sortieren:
 
 1. Erstellen Sie eine Tabellenansicht, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie auf **Symbol** Sortieren![&#x200B; (](assets/sort-icon.png)) oben in der Tabelle
+1. Klicken Sie auf **Symbol** Sortieren![ (](assets/sort-icon.png)) oben in der Tabelle
 
    ODER
 
@@ -894,7 +889,7 @@ Beachten Sie Folgendes:
 
 * Sie können Gruppierungen sowohl in der Tabellen- als auch in der Zeitleisten-Ansicht anwenden. Die Gruppierungen der Tabellenansicht sind unabhängig von denen in der Zeitleisten -Ansicht desselben Datensatztyps.
 * Sie können in einer Ansicht drei Gruppierungsebenen anwenden. Die Datensätze werden in der Reihenfolge der ausgewählten Gruppierungen gruppiert.
-&lt;!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * Bei Verwendung der API können bis zu 4 Gruppierungsebenen angewendet werden. —Diese werden vorerst überprüft &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;!—*************** * Bei Verwendung der API können bis zu 4 Gruppierungsebenen angewendet werden. —Diese werden vorerst überprüft ******************—>
 * Die Gruppierungen sind für die ausgewählte Ansicht eindeutig. Auf zwei Tabellenansichten desselben Datensatztyps können unterschiedliche Gruppierungen angewendet werden. Zwei Benutzende, die dieselbe Tabellenansicht betrachten, sehen dieselbe Gruppierung, die derzeit angewendet wird.
 * Die von Ihnen erstellten Gruppierungen können nicht für eine Tabellenansicht benannt werden.
 * Das Entfernen von Gruppierungen entfernt sie von allen Benutzern, die auf denselben Datensatztyp zugreifen wie Sie und die dieselbe Ansicht anzeigen wie Sie.
@@ -948,15 +943,13 @@ Um eine Gruppierung hinzuzufügen:
 
 1. (Optional) Klicken Sie auf **Zeilenfarben**, um Bedingungen zu definieren und verschiedene Farben für Tabellenzeilen zu konfigurieren.
 
-1. Klicken Sie **Farbe hinzufügen** suchen Sie nach einem Feld und wählen Sie es aus, wenn es in der Liste angezeigt wird. Dies ist das Feld, dessen Wert Sie als Farbe für eine Zeile definieren möchten.
+1. Klicken Sie **Farbe hinzufügen** suchen Sie nach einem Feld und wählen Sie es aus, wenn es in der Liste angezeigt wird. Dies ist das Feld, für dessen Wert Sie die Farbe einer Zeile oder des Primären Felds definieren möchten.
 
    Um beispielsweise Kampagnen mit dem Status Aktiv in Grün anzuzeigen, wählen Sie **Status** und wählen Sie dann einen Modifikator und einen Wert für das Feld aus.
 
-   ![Feld „Zeilenfarben“ mit ausgewähltem Status „Aktiv“ und Standardfarbauswahl](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
-
 1. Klicken Sie auf das Dropdown-Menü für die Farbauswahl in der oberen linken Ecke der ausgewählten Bedingung, um die Farbe für die Bedingung auszuwählen, und klicken Sie dann außerhalb des Farbauswahlfelds, um es zu schließen.
 
-   ![Dropdown-Farbauswahlmenü im Feld „Zeilenfarben“ hervorgehoben](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
+   ![Feld „Zeilenfarben“ mit ausgewähltem Status „Aktiv“ und Standardfarbauswahl](assets/row-colors-box-with-active-status-selected-default-color-choice-gtable.png)
 
 1. (Optional) Klicken Sie **Bedingung hinzufügen**, um dem ersten Satz von Bedingungen weitere Felder und Werte hinzuzufügen
 
@@ -966,16 +959,27 @@ Um eine Gruppierung hinzuzufügen:
 
    Sie können beispielsweise Kampagnen in einem Planungsstatus in Gelb anzeigen, indem Sie einen neuen Satz von Bedingungen definieren.
 
-   ![Zeilenfarbenfeld mit den benutzerdefinierten Farben „Aktiv“ und „Planungsstatus“](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
+   ![Zeilenfarbenfeld mit den benutzerdefinierten Farben „Aktiv“ und „Planungsstatus“](assets/row-colors-box-with-active-and-planning-status-custom-colors-gtable.png)
+
+   >[!TIP]
+   >
+   >Wenn Sie zwei verschiedene Felder ausgewählt haben, gilt zuerst die letzte Regel für die Farben, die auf die Zeilen angewendet werden.
+
 
 1. (Optional) Aktivieren Sie die Einstellung **Auf die gesamte Zeile anwenden** in der oberen rechten Ecke des Felds **Zeilenfarben**. Die gesamte Zeile, in der die Bedingung erfüllt ist, wird automatisch in der ausgewählten Farbe angezeigt.
 
    >[!NOTE]
    >
-   >Wenn die Einstellung **Auf die gesamte Zeile anwenden** deaktiviert ist, wird nur der Hintergrund der primären Felderzelle in der ausgewählten Farbe angezeigt. Die Einstellung ist standardmäßig deaktiviert.
+   >* Wenn die Einstellung **Auf die gesamte Zeile anwenden** deaktiviert ist, wird nur der Hintergrund der primären Felderzelle in der ausgewählten Farbe angezeigt. Die Einstellung ist standardmäßig deaktiviert.
    >
+   >* Die Einstellung Auf die gesamte Zeile anwenden ist abgeblendet, wenn Sie Gruppierungen auf die Tabelle anwenden.
 
 1. Klicken Sie auf eine Stelle außerhalb des **Zeilenfarben**-Felds, um es zu schließen. Die Farben werden automatisch angewendet.
+
+   >[!TIP]
+   >
+   >Wenn Sie Farbe nur auf eine Zelle anwenden, wird nur das Primäre Feld hervorgehoben.
+
 
 ### Aktivieren der Echtzeit-Anwesenheitsindikator
 

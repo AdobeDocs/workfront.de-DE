@@ -9,18 +9,13 @@ exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/SRUCt-lfcaIOPghpl2PfbbSMO4oMy4E1hfS7NensXL8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
 workflow-type: tm+mt
-source-wordcount: 803
+source-wordcount: 807
 ht-degree: 6%
 
 ---
@@ -36,6 +31,12 @@ ht-degree: 6%
 >* Eigene Schlüssel für Amazon Web Services mitbringen
 >* Azure
 >* Google Cloud Platform
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 Sie können einen Filter auf ein Arbeitsflächen-Dashboard anwenden, das Eingabeaufforderungen enthält. Eine Eingabeaufforderung dient als Filtermodifikator, der zusätzliche Filterkriterien anwendet, sodass Sie Ihre Ergebnisse noch weiter eingrenzen können. Diese Eingabeaufforderungen können bei jeder Anwendung des Filters geändert werden, sodass Sie die angezeigten Ergebnisse anpassen können, ohne die wichtigsten Filterkriterien des Dashboards oder jeden einzelnen Bericht bearbeiten zu müssen.
@@ -117,7 +118,7 @@ Mit einem Dashboard-Filter können Sie einen gemeinsamen Filter auf alle Bericht
 
 1. Klicken Sie oben links auf der Detailseite des Dashboards auf **Filter**. Das seitliche Bedienfeld „Filter“ wird geöffnet.
 
-1. Wählen Sie **Filter bearbeiten** aus. Das **Dashboard-Filter** Dialogfeld wird geöffnet.
+1. <!--<span class="preview">the **More** menu ![More menu](assets/more-icon.png), then click</span>--> klicken **Filter bearbeiten**. Das **Dashboard-Filter** Dialogfeld wird geöffnet.
 
 1. (Optional) Gehen Sie wie folgt vor, um eine Regel hinzuzufügen:
 
@@ -126,7 +127,7 @@ Mit einem Dashboard-Filter können Sie einen gemeinsamen Filter auf alle Bericht
       ![Bearbeiten-Symbol](assets/edit-icon.png)
 
    1. Klicken Sie **Bedingung hinzufügen** und fügen Sie dann die folgenden Informationen hinzu:
-      * Wählen Sie ein Feld aus, nach dem Sie filtern möchten.
+      * Klicken Sie **Feld auswählen**, um ein Feld auszuwählen, nach dem Sie filtern möchten.
       * Wählen Sie eine Option (oder einen Filtermodifikator) aus, um festzulegen, welche Art von Bedingung das Feld erfüllen muss.
 
    1. (Optional) Klicken Sie auf **Filtergruppe hinzufügen**, um einen weiteren Satz von Filterkriterien hinzuzufügen. Der Standardoperator zwischen den Sätzen ist UND. Klicken Sie auf den Operator, um ihn in ODER zu ändern.
@@ -144,7 +145,7 @@ In einer Dashboard-Eingabeaufforderung haben Benutzer die Möglichkeit, zusätzl
 
 1. Gehen Sie wie folgt vor, um eine Eingabeaufforderung hinzuzufügen:
 
-   1. Wählen Sie **Eingabeaufforderung hinzufügen** aus. Neue Felder werden auf der rechten Seite des Bildschirms angezeigt.
+   1. Klicken Sie **Eingabeaufforderung hinzufügen**. Neue Felder werden auf der rechten Seite des Bildschirms angezeigt.
 
    1. Geben Sie einen Titel in das Feld **Bezeichnung anpassen** ein.
 
@@ -170,6 +171,19 @@ In einer Dashboard-Eingabeaufforderung haben Benutzer die Möglichkeit, zusätzl
    1. (Optional) Klicken Sie auf **Filtergruppe hinzufügen**, um einen weiteren Satz von Filterkriterien hinzuzufügen. Der Standardoperator zwischen den Sätzen ist UND. Klicken Sie auf den Operator, um ihn in ODER zu ändern.
 
 1. Klicken Sie **Speichern**, um den Filter auf das Dashboard anzuwenden.
+
+   <!--
+    1.<span class="preview">To save prompts as default filters, do the following, after you saved the prompt: </span>
+        <div class="preview">
+        1. (Optional) Click the **More** menu ![More menu](assets/more-icon.png), then click **Save as default filter**. 
+            The filter is applied every time the dashboard loads for anyone with View or higher permissions to it. 
+        1. (Conditional) If you access a dashboard with a default filter applied, you can modify the filter and your modifications are saved as a personal preference. The following scenarios exist:
+            * If you have Manage permissions to the dashboard, click **Save as default filter** to save your modifications as a default filter. This replaces the original defaults.
+            * If you have View permissions to the dashboard, your modifications display only for you. Refreshing the page preserves your settings. 
+        1. (Conditional) If you modified the settings of the default filter, click the **More** menu ![More menu](assets/more-icon.png), then **Apply dashboard defaults** to return to the default filter results. 
+        1. (Optional) Click **Reset defaults** to replace the original default settings with your modifications. This option is only available for dashboard managers. 
+        </div> 
+    -->
 
 1. Fahren Sie mit [Teil 3: Anwenden einer Dashboard-Eingabeaufforderung](#step-3-apply-a-dashboard-prompt) fort.
 
