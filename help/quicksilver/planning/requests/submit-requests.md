@@ -9,19 +9,12 @@ exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-ksnbkmFi7s42lp3Fnb6uVaO3JCseU48W9VSacVY-GI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7ee1863adccffcd651a92f92c9faf5b4500c93f7
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5f288a20a0b8f2afd433e5b1c4a6c43ea24b7259
 workflow-type: tm+mt
 source-wordcount: 2603
 ht-degree: 1%
@@ -146,7 +139,7 @@ Not sure how to change the request status, but dev also said: Changing the names
 
 {{step1-to-requests}}
 
-1. Aktivieren Sie **Einstellung**&#x200B;Neues Erlebnis verwenden“ in der rechten oberen Ecke des Bildschirms.
+1. Aktivieren Sie **Einstellung**Neues Erlebnis verwenden“ in der rechten oberen Ecke des Bildschirms.
 Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformulare im Bereich **Anfragen** von Workfront verfügbar.
 
    >[!TIP]
@@ -219,28 +212,6 @@ Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformula
 
    Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
-<!-- 
-Removing this as this is covered at a higher level in the Use enhanced lists article: 
-1. (Optional) From the requests list, do any of the following:
-   * Click **Filters** and start adding conditions for what requests you want to view in the Requests list. 
-      ![Editing filters in the Requests area](assets/filters-editing-box-in-requests-planning-tab.png)
-      You can filter by the following fields:  
-      * **Workspace**: The workspace the request form is associated with.
-      * **Object type**: The record type the request form is associated with.
-      * **Entry date**: The date when the request was submitted.
-      * **Request form**: The name of the request form used to submit the request.
-      * **Status**: The status of the request.
-      * **Entered by**: The name of the user who added the request. If the request was added by someone outside of Workfront, the **Entered by** field shows `N/A`.
-      You can have multiple filters joined by either **And** or **Or**.
-      The request list is filtered automatically, as you add the filter conditions.  
-   * Click **Columns** to open the **Fields visibility and order** box, then hide, show, or rearrange the columns in the request list. 
-      >[!TIP]
-      >
-      >You cannot add any more columns. 
-      ![Columns editing box in Requests area](assets/columns-editing-box-in-requests-planning-tab.png)
-   * Click the **+** icon in the upper-right corner of the request list to open the **Column manager** and add or remove columns in the requests list. 
--->
-
 1. Klicken Sie auf den Namen einer Anfrage in der Liste.
 
    Die Seite mit den Anfragedetails wird geöffnet.
@@ -248,7 +219,7 @@ Removing this as this is covered at a higher level in the Use enhanced lists art
    ![Seite mit Kommentar anfordern](assets/new-request-page-with-comment.png)
 
 1. (Optional) Geben Sie einen Kommentar im Bereich **Kommentare** ein.
-1. <span class="preview">(Optional und bedingt) Wenn die Anfrage darauf wartet, genehmigt zu werden, und Sie die Anfrage geöffnet haben, klicken Sie entweder auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/more-menu.png) rechts neben dem Anfragenamen und klicken Sie dann auf **Bearbeiten** oder doppelklicken Sie auf die Felder in der Anfrage, um sie zu bearbeiten. </span>
+1. <span class="preview">(Optional und bedingt) Wenn die Anfrage darauf wartet, genehmigt zu werden, und Sie die Anfrage geöffnet haben, klicken Sie entweder auf das **Mehr**-Symbol ![Mehr ](assets/more-menu.png) rechts neben dem Anfragenamen und klicken Sie dann auf **Bearbeiten** oder doppelklicken Sie auf die Felder in der Anfrage, um sie zu bearbeiten. </span>
 
    >[!NOTE]
    >
@@ -274,6 +245,29 @@ Removing this as this is covered at a higher level in the Use enhanced lists art
 1. (Optional) Klicken Sie auf den Namen des **Datensatztyps**.
 
    Die Seite „Datensatztyp“ wird in Workfront Planning geöffnet.
+
+<!-- 
+Moved from line 223, just after the "For information, see [Use enhanced lists]..." This is due to rendering bug.
+Removing this as this is covered at a higher level in the Use enhanced lists article: 
+1. (Optional) From the requests list, do any of the following:
+   * Click **Filters** and start adding conditions for what requests you want to view in the Requests list. 
+      ![Editing filters in the Requests area](assets/filters-editing-box-in-requests-planning-tab.png)
+      You can filter by the following fields:  
+      * **Workspace**: The workspace the request form is associated with.
+      * **Object type**: The record type the request form is associated with.
+      * **Entry date**: The date when the request was submitted.
+      * **Request form**: The name of the request form used to submit the request.
+      * **Status**: The status of the request.
+      * **Entered by**: The name of the user who added the request. If the request was added by someone outside of Workfront, the **Entered by** field shows `N/A`.
+      You can have multiple filters joined by either **And** or **Or**.
+      The request list is filtered automatically, as you add the filter conditions.  
+   * Click **Columns** to open the **Fields visibility and order** box, then hide, show, or rearrange the columns in the request list. 
+      >[!TIP]
+      >
+      >You cannot add any more columns. 
+      ![Columns editing box in Requests area](assets/columns-editing-box-in-requests-planning-tab.png)
+   * Click the **+** icon in the upper-right corner of the request list to open the **Column manager** and add or remove columns in the requests list. 
+-->
 
 ## Senden einer Anfrage an Workfront Planning über einen freigegebenen Link in ein Anfrageformular
 
@@ -374,7 +368,7 @@ Weitere Informationen finden Sie [Löschen einer gesendeten Anfrage oder eines A
 So löschen Sie eine Planungsanfrage nach dem Öffnen der Anfrage:
 
 1. Öffnen Sie eine Planungsanfrage, indem Sie in der Anfragenliste auf den entsprechenden Namen klicken.
-1. Klicken Sie auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/more-menu.png) rechts neben dem Anfragenamen und klicken Sie dann auf **Löschen**.
+1. Klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/more-menu.png) rechts neben dem Anfragenamen und klicken Sie dann auf **Löschen**.
 1. Klicken Sie zur Bestätigung **D** e **delete** das Feld „Dauerhaft löschen“.
 
    Die Anfrage wurde gelöscht und kann nicht wiederhergestellt werden.
