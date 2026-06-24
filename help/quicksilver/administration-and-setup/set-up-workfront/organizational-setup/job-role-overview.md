@@ -22,10 +22,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 9be1c13e172fd0f7ba4ea41a0b0b6d45868ee946
 workflow-type: tm+mt
-source-wordcount: 481
-ht-degree: 8%
+source-wordcount: 440
+ht-degree: 7%
 
 ---
 
@@ -75,6 +75,4 @@ Sie können Aufgabengebiete für die folgenden Zwecke verwenden:
   >Wenn Benutzenden eine Layout-Vorlage zugewiesen wird, hat diese Vorlage Vorrang vor derjenigen, die ihrer primären Aufgabenrolle zugewiesen wurde. Weitere Informationen finden Sie unter [Zuweisen von Benutzern zu einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
 * Sie können Plänen und Initiativen Aufgabengebiete zuweisen, um die Verfügbarkeit Ihrer Ressourcen bei der Verwendung der [!DNL Adobe Workfront Scenario Planner] zu verwalten. Dies erfordert eine zusätzliche Lizenz für die [!DNL Scenario Planner]. Weitere Informationen finden Sie unter [Erste Schritte mit dem [!DNL Scenario Planner]](../../../scenario-planner/get-started-with-scenario-planning.md).
-* Bei der Arbeit mit Ressourcen aus verschiedenen Ländern können Sie die Währung für die effektiven Aufgabengebiets-Kurse ändern. Auf diese Weise können Sie genauere Kosten- und Umsatzbeträge für Arbeitselemente abrufen.
 
-  Weitere Informationen finden Sie unter [Erstellen und Verwalten von Aufgabengebieten](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
