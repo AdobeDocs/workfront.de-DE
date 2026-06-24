@@ -21,7 +21,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7ee1863adccffcd651a92f92c9faf5b4500c93f7
+source-git-commit: 5f288a20a0b8f2afd433e5b1c4a6c43ea24b7259
 workflow-type: tm+mt
 source-wordcount: 2603
 ht-degree: 1%
@@ -219,28 +219,6 @@ Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformula
 
    Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
-<!-- 
-Removing this as this is covered at a higher level in the Use enhanced lists article: 
-1. (Optional) From the requests list, do any of the following:
-   * Click **Filters** and start adding conditions for what requests you want to view in the Requests list. 
-      ![Editing filters in the Requests area](assets/filters-editing-box-in-requests-planning-tab.png)
-      You can filter by the following fields:  
-      * **Workspace**: The workspace the request form is associated with.
-      * **Object type**: The record type the request form is associated with.
-      * **Entry date**: The date when the request was submitted.
-      * **Request form**: The name of the request form used to submit the request.
-      * **Status**: The status of the request.
-      * **Entered by**: The name of the user who added the request. If the request was added by someone outside of Workfront, the **Entered by** field shows `N/A`.
-      You can have multiple filters joined by either **And** or **Or**.
-      The request list is filtered automatically, as you add the filter conditions.  
-   * Click **Columns** to open the **Fields visibility and order** box, then hide, show, or rearrange the columns in the request list. 
-      >[!TIP]
-      >
-      >You cannot add any more columns. 
-      ![Columns editing box in Requests area](assets/columns-editing-box-in-requests-planning-tab.png)
-   * Click the **+** icon in the upper-right corner of the request list to open the **Column manager** and add or remove columns in the requests list. 
--->
-
 1. Klicken Sie auf den Namen einer Anfrage in der Liste.
 
    Die Seite mit den Anfragedetails wird geöffnet.
@@ -274,6 +252,29 @@ Removing this as this is covered at a higher level in the Use enhanced lists art
 1. (Optional) Klicken Sie auf den Namen des **Datensatztyps**.
 
    Die Seite „Datensatztyp“ wird in Workfront Planning geöffnet.
+
+<!-- 
+Moved from line 223, just after the "For information, see [Use enhanced lists]..." This is due to rendering bug.
+Removing this as this is covered at a higher level in the Use enhanced lists article: 
+1. (Optional) From the requests list, do any of the following:
+   * Click **Filters** and start adding conditions for what requests you want to view in the Requests list. 
+      ![Editing filters in the Requests area](assets/filters-editing-box-in-requests-planning-tab.png)
+      You can filter by the following fields:  
+      * **Workspace**: The workspace the request form is associated with.
+      * **Object type**: The record type the request form is associated with.
+      * **Entry date**: The date when the request was submitted.
+      * **Request form**: The name of the request form used to submit the request.
+      * **Status**: The status of the request.
+      * **Entered by**: The name of the user who added the request. If the request was added by someone outside of Workfront, the **Entered by** field shows `N/A`.
+      You can have multiple filters joined by either **And** or **Or**.
+      The request list is filtered automatically, as you add the filter conditions.  
+   * Click **Columns** to open the **Fields visibility and order** box, then hide, show, or rearrange the columns in the request list. 
+      >[!TIP]
+      >
+      >You cannot add any more columns. 
+      ![Columns editing box in Requests area](assets/columns-editing-box-in-requests-planning-tab.png)
+   * Click the **+** icon in the upper-right corner of the request list to open the **Column manager** and add or remove columns in the requests list. 
+-->
 
 ## Senden einer Anfrage an Workfront Planning über einen freigegebenen Link in ein Anfrageformular
 
