@@ -8,16 +8,18 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
-source-git-commit: c27dd9d972b89af09c0865a0e878f1665416c80e
+source-git-commit: 3d4ba795c0f6098e71ee5510680d4d20ca2c9e1d
 workflow-type: tm+mt
-source-wordcount: '1338'
+source-wordcount: '1434'
 ht-degree: 2%
 
 ---
 
 # Verwalten von Tarifkarten
 
-Eine Tarifkarte stellt die vertragliche Vereinbarung mit Ihrem Kunden dar, in der Stundensätze für die Aufgabengebiete definiert sind, die die Arbeit abschließen. In einer Tarifkarte können Sie mehrere Abrechnungssätze pro Aufgabengebiet definieren, die auf Attributen wie Agentur, Standort oder Kostenstelle basieren. Ihre eindeutigen Tarifattribute werden im Bereich Setup konfiguriert. Weitere Informationen finden Sie unter [Definieren von &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+{{highlighted-preview}}
+
+Eine Tarifkarte stellt die vertragliche Vereinbarung mit Ihrem Kunden dar, in der Stundensätze für die Aufgabengebiete definiert sind, die die Arbeit abschließen. In einer Tarifkarte können Sie mehrere Abrechnungssätze pro Aufgabengebiet definieren, die auf Attributen wie Agentur, Standort oder Kostenstelle basieren. Ihre eindeutigen Tarifattribute werden im Bereich Setup konfiguriert. Weitere Informationen finden Sie unter [Definieren von ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
 
 Sie könnten beispielsweise für Designer in Paris ein Aufgabengebiet für Agency A, für Agency B ein anderes Designer in Paris und für Agency B ein drittes Designer in New York haben, das keiner Agency zugewiesen ist, die jeweils unterschiedliche Abrechnungssätze aufweisen. Für Aufgabengebiete auf einer Tarifkarte sind jedoch keine Attribute erforderlich. Die Attribute dienen als Werkzeuge zur Festlegung detaillierterer Raten. Ein Abrechnungssatz auf einer Tarifkarte kann auch ein Gültigkeitsdatum sein, sodass der Satz an einem bestimmten Datum beginnt und endet.
 
@@ -86,7 +88,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
    >[!NOTE]
    >
-   >Diese Attribute werden separat definiert und können sich auf Umsatz- und Kostenberechnungen auswirken. Weitere Informationen finden Sie unter [Definieren von &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+   >Diese Attribute werden separat definiert und können sich auf Umsatz- und Kostenberechnungen auswirken. Weitere Informationen finden Sie unter [Definieren von ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
 
 1. Wählen Sie [!UICONTROL **Abrechnungssatz**] Währung“ aus.
 1. (Optional) Geben Sie einen [!UICONTROL **Aufgabengebiet-Alias**] für das Aufgabengebiet ein.
@@ -139,6 +141,14 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
    >[!NOTE]
    >
    >Da jeder Satz mit der Kombination aus Funktion und Attributen verknüpft ist, um einen eindeutigen Satz zu erstellen, können die Funktion und die Attribute beim Bearbeiten eines Satzes nicht geändert werden.
+
+<div class="preview">
+
+1. Um einen Kurs an einer bestimmten Stelle in der Liste der gültigen Terminkurse hinzuzufügen, bewegen Sie den Mauszeiger über den Kurs und wählen Sie das Menü **Mehr** rechts neben dem Namen des Kurses aus. Wählen Sie dann **Zeile oben einfügen** oder **Zeile unten einfügen**.
+
+   Das Feld Abrechnungssatz bearbeiten wird angezeigt, wobei die Zeile für den neuen Abrechnungssatz dort hinzugefügt wird, wo Sie ihn platziert haben. Die Rate, die Sie für das Hinzufügen einer Zeile über oder unter ausgewählt haben, wird mit einer blauen Linie hervorgehoben. Fügen Sie den neuen Abrechnungssatz hinzu, passen Sie die effektiven Daten für die vorhandenen Abrechnungssätze nach Bedarf an und klicken Sie auf **Speichern**.
+
+</div>
 
 1. Um einen Abrechnungssatz aus der Tarifkarte zu löschen, aktivieren Sie das Kontrollkästchen neben dem Satz und klicken Sie in der Aktionsleiste [!UICONTROL **Löschen**].
 1. Um eine Rate zu sperren, aktivieren Sie das Kontrollkästchen neben der Rate und klicken Sie in [!UICONTROL **Aktionsleiste**] Sperren“.
