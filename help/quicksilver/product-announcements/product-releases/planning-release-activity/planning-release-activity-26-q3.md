@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1c9433c854fe481060358caf3d280492ee71aeb6
+source-git-commit: 2b7812d275fd2c5bf0fff8bcd60ca89bafa22def
 workflow-type: tm+mt
-source-wordcount: '2038'
+source-wordcount: '2087'
 ht-degree: 0%
 
 ---
@@ -29,22 +29,18 @@ In diesem Artikel werden die Funktionen beschrieben, die im dritten Quartal 2026
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-<!--
-## Support for currency Planning fields in Canvas Dashboards
+
+## Unterstützung für Währungsplanungsfelder in Canvas-Dashboards
 
 >[!NOTE]
 >
->Preview: June 25, 2026
->Production fast release: July 15, 2026
->Production for everyone: July 16, 2026
+>Vorschau: 25. Juni 2026>Produktions-Schnellversion: 15. Juli 2026>Produktion für alle: 16. Juli 2026
 
-You can now include currency Planning fields, in table, KPI, and chart reports in Canvas Dashboards.  
+Sie können jetzt Felder für die Währungsplanung in Tabellen-, KPI- und Diagrammberichten in Arbeitsflächen-Dashboards einbeziehen.
 
-Prior to this enhancement, currency fields were not supported in Canvas Dashboards.  
+Vor dieser Verbesserung wurden Währungsfelder in Arbeitsflächen-Dashboards nicht unterstützt.
 
-For information, see [Use currency fields in Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md). 
-
--->
+Weitere Informationen finden Sie unter [Verwenden von Währungsfeldern in Arbeitsflächen-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md).
 
 ## Verbesserung der Benutzeroberfläche für die Zeilenfarbsteuerung
 
@@ -151,7 +147,7 @@ Version 1 bleibt verfügbar, obwohl wir empfehlen, zur Verwendung von Version 2 
 
 Weitere Informationen finden Sie unter [Grundlagen zur Adobe Workfront Planning-API](/help/quicksilver/planning/general/planning-api-basics.md).
 
-Informationen zu den Spezifikationen der Workfront Planning-API finden Sie in der Entwicklerdokumentation zur [Workfront &#x200B;](https://developer.adobe.com/wf-planning/)-API.
+Informationen zu den Spezifikationen der Workfront Planning-API finden Sie in der Entwicklerdokumentation zur [Workfront ](https://developer.adobe.com/wf-planning/)-API.
 
 ## Berechtigungen für Datensätze erteilen
 
@@ -327,7 +323,7 @@ Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfra
 
 >[!NOTE]
 >
->Vorschau und Produktion für alle Kunden: 14. Mai 2026 >[!BADGE &#x200B; Zeitplan]{type=Neutral}
+>Vorschau und Produktion für alle Kunden: 14. Mai 2026 >[!BADGE  Zeitplan]{type=Neutral}
 
 Für eine bessere Sichtbarkeit bei der Arbeit mit AEM-Inhaltsfragmenten, die mit Workfront Planning-Datensätzen verbunden sind, wurde ein Vorschaufenster hinzugefügt, in dem Informationen zu den Fragmenten in Workfront Planning angezeigt werden.
 

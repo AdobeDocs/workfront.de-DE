@@ -6,7 +6,7 @@ description: Sie können die Währungsfelder in einem Arbeitsflächen-Dashboard 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 207c24d3-2b69-4ea3-88d7-716a3cf33dd1
-source-git-commit: 5610385a6bbbf02965d7ab4a3fecee8e6de5ad91
+source-git-commit: 2b7812d275fd2c5bf0fff8bcd60ca89bafa22def
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 7%
@@ -177,7 +177,8 @@ In der folgenden Tabelle sind Einschränkungen aufgeführt, wenn Währungen im B
 
 
 <p><b>NOTIZ</b></p>
-<span class="preview">Wenn ein Feld für die Planning-Währung eine Währung ohne definierten Wechselkurs verwendet, wird im Canvas-Dashboard möglicherweise eine Fehlermeldung angezeigt, wenn.</span>
+
+<p><span class="preview">Wenn ein Feld für die Planungswährung eine Währung ohne definierten Wechselkurs verwendet, wird im Arbeitsflächen-Dashboard möglicherweise eine Fehlermeldung angezeigt, wenn.</span></p>
 
 </td>
 </tr></table>
