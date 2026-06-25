@@ -6,7 +6,7 @@ title: Tarifkarte an eine Vorlage anhängen
 description: Wenn Sie einer Vorlage eine Tarifkarte zuweisen, wird diese an alle aus der Vorlage erstellten Projekte angehängt.
 author: Lisa
 feature: Work Management
-source-git-commit: 28a1c1cf30c2b4addbcc1b40f5fd65f99685c75c
+source-git-commit: ab0a089ddf33cc4c5342b11a54ab3af40641a50d
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 8%
@@ -117,7 +117,6 @@ Sie können mit der Eingabe des Namens einer Tarifkarte beginnen, um die Ergebni
 
    Im Abschnitt Optionen im Feld Als Vorlage speichern können Sie das Element **Tarifkarte** auswählen, um die Tarifkarte zur Vorlage hinzuzufügen. Deaktivieren Sie das Kontrollkästchen, um die Tarifkarte von der Übertragung zur Vorlage auszuschließen.
 
-   Weitere Informationen finden Sie unter [Speichern eines Projekts als Vorlage](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md)
-
+   Weitere Informationen finden Sie unter [Speichern eines Projekts als Vorlage](/help/quicksilver/manage-work/projects/manage-projects/save-project-as-template.md).
 
 
