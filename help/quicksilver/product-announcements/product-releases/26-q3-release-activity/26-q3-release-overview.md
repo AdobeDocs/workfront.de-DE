@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: b05cd2638ac0d35a0debb862d73dc8bee0cdb794
+source-git-commit: 864c3858a7cbfcc09268b8f0fa10b99509aebb08
 workflow-type: tm+mt
-source-wordcount: '2104'
-ht-degree: 17%
+source-wordcount: '2312'
+ht-degree: 15%
 
 ---
 
@@ -29,9 +29,10 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
 >|----|----|
 >| <ul><li>26.5 (14. Mai 2026)</li><li>26.6 (11. Juni 2026)</li><li>26.7 (15. Juli 2026)</li></ul> | <ul><li>26.7 (16. Juli 2026)</li></ul> |
 >
->Beachten Sie, dass Benutzer, die den Zeitplan für die schnelle Veröffentlichung im letzten Quartal (26.7 in diesem Quartal) verwenden, die Version einen Tag früher erhalten (15. Juli 2026).
+>* Beachten Sie, dass Benutzer, die den Zeitplan für die schnelle Veröffentlichung im letzten Quartal (26.7 in diesem Quartal) verwenden, die Version einen Tag früher erhalten (15. Juli 2026).
 >
->Weitere Informationen zum Schnellveröffentlichungsprozess finden Sie unter [Aktivieren oder Deaktivieren des Schnellveröffentlichungsprozesses](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>   Weitere Informationen zum Schnellveröffentlichungsprozess finden Sie unter [Aktivieren oder Deaktivieren des Schnellveröffentlichungsprozesses](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>* In Version 26.7 (Juli 2026) werden Funktionen möglicherweise zuletzt am 7. Juli in der Vorschau-Umgebung angezeigt.
 
 ## Adobe Workfront-Verbesserungen
 
@@ -48,8 +49,6 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
 ### KI-Verbesserungen
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Funktion</strong>
@@ -82,8 +81,6 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
 ### Administrator-Verbesserungen
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Funktion</strong>
@@ -151,8 +148,6 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
 ### Verbesserungen bei Dokumenten
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Funktion</strong>
@@ -160,6 +155,17 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             <td><strong>Vorschau</strong></td>
             <td><strong>Schnellveröffentlichung</strong></td>
             <td><strong>Vierteljährlich</strong></td>
+        <!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Adobe Cloud Drive</a><p>[!BADGE Off schedule]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer, so you can open, edit, and save files in any application directly from Finder or File Explorer.</p>
+            </td>
+            <td><p>N/A</p></td>
+            <td><p>June 26, 2026</p></td>
+            <td><p>June 26, 2026</p></td>
+        </tr>
+        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Fordern Sie mit Workfront und Frame.io eine Genehmigung für Adobe Express-Vorlagen an</a><p>[!BADGE Außerplanmäßig]{type=Neutral}</p>
@@ -211,8 +217,6 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
 ### Verbesserungen beim Finanzmanagement
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Funktion</strong>
@@ -220,6 +224,24 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             <td><strong>Vorschau</strong></td>
             <td><strong>Schnellveröffentlichung</strong></td>
             <td><strong>Vierteljährlich</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Hinzufügen einer Tarifkarte zu einer Vorlage</a><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>Sie können jetzt eine Tarifkarte auswählen, die einer Vorlage hinzugefügt werden soll. Diese wird dann automatisch an alle aus der Vorlage erstellten Projekte angehängt. Die Tarifkarte wird zum Standard im Projekt, kann jedoch bei Bedarf überschrieben werden.</p>
+            </td>
+            <td><p>25. Juni 2026</p></td>
+            <td><p>15. Juli 2026</p></td>
+            <td><p>16. Juli 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Fügen Sie Abrechnungssätze zwischen vorhandenen Sätzen auf einer Tarifkarte hinzu</a><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>Sie können jetzt die Liste der effektiven datierten Abrechnungssätze auf einer Tarifkarte schneller anpassen, indem Sie einen neuen Satz an einer bestimmten Stelle in der Liste hinzufügen. Wählen Sie das Menü <b>Mehr</b> neben einem bestehenden Tarif aus, um eine Zeile über oder unter diesem Tarif einzufügen.</p>
+            </td>
+            <td><p>25. Juni 2026</p></td>
+            <td><p>15. Juli 2026</p></td>
+            <td><p>16. Juli 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-financial-management-enhancements.md" class="MCXref xref" xrefformat="{para}">Tarifattribute können nicht bearbeitet werden, sobald sie für Tarife verwendet werden</a><p>[!BADGE Außerplanmäßig]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
@@ -235,8 +257,6 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
 ### Verbesserungen auf der Startseite
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Funktion</strong>
@@ -261,8 +281,6 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
 ### Verbesserungen bei Projekten
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Funktion</strong>
@@ -295,8 +313,6 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
 ### Verbesserungen beim Reporting
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Funktion</strong>
@@ -304,6 +320,15 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             <td><strong>Vorschau</strong></td>
             <td><strong>Schnellveröffentlichung</strong></td>
             <td><strong>Vierteljährlich</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Standardeinstellungen für die Canvas-Dashboard-Eingabeaufforderung und Persistenz der Benutzereinstellungen</a>
+                <p>Dashboard-Manager können jetzt standardmäßige Eingabeaufforderungswerte für Arbeitsflächen-Dashboards definieren, die automatisch auf alle Viewer angewendet werden. Wenn ein(e) Benutzende(r) eine Eingabeaufforderung aktualisiert, wird seine/ihre Auswahl bei Aktualisierung, erneuten Öffnen oder nach der Navigation zu einem Datensatz und zurück gespeichert und wiederhergestellt.</p>
+            </td>
+            <td><p>25. Juni 2026</p></td>
+            <td><p>15. Juli 2026</p></td>
+            <td><p>16. Juli 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-reports.md" class="MCXref xref" xrefformat="{para}">Gleichzeitiges Hinzufügen mehrerer Power BI-IP-Adressbereiche zur Data Connect-Zulassungsliste </a> <p>[!BADGE Außerplanmäßig]{type=Neutral}
@@ -355,8 +380,6 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
 ### Verbesserungen bei Anfragen
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Funktion</strong>
@@ -388,8 +411,6 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
 ### Weitere Verbesserungen
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 25%;" />
     <tbody>
         <tr>
             <td><strong>Funktion</strong>
