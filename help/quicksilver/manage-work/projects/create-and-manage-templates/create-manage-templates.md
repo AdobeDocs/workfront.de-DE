@@ -17,10 +17,10 @@ subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0ae6286f0c76f638358839603fba1301d5557d83
 workflow-type: tm+mt
-source-wordcount: 126
-ht-degree: 23%
+source-wordcount: 133
+ht-degree: 24%
 
 ---
 
@@ -42,5 +42,6 @@ Sie können Projektvorlagen verwenden, um die meisten wiederholbaren Prozesse, I
 * [Vorlage aus Projekt erstellen](../../../manage-work/projects/create-and-manage-templates/create-template-from-project.md)
 * [Projektvorlagen freigeben](../../../manage-work/projects/create-and-manage-templates/share-project-template.md)
 * [Entfernen von Vorlageninformationen aus einem Projekt](../../../manage-work/projects/create-and-manage-templates/remove-template-from-project.md)
-* [Projektvorlagen löschen](../../../manage-work/projects/create-and-manage-templates/delete-templates.md)
+* [Löschen von Projektvorlagen](../../../manage-work/projects/create-and-manage-templates/delete-templates.md)
+* [Tarifkarte an eine Vorlage anhängen](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-rate-card-to-template.md)
 * [Überblick über Start- und Fertigstellungstage in einer Vorlage](../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)
