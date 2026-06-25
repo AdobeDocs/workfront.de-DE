@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
-source-git-commit: 3d4ba795c0f6098e71ee5510680d4d20ca2c9e1d
+source-git-commit: 18a1dda4ed60986496d9850c5823b42ad2291e4f
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 2%
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 {{highlighted-preview}}
 
-Eine Tarifkarte stellt die vertragliche Vereinbarung mit Ihrem Kunden dar, in der Stundensätze für die Aufgabengebiete definiert sind, die die Arbeit abschließen. In einer Tarifkarte können Sie mehrere Abrechnungssätze pro Aufgabengebiet definieren, die auf Attributen wie Agentur, Standort oder Kostenstelle basieren. Ihre eindeutigen Tarifattribute werden im Bereich Setup konfiguriert. Weitere Informationen finden Sie unter [Definieren von &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+Eine Tarifkarte stellt die vertragliche Vereinbarung mit Ihrem Kunden dar, in der Stundensätze für die Aufgabengebiete definiert sind, die die Arbeit abschließen. In einer Tarifkarte können Sie mehrere Abrechnungssätze pro Aufgabengebiet definieren, die auf Attributen wie Agentur, Standort oder Kostenstelle basieren. Ihre eindeutigen Tarifattribute werden im Bereich Setup konfiguriert. Weitere Informationen finden Sie unter [Definieren von ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
 
 Sie könnten beispielsweise für Designer in Paris ein Aufgabengebiet für Agency A, für Agency B ein anderes Designer in Paris und für Agency B ein drittes Designer in New York haben, das keiner Agency zugewiesen ist, die jeweils unterschiedliche Abrechnungssätze aufweisen. Für Aufgabengebiete auf einer Tarifkarte sind jedoch keine Attribute erforderlich. Die Attribute dienen als Werkzeuge zur Festlegung detaillierterer Raten. Ein Abrechnungssatz auf einer Tarifkarte kann auch ein Gültigkeitsdatum sein, sodass der Satz an einem bestimmten Datum beginnt und endet.
 
@@ -88,7 +88,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
    >[!NOTE]
    >
-   >Diese Attribute werden separat definiert und können sich auf Umsatz- und Kostenberechnungen auswirken. Weitere Informationen finden Sie unter [Definieren von &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+   >Diese Attribute werden separat definiert und können sich auf Umsatz- und Kostenberechnungen auswirken. Weitere Informationen finden Sie unter [Definieren von ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
 
 1. Wählen Sie [!UICONTROL **Abrechnungssatz**] Währung“ aus.
 1. (Optional) Geben Sie einen [!UICONTROL **Aufgabengebiet-Alias**] für das Aufgabengebiet ein.
@@ -201,4 +201,6 @@ Siehe den Artikel [Importieren von Tarifkarten aus einer Vorlage](/help/quicksil
    >[!NOTE]
    >
    >Eine Tarifkarte, die an ein Projekt angehängt ist, wird aus dem Projekt gelöscht.
+
+
 
