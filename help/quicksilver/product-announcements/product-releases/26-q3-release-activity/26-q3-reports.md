@@ -4,9 +4,9 @@ description: Verbesserungen bei der Berichterstellung für das dritte Quartal 20
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a678a987703240680368b34c4095637b59a8bb60
+source-git-commit: c1ffa06ddca88f8679cf3886ce5c90f69984f30b
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '743'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,22 @@ ht-degree: 1%
 Auf dieser Seite werden die Verbesserungen beim Reporting in der Vorschau-Umgebung beschrieben, die mit der Version vom dritten Quartal 2026 vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2026 verfügbar sind, finden Sie unter [Versionsübersicht für das dritte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
+
+## Standardeinstellungen für Canvas-Dashboard-Eingabeaufforderung und Persistenz der Benutzereinstellungen
+
+>[!NOTE]
+>
+>Vorschau: 25. Juni 2026>Produktions-Schnellversion: 15. Juli 2026>Produktion für alle: 16. Juli 2026
+
+Um die Effizienz für Benutzer zu verbessern, die zwischen Dashboards und Datensätzen wechseln, indem ihr Arbeitsfilterstatus beibehalten wird, können Dashboard-Manager jetzt standardmäßige Eingabeaufforderungswerte für Arbeitsflächen-Dashboards definieren. Diese Standardeinstellungen werden automatisch auf alle Dashboard-Viewer angewendet.
+
+Wenn ein(e) Benutzende(r) eine Eingabeaufforderung aktualisiert, wird seine/ihre Auswahl bei Aktualisierung, erneuten Öffnen oder nach der Navigation zu einem Datensatz und zurück gespeichert und wiederhergestellt.
+
+Manager können den Standardstatus des Dashboards jederzeit zurücksetzen. Über das Dreipunkt-Menü können Benutzer auch schnell auf die Standardeinstellungen zurücksetzen.
+
+Vor dieser Verbesserung hatten Dashboard-Eingabeaufforderungen keine konfigurierbare Standardeinstellung oder gespeicherte Benutzervoreinstellung für den Eingabeaufforderungsstatus.
+
+Weitere Informationen finden Sie unter [Dashboard einer Arbeitsfläche filtern](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md).
 
 ## Gleichzeitiges Hinzufügen mehrerer Power BI-IP-Adressbereiche zur Data Connect-Zulassungsliste
 
@@ -48,7 +64,7 @@ Weitere Informationen finden Sie unter [Verwenden von Canvas-Dashboards](/help/q
 >
 >Vorschau: 1. Juni 2026>Produktions-Schnellveröffentlichung: 1. Juni 2026>Produktion für alle: 1. Juni 2026
 
-Im Jahr 2025 wurde der Workfront-Datenbank ein neues Feld „Tatsächliche Stunden“ als `actualWorkRequiredDouble` hinzugefügt und das bestehende Feld „Tatsächliche Stunden“ (in der Datenbank `actualWorkRequired`) wurde in „Frühere Tatsächliche Stunden“ umbenannt. Weitere Informationen finden [&#x200B; in &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md) Versionshinweisen .
+Im Jahr 2025 wurde der Workfront-Datenbank ein neues Feld „Tatsächliche Stunden“ als `actualWorkRequiredDouble` hinzugefügt und das bestehende Feld „Tatsächliche Stunden“ (in der Datenbank `actualWorkRequired`) wurde in „Frühere Tatsächliche Stunden“ umbenannt. Weitere Informationen finden [ in ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md) Versionshinweisen .
 
 Im Juni 2026 wurden vorhandene benutzerdefinierte Formeln, die `actualWorkRequired` (veraltete tatsächliche Stunden) verwenden, migriert, um stattdessen `actualWorkRequiredDouble` (tatsächliche Stunden) zu verwenden. `actualWorkRequired` können nicht mehr in Berechnungen und Formeln verwendet werden.
 
