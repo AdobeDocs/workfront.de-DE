@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 1c9433c854fe481060358caf3d280492ee71aeb6
+source-git-commit: 5f122486d3d448cfcee066b18fce73c914e47f56
 workflow-type: tm+mt
-source-wordcount: '14214'
+source-wordcount: '14220'
 ht-degree: 94%
 
 ---
@@ -1312,6 +1312,7 @@ ht-degree: 94%
          * [Freigeben von Projektvorlagen](manage-work/projects/create-and-manage-templates/share-project-template.md)
          * [Löschen von Projektvorlagen](manage-work/projects/create-and-manage-templates/delete-templates.md)
          * [Entfernen von Vorlageninformationen aus einem Projekt](manage-work/projects/create-and-manage-templates/remove-template-from-project.md)
+         * [Tarifkarte an eine Vorlage anhängen](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-rate-card-to-template.md)
          * [Überblick über Start- und Fertigstellungstage in einer Vorlage](manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)
          * [Überblick über das Anfügen einer Vorlage an ein Projekt](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
       * Definieren eines Business-Case {#define-business-case}
