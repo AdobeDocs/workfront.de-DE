@@ -6,10 +6,10 @@ description: Sie können die Währungsfelder in einem Arbeitsflächen-Dashboard 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 207c24d3-2b69-4ea3-88d7-716a3cf33dd1
-source-git-commit: 1c9433c854fe481060358caf3d280492ee71aeb6
+source-git-commit: 5610385a6bbbf02965d7ab4a3fecee8e6de5ad91
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 9%
+source-wordcount: '677'
+ht-degree: 7%
 
 ---
 
@@ -25,11 +25,9 @@ ht-degree: 9%
 >* Azure
 >* Google Cloud Platform
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 ## Zugriffsanforderungen
 
@@ -152,13 +150,12 @@ In der folgenden Tabelle sind Einschränkungen aufgeführt, wenn Währungen im B
 <li>Weisen Sie dem Dashboard eine Standardwährung zu (bei der Erstellung oder bei der Bearbeitung des Dashboards)</li>
 <li>Den Umschalter für die Währung auf Dashboard-Ebene anzeigen und verwenden</li>
 <li>Sperren einer bestimmten Währung zur Anzeige in einem Arbeitsflächendiagramm, einem KPI oder einem Tabellenbericht</li>
-<li>Verwenden von Planning-Währungsfeldern in Arbeitsflächendiagrammen, KPIs und Tabellenberichten <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
+<li>Verwenden Sie Planning-Währungsfelder in einem Arbeitsflächendiagramm sowie in KPI- und Tabellenberichten, die in der Produktionsumgebung <span class="preview"> sind. Dies ist in der Vorschau-Umgebung verfügbar.</span></li>
 </ul>
 
-<!--
-<p><b>NOTE</b></p>
-<span class="preview">If a Planning currency field uses a currency without a defined exchange rate, Canvas Dashboard might display an error message when.</span>
--->
+<p><b>NOTIZ</b></p>
+<span class="preview">Wenn ein Feld für die Planning-Währung eine Währung ohne definierten Wechselkurs verwendet, wird im Canvas-Dashboard möglicherweise eine Fehlermeldung angezeigt, wenn.</span>
+
 </td> 
 </tr>
 </td> 
@@ -175,12 +172,12 @@ In der folgenden Tabelle sind Einschränkungen aufgeführt, wenn Währungen im B
 </td>
 <td><ul>
   <li>Verwenden benutzerdefinierter Datenwährungsfelder in Arbeitsflächen-Diagrammen, KPIs und Tabellenberichten</li>
-  <li>Verwenden von Planning-Währungsfeldern in Arbeitsflächendiagrammen, KPIs und Tabellenberichten <!--<span class="preview"> in the Production environment. This is available in the Preview environment.</span>--></li>
+  <li>Verwenden Sie Planning-Währungsfelder in einem Arbeitsflächendiagramm sowie in KPI- und Tabellenberichten, die in der Produktionsumgebung <span class="preview"> sind. Dies ist in der Vorschau-Umgebung verfügbar.</span></li>
 </ul>
 
-<!--
-<p><b>NOTE</b></p>
-<span class="preview">If a Planning currency field uses a currency without a defined exchange rate, Canvas Dashboard might display an error message when.</span>
--->
+
+<p><b>NOTIZ</b></p>
+<span class="preview">Wenn ein Feld für die Planning-Währung eine Währung ohne definierten Wechselkurs verwendet, wird im Canvas-Dashboard möglicherweise eine Fehlermeldung angezeigt, wenn.</span>
+
 </td>
 </tr></table>
