@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 6ac07e6f0d4a8faf7ef61755a4ec335e195a1b51
 workflow-type: tm+mt
-source-wordcount: '2312'
-ht-degree: 15%
+source-wordcount: '2369'
+ht-degree: 17%
 
 ---
 
@@ -18,7 +18,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der für Juli 202
 
 Die Verbesserungen auf dieser Seite sind in der Vorschauumgebung verfügbar. Diese Seite wird mit zusätzlichen Verbesserungen aktualisiert, sobald die geplante Produktionsversion der Version für das dritte Quartal 2026 näher rückt.
 
-Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben die neuen Funktionen hervor und bieten detaillierte Informationen. Um sich zu registrieren, besuchen Sie die [Ereignisseite](https://experienceleague.adobe.com/de/events?filters=Workfront) und filtern Sie nach Workfront.
+Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben die neuen Funktionen hervor und bieten detaillierte Informationen. Um sich zu registrieren, besuchen Sie die [Ereignisseite](https://experienceleague.adobe.com/en/events?filters=Workfront) und filtern Sie nach Workfront.
 
 >[!IMPORTANT]
 >
@@ -44,6 +44,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
 * [Verbesserungen bei Projekten](#project-enhancements)
 * [Verbesserungen beim Reporting](#reporting-enhancements)
 * [Verbesserungen bei Anfragen](#requesting-enhancements)
+* [Verbesserungen beim Ressourcen-Management](#resource-management-enhancements)
 * [Weitere Verbesserungen](#other-enhancements)
 
 ### KI-Verbesserungen
@@ -408,6 +409,28 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
     </tbody>
 </table>
 
+### Verbesserungen beim Ressourcen-Management
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Funktion</strong>
+            </td>
+            <td><strong>Vorschau</strong></td>
+            <td><strong>Schnellveröffentlichung</strong></td>
+            <td><strong>Vierteljährlich</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">Optimierte Massenzuweisungsaktionen im Workload Balancer</a><p>[!BADGE Außerplanmäßig]{type=Neutral}</p>
+                <p>Massenzuweisungen wurden im Workload-Balancer optimiert, indem die Aktionen zum Zuweisen von Benutzern und Ersetzen von Benutzern in der Aktion <strong>Ressource ersetzen</strong> kombiniert wurden.</p>
+            </td>
+            <td><p>19. Juni 2026</p></td>
+            <td><p>19. Juni 2026</p></td>
+            <td><p>19. Juni 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
 ### Weitere Verbesserungen
 
 <table>
@@ -499,7 +522,7 @@ HINWEIS: Der Workfront Planning-Connector für Fusion wurde nicht auf API-Versio
 
 Weitere Informationen finden Sie unter Grundlagen zur Adobe Workfront Planning-API (/help/quicksilver/planning/general/planning-api-basics.md).
 
-Informationen zu den Spezifikationen der Workfront Planning-API finden Sie in der Entwicklerdokumentation zur [Workfront &#x200B;](https://developer.adobe.com/wf-planning/)-API.
+Informationen zu den Spezifikationen der Workfront Planning-API finden Sie in der Entwicklerdokumentation zur [Workfront ](https://developer.adobe.com/wf-planning/)-API.
 
 
 ### Workfront Planning Trial wird geschlossen
@@ -512,7 +535,7 @@ Weitere Informationen finden Sie unter [Erste Schritte mit der kostenlosen Testv
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
