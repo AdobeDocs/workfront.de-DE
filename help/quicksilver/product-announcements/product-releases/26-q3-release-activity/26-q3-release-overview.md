@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 6ac07e6f0d4a8faf7ef61755a4ec335e195a1b51
 workflow-type: tm+mt
-source-wordcount: '2312'
-ht-degree: 15%
+source-wordcount: '2369'
+ht-degree: 17%
 
 ---
 
@@ -44,6 +44,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
 * [Verbesserungen bei Projekten](#project-enhancements)
 * [Verbesserungen beim Reporting](#reporting-enhancements)
 * [Verbesserungen bei Anfragen](#requesting-enhancements)
+* [Verbesserungen beim Ressourcen-Management](#resource-management-enhancements)
 * [Weitere Verbesserungen](#other-enhancements)
 
 ### KI-Verbesserungen
@@ -404,6 +405,28 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             <td><p>23. April 2026</p></td>
             <td><p>23. April 2026</p></td>
             <td><p>23. April 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
+### Verbesserungen beim Ressourcen-Management
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Funktion</strong>
+            </td>
+            <td><strong>Vorschau</strong></td>
+            <td><strong>Schnellveröffentlichung</strong></td>
+            <td><strong>Vierteljährlich</strong></td>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">Optimierte Massenzuweisungsaktionen im Workload Balancer</a><p>[!BADGE Außerplanmäßig]{type=Neutral}</p>
+                <p>Massenzuweisungen wurden im Workload-Balancer optimiert, indem die Aktionen zum Zuweisen von Benutzern und Ersetzen von Benutzern in der Aktion <strong>Ressource ersetzen</strong> kombiniert wurden.</p>
+            </td>
+            <td><p>19. Juni 2026</p></td>
+            <td><p>19. Juni 2026</p></td>
+            <td><p>19. Juni 2026</p></td>
         </tr>
     </tbody>
 </table>

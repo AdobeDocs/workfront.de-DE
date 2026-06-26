@@ -19,10 +19,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 85a374c5168c613625ce154a486aa655c367dfea
 workflow-type: tm+mt
-source-wordcount: 1536
-ht-degree: 4%
+source-wordcount: 1242
+ht-degree: 5%
 
 ---
 
@@ -75,17 +75,16 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 ## Überlegungen zum Erstellen umfangreicher Zuweisungen im Workload Balancer
 
-* Sie können schnell Benutzerzuweisungen für mehrere Aufgaben und Probleme in einem oder mehreren Projekten verwalten. Änderungen an Zuweisungen sind im Workload Balancer sofort sichtbar.
+* Sie können Ressourcenzuweisungen für mehrere Aufgaben und Probleme schnell in einem oder mehreren Projekten verwalten. Änderungen an Zuweisungen sind im Workload Balancer sofort sichtbar.
 * Sie können keine Ressourcen Arbeitselementen zuweisen, die abgeschlossen sind, oder Elementen, die sich in einem abgeschlossenen Projekt befinden.
-* Beim Massenzuweisen von Benutzern haben Sie folgende Möglichkeiten:
+* Beim Massenzuweisen von Aufgabengebieten und Benutzern haben Sie folgende Möglichkeiten:
 
-   * Weisen Sie einen Benutzer allen Arbeitselementen zu, die derzeit einem Aufgabengebiet zugewiesen sind.
-   * Ersetzen von Benutzerzuweisungen zwischen Benutzern.
+   * Ersetzen Sie Zuweisungen zwischen Benutzern und Rollen in allen gültigen Kombinationen.
    * Heben Sie die Zuweisung von Benutzenden zu allen Arbeitselementen auf.
 
 **BEISPIELE**
 
-* Sie sind für die Zuweisung von Benutzerzuweisungen an mehrere neue Projekte verantwortlich. Die Projekte wurden ursprünglich aus Vorlagen erstellt und Aufgabengebiete sind bereits den verschiedenen Aufgaben innerhalb der Projekte zugewiesen. Sie möchten allen Aufgaben, die derzeit einem Aufgabengebiet zugewiesen sind, einen bestimmten Benutzer, Jackie Simms, zuweisen. Sie können die Funktion Zuweisen verwenden, um diese Aufgaben Jackie Simms zuzuweisen.
+* Sie sind für die Zuweisung von Benutzerzuweisungen an mehrere neue Projekte verantwortlich. Die Projekte wurden ursprünglich aus Vorlagen erstellt und Aufgabengebiete sind bereits den verschiedenen Aufgaben innerhalb der Projekte zugewiesen. Sie möchten allen Aufgaben, die derzeit einem Aufgabengebiet zugewiesen sind, einen bestimmten Benutzer, Jackie Simms, zuweisen. Mit der Funktion Ersetzen können Sie Jackie Simms diese Aufgaben zuweisen.
 * Jackie Simms werden 45 Aufgaben in 3 verschiedenen Projekten zugewiesen. Jackie verlässt die Organisation, und jetzt müssen Sie ihre Aufgaben einem anderen Benutzer zuweisen. Mit der Funktion Ersetzen können Sie diese Aufgaben der neuen Person zuweisen.
 * 10 Aufgaben aus 2 verschiedenen Projekten werden einem anderen Benutzer, Rick Kuvec, zugewiesen. Sie erkennen, dass Rick irrtümlich diesen Aufgaben zugewiesen wurde, aber Sie sind sich nicht sicher, wem sie zu diesem Zeitpunkt zugewiesen werden müssen. Sie müssen die Zuweisung von Rick zu allen Aufgaben gleichzeitig aufheben. Mit der Funktion Zuweisung aufheben können Sie Rick aus diesen Aufgaben entfernen.
 
@@ -108,7 +107,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
    >
    >Der Projektname wird beim Zugriff auf den Workload-Balancer für ein Projekt standardmäßig ausgewählt.
 
-   ![Projektname in Massenzuweisungen](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
+   ![Projektname in Massenzuweisungen](assets/project-name-status-dropdown-bulk-assignments-wb.png)
 
 1. (Optional) Klicken Sie auf **Projektaufgaben auswählen** um die Aufgabe(n) auszuwählen, für die Sie Zuweisungen vornehmen möchten, wählen Sie dann im Dropdown-Menü **Aufgabe: Name** die Option Aufgaben nach Name (dies ist die Standardoption) oder Status aus und verwenden Sie die Filtermodifikatoren, um nach bestimmten Aufgaben zu suchen.
 
@@ -118,7 +117,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
    >
    >Sie können keine Aufgaben mit dem Status Abgeschlossen auswählen.
 
-   ![Aufgabenstatus in Massenzuweisungen](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
+   ![Aufgabenstatus in Massenzuweisungen](assets/task-name-status-dropdown-bulk-assignments-wb.png)
 
    >[!TIP]
    >
@@ -132,94 +131,101 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 1. Wählen Sie eine der folgenden Optionen aus und fahren Sie mit den unten beschriebenen Schritten fort:
 
-   * [Benutzer zuweisen](#assign-user)
-   * [Benutzer ersetzen](#replace-user)
-   * [Zuweisung des Benutzers aufheben](#unassign-user)
+   * [Ressource ersetzen](#replace-user)
+   * [Zuweisung der Ressource aufheben](#unassign-user)
 
    >[!TIP]
    >
    >Wenn keine Elemente mit den ausgewählten Filtern übereinstimmen, werden diese Optionen abgeblendet.
 
-### Benutzer zuweisen {#assign-user}
+<!--
 
-Wenn Sie einen Benutzer mithilfe von Massenzuweisungen im Workload Balancer zuweisen, treten folgende Dinge auf:
+### Assign user {#assign-user}
 
-* Ein(e) Benutzende(r) wird allen Arbeitselementen zugewiesen, die derzeit in den ausgewählten Projekten einer bestimmten Rolle zugewiesen sind.
-* Der Benutzer ist den folgenden Arten von Arbeitselementen nicht zugewiesen:
+When you assign a user using Bulk Assignments in the Workload Balancer, the following things occur:
 
-   * Elemente, die bereits einem Benutzer zugewiesen sind.
-   * Abgeschlossene Elemente.
+* A user is assigned to all work items currently assigned to a specified role within the selected projects.
+* The user is not assigned to the following types of work items:
 
-* Wenn der ausgewählte Benutzer nicht mit der angegebenen Rolle verknüpft ist, wird die Rolle durch den Benutzer in der Primären Rolle des Benutzers ersetzt.
+   * Items that are already assigned to a user.
+   * Completed items.
 
-So weisen Sie einen Benutzer Arbeitselementen zu, die zuvor Aufgabengebieten zugewiesen waren:
+* If the user you selected is not associated with the specified role, the role is replaced by the user in the user's Primary Role.
 
-1. Beginnen Sie, wie oben beschrieben, mit der Zuweisung von Arbeitselementen mithilfe von Massenzuweisungen im Workload Balancer und wählen Sie **Zuweisen**.
+To assign a user to work items previously assigned to job roles:
 
-1. Klicken Sie im Feld **Rollenzuweisung** auf den Dropdown-Pfeil, um aus einer Liste von Rollen auszuwählen. Es werden nur Rollen angezeigt, die derzeit innerhalb der angegebenen Projekte zugewiesen sind. Dies ist ein Pflichtfeld.
+1. Start assigning work items using Bulk Assignments in the Workload Balancer as described above and select **Assign**. 
 
-   ![Funktionszuweisung](assets/bulk-assignments-workload-balancer-assign-selected.png)
+1. In the **Role assignment** field, click the drop-down arrow to choose from a list of roles. Only roles currently assigned within the specified projects are displayed. This is a required field. 
 
-1. Klicken Sie im Feld **Zuzuweisender Benutzer** auf den Dropdown-Pfeil, um aus einer Liste empfohlener Benutzer auszuwählen oder den Namen eines anderen Benutzers einzugeben.
+   ![Role assignment](assets/bulk-assignments-workload-balancer-assign-selected.png)
 
-   Wählen Sie Benutzer aus den folgenden Bereichen aus:
+1. In the **User to assign** field, click the drop-down arrow to choose from a list of suggested users or to type another user's name.
 
-   * **Vorgeschlagene Zuweisungen**: Benutzer, die die ausgewählte Rolle erfüllen können und die den Kriterien für intelligente Zuweisungen entsprechen. Weitere Informationen finden Sie unter [Smart Assignments - Übersicht](../../manage-work/tasks/assign-tasks/smart-assignments.md).
-   * **Andere Zuweisungen**: Alle Benutzer im System, die die ausgewählte Rolle erfüllen können.
+   Select users from the following areas:
 
-     >[!TIP]
-     >
-     >Nur die ersten 50 Benutzer werden im Bereich Sonstige Zuweisungen aufgeführt.
+   * **Suggested Assignments**: Users who can fulfill the selected role and who match the criteria for Smart Assignments. For more information, see [Smart assignments overview](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+   * **Other Assignments**: All users in the system who can fulfill the selected role. 
+   
+      >[!TIP]
+      >
+      >Only the first 50 users are listed in the Other Assignments area.
 
 
-   Nach Auswahl eines Benutzers zeigt Workfront einen Hinweis zur Anzahl der Elemente an, denen der angegebene Benutzer zugewiesen wird, und zu dem Aufgabengebiet, das er ersetzen wird.
+   After selecting a user, Workfront displays a note about the number of items where the user you specified will be assigned and what job role they will replace.
 
    >[!TIP]
    >
-   >Alle Rollen des Benutzers werden in der Liste unter dem Namen des Benutzers angezeigt.
+   >All the roles of the user display in the list, under the user's name.
 
 
-1. Klicken Sie **Zuweisen**.
+1. Click **Assign**.
 
-   Die angegebenen Rollen werden durch die von Ihnen ausgewählten Benutzer ersetzt.
+   The specified roles are replaced with the users that you selected.
 
-   Sie erhalten eine Bestätigung darüber, wie viele Arbeitselemente mit der ausgewählten Rolle durch den ausgewählten Benutzer ersetzt wurden.
+   You receive a confirmation about how many work items have had the selected role replaced with the selected user.
 
-   ![Massenzuweisungsbestätigung](assets/bulk-assign-user-confirmation-before-assigning-nwe-350x83.png)
+   ![Bulk assignment confirmation](assets/bulk-assign-user-confirmation-before-assigning-nwe-350x83.png)
 
-### Benutzerin bzw. Benutzer ersetzen {#replace-user}
+-->
 
-Sie können einen Benutzer, der bereits Arbeitselementen zugewiesen ist, in den ausgewählten Projekten durch einen anderen Benutzer ersetzen.
+### Ressource ersetzen {#replace-user}
 
-Wenn Sie einen Benutzer mithilfe von Massenzuweisungen im Workload Balancer durch einen anderen Benutzer ersetzen, treten folgende Dinge auf:
+Sie können eine Ressource, die bereits Arbeitselementen zugeordnet ist, in den ausgewählten Projekten durch eine andere Ressource ersetzen.
 
-* Der Ersatzbenutzer wird allen Arbeitselementen zugewiesen, die derzeit einem ursprünglichen Benutzer in den ausgewählten Projekten zugewiesen sind.
+Der Ressourcenersatz kann wie folgt lauten:
 
-* Der neue Benutzer ist keinem Arbeitselement zugewiesen, das bereits als „Abgeschlossen“ markiert ist.
-* Wenn die mit dem ersten Benutzer verknüpfte Rolle mit keiner der Rollen des zweiten Benutzers übereinstimmt, wird der zweite Benutzer in seiner Primären Rolle zugewiesen.
+* Funktion mit Funktion
+* Benutzer mit Benutzer
+* Benutzer mit Rolle
+* Rolle mit dem Benutzer
 
-So ersetzen Sie einen Benutzer durch einen anderen Benutzer:
+Wenn Sie eine Ressource mithilfe von Massenzuweisungen im Workload Balancer durch eine andere Ressource ersetzen, treten folgende Dinge auf:
 
-1. Weisen Sie Arbeitselemente im Workload Balancer wie oben beschrieben zu und wählen Sie **Ersetzen**.
-1. Klicken Sie im Feld **Aktuell zugewiesener Benutzer** auf den Dropdown-Pfeil, um aus einer Benutzerliste auszuwählen. Es werden nur Benutzende angezeigt, die derzeit unvollständigen Arbeitselementen innerhalb der angegebenen Projekte zugewiesen sind. Dies ist ein Pflichtfeld.
+* Die Ersatzressource wird allen Arbeitselementen zugewiesen, die derzeit in den ausgewählten Projekten der ursprünglichen Ressource zugeordnet sind.
+* Die neue Ressource ist keinem Arbeitselement zugewiesen, das bereits als „Abgeschlossen“ markiert ist.
+* Für die Ersetzung von Benutzer zu Benutzer: Wenn die mit dem ersten Benutzer verknüpfte Rolle mit keiner der Rollen des zweiten Benutzers übereinstimmt, wird der zweite Benutzer in seiner Primären Rolle zugewiesen.
 
-   ![Benutzer ersetzen](assets/bulk-assignments-workload-balancer-replace-selected-350x345.png)
+So ersetzen Sie eine Ressource durch eine andere:
 
-1. Klicken Sie im Feld **Zuzuweisender Benutzer** auf den Dropdown-Pfeil, um aus einer Liste empfohlener Benutzer auszuwählen oder einen anderen Benutzernamen einzugeben. Die in der Liste aufgelisteten Benutzer entsprechen standardmäßig den Kriterien für Smart Assignments. Weitere Informationen finden Sie unter [Smart Assignments - Übersicht](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+1. Wählen Sie Arbeitselemente im Bereich Massenzuweisungen für den Workload-Balancer wie oben beschrieben aus und wählen Sie **Ressource ersetzen**.
+1. Klicken Sie im Feld **Aktuell zugewiesene Ressource** auf den Dropdown-Pfeil, um aus einer Liste von Ressourcen auszuwählen. Nur Ressourcen, die derzeit unvollständigen Arbeitselementen innerhalb der angegebenen Projekte zugewiesen sind, werden angezeigt. Dies ist ein Pflichtfeld.
 
-   Workfront zeigt einen Hinweis zur Anzahl der Elemente an, bei denen der aktuell zugewiesene Benutzer den zweiten Benutzer ersetzt, und zu den Rollen, die er ersetzen wird.
+   ![Ressource ersetzen](assets/bulk-assignments-workload-balancer-replace-selected.png)
 
-   ![Massenaustausch-Benutzerbestätigung](assets/bulk-replace-user-confirmation-before-replacing-nwe-350x49.png)
+1. Klicken Sie im Feld **Zuzuweisende Ressource** auf den Dropdown-Pfeil, um aus einer Liste mit empfohlenen Ressourcen auszuwählen oder ein anderes Aufgabengebiet oder einen anderen Benutzernamen einzugeben. Die als Erstes aufgelisteten Ressourcen entsprechen standardmäßig den Kriterien für Smart Assignments. Weitere Informationen finden Sie unter [Smart Assignments - Übersicht](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+
+   Workfront zeigt einen Hinweis zur Anzahl der Elemente an, bei denen die aktuell zugewiesene Ressource die zweite Ressource ersetzt.
 
 1. Klicken Sie **Ersetzen**.
 
-   Der erste ausgewählte Benutzer wird in allen Arbeitselementen des ausgewählten Projekts durch den zweiten Benutzer ersetzt.
+   Die erste Ressource wird in allen Arbeitselementen des ausgewählten Projekts oder Vorgangs durch die zweite Ressource ersetzt.
 
-   Sie erhalten eine Bestätigung darüber, wie viele Arbeitselemente mit der ursprünglichen Benutzerzuweisung durch den ausgewählten zweiten Benutzer ersetzt wurden.
+   Sie erhalten eine Bestätigung darüber, wie viele Arbeitselemente mit der ursprünglichen Zuweisung durch die ausgewählte zweite Ressource ersetzt wurden.
 
-### Zuweisung des Benutzers aufheben {#unassign-user}
+### Zuweisung der Ressource aufheben {#unassign-user}
 
-Sie können die Zuweisung eines Benutzers für alle Arbeitselemente aufheben, denen der Benutzer in den ausgewählten Projekten zugewiesen ist.
+Sie können die Zuweisung einer Ressource zu allen Arbeitselementen aufheben, denen sie in den ausgewählten Projekten zugewiesen sind.
 
 Wenn Sie die Zuweisung von Benutzenden zu allen Arbeitsaufträgen mithilfe von Massenzuweisungen im Workload Balancer aufheben, treten folgende Dinge auf:
 
@@ -232,15 +238,13 @@ Weitere Informationen zu Benutzer- und Aufgabenrollenzuweisungen finden Sie unte
 
 So heben Sie die Zuweisung eines Benutzers zu Arbeitselementen in den ausgewählten Projekten oder zu den ausgewählten Aufgaben oder Problemen auf, denen er zugewiesen ist:
 
-1. Weisen Sie Arbeitselemente im Workload Balancer wie oben beschrieben zu und wählen Sie **Zuweisung aufheben**.
+1. Wählen Sie Arbeitselemente im Bereich „Massenzuweisungen an den Workload-Balancer“ wie oben beschrieben aus und wählen Sie **Zuweisung der Ressource aufheben**.
 
 1. Klicken Sie **Feld „Zuweisung des** aufheben“ auf den Dropdown-Pfeil, um aus einer Benutzerliste auszuwählen. Nur Benutzer, denen derzeit unvollständige Arbeitselemente innerhalb der angegebenen Projekte zugewiesen sind, werden angezeigt. Dies ist ein Pflichtfeld.
 
-   ![Zuweisung des Benutzers aufheben](assets/bulk-assignments-workload-balancer-unassign-selected-350x318.png)
+   ![Zuweisung des Benutzers aufheben](assets/bulk-assignments-workload-balancer-unassign-selected.png)
 
    Workfront zeigt einen Hinweis zur Anzahl der Elemente an, deren Zuweisung für den aktuell zugewiesenen Benutzer aufgehoben wird.
-
-   ![Bestätigung zum Aufheben der Massenzuweisung](assets/bulk-unassign-user-confirmation-before-assigning-nwe-350x45.png)
 
 1. Klicken Sie **Zuweisung aufheben**.\
    Sie erhalten eine Bestätigung über die Anzahl der Arbeitselemente, aus denen der angegebene Benutzer entfernt wurde.
