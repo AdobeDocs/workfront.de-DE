@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 871bb92456f95b7f70072a072971b5114ad02890
 workflow-type: tm+mt
-source-wordcount: 1057
-ht-degree: 5%
+source-wordcount: 1194
+ht-degree: 6%
 
 ---
 
@@ -29,9 +29,7 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) im Artikel Beta-Übersicht für Canvas-Dashboards befolgen.<br>
->Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kundensupport kontaktieren](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
->Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
+>Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) im Artikel Beta-Übersicht für Arbeitsflächen-Dashboards befolgen.Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kontaktieren des Kunden-Supports](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
 >
 >* Eigene Schlüssel für Amazon Web Services mitbringen
 >* Azure
@@ -186,6 +184,11 @@ In einer Dashboard-Eingabeaufforderung haben Benutzer die Möglichkeit, zusätzl
    1. (Optional) Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-icon.png) und dann auf **Als Standardaufforderungen speichern**.
 
       Der Eingabeaufforderungsfilter wird immer dann angewendet, wenn das Dashboard für alle Benutzer geladen wird, die über die Berechtigung „Anzeigen“ oder eine höhere Berechtigung dafür verfügen.
+
+      >[!TIP]
+      >
+      >Wenn Sie die Eingabeaufforderung nicht erstellt haben und keinen Zugriff auf die zugehörigen Felder haben, werden die Feldnamen nicht angezeigt. Ändern Sie die Eingabeaufforderung, um den Bericht zu füllen.
+
    1. (Bedingt) Wenn Sie auf ein Dashboard mit einer standardmäßig angewendeten Eingabeaufforderung zugreifen, können Sie den Filter ändern und Ihre Änderungen werden als persönliche Voreinstellung gespeichert. Die folgenden Szenarien sind vorhanden:
 
       * Wenn Sie über Verwaltungsberechtigungen für das Dashboard verfügen, klicken Sie auf **Als Standardaufforderungen speichern**, um Ihre Änderungen als Standardfilter zu speichern. Dadurch werden die ursprünglichen Standardwerte ersetzt.
@@ -211,8 +214,7 @@ Alle Benutzer mit Zugriff auf ein Dashboard können eine Dashboard-Eingabeauffor
 
 1. Klicken Sie oben links auf der Detailseite des Dashboards auf **Filter**. Das seitliche Bedienfeld „Filter“ wird geöffnet.
 
-1. Wählen Sie **Abschnitt Datensätze anzeigen, bei denen…** eine Bedingung für eine oder alle angezeigten Eingabeaufforderungen aus. Die Eingabeaufforderung wird angewendet und ein **Dashboard prompt applied**-Tag wird in der Ecke des Berichts-Widgets angezeigt.
-   ![Bedingung auswählen](assets/prompts-list.png)
+1. Wählen Sie **Abschnitt Datensätze anzeigen, bei denen…** eine Bedingung für eine oder alle angezeigten Eingabeaufforderungen aus. Die Eingabeaufforderung wird angewendet und ein **Dashboard prompt applied**-Tag wird in der Ecke des Berichts-Widgets angezeigt.   ![Bedingung auswählen](assets/prompts-list.png)
 
 1. Klicken Sie auf **Schließen**-Symbol ![Schließen](assets/close-icon.png) in der oberen rechten Ecke, um das Bedienfeld auszublenden.
 
