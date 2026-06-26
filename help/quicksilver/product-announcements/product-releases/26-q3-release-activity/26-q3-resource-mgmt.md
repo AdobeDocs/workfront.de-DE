@@ -21,7 +21,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2026 ve
 
 >[!NOTE]
 >
->Vorschau: 19. Juni 2026Produktions-Schnellveröffentlichung: 19. Juni 2026Produktion für alle: 19. Juni 2026Außerplanmäßig]{type=Neutral}
+>Vorschau: 19. Juni 2026Produktions-Schnellveröffentlichung: 19. Juni 2026Produktion für alle: 19. Juni 2026Außerplanmäßig&rbrack;{type=Neutral}
 
 Massenzuweisungen wurden im Workload-Balancer optimiert, indem die Aktionen zum Zuweisen von Benutzern und Ersetzen von Benutzern in der Aktion **Ressource ersetzen** kombiniert wurden.
 
