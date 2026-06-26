@@ -5,7 +5,7 @@ title: Adobe Workfront MCP-Server-Tools
 description: Referenzliste der über den Adobe Workfront MCP-Server verfügbaren Tools, gruppiert nach Workfront-Bereich.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: c9177ff889583b086d94214df0320bcd4daff581
+source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
 workflow-type: tm+mt
 source-wordcount: '1578'
 ht-degree: 6%
@@ -231,4 +231,5 @@ Wir arbeiten daran, dem Workfront MCP-Server in Zukunft die folgenden Tools hinz
 
 * Kommentare
 * Pinnwände
+
 

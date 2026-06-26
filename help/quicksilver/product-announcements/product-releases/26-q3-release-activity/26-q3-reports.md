@@ -4,7 +4,7 @@ description: Verbesserungen bei der Berichterstellung für das dritte Quartal 20
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c1ffa06ddca88f8679cf3886ce5c90f69984f30b
+source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 1%
@@ -64,7 +64,7 @@ Weitere Informationen finden Sie unter [Verwenden von Canvas-Dashboards](/help/q
 >
 >Vorschau: 1. Juni 2026>Produktions-Schnellveröffentlichung: 1. Juni 2026>Produktion für alle: 1. Juni 2026
 
-Im Jahr 2025 wurde der Workfront-Datenbank ein neues Feld „Tatsächliche Stunden“ als `actualWorkRequiredDouble` hinzugefügt und das bestehende Feld „Tatsächliche Stunden“ (in der Datenbank `actualWorkRequired`) wurde in „Frühere Tatsächliche Stunden“ umbenannt. Weitere Informationen finden [&#x200B; in &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md) Versionshinweisen .
+Im Jahr 2025 wurde der Workfront-Datenbank ein neues Feld „Tatsächliche Stunden“ als `actualWorkRequiredDouble` hinzugefügt und das bestehende Feld „Tatsächliche Stunden“ (in der Datenbank `actualWorkRequired`) wurde in „Frühere Tatsächliche Stunden“ umbenannt. Weitere Informationen finden [ in ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md) Versionshinweisen .
 
 Im Juni 2026 wurden vorhandene benutzerdefinierte Formeln, die `actualWorkRequired` (veraltete tatsächliche Stunden) verwenden, migriert, um stattdessen `actualWorkRequiredDouble` (tatsächliche Stunden) zu verwenden. `actualWorkRequired` können nicht mehr in Berechnungen und Formeln verwendet werden.
 
@@ -99,3 +99,4 @@ In Arbeitsflächen-Dashboards werden jetzt Berichtsabfragen strukturiert, um dop
 Zuvor konnte eine Verknüpfung zwischen verwandten Datensätzen übergeordnete Datensätze für jeden verwandten Datensatz einmal wiederholen. Beispielsweise wird in einem Projektbericht nach Aufgaben gefiltert, die einem bestimmten Benutzer zugewiesen sind, jedes Projekt einmal für jede übereinstimmende Aufgabe wiederholt. Ein KPI, der das Projektbudget zusammenfasst, könnte 6.000 Dollar anstelle der korrekten 1.250 Dollar anzeigen.
 
 Die Benutzeroberfläche des Arbeitsflächen-Dashboards wird nicht geändert. Vorhandene Berichte geben nach dieser Version automatisch genaue Daten zurück.
+

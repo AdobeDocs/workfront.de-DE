@@ -6,7 +6,7 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 2b7812d275fd2c5bf0fff8bcd60ca89bafa22def
+source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
 workflow-type: tm+mt
 source-wordcount: '2087'
 ht-degree: 0%
@@ -147,7 +147,7 @@ Version 1 bleibt verfügbar, obwohl wir empfehlen, zur Verwendung von Version 2 
 
 Weitere Informationen finden Sie unter [Grundlagen zur Adobe Workfront Planning-API](/help/quicksilver/planning/general/planning-api-basics.md).
 
-Informationen zu den Spezifikationen der Workfront Planning-API finden Sie in der Entwicklerdokumentation zur [Workfront &#x200B;](https://developer.adobe.com/wf-planning/)-API.
+Informationen zu den Spezifikationen der Workfront Planning-API finden Sie in der Entwicklerdokumentation zur [Workfront ](https://developer.adobe.com/wf-planning/)-API.
 
 ## Berechtigungen für Datensätze erteilen
 
@@ -323,7 +323,7 @@ Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfra
 
 >[!NOTE]
 >
->Vorschau und Produktion für alle Kunden: 14. Mai 2026 >[!BADGE &#x200B; Zeitplan]{type=Neutral}
+>Vorschau und Produktion für alle Kunden: 14. Mai 2026 >[!BADGE  Zeitplan]{type=Neutral}
 
 Für eine bessere Sichtbarkeit bei der Arbeit mit AEM-Inhaltsfragmenten, die mit Workfront Planning-Datensätzen verbunden sind, wurde ein Vorschaufenster hinzugefügt, in dem Informationen zu den Fragmenten in Workfront Planning angezeigt werden.
 
@@ -375,3 +375,4 @@ Weitere Informationen finden Sie unter [Verwalten der Datensatzseite](/help/quic
 Sie können Ihre Informationen jetzt auf der Seite „Mit Projekten verbundene Datensätze“ eines Datensatzes in Workfront Planning gruppieren. Diese Funktion war in diesem Bereich vor dieser Verbesserung nicht vorhanden.
 
 Weitere Informationen finden Sie unter [Verwalten der Listenansicht](/help/quicksilver/planning/views/manage-the-list-view.md).
+

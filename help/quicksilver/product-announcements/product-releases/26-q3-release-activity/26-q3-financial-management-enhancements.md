@@ -4,7 +4,7 @@ description: Verbesserungen beim Finanzmanagement für das dritte Quartal 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e1a56c9dee403c1f0c28d2bf49d4becbaad5d085
+source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
 workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 4%
@@ -47,4 +47,5 @@ Weitere Informationen finden Sie [Tarifkarten verwalten](/help/quicksilver/admin
 
 Nachdem ein Attribut zu einer Rate in Workfront hinzugefügt wurde, können Sie dieses Attribut und seine Filter im Bereich „Setup“ nicht mehr bearbeiten. Dadurch wird die Datenintegrität gewahrt und verhindert, dass Raten versehentlich geändert werden, wenn Attribute aktualisiert werden.
 
-Weitere Informationen finden Sie unter [Definieren von &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+Weitere Informationen finden Sie unter [Definieren von ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+
