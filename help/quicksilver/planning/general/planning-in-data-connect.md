@@ -5,7 +5,7 @@ author: Courtney, Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 871bb92456f95b7f70072a072971b5114ad02890
+source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
 workflow-type: tm+mt
 source-wordcount: '202'
 ht-degree: 7%
@@ -30,4 +30,5 @@ Informationen zum Erstellen eines Leserkontos mit Snowflake und zum Herstellen e
 
 
 Weitere Informationen zum Planen im Datenwörterbuch für Workfront Data Connect finden Sie unter [Datenwörterbuch für Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md).
+
 
