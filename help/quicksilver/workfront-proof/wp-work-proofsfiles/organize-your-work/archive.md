@@ -77,5 +77,5 @@ So heben Sie die Archivierung eines Korrekturabzugs in der Ansicht Archivierte K
 1. Klicken Sie **[!UICONTROL Ansichten]** und anschließend auf **[!UICONTROL Alle Elemente]** > **[!UICONTROL Archivierte Korrekturabzüge]**.
 
 1. Aktivieren Sie das Kontrollkästchen neben den Korrekturabzügen, deren Archivierung Sie aufheben möchten.
-1. Klicken Sie **[!UICONTROL Mehr]** und klicken Sie dann ]**angezeigten Menü auf**[!UICONTROL  Archivierung aufheben“.\
+1. Klicken Sie **[!UICONTROL Mehr]** und klicken Sie dann **angezeigten Menü auf** Archivierung aufheben“.\
    Oben auf der Seite wird eine Meldung angezeigt, die besagt, dass die Archivierung des Korrekturabzugs aufgehoben wird.
