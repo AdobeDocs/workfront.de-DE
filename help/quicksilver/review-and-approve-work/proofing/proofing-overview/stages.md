@@ -2,19 +2,19 @@
 content-type: overview
 product-area: documents
 navigation-topic: proofing-overview
-title: Übersicht über die automatisierten Workflow-Phasen
+title: Überblick über die Phasen des automatisierten Workflows
 description: Die Korrekturabzugsschritte sind Zeitabschnitte, in denen verschiedene Benutzende einen Korrekturabzug überprüfen. Wenn der Korrekturabzug von einem Schritt zum nächsten wechselt, werden die validierungsverantwortlichen Personen von Adobe Workfront benachrichtigt, wenn es Zeit ist, ihn zu bearbeiten.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a03d2cf2-edb3-43b7-a739-32600f2ae2a0
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 0%
+source-wordcount: '404'
+ht-degree: 1%
 
 ---
 
-# Übersicht über die automatisierten Workflow-Phasen
+# Überblick über die Phasen des automatisierten Workflows
 
 Die Korrekturabzugsschritte sind Zeitabschnitte, in denen verschiedene Benutzende einen Korrekturabzug überprüfen. Wenn der Korrekturabzug von einem Schritt zum nächsten wechselt, werden die validierungsverantwortlichen Personen von Adobe Workfront benachrichtigt, wenn es Zeit ist, ihn zu bearbeiten.
 
@@ -49,8 +49,8 @@ Wenn Sie den Validierungsverantwortlichen für einen Korrekturabzug unterschiedl
 
 **Beispiel** Wenn Sie beispielsweise einen Korrekturabzug mit vier Prüfern erstellen:
 
-* Für die Prüfer Olivia und Tony gibt man in einigen Tagen eine Frist von 14:00 Uhr an.
-* Für Aaron und Amy gibt man eine Frist bis 17:00 Uhr ein paar Tage später an.
+* Für die Prüfer Olivia und Tony geben Sie eine Frist von 14:00 in einigen Tagen an.
+* Für Aaron und Amy legen Sie eine Frist von 17 :00 einigen Tagen fest.
 * Für sich selbst gibt es keine Frist.
 
 Das System erstellt einen Schritt für jede dieser drei „Gruppen“ von Validierungsverantwortlichen:

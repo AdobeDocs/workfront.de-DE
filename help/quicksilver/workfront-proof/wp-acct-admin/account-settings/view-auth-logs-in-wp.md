@@ -23,5 +23,4 @@ ht-degree: 0%
 Als [!DNL Workfront Proof] können Sie die Nutzungsinformationen für jeden Benutzer anzeigen, der sich bei [!DNL Workfront Proof] angemeldet hat.
 
 1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL Aktivität]**.
-1. Klicken Sie **[!UICONTROL Dropdown-Menü]** Testsendungen und Medienprotokolle“ auf **[!UICONTROL Authentifizierungsprotokolle]**.
-Der Anmeldeverlauf für jeden Benutzer im System wird angezeigt.
+1. Klicken Sie **[!UICONTROL Dropdown-Menü]** Testsendungen und Medienprotokolle“ auf **[!UICONTROL Authentifizierungsprotokolle]**.Der Anmeldeverlauf für jeden Benutzer im System wird angezeigt.

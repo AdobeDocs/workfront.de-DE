@@ -9,7 +9,7 @@ feature: Workfront Proof, Digital Content and Documents
 exl-id: 66a15edf-8504-471a-a6be-f632760b50ed
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
@@ -77,5 +77,5 @@ So heben Sie die Archivierung eines Korrekturabzugs in der Ansicht Archivierte K
 1. Klicken Sie **[!UICONTROL Ansichten]** und anschließend auf **[!UICONTROL Alle Elemente]** > **[!UICONTROL Archivierte Korrekturabzüge]**.
 
 1. Aktivieren Sie das Kontrollkästchen neben den Korrekturabzügen, deren Archivierung Sie aufheben möchten.
-1. Klicken Sie **[!UICONTROL Mehr]** und klicken Sie dann **angezeigten Menü auf** Archivierung aufheben“.\
+1. Klicken Sie **[!UICONTROL Mehr]** und klicken Sie dann ]**angezeigten Menü auf**[!UICONTROL  Archivierung aufheben“.\
    Oben auf der Seite wird eine Meldung angezeigt, die besagt, dass die Archivierung des Korrekturabzugs aufgehoben wird.

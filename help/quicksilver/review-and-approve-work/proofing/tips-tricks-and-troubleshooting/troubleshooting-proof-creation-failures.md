@@ -8,7 +8,7 @@ description: Der Erstellungsprozess des Korrekturabzugs umfasst sowohl den Impor
 author: Courtney
 source-git-commit: de30bd970bda06c706e5156d5195e8568558e593
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Der Erstellungsprozess des Korrekturabzugs umfasst sowohl den Import als auch di
 
   Dies tritt auf, wenn Sie eine neue Korrekturabzugsversion mit einer Schnellkorrekturmethode erstellen und **Beim Hochladen von Dokumenten automatisch Korrekturabzüge generieren** ausgewählt ist. Die neue Korrekturabzugsversion versucht, die Workflow-Fristen aus dem zuvor generierten Korrekturabzug zu übernehmen. Die Erstellung des Korrekturabzugs schlägt fehl, wenn diese Fristen in der Vergangenheit liegen. Um dies zu beheben, können Sie die Workflow-Fristen für die vorherige Version in der Zukunft festlegen oder eine neue Korrekturabzugsversion erstellen. Wenn Sie eine neue Version erstellen, verwenden Sie **Mehr > Neue Version > Korrekturabzug** und wählen Sie **Workflow-Fristen in der Zukunft** aus.
 
-* Beim Proofing von PDF-Dateien gibt es folgende Gründe für das Fehlschlagen der Erstellung von Korrekturabzügen:
+* Beim Proofing von PDF-Dateien gibt es folgende Gründe, warum die Erstellung von Korrekturabzügen fehlgeschlagen ist:
 
    * Schriftarten und Bilder werden von externen Quellen verknüpft (z. B. aus Ihrem lokalen Dateisystem)
 
