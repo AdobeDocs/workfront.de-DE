@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: c091cec41c202b4684d243014bd0a8ef08a92836
 workflow-type: tm+mt
-source-wordcount: 1135
+source-wordcount: 1090
 ht-degree: 6%
 
 ---
@@ -132,17 +132,15 @@ So planen Sie die Deaktivierung eines Benutzers:
 1. Klicken Sie im linken Bereich des Felds **Benutzer bearbeiten** auf **Ressourcenplanung**.
 1. Klicken Sie **Deaktivierungsdatum festlegen**.
 
-1. Wählen Sie das Datum und die Uhrzeit für das **Deaktivierungsdatum** aus.
+1. Wählen Sie das Datum für das **Deaktivierungsdatum** aus.
 
    >[!NOTE]
    >
-   >* Im Zeitfeld können Sie nur Ganzstundenschritte und nicht Minuten auswählen.
-   >* Wenn Sie eine Uhrzeit für den aktuellen Tag auswählen, der vergangen ist, plant Workfront die Deaktivierung für den folgenden Tag um 12 :00 Uhr.
-   >* Die ausgewählte Zeit entspricht der Zeitzone des Computers des Benutzers, der die Deaktivierung plant.
+   >* Das ausgewählte Datum entspricht der Zeitzone des Computers des Benutzers, der die Deaktivierung plant.
 
 1. Klicken Sie auf **Speichern**.
 
-Der Benutzer wird am ausgewählten Tag irgendwann nach der ausgewählten Zeit deaktiviert. Wenn Sie mehrere Benutzer ausgewählt haben, die stapelweise deaktiviert werden sollen, werden alle ausgewählten Benutzer am ausgewählten Tag irgendwann nach der ausgewählten Zeit deaktiviert.
+Der Benutzer wird um 12:00 :00 am ausgewählten Datum deaktiviert. Wenn Sie mehrere Benutzer ausgewählt haben, die stapelweise deaktiviert werden sollen, werden alle ausgewählten Benutzer am ausgewählten Datum :00 12 Uhr morgens deaktiviert.
 
 Es wird empfohlen, einen Bericht für Benutzer zu erstellen, für die Sie die Deaktivierung geplant haben, um über bevorstehende Deaktivierungen von Benutzern auf dem Laufenden zu bleiben. Es gibt keine Bestätigung, dass die Deaktivierung erfolgt ist, nachdem die Benutzer deaktiviert wurden.
 
