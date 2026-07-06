@@ -11,19 +11,14 @@ exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/zHLRYheTPbZUMzGm93gmS4iL-tbYlV9x3a0rWJq1ozo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c091cec41c202b4684d243014bd0a8ef08a92836
 workflow-type: tm+mt
-source-wordcount: 1135
+source-wordcount: 1090
 ht-degree: 6%
 
 ---
@@ -132,17 +127,15 @@ So planen Sie die Deaktivierung eines Benutzers:
 1. Klicken Sie im linken Bereich des Felds **Benutzer bearbeiten** auf **Ressourcenplanung**.
 1. Klicken Sie **Deaktivierungsdatum festlegen**.
 
-1. Wählen Sie das Datum und die Uhrzeit für das **Deaktivierungsdatum** aus.
+1. Wählen Sie das Datum für das **Deaktivierungsdatum** aus.
 
    >[!NOTE]
    >
-   >* Im Zeitfeld können Sie nur Ganzstundenschritte und nicht Minuten auswählen.
-   >* Wenn Sie eine Uhrzeit für den aktuellen Tag auswählen, der vergangen ist, plant Workfront die Deaktivierung für den folgenden Tag um 12 :00 Uhr.
-   >* Die ausgewählte Zeit entspricht der Zeitzone des Computers des Benutzers, der die Deaktivierung plant.
+   >* Das ausgewählte Datum entspricht der Zeitzone des Computers des Benutzers, der die Deaktivierung plant.
 
 1. Klicken Sie auf **Speichern**.
 
-Der Benutzer wird am ausgewählten Tag irgendwann nach der ausgewählten Zeit deaktiviert. Wenn Sie mehrere Benutzer ausgewählt haben, die stapelweise deaktiviert werden sollen, werden alle ausgewählten Benutzer am ausgewählten Tag irgendwann nach der ausgewählten Zeit deaktiviert.
+Der Benutzer wird um 12:00 :00 am ausgewählten Datum deaktiviert. Wenn Sie mehrere Benutzer ausgewählt haben, die stapelweise deaktiviert werden sollen, werden alle ausgewählten Benutzer am ausgewählten Datum :00 12 Uhr morgens deaktiviert.
 
 Es wird empfohlen, einen Bericht für Benutzer zu erstellen, für die Sie die Deaktivierung geplant haben, um über bevorstehende Deaktivierungen von Benutzern auf dem Laufenden zu bleiben. Es gibt keine Bestätigung, dass die Deaktivierung erfolgt ist, nachdem die Benutzer deaktiviert wurden.
 
@@ -164,7 +157,7 @@ Deactivated users lose access to their assigned Frame.io accounts as well as ass
 Deaktivierte Benutzende verlieren ihre zugewiesene Standard-Proofing-Rolle und ihre Proofing-Lizenz (wenn Sie einen veralteten Workfront Premium-Plan verwenden). Wenn Sie den Benutzer erneut aktivieren möchten, müssen Sie:
 
 * Weisen Sie die Lizenz neu zu (wenn Sie einen alten Workfront Premium-Plan verwenden). Weitere Informationen zu Workfront-Proofing-Plänen finden Sie unter [Zugriff auf die Proofing-Funktionalität in Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
-* Stellen Sie sicher, dass sie die richtige Korrekturabzugsrolle haben. Reaktivierte Korrekturabzugsbenutzende erhalten die Rolle, die als Standard-Korrekturabzugsrolle für neue Benutzende festgelegt ist. Weitere Informationen [&#x200B; Sie unter „Konfigurieren &#x200B;](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) Proofing-Standardrollen“.
+* Stellen Sie sicher, dass sie die richtige Korrekturabzugsrolle haben. Reaktivierte Korrekturabzugsbenutzende erhalten die Rolle, die als Standard-Korrekturabzugsrolle für neue Benutzende festgelegt ist. Weitere Informationen [ Sie unter „Konfigurieren ](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) Proofing-Standardrollen“.
 
 ## Informationen zur Deaktivierung von Workfront-Administratoren und Benutzern von Standard- oder Planlizenzen
 
