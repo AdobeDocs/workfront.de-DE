@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 6e0b4b17c927accc45846dc0affbf7a9425cca80
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 1%
+source-wordcount: '813'
+ht-degree: 3%
 
 ---
 
@@ -18,14 +18,30 @@ Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom 
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2026 verfügbar sind, finden Sie unter [Versionsübersicht für das dritte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+## Parallele Genehmigungspfade jetzt für einheitliche Genehmigungen verfügbar
+
+>[!NOTE]
+>
+>Vorschau: 7. Juli 2026Produktions-Schnellveröffentlichung: 15. Juli 2026Produktion für alle: 16. Juli 2026
+
+Genehmigungs-Workflows für Dokumente unterstützen jetzt parallele Pfade, sodass Teams mehrere unabhängige Überprüfungsspuren gleichzeitig ausführen können. Mit parallelen Pfaden können Sie:
+
+* Konfigurieren von bis zu 30 parallelen Pfaden und 100 Phasen in einer einzigen Genehmigung
+* Führen Sie Prüfspuren unabhängig und parallel mit sequenziellen Phasen innerhalb jedes Pfads aus.
+* Wechseln Sie zwischen einem vereinfachten Standardmodus für einstufige Genehmigungen und einem erweiterten Modus für mehrstufige und mehrpfadige Workflows
+* Wenden Sie dieselbe Konfiguration für parallele Pfade auf wiederverwendbare Genehmigungsvorlagen im Workfront-Setup an
+
+Weitere Informationen finden Sie unter [Erstellen eines Dokumentgenehmigungs-Workflows](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) und [Erstellen einer Genehmigungs-Workflow-Vorlage für Dokumente](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+
 <!--
+
 ## Adobe Cloud Drive
 
 >[!NOTE]
 >
 >Preview: N/A
->Production fast release: June 26, 2026
->Production for everyone: June 26, 2026
+>Production fast release: July 7, 2026
+>Production for everyone: July 7, 2026
 >This feature is only available to organizations on the Workflow Ultimate package, with Adobe cloud storage enabled.
 
 Adobe Cloud Drive is now available to organizations that are on a version of Workfront that supports Adobe cloud storage. Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer, so you can open, edit, and save files in any application directly from Finder or File Explorer. Your changes sync automatically to Adobe cloud storage and are available to your team in Workfront and Frame.io.
@@ -33,13 +49,14 @@ Adobe Cloud Drive is now available to organizations that are on a version of Wor
 For more information, see [Adobe Cloud Drive overview](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
 
 [View a video demonstration of this feature.](https://video.tv.adobe.com/v/3492492){target="_blank"}
+
 -->
 
 ## Anfordern von Genehmigungen zu Adobe Express-Vorlagen mit Workfront und Frame.io
 
 >[!NOTE]
 >
->Vorschau: K. A>Produktion Schnellveröffentlichung: 15. Juni 2026>Produktion für alle: 15. Juni 2026>[!BADGE Aus Zeitplan]{type=Neutral}
+>Vorschau: Nicht zutreffendProduktions-Schnellveröffentlichung: 15. Juni 2026Produktion für alle: 15. Juni 2026Außerplanmäßig&rbrack;{type=Neutral}
 
 Die Integration von Adobe Express und Workfront mit Frame.io ermöglicht die strukturierte Überprüfung und Genehmigung von in Adobe Express erstellten Inhalten. Designer können eine Workflow-Vorlage für Workfront-Genehmigungen einer Express-Vorlage zuordnen, sodass beim Remixen der Vorlage vor der Veröffentlichung automatisch eine Genehmigung erforderlich ist, sodass das Asset durch den vorkonfigurierten Workfront-Workflow und Frame.io-Viewer geleitet wird.
 
@@ -58,7 +75,7 @@ Weitere Informationen finden Sie unter [Erste Schritte mit Adobe Express und Wor
 
 >[!NOTE]
 >
->Vorschau: 2. Juni 2026>Produktions-Schnellveröffentlichung: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 2. Juni 2026Produktions-Schnellveröffentlichung: 11. Juni 2026Produktion für alle: 16. Juli 2026
 
 Sie können jetzt direkt im Bereich Neue Dokumente eine druckbare Zusammenfassung der Genehmigung eines Dokuments öffnen. Diese Funktion steht Organisationen zur Verfügung, die Adobe Cloud-Speicher verwenden.
 
@@ -71,7 +88,7 @@ Weitere Informationen finden Sie unter [Übersicht über Dokumentdetails](/help/
 
 >[!NOTE]
 >
->Vorschau: 28. Mai 2026>Produktions-Schnellversion: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 28. Mai 2026Produktions-Schnellveröffentlichung: 11. Juni 2026Produktion für alle: 16. Juli 2026
 
 Sie können jetzt zu jedem Schritt eines Dokumentgenehmigungs-Workflows eine benutzerdefinierte Nachricht hinzufügen. Die Meldung wird in der E-Mail-Benachrichtigung über die Genehmigung und auf der Registerkarte Genehmigungen in Workfront angezeigt.
 
@@ -87,7 +104,7 @@ Weitere Informationen finden Sie unter [Erstellen eines Dokumentgenehmigungs-Wor
 
 >[!NOTE]
 >
->Vorschau: 14. Mai 2026>Produktions-Schnellversion: 14. Mai 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 14. Mai 2026Produktions-Schnellveröffentlichung: 14. Mai 2026Produktion für alle: 16. Juli 2026
 
 Verknüpfte Assets im Bereich Dokumente zeigen jetzt Statusabzeichen an, die Teams sofortige Einblicke in die Position der einzelnen Assets bieten, ohne Workfront verlassen zu müssen. Assets kann Folgendes anzeigen:
 
@@ -102,7 +119,7 @@ Weitere Informationen zum Genehmigungsstatus finden Sie unter [Erste Schritte mi
 
 >[!NOTE]
 >
->Vorschau: 30. April 2026>Produktions-Schnellversion: 14. Mai 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 30. April 2026Produktions-Schnellveröffentlichung: 14. Mai 2026Produktion für alle: 16. Juli 2026
 
 Die Seite mit den Kundeninformationen im Setup enthält jetzt einen neuen Abschnitt Speicherübersicht mit Nutzungsmetern für den Adobe Cloud-Speicher.
 
