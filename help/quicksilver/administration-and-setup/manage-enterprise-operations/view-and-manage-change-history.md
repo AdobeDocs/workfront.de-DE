@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-locations
 title: Verlauf ändern
-description: Mit dem Änderungsverlauf können Sie ein Änderungsprotokoll für Workfront-Objekte anzeigen
-author: Becky
+description: Mit dem Änderungsverlauf können Sie ein Änderungsprotokoll für Workfront-Objekte anzeigen.
+author: Lisa and Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 44292bc9cf8654d1ecfb398b0f118a6c001f544f
+source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 7%
+source-wordcount: '452'
+ht-degree: 6%
 
 ---
 
@@ -18,10 +18,8 @@ ht-degree: 7%
 
 Sie können den Änderungsverlauf, einschließlich der Auditprotokolle, im Bereich „Änderungsverfolgung“ von Setup einsehen.
 
-* **Auditprotokolle** sind Änderungen, die von Benutzern ausgelöst werden.
-Weitere Informationen zu Auditprotokollen und zum Bereich Auditprotokolle finden Sie unter [Übersicht über Auditprotokolle](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
-* **Konfiguration** zeigt an, welche Felder für die Liste „Änderungsverlauf“ verfolgt werden.
-Die Konfiguration ist derzeit nur als Information verfügbar und kann nicht geändert werden. Die Möglichkeit, zu ändern, welche Felder verfolgt werden, wird in naher Zukunft verfügbar sein.
+* **Auditprotokolle** sind Änderungen, die von Benutzern ausgelöst werden.Weitere Informationen zu Auditprotokollen und zum Bereich Auditprotokolle finden Sie unter [Übersicht über Auditprotokolle](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+* **Konfiguration** zeigt an, welche Felder für die Liste „Änderungsverlauf“ verfolgt werden.Die Konfiguration ist derzeit nur als Information verfügbar und kann nicht geändert werden. Die Möglichkeit, zu ändern, welche Felder verfolgt werden, wird in naher Zukunft verfügbar sein.
 * Mit der Liste „Änderungsverlauf“ können Sie ein Protokoll der Änderungen an Workfront-Objekten anzeigen, einschließlich Attributen wie:
 
    * Objekt
@@ -39,7 +37,7 @@ Die Konfiguration ist derzeit nur als Information verfügbar und kann nicht geä
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] Packstück</td> 
-   <td>Workflow Ultimate</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] Lizenz</td> 
@@ -96,8 +94,8 @@ Die Liste „Änderungsverlauf“ ist eine erweiterte Liste und enthält Filter,
 1. Um nach einem bestimmten Begriff zu suchen, klicken Sie auf die Suchleiste und geben Sie den Begriff ein. Die Ergebnisse werden bei der Eingabe gefiltert.
 1. (Optional) Informationen zum Filtern nach einer Spalte finden Sie unter [Filtern von Elementen in einer erweiterten Liste](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#filter-items-in-an-enhanced-list) im Artikel Verwenden von erweiterten Listen.
 1. (Optional) Informationen zum Ausblenden, Anzeigen oder Neuanordnen von Spalten finden Sie unter [Spalten anpassen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#customize-columns) im Artikel Verwenden von Verbesserungslisten.
-1. Informationen zum Hinzufügen oder Entfernen von Spalten finden [&#x200B; unter „Hinzufügen und Entfernen von Spalten mit &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager) Spaltenmanager“ im Artikel Verwenden von erweiterten Listen.
-1. Informationen zum Anpassen der Zeilenhöhe finden [&#x200B; unter „Ändern der Zeilenhöhe in einer Ansicht](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#change-the-row-height-in-a-view) im Artikel Verwenden von Verbesserungslisten.
+1. Informationen zum Hinzufügen oder Entfernen von Spalten finden [ unter „Hinzufügen und Entfernen von Spalten mit ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager) Spaltenmanager“ im Artikel Verwenden von erweiterten Listen.
+1. Informationen zum Anpassen der Zeilenhöhe finden [ unter „Ändern der Zeilenhöhe in einer Ansicht](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#change-the-row-height-in-a-view) im Artikel Verwenden von Verbesserungslisten.
 
 
 

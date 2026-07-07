@@ -8,27 +8,21 @@ author: Lisa and Courtney
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
 TQID: https://experienceleague.adobe.com/3VM5YoTkx242vVP-xMPVF06pBnnlJ843fXLQv8zW13c
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: c549503a-6440-4802-9525-ceb73a00feff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: c549503a-6440-4802-9525-ceb73a00feffid: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
 workflow-type: tm+mt
-source-wordcount: 466
+source-wordcount: 481
 ht-degree: 1%
 
 ---
 
 # Grundlegendes zur Navigation für einen [!UICONTROL Work]-License-Benutzer
+
+{{highlighted-preview}}
 
 Das [!UICONTROL Hauptmenü] ändert sich mit der Zugriffsebene, die Ihnen von Ihrem [!DNL Adobe Workfront] zugewiesen wurde. Standardmäßig erhalten Sie nur Zugriff auf Bereiche, die Funktionen enthalten, die von Ihrer Zugriffsebene zugelassen sind. Informationen zu den Komponenten des Standard-Layouts jeder Zugriffsebene finden Sie unter [Über das Standard [!DNL Adobe Workfront] Layout](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
@@ -36,9 +30,9 @@ Das [!UICONTROL Hauptmenü] ändert sich mit der Zugriffsebene, die Ihnen von Ih
 
 Als [!UICONTROL Worker] liegt Ihre Hauptverantwortung darin, die Arbeit abzuschließen. Die Bereiche im [!UICONTROL Hauptmenü] die für Sie sichtbar sind, ermöglichen Ihnen dies.
 
-Die folgenden Bereiche sind im Standard-Layout eines -[!UICONTROL &#x200B; enthalten]:
+Die folgenden Bereiche sind im Standard-Layout eines -[!UICONTROL  enthalten]:
 
-* **[!UICONTROL Startseite]**: Hier werden die Ihnen zugewiesenen Aufgaben und Probleme angezeigt. Dies ist die standardmäßige Landingpage für einen Worker. Sie wird jedoch nur dann im [!UICONTROL Hauptmenü“ angezeigt, &#x200B;] ein Workfront-Administrator sie der Layoutvorlage hinzufügt.  Weitere Informationen finden Sie unter [Erste Schritte mit [!UICONTROL Startseite]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+* **[!UICONTROL Startseite]**: Hier werden die Ihnen zugewiesenen Aufgaben und Probleme angezeigt. Dies ist die standardmäßige Landingpage für einen Worker. Sie wird jedoch nur dann im [!UICONTROL Hauptmenü“ angezeigt, ] ein Workfront-Administrator sie der Layoutvorlage hinzufügt.  Weitere Informationen finden Sie unter [Erste Schritte mit [!UICONTROL Startseite]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 * **[!UICONTROL Projekte]**: Hier werden Projekte angezeigt, die für Sie freigegeben wurden. Weitere Informationen finden Sie [Projekte: Artikelindex](../../../manage-work/projects/projects-overview.md).
 
@@ -66,6 +60,10 @@ Die folgenden Bereiche sind im Standard-Layout eines -[!UICONTROL &#x200B; entha
 
 * **[!UICONTROL Pinnwände]**: Arbeiten Sie flexibel und gemeinsam mit Ihren Team-Mitgliedern, indem Sie freigegebene Pinnwände verwenden, die Spalten und Karten enthalten, die die Arbeit widerspiegeln, die Sie erledigen möchten. Weitere Informationen finden Sie [Erste Schritte mit Pinnwänden: Artikelindex](../../../agile/get-started-with-boards/get-started-with-boards.md).
 
+<span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
+![Hauptmenü des Sekundärs](assets/worker-main-menu-070626.png)
+
+Beispielbild in der Produktionsumgebung:
 ![Hauptmenü des Sekundärs](assets/worker-main-menu-2026.png)
 
 ## Anpassen des Standardmenüs [!UICONTROL Hauptmenü]
