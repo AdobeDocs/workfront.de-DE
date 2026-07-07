@@ -20,14 +20,16 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: e3c91351ad38d0585747df4adfd8818dfcea3530
 workflow-type: tm+mt
-source-wordcount: 3556
+source-wordcount: 3610
 ht-degree: 2%
 
 ---
 
 # Hinzufügen von Logikregeln zu benutzerdefinierten Formularen und Feldern
+
+{{highlighted-preview}}
 
 Mit logischen Regeln können Sie die Felder in Ihrem Formular weiter anpassen.
 
@@ -95,8 +97,7 @@ Wählen Sie nur zur Anzeige und zum Überspringen der Logik ein Feld aus, um die
 
 ## Überlegungen zur Verwendung der Anzeigelogik und zum Überspringen der Logik
 
-* Um Anzeigelogik zu einem benutzerdefinierten Feld, Widget oder Abschnittsumbruch hinzuzufügen, muss mindestens ein Multiple-Choice-Feld (Optionsfelder, Dropdown-Listen oder Kontrollkästchen) vor dem Feld im Formular positioniert werden.
-Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+* Um Anzeigelogik zu einem benutzerdefinierten Feld, Widget oder Abschnittsumbruch hinzuzufügen, muss mindestens ein Multiple-Choice-Feld (Optionsfelder, Dropdown-Listen oder Kontrollkästchen) vor dem Feld im Formular positioniert werden.Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * Sie können keine Logik zum Überspringen zu einem Widget oder Abschnittsumbruch hinzufügen. Sie können sie nur einem Multiple-Choice-Feld hinzufügen (Optionsschaltflächen, Dropdown-Liste oder Kontrollkästchen).
 * Es ist nicht möglich, eine Logik zum Anzeigen oder Überspringen anzuwenden, um die Auswahl eines Felds mit mehreren Optionen ein- oder auszublenden. Sie können beispielsweise die Auswahl, die für ein Dropdown-Feld, eine Kontrollkästchen-Gruppe oder ein Optionsfeld angezeigt wird, nicht auf der Grundlage der Anzeige- oder Überspringen-Logik eines anderen Felds einschränken.
 * Sie können sowohl Anzeigelogik als auch Überspringen-Logik zu einem benutzerdefinierten Feld hinzufügen, wenn Folgendes für das benutzerdefinierte Feld zutrifft:
@@ -238,7 +239,7 @@ Die Überspringen-Logik definiert benutzerdefinierte Formularfelder, die übersp
 
 Mit der Standardwertlogik können Sie Standardwerte für benutzerdefinierte Formularfelder mithilfe von Formeln konfigurieren. Der Standardwert wird angezeigt, wenn die definierten Bedingungen erfüllt sind. Ein Standardwert kann ein statischer Wert oder ein dynamischer Wert sein, der auf andere Felder innerhalb des -Objekts verweist. Obwohl der Standardwert auf andere Felder verweisen kann, ändert er sich nicht, wenn andere Felder im Formular geändert werden.
 
-Sie können eine erweiterte Standardwertlogik auf die folgenden Feldtypen anwenden: Einzelzeilentext, Absatz, Dropdown-Liste mit Einzelauswahl, Dropdown-Liste mit Mehrfachauswahl, externe Suche, externe Suche mit Mehrfachauswahl. Nativer Feldverweis, automatische Textvervollständigung, Kontrollkästchen-Gruppe und Optionsfelder.
+Sie können eine erweiterte Standardwertlogik auf die folgenden Feldtypen anwenden: Einzelzeilentext, Absatz, Einzelauswahl-Dropdown, Mehrfachauswahl-Dropdown, externe Suche, Mehrfachauswahl-externe Suche, <span class="preview">native Feldreferenz</span>, automatische Textvervollständigung, Kontrollkästchen-Gruppe und Optionsfelder.
 
 >[!TIP]
 >
@@ -247,6 +248,8 @@ Sie können eine erweiterte Standardwertlogik auf die folgenden Feldtypen anwend
 >[!NOTE]
 >
 >Die Standardwertlogik im Formular-Designer ist weiterhin vorhanden. Wenn beide Typen auf dasselbe Feld angewendet werden, hat die erweiterte Logik Vorrang. Informationen zur standardmäßigen Standardwertlogik finden Sie unter [Hinzufügen von Optionsschaltflächen, Kontrollkästchen und Dropdown](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs) in [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+>
+><span class="preview">Bei nativen Referenzfeldern ist die Standardwertlogik nur in der Benutzeroberfläche und nicht in der Workfront-API verfügbar.</span>
 
 ### Beispiel
 
