@@ -14,10 +14,10 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 1c9433c854fe481060358caf3d280492ee71aeb6
+source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
 workflow-type: tm+mt
-source-wordcount: 193
-ht-degree: 53%
+source-wordcount: 187
+ht-degree: 55%
 
 ---
 
@@ -39,6 +39,5 @@ Lesen Sie die folgenden Artikel:
 * [Adobe Workfront Planning - Implementierungsempfehlungen](/help/quicksilver/planning/general/planning-best-practices.md)
 * [Erste Schritte mit Adobe Workfront Planning Designer](/help/quicksilver/planning/general/planning-ai-designer.md)
 * [Erste Schritte mit der kostenlosen Testversion von Adobe Workfront-Planung](/help/quicksilver/planning/general/trial-workfront-planning.md)
-* [Workfront-Planungsinformationen in Berichten anzeigen](/help/quicksilver/planning/general/planning-information-in-reports.md)
 
 

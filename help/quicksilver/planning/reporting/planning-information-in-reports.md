@@ -5,10 +5,10 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
+source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 25%
+source-wordcount: '256'
+ht-degree: 23%
 
 ---
 
@@ -19,12 +19,11 @@ Sie können Adobe Workfront-Planungsinformationen in Berichten anzeigen, wenn Si
 
 >[!IMPORTANT]
 >
->Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen.
->Die Beta-Version ist bei den folgenden Cloud-Anbietern nicht verfügbar:
+>Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen.Die Beta-Version ist bei den folgenden Cloud-Anbietern nicht verfügbar:
 >
 >* Eigene Schlüssel für Amazon Web Services mitbringen
 >* Azure
->* Google Cloud Platform>  Weitere Informationen finden Sie unter [Verwalten von Canvas-Dashboards: Artikelindex](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md).
+>* Google Cloud PlatformWeitere Informationen finden Sie unter [Verwalten von Canvas-Dashboards: Artikel-Index](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md).
 
 ## Zugriffsanforderungen
 
@@ -73,6 +72,7 @@ Wenn Sie die Betaversion des Arbeitsflächen-Dashboards verwenden, können Sie B
 
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
+* [Überblick über Arbeitsflächen-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
 * [Erstellen eines Tabellenberichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
 * [Erstellen eines KPI-Berichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
 * [Erstellen eines KPI-Berichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)

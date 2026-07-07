@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
 workflow-type: tm+mt
-source-wordcount: 388
-ht-degree: 12%
+source-wordcount: 425
+ht-degree: 11%
 
 ---
 
@@ -81,7 +81,8 @@ Die in der folgenden Tabelle aufgeführten Benachrichtigungen informieren Sie ü
 
 >[!NOTE]
 >
->Sofortige Benachrichtigungen für [!DNL Goals] sind standardmäßig deaktiviert. Sie können keine täglichen Benachrichtigungen aktivieren oder deaktivieren und Sie erhalten auch keine täglichen Auswahl-E-Mails für die Ereignisse in dieser Kategorie. Sie können einzelne Sofortbenachrichtigungen für die Kategorie [!DNL Goals] aktivieren oder deaktivieren.
+>* Sofortige Benachrichtigungen für [!DNL Goals] sind standardmäßig deaktiviert. Sie können keine täglichen Benachrichtigungen aktivieren oder deaktivieren und Sie erhalten auch keine täglichen Auswahl-E-Mails für die Ereignisse in dieser Kategorie. Sie können einzelne Sofortbenachrichtigungen für die Kategorie [!DNL Goals] aktivieren oder deaktivieren.
+>* Sie können weiterhin E-Mails zu Zielaktualisierungen erhalten, auch wenn Sie auf Ihrer Zugriffsebene keinen Zugriff auf Ziele haben, Ihnen aber jemand ein Ziel, ein Ergebnis oder eine Aktivität oder Kommentare zu einem Ziel zuweist, das Ihnen zugewiesen wurde.
 
 Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notifications/event-notifications.md).
 
