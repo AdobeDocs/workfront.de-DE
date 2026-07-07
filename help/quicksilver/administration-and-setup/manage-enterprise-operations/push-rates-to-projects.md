@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c38e60dd-7fb2-4afc-976a-b0966398c162
-source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
+source-git-commit: d645aeb9d2d49432b49b6f2e2c4748f50075c42b
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 10%
+source-wordcount: '305'
+ht-degree: 9%
 
 ---
 
@@ -67,6 +67,10 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
    <!--/staffing plans-->
    <!--and staffing plans -->
    <!--or staffing plan -->
+
+   >[!NOTE]
+   >
+   >Im Dialogfeld werden nur Projekte mit veralteten Tarifen angezeigt. Wenn ein Projekt diese Tarifkarte verwendet und die Preise für das Projekt aktuell sind, wird sie nicht angezeigt.
 
 1. Klicken Sie auf [!UICONTROL **Speichern**].
 
