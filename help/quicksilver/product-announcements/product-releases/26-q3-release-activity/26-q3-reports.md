@@ -4,9 +4,9 @@ description: Verbesserungen bei der Berichterstellung für das dritte Quartal 20
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 0c7265c477030137d14e95f42eaf67580589d70b
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '1047'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,38 @@ Auf dieser Seite werden die Verbesserungen beim Reporting in der Vorschau-Umgebu
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2026 verfügbar sind, finden Sie unter [Versionsübersicht für das dritte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+## Automatisierte Zugriffssteuerung für Workfront Planning in Snowflake
+
+>[!NOTE]
+>
+>Vorschau und Produktion für alle Kunden: 16. Juli 2026Außerplanmäßig]{type=Neutral}
+
+Diese Version führt eine automatisierte, berechtigungsgesteuerte Zugriffsverwaltung für Workfront Planning-Daten in Snowflake als Teil von Workfront Data Connect ein.
+Zunächst wird die sichere Ansichtserstellung auf Planungstabellen ausgeweitet, um die erforderliche Grundlage für die nachgelagerte Zugriffskontrolle zu schaffen und berechtigungsbasierte Gewährungen zu ermöglichen.Darauf aufbauend überprüft die Bereitstellung des Leserkontos jetzt die TMS-Berechtigungen zum Zeitpunkt der Erstellung und wendet Zuschüsse automatisch an die Planning-Datenbank an bzw. verweigert sie, um sicherzustellen, dass sie korrekt sind.
+Vor dieser Verbesserung war dies nur für Workfront verfügbar.
+Das Update umfasst die folgenden Funktionen: 
+
+* Ein automatisierter täglicher Vorgang erkennt Berechtigungsänderungen für Bestandskunden
+* Der neue Auftrag gewährt, widerruft oder behält den Zugriff basierend auf Berechtigungen
+* Vollständige Lebenszyklusabdeckung für die Bereitstellung, Kontoerstellung und laufende Berechtigungsänderungen.
+
+Der Artikel [Workfront Data Connect-Datenwörterbuch](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md) wird nach dem Veröffentlichungsdatum aktualisiert.
+
+## Hinzufügen benutzerdefinierter Datenunterstützung für neue Objekte
+
+>[!NOTE]
+>
+>Vorschau und Produktion für alle Kunden: 7. Juli 2026Außerplanmäßig]{type=Neutral}
+
+Im zweiten Quartal 2026 haben wir neue Objekte hinzugefügt, um die Verbesserungen an den Unternehmensabläufen in Workfront zu unterstützen.Mit der aktuellen Version fügen wir auch benutzerdefinierte Datenunterstützung für mehrere neue Objekte im Arbeitsflächen-Dashboard hinzu.
+
+Weitere Informationen finden Sie unter [Übersicht über das Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+
 ## Standardeinstellungen für Canvas-Dashboard-Eingabeaufforderung und Persistenz der Benutzereinstellungen
 
 >[!NOTE]
 >
->Vorschau: 25. Juni 2026>Produktions-Schnellversion: 15. Juli 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 25. Juni 2026Produktions-Schnellveröffentlichung: 15. Juli 2026Produktion für alle: 16. Juli 2026
 
 Um die Effizienz für Benutzer zu verbessern, die zwischen Dashboards und Datensätzen wechseln, indem ihr Arbeitsfilterstatus beibehalten wird, können Dashboard-Manager jetzt standardmäßige Eingabeaufforderungswerte für Arbeitsflächen-Dashboards definieren. Diese Standardeinstellungen werden automatisch auf alle Dashboard-Viewer angewendet.
 
@@ -37,7 +64,7 @@ Weitere Informationen finden Sie unter [Dashboard einer Arbeitsfläche filtern](
 
 >[!NOTE]
 >
->Vorschau: Nicht verfügbar>Produktions-Schnellveröffentlichung: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: Nicht zutreffendProduktions-Schnellveröffentlichung: 11. Juni 2026Produktion für alle: 16. Juli 2026
 
 Workfront-Admins, die Microsoft Power BI mit Workfront Data Connect verbinden, können jetzt in einem einzigen Schritt den Satz von Azure-IP-Adressbereichen einer gesamten Region zur -Zulassungsliste hinzufügen. Auf der Registerkarte **IP** in **Data Connect** enthält die Schaltfläche **Neue IP-Adresse** jetzt die Option **Power BI-IP-Adressblöcke hinzufügen**, mit der Sie ein Dialogfeld öffnen können, in das Sie Power BI-Service-Tag-Einträge aus den von Microsoft veröffentlichten Azure-IP-Bereichen und der Service-Tags-JSON-Datei einfügen können.
 
@@ -50,7 +77,7 @@ Weitere Informationen finden Sie unter [Herstellen einer Verbindung mit Workfron
 
 >[!NOTE]
 >
->Vorschau: 11. Juni 2026>Produktions-Schnellversion: 15. Juli 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 11. Juni 2026Produktions-Schnellveröffentlichung: 15. Juli 2026Produktion für alle: 16. Juli 2026
 >
 >Canvas Dashboards befindet sich derzeit in der Beta-Phase.
 
@@ -62,9 +89,9 @@ Weitere Informationen finden Sie unter [Verwenden von Canvas-Dashboards](/help/q
 
 >[!NOTE]
 >
->Vorschau: 1. Juni 2026>Produktions-Schnellveröffentlichung: 1. Juni 2026>Produktion für alle: 1. Juni 2026
+>Vorschau: 1. Juni 2026Produktions-Schnellveröffentlichung: 1. Juni 2026Produktion für alle: 1. Juni 2026
 
-Im Jahr 2025 wurde der Workfront-Datenbank ein neues Feld „Tatsächliche Stunden“ als `actualWorkRequiredDouble` hinzugefügt und das bestehende Feld „Tatsächliche Stunden“ (in der Datenbank `actualWorkRequired`) wurde in „Frühere Tatsächliche Stunden“ umbenannt. Weitere Informationen finden [&#x200B; in &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md) Versionshinweisen .
+Im Jahr 2025 wurde der Workfront-Datenbank ein neues Feld „Tatsächliche Stunden“ als `actualWorkRequiredDouble` hinzugefügt und das bestehende Feld „Tatsächliche Stunden“ (in der Datenbank `actualWorkRequired`) wurde in „Frühere Tatsächliche Stunden“ umbenannt. Weitere Informationen finden [ in ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md) Versionshinweisen .
 
 Im Juni 2026 wurden vorhandene benutzerdefinierte Formeln, die `actualWorkRequired` (veraltete tatsächliche Stunden) verwenden, migriert, um stattdessen `actualWorkRequiredDouble` (tatsächliche Stunden) zu verwenden. `actualWorkRequired` können nicht mehr in Berechnungen und Formeln verwendet werden.
 
@@ -78,7 +105,7 @@ Weitere Informationen zu den tatsächlichen Stunden finden Sie unter [Tatsächli
 
 >[!NOTE]
 >
->Vorschau: 28. Mai 2026>Produktions-Schnellversion: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 28. Mai 2026Produktions-Schnellveröffentlichung: 11. Juni 2026Produktion für alle: 16. Juli 2026
 
 Arbeitsflächen-Dashboard-Berichte unterstützen jetzt benutzerdefinierte Währungsdatenfelder als Spalten, Filter, Gruppierungen und Aggregationen, auch wenn im System-Setup mehrere Wechselkurse konfiguriert sind. Wenn ein benutzerdefiniertes Währungsdatenfeld als Spalte oder Aggregation angezeigt wird, konvertieren Sie Werte in die Währung, die im Umschalter Wechselkurs des Dashboards ausgewählt ist, es sei denn, das Feld ist auf Berichtsebene gesperrt.
 
@@ -90,7 +117,7 @@ Weitere Informationen finden Sie unter [Verwenden von Währungsfeldern in Arbeit
 
 >[!NOTE]
 >
->Vorschau: 14. Mai 2026>Produktions-Schnellversion: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 14. Mai 2026Produktions-Schnellveröffentlichung: 11. Juni 2026Produktion für alle: 16. Juli 2026
 >
 >Canvas Dashboards befindet sich derzeit in der Beta-Phase.
 

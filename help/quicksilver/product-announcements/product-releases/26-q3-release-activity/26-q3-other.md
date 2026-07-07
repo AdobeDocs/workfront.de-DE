@@ -4,10 +4,10 @@ description: Weitere Verbesserungen im Zeitraum der Veröffentlichung im dritten
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b05cd2638ac0d35a0debb862d73dc8bee0cdb794
+source-git-commit: 69e4091dcb139d4a11dad768fe78cb8e75721f3f
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 3%
+source-wordcount: '481'
+ht-degree: 2%
 
 ---
 
@@ -17,6 +17,15 @@ Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom 
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2026 verfügbar sind, finden Sie unter [Versionsübersicht für das dritte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
+## Aktualisierung der Benutzeroberfläche für Symbole der globalen Navigation
+
+>[!NOTE]
+>
+>Vorschau: 7. Juli 2026Produktions-Schnellveröffentlichung: 15. Juli 2026Produktion für alle: 16. Juli 2026
+
+Das Erscheinungsbild allgemeiner Navigationssymbole in Workfront, einschließlich des Hauptmenüs und der Navigationsleistensymbole, wurde aktualisiert, um ein modernes Design und ein konsistentes Erlebnis mit anderen Adobe-Anwendungen zu bieten. Außerdem wurde das Hinzufügen und Entfernen angehefteter Seiten optimiert, sodass weniger Klicks erforderlich sind.
+
+Weitere Informationen finden Sie unter [Übersicht über die obere Navigationsleiste](/help/quicksilver/workfront-basics/the-new-workfront-experience/global-navigation-overview.md) und [Seiten anheften](/help/quicksilver/workfront-basics/the-new-workfront-experience/pin-pages.md).
 
 ## Aktualisiertes Erscheinungsbild für E-Mails mit Kommentarbenachrichtigungen
 
@@ -42,7 +51,7 @@ Diese Änderung wird in Phasen an Kunden ausgerollt. Diese Seite wird aktualisie
 
 >[!NOTE]
 >
->Vorschau: 28. Mai 2026>Produktions-Schnellversion: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 28. Mai 2026Produktions-Schnellveröffentlichung: 11. Juni 2026Produktion für alle: 16. Juli 2026
 
 Mehrere Feldtypen in erweiterten Listen wurden aktualisiert, um die Tastaturnavigation und andere Verbesserungen einzuschließen.
 
