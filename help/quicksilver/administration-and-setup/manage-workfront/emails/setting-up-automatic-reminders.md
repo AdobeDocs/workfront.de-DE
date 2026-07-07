@@ -19,10 +19,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f283a5f64062e5878373527de46b0d993b545ba7
 workflow-type: tm+mt
-source-wordcount: 627
-ht-degree: 8%
+source-wordcount: 836
+ht-degree: 6%
 
 ---
 
@@ -30,9 +30,11 @@ ht-degree: 8%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-Als Adobe Workfront-Administrator können Sie automatische Erinnerungen einrichten, um E-Mail-Benachrichtigungen an Trigger zu senden, wenn alle Aufgaben oder Probleme fällig sind, sich verspäten oder fast zum geplanten Abschlussdatum liegen. Nach der Konfiguration dieser Einstellungen können Benutzer die automatischen Erinnerungen nicht mehr deaktivieren.
+Als Adobe Workfront-Administrator können Sie automatische Erinnerungen einrichten, um E-Mail-Benachrichtigungen an Trigger zu senden, wenn alle Aufgaben, Probleme oder anderen zugewiesenen Arbeitselemente fällig oder verspätet sind oder sich am geplanten Abschlussdatum befinden.
 
-Bei verspäteten Benachrichtigungen wird die E-Mail jede Nacht gesendet, bis die Aufgabe oder das Problem abgeschlossen ist.
+Nach der Konfiguration dieser Einstellungen können Benutzer die automatischen Erinnerungen nicht mehr deaktivieren. Automatische Erinnerungen werden unabhängig von den Benachrichtigungseinstellungen eines Benutzers im Bereich Meine Einstellungen gesendet.
+
+Bei verspäteten Benachrichtigungen wird die E-Mail jede Nacht gesendet, bis die Aufgabe oder das Problem abgeschlossen ist. Das bedeutet, dass der/die Benutzende jeden Tag eine Benachrichtigung erhält, solange die Aufgabe oder das Problem nicht abgeschlossen ist.
 
 Eine automatische Erinnerung kann an eine oder mehrere der folgenden Adressen gesendet werden:
 
@@ -72,6 +74,25 @@ Eine automatische Erinnerung kann an eine oder mehrere der folgenden Adressen ge
 Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
+
+## Details der automatischen Erinnerungsfunktion
+
+### Unterschied zu anderen Erinnerungsarten
+
+Automatische Erinnerungen sind die Erinnerungsfunktion auf Einrichtungsebene für Workfront-Aufgaben und -Probleme und sind von der Erinnerungsfunktion auf Objektebene getrennt. Informationen zum Unterschied zwischen automatischen Erinnerungen und Erinnerungsbenachrichtigungen finden Sie unter [Automatische Erinnerungen vs. Erinnerungsbenachrichtigungen](/help/quicksilver/administration-and-setup/tips-tricks-and-troubleshooting/auto-reminders-vs-reminder-notifications.md).
+
+Korrekturabzugs- und Korrekturabzugsentscheidungen werden auch nicht durch automatische Erinnerungen verarbeitet und folgen einem separaten Erinnerungsvorgang. Weitere Informationen zu Proofing und Erinnerungen an Korrekturabzugsentscheidungen finden Sie in den Artikeln unter [Benachrichtigungen und Erinnerungen zu Korrekturabzügen](/help/quicksilver/workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md).
+
+## Überlegungen zur Verwendung automatischer Erinnerungen
+
+Beachten Sie bei der Verwendung automatischer Erinnerungen Folgendes:
+
+* Überfällige E-Mails werden als eine Auswahl-E-Mail pro Empfänger und Tag und nicht als separate E-Mails pro Element gesendet.
+* Das Aktivieren automatischer Erinnerungen kann dazu führen, dass Probleme oder Aufgaben, die bereits überfällig sind, in der nächsten überfälligen Auswahl-E-Mail angezeigt werden, unabhängig davon, wie lange das Element überfällig ist.
+* Erinnerungen gelten nur für Projekte mit dem Status „Aktuell/Aktiv“.
+* „Tage“ bei der automatischen Erinnerungseinrichtung beziehen sich auf planbare Geschäftstage, nicht auf verstrichene Tage oder Kalenderzeiten.
+
+
 
 ## Einrichten automatischer Erinnerungen
 
