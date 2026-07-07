@@ -9,19 +9,14 @@ exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LLfVzbK4pCfwB24Hbf9hx0m-xKMVwuDGBP1l-Kxy6Oo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
 workflow-type: tm+mt
-source-wordcount: 4179
+source-wordcount: 4341
 ht-degree: 3%
 
 ---
@@ -268,7 +263,7 @@ So verwalten Sie eine Zeitleisten -Ansicht:
 1. Aktualisieren Sie die folgenden Ansichtselemente wie in den folgenden Unterabschnitten beschrieben:
    * [Filter](#add-filters)
    * [Gruppierung](#add-grouping)
-   * [Einstellungen](#edit-the-timeline-view-settings)
+   * [Einstellungen
      <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
 
 ### Filter hinzufügen
@@ -378,12 +373,11 @@ So fügen Sie einen Filter zu einer Zeitleisten -Ansicht hinzu:
 1. Klicken Sie links auf die folgenden Operatoren, um anzugeben, wie die Filterbedingungen verbunden werden und angewendet werden sollen:
 
    * **AND**: Alle angegebenen Bedingungen müssen erfüllt sein.
-   * **OR**: Jede der angegebenen Bedingungen muss erfüllt sein.
-Dies ist die Standardoption.
+   * **OR**: Jede der angegebenen Bedingungen muss erfüllt sein.Dies ist die Standardoption.
 
 1. (Optional) Fügen Sie zusätzliche Filtergruppierungen hinzu und verbinden Sie sie mit den Operatoren **AND** oder **OR**.
 
-   Die Liste der Datensätze wird automatisch anhand Ihrer Filterkriterien gefiltert.  <!--at this time, you can't name and save the filter - but will this change?!-->
+   Die Liste der Datensätze wird automatisch anhand Ihrer Filterkriterien gefiltert.  
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. (Optional) Klicken Sie auf das Symbol **x**, um eine Filterbedingung zu entfernen.
@@ -406,8 +400,7 @@ Beim Anwenden einer Gruppierung auf eine Ansicht können Sie Datensätze anhand 
 Beachten Sie beim Arbeiten mit Gruppierungen in der Zeitleisten -Ansicht Folgendes:
 
 * Sie können Gruppierungen sowohl in der Tabellen- als auch in der Zeitleisten-Ansicht anwenden. Die Gruppierungen der Tabellenansicht sind unabhängig von denen in der Zeitleisten -Ansicht desselben Datensatztyps.
-* Sie können in einer Ansicht drei Gruppierungsebenen anwenden. Die Datensätze werden in der Reihenfolge der ausgewählten Gruppierungen gruppiert.
-&lt;!—* Bei Verwendung der API können bis zu 4 Gruppierungsebenen angewendet werden. —Diese werden vorerst überprüft—>
+* Sie können in einer Ansicht drei Gruppierungsebenen anwenden. Die Datensätze werden in der Reihenfolge der ausgewählten Gruppierungen gruppiert.&lt;!—!—* Bei Verwendung der API können Sie bis zu 4 Gruppierungsebenen anwenden. —Diese wird vorerst überprüft—>
 * Die Gruppierungen sind für die ausgewählte Ansicht eindeutig. Auf zwei Tabellenansichten desselben Datensatztyps können unterschiedliche Gruppierungen angewendet werden. Zwei Benutzende, die dieselbe Tabellenansicht betrachten, sehen dieselbe Gruppierung, die derzeit angewendet wird.
 * Die von Ihnen erstellten Gruppierungen können nicht für eine Tabellenansicht benannt werden.
 * Das Entfernen von Gruppierungen entfernt sie von allen Benutzern, die auf denselben Datensatztyp zugreifen wie Sie und die dieselbe Ansicht anzeigen wie Sie.
@@ -445,6 +438,17 @@ So fügen Sie eine Gruppierung in der Zeitleisten -Ansicht hinzu:
 
 1. Ziehen Sie **Feld Datensätze gruppieren nach** Gruppierungen in die richtige Reihenfolge.
 
+1. <span class="preview"> Wählen Sie im **Layout** des Felds **Datensätze gruppieren nach** eine der folgenden Optionen aus:</span>
+
+   <div class="preview">
+
+   * **Gestapelt**: Gruppierungen werden ohne eingefrorene linke Spalte angezeigt und entsprechen der Breite der Timelines ihrer Elemente.
+
+     ![Gestapelte Gruppierung in der Zeitleisten-Ansicht](assets/stacked-grouping-in-timeline-view.png)
+   * **Swimlane**: Gruppierungen werden mit einer eingefrorenen linken Kopfzeilenspalte angezeigt, in der die gruppierten Elemente aufgelistet werden und die Gruppierungen der Breite der Zeitleisten-Ansicht entsprechen.
+
+     ![Swimlane-Gruppierung in der Zeitleisten-Ansicht](assets/swimlane-grouping-in-timeline-view.png)
+
 1. (Optional) Klicken Sie innerhalb des **Datensätze gruppieren nach** auf das Symbol **x** rechts neben einem Feld, das für die Gruppierung ausgewählt wurde, um die Gruppierung zu entfernen
 
    ODER
@@ -452,7 +456,12 @@ So fügen Sie eine Gruppierung in der Zeitleisten -Ansicht hinzu:
    Klicken Sie auf **Alle löschen**, um alle Felder zu entfernen.
 
 1. Klicken Sie außerhalb des Felds **Datensätze gruppieren nach**, um es zu schließen.
-1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [&#x200B; Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
+1. (Optional) Ziehen Sie Elemente per Drag-and-Drop in die Zeitleisten -Ansicht, um ihre Daten anzupassen.
+
+   >[!TIP]
+   >
+   >Wenn Sie Datensätze von einer Gruppierung in eine andere ziehen, aktualisieren die in der Gruppierung ausgewählten Felder automatisch die Werte der verschobenen Datensätze.
+1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [ Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
 
 <!-- 
 
@@ -595,8 +604,7 @@ Beachten Sie Folgendes, wenn Sie die Timeline der Datensätze nach ihren verbund
   Beispielsweise sind Aufgaben mit Projekten in Workfront verbunden. Mit der Aufschlüsselungsfunktion können Sie Projekte anzeigen, die mit Kampagnen in Planning verbunden sind, aber keine Aufgaben, die mit Projekten in Workfront verbunden sind.
 
   Wenn Sie sowohl Portfolios als auch Projekte in der Zeitleistenansicht eines Workfront Planning-Datensatztyps anzeigen möchten, müssen sowohl die Portfolios als auch die Projekte mit dem Planning-Datensatz oder mit einem Datensatz verbunden sein, der mit dem Planning-Datensatz verknüpft ist, dessen Zeitleistenansicht Sie verwalten.
-* Sie können keine Adobe GenStudio Brands anzeigen, die mit Planning-Datensatztypen verbunden sind.
-Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Sie können keine Adobe GenStudio Brands anzeigen, die mit Planning-Datensatztypen verbunden sind.Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Sie können nur Datensatztypen anzeigen, die mit mindestens zwei Datumsfeldern verknüpft sind.
 * Die Datumsfelder für die Datensatztypen, die in der Zeitleisten -Ansicht angezeigt werden sollen, müssen in der Tabellenansicht des ausgewählten Datensatztyps als Nachschlagefelder sichtbar sein.
 * Das Start- und Enddatum der Datensatztypen, die in der Zeitleisten -Ansicht angezeigt werden sollen, müssen in chronologischer Reihenfolge angegeben werden. Wenn beispielsweise ein Datensatz das Startdatum 31. Januar und das Enddatum 1. Januar hat, wird er nicht in der Zeitleisten -Ansicht angezeigt. Weitere Informationen finden Sie im Abschnitt [Verwalten einer Zeitleisten-Ansicht](#manage-a-timeline-view) in diesem Artikel.
@@ -605,7 +613,7 @@ Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quic
 #### Aufschlüsseln verbundener Datensätze
 
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie in den **&#x200B;**- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
+1. Klicken Sie in den ****- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
 1. Erweitern Sie das **Verknüpften Datensatztyp auswählen** und wählen Sie einen verbundenen Datensatztyp aus. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![Aufschlüsselungsauswahl und Schaltfläche in der Zeitleisten-Ansicht](assets/breakdown-picker-and-button-on-timeline.png)
