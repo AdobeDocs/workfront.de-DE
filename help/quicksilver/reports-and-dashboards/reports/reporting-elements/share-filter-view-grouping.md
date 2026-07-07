@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: 1182
-ht-degree: 8%
+source-wordcount: 1245
+ht-degree: 7%
 
 ---
 
@@ -123,7 +123,12 @@ Freigeben von Filtern über die Standard-Builder-Oberfläche:
    </tr>
    <tr>
    <td role="rowheader"><strong>Für mich freigegeben</strong></td>
-   <td>Filter, die von anderen erstellt und für Sie freigegeben wurden oder die systemweit freigegeben sind.</td>
+   <td>Filter, die von anderen erstellt und für Sie freigegeben wurden oder die systemweit freigegeben sind.
+   <p><b>NOTIZ</b></p>
+   <p>Benutzende mit einer Beitragenden-, Anforderer- oder externen Lizenz können keine Filter, Ansichten oder Gruppierungen sehen, die systemweit freigegeben sind. Um eine für diese Benutzer verfügbar zu machen, geben Sie sie direkt für sie frei - über ihren Benutzer, das Aufgabengebiet, das Team, die Gruppe oder das Unternehmen - anstatt sich auf die systemweite Sichtbarkeit zu verlassen. Dies gilt auch, wenn der Filter, die Ansicht oder die Gruppierung in der Layout-Vorlage enthalten ist.</p>
+
+
+   </td>
    </tr>
    </tbody>
    </table>

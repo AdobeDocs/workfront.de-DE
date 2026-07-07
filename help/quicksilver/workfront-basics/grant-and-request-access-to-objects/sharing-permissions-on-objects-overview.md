@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: 1355
+source-wordcount: 1382
 ht-degree: 4%
 
 ---
@@ -165,7 +165,7 @@ Die folgende Tabelle zeigt die Berechtigungsstufe, die Sie bei der Freigabe eine
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Systemweit sichtbar machen.</strong></td> 
-   <td> <p>Das -Objekt kann bei Suchvorgängen gefunden und von Benutzenden mit einem Workfront-Konto angezeigt werden.</p><p><b>Hinweis</b>: Benutzer mit einer Beitragenden - oder Anfordererlizenz können Projekte nicht sehen, selbst wenn diese Einstellung aktiviert ist. </td> 
+   <td> <p>Das -Objekt kann bei Suchvorgängen gefunden und von Benutzenden mit einem Workfront-Konto angezeigt werden.</p><p><b>HINWEIS</b>: Benutzende mit einer Beitragenden - oder Anfragenlizenz können keine Projekte, Filter, Ansichten, Gruppierungen oder Objekte sehen, die systemweit freigegeben sind, selbst wenn diese Einstellung aktiviert ist. Sie können diese Objekte einzeln für Mitwirkende oder Anfragende freigeben, damit diese sie anzeigen können. </td> 
   </tr> 
  </tbody> 
 </table>

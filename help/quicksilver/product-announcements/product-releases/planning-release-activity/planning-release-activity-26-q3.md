@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: '2681'
+source-wordcount: '2848'
 ht-degree: 4%
 
 ---
@@ -28,6 +28,29 @@ There are no features released during the Third Quarter Release for 2026. When f
 In diesem Artikel werden die Funktionen beschrieben, die im dritten Quartal 2026 für Workfront Planning veröffentlicht werden.
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Automatisierte Zugriffssteuerung für Workfront Planning in Snowflake
+
+>[!IMPORTANT]
+>
+>Vorschau und Produktion für alle Kunden: 16. Juli 2026Außerplanmäßig&rbrack;{type=Neutral}
+
+
+Diese Version führt eine automatisierte, berechtigungsgesteuerte Zugriffsverwaltung für Workfront Planning-Daten in Snowflake als Teil von Workfront Data Connect ein.
+
+Zunächst wird die sichere Ansichtserstellung auf Planungstabellen ausgeweitet, um die erforderliche Grundlage für die nachgelagerte Zugriffskontrolle zu schaffen und berechtigungsbasierte Gewährungen zu ermöglichen.
+
+Darauf aufbauend überprüft die Bereitstellung des Leserkontos jetzt die TMS-Berechtigungen zum Zeitpunkt der Erstellung und wendet Zuschüsse automatisch an die Planning-Datenbank an bzw. verweigert sie, um sicherzustellen, dass sie korrekt sind.
+
+Vor dieser Verbesserung war dies nur für Workfront verfügbar.
+
+Das Update umfasst die folgenden Funktionen:
+
+* Ein automatisierter täglicher Vorgang erkennt Berechtigungsänderungen für Bestandskunden
+* Der neue Auftrag gewährt, widerruft oder behält den Zugriff basierend auf Berechtigungen
+* Vollständige Lebenszyklusabdeckung für die Bereitstellung, Kontoerstellung und laufende Berechtigungsänderungen.
+
+Der Artikel [Workfront Data Connect-Datenwörterbuch](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md) wird nach dem Veröffentlichungsdatum aktualisiert.
 
 
 ## Festlegen von Standardberechtigungen für Datensätze

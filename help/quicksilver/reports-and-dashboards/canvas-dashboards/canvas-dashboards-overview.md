@@ -21,10 +21,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: 536
-ht-degree: 25%
+source-wordcount: 566
+ht-degree: 24%
 
 ---
 
@@ -116,12 +116,16 @@ Nachfolgend finden Sie eine Liste der derzeit in der Beta-Version unterstützten
 
 ### Funktionen in Entwicklung
 
+In einem iterativen Ansatz stellen wir derzeit die folgenden Funktionen im Arbeitsflächen-Dashboard zur Verfügung:
+
 * Zusätzliche Workfront-Objekttypen
 * Verbesserungen der Benutzerfreundlichkeit
 * Workfront Planning-Ansichten als Berichtsblock in ein Dashboard einschließen
 * Verwenden eines Dashboards als Workfront-Planungsansicht
 * Erweiterte Unterstützung für Azure- und GCP-Kunden
 * Leistungsoptimierung
+
+Informationen darüber, welche Funktionen zum Arbeitsflächen-Dashboard hinzugefügt werden, finden Sie unter [Produktversionen](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ### Zukünftige Roadmap-Funktionen
 

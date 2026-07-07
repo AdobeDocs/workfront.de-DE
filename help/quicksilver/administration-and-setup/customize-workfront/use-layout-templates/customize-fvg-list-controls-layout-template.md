@@ -19,9 +19,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: 766
+source-wordcount: 822
 ht-degree: 4%
 
 ---
@@ -69,6 +69,13 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 +++
 
 ## Anpassen der Listensteuerelemente „Filtern“, „Anzeigen“ und „Gruppieren“
+
+
+>[!NOTE]
+>
+>Durch das Hinzufügen einer Ansicht, eines Filters oder einer Gruppierung zu einer Layout-Vorlage wird nur das Layout gesteuert; es wird kein Zugriff gewährt. Benutzer benötigen weiterhin Ansichtszugriff auf jedes Element.
+>
+>Benutzer von Beitragenden, Anfordernden und externen Lizenzen können Elemente, die systemweit freigegeben sind, nicht sehen. Daher müssen die für sie bestimmten Ansichten explizit freigegeben werden. Weitere Informationen finden Sie [Freigeben von Filtern, Ansichten oder Gruppierungen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 1. Beginnen Sie mit der Arbeit an einer Layout-Vorlage, wie unter [Erstellen und Verwalten von Layout-Vorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) beschrieben.
 1. Klicken Sie auf den Abwärtspfeil ![Abwärtspfeil](assets/down-arrow-blue.png) unter **Was Benutzer sehen** und klicken Sie dann auf **Listen** im angezeigten Dropdown-Menü.
