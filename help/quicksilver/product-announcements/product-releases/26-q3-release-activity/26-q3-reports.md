@@ -21,7 +21,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2026 ve
 
 >[!NOTE]
 >
->Vorschau und Produktion für alle Kunden: 16. Juli 2026Außerplanmäßig]{type=Neutral}
+>Vorschau und Produktion für alle Kunden: 16. Juli 2026Außerplanmäßig&rbrack;{type=Neutral}
 
 Diese Version führt eine automatisierte, berechtigungsgesteuerte Zugriffsverwaltung für Workfront Planning-Daten in Snowflake als Teil von Workfront Data Connect ein.
 Zunächst wird die sichere Ansichtserstellung auf Planungstabellen ausgeweitet, um die erforderliche Grundlage für die nachgelagerte Zugriffskontrolle zu schaffen und berechtigungsbasierte Gewährungen zu ermöglichen.Darauf aufbauend überprüft die Bereitstellung des Leserkontos jetzt die TMS-Berechtigungen zum Zeitpunkt der Erstellung und wendet Zuschüsse automatisch an die Planning-Datenbank an bzw. verweigert sie, um sicherzustellen, dass sie korrekt sind.
@@ -38,7 +38,7 @@ Der Artikel [Workfront Data Connect-Datenwörterbuch](/help/quicksilver/reports-
 
 >[!NOTE]
 >
->Vorschau und Produktion für alle Kunden: 7. Juli 2026Außerplanmäßig]{type=Neutral}
+>Vorschau und Produktion für alle Kunden: 7. Juli 2026Außerplanmäßig&rbrack;{type=Neutral}
 
 Im zweiten Quartal 2026 haben wir neue Objekte hinzugefügt, um die Verbesserungen an den Unternehmensabläufen in Workfront zu unterstützen.Mit der aktuellen Version fügen wir auch benutzerdefinierte Datenunterstützung für mehrere neue Objekte im Arbeitsflächen-Dashboard hinzu.
 
@@ -91,7 +91,7 @@ Weitere Informationen finden Sie unter [Verwenden von Canvas-Dashboards](/help/q
 >
 >Vorschau: 1. Juni 2026Produktions-Schnellveröffentlichung: 1. Juni 2026Produktion für alle: 1. Juni 2026
 
-Im Jahr 2025 wurde der Workfront-Datenbank ein neues Feld „Tatsächliche Stunden“ als `actualWorkRequiredDouble` hinzugefügt und das bestehende Feld „Tatsächliche Stunden“ (in der Datenbank `actualWorkRequired`) wurde in „Frühere Tatsächliche Stunden“ umbenannt. Weitere Informationen finden [ in ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md) Versionshinweisen .
+Im Jahr 2025 wurde der Workfront-Datenbank ein neues Feld „Tatsächliche Stunden“ als `actualWorkRequiredDouble` hinzugefügt und das bestehende Feld „Tatsächliche Stunden“ (in der Datenbank `actualWorkRequired`) wurde in „Frühere Tatsächliche Stunden“ umbenannt. Weitere Informationen finden [&#x200B; in &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md) Versionshinweisen .
 
 Im Juni 2026 wurden vorhandene benutzerdefinierte Formeln, die `actualWorkRequired` (veraltete tatsächliche Stunden) verwenden, migriert, um stattdessen `actualWorkRequiredDouble` (tatsächliche Stunden) zu verwenden. `actualWorkRequired` können nicht mehr in Berechnungen und Formeln verwendet werden.
 

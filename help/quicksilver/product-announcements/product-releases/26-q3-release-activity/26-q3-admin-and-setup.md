@@ -35,7 +35,7 @@ Jeder Eintrag enthält die getrackten Standardfelder: Datum und Uhrzeit, Vorgang
 
 Diese Phase des Änderungs-Trackings umfasst keine MCP-Ereignisse. Diese werden Teil einer zukünftigen Version sein.
 
-Weitere Informationen finden Sie unter [Anzeigen und Verwalten des ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+Weitere Informationen finden Sie unter [Anzeigen und Verwalten des &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
 
 <!--
 
@@ -133,7 +133,7 @@ Um Ihnen die Anzeige der in einer zentralen Liste aufgetretenen Änderungen zu e
 
 Zuvor waren Auditprotokolle verfügbar, die jedoch keine Objekte abdeckten.
 
-Weitere Informationen finden Sie unter [Anzeigen und Verwalten des ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+Weitere Informationen finden Sie unter [Anzeigen und Verwalten des &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
 
 ## Neue Systemvoreinstellung zum Konvertieren veralteter Speicherportfolios in Adobe Cloud-Speicher
 
