@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
+source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
 workflow-type: tm+mt
-source-wordcount: '2681'
+source-wordcount: '2848'
 ht-degree: 4%
 
 ---
@@ -28,6 +28,29 @@ There are no features released during the Third Quarter Release for 2026. When f
 In diesem Artikel werden die Funktionen beschrieben, die im dritten Quartal 2026 für Workfront Planning veröffentlicht werden.
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Automatisierte Zugriffssteuerung für Workfront Planning in Snowflake
+
+>[!IMPORTANT]
+>
+>Vorschau und Produktion für alle Kunden: 16. Juli 2026Außerplanmäßig]{type=Neutral}
+
+
+Diese Version führt eine automatisierte, berechtigungsgesteuerte Zugriffsverwaltung für Workfront Planning-Daten in Snowflake als Teil von Workfront Data Connect ein.
+
+Zunächst wird die sichere Ansichtserstellung auf Planungstabellen ausgeweitet, um die erforderliche Grundlage für die nachgelagerte Zugriffskontrolle zu schaffen und berechtigungsbasierte Gewährungen zu ermöglichen.
+
+Darauf aufbauend überprüft die Bereitstellung des Leserkontos jetzt die TMS-Berechtigungen zum Zeitpunkt der Erstellung und wendet Zuschüsse automatisch an die Planning-Datenbank an bzw. verweigert sie, um sicherzustellen, dass sie korrekt sind.
+
+Vor dieser Verbesserung war dies nur für Workfront verfügbar.
+
+Das Update umfasst die folgenden Funktionen:
+
+* Ein automatisierter täglicher Vorgang erkennt Berechtigungsänderungen für Bestandskunden
+* Der neue Auftrag gewährt, widerruft oder behält den Zugriff basierend auf Berechtigungen
+* Vollständige Lebenszyklusabdeckung für die Bereitstellung, Kontoerstellung und laufende Berechtigungsänderungen.
+
+Der Artikel [Workfront Data Connect-Datenwörterbuch](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md) wird nach dem Veröffentlichungsdatum aktualisiert.
 
 
 ## Festlegen von Standardberechtigungen für Datensätze
@@ -132,7 +155,7 @@ Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/qui
 
 >[!NOTE]
 >
->Vorschau und Produktion für alle Kunden: 5. Juni 2026Nur für Adobe Workfront Planning-Kunden verfügbar, die auch über Adobe GenStudio for Performance Marketing verfügen.Außerplanmäßig&rbrack;{type=Neutral}
+>Vorschau und Produktion für alle Kunden: 5. Juni 2026Nur für Adobe Workfront Planning-Kunden verfügbar, die auch über Adobe GenStudio for Performance Marketing verfügen.Außerplanmäßig]{type=Neutral}
 
 
 Damit Sie Ihren Kampagnen ab dem Senden einer Anfrage Marken hinzufügen können, haben Sie jetzt die Möglichkeit, das Feld Mit Marken verbundene Datensätze zu einem Planungsanfrageformular hinzuzufügen.
@@ -158,7 +181,7 @@ Weitere Informationen finden Sie unter [Arbeitsbereiche - Übersicht](/help/quic
 
 >[!NOTE]
 >
->Verfügbar für alle Kunden: 28. Mai 2026Außerplanmäßig&rbrack;{type=Neutral}
+>Verfügbar für alle Kunden: 28. Mai 2026Außerplanmäßig]{type=Neutral}
 
 Version 2 der Workfront Planning-API ist jetzt verfügbar und erweitert die Funktionen von Version 1 erheblich.
 
@@ -179,7 +202,7 @@ Version 1 bleibt verfügbar, obwohl wir empfehlen, zur Verwendung von Version 2 
 
 Weitere Informationen finden Sie unter [Grundlagen zur Adobe Workfront Planning-API](/help/quicksilver/planning/general/planning-api-basics.md).
 
-Informationen zu den Spezifikationen der Workfront Planning-API finden Sie in der Entwicklerdokumentation zur [Workfront &#x200B;](https://developer.adobe.com/wf-planning/)-API.
+Informationen zu den Spezifikationen der Workfront Planning-API finden Sie in der Entwicklerdokumentation zur [Workfront ](https://developer.adobe.com/wf-planning/)-API.
 
 ## Berechtigungen für Datensätze erteilen
 
@@ -228,7 +251,7 @@ Weitere Informationen finden Sie unter [Hinzufügen vorhandener Datensatztypen a
 
 >[!NOTE]
 >
->Vorschau: 28. Mai 2026Produktions-Schnellveröffentlichung: 11. Juni 2026Produktion für alle: 16. Juli 2026In Beta&rbrack;{type=Neutral}
+>Vorschau: 28. Mai 2026Produktions-Schnellveröffentlichung: 11. Juni 2026Produktion für alle: 16. Juli 2026In Beta]{type=Neutral}
 
 Sie können jetzt die Adobe Planning Designer powered by AI verwenden, um Ihre Arbeitsbereiche und Datenstrukturen einfach zu konfigurieren. Die Planning Designer unterstützt alle Funktionen, von der Erstellung und Konfiguration von Arbeitsbereichen über die Definition von Feldern und Formeln bis hin zur Verwaltung von Datensätzen, der Überprüfung des Änderungsverlaufs und der Erstellung benutzerdefinierter Ansichten.
 
@@ -243,7 +266,7 @@ Weitere Informationen finden Sie [Erste Schritte mit der Adobe Workfront Plannin
 
 >[!NOTE]
 >
->Vorschau und Produktion für alle: 28. Mai 2026Nur für Adobe Workfront Planning-Kunden verfügbar, die auch Adobe GenStudio for Performance Marketing und Adobe Experience Manager haben.Außerplanmäßig&rbrack;{type=Neutral}
+>Vorschau und Produktion für alle: 28. Mai 2026Nur für Adobe Workfront Planning-Kunden verfügbar, die auch Adobe GenStudio for Performance Marketing und Adobe Experience Manager haben.Außerplanmäßig]{type=Neutral}
 
 Um die Datenintegrität zu verbessern, haben wir eine nahtlose Metadatensynchronisation zwischen GenStudio for Performance Marketing-Datensatztypen und AEM Assets veröffentlicht, wenn AEM Assets in Workfront Planning mit GenStudio-Datensatztypen verknüpft ist.
 
@@ -259,7 +282,7 @@ Weitere Informationen finden Sie unter [Verwalten des GenStudio-Arbeitsbereichs 
 
 >[!NOTE]
 >
->Vorschau und Produktion für alle: 28. Mai 2026Nur für Adobe Workfront Planning-Kunden verfügbar, die auch Adobe GenStudio for Performance Marketing und Adobe Experience Manager haben.Außerplanmäßig&rbrack;{type=Neutral}
+>Vorschau und Produktion für alle: 28. Mai 2026Nur für Adobe Workfront Planning-Kunden verfügbar, die auch Adobe GenStudio for Performance Marketing und Adobe Experience Manager haben.Außerplanmäßig]{type=Neutral}
 
 Um die Datenintegrität zu verbessern, haben wir eine nahtlose Metadaten-Synchronisation zwischen Planning-Datensatztypen im GenStudio-Arbeitsbereich und AEM-Inhaltsfragmenten veröffentlicht, wenn Inhaltsfragmente mit GenStudio for Performance Marketing-Kampagnen verknüpft sind.
 
@@ -353,7 +376,7 @@ Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfra
 
 >[!NOTE]
 >
->Vorschau und Produktion für alle Kunden: 14. Mai 2026Außerplanmäßig&rbrack;{type=Neutral}
+>Vorschau und Produktion für alle Kunden: 14. Mai 2026Außerplanmäßig]{type=Neutral}
 
 Für eine bessere Sichtbarkeit bei der Arbeit mit AEM-Inhaltsfragmenten, die mit Workfront Planning-Datensätzen verbunden sind, wurde ein Vorschaufenster hinzugefügt, in dem Informationen zu den Fragmenten in Workfront Planning angezeigt werden.
 
@@ -365,7 +388,7 @@ Weitere Informationen finden Sie unter [Verbinden von Datensätzen](/help/quicks
 
 >[!NOTE]
 >
->Vorschau und Produktion für alle Kunden: 14. Mai 2026Nur für Adobe Workfront Planning-Kunden verfügbar, die auch über Adobe Experience Manager verfügen.Außerplanmäßig&rbrack;{type=Neutral}
+>Vorschau und Produktion für alle Kunden: 14. Mai 2026Nur für Adobe Workfront Planning-Kunden verfügbar, die auch über Adobe Experience Manager verfügen.Außerplanmäßig]{type=Neutral}
 
 Sie können jetzt die folgenden Suchfelder hinzufügen, wenn Sie einen Planning-Datensatztyp mit einem AEM-Inhaltsfragment verbinden:
 
