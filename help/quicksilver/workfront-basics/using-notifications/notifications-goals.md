@@ -9,21 +9,15 @@ exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/6kIc-y3DRa7mDVX14gA5jDbIzZveHH1MNIghGpQP7hc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: fceb5125-bb41-419a-b0db-31958cb42f6c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
 workflow-type: tm+mt
-source-wordcount: 388
-ht-degree: 12%
+source-wordcount: 425
+ht-degree: 11%
 
 ---
 
@@ -70,7 +64,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 ## Voraussetzungen
 
-* Der Benutzer, dessen [!DNL Goals] Benachrichtigungen Sie aktualisieren möchten, muss über eine Layout-Vorlage verfügen, die den [!DNL Goals] Bereich im [!UICONTROL Hauptmenü“ &#x200B;].
+* Der Benutzer, dessen [!DNL Goals] Benachrichtigungen Sie aktualisieren möchten, muss über eine Layout-Vorlage verfügen, die den [!DNL Goals] Bereich im [!UICONTROL Hauptmenü“ ].
 
 
 ## [!DNL Goals]-Benachrichtigungen im [!UICONTROL Benutzerprofil] Bereich
@@ -81,7 +75,8 @@ Die in der folgenden Tabelle aufgeführten Benachrichtigungen informieren Sie ü
 
 >[!NOTE]
 >
->Sofortige Benachrichtigungen für [!DNL Goals] sind standardmäßig deaktiviert. Sie können keine täglichen Benachrichtigungen aktivieren oder deaktivieren und Sie erhalten auch keine täglichen Auswahl-E-Mails für die Ereignisse in dieser Kategorie. Sie können einzelne Sofortbenachrichtigungen für die Kategorie [!DNL Goals] aktivieren oder deaktivieren.
+>* Sofortige Benachrichtigungen für [!DNL Goals] sind standardmäßig deaktiviert. Sie können keine täglichen Benachrichtigungen aktivieren oder deaktivieren und Sie erhalten auch keine täglichen Auswahl-E-Mails für die Ereignisse in dieser Kategorie. Sie können einzelne Sofortbenachrichtigungen für die Kategorie [!DNL Goals] aktivieren oder deaktivieren.
+>* Sie können weiterhin E-Mails zu Zielaktualisierungen erhalten, auch wenn Sie auf Ihrer Zugriffsebene keinen Zugriff auf Ziele haben, Ihnen aber jemand ein Ziel, ein Ergebnis oder eine Aktivität oder Kommentare zu einem Ziel zuweist, das Ihnen zugewiesen wurde.
 
 Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notifications/event-notifications.md).
 
