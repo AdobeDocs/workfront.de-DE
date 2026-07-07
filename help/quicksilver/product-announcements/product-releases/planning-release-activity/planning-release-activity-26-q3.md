@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
 workflow-type: tm+mt
-source-wordcount: '2087'
-ht-degree: 0%
+source-wordcount: '2681'
+ht-degree: 4%
 
 ---
 
@@ -30,11 +30,44 @@ In diesem Artikel werden die Funktionen beschrieben, die im dritten Quartal 2026
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 
+## Festlegen von Standardberechtigungen für Datensätze
+
+>[!NOTE]
+>
+>Vorschau: 7. Juli 2026Produktions-Schnellveröffentlichung: 15. Juli 2026Produktion für alle: 16. Juli 2026
+
+Workspace-Manager können jetzt für jeden Datensatztyp eine standardmäßige Berechtigungsregel festlegen - „Offen“ oder „Eingeschränkt“ -, sodass neu erstellte Datensätze automatisch ohne manuelle Schritte geschützt werden.
+
+Wenn Sie Eingeschränkt auswählen, können nur der Datensatzersteller und alle speziell ausgewählten Benutzer, Gruppen, Teams, Rollen oder Unternehmen den Datensatz bearbeiten, während alle anderen nur Lesezugriff behalten.
+
+Diese Regel wird automatisch auf neue Datensätze angewendet, unabhängig davon, wie der Datensatz erstellt wird (Schaltfläche „Neuer Datensatz“, Anfrageformulare, API, Verwendung einer Fusion-Automatisierung oder eines KI-Assistenten). Änderungen an der Regel wirken sich nur auf künftig erstellte Datensätze aus, aber nicht auf vorhandene.
+
+Nachdem ein Datensatz erstellt wurde, können seine Berechtigungen weiterhin unabhängig aktualisiert werden, ohne dass sich dies auf die Standardregel für zukünftige Datensätze auswirkt.
+
+Weitere Informationen finden Sie unter [Festlegen von Standardberechtigungen für Datensätze](/help/quicksilver/planning/access/set-default-record-permissions.md).
+
+## Gruppierungs-Layout für die Zeitleisten-Ansicht verändern
+
+>[!NOTE]
+>
+>Vorschau: 7. Juli 2026Produktions-Schnellveröffentlichung: 15. Juli 2026Produktion für alle: 16. Juli 2026
+
+Gruppierte Zeitleisten -Ansichten unterstützen jetzt ein Breitband-Layout, bei dem Gruppen als eingefrorene linke Kopfzeilenspalte gerendert werden, anstatt horizontale Bänder zu scrollen. Dieser Gruppierungstyp ist eine Ergänzung zur aktuellen gestapelten Gruppierung.
+
+Verschachtelte Gruppierungsebenen werden als eingerückte Unterspalten angezeigt, und Datensätze in jeder Spur bleiben untereinander gestapelt und sortiert.
+
+Sie können Datensätze per Drag-and-Drop in die gruppierte Ansicht ziehen, um ihre Informationen und Daten reibungslos zu aktualisieren.
+
+Alle Benutzer, die die Ansicht anzeigen, können die angewendeten Gruppierungen sehen.
+
+Weitere Informationen finden Sie unter [Verwalten der Timeline-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+
+
 ## Unterstützung für Währungsplanungsfelder in Canvas-Dashboards
 
 >[!NOTE]
 >
->Vorschau: 25. Juni 2026>Produktions-Schnellversion: 15. Juli 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 25. Juni 2026Produktions-Schnellveröffentlichung: 15. Juli 2026Produktion für alle: 16. Juli 2026
 
 Sie können jetzt Felder für die Währungsplanung in Tabellen-, KPI- und Diagrammberichten in Arbeitsflächen-Dashboards einbeziehen.
 
@@ -46,7 +79,7 @@ Weitere Informationen finden Sie unter [Verwenden von Währungsfeldern in Arbeit
 
 >[!NOTE]
 >
->Vorschau: 22. Juni 2026>Produktions-Schnellversion: 15. Juli 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 22. Juni 2026Produktions-Schnellveröffentlichung: 15. Juli 2026Produktion für alle: 16. Juli 2026
 
 Das Erscheinungsbild des Zeilenfarbensteuerelements in der Tabellenansicht wurde aktualisiert.
 
@@ -56,7 +89,7 @@ Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/qui
 
 >[!NOTE]
 >
->Vorschau: 18. Juni 2026>Produktions-Schnellversion: 15. Juli 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 18. Juni 2026Produktions-Schnellveröffentlichung: 15. Juli 2026Produktion für alle: 16. Juli 2026
 
 Wenn Sie ein Feld vom Typ Einzel- oder Mehrfachauswahl oder ein Feld vom Typ Personen erstellen, können Sie jetzt einen Standardwert für diese Felder angeben. Die Standardwerte werden immer angewendet, wenn das Feld in einem Datensatz sichtbar ist.
 
@@ -68,7 +101,7 @@ Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/plan
 
 >[!NOTE]
 >
->Vorschau: 11. Juni 2026>Produktions-Schnellversion: 15. Juli 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 11. Juni 2026Produktions-Schnellveröffentlichung: 15. Juli 2026Produktion für alle: 16. Juli 2026
 
 Das Erscheinungsbild der Tabellenansicht wurde für die folgenden Bereiche in Workfront Planning aktualisiert:
 
@@ -99,8 +132,7 @@ Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/qui
 
 >[!NOTE]
 >
->Vorschau und Produktion für alle Kunden: 5. Juni 2026> Nur für Adobe Workfront Planning-Kunden verfügbar, die auch Adobe GenStudio for Performance Marketing haben.
->[!BADGE Aus Zeitplan]{type=Neutral}
+>Vorschau und Produktion für alle Kunden: 5. Juni 2026Nur für Adobe Workfront Planning-Kunden verfügbar, die auch über Adobe GenStudio for Performance Marketing verfügen.Außerplanmäßig&rbrack;{type=Neutral}
 
 
 Damit Sie Ihren Kampagnen ab dem Senden einer Anfrage Marken hinzufügen können, haben Sie jetzt die Möglichkeit, das Feld Mit Marken verbundene Datensätze zu einem Planungsanfrageformular hinzuzufügen.
@@ -114,7 +146,7 @@ Weitere Informationen finden Sie [Erste Schritte mit der Adobe Workfront Plannin
 
 >[!NOTE]
 >
->Vorschau: 1. Juni 2026>Produktions-Schnellveröffentlichung: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 1. Juni 2026Produktions-Schnellveröffentlichung: 11. Juni 2026Produktion für alle: 16. Juli 2026
 
 Wir haben die Registerkarte Beispiel-Arbeitsbereiche im Bereich Planung hinzugefügt, wo Sie Beispiele für Best Practice-Arbeitsbereiche sehen können. Die Arbeitsbereiche können nicht bearbeitet werden. Workspace-Manager können Ansichten in Beispiel-Arbeitsbereichen ändern. Die Registerkarte ist für Benutzer von Standard und Systemadministrator sichtbar.
 
@@ -126,7 +158,7 @@ Weitere Informationen finden Sie unter [Arbeitsbereiche - Übersicht](/help/quic
 
 >[!NOTE]
 >
->Verfügbar für alle Kunden: 28. Mai 2026>[!BADGE Aus Zeitplan]{type=Neutral}
+>Verfügbar für alle Kunden: 28. Mai 2026Außerplanmäßig&rbrack;{type=Neutral}
 
 Version 2 der Workfront Planning-API ist jetzt verfügbar und erweitert die Funktionen von Version 1 erheblich.
 
@@ -153,7 +185,7 @@ Informationen zu den Spezifikationen der Workfront Planning-API finden Sie in de
 
 >[!NOTE]
 >
->Vorschau: 28. Mai 2026>Produktions-Schnellversion: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 28. Mai 2026Produktions-Schnellveröffentlichung: 11. Juni 2026Produktion für alle: 16. Juli 2026
 
 
 Sie können jetzt einzelne Datensatzberechtigungen anpassen, um zu steuern, wer sie in einem Datensatztyp verwalten kann.
@@ -182,7 +214,7 @@ Weitere Informationen finden Sie unter [Freigeben von Datensätzen](/help/quicks
 
 >[!NOTE]
 >
->Vorschau: 28. Mai 2026>Produktions-Schnellversion: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 28. Mai 2026Produktions-Schnellveröffentlichung: 11. Juni 2026Produktion für alle: 16. Juli 2026
 
 Um Klicks zu reduzieren und das schnelle Auffinden der benötigten Datensatztypen zu erleichtern, haben wir das Hinzufügen von Datensätzen verbessert, sodass es beim Hinzufügen globaler Datensatztypen zu einem anderen Arbeitsbereich schneller und intuitiver wird.
 
@@ -196,7 +228,7 @@ Weitere Informationen finden Sie unter [Hinzufügen vorhandener Datensatztypen a
 
 >[!NOTE]
 >
->Vorschau: 28. Mai 2026>Produktions-Schnellversion: 11. Juni 2026>Produktion für alle: 16. Juli 2026>[!BADGE In Beta]{type=Neutral}
+>Vorschau: 28. Mai 2026Produktions-Schnellveröffentlichung: 11. Juni 2026Produktion für alle: 16. Juli 2026In Beta&rbrack;{type=Neutral}
 
 Sie können jetzt die Adobe Planning Designer powered by AI verwenden, um Ihre Arbeitsbereiche und Datenstrukturen einfach zu konfigurieren. Die Planning Designer unterstützt alle Funktionen, von der Erstellung und Konfiguration von Arbeitsbereichen über die Definition von Feldern und Formeln bis hin zur Verwaltung von Datensätzen, der Überprüfung des Änderungsverlaufs und der Erstellung benutzerdefinierter Ansichten.
 
@@ -211,8 +243,7 @@ Weitere Informationen finden Sie [Erste Schritte mit der Adobe Workfront Plannin
 
 >[!NOTE]
 >
->Vorschau und Produktion für alle: 28. Mai 2026> Nur für Adobe Workfront Planning-Kunden verfügbar, die auch Adobe GenStudio for Performance Marketing und Adobe Experience Manager haben.
->[!BADGE Aus Zeitplan]{type=Neutral}
+>Vorschau und Produktion für alle: 28. Mai 2026Nur für Adobe Workfront Planning-Kunden verfügbar, die auch Adobe GenStudio for Performance Marketing und Adobe Experience Manager haben.Außerplanmäßig&rbrack;{type=Neutral}
 
 Um die Datenintegrität zu verbessern, haben wir eine nahtlose Metadatensynchronisation zwischen GenStudio for Performance Marketing-Datensatztypen und AEM Assets veröffentlicht, wenn AEM Assets in Workfront Planning mit GenStudio-Datensatztypen verknüpft ist.
 
@@ -228,8 +259,7 @@ Weitere Informationen finden Sie unter [Verwalten des GenStudio-Arbeitsbereichs 
 
 >[!NOTE]
 >
->Vorschau und Produktion für alle: 28. Mai 2026> Nur für Adobe Workfront Planning-Kunden verfügbar, die auch Adobe GenStudio for Performance Marketing und Adobe Experience Manager haben.
->[!BADGE Aus Zeitplan]{type=Neutral}
+>Vorschau und Produktion für alle: 28. Mai 2026Nur für Adobe Workfront Planning-Kunden verfügbar, die auch Adobe GenStudio for Performance Marketing und Adobe Experience Manager haben.Außerplanmäßig&rbrack;{type=Neutral}
 
 Um die Datenintegrität zu verbessern, haben wir eine nahtlose Metadaten-Synchronisation zwischen Planning-Datensatztypen im GenStudio-Arbeitsbereich und AEM-Inhaltsfragmenten veröffentlicht, wenn Inhaltsfragmente mit GenStudio for Performance Marketing-Kampagnen verknüpft sind.
 
@@ -244,7 +274,7 @@ Weitere Informationen finden Sie unter [Verwalten des GenStudio-Arbeitsbereichs 
 
 >[!NOTE]
 >
->Vorschau: 27. Mai 2026>Produktions-Schnellversion: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 27. Mai 2026Produktions-Schnellveröffentlichung: 11. Juni 2026Produktion für alle: 16. Juli 2026
 
 Mehrere Feldtypen in der Listenansicht wurden aktualisiert und enthalten jetzt eine Tastaturnavigation und andere Verbesserungen.
 
@@ -270,7 +300,7 @@ Weitere Informationen finden Sie unter [Verwalten der Listenansicht in Adobe Wor
 
 >[!NOTE]
 >
->Vorschau: 27. Mai 2026>Produktions-Schnellversion: 11. Juni 2026\
+>Vorschau: 27. Mai 2026Produktions-Schnellveröffentlichung: 11. Juni 2026\
 >Produktion für alle: 16. Juli 2026
 
 Sie können jetzt Workfront-Referenzfelder als Lookup-Felder hinzufügen, wenn Sie einen Planning-Datensatztyp mit einem Workfront-Objekttyp verbinden.
@@ -283,7 +313,7 @@ Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quic
 
 >[!NOTE]
 >
->Vorschau: 27. Mai 2026>Produktions-Schnellversion: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 27. Mai 2026Produktions-Schnellveröffentlichung: 11. Juni 2026Produktion für alle: 16. Juli 2026
 
 Sie können jetzt Informationen in der Zeitleisten -Ansicht anhand von Kriterien filtern, die mit den Objekten übereinstimmen, die in der Aufschlüsselung der Datensätze enthalten sind.
 
@@ -295,7 +325,7 @@ Weitere Informationen finden Sie unter [Verwalten der Timeline-Ansicht](/help/qu
 
 >[!NOTE]
 >
->Vorschau: 27. Mai 2026>Produktions-Schnellversion: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 27. Mai 2026Produktions-Schnellveröffentlichung: 11. Juni 2026Produktion für alle: 16. Juli 2026
 
 Wir haben eine Erinnerung hinzugefügt, dass sich das Bearbeiten oder Löschen von Datensatzfeldern auf Anfrageformulare auswirken kann, die diese Felder enthalten. Jetzt haben Sie die Möglichkeit, die betroffenen Formulare zu überprüfen und sicherzustellen, dass die Änderungen, die Sie an den Feldern vornehmen möchten, keine Auswirkungen auf bestehende Informationen haben.
 
@@ -305,7 +335,7 @@ Weitere Informationen finden Sie unter [Bearbeiten von Feldeinstellungen](/help/
 
 >[!NOTE]
 >
->Vorschau: 27. Mai 2026>Produktions-Schnellversion: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 27. Mai 2026Produktions-Schnellveröffentlichung: 11. Juni 2026Produktion für alle: 16. Juli 2026
 
 Sie können jetzt Planungsanfragen bearbeiten, nachdem Sie sie übermittelt haben, bevor aus der Anfrage ein Datensatz erstellt wird.
 
@@ -323,7 +353,7 @@ Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfra
 
 >[!NOTE]
 >
->Vorschau und Produktion für alle Kunden: 14. Mai 2026 >[!BADGE &#x200B; Zeitplan]{type=Neutral}
+>Vorschau und Produktion für alle Kunden: 14. Mai 2026Außerplanmäßig&rbrack;{type=Neutral}
 
 Für eine bessere Sichtbarkeit bei der Arbeit mit AEM-Inhaltsfragmenten, die mit Workfront Planning-Datensätzen verbunden sind, wurde ein Vorschaufenster hinzugefügt, in dem Informationen zu den Fragmenten in Workfront Planning angezeigt werden.
 
@@ -335,8 +365,7 @@ Weitere Informationen finden Sie unter [Verbinden von Datensätzen](/help/quicks
 
 >[!NOTE]
 >
->Vorschau und Produktion für alle Kunden: 14. Mai 2026> Nur für Adobe Workfront Planning-Kunden verfügbar, die auch Adobe Experience Manager haben.
->[!BADGE Aus Zeitplan]{type=Neutral}
+>Vorschau und Produktion für alle Kunden: 14. Mai 2026Nur für Adobe Workfront Planning-Kunden verfügbar, die auch über Adobe Experience Manager verfügen.Außerplanmäßig&rbrack;{type=Neutral}
 
 Sie können jetzt die folgenden Suchfelder hinzufügen, wenn Sie einen Planning-Datensatztyp mit einem AEM-Inhaltsfragment verbinden:
 
@@ -355,7 +384,7 @@ Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quic
 
 >[!NOTE]
 >
->Vorschau: 14. Mai 2026>Produktions-Schnellversion: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 14. Mai 2026Produktions-Schnellveröffentlichung: 11. Juni 2026Produktion für alle: 16. Juli 2026
 
 Um eine bessere Flexibilität bei der Visualisierung Ihrer Informationen auf der Detailseite eines Datensatzes zu ermöglichen, haben wir die Möglichkeit eingeführt, benutzerdefinierte Ansichten für diese Seite zu erstellen.
 
@@ -370,7 +399,7 @@ Weitere Informationen finden Sie unter [Verwalten der Datensatzseite](/help/quic
 >[!NOTE]
 >
 >Vorschau: 14. Mai 2026\
->Produktion schnell: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+>Produktionsschnell: 11. Juni 2026Produktion für alle: 16. Juli 2026
 
 Sie können Ihre Informationen jetzt auf der Seite „Mit Projekten verbundene Datensätze“ eines Datensatzes in Workfront Planning gruppieren. Diese Funktion war in diesem Bereich vor dieser Verbesserung nicht vorhanden.
 
