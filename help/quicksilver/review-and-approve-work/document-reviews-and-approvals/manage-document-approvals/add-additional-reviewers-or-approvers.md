@@ -20,14 +20,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
 workflow-type: tm+mt
-source-wordcount: 532
-ht-degree: 6%
+source-wordcount: 1130
+ht-degree: 3%
 
 ---
 
 # Hinzufügen zusätzlicher genehmigender Personen oder Prüfer zu einem Workflow für die Dokumentvalidierung
+
+{{highlighted-preview}}
 
 Sie können einem Workflow für Dokumentgenehmigungen, der bereits ausstehende Genehmigungen aufweist, zusätzliche genehmigende Personen oder Prüfende hinzufügen.
 
@@ -71,7 +73,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 
 
-## Fügen Sie zusätzliche genehmigende Personen oder Prüfende aus der Dokumentzusammenfassung im Bereich für veraltete Dokumente hinzu
+## Fügen Sie im Bereich für veraltete Dokumente in der Produktionsumgebung weitere genehmigende Personen oder Prüfer hinzu
 
 Wenn sich Ihr Unternehmen im Workfront-Speicher befindet, wird der Bereich für veraltete Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Workfront-Speicher finden Sie unter [Unterschiede zwischen Adobe-Cloud-Speicher und Legacy-Workfront-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
@@ -93,12 +95,42 @@ So fügen Sie in der Dokumentzusammenfassung zusätzliche genehmigende Personen 
 
    ![Dropdown „Genehmiger oder Prüfer“](assets/choose-approver-or-reviewer.png)
 
-1. Wiederholen Sie die Schritte 5 bis 6, um weitere genehmigende Personen oder Prüfende hinzuzufügen.
-Nach dem Speichern erhalten die hinzugefügten Teilnehmer eine E-Mail-Benachrichtigung, dass ihre Genehmigung oder Überprüfung für das Dokument erforderlich ist.
+1. Wiederholen Sie die Schritte 5 bis 6, um weitere genehmigende Personen oder Prüfende hinzuzufügen.Nach dem Speichern erhalten die hinzugefügten Teilnehmer eine E-Mail-Benachrichtigung, dass ihre Genehmigung oder Überprüfung für das Dokument erforderlich ist.
 
+<div class="preview">
 
+## Fügen Sie im Bereich für veraltete Dokumente in der Vorschau zusätzliche genehmigende Personen oder Prüfende hinzu
 
-## Fügen Sie zusätzliche genehmigende Personen oder Prüfende aus der Dokumentzusammenfassung im Bereich Neue Dokumente hinzu
+Wenn sich Ihr Unternehmen im Workfront-Speicher befindet, wird der Bereich für veraltete Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Workfront-Speicher finden Sie unter [Unterschiede zwischen Adobe-Cloud-Speicher und Legacy-Workfront-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
+
+So fügen Sie in der Dokumentzusammenfassung zusätzliche genehmigende Personen oder Prüfende hinzu:
+
+1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen **Dokumente** im linken Bereich aus.
+
+1. Klicken Sie auf das gewünschte Dokument. Das Bedienfeld Dokumentzusammenfassung für dieses Dokument wird geöffnet.
+
+1. Wählen Sie im Dropdown-Menü Version die Version des Dokuments aus, dem Sie eine genehmigende Person oder eine prüfende Person hinzufügen möchten. Standardmäßig ist die neueste Version ausgewählt.
+
+1. Scrollen Sie nach unten zum Abschnitt **Genehmigungen** und klicken Sie dann auf **Workflow bearbeiten**. Das Dialogfeld Genehmigung anfordern wird in dem Modus geöffnet, in dem die Genehmigung zuletzt gespeichert wurde: Standard für einstufige Genehmigungen oder Erweitert für mehrstufige Genehmigungen und Genehmigungen mit parallelen Pfaden.
+
+1. Fügen Sie den Benutzer, das Team oder die E-Mail hinzu:
+
+   * Geben Sie im Standardmodus den Namen oder die E-Mail in das Feld **Namen oder E-Mails hinzufügen** ein.
+   * Wählen Sie im erweiterten Modus den Pfad aus, der den zu aktualisierenden Schritt enthält, und geben Sie dann den Namen oder die E-Mail in das Feld **Namen oder E-Mails hinzufügen** des Schritts ein.
+
+1. Wählen Sie für jede hinzugefügte Person aus, ob sie eine genehmigende Person oder eine prüfende Person ist.
+
+   ![Dropdown „Genehmiger oder Prüfer“](assets/choose-reviewer-or-approver.png)
+
+1. Klicken Sie auf **Speichern**. Die hinzugefügten Teilnehmer erhalten eine E-Mail-Benachrichtigung, dass ihre Genehmigung oder Überprüfung für das Dokument erforderlich ist.
+
+>[!TIP]
+>
+>Um eine Grundmodusgenehmigung in eine Mehrstufen- oder Mehrpfad-Genehmigung umzustrukturieren, klicken Sie oben **auf** Zum Erweiterten wechseln“. Ihre vorhandenen Teilnehmer werden als Pfad 1, Schritt 1 beibehalten. Nach dem Speichern können Sie nicht mehr in den Standardmodus wechseln. Weitere Informationen finden Sie unter [Erstellen eines Dokumentgenehmigungs-Workflows](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+</div>
+
+## Fügen Sie im neuen Bereich Dokumente in der Produktionsumgebung weitere genehmigende Personen oder Prüfer hinzu
 
 Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, wird der Bereich Neue Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Adobe Cloud-Speicher finden Sie unter [Übersicht über Adobe Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -118,35 +150,37 @@ Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, wird der Bereich Neue Dokume
 
    ![Dropdown „Genehmiger oder Prüfer“](assets/choose-approver-or-reviewer.png)
 
-1. Wiederholen Sie die Schritte 5 bis 6, um weitere genehmigende Personen oder Prüfende hinzuzufügen.
-Nach dem Speichern erhalten die hinzugefügten Teilnehmer eine E-Mail-Benachrichtigung, dass ihre Genehmigung oder Überprüfung für das Dokument erforderlich ist.
+1. Wiederholen Sie die Schritte 5 bis 6, um weitere genehmigende Personen oder Prüfende hinzuzufügen.Nach dem Speichern erhalten die hinzugefügten Teilnehmer eine E-Mail-Benachrichtigung, dass ihre Genehmigung oder Überprüfung für das Dokument erforderlich ist.
 
+<div class="preview">
 
+## Fügen Sie zusätzliche genehmigende Personen oder Prüfende aus der Dokumentzusammenfassung im neuen Dokumentbereich in der Vorschau hinzu
 
+Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, wird der Bereich Neue Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Adobe Cloud-Speicher finden Sie unter [Übersicht über Adobe Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
+So fügen Sie in der Dokumentzusammenfassung zusätzliche genehmigende Personen oder Prüfende hinzu:
 
+1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen **Dokumente** im linken Bereich aus.
 
+1. Klicken Sie auf das Dokument und dann auf **Genehmigungen** rechts auf der Seite.
 
-<!--
-## Add additional approvers or reviewers from Home
+   ![Genehmigende Personen in der Dokumentzusammenfassung hinzufügen](assets/approvals-icon-new.png)
 
-1. Click the **Home** icon ![Home icon](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
+1. Klicken Sie **Workflow bearbeiten**. Das Dialogfeld Genehmigung anfordern wird in dem Modus geöffnet, in dem die Genehmigung zuletzt gespeichert wurde: Standard für einstufige Genehmigungen oder Erweitert für mehrstufige Genehmigungen und Genehmigungen mit parallelen Pfaden.
 
-   >[!NOTE]
-   >
-   >Your Workfront administrator might make the following changes to the Home icon in your environment:
-   >
-   >* Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
-   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
+1. Fügen Sie den Benutzer, das Team oder die E-Mail hinzu:
 
-1. In the **Work List** area, Go to the **Approvals I've Submitted** grouping.
+   * Geben Sie im Standardmodus den Namen oder die E-Mail in das Feld **Namen oder E-Mails hinzufügen** ein.
+   * Wählen Sie im erweiterten Modus den Pfad aus, der den zu aktualisierenden Schritt enthält, und geben Sie dann den Namen oder die E-Mail in das Feld **Namen oder E-Mails hinzufügen** des Schritts ein.
 
-1. Select a **Document** approval.  
+1. Wählen Sie für jede hinzugefügte Person aus, ob sie eine genehmigende Person oder eine prüfende Person ist.
 
-1. Click **Manage Approvals**&nbsp;in the upper-right corner of the right panel.
-1. In the **Have someone approve this document** box, type the name of the approver.
+   ![Dropdown „Genehmiger oder Prüfer“](assets/choose-reviewer-or-approver.png)
 
-   If your Adobe Workfront administrator has enabled the capability to collaborate with people who don't use Workfront, as described in [Configure system security preferences](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), you can type their email addresses to include them.
+1. Klicken Sie auf **Speichern**. Die hinzugefügten Teilnehmer erhalten eine E-Mail-Benachrichtigung, dass ihre Genehmigung oder Überprüfung für das Dokument erforderlich ist.
 
-1. Click **Save**.
--->
+>[!TIP]
+>
+>Um eine Grundmodusgenehmigung in eine Mehrstufen- oder Mehrpfad-Genehmigung umzustrukturieren, klicken Sie oben **auf** Zum Erweiterten wechseln“. Ihre vorhandenen Teilnehmer werden als Pfad 1, Schritt 1 beibehalten. Nach dem Speichern können Sie nicht mehr in den Standardmodus wechseln. Weitere Informationen finden Sie unter [Erstellen eines Dokumentgenehmigungs-Workflows](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+</div>

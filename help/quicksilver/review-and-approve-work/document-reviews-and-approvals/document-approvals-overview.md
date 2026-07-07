@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
 workflow-type: tm+mt
-source-wordcount: 4002
+source-wordcount: 4114
 ht-degree: 0%
 
 ---
@@ -29,8 +29,7 @@ ht-degree: 0%
 
 {{highlighted-preview}}
 
-Einheitliche Prüfung und Genehmigung führt Adobe Workfront und Adobe Frame.io zu einem einzigen, eng miteinander verbundenen Erlebnis zusammen. Dadurch werden die Lücken zwischen Marketing-Management, kreativer Überprüfung und Bereitstellung von Inhalten geschlossen.
-Projektkoordinatoren verwalten die Arbeit in Workfront, während Kreative, Marketingexperten und Stakeholder Assets im professionellen Frame.io-Viewer überprüfen und genehmigen, ohne Dateien zwischen getrennten Tools zu verschieben.
+Einheitliche Prüfung und Genehmigung führt Adobe Workfront und Adobe Frame.io zu einem einzigen, eng miteinander verbundenen Erlebnis zusammen. Dadurch werden die Lücken zwischen Marketing-Management, kreativer Überprüfung und Bereitstellung von Inhalten geschlossen.Projektkoordinatoren verwalten die Arbeit in Workfront, während Kreative, Marketingexperten und Stakeholder Assets im professionellen Frame.io-Viewer überprüfen und genehmigen, ohne Dateien zwischen getrennten Tools zu verschieben.
 
 ![Abbildung des einheitlichen Prüfungs- und Genehmigungs-Workflows mit Projektkoordinatoren, die die Arbeit in Workfront verwalten, sowie mit Prüfern und Genehmigern, die Feedback geben und Entscheidungen im Frame.io-Viewer treffen.](assets/Unified-Review-Approvals-Image.png)
 
@@ -286,6 +285,14 @@ Ja. Ein Benutzer kann im selben Genehmigungs-Workflow mehreren Phasen zugewiesen
 **Kann ich Phasen hinzufügen, um einen mehrstufigen Genehmigungs-Workflow zu erstellen?**
 
 Ja. Es werden mehrstufige Genehmigungs-Workflows unterstützt, mit denen Sie Assets durch sequenzielle Prüfungs- und Genehmigungsrunden mit verschiedenen Teilnehmern in jeder Phase leiten können.
+
+<div class="preview">
+
+**Kann ich parallele Prüfpfade in einem Genehmigungs-Workflow konfigurieren?**
+
+Ja. In der Vorschau unterstützen Genehmigungs-Workflows parallele Pfade zusätzlich zu den sequenziellen Phasen. Jeder Pfad wird unabhängig ausgeführt und enthält eine oder mehrere sequenzielle Phasen, sodass Überprüfungen für verschiedene Pfade gleichzeitig erfolgen können. Sie können mit einer einzigen Genehmigung bis zu 30 Pfade und 100 Phasen konfigurieren. Die gleichen Optionen sind in den Validierungsvorlagen verfügbar. Weitere Informationen finden Sie unter [Erstellen eines Dokumentgenehmigungs-Workflows](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) und [Erstellen einer Genehmigungs-Workflow-Vorlage für Dokumente](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+
+</div>
 
 <!--
 **Can I modify the trigger for a later stage---for example, based on all approved versus the due date ending?**

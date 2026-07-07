@@ -15,14 +15,16 @@ feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
 workflow-type: tm+mt
-source-wordcount: 955
-ht-degree: 2%
+source-wordcount: 1236
+ht-degree: 1%
 
 ---
 
 # Gemeinsames Verwenden von einheitlichen Genehmigungen und Proofing
+
+{{highlighted-preview}}
 
 Einheitliche Genehmigungen in Workfront beinhalten jetzt eine Reihe neuer Funktionen, mit denen Sie Dokumente überprüfen und genehmigen können. Sie können einen einheitlichen Genehmigungs-Workflow mit dem vorhandenen Proofing Viewer verwenden, um Kommentare und Markups zu überprüfenden Dokumenten hinzuzufügen.
 
@@ -35,8 +37,7 @@ Es gibt einige wichtige Unterschiede im Workflow bei der gemeinsamen Verwendung 
 ## Dokument hochladen und Korrekturabzug erstellen
 
 1. Navigieren Sie zum Projekt, zur Aufgabe oder zum Problem, dem bzw. dem Sie ein neues Dokument hinzufügen möchten.
-1. Klicken Sie auf **Registerkarte** Dokumente“ und dann auf das **Neu hinzufügen** Dropdown-Menü.
-oder
+1. Klicken Sie auf **Registerkarte** Dokumente“ und dann auf das **Neu hinzufügen** Dropdown-Menü.ODER
 Ziehen Sie das Dokument per Drag-and-Drop in die Dokumentliste.
 
    >[!NOTE]
@@ -47,7 +48,7 @@ Ziehen Sie das Dokument per Drag-and-Drop in die Dokumentliste.
 
 Benutzende, die als Teilnehmer zugewiesen sind, können die Proofing Viewer verwenden, um Kommentare und Markups zu dem Dokument hinzuzufügen. Fahren Sie mit dem nächsten Abschnitt fort, um zu erfahren, wie Sie Reviewer hinzufügen.
 
-## Öffnen Sie die Dokumentzusammenfassung und weisen Sie Teilnehmer zu
+## Öffnen Sie die Dokumentzusammenfassung und weisen Sie der Produktion Teilnehmer zu
 
 Sie haben die Möglichkeit, Prüfer, genehmigende Personen oder eine Mischung aus beidem zuzuweisen:
 
@@ -93,8 +94,27 @@ So weisen Sie Teilnehmer zu:
 
 1. Nachdem Sie alle validierungsverantwortlichen Personen und genehmigenden Personen hinzugefügt haben, klicken Sie auf **Genehmigungen anfordern**. Die Teilnehmer werden per E-Mail benachrichtigt.
 
+<div class="preview">
 
-## Erstellen Sie nach Bedarf eine neue Version
+## Öffnen Sie die Dokumentzusammenfassung und weisen Sie Teilnehmer in der Vorschau zu
+
+Das Dialogfeld Genehmigung anfordern wird standardmäßig im Standardmodus für eine einstufige Genehmigung geöffnet. Wechseln Sie in den erweiterten Modus, um mehrstufige Genehmigungen oder parallele Pfade zu konfigurieren.
+
+So weisen Sie Teilnehmer zu:
+
+1. Wählen Sie das hochgeladene Dokument aus und öffnen Sie die Dokumentzusammenfassung.
+
+   ![Dokumentzusammenfassung öffnen](assets/open-doc-summary.png)
+
+1. Scrollen Sie nach unten zum Abschnitt **Genehmigungen** und klicken Sie dann auf **Workflow erstellen**. Das **„Genehmigung anfordern** wird im Standardmodus geöffnet.
+
+1. Konfigurieren des Validierungs-Workflows. Beschreibung der Felder, des erweiterten Modus-Umschalters und der parallelen Flusspfade finden Sie unter [Erstellen eines Workflow für die Dokumentvalidierung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+1. Klicken Sie **Genehmigung anfordern**. Die Teilnehmer werden per E-Mail benachrichtigt.
+
+</div>
+
+## Erstellen Sie bei Bedarf eine neue Version in der Produktionsumgebung.
 
 Wenn Sie eine weitere Runde der Überprüfung und Genehmigung benötigen, können Sie eine neue Korrekturabzugsversion erstellen und die vorherigen Teilnehmer, neue Teilnehmer oder eine Mischung aus beiden hinzufügen. In der Dokumentzusammenfassung können Sie Informationen zu früheren Versionen und Teilnehmern anzeigen.
 
@@ -141,7 +161,31 @@ Hinzufügen einer neuen Version:
 
 1. Nachdem Sie alle validierungsverantwortlichen Personen und genehmigenden Personen hinzugefügt haben, klicken Sie auf **Genehmigungen anfordern**. Die Teilnehmer werden per E-Mail benachrichtigt.
 
+<div class="preview">
 
+## Erstellen Sie eine neue Version nach Bedarf in der Vorschau
+
+Wenn Sie eine weitere Runde der Überprüfung und Genehmigung benötigen, können Sie eine neue Korrekturabzugsversion erstellen und die vorherigen Teilnehmer, neue Teilnehmer oder eine Mischung aus beiden hinzufügen. In der Dokumentzusammenfassung können Sie Informationen zu früheren Versionen und Teilnehmern anzeigen.
+
+Das Dialogfeld Genehmigung anfordern wird standardmäßig im Standardmodus für eine einstufige Genehmigung geöffnet. Wechseln Sie in den erweiterten Modus, um mehrstufige Genehmigungen oder parallele Pfade zu konfigurieren.
+
+Hinzufügen einer neuen Version:
+
+1. Ziehen Sie die neue Datei per Drag-and-Drop auf das vorherige Dokument in Workfront. Workfront erstellt automatisch eine neue Version.
+
+1. Nachdem das Dokument hochgeladen wurde, wählen Sie das Dokument aus und klicken Sie auf **Korrekturabzug erstellen** > **Einfacher Korrekturabzug**.
+
+1. Wählen Sie das Dokument erneut aus und öffnen Sie dann die Dokumentzusammenfassung.
+
+   ![Dokumentzusammenfassung öffnen](assets/open-doc-summary.png)
+
+1. Scrollen Sie nach unten zum Abschnitt **Genehmigungen** und klicken Sie dann auf **Workflow erstellen**. Das **„Genehmigung anfordern** wird im Standardmodus geöffnet.
+
+1. Konfigurieren des Validierungs-Workflows. Beschreibung der Felder, des erweiterten Modus-Umschalters und der parallelen Flusspfade finden Sie unter [Erstellen eines Workflow für die Dokumentvalidierung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+1. Klicken Sie **Genehmigung anfordern**. Die Teilnehmer werden per E-Mail benachrichtigt.
+
+</div>
 
 ## Korrekturabzug prüfen und eine Entscheidung treffen
 
