@@ -24,10 +24,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 61d733a9808850e780bfd74dbf3dcfb9d9d86282
 workflow-type: tm+mt
-source-wordcount: 7342
-ht-degree: 91%
+source-wordcount: 8296
+ht-degree: 86%
 
 ---
 
@@ -155,40 +155,41 @@ Benutzerdefinierte Formulare sind auf 500 Felder beschränkt. Ein Zähler unten
 
    Klicken Sie auf **Speichern und schließen**.
 
-### Hinweise zu Feldnamen und -Labels {#notes-on-field-names-and-labels}
+### Hinweise zu Namen und Beschriftungen von Feld-APIs {#notes-on-field-names-and-labels}
 
-Das Label ist für die meisten Felder verfügbar. Es handelt sich um ein beschreibendes Label, das über dem Feld oder Widget im benutzerdefinierten Formular angezeigt wird. Sie können dieses Label jederzeit ändern.
+* Das Label ist für die meisten Felder verfügbar. Es handelt sich um ein beschreibendes Label, das über dem Feld oder Widget im benutzerdefinierten Formular angezeigt wird. Sie können dieses Label jederzeit ändern.
 
->[!NOTE]
->
->Verwenden Sie möglichst keine Sonderzeichen in diesem Label, da sie in Berichten nicht korrekt angezeigt werden.
+  >[!NOTE]
+  >
+  >Verwenden Sie möglichst keine Sonderzeichen in diesem Label, da sie in Berichten nicht korrekt angezeigt werden.
 
-Für jedes Feld ist ein Name erforderlich. Dieser Name wird vom System zur Identifizierung des benutzerdefinierten Feldes verwendet, wenn Sie es verschiedenen Bereichen in Workfront hinzufügen, z. B. Berichten, der Startseite und API-Interaktionen. Wenn Sie das Feld oder Widget zum ersten Mal konfigurieren und das Label eingeben, wird dieser automatisch in das Feld „Name“ übernommen. Die Felder „Label“ und „Name“ werden nicht synchronisiert. Dadurch haben Sie die Möglichkeit, das Label zu ändern, das die Benutzenden sehen, ohne den Namen ändern zu müssen, den das System sieht.
+* Für jedes Feld ist ein API-Name erforderlich. Dieser Name wird vom System zur Identifizierung des benutzerdefinierten Feldes verwendet, wenn Sie es verschiedenen Bereichen in Workfront hinzufügen, z. B. Berichten, der Startseite und API-Interaktionen. Wenn Sie das Feld oder Widget zum ersten Mal konfigurieren und die Beschriftung eingeben, wird das Feld Name / <span class="preview">API-Name</span> automatisch ausgefüllt, damit es übereinstimmt. Die Felder Beschriftung und Name <span class="preview">API-Name</span> werden nicht synchronisiert. Dadurch haben Sie die Möglichkeit, das Label zu ändern, das die Benutzenden sehen, ohne den Namen ändern zu müssen, den das System sieht.
 
-Der Name des benutzerdefinierten Feldes muss in der Workfront-Instanz Ihrer Organisation eindeutig sein. Auf diese Weise können Sie einen bereits für ein anderes benutzerdefiniertes Formular erstellten Namen wiederverwenden.
+* Jeder benutzerdefinierte Feld-API-Name muss in der Workfront-Instanz Ihres Unternehmens eindeutig sein. Auf diese Weise können Sie einen bereits für ein anderes benutzerdefiniertes Formular erstellten Namen wiederverwenden.
 
->[!NOTE]
->
->Obwohl dies möglich ist, empfehlen wir, diesen Namen nicht zu ändern, nachdem Sie oder andere Benutzende mit der Verwendung des benutzerdefinierten Formulars in Workfront begonnen haben. Andernfalls erkennt das System das benutzerdefinierte Feld nicht mehr, in dem jetzt in anderen Bereichen von Workfront darauf verwiesen werden kann.
->Wenn Sie beispielsweise ein benutzerdefiniertes Feld zu einem Bericht hinzufügen und später seinen Namen ändern, erkennt Workfront es im Bericht nicht. Daher funktioniert es dort nicht mehr ordnungsgemäß, es sei denn, Sie fügen es dem Bericht unter dem neuen Namen erneut hinzu.
->
->Es wird empfohlen, keinen Namen einzugeben, der bereits für integrierte Workfront-Felder verwendet wird.
->
->Es wird empfohlen, im Namen des benutzerdefinierten Feldes keinen Punkt zu verwenden, um Fehler zu vermeiden, wenn das Feld in verschiedenen Bereichen von Workfront verwendet wird.
+* Obwohl dies möglich ist, empfehlen wir, diesen API-Namen nicht zu ändern, nachdem Sie oder andere Benutzende mit der Verwendung des benutzerdefinierten Formulars in Workfront begonnen haben. Andernfalls erkennt das System das benutzerdefinierte Feld nicht mehr, wenn in anderen Bereichen von Workfront darauf verwiesen wird.
 
-Die folgenden Sonderzeichen werden in Labels und Namen benutzerdefinierter Felder nicht unterstützt.
+  Wenn Sie beispielsweise ein benutzerdefiniertes Feld zu einem Bericht hinzufügen und später seinen API-Namen ändern, erkennt Workfront es im Bericht nicht und funktioniert dort nicht mehr ordnungsgemäß, es sei denn, Sie fügen es unter dem neuen Namen erneut zum Bericht hinzu.
 
-* \t
-* \n
-* \r
-* \f
-* `[`
-* `]`
-* (
-* )
-* :
-* `{`
-* `}`
+* <span class="preview">API-Namen sind standardmäßig schreibgeschützt. Damit der API-Name bearbeitet werden kann, klicken Sie auf das Symbol **Bearbeiten** neben dem **API-Namen**. Geben Sie **Bestätigen** in das Bestätigungsfeld ein und klicken Sie auf **Feld umbenennen**. </span>
+
+* Es wird empfohlen, keinen API-Namen einzugeben, der bereits für integrierte Workfront-Felder verwendet wird.
+
+* Es wird empfohlen, den Punkt/Punkt im API-Namen des benutzerdefinierten Felds nicht zu verwenden, um Fehler zu vermeiden, wenn das Feld in verschiedenen Bereichen von Workfront verwendet wird.
+
+* Die folgenden Sonderzeichen werden in benutzerdefinierten Feldbezeichnungen und API-Namen nicht unterstützt.
+
+   * \t
+   * \n
+   * \r
+   * \f
+   * `[`
+   * `]`
+   * (
+   * )
+   * :
+   * `{`
+   * `}`
 
 ### Hinzufügen von Textfeldern
 
@@ -274,9 +275,7 @@ So fügen Sie ein Textfeld hinzu:
     </tr>
     <tr>
     <td>Anweisungen</td>
-    <td>Geben Sie zusätzliche Informationen zum Feld ein. Wenn Benutzer das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.
-    <img src="assets/instructions-form-designer.png">
-    </td>
+    <td>Geben Sie zusätzliche Informationen zum Feld ein. Wenn Benutzende das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.</td>
     <td><ul>
     <li>Einzeiliger Text</li>
     <li>Absatz</li>
@@ -638,7 +637,8 @@ So fügen Sie Felder für die automatische Vervollständigung und Datumsfelder h
        <ul> 
         <li>Wenn Sie ein vorhandenes benutzerdefiniertes Formular bearbeiten, werden beim Hinzufügen eines Filters zu einem Feld mit automatischer Vervollständigung keine Objekte entfernt (außerhalb des Bereichs des Filters), die Benutzende bereits mithilfe des Feldes hinzugefügt haben.</li> 
         <li>Dieser Filter ist auf Mobilgeräten nicht verfügbar. Wenn Sie den Filter für ein Feld mit automatischer Vervollständigung verwenden, wird das Feld auf den Mobilgeräten der Benutzenden angezeigt, ohne dass der Filter verfügbar ist.</li> 
-        </ul></p></td> 
+        </ul></p>
+      </td>  
       <td>
        <ul>
        <li>Typeahead</li>
@@ -702,7 +702,7 @@ So fügen Sie eine externe Suche hinzu:
      </tr> 
      <tr> 
       <td role="rowheader">Name</td> 
-      <td> <p>(Erforderlich) Über diesen Namen wird das Feld vom System identifiziert. Wenn Sie das Widget zum ersten Mal konfigurieren und das Label eingeben, wird dieses automatisch in das Feld „Name“ übernommen. Die Felder „Label“ und „Name“ werden jedoch nicht synchronisiert. Dadurch haben Sie die Möglichkeit, das Label zu ändern, das den Benutzenden angezeigt wird, ohne den Namen ändern zu müssen, den das System sieht.</p>
+      <td> <p>(Erforderlich) Über diesen Namen wird das Feld vom System identifiziert. Wenn Sie das Feld zum ersten Mal konfigurieren und das Label eingeben, wird dieser automatisch in das Feld „Name“ übernommen. Die Felder „Label“ und „Name“ werden jedoch nicht synchronisiert. Dadurch haben Sie die Möglichkeit, das Label zu ändern, das den Benutzenden angezeigt wird, ohne den Namen ändern zu müssen, den das System sieht.</p>
       <p>Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -Labels</a>.</p> </td>
      </tr> 
       <td role="rowheader">Anweisungen</td> 
@@ -748,15 +748,14 @@ So fügen Sie eine externe Suche hinzu:
      </tr>
      <tr> 
       <td role="rowheader">JSON-Pfad</td>
-      <td><p>Geben Sie den JSON-Pfad für die API ein oder fügen Sie ihn ein.</p> <p>Diese Option ermöglicht das Extrahieren von Daten aus der von der API-URL zurückgegebenen JSON. Damit können Sie auswählen, welche Werte aus dem JSON-Code in den Dropdown-Optionen angezeigt werden sollen.</p><p>Wenn Ihre API-URL beispielsweise JSON im folgenden Format zurückgibt, können Sie „$.data[*].name“ verwenden, um USA und Kanada als Dropdown-Optionen auszuwählen:</br>
+      <td><p>Geben Sie den JSON-Pfad für die API ein oder fügen Sie ihn ein.</p> <p>Diese Option ermöglicht das Extrahieren von Daten aus der von der API-URL zurückgegebenen JSON. Damit können Sie auswählen, welche Werte aus dem JSON-Code in den Dropdown-Optionen angezeigt werden sollen.</p><p>Wenn Ihre API-URL beispielsweise JSON im folgenden Format zurückgibt, können Sie "$.data[*].name“ verwenden, um USA und Kanada als Dropdown-Optionen auszuwählen:
       <pre>
       &lbrace;
-       data: &lbrace;
-         { name: "USA"},
-         { name: "Canada"}
+       Daten: &lbrace;
+         { name: „USA“},
+         { name: „Canada“}
        &rbrace;
-      &rbrace;
-      </pre>
+      &rbrace;</pre>
       </p>
      <p>Weitere Informationen zum JSON-Pfad und um sicherzustellen, dass Sie den richtigen Pfad angeben, finden Sie unter <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
      </tr>
@@ -794,6 +793,95 @@ So fügen Sie eine externe Suche hinzu:
 >* Anzahl weiterer Versuche: 3
 >* Wartezeit zwischen weiteren Zustellversuchen: 500 ms
 >* Erwartete Antwortstatus: 2xx
+
+<div class="preview">
+
+### Hinzufügen interner Suchfelder
+
+Ein internes Suchfeld ermöglicht es Benutzenden, den Namen eines Objekts einzugeben, das in Workfront vorhanden ist. Eine Liste mit Vorschlägen wird angezeigt, wenn Benutzende mit der Eingabe beginnen. Wenn der Benutzer beispielsweise einen Benutzernamen eingibt, wird eine Liste mit übereinstimmenden Namen angezeigt. Der Feldtyp Interne Suche wird für die folgenden Objekte unterstützt:
+
+* Benutzerin oder Benutzer
+* Gruppe
+* Aufgabengebiet
+* Portfolio
+* Programm
+* Projekt
+* Team
+* Vorlage
+* Firma
+* Aufgabe
+* Problem
+* Dokument
+* Standort
+
+Hinzufügen einer internen Suche:
+
+1. Suchen Sie auf **Registerkarte** Neues Feld“ auf der linken Bildschirmseite nach **Interne Suche** oder **Interne Suche mit Mehrfachauswahl** und ziehen Sie sie in einen Abschnitt auf der Arbeitsfläche.
+1. Konfigurieren Sie auf der rechten Seite des Bildschirms die Optionen für das benutzerdefinierte Feld:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Label</td> 
+      <td> <p>(Erforderlich) Geben Sie ein beschreibendes Label ein, das über dem benutzerdefinierten Feld angezeigt werden soll. Sie können dieses Label jederzeit ändern.</p> <p><b>Wichtig</b>: Verwenden Sie in diesem Label keine Sonderzeichen, da diese in Berichten nicht korrekt angezeigt werden. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -Labels</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Name</td> 
+      <td> <p>(Erforderlich) Über diesen Namen wird das Feld vom System identifiziert. Wenn Sie das Feld zum ersten Mal konfigurieren und das Label eingeben, wird dieser automatisch in das Feld „Name“ übernommen. Die Felder „Label“ und „Name“ werden jedoch nicht synchronisiert. Dadurch haben Sie die Möglichkeit, das Label zu ändern, das den Benutzenden angezeigt wird, ohne den Namen ändern zu müssen, den das System sieht.</p>
+      <p>Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -Labels</a>.</p> </td>
+     </tr> 
+      <td role="rowheader">Anweisungen</td> 
+      <td> <p>Geben Sie zusätzliche Informationen zum benutzerdefinierten Feld ein. Wenn Benutzende das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Referenzierter Objekttyp</td>
+      <td><p>Wählen Sie den Objekttyp aus, den Sie mit dem Feld verknüpfen möchten.</p> <p>Nachdem Sie auf <strong>Anwenden</strong> oder <strong>Speichern und schließen</strong> geklickt haben, können Sie den Objekttyp für das Feld nicht mehr ändern.</p>
+      <p><strong>Hinweis:</strong></p>
+      <ul><li>Wenn die bzw. der Workfront-Admin den Namen für Portfolios, Programme oder Projekte in der Workfront-Benutzeroberfläche angepasst hat, wird in dieser Dropdown-Liste der standardmäßige Workfront-Name für das Objekt angezeigt, nicht der benutzerdefinierte Name. Wenden Sie sich an den bzw. die Workfront-Admin, wenn Sie Hilfe benötigen.</li>
+      <li>Die folgenden Objekttypen werden in Workfront-Apps für iOS und Android unterstützt: „Benutzerin oder Benutzer“, „Firma“, „Gruppe“, „Aufgabengebiet“, „Portfolio“, „Programm“, „Projekt“ und „Vorlage“.</li>
+      </ul></td>
+     </tr> 
+     <tr>
+      <td>Filter hinzufügen</td>
+      <td><p>Fügen Sie einen Filter für einen Objekttyp hinzu, um die Objekte zu begrenzen, die Benutzende auswählen können, wenn sie das Feld verwenden. </p> <p>Sie können beispielsweise ein Feld so beschränken, dass Benutzernamen nur ausgewählt werden können, wenn sie die folgenden Kriterien erfüllen:</p> 
+       <ul> 
+        <li>Sie gehören zu einer oder mehreren Gruppen, die Sie angeben.</li> 
+        <li>Sie sind mit einer von Ihnen angegebenen Rolle oder einem von Ihnen angegebenen Aufgabengebiet verknüpft.</li> 
+        <li>Sie gehören zur selben Gruppe wie die Person, die das Feld verwendet.</li> 
+       </ul>
+       <p>Sie müssen den Filter für den ausgewählten Objekttyp mithilfe der Textmodus-Syntax definieren. Weitere Informationen zum Erstellen eines Filters im Textmodus finden Sie unter <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Bearbeiten eines Filters im Textmodus</a>.</p>
+       <p><b>Tipp</b> Sie können einen Bericht erstellen, um Ihren Filter zu testen, bevor Sie den Filter direkt zum internen Suchfeld hinzufügen. Auf diese Weise können Sie überprüfen, ob der Filter die richtigen Objekte zurückgibt. Anschließend können Sie im Bericht in den Textmodus wechseln, die Textmodusanweisung kopieren und zum internen Suchfilter hinzufügen.</p>
+       <p><b>Hinweis</b>:
+       <ul> 
+        <li>Wenn Sie ein vorhandenes benutzerdefiniertes Formular bearbeiten, werden beim Hinzufügen eines Filters zu einem internen Suchfeld keine Objekte entfernt (außerhalb des Bereichs des Filters), die Benutzende bereits mithilfe des Felds hinzugefügt haben.</li> 
+        <li>Dieser Filter ist auf Mobilgeräten nicht verfügbar. Wenn Sie den Filter für ein internes Suchfeld verwenden, wird das Feld auf den Mobilgeräten der Benutzenden angezeigt, ohne vom Filter betroffen zu sein.</li> 
+        </ul></p>
+      </td>  
+     </tr>
+     <tr> 
+      <td role="rowheader">Mehrfachauswahl-Dropdown</td>
+      <td><p>Wählen Sie diese Option aus, damit die Benutzerin bzw. der Benutzer mehrere Werte in der Dropdown-Liste auswählen kann.</p></td>
+     </tr>
+     <tr>
+      <td>Aktiv</td>
+      <td><p>Diese Option ist standardmäßig aktiviert.<p><p>Wenn Sie ein Feld als inaktiv festlegen, wird es aus Berichten, Filtern und Ansichten ausgeschlossen und ist nicht mehr in der Feldbibliothek für benutzerdefinierte Formulare verfügbar.</p></td>
+     </tr>
+     <tr> 
+      <td role="rowheader">Zu einem Pflichtfeld machen</td>
+      <td><p>Wählen Sie diese Option aus, wenn das Feld erforderlich sein soll, damit Benutzende das benutzerdefinierte Formular ausfüllen können.</p></td>
+     </tr>       
+    </tbody>
+   </table>
+
+1. Um Ihre Änderungen zu speichern, klicken Sie auf **Anwenden** und wechseln Sie zu einem anderen Abschnitt, um mit der Erstellung Ihres Formulars fortzufahren.
+
+   Oder
+
+   Klicken Sie auf **Speichern und schließen**.
+
+</div>
 
 ### Hinzufügen von Bildern, PDFs und Videos
 
@@ -1019,7 +1107,9 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
         <li>Sie sind mit einer von Ihnen angegebenen Rolle oder einem von Ihnen angegebenen Aufgabengebiet verknüpft.</li> 
         <li>Sie gehören zur selben Gruppe wie die Person, die das Feld verwendet.</li> 
        </ul>
+       <p><span class="preview">Wenn für das Feld ein Systemfilter vorhanden ist, wird er standardmäßig angewendet, wenn Sie keinen benutzerdefinierten Filter hinzufügen. Ein benutzerdefinierter Filter überschreibt den Systemfilter.</span></p>
        <p>Sie müssen den Filter für das von Ihnen ausgewählte Referenzfeld mithilfe der Textmodus-Syntax definieren. Weitere Informationen finden Sie unter <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Bearbeiten eines Filters im Textmodus</a>.</p>
+       <p><span class="preview">Verwenden Sie die Syntax des dynamischen Filters, um die Liste der Elemente in diesem Feld auf der Grundlage des Werts eines anderen Felds einzugrenzen. Wenn Sie beispielsweise <code>?portfolioID={portfolio}.{ID}</code> in einem Projektfeldfilter verwenden und sich im benutzerdefinierten Formular ein natives Portfolio-Feld befindet, werden im Projektfeld nur Projekte angezeigt, die sich im ausgewählten Portfolio befinden. Wenn das Feld Portfolio leer gelassen wird, sind alle Projekte im Feld Projekt verfügbar.</span></p>
        <p><b>Hinweis</b>:
        <ul> 
         <li>Die Filteroption ist nur verfügbar, wenn Sie auf ein natives Feld mit automatischer Vervollständigung verweisen, z. B. „Portfolio“, „Firma“ oder „Besitzerin bzw. Besitzer“.</li>
@@ -1077,8 +1167,7 @@ So fügen Sie eine Adobe XD-Datei hinzu:
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Erforderlich) Geben Sie einen gültigen XD-Prototyp-Link ein oder fügen Sie ihn ein.</p> 
-      <p><b>Hinweis</b>: Die Einstellung „Link-Zugriff“ auf der Registerkarte Freigeben in Adobe XD muss auf „Jeder, der über den Link verfügt“ festgelegt sein. Andernfalls können Benutzende den Prototyp nicht anzeigen. 
-   </td> 
+      <p><b>Hinweis</b>: Die Einstellung „Link-Zugriff“ auf der Registerkarte „Freigeben“ in Adobe XD muss auf „Jede Person mit dem Link“ festgelegt sein. Andernfalls können Benutzende den Prototyp nicht anzeigen. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Anweisungen</td> 
