@@ -105,7 +105,7 @@ Beachten Sie Folgendes bei der Konfiguration von standardmäßigen Datensatzbere
 
 ## Konfigurieren von Standardeintragsberechtigungen für einen Datensatztyp
 
-1. Navigieren Sie zu Datensatztyp > **Mehr** Menü ![Mehr ](assets/more-menu.png) > **Einstellungen** > **Datensatzeinstellungen**.
+1. Navigieren Sie zu Datensatztyp > **Mehr** Menü ![Mehr &#x200B;](assets/more-menu.png) > **Einstellungen** > **Datensatzeinstellungen**.
 
    ![Registerkarte Datensatzeinstellungen im Bereich Datensatztypeinstellungen](assets/record-settings-tab-in-record-type-settings-area.png)
 
