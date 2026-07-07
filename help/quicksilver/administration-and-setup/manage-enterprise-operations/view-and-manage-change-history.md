@@ -94,8 +94,8 @@ Die Liste „Änderungsverlauf“ ist eine erweiterte Liste und enthält Filter,
 1. Um nach einem bestimmten Begriff zu suchen, klicken Sie auf die Suchleiste und geben Sie den Begriff ein. Die Ergebnisse werden bei der Eingabe gefiltert.
 1. (Optional) Informationen zum Filtern nach einer Spalte finden Sie unter [Filtern von Elementen in einer erweiterten Liste](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#filter-items-in-an-enhanced-list) im Artikel Verwenden von erweiterten Listen.
 1. (Optional) Informationen zum Ausblenden, Anzeigen oder Neuanordnen von Spalten finden Sie unter [Spalten anpassen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#customize-columns) im Artikel Verwenden von Verbesserungslisten.
-1. Informationen zum Hinzufügen oder Entfernen von Spalten finden [ unter „Hinzufügen und Entfernen von Spalten mit ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager) Spaltenmanager“ im Artikel Verwenden von erweiterten Listen.
-1. Informationen zum Anpassen der Zeilenhöhe finden [ unter „Ändern der Zeilenhöhe in einer Ansicht](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#change-the-row-height-in-a-view) im Artikel Verwenden von Verbesserungslisten.
+1. Informationen zum Hinzufügen oder Entfernen von Spalten finden [&#x200B; unter „Hinzufügen und Entfernen von Spalten mit &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager) Spaltenmanager“ im Artikel Verwenden von erweiterten Listen.
+1. Informationen zum Anpassen der Zeilenhöhe finden [&#x200B; unter „Ändern der Zeilenhöhe in einer Ansicht](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#change-the-row-height-in-a-view) im Artikel Verwenden von Verbesserungslisten.
 
 
 
