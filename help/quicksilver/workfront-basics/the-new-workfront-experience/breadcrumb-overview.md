@@ -11,17 +11,23 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
 workflow-type: tm+mt
-source-wordcount: 291
+source-wordcount: 362
 ht-degree: 1%
 
 ---
 
 # Überblick über Breadcrumbs
 
+{{highlighted-preview}}
+
 Breadcrumbs zeigen die vollständige Navigationshierarchie für alle Objekttypen an. Jedes Objekt im Breadcrumb-Pfad verfügt über eine Beschriftung, die den Objekttyp anzeigt. Die Seite, auf der Sie sich derzeit befinden, wird sowohl in der Kopfzeile der Seite als auch am Ende des Breadcrumb-Pfads kursiv angezeigt. Im folgenden Beispiel ist dies die Aufgabe &quot;[!UICONTROL &#x200B; für das Brand Team].
 
+<span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
+![Reduzierter Breadcrumb](assets/collapsed-breadcrumb-2026.png)
+
+Beispielbild in der Produktionsumgebung:
 ![Reduzierter Breadcrumb](assets/NWE-collapsed-breadcrumb.png)
 
 Wenn im Breadcrumb-Pfad zu viele Objekte vorhanden sind oder die Bildschirmbreite die Anzeige der vollständigen Navigationshierarchie verhindert, reduziert der Pfad einige der Breadcrumbs und gruppiert diese Objekte am Anfang des Breadcrumb-Pfads. Sowohl das Projekt als auch die aktuelle Objektseite sind immer im Breadcrumb-Pfad sichtbar.
@@ -30,6 +36,10 @@ Beispielsweise zeigt „3 more“ in der obigen Abbildung an, dass 3 Objekte nic
 
 Wenn Sie auf &quot;[!UICONTROL mehr] klicken, können Sie die gesamte Hierarchie erweitern. Sie können auf &quot;[!UICONTROL Less] klicken, um den Breadcrumb-Pfad erneut zu reduzieren.
 
+<span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
+![Reduzierter Breadcrumb](assets/expanded-breadcrumb-2026.png)
+
+Beispielbild in der Produktionsumgebung:
 ![Erweiterter Breadcrumb](assets/NWE-expanded-breadcrumb.png)
 
 Sie können auch die folgenden Tasten verwenden, um durch die Breadcrumbs zu navigieren:
@@ -82,3 +92,5 @@ Informationen zu übergeordneten Objekten in [!DNL Workfront] finden Sie unter [
 1. Klicken Sie auf ein beliebiges Objekt im Breadcrumb-Pfad, um auf dieses Objekt zuzugreifen.
 
    Die Objektseite wird geöffnet.
+
+   Wenn Sie ein Projekt betrachten, das mit einem Objekt in Workfront Planning verbunden ist (z. B. eine Kampagne), können Sie über den Breadcrumb zwischen den Objekttypen Planning und Workfront wechseln. Weitere Informationen finden Sie unter [Hierarchie und Breadcrumb - Übersicht](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).

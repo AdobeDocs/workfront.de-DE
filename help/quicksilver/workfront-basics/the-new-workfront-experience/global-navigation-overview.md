@@ -5,19 +5,25 @@ description: Die obere Navigationsleiste, die oben auf dem Bildschirm in  [!DNL 
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 201a4430cfaa10bb99ef63ec96ecdccd3b07b0f1
+source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '687'
 ht-degree: 1%
 
 ---
 
 # Überblick über die obere Navigationsleiste
 
+{{highlighted-preview}}
+
 <!--Audited: 01/2024-->
 
 Die obere Navigationsleiste, die oben auf dem Bildschirm in [!DNL Adobe Workfront] angezeigt wird, ermöglicht es Ihnen, andere Bereiche der Plattform einfach zu finden und zu ihnen zu navigieren.
 
+<span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
+![Navigationsleiste oben](assets/wf-top-navigation-070626.png)
+
+Beispielbild in der Produktionsumgebung:
 ![Navigationsleiste oben](assets/wf-top-navigation-2026.png)
 
 ## Symbol [!UICONTROL Startseite]

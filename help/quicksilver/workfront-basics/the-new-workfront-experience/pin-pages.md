@@ -14,14 +14,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0115873e8dc3f17ae11fe137bfb57f12e6b514db
 workflow-type: tm+mt
-source-wordcount: 401
-ht-degree: 9%
+source-wordcount: 531
+ht-degree: 7%
 
 ---
 
 # Anheften von Seiten, um den Arbeitsbereich anzupassen
+
+{{highlighted-preview}}
 
 <!-- Audited: 4/2025 -->
 
@@ -62,6 +64,10 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 1. Klicken Sie oben links auf der Seite auf **[!UICONTROL Aktuelle Seite]**. Die angeheftete Seite kann jetzt von jeder Seite in [!DNL Workfront] aus aufgerufen werden.
 
+   <span class="preview">Beispielbild in der Vorschau-Umgebung:
+   ![Aktuelle Seite anheften](assets/pin-current-page-button-2026.png)
+
+   Beispielbild in der Produktionsumgebung:
    ![Aktuelle Seite anheften](assets/pin-current-page-button.png)
 
 ## Zugriff auf eine fixierte Seite
@@ -76,9 +82,32 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
    Wenn Sie viele Seiten angeheftet haben, klicken Sie auf das Symbol **[!UICONTROL Mehr]** ![Klicken Sie auf das Symbol Mehr](assets/more-icon.png), um zusätzliche angeheftete Seiten anzuzeigen.
 
+   <span class="preview">Beispielbild in der Vorschau-Umgebung:
+   ![Aktuelle Seite anheften](assets/display-pinned-pages-2026.png)
+
+   Beispielbild in der Produktionsumgebung:
    ![Anzeigen zusätzlicher angehefteter Seiten](assets/display-pinned-pages.png)
 
    Die angeheftete Seite wird angezeigt.
+
+<div class="preview">
+
+## Pins verwalten
+
+Sie können fixierte Seiten an einer Stelle umbenennen, neu anordnen und entfernen.
+
+1. Klicken Sie auf das **[!UICONTROL Mehr]**-Symbol ![Klicken Sie auf das Symbol Mehr](assets/more-icon.png) in der Reihe der Pins und wählen Sie **Pins verwalten**.
+1. Führen **im Feld &quot;** verwalten“ einen oder mehrere der folgenden Schritte aus:
+
+   * Klicken Sie auf **Bearbeiten**, um eine angeheftete Seite umzubenennen. Geben Sie den neuen Namen ein und klicken Sie zur Bestätigung auf das Häkchen.
+   * Ziehen Sie die fixierten Seiten in die gewünschte Reihenfolge.
+   * Klicken Sie auf das **Löschen**-Symbol, um eine angeheftete Seite aus der Liste zu entfernen.
+
+   ![Feld „Pins verwalten“](assets/manage-pins.png)
+
+1. Klicken Sie **Schließen** wenn Sie die Bearbeitung der Pins abgeschlossen haben.
+
+</div>
 
 ## Umbenennen einer fixierten Seite
 
@@ -90,7 +119,6 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 1. Geben Sie den neuen Pin-Namen ein und klicken Sie dann auf **Speichern**.
 
    ![Klicken Sie auf das Häkchen, um die Nadel umzubenennen](assets/rename-pin-dialog-box.png)
-
 
 ## Fixierte Seiten neu anordnen
 
