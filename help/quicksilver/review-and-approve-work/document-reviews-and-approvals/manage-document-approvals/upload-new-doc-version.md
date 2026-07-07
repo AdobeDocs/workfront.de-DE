@@ -9,25 +9,21 @@ exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/grwYgMUQc-Ft08jC1Fb1n7y18cLi1HNcXvJ3wPX0URg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
 workflow-type: tm+mt
-source-wordcount: 664
-ht-degree: 9%
+source-wordcount: 1196
+ht-degree: 5%
 
 ---
 
 # Hochladen einer neuen Dokumentversion und Anfordern einer Genehmigung
+
+{{highlighted-preview}}
 
 Wenn ein Dokument in einer früheren Überprüfung als „Überarbeitung erforderlich“ gekennzeichnet ist, können Sie eine neue Version in das Originaldokument hochladen und eine weitere Genehmigungsrunde starten. Nachdem Sie eine neue Version des Dokuments hochgeladen haben, werden die vorherigen Versionen gesperrt.
 
@@ -76,7 +72,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 
 
-## Verwenden Sie Drag-and-Drop, um im Bereich für veraltete Dokumente eine neue Version hinzuzufügen
+## Verwenden Sie Drag-and-Drop, um im Bereich für veraltete Dokumente in der Produktion eine neue Version hinzuzufügen
 
 Wenn sich Ihr Unternehmen im Workfront-Speicher befindet, wird der Bereich für veraltete Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Workfront-Speicher finden Sie unter [Unterschiede zwischen Adobe-Cloud-Speicher und Legacy-Workfront-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
 
@@ -95,7 +91,6 @@ Hinzufügen einer neuen Version:
 1. Ziehen Sie die neue Datei auf das vorherige Dokument. Dadurch wird automatisch eine neue Version erstellt.
 
 1. Nachdem das Dokument hochgeladen wurde, wählen Sie das Dokument aus, um das Bedienfeld Dokumentzusammenfassung zu öffnen. Hier sehen Sie die Versionsnummer oben im Bedienfeld.
-   ![Öffnen Sie die Dokumentdetailseite](assets/open-doc-details.png)
 
 
 1. Scrollen Sie nach unten zum Abschnitt **Genehmigungen** .
@@ -141,5 +136,69 @@ Hinzufügen einer neuen Version:
 
    Der Genehmigungs-Workflow wird gestartet und die genehmigenden Personen erhalten eine Benachrichtigung, dass ihre Genehmigung für die neue Dokumentversion erforderlich ist. Die vorherige Dokumentversion ist gesperrt und alle ausstehenden Genehmigungen für die vorherige Version werden zurückgezogen.
 
-   ![Genehmigung anfordern](assets/request-approval.png)
+   ![Genehmigung anfordern
    <!--1. To add all previous participants, click **Add all**. You can also add new participants or remove previous participants as needed.-->
+
+<div class="preview">
+
+## Verwenden Sie Drag-and-Drop, um im Bereich für veraltete Dokumente in der Vorschau eine neue Version hinzuzufügen
+
+Wenn sich Ihr Unternehmen im Workfront-Speicher befindet, wird der Bereich für veraltete Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Workfront-Speicher finden Sie unter [Unterschiede zwischen Adobe-Cloud-Speicher und Legacy-Workfront-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
+
+>[!NOTE]
+>
+>Drag-and-Drop funktioniert nicht mit Internet Explorer.
+
+Wenn Sie eine weitere Runde der Überprüfung und Genehmigung für ein Dokument benötigen, können Sie in Workfront eine neue Dokumentversion erstellen. Sie können die vorherigen Teilnehmer, neue Teilnehmer oder eine Mischung aus beiden hinzufügen. Informationen zu früheren Versionen und Teilnehmern finden Sie auf der Seite Dokumentdetails .
+
+Das Dialogfeld Genehmigung anfordern wird standardmäßig im Standardmodus für eine einstufige Genehmigung geöffnet. Wechseln Sie in den erweiterten Modus, um mehrstufige Genehmigungen oder parallele Pfade zu konfigurieren.
+
+So fügen Sie eine neue Version hinzu und fordern die Genehmigung an:
+
+1. Navigieren Sie zum Dokument in Workfront.
+
+1. Ziehen Sie die neue Datei auf das vorherige Dokument. Workfront erstellt automatisch eine neue Version.
+
+1. Nachdem das Dokument hochgeladen wurde, wählen Sie das Dokument aus, um das Bedienfeld Dokumentzusammenfassung zu öffnen. Die Versionsnummer wird oben im Bedienfeld angezeigt.
+
+1. Scrollen Sie nach unten zum Abschnitt **Genehmigungen** und klicken Sie dann auf **Workflow erstellen**. Das **„Genehmigung anfordern** wird im Standardmodus geöffnet.
+
+1. Konfigurieren des Validierungs-Workflows. Beschreibung der Felder, des erweiterten Modus-Umschalters und der parallelen Flusspfade finden Sie unter [Erstellen eines Workflow für die Dokumentvalidierung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+1. Klicken Sie **Genehmigung anfordern**.
+
+   Der Genehmigungs-Workflow wird gestartet und die genehmigenden Personen erhalten eine Benachrichtigung, dass ihre Genehmigung für die neue Dokumentversion erforderlich ist. Die vorherige Dokumentversion ist gesperrt und alle ausstehenden Genehmigungen für die vorherige Version werden zurückgezogen.
+
+## Verwenden Sie Drag-and-Drop, um in der Vorschau im Bereich Neue Dokumente eine neue Version hinzuzufügen
+
+Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, wird der Bereich Neue Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Adobe Cloud-Speicher finden Sie unter [Übersicht über Adobe Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+>[!NOTE]
+>
+>Drag-and-Drop funktioniert nicht mit Internet Explorer.
+
+Wenn Sie eine weitere Runde der Überprüfung und Genehmigung für ein Dokument benötigen, können Sie in Workfront eine neue Dokumentversion erstellen. Sie können der neuen Version des Dokuments einen Genehmigungs-Workflow hinzufügen.
+
+<!--
+the previous participants, new participants, or a mix of both. You can view information about previous versions and participants on the Document Details page.
+-->
+
+Das Dialogfeld Genehmigung anfordern wird standardmäßig im Standardmodus für eine einstufige Genehmigung geöffnet. Wechseln Sie in den erweiterten Modus, um mehrstufige Genehmigungen oder parallele Pfade zu konfigurieren.
+
+So fügen Sie eine neue Version hinzu und fordern die Genehmigung an:
+
+1. Navigieren Sie zum Dokument in Workfront.
+
+1. Ziehen Sie die neue Datei auf das vorherige Dokument. Workfront erstellt automatisch eine neue Version.
+
+1. Nachdem das Dokument hochgeladen wurde, wählen Sie das Dokument aus, um das Bedienfeld Zusammenfassung zu öffnen. Standardmäßig ist die neueste Version des Dokuments ausgewählt.
+
+1. Scrollen Sie nach unten zum Abschnitt **Genehmigungen** und klicken Sie dann auf **Workflow erstellen**. Das **„Genehmigung anfordern** wird im Standardmodus geöffnet.
+
+1. Konfigurieren des Validierungs-Workflows. Beschreibung der Felder, des erweiterten Modus-Umschalters und der parallelen Flusspfade finden Sie unter [Erstellen eines Workflow für die Dokumentvalidierung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+
+1. Klicken Sie **Genehmigung anfordern**.
+
+   Der Genehmigungs-Workflow wird gestartet und die genehmigenden Personen erhalten eine Benachrichtigung, dass ihre Genehmigung für die neue Dokumentversion erforderlich ist. Die vorherige Dokumentversion ist gesperrt und alle ausstehenden Genehmigungen für die vorherige Version werden zurückgezogen.
+
+</div>
