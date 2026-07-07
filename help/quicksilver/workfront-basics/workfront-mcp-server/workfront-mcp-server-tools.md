@@ -5,9 +5,9 @@ title: Adobe Workfront MCP-Server-Tools
 description: Referenzliste der über den Adobe Workfront MCP-Server verfügbaren Tools, gruppiert nach Workfront-Bereich.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+source-git-commit: 3a0b283d72b290ceab0801a569a8f38a7437ae5d
 workflow-type: tm+mt
-source-wordcount: '1578'
+source-wordcount: '1666'
 ht-degree: 6%
 
 ---
@@ -92,6 +92,9 @@ Wenn die KI-Agentenplattform Workfront-Elemente finden, diese jedoch nicht erste
 | Vorlage nach Namen suchen | `approvals_search_template_by_name` | Sucht Validierungsvorlagen nach Namen (Teilübereinstimmung ohne Berücksichtigung der Groß-/Kleinschreibung). | Lesen |
 | Erstellen einer Validierungsvorlage | `approvals_create_template` | Erstellt eine neue Validierungsvorlage mit linearen oder diagrammbasierten Stufenabhängigkeiten. | Schreiben |
 | Genehmigungsvorlage aktualisieren | `approvals_update_template` | Aktualisiert eine vorhandene Vorlage mit strukturierten Änderungen (Teilnehmer hinzufügen oder entfernen, Stadien umbenennen, Fristen festlegen usw.) | Schreiben |
+| Erinnern von Stakeholdern an Massengenehmigungen | `approvals_send_approval_reminder` | Senden Sie E-Mails zur Erinnerung an ausstehende genehmigende Personen an alle ausstehenden genehmigenden Personen im gesamten Projekt-, Ordner-, Kampagnen- oder Fälligkeitsdatumsfenster. | Schreiben |
+| Massenaktualisierung von Genehmigungsvorlagen | `approvals_update_template` | Führen Sie Vorlagenaktualisierungen für mehrere Vorlagen durch, z. B. Anwenden von Vorlagen auf Assets, Erstellen neuer Vorlagen von Grund auf oder aus vorhandenen Genehmigungsflüssen, Bearbeiten von Vorlagen und Ausführen von Massenvorgängen für Vorlagen und Assets. | Schreiben |
+| Genehmigungsteilnehmer stapelweise hinzufügen oder entfernen. | `approvals_update_approval_participants` und `approvals__submit_update_approval_participants` | Teilnehmer in einem Vorgang über ein gesamtes Portfolio, Programm oder Projekt hinweg hinzufügen, entfernen oder ersetzen. | Schreiben |
 
 ### Suchen und Benutzer
 
