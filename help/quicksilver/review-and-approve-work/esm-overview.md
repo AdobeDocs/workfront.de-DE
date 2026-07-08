@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 9d28f52ace4d443bdffc475baf79d482152d4157
+source-git-commit: c2fe0c6afbc9b536186bd473e95b3f82f144b06c
 workflow-type: tm+mt
-source-wordcount: 1004
+source-wordcount: 1061
 ht-degree: 0%
 
 ---
@@ -86,6 +86,10 @@ Weitere Informationen zum neuen Dokumentberechtigungsmodell finden Sie unter [Ob
 Auf Projektebene zeigen systemgenerierte Ordner ein verknüpftes Objekt an. Der Ordner erhält automatisch denselben Namen wie die Aufgabe oder das Problem, zu der bzw. dem er gehört. Mithilfe verknüpfter Ordner weiß das System, für welche Aufgabe oder welches Problem der Ordner angezeigt werden soll.
 
 Weitere Informationen finden Sie unter [Funktionsweise von Dokumentberechtigungen](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+
+#### Adobe Cloud Drive
+
+Adobe Cloud Drive ist ein Desktop-Programm, das Ihre Adobe-Cloud-Speicherprojekte als Laufwerk auf Ihrem Mac- oder Windows-Computer bereitstellt. Sie können Dateien in jeder Anwendung öffnen, bearbeiten und speichern, während Adobe Cloud Drive Ihre Arbeit mit dem Adobe Cloud-Speicher synchronisiert. Weitere Informationen finden Sie unter [Übersicht über Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
 
 ## Workfront-Objekte
 

@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 9cdb31404a92171c8972520eb54a9b5b0c729514
+source-git-commit: 8fa3fbb299fef17fbd49978e74adef94c45bb000
 workflow-type: tm+mt
 source-wordcount: '2761'
 ht-degree: 15%
@@ -233,7 +233,6 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             <td><p>July 7, 2026</p></td>
         </tr>
         -->
-        <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Fordern Sie mit Workfront und Frame.io eine Genehmigung für Adobe Express-Vorlagen an</a><p>[!BADGE Außerplanmäßig]{type=Neutral}</p>
                 <p>Die Integration von Adobe Express und Workfront mit Frame.io ermöglicht die strukturierte Überprüfung und Genehmigung von in Adobe Express erstellten Inhalten. Designer können eine Workflow-Vorlage für Workfront-Genehmigungen einer Express-Vorlage zuordnen, sodass beim Remixen der Vorlage vor der Veröffentlichung automatisch eine Genehmigung erforderlich ist, sodass das Asset durch den vorkonfigurierten Workfront-Workflow und Frame.io-Viewer geleitet wird.</p>

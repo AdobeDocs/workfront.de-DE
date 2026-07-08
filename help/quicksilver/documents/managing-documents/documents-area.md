@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: ea4de44f0669ca78eabe9f35f94f49fee2e5d016
+source-git-commit: c2fe0c6afbc9b536186bd473e95b3f82f144b06c
 workflow-type: tm+mt
-source-wordcount: 850
+source-wordcount: 918
 ht-degree: 1%
 
 ---
@@ -123,6 +123,10 @@ Sie können den Verlauf eines Dokuments im Bereich Neue Dokumente anzeigen. Der 
 ### Ordner auf Systemebene für Dokumentberechtigungen
 
 Workfront erstellt automatisch einen Ordner auf Systemebene, wenn das erste Dokument zu einer Aufgabe oder einem Problem hochgeladen wird. Diese Ordner erben Berechtigungen von der Aufgabe oder dem Problem und sind im Dokumentbereich auf Projektebene sichtbar. Alle Dokumente, die in diese Aufgabe oder dieses Problem hochgeladen wurden, werden in diesem Ordner gespeichert und übernehmen Berechtigungen davon. Dies ist die primäre Methode, mit der Berechtigungen für Dokumente im Bereich Neue Dokumente verwaltet werden. Weitere Informationen finden Sie unter [Objektberechtigungen und Zugriffsebene - Übersicht für das Adobe-Cloud-Speichermodell](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+
+### Zugriff auf Dokumente über Ihren Desktop
+
+Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, können Sie mit Adobe Cloud Drive auch von Ihrem Mac- oder Windows-Desktop aus auf Ihre Dokumente zugreifen. Adobe Cloud Drive mountet Ihre Adobe-Cloud-Speicherprojekte als Laufwerk auf Ihrem Computer, sodass Sie Dateien in jeder Anwendung öffnen und bearbeiten können, während Sie die Änderungen mit Workfront synchronisieren. Weitere Informationen finden Sie unter [Übersicht über Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
 
 ## Zu beachten
 

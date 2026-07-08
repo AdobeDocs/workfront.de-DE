@@ -19,9 +19,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 5e63d7e8c5c282cf4d0cc588b59733b2d790b457
 workflow-type: tm+mt
-source-wordcount: 1317
+source-wordcount: 1383
 ht-degree: 5%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 5%
 
 Adobe Workfront verfügt derzeit über die folgenden beiden Arten von Dokumentenspeichern:
 
-* Legacy Workfront-Speicher
+* Legacy-Workfront-Speicher
 * Cloud-Speicherplatz von Adobe
 
 Weitere Informationen zu diesen Speichertypen finden Sie unter [Übersicht über den Adobe-Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
@@ -184,6 +184,10 @@ Hinzufügen eines Dokuments:
 Informationen zum Hochladen neuer Versionen eines Dokuments in Workfront finden Sie unter [Hochladen einer neuen Version eines Dokuments](../../documents/managing-documents/upload-new-document-version.md).
 
 Ein Ordner mit demselben Namen wie das Objekt, in das Sie das Dokument hochladen, wird automatisch im Abschnitt Dokumente erstellt und das Dokument wird dem Ordner hinzugefügt.
+
+### Hinzufügen von Dokumenten mit Adobe Cloud Drive
+
+Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, können Sie auch Dokumente von Ihrem Desktop aus mit Adobe Cloud Drive hinzufügen. Adobe Cloud Drive stellt Ihre Adobe-Cloud-Speicherprojekte als Laufwerk auf Ihrem Mac- oder Windows-Computer bereit. Alle Dateien, die Sie in einem Projektordner im Laufwerk speichern, werden automatisch mit Workfront synchronisiert. Weitere Informationen finden Sie unter [Übersicht über Adobe Cloud Drive](../../documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
 
 ## Document Security für Adobe Cloud-Speicher
 
