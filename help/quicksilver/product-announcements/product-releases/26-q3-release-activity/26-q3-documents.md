@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: 3db125c4ff09e97519f9f6c756b4507a2447394a
+source-git-commit: c2e1da665d483552b2b91c74768ce3b77457d268
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 2%
@@ -49,7 +49,7 @@ Weitere Informationen finden Sie unter [Übersicht über Adobe Cloud Drive](/hel
 
 >[!NOTE]
 >
->Vorschau: Nicht zutreffendProduktions-Schnellveröffentlichung: 15. Juni 2026Produktion für alle: 15. Juni 2026Außerplanmäßig&rbrack;{type=Neutral}
+>Vorschau: Nicht zutreffendProduktions-Schnellveröffentlichung: 15. Juni 2026Produktion für alle: 15. Juni 2026Außerplanmäßig]{type=Neutral}
 
 Die Integration von Adobe Express und Workfront mit Frame.io ermöglicht die strukturierte Überprüfung und Genehmigung von in Adobe Express erstellten Inhalten. Designer können eine Workflow-Vorlage für Workfront-Genehmigungen einer Express-Vorlage zuordnen, sodass beim Remixen der Vorlage vor der Veröffentlichung automatisch eine Genehmigung erforderlich ist, sodass das Asset durch den vorkonfigurierten Workfront-Workflow und Frame.io-Viewer geleitet wird.
 
@@ -119,3 +119,5 @@ Die Seite mit den Kundeninformationen im Setup enthält jetzt einen neuen Abschn
 Workfront-Administratoren erhalten automatisch E-Mail-Benachrichtigungen, wenn die Speichernutzung 75 %, 85 % und 100 % des Kontingents erreicht.
 
 Weitere Informationen finden Sie unter [Überprüfen von Dokumentspeicherbeschränkungen](/help/quicksilver/documents/managing-documents/check-document-storage.md).
+
+
