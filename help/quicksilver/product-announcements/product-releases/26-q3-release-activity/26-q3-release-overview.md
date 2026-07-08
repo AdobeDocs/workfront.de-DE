@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 8fa3fbb299fef17fbd49978e74adef94c45bb000
+source-git-commit: 3db125c4ff09e97519f9f6c756b4507a2447394a
 workflow-type: tm+mt
-source-wordcount: '2761'
+source-wordcount: '2822'
 ht-degree: 15%
 
 ---
@@ -18,7 +18,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der für Juli 202
 
 Die Verbesserungen auf dieser Seite sind in der Vorschauumgebung verfügbar. Diese Seite wird mit zusätzlichen Verbesserungen aktualisiert, sobald die geplante Produktionsversion der Version für das dritte Quartal 2026 näher rückt.
 
-Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben die neuen Funktionen hervor und bieten detaillierte Informationen. Um sich zu registrieren, besuchen Sie die [Ereignisseite](https://experienceleague.adobe.com/de/events?filters=Workfront) und filtern Sie nach Workfront.
+Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben die neuen Funktionen hervor und bieten detaillierte Informationen. Um sich zu registrieren, besuchen Sie die [Ereignisseite](https://experienceleague.adobe.com/en/events?filters=Workfront) und filtern Sie nach Workfront.
 
 >[!IMPORTANT]
 >
@@ -222,17 +222,15 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             <td><p>15. Juli 2026</p></td>
             <td><p>16. Juli 2026</p></td>
         </tr>
-        <!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Adobe Cloud Drive</a><p>[!BADGE Off schedule]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
-                <p>Adobe Cloud Drive is a desktop application that mounts your Adobe cloud storage projects as a drive on your Mac or Windows computer, so you can open, edit, and save files in any application directly from Finder or File Explorer.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Adobe Cloud Drive</a><p>[!BADGE Außerplanmäßig]{type=Neutral}</p><p>[!BADGE Workflow Ultimate]{type=Informative}</p>
+                <p>Adobe Cloud Drive ist ein Desktop-Programm, das Ihre Adobe-Cloud-Speicherprojekte als Laufwerk auf Ihrem Mac- oder Windows-Computer bereitstellt, sodass Sie Dateien in jeder Anwendung direkt über den Finder oder den Datei-Explorer öffnen, bearbeiten und speichern können.</p>
             </td>
-            <td><p>N/A</p></td>
-            <td><p>July 7, 2026</p></td>
-            <td><p>July 7, 2026</p></td>
+            <td><p>K. A.</p></td>
+            <td><p>8. Juli 2026</p></td>
+            <td><p>8. Juli 2026</p></td>
         </tr>
-        -->
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-documents.md" class="MCXref xref" xrefformat="{para}">Fordern Sie mit Workfront und Frame.io eine Genehmigung für Adobe Express-Vorlagen an</a><p>[!BADGE Außerplanmäßig]{type=Neutral}</p>
                 <p>Die Integration von Adobe Express und Workfront mit Frame.io ermöglicht die strukturierte Überprüfung und Genehmigung von in Adobe Express erstellten Inhalten. Designer können eine Workflow-Vorlage für Workfront-Genehmigungen einer Express-Vorlage zuordnen, sodass beim Remixen der Vorlage vor der Veröffentlichung automatisch eine Genehmigung erforderlich ist, sodass das Asset durch den vorkonfigurierten Workfront-Workflow und Frame.io-Viewer geleitet wird.</p>
@@ -614,7 +612,7 @@ HINWEIS: Der Workfront Planning-Connector für Fusion wurde nicht auf API-Versio
 
 Weitere Informationen finden Sie unter Grundlagen zur Adobe Workfront Planning-API (/help/quicksilver/planning/general/planning-api-basics.md).
 
-Informationen zu den Spezifikationen der Workfront Planning-API finden Sie in der Entwicklerdokumentation zur [Workfront &#x200B;](https://developer.adobe.com/wf-planning/)-API.
+Informationen zu den Spezifikationen der Workfront Planning-API finden Sie in der Entwicklerdokumentation zur [Workfront ](https://developer.adobe.com/wf-planning/)-API.
 
 
 ### Workfront Planning Trial wird geschlossen
@@ -627,7 +625,7 @@ Weitere Informationen finden Sie unter [Erste Schritte mit der kostenlosen Testv
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 -->
 
