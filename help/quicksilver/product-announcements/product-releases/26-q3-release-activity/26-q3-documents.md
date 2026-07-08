@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: 6e0b4b17c927accc45846dc0affbf7a9425cca80
+source-git-commit: 8fa3fbb299fef17fbd49978e74adef94c45bb000
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '803'
 ht-degree: 3%
 
 ---
@@ -52,11 +52,9 @@ For more information, see [Adobe Cloud Drive overview](/help/quicksilver/documen
 
 -->
 
-## Anfordern von Genehmigungen zu Adobe Express-Vorlagen mit Workfront und Frame.io
-
 >[!NOTE]
 >
->Vorschau: Nicht zutreffendProduktions-Schnellveröffentlichung: 15. Juni 2026Produktion für alle: 15. Juni 2026Außerplanmäßig&rbrack;{type=Neutral}
+>Vorschau: Nicht zutreffendProduktions-Schnellveröffentlichung: 15. Juni 2026Produktion für alle: 15. Juni 2026Außerplanmäßig]{type=Neutral}
 
 Die Integration von Adobe Express und Workfront mit Frame.io ermöglicht die strukturierte Überprüfung und Genehmigung von in Adobe Express erstellten Inhalten. Designer können eine Workflow-Vorlage für Workfront-Genehmigungen einer Express-Vorlage zuordnen, sodass beim Remixen der Vorlage vor der Veröffentlichung automatisch eine Genehmigung erforderlich ist, sodass das Asset durch den vorkonfigurierten Workfront-Workflow und Frame.io-Viewer geleitet wird.
 

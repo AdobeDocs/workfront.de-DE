@@ -10,17 +10,13 @@ exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/IdrQfkprrzF-Jt-ZwlnVfvIO07B2ejvbOLhbAhPh8Lc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: ea4de44f0669ca78eabe9f35f94f49fee2e5d016
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: c2fe0c6afbc9b536186bd473e95b3f82f144b06c
 workflow-type: tm+mt
-source-wordcount: 850
+source-wordcount: 918
 ht-degree: 1%
 
 ---
@@ -69,13 +65,13 @@ Sobald eine Korrekturabzugsentscheidung getroffen wurde, wird sie in der Dokumen
 
 ### Ordner
 
-Sie können Ordner zum Organisieren von Dokumenten einrichten. Weitere Informationen finden Sie unter [Erstellen von &#x200B;](../../documents/organizing-documents/create-documents-folder.md).
+Sie können Ordner zum Organisieren von Dokumenten einrichten. Weitere Informationen finden Sie unter [Erstellen von ](../../documents/organizing-documents/create-documents-folder.md).
 
 Im Bereich Globale Dokumente können Sie zwei Arten von Ordnern einrichten, um die Dokumente zu organisieren, auf die Sie Zugriff haben:
 
 * **Intelligente Ordner:** Zeigt nur die Dokumente an, die angezeigt werden sollen. Weitere Informationen finden Sie unter [Erstellen und Verwalten von Smart Folders](../../documents/organizing-documents/create-manage-smart-folders.md).
 
-* **Meine Ordner** Dokumente nach Ihren Wünschen organisieren. Weitere Informationen finden Sie unter [Erstellen von &#x200B;](../../documents/organizing-documents/create-documents-folder.md).
+* **Meine Ordner** Dokumente nach Ihren Wünschen organisieren. Weitere Informationen finden Sie unter [Erstellen von ](../../documents/organizing-documents/create-documents-folder.md).
 
 ### Erweiterte Dokumentdetails
 
@@ -123,6 +119,10 @@ Sie können den Verlauf eines Dokuments im Bereich Neue Dokumente anzeigen. Der 
 ### Ordner auf Systemebene für Dokumentberechtigungen
 
 Workfront erstellt automatisch einen Ordner auf Systemebene, wenn das erste Dokument zu einer Aufgabe oder einem Problem hochgeladen wird. Diese Ordner erben Berechtigungen von der Aufgabe oder dem Problem und sind im Dokumentbereich auf Projektebene sichtbar. Alle Dokumente, die in diese Aufgabe oder dieses Problem hochgeladen wurden, werden in diesem Ordner gespeichert und übernehmen Berechtigungen davon. Dies ist die primäre Methode, mit der Berechtigungen für Dokumente im Bereich Neue Dokumente verwaltet werden. Weitere Informationen finden Sie unter [Objektberechtigungen und Zugriffsebene - Übersicht für das Adobe-Cloud-Speichermodell](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+
+### Zugriff auf Dokumente über Ihren Desktop
+
+Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, können Sie mit Adobe Cloud Drive auch von Ihrem Mac- oder Windows-Desktop aus auf Ihre Dokumente zugreifen. Adobe Cloud Drive mountet Ihre Adobe-Cloud-Speicherprojekte als Laufwerk auf Ihrem Computer, sodass Sie Dateien in jeder Anwendung öffnen und bearbeiten können, während Sie die Änderungen mit Workfront synchronisieren. Weitere Informationen finden Sie unter [Übersicht über Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
 
 ## Zu beachten
 

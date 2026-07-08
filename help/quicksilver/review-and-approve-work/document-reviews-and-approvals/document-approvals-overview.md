@@ -10,17 +10,13 @@ exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/P-naBIVBoFQcBaL4Zgo0cEOTQ8eErxqr0MBmHTbec9E
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 8fa3fbb299fef17fbd49978e74adef94c45bb000
 workflow-type: tm+mt
-source-wordcount: 4114
+source-wordcount: 4173
 ht-degree: 0%
 
 ---
@@ -146,6 +142,8 @@ Die folgende Tabelle zeigt, wie Workfront-Berechtigungen Frame.io-Berechtigungen
 ### Dokumentenverwaltung in Workfront
 
 In Workfront hochgeladene Dokumente werden im Adobe-Cloud-Speicher gespeichert und sind sowohl in Workfront als auch in Frame.io verfügbar. Wenn Sie ein Dokument zu einer Aufgabe oder einem Problem in Workfront hochladen, wird im Adobe Cloud-Speicher ein systemgenerierter Ordner erstellt, der die Berechtigungen der Aufgabe oder des Problems übernimmt. Alle Dokumente, die in diese Aufgabe oder dieses Problem hochgeladen wurden, werden in diesem Ordner gespeichert und übernehmen Berechtigungen davon. Weitere Informationen zu Dokumenten in Workfront finden Sie unter [Der neue Dokumentbereich - Übersicht](/help/quicksilver/documents/managing-documents/documents-area.md) und [Objektberechtigungen und Zugriffsebene - Übersicht für das Adobe-Cloud-Speichermodell](/help/quicksilver/review-and-approve-work/esm-access-permissions.md).
+
+Mit Adobe Cloud Drive können Sie auch von Ihrem Mac- oder Windows-Desktop aus auf dieselben Dokumente zugreifen. Adobe Cloud Drive mountet Ihre Adobe-Cloud-Speicherprojekte als Laufwerk auf Ihrem Computer, sodass Sie Dateien in jeder Anwendung öffnen und bearbeiten können, während die Änderungen mit Workfront und Frame.io synchronisiert werden. Weitere Informationen finden Sie unter [Übersicht über Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
 
 ### Einschränkungen beim Dokumenterlebnis
 
@@ -488,7 +486,7 @@ Benutzer können den Frame.io-Viewer direkt von Workfront aus starten. Alle Prü
 
 Ja. Sobald ein Asset den Prüfungs- und Validierungszyklus abgeschlossen hat, können Sie es zur endgültigen Speicherung und Verteilung an Adobe Experience Manager Assets übertragen. Dadurch werden Workfront für Work-Management, Frame.io für die Überprüfung und AEM für die Verwaltung digitaler Assets zu einer einheitlichen Content-supply chain verbunden.
 
-Weitere Informationen finden Sie unter „Verwenden [&#x200B; Adobe Experience Manager mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+Weitere Informationen finden Sie unter „Verwenden [ Adobe Experience Manager mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 **Wie passt die einheitliche Überprüfung und Genehmigung in Adobe GenStudio?**
 
