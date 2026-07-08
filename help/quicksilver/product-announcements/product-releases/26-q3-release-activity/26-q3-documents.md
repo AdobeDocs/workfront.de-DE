@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: c2e1da665d483552b2b91c74768ce3b77457d268
+source-git-commit: a9688886f32cd41dd7d53dbf0a918f25fdd04a0b
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '932'
 ht-degree: 2%
 
 ---
@@ -37,7 +37,7 @@ Weitere Informationen finden Sie unter [Erstellen eines Dokumentgenehmigungs-Wor
 
 >[!NOTE]
 >
->Vorschau: Nicht zutreffendProduktions-Schnellveröffentlichung: 8. Juli 2026Produktion für alle: 8. Juli 2026Diese Funktion steht nur Organisationen mit aktiviertem Adobe Cloud-Speicher im Workflow-Ultimate-Paket zur Verfügung.
+>Vorschau: Nicht zutreffendProduktions-Schnellveröffentlichung: 8. Juli 2026Produktion für alle: 8. Juli 2026Aus ZeitplanDiese Funktion steht nur Organisationen mit aktiviertem Adobe Cloud-Speicher im Workflow-Ultimate-Paket zur Verfügung.
 
 Adobe Cloud Drive ist jetzt für Organisationen verfügbar, die eine Version von Workfront verwenden, die die Adobe-Cloud-Datenspeicherung unterstützt. Adobe Cloud Drive ist ein Desktop-Programm, das Ihre Adobe-Cloud-Speicherprojekte als Laufwerk auf Ihrem Mac- oder Windows-Computer bereitstellt, sodass Sie Dateien in jeder Anwendung direkt über den Finder oder den Datei-Explorer öffnen, bearbeiten und speichern können. Ihre Änderungen werden automatisch mit dem Adobe-Cloud-Speicher synchronisiert und stehen Ihrem Team in Workfront und Frame.io zur Verfügung.
 
