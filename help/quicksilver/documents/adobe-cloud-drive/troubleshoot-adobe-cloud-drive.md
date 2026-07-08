@@ -162,7 +162,7 @@ Informationen zum Arbeiten mit Adobe Cloud Drive finden Sie unter [Verwenden von
 
 Wenden Sie sich bei Lizenzfragen, Problemen mit dem Projektzugriff oder einer organisationsspezifischen Konfiguration an Ihren Workfront-Administrator.
 
-Um Protokolle für die Adobe-Unterstützung freizugeben, führen Sie die Schritte unter [Ausführen des Adobe-Tool zur Protokollerfassung](https://helpx.adobe.com/creative-cloud/apps/troubleshoot/diagnostics-repair-tools/run-log-collector-tool.html) aus.
+Um Protokolle für die Adobe-Unterstützung freizugeben, führen Sie die Schritte unter [Ausführen des Adobe-Tool zur Protokollerfassung](https://helpx.adobe.com/de/creative-cloud/apps/troubleshoot/diagnostics-repair-tools/run-log-collector-tool.html) aus.
 
 ## Best Practices
 
