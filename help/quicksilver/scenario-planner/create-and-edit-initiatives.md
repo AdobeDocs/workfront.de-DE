@@ -15,8 +15,8 @@
 <target xml:lang="en-XX">Erstellen und Bearbeiten von Initiativen im <ph id="1" ctype="x-regxph" equiv-text="[!DNL Scenario Planner]">[!DNL Scenario Planner]</ph></target>
 </trans-unit>
 <trans-unit id="tu4" xml:space="preserve">
-<source xml:lang="en-US">When using the <ph id="1" ctype="x-regxph" equiv-text="[!UICONTROL ">[!UICONTROL </ph>Adobe Workfront Scenario Planner<ph id="2" ctype="x-LINK_REF">]</ph>, you can create initiatives in a plan that you created or that was shared with you. By creating initiatives you can show how smaller organizational units contribute to the completion of the plan. For example, if your organization has a plan for the next three years to expand into a new market, you can create initiatives within this plan for each department to estimate each department's need for people and budget to accomplish this plan.</source>
-<target xml:lang="en-XX">Wenn Sie den <ph id="1" ctype="x-regxph" equiv-text="[!UICONTROL ">[!UICONTROL </ph>Adobe Workfront-Szenarioplaner<ph id="2" ctype="x-LINK_REF">]</ph> verwenden, können Sie Initiativen in einem Plan erstellen, den Sie erstellt haben oder der für Sie freigegeben wurde. Durch die Erstellung von Initiativen können Sie zeigen, wie kleinere Organisationseinheiten zur Fertigstellung des Plans beitragen. Wenn Ihr Unternehmen beispielsweise einen Plan für die nächsten drei Jahre hat, um in einen neuen Markt zu expandieren, können Sie in diesem Plan für jede Abteilung Initiativen erstellen, um den Bedarf jeder Abteilung an Mitarbeitern und Budgets zur Umsetzung dieses Plans zu schätzen.</target>
+<source xml:lang="en-US">When using the <ph id="1" ctype="x-regxph" equiv-text="">[!UICONTROL </ph>Adobe Workfront Scenario Planner<ph id="2" ctype="x-LINK_REF">]</ph>, you can create initiatives in a plan that you created or that was shared with you. By creating initiatives you can show how smaller organizational units contribute to the completion of the plan. For example, if your organization has a plan for the next three years to expand into a new market, you can create initiatives within this plan for each department to estimate each department's need for people and budget to accomplish this plan.</source>
+<target xml:lang="en-XX">Wenn Sie den <ph id="1" ctype="x-regxph" equiv-text="">[!UICONTROL </ph>Adobe Workfront-Szenarioplaner<ph id="2" ctype="x-LINK_REF">]</ph> verwenden, können Sie Initiativen in einem Plan erstellen, den Sie erstellt haben oder der für Sie freigegeben wurde. Durch die Erstellung von Initiativen können Sie zeigen, wie kleinere Organisationseinheiten zur Fertigstellung des Plans beitragen. Wenn Ihr Unternehmen beispielsweise einen Plan für die nächsten drei Jahre hat, um in einen neuen Markt zu expandieren, können Sie in diesem Plan für jede Abteilung Initiativen erstellen, um den Bedarf jeder Abteilung an Mitarbeitern und Budgets zur Umsetzung dieses Plans zu schätzen.</target>
 </trans-unit>
 <trans-unit id="tu5" xml:space="preserve">
 <source xml:lang="en-US">Access requirements</source>
@@ -199,8 +199,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-IMAGE">![</ph>Initiative in der Timeline verschieben<ph id="2" ctype="x-IMAGE">](assets/move-initiative-back-and-forth-on-the-timeline-350x71.png)</ph></target>
 </trans-unit>
 <trans-unit id="tu31" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!IMPORTANT">[!IMPORTANT]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!IMPORTANT">[!IMPORTANT]</ph></target>
 </trans-unit>
 <trans-unit id="tu32" xml:space="preserve">
 <source xml:lang="en-US">You can only select a duration in months. The duration of an initiative that you create from scratch can never exceed the Duration of the plan.</source>
@@ -219,28 +219,28 @@
 <target xml:lang="en-XX">Beschreibung</target>
 </trans-unit>
 <trans-unit id="tu36" restype="x-TABLECELL_TEXT" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!UICONTROL ">[!UICONTROL </ph>Month<ph id="2" ctype="x-LINK_REF">]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!UICONTROL ">[!UICONTROL </ph>Month<ph id="2" ctype="x-LINK_REF">]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="">[!UICONTROL </ph>Month<ph id="2" ctype="x-LINK_REF">]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="">[!UICONTROL </ph>Month<ph id="2" ctype="x-LINK_REF">]</ph></target>
 </trans-unit>
 <trans-unit id="tu37" restype="x-TABLECELL_TEXT" xml:space="preserve">
 <source xml:lang="en-US">Displays the timeline by month. This is the default option for a one-year plan.</source>
 <target xml:lang="en-XX">Zeigt die Zeitleiste nach Monat an. Dies ist die Standardoption für einen Ein-Jahres-Plan.</target>
 </trans-unit>
 <trans-unit id="tu38" restype="x-TABLECELL_TEXT" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!UICONTROL ">[!UICONTROL </ph>Quarter<ph id="2" ctype="x-LINK_REF">]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!UICONTROL ">[!UICONTROL </ph>Quartal<ph id="2" ctype="x-LINK_REF">]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="">[!UICONTROL </ph>Quarter<ph id="2" ctype="x-LINK_REF">]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="">[!UICONTROL </ph>Quartal<ph id="2" ctype="x-LINK_REF">]</ph></target>
 </trans-unit>
 <trans-unit id="tu39" restype="x-TABLECELL_TEXT" xml:space="preserve">
-<source xml:lang="en-US">Displays the timeline by quarter. This option is available only when the <ph id="1" ctype="x-regxph" equiv-text="[!UICONTROL ">[!UICONTROL </ph>Duration<ph id="2" ctype="x-LINK_REF">]</ph> of the plan is 3 or 5 years. This is the default option for a 3-year plan.</source>
-<target xml:lang="en-XX">Zeigt die Zeitleiste nach Quartal an. Diese Option ist nur verfügbar, wenn <ph id="1" ctype="x-regxph" equiv-text="[!UICONTROL ">[!UICONTROL </ph>Laufzeit<ph id="2" ctype="x-LINK_REF">]</ph> des Plans 3 oder 5 Jahre beträgt. Dies ist die Standardoption für einen 3-Jahres-Plan.</target>
+<source xml:lang="en-US">Displays the timeline by quarter. This option is available only when the <ph id="1" ctype="x-regxph" equiv-text="">[!UICONTROL </ph>Duration<ph id="2" ctype="x-LINK_REF">]</ph> of the plan is 3 or 5 years. This is the default option for a 3-year plan.</source>
+<target xml:lang="en-XX">Zeigt die Zeitleiste nach Quartal an. Diese Option ist nur verfügbar, wenn <ph id="1" ctype="x-regxph" equiv-text="">[!UICONTROL </ph>Laufzeit<ph id="2" ctype="x-LINK_REF">]</ph> des Plans 3 oder 5 Jahre beträgt. Dies ist die Standardoption für einen 3-Jahres-Plan.</target>
 </trans-unit>
 <trans-unit id="tu40" restype="x-TABLECELL_TEXT" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!UICONTROL ">[!UICONTROL </ph>Year<ph id="2" ctype="x-LINK_REF">]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!UICONTROL ">[!UICONTROL </ph>Year<ph id="2" ctype="x-LINK_REF">]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="">[!UICONTROL </ph>Year<ph id="2" ctype="x-LINK_REF">]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="">[!UICONTROL </ph>Year<ph id="2" ctype="x-LINK_REF">]</ph></target>
 </trans-unit>
 <trans-unit id="tu41" restype="x-TABLECELL_TEXT" xml:space="preserve">
-<source xml:lang="en-US">Displays the timeline by year. This option is available only when the <ph id="1" ctype="x-regxph" equiv-text="[!UICONTROL ">[!UICONTROL </ph>Duration<ph id="2" ctype="x-LINK_REF">]</ph> of the plan is 5 years. This is the default option for a 5-year plan.</source>
-<target xml:lang="en-XX">Zeigt die Zeitleiste nach Jahr an. Diese Option ist nur verfügbar, wenn <ph id="1" ctype="x-regxph" equiv-text="[!UICONTROL ">[!UICONTROL </ph>Laufzeit<ph id="2" ctype="x-LINK_REF">]</ph> des Plans 5 Jahre beträgt. Dies ist die Standardoption für einen 5-Jahres-Plan.</target>
+<source xml:lang="en-US">Displays the timeline by year. This option is available only when the <ph id="1" ctype="x-regxph" equiv-text="">[!UICONTROL </ph>Duration<ph id="2" ctype="x-LINK_REF">]</ph> of the plan is 5 years. This is the default option for a 5-year plan.</source>
+<target xml:lang="en-XX">Zeigt die Zeitleiste nach Jahr an. Diese Option ist nur verfügbar, wenn <ph id="1" ctype="x-regxph" equiv-text="">[!UICONTROL </ph>Laufzeit<ph id="2" ctype="x-LINK_REF">]</ph> des Plans 5 Jahre beträgt. Dies ist die Standardoption für einen 5-Jahres-Plan.</target>
 </trans-unit>
 <trans-unit id="tu42" xml:space="preserve">
 <source xml:lang="en-US">(Optional) Scroll from left to right to see the entire duration of the initiative.</source>
@@ -255,8 +255,8 @@
 <target xml:lang="en-XX"><ph id="1" ctype="x-IMAGE">![</ph>Indikator „Heute<ph id="2" ctype="x-IMAGE">](assets/today-indicator-350x160.png)</ph></target>
 </trans-unit>
 <trans-unit id="tu45" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!TIP">[!TIP]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!TIP">[!TIP]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!TIP">[!TIP]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!TIP">[!TIP]</ph></target>
 </trans-unit>
 <trans-unit id="tu46" xml:space="preserve">
 <source xml:lang="en-US">If your plan is in the future or in the past and does not include the current date, the Today indicator does not display.</source>
@@ -479,8 +479,8 @@
 </trans-unit>
 </group>
 <trans-unit id="tu50" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!NOTE">[!NOTE]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!NOTE">[!NOTE]</ph></target>
 </trans-unit>
 <trans-unit id="tu51" xml:space="preserve">
 <source xml:lang="en-US">If you have already defined the number of job roles and the budget for your plan and the number of job role and the costs of the initiative you are editing and of all the initiatives above it and they all exceed the amounts you specified for the plan, <ph id="1" ctype="x-regxph" equiv-text="[!DNL Workfront]">[!DNL Workfront]</ph> might find that you do have not have enough resources to finish the initiative. <ph id="2" ctype="x-regxph" equiv-text="[!DNL Workfront]">[!DNL Workfront]</ph> marks this as a conflict when trying to achieve this initiative and it displays it as a red bar. All the initiatives that follow the conflicted initiative display in a red background. You might need to adjust some of the needs of your initiatives starting with the first one that has insufficient resources. For information about adjusting conflicting initiatives, see <ph id="3" ctype="x-LINK">[</ph>Resolve initiative conflicts in the<ph id="4" ctype="x-regxph" equiv-text=" [!DNL Scenario Planner]"> [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md)</ph>.</source>
@@ -507,8 +507,8 @@
 <target xml:lang="en-XX">Informationen zur Priorisierung von Initiativen finden Sie <ph id="1" ctype="x-LINK">[</ph>Aktualisieren von Initiativprioritäten im Szenario-Planer<ph id="2" ctype="x-LINK">](../scenario-planner/prioritize-initiatives.md)</ph>.</target>
 </trans-unit>
 <trans-unit id="tu57" xml:space="preserve">
-<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="[!TIP">[!TIP]</ph></source>
-<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="[!TIP">[!TIP]</ph></target>
+<source xml:lang="en-US"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!TIP">[!TIP]</ph></source>
+<target xml:lang="en-XX"><ph id="1" ctype="x-regxph" equiv-text="&lbrack;!TIP">[!TIP]</ph></target>
 </trans-unit>
 <trans-unit id="tu58" xml:space="preserve">
 <source xml:lang="en-US">Initiatives listed first in the list have a higher priority and get resources before the initiatives listed lower in the list.</source>
