@@ -5,9 +5,9 @@ title: Adobe Workfront MCP-Server-Tools
 description: Referenzliste der über den Adobe Workfront MCP-Server verfügbaren Tools, gruppiert nach Workfront-Bereich.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 2b8db72feb3cbe7baa19d2cb9c8894ce9a5e4e62
+source-git-commit: 1b90f291995f636b1eecdf1af6a02fed7f01e9a4
 workflow-type: tm+mt
-source-wordcount: '1765'
+source-wordcount: '1768'
 ht-degree: 6%
 
 ---
@@ -214,6 +214,8 @@ Insights tools retrieve information about Workfront objects.
 ## Workflow-Tools
 
 Workflow-Tools sind allgemeine Aktionen, die die KI-Agentenplattform für die Arbeit mit beliebigen Workfront-Objekten verwendet - Projekten, Aufgaben, Problemen, Stunden, Zuweisungen, Programmen, Portfolios usw.
+
+### Objekte und Felder
 
 | Titel | Tool-Name | Funktion | Aktion |
 | --- | --- | --- | --- |
