@@ -7,7 +7,7 @@ description: Erste Schritte mit der Integration von Adobe Express und Frame.io
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 7113e16c3856fa984063f138c3fbb12e46f42db1
+source-git-commit: 347eb022f68e00b13b3b517a1aaec9cd15f952c7
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 8%
@@ -80,7 +80,7 @@ Wenn eine Express-Vorlage neu gemischt wird, ist vor der Veröffentlichung eine 
 
 Benutzende müssen über eine Standardlizenz für Workfront verfügen, um eine Genehmigung von Adobe Express anfordern zu können.
 
-Erfahren Sie, wie Sie [Genehmigung für Designs erhalten](https://helpx.adobe.com/de/express/web/share-and-publish/share-and-collaborate/request-approval.html).
+Erfahren Sie, wie Sie [Genehmigung für Designs erhalten](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).
 
 
 ## Express-Vorlagen neu mischen und zur Überprüfung und Genehmigung senden
@@ -100,7 +100,7 @@ Bei der Anforderung von Genehmigungen für eine Remix-Express-Vorlage können Be
 
 Wenn kein Projekt ausgewählt ist, wird das Asset standardmäßig in ein Express-spezifisches Projekt umgewandelt.
 
-Weitere Informationen finden Sie unter [Senden von Vorlagen zur Überprüfung und Genehmigung](https://helpx.adobe.com/de/express/web/invite-collaborate/request-approval.html).
+Weitere Informationen finden Sie unter [Senden von Vorlagen zur Überprüfung und Genehmigung](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html).
 
 
 ## Überprüfen und Genehmigen von Remix-Express-Dateien mit Frame.io
@@ -112,3 +112,4 @@ Sie sind auch dafür verantwortlich, endgültige Entscheidungen zur Genehmigung 
 Benutzer müssen mindestens über eine Workfront-Mitwirkendenlizenz verfügen, um eine Entscheidung treffen zu können.
 
 Weitere Informationen zur Verwendung des Frame.io-Viewers finden Sie unter [Kommentieren von Medien](https://help.frame.io/en/articles/9105251-commenting-on-your-media).
+
