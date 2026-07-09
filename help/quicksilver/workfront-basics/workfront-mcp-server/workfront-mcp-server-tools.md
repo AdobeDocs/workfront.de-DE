@@ -5,7 +5,7 @@ title: Adobe Workfront MCP-Server-Tools
 description: Referenzliste der über den Adobe Workfront MCP-Server verfügbaren Tools, gruppiert nach Workfront-Bereich.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 588b4dac3acc411f63868bd603beba3312299830
+source-git-commit: 2b8db72feb3cbe7baa19d2cb9c8894ce9a5e4e62
 workflow-type: tm+mt
 source-wordcount: '1765'
 ht-degree: 6%
@@ -107,21 +107,6 @@ Wenn die KI-Agentenplattform Workfront-Elemente finden, diese jedoch nicht erste
 | Projekt nach Namen suchen | `approvals_find_project_by_name` | Sucht Workfront-Projekte nach einer teilweisen Namensübereinstimmung im gesamten System. | Lesen |
 | Projekte nach Besitzer abrufen | `approvals_get_projects_by_owner` | Listet Workfront-Projekte auf, deren Besitzer der aufrufende Benutzer ist. | Lesen |
 | Adobe-Region abrufen | `approvals_get_adobe_region` | Gibt den Adobe-Namen einer Cloud-Anbieter-Region zurück. | Lesen |
-
-### Kommentare
-
-| Titel | Tool-Name | Funktion | Aktion |
-| --- | --- | --- | --- |
-| Kommentare zur Abfrage | `comment-stream_query_comments` | Kommentare nach Objekt-ID mit Paginierung abfragen. | Lesen |
-| Kommentar abrufen | `comment-stream_get_comment` | Erhalten Sie einen einzelnen Kommentar nach ID. | Lesen |
-| Anzahl der Kommentare abrufen | `comment-stream_get_comments_count` | Ermittelt die Gesamtzahl der Kommentare auf oberster Ebene für ein Objekt. | Lesen |
-| Kommentar erstellen | `comment-stream_create_comment` | Erstellen Sie einen neuen Kommentar zu einem Objekt. | Schreiben |
-| Antwort erstellen | `comment-stream_create_reply` | Erstellen einer Antwort auf einen vorhandenen Kommentar. | Schreiben |
-| Kommentar aktualisieren | `comment-stream_update_comment` | Aktualisieren eines vorhandenen Kommentars oder einer vorhandenen Antwort. | Schreiben |
-| Kommentar löschen | `comment-stream_delete_comment` | Löschen eines Kommentars anhand seiner ID. | Schreiben |
-| Reaktion hinzufügen | `comment-stream_add_reaction` | Fügen Sie einem Kommentar eine Reaktion (wie ) hinzu. | Schreiben |
-| Reaktion entfernen | `comment-stream_remove_reaction` | Eine Reaktion (wie) aus einem Kommentar entfernen. | Schreiben |
-
 
 <!--
 
@@ -237,6 +222,22 @@ Workflow-Tools sind allgemeine Aktionen, die die KI-Agentenplattform für die Ar
 | Objekt aktualisieren | `workflow_update_any_object` | Aktualisiert Felder eines bestehenden Workfront-Objekts. | Schreiben |
 | Objekt löschen | `workflow_delete_any_object` | Löscht ein Workfront-Objekt nach ID. Erfordert eine explizite Benutzerbestätigung, bevor die Aktion ausgeführt wird. | Schreiben |
 | Auflösen von Feldnamen | `workflow_resolve_field_names_any_object` | Konvertiert von Benutzenden bereitgestellte Feldnamen oder Kennzeichnungen in die zugrunde liegenden Workfront-API-Feldnamen, damit die KI-Agentenplattform genaue Anfragen erstellen kann. | Lesen |
+
+### Kommentare
+
+| Titel | Tool-Name | Funktion | Aktion |
+| --- | --- | --- | --- |
+| Kommentare zur Abfrage | `comment-stream_query_comments` | Kommentare nach Objekt-ID mit Paginierung abfragen. | Lesen |
+| Kommentar abrufen | `comment-stream_get_comment` | Erhalten Sie einen einzelnen Kommentar nach ID. | Lesen |
+| Anzahl der Kommentare abrufen | `comment-stream_get_comments_count` | Ermittelt die Gesamtzahl der Kommentare auf oberster Ebene für ein Objekt. | Lesen |
+| Kommentar erstellen | `comment-stream_create_comment` | Erstellen Sie einen neuen Kommentar zu einem Objekt. | Schreiben |
+| Antwort erstellen | `comment-stream_create_reply` | Erstellen einer Antwort auf einen vorhandenen Kommentar. | Schreiben |
+| Kommentar aktualisieren | `comment-stream_update_comment` | Aktualisieren eines vorhandenen Kommentars oder einer vorhandenen Antwort. | Schreiben |
+| Kommentar löschen | `comment-stream_delete_comment` | Löschen eines Kommentars anhand seiner ID. | Schreiben |
+| Reaktion hinzufügen | `comment-stream_add_reaction` | Fügen Sie einem Kommentar eine Reaktion (wie ) hinzu. | Schreiben |
+| Reaktion entfernen | `comment-stream_remove_reaction` | Eine Reaktion (wie) aus einem Kommentar entfernen. | Schreiben |
+
+
 
 ## So werden Tools aktualisiert
 
