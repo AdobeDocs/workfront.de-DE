@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 25829e0ff77f2553411fdadb721bc41e4817ae90
+source-git-commit: 689f7f00502d41f22b5b2647ffaa30a3a1bd819f
 workflow-type: tm+mt
 source-wordcount: '2920'
 ht-degree: 15%
@@ -357,9 +357,9 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Konvertieren einer Legacy-Speicheraufgabe in ein Adobe-Cloud-Speicherprojekt</a><p><p>[!BADGE Außerplanmäßig]{type=Neutral}</p></p>
                 <p>Wenn Ihr Unternehmen sowohl älteren Workfront-Speicher als auch Adobe-Cloud-Speicher verwendet, können Sie jetzt eine ältere Speicheraufgabe in ein Adobe-Cloud-Speicherprojekt konvertieren.</p>
             </td>
-            <td><p>11. Juni 2026</p></td>
-            <td><p>12. Juni 2026</p></td>
-            <td><p>12. Juni 2026</p></td>
+            <td><p>9. Juli 2026</p></td>
+            <td><p>13. August 2026</p></td>
+            <td><p>15. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>
