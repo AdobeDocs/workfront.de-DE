@@ -22,7 +22,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2026 ve
 
 >[!NOTE]
 >
->Vorschau und Produktion für alle Kunden: Ab dem 7. Juli 2026Außerplanmäßig]{type=Neutral}
+>Vorschau und Produktion für alle Kunden: Ab dem 7. Juli 2026Außerplanmäßig&rbrack;{type=Neutral}
 
 Die Kommentararchivierung für Kommentare, die älter als 1 Jahr sind, wird derzeit für alle Workfront-Objekte optimiert, auf denen ein Bereich „Aktualisierungen“ angezeigt wird. Dies ist eine interne Anstrengung und sollte Ihre Erfahrung mit dem Bereich Aktualisierungen nicht beeinträchtigen. Der Bereich Aktualisierungen enthält für die Objekttypen keine visuellen Änderungen und die Funktionalität wird durch diese Aktualisierung nicht geändert. Alle Kommentare bleiben für alle Objekttypen sichtbar.
 
