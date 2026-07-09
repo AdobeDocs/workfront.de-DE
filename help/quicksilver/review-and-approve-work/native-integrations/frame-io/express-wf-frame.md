@@ -7,7 +7,7 @@ description: Erste Schritte mit der Integration von Adobe Express und Frame.io
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 3b94bbc6141556e081cb6057c49375b21bd61b53
+source-git-commit: 7113e16c3856fa984063f138c3fbb12e46f42db1
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 8%
@@ -80,7 +80,7 @@ Wenn eine Express-Vorlage neu gemischt wird, ist vor der Veröffentlichung eine 
 
 Benutzende müssen über eine Standardlizenz für Workfront verfügen, um eine Genehmigung von Adobe Express anfordern zu können.
 
-Erfahren Sie, wie Sie [Genehmigung für Designs erhalten](https://helpx.adobe.com/de/express/web/share-and-publish/share-and-collaborate/request-approval.html).
+Erfahren Sie, wie Sie [Genehmigung für Designs erhalten](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html).
 
 
 ## Express-Vorlagen neu mischen und zur Überprüfung und Genehmigung senden
@@ -100,7 +100,7 @@ Bei der Anforderung von Genehmigungen für eine Remix-Express-Vorlage können Be
 
 Wenn kein Projekt ausgewählt ist, wird das Asset standardmäßig in ein Express-spezifisches Projekt umgewandelt.
 
-Weitere Informationen finden Sie unter [Senden von Vorlagen zur Überprüfung und Genehmigung](https://helpx.adobe.com/de/express/web/invite-collaborate/request-approval.html).
+Weitere Informationen finden Sie unter [Senden von Vorlagen zur Überprüfung und Genehmigung](https://helpx.adobe.com/express/web/invite-collaborate/request-approval.html).
 
 
 ## Überprüfen und Genehmigen von Remix-Express-Dateien mit Frame.io
