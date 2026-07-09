@@ -4,10 +4,10 @@ description: Projektverbesserungen im dritten Quartal 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 8abebc25e7b966f3202e902463246c8217860f4a
+source-git-commit: 689f7f00502d41f22b5b2647ffaa30a3a1bd819f
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 4%
+source-wordcount: '314'
+ht-degree: 5%
 
 ---
 
@@ -23,10 +23,9 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2026 ve
 
 >[!NOTE]
 >
->Vorschau: 11. Juni 2026>Produktion für alle: 12. Juni 2026
+>Vorschau: 9. Juli 2026Produktion für die Schnellveröffentlichung: 13. August 2026Produktion für die vierteljährliche Veröffentlichung: 15. Oktober 2026Außerplanmäßig]{type=Neutral}
 
-Wenn Ihr Unternehmen sowohl älteren Workfront-Speicher als auch Adobe-Cloud-Speicher verwendet, können Sie jetzt eine ältere Speicheraufgabe in ein Adobe-Cloud-Speicherprojekt konvertieren.
-In diesem Fall bleiben Dokumente und Dokumentgenehmigungen auf dem übergeordneten Objekt, anstatt in das neu erstellte Projekt übertragen zu werden.
+Wenn Ihr Unternehmen sowohl älteren Workfront-Speicher als auch Adobe-Cloud-Speicher verwendet, können Sie jetzt eine ältere Speicheraufgabe in ein Adobe-Cloud-Speicherprojekt konvertieren.In diesem Fall bleiben Dokumente und Dokumentgenehmigungen auf dem übergeordneten Objekt, anstatt in das neu erstellte Projekt übertragen zu werden.
 
 Zuvor konnten Aufgaben nur in Projekte konvertiert werden, die denselben Speichertyp verwendeten.
 
@@ -40,7 +39,7 @@ Weitere Informationen finden Sie unter [Konvertieren einer Aufgabe in ein Projek
 
 >[!NOTE]
 >
->Vorschau: 11. Juni 2026>Produktion für alle: 11. Juni 2026
+>Vorschau: 11. Juni 2026Produktion für alle: 11. Juni 2026
 
 Wenn Ihr Unternehmen sowohl Legacy-Workfront-Speicher als auch Adobe-Cloud-Speicher verwendet, können Sie jetzt eine Legacy-Speichervorlage verwenden, um ein Adobe-Cloud-Speicherprojekt in den folgenden Szenarien zu erstellen:
 
