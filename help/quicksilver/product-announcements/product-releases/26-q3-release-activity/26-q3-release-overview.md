@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 68cbebcb62faceab2bfbbcb9024d3916c2ba84b6
+source-git-commit: a131344f390abd94383fae0b9cc318ef0ca79d3a
 workflow-type: tm+mt
-source-wordcount: '2824'
+source-wordcount: '2920'
 ht-degree: 15%
 
 ---
@@ -522,6 +522,15 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             <td><strong>Vorschau</strong></td>
             <td><strong>Schnellveröffentlichung</strong></td>
             <td><strong>Vierteljährlich</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-other.md" class="MCXref xref" xrefformat="{para}">Optimierung der Kommentararchivierung</a><p>[!BADGE Außerplanmäßig]{type=Neutral}</p>
+                <p>Die Kommentararchivierung für Kommentare, die älter als 1 Jahr sind, wird derzeit für alle Workfront-Objekte optimiert, auf denen ein Bereich „Aktualisierungen“ angezeigt wird. Dies ist eine interne Anstrengung und sollte Ihre Erfahrung mit dem Bereich Aktualisierungen nicht beeinträchtigen. Der Bereich Aktualisierungen enthält für die Objekttypen keine visuellen Änderungen und die Funktionalität wird durch diese Aktualisierung nicht geändert. Alle Kommentare bleiben für alle Objekttypen sichtbar.</p>
+            </td>
+            <td><p>Schrittweiser Rollout ab 7. Juli 2026</p></td>
+            <td><p>Schrittweiser Rollout ab 7. Juli 2026</p></td>
+            <td><p>Schrittweiser Rollout ab 7. Juli 2026</p></td>
         </tr>
         <tr>
             <td>
