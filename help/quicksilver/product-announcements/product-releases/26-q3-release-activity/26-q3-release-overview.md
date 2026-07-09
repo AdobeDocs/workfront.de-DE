@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: a131344f390abd94383fae0b9cc318ef0ca79d3a
+source-git-commit: 25829e0ff77f2553411fdadb721bc41e4817ae90
 workflow-type: tm+mt
 source-wordcount: '2920'
 ht-degree: 15%
@@ -61,7 +61,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-ai.md" class="MCXref xref" xrefformat="{para}">Neue Tools im Workfront MCP-Connector</a>
-                <p>Um die Funktionen des Workfront MCP-Connectors zu erweitern, haben wir acht neue Tools hinzugefügt und die Tools für die Suche nach Objekten und die Auflösung von Feldnamen veraltet.</p>
+                <p>Um die Funktionen des Workfront MCP-Connectors zu erweitern, haben wir einige neue Tools hinzugefügt und die Tools für die Suche nach Objekten und die Auflösung von Feldnamen veraltet.</p>
             </td>
             <td><p>7. Juli 2026</p></td>
             <td><p>15. Juli 2026</p></td>
