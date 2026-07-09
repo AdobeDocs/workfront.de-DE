@@ -4,9 +4,9 @@ description: Weitere Verbesserungen im Zeitraum der Veröffentlichung im dritten
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 69e4091dcb139d4a11dad768fe78cb8e75721f3f
+source-git-commit: a131344f390abd94383fae0b9cc318ef0ca79d3a
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '575'
 ht-degree: 2%
 
 ---
@@ -16,6 +16,17 @@ ht-degree: 2%
 Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom dritten Quartal 2026 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2026 verfügbar sind, finden Sie unter [Versionsübersicht für das dritte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
+
+## Optimierung der Kommentararchivierung
+
+
+>[!NOTE]
+>
+>Vorschau und Produktion für alle Kunden: Ab dem 7. Juli 2026Außerplanmäßig]{type=Neutral}
+
+Die Kommentararchivierung für Kommentare, die älter als 1 Jahr sind, wird derzeit für alle Workfront-Objekte optimiert, auf denen ein Bereich „Aktualisierungen“ angezeigt wird. Dies ist eine interne Anstrengung und sollte Ihre Erfahrung mit dem Bereich Aktualisierungen nicht beeinträchtigen. Der Bereich Aktualisierungen enthält für die Objekttypen keine visuellen Änderungen und die Funktionalität wird durch diese Aktualisierung nicht geändert. Alle Kommentare bleiben für alle Objekttypen sichtbar.
+
+Weitere Informationen finden Sie [Abschnitt „Aktualisierungen - Übersicht](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 ## Aktualisierung der Benutzeroberfläche für Symbole der globalen Navigation
 
