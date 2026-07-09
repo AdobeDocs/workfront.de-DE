@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
+source-git-commit: c3131cb38ac6f71cdd98149c8d49177d59b7accf
 workflow-type: tm+mt
-source-wordcount: '2848'
+source-wordcount: '2865'
 ht-degree: 4%
 
 ---
@@ -171,11 +171,16 @@ Weitere Informationen finden Sie [Erste Schritte mit der Adobe Workfront Plannin
 >
 >Vorschau: 1. Juni 2026Produktions-Schnellveröffentlichung: 11. Juni 2026Produktion für alle: 16. Juli 2026
 
+
 Wir haben die Registerkarte Beispiel-Arbeitsbereiche im Bereich Planung hinzugefügt, wo Sie Beispiele für Best Practice-Arbeitsbereiche sehen können. Die Arbeitsbereiche können nicht bearbeitet werden. Workspace-Manager können Ansichten in Beispiel-Arbeitsbereichen ändern. Die Registerkarte ist für Benutzer von Standard und Systemadministrator sichtbar.
 
 Es wird empfohlen, die Beispiel-Arbeitsbereiche als Beispiele anzuzeigen und das Vorlagen-Bundle mit mehreren Arbeitsbereichen zu verwenden, um Arbeitsbereiche zu erstellen, zu bearbeiten und freizugeben, die bei der Verwendung dieser Vorlage entstehen.  Das Vorlagenpaket enthält dieselben Arbeitsbereiche wie die Registerkarte Beispiel-Arbeitsbereiche .
 
 Weitere Informationen finden Sie unter [Arbeitsbereiche - Übersicht](/help/quicksilver/planning/architecture/workspaces-overview.md).
+
+>[!NOTE]
+>
+>Das Erstellen von Arbeitsbereichen aus Vorlagenpaketen ist nur für Organisationen mit den Workflow-Prime- oder Ultimate-Paketen verfügbar.
 
 ## Workfront Planning-API, Version 2
 
