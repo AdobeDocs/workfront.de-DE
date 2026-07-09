@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 8fa3fbb299fef17fbd49978e74adef94c45bb000
+source-git-commit: 7113e16c3856fa984063f138c3fbb12e46f42db1
 workflow-type: tm+mt
-source-wordcount: '14272'
+source-wordcount: '14283'
 ht-degree: 94%
 
 ---
@@ -2054,6 +2054,7 @@ ht-degree: 94%
       * [Erste Schritte mit Proofing und Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
       * [Erste Schritte mit der Integration von Proofing und GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
       * [Verwenden von Adobe Experience Manager mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
+      * [Erste Schritte mit der Integration von Adobe Express und Workfront mit Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/express-wf-frame.md)
    * Tipps, Tricks und Fehlerbehebung für Genehmigungen {#ttt-approvals}
       * [Tipps, Tricks und Fehlerbehebung für Genehmigungen: Artikelindex](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Aktualisieren von Workfront Fusion-Szenarien für eine einheitliche Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md)
