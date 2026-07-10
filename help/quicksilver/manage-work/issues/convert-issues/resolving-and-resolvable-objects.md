@@ -10,22 +10,14 @@ exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/hJjssjxhgj3-0qndsIKMN5ygISRlv2GlE1HRKW68kdQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 71bea9d8e8a1987c5a1ee23d25402f784d2e22c8
 workflow-type: tm+mt
-source-wordcount: 1755
+source-wordcount: 1809
 ht-degree: 2%
 
 ---
@@ -189,11 +181,15 @@ Wenn Sie den Status der Aufgabe oder des Projekts in einen benutzerdefinierten S
 
 * Der benutzerdefinierte Status des Projekts oder der Aufgabe hat denselben aus drei Buchstaben bestehenden Code wie der benutzerdefinierte Status des Problems.
 
-Sie können benutzerdefinierte Status mit demselben Schlüssel sowohl für Probleme als auch für Projekte oder Aufgaben erstellen. Wenn das Projekt oder die Aufgabe (als Lösungsobjekt) in den benutzerdefinierten Status geändert wird, spiegelt die Änderung auch den Problemstatus wider. Der Statusschlüssel muss für den Problem- und Projekt- oder Aufgabenstatus identisch sein.
+Beachten Sie Folgendes:
 
-Angenommen, Sie erstellen ein benutzerdefinierter Projektstatus mit dem Namen „Launch“ mit dem aus drei Buchstaben bestehenden LCD-Code, was dem aktuellen entspricht. Als Nächstes erstellen Sie einen benutzerdefinierten Problemstatus mit dem Namen „Projekt gestartet“, auch mit dem Buchstaben-Code-LCD, der mit „In Bearbeitung“ übereinstimmt. Wenn Sie das Projekt als gestartet markieren, ändert das Problem automatisch den Status in Projekt gestartet. Wenn der Status „Lösbares Problem automatisch aktualisieren“ nicht aktiviert ist, wenn der Status des Lösungsobjekts sich ändert, ändert sich stattdessen der Problemstatus in „In Bearbeitung“.
+* Sie können benutzerdefinierte Status mit demselben Schlüssel sowohl für Probleme als auch für Projekte oder Aufgaben erstellen. Wenn das Projekt oder die Aufgabe (als Lösungsobjekt) in den benutzerdefinierten Status geändert wird, spiegelt die Änderung auch den Problemstatus wider. Der Statusschlüssel muss für den Problem- und Projekt- oder Aufgabenstatus identisch sein.
 
-Weitere Informationen zum Erstellen eines benutzerdefinierten Status finden Sie unter [Erstellen oder Bearbeiten eines Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+  Sie können beispielsweise einen benutzerdefinierten Projektstatus mit dem Namen Launch mit dem aus drei Buchstaben bestehenden LCD-Code erstellen, was mit „Aktuell“ übereinstimmt. Als Nächstes erstellen Sie einen benutzerdefinierten Problemstatus mit dem Namen „Projekt gestartet“, auch mit dem Buchstaben-Code-LCD, der mit „In Bearbeitung“ übereinstimmt. Wenn Sie das Projekt als gestartet markieren, ändert das Problem automatisch den Status in Projekt gestartet. Wenn der Status „Lösbares Problem automatisch aktualisieren“ nicht aktiviert ist, wenn der Status des Lösungsobjekts sich ändert, ändert sich stattdessen der Problemstatus in „In Bearbeitung“.
+
+* Wenn ein Lösungsobjekt auf einen Systemstatus gesetzt wird, der einem Status Abgeschlossen zugeordnet ist, wird das lösbare Problem auf den Standardstatus seiner eigenen Gruppe für diesen Status gesetzt. Die Statusschlüsselübereinstimmung mit drei Buchstaben gilt nur für den benutzerdefinierten Statuspfad, nicht für die von Workfront konfigurierten Systemstatus.
+
+  Weitere Informationen zum Erstellen eines benutzerdefinierten Status finden Sie unter [Erstellen oder Bearbeiten eines Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 ## Synchronisieren Sie den Prozentwert der Fertigstellung eines Lösungsobjekts mit dem des lösbaren Objekts.
 
