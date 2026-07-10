@@ -8,29 +8,23 @@ feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
 TQID: https://experienceleague.adobe.com/ns4wVw0qHcgzPPrvLx--lnEAaXg2rcoNOBPMZpMth9M
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: bb1dd007-4a34-496d-9d3b-2278fdaadac1
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: bb1dd007-4a34-496d-9d3b-2278fdaadac1
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b191c48f65bc489457112f8401654d1e4b66fabf
 workflow-type: tm+mt
-source-wordcount: 4436
-ht-degree: 95%
+source-wordcount: 4561
+ht-degree: 83%
 
 ---
 
 # API-Grundlagen
+
+>[!NOTE]
+>
+>Zu den Beispielen in diesem Artikel gehören `<supported-version>`. Ersetzen Sie dies durch die Version der Workfront-API, die Sie verwenden möchten.Informationen zur Workfront-API-Versionierung und zum Support-Zeitplan finden Sie unter [API-Versionierung und Support-Zeitplan](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 Das Ziel der Adobe Workfront-API ist die Vereinfachung der Erstellung von Integrationen mit Workfront, indem eine REST-ful-Architektur eingeführt wird, die über HTTP ausgeführt wird. In diesem Dokument wird davon ausgegangen, dass Sie mit REST- und JSON-Antworten vertraut sind, und der von der Workfront-API verfolgte Ansatz wird beschrieben.
 
@@ -59,9 +53,9 @@ In diesem Abschnitt finden Sie eine allgemeine Einführung in die Interaktion mi
 Jedem Objekt im System wird ein eindeutiger URI zugewiesen, der aus dem Objekttyp und der ID besteht. Die folgenden Beispiele zeigen URIs, die drei eindeutige Objekte beschreiben:
 
 ```
-/attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0
-/attask/api/v15.0/task/4c78821c0000d6fa8d5e52f07a1d54d1
-/attask/api/v15.0/issue/4c78821c0000d6fa8d5e52f07a1d54d2
+/attask/api/<supported-version>/project/4c78821c0000d6fa8d5e52f07a1d54d0
+/attask/api/<supported-version>/task/4c78821c0000d6fa8d5e52f07a1d54d1
+/attask/api/<supported-version>/issue/4c78821c0000d6fa8d5e52f07a1d54d2
 ```
 
 Beim Objekttyp wird nicht zwischen Groß- und Kleinschreibung unterschieden und es kann sich entweder um den abgekürzten ObjCode (z. B. proj) oder den alternativen Objektnamen (project) handeln.
@@ -84,14 +78,14 @@ Die standardmäßigen HTTP-Methoden entsprechen den folgenden Vorgängen:
 * **DELETE**: Löscht ein Objekt
 
 Um Client-Mängel oder Protokoll-Längenbeschränkungen zu umgehen, kann der Methodenparameter verwendet werden, um das HTTP-Verhalten zu überschreiben. Beispielsweise kann ein GET-Vorgang implementiert werden, indem der folgende URI gepostet wird:
-<pre>GET /attask/api/v15.0/project?id=4c78…54d0&amp;method=get<br>GET /attask/api/v15.0/project/4c78…54d0?method=get</pre>
+<pre>GET /attask/api/&lt;supported-version&gt;/project?id=4c78…54d0&amp;method=get<br>GET /attask/api/&lt;supported-version&gt;/project/4c78…54d0?method=get</pre>
 
 ### Antwort
 
 Jede Anfrage erhält eine Antwort im JSON-Format. Die Antwort enthält entweder ein Datenattribut, wenn die Anfrage erfolgreich war, oder ein Fehlerattribut, wenn ein Problem aufgetreten ist. Beispielsweise gibt die Anfrage
 
 ```
-GET /attask/api/v15.0/proj/4c7c08b20000002de5ca1ebc19edf2d5
+GET /attask/api/<supported-version>/proj/4c7c08b20000002de5ca1ebc19edf2d5
 ```
 
 gibt eine JSON-Antwort ähnlich der folgenden zurück:
@@ -104,7 +98,7 @@ gibt eine JSON-Antwort ähnlich der folgenden zurück:
 >Beim Ausführen einer GET-Anfrage über die Adressleiste Ihres Browsers ist es nicht erforderlich, die Sitzungs-ID als Teil der Anfrage einzuschließen.
 
 Besondere Sicherheit wurde für PUT-, POST- und DELETE-Anfragen hinzugefügt. Jede Anfrage, die zum Schreiben in oder Löschen aus der Datenbank führt, kann nur ausgeführt werden, wenn **sessionID=abc123** im URI enthalten ist. Die folgenden Beispiele zeigen, wie dies bei einer DELETE-Anfrage aussehen würde:
-<pre>GET /attask/api/v15.0/project?id=4c78...54d0&amp;method=delete&amp;sessionID=abc123<br>GET /attask/api/v15.0/project/4c78...54d0?method=delete&amp;sessionID=abc123</pre>
+<pre>GET /attask/api/&lt;supported-version&gt;/project?id=4c78…54d0&amp;method=delete&amp;sessionID=abc123<br>GET /attask/api/&lt;supported-version&gt;/project/4c78…54d0?method=delete&amp;sessionID=abc123</pre>
 
 ### Authentifizierung
 
@@ -119,7 +113,7 @@ Die bevorzugte Authentifizierungsmethode besteht darin, einen Anfrage-Header mit
 Im Folgenden finden Sie ein Beispiel für einen Anfrage-Header:
 
 ```
-GET /attask/api/v15.0/project/search
+GET /attask/api/<supported-version>/project/search
 SessionID: abc1234
 ```
 
@@ -155,7 +149,7 @@ Die API verwendet dieselbe Cookie-basierte Authentifizierung wie die Web-Benutze
 Mit einem gültigen Benutzernamen und einem Kennwort können Sie die folgende Anfrage verwenden, um eine Sitzungs-ID abzurufen:
 
 ```
-POST /attask/api/v15.0/login?username=admin&password=user
+POST /attask/api/<supported-version>/login?username=admin&password=user
 ```
 
 Damit wird ein Cookie gesetzt, um zukünftige Anfragen zu authentifizieren und eine JSON-Antwort mit der neu erstellten Sitzungs-ID, der Benutzer-ID des angemeldeten Benutzers bzw. der angemeldeten Benutzerin und anderen Sitzungsattributen zurückzugeben.
@@ -170,7 +164,7 @@ Sie können einen API-Schlüssel generieren, wenn Sie sich als dieser Benutzer b
 
 
 ```
-PUT /attask/api/v15.0/user?action=generateApiKey&username= username&password=password&method=put
+PUT /attask/api/<supported-version>/user?action=generateApiKey&username= username&password=password&method=put
 ```
 
 **Abrufen eines zuvor generierten API-Schlüssels**
@@ -179,7 +173,7 @@ Sie können auch einen API-Schlüssel abrufen, der zuvor für einen bestimmten B
 
 
 ```
-PUT /attask/api/v15.0/user?action=getApiKey&username=user@email.com&password=userspassword&method=put
+PUT /attask/api/<supported-version>/user?action=getApiKey&username=user@email.com&password=userspassword&method=put
 ```
 
 Dieses Ergebnis können Sie dann verwenden, um jeden API-Aufruf zu authentifizieren, indem Sie „apiKey“ als Anfrageparameter mit diesem Wert anstelle einer Sitzungs-ID oder eines Benutzernamens und eines Kennworts hinzufügen. Dies ist aus einer Sicherheitsperspektive von Vorteil.
@@ -187,7 +181,7 @@ Dieses Ergebnis können Sie dann verwenden, um jeden API-Aufruf zu authentifizie
 Die folgende Anfrage ist ein Beispiel für das Abrufen von Daten aus einem Projekt mithilfe des API-Schlüssels:
 
 ```
-GET /attask/api/v15.0/project/abc123xxxxx?apiKey=123abcxxxxxxxxx
+GET /attask/api/<supported-version>/project/abc123xxxxx?apiKey=123abcxxxxxxxxx
 ```
 
 **Invalidierung eines API-Schlüssels**
@@ -195,7 +189,7 @@ GET /attask/api/v15.0/project/abc123xxxxx?apiKey=123abcxxxxxxxxx
 Wenn der apiKey-Wert kompromittiert wurde, können Sie „clearApiKey“ ausführen. Dadurch wird der aktuelle API-Schlüssel ungültig, wie im folgenden Beispiel gezeigt:
 
 ```
-GET /attask/api/v15.0/user?action=clearApiKey&username=user@email.com&password=userspassword&method=put
+GET /attask/api/<supported-version>/user?action=clearApiKey&username=user@email.com&password=userspassword&method=put
 ```
 
 Nach dem Löschen können Sie getApiKey erneut ausführen, um einen neuen API-Schlüssel zu generieren.
@@ -205,7 +199,7 @@ Nach dem Löschen können Sie getApiKey erneut ausführen, um einen neuen API-Sc
 Wenn eine Sitzung abgeschlossen ist, können Sie die folgende Anfrage verwenden, um den Benutzer bzw. die Benutzerin abzumelden und so jeden weiteren Zugriff mit der Sitzungs-ID zu verhindern.
 
 ```
-GET /attask/api/v15.0/logout?sessionID=abc1234
+GET /attask/api/<supported-version>/logout?sessionID=abc1234
 ```
 
 Die Sitzungs-ID, die abgemeldet werden soll, kann entweder als Cookie, Anfrage-Header oder Anfrageparameter angegeben werden.
@@ -213,12 +207,12 @@ Die Sitzungs-ID, die abgemeldet werden soll, kann entweder als Cookie, Anfrage-H
 So melden Sie einen Benutzer bzw. eine Benutzerin ab:
 
 1. Navigieren Sie zu Ihrem Anmeldebildschirm, melden Sie sich jedoch nicht an.
-1. Ändern Sie die URL in „/attask/api/v15.0/project/search“.\
+1. Ändern Sie die URL in /attask/api/&lt;supported-version>/project/search.\
    Beachten Sie, dass die Seite nicht gefunden wurde.
 1. Ersetzen Sie das Wort *search* durch „login?username=admin&amp;password=user“ und ersetzen Sie Ihren Benutzernamen und Ihr Kennwort durch *admin* und „*user“\
    *Diese Sitzung wird im Browser als Cookie gespeichert und muss nicht bei jeder nachfolgenden GET-Anfrage neu angegeben werden.
 
-1. Ändern Sie die URL zurück in **/attask/api/v15.0/project/search**.
+1. Ändern Sie die URL zurück in **/attask/api/&lt;supported-version>/project/search**.
 1. Beachten Sie die angegebene Antwort.
 
 Bei PUT-, POST- und DELETE-Anfragen muss nach der Anmeldung immer die Sitzungs-ID angegeben werden.
@@ -236,7 +230,7 @@ Sie können die Suche nach Objekten mithilfe von Modifikatoren und Filtern verbe
 Wenn Sie die ID eines Objekts kennen, können Sie das Objekt durch Zugriff auf seinen eindeutigen URI abrufen. Beispielsweise gibt die Anfrage
 
 ```
-GET /attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0
+GET /attask/api/<supported-version>/project/4c78821c0000d6fa8d5e52f07a1d54d0
 ```
 
 eine Antwort ähnlich der folgenden zurück:
@@ -248,10 +242,10 @@ Sie können mehrere Objekte in derselben Anfrage abrufen, indem Sie den Anfragep
 
 
 ```
-GET /attask/api/v15.0/project?id=4c78...54d0,4c78...54d1
+GET /attask/api/<supported-version>/project?id=4c78...54d0,4c78...54d1
 ```
 
-Beachten Sie, dass die Anfrage „/attask/api/v15.0/prBeaoject?id=...“ mit der Anfrage `/attask/api/v15.0/project/...` identisch ist.
+Beachten Sie, dass die /attask/api/&lt;supported-version>/project?id=…-Anfrage mit der `/attask/api/&lt;supported-version&gt;/project/...`-Anfrage übereinstimmt.
 
 #### Abrufen eines Objekts mithilfe des URI
 
@@ -260,19 +254,19 @@ Wenn Sie ein Objekt anhand anderer Kriterien als der ID abrufen möchten, könne
 Beispielsweise können Sie die folgende Anfrage verwenden, um eine Liste aller Projekte im System zurückzugeben:
 
 ```
-GET /attask/api/v15.0/project/search
+GET /attask/api/<supported-version>/project/search
 ```
 
 Sie können Filter mithilfe der Anfrageparameter als Name-Wert-Paare angeben. Das folgende Beispiel zeigt eine Anfrage, die alle aktuellen Projekte findet:
 
 ```
-GET /attask/api/v15.0/project/search?status=CUR
+GET /attask/api/<supported-version>/project/search?status=CUR
 ```
 
 Die folgende Anfrage findet alle Aufgaben, die noch nicht abgeschlossen sind und die einem Benutzer namens „John“ zugewiesen sind.
 
 ```
-GET /attask/api/v15.0/task/search?percentComplete=100
+GET /attask/api/<supported-version>/task/search?percentComplete=100
 &percentComplete_Mod=lt &assignedTo:firstName=John
 ```
 
@@ -310,21 +304,21 @@ Wenn Sie beispielsweise nach Folgendem filtern möchten
 * Aufgaben mit einer übergeordneten Aufgabe namens „Final Task“,
 
 dann verwenden Sie den folgenden API-Aufruf mit seinen mehreren ODER-Anweisungen:
-<pre>GET /attask/api/v15.0/task/search?name=Planning<br>&amp;name_Mod=contains<br>&amp;OR:1:portfolio:name=FixedAssets<br>&amp;OR:1:portfolio:name_Mod=eq<br>&amp;OR:1:assignedTo:name=Steve<br>&amp;OR:1:assignedTo:name_Mod=cicontains<br>&amp;OR:2:parent:name=Final Task<br>&amp;OR:2:parent:name_Mod=eq
+<pre>GET /attask/api/&lt;supported-version&gt;/task/search?name=Planning<br>&amp;name_mod=contains<br>&amp;OR:1:portfolio:name=FixedAssets<br>&amp;OR:1:portfolio:name_mod=eq<br>&amp;OR:1:assignedTo:name=Steve<br>&amp;OR:1:assignedTo:name_mod=cicontains<br>&amp;OR:2:parent:name=Final Task<br>&amp;OR:2:parent:name_mod=eq
 </pre>
 
 #### Verwenden von Filterparametern
 
-Ein potenzieller Fehler bei der Verwendung von URL-Parametern für Suchfilter besteht darin, dass Workfront bestimmte Parameter analysiert, bevor nach verschiedenen Authentifizierungsmethoden (z. B. Benutzername, Kennwort, API-Schlüssel, Cookie) gesucht wird. In diesem Fall werden die Parameter nicht als Filter im Aufruf verwendet. 
+Ein potenzieller Fehler bei der Verwendung von URL-Parametern für Suchfilter besteht darin, dass Workfront bestimmte Parameter analysiert, bevor nach verschiedenen Authentifizierungsmethoden (z. B. Benutzername, Kennwort, API-Schlüssel, Cookie) gesucht wird. In diesem Fall werden die Parameter nicht als Filter im Aufruf verwendet.
 
 Um dieses Problem zu vermeiden, können Sie diese Werte in Filterparametern mit JSON-Formatierung einfügen. Wenn Sie beispielsweise nach dem Benutzernamen „testuser“ filtern möchten, gehen Sie wie folgt vor: Anstatt 
-<pre>/attask/api/v15.0/user/search?username=testuser@workfront.com</pre>zu verwenden, übergeben Sie den URL-Parameter in einem Filter, wie im folgenden Beispiel gezeigt:
-<pre>/attask/api/v15.0/user/search?filters={"username":"testuser@workfront.com"}</pre>
+<pre>/attask/api/&lt;supported-version&gt;/user/search?username=testuser@workfront.com</pre>zu verwenden, übergeben Sie den URL-Parameter in einem Filter, wie im folgenden Beispiel gezeigt:
+<pre>/attask/api/&lt;supported-version&gt;/user/search?filters={„username“:“testuser@workfront.com"}</pre>
 
 #### Verwenden des Anfrageparameters „map“
 
 Standardmäßig handelt es sich bei den von einer Suche zurückgegebenen Daten um ein JSON-Array. Je nach Anwendungsfall ist es möglicherweise effizienter, das Ergebnis als ein nach ID indiziertes JSON-Objekt abzurufen. Verwenden Sie dazu den Anfrageparameter „map“. Beispielsweise gibt die Anfrage 
-<pre>/attask/api/v15.0/task/search?map=true</pre>eine nach ID indizierte Antwort ähnlich der folgenden zurück:
+<pre>/attask/api/&lt;supported-version&gt;/task/search?map=true</pre>eine nach ID indizierte Antwort ähnlich der folgenden zurück:
 <pre>{<br>    "data": {<br>        "4c9a97db0000000f13ee4446b9aead9b": {<br>            "percentComplete": 0,<br>            "status": "NEW",<br>            "name": "first task",<br>            "ID": "4c9a97db0000000f13ee4446b9aead9b",<br>            "taskNumber": 1 <br>        },<br>        "4ca28ba600002024cd49e75bd43cf601": {<br>            "percentComplete": 0,<br>            "status": "INP:A",<br>            "name": "second task",<br>            "ID": "4ca28ba600002024cd49e75bd43cf601",<br>            "taskNumber": 2 <br>        } <br>    } <br>}</pre>
 
 #### Verwenden des Anfrageparameters „fields“
@@ -332,7 +326,7 @@ Standardmäßig handelt es sich bei den von einer Suche zurückgegebenen Daten u
 Standardmäßig wird beim Abrufen eines Objekts nur die am häufigsten verwendete Teilmenge von Feldern zurückgegeben.
 
 Mit dem Anfrageparameter „fields“ können Sie angeben, dass eine kommagetrennte Liste bestimmter Felder zurückgegeben wird. Beispielsweise gibt die Anfrage
-<pre>/attask/api/v15.0/task/search?fields=plannedStartDate,priority</pre>eine Antwort ähnlich der folgenden zurück:
+<pre>/attask/api/&lt;supported-version&gt;/task/search?fields=scheduledStartDate,priority</pre>eine Antwort ähnlich der folgenden zurück:
 <pre>{<br>    "priority": 2,<br>    "name": "first task",<br>    "ID": "4c7c08fa0000002ff924e298ee148df4",<br>    "plannedStartDate": "2010-08-30T09:00:00:000-0600" <br>}</pre>
 
 >[!NOTE]
@@ -344,44 +338,44 @@ Eine Liste der möglichen Feldverweise finden Sie unter [API-Explorer](../../wf
 #### Suchen nach verschachtelten Objekten
 
 Sie können nach verschachtelten Objekten suchen. Standardmäßig werden verschachtelte Objekte nur mit dem Namen und der ID zurückgegeben. Verwenden Sie beispielsweise die folgende Anfrage, um alle Probleme zusammen mit ihren Inhabenden abzurufen:
-<pre>/attask/api/v15.0/issue/search?fields=owner</pre>Wenn weitere Informationen erforderlich sind, können Sie ein verschachteltes Feld mithilfe der Doppelpunkt-Syntax anfordern. Beispielsweise sucht die folgende Anfrage nach allen Problemen zusammen mit dem Namen, der ID, dem Titel und der Telefonnummer des Inhabers bzw. der Inhaberin
-<pre>/attask/api/v15.0/issue/search?fields=owner:title,owner:phoneNumber</pre>und gibt Folgendes zurück: 
+<pre>/attask/api/&lt;supported-version&gt;/issue/search?fields=owner</pre>Wenn weitere Informationen erforderlich sind, können Sie ein verschachteltes Feld mithilfe der Doppelpunkt-Syntax anfordern. Beispielsweise sucht die folgende Anfrage nach allen Problemen zusammen mit dem Namen, der ID, dem Titel und der Telefonnummer des Inhabers bzw. der Inhaberin
+<pre>/attask/api/&lt;supported-version&gt;/issue/search?fields=owner:title,owner:phoneNumber</pre>und gibt Folgendes zurück: 
 <pre>{<br>    "name": "an important issue",<br>    "ID": "4c78285f00000908ea8cfd66e084939f",<br>    "owner": {<br>        "title": "Operations Specialist",<br>        "phoneNumber": "555-1234",<br>        "name": "Admin User",<br>        "ID": "4c76ed7a0000054c172b2c2d9f7f81c3" <br>    } <br>}</pre>
 
 #### Abrufen verschachtelter Sammlungen
 
 Sie können verschachtelte Sammlungen von Objekten abrufen. Um beispielsweise ein Projekt mit allen seinen Aufgaben abzurufen, verwenden Sie die folgende Anfrage:
-<pre>/attask/api/v15.0/project/search?fields=tasks</pre>Die folgende Anfrage ruft Aufgabenzuweisungen ab:
-<pre>/attask/api/v15.0/task/search?fields=assignments</pre>
+<pre>/attask/api/&lt;supported-version&gt;/project/search?fields=tasks</pre>Die folgende Anfrage ruft Aufgabenzuweisungen ab:
+<pre>/attask/api/&lt;supported-version&gt;/task/search?fields=assignments</pre>
 
 #### Suchen nach mehreren verschachtelten Feldern
 
 Standardmäßig werden nur der Name und die ID jeder Aufgabe zurückgegeben. Es können jedoch zusätzliche verschachtelte Felder mit Doppelpunkt-Syntax angegeben werden. Um alle verfügbaren Felder für ein verknüpftes Objekt oder eine Sammlung anzuzeigen, hängen Sie einfach einen Doppelpunkt und ein Sternchen an die Objekt-/Sammlungsreferenz an.
-<pre>/attask/api/v15.0/task/search?fields=assignments:*</pre>
+<pre>/attask/api/&lt;supported-version&gt;/task/search?fields=assignments:*</pre>
 
 #### Abrufen benutzerdefinierter Daten
 
 Benutzerdefinierte Datenfelder können mit dem Präfix „DE:“ abgerufen werden. Um beispielsweise ein Projekt mit einem Parameter namens „CustomText“ anzufordern, verwenden Sie die folgende Anfrage:
-<pre>/attask/api/v15.0/project/search?fields=DE:CustomText</pre>die Folgendes zurückgibt
+<pre>/attask/api/&lt;supported-version&gt;/project/search?fields=DE:CustomText</pre>die Folgendes zurückgibt
 <pre>{<br>    "name": "custom data project",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    "DE:CustomText": "task b" <br>}</pre>Sie können auch alle benutzerdefinierten Daten für ein Objekt abrufen, indem Sie das Feld „parameterValues“ anfordern. Beispiel: 
-<pre>/attask/api/v15.0/project/search?fields=parameterValues</pre>gibt Daten ähnlich den folgenden zurück:
+<pre>/attask/api/&lt;supported-version&gt;/project/search?fields=parameterValues</pre>gibt Daten ähnlich den folgenden zurück:
 <pre>{<br>    "name": "custom data project",<br>    "ID": "4c9a954f0000001afad0687d7b1b4e43",<br>    parameterValues: { <br>        "DE:CustomText": "task b", <br>        "DE:CustomNumber": 1.4, <br>        "DE:CustomCheckBoxes": ["first", "second", "third"] <br>    } <br>}</pre>
 
 #### Verwenden benannter Abfragen
 
 Einige Objekttypen verfügen über benannte Suchvorgänge, die häufig ausgeführt werden und verfügbar sind, indem der Name der Abfrage an das Ende des Objekttyp-URI angehängt wird. Beispielsweise ruft die folgende Anfrage die Arbeitselemente (Aufgaben und Probleme) ab, denen der Benutzer bzw. die Benutzerin derzeit zugewiesen ist:
-<pre>/attask/api/v15.0/work/myWork</pre>Benannte Abfragen unterstützen das Anfordern des Parameters „fields“ zum Abrufen zusätzlicher Felder. Einige benannte Abfragen akzeptieren auch zusätzliche Filter. Eine Liste der zulässigen Abfragen mit dem Namen eines Objekts finden Sie auf der Registerkarte „Aktion“ für das Objekt im [API-Explorer](https://developer.adobe.com/workfront/api-explorer/).
+<pre>/attask/api/&lt;supported-version&gt;/work/myWork</pre>Benannte Abfragen unterstützen das Anfordern des Parameters „fields“ zum Abrufen zusätzlicher Felder. Einige benannte Abfragen akzeptieren auch zusätzliche Filter. Eine Liste der zulässigen Abfragen mit dem Namen eines Objekts finden Sie auf der Registerkarte „Aktion“ für das Objekt im [API-Explorer](https://developer.adobe.com/workfront/api-explorer/).
 
 #### Verwenden von `Count`
 
 Sie können `count` verwenden, um die Anzahl der Ergebnisse zurückzugeben, die Ihrer Abfrage entsprechen. Dies kann nützlich sein, wenn Sie die Daten in den Ergebnissen nicht benötigen. Wird nur die Anzahl zurückgegeben, kann der Server die Anfrage schneller verarbeiten und Bandbreite sparen. Beispielsweise gibt die Anfrage
-<pre>GET /attask/api/v15.0/project/count?status=CUR</pre>gibt die Anzahl der Ergebnisse im folgenden Format zurück:
+<pre>GET /attask/api/&lt;supported-version&gt;/project/count?status=CUR</pre>gibt die Anzahl der Ergebnisse im folgenden Format zurück:
 <pre>{<br>    "count": 3 <br>}</pre>Bei der Rückgabe einer Anzahl werden viel weniger Daten übertragen als bei der Rückgabe der vollständigen Objekte. Die Syntax ist identisch mit dem Suchbefehl.
 
 ### Anfordern eines Berichts
 
 Sie können eine Berichtsanfrage ausführen, bei der nur das Aggregat eines bestimmten Feldes mit einer oder mehreren Gruppierungen gewünscht wird. Wie im folgenden Beispiel gezeigt, ist die Berichtssyntax mit der Syntax für die SOAP-API identisch:
-<pre>GET /attask/api/v15.0/hour/report?project:name_1_GroupBy=true&amp;hours_AggFunc=sum</pre>gibt das folgende Ergebnis zurück
+<pre>GET /attask/api/&lt;supported-version&gt;/hour/report?project:name_1_GroupBy=true&amp;hours_AggFunc=sum</pre>gibt das folgende Ergebnis zurück
 <pre>{<br>    "First Project": { <br>        "sum_hours": 15 <br>    }, <br>     "Second Project": { <br>        "sum_hours": 30 <br>    } <br>}</pre>Das Hinzufügen des Parameters „$$ROLLUP=true“ ergibt eine Summe auf jeder Gruppierungsebene:
 <pre>{<br>    "First Project": { <br>        "sum_hours": 15 <br>    }, <br>    "Second Project": { <br>        "sum_hours": 30 <br>    }, <br>    "$$ROLLUP": { <br>        "sum_hours": 45 <br>    } <br>}</pre>
 
@@ -449,12 +443,12 @@ Um eine optimale Leistung zu gewährleisten, werden in der folgenden Tabelle die
 ### Verwenden paginierter Antworten {#using-paginated-responses}
 
 Um die Abfragebeschränkung für die Standardanzahl der Ergebnisse zu überschreiben und 200 Ergebnisse zuzulassen, können Sie den Filter `$$LIMIT=200` in Ihre Abfrage einbeziehen, wie im folgenden Beispiel gezeigt:
-<pre>GET /attask/api/v15.0/project/search?$$LIMIT=200</pre>
+<pre>GET /attask/api/&lt;supported-version&gt;/project/search?$$LIMIT=200</pre>
 
-Um die Zuverlässigkeit und Leistung anderer Mandanten im System sicherzustellen, beträgt die maximal zulässige Ergebnisgrenze pro Abfrage 2.000 Objekte. Der Versuch, eine größere Grenze anzugeben, führt zu einer `IllegalArgumentException` Fehlermeldung. 
+Um die Zuverlässigkeit und die Leistung anderer Mandanten im System sicherzustellen, beträgt die maximal zulässige Anzahl der Ergebnisse pro Abfrage 2.000 Objekte. Der Versuch, ein höheres Limit anzugeben, führt zu einer Fehlermeldung vom Typ `IllegalArgumentException`.
 
 Daher empfehlen wir die Verwendung paginierter Antworten für große Datensätze. Um das erste Ergebnis anzugeben, das zurückgegeben werden soll, fügen Sie den Filter `$$FIRST` hinzu. Beispielsweise gibt die folgende Anfrage die Ergebnisse 201–250 für eine Abfrage zurück:
-<pre>GET /attask/api/v15.0/project/search?$$FIRST=200&amp;$$LIMIT=50</pre>
+<pre>GET /attask/api/&lt;supported-version&gt;/project/search?$$FIRST=200&amp;$$LIMIT=50</pre>
 
 Beachten Sie, dass `$$FIRST=200` im obigen Beispiel das 201. Ergebnis zurückgibt. `$$FIRST=0` würde das erste Ergebnis zurückgeben. Es kann hilfreich sein, sich den Wert „$$FIRST“ als die Anzahl der Ergebnisse vorzustellen, die Sie überspringen möchten, bevor Ergebnisse zurückgegeben werden.
 
@@ -465,9 +459,9 @@ Um sicherzustellen, dass Ihre Ergebnisse ordnungsgemäß paginiert werden, verwe
 Sie können eine Zugriffsregel erstellen, um zu bestimmen, wer auf ein Objekt zugreifen kann. Im Folgenden finden Sie Beispiele für Zugriffsregeln, die Sie festlegen können:
 
 Um ein Projekt so einzurichten, dass es nur für einen Benutzer bzw. eine Benutzerin mit der ID „abc123“ freigegeben wird, verwenden Sie die folgende Anfrage:
-<pre>GET /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxx?method=put &amp;updates={ accessRules: [ {accessorID: 'abc123', accessorObjCode: 'USER', coreAction: 'VIEW'} ] }</pre>Alternativ können Sie die Freigabe nur für eine Person durchführen und die bestehenden Berechtigungen beibehalten:
-<pre>GET /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxx/share?method=put&amp;accessorID=abc123&amp;accessorObjCode=USER&amp;coreAction=VIEW</pre>So rufen Sie die vorhandenen Zugriffsregeln ab:
-<pre>GET /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxx?fields=accessRules:*</pre>
+<pre>GET /attask/api/&lt;supported-version&gt;/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxx?method=put &amp;updates={ accessRules: [ {accessorID: 'abc123', accessorObjCode: 'USER', coreAction: 'VIEW'} ] }</pre>Alternativ können Sie die Freigabe nur für eine Person durchführen und die bestehenden Berechtigungen beibehalten:
+<pre>GET /attask/api/&lt;supported-version&gt;/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/share?method=put&amp;accessorID=abc123&amp;accessorObjCode=USER&amp;coreAction=VIEW</pre>So rufen Sie die vorhandenen Zugriffsregeln ab:
+<pre>GET /attask/api/&lt;supported-version&gt;/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxx?fields=accessRules:*</pre>
 
 ## Verhalten von POST
 
@@ -476,22 +470,22 @@ POST fügt ein neues Objekt ein. Die Syntax entspricht der von PUT, mit einigen 
 ### Erstellen eines Objekts
 
 Im Folgenden finden Sie ein Beispiel für eine Anfrage zum Erstellen eines neuen Projekts:
-<pre>POST /attask/api/v15.0/project?name=New Project</pre>Die Antwort enthält das neu erstellte Projekt zusammen mit seiner neuen ID und allen anderen angegebenen Feldern.
+<pre>POST /attask/api/&lt;supported-version&gt;/project?name=New Project</pre>Die Antwort enthält das neu erstellte Projekt zusammen mit seiner neuen ID und allen anderen angegebenen Feldern.
 
 ### Kopieren eines Objekts
 
 Einige Objekte unterstützen das Kopieren. Für diese Objekttypen ist es möglich, neue Objekte durch Posten mit dem Parameter „copySourceID“ zu erstellen. Beispielsweise wird das angegebene Projekt mit der folgenden Anfrage kopiert und ein neuer Name für das Projekt festgelegt:
 
 ```
-POST /attask/api/v15.0/project?copySourceID=4c7...&name=Copied Project
+POST /attask/api/<supported-version>/project?copySourceID=4c7...&name=Copied Project
 ```
 
 ### Hochladen von Dokumenten
 
 Sie können Dokumente über die folgende API-URL hochladen:
-<pre>POST /attask/api/v15.0/upload</pre>Die API erwartet, dass der Inhaltstyp „multipart/form-data“ ist. Der Parametername für die Datei muss „uploadedFile“ sein. Der Server gibt die folgenden JSON-Daten zurück:
+<pre>POST /attask/api/&lt;supported-version&gt;/upload</pre>Die API erwartet, dass der Inhaltstyp „multipart/form-data“ ist. Der Parametername für die Datei muss „uploadedFile“ sein. Der Server gibt die folgenden JSON-Daten zurück:
 <pre>{<br>    "handle": "4c7c08fa0000002ff924e298ee148df4"<br>}</pre>Beim Erstellen eines Workfront-Dokuments können Sie den Handle verwenden und in der folgenden URL posten:
-<pre>POST /attask/api/v15.0/document?updates={<br>    name: aFileName,<br>    handle: abc...123, (handle from the file upload)<br>    docObjCode: PROJ, (or TASK, OPTASK, etc)<br>    objID: abc...123,<br>    currentVersion:{version:v1.0,fileName:aFileName}<br>}</pre>
+<pre>POST /attask/api/&lt;supported-version&gt;/document?updates={<br> name: aFileName,<br> handle: abc…123, (handle aus dem Datei-Upload)<br> docObjCode: PROJ, (oder TASK, OPTASK usw.<br> objID: abc…123,<br> currentVersion:{version:v1.0,fileName:aFileName}<br>}</pre>
 
 ## Verhalten von PUT
 
@@ -502,57 +496,57 @@ Die Antwort für eine PUT-Anfrage ist identisch mit der einer GET-Anfrage. In be
 ### Bearbeiten von Objekten
 
 Aktualisierungen an Objekten werden immer nach ID unter Verwendung des eindeutigen URI des Objekts durchgeführt. Zu aktualisierende Felder werden als Anfrageparameter angegeben. Um beispielsweise den Namen eines Projekts zu ändern, können Sie eine Anfrage ähnlich der folgenden senden:
-<pre>PUT /attask/api/v15.0/project/4c7..?name=New Project Name <br>PUT /attask/api/v15.0/project?id=4c7…&amp;name=New Project Name</pre>Da für die Aktualisierung eine ID erforderlich ist, schlägt dieser Vorgang (ohne Einfügen) fehl, wenn das Objekt auf dem Server nicht vorhanden ist.
+<pre>PUT /attask/api/&lt;supported-version&gt;/project/4c7…name=New Project Name <br>PUT /attask/api/&lt;supported-version&gt;/project?id=4c7…&amp;name=New Project Name</pre>Da für die Aktualisierung eine ID erforderlich ist, schlägt dieser Vorgang (ohne Einfügen) fehl, wenn das Objekt auf dem Server nicht vorhanden ist.
 
 ### Angeben von JSON-Änderungen
 
 Wie im folgenden Beispiel gezeigt, können Sie den Anfrageparameter „updates“ verwenden, um die zu aktualisierenden Felder mithilfe der JSON-Syntax anzugeben:
-<pre>PUT /attask/api/v15.0/project/4c7..?updates= <br>{<br> name: „New Project Name“, <br> status: „CUR“, <br> … <br>}</pre>
+<pre>PUT /attask/api/&lt;supported-version&gt;/project/4c7…?updates= <br>{<br> name: „New Project Name“, <br> status: „CUR“, <br> … <br>}</pre>
 
 ### Durchführen verschachtelter Aktualisierungen
 
 Einige Objekte verfügen über private Sammlungen, die aktualisiert werden können. Im folgenden Beispiel wird beispielsweise veranschaulicht, wie die vorhandenen Arbeitsaufträge für eine bestimmte Aufgabe überschrieben werden:
-<pre>PUT /attask/api/v15.0/task/4c7..?updates= <br>{<br> Arbeitsaufträge: [ <br> { <br> assignedToID: „2222…54d0, <br> assignmentPercent: 50.0 <br> },{ <br> roleID: „1111…54d0“<br> } <br> ] <br>}</pre>
+<pre>PUT /attask/api/&lt;supported-version&gt;/task/4c7..?updates= <br>{<br> assignments: [ <br> { <br> assignedToID: „2222…54d0, <br> assignmentPercent: 50.0 <br> },{ <br> roleID: „1111…54d0“<br> } <br> ] <br>}</pre>
 
 >[!NOTE]
 >
 >Aktualisierungen an der obersten Ebene sind zwar selten, aber Aktualisierungen an einer Sammlung oder einem verschachtelten Objekt ersetzen die vorhandene Sammlung vollständig. Um einen einzelnen Arbeitsauftrag für eine Aufgabe zu bearbeiten, ohne dass sich dies auf die Objekte auswirkt, verwenden Sie PUT für den Arbeitsauftrag und nicht für die Aufgabe.
 
 Im folgenden Beispiel wird ein Projekt zu einer öffentlichen Helpdesk-Warteschlange. Beachten Sie, dass die vorhandenen Warteschlangeneigenschaften ersetzt werden.
-<pre>PUT /attask/api/v15.0/project/4c7…?updates= <br>{ <br> queueDef: { <br> isPublic: 1 <br> } <br>}</pre>
+<pre>PUT /attask/api/&lt;supported-version&gt;/project/4c7…?updates= <br>{ <br> queueDef: { <br> isPublic: 1 <br> } <br>}</pre>
 
 ### Verwenden des Anfrageparameters „action“
 
 Einige Objekte unterstützen weitere Aktionen, die zusätzlich zu einfachen Änderungen durchgeführt werden können. Diese Aktionen können Sie mit dem Anfrageparameter „action“ angeben. Mit der folgenden Anfrage wird beispielsweise die Timeline für ein bestimmtes Projekt neu berechnet:
-<pre>PUT /attask/api/v15.0/project/4c7..?action=calculateTimeline<br><br>or<br><br>PUT /attask/api/v15.0/project/4c7…/calculateTimeline </pre>
+<pre>PUT /attask/api/&lt;supported-version&gt;/project/4c7..?action=calculateTimeline<br><br>or<br><br>PUT /attask/api/&lt;supported-version&gt;/project/4c7…/calculateTimeline </pre>
 
 ### Verschieben von Objekten
 
 Im Folgenden wird die Syntax zum Verschieben einer Aufgabe von einem Projekt zu einem anderen veranschaulicht:
-<pre>PUT /attask/api/v15.0/task/4c7.../move?projectID=5d8...</pre>Hier ist ein Beispiel für jeden Aktionstyp angegeben: (??)
-<pre>PUT /attask/api/v15.0/project/1234/approveApproval<br><br>PUT /attask/api/v15.0/project/1234/calculateFinance<br><br>PUT /attask/api/v15.0/project/1234/calculateTimeline<br><br>PUT /attask/api/v15.0/project/1234/calculateDataExtension<br><br>PUT /attask/api/v15.0/project/1234/recallApproval<br><br>PUT /attask/api/v15.0/project/1234/rejectApproval<br><br>PUT /attask/api/v15.0/task/1234/move<br><br>PUT /attask/api/v15.0/workitem/1234/markViewed</pre>Nur für die Aktion zum Verschieben („move“) müssen zusätzliche Attribute angegeben werden, um das Projekt näher zu bestimmen, zu dem das Arbeitselement verschoben werden soll.
+<pre>PUT /attask/api/&lt;supported-version&gt;/task/4c7…/move?projectID=5d8…</pre>Hier ist ein Beispiel für jeden Aktionstyp angegeben: (??)
+<pre>PUT /attask/api/&lt;supported-version&gt;/project/1234/approve<br><br>PUT /attask/api/&lt;supported-version&gt;/project/1234/calculateFinance<br><br>PUT /attask/api/&lt;supported-version&gt;/project/1234/calculateTimeline<br><br>PUT /attask/api/&lt;supported-version&gt;/project/1234/calculateDataExtension<br><br>PUT /attask/api/&lt;supported-version&gt;/project/1234/recallApproval<br><br>PUT /attask/api/&lt;supported-version&gt;/project/1234/jectApproval<br><br>PUT /attask/api/&lt;supported-version&gt;/task/1234/move<br><br>PUT /attask/api/&lt;supported-version&gt;/workitem/1234/markViewed</pre>Nur für die Aktion zum Verschieben („move“) müssen zusätzliche Attribute angegeben werden, um das Projekt näher zu bestimmen, zu dem das Arbeitselement verschoben werden soll.
 
 Nachfolgend finden Sie ein Beispiel für jeden Aktionstyp: 
-<pre>PUT /attask/api/v15.0/project/1234?method=put&amp;updates={accessRules:[{accessorID: 'abc123', accessorObjCode: 'USER', coreAction: 'VIEW'}]}</pre>
+<pre>PUT /attask/api/&lt;supported-version&gt;/project/1234?method=put&amp;updates={accessRules:[{accessorID: 'abc123', accessorObjCode: 'USER', coreAction: 'VIEW'}]}</pre>
 
 ### Freigeben von Objekten
 
 Das folgende Beispiel zeigt die Syntax für die Freigabe eines Projekts für ein Team:
-<pre>PUT /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxx/share?accessorID=123abcxxxxxxxxxxxxxxxxxxxxxxxxxx&amp;accessorObjCode=TEAMOB</pre>Beim Bearbeiten eines Objekts können Sie alle Zugriffsregeln für ein Objekt ersetzen, indem Sie eine PUT-Anweisung durchführen und Aktualisierungen ähnlich dem folgenden Beispiel senden:
-<pre>PUT /attask/api/v15.0/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxx?method=PUT&amp;updates={accessRules:[{accessorID:'123abcxxxxxxxxxxxxxxxxxxxxxxxxxx',accessorObjCode:'TEAMOB',coreAction:'VIEW'}]}</pre>Das folgende Beispiel zeigt die Syntax zum Verschieben einer Aufgabe von einem Projekt zu einem anderen:
-<pre>PUT /attask/api/v15.0/task/4c7.../move?projectID=5d8...</pre>
+<pre>PUT /attask/api/&lt;supported-version&gt;/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/share?accessorID=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxx&amp;accessorObjCode=TEAMOB</pre>Beim Bearbeiten eines Objekts können Sie alle Zugriffsregeln für ein Objekt ersetzen, indem Sie eine PUT-Anweisung durchführen und Aktualisierungen ähnlich dem folgenden Beispiel senden:
+<pre>PUT /attask/api/&lt;supported-version&gt;/project/123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxx?method=PUT&amp;updates={accessRules:[{accessorID:'123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',accessorObjCode:'TEAMOB',coreAction:'VIEW'}]}</pre>Das folgende Beispiel zeigt die Syntax zum Verschieben einer Aufgabe von einem Projekt zu einem anderen:
+<pre>PUT /attask/api/&lt;supported-version&gt;/task/4c7…/move?projectID=5d8…</pre>
 
 ## Verhalten von DELETE
 
 Mit DELETE wird ein Objekt entfernt. In jedem Fall kann der URI den Parameter „force=true“ enthalten, damit die angegebenen Daten und deren abhängige Elemente vom Server entfernt werden. Im folgenden Beispiel wird eine Aufgabe gelöscht, indem die HTTP-DELETE-Methode für einen URI ausgeführt wird:
-<pre>DELETE /attask/api/v15.0/task/4c78821c0000d6fa8d5e52f07a1d54d0 <br>DELETE /attask/api/v15.0/task?id=4c78821c0000d6fa8d5e52f07a1d54d0 <br>DELETE /attask/api/v15.0/task/4c78821c0000d6fa8d5e52f07a1d54d0?force=true <br>DELETE /attask/api/v15.0/task?id=4c78821c0000d6fa8d5e52f07a1d54d0?force=true</pre>
+<pre>DELETE /attask/api/&lt;supported-version&gt;/task/4c78821c0000d6fa8d5e52f07a1d54d0 <br>DELETE /attask/api/&lt;supported-version&gt;/task?id=4c78821c0000d6fa8d5e52f07a1d54d0 <br>DELETE /attask/api/&lt;supported-version&gt;/task/4c78821c0000d6fa8d5e52f07a1d54d0?force=true <br>DELETE /attask/api/&lt;supported-version&gt;/task?id=4c78821c0000d6fa8d5e52f07a1d54d0?force=true</pre>
 
 ## Massenaktualisierungen
 
 Mit einer Massenaktualisierungs-Anweisung werden mehrere Objekte gleichzeitig innerhalb eines einzigen API-Aufrufs aktualisiert. Ein Massenerstellungs-API-Aufruf wird ähnlich wie ein normaler Aktualisierungsaufruf erstellt, wie in den folgenden Beispielen gezeigt:
-<pre>PUT /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>oder <pre>PUSH /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>was zu einem Ergebnis ähnlich dem folgenden führt:
+<pre>PUT /attask/api/&lt;supported-version&gt;/proj?updates=[{„name“:„Test_Project_1“},{„name“:„Test_Project_2“}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>oder <pre>PUSH /attask/api/&lt;supported-version&gt;/proj?updates=[{„name“:„Test_Project_1“},{„name“:„Test_Project_2“}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>was zu einem Ergebnis ähnlich dem folgenden führt:
 <pre>data: [{<br>    ID: "53ff8d3d003b438b57a8a784df38f6b3",<br>    name: "Test_Project_1",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    priority: 0,<br>    projectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>},<br>{<br>    ID: "53ff8d49003b43a2562aa34eea3b6b10",<br>    name: "Test_Project_2",<br>    objCode: "PROJ",<br>    percentComplete: 0usi,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    priority: 0,<br>    projectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>}]</pre>Sie können auch eine Massenaktualisierung ähnlich der folgenden durchführen:
-<pre>PUT /attask/api/v15.0/proj?Umethod=PUT&amp;updates=[{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_1_ Edit"},{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_2_Edit"}]&amp;apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>was zu einem Ergebnis ähnlich dem folgenden führt:
+<pre>PUT /attask/api/&lt;supported-version&gt;/proj?umethod=PUT&amp;updates=[{„ID“:„123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx“,„name“:„Test_Project_1_ Edit“},{„ID“:„123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx}]&amp;apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>was zu einem Ergebnis ähnlich dem folgenden führt:
 <pre>data: [ {<br>     ID: "53ff8e15003b461d4560f7f65a440078",<br>     name: "Test_Project_1_Edit",<br>     objCode: "PROJ",<br>     percentComplete: 0,<br>     plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>     plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>     priority: 0,<br>     projectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>     status: "CUR"<br>},<br>{<br>    ID: "53ff8e19003b46238a58d303608de502",<br>    name: "Test_Project_2_Edit",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    priority: 0,<br>    projectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>    status: "CUR"<br>}]</pre>Wenn Sie möchten, dass alle Vorgänge in derselben Transaktion stattfinden, fügen Sie „atomic=true“ zu Ihrem Batch-API-Aufruf als Anfrageparameter hinzu. Auf diese Weise werden alle Vorgänge zurückgesetzt, wenn einer der Vorgänge fehlschlägt.
 
 >[!NOTE]
