@@ -3,10 +3,10 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 347eb022f68e00b13b3b517a1aaec9cd15f952c7
+source-git-commit: cf5c324a5dd527d498b5ccc32e1eb81ab3ea638f
 workflow-type: tm+mt
-source-wordcount: '14284'
-ht-degree: 94%
+source-wordcount: '14290'
+ht-degree: 93%
 
 ---
 
@@ -975,7 +975,7 @@ ht-degree: 94%
       * [Verwalten von benutzerdefinierten Formularen, die an Objekte angehängt sind](workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
    * Verwenden von Benachrichtigungen {#use-notifications}
       * [Verwenden von Benachrichtigungen: Artikelindex](workfront-basics/using-notifications/use-notifications.md)
-      * {hide-from-toc}[Experience Cloud-Benachrichtigungen - Übersicht](/help/quicksilver/workfront-basics/using-notifications/exp-cloud-notifications-overview.md)
+      * {hide-from-toc}[Übersicht über Experience Cloud-Benachrichtigungen](/help/quicksilver/workfront-basics/using-notifications/exp-cloud-notifications-overview.md)
       * [Überblick über Benachrichtigungen](workfront-basics/using-notifications/wf-notifications.md)
       * [Ändern Ihrer eigenen E-Mail-Benachrichtigungen](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
       * [Abonnieren von Elementen in Adobe Workfront](workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
@@ -1203,6 +1203,7 @@ ht-degree: 94%
       * [Übersicht über Adobe Cloud Drive](documents/adobe-cloud-drive/adobe-cloud-drive-overview.md)
       * [Installieren von Adobe Cloud Drive](documents/adobe-cloud-drive/install-adobe-cloud-drive.md)
       * [Verwenden von Adobe Cloud Drive](documents/adobe-cloud-drive/use-adobe-cloud-drive.md)
+      * [Einrichten und Verwalten von Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/set-up-and-manage-adobe-cloud-drive.md)
       * [Fehlerbehebung in Adobe Cloud Drive](documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md)
    * Workfront- und Experience Manager Assets-Integrationen {#wf-aem-integrations}
       * [Workfront- und Experience Manager Assets-Integrationen](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
