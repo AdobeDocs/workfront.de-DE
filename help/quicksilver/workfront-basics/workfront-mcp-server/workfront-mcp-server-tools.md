@@ -5,7 +5,7 @@ title: Adobe Workfront MCP-Server-Tools
 description: Referenzliste der über den Adobe Workfront MCP-Server verfügbaren Tools, gruppiert nach Workfront-Bereich.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: f9074a40de57db0ddeb357d7122d1a622b8d9651
+source-git-commit: 61c763939686179bd5299bdd386afb493e49ea49
 workflow-type: tm+mt
 source-wordcount: '1949'
 ht-degree: 6%
@@ -110,21 +110,6 @@ Wenn die KI-Agentenplattform Workfront-Elemente finden, diese jedoch nicht erste
 | Projekte nach Besitzer abrufen | `approvals_get_projects_by_owner` | Listet Workfront-Projekte auf, deren Besitzer der aufrufende Benutzer ist. | Lesen |
 | Adobe-Region abrufen | `approvals_get_adobe_region` | Gibt den Adobe-Namen einer Cloud-Anbieter-Region zurück. | Lesen |
 
-
-## Insights-Tools
-
-Insights-Tools rufen Informationen zu Workfront-Objekten ab.
-
-| Titel | Tool-Name | Funktion | Aktion |
-| --- | --- | --- | --- |
-| Dokumente lesen | `insights_read_docs` | Laden Sie die Workfront-Playbook- oder Domain-Dokumentation, z. B. Bedingungen, Status, Daten oder Feldpfade. Dies ist der erste erforderliche Schritt vor der Datenabfrage. | Lesen |
-| Aktuellen Benutzer abrufen | `insights_get_current_user` | Rufen Sie Ihre eigene Workfront-Identität ab, einschließlich Name, ID und URL. | Lesen |
-| Felder suchen | `insights_search_fields` | Suchen Sie nach verfügbaren Feldern (Standard und Benutzerdefiniert) zu Projekten, Aufgaben, Problemen, Benutzern, Portfolios, Teams usw. | Lesen |
-| Abrufen von Feldpfaden | `insights_get_field_paths` | Auflösen von Punktnotation-Feldpfaden für Entitäten, die vom Datenabfrage-Tool benötigt werden. | Lesen |
-| ID nach Namen suchen | `insights_find_id_by_name` | Suchen Sie die ID eines beliebigen Workfront-Objekts nach Namen, z. B. Projekte, Aufgaben, Benutzer, Portfolios usw. | Lesen |
-| Workfront-Daten suchen | `insights_find_workfront_data` | Workfront-Daten suchen, filtern, zählen, sortieren und aggregieren. Dies ist das wichtigste Abfrage- und Berichts-Tool. | Lesen |
-| Objekt zusammenfassen | `insights_summarize_object` | Abrufen und Zusammenfassen eines einzelnen Workfront-Objekts nach ID. | Lesen |
-| Entitäten auflisten | `insights_list_entities` | Listet alle Workfront-Objekttypen auf, die für Abfragen verfügbar sind. | Lesen |
 
 ## Planungstools
 
@@ -237,6 +222,22 @@ Workflow-Tools sind allgemeine Aktionen, die die KI-Agentenplattform für die Ar
 | Kommentar löschen | `comment-stream_delete_comment` | Löschen eines Kommentars anhand seiner ID. | Schreiben |
 | Reaktion hinzufügen | `comment-stream_add_reaction` | Fügen Sie einem Kommentar eine Reaktion (wie ) hinzu. | Schreiben |
 | Reaktion entfernen | `comment-stream_remove_reaction` | Eine Reaktion (wie) aus einem Kommentar entfernen. | Schreiben |
+
+## Insights-Tools
+
+Insights-Tools rufen Informationen zu Workfront-Objekten ab.
+
+| Titel | Tool-Name | Funktion | Aktion |
+| --- | --- | --- | --- |
+| Dokumente lesen | `insights_read_docs` | Laden Sie die Workfront-Playbook- oder Domain-Dokumentation, z. B. Bedingungen, Status, Daten oder Feldpfade. Dies ist der erste erforderliche Schritt vor der Datenabfrage. | Lesen |
+| Aktuellen Benutzer abrufen | `insights_get_current_user` | Rufen Sie Ihre eigene Workfront-Identität ab, einschließlich Name, ID und URL. | Lesen |
+| Felder suchen | `insights_search_fields` | Suchen Sie nach verfügbaren Feldern (Standard und Benutzerdefiniert) zu Projekten, Aufgaben, Problemen, Benutzern, Portfolios, Teams usw. | Lesen |
+| Abrufen von Feldpfaden | `insights_get_field_paths` | Auflösen von Punktnotation-Feldpfaden für Entitäten, die vom Datenabfrage-Tool benötigt werden. | Lesen |
+| ID nach Namen suchen | `insights_find_id_by_name` | Suchen Sie die ID eines beliebigen Workfront-Objekts nach Namen, z. B. Projekte, Aufgaben, Benutzer, Portfolios usw. | Lesen |
+| Workfront-Daten suchen | `insights_find_workfront_data` | Workfront-Daten suchen, filtern, zählen, sortieren und aggregieren. Dies ist das wichtigste Abfrage- und Berichts-Tool. | Lesen |
+| Objekt zusammenfassen | `insights_summarize_object` | Abrufen und Zusammenfassen eines einzelnen Workfront-Objekts nach ID. | Lesen |
+| Entitäten auflisten | `insights_list_entities` | Listet alle Workfront-Objekttypen auf, die für Abfragen verfügbar sind. | Lesen |
+
 
 
 
