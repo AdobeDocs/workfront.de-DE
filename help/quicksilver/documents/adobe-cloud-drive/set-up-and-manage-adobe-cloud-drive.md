@@ -6,7 +6,7 @@ description: Als Admin können Sie für Ihr Unternehmen Adobe Cloud Drive einric
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps, System Setup and Administration
 role: Admin
-source-git-commit: 56dca343c919db3bb09a232ada2b4700c59f5147
+source-git-commit: f1dd9555df2adcf8a1afc48982bc2d52a14df54f
 workflow-type: tm+mt
 source-wordcount: '3139'
 ht-degree: 1%
@@ -86,10 +86,11 @@ Die folgende Tabelle zeigt, wie diese Steuerelemente interagieren:
 | Schalter auf Organisationsebene | Benutzer in ACD-Benutzerrolle | Workflow-Ultimate-Lizenz | Zugriff auf Ergebnis |
 | --- | --- | --- | --- |
 | Ein | Nicht erforderlich | Ja | Gewährt |
-<!-- | On | Not required | No | Denied | -->
 | Aus | Ja | Ja | Gewährt |
 | Aus | Nein | Ja | Verweigert |
 | Entweder | Entweder | Nein | Verweigert |
+
+<!-- Sarah said to delete the second line. Commenting it out within the table messed up the display for the rest of the table, so keeping the line here until I can delete it. | On | Not required | No | Denied | -->
 
 ## Voraussetzungen
 
@@ -113,7 +114,7 @@ Der Zugriff auf das Adobe Cloud Drive wird in der Adobe Admin Console konfigurie
 
 Wenn Adobe Adobe Cloud Drive für Ihr Unternehmen aktiviert, ist der Funktionsumschalter auf Organisationsebene standardmäßig aktiviert, und alle Benutzenden haben sofort Zugriff. Verwenden Sie dieses Verfahren, um vor der Bereitstellung der Anwendung zu bestätigen, dass der Schalter eingeschaltet ist.
 
-1. Melden Sie sich bei [adminconsole.adobe.com) &#x200B;](https://adminconsole.adobe.com/).
+1. Melden Sie sich bei [adminconsole.adobe.com) ](https://adminconsole.adobe.com/).
 1. Klicken Sie **der oberen** auf „Benutzer“.
 1. Klicken **im linken** auf „Rollen“.
 1. Klicken Sie **der Liste &quot;**&quot; auf „Mitglied“.
@@ -137,7 +138,7 @@ Verwenden Sie diese Option, wenn Sie den Zugriff auf eine definierte Benutzergru
 
 So deaktivieren Sie die Funktion auf Organisationsebene:
 
-1. Melden Sie sich bei [adminconsole.adobe.com) &#x200B;](https://adminconsole.adobe.com/).
+1. Melden Sie sich bei [adminconsole.adobe.com) ](https://adminconsole.adobe.com/).
 1. Klicken Sie **der oberen** auf „Benutzer“ und dann **linken Bereich auf** Rollen“.
 1. Klicken Sie **der Liste &quot;**&quot; auf „Mitglied“.
 1. Suchen Sie im **Mitglied**-Bedienfeld **Adobe Cloud Drive** unter **Berechtigungen** und deaktivieren Sie es.
@@ -174,7 +175,7 @@ Verwenden Sie diese Methode, wenn Ihr Unternehmen zentralisierte Bereitstellungs
 
 So erstellen Sie das Paket in der Adobe Admin Console:
 
-1. Melden Sie sich bei [adminconsole.adobe.com) &#x200B;](https://adminconsole.adobe.com/).
+1. Melden Sie sich bei [adminconsole.adobe.com) ](https://adminconsole.adobe.com/).
 1. Klicken Sie **der oberen Navigationsleiste auf** Pakete“.
 1. Klicken Sie **linken Bereich auf** Vorgenerierte Pakete“.
 1. Klicken Sie auf **Registerkarte** Vorlagen“.
@@ -272,7 +273,7 @@ Wenn der Schalter auf Organisationsebene aktiviert ist, ist keine Adobe Admin Co
 
 Wenn der Schalter auf Organisationsebene ausgeschaltet ist:
 
-1. Melden Sie sich bei [adminconsole.adobe.com) &#x200B;](https://adminconsole.adobe.com/).
+1. Melden Sie sich bei [adminconsole.adobe.com) ](https://adminconsole.adobe.com/).
 1. Klicken Sie **der oberen** auf „Benutzer“ und dann **linken Bereich auf** Rollen“.
 1. Klicken Sie **der Liste „Rollen** auf ACD-Benutzer.
 1. Klicken Sie **Benutzer hinzufügen**, geben Sie die E-Mail-Adresse des Benutzers ein und klicken Sie auf **Speichern**.
@@ -283,7 +284,7 @@ Wenn der Schalter auf Organisationsebene aktiviert ist, hat jeder lizenzierte Be
 
 Wenn der Schalter auf Organisationsebene deaktiviert ist und der Benutzer die Rolle **ACD-Benutzer** innehat:
 
-1. Melden Sie sich bei [adminconsole.adobe.com) &#x200B;](https://adminconsole.adobe.com/).
+1. Melden Sie sich bei [adminconsole.adobe.com) ](https://adminconsole.adobe.com/).
 1. Klicken Sie **der oberen** auf „Benutzer“ und dann **linken Bereich auf** Rollen“.
 1. Klicken Sie **der Liste „Rollen** auf ACD-Benutzer.
 1. Wählen Sie den Benutzer aus und klicken Sie auf **Entfernen**.
