@@ -41,7 +41,7 @@ Weitere Informationen finden Sie unter [Anzeigen gesendeter Anfragen](/help/quic
 
 >[!NOTE]
 >
->Vorschau: 23. April 2026Produktions-Schnellveröffentlichung: 23. April 2026Produktion für alle: 23. April 2026Außerplanmäßig]{type=Neutral}
+>Vorschau: 23. April 2026Produktions-Schnellveröffentlichung: 23. April 2026Produktion für alle: 23. April 2026Außerplanmäßig&rbrack;{type=Neutral}
 
 Um Ihnen zu helfen, Ihre Anfragenliste besser zu organisieren, haben wir die folgenden vordefinierten Ansichten zur Anfragenliste im Bereich Anfragen und zum Widget Meine Anfragen auf der Startseite hinzugefügt:
 
