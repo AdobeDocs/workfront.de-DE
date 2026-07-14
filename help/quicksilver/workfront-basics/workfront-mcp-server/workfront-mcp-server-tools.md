@@ -5,7 +5,7 @@ title: Adobe Workfront MCP-Server-Tools
 description: Referenzliste der über den Adobe Workfront MCP-Server verfügbaren Tools, gruppiert nach Workfront-Bereich.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 61c763939686179bd5299bdd386afb493e49ea49
+source-git-commit: 862ef1882f4a7a40ca142da7ddb98a8431681947
 workflow-type: tm+mt
 source-wordcount: '1949'
 ht-degree: 6%
@@ -223,7 +223,7 @@ Workflow-Tools sind allgemeine Aktionen, die die KI-Agentenplattform für die Ar
 | Reaktion hinzufügen | `comment-stream_add_reaction` | Fügen Sie einem Kommentar eine Reaktion (wie ) hinzu. | Schreiben |
 | Reaktion entfernen | `comment-stream_remove_reaction` | Eine Reaktion (wie) aus einem Kommentar entfernen. | Schreiben |
 
-## Insights-Tools
+### Insights-Tools
 
 Insights-Tools rufen Informationen zu Workfront-Objekten ab.
 
