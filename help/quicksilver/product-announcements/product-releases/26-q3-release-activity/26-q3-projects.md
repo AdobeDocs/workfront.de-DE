@@ -23,7 +23,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2026 ve
 
 >[!NOTE]
 >
->Vorschau: 11. Juni 2026Produktion für die Schnellfreigabe: 11. Juni 2026Produktion für die vierteljährliche Veröffentlichung: 11. Juni 2026Außerplanmäßig]{type=Neutral}
+>Vorschau: 11. Juni 2026Produktion für die Schnellfreigabe: 11. Juni 2026Produktion für die vierteljährliche Veröffentlichung: 11. Juni 2026Außerplanmäßig&rbrack;{type=Neutral}
 
 Wenn Ihr Unternehmen sowohl älteren Workfront-Speicher als auch Adobe-Cloud-Speicher verwendet, können Sie jetzt eine ältere Speicheraufgabe in ein Adobe-Cloud-Speicherprojekt konvertieren.In diesem Fall bleiben Dokumente und Dokumentgenehmigungen auf dem übergeordneten Objekt, anstatt in das neu erstellte Projekt übertragen zu werden.
 

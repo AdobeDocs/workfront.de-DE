@@ -115,13 +115,13 @@ Um Ihnen die Anzeige der in einer zentralen Liste aufgetretenen Änderungen zu e
 
 Zuvor waren Auditprotokolle verfügbar, die jedoch keine Objekte abdeckten.
 
-Weitere Informationen finden Sie unter [Anzeigen und Verwalten des ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+Weitere Informationen finden Sie unter [Anzeigen und Verwalten des &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
 
 ## Neue Systemvoreinstellung zum Konvertieren veralteter Speicherportfolios in Adobe Cloud-Speicher
 
 >[!NOTE]
 >
->Vorschau: 11. Juni 2026Produktion für alle: 11. Juni 2026Außerplanmäßig]{type=Neutral}
+>Vorschau: 11. Juni 2026Produktion für alle: 11. Juni 2026Außerplanmäßig&rbrack;{type=Neutral}
 
 Workfront-Administratoren können jetzt ältere Speicherportfolios direkt aus den Systemeinstellungen in Adobe Cloud-Speicher konvertieren. Um Portfolios zu konvertieren, wählen Sie sie im neuen Feld Portfolios zum Konvertieren in Unternehmensspeicher auswählen aus und speichern Sie die Seite.
 
