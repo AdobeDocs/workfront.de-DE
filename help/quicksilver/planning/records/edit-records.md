@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 873b65fb7f23d2e2b0598b56bb8893a7b87c1be1
 workflow-type: tm+mt
-source-wordcount: 3158
+source-wordcount: 3175
 ht-degree: 1%
 
 ---
@@ -202,7 +202,19 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 1. (Bedingt) Klicken Sie auf die Registerkarte einer Tabellenansicht oder klicken Sie auf **+ Ansicht** um eine Tabellenansicht zu erstellen. Die Tabellenansicht sollte die Standardansicht sein, es sei denn, Sie haben den Datensatztyp beim letzten Zugriff in einer anderen Ansicht angezeigt.
 
    Die mit dem ausgewählten Datensatztyp verknüpften Datensätze werden in der Tabellenansicht angezeigt.
+
 1. (Optional) Klicken Sie auf das Suchfeld und fügen Sie ein Keyword hinzu, um einen Datensatz zu finden, den Sie bearbeiten möchten.
+
+   <!--
+    >[!TIP]
+    >
+    >You can use the following keyboard combination to open the global search box from any Workfront Planning page and search for records:
+    >
+    >* CTRL+K for Windows
+    >* ⌘+K for Mac
+    >
+    >![Global search box](assets/global-search-box.png)
+    -->
 
 1. Klicken Sie in die Zeile eines Datensatzes, um Informationen über den Datensatz inline zu bearbeiten.
 
@@ -279,8 +291,7 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 
    * **Anzeigen** oder <span class="preview">**In neuer Registerkarte öffnen**</span>: Dadurch wird die Datensatzseite geöffnet.
    * **Link kopieren**: Zum Kopieren eines Links auf die Datensatzseite.
-   * **Miniaturansicht bearbeiten**: Zum Hinzufügen einer Miniaturansicht zu einem Datensatz.
-Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+   * **Miniaturansicht bearbeiten**: Zum Hinzufügen einer Miniaturansicht zu einem Datensatz.Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
    * **Duplizieren**: Dadurch wird ein identisches Duplikat des Datensatzes erstellt.
    * **Datensatz oberhalb einfügen/Datensatz unterhalb einfügen**: Fügt eine neue Zeile hinzu, damit Sie einen neuen Datensatz hinzufügen können. <span class="preview">Dies ist in der Vorschau-Umgebung nicht möglich.</span>
    * **Löschen**: Löschen des Datensatzes. Gelöschte Datensätze werden im Feld „Zuletzt gelöscht“ bis zu 30 Tage lang gespeichert.

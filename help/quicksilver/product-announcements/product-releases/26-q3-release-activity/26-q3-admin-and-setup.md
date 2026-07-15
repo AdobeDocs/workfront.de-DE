@@ -4,9 +4,9 @@ description: Verbesserungen für Administratoren im dritten Quartal 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a9688886f32cd41dd7d53dbf0a918f25fdd04a0b
+source-git-commit: f45c946e48b253018648c414915d53eca5a4de80
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1334'
 ht-degree: 5%
 
 ---
@@ -121,7 +121,7 @@ Weitere Informationen finden Sie unter [Anzeigen und Verwalten des &#x200B;](/he
 
 >[!NOTE]
 >
->Vorschau: 11. Juni 2026Produktion für alle: 11. Juni 2026
+>Vorschau: 11. Juni 2026Produktion für alle: 11. Juni 2026Außerplanmäßig&rbrack;{type=Neutral}
 
 Workfront-Administratoren können jetzt ältere Speicherportfolios direkt aus den Systemeinstellungen in Adobe Cloud-Speicher konvertieren. Um Portfolios zu konvertieren, wählen Sie sie im neuen Feld Portfolios zum Konvertieren in Unternehmensspeicher auswählen aus und speichern Sie die Seite.
 

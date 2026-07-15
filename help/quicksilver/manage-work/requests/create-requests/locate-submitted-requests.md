@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 6aec8f2f3dd6dd653361058712b9e7a251ec6a69
 workflow-type: tm+mt
-source-wordcount: 1561
+source-wordcount: 1591
 ht-degree: 4%
 
 ---
@@ -113,8 +113,7 @@ Die Anzeige gesendeter Anfragen unterscheidet sich je nachdem, ob Sie das neue o
 
 >[!NOTE]
 >
->* Wenn Sie über Workfront Planning verfügen, werden Ihre Workfront- und Planning-Anfragen in derselben Liste angezeigt.
->     Der **Objekttyp** einer Planning-Anfrage wird nach diesem Muster benannt: `< Name of workspace > > < Name of record type >`. Beispielsweise könnte der Objekttyp einer Planning-Anfrage `Marketing workspace > Campaigns` heißen.\
+>* Wenn Sie über Workfront Planning verfügen, werden Ihre Workfront- und Planning-Anfragen in derselben Liste angezeigt.Der **Objekttyp** einer Planungsanfrage wird nach diesem Muster benannt: `< Name of workspace > > < Name of record type >`. Beispielsweise könnte der Objekttyp einer Planning-Anfrage `Marketing workspace > Campaigns` heißen.\
 >     Der **Objekttyp** einer Workfront-Anfrage ist `Issue`.
 >* Standardmäßig werden im Bereich Anfragen bis zu 50 Anfragen in der Liste angezeigt. Um weitere Anfragen anzuzeigen, scrollen Sie zum unteren Rand der Liste.
 
@@ -166,9 +165,12 @@ So zeigen Sie Anfragen an, die Sie oder andere Benutzende in der neuen anfordern
    * **In Bearbeitung**:
       * Workfront-Anfragen: Die Anfrage wurde konvertiert und die Arbeit ist im Gange.
       * Workfront Planning-Anfragen: Der Anforderungsabschluss ist einem bestimmten Planning-Feld zugeordnet, und der Feldwert stimmt noch nicht mit dem Abschlusswert überein.
-   * **Halten**: Dies ist für Workfront-Anfragen verfügbar und wird von den Benutzenden manuell festgelegt.
-   * <span class="preview">**Abgebrochen**: Dies ist für Workfront-Anfragen.</span> <!--checking with Khach)-->
+   * **Halten**: Dies ist für Workfront-Anfragen verfügbar. Sie kann von den Benutzern manuell festgelegt werden.
    * <span class="preview">**Abschließen**: Der Planungsdatensatz wurde erstellt, wodurch die Anfrage abgeschlossen wird. (Nur Planung)</span>
+   <!--
+   This is not live yet; might be live for the unified intake process: 
+   * <span class="preview">**Canceled**: This is for Workfront requests.</span> 
+   -->
 
 ### Anzeigen gesendeter Anfragen in der Legacy-Anfrage
 

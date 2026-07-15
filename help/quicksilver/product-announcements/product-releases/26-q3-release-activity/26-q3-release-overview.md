@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 689f7f00502d41f22b5b2647ffaa30a3a1bd819f
+source-git-commit: f45c946e48b253018648c414915d53eca5a4de80
 workflow-type: tm+mt
-source-wordcount: '2920'
+source-wordcount: '2919'
 ht-degree: 15%
 
 ---
@@ -357,9 +357,9 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-projects.md" class="MCXref xref" xrefformat="{para}">Konvertieren einer Legacy-Speicheraufgabe in ein Adobe-Cloud-Speicherprojekt</a><p><p>[!BADGE Außerplanmäßig]{type=Neutral}</p></p>
                 <p>Wenn Ihr Unternehmen sowohl älteren Workfront-Speicher als auch Adobe-Cloud-Speicher verwendet, können Sie jetzt eine ältere Speicheraufgabe in ein Adobe-Cloud-Speicherprojekt konvertieren.</p>
             </td>
-            <td><p>9. Juli 2026</p></td>
-            <td><p>13. August 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
+            <td><p>11. Juni 2026</p></td>
+            <td><p>11. Juni 2026</p></td>
+            <td><p>11. Juni 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -471,8 +471,8 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             <td><strong>Vierteljährlich</strong></td>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">Einführung neuer Anfragestatus</a>
-                <p>Um mehr über den Status Ihrer Anfragen zu erfahren, führen wir neue Status für Anfragen ein: Neu, Halten und Abgebrochen. Der Status „Abgeschlossen“ wurde in „Abgeschlossen“ umbenannt.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-requests.md" class="MCXref xref" xrefformat="{para}">Anforderungsstatus zwischen dem alten und dem neuen Erlebnis abgleichen</a>
+                <p>Um mehr Kontextinformationen über den korrekten Status Ihrer Anfragen zu erhalten, aktualisieren wir den Status für Anfragen in der neuen Anfrageerfahrung.</p>
             </td>
             <td><p>27. Mai 2026</p></td>
             <td><p>11. Juni 2026</p></td>

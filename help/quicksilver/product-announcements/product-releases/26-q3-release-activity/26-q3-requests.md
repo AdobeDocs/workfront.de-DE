@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d5fe72c-7af5-4699-8344-36cfdd3810d0
-source-git-commit: eb59acc816f0fd82330b60ddc9cd2f3aad851198
+source-git-commit: 6aec8f2f3dd6dd653361058712b9e7a251ec6a69
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 9%
+source-wordcount: '322'
+ht-degree: 7%
 
 ---
 
@@ -18,19 +18,22 @@ Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom 
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2026 verfügbar sind, finden Sie unter [Versionsübersicht für das dritte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-release-overview.md).
 
-## Einführung neuer Anfragestatus
+## Anforderungsstatus zwischen dem alten und dem neuen Anfrageerlebnis abgleichen
 
 >[!NOTE]
 >
->Vorschau: 27. Mai 2026>Produktions-Schnellversion: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 27. Mai 2026Produktions-Schnellveröffentlichung: 11. Juni 2026Produktion für alle: 16. Juli 2026
 
-Um mehr über den Status Ihrer Anfragen zu erfahren, führen wir neue Status für Anfragen ein. Die folgenden neuen Anfragestatus sind jetzt verfügbar:
+Um mehr Kontextinformationen über den korrekten Status Ihrer Anfragen zu erhalten, aktualisieren wir den Status für Anfragen in der neuen Anfrageerfahrung.
+
+Anfragen zeigen in der neuen und der alten Anfrageerfahrung für die folgenden Status denselben Status an:
 
 * Neu
 * Zurückgestellt
-* Abgebrochen
 
-Der Status „Abgeschlossen“ wurde in „Abgeschlossen“ umbenannt.
+Vor diesem Update wurde eine Anfrage, die in der Erlebnisliste „Alte Anfrage“ den Status „Neu“ oder „Halten“ hatte, in der Erlebnisliste „Neue Anfrage“ als „In Bearbeitung“ angezeigt. Jetzt stimmen die Status für die beiden Listen überein.
+
+Im Rahmen dieser Aktualisierung wurde der Status „Abgeschlossen“ ebenfalls in „Abgeschlossen“ umbenannt.
 
 Weitere Informationen finden Sie unter [Anzeigen gesendeter Anfragen](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
 
@@ -38,7 +41,7 @@ Weitere Informationen finden Sie unter [Anzeigen gesendeter Anfragen](/help/quic
 
 >[!NOTE]
 >
->Vorschau: 23. April 2026>Produktions-Schnellveröffentlichung: 23. April 2026>Produktion für alle: 23. April 2026>[!BADGE Zeitplan]{type=Neutral}
+>Vorschau: 23. April 2026Produktions-Schnellveröffentlichung: 23. April 2026Produktion für alle: 23. April 2026Außerplanmäßig&rbrack;{type=Neutral}
 
 Um Ihnen zu helfen, Ihre Anfragenliste besser zu organisieren, haben wir die folgenden vordefinierten Ansichten zur Anfragenliste im Bereich Anfragen und zum Widget Meine Anfragen auf der Startseite hinzugefügt:
 
