@@ -7,14 +7,11 @@ author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
 TQID: https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 4ac828444e49213cdc4e00a5f92e404899e2225d
 workflow-type: tm+mt
-source-wordcount: 516
+source-wordcount: 608
 ht-degree: 3%
 
 ---
@@ -57,7 +54,7 @@ Ein Arbeitsbereich ist eine Sammlung von Datensatztypen, die von einer Organisat
 
   >[!NOTE]
   >
-  ><span class="preview">Es wird empfohlen, die Beispiel-Arbeitsbereiche nicht zu bearbeiten, sondern sie als Referenz zum Erstellen eigener Arbeitsbereiche zu verwenden. Verwenden Sie das Vorlagenpaket für mehrere Arbeitsbereiche , um Arbeitsbereiche zu erstellen, die mit den auf der Registerkarte Beispiel-Arbeitsbereiche aufgeführten Arbeitsbereichen identisch sind. Weitere Informationen finden Sie im Abschnitt „Erstellen mehrerer Arbeitsbereiche mithilfe eines Best-Practice-Vorlagenpakets für mehrere Arbeitsbereiche“ im Artikel [Erstellen von &#x200B;](/help/quicksilver/planning/architecture/create-workspaces.md)&quot; </span>
+  ><span class="preview">Es wird empfohlen, die Beispiel-Arbeitsbereiche nicht zu bearbeiten, sondern sie als Referenz zum Erstellen eigener Arbeitsbereiche zu verwenden. Verwenden Sie das Vorlagenpaket für mehrere Arbeitsbereiche , um Arbeitsbereiche zu erstellen, die mit den auf der Registerkarte Beispiel-Arbeitsbereiche aufgeführten Arbeitsbereichen identisch sind. Weitere Informationen finden Sie im Abschnitt „Erstellen mehrerer Arbeitsbereiche mithilfe eines Best-Practice-Vorlagenpakets für mehrere Arbeitsbereiche“ im Artikel [Erstellen von ](/help/quicksilver/planning/architecture/create-workspaces.md)&quot; </span>
 
 <!--
 No longer the case - they match now: 
@@ -87,3 +84,24 @@ No longer the case - they match now:
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
 
 * Es gibt Beschränkungen für die Anzahl der Workspace-Objekte, die Sie in Ihrer Instanz von Workfront Planning erstellen können. Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront Planning-Objektbeschränkungen](/help/quicksilver/planning/general/limitations-overview.md).
+
+## Überblick über die globale Suche
+
+Auf der Landingpage Planning können Sie mithilfe des globalen Suchfelds nach den folgenden Planning-Objekten suchen:
+
+* Arbeitsbereiche
+* Eintragstypen
+* Ansichten
+
+![Globales Suchfeld](assets/global-search-box.png)
+
+Beachten Sie Folgendes zur Verwendung der globalen Suche:
+
+* Sie können die Suche über die Planning-Landingpage oder über eine beliebige Planning-Seite aufrufen, indem Sie die folgende Tastenkombination drücken:
+
+   * STRG+K für Windows
+   * ⌘+K für Mac
+* Die letzten 7 Ergebnisse von jedem Objekt werden im Suchfeld angezeigt.
+* Sie können eine allgemeine Suche durchführen oder ein Objekt auswählen und einzelne Listen durchsuchen.
+
+
