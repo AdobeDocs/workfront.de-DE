@@ -9,14 +9,11 @@ exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/eF7kBTsursbrsXr8Lo6ql6U5JBLQDvi6nw4JDpRxClw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1372
+source-wordcount: 1287
 ht-degree: 5%
 
 ---
@@ -27,9 +24,11 @@ ht-degree: 5%
 
 # Überblick über das Freigeben von Berechtigungen in Adobe Workfront-Planung
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -61,8 +60,6 @@ Sie können die folgenden Objekte in Workfront Planning manuell freigeben:
 
   Weitere Informationen finden Sie unter [Freigeben von Datensatztypen](/help/quicksilver/planning/access/share-record-types.md).
 
-<div class="preview">
-
 * Einträge
 
    * Sie können Datensätze für Personen in Ihrer Organisation freigeben.
@@ -71,7 +68,7 @@ Sie können die folgenden Objekte in Workfront Planning manuell freigeben:
 
   Weitere Informationen finden Sie unter [Freigeben von Datensätzen](/help/quicksilver/planning/access/share-records.md).
 
-</div>
+
 
 * Ansichten
 
@@ -190,19 +187,19 @@ Die folgenden Szenarien sind vorhanden:
 
 Datensatzberechtigungen werden vom Datensatztyp übernommen, wenn Sie standardmäßig Berechtigungen für den Arbeitsbereich und den Datensatztyp gewähren.
 
-In der Produktionsumgebung gibt es die folgenden Berechtigungsebenen für Datensätze:
+<!--
+In the Production environment, the following are the levels of permissions for records: 
 
 
-|        | Verwalten | Mitwirken | Ansicht |
+|        | Manage | Contribute | View  |
 |--------|--------|------------|-------|
-| Erstellen | ✓ | ✓ |       |
-| Löschen | ✓ | ✓ |       |
-| Bearbeiten | ✓ | ✓ |       |
-| Ansicht | ✓ | ✓ | ✓ |
+| Create | ✓      |     ✓       |       |
+| Delete | ✓      |     ✓       |       |
+| Edit   | ✓      |    ✓        |       |
+| View   | ✓      | ✓          | ✓     |
+-->
 
-<div class="preview">
-
-In der Vorschau -Umgebung sind die folgenden Berechtigungsebenen für Datensätze verfügbar:
+Im Folgenden finden Sie Berechtigungsebenen für Datensätze:
 
 |        | Verwalten | Ansicht |
 |--------|--------|-------|
@@ -228,8 +225,6 @@ Die folgenden Szenarien sind vorhanden:
 >[!NOTE]
 >
 >*Wenn Sie Berechtigungen aus einem Datensatz entfernen, behalten Benutzer weiterhin die Anzeigeberechtigungen für den Arbeitsbereich und den Datensatztyp bei, es sei denn, Sie entfernen deren Berechtigungen aus dem Arbeitsbereich.
-
-</div>
 
 ### Berechtigungen zum Aufzeichnen von Feldern
 

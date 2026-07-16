@@ -9,27 +9,20 @@ exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 TQID: https://experienceleague.adobe.com/S5Cb-wdfeCKuogJgIlfVZ-J3rUn0ca0NG1-SSD2SPJA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 5497
+source-wordcount: 5395
 ht-degree: 2%
 
 ---
 
 <!--
-Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=de ??
+Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??
 -->
 
 <!--
@@ -44,11 +37,11 @@ Do we need this for FORMULAS: when we release permissions to RECORDS and we rele
 
 <!--information about choice values must stay in yellow till Jan 2026-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
-
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -204,7 +197,7 @@ Beim Importieren von Feldern aus Workfront wird von jedem Feld eine Kopie für e
 
 Nachdem Sie die Felder kopiert haben, sind sie voneinander unabhängig und tauschen keine Informationen aus.
 
-Weitere Informationen finden Sie unter [Felder aus Workfront &#x200B;](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
+Weitere Informationen finden Sie unter [Felder aus Workfront ](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
 
 
 ## Erstellen neuer Felder {#create-fields-from-scratch}
@@ -356,7 +349,7 @@ Sie können ein Feld mit Mehrfachauswahl verwenden, um zusätzliche Informatione
    Klicken Sie **Benutzerdefiniert**, um eine benutzerdefinierte Farbe mithilfe einer Farbauswahl oder eines Hexadezimalcodes auszuwählen.
 1. Klicken Sie auf eine Stelle außerhalb des Farbfelds, um es zu schließen.
 
-1. <span class="preview">Wählen Sie im Feld **Standardoptionen** die Optionen aus, die Sie standardmäßig in diesem Feld anzeigen möchten. Sie können mehrere Optionen auswählen. Benutzer können die Standardoptionen bei der Aktualisierung dieses Felds entfernen.</span>
+1. Wählen **im Feld** die Optionen aus, die standardmäßig in diesem Feld angezeigt werden sollen. Sie können mehrere Optionen auswählen. Benutzer können die Standardoptionen bei der Aktualisierung dieses Felds entfernen.
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -405,7 +398,7 @@ Mit Einzelauswahlfeldern können Sie zusätzliche Informationen in jedem beliebi
 
    Klicken Sie **Benutzerdefiniert**, um eine benutzerdefinierte Farbe mithilfe einer Farbauswahl oder eines Hexadezimalcodes auszuwählen.
 
-1. <span class="preview">Wählen Sie im Feld **Standardauswahl** die Auswahl aus, die Sie standardmäßig in diesem Feld anzeigen möchten. Sie können nur eine Option auswählen. Benutzer können die Standardauswahl entfernen, während sie dieses Feld aktualisieren. </span>
+1. Wählen Sie im Feld **Standardauswahl** die Auswahl aus, die Sie standardmäßig in diesem Feld anzeigen möchten. Sie können nur eine Option auswählen. Benutzer können die Standardauswahl entfernen, während sie dieses Feld aktualisieren.
 
 1. Klicken Sie auf eine Stelle außerhalb des Farbfelds, um es zu schließen.
 1. Klicken Sie auf **Erstellen**.
@@ -437,45 +430,21 @@ Sie können ein Datumsfeld verwenden, um zusätzliche Informationen im Datums- u
 
 
 1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
+
    * **Name**: Der Name des Felds, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen oder auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.
    * **Datumsformat**: Der Typ des Datumsformats, das Sie in diesem Feld anzeigen möchten. <!--update this casing - submitted bug for it-->
-
-     Gehen Sie je nach Umgebung, in der Sie auf Felder zugreifen, wie folgt vor:
-
-      * In der Produktionsumgebung:
-
-         * Wählen Sie aus den folgenden Formaten aus:
-            * **Locale**: Entspricht dem Gebietsschema Ihres Browsers.
-            * **Standard**: 05/16/2023
-            * **Long**: 16. Mai 2023
-            * **Europäisch**: 16/05/2023
-            * **ISO**: 16.05.2023
+   * Wählen Sie aus den folgenden Formaten aus:
+      * **short**: 6/9/26
+      * **Medium**: 9. Juni 2026
+      * **Long** 9. Juni 2026
       * **Zeit einbeziehen**: Wählen Sie diese Option aus, wenn Sie einen Zeitstempel einbeziehen möchten. Diese Option ist standardmäßig deaktiviert. Nach dem Speichern des Felds kann keine Zeit eingeschlossen werden.
 
-        Wählen Sie aus den folgenden Optionen aus:
+   * Wählen Sie aus den folgenden Optionen aus:
 
-         * **24hr**: Beispiel: 18:00
-         * **12hr**: Beispiel: 18:0000 Uhr
-
-     <div class="preview">
-
-      * In der Vorschau-Umgebung:
-
-         * Wählen Sie aus den folgenden Formaten aus:
-            * **short**: 6/9/26
-            * **Medium**: 9. Juni 2026
-            * **Long** 9. Juni 2026
-      * **Zeit einbeziehen**: Wählen Sie diese Option aus, wenn Sie einen Zeitstempel einbeziehen möchten. Diese Option ist standardmäßig deaktiviert. Nach dem Speichern des Felds kann keine Zeit eingeschlossen werden.
-
-        Wählen Sie aus den folgenden Optionen aus:
-
-         * **24hr**: Beispiel: 18:00
-         * **12hr**: Beispiel: 18:0000 Uhr
-      * **Für alle Mitwirkenden dieselbe Zeitzone verwenden** und anschließend eine **Zeitzone** <!--(************** logged bug to change this to "Show the same time zone to all users" ****************)--> auswählen: Wählen Sie diese Option aus, wenn Sie für alle Personen, die das Feld ansehen, unabhängig von der Zeitzone ihres Benutzers denselben Zeitstempel anzeigen möchten. Die ausgewählte Zeitzone wird der Spaltenüberschrift für dieses Feld hinzugefügt.
-
-     </div>
-
+      * **24hr**: Beispiel: 18:00
+      * **12hr**: Beispiel: 18:0000 Uhr
+      * **Allen Benutzern dieselbe Zeitzone anzeigen** und anschließend eine **Zeitzone** auswählen: Wählen Sie diese Option aus, wenn Sie allen Benutzern, die sich das Feld ansehen, unabhängig von der Zeitzone des Benutzers denselben Zeitstempel anzeigen möchten. Die ausgewählte Zeitzone wird der Spaltenüberschrift für dieses Feld hinzugefügt.
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -635,7 +604,7 @@ Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/qui
    >
    >* Sie können auf ein Feld verweisen, das bis zu vier Felder (und Objekte) vom aktuellen Datensatztyp entfernt ist. Wenn Sie z. B. ein Formelfeld für eine Aktivitätsdatensatzart (1) erstellen und die Aktivität mit der Kampagnendatensatzart (2) verknüpft ist, die mit einem Workfront-Projekt (3) verbunden ist, können Sie in der Formel, die Sie für die Aktivitätsdatensatzart erstellen, auf das Budgetfeld (4) des Projekts verweisen.
    >
-   >![Formel Beispiel Projektbudget Vier Felder wurden entfernt &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Formel Beispiel Projektbudget Vier Felder wurden entfernt ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Optional) Klicken Sie auf **Maximieren**, um das Feld Formel in einem größeren Bereich zu öffnen.
@@ -696,15 +665,15 @@ Mit dem Feldtyp Personen können Sie einen Benutzer zu einem Datensatz hinzufüg
    >
    >    Wenn Sie Mehrere Werte zulassen auswählen und mehrere Benutzende in den Datensätzen gespeichert werden, mit denen das Feld verbunden ist, können Sie die Auswahl der Einstellung in Zukunft nicht mehr aufheben, wenn Sie dieses Feld bearbeiten.
 
-1. <span class="preview">Wählen Sie im Feld **Standardbenutzer** oder **Standardbenutzer** die Benutzer aus, die Sie standardmäßig in diesem Feld anzeigen möchten. </span>
+1. Wählen Sie im Feld **Standardbenutzer** oder **Standardbenutzer** die Benutzer aus, die Sie standardmäßig in diesem Feld anzeigen möchten.
 
-   <span class="preview">Sie können mehrere Benutzer auswählen, wenn Sie auch die Einstellung **Mehrere Werte zulassen** ausgewählt haben. </span>
+   Sie können mehrere Benutzer auswählen, wenn Sie auch die Einstellung **Mehrere Werte zulassen** ausgewählt haben.
 
-   <span class="preview">Benutzer können die Standardbenutzer entfernen, während sie dieses Feld aktualisieren.</span>
+   Benutzer können die Standardbenutzer entfernen, während sie dieses Feld aktualisieren.
 
    >[!TIP]
    >
-   ><span class="preview">Wenn Sie in dieser Einstellung Benutzer deaktivieren, die als Standardbenutzer ausgewählt wurden, bleiben die Namen der Benutzer als Standard erhalten. Der deaktivierte Benutzer wird nicht aus dem Feldwert entfernt, und es gibt keinen Hinweis darauf, dass der Benutzer deaktiviert wurde.</span>
+   >Wenn Sie in dieser Einstellung Benutzer deaktivieren, die als Standardbenutzer ausgewählt wurden, werden die Namen der Benutzer als Standard beibehalten. Der deaktivierte Benutzer wird nicht aus dem Feldwert entfernt, und es gibt für andere keinen Hinweis darauf, dass der Benutzer deaktiviert wurde.
 
 1. Klicken Sie auf **Erstellen**.
 

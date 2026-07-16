@@ -9,29 +9,24 @@ exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/FvXVCMMz-PfaT-QAaMq0c5qUruR1MJoMv6etcrAstXA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 009953346ae5ef29611101acaa08b4f9810cf9d8
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 574
-ht-degree: 6%
+source-wordcount: 514
+ht-degree: 7%
 
 ---
 
 # Anfordern von Berechtigungen für eine Ansicht oder einen Arbeitsbereich
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
-
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 <!-- 
 no longer needed: 
@@ -89,7 +84,7 @@ ODER
    <ul><li><p>Anzeigen oder Verwalten für eine Ansicht</p></li>
    <li><p>Anzeigen, Mitwirken oder Verwalten für einen Arbeitsbereich</p></li>
    <li><p>Anzeigen, Bereitstellen oder Verwalten für einen Datensatztyp</p></li>
-   <li><p><span class="preview">Anzeigen oder Verwalten eines Datensatzes</span></p></li>
+   <li><p>Anzeigen oder Verwalten eines Datensatzes</p></li>
    </ul>  
    <p>Nur Benutzer mit der Berechtigung Verwalten für einen Arbeitsbereich und eine Ansicht können eine Ansicht öffentlich freigeben.</p></td> 
   </tr> 
@@ -175,9 +170,9 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 ## Berechtigungen anfordern
 
-Das Anfordern von Berechtigungen für eine Ansicht ähnelt dem Anfordern von Berechtigungen für einen Arbeitsbereich, einen Datensatztyp oder <span class="preview">einen Datensatz</span>.
+Das Anfordern von Berechtigungen für eine Ansicht ähnelt dem Anfordern von Berechtigungen für einen Arbeitsbereich, einen Datensatztyp oder einen Datensatz.
 
-Wenn jemand einen Link zu einem Arbeitsbereich, einem Datensatztyp, einem <span class="preview">Datensatz</span> oder einer Ansicht freigibt, auf die Sie keinen Zugriff haben:
+Wenn jemand einen Link zu einem Arbeitsbereich, einem Datensatztyp, einem Datensatz oder einer Ansicht, auf die Sie keinen Zugriff haben, für Sie freigibt:
 
 1. Klicken Sie auf den für Sie freigegebenen Link, um die Ansicht oder den Arbeitsbereich anzuzeigen.
 
@@ -187,7 +182,7 @@ Wenn jemand einen Link zu einem Arbeitsbereich, einem Datensatztyp, einem <span 
 
    >[!NOTE]
    >
-   >Wenn Sie keinen Zugriff auf einen Datensatztyp oder <span class="preview">Datensatz</span> haben, zeigt die Seite Sie haben keinen Zugriff auf , dass Sie Zugriff auf den Arbeitsbereich benötigen.
+   >Wenn Sie keinen Zugriff auf einen Datensatztyp oder Datensatz haben, zeigt die Seite „Sie haben keinen Zugriff auf“ an, dass Sie Zugriff auf den Arbeitsbereich benötigen.
 
 
 1. (Bedingt) Wenn der freigegebene Link für eine Ansicht eines Arbeitsbereichs ist, auf den Sie Zugriff haben, klicken Sie auf **Mit vorhandener Ansicht öffnen**. Wenn Sie über die Berechtigung zum Zugriff auf den Arbeitsbereich verfügen, wird die Seite „Datensatztyp“ in der Standardansicht geöffnet.

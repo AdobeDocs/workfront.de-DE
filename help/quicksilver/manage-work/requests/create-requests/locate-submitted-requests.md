@@ -11,18 +11,13 @@ exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/wph4vcZj6iJCRSWrh6CHLwRhspLqbV-HL0qoZEwV-OI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6aec8f2f3dd6dd653361058712b9e7a251ec6a69
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1591
+source-wordcount: 1528
 ht-degree: 4%
 
 ---
@@ -33,11 +28,13 @@ ht-degree: 4%
 Remove production and preview references at release
 -->
 
+<!--
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
+-->
 
 Sie können die Anfragen anzeigen, die Sie oder eine andere Person gesendet haben, oder die Anfragen, die Sie begonnen haben, aber nie abgeschlossen haben. Die nicht abgeschlossenen Anfragen werden als Entwürfe gespeichert.
 
@@ -113,7 +110,8 @@ Die Anzeige gesendeter Anfragen unterscheidet sich je nachdem, ob Sie das neue o
 
 >[!NOTE]
 >
->* Wenn Sie über Workfront Planning verfügen, werden Ihre Workfront- und Planning-Anfragen in derselben Liste angezeigt.Der **Objekttyp** einer Planungsanfrage wird nach diesem Muster benannt: `< Name of workspace > > < Name of record type >`. Beispielsweise könnte der Objekttyp einer Planning-Anfrage `Marketing workspace > Campaigns` heißen.\
+>* Wenn Sie über Workfront Planning verfügen, werden Ihre Workfront- und Planning-Anfragen in derselben Liste angezeigt.
+>     Der **Objekttyp** einer Planungsanfrage wird nach diesem Muster benannt: `< Name of workspace > > < Name of record type >`. Beispielsweise könnte der Objekttyp einer Planning-Anfrage `Marketing workspace > Campaigns` heißen.\
 >     Der **Objekttyp** einer Workfront-Anfrage ist `Issue`.
 >* Standardmäßig werden im Bereich Anfragen bis zu 50 Anfragen in der Liste angezeigt. Um weitere Anfragen anzuzeigen, scrollen Sie zum unteren Rand der Liste.
 
@@ -157,7 +155,7 @@ So zeigen Sie Anfragen an, die Sie oder andere Benutzende in der neuen anfordern
 
    In der neuen anfragenden -Version sind die folgenden Status verfügbar:
 
-   * <span class="preview">**Neu**: Die Anfrage ist neu und wurde noch nicht bearbeitet. </span>
+   * **Neu**: Die Anfrage ist neu und wurde noch nicht bearbeitet.
    * **Entwurf**: Diese Anfrage wurde noch nicht übermittelt. Dieser Status ist hartcodiert.
    * **Ausstehende Prüfung**: (Nur Planung) Diese Anfrage enthält genehmigende Personen, und keine der genehmigenden Personen hat die Anfrage geöffnet. Dieser Status ist hartcodiert.
    * **In Prüfung**: (Nur Planung) Diese Anforderung enthält genehmigende Personen und mindestens eine genehmigende Person hat die Anforderung geöffnet, es wurde jedoch keine Entscheidung getroffen. Dieser Status ist hartcodiert.
@@ -166,7 +164,7 @@ So zeigen Sie Anfragen an, die Sie oder andere Benutzende in der neuen anfordern
       * Workfront-Anfragen: Die Anfrage wurde konvertiert und die Arbeit ist im Gange.
       * Workfront Planning-Anfragen: Der Anforderungsabschluss ist einem bestimmten Planning-Feld zugeordnet, und der Feldwert stimmt noch nicht mit dem Abschlusswert überein.
    * **Halten**: Dies ist für Workfront-Anfragen verfügbar. Sie kann von den Benutzern manuell festgelegt werden.
-   * <span class="preview">**Abschließen**: Der Planungsdatensatz wurde erstellt, wodurch die Anfrage abgeschlossen wird. (Nur Planung)</span>
+   * **Abschließen**: Der Planungsdatensatz wurde erstellt, wodurch die Anfrage abgeschlossen wird. (Nur Planung)
    <!--
    This is not live yet; might be live for the unified intake process: 
    * <span class="preview">**Canceled**: This is for Workfront requests.</span> 
