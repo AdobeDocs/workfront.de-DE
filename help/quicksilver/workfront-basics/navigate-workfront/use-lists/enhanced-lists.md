@@ -8,26 +8,19 @@ exl-id: 4c25ed54-b147-4fd3-8d00-6f1ba61bbd38
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/2h2QsF799S3w-QTA1sswerywOQvdO9uWZppf5Y-tZvk
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8865d770518504ccc3eb50175dafeab66eba8563
 workflow-type: tm+mt
-source-wordcount: 3124
+source-wordcount: 3139
 ht-degree: 2%
 
 ---
 
 # Verwenden von erweiterten Listen
-
-{{preview-fast-release-general}}
 
 Erweiterte Listen sind in einigen Bereichen von Adobe Workfront verfügbar. Diese Listen verwenden ein Tabellenformat für die Anzeige der Listenelemente und haben ein anderes Erscheinungsbild als die Standardlisten. Die Verwaltung von Ansichten wurde ebenfalls verbessert, einschließlich Filtern, Gruppieren, Verwalten von Spalten und Suchen.
 
@@ -101,21 +94,17 @@ Führen Sie je nach angezeigter erweiterter Liste eine der folgenden Aktionen au
    * Währung: Sie müssen Daten in einem Zahlenformat eingeben, dem ein Währungssymbol vorangestellt ist.
    * Datum: Wählen Sie im Kalender ein Datum aus.
    * Datum und Uhrzeit: Wählen Sie mithilfe des Kalenders ein Datum und eine Uhrzeit aus.
-   * Dropdown-Liste mit Einfach- oder Mehrfachauswahl : Wählen Sie eine oder mehrere Optionen aus einem Dropdown-Menü aus. <span class="preview">Wenn sie in einer Liste unterstützt werden, können Sie neue Optionen direkt aus der Dropdown-Liste erstellen, wenn keine Ergebnisse gefunden werden.</span>
+   * Dropdown-Liste mit Einfach- oder Mehrfachauswahl : Wählen Sie eine oder mehrere Optionen aus einem Dropdown-Menü aus. Wenn sie in einer Liste unterstützt werden, können Sie neue Optionen direkt aus der Dropdown-Liste erstellen, wenn keine Ergebnisse gefunden werden.
    * Typeahead: Geben Sie den Namen eines vorhandenen Objekts ein (z. B. den Namen einer Gruppe oder eines Projekts) und wählen Sie den Namen aus der Liste der Vorschläge aus.
    * Absatz: Sie können mehrere Zeilen mit alphanumerischen Informationen eingeben.
    * Bevollmächtigter (ein oder mehrere): Wählen Sie einen oder mehrere Benutzer als Bevollmächtigten für das Listenelement aus.
    * Farbauswahl: Wählen Sie eine Farbe aus der Auswahl aus oder geben Sie einen Code ein, z. B. Hex oder RGB.
-
-   <div class="preview">
 
    Die Dropdown-Felder „Verantwortlicher“, „Einzelauswahl“ und „Mehrfachauswahl“ unterstützen die folgenden Tastaturbefehle:
 
    * Verwenden Sie die Pfeile nach oben und unten auf der Tastatur, um durch die Liste der Elemente zu navigieren.
    * Drücken Sie die Leertaste, um ein Element auszuwählen.
    * Drücken Sie die Entf-Taste, um ein ausgewähltes Element zu entfernen.
-
-   </div>
 
    >[!NOTE]
    >
@@ -221,7 +210,7 @@ So fügen Sie Spalten hinzu und entfernen sie:
 >
 >Nicht alle erweiterten Listen enthalten alle in diesem Abschnitt beschriebenen Elemente.
 
-1. Klicken Sie auf **Symbol „Zeilenhöhe** ![&#x200B; (Symbol „Zeilenhöhe](assets/row-height-icon.png) in einer erweiterten Liste.
+1. Klicken Sie auf **Symbol „Zeilenhöhe** ![ (Symbol „Zeilenhöhe](assets/row-height-icon.png) in einer erweiterten Liste.
 
    Dadurch wird die vertikale Länge einer Zeile aktualisiert. Wählen Sie aus den folgenden Optionen:
    * Kurz
@@ -346,7 +335,7 @@ Mit der bedingten Formatierung können Sie wichtige Informationen in der Ansicht
    >
    >Nur in der erweiterten Liste sichtbare Felder sind für die bedingte Formatierung verfügbar.
 
-1. (Optional) Anstatt einen Feldwert hinzuzufügen, klicken Sie auf das Symbol **Mit einem anderen Feld vergleichen** (![&#x200B; mit einem anderen Feld vergleichen](assets/compare-to-another-field-icon.png) und wählen Sie ein Feld aus, dessen Wert Sie mit dem Wert des ausgewählten Felds vergleichen möchten. Beispielsweise können Sie die Felder „Betreff“ und „Beschreibung“ in Anfrageelementen vergleichen.
+1. (Optional) Anstatt einen Feldwert hinzuzufügen, klicken Sie auf das Symbol **Mit einem anderen Feld vergleichen** (![ mit einem anderen Feld vergleichen](assets/compare-to-another-field-icon.png) und wählen Sie ein Feld aus, dessen Wert Sie mit dem Wert des ausgewählten Felds vergleichen möchten. Beispielsweise können Sie die Felder „Betreff“ und „Beschreibung“ in Anfrageelementen vergleichen.
 
    >[!TIP]
    >
@@ -361,7 +350,7 @@ Mit der bedingten Formatierung können Sie wichtige Informationen in der Ansicht
 1. Klicken Sie auf den **OR**-Connector zwischen Bedingungen, um zu **AND** zu wechseln und anzugeben, dass mehrere Bedingungen gleichzeitig erfüllt sein müssen. **Oder** ist der Standard-Connector.
 1. Wählen Sie in **Zeile** Format“ ein Feld aus, um anzugeben, welche Spalte formatiert werden soll.
 1. (Optional) Klicken Sie auf das Symbol **Farbkreis** Symbol ![Farbformat-Symbol](assets/color-format-icon.png) neben dem ausgewählten Feld, um es zu erweitern und eine andere Farbe im Bereich **Zellenfüllung** auszuwählen, um die Farbe des Hintergrunds in einer Zelle zu ändern, oder wählen Sie eine Farbe aus dem Bereich **Textfarbe** aus, um die Farbe des Textes in einer Zelle zu ändern.
-1. Klicken Sie auf das Symbol **Textformat** ![&#x200B; (](assets/text-format-icon.png)) und wählen Sie eine der folgenden Optionen aus, um den Text in einer Zelle zu formatieren:
+1. Klicken Sie auf das Symbol **Textformat** ![ (](assets/text-format-icon.png)) und wählen Sie eine der folgenden Optionen aus, um den Text in einer Zelle zu formatieren:
    * Fett
    * Kursiv
 

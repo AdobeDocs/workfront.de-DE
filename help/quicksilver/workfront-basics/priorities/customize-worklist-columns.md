@@ -7,24 +7,18 @@ feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
 TQID: https://experienceleague.adobe.com/YIqeZbiTZH00yXJ6LnQrpEZuHvW4Y5QZVkYU3OquWqE
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 3c02b27f652567e117daf1d1334874144317be81
 workflow-type: tm+mt
-source-wordcount: 437
-ht-degree: 10%
+source-wordcount: 431
+ht-degree: 11%
 
 ---
 
 # Anpassen der Spalten der Arbeitsliste „Prioritäten“
-
-{{preview-fast-release-general}}
 
 <!--I think this article can point to the Enhanced lists article for managing the view-->
 
@@ -89,11 +83,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 1. Klicken Sie **der linken** auf „Spalten“.
 
-   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
    ![Spalten](assets/columns-new-060226.png)
-
-   Beispielbild in der Produktionsumgebung:
-   ![Spalten](assets/columns-new.png)
 
 1. Verwenden Sie die Umschalter, um Spalten in der Arbeitsliste ein- oder auszublenden.
 
@@ -103,13 +93,11 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 1. Klicken Sie **der linken** auf „Spalten“.
 1. Klicken Sie auf **Ziehen** und verschieben Sie die Spalte an die gewünschte Position. Das Verschieben von Spalten aktualisiert sich automatisch in der Arbeitsliste.
-   ![Spalten neu &#x200B;](assets/reorder-columns-new.png)
+   ![Spalten neu ](assets/reorder-columns-new.png)
 
 >[!NOTE]
 >
 >Die Spalte Name ist fest und kann nicht verschoben werden.
-
-<div class="preview">
 
 ### Hinzufügen und Entfernen von Spalten mit dem Spalten-Manager
 
@@ -123,8 +111,6 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
    >Sie können der Listenansicht nur vorhandene Felder hinzufügen. Sowohl native als auch benutzerdefinierte Felder für Aufgaben und Probleme können als Spalten hinzugefügt werden.
 
 Weitere Informationen zum Spalten-Manager finden Sie im Abschnitt [Hinzufügen und Entfernen von Spalten mit dem Spalten-Manager](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager) im Artikel [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
-
-</div>
 
 ### Ändern der Zeilenhöhe in der Prioritätenliste
 
@@ -141,8 +127,6 @@ Weitere Informationen zum Spalten-Manager finden Sie im Abschnitt [Hinzufügen u
 
    Die Liste wird sofort aktualisiert.
 
-<div class="preview">
-
 ## Ansichten für die Prioritätenliste verwalten
 
 Eine Ansicht definiert die Spalten, Filter und Gruppierungen in der Liste mit den Voreinstellungen.
@@ -157,5 +141,3 @@ Der Prioritätenliste wird eine Standardansicht zugewiesen. Sie können auch eig
    Änderungen an Ansichten werden automatisch gespeichert. Wenn Sie diese Ansicht das nächste Mal anwenden, bleiben die Spalten- und Filtereinstellungen so, wie Sie sie festlegen.
 
 Weitere Informationen zu Ansichten finden Sie im Abschnitt [Aktualisieren erweiterter Listenelemente](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#update-enhanced-list-elements) im Artikel [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
-
-</div>
