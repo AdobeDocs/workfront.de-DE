@@ -10,18 +10,12 @@ exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/gDZwho8TsvB7bMML-f4SisR-cyjs1aPyHOMpOxmgtwI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 322583384e4397bf02d534c14db46020e409aa35
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
 workflow-type: tm+mt
 source-wordcount: 725
 ht-degree: 12%
@@ -29,8 +23,6 @@ ht-degree: 12%
 ---
 
 # Zusammenfassung für Dokumente – Überblick
-
-{{highlighted-preview}}
 
 <!--Audited: April, 2024-->
 
@@ -86,7 +78,7 @@ Wenn sich Ihr Unternehmen im alten Workfront-Speicher befindet, wird der Bereich
 
 1. Wählen Sie auf **Seite** Dokumente“ ein Dokument in der Liste aus.
 
-1. Klicken Sie oben rechts auf der Seite auf das Symbol **Zusammenfassung öffnen** (![&#x200B; Zusammenfassung öffnen](assets/qs-summary-in-new-toolbar-small.png). Das Seitenbedienfeld **Dokumentzusammenfassung** wird geöffnet.
+1. Klicken Sie oben rechts auf der Seite auf das Symbol **Zusammenfassung öffnen** (![ Zusammenfassung öffnen](assets/qs-summary-in-new-toolbar-small.png). Das Seitenbedienfeld **Dokumentzusammenfassung** wird geöffnet.
 
    ![Zusammenfassungsdetails](assets/document-summary-panel.png)
 
@@ -147,7 +139,7 @@ Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, wird der Bereich Neue Dokume
 
 ### Details
 
-Verwenden Sie den Abschnitt Details , um allgemeine Übersichtsinformationen anzuzeigen, mit benutzerdefinierten Formularen zu interagieren und <span class="preview">die Druckzusammenfassung zu öffnen</span>.
+Verwenden Sie den Abschnitt Details , um allgemeine Übersichtsinformationen anzuzeigen, mit benutzerdefinierten Formularen zu interagieren und die Druckzusammenfassung zu öffnen.
 
 ![Details zur Dokumentzusammenfassung in der neuen Dokumenterfahrung](assets/summary-details.png)
 
