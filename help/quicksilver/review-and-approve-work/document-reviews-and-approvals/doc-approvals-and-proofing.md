@@ -9,22 +9,17 @@ exl-id: be484629-6e70-4809-ad4c-a489d5814da6
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/UBrLQv-1DRwZ-TO3c1SAUn8OF0yOAYnKPGrf-lSS0xM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
 workflow-type: tm+mt
-source-wordcount: 1236
+source-wordcount: 678
 ht-degree: 1%
 
 ---
 
 # Gemeinsames Verwenden von einheitlichen Genehmigungen und Proofing
-
-{{highlighted-preview}}
 
 Einheitliche Genehmigungen in Workfront beinhalten jetzt eine Reihe neuer Funktionen, mit denen Sie Dokumente überprüfen und genehmigen können. Sie können einen einheitlichen Genehmigungs-Workflow mit dem vorhandenen Proofing Viewer verwenden, um Kommentare und Markups zu überprüfenden Dokumenten hinzuzufügen.
 
@@ -37,7 +32,8 @@ Es gibt einige wichtige Unterschiede im Workflow bei der gemeinsamen Verwendung 
 ## Dokument hochladen und Korrekturabzug erstellen
 
 1. Navigieren Sie zum Projekt, zur Aufgabe oder zum Problem, dem bzw. dem Sie ein neues Dokument hinzufügen möchten.
-1. Klicken Sie auf **Registerkarte** Dokumente“ und dann auf das **Neu hinzufügen** Dropdown-Menü.ODER
+1. Klicken Sie auf **Registerkarte** Dokumente“ und dann auf das **Neu hinzufügen** Dropdown-Menü.
+ODER
 Ziehen Sie das Dokument per Drag-and-Drop in die Dokumentliste.
 
    >[!NOTE]
@@ -48,55 +44,55 @@ Ziehen Sie das Dokument per Drag-and-Drop in die Dokumentliste.
 
 Benutzende, die als Teilnehmer zugewiesen sind, können die Proofing Viewer verwenden, um Kommentare und Markups zu dem Dokument hinzuzufügen. Fahren Sie mit dem nächsten Abschnitt fort, um zu erfahren, wie Sie Reviewer hinzufügen.
 
-## Öffnen Sie die Dokumentzusammenfassung und weisen Sie der Produktion Teilnehmer zu
+<!--
+## Open the document Summary and assign participants in Production
 
-Sie haben die Möglichkeit, Prüfer, genehmigende Personen oder eine Mischung aus beidem zuzuweisen:
+You have the option to assign reviewers, approvers, or a mix of both:
 
-* **Reviewer** können Kommentare hinzufügen und Assets markieren. Nach Abschluss können sie ihre Überprüfung als abgeschlossen markieren. Die Überprüfung als abgeschlossen zu markieren ist nicht erforderlich, damit das Dokument im Genehmigungsprozess fortgesetzt werden kann.
-* **Genehmigende Personen** können Kommentare hinzufügen und Assets markieren. Sie müssen eine Entscheidung treffen, um den Genehmigungsprozess voranzubringen.
+* **Reviewers** can add comments and mark up assets. Once finished, they can mark their review as complete. Marking the review as complete is not required for the document to move forward in the approval process.
+* **Approvers** can add comments and mark up assets. They must make a decision to move the approval process forward. 
 
-So weisen Sie Teilnehmer zu:
+To assign participants:
 
-1. Wählen Sie das hochgeladene Dokument aus und öffnen Sie die Dokumentzusammenfassung.
-   ![Dokumentzusammenfassung öffnen](assets/open-doc-summary.png)
+1. Select the document you uploaded and open the document Summary.
+    ![Open document summary](assets/open-doc-summary.png)
 
-1. Scrollen Sie nach unten zum Abschnitt **Genehmigungen** und klicken Sie dann auf **Workflow erstellen**.
+1. Scroll down to the **Approvals** section, then click **Create workflow**.
 
 
-1. Füllen Sie die folgenden Details aus:
+1. Fill in the following details:
 
    <table>
    <tr>
-   <td><strong>Name der Phase</strong></td>
-   <td>Einen Namen für das Stadium hinzufügen. Sie können den Namen in einen aussagekräftigeren Namen ändern, z. B<em> „Erstprüfung</em> oder "<em> Genehmigung</em>.</td>
+   <td><strong>Stage name</strong></td>
+   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
    </tr>
    <tr>
-   <td><strong>Namen oder E-Mails hinzufügen</strong></td>
-   <td>Beginnen Sie mit der Eingabe eines Benutzer- oder Team-Namens, der als genehmigende Person oder Prüfende Person hinzugefügt werden soll. Wenn Sie nur über Validierungsverantwortliche verfügen, werden diese benachrichtigt und haben die Möglichkeit, die Überprüfung abzuschließen. Es ist jedoch keine Entscheidung erforderlich oder getroffen.</td>
+   <td><strong>Add names or emails</strong></td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
    </tr>
    <tr>
-   <td><strong>Eine Entscheidung erforderlich (optional)</strong></td>
-   <td>Die erste Person, die eine Entscheidung trifft, schließt die Phase ab.</td>
+   <td><strong>One decision required (optional)</strong></td>
+   <td>The first person who makes a decision completes the stage.</td>
    </tr>
    <tr>
-   <td><strong>Fälligkeitsdatum (optional)</strong></td>
-   <td>Legen Sie ein Fälligkeitsdatum für die Genehmigung fest. Benutzer und Teams werden 72 Stunden und dann 24 Stunden vor dem angegebenen Fälligkeitsdatum per E-Mail benachrichtigt.</td>
+   <td><strong>Due date (optional)</strong></td>
+   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
    </tr>
    </table>
 
-1. (Optional) Wiederholen Sie den vorherigen Schritt, um weitere Schritte nach Bedarf hinzuzufügen.
+1. (Optional) Repeat the previous step to add additional stages as needed.
 
    >[!NOTE]
    >
-   >Wenn Sie mehrere Phasen hinzufügen, wird der Genehmigungs-Workflow in der Reihenfolge fortgesetzt, in der die Phasen aufgelistet sind. Wenn alle erforderlichen Entscheidungen getroffen werden, beginnt die nächste Phase und die vorherige Phase wird gesperrt.
+   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
 
-   ![Neues Stadium](assets/new-stage.png)
+   ![new stage](assets/new-stage.png)
 
-1. Nachdem Sie alle validierungsverantwortlichen Personen und genehmigenden Personen hinzugefügt haben, klicken Sie auf **Genehmigungen anfordern**. Die Teilnehmer werden per E-Mail benachrichtigt.
+1. Once you've added all reviewers and approvers, click **Request approvals**. Participants are notified via email.
+-->
 
-<div class="preview">
-
-## Öffnen Sie die Dokumentzusammenfassung und weisen Sie Teilnehmer in der Vorschau zu
+## Öffnen Sie die Dokumentzusammenfassung und weisen Sie Teilnehmer zu
 
 Das Dialogfeld Genehmigung anfordern wird standardmäßig im Standardmodus für eine einstufige Genehmigung geöffnet. Wechseln Sie in den erweiterten Modus, um mehrstufige Genehmigungen oder parallele Pfade zu konfigurieren.
 
@@ -112,58 +108,56 @@ So weisen Sie Teilnehmer zu:
 
 1. Klicken Sie **Genehmigung anfordern**. Die Teilnehmer werden per E-Mail benachrichtigt.
 
-</div>
+<!--
+## Create a new version as needed in Production
 
-## Erstellen Sie bei Bedarf eine neue Version in der Produktionsumgebung.
+If you need another round of review and approval, you can create a new proof version and add the previous participants, new participants, or a mix of both. You can view information about previous versions and participants in the document Summary.
 
-Wenn Sie eine weitere Runde der Überprüfung und Genehmigung benötigen, können Sie eine neue Korrekturabzugsversion erstellen und die vorherigen Teilnehmer, neue Teilnehmer oder eine Mischung aus beiden hinzufügen. In der Dokumentzusammenfassung können Sie Informationen zu früheren Versionen und Teilnehmern anzeigen.
+To add a new version:
 
-Hinzufügen einer neuen Version:
+1. Drag and drop the new file on top of the previous document in Workfront. This automatically creates a new version. 
 
-1. Ziehen Sie die neue Datei per Drag-and-Drop auf das vorherige Dokument in Workfront. Dadurch wird automatisch eine neue Version erstellt.
+1. Once the document finishes uploading, select the document, then click **Create proof** > **Simple proof**. 
 
-1. Nachdem das Dokument hochgeladen wurde, wählen Sie das Dokument aus und klicken Sie auf **Korrekturabzug erstellen** > **Einfacher Korrekturabzug**.
+1. Select the document again, and open the document Summary.
+    ![Open document summary](assets/open-doc-summary.png)
 
-1. Wählen Sie das Dokument erneut aus und öffnen Sie die Dokumentzusammenfassung.
-   ![Dokumentzusammenfassung öffnen](assets/open-doc-summary.png)
-
-1. Scrollen Sie nach unten zum Abschnitt **Genehmigungen** und klicken Sie dann auf **Workflow erstellen**.
+1. Scroll down to the **Approvals** section, then click **Create workflow**.
 
 
-1. Füllen Sie die folgenden Details aus:
+1. Fill in the following details:
 
    <table>
    <tr>
-   <td><strong>Name der Phase</strong></td>
-   <td>Einen Namen für das Stadium hinzufügen. Sie können den Namen in einen aussagekräftigeren Namen ändern, z. B<em> „Erstprüfung</em> oder "<em> Genehmigung</em>.</td>
+   <td><strong>Stage name</strong></td>
+   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
    </tr>
    <tr>
-   <td><strong>Namen oder E-Mails hinzufügen</strong></td>
-   <td>Beginnen Sie mit der Eingabe eines Benutzer- oder Team-Namens, der als genehmigende Person oder Prüfende Person hinzugefügt werden soll. Wenn Sie nur über Validierungsverantwortliche verfügen, werden diese benachrichtigt und haben die Möglichkeit, die Überprüfung abzuschließen. Es ist jedoch keine Entscheidung erforderlich oder getroffen.</td>
+   <td><strong>Add names or emails</strong></td>
+   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
    </tr>
    <tr>
-   <td><strong>Eine Entscheidung erforderlich (optional)</strong></td>
-   <td>Die erste Person, die eine Entscheidung trifft, schließt die Phase ab.</td>
+   <td><strong>One decision required (optional)</strong></td>
+   <td>The first person who makes a decision completes the stage.</td>
    </tr>
    <tr>
-   <td><strong>Fälligkeitsdatum (optional)</strong></td>
-   <td>Legen Sie ein Fälligkeitsdatum für die Genehmigung fest. Benutzer und Teams werden 72 Stunden und dann 24 Stunden vor dem angegebenen Fälligkeitsdatum per E-Mail benachrichtigt.</td>
+   <td><strong>Due date (optional)</strong></td>
+   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
    </tr>
    </table>
 
-1. (Optional) Wiederholen Sie den vorherigen Schritt, um weitere Schritte nach Bedarf hinzuzufügen.
+1. (Optional) Repeat the previous step to add additional stages as needed.
 
    >[!NOTE]
    >
-   >Wenn Sie mehrere Phasen hinzufügen, wird der Genehmigungs-Workflow in der Reihenfolge fortgesetzt, in der die Phasen aufgelistet sind. Wenn alle erforderlichen Entscheidungen getroffen werden, beginnt die nächste Phase und die vorherige Phase wird gesperrt.
+   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
 
-   ![Neues Stadium](assets/new-stage.png)
+   ![new stage](assets/new-stage.png)
 
-1. Nachdem Sie alle validierungsverantwortlichen Personen und genehmigenden Personen hinzugefügt haben, klicken Sie auf **Genehmigungen anfordern**. Die Teilnehmer werden per E-Mail benachrichtigt.
+1. Once you've added all reviewers and approvers, click **Request approvals**. Participants are notified via email.
+-->
 
-<div class="preview">
-
-## Erstellen Sie eine neue Version nach Bedarf in der Vorschau
+## Erstellen Sie nach Bedarf eine neue Version
 
 Wenn Sie eine weitere Runde der Überprüfung und Genehmigung benötigen, können Sie eine neue Korrekturabzugsversion erstellen und die vorherigen Teilnehmer, neue Teilnehmer oder eine Mischung aus beiden hinzufügen. In der Dokumentzusammenfassung können Sie Informationen zu früheren Versionen und Teilnehmern anzeigen.
 
@@ -184,8 +178,6 @@ Hinzufügen einer neuen Version:
 1. Konfigurieren des Validierungs-Workflows. Beschreibung der Felder, des erweiterten Modus-Umschalters und der parallelen Flusspfade finden Sie unter [Erstellen eines Workflow für die Dokumentvalidierung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 1. Klicken Sie **Genehmigung anfordern**. Die Teilnehmer werden per E-Mail benachrichtigt.
-
-</div>
 
 ## Korrekturabzug prüfen und eine Entscheidung treffen
 
