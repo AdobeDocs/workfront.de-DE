@@ -5,17 +5,15 @@ title: Konfigurieren des Adobe Workfront MCP-Servers
 description: Konfigurieren Sie Ihre Workfront-Instanz und Ihre KI-Agentenplattform, damit Sie über Konversationen in natürlicher Sprache mit Workfront arbeiten können.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 5592c1b93b5e44c732f92d626ed878d2c4647ceb
+source-git-commit: 3e189faacf67a9a565b0fbd5a92786110a9785f9
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 1%
+source-wordcount: '1729'
+ht-degree: 0%
 
 ---
 
 
 # Konfigurieren des Adobe Workfront MCP-Servers
-
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Mit dem [!DNL Adobe Workfront] MCP-Server können Sie mit Ihren Workfront-Daten über eine Konversation in natürlicher Sprache auf einer unterstützten KI-Agentenplattform arbeiten.
 
@@ -34,12 +32,11 @@ Dieser Artikel führt Sie durch die Schritte zur Verbindung von:
 * [!DNL Claude]
 * [!DNL ChatGPT]
 
-Wenn Sie eine andere MCP-kompatible KI-Agent-Plattform verwenden (z. B. [!DNL Gemini] oder [!DNL Microsoft Copilot]), führen Sie die Schritte zum Hinzufügen eines benutzerdefinierten MCP-Servers in der Dokumentation dieser Plattform aus. Wenn Sie nach der URL des MCP-Servers gefragt werden, geben Sie die URL für Ihre Region ein:
+Wenn Sie eine andere MCP-kompatible KI-Agent-Plattform verwenden (z. B. [!DNL Gemini] oder [!DNL Microsoft Copilot]), führen Sie die Schritte zum Hinzufügen eines benutzerdefinierten MCP-Servers in der Dokumentation dieser Plattform aus. Geben Sie nach Aufforderung zur Eingabe der MCP-Server-URL Folgendes ein:
 
-| Region | URL |
-| --- | --- |
-| US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-| EU | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+```
+https://mcp.workfront.adobe.com/mcp/v1/workfront
+```
 
 ## Voraussetzungen
 
@@ -113,16 +110,15 @@ So verbinden Sie Workfront mit [!DNL Claude]:
 
 So verbinden Sie Workfront mit [!DNL Claude] über eine URL:
 
-1. Melden Sie sich mit Ihren [&#x200B; bei &#x200B;](https://claude.ai)Claude“ an.
+1. Melden Sie sich mit Ihren [ bei ](https://claude.ai)Claude“ an.
 1. Wählen Sie im linken Menü das Symbol **Anpassen** aus.
 1. Wählen Sie **Connectoren** und klicken Sie dann auf das Symbol **+** , um einen Connector hinzuzufügen.
 1. Klicken Sie auf **Schaltfläche „App**&quot;.
-1. Geben Sie dem Connector einen gewünschten Namen (z. B. &quot;Workfront„) und die gewünschte MCP-Server-URL ein:
+1. Geben Sie dem Connector einen gewünschten Namen (z. B. &quot;Workfront„) und die MCP-Server-URL:
 
-   | Region | URL |
-   | --- | --- |
-   | US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-   | EU | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+   ```
+   https://mcp.workfront.adobe.com/mcp/v1/workfront
+   ```
 
 1. Nachdem der Connector erstellt wurde, wird ein Anmeldefenster angezeigt. Authentifizieren Sie sich mit Ihren Adobe ID-Anmeldeinformationen. Stellen Sie sicher, dass Sie die gewünschte Workfront-Instanz auswählen, wenn Sie zu mehreren gehören.
 
@@ -144,16 +140,15 @@ Um mehr über [!DNL Claude] Fähigkeiten zu erfahren, lesen Sie die [Claude-Benu
 
 ## Mit ChatGPT verbinden
 
-1. Melden Sie sich mit Ihren [&#x200B; bei &#x200B;](https://chatgpt.com)ChatGPT) an.
+1. Melden Sie sich mit Ihren [ bei ](https://chatgpt.com)ChatGPT) an.
 1. Wählen Sie unten links &quot;**&quot;** → **Einstellungen**.
 1. Wählen Sie **Apps** aus und aktivieren Sie dann **Entwicklermodus**.
 1. Klicken Sie auf **Schaltfläche „App**&quot;.
-1. Geben Sie der App einen gewünschten Namen (z. B. &quot;Workfront„) und die gewünschte MCP-Server-URL ein:
+1. Geben Sie der App einen gewünschten Namen (z. B. &quot;Workfront„) und die MCP-Server-URL ein:
 
-   | Region | URL |
-   | --- | --- |
-   | US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-   | EU | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+   ```
+   https://mcp.workfront.adobe.com/mcp/v1/workfront
+   ```
 
 1. Stellen Sie sicher, dass die Authentifizierung auf **OAuth** (standardmäßig festgelegt) eingestellt ist, und aktivieren Sie das Kontrollkästchen Akzeptanz , um fortzufahren.
 1. Nachdem die App erstellt wurde, wird ein Anmeldefenster angezeigt. Authentifizieren Sie sich mit Ihren Adobe ID-Anmeldeinformationen. Stellen Sie sicher, dass Sie die gewünschte Workfront-Instanz auswählen, wenn Sie zu mehreren gehören.
