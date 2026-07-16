@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
 source-wordcount: 375
 ht-degree: 13%
@@ -72,7 +72,7 @@ Sie können dem Menü [!UICONTROL Favoriten“ die letzten Elemente oder die akt
 
 ### Zuletzt verwendete Elemente als Favoriten hinzufügen
 
-1. Klicken Sie auf **[!UICONTROL Zuletzt verwendet]** Symbol ![Zuletzt verwendet](assets/recents-icon-40x43.png) in der oberen rechten Ecke einer beliebigen Seite in der neuen [!DNL Adobe Workfront].
+1. Klicken Sie auf **[!UICONTROL Zuletzt verwendet]** Symbol ![Zuletzt verwendet](assets/recents-icon.png) in der oberen rechten Ecke einer beliebigen Seite in der neuen [!DNL Adobe Workfront].
 1. Klicken Sie auf den Stern, der mit dem Element übereinstimmt, das Sie als Favorit speichern möchten. Das zuletzt verwendete Element wird im Menü **Favoriten** angezeigt.
 
    ![Favorisieren eines aktuellen Artikels](assets/recents-section.png)
@@ -86,7 +86,7 @@ Sie können dem Menü [!UICONTROL Favoriten“ die letzten Elemente oder die akt
 
    >[!NOTE]
    >
-   >Wenn Sie auf das Symbol **[!UICONTROL Favoriten]** auf einem Objekt klicken, das Sie bereits als Favorit hinzugefügt haben, wird das Objekt aus dem Menü [!UICONTROL Favoriten] entfernt.\
+   >Wenn Sie auf das Symbol **[!UICONTROL Favoriten]** auf einem Objekt klicken, das Sie bereits als Favorit hinzugefügt haben, wird das Objekt aus dem Menü [!UICONTROL Favoriten] entfernt.
    >![Aus Favoriten entfernen](assets/nwe-remove-from-favorites-350x52.png)
 
 ## Entfernen eines Elements aus dem Menü [!UICONTROL Favoriten]

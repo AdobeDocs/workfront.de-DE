@@ -1,8 +1,8 @@
 ---
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: cc78767fd0cc3090f5de71f44c64c9696ce6a36b
 workflow-type: tm+mt
-source-wordcount: '2236'
-ht-degree: 3%
+source-wordcount: '2292'
+ht-degree: 2%
 
 ---
 # Snippets
@@ -99,7 +99,7 @@ Add snippets within the section that the snippet is used. Snippets that are used
 
 ## ​1. Schritt - Setup wird eingerichtet {#step-1-to-setup}
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der linken oberen Ecke von Adobe Workfront und klicken Sie dann auf **[!UICONTROL Setup]** ![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der linken oberen Ecke von Adobe Workfront und klicken Sie dann auf **[!UICONTROL Setup]** ![Setup-Symbol](/help/_includes/assets/gear-icon-setup-2026.png).
 
 ## Von Formular-Designer zu Allgemein {#form-designer-default}
 
@@ -124,7 +124,7 @@ Sie können die richtige Gruppe mit dem Team verknüpfen, indem Sie den Mauszeig
 
 ## Schritt 1: Erreichbarkeit der Benutzer {#step-1-to-users}
 
-1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der linken oberen Ecke von Adobe Workfront und dann auf **[!UICONTROL Benutzer]** ![Benutzersymbol](/help/_includes/assets/users-icon-in-main-menu.png).
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der linken oberen Ecke von Adobe Workfront und dann auf **[!UICONTROL Benutzer]** ![Benutzersymbol](/help/_includes/assets/users-icon-in-main-menu-2026.png).
 
 
 <!-- Agile -->
@@ -295,11 +295,13 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
 
 >[!IMPORTANT]
 >
->Die Informationen in diesem Artikel beziehen sich auf Adobe Workfront-Planung, eine zusätzliche Funktion von Adobe Workfront.
+>Die Informationen in diesem Artikel beziehen sich auf Adobe Workfront Planning, das Ihr Unternehmen entweder als Adobe Workfront-Paket oder als eigenständiges Produkt erwerben kann.
 >
->Eine Liste der Anforderungen für den Zugriff auf Workfront-Planung finden Sie unter [Überblick über den Zugriff auf Adobe Workfront-Planung](/help/quicksilver/planning/access/access-overview.md).
-> 
+>Nicht alle im Planungspaket enthaltenen Funktionen sind für Workfront Planning verfügbar, wenn es als eigenständiges Produkt gekauft wird.
+>
 >Allgemeine Informationen zu Workfront Planning finden Sie unter [Erste Schritte mit Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+> 
+>Informationen zu Workfront Planning als eigenständiges Produkt finden Sie unter [Erste Schritte mit Adobe Workfront Planning als eigenständiges Produkt](/help/quicksilver/planning/planning-sta/planning-sta-overview.md).
 
 <!--
 Old - before Oct. 15, 2025:
@@ -474,7 +476,7 @@ So verknüpfen Sie Benutzer mit einem Home-Team:
 
 1. Wählen Sie **[!UICONTROL Abschnitt]** Organisation“ das Feld **[!UICONTROL Home-Team]** aus. Geben Sie den Namen des Teams ein, dessen Einstellungen Sie mit den Benutzern verknüpfen möchten. Klicken Sie auf den Namen des Teams, wenn Sie es in der Liste sehen.
 
-1. Klicken Sie **[!UICONTROL Änderungen speichern]**.
+1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
 Die ausgewählten Benutzer sind jetzt mit einem Home-Team verknüpft.
 Alle Team-Einstellungen, einschließlich der Status, die mit der Schaltfläche Fertig verknüpft sind, sind jetzt für diese Benutzer sichtbar.
 

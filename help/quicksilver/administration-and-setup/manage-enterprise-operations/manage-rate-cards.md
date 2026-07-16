@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
-source-git-commit: 18a1dda4ed60986496d9850c5823b42ad2291e4f
+source-git-commit: ace9a01e852e6d99ddc6f150c0ac34bd4ef44817
 workflow-type: tm+mt
 source-wordcount: '1434'
 ht-degree: 2%
@@ -16,8 +16,6 @@ ht-degree: 2%
 ---
 
 # Verwalten von Tarifkarten
-
-{{highlighted-preview}}
 
 Eine Tarifkarte stellt die vertragliche Vereinbarung mit Ihrem Kunden dar, in der Stundensätze für die Aufgabengebiete definiert sind, die die Arbeit abschließen. In einer Tarifkarte können Sie mehrere Abrechnungssätze pro Aufgabengebiet definieren, die auf Attributen wie Agentur, Standort oder Kostenstelle basieren. Ihre eindeutigen Tarifattribute werden im Bereich Setup konfiguriert. Weitere Informationen finden Sie unter [Definieren von &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
 
@@ -142,13 +140,9 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
    >
    >Da jeder Satz mit der Kombination aus Funktion und Attributen verknüpft ist, um einen eindeutigen Satz zu erstellen, können die Funktion und die Attribute beim Bearbeiten eines Satzes nicht geändert werden.
 
-<div class="preview">
-
 1. Um einen Kurs an einer bestimmten Stelle in der Liste der gültigen Terminkurse hinzuzufügen, bewegen Sie den Mauszeiger über den Kurs und wählen Sie das Menü **Mehr** rechts neben dem Namen des Kurses aus. Wählen Sie dann **Zeile oben einfügen** oder **Zeile unten einfügen**.
 
    Das Feld Abrechnungssatz bearbeiten wird angezeigt, wobei die Zeile für den neuen Abrechnungssatz dort hinzugefügt wird, wo Sie ihn platziert haben. Die Rate, die Sie für das Hinzufügen einer Zeile über oder unter ausgewählt haben, wird mit einer blauen Linie hervorgehoben. Fügen Sie den neuen Abrechnungssatz hinzu, passen Sie die effektiven Daten für die vorhandenen Abrechnungssätze nach Bedarf an und klicken Sie auf **Speichern**.
-
-</div>
 
 1. Um einen Abrechnungssatz aus der Tarifkarte zu löschen, aktivieren Sie das Kontrollkästchen neben dem Satz und klicken Sie in der Aktionsleiste [!UICONTROL **Löschen**].
 1. Um eine Rate zu sperren, aktivieren Sie das Kontrollkästchen neben der Rate und klicken Sie in [!UICONTROL **Aktionsleiste**] Sperren“.

@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 90b8da58f534f9033b427f0ad09c15dba50c28c9
 workflow-type: tm+mt
-source-wordcount: 502
-ht-degree: 12%
+source-wordcount: 523
+ht-degree: 11%
 
 ---
 
@@ -82,7 +82,9 @@ Mit Priorität werden die Ihnen zugewiesenen Arbeitselemente angezeigt. Sie kön
 {{step1-to-priorities}}
 
 1. Klicken Sie oben **der Arbeitsliste** das Symbol „Kalender“.
+
    ![Kalendersymbol](assets/calendar-tab.png)
+
 1. Wählen Sie einen oder mehrere Filter aus, um Ihre Arbeitselemente einzugrenzen.
 
    +++Erweitern um detaillierte Informationen zu den verfügbaren Filtern
@@ -162,7 +164,9 @@ Mit Priorität werden die Ihnen zugewiesenen Arbeitselemente angezeigt. Sie kön
 {{step1-to-priorities}}
 
 1. Klicken Sie oben **der Arbeitsliste** das Symbol „Kalender“.
+
    ![Kalendersymbol](assets/calendar-tab.png)
+
 1. Klicken Sie auf **Einstellungen** in der rechten Ecke des Kalenders.
 
 1. Wählen Sie auf **Registerkarte**&#x200B;Balkenstil) bis zu 5 Felder aus, die auf der Arbeitsaufgabenleiste im Kalender angezeigt werden sollen.

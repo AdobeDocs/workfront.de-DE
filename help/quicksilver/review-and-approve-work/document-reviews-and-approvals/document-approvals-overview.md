@@ -18,18 +18,17 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 8fa3fbb299fef17fbd49978e74adef94c45bb000
+source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
 workflow-type: tm+mt
-source-wordcount: 4173
+source-wordcount: 4149
 ht-degree: 0%
 
 ---
 
 # Einheitliche Prüfung und Genehmigung - Übersicht
 
-{{highlighted-preview}}
-
-Einheitliche Prüfung und Genehmigung führt Adobe Workfront und Adobe Frame.io zu einem einzigen, eng miteinander verbundenen Erlebnis zusammen. Dadurch werden die Lücken zwischen Marketing-Management, kreativer Überprüfung und Bereitstellung von Inhalten geschlossen.Projektkoordinatoren verwalten die Arbeit in Workfront, während Kreative, Marketingexperten und Stakeholder Assets im professionellen Frame.io-Viewer überprüfen und genehmigen, ohne Dateien zwischen getrennten Tools zu verschieben.
+Einheitliche Prüfung und Genehmigung führt Adobe Workfront und Adobe Frame.io zu einem einzigen, eng miteinander verbundenen Erlebnis zusammen. Dadurch werden die Lücken zwischen Marketing-Management, kreativer Überprüfung und Bereitstellung von Inhalten geschlossen.
+Projektkoordinatoren verwalten die Arbeit in Workfront, während Kreative, Marketingexperten und Stakeholder Assets im professionellen Frame.io-Viewer überprüfen und genehmigen, ohne Dateien zwischen getrennten Tools zu verschieben.
 
 ![Abbildung des einheitlichen Prüfungs- und Genehmigungs-Workflows mit Projektkoordinatoren, die die Arbeit in Workfront verwalten, sowie mit Prüfern und Genehmigern, die Feedback geben und Entscheidungen im Frame.io-Viewer treffen.](assets/Unified-Review-Approvals-Image.png)
 
@@ -288,13 +287,9 @@ Ja. Ein Benutzer kann im selben Genehmigungs-Workflow mehreren Phasen zugewiesen
 
 Ja. Es werden mehrstufige Genehmigungs-Workflows unterstützt, mit denen Sie Assets durch sequenzielle Prüfungs- und Genehmigungsrunden mit verschiedenen Teilnehmern in jeder Phase leiten können.
 
-<div class="preview">
-
 **Kann ich parallele Prüfpfade in einem Genehmigungs-Workflow konfigurieren?**
 
-Ja. In der Vorschau unterstützen Genehmigungs-Workflows parallele Pfade zusätzlich zu den sequenziellen Phasen. Jeder Pfad wird unabhängig ausgeführt und enthält eine oder mehrere sequenzielle Phasen, sodass Überprüfungen für verschiedene Pfade gleichzeitig erfolgen können. Sie können mit einer einzigen Genehmigung bis zu 30 Pfade und 100 Phasen konfigurieren. Die gleichen Optionen sind in den Validierungsvorlagen verfügbar. Weitere Informationen finden Sie unter [Erstellen eines Dokumentgenehmigungs-Workflows](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) und [Erstellen einer Genehmigungs-Workflow-Vorlage für Dokumente](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
-
-</div>
+Ja. Genehmigungs-Workflows unterstützen parallele Pfade zusätzlich zu sequenziellen Phasen. Jeder Pfad wird unabhängig ausgeführt und enthält eine oder mehrere sequenzielle Phasen, sodass Überprüfungen für verschiedene Pfade gleichzeitig erfolgen können. Sie können mit einer einzigen Genehmigung bis zu 30 Pfade und 100 Phasen konfigurieren. Die gleichen Optionen sind in den Validierungsvorlagen verfügbar. Weitere Informationen finden Sie unter [Erstellen eines Dokumentgenehmigungs-Workflows](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) und [Erstellen einer Genehmigungs-Workflow-Vorlage für Dokumente](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 <!--
 **Can I modify the trigger for a later stage---for example, based on all approved versus the due date ending?**
@@ -322,9 +317,7 @@ Derzeit unterstützen Genehmigungsvorlagen einzelne Benutzer und Teams.
 
 Ja. Genehmigende Personen und Prüfende erhalten E-Mail-Benachrichtigungen, wenn sie einer Überprüfung oder Genehmigung zugewiesen werden. E-Mails mit automatisierten Erinnerungen werden ebenfalls 72 Stunden vor dem Fristablauf, 24 Stunden vor dem Fristablauf und am Fristablauf selbst gesendet.
 
-In der Produktionsumgebung ist die Möglichkeit, E-Mail-Benachrichtigungsnachrichten anzupassen, derzeit nicht verfügbar, sie befindet sich jedoch auf der Produkt-Roadmap.
-
-<span class="preview">In der Vorschau können Sie zu jedem Schritt eines Validierungs-Workflows eine benutzerdefinierte Nachricht hinzufügen. Die Meldung wird in der E-Mail-Benachrichtigung über die Genehmigung und auf der Registerkarte Genehmigungen in Workfront angezeigt. Sie können dieselbe Nachricht für jedes Stadium oder eine andere Nachricht pro Stadium verwenden. Die Nachricht kann bis zu 500 Zeichen enthalten. Wenn Sie eine benutzerdefinierte Nachricht bearbeiten, nachdem der Genehmigungs-Workflow erstellt wurde, wird eine aktualisierte E-Mail-Benachrichtigung an alle vorhandenen Teilnehmer gesendet. Wenn Sie einen Teilnehmer später hinzufügen, wird die benutzerdefinierte Nachricht in die E-Mail-Benachrichtigung aufgenommen. Weitere Informationen finden Sie unter [Erstellen eines Dokumentgenehmigungs-Workflows](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).</span>
+Sie können zu jedem Schritt eines Genehmigungs-Workflows eine benutzerdefinierte Nachricht hinzufügen. Die Meldung wird in der E-Mail-Benachrichtigung über die Genehmigung und auf der Registerkarte Genehmigungen in Workfront angezeigt. Sie können dieselbe Nachricht für jedes Stadium oder eine andere Nachricht pro Stadium verwenden. Die Nachricht kann bis zu 500 Zeichen enthalten. Wenn Sie eine benutzerdefinierte Nachricht bearbeiten, nachdem der Genehmigungs-Workflow erstellt wurde, wird eine aktualisierte E-Mail-Benachrichtigung an alle vorhandenen Teilnehmer gesendet. Wenn Sie einen Teilnehmer später hinzufügen, wird die benutzerdefinierte Nachricht in die E-Mail-Benachrichtigung aufgenommen. Weitere Informationen finden Sie unter [Erstellen eines Dokumentgenehmigungs-Workflows](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 <!--
 **Can I change the notification frequency for a unified approver or reviewer (for example, all comments, replies to my comments, or daily summaries)?**

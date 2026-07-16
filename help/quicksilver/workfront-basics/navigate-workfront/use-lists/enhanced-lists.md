@@ -18,16 +18,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 8865d770518504ccc3eb50175dafeab66eba8563
 workflow-type: tm+mt
-source-wordcount: 3124
+source-wordcount: 3139
 ht-degree: 2%
 
 ---
 
 # Verwenden von erweiterten Listen
-
-{{preview-fast-release-general}}
 
 Erweiterte Listen sind in einigen Bereichen von Adobe Workfront verfügbar. Diese Listen verwenden ein Tabellenformat für die Anzeige der Listenelemente und haben ein anderes Erscheinungsbild als die Standardlisten. Die Verwaltung von Ansichten wurde ebenfalls verbessert, einschließlich Filtern, Gruppieren, Verwalten von Spalten und Suchen.
 
@@ -101,21 +99,17 @@ Führen Sie je nach angezeigter erweiterter Liste eine der folgenden Aktionen au
    * Währung: Sie müssen Daten in einem Zahlenformat eingeben, dem ein Währungssymbol vorangestellt ist.
    * Datum: Wählen Sie im Kalender ein Datum aus.
    * Datum und Uhrzeit: Wählen Sie mithilfe des Kalenders ein Datum und eine Uhrzeit aus.
-   * Dropdown-Liste mit Einfach- oder Mehrfachauswahl : Wählen Sie eine oder mehrere Optionen aus einem Dropdown-Menü aus. <span class="preview">Wenn sie in einer Liste unterstützt werden, können Sie neue Optionen direkt aus der Dropdown-Liste erstellen, wenn keine Ergebnisse gefunden werden.</span>
+   * Dropdown-Liste mit Einfach- oder Mehrfachauswahl : Wählen Sie eine oder mehrere Optionen aus einem Dropdown-Menü aus. Wenn sie in einer Liste unterstützt werden, können Sie neue Optionen direkt aus der Dropdown-Liste erstellen, wenn keine Ergebnisse gefunden werden.
    * Typeahead: Geben Sie den Namen eines vorhandenen Objekts ein (z. B. den Namen einer Gruppe oder eines Projekts) und wählen Sie den Namen aus der Liste der Vorschläge aus.
    * Absatz: Sie können mehrere Zeilen mit alphanumerischen Informationen eingeben.
    * Bevollmächtigter (ein oder mehrere): Wählen Sie einen oder mehrere Benutzer als Bevollmächtigten für das Listenelement aus.
    * Farbauswahl: Wählen Sie eine Farbe aus der Auswahl aus oder geben Sie einen Code ein, z. B. Hex oder RGB.
-
-   <div class="preview">
 
    Die Dropdown-Felder „Verantwortlicher“, „Einzelauswahl“ und „Mehrfachauswahl“ unterstützen die folgenden Tastaturbefehle:
 
    * Verwenden Sie die Pfeile nach oben und unten auf der Tastatur, um durch die Liste der Elemente zu navigieren.
    * Drücken Sie die Leertaste, um ein Element auszuwählen.
    * Drücken Sie die Entf-Taste, um ein ausgewähltes Element zu entfernen.
-
-   </div>
 
    >[!NOTE]
    >

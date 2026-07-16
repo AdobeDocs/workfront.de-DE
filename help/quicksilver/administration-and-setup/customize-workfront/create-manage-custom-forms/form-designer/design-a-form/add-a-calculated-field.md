@@ -21,9 +21,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
 workflow-type: tm+mt
-source-wordcount: 2647
+source-wordcount: 2721
 ht-degree: 9%
 
 ---
@@ -162,7 +162,7 @@ So verwenden Sie ein vorhandenes berechnetes benutzerdefiniertes Feld wieder:
     <tbody> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td>Geben Sie einen Titel für das Feld ein. Dies wird Benutzern angezeigt, wenn sie das benutzerdefinierte Formular verwenden. Das Feld <b>Name</b> das automatisch ausgefüllt wird, wird von Workfront in Berichten referenziert.</td> 
+      <td>Geben Sie einen Titel für das Feld ein. Dies wird Benutzern angezeigt, wenn sie das benutzerdefinierte Formular verwenden. Das Feld <b>API-Name</b> das automatisch ausgefüllt wird, wird von Workfront in Berichten referenziert.</td> 
      </tr> 
      <tr> 
       <td role="rowheader" id="instructions">Anleitung</td> 

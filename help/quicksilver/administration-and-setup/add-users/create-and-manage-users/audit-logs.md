@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 1488
+source-wordcount: 1487
 ht-degree: 3%
 
 ---
@@ -184,7 +184,7 @@ Das System generiert einen Audit-Protokolleintrag für ein benutzerdefiniertes F
 
    * Ändert die Feldgröße
 
-     Dies ist nur verfügbar, wenn es sich bei dem Feld um einen der folgenden Typen handelt: Einzelzeile, Absatz, Text mit Formatierung
+     Dies ist nur verfügbar, wenn es sich bei dem Feld um einen der folgenden Typen handelt: Einzelzeile, Absatz, Rich-Text
 
    * Fügt Auswahlfelder hinzu, entfernt sie oder blendet sie aus
    * Bearbeitet eine Feldauswahl für Beschriftung oder Wert

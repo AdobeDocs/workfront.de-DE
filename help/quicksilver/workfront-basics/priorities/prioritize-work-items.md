@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 90b8da58f534f9033b427f0ad09c15dba50c28c9
 workflow-type: tm+mt
 source-wordcount: 266
 ht-degree: 19%
@@ -78,7 +78,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
    | **normal** | Normal ist für Routineaufgaben, die Sie bearbeiten werden, nachdem dringende und Elemente mit hoher Priorität abgeschlossen sind. Dies ist die Standardeinstellung für Aufgaben und Probleme. |
    | **Niedrig** | Niedrig ist für Arbeitselemente, die nicht sofort bearbeitet werden müssen, und kann verschoben werden, bis alle Arbeitselemente mit höherer Priorität erledigt sind. |
 
-   ![Mein Fokus](assets/my-focus-new.png)
+   ![Mein Fokus](assets/my-focus-060226.png)
 
    >[!TIP]
    >

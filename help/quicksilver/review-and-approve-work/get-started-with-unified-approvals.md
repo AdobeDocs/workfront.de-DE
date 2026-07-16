@@ -8,16 +8,14 @@ feature: Work Management, Digital Content and Documents
 exl-id: 10962d59-284e-4c41-8523-18ea4ed78362
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 82530b9b87f6865ec294adcdc601443ee48dcbcf
+source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1058'
 ht-degree: 3%
 
 ---
 
 # Erste Schritte mit der einheitlichen Überprüfung und Genehmigung
-
-{{highlighted-preview}}
 
 Einheitliche Prüfung und Genehmigung führt Adobe Workfront und Adobe Frame.io zu einem einheitlichen, eng miteinander verbundenen Erlebnis zusammen und schließt die Lücken zwischen Marketing-Management, kreativer Überprüfung und Bereitstellung von Inhalten. Projektkoordinatoren verwalten die Arbeit in Workfront, während Kreative, Marketingexperten und Stakeholder Assets im professionellen Frame.io-Viewer überprüfen und genehmigen, ohne Dateien zwischen getrennten Tools zu verschieben.
 
@@ -64,11 +62,11 @@ Projektkoordinatoren können einmalige Prüfungs- und Genehmigungsvorlagen oder 
 
 Reviewer und genehmigende Personen können einem Genehmigungs-Workflow für den einmaligen Gebrauch oder einer wiederverwendbaren Genehmigungsvorlage hinzugefügt werden:
 
-* **Einmalgenehmigungen**: In dem Projekt oder der Aufgabe, in dem bzw. der sich das Asset befindet, kann der Projektkoordinator Validierungsverantwortliche und genehmigende Personen zuweisen und eine Abschlussfrist festlegen. Validierungsverantwortliche und genehmigende Personen werden 72 Stunden vor Fristablauf, 24 Stunden vor Fristablauf und anschließend innerhalb der Frist per E-Mail daran erinnert. <span class="preview">In der Vorschau können Sie auch mehrstufige Genehmigungen und parallele Pfade so konfigurieren, dass mehrere Überprüfungsspuren gleichzeitig ausgeführt werden.</span>
+* **Einmalgenehmigungen**: In dem Projekt oder der Aufgabe, in dem bzw. der sich das Asset befindet, kann der Projektkoordinator Validierungsverantwortliche und genehmigende Personen zuweisen und eine Abschlussfrist festlegen. Validierungsverantwortliche und genehmigende Personen werden 72 Stunden vor Fristablauf, 24 Stunden vor Fristablauf und anschließend innerhalb der Frist per E-Mail daran erinnert. Sie können auch mehrstufige Genehmigungen und parallele Pfade so konfigurieren, dass mehrere Überprüfungsspuren gleichzeitig ausgeführt werden.
 
   Weitere Informationen finden Sie unter [Erstellen eines Dokumentgenehmigungs-Workflows](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-from-the-summary-panel-in-the-new-document-area).
 
-* **Validierungsvorlagen**: Im Bereich &quot;Workfront Setup“ können Projektkoordinatoren wiederverwendbare Validierungsvorlagen erstellen. Innerhalb einer Vorlage können Benutzer Validierungsverantwortliche und genehmigende Personen hinzufügen und einen Fertigstellungszeitraum festlegen. Wenn die Validierungsvorlage auf ein Asset angewendet wird, wird die Frist aus dem angegebenen Zeitrahmen berechnet. <span class="preview">In der Vorschau unterstützen Genehmigungsvorlagen mehrstufige Validierungen und parallele Pfade, die den Konfigurationsoptionen bei Genehmigungen zur einmaligen Verwendung entsprechen.</span>
+* **Validierungsvorlagen**: Im Bereich &quot;Workfront Setup“ können Projektkoordinatoren wiederverwendbare Validierungsvorlagen erstellen. Innerhalb einer Vorlage können Benutzer Validierungsverantwortliche und genehmigende Personen hinzufügen und einen Fertigstellungszeitraum festlegen. Wenn die Validierungsvorlage auf ein Asset angewendet wird, wird die Frist aus dem angegebenen Zeitrahmen berechnet. Genehmigungsvorlagen unterstützen mehrstufige Validierungen und parallele Pfade, die mit den Konfigurationsoptionen übereinstimmen, die bei einmaligen Validierungen verfügbar sind.
 
   Nachdem eine Vorlage erstellt wurde, kann sie auf ein Asset angewendet werden, um den formellen Prüfungs- und Genehmigungsprozess in Workfront zu starten.
 

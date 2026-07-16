@@ -5,17 +5,15 @@ title: Adobe Workfront MCP-Server - Übersicht
 description: Erfahren Sie, was der Adobe Workfront MCP-Server tut und wie Sie damit in einer KI-Agentenplattform durch Gespräche in natürlicher Sprache mit Workfront arbeiten können.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 5592c1b93b5e44c732f92d626ed878d2c4647ceb
+source-git-commit: 5146c143611cead05def80e3279e03bee6224ba8
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
 
 
 # Adobe Workfront MCP-Server - Übersicht
-
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Der [!DNL Adobe Workfront] MCP-Server verbindet Ihre Workfront-Instanz mit einer KI-Agentenplattform wie [!DNL Claude] oder [!DNL ChatGPT]. Von der KI-Agentenplattform aus können Sie Workfront-Elemente suchen, erstellen, aktualisieren und verwalten, indem Sie Anfragen in natürlicher Sprache stellen.
 

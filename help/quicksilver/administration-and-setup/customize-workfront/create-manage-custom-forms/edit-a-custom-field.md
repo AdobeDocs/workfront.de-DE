@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Hinzufügen oder Bearbeiten eines benutzerdefinierten Felds, Abschnittsumbruchs oder Widgets
-description: Sie können die Eigenschaften eines benutzerdefinierten Felds, Abschnittsumbruchs oder Widgets bearbeiten, das in einem benutzerdefinierten Formular in Ihrer Adobe Workfront-Instanz verwendet wird. Dazu gehören die Beschriftung, der Name, die Anweisungen usw. des Elements.
+description: Sie können die Eigenschaften eines benutzerdefinierten Felds, Abschnittsumbruchs oder Widgets bearbeiten, das in einem benutzerdefinierten Formular in Ihrer Adobe Workfront-Instanz verwendet wird.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
 workflow-type: tm+mt
-source-wordcount: 409
-ht-degree: 22%
+source-wordcount: 365
+ht-degree: 25%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 22%
 
 Sie können ein neues benutzerdefiniertes Feld oder Widget direkt aus dem Bereich Felder in Workfront hinzufügen, ohne ein benutzerdefiniertes Formular zu öffnen, um das Feld zu erstellen.
 
-Sie können auch die Eigenschaften eines benutzerdefinierten Felds, Abschnittsumbruchs oder Widgets bearbeiten, das in benutzerdefinierten Formularen verwendet wird. Dazu gehören die Beschriftung, der Name, die Anweisungen usw. des Elements.
+Sie können auch die Eigenschaften eines benutzerdefinierten Felds, Abschnittsumbruchs oder Widgets bearbeiten, das in benutzerdefinierten Formularen verwendet wird. Dazu gehören die Beschriftung des Elements, der API-Name, Anweisungen usw.
 
 Wenn Sie ein benutzerdefiniertes Feld als inaktiv festlegen, wird es aus Berichten, Filtern und Ansichten ausgeschlossen, und das Feld ist nicht mehr in der Feldbibliothek für benutzerdefinierte Formulare verfügbar. Alle neuen Felder sind standardmäßig auf Aktiv gesetzt.
 

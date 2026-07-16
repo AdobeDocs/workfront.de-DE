@@ -3,7 +3,7 @@ title: Konfigurieren der Freigabe für benutzerdefinierte Felder und Widgets
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: Wenn Sie einem benutzerdefinierten Formular ein neues benutzerdefiniertes Feld oder Widget hinzufügen, kann standardmäßig jeder Benutzer im System, der Zugriff auf benutzerdefinierte Formulare hat, die Eigenschaften für dieses Element bearbeiten, z. B. seine Beschriftung und seinen Namen. Sie können dies ändern, indem Sie steuern, für wen es freigegeben werden kann.
+description: Wenn Sie einem benutzerdefinierten Formular ein neues benutzerdefiniertes Feld oder Widget hinzufügen, kann standardmäßig jeder im System, der Zugriff auf benutzerdefinierte Formulare hat, die Eigenschaften für dieses Element bearbeiten, z. B. seinen Titel und API-Namen. Sie können dies ändern, indem Sie steuern, für wen es freigegeben werden kann.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
@@ -19,16 +19,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
 workflow-type: tm+mt
-source-wordcount: 744
+source-wordcount: 746
 ht-degree: 5%
 
 ---
 
 # Konfigurieren der Freigabe für benutzerdefinierte Felder und Widgets
 
-Wenn Sie einem benutzerdefinierten Formular ein neues benutzerdefiniertes Feld oder Widget hinzufügen, kann standardmäßig jeder Benutzer im System, der Zugriff auf benutzerdefinierte Formulare hat, die Eigenschaften für dieses Element bearbeiten, z. B. seine Beschriftung und seinen Namen. Sie können dies ändern, indem Sie steuern, für wen es freigegeben werden kann.
+Wenn Sie einem benutzerdefinierten Formular ein neues benutzerdefiniertes Feld oder Widget hinzufügen, kann standardmäßig jeder im System, der Zugriff auf benutzerdefinierte Formulare hat, die Eigenschaften für dieses Element bearbeiten, z. B. seinen Titel und API-Namen. Sie können dies ändern, indem Sie steuern, für wen es freigegeben werden kann.
 
 Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 

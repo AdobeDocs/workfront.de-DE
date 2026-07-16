@@ -15,9 +15,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 90b8da58f534f9033b427f0ad09c15dba50c28c9
 workflow-type: tm+mt
-source-wordcount: 176
+source-wordcount: 177
 ht-degree: 27%
 
 ---
@@ -58,8 +58,10 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 {{step1-to-priorities}}
 
-1. Klicken Sie oben auf der Seite auf die Schaltfläche **Catch me up**.
+1. Klicken Sie oben auf der Seite auf die Schaltfläche **Aufholen**.
+
    ![Catch me up button](assets/catch-me-up-button.png)
+
 1. Wählen Sie den gewünschten Zeitrahmen aus:
    * **Fassen Sie die letzten 24 Stunden zusammen**
    * **Zusammenfassen der letzten 3 Tage**

@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: bd7ae926356225423e6f986bef0b216b2a04584c
+source-git-commit: 7a657f3e0e6ee302e30e8bc9a61b1a3b0bab5ae9
 workflow-type: tm+mt
 source-wordcount: 409
 ht-degree: 10%
@@ -83,7 +83,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    * Datei hinzufügen
    * Direkt zum Projekt wechseln
 
-   ![Projektdetails](assets/project-details-new.png)
+   ![Projektdetails](assets/project-details-060226.png)
 
 ### Aufgabendetails anzeigen
 
@@ -99,8 +99,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    * Datei hinzufügen
    * Schnellverknüpfungen hinzufügen
 
-
-   ![Aufgabendetails](assets/task-details-new.png)
+   ![Aufgabendetails](assets/task-details-060226.png)
 
 ### Anfragedetails anzeigen
 
@@ -117,7 +116,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
       * Datei hinzufügen
       * Schnellverknüpfungen hinzufügen
 
-   ![Problemdetails](assets/issue-details.png)
+   ![Problemdetails](assets/issue-details-060226.png)
 
 ## Details auf der Detailseite anzeigen
 

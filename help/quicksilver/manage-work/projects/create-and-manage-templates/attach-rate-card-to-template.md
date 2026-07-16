@@ -6,16 +6,14 @@ title: Tarifkarte an eine Vorlage anhängen
 description: Wenn Sie einer Vorlage eine Tarifkarte zuweisen, wird diese an alle aus der Vorlage erstellten Projekte angehängt.
 author: Lisa
 feature: Work Management
-source-git-commit: ab0a089ddf33cc4c5342b11a54ab3af40641a50d
+source-git-commit: ace9a01e852e6d99ddc6f150c0ac34bd4ef44817
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '644'
 ht-degree: 8%
 
 ---
 
 # Tarifkarte an eine Vorlage anhängen
-
-{{highlighted-preview-article-level}}
 
 Wenn Sie einer Vorlage eine Tarifkarte zuweisen, wird diese an alle aus der Vorlage erstellten Projekte angehängt. Die Tarifkarte wird zum Standard im Projekt, kann jedoch bei Bedarf überschrieben werden.
 

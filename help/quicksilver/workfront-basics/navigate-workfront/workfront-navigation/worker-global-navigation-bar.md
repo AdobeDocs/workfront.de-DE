@@ -21,16 +21,14 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
-source-wordcount: 481
+source-wordcount: 466
 ht-degree: 1%
 
 ---
 
 # Grundlegendes zur Navigation für einen [!UICONTROL Work]-License-Benutzer
-
-{{highlighted-preview}}
 
 Das [!UICONTROL Hauptmenü] ändert sich mit der Zugriffsebene, die Ihnen von Ihrem [!DNL Adobe Workfront] zugewiesen wurde. Standardmäßig erhalten Sie nur Zugriff auf Bereiche, die Funktionen enthalten, die von Ihrer Zugriffsebene zugelassen sind. Informationen zu den Komponenten des Standard-Layouts jeder Zugriffsebene finden Sie unter [Über das Standard [!DNL Adobe Workfront] Layout](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
@@ -68,11 +66,7 @@ Die folgenden Bereiche sind im Standard-Layout eines -[!UICONTROL &#x200B; entha
 
 * **[!UICONTROL Pinnwände]**: Arbeiten Sie flexibel und gemeinsam mit Ihren Team-Mitgliedern, indem Sie freigegebene Pinnwände verwenden, die Spalten und Karten enthalten, die die Arbeit widerspiegeln, die Sie erledigen möchten. Weitere Informationen finden Sie [Erste Schritte mit Pinnwänden: Artikelindex](../../../agile/get-started-with-boards/get-started-with-boards.md).
 
-<span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
 ![Hauptmenü des Sekundärs](assets/worker-main-menu-070626.png)
-
-Beispielbild in der Produktionsumgebung:
-![Hauptmenü des Sekundärs](assets/worker-main-menu-2026.png)
 
 ## Anpassen des Standardmenüs [!UICONTROL Hauptmenü]
 

@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
 workflow-type: tm+mt
-source-wordcount: 1359
+source-wordcount: 1477
 ht-degree: 5%
 
 ---
@@ -75,7 +75,7 @@ Dieses Beispiel zeigt, wie die Workfront-API aufgerufen und eine Liste von Proje
 
 1. Öffnen Sie das benutzerdefinierte Formular.
 1. Suchen Sie auf der linken Seite des Bildschirms nach **Externe Suche** und ziehen Sie sie in einen Abschnitt auf der Arbeitsfläche.
-1. Geben Sie die **Bezeichnung** und **Name** für das Feld ein.
+1. Geben Sie **(Bezeichnung** und **API-Name** für das Feld ein.
 1. Wählen Sie das **Format** für das Feld aus.
 1. Geben Sie den API-Aufruf in das Feld **Basis-API** URL ein.
 
@@ -120,7 +120,7 @@ In diesem Beispiel erfahren Sie, wie Sie die Workfront-API aufrufen und Daten au
 
 1. Öffnen Sie das benutzerdefinierte Formular.
 1. Suchen Sie auf der linken Seite des Bildschirms nach **Externe Suche** und ziehen Sie sie in einen Abschnitt auf der Arbeitsfläche.
-1. Geben Sie die **Bezeichnung** und **Name** für das Feld ein.
+1. Geben Sie **(Bezeichnung** und **API-Name** für das Feld ein.
 1. Wählen Sie das **Format** für das Feld aus.
 1. Geben Sie den API-URL-Aufruf in das Feld **Basis-API** URL ein.
 
@@ -171,7 +171,7 @@ Dieses Beispiel zeigt, wie Sie eine API von Ländern aufrufen (z. B. <https://ap
 
 1. Öffnen Sie das benutzerdefinierte Formular.
 1. Suchen Sie auf der linken Seite des Bildschirms nach **Externe Suche** und ziehen Sie sie in einen Abschnitt auf der Arbeitsfläche.
-1. Geben Sie die **Bezeichnung** und **Name** für das Feld ein.
+1. Geben Sie **(Bezeichnung** und **API-Name** für das Feld ein.
 1. Wählen Sie das **Format** für das Feld aus.
 1. Geben Sie den API-URL-Aufruf in das Feld **Basis-API** URL ein.
 

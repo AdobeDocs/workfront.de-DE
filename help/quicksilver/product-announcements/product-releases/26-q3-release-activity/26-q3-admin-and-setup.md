@@ -4,9 +4,9 @@ description: Verbesserungen für Administratoren im dritten Quartal 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f45c946e48b253018648c414915d53eca5a4de80
+source-git-commit: 46db578d2412d622818a599cfb27ec4ae73a5298
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1553'
 ht-degree: 5%
 
 ---
@@ -43,11 +43,43 @@ For more information, see [View and manage change history](/help/quicksilver/adm
 
 -->
 
+## Neue Felder vom Typ Lizenz für Zugriffsebenen
+
+>[!NOTE]
+>
+>Vorschau und Produktion für alle Kunden: 16. Juli 2026
+>
+>[!BADGE Aus Zeitplan]{type=Neutral}
+
+Wir haben die folgenden Feldänderungen im Feld Zugriffsebene vorgenommen:
+
+* Das Feld Lizenztyp im Feld Zugriffsebene wurde in Workflow-Lizenztyp umbenannt. Bei dieser Neubeschriftung gibt es keine Funktionsänderungen.\
+  Weitere Informationen finden [unter Erstellen und Ändern benutzerdefinierter Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+
+* Kunden, die auch ein Workfront Planning-Paket erworben haben, haben wir ein neues Feld für den Planning-Lizenztyp hinzugefügt, um die Benutzerlizenz für Workfront Planning zu veranschaulichen.
+Kunden, die eine gleiche Anzahl von Workflow- und Planning-Lizenzen erworben haben, verfügen über die folgenden Lizenztypen:
+
+   * Planungsstandard
+   * Planungsanbieter
+   * Keine
+
+  >[!NOTE]
+  >
+  >Es ist möglich, Benutzern eine gemischte Kombination von Lizenzen zwischen Workflow und Planning zuzuweisen. Der Planning-Lizenztyp darf jedoch nicht höher sein als der Workflow-Lizenztyp.
+  >
+  >Beispielsweise kann einem Benutzer, der am Workflow mitwirkt, keine Planning Standard-Lizenz zugewiesen werden. Benutzende mit einer Workflow-Light-Lizenz können jetzt eine Standardlizenz für Planning erhalten und so Arbeitsbereiche und deren Inhalte verwalten. Zuvor konnten sie nur Lesezugriff auf Planungsdaten haben.
+  >
+  >Neue Kunden können Planning- und Workflow-Lizenzen in verschiedenen Mengen erwerben und sie mit einer beliebigen Kombination verwenden. In diesem Szenario ist der Lizenztyp „Planning Contributor“ nicht verfügbar.
+  >
+  >Weitere Informationen finden Sie unter [Adobe Workfront Planning-Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).
+
 ## Internes Lookup-Feld, das den Typ Typeahead ersetzt
 
 >[!NOTE]
 >
->Vorschau: 7. Juli 2026Produktions-Schnellveröffentlichung: 15. Juli 2026Produktion für alle: 16. Juli 2026
+>Vorschau: 7. Juli 2026
+>Produktions-Schnellveröffentlichung: 15. Juli 2026
+>Produktion für alle: 16. Juli 2026
 
 Der neue Feldtyp **Interne Suche** in benutzerdefinierten Formularen bietet dynamische Filterung. Es ähnelt dem Feldtyp mit automatischer Textvervollständigung und ermöglicht es Benutzenden, vorhandene Workfront-Objekte zu suchen und auszuwählen, indem sie einen Teil des Namens eingeben. Der Filter für die interne Suche kann auf den Wert in einem anderen Feld im Formular verweisen, was mit Typeahead nicht möglich ist.
 
@@ -65,7 +97,9 @@ Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Form
 
 >[!NOTE]
 >
->Vorschau: 7. Juli 2026Produktions-Schnellveröffentlichung: 15. Juli 2026Produktion für alle: 16. Juli 2026
+>Vorschau: 7. Juli 2026
+>Produktions-Schnellveröffentlichung: 15. Juli 2026
+>Produktion für alle: 16. Juli 2026
 >
 >Diese Funktion ist nur für Organisationen mit den Workflow-Paketen Prime oder Ultimate verfügbar.
 
@@ -79,7 +113,9 @@ Weitere Informationen finden Sie unter [Hinzufügen von Standardwertlogik zu ein
 
 >[!NOTE]
 >
->Vorschau: 7. Juli 2026Produktions-Schnellveröffentlichung: 15. Juli 2026Produktion für alle: 16. Juli 2026
+>Vorschau: 7. Juli 2026
+>Produktions-Schnellveröffentlichung: 15. Juli 2026
+>Produktion für alle: 16. Juli 2026
 
 Systemfilter, die in nativen Feldern vorhanden sind, werden jetzt auf die Felder in benutzerdefinierten Formularen angewendet und sind für Administratoren sichtbar.
 
@@ -97,7 +133,9 @@ Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Form
 
 >[!NOTE]
 >
->Vorschau: 7. Juli 2026Produktions-Schnellveröffentlichung: 15. Juli 2026Produktion für alle: 16. Juli 2026
+>Vorschau: 7. Juli 2026
+>Produktions-Schnellveröffentlichung: 15. Juli 2026
+>Produktion für alle: 16. Juli 2026
 
 Zum Schutz von Integrationen und Datenintegrität haben wir aktualisiert, wie Feldnamen im Bedienfeld Feldeinstellungen eines benutzerdefinierten Formulars bearbeitet werden können.
 
@@ -109,7 +147,9 @@ Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Form
 
 >[!NOTE]
 >
->Vorschau: 11. Juni 2026Produktions-Schnellveröffentlichung: 11. Juni 2026Produktion für alle: 16. Juli 2026
+>Vorschau: 11. Juni 2026
+>Produktions-Schnellveröffentlichung: 11. Juni 2026
+>Produktion für alle: 16. Juli 2026
 
 Um Ihnen die Anzeige der in einer zentralen Liste aufgetretenen Änderungen zu erleichtern, haben wir die Liste „Änderungsverlauf“ erstellt. Diese Liste zeigt Informationen wie das Objekt, den Vorgang und die Quelle der Änderung (z. B. einen Benutzer oder das Workfront-System) an.
 
@@ -121,7 +161,9 @@ Weitere Informationen finden Sie unter [Anzeigen und Verwalten des &#x200B;](/he
 
 >[!NOTE]
 >
->Vorschau: 11. Juni 2026Produktion für alle: 11. Juni 2026Außerplanmäßig&rbrack;{type=Neutral}
+>Vorschau: 11. Juni 2026
+>Produktion für alle: 11. Juni 2026
+>[!BADGE Außerplanmäßig]{type=Neutral}
 
 Workfront-Administratoren können jetzt ältere Speicherportfolios direkt aus den Systemeinstellungen in Adobe Cloud-Speicher konvertieren. Um Portfolios zu konvertieren, wählen Sie sie im neuen Feld Portfolios zum Konvertieren in Unternehmensspeicher auswählen aus und speichern Sie die Seite.
 
@@ -140,7 +182,9 @@ Weitere Informationen finden Sie unter [Systemvoreinstellungen konfigurieren](/h
 
 >[!NOTE]
 >
->Vorschau: 28. Mai 2026Produktions-Schnellveröffentlichung: 11. Juni 2026Produktion für alle: 16. Juli 2026
+>Vorschau: 28. Mai 2026
+>Produktions-Schnellveröffentlichung: 11. Juni 2026
+>Produktion für alle: 16. Juli 2026
 
 Der neue **Rich-Text**-Feldtyp in benutzerdefinierten Formularen ist ein robuster Texteditor mit Formatierungsoptionen wie Hochgestellt und Tiefgestellt, Überschriften und Tabellen sowie den herkömmlichen Optionen Fett, Kursiv, Unterstrichen, Aufzählungszeichen, Nummerierung, Hyperlinks und Blockanführungszeichen. Die Zeichenbeschränkung bleibt bei 15.000.
 
@@ -156,7 +200,9 @@ Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Form
 
 >[!NOTE]
 >
->Vorschau: 28. Mai 2026Produktions-Schnellveröffentlichung: 11. Juni 2026Produktion für alle: 16. Juli 2026
+>Vorschau: 28. Mai 2026
+>Produktions-Schnellveröffentlichung: 11. Juni 2026
+>Produktion für alle: 16. Juli 2026
 
 Sie können jetzt native Finanzfelder von Workfront in benutzerdefinierte Formulare einbeziehen. Zuvor wurden die Finanzfelder nicht unterstützt.
 
@@ -168,7 +214,9 @@ Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Form
 
 >[!NOTE]
 >
->Vorschau: 28. Mai 2026Produktions-Schnellveröffentlichung: 11. Juni 2026Produktion für alle: 16. Juli 2026
+>Vorschau: 28. Mai 2026
+>Produktions-Schnellveröffentlichung: 11. Juni 2026
+>Produktion für alle: 16. Juli 2026
 
 Die neue Freigabeoption „Jeder im System kann anzeigen und anhängen“ wurde zu benutzerdefinierten Formularen hinzugefügt. Wenn Sie diese Option auswählen, können alle Benutzer systemweit das Formular an andere Objekte anhängen.
 
@@ -180,7 +228,9 @@ Weitere Informationen finden Sie unter [Freigeben eines benutzerdefinierten Form
 
 >[!NOTE]
 >
->Vorschau: 28. Mai 2026Produktions-Schnellveröffentlichung: 11. Juni 2026Produktion für alle: 16. Juli 2026
+>Vorschau: 28. Mai 2026
+>Produktions-Schnellveröffentlichung: 11. Juni 2026
+>Produktion für alle: 16. Juli 2026
 
 Derzeit werden bei der Massenbearbeitung von Objekten erforderliche Felder nur erzwungen, wenn ein Benutzer das Feld ändert. Wenn ein Feld nicht geändert wird, wird es als optional behandelt und nicht validiert.
 

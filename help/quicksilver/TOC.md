@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: cf5c324a5dd527d498b5ccc32e1eb81ab3ea638f
+source-git-commit: 5d8ac684791c11607947de1ea3d1309ee0dfcaab
 workflow-type: tm+mt
-source-wordcount: '14290'
+source-wordcount: '14340'
 ht-degree: 93%
 
 ---
@@ -2272,9 +2272,13 @@ ht-degree: 93%
       * [Erste Schritte mit der Integration von Adobe Workfront-Planung und Adobe GenStudio for Performance Marketing](planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
       * [Verwalten des GenStudio-Arbeitsbereichs in Adobe Workfront-Planung](planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
       * {hide-from-toc}[Workfront Planning Workspace auf GenStudio hochstufen](planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)
-   * Adobe Workfront-Planung Standalone {#planning-standalone}
-      * {hide-from-toc}[Adobe Workfront-Planung (eigenständig): Artikelindex](planning/planning-sta/planning-sta-article-index.md)
-      * {hide-from-toc}[Erste Schritte mit der eigenständigen Adobe Workfront-Planung](planning/planning-sta/get-started-with-planning-sta.md)
+   * Adobe Workfront Planning als eigenständiges Produkt {#planning-standalone}
+      * [Adobe Workfront Planning als eigenständiges Produkt: Artikelindex](planning/planning-sta/planning-sta-article-index.md)
+      * [Erste Schritte mit Adobe Workfront Planning als eigenständiges Produkt](planning/planning-sta/planning-sta-overview.md)
+      * [Zugriff für Adobe Workfront Planning als eigenständiges Produkt erforderlich](planning/planning-sta/access-needed-for-planning-sta.md)
+      * [Instanz von Adobe Workfront Planning als eigenständiges Produkt verwalten](planning/planning-sta/manage-planning-sta-instance.md)
+      * [Verwalten von Benutzern in Adobe Workfront Planning als eigenständiges Produkt](planning/planning-sta/manage-users-in-planning-sta.md)
+      * [Verwalten von Teams in Adobe Workfront Planning als eigenständiges Produkt](planning/planning-sta/manage-teams-in-planning-sta.md)
 * Adobe Workfront-Integrationen {#adobe-workfront-integrations}
    * [Adobe Workfront-Integrationen](workfront-integrations-and-apps/workfront-integrations.md)
    * [Überblick über native Adobe Workfront-Integrationen](workfront-integrations-and-apps/built-in-integrations-non-admin.md)

@@ -19,16 +19,14 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 3e77f50ee2297a9c552e27bfcdf7f08a6a4c89b5
 workflow-type: tm+mt
-source-wordcount: 373
-ht-degree: 26%
+source-wordcount: 371
+ht-degree: 24%
 
 ---
 
 # Erstellen eines Formulars aus einer Kopie
-
-<!--add preview tags and see below in comment out-->
 
 Sie können ein neues benutzerdefiniertes Formular entwerfen, das auf einem vorhandenen Formular basiert. Sie können benutzerdefinierte Formulare an verschiedene Workfront-Objekte anhängen, um Daten zu diesen Objekten zu erfassen.
 
@@ -99,7 +97,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    * [Hinzufügen von Textfeldern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-text-fields)
    * [Hinzufügen von berechneten Feldern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-calculated-fields)
    * [Hinzufügen von Optionsfeldern, Kontrollkästchen-Gruppen und Dropdown-Listen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkboxes-and-dropdowns)
-   * [Hinzufügen von Feldern für die automatische Vervollständigung und von Datumsfeldern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-typeahead-and-date-fields)
+   * [Datumsfelder hinzufügen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-date-fields)
    * [Hinzufügen von Bildern, PDFs und Videos](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-images-pdfs-and-videos)
    * [Hinzufügen von Adobe XD-Dateien](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-adobe-xd-files)
    * [Hinzufügen von Planung-Verbindungsfeldern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-planning-connection-fields)

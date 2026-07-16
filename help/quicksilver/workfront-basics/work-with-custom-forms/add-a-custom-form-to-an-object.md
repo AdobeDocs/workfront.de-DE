@@ -20,10 +20,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 747
-ht-degree: 10%
+source-wordcount: 770
+ht-degree: 11%
 
 ---
 
@@ -47,6 +47,13 @@ Sie können ein vorhandenes benutzerdefiniertes Formular zu jedem der unten aufg
 * Wiederholungen
 * Ausgaben
 * Abrechnungseinträge
+* Teams
+
+Wenn Sie sich im Workflow-Ultimate-Paket befinden, können Sie benutzerdefinierte Formulare an diese zusätzlichen Objekte anhängen:
+
+* Aufgabengebiete
+* Tarifkarten
+* Arbeitsaufträge
 
 Sie können ein benutzerdefiniertes Formular nur zu den Objekttypen hinzufügen, für die das Formular erstellt wurde.
 

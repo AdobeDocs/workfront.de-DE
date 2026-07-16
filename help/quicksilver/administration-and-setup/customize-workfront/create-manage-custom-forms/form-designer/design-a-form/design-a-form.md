@@ -24,18 +24,16 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 61d733a9808850e780bfd74dbf3dcfb9d9d86282
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 8296
-ht-degree: 86%
+source-wordcount: 7795
+ht-degree: 81%
 
 ---
 
 # Erstellen eines benutzerdefinierten Formulars
 
 <!-- Audited: 6/2025 -->
-
-{{preview-fast-release-general}}
 
 Sie können mit dem Formular-Designer in Adobe Workfront ein benutzerdefiniertes Formular entwerfen. Sie können benutzerdefinierte Formulare an verschiedene Workfront-Objekte anhängen, um Daten zu diesen Objekten zu erfassen.
 
@@ -77,7 +75,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 1. Klicken Sie auf **Neues benutzerdefiniertes Formular**.
 1. Wählen Sie aus, an welche Objekttypen Sie das benutzerdefinierte Formular anhängen möchten, und klicken Sie dann auf **Fortfahren**.
 
-   ![Objekttypen auswählen](assets/new-custom-form-select-objects-032526.png)
+   ![Objekttypen auswählen](assets/new-custom-form-select-objects-new-spectrum-icons.png)
 
    +++ Erweitern Sie , um die Liste der Objekte anzuzeigen, die benutzerdefinierte Formulare unterstützen.
 
@@ -119,7 +117,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    * [Hinzufügen von Textfeldern](#add-text-fields)
    * [Hinzufügen von berechneten Feldern](#add-calculated-fields)
    * [Hinzufügen von Optionsfeldern, Kontrollkästchengruppen und Dropdown-Listen](#add-radio-buttons-checkbox-groups-and-drop-downs)
-   * [Hinzufügen von Feldern für die automatische Vervollständigung und von Datumsfeldern](#add-typeahead-and-date-fields)
+   * [Datumsfelder hinzufügen](#add-date-fields)
    * [Hinzufügen von externen Suchfeldern](#add-external-lookup-fields)
    * [Hinzufügen von Bildern, PDFs und Videos](#add-images-pdfs-and-videos)
    * [Hinzufügen von nativen Workfront-Feldern](#add-workfront-native-fields)
@@ -163,7 +161,7 @@ Benutzerdefinierte Formulare sind auf 500 Felder beschränkt. Ein Zähler unten
   >
   >Verwenden Sie möglichst keine Sonderzeichen in diesem Label, da sie in Berichten nicht korrekt angezeigt werden.
 
-* Für jedes Feld ist ein API-Name erforderlich. Dieser Name wird vom System zur Identifizierung des benutzerdefinierten Feldes verwendet, wenn Sie es verschiedenen Bereichen in Workfront hinzufügen, z. B. Berichten, der Startseite und API-Interaktionen. Wenn Sie das Feld oder Widget zum ersten Mal konfigurieren und die Beschriftung eingeben, wird das Feld Name / <span class="preview">API-Name</span> automatisch ausgefüllt, damit es übereinstimmt. Die Felder Beschriftung und Name <span class="preview">API-Name</span> werden nicht synchronisiert. Dadurch haben Sie die Möglichkeit, das Label zu ändern, das die Benutzenden sehen, ohne den Namen ändern zu müssen, den das System sieht.
+* Für jedes Feld ist ein API-Name erforderlich. Dieser Name wird vom System zur Identifizierung des benutzerdefinierten Feldes verwendet, wenn Sie es verschiedenen Bereichen in Workfront hinzufügen, z. B. Berichten, der Startseite und API-Interaktionen. Wenn Sie das Feld oder Widget zum ersten Mal konfigurieren und die Bezeichnung eingeben, wird das Feld „API-Name“ automatisch ausgefüllt, damit es übereinstimmt. Die Felder Titel und API-Name sind nicht synchronisiert. Dadurch haben Sie die Möglichkeit, das Label zu ändern, das die Benutzenden sehen, ohne den Namen ändern zu müssen, den das System sieht.
 
 * Jeder benutzerdefinierte Feld-API-Name muss in der Workfront-Instanz Ihres Unternehmens eindeutig sein. Auf diese Weise können Sie einen bereits für ein anderes benutzerdefiniertes Formular erstellten Namen wiederverwenden.
 
@@ -171,7 +169,7 @@ Benutzerdefinierte Formulare sind auf 500 Felder beschränkt. Ein Zähler unten
 
   Wenn Sie beispielsweise ein benutzerdefiniertes Feld zu einem Bericht hinzufügen und später seinen API-Namen ändern, erkennt Workfront es im Bericht nicht und funktioniert dort nicht mehr ordnungsgemäß, es sei denn, Sie fügen es unter dem neuen Namen erneut zum Bericht hinzu.
 
-* <span class="preview">API-Namen sind standardmäßig schreibgeschützt. Damit der API-Name bearbeitet werden kann, klicken Sie auf das Symbol **Bearbeiten** neben dem **API-Namen**. Geben Sie **Bestätigen** in das Bestätigungsfeld ein und klicken Sie auf **Feld umbenennen**. </span>
+* API-Namen sind standardmäßig schreibgeschützt. Damit der API-Name bearbeitet werden kann, klicken Sie auf das Symbol **Bearbeiten** neben dem **API-Namen**. Geben Sie **Bestätigen** in das Bestätigungsfeld ein und klicken Sie auf **Feld umbenennen**.
 
 * Es wird empfohlen, keinen API-Namen einzugeben, der bereits für integrierte Workfront-Felder verwendet wird.
 
@@ -199,19 +197,21 @@ Sie können einem benutzerdefinierten Formular mehrere unterschiedliche Textfeld
 
 * **Textfeld mit einzelner Zeile**: Ermöglicht es Benutzenden, eine einzelne Textzeile in das Feld einzugeben.
 * **Feld „Absatz“**: Ermöglicht es Benutzenden, mehrere Textzeilen in das Feld einzugeben.
-* <span class="preview">**Rich-Text**: Ermöglicht Benutzern, mehrere Textzeilen in das Feld einzugeben und den Text mit fett, kursiv, unterstrichen, Aufzählungszeichen, Nummerierung, Tiefgestellt und hochgestellt, Hyperlinks, Blockanführungszeichen, Überschriften und Tabellen zu formatieren. Eine Zeichenbeschränkung von 15.000 bietet viel Platz für Text und Formatierung.</span>
-
-  <span class="preview">Der Rich-Text-Feldtyp ersetzt den Text durch den Feldtyp Formatierung . Sie können vorhandenen Text mit Formatierungsfeldern schnell in Rich-Text konvertieren, indem Sie auf die Schaltfläche **In Rich-Text konvertieren** in den Feldoptionen auf der rechten Seite klicken.</span>
-
-* **Textfeld mit Formatierung**: Ermöglicht es Benutzenden, mehrere Textzeilen in das Feld einzugeben und den Text mit Fettschrift, Kursivschrift, Unterstreichung, Aufzählungszeichen, Nummerierungen, Hyperlinks und Blockzitaten zu formatieren. Eine Beschränkung auf 15.000 Zeichen ermöglicht viel Text und Formatierungen.
-
-  Dieser benutzerdefinierte Feldtyp wird in Filtern in Listen und Berichten nicht unterstützt.
-
-  Informationen zum Zugriff auf dieses Feld über die API finden Sie unter [Speicherung von Rich-Text-Feldern in der API](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).
+* **Rich-Text**: Ermöglicht Benutzern, mehrere Textzeilen in das Feld einzugeben und den Text mit fett, kursiv, unterstrichen, Aufzählungszeichen, Nummerierung, Tiefgestellt und hochgestellt, Hyperlinks, Blockanführungszeichen, Überschriften und Tabellen zu formatieren. Eine Zeichenbeschränkung von 15.000 bietet viel Platz für Text und Formatierung.
 
   >[!NOTE]
   >
-  >Textfelder mit Formatierung sind für Workfront-Apps nicht verfügbar (in kommenden Versionen verfügbar).
+  >Der Rich-Text-Feldtyp ersetzt den Text durch den Feldtyp Formatierung . Sie können vorhandenen Text mit Formatierungsfeldern schnell in Rich-Text konvertieren, indem Sie auf die Schaltfläche **In Rich-Text konvertieren** in den Feldoptionen rechts klicken.
+
+<!--
+
+* **Text field with formatting**: Allows users to type multiple lines of text in the field and format the text with bold, italics, underline, bullets, numbering, hyperlinks, and block quotes. A character limit of 15,000 allows for plenty of text and formatting.
+
+    This custom field type is not supported in filters on lists and reports.
+
+    For information about accessing this field through the API, see [Rich text field storage in the API](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).
+
+-->
 
 * **Beschreibender Text**: Ermöglicht das Einfügen von Anweisungen und Links zu Seiten außerhalb von Workfront.
 
@@ -223,9 +223,9 @@ So fügen Sie ein Textfeld hinzu:
 
    * Einzeiliger Text
    * Absatz
-   * <span class="preview">Rich-Text</span>
-   * Text mit Formatierung
+   * Rich Text
    * Beschreibender Text
+     <!--Text with formatting-->
 
    ![Feld in Abschnitt ziehen](assets/drag-field-to-section.png)
 
@@ -244,8 +244,7 @@ So fügen Sie ein Textfeld hinzu:
     <td><ul>
     <li>Einzeiliger Text</li>
     <li>Absatz</li>
-    <li><span class="preview">Rich Text</span></li>
-    <li>Text mit Formatierung</li>
+    <li>Rich Text</li>
     <li>Beschreibender Text</li>
     </ul></td>
     </tr>
@@ -256,31 +255,30 @@ So fügen Sie ein Textfeld hinzu:
     <td><ul>
     <li>Einzeiliger Text</li>
     <li>Absatz</li>
-    <li><span class="preview">Rich Text</span></li>
-    <li>Text mit Formatierung</li>
+    <li>Rich Text</li>
     </ul></td>
     </tr>
     <tr>
-     <td>Name</td>
-    <td><p>(Erforderlich) Über diesen Namen wird das Feld vom System identifiziert. Wenn Sie das Widget zum ersten Mal konfigurieren und das Label eingeben, wird dieses automatisch in das Feld „Name“ übernommen. Die Felder „Label“ und „Name“ werden nicht synchronisiert. Dadurch haben Sie die Möglichkeit, das Label zu ändern, das die Benutzenden sehen, ohne den Namen ändern zu müssen, den das System sieht.</p>
+     <td>API-Name</td>
+    <td><p>(Erforderlich) Über diesen Namen wird das Feld vom System identifiziert. Wenn Sie das Widget zum ersten Mal konfigurieren und die Beschriftung eingeben, wird das Feld API-Name automatisch ausgefüllt, damit es übereinstimmt. Die Felder Titel und API-Name sind nicht synchronisiert. Dadurch haben Sie die Möglichkeit, das Label zu ändern, das die Benutzenden sehen, ohne den Namen ändern zu müssen, den das System sieht.</p>
     <p>Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -Labels</a>.</p>
     </td>
     <td><ul>
     <li>Einzeiliger Text</li>
     <li>Absatz</li>
-    <li><span class="preview">Rich Text</span></li>
-    <li>Text mit Formatierung</li>
+    <li>Rich Text</li>
     <li>Beschreibender Text</li>
     </ul></td>
     </tr>
     <tr>
     <td>Anweisungen</td>
-    <td>Geben Sie zusätzliche Informationen zum Feld ein. Wenn Benutzende das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.</td>
+    <td>Geben Sie zusätzliche Informationen zum Feld ein. Wenn Benutzende das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.
+    <img src="assets/instructions-form-designer.png">
+    </td>
     <td><ul>
     <li>Einzeiliger Text</li>
     <li>Absatz</li>
-    <li><span class="preview">Rich Text</span></li>
-    <li>Text mit Formatierung</li>
+    <li>Rich Text</li>
     </ul></td>
     </tr>
     <tr>
@@ -331,8 +329,7 @@ So fügen Sie ein Textfeld hinzu:
      <td><ul>
      <li>Einzeiliger Text</li>
      <li>Absatz</li>
-     <li><span class="preview">Rich Text</span></li>
-     <li>Text mit Formatierung</li>
+     <li>Rich Text</li>
      <li>Beschreibender Text</li></ul></td>
     </tr>
     <tr> 
@@ -341,8 +338,7 @@ So fügen Sie ein Textfeld hinzu:
     <td><ul>
     <li>Einzeiliger Text</li>
     <li>Absatz</li>
-    <li><span class="preview">Rich Text</span></li>
-    <li>Text mit Formatierung</li>
+    <li>Rich Text</li>
     </ul></td> 
     </tr> 
    </table>
@@ -415,8 +411,8 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
     </ul></td>
      </tr> 
      <tr> 
-    <td role="rowheader">Name</td> 
-     <td> <p>(Erforderlich) Über diesen Namen wird das Feld vom System identifiziert. Wenn Sie das Widget zum ersten Mal konfigurieren und das Label eingeben, wird dieses automatisch in das Feld „Name“ übernommen. Die Felder „Label“ und „Name“ werden nicht synchronisiert. Dadurch haben Sie die Möglichkeit, das Label zu ändern, das die Benutzenden sehen, ohne den Namen ändern zu müssen, den das System sieht.</p> 
+    <td role="rowheader">API-Name</td> 
+     <td> <p>(Erforderlich) Über diesen Namen wird das Feld vom System identifiziert. Wenn Sie das Widget zum ersten Mal konfigurieren und die Beschriftung eingeben, wird das Feld API-Name automatisch ausgefüllt, damit es übereinstimmt. Die Felder Titel und API-Name sind nicht synchronisiert. Dadurch haben Sie die Möglichkeit, das Label zu ändern, das die Benutzenden sehen, ohne den Namen ändern zu müssen, den das System sieht.</p> 
     <p>Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -Labels</a>.</p> </td>
      <td><ul>
     <li>Optionsfelder</li>
@@ -540,103 +536,105 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
 
    Klicken Sie auf **Speichern und schließen**.
 
-### Hinzufügen von Feldern für die automatische Vervollständigung und von Datumsfeldern
+<!--
 
-Sie können einem benutzerdefinierten Formular Felder für die automatische Vervollständigung und Datumsfelder hinzufügen.
+### Add typeahead and date fields
 
-+++ Erweitern, um Beschreibungen der verfügbaren Felder anzuzeigen
+ You can add typeahead and date fields to a custom form.
 
-* **Typeahead**: Ermöglicht es Benutzenden, den Namen eines Objekts einzugeben, das in Workfront vorhanden ist. Eine Liste mit Vorschlägen wird angezeigt, wenn Benutzende mit der Eingabe beginnen. Dieser Feldtyp unterstützt die folgenden Objekte:
-   * Benutzerin oder Benutzer
-   * Gruppe
-   * Aufgabengebiet
-   * Portfolio
-   * Programm
-   * Projekt
-   * Team
-   * Vorlage
-   * Firma
-* **Datum**: Zeigt einen Kalender an, in dem Benutzende ein Datum und eine Uhrzeit auswählen können.
++++ Expand to see descriptions of available fields.
+
+* **Typeahead**: Allows users to type the name of an object that exists in Workfront. A list of suggestions appears when the user starts typing. This field type supports the following objects:
+    * User
+    * Group
+    * Job Role
+    * Portfolio
+    * Program
+    * Project
+    * Team
+    * Template
+    * Company
+* **Date**: Displays a calendar where users can select a date and time.
 
 +++
 
-So fügen Sie Felder für die automatische Vervollständigung und Datumsfelder hinzu:
+To add typeahead and date fields:
 
-1. Suchen Sie auf der Registerkarte **Neues Feld** links auf dem Bildschirm nach einem der folgenden Felder und ziehen Sie es in einen Abschnitt der Arbeitsfläche.
+1. In the **New field** tab on the left side of the screen, find one of the following fields and drag it to a section on the canvas.
 
-   * Typeahead
-   * Datum
+    * Typeahead
+    * Date
 
-   ![Feld in Abschnitt ziehen](assets/drag-field-to-section.png)
+    ![Drag field to section](assets/drag-field-to-section.png)
 
-1. Konfigurieren Sie auf der rechten Seite des Bildschirms die Optionen, die für den Typ des benutzerdefinierten Feldes verfügbar sind, das Sie hinzufügen:
+1. On the right side of the screen, configure the options that are available for the type of custom field you are adding:
 
-   <table style="table-layout:auto"> 
+    <table style="table-layout:auto"> 
     <tbody> 
      <tr>
-    <td>Feldeinstellung</td>
-    <td>Beschreibung</td>
-    <td>Verfügbar für </td>
+    <td>Field setting</td>
+    <td>Description</td>
+    <td>Available for </td>
     </tr>
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Erforderlich) Geben Sie ein beschreibendes Label ein, das über dem benutzerdefinierten Feld angezeigt werden soll. Sie können dieses Label jederzeit ändern.</p> <p><b>Wichtig</b>: Verwenden Sie in diesem Label keine Sonderzeichen, da diese in Berichten nicht korrekt angezeigt werden. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -Labels</a>.</p> </td> 
+      <td> <p>(Required) Type a descriptive label to display above the custom field. You can change the label at any time.</p> <p><b>Important</b>: Avoid using special characters in this label as they don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
        <td><ul>
     <li>Typeahead</li>
-    <li>Datum</li>
+    <li>Date</li>
     </ul></td>
      </tr> 
      <tr> 
       <td role="rowheader">Name</td> 
-      <td> <p>(Erforderlich) Über diesen Namen wird das Feld vom System identifiziert. Wenn Sie das Widget zum ersten Mal konfigurieren und das Label eingeben, wird dieses automatisch in das Feld „Name“ übernommen. Die Felder „Label“ und „Name“ werden nicht synchronisiert. Dadurch haben Sie die Möglichkeit, das Label zu ändern, das die Benutzenden sehen, ohne den Namen ändern zu müssen, den das System sieht.</p> 
-      <p>Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -Labels</a>.</p> </td>
+      <td> <p>(Required) This name is how the system identifies the field. When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. The Label and Name fields are not synchronized. This gives you the option to change the label that your users see without having to change the name that the system sees.</p> 
+      <p>For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td>
     <td><ul>
     <li>Typeahead</li>
-    <li>Datum</li>
+    <li>Date</li>
     </ul></td>
      </tr> 
      <tr> 
-      <td role="rowheader">Anweisungen</td> 
-      <td> <p>Geben Sie zusätzliche Informationen zum benutzerdefinierten Feld ein. Wenn Benutzende das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.</p> 
+      <td role="rowheader">Instructions</td> 
+      <td> <p>Type any additional information about the custom field. When users fill out the custom form, they can hover over the question mark icon to view a tooltip containing the information you type here.</p> 
       <p> <img src="assets/instructions-form-designer.png"> </p>
       </td> 
          <td><ul>
     <li>Typeahead</li>
-    <li>Datum</li>
+    <li>Date</li>
     </ul></td>
      </tr> 
      <tr> 
-      <td role="rowheader">Tageszeit anzeigen</td> 
-      <td>Wählen Sie diese Option aus, wenn Sie die Tageszeit zusammen mit dem Datum im Feld anzeigen möchten.</td> 
+      <td role="rowheader">Display Time of Day</td> 
+      <td>Select this option if you want to show the time of day along with the date in the field.</td> 
          <td><ul>
-    <li>Datum</li>
+    <li>Date</li>
     </ul></td>
      </tr> 
      <tr> 
-      <td role="rowheader">Referenzierter Objekttyp</td> 
-      <td> <p>Wählen Sie den Objekttyp aus, den Sie mit dem Feld verknüpfen möchten.</p> <p>Nachdem Sie auf <b>Anwenden</b> oder <b>Speichern und schließen</b> geklickt haben, können Sie den Objekttyp für das Feld nicht mehr ändern.</p> <p><b>Hinweis</b>:   
+      <td role="rowheader">Referenced Object Type</td> 
+      <td> <p>Select the object type that you want to associate with the field.</p> <p>Once you have clicked <b>Apply</b> or <b>Save and Close</b>, you can't change the object type for the field.</p> <p><b>Note</b>:   
         <ul> 
-         <li>Wenn die bzw. der Workfront-Admin den Namen für Portfolios, Programme oder Projekte in der Workfront-Benutzeroberfläche angepasst hat, wird in dieser Dropdown-Liste der standardmäßige Workfront-Name für das Objekt angezeigt, nicht der benutzerdefinierte Name. Wenden Sie sich an den bzw. die Workfront-Admin, wenn Sie Hilfe benötigen.<br></li> 
-         <li>Die folgenden Objekttypen werden in Workfront-Apps für iOS und Android unterstützt: „Benutzerin oder Benutzer“, „Firma“, „Gruppe“, „Aufgabengebiet“, „Portfolio“, „Programm“, „Projekt“ und „Vorlage“.</li> 
+         <li>If your Workfront administrator customized the name for Portfolios, Programs, or Projects in the Workfront user interface, the default Workfront name for the object appears in this drop-down list, not the customized name. See your Workfront administrator if you need help with this.<br></li> 
+         <li>The following object types are supported in the iOS and Android Workfront Mobile Apps: User, Company, Group, Job Role, Portfolio, Program, Project, and Template.</li> 
         </ul> </p> </td> 
          <td><ul>
     <li>Typeahead</li>
     </ul></td>
      </tr>
      <tr>
-      <td role="rowheader">Filter hinzufügen</td>
-      <td><p>Fügen Sie einen Filter für einen Objekttyp hinzu, um die Objekte zu begrenzen, die Benutzende auswählen können, wenn sie das Feld verwenden. </p> <p>Sie können beispielsweise ein Feld so beschränken, dass Benutzernamen nur ausgewählt werden können, wenn sie die folgenden Kriterien erfüllen:</p> 
+      <td role="rowheader">Add Filter</td>
+      <td><p>Add a filter for an object type to limit the objects users can choose when they are using the field. </p> <p>For example, you could limit a field so that usernames can be selected only if they meet the following criteria:</p> 
        <ul> 
-        <li>Sie gehören zu einer oder mehreren Gruppen, die Sie angeben.</li> 
-        <li>Sie sind mit einer von Ihnen angegebenen Rolle oder einem von Ihnen angegebenen Aufgabengebiet verknüpft.</li> 
-        <li>Sie gehören zur selben Gruppe wie die Person, die das Feld verwendet.</li> 
+        <li>They belong to a group or groups that you specify.</li> 
+        <li>They are associated with a role or job title you specify.</li> 
+        <li>They belong to the same group as the person using the field.</li> 
        </ul>
-       <p>Sie müssen den Filter für den ausgewählten Objekttyp mithilfe der Textmodus-Syntax definieren. Weitere Informationen zum Erstellen eines Filters im Textmodus finden Sie unter <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Bearbeiten eines Filters im Textmodus</a>.</p>
-       <p><b>Tipp:</b> Sie können einen Bericht erstellen, um Ihren Filter zu testen, bevor Sie den Filter direkt zum Feld mit automatischer Vervollständigung (Typeahead) hinzufügen. Auf diese Weise können Sie überprüfen, ob der Filter die richtigen Objekte zurückgibt. Anschließend können Sie im Bericht in den Textmodus wechseln, die Textmodusanweisung kopieren und zum Typeahead-Filter hinzufügen.</p>
-       <p><b>Hinweis</b>:
+       <p>You must define the filter for the object type you selected using Text Mode syntax. For information about creating a filter using Text Mode, see <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Edit a filter using text mode</a>.</p>
+       <p><b>Tip:</b> You can create a report to test your filter before adding the filter directly to the typeahead field. This will help you verify that the filter returns the correct objects. Then you can switch to text mode in the report, copy the text mode statement, and add it to the typeahead filter.</p>
+       <p><b>Note</b>:
        <ul> 
-        <li>Wenn Sie ein vorhandenes benutzerdefiniertes Formular bearbeiten, werden beim Hinzufügen eines Filters zu einem Feld mit automatischer Vervollständigung keine Objekte entfernt (außerhalb des Bereichs des Filters), die Benutzende bereits mithilfe des Feldes hinzugefügt haben.</li> 
-        <li>Dieser Filter ist auf Mobilgeräten nicht verfügbar. Wenn Sie den Filter für ein Feld mit automatischer Vervollständigung verwenden, wird das Feld auf den Mobilgeräten der Benutzenden angezeigt, ohne dass der Filter verfügbar ist.</li> 
+        <li>If you are editing an existing custom form, adding a filter to a typeahead field does not remove any objects (outside the scope of the filter) that users have already added using the field.</li> 
+        <li>This filter is not available on mobile devices. If you use the filter for a typeahead field, the field will appear on users' mobile devices unaffected by the filter.</li> 
         </ul></p>
       </td>  
       <td>
@@ -646,19 +644,78 @@ So fügen Sie Felder für die automatische Vervollständigung und Datumsfelder h
       </td>
      </tr>
      <tr>
-      <td>Aktiv</td>
-      <td><p>Diese Option ist standardmäßig aktiviert.<p><p>Wenn Sie ein Feld als inaktiv festlegen, wird es aus Berichten, Filtern und Ansichten ausgeschlossen und ist nicht mehr in der Feldbibliothek für benutzerdefinierte Formulare verfügbar.</p></td>
+      <td>Active</td>
+      <td><p>This option is turned on by default.<p><p>When you set a field as Inactive, it is excluded from reports, filters, and views, and is no longer available in the custom forms field library.</p></td>
       <td><ul>
       <li>Typeahead</li>
-      <li>Datum</li></ul></td>
+      <li>Date</li></ul></td>
      </tr>
      <tr> 
-      <td role="rowheader">Zu einem Pflichtfeld machen</td> 
-      <td>Wählen Sie diese Option aus, wenn das Feld erforderlich sein soll, damit Benutzende das benutzerdefinierte Formular ausfüllen können. </td> 
+      <td role="rowheader">Make a required field</td> 
+      <td>Select this option if you want the field to be required in order for the user to complete the custom form. </td> 
        <td><ul>
     <li>Typeahead</li>
-    <li>Datum</li>
+    <li>Date</li>
     </ul></td>
+     </tr> 
+    </tbody> 
+   </table>
+
+1. (Optional) Repeat the previous step to add any other fields or widgets. 
+
+    Or
+
+    To copy a field, hover over a field, and click the copy icon.
+
+    ![copy icon](assets/copy-field.png)
+
+1. To save your changes, click **Apply** and move on to another section to continue building your form.
+
+    Or
+
+    Click **Save and Close**.
+
+-->
+
+### Datumsfelder hinzufügen
+
+Ein Datumsfeld zeigt einen Kalender an, in dem Benutzer ein Datum und eine Uhrzeit auswählen können.
+
+Hinzufügen von Datumsfeldern:
+
+1. Suchen Sie auf der **&#x200B;**&#x200B;Neues Feld auf der linken Bildschirmseite nach **Datum** und ziehen Sie es in einen Bereich auf der Arbeitsfläche.
+
+   ![Feld in Abschnitt ziehen](assets/drag-field-to-section.png)
+
+1. Konfigurieren Sie auf der rechten Seite des Bildschirms die Optionen für das benutzerdefinierte Feld:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Label</td> 
+      <td> <p>(Erforderlich) Geben Sie ein beschreibendes Label ein, das über dem Widget angezeigt werden soll. Sie können dieses Label jederzeit ändern.</p> <p><b>Wichtig</b>: Verwenden Sie in diesem Label keine Sonderzeichen, da diese in Berichten nicht korrekt angezeigt werden. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -Labels</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">API-Name</td> 
+      <td> <p>(Erforderlich) Über diesen Namen wird das Feld vom System identifiziert. Wenn Sie das Widget zum ersten Mal konfigurieren und die Beschriftung eingeben, wird das Feld API-Name automatisch ausgefüllt, damit es übereinstimmt. Die Felder Titel und API-Name sind nicht synchronisiert. Dadurch haben Sie die Möglichkeit, das Label zu ändern, das die Benutzenden sehen, ohne den Namen ändern zu müssen, den das System sieht.</p> <p>Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -Labels</a>.</p> </td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Anweisungen</td> 
+      <td> <p>Geben Sie zusätzliche Informationen zum benutzerdefinierten Feld ein. Wenn Benutzende das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.</p> </td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Tageszeit anzeigen</td>
+      <td><p>Wählen Sie diese Option aus, wenn Sie die Tageszeit zusammen mit dem Datum im Feld anzeigen möchten.</p></td>
+     </tr> 
+     <tr>
+      <td>Aktiv</td>
+      <td><p>Diese Option ist standardmäßig aktiviert.<p><p>Wenn Sie ein Feld als inaktiv festlegen, wird es aus Berichten, Filtern und Ansichten ausgeschlossen und ist nicht mehr in der Feldbibliothek für benutzerdefinierte Formulare verfügbar.</p></td>
+     </tr>
+     <tr> 
+      <td role="rowheader">Zu einem Pflichtfeld machen</td>
+      <td><p>Wählen Sie diese Option aus, wenn das Feld erforderlich sein soll, damit Benutzende das benutzerdefinierte Formular ausfüllen können.</p></td>
      </tr> 
     </tbody> 
    </table>
@@ -701,8 +758,8 @@ So fügen Sie eine externe Suche hinzu:
       <td> <p>(Erforderlich) Geben Sie ein beschreibendes Label ein, das über dem benutzerdefinierten Feld angezeigt werden soll. Sie können dieses Label jederzeit ändern.</p> <p><b>Wichtig</b>: Verwenden Sie in diesem Label keine Sonderzeichen, da diese in Berichten nicht korrekt angezeigt werden. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -Labels</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Name</td> 
-      <td> <p>(Erforderlich) Über diesen Namen wird das Feld vom System identifiziert. Wenn Sie das Feld zum ersten Mal konfigurieren und das Label eingeben, wird dieser automatisch in das Feld „Name“ übernommen. Die Felder „Label“ und „Name“ werden jedoch nicht synchronisiert. Dadurch haben Sie die Möglichkeit, das Label zu ändern, das den Benutzenden angezeigt wird, ohne den Namen ändern zu müssen, den das System sieht.</p>
+      <td role="rowheader">API-Name</td> 
+      <td> <p>(Erforderlich) Über diesen Namen wird das Feld vom System identifiziert. Wenn Sie das Feld zum ersten Mal konfigurieren und die Bezeichnung eingeben, wird das Feld API-Name automatisch entsprechend ausgefüllt. Die Felder Beschriftung und API-Name sind jedoch nicht synchronisiert. Dadurch haben Sie die Möglichkeit, die Beschriftung zu ändern, die Ihre Benutzerinnen und Benutzer sehen, ohne den Namen ändern zu müssen, den das System sieht.</p>
       <p>Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -Labels</a>.</p> </td>
      </tr> 
       <td role="rowheader">Anweisungen</td> 
@@ -748,14 +805,15 @@ So fügen Sie eine externe Suche hinzu:
      </tr>
      <tr> 
       <td role="rowheader">JSON-Pfad</td>
-      <td><p>Geben Sie den JSON-Pfad für die API ein oder fügen Sie ihn ein.</p> <p>Diese Option ermöglicht das Extrahieren von Daten aus der von der API-URL zurückgegebenen JSON. Damit können Sie auswählen, welche Werte aus dem JSON-Code in den Dropdown-Optionen angezeigt werden sollen.</p><p>Wenn Ihre API-URL beispielsweise JSON im folgenden Format zurückgibt, können Sie "$.data[*].name“ verwenden, um USA und Kanada als Dropdown-Optionen auszuwählen:
+      <td><p>Geben Sie den JSON-Pfad für die API ein oder fügen Sie ihn ein.</p> <p>Diese Option ermöglicht das Extrahieren von Daten aus der von der API-URL zurückgegebenen JSON. Damit können Sie auswählen, welche Werte aus dem JSON-Code in den Dropdown-Optionen angezeigt werden sollen.</p><p>Wenn Ihre API-URL beispielsweise JSON im folgenden Format zurückgibt, können Sie "$.data[*].name“ verwenden, um USA und Kanada als Dropdown-Optionen auszuwählen:</br>
       <pre>
       &lbrace;
        Daten: &lbrace;
          { name: „USA“},
          { name: „Canada“}
        &rbrace;
-      &rbrace;</pre>
+      &rbrace;
+      </pre>
       </p>
      <p>Weitere Informationen zum JSON-Pfad und um sicherzustellen, dass Sie den richtigen Pfad angeben, finden Sie unter <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
      </tr>
@@ -794,7 +852,7 @@ So fügen Sie eine externe Suche hinzu:
 >* Wartezeit zwischen weiteren Zustellversuchen: 500 ms
 >* Erwartete Antwortstatus: 2xx
 
-<div class="preview">
+
 
 ### Hinzufügen interner Suchfelder
 
@@ -828,8 +886,8 @@ Hinzufügen einer internen Suche:
       <td> <p>(Erforderlich) Geben Sie ein beschreibendes Label ein, das über dem benutzerdefinierten Feld angezeigt werden soll. Sie können dieses Label jederzeit ändern.</p> <p><b>Wichtig</b>: Verwenden Sie in diesem Label keine Sonderzeichen, da diese in Berichten nicht korrekt angezeigt werden. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -Labels</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Name</td> 
-      <td> <p>(Erforderlich) Über diesen Namen wird das Feld vom System identifiziert. Wenn Sie das Feld zum ersten Mal konfigurieren und das Label eingeben, wird dieser automatisch in das Feld „Name“ übernommen. Die Felder „Label“ und „Name“ werden jedoch nicht synchronisiert. Dadurch haben Sie die Möglichkeit, das Label zu ändern, das den Benutzenden angezeigt wird, ohne den Namen ändern zu müssen, den das System sieht.</p>
+      <td role="rowheader">API-Name</td> 
+      <td> <p>(Erforderlich) Über diesen Namen wird das Feld vom System identifiziert. Wenn Sie das Feld zum ersten Mal konfigurieren und die Bezeichnung eingeben, wird das Feld API-Name automatisch entsprechend ausgefüllt. Die Felder Beschriftung und API-Name sind jedoch nicht synchronisiert. Dadurch haben Sie die Möglichkeit, die Beschriftung zu ändern, die Ihre Benutzerinnen und Benutzer sehen, ohne den Namen ändern zu müssen, den das System sieht.</p>
       <p>Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -Labels</a>.</p> </td>
      </tr> 
       <td role="rowheader">Anweisungen</td> 
@@ -881,8 +939,6 @@ Hinzufügen einer internen Suche:
 
    Klicken Sie auf **Speichern und schließen**.
 
-</div>
-
 ### Hinzufügen von Bildern, PDFs und Videos
 
 Sie können einem benutzerdefinierten Formular Bilder, PDFs und Videos hinzufügen. Benutzende, die mit dem Objekt arbeiten, an das das benutzerdefinierte Formular angehängt ist, können das Bild, die PDF oder das Video nur in den folgenden Bereichen sehen:
@@ -932,8 +988,8 @@ So fügen Sie Bilder, PDFs oder Videos hinzu:
       <td> <p>(Erforderlich) Geben Sie ein beschreibendes Label ein, das über dem Widget angezeigt werden soll. Sie können dieses Label jederzeit ändern.</p> <p><b>Wichtig</b>: Verwenden Sie in diesem Label keine Sonderzeichen, da diese in Berichten nicht korrekt angezeigt werden. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -Labels</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Name</td> 
-      <td> <p>(Erforderlich) Über diesen Namen identifiziert das System das Widget. Wenn Sie das Widget zum ersten Mal konfigurieren und das Label eingeben, wird dieses automatisch in das Feld „Name“ übernommen. Die Felder „Label“ und „Name“ werden nicht synchronisiert. Dadurch haben Sie die Möglichkeit, das Label zu ändern, das die Benutzenden sehen, ohne den Namen ändern zu müssen, den das System sieht.</p> <p>Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -Labels</a>.</p> </td> 
+      <td role="rowheader">API-Name</td> 
+      <td> <p>(Erforderlich) Über diesen Namen identifiziert das System das Widget. Wenn Sie das Widget zum ersten Mal konfigurieren und die Beschriftung eingeben, wird das Feld API-Name automatisch ausgefüllt, damit es übereinstimmt. Die Felder Titel und API-Name sind nicht synchronisiert. Dadurch haben Sie die Möglichkeit, das Label zu ändern, das die Benutzenden sehen, ohne den Namen ändern zu müssen, den das System sieht.</p> <p>Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -Labels</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -1002,32 +1058,32 @@ In dieser Tabelle sind die verfügbaren nativen Felder für bestimmte Workfront-
 
 | Feldname | Projekt | Aufgabe | Problem | Vorlage | Vorlagenaufgabe | Portfolio | Programm | Gruppe |
 |--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
-| <span class="preview"> tatsächliche </span> | <span class="preview">✓ </span> |   |   |   |   |   |   |   |
+| Tatsächlicher Gewinn | ✓ |   |   |   |   |   |   |   |
 | Tatsächliches Abschlussdatum | ✓ | ✓ | ✓ |   |   |   |   |   |
 | Tatsächliche Dauer | ✓ |   |   |   |   |   |   |   |
 | Tatsächliche Stunden | ✓ |   | ✓ |   |   |   |   |   |
 | Tatsächliches Startdatum | ✓ | ✓ | ✓ |   |   |   |   |   |
-| </span> <span class="preview"> | <span class="preview">✓ </span> |   |   | <span class="preview"> ✓ </span> |   | <span class="preview"> ✓ </span> |   |   |
+| Budget | ✓ |   |   | ✓ |   | ✓ |   |   |
 | Firma | ✓ |   |   | ✓ |   |   |   |   |
 | Bedingung | ✓ | ✓ | ✓ |   |   |   |   |   |
 | Bedingungstyp | ✓ |   |   | ✓ |   |   |   |   |
-| <span class="preview"> Währung </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| Währung | ✓ |   |   | ✓ |   |   |   |   |
 | Beschreibung | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Dauer |   | ✓ |   |   | ✓ |   |   |   |
 | Dauertyp |   | ✓ |   |   | ✓ |   |   |   |
 | Dauer – Einheit |   | ✓ |   |   | ✓ |   |   |   |
 | Eingegeben von | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
 | Eingabedatum | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
-| <span class="preview"> Wechselkursdatum </span> | <span class="preview"> ✓ </span> |   |   |   |   |   |   |   |
-| <span class="preview"> Fixkosten </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
-| </span> Festeinnahmen <span class="preview"> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| Wechselkursdatum | ✓ |   |   |   |   |   |   |   |
+| Fixkosten | ✓ |   |   | ✓ |   |   |   |   |
+| Festeinnahmen | ✓ |   |   | ✓ |   |   |   |   |
 | Gruppe | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
 | Zuletzt aktualisiert von | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | Datum der letzten Aktualisierung | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
 | Name | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 | Besitzer | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
-| <span class="preview"> Performance Index-Methode </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
-| <span class="preview"> geplante </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| Performance-Index-Methode | ✓ |   |   | ✓ |   |   |   |   |
+| Geplanter Nutzen | ✓ |   |   | ✓ |   |   |   |   |
 | Geplantes Abschlussdatum | ✓ | ✓ | ✓ |   |   |   |   |   |
 | Geplante Dauer | ✓ |   |   | ✓ |   |   |   |   |
 | Geplante Stunden | ✓ | ✓ | ✓ |   | ✓ |   |   |   |
@@ -1045,13 +1101,11 @@ In dieser Tabelle sind die verfügbaren nativen Felder für bestimmte Workfront-
 | Status | ✓ | ✓ |   |   |   |   |   |   |
 | Story-Punkte |   | ✓ |   |   |   |   |   |   |
 | Vorlage | ✓ |   |   |   |   |   |   |   |
-| Geschätzte Gesamtkosten <span class="preview"> </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
-| Geschätzte Gesamteinnahmen <span class="preview"> </span> | <span class="preview"> ✓ </span> |   |   | <span class="preview"> ✓ </span> |   |   |   |   |
+| Geschätzte Gesamtkosten | ✓ |   |   | ✓ |   |   |   |   |
+| Geschätzte Gesamteinnahmen | ✓ |   |   | ✓ |   |   |   |   |
 | URL | ✓ | ✓ |   | ✓ | ✓ |   |   |   |
 
 {style="table-layout:auto"}
-
-<div class="preview">
 
 Diese zusätzlichen benutzerdefinierten Formularobjekttypen unterstützen auch native Feldverweise.
 
@@ -1060,8 +1114,6 @@ Diese zusätzlichen benutzerdefinierten Formularobjekttypen unterstützen auch n
 * Firma: Name, Felder für Gruppe
 * Tarifkarte: Name, Beschreibung, Firma, Gruppenfelder
 * Aufgabengebiet: Name, Beschreibungsfelder
-
-</div>
 
 <!--
 Non-Labor Resource: Name, Description, Home Group, Non-labor Category, Non-labor Group, Unique Identifier fields
@@ -1087,8 +1139,8 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
       <td> <p>(Erforderlich) Geben Sie ein beschreibendes Label ein, das über dem Feld angezeigt werden soll. Sie können dieses Label jederzeit ändern.</p> <p><b>Wichtig</b>: Verwenden Sie in diesem Label keine Sonderzeichen, da diese in Berichten nicht korrekt angezeigt werden. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -Labels</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Name</td>
-      <td> <p>(Erforderlich) Über diesen Namen wird das Feld vom System identifiziert. Wenn Sie das Feld zum ersten Mal konfigurieren und das Label eingeben, wird dieser automatisch in das Feld „Name“ übernommen. Die Felder „Label“ und „Name“ werden nicht synchronisiert. Dadurch haben Sie die Möglichkeit, das Label zu ändern, das die Benutzenden sehen, ohne den Namen ändern zu müssen, den das System sieht.</p>
+      <td role="rowheader">API-Name</td>
+      <td> <p>(Erforderlich) Über diesen Namen wird das Feld vom System identifiziert. Wenn Sie das Feld zum ersten Mal konfigurieren und die Bezeichnung eingeben, wird das Feld API-Name automatisch entsprechend ausgefüllt. Die Felder Titel und API-Name sind nicht synchronisiert. Dadurch haben Sie die Möglichkeit, das Label zu ändern, das die Benutzenden sehen, ohne den Namen ändern zu müssen, den das System sieht.</p>
       <p>Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -Labels</a>.</p></td> 
      </tr> 
      <tr> 
@@ -1107,12 +1159,12 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
         <li>Sie sind mit einer von Ihnen angegebenen Rolle oder einem von Ihnen angegebenen Aufgabengebiet verknüpft.</li> 
         <li>Sie gehören zur selben Gruppe wie die Person, die das Feld verwendet.</li> 
        </ul>
-       <p><span class="preview">Wenn für das Feld ein Systemfilter vorhanden ist, wird er standardmäßig angewendet, wenn Sie keinen benutzerdefinierten Filter hinzufügen. Ein benutzerdefinierter Filter überschreibt den Systemfilter.</span></p>
+       <p>Wenn für das Feld ein Systemfilter vorhanden ist, wird er standardmäßig angewendet, wenn Sie keinen benutzerdefinierten Filter hinzufügen. Ein benutzerdefinierter Filter überschreibt den Systemfilter.</p>
        <p>Sie müssen den Filter für das von Ihnen ausgewählte Referenzfeld mithilfe der Textmodus-Syntax definieren. Weitere Informationen finden Sie unter <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Bearbeiten eines Filters im Textmodus</a>.</p>
-       <p><span class="preview">Verwenden Sie die Syntax des dynamischen Filters, um die Liste der Elemente in diesem Feld auf der Grundlage des Werts eines anderen Felds einzugrenzen. Wenn Sie beispielsweise <code>?portfolioID={portfolio}.{ID}</code> in einem Projektfeldfilter verwenden und sich im benutzerdefinierten Formular ein natives Portfolio-Feld befindet, werden im Projektfeld nur Projekte angezeigt, die sich im ausgewählten Portfolio befinden. Wenn das Feld Portfolio leer gelassen wird, sind alle Projekte im Feld Projekt verfügbar.</span></p>
+       <p>Verwenden Sie die Syntax des dynamischen Filters, um die Liste der Elemente in diesem Feld auf der Grundlage des Werts eines anderen Felds einzugrenzen. Wenn Sie beispielsweise <code>?portfolioID={portfolio}.{ID}</code> in einem Projektfeldfilter verwenden und sich im benutzerdefinierten Formular ein natives Portfolio-Feld befindet, werden im Projektfeld nur Projekte angezeigt, die sich im ausgewählten Portfolio befinden. Wenn das Feld Portfolio leer gelassen wird, sind alle Projekte im Feld Projekt verfügbar.</p>
        <p><b>Hinweis</b>:
        <ul> 
-        <li>Die Filteroption ist nur verfügbar, wenn Sie auf ein natives Feld mit automatischer Vervollständigung verweisen, z. B. „Portfolio“, „Firma“ oder „Besitzerin bzw. Besitzer“.</li>
+        <li>Die Filteroption ist nur verfügbar, wenn Sie auf ein natives Feld mit automatischer Textvervollständigung oder ein internes Suchfeld verweisen, z. B. Portfolio, Unternehmen oder Inhaber.</li>
         <li>Wenn Sie ein vorhandenes benutzerdefiniertes Formular bearbeiten, werden beim Hinzufügen eines Filters zu einem nativen Feld keine Objekte entfernt (außerhalb des Bereichs des Filters), die Benutzende bereits mithilfe des Feldes hinzugefügt haben.</li> 
         <li>Dieser Filter ist auf Mobilgeräten nicht verfügbar. Wenn Sie den Filter für ein natives Feld verwenden, wird das Feld auf den Mobilgeräten der Benutzenden angezeigt, ohne dass der Filter verfügbar ist.</li> 
         </ul></p></td> 
@@ -1160,14 +1212,15 @@ So fügen Sie eine Adobe XD-Datei hinzu:
       <td> <p>(Erforderlich) Geben Sie ein beschreibendes Label ein, das über dem Widget angezeigt werden soll. Sie können dieses Label jederzeit ändern.</p> <p><b>Wichtig</b>: Verwenden Sie in diesem Label keine Sonderzeichen, da diese in Berichten nicht korrekt angezeigt werden. Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -Labels</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Name</td> 
-      <td> <p>(Erforderlich) Über diesen Namen identifiziert das System das Widget. Wenn Sie das Widget zum ersten Mal konfigurieren und das Label eingeben, wird dieses automatisch in das Feld „Name“ übernommen. Die Felder „Label“ und „Name“ werden nicht synchronisiert. Dadurch haben Sie die Möglichkeit, das Label zu ändern, das die Benutzenden sehen, ohne den Namen ändern zu müssen, den das System sieht.</p>
+      <td role="rowheader">API-Name</td> 
+      <td> <p>(Erforderlich) Über diesen Namen identifiziert das System das Widget. Wenn Sie das Widget zum ersten Mal konfigurieren und die Beschriftung eingeben, wird das Feld API-Name automatisch ausgefüllt, damit es übereinstimmt. Die Felder Titel und API-Name sind nicht synchronisiert. Dadurch haben Sie die Möglichkeit, das Label zu ändern, das die Benutzenden sehen, ohne den Namen ändern zu müssen, den das System sieht.</p>
     <p>Weitere Informationen finden Sie unter <a href="design-a-form.md#notes-on-field-names-and-labels">Hinweise zu Feldnamen und -Labels</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Erforderlich) Geben Sie einen gültigen XD-Prototyp-Link ein oder fügen Sie ihn ein.</p> 
-      <p><b>Hinweis</b>: Die Einstellung „Link-Zugriff“ auf der Registerkarte „Freigeben“ in Adobe XD muss auf „Jede Person mit dem Link“ festgelegt sein. Andernfalls können Benutzende den Prototyp nicht anzeigen. </td> 
+      <p><b>Hinweis</b>: Die Einstellung „Link-Zugriff“ auf der Registerkarte „Freigeben“ in Adobe XD muss auf „Jede Person mit dem Link“ festgelegt sein. Andernfalls können Benutzende den Prototyp nicht anzeigen. 
+   </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Anweisungen</td> 
@@ -1234,8 +1287,8 @@ So fügen Sie ein Feld des Typs „Planungsverbindung“ hinzu:
       <p>Es wird empfohlen, ein Label auszuwählen, anhand dessen Sie leicht erkennen können, woher der Planungseintrag stammt. Fügen Sie Informationen wie den Namen des Arbeitsbereichs oder den Namen des Eintragstyps hinzu. </p>   </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Name</td>
-      <td> <p>(Erforderlich) Das System identifiziert das Feld über den Namen. Wenn Sie das Feld zum ersten Mal konfigurieren und das Label eingeben, wird dieser automatisch in das Feld „Name“ übernommen. Die Felder „Label“ und „Name“ werden nicht synchronisiert. Dadurch haben Sie die Möglichkeit, das Label zu ändern, das die Benutzenden sehen, ohne den Namen ändern zu müssen, den das System sieht.</p></td> 
+      <td role="rowheader">API-Name</td>
+      <td> <p>(Erforderlich) Das System identifiziert das Feld über den Namen. Wenn Sie das Feld zum ersten Mal konfigurieren und die Bezeichnung eingeben, wird das Feld API-Name automatisch entsprechend ausgefüllt. Die Felder Titel und API-Name sind nicht synchronisiert. Dadurch haben Sie die Möglichkeit, das Label zu ändern, das die Benutzenden sehen, ohne den Namen ändern zu müssen, den das System sieht.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Anweisungen</td> 

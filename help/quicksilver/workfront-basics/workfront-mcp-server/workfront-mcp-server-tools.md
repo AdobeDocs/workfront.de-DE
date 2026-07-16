@@ -5,17 +5,15 @@ title: Adobe Workfront MCP-Server-Tools
 description: Referenzliste der über den Adobe Workfront MCP-Server verfügbaren Tools, gruppiert nach Workfront-Bereich.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 862ef1882f4a7a40ca142da7ddb98a8431681947
+source-git-commit: e51ba55867fdf47034e8baef28c2e3f7e541dde9
 workflow-type: tm+mt
-source-wordcount: '1949'
+source-wordcount: '1964'
 ht-degree: 6%
 
 ---
 
 
 # Adobe Workfront MCP-Server-Tools
-
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 In diesem Artikel werden die Tools aufgelistet, die der [!DNL Adobe Workfront] MCP-Server für eine verbundene KI-Agentenplattform bereitstellt. Die -Plattform ruft diese Tools in Ihrem Namen auf, wenn Sie sie zum Suchen, Erstellen, Aktualisieren oder Löschen von Workfront-Elementen auffordern.
 
@@ -50,6 +48,8 @@ Wenn die KI-Agentenplattform Workfront-Elemente finden, diese jedoch nicht erste
 | Dokument nach Versions-ID abrufen | `approvals_get_document_by_version_id` | Ruft Dokumentdetails (Name, Größe, Upload-Datum, Uploader) für eine bekannte Dokumentversions-ID ab. | Lesen |
 | Dokumente nach Projekt abrufen | `approvals_get_documents_by_project` | Listet Dokumente innerhalb eines Workfront-Projekts mit der aktuellen Versions-ID jedes Dokuments auf. | Lesen |
 | Dokumentbereich auflösen | `approvals_resolve_document_scope` | Erweitert ein Projekt oder einen Ordner in die Liste der darin enthaltenen Dokumentversions-IDs. Unterstützt Bereiche mit Projekt-, Ordner- und Ordnernamen. | Lesen |
+| Dokument suchen | `approvals_find_document` | Suchen eines Dokuments nach Dateinamen oder Dokumentversions-ID | Lesen |
+| Dokumente nach Umfang abrufen | approvals_get_documents_by_scope | Dokument in einem Projekt oder Ordner auflisten. | Lesen |
 
 <!--
 | List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
@@ -108,7 +108,7 @@ Wenn die KI-Agentenplattform Workfront-Elemente finden, diese jedoch nicht erste
 | Team nach Namen suchen | `approvals_find_team_by_name` | Sucht die ID eines Workfront-Teams nach Namen (unscharf oder teilweise Übereinstimmung). | Lesen |
 | Projekt nach Namen suchen | `approvals_find_project_by_name` | Sucht Workfront-Projekte nach einer teilweisen Namensübereinstimmung im gesamten System. | Lesen |
 | Projekte nach Besitzer abrufen | `approvals_get_projects_by_owner` | Listet Workfront-Projekte auf, deren Besitzer der aufrufende Benutzer ist. | Lesen |
-| Adobe-Region abrufen | `approvals_get_adobe_region` | Gibt den Adobe-Namen einer Cloud-Anbieter-Region zurück. | Lesen |
+| Suchen von Projekten | approvals_find_projects | Suchen Sie nach Workfront-Projekten, die optional nach Namen gefiltert und/oder auf Projekte beschränkt sind, deren Inhaber der aufrufende Benutzer ist. | Lesen |
 
 
 ## Planungstools
@@ -142,7 +142,7 @@ Wenn die KI-Agentenplattform Workfront-Elemente finden, diese jedoch nicht erste
 | Auflisten globaler Datensatztypen | `planning_list_global_record_types` | Listet alle zentral definierten (globalen) Datensatztypen auf, die für den aktuellen Benutzer sichtbar sind. | Lesen |
 | Auflisten der hinzuzufügenden globalen Datensatztypen | `planning_list_addable_global_record_types` | Listet globale Datensatztypen auf, die einem bestimmten Arbeitsbereich hinzugefügt werden können. | Lesen |
 | Globalen Datensatztyp zu Arbeitsbereich hinzufügen | `planning_add_global_record_type_to_workspace` | Verknüpft einen globalen Datensatztyp mit einem angegebenen Arbeitsbereich. | Schreiben |
-| Globalen Eintragstyp aus Arbeitsbereich entfernen | `planning_remove_global_record_type_from_workspace` | Hebt die Verknüpfung eines globalen Datensatztyps mit einem Arbeitsbereich auf und löscht alle Datensätze in diesem Arbeitsbereich. | Schreiben |
+| Globalen Eintragstyp aus Arbeitsbereich entfernen | `planning_remove_global_record_type_from_ws` | Hebt die Verknüpfung eines globalen Datensatztyps mit einem Arbeitsbereich auf und löscht alle Datensätze in diesem Arbeitsbereich. | Schreiben |
 | Abrufen von externen Datensatzarbeitsbereichen | `planning_get_external_record_workspaces` | Findet heraus, welche Arbeitsbereiche und Datensatztypen mit einem bestimmten externen Datensatz verbunden sind. | Lesen |
 | Datensatztyp-Freigabe abrufen | `planning_get_record_type_sharing` | Gibt die Freigabe und Berechtigungen für einen bestimmten Datensatztyp aus. | Lesen |
 | Freigabe des Datensatztyps ändern | `planning_modify_record_type_sharing` | Aktualisiert, wer auf welchen Datensatztyp und welche Berechtigungsstufe zugreifen darf. | Schreiben |

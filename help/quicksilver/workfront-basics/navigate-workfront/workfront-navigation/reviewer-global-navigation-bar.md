@@ -15,16 +15,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
-source-wordcount: 381
+source-wordcount: 364
 ht-degree: 0%
 
 ---
 
 # Grundlegendes zur Navigation für einen [!UICONTROL Light]-Lizenzbenutzer
-
-{{highlighted-preview}}
 
 Das [!UICONTROL Hauptmenü] ändert sich mit der Zugriffsebene, die Ihnen von Ihrem [!DNL Adobe Workfront] zugewiesen wurde. Standardmäßig erhalten Sie nur Zugriff auf Bereiche, die Funktionen enthalten, die von Ihrer Zugriffsebene zugelassen sind. Informationen zu den Komponenten des Standard-Layouts jeder Zugriffsebene finden Sie unter [Über das Standard [!DNL Adobe Workfront] Layout](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
@@ -45,11 +43,7 @@ Die folgenden Bereiche sind im Standardlayout eines „Light[!UICONTROL Benutzer
 * **[!UICONTROL Pinnwände]**: Arbeiten Sie flexibel und gemeinsam mit Ihren Team-Mitgliedern und nutzen Sie gemeinsame Pinnwände, die Spalten und Karten enthalten, die die Arbeit widerspiegeln, die Sie erledigen möchten. Weitere Informationen finden Sie [Erste Schritte mit Pinnwänden: Artikelindex](../../../agile/get-started-with-boards/get-started-with-boards.md).
 * **[!UICONTROL Prioritäten]**: Sie können Arbeit schnell verwalten und priorisieren. Weitere Informationen finden Sie [Erste Schritte mit Prioritäten](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md).
 
-<span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
 ![Hauptmenü des Light-Benutzers](assets/light-user-main-menu-2026.png)
-
-Beispielbild in der Produktionsumgebung:
-![Hauptmenü des Light-Benutzers](assets/light-user-main-menu.png)
 
 ## Anpassen des Standardmenüs [!UICONTROL Hauptmenü]
 

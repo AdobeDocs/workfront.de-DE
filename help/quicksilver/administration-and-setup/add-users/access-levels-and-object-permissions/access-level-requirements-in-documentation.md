@@ -23,9 +23,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ee260723331ddff4e8d89f7d9ca2b807835d6130
 workflow-type: tm+mt
-source-wordcount: 1018
+source-wordcount: 1070
 ht-degree: 4%
 
 ---
@@ -63,15 +63,17 @@ Wenn in der Tabelle mit den Zugriffsanforderungen in einem bestimmten Artikel ei
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> Adobe Workfront-Lizenzen beziehen sich auf die Funktionen von Workfront, die in der Ihnen zugewiesenen Lizenz enthalten sind. Beispielsweise könnte ein Benutzer über eine Lizenz verfügen, die das Kennzeichnen von Arbeitselementen und die Protokollierungszeit umfasst, während ein anderer Benutzer über eine Lizenz verfügt, die es ihm nur ermöglicht, Assets zu genehmigen oder Anfragen zu senden. <p> 
+   <p>Adobe Workfront-Lizenzen können sich auf die folgenden Lizenztypen beziehen:</p>
+   <ul><li>Workfront Workflow-Lizenzen</li>
+  <li>Workfront Planning-Lizenzen</li></ul>
+
+<p>Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, welche Lizenz Ihnen zugewiesen wurde.</p>
+   <p>Informationen zu Lizenzen finden Sie unter:</p>
    <ul>
-   <li>Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, welche Lizenz Ihnen zugewiesen wurde.</li>
-   <li>Informationen zu Lizenzen finden Sie unter:
-   <ul>
+   <li><a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md">Benutzerdefinierte Zugriffsebenen erstellen und ändern</a></li>
    <li><a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">Überblick über neue Lizenzen</a></li>
-   <li><a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Überblick über Lizenzen</a></li></ul></li>
-   <li>Wenn Sie die richtige Zugriffsebene haben und immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.
-   </ul>
-      </p> </td> 
+   <li><a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Überblick über Lizenzen</a></li></ul>
+   <p>Wenn Sie die richtige Zugriffsebene haben und immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 

@@ -14,7 +14,7 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 322583384e4397bf02d534c14db46020e409aa35
+source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
 workflow-type: tm+mt
 source-wordcount: 474
 ht-degree: 4%
@@ -22,8 +22,6 @@ ht-degree: 4%
 ---
 
 # Überblick über Dokumentdetails
-
-{{highlighted-preview}}
 
 Auf der Seite „Dokumentdetails“ können Sie die Eigenschaften eines Dokuments, das an ein Adobe Workfront-Objekt angehängt ist, anzeigen, darüber kommunizieren und verwalten.
 
@@ -112,8 +110,6 @@ Sie können auf der Seite Dokumentdetails die folgenden Aktionen für Dokumente 
    ![Dokumentdetails](assets/doc-details.png)
 
 
-<div class="preview">
-
 ### Anzeigen der Druckzusammenfassung im neuen Dokumentbereich
 
 Nachdem ein Dokument eine Genehmigung erhalten hat, können Sie die Seite Druckkommentare für Frame.io öffnen, um die Asset-Vorschau, Kommentare und Genehmigungsentscheidungen in einem druckbaren Format anzuzeigen.
@@ -130,5 +126,3 @@ Nachdem ein Dokument eine Genehmigung erhalten hat, können Sie die Seite Druckk
 >
 >Der Link Druckzusammenfassung wird erst angezeigt, nachdem dem Dokument eine Genehmigung hinzugefügt wurde.
 
-
-</div>

@@ -23,7 +23,7 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
 workflow-type: tm+mt
 source-wordcount: 766
 ht-degree: 6%
@@ -31,8 +31,6 @@ ht-degree: 6%
 ---
 
 # Grundlegende Systeminformationen konfigurieren
-
-{{highlighted-preview}}
 
 <!-- Audited: 2/2024 -->
 
@@ -84,7 +82,7 @@ So greifen Sie auf die Seite „Kundeninformationen“ zu:
    | Abschnitt | Weitere Informationen |
    |---------|-----------------|
    | **Grundlegende Informationen** | Informationen zum Konfigurieren grundlegender Informationen in Workfront finden Sie unter [Konfigurieren grundlegender Informationen](#configure-basic-info). |
-   | <span class="preview">**Speicherübersicht**</span> | <span class="preview">Informationen zur Überprüfung der Dokumentspeicherverwendung und des Kontingents finden Sie unter [Überprüfen von Dokumentspeicherbeschränkungen](../../documents/managing-documents/check-document-storage.md).</span> |
+   | **Speicherübersicht** | Informationen zur Überprüfung der Dokumentspeicherverwendung und des Kontingents finden Sie unter [Überprüfen von Dokumentspeicherbeschränkungen](../../documents/managing-documents/check-document-storage.md). |
    | **API-Schlüsseleinstellungen** | Informationen zu API-Schlüsseleinstellungen finden Sie unter [Verwalten von API-Schlüsseln](../../administration-and-setup/manage-workfront/security/manage-api-keys.md). |
    | **IP-Zulassungsliste** | Informationen zum Hinzufügen der IP-Adressen zu Ihrer Zulassungsliste, über die Ihre Benutzer auf Workfront zugreifen können, finden Sie [Zulassungsliste Ihrer Firewall konfigurieren](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md). |
    | **E-Mail** | Informationen zum Hinzufügen von E-Mails zu Ihrer Zulassungsliste finden Sie unter [Konfigurieren Ihrer E-Mail-](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md). |

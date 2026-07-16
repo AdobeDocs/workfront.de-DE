@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: f45c946e48b253018648c414915d53eca5a4de80
+source-git-commit: 29d86cd2aa730d5bebe14fb2bd3cb1a59e00852a
 workflow-type: tm+mt
-source-wordcount: '2919'
-ht-degree: 15%
+source-wordcount: '3150'
+ht-degree: 14%
 
 ---
 
@@ -110,6 +110,15 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             <td><p>July 16, 2026</p></td>
         </tr>
         -->
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Neue Felder vom Typ Lizenz für Zugriffsebenen<p>[!BADGE Außerplanmäßig]{type=Neutral}</p></a>
+                <p>Wir haben die folgenden Feldänderungen im Feld Zugriffsebene vorgenommen: <ul><li>Das Feld Lizenztyp im Feld Zugriffsebene wurde in Workflow-Lizenztyp umbenannt. Bei dieser Neubeschriftung gibt es keine Funktionsänderungen.  </li><li>Kunden, die auch ein Workfront Planning-Paket erworben haben, haben wir ein neues Feld für den Planning-Lizenztyp hinzugefügt, um die Benutzerlizenz für Workfront Planning zu veranschaulichen. </li><ul></p>
+            </td>
+            <td><p>16. Juli 2026</p></td>
+            <td><p>16. Juli 2026</p></td>
+            <td><p>16. Juli 2026</p></td>
+        </tr>
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q3-release-activity/26-q3-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Feld für interne Suche ersetzt den Feldtyp für automatische Textvervollständigung</a>
@@ -597,6 +606,31 @@ Desktop Proofing Viewer wurde von 2.1.54 auf 2.1.55 aktualisiert. Diese Aktualis
 Dieses Update ist sowohl für macOS als auch für Windows.
 
 ## Ankündigungen
+
+### Adobe Workfront Planning als eigenständiges Produkt
+
+>[!NOTE]
+>
+>Vorschau und Produktion für alle Kunden: Ab 16. Juli 2026
+>
+>[!BADGE Nur neue Kunden]{type=Neutral}
+
+Sie können Adobe Workfront Planning jetzt unabhängig erwerben, ohne eine Workfront Workflow-Lizenz zu benötigen.
+
+Adobe Workfront Planning als eigenständiges Produkt wurde für Neukunden und für Teams entwickelt, die Kampagnenplanungs- und Metadatenverwaltungsfunktionen ohne die vollständige Suite von Workflow-Funktionen benötigen.
+
+>[!IMPORTANT]
+>
+>Dies ist nur für neue Kundinnen und Kunden verfügbar. Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer.
+
+Zu den in Adobe Workfront Planning als eigenständiges Produkt enthaltenen Funktionen gehören:
+
+* Umfassende Workfront Planning-Funktionen mit der Möglichkeit, Arbeitsbereiche, Datensatztypen, Datensätze, Felder und Ansichten zu erstellen und zu verwalten.
+* Möglichkeit, Datensätze zu verbinden, einschließlich arbeitsbereichsübergreifender Verbindungen für Prime- und Ultimate-Pakete.
+* Automatisierungen für das Erstellen von Planungsdatensätzen.
+* Aufnahmeprozess mithilfe von Planungsanfrageformularen.
+
+Weitere Informationen finden Sie [Erste Schritte mit Adobe Workfront Planning als eigenständiges Produkt](/help/quicksilver/planning/planning-sta/planning-sta-overview.md).
 
 ### API-Version 22
 

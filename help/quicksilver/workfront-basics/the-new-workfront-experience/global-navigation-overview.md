@@ -5,26 +5,20 @@ description: Die obere Navigationsleiste, die oben auf dem Bildschirm in  [!DNL 
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '672'
 ht-degree: 1%
 
 ---
 
 # Überblick über die obere Navigationsleiste
 
-{{highlighted-preview}}
-
 <!--Audited: 01/2024-->
 
 Die obere Navigationsleiste, die oben auf dem Bildschirm in [!DNL Adobe Workfront] angezeigt wird, ermöglicht es Ihnen, andere Bereiche der Plattform einfach zu finden und zu ihnen zu navigieren.
 
-<span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
 ![Navigationsleiste oben](assets/wf-top-navigation-070626.png)
-
-Beispielbild in der Produktionsumgebung:
-![Navigationsleiste oben](assets/wf-top-navigation-2026.png)
 
 ## Symbol [!UICONTROL Startseite]
 
@@ -132,13 +126,13 @@ Weitere Informationen zu Benachrichtigungen und Ankündigungen finden Sie unter 
 
 ## [!UICONTROL Favoriten] Menü
 
-Mit dem **[!UICONTROL Favoriten]**-Symbol ![Favoriten](assets/favorites-icon-62x55.png) wird eine Liste von Seiten im System geöffnet, die Sie als Favoriten gekennzeichnet haben. Sie können die Seite, auf der Sie sich gerade befinden, über dieses Menü hinzufügen.
+Mit dem **[!UICONTROL Favoriten]**-Symbol ![Favoriten](assets/favorites-icon.png) wird eine Liste von Seiten im System geöffnet, die Sie als Favoriten gekennzeichnet haben. Sie können die Seite, auf der Sie sich gerade befinden, über dieses Menü hinzufügen.
 
 Weitere Informationen zu den Favoriten finden Sie unter [Anzeigen und Verwalten von Favoriten](../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md).
 
 ## [!UICONTROL Zuletzt verwendet] Menü
 
-Mit **[!UICONTROL Symbol]** Zuletzt verwendet![[!UICONTROL &#x200B; (]](assets/recents-icon-40x43.png)) wird eine Liste der Seiten geöffnet, die Sie kürzlich besucht haben.
+Mit **[!UICONTROL Symbol]** Zuletzt verwendet![[!UICONTROL &#x200B; (]](assets/recents-icon.png)) wird eine Liste der Seiten geöffnet, die Sie kürzlich besucht haben.
 
 Weitere Informationen zu den letzten Elementen finden Sie unter [Aktuelle Elemente anzeigen](../../workfront-basics/navigate-workfront/recent-and-favorites/view-recent-items.md).
 

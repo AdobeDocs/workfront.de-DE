@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
 workflow-type: tm+mt
-source-wordcount: 402
+source-wordcount: 404
 ht-degree: 2%
 
 ---
@@ -60,7 +60,7 @@ Weitere Informationen dazu, wie Benutzende beim Freigeben eines benutzerdefinier
    <td> <p>Wenn Sie das Feld zu einem benutzerdefinierten Formular hinzufügen:</p> 
     <ul> 
      <li>Sie können formularbezogene Einstellungen für das Feld bearbeiten, z. B. die Anzeigelogik, die Reihenfolge unter anderen Feldern im Formular, ob es sich um ein erforderliches Feld im Formular handelt und die Möglichkeit, es aus dem Formular zu entfernen.</li> 
-     <li>Sie können keine feldbezogenen Einstellungen für das Feld bearbeiten, z. B. seine Beschriftung, seinen Namen und seinen Typ.</li> 
+     <li>Sie können keine feldbezogenen Einstellungen für das Feld bearbeiten, z. B. seine Beschriftung, seinen API-Namen und seinen Typ.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -69,7 +69,7 @@ Weitere Informationen dazu, wie Benutzende beim Freigeben eines benutzerdefinier
      <li>Verwalten</li> 
      <li>Systemweit bearbeitbar</li> 
     </ul> </td> 
-   <td>Sie können das Feld zu benutzerdefinierten Formularen hinzufügen und alle feldbezogenen Einstellungen dafür bearbeiten, z. B. Beschriftung, Name und Typ.</td> 
+   <td>Sie können das Feld zu benutzerdefinierten Formularen hinzufügen und alle feldbezogenen Einstellungen dafür bearbeiten, z. B. die Bezeichnung, den API-Namen und den Typ.</td> 
   </tr> 
   <tr> 
    <td> 

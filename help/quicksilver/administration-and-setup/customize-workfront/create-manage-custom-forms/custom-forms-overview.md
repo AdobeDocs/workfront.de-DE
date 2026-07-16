@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 394
+source-wordcount: 395
 ht-degree: 22%
 
 ---
@@ -54,12 +54,12 @@ Sie können die folgenden Arten von benutzerdefinierten Feldern zu einem benutze
 
 * Einzeiliger Text
 * Absatz
-* Text mit Formatierung
+* Rich Text
 * Einfachauswahl-Dropdown
 * Mehrfachauswahl-Dropdown
 * Externer Lookup
+* Interne Suche
 * Native Feldreferenz
-* Typeahead
 * Planungs-Feldverbindung
 * Berechnet
 * Datum
@@ -97,6 +97,7 @@ Benutzer können benutzerdefinierte Formulare an die folgenden Objekttypen anhä
 * Wiederholung
 * Abrechnungseintrag
 * Tarifkarte
+* Zuweisung
 
 Weitere Informationen zum Anhängen benutzerdefinierter Formulare an Objekte finden Sie unter [Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 

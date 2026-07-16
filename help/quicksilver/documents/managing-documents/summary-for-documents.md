@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 322583384e4397bf02d534c14db46020e409aa35
+source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
 workflow-type: tm+mt
 source-wordcount: 725
 ht-degree: 12%
@@ -29,8 +29,6 @@ ht-degree: 12%
 ---
 
 # Zusammenfassung für Dokumente – Überblick
-
-{{highlighted-preview}}
 
 <!--Audited: April, 2024-->
 
@@ -147,7 +145,7 @@ Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, wird der Bereich Neue Dokume
 
 ### Details
 
-Verwenden Sie den Abschnitt Details , um allgemeine Übersichtsinformationen anzuzeigen, mit benutzerdefinierten Formularen zu interagieren und <span class="preview">die Druckzusammenfassung zu öffnen</span>.
+Verwenden Sie den Abschnitt Details , um allgemeine Übersichtsinformationen anzuzeigen, mit benutzerdefinierten Formularen zu interagieren und die Druckzusammenfassung zu öffnen.
 
 ![Details zur Dokumentzusammenfassung in der neuen Dokumenterfahrung](assets/summary-details.png)
 

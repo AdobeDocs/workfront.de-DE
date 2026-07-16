@@ -5,25 +5,19 @@ title: Konfigurieren des Adobe Workfront MCP-Servers
 description: Konfigurieren Sie Ihre Workfront-Instanz und Ihre KI-Agentenplattform, damit Sie über Konversationen in natürlicher Sprache mit Workfront arbeiten können.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 5592c1b93b5e44c732f92d626ed878d2c4647ceb
+source-git-commit: e9ddfa2847c44b0a92af3239a52d704d4a866dc8
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 1%
+source-wordcount: '1509'
+ht-degree: 0%
 
 ---
 
 
 # Konfigurieren des Adobe Workfront MCP-Servers
 
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
-
 Mit dem [!DNL Adobe Workfront] MCP-Server können Sie mit Ihren Workfront-Daten über eine Konversation in natürlicher Sprache auf einer unterstützten KI-Agentenplattform arbeiten.
 
 Bevor Sie eine KI-Agentenplattform mit Workfront verbinden können, muss ein Workfront-Administrator den MCP-Serverzugriff in Ihrer Workfront-Instanz aktivieren. Die genauen Schritte zum Verbinden einer KI-Agent-Plattform unterscheiden sich für jede unterstützte KI-Agent-Plattform.
-
->[!IMPORTANT]
->
->Derzeit ist der Workfront MCP-Server nur für Kunden verfügbar, die AWS verwenden. Kunden, die GCP oder Azure verwenden, werden in naher Zukunft Workfront MCP-Funktionen nutzen können.
 
 ## Unterstützte KI-Agentenplattformen
 
@@ -34,12 +28,11 @@ Dieser Artikel führt Sie durch die Schritte zur Verbindung von:
 * [!DNL Claude]
 * [!DNL ChatGPT]
 
-Wenn Sie eine andere MCP-kompatible KI-Agent-Plattform verwenden (z. B. [!DNL Gemini] oder [!DNL Microsoft Copilot]), führen Sie die Schritte zum Hinzufügen eines benutzerdefinierten MCP-Servers in der Dokumentation dieser Plattform aus. Wenn Sie nach der URL des MCP-Servers gefragt werden, geben Sie die URL für Ihre Region ein:
+Wenn Sie eine andere MCP-kompatible KI-Agent-Plattform verwenden (z. B. [!DNL Gemini] oder [!DNL Microsoft Copilot]), führen Sie die Schritte zum Hinzufügen eines benutzerdefinierten MCP-Servers in der Dokumentation dieser Plattform aus. Geben Sie nach Aufforderung zur Eingabe der MCP-Server-URL Folgendes ein:
 
-| Region | URL |
-| --- | --- |
-| US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-| EU | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+```
+https://mcp.workfront.adobe.com/mcp/v1/workfront
+```
 
 ## Voraussetzungen
 
@@ -69,10 +62,6 @@ Sie stellen eine Verbindung zu Workfront einmal pro [!DNL Claude] her. Die Verbi
 
 
 ### Verbinden mit Claude Desktop über das Connector-Verzeichnis
-
->[!IMPORTANT]
->
->Derzeit unterstützt der Claude-Connector nur die Verbindung zum Workfront MCP-Server in der US-Region.  Informationen zum Verbinden mit einer Workfront-Instanz in der EU-Region finden Sie unter [Verbinden mit Claude mit einer URL](#connect-to-claude-with-a-url) in diesem Artikel.
 
 +++ Erweitern Sie , um eine schrittweise Anleitung zum Verbinden von Workfront mit [!DNL Claude] anzuzeigen.
 
@@ -117,22 +106,13 @@ So verbinden Sie Workfront mit [!DNL Claude] über eine URL:
 1. Wählen Sie im linken Menü das Symbol **Anpassen** aus.
 1. Wählen Sie **Connectoren** und klicken Sie dann auf das Symbol **+** , um einen Connector hinzuzufügen.
 1. Klicken Sie auf **Schaltfläche „App**&quot;.
-1. Geben Sie dem Connector einen gewünschten Namen (z. B. &quot;Workfront„) und die gewünschte MCP-Server-URL ein:
+1. Geben Sie dem Connector einen gewünschten Namen (z. B. &quot;Workfront„) und die MCP-Server-URL:
 
-   | Region | URL |
-   | --- | --- |
-   | US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-   | EU | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+   ```
+   https://mcp.workfront.adobe.com/mcp/v1/workfront
+   ```
 
 1. Nachdem der Connector erstellt wurde, wird ein Anmeldefenster angezeigt. Authentifizieren Sie sich mit Ihren Adobe ID-Anmeldeinformationen. Stellen Sie sicher, dass Sie die gewünschte Workfront-Instanz auswählen, wenn Sie zu mehreren gehören.
-
-   >[!NOTE]
-   >
-   >Ihre Workfront-Instanz muss eine Verbindung mit dem MCP-Server für die Region für diese Instanz herstellen. Beispielsweise muss eine EU-Instanz eine Verbindung zum MCP-Server der EU herstellen.
-   >
-   >Wenn Sie eine Instanz auswählen, werden Instanzen, die nicht mit der Region des MCP-Servers kompatibel sind, ausgegraut angezeigt und Sie können keine Verbindung zu ihnen herstellen.
-   >
-   >Um eine Verbindung zu einer Instanz herzustellen, die nicht mit der Region des MCP-Servers kompatibel ist, richten Sie eine neue MCP-Verbindung mit der richtigen URL für diese Region ein.
 
 +++
 
@@ -148,23 +128,14 @@ Um mehr über [!DNL Claude] Fähigkeiten zu erfahren, lesen Sie die [Claude-Benu
 1. Wählen Sie unten links &quot;**&quot;** → **Einstellungen**.
 1. Wählen Sie **Apps** aus und aktivieren Sie dann **Entwicklermodus**.
 1. Klicken Sie auf **Schaltfläche „App**&quot;.
-1. Geben Sie der App einen gewünschten Namen (z. B. &quot;Workfront„) und die gewünschte MCP-Server-URL ein:
+1. Geben Sie der App einen gewünschten Namen (z. B. &quot;Workfront„) und die MCP-Server-URL ein:
 
-   | Region | URL |
-   | --- | --- |
-   | US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-   | EU | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+   ```
+   https://mcp.workfront.adobe.com/mcp/v1/workfront
+   ```
 
 1. Stellen Sie sicher, dass die Authentifizierung auf **OAuth** (standardmäßig festgelegt) eingestellt ist, und aktivieren Sie das Kontrollkästchen Akzeptanz , um fortzufahren.
 1. Nachdem die App erstellt wurde, wird ein Anmeldefenster angezeigt. Authentifizieren Sie sich mit Ihren Adobe ID-Anmeldeinformationen. Stellen Sie sicher, dass Sie die gewünschte Workfront-Instanz auswählen, wenn Sie zu mehreren gehören.
-
-   >[!NOTE]
-   >
-   >Ihre Workfront-Instanz muss eine Verbindung mit dem MCP-Server für die Region für diese Instanz herstellen. Beispielsweise muss eine EU-Instanz eine Verbindung zum MCP-Server der EU herstellen.
-   >
-   >Wenn Sie eine Instanz auswählen, werden Instanzen, die nicht mit der Region des MCP-Servers kompatibel sind, ausgegraut angezeigt und Sie können keine Verbindung zu ihnen herstellen.
-   >
-   >Um eine Verbindung zu einer Instanz herzustellen, die nicht mit der Region des MCP-Servers kompatibel ist, richten Sie eine neue MCP-Verbindung mit der richtigen URL für diese Region ein.
 
 
 ### Anpassen des ChatGPT-Verhaltens mit benutzerdefinierten GPTs

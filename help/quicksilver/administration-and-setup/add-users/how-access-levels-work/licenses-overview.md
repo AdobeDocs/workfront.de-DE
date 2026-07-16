@@ -19,10 +19,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ee260723331ddff4e8d89f7d9ca2b807835d6130
 workflow-type: tm+mt
-source-wordcount: 369
-ht-degree: 99%
+source-wordcount: 381
+ht-degree: 86%
 
 ---
 
@@ -44,7 +44,7 @@ Anstatt einem Benutzer bzw. einer Benutzerin eine Lizenz zuzuweisen, weisen Sie 
 
 In der folgenden Tabelle und Abbildung sind die wichtigsten Zugriffsebenen für Workfront dargestellt:
 
-| Lizenz | Zugeordnete Zugriffsebene |
+| Workflow-Lizenz | Zugeordnete Zugriffsebene |
 |--- |--- |
 | Standard | Systemadmin, Standard |
 | Light | Light |
@@ -65,9 +65,9 @@ Weitere Informationen finden Sie unter [Überblick über Zugriffsebenen](/help/q
 
 ## Lizenzanzahl
 
-Wenn Sie einer Person eine Zugriffsebene zuweisen, wird die verfügbare Lizenzanzahl um 1 reduziert.
+Wenn Sie einem Benutzer eine Zugriffsebene zuweisen, die mit einer Lizenz verbunden ist, wird die Anzahl Ihrer verfügbaren Lizenzen um 1 reduziert.
 
-Wenn Sie beispielsweise einer Person die Zugriffsebene „Standard“ zuweisen, wird die Anzahl der verfügbaren Standard-Lizenzen um 1 reduziert.
+Wenn Sie beispielsweise einem Benutzer die mit einer Workflow-Lizenz von Standard verknüpfte Standard-Zugriffsebene zuweisen, wird die Anzahl der verfügbaren Standard-Lizenzen um 1 reduziert.
 
 Sie können die Ihren Benutzenden zugewiesenen Lizenzen und Zugriffsebenen anzeigen. Weitere Informationen finden Sie unter [Auflisten der Zugriffsebenen und Lizenzen von Benutzenden](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).
 

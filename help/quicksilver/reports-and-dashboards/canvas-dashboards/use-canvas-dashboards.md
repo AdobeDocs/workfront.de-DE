@@ -16,16 +16,14 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 889f77efd9472cd2da5de1e5ec602aea63b2ce0b
+source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
 workflow-type: tm+mt
-source-wordcount: 572
+source-wordcount: 570
 ht-degree: 4%
 
 ---
 
 # Verwenden von Arbeitsflächen-Dashboards
-
-{{highlighted-preview}}
 
 >[!IMPORTANT]
 >
@@ -51,9 +49,7 @@ Um auf die Arbeitsflächen-Dashboards zuzugreifen, gehen Sie zum Abschnitt Dashb
 1. Klicken Sie auf den Namen eines vorhandenen Dashboards, um es zu öffnen.
    ![Öffnen eines Dashboards](assets/open-dashboard.png)
 
-<div class="preview">
-
-## Sortieren der Liste der Arbeitsflächen-Dashboards in der Vorschau
+## Sortieren der Liste der Arbeitsflächen-Dashboards
 
 Sie können die Liste der Arbeitsflächen-Dashboards nach einer der folgenden Spalten sortieren:
 
@@ -75,8 +71,6 @@ So sortieren Sie die Liste:
 >
 >* Die Sortierreihenfolge wird beibehalten, wenn Sie in der Liste der Arbeitsflächen-Dashboards zwischen Registerkarten wechseln.
 
-
-</div>
 
 <!--
 ## Navigating the Dashboard
