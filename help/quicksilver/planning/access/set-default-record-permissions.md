@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
+source-git-commit: 009953346ae5ef29611101acaa08b4f9810cf9d8
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '733'
 ht-degree: 4%
 
 ---
@@ -44,7 +44,9 @@ at GA, check that the Workfront plans article linked below has Planning info
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<p>Beliebige Workfront oder Workflows mit einem Planungspaket</p>
+<p>Beliebige Workfront oder Workflows mit einem Planungspaket</p> 
+ODER
+<p>Beliebige Workfront-Planung als eigenständiges Produktpaket</p>
 
 </tr>
 
@@ -105,7 +107,7 @@ Beachten Sie Folgendes bei der Konfiguration von standardmäßigen Datensatzbere
 
 ## Konfigurieren von Standardeintragsberechtigungen für einen Datensatztyp
 
-1. Navigieren Sie zu Datensatztyp > **Mehr** Menü ![Mehr &#x200B;](assets/more-menu.png) > **Einstellungen** > **Datensatzeinstellungen**.
+1. Navigieren Sie zu Datensatztyp > **Mehr** Menü ![Mehr ](assets/more-menu.png) > **Einstellungen** > **Datensatzeinstellungen**.
 
    ![Registerkarte Datensatzeinstellungen im Bereich Datensatztypeinstellungen](assets/record-settings-tab-in-record-type-settings-area.png)
 

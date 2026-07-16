@@ -11,22 +11,15 @@ exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/C-en7a6FEP75vl3HwJC-uDI4tEKVCcEgMzhClAK5C8k
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9256ea961c44ef3822da14868ac6909eb3809394
 workflow-type: tm+mt
-source-wordcount: 1424
-ht-degree: 11%
+source-wordcount: 1568
+ht-degree: 12%
 
 ---
 
@@ -97,13 +90,45 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
      <tr> 
       <td role="rowheader">Beschreibung </td> 
       <td>Geben Sie eine Beschreibung für die Zugriffsebene ein. Es ist hilfreich, hier aufzulisten, auf was ein Benutzer mit dieser Zugriffsebene zugreifen kann.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Lizenztyp</td> 
-      <td>Stellen Sie sicher, dass die hier ausgewählte Lizenz diejenige ist, die am engsten mit der Art der Zugriffsebene verbunden ist, die Sie erstellen oder bearbeiten. Die ausgewählte Lizenz bestimmt, welche Einstellungen für die Zugriffsebene verfügbar sind. Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">Übersicht über neue Lizenzen</a> oder <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Überblick über Lizenzen</a>.</td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">Planungs-Lizenztyp</td> 
+      <td><p>Dieses Feld ist nur für Kunden sichtbar, die zusätzlich zu einem Workflow-Paket auch ein Workfront Planning-Paket erworben haben.</p>
+      <p>Die ausgewählte Lizenz bestimmt, welche Einstellungen für Benutzer mit dieser Zugriffsebene verfügbar sind. </p>
+      <p>Wählen Sie aus den folgenden Optionen:</p>
+      <ul><li>Standard</li>
+      <li>Mitwirkende</li>
+      <li>Keine</li>
+     </ul> 
+      Weitere Informationen finden Sie unter <a href="/help/quicksilver/planning/access/access-overview.md">Zugriffsübersicht für Adobe Workfront Planning</a> 
+      <p><b>WICHTIG</b></p>
+      <p>Planning- und Workflow-Lizenzen arbeiten zusammen, um Benutzenden Zugriff auf Workfront zu gewähren. </p>
+      <p>Sie können einer Benutzerin bzw. einem Benutzer unterschiedliche Stufen von Lizenztypen für Workflow- und Planning-Lizenzen zuweisen. Die Workflow-Lizenz darf jedoch nicht kleiner als die Planning-Lizenz sein. </p>
+      <p>Sie können Benutzenden beispielsweise eine Lizenz für Workflow-Standard und eine Planning-Mitwirkende-Lizenz erteilen, ihnen jedoch keine Workflow-Mitwirkende- und eine Planning Standard-Lizenz.</p>
+
+   </td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">Workflow-Lizenztyp</td> 
+      <td>Stellen Sie sicher, dass die hier ausgewählte Lizenz diejenige ist, die am engsten mit der Art der Zugriffsebene verbunden ist, die Sie erstellen oder bearbeiten. Die ausgewählte Lizenz bestimmt, welche Einstellungen für die Zugriffsebene verfügbar sind.
+
+   <p>Wählen Sie aus den folgenden Optionen:</p>
+      <ul><li>Standard</li>
+      <li>Mitwirkende</li>
+      <li>Leicht</li>
+     </ul>
+
+   Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">Übersicht über neue Lizenzen</a> oder <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Überblick über Lizenzen</a>.
+
+
+
+   </td> 
      </tr> 
     </tbody> 
    </table>
+
 
 1. (Bedingt) Wenn **Standard** oder **Plan** im Feld **Lizenztyp** ausgewählt ist, scrollen Sie zum Abschnitt **Administratorzugriff für zulassen** und wählen Sie Administratorzugriffsberechtigungen für diejenigen aus, die diese Zugriffsebene haben werden.
 
