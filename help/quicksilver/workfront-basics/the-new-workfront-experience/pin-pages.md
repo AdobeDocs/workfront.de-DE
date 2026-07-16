@@ -6,24 +6,18 @@ feature: Get Started with Workfront
 author: Courtney
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
 TQID: https://experienceleague.adobe.com/xXHYO3esg0zhwMvdpQEXitxMBnwWDLWEQvLhHeIhXkw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0115873e8dc3f17ae11fe137bfb57f12e6b514db
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
-source-wordcount: 531
-ht-degree: 7%
+source-wordcount: 348
+ht-degree: 11%
 
 ---
 
 # Anheften von Seiten, um den Arbeitsbereich anzupassen
-
-{{highlighted-preview}}
 
 <!-- Audited: 4/2025 -->
 
@@ -64,11 +58,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 1. Klicken Sie oben links auf der Seite auf **[!UICONTROL Aktuelle Seite]**. Die angeheftete Seite kann jetzt von jeder Seite in [!DNL Workfront] aus aufgerufen werden.
 
-   <span class="preview">Beispielbild in der Vorschau-Umgebung:
    ![Aktuelle Seite anheften](assets/pin-current-page-button-2026.png)
-
-   Beispielbild in der Produktionsumgebung:
-   ![Aktuelle Seite anheften](assets/pin-current-page-button.png)
 
 ## Zugriff auf eine fixierte Seite
 
@@ -82,15 +72,9 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
    Wenn Sie viele Seiten angeheftet haben, klicken Sie auf das Symbol **[!UICONTROL Mehr]** ![Klicken Sie auf das Symbol Mehr](assets/more-icon.png), um zusätzliche angeheftete Seiten anzuzeigen.
 
-   <span class="preview">Beispielbild in der Vorschau-Umgebung:
    ![Aktuelle Seite anheften](assets/display-pinned-pages-2026.png)
 
-   Beispielbild in der Produktionsumgebung:
-   ![Anzeigen zusätzlicher angehefteter Seiten](assets/display-pinned-pages.png)
-
    Die angeheftete Seite wird angezeigt.
-
-<div class="preview">
 
 ## Pins verwalten
 
@@ -107,36 +91,35 @@ Sie können fixierte Seiten an einer Stelle umbenennen, neu anordnen und entfern
 
 1. Klicken Sie **Schließen** wenn Sie die Bearbeitung der Pins abgeschlossen haben.
 
-</div>
+<!--
+## Rename a pinned page
 
-## Umbenennen einer fixierten Seite
+1. Hover over the pinned page in the top navigation.
+1. Click the **More** icon ![More icon](assets/more-icon.png) that appears next to the pin name and select **[!UICONTROL Rename pin]**.
 
-1. Bewegen Sie den Mauszeiger über die angeheftete Seite in der oberen Navigationsleiste.
-1. Klicken Sie auf das **Mehr**-Symbol ![Mehr](assets/more-icon.png), das neben dem Pin-Namen angezeigt wird, und wählen Sie **[!UICONTROL Pin umbenennen]**.
+   ![Rename pin](assets/pin-menu.png)
 
-   ![Pin umbenennen](assets/pin-menu.png)
+1. Type the new pin name, then click **Save**.
 
-1. Geben Sie den neuen Pin-Namen ein und klicken Sie dann auf **Speichern**.
+   ![Click the check mark to rename pin](assets/rename-pin-dialog-box.png)
 
-   ![Klicken Sie auf das Häkchen, um die Nadel umzubenennen](assets/rename-pin-dialog-box.png)
+## Reorder pinned pages
 
-## Fixierte Seiten neu anordnen
+You can rearrange the order that pinned pages appear.
 
-Sie können die Reihenfolge der angehefteten Seiten neu anordnen.
+1. Hover over the pinned page you want to move, then click the **More** icon ![More icon](assets/more-icon.png).
+1. Choose **Move left** or **Move right** to move your pin. 
+1. (Optional) Choose **Move to front** to move your pin to the far-left position of the pin bar. 
 
-1. Bewegen Sie den Mauszeiger über die angeheftete Seite, die Sie verschieben möchten, und klicken Sie dann auf das **Mehr**-Symbol ![Mehr-Symbol](assets/more-icon.png).
-1. Wählen Sie **Nach links** oder **Nach rechts**, um Ihre Nadel zu verschieben.
-1. (Optional) Wählen Sie **Nach vorne verschieben**, um Ihren Pin an die ganz linke Position der Pin-Leiste zu verschieben.
+   ![move pins](assets/pin-menu.png)
 
-   ![Pins verschieben](assets/pin-menu.png)
+   Your changes automatically save and are remembered the next time you access Workfront.
 
-   Ihre Änderungen werden automatisch gespeichert und gespeichert, wenn Sie das nächste Mal auf Workfront zugreifen.
+## Remove a pinned page
 
-## Entfernen angehefteter Seiten
+1. Click the **More** icon ![](assets/more-icon.png) next to the pin you want to remove.
+1. Click **Remove pin**. The page is no longer accessible from the top of any page in [!DNL Workfront].
 
-1. Klicken Sie auf das **Mehr**-Symbol ![](assets/more-icon.png) neben der Nadel, die Sie entfernen möchten.
-1. Klicken Sie **Pin entfernen**. Auf die Seite kann von keiner Seite in [!DNL Workfront] aus mehr zugegriffen werden.
-
-   ![Pin entfernen](assets/pin-menu.png)
-
+   ![Remove pin](assets/pin-menu.png)
+-->
 
