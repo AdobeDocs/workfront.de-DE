@@ -7,10 +7,14 @@ feature: Get Started with Workfront
 author: Courtney
 exl-id: bf9dc447-751c-4802-9e6a-ecd31538dba4
 TQID: https://experienceleague.adobe.com/S0cPTosyBInMh-Pji9TY1JEtsHB7lyTNlMlM6-M-yNQ
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
 workflow-type: tm+mt
 source-wordcount: 375
@@ -61,7 +65,7 @@ So zeigen Sie ein Element an, das Sie zuvor als Favorit hinzugefügt haben:
 
 ## Element als Favorit hinzufügen
 
-Sie können dem Menü [!UICONTROL Favoriten“ die letzten Elemente oder die aktuelle Seite ].
+Sie können dem Menü [!UICONTROL Favoriten“ die letzten Elemente oder die aktuelle Seite &#x200B;].
 
 * [Zuletzt verwendete Elemente als Favoriten hinzufügen](#add-recent-items-as-a-favorite)
 * [Aktuelles Element als Favorit hinzufügen](#add-the-current-item-as-a-favorite)
@@ -76,7 +80,7 @@ Sie können dem Menü [!UICONTROL Favoriten“ die letzten Elemente oder die akt
 ### Aktuelles Element als Favorit hinzufügen
 
 1. Navigieren Sie zu der Seite, die Sie als Favorit hinzufügen möchten.
-1. **[!DNL Favorites]** Klicken Sie oben rechts auf ![ Seite auf ](assets/favorites-icon.png)Favoriten“ und dann auf **[!UICONTROL Aktuelle Seite hinzufügen]**.
+1. **[!DNL Favorites]** Klicken Sie oben rechts auf ![&#x200B; Seite auf &#x200B;](assets/favorites-icon.png)Favoriten“ und dann auf **[!UICONTROL Aktuelle Seite hinzufügen]**.
 
    ![Aktuelle Seite zu Favoriten hinzufügen](assets/add-current-page.png)
 
