@@ -9,19 +9,14 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: caf889d6-08a3-4186-9d9c-3cea3a0e4548
 TQID: https://experienceleague.adobe.com/cco-UwmTpDJ4bc6KvTM2BgRmvudLZveRY5WmpbhsnqM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
 workflow-type: tm+mt
-source-wordcount: 740
+source-wordcount: 745
 ht-degree: 6%
 
 ---
@@ -68,7 +63,7 @@ Validierungslogik wird mithilfe von Formeln erstellt, und Sie können die Logik 
 
 Wenn das Feld mit der angewendeten Logik die definierten Validierungsbedingungen erfüllt, wenn ein Benutzer das benutzerdefinierte Formular ausfüllt, wird das Feld hervorgehoben und die Fehlermeldung angezeigt.
 
-Sie können Validierungslogik auf die folgenden Feldtypen anwenden: einzeiliger Text, Absatz, Dropdown-Liste mit einfacher Auswahl, Dropdown-Liste mit Mehrfachauswahl, externe Suche, automatische Textvervollständigung, Datum, Kontrollkästchen-Gruppe und Optionsfelder.
+Sie können Validierungslogik auf die folgenden Feldtypen anwenden: Einzelzeilentext, Absatz, Einzelauswahl-Dropdown, Mehrfachauswahl-Dropdown, externe Suche, interne Suche, Datum, Kontrollkästchen-Gruppe und Optionsfelder.
 
 ### Lassen Sie nur zu, dass der Projektbesitzer „Rush“ für SLA auswählt
 
@@ -134,9 +129,9 @@ Wenn ein(e) Benutzende(r), der/die nicht der/die Projektbesitzer(in) ist, versuc
 
 ![Nur Claire Stevens kann dieses Feld bearbeiten](assets/only-project-owner-can-edit.png)
 
-### Mit automatischer Textvervollständigung können Werte basierend auf anderen Feldwerten zugelassen oder zurückgewiesen werden
+### Interne Suche lässt Werte basierend auf anderen Feldwerten zu oder lehnt sie ab
 
-In diesem Beispiel lässt ein Feld mit automatischer Textvervollständigung Werte basierend auf dem in einem anderen Feld des Formulars eingegebenen Wert dynamisch zu oder lehnt sie ab.
+In diesem Beispiel lässt ein internes Suchfeld Werte basierend auf dem Wert, der in einem anderen Feld des Formulars eingegeben wurde, dynamisch zu oder lehnt sie ab.
 
 Ausdruck für die Überprüfung:
 
@@ -146,7 +141,7 @@ IF({DE:DV - Text - Budget}>"10000",
 )
 ```
 
-Wenn der Wert im Feld Budget größer als 10.000 USD ist, können nur Benutzer mit der Rolle Director aus der automatisierten Textvervollständigung ausgewählt werden, auch wenn in der automatisierten Textvervollständigung kein Rollenfilter aktiviert ist.
+Wenn der Wert im Feld „Budget“ mehr als 10.000 USD beträgt, können bei der internen Suche nur Benutzer mit der Rolle „Director“ ausgewählt werden, auch wenn in der internen Suchkonfiguration kein Rollenfilter aktiviert ist.
 
 ![Budgetbetrag erfordert die Genehmigung durch den Direktor](assets/budget-director.png)
 

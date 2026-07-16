@@ -9,26 +9,19 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
 TQID: https://experienceleague.adobe.com/gpJQedqcdtjaxvhVuWKgJVpfAPAT2ICSgO6nRFLvimM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b0dd2c2c448c829b2ce1559ddc87880c9a47a68f
 workflow-type: tm+mt
-source-wordcount: 980
+source-wordcount: 967
 ht-degree: 5%
 
 ---
 
 # Freigeben eines benutzerdefinierten Formulars
-
-{{preview-fast-release-general}}
 
 Sie können den Zugriff für ein benutzerdefiniertes Formular konfigurieren, um zu steuern, wer es anzeigen, freigeben und bearbeiten kann - Person, Rolle, Gruppe, Team, Unternehmen, Geschäftsprofil.
 
@@ -64,9 +57,9 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 Wenn Sie ein neues benutzerdefiniertes Formular erstellen und jemand es an ein Objekt anhängt, kann standardmäßig jeder Benutzer, der dem Objekt zugewiesen ist, das Formular anzeigen und ausfüllen. Dazu gehören Benutzer mit einer Beitragenden - oder Anfragelizenz sowie externe Benutzer.
 
-Bei einem Objekt, an das das benutzerdefinierte Formular noch nicht angehängt wurde, kann ein Benutzer (selbst wenn er über eine Zugriffsebene für Planer verfügt) es jedoch nicht über das Dropdown-Menü Benutzerdefinierte Forms anhängen, es sei denn, einer der folgenden Punkte ist erfüllt:
+Bei einem Objekt, an das das benutzerdefinierte Formular noch nicht angehängt wurde, kann ein Benutzer (selbst wenn er über eine Standard- oder Planerzugriffsebene verfügt) es jedoch nicht über das Dropdown-Menü Benutzerdefinierte Forms anhängen, es sei denn, einer der folgenden Punkte ist erfüllt:
 
-* <span class="preview">Jemand hat das benutzerdefinierte Formular als „Jeder im System kann anzeigen und anhängen“ freigegeben</span>
+* Jemand hat das benutzerdefinierte Formular als „Jeder im System kann anzeigen und anhängen“ freigegeben.
 * Jemand hat das benutzerdefinierte Formular für den Benutzer oder dessen Team, Aufgabengebiet, Gruppe, Unternehmen oder Geschäftsprofil freigegeben, wobei mindestens die Berechtigung zum Anzeigen mit der ausgewählten Option „An benutzerdefinierte Daten anhängen“ gewährt wurde
 * Der Benutzer verfügt über eine Standard- oder Planlizenz und die Zugriffsebene ermöglicht den administrativen Zugriff auf benutzerdefinierte Formulare
 
@@ -180,13 +173,9 @@ Anstatt ein benutzerdefiniertes Formular im Standardfreigabestatus zu belassen (
    >
    >* Wenn Sie ein benutzerdefiniertes Formular systemweit sichtbar machen, lassen Sie es Benutzerinnen und Benutzern nur für die Objekte anzeigen und ausfüllen, denen sie zugewiesen sind, nicht aber, es an andere Objekte anzuhängen. Sie können das benutzerdefinierte Formular mit der Option „An benutzerdefinierte Daten anhängen“, die in Schritt 6 erläutert wird, an Objekte anhängen.
    >* Die meisten Unternehmen möchten sicherstellen, dass jeder im System ein benutzerdefiniertes Formular ausfüllen kann, wenn es an Objekte angehängt wird, an denen er arbeitet, und seine Daten in Berichten anzeigen kann. Wenn dies für Ihre Organisation zutrifft, empfehlen wir die Verwendung von **Jeder im System kann anzeigen**.
-   >* <span class="preview">Wenn Sie **Alle im System können anzeigen und anhängen** auswählen, können alle Benutzer das Formular an andere Objekte anhängen.</span>
+   >* Wenn Sie die **Alle im System können anzeigen und anhängen** auswählen, können alle Benutzer das Formular an andere Objekte anhängen.
    >
-   ><span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
    >![Benutzerdefiniertes Formular freigeben](assets/share-custom-forms-all-can-attach.png)
-   >   
-   >Beispielbild in der Produktionsumgebung:
-   >![Benutzerdefiniertes Formular freigeben](assets/share-custom-form-in-designer.png)
    >   
    >Wenn Sie Bedenken bei einem benutzerdefinierten Formular haben, bei dem Benutzer möglicherweise vertrauliche Daten eingeben, wenn sie an bestimmte Objekte angehängt sind, ist es möglicherweise effektiver, die Freigabe für diese *Objekte* zu beschränken, anstatt den Zugriff auf das Formular selbst zu beschränken.
 
