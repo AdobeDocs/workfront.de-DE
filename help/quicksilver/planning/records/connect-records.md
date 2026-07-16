@@ -9,11 +9,19 @@ exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/2-X5FtwdWU0s-yJInRRPkiNgIsgHQuvXgPBtSusmyeY
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2:
+  - id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
 source-wordcount: 3723
@@ -415,7 +423,7 @@ Nachdem Sie eine Verbindung zwischen einem Datensatztyp und Adobe Experience Man
 
 >[!NOTE]
 >
->Auf Planungsdatensätze und deren Felder kann über Experience Manager Assets zugegriffen werden, wenn Ihr Workfront-Administrator die Metadatenzuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter &quot;[ der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+>Auf Planungsdatensätze und deren Felder kann über Experience Manager Assets zugegriffen werden, wenn Ihr Workfront-Administrator die Metadatenzuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter &quot;[&#x200B; der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 >Wenn Sie Datensätze aus GenStudio Workspace in Planning mit AEM-Objekten (Assets und Inhaltsfragmenten) verbinden, werden die GenStudio-Informationen automatisch für die AEM-Objekte in AEM angezeigt. AEM-Informationen werden für GenStudio-Datensätze in den Suchfeldern angezeigt, die hinzugefügt werden, wenn die Verbindung in Workfront Planning hergestellt wird. Weitere Informationen finden Sie unter [Verwalten des GenStudio-Arbeitsbereichs in Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md).
 
 <!--
@@ -451,7 +459,7 @@ Verbinden von Datensätzen mit Adobe Experience Manager-Objekten:
     ![Select assets box for AEM record connections](assets/select-assets-box-for-aem-record-connections.png)
     -->
 
-1. Klicken Sie auf der Registerkarte **0}Assets&quot;, um einige der folgenden Asset-Typen auszuwählen:**
+1. Klicken Sie auf der Registerkarte **0&rbrace;Assets&quot;, um einige der folgenden Asset-Typen auszuwählen:**
 
    * Bilder
    * Ordner
@@ -529,7 +537,7 @@ Verbinden von Datensätzen mit Adobe Experience Manager-Objekten:
 1. Klicken Sie auf den Namen eines Datensatzes.
 
    Die Vorschauseite wird geöffnet.
-1. (Optional) Klicken Sie auf das Symbol **In neuer Registerkarte öffnen** (![ Details in einem neuen Registerkartensymbol öffnen](assets/open-details-in-a-new-tab-icon.png), um die Seite des Datensatzes in einer neuen Browser-Registerkarte zu öffnen.
+1. (Optional) Klicken Sie auf das Symbol **In neuer Registerkarte öffnen** (![&#x200B; Details in einem neuen Registerkartensymbol öffnen](assets/open-details-in-a-new-tab-icon.png), um die Seite des Datensatzes in einer neuen Browser-Registerkarte zu öffnen.
 1. (Optional und bedingt) Klicken Sie auf den Namen eines Datensatztyps im Breadcrumb der Kopfzeile der Datensatzseite, um auf einen anderen Datensatztyp in derselben Hierarchie zuzugreifen. Für den Datensatztyp des Datensatzes, den Sie verbinden, müssen Hierarchien vorhanden sein, damit Sie sie im Breadcrumb anzeigen können. Weitere Informationen finden Sie unter [Erstellen von Workspace-Hierarchien](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
 1. Klicken Sie auf **Registerkarte** Verbindungen“ in der Vorschau oder Seite des Datensatzes.
 
@@ -568,7 +576,7 @@ Die Datensätze und Objekte werden sofort hinzugefügt.
 1. Klicken Sie auf den Namen eines Datensatzes.
 
    Die Vorschauseite wird geöffnet.
-1. (Optional) Klicken Sie auf das Symbol **In neuer Registerkarte öffnen** (![ Details in einem neuen Registerkartensymbol öffnen](assets/open-details-in-a-new-tab-icon.png), um die Seite des Datensatzes zu öffnen.
+1. (Optional) Klicken Sie auf das Symbol **In neuer Registerkarte öffnen** (![&#x200B; Details in einem neuen Registerkartensymbol öffnen](assets/open-details-in-a-new-tab-icon.png), um die Seite des Datensatzes zu öffnen.
 1. Klicken Sie auf **vorhandene Registerkarte „Verbundene**&quot; auf der Seite des Datensatzes. Sie müssen zunächst eine Seite **Verbundene Datensätze“**.
 
    In der Tabellenansicht wird eine verbundene Datensatztypseite angezeigt.
