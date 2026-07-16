@@ -9,17 +9,12 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
 TQID: https://experienceleague.adobe.com/gpJQedqcdtjaxvhVuWKgJVpfAPAT2ICSgO6nRFLvimM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b0dd2c2c448c829b2ce1559ddc87880c9a47a68f
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 58d13b171ada1f43efe4bcca0c3847048a32e863
 workflow-type: tm+mt
 source-wordcount: 967
 ht-degree: 5%
@@ -169,14 +164,14 @@ Anstatt ein benutzerdefiniertes Formular im Standardfreigabestatus zu belassen (
     </tbody> 
    </table>
 
-1. (Optional) Wiederholen Sie die Schritte 5 bis 6, um der Liste weitere Namen hinzuzufügen und ihre Optionen zu konfigurieren.
+1. (Optional) Wiederholen Sie die Schritte 4 bis 5, um der Liste weitere Namen hinzuzufügen und ihre Optionen zu konfigurieren.
 1. (Optional) Wenn Sie den Zugriff auf das benutzerdefinierte Formular (auf Objekte, an die es angehängt ist) auf die in den vorherigen Schritten angegebenen beschränken möchten, klicken Sie auf den Dropdown-Pfeil unter **Wer hat Zugriff** und wählen Sie dann **Nur eingeladene Personen können Zugriff**.
 
    Wenn Sie Ihre Meinung ändern, können Sie **Alle im System können anzeigen** auswählen.
 
    >[!NOTE]
    >
-   >* Wenn Sie ein benutzerdefiniertes Formular systemweit sichtbar machen, lassen Sie es Benutzerinnen und Benutzern nur für die Objekte anzeigen und ausfüllen, denen sie zugewiesen sind, nicht aber, es an andere Objekte anzuhängen. Sie können das benutzerdefinierte Formular mit der Option „An benutzerdefinierte Daten anhängen“, die in Schritt 6 erläutert wird, an Objekte anhängen.
+   >* Wenn Sie ein benutzerdefiniertes Formular systemweit sichtbar machen, lassen Sie es Benutzerinnen und Benutzern nur für die Objekte anzeigen und ausfüllen, denen sie zugewiesen sind, nicht aber, es an andere Objekte anzuhängen. Sie können das benutzerdefinierte Formular mit der Option „An benutzerdefinierte Daten anhängen“, die in Schritt 5 erläutert wird, an Objekte anhängen.
    >* Die meisten Unternehmen möchten sicherstellen, dass jeder im System ein benutzerdefiniertes Formular ausfüllen kann, wenn es an Objekte angehängt wird, an denen er arbeitet, und seine Daten in Berichten anzeigen kann. Wenn dies für Ihre Organisation zutrifft, empfehlen wir die Verwendung von **Jeder im System kann anzeigen**.
    >* Wenn Sie die **Alle im System können anzeigen und anhängen** auswählen, können alle Benutzer das Formular an andere Objekte anhängen.
    >

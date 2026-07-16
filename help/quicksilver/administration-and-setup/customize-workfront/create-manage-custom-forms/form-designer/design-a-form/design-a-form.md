@@ -11,23 +11,15 @@ exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9vmobOfSleqLF7HqRnOav5IB1l8C4WPLO0vyEJwmfiI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 58d13b171ada1f43efe4bcca0c3847048a32e863
 workflow-type: tm+mt
-source-wordcount: 7795
-ht-degree: 81%
+source-wordcount: 7956
+ht-degree: 78%
 
 ---
 
@@ -683,7 +675,7 @@ Ein Datumsfeld zeigt einen Kalender an, in dem Benutzer ein Datum und eine Uhrze
 
 Hinzufügen von Datumsfeldern:
 
-1. Suchen Sie auf der **&#x200B;**&#x200B;Neues Feld auf der linken Bildschirmseite nach **Datum** und ziehen Sie es in einen Bereich auf der Arbeitsfläche.
+1. Suchen Sie auf der **** Neues Feld auf der linken Bildschirmseite nach **Datum** und ziehen Sie es in einen Bereich auf der Arbeitsfläche.
 
    ![Feld in Abschnitt ziehen](assets/drag-field-to-section.png)
 
@@ -807,12 +799,12 @@ So fügen Sie eine externe Suche hinzu:
       <td role="rowheader">JSON-Pfad</td>
       <td><p>Geben Sie den JSON-Pfad für die API ein oder fügen Sie ihn ein.</p> <p>Diese Option ermöglicht das Extrahieren von Daten aus der von der API-URL zurückgegebenen JSON. Damit können Sie auswählen, welche Werte aus dem JSON-Code in den Dropdown-Optionen angezeigt werden sollen.</p><p>Wenn Ihre API-URL beispielsweise JSON im folgenden Format zurückgibt, können Sie "$.data[*].name“ verwenden, um USA und Kanada als Dropdown-Optionen auszuwählen:</br>
       <pre>
-      &lbrace;
-       Daten: &lbrace;
+      {
+       Daten: {
          { name: „USA“},
          { name: „Canada“}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Weitere Informationen zum JSON-Pfad und um sicherzustellen, dass Sie den richtigen Pfad angeben, finden Sie unter <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
@@ -1054,66 +1046,65 @@ Sie können Ihren benutzerdefinierten Formularen native Workfront-Felder hinzuf�
 
 +++ Erweitern, um die Liste der unterstützten nativen Felder anzuzeigen
 
-In dieser Tabelle sind die verfügbaren nativen Felder für bestimmte Workfront-Objekte in einem benutzerdefinierten Formular aufgeführt.
+Diese Liste zeigt die verfügbaren nativen Felder für benutzerdefinierte Formulare und welche Objekttypen Sie für jedes Feld verwenden können.
 
-| Feldname | Projekt | Aufgabe | Problem | Vorlage | Vorlagenaufgabe | Portfolio | Programm | Gruppe |
-|--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
-| Tatsächlicher Gewinn | ✓ |   |   |   |   |   |   |   |
-| Tatsächliches Abschlussdatum | ✓ | ✓ | ✓ |   |   |   |   |   |
-| Tatsächliche Dauer | ✓ |   |   |   |   |   |   |   |
-| Tatsächliche Stunden | ✓ |   | ✓ |   |   |   |   |   |
-| Tatsächliches Startdatum | ✓ | ✓ | ✓ |   |   |   |   |   |
-| Budget | ✓ |   |   | ✓ |   | ✓ |   |   |
-| Firma | ✓ |   |   | ✓ |   |   |   |   |
-| Bedingung | ✓ | ✓ | ✓ |   |   |   |   |   |
-| Bedingungstyp | ✓ |   |   | ✓ |   |   |   |   |
-| Währung | ✓ |   |   | ✓ |   |   |   |   |
-| Beschreibung | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Dauer |   | ✓ |   |   | ✓ |   |   |   |
-| Dauertyp |   | ✓ |   |   | ✓ |   |   |   |
-| Dauer – Einheit |   | ✓ |   |   | ✓ |   |   |   |
-| Eingegeben von | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
-| Eingabedatum | ✓ | ✓ | ✓ | ✓ | ✓ |   |   | ✓ |
-| Wechselkursdatum | ✓ |   |   |   |   |   |   |   |
-| Fixkosten | ✓ |   |   | ✓ |   |   |   |   |
-| Festeinnahmen | ✓ |   |   | ✓ |   |   |   |   |
-| Gruppe | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
-| Zuletzt aktualisiert von | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
-| Datum der letzten Aktualisierung | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
-| Name | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| Besitzer | ✓ |   |   | ✓ |   | ✓ | ✓ |   |
-| Performance-Index-Methode | ✓ |   |   | ✓ |   |   |   |   |
-| Geplanter Nutzen | ✓ |   |   | ✓ |   |   |   |   |
-| Geplantes Abschlussdatum | ✓ | ✓ | ✓ |   |   |   |   |   |
-| Geplante Dauer | ✓ |   |   | ✓ |   |   |   |   |
-| Geplante Stunden | ✓ | ✓ | ✓ |   | ✓ |   |   |   |
-| Geplantes Startdatum | ✓ |   |   |   |   |   |   |   |
-| Portfolio | ✓ |   |   | ✓ |   |   | ✓ |   |
-| Priorität | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
-| Programm | ✓ |   |   | ✓ |   |   |   |   |
-| Voraussichtliches Abschlussdatum | ✓ | ✓ |   |   |   |   |   |   |
-| Geplante Dauer in Minuten |   | ✓ |   |   |   |   |   |   |
-| Voraussichtlicher Starttermin | ✓ | ✓ |   |   |   |   |   |   |
-| Referenznummer | ✓ | ✓ | ✓ | ✓ | ✓ |   |   |   |
-| Zeitplanmodus | ✓ |   |   | ✓ |   |   |   |   |
-| Schweregrad |   |   | ✓ |   |   |   |   |   |
-| Sponsor | ✓ |   |   | ✓ |   |   |   |   |
-| Status | ✓ | ✓ |   |   |   |   |   |   |
-| Story-Punkte |   | ✓ |   |   |   |   |   |   |
-| Vorlage | ✓ |   |   |   |   |   |   |   |
-| Geschätzte Gesamtkosten | ✓ |   |   | ✓ |   |   |   |   |
-| Geschätzte Gesamteinnahmen | ✓ |   |   | ✓ |   |   |   |   |
-| URL | ✓ | ✓ |   | ✓ | ✓ |   |   |   |
-
-{style="table-layout:auto"}
-
-Diese zusätzlichen benutzerdefinierten Formularobjekttypen unterstützen auch native Feldverweise.
-
-* Rechnungsnachweis: Feld Fester Umsatz
-* Dokument: Name, Beschreibungsfelder
-* Firma: Name, Felder für Gruppe
-* Tarifkarte: Name, Beschreibung, Firma, Gruppenfelder
-* Aufgabengebiet: Name, Beschreibungsfelder
+* **Tatsächlicher**: Projekt
+* **Tatsächliches Abschlussdatum**: Projekt, Aufgabe, Problem
+* **Istkosten**: Projekt, Aufgabe, Problem
+* **Tatsächliche Dauer**: Projekt, Aufgabe
+* **Tatsächliche Stunden**: Projekt, Aufgabe, Problem
+* **Tatsächliches Startdatum**: Projekt, Aufgabe, Problem
+* **budget**: Projekt, Vorlage, Portfolio
+* **Commit-Datum**: Aufgabe, Problem
+* **Unternehmen**: Projekt, Vorlage, Tarifkarte
+* **Bedingung**: Projekt, Aufgabe, Problem
+* **Bedingungstyp**: Projekt, Vorlage
+* **Konvertierte Anfrage - Urheber**: Projekt
+* **Währung**: Projekt, Vorlage
+* **Beschreibung**: Projekt, Aufgabe, Problem, Vorlage, Vorlagenaufgabe, Portfolio, Programm, Gruppe, Dokument, Tarifkarte, Aufgabengebiet
+* **duration**: Aufgabe, Vorlagenaufgabe
+* **Dauertyp**: Aufgabe, Vorlagenaufgabe
+* **Dauer Einheit**: Aufgabe, Vorlagenaufgabe
+* **Eingegeben von**: Projekt, Aufgabe, Problem, Vorlage, Vorlagenaufgabe, Gruppe
+* **Eingabedatum**: Projekt, Aufgabe, Problem, Vorlage, Vorlagenaufgabe, Gruppe
+* **Wechselkursdatum**: Projekt
+* **Fixkosten**: Projekt, Vorlage
+* **Festeinnahmen**: Projekt, Vorlage, Rechnungsnachweis
+* **group**: Projekt, Vorlage, Portfolio, Programm, Firma, Tarifkarte
+* **Anfragetyp**: Problem
+* **Iteration**: Aufgabe
+* **Zuletzt aktualisiert von**: Projekt, Aufgabe, Problem, Vorlage, Vorlagenaufgabe
+* **Letztes Aktualisierungsdatum**: Projekt, Aufgabe, Problem, Vorlage, Vorlagenaufgabe
+* **Name**: Projekt, Aufgabe, Problem, Vorlage, Vorlagenaufgabe, Portfolio, Programm, Gruppe, Dokument, Firma, Tarifkarte, Aufgabengebiet
+* **Inhaber**: Projekt, Vorlage, Portfolio, Programm
+* **Performance Index-Methode**: Projekt, Vorlage
+* **Geplanter Vorteil**: Projekt, Vorlage
+* **Geplantes Abschlussdatum**: Projekt, Aufgabe, Problem
+* **Geplante Dauer**: Projekt, Vorlage
+* **Geplante Stunden**: Projekt, Aufgabe, Problem, Vorlagenaufgabe
+* **Geplantes Startdatum**: Projekt, Aufgabe, Problem
+* **Portfolio**: Projekt, Vorlage, Programm
+* **Priorität**: Projekt, Aufgabe, Problem, Vorlage, Vorlagenaufgabe
+* **Programm**: Projekt, Vorlage
+* **Voraussichtliches Abschlussdatum**: Projekt, Aufgabe
+* **Projizierte Dauer in Minuten**: Aufgabe
+* **Voraussichtliches Startdatum**: Projekt, Aufgabe
+* **Warteschlangenthema**: Problem
+* **Bereitschaft**: Aufgabe
+* **Referenznummer**: Projekt, Aufgabe, Problem, Vorlage, Vorlagenaufgabe
+* **Ressourcenmanager**: Projekt
+* **Zeitplanmodus**: Projekt, Vorlage
+* **Schweregrad**: Problem
+* **Sponsor**: Projekt, Vorlage
+* **Status**: Projekt, Aufgabe, Problem
+* **Story Points**: Aufgabe
+* **Aufgabenbeschränkung**: Aufgabe
+* **Vorlage**: Projekt
+* **Auflösung**: Projekt, Aufgabe
+* **Geschätzte Gesamtkosten**: Projekt, Vorlage
+* **Geschätzte Gesamteinnahmen**: Projekt, Vorlage
+* **URL**: Projekt, Aufgabe, Problem, Vorlage, Vorlagenaufgabe
+* **Work Effort**: Aufgabe
 
 <!--
 Non-Labor Resource: Name, Description, Home Group, Non-labor Category, Non-labor Group, Unique Identifier fields
