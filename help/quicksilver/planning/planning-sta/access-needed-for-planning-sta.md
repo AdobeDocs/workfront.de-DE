@@ -3,7 +3,7 @@ title: Zugriff für Adobe Workfront Planning als eigenständiges Produkt erforde
 description: In diesem Artikel werden Lizenzen, Zugriffsebenen und Benutzerfunktionen für Adobe Workfront Planning als eigenständiges Produkt beschrieben.
 last-update: 2026-04-01T18:02:40Z
 git-commit-file: 8cc175490a6aa1db68b238edbdf9da9da7fbb258
-source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
+source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 2%

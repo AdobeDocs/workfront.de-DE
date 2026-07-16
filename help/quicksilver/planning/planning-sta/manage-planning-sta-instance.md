@@ -4,7 +4,7 @@ description: In diesem Artikel wird beschrieben, wie Sie Voreinstellungen und di
 author: Alina
 feature: Workfront Planning
 role: User, Admin
-source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
+source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
 workflow-type: tm+mt
 source-wordcount: '497'
 ht-degree: 3%
@@ -109,6 +109,4 @@ Es wird empfohlen, Ihre Systemeinstellungen während der Workfront-Planung als e
 Die Konfiguration Ihrer Workfront Planning-Systemeinstellungen ähnelt der Konfiguration in Workfront.
 
 Weitere Informationen finden Sie [Konfigurieren von Systemvoreinstellungen](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
-
-
 

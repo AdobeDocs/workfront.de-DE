@@ -5,7 +5,7 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
+source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 2%
@@ -71,11 +71,10 @@ Weitere Informationen zum Zugriff für Workfront als eigenständiges Paket finde
 1. Klicken Sie **Erstellen**, um das Team zu erstellen.
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um ein vorhandenes Team zu bearbeiten:
 
-   * Bewegen Sie den Mauszeiger über den Team-Namen in der Liste und klicken Sie dann auf das **Mehr** Menü ![Mehr &#x200B;](assets/more-menu.png) > **Team bearbeiten**
+   * Bewegen Sie den Mauszeiger über den Team-Namen in der Liste und klicken Sie dann auf das **Mehr** Menü ![Mehr ](assets/more-menu.png) > **Team bearbeiten**
    * Wählen Sie das Team in der Liste aus **klicken Sie dann auf** Team bearbeiten“ in der blauen Symbolleiste unten auf der Seite
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um ein Team zu löschen:
 
-   * Bewegen Sie den Mauszeiger über den Team-Namen in der Liste und klicken Sie dann auf das **Mehr** Menü ![Mehr &#x200B;](assets/more-menu.png) > **Team löschen**
+   * Bewegen Sie den Mauszeiger über den Team-Namen in der Liste und klicken Sie dann auf das **Mehr** Menü ![Mehr ](assets/more-menu.png) > **Team löschen**
    * Wählen Sie das Team aus der Liste aus **klicken Sie dann unten auf** blauen Symbolleiste auf der Seite auf „Team löschen“
 1. Klicken Sie **Ja, Löschen** zur Bestätigung.
-
