@@ -5,9 +5,9 @@ title: Adobe Workfront MCP-Server-Tools
 description: Referenzliste der über den Adobe Workfront MCP-Server verfügbaren Tools, gruppiert nach Workfront-Bereich.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: e51ba55867fdf47034e8baef28c2e3f7e541dde9
+source-git-commit: 2d6b26b8ab5e58b72fc16db87518c98cdc0c4cb1
 workflow-type: tm+mt
-source-wordcount: '1964'
+source-wordcount: '1992'
 ht-degree: 6%
 
 ---
@@ -208,6 +208,7 @@ Workflow-Tools sind allgemeine Aktionen, die die KI-Agentenplattform für die Ar
 | Objekt aktualisieren | `workflow_update_any_object` | Aktualisiert Felder eines bestehenden Workfront-Objekts. | Schreiben |
 | Objekt löschen | `workflow_delete_any_object` | Löscht ein Workfront-Objekt nach ID. Erfordert eine explizite Benutzerbestätigung, bevor die Aktion ausgeführt wird. | Schreiben |
 | Auflösen von Feldnamen | `workflow_resolve_field_names_any_object` | Konvertiert von Benutzenden bereitgestellte Feldnamen oder Kennzeichnungen in die zugrunde liegenden Workfront-API-Feldnamen, damit die KI-Agentenplattform genaue Anfragen erstellen kann. | Lesen |
+| Workflow-Dokumente lesen | `workflow_read_workflow_docs` | Lädt die Workfront Workflow-Dokumentation, einschließlich Handbüchern zur Tool-Nutzung und objektspezifischen Playbooks für Vorgänge. Dies ist der erste erforderliche Schritt vor dem Ausführen von Workflow-Aktionen. | Lesen |
 
 ### Kommentare
 
