@@ -9,7 +9,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
+source-git-commit: e359ae2ed97260e9325842f9726326866c6a815e
 workflow-type: tm+mt
 source-wordcount: 287
 ht-degree: 0%
@@ -39,7 +39,6 @@ Der Bindestrich ist beabsichtigt. Sie besagt, dass das System nicht darauf warte
 Das Feld Entscheidungsdatum zeigt weiterhin das Datum der letzten Entscheidungsaktivität des Empfängers an, aber die Entscheidung des Empfängers wird im Bericht nicht mehr gezählt.
 
 Informationen zur Erstellung und Verwendung des Berichts zur Korrekturabzugsgenehmigung finden Sie unter [Verwenden des Berichts zur Korrekturabzugsgenehmigung](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md).
-
 
 
 

@@ -20,19 +20,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 744
+source-wordcount: 679
 ht-degree: 4%
 
 ---
 
-# Hinzufügen eines Titelbilds zu einem Eintrag
+# Hinzufügen einer
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -70,7 +71,7 @@ Weitere Informationen finden Sie unter [Erstellen von Eintragstypen](/help/quick
   </tr> 
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td>   <p>Tragen Sie Berechtigungen oder höhere Berechtigungen zu einem Arbeitsbereich, einem Datensatztyp und <span class="preview">Verwalten von Berechtigungen für einen Datensatz) </span> </p>  
+   <td>   <p>Mitwirken an oder höhere Berechtigungen für einen Arbeitsbereich, Datensatztyp und Verwalten von Berechtigungen für einen Datensatz </p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p> </td> 
   </tr>   
 </tbody> 
@@ -187,16 +188,12 @@ Sie können einen Datensatz personalisieren, indem Sie oben auf der Datensatzvor
 
    Die Vorschau des Datensatzes wird in der Ansicht geöffnet.
 
-   <!--update screen shot for new details views preview-->
-
    ![Vorschaufeld Details](assets/details-box.png)
 
 
 1. (Optional) Klicken Sie auf **Symbol „In neuer Registerkarte** öffnen![&#x200B; Symbol „In neuer Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen.
 
    Die Datensatzseite wird geöffnet.
-
-   <!--update screen shot for new details views preview-->
 
    ![Detailseite](assets/details-page.png)
 
@@ -220,8 +217,6 @@ Das **„Datensatzabdeckung** wird auf der Registerkarte **Hochladen** geöffnet
 1. Klicken Sie **Bild verwenden**.
 
    Das Bild wird oben auf der Datensatzvorschau- oder Detailseite hochgeladen und die Änderungen werden automatisch gespeichert.
-
-   <!--update screen shot for new details views preview-->
 
    ![Seite mit Titelbild aufzeichnen](assets/record-page-with-cover-image.png)
 

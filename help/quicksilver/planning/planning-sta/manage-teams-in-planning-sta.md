@@ -5,7 +5,7 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: ee260723331ddff4e8d89f7d9ca2b807835d6130
+source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 2%
@@ -20,6 +20,7 @@ ht-degree: 2%
 >Die Informationen in diesem Artikel beziehen sich auf Adobe Workfront Planning, wenn es als eigenständiges Produkt gekauft wird. Lesen Sie diesen Artikel, wenn Ihr Unternehmen ein reines Adobe Workfront Planning-Paket erworben und kein Workfront Workflow-Paket gekauft hat.
 >
 >Informationen zu Adobe Workfront Planning beim Kauf zusammen mit einem Workfront-Paket finden Sie unter [Erste Schritte mit Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
+>
 
 Sie können Teams in Adobe Workfront Planning als eigenständiges Produkt auf ähnliche Weise wie in Adobe Workfront verwalten, es gibt jedoch einige Einschränkungen.
 
@@ -77,4 +78,3 @@ Weitere Informationen zum Zugriff für Workfront als eigenständiges Paket finde
    * Bewegen Sie den Mauszeiger über den Team-Namen in der Liste und klicken Sie dann auf das **Mehr** Menü ![Mehr &#x200B;](assets/more-menu.png) > **Team löschen**
    * Wählen Sie das Team aus der Liste aus **klicken Sie dann unten auf** blauen Symbolleiste auf der Seite auf „Team löschen“
 1. Klicken Sie **Ja, Löschen** zur Bestätigung.
-

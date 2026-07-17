@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 3118
-ht-degree: 3%
+source-wordcount: 3058
+ht-degree: 4%
 
 ---
 
@@ -33,10 +33,12 @@ ht-degree: 3%
 
 # Verbinden von Eintragstypen
 
+<!--
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 
 {{planning-important-intro}}
@@ -359,7 +361,7 @@ Old:
    >
    >* Zusätzlich zu Systemfeldern wie Name und Beschreibung können Sie die folgenden Feldtypen als Suchfelder von Objekttypen aus einer anderen Anwendung hinzufügen:
    >   * Benutzerfelder, z. B. „Projektbesitzer“ oder „Sponsor“, aus Workfront-Projekten.
-   >   * <span class="preview">Referenzfelder wie Projektgruppe oder Projektfirma aus Workfront-Projekten. </span>
+   >   * Referenzfelder, wie Projektgruppe oder Projektfirma aus Workfront-Projekten.
    >* Für AEM-Inhaltsfragmente werden nur die folgenden Felder unterstützt: <!--this information is also in "Connect record types overview"-->
    >   * Erstellt von und Erstellt um
    >   * Geändert von und Geändert um

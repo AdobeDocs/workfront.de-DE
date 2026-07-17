@@ -5,7 +5,7 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 847c38fe006ca5f1170e4b28c9b0a2c61c5c77fa
+source-git-commit: 697499fadf4d5d22292ededed381cb72e53fcae3
 workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 14%
@@ -16,7 +16,9 @@ ht-degree: 14%
 # Erste Schritte mit Adobe Workfront Planning als eigenständiges Produkt
 
 <!--
+
 This is linked from the "planning-important-intro" snippet and many other Planning integrated articles
+
 -->
 
 <!--
@@ -145,12 +147,6 @@ Die Verwendung von Workfront Planning als eigenständiges Produkt ähnelt der Ve
 Das eigenständige Workfront Planning-Paket enthält dieselben Funktionen wie die integrierte Version ohne Verbindungen zu Workfront-Objekttypen und -Funktionen.
 
 Weitere Informationen finden Sie unter [Erste Schritte mit Adobe Workfront Planning](/help/quicksilver/planning/general/planning-overview.md).
-
-
-
-
-
-
 
 
 

@@ -22,20 +22,21 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 3665
+source-wordcount: 3723
 ht-degree: 2%
 
 ---
 
 # Einträge verbinden
 
+<!--
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -128,8 +129,8 @@ Sie können Folgendes verbinden:
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>   <p>Tragen Sie Berechtigungen oder höhere Berechtigungen zu einem Arbeitsbereich und einem Datensatztyp bei, um Datensätze zu verbinden.</p>
-   <p><span class="preview">Verwalten Sie die Berechtigungen für den Datensatz, von dem aus Sie eine Verbindung herstellen</span></p>
-   <p><span class="preview">Anzeigen von oder höheren Berechtigungen für den Datensatz, mit dem Sie eine Verbindung herstellen</span></p>
+   <p>Verwalten Sie die Berechtigungen für den Datensatz, von dem aus Sie eine Verbindung herstellen</p>
+   <p>Anzeigen von oder höheren Berechtigungen für den Datensatz, mit dem Sie eine Verbindung herstellen</p>
    <p>Zeigen Sie oder höhere Berechtigungen für einen Arbeitsbereich und einen Datensatztyp an, um alle Verbindungen zu Objekten und Feldern aus anderen Anwendungen anzuzeigen, unabhängig von Ihrem Zugriff in der anderen Anwendung. </p>
    <p>Zeigen Sie Berechtigungen zum Anzeigen oder höhere Berechtigungen für die Objekte an, die Sie von Workfront oder Experience Manager Assets aus verknüpfen möchten. </p>
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten.</p> </td> 
@@ -423,7 +424,7 @@ Nachdem Sie eine Verbindung zwischen einem Datensatztyp und Adobe Experience Man
 >[!NOTE]
 >
 >Auf Planungsdatensätze und deren Felder kann über Experience Manager Assets zugegriffen werden, wenn Ihr Workfront-Administrator die Metadatenzuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter &quot;[&#x200B; der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
->Wenn Sie in Planning Datensätze aus dem GenStudio-Arbeitsbereich mit AEM-Objekten (Assets und Inhaltsfragmenten) verbinden, werden die GenStudio-Informationen automatisch für die AEM-Objekte in AEM angezeigt. AEM-Informationen werden für GenStudio-Datensätze in den Suchfeldern angezeigt, die hinzugefügt werden, wenn die Verbindung in Workfront Planning hergestellt wird. Weitere Informationen finden Sie unter [Verwalten des GenStudio-Arbeitsbereichs in Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md).
+>Wenn Sie Datensätze aus GenStudio Workspace in Planning mit AEM-Objekten (Assets und Inhaltsfragmenten) verbinden, werden die GenStudio-Informationen automatisch für die AEM-Objekte in AEM angezeigt. AEM-Informationen werden für GenStudio-Datensätze in den Suchfeldern angezeigt, die hinzugefügt werden, wenn die Verbindung in Workfront Planning hergestellt wird. Weitere Informationen finden Sie unter [Verwalten des GenStudio-Arbeitsbereichs in Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md).
 
 <!--
 metadata mapping is not available yet for content fragments - as of April 22, 2026. Syuzanna said the mapping is available just for GenS workspace, but checking again with her and Isk.

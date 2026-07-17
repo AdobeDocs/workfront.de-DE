@@ -16,10 +16,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 537
-ht-degree: 5%
+source-wordcount: 478
+ht-degree: 6%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 5%
 
 # Überblick über Objektbeschränkungen bei Adobe Workfront-Planung
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases.</span>   
 
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben.</span>
-
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -63,7 +63,7 @@ In der folgenden Tabelle sind die Beschränkungen für die Anzahl der Objekte au
 | Anzahl der Verbindungsfelder für einen Datensatztyp | 30 |
 | Anzahl der Zeichen in einem Formelfeldausdruck | 50.000 |
 | Anzahl der Entitäten (Benutzer, Rollen, Teams, Unternehmen, Gruppen), für die Sie ein Planning-Objekt freigeben können | 100 |
-| <span class="preview">Anzahl der Datensätze, die gleichzeitig stapelweise freigegeben werden können</span> | 100 |
+| Anzahl von Datensätzen, die gleichzeitig stapelweise freigegeben werden können | 100 |
 | Anzahl der Datensatztypen in einer Hierarchie | 4 |
 | Anzahl der Hierarchien in einem Arbeitsbereich | 5 |
 | Anzahl der Datensätze eines übergeordneten Datensatztyps, die mit einem Datensatz eines untergeordneten Datensatztyps verbunden sind, innerhalb einer Hierarchie | 10 |

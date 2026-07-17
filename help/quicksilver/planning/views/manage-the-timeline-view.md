@@ -19,20 +19,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a76a39fde984bece43cda9812c436d81f41eb989
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 4341
+source-wordcount: 4300
 ht-degree: 3%
 
 ---
 
 # Verwalten der Timeline-Ansicht
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
-
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -268,7 +268,7 @@ So verwalten Sie eine Zeitleisten -Ansicht:
 1. Aktualisieren Sie die folgenden Ansichtselemente wie in den folgenden Unterabschnitten beschrieben:
    * [Filter](#add-filters)
    * [Gruppierung](#add-grouping)
-   * &lbrack;Einstellungen
+   * [Einstellungen](#edit-the-timeline-view-settings)
      <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
 
 ### Filter hinzufügen
@@ -378,21 +378,22 @@ So fügen Sie einen Filter zu einer Zeitleisten -Ansicht hinzu:
 1. Klicken Sie links auf die folgenden Operatoren, um anzugeben, wie die Filterbedingungen verbunden werden und angewendet werden sollen:
 
    * **AND**: Alle angegebenen Bedingungen müssen erfüllt sein.
-   * **OR**: Jede der angegebenen Bedingungen muss erfüllt sein.Dies ist die Standardoption.
+   * **OR**: Jede der angegebenen Bedingungen muss erfüllt sein.
+Dies ist die Standardoption.
 
 1. (Optional) Fügen Sie zusätzliche Filtergruppierungen hinzu und verbinden Sie sie mit den Operatoren **AND** oder **OR**.
 
-   Die Liste der Datensätze wird automatisch anhand Ihrer Filterkriterien gefiltert.  
+   Die Liste der Datensätze wird automatisch anhand Ihrer Filterkriterien gefiltert.  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
 1. (Optional) Klicken Sie auf das Symbol **x**, um eine Filterbedingung zu entfernen.
-1. <span class="preview">(Optional und bedingt) Wenn Sie eine Aufschlüsselungsstruktur zu Ihrer Zeitleisten -Ansicht hinzugefügt haben, erweitern Sie den Datensatztyp im folgenden Dropdown-Menü und wiederholen Sie die obigen Schritte, um einen Filter für einen in der Aufschlüsselung enthaltenen Datensatztyp hinzuzufügen. </span>
+1. (Optional und bedingt) Wenn Sie eine Aufschlüsselungsstruktur zu Ihrer Zeitleisten -Ansicht hinzugefügt haben, erweitern Sie den Datensatztyp im folgenden Dropdown-Menü und wiederholen Sie die obigen Schritte, um einen Filter für einen in der Aufschlüsselung enthaltenen Datensatztyp hinzuzufügen.
 
-   <span class="preview"> Wiederholung für jeden Datensatztyp in der Aufschlüsselung.</span>
+   Wiederholen Sie dies für jeden Datensatztyp in der Aufschlüsselung.
 
    ![Mehrstufiger Filter mit Aufschlüsselung für die Zeitleisten-Ansicht](assets/multi-tiered-filters-with-breakdown-for-timeline-view.png)
 
-   <span class="preview">Aufschlüsselungs-Datensatztypen können nur in der Zeitleisten -Ansicht gefiltert werden.</span>
+   Sie können nur in der Zeitleisten -Ansicht nach Aufschlüsselungs-Datensatztypen filtern.
 1. (Optional) Klicken Sie auf **Filter** oder an einer anderen Stelle auf der Seite, um das Feld „Filter“ zu schließen. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 
@@ -405,7 +406,8 @@ Beim Anwenden einer Gruppierung auf eine Ansicht können Sie Datensätze anhand 
 Beachten Sie beim Arbeiten mit Gruppierungen in der Zeitleisten -Ansicht Folgendes:
 
 * Sie können Gruppierungen sowohl in der Tabellen- als auch in der Zeitleisten-Ansicht anwenden. Die Gruppierungen der Tabellenansicht sind unabhängig von denen in der Zeitleisten -Ansicht desselben Datensatztyps.
-* Sie können in einer Ansicht drei Gruppierungsebenen anwenden. Die Datensätze werden in der Reihenfolge der ausgewählten Gruppierungen gruppiert.&lt;!—!—* Bei Verwendung der API können Sie bis zu 4 Gruppierungsebenen anwenden. —Diese wird vorerst überprüft—>
+* Sie können in einer Ansicht drei Gruppierungsebenen anwenden. Die Datensätze werden in der Reihenfolge der ausgewählten Gruppierungen gruppiert.
+&lt;!—!—* Bei Verwendung der API können Sie bis zu 4 Gruppierungsebenen anwenden. —Diese wird vorerst überprüft—>
 * Die Gruppierungen sind für die ausgewählte Ansicht eindeutig. Auf zwei Tabellenansichten desselben Datensatztyps können unterschiedliche Gruppierungen angewendet werden. Zwei Benutzende, die dieselbe Tabellenansicht betrachten, sehen dieselbe Gruppierung, die derzeit angewendet wird.
 * Die von Ihnen erstellten Gruppierungen können nicht für eine Tabellenansicht benannt werden.
 * Das Entfernen von Gruppierungen entfernt sie von allen Benutzern, die auf denselben Datensatztyp zugreifen wie Sie und die dieselbe Ansicht anzeigen wie Sie.
@@ -443,9 +445,7 @@ So fügen Sie eine Gruppierung in der Zeitleisten -Ansicht hinzu:
 
 1. Ziehen Sie **Feld Datensätze gruppieren nach** Gruppierungen in die richtige Reihenfolge.
 
-1. <span class="preview"> Wählen Sie im **Layout** des Felds **Datensätze gruppieren nach** eine der folgenden Optionen aus:</span>
-
-   <div class="preview">
+1. Wählen Sie **Bereich** Layout“ des Felds **Datensätze gruppieren nach** eine der folgenden Optionen aus:
 
    * **Gestapelt**: Gruppierungen werden ohne eingefrorene linke Spalte angezeigt und entsprechen der Breite der Timelines ihrer Elemente.
 
@@ -609,7 +609,8 @@ Beachten Sie Folgendes, wenn Sie die Timeline der Datensätze nach ihren verbund
   Beispielsweise sind Aufgaben mit Projekten in Workfront verbunden. Mit der Aufschlüsselungsfunktion können Sie Projekte anzeigen, die mit Kampagnen in Planning verbunden sind, aber keine Aufgaben, die mit Projekten in Workfront verbunden sind.
 
   Wenn Sie sowohl Portfolios als auch Projekte in der Zeitleistenansicht eines Workfront Planning-Datensatztyps anzeigen möchten, müssen sowohl die Portfolios als auch die Projekte mit dem Planning-Datensatz oder mit einem Datensatz verbunden sein, der mit dem Planning-Datensatz verknüpft ist, dessen Zeitleistenansicht Sie verwalten.
-* Sie können keine Adobe GenStudio Brands anzeigen, die mit Planning-Datensatztypen verbunden sind.Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Sie können keine Adobe GenStudio Brands anzeigen, die mit Planning-Datensatztypen verbunden sind.
+Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Sie können nur Datensatztypen anzeigen, die mit mindestens zwei Datumsfeldern verknüpft sind.
 * Die Datumsfelder für die Datensatztypen, die in der Zeitleisten -Ansicht angezeigt werden sollen, müssen in der Tabellenansicht des ausgewählten Datensatztyps als Nachschlagefelder sichtbar sein.
 * Das Start- und Enddatum der Datensatztypen, die in der Zeitleisten -Ansicht angezeigt werden sollen, müssen in chronologischer Reihenfolge angegeben werden. Wenn beispielsweise ein Datensatz das Startdatum 31. Januar und das Enddatum 1. Januar hat, wird er nicht in der Zeitleisten -Ansicht angezeigt. Weitere Informationen finden Sie im Abschnitt [Verwalten einer Zeitleisten-Ansicht](#manage-a-timeline-view) in diesem Artikel.

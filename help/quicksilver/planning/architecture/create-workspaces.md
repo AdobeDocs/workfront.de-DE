@@ -21,18 +21,20 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1311
-ht-degree: 2%
+source-wordcount: 1252
+ht-degree: 3%
 
 ---
 
 # Erstellen von Arbeitsbereichen
 
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -277,7 +279,6 @@ Die im Bundle enthaltenen Vorlagen enthalten Arbeitsbereiche, Datensatztypen, Da
 
       1. Nachdem Sie das Feld **Vorschau** für jede Arbeitsbereichsvorlage geöffnet haben, klicken Sie auf **Zurück**, um zum Feld **Arbeitsbereich erstellen** zurückzukehren, oder klicken Sie auf **Vorlagen verwenden**, um die Vorlagen zu verwenden, einschließlich im Bundle, und Arbeitsbereiche zu erstellen.
 
-   <div class="preview">
 
    * Klicken Sie auf **Registerkarte** Beispielarbeitsbereiche“ und führen Sie dann die folgenden Schritte aus:
 
@@ -289,8 +290,6 @@ Die im Bundle enthaltenen Vorlagen enthalten Arbeitsbereiche, Datensatztypen, Da
          >
          >Wenn Sie in einer Vorlage auf eine Karte für den Datensatztyp klicken, werden die Felder des Datensatztyps im rechten Bedienfeld angezeigt.
       1. Klicken Sie **Vorlagen verwenden**.
-
-   </div>
 
    Die 6 Arbeitsbereiche werden erstellt und auf den Registerkarten **Arbeitsbereiche bin ich** und **Alle Arbeitsbereiche** für Systemadministratoren angezeigt. Alle Benutzer von Standardlizenzen sehen die Arbeitsbereiche in ihrem Arbeitsbereich, nachdem ein Systemadministrator sie erstellt und die neuen Arbeitsbereiche für sie freigegeben hat.
 

@@ -5,17 +5,15 @@ title: Verwenden des Adobe Workfront MCP-Servers
 description: Verwenden Sie den Adobe Workfront-MCP-Server, um Workfront-Elemente über eine Sprachkonversation in einer KI-Agentenplattform zu suchen, zu erstellen, zu aktualisieren und zu verwalten.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 5592c1b93b5e44c732f92d626ed878d2c4647ceb
+source-git-commit: e009d9d52ddb478759c11a20967d48049f797d97
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '1875'
 ht-degree: 0%
 
 ---
 
 
 # Verwenden des Adobe Workfront MCP-Servers
-
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Mit dem [!DNL Adobe Workfront] MCP-Server können Sie Workfront-Elemente suchen, erstellen, aktualisieren und verwalten, indem Sie eine KI-Agentenplattform in natürlicher Sprache anfordern. Die -Plattform entscheidet, welche Workfront-Aktionen aufgerufen werden sollen, und übernimmt die Unterhaltung mit Workfront für Sie.
 
@@ -211,7 +209,8 @@ Du arbeitest mit.
 ### Fragt mich die KI-Agentenplattform, bevor sie Workfront-Daten ändert oder löscht?
 
 Das hängt von der KI-Agentenplattform ab, nicht von Workfront. Die meisten Plattformen
-Sie vor der Ausführung einer Aktion zur Bestätigung auffordern, insbesondere bei Löschvorgängen.Bevor Sie eine Anfrage genehmigen, lesen Sie, was die Plattform sagt, dass sie tun wird —
+Sie vor der Ausführung einer Aktion zur Bestätigung auffordern, insbesondere bei Löschvorgängen.
+Bevor Sie eine Anfrage genehmigen, lesen Sie, was die Plattform sagt, dass sie tun wird —
 Die Änderungen erfolgen in Workfront auf die gleiche Weise wie bei einer Vornahme
 sich selbst in der Benutzeroberfläche.
 
@@ -243,7 +242,8 @@ Validierungen, Planungsunterlagen und mehr.
 
 ### Können andere Leute meine Konversationen mit der KI-Agentenplattform sehen?
 
-Workfront speichert weder Ihre Eingabeaufforderungen noch die Antworten der KI-Agentenplattform.Wer auch immer Ihre KI-Agentenplattform bereitstellt, steuert, wie Ihre Konversationen
+Workfront speichert weder Ihre Eingabeaufforderungen noch die Antworten der KI-Agentenplattform.
+Wer auch immer Ihre KI-Agentenplattform bereitstellt, steuert, wie Ihre Konversationen
 werden gespeichert oder freigegeben. Fragen Sie Ihren KI-Agenten-Plattformanbieter nach
 Details.
 

@@ -26,10 +26,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4bce43b6edd473f55b323e1d878b6e131213e179
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 706
-ht-degree: 74%
+source-wordcount: 675
+ht-degree: 77%
 
 ---
 
@@ -38,10 +38,11 @@ ht-degree: 74%
 <!--DO NOT CHANGE LINK OR CONTENT:  this is linked to an Experience League article that is hard coded by Adobe: https://experienceleague.adobe.com/en/docs/workfront-->
 <!--this articles used to be called "Adobe Workfront Planning: article index"-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
-
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -62,7 +63,7 @@ Die folgenden Abschnitte enthalten Artikel, in denen die derzeit für Workfront-
    * Freigeben von Ansichten
    * Freigeben von Arbeitsbereichen (Einträge und Felder)
    * Freigeben von Eintragstypen (Einträge und Felder)
-   * <span class="preview">Freigeben von Datensätzen</span>
+   * Freigeben von Einträgen
 
 * [Architektur: Artikelindex](/help/quicksilver/planning/architecture/architecture-information.md) enthält die folgenden Informationen:
 
@@ -127,3 +128,7 @@ Die folgenden Abschnitte enthalten Artikel, in denen die derzeit für Workfront-
 Wir veröffentlichen regelmäßig neue Funktionen für Workfront-Planung.
 
 Eine aktuelle Liste der veröffentlichten Funktionen finden Sie unter [Adobe Workfront-Planung-Veröffentlichungen: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Workfront Planning als eigenständiges Produkt
+
+Kunden können Workfront Planning erwerben, ohne eine Workflow-Lizenz zu erwerben. Weitere Informationen finden Sie [Erste Schritte mit Adobe Workfront Planning als eigenständiges Produkt](/help/quicksilver/planning/planning-sta/planning-sta-overview.md).

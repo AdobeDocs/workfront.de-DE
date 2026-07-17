@@ -19,9 +19,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
+source-git-commit: 58d13b171ada1f43efe4bcca0c3847048a32e863
 workflow-type: tm+mt
-source-wordcount: 1487
+source-wordcount: 1485
 ht-degree: 3%
 
 ---
@@ -177,7 +177,7 @@ Das System generiert einen Audit-Protokolleintrag für ein benutzerdefiniertes F
 * Erstellt ein benutzerdefiniertes Feld
 * Ändert ein benutzerdefiniertes Feld:
 
-   * Ändert den Namen, die Beschriftung, die Anweisungen oder das Format
+   * Ändert den API-Namen, die Bezeichnung, die Anweisungen oder das Format
    * Ändert den Anzeigetyp
 
      Dies ist nur verfügbar, wenn es sich bei dem Feld um einen der folgenden Typen handelt: Einzelzeile, Absatz, Dropdown, Kontrollkästchen, Optionsfeld
@@ -211,7 +211,7 @@ Das System generiert einen benutzerdefinierten Forms-Administratorprotokolleintr
    * Ändert eine Berechnung in einem benutzerdefinierten Feld
    * Blendet die Formel aus oder ein, die einem berechneten Feld im Hover-Text der Anweisungen zugeordnet ist
    * Aktiviert oder deaktiviert vorherige Berechnungen aktualisieren
-   * Fügt Logik zum Überspringen oder Anzeigelogik hinzu oder ändert diese
+   * Fügt Feldlogik hinzu oder ändert sie
 
      <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>Adds or changes a filter for a typeahead field</p></li>   

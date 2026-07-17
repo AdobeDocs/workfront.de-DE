@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1194
-ht-degree: 6%
+source-wordcount: 1107
+ht-degree: 5%
 
 ---
 
@@ -29,7 +29,9 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) im Artikel Beta-Übersicht für Arbeitsflächen-Dashboards befolgen.Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kontaktieren des Kunden-Supports](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
+>Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) im Artikel Beta-Übersicht für Arbeitsflächen-Dashboards befolgen.<br>
+>Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kontaktieren des Kunden-Supports](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
 >
 >* Eigene Schlüssel für Amazon Web Services mitbringen
 >* Azure
@@ -39,9 +41,11 @@ ht-degree: 6%
 Take Preview and production mentions out at release
 -->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 Sie können einen Filter auf ein Arbeitsflächen-Dashboard anwenden, das Eingabeaufforderungen enthält. Eine Eingabeaufforderung dient als Filtermodifikator, der zusätzliche Filterkriterien anwendet, sodass Sie Ihre Ergebnisse noch weiter eingrenzen können. Diese Eingabeaufforderungen können bei jeder Anwendung des Filters geändert werden, sodass Sie die angezeigten Ergebnisse anpassen können, ohne die wichtigsten Filterkriterien des Dashboards oder jeden einzelnen Bericht bearbeiten zu müssen.
 
@@ -122,7 +126,7 @@ Mit einem Dashboard-Filter können Sie einen gemeinsamen Filter auf alle Bericht
 
 1. Klicken Sie oben links auf der Detailseite des Dashboards auf **Filter**. Das seitliche Bedienfeld „Filter“ wird geöffnet.
 
-1. (Bedingt) Klicken Sie in der Produktionsumgebung auf **Filter bearbeiten** oder <span class="preview">in der Vorschauumgebung klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-icon.png) und dann auf</span> **Filter bearbeiten**. Das **Dashboard-Filter** Dialogfeld wird geöffnet.
+1. Klicken Sie auf das **Mehr**-Menü ![Mehr-](assets/more-icon.png) und dann auf **Filter bearbeiten**. Das **Dashboard-Filter** Dialogfeld wird geöffnet.
 
 1. (Optional) Gehen Sie wie folgt vor, um eine Regel hinzuzufügen:
 
@@ -177,9 +181,7 @@ In einer Dashboard-Eingabeaufforderung haben Benutzer die Möglichkeit, zusätzl
 1. Klicken Sie **Speichern**, um den Filter auf das Dashboard anzuwenden.
 
 
-1. <span class="preview">Um Eingabeaufforderungen standardmäßig zu speichern, gehen Sie nach dem Speichern der Eingabeaufforderung wie folgt vor: </span>
-
-   <div class="preview">
+1. Um Eingabeaufforderungen standardmäßig zu speichern, gehen Sie nach dem Speichern der Eingabeaufforderung wie folgt vor:
 
    1. (Optional) Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-icon.png) und dann auf **Als Standardaufforderungen speichern**.
 
@@ -197,8 +199,6 @@ In einer Dashboard-Eingabeaufforderung haben Benutzer die Möglichkeit, zusätzl
    1. (Bedingt) Wenn Sie die Einstellungen der Standardaufforderung geändert haben, klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-icon.png) und dann auf **Dashboard-Standardeinstellungen anwenden**, um zu den Standardfilterergebnissen zurückzukehren.
    1. (Optional) Klicken Sie auf **Standardeinstellungen zurücksetzen**, um die ursprünglichen Standardeinstellungen durch Ihre Änderungen zu ersetzen. Diese Option steht nur Dashboard-Managern zur Verfügung.
 
-   </div>
-
 
 1. Fahren Sie mit [Teil 3: Anwenden einer Dashboard-Eingabeaufforderung](#step-3-apply-a-dashboard-prompt) fort.
 
@@ -214,7 +214,8 @@ Alle Benutzer mit Zugriff auf ein Dashboard können eine Dashboard-Eingabeauffor
 
 1. Klicken Sie oben links auf der Detailseite des Dashboards auf **Filter**. Das seitliche Bedienfeld „Filter“ wird geöffnet.
 
-1. Wählen Sie **Abschnitt Datensätze anzeigen, bei denen…** eine Bedingung für eine oder alle angezeigten Eingabeaufforderungen aus. Die Eingabeaufforderung wird angewendet und ein **Dashboard prompt applied**-Tag wird in der Ecke des Berichts-Widgets angezeigt.   ![Bedingung auswählen](assets/prompts-list.png)
+1. Wählen Sie **Abschnitt Datensätze anzeigen, bei denen…** eine Bedingung für eine oder alle angezeigten Eingabeaufforderungen aus. Die Eingabeaufforderung wird angewendet und ein **Dashboard prompt applied**-Tag wird in der Ecke des Berichts-Widgets angezeigt.
+   ![Bedingung auswählen](assets/prompts-list.png)
 
 1. Klicken Sie auf **Schließen**-Symbol ![Schließen](assets/close-icon.png) in der oberen rechten Ecke, um das Bedienfeld auszublenden.
 

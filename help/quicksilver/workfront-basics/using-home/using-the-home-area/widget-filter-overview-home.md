@@ -20,18 +20,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1084
-ht-degree: 12%
+source-wordcount: 881
+ht-degree: 13%
 
 ---
 
 # Überblick über Filter für Startseiten-Widgets
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+-->
 
 Sie können Filter für die folgenden Widgets verwenden, um Arbeit zu finden und zu organisieren:
 
@@ -262,53 +264,53 @@ Im Widget Meine Probleme können Sie die folgenden Filter verwenden:
 
 ## Meine Anfragen
 
-In der Produktionsumgebung:
+Das Widget Meine Anfragen verfügt über einen anpassbaren Filter, mit dem Sie steuern können, welche Anfragen im Widget angezeigt werden. Sie können diesen Filter für verschiedene Felder und Werte konfigurieren und Bedingungen mithilfe von UND und ODER stapeln.
+
+Anweisungen zum Konfigurieren des Filters im Widget Meine Anfragen finden Sie unter [Filteranfragen](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md#filter-requests) im Artikel Verwenden des Widgets Meine Anfragen .
+
+<!--
+In the Production environment:
 
 <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Alle</td> 
-      <td>Zeigt alle gesendeten Anfragen an, unabhängig vom Status oder davon, wer sie gesendet hat.</td> 
+      <td role="rowheader">All</td> 
+      <td>Displays all submitted requests, regardless of status or who submitted them.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Öffnen</td> 
-      <td> <p>Zeigt alle gesendeten Anfragen an 
+      <td role="rowheader">Open</td> 
+      <td> <p>Displays all submitted requests 
       <ul>
-      <li>die derzeit offen sind, unabhängig davon, wer sie eingereicht hat. Nur -Anfragen, für die Sie mindestens über die Berechtigung zum Anzeigen verfügen, werden hier angezeigt, wenn Sie sie nicht selbst gesendet haben.</li>
-      <li>Ohne tatsächliches Abschlussdatum oder ohne Lösungsobjekt, das kein tatsächliches Abschlussdatum hat, sind auf der Unterregisterkarte Öffnen aufgeführt.</li> 
+      <li>That are currently open, regardless of who submitted them. Only requests you have at least permissions to view display here if you did not submit them yourself.</li>
+      <li>Without an Actual Completion Date or whose resolving object does not have an Actual Completion Date are listed in the Open subtab.</li> 
       </ul>
-      <p><b>HINWEIS</b> 
-      Anfragen mit einem Status, der nicht mit Geschlossen übereinstimmt, werden als offen betrachtet.</p> 
+      <p><b>NOTE</b> 
+      Requests that are in any status that does not equate with Closed are considered open.</p> 
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Meine Anfragen</td> 
-      <td>Zeigt von Ihnen gesendete Anfragen unabhängig vom Status an. </td> 
+      <td role="rowheader">My Requests</td> 
+      <td>Displays requests you submitted regardless of their status. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Meine offenen Anfragen</td> 
-      <td> <p>Zeigt Anforderungen an 
+      <td role="rowheader">My Open Requests</td> 
+      <td> <p>Displays requests 
       <ul>
-      <li>Die Sie eingereicht haben und noch offen sind. </li> 
-      <li>Ohne tatsächliches Abschlussdatum oder ohne Lösungsobjekt, das kein tatsächliches Abschlussdatum hat, sind auf der Unterregisterkarte Meine offenen Anfragen aufgeführt.  </li> 
+      <li>That you submitted and are still open. </li> 
+      <li>Without an Actual Completion Date or whose resolving object does not have an Actual Completion Date are listed in the My Open Requests subtab.  </li> 
       </ul>
-      <p><b>HINWEIS</b> 
-      Anfragen, deren Status nicht mit Geschlossen übereinstimmt, werden als offen betrachtet.</p> </td> 
+      <p><b>NOTE</b> 
+      Requests that are not in a status that equates with Closed are considered open.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-<div class="preview">
 
-In der Vorschau-Umgebung:
 
-Das Widget Meine Anfragen verfügt über einen anpassbaren Filter, mit dem Sie steuern können, welche Anfragen im Widget angezeigt werden. Sie können diesen Filter für verschiedene Felder und Werte konfigurieren und Bedingungen mithilfe von UND und ODER stapeln.
-
-Anweisungen zum Konfigurieren des Filters im Widget Meine Anfragen finden Sie unter [Filteranfragen](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md#filter-requests) im Artikel Verwenden des Widgets Meine Anfragen .
-
-</div>
+In the Preview environment:
+-->
 
 ## Meine Arbeit
 

@@ -20,19 +20,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 873b65fb7f23d2e2b0598b56bb8893a7b87c1be1
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 3175
+source-wordcount: 3103
 ht-degree: 1%
 
 ---
 
 # Bearbeiten von Einträgen
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -72,7 +73,7 @@ Weitere Informationen zum Erstellen von Einträgen finden Sie unter [Erstellen v
   </tr> 
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td>   <p>Tragen Sie Berechtigungen oder höhere Berechtigungen zu einem Arbeitsbereich, einem Datensatztyp und <span class="preview">Verwalten von Berechtigungen für einen Datensatz) </span> </p>  
+   <td>   <p>Mitwirken an oder höhere Berechtigungen für einen Arbeitsbereich, Datensatztyp und Verwalten von Berechtigungen für einen Datensatz</p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p> </td> 
   </tr>   
 </tbody> 
@@ -245,7 +246,7 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 
    * Kopieren Sie einen oder mehrere vorhandene Werte eines Felds und fügen Sie sie dann in ein Feld desselben Typs in einem anderen Datensatz ein.
    * Klicken Sie auf die Spaltenüberschrift einer Spalte, um sie auszuwählen, und kopieren Sie sie. Klicken Sie dann auf die Spaltenüberschrift einer anderen Spalte, und fügen Sie den Inhalt der kopierten Spalte ein. Die Spalten müssen ähnliche Feldtypen enthalten.
-   * Klicken Sie bei gedrückter Umschalttaste auf mehrere Zeilen in einer Tabelle, kopieren Sie die Informationen in die ausgewählten Zeilen, klicken Sie dann auf eine andere Zeile und fügen Sie die ausgewählten Informationen in die neue Zeile und die folgenden Zeilen ein. <span class="preview">Dies ist in der Vorschau-Umgebung nicht möglich.</span>
+   * Klicken Sie bei gedrückter Umschalttaste auf mehrere Zeilen in einer Tabelle, kopieren Sie die Informationen in die ausgewählten Zeilen, klicken Sie dann auf eine andere Zeile und fügen Sie die ausgewählten Informationen in die neue Zeile und die folgenden Zeilen ein. Dies ist in der Vorschau-Umgebung nicht möglich.
    * Kopieren Sie die Informationen aus einer Zelle, wählen Sie dann mehrere Zellen aus und fügen Sie dieselben Informationen in mehrere Zellen ein. Sie können mehrere Zellen auswählen und dieselben Informationen in mehrere Zellen aus benachbarten Zeilen und Spalten einfügen.
    * Wählen Sie die untere rechte Ecke einer vorhandenen Zelle aus, die die Informationen enthält, die Sie kopieren möchten, und ziehen Sie sie dann per Drag-and-Drop über die angrenzenden Zellen, in die Sie dieselben Informationen einfügen möchten. Alle Zellen müssen dieselbe Art von Informationen enthalten.
 
@@ -253,15 +254,18 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 
    * Kopieren Sie eine oder mehrere Zellen aus einer externen Quelle (z. B. einer Excel-Datei) und fügen Sie sie dann in einen der folgenden Feldtypen ein:
 
-      * Workfront Planning-Verbindungsfelder.
-
-        <span class="preview">Dies ist in der Vorschau-Umgebung nicht möglich.</span>
       * Personenfelder. Es werden nur Felder mit einem Wert unterstützt.
       * Textfelder
       * Felder auswählen.
       * Zahlen-, Prozentsatz- und Währungsfelder.
 
-     Es ist nicht möglich, Informationen aus einer externen Quelle zu kopieren und in andere Feldtypen einzufügen, einschließlich der Verbindungsfelder von Workfront oder anderen Anwendungen.
+   Es ist nicht möglich, Informationen aus einer externen Quelle zu kopieren und in andere Feldtypen einzufügen, einschließlich der Verbindungsfelder von Workfront oder anderen Anwendungen.
+
+   <!--
+    * Workfront Planning connection fields.  
+        This is not possible in the Preview environment.
+    -->
+
 
    >[!NOTE]
    >
@@ -289,11 +293,12 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 
 1. (Optional) Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Datensatznamen und wählen Sie aus den folgenden Optionen:
 
-   * **Anzeigen** oder <span class="preview">**In neuer Registerkarte öffnen**</span>: Dadurch wird die Datensatzseite geöffnet.
+   * **Anzeigen** oder **In neuer Registerkarte öffnen**: Dadurch wird die Datensatzseite geöffnet.
    * **Link kopieren**: Zum Kopieren eines Links auf die Datensatzseite.
-   * **Miniaturansicht bearbeiten**: Zum Hinzufügen einer Miniaturansicht zu einem Datensatz.Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+   * **Miniaturansicht bearbeiten**: Zum Hinzufügen einer Miniaturansicht zu einem Datensatz.
+Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
    * **Duplizieren**: Dadurch wird ein identisches Duplikat des Datensatzes erstellt.
-   * **Datensatz oberhalb einfügen/Datensatz unterhalb einfügen**: Fügt eine neue Zeile hinzu, damit Sie einen neuen Datensatz hinzufügen können. <span class="preview">Dies ist in der Vorschau-Umgebung nicht möglich.</span>
+   * **Datensatz oberhalb einfügen/Datensatz unterhalb einfügen**: Fügt eine neue Zeile hinzu, damit Sie einen neuen Datensatz hinzufügen können. Dies ist in der Vorschau-Umgebung nicht möglich.
    * **Löschen**: Löschen des Datensatzes. Gelöschte Datensätze werden im Feld „Zuletzt gelöscht“ bis zu 30 Tage lang gespeichert.
 
 
@@ -352,8 +357,6 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 
    Klicken Sie in der Tabellenansicht auf das Symbol **Details öffnen** ![Detailsymbol öffnen im Feld „Tabellenname](assets/open-details-icon-in-table-name-field.png) in der ersten Spalte. Die Vorschau des Datensatzes wird in der Ansicht geöffnet.
 
-   <!--update screenshot for new details views preview-->
-
    ![Detailfeld](assets/details-box.png)
 
 1. (Optional) Klicken Sie auf das **Mehr**-Menü rechts neben dem Datensatztitel und klicken Sie dann auf **Umbenennen**. Dadurch wird das Feld aktualisiert, das als Datensatztitel angezeigt wird.
@@ -408,8 +411,6 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
      ![Kontextmenü für Datensatzzeile](assets/contextual-menu-for-record-row.png)
 
      Die Datensatzseite wird geöffnet.
-
-     <!--update screenshot for new details views preview-->
 
      ![Detailseite](assets/details-page.png)
 

@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 1098
-ht-degree: 1%
+source-wordcount: 1038
+ht-degree: 2%
 
 ---
 
@@ -32,10 +32,11 @@ ht-degree: 1%
 
 <!--leave the choice value information in yellow till January 2026-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
-
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -152,8 +153,8 @@ Bevor Sie die Konfiguration eines Felds ändern, müssen Sie Folgendes beachten:
 * Sie können die Konfiguration der folgenden Feldelemente bearbeiten, nachdem Sie das Feld gespeichert haben:
 
    * Der Name oder die Beschreibung eines beliebigen Felds
-   * Die Optionen eines Einzelauswahl- oder eines Mehrfachauswahl-Felds (<span class="preview"> die Standardoptionen</span>.
-   * <span class="preview">Die Standardoptionen eines Personenfelds.</span>
+   * Die Optionen eines Einzel- oder Mehrfachauswahlfelds und ihre Standardoptionen.
+   * Die Standardoptionen eines Personenfelds.
    * Der Ausdruck eines Formelfelds.
 
   >[!WARNING]
@@ -209,14 +210,10 @@ this is not yet true, but it might come later:
    >
    >* Wenn Sie Feldkonfigurationen ändern (Feldoptionen oder Formelausdrücke), werden die Werte von Datensätzen, die bereits Informationen in den geänderten Feldern enthalten, in Echtzeit aktualisiert. Es gibt keine Warnung und kein Administratorprotokoll für die Wertänderungen, die durch Änderungen der Feldkonfiguration ausgelöst werden. Alle Benutzer, die die Felder anzeigen, sehen sofort die neuen Werte mit den Änderungen.
 
-1. <span class="preview">(Bedingt) Wenn das Feld, das Sie aktualisieren, Teil eines Anfrageformulars ist, wird das Feld **Feldänderungen überprüfen** angezeigt, um die Formulare anzugeben, die von Ihren Änderungen betroffen sind. Führen Sie einen der folgenden Schritte aus:</span>
-
-   <div class="preview">
+1. (Bedingt) Wenn das Feld, das Sie aktualisieren, Teil eines Anfrageformulars ist, wird das Feld **Feldänderungen überprüfen** angezeigt, um die Formulare anzugeben, die von Ihren Änderungen betroffen sind. Führen Sie einen der folgenden Schritte aus:
 
    * Klicken Sie auf den nach rechts zeigenden Pfeil, um die von der Änderung betroffenen Formulare anzuzeigen, und klicken Sie dann auf den Formularnamen, um das Formular auf einer neuen Registerkarte zu öffnen. Entscheiden Sie dann, ob Sie das Feld im Formular behalten oder zusätzliche Änderungen am Formular vornehmen möchten.
    * Klicken Sie auf **Änderungen beibehalten**, um das Feld in allen Bereichen zu aktualisieren, in denen es angezeigt wird.
-
-   </div>
 
    Die Feldinformationen werden für alle Benutzer aktualisiert, die Zugriff auf den Arbeitsbereich haben.
 

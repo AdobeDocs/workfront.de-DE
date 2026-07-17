@@ -12,18 +12,20 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 4ac828444e49213cdc4e00a5f92e404899e2225d
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 608
+source-wordcount: 566
 ht-degree: 3%
 
 ---
 
 # Überblick über Arbeitsbereiche
 
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+<!--
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -53,11 +55,14 @@ Ein Arbeitsbereich ist eine Sammlung von Datensatztypen, die von einer Organisat
 
    * **Arbeitsbereiche, an denen ich mitwirke**: Zeigt von Ihnen erstellte Arbeitsbereiche oder Arbeitsbereiche an, die für Sie freigegeben sind.
    * **Andere Arbeitsbereiche**: Zeigt alle anderen Arbeitsbereiche im System an. Dies ist nur für Systemadministratoren verfügbar.
-   * <span class="preview">**Beispiel-Arbeitsbereiche**: Zeigt integrierte Beispiele für Best Practice-Arbeitsbereiche an. Sie können die Arbeitsbereiche, Datensatztypen oder Datensätze oder Felder nicht bearbeiten, aber Sie können Ansichten hinzufügen, bearbeiten und für andere freigeben.</span>
+   * **Beispiel-Arbeitsbereiche**: Zeigt integrierte Beispiele für Best Practice-Arbeitsbereiche an. Sie können die Arbeitsbereiche, Datensatztypen oder Datensätze oder Felder nicht bearbeiten, aber Sie können Ansichten hinzufügen, bearbeiten und für andere freigeben.
 
   >[!NOTE]
   >
-  ><span class="preview">Es wird empfohlen, die Beispiel-Arbeitsbereiche nicht zu bearbeiten, sondern sie als Referenz zum Erstellen eigener Arbeitsbereiche zu verwenden. Verwenden Sie das Vorlagenpaket für mehrere Arbeitsbereiche , um Arbeitsbereiche zu erstellen, die mit den auf der Registerkarte Beispiel-Arbeitsbereiche aufgeführten Arbeitsbereichen identisch sind. Weitere Informationen finden Sie im Abschnitt „Erstellen mehrerer Arbeitsbereiche mithilfe eines Best-Practice-Vorlagenpakets für mehrere Arbeitsbereiche“ im Artikel [Erstellen von &#x200B;](/help/quicksilver/planning/architecture/create-workspaces.md)&quot; </span>
+  >Es wird empfohlen, die Beispiel-Arbeitsbereiche nicht zu bearbeiten, sondern sie als Referenz zum Erstellen eigener Workspaces zu verwenden. Verwenden Sie das Vorlagenpaket für mehrere Arbeitsbereiche , um Arbeitsbereiche zu erstellen, die mit den auf der Registerkarte Beispiel-Arbeitsbereiche aufgeführten Arbeitsbereichen identisch sind.
+  >
+  >Nur Kunden, die ein Prime- oder Ultimate-Planungspaket erworben haben, können die Registerkarte Beispiel-Arbeitsbereiche anzeigen.
+  >Weitere Informationen finden Sie im Abschnitt „Erstellen mehrerer Arbeitsbereiche mithilfe eines Best-Practice-Vorlagenpakets für mehrere Arbeitsbereiche“ im Artikel [Erstellen von Arbeitsbereichen](/help/quicksilver/planning/architecture/create-workspaces.md).
 
 <!--
 No longer the case - they match now: 

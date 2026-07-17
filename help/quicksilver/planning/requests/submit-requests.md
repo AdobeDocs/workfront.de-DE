@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5f288a20a0b8f2afd433e5b1c4a6c43ea24b7259
+source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
 workflow-type: tm+mt
-source-wordcount: 2603
+source-wordcount: 2551
 ht-degree: 1%
 
 ---
@@ -32,10 +32,11 @@ ht-degree: 1%
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
-
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
@@ -113,9 +114,7 @@ Folgendes muss vorhanden sein, bevor Sie eine Anfrage an ein Workfront Planning-
 
 ## Überlegungen zum Senden von Anfragen an Workfront Planning
 
-* In der Produktionsumgebung können Sie eine Anfrage nach deren Übermittlung nicht mehr in Workfront bearbeiten.
-
-  <span class="preview">In der Vorschau-Umgebung können gesendete Anfragen nur bearbeitet werden, bevor daraus ein Datensatz erstellt wird. Nachdem der Datensatz erstellt wurde, können Sie die gesendete Anfrage nicht mehr bearbeiten. </span>
+* Eine gesendete Anfrage kann nur bearbeitet werden, bevor ein Datensatz daraus erstellt wird. Nachdem der Datensatz erstellt wurde, können Sie die gesendete Anfrage nicht mehr bearbeiten.
 * Jede gesendete Anfrage erstellt einen Datensatz für den Datensatztyp, der mit dem von Ihnen verwendeten Formular verknüpft ist, wenn das Formular nicht mit einer Genehmigung verknüpft ist oder wenn die Genehmigung von allen genehmigenden Personen erteilt wurde.
 * Durch das Übermitteln von Anfrageformularen erstellte Datensätze sind mit den Datensätzen identisch, die über eine andere Methode in Workfront Planning hinzugefügt wurden.
 
@@ -226,18 +225,16 @@ Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformula
    ![Seite mit Kommentar anfordern](assets/new-request-page-with-comment.png)
 
 1. (Optional) Geben Sie einen Kommentar im Bereich **Kommentare** ein.
-1. <span class="preview">(Optional und bedingt) Wenn die Anfrage darauf wartet, genehmigt zu werden, und Sie die Anfrage geöffnet haben, klicken Sie entweder auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/more-menu.png) rechts neben dem Anfragenamen und klicken Sie dann auf **Bearbeiten** oder doppelklicken Sie auf die Felder in der Anfrage, um sie zu bearbeiten. </span>
+1. (Optional und bedingt) Wenn die Anfrage darauf wartet, genehmigt zu werden, und Sie die Anfrage geöffnet haben, klicken Sie entweder auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/more-menu.png) rechts neben dem Anfragenamen und dann auf **Bearbeiten** oder doppelklicken Sie auf Felder in der Anfrage, um sie zu bearbeiten.
 
    >[!NOTE]
    >
-   >  <div class="preview">
    >
    >* Das Bearbeiten einer Anfrage ist nur möglich, wenn ein Datensatz noch nicht erstellt wurde und die Anfrage auf Genehmigung wartet.
    >* Einige Felder sind schreibgeschützt und können nicht bearbeitet werden.
    >* Sie können eine Anfrage nicht mehr bearbeiten, nachdem ein Datensatz daraus erstellt wurde.
-   >
-   >  </div>
-1. <span class="preview">(Optional) Klicken Sie nach der Bearbeitung der Anfrage auf **Änderungen übermitteln**.</span>
+
+1. (Optional) Klicken Sie nach Bearbeiten der Anfrage auf **Änderungen übermitteln**.
 1. (Bedingt) Wenn das Anfrageformular nicht mit einer Genehmigung verknüpft ist oder die Anfrage genehmigt wurde, klicken Sie auf den Namen der Anfrage und dann auf den Namen des Datensatzes im Feld **Erstelltes** Objekt“.
 
    Die Seite des Datensatzes wird in Workfront Planning geöffnet.
