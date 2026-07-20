@@ -5,9 +5,9 @@ title: Konfigurieren des Adobe Workfront MCP-Servers
 description: Konfigurieren Sie Ihre Workfront-Instanz und Ihre KI-Agentenplattform, damit Sie über Konversationen in natürlicher Sprache mit Workfront arbeiten können.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: e9ddfa2847c44b0a92af3239a52d704d4a866dc8
+source-git-commit: 269019dd8af4cda11e377164de83f0a7e9d7a458
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1730'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ So verbinden Sie Workfront mit [!DNL Claude]:
 
 So verbinden Sie Workfront mit [!DNL Claude] über eine URL:
 
-1. Melden Sie sich mit Ihren [&#x200B; bei &#x200B;](https://claude.ai)Claude“ an.
+1. Melden Sie sich mit Ihren [ bei ](https://claude.ai)Claude“ an.
 1. Wählen Sie im linken Menü das Symbol **Anpassen** aus.
 1. Wählen Sie **Connectoren** und klicken Sie dann auf das Symbol **+** , um einen Connector hinzuzufügen.
 1. Klicken Sie auf **Schaltfläche „App**&quot;.
@@ -124,7 +124,7 @@ Um mehr über [!DNL Claude] Fähigkeiten zu erfahren, lesen Sie die [Claude-Benu
 
 ## Mit ChatGPT verbinden
 
-1. Melden Sie sich mit Ihren [&#x200B; bei &#x200B;](https://chatgpt.com)ChatGPT) an.
+1. Melden Sie sich mit Ihren [ bei ](https://chatgpt.com)ChatGPT) an.
 1. Wählen Sie unten links &quot;**&quot;** → **Einstellungen**.
 1. Wählen Sie **Apps** aus und aktivieren Sie dann **Entwicklermodus**.
 1. Klicken Sie auf **Schaltfläche „App**&quot;.
@@ -143,6 +143,39 @@ Um mehr über [!DNL Claude] Fähigkeiten zu erfahren, lesen Sie die [Claude-Benu
 ChatGPT unterstützt von Benutzern erstellte Assistenten, die als benutzerdefinierte GPTs bezeichnet werden. Sie können ein benutzerdefiniertes GPT verwenden, um anzupassen, wie sich ChatGPT mit Ihrem Connector verhält. Sie können beispielsweise ein benutzerdefiniertes GPT erstellen, das ChatGPT anweist, immer neue Daten von Ihrem verbundenen Service abzurufen, anstatt sich auf frühere Ergebnisse zu verlassen.
 
 Weitere Informationen zu benutzerdefinierten GPTs finden Sie in der [ChatGPT-Benutzerdokumentation](https://help.openai.com/en/articles/8554397-creating-and-editing-gpts) oder wenden Sie sich an ChatGPT, um Hilfe zu benutzerdefinierten GPTs zu erhalten.
+
+## Workfront mit Copilot verbinden
+
+Verwenden Sie Copilot Studio, um einen benutzerdefinierten Copilot-Agenten zu erstellen, mit dem sich der Workfront-MCP verbinden kann.
+
+1. Klicken Sie in Copilot Studio **Leeren Agenten erstellen**.
+1. Benennen Sie den Agenten und klicken Sie auf **Erstellen**.
+Das Fenster des Agenten wird geöffnet.
+
+1. Beschreiben **im Feld**, was der Agent tun soll. Schließen Sie Informationen wie Ihre Prozesse und die Verwendung von Workfront ein. Es wird empfohlen, sehr viele Details anzugeben.
+1. Klicken Sie in der oberen Navigation auf **Tools** und dann auf **Tool hinzufügen**.
+1. Wählen Sie die Kachel **Modell-Kontextprotokoll** aus.
+1. Geben Sie im angezeigten Bedienfeld einen Namen und eine Beschreibung für diese Verbindung ein.
+1. Geben Sie im Feld Server-URL die gewünschte URL ein:
+
+   | Region | URL |
+   | --- | --- |
+   | US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
+   | EU | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+
+1. Wählen Sie für die Autorisierung **OAuth 2.0** aus und klicken Sie dann auf **Dynamische Erkennung**.
+1. Klicken **unten** Bedienfeld auf „Erstellen“.
+
+   Die App ist registriert.
+
+1. Nachdem die App registriert wurde, klicken Sie im angezeigten Bedienfeld auf **Nicht verbunden** und klicken Sie dann auf **Neue Verbindung erstellen** und anschließend auf **Erstellen**.
+1. Melden Sie sich im angezeigten Anmelde-Panel bei Workfront an und klicken Sie auf **Weiter** wenn ersichtlich ist, welche Workfront-Instanz Sie verwenden möchten.
+1. Klicken Sie im Bedienfeld, das Ihren Server anzeigt, auf **Hinzufügen und konfigurieren**.
+
+   Sie können jetzt mit der Verwendung und Konfiguration von Tools für Ihren MCP-Server beginnen.
+1. Klicken Sie nach Konfiguration und Test eines Tools auf **Veröffentlichen**.
+
+   Sie sind möglicherweise nicht berechtigt, Folgendes zu veröffentlichen. Wenden Sie sich in diesem Fall an Ihren Copilot-Administrator.
 
 ## Verbindung überprüfen
 
