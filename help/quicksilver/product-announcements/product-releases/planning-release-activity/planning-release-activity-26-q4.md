@@ -22,7 +22,7 @@ Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen find
 ## Die Planung von Designer erfordert jetzt die Zustimmung von Beta
 
 >[!NOTE]
->Vorschau und Produktion für alle Kunden: 20. Juli 2026 >[!BADGE  Zeitplan]{type=Neutral}
+>Vorschau und Produktion für alle Kunden: 20. Juli 2026 >[!BADGE &#x200B; Zeitplan]{type=Neutral}
 
 Für die Planung von Designer ist jetzt eine gültige Beta-Vereinbarung erforderlich. Ihr Unternehmen ist nicht verpflichtet, eine KI-Vereinbarung zu unterzeichnen. Dies ist für alle Kunden verfügbar.
 
