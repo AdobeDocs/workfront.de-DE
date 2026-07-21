@@ -5,9 +5,9 @@ title: Verwenden des Adobe Workfront MCP-Servers
 description: Verwenden Sie den Adobe Workfront-MCP-Server, um Workfront-Elemente über eine Sprachkonversation in einer KI-Agentenplattform zu suchen, zu erstellen, zu aktualisieren und zu verwalten.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: e009d9d52ddb478759c11a20967d48049f797d97
+source-git-commit: 836431c7840647b8f412f848fe22d3e64cc42e44
 workflow-type: tm+mt
-source-wordcount: '1875'
+source-wordcount: '1775'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,6 @@ ht-degree: 0%
 # Verwenden des Adobe Workfront MCP-Servers
 
 Mit dem [!DNL Adobe Workfront] MCP-Server können Sie Workfront-Elemente suchen, erstellen, aktualisieren und verwalten, indem Sie eine KI-Agentenplattform in natürlicher Sprache anfordern. Die -Plattform entscheidet, welche Workfront-Aktionen aufgerufen werden sollen, und übernimmt die Unterhaltung mit Workfront für Sie.
-
->[!IMPORTANT]
->
->Derzeit ist der Workfront MCP-Server nur für Kunden verfügbar, die AWS verwenden.
 
 ## Voraussetzungen
 

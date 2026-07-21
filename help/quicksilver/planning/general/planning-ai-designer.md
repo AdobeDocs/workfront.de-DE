@@ -20,10 +20,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 184cff4f2ebf8a1343d784936f10c902e350c134
+source-git-commit: e8216d44973c43f14ef615a6f8c4eb1cb05bd935
 workflow-type: tm+mt
-source-wordcount: 1386
-ht-degree: 6%
+source-wordcount: 1496
+ht-degree: 5%
 
 ---
 
@@ -65,15 +65,20 @@ Weitere Informationen zu Workfront Planning finden Sie in den folgenden Artikeln
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Pakete</p></td> 
    <td> 
-<p>Beliebiges Workfront- und Planungspaket</p>
-<p>Beliebiges Workflow- und Planungspaket</p>
+<p>Jedes Workfront- oder Workflow-Paket mit einem Planungspaket</p>
+<p>Beliebige Planung als eigenständiges Produktpaket</p>
    </td> </tr>
-
-</tr> 
+  </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
+   <td role="rowheader"><p>Workfront-Lizenz</p></td> 
    <td><p>Standard</p> 
-   <p>Der Systemadministrator muss die Planning Designer für Ihr Unternehmen aktivieren</p>
+   <p>Workfront-Administratoren müssen die Planning Designer für Ihr Unternehmen aktivieren</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Planungsgenehmigung</p></td> 
+   <td><p>Standard</p> 
+   <p>Workfront-Administratoren müssen die Planning Designer für Ihr Unternehmen aktivieren</p>
   </td> 
   </tr> 
   <tr> 
@@ -91,16 +96,27 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 ## Aktivieren der Planning Designer für Ihr Unternehmen
 
-Als Systemadministrator können Sie die Planning Beta für Ihr Unternehmen aktivieren. Wenn diese Einstellung aktiviert ist, können alle Personen in Ihrer Workfront-Instanz die Funktionen von Planning Designer in ihrem Planning-Bereich anzeigen.
+Als Systemadministrator können Sie die Planning Designer Beta für Ihr Unternehmen aktivieren. Wenn diese Einstellung aktiviert ist, können alle Personen in Ihrer Workfront-Instanz die Funktionen von Planning Designer in ihrem Planning-Bereich anzeigen.
 
-1. Melden Sie sich als Workfront-Administrator in Workfront an.
+1. Melden Sie sich als Workfront-Administrator an.
 1. Klicken Sie auf **Hauptmenü** ![Hauptmenüsymbol](assets/main-menu-shell.png) und dann auf **Setup**.
 1. Navigieren Sie **System** > **Voreinstellungen** > **KI-Voreinstellungen**.
-1. Aktivieren Sie **KI aktivieren**<!--and ensure you have a signed Gen AI Agreement with Adobe-->.
-   <!--1. Turn on the **Opt in to AI Beta** setting.-->
-1. Schalten Sie die **Planning Designer** ein.
-   <!-- add new screenshot-->
-   ![Planen der Designer-Einstellung in den Systemvoreinstellungen](assets/planning-designer-toggle-in-system-preferences.png)
+1. Aktivieren Sie **KI aktivieren**.
+
+   >[!NOTE]
+   >
+   >Die Akzeptanz der KI-Vereinbarung ist für die Verwendung der Planning Designer in der Beta-Version nicht erforderlich.
+
+1. Schalten Sie die Einstellung **Opt-in für KI-Beta** ein, wenn sie nicht aktiviert ist.
+1. Aktivieren Sie die **Planning Designer**-Einstellung, falls sie nicht aktiviert ist.
+
+   ![Planen der Designer-Einstellung in den Systemeinstellungen](assets/ai-preferences-with-planning-designer-unaccepted-agreement.png).
+
+   >[!TIP]
+   >
+   >Die Optionen **Opt-in für KI-**) und **Planning Designer** sind standardmäßig aktiviert, Sie müssen jedoch die Beta-Vereinbarung akzeptieren, um Planning Designer verwenden zu können.
+
+1. (Bedingt und obligatorisch) Wenn Sie die Beta-Vereinbarung nicht akzeptiert haben, klicken Sie auf **Beta-Vereinbarung überprüfen** und die Vereinbarung lesen. Klicken Sie dann auf **Akzeptieren**.
 
 1. Klicken Sie auf **Speichern**.
 
@@ -158,7 +174,7 @@ Ihr Feedback wird an die Entwicklungs- und Produkt-Teams gesendet.
 
 * Sie müssen die KI-Vereinbarung nicht aktivieren, bevor Sie auf die Planning-Designer zugreifen können.
 
-<!--* You must sign the Beta agreement to access the Planning Designer.-->
+* Sie müssen die Beta-Vereinbarung unterzeichnen, um auf die Planning Designer zugreifen zu können.
 
 <!--
 Sargis and Ashot  said these are not required: 
@@ -178,7 +194,7 @@ Sargis and Ashot  said these are not required:
 -->
 
 * Ihr Workfront-Administrator muss die Planning-Designer für Ihr Unternehmen aktivieren. Danach ist die Planning-Designer standardmäßig für alle Benutzer verfügbar.
-* Von Planning Designer durchgeführte Aktionen können auch vom KI-Assistenten ausgeführt werden, wenn Sie ihn im Planungsbereich verwenden, falls Ihr Unternehmen die KI-Vereinbarung unterzeichnet hat.
+* Wenn Ihr Unternehmen eine KI-Vereinbarung unterzeichnet hat, können die von Planning Designer ausgeführten Aktionen auch vom KI-Assistenten ausgeführt werden, wenn Sie ihn im Planungsbereich verwenden.
 * Die vom KI-Assistenten im Bereich Planung durchgeführten Aktionen bzw. die vom Planning Designer ausgeführten Aktionen stehen im Kontext Ihrer Workfront-Planungsberechtigungen und Ihrer Workfront-Zugriffsebene.
 
   Weitere Informationen finden Sie in den folgenden Artikeln:
@@ -202,7 +218,7 @@ Sie können entweder den Planning-Designer oder den KI-Assistenten verwenden, um
 
 * Erstellen und Konfigurieren von Arbeitsbereichen
 
-<!--On March 2: * Edit workspaces-->
+* Bearbeiten von Arbeitsbereichen
 
 * Erstellen von Datensatztypen, einschließlich Definieren und Hinzufügen globaler Datensatztypen zu Arbeitsbereichen
 
@@ -243,7 +259,7 @@ Sie können Objekte in Workfront Planning entweder mithilfe der Planning-Designe
 
    Der Bereich **Planung** wird geöffnet. <!--update screen shot when they change the name of the button-->
 
-   ![Design mit KI-Schaltfläche auf der Seite „Arbeitsbereiche“](assets/design-with-ai-button-on-workspaces-page.png)
+   ![Erstellen mit der Schaltfläche „KI“ auf der Seite „Arbeitsbereiche“](assets/design-with-ai-button-on-workspaces-page.png)
 
 1. Klicken Sie **Erstellen mit KI** oder klicken Sie auf **Arbeitsbereich erstellen** und verwenden Sie dann das Eingabeaufforderungsfenster oben, um anzugeben, welche Art von Arbeitsbereich Sie erstellen möchten. <!--update this when they change it to Generate with AI-->
 
@@ -294,6 +310,6 @@ Sie können Objekte in Workfront Planning entweder mithilfe der Planning-Designe
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um einen Arbeitsbereich zu bearbeiten:
 
    * Öffnen Sie den Arbeitsbereich und nehmen Sie manuell Änderungen daran vor. Weitere Informationen finden Sie unter [Bearbeiten von Arbeitsbereichen](/help/quicksilver/planning/architecture/edit-workspaces.md).
-   * Klicken Sie **Bearbeiten mit KI**. Dadurch wird Planning Designer geöffnet. Wiederholen Sie die obigen Schritte, um AI zu verwenden, und nehmen Sie weitere Änderungen am Arbeitsbereich vor.
+   * Öffnen Sie den Arbeitsbereich und klicken Sie auf **Mit KI bearbeiten**. Dadurch wird Planning Designer geöffnet. Wiederholen Sie die obigen Schritte, um AI zu verwenden, und nehmen Sie weitere Änderungen am Arbeitsbereich vor.
 
 

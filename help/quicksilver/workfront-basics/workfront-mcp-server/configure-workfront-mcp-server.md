@@ -5,9 +5,9 @@ title: Konfigurieren des Adobe Workfront MCP-Servers
 description: Konfigurieren Sie Ihre Workfront-Instanz und Ihre KI-Agentenplattform, damit Sie über Konversationen in natürlicher Sprache mit Workfront arbeiten können.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: e9ddfa2847c44b0a92af3239a52d704d4a866dc8
+source-git-commit: 836431c7840647b8f412f848fe22d3e64cc42e44
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1588'
 ht-degree: 0%
 
 ---
@@ -144,6 +144,38 @@ ChatGPT unterstützt von Benutzern erstellte Assistenten, die als benutzerdefini
 
 Weitere Informationen zu benutzerdefinierten GPTs finden Sie in der [ChatGPT-Benutzerdokumentation](https://help.openai.com/en/articles/8554397-creating-and-editing-gpts) oder wenden Sie sich an ChatGPT, um Hilfe zu benutzerdefinierten GPTs zu erhalten.
 
+## Workfront mit Copilot verbinden
+
+Verwenden Sie Copilot Studio, um einen benutzerdefinierten Copilot-Agenten zu erstellen, mit dem sich der Workfront-MCP verbinden kann.
+
+1. Klicken Sie in Copilot Studio **Leeren Agenten erstellen**.
+1. Benennen Sie den Agenten und klicken Sie auf **Erstellen**.
+Das Fenster des Agenten wird geöffnet.
+
+1. Beschreiben **im Feld**, was der Agent tun soll. Schließen Sie Informationen wie Ihre Prozesse und die Verwendung von Workfront ein. Es wird empfohlen, sehr viele Details anzugeben.
+1. Klicken Sie in der oberen Navigation auf **Tools** und dann auf **Tool hinzufügen**.
+1. Wählen Sie die Kachel **Modell-Kontextprotokoll** aus.
+1. Geben Sie im angezeigten Bedienfeld einen Namen und eine Beschreibung für diese Verbindung ein.
+1. Geben Sie in das Feld Server-URL die URL ein:
+
+```
+https://mcp.workfront.adobe.com/mcp/v1/workfront`
+```
+
+1. Wählen Sie für die Autorisierung **OAuth 2.0** aus und klicken Sie dann auf **Dynamische Erkennung**.
+1. Klicken **unten** Bedienfeld auf „Erstellen“.
+
+   Die App ist registriert.
+
+1. Nachdem die App registriert wurde, klicken Sie im angezeigten Bedienfeld auf **Nicht verbunden** und klicken Sie dann auf **Neue Verbindung erstellen** und anschließend auf **Erstellen**.
+1. Melden Sie sich im angezeigten Anmelde-Panel bei Workfront an und klicken Sie auf **Weiter** wenn ersichtlich ist, welche Workfront-Instanz Sie verwenden möchten.
+1. Klicken Sie im Bedienfeld, das Ihren Server anzeigt, auf **Hinzufügen und konfigurieren**.
+
+   Sie können jetzt mit der Verwendung und Konfiguration von Tools für Ihren MCP-Server beginnen.
+1. Klicken Sie nach Konfiguration und Test eines Tools auf **Veröffentlichen**.
+
+   Sie sind möglicherweise nicht berechtigt, Folgendes zu veröffentlichen. Wenden Sie sich in diesem Fall an Ihren Copilot-Administrator.
+
 ## Verbindung überprüfen
 
 Um zu bestätigen, dass die KI-Agentenplattform mit Workfront verbunden ist, bitten Sie die KI-Agentenplattform, die Aktionen aufzulisten, die der Workfront-MCP-Server zur Verfügung stellt. Beispiel:
@@ -170,12 +202,6 @@ So stellen Sie eine Verbindung zu einer anderen Workfront-Instanz her:
 >[!NOTE]
 >
 >* Durch die Abmeldung allein wird die Workfront-Instanz nicht gewechselt. Sie müssen den Stecker trennen und erneut anschließen.
->
->* Ihre Workfront-Instanz muss eine Verbindung mit dem MCP-Server für die Region für diese Instanz herstellen. Beispielsweise muss eine EU-Instanz eine Verbindung zum MCP-Server der EU herstellen.
->
->   Wenn Sie eine Instanz auswählen, werden Instanzen, die nicht mit der Region des MCP-Servers kompatibel sind, ausgegraut angezeigt und Sie können keine Verbindung zu ihnen herstellen.
->
->   Um eine Verbindung zu einer Instanz herzustellen, die nicht mit der Region des MCP-Servers kompatibel ist, richten Sie eine neue MCP-Verbindung mit der richtigen URL für diese Region ein.
 
 
 <!--
@@ -190,11 +216,8 @@ So stellen Sie eine Verbindung zu einer anderen Workfront-Instanz her:
 To set up the connection between Gemini and the Workfront MCP server, follow the instructions provided by Google for [connecting Gemini to external tools using MCP](https://docs.cloud.google.com/gemini/enterprise/docs/connectors/custom-mcp-server/set-up-custom-mcp-server). 
 
 When prompted for the MCP Server URL, enter the following URL for your Workfront MCP server:  
-
-   | Region | URL |
-   | --- | --- |
-   | US | `https://mcp.workfront.adobe.com/mcp/v1/workfront` |
-   | EU | `https://mcp-eu.workfront.adobe.com/mcp/v1/workfront` |
+   ```
+   https://mcp.workfront.adobe.com/mcp/v1/workfront|
    
 -->
 
@@ -238,7 +261,6 @@ What happens next
 | Die Authentifizierung ist fehlgeschlagen, oder die Verbindung funktioniert nicht mehr. | Ihre Authentifizierungssitzung ist abgelaufen oder es liegt ein Verbindungsfehler vor. | Den Stecker abziehen und wieder anschließen. |
 | Sie möchten zu einer anderen Workfront-Instanz wechseln. | Eine einzige Verbindung verbindet Sie mit einer Instanz. | Trennen Sie die Verbindung zur neuen Instanz und stellen Sie erneut eine Verbindung her, und authentifizieren Sie sich für sie. |
 | Sie können keine Verbindung zu Workfront herstellen, oder es wird eine Meldung angezeigt, dass der Zugriff auf den MCP-Server deaktiviert ist. | Ihr Workfront-Administrator hat den MCP-Serverzugriff für Ihre Instanz deaktiviert. | Wenden Sie sich an Ihren Workfront-Administrator und bitten Sie ihn, den MCP-Serverzugriff in den Systemeinstellungen zu aktivieren. |
-| Die Workfront-Instanz, mit der Sie eine Verbindung herstellen möchten, ist ausgegraut und es wird eine Meldung angezeigt, dass es für die Verbindung in Ihrer Region nicht verfügbar ist | Ihr MCP-Server ist für eine andere Region (EU oder USA) als Ihre Instanz konfiguriert. | Richten Sie den MCP-Server mit der URL für die Region ein, der Ihre Workfront-Instanz zugewiesen ist. |
 | Die KI-Agentenplattform kann Ihre Workfront-Elemente finden, sie jedoch nicht erstellen, aktualisieren oder löschen. | Ihr Workfront-Administrator hat Schreibaktionen für den Workfront MCP-Server deaktiviert. | Wenden Sie sich an Ihren Workfront-Administrator und bitten Sie ihn, Schreibaktionen in den Systemeinstellungen zu aktivieren. |
 
 Eine tägliche Fehlerbehebung nach der Verbindung (z. B. veraltete Ergebnisse oder unerwartetes Verhalten) finden Sie unter [Verwenden des Adobe Workfront MCP-Servers](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
