@@ -9,19 +9,14 @@ exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LLfVzbK4pCfwB24Hbf9hx0m-xKMVwuDGBP1l-Kxy6Oo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: cfc4bcf9d3956a50839a6da26fc98a645782bdc1
 workflow-type: tm+mt
-source-wordcount: 4300
+source-wordcount: 4223
 ht-degree: 3%
 
 ---
@@ -154,14 +149,14 @@ Beachten Sie Folgendes:
 
   Beim Erstellen einer Zeitleisten-Ansicht können Sie aus den folgenden Datumsfeldern auswählen:
 
-   * Datensatzdaten
-   * Systemgenerierte Felder aufzeichnen: Erstellungsdatum, Datum der letzten Änderung
-   * Daten aus verbundenen Datensatz- oder Objekttypen nachschlagen (nur wenn Sie beim Verbinden der Datensatz- oder Objekttypen einen Aggregator für sie hinzugefügt haben)
+  * Datensatzdaten
+  * Systemgenerierte Felder aufzeichnen: Erstellungsdatum, Datum der letzten Änderung
+  * Daten aus verbundenen Datensatz- oder Objekttypen nachschlagen (nur wenn Sie beim Verbinden der Datensatz- oder Objekttypen einen Aggregator für sie hinzugefügt haben)
 * Je nach den mit den Datensätzen verknüpften Daten werden in den folgenden Szenarien einige Datensätze möglicherweise nicht in der Zeitleisten -Ansicht angezeigt:
 
-   * Wenn das Start- und Enddatum keine Werte aufweisen
-   * Wenn das Start- oder Enddatum keinen Wert hat
-   * Wenn das Startdatum nach dem Enddatum liegt
+  * Wenn das Start- und Enddatum keine Werte aufweisen
+  * Wenn das Start- oder Enddatum keinen Wert hat
+  * Wenn das Startdatum nach dem Enddatum liegt
 
 So verwalten Sie eine Zeitleisten -Ansicht:
 
@@ -214,9 +209,9 @@ So verwalten Sie eine Zeitleisten -Ansicht:
    * Klicken **oben** auf „Heute“, um die Zeitleiste auf das heutige Datum zu zentrieren.
    * Wählen Sie eine der folgenden Optionen aus dem Dropdown-Menü Zeitrahmen aus, um die Zeitinkremente zu aktualisieren und die Ansicht zu aktualisieren:
 
-      * **Year**: Zeigt Quartale und Monate mit Jahresangabe an.
-      * **Quartal**: Zeigt Monate und Wochen mit Quartalsangabe an.
-      * **Monat**: Zeigt Wochen und Tage an.
+     * **Year**: Zeigt Quartale und Monate mit Jahresangabe an.
+     * **Quartal**: Zeigt Monate und Wochen mit Quartalsangabe an.
+     * **Monat**: Zeigt Wochen und Tage an.
 
      >[!TIP]
      >
@@ -379,7 +374,7 @@ So fügen Sie einen Filter zu einer Zeitleisten -Ansicht hinzu:
 
    * **AND**: Alle angegebenen Bedingungen müssen erfüllt sein.
    * **OR**: Jede der angegebenen Bedingungen muss erfüllt sein.
-Dies ist die Standardoption.
+     Dies ist die Standardoption.
 
 1. (Optional) Fügen Sie zusätzliche Filtergruppierungen hinzu und verbinden Sie sie mit den Operatoren **AND** oder **OR**.
 
@@ -407,7 +402,7 @@ Beachten Sie beim Arbeiten mit Gruppierungen in der Zeitleisten -Ansicht Folgend
 
 * Sie können Gruppierungen sowohl in der Tabellen- als auch in der Zeitleisten-Ansicht anwenden. Die Gruppierungen der Tabellenansicht sind unabhängig von denen in der Zeitleisten -Ansicht desselben Datensatztyps.
 * Sie können in einer Ansicht drei Gruppierungsebenen anwenden. Die Datensätze werden in der Reihenfolge der ausgewählten Gruppierungen gruppiert.
-&lt;!—!—* Bei Verwendung der API können Sie bis zu 4 Gruppierungsebenen anwenden. —Diese wird vorerst überprüft—>
+&lt;!—* Bei Verwendung der API können bis zu 4 Gruppierungsebenen angewendet werden. —Diese werden vorerst überprüft—>
 * Die Gruppierungen sind für die ausgewählte Ansicht eindeutig. Auf zwei Tabellenansichten desselben Datensatztyps können unterschiedliche Gruppierungen angewendet werden. Zwei Benutzende, die dieselbe Tabellenansicht betrachten, sehen dieselbe Gruppierung, die derzeit angewendet wird.
 * Die von Ihnen erstellten Gruppierungen können nicht für eine Tabellenansicht benannt werden.
 * Das Entfernen von Gruppierungen entfernt sie von allen Benutzern, die auf denselben Datensatztyp zugreifen wie Sie und die dieselbe Ansicht anzeigen wie Sie.
@@ -466,7 +461,7 @@ So fügen Sie eine Gruppierung in der Zeitleisten -Ansicht hinzu:
    >[!TIP]
    >
    >Wenn Sie Datensätze von einer Gruppierung in eine andere ziehen, aktualisieren die in der Gruppierung ausgewählten Felder automatisch die Werte der verschobenen Datensätze.
-1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [&#x200B; Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
+1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [ Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
 
 <!-- 
 
@@ -553,8 +548,16 @@ Aktualisieren Sie die Einstellungen für die Zeitleisten-Ansicht, um anzugeben, 
      >
      >    * Sie können die Farbe nur Feldern mit farbcodierten Optionen zuordnen. Sie können beispielsweise die Farbe mit Statusfeldern oder Feldern mit Optionen abgleichen, die mit Farben verknüpft sind.
      >    
-     >    * Die Farbe kann nicht mit Suchfeldern aus verknüpften Datensatz- oder Objekttypen abgeglichen werden.
+     >    * Sie können die Farbe nicht mit verbundenen Datensätzen und deren Lookup-Feldern abgleichen.
 
+     <!--
+        For July 23: replace the note above with this note for the July 23 release:
+        >[!NOTE]
+        >
+        >* You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
+        >    
+        >* In the Production environment, you cannot match the color to connected records or their lookup fields. <span class="preview">In the Preview environment, you can match the color to connected records, but not to their lookup fields. </span>     
+        -->
 
    Beispielsweise können Felder mit Mehrfachauswahl oder Einzelauswahl farbcodierte Optionen haben.
 
@@ -570,6 +573,10 @@ Aktualisieren Sie die Einstellungen für die Zeitleisten-Ansicht, um anzugeben, 
    * **Feldwerte**: Die Farbe der Datensätze entspricht der Farbe eines von Ihnen angegebenen Felds. Fahren Sie mit Schritt 10 fort. <!--ensure this stays accurate-->
    * **Gruppierung**: Die Farbe der Datensätze entspricht der Farbe, die Sie für die Gruppierungen angegeben haben. Diese Option ist abgeblendet, wenn auf die Zeitleisten -Ansicht keine Gruppierungen angewendet wurden.
    * **Keine**: Die Datensätze werden in einem weißen Balken angezeigt.
+
+   <!--
+    For July 23: add to the "None" bullet above this sentence: <span class="preview">The None option has been removed from the Preview environment.</span>
+    -->
 
 1. (Bedingt) Wenn Sie **Feldwerte** für die Datensatzfarben ausgewählt haben, wählen Sie ein Feld aus dem Dropdown-Menü **Übereinstimmung der Datensatzfarbe mit** aus.
 
@@ -598,11 +605,11 @@ Beachten Sie Folgendes, wenn Sie die Timeline der Datensätze nach ihren verbund
 * Sie können verbundene Datensätze oder Objekte unter den Datensätzen des ausgewählten Datensatztyps in der Zeitleisten -Ansicht anzeigen.
 * Verbundene Datensätze können nur in der Zeitleisten -Ansicht angezeigt werden, wenn die Datensätze im Standardmodus angezeigt werden. Die Aufschlüsselungsoption kann im Komprimierungsmodus der Zeitleisten -Ansicht nicht verwendet werden.
 * Mithilfe der Aufschlüsselungsfunktion können Sie Folgendes in der Zeitleisten -Ansicht anzeigen:
-   * Mit dem ausgewählten Datensatztyp verknüpfte Workfront-Planungsdatensätze
-   * Workfront- oder Experience Manager-Objekttypen, die mit dem ausgewählten Datensatztyp verbunden sind.
-   * Workfront Planning-Datensätze oder -Objekte aus anderen Programmen, die mit Datensätzen verbunden sind, die mit dem ausgewählten Datensatztyp verbunden sind.
+  * Mit dem ausgewählten Datensatztyp verknüpfte Workfront-Planungsdatensätze
+  * Workfront- oder Experience Manager-Objekttypen, die mit dem ausgewählten Datensatztyp verbunden sind.
+  * Workfront Planning-Datensätze oder -Objekte aus anderen Programmen, die mit Datensätzen verbunden sind, die mit dem ausgewählten Datensatztyp verbunden sind.
 
-     Sie können beispielsweise Kampagnen mit Portfolios verbinden. Darüber hinaus können Sie einen anderen Datensatztyp, nämlich Produkte, mit Projekten sowie mit Kampagnen verbinden. Wenn Sie die Ansicht Kampagnen-Zeitleiste erstellen, können Sie die Kampagnen nach Portfolios, Produkten und Projekten aufschlüsseln.
+    Sie können beispielsweise Kampagnen mit Portfolios verbinden. Darüber hinaus können Sie einen anderen Datensatztyp, nämlich Produkte, mit Projekten sowie mit Kampagnen verbinden. Wenn Sie die Ansicht Kampagnen-Zeitleiste erstellen, können Sie die Kampagnen nach Portfolios, Produkten und Projekten aufschlüsseln.
 
 * Sie können keine Objekttypen anzeigen, die nur mit Workfront-Objekten in Workfront verbunden sind, aber nicht mit einem Workfront Planning-Datensatztyp. Sie können nur Objekt- oder Datensatztypen anzeigen, die in Workfront Planning verbunden sind.
 
@@ -619,7 +626,7 @@ Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quic
 #### Aufschlüsseln verbundener Datensätze
 
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie in den **&#x200B;**- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
+1. Klicken Sie in den ****- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
 1. Erweitern Sie das **Verknüpften Datensatztyp auswählen** und wählen Sie einen verbundenen Datensatztyp aus. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![Aufschlüsselungsauswahl und Schaltfläche in der Zeitleisten-Ansicht](assets/breakdown-picker-and-button-on-timeline.png)

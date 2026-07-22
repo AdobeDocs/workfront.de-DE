@@ -10,16 +10,12 @@ exl-id: f2da081c-bdce-4012-9797-75be317079ef
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/flDonZVaLR3bTF2aZcY9iy2ZnWbfrdhctL7J8esvxng
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: edee967a5c19d86fd471c4571a0b458f72bf370e
 workflow-type: tm+mt
-source-wordcount: 921
+source-wordcount: 2201
 ht-degree: 1%
 
 ---
@@ -84,13 +80,13 @@ Bei der Abfrage des `parametervalues` JSON-Objekts kann jedes benutzerdefinierte
 
 * `<data_type>` konvertiert den vom JSON-Objekt zurückgegebenen Wert in einen für das Feld geeigneten Datentyp. Die Auswahl eines inkompatiblen Datentyps für den zurückgegebenen Wert führt zu einem Fehler wegen nicht übereinstimmender Datentypen. Zu den möglichen Datentypen gehören:
 
-   * `text`
-   * `varchar`
-   * `int`
-   * `float`
-   * `number(len,precision)` (z. B. `Number(32,4)` würde 1234,0987 zurückgeben)
-   * `date`
-   * `timestamp`
+  * `text`
+  * `varchar`
+  * `int`
+  * `float`
+  * `number(len,precision)` (z. B. `Number(32,4)` würde 1234,0987 zurückgeben)
+  * `date`
+  * `timestamp`
 
 * `<column_name>` ist die Beschriftung, die Sie für jede benutzerdefinierte Datenspalte erstellen.
 
@@ -195,6 +191,207 @@ Die Abfrage verwendet die Tracking-Funktionen für Änderungsereignisse von Data
 >Für projects_event: 
 >`From projects_event p`>`Join <above query> c on c.projectid = p.projectid  `>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
 
+## Planung: Abfrage vom Typ Einzel-Datensatz
+
+Dieses Beispiel zeigt, wie Workfront Planning-Daten für einen einzelnen Datensatztyp abgefragt werden, der im Data Connect Data Lake gespeichert ist.
+
+### Szenario
+
+Ihr Unternehmen verwendet Workfront Planning zur Verfolgung von Kampagnen. Jeder Kampagnendatensatz enthält einen Namen, einen Status, ein Startdatum, ein Enddatum und einen Besitzer. Sie möchten eine Liste aller aktiven Kampagnen und ihrer wichtigsten Details zur Verwendung in einem Dashboard abrufen.
+
+* Daten vom Typ Planungsdatensatz werden in der Ansicht PLANNINGRECORD_CURRENT gespeichert.
+* Jede Zeile stellt einen einzelnen Datensatz dar, und alle Feldwerte werden in einer JSON-Spalte mit dem Namen FIELD_VALUES gespeichert.
+* Der Datensatztyp wird durch die Spalte RECORDTYPEID identifiziert.
+* Der Arbeitsbereich des Datensatzes wird durch die Spalte WORKSPACEID (oder die Spalte WORKSPACENAME für einen menschenlesbaren Filter) identifiziert.
+
+### Abfrage
+
+```sql
+SELECT
+  recordid,
+  FIELD_VALUES:"Name"::text AS campaign_name,
+  FIELD_VALUES:"Status"::text AS campaign_status,
+  FIELD_VALUES:"Start Date"::date AS start_date,
+  FIELD_VALUES:"End Date"::date AS end_date,
+  FIELD_VALUES:"Owner"::text AS owner
+FROM PLANNINGRECORD_CURRENT
+WHERE WORKSPACEID = '<your_campaign_workspace_id>'
+AND RECORDTYPEID = '<your_campaign_record_type_id>'
+AND FIELD_VALUES:"Status"::text = 'Active'
+ORDER BY start_date ASC
+```
+
+### Antwort
+
+Die obige Abfrage gibt die folgenden Daten zurück:
+
+* **recordId**: Die eindeutige Planungsdatensatz-ID für die Kampagne.
+* **campaign_name**: Der Name der Kampagne, extrahiert aus dem JSON-Objekt „FIELD_VALUES“.
+* **campaign_status**: Der aktuelle Status der Kampagne.
+* **start_date**: Das Startdatum der Kampagne, umgewandelt in einen Datumsdatentyp.
+* **end_date**: Das Enddatum der Kampagne, umgewandelt in einen Datumsdatentyp.
+* **Inhaber**: Der Name des Benutzers oder Teams, der/das als Kampagnenverantwortlicher zugewiesen wurde.
+
+### Erklärung
+
+Die Planung von Datensätzen in Data Connect verwendet unabhängig vom Datensatztyp eine einzige Tabellenstruktur. Die Spalte RECORDTYPEID wird verwendet, um die Abfrage auf einen bestimmten Datensatztyp zu beschränken - in diesem Fall Kampagnen. Ersetzen Sie `<your_campaign_record_type_id>` durch die ID des Datensatztyps, den Sie abfragen möchten. Diese finden Sie in den Einstellungen für den Workfront Planning-Datensatztyp oder durch Abfragen von RECORDTYPE_CURRENT.
+
+Feldwerte werden als JSON-Objekt in der Spalte FIELD_VALUES gespeichert und über dieselbe Doppelpunktsyntax aufgerufen, die auch für benutzerdefinierte Formulardaten verwendet wird:
+
+```
+<field_column>:"<field_name>"::<data_type> AS <alias>
+```
+
+Feldnamenverweise müssen genau mit dem Feldnamen übereinstimmen, der in der Feldkonfiguration für den Planungs-Datensatztyp definiert ist, einschließlich Groß- und Kleinschreibung, Leerzeichen und Emoji.
+
+>[!NOTE]
+>
+>Die IDs für den Planungs-Datensatztyp finden Sie in der URL, wenn Sie einen Datensatztyp in Workfront Planning anzeigen. Es ist der Pfad der URL, die mit „Rt…“ beginnt. Datensatztypen finden Sie auch mit dem folgenden SQL-Aufruf in Data Connect:
+>
+>
+>```sql
+>SELECT
+>ID AS recordtypeid,
+>DISPLAYNAME AS record_type_name,
+>WORKSPACEID
+>FROM RECORDTYPE_CURRENT
+>ORDER BY record_type_name ASC
+>```
+
+## Planung: Abfrage für verbundene Datensatztypen
+
+Dieses Beispiel zeigt, wie Daten über zwei verbundene Planungs-Datensatztypen hinweg abgefragt werden können - einen übergeordneten Datensatztyp und einen Datensatztyp, mit dem er verbunden ist.
+
+### Szenario
+
+Ihr Unternehmen verknüpft Campaign-Datensätze mit taktischen Datensätzen in Workfront Planning. Sie möchten einen Bericht erstellen, der jede Kampagne zusammen mit den wichtigsten Details der zugehörigen Taktik anzeigt. Sie möchten insbesondere den Namen der Taktik, die strategische Priorität und die Budgetzuweisung anzeigen, damit die Führung die Kampagnenaktivitäten nach Taktik organisieren kann.
+
+In Data Connect werden Verbindungen zwischen nativen Planungs-Datensatztypen direkt in der Spalte FIELD_VALUES_RAW von PLANNINGRECORD_CURRENT gespeichert. Bei einem Referenzfeld mit dem Namen „Taktik“ ist der Wert ein JSON-Array von verbundenen Datensatz-Objekten, von denen jedes eine ID-Eigenschaft mit der RECORDID des verbundenen Datensatzes enthält. Verwenden Sie die Snowflake-Option LATERAL FLATTEN , um dieses Array in Zeilen zu erweitern und mit dem verbundenen Datensatztyp zu verbinden.
+
+### Abfrage
+
+```sql
+SELECT
+  c.RECORDID AS campaign_id,
+  c.FIELD_VALUES:"Name"::text AS campaign_name,
+  c.FIELD_VALUES:"Status"::text AS campaign_status,
+  t.FIELD_VALUES:"Name"::text AS tactic_name,
+  t.FIELD_VALUES:"Strategic Priority"::text AS strategic_priority,
+  t.FIELD_VALUES:"Budget Allocation"::float AS budget_allocation
+FROM PLANNINGRECORD_CURRENT c,
+INNER JOIN REFERENCE_CURRENT R 
+ON r.FROM_REFERENCEID = c.REFERENCE_IDS:"Tactics"::text
+INNER JOIN PLANNINGRECORD_CURRENT t
+-- Join to the Tactic record using the connected record ID from the array
+ON t.RECORDID = r.TO_RECORDID
+WHERE c.RECORDTYPEID = '<your_campaign_record_type_id>'
+ORDER BY tactic_name, campaign_name
+```
+
+### Antwort
+
+Die obige Abfrage gibt die folgenden Daten zurück:
+
+* **campaign_id**: Die eindeutige Planungsdatensatz-ID für die Kampagne.
+* **campaign_name**: Der Name des Kampagnendatensatzes.
+* **campaign_status**: Der aktuelle Status der Kampagne.
+* **TACTIC_NAME**: Der Name des verbundenen taktischen Datensatzes.
+* **Strategic_priority**: Der Feldwert für die strategische Priorität aus dem verbundenen taktischen Datensatz.
+* **budget_allocation**: Der Feldwert für die Budgetzuweisung aus dem verbundenen taktischen Datensatz, der als Gleitkommazahl umgewandelt wird.
+
+### Erklärung - Geänderte KP
+
+Verbindungen zwischen nativen Planungs-Datensatztypen werden in einer REFERENCE_CURRENT JOIN-Tabelle gespeichert.  Die Join-Tabelle REFERENCE_CURRENT wird für Joins zwischen RecordType verwendet.   Beim Verbinden von RecordType sollte das Feld TO_RECORDID verwendet werden.
+
+Die Spalte REFERENCE_ID in der PLANNINGRECORD-Ansicht enthält eine Liste aller REFERENCEID-Felder, die für diesen Planungsdatensatz gelten. Sie können auf die ID zugreifen, indem Sie dieselbe JSON-Notation als field_value verwenden.
+
+```
+<reference_ids>:"<reference_name>"::text
+```
+
+Die REFERENCE_CURRENT-Ansicht enthält einen oder mehrere Datensätze, bei denen TO_RECORDID auf andere `recordId` in den PLANNINGRECORD_*-Ansichten verweist.
+
+Um ein weiteres REFERENCE-Feld mit zusätzlichen Planungsdatensätzen zu verbinden, werden der obigen Abfrage das gleiche Muster der Verbindung mit REFERENCE_CURRENT und der PLANNINGRECORD_* -Ansicht hinzugefügt.
+
+
+## Planung: Datensatztyp mit Workfront Workflow-Datenabfrage verknüpft
+
+Dieses Beispiel zeigt, wie ein Workfront Planning-Datensatztyp mithilfe der nativen Verbindungsfunktion von Planning, die externe Objektverweise in der REFERENCE_CURRENT-Ansicht speichert, mit einem nativen Workfront Workflow-Objekt - in diesem Fall einem Projekt - verbunden wird.
+
+### Szenario
+
+Ihr Unternehmen verbindet Campaign-Datensätze in Workfront Planning mit Workfront-Projekten mithilfe der nativen Verbindungsfunktion von Planning. Sie möchten einen kombinierten Bericht erstellen, der die Kampagnendetails zusammen mit den Live-Ausführungsdaten aus dem verknüpften Projekt anzeigt - insbesondere den aktuellen Prozentsatz der Fertigstellung, das geplante Abschlussdatum und den zugewiesenen Projektbesitzer -, damit Kampagnen-Manager den Versandfortschritt verfolgen können, ohne den Arbeitsbereich Planung verlassen zu müssen.
+
+### Abfrage
+
+```sql
+SELECT
+  c.RECORDID AS campaign_id,
+  c.FIELD_VALUES:"Name"::text AS campaign_name,
+  c.FIELD_VALUES:"Status"::text AS campaign_status,
+  conn.TO_EXTERNALID AS linked_project_id,
+  p.name AS project_name,
+  p.percentcomplete AS project_percent_complete,
+  p.plannedcompletiondate AS project_planned_completion,
+  p.ownerid AS project_owner_id,
+  u.name AS project_owner_name
+FROM WORKFRONT.PLANNING.PLANNINGRECORD_CURRENT c
+-- Join to the references table to find Workfront Project connections
+INNER JOIN WORKFRONT.PLANNING.REFERENCE_CURRENT conn
+ON conn.REFERENCE_ID = c.REFERENCE_IDS:"ProjectId"::text
+-- Join to the Workfront Projects table on the external ID
+INNER JOIN WORKFRONT.WF.PROJECTS_CURRENT p
+ON p.projectid = conn.TO_EXTERNALID
+-- Join to Users to resolve the project owner name
+LEFT JOIN WORKFRONT.WF.USERS_CURRENT u
+ON u.userid = p.ownerid
+WHERE c.RECORDTYPEID = '<your_campaign_record_type_id>'
+AND p.completiontype != 'CPL' -- Exclude completed projects
+ORDER BY campaign_name
+```
+
+### Antwort
+
+Die obige Abfrage gibt die folgenden Daten zurück:
+
+* **campaign_id**: Die eindeutige Planungsdatensatz-ID für die Kampagne.
+* **campaign_name**: Der Name des Kampagnendatensatzes.
+* **campaign_status**: Der aktuelle Status der Kampagne, aus der Planung.
+* **link_project_id**: Die Workfront-Projekt-ID aus REFERENCE_CURRENT.TO_EXTERNALID, die das verbundene Workfront-Projekt identifiziert.
+* **project_name**: Der native Workfront-Projektname aus PROJECTS_CURRENT.
+* **project_percent_complete**: Der aktuelle Wert des Projekts für „Prozent abgeschlossen“.
+* **project_scheduled_completion**: Das geplante Abschlussdatum des verknüpften Workfront-Projekts.
+* **project_owner_id**: Die Workfront-Benutzer-ID des Projektbesitzers.
+* **project_owner_name**: Der Anzeigename des Projektbesitzers, der durch die Verknüpfung mit USERS_CURRENT aufgelöst wird.
+
+### Erklärung
+
+Verbindungen von einem Planungs-Datensatztyp zu einem nativen Workfront Workflow-Objekt werden in REFERENCE_CURRENT gespeichert. Jede Zeile in dieser Ansicht stellt eine direktionale Relation dar: TO_EXTERNALID enthält die ID des verbundenen Workfront-Objekts. Zeilen, die Workfront-Verbindungen darstellen, werden durch `TO_EXTERNALCONNECTIONNAME = 'workfront'` und einen TO_EXTERNALOBJECTNAME-Wert identifiziert, der dem API-Code des Workfront-Objekttyps entspricht - z. B. PROJ für Projekte.
+
+Die Spalte REFERENCE_ID in den PLANNINGRECORD-Tabellen enthält eine Liste aller REFERENCEID-Felder, die für diesen Datensatz gelten.  Sie können auf die ID zugreifen, indem Sie dieselbe JSON-Notation als field_value verwenden.\
+Eine einzelne REFERENCE_ID in PLANNINGRECORD_CURRENT kann eine oder mehrere Referenzverknüpfungen in der REFERENCE_CURRENT-Tabelle enthalten, die mit Objekten eines bestimmten Objekttyps in der Workfront-Tabelle verknüpft sind.
+
+```
+<reference_ids>:"<reference_name>"::text
+```
+
+Beachten Sie, dass sich Planning-Ansichten (PLANNINGRECORD_CURRENT, REFERENCE_CURRENT) im WORKFRONT.PLANNING-Schema befinden, während native Workfront-Workflow-Ansichten (PROJECTS_CURRENT, USERS_CURRENT usw.) im WORKFRONT.WF-Schema gespeichert sind. Für Schema-übergreifende Joins sind vollständig qualifizierte Tabellennamen erforderlich.
+
+Die Abfrage führt drei Joins durch:
+
+1. **Planungsdatensätze zur Referenztabelle:** REFERENCE_CURRENT wird auf `TO_RECORDID = c.RECORDID` verbunden, um alle Verbindungen zu finden, die von jedem Kampagnendatensatz stammen. Die Filter für `TO_EXTERNALCONNECTIONNAME = 'workfront'` und `TO_EXTERNALOBJECTNAME = 'PROJ'` grenzen die Ergebnisse auf Zeilen ein, die speziell Verbindungen zu Workfront-Projekten darstellen.
+1. **Referenztabelle für Workfront-Projekte:** TO_EXTERNALID enthält die native Workfront-Projekt-ID für das verbundene Projekt. Dieser wird direkt mit `PROJECTS_CURRENT.projectid` verknüpft, um Live-Projektdaten abzurufen.
+1. **Projekte für Benutzer:** EIN LINKER JOIN an USERS_CURRENT löst den Fremdschlüssel „ownerID“ des Projekts in einen für Menschen lesbaren Namen auf. Hier wird ein LINKER JOIN verwendet, damit Projekte ohne zugewiesenen Eigentümer weiterhin in die Ergebnisse einbezogen werden.
+
+>[!NOTE]
+>
+>Verwenden Sie beim Verbinden mit Tabellen, die nicht zu Planning gehören, NICHT das Feld TO_RECORDID in der Abfrage.  Dies ist beim Verbinden mit externen Tabellen nicht erforderlich.
+>
+>Dieses Muster kann auf jedes Workfront-Workflow-Objekt angewendet werden, das Planning beim Herstellen einer Verbindung unterstützt, z. B. Projekte, Portfolios oder Programme, indem der Filter TO_EXTERNALOBJECTNAME in den entsprechenden Objekt-API-Code geändert wird (z. B. PORT für Portfolios oder PRGM für Programme) und eine Verbindung zur entsprechenden WORKFRONT.WF-Tabelle hergestellt wird. Im Datenwörterbuch für Workfront Data Connect finden Sie die richtigen Tabellen- und ID-Spaltennamen für jeden Objekttyp.
+
+Um ein weiteres REFERENCE-Feld mit zusätzlichen externen Datensätzen zu verbinden, werden dasselbe Verbindungsmuster mit REFERENCE_CURRENT und den Workfront Workflow-Ansichten der obigen Abfrage hinzugefügt.
+
+Externe und Planungs-Datensatzwerte können in derselben Abfrage zusammengefügt werden, indem sie mehrmals mit der REFERENCE_CURRENT-Tabelle verbunden werden und das entsprechende Join-Muster verwenden.
 
 
 <!--
