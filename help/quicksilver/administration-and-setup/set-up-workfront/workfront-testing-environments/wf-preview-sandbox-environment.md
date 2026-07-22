@@ -10,18 +10,13 @@ feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
 TQID: https://experienceleague.adobe.com/IqwSI0BtN-tIZkT-TVZaR2nS5ZAZH7-8uGHuyygnHK4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 5c9b42ffc6dd0cd93020ce476828fb61db3dc1dd
 workflow-type: tm+mt
-source-wordcount: 1372
+source-wordcount: 1365
 ht-degree: 0%
 
 ---
@@ -139,7 +134,7 @@ So melden Sie sich mit einer URL bei der Sandbox-Vorschau an:
 
 1. Navigieren Sie zu dieser URL: `https://companyname.preview.workfront.com/`.
 
-   Sie können auch auf die Sandbox-Vorschau zugreifen, indem Sie [https://cl04.preview.workfront.com/login&rbrace; &#x200B;](https://cl04.preview.workfront.com/login).
+   Sie können auch auf die Sandbox-Vorschau zugreifen, indem Sie [https://cl04.preview.workfront.com/login} ](https://cl04.preview.workfront.com/login).
 
 1. Melden Sie sich mit Ihren Vorschau-Anmeldedaten an.
 
@@ -203,7 +198,5 @@ In der Vorschau-Umgebung ist die nächtliche Neuberechnung deaktiviert und die P
 * Jeder Ausfall einer [!DNL Workfront]-Vorschau-Umgebung während der regulären Geschäftszeiten hat unmittelbar nach der Behebung von Produktionsproblemen (sofern vorhanden) oberste Priorität.
 
 * Jeder Ausfall einer [!DNL Workfront] Vorschau-Umgebung am Wochenende (samstags und sonntags) wird behoben, sodass die Umgebung montags zu den Geschäftszeiten geöffnet ist.
-
-* Proofing ist in der Vorschau-Umgebung nicht verfügbar.
 
 * Der Frame.io-Viewer ist in der Vorschau-Umgebung nicht verfügbar. Der Adobe-Cloud-Speicher ist verfügbar, sodass Sie ihn in der Sandbox testen können. Das vollständige, einheitliche Überprüfungs- und Validierungserlebnis muss jedoch in der Produktionsumgebung validiert werden. Weitere Informationen finden Sie unter [Übersicht über den Adobe-Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
