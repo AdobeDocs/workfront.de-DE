@@ -21,9 +21,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: d0b0499c10d0e7b032eeceb0d200b4594414e475
 workflow-type: tm+mt
-source-wordcount: 1808
+source-wordcount: 1857
 ht-degree: 4%
 
 ---
@@ -159,6 +159,10 @@ Die Meldung wird in der lokalisierten Sprache angezeigt.
 >[!ENDSHADEBOX]
 
 Informationen zur benutzerdefinierten Lokalisierung finden Sie unter [Konfigurieren der benutzerdefinierten Lokalisierung](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
+
+>[!NOTE]
+>
+>Geschäftsregeln werden nach Abschluss des Hauptprozesses ausgeführt. Mit anderen Worten: Geschäftsregeln sollen Aktionen verhindern, die nicht bereits vom Hauptprozess verarbeitet werden. Sie überschreiben oder ersetzen keine Ausnahmen, die während der Hauptausführung ausgelöst wurden - sie werden ganz am Ende des Prozesses ausgeführt.
 
 ## Szenarien für die Automatisierung von Geschäftsregeln
 
@@ -307,3 +311,4 @@ So aktivieren Sie eine Geschäftsregel:
 1. Wählen Sie die Geschäftsregel in der Regelliste aus und klicken Sie auf das Symbol Bearbeiten .
 1. Wählen Sie **Ja** für **Ist Aktiv** im Dialogfeld „Geschäftsregel“ aus.
 1. Klicken Sie auf **Speichern**.
+
