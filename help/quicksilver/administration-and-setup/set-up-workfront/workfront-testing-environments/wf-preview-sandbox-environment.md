@@ -10,10 +10,15 @@ feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
 TQID: https://experienceleague.adobe.com/IqwSI0BtN-tIZkT-TVZaR2nS5ZAZH7-8uGHuyygnHK4
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 5c9b42ffc6dd0cd93020ce476828fb61db3dc1dd
 workflow-type: tm+mt
 source-wordcount: 1365
@@ -134,7 +139,7 @@ So melden Sie sich mit einer URL bei der Sandbox-Vorschau an:
 
 1. Navigieren Sie zu dieser URL: `https://companyname.preview.workfront.com/`.
 
-   Sie können auch auf die Sandbox-Vorschau zugreifen, indem Sie [https://cl04.preview.workfront.com/login} ](https://cl04.preview.workfront.com/login).
+   Sie können auch auf die Sandbox-Vorschau zugreifen, indem Sie [https://cl04.preview.workfront.com/login&rbrace; &#x200B;](https://cl04.preview.workfront.com/login).
 
 1. Melden Sie sich mit Ihren Vorschau-Anmeldedaten an.
 
