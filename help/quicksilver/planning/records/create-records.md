@@ -1,6 +1,6 @@
 ---
 title: Erstellen von Datensätzen
-description: Bei Verwendung von Adobe Workfront Planning ist ein Datensatz eine Instanz eines Datensatztyps. Sie können in Workfront Planning für jeden Datensatztyp eindeutige Datensätze erstellen, indem Sie diese manuell zur Tabellenansicht hinzufügen, aus einer Liste importieren, duplizieren oder beim Verbinden mit anderen Datensätzen erstellen.
+description: Bei Verwendung von Adobe Workfront Planning ist ein Datensatz eine Instanz eines Datensatztyps. Sie können in Workfront Planning für jeden Datensatztyp eindeutige Datensätze erstellen, indem Sie diese manuell zur Tabellenansicht hinzufügen, aus einer Liste importieren, duplizieren oder beim Verbinden mit anderen Datensätzen erstellen. Jeder Datensatz kann mit einem Miniaturbild, einem Titelbild und einer eindeutigen Farbe verknüpft werden.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -9,20 +9,14 @@ exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/6kEg5JYAO9pilVnKb5eGZbhPeAdbt-g-8SMteodoqP8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d7831c8d233588bf2624ef23b2b524ed54aa5288
 workflow-type: tm+mt
-source-wordcount: 3224
+source-wordcount: 3239
 ht-degree: 1%
 
 ---
@@ -165,19 +159,30 @@ Old:
 
 * Je nachdem, aus welchem Arbeitsbereich sie hinzugefügt werden, sind Datensätze, die zu globalen Datensatztypen hinzugefügt wurden, für die folgenden Benutzertypen sichtbar:
 
-   * Datensätze, die zum ursprünglichen Arbeitsbereich eines globalen Datensatztyps hinzugefügt wurden, sind vom ursprünglichen Arbeitsbereich aus sichtbar.
-   * Datensätze, die zu einem sekundären Arbeitsbereich eines globalen Datensatztyps hinzugefügt wurden, sind nur in dem Arbeitsbereich sichtbar, in dem sie erstellt wurden, sowie im ursprünglichen Arbeitsbereich des globalen Datensatztyps.
-Weitere Informationen finden Sie unter [Übersicht über Workspace-Datensatztypen](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
+  * Datensätze, die zum ursprünglichen Arbeitsbereich eines globalen Datensatztyps hinzugefügt wurden, sind vom ursprünglichen Arbeitsbereich aus sichtbar.
+  * Datensätze, die zu einem sekundären Arbeitsbereich eines globalen Datensatztyps hinzugefügt wurden, sind nur in dem Arbeitsbereich sichtbar, in dem sie erstellt wurden, sowie im ursprünglichen Arbeitsbereich des globalen Datensatztyps.
+    Weitere Informationen finden Sie unter [Übersicht über Workspace-Datensatztypen](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 * Je nach ihren Berechtigungen für den Arbeitsbereich und die Datensatztypen können Benutzer Datensätze wie folgt erstellen:
 
-   * Benutzende mit der Berechtigung Anzeigen für den Arbeitsbereich und den Datensatztyp können Datensätze nur mithilfe der Schaltfläche Datensatz anfordern auf der Seite Datensatztyp erstellen.
-   * Benutzende mit den Berechtigungen Beitragen und Verwalten für den Arbeitsbereich und den Datensatztyp können mithilfe der Schaltfläche Neuer Datensatz auf der Seite Datensatztyp Datensätze erstellen.
+  * Benutzende mit der Berechtigung Anzeigen für den Arbeitsbereich und den Datensatztyp können Datensätze nur mithilfe der Schaltfläche Datensatz anfordern auf der Seite Datensatztyp erstellen.
+  * Benutzende mit den Berechtigungen Beitragen und Verwalten für den Arbeitsbereich und den Datensatztyp können mithilfe der Schaltfläche Neuer Datensatz auf der Seite Datensatztyp Datensätze erstellen.
 
   >[!IMPORTANT]
   >
   >Ein Workspace-Manager muss ein Anfrageformular für den Datensatztyp erstellen, damit Benutzer mit der Berechtigung Anzeigen Datensätze mithilfe eines Anfrageformulars hinzufügen können. Andernfalls können Benutzer mit Anzeigeberechtigung keine Datensätze erstellen.
 
+<!--
+add this bullet for July 23 release:
+
+<div class="preview">
+
+* All records are automatically color-coded when they are created, regardless of the method you are using to create them. 
+
+    For more information, see the section [Color coding records](#color-coding-records) in this article. 
+
+</div>
+-->
 
 ## Erstellen von Datensätzen mithilfe der Schaltfläche Neuer Datensatz oder Datensatz anfragen in einer beliebigen Datensatztypansicht
 
@@ -190,7 +195,7 @@ Weitere Informationen finden Sie unter [Übersicht über Workspace-Datensatztype
 1. Klicken Sie auf eine Karte vom Typ Datensatz. Weitere Informationen zum Erstellen eines Datensatztyps finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md).
 
    Die Seite Datensatztyp wird in der Ansicht geöffnet, auf die Sie zuletzt zugegriffen haben. Standardmäßig wird eine Seite mit dem Datensatztyp in der Tabellenansicht geöffnet.
-Alle Datensätze des ausgewählten Typs werden in der Ansicht angezeigt.
+   Alle Datensätze des ausgewählten Typs werden in der Ansicht angezeigt.
 
 1. (Bedingt) Klicken Sie in einer beliebigen Ansicht in der oberen rechten Ecke Ihres Bildschirms auf eines der folgenden Elemente, je nach den Berechtigungen für den Arbeitsbereich und den Datensatztyp:
 
@@ -207,9 +212,9 @@ Alle Datensätze des ausgewählten Typs werden in der Ansicht angezeigt.
       * **Manuell hinzufügen**. Das Vorschaufeld des Datensatzes wird geöffnet.\
         Fügen Sie Informationen über den Datensatz hinzu, wie im Abschnitt [Erstellen von Datensätzen durch Hinzufügen inline über die Tabellenansicht des Datensatztyps](#create-records-by-adding-them-inline-from-the-record-type-table-view) in diesem Artikel beschrieben, beginnend mit Schritt 6. <!--insure this stays accurate-->
       * **Aus Datei hochladen**
-Fügen Sie Datensätze hinzu, wie im Artikel [Erstellen von Datensätzen durch Importieren von Informationen aus einer CSV- oder Excel-Datei](/help/quicksilver/planning/records/import-file-to-create-records.md) beschrieben, beginnend mit Schritt 6. <!--ensure this stays accurate-->
+        Fügen Sie Datensätze hinzu, wie im Artikel [Erstellen von Datensätzen durch Importieren von Informationen aus einer CSV- oder Excel-Datei](/help/quicksilver/planning/records/import-file-to-create-records.md) beschrieben, beginnend mit Schritt 6. <!--ensure this stays accurate-->
       * **Anfrage senden**
-Das Anfrageformular des Datensatztyps wird geöffnet.
+        Das Anfrageformular des Datensatztyps wird geöffnet.
 
         Ein Workspace-Manager muss ein Anfrageformular erstellen, um einen Datensatz mithilfe eines Anfrageformulars hinzufügen zu können.
 
@@ -272,7 +277,7 @@ Informationen zum Bearbeiten von Datensatzinformationen finden Sie unter [Bearbe
 1. Klicken Sie auf eine Karte vom Typ Datensatz. Weitere Informationen zum Erstellen eines Datensatztyps finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md).
 
    Die Seite Datensatztyp wird in der Ansicht geöffnet, auf die Sie zuletzt zugegriffen haben. Standardmäßig wird eine Seite mit dem Datensatztyp in der Tabellenansicht geöffnet.
-Datensätze des ausgewählten Typs werden in der Ansicht angezeigt.
+   Datensätze des ausgewählten Typs werden in der Ansicht angezeigt.
 
 1. (Bedingt) Führen Sie in der Tabellenansicht einen der folgenden Schritte aus:
 
@@ -295,7 +300,7 @@ Datensätze des ausgewählten Typs werden in der Ansicht angezeigt.
 
    ODER
 
-   Klicken Sie auf **Details öffnen**-Symbol ![Details öffnen“ im Feld &#x200B;](assets/open-details-icon-in-table-name-field.png)Tabellenname“ links neben dem Datensatznamen.
+   Klicken Sie auf **Details öffnen**-Symbol ![Details öffnen“ im Feld ](assets/open-details-icon-in-table-name-field.png)Tabellenname“ links neben dem Datensatznamen.
 
    Das Vorschaufeld wird in der Tabelle geöffnet.
 
@@ -374,9 +379,9 @@ Weitere Informationen zum Erstellen einer Zeitleistenansicht finden Sie unter [V
 
      Standardmäßig sind Datumswerte vorab ausgewählt, je nachdem, wie Sie die Zeitleisten -Ansicht anzeigen. Die folgenden Szenarien sind vorhanden:
 
-      * Nach **Jahr**: Das Start- und Enddatum des Datensatzes erstrecken sich über einen Monat.
-      * Nach **Quartal**: Das Start- und Enddatum des Datensatzes erstrecken sich über eine Woche.
-      * Nach **Monat**: Das Start- und Enddatum des Datensatzes erstrecken sich über drei Tage.
+     * Nach **Jahr**: Das Start- und Enddatum des Datensatzes erstrecken sich über einen Monat.
+     * Nach **Quartal**: Das Start- und Enddatum des Datensatzes erstrecken sich über eine Woche.
+     * Nach **Monat**: Das Start- und Enddatum des Datensatzes erstrecken sich über drei Tage.
 
 1. (Optional) Klicken Sie auf eines der folgenden Symbole:
 
@@ -441,8 +446,8 @@ Weitere Informationen zum Erstellen einer Kalenderansicht finden Sie unter [Verw
 
      Standardmäßig sind Datumswerte abhängig von der Anzeige der Kalenderansicht vorab ausgewählt. Die folgenden Szenarien sind vorhanden:
 
-      * Nach **Monat**: Das Start- und Enddatum des Datensatzes erstrecken sich über einen Tag.
-      * Nach **Woche**: Das Start- und Enddatum des Datensatzes erstrecken sich über zwei Tage.
+     * Nach **Monat**: Das Start- und Enddatum des Datensatzes erstrecken sich über einen Tag.
+     * Nach **Woche**: Das Start- und Enddatum des Datensatzes erstrecken sich über zwei Tage.
 
 1. (Optional) Klicken Sie auf eines der folgenden Symbole:
 
@@ -516,7 +521,7 @@ Sie müssen über Folgendes verfügen, bevor Sie neue Datensätze hinzufügen k�
 
 * Verbundene Datensatztypen Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Einträge.
-* Die richtigen Zugriffsberechtigungen in Workfront Planning und Workfront, wie im Abschnitt [Zugriffsanforderungen“ in &#x200B;](#access-requirements) Artikel beschrieben.
+* Die richtigen Zugriffsberechtigungen in Workfront Planning und Workfront, wie im Abschnitt [Zugriffsanforderungen“ in ](#access-requirements) Artikel beschrieben.
 
 So erstellen Sie Datensätze, während Sie sie mit anderen Datensätzen verbinden:
 
@@ -524,8 +529,8 @@ So erstellen Sie Datensätze, während Sie sie mit anderen Datensätzen verbinde
 
    * Ein Verbindungsfeld in den folgenden Bereichen von Workfront Planning:
 
-      * Die Tabellenansicht
-      * Die Detailseite oder das Vorschaufeld eines Datensatzes
+     * Die Tabellenansicht
+     * Die Detailseite oder das Vorschaufeld eines Datensatzes
 
    * Ein Verbindungsfeld im Abschnitt Planung eines Projekts, Portfolios oder Programms in Workfront.
 
@@ -534,7 +539,7 @@ So erstellen Sie Datensätze, während Sie sie mit anderen Datensätzen verbinde
 1. (Bedingt) Wenn Sie beim Versuch, eine Verbindung herzustellen, einen Datensatz nicht finden können, klicken Sie auf **+ Hinzufügen**
 
    ODER
-Geben Sie einen Namen ein und klicken Sie dann auf **+ Hinzufügen**. Auf die Schaltfläche **+ Hinzufügen** folgt der Name des Datensatztyps, mit dem Sie eine Verbindung herstellen. Beispiel: „Hinzufügen von Marken“, wenn eine Marke zu einer bestehenden Kampagne hinzugefügt wird. Der eingegebene Name folgt auch der Schaltfläche Hinzufügen .
+   Geben Sie einen Namen ein und klicken Sie dann auf **+ Hinzufügen**. Auf die Schaltfläche **+ Hinzufügen** folgt der Name des Datensatztyps, mit dem Sie eine Verbindung herstellen. Beispiel: „Hinzufügen von Marken“, wenn eine Marke zu einer bestehenden Kampagne hinzugefügt wird. Der eingegebene Name folgt auch der Schaltfläche Hinzufügen .
 
    ![Schaltfläche „Hinzufügen“ zum Erstellen von Datensätzen im hervorgehobenen Kontext](assets/add-button-to-create-records-in-context-highlighted.png)
 
@@ -584,5 +589,53 @@ Sie können die Automatisierung auf der Seite des Datensatzes in Workfront Plann
 
 Weitere Informationen finden Sie unter [Erstellen von Objekten mithilfe von Adobe Workfront Planning-Datensatzautomatisierungen](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
+<!--
+For July 23
+Move to its own article after preview release in 07/2026:
 
+<div class="preview">
 
+## Color coding records
+
+All records are automatically associated with a color when they are created. 
+
+1. Create a record using one of the methods described in this article. 
+
+    The color is immediately applied to the new record in the following areas:
+
+    * As a bar, to the left of the record name or primary field in the table, timeline and calendar views. 
+    * As a circle, to the left of the record name in the record's **Details** page. 
+
+        For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
+1. (Conditional) To view the color of a record, do one of the following: 
+    
+    * From the table view, click the **Fields** icon in the toolbar at the top of a list of records, then turn on the **Color** setting. A bar is added to the left of the record's primary field.
+
+        ![Table view record color bar](assets/table-record-color-bar.png)
+
+        For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
+    * From the timeline view, click **Settings** > **Bar style**, then turn on the **Color** setting. A bar is added to the left margin of the record's bar, when you select to color code the bar by **Record**. 
+
+        ![Timeline view record color bar](assets/timeline-record-color-bar.png)
+
+        For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+    * From the calendar view, click **Settings** > **Bar style**, then turn on the **Color** setting. The record bar color matches the record color and a darker shade of the same color is added to the left margin of the record's bar, when you select to color code the bar by **Record**.
+    
+        ![Calendar view record color bar](assets/calendar-record-color-bar.png)
+
+        For information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
+
+    The Color setting is turned off by default.
+
+1. To change the color associated with a record, do the following: 
+
+    1. From the table view, click the record color bar
+        Or 
+        From the record details preview or page, click the record color circle. 
+    1. Click the **Swatches** or the **Custom** tab to select a new color. 
+
+        Once selected, the new color is applied immediately. 
+
+</div>
+
+-->

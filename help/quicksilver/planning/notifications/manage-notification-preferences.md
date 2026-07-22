@@ -9,19 +9,14 @@ exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 TQID: https://experienceleague.adobe.com/C3hvRU9XvH3yqP21zXa4mxH6NrST85Jz98AvqeEHNY4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 516
+source-wordcount: 522
 ht-degree: 10%
 
 ---
@@ -41,8 +36,8 @@ In diesem Artikel wird beschrieben, wie Sie Adobe Workfront Planning-Benachricht
 Sie erhalten möglicherweise In-App- oder E-Mail-Benachrichtigungen, wenn in Workfront Planning die folgenden Aktionen ausgeführt werden:
 
 * Jemand fügt Sie oder Ihre Teams einem Kommentar auf der Datensatzseite hinzu.
-* Jemand fragt nach der Berechtigung für den Zugriff auf eine Ansicht oder einen <!--or <span class="preview">or a record</span>-->
-* Jemand gewährt Ihnen die Berechtigung, auf eine Ansicht oder einen <!--or <span class="preview">or a record</span> I could not test this but Isk confirmed--> zuzugreifen
+* Jemand fragt nach der Berechtigung für den Zugriff auf eine Ansicht, einen Arbeitsbereich oder einen Datensatz
+* Jemand gewährt Ihnen die Berechtigung, auf eine Ansicht oder einen Arbeitsbereich oder einen Datensatz zuzugreifen
 * Sie senden eine Workfront Planning-Anfrage.
 * Jemand genehmigt oder lehnt eine von Ihnen gesendete Workfront Planning-Anfrage ab.
 * Der Status ändert sich in eine von Ihnen gesendete Workfront Planning-Anfrage.
@@ -162,8 +157,8 @@ Weitere Informationen zu Workfront Planning-Benachrichtigungen finden Sie in den
 * Weitere Informationen zu Kommentaren zu Datensätzen finden Sie unter [Verwalten von Datensatzkommentaren](/help/quicksilver/planning/records/manage-record-comments.md).
 * Informationen zu Genehmigungsbenachrichtigungen finden Sie in den folgenden Artikeln:
 
-   * [Genehmigen einer Anfrage in Adobe Workfront-Planung](/help/quicksilver/planning/requests/approve-request.md)
-   * [Senden von Anfragen zum Erstellen von Einträgen in Adobe Workfront-Planung](/help/quicksilver/planning/requests/submit-requests.md)
+  * [Genehmigen einer Anfrage in Adobe Workfront-Planung](/help/quicksilver/planning/requests/approve-request.md)
+  * [Senden von Anfragen zum Erstellen von Einträgen in Adobe Workfront-Planung](/help/quicksilver/planning/requests/submit-requests.md)
 * Informationen zu In-App-Benachrichtigungen von Workfront Planning finden Sie unter [Verwalten von In-App-Benachrichtigungen für Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md).
 * Weitere Informationen zu E-Mail-Benachrichtigungen von Workfront Planning finden Sie unter [Verwalten von E-Mail-Benachrichtigungen für Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md).
 
@@ -188,10 +183,10 @@ Heben Sie die Markierung der Benachrichtigungen auf, die Sie nicht mehr erhalten
    * **Erwähnungen**: Sie erhalten eine Benachrichtigung, wenn Sie oder Ihr Team in Workfront Planning in einem Kommentar getaggt werden
    * **Anfragen**: Sie erhalten eine Benachrichtigung, wenn jemand einen der folgenden Schritte ausgeführt hat:
 
-      * Fordert ein Workfront Planning-Objekt an oder gewährt Ihnen die Berechtigung dafür
-      * Sie haben eine Workfront Planning-Anfrage gesendet
-      * Der Status einer von Ihnen gesendeten Workfront-Planungsanfrage ändert sich
-      * Genehmigungen für Workfront Planning-Anfragen anfordern, gewähren oder ablehnen
+     * Fordert ein Workfront Planning-Objekt an oder gewährt Ihnen die Berechtigung dafür
+     * Sie haben eine Workfront Planning-Anfrage gesendet
+     * Der Status einer von Ihnen gesendeten Workfront-Planungsanfrage ändert sich
+     * Genehmigungen für Workfront Planning-Anfragen anfordern, gewähren oder ablehnen
 
    Weitere Informationen zum Verwalten von Benachrichtigungen finden Sie unter [Kontoeinstellungen und Benachrichtigungen](https://experienceleague.adobe.com/de/docs/core-services/interface/features/account-preferences).
 
@@ -204,7 +199,7 @@ The following scenarios exist:
 
 * Adobe Unified Experience customers receive both an in-app notification and an email notification. They can manage their in-app and email notification preferences in the Preferences area of their Adobe Experience Cloud profile for the Workfront product. 
 
-    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/de/docs/core-services/interface/features/account-preferences).
+    For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 * Customers who are not on the Adobe Unified Experience receive only an email notification. They cannot manage their email notifications preferences and will always receive an email when someone adds them to a comment on a record in Workfront Planning.   
 

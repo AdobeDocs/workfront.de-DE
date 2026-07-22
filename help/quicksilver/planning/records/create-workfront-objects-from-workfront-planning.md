@@ -9,19 +9,12 @@ exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/GHx5HHn781v3Ut86bfjj6xJ5gwomendbp-N6a8Q1tJY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
 source-wordcount: 1330
 ht-degree: 4%
@@ -69,20 +62,20 @@ Beachten Sie beim Verbinden und Erstellen von Workfront-Objekten mit Workfront-P
 
 * Sie können Workfront-Projekte, -Portfolios, -Programme, -Gruppen und -Unternehmen über ein Verbindungsfeld aus den folgenden Bereichen von Workfront Planning verbinden:
 
-   * Die Tabellenansicht eines Datensatztyps
-   * Die Detailseite oder das Vorschaufeld eines Datensatzes
-   * Registerkarte „Verbindungen“ eines Datensatzes
+  * Die Tabellenansicht eines Datensatztyps
+  * Die Detailseite oder das Vorschaufeld eines Datensatzes
+  * Registerkarte „Verbindungen“ eines Datensatzes
 
 * Sie können Projekte aus den folgenden Bereichen von Workfront Planning erstellen:
 
-   * Die Tabellenansicht eines Datensatztyps
-   * Der Detailbereich eines Datensatzes im Verbindungsfeld
-   * Die verbundene Datensatzseite eines Datensatzes
+  * Die Tabellenansicht eines Datensatztyps
+  * Der Detailbereich eines Datensatzes im Verbindungsfeld
+  * Die verbundene Datensatzseite eines Datensatzes
 
 * Sie können Portfolios und Programme aus den folgenden Bereichen von Workfront Planning erstellen:
 
-   * Die Tabellenansicht eines Datensatztyps
-   * Der Detailbereich eines Datensatzes im Verbindungsfeld
+  * Die Tabellenansicht eines Datensatztyps
+  * Der Detailbereich eines Datensatzes im Verbindungsfeld
 
 Informationen zum Verbinden von Planning-Datensätzen mit Workfront-Objekten finden Sie unter [Verbinden von Datensätzen](/help/quicksilver/planning/records/connect-records.md).
 
@@ -121,7 +114,7 @@ Informationen zum Verbinden von Planning-Datensätzen mit Workfront-Objekten fin
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td> <p>Tragen Sie Berechtigungen oder höhere Berechtigungen zum Arbeitsbereich und Datensatztyp bei, dem Sie Datensätze hinzufügen möchten. </p>  
-   <p><span class="preview">Verwalten Sie Berechtigungen für den Datensatz, aus dem Sie das Workfront-Objekt erstellen.</span></p>
+   <p>Verwalten Sie Berechtigungen für den Datensatz, aus dem Sie das Workfront-Objekt erstellen.</p>
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p>
    <p>Verwalten Sie Berechtigungen für Workfront-Objekte (Portfolios), um untergeordnete Objekte (Projekte) hinzuzufügen.</p>
    </td> 
@@ -205,7 +198,7 @@ Sie müssen über Folgendes verfügen, bevor Sie neue Projekte oder Portfolios h
 
 * Datensatztypen, die mit Workfront-Projekten, -Portfolios oder -Programmen verbunden sind. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Datensätze für die mit Workfront-Objekten verbundenen Datensatztypen. Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
-* Die richtigen Zugriffsberechtigungen in Workfront Planning und Workfront, wie im Abschnitt [Zugriffsanforderungen“ in &#x200B;](#access-requirements) Artikel beschrieben.
+* Die richtigen Zugriffsberechtigungen in Workfront Planning und Workfront, wie im Abschnitt [Zugriffsanforderungen“ in ](#access-requirements) Artikel beschrieben.
 
 ## Erstellen Sie Projekte, während Sie sie mit Datensätzen aus Workfront Planning verbinden
 
