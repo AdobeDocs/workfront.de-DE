@@ -19,7 +19,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: cfc4bcf9d3956a50839a6da26fc98a645782bdc1
 workflow-type: tm+mt
 source-wordcount: 1763
 ht-degree: 6%
@@ -157,9 +157,9 @@ Beachten Sie Folgendes:
   Sie können aus Datensatzdatumsfeldern auswählen oder Datumsfelder aus verbundenen Datensatz- oder Objekttypen nachschlagen.
 * Die folgenden Szenarien sind vorhanden:
 
-   * Wenn sowohl das Start- als auch das Enddatum keine Werte haben, werden die Datensätze nicht im Kalender angezeigt
-   * Wenn das Start- oder Enddatum keinen Wert hat, wird der Datensatz als eintägiges Ereignis angezeigt
-   * Wenn das Startdatum nach dem Enddatum liegt, wird der Datensatz nicht im Kalender angezeigt.
+  * Wenn sowohl das Start- als auch das Enddatum keine Werte haben, werden die Datensätze nicht im Kalender angezeigt
+  * Wenn das Start- oder Enddatum keinen Wert hat, wird der Datensatz als eintägiges Ereignis angezeigt
+  * Wenn das Startdatum nach dem Enddatum liegt, wird der Datensatz nicht im Kalender angezeigt.
 
 Verwalten einer Kalenderansicht:
 
@@ -176,12 +176,12 @@ Verwalten einer Kalenderansicht:
    * Klicken **oben** auf „Heute“, um den Kalender auf das heutige Datum zu zentrieren.
    * Wählen Sie eine der folgenden Optionen aus dem Dropdown-Menü Zeitrahmen aus, um die Zeitinkremente zu aktualisieren:
 
-      * **Monat**: Datensätze werden in einem monatlichen Kalender angezeigt.
+     * **Monat**: Datensätze werden in einem monatlichen Kalender angezeigt.
 
-      * **Woche**: Die Datensätze werden in den folgenden Bereichen angezeigt:
+     * **Woche**: Die Datensätze werden in den folgenden Bereichen angezeigt:
 
-         * Datensätze, die sich über mehrere Tage erstrecken, werden oben im Kalender angezeigt.
-         * Datensätze, die einen Tag oder weniger dauern, werden in der unteren Hälfte der Kalenderansicht angezeigt. Wenn Sie ausgewählt haben, die Stunde des Start- und Enddatums anzuzeigen, wird der Datensatz zum entsprechenden Zeitpunkt innerhalb des Tages angezeigt, an dem er auftritt.
+       * Datensätze, die sich über mehrere Tage erstrecken, werden oben im Kalender angezeigt.
+       * Datensätze, die einen Tag oder weniger dauern, werden in der unteren Hälfte der Kalenderansicht angezeigt. Wenn Sie ausgewählt haben, die Stunde des Start- und Enddatums anzuzeigen, wird der Datensatz zum entsprechenden Zeitpunkt innerhalb des Tages angezeigt, an dem er auftritt.
 
 1. (Optional) Klicken Sie auf das **Vollbildsymbol**-Symbol ![Vollbildsymbol öffnen](assets/open-full-screen-icon.png) um die Ansicht im Vollbildmodus zu öffnen. Klicken Sie dann auf das **Vollbildsymbol beenden**-Symbol ![Vollbildsymbol beenden](assets/exit-full-screen-icon.png) oder auf der Tastatur auf Esc , um den Vollbildmodus zu verlassen.
 
@@ -449,6 +449,15 @@ Aktualisieren Sie die Einstellungen der Kalenderansicht, um anzugeben, welche In
    Beispielsweise können Felder mit Mehrfachauswahl oder Einzelauswahl farbcodierte Optionen haben.
 
    Wenn Sie kein Feld mit farbcodierten Optionen für den ausgewählten Datensatztyp haben, ist diese Option abgeblendet.
+
+   <!--
+        For July 23: add this note after the last sentence here
+        >[!NOTE]
+        >
+        >* You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
+        >    
+        >* In the Production environment, you cannot match the color to connected records or their lookup fields. <span class="preview">In the Preview environment, you can match the color to connected records, but not to their lookup fields. </span>     
+        -->
 
 
 1. Klicken Sie auf **Speichern**.
