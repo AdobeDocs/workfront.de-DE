@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 5c9b42ffc6dd0cd93020ce476828fb61db3dc1dd
 workflow-type: tm+mt
-source-wordcount: 1372
+source-wordcount: 1365
 ht-degree: 0%
 
 ---
@@ -203,7 +203,5 @@ In der Vorschau-Umgebung ist die nächtliche Neuberechnung deaktiviert und die P
 * Jeder Ausfall einer [!DNL Workfront]-Vorschau-Umgebung während der regulären Geschäftszeiten hat unmittelbar nach der Behebung von Produktionsproblemen (sofern vorhanden) oberste Priorität.
 
 * Jeder Ausfall einer [!DNL Workfront] Vorschau-Umgebung am Wochenende (samstags und sonntags) wird behoben, sodass die Umgebung montags zu den Geschäftszeiten geöffnet ist.
-
-* Proofing ist in der Vorschau-Umgebung nicht verfügbar.
 
 * Der Frame.io-Viewer ist in der Vorschau-Umgebung nicht verfügbar. Der Adobe-Cloud-Speicher ist verfügbar, sodass Sie ihn in der Sandbox testen können. Das vollständige, einheitliche Überprüfungs- und Validierungserlebnis muss jedoch in der Produktionsumgebung validiert werden. Weitere Informationen finden Sie unter [Übersicht über den Adobe-Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).

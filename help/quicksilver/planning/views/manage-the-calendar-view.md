@@ -19,7 +19,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: cfc4bcf9d3956a50839a6da26fc98a645782bdc1
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
 source-wordcount: 1763
 ht-degree: 6%
@@ -439,6 +439,10 @@ Aktualisieren Sie die Einstellungen der Kalenderansicht, um anzugeben, welche In
    * **Datensatztyp**: Die Farbe der Datensatzleisten im Kalender entspricht der Farbe des ausgewählten Datensatztyps. Dies ist die Standardoption.
    * **Feldwerte**: Die Farbe der Datensätze entspricht der Farbe eines von Ihnen angegebenen Felds.
    * **Keine**: Die Datensätze werden in einem weißen Balken angezeigt.
+
+   <!--
+    For July 23: add to the "None" bullet above this sentence: <span class="preview">The None option has been removed from the Preview environment.</span>
+    -->
 
 1. (Bedingt) Wenn Sie **Feldwerte** für die Datensatzfarben ausgewählt haben, wählen Sie ein Feld aus dem Dropdown-Menü **Übereinstimmung der Datensatzfarbe mit** aus.
 

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: '1873'
+source-wordcount: '1813'
 ht-degree: 1%
 
 ---
@@ -24,16 +24,17 @@ although list views in Planning are very similar to Workfront enhanced lists, ke
 
 <!--If the List view in Project connected pages and request forms stays the same after GTable rolls out - keep this as the List view and change the Table view to "Table redesigned view" for now; keep it "the table view" there for later-->
 
-<span class="preview">Die auf dieser Seite hervorgehobenen Informationen beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+<!--
+<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+-->
 
 {{planning-important-intro}}
 
 Sie können Objekte in der Listenansicht in den folgenden Bereichen von Workfront Planning anzeigen:
 
-* Eine Seite mit verbundenen Datensätzen für Projekte im Detailbereich eines Datensatzes <!--update screen shot for preview May 14 with Grouping icon and add the note at the top in yellow about preview-->
+* Eine Seite mit verbundenen Datensätzen für Projekte im Detailbereich eines Datensatzes
 
   ![Projekte auf der Seite mit verbundenen Datensätzen in der Listenansicht](assets/projects-on-connected-records-page-list-view.png)
 
@@ -86,17 +87,17 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 * Beachten Sie Folgendes für die Listenansicht der verbundenen Datensätze:
 
-   * Sie können Projekte nur in der Listenansicht auf der Seite „Verbundene Datensätze“ eines Datensatzes anzeigen. Die Listenansicht ist für kein anderes Objekt oder keinen anderen Datensatztyp auf einer verbundenen Datensatzseite verfügbar.
+  * Sie können Projekte nur in der Listenansicht auf der Seite „Verbundene Datensätze“ eines Datensatzes anzeigen. Die Listenansicht ist für kein anderes Objekt oder keinen anderen Datensatztyp auf einer verbundenen Datensatzseite verfügbar.
 
   Informationen zum Erstellen einer verbundenen Datensatzseite finden Sie unter [Hinzufügen einer verbundenen Datensatzseite zu einem Datensatz](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
-   * Bevor Sie eine Listenansicht auf einer verbundenen Datensatzseite eines Datensatzes anzeigen können, müssen Sie Workfront-Projekte mit Planungs-Datensatztypen verbinden. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
-   * Sie können mehrere Listenansichten für Projekte auf der Seite „Verbundene Datensätze“ eines Datensatzes erstellen.
+  * Bevor Sie eine Listenansicht auf einer verbundenen Datensatzseite eines Datensatzes anzeigen können, müssen Sie Workfront-Projekte mit Planungs-Datensatztypen verbinden. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+  * Sie können mehrere Listenansichten für Projekte auf der Seite „Verbundene Datensätze“ eines Datensatzes erstellen.
 
 * Beachten Sie Folgendes für die Listenansicht der Anfrageformulare:
 
-   * Sie können keine zusätzlichen Listenansichten für Planungsanfrageformulare erstellen oder bearbeiten. Workfront erstellt für Anfrageformulare eine Listenansicht. <!--this will change-->
+  * Sie können keine zusätzlichen Listenansichten für Planungsanfrageformulare erstellen oder bearbeiten. Workfront erstellt für Anfrageformulare eine Listenansicht. <!--this will change-->
 
-     Weitere Informationen zu Anfrageformularen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+    Weitere Informationen zu Anfrageformularen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 * Je nachdem, wo er angezeigt wird, enthält nicht jede Listenansicht alle in diesem Artikel beschriebenen Elemente.
 
 ## Verwalten einer Listenansicht {#manage-a-list-view}
@@ -186,10 +187,10 @@ Removed - more direct steps below:
       Der **Spalten-Manager** wird geöffnet.
 
       Sie können der Listenansicht nur vorhandene Felder hinzufügen.
-Sie können das primäre Feld in der Listenansicht, die in der ersten Spalte angezeigt wird, nicht entfernen.
+      Sie können das primäre Feld in der Listenansicht, die in der ersten Spalte angezeigt wird, nicht entfernen.
 
    1. Klicken Sie auf das **Zellen formatieren**-Symbol ![Zellen formatieren-Symbol](assets/format-cells-icon.png). Das Feld **Format** wird geöffnet. <!--change the name of the box when they update it-->
-Gehen Sie folgendermaßen vor:
+      Gehen Sie folgendermaßen vor:
 
       1. Klicken Sie **Bedingung hinzufügen**.
       1. Wählen Sie in der **If**-Zeile ein Feld aus, wählen Sie einen Feldwert aus und fügen Sie einen Modifikator hinzu. Die Modifikatoren ändern sich je nach ausgewähltem Feldtyp.
@@ -223,8 +224,8 @@ Gehen Sie folgendermaßen vor:
       1. Klicken Sie außerhalb des Felds **Format**, um es zu schließen.
 
          Dadurch gelangen Sie zurück zur Listenansicht.
-Die Formatierung wird sofort auf die Listenansicht angewendet.
-Ein blauer Punkt neben dem Symbol **Zellen formatieren** gibt an, dass auf die Ansicht eine besondere Formatierung angewendet wurde.
+         Die Formatierung wird sofort auf die Listenansicht angewendet.
+         Ein blauer Punkt neben dem Symbol **Zellen formatieren** gibt an, dass auf die Ansicht eine besondere Formatierung angewendet wurde.
 
    1. (Optional) Klicken Sie auf das **Gruppierung**-Symbol ![Gruppierungssymbol](assets/grouping-icon.png), um Elemente in der Liste nach einem gemeinsamen Feld zu gruppieren. Wählen Sie eine der Optionen aus oder verwenden Sie die Suchleiste, um ein Feld zu finden.
 
@@ -254,9 +255,9 @@ Ein blauer Punkt neben dem Symbol **Zellen formatieren** gibt an, dass auf die A
 
 1. (Bedingt) Verwenden Sie für Felder vom Typ „Auswählen“ Ihre Tastaturpfeile, um durch die Liste der Optionen zu navigieren, und drücken Sie dann die Leertaste, um die richtige Auswahl auszuwählen.
 
-   <span class="preview">Verwenden Sie die Zeile **Suche** in „Feldtypen auswählen“, um die richtige Option zu finden.</span>
+   Verwenden Sie die **Suche** in Feldtypen auswählen , um die richtige Option zu finden.
 
-   <span class="preview">Wenn keine Ergebnisse gefunden werden, können Sie neue Optionen direkt aus der Feldzelle hinzufügen. Diese Funktion ist möglicherweise nicht in allen Listen verfügbar.</span>
+   Wenn keine Ergebnisse gefunden werden, können Sie neue Optionen direkt aus der Feldzelle hinzufügen. Diese Funktion ist möglicherweise nicht in allen Listen verfügbar.
 
 1. Bewegen Sie den Mauszeiger über den Namen eines Elements in der Liste und klicken Sie auf das Menü **Mehr** [Mehr](assets/more-menu.png) und klicken Sie auf **Anzeigen**, um das Element in einer anderen Registerkarte zu öffnen
 

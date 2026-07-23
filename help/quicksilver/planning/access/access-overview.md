@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ab0d036ea3bbcdad2daaed6b09864272fd1beb11
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 1010
+source-wordcount: 1002
 ht-degree: 3%
 
 ---
@@ -108,7 +108,7 @@ Sie müssen über die folgenden Zugriffsrechte verfügen, um Workfront Planning 
    <ul>
    <li><p>Zeigen Sie oder höhere Berechtigungen für Arbeitsbereiche, Datensatztypen und Ansichten an, die Sie nicht für den Zugriff auf sie und ihre Objekte erstellt haben.</p></li>
    <li><p>Tragen Sie oder höhere Berechtigungen zu Arbeitsbereichen und Datensatztypen bei, die Sie nicht erstellt haben, um sie zu bearbeiten und Datensatztypen zu erstellen, zu bearbeiten oder zu löschen.</p></li>
-   <li><p><span class="preview">Verwalten Sie Berechtigungen für Datensätze, um sie zu bearbeiten, freizugeben oder zu löschen.</p>
+   <li><p>Verwalten Sie Berechtigungen für Datensätze, um sie zu bearbeiten, freizugeben oder zu löschen.</p>
    <li><p>Beitragen oder höhere Berechtigungen für Ansichten, die Sie nicht erstellt haben, zum Bearbeiten, Löschen und Freigeben</p>
    </li>
     <li><p>Planungsadministratoren können Workspaces verwalten, die sie nicht erstellt haben. </p></li>

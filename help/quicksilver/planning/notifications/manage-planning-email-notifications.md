@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 611
+source-wordcount: 614
 ht-degree: 2%
 
 ---
@@ -42,8 +42,8 @@ Sie können E-Mail-Benachrichtigungen von Workfront Planning erhalten, wenn die 
 * Jemand versieht Sie oder Ihre Teams in einem Datensatzkommentar mit Tags
 
   Informationen zum Tagging anderer Personen in einem Datensatzkommentar finden Sie unter [Verwalten von Datensatzkommentaren](/help/quicksilver/planning/records/manage-record-comments.md).
-* Jemand fragt nach Ihrer Berechtigung für den Zugriff auf eine Ansicht, einen Arbeitsbereich oder einen Datensatztyp <!--or <span class="preview">or a record</span>-->
-* Jemand bestätigt, dass Ihr Zugriff für eine Ansicht, einen Arbeitsbereich oder einen Datensatztyp gewährt wurde<!--<span class="preview">or record</span> Isk confirmed that there is nno email for denying access but did not test-->
+* Jemand fragt nach Ihrer Berechtigung für den Zugriff auf eine Ansicht, einen Arbeitsbereich, einen Datensatztyp oder einen Datensatz
+* Jemand bestätigt, dass Ihr Zugriff für eine Ansicht, einen Arbeitsbereich, einen Datensatztyp oder einen Datensatz gewährt wurde.
 * Sie senden eine Workfront Planning-Anfrage. Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
 * Jemand genehmigt oder lehnt eine von Ihnen gesendete Workfront Planning-Anfrage ab. Weitere Informationen finden Sie unter [Genehmigen einer Anfrage in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md)
 * Der Status ändert sich in eine von Ihnen gesendete Workfront Planning-Anfrage.

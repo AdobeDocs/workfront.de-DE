@@ -22,10 +22,10 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 8e9dbe4c91058d104f494ab012ae54e04abf8cee
 workflow-type: tm+mt
-source-wordcount: 1984
-ht-degree: 4%
+source-wordcount: 1950
+ht-degree: 5%
 
 ---
 
@@ -42,12 +42,20 @@ Informationen zum Erstellen von Genehmigungsprozessen finden Sie unter [Erstelle
 >[!NOTE]
 >
 >* Wenn Sie einen globalen Genehmigungsprozess bearbeiten, der bereits verwendet wird, wirken sich Ihre Änderungen auf alle Objekte im System aus, die bereits damit verknüpft sind.
->* Wenn Sie eine neue genehmigende Person zum aktuellen Schritt eines Genehmigungsprozesses hinzufügen, der bereits für ein Objekt gestartet wurde, wird der Prozess für dieses Objekt zurückgesetzt und die genehmigenden Personen müssen von vorne beginnen.
 >
->  Wenn Sie jedoch die folgenden Änderungen an einem Genehmigungsprozess vornehmen, der bereits für ein Objekt gestartet wurde, wird dieser Prozess ohne Unterbrechung fortgesetzt:
+>
+>Wenn Sie jedoch die folgenden Änderungen an einem Genehmigungsprozess vornehmen, der bereits für ein Objekt gestartet wurde, wird dieser Prozess ohne Unterbrechung fortgesetzt:
 >
 >* Einen Schritt über das aktuelle Stadium hinaus hinzufügen
 >* Hinzufügen einer zusätzlichen genehmigenden Person vor dem aktuellen Schritt
+
+<!--
+
+Note from Lisa: This was the second bullet in the note box above, below the bullet starting "When you edit a global approval process..." If you comment out bullet points in a note box, weird stuff happens. So I copied it below just in case.
+
+* If you add a new approver to the current stage on an approval process that has already started on an object, the process for that object resets and the approvers have to start over.
+
+-->
 
 ## Zugriffsanforderungen
 

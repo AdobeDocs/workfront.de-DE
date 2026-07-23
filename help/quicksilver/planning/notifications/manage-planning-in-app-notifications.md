@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 396
+source-wordcount: 398
 ht-degree: 4%
 
 ---
@@ -36,8 +36,8 @@ In-App-Benachrichtigungen von Workfront Planning können empfangen werden, wenn 
 * Jemand versieht Sie oder Ihre Teams in einem Datensatzkommentar mit Tags
 
   Informationen zum Tagging anderer Personen in einem Datensatzkommentar finden Sie unter [Verwalten von Datensatzkommentaren](/help/quicksilver/planning/records/manage-record-comments.md).
-* Jemand fragt nach Ihrer Berechtigung für den Zugriff auf eine Ansicht oder einen <!--<span class="preview">or record</span>-->
-* Jemand bestätigt, dass Ihr Zugriff für eine Ansicht oder einen <!--<span class="preview">or record</span> Isk confirmed there is no notification for denying permissions - did not test--> gewährt wurde
+* Jemand fragt nach Ihrer Berechtigung für den Zugriff auf eine Ansicht, einen Arbeitsbereich oder einen Datensatz
+* Jemand bestätigt, dass Ihr Zugriff für eine Ansicht, einen Arbeitsbereich oder einen Datensatz gewährt wurde
 
 ## Zugriffsanforderungen
 
@@ -149,7 +149,7 @@ OLD:
 
 ## Verwalten von In-App-Benachrichtigungen, wenn jemand Sie in einem Kommentar taggt
 
-1. (Bedingt) Nachdem Sie oder Ihre Teams in einem Kommentar zu einem Datensatz getaggt wurden, navigieren Sie zum In-App-Symbol **Benachrichtigungen** (Symbol ![Experience Cloud-Benachrichtigungen](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud.
+1. (Bedingt) Nachdem Sie oder Ihre Teams in einem Kommentar zu einem Datensatz getaggt wurden, navigieren Sie zum In-App-Symbol **Benachrichtigungen** ![Symbol für Experience Cloud-Benachrichtigungen](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud.
 
    ![Beispiel für In-App-Benachrichtigung](assets/in-app-notification-example.png)
 

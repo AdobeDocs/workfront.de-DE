@@ -18,21 +18,22 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
-source-wordcount: 441
+source-wordcount: 362
 ht-degree: 4%
 
 ---
 
 # Exportieren der Details eines Eintrags
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar oder in der Produktionsumgebung für Kunden, die schnelle Versionen aktiviert haben.</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-Um effizienter mit Personen zusammenzuarbeiten, die möglicherweise kein Workfront-Konto haben, können Sie die Detailseite eines Datensatzes in eine Microsoft Word-Datei exportieren und für diese freigeben.
+To collaborate more efficiently with others that might not have a Workfront account, you can export a record's details page to a Microsoft Word file and share it with them. 
+-->
 
 ## Zugriffsanforderungen
 
@@ -60,7 +61,7 @@ Um effizienter mit Personen zusammenzuarbeiten, die möglicherweise kein Workfro
   </tr> 
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td>   <p>Anzeigen oder Erweitern von Berechtigungen für einen Arbeitsbereich, einen Datensatztyp und <span class="preview">Datensatz</span> </p>  
+   <td>   <p>Anzeigen oder Erweitern von Berechtigungen für einen Arbeitsbereich, einen Datensatztyp und einen Datensatz</p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p> </td> 
   </tr> 
   </tr>
@@ -139,8 +140,8 @@ Old:
 
 * Sie können die Details eines Datensatzes in die folgenden Dateiformate exportieren:
 
-   * .docx-Wort
-   * .pdf
+  * .docx-Wort
+  * .pdf
 
 * Sie können nur die Registerkarte Details der Seite oder des Vorschaubereichs eines Datensatzes exportieren.
 

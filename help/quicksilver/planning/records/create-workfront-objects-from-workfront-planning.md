@@ -21,7 +21,7 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
 workflow-type: tm+mt
 source-wordcount: 1330
 ht-degree: 4%
@@ -69,20 +69,20 @@ Beachten Sie beim Verbinden und Erstellen von Workfront-Objekten mit Workfront-P
 
 * Sie können Workfront-Projekte, -Portfolios, -Programme, -Gruppen und -Unternehmen über ein Verbindungsfeld aus den folgenden Bereichen von Workfront Planning verbinden:
 
-   * Die Tabellenansicht eines Datensatztyps
-   * Die Detailseite oder das Vorschaufeld eines Datensatzes
-   * Registerkarte „Verbindungen“ eines Datensatzes
+  * Die Tabellenansicht eines Datensatztyps
+  * Die Detailseite oder das Vorschaufeld eines Datensatzes
+  * Registerkarte „Verbindungen“ eines Datensatzes
 
 * Sie können Projekte aus den folgenden Bereichen von Workfront Planning erstellen:
 
-   * Die Tabellenansicht eines Datensatztyps
-   * Der Detailbereich eines Datensatzes im Verbindungsfeld
-   * Die verbundene Datensatzseite eines Datensatzes
+  * Die Tabellenansicht eines Datensatztyps
+  * Der Detailbereich eines Datensatzes im Verbindungsfeld
+  * Die verbundene Datensatzseite eines Datensatzes
 
 * Sie können Portfolios und Programme aus den folgenden Bereichen von Workfront Planning erstellen:
 
-   * Die Tabellenansicht eines Datensatztyps
-   * Der Detailbereich eines Datensatzes im Verbindungsfeld
+  * Die Tabellenansicht eines Datensatztyps
+  * Der Detailbereich eines Datensatzes im Verbindungsfeld
 
 Informationen zum Verbinden von Planning-Datensätzen mit Workfront-Objekten finden Sie unter [Verbinden von Datensätzen](/help/quicksilver/planning/records/connect-records.md).
 
@@ -121,7 +121,7 @@ Informationen zum Verbinden von Planning-Datensätzen mit Workfront-Objekten fin
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td> <p>Tragen Sie Berechtigungen oder höhere Berechtigungen zum Arbeitsbereich und Datensatztyp bei, dem Sie Datensätze hinzufügen möchten. </p>  
-   <p><span class="preview">Verwalten Sie Berechtigungen für den Datensatz, aus dem Sie das Workfront-Objekt erstellen.</span></p>
+   <p>Verwalten Sie Berechtigungen für den Datensatz, aus dem Sie das Workfront-Objekt erstellen.</p>
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p>
    <p>Verwalten Sie Berechtigungen für Workfront-Objekte (Portfolios), um untergeordnete Objekte (Projekte) hinzuzufügen.</p>
    </td> 
