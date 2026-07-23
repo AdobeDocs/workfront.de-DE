@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ca50590-ef6a-44b1-a856-9821bdafbc1c
-source-git-commit: 7df1d711b89cc69e354525c9eaea48abb6aec158
+source-git-commit: 62688ecf071774f0446e35035a3e0633e3094eae
 workflow-type: tm+mt
-source-wordcount: '3159'
-ht-degree: 14%
+source-wordcount: '3317'
+ht-degree: 16%
 
 ---
 
@@ -609,6 +609,16 @@ Desktop Proofing Viewer wurde von 2.1.54 auf 2.1.55 aktualisiert. Diese Aktualis
 Dieses Update ist sowohl für macOS als auch für Windows.
 
 ## Ankündigungen
+
+### Die kennwortgeschützte Authentifizierung für Benutzende von Data Connect-Lesegeräten endet am 8. August 2026
+
+Ab dem 8. August 2026 funktionieren Workfront Data Connect-/Snowflake-Reader-Benutzer, die sich mit einem Nur-Passwort-Login authentifizieren, nicht mehr, es sei denn, die Multi-Faktor-Authentifizierung (MFA) wurde aktiviert. Nach diesem Datum kann die MFA nicht rückwirkend hinzugefügt werden. Wenn ein Leser ohne sie verfallen darf, kann der Zugriff nur wiederhergestellt werden, indem ein neues Benutzerprofil erstellt wird.
+
+Wenn Sie ein Workfront-Administrator mit Data Connect-Readerbenutzern sind, die noch keinen MFA aktiviert haben, benachrichtigen Sie Ihre Benutzenden umgehend über diese Änderung.
+
+Diese Änderung wurde erstmals in den Workfront-Versionshinweisen vom April 2026 angekündigt, und dies ist die letzte Erinnerung vor Fristablauf. Bitte stellen Sie sicher, dass alle betroffenen Leser-Benutzer die MFA vor dem 8. August 2026 aktivieren, um eine Unterbrechung ihres Zugriffs zu vermeiden.
+
+Weitere Informationen finden Sie unter [Erstellen eines Leserkontos oder einer Verbindung für Snowflake](https://experienceleague.adobe.com/de/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Adobe Workfront Planning als eigenständiges Produkt
 
