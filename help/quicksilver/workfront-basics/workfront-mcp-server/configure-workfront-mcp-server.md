@@ -5,9 +5,9 @@ title: Konfigurieren des Adobe Workfront MCP-Servers
 description: Konfigurieren Sie Ihre Workfront-Instanz und Ihre KI-Agentenplattform, damit Sie über Konversationen in natürlicher Sprache mit Workfront arbeiten können.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 881ec05a1b41b65339b3e90aef05762118093bdc
+source-git-commit: 6ee4dc992b62ce2602bab0b75d8a27fa6a01acc2
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1935'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,9 @@ Der Zugriff auf MCP-Server wird von zwei separaten Administratoren gesteuert.
 
 Sie stellen eine Verbindung zu Workfront einmal pro [!DNL Claude] her. Die Verbindung authentifiziert Sie für eine bestimmte Workfront-Instanz, und Sie bleiben in Verbindung, bis Sie die Verbindung trennen.
 
-
+* [Verbinden mit Claude Desktop über das Connector-Verzeichnis](#connect-to-claude-desktop-from-the-connectors-directory)
+* [Verbindung mit Claude über eine URL herstellen](#connect-to-claude-with-a-url)
+* [Claude-Verhalten mit Fähigkeiten anpassen](#customize-claude-behavior-with-skills)
 
 ### Verbinden mit Claude Desktop über das Connector-Verzeichnis
 
@@ -102,7 +104,7 @@ So verbinden Sie Workfront mit [!DNL Claude]:
 
 So verbinden Sie Workfront mit [!DNL Claude] über eine URL:
 
-1. Melden Sie sich mit Ihren [&#x200B; bei &#x200B;](https://claude.ai)Claude“ an.
+1. Melden Sie sich mit Ihren [ bei ](https://claude.ai)Claude“ an.
 1. Wählen Sie im linken Menü das Symbol **Anpassen** aus.
 1. Wählen Sie **Connectoren** und klicken Sie dann auf das Symbol **+** , um einen Connector hinzuzufügen.
 1. Klicken Sie auf **Schaltfläche „App**&quot;.
@@ -126,6 +128,10 @@ Um mehr über [!DNL Claude] Fähigkeiten zu erfahren, lesen Sie die [Claude-Benu
 
 Das Verfahren zum Verbinden des Workfront MCP-Servers mit ChatGPT unterscheidet sich, je nachdem, ob Sie ChatGPT Desktop oder Codex oder ChatGPT im Web verwenden.
 
+* [Verbinden mit ChatGPT Desktop oder ChatGPT Codex](#connect-to-chatgpt-desktop-or-chatgpt-codex)
+* [Mit ChatGPT im Web verbinden](#connect-to-chatgpt-on-the-web)
+* [Anpassen des ChatGPT-Verhaltens mit benutzerdefinierten GPTs](#customize-chatgpt-behavior-with-custom-gpts)
+
 ### Verbinden mit ChatGPT Desktop oder ChatGPT Codex
 
 1. Öffnen Sie in ChatGPT **Einstellungen**.
@@ -147,7 +153,7 @@ Das Verfahren zum Verbinden des Workfront MCP-Servers mit ChatGPT unterscheidet 
 
 ### Mit ChatGPT im Web verbinden
 
-1. Melden Sie sich mit Ihren [&#x200B; bei &#x200B;](https://chatgpt.com)ChatGPT) an.
+1. Melden Sie sich mit Ihren [ bei ](https://chatgpt.com)ChatGPT) an.
 1. Klicken Sie unten links auf Ihren Namen und dann auf **Einstellungen**.
 1. Wählen Sie in der linken Navigation die Option **Sicherheit und Anmeldung** aus.
 1. Rufen Sie die Seite der ChatGPT-Plug-ins unter https://chatgpt.com/plugins auf.
@@ -202,6 +208,30 @@ https://mcp.workfront.adobe.com/mcp/v1/workfront`
 1. Klicken Sie nach Konfiguration und Test eines Tools auf **Veröffentlichen**.
 
    Sie sind möglicherweise nicht berechtigt, Folgendes zu veröffentlichen. Wenden Sie sich in diesem Fall an Ihren Copilot-Administrator.
+
+## Workfront mit einer benutzerdefinierten MCP-Lösung verbinden
+
+Wenn Sie Ihr eigenes benutzerdefiniertes Programm oder Ihren eigenen Agenten erstellen, können Sie direkt eine Verbindung zum Workfront MCP-Server herstellen.
+
+Es gibt zwei Möglichkeiten, eine Verbindung herzustellen:
+
+* [Verbindung mit einem Service-to-Service-Token herstellen](#connect-with-a-service-to-service-token)
+* [Verbindung mit OAuth herstellen](#connect-with-oauth)
+
+### Verbindung mit einem Service-to-Service-Token herstellen
+
+1. Erstellen von Service-Anmeldeinformationen mit der Adobe Developer Console. Weitere Informationen finden Sie unter [Server-zu-Server-](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/).
+1. Stellen Sie mithilfe der folgenden Informationen eine Verbindung zum Workfront MCP-Server her:
+
+   * **URL:** `https://mcp.workfront.adobe.com/mcp/v1/workfront`
+   * **Kopfzeilen**:
+
+     * `Authorization: Bearer <access_token>`
+     * `wf-url: <your_subdomain>.my.workfront.com` (erforderlich, wenn Ihre Anmeldedaten Zugriff auf mehr als eine Workfront-Instanz haben, z. B. Vorschau und Produktion).
+
+### Verbindung mit OAuth herstellen
+
+Self-Service-Unterstützung für benutzerdefinierte OAuth-Integrationen ist für Workfront noch nicht verfügbar.
 
 ## Verbindung überprüfen
 
@@ -298,6 +328,10 @@ Eine tägliche Fehlerbehebung nach der Verbindung (z. B. veraltete Ergebnisse od
 ## Häufig gestellte Fragen zum Setup
 
 +++ Erweitern Sie , um häufig gestellte Fragen zur Einrichtung des Workfront MCP-Servers anzuzeigen.
+
+* [Kann ich gleichzeitig eine Verbindung zu mehreren Workfront-Instanzen herstellen?](#can-i-connect-to-multiple-workfront-instances-at-the-same-time)
+* [Welcher Administrator aktiviert dies?](#which-administrator-enables-this)
+* [Kann ich den Workfront MCP-Server verwenden, wenn meine Workfront-Instanz auf dem Adobe Identity Management System (IMS) nicht aktiviert ist?](#can-i-use-the-workfront-mcp-server-if-my-workfront-instance-isnt-enabled-on-adobe-identity-management-system-ims)
 
 ### Kann ich gleichzeitig eine Verbindung zu mehreren Workfront-Instanzen herstellen?
 
