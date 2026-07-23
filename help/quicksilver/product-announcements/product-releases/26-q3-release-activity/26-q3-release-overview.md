@@ -18,7 +18,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der für Juli 202
 
 Die Verbesserungen auf dieser Seite sind in der Vorschauumgebung verfügbar. Diese Seite wird mit zusätzlichen Verbesserungen aktualisiert, sobald die geplante Produktionsversion der Version für das dritte Quartal 2026 näher rückt.
 
-Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben die neuen Funktionen hervor und bieten detaillierte Informationen. Um sich zu registrieren, besuchen Sie die [Ereignisseite](https://experienceleague.adobe.com/en/events?filters=Workfront) und filtern Sie nach Workfront.
+Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben die neuen Funktionen hervor und bieten detaillierte Informationen. Um sich zu registrieren, besuchen Sie die [Ereignisseite](https://experienceleague.adobe.com/de/events?filters=Workfront) und filtern Sie nach Workfront.
 
 >[!IMPORTANT]
 >
@@ -618,7 +618,7 @@ Wenn Sie ein Workfront-Administrator mit Data Connect-Readerbenutzern sind, die 
 
 Diese Änderung wurde erstmals in den Workfront-Versionshinweisen vom April 2026 angekündigt, und dies ist die letzte Erinnerung vor Fristablauf. Bitte stellen Sie sicher, dass alle betroffenen Leser-Benutzer die MFA vor dem 8. August 2026 aktivieren, um eine Unterbrechung ihres Zugriffs zu vermeiden.
 
-Weitere Informationen finden Sie unter [Erstellen eines Leserkontos oder einer Verbindung für Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Weitere Informationen finden Sie unter [Erstellen eines Leserkontos oder einer Verbindung für Snowflake](https://experienceleague.adobe.com/de/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Adobe Workfront Planning als eigenständiges Produkt
 
@@ -681,7 +681,7 @@ Weitere Informationen finden Sie unter [Erste Schritte mit der kostenlosen Testv
 
 ### Workfront Maintenance Updates
 
-For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+For information about the maintenance updates made during the Third Quarter 2026 release, see [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=de).
 
 -->
 
