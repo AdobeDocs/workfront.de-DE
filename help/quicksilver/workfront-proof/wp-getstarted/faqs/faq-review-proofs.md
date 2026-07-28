@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 1127
 ht-degree: 0%
@@ -90,3 +90,4 @@ Wenn Sie einen Testversand an eine Gruppe von Validierungsverantwortlichen sende
 ## Kann ich eine Liste aller Kommentare generieren, die zu einem Korrekturabzug gemacht wurden?
 
 Ja, Sie können eine *[!UICONTROL Druckzusammenfassung)]* Kommentare erstellen, die auf dem Korrekturabzug hinterlassen wurden. Dieses Dokument kann entweder für eine einzelne Version oder für alle Versionen generiert werden, die für diesen Reviewer freigegeben wurden. Daraufhin wird eine Liste aller Kommentare, Markierungen und Entscheidungen angezeigt, die für den Testversand vorgenommen wurden. Weitere Informationen zu dieser Funktion finden Sie unter [Drucken und Exportieren von Kommentaren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md).
+

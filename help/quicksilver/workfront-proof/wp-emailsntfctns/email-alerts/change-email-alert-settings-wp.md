@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 180
 ht-degree: 0%
@@ -45,3 +45,4 @@ Sie können auch die [!DNL Workfront Proof] E-Mail-Warnungen ändern, die Sie f�
 1. Klicken Sie auf [!UICONTROL Detailseite] in der linken unteren Ecke der Korrekturabzugsansicht. ![details_page_btn.png](assets/details-page-btn.png)
 
 1. Klicken Sie im [!UICONTROL Workflow] der Seite [!UICONTROL Korrekturabzugsdetails], die unter **[!UICONTROL E-Mail-]**) angezeigt wird, auf die gewünschte Option im Dropdown-Menü.
+

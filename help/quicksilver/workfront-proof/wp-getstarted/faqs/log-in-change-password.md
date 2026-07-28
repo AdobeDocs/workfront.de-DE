@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 550
 ht-degree: 4%
@@ -87,3 +87,4 @@ Sie können Ihrem [!DNL Workfront Proof]-Konto mehrere E-Mail-Adressen hinzufüg
 1. Klicken Sie in der erhaltenen Validierungs-E-Mail auf den Bestätigungs-Link.\
    Die E-Mail-Änderung wird in Ihrem Profil gespeichert. Möglicherweise müssen Sie den Browser aktualisieren, in dem Sie [!DNL Workfront Proof] Seite [!UICONTROL Persönliche Einstellungen] anzeigen, um anzuzeigen, dass es sich um eine Alias-E-Mail handelt.
 1. (Optional) Um die neue E-Mail-Adresse zu Ihrer primären E-Mail-Adresse in [!DNL Workfront Proof] zu machen, klicken Sie auf die Schaltfläche [!UICONTROL Mehr] (drei Punkte) ganz rechts neben der Adresse und klicken Sie dann im angezeigten **auf** Primäre E-Mail erstellen.
+

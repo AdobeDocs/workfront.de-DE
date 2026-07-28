@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 806
 ht-degree: 1%
@@ -50,18 +50,18 @@ Die neue Korrekturabzugs-E-Mail enthält:
 * Miniaturansicht des Korrekturabzugsbilds
 * Die folgenden Details des Korrekturabzugs:
 
-   * Name des Korrekturabzugs
-   * Versionsnummer
-   * Liste der Prüfer und deren Fortschritt beim Testversand
-   * Link zum Freigeben des Korrekturabzugs für eine andere Person
+  * Name des Korrekturabzugs
+  * Versionsnummer
+  * Liste der Prüfer und deren Fortschritt beim Testversand
+  * Link zum Freigeben des Korrekturabzugs für eine andere Person
 
-     Auf diese Weise können Sie die Korrekturabzugs-URL und/oder den Download-Link für die Originaldatei freigeben. Dadurch können Sie dem Korrekturabzug keine Prüfer explizit hinzufügen. Sie geben nur die öffentliche Korrekturabzugs-URL frei und der Empfänger erhält nur Lesezugriff auf den Korrekturabzug.
+    Auf diese Weise können Sie die Korrekturabzugs-URL und/oder den Download-Link für die Originaldatei freigeben. Dadurch können Sie dem Korrekturabzug keine Prüfer explizit hinzufügen. Sie geben nur die öffentliche Korrekturabzugs-URL frei und der Empfänger erhält nur Lesezugriff auf den Korrekturabzug.
 
-     Weitere Informationen finden [&#x200B; unter  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) eines Korrekturabzugs in .
+    Weitere Informationen finden [&#x200B; unter  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) eines Korrekturabzugs in .
 
-     Wenn dieser Link nicht in der E-Mail des Empfängers angezeigt werden soll, können Sie die Einstellungen [!UICONTROL Öffentliche Freigabe] für den Testversand deaktivieren
+    Wenn dieser Link nicht in der E-Mail des Empfängers angezeigt werden soll, können Sie die Einstellungen [!UICONTROL Öffentliche Freigabe] für den Testversand deaktivieren
 
-     (Originaldatei und öffentliche URL herunterladen). Weitere Informationen [&#x200B; Sie unter  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) von Korrekturabzugsdetails in .
+    (Originaldatei und öffentliche URL herunterladen). Weitere Informationen [&#x200B; Sie unter  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) von Korrekturabzugsdetails in .
 
 ## Das Aktivitätsprotokoll
 
@@ -116,3 +116,4 @@ Sie können auswählen, ob ein neuer Prüfer, der zu einem vorhandenen Korrektur
 * Wenn Sie eine benutzerdefinierte Nachricht hinzufügen, wird das Feld erweitert und Sie können eine benutzerdefinierte Betreffzeile (4) und benutzerdefinierten Text in den Textkörper der E-Mail einfügen (5). Sie können die benutzerdefinierte Nachricht auch verwerfen, indem Sie auf den Link (6) klicken.
 
 ![Proof_Details_page_3.png](assets/proof-details-page-3-350x258.png)
+

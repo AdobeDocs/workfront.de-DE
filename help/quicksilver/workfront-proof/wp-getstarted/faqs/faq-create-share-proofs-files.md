@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 1370
 ht-degree: 2%
@@ -156,3 +156,4 @@ Wenn Ihre Empfänger die E-Mail-Benachrichtigung über eine Datei erhalten, die 
 [!DNL Workfront Proof] Benutzer können Dateien in Korrekturabzüge konvertieren, nachdem sie sie in ihrem Konto gespeichert haben.
 
 <!--Is there a limit-->
+

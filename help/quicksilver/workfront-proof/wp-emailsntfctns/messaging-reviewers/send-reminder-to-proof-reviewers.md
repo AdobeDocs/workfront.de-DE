@@ -16,7 +16,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 437
 ht-degree: 7%
@@ -41,10 +41,10 @@ Die standardmäßige Erinnerungs-E-Mail enthält die folgenden Informationen:
 * Miniaturansicht des Korrekturabzugsbilds
 * Die folgenden Details des Korrekturabzugs:
 
-   * Name des Korrekturabzugs
-   * Versionsnummer
-   * Ordnername (falls zutreffend)
-   * Liste der Prüfer und deren Fortschritt beim Testversand
+  * Name des Korrekturabzugs
+  * Versionsnummer
+  * Ordnername (falls zutreffend)
+  * Liste der Prüfer und deren Fortschritt beim Testversand
 
 Sie können eine Person auch an mehrere Korrekturabzüge erinnern, die für sie freigegeben wurden. Weitere Informationen finden Sie unter [Erinnern von Prüfenden an Zuweisungen in Workfront Proof](../../../workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md).
 
@@ -75,3 +75,4 @@ Sie können eine Person auch an mehrere Korrekturabzüge erinnern, die für sie 
      Die Standardmeldung erinnert die Prüfer daran, dass sie zum Korrekturabzug hinzugefügt wurden, und enthält die Frist für den Korrekturabzug.
 
    * Wenn Sie eine eigene benutzerdefinierte Nachricht erstellen möchten, geben Sie einen **[!UICONTROL Betreff]** und die **[!UICONTROL Nachricht] ein** klicken Sie dann auf **[!UICONTROL Senden].**&#x200B;Eine benutzerdefinierte Erinnerungs-E-Mail enthält dieselben Informationen wie die standardmäßige Erinnerungs-E-Mail, sie enthält jedoch auch den benutzerdefinierten Betreff und die benutzerdefinierte Nachricht im Textkörper der E-Mail.
+

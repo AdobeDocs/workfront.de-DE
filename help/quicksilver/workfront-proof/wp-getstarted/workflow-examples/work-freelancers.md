@@ -15,7 +15,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 931
 ht-degree: 0%
@@ -85,3 +85,4 @@ Diese Option ist nützlich, wenn Sie nicht möchten, dass sich Kunden und Freibe
 * Sie können auch die Rolle verwalten, die ihnen im Korrekturabzug zugewiesen wird, z[!UICONTROL &#x200B; B. „Schreibgeschützt] sowie E-Mail-Nachrichten mit ihnen in Bezug auf den Korrekturabzug. Weitere Informationen finden Sie unter [Verwalten von Korrekturabzugsrollen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 * Wenn Sie möchten, dass Ihr Freiberufler nicht am Überprüfungsprozess teilnimmt, Sie aber möchten, dass er über die endgültige Entscheidung benachrichtigt wird, können Sie in Ihren [!UICONTROL Dropzone]-Einstellungen die Standardrolle für Korrekturabzüge festlegen und einen E-Mail-Warnhinweis für alle [!UICONTROL Dropzone]-Absender einrichten, sodass [Korrekturabzugsrollen verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) und [E-Mail-Benachrichtigungseinstellungen konfigurieren in [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md). Weitere Informationen finden Sie unter [E-Mail-Warnhinweise](https://support.workfront.com/hc/en-us/sections/115000911867-Email-alerts) [Rollen für Korrekturabzüge verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) und [E-Mail-Benachrichtigungseinstellungen konfigurieren in [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 * Wenn Sie möchten, dass Ihr Freiberufler aktiv am Überprüfungsprozess teilnimmt, können Sie die Rolle und die E-Mail-Warnhinweiseinstellung des Korrekturabzugs nach Bedarf anpassen, indem Sie diese Details auf der Seite mit den Korrekturabzugsdetails inline bearbeiten. Weitere Informationen zu dieser Seite finden Sie unter [Verwalten von Korrekturabzugsdetails in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)
+

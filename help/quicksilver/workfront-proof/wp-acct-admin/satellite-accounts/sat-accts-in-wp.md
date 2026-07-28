@@ -18,7 +18,7 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 444
 ht-degree: 0%
@@ -69,3 +69,4 @@ Durch die Erstellung von Satellitenkonten für Ihre Kunden.
 | Verbesserter Workflow für Ihren Client | Sie können den Proofing-Prozess an die Bedürfnisse des jeweiligen Kunden anpassen |
 | Ihr Kunde kann Testsendungen über das Satellitenkonto hochladen und für Sie freigeben | Ihr Kunde kann eigene Testsendungen durchführen |
 | Alle Korrekturabzüge, die zuvor für Ihren Kunden freigegeben wurden, werden automatisch in seinem Konto angezeigt | Frühere Korrekturabzüge müssen nicht erneut freigegeben werden |
+

@@ -14,7 +14,7 @@ feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 667
 ht-degree: 1%
@@ -92,3 +92,4 @@ Nachdem Sie den Korrekturabzug zu Ihrem [!DNL Basecamp Classic]-Projekt hinzugef
 > Wenn Sie keine [!DNL Basecamp Classic] Sitzung in einem anderen Browser-Fenster geöffnet haben, müssen Sie sich bei Ihrem [!DNL Basecamp Classic]-Konto anmelden, bevor Sie die Nachricht in [!DNL Basecamp] sehen können.
 
 Siehe auch [Testversand durchführen in [!DNL Basecamp Classic]](../../../workfront-proof/wp-integrations/basecamp-classic/review-proof-basecamp-classic.md).
+

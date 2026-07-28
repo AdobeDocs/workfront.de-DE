@@ -13,7 +13,7 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 543
 ht-degree: 0%
@@ -63,5 +63,6 @@ Wenn der Designer nicht am [!DNL Workfront Proof] Überprüfungsprozess beteilig
 1. Der Projekt-Manager erhält eine E-Mail mit einer Zusammenfassung der Überprüfung durch den Kunden und seiner Entscheidung. Weitere Informationen finden Sie unter [Konfigurieren von E-Mail-Benachrichtigungseinstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 1. Der Projekt-Manager informiert den Designer über die Änderungsanforderungen mithilfe von [!UICONTROL Druckkommentaren]. Weitere Informationen finden Sie unter [Drucken und Exportieren von Kommentaren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md).
 1. Bei Bedarf ändert der Designer die Datei und lädt sie in [!DNL Workfront Proof] hoch, wo der Projekt-Manager eine neue Version für eine weitere Proofing-Runde erstellen kann.
+
 
 

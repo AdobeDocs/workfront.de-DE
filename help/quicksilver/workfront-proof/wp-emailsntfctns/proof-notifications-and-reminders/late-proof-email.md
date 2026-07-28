@@ -17,7 +17,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
 workflow-type: tm+mt
 source-wordcount: 403
 ht-degree: 0%
@@ -59,3 +59,4 @@ Beachten Sie Folgendes zu Korrekturabzugs-Benachrichtigungen:
   >Der Ersteller der Korrekturabzüge erhält für jeden [!UICONTROL &#x200B; Korrekturabzug eine separate &#x200B;]Korrekturabzugs erstellt). Weitere Informationen finden Sie unter [Die E[!UICONTROL Mail mit dem &#x200B;] Korrekturabzug](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md).
 
 * Wenn Sie oder Ihre Validierungsverantwortlichen keine erwartete E-Mail-Benachrichtigung erhalten, lesen Sie [Konfigurieren von E [!DNL Workfront Proof] Mails zur Vermeidung von Spam-Filtern](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md).
+
