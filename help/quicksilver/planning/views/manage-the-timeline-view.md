@@ -9,30 +9,24 @@ exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LLfVzbK4pCfwB24Hbf9hx0m-xKMVwuDGBP1l-Kxy6Oo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: cfc4bcf9d3956a50839a6da26fc98a645782bdc1
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
-source-wordcount: 4223
+source-wordcount: 4315
 ht-degree: 3%
 
 ---
 
 # Verwalten der Timeline-Ansicht
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -466,7 +460,7 @@ So fügen Sie eine Gruppierung in der Zeitleisten -Ansicht hinzu:
    >[!TIP]
    >
    >Wenn Sie Datensätze von einer Gruppierung in eine andere ziehen, aktualisieren die in der Gruppierung ausgewählten Felder automatisch die Werte der verschobenen Datensätze.
-1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [&#x200B; Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
+1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [ Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
 
 <!-- 
 
@@ -549,20 +543,12 @@ Aktualisieren Sie die Einstellungen für die Zeitleisten-Ansicht, um anzugeben, 
    * **Standard (Grau)**: Die Farbe der Gruppierungen wird als Grau festgelegt. Dies ist der Standardwert.
    * **Feldwerte**: Die Farbe der Gruppierungen entspricht der Farbe des Felds, nach dem Sie gruppieren.
 
-     >[!NOTE]
-     >
-     >    * Sie können die Farbe nur Feldern mit farbcodierten Optionen zuordnen. Sie können beispielsweise die Farbe mit Statusfeldern oder Feldern mit Optionen abgleichen, die mit Farben verknüpft sind.
-     >    
-     >    * Sie können die Farbe nicht mit verbundenen Datensätzen und deren Lookup-Feldern abgleichen.
+   >[!NOTE]
+   >
+   >* Sie können die Farbe nur Feldern mit farbcodierten Optionen zuordnen. Sie können beispielsweise die Farbe mit Statusfeldern oder Feldern mit Optionen abgleichen, die mit Farben verknüpft sind.
+   >    
+   >* In der Produktionsumgebung können Sie die Farbe nicht mit verbundenen Datensätzen oder deren Suchfeldern abgleichen. <span class="preview">In der Vorschau-Umgebung können Sie die Farbe mit verbundenen Datensätzen abgleichen, jedoch nicht mit ihren Suchfeldern. </span>
 
-     <!--
-        For July 23: replace the note above with this note for the July 23 release:
-        >[!NOTE]
-        >
-        >* You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
-        >    
-        >* In the Production environment, you cannot match the color to connected records or their lookup fields. <span class="preview">In the Preview environment, you can match the color to connected records, but not to their lookup fields. </span>     
-        -->
 
    Beispielsweise können Felder mit Mehrfachauswahl oder Einzelauswahl farbcodierte Optionen haben.
 
@@ -577,11 +563,7 @@ Aktualisieren Sie die Einstellungen für die Zeitleisten-Ansicht, um anzugeben, 
    * **Datensatztyp**: Die Farbe der Datensätze entspricht der Farbe des ausgewählten Datensatztyps. Dies ist die Standardoption.
    * **Feldwerte**: Die Farbe der Datensätze entspricht der Farbe eines von Ihnen angegebenen Felds. Fahren Sie mit Schritt 10 fort. <!--ensure this stays accurate-->
    * **Gruppierung**: Die Farbe der Datensätze entspricht der Farbe, die Sie für die Gruppierungen angegeben haben. Diese Option ist abgeblendet, wenn auf die Zeitleisten -Ansicht keine Gruppierungen angewendet wurden.
-   * **Keine**: Die Datensätze werden in einem weißen Balken angezeigt.
-
-   <!--
-    For July 23: add to the "None" bullet above this sentence: <span class="preview">The None option has been removed from the Preview environment.</span>
-    -->
+   * **Keine**: Die Datensätze werden in einem weißen Balken angezeigt. <span class="preview">Die Option „Ohne“ wurde aus der Vorschau-Umgebung entfernt.</span>
 
 1. (Bedingt) Wenn Sie **Feldwerte** für die Datensatzfarben ausgewählt haben, wählen Sie ein Feld aus dem Dropdown-Menü **Übereinstimmung der Datensatzfarbe mit** aus.
 
@@ -631,7 +613,7 @@ Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quic
 #### Aufschlüsseln verbundener Datensätze
 
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie in den **&#x200B;**- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
+1. Klicken Sie in den ****- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
 1. Erweitern Sie das **Verknüpften Datensatztyp auswählen** und wählen Sie einen verbundenen Datensatztyp aus. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![Aufschlüsselungsauswahl und Schaltfläche in der Zeitleisten-Ansicht](assets/breakdown-picker-and-button-on-timeline.png)

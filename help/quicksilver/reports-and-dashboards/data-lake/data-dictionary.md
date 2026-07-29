@@ -7,10 +7,10 @@ description: Diese Seite enthält Informationen zur Struktur und zum Inhalt der 
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: cfc4bcf9d3956a50839a6da26fc98a645782bdc1
+source-git-commit: 0666f0bee54821051a95354c38e775c02e935fa1
 workflow-type: tm+mt
-source-wordcount: '11896'
-ht-degree: 7%
+source-wordcount: '11533'
+ht-degree: 8%
 
 ---
 
@@ -1708,15 +1708,15 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
 >
 >Der Typ des Datensatzes wird durch die `enumClass`-Eigenschaft identifiziert. Es werden folgende Typen erwartet:<br>
 ><ul><li>CONDITION_OPTASK</li>
->&gt;<li>CONDITION_PROJ</li>
->&gt;<li>CONDITION_TASK</li>
->&gt;<li>PRIORITY_OPTASK</li>
->&gt;<li>PRIORITY_PROJ</li>
->&gt;<li>PRIORITY_TASK</li>
->&gt;<li>SEVERITY_OPTASK</li>
->&gt;<li>STATUS_OPTASK</li>
->&gt;<li>STATUS_PROJ</li>
->&gt;<li>STATUS_TASK</li></ul>
+&gt;<li>CONDITION_PROJ</li>
+&gt;<li>CONDITION_TASK</li>
+&gt;<li>PRIORITY_OPTASK</li>
+&gt;<li>PRIORITY_PROJ</li>
+&gt;<li>PRIORITY_TASK</li>
+&gt;<li>SEVERITY_OPTASK</li>
+&gt;<li>STATUS_OPTASK</li>
+&gt;<li>STATUS_PROJ</li>
+&gt;<li>STATUS_TASK</li></ul>
 
 
 ### Dokument
@@ -8898,194 +8898,114 @@ Enthält die aktuellen Definitionen aller Felder, die für Workfront Planning-Da
         <td>Verwandtes Feld</td>
     </tr>
     <tr>
-        <td>`ID`</td>
-        <td>varchar</td>
-        <td>Die eindeutige Kennung für die Felddefinition. Primärer Schlüssel für diese Ansicht.</td>
-        <td>–</td>
-        <td>–</td>
-    </tr>
-    <tr>
-        <td>`RECORDTYPEID`</td>
-        <td>varchar</td>
-        <td>Die eindeutige Kennung des Datensatztyps, zu dem dieses Feld gehört. Verwenden Sie mit RECORDTYPE\_CURRENT, um Details zum Datensatztyp nachzuschlagen.</td>
-        <td>RECORDTYPE\_CURRENT</td>
-        <td>ID</td>
-    </tr>
-    <tr>
-        <td>`DISPLAYNAME`</td>
-        <td>varchar</td>
-        <td>Der Anzeigename des Felds, wie in der Planning-Benutzeroberfläche angezeigt.</td>
-        <td>–</td>
-        <td>–</td>
-    </tr>
-    <tr>
-        <td>`ALIASNAME`</td>
+        <td>ALIASNAME</td>
         <td>varchar</td>
         <td>Eine URL-sichere Kleinbuchstabenversion des Anzeigenamens des Felds, die für die Identifizierung auf Systemebene und den API-Zugriff verwendet wird (z. B. wird „end date“ zu „end_date“, „percent_complete“ zu „percent_complete„).</td>
         <td>–</td>
         <td>–</td>
     </tr>
     <tr>
-        <td>`DESCRIPTION`</td>
-        <td>varchar</td>
-        <td>Eine vom Benutzer bereitgestellte Beschreibung des Zwecks des Felds.</td>
-        <td>–</td>
-        <td>–</td>
-    </tr>
-    <tr>
-        <td>`FIELDTYPE`</td>
-        <td>varchar</td>
-        <td>Der Datentyp oder die Feldkategorie. Mögliche Werte sind: „text“, „long-text“, „number“, „percentage“, „currency“, „date“, „boolean“, „single-select“, „multi-select“, „reference“, „lookup“, „Formula“, „user“, „created-at“ und „created-by“.</td>
-        <td>–</td>
-        <td>–</td>
-    </tr>
-    <tr>
-        <td>`HASERROR`</td>
-        <td>varchar</td>
-        <td>Gibt an, ob das Feld derzeit einen Konfigurations- oder Synchronisierungsfehler aufweist. Werte sind die Zeichenfolgen „true“ oder „false“. Der Wert „true“ bedeutet, dass das Feld einen Fehlerstatus aufweist und möglicherweise keine korrekten Daten zurückgibt.</td>
-        <td>–</td>
-        <td>–</td>
-    </tr>
-    <tr>
-        <td>`LINKEDFIELD`</td>
-        <td>Variante</td>
-        <td>Ein JSON-Objekt, das die vollständige Felddefinition des Quellfelds enthält, mit dem dieses Feld verknüpft ist. Vorhanden für die Feldtypen „Verweis“ und „Suche“; umfasst Eigenschaften wie „alias“, „displayName“, „fieldType“ und „createdAt“. Null für nicht verknüpfte Felder.</td>
-        <td>FIELD\_CURRENT</td>
-        <td>ID</td>
-    </tr>
-    <tr>
-        <td>`OPTIONS`</td>
-        <td>Variante</td>
-        <td>Ein JSON-Array von Auswahlobjekten für die Felder „single-select“ und „multi-select“. Jedes Auswahlobjekt enthält „color“ (eine benannte Farbkennzeichnung), „displayName“ (die in der Benutzeroberfläche angezeigte Kennzeichnung) und „name“ (der interne API-Name). Null für nicht ausgewählte Feldtypen.</td>
-        <td>–</td>
-        <td>–</td>
-    </tr>
-    <tr>
-        <td>`DATEOPTIONS`</td>
-        <td>Variante</td>
-        <td>Ein JSON-Objekt, das eine datumsspezifische Anzeigekonfiguration für Datumsfelder enthält. Enthält „dateFormat“ (z. B. „locale„) und „timeFormat“ (null, wenn die Zeit nicht angezeigt wird). Null für Nicht-Datum-Feldtypen.</td>
-        <td>–</td>
-        <td>–</td>
-    </tr>
-    <tr>
-        <td>`FORMULAOPTIONS`</td>
-        <td>Variante</td>
-        <td>Ein JSON-Objekt, das die Formelkonfiguration für Felder vom Typ „Formel“ enthält. Enthält `Formula` (den von Menschen lesbaren Formelausdruck), `returnType` (z. B. `PERCENTAGE`, `NUMBER`), `numberOptions` (Präzision, Visualisierung) und `dateOptions`. Null für Nicht-Formelfelder.</td>
-        <td>–</td>
-        <td>–</td>
-    </tr>
-    <tr>
-        <td>`REFERENCEOPTIONS`</td>
-        <td>Variante</td>
-        <td>Ein JSON-Objekt, das die Verbindungskonfiguration für „Referenz“-Felder enthält, die mit anderen Planungs-Datensatztypen verknüpft sind. Enthält „backField“ (die Definition des Rückwärtsverweisfelds auf dem verbundenen Datensatztyp) und „linkedRecordTypeId“. Null für Nicht-Referenz-Felder.</td>
-        <td>–</td>
-        <td>–</td>
-    </tr>
-    <tr>
-        <td>`LOOKUPOPTIONS`</td>
-        <td>Variante</td>
-        <td>Ein JSON-Objekt, das die Suchkonfiguration für „lookup“-Felder enthält, die Werte von einem verbundenen Datensatztyp abrufen. Enthält „referenceFieldId“ (die ID des Referenzfelds, das die Suche steuert), „rollup“ (Aggregationsmethode oder null für keine Datenaggregation) und „sourceField“ (ein Objekt mit der „id“ des gesuchten Felds). Null für Nicht-Such-Felder.</td>
-        <td>–</td>
-        <td>–</td>
-    </tr>
-    <tr>
-        <td>`NUMBEROPTIONS`</td>
-        <td>Variante</td>
-        <td>Ein JSON-Objekt, das numerische Formatierungsoptionen für die Felder „number“, „percentage“ und „currency“ enthält. Enthält `allowNegatives` (boolesch), `currency` (Währungs-Code oder null), `precision` (Dezimalstellen) und `visualizationType` (Anzeigestil oder null für einfachen Text). Null für nicht numerische Feldtypen.</td>
-        <td>–</td>
-        <td>–</td>
-    </tr>
-    <tr>
-        <td>`EXTERNALOPTIONS`</td>
-        <td>Variante</td>
-        <td>Ein JSON-Objekt, das Konfigurationen für Felder enthält, die außerhalb von Planning mit externen Systemen verbunden sind. Normalerweise null für nativ erstellte Felder; wird für Felder in extern verbundenen Datensatztypen ausgefüllt.</td>
-        <td>–</td>
-        <td>–</td>
-    </tr>
-    <tr>
-        <td>`CREATEDAT`</td>
-        <td>timestamp\_NTZ</td>
-        <td>Der Zeitstempel (keine Zeitzone) des Zeitpunkts der Erstellung dieses Felds.</td>
-        <td>–</td>
-        <td>–</td>
-    </tr>
-    <tr>
-        <td>`CREATEDBY`</td>
-        <td>varchar</td>
-        <td>Die Kennung des Benutzers, der dieses Feld erstellt hat.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-    </tr>
-    <tr>
-        <td>`UPDATEDAT`</td>
-        <td>timestamp\_NTZ</td>
-        <td>Der Zeitstempel (keine Zeitzone), wann dieses Feld zuletzt aktualisiert wurde.</td>
-        <td>–</td>
-        <td>–</td>
-    </tr>
-    <tr>
-        <td>`UPDATEDBY`</td>
-        <td>varchar</td>
-        <td>Die Kennung des Benutzers, der dieses Feld zuletzt aktualisiert hat.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-    </tr>
-    <tr>
-        <td>`USERID`</td>
-        <td>varchar</td>
-        <td>Die Kennung des Benutzers, der diesem Feld zugeordnet ist, normalerweise der Feldbesitzer.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-    </tr>
-    <tr>
-        <td>`CREATED`</td>
+        <td>ERSTELLT</td>
         <td>Zahl</td>
         <td>Eine Markierung, die den letzten Vorgangstyp angibt, der sich auf diesen Felddatensatz ausgewirkt hat. Der Wert 1 gibt an, dass der Datensatz im letzten Datenaktualisierungszyklus erstellt wurde; 0 gibt an, dass dies nicht der Fall war. Siehe CREATEDAT für den tatsächlichen Erstellungszeitstempel.</td>
         <td>–</td>
         <td>–</td>
     </tr>
     <tr>
-        <td>`AKTUALISIERT`</td>
-        <td>Zahl</td>
-        <td>Eine Markierung, die den letzten Vorgangstyp angibt, der sich auf diesen Felddatensatz ausgewirkt hat. Der Wert 1 bedeutet, dass der Datensatz im letzten Datenaktualisierungszyklus aktualisiert wurde; 0 bedeutet, dass dies nicht der Fall war. Siehe UPDATEDAT für den tatsächlichen Zeitstempel der letzten Aktualisierung.</td>
+        <td>CREATEDAT</td>
+        <td>timestamp\_NTZ</td>
+        <td>Der Zeitstempel (keine Zeitzone) des Zeitpunkts der Erstellung dieses Felds.</td>
         <td>–</td>
         <td>–</td>
     </tr>
     <tr>
-        <td>`DELETED`</td>
+        <td>CREATEDBY</td>
+        <td>varchar</td>
+        <td>Die Kennung des Benutzers, der dieses Feld erstellt hat.</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+    </tr>
+    <tr>
+        <td>DATEOPTIONS</td>
+        <td>Variante</td>
+        <td>Ein JSON-Objekt, das eine datumsspezifische Anzeigekonfiguration für Datumsfelder enthält. Enthält „dateFormat“ (z. B. „locale„) und „timeFormat“ (null, wenn die Zeit nicht angezeigt wird). Null für Nicht-Datum-Feldtypen.</td>
+        <td>–</td>
+        <td>–</td>
+    </tr>
+    <tr>
+        <td>GELÖSCHT</td>
         <td>Zahl</td>
         <td>Eine Markierung, die angibt, ob dieses Feld vorläufig gelöscht wurde. Der Wert 1 bedeutet „gelöscht“, 0 bedeutet „aktiv“.</td>
         <td>–</td>
         <td>–</td>
     </tr>
     <tr>
-        <td>`RESTORED`</td>
-        <td>Zahl</td>
-        <td>Eine Markierung, die angibt, ob dieses Feld nach dem Löschen wiederhergestellt wurde.</td>
-        <td>–</td>
-        <td>–</td>
-    </tr>
-    <tr>
-        <td>`TRIGGEREDBYSERVICE`</td>
+        <td>BESCHREIBUNG</td>
         <td>varchar</td>
-        <td>Der Name des Services oder der Integration, die die letzte Änderung an diesem Felddatensatz ausgelöst hat. Der Wert „Unbekannt“ bedeutet, dass der ursprüngliche Service nicht ermittelt werden konnte.</td>
+        <td>Eine vom Benutzer bereitgestellte Beschreibung des Zwecks des Felds.</td>
         <td>–</td>
         <td>–</td>
     </tr>
     <tr>
-        <td>`ISFUSION`</td>
+        <td>ANZEIGENAME</td>
+        <td>varchar</td>
+        <td>Der Anzeigename des Felds, wie in der Planning-Benutzeroberfläche angezeigt.</td>
+        <td>–</td>
+        <td>–</td>
+    </tr>
+    <tr>
+        <td>DL_LOAD_TIMESTAMP</td>
+        <td>timestamp\_NTZ</td>
+        <td>Der Zeitstempel des Datenaktualisierungsauftrags, der diesen Felddatensatz zuletzt in den Data Lake geladen hat. Wird nach jedem erfolgreichen Datenaktualisierungszyklus aktualisiert.</td>
+        <td>–</td>
+        <td>–</td>
+    </tr>
+    <tr>
+        <td>EXTERNE OPTIONEN</td>
+        <td>Variante</td>
+        <td>Ein JSON-Objekt, das Konfigurationen für Felder enthält, die außerhalb von Planning mit externen Systemen verbunden sind. Normalerweise null für nativ erstellte Felder; wird für Felder in extern verbundenen Datensatztypen ausgefüllt.</td>
+        <td>–</td>
+        <td>–</td>
+    </tr>
+    <tr>
+        <td>FIELDTYPE</td>
+        <td>varchar</td>
+        <td>Der Datentyp oder die Feldkategorie. Mögliche Werte sind: „text“, „long-text“, „number“, „percentage“, „currency“, „date“, „boolean“, „single-select“, „multi-select“, „reference“, „lookup“, „Formula“, „user“, „created-at“ und „created-by“.</td>
+        <td>–</td>
+        <td>–</td>
+    </tr>
+    <tr>
+        <td>FORMELOPTIONEN</td>
+        <td>Variante</td>
+        <td>Ein JSON-Objekt, das die Formelkonfiguration für Felder vom Typ „Formel“ enthält. Enthält `Formula` (den von Menschen lesbaren Formelausdruck), `returnType` (z. B. `PERCENTAGE`, `NUMBER`), `numberOptions` (Präzision, Visualisierung) und `dateOptions`. Null für Nicht-Formelfelder.</td>
+        <td>–</td>
+        <td>–</td>
+    </tr>
+    <tr>
+        <td>HASERROR</td>
+        <td>varchar</td>
+        <td>Gibt an, ob das Feld derzeit einen Konfigurations- oder Synchronisierungsfehler aufweist. Werte sind die Zeichenfolgen true oder false. Der Wert „true“ bedeutet, dass das Feld einen Fehlerstatus aufweist und möglicherweise keine korrekten Daten zurückgibt.</td>
+        <td>–</td>
+        <td>–</td>
+    </tr>
+    <tr>
+        <td>ID</td>
+        <td>varchar</td>
+        <td>Die eindeutige Kennung für die Felddefinition. Primärer Schlüssel für diese Ansicht.</td>
+        <td>–</td>
+        <td>–</td>
+    </tr>
+    <tr>
+        <td>AUFSCHÜTTUNG</td>
         <td>Boolesch</td>
         <td>Eine Markierung, die angibt, ob dieses Feld über eine Workfront Fusion-Integration erstellt oder verwaltet wurde. Der Wert „true“ bedeutet Fusion-Management; „false“ oder ein leerer Wert bedeutet, dass es sich um ein nativ erstelltes Feld handelt.</td>
         <td>–</td>
         <td>–</td>
     </tr>
     <tr>
-        <td>`DL_LOAD_TIMESTAMP`</td>
-        <td>timestamp\_NTZ</td>
-        <td>Der Zeitstempel des Datenaktualisierungsauftrags, der diesen Felddatensatz zuletzt in den Data Lake geladen hat. Wird nach jedem erfolgreichen Datenaktualisierungszyklus aktualisiert.</td>
-        <td>–</td>
-        <td>–</td>
-    </tr>
+        <td>LINKEDFIELD</td>
+        <td>Variante</td>
+        <td>Ein JSON-Objekt, das die vollständige Felddefinition des Quellfelds enthält, mit dem dieses Feld verknüpft ist. Vorhanden für die Feldtypen „Verweis“ und „Suche“; umfasst Eigenschaften wie „alias“, „displayName“, „fieldType“ und „createdAt“. Null für nicht verknüpft
 </table>
 
 ### PLANNINGRECORD\_CURRENT
@@ -9101,149 +9021,149 @@ Enthält den aktuellen Status aller in Workfront Planning erstellten Datensätze
         <td>Verwandtes Feld</td>
     </tr>
     <tr>
-        <td>`RECORDID`</td>
-        <td>varchar</td>
-        <td>Die eindeutige Kennung für den Planungsdatensatz. Primärer Schlüssel für diese Ansicht.</td>
-        <td>WF.PLANNINGRECORDS\_CURRENT</td>
-        <td>RECORDID</td>
-    </tr>
-    <tr>
-        <td>`WORKSPACEID`</td>
-        <td>varchar</td>
-        <td>Die eindeutige Kennung für den Arbeitsbereich „Planung“, die diesen Datensatz enthält.</td>
-        <td>WORKSPACE_CURRENT</td>
-        <td>ID</td>
-    </tr>
-    <tr>
-        <td>`WORKSPACENAME`</td>
-        <td>varchar</td>
-        <td>Der Anzeigename des Planungsarbeitsbereichs, der diesen Datensatz enthält.</td>
-        <td>–</td>
-        <td>–</td>
-    </tr>
-    <tr>
-        <td>`RECORDTYPEID`</td>
-        <td>varchar</td>
-        <td>Die eindeutige Kennung für den Datensatztyp (z. B. Kampagne, Initiative), zu dem dieser Datensatz gehört.</td>
-        <td>RECORDTYPE\_CURRENT</td>
-        <td>ID</td>
-    </tr>
-    <tr>
-        <td>`RECORDTYPENAME`</td>
-        <td>varchar</td>
-        <td>Der Anzeigename des Datensatztyps, zu dem dieser Datensatz gehört.</td>
-        <td>–</td>
-        <td>–</td>
-    </tr>
-    <tr>
-        <td>`FIELD_IDS`</td>
-        <td>Variante</td>
-        <td>Ein JSON-Objekt, das den Anzeigenamen jedes Felds seiner Feld-ID zuordnet (z. B. "{„Status“: „F69bc…“, „Enddatum“: „F69bc…“}„). Hier können Sie für Menschen lesbare Feldnamen den IDs zuordnen, die in FIELDID\_VALUES und FIELDID\_VALUES\_RAW verwendet werden.</td>
-        <td>–</td>
-        <td>–</td>
-    </tr>
-    <tr>
-        <td>`FIELD_VALUES_RAW`</td>
-        <td>Variante</td>
-        <td>Ein JSON-Objekt, das den Anzeigenamen jedes Felds dem rohen (unformatierten) Wert zuordnet. Bei Referenzfeldern ist der Wert ein Array verbundener Datensatzobjekte; bei Zahl- und Formelfeldern ist er ein einfacher numerischer Wert; bei Langtextfeldern ist er ein Rich-Text-Inhaltsobjekt. Nach Anzeigename des Feldes eingegeben, mit FIELD\_IDS übereinstimmen.</td>
-        <td>–</td>
-        <td>–</td>
-    </tr>
-    <tr>
-        <td>`FIELD_VALUES`</td>
-        <td>Variante</td>
-        <td>Ein JSON-Objekt, das den Anzeigenamen jedes Felds dem anzeigeformten Zeichenfolgenwert zuordnet. Nach Anzeigename des Feldes eingegeben, mit FIELD\_IDS übereinstimmen.</td>
-        <td>–</td>
-        <td>–</td>
-    </tr>
-    <tr>
-        <td>`FIELD_TYPES`</td>
-        <td>Variante</td>
-        <td>Ein JSON-Objekt, das den Anzeigenamen jedes Felds seinem Feldtyp-String zuordnet (z. B. „text“, „number“, „date“, „single-select“, „reference“, „Formel„). Nach Anzeigename des Feldes eingegeben, mit FIELD\_IDS übereinstimmen.</td>
-        <td>–</td>
-        <td>–</td>
-    </tr>
-    <tr>
-        <td>`FIELDID_VALUES`</td>
-        <td>Variante</td>
-        <td>Ein JSON-Objekt, das jede Feld-ID ihrem anzeigeformten Wert zuordnet. Bei einfachen Feldtypen ist der Wert eine Zeichenfolge oder Zahl. Bei Langtextfeldern ist er ein Objekt, das sowohl die Eigenschaften „content“ (Nur Text) als auch „contentHTML“ (HTML-formatiert) enthält. Verwenden Sie FIELD\_IDS, um den Anzeigenamen für die einzelnen Feld-IDs nachzuschlagen.</td>
-        <td>–</td>
-        <td>–</td>
-    </tr>
-    <tr>
-        <td>`FIELDID_VALUES_RAW`</td>
-        <td>Variante</td>
-        <td>Ein JSON-Objekt, das jede Feld-ID ihrem (unformatierten) Rohwert zuordnet. Bei den meisten Feldtypen sind Werte einfache Zeichenfolgen, Zahlen oder Epochenmillisekunden-Zeitstempel. Langtextfelder geben den Textinhalt als Zeichenfolge zurück. Verwenden Sie FIELD\_IDS, um den Anzeigenamen für die einzelnen Feld-IDs nachzuschlagen.</td>
-        <td>–</td>
-        <td>–</td>
-    </tr>
-    <tr>
-        <td>`FIELDID_FIELDID`</td>
-        <td>Variante</td>
-        <td>Ein JSON-Objekt, das alle Feld-IDs auflistet, die in diesem Datensatz als Selbstzuordnung vorhanden sind (jede Feld-ID wird sich selbst zugeordnet). Hiermit können Sie auflisten, welche Felder für einen bestimmten Datensatz ausgefüllt sind, oder einen Querverweis mit FIELD\_CURRENT erstellen.</td>
-        <td>–</td>
-        <td>–</td>
-    </tr>
-    <tr>
-        <td>`REFERENCE_IDS`</td>
-        <td>Variante</td>
-        <td>Ein JSON-Objekt, das den Anzeigenamen jedes Referenzfelds der ID des Verbindungsdatensatzes zuordnet (z. B. "{„Projekt“: „Ref8b471aa…“}„). In Verbindung mit REFERENCE\_CURRENT verwenden, um verbundene externe Objekte für diesen Datensatz aufzulösen.</td>
-        <td>–</td>
-        <td>–</td>
-    </tr>
-    <tr>
-        <td>`CREATED`</td>
+        <td>ERSTELLT</td>
         <td>Zahl</td>
         <td>Eine Markierung, die den letzten Vorgangstyp angibt, der diesen Datensatz beeinflusst hat. Der Wert 1 gibt an, dass der Datensatz im letzten Datenaktualisierungszyklus erstellt wurde; 0 gibt an, dass dies nicht der Fall war. Siehe CREATEDAT für den tatsächlichen Erstellungszeitstempel.</td>
         <td>–</td>
         <td>–</td>
     </tr>
     <tr>
-        <td>`AKTUALISIERT`</td>
-        <td>Zahl</td>
-        <td>Eine Markierung, die den letzten Vorgangstyp angibt, der diesen Datensatz beeinflusst hat. Der Wert 1 bedeutet, dass der Datensatz im letzten Datenaktualisierungszyklus aktualisiert wurde; 0 bedeutet, dass dies nicht der Fall war. Siehe UPDATEDAT für den tatsächlichen Zeitstempel der letzten Aktualisierung.</td>
-        <td>–</td>
-        <td>–</td>
-    </tr>
-    <tr>
-        <td>`DELETED`</td>
-        <td>Zahl</td>
-        <td>Eine Markierung, die angibt, ob dieser Datensatz vorläufig gelöscht wurde. Der Wert 1 bedeutet, dass der Datensatz gelöscht wird, 0 bedeutet, dass er aktiv ist.</td>
-        <td>–</td>
-        <td>–</td>
-    </tr>
-    <tr>
-        <td>`CREATEDAT`</td>
+        <td>CREATEDAT</td>
         <td>timestamp\_NTZ</td>
         <td>Der Zeitstempel (keine Zeitzone), zu dem dieser Datensatz erstellt wurde.</td>
         <td>–</td>
         <td>–</td>
     </tr>
     <tr>
-        <td>`CREATEDBY`</td>
+        <td>CREATEDBY</td>
         <td>varchar</td>
         <td>Die Kennung des Benutzers, der diesen Datensatz erstellt hat.</td>
         <td>WF.USERS\_CURRENT</td>
         <td>EAUTHUSERID</td>
     </tr>
     <tr>
-        <td>`UPDATEDAT`</td>
+        <td>GELÖSCHT</td>
+        <td>Zahl</td>
+        <td>Eine Markierung, die angibt, ob dieser Datensatz vorläufig gelöscht wurde. Der Wert 1 bedeutet, dass der Datensatz gelöscht wird, 0 bedeutet, dass er aktiv ist.</td>
+        <td>–</td>
+        <td>–</td>
+    </tr>
+    <tr>
+        <td>DL_LOAD_TIMESTAMP</td>
+        <td>timestamp\_NTZ</td>
+        <td>Der Zeitstempel des Datenaktualisierungsauftrags, der diesen Datensatz zuletzt in den Data Lake geladen hat. Wird nach jedem erfolgreichen Datenaktualisierungszyklus aktualisiert.</td>
+        <td>–</td>
+        <td>–</td>
+    </tr>
+    <tr>
+        <td>FIELD_IDS</td>
+        <td>Variante</td>
+        <td>Ein JSON-Objekt, das den Anzeigenamen jedes Felds seiner Feld-ID zuordnet (z. B. "{„Status“: „F69bc…“, „Enddatum“: „F69bc…“}„). Hier können Sie für Menschen lesbare Feldnamen den IDs zuordnen, die in FIELDID\_VALUES und FIELDID\_VALUES\_RAW verwendet werden.</td>
+        <td>–</td>
+        <td>–</td>
+    </tr>
+    <tr>
+        <td>FIELD_TYPES</td>
+        <td>Variante</td>
+        <td>Ein JSON-Objekt, das den Anzeigenamen jedes Felds seinem Feldtyp-String zuordnet (z. B. „text“, „number“, „date“, „single-select“, „reference“, „Formel„). Nach Anzeigename des Feldes eingegeben, mit FIELD\_IDS übereinstimmen.</td>
+        <td>–</td>
+        <td>–</td>
+    </tr>
+    <tr>
+        <td>FIELD_VALUES</td>
+        <td>Variante</td>
+        <td>Ein JSON-Objekt, das den Anzeigenamen jedes Felds dem anzeigeformten Zeichenfolgenwert zuordnet. Nach Anzeigename des Feldes eingegeben, mit FIELD\_IDS übereinstimmen.</td>
+        <td>–</td>
+        <td>–</td>
+    </tr>
+    <tr>
+        <td>FIELD_VALUES_RAW</td>
+        <td>Variante</td>
+        <td>Ein JSON-Objekt, das den Anzeigenamen jedes Felds dem rohen (unformatierten) Wert zuordnet. Bei Referenzfeldern ist der Wert ein Array verbundener Datensatzobjekte; bei Zahl- und Formelfeldern ist er ein einfacher numerischer Wert; bei Langtextfeldern ist er ein Rich-Text-Inhaltsobjekt. Nach Anzeigename des Feldes eingegeben, mit FIELD\_IDS übereinstimmen.</td>
+        <td>–</td>
+        <td>–</td>
+    </tr>
+    <tr>
+        <td>FIELDID_FIELDID</td>
+        <td>Variante</td>
+        <td>Ein JSON-Objekt, das alle Feld-IDs auflistet, die in diesem Datensatz als Selbstzuordnung vorhanden sind (jede Feld-ID wird sich selbst zugeordnet). Hiermit können Sie auflisten, welche Felder für einen bestimmten Datensatz ausgefüllt sind, oder einen Querverweis mit FIELD\_CURRENT erstellen.</td>
+        <td>–</td>
+        <td>–</td>
+    </tr>
+    <tr>
+        <td>FIELDID_VALUES</td>
+        <td>Variante</td>
+        <td>Ein JSON-Objekt, das jede Feld-ID ihrem anzeigeformten Wert zuordnet. Bei einfachen Feldtypen ist der Wert eine Zeichenfolge oder Zahl. Bei Langtextfeldern ist er ein Objekt, das sowohl die Eigenschaften „content“ (Nur Text) als auch „contentHTML“ (HTML-formatiert) enthält. Verwenden Sie FIELD\_IDS, um den Anzeigenamen für die einzelnen Feld-IDs nachzuschlagen.</td>
+        <td>–</td>
+        <td>–</td>
+    </tr>
+    <tr>
+        <td>FIELDID_VALUES_RAW</td>
+        <td>Variante</td>
+        <td>Ein JSON-Objekt, das jede Feld-ID ihrem (unformatierten) Rohwert zuordnet. Bei den meisten Feldtypen sind Werte einfache Zeichenfolgen, Zahlen oder Epochenmillisekunden-Zeitstempel. Langtextfelder geben den Textinhalt als Zeichenfolge zurück. Verwenden Sie FIELD\_IDS, um den Anzeigenamen für die einzelnen Feld-IDs nachzuschlagen.</td>
+        <td>–</td>
+        <td>–</td>
+    </tr>
+    <tr>
+        <td>RECORDID</td>
+        <td>varchar</td>
+        <td>Die eindeutige Kennung für den Planungsdatensatz. Primärer Schlüssel für diese Ansicht.</td>
+        <td>WF.PLANNINGRECORDS\_CURRENT</td>
+        <td>RECORDID</td>
+    </tr>
+    <tr>
+        <td>RECORDTYPEID</td>
+        <td>varchar</td>
+        <td>Die eindeutige Kennung für den Datensatztyp (z. B. Kampagne, Initiative), zu dem dieser Datensatz gehört.</td>
+        <td>RECORDTYPE\_CURRENT</td>
+        <td>ID</td>
+    </tr>
+    <tr>
+        <td>RECORDTYPENAME</td>
+        <td>varchar</td>
+        <td>Der Anzeigename des Datensatztyps, zu dem dieser Datensatz gehört.</td>
+        <td>–</td>
+        <td>–</td>
+    </tr>
+    <tr>
+        <td>REFERENCE_IDS</td>
+        <td>Variante</td>
+        <td>Ein JSON-Objekt, das den Anzeigenamen jedes Referenzfelds der ID des Verbindungsdatensatzes zuordnet (z. B. "{„Projekt“: „Ref8b471aa…“}„). In Verbindung mit REFERENCE\_CURRENT verwenden, um verbundene externe Objekte für diesen Datensatz aufzulösen.</td>
+        <td>–</td>
+        <td>–</td>
+    </tr>
+    <tr>
+        <td>AKTUALISIERT</td>
+        <td>Zahl</td>
+        <td>Eine Markierung, die den letzten Vorgangstyp angibt, der diesen Datensatz beeinflusst hat. Der Wert 1 bedeutet, dass der Datensatz im letzten Datenaktualisierungszyklus aktualisiert wurde; 0 bedeutet, dass dies nicht der Fall war. Siehe UPDATEDAT für den tatsächlichen Zeitstempel der letzten Aktualisierung.</td>
+        <td>–</td>
+        <td>–</td>
+    </tr>
+    <tr>
+        <td>UPDATEDAT</td>
         <td>timestamp\_NTZ</td>
         <td>Der Zeitstempel (keine Zeitzone), wann dieser Datensatz zuletzt aktualisiert wurde.</td>
         <td>–</td>
         <td>–</td>
     </tr>
     <tr>
-        <td>`UPDATEDBY`</td>
+        <td>AKTUALISIERT VON</td>
         <td>varchar</td>
         <td>Die Kennung des Benutzers, der diesen Datensatz zuletzt aktualisiert hat.</td>
         <td>WF.USERS\_CURRENT</td>
         <td>EAUTHUSERID</td>
     </tr>
     <tr>
-        <td>`DL_LOAD_TIMESTAMP`</td>
-        <td>timestamp\_NTZ</td>
-        <td>Der Zeitstempel des Datenaktualisierungsauftrags, der diesen Datensatz zuletzt in den Data Lake geladen hat. Wird nach jedem erfolgreichen Datenaktualisierungszyklus aktualisiert.</td>
+        <td>WORKSPACE-ID</td>
+        <td>varchar</td>
+        <td>Die eindeutige Kennung für den Arbeitsbereich „Planung“, die diesen Datensatz enthält.</td>
+        <td>WORKSPACE_CURRENT</td>
+        <td>ID</td>
+    </tr>
+    <tr>
+        <td>WORKSPACENAME</td>
+        <td>varchar</td>
+        <td>Der Anzeigename des Planungsarbeitsbereichs, der diesen Datensatz enthält.</td>
         <td>–</td>
         <td>–</td>
     </tr>
@@ -9268,293 +9188,7 @@ Enthält die aktuellen Definitionen aller in Workfront Planning-Arbeitsbereichen
         <td></td>
     </tr>
     <tr>
-        <td>`ID`</td>
-        <td>varchar</td>
-        <td>Die eindeutige Kennung für den Datensatztyp. Primärer Schlüssel für diese Ansicht.</td>
-        <td>–</td>
-        <td>–</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`CREATED`</td>
-        <td>Zahl</td>
-        <td>Eine Markierung, die den letzten Vorgangstyp angibt, der diesen Datensatztyp beeinflusst hat. Der Wert 1 gibt an, dass der Datensatztyp im letzten Datenaktualisierungszyklus erstellt wurde; 0 gibt an, dass dies nicht der Fall war. Siehe CREATEDAT für den tatsächlichen Erstellungszeitstempel.</td>
-        <td>–</td>
-        <td>–</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`AKTUALISIERT`</td>
-        <td>Zahl</td>
-        <td>Eine Markierung, die den letzten Vorgangstyp angibt, der diesen Datensatztyp beeinflusst hat. Der Wert 1 gibt an, dass der Datensatztyp im letzten Datenaktualisierungszyklus aktualisiert wurde; 0 gibt an, dass dies nicht der Fall war. Siehe UPDATEDAT für den tatsächlichen Zeitstempel der letzten Aktualisierung.</td>
-        <td>–</td>
-        <td>–</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`DELETED`</td>
-        <td>Zahl</td>
-        <td>Eine Markierung, die angibt, ob dieser Datensatztyp vorläufig gelöscht wurde. Der Wert 1 bedeutet „gelöscht“, 0 bedeutet „aktiv“.</td>
-        <td>–</td>
-        <td>–</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`DL_LOAD_TIMESTAMP`</td>
-        <td>timestamp\_NTZ</td>
-        <td>Der Zeitstempel des Datenaktualisierungsauftrags, der diesen Datensatztyp zuletzt in den Data Lake geladen hat. Wird nach jedem erfolgreichen Datenaktualisierungszyklus aktualisiert.</td>
-        <td>–</td>
-        <td>–</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`CREATEDBY`</td>
-        <td>varchar</td>
-        <td>Die Kennung des Benutzers, der diesen Datensatztyp erstellt hat.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`CREATEDAT`</td>
-        <td>timestamp\_NTZ</td>
-        <td>Der Zeitstempel (keine Zeitzone), zu dem dieser Datensatztyp erstellt wurde.</td>
-        <td>–</td>
-        <td>–</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`UPDATEDBY`</td>
-        <td>varchar</td>
-        <td>Die Kennung des Benutzers, der diesen Datensatztyp zuletzt aktualisiert hat.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`UPDATEDAT`</td>
-        <td>timestamp\_NTZ</td>
-        <td>Der Zeitstempel (keine Zeitzone), wann dieser Datensatztyp zuletzt aktualisiert wurde.</td>
-        <td>–</td>
-        <td>–</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`USERID`</td>
-        <td>varchar</td>
-        <td>Die Kennung des Benutzers, der diesem Datensatztyp zugeordnet ist, normalerweise der Eigentümer.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`WORKSPACEID`</td>
-        <td>varchar</td>
-        <td>Die eindeutige Kennung des Arbeitsbereichs, zu dem dieser Datensatztyp gehört. Verwenden Sie mit WORKSPACE\_CURRENT, um Details zum Arbeitsbereich nachzuschlagen.</td>
-        <td>WORKSPACE_CURRENT</td>
-        <td>ID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`DISPLAYNAME`</td>
-        <td>varchar</td>
-        <td>Anzeigename des Datensatztyps, wie er in der Planungsoberfläche angezeigt wird (z. B. „Kampagne“, „Initiative„).</td>
-        <td>–</td>
-        <td>–</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`DESCRIPTION`</td>
-        <td>varchar</td>
-        <td>Eine vom Benutzer bereitgestellte Beschreibung des Zwecks des Datensatztyps.</td>
-        <td>–</td>
-        <td>–</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`COLOR`</td>
-        <td>varchar</td>
-        <td>Eine benannte Farbkennzeichnung, die mit diesem Datensatztyp in der Planning-Oberfläche verknüpft ist (z. B. „blue“, „green“, „purple“, „magenta“, „chartreuse“, „dark-gray„). Kein Hexadezimalcode.</td>
-        <td>–</td>
-        <td>–</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`PERMISSION`</td>
-        <td>varchar</td>
-        <td>Die für den Zugriff auf diesen Datensatztyp konfigurierte Berechtigungsstufe (z. B. „VIEW“, „CONTRIBUTE“, „MANAGE„). Kann leer sein, wenn keine benutzerdefinierte Berechtigung festgelegt ist.</td>
-        <td>–</td>
-        <td>–</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`PRIMARYFIELDID`</td>
-        <td>varchar</td>
-        <td>Die Kennung des Feldes, das als primäres Feld (Titel) für diesen Datensatztyp festgelegt wurde. Fremdschlüssel an FIELD\_CURRENT.ID.</td>
-        <td>FIELD\_CURRENT</td>
-        <td>ID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`ISTAXONOMY`</td>
-        <td>varchar</td>
-        <td>Gibt an, ob dieser Datensatztyp als Taxonomietyp klassifiziert ist, der zum Organisieren und Kategorisieren anderer Datensätze verwendet wird. Der Wert „true“ zeigt einen Taxonomietyp an. Kann für Datensatztypen ohne Taxonomie leer sein.</td>
-        <td>–</td>
-        <td>–</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`PERMISSION`</td>
-        <td>varchar</td>
-        <td>Die für den Zugriff auf diesen Datensatztyp konfigurierte Berechtigungsstufe (z. B. „VIEW“, „CONTRIBUTE“, „MANAGE„). Kann leer sein, wenn keine benutzerdefinierte Berechtigung festgelegt ist.</td>
-        <td>–</td>
-        <td>–</td>
-        <td></td>
-        <td>`PRIMARYFIELDID`</td>
-        <td>varchar</td>
-        <td>Die Kennung des Feldes, das als primäres Feld (Titel) für diesen Datensatztyp festgelegt wurde. Fremdschlüssel an FIELD\_CURRENT.ID.</td>
-        <td>FIELD\_CURRENT</td>
-        <td>ID</td>
-    </tr>
-    <tr>
-        <td>`ISTAXONOMY`</td>
-        <td>varchar</td>
-        <td>Gibt an, ob dieser Datensatztyp als Taxonomietyp klassifiziert ist, der zum Organisieren und Kategorisieren anderer Datensätze verwendet wird. Der Wert „true“ zeigt einen Taxonomietyp an. Kann für Datensatztypen ohne Taxonomie leer sein.</td>
-        <td>–</td>
-        <td>–</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`ISEXTERNAL`</td>
-        <td>Boolesch</td>
-        <td>Ein Flag, das angibt, ob dieser Datensatztyp einen extern verbundenen Objekttyp darstellt und nicht einen nativen Planungsdatensatz.</td>
-        <td>–</td>
-        <td>–</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`EXTERNALOPTIONS`</td>
-        <td>Variante</td>
-        <td>Ein JSON-Objekt mit Konfigurationsdetails für Datensatztypen, die mit externen Systemen verbunden sind. Enthält `connectionName` (z. B. `Workfront`), `objectName` (den Workfront-API-Objektcode, z. B. `PROJ`) und `fields` (eine Zuordnung von Standardfeldaliasen zu Planning-Feld-IDs für die synchronisierten Felder). Null für nativ erstellte Datensatztypen.</td>
-        <td>–</td>
-        <td>–</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`RESTORED`</td>
-        <td>Zahl</td>
-        <td>Eine Markierung, die angibt, ob dieser Datensatztyp nach dem Soft-Löschen wiederhergestellt wurde.</td>
-        <td>–</td>
-        <td>–</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`ALIAS`</td>
+        <td>ALIAS</td>
         <td>varchar</td>
         <td>Ein interner Alias für den Datensatztyp, der für die Identifizierung auf Systemebene und den API-Zugriff verwendet wird. Kann für Datensatztypen, denen kein Alias zugewiesen wurde, leer sein.</td>
         <td>–</td>
@@ -9567,9 +9201,9 @@ Enthält die aktuellen Definitionen aller in Workfront Planning-Arbeitsbereichen
         <td></td>
     </tr>
     <tr>
-        <td>`TRIGGEREDBYSERVICE`</td>
+        <td>FARBE</td>
         <td>varchar</td>
-        <td>Der Name des Services oder der Integration, die die letzte Änderung an diesem Datensatztyp ausgelöst hat. Der Wert „Unbekannt“ bedeutet, dass der ursprüngliche Service nicht ermittelt werden konnte.</td>
+        <td>Eine benannte Farbkennzeichnung, die mit diesem Datensatztyp in der Planning-Oberfläche verknüpft ist (z. B. „blue“, „green“, „purple“, „magenta“, „chartreuse“, „dark-gray„). Kein Hexadezimalcode.</td>
         <td>–</td>
         <td>–</td>
         <td></td>
@@ -9580,9 +9214,9 @@ Enthält die aktuellen Definitionen aller in Workfront Planning-Arbeitsbereichen
         <td></td>
     </tr>
     <tr>
-        <td>`ISFUSION`</td>
-        <td>Boolesch</td>
-        <td>Eine Markierung, die angibt, ob dieser Datensatztyp über eine Workfront Fusion-Integration erstellt oder verwaltet wurde. Der Wert „true“ bedeutet Fusion-Management; „false“ oder ein leerer Wert bedeutet, dass es sich um einen nativ erstellten Datensatztyp handelt.</td>
+        <td>ERSTELLT</td>
+        <td>Zahl</td>
+        <td>Eine Markierung, die den letzten Vorgangstyp angibt, der diesen Datensatztyp beeinflusst hat. Der Wert 1 gibt an, dass der Datensatztyp im letzten Datenaktualisierungszyklus erstellt wurde; 0 gibt an, dass dies nicht der Fall war. Siehe CREATEDAT für den tatsächlichen Erstellungszeitstempel.</td>
         <td>–</td>
         <td>–</td>
         <td></td>
@@ -9593,150 +9227,7 @@ Enthält die aktuellen Definitionen aller in Workfront Planning-Arbeitsbereichen
         <td></td>
     </tr>
     <tr>
-        <td>`CREATEDAT`</td>
-        <td>timestamp\_NTZ</td>
-        <td>Der Zeitstempel (keine Zeitzone), zu dem dieser Datensatztyp erstellt wurde.</td>
-        <td>–</td>
-        <td>–</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`CREATEDBY`</td>
-        <td>varchar</td>
-        <td>Die Kennung des Benutzers, der diesen Datensatztyp erstellt hat.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`UPDATEDAT`</td>
-        <td>timestamp\_NTZ</td>
-        <td>Der Zeitstempel (keine Zeitzone), wann dieser Datensatztyp zuletzt aktualisiert wurde.</td>
-        <td>–</td>
-        <td>–</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`UPDATEDBY`</td>
-        <td>varchar</td>
-        <td>Die Kennung des Benutzers, der diesen Datensatztyp zuletzt aktualisiert hat.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`USERID`</td>
-        <td>varchar</td>
-        <td>Die Kennung des Benutzers, der diesem Datensatztyp zugeordnet ist, normalerweise der Eigentümer.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`TO_RECORDID`</td>
-        <td>varchar</td>
-        <td>Die eindeutige Kennung des Planungsdatensatzes, dem diese Referenzverbindung gehört. Fremdschlüssel an PLANNINGRECORD\_CURRENT.RECORDID.</td>
-        <td>PLANNINGRECORD\_CURRENT</td>
-        <td>RECORDID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`TO_EXTERNALID`</td>
-        <td>varchar</td>
-        <td>Die eindeutige Kennung des externen Objekts, auf das verwiesen wird (z. B. eine Workfront-Projekt-ID, Aufgaben-ID oder eine andere Objektkennung).</td>
-        <td>–</td>
-        <td>–</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`TO_EXTERNALCONNECTIONNAME`</td>
-        <td>varchar</td>
-        <td>Der Name der externen Verbindung, über die das referenzierte Objekt verbunden ist (z. B. der Name der in Planning konfigurierten Workfront-Verbindung).</td>
-        <td>–</td>
-        <td>–</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`TO_EXTERNALOBJECTNAME`</td>
-        <td>varchar</td>
-        <td>Der Workfront-API-Objektcode für den Typ des externen Objekts, auf das verwiesen wird (z. B. „PROJ“ für Projekt, „TASK“ für Aufgabe, „PORT“ für Portfolio). Verwenden Sie dies, um zu bestimmen, welche Workfront-Tabelle beim Suchen des referenzierten Objekts verbunden werden soll.</td>
-        <td>–</td>
-        <td>–</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`RECORDTYPEID`</td>
-        <td>varchar</td>
-        <td>Die eindeutige Kennung des Planungs-Datensatztyps, der mit dem Datensatz verknüpft ist, zu dem diese Referenz gehört. Fremdschlüssel an PLANNINGRECORD\_CURRENT.RECORDTYPEID.</td>
-        <td>RECORDTYPE\_CURRENT</td>
-        <td>ID</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`REFERENCEVALUE`</td>
-        <td>varchar</td>
-        <td>Der Anzeigename des referenzierten externen Objekts zum Zeitpunkt der letzten Datenaktualisierung (z. B. ein Workfront-Projektname wie "Beta" oder „Canvas-Dashboards-Projekt„). Dieser Wert spiegelt den Namen des Objekts zum Zeitpunkt der Aktualisierung wider und kann veralten, wenn das Objekt umbenannt wird.</td>
-        <td>–</td>
-        <td>–</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>`CREATED`</td>
+        <td>ERSTELLT</td>
         <td>Zahl</td>
         <td>Ein Flag, das den letzten Vorgangstyp angibt, der sich auf diesen Referenzdatensatz ausgewirkt hat. Der Wert 1 gibt an, dass die Referenz im letzten Datenaktualisierungszyklus erstellt wurde; 0 gibt an, dass dies nicht der Fall war.</td>
         <td>–</td>
@@ -9749,9 +9240,9 @@ Enthält die aktuellen Definitionen aller in Workfront Planning-Arbeitsbereichen
         <td></td>
     </tr>
     <tr>
-        <td>`AKTUALISIERT`</td>
-        <td>Zahl</td>
-        <td>Ein Flag, das den letzten Vorgangstyp angibt, der sich auf diesen Referenzdatensatz ausgewirkt hat. Der Wert 1 gibt an, dass die Referenz im letzten Datenaktualisierungszyklus aktualisiert wurde; 0 gibt an, dass dies nicht der Fall war.</td>
+        <td>CREATEDAT</td>
+        <td>timestamp\_NTZ</td>
+        <td>Der Zeitstempel (keine Zeitzone), zu dem dieser Datensatztyp erstellt wurde.</td>
         <td>–</td>
         <td>–</td>
         <td></td>
@@ -9762,7 +9253,59 @@ Enthält die aktuellen Definitionen aller in Workfront Planning-Arbeitsbereichen
         <td></td>
     </tr>
     <tr>
-        <td>`DELETED`</td>
+        <td>CREATEDAT</td>
+        <td>timestamp\_NTZ</td>
+        <td>Der Zeitstempel (keine Zeitzone), zu dem dieser Datensatztyp erstellt wurde.</td>
+        <td>–</td>
+        <td>–</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>CREATEDBY</td>
+        <td>varchar</td>
+        <td>Die Kennung des Benutzers, der diesen Datensatztyp erstellt hat.</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>CREATEDBY</td>
+        <td>varchar</td>
+        <td>Die Kennung des Benutzers, der diesen Datensatztyp erstellt hat.</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>GELÖSCHT</td>
+        <td>Zahl</td>
+        <td>Eine Markierung, die angibt, ob dieser Datensatztyp vorläufig gelöscht wurde. Der Wert 1 bedeutet „gelöscht“, 0 bedeutet „aktiv“.</td>
+        <td>–</td>
+        <td>–</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>GELÖSCHT</td>
         <td>Zahl</td>
         <td>Eine Markierung, die angibt, ob diese Referenzverbindung vorläufig gelöscht wurde. Der Wert 1 bedeutet, dass die Referenz gelöscht wird, 0 bedeutet, dass sie aktiv ist.</td>
         <td>–</td>
@@ -9775,11 +9318,388 @@ Enthält die aktuellen Definitionen aller in Workfront Planning-Arbeitsbereichen
         <td></td>
     </tr>
     <tr>
-        <td>`DL_LOAD_TIMESTAMP`</td>
+        <td>BESCHREIBUNG</td>
+        <td>varchar</td>
+        <td>Eine vom Benutzer bereitgestellte Beschreibung des Zwecks des Datensatztyps.</td>
+        <td>–</td>
+        <td>–</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ANZEIGENAME</td>
+        <td>varchar</td>
+        <td>Anzeigename des Datensatztyps, wie er in der Planungsoberfläche angezeigt wird (z. B. „Kampagne“, „Initiative„).</td>
+        <td>–</td>
+        <td>–</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>DL_LOAD_TIMESTAMP</td>
+        <td>timestamp\_NTZ</td>
+        <td>Der Zeitstempel des Datenaktualisierungsauftrags, der diesen Datensatztyp zuletzt in den Data Lake geladen hat. Wird nach jedem erfolgreichen Datenaktualisierungszyklus aktualisiert.</td>
+        <td>–</td>
+        <td>–</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>DL_LOAD_TIMESTAMP</td>
         <td>timestamp\_NTZ</td>
         <td>Der Zeitstempel des Datenaktualisierungsauftrags, der diesen Referenzdatensatz zuletzt in den Data Lake geladen hat. Wird nach jedem erfolgreichen Datenaktualisierungszyklus aktualisiert.</td>
         <td>–</td>
         <td>–</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>EXTERNE OPTIONEN</td>
+        <td>Variante</td>
+        <td>Ein JSON-Objekt mit Konfigurationsdetails für Datensatztypen, die mit externen Systemen verbunden sind. Enthält `connectionName` (z. B. `Workfront`), `objectName` (den Workfront-API-Objektcode, z. B. `PROJ`) und `fields` (eine Zuordnung von Standardfeldaliasen zu Planning-Feld-IDs für die synchronisierten Felder). Null für nativ erstellte Datensatztypen.</td>
+        <td>–</td>
+        <td>–</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ID</td>
+        <td>varchar</td>
+        <td>Die eindeutige Kennung für den Datensatztyp. Primärer Schlüssel für diese Ansicht.</td>
+        <td>–</td>
+        <td>–</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ISEXTERNAL</td>
+        <td>Boolesch</td>
+        <td>Ein Flag, das angibt, ob dieser Datensatztyp einen extern verbundenen Objekttyp darstellt und nicht einen nativen Planungsdatensatz.</td>
+        <td>–</td>
+        <td>–</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>AUFSCHÜTTUNG</td>
+        <td>Boolesch</td>
+        <td>Eine Markierung, die angibt, ob dieser Datensatztyp über eine Workfront Fusion-Integration erstellt oder verwaltet wurde. Der Wert „true“ bedeutet Fusion-Management; „false“ oder ein leerer Wert bedeutet, dass es sich um einen nativ erstellten Datensatztyp handelt.</td>
+        <td>–</td>
+        <td>–</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ISTAXONOMIE</td>
+        <td>varchar</td>
+        <td>Gibt an, ob dieser Datensatztyp als Taxonomietyp klassifiziert ist, der zum Organisieren und Kategorisieren anderer Datensätze verwendet wird. Der Wert „true“ zeigt einen Taxonomietyp an. Kann für Datensatztypen ohne Taxonomie leer sein.</td>
+        <td>–</td>
+        <td>–</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ISTAXONOMIE</td>
+        <td>varchar</td>
+        <td>Gibt an, ob dieser Datensatztyp als Taxonomietyp klassifiziert ist, der zum Organisieren und Kategorisieren anderer Datensätze verwendet wird. Der Wert „true“ zeigt einen Taxonomietyp an. Kann für Datensatztypen ohne Taxonomie leer sein.</td>
+        <td>–</td>
+        <td>–</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ERLAUBNIS</td>
+        <td>varchar</td>
+        <td>Die für den Zugriff auf diesen Datensatztyp konfigurierte Berechtigungsstufe (z. B. „VIEW“, „CONTRIBUTE“, „MANAGE„). Kann leer sein, wenn keine benutzerdefinierte Berechtigung festgelegt ist.</td>
+        <td>–</td>
+        <td>–</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>ERLAUBNIS</td>
+        <td>varchar</td>
+        <td>Die für den Zugriff auf diesen Datensatztyp konfigurierte Berechtigungsstufe (z. B. „VIEW“, „CONTRIBUTE“, „MANAGE„). Kann leer sein, wenn keine benutzerdefinierte Berechtigung festgelegt ist.</td>
+        <td>–</td>
+        <td>–</td>
+        <td></td>
+        <td>PRIMARYFIELDID</td>
+        <td>varchar</td>
+        <td>Die Kennung des Feldes, das als primäres Feld (Titel) für diesen Datensatztyp festgelegt wurde. Fremdschlüssel an FIELD\_CURRENT.ID.</td>
+        <td>FIELD\_CURRENT</td>
+        <td>ID</td>
+    </tr>
+    <tr>
+        <td>PRIMARYFIELDID</td>
+        <td>varchar</td>
+        <td>Die Kennung des Feldes, das als primäres Feld (Titel) für diesen Datensatztyp festgelegt wurde. Fremdschlüssel an FIELD\_CURRENT.ID.</td>
+        <td>FIELD\_CURRENT</td>
+        <td>ID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>RECORDTYPEID</td>
+        <td>varchar</td>
+        <td>Die eindeutige Kennung des Planungs-Datensatztyps, der mit dem Datensatz verknüpft ist, zu dem diese Referenz gehört. Fremdschlüssel an PLANNINGRECORD\_CURRENT.RECORDTYPEID.</td>
+        <td>RECORDTYPE\_CURRENT</td>
+        <td>ID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>REFERENZVALUE</td>
+        <td>varchar</td>
+        <td>Der Anzeigename des referenzierten externen Objekts zum Zeitpunkt der letzten Datenaktualisierung (z. B. ein Workfront-Projektname wie "Beta" oder „Canvas-Dashboards-Projekt„). Dieser Wert spiegelt den Namen des Objekts zum Zeitpunkt der Aktualisierung wider und kann veralten, wenn das Objekt umbenannt wird.</td>
+        <td>–</td>
+        <td>–</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>WIEDERHERGESTELLT</td>
+        <td>Zahl</td>
+        <td>Eine Markierung, die angibt, ob dieser Datensatztyp nach dem Soft-Löschen wiederhergestellt wurde.</td>
+        <td>–</td>
+        <td>–</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>TO_EXTERNALCONNECTIONNAME</td>
+        <td>varchar</td>
+        <td>Der Name der externen Verbindung, über die das referenzierte Objekt verbunden ist (z. B. der Name der in Planning konfigurierten Workfront-Verbindung).</td>
+        <td>–</td>
+        <td>–</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>TO_EXTERNALID</td>
+        <td>varchar</td>
+        <td>Die eindeutige Kennung des externen Objekts, auf das verwiesen wird (z. B. eine Workfront-Projekt-ID, Aufgaben-ID oder eine andere Objektkennung).</td>
+        <td>–</td>
+        <td>–</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>TO_EXTERNALOBJECTNAME</td>
+        <td>varchar</td>
+        <td>Der Workfront-API-Objektcode für den Typ des externen Objekts, auf das verwiesen wird (z. B. „PROJ“ für Projekt, „TASK“ für Aufgabe, „PORT“ für Portfolio). Verwenden Sie dies, um zu bestimmen, welche Workfront-Tabelle beim Suchen des referenzierten Objekts verbunden werden soll.</td>
+        <td>–</td>
+        <td>–</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>TO_RECORDID</td>
+        <td>varchar</td>
+        <td>Die eindeutige Kennung des Planungsdatensatzes, dem diese Referenzverbindung gehört. Fremdschlüssel an PLANNINGRECORD\_CURRENT.RECORDID.</td>
+        <td>PLANNINGRECORD\_CURRENT</td>
+        <td>RECORDID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>TRIGGEREDBYSERVICE</td>
+        <td>varchar</td>
+        <td>Der Name des Services oder der Integration, die die letzte Änderung an diesem Datensatztyp ausgelöst hat. Der Wert „Unbekannt“ bedeutet, dass der ursprüngliche Service nicht ermittelt werden konnte.</td>
+        <td>–</td>
+        <td>–</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>AKTUALISIERT</td>
+        <td>Zahl</td>
+        <td>Eine Markierung, die den letzten Vorgangstyp angibt, der diesen Datensatztyp beeinflusst hat. Der Wert 1 gibt an, dass der Datensatztyp im letzten Datenaktualisierungszyklus aktualisiert wurde; 0 gibt an, dass dies nicht der Fall war. Siehe UPDATEDAT für den tatsächlichen Zeitstempel der letzten Aktualisierung.</td>
+        <td>–</td>
+        <td>–</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>AKTUALISIERT</td>
+        <td>Zahl</td>
+        <td>Ein Flag, das den letzten Vorgangstyp angibt, der sich auf diesen Referenzdatensatz ausgewirkt hat. Der Wert 1 gibt an, dass die Referenz im letzten Datenaktualisierungszyklus aktualisiert wurde; 0 gibt an, dass dies nicht der Fall war.</td>
+        <td>–</td>
+        <td>–</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>UPDATEDAT</td>
+        <td>timestamp\_NTZ</td>
+        <td>Der Zeitstempel (keine Zeitzone), wann dieser Datensatztyp zuletzt aktualisiert wurde.</td>
+        <td>–</td>
+        <td>–</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>UPDATEDAT</td>
+        <td>timestamp\_NTZ</td>
+        <td>Der Zeitstempel (keine Zeitzone), wann dieser Datensatztyp zuletzt aktualisiert wurde.</td>
+        <td>–</td>
+        <td>–</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>AKTUALISIERT VON</td>
+        <td>varchar</td>
+        <td>Die Kennung des Benutzers, der diesen Datensatztyp zuletzt aktualisiert hat.</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>AKTUALISIERT VON</td>
+        <td>varchar</td>
+        <td>Die Kennung des Benutzers, der diesen Datensatztyp zuletzt aktualisiert hat.</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>BENUTZER-ID</td>
+        <td>varchar</td>
+        <td>Die Kennung des Benutzers, der diesem Datensatztyp zugeordnet ist, normalerweise der Eigentümer.</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>BENUTZER-ID</td>
+        <td>varchar</td>
+        <td>Die Kennung des Benutzers, der diesem Datensatztyp zugeordnet ist, normalerweise der Eigentümer.</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>WORKSPACE-ID</td>
+        <td>varchar</td>
+        <td>Die eindeutige Kennung des Arbeitsbereichs, zu dem dieser Datensatztyp gehört. Verwenden Sie mit WORKSPACE\_CURRENT, um Details zum Arbeitsbereich nachzuschlagen.</td>
+        <td>WORKSPACE_CURRENT</td>
+        <td>ID</td>
         <td></td>
         <td></td>
         <td></td>
@@ -9802,108 +9722,108 @@ Enthält die aktuellen Definitionen aller Workfront Planning-Arbeitsbereiche. Je
         <td>Verwandtes Feld</td>
     </tr>
     <tr>
-        <td>`ID`</td>
-        <td>varchar</td>
-        <td>Die eindeutige Kennung für den Arbeitsbereich „Planung“. Primärer Schlüssel für diese Ansicht.</td>
-        <td>WF.WORKSPACES\_CURRENT</td>
-        <td>ID</td>
-    </tr>
-    <tr>
-        <td>`CREATED`</td>
+        <td>ERSTELLT</td>
         <td>Zahl</td>
         <td>Eine Markierung, die den letzten Vorgangstyp angibt, der sich auf diesen Arbeitsbereichsdatensatz ausgewirkt hat. Der Wert 1 bedeutet, dass der Arbeitsbereich im letzten Datenaktualisierungszyklus erstellt wurde; 0 bedeutet, dass dies nicht der Fall war. Siehe CREATEDAT für den tatsächlichen Erstellungszeitstempel.</td>
         <td>–</td>
         <td>–</td>
     </tr>
     <tr>
-        <td>`AKTUALISIERT`</td>
-        <td>Zahl</td>
-        <td>Eine Markierung, die den letzten Vorgangstyp angibt, der sich auf diesen Arbeitsbereichsdatensatz ausgewirkt hat. Der Wert 1 bedeutet, dass der Arbeitsbereich im letzten Datenaktualisierungszyklus aktualisiert wurde; 0 bedeutet, dass dies nicht der Fall war. Siehe UPDATEDAT für den tatsächlichen Zeitstempel der letzten Aktualisierung.</td>
-        <td>–</td>
-        <td>–</td>
-    </tr>
-    <tr>
-        <td>`DELETED`</td>
-        <td>Zahl</td>
-        <td>Eine Markierung, die angibt, ob dieser Arbeitsbereich vorläufig gelöscht wurde. Der Wert 1 bedeutet „gelöscht“, 0 bedeutet „aktiv“.</td>
-        <td>–</td>
-        <td>–</td>
-    </tr>
-    <tr>
-        <td>`DL_LOAD_TIMESTAMP`</td>
-        <td>timestamp\_NTZ</td>
-        <td>Der Zeitstempel des Datenaktualisierungsauftrags, der diesen Arbeitsbereichsdatensatz zuletzt in den Data Lake geladen hat. Wird nach jedem erfolgreichen Datenaktualisierungszyklus aktualisiert.</td>
-        <td>–</td>
-        <td>–</td>
-    </tr>
-    <tr>
-        <td>`CREATEDBY`</td>
-        <td>varchar</td>
-        <td>Die Kennung des Benutzers, der diesen Arbeitsbereich erstellt hat.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
-    </tr>
-    <tr>
-        <td>`CREATEDAT`</td>
+        <td>CREATEDAT</td>
         <td>timestamp\_NTZ</td>
         <td>Der Zeitstempel (keine Zeitzone) des Zeitpunkts, zu dem dieser Arbeitsbereich erstellt wurde.</td>
         <td>–</td>
         <td>–</td>
     </tr>
     <tr>
-        <td>`UPDATEDBY`</td>
+        <td>CREATEDBY</td>
         <td>varchar</td>
-        <td>Die Kennung des Benutzers, der diesen Arbeitsbereich zuletzt aktualisiert hat.</td>
+        <td>Die Kennung des Benutzers, der diesen Arbeitsbereich erstellt hat.</td>
         <td>WF.USERS\_CURRENT</td>
         <td>EAUTHUSERID</td>
     </tr>
     <tr>
-        <td>`UPDATEDAT`</td>
+        <td>GELÖSCHT</td>
+        <td>Zahl</td>
+        <td>Eine Markierung, die angibt, ob dieser Arbeitsbereich vorläufig gelöscht wurde. Der Wert 1 bedeutet „gelöscht“, 0 bedeutet „aktiv“.</td>
+        <td>–</td>
+        <td>–</td>
+    </tr>
+    <tr>
+        <td>DL_LOAD_TIMESTAMP</td>
         <td>timestamp\_NTZ</td>
-        <td>Der Zeitstempel (keine Zeitzone), wann dieser Arbeitsbereich zuletzt aktualisiert wurde.</td>
+        <td>Der Zeitstempel des Datenaktualisierungsauftrags, der diesen Arbeitsbereichsdatensatz zuletzt in den Data Lake geladen hat. Wird nach jedem erfolgreichen Datenaktualisierungszyklus aktualisiert.</td>
         <td>–</td>
         <td>–</td>
     </tr>
     <tr>
-        <td>`USERID`</td>
+        <td>ID</td>
         <td>varchar</td>
-        <td>Die Kennung des Benutzers, der mit diesem Arbeitsbereich verknüpft ist, normalerweise der Eigentümer des Arbeitsbereichs.</td>
-        <td>WF.USERS\_CURRENT</td>
-        <td>EAUTHUSERID</td>
+        <td>Die eindeutige Kennung für den Arbeitsbereich „Planung“. Primärer Schlüssel für diese Ansicht.</td>
+        <td>WF.WORKSPACES\_CURRENT</td>
+        <td>ID</td>
     </tr>
     <tr>
-        <td>`NAME`</td>
+        <td>AUFSCHÜTTUNG</td>
+        <td>Boolesch</td>
+        <td>Eine Markierung, die angibt, ob dieser Arbeitsbereich über eine Workfront Fusion-Integration erstellt oder verwaltet wurde. Der Wert „true“ bedeutet Fusion-Management; „false“ oder ein leerer Wert bedeutet, dass es sich um einen nativ erstellten Arbeitsbereich handelt.</td>
+        <td>–</td>
+        <td>–</td>
+    </tr>
+    <tr>
+        <td>NAME</td>
         <td>varchar</td>
         <td>Der Anzeigename des Arbeitsbereichs, wie in der Planning-Benutzeroberfläche angezeigt.</td>
         <td>–</td>
         <td>–</td>
     </tr>
     <tr>
-        <td>`PARENTID`</td>
+        <td>PARENTID</td>
         <td>varchar</td>
         <td>Die Kennung des übergeordneten Workspace, wenn dieser Workspace in einer Workspace-Hierarchie verschachtelt ist. Leer, wenn dieser Arbeitsbereich kein übergeordnetes Element hat (d. h. ein Arbeitsbereich der obersten Ebene ist).</td>
         <td>WORKSPACE_CURRENT</td>
         <td>ID</td>
     </tr>
     <tr>
-        <td>`RESTORED`</td>
+        <td>WIEDERHERGESTELLT</td>
         <td>Zahl</td>
         <td>Eine Markierung, die angibt, ob dieser Arbeitsbereich nach dem Löschen wiederhergestellt wurde.</td>
         <td>–</td>
         <td>–</td>
     </tr>
     <tr>
-        <td>`TRIGGEREDBYSERVICE`</td>
+        <td>TRIGGEREDBYSERVICE</td>
         <td>varchar</td>
         <td>Der Name des Services oder der Integration, der/die die letzte Änderung an diesem Workspace-Datensatz ausgelöst hat. Der Wert „Unbekannt“ bedeutet, dass der ursprüngliche Service nicht ermittelt werden konnte.</td>
         <td>–</td>
         <td>–</td>
     </tr>
     <tr>
-        <td>`ISFUSION`</td>
-        <td>Boolesch</td>
-        <td>Eine Markierung, die angibt, ob dieser Arbeitsbereich über eine Workfront Fusion-Integration erstellt oder verwaltet wurde. Der Wert „true“ bedeutet Fusion-Management; „false“ oder ein leerer Wert bedeutet, dass es sich um einen nativ erstellten Arbeitsbereich handelt.</td>
+        <td>AKTUALISIERT</td>
+        <td>Zahl</td>
+        <td>Eine Markierung, die den letzten Vorgangstyp angibt, der sich auf diesen Arbeitsbereichsdatensatz ausgewirkt hat. Der Wert 1 bedeutet, dass der Arbeitsbereich im letzten Datenaktualisierungszyklus aktualisiert wurde; 0 bedeutet, dass dies nicht der Fall war. Siehe UPDATEDAT für den tatsächlichen Zeitstempel der letzten Aktualisierung.</td>
         <td>–</td>
-        <td>—</td>
+        <td>–</td>
+    </tr>
+    <tr>
+        <td>UPDATEDAT</td>
+        <td>timestamp\_NTZ</td>
+        <td>Der Zeitstempel (keine Zeitzone), wann dieser Arbeitsbereich zuletzt aktualisiert wurde.</td>
+        <td>–</td>
+        <td>–</td>
+    </tr>
+    <tr>
+        <td>AKTUALISIERT VON</td>
+        <td>varchar</td>
+        <td>Die Kennung des Benutzers, der diesen Arbeitsbereich zuletzt aktualisiert hat.</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
+    </tr>
+    <tr>
+        <td>BENUTZER-ID</td>
+        <td>varchar</td>
+        <td>Die Kennung des Benutzers, der mit diesem Arbeitsbereich verknüpft ist, normalerweise der Eigentümer des Arbeitsbereichs.</td>
+        <td>WF.USERS\_CURRENT</td>
+        <td>EAUTHUSERID</td>
     </tr>
 </table>

@@ -9,32 +9,24 @@ exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/6kEg5JYAO9pilVnKb5eGZbhPeAdbt-g-8SMteodoqP8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d7831c8d233588bf2624ef23b2b524ed54aa5288
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
-source-wordcount: 3239
+source-wordcount: 3647
 ht-degree: 1%
 
 ---
 
 # Erstellen von Einträgen
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
 
--->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -178,17 +170,14 @@ Old:
   >
   >Ein Workspace-Manager muss ein Anfrageformular für den Datensatztyp erstellen, damit Benutzer mit der Berechtigung Anzeigen Datensätze mithilfe eines Anfrageformulars hinzufügen können. Andernfalls können Benutzer mit Anzeigeberechtigung keine Datensätze erstellen.
 
-<!--
-add this bullet for July 23 release:
-
 <div class="preview">
 
-* All records are automatically color-coded when they are created, regardless of the method you are using to create them. 
+* Alle Datensätze werden bei ihrer Erstellung automatisch farbcodiert, unabhängig von der Methode, mit der Sie sie erstellen.
 
-    For more information, see the section [Color coding records](#color-coding-records) in this article. 
+  Weitere Informationen finden Sie im Abschnitt [Farbcodierungseinträge](#color-coding-records) in diesem Artikel.
 
 </div>
--->
+
 
 ## Erstellen von Datensätzen mithilfe der Schaltfläche Neuer Datensatz oder Datensatz anfragen in einer beliebigen Datensatztypansicht
 
@@ -293,8 +282,8 @@ Informationen zum Bearbeiten von Datensatzinformationen finden Sie unter [Bearbe
      >
      >Wenn Sie in einer Gruppierung oder Untergruppierung nach dem letzten Datensatz einen neuen Datensatz hinzufügen, füllt Workfront automatisch die in den Gruppierungen enthaltenen Felder. Sie können diese Felder bei Bedarf manuell bearbeiten, und die Datensätze können aus der Gruppierung entfernt werden.
 
-   * Klicken Sie **einer beliebigen Spalte oder Zeile** Tabelle auf der Tastatur auf „Umschalt+Eingabe“. Dadurch wird eine leere Zeile unter dem Datensatz hinzugefügt, von dem aus Sie beginnen. <!--<span class="preview"> This is not possible in the Preview environment</span>-->
-   * Bewegen Sie den Mauszeiger über das Primärfeld eines Datensatzes und klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Feld und dann auf **Datensatz oben einfügen** oder **Datensatz unten einfügen** <!--<span class="preview"> This is not possible in the Preview environment</span>-->
+   * Klicken Sie **einer beliebigen Spalte oder Zeile** Tabelle auf der Tastatur auf „Umschalt+Eingabe“. Dadurch wird eine leere Zeile unter dem Datensatz hinzugefügt, von dem aus Sie beginnen.
+   * Bewegen Sie den Mauszeiger über das Primärfeld eines Datensatzes und klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Feld und dann auf **Datensatz oben einfügen** oder **Datensatz unten einfügen**.
 
    ![Hinzufügen einer neuen Kampagne in der Tabellenzeile](assets/adding-a-new-campaign-in-table-row.png)
 
@@ -306,7 +295,7 @@ Informationen zum Bearbeiten von Datensatzinformationen finden Sie unter [Bearbe
 
    ODER
 
-   Klicken Sie auf **Details öffnen**-Symbol ![Details öffnen“ im Feld &#x200B;](assets/open-details-icon-in-table-name-field.png)Tabellenname“ links neben dem Datensatznamen.
+   Klicken Sie auf **Details öffnen**-Symbol ![Details öffnen“ im Feld ](assets/open-details-icon-in-table-name-field.png)Tabellenname“ links neben dem Datensatznamen.
 
    Das Vorschaufeld wird in der Tabelle geöffnet.
 
@@ -527,7 +516,7 @@ Sie müssen über Folgendes verfügen, bevor Sie neue Datensätze hinzufügen k�
 
 * Verbundene Datensatztypen Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Einträge.
-* Die richtigen Zugriffsberechtigungen in Workfront Planning und Workfront, wie im Abschnitt [Zugriffsanforderungen“ in &#x200B;](#access-requirements) Artikel beschrieben.
+* Die richtigen Zugriffsberechtigungen in Workfront Planning und Workfront, wie im Abschnitt [Zugriffsanforderungen“ in ](#access-requirements) Artikel beschrieben.
 
 So erstellen Sie Datensätze, während Sie sie mit anderen Datensätzen verbinden:
 
@@ -596,52 +585,50 @@ Sie können die Automatisierung auf der Seite des Datensatzes in Workfront Plann
 Weitere Informationen finden Sie unter [Erstellen von Objekten mithilfe von Adobe Workfront Planning-Datensatzautomatisierungen](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
 <!--
-For July 23
-Move to its own article after preview release in 07/2026:
+Move to its own article after production release in 10/2026:
+-->
 
 <div class="preview">
 
-## Color coding records
+## Einträge mit Farbcodierung
 
-All records are automatically associated with a color when they are created. 
+Alle Datensätze werden bei ihrer Erstellung automatisch einer Farbe zugeordnet.
 
-1. Create a record using one of the methods described in this article. 
+1. Erstellen Sie einen Datensatz mit einer der in diesem Artikel beschriebenen Methoden.
 
-    The color is immediately applied to the new record in the following areas:
+   Die Farbe wird sofort auf den neuen Datensatz in den folgenden Bereichen angewendet:
 
-    * As a bar, to the left of the record name or primary field in the table, timeline and calendar views. 
-    * As a circle, to the left of the record name in the record's **Details** page. 
+   * Als Balken links neben dem Datensatznamen oder dem Primärfeld in den Tabellen-, Timeline- und Kalenderansichten.
+   * Als Kreis links neben dem Datensatznamen auf der Seite „Details **des**.
 
-        For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
-1. (Conditional) To view the color of a record, do one of the following: 
-    
-    * From the table view, click the **Fields** icon in the toolbar at the top of a list of records, then turn on the **Color** setting. A bar is added to the left of the record's primary field.
+     Weitere Informationen finden Sie unter [Seitenlayout für Einträge verwalten](/help/quicksilver/planning/records/manage-the-record-page.md).
+1. (Bedingt) Führen Sie einen der folgenden Schritte aus, um die Farbe eines Datensatzes anzuzeigen:
 
-        ![Table view record color bar](assets/table-record-color-bar.png)
+   * Klicken Sie in der Tabellenansicht oben in **Datensatzliste auf** Symbol „Felder“ in der Symbolleiste und aktivieren Sie dann die Einstellung **Farbe**. Links neben dem Primärfeld des Datensatzes wird ein Balken hinzugefügt.
 
-        For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
-    * From the timeline view, click **Settings** > **Bar style**, then turn on the **Color** setting. A bar is added to the left margin of the record's bar, when you select to color code the bar by **Record**. 
+     ![Farbleiste der Tabellenansicht des Datensatzes](assets/table-record-color-bar.png)
 
-        ![Timeline view record color bar](assets/timeline-record-color-bar.png)
+     Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
+   * Klicken Sie in der Zeitleisten-Ansicht auf **Einstellungen** > **Balkenstil** und aktivieren Sie dann die Einstellung **Farbe**. Am linken Rand der Datensatzleiste wird eine Leiste hinzugefügt, wenn Sie die Leiste farblich mit &quot;**&quot;**.
 
-        For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
-    * From the calendar view, click **Settings** > **Bar style**, then turn on the **Color** setting. The record bar color matches the record color and a darker shade of the same color is added to the left margin of the record's bar, when you select to color code the bar by **Record**.
-    
-        ![Calendar view record color bar](assets/calendar-record-color-bar.png)
+     ![Farbleiste der Zeitleisten-Ansicht des Datensatzes](assets/timeline-record-color-bar.png)
 
-        For information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
+     Weitere Informationen finden Sie unter [Verwalten der Timeline-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+   * Klicken Sie in der Kalenderansicht auf **Einstellungen** > **Balkenstil** und aktivieren Sie dann die Einstellung **Farbe**. Die Farbe des Datensatzbalkens entspricht der Datensatzfarbe, und am linken Rand des Datensatzbalkens wird ein dunklerer Farbton derselben Farbe hinzugefügt, wenn Sie den Balken mit &quot;**&quot;**.
 
-    The Color setting is turned off by default.
+     ![Farbleiste der Kalenderansicht des Datensatzes](assets/calendar-record-color-bar.png)
 
-1. To change the color associated with a record, do the following: 
+     Weitere Informationen finden Sie unter [Verwalten der Kalenderansicht](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
-    1. From the table view, click the record color bar
-        Or 
-        From the record details preview or page, click the record color circle. 
-    1. Click the **Swatches** or the **Custom** tab to select a new color. 
+   Die Farbeinstellung ist standardmäßig deaktiviert.
 
-        Once selected, the new color is applied immediately. 
+1. Gehen Sie wie folgt vor, um die mit einem Datensatz verknüpfte Farbe zu ändern:
+
+   1. Klicken Sie in der Tabellenansicht auf die Farbleiste Datensatz .
+      ODER
+      Klicken Sie auf der Seite „Datensatzdetails“ oder „Vorschau“ auf den Kreis der Datensatzfarbe.
+   1. Klicken Sie auf **Farbfelder** oder die Registerkarte **Benutzerdefiniert**, um eine neue Farbe auszuwählen.
+
+      Nach der Auswahl wird die neue Farbe sofort angewendet.
 
 </div>
-
--->
