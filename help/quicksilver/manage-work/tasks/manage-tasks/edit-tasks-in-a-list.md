@@ -9,22 +9,12 @@ exl-id: 2af81907-3657-459e-b780-65983e224ca8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/tBznGe2cQ4VnNILQHjlgwILlD-CinYpv01ARGY9XiAw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9c592e336feb25253c18787c831adfc36da62ed1
 workflow-type: tm+mt
 source-wordcount: 2861
 ht-degree: 4%
@@ -116,36 +106,36 @@ Beachten Sie beim Bearbeiten von Aufgaben in einer Liste Folgendes:
 
 * Anders als bei der Bearbeitung im Bearbeitungsfeld Berechtigungen für die Aufgabe verwalten müssen, können Sie eine Aufgabe in einer Liste nur mit den Berechtigungen Beitragen zur Aufgabe bearbeiten. Auf diese Weise können Sie die folgenden eingeschränkten Informationen für die Aufgabe bearbeiten:
 
-   * Beschreibung
-   * Status
-   * Prozent abgeschlossen
-   * Informationen zu benutzerdefinierten Formularen
+  * Beschreibung
+  * Status
+  * Prozent abgeschlossen
+  * Informationen zu benutzerdefinierten Formularen
 
-     >[!NOTE]
-     >
-     >Sie können ein benutzerdefiniertes Aufgabenfeld in einer Liste nur bearbeiten, wenn Sie über die Berechtigung zum Aktualisieren des Felds verfügen.
+    >[!NOTE]
+    >
+    >Sie können ein benutzerdefiniertes Aufgabenfeld in einer Liste nur bearbeiten, wenn Sie über die Berechtigung zum Aktualisieren des Felds verfügen.
 
-   * Stunden protokollieren
-   * Zuweisungen ändern
-   * Finanzinformationen anzeigen
-   * Kosten, Aufgaben oder Probleme hinzufügen
+  * Stunden protokollieren
+  * Zuweisungen ändern
+  * Finanzinformationen anzeigen
+  * Kosten, Aufgaben oder Probleme hinzufügen
 
 * Sie können eine Aufgabe in den folgenden Listen bearbeiten:
 
-   * Der Abschnitt Aufgaben des Projekts
-   * Der Abschnitt Teilaufgaben des Projekts
-   * Aufgabenbericht
+  * Der Abschnitt Aufgaben des Projekts
+  * Der Abschnitt Teilaufgaben des Projekts
+  * Aufgabenbericht
 
-     >[!NOTE]
-     >
-     >Standardmäßig speichert Workfront Ihre Änderungen an Aufgaben automatisch im Abschnitt Teilaufgaben oder in einem Aufgabenbericht.
+    >[!NOTE]
+    >
+    >Standardmäßig speichert Workfront Ihre Änderungen an Aufgaben automatisch im Abschnitt Teilaufgaben oder in einem Aufgabenbericht.
 
 * Sie können steuern, wann Workfront die an den Aufgaben vorgenommenen Änderungen in einer Liste speichert, indem Sie den Planungsmodus definieren, bevor Sie mit der Bearbeitung der Aufgaben beginnen.
 
   Sie können sich entscheiden, ob Workfront die von Ihnen vorgenommenen Änderungen wie folgt speichert:
 
-   * Automatisch, nach jeder Änderung
-   * Manuell, erst nachdem Sie auf Speichern geklickt haben.
+  * Automatisch, nach jeder Änderung
+  * Manuell, erst nachdem Sie auf Speichern geklickt haben.
 
   Informationen zum Konfigurieren, wann Workfront Änderungen an Aufgaben in einer Liste speichert, finden Sie im Abschnitt [Ändern des Planungsmodus vor dem Bearbeiten von Aufgaben in einer Liste](#modify-plan-mode-before-editing-tasks-in-a-list) in diesem Artikel.
 
@@ -202,7 +192,7 @@ So bearbeiten Sie Aufgaben in einer Liste und speichern die Änderungen automati
 
    ODER
 
-   Klicken Sie auf das **Mehr**-Menü ![Mehr-Symbol in der &#x200B;](assets/more-icon-task-list.png) rechts neben dem Aufgabennamen.
+   Klicken Sie auf das **Mehr**-Menü ![Mehr-Symbol in der ](assets/more-icon-task-list.png) rechts neben dem Aufgabennamen.
 
 1. (Optional) Wählen Sie aus den folgenden Optionen aus:
 
@@ -269,9 +259,9 @@ Beachten Sie beim manuellen Speichern von Änderungen in einer Aufgabenliste Fol
 * Sie können das Projekt nicht bearbeiten. Die Option zum Bearbeiten des Projekts ist deaktiviert.
 * Sie können die Informationen in der Kopfzeile des Projekts nicht aktualisieren. Sie können Folgendes nur tun, wenn Sie die Änderungen in der Aufgabenliste manuell speichern:
 
-   * Projekt abonnieren.
-   * Fügen Sie das Projekt Ihrer Favoritenliste hinzu.
-   * Öffnen Sie eine Aufgabe, indem Sie in der Liste auf ihren Namen klicken.
+  * Projekt abonnieren.
+  * Fügen Sie das Projekt Ihrer Favoritenliste hinzu.
+  * Öffnen Sie eine Aufgabe, indem Sie in der Liste auf ihren Namen klicken.
 
 * Aufgaben stapelweise bearbeiten. Das Bearbeitungssymbol ist deaktiviert, wenn mehrere Aufgaben ausgewählt werden.
 * Workfront Trigger-Benachrichtigungen über Änderungen, die Sie an den Aufgaben vornehmen, erst nach dem Speichern der Änderungen.
@@ -308,7 +298,7 @@ So bearbeiten Sie Aufgaben in einer Liste bei Auswahl der Option „Manuelles Sp
 
 1. Klicken Sie auf **Übernehmen**. Es wird eine Symbolleisteneinstellung mit Optionen zum Rückgängigmachen, Wiederholen und Speichern von Änderungen angezeigt.
 
-   ![Symbolleiste zum manuellen Speichern](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
+   ![Symbolleiste zum manuellen Speichern](assets/undo-redo-save-and-cancel-widget-for-task-list-350x65.png)
 
 1. Klicken Sie in ein Feld, für das Sie über die Berechtigung zum manuellen Aktualisieren verfügen. Das Feld kann nun bearbeitet werden, und Sie können Ihre Änderungen vornehmen.
 
@@ -408,21 +398,21 @@ So bearbeiten Sie Aufgaben in einer Liste mithilfe der Option „Manuelles Speic
 
    * Die Dropdown-Menüs Ansicht, Gruppierung und Filter werden entfernt und die Ansicht wird durch die folgenden Felder ersetzt:
 
-      * Aufgabennummer
-      * Aufgabenname
-      * Einschränkungstyp
-      * Dauer
-      * Geplantes Startdatum
-      * Geplantes Abschlussdatum
-      * Vorgänger
-      * Arbeitsaufträge
-      * Status
-      * Prozent abgeschlossen
+     * Aufgabennummer
+     * Aufgabenname
+     * Einschränkungstyp
+     * Dauer
+     * Geplantes Startdatum
+     * Geplantes Abschlussdatum
+     * Vorgänger
+     * Arbeitsaufträge
+     * Status
+     * Prozent abgeschlossen
 
    * Das Symbol für die Agile-Ansicht wurde entfernt.
    * Es wird eine Symbolleisteneinstellung mit Optionen zum Rückgängigmachen, Wiederholen und Speichern von Änderungen angezeigt.
 
-     ![Symbolleiste zum manuellen Speichern](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
+     ![Symbolleiste zum manuellen Speichern](assets/undo-redo-save-and-cancel-widget-for-task-list-350x65.png)
 
 1. Bearbeiten Sie alle Felder, für die Sie über die Berechtigung zum manuellen Aktualisieren verfügen.
 

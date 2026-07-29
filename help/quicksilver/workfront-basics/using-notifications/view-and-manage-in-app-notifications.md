@@ -6,15 +6,11 @@ author: Courtney
 feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6
 TQID: https://experienceleague.adobe.com/2PxHbwQ0pfjUTIThm5ATGXl4IKPZFV8pQeL8s9waOOw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9c592e336feb25253c18787c831adfc36da62ed1
 workflow-type: tm+mt
 source-wordcount: 986
 ht-degree: 4%
@@ -84,8 +80,9 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    * Alle anderen Benachrichtigungen werden durch Symbole angezeigt, die den Typ des Arbeitselements angeben, mit dem sie verknüpft sind.
 
-     ![Benachrichtigungssymbole](assets/ntfcntype&icon-350x330.png)
-Das Symbol rechts neben dem blauen Punkt zeigt eine der folgenden Optionen an:
+     ![Benachrichtigungssymbole](assets/ntfcntypeicon-350x330.png)
+
+   Das Symbol rechts neben dem blauen Punkt zeigt eine der folgenden Optionen an:
 
    * Das Profilbild der Person, die die Informationen eingegeben hat, ist normalerweise eine Aktualisierung zu einem [!DNL Workfront] Objekt, an dem Sie arbeiten.
    * Das [!DNL Workfront]-Logo, wenn die Benachrichtigung eine Systemankündigung ist.
@@ -113,7 +110,7 @@ Das Symbol rechts neben dem blauen Punkt zeigt eine der folgenden Optionen an:
 
 Nachdem Sie Benachrichtigungen angezeigt haben, können Sie sie bestätigen, um sie aus der Liste [!UICONTROL Benachrichtigungen] zu löschen oder sie später beantworten zu lassen.
 
-Auf der [!UICONTROL Benachrichtigungen] können Sie aktuelle und gelöschte Benachrichtigungen anzeigen. Sie können gelöschte Benachrichtigungen auch wieder in die Liste [!UICONTROL Benachrichtigungen“ &#x200B;].
+Auf der [!UICONTROL Benachrichtigungen] können Sie aktuelle und gelöschte Benachrichtigungen anzeigen. Sie können gelöschte Benachrichtigungen auch wieder in die Liste [!UICONTROL Benachrichtigungen“ ].
 
 * [Benachrichtigungen bestätigen](#acknowledge-notifications)
 * [Bestätigte Benachrichtigungen anzeigen](#view-acknowledged-notifications)
