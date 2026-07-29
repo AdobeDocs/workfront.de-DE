@@ -9,22 +9,14 @@ exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/jyRdImgjr0238JzddL88QZYMyaX3E5zj65R8-s1VuMA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
 workflow-type: tm+mt
-source-wordcount: 3068
+source-wordcount: 3092
 ht-degree: 4%
 
 ---
@@ -90,14 +82,19 @@ Ein Beispiel für das Verbinden von Datensatztypen und Datensätzen finden Sie u
    <td> 
 <p>So verbinden Sie Datensatztypen aus demselben Arbeitsbereich: </p>
 <ul> 
-<li><p>Beliebiges Workfront und beliebiges Planungspaket</p></li>
-<li><p>Beliebiger Workflow und beliebiges Planungspaket</li></ul>
+<li><p>Jedes Workfront- oder Workflow-Paket mit einem beliebigen Planungspaket</p></li>
+<p>ODER</p>
+<li><p>Jedes Planungspaket, wenn es als eigenständiges Produkt gekauft wird</p></li>
+</ul>
 
 <p>So verbinden Sie Datensatztypen aus verschiedenen Arbeitsbereichen:</p>
 
-<ul> 
-<li><p>Beliebiges Workfront und beliebiges Planungspaket</p></li>
-<li><p>Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket</p></li></ul>
+<ul>
+
+<li><p>Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket</p></li>
+<p>ODER</p>
+<li><p>Jedes Planning Prime- oder Ultimate-Paket, wenn es als eigenständiges Produkt gekauft wird</p></li>
+</ul>
 <p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
    </td> 
 <tr> 
@@ -108,7 +105,7 @@ Ein Beispiel für das Verbinden von Datensatztypen und Datensätzen finden Sie u
    <ul><li><p>Eine Adobe Experience Manager Assets-Lizenz und eine Integration zwischen AEM Assets und Workfront, um AEM-Assets mit Planungs-Datensatztypen zu verbinden.</p>
    <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront für Experience Manager Assets und Assets Essentials: Artikelindex</a>. </p></li>
    <li><p> Eine Adobe GenStudio for Performance Marketing-Lizenz zum Verbinden von Datensatztypen mit GenStudio Brands</p>
-   <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -299,7 +296,15 @@ Old:
    * **Mehrfachauswahl**: Wählen Sie diese Option aus, damit ein Datensatz aus dem aktuellen Datensatztyp mit mehreren Datensätzen aus dem Verbindungs-Datensatztyp verbunden werden kann.
    * **Einzelauswahl**: Wählen Sie diese Option aus, damit ein Datensatz aus dem aktuellen Datensatztyp mit einem Datensatz aus dem Verbindungs-Datensatztyp verbunden werden kann.
 
-1. Wählen Sie das **Entsprechendes Feld für verknüpften Datensatztyp erstellen**. Wenn diese Option aktiviert ist, wird ein Verbindungsfeld für den Datensatztyp erstellt, mit dem Sie eine Verbindung herstellen, zusätzlich zu dem Verbindungsfeld, das zum aktuellen Datensatztyp hinzugefügt wird. Dies ist standardmäßig deaktiviert.
+1. Wählen Sie das **entsprechendes Feld für verknüpften Datensatztyp erstellen** im <!--<span class="preview">, when connecting all object types but not Planning record types</span>--> **Verbindungstyp** aus.
+
+   <!--
+    >[!TIP]
+    >
+    ><span class="preview">The **Connection type** section has been replaced by the **Connection settings** section when connecting Planning record types. </span>
+    -->
+
+   Wenn diese Option aktiviert ist, wird ein Verbindungsfeld für den Datensatztyp erstellt, mit dem Sie eine Verbindung herstellen, zusätzlich zu dem Verbindungsfeld, das zum aktuellen Datensatztyp hinzugefügt wird. Dies ist standardmäßig deaktiviert.
 
    >[!TIP]
    >
@@ -311,7 +316,7 @@ Old:
    >   * Es wurde kein Feld für Workfront-Objekte erstellt, die mit Planungsdatensätzen verbunden sind.
    >   * Es wird kein Feld für einen Planning-Datensatztyp erstellt, wenn er mit einem Datensatztyp aus GenStudio Workspace verbunden ist.
 
-1. (Bedingt) Wenn Sie **Entsprechendes Feld für verknüpften Datensatztyp erstellen** aktiviert haben, wählen Sie eine der folgenden Optionen, um anzugeben, mit wie vielen Datensätzen Benutzende eine Verbindung herstellen können:
+1. (Bedingt) Wenn Sie **** Abschnitt **Verbindungstyp** die Option „Entsprechendes Feld für verknüpften Datensatztyp erstellen“ aktiviert haben, wählen Sie eine der folgenden Optionen, um anzugeben, mit wie vielen Datensätzen Benutzende eine Verbindung herstellen können:
 
    * Viele-zu-viele
    * Eins zu viele
@@ -334,7 +339,7 @@ Old:
 
    >[!NOTE]
    >
-   >Ihr Workfront-Administrator kann Workfront Planning-Felder über die Metadatenzuordnung in Workfront Experience Manager Assets-Feldern zuordnen. Weitere Informationen finden Sie unter &quot;[&#x200B; der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >Ihr Workfront-Administrator kann Workfront Planning-Felder über die Metadatenzuordnung in Workfront Experience Manager Assets-Feldern zuordnen. Weitere Informationen finden Sie unter &quot;[ der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
 1. (Optional) Wählen Sie im Bereich „Erscheinungsbild des Datensatzes **eine der folgenden Optionen**:
