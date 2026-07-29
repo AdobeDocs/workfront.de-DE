@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
-source-wordcount: 3058
+source-wordcount: 3068
 ht-degree: 4%
 
 ---
@@ -279,7 +279,7 @@ Old:
 
      Für den ausgewählten Datensatz oder Objekttyp wird eine neue Registerkarte Verbindung geöffnet.
 
-   * **Marken** aus Adobe GenStudio for Performance Marketing im Abschnitt **Adobe GenStudio**
+   * **Marken** aus Adobe GenStudio for Performance Marketing im Abschnitt **Adobe-** Anwendungen“
 
      ![Auswahl der GenStudio Brand-Verbindung](assets/brand-genstudio-connection-selection.png)
 
@@ -337,13 +337,18 @@ Old:
    >Ihr Workfront-Administrator kann Workfront Planning-Felder über die Metadatenzuordnung in Workfront Experience Manager Assets-Feldern zuordnen. Weitere Informationen finden Sie unter &quot;[&#x200B; der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 
-1. (Bedingt) Wenn Sie eine Verbindung zu Experience Manager, zu einem Workfront Planning-Datensatztyp oder zu einer GenStudio-Marke herstellen möchten, wählen Sie im Bereich „Erscheinungsbild des **&quot; eine der folgenden Optionen**:
+1. (Optional) Wählen Sie im Bereich „Erscheinungsbild des Datensatzes **eine der folgenden Optionen**:
 
    * **Name und Bild**: Sowohl der Name als auch die Miniaturansicht oder das Symbol der verbundenen Datensätze werden im Feld Verbundener Datensatz angezeigt. Dies ist die Standardoption.
    * **Name**: Im Feld Verbundener Datensatz wird nur der Name der verbundenen Datensätze angezeigt.
    * **Bild**: Im Feld Verbundener Datensatz wird nur die Miniaturansicht oder das Symbol der verbundenen Datensätze angezeigt.
+   <div class="preview">
 
-   Bei Datensätzen ohne Miniaturbild wird stattdessen das Symbol für den Datensatztyp angezeigt. Ein Beispiel dafür, wie die verbundenen Datensätze im Bereich **Erscheinungsbild des Datensatzes** angezeigt werden.
+   * **Farbe und Name**: Beim Verbinden von Planungsdatensätzen wird die Farbe jedes verbundenen Datensatzes als Kreis links neben dem Datensatznamen angezeigt. Dies ist nicht verfügbar, wenn Sie Datensatztypen mit Objekttypen aus anderen Anwendungen verbinden.
+
+   </div>
+
+   Bei Datensätzen ohne Miniaturbild wird stattdessen das Symbol für den Datensatztyp angezeigt.
 
    >[!NOTE]
    >
@@ -351,9 +356,9 @@ Old:
    >
    >* Der Name eines Datensatzes ist das primäre Feld des Datensatzes. Weitere Informationen finden Sie unter [Übersicht über Primäre Felder](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
-   >* Bei der Auswahl von Workfront-Objekttypen steht das Erscheinungsbild eines Datensatzes nicht zur Verfügung.
+   >* Bei der Auswahl von Objekttypen aus Workfront ist die Auswahl des Erscheinungsbildes eines Datensatzes nicht verfügbar.
    >
-   >* Die Auswahl im Bereich Erscheinungsbild des Datensatzes bestimmt, wie die Datensätze in Verbindungen überall im System angezeigt werden, einschließlich aller Ansichten und Detailseiten.
+   >* Die Auswahl im Bereich **Erscheinungsbild des Datensatzes** bestimmt, wie die Datensätze in Verbindungen überall im System angezeigt werden, einschließlich aller Ansichten und Detailseiten.
 
 1. Wählen Sie die **Suchfelder auswählen**, um Felder aus dem Datensatztyp hinzuzufügen, mit dem Sie eine Verbindung herstellen. Die Suchfelder sind Felder, die mit dem Datensatz oder Objekttyp verknüpft sind, mit dem Sie eine Verknüpfung herstellen. Durch Verknüpfen werden Informationen des Datensatzes oder Objekts angezeigt, mit dem Sie eine Verknüpfung herstellen, und zwar für den Datensatz, von dem aus eine Verknüpfung hergestellt wird. Dies ist standardmäßig ausgewählt.
 
@@ -368,7 +373,7 @@ Old:
    >
    >* Die Datumsfeldinformationen der Workfront-Objekte werden in Workfront Planning im 24-Stunden-Format angezeigt, unabhängig davon, wie sie in Workfront angezeigt werden.
    >
-   >   Wenn beispielsweise das geplante Startdatum eines Projekts in Workfront um 15 :00 angezeigt wird, wird es in Workfront :00 in einem importierten Suchfeld als 15 angezeigt.
+   >   Wenn beispielsweise das geplante Startdatum eines Projekts in Workfront um 15:00 Uhr angezeigt wird, wird es in Workfront Planning in einem importierten Suchfeld als 15:00 Uhr angezeigt.
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -429,9 +434,9 @@ Old:
    * **SUM**: Zeigt die Summe aller Werte an, die aus mehreren Datensätzen stammen, die im verknüpften Datensatzfeld ausgewählt wurden.
    * **AVG**: Zeigt den Durchschnitt aller Werte an, die aus mehreren Datensätzen stammen, die im Feld Verknüpfter Datensatz ausgewählt wurden.
    * **UNIQUE**: Entfernt Duplikate aus den Werten der Suchfelder und zeigt nur die eindeutigen Werte an. Dies ist für die folgenden Feldtypen nicht verfügbar:
-      * Absatz
-      * Kontrollkästchen
-      * Personen
+     * Absatz
+     * Kontrollkästchen
+     * Personen
 
    >[!NOTE]
    >

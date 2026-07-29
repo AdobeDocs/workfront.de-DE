@@ -20,20 +20,20 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
 workflow-type: tm+mt
-source-wordcount: 3103
+source-wordcount: 3223
 ht-degree: 1%
 
 ---
 
 # Bearbeiten von Einträgen
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -145,17 +145,17 @@ Old:
 * Sie können von Ihnen erstellte oder von anderen erstellte Datensätze bearbeiten, wenn Sie über Berechtigungen für den Arbeitsbereich verfügen.
 * Datensatzfelder können aus den folgenden Bereichen bearbeitet werden:
 
-   * Vorschau des Datensatzes in einer Datensatzansicht
-   * Die Detailseite des Datensatzes
-   * Inline, in einer Tabellenansicht.
-   * Die Kalender- und Zeitleisten-Ansicht beim Ändern der Größe oder Ziehen und Ablegen der Datensätze. Dadurch werden die Daten der Datensätze aktualisiert.
+  * Vorschau des Datensatzes in einer Datensatzansicht
+  * Die Detailseite des Datensatzes
+  * Inline, in einer Tabellenansicht.
+  * Die Kalender- und Zeitleisten-Ansicht beim Ändern der Größe oder Ziehen und Ablegen der Datensätze. Dadurch werden die Daten der Datensätze aktualisiert.
 
 * Wenn ein(e) Benutzende(r) einen Datensatz in einer Ansicht bearbeitet, sind die Änderungen sofort in allen Ansichten und auf den Datensatzseiten für alle anderen Benutzenden sichtbar.
 
 * Die folgenden Feldtypen werden automatisch aktualisiert und Sie können ihre Werte nicht manuell bearbeiten:
-   * Verknüpfte Felder aus anderen Datensätzen
-   * Felder vom Typ Formel
-   * Systemfelder (Erstellt von, Erstellungsdatum, Zuletzt geändert von, Zuletzt geändert Datum, Genehmigt von , Datensatz-ID)
+  * Verknüpfte Felder aus anderen Datensätzen
+  * Felder vom Typ Formel
+  * Systemfelder (Erstellt von, Erstellungsdatum, Zuletzt geändert von, Zuletzt geändert Datum, Genehmigt von , Datensatz-ID)
 * Wenn die angezeigten Datensätze mit anderen Datensätzen verknüpft sind, spiegeln die neuen Informationen der Datensätze, die Sie bearbeiten, die verknüpften Datensätze in allen Arbeitsbereichen wider, in denen dieser Datensatz verknüpft ist.
 * Einträge können nicht stapelweise bearbeitet werden. <!--this will probably change-->
 * URLs werden nur dann als Links in einzeiligen Textfeldtypen erkannt, wenn sie mit dem Folgenden beginnen: http://, https://, ftp:// oder www. .
@@ -167,8 +167,8 @@ Old:
 
   Informationen zum Bearbeiten der Daten der Datensätze finden Sie in einem der folgenden Abschnitte in diesem Artikel:
 
-   * [Bearbeiten eines Datensatzes in der Kalenderansicht eines Datensatztyps](#edit-a-record-in-the-calendar-view-of-a-record-type)
-   * [Bearbeiten eines Datensatzes in der Zeitleisten-Ansicht eines Datensatztyps](#edit-a-record-in-the-timeline-view-of-a-record-type)
+  * [Bearbeiten eines Datensatzes in der Kalenderansicht eines Datensatztyps](#edit-a-record-in-the-calendar-view-of-a-record-type)
+  * [Bearbeiten eines Datensatzes in der Zeitleisten-Ansicht eines Datensatztyps](#edit-a-record-in-the-timeline-view-of-a-record-type)
 
 
 ## Bearbeiten von Einträgen
@@ -254,10 +254,10 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 
    * Kopieren Sie eine oder mehrere Zellen aus einer externen Quelle (z. B. einer Excel-Datei) und fügen Sie sie dann in einen der folgenden Feldtypen ein:
 
-      * Personenfelder. Es werden nur Felder mit einem Wert unterstützt.
-      * Textfelder
-      * Felder auswählen.
-      * Zahlen-, Prozentsatz- und Währungsfelder.
+     * Personenfelder. Es werden nur Felder mit einem Wert unterstützt.
+     * Textfelder
+     * Felder auswählen.
+     * Zahlen-, Prozentsatz- und Währungsfelder.
 
    Es ist nicht möglich, Informationen aus einer externen Quelle zu kopieren und in andere Feldtypen einzufügen, einschließlich der Verbindungsfelder von Workfront oder anderen Anwendungen.
 
@@ -296,7 +296,7 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
    * **Anzeigen** oder **In neuer Registerkarte öffnen**: Dadurch wird die Datensatzseite geöffnet.
    * **Link kopieren**: Zum Kopieren eines Links auf die Datensatzseite.
    * **Miniaturansicht bearbeiten**: Zum Hinzufügen einer Miniaturansicht zu einem Datensatz.
-Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+     Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
    * **Duplizieren**: Dadurch wird ein identisches Duplikat des Datensatzes erstellt.
    * **Datensatz oberhalb einfügen/Datensatz unterhalb einfügen**: Fügt eine neue Zeile hinzu, damit Sie einen neuen Datensatz hinzufügen können. Dies ist in der Vorschau-Umgebung nicht möglich.
    * **Löschen**: Löschen des Datensatzes. Gelöschte Datensätze werden im Feld „Zuletzt gelöscht“ bis zu 30 Tage lang gespeichert.
@@ -372,6 +372,9 @@ Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu ein
    >  * Nachschlagen von Feldern aus anderen Datensätzen, die durch Verbinden von Datensatztypen erstellt werden. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Felder der folgenden Typen: Erstellt von, Erstellt am, Zuletzt geändert von, Zuletzt geändert am, Formelfelder.
 
+1. <span class="preview">(Optional) Klicken Sie auf den Farbkreis links neben dem Datensatznamen, um die Datensatzfarbe zu ändern. </span>
+   <span class="preview">Datensätze werden bei ihrer Erstellung automatisch mit Farben versehen. Klicken Sie auf **Farbfelder** oder **Benutzerdefiniert**, um eine neue Farbe auszuwählen.</span>
+
 1. (Optional) Klicken Sie auf **Cover hinzufügen**, um dem Datensatz ein Cover-Bild hinzuzufügen. Weitere Informationen finden Sie unter [Hinzufügen eines Cover-Bildes zu einem Datensatz](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
 1. (Optional) Bewegen Sie den Mauszeiger über das Miniaturansichtssymbol und klicken Sie dann auf **Mehr** ![Mehr Menü](assets/more-menu.png) > **Miniaturansicht bearbeiten**, um ein Miniaturbild hinzuzufügen. Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
@@ -428,6 +431,11 @@ Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu ein
    >  * Felder der folgenden Typen: Erstellt von, Erstellt am, Zuletzt geändert von, Zuletzt geändert am, Formelfelder.
 
 1. (Optional) Klicken Sie auf das Informationssymbol rechts neben einem Feld, in dem es angezeigt wird, um die Beschreibung eines Felds anzuzeigen.
+1. <span class="preview">(Optional) Klicken Sie auf den Farbkreis links neben dem Datensatznamen, um die Datensatzfarbe zu ändern. </span>
+   <span class="preview">Datensätze werden bei ihrer Erstellung automatisch mit Farben versehen. Klicken Sie auf **Farbfelder** oder **Benutzerdefiniert**, um eine neue Farbe auszuwählen.</span>
+
+   ![Farbauswahlfeld für Datensatzdetails](assets/color-picker-box-for-record-color-in-details-page.png)
+
 1. (Optional) Klicken Sie auf **Cover hinzufügen**, um dem Datensatz ein Cover-Bild hinzuzufügen
 
    ODER
