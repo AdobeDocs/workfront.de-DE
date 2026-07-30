@@ -3,17 +3,19 @@ content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Linke Navigation in [!DNL Adobe Workfront]
 description: Der linke Navigationsbereich in [!DNL Workfront]  erleichtert die Navigation durch das System.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 45dcff03d71c1a19ed8de8f76fa3d63788e30b44
+source-git-commit: 3d0cbbd0fe1cb1ec707df4cd50a3862fcf8767f3
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1436'
 ht-degree: 3%
 
 ---
 
 # Linke Navigation in [!DNL Adobe Workfront]
+
+{{preview-fast-release-general}}
 
 Die meisten Bereiche und Objekte in WF verwenden ein einfaches Navigationsfenster auf der linken Bildschirmseite. Die Navigation im linken Bedienfeld bietet folgende Vorteile:
 
@@ -262,6 +264,10 @@ Informationen dazu, welche Abschnitte für bestimmte Bereiche verfügbar sind, f
 
    Sie müssen über Berechtigungen zum Bearbeiten des -Objekts verfügen, bevor Sie die Informationen bearbeiten können.
 
+   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
+   ![Abschnitte des linken Bedienfelds](assets/left-navigation-panel-072326.png)
+
+   Beispielbild in der Produktionsumgebung:
    ![Abschnitte des linken Bedienfelds](assets/left-navigation-panel.png)
 
 1. (Optional) Um einen Dashboard-Schnelllink hinzuzufügen, klicken Sie **[!UICONTROL Dashboard hinzufügen]** unten im linken Bedienfeld und führen Sie dann folgende Schritte aus:
@@ -272,12 +278,22 @@ Informationen dazu, welche Abschnitte für bestimmte Bereiche verfügbar sind, f
       >[!TIP]
       >
       >Sie müssen das Dashboard erstellen, bevor es in der Liste angezeigt wird.
+      >
+      >Nicht alle Objekte erlauben ein Dashboard im linken Bereich. Informationen dazu, welche Objekte Dashboards unterstützen, finden Sie unter [Hinzufügen eines Dashboards im linken Bereich eines Workfront-Objekts oder -Bereichs](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
 
 1. (Optional) Um einen Dashboard-Schnelllink zu entfernen, bewegen Sie den Mauszeiger über das Dashboard im linken Navigationsbereich und klicken Sie dann auf das Symbol **Entfernen** ![Entfernen](assets/remove-dashboard-from-left.png), wenn es angezeigt wird.
 
-1. (Optional) Um die Reihenfolge eines Bereichs im linken Bereich zu ändern, klicken Sie auf das **[!UICONTROL Ziehen]**-Symbol ![](assets/drag-icon.png) neben einem Bereich und ziehen Sie ihn nach oben oder unten.
+1. (Optional) Um die Reihenfolge eines Bereichs im linken Bereich in der Produktionsumgebung zu ändern, klicken Sie auf das Symbol **[!UICONTROL Ziehen]** ![Ziehen-Symbol](assets/drag-icon.png) neben einem Bereich und ziehen Sie ihn nach oben oder unten.
 
    ![Ziehen eines Abschnitts](assets/drag-section.png)
+
+   <div class="preview">
+
+   Um die Reihenfolge eines Bereichs im linken Bereich in der Vorschauumgebung zu ändern, klicken Sie auf den Bereich und ziehen Sie ihn nach oben oder unten an die richtige Position.
+
+   ![Ziehen eines Abschnitts](assets/click-drag-left-nav-section.png)
+
+   </div>
 
 1. (Optional) Um den linken Bereich zu schließen, klicken Sie auf das Symbol **[!UICONTROL Reduzieren]** ![](assets/left-panel-collapse-icon.png).
 

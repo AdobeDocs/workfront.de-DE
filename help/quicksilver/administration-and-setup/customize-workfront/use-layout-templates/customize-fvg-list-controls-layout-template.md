@@ -19,14 +19,16 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 63f9627ccda9080a9ce505963f9ee495ccfbd8f3
+source-git-commit: 28369dd0d93b6dfce8ea867087938e0d849cf6f8
 workflow-type: tm+mt
-source-wordcount: 822
+source-wordcount: 851
 ht-degree: 4%
 
 ---
 
 # Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layout-Vorlage
+
+{{preview-fast-release-general}}
 
 Als Adobe Workfront-Admin können Sie mithilfe einer Layout-Vorlage festlegen, welche Listensteuerelemente in den Dropdown-Menüs Filtern, Anzeigen und Gruppieren angezeigt werden. Diese Menüs werden überall in Workfront über Listen angezeigt, z. B. über der Aufgabenliste für ein Projekt:
 
@@ -97,6 +99,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
    >* In der Kopfzeile des Bereichs Projekte:
    >   
    >  ![Schaltfläche „Filter deaktivieren“](assets/disable-filter-pills.png)
+
+   <span class="preview">Es stehen einige erweiterte Listen zur Auswahl. Diese Listen haben neben den Listensteuerelementen die Bezeichnung „Neues Erlebnis“. Informationen zu erweiterten Listen finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).</span>
 
 1. (Optional) Wenn Sie den Standardfilter, die Standardansicht oder die Standardgruppierung für die Layout-Vorlage ändern möchten, bewegen Sie den Mauszeiger über den Filter, die Ansicht oder die Gruppierung und klicken Sie auf **Als Standard festlegen**.
 

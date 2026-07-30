@@ -23,14 +23,16 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: b3170f61af451136f8a2b0d7f196bfd379ed952a
 workflow-type: tm+mt
-source-wordcount: 1230
+source-wordcount: 1247
 ht-degree: 5%
 
 ---
 
 # Anpassen des linken Bedienfelds mithilfe einer Layout-Vorlage
+
+{{preview-fast-release-general}}
 
 <!--Audited: 10/2024-->
 
@@ -38,6 +40,10 @@ In einer Layout-Vorlage können Sie anpassen, was Benutzende im gesamten Bereich
 
 Sie können beispielsweise festlegen, welches der folgenden Elemente Benutzern im linken Bereich angezeigt wird, wenn sie ein Projekt anzeigen:
 
+<span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
+![Linker Bereich eines Projekts](assets/left-panel-in-project-072326.png)
+
+Beispielbild in der Produktionsumgebung:
 ![Linker Bereich eines Projekts](assets/left-panel-in-project.png)
 
 >[!IMPORTANT]
@@ -149,7 +155,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
      </tr> 
      <tr> 
       <td>[!UICONTROL Projekte]</td> 
-      <td>Im [!UICONTROL -Hauptmenü] <img src="assets/projects-in-main-menu.png"> Projekte <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>Projekte im [!UICONTROL -Hauptmenü] <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL Projekte]</td> 
      </tr> 
      <tr> 

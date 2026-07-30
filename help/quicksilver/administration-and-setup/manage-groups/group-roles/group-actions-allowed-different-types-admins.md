@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 2ccb057b73391f6b1899f1f14efdce1ae0ca7775
 workflow-type: tm+mt
-source-wordcount: 450
-ht-degree: 6%
+source-wordcount: 456
+ht-degree: 5%
 
 ---
 
@@ -61,6 +61,12 @@ In dieser Tabelle sind die verfügbaren Administrationsaktivitäten für aufgef�
    <td>✓</td> 
    <td>✓*</td> 
    <td>✓*</td> 
+  </tr> 
+  <tr> 
+   <td>Geschäftsprofile erstellen, bearbeiten und löschen</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Erstellen und Verwalten von Untergruppen</td>

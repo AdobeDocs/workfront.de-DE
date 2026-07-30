@@ -18,14 +18,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8865d770518504ccc3eb50175dafeab66eba8563
+source-git-commit: 01a67480d4dbaeaa03f3380d825676f7b6478ec0
 workflow-type: tm+mt
-source-wordcount: 3139
+source-wordcount: 3184
 ht-degree: 2%
 
 ---
 
 # Verwenden von erweiterten Listen
+
+{{preview-fast-release-general}}
 
 Erweiterte Listen sind in einigen Bereichen von Adobe Workfront verfügbar. Diese Listen verwenden ein Tabellenformat für die Anzeige der Listenelemente und haben ein anderes Erscheinungsbild als die Standardlisten. Die Verwaltung von Ansichten wurde ebenfalls verbessert, einschließlich Filtern, Gruppieren, Verwalten von Spalten und Suchen.
 
@@ -203,17 +205,20 @@ So fügen Sie Spalten hinzu und entfernen sie:
 
    <!-- Add info about Properties and KPIs when something gets released with those options -->
 
+1. <span class="preview">(Optional) Um die Spalten neu anzuordnen, bewegen Sie den Mauszeiger über einen Spaltennamen im Abschnitt **Ausgewählt** und klicken Sie auf das Symbol **Ziehen** ![Symbol ziehen](assets/drag-icon.png). Verschieben Sie die Spalten vertikal, um sie in der richtigen Reihenfolge zu platzieren.</span>
 1. Klicken Sie auf **Speichern**.
 
    ![Spalten-Manager](assets/glist-column-manager.png)
 
    Die Liste aktualisiert die Spalten entsprechend den von Ihnen getroffenen Entscheidungen.
 
-### Ändern der Zeilenhöhe in einer Ansicht
+## Zeilen anpassen
 
 >[!NOTE]
 >
 >Nicht alle erweiterten Listen enthalten alle in diesem Abschnitt beschriebenen Elemente.
+
+So ändern Sie die Zeilenhöhe in einer Ansicht:
 
 1. Klicken Sie auf **Symbol „Zeilenhöhe** ![&#x200B; (Symbol „Zeilenhöhe](assets/row-height-icon.png) in einer erweiterten Liste.
 
@@ -222,6 +227,14 @@ So fügen Sie Spalten hinzu und entfernen sie:
    * Standard. Dies ist die Standardauswahl.
    * Mittel
    * Groß
+
+So ändern Sie die Reihenfolge der Zeilen:
+
+1. Ziehen Sie die Zeilen per Drag-and-Drop in die gewünschte Reihenfolge.
+
+   >[!NOTE]
+   >
+   >Wenn Sie eine Sortierung angewendet haben, können Sie die Zeilenreihenfolge nicht manuell ändern.
 
 ## Aktualisieren von erweiterten Listenelementen
 
@@ -366,8 +379,8 @@ Mit der bedingten Formatierung können Sie wichtige Informationen in der Ansicht
 1. Klicken Sie außerhalb des Felds **Format**, um es zu schließen.
 
    Dadurch gelangen Sie zurück zur Listenansicht.
-Die Formatierung wird sofort auf die Listenansicht angewendet.
-Ein blauer Punkt neben dem Symbol **Zellen formatieren** gibt an, dass auf die Ansicht eine besondere Formatierung angewendet wurde.
+   Die Formatierung wird sofort auf die Listenansicht angewendet.
+   Ein blauer Punkt neben dem Symbol **Zellen formatieren** gibt an, dass auf die Ansicht eine besondere Formatierung angewendet wurde.
 
 ### Elemente in einer erweiterten Liste filtern
 

@@ -11,18 +11,20 @@ role: Admin
 exl-id: 2227cdb7-909c-429d-a078-4f508157a679
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 2b190de6b6ef9ce53e96475d426a4d39cfbd4df4
+source-git-commit: 5c8c8bfdf9b02d8bcd19a291b65825d4b0883807
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 22%
+source-wordcount: '364'
+ht-degree: 12%
 
 ---
 
 # Geschäftsprofile anzeigen und verwalten
 
+{{highlighted-preview}}
+
 Um einem Benutzer ein Geschäftsprofil zuzuweisen, müssen Sie eine Gruppe und eine zugehörige Zugriffsebene zuweisen.
 
-Als Workfront-Administrator können Sie das Geschäftsprofil eines Benutzers festlegen, indem Sie Kombinationen aus Zugriffsebenen und Gruppen zuweisen. Dies wird über die Benutzerseite in Workfront verwaltet.
+Als Workfront-Administrator können Sie das Geschäftsprofil eines Benutzers festlegen, indem Sie Kombinationen aus Zugriffsebenen und Gruppen zuweisen. Dies wird über die Benutzerseite in Workfront verwaltet. <span class="preview">Gruppenadministratoren können auch Geschäftsprofile erstellen, bearbeiten und löschen, jedoch nur für die von ihnen verwalteten Gruppen.</span>
 
 Weitere Informationen zu Geschäftsprofilen finden Sie unter [Geschäftsprofile - Übersicht](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
 
@@ -47,7 +49,7 @@ Weitere Informationen zu Geschäftsprofilen finden Sie unter [Geschäftsprofile 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td><p>Systemadministrator</p></td>
+   <td><p>Systemadmin</p><p><span class="preview">Gruppenadministrator (für von ihm verwaltete Gruppen)</span></p></td>
   </tr> 
  </tbody> 
 </table>
@@ -67,3 +69,40 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 1. Wählen Sie die Gruppe aus, für die dieses Geschäftsprofil gilt.
 1. (Optional) Um Start- oder Enddaten für diesen Zugriff festzulegen, wählen Sie diese Daten in der Datumsauswahl aus.
 1. Klicken Sie auf **Speichern**.
+
+## Geschäftsprofil bearbeiten
+
+<div class="preview">
+
+Das Bearbeiten eines Geschäftsprofils öffnet dasselbe Fenster, in dem es erstellt wurde.
+
+{{step-1-to-users}}
+
+1. Wählen Sie den Benutzer aus, dessen Geschäftsprofil Sie bearbeiten möchten.
+1. Klicken Sie im linken Navigationsbereich der Seite dieses Benutzers auf **Geschäftsprofile**.
+1. Klicken Sie auf das **Mehr**-Symbol ![Mehr](assets/more-icon.png) in der Zeile des Geschäftsprofils, das Sie bearbeiten möchten, und klicken Sie dann auf **Bearbeiten**.
+1. Aktualisieren Sie die Zugriffsebene, die Gruppe oder das Start- und Enddatum nach Bedarf.
+1. Klicken Sie auf **Speichern**.
+
+>[!NOTE]
+>
+>Gruppenadministratoren können nur Geschäftsprofile für die von ihnen verwalteten Gruppen bearbeiten.
+
+</div>
+
+## Löschen eines Geschäftsprofils
+
+<div class="preview">
+
+{{step-1-to-users}}
+
+1. Wählen Sie den Benutzer aus, dessen Geschäftsprofil Sie löschen möchten.
+1. Klicken Sie im linken Navigationsbereich der Seite dieses Benutzers auf **Geschäftsprofile**.
+1. Klicken Sie auf das **Mehr**-Symbol ![Mehr](assets/more-icon.png) in der Zeile des Geschäftsprofils, das Sie löschen möchten, und klicken Sie dann auf **Löschen**.
+1. Klicken Sie **Löschen** zur Bestätigung.
+
+>[!NOTE]
+>
+>Gruppenadministratoren können nur Geschäftsprofile für von ihnen verwaltete Gruppen löschen.
+
+</div>

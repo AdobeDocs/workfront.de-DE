@@ -20,14 +20,16 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
+source-git-commit: f73a84c755dabfebdeb6cdd7b2ad59bc09a272f4
 workflow-type: tm+mt
-source-wordcount: 3613
+source-wordcount: 3659
 ht-degree: 2%
 
 ---
 
 # Hinzufügen von Logikregeln zu benutzerdefinierten Formularen und Feldern
+
+{{preview-fast-release-general}}
 
 Mit logischen Regeln können Sie die Felder in Ihrem Formular weiter anpassen.
 
@@ -101,17 +103,17 @@ Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten 
 * Es ist nicht möglich, eine Logik zum Anzeigen oder Überspringen anzuwenden, um die Auswahl eines Felds mit mehreren Optionen ein- oder auszublenden. Sie können beispielsweise die Auswahl, die für ein Dropdown-Feld, eine Kontrollkästchen-Gruppe oder ein Optionsfeld angezeigt wird, nicht auf der Grundlage der Anzeige- oder Überspringen-Logik eines anderen Felds einschränken.
 * Sie können sowohl Anzeigelogik als auch Überspringen-Logik zu einem benutzerdefinierten Feld hinzufügen, wenn Folgendes für das benutzerdefinierte Feld zutrifft:
 
-   * Es handelt sich um ein Feld mit Mehrfachauswahl (Optionsfelder, Dropdown oder Kontrollkästchen)
-   * Ihm geht ein Multiple-Choice-Feld voran
-   * Darauf folgt ein weiteres benutzerdefiniertes Feld
+  * Es handelt sich um ein Feld mit Mehrfachauswahl (Optionsfelder, Dropdown oder Kontrollkästchen)
+  * Ihm geht ein Multiple-Choice-Feld voran
+  * Darauf folgt ein weiteres benutzerdefiniertes Feld
 
 * Beim Kopieren von Formularen mit Anzeigelogik oder Überspringen wird die Logik in das neue benutzerdefinierte Formular kopiert.
 * Bei der Massenbearbeitung von Objekten werden alle benutzerdefinierten Felder im Feld Objekte bearbeiten angezeigt, einschließlich der übersprungenen oder ausgeblendeten Felder.
 * Beachten Sie Folgendes, wenn Sie eine Anzeigelogik-Regel für ein benutzerdefiniertes Formular erstellen:
 
-   * Benutzerdefinierte Felder, die nicht in einer Display-Logikanweisung enthalten sind, werden standardmäßig in einem benutzerdefinierten Formular angezeigt.
-   * Sie können Logikanweisungen mit mehreren Feldern erstellen.
-   * Wenn auf alle Felder unter einem Abschnittsumbruch eine Anzeigelogik angewendet wurde und sie infolge der Logik alle ausgeblendet sind, wird der gesamte Abschnitt im benutzerdefinierten Formular ausgeblendet.
+  * Benutzerdefinierte Felder, die nicht in einer Display-Logikanweisung enthalten sind, werden standardmäßig in einem benutzerdefinierten Formular angezeigt.
+  * Sie können Logikanweisungen mit mehreren Feldern erstellen.
+  * Wenn auf alle Felder unter einem Abschnittsumbruch eine Anzeigelogik angewendet wurde und sie infolge der Logik alle ausgeblendet sind, wird der gesamte Abschnitt im benutzerdefinierten Formular ausgeblendet.
 
 ## Hinzufügen einer Anzeigelogik zu einem benutzerdefinierten Formular
 
@@ -202,7 +204,9 @@ Unter Verwendung der folgenden Bedingung wird das Feld Verkaufs-KPI erst angezei
 
    >[!NOTE]
    >
-   >Die erweiterte Anzeigelogik wird im Vorschaumodus des Formular-Designers nicht unterstützt.
+   >In der Produktionsumgebung wird die erweiterte Anzeigelogik im Vorschaumodus des Formular-Designers nicht unterstützt.
+   >
+   ><span class="preview">In der Vorschau-Umgebung sind alle Logiktypen im Vorschaumodus verfügbar.</span>
 
 ## Hinzufügen einer Logik zum Überspringen zu einem benutzerdefinierten Formular
 
@@ -280,7 +284,9 @@ Wenn das benutzerdefinierte Formular mit einem Projekt verknüpft ist und der Pr
 
    >[!NOTE]
    >
-   >Die Standardwertlogik wird im Vorschaumodus des Formular-Designers nicht unterstützt.
+   >In der Produktionsumgebung wird die Standardwertlogik im Vorschaumodus des Formular-Designers nicht unterstützt.
+   >
+   ><span class="preview">In der Vorschau-Umgebung sind alle Logiktypen im Vorschaumodus verfügbar.</span>
 
 ## Hinzufügen von Validierungslogik zu einem benutzerdefinierten Formular
 
@@ -329,7 +335,9 @@ Weitere Beispiele für Validierungslogik finden Sie unter [Beispiele für erweit
 
    >[!NOTE]
    >
-   >Validierungslogik wird im Vorschaumodus des Formular-Designers nicht unterstützt.
+   >In der Produktionsumgebung wird die Validierungslogik im Vorschaumodus des Formular-Designers nicht unterstützt.
+   >
+   ><span class="preview">In der Vorschau-Umgebung sind alle Logiktypen im Vorschaumodus verfügbar.</span>
 
 ## Hinzufügen von Formatierungslogik zu einem benutzerdefinierten Formular
 
@@ -392,7 +400,9 @@ IF(
 
    >[!NOTE]
    >
-   >Die Formatierungslogik wird im Vorschaumodus des Formular-Designers nicht unterstützt.
+   >In der Produktionsumgebung wird die Formatierungslogik im Vorschaumodus des Formular-Designers nicht unterstützt.
+   >
+   ><span class="preview">In der Vorschau-Umgebung sind alle Logiktypen im Vorschaumodus verfügbar.</span>
 
 ## Hinzufügen einer Bearbeitbarkeitslogik zu einem benutzerdefinierten Formular
 
@@ -442,4 +452,7 @@ IF($$USER.{role}.{name}="Resource Manager", true)
 
    >[!NOTE]
    >
-   >Die Bearbeitbarkeitslogik wird im Vorschaumodus des Formular-Designers nicht unterstützt.
+   >In der Produktionsumgebung wird die Bearbeitbarkeitslogik im Vorschaumodus des Formular-Designers nicht unterstützt.
+   >
+   ><span class="preview">In der Vorschau-Umgebung sind alle Logiktypen im Vorschaumodus verfügbar.</span>
+

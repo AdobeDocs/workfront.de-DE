@@ -11,14 +11,16 @@ role: Admin
 exl-id: 7f62de33-e544-4be9-8dcf-03a2e09e8a05
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: b6c2f0b8138948be7a6f9565503d05738c456857
+source-git-commit: 5c8c8bfdf9b02d8bcd19a291b65825d4b0883807
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1475'
 ht-degree: 0%
 
 ---
 
 # Übersicht über Geschäftsprofile
+
+{{highlighted-preview}}
 
 Geschäftsprofile sind ein erweitertes Berechtigungsmodell, das es Kunden wie Agenturen ermöglicht, den Benutzerzugriff effizient zu verwalten und eine präzise Kontrolle über Berechtigungen auf Gruppenebene sicherzustellen. In einem Geschäftsprofil haben Benutzer unterschiedliche Berechtigungen für gruppenspezifische Objekte. Zusätzliche Objekte können auch direkt für das Geschäftsprofil freigegeben werden.
 
@@ -30,6 +32,8 @@ Der Workfront-Systemadministrator:
 * Aktualisiert das Benutzerprofil mit der Gruppe und die Zugriffsebene für diese Gruppe (das Geschäftsprofil)
 * Definiert nach Bedarf effektive Termine für das Geschäftsprofil
 * Weist den Zugriffsebenen Layoutvorlagen zu
+
+<span class="preview">Gruppenadministratoren können auch Geschäftsprofile erstellen, bearbeiten und löschen, jedoch nur für die von ihnen verwalteten Gruppen.</span>
 
 Jeder Benutzer, der Zugriff auf das Freigeben von Objekten hat, kann diese für das Geschäftsprofil freigeben, und alle Benutzer mit dem Profil sehen das Objekt.
 
