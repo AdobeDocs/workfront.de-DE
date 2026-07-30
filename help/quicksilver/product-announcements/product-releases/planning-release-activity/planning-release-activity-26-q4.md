@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 223aa6944cb6a1e2b03f782673f6de89f2ffbab2
+source-git-commit: 6b8fc9e010c850625deb3927483f79da190e3f33
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '601'
 ht-degree: 0%
 
 ---
@@ -45,11 +45,9 @@ Die folgenden Funktionen sind in diesem Update enthalten:
 * Der Abschnitt Neue Verbindungseinstellungen wurde auf der Registerkarte Neue Verbindung beim Verbinden von Datensatztypen hinzugefügt
 * Im neuen Abschnitt wurde die Einstellung Verbindung abhängig machen hinzugefügt
 
-<!--
 
-For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+Weitere Informationen finden Sie unter [Abhängige Verbindungen verwalten](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
 
--->
 
 
 
@@ -89,7 +87,7 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 ## Die Planung von Designer erfordert jetzt die Zustimmung von Beta
 
 >[!NOTE]
->Vorschau und Produktion für alle Kunden: 20. Juli 2026 >[!BADGE &#x200B; Zeitplan]{type=Neutral}
+>Vorschau und Produktion für alle Kunden: 20. Juli 2026 >[!BADGE  Zeitplan]{type=Neutral}
 
 Für die Planung von Designer ist jetzt eine gültige Beta-Vereinbarung erforderlich. Ihr Unternehmen ist nicht verpflichtet, eine KI-Vereinbarung zu unterzeichnen. Dies ist für alle Kunden verfügbar.
 
