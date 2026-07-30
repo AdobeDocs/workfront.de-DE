@@ -5,15 +5,17 @@ title: Adobe Workfront MCP-Server-Tools
 description: Referenzliste der über den Adobe Workfront MCP-Server verfügbaren Tools, gruppiert nach Workfront-Bereich.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 2d6b26b8ab5e58b72fc16db87518c98cdc0c4cb1
+source-git-commit: 53af04ed47a7741db5b3540bf9be706a4f45bca3
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '2140'
 ht-degree: 6%
 
 ---
 
 
 # Adobe Workfront MCP-Server-Tools
+
+{{preview-fast-release-general}}
 
 In diesem Artikel werden die Tools aufgelistet, die der [!DNL Adobe Workfront] MCP-Server für eine verbundene KI-Agentenplattform bereitstellt. Die -Plattform ruft diese Tools in Ihrem Namen auf, wenn Sie sie zum Suchen, Erstellen, Aktualisieren oder Löschen von Workfront-Elementen auffordern.
 
@@ -66,10 +68,15 @@ Wenn die KI-Agentenplattform Workfront-Elemente finden, diese jedoch nicht erste
 
 | Titel | Tool-Name | Funktion | Aktion |
 | --- | --- | --- | --- |
-| Informationen zum Genehmigungs-Workflow abrufen | `approvals_get_approval_info` | Gibt den aktuellen Genehmigungs-Workflow (Phasen, Teilnehmer, Status) für eine Dokumentversion aus. | Lesen |
-| Genehmigungs-Workflow erstellen oder aktualisieren | `approvals_create_or_update_approval_workflow` | Erstellt oder aktualisiert die Genehmigungs-Workflow-Phasen für eine Dokumentversion. Unterstützt lineare und parallele (Graph-)Stufenabhängigkeiten. | Schreiben |
-| Genehmigung aus Vorlage erstellen | `approvals_create_approval_from_template` | Erstellt einen Genehmigungs-Workflow für ein Dokument unter Verwendung einer vorhandenen Vorlage. | Schreiben |
+| Informationen zum Genehmigungs-Workflow abrufen | `approvals_get_approval_info` | Gibt den aktuellen Genehmigungs-Workflow (Phasen, Teilnehmer, Status) für eine Dokumentversion aus. <span class="preview">Bei Validierungen mit mehreren Pfaden werden jeder Pfad und dessen Phasen angezeigt.</span> | Lesen |
+| Genehmigungs-Workflow erstellen oder aktualisieren | `approvals_create_or_update_approval_workflow` | Erstellt oder aktualisiert die Genehmigungs-Workflow-Phasen für eine Dokumentversion. <span class="preview">Unterstützt eine einzelne Spur von Phasen oder mehrere parallele Überprüfungspfade.</span> | Schreiben |
+| Genehmigung aus Vorlage erstellen | `approvals_create_approval_from_template` | Erstellt einen Genehmigungs-Workflow für ein Dokument mithilfe einer vorhandenen Vorlage <span class="preview">einschließlich Vorlagen, die mehrere parallele Pfade definieren)</span> | Schreiben |
 | Genehmigungsphase löschen | `approvals_delete_approval_stage` | Löscht eine einzelne Phase aus einem Genehmigungs-Workflow nach Name oder Position. Nur nicht gestartete Stadien können gelöscht werden. | Schreiben |
+| <span class="preview">Pfad zur Genehmigung hinzufügen</span> | <span class="preview">`approvals_add_path_to_approval`</span> | <span class="preview">Fügt einem vorhandenen Genehmigungs-Workflow einen neuen parallelen Überprüfungspfad hinzu, sodass mehrere Überprüfungsspuren gleichzeitig auf einer Dokumentversion ausgeführt werden.</span> | <span class="preview">Write</span> |
+| <span class="preview">Pfad aus Genehmigung entfernen</span> | <span class="preview">`approvals_remove_path_from_approval`</span> | <span class="preview">Entfernt einen parallelen Pfad aus einem Genehmigungs-Workflow. Der erste Pfad kann nicht entfernt werden, und Pfade, die abgeschlossene oder gesperrte Phasen enthalten, sind geschützt.</span> | <span class="preview">Write</span> |
+| <span class="preview">Schritt zum Pfad hinzufügen</span> | <span class="preview">`approvals_add_stage_to_path`</span> | <span class="preview">Fügt am Ende eines bestimmten Pfads innerhalb eines parallelen Genehmigungs-Workflows eine Überprüfungsphase hinzu.</span> | <span class="preview">Write</span> |
+| <span class="preview">Phase aus Pfad entfernen</span> | <span class="preview">`approvals_remove_stage_from_path`</span> | <span class="preview">Entfernt einen nicht gestarteten Schritt aus einem bestimmten Pfad in einem parallelen Genehmigungs-Workflow. Jeder Pfad muss mindestens ein Stadium enthalten.</span> | <span class="preview">Write</span> |
+| <span class="preview">Stadien im Pfad neu anordnen</span> | <span class="preview">`approvals_reorder_stages_in_path`</span> | <span class="preview">Ändert die Reihenfolge der Phasen innerhalb eines einzelnen Pfads eines parallelen Genehmigungs-Workflows.</span> | <span class="preview">Write</span> |
 
 <!--
 | Add and remove participants for an approval in bulk | `approvals_bulk_update_approval_participants`<br>`approvals__submit_bulk_update_approval_participants` | Adds or removes participants to or from multiple approvals at the same time. Currently, bulk updates can be applied only across a single project. Bulk updates across multiple projects will be available in the near future. | Write |
