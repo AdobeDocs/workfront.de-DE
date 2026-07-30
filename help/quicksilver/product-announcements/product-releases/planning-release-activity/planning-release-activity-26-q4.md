@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 20d4bc743c0d7f09e1a8c5b1ce48b88cd0c21287
+source-git-commit: 223aa6944cb6a1e2b03f782673f6de89f2ffbab2
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,50 @@ ht-degree: 0%
 In diesem Artikel werden die Funktionen beschrieben, die in Workfront Planning im vierten Quartal 2026 veröffentlicht werden.
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Zeilen per Drag-and-Drop in die Tabellenansicht ziehen
+
+>[!NOTE]
+>
+>Vorschau: 30. Juli 2026>Produktions-Schnellversion: 13. August 2026>Produktion für alle: 15. Oktober 2026
+
+Das Ziehen und Ablegen von Zeilen in der Tabellenansicht wurde visuell verbessert.
+
+Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+
+## Abhängige verbundene Datensatzfelder
+
+>[!NOTE]
+>
+>Vorschau: 30. Juli 2026>Produktions-Schnellversion: 13. August 2026>Produktion für alle: 15. Oktober 2026
+
+Workspace-Manager können jetzt Abhängigkeiten zwischen verbundenen Datensatztypen definieren. Stellen Sie beispielsweise sicher, dass in einem Feld Region nur Werte angezeigt werden, die mit der ausgewählten Geografie verknüpft sind. Dies wird direkt im Setup des Verbindungsfelds konfiguriert: Beim Hinzufügen einer Verbindung von einem Geodatensatztyp zu einem abhängigen Datensatztyp (wie Region) ermöglicht eine neue Einstellung es Workspace-Managern, sie als abhängig vom Geodatensatztyp zu markieren, wobei die bereits zwischen diesen Datensatztypen eingerichteten Beziehungen verwendet werden.
+
+Nach der Konfiguration hat jeder Datensatztyp, der auf beide Felder verweist (z. B. eine Kampagne), sofort Auswirkungen: Wenn Sie einen Geo-Wert auswählen, wird die Regionsauswahl auf die tatsächlich mit dieser Geo-Region verknüpften Regionen beschränkt. Dadurch wird Ihre Datensatzstruktur automatisch erzwungen, sodass nicht übereinstimmende Kombinationen vermieden und die manuelle Bereinigung reduziert wird.
+
+Die folgenden Funktionen sind in diesem Update enthalten:
+
+* Der Abschnitt Neue Verbindungseinstellungen wurde auf der Registerkarte Neue Verbindung beim Verbinden von Datensatztypen hinzugefügt
+* Im neuen Abschnitt wurde die Einstellung Verbindung abhängig machen hinzugefügt
+
+<!--
+
+For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+
+-->
+
+
+
+## Anzeige eines neuen Kommentars für einen Datensatz in der Tabellenansicht anzeigen
+
+>[!NOTE]
+>
+>Vorschau: 30. Juli 2026>Produktions-Schnellversion: 13. August 2026>Produktion für alle: 15. Oktober 2026
+
+Wir haben einen neuen Indikator hinzugefügt, der anzeigt, wenn ein Datensatz ungelesene Kommentare enthält. Der Indikator wird in der oberen rechten Ecke des Primärfelds des Datensatzes in der Tabellenansicht angezeigt.
+
+Weitere Informationen finden Sie unter [Verwalten von Datensatzkommentaren](/help/quicksilver/planning/records/manage-record-comments.md).
 
 ## Anpassbare Eintragsfarbe und verbindungsbasierte Farbcodierung
 
@@ -45,7 +89,7 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 ## Die Planung von Designer erfordert jetzt die Zustimmung von Beta
 
 >[!NOTE]
->Vorschau und Produktion für alle Kunden: 20. Juli 2026 >[!BADGE &#x200B; Zeitplan]{type=Neutral}
+>Vorschau und Produktion für alle Kunden: 20. Juli 2026 >[!BADGE  Zeitplan]{type=Neutral}
 
 Für die Planung von Designer ist jetzt eine gültige Beta-Vereinbarung erforderlich. Ihr Unternehmen ist nicht verpflichtet, eine KI-Vereinbarung zu unterzeichnen. Dies ist für alle Kunden verfügbar.
 
