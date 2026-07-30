@@ -254,7 +254,7 @@ In dieser Tabelle sind die verfügbaren Administrationsaktivitäten für aufgef�
 * Workflow-Prime und höher
 * Workfront Prime und höher
 
-Weitere Informationen zu Paketen finden Sie auf der Seite [&#128279;](https://business.adobe.com/products/workfront/pricing.html) Preisgestaltung und Verpackung von Adobe Workfront.
+Weitere Informationen zu Paketen finden Sie auf der Seite [&#128279;](https://business.adobe.com/de/products/workfront/pricing.html) Preisgestaltung und Verpackung von Adobe Workfront.
 
 Erweiterte Enterprise Controls:
 
