@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
+source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
 workflow-type: tm+mt
-source-wordcount: 3068
+source-wordcount: 3092
 ht-degree: 4%
 
 ---
@@ -90,14 +90,19 @@ Ein Beispiel für das Verbinden von Datensatztypen und Datensätzen finden Sie u
    <td> 
 <p>So verbinden Sie Datensatztypen aus demselben Arbeitsbereich: </p>
 <ul> 
-<li><p>Beliebiges Workfront und beliebiges Planungspaket</p></li>
-<li><p>Beliebiger Workflow und beliebiges Planungspaket</li></ul>
+<li><p>Jedes Workfront- oder Workflow-Paket mit einem beliebigen Planungspaket</p></li>
+<p>ODER</p>
+<li><p>Jedes Planungspaket, wenn es als eigenständiges Produkt gekauft wird</p></li>
+</ul>
 
 <p>So verbinden Sie Datensatztypen aus verschiedenen Arbeitsbereichen:</p>
 
-<ul> 
-<li><p>Beliebiges Workfront und beliebiges Planungspaket</p></li>
-<li><p>Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket</p></li></ul>
+<ul>
+
+<li><p>Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket</p></li>
+<p>ODER</p>
+<li><p>Jedes Planning Prime- oder Ultimate-Paket, wenn es als eigenständiges Produkt gekauft wird</p></li>
+</ul>
 <p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
    </td> 
 <tr> 
@@ -299,7 +304,15 @@ Old:
    * **Mehrfachauswahl**: Wählen Sie diese Option aus, damit ein Datensatz aus dem aktuellen Datensatztyp mit mehreren Datensätzen aus dem Verbindungs-Datensatztyp verbunden werden kann.
    * **Einzelauswahl**: Wählen Sie diese Option aus, damit ein Datensatz aus dem aktuellen Datensatztyp mit einem Datensatz aus dem Verbindungs-Datensatztyp verbunden werden kann.
 
-1. Wählen Sie das **Entsprechendes Feld für verknüpften Datensatztyp erstellen**. Wenn diese Option aktiviert ist, wird ein Verbindungsfeld für den Datensatztyp erstellt, mit dem Sie eine Verbindung herstellen, zusätzlich zu dem Verbindungsfeld, das zum aktuellen Datensatztyp hinzugefügt wird. Dies ist standardmäßig deaktiviert.
+1. Wählen Sie das **entsprechendes Feld für verknüpften Datensatztyp erstellen** im <!--<span class="preview">, when connecting all object types but not Planning record types</span>--> **Verbindungstyp** aus.
+
+   <!--
+    >[!TIP]
+    >
+    ><span class="preview">The **Connection type** section has been replaced by the **Connection settings** section when connecting Planning record types. </span>
+    -->
+
+   Wenn diese Option aktiviert ist, wird ein Verbindungsfeld für den Datensatztyp erstellt, mit dem Sie eine Verbindung herstellen, zusätzlich zu dem Verbindungsfeld, das zum aktuellen Datensatztyp hinzugefügt wird. Dies ist standardmäßig deaktiviert.
 
    >[!TIP]
    >
@@ -311,7 +324,7 @@ Old:
    >   * Es wurde kein Feld für Workfront-Objekte erstellt, die mit Planungsdatensätzen verbunden sind.
    >   * Es wird kein Feld für einen Planning-Datensatztyp erstellt, wenn er mit einem Datensatztyp aus GenStudio Workspace verbunden ist.
 
-1. (Bedingt) Wenn Sie **Entsprechendes Feld für verknüpften Datensatztyp erstellen** aktiviert haben, wählen Sie eine der folgenden Optionen, um anzugeben, mit wie vielen Datensätzen Benutzende eine Verbindung herstellen können:
+1. (Bedingt) Wenn Sie **&#x200B;**&#x200B;Abschnitt **Verbindungstyp** die Option „Entsprechendes Feld für verknüpften Datensatztyp erstellen“ aktiviert haben, wählen Sie eine der folgenden Optionen, um anzugeben, mit wie vielen Datensätzen Benutzende eine Verbindung herstellen können:
 
    * Viele-zu-viele
    * Eins zu viele

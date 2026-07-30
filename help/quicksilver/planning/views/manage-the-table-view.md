@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e6551959a0f7bc6fb7de9c0b7d81aa5bc50f2980
+source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
 workflow-type: tm+mt
-source-wordcount: 3910
+source-wordcount: 3912
 ht-degree: 2%
 
 ---
@@ -306,7 +306,15 @@ Sie können bis zu 50.000 Datensätze (oder Zeilen) für einen Datensatztyp habe
 
    Die Datensätze, die Sie in der Tabellenansicht hinzufügen, werden sofort gespeichert und sind für alle Benutzer sichtbar, die über Ansichtsberechtigungen oder höhere Berechtigungen für den Arbeitsbereich verfügen.
 
-   Dem neuen Datensatz wird auch ein Standardminiaturbild hinzugefügt.
+   Dem neuen Datensatz </span> auch ein Standardminiaturbild <span class="preview">und -farbe) hinzugefügt.
+
+   <!--
+    >[!TIP]
+    >
+    ><span class="preview">When a record has unread comments, a **New comment** indicator displays in the upper-right corner of the record's primary field.</span>
+    >
+    >![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
+    -->
 
 1. (Optional) Wählen Sie einen oder mehrere Datensätze oder Zeilen aus und ziehen Sie dann das **handle**-Symbol ![handle-Symbol](assets/handle-icon.png) auf die linke Seite des Datensatzes, um die Zeilen neu anzuordnen.
 

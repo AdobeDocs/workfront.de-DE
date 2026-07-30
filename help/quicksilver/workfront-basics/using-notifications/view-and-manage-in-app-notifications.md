@@ -14,7 +14,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 9c592e336feb25253c18787c831adfc36da62ed1
 workflow-type: tm+mt
 source-wordcount: 986
 ht-degree: 4%
@@ -84,8 +84,9 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    * Alle anderen Benachrichtigungen werden durch Symbole angezeigt, die den Typ des Arbeitselements angeben, mit dem sie verknüpft sind.
 
-     ![Benachrichtigungssymbole](assets/ntfcntype&icon-350x330.png)
-Das Symbol rechts neben dem blauen Punkt zeigt eine der folgenden Optionen an:
+     ![Benachrichtigungssymbole](assets/ntfcntypeicon-350x330.png)
+
+   Das Symbol rechts neben dem blauen Punkt zeigt eine der folgenden Optionen an:
 
    * Das Profilbild der Person, die die Informationen eingegeben hat, ist normalerweise eine Aktualisierung zu einem [!DNL Workfront] Objekt, an dem Sie arbeiten.
    * Das [!DNL Workfront]-Logo, wenn die Benachrichtigung eine Systemankündigung ist.

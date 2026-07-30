@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
 workflow-type: tm+mt
-source-wordcount: 798
+source-wordcount: 807
 ht-degree: 2%
 
 ---
@@ -166,8 +166,8 @@ Old:
 
 * Sie können eine Aktualisierung zu Datensätzen hinzufügen und den Änderungsverlauf aus den folgenden Bereichen von Workfront Planning überprüfen:
 
-   * Auf der Seite mit den Datensatzdetails .
-   * Aus einer Ansicht im Feld Datensatzdetails .
+  * Auf der Seite mit den Datensatzdetails .
+  * Aus einer Ansicht im Feld Datensatzdetails .
 
 ### Verwalten von Kommentaren zu Datensätzen
 
@@ -206,11 +206,23 @@ Die Seite „Datensatztyp“ wird geöffnet und alle Datensätze dieses Typs wer
    >
    >Sie können keine Bilder zu einem Datensatzkommentar hinzufügen.
 
-
 1. Fügen Sie dem Datensatz weitere Kommentare hinzu.
 
    Weitere Informationen zum Aktualisieren von Objekten, einschließlich Workfront-Planungsdatensätzen, finden Sie unter [Arbeit aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
+1. Klicken Sie **Senden**, um den Kommentar aufzuzeichnen.
+
+   Die Benutzer, die Sie in Ihrer Nachricht getaggt haben, erhalten Benachrichtigungen, dass eine neue Nachricht vorhanden ist.
+
+   <!--
+   <div class="preview">
+
+   Everyone with View permissions to the record type can see a **New comment** indicator in the table view for the record you added the comment to. 
+
+      ![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
+
+   </div>
+   -->
 1. (Optional) Klicken Sie auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/more-menu.png) oben rechts im Kommentar und dann auf **Löschen**, um den Kommentar zu löschen.
 1. (Optional) Klicken Sie auf das Symbol **Kommentare ausblenden** ![Symbol „Kommentare ausblenden](assets/hide-comments-icon.png), um das rechte Bedienfeld zu schließen.
 
