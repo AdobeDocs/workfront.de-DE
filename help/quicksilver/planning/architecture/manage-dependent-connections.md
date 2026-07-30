@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
+source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 2%
+source-wordcount: '1332'
+ht-degree: 1%
 
 ---
 
@@ -68,7 +68,7 @@ Nach der Konfiguration hat jeder Datensatztyp, der auf beide Felder verweist (z.
    <ul><li><p>Eine Adobe Experience Manager Assets-Lizenz und eine Integration zwischen AEM Assets und Workfront, um AEM-Assets mit Planungs-Datensatztypen zu verbinden.</p>
    <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront für Experience Manager Assets und Assets Essentials: Artikelindex</a>. </p></li>
    <li><p> Eine Adobe GenStudio for Performance Marketing-Lizenz zum Verbinden von Datensatztypen mit GenStudio-Objekten und -Marken</p>
-   <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -110,6 +110,12 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
 * Wenn sich der Wert des Quellfelds ändert, wird das abhängige Feld automatisch gelöscht, anstatt einen ungültigen Status zu erhalten, wodurch verhindert wird, dass nicht übereinstimmende Kombinationen bestehen bleiben.
 
   Sie erhalten eine Inline- oder Popup-Nachricht, in der erläutert wird, warum das abhängige Feld gelöscht wurde.
+
+* Jedes abhängige Feld kann bis zu 3 direkt steuernde Felder aufweisen.
+
+* Abhängigkeitsstufen sind auf 6 Verbindungen beschränkt. So können bis zu 7 Datensatztypen verbunden werden.
+
+* Damit die Abhängigkeitskette funktioniert, müssen alle abhängigen Felder gleichzeitig für denselben Datensatztyp vorhanden sein.
 
 ## Erstellen einer abhängigen Verbindung
 

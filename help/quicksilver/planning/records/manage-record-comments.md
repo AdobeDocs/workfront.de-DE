@@ -9,32 +9,23 @@ exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/uUnIDCZ1-906MSz5B8La-9cu0k4pabUarBuUE9t8zhw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
 workflow-type: tm+mt
-source-wordcount: 807
+source-wordcount: 899
 ht-degree: 2%
 
 ---
 
 # Verwalten von Kommentaren zu Einträgen
 
-<!--
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
--->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -214,16 +205,15 @@ Die Seite „Datensatztyp“ wird geöffnet und alle Datensätze dieses Typs wer
 
    Die Benutzer, die Sie in Ihrer Nachricht getaggt haben, erhalten Benachrichtigungen, dass eine neue Nachricht vorhanden ist.
 
-   <!--
    <div class="preview">
 
-   Everyone with View permissions to the record type can see a **New comment** indicator in the table view for the record you added the comment to. 
+   Jeder, der über Anzeigeberechtigungen für den Datensatztyp verfügt, kann in der Tabellenansicht **Datensatzes, dem** Kommentar hinzugefügt haben, einen Indikator „Neuer Kommentar sehen.
 
-      ![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
+   ![Neues Kommentarsymbol in der Tabellenansicht](assets/new-comment-icon-in-table-view-highlighted.png)
 
    </div>
-   -->
-1. (Optional) Klicken Sie auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/more-menu.png) oben rechts im Kommentar und dann auf **Löschen**, um den Kommentar zu löschen.
+
+1. (Optional) Klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/more-menu.png) oben rechts im Kommentar und dann auf **Löschen**, um den Kommentar zu löschen.
 1. (Optional) Klicken Sie auf das Symbol **Kommentare ausblenden** ![Symbol „Kommentare ausblenden](assets/hide-comments-icon.png), um das rechte Bedienfeld zu schließen.
 
 <!--

@@ -3,7 +3,7 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
+source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
 workflow-type: tm+mt
 source-wordcount: '14352'
 ht-degree: 93%
@@ -2198,7 +2198,7 @@ ht-degree: 93%
     * [Hinzufügen vorhandener Eintragstypen aus einem anderen Arbeitsbereich](planning/architecture/add-existing-record-types-from-another-workspace.md)
     * [Überblick über das Verbinden von Eintragstypen](planning/architecture/connect-record-types-overview.md)
     * [Verbinden von Eintragstypen](planning/architecture/connect-record-types.md)
-    * {hide-from-toc}[Abhängige Verbindungen verwalten](planning/architecture/manage-dependent-connections.md)
+    * [Abhängige Verbindungen verwalten](planning/architecture/manage-dependent-connections.md)
     * [Bearbeiten von Eintragstypen](planning/architecture/edit-record-types.md)
     * [Löschen von Arbeitsbereichen](planning/architecture/delete-workspaces.md)
     * [Bearbeiten von Arbeitsbereichen](planning/architecture/edit-workspaces.md)
