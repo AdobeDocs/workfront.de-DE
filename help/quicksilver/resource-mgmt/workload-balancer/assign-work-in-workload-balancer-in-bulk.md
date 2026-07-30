@@ -7,21 +7,14 @@ author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
 TQID: https://experienceleague.adobe.com/6QlIfRh94tpLTZF6x5LU2BueTjShzNsaKxb45CEylqA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 73c78912e15a03bfd09c127e39d94bf5af42b8e2
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 154a30289097c946f072a606ce5dbc48a73cf1c5
 workflow-type: tm+mt
-source-wordcount: 1242
+source-wordcount: 1226
 ht-degree: 5%
 
 ---
@@ -79,13 +72,13 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 * Sie können keine Ressourcen Arbeitselementen zuweisen, die abgeschlossen sind, oder Elementen, die sich in einem abgeschlossenen Projekt befinden.
 * Beim Massenzuweisen von Aufgabengebieten und Benutzern haben Sie folgende Möglichkeiten:
 
-   * Ersetzen Sie Zuweisungen zwischen Benutzern und Rollen in allen gültigen Kombinationen.
-   * Heben Sie die Zuweisung von Benutzenden zu allen Arbeitselementen auf.
+  * Zuweisungen zwischen Benutzern und Rollen in allen gültigen Kombinationen vornehmen.
+  * Heben Sie die Zuweisung von Benutzenden zu allen Arbeitselementen auf.
 
 **BEISPIELE**
 
-* Sie sind für die Zuweisung von Benutzerzuweisungen an mehrere neue Projekte verantwortlich. Die Projekte wurden ursprünglich aus Vorlagen erstellt und Aufgabengebiete sind bereits den verschiedenen Aufgaben innerhalb der Projekte zugewiesen. Sie möchten allen Aufgaben, die derzeit einem Aufgabengebiet zugewiesen sind, einen bestimmten Benutzer, Jackie Simms, zuweisen. Mit der Funktion Ersetzen können Sie Jackie Simms diese Aufgaben zuweisen.
-* Jackie Simms werden 45 Aufgaben in 3 verschiedenen Projekten zugewiesen. Jackie verlässt die Organisation, und jetzt müssen Sie ihre Aufgaben einem anderen Benutzer zuweisen. Mit der Funktion Ersetzen können Sie diese Aufgaben der neuen Person zuweisen.
+* Sie sind für die Zuweisung von Benutzerzuweisungen an mehrere neue Projekte verantwortlich. Die Projekte wurden ursprünglich aus Vorlagen erstellt und Aufgabengebiete sind bereits den verschiedenen Aufgaben innerhalb der Projekte zugewiesen. Sie möchten allen Aufgaben, die derzeit einem Aufgabengebiet zugewiesen sind, einen bestimmten Benutzer, Jackie Simms, zuweisen. Sie können die Funktion Zuweisen verwenden, um diese Aufgaben Jackie Simms zuzuweisen.
+* Jackie Simms werden 45 Aufgaben in 3 verschiedenen Projekten zugewiesen. Jackie verlässt die Organisation, und jetzt müssen Sie ihre Aufgaben einem anderen Benutzer zuweisen. Mit der Funktion Zuweisen können Sie diese Aufgaben der neuen Person zuweisen.
 * 10 Aufgaben aus 2 verschiedenen Projekten werden einem anderen Benutzer, Rick Kuvec, zugewiesen. Sie erkennen, dass Rick irrtümlich diesen Aufgaben zugewiesen wurde, aber Sie sind sich nicht sicher, wem sie zu diesem Zeitpunkt zugewiesen werden müssen. Sie müssen die Zuweisung von Rick zu allen Aufgaben gleichzeitig aufheben. Mit der Funktion Zuweisung aufheben können Sie Rick aus diesen Aufgaben entfernen.
 
 ## Massenzuweisung von Arbeit im Workload Balancer
@@ -131,7 +124,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 1. Wählen Sie eine der folgenden Optionen aus und fahren Sie mit den unten beschriebenen Schritten fort:
 
-   * [Ressource ersetzen](#replace-user)
+   * [Ressource zuweisen](#replace-user)
    * [Zuweisung der Ressource aufheben](#unassign-user)
 
    >[!TIP]
@@ -189,26 +182,26 @@ To assign a user to work items previously assigned to job roles:
 
 -->
 
-### Ressource ersetzen {#replace-user}
+### Ressource zuweisen {#replace-user}
 
-Sie können eine Ressource, die bereits Arbeitselementen zugeordnet ist, in den ausgewählten Projekten durch eine andere Ressource ersetzen.
+In den ausgewählten Projekten können Sie Ressourcen zuweisen oder ersetzen.
 
-Der Ressourcenersatz kann wie folgt lauten:
+Die Ressourcenzuweisung kann wie folgt lauten:
 
-* Funktion mit Funktion
-* Benutzer mit Benutzer
-* Benutzer mit Rolle
-* Rolle mit dem Benutzer
+* Rolle zu Funktion
+* Benutzer an Benutzer
+* Benutzer in Rolle
+* Rolle für Benutzer
 
-Wenn Sie eine Ressource mithilfe von Massenzuweisungen im Workload Balancer durch eine andere Ressource ersetzen, treten folgende Dinge auf:
+Wenn Sie eine Ressource mithilfe von Massenzuweisungen im Workload Balancer zuweisen oder ersetzen, treten folgende Dinge auf:
 
-* Die Ersatzressource wird allen Arbeitselementen zugewiesen, die derzeit in den ausgewählten Projekten der ursprünglichen Ressource zugeordnet sind.
+* Die neue Ressource wird allen Arbeitselementen zugewiesen, die derzeit in den ausgewählten Projekten der ursprünglichen Ressource zugeordnet sind.
 * Die neue Ressource ist keinem Arbeitselement zugewiesen, das bereits als „Abgeschlossen“ markiert ist.
 * Für die Ersetzung von Benutzer zu Benutzer: Wenn die mit dem ersten Benutzer verknüpfte Rolle mit keiner der Rollen des zweiten Benutzers übereinstimmt, wird der zweite Benutzer in seiner Primären Rolle zugewiesen.
 
-So ersetzen Sie eine Ressource durch eine andere:
+Massenzuweisung einer Ressource:
 
-1. Wählen Sie Arbeitselemente im Bereich Massenzuweisungen für den Workload-Balancer wie oben beschrieben aus und wählen Sie **Ressource ersetzen**.
+1. Wählen Sie Arbeitselemente im Bereich Massenzuweisungen für den Workload-Balancer wie oben beschrieben aus und wählen Sie **Ressource zuweisen**.
 1. Klicken Sie im Feld **Aktuell zugewiesene Ressource** auf den Dropdown-Pfeil, um aus einer Liste von Ressourcen auszuwählen. Nur Ressourcen, die derzeit unvollständigen Arbeitselementen innerhalb der angegebenen Projekte zugewiesen sind, werden angezeigt. Dies ist ein Pflichtfeld.
 
    ![Ressource ersetzen](assets/bulk-assignments-workload-balancer-replace-selected.png)
@@ -217,11 +210,11 @@ So ersetzen Sie eine Ressource durch eine andere:
 
    Workfront zeigt einen Hinweis zur Anzahl der Elemente an, bei denen die aktuell zugewiesene Ressource die zweite Ressource ersetzt.
 
-1. Klicken Sie **Ersetzen**.
+1. Klicken Sie **Zuweisen**.
 
    Die erste Ressource wird in allen Arbeitselementen des ausgewählten Projekts oder Vorgangs durch die zweite Ressource ersetzt.
 
-   Sie erhalten eine Bestätigung darüber, wie viele Arbeitselemente mit der ursprünglichen Zuweisung durch die ausgewählte zweite Ressource ersetzt wurden.
+   Eine Bestätigung zeigt an, wie viele Arbeitselemente mit der ursprünglichen Zuordnung durch die ausgewählte zweite Ressource ersetzt wurden.
 
 ### Zuweisung der Ressource aufheben {#unassign-user}
 
@@ -247,7 +240,7 @@ So heben Sie die Zuweisung eines Benutzers zu Arbeitselementen in den ausgewähl
    Workfront zeigt einen Hinweis zur Anzahl der Elemente an, deren Zuweisung für den aktuell zugewiesenen Benutzer aufgehoben wird.
 
 1. Klicken Sie **Zuweisung aufheben**.\
-   Sie erhalten eine Bestätigung über die Anzahl der Arbeitselemente, aus denen der angegebene Benutzer entfernt wurde.
+   In einer Bestätigung wird die Anzahl der Arbeitselemente angezeigt, aus denen der angegebene Benutzer entfernt wurde.
 
 
 
