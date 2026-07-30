@@ -10,17 +10,13 @@ exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/P-naBIVBoFQcBaL4Zgo0cEOTQ8eErxqr0MBmHTbec9E
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 75779f9563462e3cbde044f9323e174a9a9a70ad
 workflow-type: tm+mt
-source-wordcount: 4149
+source-wordcount: 4230
 ht-degree: 0%
 
 ---
@@ -212,7 +208,7 @@ Um auf einheitliche Überprüfungen und Genehmigungen zugreifen zu können, müs
 
 * Sobald Sie eine Version von Workfront verwenden, die Adobe Cloud Storage unterstützt, konfiguriert Adobe Professional Services die Integration für Ihr Unternehmen.
 
-   * Wenn Sie sich nicht sicher sind, wer Ihr Adobe-Kundenbetreuer ist, können Sie sich über das Support-Portal für Adobe an Sie wenden oder Experience League besuchen, um Kontaktoptionen zu erhalten.
+  * Wenn Sie sich nicht sicher sind, wer Ihr Adobe-Kundenbetreuer ist, können Sie sich über das Support-Portal für Adobe an Sie wenden oder Experience League besuchen, um Kontaktoptionen zu erhalten.
 
 +++
 
@@ -361,6 +357,14 @@ Eine vollständige Liste der unterstützten Dateitypen finden Sie in der Dokumen
 
 Ja. Assets kann extern freigegeben werden. Externe Benutzer werden per E-Mail benachrichtigt und aufgefordert, eine Frame.io-Anmeldung zu erstellen, um auf den Viewer zuzugreifen und an der Überprüfung teilzunehmen.
 
+**Kann ich Bilder an Kommentare zu einem Dokument in Workfront anhängen?**
+
+Wenn Ihr Unternehmen Adobe Cloud Storage im Rahmen einer einheitlichen Überprüfung und Genehmigung verwendet, können Sie Bilddateien direkt an Kommentare zu einem Dokument anhängen. Angehängte Bilder werden im Adobe Cloud-Speicher gespeichert und alle Bilddateiformate vom Typ Medien werden unterstützt.
+
+Diese Kommentare sind Workfront-nativ und getrennt von Kommentaren im Frame.io-Viewer. An einen Kommentar angehängte Bilder sind in Frame.io nicht aufrufbar. Durch das Anhängen eines Bildes wird dem Asset kein Markup hinzugefügt oder es zur Genehmigung weitergeleitet. Nicht-Bilddateitypen können nicht an einen Kommentar angehängt werden.
+
+Weitere Informationen finden Sie unter [Arbeit aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
 <!--
 **Before unified review and approval, is a reviewer just directed to a proof?**
 
@@ -483,7 +487,7 @@ Benutzer können den Frame.io-Viewer direkt von Workfront aus starten. Alle Prü
 
 Ja. Sobald ein Asset den Prüfungs- und Validierungszyklus abgeschlossen hat, können Sie es zur endgültigen Speicherung und Verteilung an Adobe Experience Manager Assets übertragen. Dadurch werden Workfront für Work-Management, Frame.io für die Überprüfung und AEM für die Verwaltung digitaler Assets zu einer einheitlichen Content-supply chain verbunden.
 
-Weitere Informationen finden Sie unter „Verwenden [&#x200B; Adobe Experience Manager mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+Weitere Informationen finden Sie unter „Verwenden [ Adobe Experience Manager mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 **Wie passt die einheitliche Überprüfung und Genehmigung in Adobe GenStudio?**
 
