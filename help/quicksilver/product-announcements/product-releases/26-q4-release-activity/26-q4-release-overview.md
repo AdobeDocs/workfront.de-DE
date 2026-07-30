@@ -4,10 +4,10 @@ description: Diese Seite enthält Informationen zur Funktionalität, die in der 
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c7370c767ac521cea7e262ba9cca9270139fd056
+source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 17%
+source-wordcount: '1271'
+ht-degree: 15%
 
 ---
 
@@ -17,7 +17,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der für Oktober 
 
 Die Verbesserungen auf dieser Seite sind in der Vorschauumgebung verfügbar. Diese Seite wird mit zusätzlichen Verbesserungen aktualisiert, sobald die geplante Produktionsversion der Version für das vierte Quartal 2026 näher rückt.
 
-Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben die neuen Funktionen hervor und bieten detaillierte Informationen. Um sich zu registrieren, besuchen Sie die [Ereignisseite](https://experienceleague.adobe.com/de/events?filters=Workfront) und filtern Sie nach Workfront.
+Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben die neuen Funktionen hervor und bieten detaillierte Informationen. Um sich zu registrieren, besuchen Sie die [Ereignisseite](https://experienceleague.adobe.com/en/events?filters=Workfront) und filtern Sie nach Workfront.
 
 >[!IMPORTANT]
 >
@@ -126,6 +126,33 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Änderungsverfolgung zur einheitlichen Überprüfung und Genehmigung</a>
                 <p>Die Seite „Änderungsverlauf“ erfasst jetzt Aktivitäten in einheitlichen Prüfungs- und Genehmigungs-Workflows und bietet Admins einen vollständigen Governance-Trail für Genehmigungs-, Staging- und Teilnehmeraktionen.</p>
+            </td>
+            <td><p>30. Juli 2026</p></td>
+            <td><p>13. August 2026</p></td>
+            <td><p>15. Oktober 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Definieren eines benutzerdefinierten Programms als Landingpage in der Layout-Vorlage</a>
+                <p>Sie können jetzt ein benutzerdefiniertes Programm als Landingpage in einer Layout-Vorlage festlegen.</p>
+            </td>
+            <td><p>30. Juli 2026</p></td>
+            <td><p>13. August 2026</p></td>
+            <td><p>15. Oktober 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Konfigurieren von getrackten Feldern im Änderungsverlauf</a>
+                <p>Sie können Felder hinzufügen, die Sie für einen bestimmten Objekttyp in Workfront verfolgen möchten. Wenn Benutzende Informationen in diesem Feld ändern, zeichnet das System Informationen über die Änderung als Eintrag im Änderungsverlauf auf.</p>
+            </td>
+            <td><p>30. Juli 2026</p></td>
+            <td><p>13. August 2026</p></td>
+            <td><p>15. Oktober 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Administratorzugriff zum Änderungsverlauf zu Zugriffsebenen hinzugefügt</a>
+                <p>Auf der Zugriffsebene Standard können Sie jetzt festlegen, ob Benutzer mit dieser Zugriffsebene Zugriff auf die Liste „Änderungsverlauf“ haben sollen.</p>
             </td>
             <td><p>30. Juli 2026</p></td>
             <td><p>13. August 2026</p></td>
@@ -299,7 +326,7 @@ Wenn Sie ein Workfront-Administrator mit Data Connect-Readerbenutzern sind, die 
 
 Diese Änderung wurde erstmals in den Workfront-Versionshinweisen vom April 2026 angekündigt, und dies ist die letzte Erinnerung vor Fristablauf. Bitte stellen Sie sicher, dass alle betroffenen Leser-Benutzer die MFA vor dem 8. August 2026 aktivieren, um eine Unterbrechung ihres Zugriffs zu vermeiden.
 
-Weitere Informationen finden Sie unter [Erstellen eines Leserkontos oder einer Verbindung für Snowflake](https://experienceleague.adobe.com/de/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Weitere Informationen finden Sie unter [Erstellen eines Leserkontos oder einer Verbindung für Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Updates für Schulungen
 
