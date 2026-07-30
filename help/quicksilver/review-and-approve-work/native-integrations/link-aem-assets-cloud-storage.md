@@ -1,28 +1,19 @@
 ---
 product-area: documents;workfront-integrations
-navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Verknüpfen von Inhalten und Ordnern mit Content Advisor auf Basis von Experience Manager Assets
-description: Sie können Content Advisor verwenden, um Inhalte oder Ordner aus Experience Manager Assets mit jedem Adobe Workfront-Objekt zu verknüpfen, das Dokumente unterstützt. Content Advisor bringt intelligente, kontextbezogene Erkennung direkt in Workfront und hilft Ihnen, relevante, genehmigte Inhalte schnell zu finden.
+navigation-topic: native-integrations
+title: Verknüpfen von Inhalten und Ordnern aus Experience Manager Assets mit dem Adobe Cloud-Speicher
+description: Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, können Sie Inhalte und Ordner aus Experience Manager Assets mit jedem Adobe Workfront-Objekt verknüpfen, das Dokumente unterstützt.
 author: Courtney
-feature: Digital Content and Documents, Workfront Integrations and Apps
-exl-id: dbd19985-88b1-48ca-9cba-b7933ff2c191
-TQID: https://experienceleague.adobe.com/0qWQcRcAeOK7SfQTqHfSrxvyTf2h9piCwwJ9Tg2rCWQ
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d7df53ffd980b9a05856bb40472bbeebba5da84e
+source-git-commit: 805cc8dfaa17438eb1d454d00d5f7986540379b3
 workflow-type: tm+mt
-source-wordcount: 1435
-ht-degree: 4%
+source-wordcount: '913'
+ht-degree: 7%
 
 ---
 
-# Verknüpfen von Inhalten und Ordnern mit dem Content Advisor von Experience Manager Assets
+# Verknüpfen von Inhalten und Ordnern aus Experience Manager Assets mit dem Adobe Cloud-Speicher
 
-Content Advisor bringt intelligente, kontextbezogene Erkennung direkt in Workfront, sodass Sie relevante, genehmigte Inhalte schnell kontextbasiert finden können. Mit Funktionen wie Smart Suggestions, Dynamic Media-Ausgabedarstellungen und detaillierten Asset-Metadaten können Sie Inhalte effizient bewerten und wiederverwenden, ohne Workfront verlassen zu müssen, was die Inhaltserstellung beschleunigt und gleichzeitig die Markenkonsistenz wahrt.
-
-Sie können Content Advisor verwenden, um Inhalte und Ordner von Experience Manager Assets mit Workfront zu verknüpfen. Nach der Verknüpfung können Sie den Inhalt in Workfront anzeigen und verwalten. Alle Änderungen am Inhalt in Experience Manager Assets werden in Workfront übernommen.
+Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, können Sie Inhalte und Ordner von Experience Manager Assets mit Workfront verknüpfen. Nach der Verknüpfung können Sie den Inhalt in Workfront anzeigen und verwalten. Alle Änderungen am Inhalt in Experience Manager Assets werden in Workfront übernommen.
 
 >[!IMPORTANT]
 >
@@ -48,7 +39,7 @@ Sie können Content Advisor verwenden, um Inhalte und Ordner von Experience Mana
   </tr> 
   <tr> 
    <td role="rowheader">Zusätzliche Produkte</td> 
-   <td>Sie müssen über Experience Manager as a Cloud Service oder Assets Essentials verfügen und Sie müssen dem Produkt als Benutzer in der Admin Console hinzugefügt werden.</td> 
+   <td>Sie müssen über Experience Manager as a Cloud Service verfügen und dem Produkt müssen Sie als Benutzer in der Admin Console hinzugefügt werden.</td> 
   </tr> 
    <tr> 
     <td role="rowheader">Experience Manager-Berechtigungen</td> 
@@ -73,27 +64,20 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 Bevor Sie beginnen:
 
-* Ihr Workfront-Administrator muss eine Experience Manager-Integration konfigurieren. Weitere Informationen finden Sie unter [Konfigurieren der Experience Manager Assets as a Cloud Service-Integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+* Ihr Workfront-Administrator muss eine Experience Manager-Integration konfigurieren. Weitere Informationen finden Sie unter [Verwenden von Adobe Experience Manager mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 * Um die Funktion „Smart Suggestions“ oder „Campaign Briefs“ verwenden zu können, müssen Sie einen GenAI Rider signieren. Weitere Informationen finden Sie unter [Verwenden von Content Advisor für den Zugriff auf AEM-Inhalte in Adobe-Programmen](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search).
 
-
-
-## Verknüpfen von Inhalten aus Experience Manager Assets mit Content Advisor
-
-Sie können jetzt Content Advisor verwenden, um Inhalte von Experience Manager Assets direkt in Workfront zu verknüpfen. Der Inhaltsratgeber ist nicht für Assets Essentials verfügbar.
+## Verknüpfen von Inhalten aus Experience Manager Assets
 
 So verknüpfen Sie Inhalte:
 
-1. Wechseln Sie zum **Dokumente** in Workfront, wo Sie das Dokument hinzufügen möchten.
-1. Wählen Sie **Neu hinzufügen** und dann die Experience Manager-Integration aus, die Ihr Administrator eingerichtet hat.
-
-   >[!NOTE]
-   >
-   >Der Workfront-Administrator kann einen beliebigen Namen für diese Integration auswählen, sodass Experience Manager Assets möglicherweise nicht explizit erwähnt wird.
+1. Wechseln Sie zum Workfront-Objekt, mit dem Sie Inhalte verknüpfen möchten.
+1. Klicken Sie auf **Abschnitt** Dokumente“ im linken Bedienfeld.
+1. Klicken Sie **rechts auf** Seite auf „Neu“ und dann auf **AEM-Dateien**, um ein einzelnes Asset zu verknüpfen.
+   ![Fügen Sie AEM-Dateien zum Bereich „Dokumente“ hinzu](assets/aem-files.png)
 
 1. Mit Content Advisor können Sie:
-
 
    <table style="table-layout:auto">
    <tbody>
@@ -117,10 +101,12 @@ So verknüpfen Sie Inhalte:
          <td><strong>Anwenden von Dynamic Media-Modifikatoren auf Ausgabedarstellungen.</strong> Fügen Sie Modifikatoren hinzu, um Asset-Ausgabedarstellungen in Echtzeit umzuwandeln und eine Vorschau der Ergebnisse anzuzeigen, bevor Sie eine Ausgabedarstellung für Ihre Hostanwendung auswählen.</td>
          <td>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">Für Dynamic Media-Assets verfügbare Ausgabedarstellungen</a>.</td>
       </tr>
+      <!--
       <tr>
-         <td><strong>Entdecken und Durchsuchen von Inhaltsfragmenten.</strong> Durchsuchen Sie Inhaltsfragmente, zeigen Sie Live-Miniaturansichten an, prüfen Sie den Status (Entwurf, Geändert oder Veröffentlicht) und prüfen Sie detaillierte Eigenschaften, Verweise und Varianten.</td>
-         <td>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">Erkennung von Inhaltsfragmenten</a>.</td>
+         <td><strong>Discover and browse Content Fragments.</strong> Search through Content Fragments, view live thumbnail previews, check status (Draft, Modified, or Published), and inspect detailed properties, references, and variations.</td>
+         <td>For more information, see <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">Discovery of Content Fragments</a>.</td>
       </tr>
+      -->
       <tr>
          <td><strong>Zugriff auf Asset-Metadaten.</strong> Überprüfen Sie Asset-Eigenschaften wie Titel, Beschreibung, Format, Größe und andere Metadaten-Registerkarten (Produkt, Kampagne, Tags) entsprechend der Assets-Ansicht.</td>
          <td>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor">Zugriff auf Asset-Metadaten, die der Assets-Ansicht entsprechen</a>.</td>
@@ -140,56 +126,42 @@ So verknüpfen Sie Inhalte:
    </tbody>
    </table>
 
+<!--
+### Link a new version from Experience Manager Assets
 
-### Verknüpfen einer neuen Version aus Experience Manager Assets mit dem Inhaltsratgeber
+You can pull new content over from Experience Manager Assets and add it to an existing asset as a new version. If the document is already linked and a new version is added in Experience Manager Assets, the new version appears automatically in Workfront.
 
-Sie können neue Inhalte aus Experience Manager Assets oder Assets Essentials abrufen und sie als neue Version einem vorhandenen Asset hinzufügen. Wenn das Dokument bereits verknüpft ist und in Experience Manager Assets oder Assets Essentials eine neue Version hinzugefügt wird, wird die neue Version automatisch in Workfront angezeigt.
+To link a new version:
 
-Verknüpfen einer neuen Version:
-
-1. Wechseln Sie zum **Dokumente** in Workfront, wo Sie das Dokument hinzufügen möchten.
-1. Wählen Sie das Asset aus, das Sie durch eine neue Version ersetzen möchten. Sie können keine neue Version eines Assets in einem verknüpften Ordner erstellen.
-1. Wählen Sie **Neu hinzufügen** > **Version** und wählen Sie dann die Experience Manager-Integration aus, die Ihr Administrator eingerichtet hat.
-
-   >[!NOTE]
-   >
-   >Der Workfront-Administrator kann einen beliebigen Namen für diese Integration auswählen, sodass Experience Manager Assets möglicherweise nicht explizit erwähnt wird.
-
-1. Wählen Sie den Inhalt aus, den Sie verknüpfen möchten:
-
-   * Wählen Sie die Registerkarte Assets aus, um Assets, Ordner oder Sammlungen in Experience Manager Assets oder Assets Essentials zu durchsuchen.
-
-     ![Inhaltsratgeber](assets/content-advisor-full.png)
-
-   * Inhaltsfragmente unterstützen keine Versionen. Wenn Sie ein Inhaltsfragment auswählen, ersetzt die neue Version das vorhandene Inhaltsfragment, anstatt eine neue Version zu erstellen.
-
-1. Klicken Sie auf **Auswählen**.
-
-## Verknüpfen von Ordnern aus Experience Manager Assets mit Content Advisor
-
-Berechtigungen zum Anzeigen einzelner Assets innerhalb eines Ordners sind von Experience Manager Assets-Berechtigungen abhängig.
-
-So verknüpfen Sie einen Ordner:
-
-1. Wechseln Sie zum **Dokumente** in Workfront, in dem Sie den Ordner ablegen möchten.
-1. Wählen Sie **Neu hinzufügen** und dann die Experience Manager-Integration aus, die Ihr Administrator eingerichtet hat.
+1. Go to the Workfront object where you want to link content.
+1. Click the **Documents** section in the left panel.
+1. Select the asset you want to replace with a new version. You can't create a new version of an asset in a linked folder.
+1. Select **Add New** > **Version**, then select the Experience Manager integration your administrator set up.
 
    >[!NOTE]
    >
-   >Der Workfront-Administrator kann einen beliebigen Namen für diese Integration auswählen, sodass Experience Manager Assets möglicherweise nicht explizit erwähnt wird.
+   >The Workfront administrator can choose any name for this integration, so it might not specifically mention Experience Manager Assets.
 
-1. Klicken Sie auf **** > **Dateien und Ordner**.
+1. Select the content you want to link.
+1. Click **Select**.
+-->
 
-1. Klicken Sie auf **Filter**-Symbol und wählen Sie dann im Abschnitt **Asset-Typ** die Option **Ordner**.
+<!--
+## Link a folder from Experience Manager Assets
 
-1. Wählen Sie den Ordner aus, den Sie verknüpfen möchten.
+Permissions to view individual assets inside of a folder rely on Experience Manager Assets permissions.
 
-1. Klicken Sie auf **Auswählen**.
+To link a folder:
+
+1. Go to the Workfront object where you want to link content.
+1. Click the **Documents** section in the left panel.
+1. Click **Assets** > **Files & Folders**.
+1. Click the **Filter** icon, then in the **Asset Type** section, choose **Folders**.
+1. Select the folder you want to link.
+1. Click **Select**.
+-->
 
 ## Zu beachten
 
-* Die Funktion „Inhaltsratgeber“ ist nicht für Objekte verfügbar, die den Adobe-Cloud-Speicher verwenden. Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, können Sie weiterhin Assets und Ordner aus Experience Manager Assets oder Assets Essentials verknüpfen, haben jedoch keinen Zugriff auf Content Advisor-Funktionen wie KI-Suchen, Smart Suggestions oder Dynamic Media-Ausgabedarstellungen. Weitere Informationen finden Sie unter [Verknüpfen von Inhalten und Ordnern aus Experience Manager Assets mit Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md).
-
-* Die Funktion „Inhaltsratgeber“ ist für Assets Essentials nicht verfügbar. Informationen zum Verknüpfen von Assets und Ordnern aus Assets Essentials finden Sie unter [Verknüpfen von Assets und Ordnern aus Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem-essentials.md).
-
+* Überprüfungs- und Genehmigungs-Workflows werden für verknüpfte AEM-Assets nicht unterstützt.
 * Metadatenfelder werden zuerst zugeordnet, wenn Sie ein Asset von Workfront an Experience Manager Assets senden. Wenn Ihr Workfront-Administrator die Synchronisierung von Objektmetadaten aktiviert hat, bleiben die Felder auf dem neuesten Stand, wenn sie in einer der Anwendungen geändert werden.
