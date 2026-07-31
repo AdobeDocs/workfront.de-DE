@@ -48,7 +48,7 @@ Ergebnis: eine einfache CSV mit `Page URL Generic (v33),Unique Visitors,Visits,P
 
 Suchen Sie für jede überlebende Zeile `/using` in der URL und behalten Sie nur den Teil von (einschließlich) der `/` bei, die ihr folgt, wobei alles vor und einschließlich `/using` verworfen wird.
 
-Beispiel: `https://experienceleague.adobe.com/en/docs/workfront/using/home` → `/home`
+Beispiel: `https://experienceleague.adobe.com/de/docs/workfront/using/home` → `/home`
 
 Wenn `/using` nicht in der URL einer Workfront-Zeile gefunden wird, lassen Sie diese URL unverändert und kennzeichnen Sie sie für den Benutzer, anstatt zu raten.
 
