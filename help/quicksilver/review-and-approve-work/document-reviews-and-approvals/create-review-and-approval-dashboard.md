@@ -7,17 +7,13 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
 TQID: https://experienceleague.adobe.com/c8-TIFSw6jfjZq-S76dP7SSrf69EFAfjB-OPAJJdVOQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: e07d9346bc39e91b59ce82d56fdc8801e6d5b846
 workflow-type: tm+mt
-source-wordcount: 2561
+source-wordcount: 2563
 ht-degree: 1%
 
 ---
@@ -61,7 +57,7 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
 
 #### Ausstehende Genehmigungen
 
-1. [Erstellen Sie ein &#x200B;](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
 1. Klicken Sie oben rechts auf der Detailseite des Dashboards auf **Bericht hinzufügen**.
 
 1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
@@ -103,7 +99,7 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
 
 #### Überfällige Genehmigungen
 
-1. [Erstellen Sie ein &#x200B;](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
 1. Klicken Sie oben rechts auf der Detailseite des Dashboards auf **Bericht hinzufügen**.
 
 1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
@@ -139,7 +135,7 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
 
    1. Klicken Sie auf den leeren Bedingungsfilter und dann auf **Feld auswählen**.
 
-   1. Wählen Sie **Genehmigungsphase** > **Frist** aus.
+   1. Wählen Sie **Genehmigungsphasen** > **Frist** aus.
    1. Ändern Sie den Operator in **Kleiner als**.
    1. Schalten Sie **Relatives Datum festlegen** auf **EIN** und geben Sie dann _$$TODAY_ in das Textfeld ein.
       ![Beispiel für überfälligen KPI-Filter](assets/overdue-kpi-filter.png)
@@ -154,7 +150,7 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
 #### Abgeschlossene Genehmigungen
 
 
-1. [Erstellen Sie ein &#x200B;](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
 1. Klicken Sie oben rechts auf der Detailseite des Dashboards auf **Bericht hinzufügen**.
 
 1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
@@ -204,7 +200,7 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
 
 #### Abgebrochene Genehmigungen
 
-1. [Erstellen Sie ein &#x200B;](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
 1. Klicken Sie oben rechts auf der Detailseite des Dashboards auf **Bericht hinzufügen**.
 
 1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
@@ -258,7 +254,7 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
 
 #### Validierungen nach Entscheidungsbalkendiagramm
 
-1. [Erstellen Sie ein &#x200B;](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
 1. Klicken Sie oben rechts auf der Detailseite des Dashboards auf **Bericht hinzufügen**.
 
 1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
@@ -292,7 +288,7 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
 
 #### Überarbeitungen Balkendiagramm
 
-1. [Erstellen Sie ein &#x200B;](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
 1. Klicken Sie oben rechts auf der Detailseite des Dashboards auf **Bericht hinzufügen**.
 
 1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
@@ -321,13 +317,13 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
    1. Klicken Sie **Filter bearbeiten** und dann **Bedingung hinzufügen**.
    1. Klicken Sie auf den leeren Bedingungsfilter und dann auf **Feld auswählen**.
 
-   1. Wählen Sie **Genehmigungsphase** > **Teilnehmer der Genehmigungsphase** > **Entscheidungsdatum**.
+   1. Wählen Sie **Genehmigungsphasen** > **Teilnehmer der Genehmigungsphase** > **Entscheidungsdatum**.
 
    1. Ändern Sie den Operator in **Ist Null**.
       ![Beispiel für Revisionsdiagrammfilter](assets/revision-chart-filter.png)
    1. Klicken Sie **Bedingung hinzufügen**.
    1. Klicken Sie auf den leeren Bedingungsfilter und dann auf **Feld auswählen**.
-   1. Wählen Sie **Genehmigungsphase** > **Frist** aus.
+   1. Wählen Sie **Genehmigungsphasen** > **Frist** aus.
    1. Ändern Sie den Operator in **Kleiner oder gleich** und schalten Sie **Relatives Datum festlegen** auf **EIN**.
    1. Geben Sie _$$TODAYem_ in das Textfeld ein.
       ![Beispiel für Revisionsdiagrammfilter](assets/revision-chart-filter-2.png)
@@ -341,7 +337,7 @@ Weitere Informationen zum Erstellen eines Tabellenberichts finden Sie unter [Ers
 
 ### Liste der ausstehenden Genehmigungen
 
-1. [Erstellen Sie ein &#x200B;](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
 1. Klicken Sie oben rechts auf der Detailseite des Dashboards auf **Bericht hinzufügen**.
 
 1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
@@ -359,7 +355,7 @@ Weitere Informationen zum Erstellen eines Tabellenberichts finden Sie unter [Ers
 
    1. Klicken Sie im linken Bereich auf das Symbol **Tabellenspalten** ![Tabellenspalten](assets/drilldown-column.png) .
    1. Klicken Sie **Spalte hinzufügen**.
-   1. Scrollen Sie nach unten und wählen Sie **Dokumentgenehmigungen** > **Status** aus.
+   1. Scrollen Sie nach unten und wählen Sie **Dokumentengenehmigung** > **Status** aus.
    1. Die folgenden Spalten hinzufügen:
 
    <table>
@@ -373,23 +369,23 @@ Weitere Informationen zum Erstellen eines Tabellenberichts finden Sie unter [Ers
     </tr>
     <tr>
     <td><strong>Dokumentversion</strong></td>
-    <td>Dokumentversion &gt; Dokument &gt; Version</td>
+    <td>Dokumentversion &gt; Dokument &gt; Aktuelle Version &gt; Version</td>
     </tr>
     <tr>
     <td><strong>Frist</strong></td>
-    <td>Dokumentengenehmigung &gt; Genehmigungsphase &gt; Frist</td>
+    <td>Dokumentengenehmigung &gt; Genehmigungsphasen &gt; Frist</td>
     </tr>
     <tr>
     <td><strong>Anfrage von</strong></td>
-    <td>Dokumentgenehmigung &gt; Genehmigungsphase &gt; Teilnehmer der Genehmigungsphase* &gt; Anforderer &gt; Typ <em>Name</em> im Suchfeld.</td>
+    <td>Dokumentgenehmigung &gt; Genehmigungsphasen &gt; Teilnehmer an Genehmigungsphase* &gt; Anforderer &gt; Typ <em>Name</em> im Suchfeld.</td>
     </tr>
     <tr>
     <td><strong>Angefordertes Datum</strong></td>
-    <td>Dokumentengenehmigung &gt; Genehmigungsphase &gt; Genehmigungsphase &gt; Teilnehmer der Genehmigungsphase* &gt; Erstellt in</td>
+    <td>Dokumentengenehmigung &gt; Genehmigungsphasen &gt; Genehmigungsphase &gt; Teilnehmer an der Genehmigungsphase* &gt; Erstellt in</td>
     </tr>
     <tr>
     <td><strong>Genehmigende Person</strong></td>
-    <td>Dokumentgenehmigung &gt; Genehmigungsphase &gt; Teilnehmer an Genehmigungsphase* &gt; Teilnehmer &gt; Typ <em>Name</em> im Suchfeld.</td>
+    <td>Dokumentgenehmigung &gt; Genehmigungsphasen &gt; Genehmigungsphase Teilnehmer* &gt; Teilnehmer &gt; Typ <em>Name</em> im Suchfeld.</td>
     </tr>
     </table>
 
@@ -436,7 +432,7 @@ Um spezifischere Informationen je nach Anwendungsfall anzuzeigen, können Sie zu
 
 ### Liste der überfälligen Genehmigungen
 
-1. [Erstellen Sie ein &#x200B;](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
 
 1. Klicken Sie oben rechts auf der Detailseite des Dashboards auf **Bericht hinzufügen**.
 
@@ -473,19 +469,19 @@ Um spezifischere Informationen je nach Anwendungsfall anzuzeigen, können Sie zu
         </tr>
         <tr>
         <td><strong>Frist</strong></td>
-        <td>Dokument &gt; Genehmigungsphase &gt; Frist</td>
+        <td>Dokument &gt; Genehmigungsphasen &gt; Frist</td>
         </tr>
         <tr>
         <td><strong>Anfrage von</strong></td>
-        <td>Dokument &gt; Genehmigungsphase &gt; Teilnehmer der Genehmigungsphase* &gt; Anforderer &gt; Typ <em>Name</em> im Suchfeld.</td>
+        <td>Dokument &gt; Genehmigungsphasen &gt; Teilnehmer an Genehmigungsphase* &gt; Anforderer &gt; Typ <em>Name</em> im Suchfeld.</td>
         </tr>
         <tr>
         <td><strong>Angefordertes Datum</strong></td>
-        <td>Dokument &gt; Genehmigungsphase &gt; Teilnehmer der Genehmigungsphase* &gt; Erstellt in</td>
+        <td>Dokument &gt; Genehmigungsphasen &gt; Teilnehmer der Genehmigungsphase* &gt; Erstellt in</td>
         </tr>
         <tr>
         <td><strong>Genehmigende Person</strong></td>
-        <td>Dokument &gt; Genehmigungsphase &gt; Teilnehmer der Genehmigungsphase* &gt; Teilnehmer-Benutzer &gt; <em>Name</em> in das Suchfeld.</td>
+        <td>Dokument &gt; Genehmigungsphasen &gt; Teilnehmer an Genehmigungsphase* &gt; Teilnehmer &gt; <em> &gt; Name</em> in das Suchfeld.</td>
         </tr>
         </table>
 
@@ -495,7 +491,7 @@ Um spezifischere Informationen je nach Anwendungsfall anzuzeigen, können Sie zu
    1. Klicken Sie im linken Bedienfeld auf das Symbol **Filter** ![Registerkarte &quot;](assets/filter-tab.png)&quot;.
    1. Klicken Sie **Filter bearbeiten** und dann **Bedingung hinzufügen**.
    1. Klicken Sie auf den leeren Bedingungsfilter und dann auf **Feld auswählen**.
-   1. Wählen Sie **Genehmigungsphase** > **Frist** aus.
+   1. Wählen Sie **Genehmigungsphasen** > **Frist** aus.
    1. Ändern Sie den Operator in **Kleiner als** und schalten Sie dann **Relatives Datum festlegen** auf **EIN**.
    1. Geben Sie _$$TODAY_ in das Textfeld ein.
       ![Beispiel für überfällige Genehmigungstabelle](assets/overdue-approval.png)
@@ -532,7 +528,7 @@ Um spezifischere Informationen je nach Anwendungsfall anzuzeigen, können Sie zu
 
 1. Klicken Sie **Filter bearbeiten** > **Bedingung hinzufügen**:
    1. Klicken Sie in den leeren Bedingungsfilter und klicken Sie auf **Feld auswählen**.
-   1. Wählen Sie **Genehmigungsphase** > **Genehmigungsphase Teilnehmer** > **Teilnehmer-Team** > Typ _Name_ im Suchfeld.
+   1. Wählen Sie **Suchfeld** Genehmigungsphase **> Genehmigungsphase Teilnehmer** > **Teilnehmer-Team** > Typ _Name_ aus.
    1. Ändern Sie den Operator in **Gleich** und wählen Sie dann **Meine Standard-Teams (angemeldeter Benutzer)** oder **Meine anderen Teams (angemeldeter Benutzer)**, um Projekte anzuzeigen, die Ihrem Standard-Team oder anderen Teams, denen Sie angehören, zugewiesen sind.
       ![Filterbeispiel für Tabelle mit ausstehender Genehmigung](assets/approvals-ive-submitted-filter.png)
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
