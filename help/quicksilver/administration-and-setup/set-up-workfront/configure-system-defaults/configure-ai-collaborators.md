@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: dc6bfcd7d3431532c1227f6cd31f22445882143f
+source-git-commit: f27d4a7e48bbf1858642d99b2621d612f7ac54ad
 workflow-type: tm+mt
 source-wordcount: '1344'
 ht-degree: 2%
@@ -33,7 +33,7 @@ Zu den verfügbaren KI-Typen für Mitwirkende gehören:
 
 * Aufgabenmitarbeiter: Erstellen Sie einen Mitwirkenden mit Copilot oder Writer und weisen Sie dann den Mitwirkenden einer Aufgabe zu, um Arbeiten auf Aufgabenebene abzuschließen.
 
-  Weitere Informationen finden Sie unter [Verwenden von &#x200B;](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
+  Weitere Informationen finden Sie unter [Verwenden von ](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
 
 
 ## Zugriffsanforderungen
@@ -187,7 +187,7 @@ Ausführlichere Informationen zum Erstellen von Agenten finden Sie in der [Write
 1. Ein einzelnes Texteingabefeld hinzufügen. Sie können den Standardnamen „Texteingabe“ verwenden.
 1. `@TextInput` zu Ihrer Eingabeaufforderung hinzufügen. Stellen Sie im Abschnitt Eingabeaufforderungen Ihrer App-Konfiguration sicher, dass Ihre Eingabeaufforderungsvorlage auf die Eingabevariable verweist. Ohne dies sieht das Modell die Aufgabendaten nie.
 1. Passen Sie Ihre Eingabeaufforderung an, um die Ausgabe sofort zu generieren. Entfernen Sie alle Anweisungen, die den Benutzer um Klarstellung oder zusätzlichen Kontext bitten, bevor Sie antworten. Beispiel: „Wenn Sie eine Eingabe erhalten, behandeln Sie sie als Anfrage zur Inhaltserstellung und erstellen Sie die Ausgabe sofort. Bitten Sie nicht um Klarstellung.“
-1. Kopieren Sie Ihren API-Schlüssel und die Anwendungs-ID. Zum Konfigurieren des Task Collaborators in Workfront benötigen Sie Task Collaborator .
+1. Kopieren Sie Ihren API-Schlüssel und die Anwendungs-ID. Sie benötigen den Task Collaborator, um den Task Collaborator in Workfront zu konfigurieren.
 
    * Anweisungen zum Einrichten eines API-Schlüssels in Writer finden Sie unter [Quickstart](https://dev.writer.com/home/quickstart) in der Writer-Dokumentation.
    * Anweisungen zum Einrichten einer Anwendungs-ID in Writer finden Sie unter [Aufrufen von Nicht-Code-Agenten über die API](https://dev.writer.com/home/applications) in der Writer-Dokumentation.
