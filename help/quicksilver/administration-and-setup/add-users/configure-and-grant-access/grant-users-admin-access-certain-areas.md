@@ -18,14 +18,16 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
 workflow-type: tm+mt
-source-wordcount: 686
+source-wordcount: 714
 ht-degree: 11%
 
 ---
 
 # Gewähren von administrativem Zugriff für Benutzer auf bestimmte Bereiche
+
+{{preview-fast-release-general}}
 
 <!--Linked in several places, do not rename or change URL.-->
 
@@ -84,6 +86,11 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
      <tr> 
       <td role="rowheader">Genehmigungsprozesse</td> 
       <td><p>Genehmigungsprozesse zur Verwendung im gesamten System und für bestimmte Gruppen erstellen und verwalten</p><p>Ohne diesen Zugriff können Benutzende nur Ad-hoc-Genehmigungsprozesse für Elemente erstellen, auf die sie Zugriff haben und die sie verwalten können.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="preview">Verlauf ändern</span></td> 
+      <td><p><span class="preview">Die Workfront-Änderungsprotokolle finden Sie unter Setup &gt; Änderungsverfolgung &gt; Änderungsverlaufsliste.</span></p>
+      <p><span class="preview">Ohne diesen Zugriff verfügen Benutzer nicht über diese Option im Bereich „Setup“.</span></p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Firmen</td> 

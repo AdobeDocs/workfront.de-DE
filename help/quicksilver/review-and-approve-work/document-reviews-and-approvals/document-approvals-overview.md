@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
+source-git-commit: 4d6be75a507438eee1f3887474b847c2bece85ff
 workflow-type: tm+mt
-source-wordcount: 4149
+source-wordcount: 4323
 ht-degree: 0%
 
 ---
@@ -96,6 +96,12 @@ Der Frame.io-Viewer ist der Standard-Viewer für alle Workfront-Prüfungs- und G
 Wenn Ihr Unternehmen die zusätzlichen Frame.io-Funktionen nutzen möchte, die mit dieser Integration verfügbar sind, z. B. das direkte Hochladen von Assets in Projekte in Frame.io, können Sie eine Frame.io Enterprise-Lizenz erwerben. Wenden Sie sich an Ihren Adobe-Kundenbetreuer, um eine Demo zu planen und die Vorteile der vollständigen Frame.io-Lösung zu erkunden.
 
 Die Workfront-Proofing-Funktion ist in dieser Integration nicht verfügbar.
+
+## Vollständiges Audit-Protokoll
+
+<span class="preview">Einheitliche Prüfung und Genehmigung umfasst eine umfassende Auditprotokollierung, die einen vollständigen Governance-Trail über Workfront und Frame.io hinweg erstellt. Änderungs-Trackinglogs erfassen Genehmigungsentscheidungen, die im Viewer-Lebenszyklus von Frame.io und Dokumenten getroffen wurden. Jeder Protokolleintrag enthält die Attribution im Quellsystem (Workfront oder Frame.io) neben den standardmäßigen Workfront-Überwachungsfeldern: Datum und Uhrzeit, Protokolltyp, Benutzername, Aktion und Objektname. Frame.io-Viewer-Kommentare sind nicht in Audit-Protokollen enthalten.</span>
+
+<span class="preview">Änderungs-Trackinglogs werden im Bereich „Setup“ von Workfront angezeigt und stehen für den Export zur Verfügung. Weitere Informationen finden Sie unter [Anzeigen und Verwalten des &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)</span>
 
 ## Leistungsstarkes Projektmanagement in Workfront
 
@@ -212,7 +218,7 @@ Um auf einheitliche Überprüfungen und Genehmigungen zugreifen zu können, müs
 
 * Sobald Sie eine Version von Workfront verwenden, die Adobe Cloud Storage unterstützt, konfiguriert Adobe Professional Services die Integration für Ihr Unternehmen.
 
-   * Wenn Sie sich nicht sicher sind, wer Ihr Adobe-Kundenbetreuer ist, können Sie sich über das Support-Portal für Adobe an Sie wenden oder Experience League besuchen, um Kontaktoptionen zu erhalten.
+  * Wenn Sie sich nicht sicher sind, wer Ihr Adobe-Kundenbetreuer ist, können Sie sich über das Support-Portal für Adobe an Sie wenden oder Experience League besuchen, um Kontaktoptionen zu erhalten.
 
 +++
 
@@ -360,6 +366,14 @@ Eine vollständige Liste der unterstützten Dateitypen finden Sie in der Dokumen
 **Kann ich Assets extern für Stakeholder freigeben, die keinen Zugriff auf Workfront haben?**
 
 Ja. Assets kann extern freigegeben werden. Externe Benutzer werden per E-Mail benachrichtigt und aufgefordert, eine Frame.io-Anmeldung zu erstellen, um auf den Viewer zuzugreifen und an der Überprüfung teilzunehmen.
+
+**Kann ich Bilder an Kommentare zu einem Dokument in Workfront anhängen?**
+
+Wenn Ihr Unternehmen Adobe Cloud Storage im Rahmen einer einheitlichen Überprüfung und Genehmigung verwendet, können Sie Bilddateien direkt an Kommentare zu einem Dokument anhängen. Angehängte Bilder werden im Adobe Cloud-Speicher gespeichert und alle Bilddateiformate vom Typ Medien werden unterstützt.
+
+Diese Kommentare sind Workfront-nativ und getrennt von Kommentaren im Frame.io-Viewer. An einen Kommentar angehängte Bilder sind in Frame.io nicht aufrufbar. Durch das Anhängen eines Bildes wird dem Asset kein Markup hinzugefügt oder es zur Genehmigung weitergeleitet. Nicht-Bilddateitypen können nicht an einen Kommentar angehängt werden.
+
+Weitere Informationen finden Sie unter [Arbeit aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 <!--
 **Before unified review and approval, is a reviewer just directed to a proof?**

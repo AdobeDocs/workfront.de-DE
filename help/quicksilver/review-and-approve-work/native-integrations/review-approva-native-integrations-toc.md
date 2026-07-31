@@ -17,10 +17,10 @@ feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 347eb022f68e00b13b3b517a1aaec9cd15f952c7
+source-git-commit: 1e41c376fb0028a8d9a3e3bcf2033cebd6193849
 workflow-type: tm+mt
-source-wordcount: 96
-ht-degree: 37%
+source-wordcount: 108
+ht-degree: 33%
 
 ---
 
@@ -35,5 +35,6 @@ Die folgenden Artikel enthalten Informationen zu Integrationen nativer Dokumente
 * [Erste Schritte mit Proofing und Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
 * [Einheitliche Prüfung und Genehmigung - Übersicht](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
 * [Verwenden von Adobe Experience Manager mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
+* [Verknüpfen von Inhalten und Ordnern aus Experience Manager Assets mit dem Adobe Cloud-Speicher](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)
 * [Erste Schritte mit der Integration von Adobe Express und Workfront mit Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/express-wf-frame.md)
 

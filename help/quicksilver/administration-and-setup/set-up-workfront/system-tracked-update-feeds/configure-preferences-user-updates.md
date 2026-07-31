@@ -19,10 +19,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8468e4e9daa5000e721ee8fb78f45064ab105e28
 workflow-type: tm+mt
-source-wordcount: 271
-ht-degree: 12%
+source-wordcount: 291
+ht-degree: 11%
 
 ---
 
@@ -96,15 +96,16 @@ Standardmäßig können Benutzende in Aktualisierungen keine Bilder hinzufügen.
 >
 >* In Aktualisierungen gespeicherte Bilder werden in Richtung des Speicherlimits für Dokumente gezählt. Weitere Informationen finden Sie [Überprüfen von Dokumentspeicherbeschränkungen](../../../documents/managing-documents/check-document-storage.md).
 >* Auf Bilder kann über die Registerkarte [!UICONTROL Aktualisierungen] eines Objekts zugegriffen werden. Sie sind auch im Bereich [!UICONTROL Dokumente] unter dem [!UICONTROL Hauptmenü] verfügbar.
->
+>* Diese Voreinstellung regelt auch, ob Benutzende Bilder an Kommentare zu Objekten anhängen können, die den Adobe-Cloud-Speicher verwenden. Angehängte Bilder werden im Adobe Cloud-Speicher gespeichert.
 
 1. Klicken Sie auf **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront] und klicken Sie dann auf **[!UICONTROL Setup]** ![Zahnradeinstellungssymbol](assets/gear-icon-settings.png).
 1. Wählen Sie im linken Bedienfeld **[!UICONTROL Schnittstelle]** > **[!UICONTROL Aktualisierungs-Feeds]**.
 1. Wählen Sie die **[!UICONTROL Voreinstellungen]** aus.
 
-   ![Benutzervoreinstellungen für Aktualisierungs-Feeds](assets/updatefeeds-preferences-350x137.png)
-
 1. Aktivieren Sie **[!UICONTROL Kontrollkästchen (Benutzern erlauben, Bilder in Aktualisierungen hinzuzufügen]**.
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
    Wenn diese Einstellung aktiviert ist, können Sie sie jederzeit deaktivieren. Alle Bilder, die bereits in Aktualisierungen veröffentlicht wurden, verbleiben im Bereich [!UICONTROL Aktualisierungen] des Objekts.
+
+
+<!--Note from Lisa: This image is old so I hid it. Was after step 3 (select the Prefs tab) but it broke the numbering when I commented it out. ![User preferences for update feeds](assets/updatefeeds-preferences-350x137.png)-->

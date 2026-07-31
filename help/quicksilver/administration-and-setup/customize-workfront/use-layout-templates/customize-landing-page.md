@@ -22,14 +22,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
 workflow-type: tm+mt
-source-wordcount: 395
-ht-degree: 17%
+source-wordcount: 446
+ht-degree: 15%
 
 ---
 
 # Anpassen der Landingpage mithilfe einer Layout-Vorlage
+
+{{preview-fast-release-general}}
 
 Als Adobe Workfront-Administrator können Sie mithilfe einer Layout-Vorlage festlegen, welchen Bereich Benutzerinnen und Benutzer bei jeder Anmeldung bei Workfront sehen sollen.
 
@@ -104,6 +106,11 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
    * Benutzende
    * Blueprints
    * In Planung
+   * <span class="preview">Benutzerdefinierte Anwendung</span>
+
+     >[!NOTE]
+     >
+     ><span class="preview">Benutzerdefinierte Programme, die bereits zum Hauptmenü hinzugefügt wurden, können als Landingpage verwendet werden. Sie müssen separat erstellt werden, bevor sie als Hauptmenü- oder Landingpage-Optionen verfügbar werden. Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Programms für Workfront mit Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).</span>
 
    >[!IMPORTANT]
    >

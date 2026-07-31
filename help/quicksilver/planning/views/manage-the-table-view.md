@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
+source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
 workflow-type: tm+mt
-source-wordcount: 3912
+source-wordcount: 3939
 ht-degree: 2%
 
 ---
@@ -308,13 +308,11 @@ Sie können bis zu 50.000 Datensätze (oder Zeilen) für einen Datensatztyp habe
 
    Dem neuen Datensatz </span> auch ein Standardminiaturbild <span class="preview">und -farbe) hinzugefügt.
 
-   <!--
-    >[!TIP]
-    >
-    ><span class="preview">When a record has unread comments, a **New comment** indicator displays in the upper-right corner of the record's primary field.</span>
-    >
-    >![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
-    -->
+   >[!TIP]
+   >
+   ><span class="preview">Wenn ein Datensatz ungelesene Kommentare enthält, **oben rechts im Primärfeld des Datensatzes ein Indikator „Neuer Kommentar** angezeigt.</span>
+   >
+   >![Neues Kommentarsymbol in der Tabellenansicht](assets/new-comment-icon-in-table-view-highlighted.png)
 
 1. (Optional) Wählen Sie einen oder mehrere Datensätze oder Zeilen aus und ziehen Sie dann das **handle**-Symbol ![handle-Symbol](assets/handle-icon.png) auf die linke Seite des Datensatzes, um die Zeilen neu anzuordnen.
 

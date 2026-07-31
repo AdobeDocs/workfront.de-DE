@@ -21,10 +21,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 75779f9563462e3cbde044f9323e174a9a9a70ad
 workflow-type: tm+mt
-source-wordcount: 3164
-ht-degree: 3%
+source-wordcount: 3225
+ht-degree: 2%
 
 ---
 
@@ -179,21 +179,21 @@ Old:
 
 * Sie können Projekten, Aufgaben und Problemen aus den folgenden Bereichen von Workfront eine Aktualisierung hinzufügen:
 
-   * Über ein Workfront-Objekt im Abschnitt Aktualisierungen (für Projekte, Aufgaben und Probleme)
-   * Im Bereich Startseite (für Aufgaben und Probleme)
+  * Über ein Workfront-Objekt im Abschnitt Aktualisierungen (für Projekte, Aufgaben und Probleme)
+  * Im Bereich Startseite (für Aufgaben und Probleme)
 
-     Weitere Informationen finden Sie unter [Verwalten Ihrer Arbeit mit dem Widget „Meine Arbeit“](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-work-widget.md).
-   * Im Bedienfeld Zusammenfassung in den folgenden Bereichen (für Aufgaben, Probleme und Dokumente):
+    Weitere Informationen finden Sie unter [Verwalten Ihrer Arbeit mit dem Widget „Meine Arbeit“](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-work-widget.md).
+  * Im Bedienfeld Zusammenfassung in den folgenden Bereichen (für Aufgaben, Probleme und Dokumente):
 
-      * Eine Liste von Objekten
-      * Eine Arbeitszeittabelle
-      * Startseite
-      * Der Workload Balancer
+    * Eine Liste von Objekten
+    * Eine Arbeitszeittabelle
+    * Startseite
+    * Der Workload Balancer
 
-     Weitere Informationen finden Sie in den folgenden Artikeln:
+    Weitere Informationen finden Sie in den folgenden Artikeln:
 
-      * [Überblick über die Zusammenfassung](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
-      * [Aktualisieren von Arbeitselementen im Workload Balancer mithilfe der Zusammenfassung](/help/quicksilver/resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
+    * [Überblick über die Zusammenfassung](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+    * [Aktualisieren von Arbeitselementen im Workload Balancer mithilfe der Zusammenfassung](/help/quicksilver/resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 
 <!--info for April 11: hide the section below: add an update to a work item-->
 
@@ -451,7 +451,6 @@ Sie können Ihre Kommentare verbessern, indem Sie Rich-Text verwenden oder versc
 
    >[!IMPORTANT]
    >
-   >
    >* Bilder können nicht zu Zielen oder Ad-hoc-Karten auf Pinnwänden hinzugefügt werden.
    >
    >* Ihr Workfront-Administrator muss das Hinzufügen von Bildern im Abschnitt „Voreinstellungen für Aktualisierungs-Feeds“ der Workfront-Benutzeroberfläche aktivieren, bevor Sie das Bild oder die Symbole zum Hinzufügen von Anhängen sehen können. Weitere Informationen finden Sie [Konfigurieren von Voreinstellungen für Benutzeraktualisierungen](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
@@ -462,6 +461,8 @@ Sie können Ihre Kommentare verbessern, indem Sie Rich-Text verwenden oder versc
    >* Sie können eine Aktualisierung ohne Text und mit einem Bild senden.
    >* Wenn Sie einen Kommentar löschen, der ein Bild enthält, wird das Bild sowohl aus dem Abschnitt Aktualisierungen als auch aus dem Bereich Dokumente entfernt. Das Bild wird auch aus dem Bereich Dokumente gelöscht, wenn Sie einen Kommentar bearbeiten und das Bild löschen.
    >* Wenn jemand ein Bild, das an einen Kommentar angehängt ist, aus dem Bereich Dokumente löscht, wird es auch aus dem Kommentar entfernt.
+   >* Wenn Ihr Unternehmen Adobe Cloud Storage im Rahmen einer einheitlichen Überprüfung und Genehmigung verwendet, kann Ihr Workfront-Administrator dieselbe Voreinstellung aktivieren, damit Sie Bilder an Kommentare anhängen können. Alle standardmäßigen Bildformate werden unterstützt, und angehängte Bilder werden im Adobe Cloud-Speicher gespeichert.
+   >* Bilder, die an Kommentare zu Objekten angehängt sind, die den Adobe-Cloud-Speicher verwenden, sind im Frame.io-Viewer nicht zugänglich.
 
    <!--remove the statement above about legacy, when we remove the legacy environment.-->
 
@@ -657,10 +658,10 @@ Im Abschnitt Aktualisierungen für ein Workfront-Objekt werden zwei Arten von In
 
   Für die folgenden Objekte sind keine systemgenerierten Aktualisierungen vorhanden:
 
-   * Team
-   * Vorlage
-   * Vorlagenaufgabe
-   * Ad-hoc-Karte auf einer Pinnwand
+  * Team
+  * Vorlage
+  * Vorlagenaufgabe
+  * Ad-hoc-Karte auf einer Pinnwand
 
 Weitere Informationen zu Benutzer- und Systemaktualisierungen und deren Anzeige im Abschnitt „Aktualisierungen“ von Workfront-Objekten finden Sie [Übersicht über Aktualisierungen](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 

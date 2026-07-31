@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 36e7e482a46a4991e9fae2d895e586e3ca08c476
+source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 2%
+source-wordcount: '1332'
+ht-degree: 1%
 
 ---
 
@@ -110,6 +110,12 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
 * Wenn sich der Wert des Quellfelds ändert, wird das abhängige Feld automatisch gelöscht, anstatt einen ungültigen Status zu erhalten, wodurch verhindert wird, dass nicht übereinstimmende Kombinationen bestehen bleiben.
 
   Sie erhalten eine Inline- oder Popup-Nachricht, in der erläutert wird, warum das abhängige Feld gelöscht wurde.
+
+* Jedes abhängige Feld kann bis zu 3 direkt steuernde Felder aufweisen.
+
+* Abhängigkeitsstufen sind auf 6 Verbindungen beschränkt. So können bis zu 7 Datensatztypen verbunden werden.
+
+* Damit die Abhängigkeitskette funktioniert, müssen alle abhängigen Felder gleichzeitig für denselben Datensatztyp vorhanden sein.
 
 ## Erstellen einer abhängigen Verbindung
 

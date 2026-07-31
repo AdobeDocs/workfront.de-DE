@@ -11,10 +11,10 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
+source-git-commit: 5b445284b2d7445ae2119c546244a45ac17d8c97
 workflow-type: tm+mt
-source-wordcount: 334
-ht-degree: 1%
+source-wordcount: 412
+ht-degree: 0%
 
 ---
 
@@ -84,3 +84,20 @@ Informationen zu übergeordneten Objekten in [!DNL Workfront] finden Sie unter [
    Die Objektseite wird geöffnet.
 
    Wenn Sie ein Projekt betrachten, das mit einem Objekt in Workfront Planning verbunden ist (z. B. eine Kampagne), können Sie über den Breadcrumb zwischen den Objekttypen Planning und Workfront wechseln. Weitere Informationen finden Sie unter [Hierarchie und Breadcrumb - Übersicht](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md).
+
+<div class="preview">
+
+## Kopieren von Name und Link aus einem Breadcrumb
+
+{{highlighted-preview}}
+
+Sie können den Namen und die Verknüpfung eines Objekts in einer Aktion aus dem Breadcrumb-Pfad kopieren.
+
+1. Bewegen Sie den Mauszeiger über ein beliebiges Objekt im Breadcrumb-Pfad.
+1. Klicken Sie auf das **[!UICONTROL Link kopieren]**-Symbol, das neben dem Objektnamen angezeigt wird.
+
+   ![Link-Symbol auf einen Breadcrumb kopieren](assets/copy-breadcrumbs.png)
+
+   Name und Link des Objekts werden zusammen kopiert. Wenn Sie die kopierten Informationen einfügen, werden sie als anklickbarer Link mit dem Objektnamen als Link-Text angezeigt.
+
+</div>
