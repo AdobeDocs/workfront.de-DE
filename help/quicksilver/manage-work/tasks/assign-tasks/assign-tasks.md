@@ -2,7 +2,7 @@
 product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Aufgaben zuweisen
-description: Sie können Benutzern, Rollen oder Teams Aufgaben zuweisen, um anzugeben, wer für die Durchführung der Aufgaben verantwortlich ist. Sie können eine Aufgabe mehreren Ressourcen gleichzeitig zuweisen.
+description: Sie können Benutzern, Rollen, Teams oder Aufgabenmitarbeitern Aufgaben zuweisen, um anzugeben, wer für die Durchführung der Aufgaben verantwortlich ist. Sie können eine Aufgabe mehreren Ressourcen gleichzeitig zuweisen.
 author: Lisa
 feature: Work Management, Tasks
 role: User
@@ -22,9 +22,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a63738805d62e2f71d55fe39f78d1f042ff72a15
+source-git-commit: eebfa7db6b4aa256a47aa881ff151e3b84a21742
 workflow-type: tm+mt
-source-wordcount: 1623
+source-wordcount: 1616
 ht-degree: 4%
 
 ---
@@ -45,7 +45,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 </div>
 -->
 
-Sie können Benutzern, Aufgabengebieten oder Teams Aufgaben zuweisen, um anzugeben, wer für die Durchführung der Aufgaben verantwortlich ist. Sie können eine Aufgabe mehreren Ressourcen gleichzeitig zuweisen.
+Sie können Benutzern, Aufgabengebieten, Teams oder Aufgabenmitarbeitern Aufgaben zuweisen, um anzugeben, wer für die Durchführung der Aufgaben verantwortlich ist. Sie können eine Aufgabe mehreren Ressourcen gleichzeitig zuweisen.
 
 >[!TIP]
 >
@@ -65,6 +65,7 @@ Zusätzlich zu diesem Artikel empfehlen wir, die folgenden Artikel zu lesen, um 
 * [Smart Assignments - Übersicht](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
 * [Smart-Zuweisungen vornehmen](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
 * [Erweiterte Zuweisungen erstellen](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
+* [Verwenden von Aufgabenkollaboratoren](../../../manage-work/tasks/assign-tasks/use-task-collaborators.md)
 * [Ändern mehrerer Benutzerzuweisungen in einer Aufgabenliste](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
 * [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 * [Projektübersicht planen](../../../manage-work/projects/planning-a-project/plan-project.md)
@@ -173,7 +174,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina)
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Beginnen Sie mit der Eingabe des Namens eines Benutzers, eines Aufgabengebiets oder Teams, den/das Sie zuweisen möchten, und klicken Sie dann darauf, wenn es in der Liste angezeigt wird.
+   * Beginnen Sie mit der Eingabe des Namens eines Benutzers, Aufgabengebiets, Teams oder Mitarbeiters, den Sie zuweisen möchten, und klicken Sie dann auf den Namen, wenn er in der Liste angezeigt wird.
 
      >[!TIP]
      >
@@ -202,7 +203,7 @@ Je nachdem, welches Feld in der Ansicht sichtbar ist, können Sie der Aufgabe di
 |---|---|
 | **Zuweisen zu** | Einen Benutzer zuweisen |
 | **Zugewiesen** | Einen Benutzer zuweisen |
-| **Arbeitsaufträge** | Zuweisen von Benutzern, Aufgabengebieten oder Teams |
+| **Arbeitsaufträge** | Benutzer, Aufgabengebiete, Teams oder Aufgabenmitarbeiter zuweisen |
 
 So weisen Sie Aufgaben in einer Liste zu:
 
@@ -220,7 +221,7 @@ So weisen Sie Aufgaben in einer Liste zu:
 1. Führen Sie einen der folgenden Schritte aus, um Aufgaben zuzuweisen:
 
    * Klicken Sie in die Felder **Zugewiesen an** oder **Zugewiesen** und geben Sie den Namen eines aktiven Benutzers ein, den Sie der Aufgabe zuweisen möchten. Klicken Sie dann auf den Namen, wenn er in der Liste angezeigt wird.
-   * Klicken Sie in das **Arbeitsaufträge** und geben Sie den Namen eines aktiven Benutzers, eines Aufgabengebiets oder Teams ein, den/das Sie der Aufgabe zuweisen möchten. Klicken Sie dann auf den Namen, wenn er/sie in der Liste angezeigt wird.
+   * Klicken Sie in das **Arbeitsaufträge** und geben Sie den Namen eines aktiven Benutzers, eines Aufgabengebiets, eines Teams oder eines Mitarbeiters ein, den Sie der Aufgabe zuweisen möchten. Klicken Sie dann auf den Namen, wenn er in der Liste angezeigt wird.
 
      >[!TIP]
      >
@@ -255,7 +256,7 @@ So weisen Sie Aufgaben in einer Liste zu:
 
    Das **Aufgaben bearbeiten** wird geöffnet.
 
-1. Beginnen Sie im Bereich **Arbeitsaufträge** mit der Eingabe des Namens der Benutzer, Teams oder Rollen in das bereitgestellte Feld **Personen, Rollen oder Teams suchen** und klicken Sie dann auf sie, wenn sie in der Liste angezeigt werden
+1. Geben Sie im Bereich **Arbeitsaufträge** den Namen von Benutzern, Teams, Rollen oder Aufgabenmitarbeitern in das bereitgestellte Feld **Personen, Rollen oder Teams suchen** ein und klicken Sie dann auf sie, wenn sie in der Liste angezeigt werden
 
    >[!IMPORTANT]
    >
