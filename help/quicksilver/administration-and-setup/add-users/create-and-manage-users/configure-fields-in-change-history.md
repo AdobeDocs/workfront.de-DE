@@ -30,7 +30,7 @@ Diese Systemaktualisierungen enthalten die folgenden Informationen:
 
 Als Workfront-Administrator können Sie konfigurieren, welche Objektfelder und Aktionen Workfront verfolgt.
 
-Sie können beispielsweise Workfront alle Änderungen nachverfolgen lassen, die Benutzer an den Namen von Problemen im gesamten System vornehmen. Jede Änderung des Problemnamens wird dann als Eintrag im Änderungsprotokoll angezeigt. Weitere Informationen finden Sie unter [Anzeigen und Verwalten des ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
+Sie können beispielsweise Workfront alle Änderungen nachverfolgen lassen, die Benutzer an den Namen von Problemen im gesamten System vornehmen. Jede Änderung des Problemnamens wird dann als Eintrag im Änderungsprotokoll angezeigt. Weitere Informationen finden Sie unter [Anzeigen und Verwalten des &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 ## Zugriffsanforderungen
 
