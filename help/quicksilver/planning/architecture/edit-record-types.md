@@ -9,20 +9,14 @@ exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/PNC5GvQItDhcmQ0TSup8vbJJ3uWn2k-v-lKBZJBhakw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 611
+source-wordcount: 648
 ht-degree: 4%
 
 ---
@@ -55,29 +49,37 @@ Datensatztypen sind die Objekttypen von Adobe Workfront Planning. Sie können da
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<p>Beliebiges Workfront- und Planungspaket</p>
-<p>Beliebiges Workfront- und Planungspaket</p>
+<p>Beliebige Workfront oder Workflows mit einem Planungspaket</p>
+<p>Jedes Planungspaket, wenn es als eigenständiges Produkt gekauft wird</p>
 <p><b>NOTIZ</b></p>
 <p>So konfigurieren Sie verbindbare Datensatztypen: </p>
 <ul> 
 <li><p>Jedes Workfront-Paket und jedes Planungspaket</p></li>
 ODER
-<li><p>Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket</p></li></ul>
-
+<li><p>Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket</p></li>
+ODER
+<li>Beliebiges Planning Prime- und Ultimate-Paket</li>
+</ul>
 
 <p>So konfigurieren Sie globale Datensatztypen:</p>
 
 <ul> 
-<li><p>Beliebiges Workfront-Paket und Planning Plus-Paket</p></li>
+<li><p>Jedes Workfront-Paket mit einem Planning Plus-Paket</p></li>
 ODER
-<li><p>Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket</p></li></ul>
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p>
-
-</td> </tr>
+<li><p>Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket</p></li>
+ODER
+<li>Jedes Planungspaket, wenn es als eigenständiges Produkt gekauft wird</li>
+</ul>
+   </td> </tr>
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
-   <td><p>Standard</p>
-   </td> 
+   <td role="rowheader"><p>Adobe Workfront- und Planungslizenzen</p></td> 
+   <td><p>Beliebig</p> 
+  </td> 
+  </tr>  
+  <tr> 
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
@@ -138,7 +140,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -162,22 +164,22 @@ Old:
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Bewegen Sie den Mauszeiger über die Karte eines Datensatztyps und klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) in der oberen rechten Ecke der Karte Datensatztyp und klicken Sie dann auf **Bearbeiten** oder **Einstellungen**
-oder
+     oder
    * Klicken Sie auf eine Karte für den Datensatztyp, um die Seite für den Datensatztyp zu öffnen. Klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Namen des Datensatztyps und dann auf **Bearbeiten** oder **Einstellungen**.
 
    ![Weitere Menüoptionen auf der Karte „Datensatztyp“ mit Einstellungen](assets/more-menu-options-from-record-type-card-with-settings-link.png)
 
 1. Im Feld **Datensatztyp bearbeiten** wird standardmäßig die Registerkarte **Erscheinungsbild** geöffnet.
 
-   ![Registerkarte „Erscheinungsbild des Felds „Datensatztyp bearbeiten“ &#x200B;](assets/edit-record-type-box-appearance-tab.png)
+   ![Registerkarte „Erscheinungsbild des Felds „Datensatztyp bearbeiten“ ](assets/edit-record-type-box-appearance-tab.png)
 
    Aktualisieren Sie die folgenden Informationen auf der Registerkarte **Erscheinungsbild**:
 
    * Bearbeiten Sie bei Bedarf den Namen des Datensatztyps. <!--did they add a field label for this?-->
    * **Beschreibung**: Bearbeiten oder fügen Sie eine Beschreibung für den Datensatztyp mit weiteren Informationen hinzu.
    * Bearbeiten Sie die Farbe und Form des Symbols, das mit dem Datensatztyp verknüpft ist. Gehen Sie folgendermaßen vor:
-      * Farbe zur Identifizierung des Datensatztyps auswählen. Dies ist die Farbe des Symbols für den Datensatztyp.
-      * Wählen Sie ein Symbol aus der Liste aus oder geben Sie den Namen eines Symbols ein, um zu beschreiben, was es darstellt, und wählen Sie es dann aus, wenn es angezeigt wird. Dies ist das Symbol des Datensatztyps. Standardmäßig ist ein Dateisymbol ausgewählt.
+     * Farbe zur Identifizierung des Datensatztyps auswählen. Dies ist die Farbe des Symbols für den Datensatztyp.
+     * Wählen Sie ein Symbol aus der Liste aus oder geben Sie den Namen eines Symbols ein, um zu beschreiben, was es darstellt, und wählen Sie es dann aus, wenn es angezeigt wird. Dies ist das Symbol des Datensatztyps. Standardmäßig ist ein Dateisymbol ausgewählt.
 
 1. (Optional und bedingt) Wenn Sie Systemadministrator sind, klicken Sie auf die Registerkarte **Arbeitsbereichsübergreifende Einstellungen** und aktualisieren Sie die Informationen zu den arbeitsbereichsübergreifenden Funktionen des Datensatztyps.
 
@@ -187,7 +189,7 @@ oder
 
 1. Klicken Sie auf **Speichern**.
 
-   Wenn Sie ausgewählt haben, diesen Datensatz von anderen Arbeitsbereichen zu verbinden, wird das Symbol **Verbindbarer Datensatz** (Symbol ![&#x200B; Verbindung von anderen &#x200B;](assets/connect-from-other-workspaces-icon.png)) auf der Datensatzkarte angezeigt.
+   Wenn Sie ausgewählt haben, diesen Datensatz von anderen Arbeitsbereichen zu verbinden, wird das Symbol **Verbindbarer Datensatz** (Symbol ![ Verbindung von anderen ](assets/connect-from-other-workspaces-icon.png)) auf der Datensatzkarte angezeigt.
 
    Wenn Sie ausgewählt haben, dass dieser Datensatz anderen Arbeitsbereichen hinzugefügt werden kann, wird **Symbol „Globaler**&quot; ![Symbol „Globaler Datensatztyp](assets/global-icon.png) auf der Datensatzkarte angezeigt.
 

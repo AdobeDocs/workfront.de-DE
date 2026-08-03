@@ -9,21 +9,14 @@ exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/uyoOkZ9Yd48O9Sur9YMal4cBZD9e45bTbwc6TQ2fAds
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9025c23900c031594d1a4b875826fc35f1d5bf6c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 624
+source-wordcount: 622
 ht-degree: 10%
 
 ---
@@ -60,14 +53,26 @@ Sie können Kopien bestehender Workfront-Felder importieren. Beim Importieren vo
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<p>Beliebiges Workfront und beliebiges Planungspaket</p> <p>Beliebiger Workflow und beliebiges Planungspaket</p>
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
+<ul> 
+<li><p>Beliebige Workfront oder Workflows mit einem Planungspaket</p></li>
+ODER
+<li><p>Jedes Planungspaket, wenn es als eigenständiges Produkt gekauft wird</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
-   <td><p>Standard</p>
+   <td><p>Workflow-Standard</p>
    </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Planning-Lizenz</p></td> 
+   <td><p>Planungsstandard</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich</p>  
@@ -128,7 +133,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -147,24 +152,24 @@ Old:
 * Beim Importieren von Workfront-Feldern werden Kopien derselben Felder erstellt und der Feldname wird in Workfront Planning beibehalten. Nachdem sie in Workfront Planning kopiert wurden, sind die Felder von den Workfront-Originalfeldern unabhängig und geben keine Informationen weiter.
 <!--check this: * You do not need permissions or access to Workfront objects to be able to add their fields to Workfront Planning. -->
 * Sie können native oder benutzerdefinierte Felder aus den folgenden Workfront-Objekten hinzufügen:
-   * Portfolio
-   * Programm
-   * Projekt
-   * Aufgabe
-   * Problem
-   * Dokument
-   * Firma
-   * Gruppe
-   * Benutzerin oder Benutzer
-   * Aufgabengebiet
-   * Zuweisung
-   * Stunde
-   * Abrechnungseintrag
-     <!--Available only to Preview, but might not come to Prod:* Rate card - visible in Production but asking PM if it should be hidden-->
-   * Ausgabe
-   * Wiederholung
-     <!--* Non-labor resource - - visible in Production but asking PM if it should be hidden-->
-     <!--* Non-labour resource category - - visible in Production but asking PM if it should be hidden-->
+  * Portfolio
+  * Programm
+  * Projekt
+  * Aufgabe
+  * Problem
+  * Dokument
+  * Firma
+  * Gruppe
+  * Benutzerin oder Benutzer
+  * Aufgabengebiet
+  * Zuweisung
+  * Stunde
+  * Abrechnungseintrag
+    <!--Available only to Preview, but might not come to Prod:* Rate card - visible in Production but asking PM if it should be hidden-->
+  * Ausgabe
+  * Wiederholung
+    <!--* Non-labor resource - - visible in Production but asking PM if it should be hidden-->
+    <!--* Non-labour resource category - - visible in Production but asking PM if it should be hidden-->
 * Workfront-Felder behalten ihren Feldtyp möglicherweise nicht bei, nachdem sie in Workfront Planning importiert wurden.
 
   Die nachstehende Tabelle zeigt die Workfront-Feldtypen und den entsprechenden Workfront Planning-Feldtyp.
@@ -185,7 +190,7 @@ Old:
   | Optionsfeld | Mehrfachauswahl |
 
   *Berechnete Felder stehen zu einem späteren Zeitpunkt zur Verfügung.
-Alle anderen Workfront-Feldtypen werden in Workfront Planning nicht unterstützt.
+  Alle anderen Workfront-Feldtypen werden in Workfront Planning nicht unterstützt.
 
 
 ## Felder aus Workfront importieren

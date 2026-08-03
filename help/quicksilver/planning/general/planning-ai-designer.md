@@ -9,21 +9,15 @@ exl-id: ba7a4b04-5faa-41b6-86d0-4d0ce946ad1e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/YZRzcl8ymUo85jplCgKOx-qI83Gqa4CUI6saxfijtec
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e8216d44973c43f14ef615a6f8c4eb1cb05bd935
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1496
-ht-degree: 5%
+source-wordcount: 1528
+ht-degree: 6%
 
 ---
 
@@ -52,7 +46,7 @@ Weitere Informationen zu Workfront Planning finden Sie in den folgenden Artikeln
 * [Überblick über den Zugriff auf Adobe Workfront-Planung](/help/quicksilver/planning/access/access-overview.md)
 
 
-## &#x200B;<!--edit theses??--> der Zugriffsanforderungen
+## Zugriffsanforderungen
 
 +++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
@@ -66,20 +60,25 @@ Weitere Informationen zu Workfront Planning finden Sie in den folgenden Artikeln
    <td role="rowheader"><p>Adobe Workfront-Pakete</p></td> 
    <td> 
 <p>Jedes Workfront- oder Workflow-Paket mit einem Planungspaket</p>
-<p>Beliebige Planung als eigenständiges Produktpaket</p>
+<p>Jede Planung beim Kauf als eigenständiges Produkt</p>
    </td> </tr>
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Workfront-Lizenz</p></td> 
-   <td><p>Standard</p> 
+   <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
+   <td><p>Workflow-Standard</p> 
    <p>Workfront-Administratoren müssen die Planning Designer für Ihr Unternehmen aktivieren</p>
   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Planungsgenehmigung</p></td> 
-   <td><p>Standard</p> 
+   <td><p>Planungsstandard</p> 
    <p>Workfront-Administratoren müssen die Planning Designer für Ihr Unternehmen aktivieren</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
@@ -158,7 +157,7 @@ After we receive the email, our Engineering team will turn on the Planning Desig
 
 Sie können während des Beta-Programms Feedback zur Planning Designer senden.
 
-1. Melden Sie sich bei Workfront an und klicken Sie dann oben links auf **&#x200B;**-Symbol ![Hauptmenü „Zeilen](assets/lines-main-menu.png) und dann auf **Planung**.
+1. Melden Sie sich bei Workfront an und klicken Sie dann oben links auf ****-Symbol ![Hauptmenü „Zeilen](assets/lines-main-menu.png) und dann auf **Planung**.
 
    Der Bereich **Planung** wird geöffnet.
 
@@ -246,7 +245,7 @@ Sie können entweder den Planning-Designer oder den KI-Assistenten verwenden, um
   >Wenn Sie derzeit eine erhebliche Anzahl von Datensätzen importieren müssen, empfehlen wir, hierzu die in Planning verfügbaren manuellen Funktionen zu verwenden.
   >
   >Weitere Informationen finden Sie unter [Erstellen von Datensätzen durch Importieren von Informationen aus einer CSV- oder Excel-Datei](/help/quicksilver/planning/records/import-file-to-create-records.md).
-  >Informationen zu Dateitypbeschränkungen finden Sie im Abschnitt „Abrufen von Vorschlägen basierend auf einem Dokument, das Sie hochladen“ im Abschnitt &quot;[&#x200B; von Formularausfüllen mit KI zum Ausfüllen einer Anfrage mithilfe von Eingabeaufforderungen oder Dokumenten](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+  >Informationen zu Dateitypbeschränkungen finden Sie im Abschnitt „Abrufen von Vorschlägen basierend auf einem Dokument, das Sie hochladen“ im Abschnitt &quot;[ von Formularausfüllen mit KI zum Ausfüllen einer Anfrage mithilfe von Eingabeaufforderungen oder Dokumenten](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 
 
   <!--* Generate thumbnail and over image for a record (not available yet, maybe Q2) -->
@@ -255,7 +254,7 @@ Sie können entweder den Planning-Designer oder den KI-Assistenten verwenden, um
 
 Sie können Objekte in Workfront Planning entweder mithilfe der Planning-Designer oder des KI-Assistenten erstellen oder aktualisieren, sofern nicht anders angegeben.
 
-1. Melden Sie sich bei Workfront an und klicken Sie dann oben links auf **&#x200B;**-Symbol ![Hauptmenü „Zeilen](assets/lines-main-menu.png) und dann auf **Planung**.
+1. Melden Sie sich bei Workfront an und klicken Sie dann oben links auf ****-Symbol ![Hauptmenü „Zeilen](assets/lines-main-menu.png) und dann auf **Planung**.
 
    Der Bereich **Planung** wird geöffnet. <!--update screen shot when they change the name of the button-->
 
@@ -304,7 +303,7 @@ Sie können Objekte in Workfront Planning entweder mithilfe der Planning-Designe
    >Einige Objekte werden sofort erstellt, ohne dass eine Bestätigung erforderlich ist.
 
 1. (Optional) Geben Sie zusätzliche Eingabeaufforderungen ein, um Ihre Objekte weiter zu bearbeiten.
-1. (Optional) Klicken Sie auf das Symbol **Vorschaufenster anzeigen oder ausblenden** Symbol ![Vorschaufenster ein- oder &#x200B;](assets/hide-show-preview-screen-in-planning-designer.png) anzeigen), um den Vorschaufenster auf der rechten Seite zu öffnen oder zu schließen.
+1. (Optional) Klicken Sie auf das Symbol **Vorschaufenster anzeigen oder ausblenden** Symbol ![Vorschaufenster ein- oder ](assets/hide-show-preview-screen-in-planning-designer.png) anzeigen), um den Vorschaufenster auf der rechten Seite zu öffnen oder zu schließen.
 1. Klicken Sie auf **Symbol „Arbeitsbereich in neuer Registerkarte öffnen** Symbol ![Arbeitsbereich in neuer Registerkarte öffnen](assets/open-workspace-on-new-tab-icon.png), um den Arbeitsbereich, den Sie aktualisieren, in einer neuen Registerkarte zu öffnen.
 1. Klicken Sie auf das **Schließen**-Symbol **X**, um Planning Designer zu schließen und den Arbeitsbereich zu öffnen.
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um einen Arbeitsbereich zu bearbeiten:

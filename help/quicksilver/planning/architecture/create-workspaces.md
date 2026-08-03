@@ -9,21 +9,14 @@ exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LtHxTws4o0FI964-qOtFE-sbKaLGRQroBQvMD5fOUvY
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1252
+source-wordcount: 1279
 ht-degree: 3%
 
 ---
@@ -60,16 +53,28 @@ Allgemeine Informationen zu Arbeitsbereichen finden Sie unter [Arbeitsbereiche -
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<p>Beliebiges Workfront- oder Workflow-Paket</p> 
-<p>Beliebiges Workfront-Planungspaket</p>
+<p>Jedes Workfront- oder Workflow-Paket mit einem Planungspaket</p> 
+<p>Jedes Planungspaket, wenn es als eigenständiges Produkt gekauft wird</p>
+
+<p><b>NOTIZ</b></p>
 <p>Ein Workfront Planning Prime- oder höher-Paket zum Erstellen mehrerer Arbeitsbereiche gleichzeitig</p>
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
-   </td> 
+
+</td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
-   <td><p>Standard</p>
+   <td><p>Workflow-Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning-Lizenz</p></td> 
+   <td><p>Planungsstandard</p>
    <p>Systemadmin. zur gleichzeitigen Erstellung mehrerer Arbeitsbereiche mithilfe des Best-Practice-Vorlagenpakets</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
@@ -131,7 +136,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -261,41 +266,41 @@ Die im Bundle enthaltenen Vorlagen enthalten Arbeitsbereiche, Datensatztypen, Da
 
    * Klicken Sie **Arbeitsbereich erstellen** und führen Sie dann die folgenden Schritte aus:
 
-      1. Das Feld Arbeitsbereich erstellen wird angezeigt. Sie können einen Arbeitsbereich von Grund auf neu erstellen oder ihn mit einer der verfügbaren Vorlagen erstellen.
+     1. Das Feld Arbeitsbereich erstellen wird angezeigt. Sie können einen Arbeitsbereich von Grund auf neu erstellen oder ihn mit einer der verfügbaren Vorlagen erstellen.
 
-      1. Klicken Sie **Bereich** Hier beginnen (empfohlen **auf „Arbeitsbereich-Setup überprüfen**.
-      1. (Optional) Klicken Sie **Vorschau** in einer der folgenden vordefinierten Arbeitsbereichsvorlagen, um das Vorschaufeld für jede Vorlage zu öffnen:
+     1. Klicken Sie **Bereich** Hier beginnen (empfohlen **auf „Arbeitsbereich-Setup überprüfen**.
+     1. (Optional) Klicken Sie **Vorschau** in einer der folgenden vordefinierten Arbeitsbereichsvorlagen, um das Vorschaufeld für jede Vorlage zu öffnen:
 
-         * &#x200B;1. Globale Klassifizierungen und Taxonomien
+        * &#x200B;1. Globale Klassifizierungen und Taxonomien
 
-           Die Vorlage Globale Klassifizierungen und Taxonomien enthält alle Datensatztypen und -felder, die Sie in Ihrer Umgebung für eine erfolgreiche Implementierung von Workfront Planning erstellen sollten.
+          Die Vorlage Globale Klassifizierungen und Taxonomien enthält alle Datensatztypen und -felder, die Sie in Ihrer Umgebung für eine erfolgreiche Implementierung von Workfront Planning erstellen sollten.
 
-           Sie können die Datensatztypen in dieser Vorlage später in andere von Ihnen erstellte Arbeitsbereiche verknüpfen oder importieren.
-         * 2.Fréscopa Global Marketing
-         * 3.Fréscopa Social Marketing
-         * 4.Fréscopa Medien und PR
-         * 5.Fréscopa Global Events
-         * 6.Fréscopa Führende Unternehmensführung
+          Sie können die Datensatztypen in dieser Vorlage später in andere von Ihnen erstellte Arbeitsbereiche verknüpfen oder importieren.
+        * 2.Fréscopa Global Marketing
+        * 3.Fréscopa Social Marketing
+        * 4.Fréscopa Medien und PR
+        * 5.Fréscopa Global Events
+        * 6.Fréscopa Führende Unternehmensführung
 
-      1. Nachdem Sie das Feld **Vorschau** für jede Arbeitsbereichsvorlage geöffnet haben, klicken Sie auf **Zurück**, um zum Feld **Arbeitsbereich erstellen** zurückzukehren, oder klicken Sie auf **Vorlagen verwenden**, um die Vorlagen zu verwenden, einschließlich im Bundle, und Arbeitsbereiche zu erstellen.
+     1. Nachdem Sie das Feld **Vorschau** für jede Arbeitsbereichsvorlage geöffnet haben, klicken Sie auf **Zurück**, um zum Feld **Arbeitsbereich erstellen** zurückzukehren, oder klicken Sie auf **Vorlagen verwenden**, um die Vorlagen zu verwenden, einschließlich im Bundle, und Arbeitsbereiche zu erstellen.
 
 
    * Klicken Sie auf **Registerkarte** Beispielarbeitsbereiche“ und führen Sie dann die folgenden Schritte aus:
 
-      1. Klicken Sie auf der Registerkarte auf eine der Arbeitsbereichsvorlagen, um die Datensatztypen und -felder in den einzelnen Vorlagen zu überprüfen. Vorlagen auf der Registerkarte **Beispiel-**&quot; sind schreibgeschützt.
-      1. Klicken **oben rechts** einer Vorlage auf „Erstellen aus Vorlagen“.
-      1. (Optional) Klicken Sie **einer** auf „Vorschau“, um die Datensatztypen und ihre Felder anzuzeigen.
+     1. Klicken Sie auf der Registerkarte auf eine der Arbeitsbereichsvorlagen, um die Datensatztypen und -felder in den einzelnen Vorlagen zu überprüfen. Vorlagen auf der Registerkarte **Beispiel-**&quot; sind schreibgeschützt.
+     1. Klicken **oben rechts** einer Vorlage auf „Erstellen aus Vorlagen“.
+     1. (Optional) Klicken Sie **einer** auf „Vorschau“, um die Datensatztypen und ihre Felder anzuzeigen.
 
-         >[!TIP]
-         >
-         >Wenn Sie in einer Vorlage auf eine Karte für den Datensatztyp klicken, werden die Felder des Datensatztyps im rechten Bedienfeld angezeigt.
-      1. Klicken Sie **Vorlagen verwenden**.
+        >[!TIP]
+        >
+        >Wenn Sie in einer Vorlage auf eine Karte für den Datensatztyp klicken, werden die Felder des Datensatztyps im rechten Bedienfeld angezeigt.
+     1. Klicken Sie **Vorlagen verwenden**.
 
    Die 6 Arbeitsbereiche werden erstellt und auf den Registerkarten **Arbeitsbereiche bin ich** und **Alle Arbeitsbereiche** für Systemadministratoren angezeigt. Alle Benutzer von Standardlizenzen sehen die Arbeitsbereiche in ihrem Arbeitsbereich, nachdem ein Systemadministrator sie erstellt und die neuen Arbeitsbereiche für sie freigegeben hat.
 
 1. Beginnen Sie mit der Bearbeitung der von Ihnen erstellten Arbeitsbereiche und fügen Sie Datensatztypen, Datensätze, Ansichten und Felder hinzu, die für Ihre Organisation relevant sind.
 
-   Weitere Informationen zu Best Practices für die Implementierung von Workfront finden Sie in den Artikeln im Abschnitt [Best Practices für die Adobe Workfront-Planung: &#x200B;](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
+   Weitere Informationen zu Best Practices für die Implementierung von Workfront finden Sie in den Artikeln im Abschnitt [Best Practices für die Adobe Workfront-Planung: ](/help/quicksilver/planning/best-practices.md/best-practices-article-index.md).
 
    Informationen zum Bearbeiten von Arbeitsbereichen finden Sie unter [Bearbeiten von Arbeitsbereichen](/help/quicksilver/planning/architecture/edit-workspaces.md).
 

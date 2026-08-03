@@ -9,14 +9,10 @@ exl-id: 5027d611-916e-492d-9a44-841bdde11c94
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/bXHqOBB2iT-YWoWM7CSnOTl8EzFfJJH9PLrRIzwaKNw
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
 source-wordcount: 784
 ht-degree: 5%
@@ -129,7 +125,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -153,21 +149,21 @@ Old:
 * Sie können nur auf Felder verweisen, die in der Tabellenansicht eines Datensatztyps oder auf der Seite mit den Datensatzdetails angezeigt werden.
 * Sie können das Format für den Wert einer Formelberechnung definieren, indem Sie aus den folgenden Formatoptionen auswählen:
 
-   * Text
-   * Zahl
-   * Prozent
-   * Währung
-   * Tags
-   * Datum
+  * Text
+  * Zahl
+  * Prozent
+  * Währung
+  * Tags
+  * Datum
 
   Weitere Informationen finden Sie im Abschnitt „Formel“ im Artikel [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
 * Sie können Formelfelder in neuen Formeln referenzieren. Sobald der Wert in einem Feld aktualisiert wird, auf das in einem Formelfeld verwiesen wird, werden alle nachfolgenden Felder, die auf dieses Feld oder Formelfelder verweisen, die dieses Feld enthalten, automatisch aktualisiert.
 
 * Wenn Sie ein Formelfeld oder ein Feld aktualisieren, das Auswirkungen darauf haben könnte, werden Sie durch einen Warnhinweis über die Auswirkungen Ihrer Änderung informiert. Der Warnhinweis wird in den folgenden Fällen angezeigt:
 
-   * Wenn Sie ein Formelfeld aktualisieren (mit Ausnahme von Namen- und Beschreibungsänderungen), wenn dieses Feld abhängige Formelfelder oder Suchfelder enthält. Der Warnhinweis listet diese abhängigen Felder auf und fragt Sie, ob Sie fortfahren möchten.
+  * Wenn Sie ein Formelfeld aktualisieren (mit Ausnahme von Namen- und Beschreibungsänderungen), wenn dieses Feld abhängige Formelfelder oder Suchfelder enthält. Der Warnhinweis listet diese abhängigen Felder auf und fragt Sie, ob Sie fortfahren möchten.
 
-   * Wenn Sie ein Feld löschen, das in einem Formelausdruck oder als Suchfeld verwendet wird. Der Warnhinweis listet die abhängigen Formel- und Lookup-Felder auf und fragt Sie, ob Sie mit der Löschung fortfahren möchten.
+  * Wenn Sie ein Feld löschen, das in einem Formelausdruck oder als Suchfeld verwendet wird. Der Warnhinweis listet die abhängigen Formel- und Lookup-Felder auf und fragt Sie, ob Sie mit der Löschung fortfahren möchten.
 
 ## Einschränkungen bei Formelfeldern
 
@@ -178,13 +174,13 @@ Old:
 * Der Formelausdruck darf 50.000 Zeichen nicht überschreiten.
 
 * Formelfelder werden in den folgenden Fällen möglicherweise als `#ERROR!` angezeigt:
-   * Wenn ein in einer Formel verwendetes Feld gelöscht wird.
-   * Wenn ein in einem aggregierten Suchfeld verwendetes Feld als `#ERROR!` angezeigt wird.
+  * Wenn ein in einer Formel verwendetes Feld gelöscht wird.
+  * Wenn ein in einem aggregierten Suchfeld verwendetes Feld als `#ERROR!` angezeigt wird.
 
-     Beispiel: Sie zeigen ein Suchfeld an, das aggregierte Suchformularfelder enthält, und eines der referenzierten Formelfelder wird als `#ERROR!` angezeigt.
-   * Wenn ein Formelwert nicht im ausgewählten Format angezeigt werden kann.
+    Beispiel: Sie zeigen ein Suchfeld an, das aggregierte Suchformularfelder enthält, und eines der referenzierten Formelfelder wird als `#ERROR!` angezeigt.
+  * Wenn ein Formelwert nicht im ausgewählten Format angezeigt werden kann.
 
-     Wenn ich beispielsweise Zahl für das Format eines Formelfelds auswähle und die in der Formel verwendeten Felder Textfelder sind, die nur nicht numerische Textwerte anzeigen, wird das Formelergebnis als `#ERROR!` angezeigt, da der Text nicht in eine Zahl zerlegt werden kann.
+    Wenn ich beispielsweise Zahl für das Format eines Formelfelds auswähle und die in der Formel verwendeten Felder Textfelder sind, die nur nicht numerische Textwerte anzeigen, wird das Formelergebnis als `#ERROR!` angezeigt, da der Text nicht in eine Zahl zerlegt werden kann.
 
 
 ## Unterstützte Formeln

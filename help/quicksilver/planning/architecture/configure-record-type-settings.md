@@ -9,20 +9,14 @@ exl-id: 4674d539-7a16-4d51-a564-e79dc9b4afca
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/d4nAXZ-yoVbPEpInRnGOsLGVILCLa4qT3P8HFcVO-LM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 429
+source-wordcount: 445
 ht-degree: 6%
 
 ---
@@ -67,30 +61,39 @@ Je nachdem, welche Funktionen Sie für einen Datensatztyp definieren möchten, k
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<p>Beliebiges Workfront- und Planungspaket</p>
-<p>Beliebiges Workflow- und Planungspaket</p>
+<p>Beliebige Workfront oder Workflows mit einem Planungspaket</p>
+ODER 
+<p>Jedes Planungspaket, wenn es als eigenständiges Produkt gekauft wird</p>
 
 <p><b>NOTIZ</b></p>
 
 <p>So konfigurieren Sie verbindbare Datensatztypen:</p>
 
 <ul> 
-<li><p>Beliebiges Workfront- und Planungspaket</p></li>
+<li><p>Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket</p></li>
 ODER
-<li><p>Ein beliebiges Workflow-Paket und ein Planning Prime- oder Ultimate-Paket</p></li></ul>
+<li>Ein Planning Prime- oder Ultimate-Paket, wenn es als eigenständiges Produkt gekauft wird</li>
+</ul>
 
 <p>So konfigurieren Sie globale Datensatztypen:</p>
 
 <ul> 
 <li><p>Beliebiges Workfront-Paket und Planning Plus-Paket</p></li>
 ODER
-<li><p>Ein beliebiges Workflow-Paket und ein Planning Prime- oder Ultimate-Paket</p></li></ul>
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p>
+<li><p>Ein beliebiges Workflow-Paket und ein Planning Prime- oder Ultimate-Paket</p></li>
+ODER
+<li>Ein Planning Prime- oder Standalone-Paket, wenn es als eigenständiges Produkt gekauft wird </li>
 
-</td> </tr>
+</ul>
+  </td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
-   <td><p>Standard</p>
+   <td><p>Workflow-Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning-Lizenz</p></td> 
+   <td><p>Planungsstandard</p>
    </td> 
   </tr> 
   <tr> 
@@ -153,7 +156,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 

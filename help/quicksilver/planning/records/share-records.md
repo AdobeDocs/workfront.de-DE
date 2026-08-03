@@ -9,19 +9,14 @@ exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Ct6I5wnivCVr3V86Zj4F7stm2IVUJVH50yvTRyWFuUA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b186900d58f6a422c787cef881a4d06d6cd7feed
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 677
+source-wordcount: 711
 ht-degree: 2%
 
 ---
@@ -54,9 +49,9 @@ Darüber hinaus können Sie Datensätze auf folgende Arten freigeben:
 
   Weitere Informationen finden Sie in den folgenden Artikeln:
 
-   * [Freigeben eines Arbeitsbereichs](/help/quicksilver/planning/access/share-workspaces.md)
+  * [Freigeben eines Arbeitsbereichs](/help/quicksilver/planning/access/share-workspaces.md)
 
-   * [Datensatztyp freigeben](/help/quicksilver/planning/access/share-record-types.md)
+  * [Datensatztyp freigeben](/help/quicksilver/planning/access/share-record-types.md)
 
 * Sie können einzelne Datensätze für Personen, Teams, Rollen, Gruppen oder Unternehmen freigeben, indem Sie die geerbten Berechtigungen deaktivieren, wenn die Datensätze für Arbeitsbereiche oder Datensatztypen freigegeben werden.
 
@@ -79,13 +74,28 @@ Darüber hinaus können Sie Datensätze auf folgende Arten freigeben:
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<p>Beliebiges Workfront und beliebiges Planungspaket</p> <p>Beliebiger Workflow und beliebiges Planungspaket</p>
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
+<ul> 
+<li><p>Beliebige Workfront oder Workflows mit einem Planungspaket</p></li>
+ODER
+<li><p>Jedes Planungspaket, wenn es als eigenständiges Produkt gekauft wird</p></li></ul>
    </td> 
   <tr> 
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
-   <td><p>Mitwirkende oder höher</p>
+   <td><p>Mitwirkender am Workflow oder höher</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning-Lizenz</p></td> 
+   <td><p>Planender oder höher</p>
+   <p><b>NOTIZ</b></p>
+   <p>Nicht alle Kunden verfügen über eine Lizenz für Planning Contributor</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
@@ -147,7 +157,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 

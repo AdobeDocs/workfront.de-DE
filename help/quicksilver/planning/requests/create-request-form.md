@@ -9,22 +9,14 @@ exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/j4ZFzyPot9XkML8u1-kmO6x4lRR3X2SGBwfthepmir0
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 2948
+source-wordcount: 2968
 ht-degree: 2%
 
 ---
@@ -60,20 +52,28 @@ Weitere Informationen zum Senden einer Anfrage an einen Datensatztyp zum Erstell
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Pakete</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<p>Jedes Workfront-Paket und jedes Planungspaket</p>
+<ul> 
+<li><p>Beliebige Workfront oder Workflows mit einem Planungspaket</p></li>
 ODER
-<p>Beliebiges Workflow-Paket und beliebiges Planungspaket</p>
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer.</p>
+<li><p>Jedes Planungspaket, wenn es als eigenständiges Produkt gekauft wird</p></li></ul>
    </td> </tr>
-
-</tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
-   <td><p>Standard</p> 
-  </td> 
+   <td><p>Workflow-Standard</p>
+   </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Planning-Lizenz</p></td> 
+   <td><p>Planungsstandard</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich oder Datensatztyp</a> </p>  
@@ -94,27 +94,27 @@ Informationen zum Senden von Workfront-Planungsanfragen finden Sie unter [Senden
 
 * Im Folgenden wird beschrieben, wie bestimmte Felder in Anfrageformularen, in von einem Anfrageformular erstellten Datensätzen oder auf der Seite mit den Anfragedetails angezeigt werden:
 
-   * Sie können keine Felder der folgenden Typen zu einem Anfrageformular hinzufügen:
+  * Sie können keine Felder der folgenden Typen zu einem Anfrageformular hinzufügen:
 
-      * Erstellt von, Zuletzt geändert von, Genehmigt von
-      * Erstellungsdatum, Datum der letzten Änderung, Genehmigungsdatum
-      * Eintrags-ID
-      * Suchfelder der Workfront-Objekte
-      * Suchfelder für verknüpfte Datensätze in Workfront
+    * Erstellt von, Zuletzt geändert von, Genehmigt von
+    * Erstellungsdatum, Datum der letzten Änderung, Genehmigungsdatum
+    * Eintrags-ID
+    * Suchfelder der Workfront-Objekte
+    * Suchfelder für verknüpfte Datensätze in Workfront
 
 * Im Folgenden werden die Unterschiede zwischen der Anzeige von Feldformaten im Formular-Builder für Anfragen und der Formatierung der Werte der Felder im Datensatz oder auf der Seite mit den Anfragedetails beschrieben:
 
-   * Die Felder Währung, Zahl und Prozentsatz werden im Formular-Builder als einzeiliges Textfeld angezeigt.
+  * Die Felder Währung, Zahl und Prozentsatz werden im Formular-Builder als einzeiliges Textfeld angezeigt.
 
-     Das Feldformat wird jedoch beibehalten und die Feldwerte werden nach dem Senden der Anfrage als Währung, Zahlen und Prozentsätze auf dem Datensatztyp und auf der Seite mit den Anfragedetails angezeigt.
+    Das Feldformat wird jedoch beibehalten und die Feldwerte werden nach dem Senden der Anfrage als Währung, Zahlen und Prozentsätze auf dem Datensatztyp und auf der Seite mit den Anfragedetails angezeigt.
 
 * Im Folgenden wird beschrieben, wie einige Feldwerte auf Anfrageformularen und den Anfragedetailseiten angezeigt werden:
 
-   * Die spezielle Formatierung für die Felder Währung, Zahl und Prozentsatz wird nicht beibehalten. Beispielsweise bleibt die Dezimalgenauigkeit für die Werte dieser Felder in diesen Bereichen nicht erhalten.
-   * Personenfeldwerte werden als IDs angezeigt.
-   * Formelfelder, die nicht auf andere Felder oder Berechnungen verweisen, zeigen keine Werte an. Beispiel: Ein Feld mit einer `STRING` Formel zeigt den Wert „K. A.“ an.
-   * Formelfelder, die auf Währungsfelder verweisen, zeigen die Werte ohne Berücksichtigung von Wechselkursen an.
-   * Die Werte der Absatzfelder zeigen auf dem Anfrageformular den Wert „K. A.“ an und auf der Seite mit den Anfragedetails werden HTML-Tags anstelle des formatierten Texts angezeigt.
+  * Die spezielle Formatierung für die Felder Währung, Zahl und Prozentsatz wird nicht beibehalten. Beispielsweise bleibt die Dezimalgenauigkeit für die Werte dieser Felder in diesen Bereichen nicht erhalten.
+  * Personenfeldwerte werden als IDs angezeigt.
+  * Formelfelder, die nicht auf andere Felder oder Berechnungen verweisen, zeigen keine Werte an. Beispiel: Ein Feld mit einer `STRING` Formel zeigt den Wert „K. A.“ an.
+  * Formelfelder, die auf Währungsfelder verweisen, zeigen die Werte ohne Berücksichtigung von Wechselkursen an.
+  * Die Werte der Absatzfelder zeigen auf dem Anfrageformular den Wert „K. A.“ an und auf der Seite mit den Anfragedetails werden HTML-Tags anstelle des formatierten Texts angezeigt.
 
 ## Anfrageformular erstellen
 
@@ -124,7 +124,7 @@ Um ein Anfrageformular zu erstellen, müssen Sie Folgendes ausfüllen:
 * Konfigurieren Sie die Einstellungen des Formulars, um Validierungen und Abschlussoptionen für zukünftige Anfragen hinzuzufügen
 * Formular veröffentlichen
 
-### Neues Formular hinzufügen
+### Hinzufügen eines neuen Formulars
 
 {{step1-to-planning}}
 
@@ -206,7 +206,7 @@ Um ein Anfrageformular zu erstellen, müssen Sie Folgendes ausfüllen:
 1. (Optional) Klicken Sie auf **Vorschau**, um anzuzeigen, wie das Formular für andere Benutzer angezeigt wird, wenn diese es zum Senden einer Anfrage verwenden.
 1. Fahren Sie mit einer der folgenden Aktionen fort:
 
-   * [Konfigurieren von &#x200B;](#configure-form-settings), wenn Sie weitere Details für das Formular in der Produktionsumgebung konfigurieren möchten
+   * [Konfigurieren von ](#configure-form-settings), wenn Sie weitere Details für das Formular in der Produktionsumgebung konfigurieren möchten
    * [Formular veröffentlichen](#publish-form) wenn Sie keine weiteren Einstellungen konfigurieren möchten.
 
 ### Konfigurieren von Formulareinstellungen
@@ -237,7 +237,7 @@ So konfigurieren Sie Formulareinstellungen:
    Das Anfrageformular für den ausgewählten Datensatztyp wird auf der Registerkarte Formular geöffnet.
 1. (Optional) Richten Sie alle Formulardetails ein, wie in [Einrichten von Formulardetails](#set-up-form-details) beschrieben.
 
-1. Um mit der Konfiguration von Genehmigungsregeln zu beginnen, klicken Sie ![&#x200B; der linken Navigationsleiste auf Genehmigungen &#x200B;](assets/approvals-icon-on-form.png)Genehmigungssymbol).
+1. Um mit der Konfiguration von Genehmigungsregeln zu beginnen, klicken Sie ![ der linken Navigationsleiste auf Genehmigungen ](assets/approvals-icon-on-form.png)Genehmigungssymbol).
 
 1. (Optional) Wenn Sie einen Standardgenehmigungsprozess festlegen möchten, fügen Sie mindestens einen Benutzer oder ein Team zum Feld **Genehmigende Person** im Bereich Standardgenehmigungsregel hinzu. Aktivieren Sie dann das Kontrollkästchen **Nur eine Entscheidung ist erforderlich**, wenn der Datensatz erstellt werden soll, nachdem eine der Standardgenehmigenden ihn genehmigt hat.
 
@@ -285,7 +285,7 @@ So konfigurieren Sie Formulareinstellungen:
 
 1. Klicken Sie **Freigeben**, um das Formular für andere freizugeben.
 
-   Informationen zum Freigeben eines Anfrageformulars finden Sie [&#x200B; Abschnitt „Freigeben eines &#x200B;](#share-a-request-form)&quot; in diesem Artikel
+   Informationen zum Freigeben eines Anfrageformulars finden Sie [ Abschnitt „Freigeben eines ](#share-a-request-form)&quot; in diesem Artikel
 1. Klicken Sie auf den nach links zeigenden Pfeil links neben dem Namen des Formulars in der Kopfzeile, um das Formular zu schließen.
 
    Die Liste **Formulare anfragen** wird geöffnet, und das Formular wird in der Liste angezeigt.

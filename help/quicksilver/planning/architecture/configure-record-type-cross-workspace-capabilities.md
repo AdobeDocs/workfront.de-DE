@@ -9,20 +9,14 @@ exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Erl28TyQUAOJR3XcK9J1FnL4Sdr-kMCHUjz5pAN-zzs
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1438
+source-wordcount: 1465
 ht-degree: 2%
 
 ---
@@ -79,22 +73,23 @@ Weitere Informationen finden Sie in einem der folgenden Artikel:
    <td> 
 <p>So konfigurieren Sie verbindbare Datensatztypen: </p>
 <ul> 
-<li><p>Jedes Workfront-Paket und jedes Planungspaket</p></li>
+<li>Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket</p></li>
 ODER
-<li>Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket</p></li></ul>
-
+<li>Ein Workfront Planning Prime- oder Ultimate-Paket als eigenständiges Produkt</li>
+</ul>
 
 <p>So konfigurieren Sie globale Datensatztypen:</p>
 
 <ul> 
-<li><p>Beliebiges Workfront-Paket und Planning Plus-Paket</p></li>
+<li><p>Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket</p></li>
+
 ODER
-<li><p>Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket</p></li></ul>
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p>
+<li>Ein Planning Prime- oder Ultimate-Paket, wenn es als eigenständiges Produkt gekauft wird </li>
+</ul>
 
 </td> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
+   <td role="rowheader"><p>Adobe Workfront und Planning-Lizenz</p></td> 
    <td>
    <!--
    <p>In the Production environment: </p>
@@ -105,15 +100,17 @@ ODER
    -->
 
 <p>So erstellen Sie einen globalen Datensatz:</p>
-   <ul><li>Standard oder höher</li></ul>
+   <ul><li>Workfront und Planning Standard oder höher</li></ul>
    <p>So machen Sie einen Datensatz verbindbar:</p>
 
-<ul><li>Standard, um aus bestimmten Arbeitsbereichen eine Verbindung zu einem Datensatz herzustellen</li>
+<ul><li>Workfront und Planning Standard, um einen Datensatz aus bestimmten Arbeitsbereichen verbindbar zu machen</li>
    <li>Systemadministrator, um einen Datensatz aus allen Arbeitsbereichen verbindbar zu machen</li></ul>
-
 
 </td> 
   </tr> 
+  <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   
+</td> 
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich</p>  
@@ -225,7 +222,7 @@ So konfigurieren Sie einen Datensatztyp als global:
    >
    >Sie müssen mindestens eine Entität (Benutzer, Team, Gruppe, Rolle oder Unternehmen) festlegen, um diese Einstellung aktivieren zu können.
 
-1. (Bedingt) Klicken Sie **&#x200B;**&#x200B;Feld **Datensatztyp bearbeiten** auf „Speichern“ oder klicken Sie auf den Rückwärtspfeil links neben dem Abschnitt **Einstellungen** in der Kopfzeile der Seite, um Ihre Änderungen zu speichern.
+1. (Bedingt) Klicken Sie **** Feld **Datensatztyp bearbeiten** auf „Speichern“ oder klicken Sie auf den Rückwärtspfeil links neben dem Abschnitt **Einstellungen** in der Kopfzeile der Seite, um Ihre Änderungen zu speichern.
 
    Folgendes geschieht:
 
@@ -235,7 +232,7 @@ So konfigurieren Sie einen Datensatztyp als global:
    >
    >Sie können das Erscheinungsbild und die Einstellungen des Datensatztyps sowie seine ursprünglichen Felder nur über den ursprünglichen Arbeitsbereich bearbeiten.
 
-   * Die Karte „Datensatztyp“ zeigt das Symbol **globaler Datensatztyp** ![Symbol für globalen Datensatztyp in primärem &#x200B;](assets/global-icon.png) an, um anzugeben, dass der Datensatztyp anderen Arbeitsbereichen hinzugefügt werden kann.
+   * Die Karte „Datensatztyp“ zeigt das Symbol **globaler Datensatztyp** ![Symbol für globalen Datensatztyp in primärem ](assets/global-icon.png) an, um anzugeben, dass der Datensatztyp anderen Arbeitsbereichen hinzugefügt werden kann.
    * Zur Tabellenansicht des Datensatztyps und **Details seiner Datensätze wird ein systemgeneriertes Workspace-Feld vom Typ** hinzugefügt.
 
      Das Feld Workspace zeigt den Arbeitsbereich an, aus dem jeder Datensatz erstellt wird.
@@ -292,7 +289,7 @@ So konfigurieren Sie einen Datensatztyp als global:
    * **Alle Arbeitsbereiche**: Benutzer können von allen Arbeitsbereichen, für die sie über Verwaltungsberechtigungen verfügen, aus eine Verbindung zu diesem Datensatztyp herstellen. Diese Option ist für Workspace-Manager mit einer Standardlizenz abgeblendet. Nur Systemadministratoren können die Verbindung von Datensatztypen aus allen Arbeitsbereichen aktivieren.
    * **Spezifische Arbeitsbereiche**: Fügen Sie aus dem Dropdown-Menü die Namen der Arbeitsbereiche hinzu, über die sich Workspace-Manager mit diesem Datensatztyp verbinden können.
 
-1. (Bedingt) Klicken Sie **&#x200B;**&#x200B;Feld **Datensatztyp bearbeiten** auf „Speichern“ oder klicken Sie links neben **Einstellungen** in der Seitenkopfzeile auf den Rückwärtspfeil, um Ihre Änderungen zu speichern.
+1. (Bedingt) Klicken Sie **** Feld **Datensatztyp bearbeiten** auf „Speichern“ oder klicken Sie links neben **Einstellungen** in der Seitenkopfzeile auf den Rückwärtspfeil, um Ihre Änderungen zu speichern.
 
    Folgendes geschieht:
 

@@ -9,20 +9,14 @@ exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/grtTc9KyoVJXzU27qkmFyJhY0mYtdSjz-Q1Pb-YqxLI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 765
+source-wordcount: 749
 ht-degree: 2%
 
 ---
@@ -56,7 +50,7 @@ Bevor Sie einem Arbeitsbereich Datensätze aus einem globalen Datensatztyp hinzu
 <col> 
 </col> 
 <col> 
-</col> 
+</col>  
 <tbody> 
     <tr> 
 <tr> 
@@ -64,17 +58,27 @@ Bevor Sie einem Arbeitsbereich Datensätze aus einem globalen Datensatztyp hinzu
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<ul><li><p>Beliebiges Workfront-Paket und Planning Plus-Paket</p></li>
+<p>Beliebige Workfront oder Workflows mit einem Planungspaket</p> 
 ODER
-<li><p>Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket</p></p></li></ul>
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
-   </td> 
+<p>Beliebige Workfront-Planung als eigenständiges Produktpaket</p> 
+ </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
-   <td><p>Standard</p>
-   </td> 
+   <td><p>Workflow-Standard</p> 
+  </td> 
   </tr> 
   <tr> 
+   <td role="rowheader"><p>Adobe Planning-Lizenz</p></td> 
+   <td><p>Planungsstandard</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   
+</td> 
+  </tr>
+
+<tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich</p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p>  </td> 
@@ -158,8 +162,8 @@ Folgendes geschieht:
 
 * Die folgenden Informationen werden auch aus dem vorhandenen globalen Datensatztyp hinzugefügt:
 
-   * Alle Originalfelder
-   * Alle Datensatzverbindungen
+  * Alle Originalfelder
+  * Alle Datensatzverbindungen
 * Sie können keine Datensätze anzeigen, die aus dem ursprünglichen Arbeitsbereich des Datensatztyps aus dem sekundären Arbeitsbereich hinzugefügt wurden.
 * Sie können Datensätze, die aus dem ursprünglichen Arbeitsbereich des Datensatztyps in diesem Arbeitsbereich hinzugefügt wurden, nur im ursprünglichen Arbeitsbereich anzeigen, wenn Sie mindestens über die Berechtigung Anzeigen für diesen Arbeitsbereich verfügen.
 * Das schreibgeschützte Feld **Workspace** wird der neuen Tabellenansicht vom Typ Datensatz hinzugefügt. Das Feld zeigt den Arbeitsbereich an, in dem die einzelnen Datensätze erstellt wurden.
@@ -169,7 +173,7 @@ Folgendes geschieht:
   >Das Erscheinungsbild, zusätzliche Einstellungen oder ursprüngliche Felder des neuen Datensatztyps können nicht bearbeitet werden. Sie können den Datensatztyp und alle zugehörigen Originalfelder und -einstellungen nur über den ursprünglichen Arbeitsbereich bearbeiten.
   >
 
-1. (Optional) Bewegen Sie den Mauszeiger über das Symbol für den globalen ![&#x200B; (Symbol für den globalen Datensatz im sekundären &#x200B;](assets/global-icon-secondary-workspace.png)), um den Namen des ursprünglichen Arbeitsbereichs anzuzeigen, aus dem der Datensatztyp hinzugefügt wurde.
+1. (Optional) Bewegen Sie den Mauszeiger über das Symbol für den globalen ![ (Symbol für den globalen Datensatz im sekundären ](assets/global-icon-secondary-workspace.png)), um den Namen des ursprünglichen Arbeitsbereichs anzuzeigen, aus dem der Datensatztyp hinzugefügt wurde.
 1. (Optional) Klicken Sie auf und ziehen Sie den neu hinzugefügten Datensatztyp dann per Drag-and-Drop in einen beliebigen Abschnitt im Arbeitsbereich.
 1. (Optional) Klicken Sie auf **Karte des neuen Datensatztyps oder** rechts neben dem Namen des Datensatztyps auf der Seite auf das Menü „Mehr“ und dann auf eine der folgenden Aktionen:
 

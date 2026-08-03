@@ -9,27 +9,20 @@ exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 TQID: https://experienceleague.adobe.com/S5Cb-wdfeCKuogJgIlfVZ-J3rUn0ca0NG1-SSD2SPJA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 5395
+source-wordcount: 5377
 ht-degree: 2%
 
 ---
 
 <!--
-Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=de ??
+Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??
 -->
 
 <!--
@@ -84,16 +77,25 @@ Weitere Informationen zu Workfront Planning-Feldern finden Sie unter [Feldübers
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
 <ul> 
-<li><p>Beliebiges Workfront und beliebiges Planungspaket</p></li>
+<li><p>Beliebige Workfront oder Workflows mit einem Planungspaket</p></li>
 ODER
-<li><p>Beliebiger Workflow und beliebiges Planungspaket</p></li></ul>
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
+<li><p>Jedes Planungspaket, wenn es als eigenständiges Produkt gekauft wird</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
-   <td><p>Standard</p>
+   <td><p>Workflow-Standard</p>
    </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Planning-Lizenz</p></td> 
+   <td><p>Planungsstandard</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   
+</td> 
+  </tr>
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich</p>  
@@ -154,7 +156,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -204,7 +206,7 @@ Beim Importieren von Feldern aus Workfront wird von jedem Feld eine Kopie für e
 
 Nachdem Sie die Felder kopiert haben, sind sie voneinander unabhängig und tauschen keine Informationen aus.
 
-Weitere Informationen finden Sie unter [Felder aus Workfront &#x200B;](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
+Weitere Informationen finden Sie unter [Felder aus Workfront ](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
 
 
 ## Erstellen neuer Felder {#create-fields-from-scratch}
@@ -442,16 +444,16 @@ Sie können ein Datumsfeld verwenden, um zusätzliche Informationen im Datums- u
    * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen oder auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.
    * **Datumsformat**: Der Typ des Datumsformats, das Sie in diesem Feld anzeigen möchten. <!--update this casing - submitted bug for it-->
    * Wählen Sie aus den folgenden Formaten aus:
-      * **short**: 6/9/26
-      * **Medium**: 9. Juni 2026
-      * **Long** 9. Juni 2026
-      * **Zeit einbeziehen**: Wählen Sie diese Option aus, wenn Sie einen Zeitstempel einbeziehen möchten. Diese Option ist standardmäßig deaktiviert. Nach dem Speichern des Felds kann keine Zeit eingeschlossen werden.
+     * **short**: 6/9/26
+     * **Medium**: 9. Juni 2026
+     * **Long** 9. Juni 2026
+     * **Zeit einbeziehen**: Wählen Sie diese Option aus, wenn Sie einen Zeitstempel einbeziehen möchten. Diese Option ist standardmäßig deaktiviert. Nach dem Speichern des Felds kann keine Zeit eingeschlossen werden.
 
    * Wählen Sie aus den folgenden Optionen aus:
 
-      * **24hr**: Beispiel: 18:00
-      * **12hr**: Beispiel: 18:0000 Uhr
-      * **Allen Benutzern dieselbe Zeitzone anzeigen** und anschließend eine **Zeitzone** auswählen: Wählen Sie diese Option aus, wenn Sie allen Benutzern, die sich das Feld ansehen, unabhängig von der Zeitzone des Benutzers denselben Zeitstempel anzeigen möchten. Die ausgewählte Zeitzone wird der Spaltenüberschrift für dieses Feld hinzugefügt.
+     * **24hr**: Beispiel: 18:00
+     * **12**: Beispiel: 18:00 Uhr
+     * **Allen Benutzern dieselbe Zeitzone anzeigen** und anschließend eine **Zeitzone** auswählen: Wählen Sie diese Option aus, wenn Sie allen Benutzern, die sich das Feld ansehen, unabhängig von der Zeitzone des Benutzers denselben Zeitstempel anzeigen möchten. Die ausgewählte Zeitzone wird der Spaltenüberschrift für dieses Feld hinzugefügt.
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -514,9 +516,9 @@ Prozentuale Feldtypen erfassen Informationen in einem Zahlenformat, gefolgt von 
      >Wenn Sie Negative Zahlen zulassen auswählen und negative Werte in den Datensätzen gespeichert werden, mit denen das Feld verknüpft ist, können Sie die Auswahl der Einstellung in Zukunft nicht mehr aufheben.
 
    * **Anzeigen als**: Wählen Sie aus dem Dropdown-Menü aus, wie die Prozentwerte in der Tabellenansicht angezeigt werden sollen. Wählen Sie aus den folgenden Optionen aus:
-      * **Zahl**: Der Prozentwert wird als Zahl angezeigt, gefolgt vom Prozentzeichen.
-      * **Balken**: Der Prozentwert wird als Balken neben der Prozentzahl angezeigt. Die Füllfarbe des Balkens gibt den Prozentwert an. Dies ist die Standardauswahl.
-      * **Kreis**: Der Prozentwert wird als Umriss eines Kreises neben der Prozentzahl angezeigt. Die Füllfarbe des Umrisses des Kreises gibt den Prozentwert an.
+     * **Zahl**: Der Prozentwert wird als Zahl angezeigt, gefolgt vom Prozentzeichen.
+     * **Balken**: Der Prozentwert wird als Balken neben der Prozentzahl angezeigt. Die Füllfarbe des Balkens gibt den Prozentwert an. Dies ist die Standardauswahl.
+     * **Kreis**: Der Prozentwert wird als Umriss eines Kreises neben der Prozentzahl angezeigt. Die Füllfarbe des Umrisses des Kreises gibt den Prozentwert an.
 
    >[!NOTE]
    >
@@ -611,7 +613,7 @@ Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/qui
    >
    >* Sie können auf ein Feld verweisen, das bis zu vier Felder (und Objekte) vom aktuellen Datensatztyp entfernt ist. Wenn Sie z. B. ein Formelfeld für eine Aktivitätsdatensatzart (1) erstellen und die Aktivität mit der Kampagnendatensatzart (2) verknüpft ist, die mit einem Workfront-Projekt (3) verbunden ist, können Sie in der Formel, die Sie für die Aktivitätsdatensatzart erstellen, auf das Budgetfeld (4) des Projekts verweisen.
    >
-   >![Formel Beispiel Projektbudget Vier Felder wurden entfernt &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Formel Beispiel Projektbudget Vier Felder wurden entfernt ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Optional) Klicken Sie auf **Maximieren**, um das Feld Formel in einem größeren Bereich zu öffnen.
@@ -720,17 +722,17 @@ Mit dem Feldtyp Erstellungsdatum können Sie das Datum, an dem der Datensatz ers
    * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen oder auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.
    * **Datumsformat**: Wählen Sie aus den folgenden Formaten:
 
-      * **Locale**: Entspricht dem Gebietsschema Ihres Browsers.
-      * **Standard**: 05/16/2023
-      * **Long**: 16. Mai 2023
-      * **Europäisch**: 16/05/2023
-      * **ISO**: 16.05.2023
+     * **Locale**: Entspricht dem Gebietsschema Ihres Browsers.
+     * **Standard**: 05/16/2023
+     * **Long**: 16. Mai 2023
+     * **Europäisch**: 16/05/2023
+     * **ISO**: 16.05.2023
    * **Zeit einbeziehen**: Wählen Sie diese Option aus, wenn Sie einen Zeitstempel einbeziehen möchten. Diese Option ist standardmäßig deaktiviert. Nach dem Speichern des Felds kann keine Zeit eingeschlossen werden.
 
      Wählen Sie aus den folgenden Optionen aus:
 
-      * **24hr**: Beispiel: 18:00
-      * **12hr**: Beispiel: 18:0000 Uhr
+     * **24hr**: Beispiel: 18:00
+     * **12**: Beispiel: 18:00 Uhr
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -769,17 +771,17 @@ Mit dem Feldtyp Datum der letzten Änderung können Sie einem Datensatz das Datu
    * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen oder auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.
    * **Datumsformat**: Wählen Sie aus den folgenden Formaten:
 
-      * **Locale**: Entspricht dem Gebietsschema Ihres Browsers.
-      * **Standard**: 05/16/2023
-      * **Long**: 16. Mai 2023
-      * **Europäisch**: 16/05/2023
-      * **ISO**: 16.05.2023
+     * **Locale**: Entspricht dem Gebietsschema Ihres Browsers.
+     * **Standard**: 05/16/2023
+     * **Long**: 16. Mai 2023
+     * **Europäisch**: 16/05/2023
+     * **ISO**: 16.05.2023
    * **Zeit einbeziehen**: Wählen Sie diese Option aus, wenn Sie einen Zeitstempel einbeziehen möchten. Diese Option ist standardmäßig deaktiviert. Nach dem Speichern des Felds kann keine Zeit eingeschlossen werden.
 
      Wählen Sie aus den folgenden Optionen aus:
 
-      * **24hr**: Beispiel: 18:00
-      * **12hr**: Beispiel: 18:0000 Uhr
+     * **24hr**: Beispiel: 18:00
+     * **12**: Beispiel: 18:00 Uhr
 
 1. Klicken Sie auf **Erstellen**.
 
