@@ -43,7 +43,7 @@ Stellen Sie vor dem Rollout des Adobe-Cloud-Speichers sicher, dass die Personen,
   * [Erste Schritte mit der einheitlichen Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
   * [Verfügbare Funktionen für Dokumentgenehmigungen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
 * **Ein neuer Berichtsspeicherort** Einheitliche Validierungs-Workflow-Daten und -Berichte werden in Arbeitsflächen-Dashboards verschoben. Vorhandene alte Genehmigungsberichte werden nicht automatisch übernommen. Weitere Informationen finden Sie unter [Erstellen eines Berichts-Dashboards zur Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
-* **Mögliche Aktualisierungen des Fusionsszenarios** Vorhandene Fusionsszenarios, die auf älteren Dokumentgenehmigungen basieren, müssen möglicherweise bearbeitet, neu erstellt oder eingestellt werden, um mit einheitlichen Genehmigungen arbeiten zu können. Weitere Informationen finden Sie unter [ von Workfront Fusion-Szenarien für eine einheitliche Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md).
+* **Mögliche Aktualisierungen des Fusionsszenarios** Vorhandene Fusionsszenarios, die auf älteren Dokumentgenehmigungen basieren, müssen möglicherweise bearbeitet, neu erstellt oder eingestellt werden, um mit einheitlichen Genehmigungen arbeiten zu können. Weitere Informationen finden Sie unter [&#x200B; von Workfront Fusion-Szenarien für eine einheitliche Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md).
 
 ## Legacy-Workfront-Speicher und Adobe-Cloud-Speicher
 
@@ -191,7 +191,7 @@ Ein Workfront-Administrator kann im Bereich „Setup“ ein veraltetes Workfront
   >
   >Ein untergeordnetes Legacy-Programm kann nur dann automatisch in den Adobe-Cloud-Speicher konvertiert werden, wenn ihm manuell ein Adobe-Cloud-Speicherprojekt hinzugefügt wird.
 
-Weitere Informationen finden Sie unter [Ältere Portfolios in Adobe Cloud-Speicher ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md).
+Weitere Informationen finden Sie unter [Ältere Portfolios in Adobe Cloud-Speicher &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md).
 
 #### Erstellen eines Adobe-Cloud-Speicherprojekts aus einer Legacy-Vorlage
 
