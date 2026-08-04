@@ -10,9 +10,9 @@ role: Admin
 exl-id: 48b581c7-a21a-45de-95c5-eafb0713b42e
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 36a4c29fb3d5e3ff3bb3b4952076cdd4bdf5d1d6
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '462'
 ht-degree: 7%
 
 ---
@@ -74,11 +74,15 @@ So aktivieren Sie die Adobe-Cloud-Datenspeicherung für Ihr Unternehmen:
    - **Gesamte Organisation**: Mit dieser Option wird der standardmäßige Speicheranbieter auf die gesamte Workfront-Umgebung angewendet. Jedes Mal, wenn ein Benutzer ein neues Projekt erstellt, wird der standardmäßige Speicheranbieter verwendet.
    - **Spezifische Gruppen**: Mit dieser Option wird der standardmäßige Speicheranbieter nur auf bestimmte Gruppen in Ihrer Organisation angewendet. Jedes Mal, wenn ein Benutzer in den angegebenen Gruppen ein neues Projekt erstellt, wird der standardmäßige Speicheranbieter verwendet
 
+   ![Speichergruppen - Voreinstellungen](assets/configure-storage-preference.png)
+
 1. Klicken Sie auf **Speichern**.
 
    >[!NOTE]
    >
    >Vorhandene Projekte behalten das Speichermodell bei, mit dem sie erstellt wurden. Beispielsweise verwenden Projekte, die den Adobe-Cloud-Speicher verwenden, weiterhin den Adobe-Cloud-Speicher, nachdem Sie die standardmäßige Speichervoreinstellung geändert haben.
+
+
 
 ## Adobe Cloud-Speicher in Sandbox-Umgebungen
 
