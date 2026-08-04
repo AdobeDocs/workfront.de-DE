@@ -10,20 +10,14 @@ exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/5nwapHAbb8wRWqen7a49QfpsAMLPZNEfJUJ2vm4R7SA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: d2576b0e5abc0c4c46de740f1ea510452351a959
 workflow-type: tm+mt
-source-wordcount: 775
-ht-degree: 4%
+source-wordcount: 960
+ht-degree: 3%
 
 ---
 
@@ -43,7 +37,7 @@ Jeder Benutzer kann den Content Reviewer zu einer Überprüfungs- und Genehmigun
 
 * Für Ihre Workfront-Instanz müssen einheitliche Genehmigungen aktiviert sein.
 * Ihr Unternehmen muss über GenStudio Foundation verfügen.
-   * Content Reviewer in Workfront bietet die in GenStudio Foundation verfügbaren Funktionen für Asset-Prüfungs- und Genehmigungs-Workflows. Sie müssen nicht direkt auf GenStudio Foundation zugreifen, um Ihre Arbeit abzuschließen. Ihr Zugriff auf GenStudio Foundation-Funktionen über Content Reviewer fällt unter die Bedingungen Ihres Workfront-Vertrags.
+  * Content Reviewer in Workfront bietet die in GenStudio Foundation verfügbaren Funktionen für Asset-Prüfungs- und Genehmigungs-Workflows. Sie müssen nicht direkt auf GenStudio Foundation zugreifen, um Ihre Arbeit abzuschließen. Ihr Zugriff auf GenStudio Foundation-Funktionen über Content Reviewer fällt unter die Bedingungen Ihres Workfront-Vertrags.
 * Adobe muss eine unterzeichnete Adobe Gen AI-Vereinbarung in der Datei haben.
 Weitere Informationen zur Unterzeichnung des Abkommens finden Sie unter [Unterzeichnung des Adobe Gen AI-Abkommens](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 * Content Reviewer ist in Sandbox-Umgebungen nicht verfügbar.
@@ -83,12 +77,46 @@ Um Markenrichtlinien einzurichten, müssen Systemadministratoren:
 Sobald mindestens eine Marke eingerichtet ist, können Workfront-Administratoren im Bereich „Setup“ mit der Erstellung von Content Reviewern beginnen. Sie können mehrere Content Reviewer erstellen, die sich auf verschiedene Richtlinien konzentrieren:
 
 * **Bild**: Dieser Content Reviewer überprüft das Asset anhand der Image-Markenrichtlinien, die Sie in Workfront festgelegt haben. [!BADGE Beta]{type=Positive tooltip="Diese Funktion befindet sich derzeit in der Betaphase."}
-   * Systemadministratoren müssen die Beta-Vereinbarung unterzeichnen, um diese Funktion zu aktivieren.
+  * Systemadministratoren müssen die Beta-Vereinbarung unterzeichnen, um diese Funktion zu aktivieren.
 * **Markensprache**: Die Inhaltsvalidierungsverantwortliche überprüft das Asset anhand der Markensprachrichtlinien, die Sie in Workfront eingerichtet haben.
 
 Inhaltsvalidierer können dann Validierungsvorlagen und einzelnen Überprüfungs- und Validierungsanfragen zugewiesen werden.
 
 Weitere Informationen finden Sie unter [Konfigurieren von KI-Mitwirkenden](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
+
+## Was der Inhaltsvalidierer bewertet {#what-content-reviewer-evaluates}
+
+Der Content Reviewer bewertet Inhalte je nach Richtlinientyp unterschiedlich: Bild oder Markensprache.
+
+### Bild
+
+Content Reviewer wertet aus:
+
+* **Komposition**: Fokus, Hintergrund, Zuschnitt, kreatives Framing
+* **Beleuchtung &amp; Stimmung**: Einsatz von Licht, Lebendigkeit, Optimismus
+* **Diversität und Inklusion**: Vertretung von Menschen (Rasse, Geschlecht, Alter, Fähigkeit)
+
+Content Reviewer evaluiert nicht:
+
+* **Logo-Nutzung**: Platzierung, freier Platz, Größe, korrekte Logo-Version
+* **Farbpalette**: Einhaltung der Markenfarben, Vermeidung nicht genehmigter Farben
+* **Typografie**: Schriftfamilie, Gewichtung, Abstand, Ausrichtung
+* **Illustrationsstil**: Konsistenz mit dem Illustrationsansatz der Marke
+* **Barrierefreiheit**: Kontrasttreue, Lesbarkeit
+
+### Markenstimme
+
+Content Reviewer wertet aus:
+
+* **Ton der Stimme**: Konversativ, klar, menschlich, mit Markenpersönlichkeit abgestimmt
+* **Jargon/Formalität**: Vermeidung von Schlagwörtern, Elitismus oder übermäßiger Formalität
+* **Messaging**: Ermutigung, Ehrlichkeit, verantwortungsvolle Positionierung (z. B. für KI-Themen)
+
+Content Reviewer evaluiert nicht:
+
+* **Legal/Compliance**: Markennutzung, Haftungsausschlüsse, Lokalisierungsregeln
+
+Eine Anleitung zum Erstellen von Markenrichtlinien, die den vom Content Reviewer bewerteten Inhalten entsprechen, finden Sie unter [Erstellen und Verwalten von Marken für den Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
 
 ## Hinzufügen von Content Reviewern zu Prüfungs- und Genehmigungsanfragen
 
