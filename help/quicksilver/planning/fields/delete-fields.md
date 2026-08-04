@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 673
+source-wordcount: 708
 ht-degree: 2%
 
 ---
@@ -60,23 +60,33 @@ Sie können Workfront Planning-Felder löschen, die nicht mehr relevant sind.
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
 <ul> 
-<li><p>Beliebiges Workfront und beliebiges Planungspaket</p></li>
+<li><p>Beliebige Workfront oder Workflows mit einem Planungspaket</p></li>
 ODER
-<li><p>Beliebiger Workflow und beliebiges Planungspaket</p></li></ul>
+<li><p>Jedes Planungspaket, wenn es als eigenständiges Paket gekauft wird</p></li></ul>
 
 <p>So löschen Sie Felder aus globalen Datensatztypen:</p>
 <ul><li><p>Beliebiges Workfront-Paket und Planning Plus-Paket</p></li>
 ODER
-<li><p>Beliebige Workflow- und Planungspakete für Prime und Ultimate</p></li></ul>
-
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
+<li><p>Beliebige Workflow- und Planungspakete für Prime und Ultimate</p></li>
+ODER
+<li>Jedes Planning Primar- und Ultimate-Paket, wenn es als eigenständiges Produkt gekauft wird</li>
+</ul>
    </td> 
-  <tr> 
+ <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
-   <td><p>Standard</p>
+   <td><p>Workflow-Standard</p>
    </td> 
   </tr> 
-  <tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Planning-Lizenz</p></td> 
+   <td><p>Planungsstandard</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   
+</td> 
+  </tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich</p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p>  </td> 
@@ -136,7 +146,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -157,9 +167,9 @@ Old:
 
   Wenn Sie beispielsweise Kampagnen mit einem anderen Datensatztyp namens „Produkt“ verbinden und das Feld „Produktverbindung“ und das Suchfeld „Produktstatus“ aus der Kampagne löschen, werden die folgenden Elemente gelöscht:
 
-   * Das Feld Mit Produkt verbunden der Kampagne
-   * Das Suchfeld „Produktstatus“ in der Kampagne
-   * Das Feld für die mit dem Produkt verbundene Kampagne
+  * Das Feld Mit Produkt verbunden der Kampagne
+  * Das Suchfeld „Produktstatus“ in der Kampagne
+  * Das Feld für die mit dem Produkt verbundene Kampagne
 
   Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 

@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: 1c7e6973-6e9e-4c93-9d3b-89ed90df9d14
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: '1813'
+source-wordcount: '1847'
 ht-degree: 1%
 
 ---
@@ -48,6 +48,7 @@ In diesem Artikel wird beschrieben, wie Sie in Workfront Planning eine Listenans
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die Funktion in diesem Artikel anzuzeigen. 
 
+
 <table style="table-layout:auto"> 
 <col> 
 </col> 
@@ -60,15 +61,29 @@ In diesem Artikel wird beschrieben, wie Sie in Workfront Planning eine Listenans
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<p>Beliebiges Workfront und beliebiges Planungspaket</p>
-<p>Beliebiger Workflow und beliebiges Planungspaket</p>
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
-   </td> 
-  <tr> 
+<ul> 
+<li><p>Beliebige Workfront oder Workflows mit einem Planungspaket</p></li>
+ODER
+<li><p>Jedes Planungspaket, wenn es als eigenständiges Produkt gekauft wird</p></li></ul>
+   </td> </tr>
+
+<tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
-   <td><p> Standard zum Erstellen und Löschen von Ansichten</p>
-   <p>Mitwirkender oder höher zum Aktualisieren von Ansichtselementen</p>
+   <td><p>Workflow Light oder höher</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning-Lizenz</p></td> 
+   <td><p> Planning Standard zum Erstellen und Löschen von Ansichten</p>
+   <p>Planender oder höher zum Aktualisieren von Ansichtselementen</p>
+   <p><b>NOTIZ</b><p>
+   <p>Nicht alle Kunden verfügen über Lizenzen für Planning Contributor</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 

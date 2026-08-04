@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1589
+source-wordcount: 1616
 ht-degree: 3%
 
 ---
@@ -53,18 +53,18 @@ Beachten Sie beim Hinzufügen einer Seite „Verbundene Datensätze“ zu einem 
 
 * Je nachdem, welches Objekt oder welcher Datensatztyp auf der Seite Verbundene Datensätze angezeigt wird, können Sie diese mithilfe der folgenden Ansichten anzeigen:
 
-   * Sie können verbundene Planungsdatensätze in den folgenden Ansichten anzeigen:
-      * Tabelle
-      * Timeline
-      * Kalender
-   * Sie können verbundene Workfront-Projekte in einer Listenansicht anzeigen.
+  * Sie können verbundene Planungsdatensätze in den folgenden Ansichten anzeigen:
+    * Tabelle
+    * Timeline
+    * Kalender
+  * Sie können verbundene Workfront-Projekte in einer Listenansicht anzeigen.
 
 * Sie können Seiten mit verbundenen Datensätzen für die folgenden verbundenen Datensatz- oder Objekttypen hinzufügen:
 
-   * Workfront-Planungs-Datensatztypen
-   * Workfront-Projekte
+  * Workfront-Planungs-Datensatztypen
+  * Workfront-Projekte
 
-     Sie können die verbundenen Workfront-Projekte anzeigen, selbst wenn Sie nicht über die erforderlichen Zugriffsberechtigungen für sie in Workfront verfügen.
+    Sie können die verbundenen Workfront-Projekte anzeigen, selbst wenn Sie nicht über die erforderlichen Zugriffsberechtigungen für sie in Workfront verfügen.
 
 ## Zugriffsanforderungen
 
@@ -82,10 +82,10 @@ Beachten Sie beim Hinzufügen einer Seite „Verbundene Datensätze“ zu einem 
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<p>Beliebiges Workfront und beliebiges Planungspaket</p>
-<p>Beliebiger Workflow und beliebiges Planungspaket</p>
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
-   </td> 
+<p>Beliebige Workfront oder Workflows mit einem Planungspaket</p>
+ODER
+<p>Jedes Planungspaket, wenn es als eigenständiges Produkt gekauft wird</p>
+</td> 
 <tr>
 <td> 
    <p> Zusätzliche Produkte</p> </td> 
@@ -95,13 +95,25 @@ Beachten Sie beim Hinzufügen einer Seite „Verbundene Datensätze“ zu einem 
    <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront für Experience Manager Assets und Assets Essentials: Artikelindex</a>. </p></li>
    <li><p> Eine Adobe GenStudio for Performance Marketing-Lizenz zum Verbinden von Datensatztypen mit GenStudio Brands</p>
    <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
-   </td> 
-  </tr>
 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
-   <td><p>Standard</p>
+<p><b>NOTIZ</b></p>
+   Wenn Sie ein Planning-Paket als eigenständiges Produkt erworben haben, müssen Sie auch ein Workflow-Paket erwerben, um Planning-Datensatztypen mit Workfront-Objekttypen zu verbinden</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
+   <td><p>Workflow-Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning-Lizenz</p></td> 
+   <td><p>Planungsstandard</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   
+</td> 
   </tr> 
   <tr>
    <td role="rowheader"><p>Objektberechtigungen</p></td>
@@ -161,9 +173,9 @@ Sie müssen zunächst Datensatztypen mit anderen Datensatztypen oder Workfront-P
 1. (Bedingt) Führen Sie je nachdem, welche Art von Datensätzen Sie auf der Seite „Verbundener Datensatz“ anzeigen, einen der folgenden Schritte aus:
 
    * Verwalten von Planungsdatensätzen
-Weitere Informationen finden Sie im Abschnitt [Verwalten der Seite „Verbundene Datensätze“ für Planungsdatensätze](#manage-the-connected-records-page-for-planning-records) in diesem Artikel.
+     Weitere Informationen finden Sie im Abschnitt [Verwalten der Seite „Verbundene Datensätze“ für Planungsdatensätze](#manage-the-connected-records-page-for-planning-records) in diesem Artikel.
    * Verwalten von Workfront-Projekten
-Weitere Informationen finden Sie im Abschnitt [Verwalten der Seite „Verbundene Datensätze“ für Workfront-Projekte](#manage-the-connected-records-page-for-workfront-projects) in diesem Artikel.
+     Weitere Informationen finden Sie im Abschnitt [Verwalten der Seite „Verbundene Datensätze“ für Workfront-Projekte](#manage-the-connected-records-page-for-workfront-projects) in diesem Artikel.
 
 1. (Optional) Doppelklicken Sie auf den Namen der Registerkarte **Seite „Verbundene Datensätze**
 
@@ -283,16 +295,16 @@ Die mit dem ausgewählten Datensatz verbundenen Datensätze werden in der Tabell
    1. Wählen Sie im Bereich **Ansichtstyp** einen der folgenden Ansichtstypen aus:
 
       * Tabelle
-Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md)
+        Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md)
       * Timeline
-Weitere Informationen finden Sie unter [Verwalten der Timeline-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+        Weitere Informationen finden Sie unter [Verwalten der Timeline-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
       * Kalender
-Weitere Informationen finden Sie unter [Verwalten der Kalenderansicht](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+        Weitere Informationen finden Sie unter [Verwalten der Kalenderansicht](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
         Weitere Informationen finden Sie im Abschnitt [Verwalten mehrerer Ansichten auf der Seite „Verbundene Datensätze](#manage-multiple-views-from-the-connected-records-page) in diesem Artikel.
 
-   1. Klicken Sie auf **Erstellen**.
-Dem Dropdown-Menü „Ansichten“ wird eine neue Ansicht hinzugefügt.
+   1. Klicken Sie **Erstellen**.
+      Dem Dropdown-Menü „Ansichten“ wird eine neue Ansicht hinzugefügt.
 
    1. (Optional) Bewegen Sie den Mauszeiger über den Namen einer von Ihnen erstellten Ansicht und klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) und dann auf eine der folgenden Optionen:
 
@@ -303,7 +315,7 @@ Dem Dropdown-Menü „Ansichten“ wird eine neue Ansicht hinzugefügt.
       * **Exportieren**
 
       * **Löschen**
-Weitere Informationen finden Sie [Löschen von Datensatzansichten](/help/quicksilver/planning/views/delete-record-views.md).
+        Weitere Informationen finden Sie [Löschen von Datensatzansichten](/help/quicksilver/planning/views/delete-record-views.md).
 
         ![Menü „Mehr anzeigen“ auf der Seite „Projekte mit verbundenen Datensätzen“](assets/view-more-menu-projects-connected-records-page.png)
 

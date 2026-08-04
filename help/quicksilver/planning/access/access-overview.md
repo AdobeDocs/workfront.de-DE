@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 614b25d3255b27f09f2624afd8691e08cfb7ddf4
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1002
+source-wordcount: 1001
 ht-degree: 3%
 
 ---
@@ -69,8 +69,8 @@ Sie müssen über die folgenden Zugriffsrechte verfügen, um Workfront Planning 
    <tr>
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td>
    <td>
-   <p>Beliebiges Workfront- oder Workflow-Planungspaket
-   und jedes Workfront-Planungspaket</p>
+   <p>Beliebiges Workfront- oder Workflow-Paket
+   mit einem beliebigen Workfront-Planungspaket</p>
    <p><b>NOTIZ</b></p>
    <p>Zugriff auf verbindbare Datensatztypen:</p>
    <ul><li><p>Beliebiges Workfront-Paket und ein Planungspaket</p></li>

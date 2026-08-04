@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 899
-ht-degree: 2%
+source-wordcount: 931
+ht-degree: 1%
 
 ---
 
@@ -57,13 +57,28 @@ Im rechten Bereich eines Datensatzes werden die folgenden Abschnitte angezeigt:
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<p>Beliebiges Workfront und beliebiges Planungspaket</p> <p>Beliebiger Workflow und beliebiges Planungspaket</p>
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
-   </td> 
+<p>Beliebige Workfront oder Workflows mit einem Planungspaket</p> 
+ODER
+<p>Jedes Planungspaket, wenn es als eigenständiges Produkt gekauft wird</p>
+
+</td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
-   <td><p>Mitwirkende oder höher</p>
+   <td><p>Workflow Light oder höher</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Planungsgenehmigung</p></td> 
+   <td><p>Planender oder höher</p>
+
+<p><b>NOTIZ</b></p>
+   <p> Nicht alle Kunden verfügen über die Lizenz für Planning Contributor</p>
+   </td> 
+  </tr>
+  <tr> 
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
@@ -125,7 +140,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 

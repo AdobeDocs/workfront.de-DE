@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 2551
+source-wordcount: 2547
 ht-degree: 1%
 
 ---
@@ -65,17 +65,26 @@ Informationen dazu, wie ein Workspace-Manager ein Anfrageformular erstellen und 
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Pakete</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<p>Beliebiges Workfront- oder Workflow-Paket</p>
-<p>Beliebiges Workfront-Planungspaket</p>
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer.</p>
-   </td> </tr>
-  </tr> 
+<p>Beliebige Workfront oder Workflows mit einem Planungspaket</p> 
+ODER
+<p>Beliebige Workfront-Planung beim Kauf als eigenständiges Produkt</p> 
+ </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
    <td><p>Beliebig</p> 
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning-Lizenz</p></td> 
+   <td><p>Beliebig</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
@@ -94,21 +103,21 @@ Folgendes muss vorhanden sein, bevor Sie eine Anfrage an ein Workfront Planning-
 
 * In Workfront Planning muss Folgendes vorhanden sein:
 
-   * Ein Arbeitsbereich
-   * Ein Datensatztyp
-   * Ein mit einem Datensatztyp verknüpftes Anforderungsformular.
+  * Ein Arbeitsbereich
+  * Ein Datensatztyp
+  * Ein mit einem Datensatztyp verknüpftes Anforderungsformular.
 
-     Weitere Informationen finden Sie unter [Erstellen eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+    Weitere Informationen finden Sie unter [Erstellen eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 * Das Anfrageformular muss so freigegeben werden, dass Sie darauf zugreifen können. Die folgenden Szenarien sind vorhanden:
 
-   * Intern muss das Formular für Benutzende freigegeben werden, die über die Berechtigung zum Anzeigen oder eine höhere Berechtigung für den Arbeitsbereich verfügen.
+  * Intern muss das Formular für Benutzende freigegeben werden, die über die Berechtigung zum Anzeigen oder eine höhere Berechtigung für den Arbeitsbereich verfügen.
 
-     Workfront-Benutzer können entweder über einen Link auf das Formular zugreifen oder das Anfrageformular im Bereich Anfragen von Workfront suchen.
+    Workfront-Benutzer können entweder über einen Link auf das Formular zugreifen oder das Anfrageformular im Bereich Anfragen von Workfront suchen.
 
-   * Extern, indem Sie einen Link zum Datensatzformular für externe Personen freigeben, die kein Workfront-Konto haben.
+  * Extern, indem Sie einen Link zum Datensatzformular für externe Personen freigeben, die kein Workfront-Konto haben.
 
-     Benutzende von Workfront können auch auf den Link zugreifen, der für externe Personen freigegeben wurde.
+    Benutzende von Workfront können auch auf den Link zugreifen, der für externe Personen freigegeben wurde.
 
 * Bei Freigabe über einen Link darf der Link zum Formular nicht abgelaufen sein.
 
@@ -121,9 +130,9 @@ Folgendes muss vorhanden sein, bevor Sie eine Anfrage an ein Workfront Planning-
   Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
 * Durch das Übermitteln von Anfrageformularen erstellte Datensätze sind mit der ursprünglichen Anfrage verbunden. Diese Verbindung kann nicht entfernt werden.
 * Sie können sowohl die erstellten Einträge als auch die zu ihrer Erstellung verwendeten Anfragen in den folgenden Bereichen anzeigen:
-   * Bereich „Anfragen“ in Workfront.
-   * In einem verbundenen Feld eines Datensatztyps in Workfront Planning, wenn Sie die Anfrage als verbundenen Datensatz hinzufügen.
-   * Wenn Sie die Anfrage als verbundenen Datensatz hinzufügen, wird in Workfront Planning im Bereich „Details“ eines Datensatzes ein verknüpftes Feld angezeigt.
+  * Bereich „Anfragen“ in Workfront.
+  * In einem verbundenen Feld eines Datensatztyps in Workfront Planning, wenn Sie die Anfrage als verbundenen Datensatz hinzufügen.
+  * Wenn Sie die Anfrage als verbundenen Datensatz hinzufügen, wird in Workfront Planning im Bereich „Details“ eines Datensatzes ein verknüpftes Feld angezeigt.
 
   >[!TIP]
   >
@@ -188,12 +197,12 @@ Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformula
 
      In den folgenden Feldern werden Anfrage- und Datensatzinformationen im Bereich Anfragen und im Widget Meine Anfragen auf der Startseite angezeigt:
 
-      * **Betreff**: Der Name der ursprünglichen Anfrage, wie im Bereich „Anfragen“ hinzugefügt. Sie können das Feld **Betreff** nicht aus der Anfrageliste ausblenden oder entfernen. Der Name enthält einen Link, der die Anfrageseite in Planning öffnet.
-      * **Erstelltes Objekt**: Der Name des Datensatzes, der aus der Anforderung erstellt wurde und in Planning angezeigt wird. Der erstellte Objektname enthält einen Link, der den aus der Anfrage erstellten Datensatz öffnet.
-      * **Objekttyp**: Der Name des Arbeitsbereichs und der Datensatztyp, in dem aufgrund der Anforderung in Planning Datensätze erstellt wurden.
-      * **Status**: Der Status des Anfrageobjekts. Weitere Informationen zum Anfragestatus finden Sie unter [Anzeigen gesendeter Anfragen](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
-      * **Anfrageformular**: Der Name des Anfrageformulars, das mit dem Datensatztyp in Planning verknüpft ist.
-      * **Erstellter Objektstatus**: Der Status des erstellten Datensatzes.
+     * **Betreff**: Der Name der ursprünglichen Anfrage, wie im Bereich „Anfragen“ hinzugefügt. Sie können das Feld **Betreff** nicht aus der Anfrageliste ausblenden oder entfernen. Der Name enthält einen Link, der die Anfrageseite in Planning öffnet.
+     * **Erstelltes Objekt**: Der Name des Datensatzes, der aus der Anforderung erstellt wurde und in Planning angezeigt wird. Der erstellte Objektname enthält einen Link, der den aus der Anfrage erstellten Datensatz öffnet.
+     * **Objekttyp**: Der Name des Arbeitsbereichs und der Datensatztyp, in dem aufgrund der Anforderung in Planning Datensätze erstellt wurden.
+     * **Status**: Der Status des Anfrageobjekts. Weitere Informationen zum Anfragestatus finden Sie unter [Anzeigen gesendeter Anfragen](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
+     * **Anfrageformular**: Der Name des Anfrageformulars, das mit dem Datensatztyp in Planning verknüpft ist.
+     * **Erstellter Objektstatus**: Der Status des erstellten Datensatzes.
 
    * Wenn das Anfrageformular mit einer Genehmigung verknüpft war, wird die Anfrage zur Anfragenliste im Bereich &quot;Workfront-Anfragen“ und zum Widget „Meine Anfragen“ mit dem Status &quot;**Überprüfung** hinzugefügt. Ein neuer Datensatz wird der Seite „Datensatztyp“ erst hinzugefügt, nachdem ihn die genehmigenden Personen genehmigt haben.
 

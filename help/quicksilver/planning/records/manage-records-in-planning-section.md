@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 1777
+source-wordcount: 1740
 ht-degree: 2%
 
 ---
@@ -59,19 +59,24 @@ Sie können Workfront-Planungsdatensätze in Workfront in den folgenden Bereiche
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<p>Beliebiges Workfront und beliebiges Planungspaket</p>
-<p>Beliebiger Workflow und beliebiges Planungspaket</p>
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
+<p>Beliebige Workfront oder Workflows mit einem Planungspaket</p>
+ODER
+<p>Jedes Planungspaket, wenn es als eigenständiges Produkt gekauft wird</p>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
-   <td><p>Standard</p>
+   <td><p>Workflow-Standard</p>
    </td> 
   </tr> 
+   <tr> 
+   <td role="rowheader"><p>Adobe Planning-Lizenz</p></td> 
+   <td><p>Planungsstandard</p>
+   </td> 
+  </tr>
   <tr>
    <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td>
-   <td> <p>Anzeigen oder Erweitern des Zugriffs auf Projekte, Programme und Portfolios</p>  
-   <p>Es gibt keine Zugriffsebenen-Konfiguration für Workfront Planning. </p>
+   <td><p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p> 
+   <p>Anzeigen oder Erweitern des Zugriffs auf Projekte, Programme und Portfolios</p> 
 </td>
   </tr>
 <tr>
@@ -185,8 +190,8 @@ Beachten Sie Folgendes, wenn Sie Workfront-Planungsdatensätze im Planungsabschn
 
   Weitere Informationen finden Sie in den folgenden Artikeln:
 
-   * [Verbinden von Eintragstypen](/help/quicksilver/planning/architecture/connect-record-types.md)
-   * [Einträge verbinden](/help/quicksilver/planning/records/connect-records.md)
+  * [Verbinden von Eintragstypen](/help/quicksilver/planning/architecture/connect-record-types.md)
+  * [Einträge verbinden](/help/quicksilver/planning/records/connect-records.md)
 * Sie können den Planungsabschnitt über ein Workfront-Objekt anzeigen, selbst wenn keine Datensätze mit dem Workfront-Objekt verknüpft sind.
 * Ein Datensatztyp wird nur dann im Bereich Planung eines Workfront-Objekts angezeigt, wenn Sie bei der Erstellung der Verbindung zwischen zwei Datensatztypen das entsprechende Feld in der Einstellung Verknüpfter Datensatztyp erstellen aktivieren.
 
@@ -218,9 +223,9 @@ Die Seite des -Objekts wird in Workfront geöffnet.
    Der Abschnitt Planung wird mit den folgenden Informationen angezeigt:
 
    * Die verbundenen Datensätze werden auf einzelnen Karten mit den folgenden Informationen angezeigt:
-      * Name des Datensatzes
-      * Die Miniaturansicht des Datensatzes
-      * Der Name des verbundenen Datensatzfelds, wie er in Workfront Planning angezeigt wird.
+     * Name des Datensatzes
+     * Die Miniaturansicht des Datensatzes
+     * Der Name des verbundenen Datensatzfelds, wie er in Workfront Planning angezeigt wird.
    * Datensätze werden unter ihrem jeweiligen Arbeitsbereich und Datensatztyp angezeigt.
 
    ![Planungsabschnitt zum Projekt](assets/planning-section-on-project.png)
@@ -253,11 +258,11 @@ Sie können steuern, welche Planning-Datensatztypen für das Workfront-Objekt an
 
 * Das Feld Planning-Verbindung zeigt Planungsdatensätze an, nachdem eine Verbindung hergestellt wurde und wenn das Feld für die folgenden Workfront-Objekte an Formulare angehängt wird:
 
-   * Projekt
-   * Portfolio
-   * Programm
-   * Gruppe
-   * Firma
+  * Projekt
+  * Portfolio
+  * Programm
+  * Gruppe
+  * Firma
 
 Weitere Informationen finden Sie unter [Formular erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -267,8 +272,8 @@ Beachten Sie Folgendes, wenn Sie Workfront-Planungsdatensätze über ein Feld f�
 
 * Ein Feld für die Planning-Verbindung wird im benutzerdefinierten Formular eines Workfront-Objekts wie folgt angezeigt, nachdem Planning-Datensätze mit dem Workfront-Objekt verknüpft wurden:
 
-   * Wenn nur das primäre Feld des verbundenen Datensatzes ausgewählt ist, wird das Feld Planning-Verbindung als Feld mit mehreren Werten angezeigt, wenn die Verbindung die Verknüpfung mehrerer Datensätze zulässt. Weitere Informationen finden Sie unter [Übersicht über Datensatztypen verbinden](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-   * Wenn Ihr Workfront- oder Gruppenadministrator bzw. Ihre Gruppenadministratorin zusätzliche Suchfelder aus dem verbundenen Datensatz im benutzerdefinierten Formular hinzugefügt hat, wird das Feld „Planning-Verbindung“ als Tabelle angezeigt. Für das Feld Verbindung planen können bis zu 7 Felder ausgewählt werden. Die Tabellenansicht ist schreibgeschützt.
+  * Wenn nur das primäre Feld des verbundenen Datensatzes ausgewählt ist, wird das Feld Planning-Verbindung als Feld mit mehreren Werten angezeigt, wenn die Verbindung die Verknüpfung mehrerer Datensätze zulässt. Weitere Informationen finden Sie unter [Übersicht über Datensatztypen verbinden](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+  * Wenn Ihr Workfront- oder Gruppenadministrator bzw. Ihre Gruppenadministratorin zusätzliche Suchfelder aus dem verbundenen Datensatz im benutzerdefinierten Formular hinzugefügt hat, wird das Feld „Planning-Verbindung“ als Tabelle angezeigt. Für das Feld Verbindung planen können bis zu 7 Felder ausgewählt werden. Die Tabellenansicht ist schreibgeschützt.
 
 * Es kann nur ein Datensatztyp mit einem Planning-Verbindungsfeld verknüpft werden. Die Anzahl der Planning-Verbindungsfelder in einem Formular ist unbegrenzt.
 * Sie müssen über die richtigen Zugriffsrechte und Berechtigungen für das Objekt, den Datensatz und Workfront Planning verfügen, um ein benutzerdefiniertes Formular mit einem benutzerdefinierten Feld für die Planning-Verbindung an ein Workfront-Objekt anzuhängen.

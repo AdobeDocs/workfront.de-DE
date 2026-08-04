@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 5395
+source-wordcount: 5377
 ht-degree: 2%
 
 ---
@@ -84,16 +84,25 @@ Weitere Informationen zu Workfront Planning-Feldern finden Sie unter [Feldübers
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
 <ul> 
-<li><p>Beliebiges Workfront und beliebiges Planungspaket</p></li>
+<li><p>Beliebige Workfront oder Workflows mit einem Planungspaket</p></li>
 ODER
-<li><p>Beliebiger Workflow und beliebiges Planungspaket</p></li></ul>
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
+<li><p>Jedes Planungspaket, wenn es als eigenständiges Produkt gekauft wird</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
-   <td><p>Standard</p>
+   <td><p>Workflow-Standard</p>
    </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Planning-Lizenz</p></td> 
+   <td><p>Planungsstandard</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   
+</td> 
+  </tr>
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich</p>  
@@ -154,7 +163,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -442,16 +451,16 @@ Sie können ein Datumsfeld verwenden, um zusätzliche Informationen im Datums- u
    * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen oder auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.
    * **Datumsformat**: Der Typ des Datumsformats, das Sie in diesem Feld anzeigen möchten. <!--update this casing - submitted bug for it-->
    * Wählen Sie aus den folgenden Formaten aus:
-      * **short**: 6/9/26
-      * **Medium**: 9. Juni 2026
-      * **Long** 9. Juni 2026
-      * **Zeit einbeziehen**: Wählen Sie diese Option aus, wenn Sie einen Zeitstempel einbeziehen möchten. Diese Option ist standardmäßig deaktiviert. Nach dem Speichern des Felds kann keine Zeit eingeschlossen werden.
+     * **short**: 6/9/26
+     * **Medium**: 9. Juni 2026
+     * **Long** 9. Juni 2026
+     * **Zeit einbeziehen**: Wählen Sie diese Option aus, wenn Sie einen Zeitstempel einbeziehen möchten. Diese Option ist standardmäßig deaktiviert. Nach dem Speichern des Felds kann keine Zeit eingeschlossen werden.
 
    * Wählen Sie aus den folgenden Optionen aus:
 
-      * **24hr**: Beispiel: 18:00
-      * **12hr**: Beispiel: 18:0000 Uhr
-      * **Allen Benutzern dieselbe Zeitzone anzeigen** und anschließend eine **Zeitzone** auswählen: Wählen Sie diese Option aus, wenn Sie allen Benutzern, die sich das Feld ansehen, unabhängig von der Zeitzone des Benutzers denselben Zeitstempel anzeigen möchten. Die ausgewählte Zeitzone wird der Spaltenüberschrift für dieses Feld hinzugefügt.
+     * **24hr**: Beispiel: 18:00
+     * **12**: Beispiel: 18:00 Uhr
+     * **Allen Benutzern dieselbe Zeitzone anzeigen** und anschließend eine **Zeitzone** auswählen: Wählen Sie diese Option aus, wenn Sie allen Benutzern, die sich das Feld ansehen, unabhängig von der Zeitzone des Benutzers denselben Zeitstempel anzeigen möchten. Die ausgewählte Zeitzone wird der Spaltenüberschrift für dieses Feld hinzugefügt.
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -514,9 +523,9 @@ Prozentuale Feldtypen erfassen Informationen in einem Zahlenformat, gefolgt von 
      >Wenn Sie Negative Zahlen zulassen auswählen und negative Werte in den Datensätzen gespeichert werden, mit denen das Feld verknüpft ist, können Sie die Auswahl der Einstellung in Zukunft nicht mehr aufheben.
 
    * **Anzeigen als**: Wählen Sie aus dem Dropdown-Menü aus, wie die Prozentwerte in der Tabellenansicht angezeigt werden sollen. Wählen Sie aus den folgenden Optionen aus:
-      * **Zahl**: Der Prozentwert wird als Zahl angezeigt, gefolgt vom Prozentzeichen.
-      * **Balken**: Der Prozentwert wird als Balken neben der Prozentzahl angezeigt. Die Füllfarbe des Balkens gibt den Prozentwert an. Dies ist die Standardauswahl.
-      * **Kreis**: Der Prozentwert wird als Umriss eines Kreises neben der Prozentzahl angezeigt. Die Füllfarbe des Umrisses des Kreises gibt den Prozentwert an.
+     * **Zahl**: Der Prozentwert wird als Zahl angezeigt, gefolgt vom Prozentzeichen.
+     * **Balken**: Der Prozentwert wird als Balken neben der Prozentzahl angezeigt. Die Füllfarbe des Balkens gibt den Prozentwert an. Dies ist die Standardauswahl.
+     * **Kreis**: Der Prozentwert wird als Umriss eines Kreises neben der Prozentzahl angezeigt. Die Füllfarbe des Umrisses des Kreises gibt den Prozentwert an.
 
    >[!NOTE]
    >
@@ -720,17 +729,17 @@ Mit dem Feldtyp Erstellungsdatum können Sie das Datum, an dem der Datensatz ers
    * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen oder auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.
    * **Datumsformat**: Wählen Sie aus den folgenden Formaten:
 
-      * **Locale**: Entspricht dem Gebietsschema Ihres Browsers.
-      * **Standard**: 05/16/2023
-      * **Long**: 16. Mai 2023
-      * **Europäisch**: 16/05/2023
-      * **ISO**: 16.05.2023
+     * **Locale**: Entspricht dem Gebietsschema Ihres Browsers.
+     * **Standard**: 05/16/2023
+     * **Long**: 16. Mai 2023
+     * **Europäisch**: 16/05/2023
+     * **ISO**: 16.05.2023
    * **Zeit einbeziehen**: Wählen Sie diese Option aus, wenn Sie einen Zeitstempel einbeziehen möchten. Diese Option ist standardmäßig deaktiviert. Nach dem Speichern des Felds kann keine Zeit eingeschlossen werden.
 
      Wählen Sie aus den folgenden Optionen aus:
 
-      * **24hr**: Beispiel: 18:00
-      * **12hr**: Beispiel: 18:0000 Uhr
+     * **24hr**: Beispiel: 18:00
+     * **12**: Beispiel: 18:00 Uhr
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -769,17 +778,17 @@ Mit dem Feldtyp Datum der letzten Änderung können Sie einem Datensatz das Datu
    * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen oder auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.
    * **Datumsformat**: Wählen Sie aus den folgenden Formaten:
 
-      * **Locale**: Entspricht dem Gebietsschema Ihres Browsers.
-      * **Standard**: 05/16/2023
-      * **Long**: 16. Mai 2023
-      * **Europäisch**: 16/05/2023
-      * **ISO**: 16.05.2023
+     * **Locale**: Entspricht dem Gebietsschema Ihres Browsers.
+     * **Standard**: 05/16/2023
+     * **Long**: 16. Mai 2023
+     * **Europäisch**: 16/05/2023
+     * **ISO**: 16.05.2023
    * **Zeit einbeziehen**: Wählen Sie diese Option aus, wenn Sie einen Zeitstempel einbeziehen möchten. Diese Option ist standardmäßig deaktiviert. Nach dem Speichern des Felds kann keine Zeit eingeschlossen werden.
 
      Wählen Sie aus den folgenden Optionen aus:
 
-      * **24hr**: Beispiel: 18:00
-      * **12hr**: Beispiel: 18:0000 Uhr
+     * **24hr**: Beispiel: 18:00
+     * **12**: Beispiel: 18:00 Uhr
 
 1. Klicken Sie auf **Erstellen**.
 

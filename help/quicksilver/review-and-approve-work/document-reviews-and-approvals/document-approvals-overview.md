@@ -18,7 +18,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 4d6be75a507438eee1f3887474b847c2bece85ff
+source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
 workflow-type: tm+mt
 source-wordcount: 4323
 ht-degree: 0%
@@ -101,7 +101,7 @@ Die Workfront-Proofing-Funktion ist in dieser Integration nicht verfügbar.
 
 <span class="preview">Einheitliche Prüfung und Genehmigung umfasst eine umfassende Auditprotokollierung, die einen vollständigen Governance-Trail über Workfront und Frame.io hinweg erstellt. Änderungs-Trackinglogs erfassen Genehmigungsentscheidungen, die im Viewer-Lebenszyklus von Frame.io und Dokumenten getroffen wurden. Jeder Protokolleintrag enthält die Attribution im Quellsystem (Workfront oder Frame.io) neben den standardmäßigen Workfront-Überwachungsfeldern: Datum und Uhrzeit, Protokolltyp, Benutzername, Aktion und Objektname. Frame.io-Viewer-Kommentare sind nicht in Audit-Protokollen enthalten.</span>
 
-<span class="preview">Änderungs-Trackinglogs werden im Bereich „Setup“ von Workfront angezeigt und stehen für den Export zur Verfügung. Weitere Informationen finden Sie unter [Anzeigen und Verwalten des &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md)</span>
+<span class="preview">Änderungs-Trackinglogs werden im Bereich „Setup“ von Workfront angezeigt und stehen für den Export zur Verfügung. Weitere Informationen finden Sie unter [Anzeigen und Verwalten des &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)</span>
 
 ## Leistungsstarkes Projektmanagement in Workfront
 

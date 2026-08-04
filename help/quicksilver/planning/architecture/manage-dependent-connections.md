@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: '1332'
-ht-degree: 1%
+source-wordcount: '1349'
+ht-degree: 2%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 1%
 <span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
 
 <span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+{{planning-important-intro}}
 
 Als Workspace-Manager können Sie beim Erstellen von Verbindungsfeldern zwischen Datensatztypen in Adobe Workfront Planning abhängige Verbindungen definieren.
 
@@ -58,7 +60,6 @@ Nach der Konfiguration hat jeder Datensatztyp, der auf beide Felder verweist (z.
 <p>ODER</p>
 <li><p>Jedes Planning Prime- oder Ultimate-Paket, wenn es als eigenständiges Produkt gekauft wird</p></li>
 </ul>
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
    </td> 
 <tr> 
 <td> 
@@ -73,8 +74,18 @@ Nach der Konfiguration hat jeder Datensatztyp, der auf beide Felder verweist (z.
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
-   <td><p>Standard</p>
+   <td><p>Workflow-Standard</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning-Lizenz</p></td> 
+   <td><p>Planungsstandard</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 

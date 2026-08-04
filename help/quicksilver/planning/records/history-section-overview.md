@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a93c6c9faf26d5eab1c223bd4a2646af896bf97d
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 555
-ht-degree: 7%
+source-wordcount: 588
+ht-degree: 6%
 
 ---
 
@@ -59,13 +59,26 @@ Im rechten Bereich eines Datensatzes werden die folgenden Abschnitte angezeigt:
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<p>Beliebiges Workfront und beliebiges Planungspaket</p> <p>Beliebiger Workflow und beliebiges Planungspaket</p>
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
+<p>Beliebige Workfront oder Workflows und ein Planungspaket</p> 
+ODER
+<p>Jedes Planungspaket, wenn es als eigenständiges Produkt gekauft wird</p>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
-   <td><p>Mitwirkende oder höher</p>
+   <td><p>Workflow-Anzeige oder höher</p>
    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning-Lizenz</p></td> 
+   <td><p>Planender oder höher</p>
+   <p><b>NOTIZ</b></p>
+   <p>Nicht alle Kunden verfügen über eine Lizenz für Planning Contributor</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
@@ -128,7 +141,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -172,29 +185,29 @@ Die an den Datensatzfeldern vorgenommenen Änderungen können Sie im Abschnitt V
 
 * Workfront Planning zeichnet die folgenden Informationen im Abschnitt History auf:
 
-   * Alle Feldänderungen
+  * Alle Feldänderungen
 
-   * Die alten und neuen Werte von Feldern, wenn sich die Werte ändern. Die alten Werte werden im durchgestrichenen Format angezeigt.
+  * Die alten und neuen Werte von Feldern, wenn sich die Werte ändern. Die alten Werte werden im durchgestrichenen Format angezeigt.
 
-   * Der vollständige Name des Benutzers, der die Änderung vorgenommen hat
+  * Der vollständige Name des Benutzers, der die Änderung vorgenommen hat
 
-   * Ein Datums- und Zeitstempel, der angibt, wann die Änderung vorgenommen wurde.
+  * Ein Datums- und Zeitstempel, der angibt, wann die Änderung vorgenommen wurde.
 
 * In Feldern der folgenden Typen werden immer der alte Wert (im Durchgestrichenformat) und der neue Wert angezeigt:
 
-   * Text
-   * Absatz
-   * Währung
-   * Datum
-   * Zahl
-   * Prozentsatz
-   * Einzelauswahl
+  * Text
+  * Absatz
+  * Währung
+  * Datum
+  * Zahl
+  * Prozentsatz
+  * Einzelauswahl
 
 * Felder der folgenden Typen zeigen den alten Wert nur dann im durchgestrichenen Format an, wenn mindestens einer der mehreren Werte entfernt wurde:
 
-   * Mehrfachauswahl
-   * Verknüpfte Datensatzfelder
-   * Personen
+  * Mehrfachauswahl
+  * Verknüpfte Datensatzfelder
+  * Personen
 
   Wenn durch die Änderung nur Werte zum Feld hinzugefügt werden, wird der alte Wert nicht angezeigt und nur der neue Feldwert.
 
@@ -204,11 +217,11 @@ Die an den Datensatzfeldern vorgenommenen Änderungen können Sie im Abschnitt V
 
 * Änderungen an Feldern der folgenden Typen werden nicht im Abschnitt Verlauf angezeigt:
 
-   * Verknüpfte (Lookup-)Felder
-   * Formel
-   * Erstellt von
-   * Erstellt am
-   * Zuletzt geändert von
-   * Zuletzt geändert am
+  * Verknüpfte (Lookup-)Felder
+  * Formel
+  * Erstellt von
+  * Erstellt am
+  * Zuletzt geändert von
+  * Zuletzt geändert am
 
 * Wenn ein Feld aus dem System entfernt wird, bleiben die in diesem Feld vorgenommenen Aktualisierungen im Abschnitt Verlauf erhalten. Es gibt keinen Hinweis darauf, dass das Feld im Abschnitt Verlauf eines Datensatzes entfernt wurde.

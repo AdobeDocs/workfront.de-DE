@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1683
+source-wordcount: 1693
 ht-degree: 2%
 
 ---
@@ -50,9 +50,9 @@ Sie können einen Adobe Workfront Planning-Datensatz wie folgt freigeben:
 
   Weitere Informationen finden Sie in den folgenden Artikeln:
 
-   * [Freigeben eines Arbeitsbereichs](/help/quicksilver/planning/access/share-workspaces.md)
+  * [Freigeben eines Arbeitsbereichs](/help/quicksilver/planning/access/share-workspaces.md)
 
-   * [Datensatztyp freigeben](/help/quicksilver/planning/access/share-record-types.md)
+  * [Datensatztyp freigeben](/help/quicksilver/planning/access/share-record-types.md)
 
 * Freigeben eines einzelnen Datensatzes oder Massenfreigabe mehrerer Datensätze mithilfe der Option **Freigeben**.
 
@@ -79,21 +79,31 @@ at GA, check that the Workfront plans article linked below has Planning info
 <col> 
 </col> 
 <tbody> 
-    <tr> 
+    <tr>
+
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
 <p>Beliebige Workfront oder Workflows mit einem Planungspaket</p> 
 ODER
 <p>Beliebige Workfront-Planung als eigenständiges Produktpaket</p> 
- </tr>
-
-<tr> 
+ </tr> 
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
    <td><p>Beliebig</p> 
-   <p><b>NOTIZ</b></p>
-   <p>Nur Personen mit einer Standardlizenz können Berechtigungen zum Verwalten von Datensätzen erhalten. Alle anderen Lizenzen können nur über Anzeigeberechtigungen verfügen und die Option Verwalten ist für sie abgeblendet.</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning-Lizenz</p></td> 
+   <td><p>Beliebig</p> 
+<p><b>NOTIZ</b></p>
+   <p>Nur Personen mit einer Planning Standard-Lizenz können Berechtigungen zum Verwalten von Datensätzen erhalten. Alle anderen Lizenzen können nur über Anzeigeberechtigungen verfügen und die Option Verwalten ist für sie abgeblendet.</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>  
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
@@ -119,14 +129,14 @@ maybe use the Share record types as example here and touch on the same points: h
 * Sie können Datensätze für die folgenden Entitäten freigeben: Personen, Gruppen, Teams, Unternehmen oder Aufgabengebiete.
 * Die folgenden Einschränkungen bestehen:
 
-   * Es können nicht mehr als 100 Datensätze gleichzeitig freigegeben werden.
-   * Datensätze können nicht für mehr als 100 Entitäten freigegeben werden.
+  * Es können nicht mehr als 100 Datensätze gleichzeitig freigegeben werden.
+  * Datensätze können nicht für mehr als 100 Entitäten freigegeben werden.
 * Wenn Sie die Berechtigungen auf einen Datensatz beschränken, können Benutzer diesen Datensatz und die Werte für die Suchfelder an keiner Stelle des Systems mehr anzeigen, an der dieser Datensatz angezeigt wird.
 * Workfront überprüft Datensatzberechtigungen in Verbindungen mit bis zu fünf Datensätzen, um sicherzustellen, dass Benutzende nur die für sie freigegebenen Datensätze sehen.
 * Sie können einem Datensatz die folgenden Berechtigungsebenen gewähren:
 
-   * Ansicht
-   * Verwalten
+  * Ansicht
+  * Verwalten
 * Wenn Sie einen Arbeitsbereich und einen Datensatztyp für Benutzende freigeben, erhalten diese standardmäßig auch dieselben Berechtigungen für die Datensätze im Arbeitsbereich.
 Wenn Benutzende die Berechtigung Beitragen für einen Arbeitsbereich oder Datensatztyp haben, erhalten sie Verwaltungsberechtigungen für die Datensätze dieses Datensatztyps.
 * Wenn Sie eine Entität aus einem Arbeitsbereich entfernen, werden alle Freigabeberechtigungen aus den Datensatztypen und allen darin enthaltenen Datensätzen entfernt.
@@ -135,13 +145,13 @@ Wenn Benutzende die Berechtigung Beitragen für einen Arbeitsbereich oder Datens
   Wenn Sie einen Datensatz für eine Person freigeben, die sich nicht im Arbeitsbereich befindet, werden diese automatisch zum Arbeitsbereich hinzugefügt.
 * Der Zugriff eines Benutzers auf den Datensatz wird durch die Kombination der folgenden drei Einstellungen bestimmt:
 
-   * Berechtigungen, die vom Datensatztyp und Arbeitsbereich übernommen wurden
-   * Berechtigungen werden einzeln im Feld für die Datensatzfreigabe hinzugefügt
-   * Die Einstellung **Jeder Benutzer im Arbeitsbereich kann anzeigen**.
+  * Berechtigungen, die vom Datensatztyp und Arbeitsbereich übernommen wurden
+  * Berechtigungen werden einzeln im Feld für die Datensatzfreigabe hinzugefügt
+  * Die Einstellung **Jeder Benutzer im Arbeitsbereich kann anzeigen**.
 
-     Dadurch kann der Datensatz von allen Personen im Arbeitsbereich angezeigt werden
+    Dadurch kann der Datensatz von allen Personen im Arbeitsbereich angezeigt werden
 
-     <!--
+    <!--
       Cannot do this on a record: 
       * **Only invited people can access**: This is selected by default and allows restricting access to the record to specific people. 
       -->
@@ -150,8 +160,8 @@ Wenn Benutzende die Berechtigung Beitragen für einen Arbeitsbereich oder Datens
 
   Beispiel:
 
-   * Wenn sie über Anzeigeberechtigungen für den Datensatztyp verfügen, erhalten sie Anzeigeberechtigungen für den Datensatz
-   * Wenn sie die Berechtigungen Beitragen oder Verwalten für den Datensatztyp besitzen, erhalten sie die Berechtigung Verwalten für den Datensatz
+  * Wenn sie über Anzeigeberechtigungen für den Datensatztyp verfügen, erhalten sie Anzeigeberechtigungen für den Datensatz
+  * Wenn sie die Berechtigungen Beitragen oder Verwalten für den Datensatztyp besitzen, erhalten sie die Berechtigung Verwalten für den Datensatz
 
 * Wenn ein(e) Benutzende(r) über die Berechtigungen Verwalten oder Beitragen für den Arbeitsbereich und den Datensatztyp verfügt und Sie sie zu den Datensatzberechtigungen hinzufügen, sind die Anzeigeberechtigungen abgeblendet. Sie behalten dieselben Berechtigungen für den Datensatz wie für den Datensatztyp, und Sie können ihnen keine niedrigeren Berechtigungen für den Datensatz erteilen.
 

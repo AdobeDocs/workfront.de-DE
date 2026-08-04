@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 999
-ht-degree: 5%
+source-wordcount: 1016
+ht-degree: 6%
 
 ---
 
@@ -52,18 +52,6 @@ Es wird empfohlen, auch die folgenden Artikel anzuzeigen:
 * [Senden von Anfragen zum Erstellen von Einträgen in Adobe Workfront-Planung](/help/quicksilver/planning/requests/submit-requests.md)
 * [Hinzufügen einer Genehmigung zu einem Anfrageformular](/help/quicksilver/planning/requests/add-approval-to-request-form.md)
 
-## Überlegungen zur Genehmigung von Anfragen
-
-* Gesendete Anfragen werden im Bereich Anfragen von Workfront mit einem der folgenden Anfragestatus angezeigt:
-
-   * **Überprüfung ausstehend** Dieser Status wird angezeigt, wenn keine der genehmigenden Personen das Anfrageobjekt geöffnet hat.
-   * **In Überprüfung**: Der Status **Ausstehende Überprüfung** ändert sich in **In Überprüfung**, wenn mindestens eine genehmigende Person das Anfrageobjekt öffnet. Der Status der Anfrage bleibt **In Überprüfung** bis alle genehmigenden Personen die Anfrage genehmigt haben.
-   * **Genehmigt**: Wenn eine genehmigende Person das Anfrageobjekt genehmigt, wird ihr individueller Status **Genehmigt**, aber der Gesamtstatus des Anfrageobjekts bleibt **In Überprüfung**, bis alle genehmigenden Personen ihre Entscheidung getroffen haben. Wenn alle genehmigenden Personen eine Anfrage genehmigen, wird der Anfragestatus **Genehmigt**.
-   * **Abgeschlossen**: Wenn alle genehmigenden Personen das Anfrageobjekt genehmigen, ändert sich sein Status in **Abgeschlossen** oder wenn für die Anfrage keine Genehmigung erforderlich ist.
-   * **Abgelehnt**: Wenn eine genehmigende Person das Anfrageobjekt ablehnt, wird der Status **Abgelehnt**. Es wird kein Datensatz erstellt und es muss eine neue Anfrage gesendet werden, um den Datensatz zu erstellen.
-
-* Sie können Genehmigungsinformationen zu einem Datensatz anzeigen, der durch Senden eines Anforderungsformulars in den Feldern Genehmigt von und Genehmigt am erstellt wurde. Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
-
 ## Zugriffsanforderungen
 
 +++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
@@ -75,19 +63,26 @@ Es wird empfohlen, auch die folgenden Artikel anzuzeigen:
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Pakete</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<p>Jedes Workfront-Paket und jedes Planungspaket</p>
+<p>Beliebige Workfront oder Workflows mit einem Planungspaket</p> 
 ODER
-<p>Beliebiges Workflow-Paket und beliebiges Planungspaket</p>
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer.</p>
-   </td> </tr>
-
-</tr> 
+<p>Beliebige Workfront-Planung beim Kauf als eigenständiges Produkt</p> 
+ </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
    <td><p>Beliebig</p> 
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning-Lizenz</p></td> 
+   <td><p>Beliebig</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
@@ -100,6 +95,18 @@ ODER
 Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Überlegungen zur Genehmigung von Anfragen
+
+* Gesendete Anfragen werden im Bereich Anfragen von Workfront mit einem der folgenden Anfragestatus angezeigt:
+
+  * **Überprüfung ausstehend** Dieser Status wird angezeigt, wenn keine der genehmigenden Personen das Anfrageobjekt geöffnet hat.
+  * **In Überprüfung**: Der Status **Ausstehende Überprüfung** ändert sich in **In Überprüfung**, wenn mindestens eine genehmigende Person das Anfrageobjekt öffnet. Der Status der Anfrage bleibt **In Überprüfung** bis alle genehmigenden Personen die Anfrage genehmigt haben.
+  * **Genehmigt**: Wenn eine genehmigende Person das Anfrageobjekt genehmigt, wird ihr individueller Status **Genehmigt**, aber der Gesamtstatus des Anfrageobjekts bleibt **In Überprüfung**, bis alle genehmigenden Personen ihre Entscheidung getroffen haben. Wenn alle genehmigenden Personen eine Anfrage genehmigen, wird der Anfragestatus **Genehmigt**.
+  * **Abgeschlossen**: Wenn alle genehmigenden Personen das Anfrageobjekt genehmigen, ändert sich sein Status in **Abgeschlossen** oder wenn für die Anfrage keine Genehmigung erforderlich ist.
+  * **Abgelehnt**: Wenn eine genehmigende Person das Anfrageobjekt ablehnt, wird der Status **Abgelehnt**. Es wird kein Datensatz erstellt und es muss eine neue Anfrage gesendet werden, um den Datensatz zu erstellen.
+
+* Sie können Genehmigungsinformationen zu einem Datensatz anzeigen, der durch Senden eines Anforderungsformulars in den Feldern Genehmigt von und Genehmigt am erstellt wurde. Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Planungsanfrage zum Erstellen eines Datensatzes genehmigen
 

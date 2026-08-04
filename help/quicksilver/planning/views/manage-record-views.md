@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 1360
+source-wordcount: 1394
 ht-degree: 5%
 
 ---
@@ -67,8 +67,8 @@ Datensätze können in den folgenden Ansichten angezeigt werden:
 
   Weitere Informationen finden Sie in den folgenden Artikeln:
 
-   * [Hinzufügen einer Seite „Verbundene Einträge“ zu einem Eintrag](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)
-   * [Verwalten der Listenansicht](/help/quicksilver/planning/views/manage-the-list-view.md)
+  * [Hinzufügen einer Seite „Verbundene Einträge“ zu einem Eintrag](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md)
+  * [Verwalten der Listenansicht](/help/quicksilver/planning/views/manage-the-list-view.md)
 
 In diesem Artikel werden die folgenden Informationen zu Datensatzansichten beschrieben:
 
@@ -99,15 +99,29 @@ Weitere Informationen zum Verwalten von Workfront Planning-Datensatzansichten fi
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<p>Beliebiges Workfront und beliebiges Planungspaket</p>
-<p>Beliebiger Workflow und beliebiges Planungspaket</p>
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
-   </td> 
-  <tr> 
+<ul> 
+<li><p>Beliebige Workfront oder Workflows mit einem Planungspaket</p></li>
+ODER
+<li><p>Jedes Planungspaket, wenn es als eigenständiges Produkt gekauft wird</p></li></ul>
+   </td> </tr>
+
+<tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
-   <td><p> Standard zum Erstellen und Löschen von Ansichten</p>
-   <p>Mitwirkender oder höher zum Aktualisieren von Ansichtselementen</p>
+   <td><p>Workflow Light oder höher</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning-Lizenz</p></td> 
+   <td><p> Planning Standard zum Erstellen und Löschen von Ansichten</p>
+   <p>Planender oder höher zum Aktualisieren von Ansichtselementen</p>
+   <p><b>NOTIZ</b><p>
+   <p>Nicht alle Kunden verfügen über Lizenzen für Planning Contributor</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
@@ -171,7 +185,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -197,14 +211,14 @@ Old:
 * Jeder Benutzer kann maximal 100 Ansichten erstellen. Sie können für einen Datensatztyp mehr als 100 Ansichten anzeigen, aber ein Benutzer kann nur 100 Ansichten erstellen.
 * Obwohl einige Ansichtselemente auf mehrere Ansichten für denselben Datensatz angewendet werden können, sind sie für jede Datensatzansicht eindeutig:
 
-   * Filter
-   * Sortieren (für die Tabellenansicht)
-   * Zeilenfarben (für die Tabellenansicht)
-   * Felder (für die Tabellenansicht)
-   * Aufschlüsselung (für die Zeitleisten-Ansicht)
-   * Gruppierung (für die Tabellen- und Zeitleisten-Ansichten)
-   * Darstellung der Leiste (für die Zeitleisten- und Kalenderansichten)
-   * Zeilenhöhe (für die Tabelle und die monatliche Kalenderansicht)
+  * Filter
+  * Sortieren (für die Tabellenansicht)
+  * Zeilenfarben (für die Tabellenansicht)
+  * Felder (für die Tabellenansicht)
+  * Aufschlüsselung (für die Zeitleisten-Ansicht)
+  * Gruppierung (für die Tabellen- und Zeitleisten-Ansichten)
+  * Darstellung der Leiste (für die Zeitleisten- und Kalenderansichten)
+  * Zeilenhöhe (für die Tabelle und die monatliche Kalenderansicht)
 
   Wenn Sie beispielsweise einen Filter in einer Tabellenansicht erstellen, sind die Filterergebnisse nur in der ausgewählten Ansicht (der Tabellenansicht) sichtbar und nicht in allen Ansichten, die mit dem Datensatztyp verknüpft sind.
 

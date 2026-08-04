@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 2948
+source-wordcount: 2968
 ht-degree: 2%
 
 ---
@@ -60,20 +60,28 @@ Weitere Informationen zum Senden einer Anfrage an einen Datensatztyp zum Erstell
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Pakete</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<p>Jedes Workfront-Paket und jedes Planungspaket</p>
+<ul> 
+<li><p>Beliebige Workfront oder Workflows mit einem Planungspaket</p></li>
 ODER
-<p>Beliebiges Workflow-Paket und beliebiges Planungspaket</p>
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer.</p>
+<li><p>Jedes Planungspaket, wenn es als eigenständiges Produkt gekauft wird</p></li></ul>
    </td> </tr>
-
-</tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
-   <td><p>Standard</p> 
-  </td> 
+   <td><p>Workflow-Standard</p>
+   </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Planning-Lizenz</p></td> 
+   <td><p>Planungsstandard</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich oder Datensatztyp</a> </p>  
@@ -94,27 +102,27 @@ Informationen zum Senden von Workfront-Planungsanfragen finden Sie unter [Senden
 
 * Im Folgenden wird beschrieben, wie bestimmte Felder in Anfrageformularen, in von einem Anfrageformular erstellten Datensätzen oder auf der Seite mit den Anfragedetails angezeigt werden:
 
-   * Sie können keine Felder der folgenden Typen zu einem Anfrageformular hinzufügen:
+  * Sie können keine Felder der folgenden Typen zu einem Anfrageformular hinzufügen:
 
-      * Erstellt von, Zuletzt geändert von, Genehmigt von
-      * Erstellungsdatum, Datum der letzten Änderung, Genehmigungsdatum
-      * Eintrags-ID
-      * Suchfelder der Workfront-Objekte
-      * Suchfelder für verknüpfte Datensätze in Workfront
+    * Erstellt von, Zuletzt geändert von, Genehmigt von
+    * Erstellungsdatum, Datum der letzten Änderung, Genehmigungsdatum
+    * Eintrags-ID
+    * Suchfelder der Workfront-Objekte
+    * Suchfelder für verknüpfte Datensätze in Workfront
 
 * Im Folgenden werden die Unterschiede zwischen der Anzeige von Feldformaten im Formular-Builder für Anfragen und der Formatierung der Werte der Felder im Datensatz oder auf der Seite mit den Anfragedetails beschrieben:
 
-   * Die Felder Währung, Zahl und Prozentsatz werden im Formular-Builder als einzeiliges Textfeld angezeigt.
+  * Die Felder Währung, Zahl und Prozentsatz werden im Formular-Builder als einzeiliges Textfeld angezeigt.
 
-     Das Feldformat wird jedoch beibehalten und die Feldwerte werden nach dem Senden der Anfrage als Währung, Zahlen und Prozentsätze auf dem Datensatztyp und auf der Seite mit den Anfragedetails angezeigt.
+    Das Feldformat wird jedoch beibehalten und die Feldwerte werden nach dem Senden der Anfrage als Währung, Zahlen und Prozentsätze auf dem Datensatztyp und auf der Seite mit den Anfragedetails angezeigt.
 
 * Im Folgenden wird beschrieben, wie einige Feldwerte auf Anfrageformularen und den Anfragedetailseiten angezeigt werden:
 
-   * Die spezielle Formatierung für die Felder Währung, Zahl und Prozentsatz wird nicht beibehalten. Beispielsweise bleibt die Dezimalgenauigkeit für die Werte dieser Felder in diesen Bereichen nicht erhalten.
-   * Personenfeldwerte werden als IDs angezeigt.
-   * Formelfelder, die nicht auf andere Felder oder Berechnungen verweisen, zeigen keine Werte an. Beispiel: Ein Feld mit einer `STRING` Formel zeigt den Wert „K. A.“ an.
-   * Formelfelder, die auf Währungsfelder verweisen, zeigen die Werte ohne Berücksichtigung von Wechselkursen an.
-   * Die Werte der Absatzfelder zeigen auf dem Anfrageformular den Wert „K. A.“ an und auf der Seite mit den Anfragedetails werden HTML-Tags anstelle des formatierten Texts angezeigt.
+  * Die spezielle Formatierung für die Felder Währung, Zahl und Prozentsatz wird nicht beibehalten. Beispielsweise bleibt die Dezimalgenauigkeit für die Werte dieser Felder in diesen Bereichen nicht erhalten.
+  * Personenfeldwerte werden als IDs angezeigt.
+  * Formelfelder, die nicht auf andere Felder oder Berechnungen verweisen, zeigen keine Werte an. Beispiel: Ein Feld mit einer `STRING` Formel zeigt den Wert „K. A.“ an.
+  * Formelfelder, die auf Währungsfelder verweisen, zeigen die Werte ohne Berücksichtigung von Wechselkursen an.
+  * Die Werte der Absatzfelder zeigen auf dem Anfrageformular den Wert „K. A.“ an und auf der Seite mit den Anfragedetails werden HTML-Tags anstelle des formatierten Texts angezeigt.
 
 ## Anfrageformular erstellen
 
@@ -124,7 +132,7 @@ Um ein Anfrageformular zu erstellen, müssen Sie Folgendes ausfüllen:
 * Konfigurieren Sie die Einstellungen des Formulars, um Validierungen und Abschlussoptionen für zukünftige Anfragen hinzuzufügen
 * Formular veröffentlichen
 
-### Neues Formular hinzufügen
+### Hinzufügen eines neuen Formulars
 
 {{step1-to-planning}}
 

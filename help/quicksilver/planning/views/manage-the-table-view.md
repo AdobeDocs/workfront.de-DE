@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 3939
+source-wordcount: 3973
 ht-degree: 2%
 
 ---
@@ -63,21 +63,36 @@ Informationen zum Exportieren der Tabellenansicht in eine Excel- oder CSV-Datei 
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<p>Beliebiges Workfront und beliebiges Planungspaket</p>
-<p>Beliebiger Workflow und beliebiges Planungspaket</p>
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
-   </td> 
-  <tr> 
+<ul> 
+<li><p>Beliebige Workfront oder Workflows mit einem Planungspaket</p></li>
+ODER
+<li><p>Jedes Planungspaket, wenn es als eigenständiges Produkt gekauft wird</p></li></ul>
+   </td> </tr>
+
+<tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
-   <td><p> Standard zum Erstellen und Löschen von Ansichten</p>
-   <p>Mitwirkender oder höher zum Aktualisieren von Ansichtselementen</p>
+   <td><p>Workflow Light oder höher</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning-Lizenz</p></td> 
+   <td><p> Planning Standard zum Erstellen und Löschen von Ansichten</p>
+   <p>Planender oder höher zum Aktualisieren von Ansichtselementen</p>
+   <p><b>NOTIZ</b><p>
+   <p>Nicht alle Kunden verfügen über Lizenzen für Planning Contributor</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>   <p>Verwalten der Berechtigungen für eine Ansicht</p>  
    <p>Anzeigeberechtigungen für eine Ansicht, um die Anzeigeeinstellungen vorübergehend zu ändern oder zu duplizieren</p> </td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -132,7 +147,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 

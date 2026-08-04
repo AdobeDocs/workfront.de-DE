@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 930
+source-wordcount: 950
 ht-degree: 3%
 
 ---
@@ -60,21 +60,28 @@ Weitere Informationen zum Senden einer Anfrage an einen Datensatztyp zum Erstell
 </col> 
 <tbody> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Pakete</p></td> 
+   <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<p>Jedes Workfront-Paket und jedes Planungspaket</p>
+<ul> 
+<li><p>Beliebige Workfront oder Workflows mit einem Planungspaket</p></li>
 ODER
-<p>Beliebiges Workflow-Paket und beliebiges Planungspaket</p>
-
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer.</p>
+<li><p>Jedes Planungspaket, wenn es als eigenständiges Produkt gekauft wird</p></li></ul>
    </td> </tr>
-
-</tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
-   <td><p>Standard</p> 
-  </td> 
+   <td><p>Workflow-Standard</p>
+   </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Planning-Lizenz</p></td> 
+   <td><p>Planungsstandard</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich und Datensatztyp</a> </p>  

@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1038
+source-wordcount: 1061
 ht-degree: 2%
 
 ---
@@ -62,13 +62,25 @@ Dieser Artikel beschreibt, wie Sie die Einstellungen für Workfront Planning-Fel
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<p>Beliebiges Workfront und beliebiges Planungspaket</p> <p>Beliebiger Workflow und beliebiges Planungspaket</p>
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
+<ul> 
+<li><p>Beliebige Workfront oder Workflows mit einem Planungspaket</p></li>
+ODER
+<li><p>Jedes Planungspaket, wenn es als eigenständiges Produkt gekauft wird</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
-   <td><p>Standard</p>
+   <td><p>Workflow-Standard</p>
    </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Planning-Lizenz</p></td> 
+   <td><p>Planungsstandard</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
@@ -130,7 +142,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -152,10 +164,10 @@ Bevor Sie die Konfiguration eines Felds ändern, müssen Sie Folgendes beachten:
 * Sie können die Auswahl der Einstellung Negative Zahlen zulassen , die zuvor für ein Feld vom Typ Zahl, Prozentsatz oder Währung ausgewählt wurde, nicht aufheben, wenn bereits negative Werte für die Datensätze gespeichert sind, an die sie angehängt ist.
 * Sie können die Konfiguration der folgenden Feldelemente bearbeiten, nachdem Sie das Feld gespeichert haben:
 
-   * Der Name oder die Beschreibung eines beliebigen Felds
-   * Die Optionen eines Einzel- oder Mehrfachauswahlfelds und ihre Standardoptionen.
-   * Die Standardoptionen eines Personenfelds.
-   * Der Ausdruck eines Formelfelds.
+  * Der Name oder die Beschreibung eines beliebigen Felds
+  * Die Optionen eines Einzel- oder Mehrfachauswahlfelds und ihre Standardoptionen.
+  * Die Standardoptionen eines Personenfelds.
+  * Der Ausdruck eines Formelfelds.
 
   >[!WARNING]
   >

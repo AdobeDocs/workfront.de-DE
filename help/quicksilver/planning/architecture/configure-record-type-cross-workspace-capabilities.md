@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1438
+source-wordcount: 1465
 ht-degree: 2%
 
 ---
@@ -79,22 +79,23 @@ Weitere Informationen finden Sie in einem der folgenden Artikel:
    <td> 
 <p>So konfigurieren Sie verbindbare Datensatztypen: </p>
 <ul> 
-<li><p>Jedes Workfront-Paket und jedes Planungspaket</p></li>
+<li>Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket</p></li>
 ODER
-<li>Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket</p></li></ul>
-
+<li>Ein Workfront Planning Prime- oder Ultimate-Paket als eigenständiges Produkt</li>
+</ul>
 
 <p>So konfigurieren Sie globale Datensatztypen:</p>
 
 <ul> 
-<li><p>Beliebiges Workfront-Paket und Planning Plus-Paket</p></li>
+<li><p>Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket</p></li>
+
 ODER
-<li><p>Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket</p></li></ul>
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p>
+<li>Ein Planning Prime- oder Ultimate-Paket, wenn es als eigenständiges Produkt gekauft wird </li>
+</ul>
 
 </td> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
+   <td role="rowheader"><p>Adobe Workfront und Planning-Lizenz</p></td> 
    <td>
    <!--
    <p>In the Production environment: </p>
@@ -105,15 +106,17 @@ ODER
    -->
 
 <p>So erstellen Sie einen globalen Datensatz:</p>
-   <ul><li>Standard oder höher</li></ul>
+   <ul><li>Workfront und Planning Standard oder höher</li></ul>
    <p>So machen Sie einen Datensatz verbindbar:</p>
 
-<ul><li>Standard, um aus bestimmten Arbeitsbereichen eine Verbindung zu einem Datensatz herzustellen</li>
+<ul><li>Workfront und Planning Standard, um einen Datensatz aus bestimmten Arbeitsbereichen verbindbar zu machen</li>
    <li>Systemadministrator, um einen Datensatz aus allen Arbeitsbereichen verbindbar zu machen</li></ul>
-
 
 </td> 
   </tr> 
+  <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   
+</td> 
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich</p>  

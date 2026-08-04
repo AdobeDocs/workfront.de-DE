@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9025c23900c031594d1a4b875826fc35f1d5bf6c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 624
+source-wordcount: 622
 ht-degree: 10%
 
 ---
@@ -60,14 +60,26 @@ Sie können Kopien bestehender Workfront-Felder importieren. Beim Importieren vo
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<p>Beliebiges Workfront und beliebiges Planungspaket</p> <p>Beliebiger Workflow und beliebiges Planungspaket</p>
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
+<ul> 
+<li><p>Beliebige Workfront oder Workflows mit einem Planungspaket</p></li>
+ODER
+<li><p>Jedes Planungspaket, wenn es als eigenständiges Produkt gekauft wird</p></li></ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
-   <td><p>Standard</p>
+   <td><p>Workflow-Standard</p>
    </td> 
   </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Planning-Lizenz</p></td> 
+   <td><p>Planungsstandard</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich</p>  
@@ -128,7 +140,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -147,24 +159,24 @@ Old:
 * Beim Importieren von Workfront-Feldern werden Kopien derselben Felder erstellt und der Feldname wird in Workfront Planning beibehalten. Nachdem sie in Workfront Planning kopiert wurden, sind die Felder von den Workfront-Originalfeldern unabhängig und geben keine Informationen weiter.
 <!--check this: * You do not need permissions or access to Workfront objects to be able to add their fields to Workfront Planning. -->
 * Sie können native oder benutzerdefinierte Felder aus den folgenden Workfront-Objekten hinzufügen:
-   * Portfolio
-   * Programm
-   * Projekt
-   * Aufgabe
-   * Problem
-   * Dokument
-   * Firma
-   * Gruppe
-   * Benutzerin oder Benutzer
-   * Aufgabengebiet
-   * Zuweisung
-   * Stunde
-   * Abrechnungseintrag
-     <!--Available only to Preview, but might not come to Prod:* Rate card - visible in Production but asking PM if it should be hidden-->
-   * Ausgabe
-   * Wiederholung
-     <!--* Non-labor resource - - visible in Production but asking PM if it should be hidden-->
-     <!--* Non-labour resource category - - visible in Production but asking PM if it should be hidden-->
+  * Portfolio
+  * Programm
+  * Projekt
+  * Aufgabe
+  * Problem
+  * Dokument
+  * Firma
+  * Gruppe
+  * Benutzerin oder Benutzer
+  * Aufgabengebiet
+  * Zuweisung
+  * Stunde
+  * Abrechnungseintrag
+    <!--Available only to Preview, but might not come to Prod:* Rate card - visible in Production but asking PM if it should be hidden-->
+  * Ausgabe
+  * Wiederholung
+    <!--* Non-labor resource - - visible in Production but asking PM if it should be hidden-->
+    <!--* Non-labour resource category - - visible in Production but asking PM if it should be hidden-->
 * Workfront-Felder behalten ihren Feldtyp möglicherweise nicht bei, nachdem sie in Workfront Planning importiert wurden.
 
   Die nachstehende Tabelle zeigt die Workfront-Feldtypen und den entsprechenden Workfront Planning-Feldtyp.
@@ -185,7 +197,7 @@ Old:
   | Optionsfeld | Mehrfachauswahl |
 
   *Berechnete Felder stehen zu einem späteren Zeitpunkt zur Verfügung.
-Alle anderen Workfront-Feldtypen werden in Workfront Planning nicht unterstützt.
+  Alle anderen Workfront-Feldtypen werden in Workfront Planning nicht unterstützt.
 
 
 ## Felder aus Workfront importieren

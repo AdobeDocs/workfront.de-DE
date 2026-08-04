@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '706'
 ht-degree: 4%
 
 ---
@@ -42,21 +42,31 @@ at GA, check that the Workfront plans article linked below has Planning info
 <col> 
 </col> 
 <tbody> 
-    <tr> 
+    <tr>
+
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
 <p>Beliebige Workfront oder Workflows mit einem Planungspaket</p> 
 ODER
-<p>Beliebige Workfront-Planung als eigenständiges Produktpaket</p>
-
-</tr>
+<p>Beliebige Workfront-Planung als eigenständiges Produktpaket</p> 
+ </tr>
 
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
    <td><p>Beliebig</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning-Lizenz</p></td> 
+   <td><p>Beliebig</p> 
    <p><b>NOTIZ</b></p>
-   <p>Nur Personen mit einer Standardlizenz können Berechtigungen zum Verwalten von Datensätzen erhalten. Alle anderen Lizenzen können nur über Anzeigeberechtigungen verfügen und die Option Verwalten ist für sie abgeblendet.</p>
+   <p>Nur Personen mit einer Planning Standard-Lizenz können Berechtigungen zum Verwalten von Datensätzen erhalten. Alle anderen Lizenzen können nur über Anzeigeberechtigungen verfügen und die Option Verwalten ist für sie abgeblendet.</p>
+  </td> 
+  </tr> 
+<td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   
+</td>   
   </td> 
   </tr> 
   <tr> 

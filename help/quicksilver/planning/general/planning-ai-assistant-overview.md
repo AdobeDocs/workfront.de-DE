@@ -21,9 +21,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 785
+source-wordcount: 826
 ht-degree: 7%
 
 ---
@@ -56,15 +56,23 @@ Die Benutzerbefehle und die Ausführung dieser Befehle durch die KI arbeiten zus
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Pakete</p></td> 
    <td> 
-<p>Beliebiges Workfront- und Planungspaket</p>
-<p>Beliebiges Workflow- und Planungspaket</p>
+<p>Beliebige Workfront oder Workflows mit einem Planungspaket</p>
+<p>Jedes Planungspaket, wenn es als eigenständiges Produkt gekauft wird</p>
    </td> </tr>
-
-</tr> 
-  <tr> 
+ <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
-   <td><p>Standard</p> 
-  </td> 
+   <td><p>Workflow-Standard</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Adobe Planning-Lizenz</p></td> 
+   <td><p>Planungsstandard</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
@@ -89,8 +97,8 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 * Die vom KI-Assistenten im Bereich Planung durchgeführten Aktionen stehen im Kontext Ihrer Workfront-Planungsberechtigungen und Ihrer Workfront-Zugriffsebene. Weitere Informationen finden Sie in den folgenden Artikeln:
 
-   * [Überblick über das Freigeben von Berechtigungen in Adobe Workfront-Planung](/help/quicksilver/planning/access/sharing-permissions-overview.md)
-   * [Überblick über die Lizenztypen bei Verwendung von Adobe Workfront-Planung](/help/quicksilver/planning/access/license-type-overview.md)
+  * [Überblick über das Freigeben von Berechtigungen in Adobe Workfront-Planung](/help/quicksilver/planning/access/sharing-permissions-overview.md)
+  * [Überblick über die Lizenztypen bei Verwendung von Adobe Workfront-Planung](/help/quicksilver/planning/access/license-type-overview.md)
 
 * Änderungen, die der KI-Assistent im Auftrag des Benutzers vornimmt, werden im Verlaufsfenster des Datensatzes erfasst.
 

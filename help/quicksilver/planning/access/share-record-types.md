@@ -8,9 +8,9 @@ recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
 last-update: 2026-04-01T18:23:03Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-source-git-commit: 009953346ae5ef29611101acaa08b4f9810cf9d8
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1485'
 ht-degree: 2%
 
 ---
@@ -59,13 +59,22 @@ Sie können einen Datensatztyp für andere freigeben, um die Zusammenarbeit beim
 <p>Beliebige Workfront oder Workflows mit einem Planungspaket</p> 
 ODER
 <p>Beliebige Workfront-Planung als eigenständiges Produktpaket</p> 
- </tr>
-
-<tr> 
+ </tr> 
+  <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
    <td><p>Beliebig</p> 
   </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning-Lizenz</p></td> 
+   <td><p>Beliebig</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   
+</td> 
+  </tr>  
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>  <p>Verwalten von Berechtigungen für einen Arbeitsbereich und einen Datensatztyp</p>  
@@ -129,7 +138,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -154,17 +163,17 @@ Old:
 
 * Derzeit können Sie beim Freigeben von Datensatztypen Folgendes erreichen:
 
-   * Erteilen Sie Benutzern Anzeigeberechtigungen für einen Arbeitsbereich, wenn Sie einen Datensatztyp zum ersten Mal für sie freigeben und sie keine Berechtigungen für den Arbeitsbereich haben.
+  * Erteilen Sie Benutzern Anzeigeberechtigungen für einen Arbeitsbereich, wenn Sie einen Datensatztyp zum ersten Mal für sie freigeben und sie keine Berechtigungen für den Arbeitsbereich haben.
 
-     Dadurch erhalten sie auch Ansichtsberechtigungen für alle Datensatztypen im Arbeitsbereich.
+    Dadurch erhalten sie auch Ansichtsberechtigungen für alle Datensatztypen im Arbeitsbereich.
 
-     Da Sie dem Datensatztyp Berechtigungen erteilen, gibt es im Freigabefeld einen Hinweis darauf, dass er auch zum Arbeitsbereich hinzugefügt wird.
-   * Wenn Sie die geerbten Berechtigungen deaktivieren, ist der Datensatztyp nur für alle Personen im Arbeitsbereich sichtbar (mit Ausnahme von Arbeitsbereich-Managern).
+    Da Sie dem Datensatztyp Berechtigungen erteilen, gibt es im Freigabefeld einen Hinweis darauf, dass er auch zum Arbeitsbereich hinzugefügt wird.
+  * Wenn Sie die geerbten Berechtigungen deaktivieren, ist der Datensatztyp nur für alle Personen im Arbeitsbereich sichtbar (mit Ausnahme von Arbeitsbereich-Managern).
 
-     Personen mit der Berechtigung Verwalten für den Arbeitsbereich verfügen immer über die Berechtigung Verwalten für die Datensatztypen, auch wenn Sie geerbte Berechtigungen für den Datensatztyp deaktivieren.
-   * Berechtigung von Benutzern für einen Datensatztyp herabsetzen. Es ist nicht möglich, die Berechtigung einer Person auf einen Datensatztyp zu erhöhen, verglichen mit dem, was diese Person im Arbeitsbereich hat.
+    Personen mit der Berechtigung Verwalten für den Arbeitsbereich verfügen immer über die Berechtigung Verwalten für die Datensatztypen, auch wenn Sie geerbte Berechtigungen für den Datensatztyp deaktivieren.
+  * Berechtigung von Benutzern für einen Datensatztyp herabsetzen. Es ist nicht möglich, die Berechtigung einer Person auf einen Datensatztyp zu erhöhen, verglichen mit dem, was diese Person im Arbeitsbereich hat.
 
-     Wenn beispielsweise jemand die Berechtigung Beitragen für den Arbeitsbereich hat, können Sie seine Berechtigung für die Anzeige in einen bestimmten Datensatztyp ändern. Wenn er/sie jedoch über die Berechtigung Anzeigen für den Arbeitsbereich verfügt, können Sie ihm/ihr keine Beitragsberechtigung für einen Datensatztyp erteilen.
+    Wenn beispielsweise jemand die Berechtigung Beitragen für den Arbeitsbereich hat, können Sie seine Berechtigung für die Anzeige in einen bestimmten Datensatztyp ändern. Wenn er/sie jedoch über die Berechtigung Anzeigen für den Arbeitsbereich verfügt, können Sie ihm/ihr keine Beitragsberechtigung für einen Datensatztyp erteilen.
 
 * Es ist nicht möglich, den Zugriff auf einen Datensatztyp für Personen im Arbeitsbereich zu entfernen. Jeder hat immer mindestens die Berechtigung Anzeigen für alle Datensatztypen, wenn er mindestens die Berechtigung Anzeigen für den Arbeitsbereich hat.
 
@@ -238,7 +247,7 @@ Sie können Berechtigungen an einzelne Datensatztypen eines Arbeitsbereichs anpa
 1. Klicken Sie auf **Speichern**.
 
    Der Datensatztyp wird jetzt für andere Benutzer freigegeben.
-Die Benutzer, für die Sie den Datensatztyp freigegeben haben, erhalten sowohl eine In-App- als auch eine E-Mail-Benachrichtigung über Berechtigungen für die folgenden Entitäten:
+   Die Benutzer, für die Sie den Datensatztyp freigegeben haben, erhalten sowohl eine In-App- als auch eine E-Mail-Benachrichtigung über Berechtigungen für die folgenden Entitäten:
 
    * Der Datensatztyp
    * den Arbeitsbereich, wenn sie keine Berechtigungen für den Arbeitsbereich hatten, bevor der Datensatztyp für sie freigegeben wurde.

@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 765
+source-wordcount: 749
 ht-degree: 2%
 
 ---
@@ -56,7 +56,7 @@ Bevor Sie einem Arbeitsbereich Datensätze aus einem globalen Datensatztyp hinzu
 <col> 
 </col> 
 <col> 
-</col> 
+</col>  
 <tbody> 
     <tr> 
 <tr> 
@@ -64,17 +64,27 @@ Bevor Sie einem Arbeitsbereich Datensätze aus einem globalen Datensatztyp hinzu
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<ul><li><p>Beliebiges Workfront-Paket und Planning Plus-Paket</p></li>
+<p>Beliebige Workfront oder Workflows mit einem Planungspaket</p> 
 ODER
-<li><p>Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket</p></p></li></ul>
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
-   </td> 
+<p>Beliebige Workfront-Planung als eigenständiges Produktpaket</p> 
+ </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
-   <td><p>Standard</p>
-   </td> 
+   <td><p>Workflow-Standard</p> 
+  </td> 
   </tr> 
   <tr> 
+   <td role="rowheader"><p>Adobe Planning-Lizenz</p></td> 
+   <td><p>Planungsstandard</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   
+</td> 
+  </tr>
+
+<tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich</p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p>  </td> 
@@ -158,8 +168,8 @@ Folgendes geschieht:
 
 * Die folgenden Informationen werden auch aus dem vorhandenen globalen Datensatztyp hinzugefügt:
 
-   * Alle Originalfelder
-   * Alle Datensatzverbindungen
+  * Alle Originalfelder
+  * Alle Datensatzverbindungen
 * Sie können keine Datensätze anzeigen, die aus dem ursprünglichen Arbeitsbereich des Datensatztyps aus dem sekundären Arbeitsbereich hinzugefügt wurden.
 * Sie können Datensätze, die aus dem ursprünglichen Arbeitsbereich des Datensatztyps in diesem Arbeitsbereich hinzugefügt wurden, nur im ursprünglichen Arbeitsbereich anzeigen, wenn Sie mindestens über die Berechtigung Anzeigen für diesen Arbeitsbereich verfügen.
 * Das schreibgeschützte Feld **Workspace** wird der neuen Tabellenansicht vom Typ Datensatz hinzugefügt. Das Feld zeigt den Arbeitsbereich an, in dem die einzelnen Datensätze erstellt wurden.

@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 440
+source-wordcount: 459
 ht-degree: 6%
 
 ---
@@ -59,18 +59,27 @@ Es wird empfohlen, einige oder alle Datensatztypen, Datensätze, Felder und Ansi
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<ul> 
-<li><p>Beliebiges Workfront und beliebiges Planungspaket</p></li>
+<p>Beliebige Workfront oder Workflows mit einem Planungspaket</p> 
 ODER
-<li><p>Beliebiger Workflow und beliebiges Planungspaket</p></li></ul>
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
-   </td> 
+<p>Beliebige Workfront-Planung beim Kauf als eigenständiges Produkt</p> 
+ </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
-   <td><p>Standard</p>
-   </td> 
+   <td><p>Beliebig</p> 
+  </td> 
   </tr> 
   <tr> 
+   <td role="rowheader"><p>Adobe Planning-Lizenz</p></td> 
+   <td><p>Beliebig</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   
+</td> 
+  </tr>
+
+<tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich</p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p>  </td> 
@@ -130,7 +139,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -165,7 +174,7 @@ Old:
 1. Führen Sie einen der folgenden Schritte aus, um einen Arbeitsbereich zu löschen:
 
    * Bewegen Sie den Mauszeiger über die Arbeitsbereichskarte und klicken Sie dann auf **Mehr** Menü ![Mehr](assets/more-menu.png) in der oberen rechten Ecke der Karte
-ODER
+     ODER
    * Klicken Sie auf **search**-Symbol ![search-Symbol](assets/search-icon.png) in der rechten oberen Ecke der Seite „Workspace“, um nach einem Workspace anhand des Namens zu suchen, und klicken Sie auf eine Workspace-Karte, um den Workspace zu öffnen. Klicken Sie dann auf das **More**-Menü ![More-Menü](assets/more-menu.png) rechts neben dem Workspace-Namen.
 
    >[!TIP]

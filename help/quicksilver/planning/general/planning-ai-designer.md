@@ -20,10 +20,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e8216d44973c43f14ef615a6f8c4eb1cb05bd935
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1496
-ht-degree: 5%
+source-wordcount: 1528
+ht-degree: 6%
 
 ---
 
@@ -52,7 +52,7 @@ Weitere Informationen zu Workfront Planning finden Sie in den folgenden Artikeln
 * [Überblick über den Zugriff auf Adobe Workfront-Planung](/help/quicksilver/planning/access/access-overview.md)
 
 
-## &#x200B;<!--edit theses??--> der Zugriffsanforderungen
+## Zugriffsanforderungen
 
 +++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
@@ -66,20 +66,25 @@ Weitere Informationen zu Workfront Planning finden Sie in den folgenden Artikeln
    <td role="rowheader"><p>Adobe Workfront-Pakete</p></td> 
    <td> 
 <p>Jedes Workfront- oder Workflow-Paket mit einem Planungspaket</p>
-<p>Beliebige Planung als eigenständiges Produktpaket</p>
+<p>Jede Planung beim Kauf als eigenständiges Produkt</p>
    </td> </tr>
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Workfront-Lizenz</p></td> 
-   <td><p>Standard</p> 
+   <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
+   <td><p>Workflow-Standard</p> 
    <p>Workfront-Administratoren müssen die Planning Designer für Ihr Unternehmen aktivieren</p>
   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Planungsgenehmigung</p></td> 
-   <td><p>Standard</p> 
+   <td><p>Planungsstandard</p> 
    <p>Workfront-Administratoren müssen die Planning Designer für Ihr Unternehmen aktivieren</p>
   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 

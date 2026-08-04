@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
 workflow-type: tm+mt
-source-wordcount: 839
+source-wordcount: 861
 ht-degree: 3%
 
 ---
@@ -57,16 +57,26 @@ Weitere Informationen zum Erstellen von Datensätzen finden Sie unter [Erstellen
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<p>Beliebiges Workfront und beliebiges Planungspaket</p> <p>Beliebiger Workflow und beliebiges Planungspaket</p>
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
+<p>Beliebige Workfront oder Workflows und ein Planungspaket</p> 
+ODER
+<p>Jedes Planungspaket, wenn es als eigenständiges Produkt gekauft wird</p>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
-   <td><p>Standard</p>
+   <td><p>Workflow-Standard</p>
    </td> 
   </tr>
-
-<tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Planning-Lizenz</p></td> 
+   <td><p>Planungsstandard</p>
+   </td> 
+  </tr>
+ <tr> 
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   
+</td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td> <p>Tragen Sie Berechtigungen oder höhere Berechtigungen für den Arbeitsbereich und den Datensatztyp bei, in den Sie Datensätze importieren. </p>
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p>
@@ -127,7 +137,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p> 
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p> 
    <p>Edit access in Workfront for the object types that you want to create (projects, programs, and portfolios) as you connect them from new records  </p>  
 </td> 
   </tr> 
@@ -149,21 +159,21 @@ Old:
 * Jede Zeile in jedem Blatt wird zu einem eindeutigen zugeordneten Datensatz.
 * Wenn die Excel-Datei mehr als ein Blatt enthält, werden nur die Informationen aus einem Blatt importiert, die Sie während des Importvorgangs auswählen.
 * Die Datei sollte folgende Werte nicht überschreiten:
-   * 25.000 Zeilen
-   * 500 Spalten
+  * 25.000 Zeilen
+  * 500 Spalten
 * Die Datei sollte nicht größer als 5 MB sein.
 * Leere Blätter werden nicht unterstützt.
 * Felder der folgenden Typen werden nicht unterstützt und können nicht den Feldern im Importblatt zugeordnet werden:
 
-   * Verbindungsfelder zu Workfront- und Adobe Experience Manager-Objekttypen. Sie können nur Verbindungsfelder den Planungs-Datensatztypen zuordnen.
-   * Nachschlagen von Feldern aus verbundenen Planungsdatensätzen oder Workfront- und Adobe Experience Manager-Objekten
-   * Formelfelder
-   * Erstellungsdatum, Erstellt von
-   * Datum der letzten Änderung, letzte Änderung von
-   * Genehmigt am, Genehmigt von
-   * Personen
-   * Eintrags-ID
-   * Wenn ein Feld mit mehreren oder nur einer Auswahl importiert wird und es mehr Auswahlmöglichkeiten als ein ähnliches Feld in Planning hat, werden die zusätzlichen Optionen während des Imports erstellt. Nur Benutzer mit der Berechtigung Verwalten für den Arbeitsbereich können neue Auswahlmöglichkeiten importieren.
+  * Verbindungsfelder zu Workfront- und Adobe Experience Manager-Objekttypen. Sie können nur Verbindungsfelder den Planungs-Datensatztypen zuordnen.
+  * Nachschlagen von Feldern aus verbundenen Planungsdatensätzen oder Workfront- und Adobe Experience Manager-Objekten
+  * Formelfelder
+  * Erstellungsdatum, Erstellt von
+  * Datum der letzten Änderung, letzte Änderung von
+  * Genehmigt am, Genehmigt von
+  * Personen
+  * Eintrags-ID
+  * Wenn ein Feld mit mehreren oder nur einer Auswahl importiert wird und es mehr Auswahlmöglichkeiten als ein ähnliches Feld in Planning hat, werden die zusätzlichen Optionen während des Imports erstellt. Nur Benutzer mit der Berechtigung Verwalten für den Arbeitsbereich können neue Auswahlmöglichkeiten importieren.
 
 ## Erstellen von Datensätzen durch Importieren einer CSV- oder Excel-Datei
 

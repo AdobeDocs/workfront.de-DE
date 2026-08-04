@@ -4,9 +4,9 @@ description: Verbesserungen für Administratoren im vierten Quartal 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1d62b2942d99d027cb68df973b2ec700dd1fa377
+source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '832'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ Genehmigungs-, Staging- und Teilnehmeraktionen werden jetzt verfolgt. Diese Maß
 
 Jeder Eintrag enthält die getrackten Standardfelder: Datum und Uhrzeit, Vorgang, Benutzername (oder „systemgeneriert„) und Objektname. MCP-Aktivitäten werden erfasst, einschließlich der LLM (wie Claude), die die Aktualisierung vorgenommen hat. Frame.io-Viewer-Kommentare sind nicht enthalten.
 
-Weitere Informationen finden Sie unter [Anzeigen und Verwalten des &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+Weitere Informationen finden Sie unter [Anzeigen und Verwalten des &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 ## Definieren eines benutzerdefinierten Programms als Landingpage in der Layout-Vorlage
 
@@ -107,7 +107,7 @@ Sie können Felder hinzufügen, die Sie für einen bestimmten Objekttyp in Workf
 
 Zuvor war der Konfigurationsbildschirm zum Definieren der verfolgten Felder schreibgeschützt.
 
-Weitere Informationen finden Sie unter [Anzeigen und Verwalten des &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+Weitere Informationen finden Sie unter [Felder zum Nachverfolgen im Änderungsverlauf konfigurieren](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md).
 
 ## Administrativer Zugriff auf den Änderungsverlauf zu Zugriffsebenen hinzugefügt
 
@@ -117,6 +117,6 @@ Weitere Informationen finden Sie unter [Anzeigen und Verwalten des &#x200B;](/he
 
 Auf der Zugriffsebene Standard können Sie jetzt festlegen, ob Benutzer mit dieser Zugriffsebene Zugriff auf die Liste „Änderungsverlauf“ haben sollen. Die **Änderungsverlauf** ist im Abschnitt **Administratorzugriff zulassen für** auf der Zugriffsebene verfügbar.
 
-Weitere Informationen finden Sie unter [Gewähren von administrativem Zugriff für Benutzer auf bestimmte Bereiche](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) und [Anzeigen und Verwalten des Änderungsverlaufs](/help/quicksilver/administration-and-setup/manage-enterprise-operations/view-and-manage-change-history.md).
+Weitere Informationen finden Sie unter [Gewähren von administrativem Zugriff für Benutzer auf bestimmte Bereiche](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md) und [Anzeigen und Verwalten des Änderungsverlaufs](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 

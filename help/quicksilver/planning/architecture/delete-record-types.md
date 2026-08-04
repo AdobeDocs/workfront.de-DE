@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1101
+source-wordcount: 1134
 ht-degree: 2%
 
 ---
@@ -64,22 +64,33 @@ Weitere Informationen zu Datensatztypen finden Sie unter [Datensatztypen - Über
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
 <ul> 
-<li><p>Beliebiges Workfront und beliebiges Planungspaket</p></li>
+<li><p>Jedes Workfront- oder Workflow-Paket mit einem Planungspaket</p></li>
 ODER
-<li><p>Beliebiger Workflow und beliebiges Planungspaket</p></li></ul>
+<li><p>Jedes Planungspaket, wenn es als eigenständiges Produkt gekauft wird</p></li></ul>
 
 <p>So löschen Sie globale Datensatztypen:</p>
 <ul><li><p>Beliebiges Workfront-Paket und Planning Plus-Paket</p></li>
 ODER
-<li><p>Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket</p></li></ul>
-
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
+<li><p>Beliebiger Workflow und ein Planning Prime- oder Ultimate-Paket</p></li>
+ODER
+<li>Jedes Planungspaket, wenn es als eigenständiges Produkt gekauft wird</li>
+</ul>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
-   <td><p>Standard</p>
+   <td><p>Workflow-Standard</p>
    </td> 
   </tr> 
+</tr> 
+   <td role="rowheader"><p>Adobe Planning-Lizenz</p></td> 
+   <td><p>Planungsstandard</p>
+   </td> 
+  </tr>
+<tr> 
+   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
+   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   
+</td> 
+  </tr>
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich</p>  
@@ -139,7 +150,7 @@ Old:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Access level configuration</p></td> 
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+   <td> <p>You must add both a Workflow and a Planning license type to the access level when you have both a Workflow and a Planning package</p>   
 </td> 
   </tr> 
 <tr> 
@@ -159,9 +170,9 @@ Old:
 * Sie können nur Datensatztypen aus Arbeitsbereichen löschen, für die Sie über Verwaltungsberechtigungen verfügen.
 * Durch das Löschen von Datensatztypen werden die folgenden mit ihnen verknüpften Informationen entfernt:
 
-   * Alle Datensätze dieses Typs.
-   * Alle mit dem Datensatztyp verknüpften Felder.
-   * Alle Ansichten (einschließlich Filtern, Gruppierungen und Sortierkriterien) des Datensatztyps.
+  * Alle Datensätze dieses Typs.
+  * Alle mit dem Datensatztyp verknüpften Felder.
+  * Alle Ansichten (einschließlich Filtern, Gruppierungen und Sortierkriterien) des Datensatztyps.
 * Der Datensatztyp wird aus allen Benutzern entfernt, die auf den Arbeitsbereich zugreifen.
 * Gelöschte Datensatztypen oder deren Informationen können nicht wiederhergestellt werden.
 * Es wird empfohlen, die Felder und die mit dem Datensatztyp verknüpften Datensätze, die Sie löschen möchten, in einem anderen Datensatztyp neu zu erstellen, bevor Sie sie löschen.
@@ -244,7 +255,7 @@ Beachten Sie Folgendes:
 
 * Wenn Sie einen globalen Datensatztyp aus einem sekundären Arbeitsbereich löschen, werden auch die folgenden gelöscht:
 
-   * Die aus dem sekundären Arbeitsbereich hinzugefügten Datensätze werden aus dem sekundären Arbeitsbereich und aus dem ursprünglichen Arbeitsbereich gelöscht und können nicht wiederhergestellt werden.
+  * Die aus dem sekundären Arbeitsbereich hinzugefügten Datensätze werden aus dem sekundären Arbeitsbereich und aus dem ursprünglichen Arbeitsbereich gelöscht und können nicht wiederhergestellt werden.
 
   <!--Coming later: * The fields added from the secondary workspace.-->
 

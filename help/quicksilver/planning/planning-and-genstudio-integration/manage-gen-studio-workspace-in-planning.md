@@ -16,9 +16,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
 workflow-type: tm+mt
-source-wordcount: 1769
+source-wordcount: 1794
 ht-degree: 5%
 
 ---
@@ -78,10 +78,11 @@ Allgemeine Informationen zur Planungsintegration von GenStudio in Workfront find
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
    <td> 
-<p>Beliebiges Workfront und beliebiges Planungspaket</p>
-<p>Beliebiger Workflow und beliebiges Planungspaket</p>
-<p>Weitere Informationen zu den einzelnen Workfront-Planungspaketen erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
-   </td> 
+<p>Beliebige Workfront oder Workflows und beliebiges Planungspaket</p> 
+ODER
+<p>Jedes Planungspaket, wenn es als eigenständiges Produkt gekauft wird</p>
+
+</td> 
    <tr> 
 <td> 
    <p> Zusätzliche Produkte</p> </td> 
@@ -90,10 +91,21 @@ Allgemeine Informationen zur Planungsintegration von GenStudio in Workfront find
   </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
-   <td><p>Standard</p>
+   <td><p>Workflow-Standard</p>
    </td> 
   </tr> 
   <tr> 
+   <td role="rowheader"><p>Adobe Planning-Lizenz</p></td> 
+   <td><p>Planungsstandard</p>
+   </td> 
+  </tr>
+<tr> 
+   <td role="rowheader"><p>Konfiguration der Adobe Workfront-Zugriffsebene</p></td> 
+   <td> <p>Wenn Sie sowohl über einen Workflow als auch über ein Planungspaket verfügen, müssen Sie der Workfront-Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen</p>   
+</td> 
+  </tr>
+
+<tr> 
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing-Benutzerrollen</p></td> 
    <td><p><ul><li>Jede GenStudio-Benutzerrolle für den Zugriff auf Kampagnen, Produkte und Personas</li>
    <li>GenStudio System Manager für den Zugriff auf Aktivierungen <!--and Events--></li></ul>
@@ -122,7 +134,66 @@ Informationen zum Adobe Workfront Planning-Zugriff finden Sie unter [Übersicht 
 
 Weitere Informationen zu Adobe GenStudio for Performance Marketing finden Sie im [Adobe GenStudio for Performance Marketing-Benutzerhandbuch](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/home).
 
-+++   
++++ 
+
+<!--
+
+Old, before Planning STA: 
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+</tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront package</p></td> 
+   <td> 
+<p>Any Workfront and any Planning package</p>
+<p>Any Workflow and any Planning package</p>
+<p>For more information about what is included in each Workfront Planning package, contact your Workfront account representative. </p> 
+   </td> 
+   <tr> 
+<td> 
+   <p> Additional products</p> </td> 
+   <td> 
+   <p> Adobe GenStudio for Performance Marketing</p></td> 
+  </tr>
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license</p></td> 
+   <td><p>Standard</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
+   <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
+   <li>GenSudio System Manager to access Activations </li></ul>
+   For information, see <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   </p>
+  </td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>  
+   <p>In Workfront Planning: </p>
+   <ul>
+   <li><p>Manage permissions to the GenStudio workspace to add new fields or record types to the GenStudio workspace</p></li>
+   <li><p>Contribute permissions to the GenStudio workspace to add, update, or delete records in the GenStudio workspace</p> </li>  
+   </ul>
+   <p>No users can remove GenStudio for Performance Marketing record types or fields from the GenStudio workspace in Workfront Planning</p>
+   <p>In Adobe GenStudio for Performance Marketing: <p>
+   <ul>
+   <li><p> Any permissions in Adobe GenStudio for Performance Marketing</p></li>
+   <li><p> Create permissions in Adobe GenStudio for Performance Marketing to create items</p></li></ul>
+   </td>  
+</tbody> 
+</table> 
+
+-->
+
 
 <!--
 Old:
@@ -309,18 +380,18 @@ Die Hauptseite von Workfront-Planung wird geöffnet.
 1. Gehen Sie wie folgt vor, um eine Ansicht oder den Datensatztyp freizugeben:
 
    * Klicken **oben rechts** der Seite „Datensatztyp“ auf „Freigeben“ und dann auf eine der folgenden Aktionen:
-      * **Datensatztyp freigeben**
-Weitere Informationen finden Sie [Datensatztypen freigeben](/help/quicksilver/planning/access/share-record-types.md).
-      * **Aktuelle Ansicht freigeben**
-Weitere Informationen finden Sie unter [Freigeben von Ansichten](/help/quicksilver/planning/access/share-views.md).
-      * **Link „Ansicht kopieren“**
-Ein Link zur Ansicht wird in die Zwischenablage kopiert.
-      * **Aktuelle Ansicht exportieren**
-Weitere Informationen finden Sie [Exportieren von Datensätzen aus der Tabellenansicht](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
+     * **Datensatztyp freigeben**
+       Weitere Informationen finden Sie [Datensatztypen freigeben](/help/quicksilver/planning/access/share-record-types.md).
+     * **Aktuelle Ansicht freigeben**
+       Weitere Informationen finden Sie unter [Freigeben von Ansichten](/help/quicksilver/planning/access/share-views.md).
+     * **Link „Ansicht kopieren“**
+       Ein Link zur Ansicht wird in die Zwischenablage kopiert.
+     * **Aktuelle Ansicht exportieren**
+       Weitere Informationen finden Sie [Exportieren von Datensätzen aus der Tabellenansicht](/help/quicksilver/planning/records/export-records-from-the-table-view.md).
 
-        >[!NOTE]
-        >
-        >Sie können GenStudio-Benutzende nicht aus Datensatztypen im GenStudio Workspace entfernen, nachdem Sie diesen Workspace oder die Datensatztypen für sie freigegeben haben.
+       >[!NOTE]
+       >
+       >Sie können GenStudio-Benutzende nicht aus Datensatztypen im GenStudio Workspace entfernen, nachdem Sie diesen Workspace oder die Datensatztypen für sie freigegeben haben.
 
 1. Gehen Sie wie folgt vor, um die Ansichten des Datensatztyps zu verwalten:
 
@@ -386,9 +457,9 @@ Weitere Informationen finden Sie [Exportieren von Datensätzen aus der Tabellena
 
      Aus dem GenStudio-Arbeitsbereich erstellte Felder sind in den folgenden Bereichen sichtbar:
 
-      * Workfront-Planungsansichten in Workfront Planning
-      * Workfront-Planungs-Datensatzdetails in Workfront Planning
-      * Details zu GenStudio-Einträgen in GenStudio for Performance Marketing
+     * Workfront-Planungsansichten in Workfront Planning
+     * Workfront-Planungs-Datensatzdetails in Workfront Planning
+     * Details zu GenStudio-Einträgen in GenStudio for Performance Marketing
 
      >[!NOTE]
      >
@@ -407,13 +478,13 @@ Weitere Informationen finden Sie [Exportieren von Datensätzen aus der Tabellena
    1. Klicken Sie auf die **Kampagne** im rechten Bedienfeld, um sie auszuwählen.
 
       Der Name der mit dem Asset verbundenen Kampagne wird im Feld **Kampagne** angezeigt. Dies ist ein schreibgeschütztes Feld.
-Wenn das Asset auch mit einer **Region**, **Persona**, **Product** oder **Channel** im GenStudio-Arbeitsbereich in Planning verbunden ist, werden die Namen der entsprechenden Felder für diese Datensatztypen auf der Registerkarte **Campaign** des Assets im schreibgeschützten Modus angezeigt.
+      Wenn das Asset auch mit einer **Region**, **Persona**, **Product** oder **Channel** im GenStudio-Arbeitsbereich in Planning verbunden ist, werden die Namen der entsprechenden Felder für diese Datensatztypen auf der Registerkarte **Campaign** des Assets im schreibgeschützten Modus angezeigt.
    1. (Bedingt) Klicken Sie in Planning auf den Namen eines verbundenen AEM-Inhaltsfragments im GenStudio-Arbeitsbereich und dann auf das Symbol **In AEM öffnen** ![In AEM öffnen](assets/open-in-aem-icon.png) um das Inhaltsfragment in AEM zu öffnen.
    1. Klicken Sie auf das **Startseite**-Symbol ![Startseite-Symbol in AEM](assets/home-icon-in-aem.png), um zu einer Liste von Inhaltsfragmenten zu wechseln, und klicken Sie dann auf das **Informationen**-Symbol ![Informationssymbol in AEM](assets/info-icon-in-aem.png) rechts neben dem Namen des Inhaltsfragments.
    1. Klicken Sie auf **Registerkarte** Metadaten“ im rechten Bedienfeld.
 
       Der Name der mit dem Inhaltsfragment verbundenen Kampagne wird im Feld **xdm: campaignName** angezeigt. Dies ist ein schreibgeschütztes Feld. <!--tried to log a bug to rename this field-->
-Wenn das Asset in Planning auch mit einer **Region**, **Persona**, **Product** oder **Channel** im GenStudio-Arbeitsbereich verbunden ist, werden die Namen der entsprechenden Felder für diese Datensatztypen auf der Registerkarte **Metadaten** im Inhaltsfragment im schreibgeschützten Modus angezeigt.
+      Wenn das Asset in Planning auch mit einer **Region**, **Persona**, **Product** oder **Channel** im GenStudio-Arbeitsbereich verbunden ist, werden die Namen der entsprechenden Felder für diese Datensatztypen auf der Registerkarte **Metadaten** im Inhaltsfragment im schreibgeschützten Modus angezeigt.
 
 1. Bewegen Sie den Mauszeiger über ein Feld in der Tabellenansicht und klicken Sie dann auf das Dropdown-Menü, um eine der folgenden Aktionen auszuführen:
 
