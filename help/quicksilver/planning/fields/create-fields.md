@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 5377
+source-wordcount: 5442
 ht-degree: 2%
 
 ---
@@ -206,6 +206,10 @@ Sie können Felder importieren, wenn Sie Datensatztypen mithilfe einer CSV- oder
 Weitere Informationen finden Sie unter [Erstellen von Eintragstypen](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ## Erstellen von Feldern durch Importieren aus Workfront
+
+>[!IMPORTANT]
+>
+>Das Erstellen von Feldern durch Importieren aus Workfront ist nicht für Kunden verfügbar, die Planning als eigenständiges Produkt erworben haben.
 
 Sie können Kopien bestehender Workfront-Felder importieren.
 

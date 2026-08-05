@@ -6,10 +6,10 @@ description: Planen Sie den Rollout von Workfront auf dem Adobe Cloud-Speicher. 
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 4821a7db4014b2a73c0466726ba3d239c318d5f0
+source-git-commit: 36a4c29fb3d5e3ff3bb3b4952076cdd4bdf5d1d6
 workflow-type: tm+mt
-source-wordcount: '2702'
-ht-degree: 0%
+source-wordcount: '2936'
+ht-degree: 1%
 
 ---
 
@@ -17,15 +17,33 @@ ht-degree: 0%
 
 Workfront auf Adobe Cloud Storage ermöglicht das vollständige, einheitliche Prüf- und Genehmigungs-Erlebnis: Überprüfungen im Frame.io-Viewer, leistungsstarke Genehmigungs-Workflows, produktübergreifende Sichtbarkeit von Assets und mehr.
 
-Die vorhandenen Objekte funktionieren weiterhin so, wie sie es heute tun. Der neue Dokumentbereich, der Frame.io-Viewer und andere Adobe-Cloud-Speicherverhaltensweisen gelten nur für Objekte, die den Adobe-Cloud-Speicher verwenden.
+Der neue Dokumentbereich, der Frame.io-Viewer und andere in diesem Artikel beschriebene Adobe-Cloud-Speicherverhaltensweisen gelten nur für Objekte, die Adobe Cloud-Speicher verwenden.
 
 Dieser Artikel richtet sich an Workfront-Administratoren, die den Rollout von Workfront im Adobe Cloud-Speicher vorbereiten. Es behandelt die wichtigsten Unterschiede zu Adobe-Cloud-Speicherobjekten, die Auswahl des Rollout-Typs und die Frage, was zu beachten ist, bevor Sie Adobe-Cloud-Speicher für Ihre Benutzerinnen und Benutzer aktivieren.
 
+>[!NOTE]
+>
+>* Sie müssen eine Version von Workfront verwenden, die den Adobe-Cloud-Speicher unterstützt. Wenn für Ihr Unternehmen noch keine unterstützte Version verfügbar ist, wenden Sie sich an den Adobe-Kundenbetreuer.
+
+## Einheitliche Genehmigungen gelten unabhängig vom Speichermodell
+
+Durch den Wechsel zu einer Version von Workfront, die den Adobe-Cloud-Speicher unterstützt, werden *alle* vorhandenen Genehmigungs-Workflows von veralteten Dokumentgenehmigungen zu einheitlichen Genehmigungen verschoben - für jedes Objekt, unabhängig davon, ob es im veralteten Workfront-Speicher verbleibt oder in den Adobe-Cloud-Speicher verschoben wird.
+
+
 >[!IMPORTANT]
 >
->Sie müssen eine Version von Workfront verwenden, die den Adobe-Cloud-Speicher unterstützt. Wenn für Ihr Unternehmen noch keine unterstützte Version verfügbar ist, wenden Sie sich an den Adobe-Kundenbetreuer.
+>Dies unterscheidet sich von den unter [Auswählen, wie der Adobe-Cloud-Speicher ausgebaut wird](#choose-how-adobe-cloud-storage-rolls-out) beschriebenen Optionen für den Speicher-Rollout: Diese Optionen steuern, welches Speichermodell neue Objekte verwenden, und nicht, ob Genehmigungs-Workflows zu einheitlichen Genehmigungen wechseln.<br>
+>Es gibt keine Pilotgruppe oder schrittweise Option für diese Änderung. Sie gilt organisationsweit, sobald Sie eine unterstützte Version verwenden.
 
 
+Stellen Sie vor dem Rollout des Adobe-Cloud-Speichers sicher, dass die Personen, die die Genehmigungen verwalten, wissen, was zu erwarten ist:
+
+* **Ein neues Genehmigungserlebnis** Prüfende und genehmigende Personen wechseln vom alten Dokumentengenehmigungsverfahren zu einheitlichen Genehmigungen, die mehrstufige Genehmigungen, parallele Prüfpfade und mehr hinzufügen. Weitere Informationen finden Sie in den folgenden Artikeln:
+
+  * [Erste Schritte mit der einheitlichen Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
+  * [Verfügbare Funktionen für Dokumentgenehmigungen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
+* **Ein neuer Berichtsspeicherort** Einheitliche Validierungs-Workflow-Daten und -Berichte werden in Arbeitsflächen-Dashboards verschoben. Vorhandene alte Genehmigungsberichte werden nicht automatisch übernommen. Weitere Informationen finden Sie unter [Erstellen eines Berichts-Dashboards zur Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
+* **Mögliche Aktualisierungen des Fusionsszenarios** Vorhandene Fusionsszenarios, die auf älteren Dokumentgenehmigungen basieren, müssen möglicherweise bearbeitet, neu erstellt oder eingestellt werden, um mit einheitlichen Genehmigungen arbeiten zu können. Weitere Informationen finden Sie unter [&#x200B; von Workfront Fusion-Szenarien für eine einheitliche Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md).
 
 ## Legacy-Workfront-Speicher und Adobe-Cloud-Speicher
 
@@ -230,11 +248,13 @@ Sie entscheiden, wie der Adobe-Cloud-Speicher Ihren Benutzern angezeigt wird. Es
 
 Eine schrittweise Anleitung finden Sie unter [Aktivieren von Adobe Cloud Storage für Ihr Unternehmen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md).
 
+
+### Konfigurationsoptionen
+
 * **Nur Adobe-Cloud-Speicher**: Für neue Projekte wird standardmäßig der Adobe-Cloud-Speicher verwendet. Benutzende können keine Legacy-Projekte erstellen.
 * **Adobe-Cloud-Speicher und Legacy-Workfront-Speicher**: Wenn Benutzer ein Projekt erstellen, wählen sie zwischen Adobe-Cloud-Speicher (mit „Neues Projekt“ beschriftet) und Legacy-Workfront-Speicher (mit „Legacy-Speicher“ beschriftet).
 
   ![Wählen Sie einen Projekttyp](assets/choose-project-type.png)
-
 
 
 >[!TIP]

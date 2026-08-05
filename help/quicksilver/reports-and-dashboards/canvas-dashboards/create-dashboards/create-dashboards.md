@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 5cc67b0f991a02759e42ec9b9369ae8359ecc40c
 workflow-type: tm+mt
-source-wordcount: 384
-ht-degree: 17%
+source-wordcount: 542
+ht-degree: 14%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
->Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) im Artikel Beta-Übersicht für Canvas-Dashboards befolgen.<br>
->Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kundensupport kontaktieren](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) im Artikel Beta-Übersicht für Arbeitsflächen-Dashboards befolgen.<br>
+>Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kontaktieren des Kunden-Supports](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
 >Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
 >
 >* Eigene Schlüssel für Amazon Web Services mitbringen
@@ -88,9 +88,7 @@ Arbeitsflächen-Dashboards bieten eine Vielzahl von Optionen und Konfigurationen
 
 1. Klicken Sie **oben** auf „Neues Dashboard“.
 
-1. Im Feld **Dashboard erstellen**
-
-1. Geben Sie Folgendes an:
+1. Geben **im Feld** Dashboard erstellen“ Folgendes an:
 
    <table style="table-layout:auto">
     <col>
@@ -106,8 +104,9 @@ Arbeitsflächen-Dashboards bieten eine Vielzahl von Optionen und Konfigurationen
      </tr>
       <tr>
       <td role="rowheader"><strong>Währung</strong></td>
-      <td>Wählen Sie den Standardwährungstyp für das Dashboard aus. <br>
-      <br>Benutzer können beim Filtern des Dashboards zwischen verschiedenen Währungstypen wechseln. Weitere Informationen finden Sie unter <a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">Dashboard nach Währungstyp filtern</a>.</td>
+      <td><p>Wählen Sie den Standardwährungstyp für das Dashboard aus.</p>
+      <p>Beim Filtern des Dashboards können Sie zwischen verschiedenen Währungstypen wechseln. Weitere Informationen finden Sie unter <a href="/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md">Dashboard nach Währungstyp filtern</a>.</p>
+      <p><strong>Hinweis:</strong> Wenn in Ihrer Workfront-Instanz nur eine Währung definiert ist, wird beim Erstellen eines Dashboards das Feld Währung nicht angezeigt.</p></td>
      </tr>
     </tbody>
    </table>

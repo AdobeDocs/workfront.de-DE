@@ -17,10 +17,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: d7df53ffd980b9a05856bb40472bbeebba5da84e
+source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
 workflow-type: tm+mt
-source-wordcount: 1435
-ht-degree: 4%
+source-wordcount: 1467
+ht-degree: 3%
 
 ---
 
@@ -145,6 +145,14 @@ So verknüpfen Sie Inhalte:
       </tr>
    </tbody>
    </table>
+
+   >[!NOTE]
+   >
+   >Empfohlene Inhalte in Content Advisor verwendet Daten aus den folgenden Elementen, um vorgeschlagene Inhalte in Workfront zu ermitteln:
+   >
+   >* Felder für Workfront-Objektnamen und -Beschreibungen
+   >* Benutzerdefinierte Formularfelder, die als erforderlich markiert sind
+   >* Daten aus angehängten Dokumenten
 
 
 ### Verknüpfen einer neuen Version aus Experience Manager Assets mit dem Inhaltsratgeber

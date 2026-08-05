@@ -1,6 +1,6 @@
 ---
 title: Importieren von Feldern aus Adobe Workfront
-description: In Adobe Workfront Planning können Sie benutzerdefinierte Felder für jede Art von Datensatztyp erstellen. Anschließend können Sie das Feld mit Workfront Planning-Datensätzen verknüpfen.
+description: In Adobe Workfront Planning können Sie vorhandene Felder aus Adobe Workfront hinzufügen. Anschließend können Sie sie mit Planungsdatensätzen verknüpfen. Sie können Workfront-Felder nicht importieren, wenn Ihr Unternehmen Planning als eigenständiges Produkt erworben hat.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 622
+source-wordcount: 640
 ht-degree: 10%
 
 ---
@@ -41,8 +41,11 @@ ht-degree: 10%
 
 {{planning-important-intro}}
 
-Sie können Kopien bestehender Workfront-Felder importieren. Beim Importieren von Feldern aus Workfront wird von jedem Feld eine Kopie für einen Workfront Planning-Datensatztyp erstellt.
+Sie können Kopien bestehender Adobe Workfront-Felder importieren. Beim Importieren von Feldern aus Workfront wird von jedem Feld eine Kopie für einen Workfront Planning-Datensatztyp erstellt.
 
+>[!IMPORTANT]
+>
+>Das Erstellen von Feldern durch Importieren aus Workfront ist nicht für Kunden verfügbar, die Planning als eigenständiges Produkt erworben haben.
 
 ## Zugriffsanforderungen
 
@@ -59,11 +62,9 @@ Sie können Kopien bestehender Workfront-Felder importieren. Beim Importieren vo
 </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Paket</p></td> 
-   <td> 
-<ul> 
-<li><p>Beliebige Workfront oder Workflows mit einem Planungspaket</p></li>
-ODER
-<li><p>Jedes Planungspaket, wenn es als eigenständiges Produkt gekauft wird</p></li></ul>
+   <td>
+
+<p>Beliebige Workfront oder Workflows mit einem Planungspaket</p>
    </td> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
@@ -74,13 +75,9 @@ ODER
    <td role="rowheader"><p>Adobe Planning-Lizenz</p></td> 
    <td><p>Planungsstandard</p>
    </td> 
-  </tr> 
+  </tr>
+
 <tr> 
-   <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
-   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   
-</td> 
-  </tr>  
-  <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich</p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p>  </td> 

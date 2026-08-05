@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: d2576b0e5abc0c4c46de740f1ea510452351a959
 workflow-type: tm+mt
-source-wordcount: 571
+source-wordcount: 627
 ht-degree: 7%
 
 ---
@@ -69,7 +69,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 * Für Ihre Workfront-Instanz müssen einheitliche Genehmigungen aktiviert sein.
 
 * Ihr Unternehmen muss über GenStudio Foundation verfügen.
-   * Content Reviewer in Workfront bietet die in GenStudio Foundation verfügbaren Funktionen für Asset-Prüfungs- und Genehmigungs-Workflows. Sie müssen nicht direkt auf GenStudio Foundation zugreifen, um Ihre Arbeit abzuschließen. Ihr Zugriff auf GenStudio Foundation-Funktionen über Content Reviewer fällt unter die Bedingungen Ihres Workfront-Vertrags.
+  * Content Reviewer in Workfront bietet die in GenStudio Foundation verfügbaren Funktionen für Asset-Prüfungs- und Genehmigungs-Workflows. Sie müssen nicht direkt auf GenStudio Foundation zugreifen, um Ihre Arbeit abzuschließen. Ihr Zugriff auf GenStudio Foundation-Funktionen über Content Reviewer fällt unter die Bedingungen Ihres Workfront-Vertrags.
 * Adobe muss eine unterzeichnete Adobe Gen AI-Vereinbarung in der Datei haben.
 Weitere Informationen zur Unterzeichnung des Abkommens finden Sie unter [Unterzeichnung des Adobe Gen AI-Abkommens](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
@@ -142,6 +142,8 @@ Weitere Informationen zur Unterzeichnung des Abkommens finden Sie unter [Unterze
 
 
 ## Best Practices für das Schreiben von Markenrichtlinien
+
+Bevor Sie Ihre Richtlinien schreiben, lesen Sie [Was der Content Reviewer bewertet](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md#what-content-reviewer-evaluates) für die Richtlinientypen für Bilder und Markensprache. Richtlinien außerhalb dieser Bewertungsbereiche werden nicht bewertet.
 
 *  Schreiben Sie Markenrichtlinien, die messbare Kriterien beschreiben. Der Content Reviewer bewertet Inhalte wörtlich, sodass objektive Regeln konsistentere Ergebnisse liefern als subjektive.
 

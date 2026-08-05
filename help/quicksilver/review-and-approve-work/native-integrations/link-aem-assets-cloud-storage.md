@@ -4,9 +4,9 @@ navigation-topic: native-integrations
 title: Verknüpfen von Inhalten und Ordnern aus Experience Manager Assets mit dem Adobe Cloud-Speicher
 description: Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, können Sie Inhalte und Ordner aus Experience Manager Assets mit jedem Adobe Workfront-Objekt verknüpfen, das Dokumente unterstützt.
 author: Courtney
-source-git-commit: 805cc8dfaa17438eb1d454d00d5f7986540379b3
+source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '945'
 ht-degree: 7%
 
 ---
@@ -125,6 +125,14 @@ So verknüpfen Sie Inhalte:
       </tr>
    </tbody>
    </table>
+
+   >[!NOTE]
+   >
+   >Empfohlene Inhalte in Content Advisor verwendet Daten aus den folgenden Elementen, um vorgeschlagene Inhalte in Workfront zu ermitteln:
+   >
+   >* Felder für Workfront-Objektnamen und -Beschreibungen
+   >* Benutzerdefinierte Formularfelder, die als erforderlich markiert sind
+   >* Daten aus angehängten Dokumenten
 
 <!--
 ### Link a new version from Experience Manager Assets

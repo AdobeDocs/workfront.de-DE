@@ -15,9 +15,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: e07d9346bc39e91b59ce82d56fdc8801e6d5b846
+source-git-commit: 5cc67b0f991a02759e42ec9b9369ae8359ecc40c
 workflow-type: tm+mt
-source-wordcount: 2563
+source-wordcount: 2584
 ht-degree: 1%
 
 ---
@@ -41,6 +41,7 @@ Sie können im Bereich der Arbeitsflächen-Dashboards ein Berichts-Dashboard ers
 1. Klicken Sie auf **Neues Dashboard**.
 1. Benennen Sie Ihr Dashboard.
 1. (Optional) Fügen Sie eine Beschreibung hinzu.
+1. (Optional) Wenn in Ihrer Workfront-Instanz mehrere Währungen definiert sind, können Sie auch eine Standardwährung für das Dashboard auswählen.
 1. Klicken Sie auf **Erstellen**.
    ![Dashboard-Namen und -Beschreibung hinzufügen](assets/create-a-dashboard.png)
 

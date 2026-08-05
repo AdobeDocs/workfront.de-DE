@@ -23,9 +23,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ee260723331ddff4e8d89f7d9ca2b807835d6130
+source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
 workflow-type: tm+mt
-source-wordcount: 1070
+source-wordcount: 1184
 ht-degree: 4%
 
 ---
@@ -58,14 +58,25 @@ Wenn in der Tabelle mit den Zugriffsanforderungen in einem bestimmten Artikel ei
   <p>Ihr Unternehmen hat möglicherweise ein Workfront-Paket in einem oder mehreren dieser Bereiche erworben.</p>
   <p>Zuvor bot Workfront Workfront Select-, Workfront Prime- und Workfront Ultimate-Pakete an, ohne zwischen Workflow, Planung sowie Automatisierung und Integration zu unterscheiden. Ihr Unternehmen verwendet möglicherweise eines dieser Legacy-Pakete. 
    <ul><li>Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, welches Adobe Workfront-Paket Ihr Unternehmen verwendet, einschließlich der Frage, ob Ihr Unternehmen das aktuelle oder das veraltete Paketmodell verwendet.</li>
-   <li>Anweisungen, wie ein Workfront-Administrator das Workfront-Paket Ihres Unternehmens finden kann, finden Sie unter <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">Cluster und Workfront-Paket Ihres Unternehmens anzeigen</a>.</li><li>Weitere Informationen zu den Workfront-Packages finden Sie unter <a href="https://business.adobe.com/de/products/workfront/pricing.html">Preise und Verpackung für Adobe Workfront</a>.</li></ul> </td> 
+   <li>Anweisungen, wie ein Workfront-Administrator das Workfront-Paket Ihres Unternehmens finden kann, finden Sie unter <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref">Cluster und Workfront-Paket Ihres Unternehmens anzeigen</a>.</li><li>Weitere Informationen zu den Workfront-Packages finden Sie unter <a href="https://business.adobe.com/de/products/workfront/pricing.html">Preise und Verpackung für Adobe Workfront</a>.</li></ul>
+
+Ihr Unternehmen kann ein Workfront Planning-Paket in einem der folgenden Angebote erwerben:
+
+<ul>
+    <li> Zusammen mit einem Workflow-Paket, mit identischer Anzahl von Workflow- und Planning-Lizenzen. </li>
+    <li>In Kombination mit einem Workflow-Paket mit einer nicht übereinstimmenden Anzahl von Lizenzen zwischen Workflow und Planung. </li>
+    <li>Als eigenständiges Produkt.</li></ul>
+
+Die Funktionen der drei Workfront Planning-Angebote können unterschiedlich sein. Weitere Informationen finden Sie <a href="/help/quicksilver/planning/general/planning-overview.md" class="MCXref xref">Erste Schritte mit der Adobe Workfront-Planung</a>.
+
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> Adobe Workfront-Lizenzen beziehen sich auf die Funktionen von Workfront, die in der Ihnen zugewiesenen Lizenz enthalten sind. Beispielsweise könnte ein Benutzer über eine Lizenz verfügen, die das Kennzeichnen von Arbeitselementen und die Protokollierungszeit umfasst, während ein anderer Benutzer über eine Lizenz verfügt, die es ihm nur ermöglicht, Assets zu genehmigen oder Anfragen zu senden. <p> 
    <p>Adobe Workfront-Lizenzen können sich auf die folgenden Lizenztypen beziehen:</p>
-   <ul><li>Workfront Workflow-Lizenzen</li>
-  <li>Workfront Planning-Lizenzen</li></ul>
+   <ul><li><b>Workfront Workflow-</b>: Verfügbar für alle Kunden, die Workfront erwerben. Die Workflow-Lizenzen sind: Workflow Standard, Light, Contributor.</li>
+  <li><b>Workfront Planning-Lizenzen</b>: Verfügbar für alle Kunden, die eines der Workfront Planning-Angebote erwerben. Die Planning-Lizenzen sind: Standard, Mitwirkende, Kein Zugriff. Kunden, die Workfront Planning als eigenständiges Produkt erwerben, verfügen nicht über eine Mitwirkendenlizenz.  </li></ul>
 
 <p>Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, welche Lizenz Ihnen zugewiesen wurde.</p>
    <p>Informationen zu Lizenzen finden Sie unter:</p>
