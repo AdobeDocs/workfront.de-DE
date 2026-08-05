@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: d875b7e182b5b1782b4fae9d9b609e357bf876a3
+source-git-commit: 2070a27e18d768dd14ce4f5c681ab08669c81766
 workflow-type: tm+mt
 source-wordcount: '1438'
 ht-degree: 2%
@@ -33,7 +33,7 @@ Zu den verfügbaren KI-Typen für Mitwirkende gehören:
 
 * Aufgabenmitarbeiter: Erstellen Sie einen Mitwirkenden mit Copilot oder Writer und weisen Sie dann den Mitwirkenden einer Aufgabe zu, um Arbeiten auf Aufgabenebene abzuschließen.
 
-  Weitere Informationen finden Sie unter [Verwenden von &#x200B;](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
+  Weitere Informationen finden Sie unter [Verwenden von ](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
 
 
 ## Zugriffsanforderungen
@@ -46,7 +46,7 @@ Zu den verfügbaren KI-Typen für Mitwirkende gehören:
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] Packstück</td> 
-   <td><p>Standard, Prime oder Ultimate</p></td> 
+   <td><p>Auswählen von, Prime oder Ultimate</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] Lizenz</td> 
