@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: f27d4a7e48bbf1858642d99b2621d612f7ac54ad
+source-git-commit: b4cc76f51dfd2a08ce8beb31ef6d2d91f55abbef
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1420'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ Zu den verfügbaren KI-Typen für Mitwirkende gehören:
 
 * Aufgabenmitarbeiter: Erstellen Sie einen Mitwirkenden mit Copilot oder Writer und weisen Sie dann den Mitwirkenden einer Aufgabe zu, um Arbeiten auf Aufgabenebene abzuschließen.
 
-  Weitere Informationen finden Sie unter [Verwenden von &#x200B;](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
+  Weitere Informationen finden Sie unter [Verwenden von ](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
 
 
 ## Zugriffsanforderungen
@@ -178,6 +178,10 @@ Die folgenden Best Practices sind möglicherweise hilfreich, wenn Sie einen Agen
 +++
 -->
 +++ Verfasser bzw. Verfasserin
+
+>[!NOTE]
+>
+> Sie können einen Writer-Agenten als Aufgabenmitarbeiter verwenden, aber Writer-Playbooks können nicht als Aufgabenmitarbeiter verwendet werden.
 
 Beim Erstellen eines Agenten für die Verwendung als Aufgabenmitarbeiter in Writer empfehlen wir den folgenden Workflow.
 
