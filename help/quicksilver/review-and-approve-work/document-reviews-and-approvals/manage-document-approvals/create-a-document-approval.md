@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
+source-git-commit: c9558f7de0e2f625c8426187436f2ea5cdeabb92
 workflow-type: tm+mt
-source-wordcount: 2231
+source-wordcount: 2227
 ht-degree: 2%
 
 ---
@@ -71,53 +71,6 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 +++
 
-<!--
-
-## Create an approval workflow in the legacy documents area in Production
-
-If your organization is on Workfront storage, you will see the legacy documents area when you access documents in Workfront. For more information about Workfront storage, see [Differences between Adobe cloud storage and legacy Workfront storage](/help/quicksilver/review-and-approve-work/esm-overview.md#differences-between-adobe-cloud-storage-and-legacy-workfront-storage).
-
-To create an approval workflow:
-
-1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
-
-1. Click on the document you need and the Document Summary panel for that document opens.
-
-1. Select the version of the document you would like to create an approval for in the version dropdown. The latest version is selected by default.
-
-1. Scroll down to the **Approvals** section, then click **Create workflow**.
-
-
-1. Fill in the following details:
-
-   <table>
-   <tr>
-   <td><strong>Stage name</strong></td>
-   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
-   </tr>
-   <tr>
-   <td><strong>Add names or emails</strong></td>
-   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
-   </tr>
-   <tr>
-   <td><strong>One decision required (optional)</strong></td>
-   <td>The first person who makes a decision completes the stage.</td>
-   </tr>
-   <tr>
-   <td><strong>Due date (optional)</strong></td>
-   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
-   </tr>
-   </table>
-
-1. (Optional) Repeat the previous step to add additional stages as needed.
-
-   >[!NOTE]
-   >
-   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
-
-   ![Document details](assets/new-stage.png)
-
--->
 
 ## Erstellen eines Validierungs-Workflows im Bereich „Alte Dokumente“
 
@@ -226,51 +179,6 @@ So erstellen Sie einen erweiterten Validierungs-Workflow:
 1. Klicken Sie **Genehmigung anfordern**.
 
 
-<!--
-
-## Create an approval workflow in the new Documents area in Production
-
-If your organization uses Adobe cloud storage, you will see the new Documents area when you access documents in Workfront. For more information about Adobe cloud storage, see [Adobe cloud storage overview](/help/quicksilver/review-and-approve-work/esm-overview.md).
-
-To create an approval workflow:
-
-1. Go to the project, task, or issue that contains the document, then select **Documents** in the left panel.
-
-1. Click on the document, then click the **Approvals** icon on the right side of the page.
-
-   ![Add approvers in document summary](assets/approvals-icon-new.png)
-
-1. Click **Create workflow**, then fill in the following details:
-
-   <table>
-   <tr>
-   <td><strong>Stage name</strong></td>
-   <td>Add a stage name. You can change the name to something more descriptive, such as <em>Initial Review</em> or <em>Final Approval</em>.</td>
-   </tr>
-   <tr>
-   <td><strong>Add names or emails</strong></td>
-   <td>Begin typing a user or team name to add as an approver or reviewer. If you only have reviewers, they will be notified and have the option to complete the review but no decision will be required or made.</td>
-   </tr>
-   <tr>
-   <td><strong>One decision required (optional)</strong></td>
-   <td>The first person who makes a decision completes the stage.</td>
-   </tr>
-   <tr>
-   <td><strong>Due date (optional)</strong></td>
-   <td>Set a due date for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified due date.</td>
-   </tr>
-   </table>
-
-1. (Optional) Repeat the previous step to add additional stages as needed.
-
-   >[!NOTE]
-   >
-   >If you add multiple stages, the approval workflow proceeds in the order the stages are listed. When all required decisions are made, the next stage begins and the previous stage is locked.
-
-   ![Document details](assets/new-stage.png)
-   
--->
-
 ## Erstellen eines Validierungs-Workflows im Bereich „Neue Dokumente“
 
 Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, wird der Bereich Neue Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Adobe Cloud-Speicher finden Sie unter [Übersicht über Adobe Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
@@ -298,7 +206,7 @@ So erstellen Sie einen einstufigen Validierungs-Workflow:
    </tr>
    <tr>
    <td><strong>Namen oder E-Mails hinzufügen</strong></td>
-   <td>Beginnen Sie mit der Eingabe eines Benutzer- oder Team-Namens, der als genehmigende Person oder Prüfende Person hinzugefügt werden soll. Wenn Sie nur über Validierungsverantwortliche verfügen, werden diese benachrichtigt und haben die Möglichkeit, die Überprüfung abzuschließen. Es ist jedoch keine Entscheidung erforderlich oder getroffen.</td>
+   <td>Beginnen Sie mit der Eingabe eines Benutzernamens oder einer E-Mail, die als genehmigende Person oder Prüfende hinzugefügt werden soll. Wenn Sie nur über Validierungsverantwortliche verfügen, werden diese benachrichtigt und haben die Möglichkeit, die Überprüfung abzuschließen. Es ist jedoch keine Entscheidung erforderlich oder getroffen.</td>
    </tr>
    <tr>
    <td><strong>Nur eine Entscheidung erforderlich (optional)</strong></td>
@@ -306,7 +214,7 @@ So erstellen Sie einen einstufigen Validierungs-Workflow:
    </tr>
    <tr>
    <td><strong>Fällig am (optional)</strong></td>
-   <td>Legen Sie ein Fälligkeitsdatum für die Genehmigung fest. Benutzer und Teams werden 72 Stunden und dann 24 Stunden vor dem angegebenen Fälligkeitsdatum per E-Mail benachrichtigt.</td>
+   <td>Legen Sie ein Fälligkeitsdatum für die Genehmigung fest. Benutzer werden 72 Stunden und dann 24 Stunden vor dem angegebenen Fälligkeitsdatum per E-Mail benachrichtigt.</td>
    </tr>
    <tr>
    <td><strong>Benutzerdefinierte Nachricht hinzufügen (optional)</strong></td>
@@ -355,7 +263,7 @@ So erstellen Sie einen erweiterten Validierungs-Workflow:
    </tr>
    <tr>
    <td><strong>Namen oder E-Mails hinzufügen</strong></td>
-   <td>Beginnen Sie mit der Eingabe eines Benutzer- oder Team-Namens, der als genehmigende Person oder Prüfende Person hinzugefügt werden soll. Wenn Sie nur über Validierungsverantwortliche verfügen, werden diese benachrichtigt und haben die Möglichkeit, die Überprüfung abzuschließen. Es ist jedoch keine Entscheidung erforderlich oder getroffen.<p>Hinweis: Ein Reviewer oder eine genehmigende Person kann jeweils nur einem offenen Schritt im selben Asset zugewiesen werden. Wenn mehrere parallele Stadien gleichzeitig geöffnet sind, kann dieselbe Person nicht zu mehr als einer hinzugefügt werden.</p></td>
+   <td>Beginnen Sie mit der Eingabe eines Benutzernamens oder einer E-Mail, die als genehmigende Person oder Prüfende hinzugefügt werden soll. Wenn Sie nur über Validierungsverantwortliche verfügen, werden diese benachrichtigt und haben die Möglichkeit, die Überprüfung abzuschließen. Es ist jedoch keine Entscheidung erforderlich oder getroffen.<p>Hinweis: Ein Reviewer oder eine genehmigende Person kann jeweils nur einem offenen Schritt im selben Asset zugewiesen werden. Wenn mehrere parallele Stadien gleichzeitig geöffnet sind, kann dieselbe Person nicht zu mehr als einer hinzugefügt werden.</p></td>
    </tr>
    <tr>
    <td><strong>Nur eine Entscheidung erforderlich (optional)</strong></td>
@@ -363,7 +271,7 @@ So erstellen Sie einen erweiterten Validierungs-Workflow:
    </tr>
    <tr>
    <td><strong>Fällig am (optional)</strong></td>
-   <td>Die erste Phase jedes Pfads unterstützt ein absolutes Fälligkeitsdatum. Jede nachfolgende Phase im Pfad unterstützt ein relatives Fälligkeitsdatum - die Anzahl der Tage ab dem Zeitpunkt, zu dem diese Phase geöffnet wird. Benutzer und Teams werden 72 Stunden und dann 24 Stunden vor dem Fälligkeitsdatum per E-Mail benachrichtigt.</td>
+   <td>Die erste Phase jedes Pfads unterstützt ein absolutes Fälligkeitsdatum. Jede nachfolgende Phase im Pfad unterstützt ein relatives Fälligkeitsdatum - die Anzahl der Tage ab dem Zeitpunkt, zu dem diese Phase geöffnet wird. Benutzer werden 72 Stunden und dann 24 Stunden vor dem Fälligkeitsdatum per E-Mail benachrichtigt.</td>
    </tr>
    <tr>
    <td><strong>Benutzerdefinierte Nachricht hinzufügen (optional)</strong></td>

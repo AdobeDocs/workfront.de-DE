@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: b4cc76f51dfd2a08ce8beb31ef6d2d91f55abbef
+source-git-commit: 2070a27e18d768dd14ce4f5c681ab08669c81766
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1438'
 ht-degree: 2%
 
 ---
@@ -46,7 +46,7 @@ Zu den verfügbaren KI-Typen für Mitwirkende gehören:
  <tbody> 
   <tr> 
    <td>[!DNL Adobe Workfront] Packstück</td> 
-   <td><p>Standard, Prime oder Ultimate</p></td> 
+   <td><p>Auswählen von, Prime oder Ultimate</p></td> 
   </tr> 
   <tr> 
    <td>[!DNL Adobe Workfront] Lizenz</td> 
@@ -107,9 +107,11 @@ Reviewer AI Collaborators können für die Verwendung von Workfront-Marken oder 
 
 ## Aufgabe „Mitarbeiter“ konfigurieren
 
-Aufgabenmitarbeiter sind MCP-Agenten, die Sie in Workfront Aufgaben zuweisen können. Sie konfigurieren den Task Collaborator mit einem Namen, einer Zugriffsebene und anderen Details und weisen ihn so zu, wie Sie es einem Benutzer zuweisen würden.
+Aufgabenmitarbeiter sind MCP-Agenten, die Sie in Workfront Aufgaben zuweisen können. Sie konfigurieren den Aufgaben-Collaborator mit einem Namen, einer Zugriffsebene und anderen Details und weisen ihn wie einen Benutzer einer Aufgabe zu.
 
 Da es sich bei den Aufgabenmitarbeitern um MCP-Agenten handelt, werden ihre Aktionen und Fähigkeiten dort konfiguriert, wo Sie Ihre Agenten konfigurieren. Derzeit können Agenten, die als Aufgabenmitarbeiter verwendet werden, in Copilot Studio, Claude oder Writer erstellt werden.
+
+Aufgabenmitarbeiter können nur Aufgaben zugewiesen werden und können derzeit nicht Problemen zugewiesen werden.
 
 Eine Liste der Best Practices beim Erstellen eines Agenten für die Arbeit als Aufgabenmitarbeiter finden Sie unter [Best Practices zum Erstellen eines Agenten für einen Aufgabenmitarbeiter](#best-practices-for-creating-an-agent-for-a-task-collaborator).
 

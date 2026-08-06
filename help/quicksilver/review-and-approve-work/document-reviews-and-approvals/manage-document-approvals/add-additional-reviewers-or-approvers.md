@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 632c8690acc30121fe72338326ec8ab58c0fd3a6
+source-git-commit: c9558f7de0e2f625c8426187436f2ea5cdeabb92
 workflow-type: tm+mt
-source-wordcount: 746
+source-wordcount: 745
 ht-degree: 5%
 
 ---
@@ -166,7 +166,7 @@ So fügen Sie in der Dokumentzusammenfassung zusätzliche genehmigende Personen 
 
 1. Klicken Sie **Workflow bearbeiten**. Das Dialogfeld Genehmigung anfordern wird in dem Modus geöffnet, in dem die Genehmigung zuletzt gespeichert wurde: Standard für einstufige Genehmigungen oder Erweitert für mehrstufige Genehmigungen und Genehmigungen mit parallelen Pfaden.
 
-1. Fügen Sie den Benutzer, das Team oder die E-Mail hinzu:
+1. Fügen Sie den Benutzer oder die E-Mail hinzu:
 
    * Geben Sie im Standardmodus den Namen oder die E-Mail in das Feld **Namen oder E-Mails hinzufügen** ein.
    * Wählen Sie im erweiterten Modus den Pfad aus, der den zu aktualisierenden Schritt enthält, und geben Sie dann den Namen oder die E-Mail in das Feld **Namen oder E-Mails hinzufügen** des Schritts ein.
