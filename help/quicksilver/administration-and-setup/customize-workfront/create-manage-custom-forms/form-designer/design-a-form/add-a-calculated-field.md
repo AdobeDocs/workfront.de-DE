@@ -9,21 +9,14 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
 TQID: https://experienceleague.adobe.com/MkpKnVckztNvRWKb2rSDUzt8fnJMWIGKG4sYUmuefig
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 2721
+source-wordcount: 2734
 ht-degree: 9%
 
 ---
@@ -203,7 +196,7 @@ So verwenden Sie ein vorhandenes berechnetes benutzerdefiniertes Feld wieder:
 
 1. Beginnen Sie im Feld **Berechnung** mit der Erstellung Ihrer Berechnung:
    1. Klicken Sie **Maximieren**, um den Berechnungs-Editor zu öffnen und die Berechnung zu erstellen.
-Eine Berechnung beginnt normalerweise mit einem Ausdruck, gefolgt von Klammern mit den Feldern, auf die Sie verweisen möchten, wenn das benutzerdefinierte Formular an ein Objekt angehängt wird.
+      Eine Berechnung beginnt normalerweise mit einem Ausdruck, gefolgt von Klammern mit den Feldern, auf die Sie verweisen möchten, wenn das benutzerdefinierte Formular an ein Objekt angehängt wird.
 
       Jedes Feld muss von geschweiften Klammern umgeben sein. Wenn Sie mit der Eingabe eines Feldnamens beginnen, macht das System Vorschläge, und Sie können einen auswählen, um ihn in Ihre Berechnung einzufügen.
 
@@ -231,7 +224,7 @@ Eine Berechnung beginnt normalerweise mit einem Ausdruck, gefolgt von Klammern m
 
         Das System listet alle benutzerdefinierten Felder auf, aus denen Sie bei der Eingabe von `DE:` auswählen können.
 
-         * Wenn die Berechnung auf ein Feld verweisen soll, das Daten aus dem *übergeordneten* Objekt abruft, wenn das benutzerdefinierte Formular an ein Objekt angehängt wird, müssen Sie dem Feldnamen den Objekttyp des übergeordneten Objekts voranstellen, auch in geschweiften Klammern.
+        * Wenn die Berechnung auf ein Feld verweisen soll, das Daten aus dem *übergeordneten* Objekt abruft, wenn das benutzerdefinierte Formular an ein Objekt angehängt wird, müssen Sie dem Feldnamen den Objekttyp des übergeordneten Objekts voranstellen, auch in geschweiften Klammern.
 
         Wenn beispielsweise das benutzerdefinierte Formular für die Verwendung mit Aufgaben konfiguriert ist und Sie möchten, dass das Feld den tatsächlichen Umsatz des übergeordneten Objekts berechnet, wenn das Formular mit einer Aufgabe verknüpft ist, müssen Sie `Project` als Objekttyp des Felds angeben:
 
@@ -261,9 +254,13 @@ Eine Berechnung beginnt normalerweise mit einem Ausdruck, gefolgt von Klammern m
 
         >[!NOTE]
         >
-        >Die Syntax für ein Feld mit automatischer Textvervollständigung unterscheidet sich etwas von der für andere Feldtypen, da Sie am Ende `:name` hinzufügen müssen.
+        >Die Syntax für ein internes Suchfeld unterscheidet sich etwas von der für andere Feldtypen, da Sie am Ende `:name` hinzufügen müssen.
         >
-        >Um beispielsweise auf die ausgewählte Option in einem benutzerdefinierten Feld mit automatischer Textvervollständigung mit dem Namen „Executive Sponsor“ zu verweisen, geben Sie Folgendes ein:
+        >Um beispielsweise auf die ausgewählte Option in einem benutzerdefinierten internen Suchfeld mit dem Namen „Executive Sponsor“ zu verweisen, geben Sie Folgendes ein:
+        >
+        >`{DE:Executive sponsor}.{name}`
+        >
+        >In demselben Beispiel geben Sie mit einem Feld mit automatischer Textvervollständigung Folgendes ein:
         >
         >`{DE:Executive sponsor:name}`
 
@@ -299,13 +296,13 @@ Eine Berechnung beginnt normalerweise mit einem Ausdruck, gefolgt von Klammern m
 
         Berechnete benutzerdefinierte Felder eines Objekts werden automatisch neu berechnet, wenn Folgendes passiert:
 
-         * Etwas im Objekt ändert sich, z. B. eine tägliche Zeitleistenberechnung.
-         * Jemand bearbeitet ein anderes Feld, auf das ein berechnetes benutzerdefiniertes Feld im -Objekt verweist.
-         * Der berechnete Ausdruck ist leer und das Feld enthält einen Wert. Dadurch wird der Wert auf null festgelegt.
+        * Etwas im Objekt ändert sich, z. B. eine tägliche Zeitleistenberechnung.
+        * Jemand bearbeitet ein anderes Feld, auf das ein berechnetes benutzerdefiniertes Feld im -Objekt verweist.
+        * Der berechnete Ausdruck ist leer und das Feld enthält einen Wert. Dadurch wird der Wert auf null festgelegt.
 
-           >[!NOTE]
-           >
-           ><div>In einem benutzerdefinierten Formular, das an ein Objekt angehängt ist, werden Datums- und Zeitangaben in berechneten benutzerdefinierten Feldern durch die koordinierte Weltzeit (UTC) berechnet und gespeichert, nicht durch die Zeitzonenkonfigurationen, die für die Instanz Ihres Unternehmens und Ihr Benutzerprofil festgelegt sind. Berechnungen in einem benutzerdefinierten Formular, die auf der Grundlage der individuellen Zeitzonen der einzelnen Benutzenden erstellt werden.</div>
+          >[!NOTE]
+          >
+          ><div>In einem benutzerdefinierten Formular, das an ein Objekt angehängt ist, werden Datums- und Zeitangaben in berechneten benutzerdefinierten Feldern durch die koordinierte Weltzeit (UTC) berechnet und gespeichert, nicht durch die Zeitzonenkonfigurationen, die für die Instanz Ihres Unternehmens und Ihr Benutzerprofil festgelegt sind. Berechnungen in einem benutzerdefinierten Formular, die auf der Grundlage der individuellen Zeitzonen der einzelnen Benutzenden erstellt werden.</div>
 
         +++
 
