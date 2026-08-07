@@ -8,18 +8,22 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c38e60dd-7fb2-4afc-976a-b0966398c162
-source-git-commit: d645aeb9d2d49432b49b6f2e2c4748f50075c42b
+source-git-commit: 22e8acb748ddc4768dc1724aaa2f515b863ab0cf
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 9%
+source-wordcount: '346'
+ht-degree: 8%
 
 ---
 
 # Änderungen der Push-Rate an Projekten
 
-Wenn eine Tarifkarte an eine <!--or a staffing plan--> angehängt wird, können die Tarife auf der Tarifkarte weiterhin angepasst werden. Anschließend können Sie diese Tarife optional an die Projekte weiterleiten, an die die Tarifkarte angehängt ist. Wenn Sie die neuen Sätze nicht nach oben verschieben, bleiben die ursprünglichen Sätze im Projekt erhalten.
+Wenn einem Projekt eine Tarifkarte beigefügt ist<!--or a staffing plan--> können die Tarife auf der Tarifkarte dennoch angepasst werden. Anschließend können Sie diese Tarife optional an die Projekte weiterleiten, an die die Tarifkarte angehängt ist. Wenn Sie die neuen Sätze nicht nach oben verschieben, bleiben die ursprünglichen Sätze im Projekt erhalten.
 <!-- and staffing plans -->
 <!-- or staffing plan -->
+
+>[!NOTE]
+>
+>Wenn ein Aufgabengebiet oder ein Benutzer-Abrechnungssatz auf Projektebene manuell überschrieben wird, bleibt dieser Satz im Projekt, wenn die Tarifkartenänderungen an das Projekt übertragen werden. Nur die mit der Tarifkarte verknüpften Tarife werden aktualisiert.
 
 Informationen zum Anhängen einer Tarifkarte an ein Projekt finden Sie unter [Anhängen einer Tarifkarte an ein Projekt](/help/quicksilver/manage-work/projects/project-finances/attach-rate-card-to-project.md).
 
