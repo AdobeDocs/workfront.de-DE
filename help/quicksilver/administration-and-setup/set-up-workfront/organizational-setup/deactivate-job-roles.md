@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: 644
 ht-degree: 6%
 
 ---
@@ -34,8 +34,6 @@ ht-degree: 6%
 Als [!DNL Adobe Workfront] oder Benutzer mit administrativem Zugriff auf Aufgabengebiete können Sie Aufgabengebiete deaktivieren, die in Ihrem System veraltet sind. Wenn Sie ein Aufgabengebiet deaktivieren, anstatt es zu löschen, können Sie alle historischen Informationen beibehalten, die mit ihm verknüpft sind.
 
 Sie können auch Aufgabengebiete reaktivieren, die zuvor deaktiviert wurden.
-
-## Zugriffsanforderungen
 
 ## Zugriffsanforderungen
 
@@ -78,7 +76,7 @@ Wenn Sie ein Aufgabengebiet deaktivieren, wird es nicht mehr in den folgenden Be
   >Wenn Sie einem Benutzer eine neue Rolle hinzufügen, wird ein deaktiviertes Aufgabengebiet nicht angezeigt. Er wird jedoch weiterhin in den Feldern [!UICONTROL Primäre Rolle] und [!UICONTROL Andere Rollen] angezeigt, wenn der/die Benutzende mit dem Aufgabengebiet verknüpft war, bevor es deaktiviert wurde.
 
 * Das Dialogfeld [!UICONTROL Freigabe] für Objekte, einschließlich der Zuweisung von Layout-Vorlagen
-* Felder mit automatischer Textvervollständigung in benutzerdefinierten Formularen
+* Interne Lookup- und Typeahead-Felder in benutzerdefinierten Formularen
 * Das Feld [!UICONTROL Pool-Mitglieder] in [!UICONTROL Ressourcenpools]
 * Das Feld [!UICONTROL Aufgabengebiet] eines Bearbeitungsbildschirms [!UICONTROL Abrechnungssatz], wenn ein Benutzer Abrechnungssätze für Projekte überschreibt
 * Das [!UICONTROL &#x200B; „Zuweisung zu Kanban-Board hinzufügen] in einem Projekt
@@ -114,8 +112,8 @@ Es wird empfohlen, Folgendes zu tun, bevor Sie ein nicht verwendetes Aufgabengeb
 
   Informationen zum Erstellen von Genehmigungsprozessen und Routing-Regeln finden Sie in den folgenden Artikeln:
 
-   * [Einen Genehmigungsprozess für Arbeitselemente erstellen](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
-   * [Erstellen von Routing-Regeln](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
+  * [Einen Genehmigungsprozess für Arbeitselemente erstellen](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
+  * [Erstellen von Routing-Regeln](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
 
 ## Aufgabengebiet deaktivieren
 

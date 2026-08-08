@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1eda36eb74aca2b731f2632eac3aae60e6b8ef9d
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 1477
-ht-degree: 5%
+source-wordcount: 1467
+ht-degree: 4%
 
 ---
 
@@ -178,7 +178,7 @@ Dieses Beispiel zeigt, wie Sie eine API von Ländern aufrufen (z. B. <https://ap
    * Sie können $$QUERY hinzufügen, um die Abfragefilterung für Ihre Endbenutzer zu implementieren.
 
    **Beispiele**
-Listet alle Länder auf: <https://api.first.org/data/v1/countries>
+   Listet alle Länder auf: <https://api.first.org/data/v1/countries>
 
    Ermöglicht dem Benutzer, im Dropdown-Feld nach einem beliebigen Land zu suchen: <https://api.first.org/data/v1/countries?q=$$QUERY>
 

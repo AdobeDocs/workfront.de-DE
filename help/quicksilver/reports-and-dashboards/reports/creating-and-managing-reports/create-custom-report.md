@@ -19,9 +19,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 1824
+source-wordcount: 1823
 ht-degree: 4%
 
 ---
@@ -142,7 +142,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
    Weitere Informationen zu den Feldern, die Sie in den Spalten sehen, finden Sie unter [Glossar der Adobe Workfront-Terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-   ![Spaltentypvervollständigung hinzufügen](assets/nwe-add-column-typeahead-350x459.png)
+   ![Spalte hinzufügen](assets/nwe-add-column-typeahead-350x459.png)
 
 1. (Optional) Klicken Sie im Bereich **Spalteneinstellungen** auf **Sortieren nach dieser Spalte**, um die Werte in der Spalte entweder in aufsteigender oder in absteigender alphabetischer Reihenfolge zu sortieren. Geben Sie dann an, ob die Liste diese Spalte als erste Sortierung verwenden soll.
 

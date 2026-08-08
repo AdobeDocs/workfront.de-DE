@@ -24,9 +24,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f73a84c755dabfebdeb6cdd7b2ad59bc09a272f4
+source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
 workflow-type: tm+mt
-source-wordcount: 7922
+source-wordcount: 7962
 ht-degree: 77%
 
 ---
@@ -272,7 +272,7 @@ So fügen Sie ein Textfeld hinzu:
     </tr>
     <tr>
     <td>Anweisungen</td>
-    <td>Geben Sie zusätzliche Informationen zum Feld ein. Wenn Benutzer das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.
+    <td>Geben Sie zusätzliche Informationen zum Feld ein. Wenn Benutzende das benutzerdefinierte Formular ausfüllen, können sie den Mauszeiger über das Fragezeichen bewegen, um eine QuickInfo mit den hier eingegebenen Informationen anzuzeigen.
     <img src="assets/instructions-form-designer.png">
     </td>
     <td><ul>
@@ -805,12 +805,12 @@ So fügen Sie eine externe Suche hinzu:
      </tr>
      <tr> 
       <td role="rowheader">JSON-Pfad</td>
-      <td><p>Geben Sie den JSON-Pfad für die API ein oder fügen Sie ihn ein.</p> <p>Diese Option ermöglicht das Extrahieren von Daten aus der von der API-URL zurückgegebenen JSON. Damit können Sie auswählen, welche Werte aus dem JSON-Code in den Dropdown-Optionen angezeigt werden sollen.</p><p>Wenn Ihre API-URL beispielsweise JSON im folgenden Format zurückgibt, können Sie „$.data[*].name“ verwenden, um USA und Kanada als Dropdown-Optionen auszuwählen:</br>
+      <td><p>Geben Sie den JSON-Pfad für die API ein oder fügen Sie ihn ein.</p> <p>Diese Option ermöglicht das Extrahieren von Daten aus der von der API-URL zurückgegebenen JSON. Damit können Sie auswählen, welche Werte aus dem JSON-Code in den Dropdown-Optionen angezeigt werden sollen.</p><p>Wenn Ihre API-URL beispielsweise JSON im folgenden Format zurückgibt, können Sie "$.data[*].name“ verwenden, um USA und Kanada als Dropdown-Optionen auszuwählen:</br>
       <pre>
       &lbrace;
-       data: &lbrace;
-         { name: "USA"},
-         { name: "Canada"}
+       Daten: &lbrace;
+         { name: „USA“},
+         { name: „Canada“}
        &rbrace;
       &rbrace;
       </pre>
@@ -1163,7 +1163,7 @@ Staffing Plan Resource: Total Estimated Cost, Total Estimated Revenue fields
        <p>Verwenden Sie die Syntax des dynamischen Filters, um die Liste der Elemente in diesem Feld auf der Grundlage des Werts eines anderen Felds einzugrenzen. Wenn Sie beispielsweise <code>?portfolioID={portfolio}.{ID}</code> in einem Projektfeldfilter verwenden und sich im benutzerdefinierten Formular ein natives Portfolio-Feld befindet, werden im Projektfeld nur Projekte angezeigt, die sich im ausgewählten Portfolio befinden. Wenn das Feld Portfolio leer gelassen wird, sind alle Projekte im Feld Projekt verfügbar.</p>
        <p><b>Hinweis</b>:
        <ul> 
-        <li>Die Filteroption ist nur verfügbar, wenn Sie auf ein natives Feld mit automatischer Textvervollständigung oder ein internes Suchfeld verweisen, z. B. Portfolio, Unternehmen oder Inhaber.</li>
+        <li>Die Filteroption ist nur verfügbar, wenn Sie auf ein natives internes Lookup- oder Typeahead-Feld verweisen, z. B. Portfolio, Company oder Owner.</li>
         <li>Wenn Sie ein vorhandenes benutzerdefiniertes Formular bearbeiten, werden beim Hinzufügen eines Filters zu einem nativen Feld keine Objekte entfernt (außerhalb des Bereichs des Filters), die Benutzende bereits mithilfe des Feldes hinzugefügt haben.</li> 
         <li>Dieser Filter ist auf Mobilgeräten nicht verfügbar. Wenn Sie den Filter für ein natives Feld verwenden, wird das Feld auf den Mobilgeräten der Benutzenden angezeigt, ohne dass der Filter verfügbar ist.</li> 
         </ul></p></td> 
@@ -1218,7 +1218,7 @@ So fügen Sie eine Adobe XD-Datei hinzu:
      <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>(Erforderlich) Geben Sie einen gültigen XD-Prototyp-Link ein oder fügen Sie ihn ein.</p> 
-      <p><b>Hinweis</b>: Die Einstellung „Link-Zugriff“ auf der Registerkarte Freigeben in Adobe XD muss auf „Jeder, der über den Link verfügt“ festgelegt sein. Andernfalls können Benutzende den Prototyp nicht anzeigen. 
+      <p><b>Hinweis</b>: Die Einstellung „Link-Zugriff“ auf der Registerkarte „Freigeben“ in Adobe XD muss auf „Jede Person mit dem Link“ festgelegt sein. Andernfalls können Benutzende den Prototyp nicht anzeigen. 
    </td> 
      </tr> 
      <tr> 
