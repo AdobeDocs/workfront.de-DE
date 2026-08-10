@@ -9,21 +9,14 @@ exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/p47W1Seb-Ew-p-ogdb-ebjLAuxvY-0rdRHLMQtWCH30
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
-source-wordcount: 890
+source-wordcount: 902
 ht-degree: 3%
 
 ---
@@ -112,10 +105,10 @@ Sie können Portfolios in Workfront mit einer der folgenden Methoden erstellen:
 
 * Fügen Sie Portfolios aus Workfront Planning wie folgt hinzu:
 
-   * So können Sie sie über einen Datensatztyp in Workfront Planning verbinden.
+  * So können Sie sie über einen Datensatztyp in Workfront Planning verbinden.
 
   Informationen zum Erstellen von Portfolios durch Hinzufügen zu Datensätzen finden Sie im Abschnitt „Erstellen von Datensätzen, während Sie sie verbinden“ im Artikel [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
-   * Verwenden von Workfront Planning-Automatisierungen.
+  * Verwenden von Workfront Planning-Automatisierungen.
 
   Weitere Informationen finden Sie unter [Erstellen von Objekten mithilfe von Adobe Workfront Planning-Datensatzautomatisierungen](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
@@ -145,17 +138,19 @@ Sie können Portfolios in Workfront mit einer der folgenden Methoden erstellen:
 
      Ein Portfolio wird erstellt. Sein Standardname folgt den folgenden Mustern, je nachdem, welcher Speicher Workfront für Dokumente verwendet:
 
-      * `Untitled Portfolio` für ein Legacy-Speicherportfolio von Workfront.
+     * `Untitled Portfolio` für ein Legacy-Speicherportfolio von Workfront.
 
-        Bei einem Legacy-Speicherportfolio von Workfront wird neben dem Namen das **Legacy-Speicherportfolio**-Symbol ![Legacy-Speicherportfolio](assets/legacy-storage-project-icon.png) angezeigt.
+       Bei einem Legacy-Speicherportfolio von Workfront wird neben dem Namen das **Legacy-Speicherportfolio**-Symbol ![Legacy-Speicherportfolio](assets/legacy-storage-project-icon.png) angezeigt.
 
-      * `Untitled Portfolio - < Month day, year hour.minute.second >` für ein Adobe Cloud-Speicherportfolio
+     * `Untitled Portfolio - < Month day, year hour.minute.second >` für ein Adobe Cloud-Speicherportfolio
 
-        >[!IMPORTANT]
-        >
-        >Portfolios, die den Adobe-Cloud-Speicher verwenden, müssen eindeutige Namen haben.
+       >[!IMPORTANT]
+       >
+       >Portfolios, die den Adobe-Cloud-Speicher verwenden, müssen eindeutige Namen haben.
 
      Bei Adobe Cloud-Speicherportfolios wird automatisch im Bereich Dokumente ein neuer Dokumentordner mit demselben Namen wie das Portfolio erstellt.
+
+     Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und verwandte Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 1. Ersetzen Sie den Namen des Portfolios durch einen neuen Namen in der Portfolio-Kopfzeile.
 
@@ -167,7 +162,7 @@ Sie können Portfolios in Workfront mit einer der folgenden Methoden erstellen:
 
    Als Ersteller des Portfolios werden Sie standardmäßig als Portfolio-Manager zugewiesen.
 
-1. Klicken Sie im linken **auf** Portfolio-Details.
+1. Klicken Sie im linken ]**auf**[!UICONTROL  Portfolio-Details.
 1. Ändern Sie **[!UICONTROL Bereich]**&#x200B;Übersicht“ eine der folgenden Informationen:
 
    <table style="table-layout:auto"> 

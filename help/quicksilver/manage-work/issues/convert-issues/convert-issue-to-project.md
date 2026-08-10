@@ -4,24 +4,18 @@ navigation-topic: convert-issues
 title: Anfrage in ein Projekt konvertieren
 description: Wenn nach dem Senden des Problems weitere Arbeit zum Abschließen des Problems erforderlich ist, können Sie das Problem in Adobe Workfront in ein Projekt konvertieren.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/mQINHJ0clh8RFxC67LR-L3djGlqKZNwOBwPGIGwZ-kQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 2167
 ht-degree: 4%
@@ -38,9 +32,9 @@ Sie können ein Problem mit in ein Projekt konvertieren, ohne eine Projektvorlag
 
 >[!IMPORTANT]
 >
->Um allgemeine Informationen zu Konvertierungsproblemen zu erhalten, empfehlen wir, auch den Artikel [Überblick über Konvertierungsprobleme in Adobe Workfront&quot; &#x200B;](../../../manage-work/issues/convert-issues/convert-issues.md).
+>Um allgemeine Informationen zu Konvertierungsproblemen zu erhalten, empfehlen wir, auch den Artikel [Überblick über Konvertierungsprobleme in Adobe Workfront&quot; ](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-Wenn Sie ein Projekt aus einer Anfrage erstellen, werden einige der Felder im Projekt aus anderen Objekten gefüllt. Weitere Informationen finden Sie im Abschnitt „Standardeinstellungen für neue Projekte“ im Artikel &quot;[&#x200B; erstellen](../../../manage-work/projects/create-projects/create-project.md).
+Wenn Sie ein Projekt aus einer Anfrage erstellen, werden einige der Felder im Projekt aus anderen Objekten gefüllt. Weitere Informationen finden Sie im Abschnitt „Standardeinstellungen für neue Projekte“ im Artikel &quot;[ erstellen](../../../manage-work/projects/create-projects/create-project.md).
 
 ## Zugriffsanforderungen
 
@@ -108,12 +102,12 @@ Old:
 
 * Beim Konvertieren eines Problems in ein Projekt gibt es ein Verarbeitungslimit von 5 Minuten. Wenn an das Problem eine große Anzahl von Dokumenten angehängt ist und es nicht konvertiert werden kann, müssen Sie möglicherweise einige der Dokumente entfernen und erneut versuchen.
 * Wenn Ihr Unternehmen sowohl den veralteten Workfront- als auch den Adobe-Cloud-Speicher für Dokumente verwendet, treten beim Konvertieren eines Problems in ein Projekt die folgenden Szenarien auf: <!--this info also duplicated in Document management overview for projects and related objects and Convert a task to a project-->
-   * Ein Problem mit einem alten Workfront-Speicher erstellt ein veraltetes Workfront-Speicherprojekt.
-   * Ein Adobe-Cloud-Speicherproblem erstellt ein Adobe-Cloud-Speicherprojekt.
-   * Wenn Sie eine ältere Workfront-Speichervorlage verwenden, um ein Adobe-Cloud-Speicherproblem zu konvertieren, wird ein Adobe-Cloud-Speicherprojekt erstellt.
-   * Wenn Sie eine Adobe-Cloud-Speichervorlage verwenden, um ein veraltetes Workfront-Speicherproblem zu konvertieren, wird ein veraltetes Workfront-Speicherprojekt erstellt.
+  * Ein Problem mit einem alten Workfront-Speicher erstellt ein veraltetes Workfront-Speicherprojekt.
+  * Ein Adobe-Cloud-Speicherproblem erstellt ein Adobe-Cloud-Speicherprojekt.
+  * Wenn Sie eine ältere Workfront-Speichervorlage verwenden, um ein Adobe-Cloud-Speicherproblem zu konvertieren, wird ein Adobe-Cloud-Speicherprojekt erstellt.
+  * Wenn Sie eine Adobe-Cloud-Speichervorlage verwenden, um ein veraltetes Workfront-Speicherproblem zu konvertieren, wird ein veraltetes Workfront-Speicherprojekt erstellt.
 
-     Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und verwandte Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
+    Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und verwandte Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 ## Konvertieren eines Problems in ein Projekt
 
