@@ -4,9 +4,9 @@ content-type: reference
 description: Erfahren Sie, wie Sie Aufgabenkollaboratoren verwenden, KI-Collaboratoren, die Workfront-Aufgaben zugewiesen werden können.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: a05312fa1def1db593743e5e6d385da0b393d5d4
+source-git-commit: 72921e4a1cb9ca564a5c8b4a7a587e37f6a90cc5
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '684'
 ht-degree: 3%
 
 ---
@@ -75,8 +75,8 @@ Wenn eine Aufgabe einem Mitarbeiter zugewiesen wird, beginnt die Arbeit, wenn ei
 
 * Der Aufgabenkollaborator wurde einer Aufgabe zugewiesen, die startbereit ist. (Wenn die Aufgabe beispielsweise Vorgänger hat, sind die Vorgänger abgeschlossen.)
 * Die Aufgabe „Mitarbeiter“ und ein Benutzer werden einer Aufgabe zugewiesen und die Aufgabe „Mitarbeiter“ wird zuerst zugewiesen.
-* Eine Aufgabe, der bereits ein Aufgabenmitarbeiter zugewiesen ist, ist startbereit. (Wenn die Aufgabe beispielsweise Vorgänger hat, sind die Vorgänger abgeschlossen.)
-* Eine Aufgabe, der bereits ein Aufgabenmitarbeiter und ein Benutzer zugewiesen sind, ist startbereit. (Wenn die Aufgabe beispielsweise Vorgänger hat, sind die Vorgänger abgeschlossen.)
+* Eine Aufgabe, der bereits ein Aufgabenmitarbeiter zugewiesen wurde, wird startbereit und der Aufgabenmitarbeiter ist der einzige oder primäre Zugewiesene. (Wenn die Aufgabe beispielsweise Vorgänger hat, sind die Vorgänger abgeschlossen.)
+* Eine Aufgabe, der bereits ein Aufgabenmitarbeiter und ein Benutzer zugewiesen sind, ist startbereit, und der Aufgabenmitarbeiter wurde zuerst zugewiesen oder ist der primäre Zugewiesene. (Wenn die Aufgabe beispielsweise Vorgänger hat, sind die Vorgänger abgeschlossen.)
 * Ein(e) Benutzende(r) und ein Mitarbeiter(in) für eine Aufgabe werden einer Aufgabe zugewiesen und der/die Benutzende wird entfernt.
 * Ein Benutzer und ein Aufgabenmitarbeiter werden einer Aufgabe zugewiesen und der Aufgabenmitarbeiter wird als Primärer Bearbeiter für die Aufgabe festgelegt.
 
@@ -84,7 +84,7 @@ Die folgenden Situationen führen nicht dazu, dass der Mitarbeiter der Aufgabe m
 
 * Einem Aufgabenmitarbeiter wird eine Aufgabe zugewiesen, der bereits ein Benutzer zugewiesen ist.
 * In einer Aufgabe wird ein Aufgabenmitarbeiter @mentioned.
-* Ein Aufgabenmitarbeiter wird einer Aufgabe zugewiesen, der bereits ein Aufgabenmitarbeiter zugewiesen ist. In diesem Fall beginnt nur der erste zugewiesene Aufgabenmitarbeiter mit der Arbeit an der Aufgabe.
+* Ein Aufgabenmitarbeiter wird einer Aufgabe zugewiesen, der bereits ein Aufgabenmitarbeiter zugewiesen ist. In diesem Fall hat der erste zugewiesene Aufgabenmitarbeiter bereits mit der Arbeit begonnen, und der zweite Aufgabenmitarbeiter unternimmt nichts.
 * Einem Aufgabenmitarbeiter wird eine Aufgabe zugewiesen, die noch nicht startbereit ist. (Wenn die Aufgabe beispielsweise Vorgänger hat, sind die Vorgänger noch nicht abgeschlossen.)
 
 ## Aufgabe einem Mitarbeiter zuweisen
