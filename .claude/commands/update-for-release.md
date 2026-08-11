@@ -1,9 +1,9 @@
 ---
 name: update-for-release
 description: ""
-source-git-commit: 744be221844b2e24fb738cab5403f581a83b6c16
+source-git-commit: 524a24c1a143a82cdc017ea6266aa2ee5c7a7c0b
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1560'
 ht-degree: 0%
 
 ---
@@ -79,27 +79,29 @@ Für jeden Artikel in der vom Benutzer bestätigten Liste:
 4. **Sammeln Sie neue Details in „immer einschließen“ vs. „zur Überprüfung bereit“.** Dies ist der wichtigste Schritt.
 
    - **Immer einschließen** (automatisch anwenden, keine Eingabeaufforderung): unsichtbare Verhaltensweisen, die der Benutzer bei der Interaktion mit der Benutzeroberfläche nicht beobachten kann. Beispiele:
-      - Nebeneffekte (z. B. „wenn Sie diese Einstellung ändern, wird die E-Mail erneut an alle Teilnehmer gesendet„)
-      - Verhalten bei anderen Objekten oder späteren Ereignissen
-      - Voraussetzungen und Berechtigungen
-      - Beschränkungen werden nicht in der Benutzeroberfläche angezeigt
-      - Alles, was Benutzende nur von der PRD, den Dokumenten oder dem Produkt-Team lernen können
+     - Nebeneffekte (z. B. „wenn Sie diese Einstellung ändern, wird die E-Mail erneut an alle Teilnehmer gesendet„)
+     - Verhalten bei anderen Objekten oder späteren Ereignissen
+     - Voraussetzungen und Berechtigungen
+     - Beschränkungen werden nicht in der Benutzeroberfläche angezeigt
+     - Alles, was Benutzende nur von der PRD, den Dokumenten oder dem Produkt-Team lernen können
    - **Zur Überprüfung bereitstellen** (Benutzenden mit `AskQuestion` als Mehrfachauswahl präsentieren): Fakten, die Benutzende bei Verwendung der Funktion auf dem Bildschirm sehen können. Beispiele:
-      - Ein Zeichenzähler, den die Benutzeroberfläche bereits anzeigt (z. B. `0 / 500`)
-      - Der standardmäßige erweiterte/reduzierte Status eines Felds
-      - Standardmäßiger ausgewählter Status eines sichtbaren Kontrollkästchens
-      - Beschriftungen der Schaltfläche neben dem Feld
-      - Validierungsnachrichten, die inline angezeigt werden
+     - Ein Zeichenzähler, den die Benutzeroberfläche bereits anzeigt (z. B. `0 / 500`)
+     - Der standardmäßige erweiterte/reduzierte Status eines Felds
+     - Standardmäßiger ausgewählter Status eines sichtbaren Kontrollkästchens
+     - Beschriftungen der Schaltfläche neben dem Feld
+     - Validierungsnachrichten, die inline angezeigt werden
 
    Geben Sie für jedes „Zur Überprüfung bereitstehende“ Element eine Ein-Satz-Begründung an („Hilft Anfängern, eine längere Nachricht zu planen“, „Hilft Benutzern, die sie in späteren Phasen nicht sehen, zu wissen, um sie zu erweitern„). Nur die Elemente einbeziehen, die der Benutzer auswählt. Das Standardprinzip lautet: „Wenn der Benutzer die Aufgabe auf dem Bildschirm sehen kann, muss sie nicht neu formuliert werden“ - aber der Benutzer erhält den endgültigen Aufruf.
 
-5. **Änderungen vorschlagen.** Vor-/Nach-Ausschnitten (oder einer fokussierten Beschreibung im Diff-Stil) für den Artikel anzeigen, die Folgendes behandeln: Platzierung von Ausschnitten, Umbenennungen von Überschriften, neue In-Preview-Inhalte und wo sie sich befinden, Screenshot-Referenz und etwaige Inline-`class="preview"`-Umbrüche.
+   **Wenn Sie die tatsächlichen Sätze**, wenden Sie für jeden Behälter `~/.cursor/skills/writing-quality/SKILL.md` Sprach- und Tonregeln an, während Sie schreiben - eine einfache Feld-/Verhaltensbeschreibung, keinen Changelog-Eintrag („wurde entfernt“, „wurde hinzugefügt„) und stellen Sie keine unveränderte Anweisung erneut her, nur um eine Vorschau-Anmerkung anzufügen. Zeichnen Sie es beim ersten Mal richtig, anstatt den Ton in einem späteren Durchgang zu fixieren.
 
-6. **Warten Sie auf die explizite Genehmigung** („okay“, „Apply“, „yes„), bevor Sie die Datei schreiben.
+5. **Erfüllen Sie den Entwurf, bevor Sie** Text anzeigen. Dies ist ein Sicherheitsnetz, nicht das erste Mal, dass diese Regeln gelten - fangen Sie alles, was bei Schritt 4 verpasst wurde (Redundanz, Ton, Sprachabweichung mit den umgebenden Zeilen).
 
-7. **validate.** Führen Sie nach dem Schreiben die `ReadLints` für die Datei aus und melden Sie etwaige Probleme. Lesen Sie den geänderten Abschnitt erneut, um die Struktur zu bestätigen.
+6. **Änderungen vorschlagen.** Vor-/Nach-Ausschnitten (oder einer fokussierten Beschreibung im Diff-Stil) für den Artikel anzeigen, die Folgendes behandeln: Platzierung von Ausschnitten, Umbenennungen von Überschriften, neue In-Preview-Inhalte und wo sie sich befinden, Screenshot-Referenz und etwaige Inline-`class="preview"`-Umbrüche.
 
-8. **Überarbeiten auf Prosa-Ebene** auf die **Schreibqualität**-Fähigkeit. Wiederholen Sie hier keine Sprache, Groß- und Kleinschreibung, gewagte Regeln oder Link-Muster - lesen Sie `~/.cursor/skills/writing-quality/SKILL.md`, wenn ein Prosa-Pass angefordert wird.
+7. **Warten Sie auf die explizite Genehmigung** („okay“, „Apply“, „yes„), bevor Sie die Datei schreiben.
+
+8. **validate.** Führen Sie nach dem Schreiben die `ReadLints` für die Datei aus und melden Sie etwaige Probleme. Lesen Sie den geänderten Abschnitt erneut, um die Struktur zu bestätigen.
 
 ### &#x200B;5. Nach jedem Artikel
 
@@ -177,10 +179,13 @@ Regeln:
 
 ## Qualitätsprüfungen vor der Präsentation von Bearbeitungen
 
+Führen Sie diese vollständige Checkliste für **jeden** Artikel in der Sitzung aus - einschließlich sekundärer Artikel, bei denen Sie „nur eine Aufzählungszeichen hinzufügen“, nicht nur den ersten/primären.
+
 - Das Snippet erscheint einmal in einer eigenen Zeile nach dem H1, mit Leerzeilen über und unter.
 - Vorhandene Abschnittsüberschriften enden mit `in Production`.
 - Neue Abschnittsüberschriften enden mit `in Preview` und der Abschnitt befindet sich innerhalb von `<div class="preview">`.
 - Inline-Ergänzungen befinden sich in `<span class="preview">`.
+- Die neue mit einer Vorschau markierte Prosa liest sich wie ein einfaches Feld/eine Verhaltensbeschreibung, kein Änderungsprotokolleintrag und ändert nicht redundant eine unveränderte Anweisung.
 - `ReadLints` ist in der bearbeiteten Datei sauber.
 - Der Artikel wird in beiden Zuständen korrekt gelesen (mit ein- und ausgeblendetem Vorschauinhalt).
 
