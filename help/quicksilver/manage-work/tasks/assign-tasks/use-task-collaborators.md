@@ -4,10 +4,10 @@ content-type: reference
 description: Erfahren Sie, wie Sie Aufgabenkollaboratoren verwenden, KI-Collaboratoren, die Workfront-Aufgaben zugewiesen werden können.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: 2070a27e18d768dd14ce4f5c681ab08669c81766
+source-git-commit: a05312fa1def1db593743e5e6d385da0b393d5d4
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 6%
+source-wordcount: '653'
+ht-degree: 3%
 
 ---
 
@@ -69,8 +69,28 @@ Beispiele für Workflows:
 >* Beim Konfigurieren eines Agenten in Copilot Studio müssen Sie die Sicherheit auf &quot;**Authentifizierung“**.
 >* Informationen und Anweisungen zum Erstellen eines Task Collaborators in Workfront finden Sie unter [Konfigurieren eines Task Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) im Artikel Konfigurieren von KI-Collaboratoren.
 
+## Trigger für den Start des Aufgabenmitarbeiters
+
+Wenn eine Aufgabe einem Mitarbeiter zugewiesen wird, beginnt die Arbeit, wenn eine der folgenden Situationen eintritt:
+
+* Der Aufgabenkollaborator wurde einer Aufgabe zugewiesen, die startbereit ist. (Wenn die Aufgabe beispielsweise Vorgänger hat, sind die Vorgänger abgeschlossen.)
+* Die Aufgabe „Mitarbeiter“ und ein Benutzer werden einer Aufgabe zugewiesen und die Aufgabe „Mitarbeiter“ wird zuerst zugewiesen.
+* Eine Aufgabe, der bereits ein Aufgabenmitarbeiter zugewiesen ist, ist startbereit. (Wenn die Aufgabe beispielsweise Vorgänger hat, sind die Vorgänger abgeschlossen.)
+* Eine Aufgabe, der bereits ein Aufgabenmitarbeiter und ein Benutzer zugewiesen sind, ist startbereit. (Wenn die Aufgabe beispielsweise Vorgänger hat, sind die Vorgänger abgeschlossen.)
+* Ein(e) Benutzende(r) und ein Mitarbeiter(in) für eine Aufgabe werden einer Aufgabe zugewiesen und der/die Benutzende wird entfernt.
+* Ein Benutzer und ein Aufgabenmitarbeiter werden einer Aufgabe zugewiesen und der Aufgabenmitarbeiter wird als Primärer Bearbeiter für die Aufgabe festgelegt.
+
+Die folgenden Situationen führen nicht dazu, dass der Mitarbeiter der Aufgabe mit der Arbeit an der Aufgabe beginnt:
+
+* Einem Aufgabenmitarbeiter wird eine Aufgabe zugewiesen, der bereits ein Benutzer zugewiesen ist.
+* In einer Aufgabe wird ein Aufgabenmitarbeiter @mentioned.
+* Ein Aufgabenmitarbeiter wird einer Aufgabe zugewiesen, der bereits ein Aufgabenmitarbeiter zugewiesen ist. In diesem Fall beginnt nur der erste zugewiesene Aufgabenmitarbeiter mit der Arbeit an der Aufgabe.
+* Einem Aufgabenmitarbeiter wird eine Aufgabe zugewiesen, die noch nicht startbereit ist. (Wenn die Aufgabe beispielsweise Vorgänger hat, sind die Vorgänger noch nicht abgeschlossen.)
+
 ## Aufgabe einem Mitarbeiter zuweisen
 
 Aufgabenmitarbeiter werden Aufgaben auf die gleiche Weise zugewiesen wie Benutzern.
+
+Wenn Sie in der Liste der verfügbaren Bevollmächtigten nach einem Aufgabenmitarbeiter suchen, ist der Name des Aufgabenmitarbeiters nur ein Vorname.
 
 Anweisungen finden Sie unter [Aufgaben zuweisen](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md).

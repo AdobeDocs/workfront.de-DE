@@ -4,6 +4,7 @@ navigation-topic: convert-issues
 title: Aufheben der Verknüpfung von Problemen mit Lösungsobjekten
 description: Wenn Sie ein Projekt oder eine Aufgabe erstellen, indem Sie ein Problem in das Projekt oder die Aufgabe konvertieren, haben Sie die Möglichkeit, das ursprüngliche Problem beizubehalten. Ihr Adobe Workfront-Administrator muss diese Voreinstellung aktivieren, damit Sie diese Option während der Konvertierung des Problems erhalten. Weitere Informationen zum Konvertieren von Problemen in Projekte und Aufgaben finden Sie unter Übersicht über das Konvertieren von Problemen in Adobe Workfront.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: c18160e5-9f95-4575-a1b3-b4f7e5334844
 last-update: 2026-04-01T18:03:50.000Z
@@ -21,7 +22,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 429
 ht-degree: 11%

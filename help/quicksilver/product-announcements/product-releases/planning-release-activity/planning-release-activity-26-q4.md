@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 6b8fc9e010c850625deb3927483f79da190e3f33
+source-git-commit: 20f5a513d8d33ecf8770f35bc73ee799a7de939e
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '749'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,29 @@ In diesem Artikel werden die Funktionen beschrieben, die in Workfront Planning i
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+## Einführung in die Fähigkeiten des Workfront Planning Solution Architect
+
+>[!NOTE]
+>
+>Vorschau: 10. August 2026
+>Produktion: 10. August 2026
+
+Wir stellen eine neue Qualifikation zur Verfügung, den Workfront Planning Solution Architect, der Best Practice-Beratung für Workfront Planning direkt in Claude integriert. Direkt in der Claude-Benutzeroberfläche können Sie jetzt Folgendes tun:
+
+* Konfigurieren Sie einen neuen Planning-Arbeitsbereich, der Ihren Geschäftsanforderungen entspricht, wobei der Workfront MCP-Server das Setup in Ihrer Umgebung ausführt.
+* Überprüfen Sie eine vorhandene Konfiguration im großen Maßstab auf Antimuster.
+* Überprüfen Sie die Nutzung anhand der empfohlenen Limits.
+* Stellen Sie Fragen zu Planning.
+
+Weitere Informationen finden Sie unter [Kenntnisse für die direkte Installation verfügbar](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md).
+
 ## Zeilen per Drag-and-Drop in die Tabellenansicht ziehen
 
 >[!NOTE]
 >
->Vorschau: 30. Juli 2026>Produktions-Schnellversion: 13. August 2026>Produktion für alle: 15. Oktober 2026
+>Vorschau: 30. Juli 2026
+>Produktions-Schnellveröffentlichung: 13. August 2026
+>Produktion für alle: 15. Oktober 2026
 
 Das Ziehen und Ablegen von Zeilen in der Tabellenansicht wurde visuell verbessert.
 
@@ -34,7 +52,9 @@ Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/qui
 
 >[!NOTE]
 >
->Vorschau: 30. Juli 2026>Produktions-Schnellversion: 13. August 2026>Produktion für alle: 15. Oktober 2026
+>Vorschau: 30. Juli 2026
+>Produktions-Schnellveröffentlichung: 13. August 2026
+>Produktion für alle: 15. Oktober 2026
 
 Workspace-Manager können jetzt Abhängigkeiten zwischen verbundenen Datensatztypen definieren. Stellen Sie beispielsweise sicher, dass in einem Feld Region nur Werte angezeigt werden, die mit der ausgewählten Geografie verknüpft sind. Dies wird direkt im Setup des Verbindungsfelds konfiguriert: Beim Hinzufügen einer Verbindung von einem Geodatensatztyp zu einem abhängigen Datensatztyp (wie Region) ermöglicht eine neue Einstellung es Workspace-Managern, sie als abhängig vom Geodatensatztyp zu markieren, wobei die bereits zwischen diesen Datensatztypen eingerichteten Beziehungen verwendet werden.
 
@@ -55,7 +75,9 @@ Weitere Informationen finden Sie unter [Abhängige Verbindungen verwalten](/help
 
 >[!NOTE]
 >
->Vorschau: 30. Juli 2026>Produktions-Schnellversion: 13. August 2026>Produktion für alle: 15. Oktober 2026
+>Vorschau: 30. Juli 2026
+>Produktions-Schnellveröffentlichung: 13. August 2026
+>Produktion für alle: 15. Oktober 2026
 
 Wir haben einen neuen Indikator hinzugefügt, der anzeigt, wenn ein Datensatz ungelesene Kommentare enthält. Der Indikator wird in der oberen rechten Ecke des Primärfelds des Datensatzes in der Tabellenansicht angezeigt.
 
@@ -65,7 +87,9 @@ Weitere Informationen finden Sie unter [Verwalten von Datensatzkommentaren](/hel
 
 >[!NOTE]
 > 
->Vorschau: 23. Juli 2026>Produktions-Schnellversion: 13. August 2026>Produktion für alle: 15. Oktober 2026
+>Vorschau: 23. Juli 2026
+>Produktions-Schnellveröffentlichung: 13. August 2026
+>Produktion für alle: 15. Oktober 2026
 
 Datensätze unterstützen jetzt anpassbare Farbpaletten, mit denen Sie die neuen Datensätzen automatisch zugewiesenen Farben auf Standard- oder benutzerdefinierte Farben aktualisieren können.
 
@@ -87,7 +111,8 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 ## Die Planung von Designer erfordert jetzt die Zustimmung von Beta
 
 >[!NOTE]
->Vorschau und Produktion für alle Kunden: 20. Juli 2026 >[!BADGE &#x200B; Zeitplan]{type=Neutral}
+>Vorschau und Produktion für alle Kunden: 20. Juli 2026
+>[!BADGE Außerplanmäßig]{type=Neutral}
 
 Für die Planung von Designer ist jetzt eine gültige Beta-Vereinbarung erforderlich. Ihr Unternehmen ist nicht verpflichtet, eine KI-Vereinbarung zu unterzeichnen. Dies ist für alle Kunden verfügbar.
 

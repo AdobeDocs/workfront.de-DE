@@ -4,6 +4,7 @@ navigation-topic: convert-issues
 title: Übersicht über Konvertierungsprobleme in Adobe Workfront
 description: Wenn nach dem Übermitteln eines Problems weitere Arbeit zum Abschließen des Problems erforderlich ist, können Sie das Problem in ein Projekt oder eine Aufgabe konvertieren.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 topic: Collaboration
 role: User
@@ -25,9 +26,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
-source-wordcount: 1531
+source-wordcount: 1547
 ht-degree: 4%
 
 ---
@@ -50,8 +51,8 @@ Informationen zum Konvertieren von Problemen in Projekte finden Sie unter [Konve
 * Workfront überschreibt das Lösungsobjekt des Problems, wenn Sie es in eine Aufgabe oder ein Projekt konvertieren. Die neue Aufgabe oder das neue Problem wird nach der Konvertierung zum neuen Lösungsobjekt des Problems.
 * Beachten Sie Folgendes:
 
-   * Während der Konvertierung werden Sie möglicherweise gefragt, ob Sie das Problem und seine Lösung an das Projekt oder die Aufgabe binden möchten, das bzw. die Sie erstellen.
-   * Wenn Sie das Problem beibehalten, werden der Status und der abgeschlossene Prozentsatz des Projekts oder der Aufgabe automatisch aktualisiert, wenn Änderungen am Projekt, an der Aufgabe oder an dem Problem auftreten oder wenn Workfront die Timeline neu berechnet.
+  * Während der Konvertierung werden Sie möglicherweise gefragt, ob Sie das Problem und seine Lösung an das Projekt oder die Aufgabe binden möchten, das bzw. die Sie erstellen.
+  * Wenn Sie das Problem beibehalten, werden der Status und der abgeschlossene Prozentsatz des Projekts oder der Aufgabe automatisch aktualisiert, wenn Änderungen am Projekt, an der Aufgabe oder an dem Problem auftreten oder wenn Workfront die Timeline neu berechnet.
 
   >[!NOTE]
   >
@@ -65,11 +66,11 @@ Informationen zum Konvertieren von Problemen in Projekte finden Sie unter [Konve
 * Wenn ein Problem mithilfe einer Vorlage in ein Projekt konvertiert wird, werden die meisten Informationen aus der Vorlage an das neue Projekt übertragen. Einige Informationen aus dem Problem können jedoch auch auf das neue Projekt übertragen werden. Weitere Informationen finden Sie im Abschnitt [Übersicht über Projektfelder beim Konvertieren eines Problems in ein Projekt mithilfe einer Vorlage](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) in diesem Artikel.
 * Beim Konvertieren eines Problems werden nicht alle Dokumente oder deren Informationen in das neue Objekt verschoben, in das das Problem konvertiert wird. Die folgenden Elemente sind enthalten, wenn Sie ein Problem konvertieren, an das Dokumente oder Dokument-Links angehängt sind:
 
-   * Dokument
-   * Dokument-Links zu Services von Drittanbietern, wie Google Drive oder SharePoint.
-   * Versionen
-   * Korrekturabzüge werden nur einbezogen, wenn die Option **Ursprüngliches Problem beibehalten und seine Lösung mit dieser Aufgabe verknüpfen** nicht ausgewählt ist.
-   * Dokumentgenehmigungen werden nicht einbezogen, wenn Sie ein Problem konvertieren, an das Dokumente und Dokument-Links angehängt sind.
+  * Dokument
+  * Dokument-Links zu Services von Drittanbietern, wie Google Drive oder SharePoint.
+  * Versionen
+  * Korrekturabzüge werden nur einbezogen, wenn die Option **Ursprüngliches Problem beibehalten und seine Lösung mit dieser Aufgabe verknüpfen** nicht ausgewählt ist.
+  * Dokumentgenehmigungen werden nicht einbezogen, wenn Sie ein Problem konvertieren, an das Dokumente und Dokument-Links angehängt sind.
 * Beim Konvertieren eines Problems gibt es ein Verarbeitungslimit von 5 Minuten. Wenn an das Problem eine große Anzahl von Dokumenten angehängt ist und es nicht konvertiert werden kann, müssen Sie möglicherweise einige der Dokumente entfernen und erneut versuchen.
 * Wenn Sie sich entschieden haben, das Problem bei der Konvertierung zu belassen und ihm Dokumente beigefügt sind, werden das Dokument und seine Versionen in das Projekt oder die Aufgabe kopiert. Die Korrekturabzüge und Dokumentgenehmigungen werden nicht in das Projekt oder die Aufgabe kopiert.
 * Wenn Sie sich dafür entschieden haben, das Problem nicht in der Konvertierung zu belassen und ihm Dokumente beigefügt sind, werden das Dokument, seine Versionen und die Korrekturabzüge an das Projekt oder die Aufgabe übertragen. Die Dokumentengenehmigungen werden nicht auf das Projekt oder die Aufgabe übertragen.

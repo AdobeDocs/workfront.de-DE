@@ -4,6 +4,7 @@ navigation-topic: use-the-gantt-chart
 title: Abgleichen von Ressourcen im [!UICONTROL Gantt-Diagramm]
 description: Wenn dieselbe Ressource zwei verschiedenen Vorgängen zugewiesen ist, können Sie die Zeitleiste der Vorgänge mit dem Abgleich der Ressourcen anpassen, sodass sie nicht gleichzeitig ausgeführt werden. Dieser Artikel enthält Informationen zum Abgleichen von Ressourcen im Gantt-Diagramm.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
 last-update: 2026-04-01T18:03:50.000Z
@@ -20,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 623
 ht-degree: 6%

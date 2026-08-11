@@ -3,6 +3,7 @@ navigation-topic: use-the-gantt-chart
 title: Exportieren des Gantt-Diagramms in PDF
 description: Sie können das Gantt-Diagramm in eine PDF exportieren. Danach können Sie sie ausdrucken oder an eine E-Mail anhängen, um sie für andere Benutzer freizugeben.
 author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
 last-update: 2026-04-01T18:03:50.000Z
@@ -20,10 +21,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
-source-wordcount: 968
-ht-degree: 5%
+source-wordcount: 983
+ht-degree: 6%
 
 ---
 
@@ -119,18 +120,18 @@ Old:
 
      Wählen Sie aus den folgenden Optionen aus:
 
-      * Tatsächliche Termine
-      * Arbeitsaufträge
-      * Ausgangsbasis
-      * Verpflichtungsdatum
-      * % abgeschlossen
-      * Kritischer Pfad
-      * Meilenstein-Diamanten
-      * Meilenstein-Linien
-      * Vorgänger
-      * Fortschrittsstatus
-      * (Bedingt) Geplante Termine
-      * (Bedingt) Voraussichtliche Termine
+     * Tatsächliche Termine
+     * Arbeitsaufträge
+     * Ausgangsbasis
+     * Verpflichtungsdatum
+     * % abgeschlossen
+     * Kritischer Pfad
+     * Meilenstein-Diamanten
+     * Meilenstein-Linien
+     * Vorgänger
+     * Fortschrittsstatus
+     * (Bedingt) Geplante Termine
+     * (Bedingt) Voraussichtliche Termine
 
      Weitere Informationen finden Sie unter [Konfigurieren der Anzeige von Informationen im [!UICONTROL Gantt-Diagramm]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
 

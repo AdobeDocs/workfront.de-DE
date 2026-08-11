@@ -22,9 +22,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: eebfa7db6b4aa256a47aa881ff151e3b84a21742
+source-git-commit: a05312fa1def1db593743e5e6d385da0b393d5d4
 workflow-type: tm+mt
-source-wordcount: 1616
+source-wordcount: 1661
 ht-degree: 4%
 
 ---
@@ -178,9 +178,10 @@ You cannot make a team be a Primary on a task/ issue. (Alina)
 
      >[!TIP]
      >
-     >Beachten Sie beim Hinzufügen einer Benutzerzuweisung den Avatar, die Primäre Rolle des Benutzers oder seine E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden. Benutzende müssen mindestens einem Aufgabengebiet zugeordnet sein, damit sie es beim Hinzufügen anzeigen können.
+     >* Beim Hinzufügen eines Aufgaben-Collaborators ist der Name des Aufgaben-Collaborators nur ein Vorname. Nachnamen für „Aufgabenmitarbeiter“ sind leer.
+     >* Beachten Sie beim Hinzufügen einer Benutzerzuweisung den Avatar, die Primäre Rolle des Benutzers oder seine E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden. Benutzende müssen mindestens einem Aufgabengebiet zugeordnet sein, damit sie es beim Hinzufügen anzeigen können.
      >
-     >Die Einstellung Kontaktinformationen anzeigen muss in Ihrer Zugriffsebene aktiviert sein, damit Benutzer die E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Gewähren des Benutzerzugriffs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+     >   Die Einstellung Kontaktinformationen anzeigen muss in Ihrer Zugriffsebene aktiviert sein, damit Benutzer die E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Gewähren des Benutzerzugriffs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
    * (Bedingt) Klicken Sie auf einen der Namen in den Listen **Benutzer und Teams** oder **Aufgabengebiete**, wenn sie angezeigt werden. Weitere Informationen finden Sie unter [Smart Assignments - Übersicht](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 

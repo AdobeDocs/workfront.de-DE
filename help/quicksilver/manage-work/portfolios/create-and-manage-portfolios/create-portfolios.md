@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
-source-wordcount: 890
+source-wordcount: 902
 ht-degree: 3%
 
 ---
@@ -112,10 +112,10 @@ Sie können Portfolios in Workfront mit einer der folgenden Methoden erstellen:
 
 * Fügen Sie Portfolios aus Workfront Planning wie folgt hinzu:
 
-   * So können Sie sie über einen Datensatztyp in Workfront Planning verbinden.
+  * So können Sie sie über einen Datensatztyp in Workfront Planning verbinden.
 
   Informationen zum Erstellen von Portfolios durch Hinzufügen zu Datensätzen finden Sie im Abschnitt „Erstellen von Datensätzen, während Sie sie verbinden“ im Artikel [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
-   * Verwenden von Workfront Planning-Automatisierungen.
+  * Verwenden von Workfront Planning-Automatisierungen.
 
   Weitere Informationen finden Sie unter [Erstellen von Objekten mithilfe von Adobe Workfront Planning-Datensatzautomatisierungen](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
@@ -145,17 +145,19 @@ Sie können Portfolios in Workfront mit einer der folgenden Methoden erstellen:
 
      Ein Portfolio wird erstellt. Sein Standardname folgt den folgenden Mustern, je nachdem, welcher Speicher Workfront für Dokumente verwendet:
 
-      * `Untitled Portfolio` für ein Legacy-Speicherportfolio von Workfront.
+     * `Untitled Portfolio` für ein Legacy-Speicherportfolio von Workfront.
 
-        Bei einem Legacy-Speicherportfolio von Workfront wird neben dem Namen das **Legacy-Speicherportfolio**-Symbol ![Legacy-Speicherportfolio](assets/legacy-storage-project-icon.png) angezeigt.
+       Bei einem Legacy-Speicherportfolio von Workfront wird neben dem Namen das **Legacy-Speicherportfolio**-Symbol ![Legacy-Speicherportfolio](assets/legacy-storage-project-icon.png) angezeigt.
 
-      * `Untitled Portfolio - < Month day, year hour.minute.second >` für ein Adobe Cloud-Speicherportfolio
+     * `Untitled Portfolio - < Month day, year hour.minute.second >` für ein Adobe Cloud-Speicherportfolio
 
-        >[!IMPORTANT]
-        >
-        >Portfolios, die den Adobe-Cloud-Speicher verwenden, müssen eindeutige Namen haben.
+       >[!IMPORTANT]
+       >
+       >Portfolios, die den Adobe-Cloud-Speicher verwenden, müssen eindeutige Namen haben.
 
      Bei Adobe Cloud-Speicherportfolios wird automatisch im Bereich Dokumente ein neuer Dokumentordner mit demselben Namen wie das Portfolio erstellt.
+
+     Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und verwandte Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
 1. Ersetzen Sie den Namen des Portfolios durch einen neuen Namen in der Portfolio-Kopfzeile.
 

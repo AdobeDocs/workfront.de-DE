@@ -4,7 +4,8 @@ content-type: overview
 navigation-topic: delegate-work
 title: Delegieren von Arbeit - Übersicht
 description: Wenn Sie planen, für kurze Zeit abwesend zu sein, können Sie Ihre Arbeit vorübergehend an andere Benutzer delegieren, um sicherzustellen, dass Ihre Abwesenheit nicht zu einer Hürde für die Fertigstellung der Arbeit wird.
-author: Becky
+author: Alina
+recommendations: noDisplay, noCatalog
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
 last-update: 2026-04-01T18:03:50.000Z
@@ -25,7 +26,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
 workflow-type: tm+mt
 source-wordcount: 906
 ht-degree: 2%
@@ -70,9 +71,9 @@ Beachten Sie beim Delegieren von Aufgaben und Problemen Folgendes:
 * Sie können Aufgaben und Probleme nur über den Bereich &quot;[!UICONTROL &quot; &#x200B;].
 * Beim Delegieren von Arbeit gibt es Ausnahmen für die folgenden Lizenztypen:
 
-   * Sie können Arbeit an Prüfer oder Auftraggeber delegieren, obwohl [!DNL Workfront] dies nicht empfiehlt.
-   * Reviewer können ihre Arbeit an Dritte delegieren. Sie können Arbeitselemente nicht in ihrem [!UICONTROL Home]Bereich anzeigen. Sie können nur Genehmigungen anzeigen.
-   * Auftraggeber können keine Arbeit an Dritte delegieren. Sie können Arbeitselemente nicht in ihrem [!UICONTROL Home]Bereich anzeigen
+  * Sie können Arbeit an Prüfer oder Auftraggeber delegieren, obwohl [!DNL Workfront] dies nicht empfiehlt.
+  * Reviewer können ihre Arbeit an Dritte delegieren. Sie können Arbeitselemente nicht in ihrem [!UICONTROL Home]Bereich anzeigen. Sie können nur Genehmigungen anzeigen.
+  * Auftraggeber können keine Arbeit an Dritte delegieren. Sie können Arbeitselemente nicht in ihrem [!UICONTROL Home]Bereich anzeigen
 * Sie können nur die Ihnen zugewiesenen Aufgaben und Probleme delegieren. Sie können keine Aufgaben und Probleme delegieren, die anderen Benutzern, Teams oder Aufgabengebieten zugewiesen sind.
 * Sie können nur Aufgaben und Probleme delegieren, die nicht vor dem Startdatum der Delegierung abgeschlossen wurden.
 * Wenn ein Arbeitselement während des Zeitrahmens der Delegierung abgeschlossen wird, bleibt das Element für 2 Wochen im Home-Bereich des Beauftragten und des Verantwortlichen, bevor [!DNL Workfront] es automatisch entfernt.
