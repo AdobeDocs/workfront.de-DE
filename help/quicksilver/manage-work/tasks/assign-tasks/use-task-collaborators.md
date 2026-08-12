@@ -4,10 +4,10 @@ content-type: reference
 description: Erfahren Sie, wie Sie Aufgabenkollaboratoren verwenden, KI-Collaboratoren, die Workfront-Aufgaben zugewiesen werden können.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: 72921e4a1cb9ca564a5c8b4a7a587e37f6a90cc5
+source-git-commit: 294abde1460326cd43eb30ac1aac134882cd2ee3
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 3%
+source-wordcount: '867'
+ht-degree: 2%
 
 ---
 
@@ -94,3 +94,19 @@ Aufgabenmitarbeiter werden Aufgaben auf die gleiche Weise zugewiesen wie Benutze
 Wenn Sie in der Liste der verfügbaren Bevollmächtigten nach einem Aufgabenmitarbeiter suchen, ist der Name des Aufgabenmitarbeiters nur ein Vorname.
 
 Anweisungen finden Sie unter [Aufgaben zuweisen](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md).
+
+## Fehlerbehebung bei Aufgabenmitarbeitern
+
+Wenn Ihr Aufgabenmitarbeiter keine Antwort oder Ausgabe zurückgibt, überprüfen Sie Folgendes:
+
+* Stellen Sie sicher, dass der Agent auf der Seite des KI-Plattformanbieters veröffentlicht wird.
+* Stellen Sie sicher, dass Sie über ausreichende KI-Credits für die Plattform Ihres Agenten verfügen.
+* Stellen Sie sicher, dass für die in der Aufgabe ausgeführte Aktion keine bestimmte Zugriffsebene erforderlich ist.
+* Wenn Sie Copilot als Agentenanbieter verwenden, stellen Sie sicher, dass Sie die Einstellung „Keine Authentifizierung“ verwenden.
+* Wenn Sie Copilot verwenden, stellen Sie sicher, dass Ihr Agent in einer globalen Umgebung konfiguriert ist. Die Funktion „Task Collaborator“ unterstützt derzeit keine regionalen Versionen von Copilot Studio.
+* Stellen Sie sicher, dass der Mitarbeiter der primäre Zugewiesene für die Aufgabe ist.
+* Stellen Sie sicher, dass die Aufgabe, der der Aufgabenmitarbeiter zugewiesen ist, gestartet werden kann. Überprüfen Sie beispielsweise, ob alle Aufgabenvorgänger dieser Aufgabe abgeschlossen sind.
+
+>[!TIP]
+>
+>Sie können auch zur Plattform des Agentenanbieters gehen und den Agenten bitten, die Aufgabe innerhalb der Plattform auszuführen. Wenn der Agent die Aufgabe nicht innerhalb der Plattform ausführen kann, treten beim Task Collaborator auch Probleme in Workfront auf.
