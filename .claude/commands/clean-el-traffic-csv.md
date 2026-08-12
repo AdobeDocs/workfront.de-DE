@@ -1,9 +1,9 @@
 ---
 name: clean-el-traffic-csv
 description: Bereinigt einen unformatierten CSV-Export von Experience League/Adobe Analytics-Traffic nach unten zu Seiten, die nur Workfront sind, sortiert nach Seitenansichten. Verwenden Sie diese Option, wenn der/die Benutzende eine CSV-Datei für den Seiten-Traffic von Experience League bereitstellt (Spalten wie „Seiten-URL generisch“, „Unique Visitors“, „Besuche“, „Seitenansichten„) und bittet, sie zu bereinigen, zu filtern oder zu verarbeiten, oder die Tabelle „Dokumentation-Tracking“ / „Am häufigsten angezeigte Artikel“ erwähnt.
-source-git-commit: 3c5f28f5656fec574cb1ca9d3853703b6b900fdb
+source-git-commit: e22d43e9962b2b00793577fd14ac00587e8a2a6d
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Experience League-Traffic-CSV bereinigen
 
-Wandelt einen unformatierten Adobe Analytics-Freiformtabellen-Export des Experience League-Seiten-Traffics in eine saubere, nur Workfront betreffende, deduplizierte CSV-Datei um, die nach Seitenansichten sortiert ist, wobei die Originaldatei überschrieben wird.
+Wandelt einen unformatierten Adobe Analytics-Freiformtabellen-Export des Experience League-Seiten-Traffics in eine saubere, Workfront-basierte, deduplizierte CSV-Datei um, die nach Seitenansichten sortiert ist, überschreibt die Originaldatei und speichert außerdem eine datierte Kopie auf dem Desktop.
 
 ## Formen eingeben
 
@@ -79,6 +79,18 @@ Endgültige Zeilenreihenfolge: Datumsbereich → Kopfzeile → sortierten Datenz
 ### Schritt 8: Speichern
 
 Überschreiben Sie die ursprüngliche Eingabedatei mit dem bereinigten Ergebnis.
+
+### Schritt 9: Speichern einer datierten Kopie auf dem Desktop (nur Rohexport, wenn in Schritt 0 ein Datumsbereich erfasst wurde)
+
+Erstellen Sie eine dateinamenssichere Version des Datumsbereichs: Entfernen Sie Kommas und ersetzen Sie alle `\ / : * ? " < > |` durch `-` (diese Zeichen sind in Windows-Dateinamen ungültig und könnten andernfalls je nach Exportgebietsschema/Format in einem Datumsbereich angezeigt werden).
+
+Speichern Sie eine zusätzliche Kopie der bereinigten CSV-Datei (gleicher Inhalt wie Schritt 8) mit dem folgenden Namen auf dem Desktop des aktuellen Benutzers:
+
+`Documentation tracking report <filename-safe date range>.csv`
+
+Beispiel: Ein erfasster `Apr 1, 2026 - Apr 30, 2026` wird `Documentation tracking report Apr 1 2026 - Apr 30 2026.csv`.
+
+Überspringen Sie diesen Schritt für eine bereits bereinigte CSV (Form 2), es sei denn, der Benutzer gibt einen separaten Datumsbereich an.
 
 ## Außerhalb des Geltungsbereichs
 
@@ -157,6 +169,11 @@ $outLines += $newHeader
 $outLines += $sorted | ForEach-Object { "$($_.URL),$($_.UV),$($_.Visits),$($_.PV)" }
 
 Set-Content -Path $path -Value $outLines -Encoding UTF8
+
+# Step 9: also save a dated copy to the Desktop
+$safeDateRange = ($dateRange -replace ',', '') -replace '[\\/:*?"<>|]', '-'
+$desktopPath = Join-Path ([Environment]::GetFolderPath('Desktop')) "Documentation tracking report $safeDateRange.csv"
+Set-Content -Path $desktopPath -Value $outLines -Encoding UTF8
 ```
 
-Bei einer bereits bereinigten CSV (Eingabe-Form 2) überspringen Sie die Logik der Kopfzeilenverschiebung und des Datumsbereichs - führen Sie einfach die Schritte 2-6 und 8 für die vorhandenen Kopfzeilen wie vorliegend aus.
+Bei einer bereits bereinigten CSV (Eingabe-Form 2) überspringen Sie die Kopfzeilenverschiebung, die Datumsbereichslogik und Schritt 9. Führen Sie einfach die Schritte 2-6 und 8 für die vorhandenen Kopfzeilen wie vorliegend aus.

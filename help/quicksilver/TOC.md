@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 20f5a513d8d33ecf8770f35bc73ee799a7de939e
+source-git-commit: 560297cc7e4d7e4b4df5917c1710411454b4c9cb
 workflow-type: tm+mt
-source-wordcount: '14415'
+source-wordcount: '14417'
 ht-degree: 93%
 
 ---
@@ -490,6 +490,7 @@ ht-degree: 93%
       * [Erstellen und Bearbeiten von Geschäftsregeln](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
       * [Konfigurieren der benutzerdefinierten Lokalisierung](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md)
       * [KI-Mitwirkende konfigurieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md)
+      * {hide-from-toc}[KI-Mitwirkende](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/ai-collaborators-overview.md)
     * Konfigurieren von Voreinstellungen für Zeitpläne und Arbeitszeittabellen {#configure-timesheets-schedules}
       * [Konfigurieren von Voreinstellungen für Zeitpläne und Arbeitszeittabellen](administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
       * [Überblick über Zeitpläne](administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)
