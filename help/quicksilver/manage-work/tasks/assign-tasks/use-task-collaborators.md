@@ -4,9 +4,9 @@ content-type: reference
 description: Erfahren Sie, wie Sie Aufgabenkollaboratoren verwenden, KI-Collaboratoren, die Workfront-Aufgaben zugewiesen werden können.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: 294abde1460326cd43eb30ac1aac134882cd2ee3
+source-git-commit: 45e7f102c201e550f0bd759e4387b17a7aabc806
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '878'
 ht-degree: 2%
 
 ---
@@ -94,6 +94,10 @@ Aufgabenmitarbeiter werden Aufgaben auf die gleiche Weise zugewiesen wie Benutze
 Wenn Sie in der Liste der verfügbaren Bevollmächtigten nach einem Aufgabenmitarbeiter suchen, ist der Name des Aufgabenmitarbeiters nur ein Vorname.
 
 Anweisungen finden Sie unter [Aufgaben zuweisen](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md).
+
+>[!NOTE]
+>
+>Aufgaben-Mitwirkende können nicht zur Überprüfung oder Genehmigung eines Dokuments zugewiesen werden.
 
 ## Fehlerbehebung bei Aufgabenmitarbeitern
 
