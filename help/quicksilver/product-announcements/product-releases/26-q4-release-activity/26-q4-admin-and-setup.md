@@ -4,9 +4,9 @@ description: Verbesserungen für Administratoren im vierten Quartal 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
+source-git-commit: c34c4f351010980098b3efece8643a5f5620917f
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '928'
 ht-degree: 1%
 
 ---
@@ -17,11 +17,35 @@ Auf dieser Seite werden Admin-Verbesserungen beschrieben, die mit der Version vo
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2026 des Versionszyklus verfügbar sind, finden Sie unter [Versionsübersicht für das vierte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
+<!--
+
+## Interface improvements to the Actions list
+
+>[!NOTE]
+>
+>Preview: August 13, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+The Actions list in the Update Feeds section of the Setup area has an updated look and feel.
+
+The following enhancements are included:
+
+* We removed the Save and Cancel buttons.
+* The Track column now appears in the last position.
+* We removed the confirmation message that previously displayed when you saved changes in this area.
+
+For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+-->
+
 ## Gruppenadministratoren können Geschäftsprofile verwalten
 
 >[!NOTE]
 >
->Vorschau: 30. Juli 2026>Produktions-Schnellversion: 13. August 2026>Produktion für alle: 15. Oktober 2026
+>Vorschau: 30. Juli 2026
+>Produktions-Schnellveröffentlichung: 13. August 2026
+>Produktion für alle: 15. Oktober 2026
 
 Gruppenadministratoren können jetzt Geschäftsprofile für die von ihnen verwalteten Gruppen erstellen, bearbeiten und löschen, ohne dass sie Systemadministratorzugriff benötigen. Dadurch erhalten Unternehmen mehr Flexibilität, die Verwaltung von Geschäftsprofilen auf Gruppenebene zu delegieren.
 
@@ -31,7 +55,9 @@ Weitere Informationen finden Sie unter [Geschäftsprofile anzeigen und verwalten
 
 >[!NOTE]
 >
->Vorschau: 30. Juli 2026>Produktions-Schnellversion: 13. August 2026>Produktion für alle: 15. Oktober 2026
+>Vorschau: 30. Juli 2026
+>Produktions-Schnellveröffentlichung: 13. August 2026
+>Produktion für alle: 15. Oktober 2026
 
 Ansichten für erweiterte Listen werden jetzt auf Systemebene über eine Layout-Vorlage unterstützt. Sie können vorhandene Systemansichten ausblenden, eine bestimmte Ansicht als Standardansicht zuweisen und eine benutzerdefinierte Ansicht zur Liste der Systemansichten hinzufügen.
 
@@ -43,7 +69,9 @@ Weitere Informationen finden Sie [Anpassen von Filtern, Ansichten und Gruppierun
 
 >[!NOTE]
 >
->Vorschau: 30. Juli 2026>Produktions-Schnellversion: 13. August 2026>Produktion für alle: 15. Oktober 2026
+>Vorschau: 30. Juli 2026
+>Produktions-Schnellveröffentlichung: 13. August 2026
+>Produktion für alle: 15. Oktober 2026
 
 Dialogfelder für die Massenbearbeitung ermöglichen jetzt die Bearbeitung von externen Suchfeldern. Dies war bisher nicht möglich.
 
@@ -57,7 +85,9 @@ Informationen zu externen Suchfeldern finden Sie unter [Erstellen eines benutzer
 
 >[!NOTE]
 >
->Vorschau: 30. Juli 2026>Produktions-Schnellversion: 13. August 2026>Produktion für alle: 15. Oktober 2026
+>Vorschau: 30. Juli 2026
+>Produktions-Schnellveröffentlichung: 13. August 2026
+>Produktion für alle: 15. Oktober 2026
 
 Der Vorschaumodus des benutzerdefinierten Formular-Designers unterstützt jetzt erweiterte Logikoptionen einschließlich erweiterter Anzeigelogik, Standardwertlogik, Validierungslogik, Formatierungslogik und Bearbeitbarkeitslogik. Sie können die Logikformeln in der Formularvorschau testen und sie im Logik-Builder nach Bedarf anpassen. Sie können auch ein Testobjekt auswählen (Projekt, Aufgabe, Problem usw.), , um eine Vorschau des Formulars mit echten kontextuellen Daten anzuzeigen.
 
@@ -71,7 +101,9 @@ Weitere Informationen finden Sie unter [Hinzufügen von Logikregeln zu benutzerd
 
 >[!NOTE]
 >
->Vorschau: 30. Juli 2026>Produktions-Schnellversion: 13. August 2026>Produktion für alle: 15. Oktober 2026
+>Vorschau: 30. Juli 2026
+>Produktions-Schnellveröffentlichung: 13. August 2026
+>Produktion für alle: 15. Oktober 2026
 
 Die Seite „Änderungsverlauf“ in Workfront erfasst jetzt Aktivitäten in einheitlichen Prüfungs- und Genehmigungs-Workflows und bietet Admins einen vollständigen Governance-Trail für Prüfungs- und Dokumentenlebenszyklus-Ereignisse.
 
@@ -83,13 +115,15 @@ Genehmigungs-, Staging- und Teilnehmeraktionen werden jetzt verfolgt. Diese Maß
 
 Jeder Eintrag enthält die getrackten Standardfelder: Datum und Uhrzeit, Vorgang, Benutzername (oder „systemgeneriert„) und Objektname. MCP-Aktivitäten werden erfasst, einschließlich der LLM (wie Claude), die die Aktualisierung vorgenommen hat. Frame.io-Viewer-Kommentare sind nicht enthalten.
 
-Weitere Informationen finden Sie unter [Anzeigen und Verwalten des &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
+Weitere Informationen finden Sie unter [Anzeigen und Verwalten des ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 ## Definieren eines benutzerdefinierten Programms als Landingpage in der Layout-Vorlage
 
 >[!NOTE]
 >
->Vorschau: 30. Juli 2026>Produktions-Schnellversion: 13. August 2026>Produktion für alle: 15. Oktober 2026
+>Vorschau: 30. Juli 2026
+>Produktions-Schnellveröffentlichung: 13. August 2026
+>Produktion für alle: 15. Oktober 2026
 
 Sie können jetzt ein benutzerdefiniertes Programm als Landingpage in einer Layout-Vorlage festlegen. Benutzerdefinierte Programme, die bereits zum Hauptmenü hinzugefügt wurden, können als Landingpage verwendet werden.
 
@@ -101,7 +135,9 @@ Weitere Informationen finden Sie unter [Anpassen der Landingpage mithilfe einer 
 
 >[!NOTE]
 >
->Vorschau: 30. Juli 2026>Produktions-Schnellversion: 13. August 2026>Produktion für alle: 15. Oktober 2026
+>Vorschau: 30. Juli 2026
+>Produktions-Schnellveröffentlichung: 13. August 2026
+>Produktion für alle: 15. Oktober 2026
 
 Sie können Felder hinzufügen, die Sie für einen bestimmten Objekttyp in Workfront verfolgen möchten. Wenn Benutzende Informationen in diesem Feld ändern, zeichnet das System Informationen über die Änderung als Eintrag im Änderungsverlauf auf.
 
@@ -113,7 +149,9 @@ Weitere Informationen finden Sie unter [Felder zum Nachverfolgen im Änderungsve
 
 >[!NOTE]
 >
->Vorschau: 30. Juli 2026>Produktions-Schnellversion: 13. August 2026>Produktion für alle: 15. Oktober 2026
+>Vorschau: 30. Juli 2026
+>Produktions-Schnellveröffentlichung: 13. August 2026
+>Produktion für alle: 15. Oktober 2026
 
 Auf der Zugriffsebene Standard können Sie jetzt festlegen, ob Benutzer mit dieser Zugriffsebene Zugriff auf die Liste „Änderungsverlauf“ haben sollen. Die **Änderungsverlauf** ist im Abschnitt **Administratorzugriff zulassen für** auf der Zugriffsebene verfügbar.
 

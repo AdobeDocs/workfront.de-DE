@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 20f5a513d8d33ecf8770f35bc73ee799a7de939e
+source-git-commit: c34c4f351010980098b3efece8643a5f5620917f
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '971'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,66 @@ ht-degree: 0%
 In diesem Artikel werden die Funktionen beschrieben, die in Workfront Planning im vierten Quartal 2026 veröffentlicht werden.
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Verbesserungen der Tabellenansicht beim Ziehen und Ablegen mehrerer Zeilen
+
+>[!NOTE]
+>
+>Vorschau: 13. August 2026
+>Produktions-Schnellveröffentlichung: 13. August 2026
+>Produktion für alle: 15. Oktober 2026
+
+Es gibt neue visuelle Indikatoren, wenn Sie mehrere Zeilen in die Tabellenansicht ziehen und dort ablegen. Ein markanteres Pluszeichen und eine Zahlenanzeige zeigen jetzt an, wie viele Zeilen für die Drag-and-Drop-Aktion ausgewählt sind.
+
+Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+<!--
+
+## Collapse and expand all groupings in the timeline view
+
+>[!NOTE]
+>
+>Preview: August 13, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+Timeline views now include Collapse all and Expand all options for grouped timelines. This makes it easier to navigate large roadmap views: you can quickly reduce the view to grouping headings, then expand only the sections you want to review.
+
+For more information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+
+-->
+
+## Weiterleiten des gesendeten Anfrageobjekts an den richtigen Arbeitsbereich bei Verwendung globaler Datensatztypen
+
+>[!NOTE]
+>
+>Vorschau: 13. August 2026
+>Produktions-Schnellveröffentlichung: 17. September 2026
+>Produktion für alle: 15. Oktober 2026
+
+Datensätze, die für globale Datensatztypen durch Senden eines Anfrageformulars erstellt wurden, werden jetzt automatisch an den Arbeitsbereich weitergeleitet, von dem aus sie gesendet wurden.
+
+Datensätze, die durch Senden einer Anfrage über einen sekundären Arbeitsbereich eines globalen Datensatztyps erstellt wurden, werden diesem sekundären Arbeitsbereich hinzugefügt. Datensätze, die durch Senden einer Anfrage aus dem ursprünglichen Arbeitsbereich oder aus dem Hauptbereich Anfragen erstellt wurden, werden zum ursprünglichen Arbeitsbereich hinzugefügt.
+
+Wenn das Eingabeformular ein Workspace-Feld enthält und ein(e) Benutzende(r) vor dem Senden einen Arbeitsbereich auswählt, wird die Anfrage an den ausgewählten Arbeitsbereich weitergeleitet, unabhängig davon, wo das Formular gestartet wurde. Dadurch wird sichergestellt, dass Datensätze ab ihrer Erstellung im vorgesehenen Arbeitsbereich organisiert werden.
+
+Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md).
+
+<!--
+
+## Updated column headers for dependent connected record fields
+
+>[!NOTE]
+>
+>Preview: August 13, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+We've made visual improvements to the column headers for a dependent connected record field in the table view.
+
+For information, see [Manage dependent connections](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+
+-->
 
 ## Einführung in die Fähigkeiten des Workfront Planning Solution Architect
 
