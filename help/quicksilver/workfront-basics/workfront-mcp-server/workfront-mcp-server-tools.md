@@ -5,10 +5,10 @@ title: Adobe Workfront MCP-Server-Tools
 description: Referenzliste der über den Adobe Workfront MCP-Server verfügbaren Tools, gruppiert nach Workfront-Bereich.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 53af04ed47a7741db5b3540bf9be706a4f45bca3
+source-git-commit: bea4b02589b7b4d88c86246ce489155e5921a508
 workflow-type: tm+mt
-source-wordcount: '2140'
-ht-degree: 6%
+source-wordcount: '2633'
+ht-degree: 5%
 
 ---
 
@@ -52,16 +52,16 @@ Wenn die KI-Agentenplattform Workfront-Elemente finden, diese jedoch nicht erste
 | Dokumentbereich auflösen | `approvals_resolve_document_scope` | Erweitert ein Projekt oder einen Ordner in die Liste der darin enthaltenen Dokumentversions-IDs. Unterstützt Bereiche mit Projekt-, Ordner- und Ordnernamen. | Lesen |
 | Dokument suchen | `approvals_find_document` | Suchen eines Dokuments nach Dateinamen oder Dokumentversions-ID | Lesen |
 | Dokumente nach Umfang abrufen | approvals_get_documents_by_scope | Dokument in einem Projekt oder Ordner auflisten. | Lesen |
+| Senden von Dokumenten an den AEM-Ordner* | `approvals_send_documents_to_aem_folder` | Verschiebt ein oder mehrere Workfront-Dokumente in einen mit AEM verknüpften Ordner. | Schreiben |
+
+* Für die Verwendung dieser Tools muss in Ihrer Workfront-Instanz eine native [!DNL Adobe Experience Manager]-Integration konfiguriert sein. Weitere Informationen finden Sie unter [Übersicht über Adobe Experience Manager Assets-Integrationen](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
+
+
+* Das Senden von Dokumenten an einen AEM-Ordner wird für Projekte im Adobe Cloud-Speicher noch nicht unterstützt. Unterstützung wird in einer zukünftigen Version erwartet.
+
 
 <!--
 | List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |
-| Send documents to AEM folder* | `approvals_send_documents_to_aem_folder` | Moves one or more Workfront documents to an AEM-linked folder. | Write |
-
-*You must have a native [!DNL Adobe Experience Manager] integration configured in your Workfront instance to use these tools. For more information, see [Overview of Adobe Experience Manager Assets integrations](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
-
-
-*Sending documents to an AEM folder is not yet supported for projects on Adobe cloud storage. Support is expected in a future release.
-
 -->
 
 ### Genehmigungs-Workflows
@@ -212,10 +212,64 @@ Workflow-Tools sind allgemeine Aktionen, die die KI-Agentenplattform für die Ar
 | --- | --- | --- | --- |
 | Objekte suchen | `workflow_search_any_object` | Sucht nach Workfront-Objekten mit flexiblen Filterparametern, Sortierung und Paginierung. | Lesen |
 | Objekt erstellen | `workflow_create_any_object` | Erstellt ein neues Workfront-Objekt wie ein Projekt, eine Aufgabe, ein Problem, eine Stunde, eine Zuweisung, ein Programm oder ein Portfolio. | Schreiben |
-| Objekt aktualisieren | `workflow_update_any_object` | Aktualisiert Felder eines bestehenden Workfront-Objekts. | Schreiben |
+| Objekt aktualisieren | `workflow_update_any_object` | Aktualisiert die Felder eines vorhandenen Objekts. Unterstützt auch das Verschieben einer Aufgabe oder eines Problems in ein anderes Projekt, das Konvertieren einer Aufgabe oder eines Problems in ein neues Projekt (oder ein Problem in eine Aufgabe) sowie das Festlegen von Aufgabenvorgängern (Abhängigkeiten). | Schreiben |
 | Objekt löschen | `workflow_delete_any_object` | Löscht ein Workfront-Objekt nach ID. Erfordert eine explizite Benutzerbestätigung, bevor die Aktion ausgeführt wird. | Schreiben |
 | Auflösen von Feldnamen | `workflow_resolve_field_names_any_object` | Konvertiert von Benutzenden bereitgestellte Feldnamen oder Kennzeichnungen in die zugrunde liegenden Workfront-API-Feldnamen, damit die KI-Agentenplattform genaue Anfragen erstellen kann. | Lesen |
 | Workflow-Dokumente lesen | `workflow_read_workflow_docs` | Lädt die Workfront Workflow-Dokumentation, einschließlich Handbüchern zur Tool-Nutzung und objektspezifischen Playbooks für Vorgänge. Dies ist der erste erforderliche Schritt vor dem Ausführen von Workflow-Aktionen. | Lesen |
+
+### Funktionen der Objektwerkzeuge aktualisieren
+
+Das Tool „Objekt aktualisieren“ ändert nicht nur die Feldwerte. Außerdem kann sie Arbeit zwischen Projekten verschieben, Arbeitselemente in neue Objekte hochstufen und Aufgabenabhängigkeiten verknüpfen.
+
+#### Aufgabe oder Problem in ein anderes Projekt verschieben
+
+Durch Verschieben wird ein Arbeitselement an Ort und Stelle neu übergeordnet. Das Objekt behält seine Identität und seine Links bei, es lebt nur in einem anderen Projekt oder einer anderen übergeordneten Aufgabe.
+
+>[!NOTE]
+>
+>Beim Festlegen eines Projektfelds in einem einfachen Aktualisierungsfeld wird keine Aufgabe oder kein Problem verschoben. Verwenden Sie stattdessen die Funktion Verschieben .
+
+* **Aufgabe verschieben**: Verschiebt die Aufgabe in ein Zielprojekt und optional unter eine übergeordnete Zielaufgabe.
+* **Problem verschieben**: Verschiebt das Problem (Anfrage) in ein Zielprojekt.
+
+Beispiel-Eingabeaufforderungen:
+
+* „Aufgabe *Wireframes* in das Projekt *Neugestaltung von Mobile Apps* verschieben.“
+* „Verschieben Sie diese Anfrage in das *Q4 Launch*-Projekt.“
+
+#### Anfrage oder Aufgabe in ein Projekt konvertieren
+
+>[!NOTE]
+>
+>Die Konvertierung erzeugt ein neues -Objekt. Das Quellelement wird im Prozess verwendet.
+
+* **Aufgabe in ein Projekt konvertieren**: Erstellt ein neues Projekt auf Basis der Aufgabe. Sie können optional die benutzerdefinierten Daten der Aufgabe kopieren und das neue Projekt auf einer Projektvorlage basieren.
+* **Problem (Anfrage) in ein Projekt konvertieren**: Erstellt ein neues Projekt auf Basis des Problems. Sie können optional die benutzerdefinierten Daten des Problems kopieren, die nativen Feldwerte kopieren und eine Projektvorlage anwenden.
+* **Problem (Anfrage) in eine Aufgabe konvertieren**: Erstellt eine Aufgabe für ein vorhandenes Projekt auf Basis des Problems.
+
+Jede Konvertierung gibt das neu erstellte -Objekt zusammen mit einem Link zurück, damit Sie es direkt in Workfront öffnen können.
+
+Beispiel-Eingabeaufforderungen:
+
+* „Konvertieren Sie die Aufgabe *Website-Aktualisierung* mithilfe unserer Standardvorlage in *Projekt Website-Aktualisierung 2026*&quot;.
+* „Diese Anfrage in ein Projekt umwandeln und über die benutzerdefinierten Felder kopieren.“
+
+#### Festlegen von Aufgabenvorgängern (Abhängigkeiten)
+
+Sie können die Vorgänger einer Aufgabe definieren. Vorgänger unterstützen die folgenden Abhängigkeitstypen plus optionaler Verzögerungszeit:
+
+* **Beenden-Start (FS)**: Die Aufgabe beginnt, wenn ihr Vorgänger beendet ist. (Standard)
+* **Start-Start (SS)**: Die Aufgabe beginnt, wenn ihr Vorgänger beginnt.
+* **Beenden-Beenden (FF)**: Die Aufgabe wird beendet, wenn ihr Vorgänger abgeschlossen ist.
+* **Start-Ende (SF)**: Die Aufgabe wird beendet, wenn ihr Vorgänger beginnt.
+
+Sie können eine Verzögerung (eine Verzögerung) oder einen Lead (eine negative Verzögerung) in Arbeitstagen hinzufügen, mehrere Vorgänger für eine einzelne Aufgabe verketten und auf eine Aufgabe in einem anderen Projekt verweisen.
+
+Beispiel-Eingabeaufforderungen:
+
+* „Make *Development* start after *Design* findes.“
+* „Legen Sie *QA* so fest, dass *Development* mit einer Verzögerung von zwei Tagen beginnt.“
+* „Fügen Sie #3 und #5 als Vorgänger von &quot;*&quot;*.“
 
 ### Kommentare
 
