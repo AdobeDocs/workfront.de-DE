@@ -83,7 +83,7 @@ Regeln:
 >Production for everyone: {Month Day, Year}
 ```
 
-5. **Hauptteil**: Funktionsbeschreibung und dann Link zur Hilfedokumentation
+&#x200B;5. **Hauptteil**: Funktionsbeschreibung und dann Link zur Hilfedokumentation
 
 #### Übersichtsseiten
 
@@ -100,10 +100,10 @@ Regeln:
 * [Document enhancements](#document-enhancements)
 ```
 
-5. **H3 pro Produktbereich** mit HTML-Funktionstabelle (siehe .claude/commands/_release-notes-formatter-reference.md#overview-feature-table)
+&#x200B;5. **H3 pro Produktbereich** mit HTML-Funktionstabelle (siehe .claude/commands/_release-notes-formatter-reference.md#overview-feature-table)
    - Innerhalb jeder Tabelle **Neueste Funktionen zuerst** - die neueste Zeile wird oben in der Tabelle angezeigt (nach der Kopfzeile)
 
-6. **Nachfolgende Abschnitte** (H2): Versionshinweise für andere Bereiche, Desktop Proofing Viewer-Updates, Ankündigungen, API-Version, Wartungs-Updates, Schulungs-Updates
+&#x200B;6. **Nachfolgende Abschnitte** (H2): Versionshinweise für andere Bereiche, Desktop Proofing Viewer-Updates, Ankündigungen, API-Version, Wartungs-Updates, Schulungs-Updates
 
 ### Schritt 3: Validieren von Links
 
@@ -194,12 +194,14 @@ Häufige Fehler, die zu vermeiden sind:
 - Es wird vergessen, das neue Quartal auch zur Registerkartenliste des aktuellen Jahres hinzuzufügen.
 
 &lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; Upstream aktualisiert
+
 ### Schritt 8: Aktualisieren der Indexseite für Produktversionen
 =======
+
 ### Schritt 9: Aktualisieren der Indexseite für Produktversionen
->>>>>>>>>>Gestaffelte Änderungen
+&#x200B;>>>>>>>>>>Gestaffelte Änderungen
 > 
-Wenn Sie eine **Übersichtsseite eines neuen Quartals“ erstellen** aktualisieren Sie `help/quicksilver/product-announcements/product-releases/product-releases.md` ebenfalls mit derselben Änderung:
+>Wenn Sie eine **Übersichtsseite eines neuen Quartals“ erstellen** aktualisieren Sie `help/quicksilver/product-announcements/product-releases/product-releases.md` ebenfalls mit derselben Änderung:
 
 - Den `<p>Releases in {year}</p>` Block für das aktuelle Jahr finden Sie in der Spalte &quot;Workfront-Versionen“.
 - Fügen Sie oben **der Liste** Jahres eine neue `<li>` hinzu, die mit der Übersichtsseite des neuen Quartals verknüpft ist, und zwar im selben Format wie die vorhandenen Einträge:
