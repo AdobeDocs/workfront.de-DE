@@ -5,9 +5,9 @@ title: Adobe Workfront MCP-Server-Tools
 description: Referenzliste der über den Adobe Workfront MCP-Server verfügbaren Tools, gruppiert nach Workfront-Bereich.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: bea4b02589b7b4d88c86246ce489155e5921a508
+source-git-commit: bce4c4abfb75937424ff12271d85758e007bff6b
 workflow-type: tm+mt
-source-wordcount: '2633'
+source-wordcount: '2581'
 ht-degree: 5%
 
 ---
@@ -48,10 +48,10 @@ Wenn die KI-Agentenplattform Workfront-Elemente finden, diese jedoch nicht erste
 | --- | --- | --- | --- |
 | Dokumentversion nach Namen suchen | `approvals_find_document_version_by_name` | Sucht die aktuelle Versions-ID eines Dokuments nach Dateinamen. Unterstützt Teilübereinstimmungen. | Lesen |
 | Dokument nach Versions-ID abrufen | `approvals_get_document_by_version_id` | Ruft Dokumentdetails (Name, Größe, Upload-Datum, Uploader) für eine bekannte Dokumentversions-ID ab. | Lesen |
-| Dokumente nach Projekt abrufen | `approvals_get_documents_by_project` | Listet Dokumente innerhalb eines Workfront-Projekts mit der aktuellen Versions-ID jedes Dokuments auf. | Lesen |
 | Dokumentbereich auflösen | `approvals_resolve_document_scope` | Erweitert ein Projekt oder einen Ordner in die Liste der darin enthaltenen Dokumentversions-IDs. Unterstützt Bereiche mit Projekt-, Ordner- und Ordnernamen. | Lesen |
+| Dokumente nach Umfang abrufen | `approvals_get_documents_by_scope` | Dokument in einem Projekt oder Ordner auflisten. | Lesen |
+| Auflisten von mit AEM verknüpften Ordnern* | `approvals_list_aem_linked_folders` | Listet Workfront-Dokumentordner auf, die mit Adobe Experience Manager verknüpft sind. | Lesen |
 | Dokument suchen | `approvals_find_document` | Suchen eines Dokuments nach Dateinamen oder Dokumentversions-ID | Lesen |
-| Dokumente nach Umfang abrufen | approvals_get_documents_by_scope | Dokument in einem Projekt oder Ordner auflisten. | Lesen |
 | Senden von Dokumenten an den AEM-Ordner* | `approvals_send_documents_to_aem_folder` | Verschiebt ein oder mehrere Workfront-Dokumente in einen mit AEM verknüpften Ordner. | Schreiben |
 
 * Für die Verwendung dieser Tools muss in Ihrer Workfront-Instanz eine native [!DNL Adobe Experience Manager]-Integration konfiguriert sein. Weitere Informationen finden Sie unter [Übersicht über Adobe Experience Manager Assets-Integrationen](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
@@ -110,13 +110,8 @@ Wenn die KI-Agentenplattform Workfront-Elemente finden, diese jedoch nicht erste
 
 | Titel | Tool-Name | Funktion | Aktion |
 | --- | --- | --- | --- |
-| Aktuellen Benutzer abrufen | `approvals_get_current_user` | Gibt die Workfront-Identität des aufrufenden Benutzers zurück, einschließlich Name, Benutzer-ID, Name des Home-Teams und ID des Home-Teams. | Lesen |
-| Benutzer nach Namen suchen | `approvals_find_user_by_name` | Sucht die ID eines Workfront-Benutzers nach Namen (unscharf oder teilweise Übereinstimmung). Gibt Namen, ID, E-Mail, Titel und Avatar-URL zurück. | Lesen |
-| Team nach Namen suchen | `approvals_find_team_by_name` | Sucht die ID eines Workfront-Teams nach Namen (unscharf oder teilweise Übereinstimmung). | Lesen |
 | Projekt nach Namen suchen | `approvals_find_project_by_name` | Sucht Workfront-Projekte nach einer teilweisen Namensübereinstimmung im gesamten System. | Lesen |
 | Projekte nach Besitzer abrufen | `approvals_get_projects_by_owner` | Listet Workfront-Projekte auf, deren Besitzer der aufrufende Benutzer ist. | Lesen |
-| Suchen von Projekten | approvals_find_projects | Suchen Sie nach Workfront-Projekten, die optional nach Namen gefiltert und/oder auf Projekte beschränkt sind, deren Inhaber der aufrufende Benutzer ist. | Lesen |
-
 
 ## Planungstools
 
@@ -299,6 +294,7 @@ Insights-Tools rufen Informationen zu Workfront-Objekten ab.
 | Workfront-Daten suchen | `insights_find_workfront_data` | Workfront-Daten suchen, filtern, zählen, sortieren und aggregieren. Dies ist das wichtigste Abfrage- und Berichts-Tool. | Lesen |
 | Objekt zusammenfassen | `insights_summarize_object` | Abrufen und Zusammenfassen eines einzelnen Workfront-Objekts nach ID. | Lesen |
 | Entitäten auflisten | `insights_list_entities` | Listet alle Workfront-Objekttypen auf, die für Abfragen verfügbar sind. | Lesen |
+| Benutzende suchen | `insights_search_users` | Suchen Sie Personen in Ihrer Workfront-Instanz anhand des Namens. Geben Sie einen vollständigen oder teilweisen Namen ein und kehren Sie zu den oberen übereinstimmenden Benutzern zurück. Dies kann optional auch KI-Collaborator-„Bots“ neben regulären Benutzern enthalten. | Lesen |
 
 
 
