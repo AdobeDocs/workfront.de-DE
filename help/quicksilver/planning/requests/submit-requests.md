@@ -9,21 +9,14 @@ exl-id: 635045c5-17e6-483e-912b-4e9617571137
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/-ksnbkmFi7s42lp3Fnb6uVaO3JCseU48W9VSacVY-GI
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 91e55634e4217b1a7eb8307ce689090ff65fea89
 workflow-type: tm+mt
-source-wordcount: 2778
+source-wordcount: 3070
 ht-degree: 1%
 
 ---
@@ -32,11 +25,11 @@ ht-degree: 1%
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -145,26 +138,21 @@ Folgendes muss vorhanden sein, bevor Sie eine Anfrage an ein Workfront Planning-
 
   Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-<!--
+* Wenn Sie ein Anfrageformular übermitteln, um Datensätze aus einem globalen Datensatztyp zu erstellen, werden die neuen Datensätze je nachdem, von wo aus Sie sie übermitteln, entweder im primären oder im sekundären Datensatztyp gespeichert.
 
-* When you submit a request form to create records from a global record type, the new records are saved either in the primary or the secondary record type, depending on where you submit them from.
+  Je nachdem, welche Umgebung Sie zum Senden von Anfragen und Erstellen von Datensätzen verwenden, gibt es die folgenden Szenarien, wenn Sie Formulare für Anfrageformulare senden, die mit globalen Datensatztypen verknüpft sind:
 
-   Depending on which environment you use to submit requests and create records, the following scenarios exist when you submit forms for request forms associated with global record types: 
-  
-   * In the Production environment:
-   
-      * If you submit a request form associated with a global record type using any method described in this article, the records display in the primary record type's page. 
+  * In der Produktionsumgebung:
 
-   * <span class="preview"> In the Preview environment, the following scenarios exist: </span>
-   
-      * <span class="preview">When you submit a request form from a secondary global record type's page, the record displays in the secondary record type page. Users will also see the new record on the primary record type's page, if they have access to view the secondary workspace. </span>
-      * <span class="preview">When you submit a request form from the primary record type page or using any other method described in this article, the records display in the primary record type page.</span>
-      * <span class="preview">If the **Workspace** field is available in the request form and the user manually chooses a specific workspace to add the record to, the record is saved in that space, regardless of whether the form was selected from the primary or the secondary record type pages.</span>
- 
-   For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). 
+    * Wenn Sie ein Anfrageformular übermitteln, das mit einem globalen Datensatztyp verknüpft ist, und zwar mithilfe einer in diesem Artikel beschriebenen Methode, werden die Datensätze auf der Seite des primären Datensatztyps angezeigt.
 
--->
+  * <span class="preview"> In der Vorschau-Umgebung gibt es die folgenden Szenarien: </span>
 
+    * <span class="preview">Wenn Sie ein Anforderungsformular von der Seite eines sekundären globalen Datensatztyps senden, wird der Datensatz auf der Seite „Sekundärer Datensatztyp“ angezeigt. Benutzer sehen den neuen Datensatz auch auf der Seite des primären Datensatztyps, wenn sie Zugriff zum Anzeigen des sekundären Arbeitsbereichs haben. </span>
+    * <span class="preview">Wenn Sie ein Anfrageformular von der Seite „Primärer Datensatztyp“ aus senden oder eine andere in diesem Artikel beschriebene Methode verwenden, werden die Datensätze auf der Seite „Primärer Datensatztyp“ angezeigt.</span>
+    * <span class="preview">Wenn das Feld **Workspace** im Anfrageformular verfügbar ist und der/die Benutzende manuell einen bestimmten Arbeitsbereich auswählt, dem der Datensatz hinzugefügt werden soll, wird der Datensatz an diesem Ort gespeichert, unabhängig davon, ob das Formular auf der primären oder der sekundären Datensatztypseite ausgewählt wurde.</span>
+
+  Weitere Informationen finden Sie unter [Übersicht über Workspace-Datensatztypen](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 
 <!--
@@ -176,7 +164,7 @@ Not sure how to change the request status, but dev also said: Changing the names
 
 {{step1-to-requests}}
 
-1. Aktivieren Sie **Einstellung**&#x200B;Neues Erlebnis verwenden“ in der rechten oberen Ecke des Bildschirms.
+1. Aktivieren Sie **Einstellung**Neues Erlebnis verwenden“ in der rechten oberen Ecke des Bildschirms.
 Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformulare im Bereich **Anfragen** von Workfront verfügbar.
 
    >[!TIP]
@@ -256,7 +244,7 @@ Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformula
    ![Seite mit Kommentar anfordern](assets/new-request-page-with-comment.png)
 
 1. (Optional) Geben Sie einen Kommentar im Bereich **Kommentare** ein.
-1. (Optional und bedingt) Wenn die Anfrage darauf wartet, genehmigt zu werden, und Sie die Anfrage geöffnet haben, klicken Sie entweder auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/more-menu.png) rechts neben dem Anfragenamen und dann auf **Bearbeiten** oder doppelklicken Sie auf Felder in der Anfrage, um sie zu bearbeiten.
+1. (Optional und bedingt) Wenn die Anfrage darauf wartet, genehmigt zu werden, und Sie die Anfrage geöffnet haben, klicken Sie entweder auf das **Mehr**-Symbol ![Mehr ](assets/more-menu.png) rechts neben dem Anfragenamen und dann auf **Bearbeiten** oder doppelklicken Sie auf Felder in der Anfrage, um sie zu bearbeiten.
 
    >[!NOTE]
    >
@@ -437,7 +425,7 @@ Weitere Informationen finden Sie [Löschen einer gesendeten Anfrage oder eines A
 So löschen Sie eine Planungsanfrage nach dem Öffnen der Anfrage:
 
 1. Öffnen Sie eine Planungsanfrage, indem Sie in der Anfragenliste auf den entsprechenden Namen klicken.
-1. Klicken Sie auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/more-menu.png) rechts neben dem Anfragenamen und klicken Sie dann auf **Löschen**.
+1. Klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/more-menu.png) rechts neben dem Anfragenamen und klicken Sie dann auf **Löschen**.
 1. Klicken Sie **Löschen** im Feld **Dauerhaft löschen** zur Bestätigung.
 
    Die Anfrage wurde gelöscht und kann nicht wiederhergestellt werden.
