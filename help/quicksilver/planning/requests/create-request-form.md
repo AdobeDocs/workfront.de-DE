@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 2968
+source-wordcount: 2990
 ht-degree: 2%
 
 ---
@@ -123,6 +123,10 @@ Informationen zum Senden von Workfront-Planungsanfragen finden Sie unter [Senden
   * Formelfelder, die nicht auf andere Felder oder Berechnungen verweisen, zeigen keine Werte an. Beispiel: Ein Feld mit einer `STRING` Formel zeigt den Wert „K. A.“ an.
   * Formelfelder, die auf Währungsfelder verweisen, zeigen die Werte ohne Berücksichtigung von Wechselkursen an.
   * Die Werte der Absatzfelder zeigen auf dem Anfrageformular den Wert „K. A.“ an und auf der Seite mit den Anfragedetails werden HTML-Tags anstelle des formatierten Texts angezeigt.
+
+* Sie können keine Anfrageformulare zu globalen Datensatztypen in ihrem sekundären Arbeitsbereich hinzufügen.
+
+  Weitere Informationen finden Sie unter [Übersicht über Workspace-Datensatztypen](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 ## Anfrageformular erstellen
 

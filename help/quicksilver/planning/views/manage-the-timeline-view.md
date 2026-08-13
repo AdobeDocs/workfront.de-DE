@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 4349
+source-wordcount: 4418
 ht-degree: 3%
 
 ---
@@ -420,7 +420,7 @@ Beachten Sie beim Arbeiten mit Gruppierungen in der Zeitleisten -Ansicht Folgend
 
 * Sie können Gruppierungen sowohl in der Tabellen- als auch in der Zeitleisten-Ansicht anwenden. Die Gruppierungen der Tabellenansicht sind unabhängig von denen in der Zeitleisten -Ansicht desselben Datensatztyps.
 * Sie können in einer Ansicht drei Gruppierungsebenen anwenden. Die Datensätze werden in der Reihenfolge der ausgewählten Gruppierungen gruppiert.
-&lt;!—* Bei Verwendung der API können bis zu 4 Gruppierungsebenen angewendet werden. —Diese werden vorerst überprüft—>
+&lt;!—!—* Bei Verwendung der API können Sie bis zu 4 Gruppierungsebenen anwenden. —Diese wird vorerst überprüft—>
 * Die Gruppierungen sind für die ausgewählte Ansicht eindeutig. Auf zwei Tabellenansichten desselben Datensatztyps können unterschiedliche Gruppierungen angewendet werden. Zwei Benutzende, die dieselbe Tabellenansicht betrachten, sehen dieselbe Gruppierung, die derzeit angewendet wird.
 * Die von Ihnen erstellten Gruppierungen können nicht für eine Tabellenansicht benannt werden.
 * Das Entfernen von Gruppierungen entfernt sie von allen Benutzern, die auf denselben Datensatztyp zugreifen wie Sie und die dieselbe Ansicht anzeigen wie Sie.
@@ -442,6 +442,7 @@ So fügen Sie eine Gruppierung in der Zeitleisten -Ansicht hinzu:
 1. Klicken Sie auf eines der vorgeschlagenen Felder oder klicken Sie auf **Anderes Feld auswählen** und suchen Sie nach einem anderen Feld. Klicken Sie dann auf das Feld, wenn es in der Liste angezeigt wird.
 
    Die Gruppierung wird automatisch auf die Zeitleiste angewendet und die Datensätze werden im Gruppierungsfeld angezeigt.
+1. (Optional) Klicken Sie auf **Bedingung hinzufügen**, um bis zu drei Felder zur Gruppierung hinzuzufügen.
 1. (Optional und bedingt) Wählen Sie je nach Feldtyp, nach dem Sie gruppieren möchten, eine der folgenden Sortieroptionen, um die Gruppierungen entweder in auf- oder absteigender Reihenfolge zu sortieren:
 
    * **A -> Z** oder **Z -> A** für Felder, Textfelder, Absatzfelder, verbundene Datensätze oder Objekte, Personenfelder auswählen
@@ -458,6 +459,7 @@ So fügen Sie eine Gruppierung in der Zeitleisten -Ansicht hinzu:
 
 1. Ziehen Sie **Feld Datensätze gruppieren nach** Gruppierungen in die richtige Reihenfolge.
 
+
 1. Wählen Sie **Bereich** Layout“ des Felds **Datensätze gruppieren nach** eine der folgenden Optionen aus:
 
    * **Gestapelt**: Gruppierungen werden ohne eingefrorene linke Spalte angezeigt und entsprechen der Breite der Timelines ihrer Elemente.
@@ -466,7 +468,9 @@ So fügen Sie eine Gruppierung in der Zeitleisten -Ansicht hinzu:
    * **Swimlane**: Gruppierungen werden mit einer eingefrorenen linken Kopfzeilenspalte angezeigt, in der die gruppierten Elemente aufgelistet werden und die Gruppierungen der Breite der Zeitleisten-Ansicht entsprechen.
 
      ![Swimlane-Gruppierung in der Zeitleisten-Ansicht](assets/swimlane-grouping-in-timeline-view.png)
-
+   <!--
+    1. <span class="preview">(Optional) Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png)  in the toolbar to open the **Group records by** box, then click **Expand all** to expand all the groupings, or **Collapse all** to collapse all the groupings and manually collapse only the ones you need. </span>
+    -->
 1. (Optional) Klicken Sie innerhalb des **Datensätze gruppieren nach** auf das Symbol **x** rechts neben einem Feld, das für die Gruppierung ausgewählt wurde, um die Gruppierung zu entfernen
 
    ODER

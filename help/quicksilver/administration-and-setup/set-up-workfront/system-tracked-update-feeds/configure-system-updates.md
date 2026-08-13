@@ -21,10 +21,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
 workflow-type: tm+mt
-source-wordcount: 902
-ht-degree: 11%
+source-wordcount: 956
+ht-degree: 10%
 
 ---
 
@@ -190,6 +190,8 @@ Sie können beispielsweise jedes Mal eine Aktualisierung aufzeichnen [!DNL Workf
 
 Die Änderung wird dann als Systemaktualisierung im Bereich [!UICONTROL Updates] für die Aufgabe oder das Problem angezeigt.
 
+Wenn Sie eine Aktion deaktivieren, werden alle zuvor aufgezeichneten Aktualisierungen zu dieser Aktion im Bereich [!UICONTROL Updates] beibehalten, in dem sie aufgezeichnet wurde. [!DNL Workfront] Beendet die Aufzeichnung neuer Aktualisierungen für die deaktivierte Aktion.
+
 In der folgenden Tabelle werden die Aktionen beschrieben, die Sie für Objekte in [!DNL Workfront] nachverfolgen können:
 
 <table style="table-layout:auto"> 
@@ -199,7 +201,7 @@ In der folgenden Tabelle werden die Aktionen beschrieben, die Sie für Objekte i
  <thead> 
   <tr> 
    <th><strong>Aktion</strong> </th> 
-   <th><strong>Objekte</strong> </th> 
+   <th><strong>Objekte, für die die Aktion gilt</strong> </th> 
    <th><strong>Standardstatus</strong> </th> 
   </tr> 
  </thead> 
@@ -268,4 +270,6 @@ So konfigurieren Sie, welche Aktionen Sie verfolgen [!DNL Workfront]:
 1. Aktivieren Sie das Kontrollkästchen einer Aktion, um sie zu aktivieren, oder deaktivieren Sie sie, um sie zu deaktivieren.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-   Wenn Sie eine Aktion deaktivieren, werden alle zuvor aufgezeichneten Aktualisierungen zu dieser Aktion im Bereich [!UICONTROL Updates] beibehalten, in dem sie aufgezeichnet wurde. [!DNL Workfront] Beendet die Aufzeichnung neuer Aktualisierungen für die deaktivierte Aktion.
+   <!--<span class="preview">The **Save** button has been removed from the Preview environment and changes are saved automatically. </span>-->
+
+
