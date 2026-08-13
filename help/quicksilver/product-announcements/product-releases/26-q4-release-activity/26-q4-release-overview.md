@@ -4,10 +4,10 @@ description: Diese Seite enthält Informationen zur Funktionalität, die in der 
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: da78c3043f1b168d3e589fe98f67629c063c2715
+source-git-commit: abcd2a6063f9768c160f179a7240cf10a7cc62df
 workflow-type: tm+mt
-source-wordcount: '1388'
-ht-degree: 14%
+source-wordcount: '1435'
+ht-degree: 13%
 
 ---
 
@@ -17,7 +17,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der für Oktober 
 
 Die Verbesserungen auf dieser Seite sind in der Vorschauumgebung verfügbar. Diese Seite wird mit zusätzlichen Verbesserungen aktualisiert, sobald die geplante Produktionsversion der Version für das vierte Quartal 2026 näher rückt.
 
-Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben die neuen Funktionen hervor und bieten detaillierte Informationen. Um sich zu registrieren, besuchen Sie die [Ereignisseite](https://experienceleague.adobe.com/de/events?filters=Workfront) und filtern Sie nach Workfront.
+Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben die neuen Funktionen hervor und bieten detaillierte Informationen. Um sich zu registrieren, besuchen Sie die [Ereignisseite](https://experienceleague.adobe.com/en/events?filters=Workfront) und filtern Sie nach Workfront.
 
 >[!IMPORTANT]
 >
@@ -159,6 +159,15 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             <td><p>13. August 2026</p></td>
             <td><p>13. August 2026</p></td>
             <td><p>13. August 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Senden von Assets an Adobe Experience Manager und Hinzufügen benutzerdefinierter Nachrichten für Genehmigungen mithilfe des Workfront MCP-Servers</a>
+                <p>Mit den neuen MCP Connector-Tools können Sie Dokumente an einen mit AEM verknüpften Ordner senden und die Dokumentgenehmigung mit einer benutzerdefinierten Nachricht anfordern.</p>
+            </td>
+            <td><p>12. August 2026</p></td>
+            <td><p>12. August 2026</p></td>
+            <td><p>12. August 2026</p></td>
         </tr>
         <tr>
             <td>
@@ -375,7 +384,7 @@ Wenn Sie ein Workfront-Administrator mit Data Connect-Readerbenutzern sind, die 
 
 Diese Änderung wurde erstmals in den Workfront-Versionshinweisen vom April 2026 angekündigt, und dies ist die letzte Erinnerung vor Fristablauf. Bitte stellen Sie sicher, dass alle betroffenen Leser-Benutzer die MFA vor dem 8. August 2026 aktivieren, um eine Unterbrechung ihres Zugriffs zu vermeiden.
 
-Weitere Informationen finden Sie unter [Erstellen eines Leserkontos oder einer Verbindung für Snowflake](https://experienceleague.adobe.com/de/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Weitere Informationen finden Sie unter [Erstellen eines Leserkontos oder einer Verbindung für Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Updates für Schulungen
 
