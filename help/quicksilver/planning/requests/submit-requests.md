@@ -21,9 +21,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+source-git-commit: 91e55634e4217b1a7eb8307ce689090ff65fea89
 workflow-type: tm+mt
-source-wordcount: 2778
+source-wordcount: 3070
 ht-degree: 1%
 
 ---
@@ -32,11 +32,11 @@ ht-degree: 1%
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -145,26 +145,21 @@ Folgendes muss vorhanden sein, bevor Sie eine Anfrage an ein Workfront Planning-
 
   Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-<!--
+* Wenn Sie ein Anfrageformular übermitteln, um Datensätze aus einem globalen Datensatztyp zu erstellen, werden die neuen Datensätze je nachdem, von wo aus Sie sie übermitteln, entweder im primären oder im sekundären Datensatztyp gespeichert.
 
-* When you submit a request form to create records from a global record type, the new records are saved either in the primary or the secondary record type, depending on where you submit them from.
+  Je nachdem, welche Umgebung Sie zum Senden von Anfragen und Erstellen von Datensätzen verwenden, gibt es die folgenden Szenarien, wenn Sie Formulare für Anfrageformulare senden, die mit globalen Datensatztypen verknüpft sind:
 
-   Depending on which environment you use to submit requests and create records, the following scenarios exist when you submit forms for request forms associated with global record types: 
-  
-   * In the Production environment:
-   
-      * If you submit a request form associated with a global record type using any method described in this article, the records display in the primary record type's page. 
+  * In der Produktionsumgebung:
 
-   * <span class="preview"> In the Preview environment, the following scenarios exist: </span>
-   
-      * <span class="preview">When you submit a request form from a secondary global record type's page, the record displays in the secondary record type page. Users will also see the new record on the primary record type's page, if they have access to view the secondary workspace. </span>
-      * <span class="preview">When you submit a request form from the primary record type page or using any other method described in this article, the records display in the primary record type page.</span>
-      * <span class="preview">If the **Workspace** field is available in the request form and the user manually chooses a specific workspace to add the record to, the record is saved in that space, regardless of whether the form was selected from the primary or the secondary record type pages.</span>
- 
-   For more information, see [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md). 
+    * Wenn Sie ein Anfrageformular übermitteln, das mit einem globalen Datensatztyp verknüpft ist, und zwar mithilfe einer in diesem Artikel beschriebenen Methode, werden die Datensätze auf der Seite des primären Datensatztyps angezeigt.
 
--->
+  * <span class="preview"> In der Vorschau-Umgebung gibt es die folgenden Szenarien: </span>
 
+    * <span class="preview">Wenn Sie ein Anforderungsformular von der Seite eines sekundären globalen Datensatztyps senden, wird der Datensatz auf der Seite „Sekundärer Datensatztyp“ angezeigt. Benutzer sehen den neuen Datensatz auch auf der Seite des primären Datensatztyps, wenn sie Zugriff zum Anzeigen des sekundären Arbeitsbereichs haben. </span>
+    * <span class="preview">Wenn Sie ein Anfrageformular von der Seite „Primärer Datensatztyp“ aus senden oder eine andere in diesem Artikel beschriebene Methode verwenden, werden die Datensätze auf der Seite „Primärer Datensatztyp“ angezeigt.</span>
+    * <span class="preview">Wenn das Feld **Workspace** im Anfrageformular verfügbar ist und der/die Benutzende manuell einen bestimmten Arbeitsbereich auswählt, dem der Datensatz hinzugefügt werden soll, wird der Datensatz an diesem Ort gespeichert, unabhängig davon, ob das Formular auf der primären oder der sekundären Datensatztypseite ausgewählt wurde.</span>
+
+  Weitere Informationen finden Sie unter [Übersicht über Workspace-Datensatztypen](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
 
 <!--

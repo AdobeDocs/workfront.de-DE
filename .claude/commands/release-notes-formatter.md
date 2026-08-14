@@ -1,9 +1,9 @@
 ---
 name: release-notes-formatter
 description: Formatieren und validieren Sie die Versionshinweise zu Workfront, um Konsistenz, korrekte Struktur und ordnungsgemäße Verknüpfung zu gewährleisten. Wird nur für Versionshinweise in Produktversionsverzeichnissen verwendet oder wenn der Benutzer Versionshinweise, Produktversionen oder vierteljährliche Versionen erwähnt. Gilt nicht für Artikel mit Anleitungen oder allgemeine Dokumentationen.
-source-git-commit: fa39320af72acf6d2ceaf201480baf78a07ae76e
+source-git-commit: dac869369d6d9ef32741aa0972ccf9cb25b2633c
 workflow-type: tm+mt
-source-wordcount: '1729'
+source-wordcount: '2183'
 ht-degree: 2%
 
 ---
@@ -135,7 +135,24 @@ Wenden Sie diese Korrekturen bei der Formatierung an:
 | HTML in den Produktbereichsseiten | Als Markdown beibehalten (HTML dient nur zur Tabellenübersicht) |
 | Fehlende `exl-id` | Lassen Sie es weg - erzeugen Sie keine |
 
-### Schritt 6: Inhaltsverzeichnis aktualisieren
+### Schritt 6: Übersichtsseite synchronisieren
+
+Wenn Sie einer Produktbereichsseite eine **neue Funktion** hinzufügen, fügen Sie bei derselben Änderung eine entsprechende Zeile in der `{YY}-q{N}-release-overview.md` dieses Quartals hinzu oder aktualisieren Sie diese. Eine Funktion, die nur auf der Seite „Produktbereich“ und nicht in der Übersichtstabelle vorhanden ist, ist im Index der Versionsübersicht unsichtbar.
+
+- Suchen Sie den Abschnitt H3 für diesen Produktbereich (z. B. `### Reporting enhancements`) und fügen Sie eine neue `<tr>` Zeile **oben** der Tabelle (nach der Kopfzeile) hinzu, die dem vorhandenen Zeilenformat entspricht (siehe .claude/commands/_release-notes-formatter-reference.md#overview-feature-table).
+- Die Daten in dieser Zeile müssen mit dem `>[!NOTE]` auf der Produktbereichsseite für diese Funktion übereinstimmen (Schritt 4).
+- Wenn eine Funktion in einen anderen Produktbereich umkategorisiert wird (z. B. von „Reporting“ zu „Administrator“ verschoben wird), verschieben Sie ihre Zeile in den Abschnitt H3 des neuen Bereichs - lassen Sie im alten keine veraltete Kopie zurück.
+- Funktionen, die nur die Planung betreffen, werden nicht zu den Übersichtstabellen hinzugefügt - Planning verfügt über eine eigene Seite mit Versionsaktivitäten, die einmal unter „Versionshinweise für andere Bereiche“ verknüpft ist (dort ist keine Zeile pro Funktion erforderlich).
+
+Berühren Sie die Übersichtsseite nicht, wenn eine Funktion dort bereits eine Zeile hat und ihr Inhalt/ihre Daten nicht geändert wurden.
+
+Häufige Fehler, die zu vermeiden sind:
+
+- Hinzufügen des H2 einer Funktion zu einer Produktbereichsseite, ohne die entsprechende Zeile zur Übersichtstabelle hinzuzufügen.
+- Eine veraltete Übersichtszeile im alten Produktbereich wird beibehalten, nachdem Inhalte auf die Seite eines anderen Bereichs verschoben wurden.
+- Übersichtszeilendaten, die nicht mit dem `>[!NOTE]` der Produktbereichsseite übereinstimmen.
+
+### Schritt 7: Inhaltsverzeichnis aktualisieren
 
 Wenn Sie eine **neue** Versionshinweisseite (Übersicht oder Produktbereich) erstellen, fügen Sie sie in derselben Änderung zu `help/quicksilver/TOC.md` hinzu. Eine Seite, die nicht im Inhaltsverzeichnis enthalten ist, wird nicht in der veröffentlichten Navigation angezeigt, selbst wenn die Links in der Übersichtstabelle darauf verweisen.
 
@@ -161,7 +178,7 @@ Häufige Fehler, die zu vermeiden sind:
 - Link zur Übersicht eines anderen Quartals von der neuen Produktbereichsseite (Schritt 3).
 - Einfügen der Seiten eines neuen Quartals unter der Überschrift des vorherigen Quartals.
 
-### Schritt 7: Startseite aktualisieren
+### Schritt 8: Startseite aktualisieren
 
 Wenn Sie eine **Übersichtsseite eines neuen Quartals** erstellen (d. h. dies ist die erste Seite eines neuen Quartals, nicht nur eine neue Produktbereichsseite, die zu einem vorhandenen Quartal hinzugefügt wird), aktualisieren Sie `help/quicksilver/home.md` in derselben Änderung:
 
@@ -175,6 +192,33 @@ Häufige Fehler, die zu vermeiden sind:
 
 - Erstellen der Übersichtsseite eines neuen Quartals ohne Aktualisierung der Registerkarte „Neueste Version“ von `home.md` (es verweist weiterhin auf das alte Quartal).
 - Es wird vergessen, das neue Quartal auch zur Registerkartenliste des aktuellen Jahres hinzuzufügen.
+
+&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt; Upstream aktualisiert
+
+### Schritt 8: Aktualisieren der Indexseite für Produktversionen
+=======
+
+### Schritt 9: Aktualisieren der Indexseite für Produktversionen
+&#x200B;>>>>>>>>>>Gestaffelte Änderungen
+> 
+>Wenn Sie eine **Übersichtsseite eines neuen Quartals“ erstellen** aktualisieren Sie `help/quicksilver/product-announcements/product-releases/product-releases.md` ebenfalls mit derselben Änderung:
+
+- Den `<p>Releases in {year}</p>` Block für das aktuelle Jahr finden Sie in der Spalte &quot;Workfront-Versionen“.
+- Fügen Sie oben **der Liste** Jahres eine neue `<li>` hinzu, die mit der Übersichtsseite des neuen Quartals verknüpft ist, und zwar im selben Format wie die vorhandenen Einträge:
+
+  ```html
+  <li><a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md" class="MCXref xref" xrefformat="{para}">Fourth Quarter 2026 release overview</a></li>
+  ```
+
+- Wenn die Seite mit der Aktivität „Planung der Version“ eines neuen Quartals vorhanden ist (`planning-release-activity-{YY}-q{N}.md`), fügen Sie auch oben in der Spalte „Andere Produktversionen“ derselben Zeile eine entsprechende `<li>` hinzu.
+- Wenn das aktuelle Jahr noch keine Zeile enthält (erstes Quartal eines neuen Jahres), fügen Sie nach der vorhandenen Zeilenstruktur eine neue `<tr data-mc-conditions="">` über der Zeile des Vorjahres hinzu.
+
+Berühren Sie `product-releases.md` nicht, wenn Sie nur eine Produktbereichsseite zu einem Quartal hinzufügen, in dem bereits eine Übersichtsseite aufgeführt ist.
+
+Häufige Fehler, die zu vermeiden sind:
+
+- Erstellen der Übersichtsseite eines neuen Quartals ohne Hinzufügen zur `product-releases.md` (auf der Seite werden nur die vorherigen Quartale angezeigt).
+- Hinzufügen des Links Übersicht , aber Vergessen des entsprechenden Links für die Aktivität Planungsversion .
 
 ## Konventionen für die Dateibenennung
 
@@ -247,6 +291,7 @@ Die vierteljährliche Produktionsfreigabe erfolgt normalerweise am Donnerstag de
 - [ ] Funktionen werden als „Newest-First“ sortiert (Produktbereichsseiten und Übersichtstabellen)
 - [ ] Neue Versionshinweise werden in `help/quicksilver/TOC.md` unter dem richtigen Quartal aufgeführt, wobei die Übersicht zuerst und die Produktbereiche in alphabetischer Reihenfolge aufgeführt werden (Sonstige Letzte)
 - [ ] Wenn die Übersichtsseite eines neuen Quartals erstellt wurde, verweisen `help/quicksilver/home.md` Registerkarte „Neueste Version“ und die Registerkarte des aktuellen Jahres darauf
+- [ ] Wenn die Übersichtsseite eines neuen Quartals erstellt wurde, wird `help/quicksilver/product-announcements/product-releases/product-releases.md` oben in der Liste &quot;Workfront-Versionen“ des aktuellen Jahres aufgeführt (plus dem Planungslink, falls vorhanden).
 
 ## Weitere Ressourcen
 

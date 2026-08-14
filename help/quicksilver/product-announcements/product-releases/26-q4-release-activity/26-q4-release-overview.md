@@ -4,10 +4,10 @@ description: Diese Seite enthält Informationen zur Funktionalität, die in der 
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 308cbff62c648ba47a1a714446cffef40e5b4991
+source-git-commit: abcd2a6063f9768c160f179a7240cf10a7cc62df
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 15%
+source-wordcount: '1435'
+ht-degree: 13%
 
 ---
 
@@ -35,54 +35,13 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
 
 ## Adobe Workfront-Verbesserungen
 
-* [KI-Verbesserungen](#ai-enhancements)
 * [Administrator-Verbesserungen](#administrator-enhancements)
+* [KI-Verbesserungen](#ai-enhancements)
 * [Verbesserungen bei Dokumenten](#documents-enhancements)
 * [Verbesserungen bei Projekten](#project-enhancements)
 * [Verbesserungen beim Reporting](#reporting-enhancements)
 * [Verbesserungen beim Ressourcen-Management](#resource-management-enhancements)
 * [Weitere Verbesserungen](#other-enhancements)
-
-### KI-Verbesserungen
-
-<table>
-    <tbody>
-        <tr>
-            <td><strong>Funktion</strong>
-            </td>
-            <td><strong>Vorschau</strong></td>
-            <td><strong>Schnellveröffentlichung</strong></td>
-            <td><strong>Vierteljährlich</strong></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Assign AI Task Collaborators to tasks in Workfront</a>
-                <p>Aufgabenmitarbeiter sind KI-Mitwirkende, die direkt Aufgaben zugewiesen werden können, um Arbeiten auf Aufgabenebene abzuschließen.</p>
-            </td>
-            <td><p>31. Juli 2026</p></td>
-            <td><p>13. August 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Neue Validierungstools im Workfront MCP Connector verfügbar</a>
-                <p>Um die Funktionen des Workfront MCP-Connectors zu erweitern, haben wir neue Tools zur Verwaltung von Genehmigungspfaden hinzugefügt und bestehende Tools erweitert, um parallele Genehmigungspfade zu unterstützen.</p>
-            </td>
-            <td><p>30. Juli 2026</p></td>
-            <td><p>13. August 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Im Workfront MCP-Connector verfügbare Pinnwand-Tools</a>
-                <p>Um die Funktionen des Workfront MCP-Connectors zu erweitern, haben wir Tools zum Arbeiten mit Pinnwänden, Karten, Checklisten-Elementen und Spalten hinzugefügt.</p>
-            </td>
-            <td><p>30. Juli 2026</p></td>
-            <td><p>13. August 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
-        </tr>
-    </tbody>
-</table>
 
 ### Administrator-Verbesserungen
 
@@ -95,7 +54,18 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             <td><strong>Schnellveröffentlichung</strong></td>
             <td><strong>Vierteljährlich</strong></td>
         </tr>
+<!--
         <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Interface improvements to the Actions list</a>
+                <p>The Actions list in the Update Feeds section of the Setup area has an updated look and feel.</p>
+            </td>
+            <td><p>August 13, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+ -->  
+      <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Gruppenadministratoren können Geschäftsprofile verwalten</a>
                 <p>Gruppenadministratoren können jetzt Geschäftsprofile für die von ihnen verwalteten Gruppen erstellen, bearbeiten und löschen, ohne dass sie Systemadministratorzugriff benötigen.</p>
@@ -170,6 +140,65 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
     </tbody>
 </table>
 
+### KI-Verbesserungen
+
+<table>
+    <tbody>
+        <tr>
+            <td><strong>Funktion</strong>
+            </td>
+            <td><strong>Vorschau</strong></td>
+            <td><strong>Schnellveröffentlichung</strong></td>
+            <td><strong>Vierteljährlich</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Im Workfront MCP Connector ist das neue Tool „Benutzer suchen“ verfügbar</a>
+                <p>Mit dem neuen Tool „Benutzer suchen“ können Sie Personen in Ihrer Workfront-Instanz schneller finden. Sechs ältere Such-Tools wurden zugunsten der Suchfunktion und vorhandener Such-/Suchwerkzeuge eingestellt.</p>
+            </td>
+            <td><p>13. August 2026</p></td>
+            <td><p>13. August 2026</p></td>
+            <td><p>13. August 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Senden von Assets an Adobe Experience Manager und Hinzufügen benutzerdefinierter Nachrichten für Genehmigungen mithilfe des Workfront MCP-Servers</a>
+                <p>Mit den neuen MCP Connector-Tools können Sie Dokumente an einen mit AEM verknüpften Ordner senden und die Dokumentgenehmigung mit einer benutzerdefinierten Nachricht anfordern.</p>
+            </td>
+            <td><p>12. August 2026</p></td>
+            <td><p>12. August 2026</p></td>
+            <td><p>12. August 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Assign AI Task Collaborators to tasks in Workfront</a>
+                <p>Aufgabenmitarbeiter sind KI-Mitwirkende, die direkt Aufgaben zugewiesen werden können, um Arbeiten auf Aufgabenebene abzuschließen.</p>
+            </td>
+            <td><p>31. Juli 2026</p></td>
+            <td><p>13. August 2026</p></td>
+            <td><p>15. Oktober 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Neue Validierungstools im Workfront MCP Connector verfügbar</a>
+                <p>Um die Funktionen des Workfront MCP-Connectors zu erweitern, haben wir neue Tools zur Verwaltung von Genehmigungspfaden hinzugefügt und bestehende Tools erweitert, um parallele Genehmigungspfade zu unterstützen.</p>
+            </td>
+            <td><p>30. Juli 2026</p></td>
+            <td><p>13. August 2026</p></td>
+            <td><p>15. Oktober 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">Im Workfront MCP-Connector verfügbare Pinnwand-Tools</a>
+                <p>Um die Funktionen des Workfront MCP-Connectors zu erweitern, haben wir Tools zum Arbeiten mit Pinnwänden, Karten, Checklisten-Elementen und Spalten hinzugefügt.</p>
+            </td>
+            <td><p>30. Juli 2026</p></td>
+            <td><p>13. August 2026</p></td>
+            <td><p>15. Oktober 2026</p></td>
+        </tr>
+    </tbody>
+</table>
+
 ### Verbesserungen bei Dokumenten
 
 <table>
@@ -236,6 +265,26 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             <td><strong>Schnellveröffentlichung</strong></td>
             <td><strong>Vierteljährlich</strong></td>
         </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Erzwingen von Enddaten für terminierte Berichte</a>
+                <p>Terminierte Berichte erfordern jetzt ein Enddatum, um den Versand auf unbestimmte Zeit zu verhindern. Nach Ablauf des Enddatums eines Zeitplans wird er automatisch deaktiviert.</p>
+            </td>
+            <td><p>13. August 2026</p></td>
+            <td><p>17. September 2026</p></td>
+            <td><p>15. Oktober 2026</p></td>
+        </tr>
+<!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Updated column headers for dependent connected record fields</a>
+                <p>Visual improvements have been made to the column headers for a dependent connected record field in the table view.</p>
+            </td>
+            <td><p>August 13, 2026</p></td>
+            <td><p>September 17, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+-->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Native Referenzfelder stehen für Listen und Berichte zur Verfügung</a>
