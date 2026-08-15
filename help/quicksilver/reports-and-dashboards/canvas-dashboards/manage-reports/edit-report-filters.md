@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 53f6405b765424450cf929afc991278625bb33cb
 workflow-type: tm+mt
-source-wordcount: 987
-ht-degree: 48%
+source-wordcount: 1229
+ht-degree: 40%
 
 ---
 
@@ -29,8 +29,8 @@ ht-degree: 48%
 
 >[!IMPORTANT]
 >
->Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) im Artikel Beta-Übersicht für Canvas-Dashboards befolgen.<br>
->Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kundensupport kontaktieren](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) im Artikel Beta-Übersicht für Arbeitsflächen-Dashboards befolgen.<br>
+>Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kontaktieren des Kunden-Supports](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
 >Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
 >
 >* Eigene Schlüssel für Amazon Web Services mitbringen
@@ -190,6 +190,18 @@ Verfügbare Beziehungen für zusätzliche Spalten, Filteroptionen und Gruppierun
 * Phasen der Dokumentgenehmigung > Teilnehmer an der Dokumentgenehmigungsphase
 
 Bei Verwendung einer der oben aufgeführten hierarchischen Beziehungen wird in der Tabelle für jeden untergeordneten Datensatz eine Zeile angezeigt, die mit dem übergeordneten Objekt verbunden ist.
+
+### Ausschließen von persönlichen Projekten, Aufgaben und Bot-Benutzern aus Canvas-Dashboards-Berichten
+
+>[!NOTE]
+>
+>Wenn ein Bericht zu Arbeitsflächen-Dashboards mehr Ergebnisse zurückgibt als erwartet, können im Vergleich zu einem ähnlichen klassischen Bericht standardmäßig persönliche Projekte, persönliche Aufgaben oder Bot-Benutzer einbezogen werden. Fügen Sie eine Filterbedingung hinzu, um sie auszuschließen.
+
+In Projekt- und Aufgabenberichten zu Arbeitsflächen-Dashboards wird der `isPersonal` nicht automatisch angewendet, sodass persönliche Projekte und persönliche Aufgaben standardmäßig in den Ergebnissen enthalten sind. Um sie auszuschließen, fügen Sie eine Filterbedingung wie `isPersonal=false` hinzu.
+
+Gleichermaßen enthalten die Benutzerberichte der Arbeitsflächen-Dashboards standardmäßig alle Benutzer, einschließlich der KI-Mitwirkenden (Bot-Benutzer). Um beide Benutzer auszuschließen, fügen Sie eine Filterbedingung wie `isBot=false` hinzu.
+
+Klassische Projekt- und Aufgabenberichte schließen automatisch persönliche Projekte und persönliche Aufgaben aus, während klassische Benutzerberichte automatisch beide Benutzer ausschließen. Um sie stattdessen in einen klassischen Bericht aufzunehmen, fügen Sie eine Filterbedingung hinzu, z. B. `isPersonal=true` (nur persönliche Elemente) oder `isPersonal_Mod=notnull` (persönliche und nicht persönliche Elemente).
 
 ### Feldoperatoren nach Feldtyp
 
