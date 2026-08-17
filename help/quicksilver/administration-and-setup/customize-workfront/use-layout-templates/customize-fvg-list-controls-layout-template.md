@@ -19,9 +19,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 28369dd0d93b6dfce8ea867087938e0d849cf6f8
+source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
 workflow-type: tm+mt
-source-wordcount: 851
+source-wordcount: 847
 ht-degree: 4%
 
 ---
@@ -81,9 +81,6 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 1. Beginnen Sie mit der Arbeit an einer Layout-Vorlage, wie unter [Erstellen und Verwalten von Layout-Vorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) beschrieben.
 1. Klicken Sie auf den Abwärtspfeil ![Abwärtspfeil](assets/down-arrow-blue.png) unter **Was Benutzer sehen** und klicken Sie dann auf **Listen** im angezeigten Dropdown-Menü.
-
-   ![Anpassen, was Benutzer sehen](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
-
 1. Klicken Sie auf den Abwärtspfeil ![Abwärtspfeil](assets/down-arrow-blue.png) unter **Wählen Sie eine anzupassende Liste aus** und wählen Sie dann den Typ des Workfront-Objekts aus, für das Sie die Listensteuerelemente „Filter“, „Ansicht“ und „Gruppierung“ anpassen möchten.
 
    ![Liste zum Anpassen auswählen](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)

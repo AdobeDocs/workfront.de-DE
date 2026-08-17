@@ -20,7 +20,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
 workflow-type: tm+mt
 source-wordcount: 1056
 ht-degree: 3%
@@ -45,7 +45,7 @@ Arbeitszeittabelle und Stundeneinstellungen steuern, was auf einer Arbeitszeitta
 
 Informationen zum Protokollieren der Zeit auf einer Arbeitszeittabelle finden Sie unter [Zeit protokollieren](../../timesheets/create-and-manage-timesheets/log-time.md).
 
-![Arbeitszeittabellen-Layout](assets/timesheet-layout-unshimmed.png)
+![Arbeitszeittabellen-Layout](assets/timesheet-layout-leftnav-updated.png)
 
 Im Folgenden finden Sie die Bereiche einer Arbeitszeittabelle:
 
@@ -71,8 +71,8 @@ Die Arbeitszeittabellen-Kopfzeile enthält die folgenden Informationen:
 
 * Der Zeitrahmen der Arbeitszeittabelle.
 * Der Bereich Aktionen , der Folgendes umfasst:
-   * Ein Sternsymbol zum Hinzufügen der Arbeitszeittabellen zur Favoritenliste.
-   * Das Symbol Mehr mit der Option Löschen , mit der Sie die Arbeitszeittabelle löschen können.
+  * Ein Sternsymbol zum Hinzufügen der Arbeitszeittabellen zur Favoritenliste.
+  * Das Symbol Mehr mit der Option Löschen , mit der Sie die Arbeitszeittabelle löschen können.
 * Der Name des Besitzers der Arbeitszeittabelle.
 * Die Gesamtstundenzahl für die protokollierten Stunden für Elemente, die in der Arbeitszeittabelle angezeigt werden.
 * Die Anzahl der Überstunden. Dies ist ein manueller Eintrag und er ist nur sichtbar, wenn die Einstellung **Überstunden** in einer Arbeitszeittabelle aktiviert ist. Weitere Informationen finden Sie unter [Arbeitszeittabellen-Informationen bearbeiten](../create-and-manage-timesheets/edit-timesheets.md).

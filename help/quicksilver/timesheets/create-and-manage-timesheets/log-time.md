@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
 workflow-type: tm+mt
-source-wordcount: 4087
+source-wordcount: 4246
 ht-degree: 1%
 
 ---
@@ -125,8 +125,7 @@ So protokollieren Sie die Zeit in einer Arbeitszeittabelle:
 {{step1-click-main-menu}}
 
 1. Klicken Sie [!UICONTROL **Arbeitszeittabellen**]. Ihre aktuelle Arbeitszeittabelle wird standardmäßig angezeigt.
-   ![Arbeitszeittabelle](assets/timesheet-redesigned-nwe.png)
-
+   ![Arbeitszeittabelle](assets/timesheet-layout-leftnav-updated.png)
 
 1. (Optional) Klicken Sie auf das Symbol **Vollbild**, ![](assets/full-screen.png) die Arbeitszeittabelle im Vollbildmodus anzuzeigen, und klicken Sie dann auf das Symbol **exit-full-screen![](assets/exit-full-screen.png), um** Arbeitszeittabelle zurückzukehren.
 
@@ -154,8 +153,8 @@ So protokollieren Sie die Zeit in einer Arbeitszeittabelle:
 1. (Bedingt) Wenn Sie 50 oder mehr Elemente gleichzeitig hinzufügen, wird eine Bestätigungsmeldung mit der Anzahl der zu Ihrer Arbeitszeittabelle hinzugefügten Elemente angezeigt.
 
    Klicken Sie **Alle hinzufügen**, um alle Elemente hinzuzufügen
-ODER
-Klicken Sie auf **Abbrechen**, um das Hinzufügen der ausgewählten Elemente zu stoppen, und dann auf **Abbrechen**, um die Liste der Elemente zu schließen.
+   ODER
+   Klicken Sie auf **Abbrechen**, um das Hinzufügen der ausgewählten Elemente zu stoppen, und dann auf **Abbrechen**, um die Liste der Elemente zu schließen.
 
    Aufgaben und Probleme werden unter dem Namen des Projekts aufgelistet.
 
@@ -288,7 +287,7 @@ Klicken Sie auf **Abbrechen**, um das Hinzufügen der ausgewählten Elemente zu 
 
 1. (Optional) Klicken Sie [!UICONTROL **linken**] auf „Updates“ und fügen Sie dann eine Aktualisierung zur Arbeitszeittabelle hinzu. Weitere Informationen zu Workfront-Updates finden Sie unter [Update-](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   ![enter-an-update-in-resigned-timesheet-left-panel](assets/enter-an-update-in-redesigned-timesheet-left-panel.png)
+   ![enter-an-update-in-resigned-timesheet-left-panel](assets/timesheet-updates-with-all-tab.png)
 
 1. (Optional) Kehren Sie zum Bereich **Arbeitszeittabelle** zurück, um Ihre Arbeitszeittabelle zu schließen oder zu übermitteln.
 
@@ -526,19 +525,19 @@ Je nachdem, welchen Typ von Stundeneinträgen Sie bearbeiten, stehen die folgend
 
 * Wenn Sie projektspezifische Stunden bearbeiten:
 
-   * Die Anzahl der Stunden
-   * Der Stundentyp Sie können den Stundentyp nur in projektspezifische Typen ändern.
-   * Zuweisung des Aufgabengebiets. Sie können die Aufgabenrollenzuweisung nur ändern, wenn sie in „Setup“ aktiviert wurde. Weitere Informationen finden Sie unter [Konfigurieren von Arbeitszeittabellen- und Stundenvoreinstellungen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
-   * Die Beschreibung des Stundeneintrags.
+  * Die Anzahl der Stunden
+  * Der Stundentyp Sie können den Stundentyp nur in projektspezifische Typen ändern.
+  * Zuweisung des Aufgabengebiets. Sie können die Aufgabenrollenzuweisung nur ändern, wenn sie in „Setup“ aktiviert wurde. Weitere Informationen finden Sie unter [Konfigurieren von Arbeitszeittabellen- und Stundenvoreinstellungen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
+  * Die Beschreibung des Stundeneintrags.
 
 
   ![](assets/edit-hour-box-project-hour-type.png)
 
 * Wenn Sie allgemeine Stunden bearbeiten:
 
-   * Die Anzahl der Stunden.
-   * Der Stundentyp Sie können den Stundentyp nur in „Allgemeine Typen“ ändern.
-   * Die Beschreibung des Stundeneintrags.
+  * Die Anzahl der Stunden.
+  * Der Stundentyp Sie können den Stundentyp nur in „Allgemeine Typen“ ändern.
+  * Die Beschreibung des Stundeneintrags.
 
 >[!TIP]
 >
@@ -551,8 +550,8 @@ Je nachdem, welchen Typ von Stundeneinträgen Sie bearbeiten, stehen die folgend
 
 * Beim Massenbearbeiten einer Mischung aus allgemeinen und projektspezifischen Stunden:
 
-   * Die Anzahl der Stunden.
-   * Die Beschreibung des Stundeneintrags.
+  * Die Anzahl der Stunden.
+  * Die Beschreibung des Stundeneintrags.
 
 >[!TIP]
 >
@@ -585,6 +584,6 @@ So bearbeiten Sie Stundentypen in einem Stundenbericht oder einer Stundenliste:
 1. Klicken Sie **Änderungen speichern**.
 
    Die Stundeneintragsinformationen werden aktualisiert.
-Wenn Sie mehr als einen Stundeneintrag ausgewählt und das Feld Stunden geändert haben, wird allen ausgewählten Stundeneinträgen dieselbe Anzahl von Stunden zugewiesen. Die ursprünglichen Stunden werden durch den neuen Wert für alle ausgewählten Stundeneinträge ersetzt.
+   Wenn Sie mehr als einen Stundeneintrag ausgewählt und das Feld Stunden geändert haben, wird allen ausgewählten Stundeneinträgen dieselbe Anzahl von Stunden zugewiesen. Die ursprünglichen Stunden werden durch den neuen Wert für alle ausgewählten Stundeneinträge ersetzt.
 
 
