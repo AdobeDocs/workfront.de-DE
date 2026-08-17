@@ -10,19 +10,14 @@ exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9X3rS1inVMen909T07aYLhn3tD1HiwKvzx-uSu8FVN4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
 workflow-type: tm+mt
-source-wordcount: 4087
+source-wordcount: 4246
 ht-degree: 1%
 
 ---
@@ -79,7 +74,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 * Sie können Zeit für Projekte, Aufgaben oder Probleme protokollieren oder die Zeit direkt in Ihrer Arbeitszeittabelle protokollieren.
 
-  Informationen zum Erstellen von Arbeitszeittabellen finden [&#x200B; unter „Erstellen einer Arbeitszeittabelle für den einmaligen Gebrauch](../../timesheets/create-and-manage-timesheets/create-tmshts.md).
+  Informationen zum Erstellen von Arbeitszeittabellen finden [ unter „Erstellen einer Arbeitszeittabelle für den einmaligen Gebrauch](../../timesheets/create-and-manage-timesheets/create-tmshts.md).
 
 * Alle Zeiteinträge, die über andere Tools als die Arbeitszeittabelle erfasst werden, werden für den entsprechenden Zeitraum in der Arbeitszeittabelle angezeigt.
 * Aufgaben und Probleme in einem Projekt, das nicht aktuell ist, werden nicht vorab in einer Arbeitszeittabelle ausgefüllt.
@@ -125,8 +120,7 @@ So protokollieren Sie die Zeit in einer Arbeitszeittabelle:
 {{step1-click-main-menu}}
 
 1. Klicken Sie [!UICONTROL **Arbeitszeittabellen**]. Ihre aktuelle Arbeitszeittabelle wird standardmäßig angezeigt.
-   ![Arbeitszeittabelle](assets/timesheet-redesigned-nwe.png)
-
+   ![Arbeitszeittabelle](assets/timesheet-layout-leftnav-updated.png)
 
 1. (Optional) Klicken Sie auf das Symbol **Vollbild**, ![](assets/full-screen.png) die Arbeitszeittabelle im Vollbildmodus anzuzeigen, und klicken Sie dann auf das Symbol **exit-full-screen![](assets/exit-full-screen.png), um** Arbeitszeittabelle zurückzukehren.
 
@@ -154,8 +148,8 @@ So protokollieren Sie die Zeit in einer Arbeitszeittabelle:
 1. (Bedingt) Wenn Sie 50 oder mehr Elemente gleichzeitig hinzufügen, wird eine Bestätigungsmeldung mit der Anzahl der zu Ihrer Arbeitszeittabelle hinzugefügten Elemente angezeigt.
 
    Klicken Sie **Alle hinzufügen**, um alle Elemente hinzuzufügen
-ODER
-Klicken Sie auf **Abbrechen**, um das Hinzufügen der ausgewählten Elemente zu stoppen, und dann auf **Abbrechen**, um die Liste der Elemente zu schließen.
+   ODER
+   Klicken Sie auf **Abbrechen**, um das Hinzufügen der ausgewählten Elemente zu stoppen, und dann auf **Abbrechen**, um die Liste der Elemente zu schließen.
 
    Aufgaben und Probleme werden unter dem Namen des Projekts aufgelistet.
 
@@ -165,7 +159,7 @@ Klicken Sie auf **Abbrechen**, um das Hinzufügen der ausgewählten Elemente zu 
 
    <!--(ensure this stays accurate)-->
 
-1. (Optional) Klicken Sie auf **Reduzieren** ![](assets/collapse-icon.png) oder **&#x200B;**&#x200B;Erweitern![](assets/expand-icon.png) neben dem Projektnamen, um die Liste der Aufgaben und Probleme für das Projekt entweder anzuzeigen oder auszublenden.
+1. (Optional) Klicken Sie auf **Reduzieren** ![](assets/collapse-icon.png) oder **** Erweitern![](assets/expand-icon.png) neben dem Projektnamen, um die Liste der Aufgaben und Probleme für das Projekt entweder anzuzeigen oder auszublenden.
 
 
    >[!TIP]
@@ -288,13 +282,13 @@ Klicken Sie auf **Abbrechen**, um das Hinzufügen der ausgewählten Elemente zu 
 
 1. (Optional) Klicken Sie [!UICONTROL **linken**] auf „Updates“ und fügen Sie dann eine Aktualisierung zur Arbeitszeittabelle hinzu. Weitere Informationen zu Workfront-Updates finden Sie unter [Update-](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   ![enter-an-update-in-resigned-timesheet-left-panel](assets/enter-an-update-in-redesigned-timesheet-left-panel.png)
+   ![enter-an-update-in-resigned-timesheet-left-panel](assets/timesheet-updates-with-all-tab.png)
 
 1. (Optional) Kehren Sie zum Bereich **Arbeitszeittabelle** zurück, um Ihre Arbeitszeittabelle zu schließen oder zu übermitteln.
 
    * **Schließen**: Schließen Sie die Arbeitszeittabelle, wenn Sie mit der Aktualisierung fertig sind. Diese Option ist nur verfügbar, wenn die Arbeitszeittabelle keiner genehmigenden Person zugeordnet ist.
 
-   * **Zur Genehmigung einreichen:** Diese Option ist nur verfügbar, wenn auf der Arbeitszeittabelle eine genehmigende Person vorhanden ist. Speichern Sie Ihre Änderungen und senden Sie sie zur Genehmigung. Sie können die Arbeitszeittabelle nach dem Schließen öffnen, indem Sie auf **Rückruf** klicken, falls noch keine Genehmigung erteilt wurde. Weitere Informationen finden Sie unter [Arbeitszeittabelle zur Genehmigung &#x200B;](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md).
+   * **Zur Genehmigung einreichen:** Diese Option ist nur verfügbar, wenn auf der Arbeitszeittabelle eine genehmigende Person vorhanden ist. Speichern Sie Ihre Änderungen und senden Sie sie zur Genehmigung. Sie können die Arbeitszeittabelle nach dem Schließen öffnen, indem Sie auf **Rückruf** klicken, falls noch keine Genehmigung erteilt wurde. Weitere Informationen finden Sie unter [Arbeitszeittabelle zur Genehmigung ](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md).
 
    * **Ablehnen**: Diese Option wird angezeigt, wenn Sie eine Arbeitszeittabelle genehmigen und diese zur Genehmigung eingereicht wurde. Wenn Sie darauf klicken, ändert sich der Status der Arbeitszeittabelle in Abgelehnt und die Arbeitszeittabelle bleibt offen.
 
@@ -322,9 +316,9 @@ Entfernen Sie die Stunden, ersetzen Sie sie durch 0 und drücken Sie dann die Ei
 
    Die Stunden werden entfernt und die Arbeitszeittabelle wird automatisch gespeichert.
 
-Sie können ein Element (Projekt, Aufgabe oder Problem) aus der Arbeitszeittabelle entfernen, indem Sie die Anheftung aufheben, wenn Sie die Zeit dafür noch nicht protokolliert haben und das Element manuell hinzugefügt haben (wie in den Schritten 4-8 im Abschnitt [Zeit in einer Arbeitszeittabelle &#x200B;](#log-time-on-a-timesheet)). <!--ensure this stays accurate-->
+Sie können ein Element (Projekt, Aufgabe oder Problem) aus der Arbeitszeittabelle entfernen, indem Sie die Anheftung aufheben, wenn Sie die Zeit dafür noch nicht protokolliert haben und das Element manuell hinzugefügt haben (wie in den Schritten 4-8 im Abschnitt [Zeit in einer Arbeitszeittabelle ](#log-time-on-a-timesheet)). <!--ensure this stays accurate-->
 
-Sie können Elemente, die in der Arbeitszeittabelle enthalten sind, nicht automatisch gemäß den Arbeitszeittabellen-Voreinstellungen in Ihrem Workfront-System oder Ihrer Gruppe entfernen, die so konfiguriert sind, dass die Arbeitszeittabellen vorab ausgefüllt werden (wie in [Konfigurieren von Arbeitszeittabellen- und &#x200B;](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)). Die Elemente werden nicht mehr vorab in der Arbeitszeittabelle ausgefüllt, wenn die Daten der Elemente außerhalb des Zeitrahmens der Arbeitszeittabelle liegen.
+Sie können Elemente, die in der Arbeitszeittabelle enthalten sind, nicht automatisch gemäß den Arbeitszeittabellen-Voreinstellungen in Ihrem Workfront-System oder Ihrer Gruppe entfernen, die so konfiguriert sind, dass die Arbeitszeittabellen vorab ausgefüllt werden (wie in [Konfigurieren von Arbeitszeittabellen- und ](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)). Die Elemente werden nicht mehr vorab in der Arbeitszeittabelle ausgefüllt, wenn die Daten der Elemente außerhalb des Zeitrahmens der Arbeitszeittabelle liegen.
 
 So entfernen Sie ein Element aus der Arbeitszeittabelle, das manuell hinzugefügt wurde:
 
@@ -402,7 +396,7 @@ Sie können in den folgenden Abschnitten projektspezifische Zeit für ein Projek
 
 Um Zeit im Abschnitt Aktualisierungen eines Projekts, einer Aufgabe oder eines Problems zu erfassen, benötigen Sie Folgendes:
 
-* Der richtige Zugriff und die richtigen Berechtigungen, wie [&#x200B; Abschnitt &quot;](#access-requirements)&quot; in diesem Artikel beschrieben. Wenn Ihre Zugriffsebene „Leicht“ ist und Sie Zeit für ein Projekt protokollieren, müssen Sie auch über Beitragsberechtigungen oder höhere Berechtigungen für das Projekt mit Zugriff auf „Stunden protokollieren“ verfügen. Weitere Informationen zum Gewähren von Berechtigungen für Projekte finden Sie unter [Freigeben eines Projekts](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+* Der richtige Zugriff und die richtigen Berechtigungen, wie [ Abschnitt &quot;](#access-requirements)&quot; in diesem Artikel beschrieben. Wenn Ihre Zugriffsebene „Leicht“ ist und Sie Zeit für ein Projekt protokollieren, müssen Sie auch über Beitragsberechtigungen oder höhere Berechtigungen für das Projekt mit Zugriff auf „Stunden protokollieren“ verfügen. Weitere Informationen zum Gewähren von Berechtigungen für Projekte finden Sie unter [Freigeben eines Projekts](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
 * Ihr Workfront-Administrator muss die Einstellung Zeit direkt in Projekten protokollieren unter [!UICONTROL **Arbeitszeittabelle und Stunden**]> [!UICONTROL **Voreinstellungen**] im Systembereich aktivieren, wenn Sie die Zeit direkt in einem Projekt protokollieren möchten.
 
@@ -460,7 +454,7 @@ So protokollieren Sie die Zeit im Abschnitt Stunden eines Projekts, einer Aufgab
 
    Das **Zeit erfassen** wird angezeigt.
 
-   ![Zeit im Abschnitt Stunden einer Aufgabe &#x200B;](assets/log-time-box-in-hours-section-on-task.png)
+   ![Zeit im Abschnitt Stunden einer Aufgabe ](assets/log-time-box-in-hours-section-on-task.png)
 
 1. Geben Sie die folgenden Informationen an:
 
@@ -526,19 +520,19 @@ Je nachdem, welchen Typ von Stundeneinträgen Sie bearbeiten, stehen die folgend
 
 * Wenn Sie projektspezifische Stunden bearbeiten:
 
-   * Die Anzahl der Stunden
-   * Der Stundentyp Sie können den Stundentyp nur in projektspezifische Typen ändern.
-   * Zuweisung des Aufgabengebiets. Sie können die Aufgabenrollenzuweisung nur ändern, wenn sie in „Setup“ aktiviert wurde. Weitere Informationen finden Sie unter [Konfigurieren von Arbeitszeittabellen- und Stundenvoreinstellungen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
-   * Die Beschreibung des Stundeneintrags.
+  * Die Anzahl der Stunden
+  * Der Stundentyp Sie können den Stundentyp nur in projektspezifische Typen ändern.
+  * Zuweisung des Aufgabengebiets. Sie können die Aufgabenrollenzuweisung nur ändern, wenn sie in „Setup“ aktiviert wurde. Weitere Informationen finden Sie unter [Konfigurieren von Arbeitszeittabellen- und Stundenvoreinstellungen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
+  * Die Beschreibung des Stundeneintrags.
 
 
   ![](assets/edit-hour-box-project-hour-type.png)
 
 * Wenn Sie allgemeine Stunden bearbeiten:
 
-   * Die Anzahl der Stunden.
-   * Der Stundentyp Sie können den Stundentyp nur in „Allgemeine Typen“ ändern.
-   * Die Beschreibung des Stundeneintrags.
+  * Die Anzahl der Stunden.
+  * Der Stundentyp Sie können den Stundentyp nur in „Allgemeine Typen“ ändern.
+  * Die Beschreibung des Stundeneintrags.
 
 >[!TIP]
 >
@@ -551,8 +545,8 @@ Je nachdem, welchen Typ von Stundeneinträgen Sie bearbeiten, stehen die folgend
 
 * Beim Massenbearbeiten einer Mischung aus allgemeinen und projektspezifischen Stunden:
 
-   * Die Anzahl der Stunden.
-   * Die Beschreibung des Stundeneintrags.
+  * Die Anzahl der Stunden.
+  * Die Beschreibung des Stundeneintrags.
 
 >[!TIP]
 >
@@ -585,6 +579,6 @@ So bearbeiten Sie Stundentypen in einem Stundenbericht oder einer Stundenliste:
 1. Klicken Sie **Änderungen speichern**.
 
    Die Stundeneintragsinformationen werden aktualisiert.
-Wenn Sie mehr als einen Stundeneintrag ausgewählt und das Feld Stunden geändert haben, wird allen ausgewählten Stundeneinträgen dieselbe Anzahl von Stunden zugewiesen. Die ursprünglichen Stunden werden durch den neuen Wert für alle ausgewählten Stundeneinträge ersetzt.
+   Wenn Sie mehr als einen Stundeneintrag ausgewählt und das Feld Stunden geändert haben, wird allen ausgewählten Stundeneinträgen dieselbe Anzahl von Stunden zugewiesen. Die ursprünglichen Stunden werden durch den neuen Wert für alle ausgewählten Stundeneinträge ersetzt.
 
 

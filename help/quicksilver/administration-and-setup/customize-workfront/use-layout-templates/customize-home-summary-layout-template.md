@@ -11,16 +11,11 @@ exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/NieBFLmqeOBfaG26ZX6mfBzqJvnB9-x6mYDhX5zCIK8
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 43a7537c3b4e8ce34e57c411cf8c8ae178bb4653
 workflow-type: tm+mt
 source-wordcount: 768
 ht-degree: 8%
@@ -44,7 +39,7 @@ Weitere Informationen über das Bedienfeld Zusammenfassung finden Sie unter [Üb
 
 Informationen zum Erstellen von Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-Vorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
 
-Weitere Informationen zu Layout-Vorlagen für Gruppen finden [&#x200B; unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 Nachdem Sie eine Layout-Vorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die von Ihnen vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layout-Vorlage an Benutzer finden Sie unter [Zuweisen von Benutzern zu einer Layout-Vorlage](../use-layout-templates/assign-users-to-layout-template.md).
 
@@ -86,7 +81,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 1. Klicken Sie in der unten angezeigten Liste auf den Objekttyp, für den Sie das Bedienfeld Zusammenfassung anpassen möchten.
 
-   In der folgenden Tabelle wird erläutert, was Sie für jedes Objekt anpassen können
+   In der folgenden Tabelle wird erläutert, was Sie für jedes Objekt anpassen können:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -96,7 +91,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
       <td role="rowheader">Aufgaben</td> 
       <td> <p>In einer Aufgabenliste wirkt sich diese Einstellung auf das Bedienfeld Zusammenfassung aus, das rechts auf der Seite angezeigt wird, wenn ein(e) Benutzende(r) eine Aufgabe auswählt und dann auf das Symbol Zusammenfassung öffnen <img src="assets/summary-panel-icon.png">.</p>
 
-   <p> <img src="assets/summary-details.jpg"> </p> </td> 
+   <p> <img src="assets/summary-area.png"> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Probleme</td> 
@@ -105,37 +100,9 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
     </tbody> 
    </table>
 
-<!--
-These were removed with the new Home: 
-
-<tr> 
-      <td role="rowheader">Projects</td> 
-      <td><ul><li><p>In Home, when a user clicks a project approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
-      <p><b>IMPORTANT:</b> </p><p>This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
-      </ul> 
-      </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Documents</td> 
-      <td>
-     <ul><li><p>In Home, when a user clicks a document approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
-      <p><b>IMPORTANT:</b> </p><p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
-      </ul>
-      </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Document Versions</td> 
-      <td><ul><li><p>In Home, when a user clicks an approval assigned to them for a particular version of a document, your configuration for this setting affects the area to the right of the approval.</p>
-      <p><p><b>IMPORTANT:</b></p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
-      </ul>
-      </td> 
-     </tr>
-     -->
-
-
->[!IMPORTANT]
->
->Wenn die Zuweisung einer Aufgabe aufgehoben wird, werden die Feldanpassungen für den Benutzer, der der Layout-Vorlage zugewiesen ist, in der Zusammenfassung nicht angezeigt.
+   >[!IMPORTANT]
+   >
+   >Wenn die Zuweisung einer Aufgabe aufgehoben wird, werden die Feldanpassungen für den Benutzer, der der Layout-Vorlage zugewiesen ist, in der Zusammenfassung nicht angezeigt.
 
 1. (Bedingt) Wenn Sie im vorherigen Schritt auf Aufgaben oder Probleme geklickt haben, wählen Sie die Aufgabenkategorie oder das Problem aus, die bzw. das Sie anpassen möchten.
 
@@ -187,3 +154,32 @@ These were removed with the new Home:
    Wenn Sie mit der Anpassung fertig sind, klicken Sie auf **Speichern und schließen**.
 
 Weitere Informationen zu Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+
+
+
+<!--
+These table rows were removed with the new Home: 
+
+<tr> 
+      <td role="rowheader">Projects</td> 
+      <td><ul><li><p>In Home, when a user clicks a project approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><b>IMPORTANT:</b> </p><p>This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
+      </ul> 
+      </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Documents</td> 
+      <td>
+     <ul><li><p>In Home, when a user clicks a document approval assigned to them, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><b>IMPORTANT:</b> </p><p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
+      </ul>
+      </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Document Versions</td> 
+      <td><ul><li><p>In Home, when a user clicks an approval assigned to them for a particular version of a document, your configuration for this setting affects the area to the right of the approval.</p>
+      <p><p><b>IMPORTANT:</b></p> This is a deprecated feature. Any changes you make to this area are related to a feature that Workfront has removed. This option will be removed from Workfront with a later maintenance update.</p></li>
+      </ul>
+      </td> 
+     </tr>
+     -->
