@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 97a09c592cc1e96f21334dc9f1592116ad10f3d2
 workflow-type: tm+mt
-source-wordcount: 849
+source-wordcount: 851
 ht-degree: 5%
 
 ---
@@ -99,7 +99,7 @@ In den folgenden Abschnitten wird gezeigt, wo Sie in Workfront auf den Workload 
 
 1. Klicken Sie **linken Bedienfeld** Workload Balancer“.
 
-   ![Workload Balancer](assets/nwe-balancer-global.png)
+   ![Workload Balancer](assets/wb-in-res-mgmt.png)
 
    Im Workload Balancer werden standardmäßig im Bereich Ressourcen die folgenden Informationen angezeigt:
 
@@ -118,7 +118,7 @@ Die Seite Ihres Home-Teams wird angezeigt.
 
 1. Klicken Sie **linken Bedienfeld** Workload Balancer“.
 
-   ![Workload Balancer für Team](assets/nwe-balancer-team-350x172.png)
+   ![Workload Balancer eines Teams](assets/wb-on-team.png)
 
    Der Workload Balancer eines Teams zeigt standardmäßig die folgenden Informationen an:
 
@@ -138,7 +138,7 @@ Die Seite Ihres Home-Teams wird angezeigt.
 
    Der Workload Balancer für das Projekt wird angezeigt.
 
-   ![Workload-Balancer für das Projekt](assets/nwe-balancer-project-350x152.png)
+   ![Workload-Balancer eines Projekts](assets/wb-on-project.png)
 
    Der Workload Balancer eines Projekts zeigt standardmäßig die folgenden Informationen an:
 
@@ -161,7 +161,7 @@ Alle Anzeigeeinstellungen sind für den Workload-Balancer für einen Benutzer ve
 
    Der Workload-Balancer für den Benutzer wird angezeigt.
 
-   ![Workload-Balancer für einen Benutzer](assets/workload-balancer-user.png)
+   ![Workload-Balancer eines Benutzers](assets/workload-balancer-user.png)
 
    Der Workload-Balancer eines Benutzers zeigt standardmäßig die folgenden Informationen an:
 

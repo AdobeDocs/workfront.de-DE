@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
+source-git-commit: 97a09c592cc1e96f21334dc9f1592116ad10f3d2
 workflow-type: tm+mt
 source-wordcount: 4457
 ht-degree: 2%
@@ -139,7 +139,7 @@ So navigieren Sie im Workload Balancer für mehrere Projekte:
 
 1. Klicken Sie **linken Bedienfeld** Workload Balancer“.
 
-   ![Workload Balancer](assets/nwe-balancer-global.png)
+   ![Workload Balancer](assets/wb-in-res-mgmt.png)
 
    Der Workload Balancer zeigt Arbeitszuweisungsinformationen, die mit der aktuellen Woche beginnen, in den folgenden beiden Bereichen an:
 
@@ -503,7 +503,7 @@ Sie können über Ihr eigenes Benutzerprofil auf den Workload-Balancer zugreifen
 
    Der Workload-Balancer für den Benutzer wird angezeigt.
 
-   ![Workload-Balancer für einen Benutzer](assets/workload-balancer-user.png)
+   ![Workload-Balancer eines Benutzers](assets/workload-balancer-user.png)
 
    Der Workload-Balancer eines Benutzers zeigt standardmäßig die folgenden Informationen an:
 

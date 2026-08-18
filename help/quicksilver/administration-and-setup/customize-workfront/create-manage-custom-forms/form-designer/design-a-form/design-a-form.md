@@ -24,10 +24,10 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
+source-git-commit: ad46ecd012bf3b668396f5d05e2eb96017a43095
 workflow-type: tm+mt
-source-wordcount: 7962
-ht-degree: 77%
+source-wordcount: 8071
+ht-degree: 76%
 
 ---
 
@@ -852,8 +852,6 @@ So fügen Sie eine externe Suche hinzu:
 >* Wartezeit zwischen weiteren Zustellversuchen: 500 ms
 >* Erwartete Antwortstatus: 2xx
 
-
-
 ### Hinzufügen interner Suchfelder
 
 Ein internes Suchfeld ermöglicht es Benutzenden, den Namen eines Objekts einzugeben, das in Workfront vorhanden ist. Eine Liste mit Vorschlägen wird angezeigt, wenn Benutzende mit der Eingabe beginnen. Wenn der Benutzer beispielsweise einen Benutzernamen eingibt, wird eine Liste mit übereinstimmenden Namen angezeigt. Der Feldtyp Interne Suche wird für die folgenden Objekte unterstützt:
@@ -871,6 +869,12 @@ Ein internes Suchfeld ermöglicht es Benutzenden, den Namen eines Objekts einzug
 * Problem
 * Dokument
 * Standort
+
+>[!NOTE]
+>
+>Felder mit automatischer Textvervollständigung können nicht mehr zu benutzerdefinierten Formularen hinzugefügt werden. Sie können eine vorhandene automatische Textvervollständigung in eine interne Suche konvertieren, indem Sie in den Feldoptionen auf der rechten Seite auf die Schaltfläche klicken. Bei der Konvertierung bleiben historische Daten im Feld und werden in Berichten auf die gleiche Weise verwendet.
+> 
+>Beachten Sie außerdem, dass ein Feld mit automatischer Textvervollständigung, das in einem Promotion-Paket für die Umgebung enthalten ist, bei der Promotion automatisch in eine interne Suche konvertiert wird. Weitere Informationen zur Umgebungsförderung finden Sie unter [Übersicht über das Verschieben von Objekten zwischen Workfront-Umgebungen (Umgebungsförderung)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 Hinzufügen einer internen Suche:
 
