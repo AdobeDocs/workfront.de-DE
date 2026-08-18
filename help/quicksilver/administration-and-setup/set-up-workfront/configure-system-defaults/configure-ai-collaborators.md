@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: c4f48ea9c228e815366230643f5335d116c66597
+source-git-commit: 0b1e8b85625d7fd34f64b7c82eb40e1134adfcd6
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1377'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Zu den verfügbaren KI-Typen für Mitwirkende gehören:
 
 * Aufgabenmitarbeiter: Erstellen Sie einen Mitwirkenden mit Copilot oder Writer und weisen Sie dann den Mitwirkenden einer Aufgabe zu, um Arbeiten auf Aufgabenebene abzuschließen.
 
-  Weitere Informationen finden Sie unter [Verwenden von &#x200B;](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
+  Weitere Informationen finden Sie unter [Verwenden von ](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
 
 
 ## Zugriffsanforderungen
@@ -201,5 +201,4 @@ Sie können vorhandene KI-Mitwirkende bearbeiten, kopieren und löschen.
 
 1. Klicken Sie in der linken Navigation auf **KI-Mitwirkende**.
 1. (Bedingt) Um einen Mitarbeiter zu bearbeiten, klicken Sie auf den Namen des Mitarbeiters, den Sie bearbeiten möchten, nehmen Sie im Fenster „Mitarbeiter bearbeiten“ Änderungen vor und klicken Sie auf **Speichern**.
-1. (Bedingt) Um einen Mitwirkenden zu kopieren, klicken Sie auf das Kopiersymbol ![Kopiersymbol](assets/copy-ai-collaborator.png) in der Zeile des KI-Mitwirkenden, die Sie kopieren möchten, klicken Sie auf den Namen der Kopie, nehmen Sie im Fenster Mitwirkende bearbeiten Änderungen vor und klicken Sie auf **Speichern**.
 1. (Bedingt) Um einen Kollaborateur zu löschen, klicken Sie auf das Löschsymbol ![Löschsymbol](assets/delete-collaborator-icon.png) in der Zeile des KI-Mitarbeiters, den Sie löschen möchten, und klicken Sie dann auf **Löschen**.
