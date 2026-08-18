@@ -8,18 +8,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: 1894bbb5ec7f44f93468c202fb9c07fa656a83cf
+source-git-commit: c4f48ea9c228e815366230643f5335d116c66597
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1416'
 ht-degree: 2%
 
 ---
 
 # KI-Mitwirkende konfigurieren
-
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
-
 
 KI-Mitwirkende sind eine Möglichkeit, KI-Agenten in Ihre Projekte und Aufgaben einzubinden. Sie können einen KI-Mitwirkenden konfigurieren und ihn dann wie einen Benutzer zuweisen.
 
@@ -73,24 +69,20 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 * Sie müssen eine Marke in Workfront konfiguriert haben, bevor Sie sie für einen KI-Mitwirkenden vom Typ Prüfer verwenden können.
 
   Anweisungen finden Sie unter [Erstellen und Verwalten von Marken für den Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
-* Um Adobe Brand Intelligence für einen Reviewer AI-Mitwirkenden verwenden zu können, muss Ihr Unternehmen das einheitliche Prüf- und Genehmigungs-Erlebnis in Workfront nutzen. </span>
+* Um Adobe Brand Intelligence für einen Reviewer AI-Mitwirkenden verwenden zu können, muss Ihr Unternehmen das einheitliche Prüf- und Genehmigungs-Erlebnis in Workfront nutzen.
 
-  Weitere Informationen finden Sie unter [Erste Schritte mit der einheitlichen Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md). </span>
-
-<div class="preview">
+  Weitere Informationen finden Sie unter [Erste Schritte mit der einheitlichen Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
 ### Für Aufgaben-Mitwirkende
 
 Sie müssen einen Agenten in Claude, Copilot Studio oder Writer konfigurieren, bevor Sie ihn als Task Collaborator verwenden können.
-
-</div>
 
 ## Erstellen eines neuen KI-Mitarbeiters vom Typ „Prüfer“
 
 Reviewer AI Collaborators können für die Verwendung von Workfront-Marken oder Adobe Brand Intelligence konfiguriert werden.
 
 * **Marken**: Marken werden in Workfront erstellt. Sie können in Workfront Marken erstellen, indem Sie PDF-Dateien mit Ihren Markenrichtlinien hochladen oder manuell Markenelemente eingeben.
-* **Adobe Brand Intelligence**: Wenn ein KI-Mitwirkender ein Asset mit Adobe Brand Intelligence überprüft, können Sie die Kommentare des Reviewers in Frame.io anzeigen.  </span>
+* **Adobe Brand Intelligence**: Wenn ein KI-Mitwirkender ein Asset mit Adobe Brand Intelligence überprüft, können Sie die Kommentare des Reviewers in Frame.io anzeigen.
 
 
 {{step-1-to-setup}}
@@ -102,8 +94,6 @@ Reviewer AI Collaborators können für die Verwendung von Workfront-Marken oder 
 1. Wählen Sie aus, ob der Mitarbeiter eine Marke oder Adobe Brand Intelligence für seine Überprüfungen verwenden soll.
 1. (Bedingt) Wenn der KI-Mitwirkende eine Marke verwenden wird, wählen Sie die Marke und die Markenrichtlinie aus, die er verwenden wird.
 1. Klicken Sie auf **Speichern**.
-
-<div class="preview">
 
 ## Aufgabe „Mitarbeiter“ konfigurieren
 
@@ -202,8 +192,6 @@ Ausführlichere Informationen zum Erstellen von Agenten finden Sie in der [Write
 1. Weisen Sie den Aufgabenmitarbeiter einer Workfront-Aufgabe zu. Der Collaborator beginnt mit der Arbeit, wenn alle Vorgängeraufgaben der Aufgabe abgeschlossen sind.
 
 +++
-
-</div>
 
 ## KI-Mitwirkende verwalten
 

@@ -18,9 +18,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: 7c21ccc7fb345de3d227eb3dcf7f543670f486f8
 workflow-type: tm+mt
-source-wordcount: 1780
+source-wordcount: 1884
 ht-degree: 4%
 
 ---
@@ -180,7 +180,7 @@ Sie müssen in Workfront Planning eine Automatisierung für einen Datensatztyp k
 
    * Ersetzen **Nicht benannte Automatisierung** durch den Text, der auf der Schaltfläche „Automatisierung“ angezeigt werden soll. Benutzer klicken auf diese Schaltfläche, wenn sie die Automatisierung zum Erstellen eines Workfront-Objekts oder eines Planungsdatensatzes verwenden.
    * **Beschreibung**: Fügen Sie eine Beschreibung hinzu, um den Zweck der Automatisierung anzugeben.
-1. Klicken Sie **Speichern**.
+1. Klicken Sie auf **Speichern**.
 Die Seite mit den Automatisierungsdetails wird geöffnet.
 
 1. Wählen Sie auf der Detailseite der Automatisierung im Abschnitt **Trigger eine der folgenden Optionen**:
@@ -212,9 +212,14 @@ Die Seite mit den Automatisierungsdetails wird geöffnet.
 
       ![Trigger zum Ändern des Feldwerts ausgewählt](assets/field-value-change-trigger-selected.png)
 
-      >[!TIP]
+      >[!IMPORTANT]
       >
-      >Der Modifikator in jeder Bedingung ändert sich mit dem ausgewählten Feldtyp.
+      >* Der Modifikator in jeder Bedingung ändert sich mit dem ausgewählten Feldtyp.
+      >* Jede Bedingung kann mehr als einen Filter beisteuern, wenn ein Feld mehrere ausgewählte Werte aufweist. Die Gesamtzahl der Filter in Ihren Bedingungen darf 5 nicht überschreiten und Filtergruppen können nicht verschachtelt werden. Wenn Ihre Konfiguration dieses Limit überschreitet, wird unter den Bedingungen ein Inline-Fehler angezeigt und Sie können die Automatisierung erst speichern, wenn Sie die Anzahl der ausgewählten Optionen oder Bedingungen reduziert haben.
+      >
+      >   Wenn Sie mehr Bedingungen als die Begrenzung benötigen, teilen Sie die Arbeit in zwei separate Automatisierungen auf.
+      >
+      >   Weitere Informationen finden Sie unter [Verwenden von &#x200B;](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups)&quot; in *Ereignisabonnements*.
 
 1. Aktualisieren Sie die folgenden Felder im Abschnitt **Aktionen**: <!--submitted bugs for these fields - see if they need changing here-->
    * **Aktionen**: Wählen Sie die Aktion aus, die Workfront beim Auslösen der Automatisierung ausführen soll. Dies ist ein Pflichtfeld.
