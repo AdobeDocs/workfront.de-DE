@@ -29,7 +29,7 @@ Zu den verfügbaren KI-Typen für Mitwirkende gehören:
 
 * Aufgabenmitarbeiter: Erstellen Sie einen Mitwirkenden mit Copilot oder Writer und weisen Sie dann den Mitwirkenden einer Aufgabe zu, um Arbeiten auf Aufgabenebene abzuschließen.
 
-  Weitere Informationen finden Sie unter [Verwenden von ](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
+  Weitere Informationen finden Sie unter [Verwenden von &#x200B;](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
 
 
 ## Zugriffsanforderungen
