@@ -18,9 +18,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7c21ccc7fb345de3d227eb3dcf7f543670f486f8
+source-git-commit: 13c240ad1b51b30dd410a1bf8f49678375ab2e93
 workflow-type: tm+mt
-source-wordcount: 1884
+source-wordcount: 1900
 ht-degree: 4%
 
 ---
@@ -215,11 +215,11 @@ Die Seite mit den Automatisierungsdetails wird geöffnet.
       >[!IMPORTANT]
       >
       >* Der Modifikator in jeder Bedingung ändert sich mit dem ausgewählten Feldtyp.
-      >* Jede Bedingung kann mehr als einen Filter beisteuern, wenn ein Feld mehrere ausgewählte Werte aufweist. Die Gesamtzahl der Filter in Ihren Bedingungen darf 5 nicht überschreiten und Filtergruppen können nicht verschachtelt werden. Wenn Ihre Konfiguration dieses Limit überschreitet, wird unter den Bedingungen ein Inline-Fehler angezeigt und Sie können die Automatisierung erst speichern, wenn Sie die Anzahl der ausgewählten Optionen oder Bedingungen reduziert haben.
+      >* Jede Bedingung kann auf einen oder mehrere Werte verweisen. Bei allen Bedingungen können Sie maximal fünf Gesamtwerte referenzieren, unabhängig davon, wie viele Bedingungen Sie erstellen. Beispielsweise überschreitet eine Konfiguration mit drei Bedingungen, die zusammen auf 6 Werte verweisen, das Limit. Bedingungen können nicht verschachtelt werden. Wenn Ihre Konfiguration das Limit von 5 Werten überschreitet, wird unter den Bedingungen ein Inline-Fehler angezeigt und Sie können die Automatisierung erst speichern, wenn Sie die Anzahl der referenzierten Werte reduzieren.
       >
       >   Wenn Sie mehr Bedingungen als die Begrenzung benötigen, teilen Sie die Arbeit in zwei separate Automatisierungen auf.
       >
-      >   Weitere Informationen finden Sie unter [Verwenden von &#x200B;](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups)&quot; in *Ereignisabonnements*.
+      >   Weitere Informationen finden Sie unter [Verwenden von Filtergruppen](/help/quicksilver/wf-api/general/event-subs-api.md#using-filter-groups) im Artikel Ereignisabonnements.
 
 1. Aktualisieren Sie die folgenden Felder im Abschnitt **Aktionen**: <!--submitted bugs for these fields - see if they need changing here-->
    * **Aktionen**: Wählen Sie die Aktion aus, die Workfront beim Auslösen der Automatisierung ausführen soll. Dies ist ein Pflichtfeld.

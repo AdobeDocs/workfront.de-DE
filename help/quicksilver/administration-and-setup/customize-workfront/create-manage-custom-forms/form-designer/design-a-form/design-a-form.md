@@ -24,9 +24,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ad46ecd012bf3b668396f5d05e2eb96017a43095
+source-git-commit: f491bb9e116067344d2b397cb4be5181b18e8ab4
 workflow-type: tm+mt
-source-wordcount: 8071
+source-wordcount: 8056
 ht-degree: 76%
 
 ---
@@ -165,11 +165,11 @@ Benutzerdefinierte Formulare sind auf 500 Felder beschränkt. Ein Zähler unten
 
 * Jeder benutzerdefinierte Feld-API-Name muss in der Workfront-Instanz Ihres Unternehmens eindeutig sein. Auf diese Weise können Sie einen bereits für ein anderes benutzerdefiniertes Formular erstellten Namen wiederverwenden.
 
-* Obwohl dies möglich ist, empfehlen wir, diesen API-Namen nicht zu ändern, nachdem Sie oder andere Benutzende mit der Verwendung des benutzerdefinierten Formulars in Workfront begonnen haben. Andernfalls erkennt das System das benutzerdefinierte Feld nicht mehr, wenn in anderen Bereichen von Workfront darauf verwiesen wird.
+* API-Namen sind standardmäßig schreibgeschützt. Obwohl dies möglich ist, empfehlen wir, diesen API-Namen nicht zu ändern, nachdem das benutzerdefinierte Formular in Workfront verwendet wurde. Andernfalls erkennt das System das benutzerdefinierte Feld nicht mehr, wenn in anderen Bereichen von Workfront darauf verwiesen wird.
 
   Wenn Sie beispielsweise ein benutzerdefiniertes Feld zu einem Bericht hinzufügen und später seinen API-Namen ändern, erkennt Workfront es im Bericht nicht und funktioniert dort nicht mehr ordnungsgemäß, es sei denn, Sie fügen es unter dem neuen Namen erneut zum Bericht hinzu.
 
-* API-Namen sind standardmäßig schreibgeschützt. Damit der API-Name bearbeitet werden kann, klicken Sie auf das Symbol **Bearbeiten** neben dem **API-Namen**. Geben Sie **Bestätigen** in das Bestätigungsfeld ein und klicken Sie auf **Feld umbenennen**.
+  Sie können auch vorhandene Integrationen und Berechnungen, die vom API-Namen des Felds abhängen, beschädigen.
 
 * Es wird empfohlen, keinen API-Namen einzugeben, der bereits für integrierte Workfront-Felder verwendet wird.
 
