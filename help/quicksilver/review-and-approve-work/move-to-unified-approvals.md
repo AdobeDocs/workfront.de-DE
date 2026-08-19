@@ -6,7 +6,7 @@ description: Erfahren Sie, was mit Ihren bestehenden Dokumentgenehmigungs-Workfl
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: b612a50b7445732f90b7de2a216f4bca499fd96b
+source-git-commit: 8f3c5ed32c6496a13703a5dce771a84462aa7f05
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 3%
@@ -35,8 +35,6 @@ Der Wechsel zu einer Version von Workfront, die Adobe Cloud Storage unterstützt
 | KI-gestützte Überprüfung | Nicht verfügbar | Automatische Prüfung der Markenkonformität mit [Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md) |
 | Reporting | Legacy-Reporting | Startseite-KPI-Widgets und [Arbeitsflächen-Dashboards](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) |
 
-
-
 ### Was passiert mit bereits laufenden Genehmigungen?
 
 In-Flight-Genehmigungen, die mit Legacy-Dokumentgenehmigungen erstellt wurden, funktionieren weiterhin wie vor dem Upgrade. Neue Genehmigungen, die nach dem Upgrade erstellt werden, verwenden jedoch einheitliche Genehmigungen.
@@ -46,7 +44,7 @@ In-Flight-Genehmigungen, die mit Legacy-Dokumentgenehmigungen erstellt wurden, f
 
 * Teilen Sie den [Erste Schritte mit der einheitlichen Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md) mit Ihren Endbenutzern.
 * Überprüfen Sie Ihre vorhandenen Workfront Fusion-Szenarien. Wenn Sie veraltete Dokumentengenehmigungen mit Proofing verwenden, lesen Sie [Aktualisieren von Workfront Fusion-Szenarien für eine einheitliche Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md) bevor Ihr Unternehmen Upgrades durchführt.
-* Richten Sie in den Arbeitsflächen-Dashboards ein Prüfungs- und Genehmigungs-Dashboard ein, um alte Genehmigungsberichte zu ersetzen. Weitere [&#x200B; finden Sie unter „Erstellen eines Dashboards für &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) und Validierungen“.
+* Richten Sie in den Arbeitsflächen-Dashboards ein Prüfungs- und Genehmigungs-Dashboard ein, um alte Genehmigungsberichte zu ersetzen. Weitere [ finden Sie unter „Erstellen eines Dashboards für ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) und Validierungen“.
 
 
 ### Hilfeartikel für Endbenutzer
