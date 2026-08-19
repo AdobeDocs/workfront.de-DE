@@ -9,17 +9,12 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
 TQID: https://experienceleague.adobe.com/b8KE8bhRtjvjNMP7PITNODthh1ihA-RufLVZZFo427A
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 58d13b171ada1f43efe4bcca0c3847048a32e863
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
 workflow-type: tm+mt
 source-wordcount: 1485
 ht-degree: 3%
@@ -102,14 +97,14 @@ Das System generiert einen Zugriffsebenen-Protokolleintrag, wenn ein Benutzer ei
 * Löscht eine Zugriffsebene
 * Ändert eine Zugriffsebene:
 
-   * Ändert den Lizenztyp
-   * Ändert Berechtigungen für Projekte, Aufgaben, Probleme, Portfolios, Programme, Berichte, Dokumente, Benutzer oder Vorlagen
+  * Ändert den Lizenztyp
+  * Ändert Berechtigungen für Projekte, Aufgaben, Probleme, Portfolios, Programme, Berichte, Dokumente, Benutzer oder Vorlagen
 
-     >[!NOTE]
-     >
-     >Das System zeichnet keine Berechtigungsänderungen an Finanzdaten oder innerhalb der folgenden Zugriffstypen auf: Anzeigen und Bearbeiten.
-     >
-     >Wenn beispielsweise ein(e) Benutzende(r) den Zugriffstyp Planer von Ansicht in Bearbeiten ändert, zeigt das System keine Informationen an, die im Dropdown-Menü Einstellungen optimieren enthalten sind.
+    >[!NOTE]
+    >
+    >Das System zeichnet keine Berechtigungsänderungen an Finanzdaten oder innerhalb der folgenden Zugriffstypen auf: Anzeigen und Bearbeiten.
+    >
+    >Wenn beispielsweise ein(e) Benutzende(r) den Zugriffstyp Planer von Ansicht in Bearbeiten ändert, zeigt das System keine Informationen an, die im Dropdown-Menü Einstellungen optimieren enthalten sind.
 
 ### Unternehmensprofile
 
@@ -121,16 +116,16 @@ Das System generiert einen Eintrag im Administratorprotokoll eines Geschäftspro
 
 ### Geschäftsregeln
 
-Geschäftsregeln sind nur für Kunden verfügbar, die einen Ultimate Workfront-Plan erworben haben. Weitere Informationen finden Sie unter [Erstellen und Bearbeiten von Geschäftsregeln](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+Geschäftsregeln sind nur für Kunden verfügbar, die ein Ultimate Workfront-Paket erworben haben. Weitere Informationen finden Sie unter [Erstellen und Bearbeiten von Geschäftsregeln](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
 
 Das System generiert einen Eintrag im Auditprotokoll für Geschäftsregeln, wenn ein Benutzer eine der folgenden Aktionen ausführt:
 
 * Erstellt eine Geschäftsregel
 * Bearbeitet eine Geschäftsregel:
 
-   * Benennt sie um
-   * Fügt Ausdrücke hinzu oder entfernt sie
-   * Ändert einen Trigger
+  * Benennt sie um
+  * Fügt Ausdrücke hinzu oder entfernt sie
+  * Ändert einen Trigger
 
 * Löscht eine Geschäftsregel
 
@@ -141,13 +136,13 @@ Das System generiert einen Eintrag im Administratorprotokoll eines Unternehmens,
 * Erstellt eine Firma
 * Ändert eine Firma:
 
-   * Benennt sie um
-   * Fügt Mitglieder hinzu oder entfernt sie
-   * Fügt den Wert im Gruppenfeld hinzu, bearbeitet oder löscht ihn.
-   * Fügt einen Firmen-Abrechnungssatz für ein Aufgabengebiet hinzu oder bearbeitet ihn.
-   * Entfernt einen Abrechnungssatz des Unternehmens für ein Aufgabengebiet
-   * Legt sie als primäre Firma für die Organisation fest
-   * Hängt ein benutzerdefiniertes Formular an oder entfernt es
+  * Benennt sie um
+  * Fügt Mitglieder hinzu oder entfernt sie
+  * Fügt den Wert im Gruppenfeld hinzu, bearbeitet oder löscht ihn.
+  * Fügt einen Firmen-Abrechnungssatz für ein Aufgabengebiet hinzu oder bearbeitet ihn.
+  * Entfernt einen Abrechnungssatz des Unternehmens für ein Aufgabengebiet
+  * Legt sie als primäre Firma für die Organisation fest
+  * Hängt ein benutzerdefiniertes Formular an oder entfernt es
 
 * Löscht eine Firma
 
@@ -160,11 +155,11 @@ Das System generiert einen Eintrag im Protokoll „Conditioncodeverwaltung“, w
 * Erstellt eine Bedingung
 * Ändert eine Bedingung:
 
-   * Ändert den Namen
-   * Ändert die Farbe
-   * Legt sie als Standard fest
-   * Ändert oder entfernt die Beschreibung der Bedingung
-   * Blendet die Bedingung aus oder ein
+  * Ändert den Namen
+  * Ändert die Farbe
+  * Legt sie als Standard fest
+  * Ändert oder entfernt die Beschreibung der Bedingung
+  * Blendet die Bedingung aus oder ein
 
 * Löscht eine Bedingung
 
@@ -177,21 +172,21 @@ Das System generiert einen Audit-Protokolleintrag für ein benutzerdefiniertes F
 * Erstellt ein benutzerdefiniertes Feld
 * Ändert ein benutzerdefiniertes Feld:
 
-   * Ändert den API-Namen, die Bezeichnung, die Anweisungen oder das Format
-   * Ändert den Anzeigetyp
+  * Ändert den API-Namen, die Bezeichnung, die Anweisungen oder das Format
+  * Ändert den Anzeigetyp
 
-     Dies ist nur verfügbar, wenn es sich bei dem Feld um einen der folgenden Typen handelt: Einzelzeile, Absatz, Dropdown, Kontrollkästchen, Optionsfeld
+    Dies ist nur verfügbar, wenn es sich bei dem Feld um einen der folgenden Typen handelt: Einzelzeile, Absatz, Dropdown, Kontrollkästchen, Optionsfeld
 
-   * Ändert die Feldgröße
+  * Ändert die Feldgröße
 
-     Dies ist nur verfügbar, wenn es sich bei dem Feld um einen der folgenden Typen handelt: Einzelzeile, Absatz, Rich-Text
+    Dies ist nur verfügbar, wenn es sich bei dem Feld um einen der folgenden Typen handelt: Einzelzeile, Absatz, Rich-Text
 
-   * Fügt Auswahlfelder hinzu, entfernt sie oder blendet sie aus
-   * Bearbeitet eine Feldauswahl für Beschriftung oder Wert
-   * Konfiguriert die Feldauswahl, die standardmäßig ausgewählt oder nicht ausgewählt werden soll
-   * Konfiguriert ein Dropdown-Feld, um mehrere Auswahlmöglichkeiten oder eine einzelne Auswahl zuzulassen.
-   * Konfiguriert ein Datumsfeld, in dem die Tageszeit angezeigt oder nicht angezeigt wird
-   * Bearbeitet den Hyperlink oder ändert den Wert in einem beschreibenden Textfeld
+  * Fügt Auswahlfelder hinzu, entfernt sie oder blendet sie aus
+  * Bearbeitet eine Feldauswahl für Beschriftung oder Wert
+  * Konfiguriert die Feldauswahl, die standardmäßig ausgewählt oder nicht ausgewählt werden soll
+  * Konfiguriert ein Dropdown-Feld, um mehrere Auswahlmöglichkeiten oder eine einzelne Auswahl zuzulassen.
+  * Konfiguriert ein Datumsfeld, in dem die Tageszeit angezeigt oder nicht angezeigt wird
+  * Bearbeitet den Hyperlink oder ändert den Wert in einem beschreibenden Textfeld
 
 * Löscht ein benutzerdefiniertes Feld
 * Gibt ein benutzerdefiniertes Feld frei
@@ -203,17 +198,17 @@ Das System generiert einen benutzerdefinierten Forms-Administratorprotokolleintr
 * Erstellt ein benutzerdefiniertes Formular
 * Ändert ein benutzerdefiniertes Formular:
 
-   * Ändert den Namen oder die Beschreibung
-   * Aktiviert oder deaktiviert ist aktiv
-   * Fügt ein Feld oder einen Abschnitt hinzu oder entfernt es.
-   * Für einen benutzerdefinierten Abschnitt ändert eine Einstellung unter „Zusätzliche Einstellungen“
-   * Ändert ein Feld in „erforderlich“ oder „nicht erforderlich“
-   * Ändert eine Berechnung in einem benutzerdefinierten Feld
-   * Blendet die Formel aus oder ein, die einem berechneten Feld im Hover-Text der Anweisungen zugeordnet ist
-   * Aktiviert oder deaktiviert vorherige Berechnungen aktualisieren
-   * Fügt Feldlogik hinzu oder ändert sie
+  * Ändert den Namen oder die Beschreibung
+  * Aktiviert oder deaktiviert ist aktiv
+  * Fügt ein Feld oder einen Abschnitt hinzu oder entfernt es.
+  * Für einen benutzerdefinierten Abschnitt ändert eine Einstellung unter „Zusätzliche Einstellungen“
+  * Ändert ein Feld in „erforderlich“ oder „nicht erforderlich“
+  * Ändert eine Berechnung in einem benutzerdefinierten Feld
+  * Blendet die Formel aus oder ein, die einem berechneten Feld im Hover-Text der Anweisungen zugeordnet ist
+  * Aktiviert oder deaktiviert vorherige Berechnungen aktualisieren
+  * Fügt Feldlogik hinzu oder ändert sie
 
-     <!--   
+    <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>Adds or changes a filter for a typeahead field</p></li>   
      -->
 
@@ -237,9 +232,9 @@ Das System generiert einen Wechselkurs-Auditprotokolleintrag, wenn ein Benutzer 
 * Erstellt einen Wechselkurs
 * Wechselkursänderungen:
 
-   * Fügt eine Währung hinzu
-   * Ändert den Kurs der Währung
-   * Legt die Währung als Basiswährung (Standard) für alle Projekte und Berichte im System fest
+  * Fügt eine Währung hinzu
+  * Ändert den Kurs der Währung
+  * Legt die Währung als Basiswährung (Standard) für alle Projekte und Berichte im System fest
 
 * Löscht einen Wechselkurs
 
@@ -253,8 +248,8 @@ Das System generiert einen Eintrag im Administratorprotokoll für eine Gruppe, w
 * Löscht eine Gruppe
 * Ändert eine Gruppe:
 
-   * Fügt Benutzer hinzu oder entfernt sie
-   * Fügt Untergruppen hinzu oder entfernt sie
+  * Fügt Benutzer hinzu oder entfernt sie
+  * Fügt Untergruppen hinzu oder entfernt sie
 
 ### Aufgabengebiete {#job-role}
 
@@ -263,10 +258,10 @@ Das System generiert einen Eintrag im Administratorprotokoll für Aufgabengebiet
 * Erstellt ein Aufgabengebiet
 * Ändert ein Aufgabengebiet:
 
-   * Ändert den Namen
-   * Fügt die Beschreibung hinzu, ändert sie oder entfernt sie
-   * Fügt die Kosten pro Stunde (Kosten/Stunde) hinzu, ändert sie oder entfernt sie.
-   * Fügt den Abrechnungssatz (Rechnung/Std.) hinzu, ändert ihn oder entfernt ihn.
+  * Ändert den Namen
+  * Fügt die Beschreibung hinzu, ändert sie oder entfernt sie
+  * Fügt die Kosten pro Stunde (Kosten/Stunde) hinzu, ändert sie oder entfernt sie.
+  * Fügt den Abrechnungssatz (Rechnung/Std.) hinzu, ändert ihn oder entfernt ihn.
 
 * Löscht ein Aufgabengebiet
 
@@ -299,11 +294,11 @@ Das System generiert einen Eintrag im Auditprotokoll „Priorität“, wenn ein 
 * Erstellt eine Priorität
 * Ändert eine Priorität:
 
-   * Ändert den Namen
-   * Ändert die Farbe
-   * Legt sie als Standard fest
-   * Fügt die Beschreibung der Priorität hinzu, ändert sie oder entfernt sie
-   * Blendet die Priorität aus oder ein
+  * Ändert den Namen
+  * Ändert die Farbe
+  * Legt sie als Standard fest
+  * Fügt die Beschreibung der Priorität hinzu, ändert sie oder entfernt sie
+  * Blendet die Priorität aus oder ein
 
 * Löscht eine Priorität
 
@@ -316,10 +311,10 @@ Das System generiert einen Projektvoreinstellungs-Auditprotokolleintrag, wenn ei
 * Erstellt ein benutzerdefiniertes Quartal
 * Ändert eine Projektvoreinstellung:
 
-   * Sperrt oder entsperrt sie
-   * Ändert eine der Einstellungen
-   * Aktiviert, deaktiviert oder bearbeitet es
-   * Bearbeitet eine Zeitleistenberechnung
+  * Sperrt oder entsperrt sie
+  * Ändert eine der Einstellungen
+  * Aktiviert, deaktiviert oder bearbeitet es
+  * Bearbeitet eine Zeitleistenberechnung
 
 * Löscht ein benutzerdefiniertes Quartal
 
@@ -332,11 +327,11 @@ Das System generiert einen Protokolleintrag für den Schweregrad , wenn ein Benu
 * Erstellt einen Problemschweregrad
 * Ändert einen Problemschweregrad:
 
-   * Ändert den Namen
-   * Ändert die Farbe
-   * Legt sie als Standard fest
-   * Ändert oder entfernt die Beschreibung des Schweregrads.
-   * Blendet den Schweregrad aus oder ein
+  * Ändert den Namen
+  * Ändert die Farbe
+  * Legt sie als Standard fest
+  * Ändert oder entfernt die Beschreibung des Schweregrads.
+  * Blendet den Schweregrad aus oder ein
 
 * Löscht einen Problemschweregrad
 
@@ -349,11 +344,11 @@ Das System generiert einen Status-Audit-Protokolleintrag, wenn ein Benutzer eine
 * Erstellt einen Status auf System- oder Gruppenebene
 * Ändert einen Status auf System- oder Gruppenebene:
 
-   * Benennt sie um
-   * Legt den Status als Standard fest
-   * Sperrt oder entsperrt sie
-   * Blendet es aus oder ein
-   * Ändert die Farbe oder Beschreibung
+  * Benennt sie um
+  * Legt den Status als Standard fest
+  * Sperrt oder entsperrt sie
+  * Blendet es aus oder ein
+  * Ändert die Farbe oder Beschreibung
 
 * Löscht einen Status auf System- oder Gruppenebene
 
