@@ -6,10 +6,10 @@ description: Planen Sie den Rollout von Workfront auf dem Adobe Cloud-Speicher. 
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 36a4c29fb3d5e3ff3bb3b4952076cdd4bdf5d1d6
+source-git-commit: 719cce365a8279b46c849b92f0cd31c6bc4021a8
 workflow-type: tm+mt
-source-wordcount: '2936'
-ht-degree: 1%
+source-wordcount: '2966'
+ht-degree: 0%
 
 ---
 
@@ -38,12 +38,13 @@ Durch den Wechsel zu einer Version von Workfront, die den Adobe-Cloud-Speicher u
 
 Stellen Sie vor dem Rollout des Adobe-Cloud-Speichers sicher, dass die Personen, die die Genehmigungen verwalten, wissen, was zu erwarten ist:
 
+* **Was geschieht mit vorhandenen Genehmigungen** Bestehende alte Genehmigungs-Workflows sind von dieser Änderung betroffen, unabhängig davon, ob sie in Bearbeitung oder abgeschlossen ist. Weitere Informationen finden Sie unter [Von alten Dokumentengenehmigungen zu einheitlichen Genehmigungen ](/help/quicksilver/review-and-approve-work/move-to-unified-approvals.md).
 * **Ein neues Genehmigungserlebnis** Prüfende und genehmigende Personen wechseln vom alten Dokumentengenehmigungsverfahren zu einheitlichen Genehmigungen, die mehrstufige Genehmigungen, parallele Prüfpfade und mehr hinzufügen. Weitere Informationen finden Sie in den folgenden Artikeln:
 
   * [Erste Schritte mit der einheitlichen Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md)
   * [Verfügbare Funktionen für Dokumentgenehmigungen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
 * **Ein neuer Berichtsspeicherort** Einheitliche Validierungs-Workflow-Daten und -Berichte werden in Arbeitsflächen-Dashboards verschoben. Vorhandene alte Genehmigungsberichte werden nicht automatisch übernommen. Weitere Informationen finden Sie unter [Erstellen eines Berichts-Dashboards zur Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
-* **Mögliche Aktualisierungen des Fusionsszenarios** Vorhandene Fusionsszenarios, die auf älteren Dokumentgenehmigungen basieren, müssen möglicherweise bearbeitet, neu erstellt oder eingestellt werden, um mit einheitlichen Genehmigungen arbeiten zu können. Weitere Informationen finden Sie unter [&#x200B; von Workfront Fusion-Szenarien für eine einheitliche Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md).
+* **Mögliche Aktualisierungen des Fusionsszenarios** Vorhandene Fusionsszenarios, die auf älteren Dokumentgenehmigungen basieren, müssen möglicherweise bearbeitet, neu erstellt oder eingestellt werden, um mit einheitlichen Genehmigungen arbeiten zu können. Weitere Informationen finden Sie unter [ von Workfront Fusion-Szenarien für eine einheitliche Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/fusion-remediation-for-unified-approvals.md).
 
 ## Legacy-Workfront-Speicher und Adobe-Cloud-Speicher
 
@@ -191,7 +192,7 @@ Ein Workfront-Administrator kann im Bereich „Setup“ ein veraltetes Workfront
   >
   >Ein untergeordnetes Legacy-Programm kann nur dann automatisch in den Adobe-Cloud-Speicher konvertiert werden, wenn ihm manuell ein Adobe-Cloud-Speicherprojekt hinzugefügt wird.
 
-Weitere Informationen finden Sie unter [Ältere Portfolios in Adobe Cloud-Speicher &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md).
+Weitere Informationen finden Sie unter [Ältere Portfolios in Adobe Cloud-Speicher ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md).
 
 #### Erstellen eines Adobe-Cloud-Speicherprojekts aus einer Legacy-Vorlage
 
