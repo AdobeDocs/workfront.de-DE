@@ -4,9 +4,9 @@ content-type: reference
 description: Erfahren Sie, wie Sie Aufgabenkollaboratoren verwenden, KI-Collaboratoren, die Workfront-Aufgaben zugewiesen werden können.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: 73ca5de2dbc9ef698d3c8fa3098b783168c1c6b2
+source-git-commit: d56556791fad5d909a2878c42110fb552b719e2f
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '1027'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 Aufgabenmitarbeiter sind KI-Mitwirkende, die zusätzlich zu dem bestehenden KI-Mitwirkenden des Typs „Prüfer“, der für Dokument- und Asset-Überprüfungen verwendet wird, direkt Workfront-Aufgaben zugewiesen werden können. Wie andere KI-Mitwirkende werden die Aufgaben-Mitwirkenden im Bereich „Setup“ konfiguriert und Aufgaben wie Benutzenden zugewiesen.
 
-Die Mitarbeiter von Aufgaben stellen eine Verbindung zu den von Ihnen konfigurierten Agenten her, ähnlich wie bei einem MCP-Server.
+Aufgabenmitarbeiter stellen eine Verbindung zu Agenten her, die Sie in Copilot Studio, Claude oder Writer konfiguriert haben.
 
 Informationen und Anweisungen zum Erstellen eines Task Collaborators in Workfront finden Sie unter [Konfigurieren eines Task Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) im Artikel Konfigurieren von KI-Collaboratoren.
 
@@ -63,6 +63,7 @@ Beispiele für Workflows:
 >[!NOTE]
 >
 >* Spezifische Details zu den Zuständigkeiten und Fähigkeiten eines Agenten werden in der Anwendung konfiguriert, in der der Agent erstellt wird, nicht in Workfront.
+>* Der Workfront MCP-Server muss nicht zu dem Agenten hinzugefügt werden, der als Aufgabenmitarbeiter verwendet wird, und er muss nicht verbunden sein, damit der Aufgabenmitarbeiter funktioniert.
 >* Mitarbeiter von Aufgaben unterstützen derzeit in Copilot Studio, Claude und Writer.ai erstellte Agenten.
 >* Beim Konfigurieren eines Agenten in Copilot Studio müssen Sie die Sicherheit auf &quot;**Authentifizierung“**.
 >* Informationen und Anweisungen zum Erstellen eines Task Collaborators in Workfront finden Sie unter [Konfigurieren eines Task Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) im Artikel Konfigurieren von KI-Collaboratoren.
