@@ -9,22 +9,14 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
 TQID: https://experienceleague.adobe.com/e8vdktak-XCg5wC1h4mYTMUtOHVOssw7BSFri6rAx5Y
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: d3382524-5489-431b-bde9-271ab257bc37id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
-source-wordcount: 644
+source-wordcount: 647
 ht-degree: 6%
 
 ---
@@ -79,14 +71,14 @@ Wenn Sie ein Aufgabengebiet deaktivieren, wird es nicht mehr in den folgenden Be
 * Interne Lookup- und Typeahead-Felder in benutzerdefinierten Formularen
 * Das Feld [!UICONTROL Pool-Mitglieder] in [!UICONTROL Ressourcenpools]
 * Das Feld [!UICONTROL Aufgabengebiet] eines Bearbeitungsbildschirms [!UICONTROL Abrechnungssatz], wenn ein Benutzer Abrechnungssätze für Projekte überschreibt
-* Das [!UICONTROL &#x200B; „Zuweisung zu Kanban-Board hinzufügen] in einem Projekt
+* Das [!UICONTROL  „Zuweisung zu Kanban-Board hinzufügen] in einem Projekt
 * Das [!UICONTROL Aufgabengebiet] eines Plans oder einer Initiative, wenn jemand die [!DNL Adobe Workfront Scenario Planner] verwendet.
 
   Die [!DNL Scenario Planner] ist nur in der neuen [!DNL Adobe Workfront] verfügbar und erfordert eine zusätzliche Lizenz. Weitere Informationen zum [!DNL Workfront Scenario Planner] finden Sie unter [Die [!DNL Scenario Planner] Übersicht](../../../scenario-planner/scenario-planner-overview.md).
 
 >[!TIP]
 >
->Deaktivierte Rollen werden immer in Filtern in Listen, Berichten und anderen Tools wie dem [!UICONTROL Workload Balancer) &#x200B;].
+>Deaktivierte Rollen werden immer in Filtern in Listen, Berichten und anderen Tools wie dem [!UICONTROL Workload Balancer) ].
 
 ## Überlegungen vor der Deaktivierung eines Aufgabengebiets
 
@@ -120,12 +112,12 @@ Es wird empfohlen, Folgendes zu tun, bevor Sie ein nicht verwendetes Aufgabengeb
 {{step-1-to-setup}}
 
 1. Klicken Sie im linken Bedienfeld auf &#x200B;**[!UICONTROL Aufgabengebiete].**
-1. (Optional) Wählen Sie im Dropdown **[!UICONTROL Menü]** Filter **[!UICONTROL die Option „Aktiv]** aus, um nur aktive Aufgabengebiete anzuzeigen.
-1. Klicken Sie auf den Namen des Aufgabengebiets, das Sie deaktivieren möchten.
-1. Wählen Sie im Dropdown **[!UICONTROL Menü]** Ist aktiv“ die Option **[!UICONTROL Nein]** aus.
+1. (Optional) Wählen Sie in der **[!UICONTROL Filter]**-Liste die Option **[!UICONTROL Aktiv]** aus, um nur aktive Aufgabengebiete anzuzeigen.
+1. Aktivieren Sie das Kontrollkästchen neben dem Aufgabengebiet, das Sie deaktivieren möchten, und klicken Sie auf das [!UICONTROL **Bearbeiten**]-Symbol [Bearbeiten](assets/edit-icon.png).
+1. Wählen Sie für das Feld **[!UICONTROL Ist aktiv]** die Option **[!UICONTROL Nein]** aus.
 
-   ![Aufgabengebiet deaktivieren](assets/deactivate-job-role-edit-role-box-nwe.png)
+   ![Aufgabengebiet deaktivieren](assets/edit-job-role.png)
 
-1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
    Das Aufgabengebiet ist deaktiviert und kann nicht mehr der Arbeit zugewiesen und mit Layout-Vorlagen verknüpft werden usw. Informationen zu allen Verwendungen von Aufgabengebieten in [!DNL Workfront] finden Sie unter [Aufgabengebiet - Übersicht](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).

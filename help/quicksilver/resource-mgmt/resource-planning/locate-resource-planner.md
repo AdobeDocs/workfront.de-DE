@@ -7,22 +7,15 @@ author: Lisa
 feature: Resource Management
 exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
 TQID: https://experienceleague.adobe.com/-p17GWsoDlmbZtZW3T47YGxOmgSOsMddnFfFXpW36C4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: d1573eb8-a2e8-4a06-9526-9c3410bf4914id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
-source-wordcount: 461
-ht-degree: 9%
+source-wordcount: 455
+ht-degree: 10%
 
 ---
 
@@ -89,9 +82,9 @@ So greifen Sie auf den Bereich „Planer“ im Bereich „Ressourcen“ zu:
 
 Der Planer wird standardmäßig angezeigt.  Informationen zur Budgetierung von Ressourcen im Ressourcenplaner finden Sie im Artikel [Budgetressourcen im Ressourcenplaner mithilfe der Projekt- und Aufgabenansichten](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
-![Ressourcenplaner als Standard](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
+![Ressourcenplaner als Standard](assets/default-resource-planner.png)
 
-1. Klicken Sie **linken Bedienfeld**&#x200B;Ressourcenpools“.
+1. Klicken Sie **linken Bedienfeld**Ressourcenpools“.
 Informationen zum Erstellen von Ressourcenpools finden Sie unter [Ressourcenpools erstellen](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
 ### Verwenden des Ressourcenplaners für ein Projekt {#use-the-resource-planner-for-one-project}
@@ -105,8 +98,8 @@ Wenn Sie den Ressourcenplaner für ein Projekt verwenden, stellen die Zuordnungs
 
    >[!TIP]
    >
-   >Sie können einen Ressourcenpool im Bereich Ressourcenbudgetierung des Business Case nur hinzufügen, wenn dem Projekt keine Ressourcenpools zugeordnet sind. Wenn das Projekt bereits über einen Ressourcenpool verfügt, werden die Benutzer im Pool und ihre Aufgabengebiete standardmäßig im Bereich Ressourcenbudgetierung angezeigt.
+   >Sie können einen Ressourcenpool im Bereich Ressourcenbudgetierung des Business Case nur hinzufügen, wenn dem Projekt keine Ressourcenpools zugeordnet sind. <!--When the project already has a Resource Pool, the users in the pool and their job roles display in the Resource Budgeting area by default.-->
 
-   ![Ressourcenbudgetierung](assets/resource-budgeting-area-on-project-350x70.png)
+   ![Ressourcenbudgetierung](assets/resource-budgeting-area-on-project.png)
 
    Informationen zur Budgetierung von Ressourcen für ein Projekt finden Sie im Artikel [Budgetressourcen im Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
