@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 91e55634e4217b1a7eb8307ce689090ff65fea89
+source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
 workflow-type: tm+mt
-source-wordcount: 4024
+source-wordcount: 4047
 ht-degree: 2%
 
 ---
@@ -181,7 +181,21 @@ Weitere Informationen zum Bearbeiten von Datensätzen in der Tabellenansicht fin
 *******************IF THEY REPLACE THE LIST VIEW (IN PROJECTS AND FORMS) WITH THE NEW LIST, THEN JUST UPDATE THAT ARTICLE - "MANAGE THE LIST VIEW" - AND ADD A LINK TO IT HERE; IF NOT, THEN ADD THE SPECIFICS OF THE VIEW HERE**************
 -->
 
-Beim Erstellen einer Tabellenansicht werden alle Datensätze des ausgewählten Typs in einer Tabelle angezeigt. Jede Zeile ist ein eindeutiger Datensatz und jede Spalte ist ein Datensatzfeld. Standardmäßig werden alle Felder und Datensätze angezeigt.
+In einer Tabellenansicht werden alle Datensätze des ausgewählten Datensatztyps im Tabellenformat angezeigt. Jede Zeile ist ein eindeutiger Datensatz und jede Spalte ist ein Datensatzfeld.
+
+Folgendes wird standardmäßig in einer Tabellenansicht angezeigt:
+
+* Alle Felder und alle Datensätze für den ausgewählten Datensatztyp.
+
+<!--
+<div class="preview">
+
+* 500 records upload automaticall. Additional records display as you scroll the view. 
+
+</div>
+-->
+
+Standardmäßig werden 500 Datensätze angezeigt
 
 Verwalten einer Tabellenansicht:
 
@@ -288,6 +302,12 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
       Sie können jedes Wort oder jedes Sonderzeichen verwenden, das auf dem Bildschirm sichtbar ist.
 
       Sie können keine Schlüsselwörter verwenden, die mit Feldern verknüpft sind, die in der Tabellenansicht ausgeblendet sind.
+
+      <!--
+        >[!TIP]
+        >
+        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
+        -->
 
    1. Drücken Sie **Eingabetaste** auf der Tastatur, um zum nächsten gefundenen Feld zu wechseln.
 
@@ -578,7 +598,12 @@ Beachten Sie Folgendes:
 * Wenn Sie nach Suchfeldern mit mehreren Werten (die nicht von einem Aggregator zusammengefasst wurden) gruppieren, werden die Datensätze nach jeder eindeutigen Kombination von Feldwerten gruppiert.
 * Sie können auf ein Feld verweisen, das bis zu vier Ebenen vom aktuellen Datensatztyp entfernt ist. Wenn Sie z. B. eine Gruppierung für einen Aktivitätsdatensatztyp erstellen und die Aktivität mit dem Produktdatensatztyp verbunden ist, der mit dem Kampagnendatensatztyp verbunden ist, der mit einem Workfront-Projekt verbunden ist, können Sie den Projektstatus in der Gruppierung referenzieren, die Sie für den Aktivitätsdatensatztyp erstellen.
 * Gruppierungen werden in der alphabetischen Reihenfolge ihrer Werte aufgeführt.
-  <!--********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************-->
+
+<!--
+* <span class="preview">Groupings apply only on the records currently loaded on the page. Only 500 records load at one time, by default. Additional records are added to the page as you scroll.</span>
+-->
+
+<!--********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************-->
 
 Um eine Gruppierung hinzuzufügen:
 

@@ -4,9 +4,9 @@ content-type: reference
 description: Erfahren Sie, wie Sie Aufgabenkollaboratoren verwenden, KI-Collaboratoren, die Workfront-Aufgaben zugewiesen werden können.
 author: Becky
 feature: Work Management, Tasks
-source-git-commit: c4f48ea9c228e815366230643f5335d116c66597
+source-git-commit: d56556791fad5d909a2878c42110fb552b719e2f
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '1027'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 Aufgabenmitarbeiter sind KI-Mitwirkende, die zusätzlich zu dem bestehenden KI-Mitwirkenden des Typs „Prüfer“, der für Dokument- und Asset-Überprüfungen verwendet wird, direkt Workfront-Aufgaben zugewiesen werden können. Wie andere KI-Mitwirkende werden die Aufgaben-Mitwirkenden im Bereich „Setup“ konfiguriert und Aufgaben wie Benutzenden zugewiesen.
 
-Die Mitarbeiter von Aufgaben stellen eine Verbindung zu den von Ihnen konfigurierten Agenten her, ähnlich wie bei einem MCP-Server.
+Aufgabenmitarbeiter stellen eine Verbindung zu Agenten her, die Sie in Copilot Studio, Claude oder Writer konfiguriert haben.
 
 Informationen und Anweisungen zum Erstellen eines Task Collaborators in Workfront finden Sie unter [Konfigurieren eines Task Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) im Artikel Konfigurieren von KI-Collaboratoren.
 
@@ -63,9 +63,28 @@ Beispiele für Workflows:
 >[!NOTE]
 >
 >* Spezifische Details zu den Zuständigkeiten und Fähigkeiten eines Agenten werden in der Anwendung konfiguriert, in der der Agent erstellt wird, nicht in Workfront.
+>* Der Workfront MCP-Server muss nicht zu dem Agenten hinzugefügt werden, der als Aufgabenmitarbeiter verwendet wird, und er muss nicht verbunden sein, damit der Aufgabenmitarbeiter funktioniert.
 >* Mitarbeiter von Aufgaben unterstützen derzeit in Copilot Studio, Claude und Writer.ai erstellte Agenten.
 >* Beim Konfigurieren eines Agenten in Copilot Studio müssen Sie die Sicherheit auf &quot;**Authentifizierung“**.
 >* Informationen und Anweisungen zum Erstellen eines Task Collaborators in Workfront finden Sie unter [Konfigurieren eines Task Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) im Artikel Konfigurieren von KI-Collaboratoren.
+
+## Informationen, die ein Aufgabenmitarbeiter liest
+
+Wenn ein Aufgabenmitarbeiter mit der Arbeit an einer Aufgabe beginnt, liest er automatisch die folgenden Aufgabeninformationen als Kontext:
+
+* Aufgabentitel
+* Aufgabenbeschreibung
+* Kommentare im Aktualisierungsverlauf der Aufgabe
+* Informationen in jedem benutzerdefinierten Formular, das an die Aufgabe angehängt ist
+
+Diese Informationen werden immer gelesen und können nicht in Workfront konfiguriert werden.
+
+>[!TIP]
+>
+>Für optimale Ergebnisse empfehlen wir Folgendes:
+>
+>* Einschließlich Hintergrundinformationen, die vom Agenten direkt in der Aufgabenbeschreibung oder einem relevanten benutzerdefinierten Formularfeld verwendet werden sollen.
+>* Sicherstellen, dass die Aufgabe mit den Aufgaben übereinstimmt, für die Ihr Agent beauftragt wurde. Wenn Ihr Agent beispielsweise angewiesen wird, Text aus dem Englischen ins Französische zu übersetzen, fügen Sie den Text, den Sie übersetzen möchten, in die Aufgabenbeschreibung ein.
 
 ## Trigger für den Start des Aufgabenmitarbeiters
 

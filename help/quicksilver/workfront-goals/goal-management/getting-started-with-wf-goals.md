@@ -20,7 +20,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
 workflow-type: tm+mt
 source-wordcount: 1351
 ht-degree: 9%
@@ -48,11 +48,11 @@ Old:
 >
 >* For the new plan and license structure:
 >
->   * The Ultimate Workfront plan 
+>   * The Ultimate Workfront package 
 >    
 >* For the current plan and license structure: 
 >
->   * A Pro or higher Workfront plan
+>   * A Pro or higher Workfront package
 >   * An Adobe Workfront Goals license in addition to a Workfront license.
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
@@ -143,9 +143,9 @@ Gehen Sie folgendermaßen vor:
 
   Informationen zum Aktivieren, Hinzufügen von Aktivitäten und Aktualisieren von Zielen finden Sie in den folgenden Artikeln:
 
-   * [Aktivieren von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/activate-goals.md)
-   * [Hinzufügen von Aktivitäten zu Zielen in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
-   * [Aktualisieren des Zielfortschritts in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
+  * [Aktivieren von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/activate-goals.md)
+  * [Hinzufügen von Aktivitäten zu Zielen in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
+  * [Aktualisieren des Zielfortschritts in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)
 
 ## Richtlinien für die Einrichtung von Workfront-Zielen
 

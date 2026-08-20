@@ -5,9 +5,9 @@ title: Adobe Workfront MCP-Server-Tools
 description: Referenzliste der über den Adobe Workfront MCP-Server verfügbaren Tools, gruppiert nach Workfront-Bereich.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: bce4c4abfb75937424ff12271d85758e007bff6b
+source-git-commit: 2de2dd8d79af0929f010cda304f8d1e008deb553
 workflow-type: tm+mt
-source-wordcount: '2581'
+source-wordcount: '2705'
 ht-degree: 5%
 
 ---
@@ -49,9 +49,9 @@ Wenn die KI-Agentenplattform Workfront-Elemente finden, diese jedoch nicht erste
 | Dokumentversion nach Namen suchen | `approvals_find_document_version_by_name` | Sucht die aktuelle Versions-ID eines Dokuments nach Dateinamen. Unterstützt Teilübereinstimmungen. | Lesen |
 | Dokument nach Versions-ID abrufen | `approvals_get_document_by_version_id` | Ruft Dokumentdetails (Name, Größe, Upload-Datum, Uploader) für eine bekannte Dokumentversions-ID ab. | Lesen |
 | Dokumentbereich auflösen | `approvals_resolve_document_scope` | Erweitert ein Projekt oder einen Ordner in die Liste der darin enthaltenen Dokumentversions-IDs. Unterstützt Bereiche mit Projekt-, Ordner- und Ordnernamen. | Lesen |
-| Dokumente nach Umfang abrufen | `approvals_get_documents_by_scope` | Dokument in einem Projekt oder Ordner auflisten. | Lesen |
+| Dokumente nach Umfang abrufen | `approvals_get_documents_by_scope` | Veraltet. Verwenden Sie stattdessen `insights_find_workfront_data` . Dieses Tool listet Dokumente in einem Projekt oder Ordner auf. | Lesen |
 | Auflisten von mit AEM verknüpften Ordnern* | `approvals_list_aem_linked_folders` | Listet Workfront-Dokumentordner auf, die mit Adobe Experience Manager verknüpft sind. | Lesen |
-| Dokument suchen | `approvals_find_document` | Suchen eines Dokuments nach Dateinamen oder Dokumentversions-ID | Lesen |
+| Dokument suchen | `approvals_find_document` | Veraltet. Verwenden Sie stattdessen `insights_find_workfront_data` . Dieses Tool suchte ein Dokument nach Dateinamen oder Dokumentversions-ID. | Lesen |
 | Senden von Dokumenten an den AEM-Ordner* | `approvals_send_documents_to_aem_folder` | Verschiebt ein oder mehrere Workfront-Dokumente in einen mit AEM verknüpften Ordner. | Schreiben |
 
 * Für die Verwendung dieser Tools muss in Ihrer Workfront-Instanz eine native [!DNL Adobe Experience Manager]-Integration konfiguriert sein. Weitere Informationen finden Sie unter [Übersicht über Adobe Experience Manager Assets-Integrationen](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
@@ -112,6 +112,10 @@ Wenn die KI-Agentenplattform Workfront-Elemente finden, diese jedoch nicht erste
 | --- | --- | --- | --- |
 | Projekt nach Namen suchen | `approvals_find_project_by_name` | Sucht Workfront-Projekte nach einer teilweisen Namensübereinstimmung im gesamten System. | Lesen |
 | Projekte nach Besitzer abrufen | `approvals_get_projects_by_owner` | Listet Workfront-Projekte auf, deren Besitzer der aufrufende Benutzer ist. | Lesen |
+| Aktuellen Benutzer abrufen | `approvals_get_current_user` | Entfernt am 13. August 2026. Dieses Tool hat die Workfront-Identität des aufrufenden Benutzers zurückgegeben, einschließlich Name, Benutzer-ID, Name des Home-Teams und ID des Home-Teams. Eine ähnliche Funktion finden Sie unter [Abrufen des aktuellen Benutzers](#insights-tools) unter Einblicke-Tools. | Lesen |
+| Benutzer nach Namen suchen | `approvals_find_user_by_name` | Veraltet. Verwenden Sie stattdessen `insights_search_users` . Dieses Tool suchte die ID eines Workfront-Benutzers nach Name (unscharf oder teilweise Übereinstimmung), zurückgebendem Namen, ID, E-Mail-Adresse, Titel und Avatar-URL. | Lesen |
+| Team nach Namen suchen | `approvals_find_team_by_name` | Veraltet. Verwenden Sie stattdessen `insights_find_id_by_name` . Dieses Tool suchte die ID eines Workfront-Teams anhand des Namens (unscharf oder teilweise Übereinstimmung). | Lesen |
+| Suchen von Projekten | `approvals_find_projects` | Veraltet. Verwenden Sie stattdessen `insights_find_workfront_data` . Dieses Tool hat Workfront-Projekte nachgeschlagen, die optional nach Namen gefiltert und/oder auf Projekte beschränkt wurden, deren Inhaber der aufrufende Benutzer ist. | Lesen |
 
 ## Planungstools
 
