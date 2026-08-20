@@ -4,10 +4,10 @@ description: Verbesserungen bei Dokumenten für das vierte Quartal 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a5fa7c7649932463fc8693f787c02de7d88c111c
+source-git-commit: b9eb36bbe792919e975cf27c06524755a3ef550b
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 4%
+source-wordcount: '303'
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,10 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2026 de
 
 >[!NOTE]
 >
->Vorschau: 30. Juli 2026>Produktions-Schnellversion: 30. Juli 2026>Produktion für alle: 30. Juli 2026>[!BADGE Zeitplan]{type=Neutral}
+>Vorschau: 30. Juli 2026
+>Produktions-Schnellveröffentlichung: 30. Juli 2026
+>Produktion für alle: 30. Juli 2026
+>[!BADGE Außerplanmäßig]{type=Neutral}
 
 Unternehmen, die Adobe Cloud Storage im Rahmen der einheitlichen Überprüfung und Genehmigung verwenden, können jetzt Bilddateien direkt an Kommentare anhängen und Feedback, Kontext und unterstützende Visualisierungen in einem einzigen, nachvollziehbaren Kommentar-Thread zusammenführen. Dadurch wird eine frühere Lücke geschlossen, in der nur Organisationen, die noch über alten Workfront-Speicher verfügen, Bilder an Kommentare anhängen konnten.
 
@@ -29,14 +32,16 @@ Alle Bildformate vom Typ Medien werden jetzt für Adobe Cloud-Speicherorganisati
 
 Weitere Informationen finden Sie unter [Arbeit aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-## Verknüpfen von Inhalten und Ordnern aus Experience Manager Assets mit dem Adobe Cloud-Speicher
+## Verknüpfen von Assets aus Experience Manager Assets mit dem Adobe-Cloud-Speicher
 
 >[!NOTE]
 >
->Vorschau: 30. Juli 2026>Produktions-Schnellversion: 13. August 2026>Produktion für alle: 15. Oktober 2026
+>Vorschau: 30. Juli 2026
+>Produktions-Schnellveröffentlichung: 13. August 2026
+>Produktion für alle: 15. Oktober 2026
 
-Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, können Sie einzelne Assets oder ganze Ordner aus Experience Manager Assets mit jedem Workfront-Objekt verknüpfen, das Dokumente unterstützt. Verknüpfte Inhalte bleiben automatisch synchronisiert: In Experience Manager Assets vorgenommene Änderungen werden in Workfront angezeigt und Sie können neue Asset-Versionen abrufen, ohne Workfront verlassen zu müssen.
+Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, können Sie einzelne Assets aus Experience Manager Assets mit jedem Workfront-Objekt verknüpfen, das Dokumente unterstützt. Verknüpfte Inhalte bleiben automatisch synchronisiert: In Experience Manager Assets vorgenommene Änderungen werden in Workfront angezeigt und Sie können neue Asset-Versionen abrufen, ohne Workfront verlassen zu müssen.
 
 Die Verknüpfung wird von Content Advisor unterstützt, sodass Sie auch KI-Suchen, intelligente Vorschläge, Kampagnenkurzanalysen und mehr erhalten, während Sie Inhalte auswählen.
 
-Weitere Informationen finden Sie unter [Verknüpfen von Inhalten und Ordnern aus Experience Manager Assets mit Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md).
+Weitere Informationen finden Sie unter [Verknüpfen von Inhalten aus Experience Manager Assets mit Adobe Cloud-Speicher](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md).
