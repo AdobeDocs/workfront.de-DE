@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 154a30289097c946f072a606ce5dbc48a73cf1c5
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 1226
+source-wordcount: 1229
 ht-degree: 5%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 5%
 
 Mit dem Adobe Workfront Workload-Balancer können Sie Ressourcen mehreren Aufgaben und Problemen stapelweise zuweisen.
 
-Allgemeine Informationen zum Zuweisen von Arbeit zu Benutzern mithilfe des Workload Balancer finden Sie unter [Übersicht über die Zuweisung von Arbeit im Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Allgemeine Informationen zum Zuweisen von Arbeit zu Benutzern und Aufgabenmitarbeitern mithilfe des Workload Balancer finden Sie [Übersicht über die Zuweisung von Arbeit im Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Zugriffsanforderungen
 
@@ -231,7 +231,6 @@ Wenn Sie die Zuweisung von Benutzenden zu allen Arbeitsaufträgen mithilfe von M
 
 * Der angegebene Benutzer wird aus allen Arbeitselementen entfernt, denen er zugewiesen ist.
 * Wenn der nicht zugewiesene Benutzer Aufgabengebieten zugeordnet ist, bleiben die Aufgabengebiete den Arbeitselementen zugewiesen, wenn der Benutzer entfernt wird.
-
 * Wenn der angegebene Benutzer Arbeitselementen zugewiesen wird, die abgeschlossen sind, bleibt der Benutzer diesen Arbeitselementen zugewiesen.
 
 Weitere Informationen zu Benutzer- und Aufgabenrollenzuweisungen finden Sie unter [Übersicht über die Zuweisung von Arbeit im Workload-Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).

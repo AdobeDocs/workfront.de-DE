@@ -18,16 +18,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 424
+source-wordcount: 423
 ht-degree: 12%
 
 ---
 
 # Aktualisieren von Arbeitselementen im Workload Balancer mithilfe der Zusammenfassung
 
-Sie können das Bedienfeld Zusammenfassung einer Aufgabe oder eines Problems verwenden, um wichtige Informationen für dieses Element zu aktualisieren. im Workload Balancer.
+Sie können das Bedienfeld „Zusammenfassung“ einer Aufgabe oder eines Problems verwenden, um wichtige Informationen zu diesem Element im Workload-Balancer zu aktualisieren.
 
 Das Bedienfeld Zusammenfassung ist für Aufgaben und Probleme sowohl im Bereich Zugewiesene als auch Nicht zugewiesene Arbeit des Workload-Balancer verfügbar.
 

@@ -22,10 +22,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 1202
-ht-degree: 100%
+source-wordcount: 1256
+ht-degree: 92%
 
 ---
 
@@ -44,7 +44,7 @@ Nachdem das Projekt-Management die Arbeit an Projekten durch Erstellen von Aufga
 
 >[!IMPORTANT]
 >
->Sie können den Workload Balancer verwenden, um Benutzenden die tatsächliche Arbeit (Aufgaben und Probleme) zuzuweisen.
+>Sie können den Workload Balancer verwenden, um Benutzern und Teilnehmern von Aufgaben die tatsächliche Arbeit (Aufgaben und Probleme) zuzuweisen.
 >
 >Sie müssen jedoch den Ressourcenplaner, nicht den Workload Balancer, verwenden, um die Zuteilungen der Aufgabengebiete für Ihre Projekte auf einer allgemeinen Ebene zu schätzen. Weitere Informationen zum Ressourcenplaner finden Sie unter [Überblick über den Ressourcenplaner](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
@@ -114,28 +114,25 @@ Informationen zum Erstellen und Verwenden von Filtern im Workload Balancer finde
 
 * Die Benutzenden, deren Workload Sie verwalten möchten, müssen die folgenden Kriterien erfüllen, damit die Informationen zu ihrer Verfügbarkeit und ihren Fähigkeiten korrekt sind:
 
-   * Ihrem Profil müssen Zeitpläne und Aufgabengebiete zugewiesen sein.
+  * Ihrem Profil müssen Zeitpläne und Aufgabengebiete zugewiesen sein.
 
-     Weitere Informationen zum Verknüpfen von Zeitplänen und Aufgabengebieten mit Benutzenden finden Sie unter [Hinzufügen von Benutzenden](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
-   * Wenn eine Person keinem Zeitplan zugeordnet ist, wird zum Ressourcen-Management der Person standardmäßig der Standardzeitplan Ihres Workfront-Systems zugeordnet.
-   * Zeitplanausnahmen müssen in den entsprechenden Zeitplänen aktualisiert werden.
+    Weitere Informationen zum Verknüpfen von Zeitplänen und Aufgabengebieten mit Benutzenden finden Sie unter [Hinzufügen von Benutzenden](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
+  * Wenn eine Person keinem Zeitplan zugeordnet ist, wird zum Ressourcen-Management der Person standardmäßig der Standardzeitplan Ihres Workfront-Systems zugeordnet.
+  * Zeitplanausnahmen müssen in den entsprechenden Zeitplänen aktualisiert werden.
 
-     Weitere Informationen zum Erstellen von Zeitplänen finden Sie unter [Erstellen eines Zeitplans](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+    Weitere Informationen zum Erstellen von Zeitplänen finden Sie unter [Erstellen eines Zeitplans](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
 
-   * Der Kalender für Ausfallzeiten muss im Profil der jeweiligen Person aktualisiert werden.
+  * Der Kalender für Ausfallzeiten muss im Profil der jeweiligen Person aktualisiert werden.
 
-     Informationen zum Aktualisieren des Kalenders für Ausfallzeiten einer Person finden Sie unter [Konfigurieren von persönlicher Ausfallzeit](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
-
-     <!--   
-     <div data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     <p>(NOTE: Add another bullet for Costs, when this becomes available:</p>   
-     <p>If you want to budget your resources by Cost, you must associate Job Roles with Cost/ Hr. rates. The cost associated with Job Roles assigned to users in your Resource Pools is used to calculate the Budgeted Labor Cost and the Budgeted Cost of the project.For more information about associating job roles with rates, see the article Creating and Managing Job Roles in the new Adobe Workfront experience.For more information about calculating Budgeted Labor Cost, see the article Calculating Budgeted Labor Cost in the new Adobe Workfront experience.For more information about calculating Budgeted Cost, see the article Calculating Budgeted Cost in .) </p>   
-     </div>   
-     -->
+    Informationen zum Aktualisieren des Kalenders für Ausfallzeiten einer Person finden Sie unter [Konfigurieren von persönlicher Ausfallzeit](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
 * Der bzw. die Workfront-Admin muss festlegen, wie Workfront die Benutzerverfügbarkeit ermittelt. Er bzw. sie kann entscheiden, ob Workfront den Standardzeitplan des Systems oder den Zeitplan der Person zur Ermittlung der Zeit verwendet, in der die Person für die Arbeit zur Verfügung steht. Dazu kann er bzw. sie die Einstellungen für das Ressourcen-Management im Bereich „Setup“ von Workfront anpassen.
 
   Weitere Informationen finden Sie unter [Konfigurieren von Voreinstellungen für das Ressourcen-Management](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
+* Sie können einem Mitarbeiter für eine Aufgabe auf dieselbe Weise Arbeit zuweisen wie einem Benutzer. Der Task Collaborator muss in Workfront vorhanden sein, damit er Aufgaben zugewiesen werden kann.
+
+  Informationen zum Erstellen von Aufgaben-Collaboratoren finden Sie unter [Konfigurieren eines Aufgaben-Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) im Artikel [Konfigurieren von KI-Collaboratoren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
 
 ### Best Practices zum Einrichten von Aufgaben und Problemen {#best-practices-for-setting-up-tasks-and-issues}
 
@@ -143,20 +140,19 @@ Stellen Sie sicher, dass das folgende Setup für Aufgaben und Probleme vorhanden
 
 * Übergeordnete Aufgaben werden Benutzenden oder Rollen nicht zugewiesen. Übergeordnete Aufgaben werden im Workload Balancer nicht angezeigt.
 * Aufgaben und Probleme haben einen Wert für „Geplante Stunden“, der größer als null ist.
-
-* Aufgaben und Probleme haben einen Wert für ihre „Dauer“, der größer als null ist.
+* Aufgaben und Probleme haben einen Wert für ihre Dauer von mehr als null.
 * Die geplanten Termine der Probleme befinden sich innerhalb der Timeline des Projekts.
 
 ## Bevor Sie mit der Verwendung des Workload Balancers beginnen
 
 * Lesen Sie die folgenden Artikel, bevor Sie mit der Verwendung des Workload Balancers beginnen:
 
-   * Dieser Artikel führt Sie durch die Navigation im Workload Balancer, um die folgenden Aktionen auszuführen: [Navigieren im Workload Balancer](../workload-balancer/navigate-the-workload-balancer.md).
+  * Dieser Artikel führt Sie durch die Navigation im Workload Balancer, um die folgenden Aktionen auszuführen: [Navigieren im Workload Balancer](../workload-balancer/navigate-the-workload-balancer.md).
 
-   * In den folgenden Artikeln erfahren Sie, wie Sie Arbeit zuweisen und Benutzerzuordnungen verwalten:
+  * In den folgenden Artikeln erfahren Sie, wie Sie Arbeit zuweisen und Benutzerzuordnungen verwalten:
 
-      * [Überblick über die Zuweisung von Arbeit im Workload Balancer](../workload-balancer/assign-work-in-workload-balancer.md).
-      * [Verwalten von Benutzerzuordnungen im Workload Balancer](../workload-balancer/manage-user-allocations-workload-balancer.md).
+    * [Überblick über die Zuweisung von Arbeit im Workload Balancer](../workload-balancer/assign-work-in-workload-balancer.md).
+    * [Verwalten von Benutzerzuordnungen im Workload Balancer](../workload-balancer/manage-user-allocations-workload-balancer.md).
 
 * Der Workload Balancer ist in verschiedenen Bereichen von Workfront zu finden. Informationen dazu, wo Sie den Workload Balancer finden, finden Sie unter [Auffinden des Workload Balancers](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 

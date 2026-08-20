@@ -18,16 +18,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 946
+source-wordcount: 949
 ht-degree: 5%
 
 ---
 
 # Zuweisen von Arbeit im Workload Balancer durch Ziehen und Ablegen
 
-Sie können Arbeitselemente mit dem Adobe Workfront Workload Balancer zuweisen, indem Sie Arbeitselemente per Drag-and-Drop an die richtigen Benutzenden ziehen.
+Sie können Arbeitselemente mit dem Adobe Workfront Workload Balancer zuweisen, indem Sie Arbeitselemente per Drag-and-Drop an die richtigen Benutzenden und Aufgabenmitarbeiter ziehen.
 
 Allgemeine Informationen zum Zuweisen von Arbeit zu Benutzern mithilfe des Workload Balancer finden Sie unter [Übersicht über die Zuweisung von Arbeit im Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 

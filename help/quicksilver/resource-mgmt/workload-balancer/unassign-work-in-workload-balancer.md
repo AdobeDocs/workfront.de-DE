@@ -18,16 +18,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 382
-ht-degree: 13%
+source-wordcount: 387
+ht-degree: 12%
 
 ---
 
 # Aufheben der Zuweisung von Arbeit im Workload Balancer
 
-Sie können die Zuweisung von Benutzenden zu Arbeitselementen im Bereich Zugewiesene Arbeit im Adobe Workfront-Workload-Balancer aufheben oder sie anderen Benutzenden, Rollen oder Teams neu zuweisen.
+Sie können die Zuweisung von Benutzenden zu Arbeitselementen im Bereich Zugewiesene Arbeit im Adobe Workfront-Workload-Balancer aufheben oder sie anderen Benutzenden, Mitwirkenden an Aufgaben, Rollen oder Teams neu zuweisen.
 
 Die Zuweisung von Benutzern zu Arbeitselementen kann manuell, durch Ziehen und Ablegen oder stapelweise aufgehoben werden. In diesem Artikel wird beschrieben, wie Sie die Zuweisung von Benutzern manuell aufheben können.
 
@@ -75,7 +75,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 ## Zuweisung von Arbeitselementen im Workload Balancer aufheben
 
-Sie können die Zuweisung von Elementen zu Benutzern aufheben und sie in den Bereich Nicht zugewiesene Arbeit verschieben oder sie anderen Benutzern neu zuweisen.
+Sie können die Zuweisung von Elementen zu Benutzern aufheben und sie in den Bereich Nicht zugewiesene Arbeit verschieben oder sie anderen Benutzern oder Aufgabenmitarbeitern neu zuweisen.
 
 So heben Sie die Zuweisung von Arbeitselementen zu Benutzenden auf:
 

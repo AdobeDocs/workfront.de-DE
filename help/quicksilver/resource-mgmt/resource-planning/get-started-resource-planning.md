@@ -17,9 +17,9 @@ subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 6084af27550d2ad407ad6dff4a33b54039e7743b
 workflow-type: tm+mt
-source-wordcount: 561
+source-wordcount: 559
 ht-degree: 7%
 
 ---
@@ -39,7 +39,7 @@ Mit den Adobe Workfront-Tools für das Ressourcen-Management können Sie die Res
 
 Sie können Ressourcenplanungs-Tools verwenden, um Ihre Aufgabengebiete, ihre Verfügbarkeit und die allgemeine Zuordnung zu Projekten auf Grundlage dieser Verfügbarkeit zu verwalten.
 
-Bei der Budgetierung der allgemeinen Zuordnung der Benutzer zu Projekten werden sie nicht der tatsächlichen Arbeit (Aufgaben und Probleme) zugewiesen. Sie müssen Ihre Ressourcen mithilfe des Workload-Balancer für die Arbeit zuweisen.
+Bei der Budgetierung der allgemeinen Zuordnung der Benutzer zu Projekten werden sie nicht der tatsächlichen Arbeit (Aufgaben und Probleme) zugewiesen. Sie müssen Ihre Ressourcen mithilfe des Workload Balancer für die Arbeit zuweisen.
 
 Weitere Informationen zum Planen von Ressourcen in Workfront mithilfe des Workload Balancer finden Sie unter [Übersicht über den Workload Balancer](../workload-balancer/overview-workload-balancer.md).
 
@@ -55,7 +55,7 @@ Um Zeit für Ihre Ressourcen für die Projekte zu budgetieren, denen Sie sie zuw
 
 * Für die Budgetierung von Zuteilungen für ein einzelnes Projekt: Verwenden Sie den Ressourcenplaner auf Projektebene im Bereich Ressourcenbudgetierung des Business-Case eines Projekts. Informationen zur Budgetierung von Ressourcen für ein Projekt finden Sie im Artikel [Budgetressourcen im Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-  Um Benutzer zu verwalten und sie in Pools basierend auf gemeinsamen Fähigkeiten oder Abteilungsstrukturen zu organisieren und dann ihre Zuweisungen für die Projekte zu verwalten, denen sie zugewiesen sind, müssen Sie Ressourcenpools erstellen. Weitere Informationen zum Erstellen von Ressourcenpools finden Sie unter [Ressourcenpools erstellen](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+  Um Benutzer zu verwalten, sie basierend auf gemeinsamen Qualifikationen oder Abteilungsstrukturen in Pools zu organisieren und dann ihre Zuweisungen für die Projekte zu verwalten, denen sie zugewiesen sind, müssen Sie Ressourcenpools erstellen. Weitere Informationen zum Erstellen von Ressourcenpools finden Sie unter [Ressourcenpools erstellen](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
   >[!TIP]
   >
@@ -69,9 +69,9 @@ Um Zeit für Ihre Ressourcen für die Projekte zu budgetieren, denen Sie sie zuw
 
 * Mit dem Ressourcenplaner haben Sie folgende Möglichkeiten:
 
-   * Priorisieren Sie Ihre Projekte, um zu entscheiden, welche Projekte zuerst Ressourcen erhalten sollen. (Nur im Ressourcenplaner)
-   * Machen Sie sich mit der Verfügbarkeit Ihrer Ressourcen anhand des Zeitplans Ihrer Benutzer vertraut.
-   * Budgetstunden-, FTE- oder Kostenzuteilungen für Ihre Ressourcen (Benutzer und Aufgabengebiete) für die Projekte, denen sie zugewiesen sind.
+  * Priorisieren Sie Ihre Projekte, um zu entscheiden, welche Projekte zuerst Ressourcen erhalten sollen. (Nur im Ressourcenplaner)
+  * Machen Sie sich mit der Verfügbarkeit Ihrer Ressourcen anhand des Zeitplans Ihrer Benutzer vertraut.
+  * Budgetstunden-, FTE- oder Kostenzuteilungen für Ihre Ressourcen (Benutzer und Aufgabengebiete) für die Projekte, denen sie zugewiesen sind.
 
   Informationen zum Arbeiten im Ressourcenplaner finden Sie im Artikel [Ressourcenplaner - Übersicht](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 

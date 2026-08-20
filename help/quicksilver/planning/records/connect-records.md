@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: 9e4b8593c559dd68f7c0948c58c3f796af1c22fd
 workflow-type: tm+mt
-source-wordcount: 3643
+source-wordcount: 3743
 ht-degree: 2%
 
 ---
@@ -433,7 +433,7 @@ Nachdem Sie eine Verbindung zwischen einem Datensatztyp und Adobe Experience Man
 >[!NOTE]
 >
 >Auf Planungsdatensätze und deren Felder kann über Experience Manager Assets zugegriffen werden, wenn Ihr Workfront-Administrator die Metadatenzuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter &quot;[&#x200B; der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
->Wenn Sie in Planning Datensätze aus dem GenStudio-Arbeitsbereich mit AEM-Objekten (Assets und Inhaltsfragmenten) verbinden, werden die GenStudio-Informationen automatisch für die AEM-Objekte in AEM angezeigt. AEM-Informationen werden für GenStudio-Datensätze in den Suchfeldern angezeigt, die hinzugefügt werden, wenn die Verbindung in Workfront Planning hergestellt wird. Weitere Informationen finden Sie unter [Verwalten des GenStudio-Arbeitsbereichs in Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md).
+>Wenn Sie Datensätze aus GenStudio Workspace in Planning mit AEM-Objekten (Assets und Inhaltsfragmenten) verbinden, werden die GenStudio-Informationen automatisch für die AEM-Objekte in AEM angezeigt. AEM-Informationen werden für GenStudio-Datensätze in den Suchfeldern angezeigt, die hinzugefügt werden, wenn die Verbindung in Workfront Planning hergestellt wird. Weitere Informationen finden Sie unter [Verwalten des GenStudio-Arbeitsbereichs in Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md).
 
 <!--
 metadata mapping is not available yet for content fragments - as of April 22, 2026. Syuzanna said the mapping is available just for GenS workspace, but checking again with her and Isk.
@@ -596,13 +596,17 @@ Die Datensätze und Objekte werden sofort hinzugefügt.
    >
    >Sie müssen dem aktuellen Datensatz verbundene Datensätze hinzufügen, um sie auf der Seite „Verbundene Datensätze“ anzuzeigen.
 
-1. Klicken Sie **Verbinden** in einer Datensatzliste oder **Verbinden von Datensätzen** in einer Projektliste, um vorhandene Datensätze oder Projekte hinzuzufügen oder zu entfernen.
+1. Klicken Sie **Datensätze verbinden** in der oberen rechten Ecke der Seite „Verbundene Datensätze“, um vorhandene Datensätze oder Projekte hinzuzufügen oder zu entfernen.
 
-   ![Schaltfläche „Verbinden“ auf der Registerkarte „Details verbundener Datensätze“ hervorgehoben](assets/connect-button-highlighted-in-connected-record-details-tab.png)
+   <!--
+    this is gone:
+    ![Connect button highlighted in connected record details tab](assets/connect-button-highlighted-in-connected-record-details-tab.png)
+    -->
 
    Weitere Informationen finden Sie unter [Hinzufügen einer verbundenen Datensatzseite zu einem Datensatz](/help/quicksilver/planning/records/add-a-connected-records-page-to-a-record.md).
-1. Klicken Sie **Neue Zeile** in einer Liste von Projekten, um ein Projekt ohne Vorlage zu erstellen. Die neuen Projekte werden automatisch mit dem aktuellen Datensatz verbunden.
 1. (Optional) Wenn Sie einen verbundenen Datensatz nicht finden können, klicken Sie auf **+ Hinzufügen** um ihn zu erstellen und zu verbinden.
+1. Klicken Sie auf **Neue Zeile**, um einen Datensatz zu erstellen. Die neuen Datensätze werden automatisch mit dem aktuellen Datensatz verbunden.
+
 
 ## Verbinden von Datensätzen aus Workfront-Objekten
 
