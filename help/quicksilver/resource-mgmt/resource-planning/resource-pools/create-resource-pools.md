@@ -7,19 +7,14 @@ author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
 TQID: https://experienceleague.adobe.com/jNdb4450a6iY7-mkcBOCBOVD-JH6tRUb-LrqwpD2mQE
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 6084af27550d2ad407ad6dff4a33b54039e7743b
 workflow-type: tm+mt
-source-wordcount: 515
-ht-degree: 16%
+source-wordcount: 544
+ht-degree: 15%
 
 ---
 
@@ -89,7 +84,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
      </tr>
      <tr>
       <td role="rowheader"><strong>Pool-Mitglieder</strong></td>
-      <td><p> Benutzer einzeln zum Ressourcenpool hinzufügen.<br>Oder <br>Um dem Ressourcenpool gleichzeitig eine große Anzahl von Benutzern hinzuzufügen. Sie können eine der folgenden Entitäten hinzufügen, die mit Benutzenden oder einer Sammlung von Benutzenden verknüpft sind:
+      <td><p> Fügen Sie Benutzer einzeln zum Ressourcenpool hinzu.<br>Oder <br>Fügen Sie dem Ressourcenpool eine große Anzahl von Benutzern gleichzeitig hinzu. Sie können eine der folgenden Entitäten hinzufügen, die mit Benutzenden oder einer Sammlung von Benutzenden verknüpft sind:
         <ul>
          <li><strong>Teams</strong>: Alle Mitglieder des Teams werden dem Ressourcenpool hinzugefügt.</li>
          <li><strong>Groups</strong>: Alle Mitglieder der Gruppe werden dem Ressourcenpool hinzugefügt.</li>

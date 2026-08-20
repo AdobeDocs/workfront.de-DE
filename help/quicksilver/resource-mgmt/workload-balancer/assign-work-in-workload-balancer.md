@@ -7,21 +7,14 @@ author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
 TQID: https://experienceleague.adobe.com/V48Ew1abmm8Qkf2qwpO-9aERwltZq-3L0l2EEsNa8do
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-subfeature_v2:
-  - id: c33d85a1-be85-4290-854c-87408c10aa80
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+subfeature_v2: id: c33d85a1-be85-4290-854c-87408c10aa80id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: db05d3b6f950a8d5c0e6e171acb7e480ca3c6c61
 workflow-type: tm+mt
-source-wordcount: 1051
+source-wordcount: 1104
 ht-degree: 3%
 
 ---
@@ -30,7 +23,7 @@ ht-degree: 3%
 
 <!-- Audited: 5/2025 -->
 
-Als Ressourcen-Manager können Sie den Adobe Workfront-Workload-Balancer verwenden, um Arbeitselemente anzuzeigen, die Benutzenden noch nicht zugewiesen wurden, und diese Elemente ihnen zuzuweisen.
+Als Ressourcen-Manager können Sie den Adobe Workfront Workload Balancer verwenden, um Arbeitselemente anzuzeigen, die Benutzenden und Personen, die mit Aufgaben zusammenarbeiten, noch nicht zugewiesen wurden, und um ihnen diese Elemente zuzuweisen.
 
 Allgemeine Informationen zum Workload-Balancer finden Sie unter [Übersicht über den Workload-Balancer](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
@@ -51,10 +44,10 @@ Workfront verwendet die folgenden Informationen, um die Kapazität des/r Benutze
 
 * Die Voreinstellungen für die Ressourcenverwaltung. Der Workfront-Administrator bestimmt, wie die verfügbare Zeit für das System berechnet wird, indem er im Bereich Ressourcenverwaltung im Setup eine der folgenden Optionen auswählt:
 
-   * Der Standardzeitplan des Workfront-Systems und das FTE des Benutzers.
-   * Der Zeitplan des Benutzers, wie im Bereich „Benutzerprofil“ angegeben.
+  * Der Standardzeitplan des Workfront-Systems und das FTE des Benutzers.
+  * Der Zeitplan des Benutzers, wie im Bereich „Benutzerprofil“ angegeben.
 
-     Damit wird die tägliche und wöchentliche Verfügbarkeit des Benutzers berechnet. Alle Zeitplanausnahmen für den ausgewählten Zeitplan werden in der Kapazität des/der Benutzenden im Workload-Balancer angezeigt.
+    Damit wird die tägliche und wöchentliche Verfügbarkeit des Benutzers berechnet. Alle Zeitplanausnahmen für den ausgewählten Zeitplan werden in der Kapazität des/der Benutzenden im Workload-Balancer angezeigt.
 
   Weitere Informationen finden Sie unter [Konfigurieren von Voreinstellungen für das Ressourcen-Management](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
@@ -87,7 +80,7 @@ Sie können Arbeit im Workload Balancer wie folgt zuweisen:
 
   Weitere Informationen finden Sie unter [Massenzuweisung von Arbeit im Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
-Informationen zum Aufheben der Zuweisung von Arbeit finden [&#x200B; unter „Zuweisung von Arbeit im Workload Balancer aufheben](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
+Informationen zum Aufheben der Zuweisung von Arbeit finden [ unter „Zuweisung von Arbeit im Workload Balancer aufheben](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
 
 ## Arbeitsauftragsbereiche im Workload Balancer
 
@@ -172,9 +165,9 @@ Beachten Sie Folgendes, wenn Sie einem Arbeitselement mehrere Ressourcen zuweise
 * Aufgaben oder Probleme werden in der Regel zuerst einem oder mehreren Aufgabengebieten oder einem Team zugewiesen. Wenn Projekte startbereit sind, müssen sie möglicherweise auch Benutzern zugewiesen werden.\
   Wenn eine Aufgabe oder ein Problem einer oder mehreren Rollen zugewiesen ist und Sie dann auch einen Benutzer zuweisen, entscheidet Adobe Workfront gemäß den folgenden Regeln, welches Aufgabengebiet mit dem zusätzlichen Benutzer (falls vorhanden) verknüpft werden soll:
 
-   * Wenn nur ein Aufgabengebiet zugewiesen ist und es mit der Primären Rolle des Benutzers übereinstimmt, wird die Aufgabe oder das Problem nur dem Benutzer zugewiesen, der seine Primäre Rolle erfüllt.
-   * Wenn mehrere Rollen zugewiesen sind und mindestens eine der Rollen mit den sekundären Rollen des Benutzers übereinstimmt, wird die Aufgabe oder das Problem dem Benutzer zugewiesen, der eine der anderen Rollen erfüllt (die Workfront zufällig auswählt, wenn mehrere Übereinstimmungen vorliegen), sowie allen zusätzlichen Rollen, die zugewiesen werden.
-   * Wenn mindestens ein Aufgabengebiet zugewiesen ist und es keine Übereinstimmungen mit den Rollen des Benutzers gibt, wird die Aufgabe oder das Problem sowohl der Rolle bzw. den Rollen als auch dem Benutzer zugewiesen.
+  * Wenn nur ein Aufgabengebiet zugewiesen ist und es mit der Primären Rolle des Benutzers übereinstimmt, wird die Aufgabe oder das Problem nur dem Benutzer zugewiesen, der seine Primäre Rolle erfüllt.
+  * Wenn mehrere Rollen zugewiesen sind und mindestens eine der Rollen mit den sekundären Rollen des Benutzers übereinstimmt, wird die Aufgabe oder das Problem dem Benutzer zugewiesen, der eine der anderen Rollen erfüllt (die Workfront zufällig auswählt, wenn mehrere Übereinstimmungen vorliegen), sowie allen zusätzlichen Rollen, die zugewiesen werden.
+  * Wenn mindestens ein Aufgabengebiet zugewiesen ist und es keine Übereinstimmungen mit den Rollen des Benutzers gibt, wird die Aufgabe oder das Problem sowohl der Rolle bzw. den Rollen als auch dem Benutzer zugewiesen.
 
 * Wenn eine Aufgabe oder ein Problem einem Team zugewiesen wird und Sie auch einen Benutzer zuweisen, bleibt die Aufgabe oder das Problem sowohl dem Team als auch dem Benutzer zugewiesen.
 
