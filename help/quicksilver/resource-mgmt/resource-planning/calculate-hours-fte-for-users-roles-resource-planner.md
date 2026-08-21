@@ -20,7 +20,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
 source-wordcount: 1325
 ht-degree: 2%
@@ -60,7 +60,7 @@ Der Workfront-Administrator bestimmt, wie die verfügbare Zeit für einen Benutz
 * Der Standardzeitplan des Systems und das FTE des Benutzers.
 * Der Zeitplan des Benutzers.
 
-![Systemeinstellung für Benutzerzeitpläne](assets/setup-resource-mgmt.png)
+![Systemeinstellung für Benutzerzeitpläne](assets/resource-management-preferences-section-in-setup.png)
 
 >[!NOTE]
 >
@@ -70,31 +70,31 @@ Je nachdem, wie diese Einstellung konfiguriert ist, wird die Verfügbarkeit der 
 
 * **Standardzeitplan**: Der Standardzeitplan des Systems und das Vollzeitäquivalent (FTE) des Benutzers werden verwendet, um die verfügbaren Stunden und den FTE-Wert für den Benutzer im Ressourcenplaner zu bestimmen. Der Zeitplan des Benutzers wird ignoriert. In diesem Fall:
 
-   * Die verfügbaren Stunden im Ressourcenplaner werden anhand der folgenden Formel berechnet:
+  * Die verfügbaren Stunden im Ressourcenplaner werden anhand der folgenden Formel berechnet:
 
-     `User Available Hours = Default Schedule Hours * User FTE value`
+    `User Available Hours = Default Schedule Hours * User FTE value`
 
-     Wenn beispielsweise der Standardzeitplan 40 Stunden pro Woche für Arbeit zur Verfügung hat und der FTE-Wert des Benutzers 0,5 ist, kann der Benutzer 20 Stunden pro Woche im Ressourcenplaner arbeiten.
+    Wenn beispielsweise der Standardzeitplan 40 Stunden pro Woche für Arbeit zur Verfügung hat und der FTE-Wert des Benutzers 0,5 ist, kann der Benutzer 20 Stunden pro Woche im Ressourcenplaner arbeiten.
 
-     Weitere Informationen zu Zeitplänen, einschließlich des Standardzeitplans, finden Sie unter [Erstellen eines Zeitplans](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+    Weitere Informationen zu Zeitplänen, einschließlich des Standardzeitplans, finden Sie unter [Erstellen eines Zeitplans](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-   * Der verfügbare VZÄ für den Benutzer im Ressourcenplaner ist derselbe wie der in den Benutzereinstellungen angegebene VZÄ für den Benutzer.
+  * Der verfügbare VZÄ für den Benutzer im Ressourcenplaner ist derselbe wie der in den Benutzereinstellungen angegebene VZÄ für den Benutzer.
 
-     Wenn beispielsweise der Benutzer-FTE in den Benutzereinstellungen 0,5 beträgt, ist der verfügbare FTE des Benutzers im Ressourcenplaner 0,5. Weitere Informationen zum FTE-Wert des Benutzers, wie er in den Benutzereinstellungen angezeigt wird, [&#x200B; Sie unter „Bearbeiten des Benutzerprofils](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+    Wenn beispielsweise der Benutzer-FTE in den Benutzereinstellungen 0,5 beträgt, ist der verfügbare FTE des Benutzers im Ressourcenplaner 0,5. Weitere Informationen zum FTE-Wert des Benutzers, wie er in den Benutzereinstellungen angezeigt wird, [&#x200B; Sie unter „Bearbeiten des Benutzerprofils](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * **Zeitplan des Benutzers**: Der Zeitplan des Benutzers wird verwendet, um die Verfügbarkeit des Benutzers im Ressourcenplaner zu bestimmen. Der Wert des Vollzeitäquivalents (FTE) des Benutzers wird ignoriert. In diesem Fall:
 
-   * Die verfügbaren Stunden im Ressourcenplaner sind mit den Stunden im Zeitplan des Benutzers identisch.
+  * Die verfügbaren Stunden im Ressourcenplaner sind mit den Stunden im Zeitplan des Benutzers identisch.
 
-     Wenn beispielsweise im Zeitplan des Benutzers 40 Stunden pro Woche für Arbeit verfügbar sind, kann der Benutzer 40 Stunden pro Woche im Ressourcenplaner arbeiten.
+    Wenn beispielsweise im Zeitplan des Benutzers 40 Stunden pro Woche für Arbeit verfügbar sind, kann der Benutzer 40 Stunden pro Woche im Ressourcenplaner arbeiten.
 
-   * Das verfügbare FTE im Ressourcenplaner wird anhand der folgenden Formel berechnet:
+  * Das verfügbare FTE im Ressourcenplaner wird anhand der folgenden Formel berechnet:
 
-     `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
+    `User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours`
 
-     Wenn beispielsweise der Zeitplan des Benutzers 20 Stunden für die Arbeit zur Verfügung hat und der Standardzeitplan in Workfront 40 Stunden für die Arbeit zur Verfügung hat, beträgt der FTE-Wert des Benutzers 0,5.
+    Wenn beispielsweise der Zeitplan des Benutzers 20 Stunden für die Arbeit zur Verfügung hat und der Standardzeitplan in Workfront 40 Stunden für die Arbeit zur Verfügung hat, beträgt der FTE-Wert des Benutzers 0,5.
 
-     Weitere Informationen zu Zeitplänen, einschließlich des Standardzeitplans, finden Sie unter [Erstellen eines Zeitplans](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+    Weitere Informationen zu Zeitplänen, einschließlich des Standardzeitplans, finden Sie unter [Erstellen eines Zeitplans](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 >[!NOTE]
 >
@@ -104,8 +104,9 @@ Je nachdem, wie diese Einstellung konfiguriert ist, wird die Verfügbarkeit der 
 
 Zuerst müssen Sie die Benutzerverfügbarkeit berechnen, und dann können Sie die Verfügbarkeit der einzelnen Aufgabengebiete berechnen.
 
-Die Verfügbarkeit von Aufgabengebieten im Ressourcenplaner berücksichtigt die Gesamtverfügbarkeit des Benutzers und den Prozentsatz der FTE-Verfügbarkeit, der mit jeder Funktion des Benutzers verknüpft ist.\
-![percent_of_fte_available_at_the_user_level.png](assets/percent-of-fte-availability-at-the-user-level-350x144.png)
+Die Verfügbarkeit von Aufgabengebieten im Ressourcenplaner berücksichtigt die Gesamtverfügbarkeit des Benutzers und den Prozentsatz der FTE-Verfügbarkeit, der mit jeder Funktion des Benutzers verknüpft ist.
+
+![percent_of_fte_available_at_the_user_level.png](assets/percent-of-fte-availability-at-the-user-level.png)
 
 Weitere Informationen zum Verknüpfen eines Prozentsatzes der FTE-Verfügbarkeit mit einem Aufgabengebiet für einen Benutzer finden Sie unter [Bearbeiten des Benutzerprofils](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 

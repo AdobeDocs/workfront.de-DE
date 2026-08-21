@@ -5,10 +5,10 @@ title: Adobe Workfront MCP-Server-Tools
 description: Referenzliste der über den Adobe Workfront MCP-Server verfügbaren Tools, gruppiert nach Workfront-Bereich.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 2de2dd8d79af0929f010cda304f8d1e008deb553
+source-git-commit: c52aa353d5b9856cc6c7de458596f0145fb2c6e0
 workflow-type: tm+mt
-source-wordcount: '2705'
-ht-degree: 5%
+source-wordcount: '2721'
+ht-degree: 4%
 
 ---
 
@@ -110,8 +110,8 @@ Wenn die KI-Agentenplattform Workfront-Elemente finden, diese jedoch nicht erste
 
 | Titel | Tool-Name | Funktion | Aktion |
 | --- | --- | --- | --- |
-| Projekt nach Namen suchen | `approvals_find_project_by_name` | Sucht Workfront-Projekte nach einer teilweisen Namensübereinstimmung im gesamten System. | Lesen |
-| Projekte nach Besitzer abrufen | `approvals_get_projects_by_owner` | Listet Workfront-Projekte auf, deren Besitzer der aufrufende Benutzer ist. | Lesen |
+| Projekt nach Namen suchen | `approvals_find_project_by_name` | Entfernt am 13. August 2026. Verwenden Sie stattdessen `insights_find_id_by_name` . Dieses Tool suchte Workfront-Projekte nach einer teilweisen Namensübereinstimmung im gesamten System. | Lesen |
+| Projekte nach Besitzer abrufen | `approvals_get_projects_by_owner` | Entfernt am 13. August 2026. Verwenden Sie stattdessen `insights_find_workfront_data` . In diesem Tool wurden Workfront-Projekte aufgelistet, deren Besitzer der aufrufende Benutzer war. | Lesen |
 | Aktuellen Benutzer abrufen | `approvals_get_current_user` | Entfernt am 13. August 2026. Dieses Tool hat die Workfront-Identität des aufrufenden Benutzers zurückgegeben, einschließlich Name, Benutzer-ID, Name des Home-Teams und ID des Home-Teams. Eine ähnliche Funktion finden Sie unter [Abrufen des aktuellen Benutzers](#insights-tools) unter Einblicke-Tools. | Lesen |
 | Benutzer nach Namen suchen | `approvals_find_user_by_name` | Veraltet. Verwenden Sie stattdessen `insights_search_users` . Dieses Tool suchte die ID eines Workfront-Benutzers nach Name (unscharf oder teilweise Übereinstimmung), zurückgebendem Namen, ID, E-Mail-Adresse, Titel und Avatar-URL. | Lesen |
 | Team nach Namen suchen | `approvals_find_team_by_name` | Veraltet. Verwenden Sie stattdessen `insights_find_id_by_name` . Dieses Tool suchte die ID eines Workfront-Teams anhand des Namens (unscharf oder teilweise Übereinstimmung). | Lesen |

@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
-source-wordcount: 644
+source-wordcount: 647
 ht-degree: 6%
 
 ---
@@ -120,12 +120,12 @@ Es wird empfohlen, Folgendes zu tun, bevor Sie ein nicht verwendetes Aufgabengeb
 {{step-1-to-setup}}
 
 1. Klicken Sie im linken Bedienfeld auf &#x200B;**[!UICONTROL Aufgabengebiete].**
-1. (Optional) Wählen Sie im Dropdown **[!UICONTROL Menü]** Filter **[!UICONTROL die Option „Aktiv]** aus, um nur aktive Aufgabengebiete anzuzeigen.
-1. Klicken Sie auf den Namen des Aufgabengebiets, das Sie deaktivieren möchten.
-1. Wählen Sie im Dropdown **[!UICONTROL Menü]** Ist aktiv“ die Option **[!UICONTROL Nein]** aus.
+1. (Optional) Wählen Sie in der **[!UICONTROL Filter]**-Liste die Option **[!UICONTROL Aktiv]** aus, um nur aktive Aufgabengebiete anzuzeigen.
+1. Aktivieren Sie das Kontrollkästchen neben dem Aufgabengebiet, das Sie deaktivieren möchten, und klicken Sie auf das [!UICONTROL **Bearbeiten**]-Symbol [Bearbeiten](assets/edit-icon.png).
+1. Wählen Sie für das Feld **[!UICONTROL Ist aktiv]** die Option **[!UICONTROL Nein]** aus.
 
-   ![Aufgabengebiet deaktivieren](assets/deactivate-job-role-edit-role-box-nwe.png)
+   ![Aufgabengebiet deaktivieren](assets/edit-job-role.png)
 
-1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
    Das Aufgabengebiet ist deaktiviert und kann nicht mehr der Arbeit zugewiesen und mit Layout-Vorlagen verknüpft werden usw. Informationen zu allen Verwendungen von Aufgabengebieten in [!DNL Workfront] finden Sie unter [Aufgabengebiet - Übersicht](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).

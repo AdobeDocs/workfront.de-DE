@@ -4,9 +4,9 @@ description: Diese Seite enthält Informationen zur Funktionalität, die in der 
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c4f48ea9c228e815366230643f5335d116c66597
+source-git-commit: 26c7853f4ce663deda6ed98484acc69b02ec5bad
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1430'
 ht-degree: 13%
 
 ---
@@ -60,12 +60,12 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Interface improvements to the Actions list</a>
                 <p>The Actions list in the Update Feeds section of the Setup area has an updated look and feel.</p>
             </td>
-            <td><p>August 13, 2026</p></td>
+            <td><p>August 20, 2026</p></td>
             <td><p>September 17, 2026</p></td>
             <td><p>October 15, 2026</p></td>
         </tr>
- -->  
-      <tr>
+-->
+        <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Gruppenadministratoren können Geschäftsprofile verwalten</a>
                 <p>Gruppenadministratoren können jetzt Geschäftsprofile für die von ihnen verwalteten Gruppen erstellen, bearbeiten und löschen, ohne dass sie Systemadministratorzugriff benötigen.</p>
@@ -221,8 +221,8 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Verknüpfen von Inhalten und Ordnern aus Experience Manager Assets mit dem Adobe Cloud-Speicher</a>
-                <p>Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, können Sie einzelne Assets oder ganze Ordner aus Experience Manager Assets mit jedem Workfront-Objekt verknüpfen, das Dokumente unterstützt.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Verknüpfen von Assets aus Experience Manager Assets mit dem Adobe-Cloud-Speicher</a>
+                <p>Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, können Sie einzelne Assets aus Experience Manager Assets mit jedem Workfront-Objekt verknüpfen, das Dokumente unterstützt.</p>
             </td>
             <td><p>30. Juli 2026</p></td>
             <td><p>13. August 2026</p></td>
@@ -274,17 +274,6 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             <td><p>17. September 2026</p></td>
             <td><p>15. Oktober 2026</p></td>
         </tr>
-<!--
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Updated column headers for dependent connected record fields</a>
-                <p>Visual improvements have been made to the column headers for a dependent connected record field in the table view.</p>
-            </td>
-            <td><p>August 13, 2026</p></td>
-            <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
-        </tr>
--->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Native Referenzfelder stehen für Listen und Berichte zur Verfügung</a>

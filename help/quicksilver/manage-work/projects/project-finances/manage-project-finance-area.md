@@ -19,9 +19,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
-source-wordcount: 1282
+source-wordcount: 1277
 ht-degree: 6%
 
 ---
@@ -81,7 +81,7 @@ Beachten Sie beim Anzeigen oder Bearbeiten von Informationen im Bereich „Finan
 1. Klicken Sie **linken** auf „Projektdetails“.
 1. Klicken Sie auf **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png) in der oberen rechten Ecke des Abschnitts Details und dann auf **Finanzen**.
 
-   ![Finanzbereich in der Detailansicht](assets/finance-area-in-details-view-only-nwe-350x188.png)
+   ![Finanzbereich in der Detailansicht](assets/finance-area-in-details-view.png)
 
    >[!NOTE]
    >
@@ -147,15 +147,15 @@ Beachten Sie beim Anzeigen oder Bearbeiten von Informationen im Bereich „Finan
 
 ## Finanzinformationen zu einem Projekt bearbeiten
 
-Als Projektbesitzer können Sie die Informationen auf der Unterregisterkarte „Finanzen“ eines Projekts bearbeiten.
+Als Projektbesitzer können Sie die Informationen im Bereich Finanzen eines Projekts bearbeiten.
 
-So bearbeiten Sie Informationen zur Unterregisterkarte „Projektfinanzierung“:
+So bearbeiten Sie Informationen im Projektfinanzierungsbereich:
 
-1. Wechseln Sie zu einem Projekt, dessen Besitzer Sie sind.
+1. Navigieren Sie zu einem Projekt in Ihrem Besitz.
 
    >[!NOTE]
    >
-   >Sie müssen Berechtigungen verwalten für das Projekt, um die folgenden Schritte ausführen zu können. Es wird außerdem empfohlen, dass nur der/die Projektbesitzer(in) Änderungen an der Unterregisterkarte Finanzen des Projekts vornehmen sollte.
+   >Sie müssen Berechtigungen verwalten für das Projekt, um die folgenden Schritte ausführen zu können. Wir empfehlen auch, dass nur der Projektinhaber Änderungen am Finanzierungsbereich des Projekts vornehmen sollte.
 
 1. Klicken Sie **linken** auf „Projektdetails“.
 1. Klicken Sie auf **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png) in der oberen rechten Ecke des Abschnitts Details und dann auf **Finanzen**. Dadurch wird der Bereich Finanzen zur Bearbeitung geöffnet.
@@ -165,13 +165,11 @@ So bearbeiten Sie Informationen zur Unterregisterkarte „Projektfinanzierung“
    >
    >Felder können nicht bearbeitet werden, wenn sie automatisch von Workfront berechnet werden oder wenn keine Bearbeitungsberechtigungen dafür vorliegen.
 
-   ![Finanzbereich bearbeiten](assets/edit-finance-area-in-project-details-nwe-350x275.png)
-
-1. Aktualisieren Sie eines der folgenden Felder.
+1. Aktualisieren Sie eines der unten aufgeführten Felder.
 
    >[!NOTE]
    >
-   >Je nachdem, wie Ihr Workfront-Administrator Ihre Layout-Vorlage einrichtet, können die Felder im Abschnitt Projektdetails in Ihrer Umgebung unterschiedlich sein. Weitere Informationen finden Sie unter [Anpassen der Detailansicht mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Je nachdem, wie Ihr Workfront-Administrator Ihre Layout-Vorlage eingerichtet hat, können die Felder im Abschnitt Projektdetails in Ihrer Umgebung unterschiedlich sein. Weitere Informationen finden Sie unter [Anpassen der Detailansicht mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
    <table style="table-layout:auto"> 
     <col> 

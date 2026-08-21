@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: e889906dd08bbd6e307c33aa10fc9349b5c92d9f
 workflow-type: tm+mt
-source-wordcount: 3146
-ht-degree: 95%
+source-wordcount: 3308
+ht-degree: 94%
 
 ---
 
@@ -118,13 +118,13 @@ Die Abonnementressource enthält die folgenden Felder.
 
 * objId (optional)
 
-   * **String**: Die ID des Objekts des angegebenen objCode, für das Ereignisse ausgelöst werden. Wenn dieses Feld nicht angegeben ist, erhält der Benutzer bzw. die Benutzerin Ereignisse für alle Objekte des angegebenen Typs.
+  * **String**: Die ID des Objekts des angegebenen objCode, für das Ereignisse ausgelöst werden. Wenn dieses Feld nicht angegeben ist, erhält der Benutzer bzw. die Benutzerin Ereignisse für alle Objekte des angegebenen Typs.
 
 * objCode (erforderlich)
 
-   * **String**: Der objCode des Objekts, für das Änderungen abonniert sind. Die möglichen Werte für objCode sind in der folgenden Tabelle aufgeführt.
+  * **String**: Der objCode des Objekts, für das Änderungen abonniert sind. Die möglichen Werte für objCode sind in der folgenden Tabelle aufgeführt.
 
-     <table style="table-layout:auto"> 
+    <table style="table-layout:auto"> 
       <col> 
       <col> 
       <thead> 
@@ -263,19 +263,23 @@ Die Abonnementressource enthält die folgenden Felder.
 
 * eventType (erforderlich)
 
-   * **String**: Ein Wert, der den Ereignistyp darstellt, den das Objekt abonniert hat. Zu den verfügbaren Ereignistypen gehören:
+  * **String**: Ein Wert, der den Ereignistyp darstellt, den das Objekt abonniert hat. Zu den verfügbaren Ereignistypen gehören:
 
-      * CREATE
-      * LÖSCHEN
-      * AKTUALISIEREN
+    * CREATE
+    * LÖSCHEN
+    * AKTUALISIEREN
 
 * URL (erforderlich)
 
-   * **String**: Die URL des Endpunkts, an den Payloads von Abonnementereignissen über HTTP gesendet werden.
+  * **String**: Die URL des Endpunkts, an den Payloads von Abonnementereignissen über HTTP gesendet werden.
 
-* authToken (erforderlich)
+* authToken (beim Erstellen erforderlich)
 
-   * **String**: Das OAuth2-Bearer-Token, das zur Authentifizierung mit der im Feld „URL“ angegebenen URL verwendet wird.
+  * **String**: Das OAuth2-Bearer-Token, das zur Authentifizierung mit der im Feld „URL“ angegebenen URL verwendet wird. Die Antwort zur Abonnementerstellung enthält dieses Feld überhaupt nicht, und jede spätere Antwort, die es enthält, zeigt es maskiert an (nur die letzten 4 Zeichen). Da nach dem Senden nie der vollständige Wert zurückgegeben wird, empfehlen wir, eine Kopie des gesendeten Dokuments zu behalten.
+
+>[!NOTE]
+>
+>`authToken` wird immer in Antworten maskiert, wobei höchstens die letzten 4 Zeichen angezeigt werden (Beispiel: `****1234`). Wenn das Token 8 Zeichen oder kürzer ist, wird es stattdessen vollständig maskiert, sodass bei der Maskierung nie die Hälfte oder mehr eines kurzen Tokens angezeigt wird. Dies gilt für jeden Endpunkt, der Abonnementdetails zurückgibt, einschließlich des veralteten Listenendpunkts.
 
 ## Erstellen von API-Anfragen für Ereignisabonnements
 
@@ -430,7 +434,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
     "objCode": "PROJ",
     "url": "http://requestb.in/ua5hi2ua",
     "eventType": "UPDATE",
-    "authToken": "authTokenWorkfrontRocks1234_"
+    "authToken": "****234_"
     "subscription_url": {
         "url": "http://requestb.in/ua5hi2ua",
         "date_created": "2024-04-11T15:56:14.169489",
@@ -504,7 +508,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
     "objCode": "PROJ",
     "url": "http://requestb.in/ua5hi2ua",
     "eventType": "UPDATE",
-    "authToken": "authTokenWorkfrontRocks1234_"
+    "authToken": "****234_"
     "subscription_url": {
         "url": "http://requestb.in/ua5hi2ua",
         "date_created": "2024-04-11T15:56:14.169489",
@@ -631,10 +635,10 @@ Beispielsweise kann ein Ereignisabonnement des Typs **UPDATE – TASK** so eing
 * Wenn einem einzelnen Objekt mehrere Ereignisabonnements zugewiesen sind, können alle mit diesem Objekt verknüpften Ereignisabonnements an einen einzelnen Endpunkt zurückgegeben werden. Diese Vorgehensweise kann als gleichwertiger Ersatz für den logischen Operator **ODER** verwendet werden, der nicht mit Filterparametern festgelegt werden kann.
 * Die folgenden Felder können nicht gefiltert werden:
 
-   * DOCU.groups
-   * RECORD.data
-   * RECORD_TYPE.data
-   * RECORD_TYPE.fields
+  * DOCU.groups
+  * RECORD.data
+  * RECORD_TYPE.data
+  * RECORD_TYPE.fields
 
 ### Verwenden von Vergleichsoperatoren
 
@@ -860,13 +864,13 @@ Dieser Filter ermöglicht den Empfang von Nachrichten nur dann, wenn das angegeb
 
 #### state
 
-Dieser Connector bewirkt, dass der Filter auf den neuen oder alten Status des Objekts angewendet wird, das erstellt oder aktualisiert wurde. Dies ist hilfreich, wenn Sie wissen möchten, wo eine Änderung von einer Sache zur anderen vorgenommen wurde.
-`oldState` ist auf CREATE `eventTypes` nicht möglich.
+Dieser Connector bewirkt, dass der Filter auf den neuen oder alten Status des Objekts angewendet wird, das erstellt oder aktualisiert wurde. Dies ist hilfreich, wenn Sie wissen möchten, wo eine Änderung von etwas zu etwas anderem vorgenommen wurde.
+`oldState` ist bei CREATE `eventTypes` nicht möglich.
 
 >[!NOTE]
 >
->Das Abonnement unten mit dem angegebenen Filter gibt nur Nachrichten zurück, bei denen der Name der Aufgabe `again` auf dem `oldState` enthält, wie er war, bevor eine Aktualisierung für die Aufgabe durchgeführt wurde.
->Ein Anwendungsfall hierfür wäre, die objCode-Nachrichten zu finden, die sich von einer Sache zur anderen geändert haben. So können Sie beispielsweise alle Aufgaben ermitteln, die von „Research Some name“ in „Research TeamName Some name“ geändert wurden
+>Das folgende Abonnement mit dem angegebenen Filter gibt nur Nachrichten zurück, bei denen der Name der Aufgabe `again` für `oldState` enthält, so wie er war, bevor eine Aktualisierung für die Aufgabe durchgeführt wurde.
+>Ein Anwendungsfall hierfür wäre, die objCode-Nachrichten zu finden, bei denen etwas in etwas anderes geändert wurde. So können Sie beispielsweise alle Aufgaben ermitteln, bei denen „Nach einem Namen suchen“ in „Nach einem Team-Namen suchen“ geändert wurde
 
 ```
 {
@@ -1031,8 +1035,8 @@ Das obige Beispiel enthält die folgenden Komponenten:
    * `{ "type": "group", "connector": "OR", "filters": [ { "fieldName": "status", "fieldValue": "CUR", "comparison": "eq" }, { "fieldName": "priority", "fieldValue": "1", "comparison": "eq" } ] }`
    * Bei dieser Gruppe werden zwei interne Filter ausgewertet:
 
-      * Der erste prüft, ob der Aufgabenstatus „CUR“ (aktuell) entspricht.
-      * Der zweite prüft, ob die Priorität gleich „1“ (hohe Priorität) ist.
+     * Der erste prüft, ob der Aufgabenstatus „CUR“ (aktuell) entspricht.
+     * Der zweite prüft, ob die Priorität gleich „1“ (hohe Priorität) ist.
    * Da der Connector „ODER“ ist, wird diese Gruppe übergeben, wenn eine der Bedingungen erfüllt ist.
 
 1. Connector der obersten Ebene (filterConnector: UND):
@@ -1370,7 +1374,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
                 "obj_code": "TASK",
                 "url": "http://test.test.net/test/1234",
                 "event_type": "UPDATE",
-                "auth_token": "auth_token"
+                "auth_token": "****oken"
                 },
                 {
                 "id": "750a636c-5628-48f5-ba26-26b7ce537ac2",
@@ -1379,7 +1383,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
                 "obj_code": "PROJ",
                 "url": "http://requestb.in/ua5hi2ua",
                 "event_type": "UPDATE",
-                "auth_token": "authTokenWorkfrontRocks1234_"
+                "auth_token": "****234_"
                 }                
                 ]
 ```

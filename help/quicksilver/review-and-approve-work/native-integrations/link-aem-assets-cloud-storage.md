@@ -1,23 +1,23 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: native-integrations
-title: Verknüpfen von Inhalten und Ordnern aus Experience Manager Assets mit dem Adobe Cloud-Speicher
-description: Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, können Sie Inhalte und Ordner aus Experience Manager Assets mit jedem Adobe Workfront-Objekt verknüpfen, das Dokumente unterstützt.
+title: Verknüpfen von Assets aus Experience Manager Assets mit dem Adobe-Cloud-Speicher
+description: Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, können Sie Assets aus Experience Manager Assets mit jedem Adobe Workfront-Objekt verknüpfen, das Dokumente unterstützt.
 author: Courtney
-source-git-commit: 66635b2edc78833ec2d08cef382b39b89238b565
+source-git-commit: b9eb36bbe792919e975cf27c06524755a3ef550b
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '935'
 ht-degree: 7%
 
 ---
 
-# Verknüpfen von Inhalten und Ordnern aus Experience Manager Assets mit dem Adobe Cloud-Speicher
+# Verknüpfen von Assets aus Experience Manager Assets mit dem Adobe-Cloud-Speicher
 
-Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, können Sie Inhalte und Ordner von Experience Manager Assets mit Workfront verknüpfen. Nach der Verknüpfung können Sie den Inhalt in Workfront anzeigen und verwalten. Alle Änderungen am Inhalt in Experience Manager Assets werden in Workfront übernommen.
+Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, können Sie Assets von Experience Manager Assets mit Workfront verknüpfen. Nach der Verknüpfung können Sie die Assets in Workfront anzeigen und verwalten. Alle Änderungen an den Assets in Experience Manager Assets werden in Workfront übernommen.
 
 >[!IMPORTANT]
 >
->Wenn Ihr Unternehmen die Unterzeichnung der GenAI-Reitervereinbarung ablehnt, können Sie weiterhin Content Advisor verwenden, um Assets und Ordner in Experience Manager Assets auszuwählen, Sie haben jedoch keinen Zugriff auf KI-gestützte Funktionen wie KI-Suchen, Smart-Vorschläge oder die Analyse von Kampagnenbeschreibungen.
+>Wenn Ihr Unternehmen die Unterzeichnung der GenAI-Rider-Vereinbarung ablehnt, können Sie weiterhin Content Advisor verwenden, um Assets in Experience Manager Assets auszuwählen, Sie haben jedoch keinen Zugriff auf KI-gestützte Funktionen wie KI-Suchen, Smart Suggestions oder die Analyse von Kampagnenbeschreibungen.
 
 ## Zugriffsanforderungen
 

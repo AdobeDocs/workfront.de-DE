@@ -17,9 +17,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
 workflow-type: tm+mt
-source-wordcount: 354
+source-wordcount: 352
 ht-degree: 9%
 
 ---
@@ -29,8 +29,6 @@ ht-degree: 9%
 Sie können Aufgabengebiete löschen, die Ihr Unternehmen nicht mehr verwendet. Es wird empfohlen, Aufgabengebiete nicht zu löschen, wenn sie in der Vergangenheit mit Arbeitselementen verknüpft waren.
 
 Um alle historischen Informationen über Arbeitsaufträge zu speichern, empfehlen wir, Rollen zu deaktivieren und nicht zu löschen, wenn sie veraltet sind. Informationen zum Deaktivieren von Rollen finden Sie unter [Deaktivieren von Aufgabengebieten](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
-
-## Zugriffsanforderungen
 
 ## Zugriffsanforderungen
 
