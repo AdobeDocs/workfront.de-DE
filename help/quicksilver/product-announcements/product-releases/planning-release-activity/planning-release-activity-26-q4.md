@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 81eb918df24ec95f911d7c91268239503af434ee
+source-git-commit: 9b6b1157cf93418e8863f2e99ebe87414a23378d
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Weitere Informationen finden Sie unter [Abhängige Verbindungen verwalten](/help
 >Vorschau: 13. August 2026
 >Produktions-Schnellveröffentlichung: 13. August 2026
 >Produktion für alle: 15. Oktober 2026
+>[!BADGE Außerplanmäßig]{type=Neutral}
 
 Es gibt neue visuelle Indikatoren, wenn Sie mehrere Zeilen in die Tabellenansicht ziehen und dort ablegen. Ein markanteres Pluszeichen und eine Zahlenanzeige zeigen jetzt an, wie viele Zeilen für die Drag-and-Drop-Aktion ausgewählt sind.
 
