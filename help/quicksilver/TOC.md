@@ -3,10 +3,10 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 3e5da889d33a67d9d80b2c978bb47510d49b8259
+source-git-commit: e5a288dcac20be9176d1541d531edaf0d8c99a8c
 workflow-type: tm+mt
-source-wordcount: '14435'
-ht-degree: 93%
+source-wordcount: '14443'
+ht-degree: 92%
 
 ---
 
@@ -2723,6 +2723,7 @@ ht-degree: 93%
   * [App Builder: Artikelindex](/help/quicksilver/app-builder/app-builder-toc.md)
   * [Abrufen und Installieren von Anwendungen aus Adobe Exchange](/help/quicksilver/app-builder/install-apps-on-exchange.md)
   * [Erstellen benutzerdefinierter Anwendungen für Workfront mit Adobe App Builder](/help/quicksilver/app-builder/app-builder.md)
+  * {hide-from-toc}[Erstellen von App Builder-Apps mit Claude Code-Kenntnissen](/help/quicksilver/app-builder/build-apps-with-claude-code-skills.md)
 * {hide-from-toc}[Ausgeblendetes Testdokument](hidden-test.md)
 * {hide-from-toc}[2 ausblenden](hidden-test-2.md)
 
