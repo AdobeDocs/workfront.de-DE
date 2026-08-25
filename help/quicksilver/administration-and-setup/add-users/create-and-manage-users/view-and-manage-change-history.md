@@ -6,10 +6,10 @@ description: Mit dem Änderungsverlauf können Sie ein Änderungsprotokoll für 
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 100b900bd7419d78a3135358026ec5e27755fdeb
+source-git-commit: 1e06115eb5688271e2a6f4c8a41647eb644d8292
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 6%
+source-wordcount: '523'
+ht-degree: 5%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 6%
 
 {{preview-fast-release-general}}
 
-Mit dem Änderungsverlauf können Sie Änderungen an Objekten und bestimmten Feldern in Adobe Workfront konfigurieren und verfolgen. Mit der flexiblen Konfiguration können Sie festlegen, welche Objekte und Felder Sie genau verfolgen möchten.
+Mit dem Änderungsverlauf kann der Systemadministrator Änderungen an Objekten und bestimmten Feldern in Adobe Workfront konfigurieren und verfolgen. Mit der flexiblen Konfiguration kann der Administrator festlegen, welche Objekte und Felder genau verfolgt werden.
 
-Der Änderungsverlauf kann die folgenden Datentypen verfolgen, die Sie definieren:
+Der Änderungsverlauf kann die folgenden Typen definierter Daten verfolgen:
 
 * Aktivität im Bereich „Setup“, z. B. Erstellen oder Löschen einer Zugriffsebene oder eines Aufgabengebiets
 * Aktualisierungen auf Feldebene, z. B. Bearbeiten einer Projektbeschreibung oder Ändern der Layout-Vorlage eines Benutzers
@@ -35,6 +35,11 @@ In der Liste „Änderungsverlauf“ können Sie das Änderungsprotokoll für Wo
 * Art der Änderung (Vorgang)
 * Datum und Uhrzeit der Änderung
 * Source der Änderung, z. B. bestimmte Benutzende, APIs, Workfront Fusion, KI-LLMs oder das Workfront-System
+
+>[!NOTE]
+>
+>Wenn Sie auf den Änderungsverlauf zugreifen, werden die verfolgten Änderungen nur für Felder angezeigt, für die Sie über die Berechtigung zum Anzeigen verfügen.
+>Wenn beispielsweise Finanzdaten in Projekten verfolgt werden und Sie keinen Zugriff auf Finanzdaten haben, werden die Finanzfelder in der Liste „Änderungsverlauf“ nicht angezeigt.
 
 ## Zugriffsanforderungen
 
@@ -63,25 +68,6 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 +++
 
-<!--
-## View the Configuration area for change tracking
-
->[!NOTE]
->
->In the Production environment, Configuration is currently available only as information and cannot be changed. The ability to change which fields are tracked will be available in the near future.
-
-To view the types of changes that are tracked: 
-
-{{step-1-to-setup}}
-
-1. In the left panel, click **Change Tracking > Configuration**.
-   
-   Fields are displayed grouped by object type.
-
-1. To display fields under a specific object, click the dropdown arrow next to the object type.
--->
-
-
 ## Anzeigen des Änderungsverlaufs
 
 Sie können die Änderungsprotokolle im Bereich „Setup“ einsehen.
@@ -101,7 +87,7 @@ Die Liste „Änderungsverlauf“ ist eine erweiterte Liste und enthält Filter,
 1. Um nach einem bestimmten Begriff zu suchen, klicken Sie in das Suchfeld und geben Sie den Begriff ein. Die Ergebnisse werden bei der Eingabe in der Liste hervorgehoben.
 1. (Optional) Informationen zum Filtern nach einer Spalte finden Sie unter [Filtern von Elementen in einer erweiterten Liste](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#filter-items-in-an-enhanced-list) im Artikel [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 1. (Optional) Informationen zum Ausblenden, Anzeigen oder Neuanordnen von Spalten finden Sie unter [Spalten anpassen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#customize-columns) im Artikel [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
-1. (Optional) Informationen zum Hinzufügen oder Entfernen von Spalten finden Sie unter [Hinzufügen und Entfernen von Spalten mit &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager) Spaltenmanager“ im Artikel [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+1. (Optional) Informationen zum Hinzufügen oder Entfernen von Spalten finden Sie unter [Hinzufügen und Entfernen von Spalten mit ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#add-and-remove-columns-with-the-column-manager) Spaltenmanager“ im Artikel [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 1. (Optional) Informationen zum Anpassen der Zeilenhöhe finden Sie unter [Ändern der Zeilenhöhe in einer Ansicht](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md#change-the-row-height-in-a-view) im Artikel [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 ## Änderungsverlauf exportieren
