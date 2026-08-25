@@ -7,22 +7,14 @@ author: Lisa
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
 TQID: https://experienceleague.adobe.com/--QshuygnTfcEJtt6-Tx-2QtNT-5p9TrTWaQTMBZNAg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 751
+source-wordcount: 767
 ht-degree: 7%
 
 ---
@@ -68,13 +60,13 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 ## Arbeitszeittabellen bearbeiten
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) oben rechts in Adobe Workfront und dann auf **Arbeitszeittabellen**.
+{{step1-to-timesheets}}
 
-   Der **Alle**-Filter ist standardmäßig ausgewählt. Er zeigt alle Arbeitszeittabellen an, auf die Sie Zugriff haben.
+Der **Alle**-Filter ist standardmäßig ausgewählt. Er zeigt alle Arbeitszeittabellen an, auf die Sie Zugriff haben.
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![Arbeitszeittabellen-Liste mit einer ausgewählten Arbeitszeittabelle](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
-1. (Optional) Klicken Sie auf das **Suchen**-Symbol ![](assets/search-icon.png) geben Sie einen Suchbegriff ein und suchen Sie nach einer bestimmten Arbeitszeittabelle. Sie können beispielsweise nach einem Arbeitszeittabellen-Zeitrahmen oder einem Eigentümernamen suchen.
+1. (Optional) Klicken Sie auf das **Suche**-Symbol ![Suchsymbol](assets/search-icon.png) und geben Sie einen Suchbegriff ein und suchen Sie nach einer bestimmten Arbeitszeittabelle. Sie können beispielsweise nach einem Arbeitszeittabellen-Zeitrahmen oder einem Eigentümernamen suchen.
 
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um den Filter in der Liste der Arbeitszeittabellen zu aktualisieren:
 
@@ -86,9 +78,9 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
      Dadurch werden die Filter Meine Arbeitszeittabellen-Genehmigungen oder Meine Arbeitszeittabellen auf die Liste der Arbeitszeittabellen angewendet.
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![Meine Arbeitszeittabellen-Filterschaltflächen auf der Seite mit der Arbeitszeittabellen-Liste](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Klicken Sie auf das Filtersymbol ![](assets/filter-nwepng.png) , um einen anderen Filter anzuwenden, oder erstellen Sie einen neuen. Informationen zum Erstellen oder Aktualisieren von Filtern finden Sie unter [Erstellen oder Bearbeiten von Filtern in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Klicken Sie auf das Filtersymbol ![Filtersymbol](assets/filter-nwepng.png), um einen anderen Filter anzuwenden oder einen neuen zu erstellen. Informationen zum Erstellen oder Aktualisieren von Filtern finden Sie unter [Erstellen oder Bearbeiten von Filtern in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
@@ -100,7 +92,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
    >   
    >
 
-1. (Optional) Klicken Sie auf **Ansicht** ![](assets/view-icon.png) oder **Gruppierung** ![](assets/grouping.png) Symbole, um eine andere Ansicht oder Gruppierung anzuwenden oder eine neue zu erstellen.
+1. (Optional) Klicken Sie auf **Ansicht** ![Ansichtssymbol](assets/view-icon.png) oder **Gruppierung** ![Gruppierungssymbol](assets/grouping.png), um eine andere Ansicht oder Gruppierung anzuwenden oder eine neue zu erstellen.
 
    Informationen zum Erstellen von Filtern, Ansichten oder Gruppierungen finden Sie in den folgenden Artikeln:
 
@@ -108,7 +100,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
    * [Erstellen oder Bearbeiten von Ansichten in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Erstellen von Gruppierungen in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. Wählen Sie eine oder mehrere Arbeitszeittabellen aus und klicken Sie dann oben in **Arbeitszeittabellenliste auf** Bearbeiten![](assets/edit-icon.png).
+1. Wählen Sie eine oder mehrere Arbeitszeittabellen aus und klicken Sie dann oben in **Arbeitszeittabellenliste auf** Bearbeiten![Symbol ](assets/edit-icon.png)Bearbeiten“.
 1. Zeigen Sie die folgenden Informationen an oder geben Sie sie an:
 
    <table style="table-layout:auto"> 
