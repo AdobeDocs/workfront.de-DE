@@ -6,10 +6,10 @@ description: Sie können ein Arbeitszeittabellen-Profil löschen, das möglicher
 author: Lisa
 feature: Timesheets
 exl-id: 1fb39f74-205b-485e-9e8b-a2ab3f9f1ac4
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: 0a3a49ff0e6347e0a0b327fcd692d5e1d9598f08
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 17%
+source-wordcount: '259'
+ht-degree: 18%
 
 ---
 
@@ -56,20 +56,22 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 {{step-1-to-setup}}
 
-1. Wenn Sie ein Arbeitszeittabellen-Profil auf Systemebene löschen, klicken Sie auf **Arbeitszeittabelle und Stunden**.
+1. Wenn Sie ein Arbeitszeittabellen-Profil auf Systemebene löschen, klicken Sie auf **Arbeitszeittabellen und Stunden > Arbeitszeittabellen-Profile**.
 
    ODER
 
-   Wenn Sie ein Arbeitszeittabellen-Profil für eine Gruppe löschen, klicken Sie auf **Gruppen** > auf den Namen der Gruppe und dann auf **Arbeitszeittabellen-Profile**.
-1. Wählen Sie mindestens ein Arbeitszeittabellen-Profil aus, das Sie löschen möchten, und klicken Sie dann für das systemweite Arbeitszeittabellen-Profil auf das **Mehr**-Symbol ![Mehr](assets/more-icon.png) > **Löschen**.
+   Wenn Sie ein Arbeitszeittabellen-Profil für eine Gruppe löschen möchten, klicken Sie auf **Gruppen** > auf den Namen der Gruppe und dann auf **Arbeitszeittabellen-Profile**.
 
-1. Klicken Sie **Arbeitszeittabellen-Profile**.
-1. Wählen Sie mindestens ein Arbeitszeittabellen-Profil aus, das Sie löschen möchten, und klicken Sie dann auf das Symbol Mehr ![Mehr](assets/more-icon.png) > **Löschen**.
-ODER
-Klicken Sie für **Arbeitszeittabellen-Profil auf** > **Löschen**.
+1. Wählen Sie auf Systemebene mindestens ein Arbeitszeittabellen-Profil aus, das Sie löschen möchten, und klicken Sie dann auf das Symbol **Mehr** ![Mehr](assets/more-icon.png) > **Löschen**.
+
+   ODER
+
+   Klicken Sie für **Arbeitszeittabellen-Profil auf** > **Löschen**.
+
 1. (Bedingt) Wenn das Arbeitszeittabellen-Profil bereits Benutzenden zugewiesen ist, wird das Feld **Ersatz-Arbeitszeittabellen** angezeigt. Gehen Sie folgendermaßen vor:
    1. Wählen Sie in der Dropdown-Liste ein anderes Arbeitszeittabellen-Profil aus. Das Arbeitszeittabellen-Profil, das Sie löschen möchten, wird durch das Arbeitszeittabellen-Profil ersetzt, durch das Sie es für alle zugewiesenen Benutzer ersetzen. Arbeitszeittabellen werden entsprechend dem neu zugewiesenen Profil im folgenden Arbeitszeittabellen-Generierungszyklus generiert.
    1. Klicken Sie auf **Löschen**, um den Löschvorgang zu bestätigen.
+
 1. (Bedingt) Wenn das Arbeitszeittabellen-Profil keinen Benutzenden zugewiesen ist, wird das Feld **Arbeitszeittabelle löschen** angezeigt.
 
    Klicken Sie **Löschen**, um den Löschvorgang zu bestätigen.

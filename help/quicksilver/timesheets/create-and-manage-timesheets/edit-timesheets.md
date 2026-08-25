@@ -7,22 +7,14 @@ author: Lisa
 feature: Timesheets
 exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
 TQID: https://experienceleague.adobe.com/--QshuygnTfcEJtt6-Tx-2QtNT-5p9TrTWaQTMBZNAg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0a3a49ff0e6347e0a0b327fcd692d5e1d9598f08
 workflow-type: tm+mt
-source-wordcount: 767
+source-wordcount: 757
 ht-degree: 7%
 
 ---
@@ -92,13 +84,7 @@ Der **Alle**-Filter ist standardmäßig ausgewählt. Er zeigt alle Arbeitszeitta
 
    >[!NOTE]
    >
-   >Die Optionen Meine Arbeitszeittabellen-Genehmigungen und Meine Arbeitszeittabellen werden nicht oben in der Arbeitszeittabellen-Liste oder in der Filterliste angezeigt, wenn Workfront-Admins oder Gruppenadmins die Filter Meine Arbeitszeittabellen und Meine Arbeitszeittabellen entweder aus den Listensteuerelementen im Setup-Bereich oder aus Ihrer Layoutvorlage entfernt haben. Weitere Informationen finden Sie in den folgenden Artikeln:
-   >
-   >   
-   >   
-   >   * [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layout-Vorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >   
-   >
+   >Die Optionen Meine Arbeitszeittabellen-Genehmigungen und Meine Arbeitszeittabellen werden nicht oben in der Arbeitszeittabellenliste oder in der Filterliste angezeigt, wenn Workfront-Admins oder Gruppenadmins diese Filter entweder aus den Listensteuerelementen im Bereich Setup oder aus Ihrer Layoutvorlage entfernt haben. Weitere Informationen finden Sie unter [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layout-Vorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
 1. (Optional) Klicken Sie auf **Ansicht** ![Ansichtssymbol](assets/view-icon.png) oder **Gruppierung** ![Gruppierungssymbol](assets/grouping.png), um eine andere Ansicht oder Gruppierung anzuwenden oder eine neue zu erstellen.
 
@@ -108,7 +94,7 @@ Der **Alle**-Filter ist standardmäßig ausgewählt. Er zeigt alle Arbeitszeitta
    * [Erstellen oder Bearbeiten von Ansichten in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Erstellen von Gruppierungen in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. Wählen Sie eine oder mehrere Arbeitszeittabellen aus und klicken Sie dann oben in **Arbeitszeittabellenliste auf** Bearbeiten![Symbol &#x200B;](assets/edit-icon.png)Bearbeiten“.
+1. Wählen Sie eine oder mehrere Arbeitszeittabellen aus und klicken Sie dann oben in **Arbeitszeittabellenliste auf** Bearbeiten![Symbol ](assets/edit-icon.png)Bearbeiten“.
 1. Zeigen Sie die folgenden Informationen an oder geben Sie sie an:
 
    <table style="table-layout:auto"> 
@@ -146,7 +132,7 @@ Der **Alle**-Filter ist standardmäßig ausgewählt. Er zeigt alle Arbeitszeitta
       <td> <p>Wählen Sie diese Option aus, wenn Sie genehmigenden Personen erlauben möchten, Stunden auf der Arbeitszeittabelle zu bearbeiten.</p> <p>Diese Option ist nicht verfügbar, wenn Sie mehrere Arbeitszeittabellen auswählen. </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><span style="font-weight: bold;">Überstunden</span> </td> 
+      <td role="rowheader"><strong>Überstunden</strong> </td> 
       <td> <p>Sie können das Feld „Überstunden“ auf der Arbeitszeittabelle ausblenden.</p> <p>Standardmäßig ist diese Option deaktiviert.</p> </td> 
      </tr> 
     </tbody> 
