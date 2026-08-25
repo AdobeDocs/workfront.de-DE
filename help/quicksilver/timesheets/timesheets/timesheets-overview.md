@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 515
+source-wordcount: 525
 ht-degree: 3%
 
 ---
@@ -68,17 +68,17 @@ So greifen Sie auf eine Arbeitszeittabelle zu:
 
 Alle Arbeitszeittabellen sowie Arbeitszeittabellen, auf die Sie standardmäßig zugreifen können, werden angezeigt. Weitere Informationen zum Arbeitszeittabellen-Layout in Adobe Workfront finden Sie unter [Arbeitszeittabellen-Layout - Übersicht](../../timesheets/timesheets/timesheet-layout.md).
 
-![](assets/all-timesheets-list-nwe-350x68.png)
+![Liste aller Arbeitszeittabellen](assets/all-timesheets-list-nwe-350x68.png)
 
 1. Klicken Sie auf eine der folgenden Optionen oben rechts, um Ihre Arbeitszeittabellen anzuzeigen:
 
    * **Meine Arbeitszeittabellen**, um nur Ihre Arbeitszeittabellen anzuzeigen.
 
-   ![](assets/my-timesheets-list-various-statuses-nwe-350x60.png)
+   ![Meine Arbeitszeittabellen-Liste](assets/my-timesheets-list-various-statuses-nwe-350x60.png)
 
    * **Meine Arbeitszeittabellen-Genehmigungen**, um nur von Ihnen genehmigte Arbeitszeittabellen anzuzeigen.
 
-     ![](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)
+     ![Arbeitszeittabellen, die ich genehmige](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)
 
 
 1. (Optional) Aktualisieren Sie Ansicht, Filter und Gruppierung oben in der Liste der Arbeitszeittabellen. Weitere Informationen finden Sie unter [Berichterstellungselemente: Filter, Ansichten und Gruppierungen](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).

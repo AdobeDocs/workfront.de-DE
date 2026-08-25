@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 72ac73dc7ea9ec111a95288d361c554c6364ca93
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 4246
+source-wordcount: 4292
 ht-degree: 1%
 
 ---
@@ -122,12 +122,12 @@ Sie können Zeit für die folgenden Elemente in der Arbeitszeittabelle protokoll
 
 So protokollieren Sie die Zeit in einer Arbeitszeittabelle:
 
-{{step1-click-main-menu}}
+{{step1-to-timesheets}}
 
-1. Klicken Sie [!UICONTROL **Arbeitszeittabellen**]. Ihre aktuelle Arbeitszeittabelle wird standardmäßig angezeigt.
-   ![Arbeitszeittabelle](assets/timesheet-layout-leftnav-updated.png)
+Ihre aktuelle Arbeitszeittabelle wird standardmäßig angezeigt.
+![Arbeitszeittabelle](assets/timesheet-layout-leftnav-updated.png)
 
-1. (Optional) Klicken Sie auf das Symbol **Vollbild**, ![](assets/full-screen.png) die Arbeitszeittabelle im Vollbildmodus anzuzeigen, und klicken Sie dann auf das Symbol **exit-full-screen![](assets/exit-full-screen.png), um** Arbeitszeittabelle zurückzukehren.
+1. (Optional) Klicken Sie auf das **Vollbildsymbol**-Symbol ![Vollbildsymbol](assets/full-screen.png), um die Arbeitszeittabelle im Vollbildmodus anzuzeigen, und klicken Sie dann auf das Symbol **Exit-Full-Screen** ![Exit Full-Screen](assets/exit-full-screen.png), um zur Arbeitszeittabelle zurückzukehren.
 
    <!-- drafted for the resize columns in timesheet story: 1. (optional) Click on the separator lines between weeks or between the time frame area and the work item area to resize the columns of the timesheet.-->
 
@@ -164,7 +164,7 @@ So protokollieren Sie die Zeit in einer Arbeitszeittabelle:
 
    <!--(ensure this stays accurate)-->
 
-1. (Optional) Klicken Sie auf **Reduzieren** ![](assets/collapse-icon.png) oder **&#x200B;**&#x200B;Erweitern![](assets/expand-icon.png) neben dem Projektnamen, um die Liste der Aufgaben und Probleme für das Projekt entweder anzuzeigen oder auszublenden.
+1. (Optional) Klicken Sie auf **Reduzieren** ![Reduzieren-Symbol](assets/collapse-icon.png) oder **Erweitern** ![Erweitern-Symbol](assets/expand-icon.png) neben dem Projektnamen, um die Liste der Aufgaben und Probleme für das Projekt entweder anzuzeigen oder auszublenden.
 
 
    >[!TIP]
@@ -178,7 +178,7 @@ So protokollieren Sie die Zeit in einer Arbeitszeittabelle:
    >     * Umschalt+Wahltaste+Nach-unten-Taste für Mac-Computer.
 
 
-1. (Optional) Um ein Element, das automatisch auf der Arbeitszeittabelle angezeigt wird, manuell anzuheften, bewegen Sie den Mauszeiger über den Namen des Elements und klicken Sie dann auf das Symbol **Anheften** ![](assets/empty-pin-icon.png).
+1. (Optional) Um ein Element, das automatisch auf der Arbeitszeittabelle angezeigt wird, manuell anzuheften, bewegen Sie den Mauszeiger über den Namen des Elements und klicken Sie dann auf das **Pin**-Symbol ![Pin-Symbol](assets/empty-pin-icon.png).
 
    >[!TIP]
    >
@@ -186,7 +186,7 @@ So protokollieren Sie die Zeit in einer Arbeitszeittabelle:
    >   * Option + P für Windows- und Mac-Computer.
 
 
-1. (Optional) Klicken Sie auf das Suchsymbol ![](assets/search-icon.png) und beginnen Sie mit der Eingabe eines Keywords, um ein Projekt, eine Aufgabe oder ein Problem in der Arbeitszeittabelle zu finden.
+1. (Optional) Klicken Sie auf das Suchsymbol ![Suchsymbol](assets/search-icon.png) und beginnen Sie mit der Eingabe eines Keywords, um ein Projekt, eine Aufgabe oder ein Problem in der Arbeitszeittabelle zu finden.
 
 1. (Bedingt) Wenn Ihr Workfront- oder Gruppenadministrator die Einstellung **Aufgabengebiete manuell Stundeneinträgen zuweisen** aktiviert hat, wählen Sie aus dem Dropdown-Menü ein Aufgabengebiet aus. Die Funktion, die beim Zuweisen zum Arbeitselement angegeben wird, wird standardmäßig angezeigt. Wenn Ihnen im -Objekt keine Rolle zugewiesen ist, wird Ihre Primäre Rolle als Standard angezeigt. Weitere Informationen zu dieser Einstellung finden Sie im Artikel [Konfigurieren von Arbeitszeittabellen- und Stundeneinstellungen](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -214,7 +214,7 @@ So protokollieren Sie die Zeit in einer Arbeitszeittabelle:
    >
    >Erwägen Sie, eine neue Zeile für das Arbeitselement hinzuzufügen, für das Sie zusätzliche Zeit protokollieren möchten, und einen neuen Stundentyp auszuwählen, wenn Sie den deaktivierten Stundentyp weiterhin mit der vergangenen protokollierten Zeit verknüpfen möchten.
 
-1. Klicken Sie auf das **Löschen**-Symbol ![](assets/delete.png) neben dem Aufgabengebiet, um es zu entfernen. Die für die Rolle protokollierte Zeit wird ebenfalls entfernt.
+1. Klicken Sie auf das **Löschen**-Symbol ![Löschen](assets/delete.png) neben dem Aufgabengebiet, um es zu entfernen. Die für die Rolle protokollierte Zeit wird ebenfalls entfernt.
 
    >[!TIP]
    >
@@ -249,7 +249,7 @@ So protokollieren Sie die Zeit in einer Arbeitszeittabelle:
 
 1. (Optional) Klicken Sie auf **Kommentar**, um einen Kommentar für Ihren Stundeneintrag hinzuzufügen.
 
-   ![](assets/commment-button-on-hour-log-redesigned-timesheet.png)
+   ![Schaltfläche „Kommentar“ im Protokoll wurde umgestaltet Arbeitszeittabelle](assets/commment-button-on-hour-log-redesigned-timesheet.png)
 
    >[!TIP]
    >
@@ -352,7 +352,7 @@ Um die Zeit für ein Element im Widget „Meine Arbeit“ zu protokollieren, geh
 1. Navigieren Sie zum Bereich **Startseite**.
 1. Fügen Sie das Widget **Meine Arbeit** zu Ihrer Startseite hinzu.
 1. (Optional) Wählen Sie eine Aufgabe, ein Problem oder eine Anfrage in einer Liste aus und klicken Sie dann **Bearbeiten**.
-1. Bewegen Sie den Mauszeiger über die Aufgabe oder das Problem, für die bzw. das Sie die Zeit protokollieren möchten **und klicken Sie dann auf das Symbol** Zeit protokollieren![](assets/log-time-icon-in-new-home.png) rechts neben den Aufgabeninformationen.
+1. Bewegen Sie den Mauszeiger über die Aufgabe oder das Problem, für die bzw. das Sie die Zeit protokollieren möchten, und klicken Sie dann auf **Zeit protokollieren**-Symbol ![Zeit protokollieren](assets/log-time-icon-in-new-home.png) rechts neben den Aufgabeninformationen.
 
    Das **Zeit erfassen** wird angezeigt.
 
@@ -487,7 +487,7 @@ So protokollieren Sie die Zeit im Abschnitt Stunden eines Projekts, einer Aufgab
 Sie können Zeit für Aufgaben und Probleme im Bedienfeld Zusammenfassung protokollieren.
 Weitere Informationen finden Sie unter [Übersicht](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-![](assets/summary-hour-log.png)
+![Bedienfeld Zusammenfassung](assets/summary-hour-log.png)
 
 ### Pinnwände {#boards}
 
@@ -531,7 +531,7 @@ Je nachdem, welchen Typ von Stundeneinträgen Sie bearbeiten, stehen die folgend
   * Die Beschreibung des Stundeneintrags.
 
 
-  ![](assets/edit-hour-box-project-hour-type.png)
+  ![Bearbeitungsfeld Projektstunde](assets/edit-hour-box-project-hour-type.png)
 
 * Wenn Sie allgemeine Stunden bearbeiten:
 
@@ -545,7 +545,7 @@ Je nachdem, welchen Typ von Stundeneinträgen Sie bearbeiten, stehen die folgend
 
 <!--update the screen shot at production - we should not see the job role field for general hours-->
 
-![](assets/edit-hour-box-general-overhead-hour-type.png)
+![Bearbeitungsfeld „Allgemeine Stunde“](assets/edit-hour-box-general-overhead-hour-type.png)
 
 
 * Beim Massenbearbeiten einer Mischung aus allgemeinen und projektspezifischen Stunden:
@@ -561,13 +561,13 @@ Je nachdem, welchen Typ von Stundeneinträgen Sie bearbeiten, stehen die folgend
 
 <!--update the screen shot at production - we should not see the job role and the hour type fields for mixed hour types-->
 
-![](assets/edit-hour-box-mixed-hour-types-in-bulk.png)
+![Bearbeitungsfeld für gemischte Stunden](assets/edit-hour-box-mixed-hour-types-in-bulk.png)
 
 So bearbeiten Sie Stundentypen in einem Stundenbericht oder einer Stundenliste:
 
 1. Zu einer Stundenliste oder einem Bericht gehen.
 1. Klicken Sie links neben einem oder mehreren Stundeneinträgen auf das Kästchen, um sie auszuwählen.
-1. Klicken Sie auf **Bearbeiten** oben in der Liste ![](assets/edit-icon.png).
+1. Klicken Sie auf **Bearbeiten** Symbol ![Bearbeiten](assets/edit-icon.png) oben in der Liste.
 
    Das **Stunde bearbeiten** oder **Stunden bearbeiten** wird geöffnet.
 1. Aktualisieren Sie eines der folgenden verfügbaren Felder:

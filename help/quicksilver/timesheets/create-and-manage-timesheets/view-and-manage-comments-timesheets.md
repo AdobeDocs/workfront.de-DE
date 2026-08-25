@@ -17,10 +17,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 873
-ht-degree: 4%
+source-wordcount: 831
+ht-degree: 5%
 
 ---
 
@@ -97,9 +97,8 @@ Kommentare werden unter dem Element angezeigt, in dem der Stundeneintrag und der
 
 Sie können allgemeine Kommentare zur Arbeitszeittabelle abgeben. Das Kommentieren der gesamten Arbeitszeittabelle ähnelt dem Kommentieren anderer Objekte.
 
-1. Klicken Sie auf das **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke oder auf das **Hauptmenü**-Symbol ![Hauptmenü](assets/lines-main-menu.png) in der oberen linken Ecke oder auf Workfront, falls verfügbar.
+{{step1-to-timesheets}}
 
-1. Klicken Sie **Arbeitszeittabellen**.
 1. Wechseln Sie zur Arbeitszeittabelle, in der Sie einen Kommentar abgeben möchten.
 1. Klicken Sie **linken** auf „Updates“ und dann auf die Registerkarte **Kommentare**.
 1. Beginnen Sie mit dem Hinzufügen neuer Kommentare oder antworten Sie auf vorhandene, wie in [Arbeit aktualisieren](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md) beschrieben.
@@ -129,9 +128,8 @@ Sie können allgemeine Kommentare zur Arbeitszeittabelle abgeben. Das Kommentier
 
 ### Kommentar zu einem einzelnen Stundeneintrag in einer Arbeitszeittabelle {#comment-on-an-individual-hour-entry-in-a-timesheet}
 
-1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
+{{step1-to-timesheets}}
 
-1. Klicken Sie **Arbeitszeittabellen**.
 1. Gehen Sie zur Arbeitszeittabelle, zu der Sie einen Kommentar abgeben möchten, und klicken Sie **linken Bereich** Arbeitszeittabelle“.
 1. Klicken Sie in das Stundeneintragsfeld, in dem Sie einen Kommentar abgeben möchten, und klicken Sie auf **Kommentar**, um einen Kommentar für Ihren Stundeneintrag hinzuzufügen.
 
@@ -168,8 +166,8 @@ Sie können allgemeine Kommentare zur Arbeitszeittabelle abgeben. Das Kommentier
 
 Sie können nur Aufgaben und Probleme in einer Arbeitszeittabelle kommentieren. Sie können keine Projekte oder allgemeine Zeit kommentieren.
 
-1. Klicken Sie auf [!UICONTROL **Hauptmenü**]-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
-1. Klicken Sie [!UICONTROL **Arbeitszeittabellen**].
+{{step1-to-timesheets}}
+
 1. Wechseln Sie zur Arbeitszeittabelle, auf der Sie einen Kommentar abgeben möchten, und klicken Sie [!UICONTROL **linken**] auf „Arbeitszeittabelle“.
 1. Klicken Sie auf die Zeile einer Aufgabe oder eines Problems und dann auf [!UICONTROL **Zusammenfassung öffnen**].
 1. Beginnen Sie mit der Eingabe einer Aktualisierung [!UICONTROL **Bereich**] Updates“ des Zusammenfassungsbereichs und klicken Sie dann auf [!UICONTROL **Senden**].

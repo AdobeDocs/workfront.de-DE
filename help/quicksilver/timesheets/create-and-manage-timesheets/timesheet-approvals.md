@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 678
+source-wordcount: 689
 ht-degree: 6%
 
 ---
@@ -95,17 +95,13 @@ Der Bereich **Arbeitszeittabellen** wird geöffnet.
 
    Wählen Sie den Filter **Meine Arbeitszeittabellen** oben in der Arbeitszeittabellen-Liste aus.
 
-   ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+   ![Meine Arbeitszeittabellen-Filterschaltflächen auf der Seite mit der Arbeitszeittabellen-Liste](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
    >[!NOTE]
    >
-   >Die Option Meine Arbeitszeittabellen-Genehmigungen wird nicht oben in der Arbeitszeittabellen-Liste oder in der Filterliste angezeigt, wenn Workfront-Admins oder Gruppenadmins den Filter Meine Arbeitszeittabellen-Genehmigungen entweder aus den Listensteuerelementen im Bereich Setup oder aus Ihrer Layoutvorlage entfernt haben.
-   >
-   >Weitere Informationen finden Sie [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layout-Vorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >   
-   >
+   >Die Optionen Meine Arbeitszeittabellen-Genehmigungen und Meine Arbeitszeittabellen werden nicht oben in der Arbeitszeittabellenliste oder in der Filterliste angezeigt, wenn Workfront-Admins oder Gruppenadmins diese Filter entweder aus den Listensteuerelementen im Bereich Setup oder aus Ihrer Layoutvorlage entfernt haben. Weitere Informationen finden Sie unter [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layout-Vorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
-1. (Optional) Klicken Sie auf das **Suchen**-Symbol oben ![](assets/search-icon.png) in der Arbeitszeittabellenliste und geben Sie einen Suchbegriff ein, um eine bestimmte Arbeitszeittabelle zu finden. Sie können nach einem Zeitrahmen oder dem Namen eines Verantwortlichen oder einer genehmigenden Person suchen.
+1. (Optional) Klicken Sie oben in **Arbeitszeittabellenliste auf** Suchen![Symbol „Suchen](assets/search-icon.png) und geben Sie einen Suchbegriff ein, um eine bestimmte Arbeitszeittabelle zu finden. Sie können nach einem Zeitrahmen oder dem Namen eines Verantwortlichen oder einer genehmigenden Person suchen.
 1. Klicken Sie auf den Zeitrahmen für die Arbeitszeittabelle, die Sie genehmigen möchten. Die Arbeitszeittabelle wird geöffnet.
 
    >[!TIP]

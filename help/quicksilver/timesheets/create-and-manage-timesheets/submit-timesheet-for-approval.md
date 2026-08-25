@@ -20,9 +20,9 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 845
+source-wordcount: 828
 ht-degree: 6%
 
 ---
@@ -80,7 +80,7 @@ So senden Sie eine Arbeitszeittabelle zur Genehmigung:
 1. Zeit erfassen, wie in [Zeit erfassen](../../timesheets/create-and-manage-timesheets/log-time.md) beschrieben
 1. Klicken Sie **Zur Genehmigung einreichen**, um den Genehmigungsprozess für Arbeitszeittabellen zu starten.
 
-   ![](assets/submit-for-approval-button-on-timesheet-nwe.png)
+   ![Schaltfläche „Zur Genehmigung einreichen“](assets/submit-for-approval-button-on-timesheet-nwe.png)
 
    Die Schaltfläche **Zur Genehmigung einreichen** wird durch die Schaltflächen **Genehmigen**, **Ablehnen** und **Rückruf** ersetzt. Der Status der Arbeitszeittabelle ändert sich in **Gesendet**.
 
@@ -101,10 +101,11 @@ Ohne diese Benachrichtigungen können Sie sich im Arbeitszeittabellen-Bereich vo
 
 So zeigen Sie den Status einer Arbeitszeittabelle an:
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
-1. Klicken Sie **Arbeitszeittabellen**. Der **Alle**-Filter ist standardmäßig ausgewählt.
+{{step1-to-timesheets}}
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+Der **Alle**-Filter ist standardmäßig ausgewählt.
+
+![Arbeitszeittabellen-Liste mit einer ausgewählten Arbeitszeittabelle](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um den Filter in der Liste der Arbeitszeittabellen zu aktualisieren:
 
@@ -116,19 +117,13 @@ So zeigen Sie den Status einer Arbeitszeittabelle an:
 
      Dadurch werden die Filter Meine Arbeitszeittabellen-Genehmigungen oder Meine Arbeitszeittabellen auf die Liste der Arbeitszeittabellen angewendet.
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![Meine Arbeitszeittabellen-Filterschaltflächen auf der Seite mit der Arbeitszeittabellen-Liste](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * Klicken Sie auf das Filtersymbol ![](assets/filter-nwepng.png) , um einen anderen Filter anzuwenden, oder erstellen Sie einen neuen. Informationen zum Erstellen oder Aktualisieren von Filtern finden Sie unter [Erstellen oder Bearbeiten von Filtern in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   * Klicken Sie auf das Filtersymbol ![Filtersymbol](assets/filter-nwepng.png), um einen anderen Filter anzuwenden oder einen neuen zu erstellen. Informationen zum Erstellen oder Aktualisieren von Filtern finden Sie unter [Erstellen oder Bearbeiten von Filtern in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
    >[!NOTE]
    >
-   >Die Optionen Meine Arbeitszeittabellen-Genehmigungen und Meine Arbeitszeittabellen werden nicht oben in der Arbeitszeittabellen-Liste oder in der Filterliste angezeigt, wenn Workfront-Admins oder Gruppenadmins die Filter Meine Arbeitszeittabellen und Meine Arbeitszeittabellen entweder aus den Listensteuerelementen im Setup-Bereich oder aus Ihrer Layoutvorlage entfernt haben. Weitere Informationen finden Sie in den folgenden Artikeln:
-   >
-   >   
-   >   
-   >   * [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layout-Vorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >   
-   >
+   >Die Optionen Meine Arbeitszeittabellen-Genehmigungen und Meine Arbeitszeittabellen werden nicht oben in der Arbeitszeittabellenliste oder in der Filterliste angezeigt, wenn Workfront-Admins oder Gruppenadmins diese Filter entweder aus den Listensteuerelementen im Bereich Setup oder aus Ihrer Layoutvorlage entfernt haben. Weitere Informationen finden Sie unter [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layout-Vorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
 1. (Bedingt) Wenn Sie **Meine Arbeitszeittabellen** ausgewählt haben, stellen Sie sicher, dass die Ansicht **Standard** angewendet wird, und beachten Sie die Spalte **Status**.
 
@@ -167,10 +162,9 @@ Sie können eine Arbeitszeittabelle zurückrufen, die bereits zur Genehmigung ei
 
 So rufen Sie eine Arbeitszeittabelle ab:
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
+{{step1-to-timesheets}}
 
-1. Klicken Sie **Arbeitszeittabellen**.
-1. Klicken Sie **Meine Arbeitszeittabellen** in der oberen rechten Ecke des Bildschirms oder wählen Sie **Meine Arbeitszeittabellen** aus dem Dropdown-Menü **Filtern** ![](assets/filter-nwepng.png).
+1. Klicken Sie **Meine Arbeitszeittabellen** oben rechts im Bildschirm oder wählen Sie **Meine Arbeitszeittabellen** aus dem Dropdown-Menü **Filter** ![Filtersymbol](assets/filter-nwepng.png) aus.
 1. Klicken Sie auf den Zeitrahmen für eine Arbeitszeittabelle mit dem Status **Gesendet**.
 1. Klicken Sie auf **Rückruf**.
 

@@ -20,7 +20,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
 source-wordcount: 1593
 ht-degree: 4%
@@ -69,14 +69,6 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 +++
 
 ## Arbeitszeittabellen-Profil erstellen oder bearbeiten
-
-<!--
-Old info: 
-<div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p style="color: #ff1493;">Alina drafted an Important note under this heading because Tracy/WorkEx said this is not working as designed - the changes WILL take effect the minute to make them for existing timesheets - see this issue - https://hub.workfront.com/issue/5dba59f600c401cca536567c368aa299/overview</p>
-<p style="color: #ff1493;">Important: The changes you make to an existing timesheet profile are not automatically applied to timesheets that have already been generated. The changes you make to a timesheet prile are applied only to the timesheets that are&nbsp;generated after the timesheet profiles changes are made. To&nbsp;apply your&nbsp;changes to the timesheet profile for the timesheets that are already generated, you must delete the existing timesheets and manually generate&nbsp;them.For more information about deleting and manually generating timesheets, see&nbsp;Delete and manually generating Timesheets.</p>
-</div>
--->
 
 >[!IMPORTANT]
 >
@@ -131,9 +123,9 @@ Old info:
 
      Wählen Sie im Dropdown-Menü die genehmigende Person für die Arbeitszeittabelle aus (wenn eine genehmigende Person erforderlich ist). Sie können aus den folgenden Optionen auswählen:
 
-      * **Keine**: Die Arbeitszeittabelle muss nicht genehmigt werden.
-      * **Ihr Manager**: Dies ist die vom System festgelegte standardmäßige genehmigende Person. In diesem Fall genehmigt der als Manager benannte Benutzer die Arbeitszeittabelle, wenn sie zur Genehmigung eingereicht wird.
-      * **Spezifische Personen**: Sie können bestimmte Benutzer bzw. Benutzerinnen nach Namen als Arbeitszeittabellen-Genehmiger bzw. -Genehmigerinnen bestimmen. Eine Arbeitszeittabelle kann mehrere genehmigende Personen enthalten. Wenn eine der genehmigenden Personen die Arbeitszeittabelle genehmigt hat, wird diese als &quot;**&quot;** und verschwindet aus der Liste der Arbeitszeittabellen-Genehmigungen aller verbleibenden genehmigenden Personen.
+     * **Keine**: Die Arbeitszeittabelle muss nicht genehmigt werden.
+     * **Ihr Manager**: Dies ist die vom System festgelegte standardmäßige genehmigende Person. In diesem Fall genehmigt der als Manager benannte Benutzer die Arbeitszeittabelle, wenn sie zur Genehmigung eingereicht wird.
+     * **Spezifische Personen**: Sie können bestimmte Benutzer bzw. Benutzerinnen nach Namen als Arbeitszeittabellen-Genehmiger bzw. -Genehmigerinnen bestimmen. Eine Arbeitszeittabelle kann mehrere genehmigende Personen enthalten. Wenn eine der genehmigenden Personen die Arbeitszeittabelle genehmigt hat, wird diese als &quot;**&quot;** und verschwindet aus der Liste der Arbeitszeittabellen-Genehmigungen aller verbleibenden genehmigenden Personen.
 
    * **Kann die Zeit bearbeiten**: Wählen Sie diese Option aus, damit die genehmigenden Personen Stunden auf der Arbeitszeittabelle bearbeiten können.
 
@@ -143,14 +135,14 @@ Old info:
 
      Wenn die **Bearbeitung von Arbeitszeittabellen auf Eigentümer und Administratoren beschränken** aktiviert ist:
 
-      * Genehmigende Personen können Arbeitszeittabellen nur genehmigen und ablehnen, unabhängig davon, ob die Option Zeit bearbeiten aktiviert ist oder nicht.
-      * Die Manager der Arbeitszeittabellen-Besitzer können nur die Arbeitszeittabellen ihrer direkt unterstellten Mitarbeiter anzeigen.
+     * Genehmigende Personen können Arbeitszeittabellen nur genehmigen und ablehnen, unabhängig davon, ob die Option Zeit bearbeiten aktiviert ist oder nicht.
+     * Die Manager der Arbeitszeittabellen-Besitzer können nur die Arbeitszeittabellen ihrer direkt unterstellten Mitarbeiter anzeigen.
 
      Wenn die **Bearbeitung von Arbeitszeittabellen auf Eigentümer und Administratoren beschränken** deaktiviert ist:
 
-      * Wenn **Kann die Zeit bearbeiten** aktiviert ist, können die genehmigenden Personen die Arbeitszeittabelle senden, erneut öffnen oder schließen und die Zeit bearbeiten.
-      * Wenn **Kann die Zeit bearbeiten** deaktiviert ist, können die genehmigenden Personen die Arbeitszeittabelle nicht senden, erneut öffnen oder schließen und auch die Zeit nicht bearbeiten. Genehmigende Personen können die Arbeitszeittabelle nur genehmigen oder ablehnen.
-      * Die Manager von Arbeitszeittabellen-Besitzern können die Arbeitszeittabellen ihrer direkt unterstellten Mitarbeiter senden, zurückrufen, erneut öffnen und bearbeiten.
+     * Wenn **Kann die Zeit bearbeiten** aktiviert ist, können die genehmigenden Personen die Arbeitszeittabelle senden, erneut öffnen oder schließen und die Zeit bearbeiten.
+     * Wenn **Kann die Zeit bearbeiten** deaktiviert ist, können die genehmigenden Personen die Arbeitszeittabelle nicht senden, erneut öffnen oder schließen und auch die Zeit nicht bearbeiten. Genehmigende Personen können die Arbeitszeittabelle nur genehmigen oder ablehnen.
+     * Die Manager von Arbeitszeittabellen-Besitzern können die Arbeitszeittabellen ihrer direkt unterstellten Mitarbeiter senden, zurückrufen, erneut öffnen und bearbeiten.
 
      >[!NOTE]
      >

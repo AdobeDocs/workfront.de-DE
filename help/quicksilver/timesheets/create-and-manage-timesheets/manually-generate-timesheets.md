@@ -17,9 +17,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
 workflow-type: tm+mt
-source-wordcount: 437
+source-wordcount: 405
 ht-degree: 9%
 
 ---
@@ -70,7 +70,7 @@ Wenn Sie Arbeitszeittabellen manuell generieren:
 
 Sie können im Bereich „Arbeitszeittabellen und Stunden“ im Setup manuell Arbeitszeittabellen auf Systemebene oder Gruppenebene generieren.
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) oben rechts in Adobe Workfront und dann auf **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Wenn Sie Arbeitszeittabellen generieren, die im gesamten System verwendet werden, klicken Sie auf **Arbeitszeittabellen und Stunden.**
 
@@ -79,7 +79,7 @@ Sie können im Bereich „Arbeitszeittabellen und Stunden“ im Setup manuell Ar
    Wenn Sie Arbeitszeittabellen generieren, die von einer bestimmten Gruppe verwendet werden, klicken Sie auf **Gruppen** und dann auf den Namen der Gruppe.
 
 1. Klicken Sie **Arbeitszeittabellen-Profile**.
-1. Klicken Sie auf das Symbol Mehr ![Mehr](assets/more-icon.png) und dann **Arbeitszeittabellen erstellen**.
+1. Klicken Sie auf das **Mehr**-Symbol ![Mehr-Symbol](assets/more-icon.png) und dann **Arbeitszeittabellen generieren**.
 
 1. Klicken Sie oben in der Liste der Arbeitszeittabellen-Profile auf das Symbol **Mehr** ![Mehr](assets/more-icon.png) für Arbeitszeittabellen-Profile auf Systemebene oder **Mehr** für Arbeitszeittabellen-Profile und klicken Sie dann auf **Arbeitszeittabellen erstellen**.
 
@@ -89,9 +89,8 @@ Sie können im Bereich „Arbeitszeittabellen und Stunden“ im Setup manuell Ar
 
 Sie können Arbeitszeittabellen auf Systemebene manuell über den Bereich „Diagnose“ im Setup generieren.
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) oben rechts in Adobe Workfront und dann auf **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Erweitern Sie **System** und klicken Sie dann auf **Diagnose**.
-
 1. Klicken Sie **Diagnose durchführen**.
 1. Klicken Sie **Arbeitszeittabellen erstellen**.
