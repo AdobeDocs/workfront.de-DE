@@ -20,9 +20,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 0f2e9311d94714a3561dfdd9807e4267513e0426
 workflow-type: tm+mt
-source-wordcount: 1558
+source-wordcount: 1576
 ht-degree: 7%
 
 ---
@@ -358,6 +358,14 @@ Benutzer mit einer Standard- oder Plan-Lizenz, die Funktionen in einem Bereich b
    <td>System: Voreinstellungen</td> 
    <td>Vollständiger Zugriff</td> 
    <td>Kein Zugriff</td> 
+  <tr> 
+   <td>Tracking ändern: Konfiguration</td> 
+   <td>Vollständiger Zugriff</td> 
+   <td>Kein Zugriff</td> 
+  <tr> 
+   <td>Änderungsverfolgung: Liste der Änderungsverläufe</td> 
+   <td>Vollständiger Zugriff</td> 
+   <td>Vollständiger Zugriff</td> 
   </tr> 
  </tbody> 
 </table>
@@ -372,7 +380,7 @@ Benutzer mit einer Standard- oder Plan-Lizenz, die Funktionen in einem Bereich b
   <tr> 
    <th>Bereich/Objekt</th> 
    <th>Workfront-Administrator </th> 
-   <th>Benutzer mit Plan-Lizenz und einigen Administratorrechten</th> 
+   <th>Benutzer mit einer Standard- oder Planlizenz und einigen Administratorrechten</th> 
   </tr> 
  </thead> 
  <tbody> 
