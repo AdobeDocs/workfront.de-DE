@@ -4,9 +4,9 @@ description: Weitere Verbesserungen im Veröffentlichungszeitraum des vierten Qu
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1dd8ab20d11b2b4471308ac5402b31e20359a04c
+source-git-commit: 723c5ce69f0e457dfd8e3d230e451a41b655603e
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '368'
 ht-degree: 6%
 
 ---
@@ -17,11 +17,23 @@ Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom 
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2026 des Versionszyklus verfügbar sind, finden Sie unter [Versionsübersicht für das vierte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
+## C2PA-Metadaten werden in Ihren Dateien beibehalten
+
+>[!NOTE]
+>
+>Produktion für alle: 26. August 2026
+
+Adobe Workfront behält C2PA-Metadaten für Dokumente bei, die Sie hochladen, speichern und herunterladen, ohne sie zu ändern.
+
+Weitere Informationen finden Sie unter [C2PA-Metadaten in Adobe Workfront](/help/quicksilver/documents/c2pa-metadata-overview.md).
+
 ## Aktualisierung der Benutzeroberfläche für Symbole im linken Navigationsbereich
 
 >[!NOTE]
 >
->Vorschau: 30. Juli 2026>Produktion für alle: 13. August 2026>[!BADGE Zeitplan]{type=Neutral}
+>Vorschau: 30. Juli 2026
+>Produktion für alle: 13. August 2026
+>[!BADGE Außerplanmäßig]{type=Neutral}
 
 Das Erscheinungsbild der Symbole im linken Navigationsbereich in Workfront wurde aktualisiert, um ein modernes Design und ein konsistentes Erlebnis mit anderen Adobe-Programmen zu bieten. Die Funktionalität wurde nicht geändert.
 
@@ -33,7 +45,9 @@ Weitere Informationen finden Sie unter [Linke Navigation in Adobe Workfront](/he
 
 >[!NOTE]
 >
->Vorschau: 30. Juli 2026>Produktions-Schnellversion: 13. August 2026>Produktion für alle: 15. Oktober 2026
+>Vorschau: 30. Juli 2026
+>Produktions-Schnellveröffentlichung: 13. August 2026
+>Produktion für alle: 15. Oktober 2026
 
 An den erweiterten Listen wurden mehrere Aktualisierungen vorgenommen:
 
@@ -46,7 +60,9 @@ Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quic
 
 >[!NOTE]
 >
->Vorschau: 30. Juli 2026>Produktions-Schnellversion: 13. August 2026>Produktion für alle: 15. Oktober 2026
+>Vorschau: 30. Juli 2026
+>Produktions-Schnellveröffentlichung: 13. August 2026
+>Produktion für alle: 15. Oktober 2026
 
 Wenn Sie den Mauszeiger über den Breadcrumb eines Objekts bewegen, können Sie jetzt dessen Namen kopieren und in einer Aktion miteinander verknüpfen. Dadurch wird die Freigabe von Objekten in Slack, E-Mail oder anderen Tools beschleunigt, ohne dass Name und URL separat kopiert werden müssen.
 
