@@ -12,7 +12,7 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 0a4b902b2ac586b2a893dea29abb90299bee1ec3
+source-git-commit: 2d26437c69b3c36366938952d426532934f55c52
 workflow-type: tm+mt
 source-wordcount: 238
 ht-degree: 42%
@@ -46,6 +46,17 @@ In den Artikeln in den folgenden Abschnitten wird beschrieben, wie Sie die Adobe
 * [Löschen von Eintragstypen](/help/quicksilver/planning/architecture/delete-record-types.md)
 * [Überblick über arbeitsbereichsübergreifende Eintragstypen](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md)
 * [Konfigurieren von arbeitsbereichsübergreifenden Funktionen für Eintragstypen](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+
+<!--
+
+<div class="preview">
+
+* [Configure record type business rules](/help/quicksilver/planning/architecture/configure-business-rules.md)
+
+</div>
+
+-->
+
 * [Hinzufügen vorhandener Eintragstypen aus einem anderen Arbeitsbereich](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
 * [Konfigurieren des Bereichs „Einstellungen“ eines Eintragstyps](/help/quicksilver/planning/architecture/configure-record-type-settings.md)
 * [Übersicht über Hierarchie und Breadcrumb](/help/quicksilver/planning/architecture/hierarchy-and-breadcrumb-overview.md)

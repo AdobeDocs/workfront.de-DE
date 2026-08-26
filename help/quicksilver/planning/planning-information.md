@@ -26,10 +26,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+source-git-commit: 2d26437c69b3c36366938952d426532934f55c52
 workflow-type: tm+mt
-source-wordcount: 675
-ht-degree: 77%
+source-wordcount: 722
+ht-degree: 72%
 
 ---
 
@@ -58,52 +58,52 @@ Die folgenden Abschnitte enthalten Artikel, in denen die derzeit für Workfront-
 
 * [Informationen zum Zugriff und zu Berechtigungen: Artikelindex](/help/quicksilver/planning/access/access-information.md) enthält die folgenden Informationen:
 
-   * Workfront-Lizenzen und Berechtigungen in Workfront-Planung
-   * Freigabeberechtigungen für Workfront-Planung
-   * Freigeben von Ansichten
-   * Freigeben von Arbeitsbereichen (Einträge und Felder)
-   * Freigeben von Eintragstypen (Einträge und Felder)
-   * Freigeben von Einträgen
+  * Workfront-Lizenzen und Berechtigungen in Workfront-Planung
+  * Freigabeberechtigungen für Workfront-Planung
+  * Freigeben von Ansichten
+  * Freigeben von Arbeitsbereichen (Einträge und Felder)
+  * Freigeben von Eintragstypen (Einträge und Felder)
+  * Freigeben von Einträgen
 
 * [Architektur: Artikelindex](/help/quicksilver/planning/architecture/architecture-information.md) enthält die folgenden Informationen:
 
-   * Erstellen, Bearbeiten, Löschen von Arbeitsbereichen
-   * Erstellen, Bearbeiten, Löschen von Eintragstypen
-   * Erstellen globaler Eintragstypen
-   * Verbinden von Eintragstypen und Beispiele für das Verbinden von Eintragstypen
-   * Arbeitsbereichsvorlagen
+  * Erstellen, Bearbeiten, Löschen von Arbeitsbereichen
+  * Erstellen, Bearbeiten, Löschen von Eintragstypen
+  * Erstellen globaler Eintragstypen
+  * Verbinden von Eintragstypen und Beispiele für das Verbinden von Eintragstypen
+  * Arbeitsbereichsvorlagen
 
 * [Felder: Artikelindex](/help/quicksilver/planning/fields/fields-information.md) enthält die folgenden Informationen:
 
-   * Erstellen, Bearbeiten und Löschen von Feldern
-   * Formelfelder
-   * Primäre Felder
+  * Erstellen, Bearbeiten und Löschen von Feldern
+  * Formelfelder
+  * Primäre Felder
 
 * [Einträge: Artikelindex](/help/quicksilver/planning/records/records-information.md) enthält die folgenden Informationen:
 
-   * Erstellen, Bearbeiten und Löschen von Einträgen
-   * Verbinden von Einträgen
-   * Hinzufügen eines Titelbilds oder einer Miniaturansicht zu einem Eintrag
-   * Verwalten des Layouts einer Eintragsseite
-   * Kommentare zu Einträgen und Abschnitt „Verlauf“
-   * Freigeben von Einträgen
-   * Verwalten von Einträgen in Workfront-Planung über Workfront
+  * Erstellen, Bearbeiten und Löschen von Einträgen
+  * Verbinden von Einträgen
+  * Hinzufügen eines Titelbilds oder einer Miniaturansicht zu einem Eintrag
+  * Verwalten des Layouts einer Eintragsseite
+  * Kommentare zu Einträgen und Abschnitt „Verlauf“
+  * Freigeben von Einträgen
+  * Verwalten von Einträgen in Workfront-Planung über Workfront
 
 * [Adobe Workfront-Planungsanfragen: Artikelindex](/help/quicksilver/planning/requests/requests-article-index.md) enthält die folgenden Informationen:
 
-   * Wie ein Anfrageformular für einen Eintragstyp erstellt wird.
-   * Wie Benutzende eine Anfrage über ein Anfrageformular für Eintragstypen einreichen und Einträge erstellen können.
+  * Wie ein Anfrageformular für einen Eintragstyp erstellt wird.
+  * Wie Benutzende eine Anfrage über ein Anfrageformular für Eintragstypen einreichen und Einträge erstellen können.
 
 * [Ansichten: Artikelindex](/help/quicksilver/planning/views/views-information.md) enthält die folgenden Informationen:
 
-   * Erstellen von Eintragsansichten
-   * Verwalten der Tabellen-, Timeline- und Kalenderansicht
+  * Erstellen von Eintragsansichten
+  * Verwalten der Tabellen-, Timeline- und Kalenderansicht
 
 * [Benachrichtigungen: Artikelindex](/help/quicksilver/planning/notifications/notifications-information.md) enthält die folgenden Informationen:
 
-   * Verwalten von Benachrichtigungseinstellungen
-   * In-App-Benachrichtigungen in Planung
-   * E-Mail-Benachrichtigungen in Planung
+  * Verwalten von Benachrichtigungseinstellungen
+  * In-App-Benachrichtigungen in Planung
+  * E-Mail-Benachrichtigungen in Planung
 
 ## Zusätzliche Funktionen für Workfront Planning verfügbar
 
@@ -112,6 +112,8 @@ Die folgenden Abschnitte enthalten Artikel, in denen die derzeit für Workfront-
 * [Adobe Workfront-Planungsmodule für Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Mit den Adobe Workfront-Planungsmodulen können Sie ein Szenario auslösen, wenn Ereignisse in Workfront-Planung auftreten. Sie können auch Einträge erstellen, lesen, aktualisieren und löschen oder einen benutzerdefinierten API-Aufruf an Ihr Adobe Workfront-Planung-Konto durchführen.
 
 * [Überblick über den KI-Assistenten von Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Mit dem KI-Assistenten für Workfront-Planung können Sie mithilfe von Befehlen nach Einträgen suchen oder Einträge erstellen, aktualisieren oder löschen und den Assistenten die Arbeit für Sie erledigen lassen.
+
+* [Verwenden des Workfront MCP-Servers für Planning-Objekte](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md): Mit dem Adobe Workfront MCP-Server können Sie Workfront-Elemente suchen, erstellen, aktualisieren und verwalten, indem Sie eine KI-Agentenplattform in natürlicher Sprache anfragen. Die -Plattform entscheidet, welche Workfront-Aktionen aufgerufen werden sollen, und übernimmt die Unterhaltung mit Workfront für Sie.
 
 * [Konfigurieren von Automatisierungen in Adobe Workfront-Planung](/help/quicksilver/planning/records/configure-automations-to-create-records.md): Sie können Automatisierungen in Adobe Workfront-Planung konfigurieren, die bei Aktivierung Objekte in Workfront oder Einträge in Workfront-Planung erstellen, wenn sie durch einen Eintrag in Workfront-Planung ausgelöst werden.
 

@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: e5a288dcac20be9176d1541d531edaf0d8c99a8c
+source-git-commit: d2c1bf01d27958151c7eeb2c4e5e6daca9eb97c3
 workflow-type: tm+mt
-source-wordcount: '14443'
+source-wordcount: '14452'
 ht-degree: 92%
 
 ---
@@ -2210,6 +2210,7 @@ ht-degree: 92%
     * [Erstellen von Eintragstypen durch Importieren von Informationen aus einer CSV- oder Excel-Datei](planning/architecture/import-file-to-create-record-types.md)
     * [Überblick über arbeitsbereichsübergreifende Eintragstypen](planning/architecture/cross-workspace-record-types-overview.md)
     * [Konfigurieren von arbeitsbereichsübergreifenden Funktionen für Eintragstypen](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+    * {hide-from-toc}[Geschäftsregeln für Datensatztypen konfigurieren](planning/architecture/configure-business-rules.md)
     * [Konfigurieren des Bereichs „Einstellungen“ eines Eintragstyps](planning/architecture/configure-record-type-settings.md)
     * [Hinzufügen vorhandener Eintragstypen aus einem anderen Arbeitsbereich](planning/architecture/add-existing-record-types-from-another-workspace.md)
     * [Überblick über das Verbinden von Eintragstypen](planning/architecture/connect-record-types-overview.md)
@@ -2239,6 +2240,7 @@ ht-degree: 92%
     * [Freigeben von Eintragstypen](planning/access/share-record-types.md)
     * [Freigeben von Ansichten](planning/access/share-views.md)
     * [Freigeben von Einträgen](planning/access/share-records.md)
+    * {hide-from-toc}[Freigeben von Workfront-Planungsfeldern](planning/access/share-fields.md)
     * [Festlegen von Standardberechtigungen für Datensätze](planning/access/set-default-record-permissions.md)
     * [Anfordern von Berechtigungen für eine Ansicht oder einen Arbeitsbereich](planning/access/request-permissions.md)
   * Einträge in Adobe Workfront-Planung {#adobe-workfront-planning-records}
