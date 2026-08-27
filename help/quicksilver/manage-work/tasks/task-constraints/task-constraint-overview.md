@@ -8,23 +8,15 @@ author: Alina
 feature: Work Management
 exl-id: 91b0844b-95a3-4d18-9fdb-a907dd42e1bf
 TQID: https://experienceleague.adobe.com/R38RC6-vr-nRp4R7W4WDdJk2KkAuegb6yOfmNLdn7Dc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b91c0848-76c4-4da4-8b81-3aade0518dd0id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 31db7a4ef190793558bcb2fa10beb2585e1068e4
 workflow-type: tm+mt
-source-wordcount: 694
-ht-degree: 7%
+source-wordcount: 704
+ht-degree: 6%
 
 ---
 
@@ -38,6 +30,8 @@ Aufgabenbeschränkungen bestimmen, wann eine Aufgabe in einem Projekt beginnen u
 
 Während Sie Ihren Projektplan erstellen, treffen Sie Entscheidungen über die Reihenfolge und den Zeitrahmen Ihrer Aufgaben im Projekt. Aufgaben können unabhängig von einer Aufgabensequenz funktionieren, sie können sich jedoch auf die Projektzeitleiste auswirken. Aufgabenbeschränkungen ermöglichen es einem Projektmanager zu planen, wann bestimmte Aufgaben in einem Projekt beginnen oder abgeschlossen werden können.
 
+Aufgabenbeschränkungen gelten gleichermaßen für Projektaufgaben und Vorlagenaufgaben.
+
 Abhängig von der von Ihnen verwendeten Einschränkung müssen Sie möglicherweise ein geplantes Startdatum, ein geplantes Abschlussdatum oder beides für die Aufgabe angeben.
 
 Einschränkungstypen, für die ein definiertes Datum erforderlich ist, wirken sich auf Vorgängerbeziehungen aus.
@@ -46,7 +40,9 @@ Einschränkungstypen, für die ein definiertes Datum erforderlich ist, wirken si
 >
 >Erwägen Sie die Verwendung eines Einschränkungstyps, für den keine bestimmten Daten erforderlich sind, wenn Sie Vorgängerbeziehungen zwischen Aufgaben verwenden.
 
-In der folgenden Tabelle werden jede Einschränkung und ihre Abkürzungen angezeigt. Die Abkürzungen werden in Aufgabenlisten und beim Erstellen von Kickstart-Importdateien verwendet. Klicken Sie auf den verknüpften Titel jeder Aufgabenbeschränkung, um weitere Informationen zu diesem Einschränkungstyp zu erhalten.
+In der folgenden Tabelle werden jede Einschränkung und ihre Abkürzungen angezeigt.
+
+Die Abkürzungen werden in Aufgabenlisten und beim Erstellen von Kickstart-Importdateien verwendet. Klicken Sie auf den verknüpften Titel jeder Aufgabenbeschränkung, um weitere Informationen zu diesem Einschränkungstyp zu erhalten.
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
