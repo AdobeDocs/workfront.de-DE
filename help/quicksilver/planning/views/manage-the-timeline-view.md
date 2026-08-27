@@ -19,9 +19,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+source-git-commit: 913081d2d8fc6ac2fbd5dd80ae1cc588d8ba7cbc
 workflow-type: tm+mt
-source-wordcount: 4418
+source-wordcount: 4518
 ht-degree: 3%
 
 ---
@@ -465,12 +465,16 @@ So fügen Sie eine Gruppierung in der Zeitleisten -Ansicht hinzu:
    * **Gestapelt**: Gruppierungen werden ohne eingefrorene linke Spalte angezeigt und entsprechen der Breite der Timelines ihrer Elemente.
 
      ![Gestapelte Gruppierung in der Zeitleisten-Ansicht](assets/stacked-grouping-in-timeline-view.png)
-   * **Swimlane**: Gruppierungen werden mit einer eingefrorenen linken Kopfzeilenspalte angezeigt, in der die gruppierten Elemente aufgelistet werden und die Gruppierungen der Breite der Zeitleisten-Ansicht entsprechen.
+   * **Swimlane**: Gruppierungen werden mit einem eingefrorenen linken Bereich angezeigt, der die gruppierten Elemente auflistet und die Gruppierungen entsprechen der Breite der Zeitleisten-Ansicht.
 
      ![Swimlane-Gruppierung in der Zeitleisten-Ansicht](assets/swimlane-grouping-in-timeline-view.png)
-   <!--
-    1. <span class="preview">(Optional) Click the **Grouping** icon ![Grouping icon](assets/grouping-icon.png)  in the toolbar to open the **Group records by** box, then click **Expand all** to expand all the groupings, or **Collapse all** to collapse all the groupings and manually collapse only the ones you need. </span>
-    -->
+
+   Gruppierungen werden sofort angewendet.
+
+1. <span class="preview">(Optional) Klicken Sie auf das Symbol **Gruppierung** Symbol ![Gruppierungssymbol](assets/grouping-icon.png) in der Symbolleiste, um das Feld **Datensätze gruppieren nach** zu öffnen, und klicken Sie dann auf **Alle erweitern**, um alle Gruppierungen zu erweitern, oder **Alle reduzieren**, um alle Gruppierungen auszublenden und nur die benötigten manuell auszublenden. </span>
+1. <span class="preview">(Optional und bedingt) Ziehen Sie die Trennlinie für das linke Bedienfeld per Drag-and-Drop in die Anzeige des Navigationsbereichs, um ihre Breite anzupassen. Die Breite des Bedienfelds jedes Benutzers wird sitzungsübergreifend gespeichert, mit einer Standardbreite für Erstbenutzer.</span>
+1. <span class="preview">(Optional) Bewegen Sie bei langen Gruppierungsnamen den Mauszeiger über die Zeile einer Gruppierung, um den vollständigen Namen der Gruppierung in einer QuickInfo anzuzeigen.</span>
+
 1. (Optional) Klicken Sie innerhalb des **Datensätze gruppieren nach** auf das Symbol **x** rechts neben einem Feld, das für die Gruppierung ausgewählt wurde, um die Gruppierung zu entfernen
 
    ODER

@@ -19,10 +19,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4378eb4b7272ac17b0fb6f2f2e77de2c0b272050
+source-git-commit: 913081d2d8fc6ac2fbd5dd80ae1cc588d8ba7cbc
 workflow-type: tm+mt
-source-wordcount: 1917
-ht-degree: 6%
+source-wordcount: 2002
+ht-degree: 5%
 
 ---
 
@@ -192,6 +192,10 @@ Verwalten einer Kalenderansicht:
 
        * Datensätze, die sich über mehrere Tage erstrecken, werden oben im Kalender angezeigt.
        * Datensätze, die einen Tag oder weniger dauern, werden in der unteren Hälfte der Kalenderansicht angezeigt. Wenn Sie ausgewählt haben, die Stunde des Start- und Enddatums anzuzeigen, wird der Datensatz zum entsprechenden Zeitpunkt innerhalb des Tages angezeigt, an dem er auftritt.
+
+         <span class="preview">Der Kalender zeigt für beide Bereiche in der Wochenansicht bis zu 1.000 Datensätze in den vorherigen, aktuellen und nächsten Wochen an.</span>
+
+1. <span class="preview">(Optional und bedingt) Klicken Sie **Mehr laden** am Ende des Kalenders, wenn mehr als 1.000 Datensätze vorhanden sind und einige von ihnen nicht standardmäßig angezeigt werden, wenn Sie den Kalender nach Woche anzeigen.</span>
 
 1. (Optional) Klicken Sie auf das **Vollbildsymbol**-Symbol ![Vollbildsymbol öffnen](assets/open-full-screen-icon.png) um die Ansicht im Vollbildmodus zu öffnen. Klicken Sie dann auf das **Vollbildsymbol beenden**-Symbol ![Vollbildsymbol beenden](assets/exit-full-screen-icon.png) oder auf der Tastatur auf Esc , um den Vollbildmodus zu verlassen.
 
@@ -448,7 +452,7 @@ Aktualisieren Sie die Einstellungen der Kalenderansicht, um anzugeben, welche In
 
    * **Datensatztyp**: Die Farbe der Datensatzleisten im Kalender entspricht der Farbe des ausgewählten Datensatztyps. Dies ist die Standardoption.
    * **Feldwerte**: Die Farbe der Datensätze entspricht der Farbe eines von Ihnen angegebenen Felds.
-   * **Keine**: Die Datensätze werden in einem weißen Balken angezeigt. <span class="preview">Die Option „Ohne“ wurde aus der Vorschau-Umgebung entfernt.</span>
+   * **Keine**: Die Datensätze werden in einem weißen Balken angezeigt. <span class="preview">Die Option **Keine** wurde aus der Vorschau-Umgebung entfernt.</span>
 
 
 
