@@ -4,10 +4,10 @@ description: Verbesserungen bei Berichten für das vierte Quartal 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a86f0169f804520be2828983a737c8c8d151792d
+source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 5%
+source-wordcount: '487'
+ht-degree: 4%
 
 ---
 
@@ -16,6 +16,18 @@ ht-degree: 5%
 Auf dieser Seite werden die Verbesserungen beim Reporting in der Vorschau-Umgebung beschrieben, die mit der Version vom vierten Quartal 2026 vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2026 des Versionszyklus verfügbar sind, finden Sie unter [Versionsübersicht für das vierte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+## Pivot-Tabellenberichte in Arbeitsflächen-Dashboards
+
+>[!NOTE]
+>
+>Vorschau: 27. August 2026
+>Produktions-Schnellveröffentlichung: 17. September 2026
+>Produktion für alle: 15. Oktober 2026
+
+Der neue Berichtstyp „Pivot-Tabelle“ in Arbeitsflächen-Dashboards aggregiert Daten mit genauen, vollständigen Rollups. Sie können Metriken wie Zahlen, Summen und Durchschnittswerte direkt in Ihrem Dashboard erstellen und dann die zugrunde liegenden Datensätze hinter jedem Gesamtwert detailliert anzeigen.
+
+Weitere Informationen finden Sie unter [Erstellen eines Pivot-Tabellenberichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md).
 
 ## Erzwingen von Enddaten für terminierte Berichte
 

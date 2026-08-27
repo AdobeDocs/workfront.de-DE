@@ -4,10 +4,10 @@ description: Diese Seite enthält Informationen zur Funktionalität, die in der 
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 467ae444ace2613b713ff2feb125e2471aa1b078
+source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
 workflow-type: tm+mt
-source-wordcount: '1464'
-ht-degree: 14%
+source-wordcount: '1501'
+ht-degree: 13%
 
 ---
 
@@ -17,7 +17,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der für Oktober 
 
 Die Verbesserungen auf dieser Seite sind in der Vorschauumgebung verfügbar. Diese Seite wird mit zusätzlichen Verbesserungen aktualisiert, sobald die geplante Produktionsversion der Version für das vierte Quartal 2026 näher rückt.
 
-Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben die neuen Funktionen hervor und bieten detaillierte Informationen. Um sich zu registrieren, besuchen Sie die [Ereignisseite](https://experienceleague.adobe.com/de/events?filters=Workfront) und filtern Sie nach Workfront.
+Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben die neuen Funktionen hervor und bieten detaillierte Informationen. Um sich zu registrieren, besuchen Sie die [Ereignisseite](https://experienceleague.adobe.com/en/events?filters=Workfront) und filtern Sie nach Workfront.
 
 >[!IMPORTANT]
 >
@@ -267,6 +267,15 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
         </tr>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Pivot-Tabellenberichte in Arbeitsflächen-Dashboards</a>
+                <p>Der neue Berichtstyp „Pivot-Tabelle“ in den Arbeitsflächen-Dashboards aggregiert Daten mit genauen, vollständigen Rollups mit Drilldown in die zugrunde liegenden Datensätze.</p>
+            </td>
+            <td><p>27. August 2026</p></td>
+            <td><p>17. September 2026</p></td>
+            <td><p>15. Oktober 2026</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Erzwingen von Enddaten für terminierte Berichte</a>
                 <p>Terminierte Berichte erfordern jetzt ein Enddatum, um den Versand auf unbestimmte Zeit zu verhindern. Nach Ablauf des Enddatums eines Zeitplans wird er automatisch deaktiviert.</p>
             </td>
@@ -382,7 +391,7 @@ Wenn Sie ein Workfront-Administrator mit Data Connect-Readerbenutzern sind, die 
 
 Diese Änderung wurde erstmals in den Workfront-Versionshinweisen vom April 2026 angekündigt, und dies ist die letzte Erinnerung vor Fristablauf. Bitte stellen Sie sicher, dass alle betroffenen Leser-Benutzer die MFA vor dem 8. August 2026 aktivieren, um eine Unterbrechung ihres Zugriffs zu vermeiden.
 
-Weitere Informationen finden Sie unter [Erstellen eines Leserkontos oder einer Verbindung für Snowflake](https://experienceleague.adobe.com/de/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Weitere Informationen finden Sie unter [Erstellen eines Leserkontos oder einer Verbindung für Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Updates für Schulungen
 

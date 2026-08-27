@@ -6,10 +6,10 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 9b6b1157cf93418e8863f2e99ebe87414a23378d
+source-git-commit: f2a7d09bbf25685395dc97f67bfde87a5d006aea
 workflow-type: tm+mt
-source-wordcount: '1076'
-ht-degree: 0%
+source-wordcount: '1339'
+ht-degree: 1%
 
 ---
 
@@ -18,6 +18,44 @@ ht-degree: 0%
 In diesem Artikel werden die Funktionen beschrieben, die in Workfront Planning im vierten Quartal 2026 veröffentlicht werden.
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Alle Gruppierungen in der Zeitleisten -Ansicht reduzieren und erweitern
+
+>[!NOTE]
+>
+>Vorschau: 27. August 2026
+>Produktions-Schnellveröffentlichung: 17. September 2026
+>Produktion für alle: 15. Oktober 2026
+
+Zeitleisten-Ansichten enthalten jetzt alle Optionen „Alle reduzieren“ und „Alle erweitern“ für gruppierte Zeitleisten. Dies erleichtert die Navigation in großen Roadmap-Ansichten: Sie können die Ansicht schnell auf Gruppierungsüberschriften reduzieren und dann nur die Abschnitte erweitern, die Sie überprüfen möchten.
+
+Weitere Informationen finden Sie unter [Verwalten der Zeitleisten-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+
+## Vollständige Gruppennamen anzeigen und Größe des Gruppierungsbereichs in der Zeitleisten -Ansicht ändern
+
+>[!NOTE]
+>
+>Vorschau: 27. August 2026
+>Produktions-Schnellveröffentlichung: 17. September 2026
+>Produktion für alle: 15. Oktober 2026
+
+In der Zeitleisten -Ansicht wird jetzt, wenn Sie den Mauszeiger über eine abgeschnittene Gruppierungsbeschriftung bewegen, der vollständige Text in einer QuickInfo sowohl in der Anzeige „Musterfläche“ als auch in der Anzeige „Gestapelte Gruppierung“ angezeigt. Nicht abgeschnittene Beschriftungen zeigen keine QuickInfo an.
+
+Das linke Bedienfeld zur Gruppierung in der Swimlane-Anzeige kann jetzt durch Ziehen der Trennlinie in der Größe angepasst werden. Die Ansicht wird in Echtzeit aktualisiert, was mit der Tabellenansicht übereinstimmt. Die Breite des Bedienfelds jedes Benutzers wird sitzungsübergreifend gespeichert, mit einer Standardbreite für Erstbenutzer.
+
+Weitere Informationen finden Sie unter [Verwalten der Timeline-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+
+## Verbesserte Kalenderleistung für große Datensatzgruppen in der Wochenansicht
+
+>[!NOTE]
+>
+>Vorschau: 27. August 2026
+>Produktions-Schnellveröffentlichung: 17. September 2026
+>Produktion für alle: 15. Oktober 2026
+
+Die Kalenderwochenansicht zeigt jetzt nur die ersten 1.000 Datensätze über den sichtbaren Wochenzeitraum an. Wenn mehr Datensätze vorhanden sind, wird unten im Kalender die folgende Meldung angezeigt, die angibt, dass zusätzliche Datensätze verfügbar sind: „Es gibt mehr Datensätze. Mehr laden.“
+
+Weitere Informationen finden Sie unter [Verwalten der Kalenderansicht](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
 ## Spaltenüberschriften für abhängige verbundene Datensatzfelder aktualisiert
 
@@ -43,22 +81,6 @@ Weitere Informationen finden Sie unter [Abhängige Verbindungen verwalten](/help
 Es gibt neue visuelle Indikatoren, wenn Sie mehrere Zeilen in die Tabellenansicht ziehen und dort ablegen. Ein markanteres Pluszeichen und eine Zahlenanzeige zeigen jetzt an, wie viele Zeilen für die Drag-and-Drop-Aktion ausgewählt sind.
 
 Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
-
-<!--
-
-## Collapse and expand all groupings in the timeline view
-
->[!NOTE]
->
->Preview: August 13, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
-
-Timeline views now include Collapse all and Expand all options for grouped timelines. This makes it easier to navigate large roadmap views: you can quickly reduce the view to grouping headings, then expand only the sections you want to review.
-
-For more information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
-
--->
 
 ## Weiterleiten des gesendeten Anfrageobjekts an den richtigen Arbeitsbereich bei Verwendung globaler Datensatztypen
 
