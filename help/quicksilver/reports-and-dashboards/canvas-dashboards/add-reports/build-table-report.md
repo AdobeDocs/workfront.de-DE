@@ -9,20 +9,14 @@ exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Xcq8aeqqH-JPYtfmbcf1gld93O6N93O9j0wqohss7oQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 79d9eb9d3066cc83c1190d9732c64712917798aa
 workflow-type: tm+mt
-source-wordcount: 1236
+source-wordcount: 1343
 ht-degree: 12%
 
 ---
@@ -31,8 +25,8 @@ ht-degree: 12%
 
 >[!IMPORTANT]
 >
->Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) im Artikel Beta-Übersicht für Canvas-Dashboards befolgen.<br>
->Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kundensupport kontaktieren](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) im Artikel Beta-Übersicht für Arbeitsflächen-Dashboards befolgen.<br>
+>Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kontaktieren des Kunden-Supports](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
 >Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
 >
 >* Eigene Schlüssel für Amazon Web Services mitbringen
@@ -80,7 +74,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 ## Voraussetzungen
 
-Sie müssen ein Dashboard erstellen, bevor Sie einen Tabellenbericht erstellen können.
+Sie müssen ein Dashboard erstellen, bevor Sie einen Tabellenbericht erstellen können. Weitere Informationen finden Sie unter [Erstellen eines Arbeitsflächen-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
 
 ## Erstellen eines Tabellenberichts in einem Arbeitsflächen-Dashboard
@@ -89,13 +83,9 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines Tabellenberichts zur 
 
 {{step1-to-dashboards}}
 
-1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
+1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards** und klicken Sie dann auf den Namen des Dashboards, dem Sie den Bericht hinzufügen möchten.
 
-1. Klicken **oben rechts auf** Neues Dashboard“.
-
-1. Geben Sie in das Feld **Dashboard erstellen** den **&#x200B;**&#x200B;Namen“ und die **Beschreibung** des Dashboards ein.
-
-1. Klicken Sie auf **Erstellen**.
+1. Klicken **oben rechts** der Seite auf „Bericht hinzufügen“.
 
 1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
 
@@ -151,13 +141,9 @@ Weitere Informationen zu Beispielen für Tabellenberichte finden Sie unter [Erst
 
 {{step1-to-dashboards}}
 
-1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
+1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards** und klicken Sie dann auf den Namen des Dashboards, dem Sie den Bericht hinzufügen möchten.
 
-1. Klicken **oben rechts auf** Neues Dashboard“.
-
-1. Geben Sie in das Feld **Dashboard erstellen** den **&#x200B;**&#x200B;Namen“ und die **Beschreibung** des Dashboards ein.
-
-1. Klicken Sie auf **Erstellen**.
+1. Klicken **oben rechts** der Seite auf „Bericht hinzufügen“.
 
 1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
 
@@ -232,7 +218,7 @@ Benutzer mit der Zugriffsebene Anzeigen oder Bearbeiten von Finanzdaten sehen we
 * Benutzende, die Finanzdaten sehen, sind auf Einträge beschränkt, für die sie bereits über Anzeigeberechtigungen verfügen (Projekte, Aufgaben, Probleme usw.). Sie sehen keine finanziellen Werte für Einträge, auf die sie nicht zugreifen können.
 * Erstellende von Berichten sollten Vorsicht walten lassen, wenn sie Finanzdaten in Dashboards einbeziehen, und darauf achten, mit wem sie Dashboards teilen, um unbeabsichtigten Zugriff zu verhindern.
 
-Dies ist eine bekannte Grenze, und wir planen, sie so schnell wie möglich zu beheben.
+Dies ist eine bekannte Grenze, und wir planen, sie in Zukunft anzugehen.
 
 ### Verwenden der Feldauswahl
 

@@ -9,19 +9,14 @@ exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/9ZMHrzOvdpkdnbBapJ65HFLutu0lfYmSOCamto-AU0c
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8b161669c427c316ba28b814dfa7a6d095cd4309
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 79d9eb9d3066cc83c1190d9732c64712917798aa
 workflow-type: tm+mt
-source-wordcount: 1864
-ht-degree: 7%
+source-wordcount: 1971
+ht-degree: 8%
 
 ---
 
@@ -29,8 +24,8 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) im Artikel Beta-Übersicht für Canvas-Dashboards befolgen.<br>
->Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kundensupport kontaktieren](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) im Artikel Beta-Übersicht für Arbeitsflächen-Dashboards befolgen.<br>
+>Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kontaktieren des Kunden-Supports](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
 >Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
 >
 >* Eigene Schlüssel für Amazon Web Services mitbringen
@@ -78,7 +73,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 ## Voraussetzungen
 
-Bevor Sie einen Diagrammbericht erstellen können, müssen Sie ein Dashboard erstellen.
+Bevor Sie einen Diagrammbericht erstellen können, müssen Sie ein Dashboard erstellen. Weitere Informationen finden Sie unter [Erstellen eines Arbeitsflächen-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
 ## Erstellen eines Diagrammberichts in einem Arbeitsflächen-Dashboard
 
@@ -86,13 +81,9 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines Diagrammberichts zur 
 
 {{step1-to-dashboards}}
 
-1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
+1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards** und klicken Sie dann auf den Namen des Dashboards, dem Sie den Bericht hinzufügen möchten.
 
-1. Klicken **oben rechts auf** Neues Dashboard“.
-
-1. Geben Sie in das Feld **Dashboard erstellen** den **&#x200B;**&#x200B;Namen“ und die **Beschreibung** des Dashboards ein.
-
-1. Klicken Sie auf **Erstellen**.
+1. Klicken **oben rechts** der Seite auf „Bericht hinzufügen“.
 
 1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
 
@@ -181,7 +172,7 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines Diagrammberichts zur 
 
 Gehen Sie wie folgt vor, um den Abschnitt **Filter** zu konfigurieren:
 
-1. Klicken Sie im linken Bedienfeld auf das Symbol **Filter**![&#x200B; Filter](assets/filter-icon.png).
+1. Klicken Sie im linken Bedienfeld auf das Symbol **Filter**![ Filter](assets/filter-icon.png).
 1. Wählen Sie **Filter bearbeiten** aus.
 1. Klicken Sie **Bedingung hinzufügen** und geben Sie dann das Feld an, nach dem Sie filtern möchten, sowie den Modifikator, der definiert, welche Art von Bedingung das Feld erfüllen muss.
 1. (Optional) Klicken Sie auf **Filtergruppe hinzufügen**, um einen weiteren Satz von Filterkriterien hinzuzufügen. Der Standardoperator zwischen den Sätzen ist UND. Klicken Sie auf den Operator, um ihn in ODER zu ändern.
@@ -212,13 +203,9 @@ In diesem Abschnitt werden die Schritte zum Erstellen eines Säulendiagramms erl
 
 {{step1-to-dashboards}}
 
-1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
+1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards** und klicken Sie dann auf den Namen des Dashboards, dem Sie den Bericht hinzufügen möchten.
 
-1. Klicken **oben rechts auf** Neues Dashboard“.
-
-1. Geben Sie in das Feld **Dashboard erstellen** den **&#x200B;**&#x200B;Namen“ und die **Beschreibung** des Dashboards ein.
-
-1. Klicken Sie auf **Erstellen**.
+1. Klicken **oben rechts** der Seite auf „Bericht hinzufügen“.
 
 1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
 
@@ -310,7 +297,7 @@ Benutzer mit der Zugriffsebene Anzeigen oder Bearbeiten von Finanzdaten sehen we
 * Benutzende, die Finanzdaten sehen, sind auf Einträge beschränkt, für die sie bereits über Anzeigeberechtigungen verfügen (Projekte, Aufgaben, Probleme usw.). Sie sehen keine finanziellen Werte für Einträge, auf die sie nicht zugreifen können.
 * Erstellende von Berichten sollten Vorsicht walten lassen, wenn sie Finanzdaten in Dashboards einbeziehen, und darauf achten, mit wem sie Dashboards teilen, um unbeabsichtigten Zugriff zu verhindern.
 
-Dies ist eine bekannte Grenze, und wir planen, sie so schnell wie möglich zu beheben.
+Dies ist eine bekannte Grenze, und wir planen, sie in Zukunft anzugehen.
 
 ### Verwenden der Feldauswahl
 

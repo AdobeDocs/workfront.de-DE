@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 467ae444ace2613b713ff2feb125e2471aa1b078
+source-git-commit: 14dd7192daab6bdb49ebb0964ef6e042fe7612f8
 workflow-type: tm+mt
-source-wordcount: '14457'
+source-wordcount: '14466'
 ht-degree: 92%
 
 ---
@@ -1624,6 +1624,7 @@ ht-degree: 92%
       * [Erstellen eines KPI-Berichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
       * [Erstellen eines Diagrammberichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
       * [Erstellen eines Tabellenberichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
+      * [Erstellen eines Pivot-Tabellenberichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md)
     * Verwalten von Arbeitsflächen-Dashboards {#manage-canvas-dashboards}
       * [Verwalten von Arbeitsflächen-Dashboards: Artikelindex](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
       * [Freigeben eines Arbeitsflächen-Dashboards](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
