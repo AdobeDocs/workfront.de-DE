@@ -15,9 +15,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 3a1bfdf05bd64586fb4274995075031065a0b5da
 workflow-type: tm+mt
-source-wordcount: 244
+source-wordcount: 240
 ht-degree: 0%
 
 ---
@@ -34,16 +34,19 @@ Nachrichten aus dem Ankündigungs-Center werden von Adobe Workfront an den Workf
 
 Abmeldung vom Erhalt von Nachrichten des Ankündigungscenters:
 
-1. Klicken Sie oben rechts in Workfront auf ![&#x200B; nummerierte Symbol &#x200B;](assets/notifications-icon-jewel.jpg)Benachrichtigungssymbol), um die Liste der Benachrichtigungen zu öffnen.
-1. Klicken **unten** der Liste auf „Alle Ankündigungen“.
+1. Klicken Sie auf das nummerierte Symbol in der rechten oberen Ecke von Workfront, um Ihre Benachrichtigungsliste zu öffnen, und klicken **unten in der Liste** Alle Ankündigungen“.
 
-   Die **Ankündigungen** wird angezeigt, auf der alle Ihre Ankündigungen aufgelistet sind.
+   ![Benachrichtigungssymbol](assets/notifications-icon-jewel.png)
 
-   ![Seite „Ankündigungen“](assets/announcements-page-qs-350x210.png)
 
-1. Klicken Sie **oben rechts** der Ankündigungs-Seite auf „Einstellungen“ und wählen Sie dann **Neue Versionen** oder **Schulung** je nach dem Typ der Ankündigungen, die Sie nicht mehr erhalten möchten.
+1. Klicken **oben rechts** der Seite „Ankündigungen“ auf „Einstellungen“.
 
-   ![Einstellungen der Ankündigungszentrale](assets/announcementcenter-settings-350x187.png)
+   ![Seite „Ankündigungen“](assets/ac-page.png)
+
+
+1. Deaktivieren Sie **Dialogfeld Einstellungen für Ankündigungscenter** das Kontrollkästchen für den Nachrichtentyp der Ankündigungszentrale, von dem Sie das Abonnement beenden möchten.
+
+   ![Einstellungen der Ankündigungszentrale](assets/ac-settings.png)
 
 1. Klicken Sie **Einstellungen speichern**.
 

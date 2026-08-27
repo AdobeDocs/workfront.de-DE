@@ -13,9 +13,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 1135856bf97f6607ad57cf539bdff688b49bf476
 workflow-type: tm+mt
-source-wordcount: 2016
+source-wordcount: 2012
 ht-degree: 2%
 
 ---
@@ -68,18 +68,18 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
    <td><strong>Täglich</strong> </td> 
   </tr>
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Alle Vorgänger einer meinem Team zugewiesenen Aufgabe sind abgeschlossen</strong> </p> <p>Das zugewiesene Team erhält eine E-Mail-Benachrichtigung, wenn ein Vorgänger einer seiner Aufgaben als „Abgeschlossen“ markiert ist.</p> <p>Benutzende mit einer Prüfungs- oder Antragstellerlizenz erhalten keine Benachrichtigung.</p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail lautet: <em>Aufgabe abgeschlossen: &lt;Name&gt;</em></p> <p> Der Betreff der täglichen Digest-Benachrichtigung ist: <em> Digest of Work Assigned To You &lt;Date of daily Digest&gt; </em></p> </td> 
+   <td> <p><strong>Alle Vorgänger einer meinem Team zugewiesenen Aufgabe sind abgeschlossen</strong> </p> <p>Das zugewiesene Team erhält eine E-Mail-Benachrichtigung, wenn ein Vorgänger einer seiner Aufgaben als „Abgeschlossen“ markiert ist.</p> <p>Benutzende mit einer externen Lizenz erhalten keine Benachrichtigung.</p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail lautet: <em>Aufgabe abgeschlossen: &lt;Name&gt;</em></p> <p> Der Betreff der täglichen Digest-Benachrichtigung ist: <em> Digest of Work Assigned To You &lt;Date of daily Digest&gt; </em></p> </td> 
    <td> Aufgabenname<br>Aufgabenprojekt<br>Aufgabenreferenznummer<br>Name des Benutzers, der die Vorgängeraufgabe abgeschlossen hat<br>Status der Vorgängeraufgabe<br>Datum und Uhrzeit, zu der der Vorgänger abgeschlossen wurde<br>Vorheriger Status der Vorgängeraufgabe<br><strong>Weitere Details anzeigen</strong> Schaltfläche<br>*Projektname<br>*Projektreferenznummer<br>*Gesamtzahl der abgeschlossenen Aufgaben<br>*Aufgabenname<br>*Name des Benutzers, der die Aufgabe abgeschlossen hat<br>*Datum der täglichen Zusammenfassung </td>
    <td><strong>Instant</strong> </td> 
   </tr>
   <!--
   <tr data-mc-conditions=""> 
-   <td> <p><strong>All predecessors of a task assigned to my team are completed</strong> </p> <p>The assigned team receives an email notification when a predecessor of one of their tasks is marked complete.</p> <p>Users with a Review or Requestor license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Task Complete: &lt;Name&gt;</em></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
+   <td> <p><strong>All predecessors of a task assigned to my team are completed</strong> </p> <p>The assigned team receives an email notification when a predecessor of one of their tasks is marked complete.</p> <p>Users with an external license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Task Complete: &lt;Name&gt;</em></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
    <td> <p>Assigned by</p> <p>Task Name</p> <p>View button</p> <p>Parent tasks</p> <p>Assignees</p> <p>Task status</p> <p>Task description</p> <p>Task Reference Number</p> <p> <br>Completed predecessor tasks </p> <p>Name of the user who completed the predecessor task<br>Date when the predecessor was completed</p> <p>View button<br>Option to add to the daily digest<br></p> </td> 
    <td><strong>Instant</strong> </td> 
   </tr>
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> <p><strong>All predecessors of a task assigned to my team are completed</strong> </p> <p>The team assigned receives an email notification for each predecessor that is marked complete. </p> <p>Users with a Review or Requestor license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Complete: &lt;Task Name&gt;</em><br></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
+    <td> <p><strong>All predecessors of a task assigned to my team are completed</strong> </p> <p>The team assigned receives an email notification for each predecessor that is marked complete. </p> <p>Users with an external license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Complete: &lt;Task Name&gt;</em><br></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
     <td> Task Name<br>Task Project<br>Task Reference Number<br>Name of the user who completed the predecessor task<br>Status of the predecessor task<br>Date and Time when the predecessor was completed<br>Previous Status of the predecessor task<br><strong>See More Details</strong> button<br>*Project Name<br>*Project Reference Number<br>*Total number of tasks completed<br>*Task Name<br>*Name of the user who completed the task<br>*Date of daily digest </td> 
     <td><strong>Instant</strong> </td> 
    </tr>
@@ -91,7 +91,7 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
   </tr>
   <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> <p><strong>All predecessors of my tasks are completed</strong> </p> <p>The task assignee receives an email notification for each predecessor that is completed.</p> <p>Users with a Review or Requestor license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Complete: &lt;Task Name&gt;</em><br></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
+    <td> <p><strong>All predecessors of my tasks are completed</strong> </p> <p>The task assignee receives an email notification for each predecessor that is completed.</p> <p>Users with an external license do not receive a notification.</p> <p>The subject of the instant notification email is: <em>Complete: &lt;Task Name&gt;</em><br></p> <p> The subject of the daily digest notification is: <em> Digest of Work Assigned to You &lt;Date of daily digest&gt; </em></p> </td> 
     <td> Task Name<br>Task Project<br>Task Reference Number<br>Name of the user who completed the predecessor task<br>Status of the predecessor task<br>Date and Time when the predecessor was completed<br>Previous Status of the predecessor task<br><strong>See More Details</strong> button<br>*Project Name<br>*Project Reference Number<br>*Total number of tasks completed<br>*Task Name<br>*Name of the user who completed the task<br>*Date of daily digest </td> 
     <td><strong>Instant</strong> </td> 
    </tr>
@@ -112,7 +112,7 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
    <td><strong>Täglich</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Den zugewiesenen Benutzer per E-Mail benachrichtigen, wenn sich das geplante Abschlussdatum der Aufgabe ändert</strong> </p> <p>Der Aufgabenbevollmächtigte erhält eine E-Mail-Benachrichtigung, wenn sich das geplante Abschlussdatum der Aufgabe (Geplant) ändert, es sei denn, der Benutzer, der das geplante Abschlussdatum geändert hat, ist auch der Aufgabenbevollmächtigte.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus nicht [!UICONTROL Planning] ist.</p> <p>Es wird keine Benachrichtigung bezüglich persönlicher Aufgaben gesendet.</p> <p> Benutzende mit einer Prüfungs- oder Antragstellerlizenz erhalten keine Benachrichtigung. </p> <p> Der Betreff der sofortigen Benachrichtigungs-E-Mail lautet: <em>[!UICONTROL Fälligkeitsdatum wurde geändert.]</em></p> <p> Der Betreff der täglichen Digest-Benachrichtigung ist: <em> [!UICONTROL Digest of Work Assigned To You] &lt;Date of daily Digest&gt; </em></p> </td> 
+   <td> <p><strong>Den zugewiesenen Benutzer per E-Mail benachrichtigen, wenn sich das geplante Abschlussdatum der Aufgabe ändert</strong> </p> <p>Der Aufgabenbevollmächtigte erhält eine E-Mail-Benachrichtigung, wenn sich das geplante Abschlussdatum der Aufgabe (Geplant) ändert, es sei denn, der Benutzer, der das geplante Abschlussdatum geändert hat, ist auch der Aufgabenbevollmächtigte.</p> <p>Eine Benachrichtigung wird nur gesendet, wenn der Projektstatus nicht [!UICONTROL Planning] ist.</p> <p>Es wird keine Benachrichtigung bezüglich persönlicher Aufgaben gesendet.</p> <p> Benutzende mit einer externen Lizenz erhalten keine Benachrichtigung. </p> <p> Der Betreff der sofortigen Benachrichtigungs-E-Mail lautet: <em>[!UICONTROL Fälligkeitsdatum wurde geändert.]</em></p> <p> Der Betreff der täglichen Digest-Benachrichtigung ist: <em> [!UICONTROL Digest of Work Assigned To You] &lt;Date of daily Digest&gt; </em></p> </td> 
    <td> Aufgabenname<br>Projektname<br>Aufgabenreferenznummer<br>Neues Fälligkeitsdatum ([!UICONTROL Geplantes Abschlussdatum])<br>Datum und Uhrzeit der Änderung des Fälligkeitsdatums<br>Der Name des Benutzers, der das Fälligkeitsdatum geändert hat<br>*Projektname<br>*Projektreferenznummer<br>*Gesamtzahl der Aufgaben, bei denen sich das Fälligkeitsdatum (Geplantes Abschlussdatum) geändert hat<br>*Aufgabenname<br>*Neues geplantes Abschlussdatum<br>*Name des Benutzers, der das Fälligkeitsdatum geändert hat<br>*Datum der täglichen Zusammenfassung </td> 
    <td> <p><strong>Instant</strong> </p> <p><strong>und täglich</strong> </p> </td> 
   </tr> 
