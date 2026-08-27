@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 159b845c7b755117197d18f8474c01d4b19d53b8
+source-git-commit: 914f1f8a25aa5b9e1045d2f940ed15061301c21b
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 6%
+source-wordcount: '298'
+ht-degree: 5%
 
 ---
 
@@ -75,7 +75,10 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 ## Überlegungen beim Konfigurieren von Geschäftsregeln
 
-* Sie können Regeln für den Zeitpunkt konfigurieren, zu dem Datensätze bearbeitet oder gelöscht werden können.
+* Sie können Regeln konfigurieren, nach denen Datensätze je nach definierten Bedingungen bearbeitet oder gelöscht werden können.
+
+  Sie können beispielsweise Bedingungen erstellen, die verlangen, dass bestimmte Felder einen Wert enthalten. Wenn der Wert in diesen Feldern fehlt, können Benutzende diesen Datensatz nicht bearbeiten oder löschen.
+* Sie können keine Geschäftsregeln zu globalen Datensatztypen in ihren primären oder sekundären Arbeitsbereichen hinzufügen.
 * Regeln für den Zeitpunkt der Datensatzerstellung können nicht konfiguriert werden. Jeder, der über Verwaltungsberechtigungen für den Datensatztyp verfügt, kann Datensätze erstellen.
 * Sie können eine Bedingung für Ihre Geschäftsregel erstellen, die auf alle Feldtypen mit Ausnahme der folgenden verweist:
   * Formelfelder
