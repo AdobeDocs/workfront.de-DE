@@ -91,7 +91,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 1. Klicken Sie auf **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Namen des Datensatztyps und dann auf Geschäftsregeln.
 
 
-*********** VON CLAUDE - UNTEN - MUSS BEARBEITET WERDEN *******************
+**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** VON CLAUDE - UNTEN - MUSS BEARBEITET WERDEN &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;***
 
 ## Einrichten von Geschäftsregeln in Workfront Planning: Eine schrittweise Anleitung
 
@@ -155,9 +155,9 @@ Mit anderen Worten: „Wenn der Status eines Materialdatensatzes in &quot;**zur 
 Sie können für denselben Status mehr als eine Regel hinzufügen. Beispielsweise kann es erforderlich sein, dass alle Angaben zu Marke, Therapiebereich, Indikation und voraussichtlichem Startdatum ausgefüllt werden, bevor ein Datensatz in „Bereit zur Ausführung“ geändert werden kann. Dabei handelt es sich jeweils um eine eigene Regel, die alle gemeinsam überprüft werden.
 
 **Welche Felder können benötigt werden?**
-- Verbundene Datensatzfelder (z. B. ein verknüpfter Marken- oder Indikationsdatensatz) - Die Regel wird erfolgreich abgeschlossen, sobald mindestens ein Datensatz verknüpft ist.
-- Standardtextfelder (einzeilig oder Absatz) - die Regel wird übergeben, sobald ein Wert vorhanden ist.
-- Datumsfelder - Die Regel wird übergeben, sobald ein Datum festgelegt wird.
+&#x200B;- Verbundene Datensatzfelder (z. B. ein verknüpfter Marken- oder Indikationsdatensatz) - Die Regel wird erfolgreich abgeschlossen, sobald mindestens ein Datensatz verknüpft ist.
+&#x200B;- Standardtextfelder (einzeilig oder Absatz) - die Regel wird übergeben, sobald ein Wert vorhanden ist.
+&#x200B;- Datumsfelder - Die Regel wird übergeben, sobald ein Datum festgelegt wird.
 
 **Was Sie noch nicht verwenden können:** Formelfelder und Lookup-Felder werden in dieser Version nicht als Regelziele unterstützt, da sie im Hintergrund berechnet und nicht direkt von einer Person ausgefüllt werden.
 
