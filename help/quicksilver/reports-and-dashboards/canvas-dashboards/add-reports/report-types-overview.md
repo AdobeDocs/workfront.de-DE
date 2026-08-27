@@ -11,7 +11,7 @@ hide: true
 exl-id: d593a9d5-6351-48ff-891d-cc1b727188bc
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: aced2514a18895ff61514325ba08a2af6fe48212
+source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
 workflow-type: tm+mt
 source-wordcount: '113'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Auf dieser Seite werden Funktionen beschrieben, die als Teil der Beta-Version von Canvas Dashboards verfügbar sind. Weitere [&#x200B; finden Sie unter &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) zu Canvas-Dashboards - Betaversion .
+>Auf dieser Seite werden Funktionen beschrieben, die als Teil der Beta-Version von Canvas Dashboards verfügbar sind. Weitere [ finden Sie unter ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) zu Canvas-Dashboards - Betaversion .
 
 Es gibt eine Reihe verschiedener Berichte, die Sie einem Arbeitsflächen-Dashboard hinzufügen können und die Ihre Workfront-Daten auf unterschiedliche Weise visualisieren. Die folgenden Berichtstypen können zu einem Arbeitsflächen-Dashboard hinzugefügt werden:
 
@@ -32,3 +32,4 @@ Es gibt eine Reihe verschiedener Berichte, die Sie einem Arbeitsflächen-Dashboa
 * Tabellenberichte
 * Pivot-Tabellenberichte
 * Berichte zu ausstehenden Genehmigungen
+

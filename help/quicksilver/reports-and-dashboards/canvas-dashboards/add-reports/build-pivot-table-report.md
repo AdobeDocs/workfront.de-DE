@@ -5,7 +5,7 @@ title: Erstellen eines Pivot-Tabellenberichts in einem Arbeitsflächen-Dashboard
 description: Sie können einen Pivot-Tabellenbericht zu einem Arbeitsflächen-Dashboard hinzufügen, um aggregierte Summen für Ihre Daten in einem Tabellenformat anzuzeigen.
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 79d9eb9d3066cc83c1190d9732c64712917798aa
+source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 8%
@@ -239,3 +239,4 @@ Nachdem das Basisobjekt für die Entität ausgewählt wurde, wird **Dropdown-** 
 Wir beschränken den Zugriff auf die Auswahl von untergeordneten Objekten als Segmente einer Pivot-Tabelle. Segmentoptionen können Attribute des Datensatzes selbst oder andere verwandte Datensätze sein, die keine 1- oder :many-Beziehung :many.
 
 Wir beschränken den Zugriff auch darauf, auf ein übergeordnetes oder untergeordnetes Attribut als Metrik zu verweisen, um das Potenzial für eine Doppelzählung oder Doppelzusammenfassung von Werten zu reduzieren, was zu einer falschen Darstellung der tatsächlichen Daten führt.
+
