@@ -17,9 +17,9 @@ subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 31db7a4ef190793558bcb2fa10beb2585e1068e4
 workflow-type: tm+mt
-source-wordcount: 395
+source-wordcount: 477
 ht-degree: 1%
 
 ---
@@ -41,19 +41,23 @@ Beachten Sie beim Planen einer Aufgabe mit einer „Muss abgeschlossen sein am�
 * Vorgängerbeziehungen erzwingen keine Neuplanung der Aufgabe. Adobe Workfront ignoriert im Wesentlichen die Vorgängerbeziehungen.
 * Die Aufgabe wird als **Gefährdet** angezeigt, wenn die Vorgänger zurückliegen oder sich verspäten.
 
+* Die Einschränkung Muss beendet sein hat keine Auswirkungen auf eine Aufgabe mit Teilaufgaben. Für eine Aufgabe mit Teilaufgaben werden immer die eigenen Daten für Geplanten Beginn, Geplanten Abschluss und Dauer ab dem frühesten Start und dem letzten Abschlussdatum der Teilaufgabe verwendet, unabhängig von der angewendeten Einschränkung. Sie müssen die Einschränkung Muss beendet sein direkt mit der Teilaufgabe verknüpfen, für die stattdessen das feste Datum erforderlich ist. Das übergeordnete Element wird weiterhin automatisch aggregiert.
+
+Weitere Informationen finden Sie auch unter [Aufgabendauer und Dauertyp](/help/quicksilver/manage-work/tasks/taskdurtn/task-duration-duration-type.md).
+
 * Wenn Sie eine Aufgabe mit einer MFO-Einschränkung in ein anderes Projekt verschieben oder kopieren, kann sich die Einschränkung für die Aufgabe oder das Datum des Projekts ändern, je nachdem, welche Einschränkungstermine gelten und welches Start- und Abschlussdatum das Projekt hat. Die folgenden Szenarien sind vorhanden:
 
-   * Wenn das Zielprojekt von Anfang an geplant ist:
+  * Wenn das Zielprojekt von Anfang an geplant ist:
 
-      * Wenn das Einschränkungsdatum der Aufgabe vor dem geplanten Startdatum des Projekts liegt, ändert sich die Aufgabenbeschränkung in So bald wie möglich.
-      * Wenn das Einschränkungsdatum der Aufgabe nach dem geplanten Abschlussdatum des Projekts liegt, ändert sich das geplante Abschlussdatum des Projekts entsprechend dem Einschränkungsdatum der Aufgabe.
+    * Wenn das Einschränkungsdatum der Aufgabe vor dem geplanten Startdatum des Projekts liegt, ändert sich die Aufgabenbeschränkung in So bald wie möglich.
+    * Wenn das Einschränkungsdatum der Aufgabe nach dem geplanten Abschlussdatum des Projekts liegt, ändert sich das geplante Abschlussdatum des Projekts entsprechend dem Einschränkungsdatum der Aufgabe.
 
-      * Wenn das Zielprojekt für den Abschluss geplant ist:
+    * Wenn das Zielprojekt für den Abschluss geplant ist:
 
-         * Wenn das Einschränkungsdatum der Aufgabe nach dem Abschlussdatum des Projekts liegt, ändert sich die Aufgabenbeschränkung in So spät wie möglich.
-         * Wenn das Einschränkungsdatum der Aufgabe vor dem geplanten Startdatum des Projekts liegt, ändert sich das geplante Startdatum des Projekts, sodass es dem Starteinschränkungsdatum der Aufgabe entspricht.
+      * Wenn das Einschränkungsdatum der Aufgabe nach dem Abschlussdatum des Projekts liegt, ändert sich die Aufgabenbeschränkung in So spät wie möglich.
+      * Wenn das Einschränkungsdatum der Aufgabe vor dem geplanten Startdatum des Projekts liegt, ändert sich das geplante Startdatum des Projekts, sodass es dem Starteinschränkungsdatum der Aufgabe entspricht.
 
-      * Wenn das Einschränkungsdatum der Aufgabe innerhalb des Start- und Abschlussdatums des Projekts liegt, gibt es unabhängig vom Projektplan keine Änderungen an der Aufgabenbeschränkung oder den Projektdaten.
+    * Wenn das Einschränkungsdatum der Aufgabe innerhalb des Start- und Abschlussdatums des Projekts liegt, gibt es unabhängig vom Projektplan keine Änderungen an der Aufgabenbeschränkung oder den Projektdaten.
 
   Informationen zum Verschieben von Aufgaben finden Sie unter [Aufgaben verschieben](../../../manage-work/tasks/manage-tasks/move-tasks.md). Informationen zum Kopieren von Aufgaben finden Sie unter [Aufgaben kopieren und duplizieren](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 

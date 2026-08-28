@@ -16,9 +16,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 5fe8f3a46e3582a359b8d4641a7062b0590ea0b8
+source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
 workflow-type: tm+mt
-source-wordcount: 570
+source-wordcount: 674
 ht-degree: 4%
 
 ---
@@ -106,6 +106,24 @@ Sie können Tabellenberichte in Dashboards vorübergehend anpassen. Diese Änder
    >
    >Diese Änderungen gelten nur für Ihre aktuelle Sitzung und wirken sich nicht auf die ursprüngliche Berichtskonfiguration aus. Um diese Änderungen dauerhaft vorzunehmen, müssen Sie den Bericht bearbeiten.
 
+<div class="preview">
+
+### Aufschlüsselung der Pivot-Tabellendaten in der Vorschau
+
+Sie können auf einen Wert in einem Pivot-Tabellenbericht klicken, um einen Drilldown durchzuführen und die einzelnen Datensätze anzuzeigen, aus denen dieser aggregierte Wert besteht.
+
+{{step1-to-dashboards}}
+
+1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
+1. Klicken Sie auf den Namen eines vorhandenen Dashboards, um es zu öffnen.
+   ![Öffnen eines Dashboards](assets/open-dashboard.png)
+1. Suchen Sie den Pivot-Tabellenbericht, den Sie anzeigen möchten.
+1. Klicken Sie auf einen Wert in der Pivot-Tabelle, um die Drilldown-Tabelle zu öffnen.
+
+   Die Drilldown-Tabelle zeigt die Spalten an, die der Ersteller des Berichts in den Drilldown-Spalteneinstellungen konfiguriert hat. Weitere Informationen finden Sie unter [Erstellen eines Pivot-Tabellenberichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-pivot-table-report.md).
+
+</div>
+
 
 <!--
 
@@ -157,3 +175,4 @@ Standardmäßig werden die Gruppierungen selbst je nach Feldtyp alphabetisch ode
 Sie können auf eine Spaltenüberschrift klicken, um die Daten innerhalb der einzelnen Gruppen zu sortieren. Wenn Sie nach einem Feld sortieren, das sich vom Gruppierungsfeld unterscheidet, ändert sich die Reihenfolge der Gruppen nicht.
 
 Wenn Sie jedoch nach demselben Feld sortieren, nach dem der Bericht gruppiert ist, kann sich die Gruppenreihenfolge ändern. Beispielsweise kann eine textbasierte Gruppierung, die normalerweise A-Z ausführt, zu Z-A wechseln.
+

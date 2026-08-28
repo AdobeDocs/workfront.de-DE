@@ -4,10 +4,10 @@ description: Diese Seite enthält Informationen zur Funktionalität, die in der 
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 467ae444ace2613b713ff2feb125e2471aa1b078
+source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
 workflow-type: tm+mt
-source-wordcount: '1464'
-ht-degree: 14%
+source-wordcount: '1501'
+ht-degree: 13%
 
 ---
 
@@ -264,6 +264,15 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             <td><strong>Vorschau</strong></td>
             <td><strong>Schnellveröffentlichung</strong></td>
             <td><strong>Vierteljährlich</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Pivot-Tabellenberichte in Arbeitsflächen-Dashboards</a>
+                <p>Der neue Berichtstyp „Pivot-Tabelle“ in den Arbeitsflächen-Dashboards aggregiert Daten mit genauen, vollständigen Rollups mit Drilldown in die zugrunde liegenden Datensätze.</p>
+            </td>
+            <td><p>27. August 2026</p></td>
+            <td><p>17. September 2026</p></td>
+            <td><p>15. Oktober 2026</p></td>
         </tr>
         <tr>
             <td>

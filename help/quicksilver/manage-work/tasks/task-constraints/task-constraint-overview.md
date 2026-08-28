@@ -21,10 +21,10 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 31db7a4ef190793558bcb2fa10beb2585e1068e4
 workflow-type: tm+mt
-source-wordcount: 694
-ht-degree: 7%
+source-wordcount: 704
+ht-degree: 6%
 
 ---
 
@@ -38,6 +38,8 @@ Aufgabenbeschränkungen bestimmen, wann eine Aufgabe in einem Projekt beginnen u
 
 Während Sie Ihren Projektplan erstellen, treffen Sie Entscheidungen über die Reihenfolge und den Zeitrahmen Ihrer Aufgaben im Projekt. Aufgaben können unabhängig von einer Aufgabensequenz funktionieren, sie können sich jedoch auf die Projektzeitleiste auswirken. Aufgabenbeschränkungen ermöglichen es einem Projektmanager zu planen, wann bestimmte Aufgaben in einem Projekt beginnen oder abgeschlossen werden können.
 
+Aufgabenbeschränkungen gelten gleichermaßen für Projektaufgaben und Vorlagenaufgaben.
+
 Abhängig von der von Ihnen verwendeten Einschränkung müssen Sie möglicherweise ein geplantes Startdatum, ein geplantes Abschlussdatum oder beides für die Aufgabe angeben.
 
 Einschränkungstypen, für die ein definiertes Datum erforderlich ist, wirken sich auf Vorgängerbeziehungen aus.
@@ -46,7 +48,9 @@ Einschränkungstypen, für die ein definiertes Datum erforderlich ist, wirken si
 >
 >Erwägen Sie die Verwendung eines Einschränkungstyps, für den keine bestimmten Daten erforderlich sind, wenn Sie Vorgängerbeziehungen zwischen Aufgaben verwenden.
 
-In der folgenden Tabelle werden jede Einschränkung und ihre Abkürzungen angezeigt. Die Abkürzungen werden in Aufgabenlisten und beim Erstellen von Kickstart-Importdateien verwendet. Klicken Sie auf den verknüpften Titel jeder Aufgabenbeschränkung, um weitere Informationen zu diesem Einschränkungstyp zu erhalten.
+In der folgenden Tabelle werden jede Einschränkung und ihre Abkürzungen angezeigt.
+
+Die Abkürzungen werden in Aufgabenlisten und beim Erstellen von Kickstart-Importdateien verwendet. Klicken Sie auf den verknüpften Titel jeder Aufgabenbeschränkung, um weitere Informationen zu diesem Einschränkungstyp zu erhalten.
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
