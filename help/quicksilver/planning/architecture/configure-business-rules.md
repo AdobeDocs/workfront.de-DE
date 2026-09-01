@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 31db7a4ef190793558bcb2fa10beb2585e1068e4
+source-git-commit: 85c9f757134bc84e4b5038e4001f9a9fe1430f2a
 workflow-type: tm+mt
-source-wordcount: '1654'
-ht-degree: 1%
+source-wordcount: '358'
+ht-degree: 6%
 
 ---
 
@@ -23,7 +23,12 @@ ht-degree: 1%
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
-Sie können Geschäftsregeln für Datensatztypen konfigurieren, die festlegen, wie Datensätze dieses Typs in Adobe Workfront Planning verwaltet werden.
+Sie können Geschäftsregeln für Adobe Workfront Planning-Datensatztypen konfigurieren, die definieren, wie Datensätze dieses Typs verwaltet werden.
+
+Sie können die folgenden Aktionen für die Datensätze zulassen, wenn die definierten Geschäftsregeln erfüllt sind:
+
+* Datensatz bearbeiten
+* Eintrag löschen
 
 ## Zugriffsanforderungen
 
@@ -75,7 +80,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 ## Überlegungen beim Konfigurieren von Geschäftsregeln
 
-* Sie können Regeln konfigurieren, nach denen Datensätze je nach definierten Bedingungen bearbeitet oder gelöscht werden können.
+* Sie können Regeln konfigurieren, die angeben, wann Datensätze bearbeitet oder gelöscht werden können.
 
   Sie können beispielsweise Bedingungen erstellen, die verlangen, dass bestimmte Felder einen Wert enthalten. Wenn der Wert in diesen Feldern fehlt, können Benutzende diesen Datensatz nicht bearbeiten oder löschen.
 * Sie können keine Geschäftsregeln zu globalen Datensatztypen in ihren primären oder sekundären Arbeitsbereichen hinzufügen.
@@ -88,139 +93,141 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 ## Geschäftsregeln konfigurieren
 
 1. Zu einem Datensatztyp gehen.
-1. Klicken Sie auf **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Namen des Datensatztyps und dann auf Geschäftsregeln.
+1. Klicken Sie auf **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Namen des Datensatztyps und dann auf **Geschäftsregeln**.
+
+   Die Seite „Geschäftsregeln“ wird geöffnet.
+1. Klicken Sie **Neue Geschäftsregel**.
+1. Fügen Sie im Feld Neue Geschäftsregel einen Namen für die Geschäftsregel in das erste verfügbare Feld ein. Dies ist ein Pflichtfeld
+1. (Optional) Fügen Sie eine Beschreibung hinzu, um die Geschäftsregel zu definieren.
+
+<!--
+
+***********FROM CLAUDE - BELOW - MUST EDIT*******************
 
 
-**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** VON CLAUDE - UNTEN - MUSS BEARBEITET WERDEN &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;***
+### What business rules actually do
 
-## Einrichten von Geschäftsregeln in Workfront Planning: Eine schrittweise Anleitung
+Business rules attach a condition to a **status change**. Instead of enforcing complete data the moment someone creates a record (which would slow everyone down), the rule only kicks in at one specific, deliberate moment: when a status is about to change to a status you've configured.
 
-Schon einmal eine Rekordverlagerung auf „Ready for Execution“ vorgenommen, nur um später herauszufinden, dass die Hälfte der erforderlichen Felder - Marke, Anzeige, Launch-Datum - nie ausgefüllt wurden? Wenn jemand das bemerkt, gibt es bereits ein nachgelagertes Projekt mit fehlenden Daten, und jemand muss die Details aufspüren und sie von Hand aufstocken.
+A rule looks like this in plain language:
 
-Geschäftsregeln beheben das. Damit können Sie einen einfachen Checkpoint einrichten: **Bevor ein Datensatz einen bestimmten Status erreichen kann, müssen bestimmte Felder ausgefüllt werden.** Wenn dies nicht der Fall ist, sieht die Person, die die Änderung vornimmt, genau, was fehlt, und kann erst fortfahren, wenn das Problem behoben ist.
+> "Before a record can move to **Ready for Execution**, the field **Brand** must have a value."
 
-Dieses Handbuch erläutert, was Geschäftsregeln bewirken, wie Sie sie einrichten und was Ihr Team nach der Live-Schaltung erlebt.
+If the field is empty, the status change is blocked and the person gets a clear message telling them what to fix. Once they fill it in and try again, the change goes through.
 
-### Was Geschäftsregeln tatsächlich bewirken
+A few important things this is *not*:
 
-Geschäftsregeln fügen einer **Statusänderung“ eine Bedingung**. Anstatt vollständige Daten in dem Moment durchzusetzen, in dem jemand einen Datensatz erstellt (was alle verlangsamen würde), wird die Regel nur zu einem bestimmten, beabsichtigten Zeitpunkt eingeführt: wenn ein Status dabei ist, zu einem von Ihnen konfigurierten Status zu wechseln.
-
-Eine Regel sieht in einfacher Sprache wie folgt aus:
-
-> „Bevor ein Datensatz in „Bereit **Ausführung“ verschoben werden kann** muss **Feld „Marke** einen Wert aufweisen.“
-
-Wenn das Feld leer ist, wird die Statusänderung blockiert und die Person erhält eine klare Meldung, die ihr mitteilt, was behoben werden soll. Sobald sie es ausfüllen und erneut versuchen, geht die Änderung durch.
-
-Einige wichtige Dinge, die dies *nicht*:
-
-* **Die Erstellung von Datensätzen wird nicht blockiert.** Man kann immer noch sofort einen neuen Eintrag erstellen und ihn mit der Zeit ausfüllen, genau wie heute.
-* **Es füllt nichts automatisch aus oder ändert den Status nicht automatisch.** Eine Person muss die Statusänderung immer selbst vornehmen.
-* **Alte Einträge werden nicht rückwirkend markiert.** Datensätze, die sich bereits im Zielstatus befinden, sind davon nicht betroffen. Die Prüfung wird nur ausgeführt, wenn das nächste Mal versucht wird, einen Datensatz in *Status* verschieben.
-
-
-
-### Vorbereitung
-
-Einige Dinge müssen zutreffen, bevor Sie Regeln konfigurieren können:
-
-1. **Die Funktion muss für Ihre Organisation aktiviert sein.** Dies geschieht auf der Seite von Adobe (über ein Feature Flag), nicht etwas, das Sie selbst aktivieren. Wenn der unten beschriebene Abschnitt „Geschäftsregeln“ nicht angezeigt wird, überprüfen Sie bei Ihrem Adobe-Ansprechpartner, ob er für Ihren Mandanten aktiviert wurde.
-2. **Sie benötigen Admin- oder Workspace-Konfigurator-Berechtigungen.** Reguläre Planer können keine Regeln erstellen oder bearbeiten - nur die Personen, die den Arbeitsbereich verwalten, können dies tun.
-
-### Schritt 1: Konfigurationsbereich für Geschäftsregeln öffnen
-
-Geschäftsregeln live neben Ihrem anderen Admin-Setup - Sie brauchen kein separates „Planning“-Panel zu suchen. Im Bereich für die Workflow-Einrichtung:
-
-1. Wechseln Sie zum Hauptbereich **Workflow-Einrichtung/Admin** für Ihren Arbeitsbereich.
-2. Suchen Sie **Abschnitt „Geschäftsregeln** für den Datensatztyp, den Sie konfigurieren möchten (z. B. „Materialien“ oder „Kampagnen„).
-
-
-### Schritt 2: Auswählen des Datensatztyps
-
-Regeln werden pro Datensatztyp konfiguriert. Wählen Sie daher die Regel aus, der Sie eine Regel hinzufügen möchten. Wenn Sie beispielsweise sicherstellen möchten, dass vor der Ausführung in jedem Materialdatensatz Schlüsselfelder ausgefüllt sind, wählen Sie **Materialien**.
+* **It doesn't block record creation.** People can still create a new record instantly and fill it in over time, exactly like today.
+* **It doesn't auto-fill anything or auto-change statuses.** A person always has to make the status change themselves.
+* **It doesn't retroactively flag old records.** Records that are already sitting in the target status aren't affected — the check only runs the next time someone tries to move a record *into* that status.
 
 
 
-### Schritt 3: Neue Regel erstellen
+### Before you start
 
-Für jede Regel geben Sie drei Dinge an:
+A couple of things need to be true before you can configure rules:
 
-| Was Sie festgelegt haben | Beispiel |
+1. **The feature has to be turned on for your organization.** This is done on Adobe's side (via a feature flag), not something you enable yourself. If you don't see the business rules section described below, check with your Adobe contact to confirm it's been enabled for your tenant.
+2. **You need admin or workspace-configurator permissions.** Regular planners can't create or edit rules — only people managing the workspace setup can.
+
+### Step 1: Open the business rules configuration area
+
+Business rules live alongside your other admin setup — you won't need to hunt for a separate "Planning" panel. From your workflow setup area:
+
+1. Go to the main **workflow setup / admin configuration** area for your workspace.
+2. Look for the **business rules** section for the record type you want to configure (for example, "Materials" or "Campaigns").
+
+
+### Step 2: Choose the record type
+
+Rules are configured per record type, so pick the one you want to add a rule to. For example, if you want to make sure every Materials record has key fields filled in before execution, select **Materials**.
+
+
+
+### Step 3: Create a new rule
+
+For each rule, you'll specify three things:
+
+| What you set | Example |
 |---|---|
-| **Datensatztyp** | Materialien |
-| **Zielstatus** | Bereit zur Ausführung |
-| **Erforderliches Feld** | Marke |
+| **Record type** | Materials |
+| **Target status** | Ready for Execution |
+| **Required field** | Brand |
 
-Mit anderen Worten: „Wenn der Status eines Materialdatensatzes in &quot;**zur Ausführung“ geändert wird** muss das Feld **Marke** einen Wert enthalten.“
+In other words: "When a Materials record's status is changed to **Ready for Execution**, the field **Brand** must have a value."
 
-Sie können für denselben Status mehr als eine Regel hinzufügen. Beispielsweise kann es erforderlich sein, dass alle Angaben zu Marke, Therapiebereich, Indikation und voraussichtlichem Startdatum ausgefüllt werden, bevor ein Datensatz in „Bereit zur Ausführung“ geändert werden kann. Dabei handelt es sich jeweils um eine eigene Regel, die alle gemeinsam überprüft werden.
+You can add more than one rule for the same status. For example, you might require Brand, Therapeutic Area, Indication, and Estimated Launch Date all to be filled in before a record can move to "Ready for Execution" — each is its own rule, and all of them are checked together.
 
-**Welche Felder können benötigt werden?**
-&#x200B;- Verbundene Datensatzfelder (z. B. ein verknüpfter Marken- oder Indikationsdatensatz) - Die Regel wird erfolgreich abgeschlossen, sobald mindestens ein Datensatz verknüpft ist.
-&#x200B;- Standardtextfelder (einzeilig oder Absatz) - die Regel wird übergeben, sobald ein Wert vorhanden ist.
-&#x200B;- Datumsfelder - Die Regel wird übergeben, sobald ein Datum festgelegt wird.
+**What fields can you require?**
 
-**Was Sie noch nicht verwenden können:** Formelfelder und Lookup-Felder werden in dieser Version nicht als Regelziele unterstützt, da sie im Hintergrund berechnet und nicht direkt von einer Person ausgefüllt werden.
+* Connected record fields (e.g., a linked Brand or Indication record) — the rule passes as soon as at least one record is linked.
+* Standard text fields (single-line or paragraph) — the rule passes once there's any value.
+* Date fields — the rule passes once a date is set.
 
-### Schritt 4: Schreiben Sie die Nachricht, die die Benutzer sehen werden
+**What you can't use yet:** formula fields and lookup fields aren't supported as rule targets in this release, since they're calculated in the background rather than filled in directly by a person.
 
-Wenn Sie eine Regel erstellen, geben Sie auch die Meldung an, die angezeigt wird, wenn versucht wird, die Änderung vorzunehmen, ohne dass das Feld ausgefüllt ist. Halten Sie es spezifisch und umsetzbar - so etwas wie:
+### Step 4: Write the message people will see
 
-> „Marke ist erforderlich.“
+When you create a rule, you'll also provide the message that shows up if someone tries to make the change without the field filled in. Keep it specific and actionable — something like:
 
-Sie müssen sich keine Gedanken über die Formatierung eines ganzen Fehlerbanners machen - das System verarbeitet die Kombination von Nachrichten, wenn mehrere Regeln gleichzeitig verletzt werden (siehe unten).
+> "Brand is required."
 
-### Schritt 5: Speichern der Regel
+You don't need to worry about formatting a whole error banner — the system handles combining messages if multiple rules are violated at once (see below).
 
-Nach dem Speichern wird die Regel **sofort** für alle Benutzer im Arbeitsbereich wirksam - sie müssen sich nicht abmelden, aktualisieren oder auf eine Bereitstellung warten. Wenn das nächste Mal versucht wird, einen Datensatz in diesen Status zu verschieben, wird die Regel überprüft.
+### Step 5: Save the rule
 
-### Was Ihr Team tatsächlich erleben wird
+Once saved, the rule takes effect **immediately** for everyone in the workspace — no need to log out, refresh, or wait for a deployment. The very next time anyone tries to move a record into that status, the rule is checked.
 
-Für die Benutzer, die die tägliche Planung verwenden, ändert sich dies, sobald eine Regel live ist.
+### What your team will actually experience
 
-#### Wenn ein erforderliches Feld leer ist
+Here's what changes for the people using Planning day to day, once a rule is live.
 
-1. Ein Planer öffnet einen Datensatz und ändert den Status in den abgeschlossenen Status (z. B. „Bereit zur Ausführung„).
-2. Das System prüft alle Regeln, die mit diesem Status verknüpft sind.
-3. Wenn ein erforderliches Feld leer ist, wird die Änderung **abgelehnt** - der Status wird auf den ursprünglichen Wert zurückgesetzt.
-4. Es wird eine Popup-Meldung angezeigt, in der genau angegeben wird, welche Felder fehlen:
-   > *Statusänderung blockiert: &#39;Marke&#39; und &#39;Geschätztes Launch-Datum&#39; müssen ausgefüllt werden, bevor der Wechsel zu &#39;Bereit zur Ausführung&#39; erfolgt*
-5. Der Planer füllt die fehlenden Felder aus und versucht die Statusänderung erneut.
-6. Dieses Mal vergeht die Regel, und der Status wird normal aktualisiert.
+#### If a required field is empty
 
-#### Wenn bereits alles ausgefüllt ist
+1. A planner opens a record and changes the status to the gated status (say, "Ready for Execution").
+2. The system checks all rules tied to that status.
+3. If a required field is empty, the change is **rejected** — the status reverts back to what it was.
+4. A toast message appears, naming exactly which field(s) are missing:
+   > *"Status change blocked: 'Brand' and 'Estimated Launch Date' must be populated before moving to 'Ready for Execution.'"*
+5. The planner fills in the missing field(s) and tries the status change again.
+6. This time, the rule passes, and the status updates normally.
 
-Nichts ändert sich. Der Status wird sofort aktualisiert, ohne zusätzliche Schritte oder Popups. Geschäftsregeln sind unsichtbar, bis sie tatsächlich gebraucht werden.
+#### If everything is already filled in
 
-#### Wenn mehrere Felder gleichzeitig fehlen
+Nothing changes. The status updates instantly, with no extra steps or popups. Business rules are invisible until they're actually needed.
 
-Alle verletzten Regeln werden zusammen überprüft und die Nachricht listet alle fehlenden Felder in einem Schritt auf - Planer müssen nicht ein Feld reparieren, es erneut versuchen, über das nächste informiert werden und dann wiederholen.
+#### If several fields are missing at once
 
-### Schritt 6: Später Regel bearbeiten oder entfernen
+All the violated rules are checked together, and the message lists every missing field in one go — planners don't have to fix one field, try again, get told about the next one, and repeat.
 
-Regeln sind nicht in Stein gemeißelt. Änderungen vornehmen:
+### Step 6: Edit or remove a rule later
 
-1. Kehren Sie zum Konfigurationsbereich für Geschäftsregeln für den Datensatztyp zurück.
-2. Suchen Sie die Regel, die Sie ändern möchten.
-3. Erforderliches Feld, Zielstatus oder Nachricht bearbeiten oder die Regel vollständig löschen.
-4. Speichern Sie. Die Änderung gilt unmittelbar für zukünftige Statusänderungen.
+Rules aren't set in stone. To make changes:
 
-Denken Sie daran: Das Bearbeiten oder Löschen einer Regel **wirkt sich nur auf künftige Transitionen aus.** Datensätze, die bereits vor der Änderung in den Zielstatus übergegangen sind, werden nicht neu ausgewertet.
-3## Einige Dinge, die es wert sind, gewusst zu werden
+1. Go back to the business rules configuration area for the record type.
+2. Find the rule you want to change.
+3. Edit the required field, target status, or message — or delete the rule entirely.
+4. Save. The change applies immediately to future status changes.
 
-* **Dies ist von der Sperrung von Datensätzen nach einer Statusänderung getrennt.** Geschäftsregeln (wie hier beschrieben) überprüfen nur die Vollständigkeit der Felder *bevor* eine Statusänderung durchläuft. Eine andere, damit zusammenhängende Funktion regelt, ob ein Datensatz vollständig von Bearbeitungen/Löschungen gesperrt wird, sobald er einen bestimmten Status erreicht - das wird hier nicht behandelt.
-* **Massenstatusänderungen** (Änderung des Status in vielen Datensätzen gleichzeitig) sind noch nicht vollständig definiert für die Interaktion mit Geschäftsregeln. Wenn Ihr Team stark auf Massenaktionen angewiesen ist, sollten Sie sich bei Ihrem Adobe-Ansprechpartner über das aktuelle Verhalten erkundigen.
-* **Wenn eine Regel aufgrund eines Systemfehlers nicht ausgewertet werden kann** wird die Transition blockiert und nicht stumm durchgelassen - aufgrund eines Backend-Hickups wird ein unvollständiger Datensatz nie über eine Regel hinausgereicht.
-* **Beim Deaktivieren der Funktion** Ihre konfigurierten Regeln nicht gelöscht, sondern nur angehalten. Wenn Sie sie wieder aktivieren, werden sie genau so wiederhergestellt, wie sie waren. Es ist keine Neukonfiguration erforderlich.
+Keep in mind: editing or deleting a rule **only affects transitions going forward.** Records that already made it into the target status before the change aren't reevaluated.
+3## A few things worth knowing
 
-### Kurzanleitung: Einrichten der ersten Regel
+* **This is separate from locking records after a status change.** Business rules (as described here) only check field completeness *before* a status change goes through. A different, related feature governs whether a record becomes fully locked from edits/deletion once it reaches a certain status — that's not what's covered here.
+* **Bulk status changes** (changing status on many records at once) aren't fully defined yet for how they interact with business rules — if your team relies heavily on bulk actions, check with your Adobe contact on current behavior.
+* **If a rule can't be evaluated** due to a system error, the transition is blocked rather than silently allowed through — you'll never end up with an incomplete record slipping past a rule because of a backend hiccup.
+* **Turning the feature off** doesn't delete your configured rules — they're just paused. Turning it back on restores them exactly as they were, no reconfiguration needed.
 
-1. Bestätigen Sie, dass die Funktion für Ihren Mandanten aktiviert ist.
-2. Gehen Sie zur Workflow-Einrichtung → Geschäftsregeln für Ihren Datensatztyp.
-3. Wählen Sie den Datensatztyp aus (z. B. Material).
-4. Erstellen Sie eine Regel: Zielstatus + erforderliches Feld.
-5. Schreiben Sie eine eindeutige, spezifische Fehlermeldung.
-6. Speichern - es ist sofort live.
-7. Wiederholen Sie diesen Vorgang für jedes Feld, das Sie benötigen möchten.
-8. Testen Sie es selbst: Versuchen Sie, den Status eines Datensatzes mit leerem Feld zu ändern, bestätigen Sie, dass Sie die erwartete Nachricht sehen, füllen Sie das Feld aus und bestätigen Sie, dass die Statusänderung jetzt durchgeführt wird.
+### Quick reference: setting up your first rule
 
-Das war&#39;s. Von hier an bekommt jeder, der einen Datensatz nach vorn konvertiert, einen klaren Anstoß, wenn etwas fehlt, anstelle von einem nachgelagerten Projekt, das leise unvollständig erscheint.
+1. Confirm the feature is enabled for your tenant.
+2. Go to workflow setup → business rules for your record type.
+3. Choose the record type (e.g., Materials).
+4. Create a rule: target status + required field.
+5. Write a clear, specific error message.
+6. Save — it's live immediately.
+7. Repeat for each field you want to require.
+8. Test it yourself: try changing a record's status with the field empty, confirm you see the expected message, fill in the field, and confirm the status change now goes through.
+
+That's it — from here on, anyone converting a record forward will get a clear nudge if something's missing, instead of a downstream project quietly showing up incomplete.
+
+-->
