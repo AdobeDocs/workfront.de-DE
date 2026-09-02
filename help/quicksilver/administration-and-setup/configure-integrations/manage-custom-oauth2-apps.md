@@ -18,10 +18,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
 workflow-type: tm+mt
-source-wordcount: 644
-ht-degree: 6%
+source-wordcount: 697
+ht-degree: 5%
 
 ---
 
@@ -29,9 +29,17 @@ ht-degree: 6%
 
 Als [!DNL Adobe Workfront] können Sie die OAuth2-Programme für Ihre Instanz von [!DNL Workfront] anzeigen und verwalten, die anderen Programmen den Zugriff auf [!UICONTROL Workfront] ermöglichen.
 
->[!NOTE]
+>[!IMPORTANT]
+>
+>* Benutzerdefinierte OAuth2-Anwendungen werden derzeit nicht mehr unterstützt. Bitte beachten Sie folgende Termine:
+>
+>   * &#x200B;1. November 2026: Sie können keine neuen benutzerdefinierten OAuth2-Programme mehr erstellen.
+>   * &#x200B;1. Februar 2027: Vorhandene benutzerdefinierte OAuth2-Anwendungen funktionieren nicht mehr.
+>
+>   Weitere Informationen finden Sie unter [Migrieren von Workfront OAuth2 zu Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
 >
 >* Im Kontext von OAuth2 bezieht sich „OAuth2-Anwendung“ auf diese Art von Zugriffs-Link zwischen einer Anwendung und einem Server wie [!DNL Workfront]. Weitere Informationen finden Sie unter [Erstellen von OAuth2-Anwendungen für  [!DNL Workfront] -Integrationen](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+>
 >* Sie können bis zu zehn OAuth2-Anwendungen gleichzeitig haben.
 
 * Informationen, Anweisungen und Details zum Erstellen benutzerdefinierter OAuth2-Anwendungen finden Sie unter [Erstellen von OAuth2-Anwendungen für  [!DNL Workfront] -Integrationen](../../administration-and-setup/configure-integrations/create-oauth-application.md)

@@ -1,14 +1,14 @@
 ---
 title: Konfigurieren von Geschäftsregeln für Datensatztypen
-description: Sie können Geschäftsregeln für Datensatztypen konfigurieren, die festlegen, wie Datensätze dieses Typs in Adobe Workfront Planning verwaltet werden.
+description: Sie können Geschäftsregeln für den Datensatztyp konfigurieren, mit denen bestimmte Aktionen für Datensätze entsprechend den Feldwerten erzwungen werden können.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 85c9f757134bc84e4b5038e4001f9a9fe1430f2a
+source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 6%
+source-wordcount: '1038'
+ht-degree: 2%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 6%
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
-Sie können Geschäftsregeln für Adobe Workfront Planning-Datensatztypen konfigurieren, die definieren, wie Datensätze dieses Typs verwaltet werden.
+Sie können Geschäftsregeln für Adobe Workfront Planning-Datensatztypen konfigurieren, um anzugeben, dass bestimmte Felder erforderlich sind, bevor eine Aktion für einen Datensatz dieses Typs zulässig oder verhindert wird.
 
-Sie können die folgenden Aktionen für die Datensätze zulassen, wenn die definierten Geschäftsregeln erfüllt sind:
+Je nach Formulierung der Regel können Sie die folgenden Aktionen für die Datensätze zulassen, wenn die definierten Geschäftsregeln erfüllt sind:
 
-* Datensatz bearbeiten
-* Eintrag löschen
+* Datensatz bearbeiten oder nicht bearbeiten
+* Löschen oder Löschen eines Datensatzes nicht
 
 ## Zugriffsanforderungen
 
@@ -80,25 +80,87 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 ## Überlegungen beim Konfigurieren von Geschäftsregeln
 
-* Sie können Regeln konfigurieren, die angeben, wann Datensätze bearbeitet oder gelöscht werden können.
+* Geschäftsregeln fügen einer Feldänderung oder einer Datensatzlöschung eine Bedingung hinzu. Die Regel kommt nur zu einem bestimmten, beabsichtigten Zeitpunkt ins Spiel: wenn ein Feld dabei ist, zu einem in der Regel konfigurierten Feldwert zu wechseln.
 
-  Sie können beispielsweise Bedingungen erstellen, die verlangen, dass bestimmte Felder einen Wert enthalten. Wenn der Wert in diesen Feldern fehlt, können Benutzende diesen Datensatz nicht bearbeiten oder löschen.
+* Eine Regel sieht in einfacher Sprache wie folgt aus: „Bevor Sie diesen Datensatz bearbeiten können, muss das Feld Kampagnenzusammenfassung einen Wert enthalten“.
+
+  Wenn das Feld leer ist, wird die Datensatzbearbeitung blockiert und der/die Benutzende erhält eine klare Nachricht, in der erklärt wird, was er/sie ansprechen muss, bevor er/sie fortfährt. Sobald sie das erforderliche Feld aktualisieren und erneut versuchen, ist die Änderung zulässig.
+
+* Regeln blockieren nicht die Erstellung von Datensätzen. Benutzer können weiterhin Datensätze erstellen, müssen jedoch sicherstellen, dass die erforderlichen Felder nicht leer sind oder den angegebenen Wert enthalten.
+* Regeln bearbeiten oder löschen Datensätze nicht automatisch. Die Änderung muss absichtlich erfolgen und von einem Benutzer ausgelöst werden.
+* Regeln gelten nicht rückwirkend: alte Datensätze sind nicht betroffen. Die Regelprüfung wird nur ausgeführt, wenn das nächste Mal versucht wird, einen Datensatz zu bearbeiten oder zu löschen.
 * Sie können keine Geschäftsregeln zu globalen Datensatztypen in ihren primären oder sekundären Arbeitsbereichen hinzufügen.
-* Regeln für den Zeitpunkt der Datensatzerstellung können nicht konfiguriert werden. Jeder, der über Verwaltungsberechtigungen für den Datensatztyp verfügt, kann Datensätze erstellen.
 * Sie können eine Bedingung für Ihre Geschäftsregel erstellen, die auf alle Feldtypen mit Ausnahme der folgenden verweist:
   * Formelfelder
   * Suchfelder
   * Referenzfelder
+* Regeln gelten für alle, die Datensätze bearbeiten oder löschen können.
+* Sie können mehr als eine Geschäftsregel für einen Datensatztyp verwenden.  <!--Syuzanna is checking this because it should be just ONE rule per action: one per edit and one per delete - see this: https://workfront.slack.com/archives/C0BHWEUSJCU/p1788281638322049?thread_ts=1787924876.280359&cid=C0BHWEUSJCU-->
+
+  Alle Regeln werden gleichzeitig überprüft, und die Fehlermeldung zeigt alle Felder an, die in einer Anweisung fehlen.
 
 ## Geschäftsregeln konfigurieren
 
-1. Zu einem Datensatztyp gehen.
-1. Klicken Sie auf **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Namen des Datensatztyps und dann auf **Geschäftsregeln**.
+1. Zu einer Seite vom Typ Datensatz wechseln.
+1. Klicken Sie in einer beliebigen Ansicht auf das **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Namen des Datensatztyps und dann auf **Geschäftsregeln**.
 
    Die Seite „Geschäftsregeln“ wird geöffnet.
 1. Klicken Sie **Neue Geschäftsregel**.
-1. Fügen Sie im Feld Neue Geschäftsregel einen Namen für die Geschäftsregel in das erste verfügbare Feld ein. Dies ist ein Pflichtfeld
-1. (Optional) Fügen Sie eine Beschreibung hinzu, um die Geschäftsregel zu definieren.
+1. Fügen Sie **Regelfeld** Neues Unternehmen“ im ersten verfügbaren Feld einen Namen für die Geschäftsregel hinzu. Dies ist ein Pflichtfeld
+1. (Optional) Fügen Sie eine Beschreibung hinzu, um die Geschäftsregel zu definieren, und klicken Sie dann auf **Speichern**.
+1. Wählen Sie im Abschnitt **Wenn** des Einrichtungsformulars für Geschäftsregeln aus, welche Aktionen Sie auf der Grundlage einer bestimmten Regel einschränken oder zulassen möchten. Wählen Sie aus den folgenden Optionen: <!--check UI text-->
+   * **Datensatzbearbeitung**: Benutzer dürfen den Datensatz bearbeiten oder nicht bearbeiten, wenn die in dieser Regel definierte Bedingung erfüllt ist.
+   * **Löschen eines Datensatzes**: Benutzer können den Datensatz löschen oder nicht löschen, wenn die in dieser Regel definierte Bedingung erfüllt ist.
+     <!--add screen shot when UI text is final-->
+1. Fügen Sie **Feld „Formel** die Geschäftsregel hinzu. Wählen Sie einen Operator für Ihre Regel **Abschnitt &quot;**&quot; im rechten Bedienfeld aus.
+
+   Sie können beispielsweise &quot;**&quot;** Abschnitt &quot;**Andere** auswählen oder mit der Eingabe von „IF“ beginnen und dann darauf klicken, wenn es in der Vorschlagsliste angezeigt wird.
+
+   >[!TIP]
+   >
+   >Es wird empfohlen, die Felder und Operatoren aus der Vorschlagsliste auszuwählen, um die Syntax der Regel korrekt zu halten.
+1. Wählen Sie und das Feld aus, das Sie als obligatorisch festlegen möchten, damit die Datensätze dieses Datensatztyps entweder bearbeitet oder gelöscht werden können.
+
+   Sie können beispielsweise die folgende Anweisung eingeben, um das Feld **Kampagnenzusammenfassung** erforderlich zu machen:
+
+   ```
+      IF(ISBLANK({Campaign summary}),"Campaign summary is a required field. You cannot edit this record without a value for the Campaign summary.")
+   ```
+
+   >[!IMPORTANT]
+   >
+   >Es wird dringend empfohlen, in die Regelformel die folgenden Informationen aufzunehmen, damit Benutzende leicht verstehen können, wenn eine Aktion, die sie für einen Datensatz ausführen möchten, nicht zulässig ist:
+   >
+   >* Die genauen Felder, für die die Regel eingerichtet ist.
+   >* Die genaue Konsequenz, wenn die Regel nicht erfüllt ist.
+
+   Das Feld **Formel** enthält Indikatoren, wenn ein Feld oder ein Ausdruck falsch ist.  <!--add screen shot?-->
+
+   Im **Dann**-Abschnitt der Geschäftsregel können Sie eine Erläuterung der Funktionsweise der Regel anzeigen.
+
+1. Klicken Sie **Aktivieren**, um die Regel für diesen Datensatztyp zu aktivieren, und klicken Sie dann auf **Speichern**.
+
+   Regeln werden sofort nach ihrer Aktivierung angewendet und alle Benutzer, die zum Bearbeiten oder Löschen von Datensätzen im ausgewählten Datensatztyp berechtigt sind, müssen sie befolgen.
+1. (Optional und empfohlen) Klicken Sie auf den Rückwärtspfeil links neben **Geschäftsregeln** in der Kopfzeile der Seite, um die Seite für den Datensatztyp anzuzeigen, und gehen Sie zu einer Tabellenansicht oder öffnen Sie die Seite eines Datensatzes. Versuchen Sie dann, einen Datensatz zu bearbeiten oder zu löschen, um die soeben erstellte Regel zu testen.
+
+## Verwalten von Geschäftsregeln
+
+Sie können bestehende Geschäftsregeln bearbeiten, löschen oder deaktivieren.
+
+Bestehende Datensätze werden durch Bearbeiten einer vorhandenen Regel nicht geändert. Die bearbeitete Regel gilt nur für vorhandene Datensätze, wenn versucht wird, sie zu bearbeiten oder zu löschen.
+
+1. Kehren Sie zur **„Geschäftsregeln** für den Datensatztyp zurück.
+1. Suchen Sie die Regel, die Sie ändern möchten.
+1. Bewegen Sie den Mauszeiger über den Regelnamen und klicken Sie dann auf das **Mehr** Menü ![Mehr](assets/more-menu.png) und dann auf eine der folgenden Optionen:
+
+   * **Bearbeiten**: Dadurch wird die Seite zur Einrichtung der Geschäftsregel geöffnet, auf der Sie Informationen zur Geschäftsregel bearbeiten können.
+   * **Deaktivieren**: <!--check this in the UI: right now, it says Disable--> Dies verhindert, dass die Regel ausgelöst wird, aber behält sie für die Zukunft bei, sofern erforderlich.
+   * **Löschen**: Alle Informationen zur Regel werden gelöscht. Gelöschte Regeln können nicht wiederhergestellt werden.
+
+   Die bearbeiteten Regeln oder die Deaktivierung von Regeln gelten nur für zukünftige Datensätze und werden nicht rückwirkend angewendet.
+
+   <!--add screen shot if UI is fixed with Deactivate-->
+
 
 <!--
 
@@ -117,18 +179,9 @@ If the field is empty, the status change is blocked and the person gets a clear 
 
 A few important things this is *not*:
 
-* **It doesn't block record creation.** People can still create a new record instantly and fill it in over time, exactly like today.
+* **It doesn't block record creation.** People can still create a new record instantly and fill it in over time, exactly like today. 
 * **It doesn't auto-fill anything or auto-change statuses.** A person always has to make the status change themselves.
 * **It doesn't retroactively flag old records.** Records that are already sitting in the target status aren't affected — the check only runs the next time someone tries to move a record *into* that status.
-
-
-
-### Before you start
-
-A couple of things need to be true before you can configure rules:
-
-1. **The feature has to be turned on for your organization.** This is done on Adobe's side (via a feature flag), not something you enable yourself. If you don't see the business rules section described below, check with your Adobe contact to confirm it's been enabled for your tenant.
-2. **You need admin or workspace-configurator permissions.** Regular planners can't create or edit rules — only people managing the workspace setup can.
 
 ### Step 1: Open the business rules configuration area
 
@@ -141,8 +194,6 @@ Business rules live alongside your other admin setup — you won't need to hunt 
 ### Step 2: Choose the record type
 
 Rules are configured per record type, so pick the one you want to add a rule to. For example, if you want to make sure every Materials record has key fields filled in before execution, select **Materials**.
-
-
 
 ### Step 3: Create a new rule
 

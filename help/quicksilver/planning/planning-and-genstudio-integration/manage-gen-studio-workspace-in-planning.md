@@ -16,10 +16,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
 workflow-type: tm+mt
-source-wordcount: 1794
-ht-degree: 5%
+source-wordcount: 1855
+ht-degree: 4%
 
 ---
 
@@ -376,6 +376,17 @@ Die Hauptseite von Workfront-Planung wird geöffnet.
      Sie können mehrere Anfrageformulare erstellen. Die Anfrageformulare sind im Bereich Anfragen von Workfront verfügbar und Sie können sie auch öffentlich oder über einen Link freigeben.
 
      Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+   <!--
+   <div class="preview">
+
+   * Business rules
+
+      You can configure record type business rules to define what conditions must be met before users are allowed to edit or delete records of that type. 
+
+      For information, see [Configure record type business rules](/help/quicksilver/planning/architecture/configure-business-rules.md).
+   </div>
+   -->
 
 1. Gehen Sie wie folgt vor, um eine Ansicht oder den Datensatztyp freizugeben:
 

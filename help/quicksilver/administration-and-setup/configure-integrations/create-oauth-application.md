@@ -22,9 +22,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
 workflow-type: tm+mt
-source-wordcount: 1959
+source-wordcount: 2018
 ht-degree: 6%
 
 ---
@@ -35,9 +35,16 @@ Als [!DNL Adobe Workfront] können Sie OAuth2-Programme für Ihre Instanz von [!
 
 Beim Erstellen einer [!UICONTROL OAuth2]-Anwendung generieren Sie eine Client-ID und ein Client-Geheimnis. Ihre Benutzer können dann die Client-ID in API-Aufrufen verwenden, um sie in die von Ihnen erstellte Anwendung zu integrieren.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Im Kontext von OAuth2 bezieht sich „Erstellen einer App“ auf den Prozess der Erstellung einer solchen Art von Zugriffs-Link zwischen einer App und einem Server wie [!DNL Workfront].
+>* Benutzerdefinierte OAuth2-Anwendungen werden derzeit nicht mehr unterstützt. Bitte beachten Sie folgende Termine:
+>
+>   * &#x200B;1. November 2026: Sie können keine neuen benutzerdefinierten OAuth2-Programme mehr erstellen.
+>   * &#x200B;1. Februar 2027: Vorhandene benutzerdefinierte OAuth2-Anwendungen funktionieren nicht mehr.
+>
+>   Weitere Informationen finden Sie unter [Migrieren von Workfront OAuth2 zu Adobe Developer Console](/help/quicksilver/administration-and-setup/configure-integrations/migrate-oauth2-to-developer-console.md).
+>
+>* Im Kontext von OAuth2 bezieht sich „Erstellen einer App“ auf den Prozess der Erstellung einer solchen Art von Zugriffs-Link zwischen einer App und einem Server wie [!DNL Workfront].
 
 * Anweisungen zur Konfiguration und Verwendung der OAuth2-Anwendung mit Benutzeranmeldeinformationen (Autorisierungs-Code-Fluss) finden Sie unter [Konfigurieren und Verwenden der benutzerdefinierten OAuth 2-Anwendungen Ihres Unternehmens mithilfe eines Autorisierungs-Code-Flusses](../../wf-api/api/oauth-app-code-token-flow.md).
 * Anweisungen zur Konfiguration und Verwendung der OAuth2-Anwendung mithilfe der Server-Authentifizierung (JWT-Fluss) finden Sie unter [Konfigurieren und Verwenden der benutzerdefinierten OAuth 2-Anwendungen Ihres Unternehmens mithilfe des JWT-Flusses](../../wf-api/api/oauth-app-jwt-flow.md).

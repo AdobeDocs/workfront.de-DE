@@ -4,10 +4,10 @@ description: Diese Seite enthält Informationen zur Funktionalität, die in der 
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
+source-git-commit: 549e1bd0fd0910d8285552487115fdeaae5facc7
 workflow-type: tm+mt
-source-wordcount: '1501'
-ht-degree: 13%
+source-wordcount: '1579'
+ht-degree: 14%
 
 ---
 
@@ -264,6 +264,24 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             <td><strong>Vorschau</strong></td>
             <td><strong>Schnellveröffentlichung</strong></td>
             <td><strong>Vierteljährlich</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Feld „Validierungstyp“ in den Dashboards der Arbeitsfläche</a><p>[!BADGE Außerplanmäßig]{type=Neutral}</p>
+                <p>Die Genehmigungsentität enthält jetzt das Feld Genehmigungstyp , in dem Benutzende zwischen Korrekturabzugs-, Dokument-, Aufnahme- und anderen Genehmigungstypen unterscheiden können.</p>
+            </td>
+            <td><p>K. A.</p></td>
+            <td><p>K. A.</p></td>
+            <td><p>28. August 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Aktualisierung der Validierungsterminologie in den Dashboards der Arbeitsfläche</a><p>[!BADGE Außerplanmäßig]{type=Neutral}</p>
+                <p>Mehrere Feldnamen, die in Arbeitsflächen-Dashboards für Dokument- und Arbeitsgenehmigungen verwendet werden, wurden aus Gründen der Klarheit umbenannt.</p>
+            </td>
+            <td><p>K. A.</p></td>
+            <td><p>K. A.</p></td>
+            <td><p>28. August 2026</p></td>
         </tr>
         <tr>
             <td>
