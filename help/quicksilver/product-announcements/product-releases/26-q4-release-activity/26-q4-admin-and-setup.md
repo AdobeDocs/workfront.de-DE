@@ -4,9 +4,9 @@ description: Verbesserungen für Administratoren im vierten Quartal 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: db296d9043cb793e1af74bca38197de682f54cb8
+source-git-commit: c3dc1aa9e48d45d2546561c2ac9412b008258e2d
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '1267'
 ht-degree: 1%
 
 ---
@@ -38,6 +38,60 @@ The following enhancements are included:
 For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 -->
+
+## Festlegen einer standardmäßigen Zugriffsebene für Benutzer, die in der Adobe Admin Console bereitgestellt werden
+
+>[!NOTE]
+>
+>Vorschau: 3. September 2026
+>Produktions-Schnellveröffentlichung: 17. September 2026
+>Produktion für alle: 15. Oktober 2026
+
+Sie können jetzt eine standardmäßige Zugriffsebene für Benutzende festlegen, die in Workfront über die Adobe Admin Console bereitgestellt werden. Ein Workfront-Administrator kann diese Standardeinstellung in den Systemeinstellungen konfigurieren.
+
+Zuvor hatte Workfront dem Benutzer die Zugriffsebene Mitwirkende oder Anfordernde zugewiesen.
+
+Weitere Informationen finden Sie unter [Systemvoreinstellungen konfigurieren](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+
+## Benutzerdefinierte Wochen zusätzlich zu benutzerdefinierten Quartalen für Workfront Planning-Kunden
+
+>[!NOTE]
+>
+>Vorschau: 3. September 2026
+>Produktions-Schnellveröffentlichung: 17. September 2026
+>Produktion für alle: 15. Oktober 2026
+
+Wenn Ihr Unternehmen zusätzlich zu einem Workflow-Paket auch ein Planungspaket erworben hat, können Sie jetzt benutzerdefinierte Wochen auf dieselbe Weise konfigurieren wie benutzerdefinierte Quartale als Workfront-Administrator.
+
+Benutzerdefinierte Wochen werden in Workfront nicht angezeigt. Sie sind nur in der Ansicht Workfront-Planungs-Zeitleiste sichtbar.
+
+Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale aktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+
+## Benutzerdefinierte Anwendungen im Hauptmenü neu anordnen
+
+>[!NOTE]
+>
+>Vorschau: 3. September 2026
+>Produktions-Schnellveröffentlichung: 17. September 2026
+>Produktion für alle: 15. Oktober 2026
+
+Bei der Arbeit mit einer Layout-Vorlage können Sie jetzt benutzerdefinierte Anwendungen in beliebiger Reihenfolge mit den standardmäßigen Workfront-Menüoptionen neu positionieren. Auf diese Weise können Sie jede Anwendung an der relevantesten Stelle platzieren.
+
+Zuvor waren benutzerdefinierte Programme immer die letzten Elemente in den Hauptmenüoptionen der Layout-Vorlage und konnten nicht neu positioniert werden.
+
+Weitere Informationen zum Hinzufügen benutzerdefinierter Anwendungen zum Hauptmenü finden Sie unter [Anpassen des Hauptmenüs mithilfe einer Layout-Vorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+
+## Unterstützung großer Dateien für benutzerdefinierte Dokumentintegrationen
+
+>[!NOTE]
+>
+>Vorschau: 3. September 2026
+>Produktions-Schnellveröffentlichung: 17. September 2026
+>Produktion für alle: 15. Oktober 2026
+
+Benutzerdefinierte Dokumentenintegrationen unterstützen jetzt fragmentierte Uploads für große Dateien. Wenn diese Option aktiviert ist, werden Dateien mit mehr als 25 MB in kleinere Abschnitte unterteilt und parallel hochgeladen, was das Hochladen großer Dateien schneller und zuverlässiger macht. Administratoren können dies aktivieren und die maximale Chunk-Größe (bis zu 100 MB) pro Integration festlegen.
+
+Weitere Informationen finden Sie unter [Konfigurieren von Dokumentintegrationen](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md).
 
 ## Gruppenadministratoren können Geschäftsprofile verwalten
 

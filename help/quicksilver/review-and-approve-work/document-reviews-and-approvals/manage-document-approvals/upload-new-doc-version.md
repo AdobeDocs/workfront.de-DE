@@ -20,7 +20,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 66a134507a06c0ce0b4fd78bfa5e32bd95f8f08c
+source-git-commit: c83b252faf7791c51475c5b82ca03cb4ee29bfc0
 workflow-type: tm+mt
 source-wordcount: 798
 ht-degree: 7%
@@ -28,6 +28,7 @@ ht-degree: 7%
 ---
 
 # Hochladen einer neuen Dokumentversion und Anfordern einer Genehmigung
+
 
 Wenn ein Dokument in einer früheren Überprüfung als „Überarbeitung erforderlich“ gekennzeichnet ist, können Sie eine neue Version in das Originaldokument hochladen und eine weitere Genehmigungsrunde starten. Nachdem Sie eine neue Version des Dokuments hochgeladen haben, werden die vorherigen Versionen gesperrt.
 
@@ -207,3 +208,7 @@ So fügen Sie eine neue Version hinzu und fordern die Genehmigung an:
 1. Klicken Sie **Genehmigung anfordern**.
 
    Der Genehmigungs-Workflow wird gestartet und die genehmigenden Personen erhalten eine Benachrichtigung, dass ihre Genehmigung für die neue Dokumentversion erforderlich ist. Die vorherige Dokumentversion ist gesperrt und alle ausstehenden Genehmigungen für die vorherige Version werden zurückgezogen.
+
+<!--
+   <span class="preview">The previous version keeps its version number and its approval history, but its status changes to "Withdrawn". For more information about version numbers and status, see [Manage document versions](/help/quicksilver/documents/managing-documents/manage-document-versions.md#view-and-manage-document-versions-in-the-new-documents-area-in-preview).</span>
+-->

@@ -1,9 +1,9 @@
 ---
 name: update-for-release
 description: ""
-source-git-commit: 524a24c1a143a82cdc017ea6266aa2ee5c7a7c0b
+source-git-commit: 4c2305da7635694d9d7bc174b5837a0d57fb7ac0
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '2009'
 ht-degree: 0%
 
 ---
@@ -70,9 +70,10 @@ Für jeden Artikel in der vom Benutzer bestätigten Liste:
 
 2. **Bestimmen des Hervorhebungsmusters.** Fragen Sie den Benutzer, der zu diesem Artikel passt (die Antwort kann je nach Artikel unterschiedlich sein):
 
-   - **Duplizierung pro Abschnitt**: Hängen Sie `in Production` an die vorhandene Abschnittsüberschrift an. Fügen Sie einen neuen Abschnitt hinzu, an den `in Preview` angehängt und der in `<div class="preview"> ... </div>` eingeschlossen ist. Verwenden Sie , wenn das neue Verhalten das Verfahren bedeutsam ändert - zusätzliche Schritte, ein neues Bild, neue Tabellenzeilen oder andere Formulierungen. Typisch für Anleitungen.
-   - **Einzelzeilenumbruch**: Fügen Sie den neuen Satz/die neuen Sätze inline innerhalb des vorhandenen Abschnitts ein, umschlossen in `<span class="preview"> ... </span>`. Verwenden Sie diese Option, wenn es sich beim Hinzufügen um ein oder zwei Sätze handelt, die natürlich in einen vorhandenen Absatz, eine Tabellenzelle oder eine häufig gestellte Frage passen.
-   - **Gemischt**: Einige Abschnitte im selben Artikel verwenden eine abschnittsweise Duplizierung, andere verwenden einen Zeilenumbruch. Zeigen Sie diese Option an, wenn der Artikel sowohl prozedurale als auch FAQ-artige Abschnitte enthält.
+   - **Duplizierung pro Abschnitt**: Hängen Sie `in Production` an die vorhandene Abschnittsüberschrift an. Fügen Sie einen neuen Abschnitt hinzu, an den `in Preview` angehängt und der in `<div class="preview"> ... </div>` eingeschlossen ist. Verwenden Sie , wenn das neue Verhalten das Verfahren selbst bedeutsam ändert - zusätzliche oder neu angeordnete Schritte, ein neues Bild oder eine andere Schrittbeschreibung. Typisch für Anleitungen.
+   - **Duplizierung pro Zeile**: Für eine tabellenbasierte Feldbeschreibung, bei der sich nur eine Zeile ändert und der Rest der Tabelle/Prozedur unverändert bleibt, lassen Sie die vorhandene Zeile byte für byte unverändert und fügen Sie direkt danach eine neue `<tr class="preview">` hinzu. Weben Sie keine neuen Sätze in die ursprüngliche Zeile. Siehe „Duplizierung pro Zeile“ unter Inhaltsregeln für die genauen Konventionen.
+   - **Einzelzeilenumbruch**: Fügen Sie den neuen Satz/die neuen Sätze inline innerhalb des vorhandenen Abschnitts ein, umschlossen in `<span class="preview"> ... </span>`. Verwenden Sie diese Option, wenn es sich beim Hinzufügen um ein oder zwei Sätze handelt, die natürlich in einen vorhandenen Absatz oder eine häufig gestellte Frage passen (keine Tabellenzeile, sondern Duplizierung pro Zeile für diese Sätze).
+   - **Gemischt**: Einige Abschnitte im selben Artikel verwenden unterschiedliche Muster für unterschiedliche Inhalte. Diese Option wird angezeigt, wenn im Artikel prozedurale Tabellen, Abschnitte im FAQ-Stil und einfache Absätze kombiniert werden.
 
 3. **Der Ausschnitt** unmittelbar nach der Überschrift H1 mit einer Leerzeile über und unter eine eigene Zeile setzen. Das Snippet befindet **vor** Einführungsabsatz.
 
@@ -153,6 +154,25 @@ Regeln:
 - **Inline (Satzebene)**: Betätigen Sie den `<span class="preview"> ... </span>` innerhalb des vorhandenen Absatzes, der Tabellenzelle oder der FAQ-Antwort.
 - Verschachteln Sie niemals einen `<span class="preview">` in einem `<div class="preview">`.
 
+### Duplizierung pro Zeile
+
+Für eine tabellenbasierte Feldbeschreibung, bei der sich nur das *Verhalten* des Felds ändert (nicht die umgebende Prozedur):
+
+- Lassen Sie die vorhandene `<tr>` vollständig unverändert - sie steht nun für das aktuelle/Produktionsverhalten. Spleißt nie neue Sätze oder spannt sich nicht darin ein.
+- Fügen Sie direkt danach eine neue Zeile hinzu:
+
+  ```html
+  <tr class="preview">
+  <td><span class="preview"><strong>{new label} in preview</strong></span></td>
+  <td><span class="preview">{self-contained description}</span></td>
+  </tr>
+  ```
+
+- **Beschriftung**: Verwenden Sie nicht nur die ursprüngliche Feldbeschriftung und fügen Sie `(in Preview)` an. Schreiben Sie eine kurze, natürliche Beschriftung für die neue Funktion selbst (z. B. ursprüngliche Beschriftung „Namen oder E-Mails hinzufügen“ → neue Beschriftung „Personen oder Teams hinzufügen„) und hängen Sie dann `in preview` ohne Klammern an: „Personen oder Teams in der Vorschau hinzufügen“.
+- **Beschreibung**: Schreiben Sie eine neue 1-3 Satz Beschreibung nur des neuen Verhaltens, in der vorhandenen Stimme des Artikels. Verwenden Sie die Sätze der ursprünglichen Zeile nicht wieder als Grundlage und fügen Sie Ergänzungen hinzu - die neue Zeile muss als vollständige, eigenständige Beschreibung gelesen werden.
+- **Ergänzende Anmerkungen**: Hängen Sie mit einem `<br>` Zeilenumbruch an, gefolgt von `Note:` auf der nächsten Zeile, innerhalb derselben `<span class="preview">` — verschachteln Sie keine `<p>Note: ...</p>`. Da die neue Zeile eigenständig ist, sollten Sie hier alle noch relevanten Fakten aus der Anmerkung der ursprünglichen Zeile kurz neu angeben, anstatt anzunehmen, dass der Leser sie auch gesehen hat (z. B. eine Einschränkung im erweiterten Modus „jeweils eine offene Phase“, die gleichermaßen für die neue Zeile gilt).
+- **Mehrere Varianten**: Wenn dasselbe Feld in mehr als einer Prozedur im selben Artikel aktualisiert wird (Standard vs. Erweitert, Legacy vs. ESM usw.) und das zugrunde liegende Verhalten tatsächlich unterschiedlich ist (z. B. behält Legacy einen Opt-in-Standardwert bei, während ESM immer erweitert wird), schreiben Sie jede Zeile so, dass sie dem tatsächlichen Verhalten dieser Variante entspricht. Kopieren Sie nicht den Text einer Variante in die Zeile einer anderen.
+
 ### Platzierung von Snippets
 
 - Die Ausschnittlinie verläuft unmittelbar nach der H1, wobei oben und unten eine Leerzeile angezeigt wird.
@@ -164,6 +184,15 @@ Regeln:
 - Speichern Sie neue Screenshots im `assets/`-Ordner des Artikels mit einem beschreibenden Dateinamen für Kebab-Fälle.
 - Verweisen Sie im neuen Abschnitt In-Preview auf den neuen Screenshot. Wenn der Screenshot eines produktionsinternen Abschnitts die Funktion nicht mehr korrekt widerspiegelt, lassen Sie sie an Ort und Stelle - sie stellt dennoch das Produktionsverhalten bis zur allgemeinen Verfügbarkeit dar.
 - Erstellen Sie keine Screenshot-Dateinamen; wenn noch kein Screenshot bereitgestellt wurde, fragen Sie den Benutzer.
+- **Platzhalter für einen noch nicht vorhandenen Screenshot**: Wenn der/die Benutzende fortfahren möchte, ohne auf das Asset zu warten, fügen Sie einen HTML-Kommentar direkt nach der vorhandenen (Produktions-) Screenshot-Referenz hinzu und verwenden Sie diesen Dateinamen wieder mit einem `-v2` Suffix:
+
+  ```html
+  <!--
+  preview screen![{same alt text}](assets/{existing-filename}-v2.png)
+  -->
+  ```
+
+  Tauschen Sie die echte Referenz ein (und heben Sie die Auskommentierung auf), sobald der Screenshot bereitgestellt wurde.
 
 ### Hinweise und Tipps
 
@@ -185,6 +214,8 @@ Führen Sie diese vollständige Checkliste für **jeden** Artikel in der Sitzung
 - Vorhandene Abschnittsüberschriften enden mit `in Production`.
 - Neue Abschnittsüberschriften enden mit `in Preview` und der Abschnitt befindet sich innerhalb von `<div class="preview">`.
 - Inline-Ergänzungen befinden sich in `<span class="preview">`.
+- Duplikate pro Zeile: Das ursprüngliche `<tr>` ist byte-für-byte unverändert; das neue `<tr class="preview">` enthält beide Zellen in `<span class="preview">` umschlossen; die Beschriftung ist eine neue kurze Beschriftung + Kleinbuchstaben „in der Vorschau“ (nicht die ursprüngliche Beschriftung + „(in der Vorschau)„); jede zusätzliche Anmerkung verwendet `<br>` + `Note:` inline, keine verschachtelte `<p>`.
+- Wenn dasselbe Feld in mehr als einer Prozedurvariante angezeigt wird (Standard/Erweitert, Legacy/ESM), entspricht der Wortlaut jeder neuen Zeile dem tatsächlichen Verhalten dieser Variante, anstatt von einer anderen Variante kopiert zu werden.
 - Die neue mit einer Vorschau markierte Prosa liest sich wie ein einfaches Feld/eine Verhaltensbeschreibung, kein Änderungsprotokolleintrag und ändert nicht redundant eine unveränderte Anweisung.
 - `ReadLints` ist in der bearbeiteten Datei sauber.
 - Der Artikel wird in beiden Zuständen korrekt gelesen (mit ein- und ausgeblendetem Vorschauinhalt).

@@ -24,14 +24,16 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: acbb78db2ce8c6c57fa10fe99f533d7dd7feea1b
 workflow-type: tm+mt
-source-wordcount: 1382
-ht-degree: 7%
+source-wordcount: 1429
+ht-degree: 6%
 
 ---
 
 # Verwalten von Informationen im Bereich „Überblick“ des Projekts
+
+{{highlighted-preview}}
 
 <!--
 <p>(NOTE: some information in here is duplicated in Edit projects. If you need to update one of the fields in this area, do it in both places.)</p>
@@ -228,6 +230,7 @@ Old:
    | Datum der letzten Aktualisierung | Datum und Uhrzeit der letzten Aktualisierung des Projekts. |
    | Zuletzt aktualisiert von | Der Name des Benutzers, der das Projekt zuletzt aktualisiert hat. |
    | Vorlage |  |
+   | Frame.io-Arbeitsbereich | <span class="preview">Der Arbeitsbereich Frame.io wird von der Vorlage übernommen, mit der er erstellt wurde. Sie können dieses Feld nach der Erstellung des Projekts nicht mehr ändern.</span> |
 
 
 1. Wenn Ihr Unternehmen eine zusätzliche Lizenz für den Adobe Workfront-Szenarioplaner erworben hat und das Projekt Informationen aus einer verknüpften Initiative veröffentlicht, lesen Sie die folgenden Informationen zur Initiative im Bereich Szenarioplaner :

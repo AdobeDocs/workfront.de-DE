@@ -16,14 +16,16 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 19349c6eb433c45f6b9bc4dabe1001ef4b69bec1
 workflow-type: tm+mt
-source-wordcount: 1559
+source-wordcount: 1647
 ht-degree: 88%
 
 ---
 
 # Verwalten von Benutzenden in der Adobe Admin Console
+
+{{highlighted-preview}}
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
@@ -36,8 +38,8 @@ Als Adobe-Admin können Sie Adobe Workfront-Systemadmins in der Adobe Admin Cons
 >[!NOTE]
 >
 >* **Workfront-Administratoren müssen in der Adobe Admin Console konfiguriert werden.** Informationen und Anweisungen finden Sie unter [Erstellen von Systemadministratoren in Workfront mit der Adobe Admin Console](#create-system-administrators-in-workfront-with-the-adobe-admin-console) in diesem Artikel.
->* **Wenn Ihr Unternehmen Single Sign-on (SSO) verwendet** empfehlen wir, Benutzer zu erstellen und sie Workfront in Adobe Admin Console zuzuweisen. Das Erstellen dieser Benutzenden in Workfront ist möglich. Abhängig von der Konfiguration der Admin Console Ihres Unternehmens kann es jedoch zu Problemen bei der Übertragung dieser Informationen an die Adobe Admin Console kommen.
->   Nachdem Sie den Benutzer in der Adobe Admin Console erstellt haben, können Sie die Benutzerinformationen in der Workfront konfigurieren, z. B. das Zuweisen von Rollen, Gruppen, Teams und Zugriffsebenen.
+>* **Wenn Ihre Organisation Single Sign-on (SSO) verwendet** empfehlen wir, die Adobe Admin Console zu verwenden, um Benutzende zu erstellen und sie Workfront zuzuweisen. Das Erstellen dieser Benutzenden in Workfront ist möglich. Abhängig von der Konfiguration der Admin Console Ihrer Organisation kann es jedoch zu Problemen bei der Übertragung dieser Informationen an die Adobe Admin Console kommen.
+>   Nachdem Sie den Benutzer bzw. die Benutzerin in der Adobe Admin Console erstellt haben, können Sie die Benutzerinformationen in Workfront konfigurieren und z. B. Rollen, Gruppen, Teams und Zugriffsebenen zuweisen.
 >* **Wenn Ihre Organisation kein Single Sign-on (SSO) verwendet** können Sie Benutzende, die keine Systemadmins sind, direkt in Workfront hinzufügen. Es ist möglich, Benutzende in der Adobe Admin Console hinzuzufügen. Durch das Hinzufügen in Workfront können Sie jedoch deren Zugriffsebene beim Erstellen festlegen, was Ihnen Zeit sparen kann.
 
 Wenn Sie von der Admin Console aus Änderungen an Benutzerprofilen vornehmen, wird der Registerkarte „Systemaktivität“ der Benutzerin bzw. des Benutzers in Workfront ein Update hinzugefügt. Das Update wird als vom „System“ durchgeführt angezeigt. Dies bezieht sich auf den bzw. Adobe Admin Console-Admin und nicht auf den bzw. die Hauptadmin von Workfront.
@@ -185,6 +187,8 @@ Sie müssen einen Benutzer bzw. eine Benutzerin zu Ihrer Produktionsinstanz von 
 1. Geben Sie im Feld **Benutzer zu diesem Produktprofil hinzufügen** die E-Mail-Adresse oder den Namen einer Person ein, die Sie hinzufügen möchten, und klicken Sie dann auf **Speichern**.
 
    Die Person wird in Workfront mit der Zugriffsebene „Anfragende“ oder „Mitwirkende“ erstellt, je nach Workfront-Paket Ihres Unternehmens.
+
+   <span class="preview">Wenn Ihr Workfront-Administrator eine standardmäßige Zugriffsebene für in der Admin Console erstellte Benutzer festgelegt hat, wird die Benutzerin bzw. der Benutzer stattdessen mit dieser Zugriffsebene erstellt. Weitere Informationen finden Sie unter [Systemvoreinstellungen konfigurieren](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).</span>
 
    >[!IMPORTANT]
    >

@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 9ab8e110576ba47b5513441169a2f1e6c288d6d3
+source-git-commit: 5477b925df1655014eb9db99cc92e7eeee4662b7
 workflow-type: tm+mt
-source-wordcount: '14474'
+source-wordcount: '14501'
 ht-degree: 92%
 
 ---
@@ -24,6 +24,7 @@ ht-degree: 92%
       * [KI-Verbesserungen für das vierte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md)
       * [Verbesserungen für Administratoren im vierten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md)
       * [Verbesserungen bei Dokumenten für das vierte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md)
+      * [Verbesserungen beim Finanzmanagement für das vierte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md)
       * [Projektverbesserungen im vierten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-projects.md)
       * [Verbesserungen bei Berichten für das vierte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md)
       * [Verbesserungen beim Ressourcenmanagement im vierten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-resource-mgmt.md)
@@ -969,6 +970,11 @@ ht-degree: 92%
     * [Verwenden des Adobe Workfront MCP-Servers](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md)
     * [Adobe Workfront MCP-Server-Tools](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md)
     * [Für die direkte Installation verfügbare Kenntnisse](/help/quicksilver/workfront-basics/workfront-mcp-server/direct-skills.md)
+  * CX-Mitarbeiter in Workfront {#coworker-in-workfront}
+    * [CX-Mitarbeiter in Workfront: Artikelindex](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md)
+    * [CX-Coworker - Übersicht](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
+    * [CX-Coworker-Fähigkeiten](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
+    * [Verwenden von CX Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
   * Aktualisieren von Arbeitselementen und Anzeigen von Aktualisierungen {#update-work-items-view-updates}
     * [Aktualisieren von Arbeitselementen und Anzeigen von Aktualisierungen: Artikelindex](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
     * [Überblick über den Abschnitt „Aktualisierungen“](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -2213,7 +2219,7 @@ ht-degree: 92%
     * [Erstellen von Eintragstypen durch Importieren von Informationen aus einer CSV- oder Excel-Datei](planning/architecture/import-file-to-create-record-types.md)
     * [Überblick über arbeitsbereichsübergreifende Eintragstypen](planning/architecture/cross-workspace-record-types-overview.md)
     * [Konfigurieren von arbeitsbereichsübergreifenden Funktionen für Eintragstypen](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
-    * {hide-from-toc}[Geschäftsregeln für Datensatztypen konfigurieren](planning/architecture/configure-business-rules.md)
+    * [Konfigurieren von Geschäftsregeln für Datensatztypen](planning/architecture/configure-business-rules.md)
     * [Konfigurieren des Bereichs „Einstellungen“ eines Eintragstyps](planning/architecture/configure-record-type-settings.md)
     * [Hinzufügen vorhandener Eintragstypen aus einem anderen Arbeitsbereich](planning/architecture/add-existing-record-types-from-another-workspace.md)
     * [Überblick über das Verbinden von Eintragstypen](planning/architecture/connect-record-types-overview.md)

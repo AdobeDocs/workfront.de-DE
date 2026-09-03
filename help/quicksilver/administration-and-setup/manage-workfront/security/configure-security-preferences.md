@@ -26,14 +26,16 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 7c9dfc68d8df73734df7b6db3f45e6b31e1f0bc4
+source-git-commit: 5477b925df1655014eb9db99cc92e7eeee4662b7
 workflow-type: tm+mt
-source-wordcount: 1155
-ht-degree: 12%
+source-wordcount: 1318
+ht-degree: 11%
 
 ---
 
 # Systemvoreinstellungen konfigurieren
+
+{{highlighted-preview}}
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
@@ -151,6 +153,10 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
       <td>Erforderliche Felder in Massenbearbeitung immer erzwingen</td>
       <td><p>Hier können Sie auswählen, ob Benutzer bei der Massenbearbeitung von Objekten zur Eingabe von Informationen in erforderliche Felder gezwungen werden sollen.</p> <p>Wenn diese Option ausgewählt ist, müssen die erforderlichen Felder vor dem Speichern im Massenbearbeitungsmodus Werte aufweisen. Wenn im erforderlichen Feld ein Wert für mindestens ein Massenobjekt fehlt, ist das Speichern nicht zulässig.</p> <p>Wenn diese Option nicht ausgewählt ist, werden erforderliche Felder nur erzwungen, wenn ein Benutzer das Feld ändert. Wenn ein Feld nicht geändert wird, wird es als optional behandelt und nicht validiert.</p></td>
      </tr>
+     <tr>
+      <td role="rowheader"><span class="preview">Zugriffsebene für in Admin Console erstellte Benutzende</span></td>
+      <td><span class="preview">Ermöglicht die Auswahl einer standardmäßigen Zugriffsebene, die Benutzern automatisch zugewiesen wird, die in Workfront über die Adobe Admin Console erstellt wurden. Wenn Sie keinen Standardwert festlegen, erhalten diese Benutzer weiterhin eine Zugriffsebene für Mitwirkende oder Anfordernde. Die Zugriffsebenen „Systemadministrator“ und „Externe Benutzer“ sind nicht standardmäßig verfügbar, und diese Einstellung ist nicht für Organisationen verfügbar, die Workfront Planning als eigenständiges Produkt verwenden.<p><b>HINWEIS</b>: Eine Zugriffsebene kann nicht gelöscht werden, während sie als Standard festgelegt ist. Um die Standardzugriffsebene zu löschen, wählen Sie zuerst eine andere Standardzugriffsebene aus.</p></span></td>
+     </tr>
      <tr> 
       <td role="rowheader">Speichereinstellungen </td> 
       <td>In diesem Abschnitt können Sie die Adobe-Cloud-Voreinstellungen aktivieren. Ermöglicht die Aktivierung oder Deaktivierung der Adobe-Cloud-Datenspeicherung für das gesamte Unternehmen oder für bestimmte Gruppen. 
@@ -176,13 +182,13 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
       <td role="rowheader">Intelligente automatische Vervollständigung in Anfrageformularen </td> 
       <td>Ermöglicht die Auswahl der Möglichkeit, Anfrageformulare basierend auf den Daten einer vorherigen Anfrage automatisch auszufüllen. Weitere Informationen zum automatischen Vervollständigen von Formularen finden Sie unter <a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md">Automatisches Ausfüllen einer Anfrage aus vorherigen Daten</a>.</td> 
      </tr>
+     <tr> 
+      <td role="rowheader">Opt-in für KI-Betaversionen </td> 
+      <td>Ermöglicht die Auswahl von KI-Funktionen, die sich derzeit in Beta befinden. Wenn Sie diese Option aktivieren, können Sie auswählen, welche KI-Beta-Funktionen aktiviert werden sollen. Um weitere Informationen zu den einzelnen KI-Beta-Funktionen zu erhalten, klicken Sie auf das Informationssymbol neben dieser Funktion
     <tr> 
       <td role="rowheader">Planungs-Designer</td> 
       <td>Dies ist nur für Kunden verfügbar, die ein Workfront Planning-Paket erworben haben. Wenn Sie diese Einstellung aktivieren, können Ihre Benutzerinnen und Benutzer mit der Planning-Designer Arbeitsbereiche erstellen und bearbeiten. Weitere Informationen finden Sie <a href="/help/quicksilver/planning/general/planning-ai-designer.md">Erste Schritte mit der Adobe Workfront Planning Designer</a>.</td> 
-     </tr>
-     <tr> 
-      <td role="rowheader">Opt-in für KI-Betaversionen </td> 
-      <td>Ermöglicht die Auswahl von KI-Funktionen, die sich derzeit in Beta befinden. Wenn Sie diese Option aktivieren, können Sie auswählen, welche KI-Beta-Funktionen aktiviert werden sollen. Um weitere Informationen zu den einzelnen KI-Beta-Funktionen zu erhalten, klicken Sie auf das Informationssymbol neben dieser Funktion.</td> 
+     </tr>.</td> 
      </tr>
      <tr> 
       <td role="rowheader"><span class="preview">Schreibgeschützte MCP-Tools</span></td> 

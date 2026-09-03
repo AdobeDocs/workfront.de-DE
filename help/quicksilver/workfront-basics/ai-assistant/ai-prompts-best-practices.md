@@ -10,14 +10,18 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
 workflow-type: tm+mt
-source-wordcount: 744
+source-wordcount: 771
 ht-degree: 5%
 
 ---
 
 # Eingabeaufforderungen und Best Practices des KI-Assistenten
+
+>[!IMPORTANT]
+>
+>Ab September 2026 wechselt AI Assistant zu CX Coworker, einer Gesprächsoberfläche zur Erledigung von Aufgaben. Informationen zu CX Coworker finden Sie unter [CX Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 Der KI-Assistent von Workfront ist ein leistungsstarkes Tool, mit dem Sie Ihre Arbeit effektiver erledigen können, indem Sie nützliche Informationen zu Ihren Kontodaten und bestimmten Objekttypen bereitstellen.
 

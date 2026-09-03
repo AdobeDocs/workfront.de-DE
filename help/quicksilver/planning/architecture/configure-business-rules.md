@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: '1038'
-ht-degree: 2%
+source-wordcount: '1108'
+ht-degree: 1%
 
 ---
 
@@ -17,11 +17,9 @@ ht-degree: 2%
 
 {{planning-important-intro}}
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Sie können Geschäftsregeln für Adobe Workfront Planning-Datensatztypen konfigurieren, um anzugeben, dass bestimmte Felder erforderlich sind, bevor eine Aktion für einen Datensatz dieses Typs zulässig oder verhindert wird.
 
@@ -95,7 +93,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
   * Suchfelder
   * Referenzfelder
 * Regeln gelten für alle, die Datensätze bearbeiten oder löschen können.
-* Sie können mehr als eine Geschäftsregel für einen Datensatztyp verwenden.  <!--Syuzanna is checking this because it should be just ONE rule per action: one per edit and one per delete - see this: https://workfront.slack.com/archives/C0BHWEUSJCU/p1788281638322049?thread_ts=1787924876.280359&cid=C0BHWEUSJCU-->
+* Sie können mehr als eine Geschäftsregel für einen Datensatztyp verwenden.  <!--Syuzanna is checking this because it should be just ONE rule per action: one per edit and one per delete - see this: https://workfront.slack.com/archives/C0BHWEUSJCU/p1788281638322049?thread_ts=1787924876.280359&cid=C0BHWEUSJCU; I also logged a bug for this because it released with more than one per action - https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/6a99add600001e9aa90435ec181dec3e/overview-->
 
   Alle Regeln werden gleichzeitig überprüft, und die Fehlermeldung zeigt alle Felder an, die in einer Anweisung fehlen.
 
@@ -104,10 +102,15 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 1. Zu einer Seite vom Typ Datensatz wechseln.
 1. Klicken Sie in einer beliebigen Ansicht auf das **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Namen des Datensatztyps und dann auf **Geschäftsregeln**.
 
-   Die Seite „Geschäftsregeln“ wird geöffnet.
+   Die Seite mit der Tabelle „Geschäftsregeln“ wird geöffnet.
 1. Klicken Sie **Neue Geschäftsregel**.
 1. Fügen Sie **Regelfeld** Neues Unternehmen“ im ersten verfügbaren Feld einen Namen für die Geschäftsregel hinzu. Dies ist ein Pflichtfeld
 1. (Optional) Fügen Sie eine Beschreibung hinzu, um die Geschäftsregel zu definieren, und klicken Sie dann auf **Speichern**.
+
+   Das Einrichtungsformular für Geschäftsregeln wird geöffnet.
+
+   ![Formular zur Einrichtung von Geschäftsregeln](assets/business-rule-setup-form.png)
+
 1. Wählen Sie im Abschnitt **Wenn** des Einrichtungsformulars für Geschäftsregeln aus, welche Aktionen Sie auf der Grundlage einer bestimmten Regel einschränken oder zulassen möchten. Wählen Sie aus den folgenden Optionen: <!--check UI text-->
    * **Datensatzbearbeitung**: Benutzer dürfen den Datensatz bearbeiten oder nicht bearbeiten, wenn die in dieser Regel definierte Bedingung erfüllt ist.
    * **Löschen eines Datensatzes**: Benutzer können den Datensatz löschen oder nicht löschen, wenn die in dieser Regel definierte Bedingung erfüllt ist.
@@ -124,7 +127,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
    Sie können beispielsweise die folgende Anweisung eingeben, um das Feld **Kampagnenzusammenfassung** erforderlich zu machen:
 
    ```
-      IF(ISBLANK({Campaign summary}),"Campaign summary is a required field. You cannot edit this record without a value for the Campaign summary.")
+      IF(ISBLANK({Campaign summary}),"Campaign summary is a required field. You cannot edit this record without a value for the Campaign summary field.")
    ```
 
    >[!IMPORTANT]
@@ -159,8 +162,9 @@ Bestehende Datensätze werden durch Bearbeiten einer vorhandenen Regel nicht ge�
 
    Die bearbeiteten Regeln oder die Deaktivierung von Regeln gelten nur für zukünftige Datensätze und werden nicht rückwirkend angewendet.
 
-   <!--add screen shot if UI is fixed with Deactivate-->
+   <!--add NEW screen shot below if UI is fixed with Deactivate at release; it was fixed in devTest-->
 
+   <!--![Business rule more menu expanded](assets/business-rule-more-menu-in-table-expanded.png)-->
 
 <!--
 

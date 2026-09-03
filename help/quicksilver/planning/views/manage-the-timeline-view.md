@@ -19,14 +19,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85c9f757134bc84e4b5038e4001f9a9fe1430f2a
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 4518
-ht-degree: 3%
+source-wordcount: 4584
+ht-degree: 2%
 
 ---
 
 # Verwalten der Timeline-Ansicht
+
+<!--remove Production and Preview references at release-->
 
 <span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
 
@@ -233,19 +235,13 @@ So verwalten Sie eine Zeitleisten -Ansicht:
 
      >[!TIP]
      >
-     >In der Zeitleisten -Ansicht werden nur Geschäftswochen entsprechend den klassischen Quartalen angezeigt. Wenn der Workfront-Administrator benutzerdefinierte Quartale im Bereich „Setup“ aktiviert, werden die Wocheninformationen nicht in der Zeitleistenansicht angezeigt.
+     >Je nachdem, welche Umgebung Sie für den Zugriff auf die Zeitleisten -Ansicht verwenden, sind die folgenden Szenarien vorhanden:
+     >
+     >* In der Produktionsumgebung zeigt die Zeitleisten -Ansicht nur benutzerdefinierte Wochen entsprechend den klassischen Quartalen an. Wenn der Workfront-Administrator benutzerdefinierte Quartale im Bereich „Setup“ aktiviert, werden die Wocheninformationen nicht in der Zeitleistenansicht angezeigt.
+     >
+     >* <span class="preview">In der Vorschau -Umgebung zeigt die Zeitleisten -Ansicht standardmäßig benutzerdefinierte Wochen entsprechend den klassischen Quartalen an. Wenn Ihr Workfront-Administrator benutzerdefinierte Quartale und Wochen im Bereich „Setup“ aktiviert, zeigt die Zeitleisten-Ansicht die benutzerdefinierten Quartale und Wochen im Quartal und Monat an. </span>
+     >
 
-     <!--
-        When we release custom weeks, replace the tip above with this:
-        >[!TIP]
-        >
-        >Depending on which environment you are using to access the timeline view, the following scenarios exist:
-        >
-        >* In the Production environment, the timeline view only displays fiscal weeks according to classic quarters. If your Workfront administrator turns on Custom Quarters in the Setup area, the week information does not display in the timeline view.
-        >
-        >* <span class="preview">In the Preview environment, the timeline view displays fiscal weeks according to classic quarters, by default. If your Workfront administrator turns on Custom Quarters and Custom weeks in the Setup area, the timeline view displays the custom quarters and weeks in the Quarter and Month displays. </span>
-        >
-        -->
 
 1. (Optional) Klicken Sie **Zur Kompaktansicht wechseln**, um die Datensätze anzuzeigen, deren Daten sich nicht in derselben Zeile schneiden. <!--check to see if they updated the name of the setting here-->
 1. (Bedingt) Wenn Sie den Modus auf **Kompakt** geändert haben, klicken Sie auf **Zur Standardansicht wechseln**, um Datensätze in separaten Zeilen anzuzeigen. Die **Standard**-Option ist die Standardeinstellung.  <!--check to see if they updated the name of the setting here-->

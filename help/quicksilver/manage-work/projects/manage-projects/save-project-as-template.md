@@ -21,9 +21,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 473
+source-wordcount: 491
 ht-degree: 12%
 
 ---
@@ -37,13 +37,9 @@ ht-degree: 12%
 -->
 
 <!--
-<div class="preview">
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 Wenn Sie festlegen, dass ein Projekt zu einem späteren Zeitpunkt wieder ausgeführt werden soll, können Sie aus diesem vorhandenen Projekt eine Vorlage erstellen. Anschließend können Sie die Vorlage erneut verwenden, um zukünftige Projekte zu erstellen, die ähnliche Informationen enthalten oder möglicherweise dieselbe Zeitleiste oder dieselben Zuweisungen für das vorhandene Projekt verwenden.
@@ -209,7 +205,7 @@ Saving a project as a template differs in the Production and the Preview environ
 1. Klicken Sie **linken Bereich auf** Benutzerdefinierte Forms&quot;, um die Formulare zu entfernen oder neu anzuordnen.
 
    Um die Formulare neu anzuordnen, ziehen Sie sie per Drag-and-Drop in die richtige Reihenfolge.
-Um ein Formular zu entfernen, wählen Sie es aus und klicken Sie auf **Entfernen**. Klicken Sie **Abbrechen**, um die ausgewählten Formulare zu entfernen.
+   Um ein Formular zu entfernen, wählen Sie es aus und klicken Sie auf **Entfernen**. Klicken Sie **Abbrechen**, um die ausgewählten Formulare zu entfernen.
 
    ![Benutzerdefinierte Formulare im Feld Als Vorlage speichern](assets/custom-forms-ara-in-save-as-template-box.png)
 

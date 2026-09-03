@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85c9f757134bc84e4b5038e4001f9a9fe1430f2a
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 376
-ht-degree: 12%
+source-wordcount: 894
+ht-degree: 5%
 
 ---
 
@@ -31,11 +31,12 @@ ht-degree: 12%
 
 <!--Audited: 03/2026-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--remove Production and Preview references at release-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 Zu Berichtszwecken können Sie benutzerdefinierte Quartale erstellen, wenn die Quartale Ihres Unternehmens auf bestimmten Kriterien basieren, die keine Kalenderdaten sind (z. B. Geschäftstage oder Einkaufstage).
 
@@ -44,12 +45,11 @@ Je nachdem, welche Produkte Ihr Unternehmen gekauft hat, können Sie die folgend
 * Kunden, die nur [!DNL Workfront] erworben haben, können bis zu acht benutzerdefinierte Quartale für ihr [!DNL Adobe Workfront] konfigurieren.
 * Kunden, die [!DNL Workfront] und [!DNL Workfront Planning] erworben haben, können bis zu 100 Quartale für ihr [!DNL Workfront] konfigurieren, die auch in [!DNL Planning] verfügbar sind.
 
-<!--
 <div class="preview">
-* Customers who purchased [!DNL Workfront] and [!DNL Workfront Planning], can configure custom weeks for each custom quarter which are visible in the [!DNL Planning] timeline views. 
-</div>
--->
 
+* Kunden, die [!DNL Workfront] und [!DNL Workfront Planning] erworben haben, können benutzerdefinierte Wochen für jedes benutzerdefinierte Quartal konfigurieren. Die benutzerdefinierten Wochen sind in den [!DNL Planning] Zeitleisten-Ansichten sichtbar.
+
+</div>
 
 ## Zugriffsanforderungen
 
@@ -129,11 +129,9 @@ When we release fiscal weeks, replace the table above with this:
 
 ## Benutzerdefinierte Quartale für Ihr [!DNL Workfront] einrichten
 
-<!--
-Setting up custom quarters differs depending on which environment you use. 
+Das Einrichten benutzerdefinierter Quartale unterscheidet sich je nach verwendeter Umgebung.
 
-### Set up custom quarters for your [!DNL Workfront] system in the Production environment
--->
+### Einrichten benutzerdefinierter Quartale für Ihr [!DNL Workfront] in der Produktionsumgebung
 
 {{step-1-to-setup}}
 
@@ -168,70 +166,68 @@ Setting up custom quarters differs depending on which environment you use.
 1. (Optional und bedingt) Wenn Ihr Unternehmen Workfront Planning erworben hat und Sie Zugriff auf [!DNL Workfront Planning] haben, navigieren Sie zu einer Seite für den Datensatztyp und öffnen Sie eine Zeitleisten -Ansicht. Die Ansicht zeigt die neuen benutzerdefinierten Quartale an.
 Weitere Informationen finden Sie unter [Verwalten der Timeline-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
-<!--
 <div class="preview">
 
-### Set up custom quarters for your [!DNL Workfront] system in the Preview environment
+### Benutzerdefinierte Quartale für Ihr [!DNL Workfront] in der Vorschau-Umgebung einrichten
 
 >[!NOTE]
 >
->If your organization purchased a Planning package in addition to a Workflow package, or if they purchased  Workfront Planning as a standalone package, you can configure custom weeks, in addition to custom quarters. 
+>Wenn Ihr Unternehmen ein Planungspaket zusätzlich zu einem Workflow-Paket erworben hat oder wenn es Workfront Planning als eigenständiges Paket erworben hat, können Sie zusätzlich zu benutzerdefinierten Quartalen benutzerdefinierte Wochen konfigurieren.
 > 
->Custom weeks are not available for Workfront reports and lists. 
+>Benutzerdefinierte Wochen sind für Workfront-Berichte und -Listen nicht verfügbar.
 
 {{step-1-to-setup}}
 
-1. Click **[!UICONTROL Custom Quarters]**.
+1. Klicken Sie auf **[!UICONTROL Benutzerdefinierte Quartale]**.
 
-1. Select **[!UICONTROL Enable Custom Quarters]**.
+1. Wählen Sie **[!UICONTROL Benutzerdefinierte Quartale aktivieren]** aus.
 
-1. Type a name for the custom quarter. For example, "Fiscal Q1 2021."
-1. Select start and end dates for the custom quarter.
+1. Geben Sie einen Namen für das benutzerdefinierte Quartal ein. Beispiel: „Geschäftsjahr 1 2021“.
+1. Wählen Sie das Start- und Enddatum für das benutzerdefinierte Quartal aus.
 
-1. (Optional) Select the **Starts a new custom week sequence** option. 
+1. (Optional) Wählen Sie die Option **Startet eine neue benutzerdefinierte**.
 
-    When selected, this option sets the start of the custom quarter as the start of the first custom week of the quarter in the Planning timeline view. 
-1. (Optional) In the **Custom week label format** area, choose the **Format** for the custom week labels. Choose from the following options:
+   Wenn diese Option ausgewählt ist, wird der Beginn des benutzerdefinierten Quartals als der Beginn der ersten benutzerdefinierten Woche des Quartals in der Ansicht „Planning-Zeitleiste“ festgelegt.
+1. (Optional) Wählen Sie im Bereich **Benutzerdefiniertes Wochen** Label-Format **Format** für die benutzerdefinierten Wochen-Labels aus. Wählen Sie aus den folgenden Optionen:
 
-    * **W1, W2, W3 ...** . This is the default format.
-    * **FW1, FW2, FW3 ...**
-    * **Week1, Week 2, Week 3, ...**
-    * **Custom**
+   * **W1, W2, W3 …** . Dies ist das Standardformat.
+   * **FW1, FW2, FW3 …**
+   * **Woche1, Woche 2, Woche 3, …**
+   * **Benutzerspezifisch**
 
-1. (Conditional) If you selected **Custom** for the **Format** field, type a **Custom label** to identify the custom weeks.  
+1. (Bedingt) Wenn Sie **Benutzerdefiniert** für das Feld **Format** ausgewählt haben, geben Sie einen **benutzerdefinierten Titel** ein, um die benutzerdefinierten Wochen anzugeben.
 
-    Custom weeks display in Planning timeline views. 
+   Benutzerdefinierte Wochen werden in Zeitleisten-Ansichten für die Planung angezeigt.
 
-    >[!TIP]
-    >
-    >When adding a custom label, you can type up to 100 characters. 
-    >
-    >You may indicate the name of the first week, and the following weeks will use the same label followed by a sequential number. 
-    >
-    >For example, a **Custom label** of "Fiscal week" will add the labels of "Fiscal week 1, Fiscal week 2, Fiscal week 3 ..." to the rest of the weeks in the sequence. 
+   >[!TIP]
+   >
+   >Beim Hinzufügen einer benutzerdefinierten Beschriftung können Sie bis zu 100 Zeichen eingeben.
+   >
+   >Sie können den Namen der ersten Woche angeben, und in den folgenden Wochen wird dieselbe Bezeichnung gefolgt von einer fortlaufenden Nummer verwendet.
+   >
+   >Beispiel: Bei einer **benutzerdefinierten Beschriftung** „Geschäftswoche“ werden die Beschriftungen „Geschäftswoche 1, Geschäftswoche 2, Geschäftswoche 3 …“ hinzugefügt für den Rest der Wochen in der Sequenz.
 
-1. (Optional) Click **[!UICONTROL Add Custom Quarter]** to add additional custom quarters to the system.
+1. (Optional) Klicken Sie **[!UICONTROL Benutzerdefiniertes Quartal hinzufügen]**, um dem System zusätzliche benutzerdefinierte Quartale hinzuzufügen.
 
-      >[!IMPORTANT]
-      >
-      > If your company purchased [!DNL Workfront Planning], you cannot save your custom quarters if there are gaps or overlaps between the quarters. 
-      >![Custom quarters with overlap warning](assets/custom-quarters-with-overlap-warning-red-outline.png)
-      >Gaps and overlaps between the quarters are allowed for [!DNL Workfront] only customers. 
+   >[!IMPORTANT]
+   >
+   > Wenn Ihr Unternehmen [!DNL Workfront Planning] gekauft hat, können Sie Ihre benutzerdefinierten Quartale nicht speichern, wenn es Lücken oder Überschneidungen zwischen den Quartalen gibt.
+   >![Benutzerdefinierte Quartale mit Überschneidungswarnung](assets/custom-quarters-with-overlap-warning-red-outline.png)
+   >Lücken und Überschneidungen zwischen den Quartalen sind nur für [!DNL Workfront] Kunden zulässig.
 
-1. (Optional and conditional) To view the custom quarters in Workfront, create a reporting element that refers to the custom quarters.
+1. (Optional und bedingt) Um die benutzerdefinierten Quartale in Workfront anzuzeigen, erstellen Sie ein Berichterstellungselement, das auf die benutzerdefinierten Quartale verweist.
 
-   **Example:** Create a filter for a [!UICONTROL project] list and include the Planned Completion Date of a project referencing the custom quarters.
+   **Beispiel** Erstellen Sie einen Filter für eine [!UICONTROL Projekt]Liste und geben Sie das geplante Abschlussdatum eines Projekts an, das auf die benutzerdefinierten Quartale verweist.
 
-   ![Project filter with custom quarters](assets/example-of-project-filter-with-custom-quarters.png)
+   ![Projektfilter mit benutzerdefinierten Quartalen](assets/example-of-project-filter-with-custom-quarters.png)
 
-   The references to "This Quarter", "Next Quarter", and "Last Quarter" are replaced with new references to the custom quarters.
+   Die Verweise auf „Dieses Quartal“, „Nächstes Quartal“ und „Letztes Quartal“ werden durch neue Verweise auf die benutzerdefinierten Quartale ersetzt.
 
-   For information about reporting elements, see [Reporting elements: filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+   Informationen zu Berichtselementen finden Sie unter [Berichtselemente: Filter, Ansichten und Gruppierungen](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
-   For information about creating filters, see [Create or edit filters in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
-1. (Optional and conditional) To view custom quarters and weeks in Workfront Planning, go to a record type page and open a timeline view. The view displays the new custom quarters and weeks. 
+   Informationen zum Erstellen von Filtern finden Sie unter [Erstellen oder Bearbeiten von Filtern in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
+1. (Optional und bedingt) Um benutzerdefinierte Quartale und Wochen in Workfront Planning anzuzeigen, gehen Sie zu einer Datensatztypseite und öffnen Sie eine Zeitleisten -Ansicht. Die Ansicht zeigt die neuen benutzerdefinierten Quartale und Wochen an.
 
-For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md). 
+Weitere Informationen finden Sie unter [Verwalten der Timeline-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 </div>
--->

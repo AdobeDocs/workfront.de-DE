@@ -20,9 +20,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: bf52de7515f8bcb29649b22c1fe40d5a7e306018
+source-git-commit: 8c08e110aeccdf6d6416fd1070fbcbd40fd46983
 workflow-type: tm+mt
-source-wordcount: 1599
+source-wordcount: 1597
 ht-degree: 4%
 
 ---
@@ -80,7 +80,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
    ODER
 
-   Um ein Arbeitszeittabellen-Profil für eine Gruppe zu erstellen oder zu bearbeiten, klicken Sie auf **Gruppen**, klicken Sie auf den Namen der Gruppe und dann **linken Bereich auf** Arbeitszeittabellen-Profile.
+   Um ein Arbeitszeittabellen-Profil für eine Gruppe zu erstellen oder zu bearbeiten, klicken Sie auf **Gruppen**, klicken Sie auf den Namen der Gruppe und dann auf **Arbeitszeittabellen-Profile** im linken Bereich.
 
 1. Um ein Arbeitszeittabellen-Profil zu erstellen, klicken Sie auf **Neues Profil**.
 

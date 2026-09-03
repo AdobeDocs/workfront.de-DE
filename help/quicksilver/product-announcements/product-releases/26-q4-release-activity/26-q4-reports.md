@@ -4,10 +4,10 @@ description: Verbesserungen bei Berichten für das vierte Quartal 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 63bdc885983f60c316409c3bba400ad82d475a5f
+source-git-commit: ee1fceee828c97db535ccc03c8b428940d6f7eed
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 4%
+source-wordcount: '611'
+ht-degree: 8%
 
 ---
 
@@ -16,6 +16,58 @@ ht-degree: 4%
 Auf dieser Seite werden die Verbesserungen beim Reporting in der Vorschau-Umgebung beschrieben, die mit der Version vom vierten Quartal 2026 vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2026 des Versionszyklus verfügbar sind, finden Sie unter [Versionsübersicht für das vierte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+<!--
+
+## Duplicate dashboards in Canvas Dashboards
+
+>[!NOTE]
+>
+>Preview: September 3, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+
+You can now duplicate a Canvas Dashboard using the new **Duplicate dashboard** action. This action is available to any user whose access level grants edit or create rights to Dashboards, even if they only have view access to the specific dashboard being copied. Users without edit or create rights to Dashboards do not see this action.
+
+When you duplicate a dashboard, you can rename it, update its description and currency, and choose which widgets, dashboard filters, and dashboard prompts to carry over to the copy.
+
+Run as user configurations on widgets are only preserved if you are the designated user or a system administrator. Sharing preferences are not copied to the new dashboard, and a confirmation message with a link to the new dashboard displays once the copy is complete.
+
+Previously, there was no way to duplicate a dashboard; users had to rebuild dashboards from scratch to create audience-specific variations.
+
+For more information, see 
+
+-->
+
+## Feld „Validierungstyp“ in den Dashboards der Arbeitsfläche
+
+>[!NOTE]
+>
+>Produktion für alle: 28. August 2026
+>[!BADGE Außerplanmäßig]{type=Neutral}
+
+Die Genehmigungsentität enthält jetzt ein Feld **Genehmigungstyp**, mit dem Benutzende zwischen Korrekturabzugs-, Dokumentversions-, Aufnahmegenehmigungen und anderen Genehmigungstypen unterscheiden können.
+
+## Aktualisierung der Validierungsterminologie in den Arbeitsflächen-Dashboards
+
+>[!NOTE]
+>
+>Produktion für alle: 28. August 2026
+>[!BADGE Außerplanmäßig]{type=Neutral}
+
+Die folgenden Feldnamen, die in Arbeitsflächen-Dashboards für Dokument- und Arbeitsgenehmigungen verwendet werden, wurden aus Gründen der Klarheit umbenannt:
+
+| Vorheriger Name | Neuer Name |
+| --- | --- |
+| Dokumentengenehmigung | Genehmigung |
+| Dokumentengenehmigungsphase | Genehmigungsphase |
+| Teilnehmerin oder Teilnehmer der Dokumentengenehmigungsphase | Teilnehmerin oder Teilnehmer der Genehmigungsphase |
+| Genehmigungsprozess | Arbeitsgenehmigungsprozess |
+| Genehmigungsphase | Arbeitsgenehmigungsphase |
+| Status der genehmigenden Person | Status der Arbeitsgenehmigenden Person |
+| Warten auf Genehmigung | Warten auf Arbeitsgenehmigung |
+
+Diese Änderung hat keine Auswirkungen auf die Funktionsweise aktueller Berichte.
 
 ## Pivot-Tabellenberichte in Arbeitsflächen-Dashboards
 

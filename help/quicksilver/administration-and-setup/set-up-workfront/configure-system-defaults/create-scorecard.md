@@ -4,7 +4,7 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Scorecard erstellen
 description: Eine Scorecard misst, wie gut ein Projekt den zuvor festgelegten Kriterien eines Portfolios entspricht. Eine Scorecard spiegelt oft die Mission, die Werte und die strategischen Ziele eines Unternehmens wider.Portfolio-Manager definieren in der Regel die Scorecard-Fragen und -Antworten, um sicherzustellen, dass sie bei der Priorisierung und Auswahl des Projekts aussagekräftig und wertvoll sind.  [!DNL Adobe Workfront]  erstellt die Scorecards anhand der Empfehlungen von Portfolio-Managern.
-author: Becky
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
@@ -19,10 +19,10 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 722
-ht-degree: 5%
+source-wordcount: 846
+ht-degree: 4%
 
 ---
 
@@ -32,11 +32,12 @@ ht-degree: 5%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>
--->
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+
 
 Eine Scorecard misst, wie gut ein Projekt den zuvor festgelegten Kriterien eines Portfolios entspricht. Eine Scorecard spiegelt oft die Mission, die Werte und die strategischen Ziele eines Unternehmens wider.
 
@@ -128,6 +129,11 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
    Dadurch wird die Scorecard erstellt und Projektmanager können sie jetzt an ihren Projekt-Business-Case anhängen.
 
+
+1. <span class="preview">(Optional) Um eine Scorecard zu bearbeiten, wählen Sie sie in der Liste der Scorecards aus und klicken Sie dann **Bearbeiten** ![Scorecard bearbeiten](assets/edit-scorecard-icon.png) unten in der Liste. </span>
+
+1. <span class="preview">(Optional) Um eine Scorecard zu löschen, wählen Sie sie in der Liste der Scorecards aus und klicken Sie dann **Löschen** ![Scorecard löschen](assets/delete-scorecard-icon.png) am Ende der Liste. </span>
+
 ## Kopieren einer vorhandenen Scorecard
 
 Sie können eine Scorecard durch Kopieren und Bearbeiten einer vorhandenen Scorecard erstellen.
@@ -135,11 +141,15 @@ Sie können eine Scorecard durch Kopieren und Bearbeiten einer vorhandenen Score
 {{step-1-to-setup}}
 
 1. Klicken Sie **[!UICONTROL linken]** auf „Scorecards“.
-1. Wählen Sie eine Scorecard in der Liste aus und klicken Sie dann oben in der Scorecard **Liste auf** Kopieren![Symbol „Scorecard &#x200B;](assets/copy-scorecard-icon.png) kopieren“.
+1. Wählen Sie eine Scorecard in der Liste aus und klicken Sie dann oben **der Scorecard** Liste <span class="preview"> **auf das Symbol &quot;** kopieren![Scorecard kopieren](assets/copy-scorecard-icon.png) am unteren Rand der Liste</span>.
 
-   Das Feld **Scorecard kopieren** wird geöffnet.
+   Das Scorecard **Feld „Kopieren** wird geöffnet.
 
    ![Scorecard-Feld kopieren](assets/copy-scorecard-box.png)
+
+   >[!TIP]
+   >
+   >Der Name der Scorecard wird im Titel des Felds angezeigt.
 
 1. Geben Sie die folgenden Informationen an:
 

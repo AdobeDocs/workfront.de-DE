@@ -25,27 +25,25 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+source-git-commit: 96cf04616582ac0208a9365d0f10f2403ebd317c
 workflow-type: tm+mt
-source-wordcount: 5111
+source-wordcount: 5223
 ht-degree: 3%
 
 ---
 
 # Bearbeiten von Projektvorlagen
 
+{{highlighted-preview}}
+
 <!-- Audited: 7/2025 -->
 
 <!--The Resource Pools part also duplicates in the "Working with Resource Pools" article-->
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div> 
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 -->
 
@@ -253,6 +251,15 @@ Old:
       <tr> 
       <td role="rowheader"><strong>Firma</strong></td> 
       <td><p>Geben Sie die Firma an, die Sie mit der Vorlage verknüpfen möchten. In der Liste werden nur aktive Unternehmen angezeigt.</p></td> 
+      </tr> 
+      <tr>
+      <td role="rowheader"><span class="preview"><strong>Frame.io-Arbeitsbereich (bedingt)</strong></span></td>
+      <td><span class="preview">
+      <p>Wählen Sie in einem Adobe-Cloud-Speicherprojekt den Arbeitsbereich Frame.io aus, den Projekte, die aus dieser Vorlage erstellt wurden, verwenden sollen. Wenn Ihr Unternehmen über mehrere Frame.io-Arbeitsbereiche verfügt, bestimmt dies, in welchem Arbeitsbereich das verknüpfte Frame.io-Projekt erstellt wird.</p>
+      <p>Die Liste enthält nur die Arbeitsbereiche von Frame.io, denen Sie Projekte zuweisen können. Der Standardarbeitsbereich, der verwendet wird, wenn kein Arbeitsbereich ausgewählt oder verfügbar ist.</p>
+      <p>Sie können dieses Feld in der Vorlage jederzeit ändern. Änderungen gelten nur für Projekte, die nach der Änderung erstellt wurden. Projekte, die bereits anhand der Vorlage erstellt wurden, behalten ihren vorhandenen Frame.io-Arbeitsbereich bei.</p>
+      <p>Hinweis: Sie müssen über Frame.io enterprise verfügen, um das Workspace-Feld Frame.io verwenden zu können.</p>
+      </span></td>
       </tr> 
       <tr> 
       <td role="rowheader"><strong>Für die Vorlage verantwortliche Person</strong></td> 
@@ -772,8 +779,8 @@ Das Hinzufügen der folgenden Elemente zu einer Vorlage entspricht dem Hinzufüg
 
   Informationen zum Hinzufügen von Themengruppen und Warteschlangenthemen zu einem Projekt oder einer Vorlage finden Sie in den folgenden Artikeln:
 
-   * [Erstellen von Themengruppen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
-   * [Erstellen von Warteschlangenthemen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
+  * [Erstellen von Themengruppen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
+  * [Erstellen von Warteschlangenthemen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 
 Sie können den Aufgaben in der Vorlage die folgenden Elemente hinzufügen:
 

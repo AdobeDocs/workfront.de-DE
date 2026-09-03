@@ -19,15 +19,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 4047
+source-wordcount: 4041
 ht-degree: 2%
 
 ---
 
 # Verwalten der Tabellenansicht
 
+<!-- remove Production and Preview references at release-->
 
 <span class="preview">Die auf dieser Seite hervorgehobenen Informationen beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
 
@@ -190,7 +191,7 @@ Folgendes wird standardmäßig in einer Tabellenansicht angezeigt:
 <!--
 <div class="preview">
 
-* 500 records upload automaticall. Additional records display as you scroll the view. 
+* 500 records upload automatically. Additional records display as you scroll the view. 
 
 </div>
 -->
@@ -244,6 +245,8 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
    * Nehmen Sie die Spaltenüberschrift und ziehen Sie sie per Drag-and-Drop an die gewünschte Position. Die verschobene Spalte wird kurz mit einem blauen Hintergrund angezeigt, bis Sie andere Anpassungen an der Tabelle vornehmen.
 
    * Klicken Sie **der Symbolleiste der** auf „Felder“, ziehen Sie die Felder per Drag-and-Drop in die gewünschte Reihenfolge und klicken Sie dann außerhalb des Felds **Sichtbarkeit und Reihenfolge**, um es zu schließen.
+
+     <!--update the screen shot without Thumbnail at Production release-->
 
      ![Symbolleiste für die Tabellenansicht der Feldeinstellungen erweitert](assets/fields-setting-table-view-toolbar-expanded.png)
 
@@ -360,26 +363,31 @@ Sie können bis zu 50.000 Datensätze (oder Zeilen) für einen Datensatztyp habe
    ><span class="preview">In der Drag-and-Drop-Zeile zeigt ein Zahlenindikator die Anzahl der ausgewählten Datensätze an, wenn mehrere Datensätze vorhanden sind. </span>
 
 1. (Optional) Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Datensatz und dann auf **Miniaturansicht bearbeiten**, um die Miniaturansicht zu bearbeiten.
-1. Klicken Sie **oben in** Tabelle auf Felder und wählen Sie dann den Umschalter für das Feld **Miniatur** aus, um es links neben dem Primärfeld anzuzeigen. Diese Option ist standardmäßig deaktiviert.
+1. Klicken Sie **der Produktionsumgebung oben** der Tabelle auf „Felder“
+
+   ODER
+
+   <span class="preview">Bewegen Sie den Mauszeiger über die Kopfzeile des Primärfelds</span> und wählen Sie dann den Umschalter für das Feld **Miniatur**, um es links neben dem Primärfeld anzuzeigen. Diese Option ist standardmäßig deaktiviert.
 
    Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. <span class="preview">(Optional) Klicken Sie **Felder** oben in der Tabelle und klicken Sie dann auf **Farbe**, um die Farbe eines Datensatzes links neben seinem Primärfeld anzuzeigen. Standardmäßig werden jedem neuen Datensatz zufällig Farben zugewiesen. Die **Color**-Einstellung ist standardmäßig deaktiviert.</span>
+1. <span class="preview">Klicken Sie **Felder** oben in der Tabelle</span>
+
+   ODER
+   <span class="preview">Bewegen Sie den Mauszeiger über die Kopfzeile des Primärfelds und wählen Sie dann den Umschalter für das Feld **Farbe** aus, um es links neben dem Primärfeld anzuzeigen. Diese Option ist standardmäßig deaktiviert. </span>
 
 1. <span class="preview"> (Optional und bedingt) Wenn Sie die Einstellung **Farbe** aktiviert haben, klicken Sie auf die Farbleiste links neben dem Primärfeld des Datensatzes und wählen Sie eine Farbe aus den Registerkarten **Farbfelder** oder **Benutzerdefiniert** aus und klicken Sie dann auf eine Stelle außerhalb des Felds, um es zu schließen. Die Farbe wird sofort angewendet.</span>
 
-   <div class="preview">
+<div class="preview">
 
-   ![Farbauswahlfeld „Farbcodierung aufzeichnen“](assets/color-picker-for-record-color-coding.png)
+![Farbauswahlfeld „Farbcodierung aufzeichnen“](assets/color-picker-for-record-color-coding.png)
 
-   Weitere Informationen finden Sie unter [Erstellen von Einträgen](/help/quicksilver/planning/records/create-records.md).
+Weitere Informationen finden Sie unter [Erstellen von Einträgen](/help/quicksilver/planning/records/create-records.md).
 
-   </div>
+</div>
 
 
 ### Filter hinzufügen {#add-filters-1}
-
-Mit Filtern können Sie die Menge der auf dem Bildschirm angezeigten Informationen reduzieren.
 
 Mit Filtern können Sie die Menge der auf dem Bildschirm angezeigten Informationen reduzieren.
 

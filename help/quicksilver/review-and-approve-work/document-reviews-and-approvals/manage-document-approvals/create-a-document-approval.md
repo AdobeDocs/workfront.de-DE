@@ -20,14 +20,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c9558f7de0e2f625c8426187436f2ea5cdeabb92
+source-git-commit: c637cfabefebf01868ae0dd020d95bcce50b38e2
 workflow-type: tm+mt
-source-wordcount: 2227
-ht-degree: 2%
+source-wordcount: 2662
+ht-degree: 1%
 
 ---
 
 # Erstellen eines Workflows für die Dokumentvalidierung
+
+{{highlighted-preview}}
 
 Sie können die Genehmigung anderer Benutzer oder Teams für ein Dokument in Adobe Workfront anfordern oder diese auffordern, ein Dokument zu überprüfen, ohne es genehmigen zu müssen.
 
@@ -99,6 +101,11 @@ So erstellen Sie einen einstufigen Validierungs-Workflow:
    <td><strong>Namen oder E-Mails hinzufügen</strong></td>
    <td>Beginnen Sie mit der Eingabe eines Benutzer- oder Team-Namens, der als genehmigende Person oder Prüfende Person hinzugefügt werden soll. Wenn Sie nur über Validierungsverantwortliche verfügen, werden diese benachrichtigt und haben die Möglichkeit, die Überprüfung abzuschließen. Es ist jedoch keine Entscheidung erforderlich oder getroffen.</td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>Personen oder Teams in der Vorschau hinzufügen</strong></span></td>
+   <td><span class="preview">Beginnen Sie mit der Eingabe eines Benutzernamens, Teams oder einer E-Mail-Adresse. Das Team wird standardmäßig als einzelne genehmigende Person oder Überprüfung hinzugefügt, Sie können jedoch festlegen, dass jedes Teammitglied als einzelner Teilnehmer hinzugefügt wird. <br>
+   Hinweis: Wenn ein(e) Benutzende(r) bereits hinzugefügt wurde oder zu mehr als einem Team gehört, das Sie hinzufügen, wird er/sie einmal einbezogen.</span></td>
+   </tr>
    <tr>
    <td><strong>Nur eine Entscheidung erforderlich (optional)</strong></td>
    <td>Die erste Person, die eine Entscheidung trifft, schließt die Phase ab.</td>
@@ -118,6 +125,10 @@ So erstellen Sie einen einstufigen Validierungs-Workflow:
 1. Klicken Sie **Genehmigung anfordern**.
 
    ![Genehmigung im Standardmodus anfordern](assets/request-approval-basic.jpeg)
+
+   <!-- 
+   preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
+   -->
 
 ### Erstellen eines erweiterten Validierungs-Workflows
 
@@ -152,6 +163,11 @@ So erstellen Sie einen erweiterten Validierungs-Workflow:
    <td><strong>Namen oder E-Mails hinzufügen</strong></td>
    <td>Beginnen Sie mit der Eingabe eines Benutzer- oder Team-Namens, der als genehmigende Person oder Prüfende Person hinzugefügt werden soll. Wenn Sie nur über Validierungsverantwortliche verfügen, werden diese benachrichtigt und haben die Möglichkeit, die Überprüfung abzuschließen. Es ist jedoch keine Entscheidung erforderlich oder getroffen.<p>Hinweis: Ein Reviewer oder eine genehmigende Person kann jeweils nur einem offenen Schritt im selben Asset zugewiesen werden. Wenn mehrere parallele Stadien gleichzeitig geöffnet sind, kann dieselbe Person nicht zu mehr als einer hinzugefügt werden.</p></td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>Personen oder Teams in der Vorschau hinzufügen</strong></span></td>
+   <td><span class="preview">Beginnen Sie mit der Eingabe eines Benutzernamens, Teams oder einer E-Mail-Adresse. Das Team wird standardmäßig als einzelne genehmigende Person oder Überprüfung hinzugefügt, Sie können jedoch festlegen, dass jedes Teammitglied als einzelner Teilnehmer hinzugefügt wird. <br>
+   Hinweis: Wenn ein(e) Benutzende(r) bereits hinzugefügt wurde oder zu mehr als einem Team gehört, das Sie hinzufügen, wird er/sie einmal einbezogen. Darüber hinaus können Teilnehmern jeweils nur ein offenes Stadium für dasselbe Asset zugewiesen werden.</span></td>
+   </tr>
    <tr>
    <td><strong>Nur eine Entscheidung erforderlich (optional)</strong></td>
    <td>Die erste Person, die eine Entscheidung trifft, schließt die Phase ab.</td>
@@ -173,6 +189,10 @@ So erstellen Sie einen erweiterten Validierungs-Workflow:
 1. (Optional) Um einen Pfad zu entfernen, bewegen Sie den Mauszeiger über die Pfadbeschriftung und klicken Sie auf das Papierkorbsymbol. **Pfad 1** kann nicht entfernt werden und Pfade können nicht neu angeordnet werden. Andere Pfade können nur entfernt werden, wenn kein Schritt innerhalb des Pfades gesperrt oder abgeschlossen ist.
 
    ![Erweiterter Modus mit parallelen Pfaden](assets/request-approval-parallel-paths.jpeg)
+
+<!-- preview screen
+   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
+-->
 
 1. (Optional) Um alle Pfade und Phasen zu löschen und von vorne zu beginnen, klicken **oben** auf „Zurücksetzen“.
 
@@ -208,6 +228,11 @@ So erstellen Sie einen einstufigen Validierungs-Workflow:
    <td><strong>Namen oder E-Mails hinzufügen</strong></td>
    <td>Beginnen Sie mit der Eingabe eines Benutzernamens oder einer E-Mail, die als genehmigende Person oder Prüfende hinzugefügt werden soll. Wenn Sie nur über Validierungsverantwortliche verfügen, werden diese benachrichtigt und haben die Möglichkeit, die Überprüfung abzuschließen. Es ist jedoch keine Entscheidung erforderlich oder getroffen.</td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>Personen oder Teams in der Vorschau hinzufügen</strong></span></td>
+   <td><span class="preview">Beginnen Sie mit der Eingabe eines Benutzernamens, Teams oder einer E-Mail-Adresse und wählen Sie aus, ob es sich um einen <strong>Genehmiger</strong> oder <strong>Prüfer</strong> handelt. Workfront fügt jedes aktive Mitglied eines Teams einzeln hinzu. <br>
+   Hinweis: Wenn ein(e) Benutzende(r) bereits hinzugefügt wurde oder zu mehr als einem Team gehört, das Sie hinzufügen, wird er/sie einmal einbezogen.</span></td>
+   </tr>
    <tr>
    <td><strong>Nur eine Entscheidung erforderlich (optional)</strong></td>
    <td>Die erste Person, die eine Entscheidung trifft, schließt die Phase ab.</td>
@@ -225,6 +250,12 @@ So erstellen Sie einen einstufigen Validierungs-Workflow:
 1. Klicken Sie **Genehmigung anfordern**.
 
    ![Genehmigung im Standardmodus anfordern](assets/request-approval-basic.jpeg)
+
+   <!-- 
+   preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
+   -->
+
+
 
 >[!NOTE]
 >
@@ -265,6 +296,11 @@ So erstellen Sie einen erweiterten Validierungs-Workflow:
    <td><strong>Namen oder E-Mails hinzufügen</strong></td>
    <td>Beginnen Sie mit der Eingabe eines Benutzernamens oder einer E-Mail, die als genehmigende Person oder Prüfende hinzugefügt werden soll. Wenn Sie nur über Validierungsverantwortliche verfügen, werden diese benachrichtigt und haben die Möglichkeit, die Überprüfung abzuschließen. Es ist jedoch keine Entscheidung erforderlich oder getroffen.<p>Hinweis: Ein Reviewer oder eine genehmigende Person kann jeweils nur einem offenen Schritt im selben Asset zugewiesen werden. Wenn mehrere parallele Stadien gleichzeitig geöffnet sind, kann dieselbe Person nicht zu mehr als einer hinzugefügt werden.</p></td>
    </tr>
+   <tr class="preview">
+   <td><span class="preview"><strong>Personen oder Teams in der Vorschau hinzufügen</strong></span></td>
+   <td><span class="preview">Beginnen Sie mit der Eingabe eines Benutzernamens, Teams oder einer E-Mail-Adresse und wählen Sie aus, ob es sich um einen <strong>Genehmiger</strong> oder <strong>Prüfer</strong> handelt. Workfront fügt jedes aktive Mitglied eines Teams einzeln hinzu. <br>
+   Hinweis: Wenn ein(e) Benutzende(r) bereits hinzugefügt wurde oder zu mehr als einem Team gehört, das Sie hinzufügen, wird er/sie einmal einbezogen. Darüber hinaus können Teilnehmern jeweils nur ein offenes Stadium für dasselbe Asset zugewiesen werden.</span></td>
+   </tr>
    <tr>
    <td><strong>Nur eine Entscheidung erforderlich (optional)</strong></td>
    <td>Die erste Person, die eine Entscheidung trifft, schließt die Phase ab.</td>
@@ -288,9 +324,37 @@ So erstellen Sie einen erweiterten Validierungs-Workflow:
 
    ![Erweiterter Modus mit parallelen Pfaden](assets/request-approval-advanced.jpeg)
 
+   <!-- preview screen
+   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
+   -->
+
 1. (Optional) Um alle Pfade und Phasen zu löschen und von vorne zu beginnen, klicken **oben** auf „Zurücksetzen“.
 
 1. Klicken Sie **Genehmigung anfordern**.
+
+<div class="preview">
+
+## Anzeigen von Genehmigungs-Workflows für frühere Versionen im neuen Dokumentbereich in der Vorschau
+
+Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, wird der Bereich Neue Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Adobe Cloud-Speicher finden Sie unter [Übersicht über Adobe Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Im Bedienfeld Genehmigungen werden nur die Versionen des Dokuments aufgelistet, die über einen Genehmigungs-Workflow verfügen.
+
+So zeigen Sie Genehmigungs-Workflows für frühere Versionen an:
+
+1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen **Dokumente** im linken Bereich aus.
+1. Klicken Sie auf das Dokument und dann auf **Genehmigungen** rechts auf der Seite.
+
+   ![Genehmigende Personen in der Dokumentzusammenfassung hinzufügen](assets/approvals-icon-new.png)
+
+1. Klicken Sie auf eine Version, um sie zu erweitern. Sie können die Stadien, die Entscheidung jeder genehmigenden Person, die Entscheidungsregel der Phase (z. B. ob nur eine Entscheidung erforderlich ist, um die Phase abzuschließen) und Fälligkeitsdaten anzeigen.
+1. Klicken Sie auf eine andere Version, um den Genehmigungs-Workflow zu erweitern, ohne das Bedienfeld zu verlassen.
+
+   >[!NOTE]
+   >
+   >Wenn der Genehmigungs-Workflow einer Version zurückgezogen wurde, weil die Genehmigung einer neueren Version angefordert wurde, bleibt die Version in der Liste, wird reduziert, sodass Sie weiterhin die vorherigen Entscheidungen überprüfen können.
+
+</div>
 
 <!--
 ## Resubmit an approval on a new version

@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 2%
+source-wordcount: '1404'
+ht-degree: 1%
 
 ---
 
@@ -158,7 +158,9 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
    * In der Spaltenüberschrift der verbundenen Datensatzfelder gibt es einen Hinweis darauf, dass das Feld in einer abhängigen Verbindungsbeziehung steht.
 
      ![Tooltip des abhängigen Symbols in der Spaltenüberschrift](assets/dependent-icon-tooltip-in-column-header.png)
+1. (Optional) Klicken Sie auf **Filterregeln für Datensätze** und wählen Sie Felder aus dem Datensatztyp aus, mit dem Sie eine Verbindung herstellen, um die Optionen für die Werte dieses Felds zu beschränken. Klicken Sie dann auf **Fertig**.
 
+   Wenn die beiden Felder in einem dritten Datensatztyp vorhanden sind, werden die Optionen für den verbundenen Felddatensatztyp durch den hier ausgewählten Filter eingeschränkt.
 1. (Optional und empfohlen) Wechseln Sie zu einem dritten Datensatztyp und fügen Sie sowohl den ersten als auch den zweiten Datensatztyp als verbundene Datensatzfelder hinzu.
 
    ![Abhängige Anzeige für verbundene Felder eines dritten Datensatztyps](assets/dependent-connected-field-indicator-on-a-third-record-type.png)

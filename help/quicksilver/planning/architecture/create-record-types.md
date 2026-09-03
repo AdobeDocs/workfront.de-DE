@@ -20,9 +20,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 1203
+source-wordcount: 1271
 ht-degree: 4%
 
 ---
@@ -33,11 +33,11 @@ ht-degree: 4%
 
 # Erstellen von Eintragstypen
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -293,18 +293,18 @@ Sie können Datensatztypen manuell sowohl in den Abschnitten Operative Datensatz
 
    Die Änderungen werden automatisch gespeichert.
 
-   Weitere Informationen zum Hinzufügen von Datensätzen, Löschen oder Bearbeiten von Datensatztypen, <!--<span class="preview">creating business rules</span>--> oder Aktualisieren der Ansicht auf der Seite „Datensatztyp“ finden Sie in den folgenden Artikeln:
+   Weitere Informationen zum Hinzufügen von Datensätzen, Löschen oder Bearbeiten von Datensatztypen, <span class="preview">Erstellen von Geschäftsregeln</span> oder Aktualisieren der Ansicht auf der Seite „Datensatztyp“ finden Sie in den folgenden Artikeln:
 
    * [Erstellen von Einträgen](/help/quicksilver/planning/records/create-records.md)
    * [Löschen von Eintragstypen](/help/quicksilver/planning/architecture/delete-record-types.md)
    * [Bearbeiten von Eintragstypen](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [Datensatzansichten verwalten](/help/quicksilver/planning/views/manage-record-views.md)
 
-   <!--  
-    <div class="preview">
-    * [Create record types business rules](/help/quicksilver/planning/architecture/configure-business-rules.md)
-    </div>
-    -->
+   <div class="preview">
+
+   * [Erstellen von Datensatztypen und Geschäftsregeln](/help/quicksilver/planning/architecture/configure-business-rules.md)
+
+   </div>
 
 ## Erstellen von Datensatztypen durch Importieren von Informationen aus einer CSV- oder Excel-Datei
 

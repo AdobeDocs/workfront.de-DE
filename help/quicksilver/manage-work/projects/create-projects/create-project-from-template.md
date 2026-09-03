@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5d51290f1181ea1abfc6ac918721e803da049790
+source-git-commit: bde3551443641024b87397e35064ebf4577179eb
 workflow-type: tm+mt
 source-wordcount: 1471
 ht-degree: 2%
@@ -239,6 +239,7 @@ Sie können ein Projekt über den Bereich Projekte im Hauptmenü oder über den 
    Bearbeiten Sie die vorausgefüllten Werte, um sie besser an Ihr Projekt anzupassen.
 
    Weitere Informationen finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
+
 1. Klicken Sie **Projekt erstellen**.
 
    Alle in der Vorlage definierten Details werden automatisch dem neu erstellten Projekt zugeordnet, sofern Sie sie im vorherigen Schritt nicht geändert haben.
@@ -273,6 +274,7 @@ Anstatt im Bereich Projekte zu beginnen, können Sie ein Projekt aus einer Vorla
    Wenn ein Feld bereits in der Vorlage ausgefüllt ist, wird das Feld im Feld **Neues Projekt** vorausgefüllt. Sie können die vorausgefüllten Werte bearbeiten, um sie besser an Ihr Projekt anzupassen.
 
    Weitere Informationen finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
+
 
 1. Klicken Sie **Projekt erstellen**.
 

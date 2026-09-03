@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ebf8d5ed1eb0b49315bbe10718c5065fcc871654
+source-git-commit: 8c08e110aeccdf6d6416fd1070fbcbd40fd46983
 workflow-type: tm+mt
-source-wordcount: 3318
+source-wordcount: 3304
 ht-degree: 1%
 
 ---
@@ -90,7 +90,6 @@ Im Folgenden finden Sie einige Typen von Workfront-Objektlisten, die das erweite
 | Pinnwand-Administratoransicht | Pinnwände > Admin-Ansicht |
 | Dokumente zum Adobe Cloud-Speicher | Projekt, Aufgabe, Problem, Portfolio, Programm, Vorlage, Vorlagenaufgabe > Dokumente |
 | <span class="preview">Listen mit Szenario-Plänen und -Initiativen</span> | <span class="preview">Hauptmenü > Szenarien</span> |
-| <span class="preview">Listen mit Zielen und Fortschrittsindikatoren</span> | <ul><li><span class="preview">Hauptmenü > Ziele</span></li><li><span class="preview">Hauptmenü > Ziele > Fortschrittsanzeigen</span></li></ul> |
 
 <!--
 
@@ -98,6 +97,9 @@ Last bullet in "Lists of integrations" <li><span class="preview">Setup > Documen
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
+
+Last, under Scenario Planner
+| <span class="preview">Lists of goals and progress indicators</span> | <ul><li><span class="preview">Main Menu > Goals</span></li><li><span class="preview">Main Menu > Goals > Progress Indicators</span></li></ul> |
 
 -->
 
@@ -185,7 +187,7 @@ Je nachdem, welche Objekte Sie in einer erweiterten Liste anzeigen, können Sie 
 
 1. Verwenden Sie die Umschalter zum Anzeigen oder Ausblenden von Spalten in der Liste.
 
-<span class="preview">Sie können im Suchfeld nach einer Spalte suchen.</span>
+   <span class="preview">Sie können im Suchfeld nach einer Spalte suchen.</span>
 
 1. Um die Spalten neu anzuordnen, klicken Sie auf das Symbol **Ziehen** (![-Symbol](assets/drag-icon.png) und verschieben Sie eine Spalte an die gewünschte Position. Durch das Verschieben von Spalten wird die Liste automatisch geändert.
 

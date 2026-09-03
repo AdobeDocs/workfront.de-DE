@@ -4,10 +4,10 @@ description: Weitere Verbesserungen im Veröffentlichungszeitraum des vierten Qu
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 723c5ce69f0e457dfd8e3d230e451a41b655603e
+source-git-commit: c3dc1aa9e48d45d2546561c2ac9412b008258e2d
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 6%
+source-wordcount: '689'
+ht-degree: 3%
 
 ---
 
@@ -16,6 +16,58 @@ ht-degree: 6%
 Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom vierten Quartal 2026 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2026 des Versionszyklus verfügbar sind, finden Sie unter [Versionsübersicht für das vierte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+## Erweiterte Listen-Updates
+
+>[!NOTE]
+>
+>Vorschau: 3. September 2026
+>Produktions-Schnellveröffentlichung: 17. September 2026
+>Produktion für alle: 15. Oktober 2026
+
+In allen erweiterten Listen sind jetzt die folgenden Aktualisierungen verfügbar:
+
+* Die Schaltfläche zum Hinzufügen einer neuen Zeile in einer Tabelle wurde innerhalb des Rasters statt unter das Raster verschoben.
+* Die **Spalten**-Optionen oberhalb der Liste enthalten jetzt ein Suchfeld.
+
+Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+## Mehrere Bildschirme wurden zu erweiterten Listen aktualisiert
+
+>[!NOTE]
+>
+>Vorschau: 3. September 2026
+>Produktions-Schnellveröffentlichung: 17. September 2026
+>Produktion für alle: 15. Oktober 2026
+
+Die folgenden Workfront-Listen verwenden jetzt das erweiterte Listenformat:
+
+* Setup > Benutzeroberfläche > Aktualisierungs-Feeds > Aktionen
+* Setup > Benutzeroberfläche > Aktualisierungs-Feeds > Nachverfolgte Felder
+* Setup > Projektvoreinstellungen > Bedingungen
+* Setup > Standorte
+* Setup > Scorecards
+* Setup > Risikotypen
+* Projekt > Dokumente > Dokumentdetails > Alle Versionen
+* Setup > Dokumente > SharePoint-Integration
+* Setup > Dokumente > Benutzerdefinierte Integration
+* Hauptmenü > Szenarien > Listen von Szenarioplänen und Initiativen
+
+Zu den Aktualisierungen gehören für einige oder alle Listen die folgenden:
+
+* Ein neues Erscheinungsbild der Liste mit Aktualisierungen der Farben, Formatierungen und Schriftarten.
+* Die Option zum Erstellen eines neuen Objekts in der Liste wurde nach oben rechts verschoben und wird als blaue Schaltfläche angezeigt.
+* Die Symbolleiste wurde entfernt. Wenn Sie jetzt ein oder mehrere Objekte in der Tabelle auswählen, wird die Aktionsleiste unten in der Liste in Blau angezeigt.
+* Einige Spalten wurden möglicherweise neu positioniert oder entfernt oder es wurden neue Spalten hinzugefügt.
+* Einige Bestätigungen und Warnungen wurden entfernt oder geändert.
+* Das Speichern in einigen Listen erfolgt jetzt automatisch, und die Schaltfläche Speichern wurde möglicherweise entfernt.
+* Einige erweiterte Listen ermöglichen das Umbenennen oder Sortieren von Spalten.
+* Einige erweiterte Listen enthalten den Spalten-Manager, mit dem Sie Spalten hinzufügen und anordnen können. Sie können Spalten in Workfront nach nativen oder benutzerdefinierten Feldern auswählen.
+* Symbole in Tabellenzellen wurden durch Menüs Mehr mit mehreren Optionen ersetzt.
+
+HINWEIS: Nicht alle Updates sind in allen Listen verfügbar.
+
+Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 ## C2PA-Metadaten werden in Ihren Dateien beibehalten
 

@@ -20,20 +20,20 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 648
-ht-degree: 4%
+source-wordcount: 771
+ht-degree: 3%
 
 ---
 
 # Bearbeiten von Eintragstypen
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -214,10 +214,8 @@ Old:
    >
    >![Globales Suchfeld](assets/global-search-box.png)
 
-<!--
-1. <span class="preview">(Optional) To add, edit, deactivate or delete record type business rules, go to the record type page and click the More menu to the right of the record type name, then click **Business rules**. </span>
+1. <span class="preview">(Optional) Zum Hinzufügen, Bearbeiten, Deaktivieren oder Löschen von Geschäftsregeln für Datensatztypen gehen Sie zur Seite „Datensatztyp“ und klicken Sie auf das Menü **Mehr** rechts neben dem Namen des Datensatztyps und dann auf **Geschäftsregeln**. </span>
 
-   <span class="preview">Business rules are conditions set on the record type that define when records of that type can be edited or deleted. </span>
+   <span class="preview">Geschäftsregeln sind Bedingungen, die für den Datensatztyp festgelegt werden und definieren, wann Datensätze dieses Typs bearbeitet oder gelöscht werden können. </span>
 
-   <span class="preview"> For information, see [Create record types business rules](/help/quicksilver/planning/architecture/configure-business-rules.md).</span> 
--->
+   <span class="preview"> Informationen finden Sie unter [Erstellen von Datensatztypen für Geschäftsregeln](/help/quicksilver/planning/architecture/configure-business-rules.md).</span>

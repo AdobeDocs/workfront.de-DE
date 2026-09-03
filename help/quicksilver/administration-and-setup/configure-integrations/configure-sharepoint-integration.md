@@ -23,14 +23,16 @@ topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: a25b6618c135eeb0de067a6cee16e461f44183b8
 workflow-type: tm+mt
-source-wordcount: 1744
+source-wordcount: 1856
 ht-degree: 2%
 
 ---
 
 # [!DNL SharePoint] konfigurieren
+
+{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -127,6 +129,17 @@ So senden Sie ein Dokument an SharePoint:
 
 1. Klicken Sie auf **Speichern**.
 
+## Anzeigen und Verwalten der SharePoint-Integration
+
+So zeigen Sie die [!DNL SharePoint] Integrationen Ihres Unternehmens an und verwalten sie:
+
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **&#x200B;**&#x200B;Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
+1. Wählen Sie **[!UICONTROL linken Navigationsbereich]** Dokumente“ und dann **[!UICONTROL [!DNL SharePoint]Integration aus]**.
+
+   Eine Liste der [!DNL SharePoint] Integrationen Ihres Unternehmens wird angezeigt.
+
+1. (Optional) Um eine [!DNL SharePoint]-Integration zu bearbeiten, aktivieren Sie das Kontrollkästchen daneben und klicken dann auf **[!UICONTROL Bearbeiten]** <span class="preview">in der blauen Leiste am unteren Bildschirmrand</span>.
+1. <span class="preview">(Optional) Um eine [!DNL SharePoint]-Integration zu deaktivieren, aktivieren Sie das Kontrollkästchen daneben und klicken Sie dann **[!UICONTROL Deaktivieren]** in der blauen Leiste am unteren Bildschirmrand.</span>
 
 ## Informationen zu Sicherheit, Zugriff und Autorisierung für die [!DNL SharePoint] Integration
 

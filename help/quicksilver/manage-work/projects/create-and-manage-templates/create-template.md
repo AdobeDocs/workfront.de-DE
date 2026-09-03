@@ -23,7 +23,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
 source-wordcount: 790
 ht-degree: 9%
@@ -37,13 +37,9 @@ ht-degree: 9%
 <!--remove all instances of new/ old experience and redo the steps when the toggle is removed-->
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 Sie können Vorlagen im Bereich Vorlagen erstellen und löschen. Beim Erstellen einer neuen Vorlage können Sie die Informationen für alle Aufgaben und für Ihre zukünftigen Projekteinstellungen eingeben. Diese Informationen werden dann in alle Projekte übertragen, die Sie aus der Vorlage erstellen.
@@ -140,15 +136,15 @@ Old:
 
      Eine Vorlage wird erstellt. Ihr Standardname folgt den folgenden Mustern, je nachdem, welcher Speicher Workfront für Dokumente verwendet:
 
-      * **Unbenannte Vorlage** für eine Workfront-Speichervorlage.
+     * **Unbenannte Vorlage** für eine Workfront-Speichervorlage.
 
-        Bei einer Legacy-Workfront-Speichervorlage wird neben dem Namen das Symbol **Legacy** Workfront-Speicher![&#x200B; Legacy-](assets/legacy-storage-project-icon.png)-Projekt) angezeigt.
+       Bei einer Legacy-Workfront-Speichervorlage wird neben dem Namen das Symbol **Legacy** Workfront-Speicher![&#x200B; Legacy-](assets/legacy-storage-project-icon.png)-Projekt) angezeigt.
 
-      * **Nicht benannte Vorlage - &lt; Tag Monat, Jahr, Stunde.Minute.Sekunde >** für eine Adobe Cloud-Speichervorlage
+     * **Nicht benannte Vorlage - &lt; Tag Monat, Jahr, Stunde.Minute.Sekunde >** für eine Adobe Cloud-Speichervorlage
 
-        >[!IMPORTANT]
-        >
-        >Vorlagen, die den Adobe-Speicher verwenden, müssen eindeutige Namen haben.
+       >[!IMPORTANT]
+       >
+       >Vorlagen, die den Adobe-Speicher verwenden, müssen eindeutige Namen haben.
 
    ![Neue Vorlage](assets/create-template-nwe-2022-350x102.png)
 
