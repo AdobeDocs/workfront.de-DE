@@ -7,17 +7,13 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
 TQID: https://experienceleague.adobe.com/c8-TIFSw6jfjZq-S76dP7SSrf69EFAfjB-OPAJJdVOQ
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 5cc67b0f991a02759e42ec9b9369ae8359ecc40c
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 3c25e6bf7cfa1e2ac25a83096d83a8eb0ef4a148
 workflow-type: tm+mt
-source-wordcount: 2584
+source-wordcount: 2771
 ht-degree: 1%
 
 ---
@@ -62,7 +58,7 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
 
 #### Ausstehende Genehmigungen
 
-1. [Erstellen Sie ein &#x200B;](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
 1. Klicken Sie oben rechts auf der Detailseite des Dashboards auf **Bericht hinzufügen**.
 
 1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
@@ -82,7 +78,7 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
 
    1. Klicken Sie **Feld auswählen**.
 
-   1. Suchen Sie den Ordner **Dokumentengenehmigung** und wählen Sie ihn aus.
+   1. Suchen Sie den Ordner **Genehmigung** und wählen Sie ihn aus.
 
    1. Wählen Sie **Status** aus.
 
@@ -97,14 +93,22 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
    1. Klicken Sie **Bedingung hinzufügen**.
 
    1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Status** aus.
-   1. Belassen Sie den Operator **Gleich** und geben Sie dann _Überprüfung ausstehend_ in das Textfeld ein.
-      ![Beispiel für ausstehenden KPI-Filter](assets/pending-kpi-filter.png)
+   1. Belassen Sie den Operator **Gleich** und wählen Sie dann **Überprüfung ausstehend**.
+
+   1. Klicken Sie **Bedingung hinzufügen**.
+   1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Validierungstyp** aus.
+   1. Belassen Sie den Operator **Gleich** und wählen Sie dann **Dokumentversion**.
+
+   ![Beispiel für ausstehenden KPI-Filter](assets/pending-kpi-filter.png)
+
+
+
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
 
 
 #### Überfällige Genehmigungen
 
-1. [Erstellen Sie ein &#x200B;](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
 1. Klicken Sie oben rechts auf der Detailseite des Dashboards auf **Bericht hinzufügen**.
 
 1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
@@ -124,7 +128,7 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
 
    1. Klicken Sie **Feld auswählen**.
 
-   1. Suchen Sie den Ordner **Dokumentengenehmigung** und wählen Sie ihn aus.
+   1. Suchen Sie den Ordner **Genehmigung** und wählen Sie ihn aus.
 
    1. Wählen Sie **Status** aus.
 
@@ -147,15 +151,20 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
    1. Klicken Sie **Bedingung hinzufügen**.
    1. Klicken Sie auf den leeren Bedingungsfilter und dann auf **Feld auswählen**.
    1. Wählen Sie **Status** aus.
-   1. Ändern Sie den Operator in **Nicht enthält** und geben Sie dann _Genehmigt_ in das Textfeld ein.
+   1. Ändern Sie den Operator in **Nicht enthält** und wählen Sie dann **Genehmigt**.
       ![Überfälliger KPI-Filter - Beispiel 2](assets/overdue-kpi-filter-2.png)
+
+   1. Klicken Sie **Bedingung hinzufügen**.
+   1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Validierungstyp** aus.
+   1. Belassen Sie den Operator **Gleich** und wählen Sie dann **Dokumentversion**.
+
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
 
 
 #### Abgeschlossene Genehmigungen
 
 
-1. [Erstellen Sie ein &#x200B;](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
 1. Klicken Sie oben rechts auf der Detailseite des Dashboards auf **Bericht hinzufügen**.
 
 1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
@@ -175,7 +184,7 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
 
    1. Klicken Sie **Feld auswählen**.
 
-   1. Suchen Sie den Ordner **Dokumentengenehmigung** und wählen Sie ihn aus.
+   1. Suchen Sie den Ordner **Genehmigung** und wählen Sie ihn aus.
 
    1. Wählen Sie **Status** aus.
 
@@ -193,19 +202,24 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
 
    1. Wählen Sie **Status** aus.
 
-   1. Ändern Sie den Operator in **Enthält** und geben Sie _Genehmigt_ in das Textfeld ein.
+   1. Ändern Sie den Operator in **Enthält** und wählen Sie **Genehmigt**.
       ![Beispiel für abgeschlossenen KPI-Filter](assets/completed-kpi-filter.png)
    1. Klicken Sie **Bedingung hinzufügen**.
    1. Klicken Sie auf **Und**, um sie in **Oder** zu ändern.
    1. Klicken Sie auf den leeren Bedingungsfilter und dann auf **Feld auswählen**.
    1. Wählen Sie **Status** aus.
-   1. Ändern Sie den Operator in **Gleich** und geben Sie _Überprüft_ in das Textfeld ein.
+   1. Ändern Sie den Operator in **Gleich** und wählen Sie dann **Überprüft**.
       ![Beispiel für abgeschlossenen KPI-Filter](assets/completed-kpi-filter-2.png)
+
+   1. Klicken Sie **Bedingung hinzufügen**.
+   1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Validierungstyp** aus.
+   1. Belassen Sie den Operator **Gleich** und wählen Sie dann **Dokumentversion**.
+
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
 
 #### Abgebrochene Genehmigungen
 
-1. [Erstellen Sie ein &#x200B;](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
 1. Klicken Sie oben rechts auf der Detailseite des Dashboards auf **Bericht hinzufügen**.
 
 1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
@@ -225,7 +239,7 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
 
    1. Klicken Sie **Feld auswählen**.
 
-   1. Suchen Sie den Ordner **Dokumentzulassungsphase** und wählen Sie ihn aus.
+   1. Suchen Sie den Ordner **Genehmigungsphase** und wählen Sie ihn aus.
 
    1. Wählen Sie **Frist** aus.
 
@@ -243,7 +257,7 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
 
    1. Wählen Sie **Status** aus.
 
-   1. Ändern Sie den Operator in **Nicht enthält** und geben Sie _Genehmigt_ in das Textfeld ein.
+   1. Ändern Sie den Operator in **Nicht enthält** und wählen Sie **Genehmigt**.
       ![Beispiel für abgebrochenen KPI-Filter](assets/abandoned-kpi-filter.png)
    1. Klicken Sie **Bedingung hinzufügen**.
    1. Klicken Sie auf den leeren Bedingungsfilter und dann auf **Feld auswählen**.
@@ -251,6 +265,11 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
    1. Ändern Sie den Operator in **kleiner als** und schalten Sie dann **Relatives Datum festlegen** auf **EIN**.
    1. Geben Sie _$$TODAY-2w_ in das Textfeld ein.
       ![Beispiel für abgebrochenen KPI-Filter](assets/abandoned-kpi-filter-2.png)
+
+   1. Klicken Sie **Bedingung hinzufügen**.
+   1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** wählen Sie dann die **Genehmigungsbeziehung** und dann **Genehmigungstyp** aus.
+   1. Belassen Sie den Operator **Gleich** und wählen Sie dann **Dokumentversion**.
+
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
 
 ### Diagramme
@@ -259,7 +278,7 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
 
 #### Validierungen nach Entscheidungsbalkendiagramm
 
-1. [Erstellen Sie ein &#x200B;](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
 1. Klicken Sie oben rechts auf der Detailseite des Dashboards auf **Bericht hinzufügen**.
 
 1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
@@ -278,7 +297,7 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
 
    1. Lassen Sie **Dropdown-Menü** Diagrammtyp“ **Balken** ausgewählt.
    1. Lassen Sie **Dropdown-Menü** Balkentyp“ **Einfach** ausgewählt.
-   1. Klicken Sie auf **Feld aktualisieren** für die Achse **Unten (X)** und wählen Sie dann **Dokumentengenehmigung** > **Status**.
+   1. Klicken Sie **Feld aktualisieren** für die Achse **Unten (X))** wählen Sie dann **Genehmigung** > **Status**.
    1. Legen Sie den **Aggregationstyp** auf &quot;**&quot;**.
    1. Klicken Sie auf **Feld aktualisieren** für die **linke (Y) Achse** und wählen Sie dann **Status**.
 1. Gehen Sie wie folgt vor, um den Abschnitt **Filter** zu konfigurieren:
@@ -288,12 +307,17 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
    1. Wählen Sie **Dokumentversion** > **Version** aus.
    1. Ändern Sie den Operator in **Ist nicht null**.
       ![Filterbeispiel](assets/approvals-by-decision-chart-filter.png)
+
+   1. Klicken Sie **Bedingung hinzufügen**.
+   1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Validierungstyp** aus.
+   1. Belassen Sie den Operator **Gleich** und wählen Sie dann **Dokumentversion**.
+
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
 
 
 #### Überarbeitungen Balkendiagramm
 
-1. [Erstellen Sie ein &#x200B;](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
 1. Klicken Sie oben rechts auf der Detailseite des Dashboards auf **Bericht hinzufügen**.
 
 1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
@@ -313,9 +337,9 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
 
    1. Lassen Sie **Dropdown-Menü** Diagrammtyp“ **Balken** ausgewählt.
    1. Lassen Sie **Dropdown-Menü** Balkentyp“ **Einfach** ausgewählt.
-   1. Klicken Sie **Feld aktualisieren** für die Achse **Unten (X)** und wählen Sie dann **Dokumentgenehmigung** > **Dokumentversion** > **Version**.
+   1. Klicken Sie auf **Feld aktualisieren** für die Achse **Unten (X)** und wählen Sie dann **Genehmigung** > **Dokumentversion** > **Version**.
    1. Legen Sie den **Aggregationstyp** auf &quot;**&quot;**.
-   1. Klicken Sie auf **Feld aktualisieren** für die Achse **links (Y)** und wählen Sie dann **Dokumentgenehmigung** > **Dokumentversion** > **Dokument** > **Name**.
+   1. Klicken Sie **Feld aktualisieren** für die Achse **links (Y))** wählen Sie dann **Genehmigung** > **Dokumentversion** > **Dokument** > **Name**.
 
 1. Gehen Sie wie folgt vor, um den Abschnitt **Filter** zu konfigurieren:
    1. Klicken Sie im linken Bedienfeld auf das Symbol **Filter** ![Registerkarte &quot;](assets/filter-tab.png)&quot;.
@@ -332,6 +356,11 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-](/help/quicksilver/
    1. Ändern Sie den Operator in **Kleiner oder gleich** und schalten Sie **Relatives Datum festlegen** auf **EIN**.
    1. Geben Sie _$$TODAYem_ in das Textfeld ein.
       ![Beispiel für Revisionsdiagrammfilter](assets/revision-chart-filter-2.png)
+
+   1. Klicken Sie **Bedingung hinzufügen**.
+   1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Validierungstyp** aus.
+   1. Belassen Sie den Operator **Gleich** und wählen Sie dann **Dokumentversion**.
+
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
 
 ## Hinzufügen detaillierter Prüf- und Genehmigungsinformationen mit Tabellen
@@ -342,7 +371,7 @@ Weitere Informationen zum Erstellen eines Tabellenberichts finden Sie unter [Ers
 
 ### Liste der ausstehenden Genehmigungen
 
-1. [Erstellen Sie ein &#x200B;](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
 1. Klicken Sie oben rechts auf der Detailseite des Dashboards auf **Bericht hinzufügen**.
 
 1. Wählen Sie im **Bericht hinzufügen** die Option **Bericht erstellen** aus.
@@ -360,7 +389,7 @@ Weitere Informationen zum Erstellen eines Tabellenberichts finden Sie unter [Ers
 
    1. Klicken Sie im linken Bereich auf das Symbol **Tabellenspalten** ![Tabellenspalten](assets/drilldown-column.png) .
    1. Klicken Sie **Spalte hinzufügen**.
-   1. Scrollen Sie nach unten und wählen Sie **Dokumentengenehmigung** > **Status** aus.
+   1. Scrollen Sie nach unten und wählen Sie **Genehmigung** > **Status** aus.
    1. Die folgenden Spalten hinzufügen:
 
    <table>
@@ -378,19 +407,19 @@ Weitere Informationen zum Erstellen eines Tabellenberichts finden Sie unter [Ers
     </tr>
     <tr>
     <td><strong>Frist</strong></td>
-    <td>Dokumentengenehmigung &gt; Genehmigungsphasen &gt; Frist</td>
+    <td>Genehmigung &gt; Genehmigungsphasen &gt; Frist</td>
     </tr>
     <tr>
     <td><strong>Anfrage von</strong></td>
-    <td>Dokumentgenehmigung &gt; Genehmigungsphasen &gt; Teilnehmer an Genehmigungsphase* &gt; Anforderer &gt; Typ <em>Name</em> im Suchfeld.</td>
+    <td>Genehmigung &gt; Genehmigungsphasen &gt; Teilnehmer an Genehmigungsphase* &gt; Anforderer &gt; Typ <em>Name</em> im Suchfeld.</td>
     </tr>
     <tr>
     <td><strong>Angefordertes Datum</strong></td>
-    <td>Dokumentengenehmigung &gt; Genehmigungsphasen &gt; Genehmigungsphase &gt; Teilnehmer an der Genehmigungsphase* &gt; Erstellt in</td>
+    <td>Genehmigung &gt; Genehmigungsphasen &gt; Teilnehmer der Genehmigungsphase* &gt; Erstellt in</td>
     </tr>
     <tr>
     <td><strong>Genehmigende Person</strong></td>
-    <td>Dokumentgenehmigung &gt; Genehmigungsphasen &gt; Genehmigungsphase Teilnehmer* &gt; Teilnehmer &gt; Typ <em>Name</em> im Suchfeld.</td>
+    <td>Genehmigung &gt; Genehmigungsphasen &gt; Teilnehmer an Genehmigungsphase* &gt; Teilnehmer &gt; <em> &gt; Name</em> in das Suchfeld.</td>
     </tr>
     </table>
 
@@ -403,8 +432,14 @@ Weitere Informationen zum Erstellen eines Tabellenberichts finden Sie unter [Ers
    1. Klicken Sie **Filter bearbeiten** und dann **Bedingung hinzufügen**.
    1. Klicken Sie auf den leeren Bedingungsfilter und dann auf **Feld auswählen**.
    1. Wählen Sie **Status** aus.
-   1. Ändern Sie den Operator in **Gleich** und geben Sie dann _Ausstehende_) in das Textfeld ein.
+   1. Ändern Sie den Operator in **Gleich** und wählen Sie dann **Ausstehende Genehmigung**.
       ![Filterbeispiel für Tabelle mit ausstehender Genehmigung](assets/pending-approval-table-filter.png)
+
+
+   1. Klicken Sie **Bedingung hinzufügen**.
+   1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Validierungstyp** aus.
+   1. Belassen Sie den Operator **Gleich** und wählen Sie dann **Dokumentversion**.
+
    1. (Optional) Fügen Sie zusätzliche Filter hinzu, wie im Abschnitt **Optionale Filter** unten beschrieben.
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
 
@@ -437,7 +472,7 @@ Um spezifischere Informationen je nach Anwendungsfall anzuzeigen, können Sie zu
 
 ### Liste der überfälligen Genehmigungen
 
-1. [Erstellen Sie ein &#x200B;](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
 
 1. Klicken Sie oben rechts auf der Detailseite des Dashboards auf **Bericht hinzufügen**.
 
@@ -456,7 +491,7 @@ Um spezifischere Informationen je nach Anwendungsfall anzuzeigen, können Sie zu
 
    1. Klicken Sie im linken Bereich auf das Symbol **Tabellenspalten** ![Tabellenspalten](assets/drilldown-column.png) .
    1. Klicken Sie **Spalte hinzufügen**.
-   1. Scrollen Sie nach unten und wählen Sie **Dokumentgenehmigungen** > **Status** aus.
+   1. Scrollen Sie nach unten und wählen Sie **Genehmigungen** > **Status** aus.
    1. Die folgenden Spalten hinzufügen:
 
       <table>
@@ -474,19 +509,19 @@ Um spezifischere Informationen je nach Anwendungsfall anzuzeigen, können Sie zu
         </tr>
         <tr>
         <td><strong>Frist</strong></td>
-        <td>Dokument &gt; Genehmigungsphasen &gt; Frist</td>
+        <td>Genehmigung &gt; Genehmigungsphasen &gt; Frist</td>
         </tr>
         <tr>
         <td><strong>Anfrage von</strong></td>
-        <td>Dokument &gt; Genehmigungsphasen &gt; Teilnehmer an Genehmigungsphase* &gt; Anforderer &gt; Typ <em>Name</em> im Suchfeld.</td>
+        <td>Genehmigung &gt; Genehmigungsphasen &gt; Teilnehmer an Genehmigungsphase* &gt; Anforderer &gt; Typ <em>Name</em> im Suchfeld.</td>
         </tr>
         <tr>
         <td><strong>Angefordertes Datum</strong></td>
-        <td>Dokument &gt; Genehmigungsphasen &gt; Teilnehmer der Genehmigungsphase* &gt; Erstellt in</td>
+        <td>Genehmigung &gt; Genehmigungsphasen &gt; Teilnehmer der Genehmigungsphase* &gt; Erstellt in</td>
         </tr>
         <tr>
         <td><strong>Genehmigende Person</strong></td>
-        <td>Dokument &gt; Genehmigungsphasen &gt; Teilnehmer an Genehmigungsphase* &gt; Teilnehmer &gt; <em> &gt; Name</em> in das Suchfeld.</td>
+        <td>Genehmigung &gt; Genehmigungsphasen &gt; Teilnehmer an Genehmigungsphase* &gt; Teilnehmer &gt; <em> &gt; Name</em> in das Suchfeld.</td>
         </tr>
         </table>
 
@@ -536,5 +571,10 @@ Um spezifischere Informationen je nach Anwendungsfall anzuzeigen, können Sie zu
    1. Wählen Sie **Suchfeld** Genehmigungsphase **> Genehmigungsphase Teilnehmer** > **Teilnehmer-Team** > Typ _Name_ aus.
    1. Ändern Sie den Operator in **Gleich** und wählen Sie dann **Meine Standard-Teams (angemeldeter Benutzer)** oder **Meine anderen Teams (angemeldeter Benutzer)**, um Projekte anzuzeigen, die Ihrem Standard-Team oder anderen Teams, denen Sie angehören, zugewiesen sind.
       ![Filterbeispiel für Tabelle mit ausstehender Genehmigung](assets/approvals-ive-submitted-filter.png)
+
+   1. Klicken Sie **Bedingung hinzufügen**.
+   1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann die Genehmigungsbeziehung und den Validierungstyp aus.
+   1. Belassen Sie den Operator **Gleich** und wählen Sie dann Dokumentversion.
+
 1. Klicken **oben** auf dem Bildschirm auf „Speichern“.
 +++
