@@ -9,22 +9,20 @@ feature: Workfront API
 role: Developer
 exl-id: 9a4f8dbe-967f-4a41-a42c-8e3acb604972
 TQID: https://experienceleague.adobe.com/gt9fGu286M-fya5XVuYfTMzJ0dHJT5J7f0uvctqbL0A
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 94f14afac621d7a0e41daceeb8eb7a5d2682f911
 workflow-type: tm+mt
-source-wordcount: 346
-ht-degree: 13%
+source-wordcount: 409
+ht-degree: 8%
 
 ---
 
 # Registrieren einer Webhook-Integration
+
+{{highlighted-preview}}
 
 Adobe Workfront-Administratoren können eine benutzerdefinierte Webhook-Integration für ihr Unternehmen hinzufügen, indem sie in Workfront zu Einrichtung > Dokumente > Benutzerdefinierte Integrationen navigieren. Auf der Seite „Benutzerdefinierte Integration“ im Setup können Admins eine Liste der vorhandenen Dokument-Webhook-Integrationen anzeigen. Auf dieser Seite können Integrationen hinzugefügt, bearbeitet, aktiviert und deaktiviert werden.
 
@@ -56,7 +54,7 @@ Beim Hinzufügen einer Integration gibt der Administrator Werte für die folgend
   </tr> 
   <tr> 
    <td>Anfrageparameter</td> 
-   <td> <p>Optionale Werte, die an die Abfragezeichenfolge eines jeden API-Aufrufs anzuhängen sind. Beispiel: access_type=offline. </p> </td> 
+   <td> <p>Optionale Werte, die an die Abfragezeichenfolge jedes API-Aufrufs anzuhängen sind. Beispiel: access_type=offline. </p> </td> 
   </tr> 
   <tr> 
    <td>Authentifizierungstyp</td> 
@@ -85,6 +83,14 @@ Beim Hinzufügen einer Integration gibt der Administrator Werte für die folgend
   <tr> 
    <td>ApiKey</td> 
    <td> <p>(Nur API-Schlüssel) Wird verwendet, um autorisierte API-Aufrufe an den Webhook-Anbieter durchzuführen. Der vom Webhook-Anbieter ausgegebene API-Schlüssel.</p> </td> 
+  </tr> 
+  <tr class="preview"> 
+   <td>Chunked-Upload für große Dateien aktivieren</td> 
+   <td> <p>Aktivieren Sie dieses Kontrollkästchen, um mehrteilige (gebündelte) Uploads für Dateien mit mehr als 25 MB zu aktivieren. Wenn diese Option nicht ausgewählt ist, werden die Dateien unabhängig von ihrer Größe in einer einzigen Anfrage hochgeladen.</p> </td> 
+  </tr> 
+  <tr class="preview"> 
+   <td>Schwellenwert für den Upload in Blöcken (MB)</td> 
+   <td> <p>Die maximale Größe in MB jedes Blocks, wenn eine große Datei zum Hochladen aufgeteilt wird. Akzeptiert Werte bis zu 100 MB.</p> </td> 
   </tr> 
  </tbody> 
 </table>

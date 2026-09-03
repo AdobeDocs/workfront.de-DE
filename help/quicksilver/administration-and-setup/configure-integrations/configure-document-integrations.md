@@ -9,26 +9,21 @@ feature: System Setup and Administration, Workfront Integrations and Apps, Digit
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
 TQID: https://experienceleague.adobe.com/RUHFPYpCgZq0qAMGB8-Na2olK7uHVtViIcygLUiTkSo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: c4a58f26-aa43-4761-aafe-56f1e034d7d5
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: c4a58f26-aa43-4761-aafe-56f1e034d7d5
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 94f14afac621d7a0e41daceeb8eb7a5d2682f911
 workflow-type: tm+mt
-source-wordcount: 1111
+source-wordcount: 1184
 ht-degree: 6%
 
 ---
 
 # Dokumentintegrationen konfigurieren
+
+{{highlighted-preview}}
 
 <!-- Audited: 12/2023 -->
 
@@ -58,7 +53,7 @@ Als [!DNL Adobe Workfront] können Sie Dokumentintegrationen konfigurieren, um D
    <td>Adobe Workfront-Lizenzen
    </td>
    <td>Standard
-   <p>Plan</p>
+   <p>Abo</p>
    </td>
   </tr>
    <tr>
@@ -97,14 +92,14 @@ Sie können die folgenden Integrationen zum Verwalten von Dokumenten konfigurier
 
 * Drittanbieter von Cloud-Dokumenten:
 
-   * [!DNL Box]
-   * [!DNL Dropbox]
-   * [!DNL Dropbox Business]
-   * [!DNL WebDAM]
-   * [!DNL Microsoft OneDrive]
-   * [!DNL Microsoft SharePoint]
-   * [!UICONTROL Google-Laufwerk]
-   * Quip
+  * [!DNL Box]
+  * [!DNL Dropbox]
+  * [!DNL Dropbox Business]
+  * [!DNL WebDAM]
+  * [!DNL Microsoft OneDrive]
+  * [!DNL Microsoft SharePoint]
+  * [!UICONTROL Google-Laufwerk]
+  * Quip
 
   >[!TIP]
   >
@@ -200,11 +195,13 @@ Nachdem die benutzerdefinierte Dokumentenintegration erstellt wurde, können Sie
 
    >[!TIP]
    >
-   >Der [!DNL Workfront] Umleitungs-URI, der unten auf der Seite &quot;[!UICONTROL &#x200B; Integration“ angezeigt wird] listet den URI auf, mit dem diese Integration beim externen Dokumentanbieter registriert wurde.
+   >Der [!DNL Workfront] Umleitungs-URI, der unten auf der Seite &quot;[!UICONTROL  Integration“ angezeigt wird] listet den URI auf, mit dem diese Integration beim externen Dokumentanbieter registriert wurde.
 
 1. (Bedingt) Wenn Sie **[!UICONTROL ApiKey]**-Authentifizierung für den **[!UICONTROL Authentifizierungstyp]** ausgewählt haben, geben Sie den API-Schlüssel ein, der vom benutzerdefinierten Dokumentanbieter ausgestellt wurde.
 
    [!DNL Workfront] verwendet diesen API-Schlüssel für autorisierte API-Aufrufe an den Dokumentanbieter.
+
+1. <span class="preview">(Optional) Um die Unterstützung für große Dateien zu aktivieren, wählen **[!UICONTROL Chunked Upload für große Dateien aktivieren]** im Abschnitt **[!UICONTROL Unterstützung für große Dateien]** und geben Sie dann die maximale Chunk-Größe in MB in das Feld **[!UICONTROL Chunked Upload Threshold (MB)]**. Dieses Feld akzeptiert Werte bis zu 100 MB. Wenn diese Option aktiviert ist, werden Dateien mit mehr als 25 MB in Blöcken dieser Größe hochgeladen anstatt in einer einzigen Anfrage.</span>
 
 1. Klicken Sie **[!UICONTROL Speichern]**, um die Integration zu erstellen.
 
@@ -266,9 +263,9 @@ So konfigurieren Sie [!DNL Workfront] zum Senden von Metadaten an [!DNL Workfron
 ### Google Drive-Integration
 
 * Wenn ein verknüpfter Ordner zu Workfront hinzugefügt wird, werden die Dateien im Ordner nicht mehr automatisch hinzugefügt.
-   * Sie können den Google-Ordner ohne die Dateien zu Workfront hinzufügen und dann die einzelnen Dateien zu Workfront hinzufügen. Die Dateien werden automatisch zum Google-Ordner in Workfront hinzugefügt.
-oder
-   * Sie können einen Dokumentordner in Workfront erstellen, dann alle Dateien im Google-Ordner auswählen und sie zum Workfront-Ordner hinzufügen.
+  * Sie können den Google-Ordner ohne die Dateien zu Workfront hinzufügen und dann die einzelnen Dateien zu Workfront hinzufügen. Die Dateien werden automatisch zum Google-Ordner in Workfront hinzugefügt.
+    ODER
+  * Sie können einen Dokumentordner in Workfront erstellen, dann alle Dateien im Google-Ordner auswählen und sie zum Workfront-Ordner hinzufügen.
 
 
 * Die Google Drive-Dokumentintegration unterstützt das Hinzufügen von Dateien aus dem Bereich Mein Laufwerk Ihres Google-Laufwerks. Sie können keine Ordner oder Bilder von einem freigegebenen Laufwerk hinzufügen. Weitere Informationen zu [Google Shared Drives](https://support.google.com/a/users/answer/7212025?hl=en).
