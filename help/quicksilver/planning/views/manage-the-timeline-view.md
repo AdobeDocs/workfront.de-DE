@@ -9,24 +9,21 @@ exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/LLfVzbK4pCfwB24Hbf9hx0m-xKMVwuDGBP1l-Kxy6Oo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 85c9f757134bc84e4b5038e4001f9a9fe1430f2a
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 4518
-ht-degree: 3%
+source-wordcount: 4584
+ht-degree: 2%
 
 ---
 
 # Verwalten der Timeline-Ansicht
+
+<!--remove Production and Preview references at release-->
 
 <span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
 
@@ -233,19 +230,13 @@ So verwalten Sie eine Zeitleisten -Ansicht:
 
      >[!TIP]
      >
-     >In der Zeitleisten -Ansicht werden nur Geschäftswochen entsprechend den klassischen Quartalen angezeigt. Wenn der Workfront-Administrator benutzerdefinierte Quartale im Bereich „Setup“ aktiviert, werden die Wocheninformationen nicht in der Zeitleistenansicht angezeigt.
+     >Je nachdem, welche Umgebung Sie für den Zugriff auf die Zeitleisten -Ansicht verwenden, sind die folgenden Szenarien vorhanden:
+     >
+     >* In der Produktionsumgebung zeigt die Zeitleisten -Ansicht nur benutzerdefinierte Wochen entsprechend den klassischen Quartalen an. Wenn der Workfront-Administrator benutzerdefinierte Quartale im Bereich „Setup“ aktiviert, werden die Wocheninformationen nicht in der Zeitleistenansicht angezeigt.
+     >
+     >* <span class="preview">In der Vorschau -Umgebung zeigt die Zeitleisten -Ansicht standardmäßig benutzerdefinierte Wochen entsprechend den klassischen Quartalen an. Wenn Ihr Workfront-Administrator benutzerdefinierte Quartale und Wochen im Bereich „Setup“ aktiviert, zeigt die Zeitleisten-Ansicht die benutzerdefinierten Quartale und Wochen im Quartal und Monat an. </span>
+     >
 
-     <!--
-        When we release custom weeks, replace the tip above with this:
-        >[!TIP]
-        >
-        >Depending on which environment you are using to access the timeline view, the following scenarios exist:
-        >
-        >* In the Production environment, the timeline view only displays fiscal weeks according to classic quarters. If your Workfront administrator turns on Custom Quarters in the Setup area, the week information does not display in the timeline view.
-        >
-        >* <span class="preview">In the Preview environment, the timeline view displays fiscal weeks according to classic quarters, by default. If your Workfront administrator turns on Custom Quarters and Custom weeks in the Setup area, the timeline view displays the custom quarters and weeks in the Quarter and Month displays. </span>
-        >
-        -->
 
 1. (Optional) Klicken Sie **Zur Kompaktansicht wechseln**, um die Datensätze anzuzeigen, deren Daten sich nicht in derselben Zeile schneiden. <!--check to see if they updated the name of the setting here-->
 1. (Bedingt) Wenn Sie den Modus auf **Kompakt** geändert haben, klicken Sie auf **Zur Standardansicht wechseln**, um Datensätze in separaten Zeilen anzuzeigen. Die **Standard**-Option ist die Standardeinstellung.  <!--check to see if they updated the name of the setting here-->
@@ -499,7 +490,7 @@ So fügen Sie eine Gruppierung in der Zeitleisten -Ansicht hinzu:
    >[!TIP]
    >
    >Wenn Sie Datensätze von einer Gruppierung in eine andere ziehen, aktualisieren die in der Gruppierung ausgewählten Felder automatisch die Werte der verschobenen Datensätze.
-1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [&#x200B; Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
+1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [ Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
 
 <!-- 
 
@@ -652,7 +643,7 @@ Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quic
 #### Aufschlüsseln verbundener Datensätze
 
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie in den **&#x200B;**- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
+1. Klicken Sie in den ****- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
 1. Erweitern Sie das **Verknüpften Datensatztyp auswählen** und wählen Sie einen verbundenen Datensatztyp aus. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![Aufschlüsselungsauswahl und Schaltfläche in der Zeitleisten-Ansicht](assets/breakdown-picker-and-button-on-timeline.png)

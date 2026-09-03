@@ -9,16 +9,12 @@ exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/K9tDDGCuZRkOa3FjqgdojUv6njW4-AzVRsh4a0mG6ww
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 757cbfd2ae74da7a649bee4d93da862d986ee5a2
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 1855
+source-wordcount: 1955
 ht-degree: 4%
 
 ---
@@ -41,11 +37,11 @@ recommendations: noDisplay, noCatalog
 
 # Verwalten des GenStudio-Arbeitsbereichs in Adobe Workfront-Planung
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 Der Adobe GenStudio for Performance Marketing-Arbeitsbereich ist in Adobe Workfront Planning verfügbar, wenn Ihr Unternehmen beide Produkte gekauft hat und Ihre Workfront-Instanz in die GenStudio-Instanz Ihres Unternehmens integriert ist.
 
@@ -171,7 +167,7 @@ Old, before Planning STA:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations </li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -227,7 +223,7 @@ Old:
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
    <li>GenSudio System Manager to access Activations ****** and Events*********</li></ul>
-   For information, see <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+   For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
    </p>
   </td> 
   </tr>   
@@ -368,25 +364,23 @@ Die Hauptseite von Workfront-Planung wird geöffnet.
    * **Bearbeiten**
 
      Weitere Informationen finden Sie [Datensatztypen bearbeiten](/help/quicksilver/planning/architecture/edit-record-types.md).
-   * **Automatisierungen verwalten**
+   * **Automatisierungen verwalten** oder <span preview="preview">**Automatisierungen**</span>
 
      Weitere Informationen finden Sie unter [Konfigurieren von Adobe Workfront Planning Automations](/help/quicksilver/planning/records/configure-automations-to-create-records.md).
-   * **Anfrageformulare verwalten**
+   * **Anfrageformulare verwalten** oder <span class="preview">**Anfrageformulare**</span>
 
      Sie können mehrere Anfrageformulare erstellen. Die Anfrageformulare sind im Bereich Anfragen von Workfront verfügbar und Sie können sie auch öffentlich oder über einen Link freigeben.
 
      Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-   <!--
    <div class="preview">
 
-   * Business rules
+   * **Geschäftsregeln**
 
-      You can configure record type business rules to define what conditions must be met before users are allowed to edit or delete records of that type. 
+     Sie können Geschäftsregeln für den Datensatztyp konfigurieren, um festzulegen, welche Bedingungen erfüllt sein müssen, damit Benutzer Datensätze dieses Typs bearbeiten oder löschen können.
 
-      For information, see [Configure record type business rules](/help/quicksilver/planning/architecture/configure-business-rules.md).
+     Weitere Informationen finden Sie [Konfigurieren von Geschäftsregeln für Datensatztypen](/help/quicksilver/planning/architecture/configure-business-rules.md).
    </div>
-   -->
 
 1. Gehen Sie wie folgt vor, um eine Ansicht oder den Datensatztyp freizugeben:
 

@@ -3,7 +3,7 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: cf7c7dd6276940be9cd49b7c255ab71656740f1f
+source-git-commit: 722c7a8b78495fb70c57a1e94eb2f49b357060b3
 workflow-type: tm+mt
 source-wordcount: '14480'
 ht-degree: 92%
@@ -2214,7 +2214,7 @@ ht-degree: 92%
     * [Erstellen von Eintragstypen durch Importieren von Informationen aus einer CSV- oder Excel-Datei](planning/architecture/import-file-to-create-record-types.md)
     * [Überblick über arbeitsbereichsübergreifende Eintragstypen](planning/architecture/cross-workspace-record-types-overview.md)
     * [Konfigurieren von arbeitsbereichsübergreifenden Funktionen für Eintragstypen](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
-    * {hide-from-toc}[Geschäftsregeln für Datensatztypen konfigurieren](planning/architecture/configure-business-rules.md)
+    * [Konfigurieren von Geschäftsregeln für Datensatztypen](planning/architecture/configure-business-rules.md)
     * [Konfigurieren des Bereichs „Einstellungen“ eines Eintragstyps](planning/architecture/configure-record-type-settings.md)
     * [Hinzufügen vorhandener Eintragstypen aus einem anderen Arbeitsbereich](planning/architecture/add-existing-record-types-from-another-workspace.md)
     * [Überblick über das Verbinden von Eintragstypen](planning/architecture/connect-record-types-overview.md)

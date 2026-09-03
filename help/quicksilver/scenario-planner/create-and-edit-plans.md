@@ -9,25 +9,24 @@ exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/i0-G-8KxjFmKp0R4oFPsELMmD6cS06HFKRROeosApYM
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
 workflow-type: tm+mt
-source-wordcount: 2407
+source-wordcount: 2467
 ht-degree: 1%
 
 ---
 
 # Erstellen und Bearbeiten von Plänen in der [!DNL Scenario Planner]
+
+<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 Sie können Pläne im Rahmen der Verwendung der [!DNL Workfront Scenario Planner] erstellen, wenn Sie die übergeordnete Strategie Ihres Unternehmens priorisieren. Weitere Informationen zu Plänen finden Sie unter [Pläne - Übersicht im [!DNL Scenario Planner]](../scenario-planner/plans-overview.md).
 
@@ -136,7 +135,7 @@ So erstellen oder bearbeiten Sie einen Plan:
 
 Eine Liste der vorhandenen Pläne, die Sie erstellt haben, wird im [!DNL Workfront Scenario Planner] angezeigt.
 
-1. (Optional) Klicken Sie auf **[!UICONTROL Filter]**-Symbol ![Filtersymbol](assets/filter-icon-34x37.png) in der oberen rechten Ecke der Liste „Plan“ und wählen Sie eine der folgenden Optionen aus:
+1. (Optional) Klicken Sie auf **[!UICONTROL Filter]**-Symbol ![Filtersymbol](assets/filter-icon-34x37.png) oder <span class="preview">oder auf das **Tabelle**-Symbol ![Tabellensymbol](assets/table-icon.png)</span> oben in der Liste und wählen Sie aus den folgenden Optionen aus:
 
    | Filter | Beschreibung |
    |---|---|
@@ -148,23 +147,13 @@ Eine Liste der vorhandenen Pläne, die Sie erstellt haben, wird im [!DNL Workfro
 
 1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Suche]** ![Suchsymbol](assets/search-icon.png), um ein Keyword einzugeben und schnell einen Plan in der Liste zu finden.
 
-1. Klicken Sie auf den Namen eines vorhandenen Plans, um ihn zu bearbeiten, und fahren Sie mit Schritt 7 fort.
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate) </p>
-   -->
+1. Klicken Sie auf den Namen eines vorhandenen Plans, um ihn zu bearbeiten, und fahren Sie mit Schritt 7 fort.<!--is the step still accurate)-->
 
    ODER
 
-   Klicken Sie **[!UICONTROL oben]** auf „Neuer Plan“, um einen Plan zu erstellen und mit Schritt 5 fortzufahren.
+   Klicken Sie **[!UICONTROL Neuer Plan]** in der oberen linken Ecke, um einen Plan zu erstellen und mit Schritt 5 fortzufahren. <!--is the step still accurate-->
 
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate)</p>
-   -->
-
-   ![Schaltfläche „Neuer Plan“](assets/new-plan-button.png)
-
-   Das Feld [!UICONTROL Neuer Plan] wird angezeigt.
+   Das Feld [!UICONTROL **Neuer Plan**] wird angezeigt.
 
    ![Neues Planfeld](assets/new-plan-ui-adding-a-new-plan-350x306.png)
 
@@ -209,7 +198,7 @@ Eine Liste der vorhandenen Pläne, die Sie erstellt haben, wird im [!DNL Workfro
     </tbody> 
    </table>
 
-<!--for table above - how FTE is calcualted: NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>-->
+   <!--for table above - how FTE is calcualted: NOTE: snippet below: this is per Ani; it does NOT look at the system FTE.) </p>-->
 
 1. (Bedingt) Klicken Sie auf **[!UICONTROL Weiter]**.
 
@@ -339,7 +328,7 @@ Eine Liste der vorhandenen Pläne, die Sie erstellt haben, wird im [!DNL Workfro
        </div> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL -Auslastung] %</td> 
+      <td role="rowheader">[!UICONTROL-Auslastung] %</td> 
       <td> 
        <div> 
         <p>Der Prozentsatz der Nutzung zeigt an, wie viele der verfügbaren Aufgabengebiete tatsächlich für die Initiativen im Szenario verwendet (oder erforderlich) werden. </p> 

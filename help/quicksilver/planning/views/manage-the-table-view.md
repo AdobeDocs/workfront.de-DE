@@ -9,25 +9,21 @@ exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/oajBrzqCNgufbSJPP0Wx8aI14d8VM7IFr-Hn1ed7Wks
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 4047
+source-wordcount: 4041
 ht-degree: 2%
 
 ---
 
 # Verwalten der Tabellenansicht
 
+<!-- remove Production and Preview references at release-->
 
 <span class="preview">Die auf dieser Seite hervorgehobenen Informationen beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
 
@@ -190,7 +186,7 @@ Folgendes wird standardmäßig in einer Tabellenansicht angezeigt:
 <!--
 <div class="preview">
 
-* 500 records upload automaticall. Additional records display as you scroll the view. 
+* 500 records upload automatically. Additional records display as you scroll the view. 
 
 </div>
 -->
@@ -245,6 +241,8 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
 
    * Klicken Sie **der Symbolleiste der** auf „Felder“, ziehen Sie die Felder per Drag-and-Drop in die gewünschte Reihenfolge und klicken Sie dann außerhalb des Felds **Sichtbarkeit und Reihenfolge**, um es zu schließen.
 
+     <!--update the screen shot without Thumbnail at Production release-->
+
      ![Symbolleiste für die Tabellenansicht der Feldeinstellungen erweitert](assets/fields-setting-table-view-toolbar-expanded.png)
 
      >[!TIP]
@@ -295,7 +293,7 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
 
 1. Gehen Sie folgendermaßen vor, um schnell Datensätze zu finden, die einem Keyword entsprechen:
 
-   1. Beginnen Sie im **&#x200B;**&#x200B;Suchfeld![Suchsymbol](assets/search-icon.png) mit der Eingabe eines Keywords, das mit einem beliebigen Feld eines Datensatzes verknüpft ist, der auf dem Bildschirm angezeigt wird. Die Anzahl der richtigen Übereinstimmungen wird neben dem Suchelement angezeigt, und das Feld mit der richtigen Übereinstimmung ist hervorgehoben.
+   1. Beginnen Sie im **** Suchfeld![Suchsymbol](assets/search-icon.png) mit der Eingabe eines Keywords, das mit einem beliebigen Feld eines Datensatzes verknüpft ist, der auf dem Bildschirm angezeigt wird. Die Anzahl der richtigen Übereinstimmungen wird neben dem Suchelement angezeigt, und das Feld mit der richtigen Übereinstimmung ist hervorgehoben.
 
       ![Suchfeld mit Ergebnissen mit blauer Kontur in der Tabellenansicht](assets/search-box-with-results-blue-outline-g-table.png)
 
@@ -360,26 +358,31 @@ Sie können bis zu 50.000 Datensätze (oder Zeilen) für einen Datensatztyp habe
    ><span class="preview">In der Drag-and-Drop-Zeile zeigt ein Zahlenindikator die Anzahl der ausgewählten Datensätze an, wenn mehrere Datensätze vorhanden sind. </span>
 
 1. (Optional) Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Datensatz und dann auf **Miniaturansicht bearbeiten**, um die Miniaturansicht zu bearbeiten.
-1. Klicken Sie **oben in** Tabelle auf Felder und wählen Sie dann den Umschalter für das Feld **Miniatur** aus, um es links neben dem Primärfeld anzuzeigen. Diese Option ist standardmäßig deaktiviert.
+1. Klicken Sie **der Produktionsumgebung oben** der Tabelle auf „Felder“
+
+   ODER
+
+   <span class="preview">Bewegen Sie den Mauszeiger über die Kopfzeile des Primärfelds</span> und wählen Sie dann den Umschalter für das Feld **Miniatur**, um es links neben dem Primärfeld anzuzeigen. Diese Option ist standardmäßig deaktiviert.
 
    Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. <span class="preview">(Optional) Klicken Sie **Felder** oben in der Tabelle und klicken Sie dann auf **Farbe**, um die Farbe eines Datensatzes links neben seinem Primärfeld anzuzeigen. Standardmäßig werden jedem neuen Datensatz zufällig Farben zugewiesen. Die **Color**-Einstellung ist standardmäßig deaktiviert.</span>
+1. <span class="preview">Klicken Sie **Felder** oben in der Tabelle</span>
+
+   ODER
+   <span class="preview">Bewegen Sie den Mauszeiger über die Kopfzeile des Primärfelds und wählen Sie dann den Umschalter für das Feld **Farbe** aus, um es links neben dem Primärfeld anzuzeigen. Diese Option ist standardmäßig deaktiviert. </span>
 
 1. <span class="preview"> (Optional und bedingt) Wenn Sie die Einstellung **Farbe** aktiviert haben, klicken Sie auf die Farbleiste links neben dem Primärfeld des Datensatzes und wählen Sie eine Farbe aus den Registerkarten **Farbfelder** oder **Benutzerdefiniert** aus und klicken Sie dann auf eine Stelle außerhalb des Felds, um es zu schließen. Die Farbe wird sofort angewendet.</span>
 
-   <div class="preview">
+<div class="preview">
 
-   ![Farbauswahlfeld „Farbcodierung aufzeichnen“](assets/color-picker-for-record-color-coding.png)
+![Farbauswahlfeld „Farbcodierung aufzeichnen“](assets/color-picker-for-record-color-coding.png)
 
-   Weitere Informationen finden Sie unter [Erstellen von Einträgen](/help/quicksilver/planning/records/create-records.md).
+Weitere Informationen finden Sie unter [Erstellen von Einträgen](/help/quicksilver/planning/records/create-records.md).
 
-   </div>
+</div>
 
 
 ### Filter hinzufügen {#add-filters-1}
-
-Mit Filtern können Sie die Menge der auf dem Bildschirm angezeigten Informationen reduzieren.
 
 Mit Filtern können Sie die Menge der auf dem Bildschirm angezeigten Informationen reduzieren.
 
@@ -527,7 +530,7 @@ Beachten Sie beim Sortieren von Datensätzen in der Tabellenansicht die folgende
 Gehen Sie wie folgt vor, um Datensätze zu sortieren:
 
 1. Erstellen Sie eine Tabellenansicht, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie auf **Symbol** Sortieren![&#x200B; (](assets/sort-icon.png)) oben in der Tabelle
+1. Klicken Sie auf **Symbol** Sortieren![ (](assets/sort-icon.png)) oben in der Tabelle
 
    ODER
 
@@ -589,7 +592,7 @@ Beachten Sie Folgendes:
 
 * Sie können Gruppierungen sowohl in der Tabellen- als auch in der Zeitleisten-Ansicht anwenden. Die Gruppierungen der Tabellenansicht sind unabhängig von denen in der Zeitleisten -Ansicht desselben Datensatztyps.
 * Sie können in einer Ansicht drei Gruppierungsebenen anwenden. Die Datensätze werden in der Reihenfolge der ausgewählten Gruppierungen gruppiert.
-&lt;!—!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * Bei Verwendung der API können Sie bis zu 4 Gruppierungsebenen anwenden. —Diese wird vorerst überprüft &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;!—!—*************** * Bei Verwendung der API können Sie bis zu 4 Gruppierungsebenen anwenden. —Diese wird vorerst überprüft ******************—>
 * Die Gruppierungen sind für die ausgewählte Ansicht eindeutig. Auf zwei Tabellenansichten desselben Datensatztyps können unterschiedliche Gruppierungen angewendet werden. Zwei Benutzende, die dieselbe Tabellenansicht betrachten, sehen dieselbe Gruppierung, die derzeit angewendet wird.
 * Die von Ihnen erstellten Gruppierungen können nicht für eine Tabellenansicht benannt werden.
 * Das Entfernen von Gruppierungen entfernt sie von allen Benutzern, die auf denselben Datensatztyp zugreifen wie Sie und die dieselbe Ansicht anzeigen wie Sie.

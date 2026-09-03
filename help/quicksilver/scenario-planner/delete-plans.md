@@ -8,14 +8,18 @@ feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 18301970abddd8ed98abccf42562d950422bfa7c
+source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 5%
+source-wordcount: '563'
+ht-degree: 4%
 
 ---
 
 # Löschen von Plänen in der [!DNL Scenario Planner]
+
+<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Sie können von Ihnen erstellte Pläne löschen. Mit Ihnen geteilte Pläne können nicht gelöscht werden.
 
@@ -125,7 +129,12 @@ Löschen eines Plans:
 Eine Liste mit Plänen wird angezeigt.
 
 1. Klicken Sie auf den Namen eines Plans, um ihn zu öffnen.
-1. Klicken Sie auf **[!UICONTROL Mehr]** ![Mehr &#x200B;](assets/more-menu.png) rechts neben dem Plannamen und klicken Sie dann auf **[!UICONTROL Löschen]** > **[!UICONTROL Ja, löschen]**.
+1. Klicken Sie auf **[!UICONTROL Mehr]** ![Mehr ](assets/more-menu.png) rechts neben dem Plannamen und klicken Sie dann auf **[!UICONTROL Löschen]** > **[!UICONTROL Ja, löschen]**.
+
+   >[!TIP]
+   >
+   ><span class="preview">Sie können einen Plan in einer Liste auch löschen, indem Sie ihn auswählen und dann unten in der Liste auf **Löschen** klicken, um ihn zu löschen.</span>
+
 
    Der Plan wird gelöscht und Sie kehren zur Liste der Pläne zurück.
 

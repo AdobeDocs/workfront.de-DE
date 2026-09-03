@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 2%
+source-wordcount: '1404'
+ht-degree: 1%
 
 ---
 
@@ -69,7 +69,7 @@ Nach der Konfiguration hat jeder Datensatztyp, der auf beide Felder verweist (z.
    <ul><li><p>Eine Adobe Experience Manager Assets-Lizenz und eine Integration zwischen AEM Assets und Workfront, um AEM-Assets mit Planungs-Datensatztypen zu verbinden.</p>
    <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront für Experience Manager Assets und Assets Essentials: Artikelindex</a>. </p></li>
    <li><p> Eine Adobe GenStudio for Performance Marketing-Lizenz zum Verbinden von Datensatztypen mit GenStudio-Objekten und -Marken</p>
-   <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -158,7 +158,9 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
    * In der Spaltenüberschrift der verbundenen Datensatzfelder gibt es einen Hinweis darauf, dass das Feld in einer abhängigen Verbindungsbeziehung steht.
 
      ![Tooltip des abhängigen Symbols in der Spaltenüberschrift](assets/dependent-icon-tooltip-in-column-header.png)
+1. (Optional) Klicken Sie auf **Filterregeln für Datensätze** und wählen Sie Felder aus dem Datensatztyp aus, mit dem Sie eine Verbindung herstellen, um die Optionen für die Werte dieses Felds zu beschränken. Klicken Sie dann auf **Fertig**.
 
+   Wenn die beiden Felder in einem dritten Datensatztyp vorhanden sind, werden die Optionen für den verbundenen Felddatensatztyp durch den hier ausgewählten Filter eingeschränkt.
 1. (Optional und empfohlen) Wechseln Sie zu einem dritten Datensatztyp und fügen Sie sowohl den ersten als auch den zweiten Datensatztyp als verbundene Datensatzfelder hinzu.
 
    ![Abhängige Anzeige für verbundene Felder eines dritten Datensatztyps](assets/dependent-connected-field-indicator-on-a-third-record-type.png)

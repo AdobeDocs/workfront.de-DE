@@ -9,23 +9,15 @@ exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/jyRdImgjr0238JzddL88QZYMyaX3E5zj65R8-s1VuMA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: e147ce9d-7675-49bd-8a32-44f27d865560
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
 workflow-type: tm+mt
-source-wordcount: 3121
-ht-degree: 4%
+source-wordcount: 3273
+ht-degree: 3%
 
 ---
 
@@ -33,12 +25,10 @@ ht-degree: 4%
 
 # Verbinden von Eintragstypen
 
-<!--
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
 
 
 {{planning-important-intro}}
@@ -117,7 +107,7 @@ Ein Beispiel für das Verbinden von Datensatztypen und Datensätzen finden Sie u
    <ul><li><p>Eine Adobe Experience Manager Assets-Lizenz und eine Integration zwischen AEM Assets und Workfront, um AEM-Assets mit Planungs-Datensatztypen zu verbinden.</p>
    <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront für Experience Manager Assets und Assets Essentials: Artikelindex</a>. </p></li>
    <li><p> Eine Adobe GenStudio for Performance Marketing-Lizenz zum Verbinden von Datensatztypen mit GenStudio Brands</p>
-   <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -308,18 +298,15 @@ Old:
 
    ![Neue Verbindung zum Datensatztyp aus einem anderen Arbeitsbereich](assets/new-connection-allow-multiple-records-box.png)
 
-1. (Bedingt) Wenn Sie Datensatztypen aus demselben Arbeitsbereich oder einen Planning-Datensatztyp mit einem Workfront-Objekttyp verbinden, wählen Sie eine der folgenden Optionen aus:
+1. <span class="preview">Wählen Sie **Diese Verbindung abhängig machen** aus, um Abhängigkeiten zwischen diesem Verbindungsfeld und dem Feld hinzuzufügen, das für den verbundenen Datensatztyp erstellt wurde. </span>
 
-   * **Mehrfachauswahl**: Wählen Sie diese Option aus, damit ein Datensatz aus dem aktuellen Datensatztyp mit mehreren Datensätzen aus dem Verbindungs-Datensatztyp verbunden werden kann.
-   * **Einzelauswahl**: Wählen Sie diese Option aus, damit ein Datensatz aus dem aktuellen Datensatztyp mit einem Datensatz aus dem Verbindungs-Datensatztyp verbunden werden kann.
+   <span class="preview">Weitere Informationen finden Sie unter [Abhängige Verbindungen verwalten](/help/quicksilver/planning/architecture/manage-dependent-connections.md).</span>
 
-1. Wählen Sie das **entsprechendes Feld für verknüpften Datensatztyp erstellen** im <!--<span class="preview">, when connecting all object types but not Planning record types</span>--> **Verbindungstyp** aus.
+1. Wählen Sie **Abschnitt** Verbindungstyp“ das Feld „Entsprechendes Feld für **Datensatztyp erstellen** aus.
 
-   <!--
-    >[!TIP]
-    >
-    ><span class="preview">The **Connection type** section has been replaced by the **Connection settings** section when connecting Planning record types. </span>
-    -->
+   >[!TIP]
+   >
+   ><span class="preview">Der Abschnitt **Verbindungstyp** wurde durch den Abschnitt **Verbindungseinstellungen** beim Verbinden von Planungs -Datensatztypen ersetzt. </span>
 
    Wenn diese Option aktiviert ist, wird ein Verbindungsfeld für den Datensatztyp erstellt, mit dem Sie eine Verbindung herstellen, zusätzlich zu dem Verbindungsfeld, das zum aktuellen Datensatztyp hinzugefügt wird. Dies ist standardmäßig deaktiviert.
 
@@ -332,8 +319,12 @@ Old:
    >* Ein verknüpftes Datensatzfeld wird für Objekte aus einem anderen Programm in den jeweiligen Programmen nicht erstellt. Beispiel:
    >   * Es wurde kein Feld für Workfront-Objekte erstellt, die mit Planungsdatensätzen verbunden sind.
    >   * Es wird kein Feld für einen Planning-Datensatztyp erstellt, wenn er mit einem Datensatztyp aus GenStudio Workspace verbunden ist.
+1. (Bedingt) Wenn Sie Datensatztypen aus demselben Arbeitsbereich oder einen Planning-Datensatztyp mit einem Workfront-Objekttyp verbinden, wählen Sie eine der folgenden Optionen aus:
 
-1. (Bedingt) Wenn Sie **&#x200B;**&#x200B;Abschnitt **Verbindungstyp** die Option „Entsprechendes Feld für verknüpften Datensatztyp erstellen“ aktiviert haben, wählen Sie eine der folgenden Optionen, um anzugeben, mit wie vielen Datensätzen Benutzende eine Verbindung herstellen können:
+   * **Mehrfachauswahl**: Wählen Sie diese Option aus, damit ein Datensatz aus dem aktuellen Datensatztyp mit mehreren Datensätzen aus dem Verbindungs-Datensatztyp verbunden werden kann.
+   * **Einzelauswahl**: Wählen Sie diese Option aus, damit ein Datensatz aus dem aktuellen Datensatztyp mit einem Datensatz aus dem Verbindungs-Datensatztyp verbunden werden kann.
+
+1. (Bedingt) Wenn Sie **** Abschnitt **Verbindungstyp** die Option „Entsprechendes Feld für verknüpften Datensatztyp erstellen“ aktiviert haben, wählen Sie eine der folgenden Optionen, um anzugeben, mit wie vielen Datensätzen Benutzende eine Verbindung herstellen können:
 
    * Viele-zu-viele
    * Eins zu viele
@@ -356,9 +347,11 @@ Old:
 
    >[!NOTE]
    >
-   >Ihr Workfront-Administrator kann Workfront Planning-Felder über die Metadatenzuordnung in Workfront Experience Manager Assets-Feldern zuordnen. Weitere Informationen finden Sie unter &quot;[&#x200B; der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets &#x200B;](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >Ihr Workfront-Administrator kann Workfront Planning-Felder über die Metadatenzuordnung in Workfront Experience Manager Assets-Feldern zuordnen. Weitere Informationen finden Sie unter &quot;[ der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
+1. <span class="preview">(Optional und bedingt) Wenn Sie **Diese Verbindung abhängig machen** ausgewählt haben, klicken Sie auf **Filterregeln für Datensätze**, um einen Filter zu erstellen, um die Werte der Werte der verbundenen Felder zu begrenzen, wenn beide verbundenen Datensatzfelder auf demselben Datensatztyp angezeigt werden. </span>
 
+   <span class="preview">Weitere Informationen finden Sie unter [Abhängige Verbindungen verwalten](/help/quicksilver/planning/architecture/manage-dependent-connections.md). </span>
 1. (Optional) Wählen Sie im Bereich „Erscheinungsbild des Datensatzes **eine der folgenden Optionen**:
 
    * **Name und Bild**: Sowohl der Name als auch die Miniaturansicht oder das Symbol der verbundenen Datensätze werden im Feld Verbundener Datensatz angezeigt. Dies ist die Standardoption.
@@ -382,7 +375,9 @@ Old:
    >
    >* Die Auswahl im Bereich **Erscheinungsbild des Datensatzes** bestimmt, wie die Datensätze in Verbindungen überall im System angezeigt werden, einschließlich aller Ansichten und Detailseiten.
 
-1. Wählen Sie die **Suchfelder auswählen**, um Felder aus dem Datensatztyp hinzuzufügen, mit dem Sie eine Verbindung herstellen. Die Suchfelder sind Felder, die mit dem Datensatz oder Objekttyp verknüpft sind, mit dem Sie eine Verknüpfung herstellen. Durch Verknüpfen werden Informationen des Datensatzes oder Objekts angezeigt, mit dem Sie eine Verknüpfung herstellen, und zwar für den Datensatz, von dem aus eine Verknüpfung hergestellt wird. Dies ist standardmäßig ausgewählt.
+1. Wählen Sie **Suchfelder auswählen** oder <span class="preview">klicken Sie auf das Menü **Suchfelder**, </span> Felder aus dem Datensatztyp, mit dem Sie eine Verbindung herstellen, auszuwählen und hinzuzufügen.
+
+   Suchfelder sind Felder, die mit dem Datensatz oder Objekttyp verknüpft sind, mit dem Sie eine Verbindung herstellen. Durch Verknüpfen werden Informationen des Datensatzes oder Objekts angezeigt, mit dem Sie eine Verknüpfung herstellen, und zwar für den Datensatz, von dem aus eine Verknüpfung hergestellt wird. <!--No more: This is selected by default.-->
 
    >[!NOTE]
    >
