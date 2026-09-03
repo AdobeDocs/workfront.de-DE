@@ -8,22 +8,22 @@ exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/h1895B7LDBKIhpJPrMROBoi-85LqrBUS1Rmw-m2n2Bo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
 workflow-type: tm+mt
-source-wordcount: 289
-ht-degree: 15%
+source-wordcount: 353
+ht-degree: 12%
 
 ---
 
 # Aktivieren oder Deaktivieren des KI-Assistenten
+
+>[!IMPORTANT]
+>
+>Ab September 2026 wechselt AI Assistant zu CX Coworker, einer Gesprächsoberfläche zur Erledigung von Aufgaben. Informationen zu CX Coworker finden Sie unter [CX Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 Als Workfront-Administrator können Sie steuern, für welche Benutzenden in Ihrem Unternehmen der KI-Assistent aktiviert ist. Dies wird über Zugriffsebenen verwaltet.
 
@@ -70,7 +70,7 @@ So aktivieren Sie den KI-Assistenten für Ihr Unternehmen:
 >[!IMPORTANT]
 >
 >Sie müssen über eine unterzeichnete Gen-KI-Vereinbarung mit Adobe verfügen, bevor Sie den KI-Assistenten verwenden können.
->Weitere Informationen zum Gen-AI-Abkommen finden Sie unter [Unterschreiben des Adobe-Gen-AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)Abkommens im Artikel KI-Assistent in Workfront.
+>Weitere Informationen zum Gen-AI-Abkommen finden Sie unter [Unterzeichnung des Adobe-Gen-AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)Abkommens im Artikel KI-Assistent in Workfront.
 
 ## Aktivieren oder Deaktivieren des KI-Assistenten für eine Zugriffsebene
 

@@ -8,24 +8,23 @@ exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 TQID: https://experienceleague.adobe.com/8c5WRCNHRseRR3jcv2c-mPmE-D-zzfjMcxG0m4EjWVo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
 workflow-type: tm+mt
-source-wordcount: 859
-ht-degree: 97%
+source-wordcount: 886
+ht-degree: 94%
 
 ---
 
 # KI-Assistent in Workfront
+
+>[!IMPORTANT]
+>
+>Ab September 2026 wechselt AI Assistant zu CX Coworker, einer Gesprächsoberfläche zur Erledigung von Aufgaben. Informationen zu CX Coworker finden Sie unter [CX Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 Der KI-Assistent von Workfront hilft Ihnen bei der Durchführung Ihrer Arbeit, indem er In-App-Informationen und -Vorschläge in einer Unterhaltung in natürlicher Sprache bereitstellt. Der KI-Assistent kann Ihnen ein reibungsloseres Arbeitserlebnis bieten, indem er Folgendes für Sie übernimmt
 

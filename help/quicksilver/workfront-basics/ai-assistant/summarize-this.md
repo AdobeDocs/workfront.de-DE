@@ -6,22 +6,22 @@ author: Becky
 feature: Get Started with Workfront
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
 TQID: https://experienceleague.adobe.com/rE6-LoIb9rlLjYMvVWOwpCDAsdYI-YcrrYXq4hcEUP4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0b736e536664ca458ec253f3b8274060bd58d56e
 workflow-type: tm+mt
-source-wordcount: 398
+source-wordcount: 425
 ht-degree: 12%
 
 ---
 
 # Erstellen von Zusammenfassungen mithilfe des KI-Assistenten
+
+>[!IMPORTANT]
+>
+>Ab September 2026 wechselt AI Assistant zu CX Coworker, einer Gesprächsoberfläche zur Erledigung von Aufgaben. Informationen zu CX Coworker finden Sie unter [CX Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 Der KI-Assistent von Workfront kann einige Objekte zusammenfassen und Ihnen einen Überblick über den Zweck oder die Details des Objekts geben.
 
@@ -99,7 +99,7 @@ So verwenden Sie die Schaltfläche Projekt zusammenfassen oder Kommentare zusamm
 So zeigen Sie eine Zusammenfassung eines Objekts an:
 
 1. Navigieren Sie zu dem Objekt, für das Sie eine Zusammenfassung anzeigen möchten.
-1. Klicken Sie auf **KI** Assistent![&#x200B; Symbol KI-Assistent](assets/ai-assistant-icon.png) in der oberen rechten Ecke des Bildschirms.
+1. Klicken Sie auf **KI** Assistent![ Symbol KI-Assistent](assets/ai-assistant-icon.png) in der oberen rechten Ecke des Bildschirms.
 1. Geben Sie im Bedienfeld KI-Assistent eine Eingabeaufforderung ein, z. B.:
 
    * Eine Zusammenfassung in drei Sätzen geben
