@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 4313f348fb66d649ad25afb7f2fad2b533a912d6
+source-git-commit: ebf8d5ed1eb0b49315bbe10718c5065fcc871654
 workflow-type: tm+mt
-source-wordcount: 3202
-ht-degree: 2%
+source-wordcount: 3318
+ht-degree: 1%
 
 ---
 
@@ -74,18 +74,31 @@ Im Folgenden finden Sie einige Typen von Workfront-Objektlisten, die das erweite
 | --- | --- |
 | Prioritäten | <ul><li>Startseite > Wählen Sie im linken Menü das Symbol Prioritäten aus.</li><li>Hauptmenü > Prioritäten</li></ul> |
 | Liste der Anfragen | <ul><li>Anfragen (nur für neue Erlebnisse)</li><li>Widget „Meine Anfragen“ auf der Startseite</li></ul> |
-| Listen mit Status, Prioritäten, Schweregraden und Wechselkursen im Setup | <ul><li>Setup > Projektvoreinstellungen > Status</li><li>Setup > Projektvoreinstellungen > Prioritäten</li><li>Setup > Projektvoreinstellungen > Schweregrade</li><li>Einrichten > Projektvoreinstellungen > Wechselkurse</li></ul> |
-| Liste von Berichten | Berichte (**Freigebbare Ordner verwenden** müssen aktiviert sein) |
+| Listen mit Status, Prioritäten, Schweregraden, <span class="preview">Bedingungen</span> und Wechselkursen im Setup | <ul><li>Setup > Projektvoreinstellungen > Status</li><li>Setup > Projektvoreinstellungen > Prioritäten</li><li>Setup > Projektvoreinstellungen > Schweregrade</li><li><span class="preview">Setup > Projektvoreinstellungen > Bedingungen</span></li><li>Einrichten > Projektvoreinstellungen > Wechselkurse</li></ul> |
+| <span class="preview">Listen der Aktionen und verfolgten Felder in den Aktualisierungs-Feeds</span> | <ul><li><span class="preview">Setup > Schnittstelle > Aktualisierungs-Feeds > Registerkarte „Getrackte Felder“</span></li> <li><span class="preview">Setup > Benutzeroberfläche > Aktualisierungsfeeds > Registerkarte „Aktionen“</span></li></ul> |
+| <span class="preview">Liste der Scorecards</span> | <span class="preview">Setup > Scorecards</span> |
+| <span class="preview">Liste der Risikotypen</span> | <span class="preview">Setup > Risikotypen</span> |
 | Liste der Aufgabengebiete und Tarife auf einer Tarifkarte | Einrichten > Tarifkarten > Tarifkarte auswählen > Aufgabengebiete und Tarife |
+| <span class="preview">Liste der Standorte</span> | <span class="preview">Setup > Standorte</span> |
 | Liste der Übersetzungen | Setup > Lokalisierung |
+| <span class="preview">Integrationslisten </span> | <ul><li><span class="preview">Setup > Dokumente > SharePoint-Integration</span></li><li><span class="preview">Setup > Dokumente > Benutzerdefinierte Integration</span></li></ul> |
+| Liste von Berichten | Berichte (**Freigebbare Ordner verwenden** müssen aktiviert sein) |
 | Liste der Momentaufnahmen | Projekt > Momentaufnahmen |
 | Liste der Ressourcen für die Abrechnung | Projekt > Ressource für Abrechnung |
 | Neue erweiterte Zuweisungen für eine Aufgabe | Aufgabe > Arbeitsaufträge > Erweitert |
+| <span class="preview">Ansicht „Alle Versionen“ eines Dokuments</span> | <span class="preview">Projekt > Dokumente > Dokumentdetails > Alle Versionen</span> |
 | Pinnwand-Administratoransicht | Pinnwände > Admin-Ansicht |
 | Dokumente zum Adobe Cloud-Speicher | Projekt, Aufgabe, Problem, Portfolio, Programm, Vorlage, Vorlagenaufgabe > Dokumente |
+| <span class="preview">Listen mit Szenario-Plänen und -Initiativen</span> | <span class="preview">Hauptmenü > Szenarien</span> |
+| <span class="preview">Listen mit Zielen und Fortschrittsindikatoren</span> | <ul><li><span class="preview">Hauptmenü > Ziele</span></li><li><span class="preview">Hauptmenü > Ziele > Fortschrittsanzeigen</span></li></ul> |
+
 <!--
-Add this BEFORE a list of reports in the table above:
-| <span class="preview">List of actions in the Update Feeds</span> | <span class="preview">Setup > Interface > Update Feeds > Actions tab</span> |
+
+Last bullet in "Lists of integrations" <li><span class="preview">Setup > Documents > Experience Manager Assets</span></li>
+
+Under Locations?
+| <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
+
 -->
 
 ## Hinzufügen von Elementen zu einer erweiterten Liste
@@ -164,9 +177,16 @@ Je nachdem, welche Objekte Sie in einer erweiterten Liste anzeigen, können Sie 
 
 1. Klicken Sie **Spalten** über der Liste auf.
 
+   Beispielbild in der Produktionsumgebung:
    ![Beispiel für Spalten anzeigen](assets/glist-display-move-columns.png)
 
+   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
+   ![Beispiel für Spalten anzeigen](assets/display-columns-090126.png)
+
 1. Verwenden Sie die Umschalter zum Anzeigen oder Ausblenden von Spalten in der Liste.
+
+<span class="preview">Sie können im Suchfeld nach einer Spalte suchen.</span>
+
 1. Um die Spalten neu anzuordnen, klicken Sie auf das Symbol **Ziehen** (![-Symbol](assets/drag-icon.png) und verschieben Sie eine Spalte an die gewünschte Position. Durch das Verschieben von Spalten wird die Liste automatisch geändert.
 
    >[!NOTE]

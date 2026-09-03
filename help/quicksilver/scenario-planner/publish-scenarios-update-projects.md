@@ -21,7 +21,7 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 26b9239894d071fa5a3a0e185f935091e9e7ad13
 workflow-type: tm+mt
 source-wordcount: 1705
 ht-degree: 1%
@@ -209,6 +209,9 @@ Bevor Sie beginnen:
 
    ![Projektsymbol und Datum der letzten Veröffentlichung](assets/project-icons-and-last-published-date-in-publish-initiative-page-350x63.png)
 
+   <!--
+    1. <span class="preview">(Optional) In the Publish initiatives page, hover over the project icon ![Project icon](assets/project-icon-sp.png), then click the **More** menu ![More menu](assets/more-menu.png) > **Open project**. The project opens in a new browser tab.</span>
+    -->
 1. (Optional und bedingt) Wenn Sie aus einem vorhandenen Plan veröffentlichen möchten, klicken Sie auf das **[!UICONTROL Filter]**-Symbol ![Filtersymbol](assets/filter-nwepng.png) in der oberen rechten Ecke des Plans und wählen Sie eine der folgenden Optionen aus:
 
    <table style="table-layout:auto"> 

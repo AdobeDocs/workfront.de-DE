@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d570ef6a-935f-4dd0-9c54-a480163ec9d8
-source-git-commit: 606ed09cef82c5cef853fea990b0d3a235534b84
+source-git-commit: d5694e2f94ded811e90b31f315896914ca31fc9f
 workflow-type: tm+mt
-source-wordcount: '1390'
+source-wordcount: '1385'
 ht-degree: 2%
 
 ---
@@ -18,6 +18,7 @@ ht-degree: 2%
 # Tarifattribute definieren
 
 Tarifattribute erweitern die Tarifkarten- und Tariffunktionalität von Adobe Workfront, indem sie es Ihnen ermöglichen, zusätzliche Dimensionen zu Tarifen hinzuzufügen, die über das Aufgabengebiet hinausgehen. Dies ist entscheidend für Agenturen und Unternehmen, bei denen die Preise nicht nur nach Aufgabengebiet, sondern auch nach Faktoren wie Agentur, Standort, Marke, Kostenstelle oder anderen variieren.
+
 Durch Kombination dieser Attribute kann Workfront automatisch die richtige Rate für Zuweisungen auswählen und so die finanzielle Genauigkeit und Konsistenz über alle Projekte hinweg sicherstellen.
 
 Tarifattribute sind als einmalige grundlegende Einrichtung gedacht.
@@ -34,9 +35,9 @@ Tarifattribute werden aus folgenden Gründen als einmalige Einrichtung betrachte
 * Tarife, Zuweisungen, geplante Werte und Istwerte hängen von den ausgewählten Attributwerten ab.
 * Späteres Ändern von Attributen (Umbenennen, Entfernen oder Neuanordnung) kann zu Folgendem führen:
 
-   * Verlust der Verknüpfung zwischen Raten und Attributen
-   * Ungültige oder „verwaiste“ Tarife
-   * Fehlausrichtung bei Abrechnung und Berichterstellung
+  * Verlust der Verknüpfung zwischen Raten und Attributen
+  * Ungültige oder „verwaiste“ Tarife
+  * Fehlausrichtung bei Abrechnung und Berichterstellung
 
 Aus diesen Gründen sollten Attribute während Ihrer ersten Workfront-Implementierung sorgfältig entworfen und anschließend unverändert bleiben.
 
@@ -63,8 +64,8 @@ Dadurch kann die Einrichtung Ihre Geschäftsstruktur spiegeln und gleichzeitig d
 
 * Workfront unterstützt bis zu 5 Attributebenen. Das System folgt immer der Attributhierarchie und wählt die spezifischste verfügbare Übereinstimmung aus.
 
-   * 0= Allgemeiner Basiszinssatz
-   * 1-5 = progressiv spezifischere Raten
+  * 0= Allgemeiner Basiszinssatz
+  * 1-5 = progressiv spezifischere Raten
 
 * Sie können Attribute entsprechend Ihrem Unternehmen umbenennen (Agentur, Marke, Markt, Kostenstelle usw.).
 * Die Einrichtung ist nur einmal: Wenn Sie die Attribute später ändern, riskiert dies, die Integrität der Finanzdaten zu beeinträchtigen.
@@ -187,13 +188,13 @@ Filter müssen immer in beide Richtungen konfiguriert werden. Wenn Attribut A ü
 
    * **Filtertyp**:
 
-      * Ein **Standard**-Filter wendet eine universelle Bedingung auf das Attributobjekt an. Beispiel: Standort > Ist Aktiv = True (nur aktive Standorte werden angezeigt).
+     * Ein **Standard**-Filter wendet eine universelle Bedingung auf das Attributobjekt an. Beispiel: Standort > Ist Aktiv = True (nur aktive Standorte werden angezeigt).
 
-        Der Standardfilter wird immer angewendet, unabhängig davon, ob andere Attribute ausgewählt sind.
+       Der Standardfilter wird immer angewendet, unabhängig davon, ob andere Attribute ausgewählt sind.
 
-      * Ein **Attribut**-Filter verknüpft ein Attribut mit einem anderen in der Kette. Beispiel: Standort > Referenz = Agentur (es werden nur Standorte angezeigt, die mit der ausgewählten Agentur verknüpft sind).
+     * Ein **Attribut**-Filter verknüpft ein Attribut mit einem anderen in der Kette. Beispiel: Standort > Referenz = Agentur (es werden nur Standorte angezeigt, die mit der ausgewählten Agentur verknüpft sind).
 
-        Der Attributfilter wird nur angewendet, wenn das referenzierte Attribut einen Wert aufweist. Wenn beispielsweise die Option Agentur ausgewählt ist, werden nur gültige Standorte vorgeschlagen. Wenn Agentur leer ist, werden alle Standorte angezeigt (kann jedoch durch Standardfilter, die auf den Standort angewendet werden, eingeschränkt werden).
+       Der Attributfilter wird nur angewendet, wenn das referenzierte Attribut einen Wert aufweist. Wenn beispielsweise die Option Agentur ausgewählt ist, werden nur gültige Standorte vorgeschlagen. Wenn Agentur leer ist, werden alle Standorte angezeigt (kann jedoch durch Standardfilter, die auf den Standort angewendet werden, eingeschränkt werden).
 
    * **Feld**: Das direkte Feld aus dem Attributobjekt, z. B. Standort-ID oder Aktiv-Flag.
    * **Operator**: Diese Optionen hängen vom ausgewählten Feldtyp ab. Beispiele sind Gleich, nicht Gleich, Ist leer, Wahr/Falsch.
