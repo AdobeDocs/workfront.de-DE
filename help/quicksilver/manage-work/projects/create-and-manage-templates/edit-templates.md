@@ -9,30 +9,21 @@ exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/36z25D3UWtmRwiOqdPOc3DCFXQcvSJHK2RvtuqFOvVU
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-  - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 1e6380b0422efdd98449ab1e74cadb4f330917f1
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: b91c0848-76c4-4da4-8b81-3aade0518dd0id: ce22a157-dd2c-405f-b740-c2f204bb4c1aid: d87de1f9-8e24-4c4d-aa4c-a403075091a1id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: bde3551443641024b87397e35064ebf4577179eb
 workflow-type: tm+mt
-source-wordcount: 5111
+source-wordcount: 5223
 ht-degree: 3%
 
 ---
 
 # Bearbeiten von Projektvorlagen
+
+{{highlighted-preview}}
 
 <!-- Audited: 7/2025 -->
 
@@ -253,6 +244,15 @@ Old:
       <tr> 
       <td role="rowheader"><strong>Firma</strong></td> 
       <td><p>Geben Sie die Firma an, die Sie mit der Vorlage verknüpfen möchten. In der Liste werden nur aktive Unternehmen angezeigt.</p></td> 
+      </tr> 
+      <tr>
+      <td role="rowheader"><span class="preview"><strong>Frame.io-Arbeitsbereich (bedingt)</strong></span></td>
+      <td><span class="preview">
+      <p>Wählen Sie in einem Adobe-Cloud-Speicherprojekt den Arbeitsbereich Frame.io aus, den Projekte, die aus dieser Vorlage erstellt wurden, verwenden sollen. Wenn Ihr Unternehmen über mehrere Frame.io-Arbeitsbereiche verfügt, bestimmt dies, in welchem Arbeitsbereich das verknüpfte Frame.io-Projekt erstellt wird.</p>
+      <p>Die Liste enthält nur die Arbeitsbereiche von Frame.io, denen Sie Projekte zuweisen können. Der Standardarbeitsbereich, der verwendet wird, wenn kein Arbeitsbereich ausgewählt oder verfügbar ist.</p>
+      <p>Sie können dieses Feld in der Vorlage jederzeit ändern. Änderungen gelten nur für Projekte, die nach der Änderung erstellt wurden. Projekte, die bereits anhand der Vorlage erstellt wurden, behalten ihren vorhandenen Frame.io-Arbeitsbereich bei.</p>
+      <p>Hinweis: Sie müssen über Frame.io enterprise verfügen, um das Workspace-Feld Frame.io verwenden zu können.</p>
+      </span></td>
       </tr> 
       <tr> 
       <td role="rowheader"><strong>Für die Vorlage verantwortliche Person</strong></td> 
@@ -548,7 +548,7 @@ Durch die Bearbeitung von Anfrageeinstellungen können Sie Benutzer daran hinder
 
    Wenn diese Option deaktiviert wird, können Benutzende mit der Berechtigung, dem aus der Vorlage erstellten Projekt Probleme hinzuzufügen, dies über die Schaltfläche „Neues Problem“ oder eine mit dem Projekt verknüpfte Anfrage-Warteschlange tun.
 
-   Weitere Informationen zum Konfigurieren von Anfrageeinstellungen für Projekte finden Sie [&#x200B; Abschnitt „Anfrageeinstellungen](../../../manage-work/projects/manage-projects/edit-projects.md#issue) im Artikel [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
+   Weitere Informationen zum Konfigurieren von Anfrageeinstellungen für Projekte finden Sie [ Abschnitt „Anfrageeinstellungen](../../../manage-work/projects/manage-projects/edit-projects.md#issue) im Artikel [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
    Informationen zum Erstellen von Problemen in Projekten finden Sie unter [Erstellen von Problemen](../../../manage-work/issues/manage-issues/create-issues.md).
 
@@ -673,7 +673,7 @@ Editing templates in bulk differs depending on which environment you are using.
 
 1. Klicken Sie auf die Abschnitte auf der linken Seite, um alle ausgewählten Vorlagen zu bearbeiten.
 
-   Weitere Informationen zum Bearbeiten von Informationen zu Vorlagen finden Sie [&#x200B; Abschnitt „Bearbeiten einer &#x200B;](#edit-a-template)&quot; in diesem Artikel.
+   Weitere Informationen zum Bearbeiten von Informationen zu Vorlagen finden Sie [ Abschnitt „Bearbeiten einer ](#edit-a-template)&quot; in diesem Artikel.
 
 1. Aktualisieren Sie die folgenden Abschnitte der ausgewählten Vorlagen:
 
@@ -772,8 +772,8 @@ Das Hinzufügen der folgenden Elemente zu einer Vorlage entspricht dem Hinzufüg
 
   Informationen zum Hinzufügen von Themengruppen und Warteschlangenthemen zu einem Projekt oder einer Vorlage finden Sie in den folgenden Artikeln:
 
-   * [Erstellen von Themengruppen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
-   * [Erstellen von Warteschlangenthemen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
+  * [Erstellen von Themengruppen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
+  * [Erstellen von Warteschlangenthemen](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 
 Sie können den Aufgaben in der Vorlage die folgenden Elemente hinzufügen:
 
