@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 7d94576b5841f3ce7b76714b835c592e095b003a
+source-git-commit: 3f0a939e9de6436117fcb8242449793dcef73205
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1770'
 ht-degree: 1%
 
 ---
@@ -28,6 +28,8 @@ Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen find
 >Produktion für alle: 15. Oktober 2026
 
 Sie können jetzt die Sichtbarkeit der Miniaturansichten und Farben der Datensätze verwalten, wenn Sie die Spalte für das Primärfeld in der Tabellenansicht bearbeiten.
+
+Mit diesem Update werden die Miniaturansicht und die Farbeinstellungen aus dem Feldsymbol in der Symbolleiste der Tabellenansicht entfernt.
 
 Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
 
