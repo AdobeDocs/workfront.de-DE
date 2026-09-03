@@ -9,31 +9,27 @@ exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/OoGv4oNg6GkKeo-zoVi5lSxtPK3UE64-EYW21Mz7GRA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c9558f7de0e2f625c8426187436f2ea5cdeabb92
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c83b252faf7791c51475c5b82ca03cb4ee29bfc0
 workflow-type: tm+mt
-source-wordcount: 2227
+source-wordcount: 2406
 ht-degree: 2%
 
 ---
 
 # Erstellen eines Workflows für die Dokumentvalidierung
 
+{{highlighted-preview}}
+
 Sie können die Genehmigung anderer Benutzer oder Teams für ein Dokument in Adobe Workfront anfordern oder diese auffordern, ein Dokument zu überprüfen, ohne es genehmigen zu müssen.
 
 >[!IMPORTANT]
 >
->Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Zugriffsanforderungen
 
@@ -291,6 +287,30 @@ So erstellen Sie einen erweiterten Validierungs-Workflow:
 1. (Optional) Um alle Pfade und Phasen zu löschen und von vorne zu beginnen, klicken **oben** auf „Zurücksetzen“.
 
 1. Klicken Sie **Genehmigung anfordern**.
+
+<div class="preview">
+
+## Anzeigen von Genehmigungs-Workflows für frühere Versionen im neuen Dokumentbereich in der Vorschau
+
+Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, wird der Bereich Neue Dokumente angezeigt, wenn Sie auf Dokumente in Workfront zugreifen. Weitere Informationen zu Adobe Cloud-Speicher finden Sie unter [Übersicht über Adobe Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Im Bedienfeld Genehmigungen werden nur die Versionen des Dokuments aufgelistet, die über einen Genehmigungs-Workflow verfügen.
+
+So zeigen Sie Genehmigungs-Workflows für frühere Versionen an:
+
+1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen **Dokumente** im linken Bereich aus.
+1. Klicken Sie auf das Dokument und dann auf **Genehmigungen** rechts auf der Seite.
+
+   ![Genehmigende Personen in der Dokumentzusammenfassung hinzufügen](assets/approvals-icon-new.png)
+
+1. Klicken Sie auf eine Version, um sie zu erweitern. Sie können die Stadien, die Entscheidung jeder genehmigenden Person, die Entscheidungsregel der Phase (z. B. ob nur eine Entscheidung erforderlich ist, um die Phase abzuschließen) und Fälligkeitsdaten anzeigen.
+1. Klicken Sie auf eine andere Version, um den Genehmigungs-Workflow zu erweitern, ohne das Bedienfeld zu verlassen.
+
+   >[!NOTE]
+   >
+   >Wenn der Genehmigungs-Workflow einer Version zurückgezogen wurde, weil die Genehmigung einer neueren Version angefordert wurde, bleibt die Version in der Liste, wird reduziert, sodass Sie weiterhin die vorherigen Entscheidungen überprüfen können.
+
+</div>
 
 <!--
 ## Resubmit an approval on a new version
