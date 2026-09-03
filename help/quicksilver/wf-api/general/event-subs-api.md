@@ -18,10 +18,10 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e889906dd08bbd6e307c33aa10fc9349b5c92d9f
+source-git-commit: 0c334e47aaf59a02ec235776505076e5aa808a89
 workflow-type: tm+mt
-source-wordcount: 3308
-ht-degree: 94%
+source-wordcount: 3545
+ht-degree: 88%
 
 ---
 
@@ -67,7 +67,10 @@ Die folgenden Workfront-Objekte werden von Ereignisabonnements unterstützt.
 * Genehmigungsphase
 * Teilnehmerin oder Teilnehmer der Genehmigungsphase
 * Zuweisung
+* Buchung
 * Firma
+* Benutzerdefiniertes Feld
+* Benutzerdefiniertes Formular
 * Dashboard
 * Dokument
 * Dokumentversion
@@ -75,6 +78,8 @@ Die folgenden Workfront-Objekte werden von Ereignisabonnements unterstützt.
 * Feld
 * Stunde
 * Problem
+* Sonstige Kategorie
+* Sonstige Ressource
 * Notiz
 * Portfolio
 * Programm
@@ -90,6 +95,8 @@ Die folgenden Workfront-Objekte werden von Ereignisabonnements unterstützt.
 * Ressourcenattributwert für den Personalplan festgelegt
 * Ressourcenparameterwert für den Personalplan
 * Aufgabe
+* Team
+* Teammitglied
 * Vorlage
 * Arbeitszeittabelle
 * Benutzerin oder Benutzer
@@ -151,8 +158,20 @@ Die Abonnementressource enthält die folgenden Felder.
         <td scope="col"><p>ASSGN</p></td> 
        </tr> 
        <tr> 
+        <td scope="col">Buchung</td> 
+        <td scope="col"><p>BUCHUNG</p></td> 
+       </tr> 
+       <tr> 
         <td scope="col">Firma </td> 
         <td scope="col"><p>CMPY</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Benutzerdefiniertes Feld</td> 
+        <td scope="col"><p>PARAMETER</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Benutzerdefiniertes Formular</td> 
+        <td scope="col"><p>CTGY</p></td> 
        </tr> 
        <tr> 
         <td scope="col">Dashboard</td> 
@@ -181,6 +200,14 @@ Die Abonnementressource enthält die folgenden Felder.
        <tr> 
         <td scope="col">Problem</td> 
         <td scope="col"><p>OPTASK</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Sonstige Kategorie</td> 
+        <td scope="col"><p>NORMALERWEISE</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Sonstige Ressource</td> 
+        <td scope="col"><p>NLBR</p></td> 
        </tr> 
        <tr> 
         <td scope="col">Notiz</td> 
@@ -241,6 +268,14 @@ Die Abonnementressource enthält die folgenden Felder.
        <tr> 
         <td scope="col"><p>Aufgabe</p></td> 
         <td scope="col"><p>TASK</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Team</td> 
+        <td scope="col"><p>MANNSCHAFT</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Teammitglied</td> 
+        <td scope="col"><p>TEAM</p></td> 
        </tr> 
        <tr> 
         <td scope="col"><p>Vorlage</p></td> 
@@ -768,6 +803,8 @@ Dieser Filter ermöglicht den Empfang von Nachrichten, wenn die Aktualisierung d
 
 Dieser Filter ermöglicht den Empfang von Nachrichten, wenn die Änderung den `fieldValue` im Filter enthält. Der Wert von `fieldValue` unterliegt der Groß-/Kleinschreibung
 
+Wenn `fieldName` auf ein Array von Objekten verweist (z. B. `tags`), kann `fieldValue` ein -Objekt sein. Der Filter sucht nach, wenn ein Element im Array übereinstimmende Werte für die von Ihnen angegebenen Schlüssel aufweist. Andere Felder in diesem Element werden nicht berücksichtigt - dies ist eine Teilübereinstimmung, keine vollständige Übereinstimmung im gesamten Objekt.
+
 ```
 {
     "objCode": "TASK",
@@ -783,6 +820,33 @@ Dieser Filter ermöglicht den Empfang von Nachrichten, wenn die Änderung den `f
     ]
 }
 ```
+
+**Beispiel: Filtern eines Felds mit einem Array von Objekten**
+
+```
+{
+    "objCode": "NOTE",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedNotes",
+    "filters": [
+        {
+            "fieldName": "tags",
+            "fieldValue": {
+                "objID": "6229be410016986cfc6eb4b37c618a17"
+            },
+            "state": "newState",
+            "comparison": "contains"
+        }
+    ]
+}
+```
+
+Dieser Filter gleicht NOTE-Ereignisse ab, bei denen das `tags`-Array mindestens ein Tag mit `objID` gleich `6229be410016986cfc6eb4b37c618a17` enthält - unabhängig von der `objCode` dieses Tags oder von anderen Feldern.
+
+>[!NOTE]
+>
+>Beim Filtern eines Felds mit einem Array von Objekten (z. B. `tags`) mit `contains` oder `notContains` muss `fieldValue` nur die für Sie wichtigen Schlüssel einbeziehen, z. B. `{"objID": "abc123"}` jedes Tag mit dieser ID übereinstimmt, unabhängig von seinen anderen Feldern (z. B. `objCode`). Dies ist keine vollständige Gleichheitsprüfung von Objekten. `containsOnly` unterstützt derzeit keine Array-of-Object-Felder.
 
 #### containsOnly
 
@@ -817,6 +881,8 @@ Dieser Filter ermöglicht den Empfang von Nachrichten nur dann, wenn der vollst�
 
 Dieser Filter ermöglicht den Empfang von Nachrichten nur dann, wenn das angegebene Feld (`fieldName`) den angegebenen Wert (`fieldValue`) nicht enthält.
 
+Bei Verwendung mit einem Array von Objekten wird nur dann „true“ zurückgegeben, wenn kein Element mit den angegebenen Schlüsseln übereinstimmt.
+
 >[!NOTE]
 >
 >Dies wird für Felder vom Typ Array (Mehrfachauswahl) oder Zeichenfolge verwendet. Wenn das Feld eine Zeichenfolge ist, überprüfen wir, ob der angegebene Wert nicht in der Zeichenfolge enthalten ist (z. B. ist „Neu“ nicht in der Zeichenfolge „Projekt - Aktualisiert“ enthalten). Wenn das Feld ein Array ist und der angegebene Feldwert eine Zeichenfolge oder eine Ganzzahl ist, überprüfen wir, ob das Array den angegebenen Wert nicht enthält (z. B. „Auswahl 1“ nicht in [ „Auswahl 2“, „Auswahl 3“]). Das folgende Beispielabonnement ermöglicht den Empfang von Nachrichten nur dann, wenn die `groups`-Felder die Zeichenfolge „Gruppe 2“ nicht enthalten.
@@ -837,6 +903,10 @@ Dieser Filter ermöglicht den Empfang von Nachrichten nur dann, wenn das angegeb
     ]
 }
 ```
+
+>[!NOTE]
+>
+>Beim Filtern eines Felds mit einem Array von Objekten (z. B. `tags`) mit `contains` oder `notContains` muss `fieldValue` nur die für Sie wichtigen Schlüssel einbeziehen, z. B. `{"objID": "abc123"}` jedes Tag mit dieser ID übereinstimmt, unabhängig von seinen anderen Feldern (z. B. `objCode`). Dies ist keine vollständige Gleichheitsprüfung von Objekten. `containsOnly` unterstützt derzeit keine Array-of-Object-Felder.
 
 #### change
 
