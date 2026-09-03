@@ -54,4 +54,4 @@ Bei Verwendung von Ratenattributen als Filter in verschiedenen Bereichen von Wor
 
 Wenn Sie zuvor ein Attribut mit einem übergeordneten Element verknüpft haben und dieses übergeordnete Element mit einem Großelternteil, hat das System das ursprüngliche Attribut auch nicht automatisch als zum Großelterteil gehörend erkannt. Wenn Sie nun das Attribut der untersten Ebene auswählen, wird jede darüber liegende Ebene automatisch zugewiesen.
 
-Weitere Informationen zu Attributen finden [ unter „Tarifattribute definieren](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+Weitere Informationen zu Attributen finden [&#x200B; unter „Tarifattribute definieren](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
