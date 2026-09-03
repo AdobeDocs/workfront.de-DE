@@ -10,18 +10,12 @@ exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/mo2xl9ElZiaehjY1KH6ykvqO-PaO126rw0GAOFLJ0sg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 26b9239894d071fa5a3a0e185f935091e9e7ad13
 workflow-type: tm+mt
 source-wordcount: 1705
 ht-degree: 1%
@@ -126,7 +120,7 @@ Old:
 Bevor Sie beginnen:
 
 * Sie müssen einen Plan erstellen und speichern, bevor Sie Initiativen daraus veröffentlichen können.
-* Die Einstellung Benutzern erlauben, Projekte ohne Vorlage zu erstellen muss im Bereich Projektvoreinstellungen von Setup aktiviert sein. Weitere Informationen finden [&#x200B; unter „Systemweite Projektvoreinstellungen konfigurieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Die Einstellung Benutzern erlauben, Projekte ohne Vorlage zu erstellen muss im Bereich Projektvoreinstellungen von Setup aktiviert sein. Weitere Informationen finden [ unter „Systemweite Projektvoreinstellungen konfigurieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ## Überlegungen zur Veröffentlichung von Initiativen in Projekten
 
@@ -144,7 +138,7 @@ Bevor Sie beginnen:
   >
   >Sie können dasselbe Projekt in mehrere Pläne importieren. Die Veröffentlichung kann Initiativinformationen zu einem Projekt überschreiben, das mit mehreren Initiativen verknüpft ist.
 
-  Informationen zum Erstellen von Initiativen durch Importieren von Projekten [&#x200B; Sie unter „Projekte in Pläne importieren“ im  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
+  Informationen zum Erstellen von Initiativen durch Importieren von Projekten [ Sie unter „Projekte in Pläne importieren“ im  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
 
 * Alle am Projekt vorgenommenen Änderungen werden nicht auf die verknüpfte Initiative übertragen.
 
@@ -209,6 +203,9 @@ Bevor Sie beginnen:
 
    ![Projektsymbol und Datum der letzten Veröffentlichung](assets/project-icons-and-last-published-date-in-publish-initiative-page-350x63.png)
 
+   <!--
+    1. <span class="preview">(Optional) In the Publish initiatives page, hover over the project icon ![Project icon](assets/project-icon-sp.png), then click the **More** menu ![More menu](assets/more-menu.png) > **Open project**. The project opens in a new browser tab.</span>
+    -->
 1. (Optional und bedingt) Wenn Sie aus einem vorhandenen Plan veröffentlichen möchten, klicken Sie auf das **[!UICONTROL Filter]**-Symbol ![Filtersymbol](assets/filter-nwepng.png) in der oberen rechten Ecke des Plans und wählen Sie eine der folgenden Optionen aus:
 
    <table style="table-layout:auto"> 
@@ -277,7 +274,7 @@ Bevor Sie beginnen:
         <td><span>Der erste Tag des Startmonats der Initiative, wenn das Projekt mit einer Initiative verknüpft ist.</span> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader"><span>[!UICONTROL Enddatum der-Initiative]</span> </td> 
+        <td role="rowheader"><span>[!Enddatum der UICONTROL-Initiative]</span> </td> 
         <td><span>Der letzte Tag des Endmonats der Initiative, an dem das Projekt mit einer Initiative verknüpft ist. </span> </td> 
        </tr> 
        <tr> 
