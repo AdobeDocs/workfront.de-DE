@@ -453,20 +453,20 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
     &lt;/td>td>&lt;p>27. August 2026&lt;/p>&lt;/td>td>&lt;p>17. September 2026&lt;/p>&lt;/td>td&lt;td>&lt;p>td>5, 2026&lt;/p>&lt;/td>
     &lt;td>
     >
-    &lt;td>
+    >&lt;td>
     >a href=„class=„MCXref xref“ xrefFormat=&quot;{para}&quot;>Für das Erzwingen von Enddaten für terminierte Berichte&lt;/a>ist jetzt ein &lt;p>Enddatum erforderlich, um einen unbegrenzten Versand zu verhindern, mit automatischer Deaktivierung nach Ablauf des Enddatums eines Zeitplans.&lt;/p>
-    &lt;/td>p&lt;p>13. August 2026&lt;/td>p&lt;td>&lt;p>17. September 2026&lt;/p>&lt;/td>p&lt;td>&lt;p>15. Oktober, 2026&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=„MCXref xref“ xrefformat=&quot;{para}&quot;>Native Referenzfelder sind für Listen und Berichte verfügbar&lt;/a>Jetzt können Sie in Workfront native Referenzfelder zu Listen und Berichten hinzufügen.&lt;/p>Td&lt;/td>td>&lt;p>Td>&lt;p>Am 30. Juli 2026&lt;/p>&lt;/td>
-    &lt;td>13. August 2026&lt;/p>&lt;/td>
-    &lt;td>&lt;p>15. Oktober 2026&lt;/p>&lt;/td>
-    &lt;/tr>tr>
-    &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md /help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=„MCXref“ xrefFormat=&quot;{para}&quot;>Konsistente Reihenfolge von Mehrfachauswahl-Feldwerten in Legacy- und -Berichten&lt;/a>Ausgewählte Optionen für die Mehrfachauswahl von benutzerdefinierten Feldern werden jetzt in einer konsistenten, vorhersehbaren Reihenfolge in Legacy-Listen und -Berichten angezeigt.&lt;/p>Juli&lt;/td> 2026&lt;/p>&lt;/td>
-    &lt;td>&lt;p>13. August 2026&lt;/p>&lt;/td>
-    &lt;td>&lt;p>15. Oktober 2026&lt;/p>&lt;/td>
+    >&lt;/td>p&lt;p>13. August 2026&lt;/td>p&lt;td>&lt;p>17. September 2026&lt;/p>&lt;/td>p&lt;td>&lt;p>15. Oktober, 2026&lt;/p>&lt;/td>
+    >&lt;/tr>
+    >&lt;tr>
+    >&lt;td>
+    >&lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=„MCXref xref“ xrefformat=&quot;{para}&quot;>Native Referenzfelder sind für Listen und Berichte verfügbar&lt;/a>Jetzt können Sie in Workfront native Referenzfelder zu Listen und Berichten hinzufügen.&lt;/p>Td&lt;/td>td>&lt;p>Td>&lt;p>Am 30. Juli 2026&lt;/p>&lt;/td>
+    >&lt;td>13. August 2026&lt;/p>&lt;/td>
+    >&lt;td>&lt;p>15. Oktober 2026&lt;/p>&lt;/td>
+    >&lt;/tr>tr>
+    >&lt;td>
+    >&lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md /help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=„MCXref“ xrefFormat=&quot;{para}&quot;>Konsistente Reihenfolge von Mehrfachauswahl-Feldwerten in Legacy- und -Berichten&lt;/a>Ausgewählte Optionen für die Mehrfachauswahl von benutzerdefinierten Feldern werden jetzt in einer konsistenten, vorhersehbaren Reihenfolge in Legacy-Listen und -Berichten angezeigt.&lt;/p>Juli&lt;/td> 2026&lt;/p>&lt;/td>
+    >&lt;td>&lt;p>13. August 2026&lt;/p>&lt;/td>
+    >&lt;td>&lt;p>15. Oktober 2026&lt;/p>&lt;/td>
      
      
      
