@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f2a7d09bbf25685395dc97f67bfde87a5d006aea
+source-git-commit: 7d94576b5841f3ce7b76714b835c592e095b003a
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1749'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,77 @@ ht-degree: 1%
 In diesem Artikel werden die Funktionen beschrieben, die in Workfront Planning im vierten Quartal 2026 veröffentlicht werden.
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Verwalten der Sichtbarkeit von Datensatzminiaturansichten und -farben in der Tabellenansicht über die Spalte des Primärfelds
+
+>[!NOTE]
+>
+>Vorschau: 3. September 2026
+>Produktions-Schnellveröffentlichung: 17. September 2026
+>Produktion für alle: 15. Oktober 2026
+
+Sie können jetzt die Sichtbarkeit der Miniaturansichten und Farben der Datensätze verwalten, wenn Sie die Spalte für das Primärfeld in der Tabellenansicht bearbeiten.
+
+Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+## Erstellen von Geschäftsregeln für Datensatztypen
+
+>[!NOTE]
+>
+>Vorschau: 3. September 2026
+>Produktions-Schnellveröffentlichung: 17. September 2026
+>Produktion für alle: 15. Oktober 2026
+
+Als Workspace-Manager können Sie jetzt Geschäftsregeln für Datensatztypen festlegen, die später widerspiegeln, wie Datensätze dieses Typs verwaltet werden. Sie können Regeln definieren, mit denen Benutzer Datensätze nur dann bearbeiten oder löschen können, wenn bestimmte Bedingungen erfüllt oder bestimmte Felder ausgefüllt sind.
+
+Sie können eine Bedingung für Ihre Geschäftsregel erstellen, die auf alle Feldtypen mit Ausnahme der folgenden verweist:
+
+* Formelfelder
+* Suchfelder
+* Referenzfelder
+
+Globalen Datensatztypen können keine Geschäftsregeln hinzugefügt werden.
+
+Weitere Informationen finden Sie unter [Konfigurieren von Geschäftsregeln für Datensatztypen](/help/quicksilver/planning/architecture/configure-business-rules.md).
+
+>[!NOTE]
+>
+>Mit dieser Aktualisierung wurden auch die folgenden Menüoptionen im Menü Mehr eines Datensatztyps aktualisiert:
+>
+>* **Anfrageformulare erstellen** und **Anfrageformulare verwalten** wurde in &quot;**Formulare“**
+>* **Automatisierungen verwalten** wurde in &quot;**&quot;**
+
+## Einführung benutzerdefinierter Wochen für die Zeitleisten-Ansicht
+
+>[!NOTE]
+>
+>Vorschau: 3. September 2026
+>Produktions-Schnellveröffentlichung: 17. September 2026
+>Produktion für alle: 15. Oktober 2026
+
+Als Workfront-Administrator können Sie jetzt benutzerdefinierte Wochen zusätzlich zu benutzerdefinierten Quartalen konfigurieren. Benutzerdefinierte Wochen und Quartale werden in der Ansicht Workfront-Planung angezeigt. Workfront generiert sequenzielle Wochen ab Woche 1 zu Beginn des benutzerdefinierten Quartals 1.
+
+Sie können die Wochentitel anpassen, die in der Zeitleisten -Ansicht sichtbar sind. Sie können ein vordefiniertes Format auswählen oder ein benutzerdefiniertes Format eingeben.
+
+Benutzerdefinierte Wochen werden in Workfront nicht angezeigt. Sie sind nur in der Ansicht Workfront-Planungs-Zeitleiste sichtbar.
+
+Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale aktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+
+## Filter für abhängige Felder von verbundenen Datensätzen
+
+>[!NOTE]
+>
+>Vorschau: 3. September 2026
+>Produktions-Schnellveröffentlichung: 17. September 2026
+>Produktion für alle: 15. Oktober 2026
+
+Sie können jetzt nach bestimmten Datensatztypen filtern, die einem Filterkriterium entsprechen, wenn Sie in Planning abhängige Verbindungen hinzufügen.
+
+Anstatt dass alle Datensatztypen in abhängigen verbundenen Feldern verfügbar sind, werden nur diejenigen angezeigt, die Ihren Filterkriterien entsprechen.
+
+Für diese Funktion haben wir auf der Registerkarte Neue Verbindung beim Verbinden von Datensatztypen die neue Option Datensatzfilterregeln hinzugefügt.
+
+Weitere Informationen finden Sie unter [Abhängige Verbindungen verwalten](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
 
 ## Alle Gruppierungen in der Zeitleisten -Ansicht reduzieren und erweitern
 
