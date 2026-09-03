@@ -7,21 +7,15 @@ author: Lisa
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
 TQID: https://experienceleague.adobe.com/GQSQGGHBZsBLtI8IEUltVXzxmEtOxue0iE6fpHmYWP4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 8c08e110aeccdf6d6416fd1070fbcbd40fd46983
 workflow-type: tm+mt
-source-wordcount: 475
-ht-degree: 15%
+source-wordcount: 480
+ht-degree: 13%
 
 ---
 
@@ -74,13 +68,13 @@ Wenn ein(e) Benutzende(r) die Finanzierungsdaten für das Projekt manuell neu be
 
 1. Gehe zu einem Projekt.
 1. Klicken Sie auf das **Mehr** Menü ![Mehr](assets/qs-more-icon-on-an-object.png) neben dem Namen des Projekts in der Kopfzeile und dann auf **Bearbeiten**.
-1. Aktivieren **im Abschnitt** die Option **Zulassen, dass Abrechnungssätze auf Firmenebene Abrechnungssätze auf Projektebene überschreiben**.
+1. Wählen **Abschnitt** Finanzen“ die Option **Zulassen, dass Abrechnungssätze auf Firmenebene Abrechnungssätze auf Projektebene überschreiben**.
 
    >[!CAUTION]
    >
-   >Durch Aktivierung dieser Option werden historische Umsatzberechnungen überschrieben, es sei denn, sie sind als „In Rechnung gestellt“ gekennzeichnet. Sie können die historischen Umsatzberechnungen beibehalten, indem Sie einen Rechnungsnachweis erstellen. Weitere Informationen finden Sie im Artikel [Rechnungsnachweise erstellen](../../../manage-work/projects/project-finances/create-billing-records.md)
+   >Durch Aktivierung dieser Option werden historische Umsatzberechnungen überschrieben, es sei denn, sie sind als „In Rechnung gestellt“ gekennzeichnet. Sie können die historischen Umsatzberechnungen beibehalten, indem Sie einen Rechnungsnachweis erstellen. Weitere Informationen finden Sie im Artikel [Rechnungsnachweise erstellen](../../../manage-work/projects/project-finances/create-billing-records.md).
 
-1. Klicken Sie auf **Änderungen speichern**.
+1. Klicken Sie auf **Speichern**.
 
 ## Abrechnungssätze auf Firmenebene aktualisieren und auf ein Projekt anwenden
 
@@ -93,23 +87,24 @@ Nachdem Sie die Option zum Außerkraftsetzen der Abrechnungssätze auf Firmenebe
 {{step-1-to-setup}}
 
 1. Klicken Sie auf **Firmen**.
-1. Klicken Sie auf den Namen der Firma, die dem Projekt zugeordnet ist, für das Sie die Außerkraftsetzung der Abrechnungssätze auf Firmenebene aktiviert haben.
+1. Klicken Sie auf den Namen der Firma, die dem Projekt zugeordnet ist, für das Sie die Überschreibung der Abrechnungssätze auf Firmenebene aktiviert haben.
 1. Klicken **im linken** auf „Abrechnungssätze“.
-1. Aktualisieren Sie den **Abrechnungssatz des Unternehmens** und das Start-/Enddatum für ein vorhandenes Aufgabengebiet und drücken Sie dann die Eingabetaste.
+1. Wählen Sie die zu aktualisierende Aufgabengebiets-Rate aus und klicken Sie auf das Symbol **Bearbeiten** ![Symbol Bearbeiten](assets/edit-icon.png).
 
-   Um einen neuen Datumswert für den effektiven Abrechnungssatz des Unternehmens hinzuzufügen, wählen Sie einen Abrechnungssatz für das Aufgabengebiet aus und klicken Sie auf **Bearbeiten**. Weitere Informationen zu Datumsangaben für Abrechnungssätze für Unternehmen finden Sie unter [Abrechnungssätze für Aufgabengebiete auf Firmenebene überschreiben](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
+   Aktualisieren Sie den Abrechnungssatz und das Gültigkeitsdatum nach Bedarf, und klicken Sie auf **Speichern**. Weitere Informationen zu Datumsangaben für Abrechnungssätze für Unternehmen finden Sie unter [Abrechnungssätze für Aufgabengebiete auf Firmenebene überschreiben](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md).
 
 1. Führen Sie einen der folgenden Schritte aus, um die Unternehmenstarife für ein oder mehrere Projekte zu aktualisieren:
 
    * Mehrere Projekte:
 
-      1. Zu einer Projektliste gehen.
-      1. Aktivieren Sie das Kontrollkästchen entsprechend den Projekten, die Sie aktualisieren möchten.
-      1. Klicken Sie auf **Bearbeiten**.
-      1. Aktivieren Sie im Abschnitt Einstellungen die Option **Kosten und Einnahmen neu berechnen**.
-      1. Klicken Sie auf **Änderungen speichern**.
+     1. Zu einer Projektliste gehen.
+     1. Aktivieren Sie die Kontrollkästchen für die Projekte, die Sie aktualisieren möchten.
+     1. Klicken Sie oben in der Liste auf das **Mehr**-Menü ![Mehr](assets/qs-more-icon-on-an-object.png) und anschließend auf **Finanzen neu berechnen**.
 
    * Einzelnes Projekt:
 
-      1. Gehen Sie zu dem Projekt, für das Sie die Außerkraftsetzung der Abrechnungssätze auf Firmenebene aktiviert haben.
-      1. Klicken Sie auf das **Mehr** Menü ![Mehr](assets/qs-more-icon-on-an-object.png) neben dem Projektnamen in der Kopfzeile und dann auf **Finanzen neu berechnen**.
+     1. Gehen Sie zu dem Projekt, für das Sie die Außerkraftsetzung der Abrechnungssätze auf Firmenebene aktiviert haben.
+     1. Klicken Sie auf das **Mehr** Menü ![Mehr](assets/qs-more-icon-on-an-object.png) neben dem Projektnamen in der Kopfzeile und dann auf **Finanzen neu berechnen**.
+
+     Weitere Informationen zur Neuberechnung der Finanzierung für ein oder mehrere Projekte finden Sie unter [Projektfinanzen neu berechnen](/help/quicksilver/manage-work/projects/project-finances/recalculate-project-finances.md).
+
