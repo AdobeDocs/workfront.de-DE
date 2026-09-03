@@ -10,25 +10,23 @@ exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/mo2xl9ElZiaehjY1KH6ykvqO-PaO126rw0GAOFLJ0sg
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: d3382524-5489-431b-bde9-271ab257bc37
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 26b9239894d071fa5a3a0e185f935091e9e7ad13
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: d3382524-5489-431b-bde9-271ab257bc37
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 1705
+source-wordcount: 1817
 ht-degree: 1%
 
 ---
 
 # Aktualisieren oder Erstellen von Projekten durch Veröffentlichung von Initiativen im [!DNL Scenario Planner]
+
+<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Das Veröffentlichen eines Szenarios aus der [!DNL Adobe Workfront Scenario Planner] führt zu Folgendem:
 
@@ -126,7 +124,7 @@ Old:
 Bevor Sie beginnen:
 
 * Sie müssen einen Plan erstellen und speichern, bevor Sie Initiativen daraus veröffentlichen können.
-* Die Einstellung Benutzern erlauben, Projekte ohne Vorlage zu erstellen muss im Bereich Projektvoreinstellungen von Setup aktiviert sein. Weitere Informationen finden [&#x200B; unter „Systemweite Projektvoreinstellungen konfigurieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Die Einstellung Benutzern erlauben, Projekte ohne Vorlage zu erstellen muss im Bereich Projektvoreinstellungen von Setup aktiviert sein. Weitere Informationen finden [ unter „Systemweite Projektvoreinstellungen konfigurieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ## Überlegungen zur Veröffentlichung von Initiativen in Projekten
 
@@ -144,7 +142,7 @@ Bevor Sie beginnen:
   >
   >Sie können dasselbe Projekt in mehrere Pläne importieren. Die Veröffentlichung kann Initiativinformationen zu einem Projekt überschreiben, das mit mehreren Initiativen verknüpft ist.
 
-  Informationen zum Erstellen von Initiativen durch Importieren von Projekten [&#x200B; Sie unter „Projekte in Pläne importieren“ im  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
+  Informationen zum Erstellen von Initiativen durch Importieren von Projekten [ Sie unter „Projekte in Pläne importieren“ im  [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
 
 * Alle am Projekt vorgenommenen Änderungen werden nicht auf die verknüpfte Initiative übertragen.
 
@@ -195,24 +193,24 @@ Bevor Sie beginnen:
    Informationen zum Erstellen von Initiativen finden Sie unter [Erstellen und Bearbeiten von Initiativen im [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
 
 1. Klicken Sie **[!UICONTROL Plan speichern]**.
-1. Wählen Sie das Szenario, das Sie veröffentlichen möchten, aus dem Dropdown-Menü **[!UICONTROL Anfangsszenario]** und klicken Sie dann oben rechts auf **[!UICONTROL Zum Veröffentlichen]** ![Zum Veröffentlichen gehen](assets/go-to-publish-button-icon.png).
+1. Wählen Sie das Szenario, das Sie veröffentlichen möchten **[!UICONTROL aus dem Dropdown-Menü]** Anfängliches Szenario“ aus und klicken Sie dann oben ]**auf**[!UICONTROL  Zum Veröffentlichen gehen“.
 
    ODER
 
-   Klicken Sie auf **[!UICONTROL Szenarien vergleichen]**, bewegen Sie den Mauszeiger über die Szenariokarte, von der aus Sie veröffentlichen möchten, und klicken Sie dann auf **[!UICONTROL Zum Veröffentlichen wechseln]** ![Zum Veröffentlichen wechseln](assets/go-to-publish-button-icon.png).
+   Klicken Sie auf **[!UICONTROL Szenarien vergleichen]**, bewegen Sie den Mauszeiger über die Szenariokarte, von der Sie veröffentlichen möchten, und klicken Sie dann auf **[!UICONTROL Zur Veröffentlichung wechseln]**.
 
-   Die Seite [!UICONTROL Initiativen veröffentlichen] wird mit einer Liste aller Initiativen im Szenario angezeigt. Wenn eine der Initiativen zuvor veröffentlicht wurde, wird das Projektsymbol ![Projektsymbol](assets/project-icon-sp.png) nach ihrem Namen und dem **[!UICONTROL Letzte Veröffentlichung]** in der Liste angezeigt.
+   Die Seite [!UICONTROL **Initiativen veröffentlichen**] wird mit einer Liste aller Initiativen im Szenario angezeigt. <span class="preview">Wenn eine der Initiativen zuvor veröffentlicht wurde, wird das Projektsymbol ![Projektsymbol](assets/project-icon-sp.png) nach ihrem Namen und dem **[!UICONTROL Zuletzt veröffentlicht]** in der Liste angezeigt.</span>
 
    >[!TIP]
    >
-   >Initiativen, die durch den Import von Projekten erstellt wurden, zeigen auch das Projektsymbol ![Projektsymbol](assets/project-icon-sp.png) rechts neben ihrem Namen an
+   >In der Produktionsumgebung zeigen Initiativen, die durch den Import von Projekten erstellt wurden, auch das Projektsymbol ![Projektsymbol) ](assets/project-icon-sp.png) ihrem Namen an
 
    ![Projektsymbol und Datum der letzten Veröffentlichung](assets/project-icons-and-last-published-date-in-publish-initiative-page-350x63.png)
 
-   <!--
-    1. <span class="preview">(Optional) In the Publish initiatives page, hover over the project icon ![Project icon](assets/project-icon-sp.png), then click the **More** menu ![More menu](assets/more-menu.png) > **Open project**. The project opens in a new browser tab.</span>
-    -->
-1. (Optional und bedingt) Wenn Sie aus einem vorhandenen Plan veröffentlichen möchten, klicken Sie auf das **[!UICONTROL Filter]**-Symbol ![Filtersymbol](assets/filter-nwepng.png) in der oberen rechten Ecke des Plans und wählen Sie eine der folgenden Optionen aus:
+
+1. <span class="preview">(Optional) Bewegen Sie auf der Seite **Initiativen veröffentlichen** den Mauszeiger über den Projektnamen und klicken Sie dann auf das Menü **Mehr** ![Mehr Menü](assets/more-menu.png) > **Projekt öffnen**. Das Projekt wird in einer neuen Browser-Registerkarte geöffnet.</span>
+
+1. (Optional und bedingt) Wenn Sie aus einem vorhandenen Plan veröffentlichen möchten, klicken Sie auf das **[!UICONTROL Filter]**-Symbol in der oberen rechten Ecke des Plans <span class="preview">oder auf das Tabellensymbol in der oberen linken </span> und wählen Sie eine der folgenden Optionen:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -244,16 +242,20 @@ Bevor Sie beginnen:
    >
    >Neue Projekte tragen denselben Namen wie die veröffentlichten Initiativen.
 
-1. (Bedingt) Führen Sie einen der folgenden Schritte aus:
+1. (Bedingt) Klicken Sie nach der Veröffentlichung der Initiativen in der Bestätigungsmeldung auf eine der folgenden Optionen:
 
    * Wenn Sie eine Initiative veröffentlicht haben, klicken Sie auf **[!UICONTROL Verknüpftes Projekt anzeigen]**, um das von der Initiative erstellte oder aktualisierte Projekt zu öffnen.
-   * Wenn Sie mehr als eine Initiative veröffentlicht haben, klicken Sie auf **[!UICONTROL Verknüpfte Projekte anzeigen]**, um eine Liste der in Initiativen veröffentlichten Projekte zu öffnen. [!DNL Workfront] wendet standardmäßig den Filter Projekte [!DNL Scenario Planner] auf die Liste der Projekte an. Die zuletzt veröffentlichten Projekte werden oben in der Liste angezeigt.
+   * Wenn Sie mehr als eine Initiative veröffentlicht haben, klicken Sie auf **[!UICONTROL Verknüpfte Projekte anzeigen]**, um eine Liste der in Initiativen veröffentlichten Projekte zu öffnen.
 
-     ![Szenario-Planer nach der Veröffentlichung von Initiativen](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
+   Dadurch wird der Bereich Projekte geöffnet und der Filter [!DNL Scenario Planner] Projekte wird standardmäßig auf die Liste der Projekte angewendet.
+
+   Die zuletzt veröffentlichten Projekte werden oben in der Liste angezeigt.
+
+   ![Szenario-Planer nach der Veröffentlichung von Initiativen](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
 
 1. Gehen Sie zu den folgenden Bereichen, um Informationen über die Initiative zum Projekt anzuzeigen:
 
-   * **Der Abschnitt [!UICONTROL Updates]**: Eine Aktualisierung wird veröffentlicht, um anzugeben, dass das Projekt von der Initiative erstellt oder aktualisiert wurde. Die Aktualisierung enthält den Namen der Initiative, die das Projekt erstellt oder aktualisiert hat, und den verknüpften Namen des Plans, der die Initiative enthält. Sie können auf den Namen des Plans in der Aktualisierung klicken, um den Plan in der [!DNL Scenario Planner] zu öffnen.
+   * **Abschnitt [!UICONTROL Updates]:** Aktualisierung wird auf der Registerkarte **Systemaktivität** veröffentlicht, um anzugeben, dass das Projekt von der Initiative erstellt oder aktualisiert wurde. Die Aktualisierung enthält den Namen der Initiative, die das Projekt erstellt oder aktualisiert hat, und den verknüpften Namen des Plans, der die Initiative enthält. Sie können auf den Namen des Plans in der Aktualisierung klicken, um den Plan in der [!DNL Scenario Planner] zu öffnen.
 
      ![Update-Stream zur Bestätigung der Veröffentlichung](assets/update-stream-confirmation-of-publish-on-project-350x65.png)
 
@@ -280,7 +282,7 @@ Bevor Sie beginnen:
         <td><span>Der erste Tag des Startmonats der Initiative, wenn das Projekt mit einer Initiative verknüpft ist.</span> </td> 
        </tr> 
        <tr> 
-        <td role="rowheader"><span>[!UICONTROL Enddatum der-Initiative]</span> </td> 
+        <td role="rowheader"><span>[!Enddatum der UICONTROL-Initiative]</span> </td> 
         <td><span>Der letzte Tag des Endmonats der Initiative, an dem das Projekt mit einer Initiative verknüpft ist. </span> </td> 
        </tr> 
        <tr> 
@@ -297,6 +299,8 @@ Bevor Sie beginnen:
      </tr> 
       </tbody> 
      </table>
+
+     <!-- for the above table - I am not seeing the job role information on the Overview of the project anymore- bug??-->
 
      >[!NOTE]
      >

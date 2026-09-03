@@ -9,19 +9,12 @@ exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
 TQID: https://experienceleague.adobe.com/Jav41X12-b9nrSTfeEvI03EuYMiinnHuf2CPIUmKwlc
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
 source-wordcount: 1373
 ht-degree: 4%
@@ -35,13 +28,9 @@ ht-degree: 4%
 <!--remove Preview and Production mentions from the article when this comes out live-->
 
 <!--
-<div class="preview"> 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
-
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
-
-</div>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 -->
 
 Sie können die Meilenstein -Ansicht auf eine Projektliste oder einen Bericht anwenden. In der Ansicht Meilenstein können Sie alle Meilensteine anzeigen, die mit Aufgaben innerhalb der angezeigten Projekte verknüpft sind.
@@ -123,9 +112,9 @@ Beim Anwenden der Meilenstein -Ansicht auf eine Liste von Projekten werden die P
 
   Workfront sortiert die Projekte im ersten Abschnitt anhand der folgenden Kriterien in der folgenden Reihenfolge:
 
-   1. Meilensteinpfad-ID. Sie können die Meilensteinpfad-ID in einem Meilensteinpfadbericht anzeigen.
+  1. Meilensteinpfad-ID. Sie können die Meilensteinpfad-ID in einem Meilensteinpfadbericht anzeigen.
 
-   2. Das als erstes Sortierfeld für die Projektliste ausgewählte Feld in der Ansicht, die zuvor auf die Projektliste angewendet wurde, bevor Sie die Meilenstein -Ansicht ausgewählt haben.
+  2. Das als erstes Sortierfeld für die Projektliste ausgewählte Feld in der Ansicht, die zuvor auf die Projektliste angewendet wurde, bevor Sie die Meilenstein -Ansicht ausgewählt haben.
 
 * Die Projekte, die keinem Meilensteinpfad zugeordnet sind, werden als Nächstes im Abschnitt Nicht zugewiesen angezeigt. Workfront sortiert die Projekte im Bereich Nicht zugewiesen nach dem Feld, das als erstes Sortierfeld für die Projektliste in der Ansicht ausgewählt wurde, die zuvor auf die Projektliste angewendet wurde, bevor Sie die Meilenstein -Ansicht ausgewählt haben.
 
@@ -140,9 +129,9 @@ Beim Anzeigen einer Projektliste oder eines Projektberichts in der Meilenstein -
 
   Wenn Sie geplante Termine anzeigen und auch Zugriff auf das Projekt verwalten haben, können Sie die folgenden Termine direkt in der Ansicht Meilenstein bearbeiten:
 
-   * **Projektstartdaten:** Wenn ein Projekt ab dem Startdatum geplant wird, können Sie das geplante Startdatum des Projekts manuell ändern. Anschließend wird das geplante Abschlussdatum berechnet.
-   * **Projektabschlussdaten:** ein Projekt ab dem geplanten Abschlussdatum geplant wird, können Sie das geplante Abschlussdatum des Projekts manuell ändern. Anschließend wird das geplante Startdatum berechnet.
-   * **Abschlussdaten von Aufgaben:** Sie können das geplante Abschlussdatum für Aufgaben direkt in der Ansicht Meilenstein manuell aktualisieren.
+  * **Projektstartdaten:** Wenn ein Projekt ab dem Startdatum geplant wird, können Sie das geplante Startdatum des Projekts manuell ändern. Anschließend wird das geplante Abschlussdatum berechnet.
+  * **Projektabschlussdaten:** ein Projekt ab dem geplanten Abschlussdatum geplant wird, können Sie das geplante Abschlussdatum des Projekts manuell ändern. Anschließend wird das geplante Startdatum berechnet.
+  * **Abschlussdaten von Aufgaben:** Sie können das geplante Abschlussdatum für Aufgaben direkt in der Ansicht Meilenstein manuell aktualisieren.
 
 * **Prozent abgeschlossen:** Zeigt den Prozentsatz der Fertigstellung jeder Aufgabe und jedes Projekts an.
 
@@ -152,10 +141,10 @@ Beim Anzeigen einer Projektliste oder eines Projektberichts in der Meilenstein -
 
 * **Symbole für den Aufgabenstatus:** Im Folgenden finden Sie Symbole, die den Aufgabenstatus anzeigen:
 
-   * Einschaltzeit - grün
-   * Hinten - gelb
-   * Gefährdet - blau
-   * Spät - rot
+  * Einschaltzeit - grün
+  * Hinten - gelb
+  * Gefährdet - blau
+  * Spät - rot
 
   <!--
    * In the Production environment, the following status icons display next to each project and task in the Milestone view: 
@@ -177,33 +166,33 @@ Beim Anzeigen einer Projektliste oder eines Projektberichts in der Meilenstein -
 
 * **Aufgabenstatusschattierung für abgeschlossene Aufgaben**: Nachdem eine Aufgabe als „Abgeschlossen“ markiert wurde, wird der Hintergrund der Aufgabe in der Meilenstein -Ansicht schattiert, um anzugeben, ob die Aufgabe termingerecht oder zu spät abgeschlossen wurde:
 
-   * **Rote Schattierung für**: Der Hintergrund einer Aufgabe ist rot, wenn der Fortschrittsstatus &quot;**&quot;**.
+  * **Rote Schattierung für**: Der Hintergrund einer Aufgabe ist rot, wenn der Fortschrittsstatus &quot;**&quot;**.
 
-   * **Grüne Schattierung für Aufgabenspalte**: Der Hintergrund einer Aufgabe ist grün, wenn der Fortschrittsstatus &quot;**&quot;**.
+  * **Grüne Schattierung für Aufgabenspalte**: Der Hintergrund einer Aufgabe ist grün, wenn der Fortschrittsstatus &quot;**&quot;**.
 
 * **Projektstatusschattierung für die Spalten Projektstart und Projektabschluss**:
 
-   * **Spalte Projektstart**: Der Hintergrund der Spalte Projektstart ist nur dann rot oder grün, wenn das tatsächliche Startdatum angegeben wird:
+  * **Spalte Projektstart**: Der Hintergrund der Spalte Projektstart ist nur dann rot oder grün, wenn das tatsächliche Startdatum angegeben wird:
 
-      * **Rote Schattierung für Projektstartspalte**: Der Hintergrund der Projektstartspalte ist rot, wenn der Fortschrittsstatus des Projekts &quot;**&quot;**.
+    * **Rote Schattierung für Projektstartspalte**: Der Hintergrund der Projektstartspalte ist rot, wenn der Fortschrittsstatus des Projekts &quot;**&quot;**.
 
-      * **Grüne Schattierung für Projektstartspalte**: Der Hintergrund der Projektstartspalte ist grün, wenn der Fortschrittsstatus des Projekts &quot;**&quot;**.
+    * **Grüne Schattierung für Projektstartspalte**: Der Hintergrund der Projektstartspalte ist grün, wenn der Fortschrittsstatus des Projekts &quot;**&quot;**.
 
-     >[!TIP]
-     >
-     >Sie müssen zur Seite mit den Projektdetails gehen, um das tatsächliche Startdatum des Projekts anzuzeigen.
+    >[!TIP]
+    >
+    >Sie müssen zur Seite mit den Projektdetails gehen, um das tatsächliche Startdatum des Projekts anzuzeigen.
 
-   * **Spalte für den Projektabschluss**: Der Hintergrund der Spalte für den Projektabschluss ist nur dann rot oder grün, wenn das tatsächliche Abschlussdatum angegeben wird:
+  * **Spalte für den Projektabschluss**: Der Hintergrund der Spalte für den Projektabschluss ist nur dann rot oder grün, wenn das tatsächliche Abschlussdatum angegeben wird:
 
-      * **Rote Schattierung für**: Der Hintergrund der Spalte „Projektabschluss“ ist rot, wenn der Fortschrittsstatus des Projekts &quot;**&quot;**.
+    * **Rote Schattierung für**: Der Hintergrund der Spalte „Projektabschluss“ ist rot, wenn der Fortschrittsstatus des Projekts &quot;**&quot;**.
 
-      * **Grüne Schattierung für die Spalte Projektabschluss**: Der Hintergrund der Spalte Projektabschluss ist grün, wenn der Fortschrittsstatus des Projekts &quot;**&quot;**.
+    * **Grüne Schattierung für die Spalte Projektabschluss**: Der Hintergrund der Spalte Projektabschluss ist grün, wenn der Fortschrittsstatus des Projekts &quot;**&quot;**.
 
-     >[!TIP]
-     >
-     >Sie müssen zur Seite mit den Projektdetails gehen, um das tatsächliche Abschlussdatum des Projekts anzuzeigen.
+    >[!TIP]
+    >
+    >Sie müssen zur Seite mit den Projektdetails gehen, um das tatsächliche Abschlussdatum des Projekts anzuzeigen.
 
-   * Den Spalten Start und Abschluss wird keine Farbschattierung zugewiesen, wenn die Aufgaben den Verlaufsstatus Gefährdet oder Hinten aufweisen.
+  * Den Spalten Start und Abschluss wird keine Farbschattierung zugewiesen, wenn die Aufgaben den Verlaufsstatus Gefährdet oder Hinten aufweisen.
 
   <!--add new screen shot for preview or production release; logged a bug as this is not happening in the new view - if at prod this is still missing, hide this screen shot-->
 
@@ -212,9 +201,9 @@ Beim Anzeigen einer Projektliste oder eines Projektberichts in der Meilenstein -
 * **Projektname**: Der Projektname wird mit einem Link zum Projekt angezeigt.
 * **Projektbedingungssymbol**: Die folgenden Indikatoren zeigen die Projektbedingung an:
 
-   * On Target - grün
-   * Gefährdet - gelb
-   * In Schwierigkeiten - rot
+  * On Target - grün
+  * Gefährdet - gelb
+  * In Schwierigkeiten - rot
 
   <!--
    * In the Production environment, an icon displays next to the project name, indicating the condition of the project. The Condition of the project might be one of the following:

@@ -8,7 +8,7 @@ feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
 last-update: 2026-04-01T18:03:50Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
 source-wordcount: '563'
 ht-degree: 4%
@@ -129,12 +129,11 @@ Löschen eines Plans:
 Eine Liste mit Plänen wird angezeigt.
 
 1. Klicken Sie auf den Namen eines Plans, um ihn zu öffnen.
-1. Klicken Sie auf **[!UICONTROL Mehr]** ![Mehr &#x200B;](assets/more-menu.png) rechts neben dem Plannamen und klicken Sie dann auf **[!UICONTROL Löschen]** > **[!UICONTROL Ja, löschen]**.
+1. Klicken Sie auf **[!UICONTROL Mehr]** ![Mehr ](assets/more-menu.png) rechts neben dem Plannamen und klicken Sie dann auf **[!UICONTROL Löschen]** > **[!UICONTROL Ja, löschen]**.
 
    >[!TIP]
    >
-   ><span class="preview">Sie können einen Plan in einer Liste auch löschen, indem Sie ihn auswählen und dann unten in der Liste auf **Löschen** klicken, um ihn zu löschen.</span>
-
+   ><span class="preview">Sie können einen Plan in einer Liste auch löschen, indem Sie ihn auswählen und dann unten in der Liste auf **Löschen** klicken, um ihn zu löschen.</span> <!--move the tip as the main step when we release this??-->
 
    Der Plan wird gelöscht und Sie kehren zur Liste der Pläne zurück.
 

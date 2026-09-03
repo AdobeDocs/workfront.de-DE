@@ -9,19 +9,13 @@ feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
 TQID: https://experienceleague.adobe.com/KwUrEyHt6dqTcmP3JrTObsfvkcjP9q7O6-msiBuZVP4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
 workflow-type: tm+mt
-source-wordcount: 578
+source-wordcount: 646
 ht-degree: 7%
 
 ---
@@ -31,6 +25,12 @@ ht-degree: 7%
 <!--Audited: 03/2025-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
+
+<!--remove preview and production references-->
+
+<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Adobe Workfront verfügt über eine Reihe von Standardrisikotypen, die Sie Projekten in der Planungsphase zuordnen können, um potenzielle Hindernisse zu identifizieren, bevor Sie Arbeiten genehmigen.
 
@@ -94,7 +94,7 @@ Sie können Folgendes tun, um die Anzahl der Risikotypen in Ihrer Workfront-Inst
 
 1. Klicken Sie **[!UICONTROL Risikotypen]**.
 1. Wählen Sie den Risikotyp aus, den Sie bearbeiten möchten.
-1. Klicken Sie auf das **[!UICONTROL Bearbeiten]**-Symbol ![Bearbeiten](assets/edit-icon.png).
+1. Verwenden Sie das Symbol **[!UICONTROL Bearbeiten]**.
 
    Das [!UICONTROL **Risikotyp bearbeiten**] wird geöffnet.
 
@@ -106,22 +106,33 @@ Sie können Folgendes tun, um die Anzahl der Risikotypen in Ihrer Workfront-Inst
 
 1. (Optional) Ändern Sie den Namen und die Beschreibung des Risikotyps.
 
-   Für die Felder **[!UICONTROL Name“ und]** Beschreibung **gibt es eine Zeichenbeschränkung von** 0 Zeichen.
+   Für die Felder **[!UICONTROL Name“ und]** Beschreibung ]**gibt es eine Zeichenbeschränkung von**[!UICONTROL  0 Zeichen.
 
 1. Klicken Sie **[!UICONTROL Änderungen speichern].**
 
-1. (Optional) Um einen Risikotyp zu löschen, wählen Sie ihn in der Liste aus und klicken dann auf das [!UICONTROL **Löschen**]-Symbol ![Löschen](assets/delete.png) und dann auf [!UICONTROL **Ja, Löschen**]. Der Risikotyp wurde gelöscht und kann nicht wiederhergestellt werden.
+1. (Optional) Um einen Risikotyp zu löschen, wählen Sie ihn in der Liste aus und klicken Sie auf das Symbol [!UICONTROL **Löschen**] und dann auf [!UICONTROL **Ja, Löschen**]. Der Risikotyp wurde gelöscht und kann nicht wiederhergestellt werden.
 
-1. (Optional) Um eine Liste von Risikotypen zu exportieren, klicken Sie auf das Symbol [!UICONTROL **Exportieren**] (Symbol ![Exportieren](assets/export-icon.png). Sie können in die folgenden Dateitypen exportieren:
+1. (Optional) Um eine Liste der Risikotypen zu exportieren, klicken Sie auf das Symbol [!UICONTROL **Exportieren**]. Sie können in die folgenden Dateitypen exportieren:
 
-   * PDF
-   * Excel
-   * Excel (xlsx)
-   * Durch Tabulatoren getrennt
+   * In der Produktionsumgebung:
+
+     * PDF
+     * Excel
+     * Excel (xlsx)
+     * Durch Tabulatoren getrennt
+     * CSV
+
+   <div class="preview">
+
+   * In der Vorschau-Umgebung:
+
+     * CSV
+     * XLSX
+   </div>
 
    >[!TIP]
    >
-   >   Sie können zunächst eine begrenzte Anzahl von Risikotypen auswählen und diese dann für eine kleinere Liste exportieren.
+   >   In der Produktionsumgebung können Sie zunächst eine begrenzte Anzahl von Risikotypen auswählen und diese dann für eine kleinere Liste exportieren. <!--not sure if this should be logged as a bug because it's not working with the new Gtable list in Preview??-->
 
 ### Risikotypen erstellen {#create-risk-types}
 
@@ -143,7 +154,7 @@ Zusätzlich zu den standardmäßigen Risikotypen können Sie Risikotypen erstell
 
 1. Fügen Sie **[!UICONTROL Risikotyp einen]** Namen“ (erforderlich) und **[!UICONTROL Beschreibung]** (optional) hinzu.
 
-   Für die Felder **[!UICONTROL Name“ und]** Beschreibung **gibt es eine Zeichenbeschränkung von** 0 Zeichen.
+   Für die Felder **[!UICONTROL Name“ und]** Beschreibung ]**gibt es eine Zeichenbeschränkung von**[!UICONTROL  0 Zeichen.
 
 1. Klicken Sie **[!UICONTROL Risikotyp erstellen]**,
 
@@ -151,7 +162,7 @@ Zusätzlich zu den standardmäßigen Risikotypen können Sie Risikotypen erstell
 
    >[!TIP]
    >
-   >Informationen zum Bearbeiten eines benutzerdefinierten Risikotyps finden Sie im Abschnitt [[!UICONTROL Bearbeiten &#x200B;] Risikotypen](#edit-existing-risk-types) in diesem Artikel.
+   >Informationen zum Bearbeiten eines benutzerdefinierten Risikotyps finden Sie im Abschnitt [[!UICONTROL Bearbeiten ] Risikotypen](#edit-existing-risk-types) in diesem Artikel.
 
 ## Risiken mit Risikotypen an Projekte anhängen
 
