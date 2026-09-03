@@ -9,20 +9,14 @@ exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/yxgLrUYYpVo-DhroRvE3zUP4zLYdDDg-1Ni3yXj06Ms
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87effid: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: bf52de7515f8bcb29649b22c1fe40d5a7e306018
 workflow-type: tm+mt
-source-wordcount: 1593
+source-wordcount: 1599
 ht-degree: 4%
 
 ---
@@ -76,13 +70,12 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 {{step-1-to-setup}}
 
-1. Wenn Sie ein Arbeitszeittabellen-Profil zur Verwendung im gesamten System erstellen oder bearbeiten, klicken Sie auf **Arbeitszeittabelle und Stunden**.
+1. Um ein Arbeitszeittabellen-Profil zur Verwendung im gesamten System zu erstellen oder zu bearbeiten, klicken Sie auf **Arbeitszeittabelle und Stunden > Arbeitszeittabellen-Profile**.
 
    ODER
 
-   Wenn Sie ein Arbeitszeittabellen-Profil für eine Gruppe erstellen oder bearbeiten, klicken Sie auf **Gruppen** und dann auf den Namen der Gruppe.
+   Um ein Arbeitszeittabellen-Profil für eine Gruppe zu erstellen oder zu bearbeiten, klicken Sie auf **Gruppen**, klicken Sie auf den Namen der Gruppe und dann **linken Bereich auf** Arbeitszeittabellen-Profile.
 
-1. Klicken Sie **Arbeitszeittabellen-Profile**.
 1. Um ein Arbeitszeittabellen-Profil zu erstellen, klicken Sie auf **Neues Profil**.
 
    ODER
@@ -161,7 +154,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
    <!--To associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams, scroll towards the bottom of the page and find the **Assign People** section.-->
 
-   Wenn Sie Gruppenadministrator sind, können Sie das Arbeitszeittabellen-Profil Gruppen zuweisen, die Sie verwalten, jedoch nicht Teams. Weitere Informationen finden Sie unter [&#x200B; für einen Gruppenadministrator beim Zuweisen eines Arbeitszeittabellen-Profils &#x200B;](#limitations-for-a-group-administrator-assigning-a-timesheet-profile) diesem Artikel.
+   Wenn Sie Gruppenadministrator sind, können Sie das Arbeitszeittabellen-Profil Gruppen zuweisen, die Sie verwalten, jedoch nicht Teams. Weitere Informationen finden Sie unter [ für einen Gruppenadministrator beim Zuweisen eines Arbeitszeittabellen-Profils ](#limitations-for-a-group-administrator-assigning-a-timesheet-profile) diesem Artikel.
 
    >[!NOTE]
    >
