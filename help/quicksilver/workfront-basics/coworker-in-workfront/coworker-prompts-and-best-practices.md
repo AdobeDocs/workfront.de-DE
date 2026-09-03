@@ -23,7 +23,7 @@ Mit CX Coworker können Sie natürliche Sprache verwenden, um mit Workfront-Work
 
 Coworker ist Teil von Adobe Experience Cloud Agent Orchestrator.
 
-Weitere Informationen zu Agent Orchestrator finden Sie unter [Adobe Experience Platform Agent Orchestrator ](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator).
+Weitere Informationen zu Agent Orchestrator finden Sie unter [Adobe Experience Platform Agent Orchestrator &#x200B;](https://experienceleague.adobe.com/de/docs/experience-cloud-ai/experience-cloud-ai/agents/agent-orchestrator).
 
 ## Zugriffsanforderungen
 
@@ -105,7 +105,7 @@ Best Practices und Eingabeaufforderungen für diese allgemeinen Fähigkeiten fin
 
 CX Coworker kann Anweisungen oder Referenzinformationen bereitstellen, die aus der Workfront-Dokumentation abgerufen werden.
 
-Weitere Informationen zum Abrufen von Informationen aus der Workfront-Dokumentation finden [ unter „Hilfe vom KI-Assistenten ](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md).
+Weitere Informationen zum Abrufen von Informationen aus der Workfront-Dokumentation finden [&#x200B; unter „Hilfe vom KI-Assistenten &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md).
 
 Beispiel: Wie ändere ich den Aufgabendauer-Typ?
 

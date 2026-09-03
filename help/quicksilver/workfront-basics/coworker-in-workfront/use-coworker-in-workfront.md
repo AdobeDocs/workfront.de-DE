@@ -87,5 +87,5 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
    Weitere Informationen zu Artefakten in CX Coworker finden Sie unter [Artefakte](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#artifacts) in der Dokumentation zu Adobe CX Coworker.
 1. Um Einstellungen für Kollegen zu verwalten, klicken Sie auf das Symbol Einstellungen ![Einstellungen](assets/coworker-settings-icon.png).
-1. Um das Bedienfeld „Mitarbeiter“ zu erweitern, klicken Sie auf das Symbol „Erweitern![ (Symbol „Erweitern](assets/coworker-expand-icon.png).
-1. Um zur Benutzeroberfläche von Adobe CX Coworker zu gelangen, klicken Sie oben rechts auf ![ Apps-](assets/apps-icon.png) und wählen Sie Coworker aus der Liste der verfügbaren Apps aus.
+1. Um das Bedienfeld „Mitarbeiter“ zu erweitern, klicken Sie auf das Symbol „Erweitern![&#x200B; (Symbol „Erweitern](assets/coworker-expand-icon.png).
+1. Um zur Benutzeroberfläche von Adobe CX Coworker zu gelangen, klicken Sie oben rechts auf ![&#x200B; Apps-](assets/apps-icon.png) und wählen Sie Coworker aus der Liste der verfügbaren Apps aus.
