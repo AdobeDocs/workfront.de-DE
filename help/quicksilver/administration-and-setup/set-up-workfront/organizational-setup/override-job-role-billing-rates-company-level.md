@@ -9,10 +9,14 @@ feature: System Setup and Administration
 role: Admin
 exl-id: ee60987e-78b5-4853-9a4f-e44aa7a81c05
 TQID: https://experienceleague.adobe.com/EbnybXqWehstH2ziLqNZfMHtarMvUiugvWioYv9wLds
-product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aad
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 8c08e110aeccdf6d6416fd1070fbcbd40fd46983
 workflow-type: tm+mt
 source-wordcount: 857
@@ -67,7 +71,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 1. Klicken Sie auf den Firmennamen in der Liste.
 1. Klicken **[!UICONTROL im linken]** auf „Abrechnungssätze“.
 1. Klicken Sie **[!UICONTROL Abrechnungssatz hinzufügen] > [!UICONTROL Neuer Abrechnungssatz]** oder <span class="preview">**Abrechnungssatz hinzufügen**</span>.
-1. Wählen Sie [!UICONTROL  Dialogfeld „Neuer Abrechnungssatz] ein [!UICONTROL **Aufgabengebiet**], um den Abrechnungssatz für zu definieren.
+1. Wählen Sie [!UICONTROL &#x200B; Dialogfeld „Neuer Abrechnungssatz] ein [!UICONTROL **Aufgabengebiet**], um den Abrechnungssatz für zu definieren.
 
 ### In der Produktionsumgebung:
 
@@ -101,7 +105,7 @@ Der [!UICONTROL **Standard-Abrechnungssatz**] zeigt den Satz auf Systemebene fü
 
 1. Wählen Sie Attribute für den Satz aus, z. B. Agentur, Standort oder Kostenstelle.
 
-   Diese Attribute werden separat definiert und können sich auf Umsatz- und Kostenberechnungen auswirken. Weitere Informationen finden Sie unter [Definieren von ](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+   Diese Attribute werden separat definiert und können sich auf Umsatz- und Kostenberechnungen auswirken. Weitere Informationen finden Sie unter [Definieren von &#x200B;](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
 
    ![Dialogfeld „Neuer Abrechnungssatz“](assets/company-billing-rates-090326.png)
 
@@ -113,7 +117,7 @@ Der [!UICONTROL **Standard-Abrechnungssatz**] zeigt den Satz auf Systemebene fü
 
    Weitere Informationen zum Einrichten der Basiswährung in Workfront finden Sie unter [Einrichten von Wechselkursen](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
-   Informationen zum Ändern der Währung eines Projekts finden Sie unter [Ändern der ](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md).
+   Informationen zum Ändern der Währung eines Projekts finden Sie unter [Ändern der &#x200B;](/help/quicksilver/manage-work/projects/project-finances/change-project-currency.md).
 
 1. Geben [!DNL **im Feld**] den Abrechnungssatz für das Aufgabengebiet ein.
 
