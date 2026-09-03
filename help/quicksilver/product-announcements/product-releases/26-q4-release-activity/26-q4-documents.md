@@ -4,9 +4,9 @@ description: Verbesserungen bei Dokumenten für das vierte Quartal 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ee1fceee828c97db535ccc03c8b428940d6f7eed
+source-git-commit: 4ca5bba5090d9e3a72c8964bdf6cca1085c314db
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '1012'
 ht-degree: 2%
 
 ---
@@ -45,29 +45,25 @@ For more information, see [Add an update to a document](/help/quicksilver/docume
 
 Wenn an ein Dokument ein Korrekturabzug angehängt wird, wird der Link „Zur Überprüfung gehen“ in den Genehmigungs-E-Mails jetzt direkt in der Korrekturabzugsansicht geöffnet, sodass Prüfende und genehmigende Personen sofort mit ihrer Überprüfung beginnen können. Wenn für ein Dokument kein Korrekturabzug vorhanden ist, wird durch den Link weiterhin der Abschnitt Genehmigungen des Dokuments geöffnet, wie zuvor.
 
-<!--
-
-## Add teams to approvals for objects using Adobe cloud storage
+## Hinzufügen von Teams zu Genehmigungen für Objekte mithilfe von Adobe Cloud Storage
 
 >[!NOTE]
 >
->Preview: September 3, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Vorschau: 3. September 2026
+>Produktions-Schnellveröffentlichung: 17. September 2026
+>Produktion für alle: 15. Oktober 2026
 
-You can now add a Workfront Team as an approver or reviewer on a document approval or approval template, instead of adding each person individually:
+Sie können jetzt ein Workfront-Team als genehmigende Person oder Prüfende Person zu einer Dokumentgenehmigungs- oder Genehmigungsvorlage hinzufügen, anstatt jede Person einzeln hinzuzufügen:
 
-* Objects on Adobe cloud storage: Workfront adds each active team member individually, so the approver list always reflects who's currently on the team.
-* Objects using legacy Workfront storage: The team is added as a single participant by default, but you can now choose to add each team member as an individual participant.
-* In approval templates, Workfront stores a reference to the team and expands it into active members when you apply the template to a document, not when you save the template.
+* Objekte im Adobe-Cloud-Speicher: Workfront fügt jedes aktive Teammitglied einzeln hinzu, sodass die Liste der genehmigenden Personen immer widerspiegelt, wer sich derzeit im Team befindet.
+* Objekte, die Legacy-Workfront-Speicher verwenden: Das Team wird standardmäßig als Einzelteilnehmer hinzugefügt, Sie können jetzt jedoch jedes Teammitglied als Einzelteilnehmer hinzufügen.
+* In Genehmigungsvorlagen speichert Workfront einen Verweis auf das Team und erweitert es in aktive Mitglieder, wenn Sie die Vorlage auf ein Dokument anwenden, und nicht beim Speichern der Vorlage.
 
-For more information, see:
+Weitere Informationen finden Sie unter:
 
-* [Create an approval workflow in the new Documents area](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-in-the-new-documents-area)
-* [Create an approval workflow in the legacy documents area](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-in-the-legacy-documents-area)
-* [Create an approval workflow template for documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
-
--->
+* [Erstellen eines Validierungs-Workflows im Bereich „Neue Dokumente“](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-in-the-new-documents-area)
+* [Erstellen eines Validierungs-Workflows im Bereich „Alte Dokumente“](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md#create-an-approval-workflow-in-the-legacy-documents-area)
+* [Erstellen einer Validierungs-Workflow-Vorlage für Dokumente](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
 
 ## Festlegen eines Frame.io-Arbeitsbereichs in Projektvorlagen
 
@@ -124,45 +120,41 @@ Wenn Sie eine benutzerdefinierte Nachricht für eine Dokumentgenehmigung festleg
 
 Weitere Informationen finden Sie unter [Erstellen eines Dokumentgenehmigungs-Workflows](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
-<!--
-
-## Redesigned Versions panel in the new documents area
+## Bedienfeld für neu gestaltete Versionen im Bereich Neue Dokumente
 
 >[!NOTE]
 >
->Preview: September 3, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Vorschau: 3. September 2026
+>Produktions-Schnellveröffentlichung: 17. September 2026
+>Produktion für alle: 15. Oktober 2026
 
-If your organization uses Adobe cloud storage, the Versions panel in the new Documents area has a new design:
+Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, hat das Bedienfeld „Versionen“ im Bereich „Neue Dokumente“ ein neues Design:
 
-* Versions are labeled V1, V2, and so on to drive consistency with Frame.io.
-* Each version shows its approval status, such as "Approved" or "Withdrawn", directly in the list.
-* The panel now lists only Version history — there's no longer a separate "latest file" entry at the top.
+* Versionen sind mit V1, V2 usw. gekennzeichnet, um die Konsistenz mit Frame.io zu gewährleisten.
+* Jede Version zeigt ihren Genehmigungsstatus, wie „Genehmigt“ oder „Zurückgenommen“, direkt in der Liste an.
+* Das Bedienfeld listet jetzt nur noch den Versionsverlauf auf - oben gibt es keinen separaten Eintrag für die „neueste Datei“ mehr.
 
-Previously, versions were timestamped instead of numbered.
+Zuvor waren Versionen mit einem Zeitstempel versehen anstatt nummeriert.
 
-For more information, see [Manage document versions](/help/quicksilver/documents/managing-documents/manage-document-versions.md).
+Weitere Informationen finden Sie unter [Verwalten von Dokumentversionen](/help/quicksilver/documents/managing-documents/manage-document-versions.md).
 
-## Redesigned Approvals panel in the new documents area
+## Neu gestaltetes Genehmigungsbedienfeld im Bereich „Neue Dokumente“
 
 >[!NOTE]
 >
->Preview: September 3, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Vorschau: 3. September 2026
+>Produktions-Schnellveröffentlichung: 17. September 2026
+>Produktion für alle: 15. Oktober 2026
 
-If your organization uses Adobe cloud storage, the Approvals panel in the new Documents area now shows approval history across versions:
+Wenn Ihr Unternehmen Adobe Cloud-Speicher verwendet, zeigt das Bedienfeld Genehmigungen im Bereich Neue Dokumente jetzt einen versionsübergreifenden Genehmigungsverlauf an:
 
-* The panel lists the approval workflow for every version that has one, not just the current version.
-* Withdrawn workflows stay in the list, so you can still review their prior decisions.
-* Expand any version to see its stages, approver decisions, decision rule, and due dates without leaving the panel.
+* Im Bedienfeld wird der Genehmigungs-Workflow für jede Version aufgelistet, die über eine verfügt, nicht nur für die aktuelle Version.
+* Zurückgenommene Workflows bleiben in der Liste, sodass Sie ihre vorherigen Entscheidungen weiterhin überprüfen können.
+* Erweitern Sie eine beliebige Version, um die Phasen, Entscheidungen der genehmigenden Person, Entscheidungsregeln und Fälligkeitsdaten anzuzeigen, ohne das Bedienfeld zu verlassen.
 
-Previously, the Approvals panel only showed the current version's workflow.
+Zuvor wurde im Bedienfeld Genehmigungen nur der Workflow der aktuellen Version angezeigt.
 
-For more information, see [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
-
--->
+Weitere Informationen finden Sie unter [Erstellen eines Dokumentgenehmigungs-Workflows](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 ## Bilder an Kommentare zu Adobe-Cloud-Speicherobjekten anhängen
 
