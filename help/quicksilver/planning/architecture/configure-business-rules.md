@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
+source-git-commit: cafe52c228520becb66e2fa9d8121127223a8f71
 workflow-type: tm+mt
-source-wordcount: '1108'
-ht-degree: 1%
+source-wordcount: '1094'
+ht-degree: 2%
 
 ---
 
@@ -95,7 +95,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 * Regeln gelten für alle, die Datensätze bearbeiten oder löschen können.
 * Sie können mehr als eine Geschäftsregel für einen Datensatztyp verwenden.  <!--Syuzanna is checking this because it should be just ONE rule per action: one per edit and one per delete - see this: https://workfront.slack.com/archives/C0BHWEUSJCU/p1788281638322049?thread_ts=1787924876.280359&cid=C0BHWEUSJCU; I also logged a bug for this because it released with more than one per action - https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/6a99add600001e9aa90435ec181dec3e/overview-->
 
-  Alle Regeln werden gleichzeitig überprüft, und die Fehlermeldung zeigt alle Felder an, die in einer Anweisung fehlen.
+  Alle Regeln werden gleichzeitig überprüft. <!-- I have asked Syuzanna and Norayr multiple times HOW are the rules run/ prioritized and I got no answers; when I know, I will update here-->
 
 ## Geschäftsregeln konfigurieren
 
