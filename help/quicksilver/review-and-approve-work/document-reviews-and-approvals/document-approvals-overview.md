@@ -10,22 +10,20 @@ exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/P-naBIVBoFQcBaL4Zgo0cEOTQ8eErxqr0MBmHTbec9E
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 0f42eb9e5d6723849e668e3cd29fad36d43294c3
 workflow-type: tm+mt
-source-wordcount: 4323
+source-wordcount: 4442
 ht-degree: 0%
 
 ---
 
 # Einheitliche Prüfung und Genehmigung - Übersicht
+
+{{highlighted-preview}}
 
 Einheitliche Prüfung und Genehmigung führt Adobe Workfront und Adobe Frame.io zu einem einzigen, eng miteinander verbundenen Erlebnis zusammen. Dadurch werden die Lücken zwischen Marketing-Management, kreativer Überprüfung und Bereitstellung von Inhalten geschlossen.
 Projektkoordinatoren verwalten die Arbeit in Workfront, während Kreative, Marketingexperten und Stakeholder Assets im professionellen Frame.io-Viewer überprüfen und genehmigen, ohne Dateien zwischen getrennten Tools zu verschieben.
@@ -101,7 +99,7 @@ Die Workfront-Proofing-Funktion ist in dieser Integration nicht verfügbar.
 
 <span class="preview">Einheitliche Prüfung und Genehmigung umfasst eine umfassende Auditprotokollierung, die einen vollständigen Governance-Trail über Workfront und Frame.io hinweg erstellt. Änderungs-Trackinglogs erfassen Genehmigungsentscheidungen, die im Viewer-Lebenszyklus von Frame.io und Dokumenten getroffen wurden. Jeder Protokolleintrag enthält die Attribution im Quellsystem (Workfront oder Frame.io) neben den standardmäßigen Workfront-Überwachungsfeldern: Datum und Uhrzeit, Protokolltyp, Benutzername, Aktion und Objektname. Frame.io-Viewer-Kommentare sind nicht in Audit-Protokollen enthalten.</span>
 
-<span class="preview">Änderungs-Trackinglogs werden im Bereich „Setup“ von Workfront angezeigt und stehen für den Export zur Verfügung. Weitere Informationen finden Sie unter [Anzeigen und Verwalten des &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)</span>
+<span class="preview">Änderungs-Trackinglogs werden im Bereich „Setup“ von Workfront angezeigt und stehen für den Export zur Verfügung. Weitere Informationen finden Sie unter [Anzeigen und Verwalten des ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)</span>
 
 ## Leistungsstarkes Projektmanagement in Workfront
 
@@ -349,6 +347,18 @@ Der Frame.io-Viewer enthält alle visuellen Markup-Tools, einschließlich Freiha
 
 Kommentare und Anmerkungen verbleiben im Frame.io-Viewer, damit sie ihren vollständigen Kontext beibehalten, einschließlich Zeitstempeln und visuellen Markierungen. Dies kann sich in zukünftigen Versionen ändern.
 
+<span class="preview">
+
+In der Vorschau zeigt das Bedienfeld „Kommentare“ in Workfront eine Meldung an, die Sie darüber informiert, wenn in Frame.io neue Kommentare verfügbar sind.</span>
+
+<div class="preview">
+
+**Wer kann die Frame.io-Kommentaranzeige in Workfront sehen?**
+
+Nur Benutzer, die diese Kommentare bereits in Frame.io sehen konnten, können den Indikator sehen. Wenn Sie über eine Frame.io Enterprise-Lizenz verfügen, können Sie diese für Kommentare zum Dokument anzeigen. Wenn Sie keine Frame.io Enterprise-Lizenz haben, sehen Sie sie erst, wenn eine Genehmigung für das Dokument vorliegt. Genehmigungen machen alle vorherigen Kommentare zu dem Dokument auch für Sie sichtbar.
+
+</div>
+
 **Ist es möglich, zu einer heruntergeladenen Version eines Assets (z. B. einer PDF) Kommentare hinzuzufügen?**
 
 Dies wird derzeit nicht unterstützt, aber es ist eine häufig angeforderte Funktion, die für eine zukünftige Version in Betracht gezogen wird.
@@ -497,7 +507,7 @@ Benutzer können den Frame.io-Viewer direkt von Workfront aus starten. Alle Prü
 
 Ja. Sobald ein Asset den Prüfungs- und Validierungszyklus abgeschlossen hat, können Sie es zur endgültigen Speicherung und Verteilung an Adobe Experience Manager Assets übertragen. Dadurch werden Workfront für Work-Management, Frame.io für die Überprüfung und AEM für die Verwaltung digitaler Assets zu einer einheitlichen Content-supply chain verbunden.
 
-Weitere Informationen finden Sie unter „Verwenden [&#x200B; Adobe Experience Manager mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+Weitere Informationen finden Sie unter „Verwenden [ Adobe Experience Manager mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 **Wie passt die einheitliche Überprüfung und Genehmigung in Adobe GenStudio?**
 
