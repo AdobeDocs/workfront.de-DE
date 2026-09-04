@@ -4,7 +4,7 @@ description: Verbesserungen bei Dokumenten für das vierte Quartal 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4ca5bba5090d9e3a72c8964bdf6cca1085c314db
+source-git-commit: 1b37b57f764d1579629e019c2025c809530124ea
 workflow-type: tm+mt
 source-wordcount: '1012'
 ht-degree: 2%
@@ -16,6 +16,23 @@ ht-degree: 2%
 Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom vierten Quartal 2026 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2026 des Versionszyklus verfügbar sind, finden Sie unter [Versionsübersicht für das vierte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+<!--
+
+## System Administrators full access to approval templates
+
+>[!NOTE]
+>
+>Preview: September 4, 2026
+>Production fast release: September 4, 2026
+>Production for everyone: September 4, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+System Administrators can now view, edit, delete, and bulk-delete every approval template in the account, regardless of who created or shared it. Previously, System Administrators were subject to the same sharing rules as other users, and could only see or manage templates they created or that were shared with them.
+
+For more information, see [Manage approval templates](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
+
+-->
 
 <!--
 
@@ -184,3 +201,23 @@ Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, können Sie einzelne Assets 
 Die Verknüpfung wird von Content Advisor unterstützt, sodass Sie auch KI-Suchen, intelligente Vorschläge, Kampagnenkurzanalysen und mehr erhalten, während Sie Inhalte auswählen.
 
 Weitere Informationen finden Sie unter [Verknüpfen von Inhalten aus Experience Manager Assets mit Adobe Cloud-Speicher](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md).
+
+<!--
+
+## Approval workflow templates are private by default
+
+>[!NOTE]
+>
+>Preview: July 30, 2026
+>Production fast release: August 13, 2026
+>Production for everyone: October 15, 2026
+
+Approval templates are now private by default. Previously, every approval requester could see every template in the system, which made template lists long and hard to navigate. Now, a template is visible only to the user who created it, unless the creator shares it.
+
+For more information, see:
+
+* [Share a template](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template) in Manage approval templates
+* [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+
+-->
+
