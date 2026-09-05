@@ -19,9 +19,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
+source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
 workflow-type: tm+mt
-source-wordcount: 2440
+source-wordcount: 2498
 ht-degree: 1%
 
 ---
@@ -191,6 +191,13 @@ Informationen zum Verbinden von Datensatztypen finden Sie unter [Verbinden von D
       >Wenn beispielsweise das geplante Startdatum eines Projekts in Workfront um 15:00 Uhr angezeigt wird, wird es in Workfront Planning in einem importierten Suchfeld als 15:00 Uhr angezeigt.
 
   * Sie müssen Datensatztypen verbinden, um in Workfront Planning Hierarchien erstellen zu können. Wenn keine Verbindungen vom Typ Datensatz vorhanden sind, werden sie automatisch erstellt, wenn Sie eine Hierarchie erstellen. Weitere Informationen finden Sie unter [Erstellen von Workspace-Hierarchien](/help/quicksilver/planning/architecture/create-workspace-hierarchies.md).
+
+  * Wenn Ihr Unternehmen ein Adobe GenStudio for Performance Marketing-Paket erworben hat, gibt es die folgenden Szenarien:
+
+    * Es kann keine Verbindung zu GenStudio-Datensatztypen über Planning-Datensatztypen hergestellt werden.
+    * Sie können GenStudio-Datensatztypen im GenStudio Workspace verbinden.
+    * Sie können GenStudio Brands aus GenStudio-Datensatztypen und aus Planning-Datensatztypen verbinden.
+    * Sie können GenStudio-Marken nicht hierarchisch ordnen.
 
   <div class="preview">
 

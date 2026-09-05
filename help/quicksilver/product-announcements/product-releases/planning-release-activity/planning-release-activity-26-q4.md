@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 3f0a939e9de6436117fcb8242449793dcef73205
+source-git-commit: 1b37b57f764d1579629e019c2025c809530124ea
 workflow-type: tm+mt
-source-wordcount: '1770'
+source-wordcount: '1780'
 ht-degree: 1%
 
 ---
@@ -218,6 +218,7 @@ Die folgenden Funktionen sind in diesem Update enthalten:
 
 * Der Abschnitt Neue Verbindungseinstellungen wurde auf der Registerkarte Neue Verbindung beim Verbinden von Datensatztypen hinzugefügt
 * Im neuen Abschnitt wurde die Einstellung Verbindung abhängig machen hinzugefügt
+* Das Hinzufügen von Suchfeldern zu Verbindungen wurde geändert
 
 
 Weitere Informationen finden Sie unter [Abhängige Verbindungen verwalten](/help/quicksilver/planning/architecture/manage-dependent-connections.md).

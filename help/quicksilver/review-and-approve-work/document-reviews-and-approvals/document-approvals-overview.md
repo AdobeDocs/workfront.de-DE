@@ -18,14 +18,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
+source-git-commit: 0f42eb9e5d6723849e668e3cd29fad36d43294c3
 workflow-type: tm+mt
-source-wordcount: 4323
+source-wordcount: 4442
 ht-degree: 0%
 
 ---
 
 # Einheitliche Prüfung und Genehmigung - Übersicht
+
+{{highlighted-preview}}
 
 Einheitliche Prüfung und Genehmigung führt Adobe Workfront und Adobe Frame.io zu einem einzigen, eng miteinander verbundenen Erlebnis zusammen. Dadurch werden die Lücken zwischen Marketing-Management, kreativer Überprüfung und Bereitstellung von Inhalten geschlossen.
 Projektkoordinatoren verwalten die Arbeit in Workfront, während Kreative, Marketingexperten und Stakeholder Assets im professionellen Frame.io-Viewer überprüfen und genehmigen, ohne Dateien zwischen getrennten Tools zu verschieben.
@@ -348,6 +350,18 @@ Der Frame.io-Viewer enthält alle visuellen Markup-Tools, einschließlich Freiha
 **Werden im Frame.io-Viewer abgegebene Kommentare im Workfront-Projekt angezeigt?**
 
 Kommentare und Anmerkungen verbleiben im Frame.io-Viewer, damit sie ihren vollständigen Kontext beibehalten, einschließlich Zeitstempeln und visuellen Markierungen. Dies kann sich in zukünftigen Versionen ändern.
+
+<span class="preview">
+
+In der Vorschau zeigt das Bedienfeld „Kommentare“ in Workfront eine Meldung an, die Sie darüber informiert, wenn in Frame.io neue Kommentare verfügbar sind.</span>
+
+<div class="preview">
+
+**Wer kann die Frame.io-Kommentaranzeige in Workfront sehen?**
+
+Nur Benutzer, die diese Kommentare bereits in Frame.io sehen konnten, können den Indikator sehen. Wenn Sie über eine Frame.io Enterprise-Lizenz verfügen, können Sie diese für Kommentare zum Dokument anzeigen. Wenn Sie keine Frame.io Enterprise-Lizenz haben, sehen Sie sie erst, wenn eine Genehmigung für das Dokument vorliegt. Genehmigungen machen alle vorherigen Kommentare zu dem Dokument auch für Sie sichtbar.
+
+</div>
 
 **Ist es möglich, zu einer heruntergeladenen Version eines Assets (z. B. einer PDF) Kommentare hinzuzufügen?**
 

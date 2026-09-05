@@ -17,14 +17,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: fd9480e119e9ea8e638221d569e57b27ecd5a34d
 workflow-type: tm+mt
-source-wordcount: 513
-ht-degree: 10%
+source-wordcount: 631
+ht-degree: 8%
 
 ---
 
 # Hinzufügen einer Aktualisierung zu einem Dokument
+
+{{highlighted-preview}}
 
 <!--Audited: April, 2024-->
 
@@ -77,7 +79,7 @@ Wenn sich Ihr Unternehmen im alten Workfront-Speicher befindet, wird der Bereich
 
    * Klicken Sie auf das Dokument in der Liste, auf das Symbol **Zusammenfassung öffnen** Symbol ![Zusammenfassung öffnen](assets/qs-summary-in-new-toolbar-small.png) in der oberen rechten Ecke und fügen Sie dann einen neuen Kommentar hinzu oder klicken Sie auf **Antworten**, um einer vorhandenen Anmerkung eine Antwort hinzuzufügen. Weitere Informationen zur Zusammenfassung finden Sie unter [Zusammenfassung für Dokumente - Übersicht](../../documents/managing-documents/summary-for-documents.md).
    * Bewegen Sie den Mauszeiger über das Dokument **klicken Sie** linken Bereich auf **Dokumentdetails** und dann auf „Aktualisierungen“.
-Weitere Informationen zum Hinzufügen von Aktualisierungen zu Objekten finden Sie unter [Arbeit aktualisieren](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+     Weitere Informationen zum Hinzufügen von Aktualisierungen zu Objekten finden Sie unter [Arbeit aktualisieren](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
    Die Aktualisierungen und Antworten werden dem Dokument und auch den höherrangigen Objekten hinzugefügt. Weitere Informationen finden Sie unter [Aktualisierungsabschnitt - Übersicht](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
@@ -101,3 +103,20 @@ Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, wird der Bereich Neue Dokume
 1. Suchen Sie das benötigte Dokument und klicken Sie dann auf das Kommentarsymbol ![Kommentarsymbol](assets/new-doc-comment-icon.png), um das Bedienfeld „Kommentare“ zu öffnen.
 1. Geben Sie den Kommentar in das Textfeld ein und klicken Sie dann auf **Senden**.
    ![Bedienfeld „Neue Dokumentkommentare“](assets/comments-new-doc.png)
+
+
+<div class="preview">
+
+### Frame.io-Kommentaranzeige in Vorschau
+
+Wenn ein Genehmigungs-Workflow für ein Dokument erstellt wird, können Benutzer im Frame.io-Viewer Kommentare hinterlassen und Anmerkungen vornehmen. Diese Kommentare werden nicht im Workfront-Kommentarbedienfeld angezeigt, Sie können sie jedoch im Frame.io-Viewer anzeigen.
+
+Das Bedienfeld „Kommentare“ in Workfront zeigt eine Meldung an, die Sie darüber informiert, wenn neue Kommentare in Frame.io verfügbar sind.
+
+1. Klicken Sie **Kommentare überprüfen**, um das Dokument im Frame.io-Viewer zu öffnen und die Kommentare dort anzuzeigen.
+
+>[!NOTE]
+>
+>* Wenn Sie über eine Frame.io Enterprise-Lizenz verfügen, können Sie Kommentare im Frame.io-Viewer ohne Genehmigungs-Workflow anzeigen.
+
+</div>
