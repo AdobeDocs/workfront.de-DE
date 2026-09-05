@@ -21,7 +21,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: bde3551443641024b87397e35064ebf4577179eb
+source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
 workflow-type: tm+mt
 source-wordcount: 1471
 ht-degree: 2%
@@ -195,7 +195,7 @@ Sie können ein Projekt über den Bereich Projekte im Hauptmenü oder über den 
       >
       >Weitere Informationen finden Sie unter [Übersicht über das Dokumentenmanagement für Projekte und verwandte Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md).
 
-   1. (Bedingt und optional) Wenn Sie eine ältere Speichervorlage ausgewählt haben, wählen Sie die Einstellung Dieses Projekt im Adobe Cloud-Speicher erstellen in der unteren rechten Ecke des Felds Neues Projekt aus. Dadurch wird ein Adobe-Cloud-Speicherprojekt erstellt. Dokumente und Dokumentordner aus der Vorlage werden nicht zum Projekt hinzugefügt.
+   1. (Bedingt und optional) Wenn Sie eine ältere Speichervorlage ausgewählt haben, wählen Sie die Einstellung **Dieses Projekt im Adobe Cloud-Speicher erstellen** in der unteren rechten Ecke des Felds Neues Projekt aus. Dadurch wird ein Adobe-Cloud-Speicherprojekt erstellt. Dokumente und Dokumentordner aus der Vorlage werden nicht zum Projekt hinzugefügt.
 
    1. Überprüfen Sie die folgenden Vorlagendetails auf der rechten Seite:
 

@@ -14,9 +14,9 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: a1b1bc6013697405137110f4ce6fa329222f57e0
+source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
 workflow-type: tm+mt
-source-wordcount: 1051
+source-wordcount: 1108
 ht-degree: 0%
 
 ---
@@ -83,6 +83,12 @@ Die Verwendung von Hierarchien in Ihren Arbeitsbereichen bietet folgende Vorteil
   * Wenn verbundene Datensatztypen Teil von Hierarchien sind, können Sie einen Datensatz aus einem untergeordneten Datensatztyp mit bis zu 10 Datensätzen aus einem übergeordneten Datensatztyp verbinden.
 
     Wenn Sie beispielsweise eine Hierarchie zwischen Kampagnen als übergeordnetem Element und Persona als untergeordnetem Datensatz erstellen, können Sie dieselbe Persona mit bis zu 10 Kampagnen verbinden.
+  * Wenn Ihr Unternehmen ein Adobe GenStudio for Performance Marketing-Paket erworben hat, gibt es die folgenden Szenarien:
+
+    * Es kann keine Verbindung zu GenStudio-Datensatztypen über Planning-Datensatztypen hergestellt werden.
+    * Sie können GenStudio-Datensatztypen im GenStudio Workspace verbinden.
+    * Sie können GenStudio Brands mit GenStudio-Datensatztypen und Planning-Datensatztypen verbinden.
+    * Sie können GenStudio-Marken nicht hierarchisch ordnen.
 
 ## Überlegungen beim Anzeigen von Breadcrumbs
 
