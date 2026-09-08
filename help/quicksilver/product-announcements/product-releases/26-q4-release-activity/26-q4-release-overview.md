@@ -4,9 +4,9 @@ description: Diese Seite enthält Informationen zur Funktionalität, die in der 
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0e7a5b94d189cdebb7ded6c0fab1a98eb8029cf7
+source-git-commit: 939939c9b07d554f71705782e5f6265f48e5335d
 workflow-type: tm+mt
-source-wordcount: '2791'
+source-wordcount: '2869'
 ht-degree: 7%
 
 ---
@@ -17,7 +17,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der für Oktober 
 
 Die Verbesserungen auf dieser Seite sind in der Vorschauumgebung verfügbar. Diese Seite wird mit zusätzlichen Verbesserungen aktualisiert, sobald die geplante Produktionsversion der Version für das vierte Quartal 2026 näher rückt.
 
-Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben die neuen Funktionen hervor und bieten detaillierte Informationen. Um sich zu registrieren, besuchen Sie die [Ereignisseite](https://experienceleague.adobe.com/de/events?filters=Workfront) und filtern Sie nach Workfront.
+Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben die neuen Funktionen hervor und bieten detaillierte Informationen. Um sich zu registrieren, besuchen Sie die [Ereignisseite](https://experienceleague.adobe.com/en/events?filters=Workfront) und filtern Sie nach Workfront.
 
 >[!IMPORTANT]
 >
@@ -493,20 +493,20 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
     &lt;/td>td>&lt;p>27. August 2026&lt;/p>&lt;/td>td>&lt;p>17. September 2026&lt;/p>&lt;/td>td&lt;td>&lt;p>td>5, 2026&lt;/p>&lt;/td>
     &lt;td>
     >
-    >&lt;td>
+    &lt;td>
     >a href=„class=„MCXref xref“ xrefFormat=&quot;{para}&quot;>Für das Erzwingen von Enddaten für terminierte Berichte&lt;/a>ist jetzt ein &lt;p>Enddatum erforderlich, um einen unbegrenzten Versand zu verhindern, mit automatischer Deaktivierung nach Ablauf des Enddatums eines Zeitplans.&lt;/p>
-    >&lt;/td>p&lt;p>13. August 2026&lt;/td>p&lt;td>&lt;p>17. September 2026&lt;/p>&lt;/td>p&lt;td>&lt;p>15. Oktober, 2026&lt;/p>&lt;/td>
-    >&lt;/tr>
-    >&lt;tr>
-    >&lt;td>
-    >&lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=„MCXref xref“ xrefformat=&quot;{para}&quot;>Native Referenzfelder sind für Listen und Berichte verfügbar&lt;/a>Jetzt können Sie in Workfront native Referenzfelder zu Listen und Berichten hinzufügen.&lt;/p>Td&lt;/td>td>&lt;p>Td>&lt;p>Am 30. Juli 2026&lt;/p>&lt;/td>
-    >&lt;td>13. August 2026&lt;/p>&lt;/td>
-    >&lt;td>&lt;p>15. Oktober 2026&lt;/p>&lt;/td>
-    >&lt;/tr>tr>
-    >&lt;td>
-    >&lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md /help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=„MCXref“ xrefFormat=&quot;{para}&quot;>Konsistente Reihenfolge von Mehrfachauswahl-Feldwerten in Legacy- und -Berichten&lt;/a>Ausgewählte Optionen für die Mehrfachauswahl von benutzerdefinierten Feldern werden jetzt in einer konsistenten, vorhersehbaren Reihenfolge in Legacy-Listen und -Berichten angezeigt.&lt;/p>Juli&lt;/td> 2026&lt;/p>&lt;/td>
-    >&lt;td>&lt;p>13. August 2026&lt;/p>&lt;/td>
-    >&lt;td>&lt;p>15. Oktober 2026&lt;/p>&lt;/td>
+    &lt;/td>p&lt;p>13. August 2026&lt;/td>p&lt;td>&lt;p>17. September 2026&lt;/p>&lt;/td>p&lt;td>&lt;p>15. Oktober, 2026&lt;/p>&lt;/td>
+    &lt;/tr>
+    &lt;tr>
+    &lt;td>
+    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=„MCXref xref“ xrefformat=&quot;{para}&quot;>Native Referenzfelder sind für Listen und Berichte verfügbar&lt;/a>Jetzt können Sie in Workfront native Referenzfelder zu Listen und Berichten hinzufügen.&lt;/p>Td&lt;/td>td>&lt;p>Td>&lt;p>Am 30. Juli 2026&lt;/p>&lt;/td>
+    &lt;td>13. August 2026&lt;/p>&lt;/td>
+    &lt;td>&lt;p>15. Oktober 2026&lt;/p>&lt;/td>
+    &lt;/tr>tr>
+    &lt;td>
+    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md /help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=„MCXref“ xrefFormat=&quot;{para}&quot;>Konsistente Reihenfolge von Mehrfachauswahl-Feldwerten in Legacy- und -Berichten&lt;/a>Ausgewählte Optionen für die Mehrfachauswahl von benutzerdefinierten Feldern werden jetzt in einer konsistenten, vorhersehbaren Reihenfolge in Legacy-Listen und -Berichten angezeigt.&lt;/p>Juli&lt;/td> 2026&lt;/p>&lt;/td>
+    &lt;td>&lt;p>13. August 2026&lt;/p>&lt;/td>
+    &lt;td>&lt;p>15. Oktober 2026&lt;/p>&lt;/td>
      
      
      
@@ -621,6 +621,19 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
 * [Versionsaktivität von Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 * [Versionsaktivität von Adobe Workfront Planning für das vierte Quartal 2026](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md).
 
+## Desktop Proofing Viewer-Updates
+
+### Version 2.1.59
+
+Produktionsversion für alle Kunden: 9. September 2026
+
+Der Desktop Proofing Viewer wurde auf Version 2.1.59 aktualisiert. Dieses Update enthält die folgenden Änderungen:
+
+* Der Desktop Proofing Viewer ist jetzt als nativer Build für Macs mit Apple-Chip verfügbar.
+* Das zugrunde liegende Anwendungs-Framework (Electron) wurde auf eine neuere Version aktualisiert, die Leistungs- und Sicherheitsverbesserungen mit sich bringt.
+
+Informationen zum Herunterladen und Aktualisieren des Desktop Proofing Viewers finden Sie unter [Aktualisieren des Desktop Proofing Viewers](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
+
 ## Ankündigungen
 
 ### Die kennwortgeschützte Authentifizierung für Benutzende von Data Connect-Lesegeräten endet am 8. August 2026
@@ -631,7 +644,7 @@ Wenn Sie ein Workfront-Administrator mit Data Connect-Readerbenutzern sind, die 
 
 Diese Änderung wurde erstmals in den Workfront-Versionshinweisen vom April 2026 angekündigt, und dies ist die letzte Erinnerung vor Fristablauf. Bitte stellen Sie sicher, dass alle betroffenen Leser-Benutzer die MFA vor dem 8. August 2026 aktivieren, um eine Unterbrechung ihres Zugriffs zu vermeiden.
 
-Weitere Informationen finden Sie unter [Erstellen eines Leserkontos oder einer Verbindung für Snowflake](https://experienceleague.adobe.com/de/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Weitere Informationen finden Sie unter [Erstellen eines Leserkontos oder einer Verbindung für Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Updates für Schulungen
 
