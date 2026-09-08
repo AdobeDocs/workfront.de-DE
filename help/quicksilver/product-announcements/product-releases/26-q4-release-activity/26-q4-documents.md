@@ -4,9 +4,9 @@ description: Verbesserungen bei Dokumenten für das vierte Quartal 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e13c944ac485a6999dd0a788cfbb0f5d5169742
+source-git-commit: 0336bef484214908f181b630f2d3298af5d10398
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1249'
 ht-degree: 2%
 
 ---
@@ -16,6 +16,25 @@ ht-degree: 2%
 Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom vierten Quartal 2026 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2026 des Versionszyklus verfügbar sind, finden Sie unter [Versionsübersicht für das vierte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+## Kontrollieren, wer Validierungsvorlagen sehen und verwenden kann
+
+>[!NOTE]
+>
+>Vorschau: 30. Juli 2026
+>Produktions-Schnellveröffentlichung: 13. August 2026
+>Produktion für alle: 15. Oktober 2026
+
+Genehmigungsvorlagen sind jetzt standardmäßig privat. Zuvor konnte jeder Validierungsanforderer jede Vorlage im System sehen, wodurch die Vorlagenlisten lang und schwer zu navigieren waren. Jetzt ist eine Vorlage nur noch für den Benutzer sichtbar, der sie erstellt hat, es sei denn, der Ersteller gibt sie frei.
+
+Vorlagenersteller können eine Vorlage für bestimmte Benutzende oder für alle Personen in ihrem Unternehmen über die Liste der Genehmigungsvorlagen im Workfront-Setup freigeben. Bei der Anforderung einer Genehmigung sehen Benutzerinnen und Benutzer nur Vorlagen, die sie erstellt haben oder die für sie freigegeben wurden.
+
+Diese Änderung gilt sowohl für neue als auch vorhandene Vorlagen, und der Zugriff wird konsistent erzwungen, unabhängig davon, wie eine Vorlage angefordert wird.
+
+Weitere Informationen finden Sie unter:
+
+* [Freigeben einer Vorlage](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md#share-a-template) in Erstellen einer Workflow-Vorlage für die Genehmigung von Dokumenten
+* [Erstellen eines Workflows für die Dokumentvalidierung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
 
 <!--
 

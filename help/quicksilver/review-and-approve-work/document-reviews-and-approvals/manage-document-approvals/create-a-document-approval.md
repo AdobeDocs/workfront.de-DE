@@ -9,20 +9,14 @@ exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/OoGv4oNg6GkKeo-zoVi5lSxtPK3UE64-EYW21Mz7GRA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-subfeature_v2:
-  - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c637cfabefebf01868ae0dd020d95bcce50b38e2
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40cid: d968a1bc-9a90-4926-a531-bcf272c32aad
+subfeature_v2: id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0336bef484214908f181b630f2d3298af5d10398
 workflow-type: tm+mt
-source-wordcount: 2662
+source-wordcount: 2878
 ht-degree: 1%
 
 ---
@@ -33,9 +27,11 @@ ht-degree: 1%
 
 Sie können die Genehmigung anderer Benutzer oder Teams für ein Dokument in Adobe Workfront anfordern oder diese auffordern, ein Dokument zu überprüfen, ohne es genehmigen zu müssen.
 
+Standardmäßig ist eine Validierungsvorlage nur für ihren Ersteller sichtbar. In diesem Artikel können Sie nur Vorlagen auswählen, die Sie erstellt haben oder die für Sie freigegeben wurden. Weitere Informationen finden Sie unter [Freigeben einer Vorlage](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md#share-a-template) unter Verwalten von Genehmigungsvorlagen.
+
 >[!IMPORTANT]
 >
->Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Zugriffsanforderungen
 
@@ -95,7 +91,7 @@ So erstellen Sie einen einstufigen Validierungs-Workflow:
    <table>
    <tr>
    <td><strong>Verwenden einer Validierungsvorlage (optional)</strong></td>
-   <td>Wählen Sie eine Vorlage aus dem Dropdown-Menü aus. Wenn die Vorlage über einen Pfad und ein Stadium verfügt, wird sie im Standardmodus angewendet. Wenn die Vorlage mehr als ein Stadium oder mehr als einen Pfad enthält, wechselt das Dialogfeld automatisch in den erweiterten Modus und alle Eingaben, die Sie im Standardmodus eingegeben haben, werden durch den Inhalt der Vorlage ersetzt.</td>
+   <td>Wählen Sie eine Vorlage aus dem Dropdown-Menü aus. Im Menü werden nur Vorlagen aufgelistet, die Sie erstellt haben oder die für Sie freigegeben wurden - entweder für Sie selbst oder für alle Personen in Ihrer Organisation. Systemadministratoren sehen hier alle Vorlagen, unabhängig davon, wer sie erstellt oder freigegeben hat. Wenn die Vorlage über einen Pfad und ein Stadium verfügt, wird sie im Standardmodus angewendet. Wenn die Vorlage mehr als ein Stadium oder mehr als einen Pfad enthält, wechselt das Dialogfeld automatisch in den erweiterten Modus und alle Eingaben, die Sie im Standardmodus eingegeben haben, werden durch den Inhalt der Vorlage ersetzt.</td>
    </tr>
    <tr>
    <td><strong>Namen oder E-Mails hinzufügen</strong></td>
@@ -151,6 +147,14 @@ So erstellen Sie einen erweiterten Validierungs-Workflow:
    >[!TIP]
    >
    >Während Sie die Genehmigung erstellen, können Sie zum Standardmodus zurückkehren, indem Sie oben rechts auf **Zum** wechseln klicken. Nachdem Sie auf **Genehmigung anfordern** geklickt haben, ist die Option **Zur** wechseln“ nicht mehr verfügbar.
+
+1. (Optional) So wenden Sie eine Vorlage an:
+
+   1. Schalten Sie **Vorlagen** ein.
+   1. Klicken Sie auf das Filtersymbol und wählen Sie **Alle**, **Meine Vorlagen** oder **Für mich freigegeben**, um die Liste einzugrenzen.
+   1. Klicken Sie auf eine Vorlage, um sie auf die Genehmigung anzuwenden.
+
+   Systemadministratoren sehen hier alle Vorlagen, unabhängig davon, wer sie erstellt oder freigegeben hat.
 
 1. Füllen Sie die Details für Schritt 1 von Pfad 1 aus:
 
@@ -222,7 +226,7 @@ So erstellen Sie einen einstufigen Validierungs-Workflow:
    <table>
    <tr>
    <td><strong>Verwenden einer Validierungsvorlage (optional)</strong></td>
-   <td>Das Feld Vorlagen ist standardmäßig reduziert. Klicken Sie auf das Feld, um es zu erweitern, und wählen Sie dann eine Vorlage aus dem Dropdown-Menü aus. Wenn die Vorlage über einen Pfad und ein Stadium verfügt, wird sie im Standardmodus angewendet. Wenn die Vorlage mehr als ein Stadium oder mehr als einen Pfad enthält, wechselt das Dialogfeld automatisch in den erweiterten Modus und alle Eingaben, die Sie im Standardmodus eingegeben haben, werden durch den Inhalt der Vorlage ersetzt.</td>
+   <td>Das Feld Vorlagen ist standardmäßig reduziert. Klicken Sie auf das Feld, um es zu erweitern, und wählen Sie dann eine Vorlage aus dem Dropdown-Menü aus. Im Menü werden nur Vorlagen aufgelistet, die Sie erstellt haben oder die für Sie freigegeben wurden - entweder für Sie selbst oder für alle Personen in Ihrer Organisation. Systemadministratoren sehen hier alle Vorlagen, unabhängig davon, wer sie erstellt oder freigegeben hat. Wenn die Vorlage über einen Pfad und ein Stadium verfügt, wird sie im Standardmodus angewendet. Wenn die Vorlage mehr als ein Stadium oder mehr als einen Pfad enthält, wechselt das Dialogfeld automatisch in den erweiterten Modus und alle Eingaben, die Sie im Standardmodus eingegeben haben, werden durch den Inhalt der Vorlage ersetzt.</td>
    </tr>
    <tr>
    <td><strong>Namen oder E-Mails hinzufügen</strong></td>
@@ -284,6 +288,14 @@ So erstellen Sie einen erweiterten Validierungs-Workflow:
    >[!TIP]
    >
    >Während Sie die Genehmigung erstellen, können Sie zum Standardmodus zurückkehren, indem Sie oben rechts auf **Zum** wechseln klicken. Nachdem Sie auf **Genehmigung anfordern** geklickt haben, ist die Option **Zur** wechseln“ nicht mehr verfügbar.
+
+1. (Optional) So wenden Sie eine Vorlage an:
+
+   1. Schalten Sie **Vorlagen** ein.
+   1. Klicken Sie auf das Filtersymbol und wählen Sie **Alle**, **Meine Vorlagen** oder **Für mich freigegeben**, um die Liste einzugrenzen.
+   1. Klicken Sie auf eine Vorlage, um sie auf die Genehmigung anzuwenden.
+
+   Systemadministratoren sehen hier alle Vorlagen, unabhängig davon, wer sie erstellt oder freigegeben hat.
 
 1. Füllen Sie die Details für Schritt 1 von Pfad 1 aus:
 
