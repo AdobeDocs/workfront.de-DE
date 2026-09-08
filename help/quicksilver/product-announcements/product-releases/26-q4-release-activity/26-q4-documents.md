@@ -47,7 +47,7 @@ Weitere Informationen finden Sie unter:
 
 Systemadministratoren können jetzt jede Genehmigungsvorlage im Konto anzeigen, bearbeiten, löschen und stapelweise löschen, unabhängig davon, wer sie erstellt oder freigegeben hat. Zuvor unterlagen Systemadministratoren denselben Freigaberegeln wie andere Benutzer, und sie konnten nur von ihnen erstellte oder für sie freigegebene Vorlagen anzeigen oder verwalten.
 
-Weitere Informationen finden Sie unter [Verwalten von ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
+Weitere Informationen finden Sie unter [Verwalten von &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
 
 ## Sichtbarkeit von Frame-Kommentaren in Workfront
 
