@@ -17,10 +17,10 @@ feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: b9eb36bbe792919e975cf27c06524755a3ef550b
+source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
 workflow-type: tm+mt
-source-wordcount: 106
-ht-degree: 33%
+source-wordcount: 97
+ht-degree: 27%
 
 ---
 
@@ -34,7 +34,6 @@ Die folgenden Artikel enthalten Informationen zu Integrationen nativer Dokumente
 * [Erste Schritte mit der Integration von Proofing und GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
 * [Erste Schritte mit Proofing und Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
 * [Einheitliche Prüfung und Genehmigung - Übersicht](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
-* [Verwenden von Adobe Experience Manager mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
-* [Verknüpfen von Assets aus Experience Manager Assets mit dem Adobe-Cloud-Speicher](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)
+* [Verwenden von Adobe Experience Manager mit Workfront und Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
 * [Erste Schritte mit der Integration von Adobe Express und Workfront mit Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/express-wf-frame.md)
 

@@ -4,10 +4,10 @@ description: Diese Seite enthält Informationen zur Funktionalität, die in der 
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e13c944ac485a6999dd0a788cfbb0f5d5169742
+source-git-commit: 939939c9b07d554f71705782e5f6265f48e5335d
 workflow-type: tm+mt
-source-wordcount: '2592'
-ht-degree: 8%
+source-wordcount: '2869'
+ht-degree: 7%
 
 ---
 
@@ -226,9 +226,10 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
     &lt;/tr>
     &lt;tr>
     &lt;td>
-    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md /help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=„MCXref xref“ xrefformat=&quot;{para}&quot;>Im Workfront MCP-Connector verfügbare Pinnwand-Tools&lt;/a>Um die Funktionen des Workfront MCP-Connectors zu erweitern, haben wir Tools zum Arbeiten mit Pinnwänden, Karten, Checklisten-Elementen und Spalten hinzugefügt.&lt;/p>Um die Funktionen des MCP-Connectors zu erweitern,&lt;/td>haben wir &lt;td>&lt;p>den 30. Juli hinzugefügt 2026&lt;/p>&lt;/td>
+    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md /help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md /help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md&quot; class=„MCXref xref“ xrefformat=&quot;{para}&quot;>Im Workfront MCP-Connector verfügbare Pinnwand-Tools&lt;/a>Um die Funktionen des Workfront MCP-Connectors zu erweitern, haben wir Tools zum Arbeiten mit Pinnwänden, Karten, Checklisten-Elementen und Spalten hinzugefügt.&lt;/p>Um die Funktionen des Sentiment MCP-Connectors zu erweitern,&lt;/td>haben wir &lt;td>&lt;p>den 30. Juli hinzugefügt 2026&lt;/p>&lt;/td>
     &lt;td>&lt;p>13. August 2026&lt;/p>&lt;/td>
-    &lt;td>&lt;p>15. Oktober 2026&lt;/p>&lt;/td>
+    &lt;td>&lt;p>15. Oktober 2026&lt;/p>&lt;/td>Konversation&lt;/td>a&lt;td>r>r&lt;td>class=„MCXref xref xrefformat=&quot;{para}&quot;>Neues Feedback-Tool im Workfront MCP Connector verfügbar&lt;/a>Workfront&lt;p>ein neues Feedback-Tool zur Freigabe, mit dem Sie Ihre--Berichte Verbessert.&lt;/p>
+    &lt;/td>
      
      
      
@@ -246,7 +247,15 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
      
      
      
-&lt;/td>nr>ng</table>
+     
+     
+     
+     
+     
+     
+     
+     
+&lt;td>&lt;p>3. September 2026&lt;/p>&lt;/td>17. September 2026&lt;/td>td>&lt;p>15. Oktober 2026&lt;/p>&lt;/td>td>&lt;/td>td>td&lt;/tr>tr>td&lt;/td>td&lt;/td>td&lt;/td>td&lt;/td>td></table>
 
 ### Verbesserungen bei Dokumenten
 
@@ -259,17 +268,15 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             <td><strong>Schnellveröffentlichung</strong></td>
             <td><strong>Vierteljährlich</strong></td>
         </tr>
-<!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">System Administrators full access to approval templates</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-                <p>System Administrators can now view, edit, delete, and bulk-delete every approval template in the account, regardless of who created or shared it.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Systemadministratoren haben vollen Zugriff auf Genehmigungsvorlagen</a><p>[!BADGE Außerplanmäßig]{type=Neutral}</p>
+                <p>Systemadministratoren können jetzt jede Genehmigungsvorlage im Konto anzeigen, bearbeiten, löschen und stapelweise löschen, unabhängig davon, wer sie erstellt oder freigegeben hat.</p>
             </td>
-            <td><p>September 4, 2026</p></td>
-            <td><p>September 4, 2026</p></td>
-            <td><p>September 4, 2026</p></td>
+            <td><p>8. September 2026</p></td>
+            <td><p>8. September 2026</p></td>
+            <td><p>8. September 2026</p></td>
         </tr>
--->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Frame-Kommentar-Sichtbarkeit in Workfront</a>
@@ -342,6 +349,15 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             </td>
             <td><p>3. September 2026</p></td>
             <td><p>17. September 2026</p></td>
+            <td><p>15. Oktober 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Kontrollieren Sie, wer Genehmigungsvorlagen sehen und verwenden kann</a>
+                <p>Genehmigungsvorlagen sind jetzt standardmäßig privat und können von Erstellern für bestimmte Benutzer oder für alle Personen in ihrer Organisation freigegeben werden.</p>
+            </td>
+            <td><p>30. Juli 2026</p></td>
+            <td><p>13. August 2026</p></td>
             <td><p>15. Oktober 2026</p></td>
         </tr>
         <tr>
@@ -443,17 +459,15 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             <td><strong>Schnellveröffentlichung</strong></td>
             <td><strong>Vierteljährlich</strong></td>
         </tr>
-<!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Duplicate dashboards in Canvas Dashboards</a>
-                <p>You can now duplicate a Canvas Dashboard using the new Duplicate dashboard action, and choose what to carry over to the copy.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md" class="MCXref xref" xrefformat="{para}">Kopieren von Dashboards in Arbeitsflächen-Dashboards</a>
+                <p>Sie können jetzt ein Arbeitsflächen-Dashboard mithilfe der neuen Aktion Dashboard kopieren kopieren und auswählen, was in die Kopie übernommen werden soll.</p>
             </td>
-            <td><p>September 3, 2026</p></td>
-            <td><p>September 17, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>3. September 2026</p></td>
+            <td><p>17. September 2026</p></td>
+            <td><p>15. Oktober 2026</p></td>
         </tr>
--->
 
     &lt;tr>
     &lt;td>
@@ -606,6 +620,19 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
 
 * [Versionsaktivität von Adobe Workfront Fusion](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 * [Versionsaktivität von Adobe Workfront Planning für das vierte Quartal 2026](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-26-q4.md).
+
+## Desktop Proofing Viewer-Updates
+
+### Version 2.1.59
+
+Produktionsversion für alle Kunden: 9. September 2026
+
+Der Desktop Proofing Viewer wurde auf Version 2.1.59 aktualisiert. Dieses Update enthält die folgenden Änderungen:
+
+* Der Desktop Proofing Viewer ist jetzt als nativer Build für Macs mit Apple-Chip verfügbar.
+* Das zugrunde liegende Anwendungs-Framework (Electron) wurde auf eine neuere Version aktualisiert, die Leistungs- und Sicherheitsverbesserungen mit sich bringt.
+
+Informationen zum Herunterladen und Aktualisieren des Desktop Proofing Viewers finden Sie unter [Aktualisieren des Desktop Proofing Viewers](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
 
 ## Ankündigungen
 

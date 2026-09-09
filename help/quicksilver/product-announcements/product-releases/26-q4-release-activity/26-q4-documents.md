@@ -4,9 +4,9 @@ description: Verbesserungen bei Dokumenten für das vierte Quartal 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e13c944ac485a6999dd0a788cfbb0f5d5169742
+source-git-commit: 37bfc284daa1056314a5e3b64822720a0dd21fc8
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1334'
 ht-degree: 2%
 
 ---
@@ -17,22 +17,37 @@ Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom 
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2026 des Versionszyklus verfügbar sind, finden Sie unter [Versionsübersicht für das vierte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
-<!--
-
-## System Administrators full access to approval templates
+## Kontrollieren, wer Validierungsvorlagen sehen und verwenden kann
 
 >[!NOTE]
 >
->Preview: September 4, 2026
->Production fast release: September 4, 2026
->Production for everyone: September 4, 2026
->[!BADGE Off schedule]{type=Neutral}
+>Vorschau: 30. Juli 2026
+>Produktions-Schnellveröffentlichung: 13. August 2026
+>Produktion für alle: 15. Oktober 2026
 
-System Administrators can now view, edit, delete, and bulk-delete every approval template in the account, regardless of who created or shared it. Previously, System Administrators were subject to the same sharing rules as other users, and could only see or manage templates they created or that were shared with them.
+Genehmigungsvorlagen sind jetzt standardmäßig privat. Zuvor konnte jeder Validierungsanforderer jede Vorlage im System sehen, wodurch die Vorlagenlisten lang und schwer zu navigieren waren. Jetzt ist eine Vorlage nur noch für den Benutzer sichtbar, der sie erstellt hat, es sei denn, der Ersteller gibt sie frei.
 
-For more information, see [Manage approval templates](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
+Vorlagenersteller können eine Vorlage für bestimmte Benutzende oder für alle Personen in ihrem Unternehmen über die Liste der Genehmigungsvorlagen im Workfront-Setup freigeben. Bei der Anforderung einer Genehmigung sehen Benutzerinnen und Benutzer nur Vorlagen, die sie erstellt haben oder die für sie freigegeben wurden.
 
--->
+Diese Änderung gilt sowohl für neue als auch vorhandene Vorlagen, und der Zugriff wird konsistent erzwungen, unabhängig davon, wie eine Vorlage angefordert wird.
+
+Weitere Informationen finden Sie unter:
+
+* [Freigeben einer Vorlage](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md#share-a-template) in Erstellen einer Workflow-Vorlage für die Genehmigung von Dokumenten
+* [Erstellen eines Workflows für die Dokumentvalidierung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+
+## Systemadministratoren haben vollen Zugriff auf Genehmigungsvorlagen
+
+>[!NOTE]
+>
+>Vorschau: 8. September 2026
+>Produktions-Schnellveröffentlichung: 8. September 2026
+>Produktion für alle: 8. September 2026
+>[!BADGE Außerplanmäßig]{type=Neutral}
+
+Systemadministratoren können jetzt jede Genehmigungsvorlage im Konto anzeigen, bearbeiten, löschen und stapelweise löschen, unabhängig davon, wer sie erstellt oder freigegeben hat. Zuvor unterlagen Systemadministratoren denselben Freigaberegeln wie andere Benutzer, und sie konnten nur von ihnen erstellte oder für sie freigegebene Vorlagen anzeigen oder verwalten.
+
+Weitere Informationen finden Sie unter [Verwalten von &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
 
 ## Sichtbarkeit von Frame-Kommentaren in Workfront
 
@@ -196,7 +211,7 @@ Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, können Sie einzelne Assets 
 
 Die Verknüpfung wird von Content Advisor unterstützt, sodass Sie auch KI-Suchen, intelligente Vorschläge, Kampagnenkurzanalysen und mehr erhalten, während Sie Inhalte auswählen.
 
-Weitere Informationen finden Sie unter [Verknüpfen von Inhalten aus Experience Manager Assets mit Adobe Cloud-Speicher](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md).
+Weitere Informationen finden Sie unter [Verknüpfen von Inhalten aus Experience Manager Assets mit Adobe Cloud-Speicher](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md#link-content-from-experience-manager-assets).
 
 <!--
 

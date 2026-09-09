@@ -6,9 +6,9 @@ description: Sie können ein Asset oder einen Ordner aus Experience Manager Asse
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 0b93f6f6-cf4b-4077-a464-be7f19f7cd25
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
 workflow-type: tm+mt
-source-wordcount: '629'
+source-wordcount: '630'
 ht-degree: 12%
 
 ---
@@ -19,7 +19,7 @@ Sie können ein Asset oder einen Ordner aus Experience Manager Assets Essentials
 
 Informationen zum Verknüpfen von Assets und Ordnern aus Experience Manager Assets mithilfe von Content Advisor finden Sie [Verknüpfen von Assets und Ordnern mit Content Advisor auf Basis von Experience Manager Assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md).
 
-Wenn Sie sich im Adobe-Cloud-Speicher befinden, lesen Sie [Verwenden von Adobe Experience Manager mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+Wenn Sie sich im Adobe-Cloud-Speicher befinden, lesen Sie [Verwenden von Adobe Experience Manager mit Workfront und Adobe-Cloud-Speicher](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 
 ## Zugriffsanforderungen

@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0f42eb9e5d6723849e668e3cd29fad36d43294c3
+source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
 workflow-type: tm+mt
-source-wordcount: 4442
+source-wordcount: 4439
 ht-degree: 0%
 
 ---
@@ -511,7 +511,7 @@ Benutzer können den Frame.io-Viewer direkt von Workfront aus starten. Alle Prü
 
 Ja. Sobald ein Asset den Prüfungs- und Validierungszyklus abgeschlossen hat, können Sie es zur endgültigen Speicherung und Verteilung an Adobe Experience Manager Assets übertragen. Dadurch werden Workfront für Work-Management, Frame.io für die Überprüfung und AEM für die Verwaltung digitaler Assets zu einer einheitlichen Content-supply chain verbunden.
 
-Weitere Informationen finden Sie unter „Verwenden [&#x200B; Adobe Experience Manager mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
+Weitere Informationen finden Sie unter [Verwenden von Adobe Experience Manager mit Workfront und Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md).
 
 **Wie passt die einheitliche Überprüfung und Genehmigung in Adobe GenStudio?**
 

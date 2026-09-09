@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 29141ebc3913ad66e05ee10e53dcaea646ca2526
+source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
 workflow-type: tm+mt
-source-wordcount: '14505'
+source-wordcount: '14499'
 ht-degree: 92%
 
 ---
@@ -1949,6 +1949,7 @@ ht-degree: 92%
       * [Hinzufügen zusätzlicher prüfender oder genehmigender Personen zu einem Asset oder Dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
       * [Entfernen von genehmigenden oder prüfenden Personen von einem Asset oder Dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
       * [Erstellen einer Genehmigungsvorlage für Assets und Dokumente](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+      * [Genehmigungsvorlagen verwalten](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md)
       * [Gemeinsames Verwenden von einheitlichen Genehmigungen und Proofing](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
       * [Hochladen einer neuen Dokumentversion und Anfordern einer Genehmigung](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
       * [Erstellen eines Berichts-Dashboards zur Überprüfung und Genehmigung](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
@@ -2079,8 +2080,7 @@ ht-degree: 92%
     * {hide-from-toc}[Erste Schritte mit der Integration von GenStudio for Performance Marketing und Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/genstudio/wf-frame-and-genstudio.md)
     * [Erste Schritte mit Proofing und Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
     * [Erste Schritte mit der Integration von Proofing und GenStudio for Performance Marketing](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
-    * [Verwenden von Adobe Experience Manager mit der Frame.io-Integration](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
-    * [Verknüpfen von Assets aus Experience Manager Assets mit dem Adobe-Cloud-Speicher](/help/quicksilver/review-and-approve-work/native-integrations/link-aem-assets-cloud-storage.md)
+    * [Verwenden von Adobe Experience Manager mit Workfront und Adobe Cloud Storage](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/use-aem-with-frame.md)
     * [Erste Schritte mit der Integration von Adobe Express und Workfront mit Frame.io](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/express-wf-frame.md)
   * Tipps, Tricks und Fehlerbehebung für Genehmigungen {#ttt-approvals}
     * [Tipps, Tricks und Fehlerbehebung für Genehmigungen: Artikelindex](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)

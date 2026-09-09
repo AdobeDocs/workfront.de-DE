@@ -20,18 +20,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ec38b386a008c689946cb359d4714380dd8e5460
+source-git-commit: 0336bef484214908f181b630f2d3298af5d10398
 workflow-type: tm+mt
-source-wordcount: 757
-ht-degree: 5%
+source-wordcount: 800
+ht-degree: 4%
 
 ---
 
 # Erstellen einer Validierungs-Workflow-Vorlage für Dokumente
 
-{{highlighted-preview}}
-
-Im Bereich Workfront Setup können Benutzende mit einer Standardlizenz wiederverwendbare Genehmigungsvorlagen erstellen. Nach der Erstellung können Validierungsvorlagen auf Assets im Dokumentbereich eines Objekts angewendet werden.
+Im Bereich Workfront Setup können Benutzende mit einer Standardlizenz wiederverwendbare Genehmigungsvorlagen erstellen. Eine Vorlage ist nur für den Benutzer sichtbar, der sie erstellt hat, es sei denn, der Ersteller gibt sie für bestimmte Benutzer oder für alle Personen in der Organisation frei. Nach der Erstellung können Validierungsvorlagen auf Assets im Dokumentbereich eines Objekts angewendet werden.
 
 >[!IMPORTANT]
 >
@@ -131,6 +129,10 @@ So erstellen Sie eine Validierungsvorlage:
 1. Klicken Sie auf **Speichern**.
 
 Nachdem die Vorlage erstellt wurde, kann sie auf Dokumente im Bereich Dokumente eines Objekts angewendet werden, um den formalen Prüfungs- und Genehmigungsprozess in Workfront zu starten.
+
+>[!NOTE]
+>
+>Neue Vorlagen sind nur für Sie sichtbar. Informationen zum Freigeben, Bearbeiten oder Löschen einer Vorlage finden Sie unter [Verwalten von &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md)&quot;.
 
 <!--
  Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.

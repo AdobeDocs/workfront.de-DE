@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: cafe52c228520becb66e2fa9d8121127223a8f71
+source-git-commit: a0ba955b089480c01b187e39ed5a8a8226b23ea7
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 2%
+source-wordcount: '1164'
+ht-degree: 1%
 
 ---
 
@@ -51,7 +51,7 @@ ODER
    </td> </tr>
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
-   <td><p>Workflow-Standard</p>
+   <td><p>Mitwirkender am Workflow oder höher</p>
    </td> 
   </tr> 
 <tr> 
@@ -144,6 +144,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 1. Klicken Sie **Aktivieren**, um die Regel für diesen Datensatztyp zu aktivieren, und klicken Sie dann auf **Speichern**.
 
    Regeln werden sofort nach ihrer Aktivierung angewendet und alle Benutzer, die zum Bearbeiten oder Löschen von Datensätzen im ausgewählten Datensatztyp berechtigt sind, müssen sie befolgen.
+1. (Optional) Klicken Sie auf das **Mehr**-Menü ![](assets/more-menu.png) dem Namen der Geschäftsregel in der Seitenkopfzeile, um das Feld **Regeldetails** zu öffnen und Informationen zur Geschäftsregel zu aktualisieren.
 1. (Optional und empfohlen) Klicken Sie auf den Rückwärtspfeil links neben **Geschäftsregeln** in der Kopfzeile der Seite, um die Seite für den Datensatztyp anzuzeigen, und gehen Sie zu einer Tabellenansicht oder öffnen Sie die Seite eines Datensatzes. Versuchen Sie dann, einen Datensatz zu bearbeiten oder zu löschen, um die soeben erstellte Regel zu testen.
 
 ## Verwalten von Geschäftsregeln
@@ -153,18 +154,22 @@ Sie können bestehende Geschäftsregeln bearbeiten, löschen oder deaktivieren.
 Bestehende Datensätze werden durch Bearbeiten einer vorhandenen Regel nicht geändert. Die bearbeitete Regel gilt nur für vorhandene Datensätze, wenn versucht wird, sie zu bearbeiten oder zu löschen.
 
 1. Kehren Sie zur **„Geschäftsregeln** für den Datensatztyp zurück.
-1. Suchen Sie die Regel, die Sie ändern möchten.
-1. Bewegen Sie den Mauszeiger über den Regelnamen und klicken Sie dann auf das **Mehr** Menü ![Mehr](assets/more-menu.png) und dann auf eine der folgenden Optionen:
+1. Suchen Sie in der Tabellenansicht nach der Regel, die Sie ändern möchten.
+1. Bewegen Sie den Mauszeiger über den Namen einer aktiven Regel und klicken Sie dann auf das Menü **Mehr** ![Mehr](assets/more-menu.png) und dann auf eine der folgenden Optionen:
 
    * **Bearbeiten**: Dadurch wird die Seite zur Einrichtung der Geschäftsregel geöffnet, auf der Sie Informationen zur Geschäftsregel bearbeiten können.
-   * **Deaktivieren**: <!--check this in the UI: right now, it says Disable--> Dies verhindert, dass die Regel ausgelöst wird, aber behält sie für die Zukunft bei, sofern erforderlich.
+   * **Deaktivieren**: Dadurch wird verhindert, dass die Regel ausgelöst wird, aber sie wird für die Zukunft beibehalten, falls erforderlich.
    * **Löschen**: Alle Informationen zur Regel werden gelöscht. Gelöschte Regeln können nicht wiederhergestellt werden.
 
+   ![Geschäftsregel Mehr Menü erweitert](assets/business-rule-more-menu-in-table-expanded.png)
+
    Die bearbeiteten Regeln oder die Deaktivierung von Regeln gelten nur für zukünftige Datensätze und werden nicht rückwirkend angewendet.
+1. (Optional und bedingt) Bewegen Sie den Mauszeiger über den Namen einer deaktivierten Geschäftsregel in der Tabelle und klicken Sie dann auf **Mehr** > **Aktivieren**, um die Regel zu aktivieren.
 
-   <!--add NEW screen shot below if UI is fixed with Deactivate at release; it was fixed in devTest-->
+   Die Regel ist aktiviert.
 
-   <!--![Business rule more menu expanded](assets/business-rule-more-menu-in-table-expanded.png)-->
+
+
 
 <!--
 

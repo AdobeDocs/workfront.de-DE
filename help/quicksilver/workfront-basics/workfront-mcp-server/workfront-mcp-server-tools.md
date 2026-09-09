@@ -5,9 +5,9 @@ title: Adobe Workfront MCP-Server-Tools
 description: Referenzliste der über den Adobe Workfront MCP-Server verfügbaren Tools, gruppiert nach Workfront-Bereich.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: c52aa353d5b9856cc6c7de458596f0145fb2c6e0
+source-git-commit: 7d95c420db4566936f225daae7b82f61f757b4f5
 workflow-type: tm+mt
-source-wordcount: '2721'
+source-wordcount: '2785'
 ht-degree: 4%
 
 ---
@@ -300,6 +300,13 @@ Insights-Tools rufen Informationen zu Workfront-Objekten ab.
 | Entitäten auflisten | `insights_list_entities` | Listet alle Workfront-Objekttypen auf, die für Abfragen verfügbar sind. | Lesen |
 | Benutzende suchen | `insights_search_users` | Suchen Sie Personen in Ihrer Workfront-Instanz anhand des Namens. Geben Sie einen vollständigen oder teilweisen Namen ein und kehren Sie zu den oberen übereinstimmenden Benutzern zurück. Dies kann optional auch KI-Collaborator-„Bots“ neben regulären Benutzern enthalten. | Lesen |
 
+## Feedback-Tools
+
+<span class="preview">Mit Feedback-Tools können Sie Ihre Erfahrungen mit dem Workfront MCP-Server direkt über Ihre KI-Agentenplattform berichten.</span>
+
+| Titel | Tool-Name | Funktion | Aktion |
+| --- | --- | --- | --- |
+| <span class="preview">Feedback geben</span> | <span class="preview">`share_feedback`</span> | <span class="preview">Zeichnet Ihre gemeldeten Sentiment und die Ereignisse während des Gesprächs auf, sodass die MCP-Tools von Workfront verbessert werden können. Wird nur verwendet, wenn Sie ausdrücklich dazu auffordern, Feedback zu geben (z. B. „Feedback geben“ oder „Fehler melden„).</span> | <span class="preview">Write</span> |
 
 
 

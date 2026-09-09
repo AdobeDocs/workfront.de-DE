@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Verwenden von Adobe Experience Manager mit der Frame.io-Integration
-description: Verwenden von Adobe Experience Manager mit der Frame.io-Integration
+title: Verwenden von Adobe Experience Manager mit Workfront und Adobe Cloud Storage
+description: Verwenden von Adobe Experience Manager mit Workfront und Adobe Cloud Storage
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -24,14 +24,14 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 5ba0b1d553d67beb5924eb9255880a7ba1728ad9
 workflow-type: tm+mt
-source-wordcount: 1450
-ht-degree: 7%
+source-wordcount: 2112
+ht-degree: 4%
 
 ---
 
-# Verwenden von Adobe Experience Manager mit der Frame.io-Integration
+# Verwenden von Adobe Experience Manager mit Workfront und Adobe Cloud Storage
 
 Sie können die [!DNL Experience Manager Assets]&#x200B; verwenden, um Ihre digitalen Assets zu verwalten und zu speichern, die den Überprüfungs- und Genehmigungszyklus durchlaufen haben. Durch diese Integration können Sie die Funktionen von Adobe Experience Manager, Frame.io und Workfront nutzen, um Ihr Content-Management und Ihre Zusammenarbeitsprozesse zu optimieren.
 
@@ -268,6 +268,111 @@ Senden eines Dokuments:
 
 1. Wählen Sie aus, wohin das Asset gesendet werden soll, und klicken Sie dann auf **Ordner auswählen**.
 
+## Verknüpfen von Inhalten aus Experience Manager Assets
+
+So verknüpfen Sie Inhalte:
+
+1. Wechseln Sie zum Workfront-Objekt, mit dem Sie Inhalte verknüpfen möchten.
+1. Klicken Sie auf **Abschnitt** Dokumente“ im linken Bedienfeld.
+1. Klicken Sie **rechts auf** Seite auf „Neu“ und dann auf **AEM-Dateien**, um ein einzelnes Asset zu verknüpfen.
+   ![Fügen Sie AEM-Dateien zum Bereich „Dokumente“ hinzu](assets/aem-files.png)
+
+1. Mit Content Advisor können Sie:
+
+   <table style="table-layout:auto">
+   <tbody>
+      <tr>
+         <td><strong>Suchen nach Assets mithilfe von KI-Suchen.</strong> Verwenden Sie eine KI-gestützte Suche, die Bedeutung und Absicht hinter Abfragen versteht und mehrere Sprachen, Rechtschreibfehler und Synonyme unterstützt.</td>
+         <td>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-advisor-ai-search">KI-Suchen für die intelligentere Asset-Erkennung</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Anzeigen von Smart-Vorschlägen basierend auf Kontext und Absicht.</strong> Entdecken Sie Assets, die Ihren Inhaltsanforderungen entsprechen, indem Sie kontextabhängige Empfehlungen aus der Adobe-Hostanwendung verwenden.</td>
+         <td>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#smart-suggestions-content-advisor">Intelligente Vorschläge basierend auf Kontext und Absicht</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Laden Sie eine Kampagnenbeschreibung hoch, um relevante Assets zu finden.</strong> Laden Sie ein Kurzdokument für PDF-, DOCX- oder TXT-Kampagnen hoch, damit Content Advisor es analysieren und relevante Assets empfehlen kann.</td>
+         <td>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#campaign-briefs-content-advisor">Kampagnenbeschreibungen zur Ermittlung relevanter Assets</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Anzeigen und Auswählen von Dynamic Media-Asset-Ausgabedarstellungen.</strong> Durchsuchen Sie kanaloptimierte Ausgabedarstellungen, einschließlich Bildvorgaben, smartem Zuschneiden und Formattypen, und wenden Sie Dynamic Media-Modifikatoren an, um Anpassungen in Echtzeit in der Vorschau anzuzeigen.</td>
+         <td>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">Für Dynamic Media-Assets verfügbare Ausgabedarstellungen</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Anwenden von Dynamic Media-Modifikatoren auf Ausgabedarstellungen.</strong> Fügen Sie Modifikatoren hinzu, um Asset-Ausgabedarstellungen in Echtzeit umzuwandeln und eine Vorschau der Ergebnisse anzuzeigen, bevor Sie eine Ausgabedarstellung für Ihre Hostanwendung auswählen.</td>
+         <td>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#dynamic-media-renditions-content-advisor">Für Dynamic Media-Assets verfügbare Ausgabedarstellungen</a>.</td>
+      </tr>
+      <!--
+      <tr>
+         <td><strong>Discover and browse Content Fragments.</strong> Search through Content Fragments, view live thumbnail previews, check status (Draft, Modified, or Published), and inspect detailed properties, references, and variations.</td>
+         <td>For more information, see <a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#content-fragments-discovery-content-advisor">Discovery of Content Fragments</a>.</td>
+      </tr>
+      -->
+      <tr>
+         <td><strong>Zugriff auf Asset-Metadaten.</strong> Überprüfen Sie Asset-Eigenschaften wie Titel, Beschreibung, Format, Größe und andere Metadaten-Registerkarten (Produkt, Kampagne, Tags) entsprechend der Assets-Ansicht.</td>
+         <td>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#asset-metadata-content-advisor">Zugriff auf Asset-Metadaten, die der Assets-Ansicht entsprechen</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Filtern von Assets mithilfe vordefinierter Filter.</strong> Verfeinern Sie die Asset-Ergebnisse mithilfe von Filtern wie Dateityp, Dateiformat, Asset-Status, Dateigröße, Bildbreite, Bildhöhe, Änderungsdatum und Erstellungsdatum.</td>
+         <td>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#filters-content-advisor">Zugriff auf Filter, die der Assets-Ansicht entsprechen</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Speichern und Wiederverwenden von Suchvorgängen.</strong> Erstellen Sie gespeicherte Suchen, indem Sie einen Suchbegriff und Filteroptionen angeben und diese dann in Experience Manager Assets und anderen Adobe-Programmen wiederverwenden.</td>
+         <td>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#saved-searches-content-advisor">Zugreifen auf und Wiederverwenden von kürzlich durchgeführten und gespeicherten Suchen</a>.</td>
+      </tr>
+      <tr>
+         <td><strong>Suchen nach Assets in und innerhalb von Sammlungen.</strong> Alle Sammlungen nach Assets oder Sammlungen durchsuchen oder die Suche auf eine bestimmte Sammlung beschränken.</td>
+         <td>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/manage/content-advisor-adobe-applications#search-collections-content-advisor">Suchen nach Assets in und innerhalb von Sammlungen</a>.</td>
+      </tr>
+   </tbody>
+   </table>
+
+   >[!NOTE]
+   >
+   >Empfohlene Inhalte in Content Advisor verwendet Daten aus den folgenden Elementen, um vorgeschlagene Inhalte in Workfront zu ermitteln:
+   >
+   >* Felder für Workfront-Objektnamen und -Beschreibungen
+   >* Benutzerdefinierte Formularfelder, die als erforderlich markiert sind
+   >* Daten aus angehängten Dokumenten
+
+<!--
+### Link a new version from Experience Manager Assets
+
+You can pull new content over from Experience Manager Assets and add it to an existing asset as a new version. If the document is already linked and a new version is added in Experience Manager Assets, the new version appears automatically in Workfront.
+
+To link a new version:
+
+1. Go to the Workfront object where you want to link content.
+1. Click the **Documents** section in the left panel.
+1. Select the asset you want to replace with a new version. You can't create a new version of an asset in a linked folder.
+1. Select **Add New** > **Version**, then select the Experience Manager integration your administrator set up.
+
+   >[!NOTE]
+   >
+   >The Workfront administrator can choose any name for this integration, so it might not specifically mention Experience Manager Assets.
+
+1. Select the content you want to link.
+1. Click **Select**.
+-->
+
+<!--
+## Link a folder from Experience Manager Assets
+
+Permissions to view individual assets inside of a folder rely on Experience Manager Assets permissions.
+
+To link a folder:
+
+1. Go to the Workfront object where you want to link content.
+1. Click the **Documents** section in the left panel.
+1. Click **Assets** > **Files & Folders**.
+1. Click the **Filter** icon, then in the **Asset Type** section, choose **Folders**.
+1. Select the folder you want to link.
+1. Click **Select**.
+-->
+
+## Zu beachten
+
+* Überprüfungs- und Genehmigungs-Workflows werden für verknüpfte AEM-Assets nicht unterstützt.
+* Metadatenfelder werden zuerst zugeordnet, wenn Sie ein Asset von Workfront an Experience Manager Assets senden. Wenn Ihr Workfront-Administrator die Synchronisierung von Objektmetadaten aktiviert hat, bleiben die Felder auf dem neuesten Stand, wenn sie in einer der Anwendungen geändert werden.
 
 <!--
  not sure if this is in yet

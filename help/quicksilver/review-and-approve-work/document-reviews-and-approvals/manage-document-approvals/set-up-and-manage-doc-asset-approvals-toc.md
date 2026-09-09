@@ -19,10 +19,10 @@ subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 75b5d93d97458a71d206a7701f8773d309eeb834
 workflow-type: tm+mt
-source-wordcount: 97
-ht-degree: 81%
+source-wordcount: 100
+ht-degree: 79%
 
 ---
 
@@ -35,6 +35,7 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Hinzufügen zusätzlicher prüfender oder genehmigender Personen zu einem Asset oder Dokument](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
 * [Entfernen von genehmigenden oder prüfenden Personen von einem Asset oder Dokument](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
 * [Erstellen einer Genehmigungsvorlage für Assets und Dokumente](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+* [Genehmigungsvorlagen verwalten](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md)
 * [Gemeinsames Verwenden von einheitlichen Genehmigungen und Proofing](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
 * [Hochladen einer neuen Dokumentversion und Anfordern einer Genehmigung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
 * [Erstellen eines Berichts-Dashboards zur Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)

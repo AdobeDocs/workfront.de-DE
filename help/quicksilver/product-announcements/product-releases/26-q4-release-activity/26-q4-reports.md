@@ -4,10 +4,10 @@ description: Verbesserungen bei Berichten für das vierte Quartal 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ee1fceee828c97db535ccc03c8b428940d6f7eed
+source-git-commit: bc0b2d70878e754c8f4b0c2911d32e71b5d4c78d
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 8%
+source-wordcount: '783'
+ht-degree: 6%
 
 ---
 
@@ -17,27 +17,21 @@ Auf dieser Seite werden die Verbesserungen beim Reporting in der Vorschau-Umgebu
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2026 des Versionszyklus verfügbar sind, finden Sie unter [Versionsübersicht für das vierte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
-<!--
-
-## Duplicate dashboards in Canvas Dashboards
+## Kopieren von Dashboards in Arbeitsflächen-Dashboards
 
 >[!NOTE]
 >
->Preview: September 3, 2026
->Production fast release: September 17, 2026
->Production for everyone: October 15, 2026
+>Vorschau: 3. September 2026
+>Produktions-Schnellveröffentlichung: 17. September 2026
+>Produktion für alle: 15. Oktober 2026
 
-You can now duplicate a Canvas Dashboard using the new **Duplicate dashboard** action. This action is available to any user whose access level grants edit or create rights to Dashboards, even if they only have view access to the specific dashboard being copied. Users without edit or create rights to Dashboards do not see this action.
+Sie können jetzt ein Arbeitsflächen-Dashboard mit der neuen Aktion **Dashboard kopieren** kopieren. Diese Aktion steht allen Benutzenden zur Verfügung, deren Zugriffsebene Bearbeitungsberechtigungen für Dashboards gewährt bzw. Rechte zum Erstellen gewährt, auch wenn sie nur Lesezugriff auf das jeweilige Dashboard haben, das kopiert wird. Benutzende ohne Bearbeitungsrechte oder Bearbeitungsrechte für Dashboards sehen diese Aktion nicht.
 
-When you duplicate a dashboard, you can rename it, update its description and currency, and choose which widgets, dashboard filters, and dashboard prompts to carry over to the copy.
+Wenn Sie ein Dashboard kopieren, können Sie es umbenennen, seine Beschreibung und Währung aktualisieren und auswählen, welche Widgets, Dashboard-Filter und Dashboard-Eingabeaufforderungen in die Kopie übernommen werden sollen.
 
-Run as user configurations on widgets are only preserved if you are the designated user or a system administrator. Sharing preferences are not copied to the new dashboard, and a confirmation message with a link to the new dashboard displays once the copy is complete.
+Als Benutzerkonfigurationen ausführen In Widgets werden nur ausgeführt, wenn Sie der vorgesehene Benutzer oder Systemadministrator sind. Freigabevoreinstellungen werden nicht in das neue Dashboard kopiert, und nach Abschluss des Kopiervorgangs wird eine Bestätigungsmeldung mit einem Link zum neuen Dashboard angezeigt.
 
-Previously, there was no way to duplicate a dashboard; users had to rebuild dashboards from scratch to create audience-specific variations.
-
-For more information, see 
-
--->
+Zuvor gab es keine Möglichkeit, ein Dashboard zu kopieren. Die Benutzer mussten Dashboards von Grund auf neu erstellen, um zielgruppenspezifische Varianten zu erstellen.
 
 ## Feld „Validierungstyp“ in den Dashboards der Arbeitsfläche
 

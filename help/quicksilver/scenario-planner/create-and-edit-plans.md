@@ -20,9 +20,9 @@ role_v2:
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a84a7fadd821ddb30c72a88335716bbabb5783b4
+source-git-commit: a0ba955b089480c01b187e39ed5a8a8226b23ea7
 workflow-type: tm+mt
-source-wordcount: 2467
+source-wordcount: 2462
 ht-degree: 1%
 
 ---
@@ -157,7 +157,7 @@ Eine Liste der vorhandenen Pläne, die Sie erstellt haben, wird im [!DNL Workfro
 
    ODER
 
-   Klicken Sie **[!UICONTROL Neuer Plan]** in der oberen linken Ecke, um einen Plan zu erstellen und mit Schritt 5 fortzufahren. <!--is the step still accurate-->
+   Klicken Sie **[!UICONTROL Neuer Plan]**, um einen Plan zu erstellen und mit Schritt 5 fortzufahren. <!--is the step still accurate-->
 
    Das Feld [!UICONTROL **Neuer Plan**] wird angezeigt.
 
