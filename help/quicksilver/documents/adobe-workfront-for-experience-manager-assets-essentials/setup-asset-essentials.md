@@ -7,19 +7,13 @@ author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
 TQID: https://experienceleague.adobe.com/4ZNz4MKc5hvipk8bFpnPZIuWMrDLHjH-UdNiaJuY5WA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 3578c9c87c93aedd46f50fa660a54a73f5c574dc
 workflow-type: tm+mt
-source-wordcount: 620
+source-wordcount: 683
 ht-degree: 6%
 
 ---
@@ -35,7 +29,7 @@ Verbinden Sie Ihre Arbeit mit Ihren Inhalten in Experience Manager Assets Essent
 >[!NOTE]
 >
 >Sie können auch mehrere Experience Manager Assets-Repositorys über Organisations-IDs hinweg mit einer Workfront-Umgebung oder mehrere Workfront-Umgebungen mit einem Experience Manager Assets-Repository verbinden. Befolgen Sie die Konfigurationsanweisungen in diesem Artikel für jede Integration, die Sie einrichten möchten.<br>
->Diese Funktion ist im Bereich „Neue Dokumente“ nicht verfügbar.
+>Diese Funktion ist im Bereich Neue Dokumente nicht verfügbar.
 
 ## Zugriffsanforderungen
 
@@ -86,7 +80,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 {{step-1-to-setup}}
 
-1. Wählen Sie **Dokumente** ![Dokumentensymbol](assets/document-icon.png) im linken Bedienfeld aus und wählen Sie dann **Experience Manager-Integration**.
+1. Wählen Sie **Dokumente** ![Dokumentensymbol](assets/document-icon.png) im linken Bedienfeld aus und wählen Sie dann **Experience Manager Assets**.
 1. Wählen **Experience Manager-Integration hinzufügen** aus.
 1. Geben Sie Folgendes an:
 
@@ -125,7 +119,7 @@ Ordnen Sie Workfront-Objektdaten Asset-Medienfeldern in Experience Manager Asset
 
 Bevor Sie beginnen, müssen Sie
 
-* Konfigurieren Sie ein Metadatenschema in Experience Manager Assets Essentials, wie in [Konfigurieren der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets](https://experienceleague.adobe.com/de/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) beschrieben.
+* Konfigurieren Sie ein Metadatenschema in Experience Manager Assets Essentials, wie in [Konfigurieren der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) beschrieben.
 * (Optional) Konfigurieren von benutzerdefinierten Formularfeldern in Workfront. Workfront verfügt über viele integrierte benutzerdefinierte Felder, die Sie verwenden können. Sie können jedoch auch eigene benutzerdefinierte Felder erstellen. Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Unterstützte Workfront- und Experience Manager Assets-Felder
@@ -140,7 +134,7 @@ Um mehrere einzeilige Textfelder Schlüsselwörtern zuzuordnen, geben Sie eine k
 
 <!--
 Look for essentials article
-For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=de).
+For more information on keywords in Experience Manager Assets, including how to create and manage keywords, see [Administering Tags]( https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=en).
 -->
 
 
@@ -148,7 +142,7 @@ For more information on keywords in Experience Manager Assets, including how to 
 
 Metadaten werden zugeordnet, wenn ein Asset zum ersten Mal von Workfront gepusht wird. Dokumente mit den integrierten oder benutzerdefinierten Feldern werden beim ersten Versand eines Assets an Experience Manager Assets Essentials automatisch den angegebenen Feldern zugeordnet.
 
-1. Wählen Sie in der **&#x200B;**&#x200B;Workfront ein integriertes oder benutzerdefiniertes Workfront-Feld aus.
+1. Wählen Sie in der **** Workfront ein integriertes oder benutzerdefiniertes Workfront-Feld aus.
 
    >[!NOTE]
    >
