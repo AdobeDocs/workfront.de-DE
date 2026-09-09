@@ -9,13 +9,11 @@ exl-id: e152913e-de7e-405f-af63-827a9b91e2ae
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/P2AOhU62RdYgN1vJCky27ZjE9X6VWmDfJF4E-5M-dgo
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+source-git-commit: 585b1e593cb59369ec933a138aa6927802c217ff
 workflow-type: tm+mt
-source-wordcount: 675
+source-wordcount: 706
 ht-degree: 1%
 
 ---
@@ -50,7 +48,7 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
   </tr> 
   <tr> 
    <td> <p><strong>Eine delegierte Projektgenehmigungsanfrage ist abgeschlossen</strong> </p> <p>Eine Projektgenehmigung, die Sie an einen anderen Benutzer delegiert haben, wurde von diesem Benutzer genehmigt oder abgelehnt.</p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail ist: <em>[!UICONTROL Projektgenehmigung/ -ablehnung in Ihrem Auftrag von] &lt;Benutzername&gt;</em></p> <p><em>Der Betreff der täglichen Digest-Benachrichtigung ist: [!UICONTROL Digest of Approval Information] &lt;Datum der täglichen Digest&gt;</em> </p> </td> 
-   <td> Projektname<br>[!UICONTROL Portfolio-Name]<br>[!UICONTROL -Projekt-Referenznummer]<br>Name des Benutzers, der das Projekt in Ihrem Auftrag genehmigt/abgelehnt hat<br>[!UICONTROL -Genehmigungsentscheidung]<br>[!UICONTROL -Projektstatus]<br>Name des Benutzers, der die Genehmigung angefordert hat<br><strong>[!UICONTROL Weitere Details anzeigen]</strong>-Schaltfläche<br>*Projekt-Referenznummer<br>*Projektname<br>*Name des genehmigenden Benutzers<br>[!UICONTROL *Datum der täglichen Zusammenfassung]<br></td> 
+   <td> Projektname<br>[!UICONTROL Portfolio-Name]<br>[!UICONTROL-Projekt-Referenznummer]<br>Name des Benutzers, der das Projekt in Ihrem Auftrag genehmigt/abgelehnt hat<br>[!UICONTROL-Genehmigungsentscheidung]<br>[!UICONTROL-Projektstatus]<br>Name des Benutzers, der die Genehmigung angefordert hat<br><strong>[!UICONTROL Weitere Details anzeigen]</strong>-Schaltfläche<br>*Projekt-Referenznummer<br>*Projektname<br>*Name des genehmigenden Benutzers<br>[!UICONTROL *Datum der täglichen Zusammenfassung]<br></td> 
    <td><strong>Täglich</strong> </td> 
   </tr> 
   <tr> 
@@ -69,7 +67,7 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
    <td><strong>Instant</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Meine Arbeitszeittabelle wurde genehmigt</strong> </p> <p>Wenn Ihre Arbeitszeittabelle genehmigt wurde, erhalten Sie eine E-Mail-Benachrichtigung.</p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail ist: <em>[!UICONTROL Arbeitszeittabelle genehmigt]: &lt;Startdatum der Arbeitszeittabelle&gt; - &lt;Enddatum der Arbeitszeittabelle&gt;</em></p> <p> <p>Hinweis: Sie können diese Benachrichtigung nicht für eine Daily Digest -E-Mail konfigurieren.</p> </p> </td> 
+   <td> <p><strong>Meine Arbeitszeittabelle wurde genehmigt</strong> </p> <p>Wenn Ihre Arbeitszeittabelle genehmigt wurde, erhalten Sie eine E-Mail-Benachrichtigung.</p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail ist: <em>[!UICONTROL Arbeitszeittabelle genehmigt]: &lt;Startdatum der Arbeitszeittabelle&gt; - &lt;Enddatum der Arbeitszeittabelle&gt;</em></p> <p> <p>Hinweis: Sie können diese Benachrichtigung nicht für eine Daily Digest -E-Mail konfigurieren.</p> </p> <p> <p>Hinweis: Sie müssen über eine Standardlizenz verfügen, um diese Benachrichtigung zu erhalten. Benutzende mit einer Light-Lizenz oder niedriger erhalten die E-Mail zur Genehmigung der Arbeitszeittabelle nicht, selbst wenn sie aktiviert ist.</p> </p> </td> 
    <td> Name des Benutzers, der Ihre Arbeitszeittabelle genehmigt hat<br>Datum und Uhrzeit der Genehmigung der Arbeitszeittabelle<br>Status der Arbeitszeittabelle ([!UICONTROL Genehmigt])<br>Startdatum und Enddatum der Arbeitszeittabelle<br>Gesamtstundenzahl, die in der Arbeitszeittabelle erfasst <br>Überstunden, die in der Arbeitszeittabelle erfasst sind </td> 
    <td><strong>Instant</strong> </td> 
   </tr> 
