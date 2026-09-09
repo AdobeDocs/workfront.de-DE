@@ -9,19 +9,13 @@ feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
 TQID: https://experienceleague.adobe.com/KwUrEyHt6dqTcmP3JrTObsfvkcjP9q7O6-msiBuZVP4
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ab475d9e655250410ae6f1ee1ca458533cbea127
+product_v2: id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+feature_v2: id: d968a1bc-9a90-4926-a531-bcf272c32aadid: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: d29d16e2281b0dad8c603a81a92dd16e961d973f
 workflow-type: tm+mt
-source-wordcount: 646
+source-wordcount: 645
 ht-degree: 7%
 
 ---
@@ -112,7 +106,7 @@ Sie können Folgendes tun, um die Anzahl der Risikotypen in Ihrer Workfront-Inst
 
 1. (Optional) Ändern Sie den Namen und die Beschreibung des Risikotyps.
 
-   Für die Felder **[!UICONTROL Name“ und]** Beschreibung **gibt es eine Zeichenbeschränkung von** 0 Zeichen.
+   Für die Felder **[!UICONTROL Name“ und]** Beschreibung ]**gibt es eine Zeichenbeschränkung von**[!UICONTROL  0 Zeichen.
 
 1. Klicken Sie **[!UICONTROL Änderungen speichern].**
 
@@ -120,25 +114,30 @@ Sie können Folgendes tun, um die Anzahl der Risikotypen in Ihrer Workfront-Inst
 
 1. (Optional) Um eine Liste der Risikotypen zu exportieren, klicken Sie auf das Symbol [!UICONTROL **Exportieren**]. Sie können in die folgenden Dateitypen exportieren:
 
-   * In der Produktionsumgebung:
+   <!--* In the Production environment:-->
 
-     * PDF
-     * Excel
-     * Excel (xlsx)
-     * Durch Tabulatoren getrennt
-     * CSV
+   * PDF
+   * Excel
+   * Excel (xlsx)
+   * Durch Tabulatoren getrennt
+   * CSV
 
-   <div class="preview">
+   <!--
+    PM confirmed that these lists should be the same: https://workfront.slack.com/archives/C05DPT67BD3/p1788465805975249?thread_ts=1788436678.273019&cid=C05DPT67BD3 
+    <div class="preview">
 
-   * In der Vorschau-Umgebung:
+    * In the Preview environment: 
 
-     * CSV
-     * XLSX
-   </div>
+      * CSV
+      * XLSX 
+    </div>
+    -->
 
    >[!TIP]
    >
-   >   In der Produktionsumgebung können Sie zunächst eine begrenzte Anzahl von Risikotypen auswählen und diese dann für eine kleinere Liste exportieren. <!--not sure if this should be logged as a bug because it's not working with the new Gtable list in Preview??-->
+   >   In der Produktionsumgebung können Sie zunächst eine begrenzte Anzahl von Risikotypen auswählen und diese dann für eine kleinere Liste exportieren.
+   >
+   > <span class="preview">Diese Funktion wurde aus der Vorschau-Umgebung entfernt.</span> <!--not sure if this should be logged as a bug because it's not working with the new Gtable list in Preview??-->
 
 ### Risikotypen erstellen {#create-risk-types}
 
@@ -160,7 +159,7 @@ Zusätzlich zu den standardmäßigen Risikotypen können Sie Risikotypen erstell
 
 1. Fügen Sie **[!UICONTROL Risikotyp einen]** Namen“ (erforderlich) und **[!UICONTROL Beschreibung]** (optional) hinzu.
 
-   Für die Felder **[!UICONTROL Name“ und]** Beschreibung **gibt es eine Zeichenbeschränkung von** 0 Zeichen.
+   Für die Felder **[!UICONTROL Name“ und]** Beschreibung ]**gibt es eine Zeichenbeschränkung von**[!UICONTROL  0 Zeichen.
 
 1. Klicken Sie **[!UICONTROL Risikotyp erstellen]**,
 
@@ -168,7 +167,7 @@ Zusätzlich zu den standardmäßigen Risikotypen können Sie Risikotypen erstell
 
    >[!TIP]
    >
-   >Informationen zum Bearbeiten eines benutzerdefinierten Risikotyps finden Sie im Abschnitt [[!UICONTROL Bearbeiten &#x200B;] Risikotypen](#edit-existing-risk-types) in diesem Artikel.
+   >Informationen zum Bearbeiten eines benutzerdefinierten Risikotyps finden Sie im Abschnitt [[!UICONTROL Bearbeiten ] Risikotypen](#edit-existing-risk-types) in diesem Artikel.
 
 ## Risiken mit Risikotypen an Projekte anhängen
 

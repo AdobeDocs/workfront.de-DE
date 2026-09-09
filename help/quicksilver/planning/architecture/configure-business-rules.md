@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: a0ba955b089480c01b187e39ed5a8a8226b23ea7
+source-git-commit: d29d16e2281b0dad8c603a81a92dd16e961d973f
 workflow-type: tm+mt
-source-wordcount: '1164'
+source-wordcount: '1166'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 1%
 
 Sie können Geschäftsregeln für Adobe Workfront Planning-Datensatztypen konfigurieren, um anzugeben, dass bestimmte Felder erforderlich sind, bevor eine Aktion für einen Datensatz dieses Typs zulässig oder verhindert wird.
 
-Je nach Formulierung der Regel können Sie die folgenden Aktionen für die Datensätze zulassen, wenn die definierten Geschäftsregeln erfüllt sind:
+Je nach Formulierung der Regel können Sie die folgenden Aktionen für die Datensätze zulassen oder verbieten, wenn die definierten Geschäftsregeln erfüllt sind:
 
 * Datensatz bearbeiten oder nicht bearbeiten
 * Löschen oder Löschen eines Datensatzes nicht
