@@ -17,9 +17,9 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+source-git-commit: 3578c9c87c93aedd46f50fa660a54a73f5c574dc
 workflow-type: tm+mt
-source-wordcount: 620
+source-wordcount: 683
 ht-degree: 6%
 
 ---
@@ -35,7 +35,7 @@ Verbinden Sie Ihre Arbeit mit Ihren Inhalten in Experience Manager Assets Essent
 >[!NOTE]
 >
 >Sie können auch mehrere Experience Manager Assets-Repositorys über Organisations-IDs hinweg mit einer Workfront-Umgebung oder mehrere Workfront-Umgebungen mit einem Experience Manager Assets-Repository verbinden. Befolgen Sie die Konfigurationsanweisungen in diesem Artikel für jede Integration, die Sie einrichten möchten.<br>
->Diese Funktion ist im Bereich „Neue Dokumente“ nicht verfügbar.
+>Diese Funktion ist im Bereich Neue Dokumente nicht verfügbar.
 
 ## Zugriffsanforderungen
 
@@ -86,7 +86,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 {{step-1-to-setup}}
 
-1. Wählen Sie **Dokumente** ![Dokumentensymbol](assets/document-icon.png) im linken Bedienfeld aus und wählen Sie dann **Experience Manager-Integration**.
+1. Wählen Sie **Dokumente** ![Dokumentensymbol](assets/document-icon.png) im linken Bedienfeld aus und wählen Sie dann **Experience Manager Assets**.
 1. Wählen **Experience Manager-Integration hinzufügen** aus.
 1. Geben Sie Folgendes an:
 

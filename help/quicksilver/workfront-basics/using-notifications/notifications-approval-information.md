@@ -13,9 +13,9 @@ product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+source-git-commit: 585b1e593cb59369ec933a138aa6927802c217ff
 workflow-type: tm+mt
-source-wordcount: 675
+source-wordcount: 706
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
    <td><strong>Instant</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Meine Arbeitszeittabelle wurde genehmigt</strong> </p> <p>Wenn Ihre Arbeitszeittabelle genehmigt wurde, erhalten Sie eine E-Mail-Benachrichtigung.</p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail ist: <em>[!UICONTROL Arbeitszeittabelle genehmigt]: &lt;Startdatum der Arbeitszeittabelle&gt; - &lt;Enddatum der Arbeitszeittabelle&gt;</em></p> <p> <p>Hinweis: Sie können diese Benachrichtigung nicht für eine Daily Digest -E-Mail konfigurieren.</p> </p> </td> 
+   <td> <p><strong>Meine Arbeitszeittabelle wurde genehmigt</strong> </p> <p>Wenn Ihre Arbeitszeittabelle genehmigt wurde, erhalten Sie eine E-Mail-Benachrichtigung.</p> <p>Der Betreff der sofortigen Benachrichtigungs-E-Mail ist: <em>[!UICONTROL Arbeitszeittabelle genehmigt]: &lt;Startdatum der Arbeitszeittabelle&gt; - &lt;Enddatum der Arbeitszeittabelle&gt;</em></p> <p> <p>Hinweis: Sie können diese Benachrichtigung nicht für eine Daily Digest -E-Mail konfigurieren.</p> </p> <p> <p>Hinweis: Sie müssen über eine Standardlizenz verfügen, um diese Benachrichtigung zu erhalten. Benutzende mit einer Light-Lizenz oder niedriger erhalten die E-Mail zur Genehmigung der Arbeitszeittabelle nicht, selbst wenn sie aktiviert ist.</p> </p> </td> 
    <td> Name des Benutzers, der Ihre Arbeitszeittabelle genehmigt hat<br>Datum und Uhrzeit der Genehmigung der Arbeitszeittabelle<br>Status der Arbeitszeittabelle ([!UICONTROL Genehmigt])<br>Startdatum und Enddatum der Arbeitszeittabelle<br>Gesamtstundenzahl, die in der Arbeitszeittabelle erfasst <br>Überstunden, die in der Arbeitszeittabelle erfasst sind </td> 
    <td><strong>Instant</strong> </td> 
   </tr> 

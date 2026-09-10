@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: 585b1e593cb59369ec933a138aa6927802c217ff
 workflow-type: tm+mt
-source-wordcount: 689
-ht-degree: 6%
+source-wordcount: 728
+ht-degree: 5%
 
 ---
 
@@ -80,6 +80,7 @@ Wenn die folgenden Benachrichtigungseinstellungen eingerichtet sind, erhält der
 
 * Der Workfront-Administrator hat die Arbeitszeittabellen-Genehmigung für den Benutzer und die Arbeitszeittabellen-Ablehnung für Benutzer-Ereignishandler aktiviert. Informationen zur Aktivierung von Ereignisbenachrichtigungen finden Sie [Ereignistypen](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 * Die persönliche Benachrichtigung „Meine Arbeitszeittabelle ist genehmigt“ wird auf der Profilseite des Benutzers aktiviert. Weitere Informationen finden Sie unter [Eigene E-Mail-Benachrichtigungen ändern](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* Der Benutzer, der die Arbeitszeittabelle eingereicht hat, verfügt über eine Standardlizenz. Benutzer mit einer Light-Lizenz oder niedriger erhalten die E-Mail-Benachrichtigung zur Arbeitszeittabellen-Genehmigung nicht, selbst wenn die Option Meine Arbeitszeittabelle genehmigt ist. Die persönliche Benachrichtigung ist für ihr Profil aktiviert.
 
 ### Genehmigen einer Arbeitszeittabelle im Bereich Arbeitszeittabellen
 
