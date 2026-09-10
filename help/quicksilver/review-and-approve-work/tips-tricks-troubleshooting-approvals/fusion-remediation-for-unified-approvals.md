@@ -54,7 +54,7 @@ Welche Arbeit für jedes Szenario erforderlich ist, hängt davon ab, was es tut 
 >
 >Der Adobe Workfront Unified Review and Approvals-Connector ist jetzt in Workfront Fusion verfügbar. Es wird empfohlen, diesen Connector für einfachere und zuverlässigere Szenarien zu verwenden, wenn Sie Fusion mit Adobe Cloud Storage verwenden.
 >
->Informationen und Anweisungen finden Sie unter [Einheitliche Adobe Workfront-Prüfungs- und Genehmigungs-Module](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules) in der Dokumentation zu Workfront Fusion.
+>Informationen und Anweisungen finden Sie unter [Einheitliche Adobe Workfront-Prüfungs- und Genehmigungs-Module](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules) in der Dokumentation zu Workfront Fusion.
 
 Verwenden Sie den folgenden Ansatz, um die Fusion-Behebung zu planen und auszuführen:
 
