@@ -5,9 +5,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: d29d16e2281b0dad8c603a81a92dd16e961d973f
+source-git-commit: 2ee576fa6d039bdbc4dcbf8bc27e4276790b0621
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1196'
 ht-degree: 1%
 
 ---
@@ -130,14 +130,19 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
       IF(ISBLANK({Campaign summary}),"Campaign summary is a required field. You cannot edit this record without a value for the Campaign summary field.")
    ```
 
+   >[!TIP]
+   >
+   >Sie können verbundene Felder zu Geschäftsregeln hinzufügen, achten Sie jedoch darauf, Anweisungen zu verwenden, die nach einem Array anstatt nach einem Feldwert suchen. Verwenden Sie beispielsweise anstelle von `ISBLANK` `ARRAYLENGTH(field)=0`.
+
+
+   Das Feld **Formel** enthält Indikatoren, wenn ein Feld oder ein Ausdruck falsch ist.  <!--add screen shot?-->
+
    >[!IMPORTANT]
    >
    >Es wird dringend empfohlen, in die Regelformel die folgenden Informationen aufzunehmen, damit Benutzende leicht verstehen können, wenn eine Aktion, die sie für einen Datensatz ausführen möchten, nicht zulässig ist:
    >
    >* Die genauen Felder, für die die Regel eingerichtet ist.
    >* Die genaue Konsequenz, wenn die Regel nicht erfüllt ist.
-
-   Das Feld **Formel** enthält Indikatoren, wenn ein Feld oder ein Ausdruck falsch ist.  <!--add screen shot?-->
 
    Im **Dann**-Abschnitt der Geschäftsregel können Sie eine Erläuterung der Funktionsweise der Regel anzeigen.
 
