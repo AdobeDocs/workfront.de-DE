@@ -6,7 +6,7 @@ description: Inventarisieren, klassifizieren und beheben Sie Workfront Fusion-Sz
 author: Courtney
 feature: Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: a3ef3b4ea00298e23ebc8b6196c951417e75eebe
+source-git-commit: 56ab4879af4046f6b2dcdc177b4b20aa476fa90c
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 1%
@@ -18,12 +18,6 @@ ht-degree: 1%
 Workfront Fusion-Szenarien, die auf veralteten Workfront-Proofing-Tests basieren, funktionieren nicht automatisch für Adobe-Cloud-Speicherprojekte. Testversandspezifische Module, Webhooks und API-Endpunkte haben in einigen Fällen direkte Entsprechungen, in anderen sind es signifikante Änderungen. In diesem Artikel erfahren Sie, wie Sie betroffene Szenarien inventarisieren, klassifizieren und einen Korrekturpfad festlegen können, bevor Sie Teams, die von diesen Szenarien abhängig sind, in Ihren Rollout von Adobe Cloud-Speicher integrieren.
 
 Szenarien, die sich auf veraltete Workfront-Projekte beziehen, funktionieren weiterhin wie bisher. Die in diesem Artikel beschriebenen Korrekturmaßnahmen gelten für Szenarien, die Sie für Adobe-Cloud-Speicherprojekte ausführen möchten.
-
->[!IMPORTANT]
->
->Der Adobe Workfront Unified Review and Approvals-Connector ist jetzt in Workfront Fusion verfügbar. Es wird empfohlen, diesen Connector für einfachere und zuverlässigere Szenarien zu verwenden, wenn Sie Fusion mit Adobe Cloud Storage verwenden.
->
->Informationen und Anweisungen finden Sie unter [Einheitliche Adobe Workfront-Prüfungs- und Genehmigungs-Module](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules) in der Dokumentation zu Workfront Fusion.
 
 Verwenden Sie diesen Artikel, um Szenarien zu inventarisieren und zu klassifizieren und zu verstehen, wie Sie Ihre Fusion-Szenarien am besten aktualisieren können, um den Adobe-Cloud-Speicher zu berücksichtigen.
 
@@ -55,6 +49,12 @@ Welche Arbeit für jedes Szenario erforderlich ist, hängt davon ab, was es tut 
 Überprüfen Sie jedes Szenario anhand Ihrer spezifischen Geschäftslogik, um über seine Klassifizierung zu entscheiden.
 
 ## Sanierungsansatz
+
+>[!IMPORTANT]
+>
+>Der Adobe Workfront Unified Review and Approvals-Connector ist jetzt in Workfront Fusion verfügbar. Es wird empfohlen, diesen Connector für einfachere und zuverlässigere Szenarien zu verwenden, wenn Sie Fusion mit Adobe Cloud Storage verwenden.
+>
+>Informationen und Anweisungen finden Sie unter [Einheitliche Adobe Workfront-Prüfungs- und Genehmigungs-Module](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-review-and-approvals-modules) in der Dokumentation zu Workfront Fusion.
 
 Verwenden Sie den folgenden Ansatz, um die Fusion-Behebung zu planen und auszuführen:
 
