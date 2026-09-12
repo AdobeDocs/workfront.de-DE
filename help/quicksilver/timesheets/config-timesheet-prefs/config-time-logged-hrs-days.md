@@ -19,7 +19,7 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: dbb2e1aee18e6435a79ee2071f0bd5ba84ce2af3
+source-git-commit: 66c43904a7f5d937cba61b6e3da5adeb3a6c0c8c
 workflow-type: tm+mt
 source-wordcount: 434
 ht-degree: 12%
@@ -87,6 +87,6 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
    Beachten Sie beim Konfigurieren dieser Einstellung Folgendes:
 
    * Diese Option ist beim Konfigurieren von für die Zeiterfassung in Stunden nicht verfügbar.
-   * Diese Option wird nur zum Protokollieren der Zeit verwendet. Diese Option bezieht sich nicht auf die Option **Zeitplan**, die auch beim Bearbeiten eines Benutzers verfügbar ist. Die **Zeitplan**-Option wird bei der Berechnung von Timelines und in anderen Bereichen von Workfront verwendet. (Weitere Informationen zur Verwendung der Option **Zeitplan** finden Sie unter [Erstellen eines Zeitplans](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).) 
+   * Diese Option wird nur zum Protokollieren der Zeit verwendet. Diese Option bezieht sich nicht auf die Option **Zeitplan**, die auch beim Bearbeiten eines Benutzers verfügbar ist. Die **Zeitplan**-Option wird bei der Berechnung von Timelines und in anderen Bereichen von Workfront verwendet. Weitere Informationen zur Verwendung der Option **Zeitplan** finden Sie unter [Erstellen eines Zeitplans](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 1. Klicken Sie auf **Änderungen speichern**.
