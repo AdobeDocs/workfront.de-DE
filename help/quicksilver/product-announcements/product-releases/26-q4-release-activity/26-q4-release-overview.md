@@ -4,20 +4,18 @@ description: Diese Seite enthält Informationen zur Funktionalität, die in der 
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f46a0da928dd02415eac0a3dd555783912c1e740
+source-git-commit: 6fb4ffc73625485cf4f9b392020da94e938cf179
 workflow-type: tm+mt
-source-wordcount: '2905'
+source-wordcount: '2919'
 ht-degree: 7%
-
 ---
-
 # Versionsübersicht für das vierte Quartal 2026
 
 Diese Seite enthält Informationen zur Funktionalität, die in der für Oktober 2026 geplanten Version für das vierte Quartal 2026 enthalten ist.
 
 Die Verbesserungen auf dieser Seite sind in der Vorschauumgebung verfügbar. Diese Seite wird mit zusätzlichen Verbesserungen aktualisiert, sobald die geplante Produktionsversion der Version für das vierte Quartal 2026 näher rückt.
 
-Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben die neuen Funktionen hervor und bieten detaillierte Informationen. Um sich zu registrieren, besuchen Sie die [Ereignisseite](https://experienceleague.adobe.com/de/events?filters=Workfront) und filtern Sie nach Workfront.
+Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben die neuen Funktionen hervor und bieten detaillierte Informationen. Um sich zu registrieren, besuchen Sie die [Ereignisseite](https://experienceleague.adobe.com/en/events?filters=Workfront) und filtern Sie nach Workfront.
 
 >[!IMPORTANT]
 >
@@ -76,6 +74,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Benutzerdefinierte Anwendungen im Hauptmenü neu anordnen</a>
+                <p><strong>HINWEIS:</strong> Diese Funktion wurde am 14. September 2026 vorübergehend aus der Vorschau-Umgebung entfernt.</p>
                 <p>Sie können jetzt benutzerdefinierte Anwendungen im Hauptmenü einer Layout-Vorlage neu positionieren, anstatt sie immer als letzte erscheinen zu lassen.</p>
             </td>
             <td><p>3. September 2026</p></td>
@@ -491,20 +490,20 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
     &lt;/td>td>&lt;p>27. August 2026&lt;/p>&lt;/td>td>&lt;p>17. September 2026&lt;/p>&lt;/td>td&lt;td>&lt;p>td>5, 2026&lt;/p>&lt;/td>
     &lt;td>
     >
-    >&lt;td>
+    &lt;td>
     >a href=„class=„MCXref xref“ xrefFormat=&quot;{para}&quot;>Für das Erzwingen von Enddaten für terminierte Berichte&lt;/a>ist jetzt ein &lt;p>Enddatum erforderlich, um einen unbegrenzten Versand zu verhindern, mit automatischer Deaktivierung nach Ablauf des Enddatums eines Zeitplans.&lt;/p>
-    >&lt;/td>p&lt;p>13. August 2026&lt;/td>p&lt;td>&lt;p>17. September 2026&lt;/p>&lt;/td>p&lt;td>&lt;p>15. Oktober, 2026&lt;/p>&lt;/td>
-    >&lt;/tr>
-    >&lt;tr>
-    >&lt;td>
-    >&lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=„MCXref xref“ xrefformat=&quot;{para}&quot;>Native Referenzfelder sind für Listen und Berichte verfügbar&lt;/a>Jetzt können Sie in Workfront native Referenzfelder zu Listen und Berichten hinzufügen.&lt;/p>Td&lt;/td>td>&lt;p>Td>&lt;p>Am 30. Juli 2026&lt;/p>&lt;/td>
-    >&lt;td>13. August 2026&lt;/p>&lt;/td>
-    >&lt;td>&lt;p>15. Oktober 2026&lt;/p>&lt;/td>
-    >&lt;/tr>tr>
-    >&lt;td>
-    >&lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md /help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=„MCXref“ xrefFormat=&quot;{para}&quot;>Konsistente Reihenfolge von Mehrfachauswahl-Feldwerten in Legacy- und -Berichten&lt;/a>Ausgewählte Optionen für die Mehrfachauswahl von benutzerdefinierten Feldern werden jetzt in einer konsistenten, vorhersehbaren Reihenfolge in Legacy-Listen und -Berichten angezeigt.&lt;/p>Juli&lt;/td> 2026&lt;/p>&lt;/td>
-    >&lt;td>&lt;p>13. August 2026&lt;/p>&lt;/td>
-    >&lt;td>&lt;p>15. Oktober 2026&lt;/p>&lt;/td>
+    &lt;/td>p&lt;p>13. August 2026&lt;/td>p&lt;td>&lt;p>17. September 2026&lt;/p>&lt;/td>p&lt;td>&lt;p>15. Oktober, 2026&lt;/p>&lt;/td>
+    &lt;/tr>
+    &lt;tr>
+    &lt;td>
+    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=„MCXref xref“ xrefformat=&quot;{para}&quot;>Native Referenzfelder sind für Listen und Berichte verfügbar&lt;/a>Jetzt können Sie in Workfront native Referenzfelder zu Listen und Berichten hinzufügen.&lt;/p>Td&lt;/td>td>&lt;p>Td>&lt;p>Am 30. Juli 2026&lt;/p>&lt;/td>
+    &lt;td>13. August 2026&lt;/p>&lt;/td>
+    &lt;td>&lt;p>15. Oktober 2026&lt;/p>&lt;/td>
+    &lt;/tr>tr>
+    &lt;td>
+    &lt;a href=&quot;/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md /help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md&quot; class=„MCXref“ xrefFormat=&quot;{para}&quot;>Konsistente Reihenfolge von Mehrfachauswahl-Feldwerten in Legacy- und -Berichten&lt;/a>Ausgewählte Optionen für die Mehrfachauswahl von benutzerdefinierten Feldern werden jetzt in einer konsistenten, vorhersehbaren Reihenfolge in Legacy-Listen und -Berichten angezeigt.&lt;/p>Juli&lt;/td> 2026&lt;/p>&lt;/td>
+    &lt;td>&lt;p>13. August 2026&lt;/p>&lt;/td>
+    &lt;td>&lt;p>15. Oktober 2026&lt;/p>&lt;/td>
      
      
      
@@ -642,7 +641,7 @@ Wenn Sie ein Workfront-Administrator mit Data Connect-Readerbenutzern sind, die 
 
 Diese Änderung wurde erstmals in den Workfront-Versionshinweisen vom April 2026 angekündigt, und dies ist die letzte Erinnerung vor Fristablauf. Bitte stellen Sie sicher, dass alle betroffenen Leser-Benutzer die MFA vor dem 8. August 2026 aktivieren, um eine Unterbrechung ihres Zugriffs zu vermeiden.
 
-Weitere Informationen finden Sie unter [Erstellen eines Leserkontos oder einer Verbindung für Snowflake](https://experienceleague.adobe.com/de/docs/workfront/using/reporting/data-lake/create-a-reader-account).
+Weitere Informationen finden Sie unter [Erstellen eines Leserkontos oder einer Verbindung für Snowflake](https://experienceleague.adobe.com/en/docs/workfront/using/reporting/data-lake/create-a-reader-account).
 
 ### Updates für Schulungen
 

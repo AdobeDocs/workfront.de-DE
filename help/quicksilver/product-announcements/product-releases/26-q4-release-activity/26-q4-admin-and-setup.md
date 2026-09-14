@@ -4,13 +4,11 @@ description: Verbesserungen für Administratoren im vierten Quartal 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c3dc1aa9e48d45d2546561c2ac9412b008258e2d
+source-git-commit: 6fb4ffc73625485cf4f9b392020da94e938cf179
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1280'
 ht-degree: 1%
-
 ---
-
 # Verbesserungen für Administratoren im vierten Quartal 2026
 
 Auf dieser Seite werden Admin-Verbesserungen beschrieben, die mit der Version vom vierten Quartal 2026 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
@@ -74,6 +72,8 @@ Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale aktivieren](
 >Vorschau: 3. September 2026
 >Produktions-Schnellveröffentlichung: 17. September 2026
 >Produktion für alle: 15. Oktober 2026
+>
+>Diese Funktion wurde am 14. September 2026 vorübergehend aus der Vorschau-Umgebung entfernt.
 
 Bei der Arbeit mit einer Layout-Vorlage können Sie jetzt benutzerdefinierte Anwendungen in beliebiger Reihenfolge mit den standardmäßigen Workfront-Menüoptionen neu positionieren. Auf diese Weise können Sie jede Anwendung an der relevantesten Stelle platzieren.
 
@@ -169,7 +169,7 @@ Genehmigungs-, Staging- und Teilnehmeraktionen werden jetzt verfolgt. Diese Maß
 
 Jeder Eintrag enthält die getrackten Standardfelder: Datum und Uhrzeit, Vorgang, Benutzername (oder „systemgeneriert„) und Objektname. MCP-Aktivitäten werden erfasst, einschließlich der LLM (wie Claude), die die Aktualisierung vorgenommen hat. Frame.io-Viewer-Kommentare sind nicht enthalten.
 
-Weitere Informationen finden Sie unter [Anzeigen und Verwalten des &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
+Weitere Informationen finden Sie unter [Anzeigen und Verwalten des ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 ## Definieren eines benutzerdefinierten Programms als Landingpage in der Layout-Vorlage
 
