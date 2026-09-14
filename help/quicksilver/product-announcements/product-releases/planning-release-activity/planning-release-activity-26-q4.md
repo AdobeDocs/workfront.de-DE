@@ -6,13 +6,11 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 1b37b57f764d1579629e019c2025c809530124ea
+source-git-commit: e76aa2b0a9002abd644f82d99a001f8b1c0fff6e
 workflow-type: tm+mt
-source-wordcount: '1780'
+source-wordcount: '1773'
 ht-degree: 1%
-
 ---
-
 # Versionsaktivität für Adobe Workfront Planning im vierten Quartal 2026
 
 In diesem Artikel werden die Funktionen beschrieben, die in Workfront Planning im vierten Quartal 2026 veröffentlicht werden.
@@ -76,7 +74,7 @@ Benutzerdefinierte Wochen werden in Workfront nicht angezeigt. Sie sind nur in d
 
 Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale aktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
-## Filter für abhängige Felder von verbundenen Datensätzen
+## Filter für verbundene Datensatzfelder
 
 >[!NOTE]
 >
@@ -84,9 +82,9 @@ Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale aktivieren](
 >Produktions-Schnellveröffentlichung: 17. September 2026
 >Produktion für alle: 15. Oktober 2026
 
-Sie können jetzt nach bestimmten Datensatztypen filtern, die einem Filterkriterium entsprechen, wenn Sie in Planning abhängige Verbindungen hinzufügen.
+Beim Hinzufügen von Verbindungen in Planning können Sie jetzt nach bestimmten Datensatztypen filtern, die einem Filterkriterium entsprechen.
 
-Anstatt dass alle Datensatztypen in abhängigen verbundenen Feldern verfügbar sind, werden nur diejenigen angezeigt, die Ihren Filterkriterien entsprechen.
+Nur Datensätze, die Ihren Filterkriterien entsprechen, werden in verbundenen Feldern als Optionen angezeigt.
 
 Für diese Funktion haben wir auf der Registerkarte Neue Verbindung beim Verbinden von Datensatztypen die neue Option Datensatzfilterregeln hinzugefügt.
 
