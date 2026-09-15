@@ -4,17 +4,15 @@ description: In diesem Artikel wird beschrieben, wie Sie im Ideationsbereich Ide
 feature: Workfront Planning
 role: User, Admin
 author: Alina
-source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
+source-git-commit: cf783443d618874e1241d91895bcc78d78db23df
 workflow-type: tm+mt
-source-wordcount: '1511'
-ht-degree: 2%
-
+source-wordcount: '1461'
+ht-degree: 1%
 ---
-
 
 # Erstellen von Briefs im Ideationsbereich
 
-<!-- add to TOC and miniTOC-->
+<!--add to TOC and miniTOC-->
 
 <span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Es ist nur im Rahmen des Programms **Ideation Space Beta** verfügbar. </span>
 
@@ -50,18 +48,17 @@ are there additional license restrictions or packages to be purchased to have ac
 <li><p>Beliebige Workfront oder Workflows mit einem Planungspaket</p></li>
 ODER
 <li><p>Jedes Planungspaket, wenn es als eigenständiges Produkt gekauft wird</p></li></ul>
-   </td>
-
-<tr> 
-   <td role="rowheader"><p>Zusätzliche Produkte</p></td> 
-   <td><ul>
-   <li><p>Adobe GenStudio for Performance Marketing</p></li>
-   <!--
-   <li><p>Adobe Customer Journey Analytics</p></li>
-   -->
-   </ul>
    </td> 
-  </tr> 
+<!--
+<tr> 
+<td role="rowheader"><p>Additional products</p></td> 
+<td><ul>
+<li><p>Adobe GenStudio for Performance Marketing</p></li>
+<li><p>Adobe Customer Journey Analytics</p></li>
+</ul>
+</td> 
+</tr> 
+-->
   <tr> 
    <td role="rowheader"><p>Adobe Workflow-Lizenz</p></td> 
    <td><p>Standard</p>
@@ -88,14 +85,16 @@ ODER
       <p>Editor-Berechtigungen für den Ideenraum zum Erstellen von Briefs</p>
    </td> 
   </tr>  
-   <tr> 
-   <td role="rowheader"><p>Adobe GenStudio for Performance Marketing-Benutzerrollen</p></td> 
-   <td><p><ul><li>Jede GenStudio-Benutzerrolle für den Zugriff auf Kampagnen, Produkte und Personas</li>
-   <li>GenStudio System Manager für den Zugriff auf Aktivierungen <!--and Events--></li></ul>
-   Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Benutzerrollen und -berechtigungen</a>. 
-   </p>
-  </td> 
-  </tr> 
+    <!--
+    <tr> 
+    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
+    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
+    <li>GenStudio System Manager to access Activations and Events</li></ul>
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    </p>
+    </td> 
+    </tr> 
+    -->
 </tbody> 
 </table>
 
@@ -166,7 +165,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
    Beispielsweise werden Zeitleisten zu Datumsfeldern und Beschreibungen zu Absatzfeldern hinzugefügt.
    1. (Bedingt) Klicken Sie auf eine Karte und dann auf **KI bitten an …**, um Ideen für den nächsten Schritt zu erhalten, bevor Sie die Informationen zur Zusammenfassung hinzufügen. Die Antworten werden im Kontext der Informationen der einzelnen Karten angezeigt.
-   1. Klicken Sie auf **Symbol** Dokumente hinzufügen![&#x200B; (Symbol &#x200B;](assets/add-documents-in-ideation-space.png) hinzufügen) in der linken oberen Ecke des Ideationsbereichs, um Dokumente in den Bereich hochzuladen. Sie können neue Dokumente oder Dokumente hinzufügen, die Sie bereits zu dem zuvor eingefügten Bereich hinzugefügt haben.
+   1. Klicken Sie auf **Symbol** Dokumente hinzufügen![ (Symbol ](assets/add-documents-in-ideation-space.png) hinzufügen) in der linken oberen Ecke des Ideationsbereichs, um Dokumente in den Bereich hochzuladen. Sie können neue Dokumente oder Dokumente hinzufügen, die Sie bereits zu dem zuvor eingefügten Bereich hinzugefügt haben.
 
       >[!TIP]
       >

@@ -11,25 +11,32 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/F8JANtG9rzY6b-hLFTPQ28p8CVrsb3-lF-b97G4OnII
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: e793fdc87c17e777ce811b53b5f7bdb19b5cedf3
 workflow-type: tm+mt
-source-wordcount: 962
+source-wordcount: '992'
 ht-degree: 4%
-
 ---
-
 # Anzeigen von Problemen
 
 <!--Audited: 10/2025-->
@@ -105,11 +112,18 @@ So zeigen Sie Probleme in einem Projekt, einer Aufgabe oder einer Iteration an:
 
 1. Öffnen Sie ein Projekt, eine Aufgabe oder eine Iteration, das/die Probleme enthält, und klicken Sie **linken Bereich** Probleme“.
 
-1. Um alle offenen oder geschlossenen Probleme anzuzeigen, klicken Sie im Dropdown-Menü **Filter** auf einen der unten aufgeführten Filter.
+   >[!NOTE]
+   >
+   >Die Zahl neben dem Link zum Abschnitt „Probleme“ stellt die Anzahl der offenen (nicht gelösten) Probleme dar, die im Abschnitt aufgelistet sind.
 
->[!TIP]
->
->Die Liste der Filter hängt davon ab, was Ihr System- oder Gruppenadministrator ausgewählt hat, um sie anzuzeigen.
+
+1. Um offene oder geschlossene Probleme anzuzeigen, klicken Sie im Dropdown-Menü **Filter** auf einen der unten aufgeführten Filter.
+
+   >[!TIP]
+   >
+   >Die Liste der Filter hängt davon ab, was Ihr System- oder Gruppenadministrator ausgewählt hat, um sie anzuzeigen.
+   >
+   >Wenn kein Filter auf die Problemliste angewendet wird, werden alle Probleme unabhängig von ihrem Status angezeigt.
 
 * **Offen:** Zeigt Probleme an, die offen sind.
 
@@ -118,7 +132,7 @@ So zeigen Sie Probleme in einem Projekt, einer Aufgabe oder einer Iteration an:
   Informationen zum Auflösen von Objekten finden Sie unter [Übersicht über das Auflösen und das Auflösen von Objekten](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
 
 * **Abgeschlossen:** Zeigt alle Anfragen an, die ein tatsächliches Abschlussdatum haben.
-* **Alle** Zeigt alle Probleme an.
+
 
 ## Informationen zu Problemen
 
@@ -143,11 +157,11 @@ So greifen Sie auf ein Problem zu und zeigen Informationen dazu an:
 
 * **Aktualisierungen**: Sie können die folgenden Aktionen ausführen:
 
-   * Kommentieren Sie das Problem oder antworten Sie auf einen vorhandenen Kommentar.
-   * Zeit erfassen.
-   * Den Status des Problems ändern.
+  * Kommentieren Sie das Problem oder antworten Sie auf einen vorhandenen Kommentar.
+  * Zeit erfassen.
+  * Den Status des Problems ändern.
 
-     Weitere Informationen zum Aktualisieren der Arbeit in Workfront finden Sie unter [Arbeit aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+    Weitere Informationen zum Aktualisieren der Arbeit in Workfront finden Sie unter [Arbeit aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 * **Dokumente**: Fügen Sie dem Problem Dokumente hinzu. Weitere Informationen zum Hinzufügen von Dokumenten zu Workfront finden Sie unter [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
@@ -157,37 +171,37 @@ So greifen Sie auf ein Problem zu und zeigen Informationen dazu an:
 
   Sie können die folgenden Felder im Bereich **Übersicht** anzeigen oder bearbeiten:
 
-   * **Name**
-   * **Path**: Der Pfad, über den das Problem im Projekt protokolliert wurde.
+  * **Name**
+  * **Path**: Der Pfad, über den das Problem im Projekt protokolliert wurde.
 
-     Wenn ein Problem als Anfrage in einer Anfrage-Warteschlange gesendet wurde, werden die Namen des Projekts, der Themengruppe und des Warteschlangenthemas hier aufgeführt. Dieses Feld kann nicht bearbeitet werden.
+    Wenn ein Problem als Anfrage in einer Anfrage-Warteschlange gesendet wurde, werden die Namen des Projekts, der Themengruppe und des Warteschlangenthemas hier aufgeführt. Dieses Feld kann nicht bearbeitet werden.
 
-     Weitere Informationen zum Senden von Anfragen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anfragen](../../../manage-work/requests/create-requests/create-submit-requests.md).
+    Weitere Informationen zum Senden von Anfragen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anfragen](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-   * **Beschreibung**
-   * **URL**: Jede Web-Adresse im Zusammenhang mit dem Problem.
-   * **Priorität**: Eine visuelle Markierung, mit der Sie Probleme priorisieren können.
-   * **Schweregrad**: Eine visuelle Markierung, die anzeigt, wie schwerwiegend das in diesem Problem beschriebene Problem ist.
-   * **Primärer Kontakt**: Der Primäre Standardkontakt ist der Benutzer, der das Problem erstellt hat. Dieses Feld kann bearbeitet werden.
-   * **Geplante Stunden**: Zeigt die Zeit an, die jemand benötigt, um das Problem zu beheben. Der Standardwert ist 8 Stunden. Dieses Feld kann bearbeitet werden.
-   * **Tatsächliche Stunden**: Zeigt die Zeit an, die zum Fertigstellen des Problems benötigt wurde. Dies ist die tatsächliche Zeit, zu der sich jemand für das Problem anmeldet.
-   * **Geplantes Startdatum**: Das Datum, an dem das Problem beginnen soll. Der Standardwert ist das Datum und die Uhrzeit, zu der das Problem erstellt wurde.
-   * **Tatsächliches Startdatum**: Datum und Uhrzeit, zu der der Problemstatus in „In Bearbeitung“ geändert wurde.
-   * **Geplantes Abschlussdatum**: Das Datum, an dem die Anfrage voraussichtlich abgeschlossen wird.
-   * **Tatsächliches Abschlussdatum**: Das Datum, an dem das Problem tatsächlich abgeschlossen ist. Dieses Feld wird automatisch ausgefüllt, wenn sich der Problemstatus in „Geschlossen“ oder „Gelöst“ ändert, oder es kann manuell bearbeitet werden.
-   * **Istkosten**: Die Kosten basierend auf den für das Problem protokollierten tatsächlichen Stunden. Dieses Feld kann nicht bearbeitet werden. Die Istkosten eines Problems werden anhand der folgenden Formel berechnet, wobei der Benutzerkostensatz der Kostensatz ist, der dem Benutzer zugeordnet ist, der die Zeit bis zum Problem protokolliert:
+  * **Beschreibung**
+  * **URL**: Jede Web-Adresse im Zusammenhang mit dem Problem.
+  * **Priorität**: Eine visuelle Markierung, mit der Sie Probleme priorisieren können.
+  * **Schweregrad**: Eine visuelle Markierung, die anzeigt, wie schwerwiegend das in diesem Problem beschriebene Problem ist.
+  * **Primärer Kontakt**: Der Primäre Standardkontakt ist der Benutzer, der das Problem erstellt hat. Dieses Feld kann bearbeitet werden.
+  * **Geplante Stunden**: Zeigt die Zeit an, die jemand benötigt, um das Problem zu beheben. Der Standardwert ist 8 Stunden. Dieses Feld kann bearbeitet werden.
+  * **Tatsächliche Stunden**: Zeigt die Zeit an, die zum Fertigstellen des Problems benötigt wurde. Dies ist die tatsächliche Zeit, zu der sich jemand für das Problem anmeldet.
+  * **Geplantes Startdatum**: Das Datum, an dem das Problem beginnen soll. Der Standardwert ist das Datum und die Uhrzeit, zu der das Problem erstellt wurde.
+  * **Tatsächliches Startdatum**: Datum und Uhrzeit, zu der der Problemstatus in „In Bearbeitung“ geändert wurde.
+  * **Geplantes Abschlussdatum**: Das Datum, an dem die Anfrage voraussichtlich abgeschlossen wird.
+  * **Tatsächliches Abschlussdatum**: Das Datum, an dem das Problem tatsächlich abgeschlossen ist. Dieses Feld wird automatisch ausgefüllt, wenn sich der Problemstatus in „Geschlossen“ oder „Gelöst“ ändert, oder es kann manuell bearbeitet werden.
+  * **Istkosten**: Die Kosten basierend auf den für das Problem protokollierten tatsächlichen Stunden. Dieses Feld kann nicht bearbeitet werden. Die Istkosten eines Problems werden anhand der folgenden Formel berechnet, wobei der Benutzerkostensatz der Kostensatz ist, der dem Benutzer zugeordnet ist, der die Zeit bis zum Problem protokolliert:
 
-     Anfrage-Istkosten = protokollierte Stunden * Benutzerkostensatz
+    Anfrage-Istkosten = protokollierte Stunden * Benutzerkostensatz
 
-   * **Eingegeben von**: Dies ist der Benutzer, der das Problem erstellt hat. Dieses Feld kann nicht bearbeitet werden.
-   * **Zuletzt aktualisiert von**: Dies ist der Benutzer, der ein Feld zum Problem zuletzt aktualisiert hat. Dieses Feld kann nicht bearbeitet werden.
+  * **Eingegeben von**: Dies ist der Benutzer, der das Problem erstellt hat. Dieses Feld kann nicht bearbeitet werden.
+  * **Zuletzt aktualisiert von**: Dies ist der Benutzer, der ein Feld zum Problem zuletzt aktualisiert hat. Dieses Feld kann nicht bearbeitet werden.
 
-     Im Bereich **Benutzerdefinierte Forms** können Sie ein oder mehrere benutzerdefinierte Formulare anzeigen oder auswählen, die mit dem Problem verknüpft werden sollen.
+    Im Bereich **Benutzerdefinierte Forms** können Sie ein oder mehrere benutzerdefinierte Formulare anzeigen oder auswählen, die mit dem Problem verknüpft werden sollen.
 
 * **Stunden**: Zeigt eine Liste der Stundeneinträge für das Problem an.
 * **Genehmigungen:** Zeigt die mit dem Problem verbundenen Genehmigungspfade an.
 
-  Weitere Informationen zum Verknüpfen von Genehmigungen mit einem Problem finden Sie [&#x200B; Abschnitt „Verknüpfen eines Genehmigungsprozesses mit einem &#x200B;](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md#associating-the-approval-process-with-an-object)&quot; in [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+  Weitere Informationen zum Verknüpfen von Genehmigungen mit einem Problem finden Sie [ Abschnitt „Verknüpfen eines Genehmigungsprozesses mit einem ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md#associating-the-approval-process-with-an-object)&quot; in [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 ## Anzeigen, welche Projekte und Aufgaben Probleme aufweisen
 

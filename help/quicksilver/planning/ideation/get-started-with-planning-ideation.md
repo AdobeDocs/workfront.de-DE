@@ -5,13 +5,11 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
+source-git-commit: c969193e25b0f79082a8aa05bc5b449380cfe146
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 1%
-
+source-wordcount: '1001'
+ht-degree: 0%
 ---
-
 
 # Erste Schritte mit dem Ideenraum für Adobe Workfront Planning
 
@@ -19,7 +17,8 @@ ht-degree: 1%
 Should we add a new Feature to ExL for "Strategic Ideation"?
 -->
 
-<!--information in this article come from this document, in addition to my notes for this project up to August 31, 2026:
+<!--
+information in this article come from this document, in addition to my notes for this project up to August 31, 2026:
 
 https://adobe-my.sharepoint.com/:w:/r/personal/alinaw_adobe_com/_layouts/15/Doc.aspx?sourcedoc=%7B513DE769-B70B-4040-8C9E-6A9B8E3167BB%7D&file=getting-started-catalyze.docx&action=default&mobileredirect=true
 -->
@@ -31,42 +30,49 @@ https://adobe-my.sharepoint.com/:w:/r/personal/alinaw_adobe_com/_layouts/15/Doc.
 
 Der Adobe Ideation-Bereich ist Adobes KI-gestützte strategische Ideationsfunktion, die direkt in Workfront Planning integriert ist. Es bietet Marketing-Teams einen strukturierten, dateninformierten Ausgangspunkt für die Kampagnenstrategie. Sie ersetzen manuelle Recherchen und Rätselraten durch KI-generierte Briefs, die auf der realen Leistungsgeschichte eines Unternehmens basieren.
 
-Der Bereich „Ideen“, der nur über Workfront Planning zugänglich ist, befindet sich ganz am Anfang des Kampagnenlebenszyklus, vor der Planung, Produktion und Bereitstellung, und speist sich direkt in den Workfront Planning Workspace ein, in dem die Teams ihre Arbeit planen und ausführen.
+Der Bereich „Ideen“, der nur über Workfront Planning oder das Workfront-Hauptmenü zugänglich ist, befindet sich ganz am Anfang des Kampagnenlebenszyklus, vor der Planung, Produktion und Bereitstellung und fließt direkt in den Workfront Planning-Arbeitsbereich ein, in dem die Teams ihre Arbeit planen und ausführen.
 
 ## Produktverfügbarkeit
 
 Der geplante Veröffentlichungszeitplan für Ideation Space kann sich ändern und umfasst die folgenden Milestones:
 
 * **Abgeschlossene Beta:** wurde im Juli 2026 mit einer kleinen Anzahl von Kunden eingeführt.
-* **Open Beta:** für September 2026 geplant. Hierbei handelt es sich um ein Opt-in-Angebot, bei dem Kunden die Option aktiv aktivieren und konfigurieren müssen, anstatt sie aktiv abzuwählen.
+* **Open Beta:** für Oktober 2026 geplant. Hierbei handelt es sich um ein Opt-in-Angebot, bei dem Kunden die Option aktiv aktivieren und konfigurieren müssen, anstatt sie aktiv abzuwählen.
 * **Allgemeine Verfügbarkeit:** für die zweite Jahreshälfte 2026 geplant.
 
 ## Produktanforderungen
 
-Sie können den Ideationsbereich Ihrer Organisation aufrufen und haben gleichzeitig Zugriff auf die folgenden Pakete:
+Sie können auf den Ideationsraum Ihrer Organisation zugreifen und Sie haben Zugriff auf die folgenden Pakete, je nachdem, wann Sie auf den Ideationsraum zugreifen:
 
-* Ein Adobe Workfront Workflow-Paket mit einem Workfront Planning-Paket
+* Während der Open Beta-Version müssen Sie über Folgendes verfügen:
 
-  ODER
+  * Ein Adobe Workfront Workflow-Paket mit einem Workfront Planning-Paket
 
-  Ein Adobe Workfront Planning als eigenständiges Produkt
+* Nach der Veröffentlichung der allgemeinen Verfügbarkeit haben Sie möglicherweise eine der folgenden Möglichkeiten:
 
-  >[!NOTE]
-  >
-  >Der Ideationsraum ist nur über Adobe Planning zugänglich. Sie benötigen keine separate Anmeldung, um auf Ideation Space zuzugreifen. Sie ist sofort verfügbar, wenn Sie sich bei Workfront Planning anmelden können.
+  * Ein Adobe Workfront Workflow-Paket mit einem Workfront Planning-Paket
+  * Ein Adobe Workfront Planning als eigenständiges Produkt
 
-* Adobe GenStudio for Performance Marketing
+>[!NOTE]
+>
+>Der Ideationsraum ist nur über das Adobe Workfront-Hauptmenü oder über Workfront Planning zugänglich. Sie benötigen keine separate Anmeldung, um auf Ideation Space zuzugreifen. Sie ist sofort verfügbar, wenn Sie sich bei Workfront anmelden können.
+
+<!--not required anymore: * Adobe GenStudio for Performance Marketing-->
 
 <!-- only required for closed beta, see below: * Adobe Customer Journey Analytics-->
 
 Weitere Informationen über den Zugriff, der für die Verwendung des Ideationsraums erforderlich ist, finden Sie unter [Zugriff erforderlich, um den Ideationsraum zu verwenden](/help/quicksilver/planning/ideation/access-needed-to-use-ideation-space.md).
 
-Zusätzlich zu den oben genannten Anforderungen müssen Sie auch die folgenden Kriterien erfüllen, um am Closed Beta-Programm teilnehmen zu können:
+<!--
+No longer required or recommended, per Et:
 
-* Ein gültiges Adobe Customer Journey Analytics (CJA)-Konto mit Kampagnen-Tracking haben
-* Verwendung von Multi-Channel-Kampagnen mit einem wiederholbaren Planungsprozess
-* Workfront-Planung für Marketing-Vorgänge aktiv verwenden
-* Mindestens einen identifizierten Strategen oder Ideation-Benutzer haben, der der primäre Ideation-Space-Benutzer sein wird
+In addition to above requirements, you must also meet the following criteria to participate in the Closed Beta program: 
+
+* Have an active Adobe Customer Journey Analytics (CJA) account with campaign tracking in place
+* Have multi-channel campaigns with a repeatable planning process
+* Actively use Workfront Planning for marketing operations
+* Have at least one identified strategist or ideation user who will be the primary Ideation space user
+-->
 
 ## Zielgruppe und Anwendungsfälle
 
@@ -117,7 +123,7 @@ Weitere Informationen zur Verwendung des Ideationsbereichs finden Sie auch in de
 
 ## Übersicht über Ideationsräume
 
-Der Ideation-Bereich ist ein strategisches Marketing-Ideenwerkzeug für Marken- und Produkt-Marketing-Experten, um stärkere Kampagnen schneller und mit besserer Team-Ausrichtung zu erstellen. Sie begründet KI-Vorschläge im realen Marketing-Kontext - frühere Briefs, Leistungsdaten, Zielgruppeneinblicke, Markenrichtlinien und vorhandene Kampagnen-Assets. Daher sind die Ergebnisse relevant und nicht allgemein.
+Der Ideation-Bereich ist ein kollaboratives strategisches Marketing-Ideen-Tool für Marken- und Produkt-Marketing, um stärkere Kampagnen schneller und mit besserer Team-Ausrichtung zu erstellen. Sie begründet KI-Vorschläge im realen Marketing-Kontext - frühere Briefs, Leistungsdaten, Zielgruppeneinblicke, Markenrichtlinien und vorhandene Kampagnen-Assets. Daher sind die Ergebnisse relevant und nicht allgemein.
 
 Im Folgenden finden Sie einige Beispiele dafür, wie Sie beim Erstellen von Briefs Ihre Idee optimal nutzen können:
 
@@ -142,7 +148,7 @@ Der Ideationsraum unterstützt auch einen konversativen, hin- und hergehenden Mo
 
 Benutzer können Folgefragen stellen und ein kurzes Gespräch verfeinern, anstatt ein einziges Ergebnis zu erhalten.
 
-Wenn ein Brief an eine Live-Workfront Planning-Verbindung gebunden ist, verhindert Coworker, dass er überschrieben wird, damit der zugrunde liegende Plan intakt bleibt.
+Wenn ein Brief an eine Live-Workfront Planning-Verbindung gebunden ist, verhindert Coworker, dass er überschrieben wird, damit der zugrunde liegende Plan intakt bleibt. <!--Et to check on this, it might be overwritten. -->
 
 <!--
 **************** CONSIDER INCLUDING THIS INFORMATION FROM JESH BARLOW ABOUT COWORKER IN CATALYZE?? - https://adobecorpdev.slack.com/archives/C091C0Y735W/p1788917610365089?thread_ts=1788917251.550099&cid=C091C0Y735W
@@ -181,10 +187,10 @@ Worth noting
 
 ## Weitere Ressourcen
 
-* [Adobe Workfront-Kampagnenplanung](https://business.adobe.com/de/products/workfront/campaign-planning.html)
+* [Adobe Workfront-Kampagnenplanung](https://business.adobe.com/products/workfront/campaign-planning.html)
 * [Adobe Workfront-Planungsdokumentation](/help/quicksilver/planning/planning-information.md)
-* [Übersicht über Adobe GenStudio](https://business.adobe.com/de/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/de/products/adobe-analytics/customer-journey-analytics.html)
+* [Übersicht über Adobe GenStudio](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
 
 <!--

@@ -11,29 +11,33 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/jsEcIKopi-lJOSXQitDnufu3j0AmkWkPmCXtCR0V6nk
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 3eb7b5e0cca5245bc2fe8a733dcfd9a89c56d49f
+    internal-label: Administration
+source-git-commit: ff8ec4e7f5f9ffefcfc6eeea7e37443bcd1f55d2
 workflow-type: tm+mt
-source-wordcount: 800
+source-wordcount: '800'
 ht-degree: 4%
-
 ---
-
 # Erstellen einer Validierungs-Workflow-Vorlage für Dokumente
 
 Im Bereich Workfront Setup können Benutzende mit einer Standardlizenz wiederverwendbare Genehmigungsvorlagen erstellen. Eine Vorlage ist nur für den Benutzer sichtbar, der sie erstellt hat, es sei denn, der Ersteller gibt sie für bestimmte Benutzer oder für alle Personen in der Organisation frei. Nach der Erstellung können Validierungsvorlagen auf Assets im Dokumentbereich eines Objekts angewendet werden.
 
 >[!IMPORTANT]
 >
->Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Zugriffsanforderungen
 
@@ -74,6 +78,7 @@ So erstellen Sie eine Validierungsvorlage:
 1. Klicken **rechts auf** Seite auf „Neue Vorlage“.
 
 1. Fügen Sie einen **Vorlagennamen“**.
+
 <!--
 This field has a character limit of 255.
 -->
@@ -110,8 +115,9 @@ This field has a character limit of 255.
 
    ![Phase hinzufügen](assets/add-stage.png)
 
-<!-- screen for preview
-    ![add a stage](assets/add-stage-v2.png)
+<!-- 
+screen for preview
+![add a stage](assets/add-stage-v2.png)
 -->
 
 
@@ -121,8 +127,9 @@ This field has a character limit of 255.
 
    ![Parallele Pfade hinzufügen](assets/add-path.png)
 
-<!-- screen for preview
-   ![add parallel paths](assets/add-path-v2.png)
+<!-- 
+screen for preview
+![add parallel paths](assets/add-path-v2.png)
 -->
 
 1. (Optional) Um einen Pfad umzubenennen, bewegen Sie den Mauszeiger über die Pfadbeschriftung, klicken Sie auf das Stiftsymbol und geben Sie dann einen neuen Namen ein. Um einen Pfad zu entfernen, bewegen Sie den Mauszeiger über die Pfadbeschriftung und klicken Sie auf das Papierkorbsymbol. **Pfad 1** kann nicht entfernt werden, und andere Pfade können nur entfernt werden, wenn kein Schritt innerhalb des Pfads gesperrt oder abgeschlossen ist.
@@ -135,7 +142,7 @@ Nachdem die Vorlage erstellt wurde, kann sie auf Dokumente im Bereich Dokumente 
 
 >[!NOTE]
 >
->Neue Vorlagen sind nur für Sie sichtbar. Informationen zum Freigeben, Bearbeiten oder Löschen einer Vorlage finden Sie unter [Verwalten von &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md)&quot;.
+>Neue Vorlagen sind nur für Sie sichtbar. Informationen zum Freigeben, Bearbeiten oder Löschen einer Vorlage finden Sie unter [Verwalten von ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md)&quot;.
 
 <!--
  Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.
