@@ -4,13 +4,11 @@ description: Diese Seite enthält Informationen zur Funktionalität, die in der 
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f46a0da928dd02415eac0a3dd555783912c1e740
+source-git-commit: 6fb4ffc73625485cf4f9b392020da94e938cf179
 workflow-type: tm+mt
-source-wordcount: '2905'
+source-wordcount: '2919'
 ht-degree: 7%
-
 ---
-
 # Versionsübersicht für das vierte Quartal 2026
 
 Diese Seite enthält Informationen zur Funktionalität, die in der für Oktober 2026 geplanten Version für das vierte Quartal 2026 enthalten ist.
@@ -76,6 +74,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Benutzerdefinierte Anwendungen im Hauptmenü neu anordnen</a>
+                <p><strong>HINWEIS:</strong> Diese Funktion wurde am 14. September 2026 vorübergehend aus der Vorschau-Umgebung entfernt.</p>
                 <p>Sie können jetzt benutzerdefinierte Anwendungen im Hauptmenü einer Layout-Vorlage neu positionieren, anstatt sie immer als letzte erscheinen zu lassen.</p>
             </td>
             <td><p>3. September 2026</p></td>
