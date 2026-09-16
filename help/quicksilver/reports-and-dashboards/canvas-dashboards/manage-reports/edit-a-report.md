@@ -11,26 +11,29 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/K9eFg04PjbqHlseDjHQQJXw9uAjNLSGDBu870P-ZCVk
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: 513
-ht-degree: 12%
-
+source-wordcount: '626'
+ht-degree: 13%
 ---
-
 # Bearbeiten eines Berichts in einem Arbeitsflächen-Dashboard
 
 >[!IMPORTANT]
 >
->Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) im Artikel Beta-Übersicht für Canvas-Dashboards befolgen.<br>
->Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kundensupport kontaktieren](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
+>Die Funktion Canvas-Dashboards ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen. Teile der Funktion sind in dieser Phase möglicherweise nicht vollständig oder funktionieren nicht wie vorgesehen. Bitte senden Sie Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) im Artikel Beta-Übersicht für Arbeitsflächen-Dashboards befolgen.<br>
+>Wenn Sie Feedback zu einem möglichen Fehler oder einem technischen Problem haben, senden Sie bitte ein Ticket an den Workfront-Support. Weitere Informationen finden Sie unter [Kontaktieren des Kunden-Supports](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).<br>
 >Beachten Sie, dass diese Beta-Version bei den folgenden Cloud-Anbietern nicht verfügbar ist:
 >
 >* Eigene Schlüssel für Amazon Web Services mitbringen
@@ -92,7 +95,7 @@ Weitere Informationen finden Sie unter [Erstellen eines Arbeitsflächen-Dashboar
 
 1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
 
-1. Klicken Sie auf **Seite** Arbeitsflächen-Dashboards“ auf das Symbol **Mehr**![&#x200B; Mehr](assets/more-icon.png) in der oberen rechten Ecke des Berichts, den Sie bearbeiten möchten, und wählen Sie dann **Bearbeiten** aus.
+1. Klicken Sie auf **Seite** Arbeitsflächen-Dashboards“ auf das Symbol **Mehr**![ Mehr](assets/more-icon.png) in der oberen rechten Ecke des Berichts, den Sie bearbeiten möchten, und wählen Sie dann **Bearbeiten** aus.
 
    ![Bearbeiten eines Berichts](assets/edit-report-box.png)
 
@@ -131,6 +134,8 @@ Weitere Informationen finden Sie unter [Erstellen eines Arbeitsflächen-Dashboar
 
    Weitere Informationen zu diesen Abschnitten finden Sie unter [Erstellen eines Tabellenberichts](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md).
 
+   Informationen zum Bearbeiten von Filtern oder Gruppierungen finden Sie unter [Filtern eines Berichts in einem Arbeitsflächen](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)Dashboard und [Gruppieren von Berichtsdaten in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md).
+
 1. Klicken Sie **Speichern**, um den Bericht zu aktualisieren.
 
 ## Bearbeiten eines vorhandenen Berichts
@@ -143,6 +148,6 @@ Weitere Informationen finden Sie unter [Hinzufügen eines vorhandenen Berichts z
 
 1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
 
-1. Klicken Sie auf **Seite** Arbeitsflächen-Dashboards“ auf das Symbol **Mehr**![&#x200B; Mehr](assets/more-icon.png) in der oberen rechten Ecke des Berichts, den Sie bearbeiten möchten, und wählen Sie dann **Bearbeiten** aus.
+1. Klicken Sie auf **Seite** Arbeitsflächen-Dashboards“ auf das Symbol **Mehr**![ Mehr](assets/more-icon.png) in der oberen rechten Ecke des Berichts, den Sie bearbeiten möchten, und wählen Sie dann **Bearbeiten** aus.
 
 1. Klicken Sie im **Berichtsauswahl** auf **Hinzufügen** für den Bericht, mit dem Sie die Daten des vorhandenen Berichts-Widgets ersetzen möchten.

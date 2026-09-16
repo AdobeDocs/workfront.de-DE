@@ -3,7 +3,7 @@ title: Erstellen von Planungsdatensätzen aus Ideation Space Briefs
 description: Mit der Ideation Space, einer neuen Funktion von Adobe Workfront Planning, können Sie Briefs in Planungsunterlagen umwandeln. Exportierte Briefs erstellen neue Datensätze oder aktualisieren vorhandene. In diesem Artikel wird beschrieben, wie Sie mit dem Ideation-Bereich vorhandene Planungsdatensätze erstellen oder bearbeiten können.
 role: User, Admin
 author: Alina
-source-git-commit: cf783443d618874e1241d91895bcc78d78db23df
+source-git-commit: bef848df8b263de89bfa90b7fec74b14734dfeff
 workflow-type: tm+mt
 source-wordcount: '1166'
 ht-degree: 0%
@@ -100,7 +100,7 @@ ODER
     <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
     <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
     <li>GenStudio System Manager to access Activations and Events</li></ul>
-    For information, see <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    For information, see <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
     </p>
     </td> 
     </tr> 
@@ -224,7 +224,7 @@ Es ist nicht möglich, Datensätze im Ideationsbereich stapelweise zu bearbeiten
 
 
 
-<!-- 
+<!--
 this is from Claude, but rephrased and included most of this above: 
 
 ## Step 5: Open the Workfront Planning Records panel

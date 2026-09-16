@@ -12,26 +12,29 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/80Eu4B2eVpAVlQ-G11sqIA-2V8QK1g88wvSbsOuWIY4
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: 70
-ht-degree: 60%
-
+source-wordcount: '83'
+ht-degree: 42%
 ---
-
 # Verwalten von Berichten: Artikelindex
 
 >[!IMPORTANT]
 >
->Auf dieser Seite werden Funktionen beschrieben, die als Teil der Beta-Version von Canvas Dashboards verfügbar sind. Weitere [&#x200B; finden Sie unter &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) zu Canvas-Dashboards - Betaversion .
+>Auf dieser Seite werden Funktionen beschrieben, die als Teil der Beta-Version von Canvas Dashboards verfügbar sind. Weitere [ finden Sie unter ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) zu Canvas-Dashboards - Betaversion .
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Bearbeiten eines Berichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
-* [Bearbeiten von Berichtsfiltern in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
+* [Filtern eines Berichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)
+* [Referenz zum Berichtsfilter für Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)
+* [Gruppieren von Berichtsdaten in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)
 * [Duplizieren eines Berichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report.md)
 * [Löschen eines Berichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)

@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ff8ec4e7f5f9ffefcfc6eeea7e37443bcd1f55d2
+source-git-commit: bef848df8b263de89bfa90b7fec74b14734dfeff
 workflow-type: tm+mt
 source-wordcount: '2878'
 ht-degree: 1%
@@ -41,7 +41,7 @@ Standardmäßig ist eine Validierungsvorlage nur für ihren Ersteller sichtbar. 
 
 >[!IMPORTANT]
 >
->Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Zugriffsanforderungen
 
@@ -132,9 +132,9 @@ So erstellen Sie einen einstufigen Validierungs-Workflow:
 
    ![Genehmigung im Standardmodus anfordern](assets/request-approval-basic.jpeg)
 
-   <!-- 
-   preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
-   -->
+<!--
+preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
+-->
 
 ### Erstellen eines erweiterten Validierungs-Workflows
 
@@ -204,7 +204,7 @@ So erstellen Sie einen erweiterten Validierungs-Workflow:
 
    ![Erweiterter Modus mit parallelen Pfaden](assets/request-approval-parallel-paths.jpeg)
 
-<!-- 
+<!--
 preview screen
 ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
 -->
@@ -266,9 +266,9 @@ So erstellen Sie einen einstufigen Validierungs-Workflow:
 
    ![Genehmigung im Standardmodus anfordern](assets/request-approval-basic.jpeg)
 
-   <!-- 
-   preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
-   -->
+<!--
+preview screen![Request approval in Basic mode](assets/request-approval-basic-v2.png)
+-->
 
 
 
@@ -347,10 +347,10 @@ So erstellen Sie einen erweiterten Validierungs-Workflow:
 
    ![Erweiterter Modus mit parallelen Pfaden](assets/request-approval-advanced.jpeg)
 
-   <!-- 
-   preview screen
-   ![Advanced mode with parallel paths](assets/parallel-path-v2.png)
-   -->
+<!--
+preview screen
+![Advanced mode with parallel paths](assets/parallel-path-v2.png)
+-->
 
 1. (Optional) Um alle Pfade und Phasen zu löschen und von vorne zu beginnen, klicken **oben** auf „Zurücksetzen“.
 

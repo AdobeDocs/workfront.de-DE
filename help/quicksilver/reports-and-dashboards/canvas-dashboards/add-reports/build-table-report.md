@@ -11,22 +11,26 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Xcq8aeqqH-JPYtfmbcf1gld93O6N93O9j0wqohss7oQ
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
+    internal-label: Administration
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: 1343
-ht-degree: 12%
-
+source-wordcount: '1208'
+ht-degree: 13%
 ---
-
 # Erstellen eines Tabellenberichts in einem Arbeitsflächen-Dashboard
 
 >[!IMPORTANT]
@@ -121,21 +125,13 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines Tabellenberichts zur 
 
    1. Wiederholen Sie die obigen Schritte für jede Spalte, die Sie hinzufügen möchten.
 
-1. Gehen Sie wie folgt vor, um den Abschnitt **Filter** zu konfigurieren:
+1. Klicken Sie im linken Bedienfeld auf das Symbol **Filter** ![Filter](assets/filter-icon.png) und konfigurieren Sie dann die Bedingungen, die bestimmen, welche Daten angezeigt werden.
 
-   1. Klicken Sie im linken Bedienfeld auf das Symbol **Filter** ![Filter](assets/filter-icon.png).
+   Weitere Informationen finden Sie unter [Filtern eines Berichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md).
 
-   1. Wählen Sie **Filter bearbeiten** aus.
+1. Klicken Sie im linken Bedienfeld auf das Symbol **Gruppeneinstellungen** ![Gruppeneinstellungen](assets/drilldown-group-icon.png) und fügen Sie dann Gruppierungen hinzu, um die Berichtszeilen zu organisieren.
 
-   1. Klicken Sie **Bedingung hinzufügen** und geben Sie dann das Feld an, nach dem Sie filtern möchten, sowie den Modifikator, der definiert, welche Art von Bedingung das Feld erfüllen muss. Die Spalte wird im Vorschaubereich auf der rechten Seite angezeigt.
-
-1. (Optional) Klicken Sie auf **Filtergruppe hinzufügen**, um einen weiteren Satz von Filterkriterien hinzuzufügen. Der Standardoperator zwischen den Sätzen ist UND. Klicken Sie auf den Operator, um ihn in ODER zu ändern.
-
-1. Gehen Sie wie folgt vor, um den Abschnitt **Drilldown-Gruppeneinstellungen** zu konfigurieren:
-
-   1. Klicken Sie im linken Bedienfeld auf das Symbol **Gruppeneinstellungen** ![Gruppeneinstellungen](assets/drilldown-group-icon.png) .
-
-   1. Klicken Sie auf **Gruppierung hinzufügen** und wählen Sie dann das Feld aus, das Sie als Gruppierung erstellen möchten. Die Gruppierungsspalte wird im Vorschaubereich auf der rechten Seite angezeigt.
+   Weitere Informationen finden Sie unter [Berichtsdaten in einem Arbeitsflächen-Dashboard ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md).
 
 1. Klicken Sie **Speichern**, um den Bericht zu erstellen und zum Dashboard hinzuzufügen.
 
@@ -248,11 +244,5 @@ Nachdem das Basisobjekt für die Entität ausgewählt wurde, wird **Dropdown-** 
 
 ### Verweisen auf untergeordnete Objekte
 
-Verfügbare Beziehungen für zusätzliche Spalten, Filteroptionen und Gruppierungsattribute sind im Allgemeinen auf Objekte beschränkt, die höher in der Workfront-Objekthierarchie stehen oder die ansonsten eine einzige Auswahl im Basisobjekt der Entität des Berichts aufweisen. Hiervon gibt es einige Ausnahmen, darunter die folgenden:
-
-* Projekt > Aufgaben
-* Dokumentengenehmigung > Dokumentengenehmigungsphasen
-* Phasen der Dokumentgenehmigung > Teilnehmer an der Dokumentgenehmigungsphase
-
-Bei Verwendung einer der oben aufgeführten hierarchischen Beziehungen wird in der Tabelle für jeden untergeordneten Datensatz eine Zeile angezeigt, die mit dem übergeordneten Objekt verbunden ist.
+Einige hierarchische Beziehungen sind für Spalten, Filter und Gruppierungen verfügbar. Weitere Informationen finden Sie unter [Verweisen auf untergeordnete Objekte](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md#referencing-children-objects) in [Berichtsfilterreferenz für Arbeitsflächen-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md).
 
