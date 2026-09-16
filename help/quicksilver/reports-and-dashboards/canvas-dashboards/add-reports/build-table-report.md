@@ -131,7 +131,7 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines Tabellenberichts zur 
 
 1. Klicken Sie im linken Bedienfeld auf das Symbol **Gruppeneinstellungen** ![Gruppeneinstellungen](assets/drilldown-group-icon.png) und fügen Sie dann Gruppierungen hinzu, um die Berichtszeilen zu organisieren.
 
-   Weitere Informationen finden Sie unter [Berichtsdaten in einem Arbeitsflächen-Dashboard ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md).
+   Weitere Informationen finden Sie unter [Berichtsdaten in einem Arbeitsflächen-Dashboard &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md).
 
 1. Klicken Sie **Speichern**, um den Bericht zu erstellen und zum Dashboard hinzuzufügen.
 

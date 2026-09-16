@@ -37,7 +37,7 @@ Im Bereich Workfront Setup können Benutzende mit einer Standardlizenz wiederver
 
 >[!IMPORTANT]
 >
->Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Zugriffsanforderungen
 
@@ -142,7 +142,7 @@ Nachdem die Vorlage erstellt wurde, kann sie auf Dokumente im Bereich Dokumente 
 
 >[!NOTE]
 >
->Neue Vorlagen sind nur für Sie sichtbar. Informationen zum Freigeben, Bearbeiten oder Löschen einer Vorlage finden Sie unter [Verwalten von ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md)&quot;.
+>Neue Vorlagen sind nur für Sie sichtbar. Informationen zum Freigeben, Bearbeiten oder Löschen einer Vorlage finden Sie unter [Verwalten von &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md)&quot;.
 
 <!--
  Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.
