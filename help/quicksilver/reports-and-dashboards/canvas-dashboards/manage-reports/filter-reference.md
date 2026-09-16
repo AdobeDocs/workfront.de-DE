@@ -19,10 +19,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: dc9caae8cc85543986eaefb1d3debdebfdf6ce96
+source-git-commit: 85ae49708acf2c472816ac848ce15429577b934e
 workflow-type: tm+mt
-source-wordcount: '1210'
-ht-degree: 34%
+source-wordcount: '1022'
+ht-degree: 40%
 ---
 # Referenz zum Berichtsfilter für Canvas-Dashboards
 
@@ -212,26 +212,29 @@ Verfügbare Beziehungen für zusätzliche Spalten, Filteroptionen und Gruppierun
 
 Bei Verwendung einer der oben aufgeführten hierarchischen Beziehungen wird in der Tabelle für jeden untergeordneten Datensatz eine Zeile angezeigt, die mit dem übergeordneten Objekt verbunden ist.
 
+<!--
 <div class="preview">
 
-## Filtern von Sammlungsbeziehungen in der Vorschau
+## Filter on collection relationships in Preview
 
-Eine Sammlung ist ein Feld, das nicht mit einem einzelnen Datensatz, sondern mit einer Gruppe verwandter Datensätze verknüpft ist. Beispielsweise sind die Teilnehmer an den Genehmigungsphasen eines Projekts eine Sammlung. Wenn Sie einen Filter erstellen, können Sie Sammlungen direkt filtern, ohne in den Textmodus zu wechseln.
+A collection is a field that links to a group of related records rather than to a single record. For example, the participants on a project's approval stages are a collection. When you build a filter, you can filter on collections directly, without switching to text mode.
 
-Um nach einer Sammlung zu filtern, öffnen Sie das Bedienfeld Feld auswählen und wählen Sie dann Sammlungen aus. In diesem Abschnitt werden nur Sammlungsbeziehungen aufgelistet. Beziehungen mit einem Datensatz bleiben unter „Beziehungen“.
+To filter on a collection, open the Select a field panel, then select Collections. This section lists only collection relationships. Single-record relationships stay under Relationships.
 
-![Sammlungsbeziehungen](assets/collections.png)
+![collection relationships](assets/collections.png)
 
-Nachdem Sie eine Sammlung ausgewählt haben, können Sie zwei Dinge tun:
+After you select a collection, you can do two things:
 
-* Filtern Sie nach den eigenen Feldern der Sammlung. Beispielsweise können Sie aus den Projekten eines Portfolios nach dem Projektstatus filtern.
-* Einer einzelnen Datensatzbeziehung aus der Sammlung folgen. Beispielsweise können Sie über die Projekte eines Portfolios den Projektinhaber erreichen.
+* Filter on the collection's own fields. For example, from a portfolio's projects, you can filter on a project's status.
+* Follow one single-record relationship out of the collection. For example, from a portfolio's projects, you can reach the project owner.
 
-Sammlungen unterstützen keine tiefere Navigation. Sie können keine Sammlung öffnen, die in einer anderen Sammlung verschachtelt ist, mehr als einer Beziehung folgen oder die Beziehung auswählen, die zu dem führt, wo Sie begonnen haben.
+Collections don't support deeper navigation. You can't open a collection nested inside another collection, follow more than one relationship, or select the relationship that leads back to where you started.
 
-Der Abschnitt Sammlungen wird nur angezeigt, wenn Sie einen Filter erstellen. Er wird nicht in anderen Feldauswahlen angezeigt, z. B. für Tabellenspalten, Gruppierungen oder Diagrammfelder.
+The Collections section appears only when you build a filter. It doesn't appear in other field choosers, such as those for table columns, groupings, or chart fields.
 
 </div>
+
+-->
 
 ## Persönliche Projekte, Aufgaben und Bot-Benutzer ausschließen
 
