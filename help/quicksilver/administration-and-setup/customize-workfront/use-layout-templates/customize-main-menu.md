@@ -11,24 +11,30 @@ exl-id: d4f02102-0378-472f-9ebb-753502ec048b
 TQID: https://experienceleague.adobe.com/g6y6RsDNuEDBGZBrZXxhyFZ2-z1EUr5yflGDQQ7AhdQ
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: a3966028ce3c73c141f6f79bc25505cd707cae62
 workflow-type: tm+mt
-source-wordcount: 730
-ht-degree: 11%
-
+source-wordcount: '682'
+ht-degree: 12%
 ---
-
 # Anpassen des Hauptmenüs mithilfe einer Layout-Vorlage
 
 <!--Audited: 01/2024-->
@@ -136,26 +142,19 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
      >
      > Benutzerdefinierte Programme müssen separat erstellt werden, bevor sie als Hauptmenüoptionen verfügbar werden. Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Programms für Workfront mit Adobe App Builder](/help/quicksilver/app-builder/app-builder.md).
 
-In der Vorschau-Umgebung:
-
-1. Führen Sie einen der folgenden Schritte für die **nativen** Elemente aus:
+1. Führen Sie einen der folgenden Schritte aus<!-- for the **Native** items-->:
 
    * Elemente ![Symbol ausblenden](assets/remove-icon---x-in-circle.png), die nicht im Hauptmenü angezeigt werden sollen.
    * ![Symbol anzeigen](assets/add-icon-plus-in-circle.png) Elemente anzeigen, die im Hauptmenü angezeigt werden sollen.
    * Ziehen Sie ![Symbol ziehen](assets/move-icon---dots.png) Elemente, um ihre Anzeigereihenfolge im Hauptmenü zu ändern.
 
-1. Führen Sie einen der folgenden Schritte für die Elemente **System** aus:
-
-   * Elemente ![Symbol ausblenden](assets/remove-icon---x-in-circle.png), die nicht im Hauptmenü angezeigt werden sollen.
-   * ![Symbol anzeigen](assets/add-icon-plus-in-circle.png) Elemente anzeigen, die im Hauptmenü angezeigt werden sollen.
-
-   >[!NOTE]
-   >
-   >Die Reihenfolge der Systemelemente kann nicht geändert werden. Diese Elemente werden immer unten im Hauptmenü angezeigt, wenn sie aktiv sind.
+     >[!NOTE]
+     >
+     >Die Reihenfolge der Systemelemente kann nicht geändert werden. Diese Elemente werden immer unten im Hauptmenü angezeigt, wenn sie aktiv sind.
 
 1. Klicken Sie auf **Fertig**.
 
-   Sie können auch jederzeit **Abbrechen** klicken, wenn Sie Ihre Änderungen verwerfen möchten.
+   Sie können auch jederzeit auf **Abbrechen** klicken, um Ihre Änderungen zu verwerfen.
 
 1. Passen Sie die Layout-Vorlage weiter an. Sie können jederzeit auf **Übernehmen** klicken, um Ihren Fortschritt zu speichern.
 
@@ -164,3 +163,18 @@ In der Vorschau-Umgebung:
    Wenn Sie mit der Anpassung fertig sind, klicken Sie auf **Speichern und schließen**.
 
 Weitere Informationen zu Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+
+<!--
+
+MOVE TO LINE 151 or thereabouts:
+
+<div class="preview">
+
+1. Do any of the following for the **System** items:
+
+   * Hide ![Hide icon](assets/remove-icon---x-in-circle.png) items that you don't want to display on the Main Menu.
+   * Show ![Show icon](assets/add-icon-plus-in-circle.png) items that you do want to display on the Main Menu.
+
+</div>
+
+-->

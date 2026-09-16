@@ -3,13 +3,11 @@ title: Erstellen von Planungsdatensätzen aus Ideation Space Briefs
 description: Mit der Ideation Space, einer neuen Funktion von Adobe Workfront Planning, können Sie Briefs in Planungsunterlagen umwandeln. Exportierte Briefs erstellen neue Datensätze oder aktualisieren vorhandene. In diesem Artikel wird beschrieben, wie Sie mit dem Ideation-Bereich vorhandene Planungsdatensätze erstellen oder bearbeiten können.
 role: User, Admin
 author: Alina
-source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
+source-git-commit: cf783443d618874e1241d91895bcc78d78db23df
 workflow-type: tm+mt
-source-wordcount: '1210'
-ht-degree: 2%
-
+source-wordcount: '1166'
+ht-degree: 0%
 ---
-
 
 # Erstellen von Planungsdatensätzen aus Ideation Space Briefs
 
@@ -60,18 +58,17 @@ are there additional license restrictions or packages to be purchased to have ac
 <li><p>Beliebige Workfront oder Workflows mit einem Planungspaket</p></li>
 ODER
 <li><p>Jedes Planungspaket, wenn es als eigenständiges Produkt gekauft wird</p></li></ul>
-   </td>
-
-<tr> 
-   <td role="rowheader"><p>Zusätzliche Produkte</p></td> 
-   <td><ul>
-   <li><p>Adobe GenStudio for Performance Marketing</p></li>
-   <!--
-   <li><p>Adobe Customer Journey Analytics</p></li>
-   -->
-   </ul>
    </td> 
-  </tr> 
+    <!--
+    <tr> 
+    <td role="rowheader"><p>Additional products</p></td> 
+    <td><ul>
+    <li><p>Adobe GenStudio for Performance Marketing</p></li>
+    <li><p>Adobe Customer Journey Analytics</p></li>
+    </ul>
+    </td> 
+    </tr> 
+    -->
   <tr> 
    <td role="rowheader"><p>Adobe Workflow-Lizenz</p></td> 
    <td><p>Standard</p>
@@ -98,24 +95,26 @@ ODER
       <p>Editor-Berechtigungen für den Ideenraum zum Erstellen von Briefs</p>
    </td> 
   </tr>  
-   <tr> 
-   <td role="rowheader"><p>Adobe GenStudio for Performance Marketing-Benutzerrollen</p></td> 
-   <td><p><ul><li>Jede GenStudio-Benutzerrolle für den Zugriff auf Kampagnen, Produkte und Personas</li>
-   <li>GenStudio System Manager für den Zugriff auf Aktivierungen <!--and Events--></li></ul>
-   Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">Benutzerrollen und -berechtigungen</a>. 
-   </p>
-  </td> 
-  </tr> 
+    <!--
+    <tr> 
+    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing user roles</p></td> 
+    <td><p><ul><li>Any GenStudio user role to access Campaigns, Products, and Personas</li>
+    <li>GenStudio System Manager to access Activations and Events</li></ul>
+    For information, see <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles">User roles and permissions</a>. 
+    </p>
+    </td> 
+    </tr> 
+    -->
 </tbody> 
 </table>
 
 Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++  
++++   
 
 ## Überlegungen zur Verwendung des Ideenraums zum Erstellen von Datensätzen
 
-* Sie können den Ideationsbereich nur von Workfront Planning aus starten, während Sie Datensätze erstellen oder bearbeiten. Der Ideationsraum existiert außerhalb von Workfront Planning nicht.
+* Sie können den Ideation-Bereich nur über Workfront Planning oder das Hauptmenü von Workfront starten, während Sie Datensätze erstellen oder bearbeiten. Der Ideationsraum existiert außerhalb von Workfront nicht.
 * Für den Zugriff auf den Ideationsbereich sind ein Arbeitsbereich und ein Datensatztyp in Workfront Planning erforderlich.
 * Neue Datensätze beginnen immer mit Platzhalterinhalten, unabhängig davon, wie Sie sie erstellen.
 * Wenn Sie einen Planungsdatensatz löschen, der mit einer Ideenübersicht verknüpft ist, bleibt die Übersichtsübersicht im Ideenraum, und die zugehörige Arbeitsfläche im Ideenraum wird nicht gelöscht.
@@ -151,7 +150,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
    Der Datensatz wird sofort mit Platzhaltertext erstellt.
 
-1. (Optional) Klicken Sie im **auf** Vorhandene Zusammenfassung verwenden“, um ein vorhandenes Dokument zu suchen und hinzuzufügen, das der Ideationsbereich zum Erstellen der Zusammenfassung und des zukünftigen Datensatzes verwendet.
+1. (Optional) Klicken Sie im **auf** Vorhandene Zusammenfassung verwenden“, um ein vorhandenes Dokument zu suchen und hinzuzufügen, das der Ideationsbereich zum Erstellen der Zusammenfassung und des zukünftigen Datensatzes verwendet. <!--CORRECT THIS PART: this is possible ONLY when you launch Ideation from the Main Menu, not from a record-->
 
    ![Leere kurze Eingabeaufforderung für Ideen](assets/empty-ideation-prompt.png)
 
@@ -225,7 +224,8 @@ Es ist nicht möglich, Datensätze im Ideationsbereich stapelweise zu bearbeiten
 
 
 
-<!-- this is from Claude, but rephrased and included most of this above: 
+<!-- 
+this is from Claude, but rephrased and included most of this above: 
 
 ## Step 5: Open the Workfront Planning Records panel
 

@@ -5,13 +5,11 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
+source-git-commit: cf783443d618874e1241d91895bcc78d78db23df
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 1%
-
+source-wordcount: '655'
+ht-degree: 0%
 ---
-
 
 # Zugriff für die Nutzung des Ideenraums erforderlich
 
@@ -30,21 +28,43 @@ Allgemeine Informationen zum Ideation-Bereich finden Sie unter [Erste Schritte m
 
 ## Produktanforderungen
 
-Der Ideation-Bereich ist kein eigenständiges Produkt. Dazu ist ein Workfront Planning-Paket erforderlich, auf das nur über Workfront Planning zugegriffen werden kann. Außerdem sind zusätzliche Produkte erforderlich.
 
-Ihr Unternehmen muss ein Paket für die folgenden Produkte erwerben, um auf den Ideationsbereich zugreifen zu können:
+Der Ideation-Bereich ist kein eigenständiges Produkt, sondern eine zusätzliche Funktion von Adobe Workfront Planning.
 
-* Ein Adobe Workfront-Workflow-Paket zusätzlich zu einem Planungspaket
+Sie können auf den Ideationsraum Ihrer Organisation zugreifen und Sie haben Zugriff auf die folgenden Pakete, je nachdem, wann Sie auf den Ideationsraum zugreifen:
 
-  ODER
+* Während der Open Beta-Version müssen Sie über Folgendes verfügen:
 
-  Ein Adobe Workfront Planning-Produkt, das als eigenständiges Produkt erworben wurde.
-* Eine Adobe GenStudio for Performance Marketing-Lizenz
+  * Ein Adobe Workfront Workflow-Paket mit einem Workfront Planning-Paket
 
-  >[!TIP]
-  >
-  >GenStudio for Performance Marketing ist erforderlich, um Zugriff auf die richtigen Schriftartenberechtigungen zu erhalten.
+* Nach der Veröffentlichung der allgemeinen Verfügbarkeit haben Sie möglicherweise eine der folgenden Möglichkeiten:
 
+  * Ein Adobe Workfront Workflow-Paket mit einem Workfront Planning-Paket
+  * Ein Adobe Workfront Planning als eigenständiges Produkt
+
+Informationen zu den Veröffentlichungsphasen des Ideation-Bereichs finden Sie unter [Erste Schritte mit dem Ideation-Bereich für Adobe Workfront Planning](/help/quicksilver/planning/ideation/get-started-with-planning-ideation.md).
+
+>[!NOTE]
+>
+>Der Ideationsraum ist nur über das Adobe Workfront-Hauptmenü oder über Workfront Planning zugänglich. Sie benötigen keine separate Anmeldung, um auf Ideation Space zuzugreifen. Sie ist sofort verfügbar, wenn Sie sich bei Workfront anmelden können.
+
+<!--
+No longer the case: 
+
+Your organization must purchase a package for the following products to access the Ideation space: 
+
+* An Adobe Workfront Workflow package in addition to a Planning package
+
+    Or
+    
+    An Adobe Workfront Planning purchased as a standalone product. 
+* An Adobe GenStudio for Performance Marketing license
+
+    >[!TIP]
+    >
+    >GenStudio for Performance Marketing is needed to have access to the correct font entitlements. 
+
+-->
 
 <!--only required for closed beta:* An Adobe Customer Journey Analytics license that includes campaign tracking-->
 
@@ -99,7 +119,9 @@ Im Folgenden finden Sie Ideenraum-Berechtigungen und die Funktionen, die sie bie
 
 Weitere Informationen zum Freigeben eines Ideenraums finden Sie unter [Freigeben eines Ideenraums](/help/quicksilver/planning/ideation/share-the-ideation-space.md).
 
-<!--there is no additional setup for Workfront layout template assignment because Contributors an below cannot access Ideation space; only Standard users-->
+<!--
+there is no additional setup for Workfront layout template assignment because Contributors an below cannot access Ideation space; only Standard users
+-->
 
 
 <!-- 
