@@ -177,7 +177,7 @@ Sie können Datensätze in der Tabellenansicht einer Datensatztypseite durch Dup
 
      ![Menü Mehr aus Datensatz in der Tabellenansicht](assets/more-menu-from-record-in-table-view.png)
 
-   * Wählen Sie einen Datensatz aus und klicken Sie dann auf **Symbol &quot;** Duplizieren![ Symbol „Duplizieren](assets/duplicate-icon-white-and-blue.png) in der Symbolleiste am unteren Seitenrand.
+   * Wählen Sie einen Datensatz aus und klicken Sie dann auf **Symbol &quot;** Duplizieren![&#x200B; Symbol „Duplizieren](assets/duplicate-icon-white-and-blue.png) in der Symbolleiste am unteren Seitenrand.
 
      ![Symbol „Duplizieren“ in der Symbolleiste in der Tabellenansicht](assets/duplicate-icon-in-toolbar-in-table-view.png)
 
