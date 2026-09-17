@@ -6,16 +6,71 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: e76aa2b0a9002abd644f82d99a001f8b1c0fff6e
+source-git-commit: 10d95f7fc71d72edd5cbb292af69a348b648b4ba
 workflow-type: tm+mt
-source-wordcount: '1773'
-ht-degree: 1%
+source-wordcount: '2057'
+ht-degree: 0%
 ---
 # Versionsaktivität für Adobe Workfront Planning im vierten Quartal 2026
 
 In diesem Artikel werden die Funktionen beschrieben, die in Workfront Planning im vierten Quartal 2026 veröffentlicht werden.
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## CX Coworker jetzt in Workfront Planning verfügbar
+
+>[!NOTE]
+>
+>Vorschau: 3. September 2026
+>Produktions-Schnellveröffentlichung: 17. September 2026
+>Produktion für alle: 15. Oktober 2026
+
+CX Coworker ist jetzt in Workfront Planning verfügbar. Jetzt können Sie in einem Bedienfeld, das in Workfront Planning verfügbar ist, auf CX Coworker zugreifen.
+
+CX Coworker Chat ist eine Gesprächsoberfläche, um Arbeit zu erledigen. Beschreiben Sie ein Ziel in verständlicher Sprache. Ein Mitarbeiter plant die Arbeit, führt sie in Workfront Planning und Ihren verbundenen Adobe-Systemen aus, validiert die Ergebnisse und bringt die fertige Arbeit zur Genehmigung an Sie zurück.
+
+Mitarbeiter respektieren die vorhandenen Zugriffssteuerungen Ihres Unternehmens, standardmäßig mit schreibgeschütztem Zugriff, und Systemadministratoren steuern, wann Benutzer Schreibzugriff erhalten.
+
+Coworker ersetzt den aktuellen KI-Assistenten als eine leistungsfähigere Möglichkeit, Arbeit zu erledigen. Coworker ist Teil des Adobe-Ökosystems und ist nicht auf Workfront Planning beschränkt.
+
+>[!IMPORTANT]
+>
+>CX Coworker steht derzeit Organisationen im Gesundheitswesen, im Finanzwesen oder in einigen anderen Branchen mit sensiblen Daten nicht zur Verfügung. KI-Assistent steht diesen Organisationen zur Verfügung.
+
+Weitere Informationen finden Sie unter [CX Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+
+<!--
+
+## Removed the AI Assistant icon in the Details preview box in preparation for the CX Coworker launch
+
+>[!NOTE]
+>
+>Preview: September 16, 2026
+>Production fast release: September 17, 2026
+>Production for everyone: October 15, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+This change is available for customers who have the CX Coworker in Workfront.
+
+In preparation for the launch of the Adobe CX Coworker in Workfront, we have removed the AI Assistant icon from the Details preview page. The icon still exists on the Details page, when opened in full screen. Clicking it will open the CX Coworker.
+
+For information, see [CX Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md).
+
+-->
+
+## Verbessertes Erlebnis beim Duplizieren von Datensätzen mit verbundenen Feldern vom Typ Eins-zu-eins- oder Eins-zu-viele-Verbindung
+
+>[!NOTE]
+>
+>Vorschau: 17. September 2026
+>Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktion für alle: 15. Oktober 2026
+
+Datensätze können jetzt auch dupliziert werden, wenn verbundene Eins-zu-eins- oder Eins-zu-viele-Datensätze vorhanden sind. Nach der Duplizierung können Benutzende den verbundenen Datensatz im ursprünglichen Datensatz beibehalten oder mit dem neuen Datensatz verbinden. Das Original beibehalten ist die Standardoption.
+
+Der Dialog zur Lösung von Verbindungskonflikten wurde aktualisiert, um dieses neue Verhalten widerzuspiegeln und mehr Flexibilität bei der Verwaltung von verbundenen Datensätzen zu bieten.
+
+Weitere Informationen finden Sie unter [Duplizieren von Datensätzen](/help/quicksilver/planning/records/copy-or-duplicate-records.md).
 
 ## Verwalten der Sichtbarkeit von Datensatzminiaturansichten und -farben in der Tabellenansicht über die Spalte des Primärfelds
 
