@@ -1,53 +1,31 @@
 ---
-title: Adobe Workfront Planning AI Assistant - Übersicht
-description: Sie können den KI-Assistenten verwenden, um Datensätze basierend auf dem aktuellen Seitenkontext und der Datensatzstruktur zu generieren, zu aktualisieren oder zu entfernen. Die Benutzerbefehle und die Ausführung dieser Befehle durch die KI arbeiten zusammen, um sicherzustellen, dass die von der KI vorgenommenen Änderungen genau in Ihrer Umgebung widergespiegelt werden.
+title: Adobe Workfront-Planung - CX Coworker - Übersicht
+description: Sie können die CX Coworker in Workfront Planning verwenden, um ähnliche Aktionen wie Datensätze und andere Objekte in Planning auszuführen, die Sie normalerweise in der Benutzeroberfläche ausführen würden. Die Benutzerbefehle und die Ausführung dieser Befehle durch die KI arbeiten zusammen, um sicherzustellen, dass die von der KI vorgenommenen Änderungen genau in Ihrer Umgebung widergespiegelt werden.
 author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-last-update: 2026-04-01T18:03:50.000Z
-git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/3I5y7eTZml-nkAiAYnBFuaw72DyXgNG12D-EVYVourA
-product_v2:
-  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
-    internal-label: Workfront
-feature_v2:
-  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
-    internal-label: Administration
-subfeature_v2:
-  - id: e147ce9d-7675-49bd-8a32-44f27d865560
-    internal-label: Get started
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-    internal-label: User
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-    internal-label: Admin
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-    internal-label: Customer experience
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-    internal-label: Administration
 source-git-commit: d5f36e0c8dbd9749503de25b75e70bf18b1d187b
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 6%
+source-wordcount: '1007'
+ht-degree: 5%
 ---
-# Überblick über den KI-Assistenten von Adobe Workfront-Planung
+
+# Übersicht über Adobe Workfront Planning CX Coworker
 
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
 
-Sie können den KI-Assistenten verwenden, um in Adobe Workfront Planning Änderungen oder Aktualisierungen an Datensätzen und anderen Objekten basierend auf dem aktuellen Seitenkontext vorzunehmen.
+Die CX Coworker ist eine Gesprächsoberfläche, auf der Sie ein Ziel in einfacher Sprache beschreiben und dann die Arbeit in Ihrer Adobe und den verbundenen Systemen plant, ausführt und validiert, bevor Sie sie zur Genehmigung zurückbringen.
 
-Die Benutzerbefehle und die Ausführung dieser Befehle durch die KI arbeiten zusammen, um sicherzustellen, dass die von der KI vorgenommenen Änderungen genau in Ihrer Umgebung widergespiegelt werden.
+Der CX Coworker behält alles bei, was der KI-Assistent heute tut, und fügt gleichzeitig leistungsfähigere End-to-End-Funktionen hinzu, sowohl in einem neuen Vollbilderlebnis als auch in der rechten Leiste von Workfront.
+
+Sie wird innerhalb der bestehenden Zugriffssteuerungen auf Produktebene Ihres Unternehmens ausgeführt, sodass Benutzende nur Aktionen ausführen können, zu denen sie bereits in Workfront berechtigt sind. Der schreibgeschützte Zugriff wird dabei standardmäßig von Workfront-Admins gesteuert.
 
 ## Zugriffsanforderungen
 
@@ -79,11 +57,10 @@ ODER
 <tr> 
    <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
    <td>  
-     <p>Ihr Administrator muss Folgendes tun, um den Zugriff auf den KI-Assistenten zuzulassen:</p>
+   <p>Ihr Administrator muss Folgendes tun, um in Planning den Zugriff auf die CX Coworker zuzulassen:</p>
    <ul>
    <li><p>Fügen Sie Ihrer Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzu, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p></li>
-   <li><p>Deaktivieren Sie in Ihrer Zugriffsebene die Einstellung Workfront-KI-Assistent deaktivieren .</p></li></ul>
-
+   <li><p>Deaktivieren Sie die Option CX Coworker-Bedienfeld in Workfront deaktivieren in Ihrer Zugriffsebene. Er ist standardmäßig ausgewählt.</p></li></ul>
 </td> 
   </tr> 
   <tr> 
@@ -94,7 +71,7 @@ ODER
 
 <tr> 
    <td role="rowheader"><p>Systemeinstellungen</p></td> 
-   <td>   <p>Ihr Workfront-Administrator muss unter „Setup“ im Bereich „Systemeinstellungen“ die Einstellung „KI aktivieren“ auswählen und die KI signieren, um Zugriff auf den KI-Assistenten zu erhalten</p>  
+   <td>   <p>Ihr Workfront-Administrator muss die schreibgeschützten und schreibgeschützten MCP-Tools im Bereich „Systemeinstellungen“ des Setups auswählen. Die schreibgeschützten MCP-Tools sind standardmäßig ausgewählt.</p> 
     </td> 
   </tr> 
 </tbody> 
@@ -105,11 +82,11 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 +++
 
 
-## Überlegungen zum KI-Assistenten
+## Überlegungen zum CX Coworker
 
-* Der KI-Assistent muss für Ihre Organisation aktiviert sein, damit er für Benutzende in Ihrer Firma verfügbar ist.
+* Die CX Coworker muss für Ihr Unternehmen aktiviert sein, damit sie für Benutzende in Ihrem Unternehmen verfügbar ist.
 
-  Weitere Informationen finden Sie unter [Übersicht über den KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+  Weitere Informationen finden Sie unter [Übersicht über CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 * Nachdem Workfront den Agenten für Ihr Unternehmen aktiviert hat, ist er für den Workfront-Hauptadministrator verfügbar. Weitere Informationen finden Sie [Konfigurieren der grundlegenden Informationen für Ihr System](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
