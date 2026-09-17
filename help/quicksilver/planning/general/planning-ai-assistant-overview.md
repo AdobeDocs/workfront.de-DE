@@ -28,19 +28,19 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d5f36e0c8dbd9749503de25b75e70bf18b1d187b
+source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '988'
 ht-degree: 6%
 ---
 # Überblick über den KI-Assistenten von Adobe Workfront-Planung
 
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 
 {{planning-important-intro}}
@@ -48,6 +48,10 @@ ht-degree: 6%
 Sie können den KI-Assistenten verwenden, um in Adobe Workfront Planning Änderungen oder Aktualisierungen an Datensätzen und anderen Objekten basierend auf dem aktuellen Seitenkontext vorzunehmen.
 
 Die Benutzerbefehle und die Ausführung dieser Befehle durch die KI arbeiten zusammen, um sicherzustellen, dass die von der KI vorgenommenen Änderungen genau in Ihrer Umgebung widergespiegelt werden.
+
+>[!IMPORTANT]
+>
+><span class="preview">In einigen Unternehmen wurde der KI-Assistent durch den CX Coworker ersetzt. Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront Planning CX Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
 
 ## Zugriffsanforderungen
 
@@ -111,7 +115,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
   Weitere Informationen finden Sie unter [Übersicht über den KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
-* Nachdem Workfront den Agenten für Ihr Unternehmen aktiviert hat, ist er für den Workfront-Hauptadministrator verfügbar. Weitere Informationen finden Sie [Konfigurieren der grundlegenden Informationen für Ihr System](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+* Nachdem Workfront den Agenten für Ihr Unternehmen aktiviert hat, ist er für den Workfront-Hauptadministrator verfügbar. Weitere Informationen finden Sie [Konfigurieren von Systemvoreinstellungen](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 * Der Workfront-Administrator muss den KI-Assistenten für alle anderen Benutzer aktivieren. Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren des KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
@@ -150,14 +154,19 @@ Sie können den KI-Assistenten verwenden, um zu diesem Zeitpunkt die folgenden A
 
 ## Suchen des KI-Assistenten in Workfront Planning
 
+>[!NOTE]
+>
+><span class="preview">Wenn Ihr Unternehmen Zugriff auf die CX Coworker erhalten hat, ist das Auffinden der CX Coworker ähnlich wie das Auffinden des KI-Assistenten. Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront Planning CX Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
+
+
 Der KI-Assistent befindet sich in den folgenden Bereichen von Workfront Planning:
 
 * Die Hauptnavigationsleiste in der oberen rechten Ecke des Bildschirms.
 * Innerhalb des Detailbereichs eines Datensatzes, nachdem Sie den Datensatz in der Vorschau geöffnet oder nachdem Sie die Datensatzseite geöffnet haben.
 
-## Zugriff auf den KI-Assistenten im Bereich Planung
+### Zugriff auf den KI-Assistenten im Bereich Planung
 
-1. Melden Sie sich bei Workfront an und klicken Sie dann oben links auf **&#x200B;**-Symbol ![Hauptmenü „Zeilen](assets/lines-main-menu.png) und dann auf **Planung**.
+1. Melden Sie sich bei Workfront an und klicken Sie dann oben links auf ****-Symbol ![Hauptmenü „Zeilen](assets/lines-main-menu.png) und dann auf **Planung**.
 
    Der Bereich Planung wird geöffnet.
 

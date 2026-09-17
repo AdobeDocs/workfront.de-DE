@@ -5,14 +5,15 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: d5f36e0c8dbd9749503de25b75e70bf18b1d187b
+source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 5%
+source-wordcount: '1119'
+ht-degree: 3%
 ---
 
 # Übersicht über Adobe Workfront Planning CX Coworker
 
+<!--replaced information from the AI Assistant for Planning article with CX Coworker-->
 
 <span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
 
@@ -21,11 +22,18 @@ ht-degree: 5%
 
 {{planning-important-intro}}
 
-Die CX Coworker ist eine Gesprächsoberfläche, auf der Sie ein Ziel in einfacher Sprache beschreiben und dann die Arbeit in Ihrer Adobe und den verbundenen Systemen plant, ausführt und validiert, bevor Sie sie zur Genehmigung zurückbringen.
+Die CX Coworker ist eine Gesprächsoberfläche, auf der Sie ein Ziel in einfacher Sprache beschreiben. Anschließend plant, führt und validiert sie die Arbeit in Ihrem Workfront Planning- und anderen verbundenen Adobe-Systemen, bevor sie zur Genehmigung zurückgebracht wird.
 
 Der CX Coworker behält alles bei, was der KI-Assistent heute tut, und fügt gleichzeitig leistungsfähigere End-to-End-Funktionen hinzu, sowohl in einem neuen Vollbilderlebnis als auch in der rechten Leiste von Workfront.
 
 Sie wird innerhalb der bestehenden Zugriffssteuerungen auf Produktebene Ihres Unternehmens ausgeführt, sodass Benutzende nur Aktionen ausführen können, zu denen sie bereits in Workfront berechtigt sind. Der schreibgeschützte Zugriff wird dabei standardmäßig von Workfront-Admins gesteuert.
+
+>[!IMPORTANT]
+>
+>CX Coworker steht derzeit Organisationen im Gesundheitswesen, im Finanzwesen oder in einigen anderen Branchen mit sensiblen Daten nicht zur Verfügung. KI-Assistent steht diesen Organisationen zur Verfügung.
+>
+>Weitere Informationen finden Sie unter [Übersicht über den KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+
 
 ## Zugriffsanforderungen
 
@@ -81,87 +89,90 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 +++
 
-
 ## Überlegungen zum CX Coworker
 
 * Die CX Coworker muss für Ihr Unternehmen aktiviert sein, damit sie für Benutzende in Ihrem Unternehmen verfügbar ist.
 
   Weitere Informationen finden Sie unter [Übersicht über CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
-* Nachdem Workfront den Agenten für Ihr Unternehmen aktiviert hat, ist er für den Workfront-Hauptadministrator verfügbar. Weitere Informationen finden Sie [Konfigurieren der grundlegenden Informationen für Ihr System](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+* Nachdem Workfront den Agenten für Ihre Workfront-Instanz aktiviert hat, ist er für den Workfront-Hauptadministrator verfügbar und er kann ihn für Ihr Unternehmen aktivieren. Weitere Informationen finden Sie [Konfigurieren von Systemvoreinstellungen](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
-* Der Workfront-Administrator muss den KI-Assistenten für alle anderen Benutzer aktivieren. Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren des KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+* Der Workfront-Administrator muss für Sie auch CX Coworker in Ihrer Zugriffsebene aktivieren. Weitere Informationen finden Sie [Zugriffsebenen erstellen und ändern](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-* Der KI-Assistent arbeitet im Kontext jeder Seite. Die Anfragen, die Sie für den KI-Assistenten senden, müssen auf Funktionen verweisen, die auf der geöffneten Seite verfügbar sind.
+* Die CX Coworker arbeitet mit Informationen und Objekten, die sich in Workfront oder Workfront Planning befinden und für die Sie über Zugriffsberechtigungen verfügen. In der rechten Leiste „Planung“ kann das Bedienfeld „Mitarbeiter“ im Kontext des Arbeitsbereichs, des Datensatztyps oder der Datensatzseite, den bzw. die Sie geöffnet haben, verwendet werden.
 
-* Die vom KI-Assistenten im Bereich Planung durchgeführten Aktionen stehen im Kontext Ihrer Workfront-Planungsberechtigungen und Ihrer Workfront-Zugriffsebene. Weitere Informationen finden Sie in den folgenden Artikeln:
+* Die von CX Coworker im Bereich Planung durchgeführten Aktionen stehen im Zusammenhang mit Ihren Workfront-Planungsberechtigungen und Ihrer Workfront-Zugriffsebene. Weitere Informationen finden Sie in den folgenden Artikeln:
 
   * [Überblick über das Freigeben von Berechtigungen in Adobe Workfront-Planung](/help/quicksilver/planning/access/sharing-permissions-overview.md)
   * [Überblick über die Lizenztypen bei Verwendung von Adobe Workfront-Planung](/help/quicksilver/planning/access/license-type-overview.md)
 
-* Änderungen, die der KI-Assistent im Auftrag des Benutzers vornimmt, werden im Verlaufsfenster des Datensatzes erfasst.
+* Änderungen, die von der CX Coworker im Auftrag des Benutzers vorgenommen werden, werden im Bedienfeld Verlauf des Datensatzes nachverfolgt.
 
-* Die vom KI-Assistenten durchgeführten Aktionen sind dauerhaft und könnten unumkehrbar sein. Das Löschen eines Felds kann beispielsweise nicht rückgängig gemacht werden. Überprüfen Sie alle vom KI-Assistenten vorgeschlagenen Aktionen, bevor Sie sie akzeptieren.
+* Die von der CX Coworker ergriffenen Maßnahmen sind dauerhaft und könnten unumkehrbar sein. Das Löschen eines Felds kann beispielsweise nicht rückgängig gemacht werden. Überprüfen Sie alle von CX Coworker vorgeschlagenen Aktionen, bevor Sie sie akzeptieren.
 
-* Beim Erstellen, Aktualisieren oder Löschen eines Objekts über den KI-Assistenten zeigt der KI-Assistent die beabsichtigten Aktionen an und bittet um Bestätigung. Anschließend können Sie die Aktionen bestätigen oder abbrechen.
+* Beim Erstellen, Aktualisieren oder Löschen eines Objekts über die CX Coworker zeigt die CX Coworker die beabsichtigten Aktionen an und bittet um Bestätigung. Anschließend können Sie die Aktionen bestätigen oder abbrechen.
 
-## Derzeit für den KI-Assistenten verfügbare Funktionen
+## Derzeit für CX Coworker verfügbare Funktionen
 
-Derzeit ist der KI-Assistent im Planungsbereich von Workfront für die folgenden Seiten verfügbar:
+Derzeit ist die CX Coworker im Planungsbereich von Workfront verfügbar und nutzt verschiedene Fähigkeiten, um auf Informationen für Planning-Objekte zuzugreifen und sie zu bearbeiten. Weitere Informationen finden Sie unter [CX Coworker-Kenntnisse](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
 
-* Workspace-Seite
-* Seite des Datensatztyps
-* Seite aufzeichnen
-
-Sie können den KI-Assistenten verwenden, um zu diesem Zeitpunkt die folgenden Aktionen auszuführen:
+Mit der CX Coworker können Sie die folgenden Aktionen durchführen:
 
 * Nach Datensätzen suchen. Sie können nach Informationen suchen, die in beliebigen Datensatzfeldern enthalten sind.
 * Einträge erstellen. Eine ID mit einem Link zum neuen Datensatz wird angezeigt, nachdem der Datensatz erstellt wurde. Sie können die Felder angeben, die Sie während des Erstellungsprozesses aktualisieren möchten, z. B. Datum oder Beschreibung.
-* Erstellen Sie Datensätze basierend auf einem Dokument, das Sie hochladen. Workfront unterstützt die folgenden Dokumentformate für den KI-Assistenten:
+* Erstellen Sie Datensätze basierend auf einem Dokument, das Sie hochladen. Workfront unterstützt die folgenden Dokumentenformate für CX Coworker:
 
   PPTX, PDF, DOCX, XLSX, PPT, DOC, TXT und die meisten Bildformate
 * Aktualisieren Sie die Felder für die Datensätze, die Sie auf dem Bildschirm sehen
-* Löschen von Einträgen
-* Wiederherstellen von soeben gelöschten Datensätzen
+* Löschen, Duplizieren oder Wiederherstellen von Datensätzen
+* Datensätze mit anderen Datensätzen verknüpfen
+* Anzeigen des Änderungsverlaufs eines Datensatzes
 
 
-## Suchen des KI-Assistenten in Workfront Planning
+## Suchen der CX Coworker in Workfront Planning
 
-Der KI-Assistent befindet sich in den folgenden Bereichen von Workfront Planning:
+Sie finden die CX Coworker in den folgenden Bereichen von Workfront Planning:
 
 * Die Hauptnavigationsleiste in der oberen rechten Ecke des Bildschirms.
-* Innerhalb des Detailbereichs eines Datensatzes, nachdem Sie den Datensatz in der Vorschau geöffnet oder nachdem Sie die Datensatzseite geöffnet haben.
+* Innerhalb des Detailbereichs eines Datensatzes, wenn Sie ihn in einer neuen Registerkarte öffnen.
 
-## Zugriff auf den KI-Assistenten im Bereich Planung
+## Zugriff auf die CX Coworker im Planungsbereich
 
-1. Melden Sie sich bei Workfront an und klicken Sie dann oben links auf **&#x200B;**-Symbol ![Hauptmenü „Zeilen](assets/lines-main-menu.png) und dann auf **Planung**.
+
+1. Melden Sie sich bei Workfront an und klicken Sie dann oben links auf ****-Symbol ![Hauptmenü „Zeilen](assets/lines-main-menu.png) und dann auf **Planung**.
 
    Der Bereich Planung wird geöffnet.
 
+   Suchen Sie das **KI** Symbol ![KI](assets/ai-icon.png)Symbol oben rechts auf der Seite oder fahren Sie mit den folgenden Schritten fort.
+
 1. Klicken Sie auf eine **Arbeitsbereichskarte**.
 
-1. (Optional) Klicken Sie auf eine **Karte vom Typ „Datensatz**.
+1. Klicken Sie auf **Karte vom Typ Datensatz**.
 
-1. (Optional) Klicken Sie auf **Datensatz**, um die Seite **Details** des Datensatzes zu öffnen.
+1. Klicken Sie auf **Datensatz**, um die Seite **Details** des Datensatzes zu öffnen, und klicken Sie dann auf In öffnen .
 
-1. Klicken Sie auf **KI** Assistentensymbol) in der oberen rechten Ecke des Bildschirms in der globalen Navigationsleiste oder in der oberen rechten Ecke der Vorschau oder Seite des Datensatzes.
+1. Klicken Sie oben rechts **Bildschirm auf das Symbol** CX Coworker .
 
-   ![KI-Assistenten-Symbol](assets/ai-assistant-icon-highlighted.png)
+1. Beginnen Sie im vorgesehenen Feld mit der Eingabe von Befehlen für die CX Coworker und klicken Sie abschließend auf die Eingabetaste .
 
-1. Beginnen Sie in dem dafür vorgesehenen Feld mit der Eingabe von Befehlen für den KI-Assistenten und klicken Sie abschließend auf die Eingabetaste .
-
-   ![AI Assistant Panel mit leerem Befehlsfeld](assets/ai-assistant-panel-with-empty-command-box.png)
+   ![CX Coworker-Bedienfeld mit leerem Befehlsfeld](assets/cx-coworker-right-rail.png)
 
    Sie können beispielsweise einen der folgenden Typen eingeben:
 
-   * Erstellen Sie eine Kampagne mit dem Startdatum 4. Juli und dem Enddatum 30. Juli
-   * Aktualisieren Sie das Feld Beschreibung des Sommerkampagnendatensatzes mit dem zu bestimmenden Datum
-   * Letzten Eintrag löschen
-   * Datensatz wiederherstellen
+   * Erstellen Sie einen neuen Kampagnendatensatz mit dem Namen Summer Sale 2026
+   * Aktualisieren Sie das Budgetfeld im Sommerkampagnendatensatz auf 75.000 $
+   * Löschen Sie den Kampagnendatensatz mit dem Namen „Alte Promotion“.
+   * Die versehentlich gelöschte Kampagne wiederherstellen
 
-   Während der Verarbeitung von Befehlen durch den KI-Assistenten wird ein visueller Indikator angezeigt, der Erwartungen für die Antwortzeit festlegt.
+   >[!TIP]
+   >
+   >Stellen Sie sicher, dass der Workfront-Administrator die schreibgeschützten MCP-Tools in den Systemeinstellungen aktiviert hat, bevor Sie den CX Coworker auffordern, Bearbeitungsaktionen für Objekte durchzuführen.
+
+   Während die CX Coworker -Befehle verarbeitet, wird ein visueller Indikator angezeigt, der die Erwartungen für die Antwortzeit festlegt.
 
    Folgen Sie nach Erhalt einer erfolgreichen Antwort den angegebenen Links oder beachten Sie die Änderungen auf der linken Seite.
 
+
+1. (Optional) Klicken Sie auf das **Vollbildsymbol erweitern**-Symbol ![Vollbildsymbol erweitern](assets/expand-full-screen-icon.png), um das Chat-Feld „Mitarbeiter“ in einer Browser-Registerkarte im Vollbildmodus zu öffnen.
 
 
