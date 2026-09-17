@@ -3,13 +3,11 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 02ea2cad43b1064e30a7356feaa194f98d448092
+source-git-commit: 4f6ce5b53e3c85225ad82cb88c699aa4871526cc
 workflow-type: tm+mt
-source-wordcount: '14542'
+source-wordcount: '14563'
 ht-degree: 92%
-
 ---
-
 # Handbuch für Workfront {#using}
 
 * [Dokumentation zu Workfront](home.md)
@@ -1645,7 +1643,9 @@ ht-degree: 92%
     * Verwalten von Berichten {#manage-reports}
       * [Verwalten von Berichten: Artikelindex](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/manage-reports-article-index.md)
       * [Bearbeiten eines Berichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
-      * [Bearbeiten von Berichtsfiltern in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
+      * [Filtern eines Berichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)
+      * [Referenz zum Berichtsfilter für Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)
+      * [Gruppieren von Berichtsdaten in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)
       * [Duplizieren eines Berichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report.md)
       * [Löschen eines Berichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
   * Berichte {#reports}
@@ -1849,6 +1849,7 @@ ht-degree: 92%
     * [Erstellen eines Leserkontos oder einer Verbindung für Snowflake](reports-and-dashboards/data-lake/create-a-reader-account.md)
     * [Herstellen einer Verbindung mit Workfront Data Connect](reports-and-dashboards/data-lake/share-data-externally.md)
     * [Datenwörterbuch für Workfront Data Connect](reports-and-dashboards/data-lake/data-dictionary.md)
+    * {hide-from-toc}[Registrieren eines privaten Listeneintrags für Workfront Data Connect](reports-and-dashboards/data-lake/register-a-private-listing.md)
     * {hide-from-toc}[Datenwörterbuchtest](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
     * [Beispiele für Workfront Data Connect-Abfragen](reports-and-dashboards/data-lake/basic-query-examples.md)
     * [Anzeigen von Nutzungsmetriken für Workfront Data Connect](reports-and-dashboards/data-lake/view-usage-metrics.md)

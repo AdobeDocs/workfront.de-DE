@@ -11,22 +11,26 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/5tFfjJfCZzD-xA4YgFpz9V3jIVG2etiYJ-KAwPLI-Sk
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 79d9eb9d3066cc83c1190d9732c64712917798aa
+    internal-label: Administration
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: 1406
+source-wordcount: '1347'
 ht-degree: 11%
-
 ---
-
 # Erstellen eines KPI-Berichts in einem Arbeitsflächen-Dashboard
 
 >[!IMPORTANT]
@@ -121,17 +125,9 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines KPI-Berichts zur Verf
 
    1. Wählen Sie in **Dropdown-Liste** Aggregationstyp“ aus, wie die Daten aggregiert werden, um die KPI-Ausgabe zu erzeugen. Die Optionen in diesem Feld variieren je nach dem Typ des Felds, das im vorherigen Schritt ausgewählt wurde.
 
-1. Gehen Sie wie folgt vor, um den Abschnitt **Filter** zu konfigurieren:
+1. Klicken Sie im linken Bedienfeld auf das Symbol **Filter** ![Filter](assets/filter-icon.png) und konfigurieren Sie dann die Bedingungen, die bestimmen, welche Daten angezeigt werden.
 
-   1. Klicken Sie im linken Bedienfeld auf das Symbol **Filter** ![Filter](assets/filter-icon.png).
-
-   1. Wählen Sie **Filter bearbeiten** aus.
-
-   1. Klicken Sie **Bedingung hinzufügen** und geben Sie dann das Feld an, nach dem Sie filtern möchten, sowie den Modifikator, der definiert, welche Art von Bedingung das Feld erfüllen muss.
-
-   1. (Optional) Klicken Sie auf **Filtergruppe hinzufügen**, um einen weiteren Satz von Filterkriterien hinzuzufügen. Der Standardoperator zwischen den Sätzen ist UND. Klicken Sie auf den Operator, um ihn in ODER zu ändern.
-
-      Weitere Informationen zu Filtern finden Sie unter [Berichtsfilter in einem Arbeitsflächen-Dashboard bearbeiten](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md).
+   Weitere Informationen finden Sie unter [Filtern eines Berichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md).
 
 1. Gehen Sie wie folgt vor, um den Abschnitt **Spalteneinstellungen** zu konfigurieren:
 
@@ -141,11 +137,9 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines KPI-Berichts zur Verf
 
    1. Klicken Sie **Spalte hinzufügen** und wählen Sie dann das Feld aus, das als Spalte in der Tabelle angezeigt werden soll. Wiederholen Sie diesen Vorgang für jede Spalte, die Sie hinzufügen möchten.
 
-1. Gehen Sie wie folgt vor, um den Abschnitt **Drilldown-Gruppeneinstellungen** zu konfigurieren:
+1. Klicken Sie im linken Bedienfeld auf das Symbol **Drilldown-Gruppeneinstellungen** ![Drilldown-Gruppensymbol](assets/drilldown-group-icon.png) und fügen Sie dann Gruppierungen für die Drilldown-Tabelle hinzu.
 
-   1. Klicken Sie im linken Bedienfeld auf das Symbol **Gruppeneinstellungen** ![Drilldown-Gruppe](assets/drilldown-group-icon.png) .
-
-   1. Klicken Sie auf **Gruppierung hinzufügen** und wählen Sie dann das Feld aus, das Sie als Gruppierung erstellen möchten.
+   Weitere Informationen finden Sie unter [Konfigurieren von Drilldown-Gruppierungen in Diagramm- und KPI](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md#configure-drilldown-groupings-in-chart-and-kpi-reports)Berichten in [Gruppieren von Berichtsdaten in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md).
 
 1. Klicken Sie **Speichern**, um den Bericht zu erstellen und zum Dashboard hinzuzufügen.
 

@@ -5,13 +5,11 @@ title: Erstellen eines Pivot-Tabellenberichts in einem Arbeitsflächen-Dashboard
 description: Sie können einen Pivot-Tabellenbericht zu einem Arbeitsflächen-Dashboard hinzufügen, um aggregierte Summen für Ihre Daten in einem Tabellenformat anzuzeigen.
 author: Courtney
 feature: Reports and Dashboards
-source-git-commit: 58c5f4a08b2083d7350c19b6c1d8383fa0dbb124
+source-git-commit: 375d62fc12af075c2224f979d3ef87cdffdf03ea
 workflow-type: tm+mt
-source-wordcount: '1556'
+source-wordcount: '1510'
 ht-degree: 8%
-
 ---
-
 # Erstellen eines Pivot-Tabellenberichts in einem Arbeitsflächen-Dashboard
 
 >[!IMPORTANT]
@@ -132,15 +130,9 @@ Es stehen viele Konfigurationsoptionen zum Erstellen eines Pivot-Tabellenbericht
 
    1. Wiederholen Sie die beiden oben genannten Schritte, um bis zu 2 Segmente hinzuzufügen.
 
-1. Gehen Sie wie folgt vor, um den Abschnitt **Filter** zu konfigurieren:
+1. Klicken Sie im linken Bedienfeld auf das Symbol **Filter** ![Filter](assets/filter-icon.png) und konfigurieren Sie dann die Bedingungen, die bestimmen, welche Daten angezeigt werden.
 
-   1. Klicken Sie im linken Bedienfeld auf das Symbol **Filter** ![Filter](assets/filter-icon.png).
-
-   1. Wählen Sie **Filter bearbeiten** aus.
-
-   1. Klicken Sie **Bedingung hinzufügen** und geben Sie dann das Feld an, nach dem Sie filtern möchten, sowie den Modifikator, der definiert, welche Art von Bedingung das Feld erfüllen muss.
-
-   1. (Optional) Klicken Sie auf **Filtergruppe hinzufügen**, um einen weiteren Satz von Filterkriterien hinzuzufügen. Der Standardoperator zwischen den Sätzen ist UND. Klicken Sie auf den Operator, um ihn in ODER zu ändern.
+   Weitere Informationen finden Sie unter [Filtern eines Berichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md).
 
 1. Gehen Sie wie folgt vor, um den Abschnitt **Spalteneinstellungen** zu konfigurieren:
 
