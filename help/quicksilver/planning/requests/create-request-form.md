@@ -11,24 +11,30 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/j4ZFzyPot9XkML8u1-kmO6x4lRR3X2SGBwfthepmir0
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 6f64c3e6ebb8407c38ad3a1d46b2fc63b534879e
+    internal-label: Administration
+source-git-commit: d53ae5afd949644baf18d6a4f0ba8f30b80fa1e5
 workflow-type: tm+mt
-source-wordcount: 3066
+source-wordcount: '3066'
 ht-degree: 2%
-
 ---
-
 # Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront-Planung
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
@@ -199,12 +205,12 @@ Um ein Anfrageformular zu erstellen, müssen Sie Folgendes ausfüllen:
    * **label**: Dies ist der Name des Felds, wie er im Anfrageformular angezeigt wird. Der Name des Datensatzfelds wird dadurch nicht geändert.
    * **Anweisungen**: Fügen Sie weitere Informationen über das Feld hinzu.
    * **Erforderliches Feld festlegen**: Wenn diese Option aktiviert ist, muss das Feld einen Wert enthalten. Andernfalls kann das Formular nicht gesendet werden.
-   * **Logik hinzufügen**: Definieren Sie, welche Bedingungen erfüllt sein müssen, damit das Feld angezeigt oder ausgeblendet wird.
+   * **Logik hinzufügen**: Definieren Sie, welche Bedingungen erfüllt sein müssen, damit das Feld angezeigt oder ausgeblendet wird. <!--<span class="preview">In addition to display and skip logic, validation logic is also available.</span> For information on field logic, see [Add logic rules to custom forms and fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).-->
 
    >[!TIP]
    >
-   >   Der Feldtyp der einzelnen Felder wird oben im rechten Bereich angezeigt, nachdem Sie das Feld im Formular ausgewählt haben.
-   >     
+   >Der Feldtyp der einzelnen Felder wird oben im rechten Bereich angezeigt, nachdem Sie das Feld im Formular ausgewählt haben.
+
 1. (Optional) Klicken Sie mit der rechten Maustaste auf ein Feld und ziehen Sie es per Drag-and-Drop an eine andere Position im Formular.
 1. (Optional) Klicken Sie auf **Registerkarte** Inhaltselemente“ auf der linken Seite des Formulars und fügen Sie eines der folgenden Elemente hinzu:
 
@@ -237,6 +243,7 @@ Beachten Sie beim Hinzufügen von Genehmigungsregeln Folgendes:
 * Wenn mindestens eine genehmigende Person die Anforderung ablehnt, wird die Anforderung abgelehnt und der Datensatz nicht erstellt. Die Anfrage verbleibt im Bereich Anfragen von Workfront.
 * Wenn Sie mehr als eine genehmigende Person hinzufügen und die Option Nur eine Entscheidung ist erforderlich nicht aktiviert ist, müssen alle genehmigenden Personen eine Entscheidung treffen, bevor eine Anfrage entweder genehmigt oder abgelehnt wird.
 * Wenn ein Team als genehmigende Person festgelegt ist, ist nur eine Entscheidung vom Team erforderlich.
+  <!--<span class="preview">* Multiple stages are supported in the approval process. When all required decisions in a stage are made, the next stage begins and the new stage's approvers receive an email notification.</span>-->
 
 Weitere Informationen zum Hinzufügen von Genehmigungen finden Sie [Genehmigung zu einem Anfrageformular hinzufügen](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
@@ -255,11 +262,13 @@ So konfigurieren Sie Formulareinstellungen:
 
    ![Standardmäßiger Bereich für Genehmigungsregeln](assets/default-approvers.png)
 
+   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval. Add the approvers for each stage, and save the multi-stage approval.</span> FIX INDENT WHEN YOU UNCOMMENT THIS, SHOULD BE FLUSH LEFT-->
+
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
 1. (Optional) Gehen Sie für jede zusätzliche Genehmigungsregel wie folgt vor:
 
-   1. Klicken Sie **Genehmigungsregel hinzufügen**
+   1. Klicken Sie **Genehmigungsregel hinzufügen**.
    1. Klicken Sie auf den Platzhaltertitel „Nicht benannte Genehmigungsregel“ und geben Sie einen Namen für die Genehmigungsregel ein.
    1. Klicken Sie **Feld auswählen** und wählen Sie das Feld aus, das die Regel aktiviert.
    1. Wählen Sie den Operator für die Regel aus. Die Operatoren variieren je nach Feldtyp.
@@ -267,6 +276,8 @@ So konfigurieren Sie Formulareinstellungen:
    1. (Optional) Fügen Sie weitere Bedingungen mit UND oder hinzu, indem Sie auf „Bedingung hinzufügen“ klicken und die zusätzliche Bedingung konfigurieren.
    1. Fügen Sie im Bereich Aktionen der Genehmigungsregel im Feld **Genehmigende Personen** mindestens einen Benutzer oder ein Team hinzu, der bzw. das bei der genehmigenden Person eingestellt werden soll, wenn die Bedingung erfüllt ist.
    1. (Bedingt) Wenn der Datensatz erstellt werden soll, nachdem eine der genehmigenden Personen ihn genehmigt hat, aktivieren Sie das Kontrollkästchen **Nur eine Entscheidung ist erforderlich**.
+
+   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval, and follow step 5 above.</span>-->
 
 1. (Optional) Um Routing-Regeln neu anzuordnen, klicken Sie auf den Ziehgriff auf der linken Seite der Regel und ziehen Sie die Regel an die gewünschte Position.
 

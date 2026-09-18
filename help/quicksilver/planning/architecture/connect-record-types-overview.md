@@ -9,23 +9,29 @@ exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
 TQID: https://experienceleague.adobe.com/yX-p5GzLd4EMOdWDrw3gAHqZfRvPCUaYXCjEnGxcwc4
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 11b6130de450054a853df6bea7d6374fffb095a6
+    internal-label: Administration
+source-git-commit: d5f36e0c8dbd9749503de25b75e70bf18b1d187b
 workflow-type: tm+mt
-source-wordcount: 2498
+source-wordcount: '2578'
 ht-degree: 1%
-
 ---
-
 <!--keep the 30 limit verbiage in yellow til Jan 2026-->
 
 # Übersicht über verbundene Datensatztypen
@@ -206,6 +212,14 @@ Informationen zum Verbinden von Datensatztypen finden Sie unter [Verbinden von D
     Weitere Informationen und Überlegungen finden Sie unter [Abhängige Verbindungen verwalten](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
 
   </div>
+
+* Die folgenden Szenarien bestehen, wenn Datensätze mit einem verbundenen Datensatz in einem Verbindungstyp vom Typ Eins zu Eins oder Eins zu Viele dupliziert werden:
+
+  * In der Produktionsumgebung wird der verbundene Datensatz in den duplizierten Datensatz verschoben, oder Sie müssen ihn manuell aus dem Original entfernen, bevor Sie den Datensatz duplizieren, und ihn dann wieder hinzufügen.
+  * <span class="preview">In der Vorschau-Umgebung können Sie auswählen, ob der verbundene Datensatz auf dem Original verbleibt oder in den duplizierten Datensatz verschoben wird.</span>
+
+  Weitere Informationen finden Sie unter [Duplizieren von &#x200B;](/help/quicksilver/planning/records/copy-or-duplicate-records.md).
+
 
 ## Verbindungstypen
 

@@ -5,13 +5,12 @@ title: Adobe Workfront MCP-Server-Tools
 description: Referenzliste der über den Adobe Workfront MCP-Server verfügbaren Tools, gruppiert nach Workfront-Bereich.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 7d95c420db4566936f225daae7b82f61f757b4f5
+source-git-commit: 191778aae452a4b849f3dac8c61bc6b4157d655b
 workflow-type: tm+mt
-source-wordcount: '2785'
+source-wordcount: '2811'
 ht-degree: 4%
 
 ---
-
 
 # Adobe Workfront MCP-Server-Tools
 
@@ -287,6 +286,10 @@ Beispiel-Eingabeaufforderungen:
 ### Insights-Tools
 
 Insights-Tools rufen Informationen zu Workfront-Objekten ab.
+
+>[!NOTE]
+>
+>Die Insights-Daten sind nahezu in Echtzeit, mit einem SLA von bis zu etwa 15 Minuten. In Workfront durchgeführte Änderungen werden möglicherweise nicht sofort in den Insights-Ergebnissen angezeigt.
 
 | Titel | Tool-Name | Funktion | Aktion |
 | --- | --- | --- | --- |

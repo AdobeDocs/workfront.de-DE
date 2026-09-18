@@ -1,13 +1,6 @@
 ---
 name: update-for-release
-description: ""
-source-git-commit: 4c2305da7635694d9d7bc174b5837a0d57fb7ac0
-workflow-type: tm+mt
-source-wordcount: '2009'
-ht-degree: 0%
-
----
-
+description: 'Dokumentieren Sie eine neue Workfront-Funktion für eine kommende Version: Identifizieren Sie die betroffenen Hilfeartikel, wählen Sie das richtige Vorschau-Snippet aus, markieren Sie neue Inhalte mit hervorgehobener Vorschau (je nach Artikel pro Abschnitt oder pro Zeile) und wählen Sie Details auf Oberflächengrenzlinien-Benutzeroberflächenebene als explizite Bestätigungs-/Ablehnungsaufforderungen, bevor Sie Bearbeitungen anwenden. Verwenden Sie diese Option, wenn Benutzende Workfront-Hilfeartikel für eine Funktion aktualisieren, die gerade versendet wird (normalerweise zuerst die Vorschau), ein PDF oder eine bevorstehende Version erwähnt, nach der Hervorhebung einer Vorschau fragt oder Hilfe beim Hinzufügen von Abschnitten „in der Vorschau“ / „in der Produktion“ zu Anleitungsartikeln oder Übersichtsartikeln wünscht.'---
 
 # Aktualisierung für Version (Workfront)
 
@@ -94,9 +87,9 @@ Für jeden Artikel in der vom Benutzer bestätigten Liste:
 
    Geben Sie für jedes „Zur Überprüfung bereitstehende“ Element eine Ein-Satz-Begründung an („Hilft Anfängern, eine längere Nachricht zu planen“, „Hilft Benutzern, die sie in späteren Phasen nicht sehen, zu wissen, um sie zu erweitern„). Nur die Elemente einbeziehen, die der Benutzer auswählt. Das Standardprinzip lautet: „Wenn der Benutzer die Aufgabe auf dem Bildschirm sehen kann, muss sie nicht neu formuliert werden“ - aber der Benutzer erhält den endgültigen Aufruf.
 
-   **Wenn Sie die tatsächlichen Sätze**, wenden Sie für jeden Behälter `~/.cursor/skills/writing-quality/SKILL.md` Sprach- und Tonregeln an, während Sie schreiben - eine einfache Feld-/Verhaltensbeschreibung, keinen Changelog-Eintrag („wurde entfernt“, „wurde hinzugefügt„) und stellen Sie keine unveränderte Anweisung erneut her, nur um eine Vorschau-Anmerkung anzufügen. Zeichnen Sie es beim ersten Mal richtig, anstatt den Ton in einem späteren Durchgang zu fixieren.
+   **Bevor Sie die tatsächlichen Sätze entwerfen** rufen Sie für einen der beiden Bereiche **die `writing-quality` (Kenntniswerkzeug)** auf und wenden Sie die Sprach- und Tonregeln beim Schreiben an - eine einfache Feld-/Verhaltensbeschreibung, keinen Changelog-Eintrag („wurde entfernt“, „wurde hinzugefügt„) und erstellen Sie keine unveränderte Anweisung, nur um eine Vorschau-Anmerkung anzufügen. Zeichnen Sie es beim ersten Mal richtig, anstatt den Ton in einem späteren Durchgang zu fixieren.
 
-5. **Erfüllen Sie den Entwurf, bevor Sie** Text anzeigen. Dies ist ein Sicherheitsnetz, nicht das erste Mal, dass diese Regeln gelten - fangen Sie alles, was bei Schritt 4 verpasst wurde (Redundanz, Ton, Sprachabweichung mit den umgebenden Zeilen).
+5. **Führe die `writing-quality` (Qualifikationswerkzeug) als letzten Pass auf** entworfenen Text aus, bevor er angezeigt wird - erforderlich für jeden Artikel, nicht optional. Er fängt alles wieder, was bei Schritt 4 verpasst wurde (Redundanz, Ton, Stimmabweichung mit den umgebenden Zeilen).
 
 6. **Änderungen vorschlagen.** Vor-/Nach-Ausschnitten (oder einer fokussierten Beschreibung im Diff-Stil) für den Artikel anzeigen, die Folgendes behandeln: Platzierung von Ausschnitten, Umbenennungen von Überschriften, neue In-Preview-Inhalte und wo sie sich befinden, Screenshot-Referenz und etwaige Inline-`class="preview"`-Umbrüche.
 
@@ -217,12 +210,18 @@ Führen Sie diese vollständige Checkliste für **jeden** Artikel in der Sitzung
 - Duplikate pro Zeile: Das ursprüngliche `<tr>` ist byte-für-byte unverändert; das neue `<tr class="preview">` enthält beide Zellen in `<span class="preview">` umschlossen; die Beschriftung ist eine neue kurze Beschriftung + Kleinbuchstaben „in der Vorschau“ (nicht die ursprüngliche Beschriftung + „(in der Vorschau)„); jede zusätzliche Anmerkung verwendet `<br>` + `Note:` inline, keine verschachtelte `<p>`.
 - Wenn dasselbe Feld in mehr als einer Prozedurvariante angezeigt wird (Standard/Erweitert, Legacy/ESM), entspricht der Wortlaut jeder neuen Zeile dem tatsächlichen Verhalten dieser Variante, anstatt von einer anderen Variante kopiert zu werden.
 - Die neue mit einer Vorschau markierte Prosa liest sich wie ein einfaches Feld/eine Verhaltensbeschreibung, kein Änderungsprotokolleintrag und ändert nicht redundant eine unveränderte Anweisung.
+- Die `writing-quality`-Fähigkeit wurde in der entworfenen Prosa dieses Artikels (beide Behälter) aufgerufen.
 - `ReadLints` ist in der bearbeiteten Datei sauber.
 - Der Artikel wird in beiden Zuständen korrekt gelesen (mit ein- und ausgeblendetem Vorschauinhalt).
 
 ## Referenzen
 
-- Workfront-Dokumentationsstil: Siehe die Kenntnisse **Schreibqualität** bei `~/.cursor/skills/writing-quality/SKILL.md`.
+- Workfront-Dokumentationsstil: **Rufen Sie die `writing-quality`-** über das Kenntnisse-Tool auf (Quelle: `.cursor/skills/writing-quality/`).
 - Snippet-Katalog: `help/_includes/snippets.md` im Dokumentations-Repository.
 - GA-Bereinigung (inverser Workflow): Siehe die Qualifikation **Entfernen-Vorschau-Hervorhebung** unter `.cursor/skills/remove-preview-highlighting/SKILL.md`.
 - Adobe Wiki MCP für PRDs: `user-Adobe Wiki Confluence`, Tool `get_wiki_content`.
+source-git-commit: 60f7b8b7fc731d649d4d10910b38acda1b1d6891
+workflow-type: tm+mt
+source-wordcount: 2118
+ht-degree: 0%
+---

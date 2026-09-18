@@ -5,13 +5,12 @@ title: Verwenden des Adobe Workfront MCP-Servers
 description: Verwenden Sie den Adobe Workfront-MCP-Server, um Workfront-Elemente über eine Sprachkonversation in einer KI-Agentenplattform zu suchen, zu erstellen, zu aktualisieren und zu verwalten.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 836431c7840647b8f412f848fe22d3e64cc42e44
+source-git-commit: 191778aae452a4b849f3dac8c61bc6b4157d655b
 workflow-type: tm+mt
-source-wordcount: '1775'
+source-wordcount: '1982'
 ht-degree: 0%
 
 ---
-
 
 # Verwenden des Adobe Workfront MCP-Servers
 
@@ -138,6 +137,12 @@ Um die KI-Agent-Plattform zu zwingen, neue Daten abzurufen, fragen Sie explizit 
 
 * *Erhalten Sie die neuesten Daten aus Workfront. Keine zwischengespeicherten Ergebnisse verwenden.*
 
+### Insights-Daten sind nahezu in Echtzeit und nicht sofort verfügbar
+
+Die Insights-Tools, die zum Suchen und Filtern von Workfront-Daten sowie zum Erstellen von Berichten verwendet werden, spiegeln Änderungen nahezu in Echtzeit wider, mit einem service level agreement (SLA) von bis zu etwa 15 Minuten. Wenn Sie eine Änderung an Workfront vornehmen und sofort danach fragen, spiegelt die Antwort diese Änderung möglicherweise nicht wider.
+
+Wenn Sie eine kürzlich vorgenommene Änderung bestätigen müssen, warten Sie einige Minuten und fragen Sie erneut oder checken Sie direkt in Workfront ein.
+
 ### Auf Updates für den Workfront MCP-Server prüfen
 
 Sie sollten Ihre Verbindung zum Workfront MCP-Server regelmäßig aktualisieren, um sicherzustellen, dass Sie über die neuesten Tools und Funktionen verfügen.
@@ -167,6 +172,7 @@ Workfront hat keine Kontrolle darüber, wie der KI-Plattformanbieter Ihre Workfr
 | Problem | Wahrscheinliche Ursache | Korrigieren |
 | --- | --- | --- |
 | Die KI-Agent-Plattform liefert Ihnen veraltete Informationen. | Die KI-Agentenplattform verwendet Daten aus früheren Phasen der Konversation wieder. | Fordern Sie neue Daten von Workfront an. |
+| Daten, die Sie gerade in Workfront geändert haben, werden noch nicht angezeigt. | Die Insights-Daten sind nahezu in Echtzeit, mit einem SLA von bis zu etwa 15 Minuten. | Warten Sie ein paar Minuten und fragen Sie erneut, oder überprüfen Sie direkt in Workfront. |
 | Die KI-Agent-Plattform hat Daten von falschen Workfront-Elementen zurückgegeben. | Die KI-Agentenplattform wählte die falschen Elemente basierend auf mehrdeutigen Formulierungen aus. | Fragen Sie erneut mit spezifischeren Namen, IDs oder Filtern. |
 | Eine Aktualisierung oder Löschung wurde in Workfront nicht wirksam. | Ihr Workfront-Administrator hat Schreibaktionen für den Workfront MCP-Server deaktiviert oder Sie sind nicht berechtigt, die Aktion für das jeweilige Element durchzuführen. | Bestätigen Sie mit der KI-Agent-Plattform, dass die Aktion ausgeführt wurde. Vergewissern Sie sich anschließend, dass Schreibaktionen für den Workfront MCP-Server aktiviert sind und dass Sie berechtigt sind, das Element zu ändern. |
 

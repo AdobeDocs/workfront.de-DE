@@ -11,28 +11,32 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/yk-q-wKrbIgyxw3WAz9un5HTNpwtdwFqaPFUQ6PzhT0
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+    internal-label: Administration
+source-git-commit: d5f36e0c8dbd9749503de25b75e70bf18b1d187b
 workflow-type: tm+mt
-source-wordcount: 510
-ht-degree: 3%
-
+source-wordcount: '714'
+ht-degree: 2%
 ---
-
 # Duplizieren von Einträgen
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<!--Remove Prod and Preview references-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -178,6 +182,11 @@ Sie können Datensätze in der Tabellenansicht einer Datensatztypseite durch Dup
      ![Symbol „Duplizieren“ in der Symbolleiste in der Tabellenansicht](assets/duplicate-icon-in-toolbar-in-table-view.png)
 
    Unterhalb des ursprünglichen Datensatzes wird ein identischer Datensatz mit identischem Namen erstellt. Alle Felder des neuen Datensatzes werden mit denselben Informationen wie im ursprünglichen Datensatz ausgefüllt.
+
+1. (Bedingt) Wenn der zu duplizierende Datensatz mit einem Datensatz einer Eins-zu-Eins- oder einer Eins-zu-Viele-Verbindung verbunden ist, klicken Sie je nach verwendeter Umgebung auf eine der folgenden Optionen:
+
+   * Klicken Sie in der Produktionsumgebung auf **Verbinden**, um den verbundenen Datensatz aus dem Original zu entfernen und ihn zum duplizierten Datensatz hinzuzufügen, oder klicken Sie auf **Abbrechen**, wenn Sie den Datensatz nicht weiter duplizieren möchten.
+   * <span class="preview">Klicken Sie in der Vorschau-Umgebung auf **Mit neuem Datensatz verbinden**, wenn der verbundene Datensatz in den neuen Datensatz verschoben werden soll, oder klicken Sie auf **Im Original beibehalten**, wenn der verbundene Datensatz im Original verbleiben soll. Der duplizierte Datensatz hat in diesem Feld keinen verbundenen Datensatz.</span>
 
 1. (Optional) Starten Sie die Aktualisierung der Informationen zum neuen Datensatz in den Feldern, die in der Tabellenansicht verfügbar sind, oder klicken Sie auf den Datensatz und aktualisieren Sie die Informationen in der Datensatzvorschau oder -seite.
 

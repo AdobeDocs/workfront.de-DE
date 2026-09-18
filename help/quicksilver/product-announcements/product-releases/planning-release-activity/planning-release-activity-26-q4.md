@@ -6,9 +6,9 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: e76aa2b0a9002abd644f82d99a001f8b1c0fff6e
+source-git-commit: 43ad86656589b0a60bce9003d46dcb21bff12e3c
 workflow-type: tm+mt
-source-wordcount: '1773'
+source-wordcount: '2210'
 ht-degree: 1%
 ---
 # Versionsaktivität für Adobe Workfront Planning im vierten Quartal 2026
@@ -16,6 +16,61 @@ ht-degree: 1%
 In diesem Artikel werden die Funktionen beschrieben, die in Workfront Planning im vierten Quartal 2026 veröffentlicht werden.
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## CX Coworker jetzt in Workfront Planning verfügbar
+
+>[!NOTE]
+>
+>Vorschau: Schrittweiser Rollout ab 3. September 2026
+>Schnelle Veröffentlichung in der Produktion: Schrittweiser Rollout ab 17. September 2026
+>Produktion für alle: Schrittweiser Rollout ab 15. Oktober 2026
+
+CX Coworker ist jetzt in Workfront Planning verfügbar. Jetzt können Sie in einem Bedienfeld, das in Workfront Planning verfügbar ist, auf CX Coworker zugreifen.
+
+Der CX Coworker-Chat ist eine Gesprächsoberfläche zum Erledigen von Aufgaben. Beschreiben Sie ein Ziel in verständlicher Sprache. Ein Mitarbeiter plant die Arbeit, führt sie in Workfront Planning und Ihren verbundenen Adobe-Systemen aus, validiert die Ergebnisse und bringt die fertige Arbeit zur Genehmigung an Sie zurück.
+
+Mitarbeiter respektieren die vorhandenen Zugriffssteuerungen Ihres Unternehmens, standardmäßig mit schreibgeschütztem Zugriff, und Systemadministratoren steuern, wann Benutzer Schreibzugriff erhalten.
+
+Coworker ersetzt den aktuellen KI-Assistenten als eine leistungsfähigere Möglichkeit, Arbeit zu erledigen. Coworker ist Teil des Adobe-Ökosystems und ist nicht auf Workfront Planning beschränkt.
+
+>[!IMPORTANT]
+>
+>CX Coworker steht derzeit Organisationen im Gesundheitswesen, im Finanzwesen oder in einigen anderen Branchen mit sensiblen Daten nicht zur Verfügung. Der KI-Assistent steht diesen Organisationen weiterhin zur Verfügung.
+
+Weitere Informationen finden Sie unter [Übersicht über CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+
+## Das Symbol für den KI-Assistenten im Vorschaufeld Details wurde zur Vorbereitung auf den CX Coworker-Launch entfernt.
+
+>[!NOTE]
+>
+>Vorschau: Schrittweiser Rollout ab 16. September 2026
+>Schnelle Veröffentlichung in der Produktion: Schrittweiser Rollout ab 17. September 2026
+>Produktion für alle: Schrittweiser Rollout ab 15. Oktober 2026
+>[!BADGE Außerplanmäßig]{type=Neutral}
+
+Diese Änderung ist für Kunden verfügbar, die die CX Coworker in Workfront haben.
+
+Zur Vorbereitung auf den Launch von Adobe CX Coworker in Workfront haben wir das Symbol KI-Assistent aus der Detailvorschau entfernt. Das Symbol ist weiterhin auf der Detailseite vorhanden, wenn es im Vollbildmodus geöffnet wird. Wenn Sie darauf klicken, wird die CX Coworker geöffnet.
+
+>[!IMPORTANT]
+>
+>CX Coworker steht derzeit Organisationen im Gesundheitswesen, im Finanzwesen oder in einigen anderen Branchen mit sensiblen Daten nicht zur Verfügung. Der KI-Assistent steht diesen Organisationen weiterhin zur Verfügung.
+
+Weitere Informationen finden Sie unter [CX Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md).
+
+## Verbessertes Erlebnis beim Duplizieren von Datensätzen mit verbundenen Feldern vom Typ Eins-zu-eins- oder Eins-zu-viele-Verbindung
+
+>[!NOTE]
+>
+>Vorschau: 17. September 2026
+>Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktion für alle: 15. Oktober 2026
+
+Datensätze können jetzt auch dupliziert werden, wenn verbundene Eins-zu-eins- oder Eins-zu-viele-Datensätze vorhanden sind. Nach der Duplizierung können Benutzende den verbundenen Datensatz im ursprünglichen Datensatz beibehalten oder mit dem neuen Datensatz verbinden. Das Original beibehalten ist die Standardoption.
+
+Der Dialog zur Lösung von Verbindungskonflikten wurde aktualisiert, um dieses neue Verhalten widerzuspiegeln und mehr Flexibilität bei der Verwaltung von verbundenen Datensätzen zu bieten.
+
+Weitere Informationen finden Sie unter [Duplizieren von Datensätzen](/help/quicksilver/planning/records/copy-or-duplicate-records.md).
 
 ## Verwalten der Sichtbarkeit von Datensatzminiaturansichten und -farben in der Tabellenansicht über die Spalte des Primärfelds
 

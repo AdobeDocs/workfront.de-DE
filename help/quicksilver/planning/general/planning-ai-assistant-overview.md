@@ -11,37 +11,47 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/3I5y7eTZml-nkAiAYnBFuaw72DyXgNG12D-EVYVourA
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+    internal-label: Administration
+source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
 workflow-type: tm+mt
-source-wordcount: 826
-ht-degree: 7%
-
+source-wordcount: '988'
+ht-degree: 6%
 ---
-
 # Überblick über den KI-Assistenten von Adobe Workfront-Planung
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 
 {{planning-important-intro}}
 
-Sie können den KI-Assistenten verwenden, um Datensätze basierend auf dem aktuellen Seitenkontext und der Datensatzstruktur zu generieren, zu aktualisieren oder zu entfernen.
+Sie können den KI-Assistenten verwenden, um in Adobe Workfront Planning Änderungen oder Aktualisierungen an Datensätzen und anderen Objekten basierend auf dem aktuellen Seitenkontext vorzunehmen.
 
 Die Benutzerbefehle und die Ausführung dieser Befehle durch die KI arbeiten zusammen, um sicherzustellen, dass die von der KI vorgenommenen Änderungen genau in Ihrer Umgebung widergespiegelt werden.
+
+>[!IMPORTANT]
+>
+><span class="preview">In einigen Unternehmen wurde der KI-Assistent durch den CX Coworker ersetzt. Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront Planning CX Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
 
 ## Zugriffsanforderungen
 
@@ -57,28 +67,40 @@ Die Benutzerbefehle und die Ausführung dieser Befehle durch die KI arbeiten zus
    <td role="rowheader"><p>Adobe Workfront-Pakete</p></td> 
    <td> 
 <p>Beliebige Workfront oder Workflows mit einem Planungspaket</p>
+ODER
 <p>Jedes Planungspaket, wenn es als eigenständiges Produkt gekauft wird</p>
    </td> </tr>
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz</p></td> 
-   <td><p>Workflow-Standard</p>
+   <td><p>Standard</p>
    </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Adobe Planning-Lizenz</p></td> 
-   <td><p>Planungsstandard</p>
+   <td><p>Standard</p>
    </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
-   <td> <p>Sie müssen der Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzufügen, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p>   
+   <td>  
+     <p>Ihr Administrator muss Folgendes tun, um den Zugriff auf den KI-Assistenten zuzulassen:</p>
+   <ul>
+   <li><p>Fügen Sie Ihrer Zugriffsebene sowohl einen Workflow- als auch einen Planning-Lizenztyp hinzu, wenn Sie sowohl einen Workflow als auch ein Planning-Paket haben</p></li>
+   <li><p>Deaktivieren Sie in Ihrer Zugriffsebene die Einstellung Workfront-KI-Assistent deaktivieren .</p></li></ul>
+
 </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich</a> </p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p>  </td> 
-  </tr>  
+  </tr>
+
+<tr> 
+   <td role="rowheader"><p>Systemeinstellungen</p></td> 
+   <td>   <p>Ihr Workfront-Administrator muss unter „Setup“ im Bereich „Systemeinstellungen“ die Einstellung „KI aktivieren“ auswählen und die KI signieren, um Zugriff auf den KI-Assistenten zu erhalten</p>  
+    </td> 
+  </tr> 
 </tbody> 
 </table>
 
@@ -86,10 +108,14 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 +++
 
+
 ## Überlegungen zum KI-Assistenten
 
-* Der KI-Assistent muss für Ihre Organisation aktiviert sein, damit er für Benutzende in Ihrer Firma verfügbar ist. Weitere Informationen finden Sie unter [Übersicht über den KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
-* Nachdem Workfront den KI-Assistenten für Ihr Unternehmen aktiviert hat, ist er für den Workfront-Hauptadministrator verfügbar. Weitere Informationen finden Sie [Konfigurieren der grundlegenden Informationen für Ihr System](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+* Der KI-Assistent muss für Ihre Organisation aktiviert sein, damit er für Benutzende in Ihrer Firma verfügbar ist.
+
+  Weitere Informationen finden Sie unter [Übersicht über den KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+
+* Nachdem Workfront den Agenten für Ihr Unternehmen aktiviert hat, ist er für den Workfront-Hauptadministrator verfügbar. Weitere Informationen finden Sie [Konfigurieren von Systemvoreinstellungen](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 * Der Workfront-Administrator muss den KI-Assistenten für alle anderen Benutzer aktivieren. Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren des KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
@@ -128,12 +154,17 @@ Sie können den KI-Assistenten verwenden, um zu diesem Zeitpunkt die folgenden A
 
 ## Suchen des KI-Assistenten in Workfront Planning
 
+>[!NOTE]
+>
+><span class="preview">Wenn Ihr Unternehmen Zugriff auf die CX Coworker erhalten hat, ist das Auffinden der CX Coworker ähnlich wie das Auffinden des KI-Assistenten. Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront Planning CX Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
+
+
 Der KI-Assistent befindet sich in den folgenden Bereichen von Workfront Planning:
 
 * Die Hauptnavigationsleiste in der oberen rechten Ecke des Bildschirms.
 * Innerhalb des Detailbereichs eines Datensatzes, nachdem Sie den Datensatz in der Vorschau geöffnet oder nachdem Sie die Datensatzseite geöffnet haben.
 
-## Zugriff auf den KI-Assistenten im Bereich Planung
+### Zugriff auf den KI-Assistenten im Bereich Planung
 
 1. Melden Sie sich bei Workfront an und klicken Sie dann oben links auf **&#x200B;**-Symbol ![Hauptmenü „Zeilen](assets/lines-main-menu.png) und dann auf **Planung**.
 
