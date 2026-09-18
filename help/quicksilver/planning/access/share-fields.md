@@ -5,21 +5,20 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
+source-git-commit: ac94936cc4dc9dc4f2d56b3f1221f71a405c5c65
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 3%
+source-wordcount: '1335'
+ht-degree: 2%
 ---
 
 # Workfront-Planungsfelder freigeben
 
 {{planning-important-intro}}
 
-<!--
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 Sie können das Feld eines Workfront-Planungsdatensatzes für andere freigeben, um die Zusammenarbeit bei der Verwendung von Adobe Workfront Planning sicherzustellen.
 
@@ -87,9 +86,15 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 * Der Zugriff auf ein Feld erfolgt durch die Kombination der folgenden Einstellungen:
 
   * **Geerbte Berechtigungen**: Standardmäßig erbt ein Feld den gleichen Zugriff, den jemand auf den Datensatztyp hat. Sie können geerbte Berechtigungen deaktivieren und Benutzern einen geringeren Zugriff auf das Feld gewähren, als sie ihn für den Datensatztyp haben.
-  * Die Auswahl **Jeder Benutzer im Arbeitsbereich kann anzeigen** oder **Nur eingeladene Personen können darauf zugreifen**. Sie können entweder zulassen, dass jeder Benutzer mit Berechtigungen für den Arbeitsbereich das Feld anzeigen kann, oder Berechtigungen nur für einzelne Entitäten erteilen.
+  * Die Auswahl **Alle mit Zugriff auf den Datensatztyp können anzeigen** oder **Nur eingeladene Personen können zugreifen**. Sie können entweder zulassen, dass jeder Benutzer mit Berechtigungen für den Arbeitsbereich das Feld anzeigen kann, oder Berechtigungen nur für einzelne Entitäten erteilen.
 
   Wenn mehrere Regeln für dieselbe Person gelten, erhalten sie die höchste Berechtigung, die ihnen von einer der Regeln zur Verfügung steht.
+
+* Damit ein Feld für alle Benutzer in einem Arbeitsbereich schreibgeschützt ist, müssen Sie sicherstellen, dass die folgende Einrichtung vorhanden ist:
+
+  * Übernommene Berechtigungen deaktivieren
+  * Beibehalten der Einstellung **Jeder Benutzer mit Zugriff auf den Datensatztyp kann anzeigen**
+  * Fügen Sie keine einzelnen Entitäten hinzu.
 
 * Je nach den Berechtigungen des Datensatztyps können Benutzende die folgenden Feldberechtigungen erhalten:
 
@@ -158,7 +163,7 @@ Als Workspace-Manager können Sie Berechtigungen an einzelne Felder anpassen.
 
    Das Feld **Freigeben** wird geöffnet.
 
-1. (Optional) Im Bereich **Zugriff gewähren** ist die Option **Jeder Benutzer im Arbeitsbereich kann** anzeigen) standardmäßig ausgewählt. Alle Benutzer mit **Anzeigen** oder höheren Berechtigungen für den Arbeitsbereich und den Datensatztyp haben dieselben Berechtigungen für das Feld.
+1. (Optional) Im Bereich **Zugriff gewähren** ist die Option **Jeder, der Zugriff auf den Datensatztyp hat, kann** anzeigen) standardmäßig ausgewählt. Alle Benutzer mit **Anzeigen** oder höheren Berechtigungen für den Arbeitsbereich und den Datensatztyp haben dieselben Berechtigungen für das Feld.
 
 1. (Optional) Klicken Sie unter der Option **Vererbte Berechtigungen von** auf die Avatare von Benutzern, um Benutzer, Teams, Gruppen, Unternehmen oder Aufgabengebiete anzuzeigen, die Berechtigungen vom Arbeitsbereich erben.
 
@@ -177,6 +182,13 @@ Als Workspace-Manager können Sie Berechtigungen an einzelne Felder anpassen.
       >[!TIP]
       >
       >Workspace-Manager verfügen weiterhin über Verwaltungsberechtigungen für den Datensatztyp und das Feld.
+
+   1. (Optional) Klicken Sie auf das **Alle Personen mit Zugriff auf den Datensatztyp können anzeigen** Dropdown-Menü und wählen Sie **Nur eingeladene Personen können darauf zugreifen**.
+
+      >[!IMPORTANT]
+      >
+      >Diese Änderung in Verbindung mit dem Deaktivieren **Vererbte Berechtigungen** entfernt den Zugriff für alle Personen, die den Datensatztyp anzeigen können und nur bestimmten Personen Zugriff gewähren. Workspace-Manager und -Administratoren haben immer Zugriff auf alle Felder.
+
 
    1. Fügen Sie im Feld **Zugriff gewähren** die Benutzer, Teams, Gruppen, Unternehmen oder Aufgabengebiete hinzu, denen Sie eine andere Berechtigungsstufe gewähren möchten als für den Arbeitsbereich oder den Datensatztyp.
 
