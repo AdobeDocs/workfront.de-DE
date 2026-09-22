@@ -11,20 +11,23 @@ exl-id: ed97b8a6-54db-42f8-afee-d76c2df53a94
 TQID: https://experienceleague.adobe.com/QxKE6DZTT7NHafvJRPKXYQs05EWCqEOa8UUMJIopn7s
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 5de70fe4958126ab0491f173505113adc9edc36c
 workflow-type: tm+mt
-source-wordcount: 291
-ht-degree: 10%
-
+source-wordcount: '303'
+ht-degree: 9%
 ---
-
 # Konfigurieren der standardmäßigen E-Mail-Benachrichtigungseinstellungen für Korrekturabzüge
 
 Proofing-Benutzende in Adobe Workfront können E-Mail-Benachrichtigungen sowohl von Workfront als auch von Workfront Proof erhalten, wenn Kommentare oder Entscheidungen zu einem Korrekturabzug vorgenommen werden. Wenn Benutzende bereits E-Mail-Benachrichtigungen von Workfront Proof erhalten, empfehlen wir, die von Workfront gesendeten Benachrichtigungen zu deaktivieren, um doppelte Benachrichtigungs-E-Mails zu vermeiden.
@@ -68,9 +71,9 @@ So konfigurieren Sie die Einstellungen für Korrekturabzugs-E-Mail-Benachrichtig
 
 1. Erweitern Sie **E-Mail** und klicken Sie dann auf **Überprüfen und bestätigen**.
 
-1. Entscheiden **im Abschnitt „Korrekturabzugs-Benachrichtigungen in Workfront**, ob die Option E-Mails von Workfront senden aktiviert oder deaktiviert werden soll, wenn ein Korrekturabzug kommentiert wird.
+1. Entscheiden Sie **Abschnitt „Korrekturabzugsbenachrichtigungen in Workfront** ob die Option „Benachrichtigungen von Workfront senden **wenn ein Korrekturabzug kommentiert wird“ aktiviert oder deaktiviert**.
 
-   * Wenn diese Einstellung aktiviert ist, erhalten Benutzerinnen und Benutzer eine E-Mail von Workfront, wenn ein Korrekturabzug kommentiert wird.
-   * Wenn diese Einstellung deaktiviert ist, erhalten Benutzende keine E-Mail von Workfront, wenn sie einen Korrekturabzug kommentieren.
+   * Wenn diese Einstellung aktiviert ist, erhalten Benutzerinnen und Benutzer eine E-Mail von Workfront, wenn ein Korrekturabzug kommentiert wird. Außerdem wird eine Workfront-In-App-Benachrichtigung angezeigt.
+   * Wenn diese Einstellung deaktiviert ist, erhalten Benutzende keine E-Mail- oder In-App-Benachrichtigung von Workfront, wenn ein Korrekturabzug kommentiert wird.
 
 1. Klicken Sie auf **Speichern**.
