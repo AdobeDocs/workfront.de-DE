@@ -10,28 +10,38 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/Z2t6RQBsQZK6MNRd3w2gWEY8k9YU48Jsco7pev7papM
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 07a00836f60ce0bb4ee7fb0202c9458b0c1be406
+    internal-label: Administration
+source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
 workflow-type: tm+mt
-source-wordcount: 1495
-ht-degree: 7%
-
+source-wordcount: '1764'
+ht-degree: 6%
 ---
-
 # Verwenden der KI-gestützten Formularausfüllung zum Ausfüllen einer Anfrage mithilfe von Prompts oder Dokumenten
 
 >[!NOTE]
 >
 >Um diese Funktion nutzen zu können, muss Ihr Unternehmen die Anforderungen für die Verwendung des Workfront AI Assistant erfüllen. Weitere Informationen finden Sie unter [Voraussetzungen für den KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant).
 
-Mit KI-Formularausfüllen können Sie Anfragefelder basierend auf einer von Ihnen eingegebenen Eingabeaufforderung automatisch ausfüllen. Es kann auch Felder basierend auf Text ausfüllen, z. B. E-Mails oder hochgeladene Dokumente. Sie können diese Vorschläge vor dem Absenden der Anfrage genehmigen oder ablehnen.
+Mit KI-Formularausfüllen können Sie Anfragefelder basierend auf einer von Ihnen eingegebenen Eingabeaufforderung automatisch ausfüllen. Sie kann auch Felder basierend auf den folgenden Informationen ausfüllen, die Sie der Eingabeaufforderung hinzufügen:
+
+* Eine E-Mail
+* Hochgeladene Dokumente
+* Link zu einem Projekt, einer Aufgabe oder einem Problem
+
+Sie können diese Vorschläge vor dem Absenden der Anfrage genehmigen oder ablehnen.
 
 Diese Funktion ist beim Erstellen einer Anfrage im Bereich Workfront-Anfragen sowohl für Workfront- als auch für Workfront Planning-Anfragen verfügbar.
 
@@ -155,6 +165,7 @@ So verwenden Sie Vorschläge basierend auf einer eingefügten Textaufforderung:
    >[!NOTE]
    >
    >Alle nicht überprüften Vorschläge werden automatisch akzeptiert, wenn Sie die Anfrage senden.
+1. Klicken Sie **Senden** um die Anfrage zu senden.
 
 ### Beispiele für Textaufforderungen
 
@@ -342,6 +353,43 @@ Sie können ein Dokument hochladen, das auf das gesamte Formular oder auf einen 
    >[!NOTE]
    >
    >Alle nicht überprüften Vorschläge werden automatisch akzeptiert, wenn Sie die Anfrage senden.
+1. Klicken Sie **Senden** um die Anfrage zu senden.
+
+### Link zu einem anderen Objekt hinzufügen, um eine Anfrage automatisch auszufüllen
+
+Sie können zu Ihrer Eingabeaufforderung einen Link zu einem vorhandenen Projekt, einer vorhandenen Aufgabe oder einem vorhandenen Problem hinzufügen, damit er auf das gesamte Formular oder auf einen einzelnen Abschnitt des Formulars angewendet wird.
+
+1. Wechseln Sie zu einem Projekt, einer Aufgabe oder einem Problem, dessen Informationen in einer neuen Anfrage enthalten sein sollen, und kopieren Sie den Link des Objekts aus der Adresszeile des Browsers in die Zwischenablage.
+
+   Das Projekt, die Aufgabe oder das Problem müssen sich in derselben Instanz von Workfront befinden wie Ihre Anfrage.
+
+1. Erstellen Sie eine Anfrage.
+
+   Anweisungen finden Sie unter [Erstellen und Senden von Anfragen](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+
+1. Um Informationen aus einem verknüpften Objekt auf das gesamte Formular anzuwenden, klicken Sie unter dem Formularnamen auf **AI** Symbol ![AI](assets/request-prompt-icon.png)Symbol .
+
+   ODER
+
+   Um die Informationen aus dem verknüpften Objekt auf einen einzelnen Abschnitt anzuwenden, klicken Sie auf das Symbol **AI** ![AI](assets/request-prompt-icon.png) neben dem Abschnittsnamen.
+
+1. Beginnen Sie mit dem Hinzufügen Ihrer Eingabeaufforderung und fügen Sie dann den Link, den Sie aus dem Projekt, der Aufgabe oder dem Problem kopiert haben, in das Eingabeaufforderungsfenster ein.
+1. (Bedingt) Klicken Sie auf **Auf Formular anwenden** oder **Auf Abschnitt anwenden**.
+1. Klicken Sie **Formular ausfüllen** oder **Abschnitt ausfüllen**.
+
+   Workfront generiert Vorschläge für das Formular.
+1. Klicken Sie für jeden Feldvorschlag auf die Symbole **Vorschlag akzeptieren** oder **Vorschlag ablehnen** für dieses Feld.
+
+   ![Vorschlag annehmen oder ablehnen](assets/accept-reject-suggestion.png)
+
+   ODER
+
+   Wählen **oben auf der Seite** Alle akzeptieren **oder (Alle**) aus, um alle Vorschläge zu akzeptieren oder abzulehnen.
+
+   >[!NOTE]
+   >
+   >Alle nicht überprüften Vorschläge werden automatisch akzeptiert, wenn Sie die Anfrage senden.
+1. Klicken Sie **Senden** um die Anfrage zu senden.
 
 ## Fehlerbehebung
 

@@ -13,20 +13,23 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/wph4vcZj6iJCRSWrh6CHLwRhspLqbV-HL0qoZEwV-OI
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+    internal-label: Administration
+source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
 workflow-type: tm+mt
-source-wordcount: 1528
+source-wordcount: '1550'
 ht-degree: 4%
-
 ---
-
 # Eingereichte Anfragen anzeigen
 
 <!--
@@ -56,8 +59,9 @@ Im Bereich Anfragen werden je nach Anzeige die folgenden Anfragen angezeigt:
   >[!NOTE]
   >
   >* Sie können nur Ihre eigenen Anforderungsentwürfe anzeigen.
-  >* In der neuen anfordernden -Version befinden sich gesendete Anfragen und Entwürfe in derselben Liste.
+  >* In der neuen Anfrageerfahrung befinden sich gesendete Anfragen und Entwürfe in derselben Liste.
   >* In der veralteten -Version erstellte Entwürfe werden in der neuen -Version mit der Anfrage nicht angezeigt.
+  >* In der neuen Anfrageerfahrung können Sie alte Workfront-Anfragen nur von Juli 2025 bis heute sehen. <!--replace this bullet with this: In the Production environment, in the new request experience, you can see old Workfront requests only from July 2025 to the present day. <span class="preview">In the Preview environment, in the new request experience, you can see old Workfront requests only from 2023 to the present day. You can see all Workfront requests in the legacy experience.</span>-->
 
 ## Zugriffsanforderungen
 
@@ -166,8 +170,8 @@ So zeigen Sie Anfragen an, die Sie oder andere Benutzende in der neuen anfordern
    * **In Prüfung**: (Nur Planung) Diese Anforderung enthält genehmigende Personen und mindestens eine genehmigende Person hat die Anforderung geöffnet, es wurde jedoch keine Entscheidung getroffen. Dieser Status ist hartcodiert.
    * **Abgelehnt**: (Nur Planung) Diese Anforderung wurde von genehmigenden Personen abgelehnt. Mit dieser Anfrage wird kein Datensatz erstellt. Dieser Status ist hartcodiert.
    * **In Bearbeitung**:
-      * Workfront-Anfragen: Die Anfrage wurde konvertiert und die Arbeit ist im Gange.
-      * Workfront Planning-Anfragen: Der Anforderungsabschluss ist einem bestimmten Planning-Feld zugeordnet, und der Feldwert stimmt noch nicht mit dem Abschlusswert überein.
+     * Workfront-Anfragen: Die Anfrage wurde konvertiert und die Arbeit ist im Gange.
+     * Workfront Planning-Anfragen: Der Anforderungsabschluss ist einem bestimmten Planning-Feld zugeordnet, und der Feldwert stimmt noch nicht mit dem Abschlusswert überein.
    * **Halten**: Dies ist für Workfront-Anfragen verfügbar. Sie kann von den Benutzern manuell festgelegt werden.
    * **Abschließen**: Der Planungsdatensatz wurde erstellt, wodurch die Anfrage abgeschlossen wird. (Nur Planung)
    <!--
