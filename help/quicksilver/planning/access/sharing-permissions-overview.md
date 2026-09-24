@@ -11,27 +11,28 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/eF7kBTsursbrsXr8Lo6ql6U5JBLQDvi6nw4JDpRxClw
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+    internal-label: Admin
+source-git-commit: d45d85aecbcdabf2c02c347b80c7ee56b97efff0
 workflow-type: tm+mt
-source-wordcount: 1287
+source-wordcount: '1502'
 ht-degree: 5%
-
 ---
-
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
 
 <!--remove the Prod and Preview references when we release to Prod-->
 
 # Überblick über das Freigeben von Berechtigungen in Adobe Workfront-Planung
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -49,36 +50,57 @@ Sie können die folgenden Objekte in Workfront Planning manuell freigeben:
 
 * Arbeitsbereiche
 
-   * Sie können Arbeitsbereiche für Personen innerhalb Ihrer Organisation freigeben.
-   * Wenn Sie einen Arbeitsbereich freigeben, werden alle Datensatztypen, Datensätze und Felder, die mit den Arbeitsbereichen verknüpft sind, ebenfalls freigegeben.
-   * Wenn Sie einen Arbeitsbereich freigeben, werden Ansichten nicht freigegeben. Ansichten werden separat freigegeben.
+  * Sie können Arbeitsbereiche innerhalb Ihrer Organisation für Benutzer, Gruppen, Teams, Unternehmen und Aufgabengebiete freigeben.
+  * Wenn Sie einen Arbeitsbereich freigeben, werden alle Datensatztypen, Datensätze und Felder, die mit den Arbeitsbereichen verknüpft sind, ebenfalls freigegeben.
+  * Wenn Sie einen Arbeitsbereich freigeben, werden Ansichten nicht freigegeben. Ansichten werden separat freigegeben.
 
   Weitere Informationen finden Sie unter [Freigeben von Arbeitsbereichen](/help/quicksilver/planning/access/share-workspaces.md)
 
 * Eintragstypen
 
-   * Sie können Datensatztypen für Personen in Ihrer Organisation freigeben.
-   * Die Ebene der für den Arbeitsbereich gewährten Berechtigungen wird als geerbte Berechtigungen für den Datensatztyp angezeigt.
-   * Sie können keinen Datensatztyp mit einer höheren Berechtigungsstufe freigeben, als der Benutzer für den Arbeitsbereich hat.
+  * Sie können Datensatztypen innerhalb Ihrer Organisation für Benutzer, Gruppen, Teams, Unternehmen und Aufgabengebiete freigeben.
+  * Die Ebene der für den Arbeitsbereich gewährten Berechtigungen wird als geerbte Berechtigungen für den Datensatztyp angezeigt.
+  * Sie können keinen Datensatztyp mit einer höheren Berechtigungsstufe freigeben, als der Benutzer für den Arbeitsbereich hat.
 
   Weitere Informationen finden Sie unter [Freigeben von Datensatztypen](/help/quicksilver/planning/access/share-record-types.md).
 
 * Einträge
 
-   * Sie können Datensätze für Personen in Ihrer Organisation freigeben.
-   * Benutzer erben standardmäßig Berechtigungen vom Arbeitsbereich und vom Datensatztyp.
-   * Sie können einen Datensatz nicht mit einer höheren oder niedrigeren Berechtigungsstufe freigeben, als der Benutzer für den Datensatztyp hat.
+  * Sie können Datensätze für Personen innerhalb Ihrer Organisation, für Benutzer, Gruppen, Teams, Unternehmen und Aufgabengebiete freigeben.
+  * Benutzer erben standardmäßig Berechtigungen vom Arbeitsbereich und vom Datensatztyp.
+  * Sie können einen Datensatz nicht mit einer höheren oder niedrigeren Berechtigungsstufe freigeben, als der Benutzer für den Datensatztyp hat.
 
   Weitere Informationen finden Sie unter [Freigeben von Datensätzen](/help/quicksilver/planning/access/share-records.md).
 
+<!--
+* Fields
 
+    * In the Production environment, field permissions are inherited from record types. 
+
+    * Field permissions grant access to field values, and not to field settings. 
+    * You must have both permissions to a record and to a field to see the values of that field for a record. 
+
+    <div class="preview">
+
+    * In the Preview environment, consider the following: 
+
+        * You can share fields inside your organization, with users, groups, teams, companies, and job roles. 
+        * Access to a field comes from combining the following settings:
+
+            * **Inherited permissions**: By default, a field inherits the same access someone has on the record type. You can turn off Inherited permissions and give users a lower access to the field than they have for the record type. 
+            * The **Everyone with access to the record type can view** or **Only invited people can access** selection. You can either allow everyone with permissions to the workspace to view the field or give permissions only to individual entities. 
+    
+    For more information, see [Share fields](/help/quicksilver/planning/access/share-fields.md). 
+
+    </div>
+-->
 
 * Ansichten
 
-   * Sie müssen Benutzenden, einschließlich Systemadministratoren, Berechtigungen für den Zugriff auf Ansichten erteilen, getrennt von ihren Berechtigungen für den Zugriff auf Arbeitsbereiche.
-   * Wenn Sie eine Ansicht freigeben, werden alle Ansichtselemente freigegeben, einschließlich Filter, Gruppierung, Sortierung oder Einstellungen.
-   * Wenn Sie eine Ansicht freigeben, werden die in der Ansicht sichtbaren Datensätze nicht freigegeben. Datensätze müssen durch die Freigabe von Arbeitsbereichen freigegeben werden.
-   * Sie können eine Ansicht öffentlich für Personen außerhalb Ihrer Organisation freigeben, wenn Sie einen öffentlichen Link für eine Ansicht generieren.Personen, die über einen öffentlichen Link auf die Datensatzseite zugreifen, können alle Datensätze und ihre Felder anzeigen, einschließlich der verbundenen Datensätze und Felder.
+  * Sie müssen Benutzenden, einschließlich Systemadministratoren, Berechtigungen für den Zugriff auf Ansichten erteilen, getrennt von ihren Berechtigungen für den Zugriff auf Arbeitsbereiche.
+  * Wenn Sie eine Ansicht freigeben, werden alle Ansichtselemente freigegeben, einschließlich Filter, Gruppierung, Sortierung oder Einstellungen.
+  * Wenn Sie eine Ansicht freigeben, werden die in der Ansicht sichtbaren Datensätze nicht freigegeben. Datensätze müssen durch die Freigabe von Arbeitsbereichen freigegeben werden.
+  * Sie können eine Ansicht öffentlich für Personen außerhalb Ihrer Organisation freigeben, wenn Sie einen öffentlichen Link für eine Ansicht generieren. Personen, die über einen öffentlichen Link auf die Datensatzseite zugreifen, können alle Datensätze und ihre Felder anzeigen, einschließlich der verbundenen Datensätze und Felder.
 
   Weitere Informationen finden Sie unter [Freigeben von Ansichten](/help/quicksilver/planning/access/share-views.md).
 
@@ -95,21 +117,21 @@ Sie können die folgenden Objekte in Workfront Planning manuell freigeben:
 
 * Sie können Planning-Objekte wie folgt freigeben:
 
-   * Intern können Sie Workfront Planning-Objekte für die folgenden Workfront-Entitäten freigeben:
+  * Intern können Sie Workfront Planning-Objekte für die folgenden Workfront-Entitäten freigeben:
 
-      * Benutzende
-      * Gruppen
-      * Teams
-      * Firmen
-      * Aufgabengebiete
+    * Benutzende
+    * Gruppen
+    * Teams
+    * Firmen
+    * Aufgabengebiete
 
-     Sie können ein Planning-Objekt für bis zu 100 Entitäten pro Objekt freigeben.
+    Sie können ein Planning-Objekt für bis zu 100 Entitäten pro Objekt freigeben.
 
-   * Intern durch die Freigabe eines Links zu einem Arbeitsbereich oder einer Ansicht mit anderen Planning-Benutzern. Die folgenden Szenarien sind vorhanden:
+  * Intern durch die Freigabe eines Links zu einem Arbeitsbereich oder einer Ansicht mit anderen Planning-Benutzern. Die folgenden Szenarien sind vorhanden:
 
-      * Benutzer, die den Link zu einem Arbeitsbereich erhalten, müssen aktive Benutzer sein und sich bei Workfront anmelden, um auf den Arbeitsbereich zuzugreifen.
-      * Benutzende, die einen internen Freigabelink für eine Ansicht erhalten, müssen aktive Benutzende sein und sich bei Workfront anmelden, um auf die Ansicht zuzugreifen.
-   * Extern durch Freigeben eines öffentlichen Freigabe-Links zu einer Ansicht für externe Benutzer, die kein Workfront-Konto haben.
+    * Benutzer, die den Link zu einem Arbeitsbereich erhalten, müssen aktive Benutzer sein und sich bei Workfront anmelden, um auf den Arbeitsbereich zuzugreifen.
+    * Benutzende, die einen internen Freigabelink für eine Ansicht erhalten, müssen aktive Benutzende sein und sich bei Workfront anmelden, um auf die Ansicht zuzugreifen.
+  * Extern durch Freigeben eines öffentlichen Freigabe-Links zu einer Ansicht für externe Benutzer, die kein Workfront-Konto haben.
 
 ## Freigeben von Berechtigungen für Adobe Workfront Planning-Objekte
 
@@ -143,6 +165,10 @@ Im Folgenden finden Sie die Berechtigungsebenen für Arbeitsbereiche:
 | Freigeben | ✓ |            |       |
 | Löschen | ✓ |            |       |
 | Ansicht | ✓ | ✓ | ✓ |
+
+<!--
+<span class="permissions">In addition to the permissions described in the above table, you can also change the owner of a workspace when sharing it. For information, see [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md).</span>
+-->
 
 ### Berechtigungen für Datensatztypen
 
@@ -231,9 +257,13 @@ Die folgenden Szenarien sind vorhanden:
 
 ### Berechtigungen zum Aufzeichnen von Feldern
 
-Feldberechtigungen werden vom Datensatztyp übernommen, wenn Sie Berechtigungen für den Arbeitsbereich und den Datensatztyp gewähren.
 
-Die folgenden Berechtigungen beziehen sich auf die Felder selbst und nicht auf die mit den einzelnen Feldern verknüpften Werte. Zum Bearbeiten von Feldwerten benötigen Sie Berechtigungen zum Bearbeiten von Datensätzen.
+#### Berechtigungen zum Aufzeichnen von Feldern in der Produktionsumgebung
+
+
+Berechtigungen zum Bearbeiten von Feldeinstellungen werden vom Datensatztyp übernommen, wenn Sie Berechtigungen für den Arbeitsbereich und den Datensatztyp gewähren.
+
+Die folgenden Berechtigungen beziehen sich auf die Feldeinstellungen und nicht auf die mit den einzelnen Feldern verknüpften Werte. Zum Bearbeiten von Feldwerten benötigen Sie Berechtigungen zum Bearbeiten von Datensätzen.
 
 |        | Verwalten | Mitwirken | Ansicht |
 |--------|--------|------------|-------|
@@ -242,6 +272,38 @@ Die folgenden Berechtigungen beziehen sich auf die Felder selbst und nicht auf d
 | Bearbeiten | ✓ |            |       |
 | Ansicht | ✓ | ✓ | ✓ |
 
+
+<div class="preview">
+
+#### Berechtigungen zum Aufzeichnen von Feldern in der Vorschau-Umgebung
+
+Berechtigungen für Feldeinstellungen werden vom Datensatztyp übernommen, wenn Sie Berechtigungen für den Arbeitsbereich und den Datensatztyp gewähren.
+
+Die folgenden Berechtigungen beziehen sich auf die Feldeinstellungen und nicht auf die mit den einzelnen Feldern verknüpften Werte.
+
+|        | Verwalten | Mitwirken | Ansicht |
+|--------|--------|------------|-------|
+| Erstellen | ✓ |            |       |
+| Löschen | ✓ |            |       |
+| Bearbeiten | ✓ |            |       |
+| Ansicht | ✓ | ✓ | ✓ |
+
+
+Berechtigungen für Feldwerte werden vom Datensatztyp übernommen und arbeiten mit den Berechtigungen für die Datensätze zusammen.
+
+Sie können Berechtigungen für die Werte einzelner Felder verwalten und Felder einschränken, die möglicherweise vertrauliche Informationen enthalten.
+
+Sie können den Feldwerten die folgenden Berechtigungen erteilen, indem Sie ein Feld freigeben:
+
+|        | Verwalten | Ansicht |
+|--------|--------|------|
+| Löschen | ✓ |      |
+| Bearbeiten | ✓ |      |
+| Ansicht | ✓ | ✓ |
+
+Benutzer müssen mindestens über Anzeigeberechtigungen für den Datensatztyp verfügen, um auf die Felder zugreifen zu können.
+
+</div>
 
 ### Berechtigungen für Ansichten
 
