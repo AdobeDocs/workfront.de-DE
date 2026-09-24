@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
+source-git-commit: 64a18dc29c447ca4703fb25102663952942790ca
 workflow-type: tm+mt
-source-wordcount: '14569'
+source-wordcount: '14574'
 ht-degree: 92%
 ---
 # Handbuch für Workfront {#using}
@@ -19,12 +19,13 @@ ht-degree: 92%
     * [Vorbereiten auf eine vierteljährliche Adobe Workfront-Version](product-announcements/product-releases/release-readiness.md)
     * Version 4. Quartal 2026 {#release-26-q4}
       * [Versionsübersicht für das vierte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md)
-      * [KI-Verbesserungen für das vierte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md)
       * [Verbesserungen für Administratoren im vierten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md)
+      * [KI-Verbesserungen für das vierte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md)
       * [Verbesserungen bei Dokumenten für das vierte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md)
       * [Verbesserungen beim Finanzmanagement für das vierte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-financial-management-enhancements.md)
       * [Projektverbesserungen im vierten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-projects.md)
       * [Verbesserungen bei Berichten für das vierte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-reports.md)
+      * [Quartal 2026 mit Verbesserungsanfragen](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-requests.md)
       * [Verbesserungen beim Ressourcenmanagement im vierten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-resource-mgmt.md)
       * [Weitere Verbesserungen im vierten Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-other.md)
     * Version 2026 Q3 {#release-26-q3}
