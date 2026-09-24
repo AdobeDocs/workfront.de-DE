@@ -5,13 +5,12 @@ title: Konfigurieren des Adobe Workfront MCP-Servers
 description: Konfigurieren Sie Ihre Workfront-Instanz und Ihre KI-Agentenplattform, damit Sie über Konversationen in natürlicher Sprache mit Workfront arbeiten können.
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: dd1123c8803a7d3c8ef7b461fe0e01610e0dccc9
+source-git-commit: 62a56dd910bed829e2f30752020cb014464aea4f
 workflow-type: tm+mt
-source-wordcount: '2007'
-ht-degree: 0%
+source-wordcount: '2307'
+ht-degree: 1%
 
 ---
-
 
 # Konfigurieren des Adobe Workfront MCP-Servers
 
@@ -53,6 +52,8 @@ Der Zugriff auf MCP-Server wird von zwei separaten Administratoren gesteuert.
   Weitere Informationen finden Sie unter [Systemvoreinstellungen konfigurieren](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 * Wenn Sie eine Unternehmensversion einer KI-Agentenplattform verwenden, muss der Administrator für diese Plattform den [!DNL Adobe Workfront]-Connector für Ihr Unternehmen aktivieren oder Ihnen benutzerdefinierten URL-Zugriff gewähren, um eine Verbindung zum Workfront MCP-Server herzustellen.
+
+* <span class="preview">Wenn Sie eine benutzerdefinierte Anwendung oder Agentenplattform mit einer eindeutigen OAuth-Rückruf-URL pro Kunde verbinden, muss Ihr Workfront-Administrator diese URL der Liste **Autorisierte Umleitungs-URLs** in **Systemeinstellungen > MCP-Voreinstellungen** hinzufügen. Andernfalls wird die Authentifizierung abgelehnt. Weitere Informationen finden Sie unter [Verbinden mit OAuth](#connect-with-oauth) in diesem Artikel.</span>
 
 
 ## Workfront mit Claude verbinden
@@ -96,7 +97,7 @@ So verbinden Sie Workfront mit [!DNL Claude]:
 
 So verbinden Sie Workfront mit [!DNL Claude] über eine URL:
 
-1. Melden Sie sich mit Ihren [&#x200B; bei &#x200B;](https://claude.ai)Claude“ an.
+1. Melden Sie sich mit Ihren [ bei ](https://claude.ai)Claude“ an.
 1. Wählen Sie im linken Menü das Symbol **Anpassen** aus.
 1. Wählen Sie in der linken Navigation **Connectoren** aus.
 1. Klicken Sie auf das Symbol **+** und dann auf **Benutzerdefinierten Connector hinzufügen**.
@@ -154,7 +155,7 @@ Möglicherweise müssen Sie ein Profil und eine Workfront-Instanz auswählen. Da
 
 +++ Erweitern Sie , um eine schrittweise Anleitung zum Verbinden von Workfront mit ChatGPT im Web anzuzeigen.
 
-1. Melden Sie sich mit Ihren [&#x200B; bei &#x200B;](https://chatgpt.com)ChatGPT) an.
+1. Melden Sie sich mit Ihren [ bei ](https://chatgpt.com)ChatGPT) an.
 1. Klicken Sie unten links auf Ihren Namen und dann auf **Einstellungen**.
 1. Wählen Sie in der linken Navigation die Option **Sicherheit und Anmeldung** aus.
 1. Rufen Sie die Seite der ChatGPT-Plug-ins unter https://chatgpt.com/plugins auf.
@@ -238,7 +239,33 @@ Es gibt zwei Möglichkeiten, eine Verbindung herzustellen:
 
 ### Verbindung mit OAuth herstellen
 
-Self-Service-Unterstützung für benutzerdefinierte OAuth-Integrationen ist für Workfront noch nicht verfügbar.
+<div class="preview">
+
+Wenn die KI-Agentenplattform oder die benutzerdefinierte Anwendung, die Sie verbinden, eine eindeutige OAuth-Rückruf-(Umleitungs-)URL pro Kunde haben, z. B. eine URL, die eine Verbindungs- oder Mandanten-ID enthält, muss Ihr Workfront-Administrator diese URL der Liste der autorisierten Umleitungs-URLs Ihres Unternehmens hinzufügen, bevor Sie sich authentifizieren können.
+
+>[!NOTE]
+>
+>Dies ist nur für Integrationen erforderlich, die nicht zu den nativ unterstützten Plattformen gehören, wie Claude oder Copilot. Wenn Sie eine nativ unterstützte Plattform verwenden, lesen Sie den Abschnitt für diese Plattform in diesem Artikel.
+
+Ihr Workfront-Administrator fügt in den Systemeinstellungen autorisierte Umleitungs-URLs hinzu.
+
+Anweisungen zum Hinzufügen von Umleitungs-URLs für MCP-Server finden Sie unter [Hinzufügen oder Entfernen einer autorisierten Umleitungs-URL](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md#add-or-remove-an-authorized-redirect-url).
+
+Nachdem die URL hinzugefügt wurde, können Sie Ihre benutzerdefinierte Anwendung oder Agentenplattform mit der Workfront MCP-Server-URL verbinden:
+
+```
+https://mcp.workfront.adobe.com/mcp/v1/workfront
+```
+
+Beim Verbinden werden Sie aufgefordert, sich mit Ihren Adobe ID-Anmeldeinformationen zu authentifizieren.
+
+>[!IMPORTANT]
+>
+>Callback-URLs müssen genau übereinstimmen. Workfront unterstützt keine Platzhalter- oder Präfixabgleiche für benutzerdefinierte Callback-URLs. Nur URLs auf dieser Liste können die Anmeldung für Ihre MCP-Agenten abschließen - entfernen Sie eine URL sofort, wenn der verknüpfte Agent nicht mehr verwendet wird oder kompromittiert wurde.
+
+Wenn sich Ihre Callback-URL nicht auf der Liste befindet, wird die Authentifizierungsanfrage abgelehnt. Bitten Sie Ihren Workfront-Administrator, zu bestätigen, dass die URL genau so eingegeben wird, wie es Ihre Integration vorsieht.
+
+</div>
 
 ## Verbindung überprüfen
 
