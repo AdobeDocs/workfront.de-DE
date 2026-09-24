@@ -726,7 +726,7 @@ Verwenden Sie zum Verwalten und Überprüfen von Raten die dedizierten Raten-Man
 
 Zur Vorbereitung auf die Änderung ist keine Aktion erforderlich. Administratoren, die derzeit die Felder **Abrechnung pro Stunde** und **Kosten pro Stunde** in der Listenansicht Benutzer oder Aufgabengebiet anzeigen, sollten ihre Workflows jedoch so aktualisieren, dass sie die oben beschriebenen empfohlenen Tarifverwaltungserlebnisse verwenden.
 
-Informationen zu Aufgabengebieten und Benutzerraten finden Sie unter [Erstellen und Verwalten von ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) und [Bearbeiten des Benutzerprofils](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Informationen zu Aufgabengebieten und Benutzerraten finden Sie unter [Erstellen und Verwalten von &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) und [Bearbeiten des Benutzerprofils](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ### Die kennwortgeschützte Authentifizierung für Benutzende von Data Connect-Lesegeräten endet am 8. August 2026
 
