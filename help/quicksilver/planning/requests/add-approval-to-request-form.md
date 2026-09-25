@@ -166,7 +166,7 @@ So legen Sie Genehmigungsregeln für ein Anfrageformular fest:
    1. <span class="preview">(Bedingt und optional) Wenn Sie möchten, dass der Datensatz in den nächsten Schritt weitergeleitet wird, nachdem ihn eine der genehmigenden Personen genehmigt hat, aktivieren Sie das Kontrollkästchen **Nur eine Entscheidung ist**. Andernfalls müssen alle genehmigenden Personen über die Genehmigung entscheiden, bevor die Anfrage in den nächsten Schritt übergeht.</span>
    1. <span class="preview">Klicken Sie auf **Phase hinzufügen** und wiederholen Sie Schritt B, um der Genehmigung weitere Phasen hinzuzufügen.</span>
 
-      <span class="preview">Wenn zwei oder mehr Phasen vorhanden sind, können Sie auf das Symbol **Ziehen** (![) klicken, ](assets/drag-icon.png) sie in die gewünschte Reihenfolge zu ziehen.</span>
+      <span class="preview">Wenn zwei oder mehr Phasen vorhanden sind, können Sie auf das Symbol **Ziehen** (![) klicken, &#x200B;](assets/drag-icon.png) sie in die gewünschte Reihenfolge zu ziehen.</span>
 
       <span class="preview">Klicken Sie auf **Diesen Schritt löschen**, um einen Schritt aus der Genehmigung zu löschen, oder klicken Sie auf das **Löschen**-Symbol ![Löschen-Symbol](assets/delete.png) neben einer genehmigenden Person, um den Benutzer oder das Team aus der Liste der genehmigenden Personen in einem Schritt zu löschen.</span>
 
