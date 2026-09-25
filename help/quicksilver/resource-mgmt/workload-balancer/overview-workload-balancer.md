@@ -139,7 +139,7 @@ Informationen zum Erstellen und Verwenden von Filtern im Workload Balancer finde
 
 * Sie können einem Arbeitsagenten Arbeit auf die gleiche Weise zuweisen wie einem Benutzer Arbeit. Der Arbeitsagent muss in Workfront vorhanden sein, damit er Aufgaben zugewiesen werden kann.
 
-  Informationen zum Erstellen von Arbeitsagenten finden Sie unter [Konfigurieren eines ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)) im Artikel [Konfigurieren von KI-Mitwirkenden](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
+  Informationen zum Erstellen von Arbeitsagenten finden Sie unter [Konfigurieren eines &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)) im Artikel [Konfigurieren von KI-Mitwirkenden](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
 
 ### Best Practices zum Einrichten von Aufgaben und Problemen {#best-practices-for-setting-up-tasks-and-issues}
 
