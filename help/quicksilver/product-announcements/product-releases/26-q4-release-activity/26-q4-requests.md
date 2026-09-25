@@ -4,10 +4,10 @@ description: Verbesserungen für Anfragen im vierten Quartal 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d0feaa93676bdd96343454e419792f13a9eedaa0
+source-git-commit: 19ac0dd5e22782ed5262deb096f24f0d18ccc2f1
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 9%
+source-wordcount: '227'
+ht-degree: 7%
 ---
 # Verbesserungen für Anfragen im vierten Quartal 2026
 
@@ -15,21 +15,17 @@ Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom 
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2026 des Versionszyklus verfügbar sind, finden Sie unter [Versionsübersicht für das vierte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
-<!--
-
-## View historical requests from up to 3 years in the new request experience
+## Anzeigen historischer Anfragen aus bis zu 3 Jahren in der neuen Anfrageerfahrung
 
 >[!NOTE]
 >
->Preview: September 24, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Vorschau: 24. September 2026
+>Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktion für alle: 15. Oktober 2026
 
-You can now access Workfront issue requests submitted up to 3 years before July 2025 from the new request experience. Previously, you only had access to requests submitted after July 2025.
+Über die neue Anfrageerfahrung können Sie jetzt auf Workfront-Anfragen zugreifen, die bis zu 3 Jahre vor Juli 2025 eingereicht wurden. Zuvor hatten Sie nur Zugriff auf Anfragen, die nach Juli 2025 gesendet wurden.
 
-For information, see [View submitted requests](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
-
--->
+Weitere Informationen finden Sie unter [Anzeigen gesendeter Anfragen](/help/quicksilver/manage-work/requests/create-requests/locate-submitted-requests.md).
 
 ## Das Ausfüllen von KI-Formularen ruft jetzt Daten aus Datensätzen ab, auf die mit einem Link verwiesen wird
 

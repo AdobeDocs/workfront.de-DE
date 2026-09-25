@@ -6,10 +6,10 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 41d3ddbe55b225c4a3a969d773378d6156de05f1
+source-git-commit: 19ac0dd5e22782ed5262deb096f24f0d18ccc2f1
 workflow-type: tm+mt
-source-wordcount: '2398'
-ht-degree: 1%
+source-wordcount: '2785'
+ht-degree: 0%
 ---
 # Versionsaktivität für Adobe Workfront Planning im vierten Quartal 2026
 
@@ -33,63 +33,59 @@ Benutzende ohne Zugriff sehen keine eingeschränkten Felder, während Admins Ber
 
 Weitere Informationen finden Sie unter [Freigeben von Workfront-Planungsfeldern](/help/quicksilver/planning/access/share-fields.md).
 
-<!--
-
-## Share a Planning request
+## Planungsanfrage freigeben
 
 >[!NOTE]
 >
->Preview: September 24, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Vorschau: 24. September 2026
+>Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktion für alle: 15. Oktober 2026
 
-You can now share a Planning request with others from the Requests area in the new request experience.
+Sie können jetzt im neuen Anfrageerlebnis im Bereich Anfragen eine Planungsanfrage für andere freigeben.
 
-You can give others one of the following permissions to the request: View, Contribute, or Manage.
+Sie können anderen Benutzern eine der folgenden Berechtigungen für die Anfrage erteilen: Anzeigen, Mitwirken oder Verwalten.
 
-For information, see [Share Planning records](/help/quicksilver/planning/requests/share-requests.md).
+Weitere Informationen finden Sie unter [Freigeben von &#x200B;](/help/quicksilver/planning/requests/share-requests.md)).
 
-## Set up multi-stage approvals for Planning requests
-
->[!NOTE]
->
->Preview: September 24, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
-
-Workspace administrators can now build single- or multi-stage approval processes for each Planning request form, assigning one or more approvers or teams to every stage and reusing existing approval templates to speed up setup. Requests advance automatically once all required approvers in a stage sign off, and each approver is notified when a request reaches their stage. Requesters and approvers can track which stage a request is in and see which approvals are still pending.
-
-For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
-
-## Enhancements to display logic and field editing in Planning requests forms
+## Mehrstufige Validierungen für Planungsanfragen einrichten
 
 >[!NOTE]
 >
->Preview: September 24, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Vorschau: 24. September 2026
+>Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktion für alle: 15. Oktober 2026
 
-You can now create advanced display logic in Planning request forms based on connection field values, so forms adapt to what requesters select. All Planning fields, including connection fields, are supported when building this logic.
+Workspace-Admins können jetzt ein- oder mehrstufige Genehmigungsprozesse für jedes Planungsanfrageformular erstellen, einen oder mehrere Genehmiger oder Teams für jede Phase zuweisen und vorhandene Genehmigungsvorlagen wiederverwenden, um die Einrichtung zu beschleunigen. Anfragen werden automatisch weitergeleitet, sobald alle erforderlichen genehmigenden Personen in einer Phase ihre Genehmigung erteilt haben, und jede genehmigende Person wird benachrichtigt, wenn eine Anfrage ihre Phase erreicht. Anfordernde und genehmigende Personen können verfolgen, in welchem Stadium sich eine Anforderung befindet, und sehen, welche Genehmigungen noch ausstehen.
 
-In addition, you can now edit a field's options directly from the request form. For example, for select-field types, you can update the field choices, their order, and their default value from the request form. Previously, this capability was not available.
+Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-For information, see [Create request form](/help/quicksilver/planning/requests/create-request-form.md).
-
-## Configure capabilities for each access tier per request form
+## Verbesserungen bei der Anzeige von Logik und Feldbearbeitung in Planungsanfrageformularen
 
 >[!NOTE]
 >
->Preview: September 24, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Vorschau: 24. September 2026
+>Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktion für alle: 15. Oktober 2026
 
-Workfront and workspace administrators can now indicate the level of permissions a requester receives on their requests when they configure the request form.
+Sie können jetzt in Planning-Anfrageformularen eine erweiterte Anzeigelogik basierend auf den Werten der Verbindungsfelder erstellen, sodass sich Formulare an die Auswahl der Anfragenden anpassen. Alle Planungsfelder, einschließlich der Verbindungsfelder, werden beim Erstellen dieser Logik unterstützt.
 
-Requesters can get the following permissions to a request they submitted: View, Contribute, or Manage. Users can comment, edit, share, or view a request, and the capabilities that are not shared with them are dimmed when viewing the sharing box from a request.
+Darüber hinaus können Sie jetzt die Optionen eines Felds direkt über das Anfrageformular bearbeiten. Beispielsweise können Sie für ausgewählte Feldtypen die Feldoptionen, ihre Reihenfolge und ihren Standardwert aus dem Anfrageformular aktualisieren. Zuvor war diese Funktion nicht verfügbar.
 
-For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+Weitere Informationen finden Sie unter [Anforderungsformular erstellen](/help/quicksilver/planning/requests/create-request-form.md).
 
--->
+## Konfigurieren der Funktionen für jede Zugriffsebene pro Anfrageformular
+
+>[!NOTE]
+>
+>Vorschau: 24. September 2026
+>Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktion für alle: 15. Oktober 2026
+
+Workfront- und Workspace-Administratoren können jetzt beim Konfigurieren des Anfrageformulars angeben, welche Berechtigungen ein Anfragender für seine Anfragen erhält.
+
+Anfordernde können die folgenden Berechtigungen für eine von ihnen gesendete Anfrage erhalten: Anzeigen, Beitragen oder Verwalten. Benutzer können eine Anfrage kommentieren, bearbeiten, freigeben oder anzeigen. Die Funktionen, die nicht für sie freigegeben sind, sind abgeblendet, wenn das Freigabefeld in einer Anfrage angezeigt wird.
+
+Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Das Ausfüllen von KI-Formularen ruft jetzt Daten aus Datensätzen ab, auf die mit einem Link verwiesen wird
 
@@ -112,7 +108,7 @@ Weitere Informationen finden Sie unter [Verwenden von Formularausfüllen mit KI 
 
 CX Coworker ist jetzt in Workfront Planning verfügbar. Jetzt können Sie in einem Bedienfeld, das in Workfront Planning verfügbar ist, auf CX Coworker zugreifen.
 
-Der CX Coworker-Chat ist eine Gesprächsoberfläche zum Erledigen von Aufgaben. Beschreiben Sie ein Ziel in verständlicher Sprache. Ein Mitarbeiter plant die Arbeit, führt sie in Workfront Planning und Ihren verbundenen Adobe-Systemen aus, validiert die Ergebnisse und bringt die fertige Arbeit zur Genehmigung an Sie zurück.
+CX Coworker Chat ist eine Gesprächsoberfläche, um Arbeit zu erledigen. Beschreiben Sie ein Ziel in verständlicher Sprache. Ein Mitarbeiter plant die Arbeit, führt sie in Workfront Planning und Ihren verbundenen Adobe-Systemen aus, validiert die Ergebnisse und bringt die fertige Arbeit zur Genehmigung an Sie zurück.
 
 Mitarbeiter respektieren die vorhandenen Zugriffssteuerungen Ihres Unternehmens, standardmäßig mit schreibgeschütztem Zugriff, und Systemadministratoren steuern, wann Benutzer Schreibzugriff erhalten.
 
@@ -122,7 +118,7 @@ Coworker ersetzt den aktuellen KI-Assistenten als eine leistungsfähigere Mögli
 >
 >CX Coworker steht derzeit Organisationen im Gesundheitswesen, im Finanzwesen oder in einigen anderen Branchen mit sensiblen Daten nicht zur Verfügung. Der KI-Assistent steht diesen Organisationen weiterhin zur Verfügung.
 
-Weitere Informationen finden Sie unter [Übersicht über CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+Weitere Informationen finden Sie unter [CX Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 ## Das Symbol für den KI-Assistenten im Vorschaufeld Details wurde zur Vorbereitung auf den CX Coworker-Launch entfernt.
 
