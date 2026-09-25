@@ -5,9 +5,23 @@ author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1128'
 ht-degree: 3%
 ---
 
@@ -138,20 +152,19 @@ Sie finden die CX Coworker in den folgenden Bereichen von Workfront Planning:
 
 ## Zugriff auf die CX Coworker im Planungsbereich
 
-
-1. Melden Sie sich bei Workfront an und klicken Sie dann oben links auf **&#x200B;**-Symbol ![Hauptmenü „Zeilen](assets/lines-main-menu.png) und dann auf **Planung**.
+1. Melden Sie sich bei Workfront an und klicken Sie dann oben links auf ****-Symbol ![Hauptmenü „Zeilen](assets/lines-main-menu.png) und dann auf **Planung**.
 
    Der Bereich Planung wird geöffnet.
 
-   Suchen Sie das **KI** Symbol ![KI](assets/ai-icon.png)Symbol oben rechts auf der Seite oder fahren Sie mit den folgenden Schritten fort.
+   Suchen Sie das Symbol **Mitarbeiter** ![Mitarbeiter-Symbol](assets/coworker-icon.png) in der rechten oberen Ecke der Seite oder fahren Sie mit den folgenden Schritten fort.
 
 1. Klicken Sie auf eine **Arbeitsbereichskarte**.
 
 1. Klicken Sie auf **Karte vom Typ Datensatz**.
 
-1. Klicken Sie auf **Datensatz**, um die Seite **Details** des Datensatzes zu öffnen, und klicken Sie dann auf In öffnen .
+1. Klicken Sie auf **Datensatz**, um die Seite **Details** des Datensatzes zu öffnen, und klicken Sie dann auf das Symbol **In neuer Registerkarte öffnen** ![In neuer Registerkarte öffnen](assets/open-workspace-on-new-tab-icon.png) .
 
-1. Klicken Sie oben rechts **Bildschirm auf das Symbol** CX Coworker .
+1. Klicken Sie auf das {0 **CX Coworker![Symbol „Mitarbeiter](assets/coworker-icon.png) in der rechten oberen Ecke des Bildschirms.**
 
 1. Beginnen Sie im vorgesehenen Feld mit der Eingabe von Befehlen für die CX Coworker und klicken Sie abschließend auf die Eingabetaste .
 

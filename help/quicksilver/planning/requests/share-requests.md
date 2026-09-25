@@ -5,9 +5,23 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '592'
 ht-degree: 5%
 ---
 # Share Planning Requests
@@ -86,6 +100,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 * Verschiedene Personen und Teams können unterschiedliche Zugriffsebenen für dieselbe Anfrage haben.
 * Berechtigungen können über mehrere Entitäten zugewiesen werden. Wenn ein(e) Benutzende(r) die Berechtigung Beitragen für eine Anfrage hat, seine/ihre Gruppe oder Aufgabengebiet jedoch über Anzeigeberechtigungen verfügt, behält er/sie die höchste Berechtigungsstufe, die Beitragen lautet.
+* Anfragen erben Berechtigungen vom Arbeitsbereich und vom Datensatztyp. Sie können geerbte Berechtigungen für Planning-Anfragen nicht entfernen oder bearbeiten.
 
 ## Freigeben einer Anfrage
 
@@ -110,7 +125,14 @@ Stellen Sie sicher, dass Sie das neue Anfrageerlebnis verwenden.
 1. (Optional) Klicken Sie für jede Berechtigungsstufe auf das Symbol für granulare Berechtigungen und wählen Sie granulare Berechtigungen wie **Bearbeiten**, **Kommentar**, **Freigeben** oder **Löschen** aus oder heben Sie die Auswahl auf.
 
    ![Detaillierte Berechtigungen für Anfragen](assets/granular-permissions-on-requests.png)
+1. (Optional) Erweitern Sie die Zeile Übernommene Berechtigungen , um anzuzeigen, wer Berechtigungen aus dem Arbeitsbereich und vom Datensatztyp erhält.
+
+   >[!TIP]
+   >
+   >Sie können geerbte Berechtigungen für Planning-Anfragen nicht entfernen oder bearbeiten.
+
 1. Klicken Sie auf **Speichern**.
+
 
    Die Anfrage wird für die ausgewählten Entitäten freigegeben.
 
