@@ -30,14 +30,16 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3cd7a6fe3c719c8eba3c907512f66b2e285484b0
+source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
 workflow-type: tm+mt
-source-wordcount: '3066'
+source-wordcount: '3098'
 ht-degree: 2%
 ---
 # Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront-Planung
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+
+<!--this article needs to be re-built - the structure is odd; some of the information needs to move to other articles - like the approval information - there is a standalone approval article - move there-->
 
 <!--take Preview and Production references at Production time-->
 
@@ -70,7 +72,7 @@ Weitere Informationen zum Senden einer Anfrage an einen Datensatztyp zum Erstell
    <td> 
 <ul> 
 <li><p>Beliebige Workfront oder Workflows mit einem Planungspaket</p></li>
-ODER
+   ODER
 <li><p>Jedes Planungspaket, wenn es als eigenständiges Produkt gekauft wird</p></li></ul>
    </td> </tr>
   <tr> 
@@ -90,7 +92,7 @@ ODER
   </tr>  
   <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich oder Datensatztyp</a> </p>  
+   <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich oder Datensatztyp</p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p>  </td> 
   </tr>  
 </tbody> 
@@ -202,14 +204,53 @@ Um ein Anfrageformular zu erstellen, müssen Sie Folgendes ausfüllen:
    1. Klicken Sie auf das **x**-Symbol, um den **Standardabschnitt“** entfernen.
 1. Klicken Sie auf ein beliebiges Feld und verwenden Sie dann die Steuerelemente im rechten Bereich im Formular, um ihre Größe oder eine der folgenden Informationen zu definieren:
 
+   * **Size**: Steuert den Platz, den das Feld im Formular einnimmt. Nicht für alle Feldtypen verfügbar.
    * **label**: Dies ist der Name des Felds, wie er im Anfrageformular angezeigt wird. Der Name des Datensatzfelds wird dadurch nicht geändert.
    * **Anweisungen**: Fügen Sie weitere Informationen über das Feld hinzu.
-   * **Erforderliches Feld festlegen**: Wenn diese Option aktiviert ist, muss das Feld einen Wert enthalten. Andernfalls kann das Formular nicht gesendet werden.
-   * **Logik hinzufügen**: Definieren Sie, welche Bedingungen erfüllt sein müssen, damit das Feld angezeigt oder ausgeblendet wird. <!--<span class="preview">In addition to display and skip logic, validation logic is also available.</span> For information on field logic, see [Add logic rules to custom forms and fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).-->
+
+   <div class="preview">
+
+   * **Wahlen**: Dies ist nur für ausgewählte Felder verfügbar. Führen Sie einen der folgenden Schritte aus:
+
+     * Klicken Sie **Auswahl A-Z sortieren** um sie automatisch zu sortieren.
+     * Auswahl per Drag-and-Drop ziehen oder manuell sortieren.
+     * Klicken Sie auf das **Einstellungen**-Symbol ![Einstellungen](assets/settings-icon.png) und dann auf **Standardmäßig auswählen**, um anzugeben, welche Auswahl die Standardoption ist, oder **Auswahl ausblenden**, um sie auszublenden.
+
+   </div>
 
    >[!TIP]
    >
-   >Der Feldtyp der einzelnen Felder wird oben im rechten Bereich angezeigt, nachdem Sie das Feld im Formular ausgewählt haben.
+   ><span class="preview">Sie können Optionen in einem Planungsanfrageformular nicht umbenennen oder entfernen. Sie müssen die Feldoptionen in der Tabellenansicht des Datensatztyps bearbeiten.</span>
+
+
+1. Wählen **im Bereich „Erweiterte**&quot; eine der unten aufgeführten Optionen aus. Nicht alle Optionen stehen für alle Feldtypen zur Verfügung.
+
+   * **Erforderliches Feld festlegen**: Wenn diese Option aktiviert ist, muss das Feld einen Wert enthalten. Andernfalls kann das Formular nicht gesendet werden.
+   * **Logik hinzufügen**: Definieren Sie, welche Bedingungen erfüllt sein müssen, damit das Feld angezeigt oder ausgeblendet wird. Logik hinzufügen ist nur verfügbar, wenn Felder Einzel- und Mehrfachauswahlfelder sind oder diesen vorangestellt sind. <span class="preview">Regeln für Validierungen und Standardwerte sind nicht für alle Feldtypen verfügbar.</span>
+
+     Wählen Sie in der Produktionsumgebung eine der folgenden Optionen aus:
+
+     * **Anzeigelogik**: Dem ausgewählten Feld muss ein Mehrfachauswahl- oder ein Einzelauswahlfeld vorangestellt werden.
+     * **Logik überspringen**: Fügen Sie Regeln für das Überspringen hinzu, wenn Benutzer das Feld überspringen und es leer lassen sollen.
+
+     <div class="preview">
+
+     Wählen Sie in der Vorschau-Umgebung eine der folgenden Optionen aus:
+
+     * **Anzeige**
+     * **Überspringen**
+     * **Standardwert**
+     * **Validierung**
+     * **Formatierung**
+     * **Bearbeitbarkeit**
+
+     </div>
+
+     Weitere Informationen finden Sie unter [Hinzufügen von Logikregeln zu benutzerdefinierten Formularen und Feldern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
+
+     >[!TIP]
+     >
+     ><span class="preview">Der Feldtyp der einzelnen Felder wird oben im rechten Bereich angezeigt, nachdem Sie das Feld im Formular ausgewählt haben.</span>
 
 1. (Optional) Klicken Sie mit der rechten Maustaste auf ein Feld und ziehen Sie es per Drag-and-Drop an eine andere Position im Formular.
 1. (Optional) Klicken Sie auf **Registerkarte** Inhaltselemente“ auf der linken Seite des Formulars und fügen Sie eines der folgenden Elemente hinzu:
@@ -224,30 +265,24 @@ Um ein Anfrageformular zu erstellen, müssen Sie Folgendes ausfüllen:
 1. (Optional) Klicken Sie auf **Vorschau**, um anzuzeigen, wie das Formular für andere Benutzer angezeigt wird, wenn diese es zum Senden einer Anfrage verwenden.
 1. Fahren Sie mit einer der folgenden Aktionen fort:
 
-   * [Konfigurieren von &#x200B;](#configure-form-settings), wenn Sie weitere Details für das Formular in der Produktionsumgebung konfigurieren möchten
+   * [Konfigurieren von ](#configure-form-settings), wenn Sie weitere Details für das Formular in der Produktionsumgebung konfigurieren möchten
    * [Formular veröffentlichen](#publish-form) wenn Sie keine weiteren Einstellungen konfigurieren möchten.
 
 ### Konfigurieren von Formulareinstellungen
 
-Auf der Registerkarte Einstellungen können Sie Validierungsregeln festlegen und konfigurieren, wann eine in diesem Formular erstellte Anfrage als abgeschlossen markiert wird.
+Auf der Registerkarte Einstellungen können Sie Genehmigungsregeln festlegen, konfigurieren, wann eine aus diesem Formular erstellte Anfrage als abgeschlossen markiert wird, und <span class="preview">Benutzern Standardberechtigungen zuweisen, die mit zukünftigen, über das Formular gesendeten Anfragen interagieren.</span>
 
 Genehmigungsregeln definieren den Genehmigungsprozess basierend auf den Feldwerten in den gesendeten Anfragen.
 
 Wenn beispielsweise ein Anfrageformular das Feld „Kampagnentyp“ aufweist, kann eine Regel erstellt werden, die die Anfrage an eine Person sendet, wenn das Feld den Wert „Digital“ hat, und an eine andere Person, wenn es den Wert „Drucken“ hat.
 
-Beachten Sie beim Hinzufügen von Genehmigungsregeln Folgendes:
-
-* Regeln werden nach Reihenfolge priorisiert. Wenn die ersten Regelbedingungen erfüllt sind, wird diese Regel angewendet, auch wenn die Bedingungen für Regeln weiter unten in der Liste ebenfalls erfüllt sind.
-* Wenn keine Bedingungen erfüllt sind, wird die Standardregel angewendet.
-* Sie können einer Genehmigungsregel eine oder mehrere genehmigende Personen hinzufügen.
-* Wenn mindestens eine genehmigende Person die Anforderung ablehnt, wird die Anforderung abgelehnt und der Datensatz nicht erstellt. Die Anfrage verbleibt im Bereich Anfragen von Workfront.
-* Wenn Sie mehr als eine genehmigende Person hinzufügen und die Option Nur eine Entscheidung ist erforderlich nicht aktiviert ist, müssen alle genehmigenden Personen eine Entscheidung treffen, bevor eine Anfrage entweder genehmigt oder abgelehnt wird.
-* Wenn ein Team als genehmigende Person festgelegt ist, ist nur eine Entscheidung vom Team erforderlich.
-  <!--<span class="preview">* Multiple stages are supported in the approval process. When all required decisions in a stage are made, the next stage begins and the new stage's approvers receive an email notification.</span>-->
+<span class="preview">Im Genehmigungsprozess werden mehrere Phasen unterstützt. Wenn alle erforderlichen Entscheidungen in einem Schritt getroffen wurden, beginnt der nächste Schritt, und die genehmigenden Personen des neuen Schritts erhalten eine E-Mail-Benachrichtigung.</span>
 
 Weitere Informationen zum Hinzufügen von Genehmigungen finden Sie [Genehmigung zu einem Anfrageformular hinzufügen](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 Mit Abschlussoptionen können Sie festlegen, ob eine Anfrage beim Erstellen des angeforderten Objekts als „abgeschlossen“ markiert wird oder wann das erstellte Objekt abgeschlossen ist. Sie definieren, wann das Objekt basierend auf einer angegebenen Bedingung abgeschlossen sein soll.
+
+<span class="preview">Verwenden Sie den Abschnitt Berechtigungen im Bereich Einstellungen eines Anfrageformulars, um die Standardberechtigungen von Anfragenden <!--and non-requestors--> den mit dem Formular erstellten Anfragen zu definieren.</span>
 
 So konfigurieren Sie Formulareinstellungen:
 
@@ -256,35 +291,12 @@ So konfigurieren Sie Formulareinstellungen:
    Das Anfrageformular für den ausgewählten Datensatztyp wird auf der Registerkarte Formular geöffnet.
 1. (Optional) Richten Sie alle Formulardetails ein, wie in [Einrichten von Formulardetails](#set-up-form-details) beschrieben.
 
-1. Um mit der Konfiguration von Genehmigungsregeln zu beginnen, klicken Sie ![&#x200B; der linken Navigationsleiste auf Genehmigungen &#x200B;](assets/approvals-icon-on-form.png)Genehmigungssymbol).
+1. Um mit der Konfiguration von Genehmigungsregeln zu beginnen, klicken Sie **Genehmigungen** ![Genehmigungssymbol](assets/approvals-icon-on-form.png) im linken Navigationsbereich.
 
-1. (Optional) Wenn Sie einen Standardgenehmigungsprozess festlegen möchten, fügen Sie mindestens einen Benutzer oder ein Team zum Feld **Genehmigende Person** im Bereich Standardgenehmigungsregel hinzu. Aktivieren Sie dann das Kontrollkästchen **Nur eine Entscheidung ist erforderlich**, wenn der Datensatz erstellt werden soll, nachdem eine der Standardgenehmigenden ihn genehmigt hat.
+   Sie können einzelne <span class="preview"> oder mehrstufige Genehmigungsregeln erstellen </span> Benutzer oder Teams einer Genehmigung zuweisen.
 
-   ![Standardmäßiger Bereich für Genehmigungsregeln](assets/default-approvers.png)
+   Weitere Informationen zum Hinzufügen von Genehmigungen finden Sie [Genehmigung zu einem Anfrageformular hinzufügen](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
-   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval. Add the approvers for each stage, and save the multi-stage approval.</span> FIX INDENT WHEN YOU UNCOMMENT THIS, SHOULD BE FLUSH LEFT-->
-
-   <!--below bullet list is duplicated in the Add approval to a request form article-->
-
-1. (Optional) Gehen Sie für jede zusätzliche Genehmigungsregel wie folgt vor:
-
-   1. Klicken Sie **Genehmigungsregel hinzufügen**.
-   1. Klicken Sie auf den Platzhaltertitel „Nicht benannte Genehmigungsregel“ und geben Sie einen Namen für die Genehmigungsregel ein.
-   1. Klicken Sie **Feld auswählen** und wählen Sie das Feld aus, das die Regel aktiviert.
-   1. Wählen Sie den Operator für die Regel aus. Die Operatoren variieren je nach Feldtyp.
-   1. Wenn der ausgewählte Operator einen Wert benötigt, klicken Sie auf das Pluszeichen und fügen Sie einen oder mehrere Werte hinzu.
-   1. (Optional) Fügen Sie weitere Bedingungen mit UND oder hinzu, indem Sie auf „Bedingung hinzufügen“ klicken und die zusätzliche Bedingung konfigurieren.
-   1. Fügen Sie im Bereich Aktionen der Genehmigungsregel im Feld **Genehmigende Personen** mindestens einen Benutzer oder ein Team hinzu, der bzw. das bei der genehmigenden Person eingestellt werden soll, wenn die Bedingung erfüllt ist.
-   1. (Bedingt) Wenn der Datensatz erstellt werden soll, nachdem eine der genehmigenden Personen ihn genehmigt hat, aktivieren Sie das Kontrollkästchen **Nur eine Entscheidung ist erforderlich**.
-
-   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval, and follow step 5 above.</span>-->
-
-1. (Optional) Um Routing-Regeln neu anzuordnen, klicken Sie auf den Ziehgriff auf der linken Seite der Regel und ziehen Sie die Regel an die gewünschte Position.
-
-   Die Standardregel kann nicht neu angeordnet werden.
-
-1. (Optional) Um eine Routingregel zu löschen, klicken Sie auf das **X** rechts neben der Regel.
-1. Klicken Sie **Speichern**, um die Genehmigungsregeln zu speichern.
 1. Klicken Sie **linken Bedienfeld auf** Optionen für Anforderungsabschluss“.
 1. Wählen Sie aus den folgenden Optionen aus:
 
@@ -293,27 +305,34 @@ So konfigurieren Sie Formulareinstellungen:
 
 1. (Bedingt) Wenn Sie ausgewählt haben, dass die Anfrage als abgeschlossen markiert werden soll, wenn das angeforderte Objekt abgeschlossen ist, wählen Sie das Feld und den Wert aus, der angibt, wann das Objekt abgeschlossen ist. Sie können beispielsweise das Feld Status und den Wert Abgeschlossen auswählen, um die Anfrage abzuschließen, wenn der Status des erstellten Objekts auf Abgeschlossen gesetzt ist.
 
+1. <span class="preview">Klicken Sie **Berechtigungen** im linken Bedienfeld.</span>
+1. <span class="preview">Wählen Sie die Berechtigungsstufe für die Benutzer aus, die Anfragen über dieses Formular senden:</span>
 
-   <!--
-   1. <span class="preview">Click **Permissions** on the left panel.</span>
-   1. <span class="preview">Select the permission level for the users submitting requests through this form:</span>
-      <div class="preview">
-      * **View**: All requesters can comment on and share the form.
-      * **Contribute**: All requesters can comment on, share, and edit the form.
-      * **Manage**: All requesters can comment on, share, edit, and delete the form.
-      </div>
-   1. <span class="preview"> (Optional) Deselect any of the granular permissions for each permission level to prevent requestors to perform the following actions:</span>
-      <div class="preview">
-      * Comment
-      * Share
-      * Edit. Not available for View. 
-      * Delete. Not available for Contribute and View. 
-      </div>
-      >[!TIP]
-      >
-      ><span class="preview">The granular permission you deselect here will be dimmed when sharing the request with those users from the request page. </span>
-   1. <span class="preview">Click **Save**.</span>
-   -->
+   <div class="preview">
+
+   * **Anzeigen**: Alle Antragsteller können das Formular kommentieren und freigeben.
+   * **Beitragen**: Alle Anfragenden können das Formular kommentieren, freigeben und bearbeiten.
+   * **Verwalten**: Alle Anfordernden können das Formular kommentieren, freigeben, bearbeiten und löschen.
+
+   </div>
+
+1. <span class="preview"> (Optional) Deaktivieren Sie eine der granularen Berechtigungen für jede Berechtigungsstufe, um zu verhindern, dass Anfordernde die folgenden Aktionen ausführen:</span>
+
+   <div class="preview">
+
+   * Kommentar
+   * Freigeben
+   * Bearbeiten. Nicht für Ansicht verfügbar.
+   * Löschen. Nicht verfügbar für Contribute und Ansicht.
+
+   </div>
+
+   >[!TIP]
+   >
+   ><span class="preview">Die granulare Berechtigung, die Sie hier abwählen, wird abgeblendet, wenn Sie die Anfrage für diese Benutzer auf der Anfrageseite freigeben. </span>
+
+1. <span class="preview">Klicken Sie auf **Speichern**.</span>
+
 
 1. Fahren Sie mit [Formular veröffentlichen](#publish-form) fort.
 
@@ -331,7 +350,7 @@ So konfigurieren Sie Formulareinstellungen:
 
 1. Klicken Sie **Freigeben**, um das Formular für andere freizugeben.
 
-   Informationen zum Freigeben eines Anfrageformulars finden Sie [&#x200B; Abschnitt „Freigeben eines &#x200B;](#share-a-request-form)&quot; in diesem Artikel
+   Informationen zum Freigeben eines Anfrageformulars finden Sie [ Abschnitt „Freigeben eines ](#share-a-request-form)&quot; in diesem Artikel
 1. Klicken Sie auf den nach links zeigenden Pfeil links neben dem Namen des Formulars in der Kopfzeile, um das Formular zu schließen.
 
    Die Liste **Formulare anfragen** wird geöffnet, und das Formular wird in der Liste angezeigt.
@@ -361,7 +380,7 @@ So konfigurieren Sie Formulareinstellungen:
 
    ![Feld „Freigeben“ für das Anfrageformular](assets/share-box-for-request-form.png)
 
-1. (Optional) Klicken Sie auf **Link kopieren**, um den Link zum Formular für Personen freizugeben, die Zugriff auf das Formular haben und Anfragen senden können. Der Link wird in die Zwischenablage kopiert und kann für andere freigegeben werden.
+1. (Optional) Klicken Sie auf **Link kopieren**, um den Link zum Formular für Personen freizugeben, die Zugriff auf das Formular haben und Anfragen senden. Der Link wird in die Zwischenablage kopiert und kann für andere freigegeben werden.
 1. Um das Formular öffentlich freizugeben, wählen Sie die Registerkarte **Öffentliche Freigabe** und aktivieren Sie dann die Einstellung **Öffentlichen Link erstellen**. Er ist standardmäßig deaktiviert.
 
    ![Öffentliche Freigabe für Anfrageformular](assets/share-request-form-publicly-tab.png)
@@ -438,6 +457,8 @@ So konfigurieren Sie Formulareinstellungen:
 1. (Optional) Wechseln Sie zum Bereich **Anfragen** in Workfront und suchen Sie das freigegebene Formular, um eine Anfrage zu senden. Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md).
 
 <!--
+
+This information is for unified intake process: 
 
 <div class="preview">
 

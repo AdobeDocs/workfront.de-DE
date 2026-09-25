@@ -3,10 +3,10 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 6f3bc007af7971e8c66fec24930ec12e6c96a915
+source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
 workflow-type: tm+mt
-source-wordcount: '14574'
-ht-degree: 92%
+source-wordcount: '14577'
+ht-degree: 91%
 ---
 # Handbuch für Workfront {#using}
 
@@ -2283,6 +2283,7 @@ ht-degree: 92%
     * [Anfragen in Adobe Workfront-Planung: Artikelindex](planning/requests/requests-article-index.md)
     * [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront-Planung](planning/requests/create-request-form.md)
     * [Senden von Anfragen zum Erstellen von Einträgen in Adobe Workfront-Planung](planning/requests/submit-requests.md)
+    * [Share Planning Requests](planning/requests/share-requests.md)
     * [Aufheben der Veröffentlichung eines Anfrageformulars in Adobe Workfront-Planung](planning/requests/unpublish-request-form.md)
     * [Hinzufügen einer Genehmigung zu einem Anfrageformular in Adobe Workfront-Planung](planning/requests/add-approval-to-request-form.md)
     * [Genehmigen einer Anfrage in Adobe Workfront-Planung](planning/requests/approve-request.md)

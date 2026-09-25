@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
+source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
 workflow-type: tm+mt
-source-wordcount: '1550'
+source-wordcount: '1646'
 ht-degree: 4%
 ---
 # Eingereichte Anfragen anzeigen
@@ -36,13 +36,11 @@ ht-degree: 4%
 Remove production and preview references at release
 -->
 
-<!--
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
--->
 
 Sie können die Anfragen anzeigen, die Sie oder eine andere Person gesendet haben, oder die Anfragen, die Sie begonnen haben, aber nie abgeschlossen haben. Die nicht abgeschlossenen Anfragen werden als Entwürfe gespeichert.
 
@@ -61,7 +59,7 @@ Im Bereich Anfragen werden je nach Anzeige die folgenden Anfragen angezeigt:
   >* Sie können nur Ihre eigenen Anforderungsentwürfe anzeigen.
   >* In der neuen Anfrageerfahrung befinden sich gesendete Anfragen und Entwürfe in derselben Liste.
   >* In der veralteten -Version erstellte Entwürfe werden in der neuen -Version mit der Anfrage nicht angezeigt.
-  >* In der neuen Anfrageerfahrung können Sie alte Workfront-Anfragen nur von Juli 2025 bis heute sehen. <!--replace this bullet with this: In the Production environment, in the new request experience, you can see old Workfront requests only from July 2025 to the present day. <span class="preview">In the Preview environment, in the new request experience, you can see old Workfront requests only from 2023 to the present day. You can see all Workfront requests in the legacy experience.</span>-->
+  >* In der Produktionsumgebung finden Sie im neuen Anfrageerlebnis Workfront-Anfragen, die nur vom Juli 2025 bis heute gesendet wurden. <span class="preview">In der Vorschau-Umgebung können Sie im neuen Anfrageerlebnis Workfront-Anfragen finden, die nur von 2023 bis heute gesendet wurden. Sie können alle Workfront-Anfragen in der veralteten Version sehen.</span>
 
 ## Zugriffsanforderungen
 
