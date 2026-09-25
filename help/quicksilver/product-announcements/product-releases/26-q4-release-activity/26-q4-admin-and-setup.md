@@ -4,9 +4,9 @@ description: Verbesserungen für Administratoren im vierten Quartal 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 6fb4ffc73625485cf4f9b392020da94e938cf179
+source-git-commit: 64a18dc29c447ca4703fb25102663952942790ca
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1382'
 ht-degree: 1%
 ---
 # Verbesserungen für Administratoren im vierten Quartal 2026
@@ -14,6 +14,18 @@ ht-degree: 1%
 Auf dieser Seite werden Admin-Verbesserungen beschrieben, die mit der Version vom vierten Quartal 2026 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2026 des Versionszyklus verfügbar sind, finden Sie unter [Versionsübersicht für das vierte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+## Hinzufügen autorisierter Umleitungs-URLs für MCP-Integrationen
+
+>[!NOTE]
+>
+>Vorschau: 22. September 2026
+>Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktion für alle: 15. Oktober 2026
+
+Um die Workfront MCP-Server flexibler und anpassbarer für Ihr Unternehmen zu gestalten, haben wir die Möglichkeit hinzugefügt, benutzerdefinierte OAuth-Callback-URLs hinzuzufügen. Workfront-Administratoren können jetzt die Zulassungsliste vertrauenswürdiger OAuth-Callback-URLs für MCP-Integrationen in ihrem eigenen Unternehmen verwalten. Auf diese Weise können Sie benutzerdefinierte KI-Agentplattformen verbinden, deren OAuth-Rückruf-URL für Ihr Unternehmen eindeutig ist, und zwar über die Plattformen hinaus, die Workfront nativ unterstützt.
+
+Weitere Informationen finden Sie unter [Hinzufügen oder Entfernen einer autorisierten Umleitungs](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md#add-or-remove-an-authorized-redirect-url)URL in [Systemeinstellungen konfigurieren](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
 <!--
 
