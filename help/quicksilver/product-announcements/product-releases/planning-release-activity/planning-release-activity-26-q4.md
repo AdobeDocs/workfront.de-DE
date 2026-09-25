@@ -57,7 +57,7 @@ Sie können jetzt im neuen Anfrageerlebnis im Bereich Anfragen eine Planungsanfr
 
 Sie können anderen Benutzern eine der folgenden Berechtigungen für die Anfrage erteilen: Anzeigen, Mitwirken oder Verwalten.
 
-Weitere Informationen finden Sie unter [Freigeben von ](/help/quicksilver/planning/requests/share-requests.md)).
+Weitere Informationen finden Sie unter [Freigeben von &#x200B;](/help/quicksilver/planning/requests/share-requests.md)).
 
 ## Mehrstufige Validierungen für Planungsanfragen einrichten
 

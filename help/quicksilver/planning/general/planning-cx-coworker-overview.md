@@ -152,7 +152,7 @@ Sie finden die CX Coworker in den folgenden Bereichen von Workfront Planning:
 
 ## Zugriff auf die CX Coworker im Planungsbereich
 
-1. Melden Sie sich bei Workfront an und klicken Sie dann oben links auf ****-Symbol ![Hauptmenü „Zeilen](assets/lines-main-menu.png) und dann auf **Planung**.
+1. Melden Sie sich bei Workfront an und klicken Sie dann oben links auf **&#x200B;**-Symbol ![Hauptmenü „Zeilen](assets/lines-main-menu.png) und dann auf **Planung**.
 
    Der Bereich Planung wird geöffnet.
 
@@ -164,7 +164,7 @@ Sie finden die CX Coworker in den folgenden Bereichen von Workfront Planning:
 
 1. Klicken Sie auf **Datensatz**, um die Seite **Details** des Datensatzes zu öffnen, und klicken Sie dann auf das Symbol **In neuer Registerkarte öffnen** ![In neuer Registerkarte öffnen](assets/open-workspace-on-new-tab-icon.png) .
 
-1. Klicken Sie auf das {0 **CX Coworker![Symbol „Mitarbeiter](assets/coworker-icon.png) in der rechten oberen Ecke des Bildschirms.**
+1. Klicken Sie auf das &lbrace;0 **CX Coworker![Symbol „Mitarbeiter](assets/coworker-icon.png) in der rechten oberen Ecke des Bildschirms.**
 
 1. Beginnen Sie im vorgesehenen Feld mit der Eingabe von Befehlen für die CX Coworker und klicken Sie abschließend auf die Eingabetaste .
 
