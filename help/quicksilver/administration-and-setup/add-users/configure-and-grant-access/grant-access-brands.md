@@ -8,13 +8,20 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: 727efbd6-79b4-42c5-bfa2-e5350f30ff23
-source-git-commit: 3e76f4a798a55a674a5ada2661c4b6bbb55195f2
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '722'
 ht-degree: 7%
-
 ---
-
 # Zugriff auf Markenberechtigungen gewähren
 
 Benutzern werden die Berechtigungen zum Erstellen, Bearbeiten und Veröffentlichen von Adobe GenStudio-System-Managern gewährt, wenn sie zu einer Benutzergruppe hinzugefügt werden.
@@ -55,7 +62,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 * Für Ihre Workfront-Instanz müssen einheitliche Genehmigungen aktiviert sein.
 
 * Ihr Unternehmen muss über GenStudio Foundation verfügen.
-   * Content Reviewer in Workfront bietet die in GenStudio Foundation verfügbaren Funktionen für Asset-Prüfungs- und Genehmigungs-Workflows. Sie müssen nicht direkt auf GenStudio Foundation zugreifen, um Ihre Arbeit abzuschließen. Ihr Zugriff auf GenStudio Foundation-Funktionen über Content Reviewer fällt unter die Bedingungen Ihres Workfront-Vertrags.
+  * KI-Reviewer in Workfront bietet die in GenStudio Foundation verfügbaren Funktionen für Asset-Prüfungs- und Genehmigungs-Workflows. Sie müssen nicht direkt auf GenStudio Foundation zugreifen, um Ihre Arbeit abzuschließen. Ihr Zugriff auf GenStudio Foundation-Funktionen über AI Reviewer fällt unter die Bedingungen Ihres Workfront-Vertrags.
 * Adobe muss eine unterzeichnete Adobe Gen AI-Vereinbarung in der Datei haben.
 Weitere Informationen zur Unterzeichnung des Abkommens finden Sie unter [Unterzeichnung des Adobe Gen AI-Abkommens](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement).
 
@@ -147,4 +154,4 @@ So gewähren Sie Zugriff auf die Zugriffsebenen von Marken in Workfront:
    ![Einstellung „Zugriff auf Marken zulassen“](assets/access-for-brands.png)
 1. Klicken Sie auf **Speichern**.
 
-Nachdem Sie Marken konfiguriert haben, können Sie einen Content Reviewer erstellen, der Assets im Überprüfungs- und Genehmigungs-Workflow anhand der Markenrichtlinien überprüft. Weitere Informationen finden Sie unter [Konfigurieren von KI-Mitwirkenden](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
+Nachdem Sie Marken konfiguriert haben, können Sie einen KI-Reviewer erstellen, der Assets im Überprüfungs- und Genehmigungs-Workflow anhand der Markenrichtlinien überprüft. Weitere Informationen finden Sie unter [Konfigurieren von KI-Mitwirkenden](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).

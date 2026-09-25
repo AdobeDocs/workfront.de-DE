@@ -2,7 +2,7 @@
 product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Aufgaben zuweisen
-description: Sie können Benutzern, Rollen, Teams oder Aufgabenmitarbeitern Aufgaben zuweisen, um anzugeben, wer für die Durchführung der Aufgaben verantwortlich ist. Sie können eine Aufgabe mehreren Ressourcen gleichzeitig zuweisen.
+description: Sie können Benutzern, Rollen, Teams oder Arbeitsagenten Aufgaben zuweisen, um anzugeben, wer für die Ausführung der Aufgaben verantwortlich ist. Sie können eine Aufgabe mehreren Ressourcen gleichzeitig zuweisen.
 author: Lisa
 feature: Work Management, Tasks
 role: User
@@ -12,23 +12,28 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/r3jT-ief9Sfqh7RgQRWJ77fgHR9tkgTBBuo-iEok9lE
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a05312fa1def1db593743e5e6d385da0b393d5d4
+    internal-label: Administration
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: 1661
+source-wordcount: '1661'
 ht-degree: 4%
-
 ---
-
 # Zuweisen von Aufgaben
 
 <!--Audited: 10/2025-->
@@ -45,7 +50,7 @@ For more information, see [Second Quarter 2026 release overview](/help/quicksilv
 </div>
 -->
 
-Sie können Benutzern, Aufgabengebieten, Teams oder Aufgabenmitarbeitern Aufgaben zuweisen, um anzugeben, wer für die Durchführung der Aufgaben verantwortlich ist. Sie können eine Aufgabe mehreren Ressourcen gleichzeitig zuweisen.
+Sie können Benutzern, Aufgabengebieten, Teams oder Arbeitsagenten Aufgaben zuweisen, um anzugeben, wer für die Durchführung der Aufgaben verantwortlich ist. Sie können eine Aufgabe mehreren Ressourcen gleichzeitig zuweisen.
 
 >[!TIP]
 >
@@ -65,7 +70,7 @@ Zusätzlich zu diesem Artikel empfehlen wir, die folgenden Artikel zu lesen, um 
 * [Smart Assignments - Übersicht](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
 * [Smart-Zuweisungen vornehmen](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
 * [Erweiterte Zuweisungen erstellen](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
-* [Verwenden von Aufgabenkollaboratoren](../../../manage-work/tasks/assign-tasks/use-task-collaborators.md)
+* [Verwenden von Arbeitsagenten](../../../manage-work/tasks/assign-tasks/use-task-collaborators.md)
 * [Ändern mehrerer Benutzerzuweisungen in einer Aufgabenliste](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
 * [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 * [Projektübersicht planen](../../../manage-work/projects/planning-a-project/plan-project.md)
@@ -174,11 +179,11 @@ You cannot make a team be a Primary on a task/ issue. (Alina)
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Beginnen Sie mit der Eingabe des Namens eines Benutzers, Aufgabengebiets, Teams oder Mitarbeiters, den Sie zuweisen möchten, und klicken Sie dann auf den Namen, wenn er in der Liste angezeigt wird.
+   * Beginnen Sie mit der Eingabe des Namens eines Benutzers, Aufgabengebiets, Teams oder Arbeitsagenten, den Sie zuweisen möchten, und klicken Sie dann auf ihn, wenn er in der Liste angezeigt wird.
 
      >[!TIP]
      >
-     >* Beim Hinzufügen eines Aufgaben-Collaborators ist der Name des Aufgaben-Collaborators nur ein Vorname. Nachnamen für „Aufgabenmitarbeiter“ sind leer.
+     >* Beim Hinzufügen eines Arbeitsagenten ist der Name des Arbeitsagenten nur ein Vorname. Nachnamen für Arbeitsagenten sind leer.
      >* Beachten Sie beim Hinzufügen einer Benutzerzuweisung den Avatar, die Primäre Rolle des Benutzers oder seine E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden. Benutzende müssen mindestens einem Aufgabengebiet zugeordnet sein, damit sie es beim Hinzufügen anzeigen können.
      >
      >   Die Einstellung Kontaktinformationen anzeigen muss in Ihrer Zugriffsebene aktiviert sein, damit Benutzer die E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Gewähren des Benutzerzugriffs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
@@ -204,7 +209,7 @@ Je nachdem, welches Feld in der Ansicht sichtbar ist, können Sie der Aufgabe di
 |---|---|
 | **Zuweisen zu** | Einen Benutzer zuweisen |
 | **Zugewiesen** | Einen Benutzer zuweisen |
-| **Arbeitsaufträge** | Benutzer, Aufgabengebiete, Teams oder Aufgabenmitarbeiter zuweisen |
+| **Arbeitsaufträge** | Zuweisen von Benutzern, Aufgabengebieten, Teams oder Arbeitsagenten |
 
 So weisen Sie Aufgaben in einer Liste zu:
 
@@ -222,7 +227,7 @@ So weisen Sie Aufgaben in einer Liste zu:
 1. Führen Sie einen der folgenden Schritte aus, um Aufgaben zuzuweisen:
 
    * Klicken Sie in die Felder **Zugewiesen an** oder **Zugewiesen** und geben Sie den Namen eines aktiven Benutzers ein, den Sie der Aufgabe zuweisen möchten. Klicken Sie dann auf den Namen, wenn er in der Liste angezeigt wird.
-   * Klicken Sie in das **Arbeitsaufträge** und geben Sie den Namen eines aktiven Benutzers, eines Aufgabengebiets, eines Teams oder eines Mitarbeiters ein, den Sie der Aufgabe zuweisen möchten. Klicken Sie dann auf den Namen, wenn er in der Liste angezeigt wird.
+   * Klicken Sie in das **Arbeitsaufträge** und geben Sie den Namen eines aktiven Benutzers, eines Aufgabengebiets, Teams oder eines Arbeitsagenten ein, den Sie der Aufgabe zuweisen möchten. Klicken Sie dann auf den Namen, wenn er in der Liste angezeigt wird.
 
      >[!TIP]
      >
@@ -257,7 +262,7 @@ So weisen Sie Aufgaben in einer Liste zu:
 
    Das **Aufgaben bearbeiten** wird geöffnet.
 
-1. Geben Sie im Bereich **Arbeitsaufträge** den Namen von Benutzern, Teams, Rollen oder Aufgabenmitarbeitern in das bereitgestellte Feld **Personen, Rollen oder Teams suchen** ein und klicken Sie dann auf sie, wenn sie in der Liste angezeigt werden
+1. Beginnen Sie im Bereich **Arbeitsaufträge** mit der Eingabe des Namens der Benutzer, Teams, Rollen oder Arbeitsagenten in das bereitgestellte Feld **Personen, Rollen oder Teams suchen** und klicken Sie dann auf sie, wenn sie in der Liste angezeigt werden
 
    >[!IMPORTANT]
    >
@@ -268,7 +273,7 @@ So weisen Sie Aufgaben in einer Liste zu:
    * Bewegen Sie den Mauszeiger über den Zuweisungsnamen und klicken Sie dann auf **Primär machen**, um anzugeben, welcher Verantwortliche der Eigentümer der Aufgabe ist.
    * **Dauertyp**
 
-     Informationen zum Dauertyp für Aufgaben finden Sie unter [Übersicht über die Aufgabendauer und den &#x200B;](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)&quot;
+     Informationen zum Dauertyp für Aufgaben finden Sie unter [Übersicht über die Aufgabendauer und den ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)&quot;
 
    * **Dauer**
    * **Geplante Stunden**

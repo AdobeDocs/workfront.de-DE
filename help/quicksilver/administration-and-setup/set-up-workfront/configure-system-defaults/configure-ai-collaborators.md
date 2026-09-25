@@ -8,13 +8,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c38801ee-9750-4ffb-a912-cdcccfc7c60a
-source-git-commit: 0b1e8b85625d7fd34f64b7c82eb40e1134adfcd6
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: '1377'
-ht-degree: 2%
-
+source-wordcount: '1371'
+ht-degree: 3%
 ---
-
 # KI-Mitwirkende konfigurieren
 
 KI-Mitwirkende sind eine Möglichkeit, KI-Agenten in Ihre Projekte und Aufgaben einzubinden. Sie können einen KI-Mitwirkenden konfigurieren und ihn dann wie einen Benutzer zuweisen.
@@ -23,13 +30,13 @@ Sie können beispielsweise einen KI-Mitarbeiter vom Typ „Prüfer“ mit Marken
 
 Zu den verfügbaren KI-Typen für Mitwirkende gehören:
 
-* Reviewer: Erstellen Sie einen Mitarbeiter mit Brands oder Adobe Brand Intelligence und weisen Sie ihn dann als Reviewer für Assets zu.
+* KI-Reviewer: Erstellen Sie einen Mitarbeiter mit Marken oder Adobe Brand Intelligence und weisen Sie ihn dann als Reviewer für Assets zu.
 
-  Weitere Informationen finden Sie unter [Erste Schritte mit dem Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
+  Weitere Informationen finden Sie unter [Erste Schritte mit dem Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
-* Aufgabenmitarbeiter: Erstellen Sie einen Mitwirkenden mit Copilot oder Writer und weisen Sie dann den Mitwirkenden einer Aufgabe zu, um Arbeiten auf Aufgabenebene abzuschließen.
+* Arbeitsagent : Erstellen Sie einen Mitarbeiter mit Copilot oder Writer und weisen Sie dann den Mitarbeiter einer Aufgabe zu, um Arbeiten auf Aufgabenebene abzuschließen.
 
-  Weitere Informationen finden Sie unter [Verwenden von &#x200B;](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
+  Weitere Informationen finden Sie unter [Verwenden von Arbeitsagenten](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
 
 
 ## Zugriffsanforderungen
@@ -66,23 +73,23 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 * Ihr Unternehmen muss eine unterzeichnete Adobe Gen AI-Vereinbarung in der Datei haben.
 
   Weitere Informationen finden Sie unter [Unterschreiben des Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)Abkommens im Artikel KI-Assistent in Workfront.
-* Sie müssen eine Marke in Workfront konfiguriert haben, bevor Sie sie für einen KI-Mitwirkenden vom Typ Prüfer verwenden können.
+* Sie müssen eine Marke in Workfront konfiguriert haben, bevor Sie sie für einen KI-Reviewer verwenden können.
 
-  Anweisungen finden Sie unter [Erstellen und Verwalten von Marken für den Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
-* Um Adobe Brand Intelligence für einen Reviewer AI-Mitwirkenden verwenden zu können, muss Ihr Unternehmen das einheitliche Prüf- und Genehmigungs-Erlebnis in Workfront nutzen.
+  Anweisungen finden Sie unter [Erstellen und Verwalten von Marken für den KI-Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md).
+* Um Adobe Brand Intelligence für einen KI-Prüfer verwenden zu können, muss Ihr Unternehmen das einheitliche Prüf- und Genehmigungs-Erlebnis in Workfront verwenden.
 
   Weitere Informationen finden Sie unter [Erste Schritte mit der einheitlichen Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/get-started-with-unified-approvals.md).
 
-### Für Aufgaben-Mitwirkende
+### Für Arbeitsagenten
 
-Sie müssen einen Agenten in Claude, Copilot Studio oder Writer konfigurieren, bevor Sie ihn als Task Collaborator verwenden können.
+Sie müssen einen Agenten in Claude, Copilot Studio oder Writer konfigurieren, bevor Sie ihn als Arbeitsagent verwenden können.
 
-## Erstellen eines neuen KI-Mitarbeiters vom Typ „Prüfer“
+## Erstellen eines neuen KI-Reviewers
 
-Reviewer AI Collaborators können für die Verwendung von Workfront-Marken oder Adobe Brand Intelligence konfiguriert werden.
+KI-Reviewer können so konfiguriert werden, dass sie Workfront-Marken oder Adobe Brand Intelligence verwenden.
 
 * **Marken**: Marken werden in Workfront erstellt. Sie können in Workfront Marken erstellen, indem Sie PDF-Dateien mit Ihren Markenrichtlinien hochladen oder manuell Markenelemente eingeben.
-* **Adobe Brand Intelligence**: Wenn ein KI-Mitwirkender ein Asset mit Adobe Brand Intelligence überprüft, können Sie die Kommentare des Reviewers in Frame.io anzeigen.
+* **Adobe Brand Intelligence**: Wenn ein KI-Mitwirkender ein Asset mit Adobe Brand Intelligence überprüft, können Sie in Frame.io Kommentare des KI-Reviewers anzeigen.
 
 
 {{step-1-to-setup}}
@@ -95,23 +102,23 @@ Reviewer AI Collaborators können für die Verwendung von Workfront-Marken oder 
 1. (Bedingt) Wenn der KI-Mitwirkende eine Marke verwenden wird, wählen Sie die Marke und die Markenrichtlinie aus, die er verwenden wird.
 1. Klicken Sie auf **Speichern**.
 
-## Aufgabe „Mitarbeiter“ konfigurieren
+## Konfigurieren eines Arbeitsagenten
 
-Aufgabenmitarbeiter sind MCP-Agenten, die Sie in Workfront Aufgaben zuweisen können. Sie konfigurieren den Aufgaben-Collaborator mit einem Namen, einer Zugriffsebene und anderen Details und weisen ihn wie einen Benutzer einer Aufgabe zu.
+Arbeitsagenten sind Agenten, die Sie in Workfront Aufgaben zuweisen können. Sie konfigurieren den Arbeitsagenten mit einem Namen, einer Zugriffsebene und anderen Details und weisen ihn einer Aufgabe zu, wie Sie es bei der Zuweisung von Benutzenden tun würden.
 
-Da es sich bei den Aufgabenmitarbeitern um MCP-Agenten handelt, werden ihre Aktionen und Fähigkeiten dort konfiguriert, wo Sie Ihre Agenten konfigurieren. Derzeit können Agenten, die als Aufgabenmitarbeiter verwendet werden, in Copilot Studio, Claude oder Writer erstellt werden.
+Da Arbeitsagenten Agenten sind, werden ihre Aktionen und Fähigkeiten dort konfiguriert, wo Sie Ihre Agenten konfigurieren. Derzeit können als Arbeitsagenten verwendete Agenten in Copilot Studio, Claude oder Writer erstellt werden.
 
-Aufgabenmitarbeiter können nur Aufgaben zugewiesen werden und können derzeit nicht Problemen zugewiesen werden.
+Arbeitsagenten können nur Aufgaben zugewiesen werden und können derzeit nicht Problemen zugewiesen werden.
 
-Eine Liste der Best Practices beim Erstellen eines Agenten für die Arbeit als Aufgabenmitarbeiter finden Sie unter [Best Practices zum Erstellen eines Agenten für einen Aufgabenmitarbeiter](#best-practices-for-creating-an-agent-for-a-task-collaborator).
+Eine Liste der Best Practices beim Erstellen eines Agenten für die Arbeit als Arbeitsagent finden Sie unter [Best Practices zum Erstellen eines Agenten für einen Arbeitsagenten](#best-practices-for-creating-an-agent-for-a-work-agent).
 
-### Konfigurieren eines AufgabenMitarbeiters in Workfront
+### Konfigurieren eines Arbeitsagenten in Workfront
 
 {{step-1-to-setup}}
 
 1. Klicken Sie in der linken Navigation auf **KI-Mitwirkende**.
 1. Klicken **oben rechts** Bildschirm auf „Neuer Mitarbeiter“.
-1. Wählen Sie **Aufgabenagenten** aus und klicken Sie dann auf **Weiter**.
+1. Wählen Sie **Arbeitsagenten** aus und klicken Sie dann auf **Weiter**.
 1. Geben Sie im Feld Name des KI-Mitarbeiters einen Namen für den Mitarbeiter ein. Dies ist der Name, der in der Liste der verfügbaren Bevollmächtigten für eine Aufgabe angezeigt wird.
 1. Geben Sie im Feld KI-Mitwirkende-Beschreibung eine Beschreibung des Zwecks des Mitwirkenden oder der von ihm durchgeführten Aktionen ein.
 1. Wählen Sie im Feld Zugriffsebene eine Zugriffsebene für diesen Mitarbeiter aus. Diese Zugriffsebene steuert, was der Mitarbeiter tun kann, auf dieselbe Weise wie eine Zugriffsebene steuert, was ein Benutzer tun kann.
@@ -128,12 +135,12 @@ Eine Liste der Best Practices beim Erstellen eines Agenten für die Arbeit als A
 1. Im **Nachdem der Mitarbeiter seine Arbeit abgeschlossen hat, kann er im** die Aktionen umschalten, die der Mitarbeiter ausführen soll.
 1. Klicken Sie auf **Speichern**.
 
-Weitere Informationen zu „Aufgabenmitarbeiter“, einschließlich ihrer Zuweisung zu Aufgaben, finden Sie unter [Verwenden von Aufgabenmitarbeitern](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
+Weitere Informationen zu Arbeitsagenten, einschließlich ihrer Zuweisung zu Aufgaben, finden Sie unter [Verwenden von Arbeitsagenten](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
 
 
-### Best Practices zum Erstellen eines Agenten für einen Aufgabenmitarbeiter
+### Best Practices für die Erstellung eines Agenten für einen Arbeitsagenten
 
-Die folgenden Best Practices sind möglicherweise hilfreich, wenn Sie einen Agenten erstellen, der als Aufgabenmitarbeiter in Workfront verwendet werden soll. Um die Best Practices anzuzeigen, klicken Sie auf den Abschnitt für das Programm, in dem Sie den Agenten erstellen.
+Die folgenden Best Practices sind möglicherweise hilfreich, wenn Sie einen Agenten für die Verwendung als Arbeitsagent in Workfront erstellen. Um die Best Practices anzuzeigen, klicken Sie auf den Abschnitt für das Programm, in dem Sie den Agenten erstellen.
 
 +++ Claude
 
@@ -141,7 +148,7 @@ Die folgenden Best Practices sind möglicherweise hilfreich, wenn Sie einen Agen
 1. Erstellen Sie einen API-Schlüssel.
    1. Klicken Sie unter API-Schlüssel **Schlüssel erstellen** in der oberen rechten Ecke.
    1. Geben Sie einen Namen und ein Ablaufdatum an.
-   1. Kopieren Sie den Schlüssel und speichern Sie ihn an einem sicheren Ort. Sie benötigen diesen Schlüssel, um den Task Collaborator in Workfront zu konfigurieren.
+   1. Kopieren Sie den Schlüssel und speichern Sie ihn an einem sicheren Ort. Sie benötigen diesen Schlüssel, um den Arbeitsagenten in Workfront zu konfigurieren.
 
 1. Erstellen Sie eine Umgebung.
    1. Klicken **unter** > **Umgebungen** oben rechts auf **Umgebung erstellen**.
@@ -151,15 +158,15 @@ Die folgenden Best Practices sind möglicherweise hilfreich, wenn Sie einen Agen
 
 1. Erstellen Sie einen Agenten.
    1. Klicken Sie unter Managed Agents > Agents **Create Agent** in der oberen rechten Ecke.
-   1. Geben Sie nach Bedarf einen Namen, ein Modell, eine Systemaufforderung, Kenntnisse und Tools an. Seien Sie beschreibend, da die Aufgabenmitarbeiter den Aufgabenkontext an diesen Agenten weitergeben, der dann die Arbeit ausführt.
+   1. Geben Sie nach Bedarf einen Namen, ein Modell, eine Systemaufforderung, Kenntnisse und Tools an. Seien Sie beschreibend, da Arbeitsagenten den Aufgabenkontext an diesen Agenten weitergeben, der dann die Arbeit ausführt.
       Die Agenten-ID wird unter dem Namen des Agenten in der oberen linken Ecke angezeigt.
 
-1. Konfigurieren Sie den Task Collaborator in Workfront.
+1. Konfigurieren Sie den Arbeitsagenten in Workfront.
    1. Geben Sie Ihren API-Schlüssel, die Umgebungs-ID und die Agenten-ID ein
    1. Klicken Sie **Verbindung testen**, um sie zu überprüfen.
 
-1. Weisen Sie den Aufgabenmitarbeiter einer Workfront-Aufgabe zu.
-   1. Der Aufgaben-Collaborator wird ausgelöst, nachdem alle Vorgängeraufgaben abgeschlossen sind.
+1. Weisen Sie den Arbeitsagenten einer Workfront-Aufgabe zu.
+   1. Der Arbeitsagent wird ausgelöst, nachdem alle Vorgängeraufgaben abgeschlossen sind.
 
 +++
 <!--
@@ -173,9 +180,9 @@ Die folgenden Best Practices sind möglicherweise hilfreich, wenn Sie einen Agen
 
 >[!NOTE]
 >
-> Sie können einen Writer-Agenten als Aufgabenmitarbeiter verwenden, aber Writer-Playbooks können nicht als Aufgabenmitarbeiter verwendet werden.
+> Sie können einen Writer-Agenten als Arbeitsagenten verwenden, aber Writer-Playbooks können nicht als Arbeitsagenten verwendet werden.
 
-Beim Erstellen eines Agenten für die Verwendung als Aufgabenmitarbeiter in Writer empfehlen wir den folgenden Workflow.
+Beim Erstellen eines Agenten für die Verwendung als Arbeitsagent in Writer empfehlen wir den folgenden Workflow.
 
 Ausführlichere Informationen zum Erstellen von Agenten finden Sie in der [Writer-Dokumentation](https://dev.writer.com/no-code/introduction).
 
@@ -183,13 +190,13 @@ Ausführlichere Informationen zum Erstellen von Agenten finden Sie in der [Write
 1. Ein einzelnes Texteingabefeld hinzufügen. Sie können den Standardnamen „Texteingabe“ verwenden.
 1. `@TextInput` zu Ihrer Eingabeaufforderung hinzufügen. Stellen Sie im Abschnitt Eingabeaufforderungen Ihrer App-Konfiguration sicher, dass Ihre Eingabeaufforderungsvorlage auf die Eingabevariable verweist. Ohne dies sieht das Modell die Aufgabendaten nie.
 1. Passen Sie Ihre Eingabeaufforderung an, um die Ausgabe sofort zu generieren. Entfernen Sie alle Anweisungen, die den Benutzer um Klarstellung oder zusätzlichen Kontext bitten, bevor Sie antworten. Beispiel: „Wenn Sie eine Eingabe erhalten, behandeln Sie sie als Anfrage zur Inhaltserstellung und erstellen Sie die Ausgabe sofort. Bitten Sie nicht um Klarstellung.“
-1. Kopieren Sie Ihren API-Schlüssel und die Anwendungs-ID. Sie benötigen den Task Collaborator, um den Task Collaborator in Workfront zu konfigurieren.
+1. Kopieren Sie Ihren API-Schlüssel und die Anwendungs-ID. Sie benötigen sie, um den Arbeitsagenten in Workfront zu konfigurieren.
 
    * Anweisungen zum Einrichten eines API-Schlüssels in Writer finden Sie unter [Quickstart](https://dev.writer.com/home/quickstart) in der Writer-Dokumentation.
    * Anweisungen zum Einrichten einer Anwendungs-ID in Writer finden Sie unter [Aufrufen von Nicht-Code-Agenten über die API](https://dev.writer.com/home/applications) in der Writer-Dokumentation.
 
-1. Konfigurieren Sie den Task Collaborator in Workfront. Geben Sie im Rahmen der Konfiguration Ihren API-Schlüssel und Ihre Anwendungs-ID ein und klicken Sie dann auf **Verbindung testen**, um sie zu überprüfen.
-1. Weisen Sie den Aufgabenmitarbeiter einer Workfront-Aufgabe zu. Der Collaborator beginnt mit der Arbeit, wenn alle Vorgängeraufgaben der Aufgabe abgeschlossen sind.
+1. Konfigurieren Sie den Arbeitsagenten in Workfront. Geben Sie im Rahmen der Konfiguration Ihren API-Schlüssel und Ihre Anwendungs-ID ein und klicken Sie dann auf **Verbindung testen**, um sie zu überprüfen.
+1. Weisen Sie den Arbeitsagenten einer Workfront-Aufgabe zu. Der Arbeitsagent beginnt zu arbeiten, wenn alle Vorgängeraufgaben der Aufgabe abgeschlossen sind.
 
 +++
 
