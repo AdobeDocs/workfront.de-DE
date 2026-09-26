@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 6f3bc007af7971e8c66fec24930ec12e6c96a915
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: '14574'
+source-wordcount: '14588'
 ht-degree: 92%
 ---
 # Handbuch für Workfront {#using}
@@ -268,6 +268,7 @@ ht-degree: 92%
       * {hide-from-toc}[Versionsaktivität der Adobe Workfront-Funktionen mit begrenzter Verfügbarkeit](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-article-index.md)
       * {hide-from-toc}[Versionsaktivität im ersten Quartal 2026 für Adobe Workfront - Funktionen mit begrenzter Verfügbarkeit](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q1.md)
       * {hide-from-toc}[Versionsaktivität für Adobe Workfront im zweiten Quartal 2026 - Funktionen mit begrenzter Verfügbarkeit](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q2.md)
+      * {hide-from-toc}[Versionsaktivität für Adobe Workfront im vierten Quartal 2026 - Funktionen mit begrenzter Verfügbarkeit](/help/quicksilver/product-announcements/product-releases/limited-availability-release-activity/limited-availability-release-activity-26-q4.md)
     * Adobe Workfront-Szenarienplaner – Veröffentlichungen {#scenario-planner-release}
       * [Adobe Workfront-Szenarienplaner – Veröffentlichungen](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
       * [Adobe Workfront-Szenarienplaner mit Version 21.3](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
@@ -1940,13 +1941,13 @@ ht-degree: 92%
     * [Einheitliche Dokumentgenehmigungen: Artikelindex](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
     * [Verfügbare Funktionen für Dokumentgenehmigungen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
     * [Überblick über den Entscheidungsstatus eines Dokuments](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-    * [Erste Schritte mit dem Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
+    * [Erste Schritte mit dem KI-Prüfer in Workfront](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
     * [Übersicht über den Adobe Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md)
     * [Objektberechtigungen und Übersicht über die Zugriffsebene für das Adobe-Cloud-Speichermodell](/help/quicksilver/review-and-approve-work/esm-access-permissions.md)
     * [Von alten Dokumentengenehmigungen zu einheitlichen Genehmigungen wechseln](/help/quicksilver/review-and-approve-work/move-to-unified-approvals.md)
     * Einrichten und Verwalten von Asset- und Dokumentengenehmigungen {#manage-asset-review-and-approval}
       * [Einrichten und Verwalten von einheitlichen Genehmigungen: Artikelindex](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
-      * [Erstellen und Verwalten von Marken für Inhaltsvalidierer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
+      * [Erstellen und Verwalten von Marken für KI-Prüfer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
       * [Erstellen einer Prüfungs- oder Genehmigungsanfrage für ein Dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
       * [Hinzufügen zusätzlicher prüfender oder genehmigender Personen zu einem Asset oder Dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
       * [Entfernen von genehmigenden oder prüfenden Personen von einem Asset oder Dokument](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
@@ -1957,7 +1958,7 @@ ht-degree: 92%
       * [Erstellen eines Berichts-Dashboards zur Überprüfung und Genehmigung](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
     * Überprüfen und Genehmigen von Assets und Dokumenten {#review-and-approve-documents}
       * [Überprüfen und Genehmigen von Dokumenten: Artikelindex](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
-      * [Anzeigen der Punktzahl und des Feedbacks von Inhaltsvalidierern](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
+      * [Anzeigen von KI-Prüfer-Bewertung und -Feedback](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
       * [Überprüfen eines Dokuments](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
       * [Genehmigen eines Dokuments](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
       * [Überprüfen und Genehmigen eines Dokuments im Frame.io-Viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)
@@ -2283,6 +2284,7 @@ ht-degree: 92%
     * [Anfragen in Adobe Workfront-Planung: Artikelindex](planning/requests/requests-article-index.md)
     * [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront-Planung](planning/requests/create-request-form.md)
     * [Senden von Anfragen zum Erstellen von Einträgen in Adobe Workfront-Planung](planning/requests/submit-requests.md)
+    * [Share Planning Requests](planning/requests/share-requests.md)
     * [Aufheben der Veröffentlichung eines Anfrageformulars in Adobe Workfront-Planung](planning/requests/unpublish-request-form.md)
     * [Hinzufügen einer Genehmigung zu einem Anfrageformular in Adobe Workfront-Planung](planning/requests/add-approval-to-request-form.md)
     * [Genehmigen einer Anfrage in Adobe Workfront-Planung](planning/requests/approve-request.md)

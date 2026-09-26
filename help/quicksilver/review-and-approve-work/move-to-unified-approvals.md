@@ -6,13 +6,27 @@ description: Erfahren Sie, was mit Ihren bestehenden Dokumentgenehmigungs-Workfl
 author: Courtney
 feature: System Setup and Administration, Work Management, Digital Content and Documents
 role: Admin
-source-git-commit: 8f3c5ed32c6496a13703a5dce771a84462aa7f05
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 3%
-
 ---
-
 # Von alten Dokumentengenehmigungen zu einheitlichen Genehmigungen wechseln
 
 Der Wechsel zu einer Version von Workfront, die Adobe Cloud Storage unterstützt, verschiebt Ihr Unternehmen auch von veralteten Dokumentengenehmigungen zu einheitlichen Genehmigungen. Dieser Artikel enthält Informationen dazu, welche Funktionen bei einheitlichen Genehmigungen verfügbar sein werden, sowie Empfehlungen für Workfront-Administratoren, die ältere Dokumentgenehmigungen für Benutzer deaktivieren.
@@ -32,7 +46,7 @@ Der Wechsel zu einer Version von Workfront, die Adobe Cloud Storage unterstützt
 | Genehmigungsphasen und -pfade | Eine Genehmigungsphase, keine parallelen Pfade | [Mehrere Genehmigungsphasen und parallele Prüfpfade](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) |
 | Genehmigungsvorlagen | Jede Genehmigung von Grund auf neu konfiguriert | [Wiederverwendbare Vorlagen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) im Workfront-Setup verfügbar |
 | Überprüfung und Markup | Proofing-Betrachter | [Proofing Viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md) auf alten Workfront-Speicherobjekten oder der [Frame.io-Viewer](/help/quicksilver/review-and-approve-work/workfront-storage.md#review-and-approval-viewer) auf Adobe-Cloud-Speicherobjekten |
-| KI-gestützte Überprüfung | Nicht verfügbar | Automatische Prüfung der Markenkonformität mit [Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md) |
+| KI-gestützte Überprüfung | Nicht verfügbar | Automatische Prüfung der Markenkonformität mit [AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md) |
 | Reporting | Legacy-Reporting | Startseite-KPI-Widgets und [Arbeitsflächen-Dashboards](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) |
 
 ### Was passiert mit bereits laufenden Genehmigungen?
@@ -55,4 +69,4 @@ In-Flight-Genehmigungen, die mit Legacy-Dokumentgenehmigungen erstellt wurden, f
 * [Überprüfen und Genehmigen mit dem Frame.io-Viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)
 * [Gemeinsames Verwenden von einheitlichen Genehmigungen und Proofing](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
 * [Überblick über den Entscheidungsstatus eines Dokuments](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-* [Erste Schritte mit dem Workfront Content Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
+* [Erste Schritte mit dem Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)

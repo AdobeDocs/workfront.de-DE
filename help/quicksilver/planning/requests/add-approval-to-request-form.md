@@ -30,20 +30,20 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 242405ef348e288ae2ac06eaef6eb0609b277994
+source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 3%
+source-wordcount: '1171'
+ht-degree: 2%
 ---
 # Hinzufügen einer Genehmigung zu einem Anfrageformular in Adobe Workfront-Planung
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -104,12 +104,81 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 ## Überlegungen zum Hinzufügen von Genehmigungen zu einem Anfrageformular
 
-* Sie können einem Anfrageformular eine oder mehrere genehmigende Personen hinzufügen. Sie können Benutzer und Teams als genehmigende Personen hinzufügen.
-* Sie können Genehmigungsinformationen zu einem Datensatz anzeigen, der durch Senden eines Anforderungsformulars in den Feldern Genehmigt von und Genehmigt am erstellt wurde. Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
-* Wenn Sie einem Anfrageformular mehrere genehmigende Personen hinzufügen, müssen alle genehmigenden Personen die Anfrage akzeptieren, bevor in Workfront Planning ein Datensatz erstellt wird.
-* Wenn alle genehmigenden Personen die Anfrage genehmigen, wird ein Datensatz für den mit dem Anfrageformular verknüpften Datensatztyp erstellt.
-* Wenn mindestens eine genehmigende Person die Anforderung ablehnt und alle anderen sie genehmigen, wird eine Anforderung für den Bereich Anfragen in Workfront erstellt, aber es wird kein Datensatz für den Datensatztyp erstellt, der mit dem Anfrageformular verknüpft ist.
-* Das Hinzufügen von Genehmigungen zu einem Anfrageformular ist optional. Workfront Planning erstellt beim Senden einer Anfrage sofort einen Datensatz, wenn das Anforderungsformular nicht mit einer Genehmigung verknüpft ist.
+* Sie können eine oder mehrere genehmigende Personen (Benutzer oder Teams) zu einem Anfrageformular oder zu einer Genehmigungsregel hinzufügen.
+* Validierungsregeln leiten Anfragen basierend auf den Feldwerten in der gesendeten Anfrage weiter (z. B. verschiedene Genehmiger für verschiedene Werte eines Felds „Kampagnentyp„).
+* Über die Felder Genehmigt von und Genehmigt am können Sie Validierungsinformationen zum erstellten Datensatz anzeigen. Siehe Erstellen von Feldern.
+* Wenn alle genehmigenden Personen einen Datensatz erstellen, wird er für den Datensatztyp erstellt, der mit dem Anfrageformular verknüpft ist.
+* Wenn mindestens eine genehmigende Person ablehnt, wird kein Datensatz für den Datensatztyp erstellt. Die Anforderung verbleibt/landet stattdessen im Bereich Anfragen von Workfront. (Dieser Punkt erschien in beiden Abschnitten mit leicht unterschiedlichem Wortlaut - hier als eine Aussage zusammengeführt.)
+* Wenn mehrere genehmigende Personen erforderlich sind, müssen alle von ihnen eine Entscheidung treffen, bevor die Anfrage genehmigt oder abgelehnt wird - es sei denn, die Option Nur eine Entscheidung ist erforderlich ist ist aktiviert.
+* Wenn ein Team als genehmigende Person festgelegt ist, ist nur eine Entscheidung von einem Mitglied dieses Teams erforderlich.
+* Validierungen sind optional. Wenn einem Antragsformular keine Validierung beigefügt ist, erstellt Workfront Planning den Datensatz sofort nach der Übermittlung.
+* <span class="preview">Sie können Genehmigungen einen oder mehrere Schritte hinzufügen.</span>
+
+## Hinzufügen von Genehmigungsregeln zu einem Anfrageformular
+
+Genehmigungsregeln definieren den Genehmigungsprozess basierend auf den Feldwerten in den gesendeten Anfragen.
+
+Wenn beispielsweise ein Anfrageformular das Feld „Kampagnentyp“ aufweist, kann eine Regel erstellt werden, die die Anfrage an eine Person sendet, wenn das Feld den Wert „Digital“ hat, und an eine andere Person, wenn es den Wert „Drucken“ hat.
+
+So legen Sie Genehmigungsregeln für ein Anfrageformular fest:
+
+1. Erstellen Sie zunächst ein Anfrageformular für einen Datensatztyp, wie im Artikel [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md) beschrieben.
+1. Wenn das Anfrageformular geöffnet wird, klicken Sie auf **Einstellungen**.
+
+   Die **Einstellungen** wird geöffnet.
+
+1. Um mit der Konfiguration von Genehmigungsregeln zu beginnen, klicken Sie **Genehmigungen** ![Genehmigungssymbol](assets/approvals-icon-on-form.png) im linken Bereich.
+
+1. (Optional) Wenn Sie einen standardmäßigen Genehmigungsprozess festlegen möchten, fügen Sie mindestens einen Benutzer oder ein Team zum Feld **Genehmigende Personen** im Bereich **Standardgenehmigungsregel** hinzu und klicken Sie dann auf das Kontrollkästchen **Nur eine Entscheidung ist erforderlich**, wenn Sie möchten, dass der Datensatz erstellt wird, nachdem eine der standardmäßigen genehmigenden Personen ihn genehmigt hat.
+
+   ![Standardmäßiger Bereich für Genehmigungsregeln](assets/default-approvers.png)
+
+1. (Optional) Beginnen Sie mit dem Hinzufügen von Genehmigungsregeln. Gehen Sie für jede benutzerdefinierte Genehmigungsregel wie folgt vor:
+
+   1. Klicken Sie **Genehmigungsregel hinzufügen**.
+   1. Klicken Sie auf den Platzhaltertitel **Nicht benannte Genehmigungsregel** und geben Sie einen Namen für die Genehmigungsregel ein.
+   1. Klicken Sie **Feld auswählen** und wählen Sie das Feld aus, das die Regel aktiviert.
+   1. Wählen Sie den Operator für die Regel aus. Die Operatoren variieren je nach Feldtyp.
+   1. Wenn der ausgewählte Operator einen Wert benötigt, klicken Sie auf das Pluszeichen und fügen Sie einen oder mehrere Werte hinzu.
+   1. (Optional) Klicken Sie auf **Bedingung hinzufügen**, um weitere Bedingungen hinzuzufügen und sie durch **Und**- oder **Oder**-Anweisungen zu verbinden, indem Sie die zusätzlichen Bedingungen wie in den Schritten C-E konfigurieren.
+   1. Fügen Sie **Bereich Aktionen** der Genehmigungsregel im Feld **Genehmigende Personen** mindestens einen Benutzer oder ein Team hinzu, der bzw. das als genehmigende Person festgelegt werden soll, wenn die Bedingung erfüllt ist.
+   1. (Bedingt und optional) Wenn der Datensatz erstellt werden soll, nachdem eine der genehmigenden Personen ihn genehmigt hat, aktivieren Sie das Kontrollkästchen **Nur eine Entscheidung ist erforderlich**. Andernfalls müssen alle genehmigenden Personen über die Genehmigung entscheiden, bevor die Anforderung akzeptiert oder abgelehnt wird.
+
+   >[!NOTE]
+   >
+   >   Beachten Sie beim Hinzufügen von Genehmigungsregeln Folgendes:
+   >
+   >   * Wenn nur eine Standardregel eingerichtet ist, gilt sie für jede gesendete Anfrage.
+   >   * Wenn eine benutzerdefinierte Regel erfüllt ist, wird die Standardeinstellung nicht auf den Workflow für die Anfragegenehmigung angewendet. Für Genehmigungen gelten nur die passenden benutzerdefinierten Regeln, und die Standardregel wird ignoriert.
+   >   * Wenn mehrere benutzerdefinierte Regeln erfüllt sind, gilt die erste in der Reihenfolge. In diesem Fall gilt die Standardgenehmigung nicht, falls eine solche vorhanden ist.
+
+1. <span class="preview">(Optional) Klicken Sie auf **Phase hinzufügen**, um der Genehmigung einen weiteren Schritt hinzuzufügen.</span>
+
+1. Klicken Sie **Speichern**, um die Genehmigungsregeln zu speichern.
+
+1. <span class="preview">(Optional) Gehen Sie wie folgt vor, um der Genehmigung weitere Phasen hinzuzufügen:</span>
+
+   1. <span class="preview">Klicken Sie auf **Phase hinzufügen**.</span>
+
+      <span class="preview">Das Feld **Mehrstufige Genehmigung** wird angezeigt. Wenn Sie bereits eine standardmäßige Genehmigungsaktion erstellt haben, werden diese genehmigenden Personen automatisch zu Schritt 1.</span> hinzugefügt
+
+   1. <span class="preview">Fügen Sie im Feld **Personen oder Teams hinzufügen** mindestens einen Benutzer oder ein Team hinzu, der bzw. das als genehmigende Person für das Stadium festgelegt werden soll.</span>
+   1. <span class="preview">(Bedingt und optional) Wenn Sie möchten, dass der Datensatz in den nächsten Schritt weitergeleitet wird, nachdem ihn eine der genehmigenden Personen genehmigt hat, aktivieren Sie das Kontrollkästchen **Nur eine Entscheidung ist**. Andernfalls müssen alle genehmigenden Personen über die Genehmigung entscheiden, bevor die Anfrage in den nächsten Schritt übergeht.</span>
+   1. <span class="preview">Klicken Sie auf **Phase hinzufügen** und wiederholen Sie Schritt B, um der Genehmigung weitere Phasen hinzuzufügen.</span>
+
+      <span class="preview">Wenn zwei oder mehr Phasen vorhanden sind, können Sie auf das Symbol **Ziehen** (![) klicken, &#x200B;](assets/drag-icon.png) sie in die gewünschte Reihenfolge zu ziehen.</span>
+
+      <span class="preview">Klicken Sie auf **Diesen Schritt löschen**, um einen Schritt aus der Genehmigung zu löschen, oder klicken Sie auf das **Löschen**-Symbol ![Löschen-Symbol](assets/delete.png) neben einer genehmigenden Person, um den Benutzer oder das Team aus der Liste der genehmigenden Personen in einem Schritt zu löschen.</span>
+
+      ![Mehrstufen-Genehmigungsbox](assets/planning-request-multi-stage-approval-box.png)
+
+   1. <span class="preview">Wenn Sie mit dem Erstellen des Genehmigungs-Workflows fertig sind, klicken Sie auf **Speichern**.</span>
+
+      <span class="preview">Sie können die mehrstufige Genehmigung über die Seite Genehmigungen bearbeiten oder löschen.</span>
+
+1. (Optional) Klicken Sie auf **Veröffentlichen**, wenn Sie das Anfrageformular noch nie freigegeben haben.
+
+
 
 <!--
 
@@ -149,86 +218,4 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
    For information about approving requests, see [Approve a request](/help/quicksilver/planning/requests/approve-request.md).
 
--->
-
-## Hinzufügen von Genehmigungsregeln zu einem Anfrageformular
-
-Genehmigungsregeln definieren den Genehmigungsprozess basierend auf den Feldwerten in den gesendeten Anfragen.
-
-Wenn beispielsweise ein Anfrageformular das Feld „Kampagnentyp“ aufweist, kann eine Regel erstellt werden, die die Anfrage an eine Person sendet, wenn das Feld den Wert „Digital“ hat, und an eine andere Person, wenn es den Wert „Drucken“ hat.
-
-Beachten Sie beim Hinzufügen von Genehmigungsregeln Folgendes:
-
-* Sie können einer Genehmigungsregel eine oder mehrere genehmigende Personen hinzufügen.
-* Wenn mindestens eine genehmigende Person die Anforderung ablehnt, wird die Anforderung abgelehnt und der Datensatz nicht erstellt. Die Anfrage verbleibt im Bereich Anfragen von Workfront.
-* Wenn Sie mehr als eine genehmigende Person hinzufügen und die Option Nur eine Entscheidung ist erforderlich nicht aktiviert ist, müssen alle genehmigenden Personen eine Entscheidung treffen, bevor eine Anfrage entweder genehmigt oder abgelehnt wird.
-* Wenn ein Team als genehmigende Person festgelegt ist, ist von einem Teammitglied nur eine Entscheidung erforderlich.
-
-So legen Sie Genehmigungsregeln für ein Anfrageformular fest:
-
-1. Erstellen Sie zunächst ein Anfrageformular für einen Datensatztyp, wie im Artikel [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md) beschrieben.
-1. Wenn das Anfrageformular geöffnet wird, klicken Sie auf **Einstellungen**.
-
-   Die **Einstellungen** wird geöffnet.
-
-1. Um mit der Konfiguration von Genehmigungsregeln zu beginnen, klicken Sie **Genehmigungen** ![Genehmigungssymbol](assets/approvals-icon-on-form.png) im linken Bereich.
-
-1. (Optional) Wenn Sie einen standardmäßigen Genehmigungsprozess festlegen möchten, fügen Sie mindestens einen Benutzer oder ein Team zum Feld **Genehmigende Personen** im Bereich **Standardgenehmigungsregel** hinzu und klicken Sie dann auf das Kontrollkästchen **Nur eine Entscheidung ist erforderlich**, wenn Sie möchten, dass der Datensatz erstellt wird, nachdem eine der standardmäßigen genehmigenden Personen ihn genehmigt hat.
-
-   ![Standardmäßiger Bereich für Genehmigungsregeln](assets/default-approvers.png)
-
-1. (Optional) Beginnen Sie mit dem Hinzufügen von Genehmigungsregeln. Gehen Sie für jede benutzerdefinierte Genehmigungsregel wie folgt vor:
-
-   1. Klicken Sie **Genehmigungsregel hinzufügen**.
-   1. Klicken Sie auf den Platzhaltertitel **Nicht benannte Genehmigungsregel** und geben Sie einen Namen für die Genehmigungsregel ein.
-   1. Klicken Sie **Feld auswählen** und wählen Sie das Feld aus, das die Regel aktiviert.
-   1. Wählen Sie den Operator für die Regel aus. Die Operatoren variieren je nach Feldtyp.
-   1. Wenn der ausgewählte Operator einen Wert benötigt, klicken Sie auf das Pluszeichen und fügen Sie einen oder mehrere Werte hinzu.
-   1. (Optional) Klicken Sie auf **Bedingung hinzufügen**, um weitere Bedingungen hinzuzufügen und sie durch **Und**- oder **Oder**-Anweisungen zu verbinden, indem Sie die zusätzlichen Bedingungen wie in den Schritten C-E konfigurieren.
-   1. Fügen Sie **Bereich Aktionen** der Genehmigungsregel im Feld **Genehmigende Personen** mindestens einen Benutzer oder ein Team hinzu, der bzw. das als genehmigende Person festgelegt werden soll, wenn die Bedingung erfüllt ist.
-   1. (Bedingt und optional) Wenn der Datensatz erstellt werden soll, nachdem eine der genehmigenden Personen ihn genehmigt hat, aktivieren Sie das Kontrollkästchen **Nur eine Entscheidung ist erforderlich**. Andernfalls müssen alle genehmigenden Personen über die Genehmigung entscheiden, bevor die Anforderung akzeptiert oder abgelehnt wird.
-
-   <!--<span class="preview">1. (Optional) Click **Add stage** to add another stage to the approval, and follow step 5 above.</span>-->
-
-   >[!NOTE]
-   >
-   >   Beachten Sie beim Hinzufügen von Genehmigungsregeln Folgendes:
-   >
-   >   * Wenn nur eine Standardregel eingerichtet ist, gilt sie für jede gesendete Anfrage.
-   >   * Wenn eine benutzerdefinierte Regel erfüllt ist, wird die Standardeinstellung nicht auf den Workflow für die Anfragegenehmigung angewendet. Für Genehmigungen gelten nur die passenden benutzerdefinierten Regeln, und die Standardregel wird ignoriert.
-   >   * Wenn mehrere benutzerdefinierte Regeln erfüllt sind, gilt die erste in der Reihenfolge. In diesem Fall gilt die Standardgenehmigung nicht, falls eine solche vorhanden ist.
-
-1. Klicken Sie **Speichern**, um die Genehmigungsregeln zu speichern.
-1. (Optional) Klicken Sie auf **Veröffentlichen**, wenn Sie das Anfrageformular noch nie freigegeben haben.
-
-
-
-
-<!--
-
-MOVE THIS SECTION UNDER LINE 172 FOR PREVIEW RELEASE
-
-<div class="preview">
-
-1. (Optional) To add more stages to the approval, do the following:
-
-   1. Click **Add stage**.
-   
-      The **Multi-stage approval** box appears. If you already created a default approval action, those approvers are automatically added to Stage 1.
-
-   1. In the **Add people or teams** field, add at least one user or team to be set as the approver for the stage.
-   1. (Conditional and optional) If you want the record to advance to the next stage after any one of the approvers has approved it, check the **Only one decision is required** checkbox. Otherwise, all approvers must decide on the approval before the request moves to the next stage.
-   1. Click **Add stage** and repeat from step B to add more stages to the approval.
-
-      When two or more stages exist, you can click the **Drag** icon ![Drag icon](assets/drag-icon.png) to drag and drop them in order.
-
-      Click **Delete this stage** to delete a stage from the approval, or click the **Delete** icon ![Delete icon](assets/delete.png) next to an approver to delete the user or team from the list of approvers in a stage.
-
-      ![Multi-stage approval box](assets/planning-request-multi-stage-approval-box.png)
-
-   1. When you are finished building the approval workflow, click **Save**.
-
-      You can edit or delete the multi-stage approval from the Approvals page.
-
-</div>
 -->

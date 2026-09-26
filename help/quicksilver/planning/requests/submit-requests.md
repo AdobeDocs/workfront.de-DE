@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4ee702aeded88e330ec456a0e6b5cf1813bfb64e
+source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
 workflow-type: tm+mt
-source-wordcount: '3070'
+source-wordcount: '3087'
 ht-degree: 1%
 ---
 # Senden von Anfragen zum Erstellen von Einträgen in Adobe Workfront-Planung
@@ -160,21 +160,24 @@ Folgendes muss vorhanden sein, bevor Sie eine Anfrage an ein Workfront Planning-
 
   * <span class="preview"> In der Vorschau-Umgebung gibt es die folgenden Szenarien: </span>
 
-    * <span class="preview">Wenn Sie ein Anforderungsformular von der Seite eines sekundären globalen Datensatztyps senden, wird der Datensatz auf der Seite „Sekundärer Datensatztyp“ angezeigt. Benutzer sehen den neuen Datensatz auch auf der Seite des primären Datensatztyps, wenn sie Zugriff zum Anzeigen des sekundären Arbeitsbereichs haben. </span>
-    * <span class="preview">Wenn Sie ein Anfrageformular von der Seite „Primärer Datensatztyp“ aus senden oder eine andere in diesem Artikel beschriebene Methode verwenden, werden die Datensätze auf der Seite „Primärer Datensatztyp“ angezeigt.</span>
-    * <span class="preview">Wenn das Feld **Workspace** im Anfrageformular verfügbar ist und der/die Benutzende manuell einen bestimmten Arbeitsbereich auswählt, dem der Datensatz hinzugefügt werden soll, wird der Datensatz an diesem Ort gespeichert, unabhängig davon, ob das Formular auf der primären oder der sekundären Datensatztypseite ausgewählt wurde.</span>
+    <div class="preview">
+
+    * Wenn Sie ein Anforderungsformular von der Seite eines sekundären globalen Datensatztyps senden, wird der Datensatz auf der Seite des sekundären Datensatztyps angezeigt. Benutzer sehen den neuen Datensatz auch auf der Seite des primären Datensatztyps, wenn sie Zugriff zum Anzeigen des sekundären Arbeitsbereichs haben.
+    * Wenn Sie ein Anfrageformular von der Seite „Primärer Datensatztyp“ aus senden oder eine andere in diesem Artikel beschriebene Methode verwenden, werden die Datensätze auf der Seite „Primärer Datensatztyp“ angezeigt.
+    * Wenn das Feld **Workspace** im Anfrageformular verfügbar ist und der/die Benutzende manuell einen bestimmten Arbeitsbereich auswählt, dem der Datensatz hinzugefügt werden soll, wird der Datensatz an diesem Ort gespeichert, unabhängig davon, ob das Formular auf der primären oder der sekundären Datensatztypseite ausgewählt wurde.
+
+    </div>
 
   Weitere Informationen finden Sie unter [Übersicht über Workspace-Datensatztypen](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md).
 
-<!--
 <div class="preview">
 
-* You can share a request with others after it's been submitted. 
+* Sie können eine Anfrage für andere freigeben, nachdem sie übermittelt wurde.
 
-   For information, see [Share Planning requests](/help/quicksilver/planning/requests/share-requests.md).
+  Weitere Informationen finden Sie unter [Planungsanfragen freigeben](/help/quicksilver/planning/requests/share-requests.md).
 
 </div>
--->
+
 
 <!--
 Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.

@@ -6,9 +6,21 @@ author: Becky
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 19ac0dd5e22782ed5262deb096f24f0d18ccc2f1
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
 workflow-type: tm+mt
-source-wordcount: '2785'
+source-wordcount: '2783'
 ht-degree: 0%
 ---
 # Versionsaktivität für Adobe Workfront Planning im vierten Quartal 2026
@@ -21,7 +33,7 @@ Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen find
 
 >[!NOTE]
 >
->Vorschau: 24. September 2026
+>Vorschau: 25. September 2026
 >Produktions-Schnellveröffentlichung: 14. Oktober 2026
 >Produktion für alle: 15. Oktober 2026
 
@@ -37,7 +49,7 @@ Weitere Informationen finden Sie unter [Freigeben von Workfront-Planungsfeldern]
 
 >[!NOTE]
 >
->Vorschau: 24. September 2026
+>Vorschau: 25. September 2026
 >Produktions-Schnellveröffentlichung: 14. Oktober 2026
 >Produktion für alle: 15. Oktober 2026
 
@@ -51,7 +63,7 @@ Weitere Informationen finden Sie unter [Freigeben von &#x200B;](/help/quicksilve
 
 >[!NOTE]
 >
->Vorschau: 24. September 2026
+>Vorschau: 25. September 2026
 >Produktions-Schnellveröffentlichung: 14. Oktober 2026
 >Produktion für alle: 15. Oktober 2026
 
@@ -63,7 +75,7 @@ Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfragefor
 
 >[!NOTE]
 >
->Vorschau: 24. September 2026
+>Vorschau: 25. September 2026
 >Produktions-Schnellveröffentlichung: 14. Oktober 2026
 >Produktion für alle: 15. Oktober 2026
 
@@ -73,11 +85,11 @@ Darüber hinaus können Sie jetzt die Optionen eines Felds direkt über das Anfr
 
 Weitere Informationen finden Sie unter [Anforderungsformular erstellen](/help/quicksilver/planning/requests/create-request-form.md).
 
-## Konfigurieren der Funktionen für jede Zugriffsebene pro Anfrageformular
+## Konfigurieren von Standardberechtigungen für Anfordernde in Planning-Anfrageformularen
 
 >[!NOTE]
 >
->Vorschau: 24. September 2026
+>Vorschau: 25. September 2026
 >Produktions-Schnellveröffentlichung: 14. Oktober 2026
 >Produktion für alle: 15. Oktober 2026
 
@@ -87,7 +99,7 @@ Anfordernde können die folgenden Berechtigungen für eine von ihnen gesendete A
 
 Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-## Das Ausfüllen von KI-Formularen ruft jetzt Daten aus Datensätzen ab, auf die mit einem Link verwiesen wird
+## Ausfüllen eines KI-Formulars ruft Daten aus Datensätzen ab, auf die mit einem Link verwiesen wird
 
 >[!NOTE]
 >
@@ -98,7 +110,7 @@ Das Ausfüllen eines KI-Formulars kann jetzt Felddaten direkt aus einem Planungs
 
 Weitere Informationen finden Sie unter [Verwenden von Formularausfüllen mit KI zum Ausfüllen einer Anfrage mithilfe von Eingabeaufforderungen oder Dokumenten](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 
-## CX Coworker jetzt in Workfront Planning verfügbar
+## CX Coworker in Workfront Planning verfügbar
 
 >[!NOTE]
 >
@@ -120,7 +132,7 @@ Coworker ersetzt den aktuellen KI-Assistenten als eine leistungsfähigere Mögli
 
 Weitere Informationen finden Sie unter [CX Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
-## Das Symbol für den KI-Assistenten im Vorschaufeld Details wurde zur Vorbereitung auf den CX Coworker-Launch entfernt.
+## Das Symbol KI-Assistent wurde zur Vorbereitung des CX Coworker-Launches aus der Vorschau für Datensatzdetails entfernt
 
 >[!NOTE]
 >
@@ -194,7 +206,7 @@ Weitere Informationen finden Sie unter [Konfigurieren von Geschäftsregeln für 
 >* **Anfrageformulare erstellen** und **Anfrageformulare verwalten** wurde in &quot;**Formulare“**
 >* **Automatisierungen verwalten** wurde in &quot;**&quot;**
 
-## Einführung benutzerdefinierter Wochen für die Zeitleisten-Ansicht
+## Benutzerdefinierte Wochen für die Zeitleisten-Ansicht
 
 >[!NOTE]
 >
@@ -331,7 +343,7 @@ Weitere Informationen finden Sie unter [Kenntnisse für die direkte Installation
 >Produktions-Schnellveröffentlichung: 13. August 2026
 >Produktion für alle: 15. Oktober 2026
 
-Das Ziehen und Ablegen von Zeilen in der Tabellenansicht wurde visuell verbessert.
+Das Ziehen und Ablegen einzelner Zeilen in der Tabellenansicht wurde visuell verbessert.
 
 Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
 
@@ -356,9 +368,6 @@ Die folgenden Funktionen sind in diesem Update enthalten:
 
 
 Weitere Informationen finden Sie unter [Abhängige Verbindungen verwalten](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
-
-
-
 
 ## Anzeige eines neuen Kommentars für einen Datensatz in der Tabellenansicht anzeigen
 

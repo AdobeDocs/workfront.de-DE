@@ -10,26 +10,34 @@ exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
 TQID: https://experienceleague.adobe.com/0-mIGjSaSi9gxuJ0tIYCmmGbBrgXWESmG3OtYoLnsfw
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d4726c4aacc316063bb9a47b590165202ca3ac0
+    internal-label: Administration
+source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
-source-wordcount: 1227
+source-wordcount: '1227'
 ht-degree: 3%
-
 ---
-
 # Erste Schritte mit dem Ressourcen-Management
 
 <!-- Audited: 12/2023 -->
@@ -64,7 +72,7 @@ Workfront verfügt über mehrere Tools zum Verwalten von Ressourcen. Jedes Tool 
 
 * Verwenden Sie das folgende Tool, um die tatsächliche Arbeit (Aufgaben und Probleme) zu planen oder Ressourcen zuzuweisen:
 
-  * **Der Workload Balancer**: Er gehört zu einem Schritt des Ressourcen-Managements auf niedrigerer Ebene, in dem Sie Ihre Ressourcen der eigentlichen Arbeit (Aufgaben und Probleme) zuweisen können, die sie erledigen müssen, und zwar auf der Grundlage der für die Fertigstellung benötigten Stunden und ihrer Verfügbarkeit. Mithilfe des Workload Balancer können Sie Benutzende oder Aufgabenmitarbeiter der aktuellen Arbeit zuweisen, die derzeit nicht zugewiesen oder Aufgabengebieten zugewiesen ist.
+  * **Der Workload Balancer**: Er gehört zu einem Schritt des Ressourcen-Managements auf niedrigerer Ebene, in dem Sie Ihre Ressourcen der eigentlichen Arbeit (Aufgaben und Probleme) zuweisen können, die sie erledigen müssen, und zwar auf der Grundlage der für die Fertigstellung benötigten Stunden und ihrer Verfügbarkeit. Mit dem Workload Balancer können Sie Benutzende oder Arbeitsagenten der tatsächlichen Arbeit zuweisen, die derzeit nicht zugewiesen oder Aufgabengebieten zugewiesen ist.
 
     Weitere Informationen zum Workfront-Balancer finden Sie unter [Der Workload-Balancer: Artikelindex](../../resource-mgmt/workload-balancer/workload-balancer.md).
 
@@ -109,8 +117,8 @@ Die Verwaltung von Ressourcen in Workfront umfasst die folgenden Schritte:
   * Aufgabengebiete\
     Weitere Informationen zum Erstellen von Aufgabengebieten finden Sie im Artikel [Erstellen und Verwalten von Aufgabengebieten](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-  * Aufgaben-Mitwirkende
-    Weitere Informationen zum Erstellen von Aufgaben-Collaboratoren finden Sie unter [Konfigurieren eines Aufgaben-Collaborators](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-task-collaborator) im Artikel [Konfigurieren von KI-Collaboratoren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
+  * Arbeitsagenten
+    Weitere Informationen zum Erstellen von Arbeitsagenten finden Sie unter [Konfigurieren eines Arbeitsagenten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent) im Artikel [Konfigurieren von KI-Mitwirkenden](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md).
 
   * Zeitpläne\
     Weitere Informationen zum Erstellen von Zeitplänen finden Sie im Artikel [Erstellen eines Zeitplans](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
