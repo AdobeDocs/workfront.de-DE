@@ -93,7 +93,7 @@ Das Burndown-Diagramm enthält die folgenden visuellen Indikatoren:
 
 ## Wie sich Urlaubstage auf das Burndown-Diagramm auswirken {#how-days-off-affect-the-burndown-chart}
 
-Der in [!DNL Workfront] definierte Standardzeitplan wirkt sich auf das Burndown-Diagramm aus, indem er Urlaubstage (Wochenenden und Feiertage) vom Burndown ausschließt. Das Burndown-Diagramm verwendet den Standardzeitplan zum Definieren von Arbeitstagen (wie in [Zeitplan erstellen) ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+Der in [!DNL Workfront] definierte Standardzeitplan wirkt sich auf das Burndown-Diagramm aus, indem er Urlaubstage (Wochenenden und Feiertage) vom Burndown ausschließt. Das Burndown-Diagramm verwendet den Standardzeitplan zum Definieren von Arbeitstagen (wie in [Zeitplan erstellen) &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 Agile Teams können teamspezifische arbeitsfreie Tage einbeziehen, indem sie einen alternativen Zeitplan definieren (wie im Artikel [Verwenden eines alternativen Teamplans für Burndown-Diagramme](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md) beschrieben). Dieser alternative Zeitplan wird dann im Burndown-Diagramm jeder dem Team zugewiesenen Iteration angezeigt. Der alternative Zeitplan wirkt sich nur auf das Burndown-Diagramm aus.
 

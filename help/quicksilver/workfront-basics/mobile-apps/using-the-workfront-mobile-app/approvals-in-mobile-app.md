@@ -2,7 +2,7 @@
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Validierungen in der [!DNL Adobe Workfront] Mobile App
-description: Über den Bereich [!UICONTROL Genehmigungen“ in der Mobile App von [!DNL Adobe Workfront] können Sie ] oder delegierte Genehmigungen verwalten.
+description: Über den Bereich [!UICONTROL Genehmigungen“ in der Mobile App von [!DNL Adobe Workfront] können Sie &#x200B;] oder delegierte Genehmigungen verwalten.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 92259a17-209b-4bc1-8c14-826969b08a63
@@ -23,7 +23,7 @@ ht-degree: 3%
 ---
 # Validierungen in der [!DNL Adobe Workfront] Mobile App
 
-Über den Bereich [!UICONTROL Genehmigungen“ in der Mobile App von [!DNL Adobe Workfront] können Sie ] oder delegierte Genehmigungen verwalten. Im Bereich [!UICONTROL Genehmigungen] können Sie Folgendes genehmigen:
+Über den Bereich [!UICONTROL Genehmigungen“ in der Mobile App von [!DNL Adobe Workfront] können Sie &#x200B;] oder delegierte Genehmigungen verwalten. Im Bereich [!UICONTROL Genehmigungen] können Sie Folgendes genehmigen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,7 +51,7 @@ Korrekturabzüge folgen einem separaten Genehmigungsprozess. Sie können einen K
 
 1. Wählen **[!UICONTROL Alle Genehmigungen anzeigen]** im Bereich [!UICONTROL Genehmigungen] von [!UICONTROL Meine Arbeit] aus.
 
-   Informationen zu &quot;[!UICONTROL  Arbeit] in der Mobile App finden Sie [[!UICONTROL  Abschnitt &quot;] Arbeit“ in der Mobile App](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
+   Informationen zu &quot;[!UICONTROL &#x200B; Arbeit] in der Mobile App finden Sie [[!UICONTROL &#x200B; Abschnitt &quot;] Arbeit“ in der Mobile App](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
 
 1. Wählen Sie eine Genehmigung in der Liste aus.
 
@@ -79,4 +79,4 @@ Korrekturabzüge folgen einem separaten Genehmigungsprozess. Sie können einen K
 1. (Optional) Wählen **[!UICONTROL Kommentar hinzufügen]** in der Bestätigungsmeldung am unteren Bildschirmrand aus, um der Entscheidung Kommentare hinzuzufügen. Diese Anmerkungen werden in den Aktualisierungen zur Genehmigung angezeigt.\
    ![Kommentar hinzufügen](assets/mobile-addcommenttoapproval-350x123.png)\
    ODER\
-   Wählen Sie den Pfeil oben links im Bereich Genehmigungen aus, um zur Seite [!UICONTROL Genehmigungen“ ] wechseln.
+   Wählen Sie den Pfeil oben links im Bereich Genehmigungen aus, um zur Seite [!UICONTROL Genehmigungen“ &#x200B;] wechseln.

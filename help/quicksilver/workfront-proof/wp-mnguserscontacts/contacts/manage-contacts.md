@@ -89,7 +89,7 @@ Wählen Sie eine Option aus dem **[!UICONTROL Sortieren]** Menü in der oberen r
 
    * Klicken Sie auf **[!UICONTROL Mehr]** am Ende der Zeile eines Kontakts und verwenden Sie eine der Optionen im angezeigten Dropdown-Menü.
 
-     Diese Optionen sind für verschiedene Kontakttypen unterschiedlich. Weitere [ finden Sie unter „Grundlegendes zu Benutzern, Mitgliedern und Gästen in [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md) .
+     Diese Optionen sind für verschiedene Kontakttypen unterschiedlich. Weitere [&#x200B; finden Sie unter „Grundlegendes zu Benutzern, Mitgliedern und Gästen in [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md) .
 
 ## Kontakte importieren
 

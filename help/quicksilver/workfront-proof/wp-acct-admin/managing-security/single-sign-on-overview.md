@@ -41,7 +41,7 @@ ht-degree: 0%
 >
 >Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Für [!UICONTROL  Verwendung ] Funktion ist ein [!DNL Workfront] erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [Workfront-Pläne](https://business.adobe.com/products/workfront/pricing.html).
+Für [!UICONTROL &#x200B; Verwendung &#x200B;] Funktion ist ein [!DNL Workfront] erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [Workfront-Pläne](https://business.adobe.com/products/workfront/pricing.html).
 
 Mit Single Sign-On (SSO) können sich Ihre Benutzer mit dem vorhandenen Benutzernamen und Kennwort Ihres Unternehmens bei [!DNL Workfront Proof] anmelden.
 
@@ -54,4 +54,4 @@ Sie müssen über benutzerdefinierte Subdomains oder Domains in Ihrem [!DNL Work
 <!--* Custom sub-domains are free to set up. See our [Configure a branded domain in Workfront Proof](../../../workfront-proof/wp-acct-admin/branding/configure-branded-domain-in-wp.md) for more information.-->
 * Weitere Informationen über vollständig angepasste Domains finden Sie unter [Marke [!DNL Workfront Proof] Website - Erweitert](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
 
-Informationen [ Einrichten von SSO in Ihrem Konto finden  [!DNL Workfront Proof]  unter „Konfigurieren von Single Sign](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md) für Benutzer“.
+Informationen [&#x200B; Einrichten von SSO in Ihrem Konto finden  [!DNL Workfront Proof]  unter „Konfigurieren von Single Sign](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md) für Benutzer“.

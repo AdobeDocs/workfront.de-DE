@@ -74,7 +74,7 @@ Der Desktop Proofing Viewer sucht beim Start automatisch nach Aktualisierungen.�
 
 So suchen Sie manuell nach Updates:
 
-1. Klicken Sie auf einer Mac in der Apple **Navigationsleiste über dem Desktop Proofing Viewer auf** 0}Workfront Proof **> [Über Workfront Proof.** 
+1. Klicken Sie auf einer Mac in der Apple **Navigationsleiste über dem Desktop Proofing Viewer auf** 0&rbrace;Workfront Proof **> &lbrack;Über Workfront Proof.** 
 
    ODER
 

@@ -45,9 +45,9 @@ Jetzt können Sie Assets anhand von Daten aus Workfront kategorisieren und schne
 
 Zuvor war das Zuordnen von Workfront-Daten zu Experience Manager Assets-Tags nicht verfügbar.
 
-Weitere Informationen zu dieser Funktion in Experience Manager Assets as a Cloud Service finden Sie unter [Konfigurieren der Integration von [!UICONTROL Experience Manager Assets ]](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+Weitere Informationen zu dieser Funktion in Experience Manager Assets as a Cloud Service finden Sie unter [Konfigurieren der Integration von [!UICONTROL Experience Manager Assets &#x200B;]](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 
-Weitere Informationen zu dieser Funktion in Experience Manager Assets Essentials finden Sie unter [ der Experience Manager Assets Essentials-Integration ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
+Weitere Informationen zu dieser Funktion in Experience Manager Assets Essentials finden Sie unter [&#x200B; der Experience Manager Assets Essentials-Integration &#x200B;](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Erstellen benutzerdefinierter Formulare mit dem neuen Formular-Designer - Beta
 

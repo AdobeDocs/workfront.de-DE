@@ -47,7 +47,7 @@ Sie können das [!DNL Adobe Workfront]-Plug-in für [!DNL Creative Cloud] für F
 * Projekte und Aufgaben anzeigen
 * und mehr
 
-[Sehen Sie sich einen Video-Überblick über die im  [!DNL Adobe Workfront] -Plug-in für  [!DNL Creative Cloud] ](https://video.tv.adobe.com/v/3418801/){target=_blank} verfügbaren Funktionen an.
+[Sehen Sie sich einen Video-Überblick über die im  [!DNL Adobe Workfront] -Plug-in für  [!DNL Creative Cloud] &#x200B;](https://video.tv.adobe.com/v/3418801/){target=_blank} verfügbaren Funktionen an.
 
 ## Installieren und Verwenden des Plug-ins
 

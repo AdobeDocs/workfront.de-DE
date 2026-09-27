@@ -53,7 +53,7 @@ Die E-Mail repliziert die Benachrichtigungs-E-Mail, die ursprünglich gesendet w
 
 1. Klicken Sie auf **[!UICONTROL Mehr]** > **[!UICONTROL Nachricht.]**
 
-1. Geben Sie im angezeigten ]****[!UICONTROL  Nachricht senden einen **[!UICONTROL Titel]** und **[!UICONTROL Nachricht] ein,** klicken Sie dann auf **[!UICONTROL Senden].**&#x200B;Der Kontakt erhält in einer einzigen E-Mail eine E-Mail mit Informationen und persönlichen Links für alle Testsendungen.
+1. Geben Sie im angezeigten **&#x200B;**&#x200B;Nachricht senden einen **[!UICONTROL Titel]** und **[!UICONTROL Nachricht] ein,** klicken Sie dann auf **[!UICONTROL Senden].**&#x200B;Der Kontakt erhält in einer einzigen E-Mail eine E-Mail mit Informationen und persönlichen Links für alle Testsendungen.
 
 
 

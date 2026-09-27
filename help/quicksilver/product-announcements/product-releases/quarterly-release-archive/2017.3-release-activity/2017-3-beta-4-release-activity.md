@@ -137,7 +137,7 @@ Jetzt können Sie Filter speichern, die Sie im Auslastungsbericht erstellen. Dar
 
 Zuvor mussten Sie jedes Mal, wenn Sie den Auslastungsbericht filterten, einzelne Filteroptionen angeben.
 
-Weitere Informationen zum Speichern und Verwalten von Filtern im Auslastungsbericht finden Sie unter [Übersicht über den ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in [Übersicht über den Bericht zur Ressourcenauslastung](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Weitere Informationen zum Speichern und Verwalten von Filtern im Auslastungsbericht finden Sie unter [Übersicht über den &#x200B;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in [Übersicht über den Bericht zur Ressourcenauslastung](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Zusätzliche Filteroptionen im Auslastungsbericht {#additional-filtering-options-in-the-utilization-report}
 

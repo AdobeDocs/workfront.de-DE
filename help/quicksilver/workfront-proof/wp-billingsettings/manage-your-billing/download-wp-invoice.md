@@ -40,7 +40,7 @@ ht-degree: 0%
 
 Am ersten Tag eines neuen Abrechnungszeitraums wird Ihre Abonnementrechnung an den Hauptkontakt für Abrechnungen in Ihrem Konto und an die E-Mail-Adresse [!UICONTROL Abrechnungs-CC] gesendet, sofern Sie eine solche Adresse definiert haben.
 
-Die Rechnung wird auch im Abschnitt [!UICONTROL Abrechnung] Ihres [!DNL Workfront Proof] Kontos angezeigt, das Sie herunterladen können. Weitere Informationen finden [ unter  [!DNL Workfront Proof] Die Seite](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)Abrechnung“.
+Die Rechnung wird auch im Abschnitt [!UICONTROL Abrechnung] Ihres [!DNL Workfront Proof] Kontos angezeigt, das Sie herunterladen können. Weitere Informationen finden [&#x200B; unter  [!DNL Workfront Proof] Die Seite](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)Abrechnung“.
 
 Auf Ihrer Rechnung finden Sie folgende Informationen:
 
@@ -77,7 +77,7 @@ Wir stellen alle unsere Abos in USD standardmäßig automatisch in Rechnung, abe
 
 Um die Rechnungsinformationen für Ihr Konto zu ändern, gehen Sie zum Abschnitt Rechnungskontakt und Adresse der Seite Abrechnung . Siehe [Seite  [!DNL Workfront] Proof-Abrechnung](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
 
-Informationen zum Ändern der Kreditkartendetails finden Sie unter „Auswählen [ Zahlungsmethode in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md).
+Informationen zum Ändern der Kreditkartendetails finden Sie unter „Auswählen [&#x200B; Zahlungsmethode in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md).
 
 <!--For the detailed information on payments and invoicing, see [Account Payment in Workfront Proof](../../../workfront-proof/wp-billingsettings/manage-your-billing/acct-payment-in-wp.md). -->
 

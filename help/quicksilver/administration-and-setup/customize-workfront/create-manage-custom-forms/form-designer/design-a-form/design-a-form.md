@@ -691,7 +691,7 @@ Ein Datumsfeld zeigt einen Kalender an, in dem Benutzer ein Datum und eine Uhrze
 
 Hinzufügen von Datumsfeldern:
 
-1. Suchen Sie auf der **** Neues Feld auf der linken Bildschirmseite nach **Datum** und ziehen Sie es in einen Bereich auf der Arbeitsfläche.
+1. Suchen Sie auf der **&#x200B;**&#x200B;Neues Feld auf der linken Bildschirmseite nach **Datum** und ziehen Sie es in einen Bereich auf der Arbeitsfläche.
 
    ![Feld in Abschnitt ziehen](assets/drag-field-to-section.png)
 
@@ -815,12 +815,12 @@ So fügen Sie eine externe Suche hinzu:
       <td role="rowheader">JSON-Pfad</td>
       <td><p>Geben Sie den JSON-Pfad für die API ein oder fügen Sie ihn ein.</p> <p>Diese Option ermöglicht das Extrahieren von Daten aus der von der API-URL zurückgegebenen JSON. Damit können Sie auswählen, welche Werte aus dem JSON-Code in den Dropdown-Optionen angezeigt werden sollen.</p><p>Wenn Ihre API-URL beispielsweise JSON im folgenden Format zurückgibt, können Sie "$.data[*].name“ verwenden, um USA und Kanada als Dropdown-Optionen auszuwählen:</br>
       <pre>
-      {
-       Daten: {
+      &lbrace;
+       Daten: &lbrace;
          { name: „USA“},
          { name: „Canada“}
-       }
-      }
+       &rbrace;
+      &rbrace;
       </pre>
       </p>
      <p>Weitere Informationen zum JSON-Pfad und um sicherzustellen, dass Sie den richtigen Pfad angeben, finden Sie unter <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>

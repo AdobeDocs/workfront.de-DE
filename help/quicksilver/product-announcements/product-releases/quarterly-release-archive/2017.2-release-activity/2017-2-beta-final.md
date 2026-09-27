@@ -143,7 +143,7 @@ Sie können jetzt zusätzlich zum XLSX-Format den Auslastungsbericht für ein Pr
 
 Vor dieser Änderung konnten Sie den Auslastungsbericht nur im XLSX-Format exportieren.
 
-Weitere Informationen zum Exportieren des Auslastungsberichts finden Sie unter [Übersicht über den ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) unter [Übersicht über den Ressourcenauslastungsbericht](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Weitere Informationen zum Exportieren des Auslastungsberichts finden Sie unter [Übersicht über den &#x200B;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) unter [Übersicht über den Ressourcenauslastungsbericht](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Die Korrekturabzugsentscheidung wird im Bereich Meine Arbeit (Workfront) angezeigt {#proof-decision-displays-in-the-my-work-area-workfront}
 
@@ -151,7 +151,7 @@ Wenn Sie jetzt Korrekturabzugsgenehmigungen auf der Registerkarte Meine Genehmig
 
 Vor dieser Änderung gab es keinen Hinweis darauf, dass bereits eine Entscheidung über den Korrekturabzug getroffen wurde. Der Korrekturabzug blieb auf der Registerkarte Meine Genehmigungen , bis Sie den Browser aktualisiert haben.
 
-Weitere Informationen finden Sie unter [Genehmigen von ](../../../../review-and-approve-work/manage-approvals/approving-work.md)&quot; in [Genehmigen von ](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+Weitere Informationen finden Sie unter [Genehmigen von &#x200B;](../../../../review-and-approve-work/manage-approvals/approving-work.md)&quot; in [Genehmigen von &#x200B;](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 
 ## Rich-Media-Korrekturabzüge in voreingestellten Auflösungen anzeigen (ProofHQ und Workfront) {#view-rich-media-proofs-in-preset-resolutions-proofhq-and-workfront}
 
@@ -232,7 +232,7 @@ In den mobilen Apps werden die folgenden zusätzlichen Funktionen sowohl für di
 
 Für einige dieser Funktionen wird es ein öffentliches Beta-Programm für die Android-Plattform geben.
 
-Weitere Informationen zum kommenden Beta-Programm für Mobilgeräte finden Sie auf der [ „Betas“](https://support.workfront.com/hc/en-us/sections/115000743248)Seite.
+Weitere Informationen zum kommenden Beta-Programm für Mobilgeräte finden Sie auf der [&#x200B; „Betas“](https://support.workfront.com/hc/en-us/sections/115000743248)Seite.
 
 Weitere Informationen zur Verwendung der Mobile App von Workfront finden Sie unter .  
 

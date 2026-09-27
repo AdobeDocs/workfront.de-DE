@@ -23,7 +23,7 @@ ht-degree: 0%
 ---
 # Überblick über Breadcrumbs
 
-Breadcrumbs zeigen die vollständige Navigationshierarchie für alle Objekttypen an. Jedes Objekt im Breadcrumb-Pfad verfügt über eine Beschriftung, die den Objekttyp anzeigt. Die Seite, auf der Sie sich derzeit befinden, wird sowohl in der Kopfzeile der Seite als auch am Ende des Breadcrumb-Pfads kursiv angezeigt. Im folgenden Beispiel ist dies die Aufgabe &quot;[!UICONTROL  für das Brand Team].
+Breadcrumbs zeigen die vollständige Navigationshierarchie für alle Objekttypen an. Jedes Objekt im Breadcrumb-Pfad verfügt über eine Beschriftung, die den Objekttyp anzeigt. Die Seite, auf der Sie sich derzeit befinden, wird sowohl in der Kopfzeile der Seite als auch am Ende des Breadcrumb-Pfads kursiv angezeigt. Im folgenden Beispiel ist dies die Aufgabe &quot;[!UICONTROL &#x200B; für das Brand Team].
 
 ![Reduzierter Breadcrumb](assets/collapsed-breadcrumb-2026.png)
 

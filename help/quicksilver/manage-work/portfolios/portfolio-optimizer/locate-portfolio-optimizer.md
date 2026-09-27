@@ -108,7 +108,7 @@ Old:
 
 1. (Optional) Wählen Sie aus **[!UICONTROL Dropdown]** Menü „Filter“ aus, um einen anderen Satz von Portfolios anzuzeigen.
 1. Klicken Sie auf den Namen eines Portfolios, um darauf zuzugreifen.
-1. Klicken Sie im linken ]**auf**[!UICONTROL  Portfolio-Optimierung.
+1. Klicken Sie im linken **auf** Portfolio-Optimierung.
 
    Der [!UICONTROL Portfolio Optimizer] wird angezeigt.
 

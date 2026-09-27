@@ -344,7 +344,7 @@ Old:
    * **Mehrfachauswahl**: Wählen Sie diese Option aus, damit ein Datensatz aus dem aktuellen Datensatztyp mit mehreren Datensätzen aus dem Verbindungs-Datensatztyp verbunden werden kann.
    * **Einzelauswahl**: Wählen Sie diese Option aus, damit ein Datensatz aus dem aktuellen Datensatztyp mit einem Datensatz aus dem Verbindungs-Datensatztyp verbunden werden kann.
 
-1. (Bedingt) Wenn Sie **** Abschnitt **Verbindungstyp** die Option „Entsprechendes Feld für verknüpften Datensatztyp erstellen“ aktiviert haben, wählen Sie eine der folgenden Optionen, um anzugeben, mit wie vielen Datensätzen Benutzende eine Verbindung herstellen können:
+1. (Bedingt) Wenn Sie **&#x200B;**&#x200B;Abschnitt **Verbindungstyp** die Option „Entsprechendes Feld für verknüpften Datensatztyp erstellen“ aktiviert haben, wählen Sie eine der folgenden Optionen, um anzugeben, mit wie vielen Datensätzen Benutzende eine Verbindung herstellen können:
 
    * Viele-zu-viele
    * Eins zu viele
@@ -367,7 +367,7 @@ Old:
 
    >[!NOTE]
    >
-   >Ihr Workfront-Administrator kann Workfront Planning-Felder über die Metadatenzuordnung in Workfront Experience Manager Assets-Feldern zuordnen. Weitere Informationen finden Sie unter &quot;[ der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
+   >Ihr Workfront-Administrator kann Workfront Planning-Felder über die Metadatenzuordnung in Workfront Experience Manager Assets-Feldern zuordnen. Weitere Informationen finden Sie unter &quot;[&#x200B; der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets &#x200B;](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping).
 
 1. <span class="preview">(Optional und bedingt) Wenn Sie **Diese Verbindung abhängig machen** ausgewählt haben, klicken Sie auf **Filterregeln für Datensätze**, um einen Filter zu erstellen, um die Werte der Werte der verbundenen Felder zu begrenzen, wenn beide verbundenen Datensatzfelder auf demselben Datensatztyp angezeigt werden. </span>
 

@@ -43,7 +43,7 @@ Mit diesem Plug-in können Sie auf Details zu Arbeitselementen zugreifen, mit Ko
 
 Laden Sie [Adobe Workfront for Design and Video](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) noch heute auf den Marketplace herunter.
 
-Administratoren können [ Admin Console auch ein Paket mit den Plug](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html)ins erstellen und es Benutzern entweder auf verwaltete oder selbst verwaltete Weise bereitstellen.
+Administratoren können [&#x200B; Admin Console auch ein Paket mit den Plug](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html)ins erstellen und es Benutzern entweder auf verwaltete oder selbst verwaltete Weise bereitstellen.
 
 ## Verbessertes Filtererlebnis allgemein verfügbar in Adobe Workfront
 
@@ -81,7 +81,7 @@ Mit diesem Plug-in können Sie auf Details zu Arbeitselementen zugreifen, mit Ko
 
 Laden Sie [Adobe Workfront for Design and Video](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) noch heute auf den Markt.
 
-Administratoren können [ Admin Console auch ein Paket mit den Plug](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html)ins erstellen und es Benutzern entweder auf verwaltete oder selbst verwaltete Weise bereitstellen.
+Administratoren können [&#x200B; Admin Console auch ein Paket mit den Plug](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html)ins erstellen und es Benutzern entweder auf verwaltete oder selbst verwaltete Weise bereitstellen.
 
 ## Zugriff auf die Workfront-Hilfe für Kunden mit dem einheitlichen Adobe-Erlebnis
 

@@ -3,7 +3,7 @@ product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
 title: Verwalten von [!DNL Workfront Proof] Benutzern
-description: Als [!DNL Workfront Proof] können Sie Benutzereinstellungen anzeigen und Korrekturabzugsbenutzende im Bereich [!UICONTROL Kontoeinstellungen“ ].
+description: Als [!DNL Workfront Proof] können Sie Benutzereinstellungen anzeigen und Korrekturabzugsbenutzende im Bereich [!UICONTROL Kontoeinstellungen“ &#x200B;].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 4666cb18-e3a9-408b-8eb1-e00ebe2e6f9c
@@ -38,7 +38,7 @@ ht-degree: 1%
 >
 >Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Als [!DNL Workfront Proof] können Sie Benutzereinstellungen anzeigen und Korrekturabzugsbenutzende im Bereich [!UICONTROL Kontoeinstellungen“ ].
+Als [!DNL Workfront Proof] können Sie Benutzereinstellungen anzeigen und Korrekturabzugsbenutzende im Bereich [!UICONTROL Kontoeinstellungen“ &#x200B;].
 
 1. Klicken Sie **[!UICONTROL Einstellungen]** > **[!UICONTROL Kontoeinstellungen]** in der oberen rechten Ecke des [!DNL Workfront Proof].
 

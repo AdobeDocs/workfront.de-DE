@@ -43,4 +43,4 @@ ht-degree: 16%
 Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Brand the [!DNL Workfront Proof] site - Erweitert](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)
-* [Branding der  [!DNL Workfront Proof] ](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)
+* [Branding der  [!DNL Workfront Proof] &#x200B;](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)

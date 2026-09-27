@@ -115,9 +115,9 @@ Old:
 
 ## Überprüfen angeforderter Projekte in einem Projektbericht
 
-Sie können einen Bericht für Projekte erstellen, um zu sehen, welche Projekte den Status &quot;[!UICONTROL &quot; ].
+Sie können einen Bericht für Projekte erstellen, um zu sehen, welche Projekte den Status &quot;[!UICONTROL &quot; &#x200B;].
 
-Weitere Informationen zur Genehmigung von Projektanfragen durch Erstellen eines Projektberichts finden Sie [[!UICONTROL  Abschnitt „Genehmigen des Business Case durch Erstellen ]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report) Projektberichts“ in [Genehmigen eines Business Case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
+Weitere Informationen zur Genehmigung von Projektanfragen durch Erstellen eines Projektberichts finden Sie [[!UICONTROL &#x200B; Abschnitt „Genehmigen des Business Case durch Erstellen &#x200B;]](../../../manage-work/projects/define-a-business-case/approve-business-case.md#build-a-report) Projektberichts“ in [Genehmigen eines Business Case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
 ## Angeforderte Projekte innerhalb eines Portfolios überprüfen
 
@@ -135,7 +135,7 @@ Weitere Informationen zur Genehmigung von Projektanfragen durch Erstellen eines 
 1. Klicken Sie **[!UICONTROL linken]** auf „Projektdetails“.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie **[!UICONTROL Business Case]** und klicken Sie dann im Bereich **[!UICONTROL Business Case-Zusammenfassung] auf]** Genehmigen ]**oder**[!UICONTROL  Ablehnen[!UICONTROL , um den Business Case zu genehmigen oder abzulehnen.
+   * Klicken Sie **[!UICONTROL Business Case]** und klicken Sie dann im Bereich **[!UICONTROL Business Case-Zusammenfassung] auf** Genehmigen **oder** Ablehnen, um den Business Case zu genehmigen oder abzulehnen.
 
      ![approve_or_ject_business_case.png](assets/approve-or-reject-business-case-350x563.png)
 

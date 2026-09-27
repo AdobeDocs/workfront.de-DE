@@ -96,7 +96,7 @@ Zuvor verwendeten sowohl der neue als auch der alte Portfolio Optimizer die budg
 
 Wir haben außerdem zwei neue Felder zu den Portfolio-Finanzfeldern hinzugefügt: Legacy-ROI und Legacy-Nettowert , um die neuen Werte aus den neuen Tools für das Ressourcenmanagement zu erfassen.
 
-Weitere Informationen finden Sie unter [Übersicht über Portfolio ](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md) im Artikel [Übersicht über Portfolio Optimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+Weitere Informationen finden Sie unter [Übersicht über Portfolio &#x200B;](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md) im Artikel [Übersicht über Portfolio Optimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 ## Auslastungsbericht: Befüllt budgetierte Stunden aus dem neuen Ressourcenbudgetierungsbereich {#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area}
 
