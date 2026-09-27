@@ -5,13 +5,23 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 347c3e87fea0289616bf1a52779c07501a8ec69d
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '707'
 ht-degree: 4%
-
 ---
-
 
 # Festlegen von Standardberechtigungen für Datensätze
 
@@ -119,7 +129,7 @@ Beachten Sie Folgendes bei der Konfiguration von standardmäßigen Datensatzbere
 
 ## Konfigurieren von Standardeintragsberechtigungen für einen Datensatztyp
 
-1. Navigieren Sie zu Datensatztyp > **Mehr** Menü ![Mehr &#x200B;](assets/more-menu.png) > **Einstellungen** > **Datensatzeinstellungen**.
+1. Navigieren Sie zu Datensatztyp > **Mehr** Menü ![Mehr ](assets/more-menu.png) > **Einstellungen** > **Datensatzeinstellungen**.
 
    ![Registerkarte Datensatzeinstellungen im Bereich Datensatztypeinstellungen](assets/record-settings-tab-in-record-type-settings-area.png)
 

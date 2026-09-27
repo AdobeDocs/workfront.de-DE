@@ -6,20 +6,26 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bd041a5-a6e3-4fe3-ae23-45980701e904
-TQID: https://experienceleague.adobe.com/owoXC1kzVMTER0p-z1l3nKfa1d0z8JHMzZTsP26QLkc
+TQID: 'https://experienceleague.adobe.com/owoXC1kzVMTER0p-z1l3nKfa1d0z8JHMzZTsP26QLkc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 899
+source-wordcount: '899'
 ht-degree: 1%
-
 ---
-
 # Verbesserungen bei Agile in Version 23.1
 
 Auf dieser Seite werden alle Agile-Verbesserungen beschrieben, die mit der Version 23.1 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 16. Januar 2023 in der Produktionsumgebung verfügbar gemacht.
@@ -140,6 +146,6 @@ Sie können eine Pinnwand so konfigurieren, dass Karten nach einem Zeitplan arch
 
 Wenn Sie die Karten wieder anzeigen möchten, nachdem sie von der Pinnwand gefallen sind, können Sie den Pinnwand-Filter so einstellen, dass archivierte Karten angezeigt werden.
 
-Weitere Informationen finden Sie unter [Konfigurieren von &#x200B;](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
+Weitere Informationen finden Sie unter [Konfigurieren von ](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
 [Sehen Sie sich eine Videodemonstration zu dieser Funktion an](https://video.tv.adobe.com/v/3412323/){target=_blank}

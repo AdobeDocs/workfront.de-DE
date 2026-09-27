@@ -3,35 +3,45 @@ content-type: overview
 product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: manage-security-workfront-proof
-title: Single Sign-On [!DNL Workfront Proof]
-description: Mit Single Sign-On (SSO) können sich Ihre Benutzer mit dem vorhandenen Benutzernamen  [!DNL Workfront Proof]  Kennwort Ihres Unternehmens bei anmelden.
+title: Single Sign-On in [!DNL Workfront Proof]
+description: Mit Single Sign-On (SSO) können sich Ihre Benutzer mit dem vorhandenen Benutzernamen und Kennwort Ihres Unternehmens bei [!DNL Workfront Proof] anmelden.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb1f6883-6209-4a55-b181-67af4b496ca0
-TQID: https://experienceleague.adobe.com/rQkypJthOpKg1gQBH0tUjtwkbaxLn1k-lrpZj9hCQ5o
+TQID: 'https://experienceleague.adobe.com/rQkypJthOpKg1gQBH0tUjtwkbaxLn1k-lrpZj9hCQ5o'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 173
+source-wordcount: '174'
 ht-degree: 0%
-
 ---
-
 # Single Sign-On in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
 >Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Für [!UICONTROL &#x200B; Verwendung &#x200B;] Funktion ist ein [!DNL Workfront] erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [Workfront-Pläne](https://business.adobe.com/de/products/workfront/pricing.html).
+Für [!UICONTROL  Verwendung ] Funktion ist ein [!DNL Workfront] erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [Workfront-Pläne](https://business.adobe.com/products/workfront/pricing.html).
 
 Mit Single Sign-On (SSO) können sich Ihre Benutzer mit dem vorhandenen Benutzernamen und Kennwort Ihres Unternehmens bei [!DNL Workfront Proof] anmelden.
 
@@ -44,4 +54,4 @@ Sie müssen über benutzerdefinierte Subdomains oder Domains in Ihrem [!DNL Work
 <!--* Custom sub-domains are free to set up. See our [Configure a branded domain in Workfront Proof](../../../workfront-proof/wp-acct-admin/branding/configure-branded-domain-in-wp.md) for more information.-->
 * Weitere Informationen über vollständig angepasste Domains finden Sie unter [Marke [!DNL Workfront Proof] Website - Erweitert](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md).
 
-Informationen [&#x200B; Einrichten von SSO in Ihrem Konto finden  [!DNL Workfront Proof]  unter „Konfigurieren von Single Sign](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md) für Benutzer“.
+Informationen [ Einrichten von SSO in Ihrem Konto finden  [!DNL Workfront Proof]  unter „Konfigurieren von Single Sign](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md) für Benutzer“.

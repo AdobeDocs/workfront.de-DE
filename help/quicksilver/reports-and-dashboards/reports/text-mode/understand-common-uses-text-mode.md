@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/T-slclYoeq429jltWCDKC8tBKo9nblvtm8IL2ahTLzg
+TQID: 'https://experienceleague.adobe.com/T-slclYoeq429jltWCDKC8tBKo9nblvtm8IL2ahTLzg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 763
+source-wordcount: '763'
 ht-degree: 7%
-
 ---
-
 # Überblick über häufige Verwendungszwecke für den Textmodus
 
 <!-- Audited: 1/2025 -->
@@ -50,9 +55,9 @@ Sie können den Textmodus verwenden, wenn Sie in Workfront Folgendes erreichen m
   Weitere Informationen zu berechneten benutzerdefinierten Feldern finden Sie im Abschnitt [Verwenden des Textmodus in berechneten benutzerdefinierten Feldern](#use-text-mode-in-calculated-custom-fields) in diesem Artikel.
 * Filter, Ansichten und Gruppierungen über die Möglichkeiten in Report Builder hinaus verbessern. Informationen zur Verwendung des Textmodus für Filter, Ansichten und Gruppierungen finden Sie in den folgenden Abschnitten in diesem Artikel:
 
-   * [Verwenden des Textmodus in Ansichten](#use-text-mode-in-views)
-   * [Verwenden des Textmodus in Filtern](#use-text-mode-in-filters)
-   * [Verwenden des Textmodus in Gruppierungen](#use-text-mode-in-groupings)
+  * [Verwenden des Textmodus in Ansichten](#use-text-mode-in-views)
+  * [Verwenden des Textmodus in Filtern](#use-text-mode-in-filters)
+  * [Verwenden des Textmodus in Gruppierungen](#use-text-mode-in-groupings)
 
 * Erstellen Sie benutzerdefinierte Eingabeaufforderungen. Sie können benutzerdefinierte Eingabeaufforderungen nur im Textmodus erstellen.
 

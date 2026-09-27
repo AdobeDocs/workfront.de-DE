@@ -6,18 +6,21 @@ description: Sie können aus einer Reihe von Widgets auswählen, um den Inhalt a
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
-TQID: https://experienceleague.adobe.com/L9mVwCYmv2KOs2OKFlubf3MxjeRdthyE6prepRWebGc
+TQID: 'https://experienceleague.adobe.com/L9mVwCYmv2KOs2OKFlubf3MxjeRdthyE6prepRWebGc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1123
+source-wordcount: '1123'
 ht-degree: 6%
-
 ---
-
 # Hinzufügen, Bearbeiten oder Entfernen von Widgets auf der Startseite
 
 <!-- Audited: 4/2025 -->
@@ -88,7 +91,7 @@ Standardmäßig werden der Startseite je nach Lizenztyp bestimmte Widgets hinzug
 
 ## Widget zur Startseite hinzufügen
 
-Widgets sind die Grundlage der Startseite. Durch Hinzufügen von Widgets zu Ihrer Startseite können Sie den Typ der Informationen auswählen, die angezeigt werden, um Ihren Arbeitsanforderungen am besten zu entsprechen. Einige Widgets stehen nur für bestimmte Lizenztypen zur Verfügung, da die von ihnen verfolgten Objekte nur für diese Lizenzen verfügbar sind. Weitere Informationen finden Sie [&#x200B; Abschnitt „Widgets, die für bestimmte Lizenztypen verfügbar &#x200B;](#widgets-available-for-specific-license-types)&quot; weiter oben.
+Widgets sind die Grundlage der Startseite. Durch Hinzufügen von Widgets zu Ihrer Startseite können Sie den Typ der Informationen auswählen, die angezeigt werden, um Ihren Arbeitsanforderungen am besten zu entsprechen. Einige Widgets stehen nur für bestimmte Lizenztypen zur Verfügung, da die von ihnen verfolgten Objekte nur für diese Lizenzen verfügbar sind. Weitere Informationen finden Sie [ Abschnitt „Widgets, die für bestimmte Lizenztypen verfügbar ](#widgets-available-for-specific-license-types)&quot; weiter oben.
 
 Hinzufügen eines Widgets:
 
@@ -124,9 +127,9 @@ Hinzufügen eines Widgets:
 
    * **Meine Genehmigungen**\
        Zeigt alle ausstehenden zugewiesenen oder delegierten Genehmigungen an, sowie eine Schaltfläche zum Delegieren von Genehmigungen und eine Schaltfläche zum Treffen von Genehmigungsentscheidungen direkt im Widget. Genehmigungen werden wie folgt geordnet:
-      * Überfällige Fristen
-      * Bevorstehende Fristen
-      * Elemente ohne Frist
+     * Überfällige Fristen
+     * Bevorstehende Fristen
+     * Elemente ohne Frist
 
    * **Metriken für Dokumentengenehmigung**\
            Zeigt zwei Diagramme mit Informationen zur durchschnittlichen Genehmigungszeit und zu Entscheidungen sowie Listenansichten mit ausstehenden und überfälligen Genehmigungen. Dieses Widget kann nur verwendet werden, wenn [Einheitliche Genehmigungen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) aktiviert ist.

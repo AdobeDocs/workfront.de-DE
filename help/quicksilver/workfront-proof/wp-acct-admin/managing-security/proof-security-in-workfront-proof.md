@@ -8,24 +8,35 @@ description: Datensicherheit ist für [!DNL Workfront Proof] von größter Bedeu
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bee0fece-e22b-4f92-9641-81a130f5c346
-TQID: https://experienceleague.adobe.com/4o0kpYFF1CMOYWLJxT-v-rcfM5BCnzywq2W0VNeFCYk
+TQID: 'https://experienceleague.adobe.com/4o0kpYFF1CMOYWLJxT-v-rcfM5BCnzywq2W0VNeFCYk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Privacy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 349
+source-wordcount: '349'
 ht-degree: 0%
-
 ---
-
 # Sicherheitsnachweis in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -36,7 +47,7 @@ Datensicherheit ist für [!DNL Workfront Proof] von größter Bedeutung. Wir inv
 
 Dadurch bieten wir unseren Kunden ein unübertroffenes Maß an Sicherheit und Datenschutz.
 
-Weitere Einzelheiten finden Sie auf [&#x200B; Seite &#x200B;](https://www.adobe.com/legal/terms/enterprise-licensing/workfront-legacy-terms.html)Sicherheitsübersicht“.
+Weitere Einzelheiten finden Sie auf [ Seite ](https://www.adobe.com/legal/terms/enterprise-licensing/workfront-legacy-terms.html)Sicherheitsübersicht“.
 
 ## Elektronische Signaturen erforderlich
 
@@ -66,4 +77,4 @@ Standardmäßig können Prüfer die Originaldatei, aus der der Korrekturabzug er
 
 Die in Ihren persönlichen Einstellungen gespeicherten Einstellungen werden auf alle von Ihnen erstellten Korrekturabzüge angewendet, können jedoch beim Erstellen eines neuen Korrekturabzugs oder beim Ändern eines Korrekturabzugs überschrieben werden, wie unter [Verwalten von Korrekturabzugsdetails in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) beschrieben.
 
-Sie können Datei-Downloads deaktivieren, indem Sie Ihre persönlichen Korrekturabzugseinstellungen ändern, wie unter [Konfigurieren der Korrekturabzugseinstellungen in[!DNL &#x200B; Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) beschrieben.
+Sie können Datei-Downloads deaktivieren, indem Sie Ihre persönlichen Korrekturabzugseinstellungen ändern, wie unter [Konfigurieren der Korrekturabzugseinstellungen in[!DNL  Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) beschrieben.

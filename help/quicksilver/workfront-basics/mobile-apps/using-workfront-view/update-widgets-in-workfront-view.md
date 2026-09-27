@@ -2,29 +2,33 @@
 product-previous: mobile
 navigation-topic: use-workfront-view
 title: Aktualisieren von Widgets in der Ansicht „Projektdetails“
-description: Nachdem Sie in der Projektliste darauf zugegriffen haben[!UICONTROL &#x200B; können Sie zusätzliche Informationen über das &#x200B;]Projekt“ anzeigen, indem Sie Widgets zu Ihrem Bildschirm [!UICONTROL Projektdetails] hinzufügen. Jeder Benutzer kann seine eigenen Widgets anpassen.
+description: Nachdem Sie in der Projektliste darauf zugegriffen haben[!UICONTROL  können Sie zusätzliche Informationen über das ]Projekt“ anzeigen, indem Sie Widgets zu Ihrem Bildschirm [!UICONTROL Projektdetails] hinzufügen. Jeder Benutzer kann seine eigenen Widgets anpassen.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 593dc4a2-20aa-44d3-b819-1d4b160095ed
-TQID: https://experienceleague.adobe.com/KMG0J4jmlcpxiHnsGTvB-pqm4IIYRDbt2p3hemysY2M
+TQID: 'https://experienceleague.adobe.com/KMG0J4jmlcpxiHnsGTvB-pqm4IIYRDbt2p3hemysY2M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 517
+source-wordcount: '517'
 ht-degree: 8%
-
 ---
-
 # Aktualisieren von Widgets in der Ansicht [!UICONTROL Projektdetails]
 
-Nachdem Sie in der Projektliste darauf zugegriffen haben[!UICONTROL &#x200B; können Sie zusätzliche Informationen über das &#x200B;]Projekt“ anzeigen, indem Sie Widgets zu Ihrem Bildschirm [!UICONTROL Projektdetails] hinzufügen. Jeder Benutzer kann seine eigenen Widgets anpassen.
+Nachdem Sie in der Projektliste darauf zugegriffen haben[!UICONTROL  können Sie zusätzliche Informationen über das ]Projekt“ anzeigen, indem Sie Widgets zu Ihrem Bildschirm [!UICONTROL Projektdetails] hinzufügen. Jeder Benutzer kann seine eigenen Widgets anpassen.
 
 ## Zugriffsanforderungen
 
@@ -78,27 +82,27 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
    * **[!UICONTROL Aufgabenstatus]** Zeigt alle Aufgaben im Projekt nach [!UICONTROL Fortschrittsstatus] in einem Tortendiagramm an.
    * **[!UICONTROL Anstehende Aufgaben]**: Zeigt bis zu 6 anstehende Aufgaben an. Das Widget sortiert die Projektaufgaben in der folgenden Reihenfolge:
 
-      * zunächst bis zum [!UICONTROL Geschätzten Fälligkeitsdatum]
-      * zweitens nach [!UICONTROL Struktur der Arbeitsaufteilung]
+     * zunächst bis zum [!UICONTROL Geschätzten Fälligkeitsdatum]
+     * zweitens nach [!UICONTROL Struktur der Arbeitsaufteilung]
 
-     Es werden die letzten beiden abgeschlossenen Aufgaben (falls zutreffend) und die nächsten vier Aufgaben angezeigt. Um zu verstehen, welche Aufgaben in der Mobile App [!DNL Workfront] angezeigt werden, können Sie einen Aufgabenbericht für das angezeigte Projekt erstellen und ihn nach dem voraussichtlichen Fälligkeitsdatum und dann nach der [!DNL Workfront] sortieren. Die ersten 6 Aufgaben sind die Aufgaben, die in der Mobile App von Workfront View im Widget [!UICONTROL Kommende &#x200B;]&quot; aufgeführt sind.
+     Es werden die letzten beiden abgeschlossenen Aufgaben (falls zutreffend) und die nächsten vier Aufgaben angezeigt. Um zu verstehen, welche Aufgaben in der Mobile App [!DNL Workfront] angezeigt werden, können Sie einen Aufgabenbericht für das angezeigte Projekt erstellen und ihn nach dem voraussichtlichen Fälligkeitsdatum und dann nach der [!DNL Workfront] sortieren. Die ersten 6 Aufgaben sind die Aufgaben, die in der Mobile App von Workfront View im Widget [!UICONTROL Kommende ]&quot; aufgeführt sind.
 
    * **[!UICONTROL Verbleibende Aufgaben]**: Zeigt die unvollständigen Aufgaben in einem Liniendiagramm an.
    * **[!UICONTROL Dokumente]**: Zeigt eine Liste der an das Projekt angehängten Dokumente an.\
 
      Sie können die folgenden Dokumentenformate mit [!DNL Workfront View] öffnen:
 
-      * Alle Textdateien
-      * .pdf
-      * Bilddateien (.jpg, .jpeg, .png usw.)
-      * .xls
+     * Alle Textdateien
+     * .pdf
+     * Bilddateien (.jpg, .jpeg, .png usw.)
+     * .xls
    * **[!UICONTROL Details]**: Zeigt die folgenden Details zum Projekt an:
 
-      * Projektname
-      * Name des Erstellers des Projekts
-      * Projektstatus
-      * Projektgruppe
-      * Projektzeitplan
+     * Projektname
+     * Name des Erstellers des Projekts
+     * Projektstatus
+     * Projektgruppe
+     * Projektzeitplan
    * **[!UICONTROL Team]**: Zeigt die Namen der Benutzer an, die dem Projektteam angehören.\
 
      Weitere Informationen zu Projektteams finden Sie unter [Übersicht über das Projektteam](../../../manage-work/projects/planning-a-project/project-team-overview.md).

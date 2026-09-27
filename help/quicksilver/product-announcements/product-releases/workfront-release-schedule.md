@@ -8,22 +8,27 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-TQID: https://experienceleague.adobe.com/a2VtxPZJ9Ut4VHmwqhrCbUH-3i2nMqOnzR18vyg8buQ
+TQID: 'https://experienceleague.adobe.com/a2VtxPZJ9Ut4VHmwqhrCbUH-3i2nMqOnzR18vyg8buQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 914
-ht-degree: 98%
-
+source-wordcount: '936'
+ht-degree: 100%
 ---
-
 # Veröffentlichungszeitplan und -prozess für Adobe Workfront
 
 ## Update-Zeitplan für die Vorschau
@@ -65,25 +70,25 @@ Wenn Funktionen aus der geplanten Veröffentlichung entfernt werden, nachdem all
 
 ## Beta-Versionen
 
-Gelegentlich veröffentlicht Workfront neue Funktionen als Teil eines Beta-Programms.
-Die spezifischen Informationen zu jeder Beta-Version, einschließlich der Teilnahme, der Veröffentlichung, wenn jedes Beta-Programm gestartet wird, und aller Beta-Programme sind unterschiedlich.
+Gelegentlich veröffentlicht Workfront neue Funktionen im Rahmen eines Beta-Programms.
+Die spezifischen Informationen zu jeder Beta-Version, einschließlich der Teilnahmebedingungen, werden beim Start des jeweiligen Beta-Programms veröffentlicht. Alle Beta-Programme unterscheiden sich voneinander.
 
 Die folgenden Beta-Programme sind in Workfront verfügbar:
 
 * **Geschlossene oder private Beta-Version**: Im Folgenden finden Sie die Merkmale einer geschlossenen oder einer privaten Beta-Version:
 
-   * Die Funktionen stehen nur einer kleinen Gruppe von Kundinnen und Kunden zur Verfügung, die sorgfältig von Workfront ausgewählt wurden.
-   * Die Teilnehmenden arbeiten in der Regel mit einem Produkt-Manager bzw. einer Produkt-Managerin zusammen und geben regelmäßig Feedback.
-   * Neue Funktionen, die Teil der Beta-Version sind, können entweder für die Vorschau oder für die Produktionsumgebung oder in einer separaten Umgebung veröffentlicht werden, die für die Zwecke des Beta-Programms zur Verfügung gestellt wird. Die Funktionen einer geschlossenen Beta-Version werden in zufälligen Intervallen und ohne Warnung veröffentlicht.
-   * Auf den Produktversionsseiten gibt es keine Versionsinformationen zu geschlossenen Beta-Versionen.
+  * Die Funktionen stehen nur einer kleinen Gruppe von Kundinnen und Kunden zur Verfügung, die sorgfältig von Workfront ausgewählt wurden.
+  * Die Teilnehmenden arbeiten in der Regel mit einem Produkt-Manager bzw. einer Produkt-Managerin zusammen und geben regelmäßig Feedback.
+  * Neue Funktionen, die Teil der Beta-Version sind, können entweder für die Vorschau oder für die Produktionsumgebung oder in einer separaten Umgebung veröffentlicht werden, die für die Zwecke des Beta-Programms zur Verfügung gestellt wird. Die Funktionen einer geschlossenen Beta-Version werden in zufälligen Intervallen und ohne Warnung veröffentlicht.
+  * Auf den Produktversionsseiten gibt es keine Versionsinformationen zu geschlossenen Beta-Versionen.
 
 * **Offene Beta-Version oder öffentliche Beta-Version**: Im Folgenden werden die Merkmale einer offenen oder einer öffentlichen Beta-Version erläutert:
 
-   * Die Funktionen stehen allen Workfront-Kundinnen und -Kunden zur Verfügung, befinden sich jedoch in einem Beta-Zustand. Sie sind möglicherweise nicht immer voll funktionsfähig und Feedback ist immer willkommen.
-   * Die Teilnahme an einer öffentlichen Beta-Version ist optional und Kundinnen und Kunden können selbst entscheiden, ob sie die Beta-Funktionen aktivieren möchten.
-   * Neue Funktionen, die Teil der Beta-Version sind, können entweder in der Vorschau oder in der Produktionsumgebung veröffentlicht werden.
-   * Die Funktionen werden möglicherweise häufiger veröffentlicht als die regulären Veröffentlichungsmuster für Workfront.
-   * Informationen darüber, wann Funktionen in einer öffentlichen Beta-Version veröffentlicht werden, finden Sie auf den Produktversionsseiten.
+  * Die Funktionen stehen allen Workfront-Kundinnen und -Kunden zur Verfügung, befinden sich jedoch in einem Beta-Zustand. Sie sind möglicherweise nicht immer voll funktionsfähig und Feedback ist immer willkommen.
+  * Die Teilnahme an einer öffentlichen Beta-Version ist optional und Kundinnen und Kunden können selbst entscheiden, ob sie die Beta-Funktionen aktivieren möchten.
+  * Neue Funktionen, die Teil der Beta-Version sind, können entweder in der Vorschau oder in der Produktionsumgebung veröffentlicht werden.
+  * Die Funktionen werden möglicherweise häufiger veröffentlicht als die regulären Veröffentlichungsmuster für Workfront.
+  * Informationen darüber, wann Funktionen in einer öffentlichen Beta-Version veröffentlicht werden, finden Sie auf den Produktversionsseiten.
 
 Informationen zu Versionshinweisen für Produkte finden Sie unter [Produktversionen](../../product-announcements/product-releases/product-releases.md).
 

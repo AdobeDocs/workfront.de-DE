@@ -3,24 +3,28 @@ content-type: overview
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Adobe Workfront für Android
-description: Die  [!DNL Adobe Workfront] -App ermöglicht den Zugriff auf Ihre Arbeit auf jedem Android-Gerät. Sie können die Mobile App  [!DNL Workfront]  Smartphones und Tablets mit Android 5.0 oder höher installieren und verwenden.
+description: Die [!DNL Adobe Workfront] App ermöglicht den Zugriff auf Ihre Arbeit auf jedem Android-Gerät. Sie können die Mobile App [!DNL Workfront] auf Smartphones und Tablets installieren und verwenden, auf denen Android 5.0 oder höher ausgeführt wird.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4bc209b8-18da-4f6f-97bd-699356269179
-TQID: https://experienceleague.adobe.com/-vCcquqY4NjJNxUKY4ECLk-ciB20R3CQdNHceIXp16o
+TQID: 'https://experienceleague.adobe.com/-vCcquqY4NjJNxUKY4ECLk-ciB20R3CQdNHceIXp16o'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 539
-ht-degree: 5%
-
+source-wordcount: '541'
+ht-degree: 4%
 ---
-
 # [!DNL Adobe Workfront] for [!DNL Android]
 
 Mit der [!DNL Adobe Workfront] App können Sie auf jedem [!DNL Android] Gerät auf Ihre Arbeit zugreifen. Sie können die Mobile App [!DNL Workfront] auf Smartphones und Tablets installieren und verwenden, die [!DNL Android] 5.0 oder höher ausgeführt werden.
@@ -39,7 +43,7 @@ Im Bereich [!UICONTROL Startseite] können Sie direkt an Aufgaben, Problemen und
    <td> 
     <ul> 
      <li>Beginn der Arbeit an Aufgaben und Problemen</li> 
-     <li>Aufgaben und Probleme als erledigt markieren </li> 
+     <li>Aufgaben und Probleme als erledigt markieren [!UICONTROL]</li> 
      <li>Aufgaben und Probleme neu zuweisen</li> 
      <li>Ändern des [!UICONTROL Commit-Datums]</li> 
     </ul> </td> 

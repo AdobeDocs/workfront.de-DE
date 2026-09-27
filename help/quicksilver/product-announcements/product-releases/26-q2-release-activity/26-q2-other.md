@@ -5,18 +5,24 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be95161b-2443-464a-b91c-82a96d5354a2
-TQID: https://experienceleague.adobe.com/5Ny1A3FP4VF8la2a4wSpNlTSPGc-b5HtvozqPHNVmIU
+TQID: 'https://experienceleague.adobe.com/5Ny1A3FP4VF8la2a4wSpNlTSPGc-b5HtvozqPHNVmIU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 566
-ht-degree: 21%
-
+source-wordcount: '620'
+ht-degree: 20%
 ---
-
 # Weitere Verbesserungen während des Veröffentlichungszeitraums des zweiten Quartals 2026
 
 Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom zweiten Quartal 2026 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
@@ -27,7 +33,9 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im zweiten Quartal 2026 ve
 
 >[!NOTE]
 >
->Vorschau: 2. April 2026>Produktions-Schnellveröffentlichung: 15. April 2026>Produktion für alle: 16. April 2026
+>Vorschau: 2. April 2026
+>Produktions-Schnellveröffentlichung: 15. April 2026
+>Produktion für alle: 16. April 2026
 
 Wir haben eine neue Einstellung hinzugefügt, um die Zeilenhöhe in erweiterten Listen anzupassen.
 
@@ -37,7 +45,9 @@ Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quic
 
 >[!NOTE]
 >
->Vorschau: 2. April 2026>Produktions-Schnellveröffentlichung: 15. April 2026>Produktion für alle: 16. April 2026
+>Vorschau: 2. April 2026
+>Produktions-Schnellveröffentlichung: 15. April 2026
+>Produktion für alle: 16. April 2026
 
 Wir haben die folgenden personalisierten Namen für Team-, Gruppen-, Unternehmens- und Rollenfilter in erweiterten Listen hinzugefügt:
 
@@ -57,7 +67,9 @@ Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quic
 
 >[!NOTE]
 >
->Vorschau: 2. April 2026>Produktions-Schnellveröffentlichung: 15. April 2026>Produktion für alle: 16. April 2026
+>Vorschau: 2. April 2026
+>Produktions-Schnellveröffentlichung: 15. April 2026
+>Produktion für alle: 16. April 2026
 
 Sie können jetzt bedingte Formatierung auf Anfragenlisten im Bereich Anfragen und im Widget Meine Anfragen auf der Startseite anwenden. Diese Funktion war in der Listenansicht vor dieser Verbesserung nicht vorhanden.
 
@@ -84,7 +96,9 @@ Weitere Informationen finden Sie unter [Erstellen und Verwalten von Ansichten im
 
 >[!NOTE]
 >
->Vorschau: 2. April 2026>Produktions-Schnellveröffentlichung: 15. April 2026>Produktion für alle: 16. April 2026
+>Vorschau: 2. April 2026
+>Produktions-Schnellveröffentlichung: 15. April 2026
+>Produktion für alle: 16. April 2026
 
 Um Ihnen das Auffinden benötigter Anfragen zu erleichtern, haben wir der Anfragenliste und dem Widget Meine Anfragen Gruppierungen hinzugefügt. Jetzt können Sie Anfragen nach einer beliebigen Spalte in der Liste gruppieren. Diese Gruppierungen werden Teil der Ansicht, die Sie beim Erstellen der Gruppierung verwenden.
 
@@ -94,7 +108,8 @@ Weitere Informationen zum Erstellen von Ansichten für die Widgets Anfrageliste 
 
 >[!NOTE]
 >
->Vorschau: 11. Dezember 2025>Produktions-Schnellversion: 11. Februar 2026\
+>Vorschau: 11. Dezember 2025
+>Produktionsschnellveröffentlichung: 11. Februar 2026\
 >Produktion für alle: 11. Februar 2026
 
 Um Organisationen den Zugriff auf die Leistungen von Adobe Unified Experience zu ermöglichen, stellen wir die Funktion immer mehr bestehenden Workfront-Kundinnen und -Kunden zur Verfügung.

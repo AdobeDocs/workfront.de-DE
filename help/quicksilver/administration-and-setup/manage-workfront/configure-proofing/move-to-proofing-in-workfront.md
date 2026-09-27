@@ -6,13 +6,14 @@ navigation-topic: configure-proofing-functionality
 title: Überblick über die Integration von Workfront Proof in das Proofing in Workfront
 description: Wenn Ihr Unternehmen von der eigenständigen Version von Workfront Proof zum Workfront Pro-Plan wechselt, in dem Workfront Proof Premium mit Workfront integriert ist, sind einige Proofing-Funktionen nicht verfügbar.
 author: Courtney
-source-git-commit: 49d4de3455fc1156efc8a88e8d2bee329c375279
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 0%
-
 ---
-
 
 # Überblick über die Integration von Workfront Proof in das Proofing in Workfront
 
@@ -45,28 +46,28 @@ Wenn Ihr Unternehmen von der eigenständigen Version von Workfront Proof zum Wor
 * Möglichkeit zur Verbindung zwischen dem neuen integrierten -Konto und dem Workfront Proof -Konto.
 * Möglichkeit zum Ausführen von Workfront Proof-Berichten:
 
-   * Kürzlich aufgerufene Elemente
-   * Korrekturabzüge, die ich mit „Pünktlich“, „Gefährdet“ und „Verspäteter Status“ verwalten kann
-   * Korrekturabzüge mit Status „termingerecht“, „gefährdet“ und „Verspätet“ warten auf meine Entscheidung
-   * Korrekturabzüge, die ich überprüfen muss
-   * Aktive Korrekturabzüge
-   * Archivierte Korrekturabzüge
-   * Gesperrte Korrekturabzüge
-   * Zum Korrekturabzug direkt über den Bericht wechseln
-   * Direkt aus dem Bericht zu den Korrekturabzugsdetails wechseln
-   * Korrekturabzug direkt im Bericht freigeben
-   * Nachrichten-Korrekturabzug direkt aus dem Bericht
-   * Korrekturabzug aus Bericht kopieren
-   * Original aus Bericht herunterladen
-   * Delegieren der Eigentümerschaft aus dem Bericht
-   * Korrekturabzugs-Links aus dem Bericht freigeben
-   * Kommentare aus Bericht drucken
-   * Excel aus Bericht exportieren
-   * Korrekturabzüge stapelweise sperren
-   * Detaillierte Zusammenfassung zusammen mit Workflow-Fortschrittsmatrix
-   * Massenaktivierung von Testsendungen
-   * Massenarchivierung von Testsendungen
-   * Massenarchivierung von Korrekturabzügen aufheben
-   * Besitzer stapelweise ändern
-   * Delegieren der Eigentümerschaft in großen Mengen
+  * Kürzlich aufgerufene Elemente
+  * Korrekturabzüge, die ich mit „Pünktlich“, „Gefährdet“ und „Verspäteter Status“ verwalten kann
+  * Korrekturabzüge mit Status „termingerecht“, „gefährdet“ und „Verspätet“ warten auf meine Entscheidung
+  * Korrekturabzüge, die ich überprüfen muss
+  * Aktive Korrekturabzüge
+  * Archivierte Korrekturabzüge
+  * Gesperrte Korrekturabzüge
+  * Zum Korrekturabzug direkt über den Bericht wechseln
+  * Direkt aus dem Bericht zu den Korrekturabzugsdetails wechseln
+  * Korrekturabzug direkt im Bericht freigeben
+  * Nachrichten-Korrekturabzug direkt aus dem Bericht
+  * Korrekturabzug aus Bericht kopieren
+  * Original aus Bericht herunterladen
+  * Delegieren der Eigentümerschaft aus dem Bericht
+  * Korrekturabzugs-Links aus dem Bericht freigeben
+  * Kommentare aus Bericht drucken
+  * Excel aus Bericht exportieren
+  * Korrekturabzüge stapelweise sperren
+  * Detaillierte Zusammenfassung zusammen mit Workflow-Fortschrittsmatrix
+  * Massenaktivierung von Testsendungen
+  * Massenarchivierung von Testsendungen
+  * Massenarchivierung von Korrekturabzügen aufheben
+  * Besitzer stapelweise ändern
+  * Delegieren der Eigentümerschaft in großen Mengen
 

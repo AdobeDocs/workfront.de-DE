@@ -4,13 +4,17 @@ content-type: reference
 description: Erfahren Sie mehr über die für Mitarbeiter in Adobe Workfront verfügbaren Fähigkeiten.
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 01de260893e5bbf7a228479df2f3fc6a1337d31d
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 6%
-
 ---
-
 # CX-Coworker-Fähigkeiten
 
 {{preview-fast-release-general}}
@@ -19,9 +23,9 @@ ht-degree: 6%
 >
 >CX Coworker steht derzeit Organisationen im Gesundheitswesen, im Finanzwesen oder in einigen anderen Branchen mit sensiblen Daten nicht zur Verfügung. KI-Assistent steht diesen Organisationen zur Verfügung. Weitere Informationen finden Sie unter [Übersicht über den KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
-In diesem Artikel werden Kenntnisse aufgelistet, die derzeit CX-Mitarbeitern in Workfront zur Verfügung stehen.
+In diesem Artikel werden die Kenntnisse aufgelistet, die CX Coworker derzeit in Workfront zur Verfügung stehen.
 
-Die von diesen Fähigkeiten abgedeckten Fähigkeiten sind in CX Coworker über die Konversationsoberfläche verfügbar, und Sie müssen diese Fähigkeiten nicht direkt aufrufen. Wenn Sie die Kenntnisse jedoch direkt aufrufen möchten, können Sie dies im Bedienfeld „Mitarbeiter“ tun, indem Sie einen Schrägstrich `/` und den Namen der Kenntnisse eingeben.
+Die von diesen Kenntnissen abgedeckten Fähigkeiten sind in CX Coworker über die Konversationsoberfläche verfügbar und müssen nicht direkt aufgerufen werden. Wenn Sie die Kenntnisse jedoch direkt aufrufen möchten, können Sie dies im Bedienfeld „Mitarbeiter“ tun, indem Sie einen Schrägstrich `/` und den Namen der Kenntnisse eingeben.
 
 Informationen zu Eingabeaufforderungen finden Sie beispielsweise im Artikel [Verwenden des Adobe Workfront MCP-Servers](/help/quicksilver/workfront-basics/workfront-mcp-server/use-workfront-mcp-server.md).
 

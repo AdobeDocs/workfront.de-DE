@@ -2,23 +2,31 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
-title: Verwalten von Ordnern und ihrem Inhalt in [!DNL Workfront Proof]
+title: Verwalten von Ordnern und deren Inhalt in [!DNL Workfront Proof]
 description: Einer der Vorteile bei der Organisation Ihrer Projekte und Testsendungen in Ordnern besteht in der Möglichkeit, sie auf der Seite [!UICONTROL Ordnerdetails] zu verwalten. Diese Seite ist ein Kontrollzentrum für Ihr Projekt. Von hier aus können Sie einzelne Korrekturabzüge und Dateien bequem verwalten und Massenaktionen durchführen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cec385de-f1b9-4e28-8493-987536c04905
-TQID: https://experienceleague.adobe.com/vCYBMO0HLxXG73qV-3g6I8OHTX32ELjZbIIOO2rtidU
+TQID: 'https://experienceleague.adobe.com/vCYBMO0HLxXG73qV-3g6I8OHTX32ELjZbIIOO2rtidU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1260
+source-wordcount: '1260'
 ht-degree: 0%
-
 ---
-
 # Verwalten von Ordnern und deren Inhalt in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -49,7 +57,7 @@ Weitere Informationen finden Sie unter [Verwalten von Dateien in [!DNL Workfront
 
 1. (Bedingt) Führen Sie einen der folgenden Schritte aus:
 
-   * Wenn Sie einen Korrekturabzug zu einem Ordner hinzufügen, gehen Sie zur Seite [!UICONTROL Korrekturabzugsdetails], wie in [[!UICONTROL Verwalten von &#x200B;] beschrieben [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)
+   * Wenn Sie einen Korrekturabzug zu einem Ordner hinzufügen, gehen Sie zur Seite [!UICONTROL Korrekturabzugsdetails], wie in [[!UICONTROL Verwalten von ] beschrieben [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)
    * Wenn Sie eine Datei zu einem Ordner hinzufügen, gehen Sie zur Seite „Dateidetails“, wie in [Verwalten von Dateien in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) beschrieben.
 
 1. Klicken Sie auf den Namen des **Ordners**, in den sich die Datei oder der Korrekturabzug befindet, und klicken Sie dann auf den Namen des Ordners, in den Sie ihn verschieben möchten.\
@@ -59,7 +67,7 @@ Weitere Informationen finden Sie unter [Verwalten von Dateien in [!DNL Workfront
 
 1. (Bedingt) Führen Sie einen der folgenden Schritte aus:
 
-   * Wenn Sie einen Korrekturabzug aus einem Ordner verschieben, gehen Sie zur Seite [!UICONTROL Korrekturabzugsdetails], wie unter [[!UICONTROL Verwalten von &#x200B;] [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) beschrieben
+   * Wenn Sie einen Korrekturabzug aus einem Ordner verschieben, gehen Sie zur Seite [!UICONTROL Korrekturabzugsdetails], wie unter [[!UICONTROL Verwalten von ] [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) beschrieben
 
      ODER\
       Wenn Sie eine Datei aus einem Ordner verschieben, gehen Sie zur Seite mit den Dateidetails, wie in [Verwalten von Dateien in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) beschrieben.
@@ -92,7 +100,7 @@ Sie können Ihre Dateien einfach über die Seite [!UICONTROL Ordnerdetails] verw
 
    * **[!UICONTROL Korrekturabzugsdetails anzeigen]** oder **[!UICONTROL Dateidetails anzeigen]**: Öffnet die Seite mit den Korrekturabzugsdetails oder Dateidetails. Weitere Informationen finden Sie unter [Verwalten von Dateien in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) oder [Verwalten von Korrekturabzugsdetails in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
-   * **[!UICONTROL Freigeben]**: Hiermit können Sie die Datei für weitere Personen freigeben. Weitere Informationen finden Sie unter &quot;[&#x200B; in [!UICONTROL Workfront Proof freigeben]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md).
+   * **[!UICONTROL Freigeben]**: Hiermit können Sie die Datei für weitere Personen freigeben. Weitere Informationen finden Sie unter &quot;[ in [!UICONTROL Workfront Proof freigeben]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md).
 
    * **[!UICONTROL Nachricht]**: Senden Sie eine E-Mail an die Personen, für die der Korrekturabzug freigegeben wurde.
    * **[!UICONTROL Neue Version]**: Erstellen Sie eine neue Version des Korrekturabzugs.

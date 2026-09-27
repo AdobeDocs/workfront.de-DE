@@ -8,18 +8,26 @@ description: In diesem Artikel wird der grundlegende Workflow zwischen einem Des
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fcbbd2d2-dc27-4456-901f-5b1a15d023f8
-TQID: https://experienceleague.adobe.com/G2va4OSUSSOv3GJNY6AyZxEBz8SH-nb7rlKSkbHup-I
+TQID: 'https://experienceleague.adobe.com/G2va4OSUSSOv3GJNY6AyZxEBz8SH-nb7rlKSkbHup-I'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 205
+source-wordcount: '205'
 ht-degree: 0%
-
 ---
-
 # Grundlegender Proofing-Prozess in [!DNL Workfront Proof]
 
 <!-- Audited: 5/2025 -->
@@ -36,7 +44,7 @@ In diesem Beispiel wird der grundlegende Workflow zwischen einem Designer oder P
 
 * **Neue Korrekturabzugs-E-**: Der Client erhält eine E-Mail mit einem Link zum Korrekturabzug.
 
-* **Testversand überprüfen** Der Kunde prüft den Testversand, fügt Kommentare hinzu und trifft eine Entscheidung. Weitere Informationen finden Sie unter [Testsendungen überprüfen in [!DNL Adobe Workfront]: &#x200B;](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md) und [Eine Entscheidung über einen Korrekturabzug im Proofing Viewer treffen](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
+* **Testversand überprüfen** Der Kunde prüft den Testversand, fügt Kommentare hinzu und trifft eine Entscheidung. Weitere Informationen finden Sie unter [Testsendungen überprüfen in [!DNL Adobe Workfront]: ](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md) und [Eine Entscheidung über einen Korrekturabzug im Proofing Viewer treffen](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
 
 * **E-Mail-Warnhinweis**: Der Designer oder Projekt-Manager erhält je nach den von ihm festgelegten E-Mail-Warnhinweisen eine E-Mail mit einer Zusammenfassung der Überprüfung durch den Kunden. Weitere Informationen finden Sie unter [Konfigurieren von E-Mail-Benachrichtigungseinstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 

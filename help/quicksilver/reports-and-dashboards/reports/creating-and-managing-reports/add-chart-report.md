@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ehiUNiyvlPNaJQkAYre2FG1dnT1aQvFt7ytQ1Cq271s
+TQID: 'https://experienceleague.adobe.com/ehiUNiyvlPNaJQkAYre2FG1dnT1aQvFt7ytQ1Cq271s'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2735
+source-wordcount: '2746'
 ht-degree: 2%
-
 ---
-
 # Hinzufügen eines Diagramms zu einem Bericht
 
 <!--Audited: 11/2024-->
@@ -133,9 +138,9 @@ So fügen Sie ein **Spalten**-Diagramm zu Ihrem Bericht hinzu:
 
    * Klicken Sie auf eine der folgenden Optionen, um festzulegen, wie die gruppierten Spalten angezeigt werden sollen:
 
-      * **Nebeneinander**
-      * **Gestapelt**
-      * **Auf 100 % gestapelt**
+     * **Nebeneinander**
+     * **Gestapelt**
+     * **Auf 100 % gestapelt**
 
    * Wählen Sie die Gruppierung, die Sie in das Diagramm aufnehmen möchten, aus dem Dropdown **Menü** Gruppieren nach“.
    * (Optional) Klicken Sie auf **Benutzerdefinierte Farben**, um die Farben der Spalten anzupassen.\
@@ -169,9 +174,9 @@ So fügen Sie ein **Balkendiagramm** zu Ihrem Bericht hinzu:
 
    * Klicken Sie auf eine der folgenden Optionen, um festzulegen, wie die gruppierten Balken angezeigt werden sollen:
 
-      * **Nebeneinander**
-      * **Gestapelt**
-      * **Auf 100 % gestapelt**
+     * **Nebeneinander**
+     * **Gestapelt**
+     * **Auf 100 % gestapelt**
 
    * Wählen Sie aus dem Dropdown-Menü **Daten gruppieren nach** aus, wie Sie die Informationen im Diagramm gruppieren möchten.
    * (Optional) Klicken Sie auf **Benutzerdefinierte Farben**, um die Farben Ihrer Spalten anzupassen.\
@@ -370,8 +375,8 @@ Beachten Sie bei der Arbeit mit Diagrammen die folgenden Einschränkungen:
 
 * Einige Diagrammelemente können nicht bearbeitet werden:
 
-   * Sie können weder den Schrifttyp noch die Größe der Werte der einzelnen Elemente ändern.
-   * Die Namen der Achsen im Diagramm können nicht geändert werden.
+  * Sie können weder den Schrifttyp noch die Größe der Werte der einzelnen Elemente ändern.
+  * Die Namen der Achsen im Diagramm können nicht geändert werden.
 
 * Die Legende des Diagramms kann nicht bearbeitet werden.
 * Wenn Sie berechnete Felder für Ihre Gruppierungen verwenden, können Sie nicht auf die Diagrammelemente klicken.

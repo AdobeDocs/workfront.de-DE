@@ -4,13 +4,20 @@ description: Verbesserungen für Administratoren im dritten Quartal 2026
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 71bd341da0b506429ab25726ae3be82829034f9f
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '1543'
-ht-degree: 5%
-
+source-wordcount: '1693'
+ht-degree: 4%
 ---
-
 # Verbesserungen für Administratoren im dritten Quartal 2026
 
 Auf dieser Seite werden Admin-Verbesserungen beschrieben, die mit der Version vom dritten Quartal 2026 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
@@ -22,7 +29,9 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2026 ve
 
 >[!NOTE]
 >
->Vorschau: 10. Juli 2026>Produktions-Schnellversion: 15. Juli 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 10. Juli 2026
+>Produktions-Schnellveröffentlichung: 15. Juli 2026
+>Produktion für alle: 16. Juli 2026
 
 Die Seite „Änderungsverlauf“ in Workfront erfasst jetzt Aktivitäten in einheitlichen Prüfungs- und Genehmigungs-Workflows und bietet Admins einen vollständigen Governance-Trail für Prüfungs- und Dokumentenlebenszyklus-Ereignisse.
 
@@ -36,7 +45,7 @@ Jeder Eintrag enthält die getrackten Standardfelder: Datum und Uhrzeit, Vorgang
 
 Diese Phase des Änderungs-Trackings umfasst keine MCP-Ereignisse. Diese werden Teil einer zukünftigen Version sein.
 
-Weitere Informationen finden Sie unter [Anzeigen und Verwalten des &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
+Weitere Informationen finden Sie unter [Anzeigen und Verwalten des ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 -->
 
@@ -74,7 +83,9 @@ Kunden, die eine gleiche Anzahl von Workflow- und Planning-Lizenzen erworben hab
 
 >[!NOTE]
 >
->Vorschau: 7. Juli 2026>Produktions-Schnellveröffentlichung: 15. Juli 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 7. Juli 2026
+>Produktions-Schnellveröffentlichung: 15. Juli 2026
+>Produktion für alle: 16. Juli 2026
 
 Der neue Feldtyp **Interne Suche** in benutzerdefinierten Formularen bietet dynamische Filterung. Es ähnelt dem Feldtyp mit automatischer Textvervollständigung und ermöglicht es Benutzenden, vorhandene Workfront-Objekte zu suchen und auszuwählen, indem sie einen Teil des Namens eingeben. Der Filter für die interne Suche kann auf den Wert in einem anderen Feld im Formular verweisen, was mit Typeahead nicht möglich ist.
 
@@ -92,7 +103,9 @@ Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Form
 
 >[!NOTE]
 >
->Vorschau: 7. Juli 2026>Produktions-Schnellveröffentlichung: 15. Juli 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 7. Juli 2026
+>Produktions-Schnellveröffentlichung: 15. Juli 2026
+>Produktion für alle: 16. Juli 2026
 >
 >Diese Funktion ist nur für Organisationen mit den Workflow-Paketen Prime oder Ultimate verfügbar.
 
@@ -106,7 +119,9 @@ Weitere Informationen finden Sie unter [Hinzufügen von Standardwertlogik zu ein
 
 >[!NOTE]
 >
->Vorschau: 7. Juli 2026>Produktions-Schnellveröffentlichung: 15. Juli 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 7. Juli 2026
+>Produktions-Schnellveröffentlichung: 15. Juli 2026
+>Produktion für alle: 16. Juli 2026
 
 Systemfilter, die in nativen Feldern vorhanden sind, werden jetzt auf die Felder in benutzerdefinierten Formularen angewendet und sind für Administratoren sichtbar.
 
@@ -124,7 +139,9 @@ Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Form
 
 >[!NOTE]
 >
->Vorschau: 7. Juli 2026>Produktions-Schnellveröffentlichung: 15. Juli 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 7. Juli 2026
+>Produktions-Schnellveröffentlichung: 15. Juli 2026
+>Produktion für alle: 16. Juli 2026
 
 Zum Schutz von Integrationen und Datenintegrität haben wir aktualisiert, wie Feldnamen im Bedienfeld Feldeinstellungen eines benutzerdefinierten Formulars bearbeitet werden können.
 
@@ -136,19 +153,23 @@ Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Form
 
 >[!NOTE]
 >
->Vorschau: 11. Juni 2026>Produktions-Schnellversion: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 11. Juni 2026
+>Produktions-Schnellveröffentlichung: 11. Juni 2026
+>Produktion für alle: 16. Juli 2026
 
 Um Ihnen die Anzeige der in einer zentralen Liste aufgetretenen Änderungen zu erleichtern, haben wir die Liste „Änderungsverlauf“ erstellt. Diese Liste zeigt Informationen wie das Objekt, den Vorgang und die Quelle der Änderung (z. B. einen Benutzer oder das Workfront-System) an.
 
 Zuvor waren Auditprotokolle verfügbar, die jedoch keine Objekte abdeckten.
 
-Weitere Informationen finden Sie unter [Anzeigen und Verwalten des &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
+Weitere Informationen finden Sie unter [Anzeigen und Verwalten des ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 ## Neue Systemvoreinstellung zum Konvertieren veralteter Speicherportfolios in Adobe Cloud-Speicher
 
 >[!NOTE]
 >
->Vorschau: 11. Juni 2026>Produktion für alle: 11. Juni 2026>[!BADGE Zeitplan]{type=Neutral}
+>Vorschau: 11. Juni 2026
+>Produktion für alle: 11. Juni 2026
+>[!BADGE Außerplanmäßig]{type=Neutral}
 
 Workfront-Administratoren können jetzt ältere Speicherportfolios direkt aus den Systemeinstellungen in Adobe Cloud-Speicher konvertieren. Um Portfolios zu konvertieren, wählen Sie sie im neuen Feld Portfolios zum Konvertieren in Unternehmensspeicher auswählen aus und speichern Sie die Seite.
 
@@ -167,7 +188,9 @@ Weitere Informationen finden Sie unter [Systemvoreinstellungen konfigurieren](/h
 
 >[!NOTE]
 >
->Vorschau: 28. Mai 2026>Produktions-Schnellversion: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 28. Mai 2026
+>Produktions-Schnellveröffentlichung: 11. Juni 2026
+>Produktion für alle: 16. Juli 2026
 
 Der neue **Rich-Text**-Feldtyp in benutzerdefinierten Formularen ist ein robuster Texteditor mit Formatierungsoptionen wie Hochgestellt und Tiefgestellt, Überschriften und Tabellen sowie den herkömmlichen Optionen Fett, Kursiv, Unterstrichen, Aufzählungszeichen, Nummerierung, Hyperlinks und Blockanführungszeichen. Die Zeichenbeschränkung bleibt bei 15.000.
 
@@ -183,7 +206,9 @@ Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Form
 
 >[!NOTE]
 >
->Vorschau: 28. Mai 2026>Produktions-Schnellversion: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 28. Mai 2026
+>Produktions-Schnellveröffentlichung: 11. Juni 2026
+>Produktion für alle: 16. Juli 2026
 
 Sie können jetzt native Finanzfelder von Workfront in benutzerdefinierte Formulare einbeziehen. Zuvor wurden die Finanzfelder nicht unterstützt.
 
@@ -195,7 +220,9 @@ Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Form
 
 >[!NOTE]
 >
->Vorschau: 28. Mai 2026>Produktions-Schnellversion: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 28. Mai 2026
+>Produktions-Schnellveröffentlichung: 11. Juni 2026
+>Produktion für alle: 16. Juli 2026
 
 Die neue Freigabeoption „Jeder im System kann anzeigen und anhängen“ wurde zu benutzerdefinierten Formularen hinzugefügt. Wenn Sie diese Option auswählen, können alle Benutzer systemweit das Formular an andere Objekte anhängen.
 
@@ -207,7 +234,9 @@ Weitere Informationen finden Sie unter [Freigeben eines benutzerdefinierten Form
 
 >[!NOTE]
 >
->Vorschau: 28. Mai 2026>Produktions-Schnellversion: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 28. Mai 2026
+>Produktions-Schnellveröffentlichung: 11. Juni 2026
+>Produktion für alle: 16. Juli 2026
 
 Derzeit werden bei der Massenbearbeitung von Objekten erforderliche Felder nur erzwungen, wenn ein Benutzer das Feld ändert. Wenn ein Feld nicht geändert wird, wird es als optional behandelt und nicht validiert.
 

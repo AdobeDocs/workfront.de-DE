@@ -1,34 +1,43 @@
 ---
 navigation-topic: use-lists
 title: Erste Schritte mit Listen in [!DNL Adobe Workfront]
-description: Sie können Listen von -Objekten in anzeigen [!DNL Adobe Workfront]  um Informationen über sie zu erhalten, z. B. ihr Start- und Fälligkeitsdatum, ihnen zugewiesene Benutzer und andere Objekte, die mit ihnen verknüpft sind.
+description: Sie können Listen von Objekten in [!DNL Adobe Workfront] anzeigen, um Informationen zu ihnen zu erhalten, z. B. ihr Start- und Fälligkeitsdatum, ihnen zugewiesene Benutzer und andere Objekte, die mit ihnen verknüpft sind.
 feature: Get Started with Workfront
 author: Courtney
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/SHiKAwglWS8kvsmB9viH2VAd0z9Z4iL-EDKmhUtFOf4
+TQID: 'https://experienceleague.adobe.com/SHiKAwglWS8kvsmB9viH2VAd0z9Z4iL-EDKmhUtFOf4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2281
+source-wordcount: '2284'
 ht-degree: 3%
-
 ---
-
 # Erste Schritte mit Listen in [!DNL Adobe Workfront]
 
 <!--Audited: 12/2025-->
@@ -48,8 +57,8 @@ Im Folgenden finden Sie einige Merkmale von Listen in [!DNL Workfront]:
 
 * Im Folgenden finden Sie die Listentypen in Workfront:
 
-   * Standardlisten
-   * Erweiterte Listen
+  * Standardlisten
+  * Erweiterte Listen
 
   Weitere Informationen finden Sie im Abschnitt [Der Unterschied zwischen der Standard- und der erweiterten Liste](#the-difference-between-the-standard-and-the-enhanced-lists) in diesem Artikel.
 
@@ -166,7 +175,7 @@ Im Folgenden finden Sie einige Objektlisten, die Sie in [!DNL Workfront] finden 
    <td>Aufgabenliste</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL -Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt; [!UICONTROL -Aufgaben]</p> </li> 
+     <li> <p>[!UICONTROL-Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt; [!UICONTROL-Aufgaben]</p> </li> 
      <li> <p>[!UICONTROL Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL Aufgaben] &gt;[!UICONTROL auf eine Aufgabe klicken] &gt;[!UICONTROL Unteraufgaben]</p> </li> 
      <li> <p>[!UICONTROL Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL Aufgaben] &gt;[!UICONTROL auf eine Aufgabe klicken] &gt; [!UICONTROL Vorgänger*]</p> </li> 
     </ul> </td> 
@@ -215,8 +224,8 @@ Im Folgenden finden Sie einige Objektlisten, die Sie in [!DNL Workfront] finden 
      <li> <p>[!UICONTROL Dokumente]</p> </li> 
      <li> <p>[!UICONTROL Portfolios] &gt;[!UICONTROL auf ein Portfolio klicken] &gt; [!UICONTROL Dokumente]</p> </li> 
      <li> <p>[!UICONTROL Portfolios] &gt; [!UICONTROL auf ein Portfolio klicken] &gt;[!UICONTROL Programme] &gt;[!UICONTROL auf ein Programm klicken] &gt;[!UICONTROL Dokumente]</p> </li> 
-     <li> <p>[!UICONTROL -Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL -Dokumente]</p> </li> 
-     <li> <p>[!UICONTROL -Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL -Aufgaben] &gt;[!UICONTROL auf eine Aufgabe klicken] &gt; [!UICONTROL -Dokumente]</p> </li> 
+     <li> <p>[!UICONTROL-Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL-Dokumente]</p> </li> 
+     <li> <p>[!UICONTROL-Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL-Aufgaben] &gt;[!UICONTROL auf eine Aufgabe klicken] &gt; [!UICONTROL-Dokumente]</p> </li> 
      <li> <p>[!UICONTROL Projekte] &gt; [!UICONTROL klicken] Ein Projekt &gt; [!UICONTROL Probleme] &gt;[!UICONTROL klicken Sie auf ein Problem] &gt; [!UICONTROL Dokumente]</p> </li> 
     </ul> </td> 
   </tr> 
@@ -245,7 +254,7 @@ Im Folgenden finden Sie einige Objektlisten, die Sie in [!DNL Workfront] finden 
    <td>Liste der Risiken</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL -Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL -Risiken]</p> </li> 
+     <li> <p>[!UICONTROL-Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL-Risiken]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -260,7 +269,7 @@ Im Folgenden finden Sie einige Objektlisten, die Sie in [!DNL Workfront] finden 
    <td>Liste der Stundeneinträge</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projekte] &gt; Klicken Sie auf ein Projekt</p> </li> 
+     <li> <p>[!UICONTROL Projekte] &gt;[!UICONTROL] Klicken Sie auf ein Projekt</p> </li> 
      <li> <p>[!UICONTROL Projekte] &gt;[!UICONTROL auf ein Projekt klicken] &gt;[!UICONTROL Aufgaben] &gt;[!UICONTROL auf eine Aufgabe klicken] &gt;[!UICONTROL Stunden]</p> </li> 
      <li> <p>[!UICONTROL Projekte] &gt;[!UICONTROL klicken] Ein Projekt &gt;[!UICONTROL Probleme] &gt;[!UICONTROL klicken] Ein Problem &gt;[!UICONTROL Stunden]</p> </li>
     </ul> </td> 
@@ -473,7 +482,7 @@ In der folgenden Tabelle werden viele der in der Symbolleiste verfügbaren Symbo
   </tr> 
   <tr> 
    <td> <img src="assets/export.png"> </td> 
-   <td>[!UICONTROL -Export]</td> 
+   <td>[!UICONTROL-Export]</td> 
    <td>Exportieren Sie die Liste in Dateien mit PDF, Excel oder Tabulatoren.</td> 
   </tr> 
   <tr> 
@@ -518,7 +527,7 @@ In der folgenden Tabelle werden viele der in der Symbolleiste verfügbaren Symbo
   </tr> 
   <tr> 
    <td> <img src="assets/comment-icon.png"> </td> 
-   <td>[!UICONTROL -Kommentar] /[!UICONTROL -Update]</td> 
+   <td>[!UICONTROL-Kommentar] /[!UICONTROL-Update]</td> 
    <td> <p>Geben Sie einen Kommentar oder eine Aktualisierung ein.</p> </td> 
   </tr> 
  </tbody> 

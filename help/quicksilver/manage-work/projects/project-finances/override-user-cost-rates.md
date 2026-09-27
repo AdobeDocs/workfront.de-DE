@@ -7,13 +7,17 @@ description: In diesem Artikel wird beschrieben, wie Sie die Kostensätze der Sy
 author: Lisa
 feature: Work Management
 exl-id: ff1110fd-2d24-48a7-8000-712e551ca61a
-source-git-commit: e3d4ffe2d42f9de3000df0ba1a924ca36fea9248
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '656'
 ht-degree: 5%
-
 ---
-
 # Benutzerkostensätze auf Projektebene überschreiben
 
 Sie können angeben, wie hoch der Kostensatz für eine Benutzerin oder einen Benutzer bei einem bestimmten Projekt ist. Dieser Kostensatz auf Projektebene setzt den Kostensatz auf Systemebene für diesen Benutzer außer Kraft. Workfront verwendet zur Berechnung der Kosten den Kostensatz auf Projektebene des Aufgabengebiets, anstatt den Kostensatz auf Systemebene zu verwenden.
@@ -54,7 +58,7 @@ Weitere Informationen zur Kostenberechnung für das Projekt finden Sie unter [Ü
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

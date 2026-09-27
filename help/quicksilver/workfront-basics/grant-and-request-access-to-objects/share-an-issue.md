@@ -6,22 +6,26 @@ description: Ihr Adobe Workfront-Administrator gewährt Benutzern Zugriff zum An
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-TQID: https://experienceleague.adobe.com/APJfLfTk7gg-Tyi6wWhzLgXqFDnuRuv5hjKpr0IwwsU
+TQID: 'https://experienceleague.adobe.com/APJfLfTk7gg-Tyi6wWhzLgXqFDnuRuv5hjKpr0IwwsU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1226
+source-wordcount: '1226'
 ht-degree: 6%
-
 ---
-
 # Freigeben eines Problems
 
 Ihr Adobe Workfront-Administrator gewährt Benutzern Zugriff zum Anzeigen oder Bearbeiten von Problemen, wenn sie Zugriffsebenen zuweisen. Weitere Informationen zum Gewähren des Zugriffs auf Anfragen finden Sie unter [Zugriff auf Anfragen gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md).
@@ -76,9 +80,9 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
 * Sie können Probleme einzeln oder in mehreren gemeinsam nutzen. Die Freigabe von Problemen ist mit der Freigabe anderer Elemente in Workfront identisch. Weitere Informationen zum Freigeben von Elementen in Workfront finden Sie unter [Freigeben eines Objekts](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Sie können die folgenden Berechtigungen für ein Problem gewähren:
 
-   * Ansicht
-   * Mitwirken
-   * Verwalten
+  * Ansicht
+  * Mitwirken
+  * Verwalten
 
 * Wenn Sie ein Problem freigeben, erben alle an das Problem angehängten Dokumente dieselben Berechtigungen.
 
@@ -91,27 +95,27 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
 * Manuell, was der Freigabe jedes anderen Objekts in Workfront ähnelt.
 * Führen Sie automatisch einen der folgenden Schritte aus:
 
-   * Geben Sie die Berechtigungen für eines der übergeordneten Objekte des Problems an: Projekt, Programm oder Portfolio. Probleme erben die Berechtigungen von den übergeordneten Objekten. Weitere Informationen zum Anzeigen geerbter Berechtigungen für Objekte finden Sie unter [Anzeigen geerbter Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
-   * Entitäten zur Projektfreigabe hinzufügen, die auf einer Vorlage basieren, mit der das Projekt erstellt wurde, an dem das Problem auftritt. Informationen zum Freigeben von Projekten aus Vorlagen finden Sie unter [Freigeben einer Vorlage](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+  * Geben Sie die Berechtigungen für eines der übergeordneten Objekte des Problems an: Projekt, Programm oder Portfolio. Probleme erben die Berechtigungen von den übergeordneten Objekten. Weitere Informationen zum Anzeigen geerbter Berechtigungen für Objekte finden Sie unter [Anzeigen geerbter Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+  * Entitäten zur Projektfreigabe hinzufügen, die auf einer Vorlage basieren, mit der das Projekt erstellt wurde, an dem das Problem auftritt. Informationen zum Freigeben von Projekten aus Vorlagen finden Sie unter [Freigeben einer Vorlage](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Geben Sie die Berechtigungen für alle Probleme in einem Projekt an, wenn Sie das Projekt bearbeiten. Informationen zur Verwaltung des Zugriffs auf Probleme oder Anfragen im Projekt basierend auf den Berechtigungen eines Benutzers für das Projekt finden Sie im [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) Abschnitt im Artikel [Projekte bearbeiten](../../manage-work/projects/manage-projects/edit-projects.md).
+  * Geben Sie die Berechtigungen für alle Probleme in einem Projekt an, wenn Sie das Projekt bearbeiten. Informationen zur Verwaltung des Zugriffs auf Probleme oder Anfragen im Projekt basierend auf den Berechtigungen eines Benutzers für das Projekt finden Sie im [](../../manage-work/projects/manage-projects/edit-projects.md#access) Abschnitt im Artikel [Projekte bearbeiten](../../manage-work/projects/manage-projects/edit-projects.md).
 
-     >[!TIP]
-     >
-     >Wenn Sie nicht angeben, welche Problemberechtigungen Benutzerinnen und Benutzer haben sollen, wenn sie den Problemen im Projekt zugewiesen werden, erhalten sie standardmäßig dieselben Berechtigungen wie für das Projekt.
+    >[!TIP]
+    >
+    >Wenn Sie nicht angeben, welche Problemberechtigungen Benutzerinnen und Benutzer haben sollen, wenn sie den Problemen im Projekt zugewiesen werden, erhalten sie standardmäßig dieselben Berechtigungen wie für das Projekt.
 
-   * Geben Sie die Berechtigungen an, die Benutzer bei Problemen erhalten, die sie in einer Anfrage-Warteschlange beim Erstellen einer Anfrage-Warteschlange senden. Weitere Informationen finden Sie unter [Erstellen einer Anfrage-Warteschlange](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+  * Geben Sie die Berechtigungen an, die Benutzer bei Problemen erhalten, die sie in einer Anfrage-Warteschlange beim Erstellen einer Anfrage-Warteschlange senden. Weitere Informationen finden Sie unter [Erstellen einer Anfrage-Warteschlange](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-     >[!IMPORTANT]
-     >
-     >Berechtigungen werden je nachdem, ob das Projekt als Anfrage-Warteschlange veröffentlicht wird oder nicht, unterschiedlich gewährt:
-     >
-     >   
-     >   
-     >   * Wenn ein(e) Benutzende(r) eine Anfrage an ein Projekt sendet, das als Anfragewarteschlange veröffentlicht wurde, wird dem/der Primären Kontakt(in) und „Eingegeben von“ die angegebene Berechtigung gewährt.
-     >   * Wenn ein(e) Benutzende(r) eine Anfrage an ein Projekt sendet, das nicht als Anfrage-Warteschlange veröffentlicht wurde, erhält der/die Primäre Kontakt(in) (sofern nicht identisch mit „Von Benutzer eingegeben„) die angegebene Berechtigung und dem/der Benutzenden wird die Berechtigung Verwalten für das Problem gewährt.
-     >   
-     >
+    >[!IMPORTANT]
+    >
+    >Berechtigungen werden je nachdem, ob das Projekt als Anfrage-Warteschlange veröffentlicht wird oder nicht, unterschiedlich gewährt:
+    >
+    >   
+    >   
+    >   * Wenn ein(e) Benutzende(r) eine Anfrage an ein Projekt sendet, das als Anfragewarteschlange veröffentlicht wurde, wird dem/der Primären Kontakt(in) und „Eingegeben von“ die angegebene Berechtigung gewährt.
+    >   * Wenn ein(e) Benutzende(r) eine Anfrage an ein Projekt sendet, das nicht als Anfrage-Warteschlange veröffentlicht wurde, erhält der/die Primäre Kontakt(in) (sofern nicht identisch mit „Von Benutzer eingegeben„) die angegebene Berechtigung und dem/der Benutzenden wird die Berechtigung Verwalten für das Problem gewährt.
+    >   
+    >
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

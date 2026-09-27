@@ -10,29 +10,39 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-TQID: https://experienceleague.adobe.com/nh6fCYhtqUcPipkWTi6Vw6cUwwNH2ONGN45VUI0YzuM
+TQID: 'https://experienceleague.adobe.com/nh6fCYhtqUcPipkWTi6Vw6cUwwNH2ONGN45VUI0YzuM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1447
+source-wordcount: '1447'
 ht-degree: 20%
-
 ---
-
 # Für jeden Objekttyp verfügbare Funktionen
 
 >[!NOTE]
@@ -46,7 +56,7 @@ Es zeigt auch an, welche Aktionen Workfront-Administratoren mithilfe einer Zugri
 >[!NOTE]
 >
 >* In diesem Artikel werden die Funktionen beschrieben, die für Zugriffsebenen im neuen Workfront-Paketmodell verfügbar sind. Informationen zu den im aktuellen Paketmodell verfügbaren Funktionen finden Sie unter [Funktionalität verfügbar für jeden Objekttyp für verschiedene Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* Eine Liste der Funktionen, die den verschiedenen Packages im aktuellen Modell zur Verfügung stehen, finden Sie unter [Preise und Verpackung für Adobe Workfront](https://business.adobe.com/de/products/workfront/pricing.html).
+>* Eine Liste der Funktionen, die den verschiedenen Packages im aktuellen Modell zur Verfügung stehen, finden Sie unter [Preise und Verpackung für Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Projekte
 
@@ -277,7 +287,7 @@ Diese Optionen sind in der Vorschau -Umgebung verfügbar:
 |----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
 | Erstellen | ✓* |   |   |   |
 | Löschen | ✓* |   |   |   |
-| Abrechnungstarife bearbeiten | ✓* |   |   |   |
+| Abrechnungssätze bearbeiten | ✓* |   |   |   |
 | Kontaktinfo bearbeiten | ✓* |   |   |   |
 | Kostensätze bearbeiten | ✓* |   |   |   |
 | Allgemeine Finanzen bearbeiten | ✓* |   |   |   |
@@ -285,7 +295,7 @@ Diese Optionen sind in der Vorschau -Umgebung verfügbar:
 | Bearbeiten, Löschen, Deaktivieren, Anmelden als oder Zurücksetzen des Passworts für alle Benutzenden in der von ihnen verwalteten Gruppe | ✓* |   |   |   |
 | Benutzer anzeigen | ✓ | ✓ | ✓ |   |
 | Kontaktinformationen anzeigen | ✓ | ✓ | ✓ |   |
-| Abrechnungstarife anzeigen | ✓* |   |   |   |
+| Abrechnungssätze anzeigen | ✓* |   |   |   |
 | Kostensätze anzeigen | ✓* |   |   |   |
 | Allgemeine Finanzen anzeigen | ✓* |   |   |   |
 
@@ -303,10 +313,10 @@ Diese Optionen sind in der Vorschau -Umgebung verfügbar:
 | Bearbeiten | ✓ |   |   |   |
 | Erstellen | ✓* |   |   |   |
 | Löschen | ✓* |   |   |   |
-| Abrechnungstarife bearbeiten | ✓* |   |   |   |
+| Abrechnungssätze bearbeiten | ✓* |   |   |   |
 | Kostensätze bearbeiten | ✓* |   |   |   |
 | Allgemeine Finanzen bearbeiten | ✓* |   |   |   |
-| Abrechnungstarife anzeigen | ✓* |   |   |   |
+| Abrechnungssätze anzeigen | ✓* |   |   |   |
 | Kostensätze anzeigen | ✓* |   |   |   |
 | Allgemeine Finanzen anzeigen | ✓* |   |   |   |
 
@@ -385,10 +395,10 @@ Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf Finanzdaten hab
 
 | Aktion | Standard | Light | Mitwirkender oder Mitwirkende | Externer Benutzer |
 |--------------------------------------------------------------|----------|--------|-------------|---------------|
-| Abrechnungstarife bearbeiten | ✓&#42; |   |   |   |
+| Abrechnungssätze bearbeiten | ✓&#42; |   |   |   |
 | Kostensätze bearbeiten | ✓&#42; |   |   |   |
 | Allgemeine Finanzen bearbeiten | ✓&#42; |   |   |   |
-| Abrechnungstarife anzeigen | ✓&#42; | ✓&#42; |   |   |
+| Abrechnungssätze anzeigen | ✓&#42; | ✓&#42; |   |   |
 | Kostensätze anzeigen | ✓&#42; | ✓&#42; |   |   |
 | Allgemeine Finanzen anzeigen | ✓&#42; | ✓&#42; |   |   |
 | Abrechnungseinträge verwalten | ✓ |   |   |   |

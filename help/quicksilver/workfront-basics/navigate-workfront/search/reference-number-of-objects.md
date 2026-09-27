@@ -2,24 +2,28 @@
 content-type: reference
 navigation-topic: search
 title: Verwenden der Referenznummer der Objekte
-description: In  [!DNL Adobe Workfront] werden Elemente als Objekte identifiziert. Objekte entsprechen der Datenbank und werden verwendet, um Daten mit einem Element zu korrelieren. Referenznummern sind nützlich, um zwischen zwei ansonsten ähnlichen Objekten (z. B. Aufgaben mit demselben Namen) zu unterscheiden. Sie können nach Referenznummern suchen und sie in Berichte aufnehmen.
+description: In [!DNL Adobe Workfront] werden Elemente als Objekte identifiziert. Objekte entsprechen der Datenbank und werden verwendet, um Daten mit einem Element zu korrelieren. Referenznummern sind nützlich, um zwischen zwei ansonsten ähnlichen Objekten (z. B. Aufgaben mit demselben Namen) zu unterscheiden. Sie können nach Referenznummern suchen und sie in Berichte aufnehmen.
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 94f5a174-21cc-4c10-88ed-89a8014d28f4
-TQID: https://experienceleague.adobe.com/IllwtQ1nujBL-7tjcfRqQAtg7JagQV2MEktjJQ0r4z0
+TQID: 'https://experienceleague.adobe.com/IllwtQ1nujBL-7tjcfRqQAtg7JagQV2MEktjJQ0r4z0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 448
+source-wordcount: '448'
 ht-degree: 3%
-
 ---
-
 # Verwenden der Referenznummer der Objekte
 
 In [!DNL Adobe Workfront] werden Elemente als Objekte identifiziert. Objekte entsprechen der Datenbank und werden verwendet, um Daten mit einem Element zu korrelieren.

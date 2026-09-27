@@ -8,22 +8,29 @@ feature: Agile
 exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/F317hVO2oXLHXb1c4aIKGn1KyGYS3FpXB70yspdqzxM
+TQID: 'https://experienceleague.adobe.com/F317hVO2oXLHXb1c4aIKGn1KyGYS3FpXB70yspdqzxM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 668
+source-wordcount: '668'
 ht-degree: 5%
-
 ---
-
 # Filtern und Suchen in einer Pinnwand
 
 Sie können eine Pinnwand filtern, um Folgendes anzuzeigen:
@@ -97,7 +104,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 ## Pinnwand nach Fälligkeitsdatum filtern
 
 1. Rufen Sie die Pinnwand auf.
-1. Klicken Sie [!UICONTROL **Filter**] [!UICONTROL , erweitern Sie den &#x200B;] „Fälligkeitsdatum“ und wählen Sie die gewünschten Datumsoptionen aus.
+1. Klicken Sie [!UICONTROL **Filter**] [!UICONTROL , erweitern Sie den ] „Fälligkeitsdatum“ und wählen Sie die gewünschten Datumsoptionen aus.
 
    Nur Karten in den ausgewählten Datumsbereichen werden angezeigt.
 
@@ -147,7 +154,7 @@ Wenn Sie eine Option zum Sortieren nach auswählen, werden alle Spalten sortiert
 
    Der Pfeil auf dem Sortierungssymbol gibt an, ob die Spalten in auf- oder absteigender Reihenfolge sortiert sind.
 
-   Wenn eine andere Sortierung als die Standardsortierung angewendet wird, wird ein Indikator auf dem Sortierungssymbol (Sortierung ![) &#x200B;](assets/sort-applied-boards.png).
+   Wenn eine andere Sortierung als die Standardsortierung angewendet wird, wird ein Indikator auf dem Sortierungssymbol (Sortierung ![) ](assets/sort-applied-boards.png).
 
    ![Sortieren nach Spalten auf einer Pinnwand](assets/sort-by-columns-in-board.png)
 

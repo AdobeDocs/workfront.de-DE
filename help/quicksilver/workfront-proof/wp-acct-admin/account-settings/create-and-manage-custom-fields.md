@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
-title: Erstellen und verwalten Sie benutzerdefinierte Felder in [!DNL Workfront Proof]
-description: Für die Verwendung  [!DNL Workfront]  Funktion ist ein Select- oder Premium-Plan erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter Workfront-Pläne .
+title: Erstellen und Verwalten benutzerdefinierter Felder in [!DNL Workfront Proof]
+description: Für die Verwendung dieser Funktion ist ein Select- oder Premium-[!DNL Workfront] erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter Workfront-Pläne .
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 87c8aff7-b638-4d14-9c5a-7e316f1ec608
-TQID: https://experienceleague.adobe.com/3yKlFPGeKsvd4IMn-Vop6dg8MUaiVBTaVSilbyp8B-I
+TQID: 'https://experienceleague.adobe.com/3yKlFPGeKsvd4IMn-Vop6dg8MUaiVBTaVSilbyp8B-I'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1054
+source-wordcount: '1055'
 ht-degree: 0%
-
 ---
-
 # Erstellen und Verwalten benutzerdefinierter Felder in [!DNL Workfront Proof]
 
 <!-- Audited: 4/2025 -->
@@ -31,7 +40,7 @@ ht-degree: 0%
 >
 >Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Für die Verwendung dieser Funktion ist ein Select- oder Premium-[!DNL Workfront] erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [Workfront-Pläne](https://business.adobe.com/de/products/workfront/pricing.html).
+Für die Verwendung dieser Funktion ist ein Select- oder Premium-[!DNL Workfront] erforderlich. Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [Workfront-Pläne](https://business.adobe.com/products/workfront/pricing.html).
 
 Mit benutzerdefinierten Feldern können Sie zusätzliche Daten erfassen, wenn Sie einen neuen Korrekturabzug, Benutzende oder Gast erstellen. Wenn ein(e) Benutzende(r) beispielsweise einen neuen Korrekturabzug erstellt, kann er/sie einen zusätzlichen Abschnitt enthalten, in dem eine Auftragsnummer, ein Abteilungscode oder eine Lieferantenreferenz erfasst werden können.
 

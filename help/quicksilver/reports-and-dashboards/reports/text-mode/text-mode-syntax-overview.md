@@ -9,20 +9,24 @@ role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/6-AohxGDArrxGsV8LUHHc0cQQd4ZWoTHqO3DWKRagP4
+TQID: 'https://experienceleague.adobe.com/6-AohxGDArrxGsV8LUHHc0cQQd4ZWoTHqO3DWKRagP4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1864
+source-wordcount: '1864'
 ht-degree: 10%
-
 ---
-
 # Überblick über die Textmodussyntax
 
 <!--Audited: 1/2025-->
@@ -48,8 +52,8 @@ Im Folgenden finden Sie allgemeine Richtlinien zum Erstellen von Reporting- oder
 * Verwenden Sie immer Groß-/Kleinschreibung beim Referenzieren von Objekten oder Attributen in der Workfront-Datenbank.
 * Beachten Sie die Objekthierarchie in Workfront. Die folgenden Unterschiede bestehen zwischen Ansichten, Filtern und Gruppierungen:
 
-   * Sie können ein -Objekt anzeigen, das drei Objekte vom Bericht entfernt ist, oder ein Listenobjekt in einer Ansicht.
-   * Sie können in einer Gruppierungs-, Filter- oder benutzerdefinierten Eingabeaufforderung nicht auf Objekte verweisen, die mehr als zwei Objekte vom Hauptobjekt entfernt sind.
+  * Sie können ein -Objekt anzeigen, das drei Objekte vom Bericht entfernt ist, oder ein Listenobjekt in einer Ansicht.
+  * Sie können in einer Gruppierungs-, Filter- oder benutzerdefinierten Eingabeaufforderung nicht auf Objekte verweisen, die mehr als zwei Objekte vom Hauptobjekt entfernt sind.
 
   **Beispiel** Sie können den Namen oder die GUID des Portfolio-Verantwortlichen in einer Aufgabenansicht anzeigen:
 
@@ -63,8 +67,8 @@ Im Folgenden finden Sie allgemeine Richtlinien zum Erstellen von Reporting- oder
 
   Informationen zur Objekthierarchie in Workfront finden Sie unter:
 
-   * [Verstehen von Objekten in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
-   * [API Explorer](../../../wf-api/general/api-explorer.md)
+  * [Verstehen von Objekten in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
+  * [API Explorer](../../../wf-api/general/api-explorer.md)
 
 * Verwenden Sie nach Möglichkeit Platzhalter, um Ihre Berichte und Listen dynamischer zu gestalten und um zu vermeiden, dass sie für verschiedene Benutzer und ähnliche Timelines dupliziert werden.
 
@@ -96,15 +100,15 @@ Die Syntax der unten aufgeführten Sätze von Reporting-Elementen weist beim Ers
 
   Informationen zu den Schlüsselzeilen von Codes für Ansichten und Gruppierungen beim Erstellen im Textmodus finden Sie unter:
 
-   * [Bearbeiten einer Ansicht im Textmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
-   * [Bearbeiten einer Gruppierung im Textmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+  * [Bearbeiten einer Ansicht im Textmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
+  * [Bearbeiten einer Gruppierung im Textmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 * Die Code- und Syntaxzeilen für Filter und benutzerdefinierte Eingabeaufforderungen sind ähnlich.
 
   Weitere Informationen finden Sie unter:
 
-   * [Bearbeiten eines Filters im Textmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
-   * [Hinzufügen eines Prompts zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
+  * [Bearbeiten eines Filters im Textmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
+  * [Hinzufügen eines Prompts zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
 ### Syntax für Ansichten und Gruppierungen
 
@@ -197,22 +201,22 @@ Die folgenden Regeln gelten für den Verweis auf Workfront-Objekte mithilfe eine
 
   **Beispiel** Um den Namen eines Projekts in Verbindung mit dem Namen der Aufgabe in einem Aufgabenbericht anzuzeigen, verwenden Sie die folgenden Zeilen:
 
-   * In einer Ansicht:
+  * In einer Ansicht:
 
-     `valueexpression=CONCAT({project}.{name},' - ',{name})`
+    `valueexpression=CONCAT({project}.{name},' - ',{name})`
 
-   * In einer Gruppierung:
+  * In einer Gruppierung:
 
-     `group.0.valueexpression=CONCAT({project}.{name},' - ',{name})`
+    `group.0.valueexpression=CONCAT({project}.{name},' - ',{name})`
 
   Weitere Informationen dazu, wie Objekte in der Workfront-Datenbank aufeinander verweisen, finden Sie unter [API-Explorer](../../../wf-api/general/api-explorer.md).
 
 * Verwenden Sie beim Referenzieren eines benutzerdefinierten Felds die folgenden Regeln:
 
-   * Verwenden Sie den Namen des Felds genau so, wie er in der Benutzeroberfläche angezeigt wird.
-   * Stellen Sie dem Namen des Felds „DE:“ voran.
-   * Schließen Sie das Feld in geschweiften Klammern ein.
-   * Trennen Sie die mit dem Objekt verbundenen Felder durch Punkte.
+  * Verwenden Sie den Namen des Felds genau so, wie er in der Benutzeroberfläche angezeigt wird.
+  * Stellen Sie dem Namen des Felds „DE:“ voran.
+  * Schließen Sie das Feld in geschweiften Klammern ein.
+  * Trennen Sie die mit dem Objekt verbundenen Felder durch Punkte.
 
   **Beispiel:** Um das benutzerdefinierte Feld „Projekt Zusätzliche Details“ in einer Aufgabenansicht in einer Ausdruckszeile für Werte anzuzeigen, verwenden Sie die folgende Zeile:
 
@@ -284,14 +288,14 @@ Sie können die folgenden Elemente verwenden, um Filter und benutzerdefinierte E
 
 * Ein Anweisungs-Connector, der mehrere Filteranweisungen verbindet:
 
-   * UND
+  * UND
 
-     Dies ist der Standard-Connector zwischen Filteranweisungen.
+    Dies ist der Standard-Connector zwischen Filteranweisungen.
 
-   * ODER
+  * ODER
 
-     >[!TIP]
-     >
-     >Bei Anweisungs-Connectoren wird zwischen Groß- und Kleinschreibung unterschieden. „AND“ kann im Textmodus weggelassen werden.
+    >[!TIP]
+    >
+    >Bei Anweisungs-Connectoren wird zwischen Groß- und Kleinschreibung unterschieden. „AND“ kann im Textmodus weggelassen werden.
 
 * Platzhalter, um Filter dynamischer zu gestalten und sie für die aktuelle Zeit oder den angemeldeten Benutzer anzupassen. Informationen zu Platzhaltern finden Sie unter [Übersicht über Platzhalterfiltervariablen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).

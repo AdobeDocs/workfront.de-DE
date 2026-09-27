@@ -9,13 +9,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 085b0f04-5a9c-49b9-86d7-2363731ee067
-source-git-commit: 7ca27795ec115a112acb55113bfade4a5fee15ad
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 0%
-
+source-wordcount: '464'
+ht-degree: 4%
 ---
-
 # Objekte zwischen Umgebungen vergleichen
 
 Sie können Objekte zwischen Umgebungen vergleichen, um sicherzustellen, dass Ihre Umgebungspakete die benötigten Objekte enthalten.
@@ -47,7 +54,7 @@ Sie müssen über Folgendes verfügen:
   </tr>
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 ## Voraussetzungen
 
@@ -56,10 +63,10 @@ Ihr Unternehmen muss auf der Adobe Business Platform arbeiten, um Objekte zwisch
 ## Generieren eines Objektvergleichs
 
 1. Wechseln Sie zu einer Umgebung, in der Sie ein Objekt vergleichen möchten.
-1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **&#x200B;**&#x200B;Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **** Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
 1. Wählen Sie **linken Navigationsbereich die Option** System“ und dann **Umgebungs-Promotion** aus.
 1. Klicken **oben rechts** Bildschirm auf „Umgebungen vergleichen“.
-1. Wählen Sie im Feld **Source** Umgebung die Umgebung aus, in der Sie das Paket erstellen möchten. Dies ist die Umgebung, aus der Sie Objekte **&#x200B;**.
+1. Wählen Sie im Feld **Source** Umgebung die Umgebung aus, in der Sie das Paket erstellen möchten. Dies ist die Umgebung, aus der Sie Objekte ****.
 1. Wählen Sie im Feld **Zielumgebung** die Umgebung aus, in der Sie das Paket installieren möchten. Dies ist die Umgebung, in die Sie Objekte **kopieren**.
 1. Wählen Sie im Bereich **Zu vergleichende Objekte** die Objekttypen aus, die Sie zwischen Umgebungen vergleichen möchten.
 1. Klicken **oben rechts** Bildschirm auf „Vergleich generieren“.

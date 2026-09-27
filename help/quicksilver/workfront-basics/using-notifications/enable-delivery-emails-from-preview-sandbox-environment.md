@@ -5,23 +5,28 @@ description: Wenn Sie E-Mail-Benachrichtigungen von der Sandbox-Vorschau-Umgebun
 author: Courtney, Becky
 feature: Get Started with Workfront
 exl-id: e5c7e387-d08d-42f6-a9e6-f44e514ef902
-TQID: https://experienceleague.adobe.com/Ls9pjNAe1idVEzimGKgoZeL8e5NuHYz1qE52L7n0ZaE
+TQID: 'https://experienceleague.adobe.com/Ls9pjNAe1idVEzimGKgoZeL8e5NuHYz1qE52L7n0ZaE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 465
+source-wordcount: '466'
 ht-degree: 10%
-
 ---
-
 # Aktivieren der E-Mail-Zustellung in der Sandbox-Umgebung in der Vorschau
 
 [!UICONTROL Adobe Workfront] Deaktiviert die gesamte E-Mail-Kommunikation in der Vorschau- und der benutzerdefinierten Sandbox-Aktualisierungsumgebung. Weitere Informationen zur Sandbox-Vorschau-Umgebung finden Sie unter [Die Sandbox-Vorschau-Umgebung von Adobe Workfront](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md). Informationen zur benutzerdefinierten Sandbox-Aktualisierungsumgebung finden Sie unter [Die benutzerdefinierte Sandbox-Aktualisierungsumgebung von Adobe Workfront](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md).

@@ -2,29 +2,35 @@
 product-area: workfront-integrations;projects
 navigation-topic: workfront-for-slack
 title: Erstellen von Aufgaben und Problemen über Slack
-description: Nach der Installation und Konfiguration  [!DNL Adobe Workfront]  Slack können Sie Aufgaben und Probleme aus Slack erstellen und sie mit Projekten in Workfront verknüpfen.
+description: Nachdem Sie [!DNL Adobe Workfront] für Slack installiert und konfiguriert haben, können Sie Aufgaben und Probleme aus Slack erstellen und sie mit Projekten in Workfront verknüpfen.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cf4a514a-fe69-4c2f-8e35-5738dfaab24e
-TQID: https://experienceleague.adobe.com/IVleUkmG-O8tjYeup3EiKB5DQIidKr9GaAVhRJHVZ3U
+TQID: 'https://experienceleague.adobe.com/IVleUkmG-O8tjYeup3EiKB5DQIidKr9GaAVhRJHVZ3U'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: e4fedd42-4a54-4109-859f-13c7f0366a72
+    internal-label: Adobe Workfront for Slack
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 428
+source-wordcount: '429'
 ht-degree: 8%
-
 ---
-
 # Erstellen von Aufgaben und Problemen aus [!DNL Slack]
 
 Nachdem Sie [!DNL Adobe Workfront for Slack] installiert und konfiguriert haben, können Sie Aufgaben und Probleme aus [!DNL Slack] erstellen und sie mit Projekten in [!DNL Workfront] verknüpfen.

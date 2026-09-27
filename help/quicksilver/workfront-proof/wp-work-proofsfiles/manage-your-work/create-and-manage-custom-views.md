@@ -7,20 +7,29 @@ description: Sie können benutzerdefinierte Ansichten Ihrer Dateien und Testsend
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7c6f3fdd-f767-4e8d-937a-1c7645aba55b
-TQID: https://experienceleague.adobe.com/QMQKw8XzYi2H-SA-paAka7w4fbJvQpitTxAwuJrjueA
+TQID: 'https://experienceleague.adobe.com/QMQKw8XzYi2H-SA-paAka7w4fbJvQpitTxAwuJrjueA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2482
+source-wordcount: '2482'
 ht-degree: 1%
-
 ---
-
 # Erstellen und Verwalten von benutzerdefinierten Ansichten in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -224,39 +233,39 @@ Erstellen einer benutzerdefinierten Ansicht:
 
    * **Feld** Wählen Sie das Feld für diesen Filter aus (Kommentare ist das Standardfeld). Die Liste Feld enthält alle Standardfelder (wie auf der Registerkarte [!UICONTROL Spalten]). Die Liste ist nicht auf die Spalten beschränkt, die zur Anzeige ausgewählt wurden.
    * **Operator** Die für den Filter verfügbaren Operatoren hängen vom ausgewählten Feldtyp ab. Wählen Sie einen Operator aus, der die Beziehung zwischen dem Feld und dem Wertfeld anzeigt. Sie werden diese Informationen später ausfüllen.
-   * **Wert** Wählen Sie den ausgewählten Wert in diesem Feld aus oder geben Sie ihn entsprechend dem ausgewählten Feld und dem ausgewählten Operator ein. Je nach ausgewähltem Operator kann es ein Wertefeld, zwei oder gar keinen geben. Siehe Beispiele unten.
+   * **Wert** Wählen Sie den ausgewählten Wert in diesem Feld aus oder geben Sie ihn entsprechend dem ausgewählten Feld und dem ausgewählten Operator ein. Je nach ausgewähltem Operator kann es ein Wertefeld, zwei oder gar keinen geben. Siehe dazu die Beispiele weiter unten.
    * **Filter werden mithilfe der folgenden Logik angewendet:** Filterkriterien zwischen verschiedenen Feldern verwenden den AND-Operator. Mehrere Filterkriterien, die dasselbe Feld verwenden, verwenden den OR-Operator für dasselbe Feld.
 
      Wenn Sie nur Korrekturabzüge mit null Kommentaren anzeigen möchten, wählen Sie die folgenden Werte aus:
 
-      * Feld: comments
-      * Operator: Gleich
-      * Wertfeld: 0
+     * Feld: comments
+     * Operator: Gleich
+     * Wertfeld: 0
 
      Wenn Sie nur Korrekturabzüge mit zwei oder mehr Kommentaren anzeigen möchten, wählen Sie die folgenden Werte aus:
 
-      * Feld: comments
-      * Operator: Größer oder gleich
-      * Wertfeld: 2
+     * Feld: comments
+     * Operator: Größer oder gleich
+     * Wertfeld: 2
 
      Wenn Sie nur Korrekturabzüge mit 1 bis 4 Kommentaren anzeigen möchten, wählen Sie die folgenden Werte aus:
 
-      * Feld: comments
-      * Operator: zwischen
-      * Wertfeld (erstes Feld): 1
-      * Wertfeld (zweites Feld): 4
+     * Feld: comments
+     * Operator: zwischen
+     * Wertfeld (erstes Feld): 1
+     * Wertfeld (zweites Feld): 4
 
-        Sie können einen Filter, den Sie Ihrer benutzerdefinierten Ansicht ohne Probleme hinzugefügt haben, ändern oder ihn entfernen, indem Sie auf das Kreuz-Symbol neben dem Filter [!UICONTROL Setup] klicken.
+       Sie können einen Filter, den Sie Ihrer benutzerdefinierten Ansicht ohne Probleme hinzugefügt haben, ändern oder ihn entfernen, indem Sie auf das Kreuz-Symbol neben dem Filter [!UICONTROL Setup] klicken.
 
-        Da die Feldliste nicht auf die Spalten beschränkt ist, die Sie auf der Registerkarte [!UICONTROL Spalten] ausgewählt haben, sollten Sie beim Erstellen eines Filters vorsichtig sein, der eine Spalte enthält, die Sie nicht zur Anzeige in Ihrer benutzerdefinierten Ansicht ausgewählt haben. Beispielsweise wählt der folgende Filter für die Ansicht alle Korrekturabzüge mit einem Versionszählerwert von 2 oder mehr aus:
+       Da die Feldliste nicht auf die Spalten beschränkt ist, die Sie auf der Registerkarte [!UICONTROL Spalten] ausgewählt haben, sollten Sie beim Erstellen eines Filters vorsichtig sein, der eine Spalte enthält, die Sie nicht zur Anzeige in Ihrer benutzerdefinierten Ansicht ausgewählt haben. Beispielsweise wählt der folgende Filter für die Ansicht alle Korrekturabzüge mit einem Versionszählerwert von 2 oder mehr aus:
 
-         * Feld = Versionszähler
-         * Operator = größer oder gleich
-         * Wertfeld = 2
+       * Feld = Versionszähler
+       * Operator = größer oder gleich
+       * Wertfeld = 2
 
-           >[!NOTE]
-           >
-           >Sie können einen Filter, den Sie Ihrer benutzerdefinierten Ansicht ohne Probleme hinzugefügt haben, ändern oder ihn entfernen, indem Sie auf das Kreuz-Symbol neben dem Filter [!UICONTROL Setup] klicken.
+         >[!NOTE]
+         >
+         >Sie können einen Filter, den Sie Ihrer benutzerdefinierten Ansicht ohne Probleme hinzugefügt haben, ändern oder ihn entfernen, indem Sie auf das Kreuz-Symbol neben dem Filter [!UICONTROL Setup] klicken.
 
 
 
@@ -323,7 +332,7 @@ Kopieren einer benutzerdefinierten Ansicht:
 
 ## Freigeben benutzerdefinierter Ansichten
 
-Mit der Funktion Ansicht freigeben können Sie eine Ansicht für andere Benutzer in Ihrem Konto freigeben, falls Sie diese nicht bereits im Abschnitt Freigabe für die Ansicht ausgewählt haben. Wenn Sie eine benutzerdefinierte Ansicht für andere Benutzer freigeben, wird die Ansicht im Abschnitt &quot;[!UICONTROL &#x200B; benutzerdefinierten Ansichten] des Dropdown-Menüs „Ansichten“ angezeigt.
+Mit der Funktion Ansicht freigeben können Sie eine Ansicht für andere Benutzer in Ihrem Konto freigeben, falls Sie diese nicht bereits im Abschnitt Freigabe für die Ansicht ausgewählt haben. Wenn Sie eine benutzerdefinierte Ansicht für andere Benutzer freigeben, wird die Ansicht im Abschnitt &quot;[!UICONTROL  benutzerdefinierten Ansichten] des Dropdown-Menüs „Ansichten“ angezeigt.
 
 So geben Sie eine benutzerdefinierte Ansicht für andere Benutzer frei:
 
@@ -353,7 +362,7 @@ So exportieren Sie die Daten aus einer benutzerdefinierten Ansicht in eine CSV-D
 1. Klicken Sie auf **[!UICONTROL Menü]** Aktionen“. (3)\
    Diese Schaltfläche ist nur verfügbar, wenn Sie die Spalte Korrekturabzugsname in Ihre Ansicht aufnehmen.
 
-1. Wählen Sie [!UICONTROL &#x200B; Menü &#x200B;]In CSV exportieren) aus. (4)\
+1. Wählen Sie [!UICONTROL  Menü ]In CSV exportieren) aus. (4)\
    ![export_custom_view.png](assets/exporting-custom-view-350x258.png)\
    In einem separaten Browser-Fenster wird „Bericht wird generiert: 100 %&quot; plus die Anzahl der Datensätze (die Anzahl der in Ihrem benutzerdefinierten Bericht enthaltenen Elemente) angezeigt
 
@@ -373,7 +382,7 @@ Sie können eine benutzerdefinierte Ansicht einfach löschen. Gehen Sie dazu fol
 1. Klicken Sie auf **[!UICONTROL Menü]** Aktionen“. (3)\
    Diese Schaltfläche ist nur verfügbar, wenn Sie die Spalte Korrekturabzugsname in Ihre Ansicht aufnehmen.
 
-1. Wählen [!UICONTROL &#x200B; im &#x200B;] die Option „Löschen“ aus. (4)\
+1. Wählen [!UICONTROL  im ] die Option „Löschen“ aus. (4)\
    ![deleting_custom_view.png](assets/deleting-custom-view-350x258.png)
 
 1. Klicken Sie **[!UICONTROL (]**), um zu bestätigen, dass Sie die aktuelle benutzerdefinierte Ansicht löschen möchten\

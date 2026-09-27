@@ -6,20 +6,24 @@ description: Das [!UICONTROL Innovation Lab] ermöglicht es authentifizierten Be
 feature: Get Started with Workfront
 author: Becky
 exl-id: 4775ece1-2841-4acc-b3f0-66cd2783669f
-TQID: https://experienceleague.adobe.com/rtb0famKLxMSXQUT5AHUFqqMsp8S5-v83hTwN-IZ9uA
+TQID: 'https://experienceleague.adobe.com/rtb0famKLxMSXQUT5AHUFqqMsp8S5-v83hTwN-IZ9uA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 437
+source-wordcount: '437'
 ht-degree: 4%
-
 ---
-
 # Das Innovationslabor
 
 Das [!UICONTROL Innovation Lab] ermöglicht es authentifizierten Benutzern, Ideen einzureichen, abzustimmen und mit anderen Kunden zu diskutieren.
@@ -32,7 +36,7 @@ Als authentifizierter Benutzer haben Sie folgende Möglichkeiten:
 
 Über eine Idee abstimmen:
 
-1. Melden Sie sich bei der [!DNL Adobe Workfront] Community auf der [!DNL Adobe Experience League] unter folgender URL an: [[!DNL Adobe Workfront] Community](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=de).
+1. Melden Sie sich bei der [!DNL Adobe Workfront] Community auf der [!DNL Adobe Experience League] unter folgender URL an: [[!DNL Adobe Workfront] Community](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
 
 1. Klicken Sie auf die **[!UICONTROL Ideen]**.
 
@@ -55,4 +59,4 @@ Nachdem der kritische Schwellenwert von 450 Punkten erreicht wurde, hat die Idee
 * **[!UICONTROL Zugestellt]:** Es wurde eine Lösung erstellt und bereitgestellt. Es werden keine weiteren Aktualisierungen bereitgestellt und Kommentare werden deaktiviert.
 * **[!UICONTROL Archiviert]**: Ideen, die die 18-Monats-Marke erreichen (ab Einreichungsdatum) und weniger als 300 Punkte haben, werden archiviert.
 
-Um zu beginnen oder mehr zu erfahren, melden Sie sich beim [Innovation Lab](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=de) an.
+Um zu beginnen oder mehr zu erfahren, melden Sie sich beim [Innovation Lab](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront) an.

@@ -6,29 +6,41 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-TQID: https://experienceleague.adobe.com/WBBBWQN-XQSWhJMNOqhp2v7Ne2TlEQYXng6WiXbvlDg
+TQID: 'https://experienceleague.adobe.com/WBBBWQN-XQSWhJMNOqhp2v7Ne2TlEQYXng6WiXbvlDg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Taxonomy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 7679
+source-wordcount: '7679'
 ht-degree: 2%
-
 ---
-
 # Veröffentlichungen von Adobe Workfront-Planung für 2024
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
@@ -77,19 +89,19 @@ Für Workfront Planning-Objekte wurden gemäß den folgenden beiden Paketen neue
 
 * Workfront Planning bietet Ihnen folgende Möglichkeiten:
 
-   * Unbegrenzte Arbeitsbereiche
+  * Unbegrenzte Arbeitsbereiche
 
-   * 25.000 Datensätze pro Arbeitsbereich
+  * 25.000 Datensätze pro Arbeitsbereich
 
-   * Insgesamt 500.000 Datensätze für Ihre Instanz
+  * Insgesamt 500.000 Datensätze für Ihre Instanz
 
 * Workfront Planning Plus bietet folgende Möglichkeiten:
 
-   * Unbegrenzte Arbeitsbereiche
+  * Unbegrenzte Arbeitsbereiche
 
-   * 500.000 Datensätze pro Arbeitsbereich
+  * 500.000 Datensätze pro Arbeitsbereich
 
-   * Insgesamt 2 Millionen Datensätze für Ihre Instanz.
+  * Insgesamt 2 Millionen Datensätze für Ihre Instanz.
 
 Weitere Informationen finden Sie unter [Übersicht über die Adobe Workfront Planning-Objektbegrenzung](/help/quicksilver/planning/general/limitations-overview.md).
 
@@ -149,10 +161,10 @@ Die folgenden Funktionen sind in diesem Update enthalten:
 
 * Je nach Konfiguration kann das Anfrageformular alle Felder des Datensatztyps anzeigen, mit Ausnahme der Felder der folgenden Typen:
 
-   * Personen
-   * Verbundene Felder (einschließlich Verbindungen mit Experience Manager-Assets)
-   * Verbundene Suchfelder
-   * Formel
+  * Personen
+  * Verbundene Felder (einschließlich Verbindungen mit Experience Manager-Assets)
+  * Verbundene Suchfelder
+  * Formel
 
 Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
@@ -179,13 +191,13 @@ Es gibt eine neue Einstellungsoption, mit der Sie das Erscheinungsbild der Daten
 
 * Ändern Sie die Farbe der Datensatzbalken oder ihrer Gruppierungen in eine der folgenden Kategorien:
 
-   * Die Farbe des Datensatztyps
+  * Die Farbe des Datensatztyps
 
-   * Die Farbe eines von Ihnen ausgewählten Felds
+  * Die Farbe eines von Ihnen ausgewählten Felds
 
-   * Die Farbe der Gruppierung
+  * Die Farbe der Gruppierung
 
-   * Keine Farbe (Standard)
+  * Keine Farbe (Standard)
 
 Wenn Sie Farben einem bestimmten Feld zuordnen, können Sie nur Felder mit farbcodierten Optionen auswählen.
 
@@ -494,9 +506,9 @@ Dieses Update enthält die folgenden Verbesserungen:
 
 * Die Vorlage Marketing-Management wurde entfernt. Wir haben die folgenden Vorlagen für die Marketing-Verwaltung hinzugefügt und empfehlen, je nach Komplexität Ihrer Workflows die entsprechende Vorlage zu verwenden:
 
-   * Basis: Marketing-Management
-   * Erweitert: Marketing-Management
-   * Enterprise: Marketing-Management
+  * Basis: Marketing-Management
+  * Erweitert: Marketing-Management
+  * Enterprise: Marketing-Management
 
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
@@ -622,9 +634,9 @@ Zu den Informationen auf der Landingpage gehören unter anderem:
 
 * Wenn Sie Workfront-Administrator sind, werden die folgenden Registerkarten angezeigt:
 
-   * Meine Arbeitsbereiche: Zeigt nur von Ihnen erstellte Arbeitsbereiche an.
+  * Meine Arbeitsbereiche: Zeigt nur von Ihnen erstellte Arbeitsbereiche an.
 
-   * Andere Arbeitsbereiche: Zeigt von Ihnen erstellte oder für Sie freigegebene Arbeitsbereiche an.
+  * Andere Arbeitsbereiche: Zeigt von Ihnen erstellte oder für Sie freigegebene Arbeitsbereiche an.
 
 * Links zur Dokumentations- und Freigabeaktivität für Workfront Planning
 

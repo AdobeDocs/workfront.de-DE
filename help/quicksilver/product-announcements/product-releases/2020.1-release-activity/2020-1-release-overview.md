@@ -9,26 +9,35 @@ recommendations: noDisplay, noCatalog
 exl-id: 4162cfb7-d5e1-4152-857a-fc4a6eb09cd7
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/w9Ss7NTpVcwzUt4Dyll9vhLKuG-bwz46J5WJ5XpxDWg
+TQID: 'https://experienceleague.adobe.com/w9Ss7NTpVcwzUt4Dyll9vhLKuG-bwz46J5WJ5XpxDWg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2770
+source-wordcount: '2873'
 ht-degree: 1%
-
 ---
-
 # Überblick über Version 2020.1
 
 <!--
@@ -406,7 +415,7 @@ Informationen zu den Wartungs-Updates, die während der Version 2020.1 vorgenomm
 
 ## Ankündigungen
 
-* [Hinzufügen zusätzlicher Domains zu der für den Zugriff auf Workfront erforderlichen &#x200B;](#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront)
+* [Hinzufügen zusätzlicher Domains zu der für den Zugriff auf Workfront erforderlichen ](#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront)
 * [Workfront One](#workfront-one)
 * Webinar zur Version [.2020.1](#2020-1-release-webinar)
 * [Produkt-Roadmap-Webinar im 1. Quartal](#q1-product-roadmap-webinar)
@@ -427,7 +436,7 @@ Weitere Informationen finden Sie [Zulassungsliste zum Konfigurieren der Firewall
 
 Mit Workfront One entdecken Sie die wichtigsten Inhalte, Ressourcen und Neuigkeiten aus Workfront - alles an einem Ort, mit einer Anmeldung. Wir haben die Sites für Erlebnis, Community und Schulung zusammengeführt, damit Sie leichter finden können, wonach Sie suchen.
 
-[Weitere Informationen zu Workfront One](https://business.adobe.com/de/products/workfront.html).
+[Weitere Informationen zu Workfront One](https://business.adobe.com/products/workfront.html).
 
 ### Webinar zur Version 2020.1 {#2020-1-release-webinar}
 
@@ -435,7 +444,7 @@ Sehen Sie sich die Aufzeichnung des Webinars zur Version 2020.1 hier an.
 
 ### Webinar zur Produkt-Roadmap im 1. Quartal {#q1-product-roadmap-webinar}
 
-Erfahren Sie mehr über die nächsten Schritte während des [Q1-Roadmap-Webinars](https://webinars.on24.com/workfront/product_roadmap032620?partnerref=announcementcenter). Dieses Webinar wird am 26. März 2020 um 18 :00a stattfinden. MT. Zum Registrieren auf den Link klicken
+Erfahren Sie mehr über die nächsten Schritte während des [Q1-Roadmap-Webinars](https://webinars.on24.com/workfront/product_roadmap032620?partnerref=announcementcenter). Dieses Webinar wird am 26. März 2020 um 9:00 Uhr abgehalten. MT. Zum Registrieren auf den Link klicken
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

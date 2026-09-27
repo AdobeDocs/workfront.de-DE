@@ -7,24 +7,35 @@ description: Rechnungsadministratoren und -administratoren können benutzerdefin
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 26e76fb7-4a2d-4ae1-b9cb-293c074151da
-TQID: https://experienceleague.adobe.com/O8MYCpzLUHxiOhoFs1GUiVogqziOwIBjMapChrEd5hs
+TQID: 'https://experienceleague.adobe.com/O8MYCpzLUHxiOhoFs1GUiVogqziOwIBjMapChrEd5hs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 994
+source-wordcount: '1051'
 ht-degree: 0%
-
 ---
-
 # Erstellen und Verwalten von benutzerdefinierten Profilen mithilfe von [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -52,10 +63,10 @@ Weitere Informationen finden Sie unter [Erstellen von Korrekturabzügen in [!DNL
 Weitere Informationen finden Sie unter [Hochladen von Dateien und Web-Inhalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
 
 * Öffentliche Ordner
-Weitere Informationen finden Sie unter [&#x200B; zu Ordnerberechtigungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md).
+Weitere Informationen finden Sie unter [ zu Ordnerberechtigungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md).
 
 * Private Ordner
-Weitere Informationen finden Sie unter [&#x200B; zu Ordnerberechtigungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md).
+Weitere Informationen finden Sie unter [ zu Ordnerberechtigungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md).
 
 * Kontakte
 Weitere Informationen finden Sie unter [Kontakte](https://support.workfront.com/hc/en-us/sections/115000920808-Contacts).
@@ -146,7 +157,7 @@ Weitere Informationen finden Sie unter [Profile für Korrekturabzugsberechtigung
 
    Weitere Informationen finden Sie unter [Administratorberechtigungen](#administrative-permissions).
 
-1. Klicken Sie **[!UICONTROL Erstellen]**.
+1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 Das neue Profil ist jetzt auf der Registerkarte **[!UICONTROL Benutzer]** verfügbar.
 
 1. (Optional) Weisen Sie das neue Profil neuen und vorhandenen Benutzerkonten zu.
@@ -157,7 +168,7 @@ Weitere Informationen finden Sie unter [Profile für Korrekturabzugsberechtigung
 1. Navigieren Sie zu **[!UICONTROL Kontoeinstellungen]** und klicken Sie dann auf die Registerkarte **[!UICONTROL Profile]**.
 
 1. Wählen Sie das Profil aus, das Sie aktivieren oder deaktivieren möchten.
-oder
+ODER
 Um mehrere Profile gleichzeitig zu aktivieren oder zu deaktivieren, wählen Sie die Profile manuell aus oder wählen Sie **[!UICONTROL Name]** aus, um alle benutzerdefinierten Profile auszuwählen.
    ![screen_shot_2018-04-06_12-31-53.png](assets/screenshot-2018-04-06-12-31-53.png)
 
@@ -187,7 +198,7 @@ Erstellen Sie Kopien eines vorhandenen Profils, um mehrere Profile mit ähnliche
    ![screen_shot_2018-04-06_12-34-41.png](assets/screenshot-2018-04-06-12-34-41.png)
 
 1. (Optional) Informationen zum Aktivieren des kopierten Profils finden Sie unter [Aktivieren und Deaktivieren eines Profils](#enabling-and-disabling-a-profile).
-1. (Optional) Informationen zum Bearbeiten des kopierten Profils finden Sie unter [&#x200B; eines Profils](#editing-a-profile).
+1. (Optional) Informationen zum Bearbeiten des kopierten Profils finden Sie unter [ eines Profils](#editing-a-profile).
 
 ## Profil bearbeiten {#editing-a-profile}
 
@@ -212,7 +223,7 @@ Weitere Informationen zu Berechtigungen finden Sie unter [Modulberechtigungen](#
 
    ![screen_shot_2018-04-06_12-36-21.png](assets/screenshot-2018-04-06-12-36-21-163x288.png)
 
-1. Klicken **&#x200B;**&#x200B;im **[!UICONTROL Bestätigungsdialogfeld]** auf „Ja“.
+1. Klicken **** im **[!UICONTROL Bestätigungsdialogfeld]** auf „Ja“.
 
 1. Wenn das Profil einem Benutzer zugewiesen ist, wählen Sie im Dropdown-Menü des Dialogfelds ein anderes Profil aus, das diesem Benutzer zugewiesen werden soll. Klicken Sie **[!UICONTROL Ja]** zur Bestätigung.
 

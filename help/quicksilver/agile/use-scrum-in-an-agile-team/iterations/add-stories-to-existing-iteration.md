@@ -8,22 +8,29 @@ feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/dOaVAx6iEbdP-hzSgKpS8drVTtmmhG-rjvZIsN19RH8
+TQID: 'https://experienceleague.adobe.com/dOaVAx6iEbdP-hzSgKpS8drVTtmmhG-rjvZIsN19RH8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 568
+source-wordcount: '601'
 ht-degree: 7%
-
 ---
-
 # Hinzufügen von Storys zu einer bestehenden Iteration
 
 Sie können einer Iteration auf eine der folgenden Arten Stories hinzufügen:
@@ -69,23 +76,23 @@ Wenn Sie eine vorhandene Aufgabe zu einer Iteration hinzufügen, werden standard
 
 * Die Aufgabe verwendet das Startdatum der Iteration, wenn:
 
-   * Für das Projekt ist kein [!UICONTROL Geplantes Startdatum] festgelegt.
-   * Das Projekt [!UICONTROL Geplantes Startdatum] ist *vor* oder *am* Startdatum der Iteration.
+  * Für das Projekt ist kein [!UICONTROL Geplantes Startdatum] festgelegt.
+  * Das Projekt [!UICONTROL Geplantes Startdatum] ist *vor* oder *am* Startdatum der Iteration.
 
-* Die Aufgabe verwendet das geplante [!UICONTROL &#x200B; des Projekts] wenn:
+* Die Aufgabe verwendet das geplante [!UICONTROL  des Projekts] wenn:
 
-   * Das Projekt [!UICONTROL Geplantes Startdatum] ist *nach* dem Startdatum der Iteration.
+  * Das Projekt [!UICONTROL Geplantes Startdatum] ist *nach* dem Startdatum der Iteration.
 
 ### Aufgabe [!UICONTROL Geplantes Abschlussdatum]
 
 * Die Aufgabe verwendet das Enddatum der Iteration, wenn:
 
-   * Für das Projekt ist kein [!UICONTROL Geplantes Abschlussdatum“ &#x200B;].
-   * Das Projekt [!UICONTROL Geplantes Startdatum] liegt *vor oder am* dem Startdatum der Iteration oder das [!UICONTROL Geplantes Abschlussdatum] des Projekts liegt *vor oder* dem Enddatum der Iteration.
+  * Für das Projekt ist kein [!UICONTROL Geplantes Abschlussdatum“ ].
+  * Das Projekt [!UICONTROL Geplantes Startdatum] liegt *vor oder am* dem Startdatum der Iteration oder das [!UICONTROL Geplantes Abschlussdatum] des Projekts liegt *vor oder* dem Enddatum der Iteration.
 
-* Die Aufgabe verwendet das &quot;[!UICONTROL &#x200B; Abschlussdatum“ des Projekts] wenn:
+* Die Aufgabe verwendet das &quot;[!UICONTROL  Abschlussdatum“ des Projekts] wenn:
 
-   * Das Projekt [!UICONTROL Geplantes Startdatum] ist *nach* dem Startdatum der Iteration und das [!UICONTROL Geplantes Abschlussdatum] des Projekts ist *nach* Enddatum der Iteration.
+  * Das Projekt [!UICONTROL Geplantes Startdatum] ist *nach* dem Startdatum der Iteration und das [!UICONTROL Geplantes Abschlussdatum] des Projekts ist *nach* Enddatum der Iteration.
 
 Sie können einzelne Scrum-Teams so konfigurieren, dass sie standardmäßig die Projektdaten und nicht die Iterationsdaten verwenden. Weitere Informationen finden Sie im Abschnitt [Konfigurieren der Anwendung von Datumsangaben beim Hinzufügen von Arbeitselementen zu einer Iteration](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) im Artikel [Konfigurieren von Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
@@ -103,7 +110,7 @@ Sie können jeder Iteration eine beliebige Aufgabe oder ein beliebiges Problem h
 >Nachdem die Aufgabe in die Iteration verschoben wurde, können Sie den [!UICONTROL Dauertyp] oder die [!UICONTROL Aufgabenbeschränkung] nicht aktualisieren. [!UICONTROL Dauertyp] wird auf [!UICONTROL Einfach] und [!UICONTROL Aufgabenbeschränkung] auf [!UICONTROL Feste Datumswerte] festgelegt, um die Zeitleiste der Aufgabe konsistent mit der Zeitleiste der Iteration zu halten.
 
 1. Öffnen Sie die Aufgabe oder das Problem, das Sie einer Iteration hinzufügen möchten.
-oder
+ODER
 Wechseln Sie zum Projekt, Bericht oder Dashboard, das die Aufgabe oder das Problem enthält, die bzw. das Sie einer Iteration hinzufügen möchten. Wählen Sie dann eine oder mehrere Aufgaben oder Probleme aus.
 
 1. Klicken Sie auf **[!UICONTROL Mehr]** ![Mehr-Symbol](assets/more-icon.png) > **[!UICONTROL Zu Iteration hinzufügen]**.

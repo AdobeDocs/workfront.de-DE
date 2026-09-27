@@ -8,23 +8,30 @@ author: Becky
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
-TQID: https://experienceleague.adobe.com/DSD8TkghWUd2ZDf8-kQYwnhDlpfCOrbOS83VZdzhJD0
+TQID: 'https://experienceleague.adobe.com/DSD8TkghWUd2ZDf8-kQYwnhDlpfCOrbOS83VZdzhJD0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: 254442ca-6997-5cfa-963e-f420870aea53
+    internal-label: People Teams and Groups
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 753
+source-wordcount: '753'
 ht-degree: 5%
-
 ---
-
 # Deaktivieren oder Reaktivieren einer Gruppe
 
 Sie können eine von Ihnen verwaltete Gruppe, die Sie nicht mehr verwenden, deaktivieren.
@@ -67,7 +74,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 >
 >* Entfernen Sie sie aus der übergeordneten Gruppe. Weitere Informationen finden Sie im Abschnitt [Entfernen einer Untergruppe aus der übergeordneten Gruppe und Festlegen als Gruppe der obersten Ebene](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) im Artikel [Verwalten einer Untergruppe](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
 >
->* Verschieben Sie sie unter eine aktive Gruppe. Weitere Informationen finden Sie im Abschnitt [Erstellen, Verschieben, Anzeigen, Bearbeiten, Kopieren, Umbenennen, Exportieren oder Löschen einer &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create)) im Artikel [Verwalten einer Untergruppe](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+>* Verschieben Sie sie unter eine aktive Gruppe. Weitere Informationen finden Sie im Abschnitt [Erstellen, Verschieben, Anzeigen, Bearbeiten, Kopieren, Umbenennen, Exportieren oder Löschen einer ](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create)) im Artikel [Verwalten einer Untergruppe](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
 
 {{step-1-to-setup}}
 
@@ -93,22 +100,22 @@ Beachten Sie Folgendes zu einer Gruppe, die Sie deaktivieren, indem Sie die Opti
 
   Informationen zur Reaktivierung einer Untergruppe in dieser Situation finden Sie unter [Informationen zur Reaktivierung einer Untergruppe unterhalb einer inaktiven übergeordneten Gruppe](#about-reactivating-a-subgroup-below-an-inactive-parent-group) in diesem Artikel.
 
-* Wenn Sie im Setup zum Bereich Gruppen gehen, werden nur aktive Gruppen in der Liste angezeigt, da Active der Standardfilter (![) &#x200B;](assets/filter-nwepng.png). Wenn Sie alle von Ihnen verwalteten Gruppen anzeigen möchten, einschließlich der inaktiven, können Sie den Filter Alle verwenden. Oder verwenden Sie den Filter Inaktiv , um nur die inaktiven aufzulisten.
+* Wenn Sie im Setup zum Bereich Gruppen gehen, werden nur aktive Gruppen in der Liste angezeigt, da Active der Standardfilter (![) ](assets/filter-nwepng.png). Wenn Sie alle von Ihnen verwalteten Gruppen anzeigen möchten, einschließlich der inaktiven, können Sie den Filter Alle verwenden. Oder verwenden Sie den Filter Inaktiv , um nur die inaktiven aufzulisten.
 
   Weitere Informationen zu Filtern in Listen finden Sie unter [Filter - Übersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 * Das Deaktivieren einer Gruppe ändert nichts an Folgendem:
 
-   * Die Zuordnungen der Gruppe zu Objekten. Zugeordnete Objekte funktionieren weiterhin wie zuvor, ohne Änderungen.
+  * Die Zuordnungen der Gruppe zu Objekten. Zugeordnete Objekte funktionieren weiterhin wie zuvor, ohne Änderungen.
 
-     Wenn beispielsweise ein Projekt mit einer Gruppe verknüpft ist, die Sie deaktivieren, verwendet das Projekt weiterhin die Voreinstellungen und Status der Gruppe, ohne Änderungen vorzunehmen.
+    Wenn beispielsweise ein Projekt mit einer Gruppe verknüpft ist, die Sie deaktivieren, verwendet das Projekt weiterhin die Voreinstellungen und Status der Gruppe, ohne Änderungen vorzunehmen.
 
-   * Ihre Möglichkeit, ein neues Objekt, z. B. eine Genehmigung, ein Team oder eine Firma, innerhalb der Einrichtungsseite der Gruppe zu erstellen. Standardmäßig ist das neue Objekt mit der inaktiven Gruppe verknüpft.
-   * Ihre Fähigkeit als Administrator, die Gruppe in Filtern und Berichten zu finden.
+  * Ihre Möglichkeit, ein neues Objekt, z. B. eine Genehmigung, ein Team oder eine Firma, innerhalb der Einrichtungsseite der Gruppe zu erstellen. Standardmäßig ist das neue Objekt mit der inaktiven Gruppe verknüpft.
+  * Ihre Fähigkeit als Administrator, die Gruppe in Filtern und Berichten zu finden.
 
-     Sie finden ihn auch in Feldern für Gruppentypvoraussetzung, in denen Sie die Gruppeneinstellungen im Bereich „Setup“ verwalten können. Dazu gehören die Bereiche Voreinstellungen, Ereignisbenachrichtigungen und Systemlizenzen.
+    Sie finden ihn auch in Feldern für Gruppentypvoraussetzung, in denen Sie die Gruppeneinstellungen im Bereich „Setup“ verwalten können. Dazu gehören die Bereiche Voreinstellungen, Ereignisbenachrichtigungen und Systemlizenzen.
 
-     Wenn Sie beispielsweise zu Einrichtung > Projektvoreinstellung > Projekte gehen und das Feld für die automatische Textvervollständigung über den Optionen dort löschen, können Sie weiterhin eine inaktive Gruppe finden und ihre Projektvoreinstellungen konfigurieren.
+    Wenn Sie beispielsweise zu Einrichtung > Projektvoreinstellung > Projekte gehen und das Feld für die automatische Textvervollständigung über den Optionen dort löschen, können Sie weiterhin eine inaktive Gruppe finden und ihre Projektvoreinstellungen konfigurieren.
 
 ## Informationen zum Reaktivieren einer Untergruppe unterhalb einer inaktiven übergeordneten Gruppe {#about-reactivating-a-subgroup-below-an-inactive-parent-group}
 
@@ -120,4 +127,4 @@ Durch Deaktivieren einer Gruppe werden auch alle darunter liegenden Untergruppen
 
 * Entfernen Sie die Untergruppe aus der übergeordneten Gruppe (wodurch die Untergruppe eine Gruppe der obersten Ebene wird). Aktivieren Sie dann die Option Ist aktiv für die verschobene Gruppe, wie im Abschnitt [Deaktivieren oder Reaktivieren einer Gruppe](#View) in diesem Artikel beschrieben.
 
-  Anweisungen zum Entfernen einer Untergruppe aus der übergeordneten Gruppe finden Sie im Abschnitt [Entfernen einer Untergruppe aus der übergeordneten Gruppe und Festlegen als Gruppe auf oberster Ebene](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) im Artikel [Verwalten einer &#x200B;](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
+  Anweisungen zum Entfernen einer Untergruppe aus der übergeordneten Gruppe finden Sie im Abschnitt [Entfernen einer Untergruppe aus der übergeordneten Gruppe und Festlegen als Gruppe auf oberster Ebene](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) im Artikel [Verwalten einer ](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).

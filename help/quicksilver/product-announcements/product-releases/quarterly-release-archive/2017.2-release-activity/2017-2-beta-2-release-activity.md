@@ -7,22 +7,29 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0aa8d61e-cf8c-46a7-b093-a0dbc90d37fd
-TQID: https://experienceleague.adobe.com/DMqQO0ANmU91bTeg5IYpb0XnfhmcpaqSWFc9b3jcdpM
+TQID: 'https://experienceleague.adobe.com/DMqQO0ANmU91bTeg5IYpb0XnfhmcpaqSWFc9b3jcdpM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 746
+source-wordcount: '796'
 ht-degree: 1%
-
 ---
-
 # Veröffentlichungen für Version 2017.2 Beta 2
 
 Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschau-Umgebung mit Beta 2 Version 2017.2 verfügbar sind. Die Funktion auf dieser Seite wurde am 24. Mai 2017 in der Vorschau-Umgebung verfügbar gemacht. Sie wird zwischen Ende Juli und Anfang August 2017 in der Produktionsumgebung verfügbar gemacht.
@@ -68,7 +75,7 @@ Weitere Informationen zum Abmelden von Abonnement-E-Mails finden Sie im Abschnit
 
 ## Konfigurieren der Anzeige von Meilensteinen im Gantt-Diagramm {#configure-how-milestones-are-displayed-on-the-gantt-chart}
 
-***KORREKTUR &#x200B;**: Diese Funktion befindet sich derzeit nicht in der Sandbox-Vorschau-Umgebung. Die Veröffentlichung ist für einen späteren Zeitpunkt im Juni 2017 geplant.*
+***KORREKTUR **: Diese Funktion befindet sich derzeit nicht in der Sandbox-Vorschau-Umgebung. Die Veröffentlichung ist für einen späteren Zeitpunkt im Juni 2017 geplant.*
 
 Es gibt jetzt zwei Optionen zum Anzeigen von Meilensteininformationen in einem Gantt-Diagramm. Sie können einen oder beide der folgenden Meilensteinindikatoren konfigurieren:
 

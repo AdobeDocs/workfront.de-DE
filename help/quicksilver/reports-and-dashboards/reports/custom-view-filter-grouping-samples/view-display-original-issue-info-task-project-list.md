@@ -9,20 +9,24 @@ feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/X9UQC1GD5KJ46DB6iZuE0UVgntzxykBBoyILo2bALVU
+TQID: 'https://experienceleague.adobe.com/X9UQC1GD5KJ46DB6iZuE0UVgntzxykBBoyILo2bALVU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 134
+source-wordcount: '134'
 ht-degree: 5%
-
 ---
-
 # Anzeigen: ursprüngliche Probleminformationen in Aufgaben- oder Projektlisten anzeigen
 
 Sie können die folgenden Informationen aus der ursprünglichen Anfrage in einer Ansicht von Aufgaben- und Projektlisten anzeigen, nachdem die Anfrage in die Aufgaben und Projekte in der Liste konvertiert wurde:
@@ -35,7 +39,7 @@ Informationen zum Erstellen einer Ansicht mit dem standardmäßigen Report Build
 
 ![task_and_project_list_with_original_issue_info.png](assets/task-and-project-list-with-original-issue-info-350x59.png)
 
-Weitere Informationen zum Einschließen zusätzlicher Probleminformationen in Projekte und Aufgabenlisten finden Sie auch unter [Anzeigen: Problemdetails für Aufgaben und Projekte &#x200B;](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
+Weitere Informationen zum Einschließen zusätzlicher Probleminformationen in Projekte und Aufgabenlisten finden Sie auch unter [Anzeigen: Problemdetails für Aufgaben und Projekte ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

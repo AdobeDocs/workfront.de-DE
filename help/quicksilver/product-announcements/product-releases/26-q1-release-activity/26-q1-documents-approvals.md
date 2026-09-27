@@ -7,20 +7,26 @@ recommendations: noDisplay, noCatalog
 exl-id: 2c3133c3-aaa9-424c-81f5-9e4e1f4a486f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/iKGQLX2hetwLutUlZqgIH51-SE2loCMj8qm2tXgnEoM
+TQID: 'https://experienceleague.adobe.com/iKGQLX2hetwLutUlZqgIH51-SE2loCMj8qm2tXgnEoM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 280
-ht-degree: 95%
-
+source-wordcount: '298'
+ht-degree: 100%
 ---
-
 # Verbesserungen bei Dokumenten und Genehmigungen im ersten Quartal 2026
 
 Auf dieser Seite werden die Verbesserungen an Dokumenten und Genehmigungen beschrieben, die mit der Version vom ersten Quartal 2026 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
@@ -45,7 +51,8 @@ The AI reviewer is currently in beta.
 
 >[!NOTE]
 >
->Vorschau: 15. Dezember 2025>Produktions-Schnellversion: 15. Dezember 2025\
+>Vorschau: 15. Dezember 2025
+>Produktions-Schnellveröffentlichung: 15. Dezember 2025\
 >Produktion für alle: 15. Dezember 2025
 
 Sie können ein Workfront-Projekt auswählen, an das ein Korrekturabzug gesendet werden soll. Auf diese Weise bleiben alle zugehörigen Assets und Korrekturabzüge innerhalb desselben Projekts organisiert.
@@ -58,7 +65,8 @@ Weitere Informationen finden Sie unter [Integration von Adobe Express und Workfr
 
 >[!NOTE]
 >
->Vorschau: 13. November 2025>Produktions-Schnellversion: 13. November 2025\
+>Vorschau: 13. November 2025
+>Produktions-Schnellveröffentlichung: 13. November 2025\
 >Produktion für alle: 13. November 2025
 
 Wir führen organisationsübergreifenden Support für Adobe Express in Workfront-Proofing ein. Diese Verbesserung ermöglicht Kundinnen und Kunden, die in mehreren IMS-Organisationen tätig sind, die nahtlose Verwendung und Verwaltung von Proofing-Workflows.
@@ -70,7 +78,8 @@ Weitere Informationen finden Sie unter [Erste Schritte mit der Integration von A
 
 >[!NOTE]
 >
->Vorschau: 30. Oktober 2025>Produktions-Schnellversion: 30. Oktober 2025\
+>Vorschau: 30. Oktober 2025
+>Produktions-Schnellveröffentlichung: 30. Oktober 2025\
 >Produktion für alle: 30. Oktober 2025
 
 Sie können jetzt Experience Manager Assets verwenden, um Ihre digitalen Assets, die den Überprüfungs- und Genehmigungszyklus durchlaufen haben, zu verwalten und zu speichern. Durch diese Integration können Sie die Funktionen von Adobe Experience Manager, Frame.io und Workfront nutzen, um Ihr Content-Management und Ihre Zusammenarbeitsprozesse zu optimieren.

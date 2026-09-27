@@ -4,22 +4,30 @@ product-previous: workfront-proof
 product-area: documents;dashboard
 navigation-topic: basic-features-workfront-proof
 title: Das Dashboard in [!DNL Workfront Proof]
-description: Das Dashboard ist die erste Seite, die Sie sehen, wenn Sie sich bei Ihrem - [!DNL Workfront Proof]  anmelden. Es fasst die Aktivität in Ihrem - [!DNL Workfront Proof]  zusammen und bietet schnelle Links zu anderen Abschnitten und Funktionen in [!DNL Workfront Proof].
+description: Das Dashboard ist die erste Seite, die Sie sehen, wenn Sie sich bei Ihrem [!DNL Workfront Proof]-Konto anmelden. Es fasst die Aktivitäten in Ihrem [!DNL Workfront Proof]-Konto zusammen und bietet schnelle Links zu anderen Abschnitten und Funktionen in [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bd0ecc43-4bbf-4caa-924f-6c8935123bf9
-TQID: https://experienceleague.adobe.com/70uFOpXwRaSaIKLxTLda7ro2sYSFh3s5sT4Olg7eis8
+TQID: 'https://experienceleague.adobe.com/70uFOpXwRaSaIKLxTLda7ro2sYSFh3s5sT4Olg7eis8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 994
+source-wordcount: '996'
 ht-degree: 3%
-
 ---
-
 # Das Dashboard in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -256,7 +264,7 @@ Sie können auch zur Detailseite eines Elements gehen, indem Sie auf das Aktions
 
 >[!NOTE]
 >
->Wenn Sie im Abschnitt „Letzte Aktivität“ auf [!UICONTROL &#x200B; Namen &#x200B;] Korrekturabzugs klicken, wird der Korrekturabzug in der Korrekturabzugsansicht geöffnet.
+>Wenn Sie im Abschnitt „Letzte Aktivität“ auf [!UICONTROL  Namen ] Korrekturabzugs klicken, wird der Korrekturabzug in der Korrekturabzugsansicht geöffnet.
 
 So gehen Sie zur Seite mit den Korrekturabzugsdetails für diesen Korrekturabzug:
 

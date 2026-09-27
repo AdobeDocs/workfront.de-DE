@@ -6,20 +6,24 @@ description: Ein Workfront-Kunde, der gemäß der Definition in HIPAA ein Busine
 feature: Get Started with Workfront
 author: Courtney
 exl-id: e3cdaa03-d523-46a4-954b-8456d5f190e4
-TQID: https://experienceleague.adobe.com/l-NtMh5XxyfqH8jX87OPwwYbE8Qg2i5-vFK1tvdzuh0
+TQID: 'https://experienceleague.adobe.com/l-NtMh5XxyfqH8jX87OPwwYbE8Qg2i5-vFK1tvdzuh0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 457
+source-wordcount: '480'
 ht-degree: 2%
-
 ---
-
 # HIPAA-Bereitschaft von Workfront
 
 Ein Workfront-Kunde, der gemäß der Definition in HIPAA ein Business Associate und/oder die abgedeckte Entität ist, für die der Business Associate Adobe Workfront bereitstellt, sollte die folgenden Richtlinien verwenden, um Workfront für die HIPAA-fähige Verwendung zu konfigurieren:
@@ -66,10 +70,10 @@ Insbesondere sollten die folgenden Zuständigkeiten und Pflichten überprüft un
 
 >[!IMPORTANT]
 >
->Workfront ist nicht als Repository für elektronische Patientenakten (EHRs) konzipiert. ePHI darf nur verarbeitet werden, wenn Adobe dies ausdrücklich schriftlich genehmigt. 
+>Workfront ist nicht als Repository für elektronische Patientenakten (EHR) konzipiert. ePHI darf nur verarbeitet werden, wenn Adobe dies ausdrücklich schriftlich genehmigt hat. 
 
 * Stellen Sie für jede Workfront-Datenbank, auf die ePHI zugreifen kann **sicher, dass „Encryption at Rest (EAR)** aktiviert ist.
-   * Wenden Sie sich an Ihren Kundenbetreuer, um zu bestätigen, dass EAR in Ihrem Workfront-Kauf enthalten ist.
-   * Konfigurieren Sie Systeme/Datenbanken, auf die über Workfront zugegriffen werden kann, um Compliance-Verpflichtungen zu erfüllen.
+  * Wenden Sie sich an Ihren Kundenbetreuer, um zu bestätigen, dass EAR in Ihrem Workfront-Kauf enthalten ist.
+  * Konfigurieren Sie Systeme/Datenbanken, auf die über Workfront zugegriffen werden kann, um Compliance-Verpflichtungen zu erfüllen.
 * Stellen Sie sicher, dass ePHI nicht mit anderen nicht HIPAA-fähigen Adobe-Lösungen übertragen, verknüpft oder freigegeben wird.
 * Stellen Sie sicher, dass über Workfront verarbeitete Patientenfotos sicher und nicht öffentlich zugänglich aufbewahrt werden.

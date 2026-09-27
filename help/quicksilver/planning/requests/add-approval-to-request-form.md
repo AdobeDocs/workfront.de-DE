@@ -8,18 +8,22 @@ recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/E9LEGJ8T822JuvIO3s8nn6UkLbX-j4ffwaKSviKxl0o
+TQID: 'https://experienceleague.adobe.com/E9LEGJ8T822JuvIO3s8nn6UkLbX-j4ffwaKSviKxl0o'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
     internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
     internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
     internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
     internal-label: Get started
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -30,7 +34,7 @@ topic_v2:
     internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3b3d455ded251b06084249cf9df12c1f112f05e9
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1171'
 ht-degree: 2%
@@ -166,7 +170,7 @@ So legen Sie Genehmigungsregeln für ein Anfrageformular fest:
    1. <span class="preview">(Bedingt und optional) Wenn Sie möchten, dass der Datensatz in den nächsten Schritt weitergeleitet wird, nachdem ihn eine der genehmigenden Personen genehmigt hat, aktivieren Sie das Kontrollkästchen **Nur eine Entscheidung ist**. Andernfalls müssen alle genehmigenden Personen über die Genehmigung entscheiden, bevor die Anfrage in den nächsten Schritt übergeht.</span>
    1. <span class="preview">Klicken Sie auf **Phase hinzufügen** und wiederholen Sie Schritt B, um der Genehmigung weitere Phasen hinzuzufügen.</span>
 
-      <span class="preview">Wenn zwei oder mehr Phasen vorhanden sind, können Sie auf das Symbol **Ziehen** (![) klicken, &#x200B;](assets/drag-icon.png) sie in die gewünschte Reihenfolge zu ziehen.</span>
+      <span class="preview">Wenn zwei oder mehr Phasen vorhanden sind, können Sie auf das Symbol **Ziehen** (![) klicken, ](assets/drag-icon.png) sie in die gewünschte Reihenfolge zu ziehen.</span>
 
       <span class="preview">Klicken Sie auf **Diesen Schritt löschen**, um einen Schritt aus der Genehmigung zu löschen, oder klicken Sie auf das **Löschen**-Symbol ![Löschen-Symbol](assets/delete.png) neben einer genehmigenden Person, um den Benutzer oder das Team aus der Liste der genehmigenden Personen in einem Schritt zu löschen.</span>
 

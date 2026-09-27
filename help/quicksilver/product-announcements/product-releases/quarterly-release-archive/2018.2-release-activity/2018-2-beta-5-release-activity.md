@@ -7,26 +7,33 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
-TQID: https://experienceleague.adobe.com/0JlkGC-ZucJr8R-AIrVZULqKmRWNL1ZnTohl50PWMLs
+TQID: 'https://experienceleague.adobe.com/0JlkGC-ZucJr8R-AIrVZULqKmRWNL1ZnTohl50PWMLs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3190
+source-wordcount: '3190'
 ht-degree: 1%
-
 ---
-
 # Veröffentlichungen für Version 2018.2 Beta 5
 
 Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 5 Version 2018.2 verfügbar waren. Die Funktion ist ab dem 1. Juni 2018 in der Vorschau-Umgebung verfügbar. Die mit Beta 5 veröffentlichten Proofing-Verbesserungen sind ab Montag, dem 4. Juni, in der Vorschau-Umgebung verfügbar. Sie wird ab Juli 2018 in der Produktionsumgebung verfügbar sein.
@@ -52,7 +59,7 @@ Die Beta-Version 5 von 2018.2 enthält die Verbesserungen für Workfront-Adminis
 * [Verbesserungen der Projekt- und Rollenansicht im Ressourcenplaner](#project-and-role-view-improvements-in-the-resource-planner)
 * [Spaltenbreiten für Projektlisten ändern](#resize-column-widths-for-project-lists)
 * [Symbolunterstützung für die neuen Projektlisten](#icon-support-for-the-new-project-lists)
-* [&#x200B; Feld „Große Miniaturansicht“ in Dokumentansichten hinzufügen](#add-large-thumbnail-field-in-document-views)
+* [ Feld „Große Miniaturansicht“ in Dokumentansichten hinzufügen](#add-large-thumbnail-field-in-document-views)
 * [Excel-Exportbeschränkung erhöhen](#increase-excel-export-limit)
 * [Schnellfilter für Projektlisten](#quick-filters-for-project-lists)
 * [Referenzieren von Problemsammlungen in Projekt- und Aufgabenberichten](#reference-issue-collections-in-project-and-task-reports)
@@ -136,8 +143,8 @@ Die Projekt- und Rollenansichten des Ressourcenplaners enthalten jetzt die folge
 * Vollbildmodus.
 * Die Leistung ist jetzt schneller und effizienter.
 
-   * Neue Beschränkungen für die Anzahl der Projekte, Rollen und Benutzenden, die Sie anzeigen können.
-   * Verzögertes Laden, für ein schnelleres Laden von Projekten und Rollen.
+  * Neue Beschränkungen für die Anzahl der Projekte, Rollen und Benutzenden, die Sie anzeigen können.
+  * Verzögertes Laden, für ein schnelleres Laden von Projekten und Rollen.
 
 * Schnellzugriff auf Projekte und Benutzer direkt über den Ressourcenplaner.
 * Schnellere Drag &amp; Drop-Funktion in der Projektansicht, um Ihre Projekte zu priorisieren.
@@ -168,7 +175,7 @@ Vor dieser Verbesserung würde die Größe der benachbarten Spalte rechts neben 
 
 Informationen zur Größenanpassung der Spalten in Listen finden Sie unter [Spaltenbreite und -reihenfolge ändern](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md).
 
-Um an unserem Beta-Testprogramm für die aktuellen Listennutzungsverbesserungen teilzunehmen, siehe [Neue Listenstudie.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=de) (Anmeldung erforderlich)
+Um an unserem Beta-Testprogramm für die aktuellen Listennutzungsverbesserungen teilzunehmen, siehe [Neue Listenstudie.](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront) (Anmeldung erforderlich)
 
 ## Symbolunterstützung für die neuen Projektlisten {#icon-support-for-the-new-project-lists}
 
@@ -233,7 +240,7 @@ Informationen zur Verwendung des Textmodus finden Sie [Übersicht über häufig 
 
 >[!NOTE]
 >
->Im folgenden Video war der Beispiel-Textmodus für Problemsammlungen falsch. Der richtige Beispieltextmodus ist in &quot;[&#x200B; in einem Bericht“ &#x200B;](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
+>Im folgenden Video war der Beispiel-Textmodus für Problemsammlungen falsch. Der richtige Beispieltextmodus ist in &quot;[ in einem Bericht“ ](../../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
 
 ## Neues, robusteres Versionsmenü beim Hinzufügen neuer Dokumentversionen in Workfront {#new-more-robust-version-menu-when-adding-new-document-versions-in-workfront}
 
@@ -254,7 +261,7 @@ Die folgenden Optionen sind jetzt im Menü Neue Version für alle Bereiche verf�
 * Verknüpfte Optionen (von Dropbox, von Google Drive usw.)
 * Aus Zwischenablage einfügen (dies ist eine neue Option beim Hinzufügen von Versionen)
 
-Weitere Informationen finden Sie unter [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem &#x200B;](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)) im Artikel [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+Weitere Informationen finden Sie unter [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem ](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)) im Artikel [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem](../../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
 ## Verbesserungen bei Mobilgeräten in der Android Beta Mobile App {#mobile-improvements-in-the-android-beta-mobile-app}
 
@@ -266,10 +273,10 @@ Kurz nach dem Tag dieser Version werden in der Android Beta-Version der Mobile A
 
   Die folgenden Bereiche wurden mit dieser Funktion verbessert:
 
-   * Meine Arbeit und Startseite
-   * Benachrichtigungen
-   * Kontakte
-   * Genehmigungen
+  * Meine Arbeit und Startseite
+  * Benachrichtigungen
+  * Kontakte
+  * Genehmigungen
 
 * Neues Erscheinungsbild bei Anzeige der Registerkarte „Details“ eines Elements
 
@@ -346,7 +353,7 @@ Weitere Informationen finden Sie unter [Konfigurieren der Einstellungen für Pro
 
 Beim Überprüfen eines Korrekturabzugs im Web Proofing Viewer oder Desktop Proofing Viewer können Sie nun den Avatar jedes Benutzers anzeigen, der den Korrekturabzug derzeit betrachtet, der in der oberen rechten Ecke der Proofing Viewer angezeigt wird.
 
-Weitere Informationen finden Sie unter [Testversand gleichzeitig mit mehreren Validierungsverantwortlichen &#x200B;](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proof-with-multiple-reviewers.md).
+Weitere Informationen finden Sie unter [Testversand gleichzeitig mit mehreren Validierungsverantwortlichen ](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proof-with-multiple-reviewers.md).
 
 ### Filterkommentare, um im Desktop Proofing Viewer eine einzelne Seite für interaktive URL-Korrekturabzüge anzuzeigen {#filter-comments-to-display-a-single-page-for-interactive-url-proofs-in-the-desktop-proofing-viewer}
 

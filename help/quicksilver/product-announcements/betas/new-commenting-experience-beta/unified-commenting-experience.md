@@ -10,18 +10,24 @@ hide: true
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/3PkUo43qZPf0xRIZgxpEPIYNLnxhzuvT9yvzVVLg1uw
+TQID: 'https://experienceleague.adobe.com/3PkUo43qZPf0xRIZgxpEPIYNLnxhzuvT9yvzVVLg1uw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1043
+source-wordcount: '1043'
 ht-degree: 1%
-
 ---
-
 # Neues Kommentierungserlebnis
 
 <!--take out legacy, preview, prod references from below-->
@@ -272,7 +278,7 @@ Die folgende Tabelle zeigt die Funktionen, die in der neuen Kommentarfunktion ve
    </td>
   </tr>
   <tr>
-   <td>Erfassen von Zeit 
+   <td>Zeit erfassen 
    </td>
    <td>✓ 
    </td>
@@ -424,26 +430,26 @@ Informationen zu den Funktionen, die nach Abschluss der Beta-Phase für das neue
 Im Folgenden finden Sie einen geplanten Zeitplan für die Veröffentlichung des neuen Kommentar-Erlebnisses:
 
 * Mit Version 23.2 (6. April 2023):
-   * Kommentierungserlebnis für Probleme in Beta gestartet
-   * Das neue Kommentierungserlebnis für Ziele wurde veröffentlicht (als einziges Erlebnis)
+  * Kommentierungserlebnis für Probleme in Beta gestartet
+  * Das neue Kommentierungserlebnis für Ziele wurde veröffentlicht (als einziges Erlebnis)
 * Mit Version 23.3 (20. Juli 2023):
-   * Das Kommentierungserlebnis für Beta für Projekte, Aufgaben und Dokumente wurde gestartet.
-   * Es wurde das neue Kommentierungserlebnis für Karten im Bereich Pinnwände (als einziges Erlebnis) veröffentlicht
+  * Das Kommentierungserlebnis für Beta für Projekte, Aufgaben und Dokumente wurde gestartet.
+  * Es wurde das neue Kommentierungserlebnis für Karten im Bereich Pinnwände (als einziges Erlebnis) veröffentlicht
 * Im vierten Quartal 2023 (eingeschränkte Version, nur für Kunden verfügbar, die die schnelle Version wählen):
-   * Das neue Kommentierungserlebnis für Vorlagen, Vorlagenaufgaben, Programme, Portfolios, Teams, Benutzer und Arbeitszeittabellen (als einziges Erlebnis) wurde veröffentlicht
-   * Das Kommentierungserlebnis für Beta für Projekte, Aufgaben, Probleme und Dokumente wurde aktualisiert, damit sie zur Standardoption werden. Die Bezeichnung &quot;Beta&quot; wurde entfernt.
+  * Das neue Kommentierungserlebnis für Vorlagen, Vorlagenaufgaben, Programme, Portfolios, Teams, Benutzer und Arbeitszeittabellen (als einziges Erlebnis) wurde veröffentlicht
+  * Das Kommentierungserlebnis für Beta für Projekte, Aufgaben, Probleme und Dokumente wurde aktualisiert, damit sie zur Standardoption werden. Die Bezeichnung &quot;Beta&quot; wurde entfernt.
 * Mit der Version vom 26. Oktober 2023 (23.10) im vierten Quartal 2023
-   * Das neue Kommentierungserlebnis für Vorlagen, Vorlagenaufgaben, Programme, Portfolios, Teams, Benutzer und Arbeitszeittabellen (als einziges Erlebnis) wurde für alle Kundinnen und Kunden veröffentlicht.
-   * Das neue Kommentierungserlebnis für Projekte, Aufgaben, Probleme und Dokumente wurde zur Standardoption.
+  * Das neue Kommentierungserlebnis für Vorlagen, Vorlagenaufgaben, Programme, Portfolios, Teams, Benutzer und Arbeitszeittabellen (als einziges Erlebnis) wurde für alle Kundinnen und Kunden veröffentlicht.
+  * Das neue Kommentierungserlebnis für Projekte, Aufgaben, Probleme und Dokumente wurde zur Standardoption.
 
   >[!IMPORTANT]
   >
   >    Damit ist die Beta-Phase der neuen Kommentarfunktion abgeschlossen.
 
-   * Alle Funktionen, die für das neue Kommentierungserlebnis ab diesem Datum veröffentlicht wurden, wurden zu einem Teil der aktuellen monatlichen und vierteljährlichen -Versionen.
+  * Alle Funktionen, die für das neue Kommentierungserlebnis ab diesem Datum veröffentlicht wurden, wurden zu einem Teil der aktuellen monatlichen und vierteljährlichen -Versionen.
 * Ende 2023:
-   * Das alte Kommentierungserlebnis wurde als sekundäre Option für die folgenden Objekte beibehalten: Projekte, Aufgaben, Probleme und Dokumente. Das neue Kommentierungserlebnis ist die Standardoption für alle Benutzer dieser Objekte.
-   * Das neue Kommentarerlebnis wurde zum einzigen Erlebnis für alle anderen Objekte.
+  * Das alte Kommentierungserlebnis wurde als sekundäre Option für die folgenden Objekte beibehalten: Projekte, Aufgaben, Probleme und Dokumente. Das neue Kommentierungserlebnis ist die Standardoption für alle Benutzer dieser Objekte.
+  * Das neue Kommentarerlebnis wurde zum einzigen Erlebnis für alle anderen Objekte.
 
 * Mit der Version vom 2. Quartal 2024 (11. April 2024):
 

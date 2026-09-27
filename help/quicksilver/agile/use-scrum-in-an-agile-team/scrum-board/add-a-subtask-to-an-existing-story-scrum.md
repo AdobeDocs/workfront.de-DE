@@ -8,23 +8,31 @@ feature: Agile
 exl-id: 264e66e9-94c7-4904-baad-f733d39b4791
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/tLJ-QqkcY2E0m93SdW-HbQTjBQs4j9-QXdYcBAZVzRY
+TQID: 'https://experienceleague.adobe.com/tLJ-QqkcY2E0m93SdW-HbQTjBQs4j9-QXdYcBAZVzRY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 604
+source-wordcount: '605'
 ht-degree: 9%
-
 ---
-
 # Hinzufügen einer Unteraufgabe zu einer vorhandenen Story auf dem [!UICONTROL Scrum]-Board
 
 Beachten Sie beim Erstellen von Unteraufgaben für vorhandene Storys Folgendes:
@@ -88,7 +96,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
    ![Teilaufgabe hinzufügen](assets/agile-story-addsubtask2-NWE.png)
 
-   Beim Hinzufügen einer Unteraufgabe zu einer Story, die derzeit keine Anzeigespur hat, wird die übergeordnete Aufgabe in die Spalte [!UICONTROL Übergeordnete Story“ &#x200B;] und die Unteraufgabe wird in die Anzeigespur verschoben.
+   Beim Hinzufügen einer Unteraufgabe zu einer Story, die derzeit keine Anzeigespur hat, wird die übergeordnete Aufgabe in die Spalte [!UICONTROL Übergeordnete Story“ ] und die Unteraufgabe wird in die Anzeigespur verschoben.
 
 1. Geben Sie die folgenden Informationen an:
 

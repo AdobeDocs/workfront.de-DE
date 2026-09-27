@@ -7,20 +7,26 @@ recommendations: noDisplay, noCatalog
 exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/BH2uI58dlJweV-8QT9wqb2z4Bcqorzko78NE3beuqWA
+TQID: 'https://experienceleague.adobe.com/BH2uI58dlJweV-8QT9wqb2z4Bcqorzko78NE3beuqWA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 741
+source-wordcount: '744'
 ht-degree: 4%
-
 ---
-
 # Verbesserungen bei Aktualisierungen und Benachrichtigungen für das zweite Quartal 2024
 
 Auf dieser Seite werden alle Aktualisierungen und Verbesserungen der Benachrichtigung beschrieben, die mit der Version vom zweiten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
@@ -67,7 +73,7 @@ In der neuen Kommentar-Funktion wurden folgende Verbesserungen vorgenommen:
 
 Weitere Informationen finden Sie unter [Arbeit aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-[Sehen Sie sich eine Video-Demo zu dieser Funktion an.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Die Erläuterung dieser spezifischen Funktion beginnt bei 2:47)
+[Sehen Sie sich eine Video-Demo zu dieser Funktion an.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Die Erläuterung dieser spezifischen Funktion beginnt um 2:47 Uhr.)
 
 ## Die Registerkarte Systemaktivität im neuen Kommentarerlebnis unterstützt schreibgeschützte Kommentare
 
@@ -79,7 +85,7 @@ Kommentare zu den Systemaktivitätsdatensätzen im alten Kommentar-Erlebnis werd
 
 Weitere Informationen finden Sie unter [Übersicht über Aktualisierungen](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Sehen Sie sich eine Video-Demo zu dieser Funktion an.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Die Erläuterung dieser spezifischen Funktion beginnt bei 2:00)
+[Sehen Sie sich eine Video-Demo zu dieser Funktion an.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Die Erläuterung dieser spezifischen Funktion beginnt um 2:00 Uhr.)
 
 ## Neue Registerkarte Aktualisierungsstrom , um sowohl Kommentare als auch Systemaktivitätseinträge zu erfassen
 
@@ -93,7 +99,7 @@ Die Registerkarte Alle ist eine schreibgeschützte Registerkarte. Sie können in
 
 Weitere Informationen finden Sie unter [Übersicht über Aktualisierungen](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[Sehen Sie sich eine Video-Demo zu dieser Funktion an.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Die Erläuterung dieser spezifischen Funktion beginnt bei 0:31)
+[Sehen Sie sich eine Video-Demo zu dieser Funktion an.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Die Erläuterung dieser spezifischen Funktion beginnt um 0:31)
 
 ## Neuer Kommentar-Stream jetzt im Bedienfeld Zusammenfassung verfügbar
 

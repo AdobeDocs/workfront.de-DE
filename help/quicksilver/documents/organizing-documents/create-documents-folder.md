@@ -8,22 +8,29 @@ feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/L473t3JSVgXHJ-RQXLXkBxQdzh9TbBwXM42DeiiCR7s
+TQID: 'https://experienceleague.adobe.com/L473t3JSVgXHJ-RQXLXkBxQdzh9TbBwXM42DeiiCR7s'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 811
+source-wordcount: '811'
 ht-degree: 6%
-
 ---
-
 # Erstellen von Dokumentordnern
 
 Dokumente können in Ordnern organisiert werden. Workfront verfügt derzeit über zwei Versionen des Dokumentbereichs: den alten Dokumentbereich und den neuen Dokumentbereich. Welche Version Ihr Unternehmen verwendet, hängt davon ab, ob sich Ihr Unternehmen im alten Workfront-Speicher oder im Adobe-Cloud-Speicher befindet. Weitere Informationen zu diesen Speichertypen finden Sie unter [Übersicht über den Adobe-Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
@@ -108,7 +115,7 @@ Wenn Ihr Unternehmen Adobe Cloud Storage verwendet, wird der Bereich Neue Dokume
 
 Wenn Sie ein Dokument in eine Aufgabe oder ein Problem hochladen, erstellt Workfront automatisch einen systemgenerierten Ordner mit dem Namen nach der Aufgabe oder dem Problem. Dieser Ordner ist mit der Aufgabe oder dem Problem verknüpft und übernimmt die Berechtigungen. Systemgenerierte Ordner sind im Dokumentbereich auf Projektebene sichtbar.
 
-Weitere Informationen zu Ordnerberechtigungen finden Sie unter [&#x200B; von Dokumentberechtigungen](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
+Weitere Informationen zu Ordnerberechtigungen finden Sie unter [ von Dokumentberechtigungen](/help/quicksilver/review-and-approve-work/esm-access-permissions.md#how-document-permissions-work).
 
 ### Unterordner erstellen
 

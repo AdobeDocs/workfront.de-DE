@@ -6,18 +6,24 @@ description: Mit Version 20.3 (geplant für August 2020) wird Adobe Workfront au
 author: Luke
 feature: Product Announcements
 exl-id: 73abd185-81c6-43fc-b8b0-cad14d15b348
-TQID: https://experienceleague.adobe.com/q3IdES8LZlJDDBjUqTkHmWqjtVdMV-w80o7wC-uRSXg
+TQID: 'https://experienceleague.adobe.com/q3IdES8LZlJDDBjUqTkHmWqjtVdMV-w80o7wC-uRSXg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 306
+source-wordcount: '306'
 ht-degree: 7%
-
 ---
-
 # Benutzerdefiniertes SMTP als Option für ausgehende E-Mails entfernen
 
 >[!NOTE]
@@ -34,4 +40,4 @@ Die in diesem Screenshot hervorgehobene Einstellung wird automatisch auf die Ver
 
 Wenn Sie einen benutzerdefinierten SMTP-Mail-Server konfiguriert haben, **wir empfehlen Ihnen dringend, sich an Ihr IT-Team zu wenden** um sicherzustellen, dass E-Mails von notifications@my.workfront.com nicht für eingehende E-Mails auf Ihrem System blockiert werden. Unter Konfigurieren Ihrer Firewall finden Sie auch Informationen darüber, von welchen IP-Adressen unser Traffic und unsere E-Mails stammen.
 
-Bei weiteren Fragen oder Anliegen wenden Sie sich bitte an das [Workfront-Supportteam](https://experienceleague.adobe.com/de?support-tab=home&lang=de#support).
+Bei weiteren Fragen oder Anliegen wenden Sie sich bitte an das [Workfront-Supportteam](https://experienceleague.adobe.com/?support-tab=home&lang=de#support).

@@ -6,13 +6,17 @@ title: Tarifkarte an eine Vorlage anhängen
 description: Wenn Sie einer Vorlage eine Tarifkarte zuweisen, wird diese an alle aus der Vorlage erstellten Projekte angehängt.
 author: Lisa
 feature: Work Management
-source-git-commit: ace9a01e852e6d99ddc6f150c0ac34bd4ef44817
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 8%
-
 ---
-
 # Tarifkarte an eine Vorlage anhängen
 
 Wenn Sie einer Vorlage eine Tarifkarte zuweisen, wird diese an alle aus der Vorlage erstellten Projekte angehängt. Die Tarifkarte wird zum Standard im Projekt, kann jedoch bei Bedarf überschrieben werden.
@@ -71,7 +75,7 @@ Das Feld **Tarifkarte** muss für Vorlagen in Ihrer Layout-Vorlage aktiviert sei
 1. Wählen Sie im Abschnitt Vorlagendetails > Übersicht > Vorlagenzuordnung im Feld **Tarifkarte** eine Tarifkarte aus.
 
    Es stehen nur Tarifkarten zur Auswahl, für die Sie über Berechtigungen verfügen.
-Sie können mit der Eingabe des Namens einer Tarifkarte beginnen, um die Ergebnisliste einzugrenzen.
+   Sie können mit der Eingabe des Namens einer Tarifkarte beginnen, um die Ergebnisliste einzugrenzen.
 
    ![Wählen Sie in der Vorlage eine Tarifkarte aus](assets/select-rate-card-on-template.png)
 

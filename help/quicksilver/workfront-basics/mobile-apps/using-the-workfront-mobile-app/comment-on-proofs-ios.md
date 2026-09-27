@@ -6,18 +6,21 @@ description: Sie können vorhandene Kommentare zu einem Korrekturabzug überprü
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c38f0d80-11e0-4d5a-9591-602543177fe6
-TQID: https://experienceleague.adobe.com/8-tgiBQim9V0-vqb8C8HITNXXfUuANwa7ohXTSkDDpQ
+TQID: 'https://experienceleague.adobe.com/8-tgiBQim9V0-vqb8C8HITNXXfUuANwa7ohXTSkDDpQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 817
+source-wordcount: '817'
 ht-degree: 1%
-
 ---
-
 # Kommentar zu Korrekturabzügen in [!DNL iOS]
 
 Sie können vorhandene Kommentare zu einem Korrekturabzug überprüfen und auflösen und dem Korrekturabzugsdokument neue Kommentare und Anmerkungen hinzufügen.
@@ -58,7 +61,7 @@ In der [!UICONTROL Kommentar]-Liste können Sie verschiedene Aktionen ausführen
    * Drücken und halten Sie einen einzelnen Kommentar gedrückt, um ihn auszuwählen.
    * Klicken **[!UICONTROL oben]** auf „Auswählen“, um neben jedem Kommentar ein Kontrollkästchen anzuzeigen. Tippen Sie dann oben links auf die Kontrollkästchen für **[!UICONTROL Kommentare oder wählen Sie]** Alle auswählen“ aus.
 
-1. Um den ausgewählten Kommentar aufzulösen, wählen Sie ![[!UICONTROL Kommentar auflösen] in &#x200B;](assets/mobile-resolvecomment-icon-30x30.png) Symbolleiste aus.
+1. Um den ausgewählten Kommentar aufzulösen, wählen Sie ![[!UICONTROL Kommentar auflösen] in ](assets/mobile-resolvecomment-icon-30x30.png) Symbolleiste aus.
 
    Sie können jeweils nur einen Kommentar auflösen. Der Kommentar ist mit einem grünen Symbol gekennzeichnet, um anzuzeigen, dass er aufgelöst wurde.
 
@@ -66,11 +69,11 @@ In der [!UICONTROL Kommentar]-Liste können Sie verschiedene Aktionen ausführen
 
    Sie können die Auflösung rückgängig machen, indem Sie den aufgelösten Kommentar auswählen und auf das Symbol **[!UICONTROL Rückgängig]** klicken.
 
-1. Um die ausgewählten Kommentare als gelesen zu markieren, wählen Sie das Symbol **[!UICONTROL Als gelesen markieren]** in ![&#x200B; unteren Symbolleiste &#x200B;](assets/mobile-markread-icon-30x31.png)Als gelesen markieren).
+1. Um die ausgewählten Kommentare als gelesen zu markieren, wählen Sie das Symbol **[!UICONTROL Als gelesen markieren]** in ![ unteren Symbolleiste ](assets/mobile-markread-icon-30x31.png)Als gelesen markieren).
 
    Diese Option ist nur verfügbar, wenn Sie ungelesene Kommentare ausgewählt haben.
 
-1. Um die ausgewählten Kommentare zu löschen, wählen Sie das Symbol **[!UICONTROL Löschen]** (![) &#x200B;](assets/delete-30x28.png) der unteren Symbolleiste aus. Wählen Sie dann **[!UICONTROL Löschen]** in der Bestätigungsmeldung aus, um den Kommentar dauerhaft zu löschen.
+1. Um die ausgewählten Kommentare zu löschen, wählen Sie das Symbol **[!UICONTROL Löschen]** (![) ](assets/delete-30x28.png) der unteren Symbolleiste aus. Wählen Sie dann **[!UICONTROL Löschen]** in der Bestätigungsmeldung aus, um den Kommentar dauerhaft zu löschen.
 
 ## Kommentieren eines Korrekturabzugs
 

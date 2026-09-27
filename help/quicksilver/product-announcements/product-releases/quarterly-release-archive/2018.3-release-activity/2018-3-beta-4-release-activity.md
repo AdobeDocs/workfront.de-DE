@@ -7,26 +7,33 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b40eda2c-8ad4-4945-a7e3-cb28ed8a14db
-TQID: https://experienceleague.adobe.com/gGZEw-nwXhtOQFIJS9-pZtb6XIg180CP02wMLVTTMPk
+TQID: 'https://experienceleague.adobe.com/gGZEw-nwXhtOQFIJS9-pZtb6XIg180CP02wMLVTTMPk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1134
+source-wordcount: '1134'
 ht-degree: 1%
-
 ---
-
 # Veröffentlichungen für Version 2018.3 Beta 4
 
 Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 4 Version 2018.3 verfügbar waren. Die Funktion ist ab dem 30. August 2018 in der Vorschau-Umgebung verfügbar. Sie wird im November 2018 in der Produktionsumgebung bereitgestellt.
@@ -88,10 +95,10 @@ Die folgende Funktion wurde in Aufgabenlisten geändert:
 * Rechtsklickfunktion und das bereitgestellte Kontextmenü.\
   Anstatt mit der rechten Maustaste auf Aufgaben zu klicken, um sie zu bearbeiten, haben Sie folgende Möglichkeiten:
 
-   * Wenn Sie eine einzelne Aufgabe auswählen, können Sie jetzt das Menü Mehr mit denselben Optionen wie im vorherigen Kontextmenü verwenden.
-   * Wenn Sie mehrere Aufgaben auswählen, können Sie mithilfe der Symbole oben in der Liste jede der im vorherigen Kontextmenü enthaltenen Aktionen ausführen.
+  * Wenn Sie eine einzelne Aufgabe auswählen, können Sie jetzt das Menü Mehr mit denselben Optionen wie im vorherigen Kontextmenü verwenden.
+  * Wenn Sie mehrere Aufgaben auswählen, können Sie mithilfe der Symbole oben in der Liste jede der im vorherigen Kontextmenü enthaltenen Aktionen ausführen.
 
-     Alle Änderungen sind in den Aufgabenlisten innerhalb von Projekten sowie auf der Registerkarte Teilaufgaben unter Aufgaben sichtbar.
+    Alle Änderungen sind in den Aufgabenlisten innerhalb von Projekten sowie auf der Registerkarte Teilaufgaben unter Aufgaben sichtbar.
 
 Weitere Informationen zum Arbeiten in Listen finden Sie unter [Erste Schritte mit Listen in Adobe Workfront](../../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 

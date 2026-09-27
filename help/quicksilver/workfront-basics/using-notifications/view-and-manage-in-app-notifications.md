@@ -5,22 +5,26 @@ description: 'In-App-Benachrichtigungen halten Sie über zwei Arten von Informat
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6
-TQID: https://experienceleague.adobe.com/2PxHbwQ0pfjUTIThm5ATGXl4IKPZFV8pQeL8s9waOOw
+TQID: 'https://experienceleague.adobe.com/2PxHbwQ0pfjUTIThm5ATGXl4IKPZFV8pQeL8s9waOOw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9c592e336feb25253c18787c831adfc36da62ed1
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 986
+source-wordcount: '986'
 ht-degree: 4%
-
 ---
-
 # Anzeigen und Verwalten von In-App-Benachrichtigungen
 
 In-App-Benachrichtigungen halten Sie über zwei Arten von Informationen auf dem Laufenden: Ankündigungsbenachrichtigungen und Arbeitsaufgabenbenachrichtigungen. Sie sind sowohl in der Web-Anwendung als auch in der Mobile App verfügbar.
@@ -114,7 +118,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 Nachdem Sie Benachrichtigungen angezeigt haben, können Sie sie bestätigen, um sie aus der Liste [!UICONTROL Benachrichtigungen] zu löschen oder sie später beantworten zu lassen.
 
-Auf der [!UICONTROL Benachrichtigungen] können Sie aktuelle und gelöschte Benachrichtigungen anzeigen. Sie können gelöschte Benachrichtigungen auch wieder in die Liste [!UICONTROL Benachrichtigungen“ &#x200B;].
+Auf der [!UICONTROL Benachrichtigungen] können Sie aktuelle und gelöschte Benachrichtigungen anzeigen. Sie können gelöschte Benachrichtigungen auch wieder in die Liste [!UICONTROL Benachrichtigungen“ ].
 
 * [Benachrichtigungen bestätigen](#acknowledge-notifications)
 * [Bestätigte Benachrichtigungen anzeigen](#view-acknowledged-notifications)

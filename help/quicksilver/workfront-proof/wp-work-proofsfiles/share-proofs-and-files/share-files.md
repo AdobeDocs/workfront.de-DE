@@ -3,22 +3,30 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
 title: Freigeben von Dateien in Workfront Proof
-description: Sie können  [!DNL Workfront Proof]  für mehr als nur die Verwaltung von Testsendungen verwenden. Es ist auch eine ideale Lösung für das Speichern und Freigeben von Dateien.
+description: Sie können [!DNL Workfront Proof] für mehr als nur die Verwaltung von Testsendungen verwenden. Es ist auch eine ideale Lösung für das Speichern und Freigeben von Dateien.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c4ca7a87-cacc-4b9b-aa9b-d7022ef9e267
-TQID: https://experienceleague.adobe.com/gqAvtlTosbFa3VbRCbgC4zbdQZVM8xzmBH-uF3HZLlU
+TQID: 'https://experienceleague.adobe.com/gqAvtlTosbFa3VbRCbgC4zbdQZVM8xzmBH-uF3HZLlU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 562
+source-wordcount: '563'
 ht-degree: 1%
-
 ---
-
 # Freigeben von Dateien in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -44,9 +52,9 @@ Rechnungsadministratoren, Administratoren, Supervisoren und Manager können Date
 
 ## Freigeben einer bereits hochgeladenen Datei
 
-1. Klicken Sie im Dashboard oder in einer beliebigen Ansichtsliste auf **[!UICONTROL Mehr]** (drei Punkte) ganz rechts in der Datei und klicken Sie dann **Dropdown-Menü auf** Freigeben.
+1. Klicken Sie im Dashboard oder in einer beliebigen Ansichtsliste auf **[!UICONTROL Mehr]** (drei Punkte) ganz rechts in der Datei und klicken Sie dann ]**Dropdown-Menü auf**[!UICONTROL  Freigeben.
 
-1. Geben Sie in [!UICONTROL &#x200B; Feld „Datei freigeben] eine E-Mail-Adresse ein und klicken Sie dann auf das Pluszeichen, um den Empfänger hinzuzufügen.\
+1. Geben Sie in [!UICONTROL  Feld „Datei freigeben] eine E-Mail-Adresse ein und klicken Sie dann auf das Pluszeichen, um den Empfänger hinzuzufügen.\
    Ihre Kontakte, Gruppen und Partner werden automatisch im Feld Automatische Vervollständigung angezeigt (ohne auf das Pluszeichen zu klicken). Wenn Sie eine Gruppe oder einen Partner im Feld Automatische Vervollständigung auswählen, werden alle Kontakte in dieser Gruppe oder Partnerorganisation angezeigt. Sie können dann die Personen löschen, für die Sie die Datei nicht freigeben möchten. Weitere Informationen finden Sie unter [Kontakte](https://support.workfront.com/hc/en-us/sections/115000920808-Contacts) [Gruppen,](https://support.workfront.com/hc/en-us/sections/115000920828-Groups) und [Partnerkonten.](https://support.workfront.com/hc/en-us/sections/115000912107-Partner-accounts)
 
 1. Sie können keine Rollen für die Personen wählen, die der Datei hinzugefügt werden. Weitere Informationen finden Sie unter [Verwalten von Korrekturabzugsrollen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md). Wenn Sie möchten, dass Benutzer die Datei überprüfen/genehmigen können, müssen Sie sie zuerst in einen Korrekturabzug konvertieren.

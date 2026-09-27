@@ -7,20 +7,24 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-TQID: https://experienceleague.adobe.com/cJnPxNppHK0lh8A6GQKNoUCCBrRUKdMvU3ym6zdHCXo
+TQID: 'https://experienceleague.adobe.com/cJnPxNppHK0lh8A6GQKNoUCCBrRUKdMvU3ym6zdHCXo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1055
-ht-degree: 17%
-
+source-wordcount: '1326'
+ht-degree: 14%
 ---
-
 # Versionierung von Ereignisabonnements
 
 Workfront verfügt über zwei Versionen von Ereignisabonnements. Dieser Artikel beschreibt die Unterschiede zwischen ihnen.
@@ -108,7 +112,7 @@ Die folgenden Änderungen wurden für Ereignisabonnements Version 2 vorgenommen:
    </td> 
    <td>Wenn dieses Objekt aktualisiert wurde, zeigte das <code>UPDATE</code>-Ereignis manchmal fälschlicherweise die betroffenen Felder an, die sich von <code>null</code> zu <code>ID value</code> ändern.</td> 
    <td>Alle <code>UPDATE</code> Ereignisse zeigen den richtigen Wert für die betroffenen Felder an.</td> 
-   <td>Keine. Wenn Sie über einen Filter für die betroffenen Felder verfügen, erhalten Sie nur dann ein <code>UPDATE</code>, wenn sich diese Felder tatsächlich geändert haben, nicht jedoch, wenn sich ein anderer Wert geändert hat.
+   <td>Kein. Wenn Sie über einen Filter für die betroffenen Felder verfügen, erhalten Sie nur dann ein <code>UPDATE</code>, wenn sich diese Felder tatsächlich geändert haben, nicht jedoch, wenn sich ein anderer Wert geändert hat.
    </td> 
   </tr> 
   <tr> 
@@ -120,7 +124,7 @@ Die folgenden Änderungen wurden für Ereignisabonnements Version 2 vorgenommen:
    </td> 
    <td>Wenn ein Parameterwert für dieses Objekt aktualisiert wurde, zeigte das <code>UPDATE</code> fälschlicherweise die betroffene Feldänderung von <code>null</code> zu <code>object id</code> an. </td> 
    <td>Alle <code>UPDATE</code> Ereignisse zeigen den richtigen Wert für die betroffenen Felder an.</td> 
-   <td>Keine. Wenn Sie über einen Filter für die betroffenen Felder verfügen, erhalten Sie nur dann ein <code>UPDATE</code>, wenn sich diese Felder tatsächlich geändert haben, nicht jedoch, wenn sich ein anderer Wert geändert hat.
+   <td>Kein. Wenn Sie über einen Filter für die betroffenen Felder verfügen, erhalten Sie nur dann ein <code>UPDATE</code>, wenn sich diese Felder tatsächlich geändert haben, nicht jedoch, wenn sich ein anderer Wert geändert hat.
   </tr> 
   <tr> 
   <td>
@@ -130,7 +134,7 @@ Die folgenden Änderungen wurden für Ereignisabonnements Version 2 vorgenommen:
    </td> 
    <td>Beim Löschen eines Dokuments zeigte das <code>DELETE</code>-Ereignis das betroffene Feld im Status Vor fälschlicherweise als leeres Array an.    </td> 
    <td>Das <code>DELETE</code>-Ereignis zeigt das betroffene Feld im Status Vor korrekt an.</td> 
-   <td>Keine. Das <code>DELETE</code> wird weiterhin gesendet, zeigt aber jetzt die korrekten Daten für das betroffene Feld an. 
+   <td>Kein. Das <code>DELETE</code> wird weiterhin gesendet, zeigt aber jetzt die korrekten Daten für das betroffene Feld an. 
 </td> 
   </tr> 
   <tr> 
@@ -144,7 +148,7 @@ Die folgenden Änderungen wurden für Ereignisabonnements Version 2 vorgenommen:
    </td> 
    <td>Wenn dieses Objekt aktualisiert wird, werden zwei <code>UPDATE</code>-Ereignisse gesendet. Die erste umfasste nicht die betroffenen Felder, während das zweite Ereignis dies tat.</td> 
    <td>Alle Feldaktualisierungen einschließlich der betroffenen Felder sind nur in einem <code>UPDATE</code> Ereignis vorhanden, und ein zweites unnötiges Ereignis wird nicht gesendet.     </td> 
-   <td>Keine. Wenn Sie über einen Filter für die betroffenen Felder verfügen, werden die Ereignisse im ersten Ereignis gesendet. 
+   <td>Kein. Wenn Sie über einen Filter für die betroffenen Felder verfügen, werden die Ereignisse im ersten Ereignis gesendet. 
 </td> 
   </tr> 
   <tr> 
@@ -157,7 +161,7 @@ Die folgenden Änderungen wurden für Ereignisabonnements Version 2 vorgenommen:
    </td> 
    <td>Wenn ein Parameterwert für eine Ausgabe aktualisiert wurde, zeigte das <code>UPDATE</code>-Ereignis fälschlicherweise die TopReferenceObjCode-Änderung von <code>EXPNS</code> zu <code>PROJ</code> und <code>referenceObjectName</code> Änderung von <code>null</code> zu <code>string value of project name</code> an.      </td> 
    <td>Alle <code>UPDATE</code> Ereignisse zeigen den richtigen Wert für die betroffenen Felder an.</td> 
-   <td>Keine. Wenn Sie über einen Filter für die betroffenen Felder verfügen, erhalten Sie nur dann ein <code>UPDATE</code>, wenn sich diese Felder tatsächlich geändert haben, nicht jedoch, wenn sich ein anderer Wert geändert hat.
+   <td>Kein. Wenn Sie über einen Filter für die betroffenen Felder verfügen, erhalten Sie nur dann ein <code>UPDATE</code>, wenn sich diese Felder tatsächlich geändert haben, nicht jedoch, wenn sich ein anderer Wert geändert hat.
   </tr> 
   <tr> 
   <td>
@@ -199,7 +203,7 @@ Die folgenden Änderungen wurden für Ereignisabonnements Version 2 vorgenommen:
    </td> 
    <td>Wenn ein Parameterwert für dieses Objekt aktualisiert wurde, zeigte das <code>UPDATE</code> fälschlicherweise die betroffene Feldänderung von <code>null</code> zu <code>ID value</code> an. </td> 
    <td>Alle <code>UPDATE</code> Ereignisse zeigen den richtigen Wert für das betroffene Feld an.</td> 
-   <td>Keine. Wenn Sie über einen Filter für das betroffene Feld verfügen, erhalten Sie nur dann ein <code>UPDATE</code>, wenn sich dieses Feld tatsächlich geändert hat, nicht jedoch, wenn sich ein anderer Parameterwert geändert hat.
+   <td>Kein. Wenn Sie über einen Filter für das betroffene Feld verfügen, erhalten Sie nur dann ein <code>UPDATE</code>, wenn sich dieses Feld tatsächlich geändert hat, nicht jedoch, wenn sich ein anderer Parameterwert geändert hat.
 </td> 
   </tr> 
   <tr> 
@@ -222,7 +226,7 @@ Die folgenden Änderungen wurden für Ereignisabonnements Version 2 vorgenommen:
     </ul> 
    <td>Wenn ein Parameterwert für dieses Objekt aktualisiert wurde, zeigte das <code>UPDATE</code> fälschlicherweise die betroffene Feldänderung von <code>null</code> zu <code>ID value</code> an. </td> 
    <td>Alle <code>UPDATE</code> Ereignisse zeigen den richtigen Wert für das betroffene Feld an.</td> 
-   <td>Keine. Wenn Sie über einen Filter für das betroffene Feld verfügen, erhalten Sie nur dann ein <code>UPDATE</code>, wenn sich dieses Feld tatsächlich geändert hat, nicht jedoch, wenn sich ein anderer Parameterwert geändert hat.
+   <td>Kein. Wenn Sie über einen Filter für das betroffene Feld verfügen, erhalten Sie nur dann ein <code>UPDATE</code>, wenn sich dieses Feld tatsächlich geändert hat, nicht jedoch, wenn sich ein anderer Parameterwert geändert hat.
   </tr> 
   <tr> 
   <td>
@@ -232,7 +236,7 @@ Die folgenden Änderungen wurden für Ereignisabonnements Version 2 vorgenommen:
    </td> 
    <td>Wenn dieses Objekt aktualisiert wurde, zeigte das <code>UPDATE</code>-Ereignis manchmal fälschlicherweise die betroffenen Felder an, die sich von <code>null</code> zu <code>ID value</code> ändern.</td> 
    <td>Alle <code>UPDATE</code> Ereignisse zeigen den richtigen Wert für das betroffene Feld an.</td> 
-   <td>Keine. Wenn Sie über einen Filter für das betroffene Feld verfügen, erhalten Sie nur dann ein <code>UPDATE</code>, wenn sich dieses Feld tatsächlich geändert hat, nicht jedoch, wenn sich ein anderer Parameterwert geändert hat.
+   <td>Kein. Wenn Sie über einen Filter für das betroffene Feld verfügen, erhalten Sie nur dann ein <code>UPDATE</code>, wenn sich dieses Feld tatsächlich geändert hat, nicht jedoch, wenn sich ein anderer Parameterwert geändert hat.
   </tr> 
   <tr> 
    <th rowspan="2">TASK</th> 
@@ -243,7 +247,7 @@ Die folgenden Änderungen wurden für Ereignisabonnements Version 2 vorgenommen:
    </td> 
    <td>Wenn ein Parameterwert für dieses Objekt aktualisiert wurde, zeigte das <code>UPDATE</code> fälschlicherweise die betroffene Feldänderung von <code>null</code> zu <code>ID value</code> an. </td> 
    <td>Alle <code>UPDATE</code> Ereignisse zeigen den richtigen Wert für das betroffene Feld an.</td> 
-   <td>Keine. Wenn Sie über einen Filter für das betroffene Feld verfügen, erhalten Sie nur dann ein <code>UPDATE</code>, wenn sich dieses Feld tatsächlich geändert hat, nicht jedoch, wenn sich ein anderer Parameterwert geändert hat.
+   <td>Kein. Wenn Sie über einen Filter für das betroffene Feld verfügen, erhalten Sie nur dann ein <code>UPDATE</code>, wenn sich dieses Feld tatsächlich geändert hat, nicht jedoch, wenn sich ein anderer Parameterwert geändert hat.
   </tr> 
   <tr> 
   <td>
@@ -253,7 +257,7 @@ Die folgenden Änderungen wurden für Ereignisabonnements Version 2 vorgenommen:
    </td> 
    <td>Wenn dieses Objekt aktualisiert wurde, zeigte das <code>UPDATE</code>-Ereignis manchmal fälschlicherweise die betroffenen Felder an, die sich von <code>null</code> zu <code>ID value</code> ändern.</td> 
    <td>Alle <code>UPDATE</code> Ereignisse zeigen den richtigen Wert für das betroffene Feld an.</td> 
-   <td>Keine. Wenn Sie über einen Filter für das betroffene Feld verfügen, erhalten Sie nur dann ein <code>UPDATE</code>, wenn sich dieses Feld tatsächlich geändert hat, nicht jedoch, wenn sich ein anderer Parameterwert geändert hat.
+   <td>Kein. Wenn Sie über einen Filter für das betroffene Feld verfügen, erhalten Sie nur dann ein <code>UPDATE</code>, wenn sich dieses Feld tatsächlich geändert hat, nicht jedoch, wenn sich ein anderer Parameterwert geändert hat.
  </tbody> 
 </table>
 
@@ -262,6 +266,6 @@ Die folgenden Änderungen wurden für Ereignisabonnements Version 2 vorgenommen:
 
 Workfront Fusion verwendet Ereignisabonnements, um auf Änderungen in Szenarien mit Workfront-Triggern zu achten. Sie können die Ereignisabonnementversion, die Fusion direkt in einem Szenario verwendet, mithilfe des Payload-Versionsmoduls Workfront > Ereignisse aktualisieren aktualisieren .
 
-Anweisungen zur Verwendung dieses Moduls finden Sie unter [Workfront-Module](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) in der Dokumentation zu Workfront Fusion.
+Anweisungen zur Verwendung dieses Moduls finden Sie unter [Workfront-Module](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) in der Dokumentation zu Workfront Fusion.
 
-Ressourcen zum Beibehalten Ihrer Workfront Fusion-Szenarios während des Ereignisabonnement-Upgrades, einschließlich einer Webinar-Aufzeichnung, finden Sie unter [Beibehalten Ihrer Fusion-Szenarios beim Upgrade auf Ereignisabonnements V2](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182?profile.language=de).
+Ressourcen zum Beibehalten Ihrer Workfront Fusion-Szenarios während des Ereignisabonnement-Upgrades, einschließlich einer Webinar-Aufzeichnung, finden Sie unter [Beibehalten Ihrer Fusion-Szenarios beim Upgrade auf Ereignisabonnements V2](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182).

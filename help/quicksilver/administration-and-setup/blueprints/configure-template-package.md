@@ -10,26 +10,33 @@ role: Admin
 exl-id: df10bc8f-b980-4c61-ae6d-bcea03103738
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/VMSiCJzYS7RU85BuD7t19pWwf0dKYBK2vFwzatTnpkg
+TQID: 'https://experienceleague.adobe.com/VMSiCJzYS7RU85BuD7t19pWwf0dKYBK2vFwzatTnpkg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: c549503a-6440-4802-9525-ceb73a00feff
+    internal-label: Create and manage teams
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1791
+source-wordcount: '1841'
 ht-degree: 3%
-
 ---
-
 # Konfigurieren von Blueprints
 
 Sie können Details eines Blueprints konfigurieren, bevor Sie ihn installieren. Für Blueprint-Typen für Projektvorlagen und Organisationsstrukturen müssen in der Regel einige Voreinstellungen festgelegt und einige Eigenschaften zugeordnet werden. Für andere Blueprint-Typen ist möglicherweise keine Konfiguration erforderlich, und Sie werden sie unverändert installieren. Weitere Informationen zur Installation finden Sie unter [Blueprint installieren](/help/quicksilver/administration-and-setup/blueprints/blueprints-install.md).
@@ -99,7 +106,7 @@ Sie können auch den Vorlagenbesitzer bestimmen, bevor Sie die Blueprint install
 
 ![[!UICONTROL Vorlageneinstellungen] Abschnitt](assets/Blueprints_TemplatePreferences.png)
 
-1. Geben [!UICONTROL &#x200B; im Abschnitt „Vorlageneinstellungen] einen neuen Vorlagennamen an.
+1. Geben [!UICONTROL  im Abschnitt „Vorlageneinstellungen] einen neuen Vorlagennamen an.
 1. Geben Sie Folgendes an:
 
    <table style="table-layout:auto">
@@ -149,7 +156,7 @@ Sie können auch den Vorlagenbesitzer bestimmen, bevor Sie die Blueprint install
    >
    >**Beispiel:** Die Voreinstellungen für neue Probleme in diesem Blueprint enthalten vier Warteschlangenthemen. Der/die Benutzende wählt beim Erstellen eines Problems eines dieser Themen aus. (Da nur eine Themengruppe vorhanden ist, wird sie automatisch angewendet und der/die Benutzende muss sie nicht auswählen.) Wenn der/die Benutzende das Problem abschließt und übermittelt, bestimmen Routing-Regeln, welchem Aufgabengebiet oder Team sie zugewiesen ist.
    >![Beispieleinstellungen für neue Probleme](assets/Blueprints_IssuePrefsDetails.png)
-   >![Warteschlangenthemen für neues Problem](assets/blueprints-newissueqtopicsexample-350x204.png)
+   >![Warteschlangenthemen für neue Anfrage](assets/blueprints-newissueqtopicsexample-350x204.png)
    >![Problem wurde an Aufgabengebiet weitergeleitet](assets/Blueprints_ProjectShowsIssueAssignment.png)
 
    >[!TIP]
@@ -231,7 +238,7 @@ Einige Blueprints umfassen vorgeschriebene Unternehmen. Ein Unternehmen ist eine
 
 Der Blueprint sucht nach dem Firmennamen, um festzustellen, ob vorhandene Unternehmen übereinstimmen. Bei der Suche wird zwischen Groß- und Kleinschreibung unterschieden, sodass die Namen exakt übereinstimmen müssen. Wenn keine vorhandenen Unternehmen übereinstimmen, können Sie sie mit der Blueprint erstellen lassen. Die primäre Firma in der Blueprint wird der primären Firma in Ihrer Umgebung zugeordnet, auch wenn diese nicht denselben Namen haben.
 
-Abschnitt ![[!UICONTROL Unternehmenszuordnung] &#x200B;](assets/Blueprints_CompanyMapping.png)
+Abschnitt ![[!UICONTROL Unternehmenszuordnung] ](assets/Blueprints_CompanyMapping.png)
 
 1. Wenn eine Firma vorhanden ist, können Sie eine der folgenden Optionen auswählen:
 
@@ -266,7 +273,7 @@ Einige Blueprints enthalten vorgeschriebene Gruppen. Eine Gruppe ist eine Benutz
 
 Der Blueprint sucht nach dem Gruppennamen, um festzustellen, ob eine vorhandene Gruppe übereinstimmt. Bei der Suche wird zwischen Groß- und Kleinschreibung unterschieden, sodass die Namen exakt übereinstimmen müssen. Wenn keine vorhandenen Gruppen übereinstimmen, können Sie diese mit der Blueprint erstellen lassen.
 
-Abschnitt ![[!UICONTROL Gruppenzuordnung] &#x200B;](assets/Blueprints_GroupMapping.png)
+Abschnitt ![[!UICONTROL Gruppenzuordnung] ](assets/Blueprints_GroupMapping.png)
 
 1. Wenn eine Gruppe vorhanden ist, können Sie **[!UICONTROL Gruppe neu zuordnen]** und eine der folgenden Optionen auswählen:
 

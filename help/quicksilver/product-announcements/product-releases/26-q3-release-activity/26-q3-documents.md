@@ -5,13 +5,20 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39111c76-ae29-4034-8277-ca293138911f
-source-git-commit: 77a1b575b45f60e6fd61e6751ec1fec4537a5697
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '932'
 ht-degree: 2%
-
 ---
-
 # Verbesserungen bei Dokumenten für das dritte Quartal 2026
 
 Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom dritten Quartal 2026 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
@@ -22,7 +29,9 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2026 ve
 
 >[!NOTE]
 >
->Vorschau: 7. Juli 2026Produktions-Schnellveröffentlichung: 15. Juli 2026Produktion für alle: 16. Juli 2026
+>Vorschau: 7. Juli 2026
+>Produktions-Schnellveröffentlichung: 15. Juli 2026
+>Produktion für alle: 16. Juli 2026
 
 Genehmigungs-Workflows für Dokumente unterstützen jetzt parallele Pfade, sodass Teams mehrere unabhängige Überprüfungsspuren gleichzeitig ausführen können. Mit parallelen Pfaden können Sie:
 
@@ -37,7 +46,11 @@ Weitere Informationen finden Sie unter [Erstellen eines Dokumentgenehmigungs-Wor
 
 >[!NOTE]
 >
->Vorschau: Nicht zutreffendProduktions-Schnellveröffentlichung: 8. Juli 2026Produktion für alle: 8. Juli 2026Aus ZeitplanDiese Funktion steht nur Organisationen mit aktiviertem Adobe Cloud-Speicher im Workflow-Ultimate-Paket zur Verfügung.
+>Vorschau: Nicht zutreffend
+>Produktions-Schnellveröffentlichung: 8. Juli 2026
+>Produktion für alle: 8. Juli 2026
+>[!BADGE Aus Zeitplan]{type=Neutral}
+>Diese Funktion steht nur Organisationen mit aktiviertem Adobe Cloud-Speicher im Workflow-Ultimate-Paket zur Verfügung.
 
 Adobe Cloud Drive ist jetzt für Organisationen verfügbar, die eine Version von Workfront verwenden, die die Adobe-Cloud-Datenspeicherung unterstützt. Adobe Cloud Drive ist ein Desktop-Programm, das Ihre Adobe-Cloud-Speicherprojekte als Laufwerk auf Ihrem Mac- oder Windows-Computer bereitstellt, sodass Sie Dateien in jeder Anwendung direkt über den Finder oder den Datei-Explorer öffnen, bearbeiten und speichern können. Ihre Änderungen werden automatisch mit dem Adobe-Cloud-Speicher synchronisiert und stehen Ihrem Team in Workfront und Frame.io zur Verfügung.
 
@@ -49,7 +62,10 @@ Weitere Informationen finden Sie unter [Übersicht über Adobe Cloud Drive](/hel
 
 >[!NOTE]
 >
->Vorschau: Nicht zutreffendProduktions-Schnellveröffentlichung: 15. Juni 2026Produktion für alle: 15. Juni 2026Außerplanmäßig&rbrack;{type=Neutral}
+>Vorschau: Nicht zutreffend
+>Produktions-Schnellveröffentlichung: 15. Juni 2026
+>Produktion für alle: 15. Juni 2026
+>[!BADGE Außerplanmäßig]{type=Neutral}
 
 Die Integration von Adobe Express und Workfront mit Frame.io ermöglicht die strukturierte Überprüfung und Genehmigung von in Adobe Express erstellten Inhalten. Designer können eine Workflow-Vorlage für Workfront-Genehmigungen einer Express-Vorlage zuordnen, sodass beim Remixen der Vorlage vor der Veröffentlichung automatisch eine Genehmigung erforderlich ist, sodass das Asset durch den vorkonfigurierten Workfront-Workflow und Frame.io-Viewer geleitet wird.
 
@@ -68,7 +84,9 @@ Weitere Informationen finden Sie unter [Erste Schritte mit Adobe Express und Wor
 
 >[!NOTE]
 >
->Vorschau: 2. Juni 2026Produktions-Schnellveröffentlichung: 11. Juni 2026Produktion für alle: 16. Juli 2026
+>Vorschau: 2. Juni 2026
+>Produktions-Schnellveröffentlichung: 11. Juni 2026
+>Produktion für alle: 16. Juli 2026
 
 Sie können jetzt direkt im Bereich Neue Dokumente eine druckbare Zusammenfassung der Genehmigung eines Dokuments öffnen. Diese Funktion steht Organisationen zur Verfügung, die Adobe Cloud-Speicher verwenden.
 
@@ -81,7 +99,9 @@ Weitere Informationen finden Sie unter [Übersicht über Dokumentdetails](/help/
 
 >[!NOTE]
 >
->Vorschau: 28. Mai 2026Produktions-Schnellveröffentlichung: 11. Juni 2026Produktion für alle: 16. Juli 2026
+>Vorschau: 28. Mai 2026
+>Produktions-Schnellveröffentlichung: 11. Juni 2026
+>Produktion für alle: 16. Juli 2026
 
 Sie können jetzt zu jedem Schritt eines Dokumentgenehmigungs-Workflows eine benutzerdefinierte Nachricht hinzufügen. Die Meldung wird in der E-Mail-Benachrichtigung über die Genehmigung und auf der Registerkarte Genehmigungen in Workfront angezeigt.
 
@@ -97,7 +117,9 @@ Weitere Informationen finden Sie unter [Erstellen eines Dokumentgenehmigungs-Wor
 
 >[!NOTE]
 >
->Vorschau: 14. Mai 2026Produktions-Schnellveröffentlichung: 14. Mai 2026Produktion für alle: 16. Juli 2026
+>Vorschau: 14. Mai 2026
+>Produktions-Schnellveröffentlichung: 14. Mai 2026
+>Produktion für alle: 16. Juli 2026
 
 Verknüpfte Assets im Bereich Dokumente zeigen jetzt Statusabzeichen an, die Teams sofortige Einblicke in die Position der einzelnen Assets bieten, ohne Workfront verlassen zu müssen. Assets kann Folgendes anzeigen:
 
@@ -112,7 +134,9 @@ Weitere Informationen zum Genehmigungsstatus finden Sie unter [Erste Schritte mi
 
 >[!NOTE]
 >
->Vorschau: 30. April 2026Produktions-Schnellveröffentlichung: 14. Mai 2026Produktion für alle: 16. Juli 2026
+>Vorschau: 30. April 2026
+>Produktions-Schnellveröffentlichung: 14. Mai 2026
+>Produktion für alle: 16. Juli 2026
 
 Die Seite mit den Kundeninformationen im Setup enthält jetzt einen neuen Abschnitt Speicherübersicht mit Nutzungsmetern für den Adobe Cloud-Speicher.
 

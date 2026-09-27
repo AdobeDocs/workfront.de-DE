@@ -7,24 +7,31 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c8ef68f5-53db-4c3c-af0f-e1c98521ec27
-TQID: https://experienceleague.adobe.com/H6fYgtO6-VLGp-dfmhuzIga3Ko0p3dDOF3qupCEVlGo
+TQID: 'https://experienceleague.adobe.com/H6fYgtO6-VLGp-dfmhuzIga3Ko0p3dDOF3qupCEVlGo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 865
+source-wordcount: '911'
 ht-degree: 1%
-
 ---
-
 # Veröffentlichungen für Version 2018.2 Beta 2
 
 Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 2 Version 2018.2 verfügbar waren. Die Funktion wurde am 5. April 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird im Juni 2018 in der Produktionsumgebung bereitgestellt.
@@ -89,7 +96,7 @@ Zuvor verwendeten sowohl der neue als auch der alte Portfolio Optimizer die budg
 
 Wir haben außerdem zwei neue Felder zu den Portfolio-Finanzfeldern hinzugefügt: Legacy-ROI und Legacy-Nettowert , um die neuen Werte aus den neuen Tools für das Ressourcenmanagement zu erfassen.
 
-Weitere Informationen finden Sie unter [Übersicht über Portfolio &#x200B;](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md) im Artikel [Übersicht über Portfolio Optimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+Weitere Informationen finden Sie unter [Übersicht über Portfolio ](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md) im Artikel [Übersicht über Portfolio Optimizer](../../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 ## Auslastungsbericht: Befüllt budgetierte Stunden aus dem neuen Ressourcenbudgetierungsbereich {#utilization-report-populates-budgeted-hours-from-new-resource-budgeting-area}
 

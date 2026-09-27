@@ -8,22 +8,26 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
-TQID: https://experienceleague.adobe.com/knyphSiLwqiL0f6swxeDmx7SI6KMqb3GqYbxE8fQbgI
+TQID: 'https://experienceleague.adobe.com/knyphSiLwqiL0f6swxeDmx7SI6KMqb3GqYbxE8fQbgI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 435
+source-wordcount: '456'
 ht-degree: 6%
-
 ---
-
 # Konfigurieren der Zeitleisten-Neuberechnungen für Projekte
 
 Durch die Neuberechnung der Zeitleisten können Manager sehen, wie sich Kräfte außerhalb des Projekts auf die Zeitleiste des Projekts auswirken. Der Zeitplan eines Projekts bezieht sich auf die geplanten und geplanten Termine für das Projekt.
@@ -76,8 +80,8 @@ Als [!DNL Adobe Workfront] können Sie konfigurieren, wenn [!DNL Workfront] Proj
 
    * **Wenn sich der Projektumfang ändert**: Informationen dazu, was eine Änderung des Projektumfangs ausmacht, finden Sie unter [Neuberechnen von Projektzeitleisten](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
-     In diesem Fall berechnet [!DNL Workfront] die Zeitleiste für alle Projekte neu, die den Aktualisierungstyp &quot;[!UICONTROL &quot; und „Bei Änderung] oder „Nur [!UICONTROL &quot; &#x200B;].
-Informationen zu Projektaktualisierungstypen finden Sie unter [Übersicht über Projektaktualisierungstypen](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
+     In diesem Fall berechnet [!DNL Workfront] die Zeitleiste für alle Projekte neu, die den Aktualisierungstyp &quot;[!UICONTROL &quot; und „Bei Änderung] oder „Nur [!UICONTROL &quot; ].
+     Informationen zu Projektaktualisierungstypen finden Sie unter [Übersicht über Projektaktualisierungstypen](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 

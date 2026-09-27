@@ -8,23 +8,31 @@ recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/6mGLH9rvSZu9TEoVyuYHyrqPNr78Rruy97jxvayl1nc
+TQID: 'https://experienceleague.adobe.com/6mGLH9rvSZu9TEoVyuYHyrqPNr78Rruy97jxvayl1nc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f8dfa5a4aec4541d885bcc45933488cd1fdefac4
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 407
+source-wordcount: '407'
 ht-degree: 4%
-
 ---
-
 # Exportieren der Details eines Eintrags
 
 <!--
@@ -175,11 +183,11 @@ Die Seite „Datensatztyp“ wird geöffnet und alle Datensätze dieses Typs wer
 
    Das Vorschaufeld des Datensatzes wird geöffnet.
 
-1. (Optional) Klicken Sie auf das Symbol **In neuer Registerkarte öffnen** (![&#x200B; Details in einem neuen Registerkartensymbol öffnen](assets/open-details-in-a-new-tab-icon.png), um die Seite des Datensatzes zu öffnen.
+1. (Optional) Klicken Sie auf das Symbol **In neuer Registerkarte öffnen** (![ Details in einem neuen Registerkartensymbol öffnen](assets/open-details-in-a-new-tab-icon.png), um die Seite des Datensatzes zu öffnen.
 
 1. Wählen Sie die **Details** aus. Die Registerkarte Details sollte standardmäßig geöffnet sein.
 
-1. Klicken Sie auf das **Export**-Menü ![Export-Symbol auf &#x200B;](assets/export-icon-in-record-details-page.png) Datensatzdetailseite, entweder in der Vorschau oder auf der Datensatzseite, und klicken Sie dann auf eine der folgenden Aktionen:
+1. Klicken Sie auf das **Export**-Menü ![Export-Symbol auf ](assets/export-icon-in-record-details-page.png) Datensatzdetailseite, entweder in der Vorschau oder auf der Datensatzseite, und klicken Sie dann auf eine der folgenden Aktionen:
 
    * **Microsoft Word**
    * **Adobe PDF**

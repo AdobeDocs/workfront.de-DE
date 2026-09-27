@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/hvZKawl62R2rFe-C8gligDHZH-rKLDzEt1SYyhE7xIM
+TQID: 'https://experienceleague.adobe.com/hvZKawl62R2rFe-C8gligDHZH-rKLDzEt1SYyhE7xIM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 469
+source-wordcount: '469'
 ht-degree: 11%
-
 ---
-
 # Zugriff auf und Organisieren von Berichten
 
 Sie können Berichte in Adobe Workfront verwenden, um Informationen über Objekte im System zu überprüfen oder zu bearbeiten. Sie können Ihre eigenen Berichte erstellen, die von Ihnen erstellten Berichte organisieren und Berichte anzeigen, die für Sie freigegeben oder öffentlich freigegeben wurden.
@@ -90,7 +95,7 @@ Sie können Ordner verwenden, um die von Ihnen erstellten Berichte zu organisier
 
 1. Geben Sie einen Namen für den neuen Ordner ein und drücken Sie dann die Eingabetaste.
 1. Fügen Sie im Ordner **Meine**&quot; Berichte zum Ordner „NEU“ hinzu.\
-   Informationen zum Hinzufügen eines Berichts zu einem neuen Ordner finden Sie [&#x200B; Abschnitt „Hinzufügen von Berichten zu &#x200B;](#add-reports-to-a-folder)&quot; in diesem Artikel.
+   Informationen zum Hinzufügen eines Berichts zu einem neuen Ordner finden Sie [ Abschnitt „Hinzufügen von Berichten zu ](#add-reports-to-a-folder)&quot; in diesem Artikel.
 
    >[!NOTE]
    >
@@ -104,7 +109,7 @@ Sie können Ordner verwenden, um die von Ihnen erstellten Berichte zu organisier
    ODER\
    Klicken Sie auf einen beliebigen unter dem Ordner **Meine Berichte** verschachtelten Ordner.
 
-1. Wählen Sie den Bericht aus und klicken Sie dann oben in ![&#x200B; Liste &#x200B;](assets/folder-icon.png) Ordnersymbol (Ordnersymbol).
+1. Wählen Sie den Bericht aus und klicken Sie dann oben in ![ Liste ](assets/folder-icon.png) Ordnersymbol (Ordnersymbol).
 
 1. Wählen Sie den Ordner aus, dem Sie den Bericht hinzufügen möchten.
 

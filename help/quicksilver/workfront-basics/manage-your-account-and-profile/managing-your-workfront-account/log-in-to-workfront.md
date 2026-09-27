@@ -1,49 +1,54 @@
 ---
 product-area: user-management
 navigation-topic: manage-your-workfront-account
-title: Bei  [!DNL Adobe Workfront] anmelden
+title: Melden Sie sich bei [!DNL Adobe Workfront] an.
 description: Lesen Sie diesen Artikel, um zu erfahren, wie Sie sich bei Workfront anmelden.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/2YH5Y7yvmUdpuV-p5cnrVSmXBQTjix2pMyUP5o-WKpU
+TQID: 'https://experienceleague.adobe.com/2YH5Y7yvmUdpuV-p5cnrVSmXBQTjix2pMyUP5o-WKpU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 222
+source-wordcount: '222'
 ht-degree: 12%
-
 ---
-
 # Melden Sie sich bei [!DNL Adobe Workfront] an.
 
 <!--Audited: 2024-->
 
-Eine Anmeldung wird für Workfront und alle Ihre Adobe CX Enterprise-Anwendungen verwendet.
+Für Workfront und alle Ihre Adobe CX Enterprise-Programme wird nur eine Anmeldung verwendet.
 
 Weitere Informationen finden Sie unter [Benutzeroberfläche und Administration von CX Enterprise](https://experienceleague.adobe.com/de/docs/core-services/interface/experience-cloud).
 
 ## Zugriff auf [!DNL Workfront]
 
-Sobald Sie bei CX Enterprise angemeldet sind, können Sie alle [!DNL Workfront] Organisationen und Umgebungen anzeigen, auf die Sie Zugriff haben, indem Sie auf den Organisationsschalter im oberen Navigationsbereich klicken. Wählen Sie die [!DNL Workfront] Organisation oder Umgebung aus, in der Sie arbeiten möchten. Umgebungen können [!UICONTROL Vorschau] und [!UICONTROL Sandbox) &#x200B;], wenn Ihr Unternehmen sie verwendet.
+Sobald Sie bei CX Enterprise angemeldet sind, können Sie alle [!DNL Workfront] Organisationen und Umgebungen anzeigen, auf die Sie Zugriff haben, indem Sie auf den Organisationsumschalter im oberen Navigationsbereich klicken. Wählen Sie die [!DNL Workfront] Organisation oder Umgebung aus, in der Sie arbeiten möchten. Umgebungen können [!UICONTROL Vorschau] und [!UICONTROL Sandbox) ], wenn Ihr Unternehmen sie verwendet.
 
 ![Anzeigen [!DNL Workfront] Organisationen und Umgebungen](assets/wf-org-instance-switcher-2026.png)
 
 >[!NOTE]
 >
->Wenn Sie sich zum ersten Mal bei CX Enterprise anmelden, wird standardmäßig das erste Unternehmen in der alphabetischen Liste angezeigt. Bei der nächsten Anmeldung wird für die Organisation standardmäßig das zuletzt besuchte verwendet.
+>Wenn Sie sich zum ersten Mal bei CX Enterprise anmelden, wird für das Unternehmen standardmäßig der erste Eintrag in der alphabetischen Liste verwendet. Bei der nächsten Anmeldung wird für die Organisation standardmäßig das zuletzt besuchte verwendet.
 
-[!DNL Workfront] wird in der Liste der CX Enterprise-Produkte angezeigt, auf die Sie Zugriff haben. Sie können [!DNL Workfront] im Schnellzugriffsmenü auf der Startseite von CX Enterprise auswählen oder den Produktumschalter ![Produktumschalter](assets/main-menu-icon.png) verwenden, um die Anwendungen jederzeit zu wechseln.
+[!DNL Workfront] wird in der Liste der CX Enterprise-Produkte angezeigt, auf die Sie Zugriff haben. Sie können [!DNL Workfront] im Schnellzugriffsmenü auf der CX Enterprise-Startseite auswählen oder den Produktumschalter (![) verwenden](assets/main-menu-icon.png) um die Anwendungen jederzeit zu wechseln.
 
 ![Wählen Sie [!DNL Workfront] aus, um auf die Anwendung zuzugreifen](assets/cx-enterprise-home-2026.png)
 

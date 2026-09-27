@@ -9,15 +9,24 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 hide: true
 exl-id: 4d0c0542-3383-4907-b573-e2ef56117681
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7fc5fe2f2692841a8663740441f70be0c82c4073
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 7%
-
 ---
-
 # Erste Schritte mit der Integration von GenStudio for Performance Marketing und Frame.io
 
 Durch die Integration von GenStudio for Performance Marketing mit Frame.io haben Sie folgende Möglichkeiten
@@ -87,7 +96,7 @@ Weitere Informationen zum Erstellen von Validierungs-Workflow-Vorlagen in Workfr
 
 Wenn ein(e) Benutzende(r) eine Überprüfung in GenStudio for Performance Marketing startet, wählt er/sie einfach die gewünschte Vorlage aus. Benutzer können jederzeit problemlos jede einheitliche Validierungs-Workflow-Vorlage ändern und Validierungsverantwortliche und Phasen hinzufügen oder entfernen.
 
-Weitere Informationen finden Sie unter [Überprüfung und Genehmigung &#x200B;](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
+Weitere Informationen finden Sie unter [Überprüfung und Genehmigung ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review).
 
 ## Überprüfen und Genehmigen von GenStudio for Performance Marketing-Entwurfsinhalten im Frame.io-Viewer
 
@@ -106,4 +115,4 @@ Weitere Informationen zur Verwendung des Frame.io-Viewers finden Sie unter [Komm
 
 Sobald das Asset den Prüfungs- und Genehmigungsprozess durchlaufen hat, können Sie die Überprüfungsentscheidung anzeigen und den Inhalt direkt in GenStudio for Performance Marketing veröffentlichen.
 
-Weitere Informationen finden Sie unter [Genehmigte Inhalte veröffentlichen](https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).
+Weitere Informationen finden Sie unter [Genehmigte Inhalte veröffentlichen](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content).

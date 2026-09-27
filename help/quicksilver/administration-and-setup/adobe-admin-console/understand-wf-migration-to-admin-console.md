@@ -9,25 +9,32 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
-TQID: https://experienceleague.adobe.com/Pn1D37jOnAFIX0fxTLgRk3gJ4g9iiqzp6aiGKhmSU6w
+TQID: 'https://experienceleague.adobe.com/Pn1D37jOnAFIX0fxTLgRk3gJ4g9iiqzp6aiGKhmSU6w'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1115
+source-wordcount: '1115'
 ht-degree: 0%
-
 ---
-
 # Grundlagen der Migration von Workfront zur Adobe Admin Console
 
 Adobe verändert die Art und Weise, wie Sie Ihre Adobe Workfront-Benutzenden verwalten, und steigert so Ihre Produktivität. Im Rahmen dieser Änderung migriert Adobe Ihre Workfront-Instanz und Ihre Benutzerinnen und Benutzer zum Adobe Admin Console. Dies ist eine erforderliche Migration und hat keine Auswirkungen auf Berichte, Genehmigungspfade, Inhalte oder Assets. Dies wirkt sich darauf aus, wie Sie den Benutzerzugriff verwalten und wie sich Ihre Benutzer anmelden.
@@ -83,7 +90,7 @@ Als Workfront-Produktprofil-Administrator (Workfront-Systemadministrator) sind S
 
 * Bereiten Sie alle Benutzer auf die bevorstehende Migration zu Adobe Identity vor, indem Sie sie über Folgendes informieren:
 
-   * Wenn Benutzer migrieren, erhalten sie eine E-Mail von Adobe, in der sie über die Änderung der Art und Weise ihrer Anmeldung bei Workfront informiert werden. Benutzer werden aufgefordert, eine Einladung zur erstmaligen Anmeldung mit Adobe Identity anzunehmen, entweder durch Anmeldung mit einer bestehenden Adobe ID oder durch Einrichtung einer neuen mit derselben E-Mail-Adresse.
+  * Wenn Benutzer migrieren, erhalten sie eine E-Mail von Adobe, in der sie über die Änderung der Art und Weise ihrer Anmeldung bei Workfront informiert werden. Benutzer werden aufgefordert, eine Einladung zur erstmaligen Anmeldung mit Adobe Identity anzunehmen, entweder durch Anmeldung mit einer bestehenden Adobe ID oder durch Einrichtung einer neuen mit derselben E-Mail-Adresse.
 
 ### Was am Migrationstag zu erwarten ist
 
@@ -99,7 +106,7 @@ Als Workfront-Produktprofil-Administrator (Workfront-Systemadministrator) sind S
 
 * **Wenn Benutzer migriert werden, erhalten sie eine E-Mail von Adobe, in der sie über die Änderung der Art und Weise, wie sie sich bei Workfront anmelden, informiert werden.** Benutzer werden aufgefordert, eine Einladung zur erstmaligen Anmeldung mit Adobe Identity anzunehmen, entweder durch Anmeldung mit einer bestehenden Adobe ID oder durch Einrichtung einer neuen Adobe ID mit derselben E-Mail-Adresse.
 
-  Informationen zum Anmelden bei Workfront mit einer Adobe ID finden Sie unter [Bei Adobe Experience Cloud anmelden](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#log-in-to-adobe-experience-cloud).
+  Informationen zur Anmeldung bei Workfront mit Adobe ID finden Sie unter [Bei Adobe Experience Cloud anmelden](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#log-in-to-adobe-experience-cloud).
 
 ### Benutzermigration abgeschlossen
 

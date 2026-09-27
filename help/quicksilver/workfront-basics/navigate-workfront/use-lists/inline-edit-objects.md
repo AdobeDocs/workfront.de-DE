@@ -1,33 +1,40 @@
 ---
 product-area: projects
 navigation-topic: use-lists
-title: Inline-Bearbeitung von Elementen in einer Liste in  [!DNL Adobe Workfront]
+title: Inline-Bearbeitung von Elementen in einer Liste in [!DNL Adobe Workfront]
 description: Sie können Objekte inline bearbeiten, wenn sie in einer Liste oder einem Bericht angezeigt werden. Wenn Sie die Informationen zu Objekten bearbeiten, die in einer Liste oder einem Bericht angezeigt werden, wird das Objekt sofort aktualisiert.
 feature: Get Started with Workfront
 author: Courtney
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/Ut9fs4RLSxJPM-R4AywFIRowiFrBWP0sEsCUllm25i4
+TQID: 'https://experienceleague.adobe.com/Ut9fs4RLSxJPM-R4AywFIRowiFrBWP0sEsCUllm25i4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 698
+source-wordcount: '698'
 ht-degree: 5%
-
 ---
-
 # Inline-Bearbeitung von Elementen in einer Liste in [!DNL Adobe Workfront]
 
 <!--Audited: 11/2024-->
@@ -97,7 +104,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
    >Wenn Sie über mehrere Seiten verfügen, können Sie ein -Objekt mithilfe von Folgendem finden:
    >
    >   * **Paginierung**: Klicken Sie auf die Rückwärts- und Vorwärtspfeile, um zwischen Seiten zu navigieren.
-   >     Der Bereich [!UICONTROL Paginierung“ befindet sich in der rechten unteren Ecke &#x200B;] Liste und bleibt beim Bildlauf beibehalten.
+   >     Der Bereich [!UICONTROL Paginierung“ befindet sich in der rechten unteren Ecke ] Liste und bleibt beim Bildlauf beibehalten.
    >   * **Schnellfilter**: Klicken Sie auf das Filtersymbol oder geben Sie Alt+F ein, um den Schnellfilter zu öffnen, und geben Sie dann Text ein, um nur Elemente anzuzeigen, die den eingegebenen Text enthalten.
    >     Der Schnellfilter befindet sich in der Listen-Symbolleiste. Weitere Informationen finden Sie unter [Anwenden des Schnellfilters auf eine Liste](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 

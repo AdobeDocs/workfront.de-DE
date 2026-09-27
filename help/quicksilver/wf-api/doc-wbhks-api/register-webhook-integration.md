@@ -8,22 +8,26 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 9a4f8dbe-967f-4a41-a42c-8e3acb604972
-TQID: https://experienceleague.adobe.com/gt9fGu286M-fya5XVuYfTMzJ0dHJT5J7f0uvctqbL0A
+TQID: 'https://experienceleague.adobe.com/gt9fGu286M-fya5XVuYfTMzJ0dHJT5J7f0uvctqbL0A'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 94f14afac621d7a0e41daceeb8eb7a5d2682f911
+    internal-label: Metadata
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 409
-ht-degree: 8%
-
+source-wordcount: '409'
+ht-degree: 10%
 ---
-
 # Registrieren einer Webhook-Integration
 
 {{highlighted-preview}}
@@ -89,11 +93,11 @@ Beim Hinzufügen einer Integration gibt der Administrator Werte für die folgend
    <td> <p>(Nur API-Schlüssel) Wird verwendet, um autorisierte API-Aufrufe an den Webhook-Anbieter durchzuführen. Der vom Webhook-Anbieter ausgegebene API-Schlüssel.</p> </td> 
   </tr> 
   <tr class="preview"> 
-   <td>Chunked-Upload für große Dateien aktivieren</td> 
+   <td>Stückweisen Upload für große Dateien aktivieren</td> 
    <td> <p>Aktivieren Sie dieses Kontrollkästchen, um mehrteilige (gebündelte) Uploads für Dateien mit mehr als 25 MB zu aktivieren. Wenn diese Option nicht ausgewählt ist, werden die Dateien unabhängig von ihrer Größe in einer einzigen Anfrage hochgeladen.</p> </td> 
   </tr> 
   <tr class="preview"> 
-   <td>Schwellenwert für den Upload in Blöcken (MB)</td> 
+   <td>Schwellenwert für stückweisen Upload (MB)</td> 
    <td> <p>Die maximale Größe in MB jedes Blocks, wenn eine große Datei zum Hochladen aufgeteilt wird. Akzeptiert Werte bis zu 100 MB.</p> </td> 
   </tr> 
  </tbody> 

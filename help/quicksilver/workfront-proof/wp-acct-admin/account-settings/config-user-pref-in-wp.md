@@ -3,26 +3,35 @@ product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
 title: Konfigurieren des Berechtigungsprofils für Korrekturabzüge von Benutzenden in [!DNL Workfront Proof]
-description: Als  [!DNL Workfront]  oder  [!DNL Workfront Proof]  können Sie Benutzern Berechtigungen erteilen, indem Sie ihnen Benutzerprofile zuweisen. In diesem Fall stehen diese Berechtigungen dem Benutzer für alle Korrekturabzüge im System zur Verfügung.
+description: Als [!DNL Workfront] oder [!DNL Workfront Proof] können Sie Benutzern Berechtigungen erteilen, indem Sie ihnen Benutzerprofile zuweisen. In diesem Fall stehen diese Berechtigungen dem Benutzer für alle Korrekturabzüge im System zur Verfügung.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d3922b1f-6857-40de-ad0b-0cd5997188ff
-TQID: https://experienceleague.adobe.com/uE7EoOBlBFANPqb6PDLnF-tniMxIH959gksM81XMSzU
+TQID: 'https://experienceleague.adobe.com/uE7EoOBlBFANPqb6PDLnF-tniMxIH959gksM81XMSzU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 243
+source-wordcount: '245'
 ht-degree: 0%
-
 ---
-
 # Konfigurieren des Berechtigungsprofils für Korrekturabzüge von Benutzenden in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -45,7 +54,7 @@ So bearbeiten Sie das Berechtigungsprofil für Korrekturabzüge eines/r Benutzen
 
 1. Gehen Sie [!UICONTROL Kontoeinstellungen] und klicken Sie dann auf die Registerkarte [!UICONTROL Benutzer].
 1. Klicken Sie auf den Namen des Benutzers, dessen Berechtigungen Sie bearbeiten möchten.
-1. Klicken Sie auf [!UICONTROL &#x200B; Dropdown-] Berechtigungsprofil und wählen Sie ein neues Berechtigungsprofil aus.
+1. Klicken Sie auf [!UICONTROL  Dropdown-] Berechtigungsprofil und wählen Sie ein neues Berechtigungsprofil aus.
 
    Berechtigungsprofile sind „Administrator“, „Supervisor“, „Manager“ und „Beobachter“.
 
@@ -59,4 +68,4 @@ So bearbeiten Sie das Berechtigungsprofil für Korrekturabzüge eines/r Benutzen
    >   * Das Profilprotokoll des Benutzers (nur für diesen Benutzer zugänglich)
 
 
-Weitere Informationen zu Aktivitätsprotokollen finden Sie unter &quot;[&#x200B; des Audit [!DNL Workfront Proof] Protokolls zu Aktivitäten](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)
+Weitere Informationen zu Aktivitätsprotokollen finden Sie unter &quot;[ des Audit [!DNL Workfront Proof] Protokolls zu Aktivitäten](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)

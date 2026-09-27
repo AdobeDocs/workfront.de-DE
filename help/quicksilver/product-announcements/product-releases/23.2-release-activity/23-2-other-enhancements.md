@@ -6,20 +6,26 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 565c365b-d611-4a9a-80a9-bfb7a5b0f319
-TQID: https://experienceleague.adobe.com/qmNKLogk-6ziKzb3zAmLY3vCbyP1gbwRGyWOBAGsuKk
+TQID: 'https://experienceleague.adobe.com/qmNKLogk-6ziKzb3zAmLY3vCbyP1gbwRGyWOBAGsuKk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: '519'
 ht-degree: 12%
-
 ---
-
 # Weitere Verbesserungen in Version 23.2
 
 Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 23.2 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden mit Version 23.2 in der Produktionsumgebung verfügbar gemacht.
@@ -37,7 +43,7 @@ Wir haben die folgenden Änderungen an den Plug-ins für Workfront for Creative 
 
 Ein Update für das Kommentierungserlebnis in Adobe Workfront befindet sich derzeit in der Entwicklung. Dieses Update enthält eine neue Benutzeroberfläche, neue Funktionen und eine verbesserte Leistung im Abschnitt Aktualisierungen einiger Objekte.
 
-Diese neue Erfahrung wird letztendlich die Kommentare innerhalb von Adobe Workfront und darüber hinaus in Adobe Experience Cloud vereinheitlichen.
+Dieses neue Erlebnis wird letztendlich die Kommentare in Adobe Workfront und darüber hinaus in der gesamten Adobe Experience Cloud vereinheitlichen.
 
 Im Rahmen dieses Updates führen wir die neue Kommentarfunktion in den Abschnitt „Aktualisierungen“ von Problemen ein. Mit der aktuellen Version steht jedem Benutzer ein Umschalter zur Verfügung, um dieses Erlebnis in seiner eigenen Umgebung im Beta-Modus zu aktivieren. Nachdem er die Beta-Vereinbarung akzeptiert hat, wird der Abschnitt Neue Updates angezeigt, und er kann seine Arbeit in diesem Abschnitt wie bisher verwalten.
 

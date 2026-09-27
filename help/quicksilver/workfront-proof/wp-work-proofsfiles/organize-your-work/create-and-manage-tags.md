@@ -3,22 +3,30 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Erstellen und Verwalten von Tags in [!DNL Workfront Proof]
-description: Sie können Tags erstellen und bearbeiten und sie auf Ihre Korrekturabzüge und Dateien anwenden. Dies ist besonders dann von Vorteil, wenn Sie viele verschiedene  [!DNL Workfront Proof]  wie Projekte, Abteilungen und Kunden haben und diese einfach identifizieren und finden möchten.
+description: Sie können Tags erstellen und bearbeiten und sie auf Ihre Korrekturabzüge und Dateien anwenden. Dies ist besonders dann von Vorteil, wenn Sie viele verschiedene [!DNL Workfront Proof] haben, z. B. Projekte, Abteilungen und Kunden, und diese einfach identifizieren und finden möchten.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb720a1b-5136-4158-9ea0-bcb5755e1761
-TQID: https://experienceleague.adobe.com/sIZ53VhqzZxlud-4OEFP-voJIjJXjNd2x2hog8UHmzs
+TQID: 'https://experienceleague.adobe.com/sIZ53VhqzZxlud-4OEFP-voJIjJXjNd2x2hog8UHmzs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 915
+source-wordcount: '916'
 ht-degree: 0%
-
 ---
-
 # Erstellen und Verwalten von Tags in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -81,7 +89,7 @@ Weitere Informationen zu diesen Profilen und Berechtigungen finden Sie unter [Pr
 1. Wählen Sie in einer Listenansicht oder im Dashboard die Elemente aus, für die Sie Tags erstellen oder verwalten möchten.
 1. Klicken Sie **[!UICONTROL Tags]** > **[!UICONTROL Tags verwalten]** direkt über der Liste.
 
-1. Verwalten Sie auf [!UICONTROL &#x200B; angezeigten &#x200B;] Ihre Tags wie oben unter [Erstellen, Bearbeiten oder Löschen einer Registerkarte“ beschrieben](https://support.workfront.com/knowledge/articles/115004379508/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004379508#CreatingEditingDeletingTag)\
+1. Verwalten Sie auf [!UICONTROL  angezeigten ] Ihre Tags wie oben unter [Erstellen, Bearbeiten oder Löschen einer Registerkarte“ beschrieben](https://support.workfront.com/knowledge/articles/115004379508/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004379508#CreatingEditingDeletingTag)\
    Ein Tag wird auf alle ausgewählten Elemente angewendet, wenn das Kontrollkästchen neben dem Tag dunkelgrau ist. Wenn er hellgrau ist, werden nur einige der Elemente in einem ausgewählten Stapel mit einem Tag versehen. Wenn Sie ein Tag aus allen ausgewählten Elementen entfernen möchten, stellen Sie sicher, dass das Kontrollkästchen neben dem Tag leer ist.\
    ![Tags_menu_-_dark_and_light_checks.png](assets/tags-menu---dark-and-light-checks-350x217.png)
 

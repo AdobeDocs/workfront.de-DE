@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
-title: Verwalten von Korrekturabzug-Rollen in [!DNL Workfront Proof]
+title: Verwalten von Korrekturabzugsrollen in [!DNL Workfront Proof]
 description: Mit Korrekturabzug-Rollen können Sie Benutzern Berechtigungen erteilen, die durch das in ihrem Benutzerprofil konfigurierte Berechtigungsprofil eingeschränkt sind.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b371cc20-4226-49ce-96c6-9815b2e84713
-TQID: https://experienceleague.adobe.com/-kFiMr-1GYxY3JvfHTW0NBNupGvnob0KuzELquFISDI
+TQID: 'https://experienceleague.adobe.com/-kFiMr-1GYxY3JvfHTW0NBNupGvnob0KuzELquFISDI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1317
+source-wordcount: '1317'
 ht-degree: 2%
-
 ---
-
 # Verwalten von Korrekturabzugsrollen in [!DNL Workfront Proof]
 
 <!-- Audited: 01/2024 -->
@@ -190,7 +199,7 @@ Sie können Korrekturabzug-Rollen zuweisen, wenn Sie neue Korrekturabzüge erste
 
 ### Neue Korrekturabzüge {#new-proofs}
 
-Korrekturabzug-Rollen können Prüfern auf der Seite &quot;[!UICONTROL &#x200B; Korrekturabzug] während des Erstellungsprozesses des Korrekturabzugs zugewiesen werden (1).
+Korrekturabzug-Rollen können Prüfern auf der Seite &quot;[!UICONTROL  Korrekturabzug] während des Erstellungsprozesses des Korrekturabzugs zugewiesen werden (1).
 
 ![Proof_roles_-_New_Proof_page.png](assets/proof-roles---new-proof-page-350x184.png)
 
@@ -222,7 +231,7 @@ Sie können die Standardrolle für den Korrekturabzug auf der Seite [!DNL Proofi
 >
 >Nur Benutzer mit Administrator- oder Billing-Administratorprofilen können die Proofing-Standardeinstellungen für andere Benutzer in ihrem Konto ändern.
 
-Weitere Informationen finden Sie unter &quot;[&#x200B; Einstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md).
+Weitere Informationen finden Sie unter &quot;[ Einstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/personal-settings.md).
 
 ## Ersteller und Inhaber
 
@@ -238,7 +247,7 @@ Die Erstellerin bzw. der Ersteller des Korrekturabzugs kann nicht geändert oder
 
 ### Inhaber {#owners}
 
-Standardmäßig ist der Ersteller auch der Inhaber des Korrekturabzugs. Der Ersteller kann jedoch eine andere Person zum Besitzer des Korrekturabzugs machen, wenn er den Korrekturabzug anfänglich erstellt (auf der Seite &quot;[!UICONTROL &#x200B; Korrekturabzug]).
+Standardmäßig ist der Ersteller auch der Inhaber des Korrekturabzugs. Der Ersteller kann jedoch eine andere Person zum Besitzer des Korrekturabzugs machen, wenn er den Korrekturabzug anfänglich erstellt (auf der Seite &quot;[!UICONTROL  Korrekturabzug]).
 
 So ändern Sie den Inhaber auf der Seite Neuer Korrekturabzug :
 
@@ -247,9 +256,9 @@ So ändern Sie den Inhaber auf der Seite Neuer Korrekturabzug :
 
 ![Proof_roles_-_new_proof_page_change_owner_2.png](assets/proof-roles---new-proof-page-change-owner-2-350x185.png)
 
-Sobald der Korrekturabzug erstellt wurde, kann der Besitzer noch geändert werden. Jeder Benutzer mit Bearbeitungsrechten für den Korrekturabzug kann über die Seite „Korrekturabzugsdetails“ ([!UICONTROL &#x200B; unten) die Eigentümerschaft &#x200B;] Korrekturabzugs an einen anderen Benutzer ändern.
+Sobald der Korrekturabzug erstellt wurde, kann der Besitzer noch geändert werden. Jeder Benutzer mit Bearbeitungsrechten für den Korrekturabzug kann über die Seite „Korrekturabzugsdetails“ ([!UICONTROL  unten) die Eigentümerschaft ] Korrekturabzugs an einen anderen Benutzer ändern.
 
-Die Möglichkeit, den/die Verantwortliche(n) für einen Korrekturabzug zu ändern, ist aus Sicht der Workflow-Verwaltung besonders nützlich. Dadurch kann die für das Projekt verantwortliche Person die Verantwortung für den Testversand übernehmen, indem ihr Bearbeitungsrechte für die Testsendungen erteilt werden und sie in der Ansicht &quot;[!UICONTROL &#x200B; Testsendungen“ &#x200B;] kann.
+Die Möglichkeit, den/die Verantwortliche(n) für einen Korrekturabzug zu ändern, ist aus Sicht der Workflow-Verwaltung besonders nützlich. Dadurch kann die für das Projekt verantwortliche Person die Verantwortung für den Testversand übernehmen, indem ihr Bearbeitungsrechte für die Testsendungen erteilt werden und sie in der Ansicht &quot;[!UICONTROL  Testsendungen“ ] kann.
 
 So ändern Sie den/die Verantwortliche für den Korrekturabzug über die Seite [!UICONTROL Details des Korrekturabzugs]:
 

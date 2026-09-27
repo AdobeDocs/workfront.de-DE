@@ -8,26 +8,33 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-TQID: https://experienceleague.adobe.com/9fo3z6Jy3aEPYXJ9vYSbaqWCjwnq7vS-h067PtU9b-Y
+TQID: 'https://experienceleague.adobe.com/9fo3z6Jy3aEPYXJ9vYSbaqWCjwnq7vS-h067PtU9b-Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2612
+source-wordcount: '2612'
 ht-degree: 4%
-
 ---
-
 # Massenbearbeitung von Benutzerprofilen
 
 Sie können Benutzerkonten stapelweise bearbeiten. Bei der Massenbearbeitung werden nur die Felder, die Sie auswählen, mit denselben Informationen für alle ausgewählten Benutzer aktualisiert. Alle anderen Felder, die Sie nicht ausgewählt lassen, bleiben für jeden einzelnen Benutzer gleich, auch wenn sie für jeden Benutzer unterschiedlich sind.
@@ -123,11 +130,11 @@ Weitere Informationen finden Sie unter [Konfigurieren von Ereignisbenachrichtigu
 
   In der folgenden Liste wird beschrieben, wie die Liste der Vorlagen, die Sie in diesem Feld haben, von Ihrem Zugriff abhängt:
 
-   * Als Workfront-Administrator können Sie alle Layoutvorlagen auf Systemebene und Gruppenebene sehen.
-   * Als Gruppenadministrator bzw. -administratorin können Sie die Layoutvorlagen auf Systemebene sowie die mit den von Ihnen verwalteten Gruppen verknüpften Vorlagen sehen.
-   * Benutzende mit einer Standard- oder Plan-Lizenz, die Zugriff auf die Bearbeitung von Benutzenden haben, können nur Layoutvorlagen auf Systemebene sehen.
+  * Als Workfront-Administrator können Sie alle Layoutvorlagen auf Systemebene und Gruppenebene sehen.
+  * Als Gruppenadministrator bzw. -administratorin können Sie die Layoutvorlagen auf Systemebene sowie die mit den von Ihnen verwalteten Gruppen verknüpften Vorlagen sehen.
+  * Benutzende mit einer Standard- oder Plan-Lizenz, die Zugriff auf die Bearbeitung von Benutzenden haben, können nur Layoutvorlagen auf Systemebene sehen.
 
-     Weitere Informationen zu Layout-Vorlagen auf Gruppenebene finden Sie unter [Erstellen und Ändern der Layout-Vorlagen einer Gruppe](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+    Weitere Informationen zu Layout-Vorlagen auf Gruppenebene finden Sie unter [Erstellen und Ändern der Layout-Vorlagen einer Gruppe](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 ### Organisation
 
@@ -140,9 +147,9 @@ Weitere Informationen finden Sie unter [Konfigurieren von Ereignisbenachrichtigu
 
   Sie können eine Gruppe nur dann einem Benutzer zuweisen, wenn einer der folgenden Punkte zutrifft:
 
-   * Sie sind ein Workfront-Administrator
-   * Sie sind der Administrator der Gruppe
-   * Die Gruppe ist öffentlich
+  * Sie sind ein Workfront-Administrator
+  * Sie sind der Administrator der Gruppe
+  * Die Gruppe ist öffentlich
 
 * **Andere Gruppen**: Benutzer können mehreren Gruppen angehören. Eine Gruppe kann einem Benutzer nur zugewiesen werden, wenn Sie Workfront-Administrator sind, Administrator der Gruppe sind oder die Gruppe öffentlich ist.
 
@@ -173,7 +180,7 @@ Weitere Informationen finden Sie unter [Konfigurieren von Ereignisbenachrichtigu
   >Legen Sie den Wert für Arbeitszeit auf 1 fest, um anzugeben, dass der Benutzer für projektbezogene Arbeit bis zum gesamten Vollzeitäquivalent verfügbar ist.
 
 * **Deaktivierungsdatum festlegen** Klicken Sie auf diese Schaltfläche, um festzulegen, dass diese Benutzer an einem bestimmten Datum und zu einer bestimmten Uhrzeit deaktiviert werden sollen.
-* **Deaktivierungsdatum**: Datum und Uhrzeit der Deaktivierung der Benutzer. Informationen zum Planen von Benutzern für die Deaktivierung finden Sie unter [Planen von Benutzern für die &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation)) in [Deaktivieren oder Reaktivieren von Benutzern](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+* **Deaktivierungsdatum**: Datum und Uhrzeit der Deaktivierung der Benutzer. Informationen zum Planen von Benutzern für die Deaktivierung finden Sie unter [Planen von Benutzern für die ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation)) in [Deaktivieren oder Reaktivieren von Benutzern](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 * **Primäre Rolle**: Dies ist das primäre Aufgabengebiet, das die Benutzerinnen und Benutzer in Workfront erfüllen können. Jede Aufgabe und jedes Problem, der/dem die Benutzenden zugewiesen sind, wird ebenfalls diesem Aufgabengebiet zugewiesen. Aufgabengebiete sind im Ressourcen-Management von entscheidender Bedeutung. Sie können dieses Feld nur aktualisieren, wenn Sie über eine Standard- oder Planlizenz mit administrativem Benutzerzugriff verfügen oder wenn Sie ein Workfront-Administrator sind. Weitere Informationen zum Einrichten von Benutzern mit administrativem Benutzerzugriff finden Sie unter [Gewähren des Zugriffs für Benutzer](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
   In der Liste werden nur aktive Aufgabengebiete angezeigt.
@@ -197,7 +204,7 @@ Weitere Informationen finden Sie unter [Konfigurieren von Ereignisbenachrichtigu
 
   Informationen zur Berechnung der Verfügbarkeit für den Benutzer finden Sie unter [Übersicht über die Berechnung von Stunden und VZÄ für Benutzer und Funktionen im Ressourcenplaner](/help/quicksilver/resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
 
-  Informationen zum Konfigurieren der Voreinstellungen für die Ressourcenverwaltung finden Sie [Konfigurieren der Voreinstellungen für die &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)).
+  Informationen zum Konfigurieren der Voreinstellungen für die Ressourcenverwaltung finden Sie [Konfigurieren der Voreinstellungen für die ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)).
 
 * **Zeitplan**: Ordnen Sie den Benutzern einen Zeitplan zu. Der Zeitplan der Benutzer berechnet die Zeitleiste der Aufgaben, denen die Benutzer zugewiesen sind.
 
@@ -205,15 +212,15 @@ Weitere Informationen finden Sie unter [Konfigurieren von Ereignisbenachrichtigu
 
   >[!IMPORTANT]
   >
-  >Workfront verwendet den Zeitplan eines Benutzers nur, wenn die Einstellung **Ressourcenverfügbarkeit berechnen mit** auf &quot;**des Benutzers“** ist. Weitere Informationen darüber, wie sich diese Einstellung auf den für die Ressourcenverwaltung verwendeten Zeitplan auswirkt, finden Sie [Konfigurieren der Voreinstellungen für die &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)&quot;.
+  >Workfront verwendet den Zeitplan eines Benutzers nur, wenn die Einstellung **Ressourcenverfügbarkeit berechnen mit** auf &quot;**des Benutzers“** ist. Weitere Informationen darüber, wie sich diese Einstellung auf den für die Ressourcenverwaltung verwendeten Zeitplan auswirkt, finden Sie [Konfigurieren der Voreinstellungen für die ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)&quot;.
 
 * **Arbeitszeittabellen-**: Verknüpfen Sie die Benutzer mit einem Arbeitszeittabellen-Profil, um sicherzustellen, dass Arbeitszeittabellen automatisch generiert werden.
 
   Die Liste der Profile, die in diesem Feld verfügbar sind, hängt von Ihrem Zugriff ab:
 
-   * Als Workfront-Administrator können Sie alle Arbeitszeittabellen-Profile auf Systemebene und Gruppenebene anzeigen.
-   * Als Gruppenadministrator können Sie Arbeitszeittabellen-Profile auf Systemebene sowie die mit den von Ihnen verwalteten Gruppen verknüpften Profile anzeigen.
-   * Benutzende mit einer Standard- oder Plan-Lizenz, die Zugriff haben, um Benutzende zu bearbeiten, können nur Arbeitszeittabellen-Profile auf Systemebene sehen. Weitere Informationen zu Arbeitszeittabellen-Profilen auf Gruppenebene finden Sie unter [Erstellen, Bearbeiten und Zuweisen von Arbeitszeittabellen-Profilen](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+  * Als Workfront-Administrator können Sie alle Arbeitszeittabellen-Profile auf Systemebene und Gruppenebene anzeigen.
+  * Als Gruppenadministrator können Sie Arbeitszeittabellen-Profile auf Systemebene sowie die mit den von Ihnen verwalteten Gruppen verknüpften Profile anzeigen.
+  * Benutzende mit einer Standard- oder Plan-Lizenz, die Zugriff haben, um Benutzende zu bearbeiten, können nur Arbeitszeittabellen-Profile auf Systemebene sehen. Weitere Informationen zu Arbeitszeittabellen-Profilen auf Gruppenebene finden Sie unter [Erstellen, Bearbeiten und Zuweisen von Arbeitszeittabellen-Profilen](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 * **Standardstundentyp**: Wählen Sie den Standardstundentyp für die Benutzer aus. Dies ist der Stundentyp, der standardmäßig verwendet wird, wenn Benutzer die Zeit erfassen.
 * **Verfügbare Stundentypen**: Wählen Sie die Stundentypen aus, die für die Benutzer verfügbar sein sollen. Diese Stundentypen sind überall in Workfront sichtbar, wo Benutzende die Zeit protokollieren können. Benutzer können nur die Stundentypen sehen, die auf Projekt- sowie auf Benutzerebene aktiviert sind. Weitere Informationen dazu, welche Stundentypen Benutzern zur Verfügung stehen, finden Sie unter [Festlegen von Stundentypen und Verfügbarkeit](/help/quicksilver/timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).

@@ -7,13 +7,17 @@ description: In diesem Artikel wird der Schritt-für-Schritt-Prozess zur Bestimm
 author: Lisa
 feature: Work Management
 exl-id: 623828fb-e1ac-4cae-8b9f-567a6f8cb7ae
-source-git-commit: 39630b50384d710dadb1f48342113b74338a9104
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '3604'
+source-wordcount: '3627'
 ht-degree: 0%
-
 ---
-
 # Übersicht über Umsatz- und Kostenhierarchie
 
 {{ultimate-package}}
@@ -77,7 +81,7 @@ Die Markierung kann für ein Projekt aktiviert werden, wenn die Arbeit begonnen 
 >Sobald die Markierung aktiviert ist, um die Verrechnungssätze beizubehalten, kann sie nicht mehr deaktiviert werden, es sei denn, das Projekt verfügt über keine Zuweisungen und keine Stunden. Dadurch wird sichergestellt, dass alle Finanzberichte die tatsächlichen vertraglichen Kurse widerspiegeln.
 >Wenn die Markierung deaktiviert ist, können die Abrechnungssätze vom System neu berechnet oder dynamisch angepasst werden. Jegliche Aktualisierungen der Rolle, des Gehalts oder des Abrechnungssatzes des Benutzers werden sofort im Abrechnungssatz für die Zuweisung angezeigt.
 
-Weitere Informationen finden Sie unter [Projekte &#x200B;](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) und [Tarifkarten verwalten](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
+Weitere Informationen finden Sie unter [Projekte ](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) und [Tarifkarten verwalten](/help/quicksilver/administration-and-setup/manage-enterprise-operations/manage-rate-cards.md).
 
 ## Geplanter Umsatz - Benutzer und Funktion pro Stunde
 

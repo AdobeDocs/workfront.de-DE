@@ -6,18 +6,24 @@ description: Überblick über die Abstimmung der Ressourcenzuteilungen zwischen 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 82cd9641-1213-436c-935a-2f04a0425e9c
-TQID: https://experienceleague.adobe.com/5f7nqfiPgToyiGZykzR61M0VKrqpWdu-Ge9vrYIb7Lo
+TQID: 'https://experienceleague.adobe.com/5f7nqfiPgToyiGZykzR61M0VKrqpWdu-Ge9vrYIb7Lo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 526
+source-wordcount: '526'
 ht-degree: 5%
-
 ---
-
 # Überblick über die Abstimmung der Ressourcenzuteilungen zwischen Projekten und Initiativen
 
 <!--
@@ -34,8 +40,8 @@ Bevor Sie beginnen, benötigen Sie Folgendes:
 * Erforderliche Aufgabengebiet-Zuweisungen für die Initiative.
 * Aufgaben oder Probleme im Projekt, die über geplante Stunden verfügen und einem der folgenden Elemente zugewiesen sind:
 
-   * Aufgabengebiete
-   * Mit Aufgabengebieten verknüpfte Benutzer
+  * Aufgabengebiete
+  * Mit Aufgabengebieten verknüpfte Benutzer
 
 ## Projekte und Initiativen verbinden
 
@@ -69,28 +75,28 @@ Beide Prozesse schaffen eine Verbindung zwischen den Projekten und den entsprech
 
 * Sie können die Zuordnung der Aufgabengebiete für Initiativen zu einem verknüpften Projekt in den folgenden Projektbereichen anzeigen:
 
-   * [!DNL Scenario Planner] Abschnitt des Bereichs [!UICONTROL Projektdetails] in einem Projekt. Weitere Informationen finden Sie in den folgenden Artikeln:
+  * [!DNL Scenario Planner] Abschnitt des Bereichs [!UICONTROL Projektdetails] in einem Projekt. Weitere Informationen finden Sie in den folgenden Artikeln:
 
-      * [Aktualisieren oder Erstellen von Projekten durch Veröffentlichung von Initiativen im [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)
-      * [Verwalten von Informationen im Projektbereich [!UICONTROL Übersicht]](../manage-work/projects/manage-projects/understand-project-overview-area.md)
+    * [Aktualisieren oder Erstellen von Projekten durch Veröffentlichung von Initiativen im [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md)
+    * [Verwalten von Informationen im Projektbereich [!UICONTROL Übersicht]](../manage-work/projects/manage-projects/understand-project-overview-area.md)
 
-     >[!TIP]
-     >
-     >Aufgabengebiet-Informationen aus dem Projekt und der Initiative werden nicht nebeneinander im [!DNL Scenario Planner] Abschnitt der [!UICONTROL Projektdetails] angezeigt.
+    >[!TIP]
+    >
+    >Aufgabengebiet-Informationen aus dem Projekt und der Initiative werden nicht nebeneinander im [!DNL Scenario Planner] Abschnitt der [!UICONTROL Projektdetails] angezeigt.
 
-   * Das [!UICONTROL &#x200B; &quot;]&quot; in den folgenden Bereichen:
+  * Das [!UICONTROL  &quot;]&quot; in den folgenden Bereichen:
 
-      * [!UICONTROL Workload-] des Projekts
+    * [!UICONTROL Workload-] des Projekts
 
-        Informationen zum Anzeigen und Abstimmung der Rollenzuweisungen zwischen der Initiative und dem verknüpften Projekt im [!UICONTROL Workload-Balancer] finden Sie unter [Anzeigen der Rollenzuweisung für Projekte und Initiativen im [!UICONTROL Workload-Balancer]](../scenario-planner/show-role-allocation-workload-balancer.md).
+      Informationen zum Anzeigen und Abstimmung der Rollenzuweisungen zwischen der Initiative und dem verknüpften Projekt im [!UICONTROL Workload-Balancer] finden Sie unter [Anzeigen der Rollenzuweisung für Projekte und Initiativen im [!UICONTROL Workload-Balancer]](../scenario-planner/show-role-allocation-workload-balancer.md).
 
-      * Abschnitt [!UICONTROL Aufgaben]
+    * Abschnitt [!UICONTROL Aufgaben]
 
-        Informationen zur Abstimmung der Rollenzuweisungen zwischen der Initiative und dem verknüpften Projekt im Abschnitt [!UICONTROL Aufgaben] finden Sie unter [Rollenzuweisung für Projekte und Initiativen anzeigen in der Aufgabenliste](../scenario-planner/show-role-allocation-task-list-nwe.md).
+      Informationen zur Abstimmung der Rollenzuweisungen zwischen der Initiative und dem verknüpften Projekt im Abschnitt [!UICONTROL Aufgaben] finden Sie unter [Rollenzuweisung für Projekte und Initiativen anzeigen in der Aufgabenliste](../scenario-planner/show-role-allocation-task-list-nwe.md).
 
-     >[!TIP]
-     >
-     >Sie können Aufgabenrolleninformationen aus dem Projekt und der Initiative Seite an Seite im Bedienfeld [!UICONTROL Rollenzuweisung“ &#x200B;].
+    >[!TIP]
+    >
+    >Sie können Aufgabenrolleninformationen aus dem Projekt und der Initiative Seite an Seite im Bedienfeld [!UICONTROL Rollenzuweisung“ ].
 
 * Sie können keine Aufgabengebiet-Zuordnung für ein Projekt für eine verknüpfte Initiative anzeigen. Weitere Informationen finden Sie unter [Projekte in Pläne importieren in der [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md).
 

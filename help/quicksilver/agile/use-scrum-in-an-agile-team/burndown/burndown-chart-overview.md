@@ -9,25 +9,33 @@ feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/8OZS7tJxkbVtVbH41oKsUmL2dwJdkOCTJFXcuxXtWFQ
+TQID: 'https://experienceleague.adobe.com/8OZS7tJxkbVtVbH41oKsUmL2dwJdkOCTJFXcuxXtWFQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 976
+source-wordcount: '976'
 ht-degree: 0%
-
 ---
-
 # Überblick über das Agile-Burndown-Diagramm
 
 Das Burndown-Diagramm zeigt den Fortschritt der Storys durch die Iteration. Die tatsächliche Burndown-Rate wird mit der idealen Burndown-Rate für die Iterationszeitleiste verglichen.
@@ -85,7 +93,7 @@ Das Burndown-Diagramm enthält die folgenden visuellen Indikatoren:
 
 ## Wie sich Urlaubstage auf das Burndown-Diagramm auswirken {#how-days-off-affect-the-burndown-chart}
 
-Der in [!DNL Workfront] definierte Standardzeitplan wirkt sich auf das Burndown-Diagramm aus, indem er Urlaubstage (Wochenenden und Feiertage) vom Burndown ausschließt. Das Burndown-Diagramm verwendet den Standardzeitplan zum Definieren von Arbeitstagen (wie in [Zeitplan erstellen) &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+Der in [!DNL Workfront] definierte Standardzeitplan wirkt sich auf das Burndown-Diagramm aus, indem er Urlaubstage (Wochenenden und Feiertage) vom Burndown ausschließt. Das Burndown-Diagramm verwendet den Standardzeitplan zum Definieren von Arbeitstagen (wie in [Zeitplan erstellen) ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 Agile Teams können teamspezifische arbeitsfreie Tage einbeziehen, indem sie einen alternativen Zeitplan definieren (wie im Artikel [Verwenden eines alternativen Teamplans für Burndown-Diagramme](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md) beschrieben). Dieser alternative Zeitplan wird dann im Burndown-Diagramm jeder dem Team zugewiesenen Iteration angezeigt. Der alternative Zeitplan wirkt sich nur auf das Burndown-Diagramm aus.
 
@@ -95,9 +103,9 @@ Urlaubstage werden nur dann im Burndown-Diagramm angezeigt, wenn:
 
   Wenn die Arbeit an einem freien Tag protokolliert wird:
 
-   * Protokollierte Arbeiten werden bei der Berechnung des idealen Burndown nicht berücksichtigt, da das Team für keine Arbeit eingeplant ist.
-   * Die idealen Burndown-Linien (durchgezogene blaue Linie und gestrichelte blaue Linie) werden im Burndown-Diagramm als flach für jeden Tag angezeigt, an dem die Arbeit erledigt wurde, oder an dem Tag, an dem Sie das Burndown-Diagramm anzeigen (wenn Sie an einem freien Tag anzeigen).
-   * Protokollierte Arbeit wird bei der Berechnung anderer Burndown-Statistiken wie dem geschätzten Abschluss und den durchschnittlichen Punkten oder Stunden pro Tag einbezogen.
+  * Protokollierte Arbeiten werden bei der Berechnung des idealen Burndown nicht berücksichtigt, da das Team für keine Arbeit eingeplant ist.
+  * Die idealen Burndown-Linien (durchgezogene blaue Linie und gestrichelte blaue Linie) werden im Burndown-Diagramm als flach für jeden Tag angezeigt, an dem die Arbeit erledigt wurde, oder an dem Tag, an dem Sie das Burndown-Diagramm anzeigen (wenn Sie an einem freien Tag anzeigen).
+  * Protokollierte Arbeit wird bei der Berechnung anderer Burndown-Statistiken wie dem geschätzten Abschluss und den durchschnittlichen Punkten oder Stunden pro Tag einbezogen.
 
 * Sie zeigen das Burndown-Diagramm an einem freien Tag an. (Der Tag, den Sie anzeigen, wird im Burndown-Diagramm angezeigt.)
 * Sie schließen die gesamte verbleibende Arbeit für die Iteration an einem freien Tag ab.

@@ -6,22 +6,27 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd8fcafc-00cc-4025-b2d3-e3a6f12e40fc
-TQID: https://experienceleague.adobe.com/dM2XkkKyXjDmTQrz-gacbJrE8TuVCNgvvLxOwjRoHWI
+TQID: 'https://experienceleague.adobe.com/dM2XkkKyXjDmTQrz-gacbJrE8TuVCNgvvLxOwjRoHWI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 511
+source-wordcount: '511'
 ht-degree: 5%
-
 ---
-
 # Weitere Verbesserungen in Version 20.4
 
 Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 20.4 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 9. November 2020 in der Produktionsumgebung verfügbar gemacht.
@@ -69,9 +74,9 @@ Jetzt können Sie mit einem einzigen Klick in Setup eine Ereignis-E-Mail-Benachr
 
 Beachten Sie außerdem, dass unser moderner Stil die Konfiguration von Ereignisbenachrichtigungen im Bereich E-Mail-Benachrichtigungen jetzt verbessert.
 
-Informationen zum Konfigurieren von E-Mail-Benachrichtigungen finden [&#x200B; unter „Konfigurieren von Ereignisbenachrichtigungen für alle Personen im System](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+Informationen zum Konfigurieren von E-Mail-Benachrichtigungen finden [ unter „Konfigurieren von Ereignisbenachrichtigungen für alle Personen im System](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-Diese Funktion ist jetzt im Lernpfad [E-Mail- und In-App-Benachrichtigungen“ &#x200B;](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
+Diese Funktion ist jetzt im Lernpfad [E-Mail- und In-App-Benachrichtigungen“ ](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) Workfront One enthalten.
 
 ## Neue API-Objekte, die Trigger-Ereignisabonnement-Aktualisierungen aufweisen
 

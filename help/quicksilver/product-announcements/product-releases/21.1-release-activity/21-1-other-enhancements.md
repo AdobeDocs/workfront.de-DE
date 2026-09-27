@@ -8,24 +8,29 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aa6cfba2-d1df-4d7c-975b-2ae0e63b6d85
-TQID: https://experienceleague.adobe.com/1lcvQ0nqvMnGKfZmGhLU-brSdgjnNRu70P1RhEmBW2A
+TQID: 'https://experienceleague.adobe.com/1lcvQ0nqvMnGKfZmGhLU-brSdgjnNRu70P1RhEmBW2A'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 766
+source-wordcount: '766'
 ht-degree: 2%
-
 ---
-
 # Weitere Verbesserungen in Version 21.1
 
 Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 21.1 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 15. Februar 2021 in der Produktionsumgebung verfügbar gemacht.
@@ -56,7 +61,7 @@ E-Mail wird in allen Vorschauumgebungen automatisch deaktiviert. Informationen z
 
 Weitere Informationen finden Sie unter [Benutzer können ein Problem per E-Mail an ein Anfrage-Warteschlangenprojekt senden](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
-Weitere Informationen dazu, warum wir diese Änderung vornehmen, finden Sie unter [Neues verwaltetes Adobe Workfront-System, um POP-E-Mails für Anfrage-Warteschlangen durch 21.1 zu &#x200B;](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md).
+Weitere Informationen dazu, warum wir diese Änderung vornehmen, finden Sie unter [Neues verwaltetes Adobe Workfront-System, um POP-E-Mails für Anfrage-Warteschlangen durch 21.1 zu ](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md).
 
 Diese Funktion ist jetzt im Lernpfad [Warteschlangenverwaltung im neuen Workfront-Erlebnis](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home) auf Workfront One enthalten.
 

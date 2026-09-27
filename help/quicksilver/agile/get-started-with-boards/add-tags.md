@@ -8,22 +8,29 @@ feature: Agile
 exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/4PixvfWzaT9FLVXFY0eOCCKpBk6AII7NHS0UIHEw8yE
+TQID: 'https://experienceleague.adobe.com/4PixvfWzaT9FLVXFY0eOCCKpBk6AII7NHS0UIHEw8yE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 541
+source-wordcount: '541'
 ht-degree: 10%
-
 ---
-
 # Hinzufügen von Tags
 
 Sie können Karten Tags hinzufügen, um ihre Ähnlichkeit optisch darzustellen. Anschließend können Sie nach diesen Tags filtern, um verwandte Karten anzuzeigen.
@@ -67,7 +74,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
    ![Tag-Manager auswählen](assets/boards-tagmanager-350x189.png)
 
-1. Wählen [!UICONTROL &#x200B; Dialogfeld „Tag]Manager“ im Abschnitt [!UICONTROL **Pinnwand**]&#x200B;[!UICONTROL &#x200B; Tags] die Option „Tag hinzufügen“ aus.
+1. Wählen [!UICONTROL  Dialogfeld „Tag]Manager“ im Abschnitt [!UICONTROL **Pinnwand**][!UICONTROL  Tags] die Option „Tag hinzufügen“ aus.
 1. Geben Sie den Tag-Namen in das hervorgehobene Feld ein und wählen Sie dann aus dem Dropdown-Menü eine Farbe für dieses Tag aus. Das Tag wird automatisch gespeichert.
 1. (Bedingt) Wiederholen Sie die Schritte 4 bis 5, um zusätzliche Tags zu erstellen.
 1. Klicken **[!UICONTROL oben]** auf „Fertig“.
@@ -91,7 +98,7 @@ Workstream-Tags stehen allen Boards in einem Workstream zur Verfügung.
 
    Klicken Sie auf [!UICONTROL **Konfigurieren**], um das Bedienfeld [!UICONTROL Arbeitsablauf konfigurieren] zu öffnen. Klicken Sie dann auf **[!UICONTROL Tag-Manager]**.
 
-1. Wählen Sie im [!UICONTROL Tag]Manager“ im Abschnitt **-Tags die Option** Tag hinzufügen“.
+1. Wählen Sie im [!UICONTROL Tag]Manager“ im Abschnitt **]-Tags die Option[!UICONTROL ** Tag hinzufügen“.
 1. Geben Sie den Tag-Namen in das hervorgehobene Feld ein und wählen Sie dann aus dem Dropdown-Menü eine Farbe für dieses Tag aus. Das Tag wird automatisch gespeichert.
 1. (Bedingt) Wiederholen Sie die Schritte 4 bis 5, um zusätzliche Tags zu erstellen.
 1. Klicken **[!UICONTROL oben]** auf „Fertig“.

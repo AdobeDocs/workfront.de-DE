@@ -2,17 +2,24 @@
 content-type: overview
 navigation-topic: the-new-workfront-experience
 title: Linke Navigation in [!DNL Adobe Workfront]
-description: Der linke Navigationsbereich in [!DNL Workfront]  erleichtert die Navigation durch das System.
+description: Der linke Navigationsbereich in [!DNL Workfront] erleichtert die Navigation durch das System.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
-source-git-commit: 5e2c674c3e0810bd4c6c57889ed659351a03b341
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1420'
 ht-degree: 3%
-
 ---
-
 # Linke Navigation in [!DNL Adobe Workfront]
 
 Die meisten Bereiche und Objekte in WF verwenden ein einfaches Navigationsfenster auf der linken Bildschirmseite. Die Navigation im linken Bedienfeld bietet folgende Vorteile:
@@ -88,7 +95,7 @@ Das linke Bedienfeld ist für die folgenden Bereiche verfügbar:
 * [Standardabschnitte im Bereich [!UICONTROL Anfragen]](#default-sections-in-the-requests-area)
 * [Standardabschnitte im Bereich [!UICONTROL Ressourcen]](#default-sections-in-the-resourcing-area)
 * [Standardabschnitte im Bereich [!UICONTROL Projekte]](#default-sections-in-the-projects-area)
-* [Standardabschnitte im Bereich &quot;[!UICONTROL &quot; &#x200B;]](#default-sections-in-the-timesheets-area)
+* [Standardabschnitte im Bereich &quot;[!UICONTROL &quot; ]](#default-sections-in-the-timesheets-area)
 * [Standardabschnitte im  [!DNL Goals] -Bereich](#default-sections-in-the-goals-area)
 
 ### Standardabschnitte im Bereich [!UICONTROL Dashboards]
@@ -125,7 +132,7 @@ Informationen zur Verwendung des linken Bedienfelds im Bereich Dashboards finden
     </tr>
 </table>
 
-Informationen zur Verwendung des linken Bedienfelds im Bereich [!UICONTROL Anfragen] finden Sie im Abschnitt [Verwenden des linken &#x200B;](#use-the-left-navigation-panel)) in diesem Artikel.
+Informationen zur Verwendung des linken Bedienfelds im Bereich [!UICONTROL Anfragen] finden Sie im Abschnitt [Verwenden des linken ](#use-the-left-navigation-panel)) in diesem Artikel.
 
 ### Standardabschnitte im Bereich [!UICONTROL Ressourcen]
 
@@ -156,7 +163,7 @@ Die folgenden Abschnitte werden im linken Bedienfeld für den Bereich **[!UICONT
 </table>
 
 
-Informationen zur Verwendung des linken Bedienfelds im Bereich [!UICONTROL Ressourcen] finden Sie im Abschnitt [Verwenden des linken &#x200B;](#use-the-left-navigation-panel)) in diesem Artikel.
+Informationen zur Verwendung des linken Bedienfelds im Bereich [!UICONTROL Ressourcen] finden Sie im Abschnitt [Verwenden des linken ](#use-the-left-navigation-panel)) in diesem Artikel.
 
 ### Standardabschnitte im Bereich [!UICONTROL Projekte]
 
@@ -173,9 +180,9 @@ Die folgenden Abschnitte werden im linken Bedienfeld für den Bereich **[!UICONT
     </tr>
 </table>
 
-Informationen zur Verwendung des linken Bedienfelds im Bereich [!UICONTROL Projekte] finden Sie im Abschnitt [Verwenden des linken &#x200B;](#use-the-left-navigation-panel)) in diesem Artikel.
+Informationen zur Verwendung des linken Bedienfelds im Bereich [!UICONTROL Projekte] finden Sie im Abschnitt [Verwenden des linken ](#use-the-left-navigation-panel)) in diesem Artikel.
 
-### Standardabschnitte im Bereich &quot;[!UICONTROL &quot; &#x200B;]
+### Standardabschnitte im Bereich &quot;[!UICONTROL &quot; ]
 
 Die folgenden Abschnitte werden im linken Bereich für den Bereich **[!UICONTROL Arbeitszeittabellen]** angezeigt:
 
@@ -185,7 +192,7 @@ Die folgenden Abschnitte werden im linken Bereich für den Bereich **[!UICONTROL
         <td>Zeigt standardmäßig alle aktiven Arbeitszeittabellen an. Um übermittelte oder geschlossene Arbeitszeittabellen anzuzeigen, wählen Sie [!UICONTROL Übermittelt] oder [!UICONTROL Alle] aus dem Dropdown-Menü [!UICONTROL Filter] aus.</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Von mir genehmigte-Arbeitszeittabellen]</strong></td>
+        <td><strong>[!Von mir genehmigte UICONTROL-Arbeitszeittabellen]</strong></td>
         <td>Zeigt standardmäßig Arbeitszeittabellen an, die zur Genehmigung eingereicht wurden. Um aktive oder alle Arbeitszeittabellen anzuzeigen, bei denen Sie die genehmigende Person sind, wählen Sie [!UICONTROL Active] oder Anwendung aus dem Dropdown-Menü Filter aus.</td>
     </tr>
     <tr>
@@ -194,7 +201,7 @@ Die folgenden Abschnitte werden im linken Bereich für den Bereich **[!UICONTROL
     </tr>
 </table>
 
-Informationen zur Verwendung des linken Bedienfelds im Bereich [!UICONTROL Arbeitszeittabellen] finden Sie im Abschnitt [Verwenden des linken &#x200B;](#use-the-left-navigation-panel)) in diesem Artikel.
+Informationen zur Verwendung des linken Bedienfelds im Bereich [!UICONTROL Arbeitszeittabellen] finden Sie im Abschnitt [Verwenden des linken ](#use-the-left-navigation-panel)) in diesem Artikel.
 
 ### Standardabschnitte im [!DNL Goals]
 
@@ -237,7 +244,7 @@ Die folgenden Abschnitte werden im linken Bedienfeld für den Bereich **[!UICONT
 </table>
 -->
 
-Informationen zur Verwendung des linken Bedienfelds im Bereich [!UICONTROL Ziele] finden Sie im Abschnitt [Verwenden des linken &#x200B;](#use-the-left-navigation-panel)) in diesem Artikel.
+Informationen zur Verwendung des linken Bedienfelds im Bereich [!UICONTROL Ziele] finden Sie im Abschnitt [Verwenden des linken ](#use-the-left-navigation-panel)) in diesem Artikel.
 
 ## Verwenden des linken Navigationsbereichs
 

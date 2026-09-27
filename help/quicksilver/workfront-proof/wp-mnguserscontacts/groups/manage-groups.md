@@ -2,28 +2,38 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: groups-workfront-proof
-title: Gruppen verwalten mit [!DNL Workfront Proof]
-description: Als  [!DNL Workfront Proof]  können Sie Ihre öffentlichen und privaten Gruppen auf der Seite Gruppen verwalten.
+title: Verwalten von Gruppen mithilfe von [!DNL Workfront Proof]
+description: Als [!DNL Workfront Proof] können Sie Ihre öffentlichen und privaten Gruppen auf der Seite Gruppen verwalten.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bb4cfe03-d2c8-47f5-8c5c-de5218935ab5
-TQID: https://experienceleague.adobe.com/LIZUQVXJnYbKZtmgZ6IhMJTv6Wo2AnFh8Y1M5bo6EfY
+TQID: 'https://experienceleague.adobe.com/LIZUQVXJnYbKZtmgZ6IhMJTv6Wo2AnFh8Y1M5bo6EfY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Privacy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 555
+source-wordcount: '592'
 ht-degree: 0%
-
 ---
-
 # Verwalten von Gruppen mithilfe von [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -43,25 +53,25 @@ Auf der Seite [!UICONTROL Gruppen] haben Sie folgende Möglichkeiten:
    * Filtern und Sortieren von Gruppen.
    * Nachdem Sie eine oder mehrere Gruppen ausgewählt haben, sind die folgenden zusätzlichen Optionen verfügbar:
 
-      * Personen zu den ausgewählten Gruppen hinzufügen.
+     * Personen zu den ausgewählten Gruppen hinzufügen.
 
-        ![Groups_page-add_people_btn.png](assets/groups-page-add-people-btn-30x29.png)
+       ![Groups_page-add_people_btn.png](assets/groups-page-add-people-btn-30x29.png)
 
-      * Die ausgewählten Gruppen als privat oder öffentlich festlegen, wie in [Gruppen als privat festlegen mit [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md) beschrieben
-      * Private Gruppen sind nur für ihre Ersteller sichtbar.
-      * Löscht die ausgewählten Gruppen.
+     * Die ausgewählten Gruppen als privat oder öffentlich festlegen, wie in [Gruppen als privat festlegen mit [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md) beschrieben
+     * Private Gruppen sind nur für ihre Ersteller sichtbar.
+     * Löscht die ausgewählten Gruppen.
 
-        ![Löschsymbol](assets/trash-button.png)
+       ![Löschsymbol](assets/trash-button.png)
    * Sie können Aktionen für Gruppen auch für jede Gruppe separat von ihrem eigenen **[!UICONTROL Mehr]**-Menü (drei Punkte) durchführen:
 
      ![Menü „Mehr“](assets/more-button-small.png)
 
-      * Gruppendetails anzeigen.
+     * Gruppendetails anzeigen.
 
-        Sie können Gruppendetails auch anzeigen, indem Sie auf den Gruppennamen klicken.
-      * Personen hinzufügen.
-      * Machen Sie eine Gruppe öffentlich/privat.
-      * Löschen einer Gruppe.
+       Sie können Gruppendetails auch anzeigen, indem Sie auf den Gruppennamen klicken.
+     * Personen hinzufügen.
+     * Machen Sie eine Gruppe öffentlich/privat.
+     * Löschen einer Gruppe.
 
 
 ## Gruppen sortieren
@@ -69,10 +79,10 @@ Auf der Seite [!UICONTROL Gruppen] haben Sie folgende Möglichkeiten:
 Sie können Gruppen nach Gruppennamen, Datenschutzstatus und Beschreibung sortieren.
 
 1. Klicken Sie auf die Spaltenüberschrift, nach der Sie sortieren möchten.
-oder
+ODER
 Wählen Sie im Menü Sortieren eine Sortieroption aus.
    ![Groups_page-sort_menu.png](assets/groups-page-sort-menu-350x80.png)
-Das Dreieck in einer Spaltenüberschrift gibt die Sortierreihenfolge an. Nach oben zeigt es eine aufsteigende Reihenfolge an, nach unten zeigt es eine absteigende Reihenfolge an.
+   Das Dreieck in einer Spaltenüberschrift gibt die Sortierreihenfolge an. Nach oben zeigt es eine aufsteigende Reihenfolge an, nach unten zeigt es eine absteigende Reihenfolge an.
 
 ## Gruppen filtern
 
@@ -80,13 +90,13 @@ Das Dreieck in einer Spaltenüberschrift gibt die Sortierreihenfolge an. Nach ob
    ![Group_page-filter_icon_and_options.png](assets/group-page-filter-icon-and-options-350x134.png)
 
 1. Wählen Sie [!UICONTROL Filteroptionen] aus den Dropdown-Menüs aus und geben Sie die Filterfelder ein, die unter den einzelnen Spaltenüberschriften angezeigt werden. Klicken Sie dann erneut auf das **[!UICONTROL Filter]**-Symbol, um die Optionen anzuwenden.
-oder\
+ODER\
    Wählen Sie den ersten Buchstaben im Gruppennamen.
    ![Groups_page-filters_by_letter.png](assets/groups-page-filtering-by-letter-350x245.png)
 
 ## Anzeigen und Bearbeiten von Gruppendetails
 
-1. Klicken Sie auf **[!UICONTROL Mehr]** ganz rechts neben dem Gruppennamen und klicken Sie dann **[!UICONTROL Dropdown-Menü auf]**&#x200B;Gruppendetails anzeigen“.
+1. Klicken Sie auf **[!UICONTROL Mehr]** ganz rechts neben dem Gruppennamen und klicken Sie dann **[!UICONTROL Dropdown-Menü auf]**Gruppendetails anzeigen“.
 Auf der angezeigten Seite können Sie alle Personen anzeigen, die sich derzeit in der Gruppe befinden, zusammen mit ihren Standardrollen und E-Mail-Warnhinweisen für die Gruppe.
 
 1. Führen Sie einen der folgenden Schritte aus, um die Gruppendetails zu bearbeiten:
@@ -113,7 +123,7 @@ Auf der angezeigten Seite können Sie alle Personen anzeigen, die sich derzeit i
 1. Aktivieren Sie die Kontrollkästchen neben den Namen der Kontakte, die Sie einer Gruppe hinzufügen möchten.
 1. Klicken Sie auf **[!UICONTROL Schaltfläche „Zu Gruppe hinzufügen]**.
    ![Zu Gruppe hinzufügen](assets/screenshot-2018-04-06-15-27-17.png)
-Das **[!UICONTROL „Zu Gruppe hinzufügen]** wird angezeigt.
+   Das **[!UICONTROL „Zu Gruppe hinzufügen]** wird angezeigt.
 
 1. Im Abschnitt **[!UICONTROL Personen]**:
 

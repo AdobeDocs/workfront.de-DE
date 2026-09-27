@@ -4,18 +4,21 @@ title: Zugriff auf die Adobe Workfront-Hilfe
 description: Workfront bietet eine Vielzahl von Inhalten, die Ihnen helfen, Antworten auf Fragen zu den Funktionen der verschiedenen von Workfront angebotenen Produkte zu finden.
 feature: Get Started with Workfront
 exl-id: 41b81083-771e-46de-85a3-31ed52d29917
-TQID: https://experienceleague.adobe.com/AD0uU89l7bVNXCiFiBDd3rRc59EUgzZNrHWyiZhUlgk
+TQID: 'https://experienceleague.adobe.com/AD0uU89l7bVNXCiFiBDd3rRc59EUgzZNrHWyiZhUlgk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: c58c4365016f8fe855003cdbbd457f95483d08bc
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 183
+source-wordcount: '183'
 ht-degree: 19%
-
 ---
-
 # Hilfe [!DNL Adobe Workfront]
 
 [!DNL Workfront] bietet eine Vielzahl von Inhalten, die Ihnen helfen, Antworten auf Fragen zu den Funktionen der verschiedenen von [!DNL Workfront] angebotenen Produkte zu finden.
@@ -28,8 +31,8 @@ Neben der Suche nach der Hilfedokumentation können Sie auch auf die folgenden [
 
 * Workfront-Tutorials: Weitere Informationen finden Sie unter [[!DNL Workfront] Tutorials](https://experienceleague.adobe.com/de/docs/workfront-learn/tutorials-workfront/home).
 
-* [!UICONTROL Innovation Lab]: Weitere Informationen finden Sie unter [The [!UICONTROL Innovation Lab]](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas?profile.language=de).
-* [!UICONTROL [!DNL Workfront]-Community]: Weitere Informationen finden [&#x200B; unter [!UICONTROL [!DNL Adobe Workfront] Community]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=de).
+* [!UICONTROL Innovation Lab]: Weitere Informationen finden Sie unter [The [!UICONTROL Innovation Lab]](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas).
+* [!UICONTROL [!DNL Workfront]-Community]: Weitere Informationen finden [ unter [!UICONTROL [!DNL Adobe Workfront] Community]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront).
 
 ## Zugriff auf die Hilfe aus [!DNL Workfront]
 

@@ -5,13 +5,20 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 095aa9fe-600a-48cd-a907-2e8d93939bf0
-source-git-commit: 347b94801a86f3357b46da4955605a9742b6cf83
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '870'
 ht-degree: 3%
-
 ---
-
 # Verbesserungen bei Dokumenten für das zweite Quartal 2026
 
 <!--hide this article until multi stage goes out-->
@@ -24,7 +31,9 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im zweiten Quartal 2026 ve
 
 >[!NOTE]
 >
->Vorschau: 16. April 2026>Produktions-Schnellveröffentlichung: 16. April 2026>Produktion für alle: 16. April 2026
+>Vorschau: 16. April 2026
+>Produktions-Schnellveröffentlichung: 16. April 2026
+>Produktion für alle: 16. April 2026
 
 Der Content Advisor ist jetzt in Workfront mit der Adobe Experience Manager Assets-Integration verfügbar, sodass Teams bestehende hochwertige Inhalte leichter entdecken und wiederverwenden können.
 
@@ -43,7 +52,9 @@ Diese Integration hilft Teams, die Erstellung doppelter Inhalte zu reduzieren, d
 
 >[!NOTE]
 >
->Vorschau: 31. März 2026>Produktions-Schnellveröffentlichung: 31. März 2026>Produktion für alle: 31. März 2026
+>Vorschau: 31. März 2026
+>Produktions-Schnellveröffentlichung: 31. März 2026
+>Produktion für alle: 31. März 2026
 
 Am 31. März 2026 wurden alle Workfront-Kundinnen und -Kunden für GenStudio Foundation bereitgestellt, und Admin Console-Systemadmins erhalten eine E-Mail, in der sie über diesen Zusatz informiert werden. Dieses Produkt wird nur bereitgestellt, damit Workfront-Kunden Workfront-Kunden nach Bedarf Zugriff auf die KI-Kollaborateure gewähren können. Das Produkt selbst ist nur ein Zugriffsmechanismus für Marken, und im GenStudio Foundation-Produkt sind keine zusätzlichen Funktionen verfügbar.
 
@@ -53,7 +64,9 @@ Kunden wird dieses neue Produkt nicht in Rechnung gestellt.
 
 >[!NOTE]
 >
->Vorschau: 2. April 2026>Produktions-Schnellveröffentlichung: 15. April 2026>Produktion für alle: 16. April 2026
+>Vorschau: 2. April 2026
+>Produktions-Schnellveröffentlichung: 15. April 2026
+>Produktion für alle: 16. April 2026
 
 Wir haben folgende Verbesserungen zum Widget Meine Genehmigungen in Startseite hinzugefügt:
 
@@ -70,7 +83,9 @@ Weitere Informationen finden Sie unter [Verwalten Ihrer Genehmigungen mit dem Wi
 
 >[!NOTE]
 >
->Vorschau: 12. März 2026>Produktions-Schnellveröffentlichung: 15. April 2026>Produktion für alle: 16. April 2026
+>Vorschau: 12. März 2026
+>Produktions-Schnellveröffentlichung: 15. April 2026
+>Produktion für alle: 16. April 2026
 
 
 Wir freuen uns, Ihnen Unified Review &amp; Approval powered by Workfront und Frame.io vorstellen zu können - ein optimiertes Prüf- und Genehmigungs-Erlebnis.
@@ -105,7 +120,9 @@ Weitere Informationen finden Sie unter [Übersicht über den Adobe-Cloud-Speiche
 
 >[!NOTE]
 >
->Vorschau: 12. März 2026>Produktions-Schnellveröffentlichung: 15. April 2026>Produktion für alle: 16. April 2026
+>Vorschau: 12. März 2026
+>Produktions-Schnellveröffentlichung: 15. April 2026
+>Produktion für alle: 16. April 2026
 
 Mehrstufige Genehmigungs-Workflows sind jetzt in einheitlichen Genehmigungen verfügbar, sodass Unternehmen strukturierte, wiederholbare Genehmigungsprozesse durchsetzen können, die widerspiegeln, wie Arbeit in der realen Welt überprüft wird. Mit mehrstufigen Genehmigungen können Sie:
 
@@ -121,7 +138,9 @@ Weitere Informationen finden Sie unter [Erstellen eines Dokumentgenehmigungs-Wor
 
 >[!NOTE]
 >
->Vorschau: 12. März 2026>Produktions-Schnellveröffentlichung: 15. April 2026>Produktion für alle: 16. April 2026
+>Vorschau: 12. März 2026
+>Produktions-Schnellveröffentlichung: 15. April 2026
+>Produktion für alle: 16. April 2026
 
 Sie können jetzt mehrstufige Validierungs-Workflow-Vorlagen konfigurieren und wiederverwenden, was die Anwendung konsistenter Governance auf wiederholbare Validierungs-Workflows erleichtert.
 

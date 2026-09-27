@@ -4,24 +4,28 @@ product-previous: workfront;workfront-proof
 product-area: user-management
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Fehlerbehebung bei Workfront Proof Manager-Berechtigungen
-description: Die in  [!DNL Adobe] Workfront für Proofing-Benutzer verfügbaren Berechtigungsprofile sind „Administrator“, „Supervisor“ und „Manager“.
+description: Die in [!DNL Adobe] Workfront für Proofing-Benutzer verfügbaren Berechtigungsprofile sind „Administrator“, „Supervisor“ und „Manager“.
 feature: Get Started with Workfront
 auhor: Courtney
 exl-id: 913241d0-f5b0-4674-b078-9a1ad3682aff
-TQID: https://experienceleague.adobe.com/JIdpxOQhSJGhnwl8iqZgeJ8esHq-Bb8x8HJuEJysxRI
+TQID: 'https://experienceleague.adobe.com/JIdpxOQhSJGhnwl8iqZgeJ8esHq-Bb8x8HJuEJysxRI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 255
+source-wordcount: '256'
 ht-degree: 2%
-
 ---
-
 # [!UICONTROL [!DNL Workfront]-Korrekturabzug-Manager] Fehlerbehebung bei Berechtigungen
 
 Im Folgenden finden Sie die in [!DNL Adobe Workfront] für Proofing-Benutzer verfügbaren Berechtigungsprofile:
@@ -43,8 +47,8 @@ Wenn Sie einem Benutzer [!UICONTROL Manager] Berechtigungen erteilen, sind die f
 * **PROBLEM:** Benutzende mit [!UICONTROL Manager]-Berechtigungen können keine Korrekturabzugsversionen zu den von anderen Benutzenden erstellten Korrekturabzügen hinzufügen (sie können möglicherweise einen Korrekturabzug im Dokumentensatz senden, die Versionen werden jedoch NICHT mit dem ursprünglichen Satz verbunden, der von einem anderen Benutzenden erstellt wurde).\
    **LÖSUNG:** Benutzer mit [!UICONTROL Manager]-Berechtigungen können die Versionen nur dann an den Korrekturabzug eines anderen Benutzers senden, wenn der Benutzer über [!UICONTROL Manager]-Berechtigungen verfügt und die beiden folgenden Bedingungen erfüllt sind:
 
-   * Explizit zu den Testsendungen hinzugefügt
-   * Als [!UICONTROL Autoren] (Korrekturabzugsrolle) für die Korrekturabzüge festlegen
+  * Explizit zu den Testsendungen hinzugefügt
+  * Als [!UICONTROL Autoren] (Korrekturabzugsrolle) für die Korrekturabzüge festlegen
 
 * **PROBLEM:** Benutzende mit [!UICONTROL Manager]-Berechtigungen können keine Kommentare anderer Benutzender zu einem Korrekturabzug bearbeiten, dessen Inhaber sie nicht sind oder den sie nicht erstellt haben.\
    **LÖSUNG:** Wenn Benutzende mit [!UICONTROL Manager]-Berechtigungen nicht Eigentümer der Korrekturabzüge sind, sie jedoch Kommentare bearbeiten können, fügen Sie sie als [!UICONTROL Autoren] (oder [!UICONTROL Moderatoren]) hinzu.\

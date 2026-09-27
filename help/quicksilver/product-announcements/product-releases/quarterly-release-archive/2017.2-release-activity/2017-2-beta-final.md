@@ -7,26 +7,33 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 768e9aad-d7e7-4a3c-9f93-926cf588ddc7
-TQID: https://experienceleague.adobe.com/7tfTmpf1SXBHaK8rlrRGMLI-ikA-w6jqmQhMlVkKawQ
+TQID: 'https://experienceleague.adobe.com/7tfTmpf1SXBHaK8rlrRGMLI-ikA-w6jqmQhMlVkKawQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2332
+source-wordcount: '2347'
 ht-degree: 1%
-
 ---
-
 # 2017.2 Beta-Endversion
 
 Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit der Version 2017.2 verfügbar waren. Die Funktion auf dieser Seite wurde am 28. Juni 2017 in der Vorschau-Umgebung verfügbar gemacht. Sie wird am 26. Juli 2017 in der Produktionsumgebung bereitgestellt.
@@ -136,7 +143,7 @@ Sie können jetzt zusätzlich zum XLSX-Format den Auslastungsbericht für ein Pr
 
 Vor dieser Änderung konnten Sie den Auslastungsbericht nur im XLSX-Format exportieren.
 
-Weitere Informationen zum Exportieren des Auslastungsberichts finden Sie unter [Übersicht über den &#x200B;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) unter [Übersicht über den Ressourcenauslastungsbericht](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Weitere Informationen zum Exportieren des Auslastungsberichts finden Sie unter [Übersicht über den ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) unter [Übersicht über den Ressourcenauslastungsbericht](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 ## Die Korrekturabzugsentscheidung wird im Bereich Meine Arbeit (Workfront) angezeigt {#proof-decision-displays-in-the-my-work-area-workfront}
 
@@ -144,7 +151,7 @@ Wenn Sie jetzt Korrekturabzugsgenehmigungen auf der Registerkarte Meine Genehmig
 
 Vor dieser Änderung gab es keinen Hinweis darauf, dass bereits eine Entscheidung über den Korrekturabzug getroffen wurde. Der Korrekturabzug blieb auf der Registerkarte Meine Genehmigungen , bis Sie den Browser aktualisiert haben.
 
-Weitere Informationen finden Sie unter [Genehmigen von &#x200B;](../../../../review-and-approve-work/manage-approvals/approving-work.md)&quot; in [Genehmigen von &#x200B;](../../../../review-and-approve-work/manage-approvals/approving-work.md).
+Weitere Informationen finden Sie unter [Genehmigen von ](../../../../review-and-approve-work/manage-approvals/approving-work.md)&quot; in [Genehmigen von ](../../../../review-and-approve-work/manage-approvals/approving-work.md).
 
 ## Rich-Media-Korrekturabzüge in voreingestellten Auflösungen anzeigen (ProofHQ und Workfront) {#view-rich-media-proofs-in-preset-resolutions-proofhq-and-workfront}
 
@@ -225,7 +232,7 @@ In den mobilen Apps werden die folgenden zusätzlichen Funktionen sowohl für di
 
 Für einige dieser Funktionen wird es ein öffentliches Beta-Programm für die Android-Plattform geben.
 
-Weitere Informationen zum kommenden Beta-Programm für Mobilgeräte finden Sie auf der [&#x200B; „Betas“](https://support.workfront.com/hc/en-us/sections/115000743248)Seite.
+Weitere Informationen zum kommenden Beta-Programm für Mobilgeräte finden Sie auf der [ „Betas“](https://support.workfront.com/hc/en-us/sections/115000743248)Seite.
 
 Weitere Informationen zur Verwendung der Mobile App von Workfront finden Sie unter .  
 

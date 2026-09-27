@@ -6,31 +6,35 @@ description: In diesem Artikel werden die standardmäßigen Hauptmenüelemente f
 author: Lisa and Courtney
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
-TQID: https://experienceleague.adobe.com/JSuh2kxo-6XXc9DZVH15O6S4gOB8oPUKhRP7O9MYqeA
+TQID: 'https://experienceleague.adobe.com/JSuh2kxo-6XXc9DZVH15O6S4gOB8oPUKhRP7O9MYqeA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 364
+source-wordcount: '364'
 ht-degree: 0%
-
 ---
-
 # Grundlegendes zur Navigation für einen [!UICONTROL Light]-Lizenzbenutzer
 
 Das [!UICONTROL Hauptmenü] ändert sich mit der Zugriffsebene, die Ihnen von Ihrem [!DNL Adobe Workfront] zugewiesen wurde. Standardmäßig erhalten Sie nur Zugriff auf Bereiche, die Funktionen enthalten, die von Ihrer Zugriffsebene zugelassen sind. Informationen zu den Komponenten des Standard-Layouts jeder Zugriffsebene finden Sie unter [Über das Standard [!DNL Adobe Workfront] Layout](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
 ## Grundlegendes zum Standardmenü [!UICONTROL Hauptmenü] eines [!UICONTROL Light-Benutzers]
 
-Als [!UICONTROL Light-Benutzer] liegt Ihre Hauptverantwortung darin, Ihre Arbeit zu überprüfen, zu kommentieren und zu genehmigen. Die Bereiche, die Ihnen im Hauptmenü angezeigt werden[!UICONTROL &#x200B; ermöglichen &#x200B;] diesen Vorgang.
+Als [!UICONTROL Light-Benutzer] liegt Ihre Hauptverantwortung darin, Ihre Arbeit zu überprüfen, zu kommentieren und zu genehmigen. Die Bereiche, die Ihnen im Hauptmenü angezeigt werden[!UICONTROL  ermöglichen ] diesen Vorgang.
 
-Die folgenden Bereiche sind im Standardlayout eines „Light[!UICONTROL Benutzers“ &#x200B;]:
+Die folgenden Bereiche sind im Standardlayout eines „Light[!UICONTROL Benutzers“ ]:
 
 * **[!UICONTROL Meine Updates]**: Der Bereich **[!UICONTROL Startseite]**, der Benutzern aller Zugriffsebenen zur Verfügung steht, wird bei Benutzern mit einem Light-Lizenztyp standardmäßig durch **[!UICONTROL Meine Updates]** ersetzt. Als [!UICONTROL Light-Benutzer] schließen Sie die Arbeit nicht ab. Sie müssen nur Informationen über Arbeiten sehen, die Sie überprüfen, kommentieren oder genehmigen müssen. Im Bereich **[!UICONTROL Meine Aktualisierungen]** können Sie diese Aktionen durchführen. Dies ist der standardmäßige Landingpage für neue Light-Benutzer.
 

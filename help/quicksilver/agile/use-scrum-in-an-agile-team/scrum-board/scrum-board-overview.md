@@ -9,18 +9,24 @@ feature: Agile
 exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/81TvqkH7xJse6JU-uoknd4PYHaCrKpc-aTLLgzOoNjw
+TQID: 'https://experienceleague.adobe.com/81TvqkH7xJse6JU-uoknd4PYHaCrKpc-aTLLgzOoNjw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 810
+source-wordcount: '810'
 ht-degree: 0%
-
 ---
-
 # Übersicht über [!UICONTROL Scrum]-Board
 
 <!-- Audited: 5/2025 -->
@@ -42,12 +48,12 @@ Das Story Board besteht aus folgenden Elementen:
 
   In einer Iteration wird diese Spalte nur dann im Story Board angezeigt, wenn mindestens eine Story Board mindestens eine Teilaufgabe enthält, die die folgenden Anforderungen erfüllt:
 
-   * Diesem Agile-Team wie die übergeordnete Aufgabe zugewiesen.
-   * Gehört zur Iteration.
+  * Diesem Agile-Team wie die übergeordnete Aufgabe zugewiesen.
+  * Gehört zur Iteration.
 
-     In einem Projekt wird diese Spalte immer dann angezeigt, wenn eine Aufgabe mindestens eine Teilaufgabe hat.
+    In einem Projekt wird diese Spalte immer dann angezeigt, wenn eine Aufgabe mindestens eine Teilaufgabe hat.
 
-     ![Übergeordnete Story-Spalte](assets/agile-parentstory-swimlane.png)
+    ![Übergeordnete Story-Spalte](assets/agile-parentstory-swimlane.png)
 
 * **Aufgabenstatus**: Gibt an, wie eine Story durch die Iteration oder das Projekt verläuft, je nachdem, in welcher Statusspalte sich die Story befindet.
 
@@ -57,8 +63,8 @@ Das Story Board besteht aus folgenden Elementen:
 
   In einer Iteration werden Schwimmspuren nur dann auf dem Story Board angezeigt, wenn eine Story auf dem Story Board mindestens eine Teilaufgabe enthält, die die folgenden Anforderungen erfüllt:
 
-   * Diesem Agile-Team wie die übergeordnete Aufgabe zugewiesen.
-   * Gehört zur Iteration.
+  * Diesem Agile-Team wie die übergeordnete Aufgabe zugewiesen.
+  * Gehört zur Iteration.
 
   In einem Projekt werden Schwimmspuren immer dann angezeigt, wenn eine Aufgabe mindestens eine Unteraufgabe oder eine übergeordnete Aufgabe hat.
 

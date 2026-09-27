@@ -6,23 +6,28 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
-TQID: https://experienceleague.adobe.com/R6wn9MEVWUTsVTJGktyPdOSrdWN6nb3jY4ldkEx5WPk
+TQID: 'https://experienceleague.adobe.com/R6wn9MEVWUTsVTJGktyPdOSrdWN6nb3jY4ldkEx5WPk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 562
-ht-degree: 14%
-
+source-wordcount: '592'
+ht-degree: 19%
 ---
-
 # Hochladen von Dokumenten und Erstellen von Korrekturabzügen in „Prioritäten“
 
 Sie können Dokumente hochladen und Testsendungen in „Prioritäten“ erstellen.
@@ -77,7 +82,7 @@ Sie können ein Dokument aus der Arbeitsliste oder der Seite „Arbeitsaufgabend
 1. Bewegen Sie in der Arbeitsliste den Mauszeiger über den Arbeitsnamen und klicken Sie dann auf **Zusammenfassung** Symbol ![Zusammenfassung öffnen](assets/summary-icon.png).
 1. Stellen Sie sicher, dass Sie sich im Zusammenfassungsbereich auf **Registerkarte** Aufgabe **oder** Probleme“ befinden.
 1. Klicken Sie auf das **Datei hochladen**-Symbol ![Datei hochladen](assets/upload-file-icon.png).
-1. Datei per Drag-and-Drop verschieben oder Befehl/Strg+V aus der Zwischenablage einfügen
+1. Verwenden Sie Drag-and-Drop oder Cmd/Strg + V, um die Datei aus der Zwischenablage einzufügen
 oder
 Klicken Sie **Dateien hinzufügen**, um Dateien zu durchsuchen oder von einem Document Cloud-Anbieter zu importieren.
    ![Dateien hinzufügen](assets/add-files.png)
@@ -96,7 +101,7 @@ Klicken Sie **Dateien hinzufügen**, um Dateien zu durchsuchen oder von einem Do
 1. Klicken Sie in der Arbeitsliste auf den Namen des Arbeitselements.
 1. Klicken Sie auf **Registerkarte** Dokumente“ oben im Bildschirm.
 1. Klicken **oben rechts auf** Dokument hochladen“ und wählen Sie dann **Dokument** aus.
-1. Datei per Drag-and-Drop verschieben oder Befehl/Strg+V aus der Zwischenablage einfügen
+1. Verwenden Sie Drag-and-Drop oder Cmd/Strg + V, um die Datei aus der Zwischenablage einzufügen
 oder
 Klicken Sie **Dateien hinzufügen**, um Dateien zu durchsuchen oder von einem Document Cloud-Anbieter zu importieren.
    ![Dateien hinzufügen](assets/add-files.png)

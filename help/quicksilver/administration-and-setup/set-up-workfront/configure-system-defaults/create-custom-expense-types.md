@@ -3,28 +3,33 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Erstellen benutzerdefinierter Ausgabentypen
-description: Als  [!DNL Adobe Workfront]  können Sie benutzerdefinierte Ausgabentypen erstellen, um die mit Ihren Aufgaben und Projekten verbundenen Ausgaben zu definieren und zu verfolgen. Kosten sind sonstige Kosten, die mit Aufgaben oder Projekten verbunden werden können.
+description: Als [!DNL Adobe Workfront] können Sie benutzerdefinierte Ausgabentypen erstellen, um die mit Ihren Aufgaben und Projekten verbundenen Ausgaben zu definieren und zu verfolgen. Kosten sind sonstige Kosten, die mit Aufgaben oder Projekten verbunden werden können.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-TQID: https://experienceleague.adobe.com/lf8hEp6JYtT4mZPP5f6e5M-gX4juYH-hRZF8kGonN3E
+TQID: 'https://experienceleague.adobe.com/lf8hEp6JYtT4mZPP5f6e5M-gX4juYH-hRZF8kGonN3E'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+    internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 382
+source-wordcount: '383'
 ht-degree: 11%
-
 ---
-
 # Benutzerdefinierte Ausgabentypen erstellen
 
 <!--**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
@@ -84,13 +89,13 @@ Zu den standardmäßigen Ausgabentypen in [!DNL Workfront], die nicht gelöscht 
    * **Beschreibung** - Eine Beschreibung der Ausgabe.
    * **Berechnete Einheit** - Wählen Sie in der Dropdown-Liste die Maßeinheit für Ihren Ausgabentyp aus. Die folgenden Maßeinheiten sind verfügbar:
 
-      * Meile
-      * Kilometer
-      * Kilogramm
-      * Dollar
-      * Stunde
-      * Day
-      * Sonstiges - Wenn Sie diese Option wählen, werden Sie aufgefordert, die Maßeinheit zu benennen und diese als eine Ihrer Organisation vertraute Einheit zu definieren.
+     * Meile
+     * Kilometer
+     * Kilogramm
+     * Dollar
+     * Stunde
+     * Day
+     * Sonstiges - Wenn Sie diese Option wählen, werden Sie aufgefordert, die Maßeinheit zu benennen und diese als eine Ihrer Organisation vertraute Einheit zu definieren.
 
    * **Rate** - Der Preis pro Einheit. Dies ist ein währungsformatiertes Feld, das die Kosten für jede Einheit darstellt, die im Feld **Berechnete Einheit** festgelegt wird. Die Rate kann einen numerischen Wert mit bis zu 4 Zahlen nach dem Dezimaltrennzeichen enthalten. Beispiel: 1.0375.
 

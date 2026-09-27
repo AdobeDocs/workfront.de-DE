@@ -10,22 +10,26 @@ role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/sxv8RUKwTr-SABLfOrmTa0J9ToM62-1tF5rFEnu41UI
+TQID: 'https://experienceleague.adobe.com/sxv8RUKwTr-SABLfOrmTa0J9ToM62-1tF5rFEnu41UI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: f283a5f64062e5878373527de46b0d993b545ba7
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 836
+source-wordcount: '836'
 ht-degree: 6%
-
 ---
-
 # Einrichten automatischer Erinnerungen
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
@@ -143,7 +147,7 @@ Wenn Sie in einer automatischen Erinnerungsbenachrichtigung die angegebene Entit
 
 Aufgaben mit bestimmten Abhängigkeitstypen werden möglicherweise nach dem angegebenen Startdatum bereitgestellt, obwohl sie überfällig sind. Wenn eine Aufgabe beispielsweise einen Vorgänger mit einer FS-Abhängigkeit (Finish-Start) hat, wird sie nicht in die E-Mail aufgenommen, auch wenn sie das angegebene Startdatum überschritten hat, da Sie die Aufgabe erst starten können, wenn der Vorgänger abgeschlossen ist.
 
-Weitere Informationen zum Empfang automatischer Erinnerungs-E-Mails finden Sie [&#x200B; Abschnitt „Automatische &#x200B;](../../../workfront-basics/using-notifications/wf-notifications.md#automatic-reminders)&quot; in [Adobe Workfront-Benachrichtigungen](../../../workfront-basics/using-notifications/wf-notifications.md).
+Weitere Informationen zum Empfang automatischer Erinnerungs-E-Mails finden Sie [ Abschnitt „Automatische ](../../../workfront-basics/using-notifications/wf-notifications.md#automatic-reminders)&quot; in [Adobe Workfront-Benachrichtigungen](../../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Automatische Erinnerungen senden
 

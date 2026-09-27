@@ -2,28 +2,38 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: email-alerts-workfront-proof
-title: Konfigurieren Sie E-Mail-Benachrichtigungseinstellungen in [!DNL Workfront Proof]
+title: Konfigurieren der E-Mail-Benachrichtigungseinstellungen in [!DNL Workfront Proof]
 description: Von Workfront Proof generierte E-Mail-Benachrichtigungen informieren Mitwirkende über aktuelle Aktivitäten im Zusammenhang mit Korrekturabzügen, wie Kommentare, Antworten oder Entscheidungen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-TQID: https://experienceleague.adobe.com/BGkemxbMeYw-pkWCR1NRMbuVbLZzYoB-m91cOLAwqwc
+TQID: 'https://experienceleague.adobe.com/BGkemxbMeYw-pkWCR1NRMbuVbLZzYoB-m91cOLAwqwc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2072
+source-wordcount: '2072'
 ht-degree: 1%
-
 ---
-
 # Konfigurieren der E-Mail-Benachrichtigungseinstellungen in [!DNL Workfront Proof]
 
 <!--Audited: 01/2024-->
@@ -40,7 +50,7 @@ E-Mail-Benachrichtigungen für Validierungsverantwortliche können auf der Seite
 
 * Die Seite Neuer Korrekturabzug
 * Die [!UICONTROL Neue Version] Seite
-* Der [!UICONTROL Workflow] der Seite [!UICONTROL Details des &#x200B;]&quot;.
+* Der [!UICONTROL Workflow] der Seite [!UICONTROL Details des ]&quot;.
 
 Weitere Informationen finden Sie unter [Erstellen von Korrekturabzügen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
@@ -109,7 +119,7 @@ Sie können die Einstellungen für Korrekturabzüge konfigurieren, die Sie erste
       <td>Eine E-Mail wird nur dann an den Prüfer gesendet, wenn jemand explizit auf seinen Kommentar antwortet (dies schließt die eigenen Antworten auf seine eigenen Kommentare aus). Das bedeutet, dass, wenn jemand auf dem Korrekturabzug einen neuen Kommentar abgibt, der Prüfer nicht benachrichtigt wird.<p>Diese Einstellung wird für Ihre Kunden auf dem Korrekturabzug empfohlen, damit sie nicht über andere Kommentare zu dem Korrekturabzug benachrichtigt werden und nur über Antworten auf ihre eigenen Kommentare.</p><p>Reviewer mit dieser E-Mail-Warnhinweiseinstellung werden zwar nicht über andere neue Kommentare benachrichtigt, sie können jedoch alle Kommentare zum Korrekturabzug in der Proofing-Anzeige anzeigen.</p><p>Weitere Informationen zu Kommentaren finden Sie unter <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Kommentare zu Korrekturabzügen anzeigen und </a>.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL -Entscheidungen]</td> 
+      <td role="rowheader">[!UICONTROL-Entscheidungen]</td> 
       <td>[!DNL Workfront] Sendet nur dann eine E-Mail an den Validierungsverantwortlichen, wenn jemand eine Entscheidung trifft.<p>Dies kann für die Person nützlich sein, die den Genehmigungsprozess verwaltet (z. B. einen Projektmanager) und den Fortschritt beim Korrekturabzug überwachen muss, um zu sehen, welche Benutzer ihre Entscheidung getroffen haben.</p><p>Sie werden über Ihre eigene Entscheidung nur benachrichtigt, wenn Sie beim Senden Ihrer Entscheidung eine E-Mail-Bestätigungsoption auswählen.</p></td> 
      </tr> 
      <tr> 
@@ -165,7 +175,7 @@ Sie können E-Mail-Warnhinweise für einen bestimmten Empfänger in einer Batch-
 
 1. Öffnen Sie den **[!UICONTROL Freigegebene Elemente]** Abschnitt.
 1. Aktivieren Sie das Kontrollkästchen links neben jedem Element, für das Sie den E-Mail-Warnhinweis ändern möchten.
-1. Klicken Sie **[!UICONTROL Mehr]** über der Liste der freigegebenen Elemente auf und klicken Sie dann **Dropdown-Menü auf** E-Mail-Warnhinweis ändern.
+1. Klicken Sie **[!UICONTROL Mehr]** über der Liste der freigegebenen Elemente auf und klicken Sie dann ]**Dropdown-Menü auf**[!UICONTROL  E-Mail-Warnhinweis ändern.
 
 1. Ändern Sie den E-Mail-Warnhinweis und klicken Sie dann auf **[!UICONTROL Senden]**.
 
@@ -203,7 +213,7 @@ Als [!DNL Workfront Proof] können Sie Standardeinstellungen für Korrekturabzü
       <td>Eine E-Mail wird nur dann an den Prüfer gesendet, wenn jemand explizit auf seinen Kommentar antwortet (dies schließt die eigenen Antworten auf seine eigenen Kommentare aus). Das bedeutet, dass, wenn jemand auf dem Korrekturabzug einen neuen Kommentar abgibt, der Prüfer nicht benachrichtigt wird.<p>Diese Einstellung wird für Ihre Kunden auf dem Korrekturabzug empfohlen, damit sie nicht über andere Kommentare zu dem Korrekturabzug benachrichtigt werden und nur über Antworten auf ihre eigenen Kommentare.</p><p>Reviewer mit dieser E-Mail-Warnhinweiseinstellung werden zwar nicht über andere neue Kommentare benachrichtigt, sie können jedoch alle Kommentare zum Korrekturabzug in der Proofing-Anzeige anzeigen.</p><p>Weitere Informationen zu Kommentaren finden Sie unter <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md" class="MCXref xref">Kommentare zu Korrekturabzügen anzeigen und </a>.</p></td>
      </tr>
      <tr>
-      <td role="rowheader">[!UICONTROL -Entscheidungen]</td>
+      <td role="rowheader">[!UICONTROL-Entscheidungen]</td>
       <td>[!DNL Workfront] Sendet nur dann eine E-Mail an den Validierungsverantwortlichen, wenn jemand eine Entscheidung trifft.<p>Dies kann für die Person nützlich sein, die den Genehmigungsprozess verwaltet (z. B. einen Projektmanager) und den Fortschritt beim Korrekturabzug überwachen muss, um zu sehen, welche Benutzer ihre Entscheidung getroffen haben.</p><p>Sie werden über Ihre eigene Entscheidung nur benachrichtigt, wenn Sie beim Senden Ihrer Entscheidung eine E-Mail-Bestätigungsoption auswählen.</p></td>
      </tr>
      <tr>

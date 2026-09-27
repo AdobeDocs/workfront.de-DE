@@ -8,24 +8,30 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-TQID: https://experienceleague.adobe.com/T5iSq2SOJEQrlvLNiQ5l69OncRMYvEs4uf6QosY9vq8
+TQID: 'https://experienceleague.adobe.com/T5iSq2SOJEQrlvLNiQ5l69OncRMYvEs4uf6QosY9vq8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 835
+source-wordcount: '835'
 ht-degree: 5%
-
 ---
-
 # Löschen von Benutzenden
 
 <!--Remove me October 2026-->
@@ -48,7 +54,7 @@ Wenn ein(e) Benutzende(r) Ihre Organisation verlässt, können Sie diesen/diese 
 >
 >Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].
 >
->  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/de/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>  For instructions on deleting a user in the Adobe Admin Console, see the section "Permanently delete users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Administration differences between Adobe Workfront and Adobe Business Platform](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
@@ -96,17 +102,17 @@ Wenn Sie einen Benutzer deaktivieren, passiert Folgendes:
 * Objekte können nicht mehr für Benutzende freigegeben werden.
 * Ihre Zuordnung zu den folgenden Objekten bleibt intakt:
 
-   * Aufgaben, Probleme, Projekte, Portfolios
-   * Dashboards
+  * Aufgaben, Probleme, Projekte, Portfolios
+  * Dashboards
 
-     >[!NOTE]
-     >
-     >Wenn Sie einen Benutzer deaktivieren und die mit einem Benutzer verknüpften Berichte oder Dashboards nicht mehr anzeigen können, müssen Sie möglicherweise das Feld **Diesen Bericht ausführen mit den Zugriffsrechten von:** aktualisieren.\
-     >Weitere Informationen finden Sie unter [Warum kann ich nicht auf einen Bericht zugreifen, der einem deaktivierten Benutzer gehört?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) -Abschnitt des Artikels [Häufig gestellte Fragen zu &#x200B;](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) .
+    >[!NOTE]
+    >
+    >Wenn Sie einen Benutzer deaktivieren und die mit einem Benutzer verknüpften Berichte oder Dashboards nicht mehr anzeigen können, müssen Sie möglicherweise das Feld **Diesen Bericht ausführen mit den Zugriffsrechten von:** aktualisieren.\
+    >Weitere Informationen finden Sie unter [Warum kann ich nicht auf einen Bericht zugreifen, der einem deaktivierten Benutzer gehört?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) -Abschnitt des Artikels [Häufig gestellte Fragen zu ](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) .
 
-   * Dokumente
-   * Updates
-   * Stunden
+  * Dokumente
+  * Updates
+  * Stunden
 
 * Wenn der Benutzer Dokumente ausgecheckt hat, bleiben die Dokumente ausgecheckt, sobald Sie sie deaktivieren. Nur ein Workfront-Administrator kann sie wieder einchecken. Weitere Informationen zum Auschecken von Dokumenten finden Sie unter [Auschecken von Dokumenten](../../../documents/managing-documents/check-out-documents.md).
 
@@ -119,8 +125,8 @@ Beim Löschen eines Benutzers passiert Folgendes:
 * Objekte können nicht mehr für Benutzende freigegeben werden.
 * Löscht die Verknüpfung dieses Benutzers mit den folgenden Objekten:
 
-   * Aufgaben, Probleme, Projekte, Portfolio
-   * Dashboards
+  * Aufgaben, Probleme, Projekte, Portfolio
+  * Dashboards
 
   <!--
 
@@ -132,12 +138,12 @@ Beim Löschen eines Benutzers passiert Folgendes:
 
    -->
 
-   * Updates
-   * Stunden
+  * Updates
+  * Stunden
 
-     >[!NOTE]
-     >
-     >Diese Objekte verbleiben in Workfront, aber der Eigentümer des Objekts ist jetzt leer.
+    >[!NOTE]
+    >
+    >Diese Objekte verbleiben in Workfront, aber der Eigentümer des Objekts ist jetzt leer.
 
 * Wenn der Benutzer Dokumente unter dem Bereich Dokumente in der globalen Navigationsleiste hochgeladen hat, werden die Dokumente ebenfalls gelöscht.
 * Wenn der/die Benutzende Dokumente ausgecheckt hat, deren Inhaber er/sie ist, und die Dokumente im Hauptdokumentenbereich hochgeladen wurden (der Zugriff erfolgt über das Hauptmenü), werden die Dokumente mit dem/der Benutzenden gelöscht. Weitere Informationen zum Auschecken von Dokumenten finden Sie unter [Auschecken von Dokumenten](../../../documents/managing-documents/check-out-documents.md).

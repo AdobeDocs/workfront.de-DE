@@ -8,22 +8,29 @@ feature: Agile
 exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/EQ1z8JdgItM0LNWt0QYRnqygo6-2g-HAMOOqn4nOkE0
+TQID: 'https://experienceleague.adobe.com/EQ1z8JdgItM0LNWt0QYRnqygo6-2g-HAMOOqn4nOkE0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 647
+source-wordcount: '647'
 ht-degree: 6%
-
 ---
-
 # Anpassen der auf einer Karte angezeigten Felder
 
 Standardmäßig werden alle verfügbaren Felder auf einer Karte angezeigt, sowohl in der Vollansicht, wenn die Karte geöffnet ist, als auch in der reduzierten Kartenansicht auf der Pinnwand. Sie können wie folgt anpassen, welche Felder angezeigt werden:
@@ -78,7 +85,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    Die meisten Felder und Abschnitte sind standardmäßig aktiviert.
 
 1. Deaktivieren Sie ein Feld oder einen Abschnitt, um es bzw. ihn in beiden Kartenansichten zu deaktivieren.
-1. Klicken Sie auf das Symbol „Ausblenden![&#x200B; (Symbol „Ausblenden](assets/eye-hide-icon.png) neben einem Feld oder Abschnitt, um es bzw. ihn in der verkürzten Ansicht auszublenden.
+1. Klicken Sie auf das Symbol „Ausblenden![ (Symbol „Ausblenden](assets/eye-hide-icon.png) neben einem Feld oder Abschnitt, um es bzw. ihn in der verkürzten Ansicht auszublenden.
 1. Um alle Felder und Abschnitte in beiden Ansichten anzuzeigen, klicken Sie auf [!UICONTROL **Alle Felder auf Standard zurücksetzen**].
 1. Klicken Sie [!UICONTROL **Konfigurieren ausblenden**], um das Bedienfeld „Konfigurieren“ zu schließen.
 
@@ -90,7 +97,7 @@ Die Daten in benutzerdefinierten Feldern können auf der Karte bearbeitet werden
 
 1. Rufen Sie eine Pinnwand auf und klicken Sie auf [!UICONTROL **Konfigurieren**], um das Bedienfeld „Konfigurieren“ zu öffnen.
 1. Erweitern Sie [!UICONTROL **Karten**].
-1. Klicken [!UICONTROL &#x200B; unter &quot;]&quot; auf [!UICONTROL **Benutzerdefiniertes Feld hinzufügen**].
+1. Klicken [!UICONTROL  unter &quot;]&quot; auf [!UICONTROL **Benutzerdefiniertes Feld hinzufügen**].
 1. Wählen Sie [!UICONTROL **Aufgabe**] oder [!UICONTROL **Problem**] aus.
 
    Die Kategorien der verfügbaren Felder für Aufgaben oder Probleme werden angezeigt. Erweitern Sie eine Kategorie, um alle Felder anzuzeigen. Sie können auch nach einem Feld suchen.

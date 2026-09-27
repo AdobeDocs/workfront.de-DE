@@ -8,24 +8,30 @@ feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/dGMumnZ4319rslUE2lhGfPr35yVRb0xk6VyefZbzlzk
+TQID: 'https://experienceleague.adobe.com/dGMumnZ4319rslUE2lhGfPr35yVRb0xk6VyefZbzlzk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0adab8ca6f39e819f1e9e2ac510897d7a14d54a1
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1823
+source-wordcount: '1823'
 ht-degree: 4%
-
 ---
-
 # Erstellen eines benutzerdefinierten Berichts
 
 <!--Audited: 10/2024-->
@@ -80,7 +86,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
    Report Builder wird geladen.
 
-   Spezifische Informationen zu verfügbaren Objektberichten finden Sie im Abschnitt [Berichte zu Objekten](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) im Artikel &quot;[&#x200B; von Objekten in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+   Spezifische Informationen zu verfügbaren Objektberichten finden Sie im Abschnitt [Berichte zu Objekten](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) im Artikel &quot;[ von Objekten in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
    ![Neuen Bericht auswählen](assets/nwe-select-new-report-350x666.png)
 
@@ -126,7 +132,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 ### Spalten (Ansicht) zu einem Bericht hinzufügen {#add-columns-view-to-a-report}
 
-1. Beginnen Sie mit der Erstellung eines Berichts, wie [&#x200B; Abschnitt „Erstellen eines &#x200B;](#create-a-report)&quot; in diesem Artikel beschrieben.
+1. Beginnen Sie mit der Erstellung eines Berichts, wie [ Abschnitt „Erstellen eines ](#create-a-report)&quot; in diesem Artikel beschrieben.
 1. Wählen Sie in Report Builder die Registerkarte **Spalten (Ansicht)**, um die Spalten zu identifizieren, die im Bericht angezeigt werden sollen.
 1. (Optional) Klicken Sie **Vorhandene Ansicht anwenden** und klicken Sie im Dropdown-Menü auf den Namen einer Ansicht, um eine vorhandene Ansicht zu verwenden.
 
@@ -206,7 +212,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 ### Gruppierungen zu einem Bericht hinzufügen {#add-groupings-to-a-report}
 
-1. Beginnen Sie mit der Erstellung eines Berichts, wie [&#x200B; Abschnitt „Erstellen eines &#x200B;](#create-a-report)&quot; in diesem Artikel beschrieben.
+1. Beginnen Sie mit der Erstellung eines Berichts, wie [ Abschnitt „Erstellen eines ](#create-a-report)&quot; in diesem Artikel beschrieben.
 1. Wählen Sie in Report Builder die Registerkarte **Gruppierungen**, um festzulegen, wie Sie Elemente im Bericht gruppieren möchten.
 1. Klicken Sie **Gruppierung hinzufügen**, um eine neue Gruppierung hinzuzufügen.
 
@@ -240,7 +246,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 ### Hinzufügen von Filtern zu einem Bericht {#add-filters-to-a-report}
 
-1. Beginnen Sie mit der Erstellung eines Berichts, wie [&#x200B; Abschnitt „Erstellen eines &#x200B;](#create-a-report)&quot; in diesem Artikel beschrieben.
+1. Beginnen Sie mit der Erstellung eines Berichts, wie [ Abschnitt „Erstellen eines ](#create-a-report)&quot; in diesem Artikel beschrieben.
 1. Wählen Sie in Report Builder die Registerkarte **Filter**, um die Menge an Informationen anzugeben, die der Bericht enthalten soll.
 1. Klicken Sie **Filterregel hinzufügen**, um einen benutzerdefinierten Filter hinzuzufügen.\
    ODER\
@@ -263,7 +269,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 ### Hinzufügen eines Diagramms zu einem Bericht {#add-a-chart-to-a-report}
 
-1. Beginnen Sie mit der Erstellung eines Berichts, wie [&#x200B; Abschnitt „Erstellen eines &#x200B;](#create-a-report)&quot; in diesem Artikel beschrieben.
+1. Beginnen Sie mit der Erstellung eines Berichts, wie [ Abschnitt „Erstellen eines ](#create-a-report)&quot; in diesem Artikel beschrieben.
 1. Wählen Sie in Report Builder die Registerkarte **Diagramm** und wählen Sie dann den Diagrammtyp aus, den Sie hinzufügen möchten.
 
    ![Diagramm hinzufügen](assets/nwe-add-a-chart-350x247.png)

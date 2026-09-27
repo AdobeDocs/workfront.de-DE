@@ -8,25 +8,31 @@ feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/0V06HBLIE0zUGInshtWbZu2F8-R96YbNitv5viQzFhs
+TQID: 'https://experienceleague.adobe.com/0V06HBLIE0zUGInshtWbZu2F8-R96YbNitv5viQzFhs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: a91f865d-c69e-423f-aeff-28a3d6e8554d
+    internal-label: Data export
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1538
+source-wordcount: '1538'
 ht-degree: 1%
-
 ---
-
 # Überblick über den Berichtversand
 
 <!-- Audited: 11/2024 -->
@@ -75,20 +81,20 @@ Es gibt mehrere Größenbeschränkungen, die sich darauf auswirken, wie Berichte
 
   Diese Beschränkungen gelten für:
 
-   * Ein manueller Export eines Berichts.
-   * Ein terminierter Bericht.
-   * Ein Export über eine API-Integration.
-   * Daten werden durch einen Kickstart exportiert.
+  * Ein manueller Export eines Berichts.
+  * Ein terminierter Bericht.
+  * Ein Export über eine API-Integration.
+  * Daten werden durch einen Kickstart exportiert.
 
-     Weitere Informationen zum Exportieren von Daten über Kickstarts finden Sie im Artikel [Exportieren von Daten aus Adobe Workfront über Kickstarts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+    Weitere Informationen zum Exportieren von Daten über Kickstarts finden Sie im Artikel [Exportieren von Daten aus Adobe Workfront über Kickstarts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
-     >[!NOTE]
-     >
-     >Sie können 50.000 Zeilen in eine Kickstart-Datei exportieren, jedoch nur in eine Excel-Formatdatei.
+    >[!NOTE]
+    >
+    >Sie können 50.000 Zeilen in eine Kickstart-Datei exportieren, jedoch nur in eine Excel-Formatdatei.
 
-   * Exportieren von Nutzungsinformationen für ein Projekt.
+  * Exportieren von Nutzungsinformationen für ein Projekt.
 
-     Weitere Informationen zum Exportieren von Nutzungsinformationen für ein Projekt finden Sie unter [Übersicht über den Bericht zur Ressourcenauslastung](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+    Weitere Informationen zum Exportieren von Nutzungsinformationen für ein Projekt finden Sie unter [Übersicht über den Bericht zur Ressourcenauslastung](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
 * **65.530 Hyperlinks:** Dies ist eine von Excel auferlegte Grenze für Dokumente, die mehr als 65.530 Hyperlinks enthalten. Diese Dokumente können nicht geöffnet werden, wenn sie manuell exportiert oder in einem zugestellten Bericht gesendet werden. Beachten Sie, dass ein Excel-Dokument möglicherweise nur 200 Datenzeilen enthält. Wenn das Dokument jedoch mehr als 65.530 Links enthält, wird es nicht geöffnet. Diese Beschränkung besteht nur für Excel-Dateien, nicht für die anderen unterstützten Formate.
 * **256 Spalten**: Dies ist eine Beschränkung, die Excel für Dokumente vorschreibt, die mehr als 256 Spalten enthalten. Diese Dokumente können nicht manuell exportiert oder in einem bereitgestellten Bericht gesendet werden. Diese Beschränkung besteht nur für Excel-Dateien, nicht für die anderen unterstützten Formate.

@@ -4,37 +4,45 @@ content-type: reference
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Aktive und deaktivierte Objekte
-description: Als  [!DNL Adobe Workfront]  können Sie Objekte innerhalb des Systems aktivieren oder deaktivieren. Es wird empfohlen, Objekte, die Sie deaktivieren können, niemals zu löschen. Sie sollten das Objekt einfach deaktivieren, um eine zukünftige Verwendung zu verhindern und es aus den Dropdown-Menüs anderer Objekte zu entfernen.
+description: Als [!DNL Adobe Workfront] können Sie Objekte innerhalb des Systems aktivieren oder deaktivieren. Es wird empfohlen, Objekte, die Sie deaktivieren können, niemals zu löschen. Sie sollten das Objekt einfach deaktivieren, um eine zukünftige Verwendung zu verhindern und es aus den Dropdown-Menüs anderer Objekte zu entfernen.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-TQID: https://experienceleague.adobe.com/JRpv3D6jvXaCCi3GZJ--rGphpZ13AjMIDSP1jJL4UUs
+TQID: 'https://experienceleague.adobe.com/JRpv3D6jvXaCCi3GZJ--rGphpZ13AjMIDSP1jJL4UUs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 759
+source-wordcount: '760'
 ht-degree: 3%
-
 ---
-
 # Aktive und deaktivierte Objekte
 
 Als [!DNL Adobe Workfront] können Sie Objekte innerhalb des Systems aktivieren oder deaktivieren. Es wird empfohlen, Objekte, die Sie deaktivieren können, niemals zu löschen. Sie sollten das Objekt einfach deaktivieren, um eine zukünftige Verwendung zu verhindern und es aus den Dropdown-Menüs anderer Objekte zu entfernen.
 
-Um beispielsweise einen bestimmten „Stundentyp[!UICONTROL &#x200B; anzuzeigen, &#x200B;] der [!UICONTROL Stundentyp] aktiv sein. Ein inaktiver oder deaktivierter [!UICONTROL Stundentyp] wird nicht im Dropdown-Menü [!UICONTROL Stundentyp] angezeigt, verbleibt jedoch im System, um die historischen Aufzeichnungen darüber zu erhalten, wo dieser [!UICONTROL Stundentyp] in der Vergangenheit verwendet wurde.
+Um beispielsweise einen bestimmten „Stundentyp[!UICONTROL  anzuzeigen, ] der [!UICONTROL Stundentyp] aktiv sein. Ein inaktiver oder deaktivierter [!UICONTROL Stundentyp] wird nicht im Dropdown-Menü [!UICONTROL Stundentyp] angezeigt, verbleibt jedoch im System, um die historischen Aufzeichnungen darüber zu erhalten, wo dieser [!UICONTROL Stundentyp] in der Vergangenheit verwendet wurde.
 
 Der Begriff „Aktiv“ wird verwendet, um zu identifizieren, ob bestimmte Objekte im System aktiviert sind. In diesem Zusammenhang wird „Aktiv“ für die folgenden Objekte verwendet:
 
@@ -118,7 +126,7 @@ Informationen zur Deaktivierung von Benutzern finden Sie unter [Deaktivieren ode
 >
 >Nachdem Ihr Unternehmen in die [!DNL Adobe Business Platform] integriert wurde, müssen Sie Benutzer über die [!UICONTROL Adobe Admin Console deaktivieren].
 >
->Anweisungen zur Deaktivierung von Benutzenden in der [!UICONTROL Adobe Admin Console] finden Sie im Abschnitt „Entfernen von Benutzenden“ im Artikel &quot;[&#x200B; einzeln verwalten](https://helpx.adobe.com/de/enterprise/using/manage-users-individually.html) oder wenden Sie sich an Ihren [!UICONTROL Adobe Admin Console] Administrator.
+>Anweisungen zur Deaktivierung von Benutzenden in der [!UICONTROL Adobe Admin Console] finden Sie im Abschnitt „Entfernen von Benutzenden“ im Artikel &quot;[ einzeln verwalten](https://helpx.adobe.com/de/enterprise/using/manage-users-individually.html) oder wenden Sie sich an Ihren [!UICONTROL Adobe Admin Console] Administrator.
 >
 >Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen in die [!DNL Adobe Business Platform] integriert wurde, unterscheiden, finden Sie unter [Administrationsunterschiede zwischen Adobe Workfront und Adobe Business Platform](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 

@@ -3,22 +3,30 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
 title: Freigeben von Links für Korrekturabzüge in Workfront Proof
-description: Sie können die Korrekturabzugs-URL und die Download-URL für einen Korrekturabzug per E-Mail an jeden senden, unabhängig davon, ob er über ein - [!DNL Workfront Proof]  verfügt oder nicht. Informationen zur Korrekturabzugs-URL und zur Download-URL finden Sie unter Freigeben der öffentlichen URL in Workfront Proof und Herunterladen von in Workfront Proof gespeicherten Dateien .
+description: Sie können die Korrekturabzugs-URL und die Download-URL für einen Korrekturabzug per E-Mail an jeden senden, unabhängig davon, ob er über ein [!DNL Workfront Proof]-Konto verfügt oder nicht. Informationen zur Korrekturabzugs-URL und zur Download-URL finden Sie unter Freigeben der öffentlichen URL in Workfront Proof und Herunterladen von in Workfront Proof gespeicherten Dateien .
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: aa3fd399-6381-4118-a64a-a331784b4854
-TQID: https://experienceleague.adobe.com/Atbe7oIceQ6Rk0WKQjeFd1lgSWwR4gfPs18K1Q0qIzA
+TQID: 'https://experienceleague.adobe.com/Atbe7oIceQ6Rk0WKQjeFd1lgSWwR4gfPs18K1Q0qIzA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 462
+source-wordcount: '463'
 ht-degree: 1%
-
 ---
-
 # Korrekturabzugs-Links in [!DNL Workfront Proof] freigeben
 
 >[!IMPORTANT]
@@ -31,7 +39,7 @@ Personen, die nicht zum Korrekturabzug hinzugefügt wurden und ihn über die Kor
 
 Die Option zum Anmelden ist jedoch verfügbar. Wenn also ein Empfänger bereits zum Korrekturabzug hinzugefügt wurde, kann er einfach seine Details eingeben und dann Kommentare/Entscheidungen treffen (je nach vorhandener Rolle).
 
-Wenn die Abonnementeinstellung für den Korrekturabzug aktiviert ist, kann jeder Empfänger, der nicht hinzugefügt wurde, den Korrekturabzug abonnieren (hinzufügen). Weitere Informationen [&#x200B; Sie unter „Abonnieren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) Korrekturabzugs“.
+Wenn die Abonnementeinstellung für den Korrekturabzug aktiviert ist, kann jeder Empfänger, der nicht hinzugefügt wurde, den Korrekturabzug abonnieren (hinzufügen). Weitere Informationen [ Sie unter „Abonnieren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) Korrekturabzugs“.
 
 >[!NOTE]
 >

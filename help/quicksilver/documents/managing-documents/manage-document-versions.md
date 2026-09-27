@@ -6,23 +6,31 @@ description: Sie können mehrere Versionen eines Dokuments in Workfront verwalte
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 477153e4-847b-46ec-8107-72a7399c3767
-TQID: https://experienceleague.adobe.com/rCnj3Gx1SB3-UziuppQfifv2hJ6q3OjepNO9FcEEHEk
+TQID: 'https://experienceleague.adobe.com/rCnj3Gx1SB3-UziuppQfifv2hJ6q3OjepNO9FcEEHEk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c83b252faf7791c51475c5b82ca03cb4ee29bfc0
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1077
+source-wordcount: '1077'
 ht-degree: 4%
-
 ---
-
 # Verwalten von Dokumentversionen
 
 <!-- Audited: 5/2025 -->
@@ -80,7 +88,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 1. Wählen Sie auf **Seite** Dokumente“ ein Dokument in der Liste aus.
 
-1. Klicken Sie oben rechts auf der Seite auf das Symbol **Zusammenfassung öffnen** (![&#x200B; Zusammenfassung öffnen](assets/qs-summary-in-new-toolbar-small.png). Das Seitenbedienfeld **Dokumentzusammenfassung** wird geöffnet.
+1. Klicken Sie oben rechts auf der Seite auf das Symbol **Zusammenfassung öffnen** (![ Zusammenfassung öffnen](assets/qs-summary-in-new-toolbar-small.png). Das Seitenbedienfeld **Dokumentzusammenfassung** wird geöffnet.
 
 1. Scrollen Sie nach unten zum Abschnitt **Versionen**, um alle Dokumentversionen anzuzeigen.
 
@@ -102,7 +110,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 1. Wählen Sie auf **Seite** Dokumente“ ein Dokument in der Liste aus.
 
-1. Klicken Sie oben rechts auf der Seite auf das Symbol **Zusammenfassung öffnen** (![&#x200B; Zusammenfassung öffnen](assets/qs-summary-in-new-toolbar-small.png). Das Seitenbedienfeld **Dokumentzusammenfassung** wird geöffnet.
+1. Klicken Sie oben rechts auf der Seite auf das Symbol **Zusammenfassung öffnen** (![ Zusammenfassung öffnen](assets/qs-summary-in-new-toolbar-small.png). Das Seitenbedienfeld **Dokumentzusammenfassung** wird geöffnet.
 
 1. Klicken Sie **Abschnitt** Versionen“ auf das Menü **Mehr** ![Mehr](assets/more-icon.png) rechts von der Version und klicken Sie dann in der angezeigten Dropdown-Liste auf **Herunterladen**.
 
@@ -114,7 +122,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 1. Wählen Sie auf **Seite** Dokumente“ ein Dokument in der Liste aus.
 
-1. Klicken Sie oben rechts auf der Seite auf das Symbol **Zusammenfassung öffnen** (![&#x200B; Zusammenfassung öffnen](assets/qs-summary-in-new-toolbar-small.png). Das Seitenbedienfeld **Dokumentzusammenfassung** wird geöffnet.
+1. Klicken Sie oben rechts auf der Seite auf das Symbol **Zusammenfassung öffnen** (![ Zusammenfassung öffnen](assets/qs-summary-in-new-toolbar-small.png). Das Seitenbedienfeld **Dokumentzusammenfassung** wird geöffnet.
 
 1. Scrollen Sie nach unten zum Abschnitt **Versionen** und klicken Sie dann auf **Alle herunterladen**.
 
@@ -142,7 +150,7 @@ Löschen einer Dokumentversion:
 
 1. Wählen Sie auf **Seite** Dokumente“ das Dokument aus der Liste aus.
 
-1. Klicken Sie oben rechts auf der Seite auf das Symbol **Zusammenfassung öffnen** (![&#x200B; Zusammenfassung öffnen](assets/qs-summary-in-new-toolbar-small.png). Das Seitenbedienfeld **Dokumentzusammenfassung** wird geöffnet.
+1. Klicken Sie oben rechts auf der Seite auf das Symbol **Zusammenfassung öffnen** (![ Zusammenfassung öffnen](assets/qs-summary-in-new-toolbar-small.png). Das Seitenbedienfeld **Dokumentzusammenfassung** wird geöffnet.
 
 1. Scrollen Sie nach unten zum Abschnitt **Versionen**, um alle Dokumentversionen anzuzeigen.
 1. Klicken Sie **Abschnitt** Versionen“ auf das Menü **Mehr** ![Mehr](assets/more-icon.png) rechts von der Version und klicken Sie dann in der angezeigten Dropdown-Liste auf **Löschen**.

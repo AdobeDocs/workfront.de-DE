@@ -1,32 +1,42 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: 'Erstellen  [!DNL Anaplan]  Listenelements aus einer  [!DNL Adobe Workfront] '
-description: Dieses Integrationsszenario verknüpft ein Projekt [!DNL Adobe Workfront] Projekt (Kampagne) mit einem  [!DNL Anaplan] -Budgetlistenelement. Dies wird erreicht, indem eine Budgetanforderung zu dem Projekt hinzugefügt  [!DNL Workfront] , das Finanzmittel erhalten muss. Dieses Szenario überwacht nicht verarbeitete Budgetanfragen und führt dann einen Prozess aus, um ein leeres Budgetlistenelement in zu erstellen [!DNL Anaplan]  um Budgetzuordnungsprozesse in Anaplan zu starten.
+title: Erstellen eines [!DNL Anaplan] Listenelements aus einer [!DNL Adobe Workfront] Budgetanforderung
+description: Dieses Integrationsszenario verknüpft ein [!DNL Adobe Workfront] Projekt (Kampagne) mit einem [!DNL Anaplan] Budgetlistenelement. Dies wird erreicht, indem dem [!DNL Workfront]-Projekt, das Finanzmittel erhalten muss, eine Budgetanforderung hinzugefügt wird. Dieses Szenario überwacht nicht verarbeitete Budgetanfragen und führt dann einen Prozess aus, um ein leeres Budgetlistenelement zu erstellen, [!DNL Anaplan] Budgetzuordnungsprozesse in Anaplan zu starten.
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
-TQID: https://experienceleague.adobe.com/ozWZURR-8-rtFqj7UkEDJW1fVeKAmSV1tBnQMzGL0Xs
+TQID: 'https://experienceleague.adobe.com/ozWZURR-8-rtFqj7UkEDJW1fVeKAmSV1tBnQMzGL0Xs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 862
+source-wordcount: '868'
 ht-degree: 15%
-
 ---
-
 # Erstellen eines [!DNL Anaplan] Listenelements aus einer [!DNL Adobe Workfront] Budgetanforderung
 
 Dieses Integrationsszenario verknüpft ein [!DNL Adobe Workfront] Projekt (Kampagne) mit einem [!DNL Anaplan] Budgetlistenelement. Dies wird erreicht, indem dem [!DNL Workfront]-Projekt, das Finanzmittel erhalten muss, eine Budgetanforderung hinzugefügt wird. In diesem Szenario werden nicht verarbeitete Budgetanfragen überwacht und dann ein Prozess ausgeführt, um einen leeren Budgetlisteneintrag zu erstellen, [!DNL Anaplan] Budgetzuordnungsprozesse in [!DNL Anaplan] zu starten.
@@ -69,7 +79,7 @@ Dieses Integrationsszenario verknüpft ein [!DNL Adobe Workfront] Projekt (Kampa
 
 Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Informationen zu Adobe Workfront Fusion-Lizenzen finden Sie unter [Adobe Workfront Fusion-Lizenzen](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+Informationen zu Adobe Workfront Fusion-Lizenzen finden Sie unter [Adobe Workfront Fusion-Lizenzen](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 +++
 
@@ -174,12 +184,12 @@ Sie müssen über Folgendes verfügen, [!DNL Anaplan] dieses Szenario verwenden 
 
   Das -Modul der Liste muss den Empfang der folgenden Attribute unterstützen:
 
-   * [!UICONTROL Workfront-Projekt-GUID]
-   * [!UICONTROL Kampagnenname]
-   * [!UICONTROL Beantragte Arbeitsmittel]
-   * [!UICONTROL Angeforderte Ausgabenmittel]
-   * [!UICONTROL Budgetanfragetyp]
-   * [!UICONTROL Grund für die Finanzierungsanpassung]
+  * [!UICONTROL Workfront-Projekt-GUID]
+  * [!UICONTROL Kampagnenname]
+  * [!UICONTROL Beantragte Arbeitsmittel]
+  * [!UICONTROL Angeforderte Ausgabenmittel]
+  * [!UICONTROL Budgetanfragetyp]
+  * [!UICONTROL Grund für die Finanzierungsanpassung]
 
   Diese Liste und dieses Modul müssen zusätzliche Details speichern, die für die normale Funktionalität von [!DNL Anaplan] erforderlich sind, einschließlich der Möglichkeit, ein Budget festzulegen und mitzuteilen, dass das Budgetlistenelement bereit ist, wieder mit [!DNL Workfront] synchronisiert zu werden.
 
@@ -215,7 +225,7 @@ Führen Sie die folgenden Schritte aus, um dieses Integrationsszenario in Ihrem 
 
 Um den durch diese Vorlage dargestellten Workflow abzuschließen, müssen Sie auch die folgende zusätzliche Vorlage bereitstellen:
 
-* [[!UICONTROL Budgetzuweisung  [!DNL Anaplan]  ein Projekt  [!DNL Adobe Workfront] &#x200B;]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
+* [[!UICONTROL Budgetzuweisung  [!DNL Anaplan]  ein Projekt  [!DNL Adobe Workfront] ]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
 Weitere Szenarien für die Ausgabenoptimierung sind:
 

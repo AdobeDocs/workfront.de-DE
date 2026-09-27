@@ -6,13 +6,20 @@ description: Je nachdem, ob Ihr Workfront-Administrator für Ihre standardmäßi
 author: Alina
 feature: Work Management
 exl-id: 5623157e-946e-4475-9df3-b1888a2a0934
-source-git-commit: f70d54de9cf9269ef3edaac6204a4bd41770fecc
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '2203'
 ht-degree: 0%
-
 ---
-
 # Übersicht über das Dokumentenmanagement für Projekte und zugehörige Objekte
 
 Ihr Adobe Workfront-Administrator kann den Standard für die Speichervoreinstellungen Ihres Unternehmens definieren, um anzugeben, wo Dokumente in Workfront gespeichert werden sollen.
@@ -152,7 +159,7 @@ This is not possible anymore:
 * Sie können kein Adobe-Cloud-Speicherprojekt zu einem alten Speicherportfolio oder ein älteres Speicherprojekt zu einem Adobe-Speicherportfolio hinzufügen.
 * Ihr Administrator kann im Bereich „Systemeinstellungen“ von „Setup“ ein Legacy-Speicherportfolio in Adobe Cloud-Speicher konvertieren. Alle untergeordneten Objekte (Programme, Projekte und Dokumente) verbleiben im alten Speicher. Für neue Projekte wird der Adobe-Cloud-Speicher verwendet. Neue Dokumente, die zum Portfolio hinzugefügt werden, werden weiterhin im alten Speicher gespeichert.
 Weitere Informationen finden Sie [Konfigurieren von Systemvoreinstellungen](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
-* &#x200B;<!-- this point also repeats for programs below-->Wenn ein Portfolio von einem alten in einen Adobe-Cloud-Speicher konvertiert wird und das Programm über Legacy-Speicher verfügt, verwendet ein Projekt im Programm auch Legacy-Speicher.
+* <!-- this point also repeats for programs below-->Wenn ein Portfolio von einem alten in einen Adobe-Cloud-Speicher konvertiert wird und das Programm über Legacy-Speicher verfügt, verwendet ein Projekt im Programm auch Legacy-Speicher.
 
   Sie können diesem Portfolio keine vorhandenen Legacy-Speicherprojekte mehr hinzufügen.
 
@@ -171,7 +178,7 @@ Beachten Sie beim Arbeiten mit Programmen Folgendes:
 * Sie können kein Adobe-Cloud-Speicherprogramm zu einem alten Speicherportfolio hinzufügen oder ein älteres Programm zu einem Adobe-Cloud-Speicherportfolio hinzufügen.
 * Sie können kein Projekt aus einer Adobe-Cloud-Speichervorlage in einem Legacy-Speicherprogramm erstellen.
 * Sie können ein Projekt aus einer Legacy-Speichervorlage in einem Adobe Cloud-Speicherprogramm erstellen, die Dokumente und Ordner in der Vorlage werden jedoch nicht zum neuen Projekt hinzugefügt. Das Projekt erhält Adobe Cloud-Speicher.
-* &#x200B;<!-- this point also repeats for portfolios above-->Wenn ein Portfolio von einem alten in einen Adobe-Cloud-Speicher konvertiert wird und das Programm über Legacy-Speicher verfügt, verwendet ein Projekt im Programm auch Legacy-Speicher.
+* <!-- this point also repeats for portfolios above-->Wenn ein Portfolio von einem alten in einen Adobe-Cloud-Speicher konvertiert wird und das Programm über Legacy-Speicher verfügt, verwendet ein Projekt im Programm auch Legacy-Speicher.
 
   Sie können diesem Portfolio keine vorhandenen Legacy-Speicherprojekte mehr hinzufügen.
 

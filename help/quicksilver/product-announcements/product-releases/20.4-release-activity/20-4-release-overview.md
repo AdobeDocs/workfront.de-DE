@@ -7,32 +7,45 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
-TQID: https://experienceleague.adobe.com/da7NZ9tWFrk32NgR4lTjS0LAVpzf1qGoJza4AEnaOSk
+TQID: 'https://experienceleague.adobe.com/da7NZ9tWFrk32NgR4lTjS0LAVpzf1qGoJza4AEnaOSk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+    internal-label: Mobile experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3852
+source-wordcount: '3853'
 ht-degree: 1%
-
 ---
-
 # Überblick über Version 20.4
 
 Die Version 20.4 wurde in der Woche vom 9. November 2020 in der Produktionsumgebung bereitgestellt.
@@ -58,7 +71,7 @@ Auf dieser Seite finden Sie Informationen zur Funktionalität von Adobe Workfron
 * [Verbesserungen für Administratoren](#administrator-enhancements)
 * [Verbesserungen beim Ressourcen-Management](#resource-management-enhancements)
 * [Verbesserungen beim Projektmanagement](#project-management-enhancements)
-* [Erweiterte &#x200B;](#enhanced-analytics)
+* [Erweiterte ](#enhanced-analytics)
 * [Verbesserungen beim Proofing](#proofing-enhancements)
 * [Verbesserungen bei Mobile und Integration](#mobile-and-integration-enhancements)
 * [Weitere Verbesserungen](#other-enhancements)
@@ -329,7 +342,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-Informationen zu neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in der API-Version 12](https://experienceleague.adobe.com/de/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12).
+Informationen zu neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in der API-Version 12](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12).
 
 Weitere Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Zeitplan](../../../wf-api/api/api-version-support-schedule.md)
 
@@ -361,7 +374,7 @@ Alle Flash-basierten Tools werden am 19. November 2020 aus allen Produkten entfe
 
 ### Webinar zur Version 20.4 {#20-4-release-webinar}
 
-Das Webinar zur Version Workfront 20.4 wird am Mittwoch, 28. Oktober 2020 um 11 :00 Uhr EDT vorgestellt. Registrieren Sie sich für das Webinar [hier](https://webinars.on24.com/workfront/204release?partnerref=CXnewsletter).
+Das Webinar zur Version Workfront 20.4 wird am Mittwoch, 28. Oktober 2020 um 11:00 Uhr EDT vorgestellt. Registrieren Sie sich für das Webinar [hier](https://webinars.on24.com/workfront/204release?partnerref=CXnewsletter).
 
 ### Änderung des Veröffentlichungsintervalls für die Vorschau {#change-in-preview-release-cadence}
 
@@ -382,4 +395,4 @@ Weitere Informationen finden Sie [Zulassungsliste zum Konfigurieren der Firewall
 
 Mit Workfront One entdecken Sie die wichtigsten Inhalte, Ressourcen und Neuigkeiten aus Workfront - alles an einem Ort, mit einer Anmeldung. Wir haben die Sites für Erlebnis, Community und Schulung zusammengeführt, damit Sie leichter finden können, wonach Sie suchen.
 
-[Weitere Informationen zu Workfront One](https://business.adobe.com/de/products/workfront.html).
+[Weitere Informationen zu Workfront One](https://business.adobe.com/products/workfront.html).

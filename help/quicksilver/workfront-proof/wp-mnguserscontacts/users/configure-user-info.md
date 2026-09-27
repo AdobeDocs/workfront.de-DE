@@ -7,22 +7,31 @@ description: Konfigurieren von Benutzerinformationen mithilfe von [!DNL Workfron
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ae8d3a96-ebf1-48ee-a7b7-50d69bffbd36
-TQID: https://experienceleague.adobe.com/1K7jdfa8Eccib8MbsUrrPwfL8MrhCkhA1y2ojYjVNV8
+TQID: 'https://experienceleague.adobe.com/1K7jdfa8Eccib8MbsUrrPwfL8MrhCkhA1y2ojYjVNV8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 533
+source-wordcount: '565'
 ht-degree: 1%
-
 ---
-
 # Konfigurieren von Benutzerinformationen mithilfe von [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -34,56 +43,56 @@ ht-degree: 1%
 
    * Im Abschnitt **[!UICONTROL Persönliche]**):
 
-      * **E-Mail-Adresse** Die E-Mail-Adresse des Benutzers.
-      * **Vorname:** Vorname der Benutzerin oder des Benutzers.
-      * **Nachname:** Der Nachname des Benutzers.
-      * **Position:** Die Position des Benutzers im Unternehmen.
-      * **Berechtigungsprofil** Die Berechtigungen des Benutzers für das Korrekturabzugskonto.
-      * **Language:** Die primäre Sprache des Benutzers.
-      * **Zeitzone:** Sie die Zeitzone des Benutzers aus.
-      * **Datumsformat** Wählen Sie das bevorzugte Datumsformat des Benutzers aus.
-      * **Opt-in - Produkt- und Marketing-E-Mails:** Wählen Sie aus, ob der Benutzer sich für Produkt- und Marketing-E-Mails anmelden soll.
-      * **Nur API:** Erlaubt dem Benutzer, sich nur über die API anzumelden.
+     * **E-Mail-Adresse** Die E-Mail-Adresse des Benutzers.
+     * **Vorname:** Vorname der Benutzerin oder des Benutzers.
+     * **Nachname:** Der Nachname des Benutzers.
+     * **Position:** Die Position des Benutzers im Unternehmen.
+     * **Berechtigungsprofil** Die Berechtigungen des Benutzers für das Korrekturabzugskonto.
+     * **Language:** Die primäre Sprache des Benutzers.
+     * **Zeitzone:** Sie die Zeitzone des Benutzers aus.
+     * **Datumsformat** Wählen Sie das bevorzugte Datumsformat des Benutzers aus.
+     * **Opt-in - Produkt- und Marketing-E-Mails:** Wählen Sie aus, ob der Benutzer sich für Produkt- und Marketing-E-Mails anmelden soll.
+     * **Nur API:** Erlaubt dem Benutzer, sich nur über die API anzumelden.
 
    * Geben Sie **[!UICONTROL Abschnitt &quot;]**&quot; die Kontaktinformationen des Benutzers ein, z. B. Straße und Telefonnummer.
    * Konfigurieren Sie im Abschnitt **[!UICONTROL Standardeinstellungen für]** die Einstellungen, die sich auf die Art und Weise auswirken, wie Benutzende Korrekturabzüge erstellen oder bearbeiten.
 
-      * **Standard-Korrekturabzugsrolle** Wählen Sie eine Standard-Korrekturabzugsrolle für den Benutzer aus. Die Rollenoptionen sind **[!UICONTROL Schreibgeschützt]**, **[!UICONTROL Prüfende]**, **[!UICONTROL Genehmigende]**, **[!UICONTROL Prüfende und genehmigende Person]**, **[!UICONTROL Autor]** oder **[!UICONTROL Moderator]**.
+     * **Standard-Korrekturabzugsrolle** Wählen Sie eine Standard-Korrekturabzugsrolle für den Benutzer aus. Die Rollenoptionen sind **[!UICONTROL Schreibgeschützt]**, **[!UICONTROL Prüfende]**, **[!UICONTROL Genehmigende]**, **[!UICONTROL Prüfende und genehmigende Person]**, **[!UICONTROL Autor]** oder **[!UICONTROL Moderator]**.
 
-        Weitere Informationen zu Korrekturabzug-Rollen finden Sie unter [Verwalten von Korrekturabzug-Rollen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+       Weitere Informationen zu Korrekturabzug-Rollen finden Sie unter [Verwalten von Korrekturabzug-Rollen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-      * **Korrekturabzug sperren, wenn alle Entscheidungen getroffen werden:** Sperrt den Korrekturabzug automatisch für weitere Änderungen, nachdem alle Entscheidungen über den Korrekturabzug getroffen wurden.
-      * **Anmeldung erforderlich. Der Korrekturabzug kann nur für andere Benutzer freigegeben werden** Stellt den Korrekturabzug nur Benutzenden mit [!DNL Workfront Proof] Anmeldedaten zur Verfügung.
-      * **Nur eine Entscheidung erforderlich:** Erfordert nur eine Entscheidung zu einem Korrekturabzug.
-      * **Originaldatei herunterladen:** Ermöglicht dem Benutzer, die Originaldatei für einen Korrekturabzug herunterzuladen. Standardmäßig ist diese Option aktiviert.
+     * **Korrekturabzug sperren, wenn alle Entscheidungen getroffen werden:** Sperrt den Korrekturabzug automatisch für weitere Änderungen, nachdem alle Entscheidungen über den Korrekturabzug getroffen wurden.
+     * **Anmeldung erforderlich. Der Korrekturabzug kann nur für andere Benutzer freigegeben werden** Stellt den Korrekturabzug nur Benutzenden mit [!DNL Workfront Proof] Anmeldedaten zur Verfügung.
+     * **Nur eine Entscheidung erforderlich:** Erfordert nur eine Entscheidung zu einem Korrekturabzug.
+     * **Originaldatei herunterladen:** Ermöglicht dem Benutzer, die Originaldatei für einen Korrekturabzug herunterzuladen. Standardmäßig ist diese Option aktiviert.
 
-        Weitere Informationen zum Herunterladen von Originaldateien finden Sie unter [Herunterladen von in gespeicherten Dateien [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md).
+       Weitere Informationen zum Herunterladen von Originaldateien finden Sie unter [Herunterladen von in gespeicherten Dateien [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md).
 
-        <!--      
+       <!--      
         <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Public sharing. The proof can be shared via a public URL or embedded code:</strong>Enables the user to share proofs via a public URL or embed code.<br>This option is enabled by default but is not available if the&nbsp;<strong>Login required</strong>option is selected.<br>For more information on sharing proofs, see "<a href="../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md" class="MCXref xref" xrefformat="{para}">Share the Public URL in Workfront Proof</a>."</li>      
         -->
 
-      * **Abonnement Personen können sich über die öffentliche URL oder den Einbettungs-Code für den Korrekturabzug anmelden:** Ermöglicht externen Prüfern, sich über die öffentliche URL oder den Einbettungs-Code für den Korrekturabzug zu registrieren.
+     * **Abonnement Personen können sich über die öffentliche URL oder den Einbettungs-Code für den Korrekturabzug anmelden:** Ermöglicht externen Prüfern, sich über die öffentliche URL oder den Einbettungs-Code für den Korrekturabzug zu registrieren.
 
-        Wenn diese Option ausgewählt ist **ist auch „Abonnent muss auf einen Link in einer E-Mail klicken, um auf einen Korrekturabzug zuzugreifen** verfügbar. Wählen Sie diese Option aus, damit der externe Prüfer auf einen Link in der E-Mail klicken muss, um auf den Korrekturabzug zuzugreifen.
-Diese Option ist standardmäßig aktiviert, wenn die Option **Öffentliche Freigabe** ausgewählt ist.
+       Wenn diese Option ausgewählt ist **ist auch „Abonnent muss auf einen Link in einer E-Mail klicken, um auf einen Korrekturabzug zuzugreifen** verfügbar. Wählen Sie diese Option aus, damit der externe Prüfer auf einen Link in der E-Mail klicken muss, um auf den Korrekturabzug zuzugreifen.
+       Diese Option ist standardmäßig aktiviert, wenn die Option **Öffentliche Freigabe** ausgewählt ist.
 
-      * **Standardrolle für neue Gast-Reviewer:** Wählen Sie eine Standardrolle für Korrekturabzüge für Gast-Reviewer aus. Die Optionen sind mit denen in der **Standardrolle für Korrekturabzüge** identisch, mit Ausnahme von Moderator und Autor.
+     * **Standardrolle für neue Gast-Reviewer:** Wählen Sie eine Standardrolle für Korrekturabzüge für Gast-Reviewer aus. Die Optionen sind mit denen in der **Standardrolle für Korrekturabzüge** identisch, mit Ausnahme von Moderator und Autor.
 
    * Im Abschnitt **[!UICONTROL Standardeinstellungen für E-Mail]**:
 
-      * **Standard-E-Mail-Warnhinweis** Wählen Sie aus, wie oft Benutzende E-Mail-Updates erhalten sollen. Wählen Sie **Alle Aktivitäten, Antworten auf meine Kommentare, Entscheidungen, Endgültige Entscheidung, Stündliche Zusammenfassung, Tägliche Zusammenfassung** oder **Deaktiviert** aus.
+     * **Standard-E-Mail-Warnhinweis** Wählen Sie aus, wie oft Benutzende E-Mail-Updates erhalten sollen. Wählen Sie **Alle Aktivitäten, Antworten auf meine Kommentare, Entscheidungen, Endgültige Entscheidung, Stündliche Zusammenfassung, Tägliche Zusammenfassung** oder **Deaktiviert** aus.
 
-        Weitere Informationen zu den Standardoptionen für E-Mail-Warnhinweise finden Sie unter [Konfigurieren von E-Mail-Benachrichtigungseinstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)
+       Weitere Informationen zu den Standardoptionen für E-Mail-Warnhinweise finden Sie unter [Konfigurieren von E-Mail-Benachrichtigungseinstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)
 
-      * **Standard-E-Mail-Warnhinweis für neue Gast-Reviewer:** Wählen Sie aus, wie oft Gast-Reviewer E-Mail-Aktualisierungen erhalten sollen. Die Optionen sind die gleichen wie bei **E-Mail-Warnhinweis.**
+     * **Standard-E-Mail-Warnhinweis für neue Gast-Reviewer:** Wählen Sie aus, wie oft Gast-Reviewer E-Mail-Aktualisierungen erhalten sollen. Die Optionen sind die gleichen wie bei **E-Mail-Warnhinweis.**
 
-      * **Senden einer E-Mail-Bestätigung, wenn Testsendungen fertig sind:** Wählen Sie diese Option, um dem Benutzer automatisch eine Bestätigungs-E-Mail zu senden, wenn Testsendungen bereit sind.
-      * **Format der an diesen Benutzer gesendeten E-Mails:** Wählen Sie **[!UICONTROL HTML]** oder **[!UICONTROL Nur Text]** als Standardformat für E-Mails aus, die an den Benutzer gesendet werden.
+     * **Senden einer E-Mail-Bestätigung, wenn Testsendungen fertig sind:** Wählen Sie diese Option, um dem Benutzer automatisch eine Bestätigungs-E-Mail zu senden, wenn Testsendungen bereit sind.
+     * **Format der an diesen Benutzer gesendeten E-Mails:** Wählen Sie **[!UICONTROL HTML]** oder **[!UICONTROL Nur Text]** als Standardformat für E-Mails aus, die an den Benutzer gesendet werden.
 
    * Im Abschnitt **[!UICONTROL Benutzerdefinierte Nachrichteneinstellungen]**: Erstellen Sie Einstellungen für Korrekturabzugsvorlagen.
 
      Weitere Informationen zu Vorlagen finden Sie unter:
 
-      * **Vorlage für einen Testversand:** Sie eine Vorlage für einen Testversand-Betreff.
-      * **Testversandnachrichtenvorlage:** Sie eine Vorlage für eine Testversandnachricht und ihr Format.
+     * **Vorlage für einen Testversand:** Sie eine Vorlage für einen Testversand-Betreff.
+     * **Testversandnachrichtenvorlage:** Sie eine Vorlage für eine Testversandnachricht und ihr Format.

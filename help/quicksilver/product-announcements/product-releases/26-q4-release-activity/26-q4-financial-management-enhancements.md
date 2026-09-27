@@ -4,13 +4,20 @@ description: Verbesserungen beim Finanzmanagement für das vierte Quartal 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4ca5bba5090d9e3a72c8964bdf6cca1085c314db
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 3%
-
 ---
-
 # Verbesserungen beim Finanzmanagement für das vierte Quartal 2026
 
 Auf dieser Seite werden die Verbesserungen des Finanzmanagements beschrieben, die mit der Version für das vierte Quartal 2026 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
@@ -54,4 +61,4 @@ Bei Verwendung von Ratenattributen als Filter in verschiedenen Bereichen von Wor
 
 Wenn Sie zuvor ein Attribut mit einem übergeordneten Element verknüpft haben und dieses übergeordnete Element mit einem Großelternteil, hat das System das ursprüngliche Attribut auch nicht automatisch als zum Großelterteil gehörend erkannt. Wenn Sie nun das Attribut der untersten Ebene auswählen, wird jede darüber liegende Ebene automatisch zugewiesen.
 
-Weitere Informationen zu Attributen finden [&#x200B; unter „Tarifattribute definieren](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+Weitere Informationen zu Attributen finden [ unter „Tarifattribute definieren](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).

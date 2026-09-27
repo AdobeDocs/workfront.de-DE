@@ -4,13 +4,20 @@ description: Home-Verbesserungen im Zeitraum der Veröffentlichung im dritten Qu
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ca4b2ee8375442afa19bf0d3af2915d3aab20779
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '155'
+source-wordcount: '167'
 ht-degree: 7%
-
 ---
-
 # Home-Verbesserungen im Zeitraum der Veröffentlichung im dritten Quartal 2026
 
 Auf dieser Seite werden die Verbesserungen auf der Startseite beschrieben, die mit der Version vom dritten Quartal 2026 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
@@ -21,7 +28,9 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2026 ve
 
 >[!NOTE]
 >
->Vorschau: 4. Juni 2026>Produktions-Schnellveröffentlichung: 11. Juni 2026>Produktion für alle: 16. Juli 2026
+>Vorschau: 4. Juni 2026
+>Produktions-Schnellveröffentlichung: 11. Juni 2026
+>Produktion für alle: 16. Juli 2026
 
 Die Priorität unterstützt jetzt die Verwendung benutzerdefinierter Daten in den Spalten. Öffnen Sie den Spalten-Manager aus der Arbeitsliste, um benutzerdefinierte Felder hinzuzufügen, die Sie in Ihren Spaltendaten sehen möchten.
 

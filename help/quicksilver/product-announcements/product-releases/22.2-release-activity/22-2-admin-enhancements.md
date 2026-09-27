@@ -6,25 +6,31 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 55fb0b85-937d-4903-8a64-6f627dd4291f
-TQID: https://experienceleague.adobe.com/Q2r-5wTiX9FLEQBmyh-E7JaIwPHIoHlDmTDSdAxujEs
+TQID: 'https://experienceleague.adobe.com/Q2r-5wTiX9FLEQBmyh-E7JaIwPHIoHlDmTDSdAxujEs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 946
+source-wordcount: '946'
 ht-degree: 0%
-
 ---
-
 # Verbesserungen für Admins in Version 22.2
 
 Auf dieser Seite werden alle Admin-Verbesserungen beschrieben, die mit Version 22.2 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung verfügbar gemacht
@@ -83,18 +89,18 @@ Alle diese Änderungen deaktivieren eine Option, die zuvor standardmäßig aktiv
 
 * In einer neuen Zugriffsebene mit dem Lizenztyp „Plan“:
 
-   * Die systemweite Freigabe ist jetzt für Projekte, Aufgaben, Probleme, Portfolios, Programme, Berichte, Filter, Dokumente und Vorlagen deaktiviert.
-   * Die Option „Integrierte Berichte anzeigen“ und „Berichte öffentlich freigeben“ sind auch für Berichte deaktiviert.
-   * Dokumente öffentlich freigeben ist auch für Dokumente deaktiviert.
+  * Die systemweite Freigabe ist jetzt für Projekte, Aufgaben, Probleme, Portfolios, Programme, Berichte, Filter, Dokumente und Vorlagen deaktiviert.
+  * Die Option „Integrierte Berichte anzeigen“ und „Berichte öffentlich freigeben“ sind auch für Berichte deaktiviert.
+  * Dokumente öffentlich freigeben ist auch für Dokumente deaktiviert.
 
 * In einer neuen Zugriffsebene mit dem Lizenztyp Arbeit :
 
-   * Die systemweite Freigabe ist jetzt für Filter und Dokumente deaktiviert.
-   * Dokumente öffentlich freigeben ist auch für Dokumente deaktiviert.
+  * Die systemweite Freigabe ist jetzt für Filter und Dokumente deaktiviert.
+  * Dokumente öffentlich freigeben ist auch für Dokumente deaktiviert.
 
 * In einer neuen Zugriffsebene mit dem Lizenztyp Anfrage oder Überprüfung :
 
-   * Die systemweite Freigabe ist jetzt für Filter deaktiviert.
+  * Die systemweite Freigabe ist jetzt für Filter deaktiviert.
 
 ## Deaktivieren von Gruppen
 

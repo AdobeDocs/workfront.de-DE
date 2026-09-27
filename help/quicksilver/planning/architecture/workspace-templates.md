@@ -8,19 +8,26 @@ recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/fo6vWjL0XWOPzrBDUC02ES9kgnzmlTGsi050JUfz3zk
+TQID: 'https://experienceleague.adobe.com/fo6vWjL0XWOPzrBDUC02ES9kgnzmlTGsi050JUfz3zk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 958
+source-wordcount: '958'
 ht-degree: 7%
-
 ---
-
 # Liste der Arbeitsbereichsvorlagen
 
 {{planning-important-intro}}
@@ -35,8 +42,8 @@ In diesem Artikel werden die in Adobe Workfront Planning verfügbaren Arbeitsber
 
 * Je nachdem, wie viele Arbeitsbereiche Sie bei Verwendung einer Planning-Arbeitsbereich-Vorlage erstellen, können Sie die folgenden Vorlagentypen verwenden:
 
-   * Einzelne Vorlagen: Eine Vorlage erstellt einen Arbeitsbereich.
-   * Vorlagenpaket mit mehreren Arbeitsbereichen: Das Vorlagenpaket erstellt 6 Arbeitsbereiche, die miteinander verbunden sind.
+  * Einzelne Vorlagen: Eine Vorlage erstellt einen Arbeitsbereich.
+  * Vorlagenpaket mit mehreren Arbeitsbereichen: Das Vorlagenpaket erstellt 6 Arbeitsbereiche, die miteinander verbunden sind.
 * Jede Vorlage verfügt über eine Reihe von Datensatztypen.
 
   Weitere Informationen finden Sie unter [Datensatztypen - Übersicht](/help/quicksilver/planning/architecture/overview-of-record-types.md).
@@ -108,82 +115,82 @@ Im Folgenden finden Sie Arbeitsbereichsvorlagen in Workfront Planning und die da
 
   Die Vorlage Operations Initiative Studio enthält die folgenden Datensatztypen und deren Felder:
 
-   * Initiativen
-   * Arbeitsabläufe
-   * Risiken und Probleme
-   * Entscheidungen
-   * Systeme
-   * Teams
+  * Initiativen
+  * Arbeitsabläufe
+  * Risiken und Probleme
+  * Entscheidungen
+  * Systeme
+  * Teams
 * **Communications Planning Studio**: Idee, schnell einen Kommunikations-Planungs-Hub einzurichten. Duplizieren Sie zunächst entweder den Vorlagendatensatz für den Long- oder Short-Communications-Plan und erstellen Sie dann Ihren Rollout, indem Sie Taktiken hinzufügen und Validierungs-Checkpoints verfolgen. Referenzieren Sie Zielgruppen, Märkte und Kanäle für konsistentes Reporting, Filtern und Wiederverwenden. Enthält Beispieldatensätze und einsatzbereite Tabellen-, Timeline- und Kalenderansichten, damit Teams Planungsfunktionen sofort erkunden können.
 
   Die Vorlage Communications Planning Studio enthält die folgenden Datensatztypen und deren Felder:
 
-   * Kommunikation
-   * Zielgruppen
-   * Taktik
-   * Validierungs-Checkpoints
-   * Kanäle
-   * Märkte
-   * Stakeholder-Rollen
+  * Kommunikation
+  * Zielgruppen
+  * Taktik
+  * Validierungs-Checkpoints
+  * Kanäle
+  * Märkte
+  * Stakeholder-Rollen
 
 * **Basic: Marketing Management**: Ideal für Organisationen, die die Grundlage für ein grundlegendes Marketing-System schaffen. Die Vorlage enthält die folgenden Datensatztypen und die Anzahl der Felder, einschließlich der Felder, die mit anderen Datensatztypen verbunden sind:
 
-   * Campaign
-   * Personas
-   * Marken
-   * Produkte
+  * Campaign
+  * Personas
+  * Marken
+  * Produkte
 
 * **Erweitert: Marketing-**: Geeignet für Teams, die bereit sind, differenziertere Marketing-Strategien zu erkunden. Die Vorlage enthält die folgenden Datensatztypen und die Anzahl der Felder, einschließlich der Felder, die mit anderen Datensatztypen verbunden sind:
 
-   * Kampagnen
-   * Programme
-   * Regionen
-   * Kunden-Journey-Phasen
-   * Zielgruppen
-   * Leistungen
-   * Marken
+  * Kampagnen
+  * Programme
+  * Regionen
+  * Kunden-Journey-Phasen
+  * Zielgruppen
+  * Leistungen
+  * Marken
 
 * **Enterprise: Marketing-**: Konzipiert für große oder reife Organisationen mit komplexen Marketing-Systemen. Die Vorlage enthält die folgenden Datensatztypen und die Anzahl der Felder, einschließlich der Felder, die mit anderen Datensatztypen verbunden sind:
 
-   * Kampagnen
-   * Programme
-   * Taktik
-   * Aktivitäten
-   * Produkte
-   * Leistungen
-   * Zielgruppen
-   * Regionen
-   * Unterregionen
-   * Partner
-   * Anwendungsfälle
-   * Kunden-Journey-Phasen
+  * Kampagnen
+  * Programme
+  * Taktik
+  * Aktivitäten
+  * Produkte
+  * Leistungen
+  * Zielgruppen
+  * Regionen
+  * Unterregionen
+  * Partner
+  * Anwendungsfälle
+  * Kunden-Journey-Phasen
 
 * Vertriebsmanagement: Sie können ein umfassendes Vertriebssystem erstellen, das Ihren Verkaufsprozess optimiert und die Effizienz steigert. Die Vorlage enthält die folgenden Datensatztypen und die Anzahl der Felder, einschließlich der Felder, die mit anderen Datensatztypen verbunden sind:
 
-   * Opportunity
-   * Aktivität
-   * Campaign
-   * Konto
-   * Lead
-   * Kontakt
-   * Region
-   * Branche
-   * Einkaufszentrum
-   * Produkt/Service
-   * Konkurrenz
+  * Opportunity
+  * Aktivität
+  * Campaign
+  * Konto
+  * Lead
+  * Kontakt
+  * Region
+  * Branche
+  * Einkaufszentrum
+  * Produkt/Service
+  * Konkurrenz
 
 
 * Produktverwaltung: Mit dieser Vorlage können Sie einen effizienten und strukturierten Produktverwaltungsprozess erstellen. Die Vorlage enthält die folgenden Datensatztypen und die Anzahl der Felder, einschließlich der Felder, die mit anderen Datensatztypen verbunden sind:
 
-   * Design
-   * Initiative
-   * Epos
-   * Benutzergeschichte
-   * Kunde
-   * Sprint
-   * Produkt-Team
-   * Funktionsanfragen
-   * Branche
+  * Design
+  * Initiative
+  * Epos
+  * Benutzergeschichte
+  * Kunde
+  * Sprint
+  * Produkt-Team
+  * Funktionsanfragen
+  * Branche
 
 ## Workfront Planning Workspace-Vorlagen für mehrere Arbeitsbereiche
 
@@ -203,56 +210,56 @@ Das Vorlagenpaket für mehrere Arbeitsbereiche enthält die folgenden Vorlagen m
   >Wir verwenden den Namen „Fréscopa“ nur als allgemeines Beispiel für ein Unternehmen.
 
 
-   * Customer Journeys
-   * Länder
-   * Kanäle
-   * Regionen
-   * Bundesstaaten, Provinzen oder Präfekturen
-   * Sprachen
-   * Plattformen
-   * Erlebnistypen
-   * Jahre
-   * Quartale
-   * Messaging-Strategien
-   * Zielgruppen
-   * Personas
-   * Produkte
-   * Marken
-   * Produktkategorien
-   * Werte
-   * Vision und Mission
-   * Säulen
-   * Wichtige Performance-Indikatoren
+  * Customer Journeys
+  * Länder
+  * Kanäle
+  * Regionen
+  * Bundesstaaten, Provinzen oder Präfekturen
+  * Sprachen
+  * Plattformen
+  * Erlebnistypen
+  * Jahre
+  * Quartale
+  * Messaging-Strategien
+  * Zielgruppen
+  * Personas
+  * Produkte
+  * Marken
+  * Produktkategorien
+  * Werte
+  * Vision und Mission
+  * Säulen
+  * Wichtige Performance-Indikatoren
 
 * **2.Fréscopa Global Marketing**: Der zentrale Arbeitsbereich zur Verwaltung der Unternehmensstrategie und -ausführung von Fréscopa. Es führt Kampagnen, Inhalte und Metriken zusammen, um die Markenwirkung zu steigern.
 
-   * Kampagnen
-   * Kanaltaktik
-   * Erlebnisse
-   * Ereignisse
+  * Kampagnen
+  * Kanaltaktik
+  * Erlebnisse
+  * Ereignisse
 
 * **3.Fréscopa Social Marketing**: Der spezielle Arbeitsbereich zur Verwaltung der Social-Media-Präsenz und -Kampagnen von Fréscopa. Es zentralisiert Planung, Veröffentlichung und Leistungserfassung auf allen sozialen Plattformen.
 
-   * Influencer
+  * Influencer
 
 * **4.Fréscopa Media &amp; PR**: Hier koordinieren die Medien- und PR-Teams Aktivitäten zur Unterstützung globaler Marketingziele.
 
-   * Reporter
-   * Medien
-   * Medieninteraktionen
+  * Reporter
+  * Medien
+  * Medieninteraktionen
 
 * **5.Fréscopa Global Events**: Ein zentralisierter Ort, um Fréscopa-Veranstaltungen in allen Regionen, Ländern und Geschäftsbereichen zu planen und zu verfolgen.
 
-   * Ereignistypen
-   * Arbeitsablauftypen
-   * Lautsprecher
-   * Veranstaltungsorte
-   * Zielgruppentyp des Ereignisses
+  * Ereignistypen
+  * Arbeitsablauftypen
+  * Lautsprecher
+  * Veranstaltungsorte
+  * Zielgruppentyp des Ereignisses
 
 * **6.Fréscopa Executive Company Leadership**: Der zentralisierte Arbeitsbereich für strategische Führungskräfte zur Schnittstelle mit umsetzbaren Daten wie Unternehmenszielen und -zielen.
 
-   * Unternehmensziele
-   * Abteilungsziele
-   * Teamziele
-   * Schlüsselergebnisse
+  * Unternehmensziele
+  * Abteilungsziele
+  * Teamziele
+  * Schlüsselergebnisse
 

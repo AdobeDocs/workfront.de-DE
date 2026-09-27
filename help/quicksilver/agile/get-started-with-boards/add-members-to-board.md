@@ -8,22 +8,29 @@ feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/h8BLZKVxio5iIyDPmJUCm4XFblnNxOuNrX5z0--tPuk
+TQID: 'https://experienceleague.adobe.com/h8BLZKVxio5iIyDPmJUCm4XFblnNxOuNrX5z0--tPuk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 474
+source-wordcount: '474'
 ht-degree: 9%
-
 ---
-
 # Hinzufügen von Mitgliedern zu einer Pinnwand oder Entfernen von Mitgliedern von einer Pinnwand
 
 Personen und Teams müssen dem Board als Mitglieder hinzugefügt werden, bevor sie das Board anzeigen können.
@@ -61,7 +68,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 {{step1-to-boards}}
 
 1. Eine neue Pinnwand erstellen oder eine vorhandene Pinnwand bearbeiten. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten einer Pinnwand](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicken Sie auf **[!UICONTROL Symbol]** Mitglied hinzufügen![&#x200B; (Mitglieder hinzufügen](assets/boards-addmember-spectrum-25x25.png).
+1. Klicken Sie auf **[!UICONTROL Symbol]** Mitglied hinzufügen![ (Mitglieder hinzufügen](assets/boards-addmember-spectrum-25x25.png).
 1. Beginnen Sie im Feld **[!UICONTROL Mitglieder hinzufügen]** mit der Eingabe eines Namens und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
 
    Sie können ein einzelnes Mitglied oder ein Team auswählen. Wenn Sie ein Team auswählen, wird das Team selbst der Pinnwand hinzugefügt.
@@ -78,7 +85,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 {{step1-to-boards}}
 
 1. Eine neue Pinnwand erstellen oder eine vorhandene Pinnwand bearbeiten. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten einer Pinnwand](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicken Sie auf **[!UICONTROL Symbol]** Mitglied hinzufügen![&#x200B; (Mitglieder hinzufügen](assets/boards-addmember-spectrum-25x25.png).
+1. Klicken Sie auf **[!UICONTROL Symbol]** Mitglied hinzufügen![ (Mitglieder hinzufügen](assets/boards-addmember-spectrum-25x25.png).
 1. Klicken Sie im Feld **[!UICONTROL Mitglieder hinzufügen]** auf das X neben dem Namen einer Person oder eines Teams, um sie aus der Pinnwand zu entfernen.
 
    ![Mitglied aus der Pinnwand entfernen](assets/boards-remove-member-from-board-350x367.png)

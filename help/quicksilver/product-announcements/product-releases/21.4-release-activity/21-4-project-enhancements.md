@@ -6,25 +6,31 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6bcd332e-bd4e-4a74-bae9-9ba507299a51
-TQID: https://experienceleague.adobe.com/Q9UvbhfVxQJHx33r1PYHaAcu5UGPO-1ae2qHLf25bDE
+TQID: 'https://experienceleague.adobe.com/Q9UvbhfVxQJHx33r1PYHaAcu5UGPO-1ae2qHLf25bDE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 920
+source-wordcount: '920'
 ht-degree: 0%
-
 ---
-
 # Verbesserungen bei Projekten in Version 21.4
 
 Auf dieser Seite werden alle mit Version 21.4 vorgenommenen Projektverbesserungen in der Vorschau-Umgebung beschrieben. Diese Verbesserungen werden in der Woche vom 4. Oktober 2021 in der Produktionsumgebung verfügbar gemacht.
@@ -41,7 +47,7 @@ Zuvor bestand die einzige Möglichkeit, ein Bild in Workfront freizugeben, darin
 
 Weitere Informationen finden Sie unter [Arbeit aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Bevor Workfront-Benutzer Bilder in Aktualisierungen einbeziehen können, muss diese Funktion zunächst vom Adobe Workfront-Administrator aktiviert werden, wie unter &quot;[&#x200B; für Benutzeraktualisierungen konfigurieren](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md) beschrieben.
+Bevor Workfront-Benutzer Bilder in Aktualisierungen einbeziehen können, muss diese Funktion zunächst vom Adobe Workfront-Administrator aktiviert werden, wie unter &quot;[ für Benutzeraktualisierungen konfigurieren](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md) beschrieben.
 
 ## Aktualisierter Algorithmus für smarte Zuweisungen
 
@@ -60,7 +66,7 @@ Damit Ihre Verwendung von Workfront mit der neuen Workfront-Version konsistent i
 
 Die Benutzeroberfläche zum Erstellen des Projekts wurde sowohl beim Erstellen über den Bereich Projekte als auch im Bereich Vorlagen aktualisiert.
 
-Weitere Informationen finden [&#x200B; unter „Erstellen eines Projekts mithilfe einer Vorlage](../../../manage-work/projects/create-projects/create-project-from-template.md).
+Weitere Informationen finden [ unter „Erstellen eines Projekts mithilfe einer Vorlage](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
 ## Neues Erlebnis beim Anhängen von Vorlagen an Projekte
 

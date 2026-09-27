@@ -2,13 +2,14 @@
 title: Hinzufügen einer Anzeigelogik und Überspringen einer Logik zu einem benutzerdefinierten Formular
 description: Hinzufügen einer Anzeigelogik und Überspringen einer Logik zu einem benutzerdefinierten Formular
 draft: Probably
-source-git-commit: cd0214917620e0b147d0da3402ea2d34e28bc9c3
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1491'
 ht-degree: 0%
-
 ---
-
 # Hinzufügen einer Anzeigelogik und Überspringen einer Logik zu einem benutzerdefinierten Formular
 
 Sie können intelligente Regeln verwenden, um ein benutzerdefiniertes Formular dynamisch und für die Benutzer relevanter zu gestalten, die es ausfüllen. Wenn ein(e) Benutzende(r) auf eine bestimmte Weise auf ein Feld mit Mehrfachauswahl in einem Formular reagiert, zeigt ihm/ihr eine intelligente Regel basierend auf dieser Antwort an, was als Nächstes zu sehen ist.
@@ -36,7 +37,7 @@ Die Feldtypen mit Mehrfachauswahl sind Dropdown, Kontrollkästchen und Optionsfe
   In diesem Fall können Sie ein beschreibendes Textfeld hinzufügen, das den Benutzer an die Verkaufsabteilung verweist. Im ersten benutzerdefinierten Feld, das fragt, welche Art von Marketing-Inhalt der Benutzer benötigt, können Sie eine Logikregel zum Überspringen hinzufügen, die nur die Textzeile anzeigt, wenn ein Benutzer im ersten Feld auf das Optionsfeld „Whitepaper“ klickt.
 
   Dies wäre besonders nützlich, wenn Sie viele andere Felder über Logos, Website-Updates und Broschüren hinzufügen würden, die dieser Benutzer nicht sehen muss.
-Sie können eine Regel zum Überspringen einer Logik nur auf ein benutzerdefiniertes Feld anwenden, nicht auf ein Widget oder einen Abschnitt.
+  Sie können eine Regel zum Überspringen einer Logik nur auf ein benutzerdefiniertes Feld anwenden, nicht auf ein Widget oder einen Abschnitt.
 
 
 ## Zugriffsanforderungen
@@ -91,7 +92,7 @@ In diesem Beispiel erstellen Sie ein benutzerdefiniertes Formular mit einem Opti
 
       ![](assets/add-a-field-tab-350x237.png)
 
-   1. Wählen Sie **Feldtyp** Optionsschaltflächen) aus und geben Sie dann *Welchen Typ von Marketing-Inhalt benötigen Sie?* als **Beschriftung** für das Feld.
+   1. Wählen Sie den **Optionsfelder** Feldtyp aus und geben Sie dann *Welchen Typ von Marketing-Inhalt benötigen Sie?* als **Beschriftung** für das Feld.
 
    1. Ersetzen Sie **Wahlen** durch **Wahl 1** und **Wahl 2** durch folgenden Text, um zwei Optionen zu erstellen, die Benutzende im Feld auswählen können:
 
@@ -133,7 +134,7 @@ Um mehr darüber zu erfahren, arbeiten Sie weiter an dem benutzerdefinierten Bei
 
 1. Klicken Sie **Benutzerdefinierte Forms**.
 1. Klicken Sie auf den Namen des Formulars **Benutzerdefiniertes Beispielformular - Anzeigelogik lernen und Logik überspringen** das Sie in den obigen Schritten erstellt haben, um es zur Bearbeitung zu öffnen.
-1. Wählen Sie das von Ihnen erstellte Dropdown-Feld *Welche Art von Website benötigen Sie?Fügen Sie* die folgenden Optionen für das Feld hinzu und klicken Sie dann auf **Übernehmen**:
+1. Wählen Sie das von Ihnen erstellte Dropdown-Feld *Welchen Website-Typ benötigen Sie?*, fügen Sie die folgenden Optionen für das Feld hinzu und klicken Sie dann auf **Anwenden**:
 
    *E-Commerce*
 
@@ -141,7 +142,7 @@ Um mehr darüber zu erfahren, arbeiten Sie weiter an dem benutzerdefinierten Bei
 
    *Mitgliedschaft*
 
-1. Öffnen Sie die Registerkarte **Feld hinzufügen** und erstellen Sie ein Feld **Textfeld mit Formatierung** mit dem Namen *Was ist das Ziel der Website?* und klicken Sie dann auf **Übernehmen**.
+1. Öffnen Sie die Registerkarte **Feld hinzufügen** erstellen Sie ein Feld **Textfeld mit Formatierung** mit dem Namen *Was ist das Ziel der Website?* und klicken Sie dann auf **Anwenden**.
 
    In dieser Organisation wird eine Dokumentations-Site für Hilfe vom technischen Redaktionsteam und nicht von der Marketing-Abteilung erstellt. Von einem Benutzer, der im zweiten Feld Hilfedokumentation auswählt, sind also keine weiteren Informationen erforderlich. Wir erstellen eine Textzeile (ein beschreibendes Textfeld), in der der Benutzer aufgefordert wird, stattdessen das Team für technische Texte zu sehen. Und wir verwenden eine Regel vom Typ Logik überspringen , die diesen Benutzer zu dieser Textzeile überspringt.
 
@@ -167,7 +168,7 @@ Um mehr darüber zu erfahren, arbeiten Sie weiter an dem benutzerdefinierten Bei
 
    ![](assets/notice-skip-logic-squares-350x249.png)
 
-1. Klicken Sie auf **Vorschau**  um sicherzustellen, dass die Logik Ihren Vorstellungen entspricht.
+1. Klicken Sie **Vorschau**, um sicherzustellen, dass die Logik die gewünschte Anwendung findet.
 1. Klicken Sie **Speichern +Schließen**.
 
 Bei der Erstellung eines solchen Formulars können Sie weitere Textfelder hinzufügen, um Benutzer zur Eingabe von Informationen aufzufordern, die im zweiten Feld E-Commerce oder Broschüre auswählen. In diesen Feldern kann u. a. nachgefragt werden, wer die Zielgruppe der Website ist, welches Ziel mit der Erstellung der Website verfolgt wird und welches Budget zur Verfügung steht.

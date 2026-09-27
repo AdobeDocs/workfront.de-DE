@@ -8,21 +8,29 @@ recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/pVAo3ZFNsUuJGI6GDOBCUWO6UkxQgWEif84qa79EXTk
+TQID: 'https://experienceleague.adobe.com/pVAo3ZFNsUuJGI6GDOBCUWO6UkxQgWEif84qa79EXTk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Taxonomy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3059
+source-wordcount: '3065'
 ht-degree: 3%
-
 ---
-
 # Veröffentlichungen von Adobe Workfront-Planung für 2023
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
@@ -119,11 +127,11 @@ Beachten Sie bei dieser Verbesserung Folgendes:
 
 * Sie können ein beliebiges Feld der folgenden Typen als primäres Feld auswählen und das Feld Name in der ersten Spalte ersetzen:
 
-   * Einzeiliger Text
+  * Einzeiliger Text
 
-   * Zahl
+  * Zahl
 
-   * Formel
+  * Formel
 
 * Das primäre Feld einer Tabellenansicht ist immer eingefroren und kann nicht verschoben werden, es sei denn, Sie legen ein anderes Feld als primäres Feld fest.
 
@@ -201,11 +209,11 @@ Beachten Sie Folgendes:
 
 * Feldwerte für die folgenden Feldtypen können nicht kopiert und eingefügt werden:
 
-   * Personen
+  * Personen
 
-   * Systemfelder
+  * Systemfelder
 
-   * Verknüpfte Felder, die als Ergebnis der Verknüpfung von Datensätzen erstellt wurden
+  * Verknüpfte Felder, die als Ergebnis der Verknüpfung von Datensätzen erstellt wurden
 
 Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).
 
@@ -292,19 +300,19 @@ Im Folgenden finden Sie Optionen für die Farben, die Sie für Datensatzbalken u
 
 * Gruppierungen können mit den folgenden Farben übereinstimmen:
 
-   * Grau (Standard)
+  * Grau (Standard)
 
-   * Die Farbe des Felds, nach dem Sie gruppieren
+  * Die Farbe des Felds, nach dem Sie gruppieren
 
 * Balken können mit den folgenden Farben übereinstimmen:
 
-   * Die Farbe des Datensatztyps
+  * Die Farbe des Datensatztyps
 
-   * Die Farbe eines von Ihnen ausgewählten Felds
+  * Die Farbe eines von Ihnen ausgewählten Felds
 
-   * Die Farbe der Gruppierung
+  * Die Farbe der Gruppierung
 
-   * Keine Farbe (Standard)
+  * Keine Farbe (Standard)
 
 Wenn Sie Farben einem bestimmten Feld zuordnen, können Sie nur Felder mit farbcodierten Optionen auswählen.
 
@@ -346,8 +354,8 @@ Beachten Sie Folgendes:
 
   Weitere Informationen finden Sie in den folgenden Artikeln:
 
-   * [Verbinden von Eintragstypen](/help/quicksilver/planning/architecture/connect-record-types.md)
-   * [Einträge verbinden](/help/quicksilver/planning/records/connect-records.md)
+  * [Verbinden von Eintragstypen](/help/quicksilver/planning/architecture/connect-record-types.md)
+  * [Einträge verbinden](/help/quicksilver/planning/records/connect-records.md)
 
 ### URL-Unterstützung für einzeilige Textfelder
 
@@ -397,8 +405,8 @@ In der Zeitleisten -Ansicht wurden die folgenden Verbesserungen eingeführt:
 
 * Sie können die Zeitleisten -Ansicht jetzt in den folgenden Modi anzeigen:
 
-   * Standard: Zeigt Datensätze in separaten Zeilen an.
-   * Kompakt: Zeigt die Datensätze an, deren Daten sich nicht in derselben Zeile schneiden.
+  * Standard: Zeigt Datensätze in separaten Zeilen an.
+  * Kompakt: Zeigt die Datensätze an, deren Daten sich nicht in derselben Zeile schneiden.
 
 * Das Erscheinungsbild der Gruppierungslinien in der Zeitleisten -Ansicht wurde geändert, sodass sie über der Zeitleiste der enthaltenen Datensätze angezeigt werden. Vor dieser Verbesserung wurden die Gruppierungslinien über die gesamte Länge der Timeline angezeigt.
 

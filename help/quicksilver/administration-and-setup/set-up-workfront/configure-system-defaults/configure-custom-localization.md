@@ -7,13 +7,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: bdc6d5ee-2037-4d0b-bf18-3e6cc9cb078e
-source-git-commit: aeb471fd63269d30a675e44fe1a47db6141eb9ed
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 11%
-
 ---
-
 # Konfigurieren der benutzerdefinierten Lokalisierung
 
 Benutzerdefinierte Lokalisierung ermöglicht es Ihnen, benutzerdefinierte Begriffe und Ausdrücke in verschiedenen Sprachen zu definieren. Workfront zeigt diese Begriffe dann in der Sprache an, die in den Adobe Identity Management (IMS)-Einstellungen des Benutzers festgelegt ist.
@@ -74,7 +81,7 @@ Beachten Sie beim Konfigurieren der Lokalisierung Folgendes:
 
 Übersetzungen werden im Bereich Setup konfiguriert.
 
-1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **&#x200B;**&#x200B;Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **** Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
 1. Klicken Sie im Bereich Setup **linken** auf „Lokalisierung“.
 1. Um eine neue Übersetzung hinzuzufügen, klicken Sie auf **Neue Zeile**.
 1. Geben Sie in **Spalte &quot;**&quot; den englischen Begriff ein, der übersetzt werden soll.

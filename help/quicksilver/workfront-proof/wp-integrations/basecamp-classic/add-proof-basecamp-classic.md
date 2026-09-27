@@ -3,24 +3,32 @@ product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: basecamp-classic
 title: Hinzufügen eines Korrekturabzugs zu einem Basecamp Classic-Projekt
-description: Nachdem Sie Ihre Integration eingerichtet haben [!DNL Basecamp Classic]  können Sie damit beginnen, Testsendungen zu Projekten in Ihrem - [!DNL Basecamp Classic]  hinzuzufügen.
+description: Nachdem Sie Ihre [!DNL Basecamp Classic] Integration eingerichtet haben, können Sie mit dem Hinzufügen von Testsendungen zu Projekten in Ihrem [!DNL Basecamp Classic]-Konto beginnen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fbca81fb-97c4-449a-9c64-cfd902ea1e19
-TQID: https://experienceleague.adobe.com/x-X8GzBkf51d9FRKZt8lMzSJNCN8PWlYM7uoAnBdbfk
+TQID: 'https://experienceleague.adobe.com/x-X8GzBkf51d9FRKZt8lMzSJNCN8PWlYM7uoAnBdbfk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 667
+source-wordcount: '669'
 ht-degree: 1%
-
 ---
-
 # Hinzufügen eines Korrekturabzugs zu einem [!DNL Basecamp Classic] Projekt
 
 >[!IMPORTANT]
@@ -51,7 +59,7 @@ Weitere Informationen finden Sie unter [Überprüfen eines Korrekturabzugs in [!
 
 1. Geben Sie an, ob dieser Korrekturabzug in [!DNL Basecamp] privat sein soll (Option in „Neue [!DNL Basecamp]&quot; nicht verfügbar).
 1. Wählen Sie Ihr [!DNL Basecamp Classic] aus.
-1. Wählen Sie Ihre [!UICONTROL [!DNL Basecamp Classic] Nachrichtenkategorie &#x200B;].
+1. Wählen Sie Ihre [!UICONTROL [!DNL Basecamp Classic] Nachrichtenkategorie ].
 1. Aktivieren **[!UICONTROL unter „Personen im Projekt]** die Kontrollkästchen der Reviewer in Ihrem [!DNL Basecamp Classic], die Sie dem Korrekturabzug hinzufügen möchten.\
    Reviewer werden in ihrer Standardrolle/in ihrem E-Mail-Warnhinweis angezeigt. Die ausgewählten Validierungsverantwortlichen erhalten eine Nachricht in [!DNL Basecamp] für diesen Korrekturabzug sowie eine E-Mail-Benachrichtigung von [!DNL Workfront Proof].
 
@@ -67,12 +75,12 @@ Weitere Informationen finden Sie unter [Überprüfen eines Korrekturabzugs in [!
 1. Stellen Sie sicher **[!UICONTROL dass]** Korrekturabzugs-URL) und **[!UICONTROL Einbettungs-Code]** auf &quot;**[!UICONTROL &quot;]**.
 
 1. Klicken Sie **[!UICONTROL Testversand zu einem [!DNL Basecamp] Projekt hinzufügen]**.
-1. Gehen Sie [!UICONTROL &#x200B; Feld „Zu [!DNL Basecamp]] hinzufügen“ wie folgt vor:
+1. Gehen Sie [!UICONTROL  Feld „Zu [!DNL Basecamp]] hinzufügen“ wie folgt vor:
 
    1. Klicken Sie auf **[!UICONTROL Daten aktualisieren]**, um mit [!DNL Basecamp Classic] zu synchronisieren, bevor Sie fortfahren.
    1. Geben Sie an, ob dieser Korrekturabzug in [!DNL Basecamp] [!UICONTROL Privat] sein soll (Option in „Neuer [!DNL Basecamp]&quot; nicht verfügbar).
    1. Wählen Sie Ihr [!DNL Basecamp Classic] aus.
-   1. Wählen Sie Ihre [!UICONTROL [!DNL Basecamp Classic] Nachrichtenkategorie &#x200B;].
+   1. Wählen Sie Ihre [!UICONTROL [!DNL Basecamp Classic] Nachrichtenkategorie ].
    1. Aktivieren **[!UICONTROL unter „Personen im Projekt]** die Kontrollkästchen der Reviewer in Ihrem [!DNL Basecamp Classic], die Sie dem Korrekturabzug hinzufügen möchten.
    1. Reviewer werden in ihrer Standardrolle/in ihrem E-Mail-Warnhinweis angezeigt. Die ausgewählten Validierungsverantwortlichen erhalten eine Nachricht in [!DNL Basecamp] für diesen Korrekturabzug sowie eine E-Mail-Benachrichtigung von [!DNL Workfront Proof].
 

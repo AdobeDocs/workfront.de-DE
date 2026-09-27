@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: avoiding-spam-filters
-title: Konfigurieren  [!DNL Workfront Proof]  E-Mails zur Vermeidung von Spam-Filtern
-description: 'Der Spam-Filter Ihres E-Mail-Clients erfüllt einen wichtigen Zweck: Sie vor lästigen und möglicherweise bösartigen Spam-Mails zu schützen. Wenn Sie jedoch nicht die richtigen Einstellungen im Spam-Filter haben, können Sie die folgenden wichtigen E- [!DNL Workfront Proof] -Mails nicht sehen: Korrekturabzugs-E-Mail-Benachrichtigungen, Newsletter und spezielle Nachrichten.'
+title: Konfigurieren [!DNL Workfront Proof] E-Mails zur Vermeidung von Spam-Filtern
+description: 'Der Spam-Filter Ihres E-Mail-Clients erfüllt einen wichtigen Zweck: Sie vor lästigen und möglicherweise bösartigen Spam-Mails zu schützen. Wenn Sie jedoch nicht die richtigen Einstellungen im Spam-Filter haben, können Sie die folgenden wichtigen [!DNL Workfront Proof]-E-Mails nicht sehen: Korrekturabzugs-E-Mail-Benachrichtigungen, Newsletter und spezielle Nachrichten.'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1fce3d83-fdce-4ded-8e78-3468243a59e1
-TQID: https://experienceleague.adobe.com/QMtIDexmxDDuKqTg-Z47-lMnQ27zDEdMtwg-8OUe3Uw
+TQID: 'https://experienceleague.adobe.com/QMtIDexmxDDuKqTg-Z47-lMnQ27zDEdMtwg-8OUe3Uw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8f9a1a0c9967346771709371c49b4c0b50cb1059
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 496
+source-wordcount: '499'
 ht-degree: 0%
-
 ---
-
 # Konfigurieren [!DNL Workfront Proof] E-Mails zur Vermeidung von Spam-Filtern
 
 >[!IMPORTANT]
@@ -36,14 +45,14 @@ Um sicherzustellen, dass Ihre [!DNL Workfront Proof]-E-Mails immer an Ihren Post
 * [!DNL Workfront Proof]-Mailserver: **[!DNL mx.proofhq.com]**
 * [!DNL Workfront Proof] &quot;[!UICONTROL from]&quot;-E-Mail-Adressen (z. B. notification@proofhq.com)
 
-Weitere Informationen zu URLs, die Sie Ihrer Zulassungsliste hinzufügen können, finden [&#x200B; unter „Konfigurieren der Firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) im Artikel [Konfigurieren der Firewall-Zulassungsliste &#x200B;](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Weitere Informationen zu URLs, die Sie Ihrer Zulassungsliste hinzufügen können, finden [ unter „Konfigurieren der Firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) im Artikel [Konfigurieren der Firewall-Zulassungsliste ](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ## [!DNL Workfront Proof] E[!UICONTROL Mail]Adressen „Von“
 
 Je nach Art Ihres E-Mail-Clients müssen Sie möglicherweise [!DNL Workfront Proof] E-Mail-Adressen &quot;[!UICONTROL from]&quot; zu einer der folgenden Adressen hinzufügen, um zu verhindern, dass der Spam-Filter Ihre E-Mails in Zukunft an Ihren Spam-Ordner weiterleitet:
 
 * Ihre Kontaktliste
-* Ihre [!UICONTROL Liste sicherer &#x200B;]&quot;
+* Ihre [!UICONTROL Liste sicherer ]&quot;
 * Ein Filter, den Sie erstellen, um E-Mails von diesen Adressen an Ihren Posteingang zu senden
 
 Möglicherweise müssen Sie auch alle vorhandenen [!DNL Workfront Proof]-E-Mails aus Ihrem Spam-Ordner entfernen und überprüfen, ob eine der &quot;[!UICONTROL from]-Adressen auf der Liste der blockierten Adressen steht. Auf dieser Hilfeseite werden die [!DNL Workfront Proof] &quot;[!UICONTROL from]-Adressen aufgelistet und es wird gezeigt, wie sie in den folgenden E-Mail-Clients zum Spam-Filter hinzugefügt werden können:

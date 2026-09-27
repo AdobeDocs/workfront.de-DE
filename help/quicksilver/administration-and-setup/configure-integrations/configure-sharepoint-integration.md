@@ -1,35 +1,50 @@
 ---
-title: Konfigurieren der  [!DNL SharePoint] -Integration
+title: Konfigurieren der [!DNL SharePoint]
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
-description: Sie können  [!DNL Workfront] - [!DNL SharePoint] -Online integrieren und Benutzenden die Möglichkeit geben, innerhalb von Workfront zu  [!DNL SharePoint] -Dokumenten zu navigieren, sie zu verknüpfen und hinzuzufügen. Die bereitgestellte Funktionalität ist mit der anderer  [!DNL Workfront]  vergleichbar.
+description: Sie können [!DNL Workfront] mit [!DNL SharePoint] Online integrieren und Benutzern die Möglichkeit geben, innerhalb von Workfront zu [!DNL SharePoint]-Dokumenten zu navigieren, sie zu verlinken und hinzuzufügen. Die bereitgestellte Funktionalität ist mit der anderer [!DNL Workfront]-Dokumentintegrationen vergleichbar.
 author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/wQAqAplnYGWGCSSb1oVg2wIUK7Pn-Q0k4YIJIPJlqaQ
+TQID: 'https://experienceleague.adobe.com/wQAqAplnYGWGCSSb1oVg2wIUK7Pn-Q0k4YIJIPJlqaQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a25b6618c135eeb0de067a6cee16e461f44183b8
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1856
+source-wordcount: '1861'
 ht-degree: 2%
-
 ---
-
 # [!DNL SharePoint] konfigurieren
 
 {{highlighted-preview}}
@@ -50,7 +65,7 @@ ht-degree: 2%
 >
 >* Die neue SharePoint-Integration muss möglicherweise nicht von einem Administrator konfiguriert werden. Sie kann auch von einzelnen Benutzern eingerichtet werden. Um jedoch einen reibungslosen Übergang zur neuen SharePoint-Integration sicherzustellen, muss ein Workfront-Administrator einige kleine Änderungen an den Einstellungen im Bereich &quot;Workfront-Setup“ vornehmen.
 >
->    Weitere Informationen und Anweisungen finden Sie unter [Konfigurieren der Legacy-SharePoint-Integration für den kontinuierlichen Zugriff auf &#x200B;](#configure-the-legacy-sharepoint-integration-for-continued-access-to-documents) in diesem Artikel.
+>    Weitere Informationen und Anweisungen finden Sie unter [Konfigurieren der Legacy-SharePoint-Integration für den kontinuierlichen Zugriff auf ](#configure-the-legacy-sharepoint-integration-for-continued-access-to-documents) in diesem Artikel.
 >    
 >* Es wird empfohlen, dass Benutzer Dokumente verknüpfen, die derzeit über die alte [!DNL SharePoint]-Integration über die neue Integration verknüpft sind.
 >    
@@ -133,7 +148,7 @@ So senden Sie ein Dokument an SharePoint:
 
 So zeigen Sie die [!DNL SharePoint] Integrationen Ihres Unternehmens an und verwalten sie:
 
-1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **&#x200B;**&#x200B;Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **** Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
 1. Wählen Sie **[!UICONTROL linken Navigationsbereich]** Dokumente“ und dann **[!UICONTROL [!DNL SharePoint]Integration aus]**.
 
    Eine Liste der [!DNL SharePoint] Integrationen Ihres Unternehmens wird angezeigt.
@@ -185,7 +200,7 @@ Wenn ein Asset zuerst in [!DNL Workfront] hochgeladen und dann an [!DNL SharePoi
 Um sicherzustellen, dass Ihre Benutzerinnen und Benutzer weiterhin über die alte [!DNL SharePoint]-Integration Zugriff auf Dokumente haben, die mit Workfront verknüpft sind, müssen Sie den Zugriff auf die alte [!DNL SharePoint]-Integration neu konfigurieren und den SharePoint-Client-Geheim-Code auf dem neuesten Stand halten.
 
 * [Zugriff auf die Legacy- [!DNL SharePoint]  neu konfigurieren](#reconfigure-access-to-the-legacy-sharepoint-integration)
-* [Konfigurieren des Client-Geheimnisses für den kontinuierlichen Zugriff auf die Legacy- [!DNL SharePoint] &#x200B;](#configure-the-client-secret-for-continued-access-to-the-legacy-sharepoint-integration)
+* [Konfigurieren des Client-Geheimnisses für den kontinuierlichen Zugriff auf die Legacy- [!DNL SharePoint] ](#configure-the-client-secret-for-continued-access-to-the-legacy-sharepoint-integration)
 
 ### Zugriff auf die alte [!DNL SharePoint]-Integration neu konfigurieren
 
@@ -196,9 +211,9 @@ Durch die Neukonfiguration der Legacy-[!DNL SharePoint]-Integration können Ihre
 > * Die alte [!DNL SharePoint]-Integration trägt die Bezeichnung &quot;[!DNL SharePoint]&quot;.
 > * Die neue [!DNL SharePoint]-Integration trägt die Bezeichnung &quot;[!UICONTROL [!DNL SharePoint] (Graph API)].
 
-1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **&#x200B;**&#x200B;Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **** Setup![Setup-Symbol](/help/_includes/assets/gear-icon-setup.png).
 1. Wählen Sie **[!UICONTROL linken Navigationsbereich]** Dokumente“ und dann **[!UICONTROL Cloud-Anbieter]** aus.
-1. Stellen Sie sicher, dass die Optionen **[!DNL SharePoint]** und **[!UICONTROL [!DNL SharePoint] (Graph API)]** beide aktiviert sind.
+1. Stellen Sie sicher, dass die Optionen **[!DNL SharePoint]** und **[!UICONTROL [!DNL SharePoint](Graph API)]** beide aktiviert sind.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 1. Wählen Sie **[!UICONTROL linken Navigationsbereich]** Dokumente“ und dann **[!UICONTROL [!DNL SharePoint]Integration aus]**.
 1. Aktivieren Sie das Kontrollkästchen links in der Liste für alle vorhandenen Integrationen und klicken Sie dann auf **[!UICONTROL Deaktivieren]**.
@@ -219,7 +234,7 @@ Ihr [!DNL SharePoint]-Client-Geheimnis läuft einmal im Jahr ab. Um den kontinui
 1. Add `/_layouts/15/appregnew.aspx` to the end of the URL in the search bar at the top of your browser window.
 -->
 
-1. Generieren Sie ein neues Client-Geheimnis, wie unter [Ersetzen eines ablaufenden Client-Geheimnisses in einem Add [!DNL SharePoint] In“ &#x200B;](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret).
+1. Generieren Sie ein neues Client-Geheimnis, wie unter [Ersetzen eines ablaufenden Client-Geheimnisses in einem Add [!DNL SharePoint] In“ ](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret).
 1. Kopieren Sie dieses Client-Geheimnis an einen sicheren Speicherort.
 1. Melden Sie sich bei [!DNL Workfront] als Administrator an.
 1. Klicken Sie in Workfront auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und dann auf **[!UICONTROL Setup]**![Setup](/help/_includes/assets/gear-icon-setup.png).
@@ -470,7 +485,7 @@ Benutzer mit [!UICONTROL Vollzugriff] verfügen über alle erforderlichen Berech
    <td> <p>Kann Listenelemente und Dokumente anzeigen, hinzufügen, aktualisieren und löschen</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Nur-Ansicht]</p> </td> 
+   <td role="rowheader"> <p>[!Nur UICONTROL-Ansicht]</p> </td> 
    <td> <p>Kann Seiten, Listenelemente und Dokumente anzeigen (Dokumenttypen mit Server-seitigen Datei-Handlern können im Browser angezeigt, aber nicht heruntergeladen werden)</p> </td> 
   </tr> 
  </tbody> 

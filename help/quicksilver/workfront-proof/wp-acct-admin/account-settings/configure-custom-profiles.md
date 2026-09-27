@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
-title: Konfigurieren Sie benutzerdefinierte Profile in [!DNL Workfront Proof]
-description: Als  [!DNL Workfront] - oder  [!DNL Workfront Proof]  können Sie benutzerdefinierte Profile für andere Benutzer konfigurieren.
+title: Konfigurieren von benutzerdefinierten Profilen in [!DNL Workfront Proof]
+description: Als [!DNL Workfront]-Korrekturabzugs- oder [!DNL Workfront Proof] können Sie benutzerdefinierte Profile für andere Benutzer konfigurieren.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: a2bd8d41-896a-436e-b160-018081db1c95
-TQID: https://experienceleague.adobe.com/vG1lFxBLfhd7MZWPWlMXghVwxfDAZI5YL81HhRSI-MQ
+TQID: 'https://experienceleague.adobe.com/vG1lFxBLfhd7MZWPWlMXghVwxfDAZI5YL81HhRSI-MQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 409
+source-wordcount: '411'
 ht-degree: 0%
-
 ---
-
 # Konfigurieren von benutzerdefinierten Profilen in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -42,7 +51,7 @@ Sie können das Layout der Seite anpassen, sodass nur die für Sie relevanten In
 
 ## Registerkarte „Profile“
 
-Auf [!UICONTROL &#x200B; Registerkarte &#x200B;]Profile“ können Sie benutzerdefinierte Profile bequem hinzufügen und verwalten. Von hier aus können Sie die folgenden Aktionen ausführen:
+Auf [!UICONTROL  Registerkarte ]Profile“ können Sie benutzerdefinierte Profile bequem hinzufügen und verwalten. Von hier aus können Sie die folgenden Aktionen ausführen:
 
 * Neues Profil hinzufügen (1)
 * Durchführen von Massenaktionen für Profile:
@@ -61,7 +70,7 @@ Weitere Informationen zum Anpassen der Registerkarte „Profile“ finden Sie un
 
 Auf der Seite Profildetails können Sie die für Ihr benutzerdefiniertes Profil aktivierten Berechtigungen ändern, das Profil kopieren, das Profil löschen und die Liste der Benutzer anzeigen, denen das Profil zugewiesen ist.
 
-Weitere Informationen zu den Aktionen, die Sie auf dieser Seite ausführen können, finden Sie unter &quot;[&#x200B; und Verwalten von benutzerdefinierten Profilen mithilfe von [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md).
+Weitere Informationen zu den Aktionen, die Sie auf dieser Seite ausführen können, finden Sie unter &quot;[ und Verwalten von benutzerdefinierten Profilen mithilfe von [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md).
 
 * [Aufrufen der Seite „Profildetails“](#accessing-the-profile-details-page)
 * [Anzeigen der Liste der Benutzer mit einem zugewiesenen Profil](#viewing-the-list-of-users-with-a-profile-assigned)

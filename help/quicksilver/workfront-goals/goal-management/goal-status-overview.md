@@ -9,18 +9,24 @@ feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/tJoRYFhaVMF85CiVYna7eA8OLP34TONpZlesSWZeEBM
+TQID: 'https://experienceleague.adobe.com/tJoRYFhaVMF85CiVYna7eA8OLP34TONpZlesSWZeEBM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 794
+source-wordcount: '794'
 ht-degree: 12%
-
 ---
-
 # Überblick über den Zielstatus in Adobe Workfront Goals
 
 <!--Audited: 4/2025-->
@@ -69,10 +75,10 @@ Old:
 * Das Öffnen eines geschlossenen Ziels aktualisiert auch den Fortschritt des Ziels.
 * Bestimmte Aktionen, die Sie für ein Ziel ausführen, aktualisieren auch dessen Status. Informationen dazu, wie Sie den Zielstatus aktualisieren können, finden Sie in den folgenden Artikeln:
 
-   * [Erstellen von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/create-goals.md)
-   * [Aktivieren von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/activate-goals.md)
-   * [Löschen und Deaktivieren von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/delete-and-deactivate-goals.md)
-   * [Schließen und erneutes Öffnen von Zielen in Adobe Workfront Goals](../../workfront-goals/goal-management/close-and-reopen-goals.md)
+  * [Erstellen von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/create-goals.md)
+  * [Aktivieren von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/activate-goals.md)
+  * [Löschen und Deaktivieren von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/delete-and-deactivate-goals.md)
+  * [Schließen und erneutes Öffnen von Zielen in Adobe Workfront Goals](../../workfront-goals/goal-management/close-and-reopen-goals.md)
 
 ## Übersicht über die Zielstatus in Workfront Goals
 
@@ -83,7 +89,7 @@ Informationen zum Aktivieren von Zielen finden Sie unter [Aktivieren von Zielen 
 Ziele können einen der folgenden Status in Workfront Goals haben:
 
 * [Entwurf](#draft)
-* [aktiv](#active)
+* [Aktiv](#active)
 * [Inaktiv](#inactive)
 * [Geschlossen](#closed)
 
@@ -96,8 +102,8 @@ Ziele können einen der folgenden Status in Workfront Goals haben:
 * Entworfene Ziele tragen nicht zur Fortschrittsberechnung anderer Ziele bei und werden in Diagrammen nicht berücksichtigt.
 * Die entworfenen Ziele werden in den folgenden Bereichen der Workfront-Ziele angezeigt:
 
-   * Liste der Ziele
-   * Abschnitt „Zielausrichtung“ (nur als abgestimmtes Ziel)
+  * Liste der Ziele
+  * Abschnitt „Zielausrichtung“ (nur als abgestimmtes Ziel)
 
 
 >[!IMPORTANT]
@@ -111,9 +117,9 @@ Ziele können einen der folgenden Status in Workfront Goals haben:
 * Aktive Ziele tragen zur Fortschrittsberechnung anderer Ziele bei und werden in Diagrammen berücksichtigt.
 * Aktive Ziele werden in den folgenden Bereichen von Workfront-Zielen angezeigt:
 
-   * Liste der Ziele
-   * Abschnitt „Zielausrichtung“
-   * Der Fortschritt aktiver Ziele wird in Diagrammen angezeigt
+  * Liste der Ziele
+  * Abschnitt „Zielausrichtung“
+  * Der Fortschritt aktiver Ziele wird in Diagrammen angezeigt
 
 * Sie können ein geschlossenes oder inaktives Ziel reaktivieren.
 
@@ -131,8 +137,8 @@ Ziele können einen der folgenden Status in Workfront Goals haben:
 * Inaktive Ziele haben einen Fortschrittsverlauf, da sie früher aktiv waren, im Gegensatz zu den entworfenen Zielen.
 * Inaktive Ziele werden in den folgenden Bereichen von Workfront-Zielen angezeigt:
 
-   * Liste der Ziele
-   * Abschnitt „Zielausrichtung“ (nur als abgestimmte Ziele)
+  * Liste der Ziele
+  * Abschnitt „Zielausrichtung“ (nur als abgestimmte Ziele)
 
 ### Geschlossen {#closed}
 
@@ -148,6 +154,6 @@ Ziele können einen der folgenden Status in Workfront Goals haben:
 * Sie können den Fortschritt eines geschlossenen Ziels nicht aktualisieren.
 * Geschlossene Ziele werden im folgenden Bereich von Workfront-Ziele angezeigt:
 
-   * Liste der Ziele
-   * Abschnitt „Zielausrichtung“ (nur als abgestimmte Ziele)
-   * Informationen aus abgeschlossenen Zielen werden auch im Abschnitt Diagramme berücksichtigt.
+  * Liste der Ziele
+  * Abschnitt „Zielausrichtung“ (nur als abgestimmte Ziele)
+  * Informationen aus abgeschlossenen Zielen werden auch im Abschnitt Diagramme berücksichtigt.

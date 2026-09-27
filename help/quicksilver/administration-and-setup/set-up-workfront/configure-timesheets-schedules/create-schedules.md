@@ -3,32 +3,38 @@ user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: Zeitplan erstellen
-description: Sie können die Arbeitswochen Ihrer Benutzer mit Zeitplänen definieren. Sie können einen Zeitplan mit einem Benutzer oder Projekt verknüpfen. Dies ermöglicht  [!DNL Workfront]  Berechnung von Zeitplänen und Benutzerverfügbarkeit.
+description: Sie können die Arbeitswochen Ihrer Benutzer mit Zeitplänen definieren. Sie können einen Zeitplan mit einem Benutzer oder Projekt verknüpfen. Auf diese Weise können [!DNL Workfront] Timelines und die Benutzerverfügbarkeit berechnen.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/oAJzByrdYR9Ok-KXarAB5q2nv39g2ytNUrFqZTruLSU
+TQID: 'https://experienceleague.adobe.com/oAJzByrdYR9Ok-KXarAB5q2nv39g2ytNUrFqZTruLSU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 752
-ht-degree: 5%
-
+source-wordcount: '800'
+ht-degree: 4%
 ---
-
 # Zeitplan erstellen
 
 <!--Audited: 01/2024-->
@@ -42,7 +48,7 @@ Als [!DNL Adobe Workfront] können Sie Ihre Arbeitswoche mit Zeitplänen definie
 
 Wenn Sie Benutzer haben, die in verschiedenen Zeitzonen arbeiten, wird durch die Erstellung eines Zeitplans in jeder Zeitzone und die Verknüpfung mit diesen Benutzern sichergestellt, dass ihre Arbeit in [!DNL Workfront] in Echtzeit aufgezeichnet wird und dass ihre Verfügbarkeit immer korrekt ist, je nachdem, wann sie arbeiten.
 
-Informationen zum Verknüpfen von Zeitplänen mit Benutzern und Projekten [&#x200B; Sie unter &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) eines Benutzers bearbeiten und [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
+Informationen zum Verknüpfen von Zeitplänen mit Benutzern und Projekten [ Sie unter ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) eines Benutzers bearbeiten und [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 Gruppenadministratoren können auch Zeitpläne erstellen, die mit den von ihnen verwalteten Gruppen verknüpft sind. Weitere Informationen finden Sie unter [Erstellen und Ändern der Zeitpläne einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-schedules.md).
 

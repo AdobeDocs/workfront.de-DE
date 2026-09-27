@@ -3,25 +3,33 @@ content-type: overview
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: box
-title: Einführung in die Integration  [!DNL Workfront Proof]  und Box
+title: Einführung in die Integration von [!DNL Workfront Proof] und Box
 description: Durch unsere Integration mit dem Online File Sharing und Content Management System von Box können Sie neue Korrekturabzüge und neue Korrekturabzugsversionen direkt aus Dateien in Ihrem Box-Konto erstellen. Weitere Informationen zu Box finden Sie unter www.box.com.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 0050a478-30a9-4400-9854-9d6339114243
-TQID: https://experienceleague.adobe.com/2E60Y2iwE12qd8ofXwjXcuBj83lSZc9RqkhnKI-ydrs
+TQID: 'https://experienceleague.adobe.com/2E60Y2iwE12qd8ofXwjXcuBj83lSZc9RqkhnKI-ydrs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 435
+source-wordcount: '436'
 ht-degree: 0%
-
 ---
-
 # Einführung in die Integration von [!DNL Workfront Proof] und [!DNL Box]
 
 >[!IMPORTANT]
@@ -55,7 +63,7 @@ Bitte befolgen Sie die folgenden einfachen Schritte, um unsere App zu Ihrem Box-
 
 1. Rufen Sie in Ihrem [!DNL Box]-Konto den Abschnitt **[!UICONTROL Apps]** auf.
 1. Geben Sie in die Suchleiste **[!DNL Workfront Proof]Sync** ein.
-1. Klicken Sie in **Suchergebnissen auf**&#x200B;[!DNL Workfront Proof] Synchronisieren .
+1. Klicken Sie in ]**Suchergebnissen auf**[!UICONTROL [!DNL Workfront Proof] Synchronisieren .
 1. Klicken Sie **[!UICONTROL Hinzufügen]**, um die [!DNL Workfront Proof] Sync-App zu Ihrem Box-Konto hinzuzufügen.
 1. Klicken Sie im angezeigten Bestätigungsfeld auf **[!UICONTROL OK]**.
 

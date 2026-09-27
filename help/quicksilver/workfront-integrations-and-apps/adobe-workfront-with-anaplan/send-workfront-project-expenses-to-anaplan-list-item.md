@@ -1,32 +1,42 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: Senden  [!DNL Adobe Workfront]  Ausgaben an  [!DNL Anaplan]  Listenelement
-description: Dieses Integrationsszenario gibt kostenbezogene Details aus einem Projekt  [!DNL Adobe Workfront]  einem  [!DNL Anaplan] -Budgetlistenelement frei. Durch die Weitergabe dieser Informationen können Sie die Ausgabenoptimierung und die Finanzanalyse, die  [!DNL Anaplan]  bietet, besser nutzen.
+title: Senden [!DNL Adobe Workfront] Ausgaben an ein [!DNL Anaplan] Listenelement
+description: Dieses Integrationsszenario gibt kostenbezogene Details aus einem [!DNL Adobe Workfront] mit einem [!DNL Anaplan] Budgetlistenelement frei. Durch die Weitergabe dieser Informationen können Sie die von [!DNL Anaplan] bereitgestellten Funktionen zur Ausgabenoptimierung und Finanzanalyse besser nutzen.
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: f9198017-9bbb-4776-86aa-3f78705dbb22
-TQID: https://experienceleague.adobe.com/SOZ90sJuOCBZL9sUCQIw-Rm-WnFQA2Vqx81LdUDVOpA
+TQID: 'https://experienceleague.adobe.com/SOZ90sJuOCBZL9sUCQIw-Rm-WnFQA2Vqx81LdUDVOpA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 979
+source-wordcount: '985'
 ht-degree: 13%
-
 ---
-
 # Senden [!DNL Adobe Workfront] Ausgaben an ein [!DNL Anaplan] Listenelement
 
 Dieses Integrationsszenario gibt kostenbezogene Details aus einem [!DNL Adobe Workfront] mit einem [!DNL Anaplan] Budgetlistenelement frei. Durch die Weitergabe dieser Informationen können Sie die von [!DNL Anaplan] bereitgestellten Funktionen zur Ausgabenoptimierung und Finanzanalyse besser nutzen.
@@ -69,7 +79,7 @@ Dieses Integrationsszenario gibt kostenbezogene Details aus einem [!DNL Adobe Wo
 
 Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Informationen zu Adobe Workfront Fusion-Lizenzen finden Sie unter [Adobe Workfront Fusion-Lizenzen](https://experienceleague.adobe.com/de/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
+Informationen zu Adobe Workfront Fusion-Lizenzen finden Sie unter [Adobe Workfront Fusion-Lizenzen](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration).
 
 +++
 
@@ -105,31 +115,31 @@ Sie müssen über Folgendes verfügen, [!DNL Anaplan] dieses Szenario verwenden 
 * Die Liste innerhalb des [!DNL Anaplan], die Kampagnenbudgets erfassen soll.
 * Eine **[!UICONTROL Anaplan Actual Expense Import]**-Datei, die die folgenden Spalten in dieser Reihenfolge enthält:
 
-   1. [!UICONTROL [!DNL Workfront] Ausgabe-GUID]
+  1. [!UICONTROL [!DNL Workfront] Ausgabe-GUID]
 
-   2. [!UICONTROL [!DNL Workfront] Projekt-GUID]
+  2. [!UICONTROL [!DNL Workfront] Projekt-GUID]
 
-   3. [!UICONTROL Tatsächlicher Betrag]
+  3. [!UICONTROL Tatsächlicher Betrag]
 
-   4. [!UICONTROL Beschreibung]
+  4. [!UICONTROL Beschreibung]
 
-   5. [!UICONTROL Ausgabentyp]
+  5. [!UICONTROL Ausgabentyp]
 
-   6. [!UICONTROL Wirksamkeitsdatum]
+  6. [!UICONTROL Wirksamkeitsdatum]
 
-   7. [!UICONTROL Kampagnenname]
+  7. [!UICONTROL Kampagnenname]
 
-   8. [!UICONTROL [!DNL Anaplan] Listenelement-ID]
+  8. [!UICONTROL [!DNL Anaplan] Listenelement-ID]
 
   So bereiten Sie die [!UICONTROL [!DNL Anaplan] Actual Expense Import]-Datei vor:
 
-   1. Kopieren Sie Folgendes und fügen Sie es in einen Texteditor oder ein [!DNL Excel] ein.
-   1. Speichern Sie die Datei im CSV-Format.
-   1. Laden Sie die Datei in [!DNL Anaplan] hoch.
+  1. Kopieren Sie Folgendes und fügen Sie es in einen Texteditor oder ein [!DNL Excel] ein.
+  1. Speichern Sie die Datei im CSV-Format.
+  1. Laden Sie die Datei in [!DNL Anaplan] hoch.
 
-      Anweisungen finden Sie in der [!DNL Anaplan] Dokumentation zum Importieren von Daten aus einer Datei in -Module.
+     Anweisungen finden Sie in der [!DNL Anaplan] Dokumentation zum Importieren von Daten aus einer Datei in -Module.
 
-   1. Notieren Sie sich den Namen, den Sie der Datei gegeben haben. Er wird während der Bereitstellung der Szenariovorlage [!UICONTROL Fusion] verwendet.
+  1. Notieren Sie sich den Namen, den Sie der Datei gegeben haben. Er wird während der Bereitstellung der Szenariovorlage [!UICONTROL Fusion] verwendet.
 
   Beispiel für CSV-Inhalte
 
@@ -138,31 +148,31 @@ Sie müssen über Folgendes verfügen, [!DNL Anaplan] dieses Szenario verwenden 
 
 * Eine **[!UICONTROL [!DNL Anaplan]Importdatei für geplante Ausgaben]** die die folgenden Spalten in der folgenden Reihenfolge enthält:
 
-   1. [!UICONTROL [!DNL Workfront] Ausgabe-GUID]
+  1. [!UICONTROL [!DNL Workfront] Ausgabe-GUID]
 
-   2. [!UICONTROL [!DNL Workfront] Projekt-GUID]
+  2. [!UICONTROL [!DNL Workfront] Projekt-GUID]
 
-   3. [!UICONTROL Tatsächlicher Betrag]
+  3. [!UICONTROL Tatsächlicher Betrag]
 
-   4. [!UICONTROL Beschreibung]
+  4. [!UICONTROL Beschreibung]
 
-   5. [!UICONTROL Ausgabentyp]
+  5. [!UICONTROL Ausgabentyp]
 
-   6. [!UICONTROL Wirksamkeitsdatum]
+  6. [!UICONTROL Wirksamkeitsdatum]
 
-   7. [!UICONTROL Kampagnenname]
+  7. [!UICONTROL Kampagnenname]
 
-   8. [!UICONTROL [!DNL Anaplan] Listenelement-ID]
+  8. [!UICONTROL [!DNL Anaplan] Listenelement-ID]
 
-  So bereiten Sie die [!UICONTROL [!DNL Anaplan] Importdatei für geplante &#x200B;] vor:
+  So bereiten Sie die [!UICONTROL [!DNL Anaplan] Importdatei für geplante ] vor:
 
-   1. Folgendes kopieren und in einen Texteditor oder [!DNL Excel] einfügen
-   1. Speichern Sie die Datei im CSV-Format
-   1. Laden Sie die Datei in Anaplan hoch.
+  1. Folgendes kopieren und in einen Texteditor oder [!DNL Excel] einfügen
+  1. Speichern Sie die Datei im CSV-Format
+  1. Laden Sie die Datei in Anaplan hoch.
 
-      Anweisungen finden Sie in der [!DNL Anaplan] Dokumentation zum Importieren von Daten aus einer Datei in -Module.
+     Anweisungen finden Sie in der [!DNL Anaplan] Dokumentation zum Importieren von Daten aus einer Datei in -Module.
 
-   1. Notieren Sie sich den Namen, den Sie der Datei gegeben haben. Er wird während der Bereitstellung der Szenariovorlage [!UICONTROL Fusion] verwendet.
+  1. Notieren Sie sich den Namen, den Sie der Datei gegeben haben. Er wird während der Bereitstellung der Szenariovorlage [!UICONTROL Fusion] verwendet.
 
   Beispiel für CSV-Inhalte
 
@@ -250,7 +260,7 @@ Diese Szenariovorlage wird durch die folgenden Vorlagen für Ausgabenoptimierung
 Zusätzliche Szenarien für die Verknüpfung von Budgetanfragen:
 
 * [[!UICONTROL Erstellen eines  [!DNL Anaplan] -Listenelements aus einer  [!DNL Adobe Workfront] -Anfrage]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
-* [[!UICONTROL Budgetzuweisung  [!DNL Anaplan]  ein Projekt  [!DNL Adobe Workfront] &#x200B;]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
+* [[!UICONTROL Budgetzuweisung  [!DNL Anaplan]  ein Projekt  [!DNL Adobe Workfront] ]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
 Zusätzliche Szenarien für die Verknüpfung von Kampagnenanfragen:
 

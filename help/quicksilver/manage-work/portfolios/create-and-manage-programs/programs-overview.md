@@ -9,25 +9,31 @@ feature: Work Management, Strategic Planning
 exl-id: 1c64fe00-12e3-49f6-b864-b8f89ed9140d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/0ndc0Z8wEEfbo8zcfjrmhVGO9FnPhBC8m-Iqt0CM6vI
+TQID: 'https://experienceleague.adobe.com/0ndc0Z8wEEfbo8zcfjrmhVGO9FnPhBC8m-Iqt0CM6vI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 9e23143e-3f4f-5cbb-821d-095a63bee200
+    internal-label: Strategic Planning
 subfeature_v2:
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 494
+source-wordcount: '494'
 ht-degree: 7%
-
 ---
-
 # Überblick über Programme
 
 <!-- Audited: 08/2025 -->
@@ -125,18 +131,18 @@ Old:
 
 * Beachten Sie beim Erstellen von Projekten, Programmen und Portfolios Folgendes:
 
-   * Ein Projekt kann unabhängig sein, ohne mit einem Programm oder Portfolio verknüpft zu sein.
-   * Ein Projekt kann mit einem Portfolio verknüpft werden, es muss jedoch nicht auch mit einem Programm verknüpft sein.
-   * Ein Programm muss immer mit einem Portfolio verknüpft sein. Es kann nie außerhalb eines Portfolios existieren.
-   * Ein mit einem Programm verknüpftes Projekt ist immer mit dem Portfolio des Programms verknüpft.
-   * Ein Programm kann nur einem Portfolio zugeordnet werden.
-   * Ein Projekt kann jeweils nur einem Programm und dem Portfolio des Programms zugeordnet werden.
-   * Ein Portfolio kann mehrere Programme und Projekte umfassen.
-   * Ein Programm kann mehrere Projekte umfassen.
+  * Ein Projekt kann unabhängig sein, ohne mit einem Programm oder Portfolio verknüpft zu sein.
+  * Ein Projekt kann mit einem Portfolio verknüpft werden, es muss jedoch nicht auch mit einem Programm verknüpft sein.
+  * Ein Programm muss immer mit einem Portfolio verknüpft sein. Es kann nie außerhalb eines Portfolios existieren.
+  * Ein mit einem Programm verknüpftes Projekt ist immer mit dem Portfolio des Programms verknüpft.
+  * Ein Programm kann nur einem Portfolio zugeordnet werden.
+  * Ein Projekt kann jeweils nur einem Programm und dem Portfolio des Programms zugeordnet werden.
+  * Ein Portfolio kann mehrere Programme und Projekte umfassen.
+  * Ein Programm kann mehrere Projekte umfassen.
 
   Informationen zum Erstellen von Projekten und Portfolios finden Sie in den folgenden Artikeln:
-   * [Projekt erstellen](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
-   * [Erstellen von Portfolios](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
+  * [Projekt erstellen](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
+  * [Erstellen von Portfolios](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
 
 
 * Mit dem Portfolio-Optimizer können Sie die Leistung aller Projekte innerhalb eines Portfolios analysieren. Es ist nicht möglich, die Leistung mehrerer Projekte innerhalb desselben Programms allein zu vergleichen. Sie müssen die Projektleistung auf Portfolioebene analysieren.

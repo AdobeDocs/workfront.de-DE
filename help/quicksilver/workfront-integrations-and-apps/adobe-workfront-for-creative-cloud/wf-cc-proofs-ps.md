@@ -2,36 +2,46 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Hochladen von Testsendungen aus Adobe Photoshop
-description: Sie können Fotodokumentvorgaben als Korrekturabzüge direkt in hochladen [!DNL Adobe Workfront]  um eine gründliche Überprüfung und Genehmigung zu erhalten.
+description: Sie können Fotodokumentvorgaben als Korrekturabzüge direkt in [!DNL Adobe Workfront] hochladen, um sie gründlich zu überprüfen und zu genehmigen.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
-TQID: https://experienceleague.adobe.com/gV7TwIUpXsu4wBBb31QE2ADnvZ6vWXtwQBvFGPYt73Y
+TQID: 'https://experienceleague.adobe.com/gV7TwIUpXsu4wBBb31QE2ADnvZ6vWXtwQBvFGPYt73Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 625
+source-wordcount: '672'
 ht-degree: 5%
-
 ---
-
 # Hochladen von Testsendungen aus [!DNL Photoshop]
 
 Sie können bestimmte Photoshop-Dokumentvorgabentypen als Korrekturabzüge direkt in [!DNL Adobe Workfront] hochladen, um sie gründlich zu überprüfen und zu genehmigen.
 
 >[!IMPORTANT]
 >
->Bei der Datei muss es sich um eine Fotodokumentvorgabe handeln, wie unter [Vorlagen und Vorgaben in Photoshop](https://helpx.adobe.com/de/photoshop/using/create-documents.html) beschrieben.
+>Bei der Datei muss es sich um eine Fotodokumentvorgabe handeln, wie unter [Vorlagen und Vorgaben in Photoshop](https://helpx.adobe.com/photoshop/using/create-documents.html) beschrieben.
 
 
 
@@ -63,7 +73,7 @@ Sie können bestimmte Photoshop-Dokumentvorgabentypen als Korrekturabzüge direk
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Zugriff auf [!UICONTROL -Dokumente] bearbeiten</p>  </td> 
+   <td> <p>Zugriff auf [!UICONTROL-Dokumente] bearbeiten</p>  </td> 
   </tr> 
  </tbody> 
 </table>

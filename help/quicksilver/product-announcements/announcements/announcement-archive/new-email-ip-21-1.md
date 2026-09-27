@@ -6,22 +6,27 @@ description: Um den erfolgreichen E-Mail-Versand zu steigern, fügen wir mit der
 author: Luke
 feature: Product Announcements
 exl-id: b29c8de0-b405-4419-b52e-2d5536bc7f63
-TQID: https://experienceleague.adobe.com/-KslmXDeh9YgnBSS-gcvtkDT2fQFrVmyKtbhPpZMxaI
+TQID: 'https://experienceleague.adobe.com/-KslmXDeh9YgnBSS-gcvtkDT2fQFrVmyKtbhPpZMxaI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 231
+source-wordcount: '231'
 ht-degree: 9%
-
 ---
-
 # Neue IP-Adressen für Adobe Workfront-E-Mail mit Version 21.1
 
 Um den erfolgreichen E-Mail-Versand zu steigern, fügen wir mit der Produktionsversion 21.1 für die unten aufgeführten Cluster neue IP-Adressen hinzu. Um herauszufinden, auf welchem Cluster sich Ihre Instanz befindet, navigieren Sie zu Einrichtung > System > Kundeninformationen.
@@ -42,7 +47,7 @@ Fügen Sie die folgenden IP-Adressen zu Ihrer Zulassungsliste hinzu, um sicherzu
 * 23.251.239.98
 * 23.251.239.99
 
-(Weitere Informationen zu der Zulassungsliste und anderen IP-Adressen, die möglicherweise bereits zu Ihrer hinzugefügt werden, finden Sie unter [Konfigurieren der Firewall-Zulassungsliste &#x200B;](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).)
+(Weitere Informationen zu der Zulassungsliste und anderen IP-Adressen, die möglicherweise bereits zu Ihrer hinzugefügt werden, finden Sie unter [Konfigurieren der Firewall-Zulassungsliste ](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).)
 
 Wann muss dies geschehen?
 

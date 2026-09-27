@@ -6,22 +6,27 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4ade4df7-f910-45f6-b04d-55fe73131289
-TQID: https://experienceleague.adobe.com/5SjbF4tftb0c9nmRWo5TNNVlmtDofkavvw-y7XprcRY
+TQID: 'https://experienceleague.adobe.com/5SjbF4tftb0c9nmRWo5TNNVlmtDofkavvw-y7XprcRY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 773
+source-wordcount: '773'
 ht-degree: 1%
-
 ---
-
 # Weitere Verbesserungen in Version 23.1
 
 Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 23.1 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 16. Januar 2023 in der Produktionsumgebung verfügbar gemacht.
@@ -38,7 +43,7 @@ Mit diesem Plug-in können Sie auf Details zu Arbeitselementen zugreifen, mit Ko
 
 Laden Sie [Adobe Workfront for Design and Video](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) noch heute auf den Marketplace herunter.
 
-Administratoren können [&#x200B; Admin Console auch ein Paket mit den Plug](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html)ins erstellen und es Benutzern entweder auf verwaltete oder selbst verwaltete Weise bereitstellen.
+Administratoren können [ Admin Console auch ein Paket mit den Plug](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html)ins erstellen und es Benutzern entweder auf verwaltete oder selbst verwaltete Weise bereitstellen.
 
 ## Verbessertes Filtererlebnis allgemein verfügbar in Adobe Workfront
 
@@ -76,7 +81,7 @@ Mit diesem Plug-in können Sie auf Details zu Arbeitselementen zugreifen, mit Ko
 
 Laden Sie [Adobe Workfront for Design and Video](https://exchange.adobe.com/apps/cc/108938/adobe-workfront-for-design-and-video) noch heute auf den Markt.
 
-Administratoren können [&#x200B; Admin Console auch ein Paket mit den Plug](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html)ins erstellen und es Benutzern entweder auf verwaltete oder selbst verwaltete Weise bereitstellen.
+Administratoren können [ Admin Console auch ein Paket mit den Plug](https://helpx.adobe.com/in/enterprise/using/manage-extensions.html)ins erstellen und es Benutzern entweder auf verwaltete oder selbst verwaltete Weise bereitstellen.
 
 ## Zugriff auf die Workfront-Hilfe für Kunden mit dem einheitlichen Adobe-Erlebnis
 

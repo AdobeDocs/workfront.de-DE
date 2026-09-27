@@ -7,20 +7,27 @@ description: Wenn Ihr Unternehmen zur Eingabe der Arbeitsstunden Adobe Workfront
 author: Lisa
 feature: Timesheets
 exl-id: b26f8156-f9dc-43e7-8e0d-8c0905dc7a12
-TQID: https://experienceleague.adobe.com/BmOfadMjmjTQp77SeKauSY6hN7t3okIpamvVQO13YdE
+TQID: 'https://experienceleague.adobe.com/BmOfadMjmjTQp77SeKauSY6hN7t3okIpamvVQO13YdE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Troubleshooting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 344
+source-wordcount: '344'
 ht-degree: 4%
-
 ---
-
 # Nachverfolgen von Stundeneinträgen mit der Adobe Workfront-API
 
 Wenn Ihr Unternehmen zur Eingabe der Arbeitsstunden Adobe Workfront verwendet, aber ein anderes Tool als Aufzeichnungssystem für diese Daten verwendet, können Sie die Workfront-API verwenden, um Daten zwischen den beiden Systemen zu synchronisieren.
@@ -28,15 +35,15 @@ Wenn Ihr Unternehmen zur Eingabe der Arbeitsstunden Adobe Workfront verwendet, a
 Das einfache Nachverfolgen des Stundendatensatzes ist nicht möglich, da beim Entfernen des Stundeneintrags der gesamte Datensatz gelöscht wird, sodass Sie den gesamten Datensatz abrufen und mit dem alten Datensatz vergleichen müssen. Glücklicherweise werden alle Stundenbuchungen in Workfront-Journaleinträgen erfasst.
 
 Nachdem Sie einen ersten Satz aller aktuellen Stunden im System abgerufen haben, können Sie alle Änderungen über die Journaleinträge verfolgen.
-<pre>GET /attask/api/v5.0/JRNLE/search?subObjCode=HOUR&amp;fields=changeType,aux2,newNumberVal,oldNumberVal,subObjCode,subObjID</pre><pre>{<br>„data“: &lbrack;<br>{<br>„ID“: „5785406d008d93dd35665f14d90d4929“,<br>„objCode“: „JRNLE“,<br>„changeType“: „A“,<br>„aux2“: „Brad Littler“,<br>„newNumberVal“: 1,<br>„oldNumberVal“: null,<br>„subObjCode“: „STUNDE“,<br>„subObjID“: „5785406d008d93dce3f7f2e0e8eda4ea“<br>},<br>{<br>„ID“: „57854124008da2b9f372c01f8b9054bf“,<br>„objCode“: „JRNLE“,<br>„changeTypeD“:<br>„aux2“,Brad d dLittler“,newNumberVal:„null“<br>„oldNumberVal“: 1,<br>"<br>Code“: „STUNDE“,<br>„subObjID“: „5785406d003dce3f7e0e8eda„ea“,ID0„ID005db05ecode“: „JRNLE“,A00type„a05ecode„a„a„a„a„a„a„a„a„a„a„a„a„a„a„a„a„a„a„a„a„a„a„a„a„a„a„a„a „STUNDE“,<br>„subObjID“: "<br>f005db05d9d2925c12b10f521„ID“},{id}d„db22fe974b„ea62b2„objCode:„JRNLE“,<br>Type: „E“,5785416„aux2“: „Brad Littler“,934663Number“ 2,968366„oldNumberVal“: 1,<br>„subjCode“: „STUNDE“,<br>„subObjID“: "<br>f008db9d2925c12b10f52f“<br>}<br> <br> <br> 5785416 <br> <br> <br> 57854176008 <br> <br> <br> <br> <br> <br> <br> 5785416 <br> <br> <br>&rbrace;</pre>Im Folgenden finden Sie eine Beschreibung der eingeschlossenen Felder:
+<pre>GET /attask/api/v5.0/JRNLE/search?subObjCode=HOUR&amp;fields=changeType,aux2,newNumberVal,oldNumberVal,subObjCode,subObjID</pre><pre>{<br>„data“: [<br>{<br>„ID“: „5785406d008d93dd35665f14d90d4929“,<br>„objCode“: „JRNLE“,<br>„changeType“: „A“,<br>„aux2“: „Brad Littler“,<br>„newNumberVal“: 1,<br>„oldNumberVal“: null,<br>„subObjCode“: „STUNDE“,<br>„subObjID“: „5785406d008d93dce3f7f2e0e8eda4ea“<br>},<br>{<br>„ID“: „57854124008da2b9f372c01f8b9054bf“,<br>„objCode“: „JRNLE“,<br>„changeTypeD“:<br>„aux2“,Brad d dLittler“,newNumberVal:„null“<br>„oldNumberVal“: 1,<br>"<br>Code“: „STUNDE“,<br>„subObjID“: „5785406d003dce3f7e0e8eda„ea“,ID0„ID005db05ecode“: „JRNLE“,A00type„a05ecode„a„a„a„a„a„a„a„a„a„a„a„a„a„a„a„a„a„a„a„a„a„a„a„a„a„a„a„a „STUNDE“,<br>„subObjID“: "<br>f005db05d9d2925c12b10f521„ID“},{id}d„db22fe974b„ea62b2„objCode:„JRNLE“,<br>Type: „E“,5785416„aux2“: „Brad Littler“,934663Number“ 2,968366„oldNumberVal“: 1,<br>„subjCode“: „STUNDE“,<br>„subObjID“: "<br>f008db9d2925c12b10f52f“<br>}<br> <br> <br> 5785416 <br> <br> <br> 57854176008 <br> <br> <br> <br> <br> <br> <br> 5785416 <br> <br> <br>}</pre>Im Folgenden finden Sie eine Beschreibung der eingeschlossenen Felder:
 
 * **changeType:** Der Typ der Änderung, die am Objekt vorgenommen wird:
 
-   * **a:** hinzufügen
+  * **a:** hinzufügen
 
-   * **E:** Bearbeiten
+  * **E:** Bearbeiten
 
-   * **d:** Löschen
+  * **d:** Löschen
 
 * **aux2:** Der Name des Benutzers, für den der Stundeneintrag bestimmt ist.
 

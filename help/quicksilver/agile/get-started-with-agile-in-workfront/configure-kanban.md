@@ -8,22 +8,29 @@ feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/JxmS1LNAaCdJirWKbg1ab1d4oko8WOl9OC4mMdRIYVc
+TQID: 'https://experienceleague.adobe.com/JxmS1LNAaCdJirWKbg1ab1d4oko8WOl9OC4mMdRIYVc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: be65ef36-43e4-48e1-a062-caa3778e15be
+    internal-label: Agile
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1448
+source-wordcount: '1556'
 ht-degree: 3%
-
 ---
-
 # Konfigurieren von [!UICONTROL Kanban]
 
 <!--Audited: 12/2023-->
@@ -179,7 +186,7 @@ So beschränken Sie den laufenden Arbeitsaufwand für Ihr Kanban-Team:
 1. Stellen Sie **[!UICONTROL Abschnitt]** Agile“ im Abschnitt **[!UICONTROL Methodik]** sicher, dass Kanban ausgewählt ist.
 
 1. Geben Sie im Abschnitt **[!UICONTROL Storyboard]** im Feld **[!UICONTROL WIP-Limit]** die maximale Anzahl von Elementen an, die in jeder Spalte des Agile-Storyboards [!UICONTROL Kanban] zulässig ist. Sie können für jede Spalte ein anderes Limit festlegen. Die maximale Begrenzung, die Sie für jede Spalte festlegen können, beträgt 100.
-Wenn dieser Wert festgelegt ist, wird beim Überschreiten des Grenzwerts für jede Spalte [!UICONTROL &#x200B; Story Board eine Warnmeldung auf dem &#x200B;]-Board (Kanban) angezeigt. Diese Warnmeldung wird nur angezeigt, wenn das WIP-Limit zum ersten Mal überschritten wird. Diese Warnmeldung wird nicht in Spalten angezeigt, deren Status mit &quot;[!UICONTROL &quot; &#x200B;].
+Wenn dieser Wert festgelegt ist, wird beim Überschreiten des Grenzwerts für jede Spalte [!UICONTROL  Story Board eine Warnmeldung auf dem ]-Board (Kanban) angezeigt. Diese Warnmeldung wird nur angezeigt, wenn das WIP-Limit zum ersten Mal überschritten wird. Diese Warnmeldung wird nicht in Spalten angezeigt, deren Status mit &quot;[!UICONTROL &quot; ].
 Die WIP-Beschränkung ist lediglich eine visuelle Warnung und hindert Ihr Team nicht daran, mehr Elemente in einer Spalte als die von Ihnen festgelegte Beschränkung zu haben.
 
    ![WIP-Limit](assets/wip-limit-350x193.png)
@@ -205,7 +212,7 @@ Die nächste Story ist die unvollständige Story mit der niedrigsten Auftragsnum
 
 Auftragsbestand ist nicht dasselbe wie Priorität. Sie können die Reihenfolge der Rückstände anordnen, indem Sie Storys per Drag-and-Drop in die Spalte „Rückstand“ ziehen. Die Story am Anfang des Rückstands ist diejenige, die als Nächstes auf das Brett gezogen wird.
 
-So fügen Sie automatisch Storys aus dem Rückstand zum Kanban[!UICONTROL Board &#x200B;]:
+So fügen Sie automatisch Storys aus dem Rückstand zum Kanban[!UICONTROL Board ]:
 
 {{step1-to-team}}
 
@@ -218,9 +225,9 @@ So fügen Sie automatisch Storys aus dem Rückstand zum Kanban[!UICONTROL Board 
 
 1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
 
-## Konfigurieren Sie, wie lange Karten auf der Kanban[!UICONTROL Pinnwand &#x200B;] bleiben
+## Konfigurieren Sie, wie lange Karten auf der Kanban[!UICONTROL Pinnwand ] bleiben
 
-Sie können auswählen, wie lange ausgefüllte Karten auf der [!UICONTROL Kanban]-Pinnwand bleiben. Aufgaben, die vom Kanban[!UICONTROL Board &#x200B;], können weiterhin im ursprünglichen Projekt aufgerufen werden.
+Sie können auswählen, wie lange ausgefüllte Karten auf der [!UICONTROL Kanban]-Pinnwand bleiben. Aufgaben, die vom Kanban[!UICONTROL Board ], können weiterhin im ursprünglichen Projekt aufgerufen werden.
 
 {{step1-to-team}}
 
