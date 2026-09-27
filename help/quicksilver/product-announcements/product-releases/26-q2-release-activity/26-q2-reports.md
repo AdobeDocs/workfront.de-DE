@@ -5,15 +5,22 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4bc2fee9-fa86-41c7-80e7-44bf3e8077d8
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 7686cd33a5c761dc57cb488ea49a4139665949d9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 1%
-
 ---
-
 # Verbesserungen beim Reporting für das zweite Quartal 2026
 
 Auf dieser Seite werden die Verbesserungen beim Reporting in der Vorschau-Umgebung beschrieben, die mit der Version vom zweiten Quartal 2026 vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
@@ -24,7 +31,9 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im zweiten Quartal 2026 ve
 
 >[!NOTE]
 >
->Vorschau: 2. April 2026>Produktions-Schnellveröffentlichung: 15. April 2026>Produktion für alle: 16. April 2026
+>Vorschau: 2. April 2026
+>Produktions-Schnellveröffentlichung: 15. April 2026
+>Produktion für alle: 16. April 2026
 
 Wir haben dem Dokumentversionsobjekt ein `currentVersion` boolesches Feld hinzugefügt, damit Sie die neueste Version eines Dokuments leichter identifizieren und darüber berichten können.
 Mit diesem Update:
@@ -34,8 +43,8 @@ Mit diesem Update:
 
 * Wenn eine neue Version hochgeladen wird:
 
-   * Die neue Version wird als `TRUE` gekennzeichnet
-   * Frühere Versionen sind als `FALSE` gekennzeichnet
+  * Die neue Version wird als `TRUE` gekennzeichnet
+  * Frühere Versionen sind als `FALSE` gekennzeichnet
 
 * Berichte können aktuelle Versionen in allen Arbeitsflächen-Dashboards und in Legacy-Berichten konsistent identifizieren
 
@@ -45,7 +54,9 @@ Vorhandene Filter für klassische Berichte, die `isCurrentVersion` oder `isDocum
 
 >[!NOTE]
 >
->Vorschau: 3. April 2026>Produktions-Schnellveröffentlichung: 15. April 2026>Produktion für alle: 16. April 2026
+>Vorschau: 3. April 2026
+>Produktions-Schnellveröffentlichung: 15. April 2026
+>Produktion für alle: 16. April 2026
 
 Workfront enthält jetzt einen neuen Bereitstellungstyp Link für geplante Berichte. Anstatt eine Datei zu generieren und anzuhängen, sendet diese Option eine E-Mail mit einem direkten Link zum Bericht in Workfront, damit die Empfängerinnen und Empfänger `{{$include }}` aktuellen Daten in der Anwendung anzeigen können.
 
@@ -59,7 +70,9 @@ Weitere Informationen finden Sie unter [Planen einer automatischen Berichtsberei
 
 >[!NOTE]
 >
->Vorschau: 2. April 2026>Produktions-Schnellveröffentlichung: 15. April 2026>Produktion für alle: 16. April 2026
+>Vorschau: 2. April 2026
+>Produktions-Schnellveröffentlichung: 15. April 2026
+>Produktion für alle: 16. April 2026
 >
 >Canvas Dashboards befindet sich derzeit in der Beta-Phase.
 
@@ -73,7 +86,9 @@ Weitere Informationen finden Sie unter [Erstellen eines KPI-Berichts in einem Ar
 
 >[!NOTE]
 >
->Vorschau: 12. März 2026>Produktions-Schnellveröffentlichung: 12. März 2026>Produktion für alle: 16. April 2026
+>Vorschau: 12. März 2026
+>Produktions-Schnellveröffentlichung: 12. März 2026
+>Produktion für alle: 16. April 2026
 
 Sie können sich jetzt mit RSA-Schlüsseln oder programmgesteuerten Zugriffstoken (PAT)-Verbindungen bei Data Connect authentifizieren und so sicherere und flexiblere Alternativen zu herkömmlichen Benutzernamen-/Passwort-Anmeldeinformationen hinzufügen.
 
@@ -87,7 +102,9 @@ Diese neuen Optionen ermöglichen es Unternehmen, stabile Verbindungen von Power
 
 >[!NOTE]
 >
->Vorschau: 26. Februar 2026>Produktions-Schnellveröffentlichung: 12. März 2026>Produktion für alle: 16. April 2026
+>Vorschau: 26. Februar 2026
+>Produktions-Schnellveröffentlichung: 12. März 2026
+>Produktion für alle: 16. April 2026
 
 Die benutzerdefinierte Feldbezeichnung wird jetzt vor dem Feldnamen und dem -Objekt in den Tools zum Erstellen von Berichten angezeigt, sodass Sie Felder leichter finden können. Feldbezeichnungen werden auch beim Definieren von Filtern, Ansichten und Gruppierungen in Listen angezeigt.
 
@@ -99,14 +116,16 @@ Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Beri
 
 >[!NOTE]
 >
->Vorschau: 26. Februar 2026>Produktions-Schnellveröffentlichung: 12. März 2026>Produktion für alle: 16. April 2026
+>Vorschau: 26. Februar 2026
+>Produktions-Schnellveröffentlichung: 12. März 2026
+>Produktion für alle: 16. April 2026
 
 Sie können jetzt Berichte mithilfe von freigebbaren Berichtsordnern organisieren und freigeben. Diese neue Funktion hilft Teams, die große Mengen an Berichten verwalten, skalierbare und konsistente Zugriffskontrolle zu gewährleisten:
 
 * **Organisierte Ordnerstrukturen erstellen**: Systemadministratoren können Ordner der obersten Ebene erstellen, und Benutzer mit dem Zugriff „Verwalten“ können Unterordner mit bis zu vier Ebenen erstellen.
 * **Granulare Berechtigungssteuerungen**: Freigeben von Ordnern mit zwei Berechtigungsebenen:
-   * Anzeigen: Benutzer können Berichte öffnen und Ordner freigeben
-   * Verwalten : Benutzer können Ordnerdetails bearbeiten, Elemente hinzufügen/entfernen und automatisch Verwaltungszugriff auf alle Berichte im Ordner erhalten
+  * Anzeigen: Benutzer können Berichte öffnen und Ordner freigeben
+  * Verwalten : Benutzer können Ordnerdetails bearbeiten, Elemente hinzufügen/entfernen und automatisch Verwaltungszugriff auf alle Berichte im Ordner erhalten
 * **Geerbte Berechtigungen**: Berechtigungen werden von übergeordneten Ordnern an alle Unterordner und Berichte innerhalb der Ordnerstruktur weitergegeben
 * **Erweitertes Listenerlebnis**: Wenn Sie freigebbare Ordner aktivieren, haben Sie Zugriff auf das erweiterte Listenerlebnis. Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
@@ -117,7 +136,9 @@ Weitere Informationen finden Sie unter [Verwenden von freigebbaren Berichtsordne
 
 >[!NOTE]
 >
->Vorschau: 26. Februar 2026>Produktions-Schnellveröffentlichung: 12. März 2026>Produktion für alle: 16. April 2026
+>Vorschau: 26. Februar 2026
+>Produktions-Schnellveröffentlichung: 12. März 2026
+>Produktion für alle: 16. April 2026
 
 >[!NOTE]
 >

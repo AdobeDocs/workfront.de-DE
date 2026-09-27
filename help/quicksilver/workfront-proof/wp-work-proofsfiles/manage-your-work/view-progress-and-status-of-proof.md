@@ -7,18 +7,26 @@ description: Der Korrekturabzug-Fortschritt gibt die Arbeit an, die an einem Kor
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 8fd85595-1403-490e-9d52-2ba5b01457b7
-TQID: https://experienceleague.adobe.com/RT6tZgY8-PP4bmiowZFQm1BK84Bd1CAguWcWRv9Hpqs
+TQID: 'https://experienceleague.adobe.com/RT6tZgY8-PP4bmiowZFQm1BK84Bd1CAguWcWRv9Hpqs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1139
+source-wordcount: '1139'
 ht-degree: 0%
-
 ---
-
 # Anzeigen des Fortschritts und Status eines Korrekturabzugs in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -141,11 +149,11 @@ In der Zusammenfassung können Sie die folgenden Details Ihres Korrekturabzugs a
 * Frist für die Etappe (3)
 * Reviewer-Details:
 
-   * Anzahl der Kommentare und Antworten der einzelnen Prüfer (4)
-   * Fortschritt der einzelnen Validierungsverantwortlichen (5)
-   * Entscheidung (Wenn eine Entscheidung elektronische Signaturen enthält, wird neben der Entscheidung ein Symbol angezeigt, das dies angibt.) (6)
-   * Rolle im Testversand (7)
-   * E-Mail-Warnhinweiseinstellungen (8)
+  * Anzahl der Kommentare und Antworten der einzelnen Prüfer (4)
+  * Fortschritt der einzelnen Validierungsverantwortlichen (5)
+  * Entscheidung (Wenn eine Entscheidung elektronische Signaturen enthält, wird neben der Entscheidung ein Symbol angezeigt, das dies angibt.) (6)
+  * Rolle im Testversand (7)
+  * E-Mail-Warnhinweiseinstellungen (8)
 
 >[!NOTE]
 >

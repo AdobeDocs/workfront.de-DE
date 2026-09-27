@@ -6,25 +6,28 @@ author: Courtney
 feature: Get Started with Workfront
 hide: true
 exl-id: 5efa1912-e827-42ef-8001-4de63a63a6c4
-TQID: https://experienceleague.adobe.com/8zSlhpBj99ss5H0yhxu0sW2KJNGambIgd6ZZlASobkQ
+TQID: 'https://experienceleague.adobe.com/8zSlhpBj99ss5H0yhxu0sW2KJNGambIgd6ZZlASobkQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 694
+source-wordcount: '694'
 ht-degree: 0%
-
 ---
-
 # Übersicht über Experience Cloud-Benachrichtigungen
 
 Adobe Workfront-Benachrichtigungen werden jetzt in das zentrale Benachrichtigungssystem von Adobe namens Experience Cloud-Benachrichtigungen übertragen. Dieses Benachrichtigungssystem wird von allen Produkten für digitale Erlebnisse verwendet.
 
-Ab oder um Februar 2026 werden aktuelle Workfront-E-Mails und In-App-Benachrichtigungen zu Experience Cloud-Benachrichtigungen migriert. Diese Arbeiten werden in mehreren Phasen abgeschlossen. Das Workfront-Team informiert Ihr Unternehmen, bevor die Migration beginnen soll.
+Ab oder um Februar 2026 werden aktuelle E-Mail- und In-App-Benachrichtigungen von Workfront zu Experience Cloud-Benachrichtigungen migriert. Diese Arbeiten werden in mehreren Phasen abgeschlossen. Das Workfront-Team informiert Ihr Unternehmen, bevor die Migration beginnen soll.
 
 Nach dieser Umstellung können Benutzende an einem Ort auf alle Benachrichtigungen in Adobe Workfront und anderen Adobe DX-Anwendungen zugreifen, wodurch sie einfacher informiert bleiben und ihre Voreinstellungen verwalten können.
 
@@ -32,7 +35,7 @@ Nach dieser Umstellung können Benutzende an einem Ort auf alle Benachrichtigung
 
 ## Warum wir diese Änderung vornehmen
 
-Workfront ist Teil der Adobe-Suite mit Produkten für digitale Erlebnisse. Der Wechsel zu Experience Cloud bietet mehrere Vorteile, darunter die folgenden:
+Workfront ist Teil der Adobe-Suite mit Produkten für digitale Erlebnisse. Der Wechsel zu Experience Cloud bietet verschiedene Vorteile, darunter die folgenden:
 
 * Einheitliches Benachrichtigungserlebnis: Sie können jetzt eine Oberfläche nutzen, die für alle Adobe DX-Lösungen funktioniert.
 * Bleiben Sie auf dem Laufenden: Wenn Sie Benachrichtigungen an einem Ort vereinheitlichen, verringert sich das Risiko fehlender Benachrichtigungen.
@@ -42,7 +45,7 @@ Workfront ist Teil der Adobe-Suite mit Produkten für digitale Erlebnisse. Der W
 ## Änderungen
 
 * Das Workfront-Benachrichtigungssymbol in der oberen Kopfzeile wurde durch ein einziges Benachrichtigungssymbol ersetzt.
-* Ihre persönlichen Benachrichtigungseinstellungen können jetzt über das neue Bedienfeld Benachrichtigungen in Experience Cloud und die Seite Alle Benachrichtigungen aufgerufen werden. Zuvor wurde in Ihrem Benutzerprofil auf diese zugegriffen.
+* Auf Ihre persönlichen Benachrichtigungseinstellungen können Sie jetzt über das neue Bedienfeld Experience Cloud-Benachrichtigungen und die Seite Alle Benachrichtigungen zugreifen. Zuvor wurde in Ihrem Benutzerprofil auf diese zugegriffen.
 * Es stehen neue Filter- und Bereitstellungsoptionen zur Verfügung.
 * Die Anpassung der Betreffzeilen von E-Mail-Benachrichtigungen ist nicht mehr verfügbar.
 
@@ -58,7 +61,7 @@ Workfront ist Teil der Adobe-Suite mit Produkten für digitale Erlebnisse. Der W
 
 1. Klicken Sie oben rechts in Workfront auf das Symbol **Benachrichtigungen** (Symbol ![Benachrichtigungen](assets/bell-icon.png).
 
-1. Wählen Sie im sich öffnenden Bedienfeld **Experience Cloud** Benachrichtigungen die Option **Benachrichtigungen** aus. Eine Liste Ihrer Benachrichtigungen wird angezeigt, wobei die letzte Benachrichtigung oben in der Liste angezeigt wird.
+1. Wählen Sie im sich **Bereich** Experience Cloud-Benachrichtigungen **die Option „Benachrichtigungen** aus. Eine Liste Ihrer Benachrichtigungen wird angezeigt, wobei die letzte Benachrichtigung oben in der Liste angezeigt wird.
 
 1. Klicken Sie auf eine Benachrichtigung, um sie als *Lesen* zu markieren und aus der Liste der letzten Benachrichtigungen zu entfernen.
 
@@ -76,7 +79,7 @@ Workfront ist Teil der Adobe-Suite mit Produkten für digitale Erlebnisse. Der W
 
 1. Klicken Sie oben rechts in Workfront auf das Symbol **Benachrichtigungen** (![) &#x200B;](assets/bell-icon.png).
 
-1. Klicken Sie oben rechts im Bedienfeld **Experience Cloud** auf das Symbol **Einstellungen** Einstellungen![Symbol &#x200B;](assets/settings-icon.png).
+1. Klicken Sie oben rechts im Bedienfeld **Experience Cloud** auf das Symbol **Einstellungen** ![Einstellungen](assets/settings-icon.png).
 
 1. Klicken **Abschnitt „Benachrichtigungen** auf das Pfeilsymbol ![Workfront-Kachelpfeil](assets/arrow-icon.png) auf der Kachel **Workfront**.
 
@@ -95,10 +98,10 @@ Nein. Ihre historischen Benachrichtigungen bleiben in Workfront verfügbar, aber
 
 +++ Müssen meine Benutzer etwas tun?
 
-Anfangs nicht. Workfront-Administratoren überprüfen zunächst das Setup, und die Benutzer bemerken das neue Benachrichtigungssymbol, nachdem die Umstellung auf Experience Cloud erfolgt ist. Dort müssen sie lernen, wie sie auf ihre persönlichen Benachrichtigungen zugreifen können.
+Anfangs nicht. Workfront-Administratoren überprüfen zunächst die Einrichtung, und Benutzer bemerken das neue Benachrichtigungssymbol, nachdem die Umstellung auf Experience Cloud erfolgt ist. Dort müssen sie lernen, wie sie auf ihre persönlichen Benachrichtigungen zugreifen können.
 +++
 
-+++Was ist, wenn mein Unternehmen für den Wechsel zu Experience Cloud nicht bereit ist?
++++Was passiert, wenn mein Unternehmen nicht bereit für die Umstellung auf Experience Cloud ist?
 
 Wenn Sie den Übergang neu planen müssen, stimmen Sie sich bitte mit Ihrem Account-Team oder dem Kunden-Support ab. Alle Kundinnen und Kunden müssen jedoch zum neuen Benachrichtigungserlebnis wechseln. Daher wird eine frühere Übernahme empfohlen.
 +++

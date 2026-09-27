@@ -9,20 +9,24 @@ feature: Reports and Dashboards
 exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/VS98ehq5B16r2n9wwHhWUSgTR3gI-i9GgQYRtLKylz0
+TQID: 'https://experienceleague.adobe.com/VS98ehq5B16r2n9wwHhWUSgTR3gI-i9GgQYRtLKylz0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 932
+source-wordcount: '932'
 ht-degree: 0%
-
 ---
-
 # Überblick über „IF“-Anweisungen
 
 <!-- Audited: 1/2024 -->
@@ -42,9 +46,9 @@ Beachten Sie Folgendes, bevor Sie eine „IF“-Anweisung erstellen:
 
 * Sie können „IF“-Anweisungen für die folgenden Workfront-Elemente erstellen:
 
-   * Ansichten
-   * Gruppierungen
-   * Berechnete benutzerdefinierte Felder
+  * Ansichten
+  * Gruppierungen
+  * Berechnete benutzerdefinierte Felder
 
 * Für Filter können keine „IF“-Anweisungen erstellt werden. Dies führt zu einem Hoppla-Fehler in Workfront.
 * Das Support-Team hilft nicht beim Erstellen benutzerdefinierter Daten. Sie können sich an das Support-Team wenden, nachdem Sie die benutzerdefinierten Felder oder Spalten erstellt haben und die gewünschten Ergebnisse nicht angezeigt werden. Wenn Sie Hilfe bei der Erstellung eines Ausdrucks benötigen, wenden Sie sich an Ihren Kundenbetreuer, um sich über unsere Beratungsoptionen zu informieren.
@@ -60,9 +64,9 @@ Sie können „IF“-Anweisungen in Workfront in folgendem Format erstellen:
 
 * **Bedingung** = Dies ist die Bedingung, die die Workfront-Variable erfüllen muss, und sie ist die Grundlage für diese Gleichung. Alles, was später in der Gleichung angegeben werden kann, hängt von der Bedingung ab. Sie können mehrere Verweise, Vergleiche oder mathematische Ausdrücke verwenden, um eine Gleichung zu starten. Beispiele für Bedingungen:
 
-   * Ein Datum ist größer als ein anderes Datum für ein angegebenes Objekt.
-   * Ein Status entspricht einem der verfügbaren Status für ein angegebenes Objekt.
-   * Prozent abgeschlossen einer Aufgabe ist kleiner oder größer als ein bestimmter Prozentsatz.
+  * Ein Datum ist größer als ein anderes Datum für ein angegebenes Objekt.
+  * Ein Status entspricht einem der verfügbaren Status für ein angegebenes Objekt.
+  * Prozent abgeschlossen einer Aufgabe ist kleiner oder größer als ein bestimmter Prozentsatz.
 
 * **Bedingungsoperator** = Dies ist der Operator, der Ihnen beim Erstellen der Bedingung Ihrer „IF“-Anweisung hilft. Beispielsweise sind „ist gleich“ oder „ist größer als“ Bedingungsoperatoren. Eine Liste der Bedingungsoperatoren, die Sie in Anweisungen verwenden können, finden Sie unter [Bedingungsoperatoren in berechneten benutzerdefinierten Ausdrücken](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 

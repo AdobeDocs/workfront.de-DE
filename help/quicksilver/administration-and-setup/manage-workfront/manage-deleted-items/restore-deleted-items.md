@@ -8,26 +8,33 @@ feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-TQID: https://experienceleague.adobe.com/1IXsiNHxckJbTd30JCR3N4bEGOyAWfLRBdGj8dGsHnY
+TQID: 'https://experienceleague.adobe.com/1IXsiNHxckJbTd30JCR3N4bEGOyAWfLRBdGj8dGsHnY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1029
+source-wordcount: '1029'
 ht-degree: 5%
-
 ---
-
 # Gelöschte Elemente wiederherstellen
 
 <!--Audited: 12/2023-->
@@ -95,15 +102,15 @@ Beim Wiederherstellen eines Projekts, einer Aufgabe oder eines Problems werden d
 * Statuswerte
 * Finanzielle Informationen:
 
-   * Abrechnungseinträge
-   * Abrechnungssätze
-   * Ausgaben
+  * Abrechnungseinträge
+  * Abrechnungssätze
+  * Ausgaben
 
 * Zeitleisteninformationen:
 
-   * Vorgänger
-   * Aufgabenbeschränkungen
-   * Dauertyp
+  * Vorgänger
+  * Aufgabenbeschränkungen
+  * Dauertyp
 
 * Baselines
 
@@ -125,12 +132,12 @@ Beim Wiederherstellen eines Projekts, einer Aufgabe oder eines Problems werden d
 
   Beachten Sie beim Wiederherstellen von Dokumenten und Dokumentversionen Folgendes:
 
-   * Dokumente, die einzeln gelöscht wurden, können einzeln wiederhergestellt werden.
+  * Dokumente, die einzeln gelöscht wurden, können einzeln wiederhergestellt werden.
 
-     Dokumente, die zusammen mit dem übergeordneten Projekt, der übergeordneten Aufgabe oder dem übergeordneten Problem gelöscht wurden, werden beim Wiederherstellen des übergeordneten Elements wiederhergestellt. Sie können sie jedoch nicht einzeln wiederherstellen.
+    Dokumente, die zusammen mit dem übergeordneten Projekt, der übergeordneten Aufgabe oder dem übergeordneten Problem gelöscht wurden, werden beim Wiederherstellen des übergeordneten Elements wiederhergestellt. Sie können sie jedoch nicht einzeln wiederherstellen.
 
-   * Alle Versionen eines Dokuments oder eines Korrekturabzugs werden wiederhergestellt, wenn das Dokument wiederhergestellt wird.\
-     Einzelne Versionen eines Dokuments oder eines Korrekturabzugs, die einzeln gelöscht wurden, können nicht wiederhergestellt werden.
+  * Alle Versionen eines Dokuments oder eines Korrekturabzugs werden wiederhergestellt, wenn das Dokument wiederhergestellt wird.\
+    Einzelne Versionen eines Dokuments oder eines Korrekturabzugs, die einzeln gelöscht wurden, können nicht wiederhergestellt werden.
 
 ## Informationen, die beim Wiederherstellen eines Projekts, einer Aufgabe oder eines Problems nicht wiederhergestellt werden
 
@@ -179,13 +186,13 @@ Wenn Sie ein Projekt, eine Aufgabe oder ein Problem wiederherstellen, werden die
 
 * Nach dem Wiederherstellen eines Elements:
 
-   * Es wird eine Meldung angezeigt, die Sie darüber informiert, ob Sie erfolgreich waren.
+  * Es wird eine Meldung angezeigt, die Sie darüber informiert, ob Sie erfolgreich waren.
 
-     Sie erhalten auch eine E-Mail-Benachrichtigung. Wenn Sie mehrere Elemente wiederhergestellt haben, werden sie in der E-Mail aufgelistet.
+    Sie erhalten auch eine E-Mail-Benachrichtigung. Wenn Sie mehrere Elemente wiederhergestellt haben, werden sie in der E-Mail aufgelistet.
 
-   * Ein Kommentar wird im Bereich Aktualisierungen des Projekts, der Aufgabe oder des Problems und im Bereich des übergeordneten Objekts angezeigt.
+  * Ein Kommentar wird im Bereich Aktualisierungen des Projekts, der Aufgabe oder des Problems und im Bereich des übergeordneten Objekts angezeigt.
 
-     Dies geschieht nicht, wenn Sie ein Dokument oder eine Vorlage wiederherstellen.
+    Dies geschieht nicht, wenn Sie ein Dokument oder eine Vorlage wiederherstellen.
 
 ## Wiederhergestellte Korrekturabzüge
 

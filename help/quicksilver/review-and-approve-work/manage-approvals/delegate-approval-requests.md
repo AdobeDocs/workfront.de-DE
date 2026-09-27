@@ -8,28 +8,39 @@ feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/NaHz1Kof1NTCYBST3qhAy-K8BQZKvqOoI1VCEyA2yXM
+TQID: 'https://experienceleague.adobe.com/NaHz1Kof1NTCYBST3qhAy-K8BQZKvqOoI1VCEyA2yXM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1199
+source-wordcount: '1203'
 ht-degree: 3%
-
 ---
-
 # Delegieren von Genehmigungsanfragen
 
 Sie können die Ihnen zugewiesene Arbeit vorübergehend delegieren, während Sie abwesend sind. Sie können Aufgaben- und Problemzuweisungen oder Genehmigungsanfragen delegieren. In diesem Artikel wird beschrieben, wie Sie Genehmigungsanforderungen delegieren. Informationen zum Delegieren von Aufgaben- und Problemzuweisungen finden Sie unter [Delegieren von Aufgaben und Problemen](../../manage-work/delegate-work/how-to-delegate-work.md).
@@ -135,11 +146,11 @@ So delegieren Sie Genehmigungen an einen anderen Benutzer:
 1. Geben Sie im Abschnitt „Meine Genehmigungen delegieren“ folgende Informationen an:
 
    * **Name**: Geben Sie den Namen des Benutzers ein, an den Sie Genehmigungen delegieren möchten, und klicken Sie auf den Namen, wenn er im Dropdown-Menü angezeigt wird.
-   * **Startdatum**: Wählen Sie das Datum aus, an dem Genehmigungen weitergeleitet werden. Die Weiterleitung beginnt um 12 :00 Uhr an dem von Ihnen ausgewählten Datum.\
+   * **Startdatum**: Wählen Sie das Datum aus, an dem Genehmigungen weitergeleitet werden. Die Weiterleitung beginnt um 12:00 Uhr an dem von Ihnen ausgewählten Datum.\
      Das Startdatum muss das aktuelle Datum oder ein Datum in der Zukunft sein.
    * **Enddatum**: Führen Sie einen der folgenden Schritte aus:
-      * Wählen Sie das Datum aus, an dem Genehmigungen nicht mehr weitergeleitet werden sollen. Die Weiterleitung endet um :59 Uhr an dem von Ihnen ausgewählten Datum.
-      * Wählen Sie **Kein Enddatum** aus, um Workfront so zu konfigurieren, dass Genehmigungen auf unbestimmte Zeit delegiert werden.
+     * Wählen Sie das Datum aus, an dem Genehmigungen nicht mehr weitergeleitet werden sollen. Die Weiterleitung endet um 23:59 Uhr an dem von Ihnen ausgewählten Datum.
+     * Wählen Sie **Kein Enddatum** aus, um Workfront so zu konfigurieren, dass Genehmigungen auf unbestimmte Zeit delegiert werden.
 
 1. Klicken Sie auf **Speichern**.
 
@@ -155,11 +166,11 @@ So delegieren Sie Genehmigungen an einen anderen Benutzer:
 1. Geben Sie im Abschnitt „Meine Genehmigungen delegieren“ folgende Informationen an:
 
    * **Name**: Geben Sie den Namen des Benutzers ein, an den Sie Genehmigungen delegieren möchten, und klicken Sie auf den Namen, wenn er im Dropdown-Menü angezeigt wird.
-   * **Startdatum**: Wählen Sie das Datum aus, an dem Genehmigungen weitergeleitet werden. Die Weiterleitung beginnt um 12 :00 Uhr an dem von Ihnen ausgewählten Datum.\
+   * **Startdatum**: Wählen Sie das Datum aus, an dem Genehmigungen weitergeleitet werden. Die Weiterleitung beginnt um 12:00 Uhr an dem von Ihnen ausgewählten Datum.\
      Das Startdatum muss das aktuelle Datum oder ein Datum in der Zukunft sein.
    * **Enddatum**: Führen Sie einen der folgenden Schritte aus:
-      * Wählen Sie das Datum aus, an dem Genehmigungen nicht mehr weitergeleitet werden sollen. Die Weiterleitung endet um :59 Uhr an dem von Ihnen ausgewählten Datum.
-      * Wählen Sie **Kein Enddatum** aus, um Workfront so zu konfigurieren, dass Genehmigungen auf unbestimmte Zeit delegiert werden.
+     * Wählen Sie das Datum aus, an dem Genehmigungen nicht mehr weitergeleitet werden sollen. Die Weiterleitung endet um 23:59 Uhr an dem von Ihnen ausgewählten Datum.
+     * Wählen Sie **Kein Enddatum** aus, um Workfront so zu konfigurieren, dass Genehmigungen auf unbestimmte Zeit delegiert werden.
 
 ## Aktualisieren oder Beenden einer Genehmigungsdelegierung {#update-or-stop-an-approval-delegation}
 

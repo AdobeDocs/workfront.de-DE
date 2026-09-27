@@ -8,22 +8,31 @@ recommendations: noDisplay, noCatalog
 exl-id: 6e039b80-e3bf-412c-8c86-8f801f5861e3
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/lmewrF5ro-lPmIija0YlTRC-iaFr939tRNT-JgMOg4w
+TQID: 'https://experienceleague.adobe.com/lmewrF5ro-lPmIija0YlTRC-iaFr939tRNT-JgMOg4w'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3410
+source-wordcount: '3415'
 ht-degree: 2%
-
 ---
-
 <!--drafted because Kari Woolf will write something for Field Readiness instead, nothing for ExL, public-facing documentation-->
 
 # Adobe Workfront Planning - Implementierungsempfehlungen
@@ -59,12 +68,12 @@ Im Folgenden finden Sie einige häufig gestellte Fragen zur Konfiguration von Wo
 * ✅ erkunden Sie zunächst unsere vordefinierten Arbeitsbereich-Vorlagen, um Ideen für vorhandene ähnliche Anwendungsfälle zu erhalten. Sie können die vordefinierten Eintragstypen und Felder in einer Vorlage verwenden oder eigene hinzufügen.
 * ✅ Identifizieren Sie die wichtigsten Anwendungsfälle, die Sie mit Workfront Planning lösen möchten. Die meisten Unternehmen möchten zum Beispiel den Überblick über strategische Aktivitäten verbessern, wozu auch die Erstellung eines besseren „Kampagnenkalenders“ gehören kann. Für diesen Anwendungsfall sollten Sie also zunächst einige Fragen beantworten:
 
-   * Wer fragt danach?
-   * Wie nennen sie die Dinge, die sie in den Kalender aufnehmen wollen?
-Kampagnen? Taktik? Initiativen? Aktivitäten? Ereignisse?
-   * Welche Fragen möchten sie mit diesem Kalender beantworten?
-   * Gibt es überlappende Kampagnen für dieselbe Zielgruppe?
-   * Wie hoch ist das Budget für diese Kampagne, Taktik, Aktivität oder dieses Ereignis?
+  * Wer fragt danach?
+  * Wie nennen sie die Dinge, die sie in den Kalender aufnehmen wollen?
+    Kampagnen? Taktik? Initiativen? Aktivitäten? Ereignisse?
+  * Welche Fragen möchten sie mit diesem Kalender beantworten?
+  * Gibt es überlappende Kampagnen für dieselbe Zielgruppe?
+  * Wie hoch ist das Budget für diese Kampagne, Taktik, Aktivität oder dieses Ereignis?
 
   Die Antworten auf diese Fragen legen fest, was Sie in Workfront Planning erstellen müssen.
 
@@ -210,9 +219,9 @@ Verwenden Sie die Freigabefunktion, um anderen Benutzern die entsprechenden Bere
 
   Sie können aus den folgenden Berechtigungsebenen auswählen:
 
-   * **Verwalten**: Benutzer können den Arbeitsbereich bearbeiten, löschen und freigeben, Datensatztypen hinzufügen sowie Datensätze bearbeiten, löschen und erstellen.
-   * **Beitragen**: Benutzer können Datensätze erstellen, bearbeiten und löschen.
-   * **Anzeigen**: Benutzer können Datensätze anzeigen.
+  * **Verwalten**: Benutzer können den Arbeitsbereich bearbeiten, löschen und freigeben, Datensatztypen hinzufügen sowie Datensätze bearbeiten, löschen und erstellen.
+  * **Beitragen**: Benutzer können Datensätze erstellen, bearbeiten und löschen.
+  * **Anzeigen**: Benutzer können Datensätze anzeigen.
 
 * ✅ Obwohl viele Kunden den Eindruck haben, dass sie Workspaces **Verwalten**-Berechtigungen für die meisten Benutzer erteilen würden, beschränken Sie die **Verwalten**-Berechtigungen auf eine ausgewählte Gruppe vertrauenswürdiger Personen, die keinen Datensatztyp versehentlich löschen oder anderweitig unnötige Datensatztypen und -felder erstellen. Sie können den Arbeitsbereich bearbeiten, freigeben und sogar löschen. Mit dieser Berechtigungsstufe erhalten sie vollständigen administrativen Zugriff auf die Workspace.
 
@@ -289,14 +298,14 @@ Sie können für jeden Datensatztyp ein Anfrageformular erstellen, wenn Benutzer
 
   Sie können aus den folgenden Freigabeoptionen wählen:
 
-   * Für die interne Freigabe mit Personen in Workfront:
+  * Für die interne Freigabe mit Personen in Workfront:
 
-      * **Jeder mit Ansicht oder Zugriff auf den Arbeitsbereich:** Alle Benutzer mit Ansicht oder höheren Berechtigungen für den Arbeitsbereich können eine Anfrage senden, die einen Datensatz erstellt.
-      * **Alle mit Zugriff auf den Arbeitsbereich, der Beiträge leistet oder darüber**: Beschränkt die Übermittlung auf Benutzer mit der Berechtigung „Beitragen“ oder einer höheren Berechtigung für den Arbeitsbereich.
-      * **Nur eingeladene Personen können zugreifen**: Fügen Sie Personen, Teams, Rollen, Gruppen oder Unternehmen hinzu, die Anfragen an das Formular senden können.
-   * Für die externe Freigabe für Personen ohne Workfront-Konto:
-      * **Erstellen Sie einen öffentlichen Link** und kopieren Sie ihn dann und geben Sie ihn für alle frei, auch für Personen ohne Workfront-Konto: Ermöglicht es allen Benutzern, die den Formular-Link haben, eine Anfrage zu senden.
-      * **Link-Ablaufdatum:** Stellen Sie sicher, dass Sie ein Ablaufdatum für den öffentlichen Link festlegen, um die Sicherheit zu erhöhen.
+    * **Jeder mit Ansicht oder Zugriff auf den Arbeitsbereich:** Alle Benutzer mit Ansicht oder höheren Berechtigungen für den Arbeitsbereich können eine Anfrage senden, die einen Datensatz erstellt.
+    * **Alle mit Zugriff auf den Arbeitsbereich, der Beiträge leistet oder darüber**: Beschränkt die Übermittlung auf Benutzer mit der Berechtigung „Beitragen“ oder einer höheren Berechtigung für den Arbeitsbereich.
+    * **Nur eingeladene Personen können zugreifen**: Fügen Sie Personen, Teams, Rollen, Gruppen oder Unternehmen hinzu, die Anfragen an das Formular senden können.
+  * Für die externe Freigabe für Personen ohne Workfront-Konto:
+    * **Erstellen Sie einen öffentlichen Link** und kopieren Sie ihn dann und geben Sie ihn für alle frei, auch für Personen ohne Workfront-Konto: Ermöglicht es allen Benutzern, die den Formular-Link haben, eine Anfrage zu senden.
+    * **Link-Ablaufdatum:** Stellen Sie sicher, dass Sie ein Ablaufdatum für den öffentlichen Link festlegen, um die Sicherheit zu erhöhen.
 
 ### Best Practices für die Verwaltung von Anfrageformularen
 

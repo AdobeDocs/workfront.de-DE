@@ -7,18 +7,21 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
-TQID: https://experienceleague.adobe.com/rft0idTJddZkXvAcOymqXarAs1zTf77HttI6vuwCTlw
+TQID: 'https://experienceleague.adobe.com/rft0idTJddZkXvAcOymqXarAs1zTf77HttI6vuwCTlw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Developer
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 275
+source-wordcount: '275'
 ht-degree: 4%
-
 ---
-
 # Versandanforderungen für Ereignisabonnements
 
 Ereignisabonnementnachrichten sind Benachrichtigungen, die eingerichtet werden können, um Benutzende über bestimmte Ereignisse zu informieren. Weitere Informationen zu Ereignisabonnements finden Sie unter [FAQs - Ereignisabonnements](../../wf-api/general/event-subs-faq.md).
@@ -37,7 +40,7 @@ Service-Endpunkte, die Nachrichten zu Adobe Workfront-Ereignisabonnements verwen
 
 * Wenn ein langwieriger Geschäftsprozess von einer Ereignisabonnementmeldung Trigger, empfiehlt Workfront Folgendes
 
-   1. Der Endpunkt speichert die Nachrichteninformationen beim Empfang und antwortet sofort mit einem Status von 200 Ebenen.
-   1. Nachdem ein Endpunkt auf eine Versandanforderung für ein Ereignisabonnement reagiert hat, können die gespeicherten Nachrichten verarbeitet werden.
+  1. Der Endpunkt speichert die Nachrichteninformationen beim Empfang und antwortet sofort mit einem Status von 200 Ebenen.
+  1. Nachdem ein Endpunkt auf eine Versandanforderung für ein Ereignisabonnement reagiert hat, können die gespeicherten Nachrichten verarbeitet werden.
 
 * Nachrichten oder Objekte von Ereignisabonnements dürfen nicht größer als 1 MB sein.

@@ -7,25 +7,31 @@ description: Im Abschnitt Aktualisierungen eines Objekts werden Kommentare angez
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-TQID: https://experienceleague.adobe.com/NqVbeRxC-1ZOBHKNGLl8XRajN701qE2G5elE-fxDCkI
+TQID: 'https://experienceleague.adobe.com/NqVbeRxC-1ZOBHKNGLl8XRajN701qE2G5elE-fxDCkI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1206
+source-wordcount: '1206'
 ht-degree: 4%
-
 ---
-
 # Überblick über den Abschnitt „Aktualisierungen“
 
 <!-- Audited: 1/2024 -->
@@ -155,44 +161,44 @@ Es gibt Unterschiede zwischen der Anzeige von Kommentaren und Aktualisierungen f
 
 * Die folgenden Objekte haben auf allen drei Registerkarten im Abschnitt „Aktualisierungen“ ähnliche Erlebnisse:
 
-   * Projekte
-   * Aufgaben
-   * Probleme
-   * Programme
-   * Portfolios
-   * Benutzende
-   * Arbeitszeittabellen
+  * Projekte
+  * Aufgaben
+  * Probleme
+  * Programme
+  * Portfolios
+  * Benutzende
+  * Arbeitszeittabellen
 
 * Für die folgenden Objekte gibt es keine Registerkarte „Systemaktivität“ oder „Alle“, und das Erlebnis auf der Registerkarte „Kommentare“ entspricht dem Erlebnis aller anderen Objekte:
 
-   * Team
-   * Vorlage
-   * Vorlagenaufgabe
+  * Team
+  * Vorlage
+  * Vorlagenaufgabe
 
 * Für die folgenden Objekte gibt es keine Registerkarte „Systemaktivität“ oder „Alle“, und das Erlebnis auf der Registerkarte „Kommentare“ unterscheidet sich von dem aller anderen Objekte:
 
-   * Wiederholungen
-   * Ad-hoc-Karten im Bereich Pinnwände
+  * Wiederholungen
+  * Ad-hoc-Karten im Bereich Pinnwände
 
-     Weitere Informationen zu Aktualisierungen auf Karten finden Sie unter [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
+    Weitere Informationen zu Aktualisierungen auf Karten finden Sie unter [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
 * Die folgenden Objekte haben eine Registerkarte Systemaktivität und keine Registerkarte Alle :
 
-   * Verbundene Karten im Bereich Pinnwände
+  * Verbundene Karten im Bereich Pinnwände
 
-     Weitere Informationen finden Sie unter [Verwenden von verbundenen Karten auf Pinnwänden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+    Weitere Informationen finden Sie unter [Verwenden von verbundenen Karten auf Pinnwänden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 * Die folgenden Objekte verfügen über die Registerkarte Verlauf , die die Registerkarte Systemaktivität ersetzt:
 
-   * Datensätze in Workfront Planning
+  * Datensätze in Workfront Planning
 
-     Weitere Informationen finden Sie unter [Übersicht über den Verlauf](/help/quicksilver/planning/records/history-section-overview.md).
+    Weitere Informationen finden Sie unter [Übersicht über den Verlauf](/help/quicksilver/planning/records/history-section-overview.md).
 
 * Die folgenden Objekte verfügen nicht über eine Registerkarte „Alle“, und das Erlebnis auf der Registerkarte „Kommentare“ entspricht dem der meisten Objekte:
 
-   * Ziele
+  * Ziele
 
-     Weitere Informationen zu Aktualisierungen von Zielen finden Sie unter [Verwalten von Zielkommentaren](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+    Weitere Informationen zu Aktualisierungen von Zielen finden Sie unter [Verwalten von Zielkommentaren](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
 
 <!-- info for April 11: hide the entire section below: -->
 
@@ -324,19 +330,19 @@ Beachten Sie beim Anzeigen von Aktualisierungen für Benutzer und Teams Folgende
 
 * Der Abschnitt Aktualisierungen für Teams wird durch Kommentare ausgefüllt, die den folgenden Objekten hinzugefügt werden:
 
-   * Benutzende
-   * Storys
-   * Arbeitszeittabellen
-   * Wiederholungen
+  * Benutzende
+  * Storys
+  * Arbeitszeittabellen
+  * Wiederholungen
 
 * Die Registerkarte Systemaktualisierungen im Bereich Aktualisierungen für Benutzende wird durch Aktualisierungen anderer Objekte ausgefüllt. Im Folgenden finden Sie Aktualisierungen, die auf der Registerkarte Systemaktualisierungen des Benutzerprofils angezeigt werden, wenn diese Felder im Bereich Aktualisierungs-Feeds von Setup verfolgt werden:
 
-   * Hinzufügen, Entfernen und andere Dokumentaktualisierungen
-   * Stundeneingabe, -entfernung, -eingabe im Auftrag von und andere Stundeneintragsaktualisierungen
-   * Aktualisierungen an benutzerdefinierten Feldern
-   * Aktualisierungen des Benutzerprofils (Aktualisierungen des Avatars des Benutzers, Mobiltelefonnummer, Über mich sprechen, Titel)
-   * Hinzufügen, Entfernen, Ändern der Zugriffsebene von Benutzern, Änderungen in integrierten Benutzerfeldern
-   * Finanzinformationen aus Aufgaben und Projekten.
+  * Hinzufügen, Entfernen und andere Dokumentaktualisierungen
+  * Stundeneingabe, -entfernung, -eingabe im Auftrag von und andere Stundeneintragsaktualisierungen
+  * Aktualisierungen an benutzerdefinierten Feldern
+  * Aktualisierungen des Benutzerprofils (Aktualisierungen des Avatars des Benutzers, Mobiltelefonnummer, Über mich sprechen, Titel)
+  * Hinzufügen, Entfernen, Ändern der Zugriffsebene von Benutzern, Änderungen in integrierten Benutzerfeldern
+  * Finanzinformationen aus Aufgaben und Projekten.
 
 ### Einschränkungen bei der Eingabe von Kommentaren im Auftrag eines anderen Benutzers
 

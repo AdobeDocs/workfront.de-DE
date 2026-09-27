@@ -5,20 +5,27 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ea2668c-cab9-4ee3-95c9-44996e951c29
-TQID: https://experienceleague.adobe.com/GGNj0hO47cAaCpN-sqHzdtPaL9BWcMdJIo7P3brSR8Y
+TQID: 'https://experienceleague.adobe.com/GGNj0hO47cAaCpN-sqHzdtPaL9BWcMdJIo7P3brSR8Y'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 900
-ht-degree: 95%
-
+source-wordcount: '948'
+ht-degree: 99%
 ---
-
 # Verbesserungen bei Anfragen im ersten Quartal 2026
 
 Auf dieser Seite werden die Verbesserungen bei Anfragen beschrieben, die mit der Version vom ersten Quartal 2026 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
@@ -29,7 +36,8 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2026 des
 
 >[!NOTE]
 >
->Vorschau: 18. Dezember 2025>Produktions-Schnellversion: 14. Januar 2026\
+>Vorschau: 18. Dezember 2025
+>Produktions-Schnellveröffentlichung: 14. Januar 2026\
 >Produktion für alle: 15. Januar 2026
 
 Um Ihnen den Zugriff auf das von einer bestimmten Anfrage erstellte Objekt zu erleichtern, haben wir Links zur Spalte „Erstelltes Objekt“ hinzugefügt. Jetzt können Sie auf den Link in dieser Spalte klicken, um direkt zur Seite des erstellten Objekts zu gelangen.
@@ -63,7 +71,8 @@ For more information on creating views for the Request list and My Requests widg
 
 >[!NOTE]
 >
->Vorschau: 18. Dezember 2025>Produktions-Schnellversion: 14. Januar 2026\
+>Vorschau: 18. Dezember 2025
+>Produktions-Schnellveröffentlichung: 14. Januar 2026\
 >Produktion für alle: 15. Januar 2026
 
 Um die Anzeige der benötigten Informationen zu vereinfachen, haben wir die Möglichkeit hinzugefügt, Ansichten zum neuen Anfrageerlebnis freizugeben. Sie können jetzt Ansichten für andere Benutzende, Teams oder Gruppen freigeben.
@@ -74,7 +83,8 @@ Informationen zu Anfrageansichten, einschließlich der Freigabe, finden Sie unte
 
 >[!NOTE]
 >
->Vorschau: 18. Dezember 2025>Produktions-Schnellversion: 14. Januar 2026\
+>Vorschau: 18. Dezember 2025
+>Produktions-Schnellveröffentlichung: 14. Januar 2026\
 >Produktion für alle: 15. Januar 2026
 
 Um Ihnen die Anzeige der benötigten Informationen zu erleichtern, haben wir die Möglichkeit hinzugefügt, benutzerdefinierte Felder als Spalten zur Anfragenliste und zum Widget „Meine Anfragen“ auf der Startseite hinzuzufügen. Sie können jetzt Felder aus benutzerdefinierten Formularen als Spalte hinzufügen. Bei Anfragen, die Informationen in diesem Feld enthalten, werden diese Informationen in der Liste oder im Widget angezeigt.
@@ -92,7 +102,8 @@ Anweisungen zum Hinzufügen von Spalten finden Sie unter:
 
 >[!NOTE]
 >
->Vorschau: 18. Dezember 2025>Produktions-Schnellversion: 14. Januar 2026\
+>Vorschau: 18. Dezember 2025
+>Produktions-Schnellveröffentlichung: 14. Januar 2026\
 >Produktion für alle: 15. Januar 2026
 
 Um das Filtern nach relevanten Anfragen zu vereinfachen, haben wir einen Platzhalter für aktuelle Benutzende erstellt. Jetzt können Sie beim Filtern Folgendes auswählen: „Ich (angemeldete Person)“. Der Filter gilt dann für die Person, die die Anfrageliste anzeigt.
@@ -107,7 +118,8 @@ Weitere Informationen zum Konfigurieren von Ansichten in der Anfragenliste, eins
 
 >[!NOTE]
 >
->Vorschau: 11. Dezember 2025>Produktions-Schnellversion: 11. Dezember 2025\
+>Vorschau: 11. Dezember 2025
+>Produktions-Schnellveröffentlichung: 11. Dezember 2025\
 >Produktion für alle: 11. Dezember 2025
 
 Um das Erstellen von Anfragen zu vereinfachen, haben wir die KI-gestützte Formularausfüllung erstellt. In ein Anfrageformular können Sie jetzt einen Prompt einfügen oder ein Dokument hochladen. KI ruft dann die relevanten Informationen ab und füllt das Formular aus.
@@ -121,7 +133,8 @@ Weitere Informationen zur KI-gestützten Formularausfüllung, einschließlich de
 
 >[!NOTE]
 >
->Vorschau: 20. November 2025>Produktions-Schnellversion: 14. Januar 2026\
+>Vorschau: 20. November 2025
+>Produktions-Schnellveröffentlichung: 14. Januar 2026\
 >Produktion für alle: 15. Januar 2026
 
 Um das Erstellen und Senden von Anfragen zu vereinfachen, haben wir die Möglichkeit hinzugefügt, Entwürfe für das neue Anfrageerlebnis zu speichern. Wenn Sie jetzt mit dem Ausfüllen einer Anfrage beginnen und diese schließen, wird die Anfrage im Status „Entwurf“ gespeichert und ist im Anfrageformular zu finden, das zum Erstellen des Entwurfs verwendet wird. Sie können den Entwurf dann jederzeit erneut öffnen, aktualisieren und senden.
@@ -134,7 +147,8 @@ Weitere Informationen zu Anfrageentwürfen finden Sie unter [Erstellen von Anfra
 
 >[!NOTE]
 >
->Vorschau: 20. November 2025>Produktions-Schnellversion: 14. Januar 2026\
+>Vorschau: 20. November 2025
+>Produktions-Schnellveröffentlichung: 14. Januar 2026\
 >Produktion für alle: 15. Januar 2026
 
 Um die Organisation Ihrer Anfragen zu vereinfachen und die Übersichtlichkeit zu verbessern, haben wir die Möglichkeit hinzugefügt, Anfragen zu löschen. Jetzt können Sie von Ihnen gesendete Anfragen löschen. Workfront-Admins und Arbeitsbereich-Admins von Workfront-Planung können Anfragen auch löschen.
@@ -148,7 +162,8 @@ Weitere Informationen und Anweisungen finden Sie [Löschen einer gesendeten Anfr
 
 >[!NOTE]
 >
->Vorschau: 20. November 2025>Produktions-Schnellversion: 11. Dezember 2025\
+>Vorschau: 20. November 2025
+>Produktions-Schnellveröffentlichung: 11. Dezember 2025\
 >Produktion für alle: 15. Januar 2026
 
 Um das Senden von Anfragen zu vereinfachen, haben wir die Möglichkeit hinzugefügt, Anfragen in das neue Anfrageerlebnis zu kopieren. Sie können jetzt eine Anfrage kopieren, alle Felder bearbeiten und die Anfrage als neue Anfrage senden.

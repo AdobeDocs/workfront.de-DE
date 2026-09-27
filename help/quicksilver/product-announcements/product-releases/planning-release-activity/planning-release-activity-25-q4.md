@@ -9,20 +9,27 @@ recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/YevcG4U3icxvqEeztbgudX-vvS4nF-5xTnn9jUkGVJ0
+TQID: 'https://experienceleague.adobe.com/YevcG4U3icxvqEeztbgudX-vvS4nF-5xTnn9jUkGVJ0'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2530
-ht-degree: 1%
-
+source-wordcount: '2720'
+ht-degree: 2%
 ---
-
 # Veröffentlichungen für Adobe Workfront-Planung im vierten Quartal 2025
 
 In diesem Artikel werden die Funktionen beschrieben, die in Workfront Planning im vierten Quartal 2025 veröffentlicht werden.
@@ -36,7 +43,9 @@ Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen find
 
 >[!NOTE]
 >
->Vorschau: 2. Oktober 2025>Produktions-Schnellveröffentlichung: 15. Oktober 2025>Produktion für alle: 16. Oktober 2025
+>Vorschau: 2. Oktober 2025
+>Produktions-Schnellveröffentlichung: 15. Oktober 2025
+>Produktion für alle: 16. Oktober 2025
 
 Um den Anfrageprozess zu vereinfachen, haben wir einige Verbesserungen an den Anfrageformularen vorgenommen. Beim Konfigurieren eines Anfrageformulars können Sie jetzt Folgendes konfigurieren:
 
@@ -50,7 +59,9 @@ Weitere Informationen zum Erstellen eines Anfrageformulars und zum Konfigurieren
 
 >[!NOTE]
 >
->Vorschau: 2. Oktober 2025>Produktions-Schnellveröffentlichung: 15. Oktober 2025>Produktion für alle: 16. Oktober 2025
+>Vorschau: 2. Oktober 2025
+>Produktions-Schnellveröffentlichung: 15. Oktober 2025
+>Produktion für alle: 16. Oktober 2025
 
 
 Sie können jetzt Datensätze per Drag-and-Drop in die Zeitleisten- und Kalenderansichten ziehen. Wenn Sie die Datensätze in einen anderen Zeitrahmen ziehen, werden ihr Start- und Enddatum automatisch aktualisiert.
@@ -61,7 +72,9 @@ Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilve
 
 >[!NOTE]
 >
->Vorschau: 2. Oktober 2025>Produktions-Schnellveröffentlichung: 15. Oktober 2025>Produktion für alle: 16. Oktober 2025
+>Vorschau: 2. Oktober 2025
+>Produktions-Schnellveröffentlichung: 15. Oktober 2025
+>Produktion für alle: 16. Oktober 2025
 
 Um die Kommunikation bei Anfragen in Workfront zu vereinfachen, haben wir der Seite mit den Anfragedetails einen Kommentarbereich hinzugefügt. Dies ist beispielsweise nützlich, wenn die Person, der die Anfrage zugewiesen ist, Fragen an die Person hat, die die Anfrage gestellt hat.
 
@@ -89,7 +102,9 @@ For more information on approving requests, see [Approve a request in Adobe Work
 
 >[!NOTE]
 >
->Vorschau: 25. September 2025>Produktions-Schnellveröffentlichung: 15. Oktober 2025>Produktion alle: 16. Oktober 2025
+>Vorschau: 25. September 2025
+>Produktions-Schnellveröffentlichung: 15. Oktober 2025
+>Alle Produktionen: 16. Oktober 2025
 
 Wir haben die verbundenen Datensatzseiten eines Datensatzes verbessert. Im Folgenden finden Sie die Verbesserungen, die mit diesem Update vorgenommen wurden:
 
@@ -214,7 +229,9 @@ Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/qui
 
 >[!NOTE]
 >
->Vorschau: 11. September 2025>Produktion für alle Kunden: 11. September 2025 >[!BADGE &#x200B; Zeitplan]{type=Neutral}
+>Vorschau: 11. September 2025
+>Produktion für alle Kunden: 11. September 2025
+>[!BADGE Außerplanmäßig]{type=Neutral}
 
 Wenn Ihr Unternehmen sowohl Adobe Workfront Planning als auch Adobe GenStudio for Performance Marketing verwendet, sollten Sie Marketing-Konzepte wie Kampagnen, Produkte und Personas detaillierter definieren, als dies standardmäßig von GenStudio unterstützt wird.
 
@@ -378,7 +395,9 @@ Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/qui
 
 >[!NOTE]
 >
->Vorschau: 7. August 2025>Produktion für alle Kunden: Zeitplan August 2025>[!BADGE Aus]{type=Neutral}
+>Vorschau: 7. August 2025
+>Produktion für alle Kunden: August 2025
+>[!BADGE Außerplanmäßig]{type=Neutral}
 
 Wir haben neue Ausdrücke mit der folgenden Verwendung zu Formelfeldern in Workfront Planning und zu berechneten benutzerdefinierten Feldern in Workfront hinzugefügt:
 
@@ -392,7 +411,9 @@ Weitere Informationen finden Sie unter [Übersicht über berechnete Datenausdrü
 
 >[!NOTE]
 >
->Vorschau: 31. Juli 2025>Produktion für alle Kunden: 31. Juli 2025 >[!BADGE &#x200B; Zeitplan]{type=Neutral}
+>Vorschau: 31. Juli 2025
+>Produktion für alle Kunden: 31. Juli 2025
+>[!BADGE Außerplanmäßig]{type=Neutral}
 
 Es wurde eine Schaltfläche Maximieren hinzugefügt, um das Feld Formel beim Erstellen oder Bearbeiten des Felds in einer Datensatztabellen-Ansicht zu vergrößern. Darüber hinaus wurde im neuen vergrößerten Fenster eine Schaltfläche Minimieren hinzugefügt, um zum Feld Felderstellung zurückzukehren.
 
@@ -442,7 +463,9 @@ For more information on creating requests see:
 
 >[!NOTE]
 >
->Vorschau: 24. Juli 2025>Produktions-Schnellversion: 14. August 2025>Produktion für alle Kunden: 16. Oktober 2025
+>Vorschau: 24. Juli 2025
+>Produktions-Schnellveröffentlichung: 14. August 2025
+>Produktion für alle Kunden: 16. Oktober 2025
 
 Sie können jetzt Datensätze in der Zeitleisten -Ansicht eines Datensatztyps erstellen, indem Sie an einer beliebigen Stelle in der Zeitleiste doppelklicken.
 
@@ -456,7 +479,9 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 
 >[!NOTE]
 >
->Vorschau: 24. Juli 2025>Produktions-Schnellversion: 14. August 2025>Produktion für alle Kunden: 16. Oktober 2025
+>Vorschau: 24. Juli 2025
+>Produktions-Schnellveröffentlichung: 14. August 2025
+>Produktion für alle Kunden: 16. Oktober 2025
 
 Sie können jetzt einen Datensatztyp über das Menü Mehr der Karte Datensatztyp auf der Seite Arbeitsbereich freigeben. Vor dieser Verbesserung war die Option Freigeben nur auf der Seite „Datensatztyp“ verfügbar.
 
@@ -466,7 +491,9 @@ Weitere Informationen finden Sie [Datensatztypen freigeben](/help/quicksilver/pl
 
 >[!NOTE]
 >
->Vorschau: 24. Juli 2025>Produktions-Schnellversion: 14. August 2025>Produktion für alle Kunden: 16. Oktober 2025
+>Vorschau: 24. Juli 2025
+>Produktions-Schnellveröffentlichung: 14. August 2025
+>Produktion für alle Kunden: 16. Oktober 2025
 
 Sie können jetzt alle Workfront Planning-Ansichten (Tabelle, Timeline und Kalender) im Vollbildmodus anzeigen. Die Ansichtsfunktion bleibt erhalten und Sie können die Ansicht auch im Vollbildmodus ändern.
 
@@ -478,7 +505,9 @@ Weitere Informationen finden Sie unter [Verwalten von Eintragsansichten](/help/q
 
 >[!NOTE]
 >
->Vorschau: 22. Juli 2025>Produktion für Schnellveröffentlichung: 14. August 2025>Produktion für alle Kunden: 16. Oktober 2025
+>Vorschau: 22. Juli 2025
+>Produktion für die Schnellveröffentlichung: 14. August 2025
+>Produktion für alle Kunden: 16. Oktober 2025
 
 Um den Genehmigungsprozess flexibler zu gestalten, haben wir die Möglichkeit hinzugefügt, Teams als genehmigende Personen in Planungsanfrageformularen hinzuzufügen. Jetzt können Sie beim Festlegen von Genehmigern Team-Namen eingeben und auswählen. Jedes Teammitglied kann eine Entscheidung treffen, die als Genehmigungsentscheidung für das gesamte Team gilt.
 
@@ -490,7 +519,9 @@ Weitere Informationen finden Sie unter [Hinzufügen einer Genehmigung zu einem A
 
 >[!NOTE]
 >
->Vorschau: 17. Juli 2025>Produktion für Schnellveröffentlichung: 14. August 2025>Produktion für alle Kunden: 16. Oktober 2025
+>Vorschau: 17. Juli 2025
+>Produktion für die Schnellveröffentlichung: 14. August 2025
+>Produktion für alle Kunden: 16. Oktober 2025
 
 Wir führen die folgenden Felder ein, um Genehmigungsinformationen für Datensätze zu erfassen, die durch Senden einer Anfrage mit einer Genehmigung erstellt wurden:
 
@@ -503,7 +534,9 @@ Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/plan
 
 >[!NOTE]
 >
->Vorschau: 10. Juli 2025>Produktions-Schnellversion: 14. August 2025>Produktion für alle Kunden: 16. Oktober 2025
+>Vorschau: 10. Juli 2025
+>Produktions-Schnellveröffentlichung: 14. August 2025
+>Produktion für alle Kunden: 16. Oktober 2025
 
 
 Wenn Sie nun auf eine Tabellenansicht Gruppierungen angewendet haben, werden beim Hinzufügen eines Datensatzes zur Tabelle automatisch die Felder ausgefüllt, die mit den Gruppierungen verknüpft sind, denen Sie den Datensatz hinzufügen.

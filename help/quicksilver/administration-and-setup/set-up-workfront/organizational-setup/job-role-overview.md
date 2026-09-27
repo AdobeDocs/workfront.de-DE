@@ -8,27 +8,35 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dead6081-dfd2-4b1a-8be2-32a0ba813bc3
-TQID: https://experienceleague.adobe.com/mnbklDR2PuLvTiu1QgzPih4Cp-jkZ2wy-pYj4-Qa5Zo
+TQID: 'https://experienceleague.adobe.com/mnbklDR2PuLvTiu1QgzPih4Cp-jkZ2wy-pYj4-Qa5Zo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 9be1c13e172fd0f7ba4ea41a0b0b6d45868ee946
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 440
+source-wordcount: '440'
 ht-degree: 7%
-
 ---
-
 # Aufgabengebiet - Übersicht
 
 Ein Aufgabengebiet stellt eine funktionale Kapazität oder eine Qualifikation dar, die ein Benutzer erfüllen kann. In diesem Artikel werden die verschiedenen Verwendungen von Aufgabengebieten in [!DNL Adobe Workfront] beschrieben.
@@ -48,24 +56,24 @@ Sie können Aufgabengebiete für die folgenden Zwecke verwenden:
 
   Beispielsweise empfehlen wir, Aufgaben beim Erstellen von Vorlagen Aufgabengebieten zuzuordnen, wenn noch nicht klar ist, welcher Benutzer der eigentlichen Arbeit möglicherweise später zugewiesen wird. Weitere Informationen finden Sie in den folgenden Artikeln:
 
-   * [Erstellen einer Projektvorlage](../../../manage-work/projects/create-and-manage-templates/create-template.md)
-   * [Zuweisen von Aufgaben](../../../manage-work/tasks/assign-tasks/assign-tasks.md)
-   * [Zuweisen von Problemen](../../../manage-work/issues/manage-issues/assign-issues.md)
+  * [Erstellen einer Projektvorlage](../../../manage-work/projects/create-and-manage-templates/create-template.md)
+  * [Zuweisen von Aufgaben](../../../manage-work/tasks/assign-tasks/assign-tasks.md)
+  * [Zuweisen von Problemen](../../../manage-work/issues/manage-issues/assign-issues.md)
 
 * Sie können Aufgabengebiete mit Projekt-, Aufgaben- oder Problem-Genehmigungsprozessen verknüpfen und jeder der Benutzer, die das Aufgabengebiet erfüllen können, kann eine Entscheidung über die Genehmigung treffen. Weitere Informationen finden Sie unter [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 * Sie können die folgenden Objekte für Aufgabengebiete freigeben:
 
-   * Projekte
-   * Aufgaben
-   * Probleme
-   * Portfolios
-   * Programme
-   * Vorlagen
-   * Vorlagenaufgaben
-   * Berichte
-   * Dashboards
+  * Projekte
+  * Aufgaben
+  * Probleme
+  * Portfolios
+  * Programme
+  * Vorlagen
+  * Vorlagenaufgaben
+  * Berichte
+  * Dashboards
 
-     Informationen zum Freigeben von Objekten finden Sie unter [Übersicht über Berechtigungen zum Freigeben von Objekten](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+    Informationen zum Freigeben von Objekten finden Sie unter [Übersicht über Berechtigungen zum Freigeben von Objekten](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 * Beim Erstellen von Anfrage-Warteschlangen können Sie Aufgabengebiete mit Routing-Regeln verknüpfen. Weitere Informationen finden Sie unter [Routing-Regeln erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 * Sie können Aufgabengebieten Layoutvorlagen zuweisen. Jeder, dem das zugewiesene Aufgabengebiet als Primäre Rolle zugewiesen wurde, kann [!DNL Workfront] entsprechend der zugewiesenen Layout-Vorlage anzeigen.

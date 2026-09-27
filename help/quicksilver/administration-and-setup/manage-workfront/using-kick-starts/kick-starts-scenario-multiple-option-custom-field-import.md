@@ -9,25 +9,31 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-TQID: https://experienceleague.adobe.com/VN48OQlXHrmfEYUZ2hOusWN-LE-U6BhXBvqprFOsczY
+TQID: 'https://experienceleague.adobe.com/VN48OQlXHrmfEYUZ2hOusWN-LE-U6BhXBvqprFOsczY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: a91f865d-c69e-423f-aeff-28a3d6e8554d
+    internal-label: Data export
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2136
+source-wordcount: '2179'
 ht-degree: 5%
-
 ---
-
 # Kickstart-Szenario: Importieren von benutzerdefinierten Feldern mit mehreren Optionen in Workfront
 
 Benutzerdefinierte Felder mit mehreren Optionen können in Adobe Workfront mithilfe der Kickstart-Funktion importiert werden.
@@ -183,19 +189,19 @@ So füllen Sie die Excel-Tabelle mit Informationen für die neuen benutzerdefini
    * **`ID`** = muss für jede Zeile, die ein neues Feld darstellt, eine eindeutige Zahl sein. Sie können eine beliebige Zahl verwenden, die mit 1 beginnt, sofern jedes neue Feld über eine eindeutige Zahl verfügt.
    * **`setDataType`** = Geben Sie für jede Zeile, die ein neues Feld darstellt, den vom Feld unterstützten Datentyp ein. Der Datentyp muss so eingegeben werden, wie er in der Datenbank angezeigt wird. Wählen Sie aus den folgenden Datentypen:
 
-      * **`NMBR`** für Zahl
-      * **`CURC`** für Währung
-      * **`TEXT`** für Text
+     * **`NMBR`** für Zahl
+     * **`CURC`** für Währung
+     * **`TEXT`** für Text
 
    * `**setDisplaySize**`= Die Anzeigegröße (&#39;**setDisplaySize**&#39;) für mehrere benutzerdefinierte Felder mit Optionen ist immer 0.
    * **`setDisplayType`** = Geben Sie für jede Zeile, die ein neues Feld darstellt, den Anzeigetyp des Felds ein. Der Anzeigetyp muss so eingegeben werden, wie er in der Datenbank erscheinen würde.
 
      Wählen Sie für benutzerdefinierte Felder mit mehreren Optionen aus den folgenden Optionen aus:
 
-      * **`MULT`** für Mehrfachauswahl-Dropdown
-      * **`SLCT`** für Dropdown
-      * **`RDIO`** für Optionsfelder
-      * **`CHCK`** für Kontrollkästchen
+     * **`MULT`** für Mehrfachauswahl-Dropdown
+     * **`SLCT`** für Dropdown
+     * **`RDIO`** für Optionsfelder
+     * **`CHCK`** für Kontrollkästchen
 
      >[!TIP]
      >
@@ -246,18 +252,18 @@ So füllen Sie die Excel-Tabelle mit Informationen für die neuen benutzerdefini
    Um die `ID` einer Gruppe zu ermitteln, können Sie entweder einen Gruppenbericht erstellen und das Feld `ID` in der Ansicht hinzufügen oder zu einer Gruppe navigieren und die URL für die Gruppe suchen. Die Gruppen-ID befindet sich in der URL der Gruppenseite. Wenn beispielsweise die URL der Gruppe `https://companyName.my.workfront.com/group/575b000800467a6f66e747932c807464/members` ist, wird die Gruppen-ID `575b000800467a6f66e747932c807464`.
 
    * **`setCatObjCode`**= Dies ist der Objekt-Code für den Objekttyp, für den Sie das Formular erstellen möchten. Geben Sie einen Code aus den folgenden Optionen ein:
-      * **`CMPY`** für Firma
-      * Aufgabe **`TASK`**
-      * **`PROJ`** für Projekt
-      * **`PORT`** für Portfolio
-      * **`PRGM`** für Programm
-      * **`USER`** für Benutzer
-      * **`DOCU`** für Dokument
-      * **`OPTASK`** für Anfrage
-      * **`EXPNS`**
-      * **`ITRN`** für Iteration
-      * **`BILL`** für Rechnungsnachweise
-      * **`GROUP`** für Gruppe
+     * **`CMPY`** für Firma
+     * Aufgabe **`TASK`**
+     * **`PROJ`** für Projekt
+     * **`PORT`** für Portfolio
+     * **`PRGM`** für Programm
+     * **`USER`** für Benutzer
+     * **`DOCU`** für Dokument
+     * **`OPTASK`** für Anfrage
+     * **`EXPNS`**
+     * **`ITRN`** für Iteration
+     * **`BILL`** für Rechnungsnachweise
+     * **`GROUP`** für Gruppe
 
      >[!NOTE]
      >
@@ -297,4 +303,4 @@ Fahren Sie nach dem Ausführen der in den vorherigen Abschnitten beschriebenen S
 
    * Löschen Sie die Informationen, die erfolgreich aus Workfront importiert wurden, aus dem Bereich Benutzerdefinierter Forms und nehmen Sie dann die in der Fehlermeldung angegebene Korrektur vor.
    * Geben Sie an, dass für die bereits importierten Felder oder Formulare ein Feld oder ein Formular bereits im System vorhanden ist, und korrigieren Sie.
-Wenn Sie angeben möchten, dass ein Feld oder ein benutzerdefiniertes Formular bereits in Workfront vorhanden ist, müssen Sie sicherstellen, dass das `inNew` Feld in Plänen, die Informationen zum Formular (`CTGY`) oder zum Feld (`PARAM`) im Kickstart-Importblatt enthalten, als `FALSE` markiert ist.
+     Wenn Sie angeben möchten, dass ein Feld oder ein benutzerdefiniertes Formular bereits in Workfront vorhanden ist, müssen Sie sicherstellen, dass das `inNew` Feld in Plänen, die Informationen zum Formular (`CTGY`) oder zum Feld (`PARAM`) im Kickstart-Importblatt enthalten, als `FALSE` markiert ist.

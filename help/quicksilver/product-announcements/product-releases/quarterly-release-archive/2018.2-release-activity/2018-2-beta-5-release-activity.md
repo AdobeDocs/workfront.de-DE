@@ -7,26 +7,33 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
-TQID: https://experienceleague.adobe.com/0JlkGC-ZucJr8R-AIrVZULqKmRWNL1ZnTohl50PWMLs
+TQID: 'https://experienceleague.adobe.com/0JlkGC-ZucJr8R-AIrVZULqKmRWNL1ZnTohl50PWMLs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3190
+source-wordcount: '3190'
 ht-degree: 1%
-
 ---
-
 # Veröffentlichungen für Version 2018.2 Beta 5
 
 Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 5 Version 2018.2 verfügbar waren. Die Funktion ist ab dem 1. Juni 2018 in der Vorschau-Umgebung verfügbar. Die mit Beta 5 veröffentlichten Proofing-Verbesserungen sind ab Montag, dem 4. Juni, in der Vorschau-Umgebung verfügbar. Sie wird ab Juli 2018 in der Produktionsumgebung verfügbar sein.
@@ -136,8 +143,8 @@ Die Projekt- und Rollenansichten des Ressourcenplaners enthalten jetzt die folge
 * Vollbildmodus.
 * Die Leistung ist jetzt schneller und effizienter.
 
-   * Neue Beschränkungen für die Anzahl der Projekte, Rollen und Benutzenden, die Sie anzeigen können.
-   * Verzögertes Laden, für ein schnelleres Laden von Projekten und Rollen.
+  * Neue Beschränkungen für die Anzahl der Projekte, Rollen und Benutzenden, die Sie anzeigen können.
+  * Verzögertes Laden, für ein schnelleres Laden von Projekten und Rollen.
 
 * Schnellzugriff auf Projekte und Benutzer direkt über den Ressourcenplaner.
 * Schnellere Drag &amp; Drop-Funktion in der Projektansicht, um Ihre Projekte zu priorisieren.
@@ -266,10 +273,10 @@ Kurz nach dem Tag dieser Version werden in der Android Beta-Version der Mobile A
 
   Die folgenden Bereiche wurden mit dieser Funktion verbessert:
 
-   * Meine Arbeit und Startseite
-   * Benachrichtigungen
-   * Kontakte
-   * Genehmigungen
+  * Meine Arbeit und Startseite
+  * Benachrichtigungen
+  * Kontakte
+  * Genehmigungen
 
 * Neues Erscheinungsbild bei Anzeige der Registerkarte „Details“ eines Elements
 

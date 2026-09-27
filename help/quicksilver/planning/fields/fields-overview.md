@@ -8,19 +8,26 @@ recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/jiru3zJiLp4ucCSjSRkDC-9OFRYvFVtqKz6-uPFNHOc
+TQID: 'https://experienceleague.adobe.com/jiru3zJiLp4ucCSjSRkDC-9OFRYvFVtqKz6-uPFNHOc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 481
+source-wordcount: '481'
 ht-degree: 4%
-
 ---
-
 # Feldübersicht
 
 <!--
@@ -43,8 +50,8 @@ Sie können in Adobe Workfront Planning neue Felder hinzufügen, die den Lebensz
 
   Informationen zum Verwalten von Feldern finden Sie auch in den folgenden Artikeln:
 
-   * [Bearbeiten von Einstellungen für Felder](/help/quicksilver/planning/fields/edit-fields.md)
-   * [Felder löschen](/help/quicksilver/planning/fields/delete-fields.md)
+  * [Bearbeiten von Einstellungen für Felder](/help/quicksilver/planning/fields/edit-fields.md)
+  * [Felder löschen](/help/quicksilver/planning/fields/delete-fields.md)
 
 * Die mit einem Datensatztyp verknüpften Felder können mit allen Datensätzen dieses Typs verknüpft werden. <!--will this change and will the fields be available for other record types, too?! Also, the next bullet might need to change too if this one changes -->
 
@@ -52,45 +59,45 @@ Sie können in Adobe Workfront Planning neue Felder hinzufügen, die den Lebensz
 
 * Sie können Felder auf folgende Weise manuell oder automatisch erstellen:
 
-   * Manuell:
+  * Manuell:
 
-      * Beim Hinzufügen von Spalten in der Tabellenansicht einer Datensatztypseite. Die Spalten der Tabelle sind die Felder, die mit dem Datensatztyp verknüpft sind. Es handelt sich um dieselben Felder, die auf der Datensatzseite angezeigt werden.
+    * Beim Hinzufügen von Spalten in der Tabellenansicht einer Datensatztypseite. Die Spalten der Tabelle sind die Felder, die mit dem Datensatztyp verknüpft sind. Es handelt sich um dieselben Felder, die auf der Datensatzseite angezeigt werden.
 
-        Felder können nicht auf der Datensatzseite erstellt werden.
+      Felder können nicht auf der Datensatzseite erstellt werden.
 
-      * Beim Verbinden von Datensatztypen. Sie können verknüpfte Datensatzfelder erstellen, wenn Sie eine neue Verbindung zwischen zwei Datensatztypen oder einem Datensatztyp und einem Objekttyp aus anderen Anwendungen hinzufügen.
+    * Beim Verbinden von Datensatztypen. Sie können verknüpfte Datensatzfelder erstellen, wenn Sie eine neue Verbindung zwischen zwei Datensatztypen oder einem Datensatztyp und einem Objekttyp aus anderen Anwendungen hinzufügen.
 
-        Weitere Informationen zum Verbinden von Datensatztypen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+      Weitere Informationen zum Verbinden von Datensatztypen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
-      * Beim Importieren vorhandener Felder aus Workfront.
+    * Beim Importieren vorhandener Felder aus Workfront.
 
-        Weitere Informationen finden Sie unter [Felder aus Adobe Workfront &#x200B;](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
+      Weitere Informationen finden Sie unter [Felder aus Adobe Workfront &#x200B;](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
 
 
-   * Automatisch:
+  * Automatisch:
 
-      * Beim Erstellen eines Datensatztyps:
+    * Beim Erstellen eines Datensatztyps:
 
-         * Name
-         * Beschreibung
-         * Startdatum
-         * Enddatum
-         * Status. Die Standardwerte für den Datensatzstatus sind:
-            * Entwicklung
-            * Geplant
-            * Aktiv
-            * Abgeschlossen
-            * Zurückgestellt
+      * Name
+      * Beschreibung
+      * Startdatum
+      * Enddatum
+      * Status. Die Standardwerte für den Datensatzstatus sind:
+        * Entwicklung
+        * Geplant
+        * Aktiv
+        * Abgeschlossen
+        * Zurückgestellt
 
-        Sie können weitere Werte hinzufügen oder die vorhandenen umbenennen.
+      Sie können weitere Werte hinzufügen oder die vorhandenen umbenennen.
 
-      * Wenn Sie einen Arbeitsbereich aus einer Vorlage erstellen.
+    * Wenn Sie einen Arbeitsbereich aus einer Vorlage erstellen.
 
-        Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](/help/quicksilver/planning/architecture/create-workspaces.md).
+      Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-      * Beim Importieren von Datensatztypen mithilfe einer Excel- oder CSV-Datei.
+    * Beim Importieren von Datensatztypen mithilfe einer Excel- oder CSV-Datei.
 
-        Weitere Informationen finden Sie unter [Datensatztypen erstellen](/help/quicksilver/planning/architecture/create-record-types.md).
+      Weitere Informationen finden Sie unter [Datensatztypen erstellen](/help/quicksilver/planning/architecture/create-record-types.md).
 
 * Auf Workfront Planning-Felder kann von Workfront aus nicht zugegriffen werden.
 

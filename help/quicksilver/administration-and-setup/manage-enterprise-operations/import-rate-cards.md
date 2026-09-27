@@ -7,13 +7,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: debe90e7-08c2-4385-96fb-8d349dec6741
-source-git-commit: aa774419e65e9e4a5785382d3cb2b22bdb0389c9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1812'
 ht-degree: 2%
-
 ---
-
 # Importieren von Tarifkarten aus einer Vorlage
 
 Sie können eine Vorlagendatei verwenden, um Ihre Tarifkarten in Excel zu erstellen und sie in Adobe Workfront zu importieren, anstatt alle Aufgabengebiete und Tarife manuell hinzuzufügen.

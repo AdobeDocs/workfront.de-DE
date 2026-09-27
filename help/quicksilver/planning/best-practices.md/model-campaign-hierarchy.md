@@ -8,25 +8,37 @@ recommendations: noDisplay, noCatalog
 exl-id: 02e3b55f-9188-42bf-8d0b-c9fed86c63c4
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/iIXHucZmlY7CkbSWDWFO5XnHPvGylFrvt45QV90aFXQ
+TQID: 'https://experienceleague.adobe.com/iIXHucZmlY7CkbSWDWFO5XnHPvGylFrvt45QV90aFXQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Taxonomy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1564
+source-wordcount: '1572'
 ht-degree: 2%
-
 ---
-
 # Gestalten Sie Ihren Erfolg: Modellieren Ihrer Kampagnenhierarchie
 
 <!--see the file again for additional comments from Seth and others-->
@@ -67,25 +79,25 @@ Im Folgenden finden Sie die Ebenen einer erfolgreichen Planungsimplementierung u
 
 * **Ebene 1: Kampagnen (Workfront-Planung)**
 
-   * **Schwerpunkt:** Definieren Sie die langfristigen strategischen Säulen und jährlichen Initiativen. Definieren Sie beispielsweise eine Initiative für Ihr Unternehmen mit dem Namen „Globale Markenbekanntheit für das Geschäftsjahr 26“. Dies ist der Fokus für einen bestimmten Zeitrahmen. Erstellen Sie Kampagnen zur Unterstützung dieser Initiative.
+  * **Schwerpunkt:** Definieren Sie die langfristigen strategischen Säulen und jährlichen Initiativen. Definieren Sie beispielsweise eine Initiative für Ihr Unternehmen mit dem Namen „Globale Markenbekanntheit für das Geschäftsjahr 26“. Dies ist der Fokus für einen bestimmten Zeitrahmen. Erstellen Sie Kampagnen zur Unterstützung dieser Initiative.
 
-   * **Personas:** Stakeholder für diese Ebene können Marketing-Beauftragte, VP von Marketing oder andere strategische Leads sein.
+  * **Personas:** Stakeholder für diese Ebene können Marketing-Beauftragte, VP von Marketing oder andere strategische Leads sein.
 
   Weitere Informationen finden Sie unter [Erstellen von Eintragstypen](/help/quicksilver/planning/architecture/create-record-types.md).
 
 * **Ebene 2: Kanaltaktiken (Workfront-Planung)**
 
-   * **Fokus:** Definieren Sie die operativen Briefs, die das „Was“ für bestimmte Kanäle umreißen. Dies ist die letzte Ebene der strategischen Absicht, bevor die Arbeit beginnt. Erstellen Sie beispielsweise die Taktik „Q1 Social Media Blitz“. Sie können sie dann mit Ihren Kampagnen verbinden.
+  * **Fokus:** Definieren Sie die operativen Briefs, die das „Was“ für bestimmte Kanäle umreißen. Dies ist die letzte Ebene der strategischen Absicht, bevor die Arbeit beginnt. Erstellen Sie beispielsweise die Taktik „Q1 Social Media Blitz“. Sie können sie dann mit Ihren Kampagnen verbinden.
 
-   * **Personas:** Die wichtigsten Stakeholder sind Marketing-Operations-Leader, Kanal-Leader oder Kampagnen-Manager.
+  * **Personas:** Die wichtigsten Stakeholder sind Marketing-Operations-Leader, Kanal-Leader oder Kampagnen-Manager.
 
 * **Ebene 3: Projekte (Planning und Workfront)**
 
-   * **Fokus:** Führen Sie genau die Erlebnisse oder Aktivitäten aus, die letztendlich Ihre Initiative umsetzen werden. Einige der Ergebnisse sind spezifisch, z. B. Social-Media-Beiträge, E-Mails, Web-Seiten.
+  * **Fokus:** Führen Sie genau die Erlebnisse oder Aktivitäten aus, die letztendlich Ihre Initiative umsetzen werden. Einige der Ergebnisse sind spezifisch, z. B. Social-Media-Beiträge, E-Mails, Web-Seiten.
 
-   * **Implementierung:** Sie können in Planning Taktiken erstellen und diese direkt mit **Projekten** in Workfront verknüpfen, wo einzelne Ergebnisse als Aufgaben und Probleme verwaltet werden.
+  * **Implementierung:** Sie können in Planning Taktiken erstellen und diese direkt mit **Projekten** in Workfront verknüpfen, wo einzelne Ergebnisse als Aufgaben und Probleme verwaltet werden.
 
-   * **Persona:** Hauptakteure sind hier Kreative, einzelne Mitwirkende und alle, die für die Arbeit zur Unterstützung der Initiative verantwortlich sind.
+  * **Persona:** Hauptakteure sind hier Kreative, einzelne Mitwirkende und alle, die für die Arbeit zur Unterstützung der Initiative verantwortlich sind.
 
 ### Strategische Erweiterung: Weitere Ebenen hinzufügen
 

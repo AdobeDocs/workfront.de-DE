@@ -8,24 +8,30 @@ feature: Reports and Dashboards
 exl-id: 39e16f0b-c10d-429e-9eb5-d4847c7e4ed9
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/U962Q4WRQmKDHHQGHT-yYYK8wmD12cW-3ruf-pr4ZDw
+TQID: 'https://experienceleague.adobe.com/U962Q4WRQmKDHHQGHT-yYYK8wmD12cW-3ruf-pr4ZDw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 593
+source-wordcount: '595'
 ht-degree: 13%
-
 ---
-
 # Verwenden [!UICONTROL Voraussichtliche Termine] in einem Kalenderbericht
 
 Ein Kalenderbericht ist ein dynamischer Bericht, der Ihre Arbeit visuell darstellt. Sie können die Felder für das voraussichtliche Datum in einem Kalenderbericht für folgende Objekte verwenden:
@@ -75,7 +81,7 @@ Sie können festlegen, wie die Gruppe von Elementen in Ihrem Kalender angezeigt 
 {{step1-to-calendars}}
 
 1. Wählen Sie den Kalender aus, dem Sie eine neue Gruppe von Elementen hinzufügen möchten, klicken Sie auf das Menü Mehr und dann **Bearbeiten**.
-oder
+ODER
 Klicken Sie auf **[!UICONTROL + Neuer]**, geben Sie den Projektnamen ein und klicken Sie dann auf **[!UICONTROL Erweiterte Elemente hinzufügen]**.
 
    >[!NOTE]
@@ -145,7 +151,7 @@ Nachdem Sie eingerichtet haben, wie Elemente angezeigt werden sollen, müssen Si
 
 
    ![Objekt für Kalender auswählen](assets/calendar-field-name.png)
-Informationen zum Festlegen von Bedingungen finden Sie unter [Filter und Bedingungsmodifikatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Informationen zum Festlegen von Bedingungen finden Sie unter [Filter und Bedingungsmodifikatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
 1. (Optional) Geben Sie zusätzliche Objekte für die Kalendergruppierung an, indem Sie die Schritte 1-4 wiederholen.
 1. Wählen **[!UICONTROL im Feld Aufgaben/Projekte/Probleme als]** festlegen aus, wie die Objekte in dieser Kalendergruppierung im Kalender gekennzeichnet werden sollen.

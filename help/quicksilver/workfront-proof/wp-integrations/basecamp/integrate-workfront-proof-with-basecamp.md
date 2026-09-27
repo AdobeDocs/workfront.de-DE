@@ -2,25 +2,33 @@
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: basecamp
-title: Integrieren  [!DNL Workfront Proof] mit [!DNL Basecamp]
-description: Wenn Sie für  [!DNL Basecamp]  Projektmanagement verwenden, können Sie Ihrem Projektteam umfangreichere Überprüfungs- und Genehmigungs-Tools anbieten, indem Sie Folgendes verwenden [!DNL Workfront Proof].
+title: Integrieren von [!DNL Workfront Proof] mit [!DNL Basecamp]
+description: Wenn Sie [!DNL Basecamp] für das Projekt-Management verwenden, können Sie Ihrem Projekt-Team umfassendere Überprüfungs- und Genehmigungs-Tools mit [!DNL Workfront Proof] anbieten.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: f6d5aef6-573d-4398-a057-ffea2e67288f
-TQID: https://experienceleague.adobe.com/EyGqYRFaK3kCXNU-vY8DWhB4s8d2Gw1ZlVflB-0QqJk
+TQID: 'https://experienceleague.adobe.com/EyGqYRFaK3kCXNU-vY8DWhB4s8d2Gw1ZlVflB-0QqJk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 737
+source-wordcount: '741'
 ht-degree: 0%
-
 ---
-
 # Integrieren von [!DNL Workfront Proof] mit [!DNL Basecamp]
 
 >[!IMPORTANT]

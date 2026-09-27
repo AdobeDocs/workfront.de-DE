@@ -8,19 +8,26 @@ recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/hzuTw-VTbzYLjIRKmamPD8294nkfhxfo07pTwI59YkE
+TQID: 'https://experienceleague.adobe.com/hzuTw-VTbzYLjIRKmamPD8294nkfhxfo07pTwI59YkE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 37be1f25fa54f3efd4113478496e95db3c8bce1c
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 748
+source-wordcount: '748'
 ht-degree: 0%
-
 ---
-
 # Überblick über verbundene Einträge
 
 <!--
@@ -76,14 +83,14 @@ Sie können Datensätze in den folgenden Bereichen manuell mit anderen Datensät
 
 * Sie können Datensätze aus Workfront Planning in den folgenden Bereichen eines Planning-Datensatzes mit Workfront-Objekten, Experience Manager Assets-Objekten oder GenStudio Brands verbinden:
 
-   * Die verbundenen Datensatzfelder in der Tabellenansicht eines Datensatztyps in Planning.
-   * Die verbundenen Datensatzfelder in der Vorschau- oder Detailseite eines Datensatzes.
-   * Die Vorschauseite oder Detailseite des Datensatzes auf der Seite „Verbundene Datensätze“ eines Datensatzes.
+  * Die verbundenen Datensatzfelder in der Tabellenansicht eines Datensatztyps in Planning.
+  * Die verbundenen Datensatzfelder in der Vorschau- oder Detailseite eines Datensatzes.
+  * Die Vorschauseite oder Detailseite des Datensatzes auf der Seite „Verbundene Datensätze“ eines Datensatzes.
 
 * Sie können Workfront-Objekte in den folgenden Bereichen von Workfront mit Workfront-Planungsdatensätzen verbinden:
 
-   * Der Planungsabschnitt eines Workfront-Objekts.
-   * Ein Planning-Verbindungsfeld im benutzerdefinierten Formular eines Workfront-Objekts.
+  * Der Planungsabschnitt eines Workfront-Objekts.
+  * Ein Planning-Verbindungsfeld im benutzerdefinierten Formular eines Workfront-Objekts.
 
   Weitere Informationen finden Sie unter [Verwalten von Datensatzverbindungen aus Workfront-Objekten](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 

@@ -3,26 +3,30 @@ product-previous: mobile
 product-area: projects
 navigation-topic: use-workfront-view
 title: Anzeigen von Projekten in Adobe Workfront View
-description: Standardmäßig werden in der Liste der in der  [!DNL Adobe Workfront]  angezeigten Projekte die letzten 100 aktiven Projekte angezeigt. Die Liste der Projekte ist nach keinem Kriterium gruppiert.
+description: Standardmäßig werden in der Liste der in der [!DNL Adobe Workfront] angezeigten Projekte die 100 zuletzt aktiven Projekte angezeigt. Die Liste der Projekte ist nach keinem Kriterium gruppiert.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 76db4ed0-a411-49aa-8acd-f149df1f38a4
-TQID: https://experienceleague.adobe.com/sSql-PZInJUueNE7QBQFX2z7QyaaPhjZILcrS0en8mI
+TQID: 'https://experienceleague.adobe.com/sSql-PZInJUueNE7QBQFX2z7QyaaPhjZILcrS0en8mI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 359
+source-wordcount: '360'
 ht-degree: 11%
-
 ---
-
 # Projekte in der Ansicht [!UICONTROL Adobe Workfront anzeigen]
 
 Standardmäßig werden in der Liste der in [!DNL Adobe Workfront View] angezeigten Projekte die 100 zuletzt aktiven Projekte angezeigt. Die Liste der Projekte ist nach keinem Kriterium gruppiert.
@@ -69,7 +73,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
    * **[!UICONTROL Fortschritt]**
    * **[!UICONTROL Status]**
    * **[!UICONTROL Sponsor]**
-Die Projekte werden nun nach den möglichen Werten dieser Felder gruppiert aufgelistet.\
+     Die Projekte werden nun nach den möglichen Werten dieser Felder gruppiert aufgelistet.\
       Sie können Projekte nach einem Kriterium auf einmal gruppieren. Die Kriterien sind in der App in den Diagrammen oben in der Projektliste vorgeladen und können nicht geändert werden.
 
 ## Projektdetails anzeigen

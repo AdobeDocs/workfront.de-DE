@@ -2,29 +2,34 @@
 product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: Kalenderbericht freigeben
-description: Sie können einen Kalender für andere Benutzer freigeben und öffentlich verfügbar machen, sodass ihn  [!DNL Adobe Workfront]  ohne Lizenz anzeigen können.
+description: Sie können einen Kalender für andere Benutzer freigeben und öffentlich verfügbar machen, sodass ihn jemand ohne [!DNL Adobe Workfront] Lizenz anzeigen kann.
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/stg5BuJJo-hPWoXl3E7QnO2RW2h7rwQ4Pptw5H2MGq4
+TQID: 'https://experienceleague.adobe.com/stg5BuJJo-hPWoXl3E7QnO2RW2h7rwQ4Pptw5H2MGq4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 593
+source-wordcount: '594'
 ht-degree: 8%
-
 ---
-
 # Freigeben eines Kalenderberichts
 
 Sie können einen Kalender für andere Benutzer freigeben und öffentlich verfügbar machen, sodass ihn jemand ohne [!DNL Adobe Workfront] Lizenz anzeigen kann.
@@ -109,7 +114,7 @@ Sie können einen Kalender öffentlich machen und einen Link für Personen freig
 1. Klicken Sie **[!UICONTROL Kalenderaktionen]** und dann auf **[!UICONTROL Freigabe]**.
 1. Klicken Sie auf das **Mehr**-Menü neben dem Kalendernamen.
    ![Menü „Mehr Kalender“](assets/more-menu-calendar.png)
-Klicken Sie **Öffentlichen Link kopieren**.
+   Klicken Sie **Öffentlichen Link kopieren**.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 ## Kalender über einen privaten Link freigeben

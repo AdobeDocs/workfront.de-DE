@@ -8,22 +8,26 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 30a3d0cb-51dc-4770-88be-36d8bf232b98
-TQID: https://experienceleague.adobe.com/5bBLva-jIjwc953MVjAnwo4y0nABq1N0HGDTIurXk40
+TQID: 'https://experienceleague.adobe.com/5bBLva-jIjwc953MVjAnwo4y0nABq1N0HGDTIurXk40'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Implementation
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 193
+source-wordcount: '220'
 ht-degree: 4%
-
 ---
-
 # Überblick über Webhooks
 
 Adobe Workfront Document Webhooks definiert einen Satz von API-Endpunkten, über die Workfront autorisierte API-Aufrufe an einen externen Dokumentanbieter sendet. Dadurch kann jeder ein Middleware-Plug-in für einen beliebigen Dokumentspeicheranbieter erstellen.
@@ -56,8 +60,8 @@ Um die Entwicklung einer neuen Webhooks-Implementierung zu beschleunigen, bietet
 
 * Anstehende Versionen (Veröffentlichungsdatum - wird noch bekannt gegeben):
 
-   * Hinzugefügt/löschen
-   * hinzugefügt/umbenennen
-   * Hinzugefügt /serviceInfo
-   * Hinzugefügt /customAction
-   * Hinzufügen von Paginierung und parentId zu /search
+  * Hinzugefügt/löschen
+  * hinzugefügt/umbenennen
+  * Hinzugefügt /serviceInfo
+  * Hinzugefügt /customAction
+  * Hinzufügen von Paginierung und parentId zu /search

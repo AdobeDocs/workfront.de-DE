@@ -5,13 +5,20 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d5fe72c-7af5-4699-8344-36cfdd3810d0
-source-git-commit: 6aec8f2f3dd6dd653361058712b9e7a251ec6a69
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '322'
-ht-degree: 7%
-
+ht-degree: 8%
 ---
-
 # Verbesserungen für Anfragen im dritten Quartal 2026
 
 Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom dritten Quartal 2026 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
@@ -22,7 +29,9 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2026 ve
 
 >[!NOTE]
 >
->Vorschau: 27. Mai 2026Produktions-Schnellveröffentlichung: 11. Juni 2026Produktion für alle: 16. Juli 2026
+>Vorschau: 27. Mai 2026
+>Produktions-Schnellveröffentlichung: 11. Juni 2026
+>Produktion für alle: 16. Juli 2026
 
 Um mehr Kontextinformationen über den korrekten Status Ihrer Anfragen zu erhalten, aktualisieren wir den Status für Anfragen in der neuen Anfrageerfahrung.
 
@@ -41,7 +50,10 @@ Weitere Informationen finden Sie unter [Anzeigen gesendeter Anfragen](/help/quic
 
 >[!NOTE]
 >
->Vorschau: 23. April 2026Produktions-Schnellveröffentlichung: 23. April 2026Produktion für alle: 23. April 2026Außerplanmäßig&rbrack;{type=Neutral}
+>Vorschau: 23. April 2026
+>Produktions-Schnellveröffentlichung: 23. April 2026
+>Produktion für alle: 23. April 2026
+>[!BADGE Außerplanmäßig]{type=Neutral}
 
 Um Ihnen zu helfen, Ihre Anfragenliste besser zu organisieren, haben wir die folgenden vordefinierten Ansichten zur Anfragenliste im Bereich Anfragen und zum Widget Meine Anfragen auf der Startseite hinzugefügt:
 

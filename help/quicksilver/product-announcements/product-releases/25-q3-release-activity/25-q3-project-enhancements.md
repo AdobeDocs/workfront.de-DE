@@ -6,18 +6,24 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-TQID: https://experienceleague.adobe.com/DaxBkn2BAzxTm1LyIfts1KfghH2QmuOJGZj-XAl1VHA
+TQID: 'https://experienceleague.adobe.com/DaxBkn2BAzxTm1LyIfts1KfghH2QmuOJGZj-XAl1VHA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 873
+source-wordcount: '913'
 ht-degree: 1%
-
 ---
-
 # Projektverbesserungen im dritten Quartal 2025
 
 Auf dieser Seite werden die mit der Version vom dritten Quartal 2025 vorgenommenen Projektverbesserungen für die Vorschau-Umgebung beschrieben. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
@@ -63,7 +69,7 @@ Das Feld Tatsächliche Stunden , das im Abschnitt mit den Projekt-, Aufgaben- un
 >* Tatsächliche Stunden stellen die Stunden dar, die seit Mai 2021 für Projekte, Aufgaben und Probleme protokolliert wurden.
 >* Ältere Ist-Stunden stellen Stunden dar, die für Projekte, Aufgaben und Probleme während der Laufzeit des Projekts, der Aufgabe oder des Problems protokolliert werden. Dies umfasst Stunden, die vor Mai 2021 bis zur aktuellen Zeit protokolliert wurden.
 ><br>Möglicherweise müssen Sie Ihre Berichte aktualisieren, um das neue Feld und seine Werte widerzuspiegeln.
-><br>Workfront verwendet Legacy-Iststunden, um die tatsächlichen Arbeitskosten zu berechnen.
+><br>Workfront berechnet die tatsächlichen Lohnkosten anhand der Ist-Legacystunden.
 
 Weitere Informationen finden Sie unter [Tatsächliche Stunden anzeigen](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md).
 

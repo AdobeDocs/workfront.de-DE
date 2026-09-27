@@ -7,13 +7,23 @@ description: Die Korrekturabzugsschritte sind Zeitabschnitte, in denen verschied
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a03d2cf2-edb3-43b7-a739-32600f2ae2a0
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '406'
 ht-degree: 1%
-
 ---
-
 # Überblick über die Phasen des automatisierten Workflows
 
 Die Korrekturabzugsschritte sind Zeitabschnitte, in denen verschiedene Benutzende einen Korrekturabzug überprüfen. Wenn der Korrekturabzug von einem Schritt zum nächsten wechselt, werden die validierungsverantwortlichen Personen von Adobe Workfront benachrichtigt, wenn es Zeit ist, ihn zu bearbeiten.
@@ -49,8 +59,8 @@ Wenn Sie den Validierungsverantwortlichen für einen Korrekturabzug unterschiedl
 
 **Beispiel** Wenn Sie beispielsweise einen Korrekturabzug mit vier Prüfern erstellen:
 
-* Für die Prüfer Olivia und Tony geben Sie eine Frist von 14:00 in einigen Tagen an.
-* Für Aaron und Amy legen Sie eine Frist von 17 :00 einigen Tagen fest.
+* Für die Prüfer Olivia und Tony gibt man in einigen Tagen eine Frist von 14:00 Uhr an.
+* Für Aaron und Amy gibt man eine Frist bis 17:00 Uhr ein paar Tage später an.
 * Für sich selbst gibt es keine Frist.
 
 Das System erstellt einen Schritt für jede dieser drei „Gruppen“ von Validierungsverantwortlichen:

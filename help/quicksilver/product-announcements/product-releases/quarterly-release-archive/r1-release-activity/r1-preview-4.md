@@ -7,24 +7,29 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2945e058-74dd-4cc3-9d6c-e5618ee7041c
-TQID: https://experienceleague.adobe.com/ISgHqMUiVKrpOFD68eLx7YInjxlNnCKjYOZzBUlpOQs
+TQID: 'https://experienceleague.adobe.com/ISgHqMUiVKrpOFD68eLx7YInjxlNnCKjYOZzBUlpOQs'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 836
+source-wordcount: '855'
 ht-degree: 1%
-
 ---
-
 # R1-Vorschau 4
 
 Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschau-Umgebung mit der Version R1.4 verfügbar sind. Die Funktion auf dieser Seite wurde am 15. Februar 2017 in der Vorschau-Umgebung verfügbar gemacht.
@@ -42,8 +47,8 @@ Beim Erstellen von Genehmigungsprozessen für Projekt-, Aufgaben- und Problem-Ge
 
 * Die folgenden bereits bestehenden Einschränkungen im Zusammenhang mit der Änderung vorhandener globaler Genehmigungsprozesse wurden entfernt:
 
-   * Der geänderte Genehmigungsprozess wird nur für Objekte im System übernommen, bei denen der Genehmigungsprozess noch nicht gestartet wurde oder der Genehmigungsprozess nicht geändert wurde. Objekte, bei denen der Genehmigungsprozess bereits gestartet oder geändert wurde, werden nicht mit den Änderungen aktualisiert.
-   * Sie können den Status, der bestimmt, wann die Genehmigung beginnt, nicht ändern.
+  * Der geänderte Genehmigungsprozess wird nur für Objekte im System übernommen, bei denen der Genehmigungsprozess noch nicht gestartet wurde oder der Genehmigungsprozess nicht geändert wurde. Objekte, bei denen der Genehmigungsprozess bereits gestartet oder geändert wurde, werden nicht mit den Änderungen aktualisiert.
+  * Sie können den Status, der bestimmt, wann die Genehmigung beginnt, nicht ändern.
 
 * Das Erscheinungsbild wurde aktualisiert.
 

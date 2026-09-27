@@ -6,19 +6,26 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
-TQID: https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo
+TQID: 'https://experienceleague.adobe.com/Hh1Gh4ex1dLrPhsmqiLv3x5NAU0yKzIwcsV4hEogXTo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 9ef64f5a39c94426b2158c6504b913c8cb749c8e
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 566
+source-wordcount: '566'
 ht-degree: 3%
-
 ---
-
 # Überblick über Arbeitsbereiche
 
 <!--
@@ -41,10 +48,10 @@ Ein Arbeitsbereich ist eine Sammlung von Datensatztypen, die von einer Organisat
 * Workfront Planning verfügt über keine vorkonfigurierten Arbeitsbereiche. Sie müssen sie entsprechend den Anforderungen Ihres Unternehmens erstellen.
 * Sie können Arbeitsbereiche wie folgt erstellen:
 
-   * Neu
-   * Verwenden einer Vorlage. Vorlagen enthalten eine vorkonfigurierte Anzahl von Datensatztypen und deren Feldern.
-   * Verwenden der KI-gestützten Planungs-Designer. Diese Funktion befindet sich derzeit in Beta.
-   * Verwenden eines Vorlagenpakets für mehrere Arbeitsbereiche.
+  * Neu
+  * Verwenden einer Vorlage. Vorlagen enthalten eine vorkonfigurierte Anzahl von Datensatztypen und deren Feldern.
+  * Verwenden der KI-gestützten Planungs-Designer. Diese Funktion befindet sich derzeit in Beta.
+  * Verwenden eines Vorlagenpakets für mehrere Arbeitsbereiche.
 
   Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](/help/quicksilver/planning/architecture/create-workspaces.md).
 
@@ -53,9 +60,9 @@ Ein Arbeitsbereich ist eine Sammlung von Datensatztypen, die von einer Organisat
   Weitere Informationen finden Sie unter [Datensatztypen - Übersicht](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 * Arbeitsbereiche werden auf den folgenden Registerkarten im Bereich Planung angezeigt:
 
-   * **Arbeitsbereiche, an denen ich mitwirke**: Zeigt von Ihnen erstellte Arbeitsbereiche oder Arbeitsbereiche an, die für Sie freigegeben sind.
-   * **Andere Arbeitsbereiche**: Zeigt alle anderen Arbeitsbereiche im System an. Dies ist nur für Systemadministratoren verfügbar.
-   * **Beispiel-Arbeitsbereiche**: Zeigt integrierte Beispiele für Best Practice-Arbeitsbereiche an. Sie können die Arbeitsbereiche, Datensatztypen oder Datensätze oder Felder nicht bearbeiten, aber Sie können Ansichten hinzufügen, bearbeiten und für andere freigeben.
+  * **Arbeitsbereiche, an denen ich mitwirke**: Zeigt von Ihnen erstellte Arbeitsbereiche oder Arbeitsbereiche an, die für Sie freigegeben sind.
+  * **Andere Arbeitsbereiche**: Zeigt alle anderen Arbeitsbereiche im System an. Dies ist nur für Systemadministratoren verfügbar.
+  * **Beispiel-Arbeitsbereiche**: Zeigt integrierte Beispiele für Best Practice-Arbeitsbereiche an. Sie können die Arbeitsbereiche, Datensatztypen oder Datensätze oder Felder nicht bearbeiten, aber Sie können Ansichten hinzufügen, bearbeiten und für andere freigeben.
 
   >[!NOTE]
   >
@@ -107,8 +114,8 @@ Beachten Sie Folgendes zur Verwendung der globalen Suche:
 
 * Sie können die Suche über die Planning-Landingpage oder über eine beliebige Planning-Seite aufrufen, indem Sie die folgende Tastenkombination drücken:
 
-   * STRG+K für Windows
-   * ⌘+K für Mac
+  * STRG+K für Windows
+  * ⌘+K für Mac
 * Die letzten 7 Ergebnisse von jedem Objekt werden im Suchfeld angezeigt.
 * Sie können eine allgemeine Suche durchführen oder ein Objekt auswählen und einzelne Listen durchsuchen.
 

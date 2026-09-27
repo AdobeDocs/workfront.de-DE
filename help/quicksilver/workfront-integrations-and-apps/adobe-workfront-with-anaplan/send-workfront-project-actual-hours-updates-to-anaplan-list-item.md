@@ -1,30 +1,39 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: ' [!DNL Adobe Workfront]  Stunden-Aktualisierungen an ein  [!DNL Anaplan]  senden'
-description: Dieses Integrationsszenario teilt die tatsächlichen Stundendetails, die in einem Projekt  [!DNL Adobe Workfront]  einem  [!DNL Anaplan] -Budgetlistenelement erfasst werden. Durch die Weitergabe dieser Informationen können Sie die Ausgabenoptimierung und die Finanzanalyse, die  [!DNL Anaplan]  bietet, besser nutzen.
+title: Senden [!DNL Adobe Workfront] tatsächlichen Stundenaktualisierungen an ein [!DNL Anaplan] Listenelement
+description: Dieses Integrationsszenario teilt die tatsächlichen Stundendetails, die in einem [!DNL Adobe Workfront] Projekt mit einem [!DNL Anaplan] Budgetlistenelement erfasst werden. Durch die Weitergabe dieser Informationen können Sie die von [!DNL Anaplan] bereitgestellten Funktionen zur Ausgabenoptimierung und Finanzanalyse besser nutzen.
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 450b9a87-79c6-4d10-a9ea-29766b4f5962
-TQID: https://experienceleague.adobe.com/UBzKnVGm3E9XjneDGkyYfwTN0FCdLYtX60LM1MJs8PU
+TQID: 'https://experienceleague.adobe.com/UBzKnVGm3E9XjneDGkyYfwTN0FCdLYtX60LM1MJs8PU'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d8302c96-f652-4d09-896b-19a70bab02a5
+    internal-label: System configuration
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+  - id: c3a155b4-a54b-4a82-a3d2-c8f0f971673e
+    internal-label: Workfront Fusion
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 784
+source-wordcount: '790'
 ht-degree: 15%
-
 ---
-
 # Senden [!DNL Adobe Workfront] tatsächlichen Stundenaktualisierungen an ein [!DNL Anaplan] Listenelement
 
 Dieses Integrationsszenario teilt die tatsächlichen Stundendetails, die in einem [!DNL Adobe Workfront] Projekt mit einem [!DNL Anaplan] Budgetlistenelement erfasst werden. Durch die Weitergabe dieser Informationen können Sie die von [!DNL Anaplan] bereitgestellten Funktionen zur Ausgabenoptimierung und Finanzanalyse besser nutzen.
@@ -94,29 +103,29 @@ Sie müssen über Folgendes verfügen, [!DNL Anaplan] dieses Szenario verwenden 
 * Die Liste innerhalb des [!DNL Anaplan], die Sie für dieses Szenario verwenden möchten.
 * Eine Datei in [!DNL Anaplan] mit dem Namen **[!UICONTROL Anaplan Actual Hours Import]**, die die folgenden Spalten in der folgenden Reihenfolge enthält:
 
-   1. [!UICONTROL Workfront-Projekt-GUID]
+  1. [!UICONTROL Workfront-Projekt-GUID]
 
-   2. [!UICONTROL Stunden]
+  2. [!UICONTROL Stunden]
 
-   3. [!UICONTROL Geschätzte Kosten für Stunden]
+  3. [!UICONTROL Geschätzte Kosten für Stunden]
 
-   4. [!UICONTROL Eingabedatum]
+  4. [!UICONTROL Eingabedatum]
 
-   5. [!UICONTROL Rollenname]
+  5. [!UICONTROL Rollenname]
 
-   6. [!UICONTROL Kampagnenname]
+  6. [!UICONTROL Kampagnenname]
 
-   7. [!UICONTROL [!DNL Anaplan] Listenelement-ID]
+  7. [!UICONTROL [!DNL Anaplan] Listenelement-ID]
 
   So bereiten Sie die [!DNL Anaplan] Ist-Ausgabenberichtsdatei vor:
 
-   1. Folgendes kopieren und in einen Texteditor oder [!DNL Excel] einfügen
-   1. Speichern Sie die Datei im CSV-Format
-   1. Laden Sie die Datei in [!DNL Anaplan] hoch.
+  1. Folgendes kopieren und in einen Texteditor oder [!DNL Excel] einfügen
+  1. Speichern Sie die Datei im CSV-Format
+  1. Laden Sie die Datei in [!DNL Anaplan] hoch.
 
-      Anweisungen finden Sie in der [!DNL Anaplan] Dokumentation zum Importieren von Daten aus einer Datei in -Module.
+     Anweisungen finden Sie in der [!DNL Anaplan] Dokumentation zum Importieren von Daten aus einer Datei in -Module.
 
-   1. Notieren Sie sich den Namen, den Sie der Datei gegeben haben. Er wird während der Bereitstellung der Szenariovorlage [!UICONTROL Fusion] verwendet.
+  1. Notieren Sie sich den Namen, den Sie der Datei gegeben haben. Er wird während der Bereitstellung der Szenariovorlage [!UICONTROL Fusion] verwendet.
 
   Beispiel für CSV-Inhalte
 

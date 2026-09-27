@@ -2,33 +2,43 @@
 content-type: overview;reference
 navigation-topic: workfront-navigation
 title: Überblick über [!DNL Adobe Workfront]-Objekte
-description: Die angezeigten Informationen  [!DNL Adobe Workfront]  durch Objekte dargestellt, die in der Datenbank  [!DNL Workfront]  werden. Die Objekte sind es, die die Informationen  [!DNL Workfront]. Weitere Informationen zu diesen Objekten finden Sie in diesem Artikel.
+description: Die in [!DNL Adobe Workfront] angezeigten Informationen werden durch Objekte dargestellt, die in der Datenbank von [!DNL Workfront] gespeichert sind. Die Objekte sind es, die die Informationen in [!DNL Workfront] antreiben. Weitere Informationen zu diesen Objekten finden Sie in diesem Artikel.
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-TQID: https://experienceleague.adobe.com/CK2A3TGk-ojo-hg6IVEIjGUq-aUwLs2Im2ZrlE2od3M
+TQID: 'https://experienceleague.adobe.com/CK2A3TGk-ojo-hg6IVEIjGUq-aUwLs2Im2ZrlE2od3M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
   - id: fceb5125-bb41-419a-b0db-31958cb42f6c
+    internal-label: Workfront Goals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2393
+source-wordcount: '2463'
 ht-degree: 3%
-
 ---
-
 # Überblick über [!DNL Adobe Workfront]-Objekte
 
 <!--Audited: 12/2023-->
@@ -256,8 +266,8 @@ Bei Verwendung von Report Builder in der [!DNL Workfront]-Webanwendung können S
 * [!UICONTROL Baseline-Aufgabe]
 * [!UICONTROL Rechnungsnachweis]
 * [!UICONTROL Budgetierte Stunde]
-   * Dies sind die [!UICONTROL budgetierten Stunden], wie sie in älteren, veralteten Ressourcenverwaltungstools angezeigt werden.
-   * Der „Bud. Stunden“ im Bericht [!UICONTROL Budgetierte Stunde] bezieht sich auf die budgetierten Stunden für Aufgabengebiete im [!UICONTROL Ressourcenplaner]. Weitere Informationen finden Sie unter [[!UICONTROL Budgetierte Lohnkosten] und [!UICONTROL Budgetierte Stunden] für Projekte](../../../manage-work/projects/project-finances/budgeted-labor-cost.md).
+  * Dies sind die [!UICONTROL budgetierten Stunden], wie sie in älteren, veralteten Ressourcenverwaltungstools angezeigt werden.
+  * Der „Bud. Stunden“ im Bericht [!UICONTROL Budgetierte Stunde] bezieht sich auf die budgetierten Stunden für Aufgabengebiete im [!UICONTROL Ressourcenplaner]. Weitere Informationen finden Sie unter [[!UICONTROL Budgetierte Lohnkosten] und [!UICONTROL Budgetierte Stunden] für Projekte](../../../manage-work/projects/project-finances/budgeted-labor-cost.md).
 
 * [!UICONTROL Kalenderereignis]
 * [!UICONTROL Firma]
@@ -266,7 +276,7 @@ Bei Verwendung von Report Builder in der [!DNL Workfront]-Webanwendung können S
 * [!UICONTROL Dokument]
 * [!UICONTROL Dokumentengenehmigung]
 * [!UICONTROL Dokumentversion]
-   * Sie können Informationen über die Dokumentversion, das Dokument, mit dem die Version verknüpft ist, die Person, die die Version erstellt hat, und den Benutzer, der den Korrekturabzug für die Dokumentversion erstellt hat (sofern vorhanden), anzeigen.
+  * Sie können Informationen über die Dokumentversion, das Dokument, mit dem die Version verknüpft ist, die Person, die die Version erstellt hat, und den Benutzer, der den Korrekturabzug für die Dokumentversion erstellt hat (sofern vorhanden), anzeigen.
 * [!UICONTROL E-Mail-Vorlage]
 * [!UICONTROL Ausgabe]
 * [!UICONTROL Ausgabentyp]
@@ -274,44 +284,44 @@ Bei Verwendung von Report Builder in der [!DNL Workfront]-Webanwendung können S
 * [!UICONTROL Favorit]
 * [!UICONTROL Filter]
 * [!UICONTROL Ziel]
-   * Sie können einen Bericht für strategische Ziele erstellen oder zielbezogene Informationen in einem Projektbericht anzeigen, wenn Projekte mit Zielen als Zielaktivitäten verknüpft sind. Nur wenn Ihr Unternehmen eine [!DNL Workfront Goals]-Lizenz erworben hat, können Sie strategische Ziele erstellen und Projekte miteinander verbinden. Weitere Informationen zu [!DNL Workfront Goals] finden Sie unter [[!DNL Workfront Goals] Übersicht](../../../workfront-goals/goal-management/wf-goals-overview.md). Informationen zum Verbinden von Projekten mit strategischen Zielen finden Sie unter [Hinzufügen von Projekten zu Zielen in Adobe Workfront Goals](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
-* Sie können keine Berichte zu Projektzielen erstellen, die mit einem &quot;[!UICONTROL &quot; verknüpft &#x200B;]. Informationen zu Projektzielen und strategischen Zielen finden Sie im [Glossar der  [!DNL Adobe Workfront] -Terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+  * Sie können einen Bericht für strategische Ziele erstellen oder zielbezogene Informationen in einem Projektbericht anzeigen, wenn Projekte mit Zielen als Zielaktivitäten verknüpft sind. Nur wenn Ihr Unternehmen eine [!DNL Workfront Goals]-Lizenz erworben hat, können Sie strategische Ziele erstellen und Projekte miteinander verbinden. Weitere Informationen zu [!DNL Workfront Goals] finden Sie unter [[!DNL Workfront Goals] Übersicht](../../../workfront-goals/goal-management/wf-goals-overview.md). Informationen zum Verbinden von Projekten mit strategischen Zielen finden Sie unter [Hinzufügen von Projekten zu Zielen in Adobe Workfront Goals](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+    * Sie können keine Berichte zu Projektzielen erstellen, die mit einem &quot;[!UICONTROL &quot; verknüpft &#x200B;]. Informationen zu Projektzielen und strategischen Zielen finden Sie im [Glossar der  [!DNL Adobe Workfront] -Terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 * [!UICONTROL Gruppe]
 * [!UICONTROL Gruppierung]
 * [!UICONTROL Stundentyp]
 * [!UICONTROL Initiative]
-   * Sie können einen Bericht nur dann für Initiativen erstellen, die untergeordnete Elemente eines Plans sind, wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] Lizenz erworben hat. Informationen zu Initiativen finden Sie unter [Überblick über Initiativen in der [!DNL Workfront Scenario Planner]](../../../scenario-planner/initiatives-overview.md).
+  * Sie können einen Bericht nur dann für Initiativen erstellen, die untergeordnete Elemente eines Plans sind, wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] Lizenz erworben hat. Informationen zu Initiativen finden Sie unter [Überblick über Initiativen in der [!DNL Workfront Scenario Planner]](../../../scenario-planner/initiatives-overview.md).
 
 * Aufgabengebiet für Initiative
-   * Sie können nur dann einen Bericht für die Aufgabengebiete erstellen, die mit den Initiativen in einem Plan verknüpft sind, wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] Lizenz erworben hat. Informationen zum Erstellen von Initiativen und deren Verknüpfung mit Aufgabengebieten finden Sie unter [Erstellen und Bearbeiten von Initiativen in der [!DNL Workfront Scenario Planner]](../../../scenario-planner/create-and-edit-initiatives.md).
+  * Sie können nur dann einen Bericht für die Aufgabengebiete erstellen, die mit den Initiativen in einem Plan verknüpft sind, wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] Lizenz erworben hat. Informationen zum Erstellen von Initiativen und deren Verknüpfung mit Aufgabengebieten finden Sie unter [Erstellen und Bearbeiten von Initiativen in der [!DNL Workfront Scenario Planner]](../../../scenario-planner/create-and-edit-initiatives.md).
 
 * [!UICONTROL Iteration]
 * [!UICONTROL Aufgabengebiet]
 * [!UICONTROL Tagebucheintrag]
-   * Sie können Berichte zu verfolgten Systemaktualisierungen im Bereich [!UICONTROL Aktualisierungen] von Objekten wie Aufgaben, Projekten, Problemen usw. erstellen. Weitere Informationen finden Sie unter [Bericht im Bereich Aktualisierungen mit einem Journaleintragsbericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+  * Sie können Berichte zu verfolgten Systemaktualisierungen im Bereich [!UICONTROL Aktualisierungen] von Objekten wie Aufgaben, Projekten, Problemen usw. erstellen. Weitere Informationen finden Sie unter [Bericht im Bereich Aktualisierungen mit einem Journaleintragsbericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
 * [!UICONTROL Layoutvorlage]
 * [!UICONTROL Meilenstein]
 * [!UICONTROL Meilensteinpfad]
 * [!UICONTROL Hinweis] oder [!UICONTROL Aktualisierungen]
-   * Sie können Berichte zu Kommentaren erstellen, die von einzelnen Benutzern hinzugefügt wurden.
+  * Sie können Berichte zu Kommentaren erstellen, die von einzelnen Benutzern hinzugefügt wurden.
 
 * [!UICONTROL Parameter] (oder [!UICONTROL benutzerdefiniertes Feld])
 * [!UICONTROL Parametergruppe] (oder [!UICONTROL Abschnittsumbruch])
 * [!UICONTROL Portfolio]
 * [!UICONTROL Programm]
 * [!UICONTROL Projekt (Finanzdaten)]
-   * Finanzinformationen werden nur dann in [!UICONTROL Projekt (Finanzdaten) ausgefüllt] wenn die damit verbundenen Daten weniger als 5 Jahre alt sind. Wenn beispielsweise einer Aufgabe im Januar 2015 ein Aufgabengebiet zugewiesen wurde und heute der September 2021 ist, wird ein Finanzfeld wie [!UICONTROL Zuordnungsdatum] für das Aufgabengebiet nicht im Bericht [!UICONTROL Projekt (Finanzdaten)] ausgefüllt.
+  * Finanzinformationen werden nur dann in [!UICONTROL Projekt (Finanzdaten) ausgefüllt] wenn die damit verbundenen Daten weniger als 5 Jahre alt sind. Wenn beispielsweise einer Aufgabe im Januar 2015 ein Aufgabengebiet zugewiesen wurde und heute der September 2021 ist, wird ein Finanzfeld wie [!UICONTROL Zuordnungsdatum] für das Aufgabengebiet nicht im Bericht [!UICONTROL Projekt (Finanzdaten)] ausgefüllt.
 
   >[!CAUTION]
   >
   >Durch die Ausführung eines Projektberichts (Finanzdaten) werden Ihre Finanzdaten neu berechnet, wodurch frühere Finanzdaten überschrieben werden können und dies unter Umständen sehr viel Zeit in Anspruch nimmt. Weitere Informationen zu den Folgen der Neuberechnung von Finanzdaten finden Sie unter [Projektfinanzen neu berechnen](/help/quicksilver/manage-work/projects/project-finances/recalculate-project-finances.md).
 
 * [!UICONTROL Korrekturabzug-Genehmigung]
-   * Ermöglicht die Anzeige verschiedener Informationen zur Korrekturabzugs-Genehmigung, einschließlich: des zur Genehmigung übermittelten Korrekturabzugs, Informationen zum [!UICONTROL Genehmiger], Informationen zum Anfordernden (wenn der Anfordernde ein lizenzierter [!DNL Workfront] ist), Versionsinformationen, die Korrekturabzugs-ID und das Erstellungsdatum des Korrekturabzugs.\
-      [!UICONTROL Korrekturabzugsgenehmigung] enthalten nur Korrekturabzüge, die in den Bereichen Meine Arbeit der Benutzenden verfügbar sind, für die noch keine Entscheidungen getroffen wurden.\
-   * Genehmigungen von Korrekturabzügen werden in [!DNL Workfront] wie [Benutzer zu einem Korrekturabzug hinzufügen](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add) unter [Freigeben eines Korrekturabzugs für [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) beschrieben zugewiesen.
+  * Ermöglicht die Anzeige verschiedener Informationen zur Korrekturabzugs-Genehmigung, einschließlich: des zur Genehmigung übermittelten Korrekturabzugs, Informationen zum [!UICONTROL Genehmiger], Informationen zum Anfordernden (wenn der Anfordernde ein lizenzierter [!DNL Workfront] ist), Versionsinformationen, die Korrekturabzugs-ID und das Erstellungsdatum des Korrekturabzugs.\
+     [!UICONTROL Korrekturabzugsgenehmigung] enthalten nur Korrekturabzüge, die in den Bereichen Meine Arbeit der Benutzenden verfügbar sind, für die noch keine Entscheidungen getroffen wurden.\
+  * Genehmigungen von Korrekturabzügen werden in [!DNL Workfront] wie [Benutzer zu einem Korrekturabzug hinzufügen](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add) unter [Freigeben eines Korrekturabzugs für [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) beschrieben zugewiesen.
 
 * [!UICONTROL Warteschlange]
 * [!UICONTROL Warteschlangenthema]
@@ -327,7 +337,7 @@ Bei Verwendung von Report Builder in der [!DNL Workfront]-Webanwendung können S
 * [!UICONTROL Vorlage]
 * [!UICONTROL Vorlagenaufgabe]
 * [!UICONTROL Ausfallzeit]
-   * Sie können Berichte zu den Urlaubszeiten der Benutzenden erstellen, wie vom jeweiligen Profil des/r Benutzenden angegeben.
+  * Sie können Berichte zu den Urlaubszeiten der Benutzenden erstellen, wie vom jeweiligen Profil des/r Benutzenden angegeben.
 
 * [!UICONTROL Arbeitszeittabelle]
 * [!UICONTROL Arbeitszeittabellen-Profil]
@@ -335,11 +345,11 @@ Bei Verwendung von Report Builder in der [!DNL Workfront]-Webanwendung können S
 * [!UICONTROL Benutzergenehmigung]
 * [!UICONTROL Benutzerdelegierung]
 
-   * Sie können Berichte zu Benutzern erstellen, die delegiert wurden, um die Aufgaben und Probleme anderer auszuführen, während sie nicht im Büro sind. Dieser Bericht zeigt die Person an, die nicht im Büro ist, sowie die Person, die ihre Pflichten erfüllt, während sie nicht anwesend ist.
+  * Sie können Berichte zu Benutzern erstellen, die delegiert wurden, um die Aufgaben und Probleme anderer auszuführen, während sie nicht im Büro sind. Dieser Bericht zeigt die Person an, die nicht im Büro ist, sowie die Person, die ihre Pflichten erfüllt, während sie nicht anwesend ist.
 
 * [!UICONTROL Benutzerentscheidungen]
 
-   * Sie können berichten, wie viele Entscheidungen Benutzer im aktuellen Monat in Bezug auf Korrekturabzüge und Dokumente getroffen haben.
+  * Sie können berichten, wie viele Entscheidungen Benutzer im aktuellen Monat in Bezug auf Korrekturabzüge und Dokumente getroffen haben.
 
 * [!UICONTROL Anzeigen]
 * [!UICONTROL Arbeitselement] (dadurch wird ein Bericht zu Aufgaben und Problemen erstellt)

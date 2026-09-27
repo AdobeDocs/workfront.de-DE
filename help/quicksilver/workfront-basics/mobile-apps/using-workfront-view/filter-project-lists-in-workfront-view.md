@@ -2,27 +2,31 @@
 product-previous: mobile
 product-area: projects
 navigation-topic: use-workfront-view
-title: Filtern von Projektlisten in [!DNL Adobe Workfront] View
+title: Filtern von Projektlisten in der [!DNL Adobe Workfront]
 feature: Get Started with Workfront
-description: Standardmäßig zeigt  [!DNL Adobe Workfront] Ansicht“ die Liste [!UICONTROL Alle Projekte] in  [!DNL Workfront] an, sodass alle Projekte, auf die Sie Zugriff haben, unabhängig vom Status aufgeführt werden.
+description: Standardmäßig zeigt [!DNL Adobe Workfront] Ansicht die Liste [!UICONTROL Alle Projekte] in [!DNL Workfront] an, sodass alle Projekte, auf die Sie Zugriff haben, unabhängig vom Status aufgeführt werden.
 author: Lisa
 exl-id: 78efce1a-f144-4e47-bd7e-c0347e016bea
-TQID: https://experienceleague.adobe.com/sFUUo65zy8RM2uNE6OmMFKj9J-e3dMCvmSoZaK2Ph3k
+TQID: 'https://experienceleague.adobe.com/sFUUo65zy8RM2uNE6OmMFKj9J-e3dMCvmSoZaK2Ph3k'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 324
+source-wordcount: '325'
 ht-degree: 13%
-
 ---
-
 # Filtern von Projektlisten in [!DNL Adobe Workfront View]
 
 Standardmäßig zeigt [!DNL Adobe Workfront View] die Liste [!UICONTROL Alle Projekte] in [!DNL Workfront] an, sodass alle Projekte, auf die Sie Zugriff haben, unabhängig vom Status aufgeführt werden.
@@ -71,22 +75,22 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
    * Status: Wählen Sie diese Option aus, um nur Projekte in bestimmten [!UICONTROL Status“ &#x200B;].
    * [!UICONTROL Geplanter Start]: Wählen Sie diese Option aus, um nur Projekte mit dem [!UICONTROL Geplanten Startdatum] in den folgenden Zeitrahmen anzuzeigen:
 
-      * Letzte 3 Monate
-      * Letzte 2 Monate
-      * Letzter Monat
-      * Letzte zwei Wochen
+     * Letzte 3 Monate
+     * Letzte 2 Monate
+     * Letzter Monat
+     * Letzte zwei Wochen
    * [!UICONTROL Geplantes Abschlussdatum]: Wählen Sie diese Option aus, um in  kommenden Zeitrahmen nur Projekte mit dem Geplantes Abschlussdatum“ anzuzeigen:
 
-      * Zwei Wochen
-      * Ein Monat
-      * Zwei Monate
-      * Drei Monate
+     * Zwei Wochen
+     * Ein Monat
+     * Zwei Monate
+     * Drei Monate
    * [!UICONTROL Projizierter Abschluss]: Wählen Sie diese Option aus, um in  kommenden Zeitrahmen nur Projekte mit dem Projizierten Abschlussdatum“ anzuzeigen:
 
-      * Zwei Wochen
-      * Ein Monat
-      * Zwei Monate
-      * Drei Monate
+     * Zwei Wochen
+     * Ein Monat
+     * Zwei Monate
+     * Drei Monate
    * [!UICONTROL Verantwortlicher]: Wählen Sie diese Option aus, um Projekte anzuzeigen, die bestimmten Verantwortlichen zugewiesen sind.
    * [!UICONTROL Sponsor]: Wählen Sie diese Option aus, um Projekte anzuzeigen, die einem bestimmten [!UICONTROL Sponsor“ zugewiesen &#x200B;].
 

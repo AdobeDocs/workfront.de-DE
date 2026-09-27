@@ -1,24 +1,27 @@
 ---
 product-previous: mobile
 navigation-topic: mobile-apps
-title: Verwenden der Mobile [!DNL Adobe Workfront] App
-description: Beschleunigen Sie die Interaktion und optimieren Sie die Arbeit für Teams und Einzelpersonen in Ihrem Unternehmen mithilfe  [!DNL Adobe Workfront's]  Mobile App, die auf jedem iOS- oder Android-Gerät verfügbar ist.
+title: Verwenden der [!DNL Adobe Workfront] Mobile App
+description: Beschleunigen Sie die Interaktion und optimieren Sie die Arbeit für Teams und Einzelpersonen in Ihrem Unternehmen mithilfe [!DNL Adobe Workfront's] mobilen App, die auf jedem iOS- oder Android-Gerät verfügbar ist.
 author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
-TQID: https://experienceleague.adobe.com/JdDKLhr3DrbDCXrRBKuO5A7Qd1GO--J9Et998BbY6-A
+TQID: 'https://experienceleague.adobe.com/JdDKLhr3DrbDCXrRBKuO5A7Qd1GO--J9Et998BbY6-A'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 276
+source-wordcount: '278'
 ht-degree: 0%
-
 ---
-
 # Verwenden der [!DNL Adobe Workfront] Mobile App: Artikelindex
 
 <!-- Audited: 2/2024 -->

@@ -2,22 +2,25 @@
 product-previous: mobile
 navigation-topic: mobile-apps
 title: Adobe Workfront-Pinnwände für Mobilgeräte
-description: In  [!DNL Workfront]  Mobile App können Sie alle Boards sehen, die Sie erstellt haben oder die in der Desktop-Version von hinzugefügt wurden [!DNL Workfront].
+description: In der Mobile App von [!DNL Workfront] können Sie alle Boards sehen, die Sie in der Desktop-Version von [!DNL Workfront] erstellt haben oder denen Sie hinzugefügt wurden.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 34a009f6-6b4f-43ee-9689-2b9d1876db07
-TQID: https://experienceleague.adobe.com/ZwsNEdfQOIponHOPGKgux7II5ovrFo5glAq2lWXRHcE
+TQID: 'https://experienceleague.adobe.com/ZwsNEdfQOIponHOPGKgux7II5ovrFo5glAq2lWXRHcE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1047
+source-wordcount: '1074'
 ht-degree: 1%
-
 ---
-
 # [!DNL Adobe Workfront] [!UICONTROL Boards] für Mobilgeräte
 
 [!DNL Adobe Workfront] [!UICONTROL Pinnwände] sind flexible Tools, die die Zusammenarbeit von Teams ermöglichen, indem sie Zugriff auf eine freigegebene Pinnwand bieten, die Spalten und Karten enthält. Weitere Informationen zu Pinnwänden finden Sie unter [Pinnwände - Übersicht](/help/quicksilver/agile/boards-overview.md).
@@ -138,6 +141,6 @@ Wenn Filter angewendet werden, wird eine Anzeige auf der Pinnwand angezeigt ![Fi
 1. Geben Sie einen Suchbegriff in das Feld ein und wählen Sie [!UICONTROL **Fertig**] oder ![Fertig](assets/mobile-apply-icon-checkmark.png).
 
    Alle Karten, die den Suchbegriff im Titel enthalten, werden angezeigt.
-Wählen Sie X aus, um die Suche zu löschen.
+   Wählen Sie X aus, um die Suche zu löschen.
 
    ![Nach Karte suchen](assets/mobile-search-for-card.png)

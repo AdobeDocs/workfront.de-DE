@@ -4,13 +4,20 @@ description: Weitere Verbesserungen im Zeitraum der Veröffentlichung im dritten
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a131344f390abd94383fae0b9cc318ef0ca79d3a
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '575'
 ht-degree: 2%
-
 ---
-
 # Weitere Verbesserungen während des Veröffentlichungszeitraums des dritten Quartals 2026
 
 Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom dritten Quartal 2026 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
@@ -22,7 +29,8 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2026 ve
 
 >[!NOTE]
 >
->Vorschau und Produktion für alle Kunden: Ab dem 7. Juli 2026Außerplanmäßig&rbrack;{type=Neutral}
+>Vorschau und Produktion für alle Kunden: Ab dem 7. Juli 2026
+>[!BADGE Außerplanmäßig]{type=Neutral}
 
 Die Kommentararchivierung für Kommentare, die älter als 1 Jahr sind, wird derzeit für alle Workfront-Objekte optimiert, auf denen ein Bereich „Aktualisierungen“ angezeigt wird. Dies ist eine interne Anstrengung und sollte Ihre Erfahrung mit dem Bereich Aktualisierungen nicht beeinträchtigen. Der Bereich Aktualisierungen enthält für die Objekttypen keine visuellen Änderungen und die Funktionalität wird durch diese Aktualisierung nicht geändert. Alle Kommentare bleiben für alle Objekttypen sichtbar.
 
@@ -32,7 +40,9 @@ Weitere Informationen finden Sie [Abschnitt „Aktualisierungen - Übersicht](/h
 
 >[!NOTE]
 >
->Vorschau: 7. Juli 2026Produktions-Schnellveröffentlichung: 15. Juli 2026Produktion für alle: 16. Juli 2026
+>Vorschau: 7. Juli 2026
+>Produktions-Schnellveröffentlichung: 15. Juli 2026
+>Produktion für alle: 16. Juli 2026
 
 Das Erscheinungsbild allgemeiner Navigationssymbole in Workfront, einschließlich des Hauptmenüs und der Navigationsleistensymbole, wurde aktualisiert, um ein modernes Design und ein konsistentes Erlebnis mit anderen Adobe-Anwendungen zu bieten. Außerdem wurde das Hinzufügen und Entfernen angehefteter Seiten optimiert, sodass weniger Klicks erforderlich sind.
 
@@ -62,7 +72,9 @@ Diese Änderung wird in Phasen an Kunden ausgerollt. Diese Seite wird aktualisie
 
 >[!NOTE]
 >
->Vorschau: 28. Mai 2026Produktions-Schnellveröffentlichung: 11. Juni 2026Produktion für alle: 16. Juli 2026
+>Vorschau: 28. Mai 2026
+>Produktions-Schnellveröffentlichung: 11. Juni 2026
+>Produktion für alle: 16. Juli 2026
 
 Mehrere Feldtypen in erweiterten Listen wurden aktualisiert, um die Tastaturnavigation und andere Verbesserungen einzuschließen.
 

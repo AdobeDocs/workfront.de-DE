@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/uBBzqWVxR4akDI-mgnuTbRCfnY9o2-hzpLw-SVWJ-Eo
+TQID: 'https://experienceleague.adobe.com/uBBzqWVxR4akDI-mgnuTbRCfnY9o2-hzpLw-SVWJ-Eo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 590
+source-wordcount: '590'
 ht-degree: 8%
-
 ---
-
 # Anzeigen von Kalenderberichten und Ereignisdetails
 
 Sie können Kalenderberichte und Ereignisdetails anzeigen, die Sie in Adobe Workfront erstellt haben oder die für Sie freigegeben wurden.
@@ -85,7 +90,7 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 1. (Bedingt) Klicken Sie auf die **[!UICONTROL Ansicht]** und wählen Sie dann die Kalenderdauer aus, die Sie anzeigen möchten.
    ![Kalenderdauer](assets/view-menu-calendar-report-350x189.png)
-Sie können aus den folgenden Kalenderberichtsansichten wählen:
+   Sie können aus den folgenden Kalenderberichtsansichten wählen:
 
    * **[!UICONTROL Monat]**: Zeigt vier Wochen des Kalenders an
    * **[!UICONTROL Woche]**: Zeigt eine Kalenderwoche an
@@ -110,17 +115,17 @@ Sie können aus den folgenden Kalenderberichtsansichten wählen:
 
    * So ändern Sie die angezeigten Daten schnell:
 
-      1. Klicken Sie in **[!UICONTROL Kalender]**-Symbolleiste auf den linken Pfeil der Datumsanzeige, um im Kalender zurückzukehren, oder auf den rechten Pfeil, um fortzufahren.
+     1. Klicken Sie in **[!UICONTROL Kalender]**-Symbolleiste auf den linken Pfeil der Datumsanzeige, um im Kalender zurückzukehren, oder auf den rechten Pfeil, um fortzufahren.
 
-         ![Auf Pfeil klicken, um Datum zu ändern](assets/click-arrows-to-change-dates-calendar-report.png)
+        ![Auf Pfeil klicken, um Datum zu ändern](assets/click-arrows-to-change-dates-calendar-report.png)
 
-         Die angezeigten Datumswerte werden durch ein Intervall angepasst, das auf Ihrer aktuellen Kalenderansicht basiert. Wenn Sie z. B. den Kalender in der Ansicht **Woche** anzeigen, wird der Kalender je nach ausgewähltem Pfeil entweder eine Woche vor oder eine Woche zurück angezeigt.
+        Die angezeigten Datumswerte werden durch ein Intervall angepasst, das auf Ihrer aktuellen Kalenderansicht basiert. Wenn Sie z. B. den Kalender in der Ansicht **Woche** anzeigen, wird der Kalender je nach ausgewähltem Pfeil entweder eine Woche vor oder eine Woche zurück angezeigt.
 
-      1. (Optional) Um zum aktuellen Tag zurückzukehren, klicken Sie auf [!UICONTROL **Heute**].
+     1. (Optional) Um zum aktuellen Tag zurückzukehren, klicken Sie auf [!UICONTROL **Heute**].
 
 1. (Optional) Um die Ereignisse für ein mit dem Kalender verknüpftes Projekt oder eine mit dem Kalender verknüpfte Kalendergruppierung auszublenden, löschen Sie das Projekt oder die Kalendergruppierung in der Projektliste.
    ![Ereignisse ausblenden](assets/hide-events-for-project-or-cal-grouping.png)
-Sie können die Ereignisse wieder anzeigen, indem Sie das [!UICONTROL Projekt] oder die Kalendergruppierung in der Projektliste auswählen.
+   Sie können die Ereignisse wieder anzeigen, indem Sie das [!UICONTROL Projekt] oder die Kalendergruppierung in der Projektliste auswählen.
 
 ## Kalenderbericht-Ereignisdetails anzeigen
 

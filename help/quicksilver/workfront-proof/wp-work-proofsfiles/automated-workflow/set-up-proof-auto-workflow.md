@@ -2,25 +2,34 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: automated-workflow-workfront-proof
-title: Einrichten eines Korrekturabzugs mit einem automatisierten Workflow in [!DNL Workfront Proof]
+title: Einrichten eines Testversands mit einem automatisierten Workflow in [!DNL Workfront Proof]
 description: Dies wiederholt Informationen, die unter Konfigurieren von Testsendungen in Workfront zu finden sind. Hier oder dort konsolidieren. Vielleicht besser hier.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 605569df-8e63-476d-a0cd-e73802042011
-TQID: https://experienceleague.adobe.com/H0iX2AA8WPbkiPDHagBRmnL6G2FQJmDFpaAdr3oEKOk
+TQID: 'https://experienceleague.adobe.com/H0iX2AA8WPbkiPDHagBRmnL6G2FQJmDFpaAdr3oEKOk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Privacy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1610
+source-wordcount: '1659'
 ht-degree: 0%
-
 ---
-
 # Einrichten eines Testversands mit einem automatisierten Workflow in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -57,15 +66,15 @@ Sie können einen automatisierten Workflow zu einem Korrekturabzug hinzufügen, 
    * **[!UICONTROL Von Staging-Aktivierung]:** Wählen Sie die Anzahl der Werktage aus, die zum Staging-Aktivierungsdatum hinzugefügt werden sollen, um automatisch eine Frist für den Korrekturabzug festzulegen.
    * **[!UICONTROL Phase aktivieren]:** Sie können für jede Phase Ihres Workflows festlegen, wann sie aktiviert werden soll. Für das erste Stadium stehen die folgenden Optionen zur Verfügung.
 
-      * Bei der Erstellung eines Korrekturabzugs
-      * An einem bestimmten Datum und zu einer bestimmten Uhrzeit
-      * Manuell\
+     * Bei der Erstellung eines Korrekturabzugs
+     * An einem bestimmten Datum und zu einer bestimmten Uhrzeit
+     * Manuell\
 
-        Für nachfolgende Phasen stehen zusätzliche Optionen zur Verfügung. Diese Optionen erfordern ein übergeordnetes Stadium. Dabei handelt es sich um:
-      * Nach Ablauf der vorherigen Frist
-      * Alle Entscheidungen werden genehmigt oder mit Änderungen genehmigt
-      * Alle Entscheidungen werden genehmigt
-      * Alle Entscheidungen werden getroffen
+       Für nachfolgende Phasen stehen zusätzliche Optionen zur Verfügung. Diese Optionen erfordern ein übergeordnetes Stadium. Dabei handelt es sich um:
+     * Nach Ablauf der vorherigen Frist
+     * Alle Entscheidungen werden genehmigt oder mit Änderungen genehmigt
+     * Alle Entscheidungen werden genehmigt
+     * Alle Entscheidungen werden getroffen
    * **[!UICONTROL Frist berechnet ab]:** Die Option, die Sie in dieser Dropdown-Liste auswählen, wirkt sich darauf aus, welche Optionen im Feld **[!UICONTROL Frist]** verfügbar sind.
 
    * **[!UICONTROL Testversand-Erstellung]:** Wählen Sie im Feld **[!UICONTROL Frist]** das Ablaufdatum für den Testversand aus.
@@ -124,26 +133,26 @@ Sie können einem Workflow, den Sie erstellen oder ändern, einen zusätzlichen 
 * **[!UICONTROL Stufenname]**: Wird im Workflow-Diagramm angezeigt und ist in den E-Mail-Benachrichtigungen enthalten, die an Prüfende gesendet werden.
 * **[!UICONTROL Phase aktivieren]**: Sie können für jede Phase Ihres Workflows festlegen, wann sie aktiviert werden soll. Für das erste Stadium stehen die folgenden Optionen zur Verfügung:
 
-   * Bei der Erstellung eines Korrekturabzugs
-   * An einem bestimmten Datum und zu einer bestimmten Uhrzeit
-   * Manuell
-   * Für das erste Stadium stehen nur diese drei Optionen zur Verfügung. Die anderen Optionen werden verfügbar, wenn Sie ein zweites Stadium hinzufügen. Sie erfordern, dass Sie ein übergeordnetes Stadium auswählen.
-   * Nach Erreichen der vorherigen Frist (erfordert die Auswahl eines übergeordneten Stadiums)
-   * Alle Entscheidungen werden genehmigt oder [!UICONTROL Mit Änderungen genehmigt] (erfordert die Auswahl eines übergeordneten Schritts)
-   * Alle Entscheidungen sind genehmigt (erfordert die Auswahl eines übergeordneten Schritts)
-   * Alle Entscheidungen werden getroffen (erfordert die Auswahl eines übergeordneten Schritts)
+  * Bei der Erstellung eines Korrekturabzugs
+  * An einem bestimmten Datum und zu einer bestimmten Uhrzeit
+  * Manuell
+  * Für das erste Stadium stehen nur diese drei Optionen zur Verfügung. Die anderen Optionen werden verfügbar, wenn Sie ein zweites Stadium hinzufügen. Sie erfordern, dass Sie ein übergeordnetes Stadium auswählen.
+  * Nach Erreichen der vorherigen Frist (erfordert die Auswahl eines übergeordneten Stadiums)
+  * Alle Entscheidungen werden genehmigt oder [!UICONTROL Mit Änderungen genehmigt] (erfordert die Auswahl eines übergeordneten Schritts)
+  * Alle Entscheidungen sind genehmigt (erfordert die Auswahl eines übergeordneten Schritts)
+  * Alle Entscheidungen werden getroffen (erfordert die Auswahl eines übergeordneten Schritts)
 
 * **[!UICONTROL Frist]:** Sie können festlegen, wie die Frist in jedem Schritt eines Workflows berechnet werden soll. Die Optionen sind:
 
-   * Bei der Erstellung des Korrekturabzugs: Im Feld [!UICONTROL Frist] (9) können Sie das Fristdatum für den Korrekturabzug auswählen.
-   * Aus der Staging-Aktivierung[!UICONTROL &#x200B; Wählen Sie in der Dropdown]Liste „Frist“ die Anzahl der Werktage aus, die zum Staging-Aktivierungsdatum hinzugefügt werden sollen, um automatisch eine Frist für den Korrekturabzug festzulegen.
+  * Bei der Erstellung des Korrekturabzugs: Im Feld [!UICONTROL Frist] (9) können Sie das Fristdatum für den Korrekturabzug auswählen.
+  * Aus der Staging-Aktivierung[!UICONTROL &#x200B; Wählen Sie in der Dropdown]Liste „Frist“ die Anzahl der Werktage aus, die zum Staging-Aktivierungsdatum hinzugefügt werden sollen, um automatisch eine Frist für den Korrekturabzug festzulegen.
 
 * **[!UICONTROL lock]:** Es gibt eine Reihe von Optionen, die bestimmen, wann ein Schritt gesperrt werden kann. Die Optionen sind:
 
-   * Manuelle Sperre
-   * Nie
-   * Wenn die nächste Phase beginnt
-   * Wenn alle Entscheidungen getroffen werden
+  * Manuelle Sperre
+  * Nie
+  * Wenn die nächste Phase beginnt
+  * Wenn alle Entscheidungen getroffen werden
 
 **[!UICONTROL Primärer Entscheidungsträger]**: Sie bestimmen den Primären Entscheidungsträger auf der Bühne. Die verfügbaren Entscheidungsträger werden erst in der Liste angezeigt, nachdem Sie die Reviewer zur Stage hinzugefügt haben.
 

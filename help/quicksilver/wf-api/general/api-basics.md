@@ -7,34 +7,45 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-TQID: https://experienceleague.adobe.com/ns4wVw0qHcgzPPrvLx--lnEAaXg2rcoNOBPMZpMth9M
+TQID: 'https://experienceleague.adobe.com/ns4wVw0qHcgzPPrvLx--lnEAaXg2rcoNOBPMZpMth9M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: b58ad82f-df6b-4b01-81a3-3a02ab9567a0
+    internal-label: APIs
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 subfeature_v2:
   - id: bb1dd007-4a34-496d-9d3b-2278fdaadac1
+    internal-label: API Explorer
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b191c48f65bc489457112f8401654d1e4b66fabf
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 4561
+source-wordcount: '4561'
 ht-degree: 83%
-
 ---
-
 # API-Grundlagen
 
 >[!NOTE]
 >
->Zu den Beispielen in diesem Artikel gehören `<supported-version>`. Ersetzen Sie dies durch die Version der Workfront-API, die Sie verwenden möchten.Informationen zur Workfront-API-Versionierung und zum Support-Zeitplan finden Sie unter [API-Versionierung und Support-Zeitplan](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+>Zu den Beispielen in diesem Artikel gehören `<supported-version>`. Ersetzen Sie dies durch die Version der Workfront-API, die Sie verwenden möchten.
+>Informationen zur Workfront-API-Versionierung und zum Support-Zeitplan finden Sie unter [API-Versionierung und Support-Zeitplan](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 Das Ziel der Adobe Workfront-API ist die Vereinfachung der Erstellung von Integrationen mit Workfront, indem eine REST-ful-Architektur eingeführt wird, die über HTTP ausgeführt wird. In diesem Dokument wird davon ausgegangen, dass Sie mit REST- und JSON-Antworten vertraut sind, und der von der Workfront-API verfolgte Ansatz wird beschrieben.
 
@@ -319,7 +330,7 @@ dann verwenden Sie den folgenden API-Aufruf mit seinen mehreren ODER-Anweisungen
 
 #### Verwenden von Filterparametern
 
-Ein potenzieller Fehler bei der Verwendung von URL-Parametern für Suchfilter besteht darin, dass Workfront bestimmte Parameter analysiert, bevor nach verschiedenen Authentifizierungsmethoden (z. B. Benutzername, Kennwort, API-Schlüssel, Cookie) gesucht wird. In diesem Fall werden die Parameter nicht als Filter im Aufruf verwendet.
+Ein potenzieller Fehler bei der Verwendung von URL-Parametern für Suchfilter besteht darin, dass Workfront bestimmte Parameter analysiert, bevor nach verschiedenen Authentifizierungsmethoden (z. B. Benutzername, Kennwort, API-Schlüssel, Cookie) gesucht wird. In diesem Fall werden die Parameter nicht als Filter im Aufruf verwendet. 
 
 Um dieses Problem zu vermeiden, können Sie diese Werte in Filterparametern mit JSON-Formatierung einfügen. Wenn Sie beispielsweise nach dem Benutzernamen „testuser“ filtern möchten, gehen Sie wie folgt vor: Anstatt 
 <pre>/attask/api/&lt;supported-version&gt;/user/search?username=testuser@workfront.com</pre>zu verwenden, übergeben Sie den URL-Parameter in einem Filter, wie im folgenden Beispiel gezeigt:
@@ -455,7 +466,7 @@ Um eine optimale Leistung zu gewährleisten, werden in der folgenden Tabelle die
 Um die Abfragebeschränkung für die Standardanzahl der Ergebnisse zu überschreiben und 200 Ergebnisse zuzulassen, können Sie den Filter `$$LIMIT=200` in Ihre Abfrage einbeziehen, wie im folgenden Beispiel gezeigt:
 <pre>GET /attask/api/&lt;supported-version&gt;/project/search?$$LIMIT=200</pre>
 
-Um die Zuverlässigkeit und die Leistung anderer Mandanten im System sicherzustellen, beträgt die maximal zulässige Anzahl der Ergebnisse pro Abfrage 2.000 Objekte. Der Versuch, ein höheres Limit anzugeben, führt zu einer Fehlermeldung vom Typ `IllegalArgumentException`.
+Um die Zuverlässigkeit und die Leistung anderer Mandanten im System sicherzustellen, beträgt die maximal zulässige Anzahl der Ergebnisse pro Abfrage 2.000 Objekte. Der Versuch, ein höheres Limit anzugeben, führt zu einer Fehlermeldung vom Typ `IllegalArgumentException`. 
 
 Daher empfehlen wir die Verwendung paginierter Antworten für große Datensätze. Um das erste Ergebnis anzugeben, das zurückgegeben werden soll, fügen Sie den Filter `$$FIRST` hinzu. Beispielsweise gibt die folgende Anfrage die Ergebnisse 201–250 für eine Abfrage zurück:
 <pre>GET /attask/api/&lt;supported-version&gt;/project/search?$$FIRST=200&amp;$$LIMIT=50</pre>

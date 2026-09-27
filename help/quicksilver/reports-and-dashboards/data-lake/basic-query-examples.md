@@ -9,21 +9,26 @@ feature: Reports and Dashboards
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/flDonZVaLR3bTF2aZcY9iy2ZnWbfrdhctL7J8esvxng
+TQID: 'https://experienceleague.adobe.com/flDonZVaLR3bTF2aZcY9iy2ZnWbfrdhctL7J8esvxng'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: edee967a5c19d86fd471c4571a0b458f72bf370e
+    internal-label: Measurement
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2201
+source-wordcount: '2203'
 ht-degree: 1%
-
 ---
-
 # Beispiele für Workfront Data Connect-Abfragen
 
 Damit Sie Ihre Workfront Data Connect-Daten besser nutzen können, enthält diese Seite einfache Beispielabfragen, mit denen Sie sich mit der Syntax und Struktur bestimmter Arten von Abfragen vertraut machen können.
@@ -191,9 +196,11 @@ Die Abfrage verwendet die Tracking-Funktionen für Änderungsereignisse von Data
 
 >[!NOTE]
 >
->Es wird empfohlen, diese Abfrage als eigene „Ansicht“ in Power BI oder Tableau zu verwenden. Wenn Sie andere Felder aus dem `<object>_event view` einbringen möchten, verbinden Sie die Ausgabe aus dieser Abfrage wieder mit dem `<object>_event view`. Die Verknüpfungsfelder lauten wie folgt: <br>
+>Es wird empfohlen, diese Abfrage als eigene „Ansicht“ in Power BI oder Tableau zu verwenden. Wenn Sie andere Felder aus der `<object>_event view` einbringen möchten, verbinden Sie die Ausgabe aus dieser Abfrage wieder mit der `<object>_event view`. Die Verknüpfungsfelder lauten wie folgt:  <br>
 >Für projects_event: 
->`From projects_event p`>`Join <above query> c on c.projectid = p.projectid  `>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
+>`From projects_event p`
+>`Join <above query> c on c.projectid = p.projectid  `
+>`and c. status_begin_effective_timestamp = p begin_effective_timestamp`
 
 ## Planung: Abfrage vom Typ Einzel-Datensatz
 

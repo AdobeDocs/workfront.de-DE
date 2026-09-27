@@ -9,23 +9,28 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-TQID: https://experienceleague.adobe.com/--8-vO2RCBBbSZ2gfFl5RurpGviyK7sW6NauyoHKFhE
+TQID: 'https://experienceleague.adobe.com/--8-vO2RCBBbSZ2gfFl5RurpGviyK7sW6NauyoHKFhE'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1402
+source-wordcount: '1505'
 ht-degree: 10%
-
 ---
-
 # Kickstart-Szenario: einfache Vorbereitung für den Projekt- und Aufgabenimport
 
 Beschreibt detailliert die verfügbaren Einstellungen und Steuerelemente für ein grundlegendes Projekt und den Aufgabenimport mithilfe der Kickstart-Methode.
@@ -380,11 +385,11 @@ Legen Sie die Dauer für jede Aufgabe fest, indem Sie die Anzahl der Stunden, Ta
 
   In diesem Szenario besteht die einfachste Möglichkeit, die Aufgaben für die anderen Projekte zu erstellen, die Sie importieren, darin, die soeben definierten Aufgaben zu kopieren und sie unten einzufügen, beginnend mit Zeile 12. Dann werden Sie:
 
-   1. Nummerieren Sie die Werte in der Spalte ID neu.
-   1. Aktualisieren Sie die Spalte setProjectID auf den Wert, den Sie für das nächste Projekt festgelegt haben.
-   1. Aktualisieren Sie die Werte setParentID und setPredecessorString, um die neuen IDs widerzuspiegeln, die den Aufgaben dieses Projekts zugewiesen sind.
-   1. Aufgabenzuweisungen und abgeschlossenen Prozentsatz aktualisieren.
-   1. Wiederholen Sie diese Schritte für die Aufgaben des nächsten Projekts.
+  1. Nummerieren Sie die Werte in der Spalte ID neu.
+  1. Aktualisieren Sie die Spalte setProjectID auf den Wert, den Sie für das nächste Projekt festgelegt haben.
+  1. Aktualisieren Sie die Werte setParentID und setPredecessorString, um die neuen IDs widerzuspiegeln, die den Aufgaben dieses Projekts zugewiesen sind.
+  1. Aufgabenzuweisungen und abgeschlossenen Prozentsatz aktualisieren.
+  1. Wiederholen Sie diese Schritte für die Aufgaben des nächsten Projekts.
 
 * **Excel-Datei importieren**
 

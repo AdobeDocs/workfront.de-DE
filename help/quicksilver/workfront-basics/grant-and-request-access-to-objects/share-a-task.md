@@ -6,22 +6,26 @@ description: Ihr Adobe Workfront-Administrator kann Ihnen Zugriff zum Anzeigen o
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-TQID: https://experienceleague.adobe.com/nxv12H-Og-oKAiNQgTmw6KbT-yw3xyIKvlqjwSKtgqQ
+TQID: 'https://experienceleague.adobe.com/nxv12H-Og-oKAiNQgTmw6KbT-yw3xyIKvlqjwSKtgqQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1172
+source-wordcount: '1172'
 ht-degree: 6%
-
 ---
-
 # Freigeben einer Aufgabe
 
 Ihr Adobe Workfront-Administrator kann Ihnen Zugriff zum Anzeigen oder Bearbeiten von Aufgaben gewähren, wenn er Zugriffsebenen zuweist. Weitere Informationen zum Gewähren des Zugriffs auf Aufgaben finden Sie unter [Zugriff auf Aufgaben gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
@@ -74,9 +78,9 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
 
 * Sie können einer Aufgabe die folgenden Berechtigungen erteilen:
 
-   * Ansicht
-   * Verwalten
-   * Mitwirken
+  * Ansicht
+  * Verwalten
+  * Mitwirken
 * Wenn Sie eine Aufgabe freigeben, erben Benutzer standardmäßig dieselben Berechtigungen für alle untergeordneten Objekte, die mit der Aufgabe verknüpft sind. Beispielsweise erben sie dieselben Berechtigungen für die untergeordneten Aufgaben, Probleme und Dokumente, die an die Aufgabe angehängt sind.\
   Weitere Informationen zur Objekthierarchie in Workfront finden Sie unter [Grundlegendes zu Objekten in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
@@ -93,10 +97,10 @@ Sie können eine Aufgabe wie folgt freigeben:
 
 * Gehen Sie wie folgt automatisch vor:
 
-   * Geben Sie die Berechtigungen für eines der übergeordneten Objekte der Aufgabe an: Projekt, Programm oder Portfolio. Aufgaben erben die Berechtigungen von ihren übergeordneten Objekten. Weitere Informationen zum Anzeigen geerbter Berechtigungen für Objekte finden Sie unter [Anzeigen geerbter Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
-   * Entitäten zur Projektfreigabe hinzufügen, die auf einer Vorlage basieren, mit der das Projekt erstellt wurde, für das die Aufgabe ausgeführt wird. Informationen zum Freigeben von Projekten aus Vorlagen finden Sie unter [Freigeben einer Vorlage](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+  * Geben Sie die Berechtigungen für eines der übergeordneten Objekte der Aufgabe an: Projekt, Programm oder Portfolio. Aufgaben erben die Berechtigungen von ihren übergeordneten Objekten. Weitere Informationen zum Anzeigen geerbter Berechtigungen für Objekte finden Sie unter [Anzeigen geerbter Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+  * Entitäten zur Projektfreigabe hinzufügen, die auf einer Vorlage basieren, mit der das Projekt erstellt wurde, für das die Aufgabe ausgeführt wird. Informationen zum Freigeben von Projekten aus Vorlagen finden Sie unter [Freigeben einer Vorlage](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-   * Geben Sie die Berechtigungen für alle Aufgaben in einem Projekt an, wenn Sie das Projekt bearbeiten.  Informationen zur Verwaltung des Zugriffs auf Aufgaben im Projekt auf der Grundlage der Berechtigungen, die ein Benutzer für das Projekt erhält, finden Sie im [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) Abschnitt im Artikel [Projekte bearbeiten](../../manage-work/projects/manage-projects/edit-projects.md).
+  * Geben Sie die Berechtigungen für alle Aufgaben in einem Projekt an, wenn Sie das Projekt bearbeiten.  Informationen zur Verwaltung des Zugriffs auf Aufgaben im Projekt auf der Grundlage der Berechtigungen, die ein Benutzer für das Projekt erhält, finden Sie im [&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access) Abschnitt im Artikel [Projekte bearbeiten](../../manage-work/projects/manage-projects/edit-projects.md).
 
   >[!TIP]
   >

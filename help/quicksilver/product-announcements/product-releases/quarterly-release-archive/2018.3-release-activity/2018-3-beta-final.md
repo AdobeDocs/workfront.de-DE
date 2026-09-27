@@ -7,25 +7,31 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d4411916-7f58-4174-b9a5-f19cde181d8b
-TQID: https://experienceleague.adobe.com/F5gvecGlTsPmXloxVvvSufwrwaz7Vj5Pd2WUCKha7To
+TQID: 'https://experienceleague.adobe.com/F5gvecGlTsPmXloxVvvSufwrwaz7Vj5Pd2WUCKha7To'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
 subfeature_v2:
   - id: a7ef0b24-c866-4849-a368-53678af2dfe5
+    internal-label: Adobe Workfront for Microsoft Teams
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 862
+source-wordcount: '862'
 ht-degree: 2%
-
 ---
-
 # 2018.3 Beta-Endversion
 
 Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit der Beta-Endversion 2018.3 verfügbar waren. Die Funktion wird am 10. Oktober 2018 in der Vorschau-Umgebung verfügbar sein. Sie wird im November 2018 in der Produktionsumgebung bereitgestellt.
@@ -128,10 +134,10 @@ Die folgenden neuen Funktionen werden zum Zeitpunkt der Produktionsversion 2018.
 
   Sie können jetzt die folgenden Aktionen ausführen, indem Sie lange auf dem Startbildschirm auf die Workfront-App klicken:
 
-   * Suchen
-   * Zugriff auf Benachrichtigungen
-   * Zugriff auf das zuletzt aufgerufene Projekt 
-   * Zugriff auf die zuletzt aufgerufene Aufgabe oder Anfrage
+  * Suchen
+  * Zugriff auf Benachrichtigungen
+  * Zugriff auf das zuletzt aufgerufene Projekt 
+  * Zugriff auf die zuletzt aufgerufene Aufgabe oder Anfrage
 
 * Neue Push-Benachrichtigungen und neue Aktionen aus Push-Benachrichtigungen
 
@@ -141,18 +147,18 @@ Die folgenden neuen Funktionen werden zum Zeitpunkt der Produktionsversion 2018.
 
   Sie können Folgendes tun, indem Sie eine Push-Benachrichtigung lange drücken, ohne zur App oder zu dem Element gehen zu müssen, das sie generiert hat:
 
-   * Kommentar zu einem Element
-   * Akzeptieren, um daran zu arbeiten
-   * Genehmigungsentscheidung treffen
+  * Kommentar zu einem Element
+  * Akzeptieren, um daran zu arbeiten
+  * Genehmigungsentscheidung treffen
 
 * Unterstützung der Querformat-Ausrichtung für iOS-Geräte
 
   Wir unterstützen jetzt sowohl Querformat- als auch Hochformat-Ausrichtungen für iOS und Android Mobile Apps mit Ausnahme der folgenden iPhone-Größen:
 
-   * IPHONE 5
-   * iPhone 5S
-   * IPHONE SE\
-     Vor dieser Verbesserung wurde die Querformat-Ausrichtung nur für Android-Geräte unterstützt.
+  * IPHONE 5
+  * iPhone 5S
+  * IPHONE SE\
+    Vor dieser Verbesserung wurde die Querformat-Ausrichtung nur für Android-Geräte unterstützt.
 
 * Unterstützung für iOS 12- und Android P-Plattformen
 * Unterstützung für iOS- und Android-Tablets

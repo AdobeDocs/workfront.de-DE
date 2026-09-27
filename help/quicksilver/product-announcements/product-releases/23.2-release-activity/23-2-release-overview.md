@@ -6,29 +6,41 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
-TQID: https://experienceleague.adobe.com/7jiKsgfucD4HWoEz0nAKOGB4y2R0rpzAsq4vrNiyM3E
+TQID: 'https://experienceleague.adobe.com/7jiKsgfucD4HWoEz0nAKOGB4y2R0rpzAsq4vrNiyM3E'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Personalization
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2914
+source-wordcount: '2917'
 ht-degree: 6%
-
 ---
-
 # Überblick über Version 23.2
 
 Diese Seite enthält Informationen zur Funktionalität, die in Version 23.1 enthalten ist. Diese Verbesserungen wurden mit der Version 23.2 vom 6. und 7. April 2023 in der Produktionsumgebung verfügbar gemacht.
@@ -554,7 +566,7 @@ Anstelle eines Veröffentlichungs-Webinars laden wir Sie ein, sich für Adobe Su
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Neues Kommentierungserlebnis für Probleme in Beta</a>
                         <p>Ein Update für das Kommentierungserlebnis in Adobe Workfront befindet sich derzeit in der Entwicklung. Dieses Update enthält eine neue Benutzeroberfläche, neue Funktionen und eine verbesserte Leistung im Abschnitt Aktualisierungen einiger Objekte. </p>
-                        <p>Diese neue Erfahrung wird letztendlich die Kommentare innerhalb von Adobe Workfront und darüber hinaus in Adobe Experience Cloud vereinheitlichen. </p>
+                        <p>Dieses neue Erlebnis wird letztendlich die Kommentare in Adobe Workfront und darüber hinaus in der gesamten Adobe Experience Cloud vereinheitlichen. </p>
                     </td>
                     <td><p><b>Verfügbar zu diesen Daten:</b></p>
                         <ul>

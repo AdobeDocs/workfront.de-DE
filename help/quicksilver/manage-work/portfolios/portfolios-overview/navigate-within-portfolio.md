@@ -8,27 +8,35 @@ feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/tPholEwp3lv7fadB0JvoUARL6G1xn19GpghaAb8LDHQ
+TQID: 'https://experienceleague.adobe.com/tPholEwp3lv7fadB0JvoUARL6G1xn19GpghaAb8LDHQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 9e23143e-3f4f-5cbb-821d-095a63bee200
+    internal-label: Strategic Planning
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 660
+source-wordcount: '720'
 ht-degree: 6%
-
 ---
-
 # Navigieren innerhalb eines Portfolios
 
 <!--Audited: 08/2025-->
@@ -114,7 +122,7 @@ Old:
    * **[!UICONTROL Alle]**: Umfasst alle Portfolios, für die Sie zumindest Ansichtszugriff haben.
 
      Weitere Informationen zum Zugriff auf Portfolios finden Sie unter [Übersicht über Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
-Weitere Informationen zu Berechtigungen für Portfolios finden Sie unter [Freigeben eines Portfolios](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
+     Weitere Informationen zu Berechtigungen für Portfolios finden Sie unter [Freigeben eines Portfolios](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
      Informationen zum Hinzufügen neuer Portfolios finden Sie unter [Erstellen eines Portfolios](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
@@ -131,9 +139,9 @@ Die folgenden Portfolioleistungsmetriken werden im Bereich [!UICONTROL Portfolio
 
    * **[!UICONTROL Aktiv]**: Umfasst alle mit dem ausgewählten Portfolio verknüpften Projekte mit den folgenden Status:
 
-      * [!UICONTROL Planung]
-      * [!UICONTROL Genehmigt]
-      * [!UICONTROL Aktuell]
+     * [!UICONTROL Planung]
+     * [!UICONTROL Genehmigt]
+     * [!UICONTROL Aktuell]
    * **[!UICONTROL Angefordert]**: Umfasst Projekte, die mit dem ausgewählten Portfolio verknüpft sind und den Status **[!UICONTROL Angefordert]** aufweisen.
 
      Informationen zur Überprüfung angeforderter Projekte finden Sie unter [Angeforderte Projekte überprüfen](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md).

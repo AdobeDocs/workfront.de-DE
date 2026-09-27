@@ -3,32 +3,38 @@ product-area: workfront-integrations;documents
 keywords: Google,DOC,Dokument,Blatt,Folie
 navigation-topic: workfront-for-g-suite
 title: Anzeigen und Verwalten von Dokumenten über Google Workspace
-description: Sie können mit einem Objekt verknüpfte Dokumente anzeigen und verwalten,  [!DNL Adobe Workfront]  Google Workspace zu verlassen.
+description: Sie können Dokumente, die mit einem [!DNL Adobe Workfront] verknüpft sind, anzeigen und verwalten, ohne Google Workspace verlassen zu müssen.
 author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 20c9e1a6-fce0-44a2-a4c3-f89c94db6635
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/CQZaxz7GyLAH9Ek-Knz7IDwMdGJRjwpUrT7r7PFMtdM
+TQID: 'https://experienceleague.adobe.com/CQZaxz7GyLAH9Ek-Knz7IDwMdGJRjwpUrT7r7PFMtdM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: bbf3fe51-0066-4980-9062-f8005585ee10
+    internal-label: Adobe Workfront for Google Workspace
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 192
-ht-degree: 27%
-
+source-wordcount: '193'
+ht-degree: 26%
 ---
-
 # Anzeigen und Verwalten von Dokumenten in [!DNL Google Workspace]
 
 >[!IMPORTANT]

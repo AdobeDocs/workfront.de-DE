@@ -9,26 +9,33 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-TQID: https://experienceleague.adobe.com/8rHmgTfG96Ca44EffT6BdyM1YwIkYhgRBu9KEvdbuL8
+TQID: 'https://experienceleague.adobe.com/8rHmgTfG96Ca44EffT6BdyM1YwIkYhgRBu9KEvdbuL8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 943
+source-wordcount: '943'
 ht-degree: 3%
-
 ---
-
 # Übersicht über das Verschieben von Objekten zwischen Workfront-Umgebungen (Umgebungs-Promotion)
 
 Mit der Funktion zum Hochstufen der Umgebung können Sie Objekte von einer Workfront-Umgebung in eine andere verschieben. Sie können beispielsweise eine Vorlage erstellen und in Ihrer Sandbox-Umgebung konfigurieren, in dem Wissen, dass Tests, die Sie durchführen, keine Auswirkungen auf die tatsächlichen Daten Ihrer Organisation haben. Nachdem die Vorlage konfiguriert und getestet wurde, können Sie sie in Ihre Produktionsumgebung verschieben, sodass sie verwendet werden kann.
@@ -39,8 +46,8 @@ Sie können diesen Prozess in Workfront durchführen, indem Sie ein Paket von zu
 
 * Spezifische Anweisungen zum Ausführen dieses Prozesses in Workfront finden Sie unter:
 
-   * [Erstellen oder Bearbeiten eines Umgebungsförderungspakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
-   * [Installieren eines Umgebungsförderungspakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
+  * [Erstellen oder Bearbeiten eines Umgebungsförderungspakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
+  * [Installieren eines Umgebungsförderungspakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
 * Anweisungen zum Ausführen dieses Prozesses über die Workfront-API finden Sie unter [Verschieben von Objekten zwischen  [!DNL Workfront]  mithilfe der  [!DNL Workfront] -API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md).
 

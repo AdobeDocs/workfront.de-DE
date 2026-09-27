@@ -6,20 +6,24 @@ description: Die folgenden Benachrichtigungen informieren Sie über Kommunikatio
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 473e1760-f85a-4622-beff-9431046d655e
-TQID: https://experienceleague.adobe.com/u5d9-5-2VWQLfRUKea2ca86vgMbFcVkZkbGqiaA-keA
+TQID: 'https://experienceleague.adobe.com/u5d9-5-2VWQLfRUKea2ca86vgMbFcVkZkbGqiaA-keA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Customer experience
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1492
+source-wordcount: '1492'
 ht-degree: 1%
-
 ---
-
 # Benachrichtigungen: Kommunikation
 
 Die folgenden Benachrichtigungen informieren Sie über Kommunikationsvorgänge, z. B. einen Aktualisierungskommentar, die bei einem von Ihnen verwendeten Arbeitselement erfolgen. Informationen zum Konfigurieren der empfangenen Benachrichtigungen finden Sie unter [Ändern eigener E-Mail-Benachrichtigungen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).

@@ -4,7 +4,16 @@ description: Diese Seite enthält Informationen zur Funktionalität, die in der 
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 19ac0dd5e22782ed5262deb096f24f0d18ccc2f1
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '2877'
 ht-degree: 9%
@@ -199,8 +208,8 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">CX Coworker jetzt in Workfront verfügbar</a>
-                <p>CX Coworker ist eine neue Gesprächsoberfläche, mit der Arbeit in Workfront und verbundenen Adobe-Systemen erledigt werden kann. Sie ersetzt den aktuellen KI-Assistenten.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">CX Coworker ist jetzt in Workfront verfügbar</a>
+                <p>CX Coworker ist eine neue Gesprächsoberfläche, mit der Sie Aufgaben in Workfront und verbundenen Adobe-Systemen erledigen können. Sie ersetzt den aktuellen KI-Assistenten.</p>
             </td>
             <td><p>Schrittweiser Rollout ab 3. September 2026</p></td>
             <td><p>Schrittweiser Rollout ab 17. September 2026</p></td>

@@ -8,24 +8,30 @@ author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 84d9a752-e894-42cf-9b40-375e35f02c97
-TQID: https://experienceleague.adobe.com/RSvNaBdgB5bZqkeD-KmlX1o54cUEdgi0Vtta9JWMTlw
+TQID: 'https://experienceleague.adobe.com/RSvNaBdgB5bZqkeD-KmlX1o54cUEdgi0Vtta9JWMTlw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 568
+source-wordcount: '577'
 ht-degree: 6%
-
 ---
-
 # Verhindern von Benutzerduplikaten
 
 Beim Erstellen eines neuen Benutzers in Adobe Workfront können Sie keine E-Mail-Adresse mehr verwenden, die bereits von einem anderen Benutzer verwendet wird, auch wenn die E-Mail-Adresse von Fall zu Fall unterschiedlich ist (z. B. JohnDoe@example.com und johndoe@example.com). Um sich auf künftige Authentifizierungsverbesserungen vorzubereiten, stellen Sie außerdem sicher, dass alle Benutzer über eindeutige E-Mail-Adressen in einer Workfront-Instanz verfügen.
@@ -107,8 +113,8 @@ So beheben Sie doppelte E-Mail-Adressen in einer Workfront-Instanz:
 
      John Doe kann beispielsweise ein Benutzerkonto für sein Täglichkeitskonto und eines für Testzwecke haben:
 
-      * johndoe@workfront.com
-      * johndoe+reviewer@workfront.com
+     * johndoe@workfront.com
+     * johndoe+reviewer@workfront.com
 
    * Ändern Sie die Domain, um eine gefälschte Domain zu verwenden, indem Sie den folgenden Text an die E-Mail-Adresse anhängen:
 
@@ -116,8 +122,8 @@ So beheben Sie doppelte E-Mail-Adressen in einer Workfront-Instanz:
 
      Beispielsweise könnte Martin Müller die folgenden Domains haben: (Diese müssen eindeutig sein.)
 
-      * johndoe@workfront.inactive
-      * johndoe@workfront.inactive2
+     * johndoe@workfront.inactive
+     * johndoe@workfront.inactive2
 
      Sie können sich nicht mehr bei diesen Konten anmelden, da für das Zurücksetzen des Kennworts eine gültige E-Mail-Adresse erforderlich ist. Auf diese Konten kann nur über die Funktion „Anmelden als“ zugegriffen werden.
 

@@ -1,26 +1,30 @@
 ---
 navigation-topic: the-new-workfront-experience
 title: Anheften von Seiten, um den Arbeitsbereich anzupassen
-description: Sie können Ihre wichtigste Arbeit anheften [!DNL Adobe Workfront]  um die Sichtbarkeit zu erhöhen, die Organisation zu verbessern und schneller darauf zuzugreifen. Angeheftete Seiten sind in Workfront immer oben auf jeder Seite verfügbar.
+description: Sie können Ihre wichtigsten [!DNL Adobe Workfront] für mehr Transparenz, bessere Organisation und schnelleren Zugriff festschreiben. Angeheftete Seiten sind in Workfront immer oben auf jeder Seite verfügbar.
 feature: Get Started with Workfront
 author: Courtney
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-TQID: https://experienceleague.adobe.com/xXHYO3esg0zhwMvdpQEXitxMBnwWDLWEQvLhHeIhXkw
+TQID: 'https://experienceleague.adobe.com/xXHYO3esg0zhwMvdpQEXitxMBnwWDLWEQvLhHeIhXkw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 348
-ht-degree: 11%
-
+source-wordcount: '349'
+ht-degree: 12%
 ---
-
 # Anheften von Seiten, um den Arbeitsbereich anzupassen
 
 <!-- Audited: 4/2025 -->

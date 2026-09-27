@@ -8,25 +8,31 @@ feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/hjseZZVmNs0rGOgMauDWITarp8Vbdh-0iqyJeToR0g4
+TQID: 'https://experienceleague.adobe.com/hjseZZVmNs0rGOgMauDWITarp8Vbdh-0iqyJeToR0g4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2668
+source-wordcount: '2668'
 ht-degree: 2%
-
 ---
-
 # Erstellen komplexer Textmodusfilter mit EXISTS-Anweisungen
 
 <!-- Audited: 01/2025 -->
@@ -75,22 +81,22 @@ Beachten Sie Folgendes beim Erstellen von Filtern, die sich über mehrere Ebenen
 * Sie müssen komplexe Filter erstellen, wenn Sie auf Objekte verweisen möchten, die nicht direkt mit dem Filterobjekt verbunden sind.
 * Sie müssen eine EXISTS-Anweisung verwenden, um Folgendes auszuführen:
 
-   * Erstellen Sie Filter, die mehrere Ebenen umfassen.
-   * Erstellen Sie Filter, die nach fehlenden Objekten suchen.\
-     Wenn Sie beispielsweise einen Benutzerbericht erstellen, können Sie nach Benutzern filtern, die die Zeit für einen bestimmten Zeitraum nicht protokolliert haben.
+  * Erstellen Sie Filter, die mehrere Ebenen umfassen.
+  * Erstellen Sie Filter, die nach fehlenden Objekten suchen.\
+    Wenn Sie beispielsweise einen Benutzerbericht erstellen, können Sie nach Benutzern filtern, die die Zeit für einen bestimmten Zeitraum nicht protokolliert haben.
 
 Beachten Sie die folgenden Regeln, wenn Sie EXISTS-Anweisungen in einem Filter verwenden:
 
 * Es gibt drei Objekte, auf die Sie in einem EXISTS-Filter verweisen können:
 
-   * Das -Objekt des Filters (Original-Objekt).
-   * Das Objekt, auf dessen Feld Sie verweisen möchten (Zielobjekt).
-   * Das -Objekt, das das Original- und das Zielobjekt verbindet, falls sie nicht direkt miteinander verbunden sind (Verknüpfungsobjekt).
+  * Das -Objekt des Filters (Original-Objekt).
+  * Das Objekt, auf dessen Feld Sie verweisen möchten (Zielobjekt).
+  * Das -Objekt, das das Original- und das Zielobjekt verbindet, falls sie nicht direkt miteinander verbunden sind (Verknüpfungsobjekt).
 
 * Filter, die EXISTS verwenden, enthalten zwei separate Anweisungen, die durch ein Gleichheitszeichen verknüpft sind:
 
-   * Die Anweisung vor dem Gleichheitszeichen bezieht sich auf das Objekt, auf das Sie verweisen (das Verknüpfungsobjekt oder das Zielobjekt).
-   * Die Anweisung nach dem Gleichheitszeichen bezieht sich auf das Objekt, von dem aus Sie verweisen (das Original-Objekt).
+  * Die Anweisung vor dem Gleichheitszeichen bezieht sich auf das Objekt, auf das Sie verweisen (das Verknüpfungsobjekt oder das Zielobjekt).
+  * Die Anweisung nach dem Gleichheitszeichen bezieht sich auf das Objekt, von dem aus Sie verweisen (das Original-Objekt).
 
 * Sie müssen den Objektcode des Verknüpfungsobjekts verwenden, um Ihre Anweisungen zu verbinden.\
   Den Objektcode aller Objekte finden Sie im API Explorer.\

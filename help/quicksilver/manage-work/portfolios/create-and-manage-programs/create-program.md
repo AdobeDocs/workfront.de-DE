@@ -8,26 +8,33 @@ feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/v5hWK5R5IrLAzdg-lKtzmw-xyimiDCCCbVlCK7sBtyY
+TQID: 'https://experienceleague.adobe.com/v5hWK5R5IrLAzdg-lKtzmw-xyimiDCCCbVlCK7sBtyY'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 9e23143e-3f4f-5cbb-821d-095a63bee200
+    internal-label: Strategic Planning
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1422
+source-wordcount: '1450'
 ht-degree: 4%
-
 ---
-
 # Erstellen eines Programms
 
 <!-- Audited: 05/2026-->
@@ -121,10 +128,10 @@ Sie können ein Programm in Workfront mit einer der folgenden Methoden erstellen
 
 * Erstellen Sie Programme aus Workfront Planning wie folgt:
 
-   * So können Sie sie über einen Datensatztyp in Workfront Planning verbinden.
+  * So können Sie sie über einen Datensatztyp in Workfront Planning verbinden.
 
   Informationen zum Erstellen von Programmen durch Hinzufügen zu Datensätzen finden Sie im Abschnitt „Erstellen von Datensätzen während der Verbindung“ im Artikel [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
-   * Verwenden von Workfront Planning-Automatisierungen.
+  * Verwenden von Workfront Planning-Automatisierungen.
 
   Weitere Informationen finden Sie unter [Erstellen von Objekten mithilfe von Adobe Workfront Planning-Datensatzautomatisierungen](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
@@ -140,21 +147,21 @@ Sie können ein Programm in Workfront mit einer der folgenden Methoden erstellen
 
    * Erstellen Sie ein Programm im Bereich [!UICONTROL Programme]:
 
-      1. Klicken Sie **[!UICONTROL Programme]** im [!DNL **Hauptmenü**] ![Hauptmenü](assets/lines-main-menu.png).
-      1. Klicken Sie auf **[!UICONTROL Neues Programm]**.
-      1. Geben Sie in das angezeigte Feld den Namen einer bestehenden Portfolio in das Feld **[!UICONTROL Portfolio auswählen]** ein.
-      1. Geben Sie den Namen des neuen Programms in das Feld **[!UICONTROL Name]** ein.
-      1. Klicken Sie auf **[!UICONTROL Speichern]**.
+     1. Klicken Sie **[!UICONTROL Programme]** im [!DNL **Hauptmenü**] ![Hauptmenü](assets/lines-main-menu.png).
+     1. Klicken Sie auf **[!UICONTROL Neues Programm]**.
+     1. Geben Sie in das angezeigte Feld den Namen einer bestehenden Portfolio in das Feld **[!UICONTROL Portfolio auswählen]** ein.
+     1. Geben Sie den Namen des neuen Programms in das Feld **[!UICONTROL Name]** ein.
+     1. Klicken Sie auf **[!UICONTROL Speichern]**.
    * Erstellen Sie ein Programm aus dem Bereich [!UICONTROL Portfolios]:
 
-      1. Klicken Sie **[!UICONTROL Portfolios]** im [!DNL **Hauptmenü**] ![Hauptmenü](assets/lines-main-menu.png) und öffnen Sie dann ein Portfolio.
-      1. Klicken Sie im linken Bedienfeld auf **[!UICONTROL Programme]**.
-      1. Klicken Sie auf **[!UICONTROL Dropdown]** Menü „Neues Programm“ und dann auf **[!UICONTROL Neues Programm]**.
+     1. Klicken Sie **[!UICONTROL Portfolios]** im [!DNL **Hauptmenü**] ![Hauptmenü](assets/lines-main-menu.png) und öffnen Sie dann ein Portfolio.
+     1. Klicken Sie im linken Bedienfeld auf **[!UICONTROL Programme]**.
+     1. Klicken Sie auf **[!UICONTROL Dropdown]** Menü „Neues Programm“ und dann auf **[!UICONTROL Neues Programm]**.
    * Vorhandenes Programm hinzufügen:
-      1. Klicken Sie **[!UICONTROL Portfolios]** im [!DNL **Hauptmenü**] ![Hauptmenü](assets/lines-main-menu.png) und öffnen Sie dann ein Portfolio.
-      1. Klicken Sie im linken Bedienfeld auf **[!UICONTROL Programme]**.
-      1. Klicken Sie auf **[!UICONTROL Dropdown]** Menü „Neues Programm“ und dann auf **[!UICONTROL Vorhandenes Programm]**.
-      1. Geben Sie den Namen eines vorhandenen Programms ein, oder klicken Sie auf das Dropdown-Menü, und wählen Sie es aus der Liste aus.
+     1. Klicken Sie **[!UICONTROL Portfolios]** im [!DNL **Hauptmenü**] ![Hauptmenü](assets/lines-main-menu.png) und öffnen Sie dann ein Portfolio.
+     1. Klicken Sie im linken Bedienfeld auf **[!UICONTROL Programme]**.
+     1. Klicken Sie auf **[!UICONTROL Dropdown]** Menü „Neues Programm“ und dann auf **[!UICONTROL Vorhandenes Programm]**.
+     1. Geben Sie den Namen eines vorhandenen Programms ein, oder klicken Sie auf das Dropdown-Menü, und wählen Sie es aus der Liste aus.
 
      >[!NOTE]
      >

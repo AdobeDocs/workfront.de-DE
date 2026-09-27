@@ -3,28 +3,38 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
-title: Fehlerbehebung -  [!DNL Workfront Proof] -Viewer
+title: Fehlerbehebung - [!DNL Workfront Proof] Proofing Viewer
 description: Wenn Ihr Korrekturabzugsinhalt nicht geladen wird und Sie nur eine leere Korrekturabzugsansicht sehen, liegt das höchstwahrscheinlich daran, dass diese Aktion lokal blockiert wird.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ce463565-d21e-4dbc-8de8-78bcbf16fb2c
-TQID: https://experienceleague.adobe.com/M6KHW8gqdQPde-oeq2bv7eQlwwDnzWMjRFP3RaDKtPA
+TQID: 'https://experienceleague.adobe.com/M6KHW8gqdQPde-oeq2bv7eQlwwDnzWMjRFP3RaDKtPA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: '980'
 ht-degree: 0%
-
 ---
-
 # Fehlerbehebung - [!DNL Workfront Proof] Proofing Viewer
 
 <!-- Audited: 01/2024 -->
@@ -82,10 +92,10 @@ If there is some storage allocated, but you're working with the bigger proofs wi
 Wenn der Korrekturabzug nicht in einem Browser auf Ihrem Computer geöffnet wird, versuchen Sie, ihn auf einem anderen Computer an Ihrem Standort und/oder außerhalb Ihres Standorts zu öffnen. Auf diese Weise können Sie feststellen, ob sich ein Problem auf Ihrem Computer oder in Ihrem lokalen Netzwerk befindet.
 Wenn Ihre Sicherheitsstufe höher ist, werden Ihre Verbindungen zu [!DNL Workfront Proof] möglicherweise von folgenden Elementen blockiert:
 
-   * Ihre lokale AV-Software
-   * Ihre Netzwerksicherheitslösung
-   * DNS-, Firewall- oder Proxy-Konfiguration
-   * Dies sind die Einstellungen, die außerhalb unserer Kontrolle liegen. Es gibt verschiedene Sicherheitslösungen, und wir können nicht sagen, welche in Ihrem Netzwerk implementiert sind und welche möglicherweise Verbindungen zu [!DNL Workfront Proof] blockieren. Es liegt auch nicht an [!DNL Workfront Proof], über Ihre interne Sicherheitskonfiguration zu entscheiden. Wenn Sie Probleme beim Öffnen der Testsendungen auf mehreren Computern in Ihrem Standort/Netzwerk haben, empfehlen wir Ihnen, sich an Ihr IT-Team zu wenden, damit es die Netzwerkeinstellungen überprüfen und die [!DNL Workfront Proof] bei Bedarf autorisieren oder zur Zulassungsliste hinzufügen kann.
+  * Ihre lokale AV-Software
+  * Ihre Netzwerksicherheitslösung
+  * DNS-, Firewall- oder Proxy-Konfiguration
+  * Dies sind die Einstellungen, die außerhalb unserer Kontrolle liegen. Es gibt verschiedene Sicherheitslösungen, und wir können nicht sagen, welche in Ihrem Netzwerk implementiert sind und welche möglicherweise Verbindungen zu [!DNL Workfront Proof] blockieren. Es liegt auch nicht an [!DNL Workfront Proof], über Ihre interne Sicherheitskonfiguration zu entscheiden. Wenn Sie Probleme beim Öffnen der Testsendungen auf mehreren Computern in Ihrem Standort/Netzwerk haben, empfehlen wir Ihnen, sich an Ihr IT-Team zu wenden, damit es die Netzwerkeinstellungen überprüfen und die [!DNL Workfront Proof] bei Bedarf autorisieren oder zur Zulassungsliste hinzufügen kann.
 
 * Sind die Verbindungen zu [!DNL Workfront Proof] in Ihrem Netzwerk zulässig?
 In die Korrekturabzugsansicht laden wir die Kacheln - Fragmente der Seiten. Wenn dieser Inhalt an Ihrem Ende nicht ordnungsgemäß geladen wird, kann es sein, dass einige Verbindungen zu [!DNL Workfront Proof] in Ihrem Netzwerk blockiert sind. Sie sollten sicherstellen, dass alle Verbindungen und alle Inhalte von *.proofhq.com zur Zulassungsliste hinzugefügt werden. Ihr IT-Team sollte Ihnen bei der Überprüfung helfen können.

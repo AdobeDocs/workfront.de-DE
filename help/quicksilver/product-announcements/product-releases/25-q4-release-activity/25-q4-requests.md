@@ -7,20 +7,26 @@ recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/uax0SXlgrYrYkzCwQ8E25jA3mtYS59XrNjMUkw7G0Sg
+TQID: 'https://experienceleague.adobe.com/uax0SXlgrYrYkzCwQ8E25jA3mtYS59XrNjMUkw7G0Sg'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 387
+source-wordcount: '399'
 ht-degree: 6%
-
 ---
-
 # Verbesserungen bei Anfragen im vierten Quartal 2025
 
 Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom vierten Quartal 2025 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
@@ -31,7 +37,9 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2025-Ve
 
 >[!NOTE]
 >
->Vorschau: 2. Oktober 2025>Produktions-Schnellveröffentlichung: 15. Oktober 2025>Produktion für alle: 16. Oktober 2025
+>Vorschau: 2. Oktober 2025
+>Produktions-Schnellveröffentlichung: 15. Oktober 2025
+>Produktion für alle: 16. Oktober 2025
 
 Um die Anzeige der benötigten Informationen zu vereinfachen, haben wir die Möglichkeit hinzugefügt, Ansichten im Bereich Anfragen zu erstellen und zu speichern. Jetzt können Sie eine Ansicht, einschließlich Filtern und Spaltenkonfigurationen, speichern und zwischen Ansichten wechseln. Ein Workfront-Administrator kann die neue Ansicht zu Layout-Vorlagen hinzufügen.
 

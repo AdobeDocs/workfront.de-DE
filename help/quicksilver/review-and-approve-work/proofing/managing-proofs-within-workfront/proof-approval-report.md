@@ -6,22 +6,29 @@ description: Sie können den Bericht zu Korrekturabzugsgenehmigungen verwenden, 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f8c924e-7c33-43f3-a9d6-75c56af28527
-TQID: https://experienceleague.adobe.com/ZU6Ej5QhI7v9zoAxurBz1YsFVIuVIh2a8tR2h6vYL18
+TQID: 'https://experienceleague.adobe.com/ZU6Ej5QhI7v9zoAxurBz1YsFVIuVIh2a8tR2h6vYL18'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a2241fa21f51f8146c1f3725d2ba2235f8458ab4
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 310
+source-wordcount: '310'
 ht-degree: 14%
-
 ---
-
 # Verwenden des Genehmigungsberichts für einen Korrekturabzug
 
 Sie können den Bericht zu Korrekturabzugsgenehmigungen verwenden, um Informationen zu Korrekturabzügen in Ihrer Umgebung anzuzeigen.
@@ -42,7 +49,7 @@ Sie können den Bericht zu Korrekturabzugsgenehmigungen verwenden, um Informatio
    <td role="rowheader"> <p>Adobe Workfront-Lizenz</p> </td> 
    <td> 
    <p>Standard</p>
-   <p>Abo</p>
+   <p>Plan</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -80,9 +87,9 @@ Sie können die folgenden Felder zum Bericht über Korrekturabzugsgenehmigungen 
 * **Workflow-**: Zeigt alle Workflow-Vorlagen an, die an den Korrekturabzug angehängt sind. Wenn keine Vorlage angehängt ist, ist die Spalte leer.
 * **Entscheidung ausstehend**: Zeigt „true“ an, um anzuzeigen, dass eine Entscheidung auf der neuesten Version nicht erfüllt wurde, wenn Folgendes zutrifft:
 
-   * Der Korrekturabzug wurde nicht archiviert
-   * Die Phase, in der sich die genehmigende Person befindet, ist aktiv
-   * Die Genehmigung des Korrekturabzugs steht aus
+  * Der Korrekturabzug wurde nicht archiviert
+  * Die Phase, in der sich die genehmigende Person befindet, ist aktiv
+  * Die Genehmigung des Korrekturabzugs steht aus
 
 * **Testversand-Frist**: Zeigt die Frist für den Testversand an. Jeder Phase muss eine Frist zugewiesen sein, damit dieses Feld ausgefüllt werden kann. Das Feld zeigt den Termin für die zuletzt aktivierte Phase an.
 

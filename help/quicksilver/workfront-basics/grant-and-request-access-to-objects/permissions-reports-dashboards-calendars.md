@@ -7,23 +7,28 @@ description: Ihr Adobe Workfront-Administrator gewährt Benutzenden Zugriff zum 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c2dac54b-6506-41b0-a7f2-6fafab12c2d1
-TQID: https://experienceleague.adobe.com/-jlMqisDlyWp1rpYTDhSfiwq32-qoxfvvDhFyKw7yvk
+TQID: 'https://experienceleague.adobe.com/-jlMqisDlyWp1rpYTDhSfiwq32-qoxfvvDhFyKw7yvk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 573
+source-wordcount: '573'
 ht-degree: 2%
-
 ---
-
 # Freigeben von Berichten, Dashboards und Kalendern
 
 Ihr Adobe Workfront-Administrator gewährt Benutzenden Zugriff zum Anzeigen oder Bearbeiten von Berichten, Dashboards und Kalendern, wenn sie Zugriffsebenen zuweisen. Weitere Informationen zum Gewähren des Zugriffs auf Berichte, Dashboards und Kalender finden Sie unter [Gewähren des Zugriffs auf Berichte, Dashboards und Kalender](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
@@ -49,9 +54,9 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
 
   In den folgenden Artikeln erfahren Sie außerdem, wie Sie Berichte, Dashboards und Kalender freigeben:
 
-   * [Freigeben eines Berichts in Adobe Workfront](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
-   * [Freigeben eines Dashboards](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
-   * [Freigeben eines Kalenderberichts](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
+  * [Freigeben eines Berichts in Adobe Workfront](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
+  * [Freigeben eines Dashboards](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
+  * [Freigeben eines Kalenderberichts](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
 * Sie können Berichte und Dashboards einzeln oder zusammen freigeben.
 
@@ -63,8 +68,8 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
 
 * Sie können die folgenden Berechtigungen für Berichte, Dashboards und Kalender gewähren:
 
-   * Ansicht
-   * Verwalten
+  * Ansicht
+  * Verwalten
 
 * Wenn Sie ein Dashboard freigeben, haben Benutzer standardmäßig Anzeigeberechtigungen für alle Berichte, Kalender und externen Seiten im Dashboard.
 * Benutzende mit einer Anfragelizenz können keinen systemweiten Bericht anzeigen. Ein Bericht muss für die Antragsteller einzeln freigegeben werden, wenn sie ihn anzeigen müssen.

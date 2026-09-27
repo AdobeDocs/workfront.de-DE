@@ -5,20 +5,27 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 326ca4c6-f5d6-4060-9e2b-712d8bcd2ff1
-TQID: https://experienceleague.adobe.com/HR7S7Kj-JqPsJIx7fx9MCXomVrLJMGujYF3icuY4t-M
+TQID: 'https://experienceleague.adobe.com/HR7S7Kj-JqPsJIx7fx9MCXomVrLJMGujYF3icuY4t-M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Reporting
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 878
-ht-degree: 94%
-
+source-wordcount: '1000'
+ht-degree: 99%
 ---
-
 # Verbesserungen beim Reporting im ersten Quartal 2026
 
 Auf dieser Seite werden die Verbesserungen beim Reporting beschrieben, die mit der Version vom ersten Quartal 2026 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
@@ -31,7 +38,9 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2026 des
 
 >[!NOTE]
 >
->Vorschau: 18. Dezember 2025>Produktionsschnellveröffentlichung: 14. Januar 2026>Produktion für alle: 15. Januar 2026
+>Vorschau: 18. Dezember 2025
+>Produktions-Schnellveröffentlichung: 14. Januar 2026
+>Produktion für alle: 15. Januar 2026
 
 Für Felder in nativen Währungen wurden folgende Aktualisierungen vorgenommen:
 
@@ -47,7 +56,9 @@ Für Felder in nativen Währungen wurden folgende Aktualisierungen vorgenommen:
 
 >[!NOTE]
 >
->Vorschau: 18. Dezember 2025>Produktionsschnellveröffentlichung: 14. Januar 2026>Produktion für alle: 15. Januar 2026
+>Vorschau: 18. Dezember 2025
+>Produktions-Schnellveröffentlichung: 14. Januar 2026
+>Produktion für alle: 15. Januar 2026
 
 Wir haben eine Schnellsuche zu Tabellenberichten hinzugefügt. Diese Suche funktioniert über alle Seiten hinweg, sodass Sie Daten finden können, auch wenn sie derzeit nicht sichtbar sind.
 
@@ -56,7 +67,9 @@ Wir haben eine Schnellsuche zu Tabellenberichten hinzugefügt. Diese Suche funkt
 
 >[!NOTE]
 >
->Vorschau: 18. Dezember 2025>Produktionsschnellveröffentlichung: 14. Januar 2026>Produktion für alle: 15. Januar 2026
+>Vorschau: 18. Dezember 2025
+>Produktions-Schnellveröffentlichung: 14. Januar 2026
+>Produktion für alle: 15. Januar 2026
 
 Wir haben die neue Option „Gesamt anzeigen“ eingeführt, die Tortendiagramme in Ringdiagramme konvertiert. Mit dieser Funktion können Benutzende einen zentralen Wert anzeigen, der die Summe aller Segmente im Diagramm darstellt.
 
@@ -72,7 +85,9 @@ Weitere Informationen finden Sie unter [Erstellen eines Diagrammberichts in eine
 
 >[!NOTE]
 >
->Vorschau: 18. Dezember 2025>Produktionsschnellveröffentlichung: 14. Januar 2026>Produktion für alle: 15. Januar 2026
+>Vorschau: 18. Dezember 2025
+>Produktions-Schnellveröffentlichung: 14. Januar 2026
+>Produktion für alle: 15. Januar 2026
 
 Wir haben zwei neue Konfigurationsoptionen für Tortendiagramme eingeführt:
 
@@ -85,7 +100,9 @@ Weitere Informationen finden Sie unter [Erstellen eines Diagrammberichts in eine
 
 >[!NOTE]
 >
->Vorschau: 18. Dezember 2025>Produktionsschnellveröffentlichung: 14. Januar 2026>Produktion für alle: 15. Januar 2026
+>Vorschau: 18. Dezember 2025
+>Produktions-Schnellveröffentlichung: 14. Januar 2026
+>Produktion für alle: 15. Januar 2026
 
 Die Gruppierungsleiste in den Arbeitsflächen-Dashboards wurde aktualisiert, sodass der Eintragszähler für die aktuelle Seite und der Gesamteintragszähler für die Gruppierung über alle Seiten hinweg angezeigt wird.
 
@@ -97,7 +114,9 @@ Zuvor wurden in der Gruppierungsleiste diese detaillierten Zählerinformationen 
 
 >[!NOTE]
 >
->Vorschau: 18. Dezember 2025>Produktionsschnellveröffentlichung: 14. Januar 2026>Produktion für alle: 15. Januar 2026
+>Vorschau: 18. Dezember 2025
+>Produktions-Schnellveröffentlichung: 14. Januar 2026
+>Produktion für alle: 15. Januar 2026
 
 Sie können jetzt eine Bezugslinie in Balken-, Spalten- und Liniendiagrammen definieren, um ein Ziel oder einen Schwellenwert für Ihre serienbasierten Berichte festzulegen.
 
@@ -109,7 +128,9 @@ Weitere Informationen finden Sie unter [Erstellen eines Diagrammberichts in eine
 
 >[!NOTE]
 >
->Vorschau: 18. Dezember 2025>Produktionsschnellveröffentlichung: 14. Januar 2026>Produktion für alle: 15. Januar 2026
+>Vorschau: 18. Dezember 2025
+>Produktions-Schnellveröffentlichung: 14. Januar 2026
+>Produktion für alle: 15. Januar 2026
 
 Sie können jetzt die Achsen-Labels in Diagrammberichten anpassen. Mit dieser neuen Funktion können Sie ein Label für die Ersatzachse eingeben, der anstelle des Standardobjekts und des Feldpfads angezeigt werden soll. Darüber hinaus können Sie festlegen, dass die Achsen-Labels vollständig ausgeblendet werden.
 
@@ -119,7 +140,9 @@ Weitere Informationen finden Sie unter [Erstellen eines Diagrammberichts in eine
 
 >[!NOTE]
 >
->Vorschau-Version: 23. Oktober 2025>Produktion für alle Kunden: 23. Oktober 2025 >[!BADGE &#x200B; Zeitplan]{type=Neutral}
+>Geplante Veröffentlichung: 23. Oktober 2025
+>Produktion für alle: 23. Oktober 2025
+>[!BADGE Außerplanmäßig]{type=Neutral}
 
 Sie können jetzt einen KPI-, Tabellen- oder Diagrammbericht in einem Arbeitsflächen-Dashboard duplizieren, nachdem er erstellt wurde. Nach dem Duplizieren können Sie den Bericht nach Bedarf bearbeiten, bevor Sie ihn speichern.
 
@@ -127,7 +150,9 @@ Sie können jetzt einen KPI-, Tabellen- oder Diagrammbericht in einem Arbeitsfl�
 
 >[!NOTE]
 >
->Vorschau: 6. November 2025>Produktions-Schnellveröffentlichung: 13. November 2025>Produktion für alle: 15. Januar 2026
+>Vorschau: 6. November 2025
+>Produktions-Schnellveröffentlichung: 13. November 2025
+>Produktion für alle: 15. Januar 2026
 
 Wir haben die folgenden Feldoptionen entfernt, die zuvor beim Anwenden eines Filters auf einen Bericht verfügbar waren:
 
@@ -148,7 +173,9 @@ Die folgenden Feldoptionen sind als Alternativen verfügbar:
 
 >[!NOTE]
 >
->Vorschau: 6. November 2025>Produktions-Schnellveröffentlichung: 13. November 2025>Produktion für alle: 15. Januar 2026
+>Vorschau: 6. November 2025
+>Produktions-Schnellveröffentlichung: 13. November 2025
+>Produktion für alle: 15. Januar 2026
 
 Um Ladezeitverzögerungen zu vermeiden und die Gesamtleistung in Arbeitsflächen-Dashboards zu verbessern, haben wir Grenzwerte für die Anzahl der Dashboard-Komponenten angewendet, die einem Dashboard hinzugefügt werden können:
 

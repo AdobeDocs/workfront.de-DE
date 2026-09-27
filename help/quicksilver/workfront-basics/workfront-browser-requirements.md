@@ -6,20 +6,24 @@ description: Sowohl Adobe Workfront als auch Workfront Proof erfordern die Verwe
 feature: Get Started with Workfront
 author: Courtney
 exl-id: d5252675-ae87-4393-b05a-7810036e2f7d
-TQID: https://experienceleague.adobe.com/wvnnVO-fUD4E0t8Q63bV6zz2QOm2t7pP1MT2QBa2hTc
+TQID: 'https://experienceleague.adobe.com/wvnnVO-fUD4E0t8Q63bV6zz2QOm2t7pP1MT2QBa2hTc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Security
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 245
+source-wordcount: '245'
 ht-degree: 4%
-
 ---
-
 # Browser-Anforderungen von Adobe Workfront
 
 <!--Audited: 01/2024-->
@@ -30,10 +34,10 @@ Sowohl Adobe Workfront als auch Workfront Proof erfordern die Verwendung eines I
 
 * **Webbrowser:** Workfront unterstützt offiziell die aktuelle Browser-Version und eine frühere Version (sowie jede frühere Version, die mindestens fünf Prozent des gesamten Workfront-Traffics ausmacht) für die folgenden Browser:
 
-   * Chrome
-   * Firefox
-   * Safari
-   * Microsoft Edge (nicht Microsoft Edge Legacy)
+  * Chrome
+  * Firefox
+  * Safari
+  * Microsoft Edge (nicht Microsoft Edge Legacy)
 
   >[!NOTE]
   >

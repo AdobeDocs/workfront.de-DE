@@ -2,27 +2,36 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
-title: Konfigurieren Sie die Optionen für Genehmigungsentscheidungen in [!DNL Workfront Proof]
-description: Sie können Optionen für Genehmigungsentscheidungen für alle Korrekturabzüge konfigurieren, die von Benutzern  [!DNL Workfront Proof]  Ihrer Organisation erstellt wurden.
+title: Konfigurieren von Genehmigungsentscheidungsoptionen in [!DNL Workfront Proof]
+description: Sie können Optionen für Genehmigungsentscheidungen für alle Korrekturabzüge konfigurieren, die von [!DNL Workfront Proof] Benutzern in Ihrer Organisation erstellt wurden.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 9e1c2a4e-0641-4334-8ff9-dbb203ccbc82
-TQID: https://experienceleague.adobe.com/byd7VyLV7IkwQ1YSHoQMHQNXOPAeJvP8-ENhHBvo01A
+TQID: 'https://experienceleague.adobe.com/byd7VyLV7IkwQ1YSHoQMHQNXOPAeJvP8-ENhHBvo01A'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 462
+source-wordcount: '606'
 ht-degree: 0%
-
 ---
-
 # Konfigurieren von Genehmigungsentscheidungsoptionen in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
@@ -78,7 +87,7 @@ Je nach Ihren Anforderungen können Sie die Auswahl mehrerer Gründe zulassen od
 1. Wenn Sie ein Textfeld einbeziehen möchten, wählen Sie **[!UICONTROL Textfeld einschließen]**.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
    ![reason_setup_2.png](assets/reasons-setup-2-350x146.png)
-Der wichtigste Schritt besteht darin, die Entscheidungen auszuwählen, für die Gründe angezeigt werden sollten. Wenn Sie dies vergessen, werden die Gründe nicht auf Ihren Testsendungen angezeigt.
+   Der wichtigste Schritt besteht darin, die Entscheidungen auszuwählen, für die Gründe angezeigt werden sollten. Wenn Sie dies vergessen, werden die Gründe nicht auf Ihren Testsendungen angezeigt.
 
 1. Aktivieren Sie die Kontrollkästchen in der **[!UICONTROL Gründe anzeigen]** in der Entscheidungsliste oben auf der Seite. Sie können aus Ihren Gründen eine oder mehrere Entscheidungen auswählen.
    ![reason_-_decision_selection.png](assets/reasons---decision-selection-350x150.png)

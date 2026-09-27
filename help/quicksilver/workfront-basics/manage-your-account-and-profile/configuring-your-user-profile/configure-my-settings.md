@@ -2,36 +2,47 @@
 product-area: user-management;setup
 navigation-topic: configure-your-user-profile
 title: Konfigurieren von „Meine Einstellungen“
-description: Ihr  [!DNL Adobe Workfront]  enthält Informationen über sich selbst (z. B. Name, E-Mail-Adresse, Adresse, Telefonnummer, Titel usw.). Es enthält auch Informationen über Ihre Interaktionen mit  [!DNL Workfront]  und anderen Benutzenden in Ihrem Unternehmen.
+description: Ihr [!DNL Adobe Workfront] enthält Informationen über sich selbst (z. B. Name, E-Mail-Adresse, Adresse, Telefonnummer, Titel usw.). Es enthält auch Informationen über Ihre Interaktionen mit [!DNL Workfront] und anderen Benutzenden in Ihrem Unternehmen.
 author: Becky
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/uMoFyTHnX4zHo01va9DpMnTp030Wyh0YdIVH18Saxq4
+TQID: 'https://experienceleague.adobe.com/uMoFyTHnX4zHo01va9DpMnTp030Wyh0YdIVH18Saxq4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: b18b693b-6d59-4359-95fd-a386b7a615fe
+    internal-label: Workfront Proof
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3263
+source-wordcount: '3388'
 ht-degree: 2%
-
 ---
-
 # Konfigurieren von „Meine Einstellungen“
 
 <!-- Audited: 01/2024 -->
@@ -359,7 +370,7 @@ In diesem Unterabschnitt können folgende Änderungen vorgenommen werden:
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL E-Mail-Gebietsschema]</strong> </td> 
    <td><p>Geben Sie hier Ihre bevorzugte Sprache an. Damit wird die Sprache, das Datum und das Zahlenformat gesteuert, die in ausgehenden E-Mail-Nachrichten verwendet werden.</p>
-   <p><strong>HINWEIS</strong> Wenn Ihr Unternehmen Adobe Unified Experience nutzt, werden die Spracheinstellungen in Ihrem Adobe-Profil gespeichert und das E-Mail-Gebietsschema wird nicht verwendet. Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Ändern der Adobe Experience Cloud</a> im Artikel <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Unterstützte Sprachen in Adobe Workfront</a>.</p></td> 
+   <p><strong>HINWEIS</strong> Wenn Ihr Unternehmen Adobe Unified Experience nutzt, werden die Spracheinstellungen in Ihrem Adobe-Profil gespeichert und das E-Mail-Gebietsschema wird nicht verwendet. Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Ändern der Adobe Experience Cloud</a> im Artikel "<a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md"> Sprachen in Adobe Workfront</a>.</p></td> 
   </tr>
   <tr><td><strong>[!UICONTROL Automatisches Festlegen des Aufgabenstatus auf 'In Bearbeitung', wenn Aufgaben selbst zugewiesen werden]</strong> </td>
   <td>Wählen Sie diese Option aus, wenn der Status der Arbeit, die Sie sich selbst zuweisen, automatisch auf In Bearbeitung statt auf Neu gesetzt werden soll.</td>

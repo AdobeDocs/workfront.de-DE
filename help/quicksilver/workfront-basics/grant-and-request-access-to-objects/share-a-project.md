@@ -8,22 +8,26 @@ feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/il3HJ8UUx-E0TBUBRiuPIIveR37flNDeFQ9gZJ8chqA
+TQID: 'https://experienceleague.adobe.com/il3HJ8UUx-E0TBUBRiuPIIveR37flNDeFQ9gZJ8chqA'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1530
+source-wordcount: '1558'
 ht-degree: 5%
-
 ---
-
 # Freigeben eines Projekts
 
 <!-- Audited: 1/2024 -->
@@ -79,9 +83,9 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
 * Sie können Projekte einzeln oder gemeinsam nutzen. Die Freigabe von Projekten ist mit der Freigabe anderer Objekte identisch. Weitere Informationen zum Freigeben von Elementen in Workfront finden Sie unter [Freigeben eines Objekts](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Sie können einem Projekt die folgenden Berechtigungen erteilen:
 
-   * Ansicht
-   * Verwalten
-   * Mitwirken
+  * Ansicht
+  * Verwalten
+  * Mitwirken
 
 * Wenn Sie ein Projekt freigeben, erben alle Aufgaben, Probleme und Dokumente dieselben Berechtigungen, sofern nicht anders angegeben.
 
@@ -104,25 +108,25 @@ Sie können ein Projekt wie folgt freigeben:
 
 * Führen Sie dazu manuell einen der folgenden Schritte aus:
 
-   * Hinzufügen von Benutzern zum Projektteam. Wenn Sie Benutzer zum Projekt-Team hinzufügen, erhalten diese automatisch Ansichtsberechtigungen für das Projekt.\
-     Weitere Informationen zum Hinzufügen von Benutzern zu einem Projektteam finden Sie im Abschnitt Hinzufügen von Benutzern zu einem Projektteam in [Übersicht über das Projektteam](../../manage-work/projects/planning-a-project/project-team-overview.md).
-   * Einzeln oder für die Massenfreigabe der Projekte bei Verwendung der Option **Freigabe**.
+  * Hinzufügen von Benutzern zum Projektteam. Wenn Sie Benutzer zum Projekt-Team hinzufügen, erhalten diese automatisch Ansichtsberechtigungen für das Projekt.\
+    Weitere Informationen zum Hinzufügen von Benutzern zu einem Projektteam finden Sie im Abschnitt Hinzufügen von Benutzern zu einem Projektteam in [Übersicht über das Projektteam](../../manage-work/projects/planning-a-project/project-team-overview.md).
+  * Einzeln oder für die Massenfreigabe der Projekte bei Verwendung der Option **Freigabe**.
 
 * Automatisch durch eine der folgenden Aktionen:
 
-   * Platzieren Sie ein Projekt in einem **Portfolio** oder **Program**, das bereits für andere freigegeben ist. Benutzer erhalten für das Projekt dieselben Berechtigungen wie für das Portfolio oder Programm.\
-     Informationen zum Hinzufügen eines Projekts zu einer **Portfolio** finden Sie unter [Hinzufügen von Projekten zu einem Portfolio](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
-     Informationen zum Hinzufügen eines Projekts zu einem **Programm** finden Sie unter [Hinzufügen eines Projekts zu einem Programm](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
-Weitere Informationen zum Anzeigen geerbter Berechtigungen für ein Objekt finden Sie unter [Anzeigen geerbter Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+  * Platzieren Sie ein Projekt in einem **Portfolio** oder **Program**, das bereits für andere freigegeben ist. Benutzer erhalten für das Projekt dieselben Berechtigungen wie für das Portfolio oder Programm.\
+    Informationen zum Hinzufügen eines Projekts zu einer **Portfolio** finden Sie unter [Hinzufügen von Projekten zu einem Portfolio](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
+    Informationen zum Hinzufügen eines Projekts zu einem **Programm** finden Sie unter [Hinzufügen eines Projekts zu einem Programm](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
+    Weitere Informationen zum Anzeigen geerbter Berechtigungen für ein Objekt finden Sie unter [Anzeigen geerbter Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
 
-   * Entitäten zur Projektfreigabe einer Vorlage hinzufügen, mit der das Projekt erstellt wurde. Informationen zum Freigeben von Projekten aus Vorlagen finden Sie unter [Freigeben einer Vorlage](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
-   * Definieren Sie die Projektzugriffsvorlage.
+  * Entitäten zur Projektfreigabe einer Vorlage hinzufügen, mit der das Projekt erstellt wurde. Informationen zum Freigeben von Projekten aus Vorlagen finden Sie unter [Freigeben einer Vorlage](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+  * Definieren Sie die Projektzugriffsvorlage.
 
-     >[!TIP]
-     >
-     >Beim Anhängen oder Speichern einer Vorlage können Sie die Regeln zur Projektfreigabe in der Vorlage löschen.
+    >[!TIP]
+    >
+    >Beim Anhängen oder Speichern einer Vorlage können Sie die Regeln zur Projektfreigabe in der Vorlage löschen.
 
-   * Bearbeiten Sie ein Projekt und definieren Sie die Einstellung **Wenn jemand Zugriff auf dieses Projekt erhält** .  Weitere Informationen finden Sie unter [Projekte bearbeiten](../../manage-work/projects/manage-projects/edit-projects.md).
+  * Bearbeiten Sie ein Projekt und definieren Sie die Einstellung **Wenn jemand Zugriff auf dieses Projekt erhält** .  Weitere Informationen finden Sie unter [Projekte bearbeiten](../../manage-work/projects/manage-projects/edit-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

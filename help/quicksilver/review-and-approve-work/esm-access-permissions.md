@@ -9,20 +9,26 @@ recommendations: noDisplay, noCatalog
 exl-id: 758d17e6-f31f-42b7-a9e6-6bd1821f5c15
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/ckHEVC5iDp8A8xidvA16L0csKu0ey8LZHVlA2-QlCgQ
+TQID: 'https://experienceleague.adobe.com/ckHEVC5iDp8A8xidvA16L0csKu0ey8LZHVlA2-QlCgQ'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+  - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+subfeature_v2:
+  - id: b70a979b-965d-47a9-a360-e7ec2a19b8c1
+    internal-label: Digital content and documents
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 944
+source-wordcount: '944'
 ht-degree: 1%
-
 ---
-
 # Objektberechtigungen und Übersicht über die Zugriffsebene für das Adobe-Cloud-Speichermodell
 
 <!--linked in UI -->
@@ -41,8 +47,8 @@ Der Dokumentzugriff verhält sich unterschiedlich, je nachdem, ob sich das Proje
 * **Adobe Cloud-Speicher**: Projekte, Programme, Portfolios und Vorlagen, die Adobe Cloud-Speicher verwenden, folgen für andere Adobe-Produkte der Zugriffslogik auf Adobe Cloud-Speicher.
 
 
-   * **Objektberechtigungen für Projekte, Programme, Portfolios und Vorlagen**: Wenn eine Zugriffsebene **Kein Zugriff** für Projekte, Programme, Portfolios und Vorlagen ausgewählt hat, das Objekt jedoch für sie freigegeben ist, können Benutzende das Objekt nicht in Workfront sehen, aber sie können weiterhin den Objektnamen und alle zugehörigen Dokumente in anderen Adobe-Tools wie Frame.io und Adobe Creative Cloud anzeigen.
-   * **Dokumentberechtigungen**: Wenn für eine Zugriffsebene **Kein Zugriff** für Dokumente ausgewählt ist, können Benutzende keine Dokumente zu Projekten in Workfront anzeigen. Sie können jedoch weiterhin Dokumente für Projekte anzeigen und verwalten, die in anderen Adobe-Tools wie Frame.io und Adobe Creative Cloud für sie freigegeben sind. Dies liegt daran, dass der Dokumentzugriff durch Berechtigungen auf Projektebene im Adobe Cloud-Speicher und nicht allein durch die Workfront-Zugriffsebenen bestimmt wird.
+  * **Objektberechtigungen für Projekte, Programme, Portfolios und Vorlagen**: Wenn eine Zugriffsebene **Kein Zugriff** für Projekte, Programme, Portfolios und Vorlagen ausgewählt hat, das Objekt jedoch für sie freigegeben ist, können Benutzende das Objekt nicht in Workfront sehen, aber sie können weiterhin den Objektnamen und alle zugehörigen Dokumente in anderen Adobe-Tools wie Frame.io und Adobe Creative Cloud anzeigen.
+  * **Dokumentberechtigungen**: Wenn für eine Zugriffsebene **Kein Zugriff** für Dokumente ausgewählt ist, können Benutzende keine Dokumente zu Projekten in Workfront anzeigen. Sie können jedoch weiterhin Dokumente für Projekte anzeigen und verwalten, die in anderen Adobe-Tools wie Frame.io und Adobe Creative Cloud für sie freigegeben sind. Dies liegt daran, dass der Dokumentzugriff durch Berechtigungen auf Projektebene im Adobe Cloud-Speicher und nicht allein durch die Workfront-Zugriffsebenen bestimmt wird.
 
 Wenn Sie Adobe-Cloud-Speicher in Ihrer Workfront-Umgebung aktiviert haben, können Sie sowohl Adobe-Cloud-Speicherprojekte als auch Legacy-Workfront-Speicherprojekte erstellen. Ältere Workfront-Speicherprojekte zeigen ein Symbol neben dem Projektnamen an, wo immer er in Workfront angezeigt wird. Adobe Cloud-Speicherprojekte zeigen kein Symbol an.
 

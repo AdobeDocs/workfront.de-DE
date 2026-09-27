@@ -6,18 +6,21 @@ description: 'In diesem Artikel werden die In-App-Benachrichtigungen aufgelistet
 author: Courtney
 feature: Get Started with Workfront
 exl-id: afc8cfe7-d9a7-458a-b437-bd4c75838cb0
-TQID: https://experienceleague.adobe.com/uR2GdykN4aZ6H0hV-4-nXD7Iv5oEF9XKdbGa1i9Oa2s
+TQID: 'https://experienceleague.adobe.com/uR2GdykN4aZ6H0hV-4-nXD7Iv5oEF9XKdbGa1i9Oa2s'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 837
+source-wordcount: '837'
 ht-degree: 2%
-
 ---
-
 # Überblick über In-App-Benachrichtigungen
 
 In diesem Artikel werden die In-App-Benachrichtigungen aufgelistet, die Sie erhalten können. In-App-Benachrichtigungen halten Sie über zwei Arten von Informationen auf dem Laufenden: Ankündigungsbenachrichtigungen und Arbeitsaufgabenbenachrichtigungen. Sie sind sowohl in der Web-Anwendung als auch in der Mobile App verfügbar.
@@ -101,11 +104,11 @@ Wenn Sie auf das nummerierte Symbol ![Benachrichtigungssymbol](assets/notificati
 * ![Ihnen zugewiesene Aufgabe](assets/icon-taskassngdtoyou.png) [!UICONTROL Ihnen zugewiesene Aufgabe] - [Name des Zuweisers]
 * ![Problem-Symbol](assets/issue.png) [!UICONTROL Problem zugewiesen] - [Name des Zuweisenden]
 * ![Problem-Symbol](assets/issue.png) [!UICONTROL Problem zugewiesen zu] [Team-] - [Name des Zuweisers]
-* ![Ihnen zugewiesene Aufgabe](assets/icon-taskassngdtoyou.png) [!UICONTROL Aufgabe zugewiesen &#x200B;] [ Team-Name] - [Name des Zuweisers]
+* ![Ihnen zugewiesene Aufgabe](assets/icon-taskassngdtoyou.png) [!UICONTROL Aufgabe zugewiesen &#x200B;]&#x200B;[ Team-Name] - [Name des Zuweisers]
 
-   * Zuweisungsbenachrichtigungen werden nur gesendet, wenn der Projektstatus auf [!UICONTROL Aktuell] (oder auf einen benutzerdefinierten Status, der [!UICONTROL Aktuell] entspricht) festgelegt ist.
-   * Es ist nicht vorgesehen, dass Antragstellern und Prüfern Arbeiten zugewiesen werden. Daher werden sie nicht benachrichtigt, wenn sie Aufgaben und Problemen zugewiesen sind.
-   * Wenn Sie sich oder einem Team, dem Sie angehören, Arbeit zuweisen, erhalten Sie keine Benachrichtigung.
+  * Zuweisungsbenachrichtigungen werden nur gesendet, wenn der Projektstatus auf [!UICONTROL Aktuell] (oder auf einen benutzerdefinierten Status, der [!UICONTROL Aktuell] entspricht) festgelegt ist.
+  * Es ist nicht vorgesehen, dass Antragstellern und Prüfern Arbeiten zugewiesen werden. Daher werden sie nicht benachrichtigt, wenn sie Aufgaben und Problemen zugewiesen sind.
+  * Wenn Sie sich oder einem Team, dem Sie angehören, Arbeit zuweisen, erhalten Sie keine Benachrichtigung.
 
 ### [!UICONTROL Erklärung]
 

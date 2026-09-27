@@ -3,13 +3,14 @@ title: Einschränkungen bei der Proofing-Zusammenarbeit mit Personen außerhalb 
 description: Einschränkungen bei der Proofing-Zusammenarbeit mit Personen außerhalb Ihrer Organisation
 author: Courtney
 draft: Probably
-source-git-commit: de30bd970bda06c706e5156d5195e8568558e593
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%
-
 ---
-
 # Einschränkungen bei der Proofing-Zusammenarbeit mit Personen außerhalb Ihrer Organisation
 
 Es gibt einige Einschränkungen, die bei der Kommunikation mit Personen außerhalb Ihrer Organisation zu beachten sind, wenn sie zu einem Korrekturabzug hinzugefügt werden. Dies gilt insbesondere, wenn die Person außerhalb Ihrer Organisation über Proofing-Zugriff in einer separaten Umgebung verfügt.

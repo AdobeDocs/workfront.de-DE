@@ -8,26 +8,33 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-TQID: https://experienceleague.adobe.com/BK1OTfwr8q8XTrCeQh50s-wXtnCKzv2Bbn-PzDes4hc
+TQID: 'https://experienceleague.adobe.com/BK1OTfwr8q8XTrCeQh50s-wXtnCKzv2Bbn-PzDes4hc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 3451
+source-wordcount: '3451'
 ht-degree: 3%
-
 ---
-
 # Bearbeiten eines Benutzerprofils
 
 Als Adobe Workfront-Administrator können Sie Benutzende erstellen und die Profile bestehender Profile verwalten. Informationen zum Erstellen von Benutzern finden Sie unter [Benutzer hinzufügen](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
@@ -188,11 +195,11 @@ Weitere Informationen finden Sie unter [Konfigurieren von Ereignisbenachrichtigu
 
   In der folgenden Liste wird beschrieben, wie die Liste der Vorlagen, die Sie in diesem Feld haben, von Ihrem Zugriff abhängt:
 
-   * Als Workfront-Administrator können Sie alle Layoutvorlagen auf Systemebene und Gruppenebene sehen.
-   * Als Gruppenadministrator bzw. -administratorin können Sie die Layoutvorlagen auf Systemebene sowie die mit den von Ihnen verwalteten Gruppen verknüpften Vorlagen sehen.
-   * Benutzende mit einer Standard- oder Plan-Lizenz, die Zugriff auf die Bearbeitung von Benutzenden haben, können nur Layoutvorlagen auf Systemebene sehen.
+  * Als Workfront-Administrator können Sie alle Layoutvorlagen auf Systemebene und Gruppenebene sehen.
+  * Als Gruppenadministrator bzw. -administratorin können Sie die Layoutvorlagen auf Systemebene sowie die mit den von Ihnen verwalteten Gruppen verknüpften Vorlagen sehen.
+  * Benutzende mit einer Standard- oder Plan-Lizenz, die Zugriff auf die Bearbeitung von Benutzenden haben, können nur Layoutvorlagen auf Systemebene sehen.
 
-     Weitere Informationen zu Layout-Vorlagen auf Gruppenebene finden Sie unter [Erstellen und Ändern der Layout-Vorlagen einer Gruppe](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+    Weitere Informationen zu Layout-Vorlagen auf Gruppenebene finden Sie unter [Erstellen und Ändern der Layout-Vorlagen einer Gruppe](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 ### Organisation
 
@@ -207,9 +214,9 @@ Weitere Informationen finden Sie unter [Konfigurieren von Ereignisbenachrichtigu
 
   Sie können eine Gruppe nur dann einem Benutzer zuweisen, wenn einer der folgenden Punkte zutrifft:
 
-   * Sie sind ein Workfront-Administrator
-   * Sie sind der Administrator der Gruppe
-   * Die Gruppe ist öffentlich
+  * Sie sind ein Workfront-Administrator
+  * Sie sind der Administrator der Gruppe
+  * Die Gruppe ist öffentlich
 
 * **Andere Gruppen**: Benutzer können mehreren Gruppen angehören. Eine Gruppe kann einem Benutzer nur zugewiesen werden, wenn Sie Workfront-Administrator sind, Administrator der Gruppe sind oder die Gruppe öffentlich ist.
 
@@ -290,9 +297,9 @@ Weitere Informationen finden Sie unter [Konfigurieren von Ereignisbenachrichtigu
 
   Die Liste der Profile, die in diesem Feld verfügbar sind, hängt von Ihrem Zugriff ab:
 
-   * Als Workfront-Administrator können Sie alle Arbeitszeittabellen-Profile auf Systemebene und Gruppenebene anzeigen.
-   * Als Gruppenadministrator können Sie Arbeitszeittabellen-Profile auf Systemebene sowie die mit den von Ihnen verwalteten Gruppen verknüpften Profile anzeigen.
-   * Benutzende mit einer Standard- oder Plan-Lizenz, die Zugriff haben, um Benutzende zu bearbeiten, können nur Arbeitszeittabellen-Profile auf Systemebene sehen. Weitere Informationen zu Arbeitszeittabellen-Profilen auf Gruppenebene finden Sie unter [Erstellen, Bearbeiten und Zuweisen von Arbeitszeittabellen-Profilen](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+  * Als Workfront-Administrator können Sie alle Arbeitszeittabellen-Profile auf Systemebene und Gruppenebene anzeigen.
+  * Als Gruppenadministrator können Sie Arbeitszeittabellen-Profile auf Systemebene sowie die mit den von Ihnen verwalteten Gruppen verknüpften Profile anzeigen.
+  * Benutzende mit einer Standard- oder Plan-Lizenz, die Zugriff haben, um Benutzende zu bearbeiten, können nur Arbeitszeittabellen-Profile auf Systemebene sehen. Weitere Informationen zu Arbeitszeittabellen-Profilen auf Gruppenebene finden Sie unter [Erstellen, Bearbeiten und Zuweisen von Arbeitszeittabellen-Profilen](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
 * **Standardstundentyp**: Wählen Sie den Standardstundentyp für den Benutzer aus. Dies ist der Stundentyp, der standardmäßig verwendet wird, wenn Benutzende die Zeit protokollieren.
 * **Verfügbare Stundentypen**: Wählen Sie die Stundentypen aus, die für den Benutzer verfügbar sein sollen. Diese Stundentypen sind überall in Workfront sichtbar, wo Benutzende die Zeit protokollieren können. Ein Benutzer kann nur die Stundentypen sehen, die sowohl auf Projekt- als auch auf Benutzerebene aktiviert sind. Weitere Informationen dazu, welche Stundentypen Benutzern zur Verfügung stehen, finden Sie unter [Festlegen von Stundentypen und Verfügbarkeit](/help/quicksilver/timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).

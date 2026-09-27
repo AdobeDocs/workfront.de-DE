@@ -3,31 +3,39 @@ content-type: overview
 product-area: user-management
 navigation-topic: workfront-navigation
 title: Grundlegendes zur Navigation bei Benutzenden mit Arbeitslizenzen
-description: Das Hauptmenü ändert sich mit der Zugriffsebene, die Ihnen von Ihrem/ [!DNL Adobe Workfront]  zugewiesen wurde. Standardmäßig erhalten Sie nur Zugriff auf Bereiche, die Funktionen enthalten, die von Ihrer Zugriffsebene zugelassen sind.
+description: Das Hauptmenü ändert sich mit der Zugriffsebene, die Ihnen von Ihrem [!DNL Adobe Workfront] zugewiesen wurde. Standardmäßig erhalten Sie nur Zugriff auf Bereiche, die Funktionen enthalten, die von Ihrer Zugriffsebene zugelassen sind.
 author: Lisa and Courtney
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-TQID: https://experienceleague.adobe.com/3VM5YoTkx242vVP-xMPVF06pBnnlJ843fXLQv8zW13c
+TQID: 'https://experienceleague.adobe.com/3VM5YoTkx242vVP-xMPVF06pBnnlJ843fXLQv8zW13c'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 subfeature_v2:
   - id: c549503a-6440-4802-9525-ceb73a00feff
+    internal-label: Create and manage teams
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8771d66f6b7ecae9ac439456822889d4fe438649
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 466
+source-wordcount: '467'
 ht-degree: 1%
-
 ---
-
 # Grundlegendes zur Navigation für einen [!UICONTROL Work]-License-Benutzer
 
 Das [!UICONTROL Hauptmenü] ändert sich mit der Zugriffsebene, die Ihnen von Ihrem [!DNL Adobe Workfront] zugewiesen wurde. Standardmäßig erhalten Sie nur Zugriff auf Bereiche, die Funktionen enthalten, die von Ihrer Zugriffsebene zugelassen sind. Informationen zu den Komponenten des Standard-Layouts jeder Zugriffsebene finden Sie unter [Über das Standard [!DNL Adobe Workfront] Layout](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).

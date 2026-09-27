@@ -8,26 +8,39 @@ recommendations: noDisplay, noCatalog
 exl-id: 54df36b3-01a3-4fd3-b2d3-64ffb2fe5918
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/9T0iHPXONMWUcVb03kMr-rmQ1hAvTxtLoDzlucqaK6A
+TQID: 'https://experienceleague.adobe.com/9T0iHPXONMWUcVb03kMr-rmQ1hAvTxtLoDzlucqaK6A'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+subfeature_v2:
+  - id: eb361af2-3e4f-4a79-b5f3-7a344ac5794c
+    internal-label: Workfront Planning
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Taxonomy
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2611
+source-wordcount: '2611'
 ht-degree: 1%
-
 ---
-
 # Verwandeln Sie Ihren ersten Sieg in nachhaltigen Schwung: ein Playbook für gemanagte Skalierung
 
 >[!IMPORTANT]
@@ -292,13 +305,13 @@ In den folgenden Unterabschnitten finden Sie Ideen für die Hauptakteure bei der
 
 * **Zuständigkeiten**:
 
-   * Verwaltet die globale Workspace-Taxonomie.
+  * Verwaltet die globale Workspace-Taxonomie.
 
-   * Erleichtert den Weg der Feldreife, indem lokale Erfolge nach globalen Standards gefördert werden.
+  * Erleichtert den Weg der Feldreife, indem lokale Erfolge nach globalen Standards gefördert werden.
 
-   * Behält die Primären Workspace-Ansichten für das Reporting von Führungskräften bei.
+  * Behält die Primären Workspace-Ansichten für das Reporting von Führungskräften bei.
 
-   * Führt die monatliche semantische Prüfung über Arbeitsbereiche hinweg.
+  * Führt die monatliche semantische Prüfung über Arbeitsbereiche hinweg.
 
 ### Der Spoke-Champion (Team Process Owner)
 
@@ -306,13 +319,13 @@ In den folgenden Unterabschnitten finden Sie Ideen für die Hauptakteure bei der
 
 * **Zuständigkeiten**:
 
-   * Fungiert als zentraler Ansprechpartner für das funktionale Team.
+  * Fungiert als zentraler Ansprechpartner für das funktionale Team.
 
-   * Sie steuert die Struktur des lokalen Arbeitsbereichs und benutzerdefinierte Feldexperimente.
+  * Sie steuert die Struktur des lokalen Arbeitsbereichs und benutzerdefinierte Feldexperimente.
 
-   * Stellt sicher, dass das -Team das gesteuerte Gateway-Forms für die Dateneingabe verwendet.
+  * Stellt sicher, dass das -Team das gesteuerte Gateway-Forms für die Dateneingabe verwendet.
 
-   * Teilnimmt am kollaborativen Handshake während der Harmonisierung teil.
+  * Teilnimmt am kollaborativen Handshake während der Harmonisierung teil.
 
 ### Der Executive Sponsor (Marketing-Führung)
 
@@ -320,11 +333,11 @@ In den folgenden Unterabschnitten finden Sie Ideen für die Hauptakteure bei der
 
 * **Zuständigkeiten**:
 
-   * Definiert die Marketing-OKRs für Unternehmen im Arbeitsbereich „Globale Taxonomie“.
+  * Definiert die Marketing-OKRs für Unternehmen im Arbeitsbereich „Globale Taxonomie“.
 
-   * Verfechter der Sichtbarkeit von Schritt 1 für andere Führungskräfte.
+  * Verfechter der Sichtbarkeit von Schritt 1 für andere Führungskräfte.
 
-   * Verstärkt die Ressourcenzuweisung von 80/20 (Wert über Bereinigung).
+  * Verstärkt die Ressourcenzuweisung von 80/20 (Wert über Bereinigung).
 
 ### Der Aktivierungsleiter (Änderungsverwaltung)
 
@@ -332,11 +345,11 @@ In den folgenden Unterabschnitten finden Sie Ideen für die Hauptakteure bei der
 
 * **Zuständigkeiten**:
 
-   * Hosts wiederkehrende Office Hours und Discovery Workshops Touchpoints.
+  * Hosts wiederkehrende Office Hours und Discovery Workshops Touchpoints.
 
-   * verwaltet das interne Success Story-Showcase.
+  * verwaltet das interne Success Story-Showcase.
 
-   * Identifiziert technische Reibungspunkte, die der Unternehmensarchitekt lösen muss.
+  * Identifiziert technische Reibungspunkte, die der Unternehmensarchitekt lösen muss.
 
 ## &#x200B;10. Checkliste für die Skalierung des nächsten Teams
 

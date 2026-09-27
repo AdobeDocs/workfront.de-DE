@@ -5,15 +5,22 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3ffdd2e9-4c9f-412e-8d7c-3a58a832a973
-last-update: 2026-04-01T18:03:50Z
+last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-source-git-commit: 64ee7798e79324af0ab48af91f49d04d94ece3a9
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 9%
-
+source-wordcount: '252'
+ht-degree: 4%
 ---
-
 # Zweites Quartal 2026 mit Verbesserungsanfragen
 
 Auf dieser Seite wird beschrieben, wie Sie Verbesserungen der Vorschau-Umgebung anfordern, die mit der Version vom zweiten Quartal 2026 vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
@@ -26,7 +33,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im zweiten Quartal 2026 ve
 >
 >Vorschau: 2. April 2026
 >Produktions-Schnellveröffentlichung: 15. April 2026
->Produktion für alle: Freitag, 16. April 2026
+>Produktion für alle: 16. April 2026
 
 Sie können jetzt aus Workfront-Problemen konvertierte Aufgaben und Projekte in der neuen Anfrageerfahrung im Feld Erstelltes Objekt anzeigen und öffnen.
 
@@ -39,8 +46,8 @@ Weitere Informationen finden Sie unter [Anzeigen gesendeter Anfragen](/help/quic
 >[!NOTE]
 >
 >Vorschau: 26. Februar 2026
->Produktions-Schnellveröffentlichung: Freitag, 12. März 2026
->Produktion für alle: Freitag, 16. April 2026
+>Produktions-Schnellveröffentlichung: 12. März 2026
+>Produktion für alle: 16. April 2026
 
 Wenn Sie im Bereich Neue Anfragen eine erweiterte Ansicht für einen Benutzer freigeben und ihm Ansichtsberechtigungen erteilen, kann der Benutzer die Ansichtselemente ändern. Diese Änderungen werden dann entsprechend den persönlichen Voreinstellungen des Benutzers gespeichert. Sie haben jetzt die Möglichkeit, eine Kopie der Ansicht zu speichern, die ihre Änderungen enthält, oder die freigegebene Ansicht auf ihre ursprünglichen Einstellungen zurückzusetzen. Sie können die kopierte Ansicht mit anderen teilen.
 

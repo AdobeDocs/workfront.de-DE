@@ -1,32 +1,40 @@
 ---
 product-area: workfront-integrations
 navigation-topic: workfront-for-slack
-title: Zugriff [!DNL Adobe Workfront] von [!DNL Slack]
-description: Durch die  [!DNL Adobe Workfront]  von  [!DNL Slack]  können Sie auf  [!DNL Workfront]  Slack zugreifen oder bestimmte Aktionen in  [!DNL Workfront]  einem Schrägstrich durchführen. Die Integration kann in jeder beliebigen  [!DNL Slack]  verwendet werden, einschließlich der Mobile [!DNL Slack] App.
+title: Zugriff auf [!DNL Adobe Workfront] von [!DNL Slack]
+description: Durch die Integration von [!DNL Adobe Workfront] mit [!DNL Slack] können Sie von Slack aus auf [!DNL Workfront] zugreifen oder bestimmte Aktionen in [!DNL Workfront] mit einem Schrägstrich durchführen. Die Integration kann aus jeder [!DNL Slack]-Umgebung verwendet werden, einschließlich der [!DNL Slack] Mobile App.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 5f531217-3bd6-4156-8b9f-eabc95d4df10
-TQID: https://experienceleague.adobe.com/V4D5BMnBLj86eShUxyR6UP8lRM3ibi6fwdL8G9QbN0k
+TQID: 'https://experienceleague.adobe.com/V4D5BMnBLj86eShUxyR6UP8lRM3ibi6fwdL8G9QbN0k'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: f48b5020-b9cd-4d99-bc6e-42c35e90c1f8
+    internal-label: Integrations
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: e4fedd42-4a54-4109-859f-13c7f0366a72
+    internal-label: Adobe Workfront for Slack
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1092
+source-wordcount: '1099'
 ht-degree: 5%
-
 ---
-
 # Zugriff auf [!DNL Adobe Workfront] von [!DNL Slack]
 
 Durch die Integration von [!DNL Adobe Workfront] mit [!DNL Slack] können Sie von [!DNL Slack] aus auf [!DNL Workfront] zugreifen oder bestimmte Aktionen in [!DNL Workfront] mit einem Schrägstrich durchführen. Die Integration kann aus jeder [!DNL Slack]-Umgebung verwendet werden, einschließlich der [!DNL Slack] Mobile App.
@@ -184,20 +192,20 @@ So melden Sie sich von [!DNL Slack] aus bei [!DNL Workfront] an:
 
      Suchen Sie nach einem bestimmten Keyword. Sie können nach den folgenden Objekttypen suchen:
 
-      * Projekt
-      * Aufgabe
-      * Problem
-      * Bericht
-      * Personen
-      * Vorlage
-      * Dokument
-      * Portfolio
-      * Programm
-      * Dashboard
-      * Firma
-      * Hinweis \
+     * Projekt
+     * Aufgabe
+     * Problem
+     * Bericht
+     * Personen
+     * Vorlage
+     * Dokument
+     * Portfolio
+     * Programm
+     * Dashboard
+     * Firma
+     * Hinweis \
 
-        Weitere Informationen zum Suchen in [!DNL Slack] finden Sie unter [Suchen nach [!DNL Adobe Workfront] Elementen in Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md).
+       Weitere Informationen zum Suchen in [!DNL Slack] finden Sie unter [Suchen nach [!DNL Adobe Workfront] Elementen in Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md).
    * `/wf log in`
 
      Meldet Sie von [!DNL Slack] aus bei [!DNL Workfront] an.
@@ -212,7 +220,7 @@ So melden Sie sich von [!DNL Slack] aus bei [!DNL Workfront] an:
      Informationen zum Konfigurieren der [!DNL Workfront] in Slack finden Sie unter [Konfigurieren von Einstellungen](#configure-settings-configure-settings).
 
    * `/wf help`
-Zeigt eine vollständige Liste der Befehle für [!DNL Workfront] an.
+     Zeigt eine vollständige Liste der Befehle für [!DNL Workfront] an.
 
 
    * `Visit Workfront Help`: Öffnet den Abschnitt [!UICONTROL Slack] auf der [!DNL Workfront]-Hilfeseite in einer neuen Browser-Registerkarte.

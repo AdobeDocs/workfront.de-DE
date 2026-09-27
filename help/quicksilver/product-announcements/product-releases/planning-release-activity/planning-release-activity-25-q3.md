@@ -9,23 +9,29 @@ recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/R45hY-jNAlCSwIy-070BRL78-altmrnFIL1yNxxPrz8
+TQID: 'https://experienceleague.adobe.com/R45hY-jNAlCSwIy-070BRL78-altmrnFIL1yNxxPrz8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2290
-ht-degree: 2%
-
+source-wordcount: '2416'
+ht-degree: 3%
 ---
-
 # Veröffentlichungen für Adobe Workfront-Planung im dritten Quartal 2025
 
 In diesem Artikel werden die Funktionen beschrieben, die im dritten Quartal 2025 für Workfront Planning veröffentlicht werden.
@@ -38,7 +44,9 @@ Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen find
 
 >[!NOTE]
 >
->Vorschau: 10. Juli 2025>Produktion für alle: 10. Juli 2025 >[!BADGE &#x200B; Zeitplan]{type=Neutral}
+>Vorschau: 10. Juli 2025
+>Produktion für alle: 10. Juli 2025
+>[!BADGE Außerplanmäßig]{type=Neutral}
 
 
 Die Registerkarte Erweiterte Einstellungen wurde aktualisiert, wenn ein Datensatztyp erstellt oder bearbeitet wird.
@@ -54,7 +62,9 @@ Weitere Informationen finden Sie unter [Datensatztypen erstellen](/help/quicksil
 
 >[!NOTE]
 >
->Vorschau: 10. Juli 2025>Produktion für alle: 10. Juli 2025 >[!BADGE &#x200B; Zeitplan]{type=Neutral}
+>Vorschau: 10. Juli 2025
+>Produktion für alle: 10. Juli 2025
+>[!BADGE Außerplanmäßig]{type=Neutral}
 
 Wenn Sie jetzt in Workfront Planning ein Team zu einem Datensatzkommentar hinzufügen, erhalten alle Team-Mitglieder sowohl eine In-App- als auch eine E-Mail-Benachrichtigung zum Kommentar. Vor dieser Verbesserung wurden nur Benutzer benachrichtigt, die einzeln zu Kommentaren hinzugefügt wurden.
 
@@ -64,7 +74,9 @@ Weitere Informationen finden Sie unter Verwalten von Datensatzkommentaren [Verwa
 
 >[!NOTE]
 >
->Vorschau: 10. Juli 2025>Produktions-Schnellversion: 14. August 2025>Produktion für alle: 16. Oktober 2025
+>Vorschau: 10. Juli 2025
+>Produktions-Schnellveröffentlichung: 14. August 2025
+>Produktion für alle: 16. Oktober 2025
 
 
 Wenn Sie nun auf eine Tabellenansicht Gruppierungen angewendet haben, werden beim Hinzufügen eines Datensatzes zur Tabelle automatisch die Felder ausgefüllt, die mit den Gruppierungen verknüpft sind, denen Sie den Datensatz hinzufügen.
@@ -79,7 +91,8 @@ Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicks
 
 >[!NOTE]
 >
->Vorschau: 9. Juli 2025>Produktion für alle: 17. Juli 2025
+>Vorschau: 9. Juli 2025
+>Produktion für alle: 17. Juli 2025
 
 Über dieselbe Schaltfläche auf der Seite des Datensatztyps können Sie jetzt sowohl eine Ansicht als auch einen Datensatztyp freigeben. Vor dieser Verbesserung konnten Sie den Datensatztyp nur über die Schaltfläche Freigeben auf der Seite Datensatztyp und eine Ansicht über die Registerkarte Ansicht freigeben.
 
@@ -116,11 +129,11 @@ Um die Sicherheit und Einfachheit bei der Freigabe eines Anfrageformulars in Wor
 * Wir haben das Dialogfeld „Formular freigeben“ in „Interne Freigabe“ (Auswählen, für wen freigegeben werden soll) und „Öffentliche Freigabe“ (Erstellen eines Freigabe-Links) unterteilt.
 * Sie können jetzt Anforderungsformulare für Folgendes freigeben:
 
-   * Benutzende
-   * Teams
-   * Gruppen
-   * Firmen
-   * Aufgabengebiete
+  * Benutzende
+  * Teams
+  * Gruppen
+  * Firmen
+  * Aufgabengebiete
 
   Zuvor konnten Sie Inhalte nur über den Zugriff auf den Arbeitsbereich oder durch die Freigabe eines Links freigeben.
 * Wir haben geerbte Berechtigungen für Anfrageformulare entfernt. Jetzt wird das Anfrageformular nur noch für ausgewählte Benutzer freigegeben.
@@ -153,7 +166,8 @@ Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/qui
 >[!NOTE]
 >
 >* Vorschau: 26. Juni 2025
->* Produktion für alle: 26. Juni 2025>[!BADGE Aus Zeitplan]{type=Neutral}
+>* Produktion für alle: 26. Juni 2025
+>[!BADGE Außerplanmäßig]{type=Neutral}
 
 Wenn Sie jetzt Datensatztypen verbinden und ein Formelfeld als Suche einbringen, können Sie die Aggregatfunktionen (SUM, AVERAGE, MIN, MAX usw.) je nach Format des Formelfelds anwenden. Wenn das Formelfeld beispielsweise numerisch ist, können Sie Funktionen wie SUM oder AVG verwenden. Wenn das Formelfeld als Text formatiert ist, werden Aggregatfunktionen wie SUM nicht angewendet.
 
@@ -188,7 +202,8 @@ Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale für Projekt
 >[!NOTE]
 >
 >* Vorschau: 12. Juni 2025
->* Produktion für alle: 12. Juni 2025 - >[!BADGE &#x200B; Zeitplan]{type=Neutral}
+>* Produktion für alle: 12. Juni 2025
+>[!BADGE Außerplanmäßig]{type=Neutral}
 
 Wir haben eine Verbesserung eingeführt, die alle Formelfelder, die voneinander abhängig sind, gleichzeitig aktualisiert, nachdem ein referenziertes Feld manuell aktualisiert wurde. Formelfelder, die 2, 3 oder 4 Felder vom Feld entfernt sind, deren Wert manuell geändert wird und die sich gegenseitig referenzieren, werden jetzt automatisch gleichzeitig aktualisiert.
 
@@ -201,7 +216,8 @@ Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/qui
 >[!NOTE]
 >
 >* Vorschau: 6. Juni 2025
->* Produktion für alle Kunden: 6. Juni 2025>[!BADGE Aus Zeitplan]{type=Neutral}
+>* Produktion für alle Kunden: 6. Juni 2025
+>[!BADGE Außerplanmäßig]{type=Neutral}
 
 Wir haben die folgenden Ausdrücke zu Formelfeldern hinzugefügt:
 
@@ -228,12 +244,12 @@ Wir haben die folgende Funktion zu einer Liste von Anfragen auf der Registerkart
 * Nach Spalte eingegeben, um die Person anzugeben, die eine Anfrage hinzugefügt hat
 * Filter zur Begrenzung der Anzahl der Anfragen, die Sie auf der Registerkarte Planung anzeigen. Sie können die Liste nach den folgenden Elementen filtern:
 
-   * Das Workspace-Anfrageformular stammt von
-   * Der mit dem Anfrageformular verknüpfte Datensatztyp
-   * das Eingabedatum der Anfrage
-   * Der Name des Anfrageformulars
-   * den Status der Anfragen
-   * Der Name der Person, die die Anfrage eingegeben hat.
+  * Das Workspace-Anfrageformular stammt von
+  * Der mit dem Anfrageformular verknüpfte Datensatztyp
+  * das Eingabedatum der Anfrage
+  * Der Name des Anfrageformulars
+  * den Status der Anfragen
+  * Der Name der Person, die die Anfrage eingegeben hat.
 
 * Spalten steuern, ob Felder (oder Spalten) in der Liste „Planungsanfragen“ angezeigt oder ausgeblendet werden sollen.
 

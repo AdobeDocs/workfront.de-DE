@@ -6,14 +6,23 @@ description: Sie können persönliche Aufgaben aus dem Bereich "[!UICONTROL " &#
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 247085a7-bb9e-4468-b496-d81e02f2de00
-source-git-commit: 29c82cd8265f3d05f4ae241c5c723a4ab09a6504
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
+  - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 0%
-
+source-wordcount: '394'
+ht-degree: 9%
 ---
-
-# Persönliches Aufgabenelement erstellen und verwalten
+# Erstellen und Verwalten persönlicher Aufgabenelemente
 
 Sie können im Bereich „Startseite“ im Widget „Aufgaben[!UICONTROL &#x200B; persönliche &#x200B;] erstellen. Die Aufgaben sind persönliche Aufgaben, die Sie selbst erstellen.
 
@@ -25,7 +34,7 @@ Sie und andere Benutzer können Ihre persönlichen Aufgaben in einem persönlich
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,7 +48,7 @@ Sie und andere Benutzer können Ihre persönlichen Aufgaben in einem persönlich
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz</strong></td> 
    <td> 
    <p>Standard</p>
-   <p>Arbeit oder höher</p> </td> 
+   <p>Work oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen der Zugriffsebene</strong></td> 
@@ -52,7 +61,7 @@ Sie und andere Benutzer können Ihre persönlichen Aufgaben in einem persönlich
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) in der Dokumentation zu Workfront.
 
 +++
 

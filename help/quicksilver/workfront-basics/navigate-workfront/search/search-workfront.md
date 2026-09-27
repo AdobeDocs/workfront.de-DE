@@ -1,27 +1,32 @@
 ---
 navigation-topic: search
-title: Suche [!DNL Adobe Workfront]
-description: Sie können Elemente in leicht finden [!DNL Adobe Workfront]  indem Sie nach ihnen suchen, wenn Sie sich nicht an ihre genaue Position erinnern können.
+title: '[!DNL Adobe Workfront] suchen'
+description: Sie können Elemente in [!DNL Adobe Workfront] leicht finden, indem Sie nach ihnen suchen, wenn Sie sich nicht an ihre genaue Position erinnern können.
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-TQID: https://experienceleague.adobe.com/3dFbIhQzzlEcbHdb3lO0R0-2eAZ2GkDmVo1g5i0z5gI
+TQID: 'https://experienceleague.adobe.com/3dFbIhQzzlEcbHdb3lO0R0-2eAZ2GkDmVo1g5i0z5gI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c042179c-157b-516d-b27c-e3bf303e8567
+    internal-label: Get Started with Workfront
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1469
+source-wordcount: '1523'
 ht-degree: 4%
-
 ---
-
 # [!DNL Adobe Workfront] suchen
 
 <!-- Audited: 5/2025 -->
@@ -92,11 +97,11 @@ Die für die Suche verfügbaren Felder basieren auf dem Typ der Suche: Einfache 
 
 * **Einfache Suche**: Bei der Suche nach Objekten in einer Einfache Suche sucht [!DNL Workfront] in den folgenden Feldern nach Text, der Ihre Keywords enthalten könnte:
 
-   * Objektnamen
-   * Beschreibungen
-   * Benutzerdefinierte Datenfelder
-   * Updates
-   * Dokumentnamen (bei bestimmten Dokumentsuchen und bei einer einfachen Suche)
+  * Objektnamen
+  * Beschreibungen
+  * Benutzerdefinierte Datenfelder
+  * Updates
+  * Dokumentnamen (bei bestimmten Dokumentsuchen und bei einer einfachen Suche)
 
   Weitere Informationen zur einfachen Suche in [!DNL Workfront] finden Sie im folgenden Abschnitt in diesem Artikel: [Einfache Suche](#basic-search).
 

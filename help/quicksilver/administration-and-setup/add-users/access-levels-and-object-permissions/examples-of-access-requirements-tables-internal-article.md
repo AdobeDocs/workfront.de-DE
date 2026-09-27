@@ -3,14 +3,15 @@ title: Beispiele für Tabellen mit Zugriffsanforderungen - interner Artikel
 description: Dies ist ein interner Artikel für unser Team, in dem die Tabellen aufgelistet werden, die wir für die Zugriffsanforderungen verwenden. Dies sollte nicht veröffentlicht werden.
 author: Alina
 hide: true
-hidefromtoc: true
-source-git-commit: 38bd7ce267efba60652825dd6185f8aa72023d79
+hidefromtoc: 'yes'
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1321'
 ht-degree: 36%
-
 ---
-
 
 # Beispiele für Tabellen mit Zugriffsanforderungen - interner Artikel
 

@@ -4,13 +4,20 @@ description: Verbesserungen beim Finanzmanagement für das dritte Quartal 2026
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f465ac03e0ff91216d1ef934a1696127796645ba
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 4%
-
+source-wordcount: '344'
+ht-degree: 3%
 ---
-
 # Verbesserungen beim Finanzmanagement für das dritte Quartal 2026
 
 Auf dieser Seite werden die Verbesserungen des Finanzmanagements beschrieben, die mit der Version vom dritten Quartal 2026 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
@@ -21,7 +28,10 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2026 ve
 
 >[!NOTE]
 >
->Vorschau: 25. Juni 2026>Produktions-Schnellversion: 15. Juli 2026>Produktion für alle: 16. Juli 2026>Diese Funktion ist nur für Organisationen mit dem Workflow-Ultimate-Package verfügbar.
+>Vorschau: 25. Juni 2026
+>Produktions-Schnellveröffentlichung: 15. Juli 2026
+>Produktion für alle: 16. Juli 2026
+>Diese Funktion ist nur für Organisationen im Workflow-Ultimate-Paket verfügbar.
 
 Sie können jetzt eine Tarifkarte auswählen, die einer Vorlage hinzugefügt werden soll. Diese wird dann automatisch an alle aus der Vorlage erstellten Projekte angehängt. Die Tarifkarte wird zum Standard im Projekt, kann jedoch bei Bedarf überschrieben werden.
 
@@ -31,7 +41,10 @@ Weitere Informationen finden Sie [Anhängen einer Tarifkarte an eine Vorlage](/h
 
 >[!NOTE]
 >
->Vorschau: 25. Juni 2026>Produktions-Schnellversion: 15. Juli 2026>Produktion für alle: 16. Juli 2026>Diese Funktion ist nur für Organisationen mit dem Workflow-Ultimate-Package verfügbar.
+>Vorschau: 25. Juni 2026
+>Produktions-Schnellveröffentlichung: 15. Juli 2026
+>Produktion für alle: 16. Juli 2026
+>Diese Funktion ist nur für Organisationen im Workflow-Ultimate-Paket verfügbar.
 
 Sie können jetzt die Liste der effektiven datierten Abrechnungssätze auf einer Tarifkarte schneller anpassen, indem Sie einen neuen Satz an einer bestimmten Stelle in der Liste hinzufügen. Wählen Sie das Menü **Mehr** neben einem bestehenden Tarif aus, um eine Zeile über oder unter diesem Tarif einzufügen.
 
@@ -43,7 +56,10 @@ Weitere Informationen finden Sie [Tarifkarten verwalten](/help/quicksilver/admin
 
 >[!NOTE]
 >
->Vorschau: 21. Mai 2026>Produktions-Schnellversion: 21. Mai 2026>Produktion für alle: 21. Mai 2026>Diese Funktion ist nur für Organisationen mit dem Workflow-Ultimate-Package verfügbar.
+>Vorschau: 21. Mai 2026
+>Produktions-Schnellveröffentlichung: 21. Mai 2026
+>Produktion für alle: 21. Mai 2026
+>Diese Funktion ist nur für Organisationen im Workflow-Ultimate-Paket verfügbar.
 
 Nachdem ein Attribut zu einer Rate in Workfront hinzugefügt wurde, können Sie dieses Attribut und seine Filter im Bereich „Setup“ nicht mehr bearbeiten. Dadurch wird die Datenintegrität gewahrt und verhindert, dass Raten versehentlich geändert werden, wenn Attribute aktualisiert werden.
 

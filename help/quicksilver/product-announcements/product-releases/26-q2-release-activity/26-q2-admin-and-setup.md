@@ -7,25 +7,31 @@ recommendations: noDisplay, noCatalog
 exl-id: ce152c48-ed72-47ed-b1c5-940c93b4a9ec
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/EqRUPqeqy6fSLryuWDtQGaypBlXmSJiaErDZymB95is
+TQID: 'https://experienceleague.adobe.com/EqRUPqeqy6fSLryuWDtQGaypBlXmSJiaErDZymB95is'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: a76f87dd9d37d4221c9f441da362dfc48b4960fb
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 573
-ht-degree: 2%
-
+source-wordcount: '663'
+ht-degree: 1%
 ---
-
 # Verbesserungen für Administratoren im zweiten Quartal 2026
 
 Auf dieser Seite werden Admin-Verbesserungen beschrieben, die mit der Version vom zweiten Quartal 2026 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
@@ -36,7 +42,9 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im zweiten Quartal 2026 ve
 
 >[!NOTE]
 >
->Vorschau: 2. April 2026>Produktions-Schnellveröffentlichung: 15. April 2026>Produktion für alle: 16. April 2026
+>Vorschau: 2. April 2026
+>Produktions-Schnellveröffentlichung: 15. April 2026
+>Produktion für alle: 16. April 2026
 
 Um es Ihnen zu erleichtern, in Ihrer täglichen Arbeit von KI zu profitieren, haben wir den Content Review AI Collaborator erstellt. Der Collaborator bietet eine Möglichkeit, KI-Agenten in Ihre Projekte und Aufgaben einzubinden. Sie können KI-Mitwirkende mit Markenrichtlinien konfigurieren und sie dann wie eine Benutzerin oder ein Benutzer einer Aufgabe zuweisen.
 
@@ -48,7 +56,9 @@ Weitere Informationen finden Sie unter [Konfigurieren von KI-Mitwirkenden](/help
 
 >[!NOTE]
 >
->Vorschau: 27. März 2026>Produktions-Schnellveröffentlichung: 27. März 2026>Produktion für alle: 27. März 2026
+>Vorschau: 27. März 2026
+>Produktions-Schnellveröffentlichung: 27. März 2026
+>Produktion für alle: 27. März 2026
 
 Wir haben die in Workfront verfügbaren Zeitzonen aktualisiert, damit sie den IANA-Standards entsprechen. Dadurch wird die Kompatibilität mit anderen Systemen und die Genauigkeit im Laufe der Zeit sichergestellt.
 
@@ -60,7 +70,9 @@ Eine Liste dieser Änderungen finden Sie unter [Aktualisierte Zeitzonennamen](/h
 
 >[!NOTE]
 >
->Vorschau: 5. März 2026>Produktions-Schnellveröffentlichung: 15. April 2026>Produktion für alle: 16. April 2026
+>Vorschau: 5. März 2026
+>Produktions-Schnellveröffentlichung: 15. April 2026
+>Produktion für alle: 16. April 2026
 
 Der Bereich Benutzerdefiniertes Quartal wurde aus dem Abschnitt Projektvoreinstellungen verschoben. Es handelt sich jetzt um einen eigenständigen Abschnitt in Setup. 
 Dieses Update umfasst Folgendes:
@@ -75,7 +87,9 @@ Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale aktivieren](
 
 >[!NOTE]
 >
->Vorschau: 26. Februar 2026>Produktions-Schnellveröffentlichung: 12. März 2026>Produktion für alle: 16. April 2026
+>Vorschau: 26. Februar 2026
+>Produktions-Schnellveröffentlichung: 12. März 2026
+>Produktion für alle: 16. April 2026
 
 Standardmäßig werden alle Abschnitte in einem benutzerdefinierten Formular erweitert, wenn das Formular selbst erweitert wird. Mit einer neuen Option im Designer für benutzerdefinierte Formulare können Sie einen Abschnitt markieren, der standardmäßig reduziert werden soll, wenn ein Benutzer das Formular öffnet. Diese Option wird auf Abschnittsebene angewendet, nicht auf Felder.
 
@@ -85,7 +99,9 @@ Weitere Informationen finden Sie unter [Organisieren und Vorschau eines Formular
 
 >[!NOTE]
 >
->Vorschau: 29. Januar 2026>Produktionsschnellveröffentlichung: 12. Februar 2026>Produktion für alle: wird noch bekannt gegeben
+>Vorschau: 29. Januar 2026
+>Produktions-Schnellveröffentlichung: 12. Februar 2026
+>Produktion für alle: noch festzulegen
 >
 >Diese Funktion wurde am 13. Februar 2026 vorübergehend aus der Produktionsumgebung entfernt.
 

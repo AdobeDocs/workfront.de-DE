@@ -7,25 +7,31 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 65219cf1-809f-4d8e-a858-01f7881064d7
-TQID: https://experienceleague.adobe.com/SjemPIUQMpaqkse8vDfjJWaVLtNtritW3M1lcIe6OaM
+TQID: 'https://experienceleague.adobe.com/SjemPIUQMpaqkse8vDfjJWaVLtNtritW3M1lcIe6OaM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 1024
+source-wordcount: '1153'
 ht-degree: 3%
-
 ---
-
 # R1-Vorschau 1 und 2
 
 Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschau-Umgebung mit den Versionen R1.1 und R1.2 verfügbar sind. Die Funktion auf dieser Seite wurde am 19. Januar 2017 in der Vorschau-Umgebung verfügbar gemacht.
@@ -107,7 +113,7 @@ Für die folgenden Benachrichtigungsbereiche wurde die Option „Täglicher Dige
 * Informationen über mir zugewiesene Arbeiten
 * Kommunikation
 
-Weitere Informationen finden Sie unter [Adobe Workfront-Benachrichtigungen](../../../../workfront-basics/using-notifications/wf-notifications.md). Denken Sie daran, die mit Ihrem Konto verknüpfte E-Mail-Adresse zu aktualisieren, um diese Funktion testen zu können, da die Vorschau-Sandbox die E-Mail-Adressen für alle Benutzer löscht. 
+Weitere Informationen finden Sie unter [Adobe Workfront-](../../../../workfront-basics/using-notifications/wf-notifications.md).  Denken Sie daran, die mit Ihrem Konto verknüpfte E-Mail-Adresse zu aktualisieren, um diese Funktion testen zu können, da die Vorschau-Sandbox die E-Mail-Adressen für alle Benutzer löscht. 
 
 ## Gruppe öffentlich machen
 

@@ -7,13 +7,22 @@ description: Der alte benutzerdefinierte OAuth2-Programm-Service von Workfront w
 author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
-source-git-commit: db7e6a6fa0c5fc5332213c388d9b4db3a5c59f53
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
+  - id: a1f87682-0525-5459-aa06-3560bb4c3b2a
+    internal-label: Workfront Integrations and Apps
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1473'
 ht-degree: 1%
-
 ---
-
 # Migrieren von Workfront OAuth2 zu Adobe Developer Console
 
 Der alte Service für benutzerdefinierte OAuth2-Anwendungen von Workfront (die Integrationen, die Sie unter **Setup** > **System** > **OAuth2** eingerichtet haben) wird eingestellt. Künftig müssen alle benutzerdefinierten Integrationen, die sich bei Workfront authentifizieren, stattdessen den Authentifizierungsfluss von Adobe Developer Console (developer.adobe.com) verwenden.

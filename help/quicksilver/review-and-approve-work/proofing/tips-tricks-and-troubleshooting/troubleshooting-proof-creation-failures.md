@@ -6,13 +6,14 @@ navigation-topic: use-the-desktop-proofing-viewer
 title: Fehlerbehebung bei Fehlern bei der Erstellung von Korrekturabzügen
 description: Der Erstellungsprozess des Korrekturabzugs umfasst sowohl den Import als auch die Erstellung des Korrekturabzugs. Wenn Sie einen Korrekturabzug erstellen, kann es vorkommen, dass eine Datei nicht importiert werden kann oder der Korrekturabzug nach dem Import der Datei nicht erstellt werden kann.
 author: Courtney
-source-git-commit: de30bd970bda06c706e5156d5195e8568558e593
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '417'
 ht-degree: 0%
-
 ---
-
 
 # Fehlerbehebung bei Fehlern bei der Erstellung von Korrekturabzügen
 
@@ -47,11 +48,11 @@ Der Erstellungsprozess des Korrekturabzugs umfasst sowohl den Import als auch di
 
 * Beim Proofing von PDF-Dateien gibt es folgende Gründe, warum die Erstellung von Korrekturabzügen fehlgeschlagen ist:
 
-   * Schriftarten und Bilder werden von externen Quellen verknüpft (z. B. aus Ihrem lokalen Dateisystem)
+  * Schriftarten und Bilder werden von externen Quellen verknüpft (z. B. aus Ihrem lokalen Dateisystem)
 
-     Schriftarten und Bilder müssen in die PDF-Datei eingebettet werden, damit sie auf einem anderen Computer oder in Workfront Proof angezeigt werden können.
+    Schriftarten und Bilder müssen in die PDF-Datei eingebettet werden, damit sie auf einem anderen Computer oder in Workfront Proof angezeigt werden können.
 
-   * Ihre PDF-Datei enthält leere Ebenen oder transparente oder überlappende Felder.
+  * Ihre PDF-Datei enthält leere Ebenen oder transparente oder überlappende Felder.
 
-     Wenn Sie nicht feststellen können, welche Ebene oder welches Objekt dies verursacht, exportieren Sie das Design/Dokument als optimierte PDF (dadurch werden alle unerwünschten Elemente entfernt).
+    Wenn Sie nicht feststellen können, welche Ebene oder welches Objekt dies verursacht, exportieren Sie das Design/Dokument als optimierte PDF (dadurch werden alle unerwünschten Elemente entfernt).
 

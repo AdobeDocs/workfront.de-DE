@@ -7,26 +7,33 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8e016f12-bc72-475c-a8cc-38ded4351f88
-TQID: https://experienceleague.adobe.com/L7mlcRH-mf84Dt3lfuzI59lDkn7jCKMOZTBqVVnkAq8
+TQID: 'https://experienceleague.adobe.com/L7mlcRH-mf84Dt3lfuzI59lDkn7jCKMOZTBqVVnkAq8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: e147ce9d-7675-49bd-8a32-44f27d865560
+    internal-label: Get started
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 2427
+source-wordcount: '2444'
 ht-degree: 1%
-
 ---
-
 # Veröffentlichungen für Version 2018.1 Beta 4
 
 Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 4 Version 2018.1 verfügbar waren. Die Funktion wurde am 24. Januar 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird ab März 2018 in der Produktionsumgebung verfügbar sein.
@@ -198,8 +205,8 @@ Beim Hinzufügen von zu prüfenden Dokumenten stehen die folgenden Verbesserunge
 
 * Die folgenden Einstellungen wurden aus dem Abschnitt Korrekturabzugseinstellungen in den Abschnitt Workflow auf der Seite Neuer Korrekturabzug verschoben:
 
-   * Primärer Entscheidungsträger
-   * Nur eine Entscheidung verlangen
+  * Primärer Entscheidungsträger
+  * Nur eine Entscheidung verlangen
 
 ## Das Erscheinungsbild mit der Basecamp-Integration in Workfront Proof wurde aktualisiert {#updated-look-and-feel-with-basecamp-integration-in-workfront-proof}
 

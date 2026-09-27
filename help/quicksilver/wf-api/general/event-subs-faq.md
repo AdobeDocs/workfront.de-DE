@@ -7,22 +7,26 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-TQID: https://experienceleague.adobe.com/sNnNP1IaqwE6GWsUDIKqOABzWgeeKusV73Uyf8s67Mk
+TQID: 'https://experienceleague.adobe.com/sNnNP1IaqwE6GWsUDIKqOABzWgeeKusV73Uyf8s67Mk'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: 682536a8-4872-5ee6-a8a6-8012d713482c
+    internal-label: Workfront API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 987
+source-wordcount: '987'
 ht-degree: 1%
-
 ---
-
 # Häufig gestellte Fragen – Ereignisabonnements
 
 <!--
@@ -70,16 +74,16 @@ Einige der folgenden Szenarien könnten dafür verantwortlich sein:
 * Langwierige Berechnungen oder Zeitleistenberechnungen bei großen Projekten können zu einer Verzögerung bei der Veröffentlichung von Nachrichten an die zu nutzenden Ereignisabonnements führen.
 * Das Abonnement wurde möglicherweise deaktiviert.
 
-   * Wenn nach einer Übergangsphase von 100 Nachrichten eine bestimmte URL, die mit einem oder mehreren Abonnements verknüpft sein kann, in mehr als 70 % der Fälle fehlschlägt oder wenn die URL nach 2000 aufeinander folgenden Versuchen nicht zugestellt werden kann, werden alle Nachrichten, die mit Abonnements mit derselben URL übereinstimmen, nicht zum Versand versucht. Stattdessen werden diese Nachrichten sofort für einen erneuten Versuch in die Warteschlange gestellt.
+  * Wenn nach einer Übergangsphase von 100 Nachrichten eine bestimmte URL, die mit einem oder mehreren Abonnements verknüpft sein kann, in mehr als 70 % der Fälle fehlschlägt oder wenn die URL nach 2000 aufeinander folgenden Versuchen nicht zugestellt werden kann, werden alle Nachrichten, die mit Abonnements mit derselben URL übereinstimmen, nicht zum Versand versucht. Stattdessen werden diese Nachrichten sofort für einen erneuten Versuch in die Warteschlange gestellt.
 
-     Alle 10 Minuten, nachdem eine URL deaktiviert wurde, versuchen wir, die nächste Nachricht zu versenden, die zur Verarbeitung durch kommt. Wenn diese Nachricht erfolgreich ist, aktivieren wir diese URL und anschließend alle passenden Abonnements erneut. Wenn diese Nachricht nicht gesendet werden kann, wird der 10-Minuten-Timer zurückgesetzt und wir versuchen es erneut, nachdem er abgelaufen ist.
+    Alle 10 Minuten, nachdem eine URL deaktiviert wurde, versuchen wir, die nächste Nachricht zu versenden, die zur Verarbeitung durch kommt. Wenn diese Nachricht erfolgreich ist, aktivieren wir diese URL und anschließend alle passenden Abonnements erneut. Wenn diese Nachricht nicht gesendet werden kann, wird der 10-Minuten-Timer zurückgesetzt und wir versuchen es erneut, nachdem er abgelaufen ist.
 
-     Dieses Verhalten kann als inkonsistenter oder verzögerter Versand wahrgenommen werden, es folgt jedoch einfach unseren Richtlinien für den Umgang mit Nachrichten vom Typ Ereignisabonnement.
+    Dieses Verhalten kann als inkonsistenter oder verzögerter Versand wahrgenommen werden, es folgt jedoch einfach unseren Richtlinien für den Umgang mit Nachrichten vom Typ Ereignisabonnement.
 
-   * Eine Ereignisabonnement-URL wird hart deaktiviert, wenn eine der folgenden Bedingungen erfüllt ist:
+  * Eine Ereignisabonnement-URL wird hart deaktiviert, wenn eine der folgenden Bedingungen erfüllt ist:
 
-      * Die Abonnement-URL konnte 7 Tage lang nicht bereitgestellt werden und in den letzten 72 Stunden sind mindestens 2000 aufeinander folgende Zustellversuche fehlgeschlagen.
-      * Die Abonnement-URL konnte keine 50.000 aufeinander folgenden Versuche bereitstellen.
+    * Die Abonnement-URL konnte 7 Tage lang nicht bereitgestellt werden und in den letzten 72 Stunden sind mindestens 2000 aufeinander folgende Zustellversuche fehlgeschlagen.
+    * Die Abonnement-URL konnte keine 50.000 aufeinander folgenden Versuche bereitstellen.
 
 ## Was sollte ich tun, wenn ich beim Versuch, die Ereignis-Abonnement-API aufzurufen, den Status „500-Antwort“ erhalte?
 

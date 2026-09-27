@@ -5,13 +5,20 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 72130462-ae78-4b9b-ae18-848602d4a858
-source-git-commit: 540d56017dccf238d301e81085b62b5163b71103
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 2%
-
+source-wordcount: '1381'
+ht-degree: 1%
 ---
-
 # Verbesserungen bei Unternehmensabläufen im zweiten Quartal 2026
 
 Auf dieser Seite werden die Verbesserungen des Unternehmensbetriebs beschrieben, die mit der Version vom zweiten Quartal 2026 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
@@ -23,8 +30,8 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im zweiten Quartal 2026 ve
 >[!NOTE]
 >
 >Vorschau: 2. April 2026
->Produktions-Schnellveröffentlichung: Donnerstag, 15. April 2026
->Produktion für alle: Freitag, 16. April 2026
+>Produktions-Schnellveröffentlichung: 15. April 2026
+>Produktion für alle: 16. April 2026
 
 Erweiterte Enterprise Operations-Funktionen von Adobe Workfront bieten eine einheitliche und skalierbare Möglichkeit, Finanzen, Projekte und den Zugriff auf das Unternehmen zu verwalten. Diese Funktionen bieten die Sichtbarkeit und Kontrolle, die Unternehmen benötigen, um rentabel und effizient zu arbeiten.
 
@@ -36,7 +43,7 @@ Erweiterte Enterprise Operations-Funktionen von Adobe Workfront bieten eine einh
 
 Prognostizieren, verfolgen und optimieren Sie Ihre Finanzen mit mehrstufigen Kosten- und Abrechnungssatz-Hierarchien.
 
-[Sehen Sie sich eine 13-minütige Videodemonstration zu den erweiterten Funktionen des Finanzmanagements an.](https://video.tv.adobe.com/v/3483224/){target="_blank"}
+[Sehen Sie sich eine 13-minütige Videodemonstration zu den erweiterten Funktionen für das Finanzmanagement an.](https://video.tv.adobe.com/v/3483224/){target="_blank"}
 
 Zu den Verbesserungen des Finanzmanagements gehören:
 
@@ -99,7 +106,7 @@ Weitere Informationen finden Sie unter [Erstellen und Anzeigen von Projekt-Momen
 
 Weitere Informationen finden Sie unter [Übersicht über Geschäftsprofile](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md).
 
-[Sehen Sie sich eine Videodemonstration mit Geschäftsprofilen an.](https://video.tv.adobe.com/v/3483246/){target="_blank"}
+[Sehen Sie sich eine Videodemonstration zu Geschäftsprofilen an.](https://video.tv.adobe.com/v/3483246/){target="_blank"}
 
 >[!NOTE]
 >
@@ -128,9 +135,9 @@ Zu den Verbesserungen bei benutzerdefinierten Formularen gehören:
   >Die neuen Logiktypen sind nur für Organisationen mit den Workflow-Prime- oder Ultimate-Paketen verfügbar.
 
 * Verbesserungen der Benutzeroberfläche von Form Designer:
-   * Der Formularname wird jetzt oben links im Designer angezeigt, sodass Sie den Namen bei einem langen Formular sehen können, wenn Sie scrollen.
-   * Objekttypen, die das Formular anhängen kann, befinden sich in einer Dropdown-Liste.
-   * Sie können für alle Logiktypen auswählen, ob Logikindikatoren in den Feldern angezeigt oder ausgeblendet werden sollen. Die Logiktypen „Anzeigen“ und „Überspringen“ zeigen Indikatoren für beide betroffenen Felder an. Alle anderen Logiktypen wirken sich auf ein Feld aus.
+  * Der Formularname wird jetzt oben links im Designer angezeigt, sodass Sie den Namen bei einem langen Formular sehen können, wenn Sie scrollen.
+  * Objekttypen, die das Formular anhängen kann, befinden sich in einer Dropdown-Liste.
+  * Sie können für alle Logiktypen auswählen, ob Logikindikatoren in den Feldern angezeigt oder ausgeblendet werden sollen. Die Logiktypen „Anzeigen“ und „Überspringen“ zeigen Indikatoren für beide betroffenen Felder an. Alle anderen Logiktypen wirken sich auf ein Feld aus.
 
   Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -165,7 +172,7 @@ In Layout-Vorlagen können Sie die Kopfzeilen und linken Navigationsmenüs für 
 
 Weitere Informationen finden Sie unter [Erstellen und Verwalten von Layout-Vorlagen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-[Sehen Sie sich eine Videodemonstration zu den Verbesserungen an der Layout-Vorlage an.](https://video.tv.adobe.com/v/3483245/){target="_blank"}
+[Sehen Sie sich eine Videodemonstration zu den Verbesserungen bei der Layout-Vorlage an.](https://video.tv.adobe.com/v/3483245/){target="_blank"}
 
 ### Benutzerdefinierte Lokalisierung
 

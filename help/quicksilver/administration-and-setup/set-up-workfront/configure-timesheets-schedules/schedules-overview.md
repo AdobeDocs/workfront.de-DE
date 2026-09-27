@@ -5,32 +5,38 @@ product-area: system-administration;timesheets
 keywords: Benutzer,Zeitplan
 navigation-topic: configure-timesheets-and-schedules
 title: Zeitpläne - Übersicht
-description: Sie können Ihre Arbeitswoche mithilfe von Zeitplänen definieren. Sie können einen Zeitplan mit einem Benutzer oder Projekt verknüpfen. Dies ermöglicht  [!DNL Adobe Workfront]  Berechnung von Zeitplänen und Benutzerverfügbarkeit. Anweisungen finden Sie unter Erstellen eines Zeitplans.
+description: Sie können Ihre Arbeitswoche mithilfe von Zeitplänen definieren. Sie können einen Zeitplan mit einem Benutzer oder Projekt verknüpfen. Auf diese Weise können [!DNL Adobe Workfront] Timelines und die Benutzerverfügbarkeit berechnen. Anweisungen finden Sie unter Erstellen eines Zeitplans.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/RSCrGr2jt6lfVf03ixndpc-GUTxb-XNdiMZMZk0II4g
+TQID: 'https://experienceleague.adobe.com/RSCrGr2jt6lfVf03ixndpc-GUTxb-XNdiMZMZk0II4g'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
+  - id: d5896d07-2812-5418-8b18-8957a0d7f0fb
+    internal-label: System Setup and Administration
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 761
+source-wordcount: '763'
 ht-degree: 0%
-
 ---
-
 # Überblick über Zeitpläne
 
 <!-- Audited: 1/2024 -->
@@ -84,17 +90,17 @@ Die Reihenfolge, in der die Zeitpläne vom System verwendet werden, wenn mehr al
 
 * Wenn ein(e) Benutzende(r) einer Aufgabe zugewiesen wird, verwendet [!DNL Workfront] einen der folgenden Zeitpläne, wie im Bereich [!UICONTROL Projektvoreinstellungen] von [!UICONTROL Setup] definiert:
 
-   * Der Zeitplan des Benutzers, der der Aufgabe zugewiesen ist
-   * Der mit dem Projekt verknüpfte Zeitplan.
+  * Der Zeitplan des Benutzers, der der Aufgabe zugewiesen ist
+  * Der mit dem Projekt verknüpfte Zeitplan.
 
-     Weitere Informationen zur persönlichen Arbeitszeit finden Sie unter [Konfigurieren der persönlichen &#x200B;](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)).
+    Weitere Informationen zur persönlichen Arbeitszeit finden Sie unter [Konfigurieren der persönlichen &#x200B;](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)).
 
 * Wenn einer Aufgabe mehrere Benutzer zugewiesen sind und die Benutzer während des Zeitrahmens der Aufgabe unterschiedliche Zeitpläne haben, verwendet [!DNL Workfront] einen der folgenden Zeitpläne, wie im Bereich [!UICONTROL Projektvoreinstellungen] von [!UICONTROL Setup] definiert:
 
-   * Der Zeitplan des Benutzers, der als Primärer Verantwortlicher bestimmt ist
-   * Der mit dem Projekt verknüpfte Zeitplan.
+  * Der Zeitplan des Benutzers, der als Primärer Verantwortlicher bestimmt ist
+  * Der mit dem Projekt verknüpfte Zeitplan.
 
-     Weitere Informationen zu Projektvoreinstellungen finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+    Weitere Informationen zu Projektvoreinstellungen finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * Wenn der der Aufgabe zugewiesene Benutzer keinen Zeitplan hat oder die Aufgabe nur einem Aufgabengebiet bzw. einem Team zugewiesen ist oder die Zuweisung für ihn aufgehoben wurde, verwendet [!DNL Workfront] den Projektplan für die Zeitleistenberechnungen.
 * Wenn der der Aufgabe zugewiesene Benutzer keinen Zeitplan hat oder die Aufgabe nur einem Aufgabengebiet bzw. einem Team zugewiesen ist oder die Zuweisung für das Projekt aufgehoben wird und das Projekt keinen Zeitplan hat, verwendet [!DNL Workfront] den Zeitplan im System, der als Standardzeitplan für Zeitleistenberechnungen festgelegt wurde.

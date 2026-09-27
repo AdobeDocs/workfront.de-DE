@@ -8,23 +8,28 @@ feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/fNi04Go8Ocuhd1NMHyCe564hEyPaM1Hc6U-iDvE5Spc
+TQID: 'https://experienceleague.adobe.com/fNi04Go8Ocuhd1NMHyCe564hEyPaM1Hc6U-iDvE5Spc'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+  - id: c6dd2ac5-f5bd-4e59-9101-25b156918623
+    internal-label: Reports and dashboards
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
-source-wordcount: 868
+source-wordcount: '891'
 ht-degree: 9%
-
 ---
-
 # Erstellen oder Bearbeiten von Ansichten in Adobe Workfront
 
 <!-- Audited: 11/2024 -->
@@ -81,7 +86,7 @@ Sie können eine neue Standardansicht erstellen oder eine vorhandene Standardans
 1. Klicken Sie auf **Dropdown** Menü „Ansicht“ in einer Liste, in der Sie eine Ansicht erstellen oder anpassen möchten.
 
 1. Klicken Sie auf die Schaltfläche **+ Neue Ansicht**, um eine neue Ansicht zu erstellen.
-oder
+ODER
 Klicken Sie auf **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png), das beim Bewegen der Maus über rechts neben einer vorhandenen Ansicht angezeigt wird, die Sie bearbeiten möchten.
 Das **Ansicht anpassen** wird angezeigt.
 
@@ -131,9 +136,9 @@ Das **Ansicht anpassen** wird angezeigt.
      >
      >Weitere Informationen zur Verwendung von Gruppierungen in einem Bericht finden Sie im Artikel [Gruppierungen - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-      * (Optional) Klicken Sie auf **Erweiterte Optionen**, um die folgenden Informationen für die Spalte anzugeben:
+     * (Optional) Klicken Sie auf **Erweiterte Optionen**, um die folgenden Informationen für die Spalte anzugeben:
 
-        <table style="table-layout:auto"> 
+       <table style="table-layout:auto"> 
          <col> 
          <col> 
          <tbody> 
@@ -156,7 +161,7 @@ Das **Ansicht anpassen** wird angezeigt.
          </tbody> 
         </table>
 
-        Weitere Informationen zur bedingten Formatierung von Ansichten in Berichten finden Sie im Artikel [Verwenden der bedingten Formatierung im Textmodus](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
+       Weitere Informationen zur bedingten Formatierung von Ansichten in Berichten finden Sie im Artikel [Verwenden der bedingten Formatierung im Textmodus](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
 1. (Bedingt) Wenn Sie auf **Erweiterte Optionen** geklickt haben, klicken Sie auf **Fertig**.
 

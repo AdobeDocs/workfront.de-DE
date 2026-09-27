@@ -4,13 +4,20 @@ description: Verbesserungen bei der Berichterstellung für das dritte Quartal 20
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0c7265c477030137d14e95f42eaf67580589d70b
+product_v2:
+  - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
+feature_v2:
+  - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
+subfeature_v2:
+  - id: a29813d3-f0cc-4b60-9396-13b558370803
+    internal-label: Product announcements
+source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
 workflow-type: tm+mt
 source-wordcount: '1047'
 ht-degree: 1%
-
 ---
-
 # Verbesserungen bei der Berichterstellung für das dritte Quartal 2026
 
 Auf dieser Seite werden die Verbesserungen beim Reporting in der Vorschau-Umgebung beschrieben, die mit der Version vom dritten Quartal 2026 vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
@@ -21,11 +28,13 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2026 ve
 
 >[!NOTE]
 >
->Vorschau und Produktion für alle Kunden: 16. Juli 2026Außerplanmäßig&rbrack;{type=Neutral}
+>Vorschau und Produktion für alle Kunden: 16. Juli 2026
+>[!BADGE Außerplanmäßig]{type=Neutral}
 
-Diese Version führt eine automatisierte, berechtigungsgesteuerte Zugriffsverwaltung für Workfront Planning-Daten in Snowflake als Teil von Workfront Data Connect ein.
-Zunächst wird die sichere Ansichtserstellung auf Planungstabellen ausgeweitet, um die erforderliche Grundlage für die nachgelagerte Zugriffskontrolle zu schaffen und berechtigungsbasierte Gewährungen zu ermöglichen.Darauf aufbauend überprüft die Bereitstellung des Leserkontos jetzt die TMS-Berechtigungen zum Zeitpunkt der Erstellung und wendet Zuschüsse automatisch an die Planning-Datenbank an bzw. verweigert sie, um sicherzustellen, dass sie korrekt sind.
-Vor dieser Verbesserung war dies nur für Workfront verfügbar.
+Diese Version führt eine automatisierte, berechtigungsgesteuerte Zugriffsverwaltung für Workfront Planning-Daten in Snowflake als Teil von Workfront Data Connect ein. 
+Zunächst wird die sichere Ansichtserstellung auf Planungstabellen ausgeweitet, um die erforderliche Grundlage für die nachgelagerte Zugriffskontrolle zu schaffen und berechtigungsbasierte Gewährungen zu ermöglichen.
+Darauf aufbauend überprüft die Bereitstellung des Leserkontos jetzt die TMS-Berechtigungen zum Zeitpunkt der Erstellung und wendet Zuschüsse automatisch an die Planning-Datenbank an bzw. verweigert sie, um sicherzustellen, dass sie korrekt sind. 
+Vor dieser Verbesserung war dies nur für Workfront verfügbar. 
 Das Update umfasst die folgenden Funktionen: 
 
 * Ein automatisierter täglicher Vorgang erkennt Berechtigungsänderungen für Bestandskunden
@@ -38,9 +47,11 @@ Der Artikel [Workfront Data Connect-Datenwörterbuch](/help/quicksilver/reports-
 
 >[!NOTE]
 >
->Vorschau und Produktion für alle Kunden: 7. Juli 2026Außerplanmäßig&rbrack;{type=Neutral}
+>Vorschau und Produktion für alle Kunden: 7. Juli 2026
+>[!BADGE Außerplanmäßig]{type=Neutral}
 
-Im zweiten Quartal 2026 haben wir neue Objekte hinzugefügt, um die Verbesserungen an den Unternehmensabläufen in Workfront zu unterstützen.Mit der aktuellen Version fügen wir auch benutzerdefinierte Datenunterstützung für mehrere neue Objekte im Arbeitsflächen-Dashboard hinzu.
+Im zweiten Quartal 2026 haben wir neue Objekte hinzugefügt, um die Verbesserungen an den Unternehmensabläufen in Workfront zu unterstützen.
+Mit der aktuellen Version fügen wir auch benutzerdefinierte Datenunterstützung für mehrere neue Objekte im Arbeitsflächen-Dashboard hinzu.
 
 Weitere Informationen finden Sie unter [Übersicht über das Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
@@ -48,7 +59,9 @@ Weitere Informationen finden Sie unter [Übersicht über das Arbeitsflächen-Das
 
 >[!NOTE]
 >
->Vorschau: 25. Juni 2026Produktions-Schnellveröffentlichung: 15. Juli 2026Produktion für alle: 16. Juli 2026
+>Vorschau: 25. Juni 2026
+>Produktions-Schnellveröffentlichung: 15. Juli 2026
+>Produktion für alle: 16. Juli 2026
 
 Um die Effizienz für Benutzer zu verbessern, die zwischen Dashboards und Datensätzen wechseln, indem ihr Arbeitsfilterstatus beibehalten wird, können Dashboard-Manager jetzt standardmäßige Eingabeaufforderungswerte für Arbeitsflächen-Dashboards definieren. Diese Standardeinstellungen werden automatisch auf alle Dashboard-Viewer angewendet.
 
@@ -64,7 +77,9 @@ Weitere Informationen finden Sie unter [Dashboard einer Arbeitsfläche filtern](
 
 >[!NOTE]
 >
->Vorschau: Nicht zutreffendProduktions-Schnellveröffentlichung: 11. Juni 2026Produktion für alle: 16. Juli 2026
+>Vorschau: Nicht zutreffend
+>Produktions-Schnellveröffentlichung: 11. Juni 2026
+>Produktion für alle: 16. Juli 2026
 
 Workfront-Admins, die Microsoft Power BI mit Workfront Data Connect verbinden, können jetzt in einem einzigen Schritt den Satz von Azure-IP-Adressbereichen einer gesamten Region zur -Zulassungsliste hinzufügen. Auf der Registerkarte **IP** in **Data Connect** enthält die Schaltfläche **Neue IP-Adresse** jetzt die Option **Power BI-IP-Adressblöcke hinzufügen**, mit der Sie ein Dialogfeld öffnen können, in das Sie Power BI-Service-Tag-Einträge aus den von Microsoft veröffentlichten Azure-IP-Bereichen und der Service-Tags-JSON-Datei einfügen können.
 
@@ -77,7 +92,9 @@ Weitere Informationen finden Sie unter [Herstellen einer Verbindung mit Workfron
 
 >[!NOTE]
 >
->Vorschau: 11. Juni 2026Produktions-Schnellveröffentlichung: 15. Juli 2026Produktion für alle: 16. Juli 2026
+>Vorschau: 11. Juni 2026
+>Produktions-Schnellveröffentlichung: 15. Juli 2026
+>Produktion für alle: 16. Juli 2026
 >
 >Canvas Dashboards befindet sich derzeit in der Beta-Phase.
 
@@ -89,7 +106,9 @@ Weitere Informationen finden Sie unter [Verwenden von Canvas-Dashboards](/help/q
 
 >[!NOTE]
 >
->Vorschau: 1. Juni 2026Produktions-Schnellveröffentlichung: 1. Juni 2026Produktion für alle: 1. Juni 2026
+>Vorschau: 1. Juni 2026
+>Produktions-Schnellveröffentlichung: 1. Juni 2026
+>Produktion für alle: 1. Juni 2026
 
 Im Jahr 2025 wurde der Workfront-Datenbank ein neues Feld „Tatsächliche Stunden“ als `actualWorkRequiredDouble` hinzugefügt und das bestehende Feld „Tatsächliche Stunden“ (in der Datenbank `actualWorkRequired`) wurde in „Frühere Tatsächliche Stunden“ umbenannt. Weitere Informationen finden [&#x200B; in &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md) Versionshinweisen .
 
@@ -105,7 +124,9 @@ Weitere Informationen zu den tatsächlichen Stunden finden Sie unter [Tatsächli
 
 >[!NOTE]
 >
->Vorschau: 28. Mai 2026Produktions-Schnellveröffentlichung: 11. Juni 2026Produktion für alle: 16. Juli 2026
+>Vorschau: 28. Mai 2026
+>Produktions-Schnellveröffentlichung: 11. Juni 2026
+>Produktion für alle: 16. Juli 2026
 
 Arbeitsflächen-Dashboard-Berichte unterstützen jetzt benutzerdefinierte Währungsdatenfelder als Spalten, Filter, Gruppierungen und Aggregationen, auch wenn im System-Setup mehrere Wechselkurse konfiguriert sind. Wenn ein benutzerdefiniertes Währungsdatenfeld als Spalte oder Aggregation angezeigt wird, konvertieren Sie Werte in die Währung, die im Umschalter Wechselkurs des Dashboards ausgewählt ist, es sei denn, das Feld ist auf Berichtsebene gesperrt.
 
@@ -117,7 +138,9 @@ Weitere Informationen finden Sie unter [Verwenden von Währungsfeldern in Arbeit
 
 >[!NOTE]
 >
->Vorschau: 14. Mai 2026Produktions-Schnellveröffentlichung: 11. Juni 2026Produktion für alle: 16. Juli 2026
+>Vorschau: 14. Mai 2026
+>Produktions-Schnellveröffentlichung: 11. Juni 2026
+>Produktion für alle: 16. Juli 2026
 >
 >Canvas Dashboards befindet sich derzeit in der Beta-Phase.
 
