@@ -82,14 +82,14 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
    * **Mikrofon**: Diktieren Sie Ihre Nachricht mit Spracheingabe. Zur Stoppung der Aufzeichnung erneut wählen.
    * **Senden**: Senden Sie die Nachricht. Während der Coworker Chat reagiert, wird dies zu einem Stopp-Steuerelement, das Sie verwenden können, um zu unterbrechen.
 
-   Weitere Informationen zu diesen Aktionen finden Sie unter [Das Chat-Eingabefeld](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#the-chat-input-box) in der Dokumentation zu Adobe CX Coworker.
+   Weitere Informationen zu diesen Aktionen finden Sie unter [Das Chat-Eingabefeld](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#the-chat-input-box) in der Dokumentation zu Adobe CX Coworker.
 
 1. Um frühere Chats anzuzeigen und zu verwalten, klicken Sie auf das Symbol Chats ![Chats icon](assets/ai-icon.png) im CX Coworker-Bedienfeld.
 
-   Weitere Informationen zu Chats finden Sie unter [Verwalten Ihrer Chats](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats) in der Dokumentation zu Adobe CX Coworker.
+   Weitere Informationen zu Chats finden Sie unter [Verwalten Ihrer Chats](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#manage-your-chats) in der Dokumentation zu Adobe CX Coworker.
 1. Um Chat-Artefakte wie Ausgabelisten anzuzeigen und zu verwalten, klicken Sie auf das Artefaktsymbol ![Artefaktsymbol](assets/artifacts-icon.png).
 
-   Weitere Informationen zu Artefakten in CX Coworker finden Sie unter [Artefakte](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#artifacts) in der Dokumentation zu Adobe CX Coworker.
+   Weitere Informationen zu Artefakten in CX Coworker finden Sie unter [Artefakte](https://experienceleague.adobe.com/de/docs/cx-enterprise-ai/experience-cloud-ai/coworker/chat/ui-guide#artifacts) in der Dokumentation zu Adobe CX Coworker.
 1. Um Einstellungen für Kollegen zu verwalten, klicken Sie auf das Symbol Einstellungen ![Einstellungen](assets/coworker-settings-icon.png).
 1. Um das Bedienfeld „Mitarbeiter“ zu erweitern, klicken Sie auf das Symbol „Erweitern![&#x200B; (Symbol „Erweitern](assets/coworker-expand-icon.png).
 1. Um zur Benutzeroberfläche von Adobe CX Coworker zu gelangen, klicken Sie auf das Apps![Apps-Symbol](assets/apps-icon.png) oben rechts auf der Seite und wählen Sie Coworker aus der Liste der verfügbaren Apps aus.

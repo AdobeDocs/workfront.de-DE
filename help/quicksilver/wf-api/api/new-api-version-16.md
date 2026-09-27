@@ -530,7 +530,7 @@ Ein Arbeitszeittabellen-Objekt stellt eine virtuelle Arbeitszeitkarte dar, mit d
             </p>
             <p><b>enableSystemWideVisibility-</b>
             </p>
-            <p>Diese Aktionen unterstützen die Möglichkeit, Filter, Ansichten und Gruppierungen systemweit freizugeben.</p><p>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Alle Benutzer Zugriff auf Filter, Ansichten oder Gruppierungen gewähren</a>.</p>
+            <p>Diese Aktionen unterstützen die Möglichkeit, Filter, Ansichten und Gruppierungen systemweit freizugeben.</p><p>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Alle Benutzer Zugriff auf Filter, Ansichten oder Gruppierungen gewähren</a>.</p>
          </li>
         </ul>
       </td>
@@ -554,7 +554,7 @@ Ein Arbeitszeittabellen-Objekt stellt eine virtuelle Arbeitszeitkarte dar, mit d
             </p>
             <p><b>enableSystemWideVisibility-</b>
             </p>
-            <p>Diese Aktionen unterstützen die Möglichkeit, Filter, Ansichten und Gruppierungen systemweit freizugeben.</p><p>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Alle Benutzer Zugriff auf Filter, Ansichten oder Gruppierungen gewähren</a>.</p>
+            <p>Diese Aktionen unterstützen die Möglichkeit, Filter, Ansichten und Gruppierungen systemweit freizugeben.</p><p>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Alle Benutzer Zugriff auf Filter, Ansichten oder Gruppierungen gewähren</a>.</p>
          </li>
         </ul>
       </td>
@@ -595,7 +595,7 @@ Ein Arbeitszeittabellen-Objekt stellt eine virtuelle Arbeitszeitkarte dar, mit d
             </p>
             <p><b>enableSystemWideVisibility-</b>
             </p>
-            <p>Diese Aktionen unterstützen die Möglichkeit, Filter, Ansichten und Gruppierungen systemweit freizugeben.</p><p>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Alle Benutzer Zugriff auf Filter, Ansichten oder Gruppierungen gewähren</a>.</p>
+            <p>Diese Aktionen unterstützen die Möglichkeit, Filter, Ansichten und Gruppierungen systemweit freizugeben.</p><p>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">Alle Benutzer Zugriff auf Filter, Ansichten oder Gruppierungen gewähren</a>.</p>
          </li>
         </ul>
       </td>
