@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 17e85ce107b36aa62d7efb23b113e48324057803
+source-git-commit: f894d1715579ab66cc5acb03ceaae5d70a203519
 workflow-type: tm+mt
 source-wordcount: '682'
 ht-degree: 6%
@@ -150,9 +150,9 @@ So erstellen Sie einen Bericht für Projekte, für die die Genehmigung ihrer Bus
 
    Der Projektstatus ändert sich in **Abgelehnt** wenn der Business-Case abgelehnt wird.
 
-   >[!NOTE]
-   >
-   >Es gibt keine Benachrichtigungen, die den Benutzer, der die Genehmigung des Business-Case eingereicht hat, darüber informieren, ob seine Projektanforderung genehmigt oder abgelehnt wurde.
+>[!NOTE]
+>
+>Es gibt keine Benachrichtigungen, die den Benutzer, der die Genehmigung des Business-Case eingereicht hat, darüber informieren, ob seine Projektanforderung genehmigt oder abgelehnt wurde.
 
 ## Genehmigen des Business Case durch Zugriff auf angeforderte Projekte in einem Portfolio
 
