@@ -12,28 +12,38 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/iOGP-byuQ0X7Sd-DhKYw7aHJe3Q8n2blSj-rrlnfK9k
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource Management
 subfeature_v2:
   - id: b91c0848-76c4-4da4-8b81-3aade0518dd0
+    internal-label: Tasks
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 5606ecce47d871bfaaa7d0c7e305651e6eb9c15b
+    internal-label: Administration
+source-git-commit: 17e85ce107b36aa62d7efb23b113e48324057803
 workflow-type: tm+mt
-source-wordcount: 1377
+source-wordcount: '1377'
 ht-degree: 3%
-
 ---
-
 # Anzeigen der tatsächlichen Stunden
 
 <!-- Audited: 5/2025 -->
@@ -115,21 +125,21 @@ Je nachdem, aus welchem Bereich von Workfront Sie auf die tatsächlichen Stunden
 
 * In Projekt-, Aufgaben- und Problemberichten und -listen:
 
-   * **Tatsächliche Stunden**: Stunden, die zwischen Mai 2021 und heute für Projekte, Aufgaben oder Probleme protokolliert wurden. Sie werden in Stunden in der Workfront-Datenbank gespeichert und ihr Wertefeld wird `actualWorkRequiredDouble`.
-   * **Legacy Actual Hours**: Stunden, die für Projekte, Aufgaben oder Probleme jederzeit zwischen einem Datum vor Mai 2021 und dem heutigen Tag protokolliert werden. Sie werden als Minuten in der Workfront-Datenbank gespeichert und ihr Wertefeld wird `actualWorkRequired`.
+  * **Tatsächliche Stunden**: Stunden, die zwischen Mai 2021 und heute für Projekte, Aufgaben oder Probleme protokolliert wurden. Sie werden in Stunden in der Workfront-Datenbank gespeichert und ihr Wertefeld wird `actualWorkRequiredDouble`.
+  * **Legacy Actual Hours**: Stunden, die für Projekte, Aufgaben oder Probleme jederzeit zwischen einem Datum vor Mai 2021 und dem heutigen Tag protokolliert werden. Sie werden als Minuten in der Workfront-Datenbank gespeichert und ihr Wertefeld wird `actualWorkRequired`.
 
-     Die aktuell protokollierten Stunden aktualisieren sowohl die tatsächlichen als auch die veralteten tatsächlichen Stunden.
+    Die aktuell protokollierten Stunden aktualisieren sowohl die tatsächlichen als auch die veralteten tatsächlichen Stunden.
 
-     >[!IMPORTANT]
-     >
-     >Die Ist-Kosten des Projekts berechnen mithilfe von Legacy-Ist-Stunden.
+    >[!IMPORTANT]
+    >
+    >Die Ist-Kosten des Projekts berechnen mithilfe von Legacy-Ist-Stunden.
 
 * Im Bereich Projekt-, Aufgaben- oder Problemdetails können tatsächliche Stunden in den folgenden Feldern angezeigt werden:
 
-   * **Tatsächliche Stunden**: Auf der Registerkarte „Details“ werden diese Stunden für Projekte, Aufgaben oder Probleme zwischen Mai 2021 und heute protokolliert. Sie werden in Stunden in der Workfront-Datenbank gespeichert und ihr Wertefeld wird `actualWorkRequiredDouble`.
-   * **Tatsächliche Stunden**: In einem Projekt, einer Aufgabe oder einem benutzerdefinierten Formular für ein Problem, wenn der Zugriff über ein benutzerdefiniertes Feld erfolgt, das auf das native Feld für den nativen Feldverweis verweist. Hierbei handelt es sich um Stunden, die für Projekte, Aufgaben oder Probleme zwischen einem beliebigen Datum vor Mai 2021 und heute protokolliert werden. Sie werden in Stunden in der Workfront-Datenbank gespeichert und ihr Wertefeld wird `actualWorkRequiredDouble`.
+  * **Tatsächliche Stunden**: Auf der Registerkarte „Details“ werden diese Stunden für Projekte, Aufgaben oder Probleme zwischen Mai 2021 und heute protokolliert. Sie werden in Stunden in der Workfront-Datenbank gespeichert und ihr Wertefeld wird `actualWorkRequiredDouble`.
+  * **Tatsächliche Stunden**: In einem Projekt, einer Aufgabe oder einem benutzerdefinierten Formular für ein Problem, wenn der Zugriff über ein benutzerdefiniertes Feld erfolgt, das auf das native Feld für den nativen Feldverweis verweist. Hierbei handelt es sich um Stunden, die für Projekte, Aufgaben oder Probleme zwischen einem beliebigen Datum vor Mai 2021 und heute protokolliert werden. Sie werden in Stunden in der Workfront-Datenbank gespeichert und ihr Wertefeld wird `actualWorkRequiredDouble`.
 
-     Die aktuell protokollierten Stunden aktualisieren sowohl die tatsächlichen als auch die veralteten tatsächlichen Stunden.
+    Die aktuell protokollierten Stunden aktualisieren sowohl die tatsächlichen als auch die veralteten tatsächlichen Stunden.
 
 >[!NOTE]
 >
@@ -201,7 +211,7 @@ So zeigen Sie die tatsächlichen Stunden und die veralteten tatsächlichen Stund
 
 1. Klicken Sie auf der **Berichte** auf **Neuer Bericht** und wählen Sie dann **Aufgabe** als Objekt aus.
 1. Klicken Sie unten rechts auf der Seite auf **Spalte hinzufügen**.
-1. Beginnen Sie in **Dropdown-Feld**&#x200B;**In dieser Spalte anzeigen** mit der Eingabe von „Tatsächliche Stunden“ und wählen Sie dann das Feld aus, wenn es in der Liste angezeigt wird.
+1. Beginnen Sie in **Dropdown-Feld****In dieser Spalte anzeigen** mit der Eingabe von „Tatsächliche Stunden“ und wählen Sie dann das Feld aus, wenn es in der Liste angezeigt wird.
 1. Wiederholen Sie den obigen Schritt, um das Feld **Alte tatsächliche Stunden** zum Bericht hinzuzufügen.
 
 1. Klicken Sie unten links auf der Seite auf **Speichern + Schließen** um den Bericht zu speichern.

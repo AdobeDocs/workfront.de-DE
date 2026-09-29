@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Data quality
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 17e85ce107b36aa62d7efb23b113e48324057803
 workflow-type: tm+mt
 source-wordcount: '1857'
 ht-degree: 4%
@@ -95,7 +95,7 @@ Das Format einer Geschäftsregelvalidierung lautet: „Wenn die definierte Bedin
 
 Die Syntax für die Eigenschaften und andere Funktionen in einer Geschäftsregel entspricht der Syntax für ein berechnetes Feld in einem benutzerdefinierten Formular. Weitere Informationen zur Syntax finden Sie unter [Hinzufügen berechneter Felder mit dem Formular-Designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-Weitere Informationen zu IF-Anweisungen finden Sie unter [&#x200B; „IF“-Anweisungen - &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) und [Bedingungsoperatoren in berechneten benutzerdefinierten Feldern](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+Weitere Informationen zu IF-Anweisungen finden Sie unter [ „IF“-Anweisungen - ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) und [Bedingungsoperatoren in berechneten benutzerdefinierten Feldern](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
 Informationen zu benutzerbasierten Platzhaltern finden Sie unter [Verwenden von benutzerbasierten Platzhaltern zum Verallgemeinern von Berichten](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
@@ -269,7 +269,7 @@ Sie können Platzhalter in Aktionen mit Geschäftsregeln verwenden, wie im Absch
 
    Dieses Beispiel ist eine Geschäftsregel für Projekte. Wenn der aktuelle Monat November ist, dürfen Benutzer keine neuen Projekte erstellen. Die Meldung erklärt dies.
 
-   Weitere Beispiele für Geschäftsregeln finden Sie unter [Szenarien für &#x200B;](#scenarios-for-business-rules) in diesem Artikel.
+   Weitere Beispiele für Geschäftsregeln finden Sie unter [Szenarien für ](#scenarios-for-business-rules) in diesem Artikel.
 
 1. (Optional) Verwenden Sie die Formel **Ausdrücke** und **Felder** im rechten Bedienfeld, um beim Erstellen der Regel zu helfen.
 

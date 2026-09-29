@@ -26,7 +26,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 17e85ce107b36aa62d7efb23b113e48324057803
 workflow-type: tm+mt
 source-wordcount: '474'
 ht-degree: 9%
@@ -68,7 +68,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 {{step1-to-boards}}
 
 1. Eine neue Pinnwand erstellen oder eine vorhandene Pinnwand bearbeiten. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten einer Pinnwand](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicken Sie auf **[!UICONTROL Symbol]** Mitglied hinzufügen![&#x200B; (Mitglieder hinzufügen](assets/boards-addmember-spectrum-25x25.png).
+1. Klicken Sie auf **[!UICONTROL Symbol]** Mitglied hinzufügen![ (Mitglieder hinzufügen](assets/boards-addmember-spectrum-25x25.png).
 1. Beginnen Sie im Feld **[!UICONTROL Mitglieder hinzufügen]** mit der Eingabe eines Namens und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
 
    Sie können ein einzelnes Mitglied oder ein Team auswählen. Wenn Sie ein Team auswählen, wird das Team selbst der Pinnwand hinzugefügt.
@@ -85,7 +85,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 {{step1-to-boards}}
 
 1. Eine neue Pinnwand erstellen oder eine vorhandene Pinnwand bearbeiten. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten einer Pinnwand](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicken Sie auf **[!UICONTROL Symbol]** Mitglied hinzufügen![&#x200B; (Mitglieder hinzufügen](assets/boards-addmember-spectrum-25x25.png).
+1. Klicken Sie auf **[!UICONTROL Symbol]** Mitglied hinzufügen![ (Mitglieder hinzufügen](assets/boards-addmember-spectrum-25x25.png).
 1. Klicken Sie im Feld **[!UICONTROL Mitglieder hinzufügen]** auf das X neben dem Namen einer Person oder eines Teams, um sie aus der Pinnwand zu entfernen.
 
    ![Mitglied aus der Pinnwand entfernen](assets/boards-remove-member-from-board-350x367.png)
