@@ -9,23 +9,28 @@ exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
 TQID: https://experienceleague.adobe.com/b6lcN97EhJ4bD8w12SRE9TGLycM9Y8Si8ZSm8VBlHlA
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 43ed208abe51a7172c0143fa6f838362edd913db
 workflow-type: tm+mt
-source-wordcount: 499
-ht-degree: 10%
-
+source-wordcount: '543'
+ht-degree: 9%
 ---
-
 # Verwalten der Projektausgaben
 
 <!-- Audited: 6/2025 -->
@@ -54,11 +59,11 @@ Der Gesamtbetrag Ihrer Ausgaben aus allen Aufgaben und Projekten trägt zu den G
   </tr> 
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
-   <td>Zugriff auf Projekte und Finanzdaten bearbeiten</td> 
+   <td>Zugriff auf Projekte und Aufgaben bearbeiten</td> 
   </tr> 
   <tr> 
    <td>Objektberechtigungen</td> 
-   <td>Tragen Sie Berechtigungen oder höhere Berechtigungen zum Projekt bei, mit Berechtigungen zum Anzeigen oder Bearbeiten der allgemeinen Finanzen</td> 
+   <td><p>So fügen Sie Ausgaben hinzu und bearbeiten oder löschen von Ihnen erstellte Ausgaben: Tragen Sie oder höhere Berechtigungen zum Projekt oder zur Aufgabe bei, mit Berechtigungen zum Hinzufügen von Ausgaben.</p><p>So können Sie von anderen Benutzern hinzugefügte Ausgaben anzeigen, bearbeiten oder löschen: Verwalten Sie Berechtigungen für das Projekt oder die Aufgabe mit der Berechtigung zum Anzeigen von Kostensätzen (zum Anzeigen) oder Bearbeiten von Kostensätzen (zum Bearbeiten oder Löschen).</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -97,7 +102,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 ## Kosten löschen
 
-1. Gehen Sie zu dem Projekt, für das Sie eine Ausgabe löschen möchten.
+1. Gehen Sie zu dem Projekt oder der Aufgabe, für das bzw. die Sie eine Ausgabe löschen möchten.
 1. Klicken Sie **linken** auf „Ausgaben“.
 1. Wählen Sie die zu löschenden Ausgaben aus und klicken Sie auf das Symbol **Löschen** &quot;![Löschen](assets/delete.png).
 1. Klicken Sie im **Kosten löschen** auf **Ja,**.
