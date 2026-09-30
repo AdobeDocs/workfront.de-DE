@@ -16,9 +16,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
+source-git-commit: ce3795d14390ccff1c66d7c6add34455c0ca4082
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1024'
 ht-degree: 2%
 ---
 # Verwenden von Arbeitsagenten
@@ -27,7 +27,7 @@ Arbeitsagenten sind KI-Mitwirkende, die zusätzlich zu den bereits vorhandenen K
 
 Arbeitsagenten stellen eine Verbindung zu Agenten her, die Sie in Copilot Studio, Claude oder Writer konfiguriert haben.
 
-Informationen und Anweisungen zum Erstellen eines Arbeitsagenten in Workfront finden Sie unter [Konfigurieren eines &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)) im Artikel Konfigurieren von KI-Mitwirkenden.
+Informationen und Anweisungen zum Erstellen eines Arbeitsagenten in Workfront finden Sie unter [Konfigurieren eines ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)) im Artikel Konfigurieren von KI-Mitwirkenden.
 
 ## Zugriffsanforderungen
 
@@ -62,7 +62,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 ## Arbeitsagenten - Übersicht
 
-Arbeitsagenten sind eine Möglichkeit, MCP-Agenten bestimmten Aufgaben in Workfront zuzuweisen. Sie konfigurieren den Agenten in einer App wie Copilot Studio, Claude oder Writer.ai und verbinden diesen Agenten dann mit Workfront als Arbeitsagenten. Anschließend können Sie sie wie eine Benutzerin bzw. einen Benutzer Aufgaben zuweisen.
+Arbeitsagenten sind eine Möglichkeit, Agenten bestimmten Aufgaben in Workfront zuzuweisen. Sie konfigurieren den Agenten in einer App wie Copilot Studio, Claude oder Writer.ai und verbinden diesen Agenten dann mit Workfront als Arbeitsagenten. Anschließend können Sie sie wie eine Benutzerin bzw. einen Benutzer Aufgaben zuweisen.
 
 Beispiele für Workflows:
 
@@ -76,7 +76,7 @@ Beispiele für Workflows:
 >* Der Workfront MCP-Server muss nicht zu dem als Arbeitsagent verwendeten Agenten hinzugefügt werden und muss nicht verbunden sein, damit der Arbeitsagent funktioniert.
 >* Arbeitsagenten unterstützen derzeit in Copilot Studio, Claude und Writer.ai erstellte Agenten.
 >* Beim Konfigurieren eines Agenten in Copilot Studio müssen Sie die Sicherheit auf &quot;**Authentifizierung“**.
->* Informationen und Anweisungen zum Erstellen eines Arbeitsagenten in Workfront finden Sie unter [Konfigurieren eines &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)) im Artikel Konfigurieren von KI-Mitwirkenden.
+>* Informationen und Anweisungen zum Erstellen eines Arbeitsagenten in Workfront finden Sie unter [Konfigurieren eines ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)) im Artikel Konfigurieren von KI-Mitwirkenden.
 
 ## Informationen, die ein Arbeitsagent liest
 
