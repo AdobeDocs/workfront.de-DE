@@ -28,12 +28,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 8b59974fbec3c7ec33b2920889717cac56a6c778
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1636'
 ht-degree: 1%
 ---
 # Überblick über den Berichtversand
+
+{{highlighted-preview}}
 
 <!-- Audited: 11/2024 -->
 
@@ -58,6 +60,7 @@ Beachten Sie beim Planen von Berichten für den Versand Folgendes:
 
 * Sie können für jeden Bericht bis zu 10 sich wiederholende Berichtlieferungen planen.
 * Sie können festlegen, dass ein Bericht nur dann bereitgestellt wird, wenn Sie der Ersteller des Berichts sind. Wenn Sie einen Bericht senden müssen, den Sie nicht erstellt haben, können Sie ihn manuell senden.
+* <span class="preview">In der Vorschau muss jeder geplante Berichtsversand ein definiertes Enddatum haben. Wenn ein Versand zuvor auf „Niemals“ festgelegt wurde, setzt Workfront das Enddatum automatisch auf 13 Monate ab dem nächsten Versanddatum des Berichts.</span>
 
 ## Exportbeschränkungen
 
@@ -146,6 +149,7 @@ Wenn Sie einen Bericht über Workfront senden, erhält der/die Benutzende eine E
 * [Branding](#branding)
 * [Formatierung](#formatting)
 * [Links](#links)
+* [Verfallshinweise für Berichte](#report-expiration-notices)
 
 ### Betreffzeile, Anlagenname und Berichtstitel {#subject-line-attachment-name-and-report-title}
 
@@ -197,6 +201,18 @@ Weitere Informationen zur Auswahl der Standardregisterkarte eines Berichts und z
 Wenn Sie einen Bericht von Workfront an das PDF- oder Excel-Format senden, bleiben alle Arbeitslinks, die im Originaldokument vorhanden sind, in der gesendeten Datei aktiv. Links können auf jedes Objekt in Workfront verweisen, das Verknüpfungen unterstützt.
 
 Der Name des Berichts in der E-Mail-Nachricht ist auch ein Link.
+
+<div class="preview">
+
+### Verfallshinweise für Berichte {#report-expiration-notices}
+
+In der Vorschau enthalten die gesendeten Berichts-E-Mails das Ablaufdatum des Berichts.
+
+Wenn sich der Versand täglich wiederholt, enthält die E-Mail bei jedem Versand eine Ablaufwarnung, sobald das Ablaufdatum innerhalb von 45 Tagen liegt.
+
+Wenn sich der Versand wöchentlich oder monatlich wiederholt, enthält die E-Mail eine Ablaufwarnung während der letzten vier geplanten Sendungen vor dem Ablaufdatum.
+
+</div>
 
 ## Bericht zu terminierten Berichten
 

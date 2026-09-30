@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1ee0f2de61c518fc608a03045339ac9c50afc7f9
 workflow-type: tm+mt
-source-wordcount: '2877'
+source-wordcount: '2863'
 ht-degree: 9%
 ---
 # Versionsübersicht für das vierte Quartal 2026
@@ -208,8 +208,8 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
         </tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">CX Coworker ist jetzt in Workfront verfügbar</a>
-                <p>CX Coworker ist eine neue Gesprächsoberfläche, mit der Sie Aufgaben in Workfront und verbundenen Adobe-Systemen erledigen können. Sie ersetzt den aktuellen KI-Assistenten.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-ai.md" class="MCXref xref" xrefformat="{para}">CX Coworker jetzt in Workfront verfügbar</a>
+                <p>CX Coworker ist eine neue Gesprächsoberfläche, mit der Arbeit in Workfront und verbundenen Adobe-Systemen erledigt werden kann. Sie ersetzt den aktuellen KI-Assistenten.</p>
             </td>
             <td><p>Schrittweiser Rollout ab 3. September 2026</p></td>
             <td><p>Schrittweiser Rollout ab 17. September 2026</p></td>
@@ -707,11 +707,11 @@ Informationen zum Herunterladen und Aktualisieren des Desktop Proofing Viewers f
 
 ## Ankündigungen
 
-### Veraltete Felder für Abrechnung und Kostensatz werden entfernt
+### Veraltete Felder für Abrechnung und Kostensatz in Aufgabengebiet-Listenansichten werden entfernt
 
 Im Laufe der Zeit haben wir erweiterte Raten-Management-Funktionen und spezielle Aufgabengebiet-Erlebnisse eingeführt, die einen vollständigeren und skalierbareren Ansatz zur Pflege von Raten-Informationen bieten. Infolgedessen bewegt sich die Ratenverwaltung in Richtung dieser dedizierten Erlebnisse statt in Richtung listenbasierter Management-Workflows.
 
-Mit der Version vom Januar 2027 sind die alten Felder **Abrechnung pro Stunde** und **Kosten pro Stunde** nicht mehr in der Workfront-API oder in Listenansichten „Benutzer“ und „Aufgabengebiet“ verfügbar, einschließlich Filter-/Ansicht-/Gruppierungskonfigurationen (sowohl Direktverweise als auch berechnete Spalten im Textmodus).
+Mit der Version vom Januar 2027 sind die alten Felder **Abrechnung pro Stunde** und **Kosten pro Stunde** nicht mehr in der Workfront-API oder in Aufgabengebiet-Listenansichten verfügbar, einschließlich Filter-/Ansicht-/Gruppierungskonfigurationen (sowohl Direktverweise als auch berechnete Spalten im Textmodus).
 
 Als Ersatz in Berichten können Sie den empfohlenen Textmodus-Code verwenden (verwenden Sie nach Bedarf `costRates` oder `billingRates`):
 
@@ -724,15 +724,14 @@ Als Ersatz in Berichten können Sie den empfohlenen Textmodus-Code verwenden (ve
     valueFormat=HTML
     &quot;
 
-Verwenden Sie zum Verwalten und Überprüfen von Raten die dedizierten Raten-Management-Erlebnisse:
+Verwenden Sie zum Verwalten und Überprüfen der Vorgangsrollensätze die dedizierten Tarifverwaltungserfahrungen:
 
-* Greifen Sie direkt über das Benutzerprofil auf Benutzerraten zu.
 * Greifen Sie direkt über die Seite „Aufgabengebiet“ > „Tarife“ auf die Tarife für Aufgabengebiete zu und verwalten Sie sie.
-* Verwenden Sie Tarifberichte, um Tarifinformationen für Benutzer und Aufgabengebiete zu überprüfen, zu analysieren und Berichte dazu zu erstellen.
+* Verwenden Sie Tarifberichte, um Tarifinformationen in allen Aufgabengebieten zu überprüfen, zu analysieren und in Berichten zu erfassen.
 
-Zur Vorbereitung auf die Änderung ist keine Aktion erforderlich. Administratoren, die derzeit die Felder **Abrechnung pro Stunde** und **Kosten pro Stunde** in der Listenansicht Benutzer oder Aufgabengebiet anzeigen, sollten ihre Workflows jedoch so aktualisieren, dass sie die oben beschriebenen empfohlenen Tarifverwaltungserlebnisse verwenden.
+Zur Vorbereitung auf die Änderung ist keine Aktion erforderlich. Administratoren, die derzeit die Felder **Abrechnung pro Stunde** und **Kosten pro Stunde** in den Listenansichten für Aufgabengebiete anzeigen, sollten ihre Workflows jedoch so aktualisieren, dass sie die oben beschriebenen empfohlenen Tarifverwaltungserlebnisse verwenden.
 
-Informationen zu Aufgabengebieten und Benutzerraten finden Sie unter [Erstellen und Verwalten von &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) und [Bearbeiten des Benutzerprofils](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Informationen zu den Vorgangsrollensätzen finden Sie unter [Erstellen und Verwalten von &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 ### Die kennwortgeschützte Authentifizierung für Benutzende von Data Connect-Lesegeräten endet am 8. August 2026
 

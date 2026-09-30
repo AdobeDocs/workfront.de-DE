@@ -30,7 +30,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: f11da983435265b00e7dd9993593bab28f6599a6
 workflow-type: tm+mt
 source-wordcount: '2878'
 ht-degree: 1%
@@ -111,10 +111,10 @@ So erstellen Sie einen einstufigen Validierungs-Workflow:
    <td><strong>Namen oder E-Mails hinzufügen</strong></td>
    <td>Beginnen Sie mit der Eingabe eines Benutzer- oder Team-Namens, der als genehmigende Person oder Prüfende Person hinzugefügt werden soll. Wenn Sie nur über Validierungsverantwortliche verfügen, werden diese benachrichtigt und haben die Möglichkeit, die Überprüfung abzuschließen. Es ist jedoch keine Entscheidung erforderlich oder getroffen.</td>
    </tr>
-   <tr class="preview">
-   <td><span class="preview"><strong>Personen oder Teams in der Vorschau hinzufügen</strong></span></td>
-   <td><span class="preview">Beginnen Sie mit der Eingabe eines Benutzernamens, Teams oder einer E-Mail-Adresse. Das Team wird standardmäßig als einzelne genehmigende Person oder Überprüfung hinzugefügt, Sie können jedoch festlegen, dass jedes Teammitglied als einzelner Teilnehmer hinzugefügt wird. <br>
-   Hinweis: Wenn ein(e) Benutzende(r) bereits hinzugefügt wurde oder zu mehr als einem Team gehört, das Sie hinzufügen, wird er/sie einmal einbezogen.</span></td>
+   <tr>
+   <td><strong><span class="preview">Personen oder Teams in der Vorschau hinzufügen</span></strong></td>
+   <td><p><span class="preview">Beginnen Sie mit der Eingabe eines Benutzernamens, Teams oder einer E-Mail-Adresse. Das Team wird standardmäßig als einzelne genehmigende Person oder Überprüfung hinzugefügt, Sie können jedoch festlegen, dass jedes Teammitglied als einzelner Teilnehmer hinzugefügt wird.</span></p>
+   <p><span class="preview">Hinweis: Wenn ein(e) Benutzende(r) bereits hinzugefügt wurde oder zu mehr als einem Team gehört, das Sie hinzufügen, wird er/sie einmal einbezogen.</span></p></td>
    </tr>
    <tr>
    <td><strong>Nur eine Entscheidung erforderlich (optional)</strong></td>
@@ -181,10 +181,10 @@ So erstellen Sie einen erweiterten Validierungs-Workflow:
    <td><strong>Namen oder E-Mails hinzufügen</strong></td>
    <td>Beginnen Sie mit der Eingabe eines Benutzer- oder Team-Namens, der als genehmigende Person oder Prüfende Person hinzugefügt werden soll. Wenn Sie nur über Validierungsverantwortliche verfügen, werden diese benachrichtigt und haben die Möglichkeit, die Überprüfung abzuschließen. Es ist jedoch keine Entscheidung erforderlich oder getroffen.<p>Hinweis: Ein Reviewer oder eine genehmigende Person kann jeweils nur einem offenen Schritt im selben Asset zugewiesen werden. Wenn mehrere parallele Stadien gleichzeitig geöffnet sind, kann dieselbe Person nicht zu mehr als einer hinzugefügt werden.</p></td>
    </tr>
-   <tr class="preview">
-   <td><span class="preview"><strong>Personen oder Teams in der Vorschau hinzufügen</strong></span></td>
-   <td><span class="preview">Beginnen Sie mit der Eingabe eines Benutzernamens, Teams oder einer E-Mail-Adresse. Das Team wird standardmäßig als einzelne genehmigende Person oder Überprüfung hinzugefügt, Sie können jedoch festlegen, dass jedes Teammitglied als einzelner Teilnehmer hinzugefügt wird. <br>
-   Hinweis: Wenn ein(e) Benutzende(r) bereits hinzugefügt wurde oder zu mehr als einem Team gehört, das Sie hinzufügen, wird er/sie einmal einbezogen. Darüber hinaus können Teilnehmern jeweils nur ein offenes Stadium für dasselbe Asset zugewiesen werden.</span></td>
+   <tr>
+   <td><strong><span class="preview">Personen oder Teams in der Vorschau hinzufügen</span></strong></td>
+   <td><p><span class="preview">Beginnen Sie mit der Eingabe eines Benutzernamens, Teams oder einer E-Mail-Adresse. Das Team wird standardmäßig als einzelne genehmigende Person oder Überprüfung hinzugefügt, Sie können jedoch festlegen, dass jedes Teammitglied als einzelner Teilnehmer hinzugefügt wird.</span></p>
+   <p><span class="preview">Hinweis: Wenn ein(e) Benutzende(r) bereits hinzugefügt wurde oder zu mehr als einem Team gehört, das Sie hinzufügen, wird er/sie einmal einbezogen. Darüber hinaus können Teilnehmern jeweils nur ein offenes Stadium für dasselbe Asset zugewiesen werden.</span></p></td>
    </tr>
    <tr>
    <td><strong>Nur eine Entscheidung erforderlich (optional)</strong></td>
@@ -247,10 +247,10 @@ So erstellen Sie einen einstufigen Validierungs-Workflow:
    <td><strong>Namen oder E-Mails hinzufügen</strong></td>
    <td>Beginnen Sie mit der Eingabe eines Benutzernamens oder einer E-Mail, die als genehmigende Person oder Prüfende hinzugefügt werden soll. Wenn Sie nur über Validierungsverantwortliche verfügen, werden diese benachrichtigt und haben die Möglichkeit, die Überprüfung abzuschließen. Es ist jedoch keine Entscheidung erforderlich oder getroffen.</td>
    </tr>
-   <tr class="preview">
-   <td><span class="preview"><strong>Personen oder Teams in der Vorschau hinzufügen</strong></span></td>
-   <td><span class="preview">Beginnen Sie mit der Eingabe eines Benutzernamens, Teams oder einer E-Mail-Adresse und wählen Sie aus, ob es sich um einen <strong>Genehmiger</strong> oder <strong>Prüfer</strong> handelt. Workfront fügt jedes aktive Mitglied eines Teams einzeln hinzu. <br>
-   Hinweis: Wenn ein(e) Benutzende(r) bereits hinzugefügt wurde oder zu mehr als einem Team gehört, das Sie hinzufügen, wird er/sie einmal einbezogen.</span></td>
+   <tr>
+   <td><strong><span class="preview">Personen oder Teams in der Vorschau hinzufügen</span></strong></td>
+   <td><p><span class="preview">Beginnen Sie mit der Eingabe eines Benutzernamens, Teams oder einer E-Mail-Adresse und wählen Sie aus, ob es sich um einen <strong>Genehmiger</strong> oder <strong>Prüfer</strong> handelt. Workfront fügt jedes aktive Mitglied eines Teams einzeln hinzu.</span></p>
+   <p><span class="preview">Hinweis: Wenn ein(e) Benutzende(r) bereits hinzugefügt wurde oder zu mehr als einem Team gehört, das Sie hinzufügen, wird er/sie einmal einbezogen.</span></p></td>
    </tr>
    <tr>
    <td><strong>Nur eine Entscheidung erforderlich (optional)</strong></td>
@@ -323,10 +323,10 @@ So erstellen Sie einen erweiterten Validierungs-Workflow:
    <td><strong>Namen oder E-Mails hinzufügen</strong></td>
    <td>Beginnen Sie mit der Eingabe eines Benutzernamens oder einer E-Mail, die als genehmigende Person oder Prüfende hinzugefügt werden soll. Wenn Sie nur über Validierungsverantwortliche verfügen, werden diese benachrichtigt und haben die Möglichkeit, die Überprüfung abzuschließen. Es ist jedoch keine Entscheidung erforderlich oder getroffen.<p>Hinweis: Ein Reviewer oder eine genehmigende Person kann jeweils nur einem offenen Schritt im selben Asset zugewiesen werden. Wenn mehrere parallele Stadien gleichzeitig geöffnet sind, kann dieselbe Person nicht zu mehr als einer hinzugefügt werden.</p></td>
    </tr>
-   <tr class="preview">
-   <td><span class="preview"><strong>Personen oder Teams in der Vorschau hinzufügen</strong></span></td>
-   <td><span class="preview">Beginnen Sie mit der Eingabe eines Benutzernamens, Teams oder einer E-Mail-Adresse und wählen Sie aus, ob es sich um einen <strong>Genehmiger</strong> oder <strong>Prüfer</strong> handelt. Workfront fügt jedes aktive Mitglied eines Teams einzeln hinzu. <br>
-   Hinweis: Wenn ein(e) Benutzende(r) bereits hinzugefügt wurde oder zu mehr als einem Team gehört, das Sie hinzufügen, wird er/sie einmal einbezogen. Darüber hinaus können Teilnehmern jeweils nur ein offenes Stadium für dasselbe Asset zugewiesen werden.</span></td>
+   <tr>&gt;
+   <td><strong><span class="preview">Personen oder Teams in der Vorschau hinzufügen</span></strong></td>
+   <td><p><span class="preview">Beginnen Sie mit der Eingabe eines Benutzernamens, Teams oder einer E-Mail-Adresse und wählen Sie aus, ob es sich um einen <strong>Genehmiger</strong> oder <strong>Prüfer</strong> handelt. Workfront fügt jedes aktive Mitglied eines Teams einzeln hinzu.</span></p>
+   <p><span class="preview">Hinweis: Wenn ein(e) Benutzende(r) bereits hinzugefügt wurde oder zu mehr als einem Team gehört, das Sie hinzufügen, wird er/sie einmal einbezogen. Darüber hinaus können Teilnehmern jeweils nur ein offenes Stadium für dasselbe Asset zugewiesen werden.</span></p></td>
    </tr>
    <tr>
    <td><strong>Nur eine Entscheidung erforderlich (optional)</strong></td>
