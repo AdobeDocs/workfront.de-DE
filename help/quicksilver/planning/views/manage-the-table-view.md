@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: cc47859cfb1dc1946050ba679b2678ccb9408223
+source-git-commit: e0951a7451bbf17dcca388eee841abddb1618a0b
 workflow-type: tm+mt
-source-wordcount: '3630'
+source-wordcount: '4233'
 ht-degree: 3%
 ---
 # Verwalten der Tabellenansicht
@@ -303,7 +303,7 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
 
 1. Gehen Sie folgendermaßen vor, um schnell Datensätze zu finden, die einem Keyword entsprechen:
 
-   1. Beginnen Sie im **&#x200B;**&#x200B;Suchfeld![Suchsymbol](assets/search-icon.png) mit der Eingabe eines Keywords, das mit einem beliebigen Feld eines Datensatzes verknüpft ist, der auf dem Bildschirm angezeigt wird. Die Anzahl der richtigen Übereinstimmungen wird neben dem Suchelement angezeigt, und das Feld mit der richtigen Übereinstimmung ist hervorgehoben.
+   1. Beginnen Sie im **** Suchfeld![Suchsymbol](assets/search-icon.png) mit der Eingabe eines Keywords, das mit einem beliebigen Feld eines Datensatzes verknüpft ist, der auf dem Bildschirm angezeigt wird. Die Anzahl der richtigen Übereinstimmungen wird neben dem Suchelement angezeigt, und das Feld mit der richtigen Übereinstimmung ist hervorgehoben.
 
       ![Suchfeld mit Ergebnissen mit blauer Kontur in der Tabellenansicht](assets/search-box-with-results-blue-outline-g-table.png)
 
@@ -324,144 +324,145 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
 
    1. Klicken Sie auf das **x**-Symbol im Suchfeld, um den Suchbegriff zu löschen.
 
-1. (Bedingt) Erweitern Sie für Felder vom Typ Zahl, Währung, Prozentsatz und Formel , die mit einem dieser Feldtypen formatiert sind, das Dropdown-Menü Aggregator unten in den Spalten und wählen Sie aus den folgenden Optionen aus:
 
-   * **SUM**: Zeigt die Gesamtzahl aller Zellen in der Spalte an. Dies ist die Standardauswahl.
-   * **MIN**: Zeigt den niedrigsten Wert aus allen Zellen in der Spalte an.
-   * **MAX**: Zeigt den höchsten Wert aus allen Zellen in der Spalte an.
-   * **AVG**: Zeigt den Durchschnittswert aller Zellen in der Spalte an.
+1. (Bedingt) Führen Sie je nach den angezeigten Feldtypen einen der folgenden Schritte aus:
 
-   <!--    
-    <div class="preview"> 
+   * Für Zahlen-, Währungs-, Prozentsatz- und Formelfelder, die als eines dieser Felder formatiert sind, erweitern Sie das Dropdown-Menü Aggregator unten in den Spalten und wählen Sie aus den folgenden Optionen aus:
 
-    * **NONE**: The values of the column are not aggregated.This is the default option. 
-    
-    </div> 
-    -->
+     * **SUM**: Zeigt die Gesamtzahl aller Zellen in der Spalte an. Dies ist die Standardauswahl.
+     * **MIN**: Zeigt den niedrigsten Wert aus allen Zellen in der Spalte an.
+     * **MAX**: Zeigt den höchsten Wert aus allen Zellen in der Spalte an.
+     * **AVG**: Zeigt den Durchschnittswert aller Zellen in der Spalte an.
+
+     <div class="preview">
+
+     * **NONE**: Die Werte der Spalte werden nicht aggregiert.Dies ist die Standardoption.
+
+     </div>
+
+   <div class="preview">
+
+   * Erweitern Sie für Datumsfelder das Dropdown-Menü des Aggregators unten in den Spalten und wählen Sie aus den folgenden Optionen:
+
+     * **NONE**: Die Werte der Spalte werden nicht aggregiert.Dies ist die Standardoption.
+     * **LEER**: Zeigt die Anzahl der Felder an, die keine Werte haben.
+     * **NICHT LEER**: Zeigt die Anzahl der Felder an, die Werte aufweisen.
+     * **MIN**: Zeigt das früheste Datum an.
+     * **MAX**: Zeigt das letzte Datum an.
+
+   * Wählen Sie für die Felder Text, Boolescher Wert, Personen das Dropdown-Menü des Aggregators am unteren Rand der Spalten aus und wählen Sie aus den folgenden Optionen:
+
+     * **NONE**: Die Werte der Spalte werden nicht aggregiert.Dies ist die Standardoption.
+     * **LEER**: Zeigt die Anzahl der Felder an, die keine Werte haben.
+     * **NICHT LEER**: Zeigt die Anzahl der Felder an, die Werte aufweisen.
+
+   </div>
 
    Beachten Sie beim Arbeiten mit Aggregatoren Folgendes:
 
-   * Die Aggregator-Zeile in der Spalte ist eingefroren und Teil der Anzeigeeinstellungen.
+   * Die Aggregatorzeile in der Spalte wird eingefroren, wenn sie Werte anzeigt, und ist Teil der Anzeigeeinstellungen.
    * Als Ansichts-Manager können Sie den Aggregator auswählen. Dieser wird für die Ansicht freigegeben, wenn Sie die Ansicht für andere freigeben.
    * Als Viewer können Sie den Aggregator ändern, er wird jedoch nicht mit der Ansicht gespeichert.
    * Öffentliche freigegebene Ansichten werden mit den gespeicherten Aggregatoren geteilt, die nicht geändert werden können.
 
+   <div class="preview">
+
+   * Die folgenden Feldtypen haben keinen Aggregator:
+
+     * Erstellt von
+     * Zuletzt geändert von
+     * Eintrags-ID
+   * Formelfelder und Lookup-Felder verfügen über die Aggregatoren, die ihrem Feldformat entsprechen.
+
+   </div>
+
 <!--
-At preview release, replace the last procedure step with this:
 
-1. (Conditional) Depending on the types of fields you are viewing, do one of the following; 
+FROM LISA: This is the old section. I commented it out vs deleting.
 
-    * For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+1. (Conditional) For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
 
-        * **SUM**: Displays the total of all cells in the column. This is the default selection. 
-        * **MIN**: Displays the lowest value from all the cells in the column. 
-        * **MAX**: Displays the highest value from all the cells in the column. 
-        * **AVG**: Displays the average value of all the cells in the column.  
+    * **SUM**: Displays the total of all cells in the column. This is the default selection. 
+    * **MIN**: Displays the lowest value from all the cells in the column. 
+    * **MAX**: Displays the highest value from all the cells in the column. 
+    * **AVG**: Displays the average value of all the cells in the column.  
 
-        <div class="preview">
+    <div class="preview"> 
 
-        * **NONE**: The values of the column are not aggregated.This is the default option. 
+    * **NONE**: The values of the column are not aggregated. This is the default option. 
     
-        </div> 
-   
-    <div class="preview">
+    </div> 
 
-    * For date fields, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
-
-        * **NONE**: The values of the column are not aggregated.This is the default option.
-        * **EMPTY**: Displays a count of the fields that have no values. 
-        * **NOT EMPTY**: Displays a count of the fields that have values. 
-        * **MIN**: Displays the earliest date.
-        * **MAX**: Displays the latest date. 
-    
-    * For text, select, boolean, People fields expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
-
-        * **NONE**: The values of the column are not aggregated.This is the default option.
-        * **EMPTY**: Displays a count of the fields that have no values. 
-        * **NOT EMPTY**: Displays a count of the fields that have values.  
-
-    </div>
-        
     Consider the following when working with aggregators: 
     
-    * The aggregator row in the column is frozen when it displays values, and is part of the view settings. 
+    * The aggregator row in the column is frozen and is part of the view settings. 
     * As a View manager, you can choose the aggregator, and it will be shared with the view when you share the view with others. 
     * As a viewer, you can modify the aggregator, but it does not save with the view. 
     * Public shared views are shared with the saved aggregators which cannot be modified. 
 
-    <div class="preview">
+-->
 
-    * The following field types do not have an aggregator: 
+### Zeilen (oder Datensätze) hinzufügen {#add-rows-1}
 
-        * Created by
-        * Last modified by
-        * Record ID
-    * Formula fields and look up fields have the aggregators that correspond to their field format. 
+Die Zeilen einer Tabellenansicht zeigen einzelne Datensätze des ausgewählten Datensatztyps an. Das Hinzufügen von Zeilen ist mit dem Erstellen von Datensätzen identisch.
 
-    </div> 
+Sie können bis zu 50.000 Datensätze (oder Zeilen) für einen Datensatztyp haben.
 
-### Add rows (or records) {#add-rows-1}
+1. Wechseln Sie zu einer Seite vom Typ Datensatz und wählen Sie eine Tabellenansicht aus, oder klicken Sie auf **+ Ansicht** um eine neue Ansicht hinzuzufügen, und wählen Sie dann **Tabelle** aus.
 
-The rows of a table view display individual records of the selected record type. Adding rows is identical to creating records. 
+1. Beginnen Sie mit dem Hinzufügen von Datensätzen (oder Zeilen), wie im Artikel [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md) beschrieben.
 
-You can have up to 50,000 records (or rows) for a record type. 
+   Die Datensätze, die Sie in der Tabellenansicht hinzufügen, werden sofort gespeichert und sind für alle Benutzer sichtbar, die über Ansichtsberechtigungen oder höhere Berechtigungen für den Arbeitsbereich verfügen.
 
-1. Go to a record type page and select a table view, or click **+ View** to add a new view, then choose **Table**. 
+   Dem neuen Datensatz </span> auch ein Standardminiaturbild <span class="preview">und -farbe) hinzugefügt.
 
-1. Start adding records (or rows), as described in the article [Create records](/help/quicksilver/planning/records/create-records.md). 
+   >[!TIP]
+   >
+   ><span class="preview">Wenn ein Datensatz ungelesene Kommentare enthält, **oben rechts im Primärfeld des Datensatzes ein Indikator „Neuer Kommentar** angezeigt.</span>
+   >
+   >![Neues Kommentarsymbol in der Tabellenansicht](assets/new-comment-icon-in-table-view-highlighted.png)
 
-    The records you add in the table view are saved immediately and are visible to all users who have View or higher permissions to the workspace. 
+1. (Optional) Wählen Sie einen oder mehrere Datensätze oder Zeilen aus und ziehen Sie dann das **handle**-Symbol ![handle-Symbol](assets/handle-icon.png) auf die linke Seite des Datensatzes, um die Zeilen neu anzuordnen.
 
-    A default thumbnail image <span class="preview">and color</span> are also added to the new record.
+   >[!NOTE]
+   >
+   >Sie können Zeilen nicht neu anordnen, wenn Sie mindestens eine Sortierung oder Gruppierung auf die Tabellenansicht anwenden.
+   >
+   >Die Änderungen an der Zeilenreihenfolge sind für alle Benutzer sichtbar, die in derselben Ansicht auf den Datensatztyp zugreifen.
+   >
+   ><span class="preview">In der Drag-and-Drop-Zeile zeigt ein Zahlenindikator die Anzahl der ausgewählten Datensätze an, wenn mehrere Datensätze vorhanden sind. </span>
 
-    >[!TIP]
-    >
-    ><span class="preview">When a record has unread comments, a **New comment** indicator displays in the upper-right corner of the record's primary field.</span>
-    >
-    >![New comment icon in table view](assets/new-comment-icon-in-table-view-highlighted.png)
-    
-1. (Optional) Select one or multiple records or rows, then drag and drop the **handle** icon ![Handle icon](assets/handle-icon.png) to the left of the record to reorder the rows. 
+1. (Optional) Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Datensatz und dann auf **Miniaturansicht bearbeiten**, um die Miniaturansicht zu bearbeiten.
+1. Klicken Sie **der Produktionsumgebung oben** der Tabelle auf „Felder“
 
-    >[!NOTE]
-    >
-    >You cannot reorder rows if you apply at least one sort or grouping to the table view. 
-    >
-    >The changes you make to the row order are visible to all users who access the record type in the same view. 
-    >
-    ><span class="preview">In the drag and drop line, a number indicator displays the number of records selected, if more than one. </span>
+   ODER
 
-1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record, then click **Edit thumbnail** to edit the thumbnail. 
-1. Click **Fields** at the top of the table in the Production environment
+   <span class="preview">Bewegen Sie den Mauszeiger über die Kopfzeile des Primärfelds</span> und wählen Sie dann den Umschalter für das Feld **Miniatur**, um es links neben dem Primärfeld anzuzeigen. Diese Option ist standardmäßig deaktiviert.
 
-    Or 
-    
-    <span class="preview">Hover over the primary field header</span>, then select the toggle for the **Thumbnail** field to display it to the left of the primary field. It is deselected by default. 
+   Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-    For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+1. <span class="preview">Klicken Sie **Felder** oben in der Tabelle</span>
 
-1. <span class="preview">Click **Fields** at the top of the table</span>
-   
-   Or 
-   <span class="preview">Hover over the primary field header, then select the toggle for the **Color** field to display it to the left of the primary field. It is deselected by default. </span>
+   ODER
+   <span class="preview">Bewegen Sie den Mauszeiger über die Kopfzeile des Primärfelds und wählen Sie dann den Umschalter für das Feld **Farbe** aus, um es links neben dem Primärfeld anzuzeigen. Diese Option ist standardmäßig deaktiviert. </span>
 
-1. <span class="preview"> (Optional and conditional) If you turned on the **Color** setting, click the color bar to the left of the record's primary field and select a color from the **Swatches** or **Custom** tabs, then click outside the box to close it. The color is applied immediately.</span>
+1. <span class="preview"> (Optional und bedingt) Wenn Sie die Einstellung **Farbe** aktiviert haben, klicken Sie auf die Farbleiste links neben dem Primärfeld des Datensatzes und wählen Sie eine Farbe aus den Registerkarten **Farbfelder** oder **Benutzerdefiniert** aus und klicken Sie dann auf eine Stelle außerhalb des Felds, um es zu schließen. Die Farbe wird sofort angewendet.</span>
 
 <div class="preview">
 
-![Record color coding color picker box](assets/color-picker-for-record-color-coding.png)
+![Farbauswahlfeld „Farbcodierung aufzeichnen“](assets/color-picker-for-record-color-coding.png)
 
-For more information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+Weitere Informationen finden Sie unter [Erstellen von Einträgen](/help/quicksilver/planning/records/create-records.md).
 
 </div>
 
 
-### Add filters {#add-filters-1}
+### Filter hinzufügen {#add-filters-1}
 
-Filters help you reduce the amount of information displayed on the screen.
+Mit Filtern können Sie die Menge der auf dem Bildschirm angezeigten Informationen reduzieren.
 
-Consider the following when working with filters in the table view: 
+Beachten Sie beim Arbeiten mit Filtern in der Tabellenansicht Folgendes:
 
--->
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
@@ -605,7 +606,7 @@ Beachten Sie beim Sortieren von Datensätzen in der Tabellenansicht die folgende
 Gehen Sie wie folgt vor, um Datensätze zu sortieren:
 
 1. Erstellen Sie eine Tabellenansicht, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie auf **Symbol** Sortieren![&#x200B; (](assets/sort-icon.png)) oben in der Tabelle
+1. Klicken Sie auf **Symbol** Sortieren![ (](assets/sort-icon.png)) oben in der Tabelle
 
    ODER
 
@@ -667,7 +668,7 @@ Beachten Sie Folgendes:
 
 * Sie können Gruppierungen sowohl in der Tabellen- als auch in der Zeitleisten-Ansicht anwenden. Die Gruppierungen der Tabellenansicht sind unabhängig von denen in der Zeitleisten -Ansicht desselben Datensatztyps.
 * Sie können in einer Ansicht drei Gruppierungsebenen anwenden. Die Datensätze werden in der Reihenfolge der ausgewählten Gruppierungen gruppiert.
-&lt;!—!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * Bei Verwendung der API können Sie bis zu 4 Gruppierungsebenen anwenden. —Diese wird vorerst überprüft &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;!—!—*************** * Bei Verwendung der API können Sie bis zu 4 Gruppierungsebenen anwenden. —Diese wird vorerst überprüft ******************—>
 * Die Gruppierungen sind für die ausgewählte Ansicht eindeutig. Auf zwei Tabellenansichten desselben Datensatztyps können unterschiedliche Gruppierungen angewendet werden. Zwei Benutzende, die dieselbe Tabellenansicht betrachten, sehen dieselbe Gruppierung, die derzeit angewendet wird.
 * Die von Ihnen erstellten Gruppierungen können nicht für eine Tabellenansicht benannt werden.
 * Das Entfernen von Gruppierungen entfernt sie von allen Benutzern, die auf denselben Datensatztyp zugreifen wie Sie und die dieselbe Ansicht anzeigen wie Sie.
@@ -1266,9 +1267,5 @@ When you display the table view, you can also view which field another user is e
 >Real-time presence indicators display users that are currently editing a field anywhere in Workfront Planning. This includes either the table view or the Details area of the record.
 
 -->
-
-
-
-
 
 
