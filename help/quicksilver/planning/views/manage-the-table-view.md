@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 97207d72bce4b03f6080996b9c5e4edde47633ab
+source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
 workflow-type: tm+mt
-source-wordcount: '4037'
-ht-degree: 2%
+source-wordcount: '4045'
+ht-degree: 3%
 ---
 # Verwalten der Tabellenansicht
 
@@ -303,7 +303,7 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
 
 1. Gehen Sie folgendermaßen vor, um schnell Datensätze zu finden, die einem Keyword entsprechen:
 
-   1. Beginnen Sie im **&#x200B;**&#x200B;Suchfeld![Suchsymbol](assets/search-icon.png) mit der Eingabe eines Keywords, das mit einem beliebigen Feld eines Datensatzes verknüpft ist, der auf dem Bildschirm angezeigt wird. Die Anzahl der richtigen Übereinstimmungen wird neben dem Suchelement angezeigt, und das Feld mit der richtigen Übereinstimmung ist hervorgehoben.
+   1. Beginnen Sie im **** Suchfeld![Suchsymbol](assets/search-icon.png) mit der Eingabe eines Keywords, das mit einem beliebigen Feld eines Datensatzes verknüpft ist, der auf dem Bildschirm angezeigt wird. Die Anzahl der richtigen Übereinstimmungen wird neben dem Suchelement angezeigt, und das Feld mit der richtigen Übereinstimmung ist hervorgehoben.
 
       ![Suchfeld mit Ergebnissen mit blauer Kontur in der Tabellenansicht](assets/search-box-with-results-blue-outline-g-table.png)
 
@@ -517,10 +517,10 @@ So fügen Sie einen Filter zu einer Tabellenansicht hinzu:
         </tr>
         <tr>
             <td>Mehrfachauswahl, Personen</td>
-            <td><p>Hat eines von</p> <!--or <span class="preview"><p>Is any of</p></span>-->
+            <td><p>Hat eines von</p> oder <span class="preview"><p>Ist ein beliebiges von</p></span>
             <p>Hat alle von</p>
             <p>Ist genau</p>
-            <p>Hat keines von</p> <!--or <span class="preview"><p>Is none of</p></span>-->
+            <p>Hat keines von</p> oder <span class="preview"><p>Ist keines von</p></span>
             <p>Ist leer</p>
             <p>Ist nicht leer</p></td>
         </tr>
@@ -604,7 +604,7 @@ Beachten Sie beim Sortieren von Datensätzen in der Tabellenansicht die folgende
 Gehen Sie wie folgt vor, um Datensätze zu sortieren:
 
 1. Erstellen Sie eine Tabellenansicht, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie auf **Symbol** Sortieren![&#x200B; (](assets/sort-icon.png)) oben in der Tabelle
+1. Klicken Sie auf **Symbol** Sortieren![ (](assets/sort-icon.png)) oben in der Tabelle
 
    ODER
 
@@ -666,7 +666,7 @@ Beachten Sie Folgendes:
 
 * Sie können Gruppierungen sowohl in der Tabellen- als auch in der Zeitleisten-Ansicht anwenden. Die Gruppierungen der Tabellenansicht sind unabhängig von denen in der Zeitleisten -Ansicht desselben Datensatztyps.
 * Sie können in einer Ansicht drei Gruppierungsebenen anwenden. Die Datensätze werden in der Reihenfolge der ausgewählten Gruppierungen gruppiert.
-&lt;!—!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * Bei Verwendung der API können Sie bis zu 4 Gruppierungsebenen anwenden. —Diese wird vorerst überprüft &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;!—!—*************** * Bei Verwendung der API können Sie bis zu 4 Gruppierungsebenen anwenden. —Diese wird vorerst überprüft ******************—>
 * Die Gruppierungen sind für die ausgewählte Ansicht eindeutig. Auf zwei Tabellenansichten desselben Datensatztyps können unterschiedliche Gruppierungen angewendet werden. Zwei Benutzende, die dieselbe Tabellenansicht betrachten, sehen dieselbe Gruppierung, die derzeit angewendet wird.
 * Die von Ihnen erstellten Gruppierungen können nicht für eine Tabellenansicht benannt werden.
 * Das Entfernen von Gruppierungen entfernt sie von allen Benutzern, die auf denselben Datensatztyp zugreifen wie Sie und die dieselbe Ansicht anzeigen wie Sie.

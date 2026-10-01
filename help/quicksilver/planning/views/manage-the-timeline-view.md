@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 04db74ea6f6c6743df6a82a97eb5e8ca88fcb92e
+source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
 workflow-type: tm+mt
-source-wordcount: '5015'
+source-wordcount: '5023'
 ht-degree: 2%
 ---
 # Verwalten der Timeline-Ansicht
@@ -374,10 +374,10 @@ So fügen Sie einen Filter zu einer Zeitleisten -Ansicht hinzu:
         </tr>
         <tr>
             <td>Mehrfachauswahl, Personen</td>
-            <td><p>Hat eines von</p> <!--or <span class="preview"><p>Is any of</p></span>-->
+            <td><p>Hat eines von</p> oder <span class="preview"><p>Ist ein beliebiges von</p></span>
             <p>Hat alle von</p>
             <p>Ist genau</p>
-            <p>Hat keines von</p> <!--or <span class="preview"><p>Is none of</p></span>-->
+            <p>Hat keines von</p> oder <span class="preview"><p>Ist keines von</p></span>
             <p>Ist leer</p>
             <p>Ist nicht leer</p></td>
         </tr>
@@ -525,7 +525,7 @@ So fügen Sie eine Gruppierung in der Zeitleisten -Ansicht hinzu:
    >[!TIP]
    >
    >Wenn Sie Datensätze von einer Gruppierung in eine andere ziehen, aktualisieren die in der Gruppierung ausgewählten Felder automatisch die Werte der verschobenen Datensätze.
-1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [&#x200B; Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
+1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [ Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
 
 <div class="preview">
 
@@ -718,7 +718,7 @@ Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quic
 #### Aufschlüsseln verbundener Datensätze
 
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie in den **&#x200B;**- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
+1. Klicken Sie in den ****- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
 1. Erweitern Sie das **Verknüpften Datensatztyp auswählen** und wählen Sie einen verbundenen Datensatztyp aus. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![Aufschlüsselungsauswahl und Schaltfläche in der Zeitleisten-Ansicht](assets/breakdown-picker-and-button-on-timeline.png)

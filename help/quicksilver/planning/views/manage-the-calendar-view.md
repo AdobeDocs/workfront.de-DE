@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
+source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
 workflow-type: tm+mt
-source-wordcount: '2002'
-ht-degree: 5%
+source-wordcount: '2010'
+ht-degree: 6%
 ---
 # Verwalten der Kalenderansicht
 
@@ -287,10 +287,10 @@ So fügen Sie einen Filter zu einer Kalenderansicht hinzu:
         </tr>
         <tr>
             <td>Mehrfachauswahl, Personen</td>
-            <td><p>Hat eines von</p> <!--or <span class="preview"><p>Is any of</p></span>-->
+            <td><p>Hat eines von</p> oder <span class="preview"><p>Ist ein beliebiges von</p></span>
             <p>Hat alle von</p>
             <p>Ist genau</p>
-            <p>Hat keines von</p> <!--or <span class="preview"><p>Is any of</p></span>-->
+            <p>Hat keines von</p> oder <span class="preview"><p>Ist ein beliebiges von</p></span>
             <p>Ist leer</p>
             <p>Ist nicht leer</p></td>
         </tr>
