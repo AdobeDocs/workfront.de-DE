@@ -34,12 +34,14 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 7a38b5250065c1f1570342ad2f6eef857ca8db6a
 workflow-type: tm+mt
-source-wordcount: '8056'
-ht-degree: 76%
+source-wordcount: '8284'
+ht-degree: 75%
 ---
 # Erstellen eines benutzerdefinierten Formulars
+
+{{highlighted-preview}}
 
 <!-- Audited: 6/2025 -->
 
@@ -483,7 +485,8 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
     <li>Einfachauswahl-Dropdown</li>
     <li>Mehrfachauswahl-Dropdown</li>
     </ul></td>
-    </tr> 
+    </tr>
+    <tr>
     <td role="rowheader">Auswahl </td> 
     <td> 
     <p>Wählen Sie eine der folgenden Optionen aus:</p> 
@@ -507,6 +510,36 @@ So fügen Sie Optionsfelder, Kontrollkästchengruppen und Dropdown-Listen hinzu:
     </ul>
     </td>
      </tr>
+    <tr>
+    <td role="rowheader"><span class="preview">Auswahl</span></td> 
+    <td>
+    <div class="preview">
+    <p>Klicken Sie <strong>Auswahl bearbeiten</strong>, um Auswahlmöglichkeiten für das Feld hinzuzufügen oder zu bearbeiten.</p>
+    <p>So fügen Sie eine neue Auswahl im Dialogfeld Optionen bearbeiten hinzu:</p>
+    <ol>
+    <li><p>Klicken <strong> unten </strong> der Tabelle auf „Neue Zeile“.</p> <p><b>Hinweis:</b> Es gibt keine Begrenzung für die Anzahl der Auswahlmöglichkeiten, die Sie hinzufügen können.</p></li>
+    <li>Geben Sie den <strong>Auswahlname</strong> und "<strong> Wert </strong>. Diese sind normalerweise identisch, genau wie der Name und die Bezeichnung der Feld-API.</li>
+    <li>(Optional) Wählen Sie <strong>Standardmäßig auswählen</strong> aus, damit die Auswahl standardmäßig im Feld ausgewählt wird.</li> 
+    </ol>
+    <p>Für zusätzliche Aktionen:</p>
+    <ul>
+    <li>Um eine vorhandene Auswahl zu bearbeiten, doppelklicken Sie auf den Bereich, den Sie ändern möchten.</li>
+    <li> Um eine Auswahl im Feld auszublenden, wählen Sie sie aus und klicken Sie <strong>Auswahl ausblenden</strong> in der Aktionsleiste am unteren Bildschirmrand. Ausgeblendete Auswahlmöglichkeiten bleiben in Berichten verfügbar.</li> 
+    <li> <p>Um eine Auswahl aus dem Feld zu löschen, wählen Sie sie aus und klicken Sie <strong>Auswahl entfernen</strong> in der Aktionsleiste am unteren Bildschirmrand.</p> <p><b>Warnung</b>: Wenn Sie aktuelle Objekte haben, die diese Auswahlmöglichkeit verwenden, entfernen Sie sie nicht aus dem Feld. Durch Entfernen gehen historische Daten verloren. Wählen Sie stattdessen die Option aus, um sie auszublenden, sodass die Benutzenden sie in Zukunft nicht mehr auswählen können.</p> </li> 
+    <li>Verwenden Sie das Symbol <strong>Ziehen</strong>, um die Auswahlmöglichkeiten <img src="assets/drag-icon.png"> manuell zu sortieren.</li>
+    <li>Klicken Sie <strong>Auswahl A-Z sortieren</strong>, um die Auswahl alphabetisch im Feld zu sortieren.</li>
+    </ul>
+    <p>Klicken Sie <strong>Speichern</strong> wenn Sie die Bearbeitung der Auswahlmöglichkeiten abgeschlossen haben.</p>
+    </div>
+    </td> 
+    <td><ul>
+    <li><span class="preview">Optionsfelder</span></li>
+    <li><span class="preview">Kontrollkästchengruppe</span></li>
+    <li><span class="preview">Einfachauswahl-Dropdown</span></li>
+    <li><span class="preview">Mehrfachauswahl-Dropdown</span></li>
+    </ul>
+    </td>
+    </tr> 
     <tr>
      <td>Aktiv</td>
      <td><p>Diese Option ist standardmäßig aktiviert.<p><p>Wenn Sie ein Feld als inaktiv festlegen, wird es aus Berichten, Filtern und Ansichten ausgeschlossen und ist nicht mehr in der Feldbibliothek für benutzerdefinierte Formulare verfügbar.</p></td>
@@ -691,7 +724,7 @@ Ein Datumsfeld zeigt einen Kalender an, in dem Benutzer ein Datum und eine Uhrze
 
 Hinzufügen von Datumsfeldern:
 
-1. Suchen Sie auf der **&#x200B;**&#x200B;Neues Feld auf der linken Bildschirmseite nach **Datum** und ziehen Sie es in einen Bereich auf der Arbeitsfläche.
+1. Suchen Sie auf der **** Neues Feld auf der linken Bildschirmseite nach **Datum** und ziehen Sie es in einen Bereich auf der Arbeitsfläche.
 
    ![Feld in Abschnitt ziehen](assets/drag-field-to-section.png)
 
@@ -815,12 +848,12 @@ So fügen Sie eine externe Suche hinzu:
       <td role="rowheader">JSON-Pfad</td>
       <td><p>Geben Sie den JSON-Pfad für die API ein oder fügen Sie ihn ein.</p> <p>Diese Option ermöglicht das Extrahieren von Daten aus der von der API-URL zurückgegebenen JSON. Damit können Sie auswählen, welche Werte aus dem JSON-Code in den Dropdown-Optionen angezeigt werden sollen.</p><p>Wenn Ihre API-URL beispielsweise JSON im folgenden Format zurückgibt, können Sie "$.data[*].name“ verwenden, um USA und Kanada als Dropdown-Optionen auszuwählen:</br>
       <pre>
-      &lbrace;
-       Daten: &lbrace;
+      {
+       Daten: {
          { name: „USA“},
          { name: „Canada“}
-       &rbrace;
-      &rbrace;
+       }
+      }
       </pre>
       </p>
      <p>Weitere Informationen zum JSON-Pfad und um sicherzustellen, dass Sie den richtigen Pfad angeben, finden Sie unter <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
