@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 88ab250a262e9ca4a311fb1c88988a3747e6baeb
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 16%
+source-wordcount: '498'
+ht-degree: 15%
 ---
 # Verwalten Ihrer Genehmigungen mit dem Widget „Meine Genehmigungen“
 
@@ -82,7 +82,14 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **[!UICONTROL Startseite]**.
 1. (Bedingt) Klicken Sie auf **Anpassen**, um das Widget **Meine Genehmigungen** hinzuzufügen.
-1. (Bedingt) Klicken Sie auf das **Filter** Dropdown-Menü und wählen Sie **Alle**, um die Ihnen zugewiesenen und delegierten Genehmigungen anzuzeigen.
+1. (Optional) Passen Sie die Filteroptionen im Widget Meine Genehmigungen an, um festzulegen, welche Genehmigungen angezeigt werden sollen. Die folgenden Filteroptionen sind verfügbar:
+
+   | Filteroption | Beschreibung |
+   |--------|-------------|
+   | Alle | Zeigt alle Genehmigungen an, die Ihnen zugewiesen wurden, die von anderen Benutzern an Sie delegiert und von Ihnen eingereicht wurden. |
+   | Meine Genehmigungen | Zeigt die Ihnen zugewiesenen Genehmigungen an. Dies ist die Standardoption. |
+   | Delegierte Genehmigungen | Zeigt Genehmigungen an, die von anderen Benutzern an Sie delegiert wurden. |
+   | Von mir gesendete Genehmigungen | Zeigt Genehmigungen an, die Sie an andere Benutzer weitergeleitet haben. |
 
    >[!NOTE]
    >
