@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 3ec19d8268ff33a8cf773d0460d2af07f497687e
+source-git-commit: deeb63ceccc28b8f376713d4a6fb6c103ab4e06b
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1617'
 ht-degree: 2%
 ---
 # Verbesserungen bei Dokumenten für das vierte Quartal 2026
@@ -23,6 +23,30 @@ ht-degree: 2%
 Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom vierten Quartal 2026 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2026 des Versionszyklus verfügbar sind, finden Sie unter [Versionsübersicht für das vierte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+## Zugreifen auf Workfront-Projekte über Creative Cloud Apps
+
+>[!NOTE]
+>  
+>Vorschau: Nicht zutreffend\
+>Produktions-Schnellveröffentlichung: 1. Oktober 2026\
+>Produktion für alle: 1. Oktober 2026
+
+Sie können jetzt direkt über Adobe Photoshop, Illustrator und InDesign auf Ihre Workfront-Projekte zugreifen. Workfront-Projekte, die den Adobe-Cloud-Speicher verwenden, werden im Bedienfeld Projekte auf der linken Seite des Programmfensters neben Ihren anderen Creative Cloud-Projekten angezeigt.
+
+Sie können ein Dokument in einem Projektordner öffnen, bearbeiten und speichern. Ihre Änderungen werden wieder in Workfront gespeichert. Sie können neue Dateien auch direkt in einem Workfront-Projekt speichern.
+
+Wenn Sie ein Dokument mit einem Genehmigungs-Workflow speichern, erstellt Workfront eine neue Version und behält den Genehmigungsverlauf bei. Wenn Sie ein Dokument speichern, das keinen Genehmigungs-Workflow hat, aktualisiert Workfront die neueste Version.
+
+So verwenden Sie diese Integration:
+
+* Ihr Unternehmen muss über eine Version von Workfront verfügen, die die Adobe-Cloud-Datenspeicherung unterstützt.
+* Workfront und Photoshop, Illustrator oder InDesign müssen Berechtigungen in derselben Adobe Identity Management System (IMS)-Organisation haben.
+
+Weitere Informationen finden Sie unter:
+
+* [Übersicht über Adobe Creative Cloud-Projekte](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md)
+* [Verwenden von Workfront-Dokumenten in Creative Cloud-Apps](/help/quicksilver/documents/adobe-creative-cloud-projects/use-wf-documents-in-cc-apps.md)
 
 ## Mehrere Dokumente in einem einzigen Genehmigungs-Workflow gruppieren
 
@@ -38,27 +62,9 @@ Gruppierte Validierungen unterstützen den einfachen und erweiterten Modus, mehr
 
 Gruppierte Validierungen sind nur im Bereich Neue Dokumente verfügbar, der angezeigt wird, wenn Ihr Unternehmen eine Version von Workfront verwendet, die Adobe Cloud Storage unterstützt.
 
-<!--
-For more information, see [Create a grouped approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-grouped-approval.md).
--->
+Weitere Informationen finden Sie unter [Erstellen einer gruppierten Genehmigung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-grouped-approval.md).
 
 <!--
-## Access Workfront projects in Adobe Creative Cloud apps
-
->[!NOTE]
->
->Preview: N/A
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
-
-You can now access your Workfront projects directly from Adobe Photoshop, Illustrator, and InDesign, using the Projects panel. Projects that use Adobe cloud storage appear in the panel, allowing you to open, edit, and save documents in a Workfront project without leaving the app.
-
-The Documents folder structure in a Workfront project is mirrored in the Projects panel. When you open a document from a project folder, edit it, and save, your changes appear in Workfront. You can also request a document approval on any document connected with Photoshop, Illustrator, or InDesign from Workfront.
-
-For more information, see:
-
-* [Adobe Creative Cloud Projects overview](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md)
-* [Use Workfront documents in Creative Cloud apps](/help/quicksilver/documents/adobe-creative-cloud-projects/use-wf-documents-in-cc-apps.md)
 
 ## Add a web link as a document
 
@@ -104,7 +110,7 @@ Weitere Informationen finden Sie unter:
 
 Systemadministratoren können jetzt jede Genehmigungsvorlage im Konto anzeigen, bearbeiten, löschen und stapelweise löschen, unabhängig davon, wer sie erstellt oder freigegeben hat. Zuvor unterlagen Systemadministratoren denselben Freigaberegeln wie andere Benutzer, und sie konnten nur von ihnen erstellte oder für sie freigegebene Vorlagen anzeigen oder verwalten.
 
-Weitere Informationen finden Sie unter [Verwalten von &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
+Weitere Informationen finden Sie unter [Verwalten von ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
 
 ## Sichtbarkeit von Frame.io-Kommentaren in Workfront
 

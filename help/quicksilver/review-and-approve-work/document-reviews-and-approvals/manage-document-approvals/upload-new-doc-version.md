@@ -30,9 +30,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '853'
 ht-degree: 7%
 ---
 # Hochladen einer neuen Dokumentversion und Anfordern einer Genehmigung
@@ -216,6 +216,10 @@ So fügen Sie eine neue Version hinzu und fordern die Genehmigung an:
 1. Klicken Sie **Genehmigung anfordern**.
 
    Der Genehmigungs-Workflow wird gestartet und die genehmigenden Personen erhalten eine Benachrichtigung, dass ihre Genehmigung für die neue Dokumentversion erforderlich ist. Die vorherige Dokumentversion ist gesperrt und alle ausstehenden Genehmigungen für die vorherige Version werden zurückgezogen.
+
+>[!NOTE]
+>
+>Wenn es sich bei dem Dokument um eine Creative Cloud-Datei handelt (z. B. um ein Photoshop-, Illustrator- oder InDesign-Cloud-Dokument), wird beim Erstellen einer Genehmigung dafür über die Creative Cloud-App automatisch eine neue Version in Workfront erstellt, genauso wie beim Ziehen und Ablegen einer neuen Version hier. Weitere Informationen finden Sie unter [Verwenden von Workfront-Dokumenten in Creative Cloud-Programmen](/help/quicksilver/documents/adobe-creative-cloud-projects/use-wf-documents-in-cc-apps.md).
 
 <!--
    <span class="preview">The previous version keeps its version number and its approval history, but its status changes to "Withdrawn". For more information about version numbers and status, see [Manage document versions](/help/quicksilver/documents/managing-documents/manage-document-versions.md#view-and-manage-document-versions-in-the-new-documents-area-in-preview).</span>

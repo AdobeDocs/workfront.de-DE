@@ -29,16 +29,16 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '1061'
+source-wordcount: '1066'
 ht-degree: 0%
 ---
 # Übersicht über den Adobe Cloud-Speicher
 
 Adobe Cloud-Speicher ist eine Cloud-basierte Speicherlösung, die als zentrales Repository für Assets in allen Adobe-Unternehmensprodukten dient. Die Integration von Workfront und Frame.io basiert auf dem Adobe Cloud-Speicher und ermöglicht eine nahtlose Zusammenarbeit und Asset-Management zwischen diesen Plattformen.
 
-Diese Speicheroption ebnet auch den Weg für zukünftige Asset-Management-Integrationen mit anderen Adobe-Produkten wie Adobe Creative Cloud.
+Diese Speicheroption ermöglicht auch Asset-Management-Integrationen mit anderen Adobe-Produkten, einschließlich Adobe Creative Cloud-Apps. Weitere Informationen finden Sie unter [Übersicht über Adobe Creative Cloud-Projekte](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md).
 
 ## Wichtigste Funktionen
 

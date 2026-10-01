@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: dc90b81e2781351d61f014ef7952ba71bdf55c92
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '14604'
+source-wordcount: '14626'
 ht-degree: 91%
 ---
 # Handbuch für Workfront {#using}
@@ -1225,6 +1225,10 @@ ht-degree: 91%
     * [Verwenden von Adobe Cloud Drive](documents/adobe-cloud-drive/use-adobe-cloud-drive.md)
     * [Einrichten und Verwalten von Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/set-up-and-manage-adobe-cloud-drive.md)
     * [Fehlerbehebung in Adobe Cloud Drive](documents/adobe-cloud-drive/troubleshoot-adobe-cloud-drive.md)
+  * Adobe Creative Cloud-Projekte {#adobe-creative-cloud-projects}
+    * [Adobe Creative Cloud-Projekte: Artikelindex](documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects.md)
+    * [Übersicht über Adobe Creative Cloud-Projekte](documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md)
+    * [Verwenden von Workfront-Dokumenten in Creative Cloud-Apps](documents/adobe-creative-cloud-projects/use-wf-documents-in-cc-apps.md)
   * Workfront- und Experience Manager Assets-Integrationen {#wf-aem-integrations}
     * [Workfront- und Experience Manager Assets-Integrationen](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
     * Erweiterter Connector von Workfront für Experience Manager {#wf-aem-enhanced-connector}
