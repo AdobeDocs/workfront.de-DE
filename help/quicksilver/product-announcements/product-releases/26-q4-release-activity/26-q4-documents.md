@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3ec19d8268ff33a8cf773d0460d2af07f497687e
 workflow-type: tm+mt
-source-wordcount: '1333'
+source-wordcount: '1427'
 ht-degree: 2%
 ---
 # Verbesserungen bei Dokumenten für das vierte Quartal 2026
@@ -24,15 +24,32 @@ Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom 
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2026 des Versionszyklus verfügbar sind, finden Sie unter [Versionsübersicht für das vierte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
-<!--
+## Mehrere Dokumente in einem einzigen Genehmigungs-Workflow gruppieren
 
+>[!NOTE]
+>
+>Vorschau: Diese Funktion ist in der Sandbox-Vorschau-Umgebung nicht verfügbar, da die Integration von Frame.io dort nicht verfügbar ist.
+>Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktion für alle: 15. Oktober 2026
+
+Sie können jetzt mehrere Dokumente unter einem einzigen Genehmigungs-Workflow gruppieren, sodass sie dieselben Phasen gemeinsam durchlaufen.
+
+Gruppierte Validierungen unterstützen den einfachen und erweiterten Modus, mehrere Phasen und parallele Pfade.
+
+Gruppierte Validierungen sind nur im Bereich Neue Dokumente verfügbar, der angezeigt wird, wenn Ihr Unternehmen eine Version von Workfront verwendet, die Adobe Cloud Storage unterstützt.
+
+<!--
+For more information, see [Create a grouped approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-grouped-approval.md).
+-->
+
+<!--
 ## Access Workfront projects in Adobe Creative Cloud apps
 
 >[!NOTE]
 >
 >Preview: N/A
->Production fast release: [DATE]
->Production for everyone: [DATE]
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
 
 You can now access your Workfront projects directly from Adobe Photoshop, Illustrator, and InDesign, using the Projects panel. Projects that use Adobe cloud storage appear in the panel, allowing you to open, edit, and save documents in a Workfront project without leaving the app.
 
@@ -42,6 +59,18 @@ For more information, see:
 
 * [Adobe Creative Cloud Projects overview](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md)
 * [Use Workfront documents in Creative Cloud apps](/help/quicksilver/documents/adobe-creative-cloud-projects/use-wf-documents-in-cc-apps.md)
+
+## Add a web link as a document
+
+>[!NOTE]
+>
+> Preview: This feature isn't available in preview because Frame.io doesn't currently offer a preview environment.
+> Production fast release: October 14, 2026
+> Production for everyone: October 15, 2026
+
+You can now add a website to Adobe Workfront as a web link in the new Documents area. After you add it, you can request approval on the live web page the same way you request approval on an uploaded file.
+
+For more information, see [Add a web link as a document](/help/quicksilver/documents/adding-documents-to-workfront/add-live-url.md) and [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 -->
 
@@ -75,7 +104,7 @@ Weitere Informationen finden Sie unter:
 
 Systemadministratoren können jetzt jede Genehmigungsvorlage im Konto anzeigen, bearbeiten, löschen und stapelweise löschen, unabhängig davon, wer sie erstellt oder freigegeben hat. Zuvor unterlagen Systemadministratoren denselben Freigaberegeln wie andere Benutzer, und sie konnten nur von ihnen erstellte oder für sie freigegebene Vorlagen anzeigen oder verwalten.
 
-Weitere Informationen finden Sie unter [Verwalten von &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
+Weitere Informationen finden Sie unter [Verwalten von ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-approval-templates.md).
 
 ## Sichtbarkeit von Frame.io-Kommentaren in Workfront
 

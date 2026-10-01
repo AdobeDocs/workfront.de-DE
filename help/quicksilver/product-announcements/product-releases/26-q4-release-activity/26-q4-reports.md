@@ -13,10 +13,10 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 3599b27bb1b838ebe7d0a2648e6c67333da83dc8
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 8%
+source-wordcount: '1434'
+ht-degree: 5%
 ---
 # Verbesserungen bei Berichten für das vierte Quartal 2026
 
@@ -24,23 +24,99 @@ Auf dieser Seite werden die Verbesserungen beim Reporting in der Vorschau-Umgebu
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2026 des Versionszyklus verfügbar sind, finden Sie unter [Versionsübersicht für das vierte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
-<!--
-
-## Filter on collection relationships in Canvas Dashboards
+## Canvas-Dashboards sind jetzt auf der Google Cloud Platform und Microsoft Azure verfügbar
 
 >[!NOTE]
 >
->Preview: September 24, 2026
->Production fast release: October 14, 2026
->Production for everyone: October 15, 2026
+>Vorschau: Nicht zutreffend
+>Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktion für alle: 15. Oktober 2026
 
-When you build a filter in a Canvas Dashboard, you can now filter on collection relationships, which are fields that link to a group of related records rather than to a single record. For example, you can filter on the status of tasks belonging to a project to show a list of projects that have tasks in the "New" status.
+Workfront-Instanzen auf Google Cloud Platform (GCP) und Azure können sich jetzt für die offene Beta-Version der Canvas-Dashboards anmelden. Weitere Informationen finden Sie unter [Verwenden von Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md).
 
-Previously, filtering on collection relationships required text mode.
+## Registrieren eines privaten Snowflake-Eintrags für Workfront Data Connect
 
-For more information, see [Report filter reference for Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md).
+>[!NOTE]
+>
+>Vorschau: Nicht zutreffend
+>Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktion für alle: 15. Oktober 2026
 
--->
+Sie können Ihre Workfront Data Connect-Daten jetzt direkt für das Snowflake-Konto Ihres Unternehmens freigeben, indem Sie einen privaten Eintrag registrieren. Diese Verbindungsmethode verwendet die Funktion der privaten Auflistung von Snowflake, um Daten sicher zwischen Organisationen auszutauschen, ohne sie öffentlich zugänglich zu machen, und funktioniert über Regionen und Hosting-Plattformen hinweg.
+
+Ein privater Eintrag ist nützlich, wenn Sie Ihre Workfront-Daten mit anderen Daten in Ihrem Unternehmens-Data Warehouse verbinden möchten. Da die Daten in Ihrem eigenen Snowflake-Konto landen, können Sie sie zusammen mit den anderen Daten abfragen.
+
+Weitere Informationen finden Sie unter [Registrieren eines privaten Listeneintrags für Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/register-a-private-listing.md).
+
+## Reporting-MCP-Tools jetzt für Canvas-Dashboards verfügbar
+
+>[!NOTE]
+>
+>Vorschau: 1. Oktober 2026
+>Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktion für alle: 15. Oktober 2026
+
+Um die Verwendung von Canvas-Dashboards zu vereinfachen, haben wir Tools zum Workfront MCP hinzugefügt. Jetzt können Sie Canvas-Dashboards über Chat erstellen und verwalten, und das Dashboard und die Widgets werden für Sie mithilfe Ihrer Workfront-Daten erstellt. Dies funktioniert von MCP-Clients wie Claude und Cursor.
+
+Sie können zum Beispiel:
+
+* Erstellen Sie Berichte, indem Sie fragen. Beschreiben Sie ein Dashboard oder ein Diagramm in natürlicher Sprache, anstatt es manuell zu erstellen.
+* Im Kontext bearbeiten. Bitten Sie darum, ein Widget umzubenennen, einen Filter zu ändern, einen Diagrammtyp zu vertauschen oder die Größe zu ändern, und die Änderungen gelten für das Live-Dashboard.
+* Wiederverwenden, was Sie haben. Duplizieren Sie ein vorhandenes Dashboard oder Widget als Ausgangspunkt, anstatt es von Grund auf neu zu erstellen.
+
+### Unterstützte Funktionen
+
+**Dashboards**
+
+* Neues Dashboard erstellen
+* Auflisten der Dashboards (Ihres, für Sie freigegeben, alle oder Favoriten) und Suche nach Titel
+* Öffnen oder Anzeigen der Struktur eines Dashboards
+* Titel, Beschreibung, Währung, Filter und Eingabeaufforderungen aktualisieren
+* Duplizieren eines Dashboards (mit oder ohne Widgets, Eingabeaufforderungen und Filter)
+* Löschen eines Dashboards
+
+**Widgets**
+
+* KPI - eine einzelne aggregierte Zahl (Summe, Durchschnitt, Anzahl, Min, Max usw.)
+* Diagramm - Balken, Spalten, Linien und Torten; unterstützt einfache, mehrreihige und gestapelte Diagramme
+* Tabelle - Mehrspaltige Tabellen mit Zeilengruppierung
+* Anzeigen der Konfiguration eines Widgets und Aktualisieren, Kopieren, Ändern der Größe oder Neupositionieren oder Löschen
+
+**Reporting-Optionen**
+
+* Filtern von Daten mit Bedingungen und/oder Gruppen
+* Nach beliebigem Feld gruppieren und aggregieren
+* Drilldown von einem KPI oder Diagramm in die zugrunde liegenden Datensätze
+* Benutzerdefinierte Spaltenbeschriftungen, Zahlen-, Datums- und Währungsformatierung sowie bedingter Zellstil
+* Eingabeaufforderungen und Filter auf Dashboard-Ebene
+
+Weitere Informationen finden Sie unter [Verwenden von Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/use-canvas-dashboards.md).
+
+## Kopieren oder Verschieben von Widgets zwischen Arbeitsflächen-Dashboards
+
+>[!NOTE]
+>
+>Vorschau: 1. Oktober 2026
+>Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktion für alle: 15. Oktober 2026
+
+Sie können jetzt ein Widget in dasselbe Dashboard, in ein anderes Dashboard, auf das Sie Bearbeitungszugriff haben, oder in ein neues Dashboard kopieren. Sie können ein Widget auch in ein anderes Dashboard verschieben, auf das Sie Bearbeitungszugriff haben, oder in ein neues Dashboard.
+
+Wenn Sie ein Widget kopieren, wird jetzt ein Dialogfeld geöffnet, in dem Sie das Ziel-Dashboard auswählen und festlegen können, ob das Widget kopiert oder verschoben werden soll. Zuvor wurde Report Builder sofort geöffnet.
+
+## Filtern von Sammlungsbeziehungen in Canvas-Dashboards
+
+>[!NOTE]
+>
+>Vorschau: 1. Oktober 2026
+>Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktion für alle: 15. Oktober 2026
+
+Wenn Sie in einem Arbeitsflächen-Dashboard einen Filter erstellen, können Sie jetzt nach Sammlungsbeziehungen filtern. Dabei handelt es sich um Felder, die mit einer Gruppe verwandter Datensätze anstatt mit einem einzelnen Datensatz verknüpft sind. Sie können beispielsweise nach dem Status von Aufgaben filtern, die zu einem Projekt gehören, um eine Liste von Projekten anzuzeigen, deren Aufgaben den Status „Neu“ aufweisen.
+
+Zuvor war für das Filtern nach Sammlungsbeziehungen der Textmodus erforderlich.
+
+Weitere Informationen finden Sie unter [Berichtsfilterreferenz für Arbeitsflächen-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md).
 
 ## Kopieren von Dashboards in Arbeitsflächen-Dashboards
 

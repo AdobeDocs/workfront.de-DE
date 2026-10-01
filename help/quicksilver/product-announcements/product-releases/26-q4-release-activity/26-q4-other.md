@@ -13,16 +13,69 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d25795f93d0ba333d79e3850fc25c7f046cc2ab1
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 3%
+source-wordcount: '1108'
+ht-degree: 2%
 ---
 # Weitere Verbesserungen im Zeitrahmen der Version vom vierten Quartal 2026
 
 Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom vierten Quartal 2026 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2026 des Versionszyklus verfügbar sind, finden Sie unter [Versionsübersicht für das vierte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+## Aktualisierungen der erweiterten Listen
+
+>[!NOTE]
+>
+>Vorschau: 1. Oktober 2026
+>Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktion für alle: 15. Oktober 2026
+
+Die folgenden Änderungen wurden an der erweiterten Liste der Filter und Gruppierungen vorgenommen:
+
+* In Filtern und Gruppierungen, die Feldergruppen verwenden, sind die Gruppen jetzt standardmäßig reduziert. Sie müssen nicht mehr so weit scrollen, um die richtige Feldergruppe zu finden.
+* Die Filteroperatoren „Hat keine von“ und „Hat keine von“ wurden in „Ist keine von“ und „Ist keine von“ geändert.
+
+Die folgenden Änderungen wurden an den erweiterten Listenspaltenüberschriften vorgenommen, um die Konsistenz aller erweiterten Listen in Workfront zu gewährleisten:
+
+* Jeder Kopfzeile wurde ein Symbol hinzugefügt, das den Feldtyp angibt, den die Spalte darstellt. Beispiel: Eine Spalte für Verantwortliche oder Benutzer enthält das Symbol einer Person und ein Datumsfeld zeigt einen Kalender an. Diese Symbole werden auch neben den Feldern im Spalten-Manager angezeigt.
+* Spaltenüberschriften bieten jetzt ein reibungsloseres, konsistenteres Erlebnis, wenn die Spaltengröße geändert wird.
+
+Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+
+## Mehrere Bildschirme wurden zu erweiterten Listen aktualisiert
+
+>[!NOTE]
+>
+>Vorschau: 1. Oktober 2026
+>Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktion für alle: 15. Oktober 2026
+
+Die folgenden Workfront-Listen verwenden jetzt das erweiterte Listenformat:
+
+* Setup > E-Mail > Benachrichtigungen > Ereignisbenachrichtigungen und Seite „Gruppendetails“ > Ereignisbenachrichtigungen
+* Setup > Dokumente > Experience Manager Assets
+* Projekt oder Vorlage > Warteschlangenthemen
+* Projekt oder Vorlage > Themengruppen
+* Projekt oder Vorlage > Routing-Regeln
+* Aufgabe oder Vorlagenaufgabe > Vorgänger
+
+Zu den Aktualisierungen gehören für einige oder alle Listen die folgenden:
+
+* Ein neues Erscheinungsbild der Liste mit Aktualisierungen der Farben, Formatierungen und Schriftarten.
+* Die Option zum Erstellen eines neuen Objekts in der Liste wurde nach oben rechts verschoben und wird als blaue Schaltfläche angezeigt.
+* Die Symbolleiste wurde entfernt. Wenn Sie jetzt ein oder mehrere Objekte in der Tabelle auswählen, wird die Aktionsleiste unten in der Liste in Blau angezeigt.
+* Einige Spalten wurden möglicherweise neu positioniert oder entfernt oder es wurden neue Spalten hinzugefügt.
+* Einige Bestätigungen und Warnungen wurden entfernt oder geändert.
+* Das Speichern in einigen Listen erfolgt jetzt automatisch, und die Schaltfläche Speichern wurde möglicherweise entfernt.
+* Einige erweiterte Listen ermöglichen das Umbenennen oder Sortieren von Spalten.
+* Einige erweiterte Listen enthalten den Spalten-Manager, mit dem Sie Spalten hinzufügen und anordnen können. Sie können Spalten in Workfront nach nativen oder benutzerdefinierten Feldern auswählen.
+* Symbole in Tabellenzellen wurden durch Menüs Mehr mit mehreren Optionen ersetzt.
+
+HINWEIS: Nicht alle Updates sind in allen Listen verfügbar.
+
+Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
 ## Erweiterte Listen-Updates
 

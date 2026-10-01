@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 6fb8df06a03ba2189c16585ffb2844f484f4ca1d
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1666'
 ht-degree: 1%
 ---
 # Verbesserungen für Administratoren im vierten Quartal 2026
@@ -23,6 +23,80 @@ ht-degree: 1%
 Auf dieser Seite werden Admin-Verbesserungen beschrieben, die mit der Version vom vierten Quartal 2026 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2026 des Versionszyklus verfügbar sind, finden Sie unter [Versionsübersicht für das vierte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+## Verwenden von KI zur Erstellung benutzerdefinierter Lokalisierungen
+
+>[!NOTE]
+>
+>Vorschau: 1. Oktober 2026
+>Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktion für alle: 15. Oktober 2026
+
+Um Ihnen die Übersetzung von benutzerdefinierten Begriffen und Feldbezeichnungen zu erleichtern, haben wir die Möglichkeit hinzugefügt, KI-Übersetzungen für benutzerdefinierte Lokalisierung zu generieren. Jetzt können Workfront-Admins mithilfe von KI Übersetzungen für unübersetzten benutzerdefinierten Text erstellen oder zusätzliche Sprachübersetzungen für einen zuvor lokalisierten Begriff ausfüllen und die Ergebnisse vor dem Speichern überprüfen und anpassen.
+
+Weitere Informationen finden Sie unter [Konfigurieren der benutzerdefinierten Lokalisierung](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-custom-localization.md).
+
+<!--
+
+## Grant access to MCP Tools
+
+>[!NOTE]
+>
+>Preview: October 1, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+To make it easier to control secure access to Workfront data, we've added the ability for administrators to configure MCP Tools permissions by access level. Now, you can configure actions a given access level can take through the Workfront MCP.
+
+* No access
+* Read
+* Create
+* Update / Delete
+
+You can edit this access when editing a specific access level, or edit access to MCP tools for multiple access levels at once.
+
+For more information, see [Grant access to MCP Tools](help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-mcp-tools.md).
+
+-->
+
+## Verbesserungen an Layout-Vorlagen
+
+>[!NOTE]
+>
+>Vorschau: 1. Oktober 2026
+>Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktion für alle: 15. Oktober 2026
+
+An Layout-Vorlagen wurden mehrere Verbesserungen vorgenommen:
+
+* System- und Gruppenadministratoren können jetzt Systemelemente im Hauptmenü innerhalb der Layout-Vorlage ausblenden oder anzeigen. Zu den Systemelementen gehören die Schaltflächen „Setup“ und „Hilfe“.
+* Sie können jetzt benutzerdefinierte Programme mit den Standardmenüoptionen von Workfront in beliebiger Reihenfolge neu positionieren. Auf diese Weise können Sie jede Anwendung an der relevantesten Stelle platzieren. Zuvor waren benutzerdefinierte Programme immer die letzten Elemente in den Hauptmenüoptionen der Layout-Vorlage und konnten nicht neu positioniert werden.
+* Sie können jetzt die Detailseite eines Objekts im linken Navigationsbereich ausblenden. Für ein Objekt muss mindestens ein Element im linken Bereich angezeigt werden. Wenn alle anderen Elemente ausgeblendet sind, kann das letzte verbleibende Element nicht ausgeblendet werden.
+
+Weitere Informationen finden Sie unter [Anpassen des Hauptmenüs mithilfe einer Layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) und [Anpassen des linken Bedienfelds mithilfe einer Layout-Vorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+
+## Verbessertes Erlebnis beim Aktualisieren von Feldoptionen im benutzerdefinierten Formular-Designer
+
+>[!NOTE]
+>
+>Vorschau: 1. Oktober 2026
+>Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktion für alle: 15. Oktober 2026
+
+Beim Arbeiten mit Dropdown-Feldern, Optionsfeldern und Kontrollkästchen im Formular-Designer können Sie jetzt in einem einzigen Dialogfeld Feldoptionen hinzufügen, bearbeiten und löschen. Zuvor haben Sie Auswahlmöglichkeiten im rechten Bedienfeld des Designers hinzugefügt und bearbeitet, und es war nicht viel Platz vorhanden, wenn Sie eine lange Liste von Auswahlmöglichkeiten erstellt haben.
+
+Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-radio-buttons-checkbox-groups-and-drop-downs).
+
+## Erstellen und Verwalten von Ereignisabonnements in der Benutzeroberfläche von Workfront
+
+Um Ihnen die Erstellung und Verwaltung der Ereignisabonnements Ihres Unternehmens zu erleichtern, haben wir den Bereich Ereignisabonnements zum Setup hinzugefügt. Jetzt können Sie:
+
+* Anzeigen einer Liste vorhandener Ereignisabonnements:
+* Erstellen Sie neue Ereignisabonnements, einschließlich der Filterung nach von Ihnen festgelegten Kriterien:
+* Löschen von Ereignisabonnements.
+
+<!--ADD LINK WHEN READY-->
+
 
 ## Hinzufügen autorisierter Umleitungs-URLs für MCP-Integrationen
 
@@ -85,22 +159,6 @@ Wenn Ihr Unternehmen zusätzlich zu einem Workflow-Paket auch ein Planungspaket 
 Benutzerdefinierte Wochen werden in Workfront nicht angezeigt. Sie sind nur in der Ansicht Workfront-Planungs-Zeitleiste sichtbar.
 
 Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale aktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
-
-## Benutzerdefinierte Anwendungen im Hauptmenü neu anordnen
-
->[!NOTE]
->
->Vorschau: 3. September 2026
->Produktions-Schnellveröffentlichung: 17. September 2026
->Produktion für alle: 15. Oktober 2026
->
->Diese Funktion wurde am 14. September 2026 vorübergehend aus der Vorschau-Umgebung entfernt.
-
-Bei der Arbeit mit einer Layout-Vorlage können Sie jetzt benutzerdefinierte Anwendungen in beliebiger Reihenfolge mit den standardmäßigen Workfront-Menüoptionen neu positionieren. Auf diese Weise können Sie jede Anwendung an der relevantesten Stelle platzieren.
-
-Zuvor waren benutzerdefinierte Programme immer die letzten Elemente in den Hauptmenüoptionen der Layout-Vorlage und konnten nicht neu positioniert werden.
-
-Weitere Informationen zum Hinzufügen benutzerdefinierter Anwendungen zum Hauptmenü finden Sie unter [Anpassen des Hauptmenüs mithilfe einer Layout-Vorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 ## Unterstützung großer Dateien für benutzerdefinierte Dokumentintegrationen
 
@@ -190,7 +248,7 @@ Genehmigungs-, Staging- und Teilnehmeraktionen werden jetzt verfolgt. Diese Maß
 
 Jeder Eintrag enthält die getrackten Standardfelder: Datum und Uhrzeit, Vorgang, Benutzername (oder „systemgeneriert„) und Objektname. MCP-Aktivitäten werden erfasst, einschließlich der LLM (wie Claude), die die Aktualisierung vorgenommen hat. Frame.io-Viewer-Kommentare sind nicht enthalten.
 
-Weitere Informationen finden Sie unter [Anzeigen und Verwalten des &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
+Weitere Informationen finden Sie unter [Anzeigen und Verwalten des ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 ## Definieren eines benutzerdefinierten Programms als Landingpage in der Layout-Vorlage
 
