@@ -13,24 +13,31 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/7odH8kf-VPRXoOVlMEiX3dWFLTsDDuy-f4TJgHAUsk8
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: c10f2e93-7a58-4212-aa24-684c265ebe76
+    internal-label: Requests
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 82b937e507ef266f344b4c9f8d651ce12a39d88c
 workflow-type: tm+mt
-source-wordcount: 466
+source-wordcount: '478'
 ht-degree: 9%
-
 ---
-
 # Erstellen von Themengruppen
+
+{{highlighted-preview}}
 
 <!-- Audited: 2/2024 -->
 
@@ -106,4 +113,5 @@ Erstellen einer Themengruppe:
 1. Klicken Sie auf **Speichern**.\
    Dadurch wird eine neue Themengruppe in Ihrer Anfragewarteschlange erstellt. Sie können jetzt zusätzliche Kategorien aus dem ersten Dropdown-Menü unter einer Anfrage-Warteschlange auswählen.\
    Weitere Informationen zum Senden von Anfragen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anfragen](../../../manage-work/requests/create-requests/create-submit-requests.md).
-1. Um eine vorhandene Themengruppe zu bearbeiten, wählen Sie die Themengruppe aus der Themengruppenliste aus und bearbeiten Sie dann die Details in dem sich öffnenden Fenster. Klicken Sie **Speichern**, um die Änderungen zu speichern.
+
+1. Um eine vorhandene Themengruppe zu bearbeiten, wählen Sie die Themengruppe in der Themengruppe-Liste aus, <span class="preview">klicken Sie **Bearbeiten** in der Aktionsleiste am unteren Bildschirmrand </span> bearbeiten Sie dann die Details in dem sich öffnenden Fenster. Klicken Sie **Speichern**, um die Änderungen zu speichern.
