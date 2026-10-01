@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 97207d72bce4b03f6080996b9c5e4edde47633ab
 workflow-type: tm+mt
-source-wordcount: '4041'
+source-wordcount: '4037'
 ht-degree: 2%
 ---
 # Verwalten der Tabellenansicht
@@ -198,12 +198,10 @@ Folgendes wird standardmäßig in einer Tabellenansicht angezeigt:
 <!--
 <div class="preview">
 
-* 500 records upload automatically. Additional records display as you scroll the view. 
+* 500 records upload by default. Additional records display as you scroll the view. 
 
 </div>
 -->
-
-Standardmäßig werden 500 Datensätze angezeigt
 
 Verwalten einer Tabellenansicht:
 
@@ -305,7 +303,7 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
 
 1. Gehen Sie folgendermaßen vor, um schnell Datensätze zu finden, die einem Keyword entsprechen:
 
-   1. Beginnen Sie im **&#x200B;**&#x200B;Suchfeld![Suchsymbol](assets/search-icon.png) mit der Eingabe eines Keywords, das mit einem beliebigen Feld eines Datensatzes verknüpft ist, der auf dem Bildschirm angezeigt wird. Die Anzahl der richtigen Übereinstimmungen wird neben dem Suchelement angezeigt, und das Feld mit der richtigen Übereinstimmung ist hervorgehoben.
+   1. Beginnen Sie im **** Suchfeld![Suchsymbol](assets/search-icon.png) mit der Eingabe eines Keywords, das mit einem beliebigen Feld eines Datensatzes verknüpft ist, der auf dem Bildschirm angezeigt wird. Die Anzahl der richtigen Übereinstimmungen wird neben dem Suchelement angezeigt, und das Feld mit der richtigen Übereinstimmung ist hervorgehoben.
 
       ![Suchfeld mit Ergebnissen mit blauer Kontur in der Tabellenansicht](assets/search-box-with-results-blue-outline-g-table.png)
 
@@ -314,6 +312,7 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
       Sie können keine Schlüsselwörter verwenden, die mit Feldern verknüpft sind, die in der Tabellenansicht ausgeblendet sind.
 
       <!--
+        this might change at the release of table lazy loading:
         >[!TIP]
         >
         ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
@@ -325,12 +324,20 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
 
    1. Klicken Sie auf das **x**-Symbol im Suchfeld, um den Suchbegriff zu löschen.
 
-1. Für Zahlen-, Währungs-, Prozentsatz- und Formelfelder, die als eines dieser Felder formatiert sind, erweitern Sie das Dropdown-Menü Aggregator unten in den Spalten und wählen Sie aus den folgenden Optionen aus:
+1. (Bedingt) Erweitern Sie für Felder vom Typ Zahl, Währung, Prozentsatz und Formel , die mit einem dieser Feldtypen formatiert sind, das Dropdown-Menü Aggregator unten in den Spalten und wählen Sie aus den folgenden Optionen aus:
 
    * **SUM**: Zeigt die Gesamtzahl aller Zellen in der Spalte an. Dies ist die Standardauswahl.
    * **MIN**: Zeigt den niedrigsten Wert aus allen Zellen in der Spalte an.
    * **MAX**: Zeigt den höchsten Wert aus allen Zellen in der Spalte an.
    * **AVG**: Zeigt den Durchschnittswert aller Zellen in der Spalte an.
+
+   <!-- 
+    <div class="preview"> 
+
+    * **NONE**: The values of the column are not aggregated. This is the default option. 
+    
+    </div> 
+    -->
 
    Beachten Sie beim Arbeiten mit Aggregatoren Folgendes:
 
@@ -338,6 +345,61 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
    * Als Ansichts-Manager können Sie den Aggregator auswählen. Dieser wird für die Ansicht freigegeben, wenn Sie die Ansicht für andere freigeben.
    * Als Viewer können Sie den Aggregator ändern, er wird jedoch nicht mit der Ansicht gespeichert.
    * Öffentliche freigegebene Ansichten werden mit den gespeicherten Aggregatoren geteilt, die nicht geändert werden können.
+
+<!--
+At preview release, replace the last procedure step with this:
+
+1. (Conditional) Depending on the types of fields you are viewing, do one of the following; 
+
+    * For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+
+        * **SUM**: Displays the total of all cells in the column. This is the default selection. 
+        * **MIN**: Displays the lowest value from all the cells in the column. 
+        * **MAX**: Displays the highest value from all the cells in the column. 
+        * **AVG**: Displays the average value of all the cells in the column.  
+
+        <div class="preview">
+
+        * **NONE**: The values of the column are not aggregated.This is the default option. 
+    
+        </div> 
+   
+    <div class="preview">
+
+    * For date fields, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+
+        * **NONE**: The values of the column are not aggregated.This is the default option.
+        * **EMPTY**: Displays a count of the fields that have no values. 
+        * **NOT EMPTY**: Displays a count of the fields that have values. 
+        * **MIN**: Displays the earliest date.
+        * **MAX**: Displays the latest date. 
+    
+    * For text, select, boolean, People fields expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+
+        * **NONE**: The values of the column are not aggregated.This is the default option.
+        * **EMPTY**: Displays a count of the fields that have no values. 
+        * **NOT EMPTY**: Displays a count of the fields that have values.  
+
+    </div>
+        
+    Consider the following when working with aggregators: 
+    
+    * The aggregator row in the column is frozen when it displays values, and is part of the view settings. 
+    * As a View manager, you can choose the aggregator, and it will be shared with the view when you share the view with others. 
+    * As a viewer, you can modify the aggregator, but it does not save with the view. 
+    * Public shared views are shared with the saved aggregators which cannot be modified. 
+
+    <div class="preview">
+
+    * The following field types do not have an aggregator: 
+
+        * Created by
+        * Last modified by
+        * Record ID
+    * Formula fields and look up fields have the aggregators that correspond to their field format. 
+
+    </div>
+    -->
 
 ### Zeilen (oder Datensätze) hinzufügen {#add-rows-1}
 
@@ -455,10 +517,10 @@ So fügen Sie einen Filter zu einer Tabellenansicht hinzu:
         </tr>
         <tr>
             <td>Mehrfachauswahl, Personen</td>
-            <td><p>Hat eines von</p>
+            <td><p>Hat eines von</p> <!--or <span class="preview"><p>Is any of</p></span>-->
             <p>Hat alle von</p>
             <p>Ist genau</p>
-            <p>Hat keines von</p>
+            <p>Hat keines von</p> <!--or <span class="preview"><p>Is none of</p></span>-->
             <p>Ist leer</p>
             <p>Ist nicht leer</p></td>
         </tr>
@@ -542,7 +604,7 @@ Beachten Sie beim Sortieren von Datensätzen in der Tabellenansicht die folgende
 Gehen Sie wie folgt vor, um Datensätze zu sortieren:
 
 1. Erstellen Sie eine Tabellenansicht, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie auf **Symbol** Sortieren![&#x200B; (](assets/sort-icon.png)) oben in der Tabelle
+1. Klicken Sie auf **Symbol** Sortieren![ (](assets/sort-icon.png)) oben in der Tabelle
 
    ODER
 
@@ -604,7 +666,7 @@ Beachten Sie Folgendes:
 
 * Sie können Gruppierungen sowohl in der Tabellen- als auch in der Zeitleisten-Ansicht anwenden. Die Gruppierungen der Tabellenansicht sind unabhängig von denen in der Zeitleisten -Ansicht desselben Datensatztyps.
 * Sie können in einer Ansicht drei Gruppierungsebenen anwenden. Die Datensätze werden in der Reihenfolge der ausgewählten Gruppierungen gruppiert.
-&lt;!—!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * Bei Verwendung der API können Sie bis zu 4 Gruppierungsebenen anwenden. —Diese wird vorerst überprüft &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;!—!—*************** * Bei Verwendung der API können Sie bis zu 4 Gruppierungsebenen anwenden. —Diese wird vorerst überprüft ******************—>
 * Die Gruppierungen sind für die ausgewählte Ansicht eindeutig. Auf zwei Tabellenansichten desselben Datensatztyps können unterschiedliche Gruppierungen angewendet werden. Zwei Benutzende, die dieselbe Tabellenansicht betrachten, sehen dieselbe Gruppierung, die derzeit angewendet wird.
 * Die von Ihnen erstellten Gruppierungen können nicht für eine Tabellenansicht benannt werden.
 * Das Entfernen von Gruppierungen entfernt sie von allen Benutzern, die auf denselben Datensatztyp zugreifen wie Sie und die dieselbe Ansicht anzeigen wie Sie.
@@ -615,7 +677,7 @@ Beachten Sie Folgendes:
 * Gruppierungen werden in der alphabetischen Reihenfolge ihrer Werte aufgeführt.
 
 <!--
-* <span class="preview">Groupings apply only on the records currently loaded on the page. Only 500 records load at one time, by default. Additional records are added to the page as you scroll.</span>
+* <span class="preview">Groupings apply only on the records currently loaded on the page. Only 500 records load at one time, by default. More records might belong to the visible groupings but might not be loaded by default. Additional records are added to the page as you scroll.</span>
 -->
 
 <!--********************* checking into this: * You can apply up to 4 levels of grouping when using the API. ******************-->
@@ -630,6 +692,14 @@ Um eine Gruppierung hinzuzufügen:
 1. Klicken Sie auf eines der vorgeschlagenen Felder oder klicken Sie auf **Anderes Feld auswählen** suchen Sie nach einem anderen Feld und klicken Sie dann auf das Feld, wenn es in der Liste angezeigt wird.
 
    Die Gruppierung wird automatisch auf die Tabelle angewendet, und die Datensätze werden unter der Gruppierungstrennlinie angezeigt.
+
+   <!--
+    <div class="preview">
+
+    500 records display by default. There might be more records that belong to the visible groupings that are not uploaded by default. Continue to scroll to upload all records. 
+
+    </div>
+    -->
 
 1. (Optional) Klicken Sie auf **Bedingung hinzufügen** und wiederholen Sie die obigen Schritte, um bis zu 3 Gruppierungen hinzuzufügen.
 

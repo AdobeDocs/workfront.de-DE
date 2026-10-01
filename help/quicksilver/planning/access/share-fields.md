@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1495'
 ht-degree: 2%
 ---
 
@@ -91,19 +91,22 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 ## Überlegungen zur Freigabe von Feldern
 
 * Sie können Felder für Benutzer, Aufgabengebiete, Gruppen, Teams oder Unternehmen freigeben.
+* Die Feldfreigabe steuert den Zugriff auf Werte, nicht auf Feldeinstellungen. Nur Workspace-Manager können die Konfiguration eines Felds ändern.
+* Sie können den Zugriff auf ein Feld nicht von einer Person entfernen, die Zugriff auf den Datensatztyp hat.
 * Sie können nur Felder aus der Tabellenansicht eines Datensatztyps freigeben.
 * Die folgenden Typen von Feldern können nicht freigegeben werden:
 
   * Systemfelder (z. B. Erstellt von, Datensatz-ID)
   * Primäre Felder
   * Nachschlagefelder. Sie übernehmen immer die Berechtigungen ihrer Quellobjektfelder.
+* Formelfelder zeigen immer den korrekt berechneten Wert an, unabhängig vom Zugriff des Viewers auf referenzierte Felder. Sie müssen das Formelfeld separat freigeben, um seine Ausgabe zu beschränken.
 * Der Zugriff auf ein Feld erfolgt durch die Kombination der folgenden Einstellungen:
 
   * **Geerbte Berechtigungen**: Standardmäßig erbt ein Feld den gleichen Zugriff, den jemand auf den Datensatztyp hat. Sie können geerbte Berechtigungen deaktivieren und Benutzern einen geringeren Zugriff auf das Feld gewähren, als sie ihn für den Datensatztyp haben.
   * Die Auswahl **Alle mit Zugriff auf den Datensatztyp können anzeigen** oder **Nur eingeladene Personen können zugreifen**. Sie können entweder zulassen, dass jeder Benutzer mit Berechtigungen für den Arbeitsbereich das Feld anzeigen kann, oder Berechtigungen nur für einzelne Entitäten erteilen.
 
   Wenn mehrere Regeln für dieselbe Person gelten, erhalten sie die höchste Berechtigung, die ihnen von einer der Regeln zur Verfügung steht.
-
+* Sie müssen sowohl über Datensatz- als auch über Feldberechtigungen verfügen, um die Werte eines Felds für einen Datensatz anzuzeigen.
 * Damit ein Feld für alle Benutzer in einem Arbeitsbereich schreibgeschützt ist, müssen Sie sicherstellen, dass die folgende Einrichtung vorhanden ist:
 
   * Übernommene Berechtigungen deaktivieren
@@ -116,14 +119,17 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
   * Berechtigungen zum Beitragen oder Verwalten von Datensatztypen erteilen Benutzenden die Berechtigung zum Verwalten von Feldwerten
 
 * Nur Workspace-Besitzer und -Manager können Feldberechtigungen anpassen. Workspace-Manager behalten immer den Verwaltungszugriff auf alle Felder bei und dieser kann nicht verringert werden.
-* Die Feldfreigabe steuert den Zugriff auf Werte, nicht auf Feldeinstellungen. Nur Workspace-Manager können die Konfiguration eines Felds ändern.
 * Wenn Sie jemanden zur Freigabeliste eines Felds hinzufügen, erhält er keinen Zugriff auf Arbeitsbereiche oder Datensatztypen. Wenn diese Zugriffsrechte nicht verfügbar sind, wird die Berechtigung erst wirksam, nachdem sie zum Datensatztyp hinzugefügt wurden.
-* Felder mit eingeschränkten Berechtigungen werden überall dort durchgesetzt, wo das Feld angezeigt wird. Dazu gehören alle Ansichten, Datensatzdetailseiten, Anfrageformulare, Verbindungen und Lookup-Felder, Canvas-Dashboards, die API und MCP-Tools.
+* Felder mit eingeschränkten Berechtigungen werden überall dort durchgesetzt, wo das Feld angezeigt wird. Dazu gehören alle Ansichten, Datensatzdetailseiten, Verbindungen und Lookup-Felder, Canvas-Dashboards, die API und MCP-Tools.
+* Felder in Anforderungsformularen stehen allen Benutzern offen, die das Formular übermitteln, unabhängig von der Feldfreigabe.
+* Eingeschränkte Felder sind auch in exportierten Dateien und importierten Dateien nicht sichtbar.
 * Öffentliche Ansichten bleiben für alle, die darauf zugreifen können, vollständig sichtbar und schreibgeschützt.
   <!--Not sure if this is right - right now, it allows me to duplicate with the values in the new record - checking with Lilit: * When you duplicate a record, the restricted values are not copied to the new records.-->
 * Eingeschränkte Feldwertänderungen werden nicht im Verlauf eines Datensatzes aufgezeichnet.
 * Bei Berechtigungsänderungen für Felder werden keine Trigger-Benachrichtigungen erstellt.
 * Für globale Datensatztypen gelten Feldberechtigungen für alle sekundären Arbeitsbereiche und können nicht lokal angepasst werden.
+* Wenn jemand ein Feld zu einem globalen Datensatztyp im Hauptarbeitsbereich hinzufügt, wird eine private Ansicht erstellt.  Auf diese Ansicht kann nicht über den sekundären Arbeitsbereich für globale Einträge zugegriffen werden. Sie müssen den globalen Datensatz im sekundären Arbeitsbereich in einer neuen Ansicht öffnen, in der das hinzugefügte Feld, wenn die Berechtigungen nicht eingeschränkt sind, als ausgeblendetes Feld angezeigt wird.
+
 
 <!--
 From Claude: 
@@ -197,7 +203,7 @@ Als Workspace-Manager können Sie Berechtigungen an einzelne Felder anpassen.
       >
       >Workspace-Manager verfügen weiterhin über Verwaltungsberechtigungen für den Datensatztyp und das Feld.
 
-   1. (Optional) Klicken Sie auf das **Alle Personen mit Zugriff auf den Datensatztyp können anzeigen** Dropdown-Menü und wählen Sie **Nur eingeladene Personen können darauf zugreifen**.
+   1. (Optional) Klicken Sie auf das **Alle Personen mit Zugriff auf den Datensatztyp können anzeigen** Dropdown-Menü und wählen Sie **Nur eingeladene Personen können darauf zugreifen**. Die Option **Nur eingeladene Personen können zugreifen** ist für primäre Felder nicht verfügbar.
 
       >[!IMPORTANT]
       >

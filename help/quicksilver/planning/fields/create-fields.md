@@ -32,13 +32,13 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
 workflow-type: tm+mt
-source-wordcount: '5561'
+source-wordcount: '5636'
 ht-degree: 2%
 ---
 <!--
-Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=de ??
+Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??
 -->
 
 <!--
@@ -223,7 +223,7 @@ Beim Importieren von Feldern aus Workfront wird von jedem Feld eine Kopie für e
 
 Nachdem Sie die Felder kopiert haben, sind sie voneinander unabhängig und tauschen keine Informationen aus.
 
-Weitere Informationen finden Sie unter [Felder aus Workfront &#x200B;](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
+Weitere Informationen finden Sie unter [Felder aus Workfront ](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
 
 
 ## Erstellen neuer Felder {#create-fields-from-scratch}
@@ -301,6 +301,17 @@ Weitere Informationen finden Sie unter [Felder aus Workfront &#x200B;](/help/qui
     -->
 
 1. Fahren Sie mit dem Hinzufügen jedes Felds fort, wie in den folgenden Abschnitten beschrieben.
+1. (Optional und bedingt) Nachdem Sie ein Feld hinzugefügt haben, bewegen Sie den Mauszeiger über den Feldnamen in der Spaltenüberschrift der Tabellenansicht und klicken Sie auf das Dropdown-Menü **Mehr** und dann auf **Feld bearbeiten**, um das Feld zu bearbeiten.
+
+   Weitere Informationen finden Sie unter [Felder bearbeiten](/help/quicksilver/planning/fields/edit-fields.md).
+1. (Optional und bedingt) Nachdem Sie ein Feld hinzugefügt haben, bewegen Sie den Mauszeiger über den Feldnamen in der Spaltenüberschrift der Tabellenansicht und klicken Sie auf das Dropdown-Menü **Mehr** und dann auf **Löschen**, um das Feld zu löschen.
+
+   Weitere Informationen finden Sie unter [Felder löschen](/help/quicksilver/planning/fields/delete-fields.md).
+<!--
+1. <span class="preview">(Optional and conditional) After you add a field, hover over the field name in the table view column header and click the **More** drop-down menu, then **Share field** to share the field. </span>
+
+    </span>For information, see [Share fields](/help/quicksilver/planning/access/share-fields.md). </span>
+-->
 
 1. <span class="preview">(Optional und bedingt) Nachdem Sie ein Feld hinzugefügt haben, bewegen Sie den Mauszeiger über den Feldnamen in der Spaltenüberschrift der Tabellenansicht und klicken Sie auf das Dropdown-Menü **Mehr** und dann auf **Feld freigeben**, um das Feld freizugeben. </span>
 
@@ -634,7 +645,7 @@ Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/qui
    >
    >* Sie können auf ein Feld verweisen, das bis zu vier Felder (und Objekte) vom aktuellen Datensatztyp entfernt ist. Wenn Sie z. B. ein Formelfeld für eine Aktivitätsdatensatzart (1) erstellen und die Aktivität mit der Kampagnendatensatzart (2) verknüpft ist, die mit einem Workfront-Projekt (3) verbunden ist, können Sie in der Formel, die Sie für die Aktivitätsdatensatzart erstellen, auf das Budgetfeld (4) des Projekts verweisen.
    >
-   >![Formel Beispiel Projektbudget Vier Felder wurden entfernt &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Formel Beispiel Projektbudget Vier Felder wurden entfernt ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. (Optional) Klicken Sie auf **Maximieren**, um das Feld Formel in einem größeren Bereich zu öffnen.
