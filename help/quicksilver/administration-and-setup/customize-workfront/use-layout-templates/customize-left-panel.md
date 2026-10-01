@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 66ec381c7f0dec9a382bd9a23e6691d38c5595e7
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1259'
 ht-degree: 5%
 ---
 # Anpassen des linken Bedienfelds mithilfe einer Layout-Vorlage
@@ -55,7 +55,7 @@ Sie können beispielsweise festlegen, welches der folgenden Elemente Benutzern i
 
 Informationen zum Erstellen von Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-Vorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
 
-Weitere Informationen zu Layout-Vorlagen für Gruppen finden [&#x200B; unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 Nachdem Sie eine Layout-Vorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die von Ihnen vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layout-Vorlage an Benutzer finden Sie unter [Zuweisen von Benutzern zu einer Layout-Vorlage](../use-layout-templates/assign-users-to-layout-template.md).
 
@@ -112,27 +112,27 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
      <tr> 
       <td>[!UICONTROL Projekt]</td> 
       <td>Der Name eines Projekts</td> 
-      <td>[!UICONTROL Aufgaben], [!UICONTROL Projektdetails], [!UICONTROL Business Case], [!UICONTROL Updates], [!UICONTROL Dokumente], [!UICONTROL Probleme], [!UICONTROL Risiken], [!UICONTROL Genehmigungen], [!UICONTROL Baselines], [!UICONTROL Abrechnungssätze], [!UICONTROL Ressource für Abrechnung], [!UICONTROL Rechnungsnachweise], [!UICONTROL Ausgaben], [!UICONTROL Stunden], [!UICONTROL Workload Balancer], [!UICONTROL Personen], [!UICONTROL -Auslastung], [!UICONTROL -Warteschlangendetails], [!UICONTROL -Routing-Regeln], [!UICONTROL -Warteschlangenthema], [!UICONTROL -Themengruppe], [!UICONTROL -Metriken], [!UICONTROL -Planung]*, [!UICONTROL -Benutzerdefinierte Anwendung]**</td> 
+      <td>[!UICONTROL Aufgaben], [!UICONTROL Projektdetails], [!UICONTROL Business Case], [!UICONTROL Updates], [!UICONTROL Dokumente], [!UICONTROL Probleme], [!UICONTROL Risiken], [!UICONTROL Genehmigungen], [!UICONTROL Baselines], [!UICONTROL Abrechnungssätze], [!UICONTROL Ressource für Abrechnung], [!UICONTROL Rechnungsnachweise], [!UICONTROL Ausgaben], [!UICONTROL Stunden], [!UICONTROL Workload Balancer], [!UICONTROL Personen], [!UICONTROL-Auslastung], [!UICONTROL-Warteschlangendetails], [!UICONTROL-Routing-Regeln], [!UICONTROL-Warteschlangenthema], [!UICONTROL-Themengruppe], [!UICONTROL-Metriken], [!UICONTROL-Planung]*, [!UICONTROL-Benutzerdefinierte Anwendung]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Aufgabe]</td> 
       <td>Der Name einer Aufgabe</td> 
-      <td> [!UICONTROL -Aktualisierungen], [!UICONTROL -Dokumente], [!UICONTROL -Aufgabendetails], [!UICONTROL -Unteraufgabe], [!UICONTROL -Probleme], [!UICONTROL -Stunden], [!UICONTROL -Genehmigungen], [!UICONTROL -Ausgaben], [!UICONTROL -Vorgänger], [!UICONTROL -benutzerdefinierte Anwendung]**</td> 
+      <td> [!UICONTROL-Aktualisierungen], [!UICONTROL-Dokumente], [!UICONTROL-Aufgabendetails], [!UICONTROL-Unteraufgabe], [!UICONTROL-Probleme], [!UICONTROL-Stunden], [!UICONTROL-Genehmigungen], [!UICONTROL-Ausgaben], [!UICONTROL-Vorgänger], [!UICONTROL-benutzerdefinierte Anwendung]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Problem]</td> 
       <td>Der Name eines Problems</td> 
-      <td> [!UICONTROL -Aktualisierungen], [!UICONTROL -Dokumente], [!UICONTROL -Problemdetails], [!UICONTROL -Stunden], [!UICONTROL -Genehmigungen], [!UICONTROL -benutzerdefinierte Anwendung]**</td> 
+      <td> [!UICONTROL-Aktualisierungen], [!UICONTROL-Dokumente], [!UICONTROL-Problemdetails], [!UICONTROL-Stunden], [!UICONTROL-Genehmigungen], [!UICONTROL-benutzerdefinierte Anwendung]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Portfolio]</td> 
       <td>Der Name eines Portfolios</td> 
-      <td>[!UICONTROL -Projekte], [!UICONTROL -Programme], [!UICONTROL Portfolio-Details], [!UICONTROL Portfolio] [!UICONTROL -Optimierung], [!UICONTROL -Dokumente], [!UICONTROL -Updates], [!UICONTROL Planning]*, [!UICONTROL Custom Application]**</td> 
+      <td>[!UICONTROL-Projekte], [!UICONTROL-Programme], [!UICONTROL Portfolio-Details], [!UICONTROL Portfolio] [!UICONTROL-Optimierung], [!UICONTROL-Dokumente], [!UICONTROL-Updates], [!UICONTROL Planning]*, [!UICONTROL Custom Application]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Programm]</td> 
       <td>Der Name eines Programms</td> 
-      <td>[!UICONTROL -Projekte], [!UICONTROL -Programmdetails], [!UICONTROL -Updates], [!UICONTROL -Dokumente], [!UICONTROL Planning]*, [!UICONTROL Custom Application]**</td> 
+      <td>[!UICONTROL-Projekte], [!UICONTROL-Programmdetails], [!UICONTROL-Updates], [!UICONTROL-Dokumente], [!UICONTROL Planning]*, [!UICONTROL Custom Application]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Vorlage]</td> 
@@ -142,7 +142,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
      <tr> 
       <td>[!UICONTROL Vorlagenaufgabe]</td> 
       <td>Der Name einer Vorlagenaufgabe</td> 
-      <td>[!UICONTROL -Aktualisierungen], [!UICONTROL -Dokumente], [!UICONTROL -Vorlagenaufgabendetails], [!UICONTROL -Teilaufgaben], [!UICONTROL -Ausgaben], [!UICONTROL -Genehmigungen], [!UICONTROL -Vorgänger]</td>
+      <td>[!UICONTROL-Aktualisierungen], [!UICONTROL-Dokumente], [!UICONTROL-Vorlagenaufgabendetails], [!UICONTROL-Teilaufgaben], [!UICONTROL-Ausgaben], [!UICONTROL-Genehmigungen], [!UICONTROL-Vorgänger]</td>
      </tr>
      <!--
       <tr> 
@@ -158,16 +158,16 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
      </tr> 
      <tr> 
       <td>[!UICONTROL Projekte]</td> 
-      <td>Projekte im [!UICONTROL -Hauptmenü] <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>Projekte im [!UICONTROL-Hauptmenü] <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL Projekte]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL -Ressource]</td> 
-      <td>[!UICONTROL -Ressource] im [!UICONTROL -Hauptmenü] <img src="assets/main-menu-icon-left-nav.png"></td> 
+      <td>[!UICONTROL-Ressource]</td> 
+      <td>[!UICONTROL-Ressource] im [!UICONTROL-Hauptmenü] <img src="assets/main-menu-icon-left-nav.png"></td> 
       <td>[!UICONTROL Planner] (kann nicht ausgeblendet werden), [!UICONTROL Workload Balancer], [!UICONTROL Utilisation], [!UICONTROL Resource Pools]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL -Anforderungen]</td> 
+      <td>[!UICONTROL-Anforderungen]</td> 
       <td>Der Name einer Anfrage</td> 
       <td>[!UICONTROL Neue Anfrage], [!UICONTROL Gesendete Anfragen], [!UICONTROL Alle Anfragen], [!UICONTROL Entwürfe]</td> 
      </tr> 
@@ -179,7 +179,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
      <tr> 
       <td>[!UICONTROL Scrum-Team]</td> 
       <td>Der Name eines Scrum-Teams</td> 
-      <td><p>[!UICONTROL -Iterationen], [!UICONTROL Aktuelle Iteration], [!UICONTROL Backlog], [!UICONTROL Workload Balancer], [!UICONTROL -Aktualisierungen], [!UICONTROL -Teameinstellungen]</p> <p><strong>HINWEIS:</strong> Das Element <strong>[!UICONTROL Aktuelle Iteration]</strong> wird im linken Bereich nur angezeigt, wenn mindestens eine Aufgabe oder ein Problem bei der Iteration vorliegt.</p></td> 
+      <td><p>[!UICONTROL-Iterationen], [!UICONTROL Aktuelle Iteration], [!UICONTROL Backlog], [!UICONTROL Workload Balancer], [!UICONTROL-Aktualisierungen], [!UICONTROL-Teameinstellungen]</p> <p><strong>HINWEIS:</strong> Das Element <strong>[!UICONTROL Aktuelle Iteration]</strong> wird im linken Bereich nur angezeigt, wenn mindestens eine Aufgabe oder ein Problem bei der Iteration vorliegt.</p></td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Kanban-Team]</td> 
@@ -209,7 +209,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
      <tr> 
        <td>[!UICONTROL Gruppe]</td> 
        <td>Der Name einer Gruppe</td> 
-       <td>[!UICONTROL -Gruppenmitglieder], [!UICONTROL -Untergruppenmitglieder], [!UICONTROL -Gruppendetails], [!UICONTROL -Projektvoreinstellungen], [!UICONTROL -Einstellungen für Aufgaben und Probleme], [!UICONTROL -Arbeitszeittabellen und Stunden], [!UICONTROL -Untergruppen], [!UICONTROL -Status], [!UICONTROL -Ereignisbenachrichtigungen], [!UICONTROL -Portfolios], [!UICONTROL -Programme], [!UICONTROL -Projekte], [!UICONTROL -Vorlagen], [!UICONTROL kürzlich gelöscht], [!UICONTROL kürzlich wiederhergestellt], [!UICONTROL -Genehmigungen], [!UICONTROL Unternehmen], [!UICONTROL Teams], [!UICONTROL Zeitpläne], [!UICONTROL Arbeitszeittabellen-Profile], [!UICONTROL Layout-Vorlagen]</td> 
+       <td>[!UICONTROL-Gruppenmitglieder], [!UICONTROL-Untergruppenmitglieder], [!UICONTROL-Gruppendetails], [!UICONTROL-Projektvoreinstellungen], [!UICONTROL-Einstellungen für Aufgaben und Probleme], [!UICONTROL-Arbeitszeittabellen und Stunden], [!UICONTROL-Untergruppen], [!UICONTROL-Status], [!UICONTROL-Ereignisbenachrichtigungen], [!UICONTROL-Portfolios], [!UICONTROL-Programme], [!UICONTROL-Projekte], [!UICONTROL-Vorlagen], [!UICONTROL kürzlich gelöscht], [!UICONTROL kürzlich wiederhergestellt], [!UICONTROL-Genehmigungen], [!UICONTROL Unternehmen], [!UICONTROL Teams], [!UICONTROL Zeitpläne], [!UICONTROL Arbeitszeittabellen-Profile], [!UICONTROL Layout-Vorlagen]</td> 
      </tr>
      <!--
       <tr> 
@@ -237,6 +237,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
    * Klicken Sie auf **Anzeigen** ![Symbol anzeigen](assets/add-secondary-nav-item.png) oder **Ausblenden** ![Symbol ausblenden](assets/delete-secondary-nav-item.png), um Abschnitte im linken Bereich ein- oder auszublenden. Sie können keine Elemente ausblenden, die kein Symbol **Anzeigen** oder **Ausblenden** aufweisen.
 
+     Jeder Bereich oder Objekttyp muss über mindestens einen Bereich im linken Bereich verfügen. Wenn alle anderen Elemente ausgeblendet sind, kann das letzte verbleibende Element nicht ausgeblendet werden.
+
    * Ziehen Sie Elemente ![Symbol Verschieben](assets/move-icon---dots.png), um ihre Reihenfolge im linken Bedienfeld zu ändern.
 
    >[!NOTE]
@@ -247,7 +249,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
    >* [!UICONTROL Startseite]
    >* [!UICONTROL Branding]
    > 
-   >Informationen zum Anpassen der zusätzlichen Bereiche finden Sie in den folgenden Artikeln:
+   >Informationen zum Anpassen dieser zusätzlichen Bereiche finden Sie in den folgenden Artikeln:
    >
    >* [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >* [Passen Sie den [!UICONTROL Zusammenfassungsbereich] mithilfe einer Layout-Vorlage an](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
