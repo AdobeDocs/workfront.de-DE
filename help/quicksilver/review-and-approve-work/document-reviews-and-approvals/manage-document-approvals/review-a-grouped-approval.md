@@ -21,7 +21,7 @@ In diesem Artikel wird beschrieben, was bei der Überprüfung einer Gruppe von A
 
 >[!IMPORTANT]
 >
->Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt &#x200B;](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Zugriffsanforderungen
 
@@ -63,7 +63,7 @@ Das Widget Meine Genehmigungen in Startseite fasst die Assets unter einer einzig
 
 >[!NOTE]
 >
->Möglicherweise müssen Sie das Widget Meine Genehmigungen zu Ihrer Startseite hinzufügen. Weitere Informationen finden Sie unter [Widgets auf der Startseite hinzufügen, bearbeiten oder ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
+>Möglicherweise müssen Sie das Widget Meine Genehmigungen zu Ihrer Startseite hinzufügen. Weitere Informationen finden Sie unter [Widgets auf der Startseite hinzufügen, bearbeiten oder &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
 1. Klicken Sie auf **Startseite** in der oberen linken Ecke von Adobe Workfront und suchen Sie das Widget **Meine Genehmigungen**.
 
@@ -93,4 +93,4 @@ Im Frame.io-Viewer werden alle Assets in der Gruppe zusammen angezeigt, sodass S
    * **Genehmigt** - Das Asset muss nicht geändert werden und ist einsatzbereit.
    * **Muss überarbeitet werden** - das Asset muss geändert werden und ist nicht einsatzbereit.
 
-   Weitere Informationen zu Entscheidungen finden Sie unter [Übersicht über den ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
+   Weitere Informationen zu Entscheidungen finden Sie unter [Übersicht über den &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
