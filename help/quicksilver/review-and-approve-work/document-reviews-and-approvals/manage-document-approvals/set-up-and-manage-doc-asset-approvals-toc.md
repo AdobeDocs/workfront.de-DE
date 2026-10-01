@@ -27,10 +27,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
+source-git-commit: f3b0b9985b2056ca71ce16aa81becb4723015472
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 79%
+source-wordcount: '104'
+ht-degree: 75%
 ---
 # Einrichten und Verwalten von einheitlichen Genehmigungen: Artikelindex
 
@@ -38,6 +38,11 @@ Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Erstellen und Verwalten von Marken für KI-Prüfer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-a-brand.md)
 * [Erstellen einer Prüfungs- oder Genehmigungsanfrage für ein Dokument](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+* [Erstellen einer gruppierten Genehmigung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-grouped-approval.md)
+<!--
+* [Review a grouped approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/review-a-grouped-approval.md)
+* [Manage grouped approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-grouped-approvals.md)
+-->
 * [Hinzufügen zusätzlicher prüfender oder genehmigender Personen zu einem Asset oder Dokument](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
 * [Entfernen von genehmigenden oder prüfenden Personen von einem Asset oder Dokument](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
 * [Erstellen einer Genehmigungsvorlage für Assets und Dokumente](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
