@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 98aa8dfa8ddb2c4b159e21c29d0385d5bdd7744a
 workflow-type: tm+mt
-source-wordcount: '3304'
+source-wordcount: '3374'
 ht-degree: 1%
 ---
 # Verwenden von erweiterten Listen
@@ -78,27 +78,32 @@ Im Folgenden finden Sie einige Typen von Workfront-Objektlisten, die das erweite
 | Workfront-Liste | Speicherort der Objektliste |
 | --- | --- |
 | Prioritäten | <ul><li>Startseite > Wählen Sie im linken Menü das Symbol Prioritäten aus.</li><li>Hauptmenü > Prioritäten</li></ul> |
-| Liste der Anfragen | <ul><li>Anfragen (nur für neue Erlebnisse)</li><li>Widget „Meine Anfragen“ auf der Startseite</li></ul> |
+| Liste der Anfragen | <ul><li>Hauptmenü > Anfragen (nur für neue Umgebung)</li><li>Widget „Meine Anfragen“ auf der Startseite</li></ul> |
 | Listen mit Status, Prioritäten, Schweregraden, <span class="preview">Bedingungen</span> und Wechselkursen im Setup | <ul><li>Setup > Projektvoreinstellungen > Status</li><li>Setup > Projektvoreinstellungen > Prioritäten</li><li>Setup > Projektvoreinstellungen > Schweregrade</li><li><span class="preview">Setup > Projektvoreinstellungen > Bedingungen</span></li><li>Einrichten > Projektvoreinstellungen > Wechselkurse</li></ul> |
 | <span class="preview">Listen der Aktionen und verfolgten Felder in den Aktualisierungs-Feeds</span> | <ul><li><span class="preview">Setup > Schnittstelle > Aktualisierungs-Feeds > Registerkarte „Getrackte Felder“</span></li> <li><span class="preview">Setup > Benutzeroberfläche > Aktualisierungsfeeds > Registerkarte „Aktionen“</span></li></ul> |
 | <span class="preview">Liste der Scorecards</span> | <span class="preview">Setup > Scorecards</span> |
 | <span class="preview">Liste der Risikotypen</span> | <span class="preview">Setup > Risikotypen</span> |
+| <span class="preview">Liste der Ereignisbenachrichtigungen</span> | <ul><li><span class="preview">Setup > E-Mail > Benachrichtigungen > Ereignisbenachrichtigungen</span></li><li><span class="preview">Seite „Gruppendetails“ > Ereignisbenachrichtigungen</span></li></ul> |
 | Liste der Aufgabengebiete und Tarife auf einer Tarifkarte | Einrichten > Tarifkarten > Tarifkarte auswählen > Aufgabengebiete und Tarife |
 | <span class="preview">Liste der Standorte</span> | <span class="preview">Setup > Standorte</span> |
 | Liste der Übersetzungen | Setup > Lokalisierung |
-| <span class="preview">Integrationslisten </span> | <ul><li><span class="preview">Setup > Dokumente > SharePoint-Integration</span></li><li><span class="preview">Setup > Dokumente > Benutzerdefinierte Integration</span></li></ul> |
-| Liste von Berichten | Berichte (**Freigebbare Ordner verwenden** müssen aktiviert sein) |
+| <span class="preview">Integrationslisten </span> | <ul><li><span class="preview">Setup > Dokumente > SharePoint-Integration</span></li><li><span class="preview">Setup > Dokumente > Benutzerdefinierte Integration</span></li><li><span class="preview">Setup > Dokumente > Experience Manager Assets</span></li></ul> |
+| Liste von Berichten | Hauptmenü > Berichte (**Freigebbare Ordner verwenden** muss aktiviert sein) |
+| <span class="preview">Listen mit Warteschlangenthemen, Themengruppen und Routing-Regeln</span> | <ul><li><span class="preview">Projekt oder Vorlage > Warteschlangenthemen</span></li><li><span class="preview">Projekt oder Vorlage > Themengruppen</span></li><li><span class="preview">Projekt oder Vorlage > Routing-Regeln</span></li></ul> |
 | Liste der Momentaufnahmen | Projekt > Momentaufnahmen |
 | Liste der Ressourcen für die Abrechnung | Projekt > Ressource für Abrechnung |
+| <span class="preview">Liste der Vorgänger</span> | <span class="preview">Setup > Aufgabe oder Vorlagenaufgabe > Vorgänger</span> |
 | Neue erweiterte Zuweisungen für eine Aufgabe | Aufgabe > Arbeitsaufträge > Erweitert |
 | <span class="preview">Ansicht „Alle Versionen“ eines Dokuments</span> | <span class="preview">Projekt > Dokumente > Dokumentdetails > Alle Versionen</span> |
 | Pinnwand-Administratoransicht | Pinnwände > Admin-Ansicht |
 | Dokumente zum Adobe Cloud-Speicher | Projekt, Aufgabe, Problem, Portfolio, Programm, Vorlage, Vorlagenaufgabe > Dokumente |
 | <span class="preview">Listen mit Szenario-Plänen und -Initiativen</span> | <span class="preview">Hauptmenü > Szenarien</span> |
+| <span class="preview">Listen mit Zielen und Fortschrittsindikatoren</span> | <ul><li><span class="preview">Hauptmenü > Ziele</span></li><li><span class="preview">Hauptmenü > Ziele > Fortschrittsanzeigen</span></li></ul> |
 
 <!--
 
-Last bullet in "Lists of integrations" <li><span class="preview">Setup > Documents > Experience Manager Assets</span></li>
+Under integrations?
+| <span class="preview">List of layout templates</span> | <ul><li><span class="preview">Setup > Interface > Layout Templates</span></li><li><span class="preview">Group Detail page > Layout Templates</span></li></ul> |
 
 Under Locations?
 | <span class="preview">Lists of timesheet profiles and hour types</span> | <span class="preview"><ul><li>Setup > Timesheets and Hours > Timesheet Profiles</li><li>Setup > Timesheets and Hours > Hour Types</li></ul></span> |
@@ -424,7 +429,7 @@ Filter helfen Ihnen, die Menge an Informationen zu reduzieren, die Sie in der Li
 1. Klicken Sie **Filter** über der Liste auf.
 1. Klicken Sie im Feld Filter auf **Bedingung hinzufügen**.
 1. Wählen Sie ein Feld aus, nach dem gefiltert werden soll.
-1. Wählen Sie einen Filtermodifikator aus, z. B. „Hat eines von“, „Hat keines von“, „ist vor“ oder „ist nach“. Die Modifikatoroptionen unterscheiden sich je nach dem Typ des Felds, nach dem Sie filtern.
+1. Wählen Sie einen Filtermodifikator aus, z. B. „Ist beliebig von“, „Ist keiner von“, „Ist vor“ oder „Ist nach“. Die Modifikatoroptionen unterscheiden sich je nach dem Typ des Felds, nach dem Sie filtern.
 1. Wählen Sie die Feldwerte aus. Je nach Feldtyp, nach dem Sie filtern, werden Sie möglicherweise aufgefordert, das Element aus einer Liste auszuwählen, danach zu suchen oder einen Kalender zu verwenden, um einen Datumsbereich auszuwählen.
 
    ![Filter in erweiterten Listen](assets/glist-filter-with-options.png)
@@ -471,7 +476,7 @@ Workfront bietet eine begrenzte Anzahl vordefinierter Gruppierungen, die Sie nic
    ![Gruppierung auswählen](assets/glist-grouping-choose-a-group-by.png)
 
 1. Klicken Sie **Alle reduzieren**, um die Liste mit allen reduzierten Gruppierungen anzuzeigen. Die Standardoption besteht darin, die Liste mit allen Gruppierungen anzuzeigen.
-1. Wenn die Gruppierung angewendet wird, können Sie die Gruppenoptionen erneut öffnen, um alle Gruppierungen gleichzeitig ein- oder auszublenden, die Gruppierung in ein anderes Feld zu ändern oder alle Gruppierungen zu löschen.
+1. Wenn die Gruppierung angewendet wird, können Sie die Gruppierungsoptionen erneut öffnen, um alle Gruppierungen gleichzeitig ein- oder auszublenden, die Gruppierung in ein anderes Feld zu ändern oder alle Gruppierungen zu löschen.
 
    ![Gruppieren in erweiterten Listen](assets/glist-group-by-due-date-priorities.png)
 

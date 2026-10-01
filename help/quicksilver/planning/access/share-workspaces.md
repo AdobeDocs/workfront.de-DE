@@ -30,18 +30,18 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 284f02c34a04b176c60f50443b9f03b789d8416d
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 3%
+source-wordcount: '1210'
+ht-degree: 2%
 ---
 # Freigeben von Arbeitsbereichen
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the release to Preview, the same features are also available monthly in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach der Veröffentlichung in der Vorschau sind dieselben Funktionen auch monatlich in der Produktionsumgebung für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 
 {{planning-important-intro}}
 
@@ -173,6 +173,15 @@ Old:
 * Wenn Sie einen Arbeitsbereich freigeben, werden Ansichten nicht freigegeben. Sie müssen Ansichten separat freigeben.
 * Workspace-Berechtigungen werden für Datensatztypen als geerbte Berechtigungen angezeigt.
 
+<div class="preview">
+
+* Sie können den Eigentümer eines Arbeitsbereichs in einen aktiven, standardmäßig lizenzierten Benutzer ändern. Sie können eine Gruppe, ein Team, eine Firma oder ein Aufgabengebiet nicht zum Besitzer eines Arbeitsbereichs machen.
+
+</div>
+
+
+&lt;!—!—Überprüfen Sie die obigen Punkte bei der Produktion: MÜSSEN Sie sie durch einen AKTIVEN Benutzer ersetzen?? Oder inaktiv ist auch in Ordnung - hatte keine Umgebung—>
+
 ## Freigeben von Berechtigungen für einen Arbeitsbereich
 
 Die folgenden Benutzer können einen Arbeitsbereich für andere Benutzer freigeben:
@@ -202,7 +211,7 @@ So geben Sie einen Arbeitsbereich für andere frei:
 
      Sie müssen einen Systemadministrator bitten, eine globale Berechtigung für einen Arbeitsbereich zu ändern.
 
-1. Beginnen Sie im Feld **Zugriff auf diesen Arbeitsbereich gewähren** mit der Eingabe des Namens eines Benutzers, einer Gruppe, eines Teams, eines Unternehmens oder eines Aufgabengebiets und klicken Sie darauf, wenn es in der Liste angezeigt wird.
+1. Beginnen Sie im Feld **Zugriff auf diesen Arbeitsbereich gewähren** mit der Eingabe des Namens eines Benutzers, einer Gruppe, eines Teams, eines Unternehmens oder eines Aufgabengebiets und klicken Sie darauf, wenn es in der Liste angezeigt wird. <!--update screen shot at production-->
 
    ![Freigabe der Benutzeroberfläche für Gruppen](assets/sharing-ui-with-groups.png)
 
@@ -212,7 +221,7 @@ So geben Sie einen Arbeitsbereich für andere frei:
    >
    >* Wenn Sie einen Arbeitsbereich für einen Benutzer freigeben, werden dessen primäres Aufgabengebiet und dessen E-Mail-Adresse ebenfalls im Feld angezeigt. Damit Sie die E-Mail-Adresse des Benutzers anzeigen können, muss für das Benutzerobjekt in Ihrer Zugriffsebene die Einstellung „Kontaktinformationen anzeigen“ aktiviert sein.
 
-1. (Optional) Wenn Sie eine Freigabe für eine Gruppe, ein Team, eine Rolle oder ein Unternehmen durchführen, bewegen Sie den Mauszeiger über den Namen der Entität und klicken Sie auf den Pfeil nach rechts, um eine Liste der Benutzer zu erweitern, die die Berechtigungen erhalten.
+1. (Optional) Wenn Sie eine Freigabe für eine Gruppe, ein Team, eine Rolle oder ein Unternehmen durchführen, bewegen Sie den Mauszeiger über den Namen der Entität und klicken Sie auf den Pfeil nach rechts, um eine Liste der Benutzer zu erweitern, die die Berechtigungen erhalten. <!--update screen shot at preview-->
 
    ![Freigeben von Arbeitsbereich für eine Gruppe](assets/share-workspace-role-expanding-arrow-highlighted.png)
 
@@ -222,6 +231,18 @@ So geben Sie einen Arbeitsbereich für andere frei:
    * Verwalten
 
      Informationen zu Berechtigungsebenen und den Aktionen, die Benutzende für die einzelnen Ebenen ausführen können, finden Sie unter [Übersicht über Freigabeberechtigungen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+
+   <div class="preview">
+
+   * Besitzer bzw. Besitzerin
+
+     Sie können nur einen anderen aktiven Benutzer mit Standardlizenz zum Besitzer eines Arbeitsbereichs machen. Der ursprüngliche Eigentümer verbleibt mit den Berechtigungen zum Verwalten im Arbeitsbereich.
+
+   </div>
+
+1. <span class="preview">(Bedingt) Wenn Sie den Workspace-Inhaber ändern möchten, klicken Sie zum Bestätigen auf **Eigentümer ändern**.</span>
+
+
 1. Klicken Sie **Link kopieren**, um einen Link in den Arbeitsbereich in die Zwischenablage zu kopieren.
 1. Geben Sie den kopierten Link für andere frei. Benutzer, die den Link erhalten, müssen aktive Benutzer sein und sich bei Workfront anmelden, um auf den Arbeitsbereich zugreifen zu können.
 1. Klicken Sie auf **Speichern**.
@@ -254,7 +275,6 @@ Klicken Sie in der E-Mail-Benachrichtigung **Alle Benachrichtigungen anzeigen** 
 1. Klicken Sie auf den nach links zeigenden Pfeil links neben **Ausstehende**) und dann auf **Speichern**.
 
    Wenn Sie die Anfrage genehmigt haben, werden die Benutzer zum Feld Freigabe des Arbeitsbereichs hinzugefügt. Der Benutzer, der die Berechtigung anfordert, erhält eine E-Mail-Bestätigung, dass seine Anforderung genehmigt wurde. <!--will they also get an in-app notification??-->
-
 
 ## Entfernen von Berechtigungen für einen Arbeitsbereich
 

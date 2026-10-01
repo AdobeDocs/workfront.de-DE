@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: d185ddbfe7e85f214181eb9a76ff83b775abace3
 workflow-type: tm+mt
-source-wordcount: '2811'
+source-wordcount: '3020'
 ht-degree: 4%
 ---
 
@@ -316,7 +316,22 @@ Insights-Tools rufen Informationen zu Workfront-Objekten ab.
 | --- | --- | --- | --- |
 | <span class="preview">Feedback geben</span> | <span class="preview">`share_feedback`</span> | <span class="preview">Zeichnet Ihre gemeldeten Sentiment und die Ereignisse während des Gesprächs auf, sodass die MCP-Tools von Workfront verbessert werden können. Wird nur verwendet, wenn Sie ausdrücklich dazu auffordern, Feedback zu geben (z. B. „Feedback geben“ oder „Fehler melden„).</span> | <span class="preview">Write</span> |
 
+## Reporting-Tools
 
+Mit Reporting-Tools können Sie Canvas-Dashboards über Chat erstellen und verwalten. Beschreiben Sie den gewünschten Bericht in einfacher Sprache, und die KI-Agentenplattform erstellt das Dashboard und die Widgets für Sie, indem Sie Ihre Workfront-Daten verwenden.
+
+
+### Dashboards für die Arbeitsfläche
+
+| Titel | Tool-Name | Funktion | Aktion |
+| --- | --- | --- | --- |
+| Lesen | `read` | liest Berichtsdaten in drei Modi, die anhand der übergebenen IDs ausgewählt werden: Listet die Dashboards auf, die für Sie sichtbar sind, ruft die Struktur eines einzelnen Dashboards ab oder ruft die vollständige Konfiguration eines Widgets ab. | Lesen |
+| Dashboard erstellen | `create_dashboard` | Erstellt ein neues, leeres Reporting-Dashboard und gibt es zurück, mit einem Link zum Öffnen. | Schreiben |
+| Dashboard aktualisieren | `update_dashboard` | Aktualisiert teilweise die Metadaten, Eingabeaufforderung, Filter und Platzierung pro Widget eines Dashboards. Ausgelassene Felder bleiben unverändert. | Schreiben |
+| Widget erstellen | `create_widget` | Erstellt ein Widget und dessen Berichtskonfiguration in einem Dashboard. Ein Tool verarbeitet alle drei Widget-Typen: Diagramm, KPI und Tabelle. | Schreiben |
+| Widget aktualisieren | `update_widget` | Aktualisiert die Konfiguration eines vorhandenen Widgets teilweise. Der Widget-Typ wird automatisch abgeleitet, sodass Sie nur die Felder senden, die Sie ändern möchten. | Schreiben |
+| Objekt kopieren | `copy_object` | Kopiert ein ganzes Dashboard, einschließlich der Widgets, Eingabeaufforderung und Filter, in ein neues Dashboard oder kopiert ein einzelnes Widget innerhalb von Dashboards oder über Dashboards hinweg. | Schreiben |
+| Objekt löschen | `delete_object` | Löscht dauerhaft ein Reporting-Dashboard und alle zugehörigen Widgets oder ein einzelnes Widget. Diese Aktion kann nicht rückgängig gemacht werden. | Schreiben |
 
 ## So werden Tools aktualisiert
 
@@ -329,5 +344,6 @@ Wenn Adobe eine neue Version des Workfront MCP-Servers veröffentlicht, verwende
 Wir arbeiten daran, dem Workfront MCP-Server in Zukunft die folgenden Tools hinzuzufügen:
 
 * Pinnwände
+
 
 

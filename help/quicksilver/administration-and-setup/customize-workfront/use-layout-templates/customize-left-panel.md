@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1dc0bdb90242129fc2097f029440efbcbd04b62c
 workflow-type: tm+mt
-source-wordcount: '1230'
+source-wordcount: '1262'
 ht-degree: 5%
 ---
 # Anpassen des linken Bedienfelds mithilfe einer Layout-Vorlage
@@ -199,7 +199,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
      <tr> 
        <td>[!UICONTROL Benutzerdetails]</td> 
        <td>Der Name eines Benutzers</td> 
-       <td>[!UICONTROL Details], [!UICONTROL Organigramm], [!UICONTROL Ausfallzeit], [!UICONTROL Custom Forms], [!UICONTROL Business Profiles], [!UICONTROL Updates], [!UICONTROL Workload Balancer]</td> 
+       <td>[!UICONTROL Details], [!UICONTROL Organigramm], [!UICONTROL Ausfallzeit], [!UICONTROL Custom Forms], [!UICONTROL Business Profiles], [!UICONTROL Updates], [!UICONTROL Workload Balancer], [!UICONTROL Beschäftigungsverlauf]</td> 
      </tr>
      <tr> 
        <td>[!UICONTROL Tarifkarte]</td> 
@@ -237,6 +237,8 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
    * Klicken Sie auf **Anzeigen** ![Symbol anzeigen](assets/add-secondary-nav-item.png) oder **Ausblenden** ![Symbol ausblenden](assets/delete-secondary-nav-item.png), um Abschnitte im linken Bereich ein- oder auszublenden. Sie können keine Elemente ausblenden, die kein Symbol **Anzeigen** oder **Ausblenden** aufweisen.
 
+     Jeder Bereich oder Objekttyp muss über mindestens einen Bereich im linken Bereich verfügen. Wenn alle anderen Elemente ausgeblendet sind, kann das letzte verbleibende Element nicht ausgeblendet werden.
+
    * Ziehen Sie Elemente ![Symbol Verschieben](assets/move-icon---dots.png), um ihre Reihenfolge im linken Bedienfeld zu ändern.
 
    >[!NOTE]
@@ -247,7 +249,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
    >* [!UICONTROL Startseite]
    >* [!UICONTROL Branding]
    > 
-   >Informationen zum Anpassen der zusätzlichen Bereiche finden Sie in den folgenden Artikeln:
+   >Informationen zum Anpassen dieser zusätzlichen Bereiche finden Sie in den folgenden Artikeln:
    >
    >* [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >* [Passen Sie den [!UICONTROL Zusammenfassungsbereich] mithilfe einer Layout-Vorlage an](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
