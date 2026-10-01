@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: e0951a7451bbf17dcca388eee841abddb1618a0b
+source-git-commit: f1a6727b3282e86f8f8b541173674450fbfe45dc
 workflow-type: tm+mt
-source-wordcount: '4233'
+source-wordcount: '4228'
 ht-degree: 3%
 ---
 # Verwalten der Tabellenansicht
@@ -303,7 +303,7 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
 
 1. Gehen Sie folgendermaßen vor, um schnell Datensätze zu finden, die einem Keyword entsprechen:
 
-   1. Beginnen Sie im **&#x200B;**&#x200B;Suchfeld![Suchsymbol](assets/search-icon.png) mit der Eingabe eines Keywords, das mit einem beliebigen Feld eines Datensatzes verknüpft ist, der auf dem Bildschirm angezeigt wird. Die Anzahl der richtigen Übereinstimmungen wird neben dem Suchelement angezeigt, und das Feld mit der richtigen Übereinstimmung ist hervorgehoben.
+   1. Beginnen Sie im **** Suchfeld![Suchsymbol](assets/search-icon.png) mit der Eingabe eines Keywords, das mit einem beliebigen Feld eines Datensatzes verknüpft ist, der auf dem Bildschirm angezeigt wird. Die Anzahl der richtigen Übereinstimmungen wird neben dem Suchelement angezeigt, und das Feld mit der richtigen Übereinstimmung ist hervorgehoben.
 
       ![Suchfeld mit Ergebnissen mit blauer Kontur in der Tabellenansicht](assets/search-box-with-results-blue-outline-g-table.png)
 
@@ -329,22 +329,17 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
 
    * Für Zahlen-, Währungs-, Prozentsatz- und Formelfelder, die als eines dieser Felder formatiert sind, erweitern Sie das Dropdown-Menü Aggregator unten in den Spalten und wählen Sie aus den folgenden Optionen aus:
 
-     * **SUM**: Zeigt die Gesamtzahl aller Zellen in der Spalte an. Dies ist die Standardauswahl.
+     * **SUM**: Zeigt die Gesamtzahl aller Zellen in der Spalte an.
      * **MIN**: Zeigt den niedrigsten Wert aus allen Zellen in der Spalte an.
      * **MAX**: Zeigt den höchsten Wert aus allen Zellen in der Spalte an.
      * **AVG**: Zeigt den Durchschnittswert aller Zellen in der Spalte an.
-
-     <div class="preview">
-
-     * **NONE**: Die Werte der Spalte werden nicht aggregiert.Dies ist die Standardoption.
-
-     </div>
+     * <span class="preview">**NONE**: Die Werte der Spalte werden nicht aggregiert. Dies ist die Standardoption.</span>
 
    <div class="preview">
 
    * Erweitern Sie für Datumsfelder das Dropdown-Menü des Aggregators unten in den Spalten und wählen Sie aus den folgenden Optionen:
 
-     * **NONE**: Die Werte der Spalte werden nicht aggregiert.Dies ist die Standardoption.
+     * **NONE**: Die Werte der Spalte werden nicht aggregiert. Dies ist die Standardoption.
      * **LEER**: Zeigt die Anzahl der Felder an, die keine Werte haben.
      * **NICHT LEER**: Zeigt die Anzahl der Felder an, die Werte aufweisen.
      * **MIN**: Zeigt das früheste Datum an.
@@ -352,7 +347,7 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
 
    * Wählen Sie für die Felder Text, Boolescher Wert, Personen das Dropdown-Menü des Aggregators am unteren Rand der Spalten aus und wählen Sie aus den folgenden Optionen:
 
-     * **NONE**: Die Werte der Spalte werden nicht aggregiert.Dies ist die Standardoption.
+     * **NONE**: Die Werte der Spalte werden nicht aggregiert. Dies ist die Standardoption.
      * **LEER**: Zeigt die Anzahl der Felder an, die keine Werte haben.
      * **NICHT LEER**: Zeigt die Anzahl der Felder an, die Werte aufweisen.
 
@@ -606,7 +601,7 @@ Beachten Sie beim Sortieren von Datensätzen in der Tabellenansicht die folgende
 Gehen Sie wie folgt vor, um Datensätze zu sortieren:
 
 1. Erstellen Sie eine Tabellenansicht, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie auf **Symbol** Sortieren![&#x200B; (](assets/sort-icon.png)) oben in der Tabelle
+1. Klicken Sie auf **Symbol** Sortieren![ (](assets/sort-icon.png)) oben in der Tabelle
 
    ODER
 
@@ -668,7 +663,7 @@ Beachten Sie Folgendes:
 
 * Sie können Gruppierungen sowohl in der Tabellen- als auch in der Zeitleisten-Ansicht anwenden. Die Gruppierungen der Tabellenansicht sind unabhängig von denen in der Zeitleisten -Ansicht desselben Datensatztyps.
 * Sie können in einer Ansicht drei Gruppierungsebenen anwenden. Die Datensätze werden in der Reihenfolge der ausgewählten Gruppierungen gruppiert.
-&lt;!—!—**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;*** * Bei Verwendung der API können Sie bis zu 4 Gruppierungsebenen anwenden. —Diese wird vorerst überprüft &#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**&#x200B;**—>
+&lt;!—!—*************** * Bei Verwendung der API können Sie bis zu 4 Gruppierungsebenen anwenden. —Diese wird vorerst überprüft ******************—>
 * Die Gruppierungen sind für die ausgewählte Ansicht eindeutig. Auf zwei Tabellenansichten desselben Datensatztyps können unterschiedliche Gruppierungen angewendet werden. Zwei Benutzende, die dieselbe Tabellenansicht betrachten, sehen dieselbe Gruppierung, die derzeit angewendet wird.
 * Die von Ihnen erstellten Gruppierungen können nicht für eine Tabellenansicht benannt werden.
 * Das Entfernen von Gruppierungen entfernt sie von allen Benutzern, die auf denselben Datensatztyp zugreifen wie Sie und die dieselbe Ansicht anzeigen wie Sie.
