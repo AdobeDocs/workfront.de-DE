@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2d1619fde79a80c016c7c963614fd4f7ba63035b
+source-git-commit: 69af10a8df4faf85df36f148c7d261eefefa951e
 workflow-type: tm+mt
-source-wordcount: '1539'
+source-wordcount: '1543'
 ht-degree: 10%
 ---
 # Systemvoreinstellungen konfigurieren
@@ -244,7 +244,7 @@ Hinzufügen einer URL:
 
 >[!IMPORTANT]
 >
->Callback-URLs müssen genau übereinstimmen. Workfront unterstützt keine Platzhalter- oder Präfixabgleiche für benutzerdefinierte Callback-URLs.
+>Callback-URLs müssen exakt übereinstimmen, einschließlich aller URL-Parameter. Workfront unterstützt keine Platzhalter- oder Präfixabgleiche für benutzerdefinierte Callback-URLs.
 
 +++
 
