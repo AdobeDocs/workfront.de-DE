@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 04db74ea6f6c6743df6a82a97eb5e8ca88fcb92e
 workflow-type: tm+mt
-source-wordcount: '4584'
+source-wordcount: '5015'
 ht-degree: 2%
 ---
 # Verwalten der Timeline-Ansicht
@@ -192,11 +192,16 @@ So verwalten Sie eine Zeitleisten -Ansicht:
 
    ![Beispiel für Zeitleisten-Ansicht](assets/timeline-view-example.png)
 
-   Die mit dem ausgewählten Datensatztyp verknüpften Datensätze werden standardmäßig als Balken in einer Zeitleiste angezeigt und in chronologischer Reihenfolge ihres Startdatums sortiert.
+   Die Datensätze, die mit dem ausgewählten Datensatztyp verknüpft sind, werden als Balken in einer Zeitleiste angezeigt und standardmäßig in chronologischer Reihenfolge ihres Startdatums sortiert.
+
+   <!--
+    <span class="preview">First 500 records display by default. Additional records continue to display as you scroll the page.</span> 
+    -->
+   <!-- must check here to see if the timeline is not getting the same button at the bottom of the page that says "Load more" like the calendar view-->
 
    >[!TIP]
    >
-   >    Die Sortierung der Datensätze in der Zeitleiste ist in der kompakten Ansicht nicht sichtbar.
+   >    Die automatische Sortierung der Datensätze in der Zeitleiste ist in der kompakten Ansicht nicht sichtbar.
 
 1. (Bedingt) Wenn Ihr Administrator benutzerdefinierte Quartale aktiviert hat und Workfront Probleme bei der Konfiguration der benutzerdefinierten Quartale erkennt, erhalten Sie möglicherweise eine Warnung, wenn Sie die Zeitleisten -Ansicht öffnen.
 
@@ -263,6 +268,14 @@ So verwalten Sie eine Zeitleisten -Ansicht:
       Sie können jedes Wort oder jedes Sonderzeichen verwenden, das auf dem Bildschirm sichtbar ist.
 
       Sie können keine Keywords verwenden, die mit Feldern verknüpft sind, die in der Zeitleisten -Ansicht nicht angezeigt werden.
+
+      <!--
+        this might change at the release of table lazy loading:
+        >[!TIP]
+        >
+        ><span class="preview">Search only works for records that are currently loaded on the page. 500 records load by default. More records load, as you scroll. </span> 
+        -->
+      <!--see if additional records load after you click Load more - not sure what the functionality is here-->
 
    1. Drücken Sie die Eingabetaste auf der Tastatur, um zum nächsten gefundenen Feld zu wechseln.
    1. (Optional) Wenn mehr als eine Übereinstimmung vorliegt, klicken Sie auf die Pfeile nach oben und unten rechts neben dem Suchbegriff, um alle Übereinstimmungen in der Tabelle zu finden.
@@ -361,10 +374,10 @@ So fügen Sie einen Filter zu einer Zeitleisten -Ansicht hinzu:
         </tr>
         <tr>
             <td>Mehrfachauswahl, Personen</td>
-            <td><p>Hat eines von</p>
+            <td><p>Hat eines von</p> <!--or <span class="preview"><p>Is any of</p></span>-->
             <p>Hat alle von</p>
             <p>Ist genau</p>
-            <p>Hat keines von</p>
+            <p>Hat keines von</p> <!--or <span class="preview"><p>Is none of</p></span>-->
             <p>Ist leer</p>
             <p>Ist nicht leer</p></td>
         </tr>
@@ -486,6 +499,16 @@ So fügen Sie eine Gruppierung in der Zeitleisten -Ansicht hinzu:
 
    Gruppierungen werden sofort angewendet.
 
+   <!--
+    <div class="preview">
+    *** Not sure which one will be released: 
+    500 records display by default. There might be more records that belong to the groupings visible on the screen that are not uploaded. Continue to scroll to upload all records. 
+
+    OR
+
+    500 records display by default. There might be more records that belong to the groupings visible on the screen that are not uploaded. Click **Load more** to load all records. 
+    </div>
+    -->
 1. <span class="preview">(Optional) Klicken Sie auf das Symbol **Gruppierung** Symbol ![Gruppierungssymbol](assets/grouping-icon.png) in der Symbolleiste, um das Feld **Datensätze gruppieren nach** zu öffnen, und klicken Sie dann auf **Alle erweitern**, um alle Gruppierungen zu erweitern, oder **Alle reduzieren**, um alle Gruppierungen auszublenden und nur die benötigten manuell auszublenden. </span>
 1. <span class="preview">(Optional und bedingt) Ziehen Sie die Trennlinie für das linke Bedienfeld per Drag-and-Drop in die Anzeige des Navigationsbereichs, um ihre Breite anzupassen. Die Breite des Bedienfelds jedes Benutzers wird sitzungsübergreifend gespeichert, mit einer Standardbreite für Erstbenutzer.</span>
 1. <span class="preview">(Optional) Bewegen Sie bei langen Gruppierungsnamen den Mauszeiger über die Zeile einer Gruppierung, um den vollständigen Namen der Gruppierung in einer QuickInfo anzuzeigen.</span>
@@ -502,52 +525,52 @@ So fügen Sie eine Gruppierung in der Zeitleisten -Ansicht hinzu:
    >[!TIP]
    >
    >Wenn Sie Datensätze von einer Gruppierung in eine andere ziehen, aktualisieren die in der Gruppierung ausgewählten Felder automatisch die Werte der verschobenen Datensätze.
-1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [&#x200B; Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
-
-<!--
+1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [ Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
 
 <div class="preview">
 
-### Add sort
+### Sortierung hinzufügen
 
-You can sort records and groupings in the timeline view. 
+In der Zeitleisten -Ansicht können Sie Datensätze und Gruppierungen sortieren.
 
-Consider the following when working with record sorting in the timeline view: 
+Beachten Sie beim Arbeiten mit der Datensatzsortierung in der Zeitleisten -Ansicht Folgendes:
 
-* You can apply sorting both in the table and timeline views. The sorting of the table view is independent from that in the timeline view of the same record type.
-* You can apply 10 sorting conditions for records and as many sorting conditions as you have groupings in the timeline view (you can have up to 3 groupings conditions in the timeline view). 
+* Sie können die Sortierung sowohl in der Tabellen- als auch in der Zeitleisten-Ansicht anwenden. Die Sortierung der Tabellenansicht ist unabhängig von der in der Zeitleisten-Ansicht desselben Datensatztyps.
+* Sie können 10 Sortierbedingungen für Datensätze und so viele Sortierbedingungen anwenden, wie Sie Gruppierungen in der Zeitleisten -Ansicht haben (Sie können bis zu 3 Gruppierungsbedingungen in der Zeitleisten -Ansicht haben).
 
-* The sortings are unique to the view that you select. Two timeline views of the same record type can have different sortings applied to them. Two users looking at the same timeline view see the same sorting that is currently applied. 
-* You cannot name the sorting you build for a timeline view.
-* Removing sorting removes it from anyone accessing the same record type as you and who displays the same view as you do. 
+* Die Sortierungen sind für die ausgewählte Ansicht eindeutig. Auf zwei Zeitleisten-Ansichten desselben Datensatztyps können unterschiedliche Sortierungen angewendet werden. Zwei Benutzer, die dieselbe Zeitleisten -Ansicht betrachten, sehen dieselbe Sortierung, die derzeit angewendet wird.
+* Die von Ihnen für eine Zeitleisten-Ansicht erstellte Sortierung kann nicht benannt werden.
+* Durch das Entfernen der Sortierung wird die Sortierung für alle entfernt, die auf denselben Datensatztyp zugreifen wie Sie und die dieselbe Ansicht anzeigen wie Sie.
 
-* You can sort by connected record fields or lookup fields.  
+* Sie können nach verbundenen Datensatzfeldern oder Suchfeldern sortieren.
 
-To add a sort in the timeline view:
+So fügen Sie eine Sortierung in der Zeitleisten -Ansicht hinzu:
 
-1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. Click **Sort** in the view's toolbar. 
+1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
+1. Klicken Sie **der Symbolleiste** Ansicht auf „Sortieren“.
 
-    The sorting box opens. 
+   Der Sortierkasten wird geöffnet.
 
-    ![Sort in timeline with grouping sort](assets/sort-in-timeline.png)
-1. From the drop-down menu, select **Sort records**, then either click a field listed in the **Start with a suggested field** list, or click **Choose a different field**, then search for field and click it when it displays in the list.
-1. Select the order you want the sorting to be applied (alphabetical, reverse descendent etc). The order a sorting is applied depends on the format of the field you selected. 
-1. (Optional) Click **Add condition** to add up to 10 conditions. 
-1. (Optional) Click **Clear all** to remove all conditions.
-1. From the drop-down menu in the upper-left corner of the sorting box, select **Sort groupings**. 
+   ![Sortieren Sie in der Zeitleiste mit Gruppierungssortierung](assets/sort-in-timeline.png)
+1. Wählen Sie aus dem Dropdown-Menü **Datensätze sortieren** und klicken Sie dann entweder auf ein Feld, das in der Liste **Mit einem vorgeschlagenen Feld beginnen** aufgeführt ist, oder klicken Sie auf **Anderes Feld auswählen**, suchen Sie nach dem Feld und klicken Sie auf es, wenn es in der Liste angezeigt wird.
+1. Auswählen der Richtung, in der die Datensatzsortierung angewendet werden soll (alphabetisch, untergeordnet in umgekehrter Reihenfolge usw.) Die Richtung, in der eine Sortierung angewendet wird, hängt vom Format des ausgewählten Felds ab.
+1. (Optional) Klicken Sie auf **Bedingung hinzufügen**, um bis zu 10 Bedingungen hinzuzufügen.
+1. (Optional) Klicken Sie auf **Alle löschen** um alle Bedingungen zu entfernen.
+1. Wählen Sie aus dem Dropdown-Menü in der oberen linken Ecke des Sortierfelds die Option **Gruppierungen sortieren**.
 
-    >[!TIP]
-    >
-    >If there are no groupings applied to the timeline view, the Sort groupings option is not available.
-1. To reorder the sorting order of the fields, click **Grouping** in the toolbar and reorder the groupings. Sorting field order also changes. 
-1. (Optional) To remove grouping sorting, remove the groupings from the timeline view. 
+   >[!TIP]
+   >
+   >Wenn keine Gruppierungen auf die Zeitleisten-Ansicht angewendet werden, ist die Option **Gruppierungen sortieren** nicht verfügbar.
+1. (Optional) Wählen Sie die Richtung aus, in der die Gruppierungssortierung angewendet werden soll (alphabetisch, untergeordnet umgekehrt usw.). Die Richtung, in der eine Sortierung angewendet wird, hängt vom Format des ausgewählten Felds ab.
+1. (Bedingt) Klicken Sie auf **Alle zurücksetzen**, um die Sortierrichtung zurückzusetzen, wenn Sie sie von der Standardeinstellung abgeändert haben.
+1. Um die Sortierreihenfolge der Felder neu anzuordnen, klicken Sie in der Symbolleiste auf **Gruppierung** und ordnen Sie die Gruppierungen neu an. Die Sortierfeldreihenfolge ändert sich ebenfalls.
+1. (Optional) Um die Gruppierungssortierung zu entfernen, entfernen Sie die Gruppierungen aus der Zeitleisten -Ansicht.
 
-    Sorting is applied immediately.
-1. Click anywhere on the page to close the sorting box. 
+   Die Sortierung wird sofort angewendet.
+1. Klicken Sie auf eine beliebige Stelle auf der Seite, um den Sortierkasten zu schließen.
 
 </div>
--->
+
 
 <!--this ("To remove grouping sorting, remove the groupings from the timeline view. ") might change at production - we have a button here called Reset all but right now it's not functioning - I logged a bug for this-->
 
@@ -695,7 +718,7 @@ Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quic
 #### Aufschlüsseln verbundener Datensätze
 
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie in den **&#x200B;**- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
+1. Klicken Sie in den ****- oder **Compact** **-Modi oben rechts in der Zeitleisten** Ansicht auf „Aufschlüsselung“.
 1. Erweitern Sie das **Verknüpften Datensatztyp auswählen** und wählen Sie einen verbundenen Datensatztyp aus. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![Aufschlüsselungsauswahl und Schaltfläche in der Zeitleisten-Ansicht](assets/breakdown-picker-and-button-on-timeline.png)
