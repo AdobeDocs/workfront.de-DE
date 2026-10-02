@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: ef85d371933c979faebd60bae49cb66936fd81e3
+source-git-commit: 1043dde02b6d66f9a0d041846b74184013989764
 workflow-type: tm+mt
-source-wordcount: '3093'
+source-wordcount: '3281'
 ht-degree: 4%
 ---
 
@@ -28,6 +28,19 @@ Informationen zur Verwendung dieser Tools über eine KI-Agentenplattform finden 
 >[!IMPORTANT]
 >
 >Die KI-Agentenplattform agiert in Workfront unter Verwendung Ihres Workfront-Kontos, Ihrer Zugriffsebene und Ihrer Objektberechtigungen. Ein Tool funktioniert nur, wenn Sie den entsprechenden Zugriff in Workfront haben. Adobe übernimmt keine Verantwortung für Änderungen, die die KI-Agentenplattform an Ihren Workfront-Daten vornimmt.
+
+## Auswirkungen von Produktberechtigungen auf die Werkzeugliste
+
+Die Tools, die in Ihrer KI-Agentenplattform angezeigt werden, hängen von den Workfront-Produktberechtigungen Ihres Unternehmens ab.
+
+* Kunden, die nur über eine Lizenz für Workfront Planning verfügen, sehen Planungswerkzeuge, jedoch keine Workflow-Werkzeuge.
+* Kunden, die nur über eine Lizenz für Workfront Workflow verfügen, finden weitere Informationen unter Workflow-Tools , nicht jedoch unter Planungs-Tools.
+* Kunden, die sowohl für Workfront Workflow als auch für Workfront Planning lizenziert sind, sehen beide Tools.
+* Einblicke und Kontextwerkzeuge stehen allen Kunden zur Verfügung.
+
+Wenn Ihr Unternehmen nicht über die Berechtigung für einen Produktbereich verfügt, werden die zugehörigen Tools nicht in der Toolliste für diese Verbindung angezeigt. Wenn eine KI-Agent-Plattform versucht, ein Tool aufzurufen, das für Ihre Berechtigungen nicht verfügbar ist, wird die Anfrage blockiert.
+
+In den folgenden Tabellen wird angegeben, zu welchem Produktbereich die einzelnen Tools gehören.
 
 
 ## Lese- und Schreibaktionen
@@ -45,6 +58,10 @@ Ihr Workfront-Administrator steuert über zwei Umschalter in den Systemeinstellu
 Wenn die KI-Agentenplattform Workfront-Elemente finden, diese jedoch nicht erstellen, aktualisieren oder löschen kann, bitten Sie Ihren Workfront-Administrator, Schreibaktionen zu aktivieren. Weitere Informationen finden Sie unter [Administratorvoraussetzungen](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#admin-prerequisites) in *Konfigurieren des Adobe Workfront MCP-Servers*.
 
 ## Validierungs-Tools
+
+Produktanforderung: Alle Kunden
+
+Es gibt derzeit keine Berechtigungsbeschränkungen für Genehmigungs-Tools.
 
 ### Dokumente
 
@@ -123,6 +140,8 @@ Wenn die KI-Agentenplattform Workfront-Elemente finden, diese jedoch nicht erste
 | Suchen von Projekten | `approvals_find_projects` | Veraltet. Verwenden Sie stattdessen `insights_find_workfront_data` . Dieses Tool hat Workfront-Projekte nachgeschlagen, die optional nach Namen gefiltert und/oder auf Projekte beschränkt wurden, deren Inhaber der aufrufende Benutzer ist. | Lesen |
 
 ## Planungstools
+
+Produktanforderung: Workfront Planning
 
 >[!IMPORTANT]
 >
@@ -208,6 +227,8 @@ Wenn die KI-Agentenplattform Workfront-Elemente finden, diese jedoch nicht erste
 
 ## Workflow-Tools
 
+Produktanforderung: Workfront Workflow
+
 Workflow-Tools sind allgemeine Aktionen, die die KI-Agentenplattform für die Arbeit mit beliebigen Workfront-Objekten verwendet - Projekten, Aufgaben, Problemen, Stunden, Zuweisungen, Programmen, Portfolios usw.
 
 ### Objekte und Felder
@@ -291,6 +312,8 @@ Beispiel-Eingabeaufforderungen:
 
 ### Insights-Tools
 
+Produktanforderung: Workfront Workflow oder Workfront Planning.
+
 Insights-Tools rufen Informationen zu Workfront-Objekten ab.
 
 >[!NOTE]
@@ -311,6 +334,8 @@ Insights-Tools rufen Informationen zu Workfront-Objekten ab.
 
 ## Feedback-Tools
 
+Produktanforderung: Workfront Workflow oder Workfront Planning.
+
 <span class="preview">Mit Feedback-Tools können Sie Ihre Erfahrungen mit dem Workfront MCP-Server direkt über Ihre KI-Agentenplattform berichten.</span>
 
 | Titel | Tool-Name | Funktion | Aktion |
@@ -318,6 +343,8 @@ Insights-Tools rufen Informationen zu Workfront-Objekten ab.
 | <span class="preview">Feedback geben</span> | <span class="preview">`share_feedback`</span> | <span class="preview">Zeichnet Ihre gemeldeten Sentiment und die Ereignisse während des Gesprächs auf, sodass die MCP-Tools von Workfront verbessert werden können. Wird nur verwendet, wenn Sie ausdrücklich dazu auffordern, Feedback zu geben (z. B. „Feedback geben“ oder „Fehler melden„).</span> | <span class="preview">Write</span> |
 
 ## Reporting-Tools
+
+Produktanforderung: Alle Kunden
 
 Mit Reporting-Tools können Sie Canvas-Dashboards über Chat erstellen und verwalten. Beschreiben Sie den gewünschten Bericht in einfacher Sprache, und die KI-Agentenplattform erstellt das Dashboard und die Widgets für Sie, indem Sie Ihre Workfront-Daten verwenden.
 
@@ -336,7 +363,9 @@ Mit Reporting-Tools können Sie Canvas-Dashboards über Chat erstellen und verwa
 
 ## So werden Tools aktualisiert
 
-Wenn Adobe eine neue Version des Workfront MCP-Servers veröffentlicht, verwendet die KI-Agentenplattform automatisch den aktualisierten Toolsatz. Sie müssen nichts auf Ihrer Seite neu verbinden oder ändern.
+Wenn Adobe eine neue Version des Workfront MCP-Servers veröffentlicht, verwendet die KI-Agentenplattform automatisch den aktualisierten Toolsatz.
+
+Die Werkzeugliste wird festgelegt, wenn die Verbindung beginnt. Wenn sich die Produktberechtigungen Ihres Unternehmens ändern, wird die aktualisierte Toolliste angezeigt, wenn Sie das nächste Mal eine neue Verbindung zum Workfront MCP-Server herstellen.
 
 
 
