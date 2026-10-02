@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ecee8b1aadd804a45ff0830e04e77981a3269cff
 workflow-type: tm+mt
-source-wordcount: '2734'
+source-wordcount: '2735'
 ht-degree: 9%
 ---
 # Hinzufügen berechneter Felder zu einem Formular
@@ -103,9 +103,9 @@ Sie können für dasselbe Feld auch auf dem neuen Formular eine andere Berechnun
 >
 >Änderungen an berechneten Ausdrücken können dazu führen, dass der Feldwert in Objekten veraltet ist. Führen Sie einen der folgenden Schritte aus, um sicherzustellen, dass Sie in diesen Feldern immer die aktuelle Berechnung anzeigen:
 >
->* Nachdem Sie ein Objekt gespeichert haben, bei dem Sie Daten in einem angehängten benutzerdefinierten Formular bearbeitet haben, klicken Sie auf der Hauptseite des Objekts auf das Symbol Mehr ![Mehr](assets/more-icon.png) und berechnen Sie dann benutzerdefinierte Ausdrücke neu.
->* Wählen Sie die Option Benutzerdefinierte Ausdrücke neu berechnen , wenn Sie Objekte stapelweise bearbeiten.
->* Wählen Sie beim Bearbeiten eines berechneten benutzerdefinierten Felds in einem benutzerdefinierten Formular die Option Vorherige Berechnungen aktualisieren .
+>* Nachdem Sie ein Objekt gespeichert haben, bei dem Sie Daten in einem angehängten benutzerdefinierten Formular bearbeitet haben, klicken Sie auf der Hauptseite des Objekts auf das **Mehr**-Symbol ![Mehr](assets/more-icon.png) und **Benutzerdefinierte Ausdrücke neu berechnen**.
+>* Wählen Sie die Option **Benutzerdefinierte Ausdrücke neu berechnen**, wenn Sie Objekte stapelweise bearbeiten.
+>* Wählen Sie die Option Vorherige Berechnungen aktualisieren , wenn Sie ein berechnetes benutzerdefiniertes Feld in einem benutzerdefinierten Formular bearbeiten.
 
 So verwenden Sie ein vorhandenes berechnetes benutzerdefiniertes Feld wieder:
 
@@ -334,18 +334,19 @@ So verwenden Sie ein vorhandenes berechnetes benutzerdefiniertes Feld wieder:
       >
       >Sie können einen der folgenden Schritte ausführen, um Hilfe bei Ihrer Berechnung zu erhalten:
       > 
-      >* Bewegen Sie den Mauszeiger über einen Ausdruck in Ihrer Berechnung, um eine Beschreibung, ein Beispiel, das zeigt, wie er verwendet werden kann, und einen **Weitere Informationen**-Link zu weiteren Informationen im Artikel [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) anzuzeigen.
-      >  ![Hilfetext für Ausdruck](assets/hover-expression-help-text.jpg)
+      >* Bewegen Sie den Mauszeiger über einen Ausdruck in Ihrer Berechnung, um eine Beschreibung und ein Beispiel anzuzeigen, die zeigen, wie er verwendet werden kann. <!--and a **Learn More** link to more information in the article [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).-->
+      >  ![Hilfetext für Ausdruck](assets/hover-expression-help-text.png)
       >* Verwenden Sie die Farbcodierung, um die hinzugefügten Komponenten zu identifizieren. Ausdrücke werden in blauen und Felder in grün angezeigt.
-      >  ![Farben für Feldausdrücke](assets/colors-fields-expressions.jpg)
-      >* Suchen Sie nach Berechnungsfehlern, die Sie fortlaufend in Rosa markieren. Sie können den Mauszeiger über einen markierten Fehler bewegen, um eine kurze Beschreibung der Ursache anzuzeigen.
+      >  ![Farben für Feldausdrücke](assets/colors-fields-expressions.png)
+      >* Suchen Sie nach Berechnungsfehlern, die beim Vorgang rot unterstrichen werden. Sie können den Mauszeiger über einen markierten Fehler bewegen, um eine kurze Beschreibung der Ursache anzuzeigen.
       >  ![Hilfe zu Fehlern](assets/error-help.png)
       >* Zeigen Sie im Bereich unterhalb Ihrer Berechnung die Ergebnisse eines vorhandenen Workfront-Objekts an.
       ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-      >  ![Vorschau der Berechnung](assets/preview-calc.jpg)
+      >  ![Vorschau der Berechnung](assets/preview-calc.png)
       >* Referenzausdrücke in einer langen Berechnung unter Verwendung der Zeilennummern, die links angezeigt werden.
 
       +++
+
    1. Klicken Sie **Minimieren** wenn Sie die Erstellung der Berechnung für das berechnete benutzerdefinierte Feld abgeschlossen haben.
 
    1. (Optional) Verwenden Sie eine der folgenden Optionen, um Ihr berechnetes benutzerdefiniertes Feld weiter zu konfigurieren:
@@ -356,7 +357,7 @@ So verwenden Sie ein vorhandenes berechnetes benutzerdefiniertes Feld wieder:
     <tbody> 
      <tr> 
       <td role="rowheader">Logik hinzufügen</td> 
-      <td>Sie können eine Anzeigelogik hinzufügen, um zu bestimmen, ob das berechnete Feld angezeigt wird, basierend auf mindestens einer Auswahl, die ein Benutzer beim Ausfüllen des Formulars in einem vorangehenden Feld mit Mehrfachauswahl (Dropdown, Kontrollkästchen oder Optionsfelder) trifft. <!-- For more information, see <a href="Need to add link for new article when it's written" class="MCXref xref">Add display logic and skip logic to a custom form</a>.--> <p>Dies ist nur verfügbar, wenn dem berechneten benutzerdefinierten Feld im Formular mindestens ein Kontrollkästchen, ein Optionsfeld oder ein Dropdown-Feld vorangeht. </p> <p>Logik überspringen ist für berechnete benutzerdefinierte Felder nicht verfügbar.</p> </td> 
+      <td>Sie können eine Anzeigelogik hinzufügen, um zu bestimmen, ob das berechnete Feld angezeigt wird, basierend auf mindestens einer Auswahl, die ein Benutzer in einem vorangehenden Feld mit Mehrfachauswahl (Dropdown, Kontrollkästchen oder Optionsfelder) beim Ausfüllen des Formulars vornimmt. Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md">Hinzufügen von Logikregeln zu benutzerdefinierten Formularen und Feldern</a>. <p>Dies ist nur verfügbar, wenn dem berechneten benutzerdefinierten Feld im Formular mindestens ein Kontrollkästchen, ein Optionsfeld oder ein Dropdown-Feld vorangeht. </p> <p>Logik überspringen und andere Logiktypen sind für berechnete benutzerdefinierte Felder nicht verfügbar.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Vorherige Berechnungen aktualisieren</td> 
