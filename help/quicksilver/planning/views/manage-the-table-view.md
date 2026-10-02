@@ -28,9 +28,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3e114bf3c8ab947437325eebfb8acd8931192d9a
+source-git-commit: f1a6727b3282e86f8f8b541173674450fbfe45dc
 workflow-type: tm+mt
-source-wordcount: '4045'
+source-wordcount: '4228'
 ht-degree: 3%
 ---
 # Verwalten der Tabellenansicht
@@ -324,82 +324,78 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
 
    1. Klicken Sie auf das **x**-Symbol im Suchfeld, um den Suchbegriff zu löschen.
 
-1. (Bedingt) Erweitern Sie für Felder vom Typ Zahl, Währung, Prozentsatz und Formel , die mit einem dieser Feldtypen formatiert sind, das Dropdown-Menü Aggregator unten in den Spalten und wählen Sie aus den folgenden Optionen aus:
 
-   * **SUM**: Zeigt die Gesamtzahl aller Zellen in der Spalte an. Dies ist die Standardauswahl.
-   * **MIN**: Zeigt den niedrigsten Wert aus allen Zellen in der Spalte an.
-   * **MAX**: Zeigt den höchsten Wert aus allen Zellen in der Spalte an.
-   * **AVG**: Zeigt den Durchschnittswert aller Zellen in der Spalte an.
+1. (Bedingt) Führen Sie je nach den angezeigten Feldtypen einen der folgenden Schritte aus:
 
-   <!-- 
+   * Für Zahlen-, Währungs-, Prozentsatz- und Formelfelder, die als eines dieser Felder formatiert sind, erweitern Sie das Dropdown-Menü Aggregator unten in den Spalten und wählen Sie aus den folgenden Optionen aus:
+
+     * **SUM**: Zeigt die Gesamtzahl aller Zellen in der Spalte an.
+     * **MIN**: Zeigt den niedrigsten Wert aus allen Zellen in der Spalte an.
+     * **MAX**: Zeigt den höchsten Wert aus allen Zellen in der Spalte an.
+     * **AVG**: Zeigt den Durchschnittswert aller Zellen in der Spalte an.
+     * <span class="preview">**NONE**: Die Werte der Spalte werden nicht aggregiert. Dies ist die Standardoption.</span>
+
+   <div class="preview">
+
+   * Erweitern Sie für Datumsfelder das Dropdown-Menü des Aggregators unten in den Spalten und wählen Sie aus den folgenden Optionen:
+
+     * **NONE**: Die Werte der Spalte werden nicht aggregiert. Dies ist die Standardoption.
+     * **LEER**: Zeigt die Anzahl der Felder an, die keine Werte haben.
+     * **NICHT LEER**: Zeigt die Anzahl der Felder an, die Werte aufweisen.
+     * **MIN**: Zeigt das früheste Datum an.
+     * **MAX**: Zeigt das letzte Datum an.
+
+   * Wählen Sie für die Felder Text, Boolescher Wert, Personen das Dropdown-Menü des Aggregators am unteren Rand der Spalten aus und wählen Sie aus den folgenden Optionen:
+
+     * **NONE**: Die Werte der Spalte werden nicht aggregiert. Dies ist die Standardoption.
+     * **LEER**: Zeigt die Anzahl der Felder an, die keine Werte haben.
+     * **NICHT LEER**: Zeigt die Anzahl der Felder an, die Werte aufweisen.
+
+   </div>
+
+   Beachten Sie beim Arbeiten mit Aggregatoren Folgendes:
+
+   * Die Aggregatorzeile in der Spalte wird eingefroren, wenn sie Werte anzeigt, und ist Teil der Anzeigeeinstellungen.
+   * Als Ansichts-Manager können Sie den Aggregator auswählen. Dieser wird für die Ansicht freigegeben, wenn Sie die Ansicht für andere freigeben.
+   * Als Viewer können Sie den Aggregator ändern, er wird jedoch nicht mit der Ansicht gespeichert.
+   * Öffentliche freigegebene Ansichten werden mit den gespeicherten Aggregatoren geteilt, die nicht geändert werden können.
+
+   <div class="preview">
+
+   * Die folgenden Feldtypen haben keinen Aggregator:
+
+     * Erstellt von
+     * Zuletzt geändert von
+     * Eintrags-ID
+   * Formelfelder und Lookup-Felder verfügen über die Aggregatoren, die ihrem Feldformat entsprechen.
+
+   </div>
+
+<!--
+
+FROM LISA: This is the old section. I commented it out vs deleting.
+
+1. (Conditional) For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
+
+    * **SUM**: Displays the total of all cells in the column. This is the default selection. 
+    * **MIN**: Displays the lowest value from all the cells in the column. 
+    * **MAX**: Displays the highest value from all the cells in the column. 
+    * **AVG**: Displays the average value of all the cells in the column.  
+
     <div class="preview"> 
 
     * **NONE**: The values of the column are not aggregated. This is the default option. 
     
     </div> 
-    -->
 
-   Beachten Sie beim Arbeiten mit Aggregatoren Folgendes:
-
-   * Die Aggregator-Zeile in der Spalte ist eingefroren und Teil der Anzeigeeinstellungen.
-   * Als Ansichts-Manager können Sie den Aggregator auswählen. Dieser wird für die Ansicht freigegeben, wenn Sie die Ansicht für andere freigeben.
-   * Als Viewer können Sie den Aggregator ändern, er wird jedoch nicht mit der Ansicht gespeichert.
-   * Öffentliche freigegebene Ansichten werden mit den gespeicherten Aggregatoren geteilt, die nicht geändert werden können.
-
-<!--
-At preview release, replace the last procedure step with this:
-
-1. (Conditional) Depending on the types of fields you are viewing, do one of the following; 
-
-    * For number, currency, percentage, and formula fields that are formatted as any of these field types, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
-
-        * **SUM**: Displays the total of all cells in the column. This is the default selection. 
-        * **MIN**: Displays the lowest value from all the cells in the column. 
-        * **MAX**: Displays the highest value from all the cells in the column. 
-        * **AVG**: Displays the average value of all the cells in the column.  
-
-        <div class="preview">
-
-        * **NONE**: The values of the column are not aggregated.This is the default option. 
-    
-        </div> 
-   
-    <div class="preview">
-
-    * For date fields, expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
-
-        * **NONE**: The values of the column are not aggregated.This is the default option.
-        * **EMPTY**: Displays a count of the fields that have no values. 
-        * **NOT EMPTY**: Displays a count of the fields that have values. 
-        * **MIN**: Displays the earliest date.
-        * **MAX**: Displays the latest date. 
-    
-    * For text, select, boolean, People fields expand the aggregator dropdown menu at the bottom of the columns, and select from the following options:
-
-        * **NONE**: The values of the column are not aggregated.This is the default option.
-        * **EMPTY**: Displays a count of the fields that have no values. 
-        * **NOT EMPTY**: Displays a count of the fields that have values.  
-
-    </div>
-        
     Consider the following when working with aggregators: 
     
-    * The aggregator row in the column is frozen when it displays values, and is part of the view settings. 
+    * The aggregator row in the column is frozen and is part of the view settings. 
     * As a View manager, you can choose the aggregator, and it will be shared with the view when you share the view with others. 
     * As a viewer, you can modify the aggregator, but it does not save with the view. 
     * Public shared views are shared with the saved aggregators which cannot be modified. 
 
-    <div class="preview">
-
-    * The following field types do not have an aggregator: 
-
-        * Created by
-        * Last modified by
-        * Record ID
-    * Formula fields and look up fields have the aggregators that correspond to their field format. 
-
-    </div>
-    -->
+-->
 
 ### Zeilen (oder Datensätze) hinzufügen {#add-rows-1}
 
@@ -461,6 +457,7 @@ Weitere Informationen finden Sie unter [Erstellen von Einträgen](/help/quicksil
 Mit Filtern können Sie die Menge der auf dem Bildschirm angezeigten Informationen reduzieren.
 
 Beachten Sie beim Arbeiten mit Filtern in der Tabellenansicht Folgendes:
+
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
@@ -1265,9 +1262,5 @@ When you display the table view, you can also view which field another user is e
 >Real-time presence indicators display users that are currently editing a field anywhere in Workfront Planning. This includes either the table view or the Details area of the record.
 
 -->
-
-
-
-
 
 

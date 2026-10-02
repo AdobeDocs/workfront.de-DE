@@ -16,16 +16,24 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: ce3795d14390ccff1c66d7c6add34455c0ca4082
+source-git-commit: a4dfe29c0cf85f6029fd5f4398942c60bd3d6b5a
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1072'
 ht-degree: 2%
 ---
 # Verwenden von Arbeitsagenten
 
-Arbeitsagenten sind KI-Mitwirkende, die zusätzlich zu den bereits vorhandenen KI-Reviewern für Dokument- und Asset-Überprüfungen direkt Workfront-Aufgaben zugewiesen werden können. Wie andere KI-Mitwirkende werden Arbeitsagenten im Bereich „Setup“ konfiguriert und Aufgaben wie Benutzenden zugewiesen.
+{{preview-fast-release-general}}
 
-Arbeitsagenten stellen eine Verbindung zu Agenten her, die Sie in Copilot Studio, Claude oder Writer konfiguriert haben.
+Arbeitsagenten sind KI-Mitwirkende, die Workfront-Aufgaben und -Problemen direkt zugewiesen werden können. Wie andere KI-Mitwirkende werden Arbeitsagenten im Bereich „Setup“ konfiguriert und Aufgaben wie Benutzenden zugewiesen.
+
+Arbeitsagenten stellen eine Verbindung zu Agenten her, die Sie in Copilot Studio, Claude, Writer, <span class="preview">OpenAI oder IBM konfiguriert haben. </span>
+
+>[!IMPORTANT]
+>
+>Der Autor verwirft die Verwendung von Agenten. Mit Writer-Agenten konfigurierte Arbeitsagenten funktionieren nach dem 9. Oktober nicht mehr. 2026.
+>
+>Weitere Informationen zur Einstellung finden Sie unter [Migration und Einstellung von Agentenbibliotheken](https://support.writer.com/articles/8335689949-migrating-no-code-agents) in der Writer-Dokumentation.
 
 Informationen und Anweisungen zum Erstellen eines Arbeitsagenten in Workfront finden Sie unter [Konfigurieren eines &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)) im Artikel Konfigurieren von KI-Mitwirkenden.
 
@@ -58,7 +66,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 ## Voraussetzungen
 
-* Sie müssen einen Agenten in Copilot, Claude oder Writer.ai konfigurieren, bevor Sie ihn als Arbeitsagent verwenden können.
+* Sie müssen einen Agenten in Copilot, Claude, Writer.ai, OpenAI oder IBM konfigurieren, bevor Sie ihn als Arbeitsagenten in Workfront verwenden können.
 
 ## Arbeitsagenten - Übersicht
 
@@ -74,7 +82,7 @@ Beispiele für Workflows:
 >
 >* Spezifische Details zu den Zuständigkeiten und Fähigkeiten eines Agenten werden in der Anwendung konfiguriert, in der der Agent erstellt wird, nicht in Workfront.
 >* Der Workfront MCP-Server muss nicht zu dem als Arbeitsagent verwendeten Agenten hinzugefügt werden und muss nicht verbunden sein, damit der Arbeitsagent funktioniert.
->* Arbeitsagenten unterstützen derzeit in Copilot Studio, Claude und Writer.ai erstellte Agenten.
+>* Arbeitsagenten unterstützen derzeit in Copilot Studio, Claude und Writer.ai, <span class="preview">OpenAI und IBM erstellte Agenten</span>
 >* Beim Konfigurieren eines Agenten in Copilot Studio müssen Sie die Sicherheit auf &quot;**Authentifizierung“**.
 >* Informationen und Anweisungen zum Erstellen eines Arbeitsagenten in Workfront finden Sie unter [Konfigurieren eines &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-ai-collaborators.md#configure-a-work-agent)) im Artikel Konfigurieren von KI-Mitwirkenden.
 
@@ -86,6 +94,7 @@ Wenn ein Arbeitsagent mit der Arbeit an einer Aufgabe beginnt, liest er automati
 * Aufgabenbeschreibung
 * Kommentare im Aktualisierungsverlauf der Aufgabe
 * Informationen in jedem benutzerdefinierten Formular, das an die Aufgabe angehängt ist
+* <span class="preview"> Dokumente</span>
 
 Diese Informationen werden immer gelesen und können nicht in Workfront konfiguriert werden.
 
@@ -98,7 +107,9 @@ Diese Informationen werden immer gelesen und können nicht in Workfront konfigur
 
 ## Trigger zum Starten des Arbeitsagenten
 
-Wenn ein Arbeitsagent einer Aufgabe zugewiesen wird, beginnt seine Arbeit, wenn eine der folgenden Situationen eintritt:
+Wenn ein Arbeitsagent einer Aufgabe (<span class="preview"> einem Problem) zugewiesen </span>, beginnt seine Arbeit, wenn eine der folgenden Situationen eintritt:
+
+<!--update wording to include issues when this goes to production-->
 
 * Der Arbeitsagent ist einer Aufgabe zugewiesen, die startbereit ist. (Wenn die Aufgabe beispielsweise Vorgänger hat, sind die Vorgänger abgeschlossen.)
 * Der Arbeitsagent und ein Benutzer werden einer Aufgabe zugewiesen, und der Arbeitsagent wird zuerst zugewiesen.
@@ -114,9 +125,9 @@ Die folgenden Situationen führen nicht dazu, dass der Arbeitsagent mit der Arbe
 * Ein Arbeitsagent wird einer Aufgabe zugewiesen, der bereits ein Arbeitsagent zugewiesen ist. In diesem Fall hat der erste zugewiesene Arbeitsagent bereits mit der Arbeit begonnen, und der zweite Arbeitsagent unternimmt nichts.
 * Ein Arbeitsagent ist einer Aufgabe zugewiesen, die noch nicht startbereit ist. (Wenn die Aufgabe beispielsweise Vorgänger hat, sind die Vorgänger noch nicht abgeschlossen.)
 
-## Zuweisen eines Arbeitsagenten zu einer Aufgabe
+## Zuweisen eines Arbeitsagenten zu einer Aufgabe (<span class="preview"> Problem</span>
 
-Arbeitsagenten werden Aufgaben auf die gleiche Weise zugewiesen wie Benutzern.
+Arbeitsagenten werden Aufgaben (<span class="preview"> Problemen) auf </span> Weise zugewiesen.
 
 Wenn Sie in der Liste der verfügbaren Bevollmächtigten nach einem Arbeitsagenten suchen, ist der Name des Arbeitsagenten nur ein Vorname.
 

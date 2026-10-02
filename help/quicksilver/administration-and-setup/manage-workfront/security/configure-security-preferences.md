@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 69af10a8df4faf85df36f148c7d261eefefa951e
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1543'
 ht-degree: 10%
 ---
 # Systemvoreinstellungen konfigurieren
@@ -226,7 +226,9 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 <div class="preview">
 
-Mit autorisierten Umleitungs-URLs können Sie eine benutzerdefinierte KI-Agent-Plattform verbinden, deren OAuth-Rückruf-URL für Ihre Organisation eindeutig ist, z. B. eine URL, die eine Verbindung oder eine Mandanten-ID enthält. Weitere Informationen dazu, wann dies erforderlich ist, finden Sie unter [Verbindung mit OAuth](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#connect-with-oauth) in [Konfigurieren des Adobe Workfront MCP-Servers](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
+Mit autorisierten Umleitungs-URLs können Sie eine benutzerdefinierte KI-Agent-Plattform verbinden, deren OAuth-Rückruf-URL für Ihre Organisation eindeutig ist, z. B. eine URL, die eine Verbindung oder eine Mandanten-ID enthält.
+
+Weitere Informationen dazu, wann Sie möglicherweise eine autorisierte Umleitungs-URL benötigen, finden Sie unter [Verbindung mit OAuth](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#connect-with-oauth) in [Konfigurieren des Adobe Workfront MCP-Servers](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
 
 +++ Erweitern Sie , um schrittweise Anweisungen zum Verwalten autorisierter Umleitungs-URLs für MCP anzuzeigen.
 
@@ -238,12 +240,11 @@ Hinzufügen einer URL:
 1. Geben Sie den Callback **URL** ein.
 1. Klicken Sie auf **Hinzufügen**.
 1. Klicken Sie auf **Speichern**.
+1. Um eine URL zu entfernen, öffnen Sie **URL verwalten** entfernen Sie den Eintrag und klicken Sie dann auf **Speichern**. Dies kann erforderlich sein, wenn eine zugehörige Integration eingestellt oder beeinträchtigt wird.
 
 >[!IMPORTANT]
 >
->Callback-URLs müssen genau übereinstimmen. Workfront unterstützt keine Platzhalter- oder Präfixabgleiche für benutzerdefinierte Callback-URLs.
-
-Um eine URL zu entfernen - beispielsweise wenn die zugehörige Integration nicht mehr unterstützt oder kompromittiert wurde - öffnen Sie **URLs verwalten** entfernen Sie den Eintrag und klicken Sie auf **Speichern**.
+>Callback-URLs müssen exakt übereinstimmen, einschließlich aller URL-Parameter. Workfront unterstützt keine Platzhalter- oder Präfixabgleiche für benutzerdefinierte Callback-URLs.
 
 +++
 

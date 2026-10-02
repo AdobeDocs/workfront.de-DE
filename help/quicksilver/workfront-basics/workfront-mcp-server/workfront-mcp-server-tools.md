@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: d185ddbfe7e85f214181eb9a76ff83b775abace3
+source-git-commit: ef85d371933c979faebd60bae49cb66936fd81e3
 workflow-type: tm+mt
-source-wordcount: '3020'
+source-wordcount: '3093'
 ht-degree: 4%
 ---
 
@@ -50,6 +50,7 @@ Wenn die KI-Agentenplattform Workfront-Elemente finden, diese jedoch nicht erste
 
 | Titel | Tool-Name | Funktion | Aktion |
 | --- | --- | --- | --- |
+| Dokument in Workfront hochladen** | `upload_document_ui` | Damit können Sie eine Datei in ein Projekt, eine Aufgabe, ein Problem, ein Programm, ein Portfolio oder eine Vorlage und optional in einen Ordner hochladen. | Schreiben |
 | Dokumentversion nach Namen suchen | `approvals_find_document_version_by_name` | Sucht die aktuelle Versions-ID eines Dokuments nach Dateinamen. Unterstützt Teilübereinstimmungen. | Lesen |
 | Dokument nach Versions-ID abrufen | `approvals_get_document_by_version_id` | Ruft Dokumentdetails (Name, Größe, Upload-Datum, Uploader) für eine bekannte Dokumentversions-ID ab. | Lesen |
 | Dokumentbereich auflösen | `approvals_resolve_document_scope` | Erweitert ein Projekt oder einen Ordner in die Liste der darin enthaltenen Dokumentversions-IDs. Unterstützt Bereiche mit Projekt-, Ordner- und Ordnernamen. | Lesen |
@@ -62,7 +63,7 @@ Wenn die KI-Agentenplattform Workfront-Elemente finden, diese jedoch nicht erste
 
 
 * Das Senden von Dokumenten an einen AEM-Ordner wird für Projekte im Adobe Cloud-Speicher noch nicht unterstützt. Unterstützung wird in einer zukünftigen Version erwartet.
-
+**Dieses Tool öffnet ein interaktives Upload-Panel im Chat, sodass es nur in Tools funktioniert, die MCP-Apps unterstützen. Derzeit wird für dieses Tool nur Claude unterstützt. Er wird unter „Interaktive Tools“ in den Berechtigungen des Tools angezeigt und fordert standardmäßig zur Genehmigung auf.
 
 <!--
 | List AEM-linked folders* | `approvals_list_aem_linked_folders` | Lists Workfront document folders that are linked to Adobe Experience Manager. | Read |

@@ -27,9 +27,9 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
 workflow-type: tm+mt
-source-wordcount: '4439'
+source-wordcount: '4466'
 ht-degree: 0%
 ---
 # Einheitliche Prüfung und Genehmigung - Übersicht
@@ -50,16 +50,18 @@ Projektkoordinatoren verwalten die Arbeit in Workfront, während Kreative, Marke
 
 ## Auf Adobe Cloud-Speicher aufbauend
 
-Die einheitliche Prüfung und Genehmigung basiert auf Adobe Cloud Storage, einer Cloud-basierten Speicherlösung, die als zentrales Repository für Assets in allen Adobe-Unternehmensprodukten dient, einschließlich Workfront und Frame.io. <!--, and Creative Cloud.-->
+Die einheitliche Prüfung und Genehmigung basiert auf Adobe Cloud Storage, einer Cloud-basierten Speicherlösung, die als zentrales Repository für Assets in allen Adobe-Unternehmensprodukten dient, einschließlich Workfront, Frame.io und Creative Cloud.
 
 Zu den wichtigsten Vorteilen von Adobe Cloud Storage gehören:
 
 * Unified Storage Layer für das Kreativ- und Arbeits-Management von Assets
 * Zentralisierte Berechtigungen mit dem Adobe Identity Management System (IMS) für eine sichere Zugriffskontrolle
-* End-to-End-Asset-Sichtbarkeit in Workfront- und Frame.io-<!--, and Creative Cloud apps -->
+* End-to-End-Sichtbarkeit von Assets in Workfront-, Frame.io- und Creative Cloud-Apps
 * Skalierbares Speicher- und Kontingent-Management für Unternehmensanforderungen
 
 Weitere Informationen finden Sie unter [Übersicht über den Adobe-Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
+
+Creative Cloud-Apps (Photoshop, Illustrator und InDesign) können auch direkt auf Workfront-Projekte zugreifen. Weitere Informationen finden Sie unter [Übersicht über Adobe Creative Cloud-Projekte](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md).
 
 ## Einheitliche Überprüfung und Genehmigung
 

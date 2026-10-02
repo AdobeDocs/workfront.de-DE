@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
+source-git-commit: a51e0a56d4a45794b2d9d1097ec14ff46a6b3065
 workflow-type: tm+mt
-source-wordcount: '2783'
+source-wordcount: '3139'
 ht-degree: 0%
 ---
 # Versionsaktivität für Adobe Workfront Planning im vierten Quartal 2026
@@ -28,6 +28,86 @@ ht-degree: 0%
 In diesem Artikel werden die Funktionen beschrieben, die in Workfront Planning im vierten Quartal 2026 veröffentlicht werden.
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+<!--
+
+## See the total record count in table views
+
+>[!NOTE]
+>
+>Preview: October 1, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+
+The table view now shows the total number of records, with no setup required, and the count updates automatically as you apply filters, search, or change the view.
+
+The record count always reflects your full filtered results, not just the rows on screen, and respects your permissions so you only count records you can access.
+
+For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+-->
+
+## Klarere Filteroperatorbeschriftungen für Felder mit mehreren Werten
+
+>[!NOTE]
+>
+>Vorschau: 1. Oktober 2026
+>Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktion für alle: 15. Oktober 2026
+
+Die Filteroperatoren mit mehreren Werten in allen Planning-Ansichten wurden in „Ist ein beliebiges von“ und „Ist kein von“ anstelle von „Hat eines von“ und „Hat keines von“ aktualisiert, wodurch Sie eine klarere und konsistentere Formulierung in den Workfront-Filterbuildern erhalten.
+
+Dies ist ein reines Label-Update. Ihre vorhandenen Filter werden automatisch migriert und verhalten sich weiterhin genauso wie zuvor.
+
+Die Änderungen sind in Filtern in allen Planning-Ansichten sichtbar. Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+## Hinzufügen von Aggregatoren für Nicht-Zahlenfelder in der Tabellenansicht
+
+>[!NOTE]
+>
+>Vorschau: 1. Oktober 2026
+>Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktion für alle: 15. Oktober 2026
+
+Wir haben Aggregatoren für zusätzliche Feldtypen in der Tabellenansicht eingeführt. Vor dieser Verbesserung wurden am unteren Rand der Spalten nur numerische Felder mit Aggregatoren angezeigt.
+
+Die Aggregatoren unterscheiden sich je nach Feldtyp:
+
+* Text-, Auswahl-, Kontrollkästchen- und Personenfelder: KEINE, LEER, NICHT LEER
+* Datumsfelder: KEINE, MAX, MIN
+* Formelfelder: Aggregatoren entsprechend ihrem Format
+
+Zu den zahlenbezogenen Feldtypen wurde KEINE hinzugefügt. KEINE ist der Standard für alle Feldtypen.
+
+Aggregatoren für die folgenden Systemfelder werden nicht unterstützt: „Erstellt von“, „Zuletzt geändert von“ und „Datensatz-ID“.
+
+Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
+
+## Workspace-Inhaber ändern
+
+>[!NOTE]
+>
+>Vorschau: 1. Oktober 2026
+>Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktion für alle: 15. Oktober 2026
+
+Ersteller von Workspace sind derzeit als Standardbesitzer zugewiesen. Mit diesem Update können Workspace-Manager die Eigentümerschaft über das Dialogfeld „Freigabe“ an einen anderen Benutzer mit Standardlizenz übertragen.
+
+Der neue Eigentümer wird in der Freigabeliste und auf der Planning-Startseite als Workspace-Eigentümer hervorgehoben, während der vorherige Eigentümer weiterhin den Verwaltungszugriff auf den Workspace behält.
+
+Weitere Informationen finden Sie unter [Freigeben von Arbeitsbereichen](/help/quicksilver/planning/access/share-workspaces.md).
+
+## Sortieren von Datensätzen und Gruppierungen in der Zeitleisten-Ansicht
+
+>[!NOTE]
+>
+>Vorschau: 1. Oktober 2026
+>Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktion für alle: 15. Oktober 2026
+
+Sie können jetzt Datensätze und Gruppierungen in der Zeitleisten -Ansicht sortieren. Vor dieser Verbesserung war diese Funktion nicht verfügbar.
+
+Weitere Informationen finden Sie unter [Verwalten der Zeitleisten-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Freigeben von Feldern in Workfront Planning
 
@@ -120,7 +200,7 @@ Weitere Informationen finden Sie unter [Verwenden von Formularausfüllen mit KI 
 
 CX Coworker ist jetzt in Workfront Planning verfügbar. Jetzt können Sie in einem Bedienfeld, das in Workfront Planning verfügbar ist, auf CX Coworker zugreifen.
 
-CX Coworker Chat ist eine Gesprächsoberfläche, um Arbeit zu erledigen. Beschreiben Sie ein Ziel in verständlicher Sprache. Ein Mitarbeiter plant die Arbeit, führt sie in Workfront Planning und Ihren verbundenen Adobe-Systemen aus, validiert die Ergebnisse und bringt die fertige Arbeit zur Genehmigung an Sie zurück.
+Der CX Coworker-Chat ist eine Gesprächsoberfläche zum Erledigen von Aufgaben. Beschreiben Sie ein Ziel in verständlicher Sprache. Ein Mitarbeiter plant die Arbeit, führt sie in Workfront Planning und Ihren verbundenen Adobe-Systemen aus, validiert die Ergebnisse und bringt die fertige Arbeit zur Genehmigung an Sie zurück.
 
 Mitarbeiter respektieren die vorhandenen Zugriffssteuerungen Ihres Unternehmens, standardmäßig mit schreibgeschütztem Zugriff, und Systemadministratoren steuern, wann Benutzer Schreibzugriff erhalten.
 
@@ -128,9 +208,9 @@ Coworker ersetzt den aktuellen KI-Assistenten als eine leistungsfähigere Mögli
 
 >[!IMPORTANT]
 >
->CX Coworker steht derzeit Organisationen im Gesundheitswesen, im Finanzwesen oder in einigen anderen Branchen mit sensiblen Daten nicht zur Verfügung. Der KI-Assistent steht diesen Organisationen weiterhin zur Verfügung.
+>CX Coworker ist derzeit nicht für Organisationen im Gesundheits- und Finanzwesen oder in einigen anderen Branchen mit sensiblen Daten verfügbar. Der KI-Assistent steht diesen Organisationen weiterhin zur Verfügung.
 
-Weitere Informationen finden Sie unter [CX Coworker overview](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+Weitere Informationen finden Sie unter [Übersicht über CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 ## Das Symbol KI-Assistent wurde zur Vorbereitung des CX Coworker-Launches aus der Vorschau für Datensatzdetails entfernt
 
@@ -147,7 +227,7 @@ Zur Vorbereitung auf den Launch von Adobe CX Coworker in Workfront haben wir das
 
 >[!IMPORTANT]
 >
->CX Coworker steht derzeit Organisationen im Gesundheitswesen, im Finanzwesen oder in einigen anderen Branchen mit sensiblen Daten nicht zur Verfügung. Der KI-Assistent steht diesen Organisationen weiterhin zur Verfügung.
+>CX Coworker ist derzeit nicht für Organisationen im Gesundheits- und Finanzwesen oder in einigen anderen Branchen mit sensiblen Daten verfügbar. Der KI-Assistent steht diesen Organisationen weiterhin zur Verfügung.
 
 Weitere Informationen finden Sie unter [CX Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-in-workfront.md).
 
