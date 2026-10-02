@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ecee8b1aadd804a45ff0830e04e77981a3269cff
+source-git-commit: 76c6943ccbf51ec7860bdb4707bc3ed7c2374128
 workflow-type: tm+mt
 source-wordcount: '2735'
 ht-degree: 9%
@@ -341,7 +341,6 @@ So verwenden Sie ein vorhandenes berechnetes benutzerdefiniertes Feld wieder:
       >* Suchen Sie nach Berechnungsfehlern, die beim Vorgang rot unterstrichen werden. Sie können den Mauszeiger über einen markierten Fehler bewegen, um eine kurze Beschreibung der Ursache anzuzeigen.
       >  ![Hilfe zu Fehlern](assets/error-help.png)
       >* Zeigen Sie im Bereich unterhalb Ihrer Berechnung die Ergebnisse eines vorhandenen Workfront-Objekts an.
-      ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
       >  ![Vorschau der Berechnung](assets/preview-calc.png)
       >* Referenzausdrücke in einer langen Berechnung unter Verwendung der Zeilennummern, die links angezeigt werden.
 
