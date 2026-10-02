@@ -13,10 +13,10 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 0c08d79733bc6da0ecfd41f765ce2c624e71ad0e
+source-git-commit: 650684e66eb10bf2afacd88038d06a88b3308df4
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 3%
+source-wordcount: '476'
+ht-degree: 2%
 ---
 # Verbesserungen beim Finanzmanagement für das vierte Quartal 2026
 
@@ -24,31 +24,27 @@ Auf dieser Seite werden die Verbesserungen des Finanzmanagements beschrieben, di
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2026 des Versionszyklus verfügbar sind, finden Sie unter [Versionsübersicht für das vierte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
 
-<!--
-
-## Enhancements to billing rates on templates
+## Verbesserungen der Abrechnungssätze in Vorlagen
 
 >[!NOTE]
 >
->Preview: October 1, 2026
->Production fast release: October 15, 2026
->Production for everyone: October 15, 2026
+>Vorschau: 1. Oktober 2026
+>Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktion für alle: 15. Oktober 2026
 
-Multiple updates have been made to the billing rates functionality on a project template.
+An der Funktion Abrechnungssätze einer Projektvorlage wurden mehrere Aktualisierungen vorgenommen.
 
-### For customers on all Workfront and Workflow packages
+### Für Kunden mit allen Workfront- und Workflow-Paketen
 
-The Rates area on templates has been updated to an enhanced list.
+Der Bereich Raten in Vorlagen wurde zu einer erweiterten Liste aktualisiert.
 
-For more information, see [Use enhanced lists](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
+Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md).
 
-### For customers on the Workflow Ultimate package only
+### Nur für Kunden mit dem Workflow-Ultimate-Paket
 
-Rate attributes are now available to apply to job role billing rates on the template.
+Tarifattribute sind jetzt verfügbar und können auf Aufgabengebiet-Abrechnungssätze in der Vorlage angewendet werden.
 
-For more information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md#add-more-items-to-a-template) and [Override Job Role Billing Rates at the project level](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
-
--->
+Weitere Informationen finden Sie unter [Projektvorlagen bearbeiten](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md#add-more-items-to-a-template) und [Abrechnungssätze für Aufgabengebiete auf Projektebene überschreiben](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
 
 ## Verbesserungen der Abrechnungssätze für Unternehmen
 
@@ -87,4 +83,4 @@ Bei Verwendung von Ratenattributen als Filter in verschiedenen Bereichen von Wor
 
 Wenn Sie zuvor ein Attribut mit einem übergeordneten Element verknüpft haben und dieses übergeordnete Element mit einem Großelternteil, hat das System das ursprüngliche Attribut auch nicht automatisch als zum Großelterteil gehörend erkannt. Wenn Sie nun das Attribut der untersten Ebene auswählen, wird jede darüber liegende Ebene automatisch zugewiesen.
 
-Weitere Informationen zu Attributen finden [&#x200B; unter „Tarifattribute definieren](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
+Weitere Informationen zu Attributen finden [ unter „Tarifattribute definieren](/help/quicksilver/administration-and-setup/manage-enterprise-operations/define-rate-attributes.md).
