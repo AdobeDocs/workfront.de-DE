@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 061e5919fddf0c892646d1f359052b35961359b4
+source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
 workflow-type: tm+mt
-source-wordcount: '14626'
+source-wordcount: '14631'
 ht-degree: 91%
 ---
 # Handbuch für Workfront {#using}
@@ -694,6 +694,7 @@ ht-degree: 91%
       * [Löschen einer benutzerdefinierten Bedingung](administration-and-setup/customize-workfront/create-manage-custom-conditions/delete-custom-conditions.md)
   * Verwalten von Adobe Workfront {#manage-wf}
     * [Verwalten von Workfront](administration-and-setup/manage-workfront/manage-workfront.md)
+    * [Konfigurieren von Ereignisabonnements in Workfront](administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md)
     * Konfigurieren der Proofing-Funktionalität {#configure-proofing}
       * [Konfigurieren von Proofing](administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
       * [Proof-Einstellungen](administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)
@@ -1644,7 +1645,7 @@ ht-degree: 91%
       * [Verwenden von Währungsfeldern in Dashboards der Arbeitsfläche](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/switch-currencies.md)
       * [Filtern eines Arbeitsflächen-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/filter-canvas-dashboard.md)
       * [Ändern des Namens oder der Beschreibung eines Arbeitsflächen-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
-      * [Duplizieren eines Arbeitsflächen-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/duplicate-a-canvas-dashboard.md)
+      * [Kopieren eines Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/duplicate-a-canvas-dashboard.md)
       * [Löschen eines Arbeitsflächen-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
       * [Hinzufügen eines Arbeitsflächen-Dashboards zu einer Layout-Vorlage](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-dashboard-to-layout-template.md)
     * Verwalten von Berichten {#manage-reports}
@@ -1653,7 +1654,7 @@ ht-degree: 91%
       * [Filtern eines Berichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-a-report.md)
       * [Referenz zum Berichtsfilter für Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/filter-reference.md)
       * [Gruppieren von Berichtsdaten in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/group-report-data.md)
-      * [Duplizieren eines Berichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report.md)
+      * [Kopieren und Verschieben von Berichten in Arbeitsflächen-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/duplicate-a-report.md)
       * [Löschen eines Berichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
   * Berichte {#reports}
     * [Berichte](reports-and-dashboards/reports/reports-overview.md)

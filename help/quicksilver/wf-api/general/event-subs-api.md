@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a44679115dcfda871e2fe40c0c8443649fc43cf
 workflow-type: tm+mt
-source-wordcount: '3545'
+source-wordcount: '3560'
 ht-degree: 88%
 ---
 # Ereignisabonnement-API
@@ -42,6 +42,10 @@ ht-degree: 88%
 Wenn eine Aktion für ein Adobe Workfront-Objekt stattfindet, das von Ereignisabonnements unterstützt wird, können Sie Workfront so konfigurieren, dass eine Antwort an Ihren gewünschten Endpunkt gesendet wird. Dies bedeutet, dass Drittanbieteranwendungen Aktualisierungen von Workfront-Interaktionen bald nach ihrem Auftreten über die Workfront-API erhalten können. Im Allgemeinen können Sie davon ausgehen, dass Sie Webhook-Benachrichtigungen in weniger als 5 Sekunden nach der protokollierten Datenänderung erhalten. Im Durchschnitt erhalten Kundinnen und Kunden Webhook-Benachrichtigungen in weniger als 1 Sekunde, nachdem die Datenänderung protokolliert wurde.
 
 Da Ereignisabonnements Daten an einen anderen Service senden, werden sie über Befehle und nicht über die Workfront-Anwendung verwaltet.
+
+>[!NOTE]
+>
+>Informationen zum Arbeiten mit Ereignisabonnements in der Workfront-Anwendung finden Sie unter [Konfigurieren von Ereignisabonnements in Workfront](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md).
 
 Um Payloads für Ereignisabonnements über Ihre Firewall zu erhalten, müssen Sie die folgenden IP-Adressen zu Ihrer Zulassungsliste hinzufügen:
 

@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: deeb63ceccc28b8f376713d4a6fb6c103ab4e06b
+source-git-commit: c1c304ec49cb1b93e15358bee4a39e67abdec6d6
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1630'
 ht-degree: 2%
 ---
 # Verbesserungen bei Dokumenten für das vierte Quartal 2026
@@ -204,8 +204,8 @@ For more information, see [Review and approve documents](/help/quicksilver/docum
 >[!NOTE]
 >
 >Vorschau: Nicht zutreffend
->Produktions-Schnellveröffentlichung: 17. September 2026
 >Produktion für alle: 15. Oktober 2026
+>Diese Funktion wurde in der schnellen Produktionsversion vom 17. September 2026 nicht wie ursprünglich geplant veröffentlicht. Es wird nun am 15. Oktober 2026 in der Produktion für alle verfügbar sein.
 
 Wenn Sie eine benutzerdefinierte Nachricht für eine Dokumentgenehmigung festlegen, wird diese Nachricht jetzt auch in der Betreffzeile der E-Mail mit der Genehmigungsanfrage angezeigt, wobei das Fälligkeitsdatum im Feld festgelegt wird. Auf diese Weise können Validierungsverantwortliche sehen, was Aufmerksamkeit erfordert, und sie können sehen, wann dies direkt in ihrem Posteingang geschieht, ohne die E-Mail zu öffnen.
 

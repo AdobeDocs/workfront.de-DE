@@ -13,7 +13,7 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 650684e66eb10bf2afacd88038d06a88b3308df4
+source-git-commit: c1c304ec49cb1b93e15358bee4a39e67abdec6d6
 workflow-type: tm+mt
 source-wordcount: '3473'
 ht-degree: 7%
@@ -452,7 +452,7 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
                 <p>Eine benutzerdefinierte Nachricht, die bei einer Dokumentgenehmigung festgelegt wurde, wird jetzt auch in der Betreffzeile der E-Mail mit der Genehmigungsanfrage angezeigt.</p>
             </td>
             <td><p>K. A.</p></td>
-            <td><p>17. September 2026</p></td>
+            <td><p>15. Oktober 2026</p></td>
             <td><p>15. Oktober 2026</p></td>
         </tr>
         <tr>

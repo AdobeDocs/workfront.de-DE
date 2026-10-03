@@ -11,9 +11,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 1043dde02b6d66f9a0d041846b74184013989764
 workflow-type: tm+mt
-source-wordcount: '1982'
+source-wordcount: '2383'
 ht-degree: 0%
 ---
 
@@ -34,6 +34,8 @@ In diesem Artikel wird davon ausgegangen, dass Sie die Verbindung bereits einger
 
 Der Workfront MCP-Server stellt eine Reihe von Tools bereit, die die KI-Agentenplattform in Ihrem Namen aufruft. Beispielsweise Tools zum Durchsuchen von Workfront, Erstellen von Elementen, Aktualisieren von Feldern und Verwalten von Genehmigungen. Die vollständige Referenzliste finden Sie unter [Adobe Workfront MCP-Server-Tools](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md).
 
+Die Verfügbarkeit der Tools hängt von den Produktberechtigungen Ihres Unternehmens ab, zusätzlich zu Ihrer Workfront-Zugriffsebene, Objektberechtigungen und allen MCP-Admin-Steuerelementen.
+
 >[!IMPORTANT]
 >
 >Wenn Sie eine KI-Agentenplattform mit Workfront verbinden, wird sie in Workfront mithilfe Ihres Workfront-Kontos und Ihrer Berechtigungen ausgeführt. Die Aktionen der Plattform haben dieselbe Wirkung wie Aktionen, die Sie direkt in der Workfront-Benutzeroberfläche ausführen.<br>
@@ -42,6 +44,29 @@ Der Workfront MCP-Server stellt eine Reihe von Tools bereit, die die KI-Agentenp
 >
 >Bevor Sie die KI-Agent-Plattform mit einer Anfrage fortfahren lassen, bestätigen Sie, dass Sie verstehen, was sie zu tun beabsichtigt, insbesondere für Aktionen, die Daten ändern oder löschen.
 
+## Auswirkungen von Produktberechtigungen auf verfügbare Tools
+
+Der Workfront MCP-Server zeigt nur die Tools an, zu deren Verwendung Ihr Unternehmen berechtigt ist.
+
+Es gelten die folgenden Szenarien:
+
+* Wenn Ihr Unternehmen nur über Workfront Planning verfügt, zeigt die KI-Agentenplattform Planungswerkzeuge, aber keine Workflow-Tools an.
+* Wenn Ihr Unternehmen nur über Workfront Workflow verfügt, zeigt die KI-Agentenplattform Workflow-Tools, aber keine Planungs-Tools an.
+* Wenn Ihr Unternehmen sowohl über Workfront Workflow- als auch über Workfront-Planung verfügt, zeigt die KI-Agentenplattform beide Tools an.
+* Einblicke und Kontextwerkzeuge stehen allen Kunden zur Verfügung.
+
+Wenn für die Berechtigungen Ihres Unternehmens kein Tool verfügbar ist, wird es nicht in der Toolliste für diese Verbindung angezeigt. Wenn eine KI-Agent-Plattform sowieso versucht, dieses Tool direkt aufzurufen, wird die Anfrage blockiert und gibt einen berechtigungsbezogenen Fehler zurück.
+
+Beachten Sie bei Agent Buildern und fortgeschrittenen Benutzern Folgendes:
+
+* Die Liste der verfügbaren Tools kann je nach Kunde unterschiedlich sein.
+* Die Werkzeugliste wird beim Verbindungsstart erstellt.
+* Wenn sich die Berechtigungen eines Kunden ändern, wird die aktualisierte Toolliste angezeigt, wenn der Kunde das nächste Mal eine neue Verbindung zum Workfront MCP-Server herstellt.
+
+>[!NOTE]
+>
+>Der Workfront-Workflow wird derzeit als grundlegender Produktbereich für die Verfügbarkeit der MCP-Tools behandelt. Planungstools werden nach Berechtigung gefiltert. Es gibt derzeit keine Berechtigungsbeschränkungen für Genehmigungs-Tools.
+
 
 ## Beispiele für Fragen
 
@@ -49,7 +74,7 @@ Geben Sie nach der Herstellung der Verbindung Anfragen in natürlicher Sprache i
 
 >[!NOTE]
 >
->Einige Aktionen sind möglicherweise aufgrund von Admin-Steuerelementen im Bereich &quot;Workfront-Setup“ nicht verfügbar. Sie können beispielsweise keine Elemente erstellen, wenn der Workfront-Administrator Schreibaktionen für den MCP-Server deaktiviert hat.
+>Einige Aktionen sind möglicherweise aufgrund von Admin-Steuerelementen im Bereich &quot;Workfront-Setup“ nicht verfügbar oder weil Ihr Unternehmen nicht zum zugehörigen Produktbereich berechtigt ist. Beispielsweise können Sie möglicherweise keine Elemente erstellen, wenn der Workfront-Administrator Schreibaktionen für den MCP-Server deaktiviert hat, oder Sie sehen möglicherweise keine Planungstools, wenn Ihr Unternehmen nicht für Workfront Planning lizenziert ist.
 
 
 ### Suchen und Anzeigen Ihrer Arbeit
@@ -180,6 +205,7 @@ Workfront hat keine Kontrolle darüber, wie der KI-Plattformanbieter Ihre Workfr
 | Daten, die Sie gerade in Workfront geändert haben, werden noch nicht angezeigt. | Die Insights-Daten sind nahezu in Echtzeit, mit einem SLA von bis zu etwa 15 Minuten. | Warten Sie ein paar Minuten und fragen Sie erneut, oder überprüfen Sie direkt in Workfront. |
 | Die KI-Agent-Plattform hat Daten von falschen Workfront-Elementen zurückgegeben. | Die KI-Agentenplattform wählte die falschen Elemente basierend auf mehrdeutigen Formulierungen aus. | Fragen Sie erneut mit spezifischeren Namen, IDs oder Filtern. |
 | Eine Aktualisierung oder Löschung wurde in Workfront nicht wirksam. | Ihr Workfront-Administrator hat Schreibaktionen für den Workfront MCP-Server deaktiviert oder Sie sind nicht berechtigt, die Aktion für das jeweilige Element durchzuführen. | Bestätigen Sie mit der KI-Agent-Plattform, dass die Aktion ausgeführt wurde. Vergewissern Sie sich anschließend, dass Schreibaktionen für den Workfront MCP-Server aktiviert sind und dass Sie berechtigt sind, das Element zu ändern. |
+| Ein Tool, das ein anderer Kunde verwenden kann, erscheint mir nicht. | Ihre Organisation hat keine Berechtigung für diesen Produktbereich, oder Sie haben die Verbindung gestartet, bevor eine Berechtigungsänderung wirksam wurde. | Überprüfen Sie, für welche Workfront-Produkte Ihr Unternehmen lizenziert ist. Wenn Berechtigungen kürzlich geändert wurden, starten Sie eine neue MCP-Verbindung und überprüfen Sie die Toolliste erneut. |
 
 Weitere Informationen zu Setup- und Authentifizierungsproblemen finden Sie unter [Fehlerbehebung bei Setup und Authentifizierung](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md#troubleshoot-setup-and-authentication) in [Konfigurieren des Adobe Workfront MCP-Servers](/help/quicksilver/workfront-basics/workfront-mcp-server/configure-workfront-mcp-server.md).
 
@@ -269,6 +295,12 @@ Artikel.
 ### Was passiert, wenn eine neue Version des Workfront MCP-Servers veröffentlicht wird?
 
 Der MCP-Server wird im Allgemeinen automatisch aktualisiert. Möglicherweise müssen Sie jedoch Ihre Verbindung zum MCP-Server gelegentlich aktualisieren, um die neuesten Tools und Funktionen zu sehen.
+
+### Warum sehe ich nicht dieselben MCP-Tools wie ein anderer Kunde?
+
+Die verfügbaren MCP-Tools können je nach Kunde unterschiedlich sein, da der Workfront-MCP-Server einige Tools auf der Grundlage von Produktberechtigungen filtert. Beispielsweise können Kunden mit einer Lizenz für Workfront Planning-Tools sehen, während Kunden ohne diese Berechtigung dies nicht tun. Kunden mit einer Lizenz für Workfront Workflow können die Workflow-Tools anzeigen.
+
+Die Werkzeugliste wird festgelegt, wenn die Verbindung beginnt. Wenn sich die Berechtigungen Ihres Unternehmens ändern, starten Sie eine neue Verbindung, um die aktualisierte Liste anzuzeigen.
 
 ### Kann ich den Workfront MCP-Server verwenden, wenn meine Workfront-Instanz auf dem Adobe Identity Management System (IMS) nicht aktiviert ist?
 

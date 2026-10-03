@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 6fb8df06a03ba2189c16585ffb2844f484f4ca1d
+source-git-commit: 4dc9ef8ad7c6314d4c9c331ed25760ad0343d9ff
 workflow-type: tm+mt
-source-wordcount: '1666'
+source-wordcount: '1674'
 ht-degree: 1%
 ---
 # Verbesserungen für Administratoren im vierten Quartal 2026
@@ -95,7 +95,7 @@ Um Ihnen die Erstellung und Verwaltung der Ereignisabonnements Ihres Unternehmen
 * Erstellen Sie neue Ereignisabonnements, einschließlich der Filterung nach von Ihnen festgelegten Kriterien:
 * Löschen von Ereignisabonnements.
 
-<!--ADD LINK WHEN READY-->
+Weitere Informationen finden Sie unter [Konfigurieren von Ereignisabonnements in Workfront](/help/quicksilver/administration-and-setup/manage-workfront/configure-event-subscriptions-in-workfront.md).
 
 
 ## Hinzufügen autorisierter Umleitungs-URLs für MCP-Integrationen
