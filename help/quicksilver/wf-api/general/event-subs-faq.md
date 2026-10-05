@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 461daa394cf7b7e3481e35f1af8436492e47cc0f
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '984'
 ht-degree: 1%
 ---
 # Häufig gestellte Fragen – Ereignisabonnements
@@ -82,7 +82,7 @@ Einige der folgenden Szenarien könnten dafür verantwortlich sein:
 
   * Eine Ereignisabonnement-URL wird hart deaktiviert, wenn eine der folgenden Bedingungen erfüllt ist:
 
-    * Die Abonnement-URL konnte 7 Tage lang nicht bereitgestellt werden und in den letzten 72 Stunden sind mindestens 2000 aufeinander folgende Zustellversuche fehlgeschlagen.
+    * Die Abonnement-URL konnte seit mindestens 72 Stunden nicht bereitgestellt werden und hat mehr als 2.000 aufeinander folgende Zustellversuche fehlgeschlagen.
     * Die Abonnement-URL konnte keine 50.000 aufeinander folgenden Versuche bereitstellen.
 
 ## Was sollte ich tun, wenn ich beim Versuch, die Ereignis-Abonnement-API aufzurufen, den Status „500-Antwort“ erhalte?
