@@ -2,10 +2,10 @@
 product-area: documents
 navigation-topic: approvals
 title: Erstellen einer gruppierten Genehmigung
-description: Sie können mehrere Assets in einem einzigen Genehmigungs-Workflow bündeln, damit sie dieselben Phasen gemeinsam durchlaufen.
+description: Sie können mehrere Dokumente in einem einzigen Genehmigungs-Workflow zusammenfassen, damit sie dieselben Phasen gemeinsam durchlaufen.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: f55042154ac3d93544c152b7b1ad26746a209772
+source-git-commit: 31bba5df6f491bfd048c1005ecd5330d3321e748
 workflow-type: tm+mt
 source-wordcount: '1173'
 ht-degree: 3%
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 <span class="preview">Die Informationen auf dieser Seite sind in der Sandbox-Vorschau-Umgebung nicht verfügbar, da die Frame.io-Integration dort nicht verfügbar ist. Diese Funktion ist ab dem 14. und 15. Oktober 2026 in Produktionsumgebungen verfügbar.</span>
 
-Bei einer gruppierten Genehmigung werden mehrere Assets unter einem einzigen Genehmigungs-Workflow gebündelt. Sie können den einfachen und erweiterten Modus, mehrere Phasen und parallele Pfade mit gruppierten Genehmigungen verwenden, genau wie Sie es mit Genehmigungen für einzelne Assets tun können.
+Eine gruppierte Genehmigung fasst mehrere Dokumente in einem einzigen Genehmigungs-Workflow zusammen. Sie können den einfachen und erweiterten Modus, mehrere Phasen und parallele Pfade mit gruppierten Genehmigungen verwenden, genau wie Sie es mit Genehmigungen für einzelne Dokumente tun können.
 
 Gruppierte Validierungen sind nur im Bereich Neue Dokumente verfügbar, der angezeigt wird, wenn Ihr Unternehmen den Adobe Cloud-Speicher verwendet. Weitere Informationen finden Sie unter [Übersicht über den Adobe-Cloud-Speicher](/help/quicksilver/review-and-approve-work/esm-overview.md).
 
@@ -60,9 +60,9 @@ So erstellen Sie eine einstufige gruppierte Genehmigung:
 
 1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das die Dokumente enthält, und wählen Sie **Dokumente** im linken Bereich aus.
 
-1. Klicken Sie auf das erste Asset, das Sie einbeziehen möchten, und dann bei gedrückter Umschalttaste auf die zusätzlichen Assets, um mehrere Assets auszuwählen.
+1. Klicken Sie auf das erste Dokument, das Sie einbeziehen möchten, und dann bei gedrückter Umschalttaste auf die zusätzlichen Dokumente, um mehrere Dokumente auszuwählen.
 
-1. Klicken Sie bei ausgewählten Assets **unteren Menü auf** Genehmigung anfordern“. Das **„Genehmigung anfordern** wird im Standardmodus geöffnet.
+1. Klicken Sie bei ausgewählten Dokumenten **unteren Menü auf** Genehmigung anfordern“. Das **„Genehmigung anfordern** wird im Standardmodus geöffnet.
 
    ![Erstellen einer gruppierten Genehmigung](assets/requeset-grouped-approval.png)
 
@@ -92,7 +92,7 @@ So erstellen Sie eine einstufige gruppierte Genehmigung:
    </tr>
    </table>
 
-1. (Optional) Klicken Sie auf die Registerkarte **Dokumente**, um die in dieser Genehmigung enthaltenen Assets zu überprüfen.
+1. (Optional) Klicken Sie auf die **Dokumente**, um die in dieser Genehmigung enthaltenen Dokumente zu überprüfen.
 
 1. Klicken Sie **Genehmigung anfordern**.
 
@@ -112,9 +112,9 @@ So erstellen Sie eine erweiterte gruppierte Genehmigung:
 
 1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das die Dokumente enthält, und wählen Sie **Dokumente** im linken Bereich aus.
 
-1. Klicken Sie auf das erste Asset, das Sie einbeziehen möchten, und dann bei gedrückter Umschalttaste auf die zusätzlichen Assets, um mehrere Assets auszuwählen.
+1. Klicken Sie auf das erste Dokument, das Sie einbeziehen möchten, und dann bei gedrückter Umschalttaste auf die zusätzlichen Dokumente, um mehrere Dokumente auszuwählen.
 
-1. Klicken Sie bei ausgewählten Assets **unteren Menü auf** Genehmigung anfordern“.
+1. Klicken Sie bei ausgewählten Dokumenten **unteren Menü auf** Genehmigung anfordern“.
 
    ![Erstellen einer gruppierten Genehmigung](assets/requeset-grouped-approval.png)
 
@@ -167,7 +167,7 @@ So erstellen Sie eine erweiterte gruppierte Genehmigung:
 
 1. (Optional) Um alle Pfade und Phasen zu löschen und von vorne zu beginnen, klicken **oben** auf „Zurücksetzen“.
 
-1. (Optional) Klicken Sie auf die Registerkarte **Dokumente**, um die in dieser Genehmigung enthaltenen Assets zu überprüfen.
+1. (Optional) Klicken Sie auf die **Dokumente**, um die in dieser Genehmigung enthaltenen Dokumente zu überprüfen.
 
 1. Klicken Sie **Genehmigung anfordern**.
 
@@ -194,4 +194,4 @@ To add an additional document to a grouped approval:
 ## Bekannte Einschränkungen
 
 * Derzeit können Sie einem gruppierten Genehmigungs-Workflow keine Dokumente hinzufügen oder daraus entfernen, nachdem er einmal erstellt wurde. Diese Funktion ist für eine künftige Version geplant.
-* Gruppierte Genehmigungen sind vorübergehend auf 3 Pfade und 25 Assets pro Gruppe beschränkt.
+* Gruppierte Genehmigungen sind vorübergehend auf 3 Pfade und 25 Dokumente pro Gruppe beschränkt.
