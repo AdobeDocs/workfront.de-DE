@@ -19,10 +19,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 1%
+source-wordcount: '1002'
+ht-degree: 0%
 ---
 
 # Erste Schritte mit dem Ideenraum für Adobe Workfront Planning
@@ -155,9 +155,9 @@ Im Folgenden finden Sie einige Beispiele dafür, wie Sie beim Erstellen von Brie
   * **Überprüfen vor Abschluss**. KI-generierte Antworten können ungenau sein. Überprüfen Sie daher immer **Quellen** auf einer Karte und vergleichen Sie diese mit verknüpften Quellen, bevor Sie einen Datensatz abschließen.
   * **KI-Karten mit echten Datensätzen**. Ziehen Sie die tatsächlichen Datensätze per Drag-and-Drop in den Ideenbereich.
 
-## In Adobe CX Coworker verfügbarer Ideenraum
+## In Adobe CX Enterprise Coworker verfügbarer Ideenraum
 
-Der Ideationsraum unterstützt auch einen konversativen, hin- und hergehenden Modus über Adobes CX Coworker.
+Der Ideationsraum unterstützt auch einen konversativen, hin- und hergehenden Modus über Adobes CX Enterprise Coworker.
 
 Benutzer können Folgefragen stellen und ein kurzes Gespräch verfeinern, anstatt ein einziges Ergebnis zu erhalten.
 
@@ -200,10 +200,10 @@ Worth noting
 
 ## Weitere Ressourcen
 
-* [Adobe Workfront-Kampagnenplanung](https://business.adobe.com/de/products/workfront/campaign-planning.html)
+* [Adobe Workfront-Kampagnenplanung](https://business.adobe.com/products/workfront/campaign-planning.html)
 * [Adobe Workfront-Planungsdokumentation](/help/quicksilver/planning/planning-information.md)
-* [Übersicht über Adobe GenStudio](https://business.adobe.com/de/products/genstudio.html)
-* [Adobe Customer Journey Analytics](https://business.adobe.com/de/products/adobe-analytics/customer-journey-analytics.html)
+* [Übersicht über Adobe GenStudio](https://business.adobe.com/products/genstudio.html)
+* [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html)
 
 
 <!--

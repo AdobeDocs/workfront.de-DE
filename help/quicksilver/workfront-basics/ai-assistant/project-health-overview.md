@@ -22,16 +22,16 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '2120'
+source-wordcount: '2101'
 ht-degree: 4%
 ---
 # Überblick über den Projektzustand
 
 >[!IMPORTANT]
 >
->* Ab September 2026 wechselt der KI-Assistent zu CX Coworker, einer Gesprächsoberfläche zur Erledigung von Aufgaben. Informationen zu Coworker finden Sie in der [Übersicht über CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+>* Ab September 2026 wechselt der KI-Assistent zu CX Enterprise Coworker, einer Gesprächsoberfläche zur Erledigung von Aufgaben. Informationen zu Coworker finden Sie in der [Übersicht über CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 >* Die Funktion Projektdiagnose ist derzeit nur für Benutzer verfügbar, die an der Beta-Phase teilnehmen.
 
 Die Funktion „Projektdiagnose“ von Adobe Workfront nutzt die Leistungsfähigkeit des KI-Assistenten, um Ihnen sofort eine Bewertung zu geben, wie Ihre Projekte funktionieren, welche Bereiche Ihre Aufmerksamkeit erfordern und wie Probleme vermieden werden können, die Sie Zeit und Geld kosten können.
@@ -114,7 +114,7 @@ Der KI-Assistent bietet Ihnen eine schnelle Bewertung der Gesamtbedingung eines 
 * Gefährdet
 * In Schwierigkeiten
 
-Dieser Status wird mithilfe von Projektkomponenten wie Projektfortschritt, unterschätzte Arbeit usw. berechnet. Eine vollständige Liste der Komponenten, die zur Messung des Projektzustands verwendet werden, finden Sie im Abschnitt [Liste der Projekt- und &#x200B;](#project-and-program-states-list)).
+Dieser Status wird mithilfe von Projektkomponenten wie Projektfortschritt, unterschätzte Arbeit usw. berechnet. Eine vollständige Liste der Komponenten, die zur Messung des Projektzustands verwendet werden, finden Sie im Abschnitt [Liste der Projekt- und ](#project-and-program-states-list)).
 
 Jeder Projektkomponente wird eine numerische Risikobewertung zugewiesen, die von (0-100) ausgeht und dann gemittelt wird, um den Gesamtzustand des Projekts zu erstellen:
 
@@ -341,7 +341,7 @@ So generieren Sie eine Bewertung des Projektzustands für ein Projekt oder Progr
 
    ![Bewertung des Projektzustands](assets/health-assessment.png)
 
-   Wenn Sie eine Bewertung für ein Programm erstellen, werden mehrere Abzeichen aufgelistet, die den Zustand jedes Projekts im Programm anzeigen. Weitere Informationen zu den Badge-Kennzeichnungen finden Sie im Abschnitt [Liste der Projekt- und &#x200B;](#project-and-program-states-list)) in diesem Artikel.
+   Wenn Sie eine Bewertung für ein Programm erstellen, werden mehrere Abzeichen aufgelistet, die den Zustand jedes Projekts im Programm anzeigen. Weitere Informationen zu den Badge-Kennzeichnungen finden Sie im Abschnitt [Liste der Projekt- und ](#project-and-program-states-list)) in diesem Artikel.
 
 1. (Optional) Klicken Sie auf einen der Bewertungspunkte, um dessen Details zu erweitern.
 
@@ -357,7 +357,7 @@ Sie können eine kombinierte Bewertung des Projektzustands für alle Projekte ge
 
 Ein Projekt wird nur dann in die kombinierte Bewertung des Projektzustands einbezogen, wenn es gestartet wurde. Sie können konfigurieren, welche Ereignis-Trigger ein Projekt in den Projekteinstellungen starten sollen. Weitere Informationen finden Sie im Abschnitt [Verwalten von Projektzustandskonfigurationen](#manage-project-health-configurations) in diesem Artikel.
 
-1. Klicken Sie auf **KI** Assistent![&#x200B; Symbol KI-Assistent](assets/ai-assistant-icon.png) in der rechten oberen Ecke des Bildschirms. KI-Assistent wird geöffnet.
+1. Klicken Sie auf **KI** Assistent![ Symbol KI-Assistent](assets/ai-assistant-icon.png) in der rechten oberen Ecke des Bildschirms. KI-Assistent wird geöffnet.
 
 1. Geben Sie Folgendes in das Feld **Fragen zu Workfront** ein: *Wie sieht der Zustand meiner Projekte aus?*
 
