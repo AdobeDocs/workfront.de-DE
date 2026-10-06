@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3934b1b333f86c8c700617871bfaac23d2b19213
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '1651'
-ht-degree: 5%
+source-wordcount: '1639'
+ht-degree: 6%
 ---
 # Erste Schritte mit Adobe Workfront Planning Designer
 
@@ -55,7 +55,7 @@ ht-degree: 5%
 
 Sie können den Adobe Planning Designer powered by AI verwenden, um Ihre Arbeitsbereiche und Datenstrukturen einfach zu konfigurieren. Die Planning Designer unterstützt alle Funktionen, von der Erstellung und Konfiguration von Arbeitsbereichen über die Definition von Feldern und Formeln bis hin zur Verwaltung von Datensätzen, der Überprüfung des Änderungsverlaufs und der Erstellung benutzerdefinierter Ansichten.
 
-Unabhängig davon, ob es direkt über den KI-Assistenten oder <span class="preview"> CX Coworker verwendet wird</span> bietet Planning Designer eine flexible, leistungsstarke Umgebung für das Erstellen und Verwalten strukturierter, vernetzter Informationen.
+Unabhängig davon, ob es direkt über den KI-Assistenten oder <span class="preview"> CX Coworker</span> verwendet wird, bietet Planning Designer eine flexible, leistungsstarke Umgebung für das Erstellen und Verwalten strukturierter, vernetzter Informationen.
 
 Weitere Informationen zu Workfront Planning finden Sie in den folgenden Artikeln:
 
@@ -63,7 +63,7 @@ Weitere Informationen zu Workfront Planning finden Sie in den folgenden Artikeln
 * [Erste Schritte mit Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-overview.md)
 * [Überblick über den Zugriff auf Adobe Workfront-Planung](/help/quicksilver/planning/access/access-overview.md)
 
-Informationen zu AI Assistant und CX Coworker in Planning finden Sie in den folgenden Artikeln:
+Informationen zu KI-Assistent und -Mitarbeiterin bei der Planung finden Sie in den folgenden Artikeln:
 
 * [Überblick über den KI-Assistenten von Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-ai-assistant-overview.md)
 * [Übersicht über Adobe Workfront Planning CX Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md)
@@ -179,7 +179,7 @@ After we receive the email, our Engineering team will turn on the Planning Desig
 
 Sie können während des Beta-Programms Feedback zur Planning Designer senden.
 
-1. Melden Sie sich bei Workfront an und klicken Sie dann oben links auf **&#x200B;**-Symbol ![Hauptmenü „Zeilen](assets/lines-main-menu.png) und dann auf **Planung**.
+1. Melden Sie sich bei Workfront an und klicken Sie dann oben links auf ****-Symbol ![Hauptmenü „Zeilen](assets/lines-main-menu.png) und dann auf **Planung**.
 
    Der Bereich **Planung** wird geöffnet.
 
@@ -215,15 +215,15 @@ Sargis and Ashot  said these are not required:
 -->
 
 * Ihr Workfront-Administrator muss die Planning-Designer für Ihr Unternehmen aktivieren. Danach ist die Planning-Designer standardmäßig für alle Benutzer verfügbar.
-* Wenn Ihr Unternehmen eine KI-Vereinbarung unterzeichnet hat, können die von Planning Designer durchgeführten Aktionen auch vom KI-Assistenten oder <span class="preview">CX Coworker</span> ausgeführt werden, wenn Sie ihn im Planungsbereich verwenden.
-* Die Aktionen, die vom KI-Assistenten oder <span class="preview">der CX Coworker</span> im Bereich Planung oder vom Planning-Designer ausgeführt werden, stehen im Kontext Ihrer Workfront-Planungsberechtigungen und Ihrer Workfront-Zugriffsebene.
+* Wenn Ihr Unternehmen eine KI-Vereinbarung unterzeichnet hat, können die von Planning Designer ausgeführten Aktionen auch vom KI-Assistenten oder <span class="preview">-Mitarbeiter ausgeführt werden</span> wenn Sie sie im Planungsbereich verwenden.
+* Die Aktionen, die vom KI-Assistenten oder <span class="preview">Mitarbeiter</span> im Bereich Planung oder vom Planning Designer ausgeführt werden, stehen im Kontext Ihrer Workfront-Planungsberechtigungen und Ihrer Workfront-Zugriffsebene.
 
   Weitere Informationen finden Sie in den folgenden Artikeln:
 
   * [Überblick über das Freigeben von Berechtigungen in Adobe Workfront-Planung](/help/quicksilver/planning/access/sharing-permissions-overview.md)
   * [Überblick über die Lizenztypen bei Verwendung von Adobe Workfront-Planung](/help/quicksilver/planning/access/license-type-overview.md)
 
-* Änderungen, die vom KI-Assistenten, <span class="preview">CX Coworker</span> oder der Planning Designer im Auftrag des Benutzers vorgenommen werden, werden im Verlaufsfenster des Datensatzes erfasst.
+* Änderungen, die vom KI-Assistenten, <span class="preview">Mitarbeiter</span> oder der Planning Designer im Auftrag des Benutzers vorgenommen werden, werden im Verlaufsfenster des Datensatzes erfasst.
 
 * Die von Planning Designer durchgeführten Aktionen sind dauerhaft und könnten unumkehrbar sein. Das Löschen eines Felds kann beispielsweise nicht rückgängig gemacht werden. Überprüfen Sie alle von Designer vorgeschlagenen Aktionen, bevor Sie sie akzeptieren.
 
@@ -235,7 +235,7 @@ Sargis and Ashot  said these are not required:
 
 ## Derzeit verfügbare Funktionen für Planning Designer
 
-Sie können entweder den Planning-Designer- oder den AI-Assistenten oder <span class="preview">den CX Coworker</span> verwenden, um eine der folgenden Aktionen durchzuführen:
+Sie können entweder den Planning-Designer oder den KI-Assistenten oder <span class="preview">Mitarbeiter“ verwenden</span> um eine der folgenden Aktionen durchzuführen:
 
 * Erstellen und Konfigurieren von Arbeitsbereichen
 
@@ -267,16 +267,16 @@ Sie können entweder den Planning-Designer- oder den AI-Assistenten oder <span c
   >Wenn Sie derzeit eine erhebliche Anzahl von Datensätzen importieren müssen, empfehlen wir, hierzu die in Planning verfügbaren manuellen Funktionen zu verwenden.
   >
   >Weitere Informationen finden Sie unter [Erstellen von Datensätzen durch Importieren von Informationen aus einer CSV- oder Excel-Datei](/help/quicksilver/planning/records/import-file-to-create-records.md).
-  >Informationen zu Dateitypbeschränkungen finden Sie im Abschnitt „Abrufen von Vorschlägen basierend auf einem Dokument, das Sie hochladen“ im Abschnitt &quot;[&#x200B; von Formularausfüllen mit KI zum Ausfüllen einer Anfrage mithilfe von Eingabeaufforderungen oder Dokumenten](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+  >Informationen zu Dateitypbeschränkungen finden Sie im Abschnitt „Abrufen von Vorschlägen basierend auf einem Dokument, das Sie hochladen“ im Abschnitt &quot;[ von Formularausfüllen mit KI zum Ausfüllen einer Anfrage mithilfe von Eingabeaufforderungen oder Dokumenten](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 
 
   <!--* Generate thumbnail and over image for a record (not available yet, maybe Q2) -->
 
 ## Erstellen oder Aktualisieren von Objekten mit der Planning-Designer
 
-Sie können Objekte in Workfront Planning entweder mithilfe der Planning-Designer oder des KI-Assistenten erstellen oder aktualisieren oder die CX Coworker <span class="preview"></span>, sofern nicht anders angegeben.
+Sie können Objekte in Workfront Planning entweder mithilfe der Planning-Designer oder des KI-Assistenten oder <span class="preview">-Mitarbeiters erstellen oder aktualisieren</span> sofern nichts anderes angegeben ist.
 
-1. Melden Sie sich bei Workfront an und klicken Sie dann oben links auf **&#x200B;**-Symbol ![Hauptmenü „Zeilen](assets/lines-main-menu.png) und dann auf **Planung**.
+1. Melden Sie sich bei Workfront an und klicken Sie dann oben links auf ****-Symbol ![Hauptmenü „Zeilen](assets/lines-main-menu.png) und dann auf **Planung**.
 
    Der Bereich **Planung** wird geöffnet. <!--update screen shot when they change the name of the button-->
 
@@ -288,7 +288,7 @@ Sie können Objekte in Workfront Planning entweder mithilfe der Planning-Designe
 
    ![Fenster &quot;Designer planen“](assets/planning-designer-window.png)
 
-1. Beginnen Sie im bereitgestellten Feld mit der Eingabe von Eingabeaufforderungen für den KI-Assistenten <span class="preview"> der CX Coworker</span> und klicken Sie dann auf die Eingabetaste , wenn Sie fertig sind.
+1. Beginnen Sie im bereitgestellten Feld mit der Eingabe von Eingabeaufforderungen für den KI-Assistenten oder <span class="preview"> oder Mitarbeiter</span> und klicken Sie dann auf die Eingabetaste , wenn Sie fertig sind.
 
    <!--add screen shot-->
 
@@ -325,7 +325,7 @@ Sie können Objekte in Workfront Planning entweder mithilfe der Planning-Designe
    >Einige Objekte werden sofort erstellt, ohne dass eine Bestätigung erforderlich ist.
 
 1. (Optional) Geben Sie zusätzliche Eingabeaufforderungen ein, um Ihre Objekte weiter zu bearbeiten.
-1. (Optional) Klicken Sie auf das Symbol **Vorschaufenster anzeigen oder ausblenden** Symbol ![Vorschaufenster ein- oder &#x200B;](assets/hide-show-preview-screen-in-planning-designer.png) anzeigen), um den Vorschaufenster auf der rechten Seite zu öffnen oder zu schließen.
+1. (Optional) Klicken Sie auf das Symbol **Vorschaufenster anzeigen oder ausblenden** Symbol ![Vorschaufenster ein- oder ](assets/hide-show-preview-screen-in-planning-designer.png) anzeigen), um den Vorschaufenster auf der rechten Seite zu öffnen oder zu schließen.
 1. Klicken Sie auf **Symbol „Arbeitsbereich in neuer Registerkarte öffnen** Symbol ![Arbeitsbereich in neuer Registerkarte öffnen](assets/open-workspace-on-new-tab-icon.png), um den Arbeitsbereich, den Sie aktualisieren, in einer neuen Registerkarte zu öffnen.
 1. Klicken Sie auf das **Schließen**-Symbol **X**, um Planning Designer zu schließen und den Arbeitsbereich zu öffnen.
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um einen Arbeitsbereich zu bearbeiten:

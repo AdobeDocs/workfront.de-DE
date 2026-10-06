@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b529b3aded4ab92015683a0ddccd152bc2cc798c
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '1359'
+source-wordcount: '1358'
 ht-degree: 61%
 ---
 # Erste Schritte mit Adobe Workfront-Planung
@@ -186,7 +186,7 @@ So suchen Sie nach Workfront-Planung:
 
 <div class="preview">
 
-* [Übersicht über Adobe Workfront Planning CX Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md): Eine Konversationsoberfläche, in der Sie ein Ziel in verständlicher Sprache beschreiben und dann die Arbeit in Workfront Planning und anderen verbundenen Adobe-Systemen plant, ausführt und validiert, bevor sie zur Genehmigung zurückgebracht wird. Der CX Coworker behält alles bei, was der KI-Assistent heute tut, und fügt gleichzeitig leistungsfähigere End-to-End-Funktionen hinzu, sowohl in einem neuen Vollbilderlebnis als auch in der rechten Leiste von Workfront.
+* [Übersicht über Adobe Workfront Planning CX Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md): Eine Konversationsoberfläche, in der Sie ein Ziel in verständlicher Sprache beschreiben und dann die Arbeit in Workfront Planning und anderen verbundenen Adobe-Systemen plant, ausführt und validiert, bevor sie zur Genehmigung zurückgebracht wird. CX Coworker behält alles bei, was der KI-Assistent heute tut, und fügt gleichzeitig leistungsfähigere End-to-End-Funktionen hinzu, sowohl in einem neuen Vollbilderlebnis als auch in der rechten Leiste von Workfront.
 
 </div>
 

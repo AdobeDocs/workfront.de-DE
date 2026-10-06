@@ -20,20 +20,20 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '305'
 ht-degree: 16%
 ---
 # Anfordern von Hilfe beim KI-Assistenten
 
 >[!IMPORTANT]
 >
->Ab September 2026 wechselt AI Assistant zu CX Coworker, einer Gesprächsoberfläche zur Erledigung von Aufgaben. Informationen zu CX Coworker finden Sie unter [Übersicht über CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+>Ab September 2026 wechselt der KI-Assistent zu CX Coworker, einer Gesprächsoberfläche zur Erledigung von Aufgaben. Informationen zu Coworker finden Sie in der [Übersicht über CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 Der KI-Assistent kann Informationen aus der Workfront-Dokumentation finden, sodass Sie Adobe Experience League nicht mehr aufrufen müssen, um die benötigte Hilfe zu erhalten.
 
-Wenn Sie beispielsweise den KI-Assistenten nach der Frage „Wie erstelle ich eine Anfrage-Warteschlange?“ fragen, werden Anweisungen zum Erstellen der Anfrage zurückgegeben, die aus dem Artikel &quot;[&#x200B; und Verwalten von Anfrage-Warteschlangen“ &#x200B;](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Wenn Sie beispielsweise den KI-Assistenten nach der Frage „Wie erstelle ich eine Anfrage-Warteschlange?“ fragen, werden Anweisungen zum Erstellen der Anfrage zurückgegeben, die aus dem Artikel &quot;[ und Verwalten von Anfrage-Warteschlangen“ ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 
 ## Zugriffsanforderungen
@@ -72,7 +72,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 Abrufen von Informationen oder Anweisungen aus der Workfront-Dokumentation mithilfe des KI-Assistenten:
 
-1. Klicken Sie auf **KI** Assistent![&#x200B; Symbol KI-Assistent](assets/ai-assistant-icon.png) in der oberen rechten Ecke des Bildschirms.
+1. Klicken Sie auf **KI** Assistent![ Symbol KI-Assistent](assets/ai-assistant-icon.png) in der oberen rechten Ecke des Bildschirms.
 1. Geben Sie im Bedienfeld KI-Assistent Ihre Eingabeaufforderung in den Textbereich unten im Bedienfeld ein.
 
    Je nachdem, wie groß oder komplex die Eingabeaufforderung ist, kann es einige Minuten dauern, bis der KI-Assistent die Informationen findet. Wir empfehlen einfache Eingabeaufforderungen.
