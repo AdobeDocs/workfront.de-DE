@@ -10,9 +10,9 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '2247'
+source-wordcount: '2237'
 ht-degree: 2%
 ---
 # CX Coworker-Eingabeaufforderungen und Best Practices
@@ -21,7 +21,7 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->CX Coworker steht derzeit Organisationen im Gesundheitswesen, im Finanzwesen oder in einigen anderen Branchen mit sensiblen Daten nicht zur Verfügung. KI-Assistent steht diesen Organisationen zur Verfügung. Weitere Informationen finden Sie unter [Übersicht über den KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>CX Coworker ist derzeit nicht für Organisationen im Gesundheits- und Finanzwesen oder in einigen anderen Branchen mit sensiblen Daten verfügbar. KI-Assistent steht diesen Organisationen zur Verfügung. Weitere Informationen finden Sie unter [Übersicht über den KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 Mit CX Coworker können Sie natürliche Sprache verwenden, um mit Workfront Workflow und Workfront Planning zu interagieren.
 
@@ -73,7 +73,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 ## Zu beachten
 
-Beachten Sie die folgenden Einschränkungen bei der Verwendung von CX Coworker:
+Beachten Sie die folgenden Einschränkungen bei der Verwendung von -Kollegen:
 
 ### Umkehrbarkeit
 
@@ -87,13 +87,13 @@ Einige Aktionen, wie das Löschen von Objekten, können jedoch **nicht** rückg�
 
 ### Einschränkungen bei Interaction/UX
 
-* CX Coworker „lernt“ derzeit nicht langfristig aus dem Stil oder den Vorlieben eines einzelnen Benutzers. In jedem Chat wird nur das aktuelle Gespräch und Produktwissen verwendet.
+* Ein Mitarbeiter „lernt“ derzeit langfristig nicht aus dem Stil oder den Voreinstellungen eines einzelnen Benutzers. In jedem Chat wird nur das aktuelle Gespräch und Produktwissen verwendet.
 * Der Konversationskontext wird innerhalb einer einzelnen Chat-Sitzung beibehalten. Durch Öffnen einer neuen Seite oder Schließen des Assistenten wird der Unterhaltungsverlauf zurückgesetzt.
 * Wenn Genehmigungsverfahren in einem externen Programm wie Confluence oder SharePoint vorhanden sind und nur über URL-Felder verknüpft werden, ruft der Mitarbeiter derzeit keine Inhalte auf diesen Seiten ab und argumentiert nicht darüber.
 
 ### Datenspeicher/kundenverwaltete Schlüssel
 
-* Da CX Coworker Teil des Adobe Experience Platform Agent Orchestrator ist, werden Daten aus Ihren Interaktionen mit Kollegen in Adobe Experience Platform und nicht in Workfront gespeichert. Daher werden diese Daten nicht von BYOK-Vereinbarungen (Customer Managed Keys) von Workfront abgedeckt.
+* Da Coworker Teil des Adobe Experience Platform Agent Orchestrator ist, werden Daten aus Ihren Interaktionen mit Coworker in Adobe Experience Platform gespeichert, nicht in Workfront. Daher werden diese Daten nicht von BYOK-Vereinbarungen (Customer Managed Keys) von Workfront abgedeckt.
 
 ## Allgemeine grundlegende KI-Kenntnisse
 
@@ -107,7 +107,7 @@ Best Practices und Eingabeaufforderungen für diese allgemeinen Fähigkeiten fin
 
 ### Produktkenntnisse
 
-CX Coworker kann Anweisungen oder Referenzinformationen bereitstellen, die aus der Workfront-Dokumentation abgerufen werden.
+Mitarbeiter können Anweisungen oder Referenzinformationen aus der Workfront-Dokumentation bereitstellen.
 
 Weitere Informationen zum Abrufen von Informationen aus der Workfront-Dokumentation finden [&#x200B; unter „Hilfe vom KI-Assistenten &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md).
 
@@ -115,7 +115,7 @@ Beispiel: Wie ändere ich den Aufgabendauer-Typ?
 
 ### Zusammenfassung von Projekten, Aufgaben und Problemen
 
-CX Coworker kann Projekte, Aufgaben oder Probleme zusammenfassen<!--, or documents--> die in Workfront hochgeladen wurden.
+Mitarbeiter können Projekte, Aufgaben oder Probleme zusammenfassen<!--, or documents--> die in Workfront hochgeladen wurden.
 
 Weitere Informationen zu Projekt-, Aufgaben- und Problemzusammenfassungen finden Sie unter [Zusammenfassen mit dem KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md).
 
@@ -125,7 +125,7 @@ Beispiel: Fassen Sie das Projekt Herbstkampagne 2026 zusammen.
 
 ### Locate work items
 
-CX Coworker can find work items like projects, tasks, and issues
+Coworker can find work items like projects, tasks, and issues
 
 Example: Find all tasks assigned to me that are due this week.
 
@@ -155,7 +155,7 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 
 -->
 
-## CX-Mitarbeiter in Workfront
+## Mitarbeiter in Workfront
 
 * [Projekt-, Aufgaben- und Probleminformationen](#project-task-and-issue-information)
 * [Projekt- und Arbeitsmanagement](#project-and-work-management)
@@ -163,7 +163,7 @@ For more information on using Smart Filters, see [Filter your work with Smart fi
 
 ### Projekt-, Aufgaben- und Probleminformationen
 
-CX Coworker bietet Informationen zu Projekten, Aufgaben und Problemen, einschließlich Zusammenfassungen und Projektstatus.
+Ein Mitarbeiter kann Ihnen Informationen zu Projekten, Aufgaben und Problemen bereitstellen, einschließlich Zusammenfassungen und Projektstatus.
 
 Siehe Beispiel-Eingabeaufforderungen für Dokument- und Asset-Genehmigungen in den folgenden Bereichen:
 
@@ -202,7 +202,7 @@ Siehe Beispiel-Eingabeaufforderungen für Dokument- und Asset-Genehmigungen in d
 
 ### Projekt- und Arbeitsmanagement
 
-Sie können CX Coworker zum Erstellen und Verwalten von Projekten verwenden, einschließlich Aufgaben und Zuweisungen.
+Sie können Kollegen verwenden, um Projekte, einschließlich Aufgaben und Zuweisungen, zu erstellen und zu verwalten.
 
 Siehe Beispielaufforderungen für das Projekt- und Arbeits-Management in den folgenden Bereichen:
 
@@ -266,7 +266,7 @@ Sie können Benutzer- oder Aufgabenrollenzuweisungen erstellen, aktualisieren un
 
 ### Inhalte und Genehmigungen
 
-CX Coworker kann Sie bei der Verwaltung von Dokument- und Asset-Genehmigungen in Workfront unterstützen.
+Mitarbeiter können bei der Verwaltung von Dokumenten- und Asset-Genehmigungen in Workfront helfen.
 
 Beachten Sie beim Arbeiten mit Dokument- und Asset-Genehmigungen Folgendes:
 
@@ -313,7 +313,7 @@ Siehe Beispiel-Eingabeaufforderungen für Dokument- und Asset-Genehmigungen in d
 * Aktualisieren Sie die Vorlage &#39;Creative Review&#39;, indem Sie Rick Kuvec entfernen und Karen Sterling zu Schritt 2 hinzufügen.
 
 
-## CX Coworker in Workfront Planning
+## Mitarbeiter in Workfront Planning
 
 ### Arbeiten mit Planungsdatensätzen
 

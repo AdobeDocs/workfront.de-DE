@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '984'
 ht-degree: 6%
 ---
 # Überblick über den KI-Assistenten von Adobe Workfront-Planung
@@ -55,11 +55,11 @@ Die Benutzerbefehle und die Ausführung dieser Befehle durch die KI arbeiten zus
 
 >[!IMPORTANT]
 >
-><span class="preview">In einigen Unternehmen wurde der KI-Assistent durch den CX Coworker ersetzt. Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront Planning CX Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
+><span class="preview">In einigen Unternehmen wurde der KI-Assistent durch CX Coworker ersetzt. Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront Planning CX Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
 
 ## Zugriffsanforderungen
 
-+++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen. 
++++ Erweitern, um die Zugriffsanforderungen für die in diesem Artikel beschriebene Funktionalität anzuzeigen.
 
 <table style="table-layout:auto"> 
 <col> 
@@ -160,7 +160,7 @@ Sie können den KI-Assistenten verwenden, um zu diesem Zeitpunkt die folgenden A
 
 >[!NOTE]
 >
-><span class="preview">Wenn Ihr Unternehmen Zugriff auf die CX Coworker erhalten hat, ist das Auffinden der CX Coworker ähnlich wie das Auffinden des KI-Assistenten. Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront Planning CX Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
+><span class="preview">Wenn Ihr Unternehmen Zugriff auf CX Coworker erhalten hat, ist das Auffinden von Coworker ähnlich wie das Auffinden des KI-Assistenten. Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront Planning CX Coworker](/help/quicksilver/planning/general/planning-cx-coworker-overview.md).</span>
 
 
 Der KI-Assistent befindet sich in den folgenden Bereichen von Workfront Planning:
