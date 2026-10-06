@@ -18,9 +18,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 667caf828abe21bd1d89ab26bfbab71a7711fe9a
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1474'
 ht-degree: 1%
 ---
 # Migrieren von Workfront OAuth2 zu Adobe Developer Console
@@ -159,4 +159,4 @@ Nein, die Authentifizierung über Adobe Developer Console verursacht keine zusä
 
 **Wo erhalte ich Hilfe?**
 
-Wenden Sie sich an Ihr Workfront-Account-Team oder eröffnen Sie einen Support-Fall, wenn Sie Fragen zu Ihrer spezifischen Integration oder Ihrem Zeitplan haben. Die offizielle, aktuelle Anleitung zum Setup mit Screenshots finden Sie unter [Zugriff erhalten](https://developer.adobe.com/workfront-apis/guides/gaining_access/) in der Dokumentation zu Developer Console von Adobe.
+Wenden Sie sich an Ihr Workfront-Account-Team oder eröffnen Sie einen Support-Fall, wenn Sie Fragen zu Ihrer spezifischen Integration oder Ihrem Zeitplan haben. Die offizielle, aktuelle Anleitung zum Setup mit Screenshots finden Sie unter [Zugriff erhalten](https://developer.adobe.com/workfront-apis/guides/gaining-access/) in der Dokumentation zu Developer Console von Adobe.
