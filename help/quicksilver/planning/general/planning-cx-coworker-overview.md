@@ -152,7 +152,7 @@ Sie können Coworker in den folgenden Bereichen von Workfront Planning platziere
 
 ## Zugriff auf Mitarbeiter im Planungsbereich
 
-1. Melden Sie sich bei Workfront an und klicken Sie dann oben links auf ****-Symbol ![Hauptmenü „Zeilen](assets/lines-main-menu.png) und dann auf **Planung**.
+1. Melden Sie sich bei Workfront an und klicken Sie dann oben links auf **&#x200B;**-Symbol ![Hauptmenü „Zeilen](assets/lines-main-menu.png) und dann auf **Planung**.
 
    Der Bereich Planung wird geöffnet.
 
