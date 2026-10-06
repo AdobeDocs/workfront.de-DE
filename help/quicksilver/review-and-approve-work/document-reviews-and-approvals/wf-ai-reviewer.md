@@ -33,7 +33,7 @@ role_v2:
 source-git-commit: bc354886dc8c2f1dae24513f1d74e800e19fb3ab
 workflow-type: tm+mt
 source-wordcount: '958'
-ht-degree: 3%
+ht-degree: 4%
 ---
 # Erste Schritte mit dem Workfront AI Reviewer
 
@@ -62,7 +62,7 @@ Weitere Informationen zur Unterzeichnung des Abkommens finden Sie unter [Unterze
 >[!CONTEXTUALHELP]
 >id="wf_document_approvals_ai_supported_files"
 >title="Nicht unterstützter Dateityp"
->abstract="Dieser KI-Prüfer unterstützt den ausgewählten Dateityp nicht. Laden Sie einen unterstützten Dateityp hoch oder entfernen Sie den KI-Reviewer, um die Anfrage zu senden."
+>abstract="Dieser KI-Prüfer unterstützt den ausgewählten Dateityp nicht. Laden Sie einen unterstützten Dateityp hoch oder entfernen Sie den KI-Prüfer, um die Anfrage zu senden."
 
 Der KI-Reviewer kann die folgenden Dateitypen überprüfen:
 

@@ -14,10 +14,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: deeb63ceccc28b8f376713d4a6fb6c103ab4e06b
+source-git-commit: e8e94a483c700dc00466ce7fa37f9ddaf3e86004
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 7%
+source-wordcount: '608'
+ht-degree: 3%
 ---
 # Verwenden von Workfront-Dokumenten in Creative Cloud-Apps
 
@@ -77,11 +77,45 @@ So greifen Sie auf ein Workfront-Projekt in Photoshop, Illustrator oder InDesign
 >
 >Verwenden Sie stattdessen Adobe Cloud Drive, um einen Dateityp zu bearbeiten, den Photoshop, Illustrator oder InDesign nicht öffnen können, z. B. ein Word- oder Excel-Dokument. Weitere Informationen finden Sie unter [Übersicht über Adobe Cloud Drive](/help/quicksilver/documents/adobe-cloud-drive/adobe-cloud-drive-overview.md).
 
+## Speichern eines neuen Dokuments in Workfront aus einer Creative Cloud-App
+
+1. Öffnen Sie Photoshop, Illustrator oder InDesign und erstellen Sie eine neue Datei.
+1. Wählen Sie im oberen Menü die Option **Datei > Speichern unter**.
+1. Wählen Sie im Dialogfeld **Speichern unter** die Option **In Cloud-Dokumenten speichern** und wählen Sie dann das benötigte Workfront-Projekt aus.
+
+   >[!NOTE]
+   >
+   >Beim Speichern eines Dokuments, das sich bereits im Workfront-Projekt befindet, wird das Dialogfeld „Speichern unter“ nicht geöffnet. Sie können ein Workfront-Projekt auswählen, in einem anderen Ordner speichern oder ein anderes Workfront-Projekt auswählen.
+
+
+   ![Neues Dokument in Workfront speichern](assets/save-new-to-wf.png)
+
+1. Wählen Sie einen Dokumentordner aus und klicken Sie dann auf **Speichern**. Wenn Sie keinen Ordner auswählen, wird das Dokument im Stammordner des Projekts gespeichert.
+
+   ![Ordner zum Speichern eines neuen Dokuments in Workfront auswählen](assets/save-to-folder.png)
+
 ## Genehmigung für ein Dokument anfordern
 
 Sie können wie bei jedem anderen Dokument zu jedem Dokument, das Sie aus Photoshop, Illustrator oder InDesign oder aus Adobe Cloud Drive hochgeladen haben, eine Dokumentgenehmigung in Workfront hinzufügen. Weitere Informationen finden Sie unter [Erstellen eines Dokumentgenehmigungs-Workflows](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
-<!--
-need to verify
-Creating an approval on a Creative Cloud document also creates a new version of the document. For more information, see [Manage document versions](/help/quicksilver/documents/managing-documents/manage-document-versions.md#view-the-current-file-during-an-approval).
--->
+
+
+## Verwalten von Dokumentversionen in Workfront über eine Creative Cloud-App
+
+Wenn Sie ein Dokument aus Photoshop, Illustrator oder InDesign in Workfront speichern, werden die Änderungen, die Sie speichern, in der aktuellen Datei auf der Registerkarte Versionen angezeigt und mit dem Badge „Neue Änderungen“ gekennzeichnet.
+
+Sie können eine Genehmigung für die aktuelle Datei anfordern, anstatt eine neue Version des Dokuments hochzuladen. Weitere Informationen finden Sie unter [Anfordern einer Genehmigung für die aktuelle Datei](#request-approval-on-the-current-file).
+
+![Aktuelle Datei mit Abzeichen für neue Änderungen](assets/current-file.png)
+
+### Genehmigung der aktuellen Datei anfordern
+
+So fordern Sie eine Genehmigung für die aktuelle Datei eines Dokuments in Workfront an:
+
+1. Gehen Sie zu dem Projekt in Workfront, das das Dokument enthält, für das Sie eine Genehmigung anfordern möchten.
+1. Öffnen Sie das Dokument und wechseln Sie zur Registerkarte **Versionen** .
+1. Klicken Sie in der aktuellen Datei auf das Menü **Mehr** und dann auf **Genehmigung anfordern**.
+1. Führen Sie im Dialogfeld **Genehmigung anfordern** die Schritte unter [Erstellen eines Workflow für &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) Dokumentvalidierung“ aus, um die Validierung zu erstellen.
+
+   ![Genehmigung für aktuelle Datei anfordern](assets/request-update-on-current-file.png)
+
