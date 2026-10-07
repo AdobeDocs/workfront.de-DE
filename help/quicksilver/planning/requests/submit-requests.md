@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: cf3b7277ff6e6f41a8c388358dfa3f26d1498b4c
 workflow-type: tm+mt
-source-wordcount: '3087'
+source-wordcount: '3110'
 ht-degree: 1%
 ---
 # Senden von Anfragen zum Erstellen von Einträgen in Adobe Workfront-Planung
@@ -191,7 +191,7 @@ Not sure how to change the request status, but dev also said: Changing the names
 
 {{step1-to-requests}}
 
-1. Aktivieren Sie **Einstellung**&#x200B;Neues Erlebnis verwenden“ in der rechten oberen Ecke des Bildschirms.
+1. Aktivieren Sie **Einstellung**Neues Erlebnis verwenden“ in der rechten oberen Ecke des Bildschirms.
 Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformulare im Bereich **Anfragen** von Workfront verfügbar.
 
    >[!TIP]
@@ -220,6 +220,12 @@ Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformula
    >Das **Name** ist für Ihr Unternehmen eindeutig und zeigt in Ihrer Workfront-Instanz möglicherweise eine andere Bezeichnung an. Das Feld ist das primäre Feld des Datensatzes.
 
 1. Aktualisieren Sie die verbleibenden Felder im Anfrageformular. Felder mit einem roten Sternchen sind Pflichtfelder.
+
+   >[!TIP]
+   >
+   >Die Werte für abhängige verbundene Datensatzfelder werden durch die Abhängigkeitsregeln zwischen den Datensätzen beschränkt. Weitere Informationen finden Sie unter [Abhängige Verbindungen verwalten](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+
+
 1. (Bedingt) Wenn Ihr Unternehmen das Ausfüllen **Formulare** KI zulässt, können Sie Dokumente bei Bedarf hochladen. KI verwendet diese Dokumente, um das Formular auszufüllen, und Sie können die KI-Vorschläge akzeptieren oder ablehnen, bevor Sie die Anfrage senden.
 
 
@@ -271,7 +277,7 @@ Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformula
    ![Seite mit Kommentar anfordern](assets/new-request-page-with-comment.png)
 
 1. (Optional) Geben Sie einen Kommentar im Bereich **Kommentare** ein.
-1. (Optional und bedingt) Wenn die Anfrage darauf wartet, genehmigt zu werden, und Sie die Anfrage geöffnet haben, klicken Sie entweder auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/more-menu.png) rechts neben dem Anfragenamen und dann auf **Bearbeiten** oder doppelklicken Sie auf Felder in der Anfrage, um sie zu bearbeiten.
+1. (Optional und bedingt) Wenn die Anfrage darauf wartet, genehmigt zu werden, und Sie die Anfrage geöffnet haben, klicken Sie entweder auf das **Mehr**-Symbol ![Mehr ](assets/more-menu.png) rechts neben dem Anfragenamen und dann auf **Bearbeiten** oder doppelklicken Sie auf Felder in der Anfrage, um sie zu bearbeiten.
 
    >[!NOTE]
    >
@@ -452,7 +458,7 @@ Weitere Informationen finden Sie [Löschen einer gesendeten Anfrage oder eines A
 So löschen Sie eine Planungsanfrage nach dem Öffnen der Anfrage:
 
 1. Öffnen Sie eine Planungsanfrage, indem Sie in der Anfragenliste auf den entsprechenden Namen klicken.
-1. Klicken Sie auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/more-menu.png) rechts neben dem Anfragenamen und klicken Sie dann auf **Löschen**.
+1. Klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/more-menu.png) rechts neben dem Anfragenamen und klicken Sie dann auf **Löschen**.
 1. Klicken Sie **Löschen** im Feld **Dauerhaft löschen** zur Bestätigung.
 
    Die Anfrage wurde gelöscht und kann nicht wiederhergestellt werden.
