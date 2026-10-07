@@ -121,7 +121,7 @@ So fordern Sie eine Genehmigung für die aktuelle Datei eines Dokuments in Workf
 1. Gehen Sie zu dem Projekt in Workfront, das das Dokument enthält, für das Sie eine Genehmigung anfordern möchten.
 1. Öffnen Sie das Dokument und wechseln Sie zur Registerkarte **Versionen** .
 1. Klicken Sie in der aktuellen Datei auf das Menü **Mehr** und dann auf **Genehmigung anfordern**.
-1. Führen Sie im Dialogfeld **Genehmigung anfordern** die Schritte unter [Erstellen eines Workflow für ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) Dokumentvalidierung“ aus, um die Validierung zu erstellen.
+1. Führen Sie im Dialogfeld **Genehmigung anfordern** die Schritte unter [Erstellen eines Workflow für &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md) Dokumentvalidierung“ aus, um die Validierung zu erstellen.
 
    ![Genehmigung für aktuelle Datei anfordern](assets/request-update-on-current-file.png)
 
