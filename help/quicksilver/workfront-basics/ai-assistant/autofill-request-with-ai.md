@@ -15,16 +15,16 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '170'
 ht-degree: 7%
 ---
 # Automatisches Ausfüllen einer Anfrage mit KI
 
 >[!IMPORTANT]
 >
->Ab September 2026 wechselt der KI-Assistent zu CX Coworker, einer Gesprächsoberfläche zur Erledigung von Aufgaben. Informationen zu Coworker finden Sie in der [Übersicht über CX Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+>Ab September 2026 wechselt der KI-Assistent zu CX Enterprise Coworker, einer Gesprächsoberfläche zur Erledigung von Aufgaben. Informationen zu Coworker finden Sie in der [Übersicht über CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 KI kann Ihnen helfen, Anfragefelder automatisch auszufüllen. Es kann Feldwerte basierend auf früheren Anfragen vorschlagen oder sie aus Text analysieren, z. B. E-Mails oder hochgeladene Dokumente.
 

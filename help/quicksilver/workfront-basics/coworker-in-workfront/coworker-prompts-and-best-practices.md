@@ -1,5 +1,5 @@
 ---
-title: CX Coworker-Eingabeaufforderungen und Best Practices
+title: CX Enterprise Coworker-Eingabeaufforderungen und Best Practices
 content-type: reference
 description: Erfahren Sie mehr über die Best Practices für die Verwendung von Kollegen in Workfront und sehen Sie sich eine Liste von Beispielen für Eingabeaufforderungen an.
 author: Becky
@@ -10,20 +10,20 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '2237'
+source-wordcount: '2241'
 ht-degree: 2%
 ---
-# CX Coworker-Eingabeaufforderungen und Best Practices
+# CX Enterprise Coworker-Eingabeaufforderungen und Best Practices
 
 &lt;!—VERWENDEN SIE DIESE NICHT—Verweisen Sie stattdessen auf den Artikel MCP-Beispiel-Eingabeaufforderungen , stellen Sie sicher, dass er mit den neuesten Versionen von MCP aktualisiert wurde—>
 
 >[!IMPORTANT]
 >
->CX Coworker ist derzeit nicht für Organisationen im Gesundheits- und Finanzwesen oder in einigen anderen Branchen mit sensiblen Daten verfügbar. KI-Assistent steht diesen Organisationen zur Verfügung. Weitere Informationen finden Sie unter [Übersicht über den KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>CX Enterprise Coworker ist derzeit nicht für Organisationen im Gesundheits- und Finanzwesen oder in einigen anderen Branchen mit sensiblen Daten verfügbar. KI-Assistent steht diesen Organisationen zur Verfügung. Weitere Informationen finden Sie unter [Übersicht über den KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
-Mit CX Coworker können Sie natürliche Sprache verwenden, um mit Workfront Workflow und Workfront Planning zu interagieren.
+Mit CX Enterprise Coworker können Sie natürliche Sprache verwenden, um mit Workfront Workflow und Workfront Planning zu interagieren.
 
 Coworker ist Teil von Adobe Experience Cloud Agent Orchestrator.
 

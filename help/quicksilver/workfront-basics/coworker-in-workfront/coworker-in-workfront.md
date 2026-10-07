@@ -1,5 +1,5 @@
 ---
-title: 'CX-Mitarbeiter in Workfront: Artikelindex'
+title: 'CX Enterprise Coworker in Workfront: Artikelindex'
 content-type: reference
 description: Hier finden Sie eine Liste der verfügbaren Artikel zu Coworker in Adobe Workfront.
 author: Becky
@@ -10,19 +10,19 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 8%
+source-wordcount: '79'
+ht-degree: 7%
 ---
-# CX-Mitarbeiter in Workfront: Artikelindex
+# CX Enterprise Coworker in Workfront: Artikelindex
 
 >[!IMPORTANT]
 >
->CX Coworker steht derzeit Organisationen im Gesundheitswesen, im Finanzwesen oder in einigen anderen Branchen mit sensiblen Daten nicht zur Verfügung. KI-Assistent steht diesen Organisationen zur Verfügung. Weitere Informationen finden Sie unter [Übersicht über den KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>CX Enterprise Coworker ist derzeit nicht für Organisationen im Gesundheits- und Finanzwesen oder in einigen anderen Branchen mit sensiblen Daten verfügbar. KI-Assistent steht diesen Organisationen zur Verfügung. Weitere Informationen finden Sie unter [Übersicht über den KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [CX-Coworker - Übersicht](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
-* [Verwenden von CX Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
-* [CX-Coworker-Fähigkeiten](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)
+* [Übersicht über CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md)
+* [Verwenden von CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/use-coworker-in-workfront.md)
+* [CX Enterprise Coworker-Kenntnisse](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md)

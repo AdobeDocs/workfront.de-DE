@@ -1,5 +1,5 @@
 ---
-title: CX Coworker-Kenntnisse
+title: CX Enterprise Coworker-Kenntnisse
 content-type: reference
 description: Erfahren Sie mehr über die für Mitarbeiter in Adobe Workfront verfügbaren Fähigkeiten.
 author: Becky
@@ -10,20 +10,20 @@ product_v2:
 feature_v2:
   - id: c042179c-157b-516d-b27c-e3bf303e8567
     internal-label: Get Started with Workfront
-source-git-commit: 5a341c85166860ce88cbda7dff17efbadcafaddb
+source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '255'
 ht-degree: 6%
 ---
-# CX Coworker-Kenntnisse
+# CX Enterprise Coworker-Kenntnisse
 
 {{preview-fast-release-general}}
 
 >[!IMPORTANT]
 >
->CX Coworker ist derzeit nicht für Organisationen im Gesundheits- und Finanzwesen oder in einigen anderen Branchen mit sensiblen Daten verfügbar. KI-Assistent steht diesen Organisationen zur Verfügung. Weitere Informationen finden Sie unter [Übersicht über den KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
+>CX Enterprise Coworker ist derzeit nicht für Organisationen im Gesundheits- und Finanzwesen oder in einigen anderen Branchen mit sensiblen Daten verfügbar. KI-Assistent steht diesen Organisationen zur Verfügung. Weitere Informationen finden Sie unter [Übersicht über den KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md).
 
-In diesem Artikel werden die Kenntnisse aufgelistet, die CX Coworker derzeit in Workfront zur Verfügung stehen.
+In diesem Artikel werden die Kenntnisse aufgelistet, die CX Enterprise Coworker derzeit in Workfront zur Verfügung stehen.
 
 Die von diesen Fähigkeiten abgedeckten Fähigkeiten sind in der -Kolleg*in über die Konversationsoberfläche verfügbar und Sie müssen diese Fähigkeiten nicht direkt aufrufen. Wenn Sie die Kenntnisse jedoch direkt aufrufen möchten, können Sie dies im Bedienfeld „Mitarbeiter“ tun, indem Sie einen Schrägstrich `/` und den Namen der Kenntnisse eingeben.
 
