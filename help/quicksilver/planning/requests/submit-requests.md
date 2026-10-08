@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: cf3b7277ff6e6f41a8c388358dfa3f26d1498b4c
 workflow-type: tm+mt
-source-wordcount: '3087'
+source-wordcount: '3110'
 ht-degree: 1%
 ---
 # Senden von Anfragen zum Erstellen von Einträgen in Adobe Workfront-Planung
@@ -220,6 +220,12 @@ Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformula
    >Das **Name** ist für Ihr Unternehmen eindeutig und zeigt in Ihrer Workfront-Instanz möglicherweise eine andere Bezeichnung an. Das Feld ist das primäre Feld des Datensatzes.
 
 1. Aktualisieren Sie die verbleibenden Felder im Anfrageformular. Felder mit einem roten Sternchen sind Pflichtfelder.
+
+   >[!TIP]
+   >
+   >Die Werte für abhängige verbundene Datensatzfelder werden durch die Abhängigkeitsregeln zwischen den Datensätzen beschränkt. Weitere Informationen finden Sie unter [Abhängige Verbindungen verwalten](/help/quicksilver/planning/architecture/manage-dependent-connections.md).
+
+
 1. (Bedingt) Wenn Ihr Unternehmen das Ausfüllen **Formulare** KI zulässt, können Sie Dokumente bei Bedarf hochladen. KI verwendet diese Dokumente, um das Formular auszufüllen, und Sie können die KI-Vorschläge akzeptieren oder ablehnen, bevor Sie die Anfrage senden.
 
 

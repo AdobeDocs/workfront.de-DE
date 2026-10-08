@@ -14,9 +14,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: db6d682b43caf1d28779599495b931da5c80d126
+source-git-commit: 485b9a47cb2d5dee9dfbb77f3f6da76995df88ad
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '662'
 ht-degree: 3%
 ---
 # Verwenden von Workfront-Dokumenten in Creative Cloud-Apps
@@ -84,9 +84,9 @@ Sie können eine neue Datei in Workfront speichern oder eine neue Kopie einer be
 So speichern Sie ein neues Dokument in Workfront:
 
 1. Öffnen Sie Photoshop, Illustrator oder InDesign und erstellen Sie eine neue Datei.
-1. Wenn Sie eine neue Datei speichern möchten, klicken **im oberen** auf „Speichern“.
-ODER
-Wenn Sie eine neue Kopie einer vorhandenen Datei speichern möchten, klicken Sie im oberen Menü **Speichern unter**.
+1. Führen Sie im oberen Menü eine der folgenden Aktionen aus:
+   * Um eine neue Datei zu speichern, klicken Sie auf **Speichern**.
+   * Um eine neue Kopie einer vorhandenen Datei zu speichern, klicken Sie auf **Speichern unter**.
 1. Wählen Sie im Dialogfeld **Speichern unter** die Option **In Cloud-Dokumenten speichern** und wählen Sie dann das benötigte Workfront-Projekt aus.
 
    >[!NOTE]
@@ -108,7 +108,7 @@ Sie können wie bei jedem anderen Dokument zu jedem Dokument, das Sie aus Photos
 
 ## Verwalten von Dokumentversionen in Workfront über eine Creative Cloud-App
 
-Wenn Sie ein Dokument aus Photoshop, Illustrator oder InDesign in Workfront speichern, werden die Änderungen, die Sie speichern, in der aktuellen Datei auf der Registerkarte Versionen angezeigt und mit dem Badge „Neue Änderungen“ gekennzeichnet.
+Wenn Sie ein Dokument aus Photoshop, Illustrator oder InDesign in Workfront speichern, werden die Änderungen, die Sie speichern, in der aktuellen Datei auf der Registerkarte Versionen angezeigt und mit dem Badge „Neue Updates“ gekennzeichnet.
 
 Sie können eine Genehmigung für die aktuelle Datei anfordern, anstatt eine neue Version des Dokuments hochzuladen. Weitere Informationen finden Sie unter [Anfordern einer Genehmigung für die aktuelle Datei](#request-approval-on-the-current-file).
 

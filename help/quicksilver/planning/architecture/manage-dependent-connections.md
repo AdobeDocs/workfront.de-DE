@@ -17,9 +17,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: cf3b7277ff6e6f41a8c388358dfa3f26d1498b4c
 workflow-type: tm+mt
-source-wordcount: '1404'
+source-wordcount: '1427'
 ht-degree: 1%
 ---
 
@@ -137,6 +137,8 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
 * Abhängigkeitsstufen sind auf 6 Verbindungen beschränkt. So können bis zu 7 Datensatztypen verbunden werden.
 
 * Damit die Abhängigkeitskette funktioniert, müssen alle abhängigen Felder gleichzeitig für denselben Datensatztyp vorhanden sein.
+
+* Abhängige Felder werden für alle Bereiche unterstützt, in denen die verbundenen Datensatzfelder angezeigt werden, einschließlich der Detailbereiche eines Datensatzes oder Anfrageformulars.
 
 ## Erstellen einer abhängigen Verbindung
 
