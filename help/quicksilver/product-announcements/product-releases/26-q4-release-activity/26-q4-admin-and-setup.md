@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 4dc9ef8ad7c6314d4c9c331ed25760ad0343d9ff
+source-git-commit: 28bc67576996051daa1e38c35e5dbe20c6aa0ebd
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1793'
 ht-degree: 1%
 ---
 # Verbesserungen für Administratoren im vierten Quartal 2026
@@ -23,6 +23,22 @@ ht-degree: 1%
 Auf dieser Seite werden Admin-Verbesserungen beschrieben, die mit der Version vom vierten Quartal 2026 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2026 des Versionszyklus verfügbar sind, finden Sie unter [Versionsübersicht für das vierte Quartal 2026](/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-release-overview.md).
+
+## Beschäftigungshistorie eines Benutzers anzeigen
+
+>[!NOTE]
+>
+>Vorschau: 1. Oktober 2026
+>Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktion für alle: 15. Oktober 2026
+
+Damit Sie verfolgen können, wie sich das Aufgabengebiet, die Agentur, die Kostenstelle und die Abrechnungssätze eines Benutzers im Laufe der Zeit geändert haben, haben wir Beschäftigungshistorie hinzugefügt.
+
+Der Beschäftigungsverlauf zeigt eine chronologische Ansicht dieser Details für einen oder mehrere Benutzer an. Jede Zeile stellt einen bestimmten Satz von Werten und den Datumsbereich dar, in dem sie angewendet wurden.
+
+Sie können den Beschäftigungsverlauf für mehrere Benutzer oder den vollständigen Verlauf eines einzelnen Benutzers anzeigen. Sie können die Ergebnisse in beiden Ansichten filtern, die angezeigten Spalten anpassen und die Daten als CSV- oder XLSX-Datei exportieren.
+
+Weitere Informationen finden Sie unter [Anzeigen des Beschäftigungsverlaufs der Benutzer](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-employment-history.md).
 
 ## Verwenden von KI zur Erstellung benutzerdefinierter Lokalisierungen
 
@@ -248,7 +264,7 @@ Genehmigungs-, Staging- und Teilnehmeraktionen werden jetzt verfolgt. Diese Maß
 
 Jeder Eintrag enthält die getrackten Standardfelder: Datum und Uhrzeit, Vorgang, Benutzername (oder „systemgeneriert„) und Objektname. MCP-Aktivitäten werden erfasst, einschließlich der LLM (wie Claude), die die Aktualisierung vorgenommen hat. Frame.io-Viewer-Kommentare sind nicht enthalten.
 
-Weitere Informationen finden Sie unter [Anzeigen und Verwalten des &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
+Weitere Informationen finden Sie unter [Anzeigen und Verwalten des ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md).
 
 ## Definieren eines benutzerdefinierten Programms als Landingpage in der Layout-Vorlage
 
