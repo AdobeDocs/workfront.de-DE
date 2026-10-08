@@ -6,29 +6,37 @@ description: Sie können Projektvorlagen verwenden, um die meisten wiederholbare
 author: Alina
 feature: Work Management
 exl-id: cac7662f-f2ae-44f0-a0bb-1569c03d172e
-TQID: https://experienceleague.adobe.com/9RlRNqkZYIcLjI5-he3f2BMtoXj3R--8MQbVUFmRHqI
+TQID: 'https://experienceleague.adobe.com/9RlRNqkZYIcLjI5-he3f2BMtoXj3R--8MQbVUFmRHqI'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: e458b7274f0f80c8be395bdc8ad91eaf6cfd0876
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 702
+source-wordcount: '702'
 ht-degree: 5%
-
 ---
-
 # Überblick über Projektvorlagen
 
 <!-- Audited: 12/2023 -->
@@ -48,15 +56,15 @@ Im Folgenden finden Sie einige Vorteile der Verwendung von Vorlagen zum Erstelle
 * Dies ist hilfreich bei der Berichterstellung über Projekte. Sie können beispielsweise Berichte zu Projekten erstellen, die dieselbe Vorlage verwenden, um ihren Fortschritt zu vergleichen und Verbesserungen bei der Durchführung zu finden.
 * Zusätzlich zur Definition der zukünftigen Projekteinstellungen können Sie einer Vorlage die folgenden Informationen für das zukünftige Projekt hinzufügen:
 
-   * Aufgaben
-   * Dokumente
-   * Genehmigungen
-   * Warteschlangendetails
-   * Warteschlangenthemen
-   * Themengruppen
-   * Routing-Regeln
-   * Benutzerdefinierte Formulare
-   * Unternehmens- und Gruppeninformationen
+  * Aufgaben
+  * Dokumente
+  * Genehmigungen
+  * Warteschlangendetails
+  * Warteschlangenthemen
+  * Themengruppen
+  * Routing-Regeln
+  * Benutzerdefinierte Formulare
+  * Unternehmens- und Gruppeninformationen
 
 ## Best Practices für die Erstellung von Vorlagen
 
@@ -71,8 +79,8 @@ Beachten Sie beim Erstellen von Vorlagen Folgendes:
 
   Informationen zur Dauer finden Sie in den folgenden Artikeln:
 
-   * [Übersicht über die Aufgabendauer und den Dauertyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
-   * [Überblick über die Projektdauer](../../../manage-work/projects/planning-a-project/project-duration.md)
+  * [Übersicht über die Aufgabendauer und den Dauertyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
+  * [Überblick über die Projektdauer](../../../manage-work/projects/planning-a-project/project-duration.md)
 
   Informationen zu den geplanten Stunden finden Sie unter [Überblick über geplante Stunden](../../../manage-work/tasks/task-information/planned-hours.md).
 
@@ -89,8 +97,8 @@ Beachten Sie beim Erstellen von Vorlagen Folgendes:
 
 * Entscheiden Sie, welchen Dokumentspeicher Sie für Ihre zukünftigen Projekte verwenden möchten. Einige Organisationen haben Zugriff auf die folgenden Dokumentspeichertypen:
 
-   * Legacy Workfront-Speicher
-   * Cloud-Speicherplatz von Adobe
+  * Legacy-Workfront-Speicher
+  * Cloud-Speicherplatz von Adobe
 
   Das Hinzufügen von Dokumenten unterscheidet sich je nach ausgewähltem Speichertyp. Der Speichertyp, den Sie für Ihre Vorlagen auswählen, wirkt sich auf den Speichertyp aus, den zukünftige Projekte erben.
 
@@ -98,8 +106,8 @@ Beachten Sie beim Erstellen von Vorlagen Folgendes:
 
   Weitere Informationen finden Sie auch unter:
 
-   * [Erstellen einer Projektvorlage](/help/quicksilver/manage-work/projects/create-and-manage-templates/create-template.md)
-   * [Übersicht über das Dokumentenmanagement für Projekte und zugehörige Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)
+  * [Erstellen einer Projektvorlage](/help/quicksilver/manage-work/projects/create-and-manage-templates/create-template.md)
+  * [Übersicht über das Dokumentenmanagement für Projekte und zugehörige Objekte](/help/quicksilver/manage-work/projects/manage-projects/manage-documents-on-projects.md)
 
 ## Möglichkeiten zum Erstellen von Vorlagen
 
@@ -112,7 +120,7 @@ Sie können eine neue Vorlage wie folgt erstellen:
   Weitere Informationen zum Erstellen von Vorlagen aus vorhandenen Projekten finden Sie unter [Vorlage aus Projekt erstellen](../../../manage-work/projects/create-and-manage-templates/create-template-from-project.md).
 
 * Durch Kopieren aus einer anderen Vorlage.\
-  Weitere Informationen zum Kopieren einer vorhandenen Vorlage finden Sie unter [Kopieren einer &#x200B;](../../../manage-work/projects/create-and-manage-templates/copy-template.md)).
+  Weitere Informationen zum Kopieren einer vorhandenen Vorlage finden Sie unter [Kopieren einer ](../../../manage-work/projects/create-and-manage-templates/copy-template.md)).
 
 * Mithilfe unserer Beispielvorlagen.\
   Weitere Informationen zum Erstellen Ihrer Vorlagen mithilfe unserer Beispielvorlagen finden Sie unter [Erstellen von Projektvorlagen aus Beispielen](../../../manage-work/projects/create-and-manage-templates/create-templates-from-examples.md).

@@ -8,25 +8,29 @@ feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
 last-update: 2026-04-01T18:23:03.000Z
 git-commit-file: c04fc32836179ccbd80a7de3978493caf8ba8670
-TQID: https://experienceleague.adobe.com/XyWVRXfAEOZppXJVTWL4jFX9UoB2s1uzXEebHrlY0xw
+TQID: 'https://experienceleague.adobe.com/XyWVRXfAEOZppXJVTWL4jFX9UoB2s1uzXEebHrlY0xw'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2839
+source-wordcount: '2870'
 ht-degree: 2%
-
 ---
-
 # Verwalten von Benutzerzuordnungen im Workload Balancer
 
 <!-- Audited: 01/2024 -->
@@ -105,7 +109,7 @@ Beachten Sie Folgendes, wenn Sie im Workload Balancer tägliche, wöchentliche o
 
   >[!INFO]
   >
-  > Eine Aufgabe kann beispielsweise eine Dauer von 2 Tagen und 2 geplanten Stunden haben und sie hat eine geplante Startzeit von 12 :00 am ersten Tag der Dauer mit einem Benutzer und einem Projektplan, der um 17 Uhr endet. Die Kapazität des Benutzers für den ersten Tag beträgt 5 Stunden. Die Kapazität des Benutzers für den zweiten Tag beträgt 8 Stunden (wenn der Zeitplan um 9 Uhr morgens beginnt).
+  > Eine Aufgabe kann beispielsweise eine Dauer von 2 Tagen und 2 geplanten Stunden haben und sie hat eine geplante Startzeit von 12:00 Uhr am ersten Tag der Dauer mit einem Benutzer und einem Projektplan, der um 17 Uhr endet. Die Kapazität des Benutzers für den ersten Tag beträgt 5 Stunden. Die Kapazität des Benutzers für den zweiten Tag beträgt 8 Stunden (wenn der Zeitplan um 9 Uhr morgens beginnt).
   >
   >Workfront berechnet die Zuordnung der 2 Stunden für die 2 Tage der Dauer anhand der folgenden Formel:
   >
@@ -127,15 +131,15 @@ Beachten Sie Folgendes, wenn Sie im Workload Balancer tägliche, wöchentliche o
   >
   >Wenn die Ausfallzeit markiert wurde, nachdem der Benutzer einem Arbeitselement zugewiesen wurde, müssen Sie die Timeline des Projekts neu berechnen, um die verschobene Zuordnung anzuzeigen. Weitere Informationen finden Sie unter [Neuberechnen von Projektzeitleisten](../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
-   * Wenn einer Aufgabe mehrere Benutzer zugewiesen sind und der primäre Zugewiesene Ausfallzeiten geplant hat, wird die Zeitleiste verschoben (wenn die Daten nicht fest sind) und die geplanten Stunden aller Zugewiesenen werden über die neue Dauer der Aufgabe neu verteilt. Wenn die Aufgabe feste Termine hat, wird die Zeitleiste aufgrund der Ausfallzeit nicht geändert und die Stunden werden den verbleibenden Tagen neu zugewiesen.
-   * Wenn Zuweisungen manuell vorgenommen werden, werden die geplanten Stunden nach der Ausfallzeit nicht neu zugewiesen.
+  * Wenn einer Aufgabe mehrere Benutzer zugewiesen sind und der primäre Zugewiesene Ausfallzeiten geplant hat, wird die Zeitleiste verschoben (wenn die Daten nicht fest sind) und die geplanten Stunden aller Zugewiesenen werden über die neue Dauer der Aufgabe neu verteilt. Wenn die Aufgabe feste Termine hat, wird die Zeitleiste aufgrund der Ausfallzeit nicht geändert und die Stunden werden den verbleibenden Tagen neu zugewiesen.
+  * Wenn Zuweisungen manuell vorgenommen werden, werden die geplanten Stunden nach der Ausfallzeit nicht neu zugewiesen.
 
 * Wenn der Aufgabe mehrere Benutzer zugewiesen sind, wird der Betrag der geplanten Stunden zuerst gleichmäßig auf jeden Benutzer und dann gleichmäßig auf jeden Tag innerhalb der Aufgabendauer verteilt. Diese Verteilung wird zur Zuordnung jedes Benutzers zur Aufgabe.
 
   Beispielsweise können die folgenden Szenarien vorhanden sein:
 
-   * Für eine Aufgabe mit einer Dauer von 2 Tagen und mit 10 geplanten Stunden, die einem Benutzer zugewiesen sind, beträgt die tägliche Zuweisung für den Benutzer standardmäßig 5 Stunden für jeden Tag.
-   * Für eine Aufgabe mit einer Dauer von 2 Tagen und mit zwei Benutzern zugewiesenen 10 geplanten Stunden beträgt die tägliche Zuweisung für jeden Benutzer standardmäßig 2,5 Stunden für jeden Tag.
+  * Für eine Aufgabe mit einer Dauer von 2 Tagen und mit 10 geplanten Stunden, die einem Benutzer zugewiesen sind, beträgt die tägliche Zuweisung für den Benutzer standardmäßig 5 Stunden für jeden Tag.
+  * Für eine Aufgabe mit einer Dauer von 2 Tagen und mit zwei Benutzern zugewiesenen 10 geplanten Stunden beträgt die tägliche Zuweisung für jeden Benutzer standardmäßig 2,5 Stunden für jeden Tag.
 
 * Wenn eine Aufgabe oder ein Problem vor dem geplanten Abschlussdatum abgeschlossen wurde, wird die Anzahl der zugewiesenen Stunden für die verbleibenden Tage durchgestrichen und nicht auf die Gesamtzuweisung des Benutzers angerechnet. Dies wird nur angezeigt, wenn sowohl das Symbol Zuteilungen anzeigen als auch die Einstellung Prognostiziertes Datum anzeigen aktiviert sind. Weitere Informationen zum Aktivieren der Einstellungen im Workload Balancer finden Sie unter [Navigieren im Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
@@ -258,7 +262,7 @@ Im Rahmen der Zuweisung von Arbeit zu Benutzenden können Sie Benutzerzuweisunge
 
      ![Sperrsymbol](assets/lock-icon-on-simple-task-in-the-balancer.png)
 
-   Weitere Informationen zu den Bedingungen, die erfüllt sein müssen, um die geplanten Stunden im Workload Balancer zu aktualisieren, finden Sie im Abschnitt [Aktualisieren der geplanten Stunden bei der Verwaltung &#x200B;](#update-task-planned-hours-when-managing-user-allocations) Benutzerzuweisungen) in diesem Artikel. Informationen zu den Aufgabendauer-Typen finden Sie [Übersicht über die Aufgabendauer und den &#x200B;](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)).
+   Weitere Informationen zu den Bedingungen, die erfüllt sein müssen, um die geplanten Stunden im Workload Balancer zu aktualisieren, finden Sie im Abschnitt [Aktualisieren der geplanten Stunden bei der Verwaltung ](#update-task-planned-hours-when-managing-user-allocations) Benutzerzuweisungen) in diesem Artikel. Informationen zu den Aufgabendauer-Typen finden Sie [Übersicht über die Aufgabendauer und den ](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)).
 
 1. (Bedingt) Wenn die Aufgabe mehr als einem Benutzer zugewiesen ist, wiederholen Sie diese Schritte für jeden Benutzer, der der Aufgabe zugewiesen ist, um die Zuordnungen für jeden Benutzer zu aktualisieren.
 
@@ -285,10 +289,10 @@ Dies ist möglich, wenn die folgenden Bedingungen vorliegen:
 
 * Sie verfügen über die richtigen Berechtigungen und Zugriffsrechte, um geplante Stunden über den Workload-Balancer zu verwalten. Dazu gehören die folgenden:
 
-   * Verwalten Sie die Berechtigungen für die Aufgaben.
-   * Aktualisieren Sie die geplanten Stunden im Zugriff auf den Workload Balancer im Bereich „Ressourcenverwaltung“ Ihrer Zugriffsebene.
+  * Verwalten Sie die Berechtigungen für die Aufgaben.
+  * Aktualisieren Sie die geplanten Stunden im Zugriff auf den Workload Balancer im Bereich „Ressourcenverwaltung“ Ihrer Zugriffsebene.
 
-  Weitere Informationen zum Zugriff, der für die Verwendung des Workload Balancer erforderlich ist, finden Sie [&#x200B; Abschnitt &quot;](#access-requirements)&quot; in diesem Artikel.
+  Weitere Informationen zum Zugriff, der für die Verwendung des Workload Balancer erforderlich ist, finden Sie [ Abschnitt &quot;](#access-requirements)&quot; in diesem Artikel.
 
 * Die Aufgabe hat den Dauertyp „Einfach“.
 

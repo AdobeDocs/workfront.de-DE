@@ -6,25 +6,29 @@ description: Sie können Informationen aus jeder Ansicht des Ressourcenplaners i
 author: Lisa
 feature: Resource Management
 exl-id: 07acd28a-5dc0-45b4-bdf2-20abbd5e098c
-TQID: https://experienceleague.adobe.com/f1tAWm7-QiEGbN-ENKTlJumMK29mqdiZ5PgY-27gzc4
+TQID: 'https://experienceleague.adobe.com/f1tAWm7-QiEGbN-ENKTlJumMK29mqdiZ5PgY-27gzc4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 582
+source-wordcount: '599'
 ht-degree: 13%
-
 ---
-
 # Exportieren von Informationen aus dem Ressourcenplaner
 
 Sie können Informationen aus jeder Ansicht des Ressourcenplaners in eine Excel-Datei (.xlsx) exportieren, die auf Ihrem Computer gespeichert wird.
@@ -76,7 +80,7 @@ Der **Planer** wird standardmäßig angezeigt.
 
    * Nach Benutzer/Benutzerin anzeigen
    * Nach Projekt anzeigen
-   * Nach Funktion anzeigen
+   * Nach Rolle anzeigen
 
 1. Klicken Sie auf **Exportieren**.
 
@@ -95,25 +99,25 @@ Der **Planer** wird standardmäßig angezeigt.
    * 12 Quartale
 
    **Zu exportieren auswählen**: Je nach ausgewählter Ansicht können Sie auswählen, ob Sie die Verfügbarkeits- und Budgetierungsinformationen für alle auf dem Bildschirm aufgeführten Objekte oder für bestimmte Objekte exportieren möchten.
-Sie können auswählen, ob die folgenden Informationen exportiert werden sollen:
+   Sie können auswählen, ob die folgenden Informationen exportiert werden sollen:
 
    * Wählen Sie in der Projektansicht zum Exportieren aus:
 
-      * Projekte
-      * Projekte und Aufgabengebiete
-      * Alles (dies ist die Standardoption)
+     * Projekte
+     * Projekte und Aufgabengebiete
+     * Alles (dies ist die Standardoption)
 
    * Wählen Sie in der Benutzeransicht zum Exportieren Folgendes aus:
 
-      * Benutzende
-      * Benutzende und Projekte
-      * Alles (dies ist die Standardoption)
+     * Benutzende
+     * Benutzende und Projekte
+     * Alles (dies ist die Standardoption)
 
    * Wählen Sie in der Rollenansicht die zu exportierende Option aus:
 
-      * Rollen
-      * Aufgabengebiete und Projekte
-      * Alles (dies ist die Standardoption)
+     * Rollen
+     * Aufgabengebiete und Projekte
+     * Alles (dies ist die Standardoption)
 
    **Datenformatierung**: Wählen Sie je nach gewünschter Anzeige Ihrer Excel-Datei die folgenden Optionen aus:
 

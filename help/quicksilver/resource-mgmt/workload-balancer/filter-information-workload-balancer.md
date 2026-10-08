@@ -6,27 +6,33 @@ description: Um Arbeitselemente effizient zu finden und sich auf die von Ihnen v
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-TQID: https://experienceleague.adobe.com/GwsP3EbD5BOQaS-xTxmpRlmqkGXdVSoowt-KG34O75M
+TQID: 'https://experienceleague.adobe.com/GwsP3EbD5BOQaS-xTxmpRlmqkGXdVSoowt-KG34O75M'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: c33d85a1-be85-4290-854c-87408c10aa80
+    internal-label: Workload Balancer
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2441
+source-wordcount: '2464'
 ht-degree: 2%
-
 ---
-
 # Filtern von Informationen im Workload Balancer
 
 <!-- Audited: 6/2025 -->
@@ -179,9 +185,9 @@ Sie können einen Filter von Grund auf neu erstellen oder einen der vordefiniert
    >
    >Der Standardfilter zeigt Benutzer an, die zu einem Ihrer Teams gehören, sowie deren Arbeitselemente. Eine Kopie dieses Filters kann bearbeitet werden.
 
-   Wenn Sie über ein Projekt auf [!UICONTROL Workload &#x200B;]Balancer) zugreifen, **der Filter** Arbeitselemente dieses Projekts“ möglicherweise bereits angewendet. Dadurch werden nur Arbeitselemente angezeigt, die Benutzern in diesem Projekt zugewiesen sind. Sie können eine Kopie dieses Filters duplizieren und speichern.
+   Wenn Sie über ein Projekt auf [!UICONTROL Workload ]Balancer) zugreifen, **der Filter** Arbeitselemente dieses Projekts“ möglicherweise bereits angewendet. Dadurch werden nur Arbeitselemente angezeigt, die Benutzern in diesem Projekt zugewiesen sind. Sie können eine Kopie dieses Filters duplizieren und speichern.
 
-   Standardmäßig zeigt der [!UICONTROL Workload Balancer“ des Projekts &#x200B;] Arbeitselemente an, die allen Benutzenden im Projekt zugewiesen sind.
+   Standardmäßig zeigt der [!UICONTROL Workload Balancer“ des Projekts ] Arbeitselemente an, die allen Benutzenden im Projekt zugewiesen sind.
 
 
 1. Klicken Sie **Neuer Filter**.
@@ -326,7 +332,7 @@ Beachten Sie Folgendes, bevor Sie einen Filter löschen:
 
 1. Klicken Sie in der rechten oberen Ecke der Bereiche **Nicht zugewiesene Arbeit** oder **Zugewiesene Arbeit** auf das **Filtersymbol** ![Filtersymbol](assets/filter-icon.png). Das **Filter** wird auf der rechten Seite angezeigt.
 
-1. Bewegen Sie den Mauszeiger über einen Filter und klicken Sie auf das **Mehr** Menü ![Mehr &#x200B;](assets/more-menu-edit-filter.png) dann auf **Löschen**.
+1. Bewegen Sie den Mauszeiger über einen Filter und klicken Sie auf das **Mehr** Menü ![Mehr ](assets/more-menu-edit-filter.png) dann auf **Löschen**.
 
    >[!TIP]
    >

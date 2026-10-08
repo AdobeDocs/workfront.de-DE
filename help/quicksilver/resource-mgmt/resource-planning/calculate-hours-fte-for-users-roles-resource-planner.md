@@ -7,26 +7,31 @@ description: Übersicht über die Berechnung von Stunden und FTE für Benutzer u
 author: Lisa
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
-TQID: https://experienceleague.adobe.com/plzNKZEP3YSHuUZt2MrWb9Q--QemkwCEJD3JxWlB6x4
+TQID: 'https://experienceleague.adobe.com/plzNKZEP3YSHuUZt2MrWb9Q--QemkwCEJD3JxWlB6x4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 8c7088d5d53b1519752e6ad0cd0caa79453e3d67
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 1325
+source-wordcount: '1325'
 ht-degree: 2%
-
 ---
-
 # Überblick über die Berechnung von Stunden und FTE für Benutzende und Rollen im Ressourcenplaner
 
 <!-- Audited: 5/2025 -->
@@ -47,7 +52,7 @@ Die folgenden Ressourceninformationen werden im Ressourcenplaner anders berechne
   Weitere Informationen zum Definieren der Ressourcenverwaltungseinstellungen für das Adobe Workfront-System finden Sie unter [Ressourcenverwaltungseinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 * Alle anderen FTE-Werte werden auf Grundlage des Systemstandardzeitplans berechnet.\
-  Weitere Informationen dazu, wie alle anderen Werte im Ressourcenplaner angezeigt werden, wenn VZÄ verwendet werden, finden Sie im Abschnitt [Berechnen aller anderen Stunden- und VZÄ-Werte für Benutzer und Aufgabengebiete im &#x200B;](#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner)) in diesem Artikel.
+  Weitere Informationen dazu, wie alle anderen Werte im Ressourcenplaner angezeigt werden, wenn VZÄ verwendet werden, finden Sie im Abschnitt [Berechnen aller anderen Stunden- und VZÄ-Werte für Benutzer und Aufgabengebiete im ](#calculate-all-other-hour-and-fte-values-for-users-and-job-roles-in-the-resource-planner)) in diesem Artikel.
 
 Es ist wichtig zu verstehen, was das FTE für jede Ihrer Benutzerinnen und Benutzer und deren Aufgabengebiete ist, um Ihre Ressourcen genau zu verwalten, während Sie sie der Arbeit zuweisen.
 
@@ -80,7 +85,7 @@ Je nachdem, wie diese Einstellung konfiguriert ist, wird die Verfügbarkeit der 
 
   * Der verfügbare VZÄ für den Benutzer im Ressourcenplaner ist derselbe wie der in den Benutzereinstellungen angegebene VZÄ für den Benutzer.
 
-    Wenn beispielsweise der Benutzer-FTE in den Benutzereinstellungen 0,5 beträgt, ist der verfügbare FTE des Benutzers im Ressourcenplaner 0,5. Weitere Informationen zum FTE-Wert des Benutzers, wie er in den Benutzereinstellungen angezeigt wird, [&#x200B; Sie unter „Bearbeiten des Benutzerprofils](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+    Wenn beispielsweise der Benutzer-FTE in den Benutzereinstellungen 0,5 beträgt, ist der verfügbare FTE des Benutzers im Ressourcenplaner 0,5. Weitere Informationen zum FTE-Wert des Benutzers, wie er in den Benutzereinstellungen angezeigt wird, [ Sie unter „Bearbeiten des Benutzerprofils](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 * **Zeitplan des Benutzers**: Der Zeitplan des Benutzers wird verwendet, um die Verfügbarkeit des Benutzers im Ressourcenplaner zu bestimmen. Der Wert des Vollzeitäquivalents (FTE) des Benutzers wird ignoriert. In diesem Fall:
 
@@ -114,7 +119,7 @@ Wenn beispielsweise der Wert von Verfügbare Stunden für eine Benutzerin oder e
 
 >[!NOTE]
 >
->Die gesamte verfügbare Zeit für den Benutzer wird anhand einer der beiden Methoden berechnet, die im Abschnitt [Berechnen der verfügbaren Stunden und VZÄ für einen Benutzer im &#x200B;](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner) dieses Artikels beschrieben sind.
+>Die gesamte verfügbare Zeit für den Benutzer wird anhand einer der beiden Methoden berechnet, die im Abschnitt [Berechnen der verfügbaren Stunden und VZÄ für einen Benutzer im ](#calculate-the-available-hours-and-fte-for-a-user-in-the-resource-planner) dieses Artikels beschrieben sind.
 
 Wenn Sie den Ressourcenplaner in der Rollenansicht anzeigen, entspricht die Verfügbarkeit eines einzigen Aufgabengebiets der Gesamtverfügbarkeit aller Benutzer, die dieses Aufgabengebiet erfüllen können.
 

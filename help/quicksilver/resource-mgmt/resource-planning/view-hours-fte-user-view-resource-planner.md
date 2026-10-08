@@ -7,27 +7,33 @@ description: Verfügbare, geplante und tatsächliche Stunden oder FTE im Ressour
 author: LIsa
 feature: Resource Management
 exl-id: 6b532aa2-435f-4fda-b7ce-abe0a785638f
-TQID: https://experienceleague.adobe.com/usuiwhQ-2kexur4dNbkV1taPUhlGFlRHQfQ3OzcNUT8
+TQID: 'https://experienceleague.adobe.com/usuiwhQ-2kexur4dNbkV1taPUhlGFlRHQfQ3OzcNUT8'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: ce22a157-dd2c-405f-b740-c2f204bb4c1a
+    internal-label: Timesheets
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 1741
+source-wordcount: '1741'
 ht-degree: 2%
-
 ---
-
 # Anzeigen verfügbarer, geplanter und tatsächlicher Stunden oder FTE im Ressourcenplaner bei Verwendung der Benutzeransicht
 
 <!--
@@ -43,8 +49,8 @@ Beachten Sie beim Anzeigen der Stunden- oder FTE-Informationen im Ressourcenplan
 * Sie können die verfügbaren und geplanten Stunden oder die FTE-Informationen für Benutzer, Aufgabengebiete und Projekte in allen Ansichten des Ressourcenplaners anzeigen.
 * Die folgenden Informationen können nur in der Benutzeransicht angezeigt werden:
 
-   * Die Differenz zwischen der Menge der geplanten Stunden oder FTE und der Menge der verfügbaren Stunden oder FTE. Sie können dann die Zuordnung Ihrer Benutzer entsprechend diesem Unterschied in der Projekt- und Rollenansicht budgetieren.
-   * Die tatsächlichen Stunden für FTE.
+  * Die Differenz zwischen der Menge der geplanten Stunden oder FTE und der Menge der verfügbaren Stunden oder FTE. Sie können dann die Zuordnung Ihrer Benutzer entsprechend diesem Unterschied in der Projekt- und Rollenansicht budgetieren.
+  * Die tatsächlichen Stunden für FTE.
 
 * Sie können die Differenz zwischen dem verfügbaren Benutzer und der Anzahl der geplanten Stunden oder VZÄ entweder als Zahl oder als Prozentwert in der Ansicht „Benutzer“ anzeigen.
 * Sie können die Informationen nicht in der Benutzeransicht nach Kosten anzeigen.
@@ -56,14 +62,14 @@ Beachten Sie beim Anzeigen der Stunden- oder FTE-Informationen im Ressourcenplan
 * Workfront füllt „Tatsächliche Stunden“ mit der tatsächlichen Zeit, die von den Benutzenden, die diesen Aufgaben und Problemen zugewiesen sind, protokolliert wird. Dies umfasst die für ein Projekt protokollierte Zeit.
 * In der Benutzeransicht können Sie Folgendes tun:
 
-   * Erweitern Sie jeden Benutzer, um eine Liste der Projekte anzuzeigen, denen dieser Benutzer zugewiesen ist.
+  * Erweitern Sie jeden Benutzer, um eine Liste der Projekte anzuzeigen, denen dieser Benutzer zugewiesen ist.
 
-     >[!NOTE]
-     >
-     >Nur Benutzer, die mit den in den Filtern enthaltenen Projekten verknüpft sind, können erweitert werden.
+    >[!NOTE]
+    >
+    >Nur Benutzer, die mit den in den Filtern enthaltenen Projekten verknüpft sind, können erweitert werden.
 
-   * Erweitern Sie jedes Projekt, um eine Liste der Aufgabengebiete anzuzeigen, die der Benutzer in diesen Projekten erfüllen kann.
-   * Erweitern Sie jede Rolle, um eine Liste der Aufgaben anzuzeigen, denen der Benutzer in dieser Rolle zugewiesen ist.
+  * Erweitern Sie jedes Projekt, um eine Liste der Aufgabengebiete anzuzeigen, die der Benutzer in diesen Projekten erfüllen kann.
+  * Erweitern Sie jede Rolle, um eine Liste der Aufgaben anzuzeigen, denen der Benutzer in dieser Rolle zugewiesen ist.
 
   Wenn Benutzenden keine Aufgabengebiete zugeordnet sind, werden die verfügbaren, geplanten und tatsächlichen Stunden bzw. FTE im Abschnitt **Keine Funktion** aufgeführt.\
   Informationen dazu, welche Felder und Elemente beim Anwenden der Benutzeransicht auf den Ressourcenplaner angezeigt werden, finden Sie im Abschnitt „Projekt/Rolle/Benutzeransichtsauswahl“ in [Übersicht zur Ressourcenplaner-](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
@@ -152,17 +158,17 @@ Beachten Sie beim Anzeigen der geplanten Stunden Folgendes:
 
 * Die folgenden Aufgabenkategorien sind in der Berechnung der geplanten Stunden für jede Ressource enthalten:
 
-   * Aufgaben, die Benutzern in Ressourcenpools, Aufgabengebieten oder Teams im Projekt zugewiesen sind.
+  * Aufgaben, die Benutzern in Ressourcenpools, Aufgabengebieten oder Teams im Projekt zugewiesen sind.
 
-     >[!TIP]
-     >
-     >Wenn Teams Aufgaben zugewiesen werden, wird ihre Zuordnung in den Abschnitten **Keine**&quot; und **Kein Benutzer** angezeigt. Sie können die geplanten Stunden sehen, die mit Teams verknüpft sind, Sie können die Stunden jedoch nicht budgetieren, da den Aufgaben weder Rollen noch Benutzer zugeordnet sind.
+    >[!TIP]
+    >
+    >Wenn Teams Aufgaben zugewiesen werden, wird ihre Zuordnung in den Abschnitten **Keine**&quot; und **Kein Benutzer** angezeigt. Sie können die geplanten Stunden sehen, die mit Teams verknüpft sind, Sie können die Stunden jedoch nicht budgetieren, da den Aufgaben weder Rollen noch Benutzer zugeordnet sind.
 
 * Geplante Stunden im Ressourcenplaner enthalten keine geplanten Stunden, die mit Folgendem verknüpft sind:
 
-   * Übergeordnete Aufgaben
-   * Nicht zugewiesene Aufgaben
-   * Probleme, wenn die Einstellung **Stunden aus Problemen einbeziehen** deaktiviert ist.
+  * Übergeordnete Aufgaben
+  * Nicht zugewiesene Aufgaben
+  * Probleme, wenn die Einstellung **Stunden aus Problemen einbeziehen** deaktiviert ist.
 
 * Geplante Stunden werden nicht im Ressourcenplaner angezeigt, wenn die Dauer der Aufgabe oder des Problems null ist.
 * Mit deaktivierten Benutzern verknüpfte geplante Stunden werden nicht angezeigt.
