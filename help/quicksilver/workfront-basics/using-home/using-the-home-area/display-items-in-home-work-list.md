@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: Elemente in der [!UICONTROL Arbeitsliste] im Bereich „Startseite“ anzeigen
-description: Jedes Widget enthält eine eigene Arbeitsliste. Arbeitslisten zeigen alle Arbeitselemente an, die Ihnen zugewiesen sind. Mithilfe von Filtern und Gruppierungen können Sie steuern[!UICONTROL &#x200B; welche Elemente in Ihrer &#x200B;]Arbeitsliste“ angezeigt werden.
+description: Jedes Widget enthält eine eigene Arbeitsliste. Arbeitslisten zeigen alle Arbeitselemente an, die Ihnen zugewiesen sind. Mithilfe von Filtern und Gruppierungen können Sie steuern[!UICONTROL  welche Elemente in Ihrer ]Arbeitsliste“ angezeigt werden.
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
@@ -30,16 +30,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a761d5287c7eb5194c870e21d8c40c3fc87101f
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 7%
+source-wordcount: '1048'
+ht-degree: 6%
 ---
 # Elemente in der [!UICONTROL Arbeitsliste] im Bereich [!UICONTROL Startseite] anzeigen
 
 <!-- Audited: 1/2024 -->
 
-Jedes Widget enthält eine eigene Arbeitsliste. Arbeitslisten zeigen alle Arbeitselemente an, die Ihnen zugewiesen sind. Mithilfe von Filtern und Gruppierungen können Sie steuern[!UICONTROL &#x200B; welche Elemente in Ihrer &#x200B;]Arbeitsliste“ angezeigt werden.
+Jedes Widget enthält eine eigene Arbeitsliste. Arbeitslisten zeigen alle Arbeitselemente an, die Ihnen zugewiesen sind. Mithilfe von Filtern und Gruppierungen können Sie steuern[!UICONTROL  welche Elemente in Ihrer ]Arbeitsliste“ angezeigt werden.
 
 >[!IMPORTANT]
 >
@@ -116,11 +116,12 @@ Teamanfragen müssen die folgenden Anforderungen erfüllen, damit sie im Widget 
 
 ## Filtern von Arbeit
 
-Sie können Elemente in der (Arbeitsliste[!UICONTROL &#x200B; eines Widgets filtern] um nur bestimmte Elementtypen anzuzeigen. Sie können beispielsweise „Meine Arbeit“ ([!UICONTROL ) filtern, &#x200B;] nur Probleme oder Anfragen anzuzeigen.
+Sie können Elemente in der (Arbeitsliste[!UICONTROL  eines Widgets filtern] um nur bestimmte Elementtypen anzuzeigen. Sie können beispielsweise „Meine Arbeit“ ([!UICONTROL ) filtern, ] nur Probleme oder Anfragen anzuzeigen.
 
 >[!NOTE]
 >
->Die Filteroptionen werden im Browser gespeichert. Wenn Sie denselben Browser auf demselben Computer verwenden (und die Site-Daten nicht löschen), ändern sich die ausgewählten Filter nicht. Wenn Sie Browser oder Computer wechseln, werden die Filter auf die Standardoption zurückgesetzt, bei der alle Filter deaktiviert sind.
+>Die Filteroptionen für die meisten Widgets werden im Browser gespeichert. Wenn Sie denselben Browser auf demselben Computer verwenden (und die Site-Daten nicht löschen), ändern sich die ausgewählten Filter nicht. Wenn Sie Browser oder Computer wechseln, werden die Filter auf die Standardoption zurückgesetzt, bei der alle Filter deaktiviert sind. <br>
+>Das Widget Meine Genehmigungen speichert keine Filteroptionen im Browser. Das Widget Meine Genehmigungen ist standardmäßig immer auf die Filteroption Meine Genehmigungen festgelegt, die die Ihnen zugewiesenen Genehmigungen anzeigt.
 
 So filtern Sie Ihre Arbeit:
 
@@ -138,7 +139,7 @@ So filtern Sie Ihre Arbeit:
    | Meine Genehmigungen | Zeigt alle ausstehenden, zugewiesenen, delegierten und gesendeten Genehmigungen an |
 
 1. Klicken Sie auf **Filter**-Symbol ![Filtersymbol](assets/filter-nwepng.png) in der rechten oberen Ecke der Widget-Arbeitsliste.
-1. Wählen Sie **Filter**&#x200B;Vorgeschlagen“ oder einen von Ihnen erstellten Filter aus.
+1. Wählen Sie **Filter**Vorgeschlagen“ oder einen von Ihnen erstellten Filter aus.
 Detaillierte Informationen zu vorgeschlagenen Filtern finden Sie unter [Übersicht über Widget-Filter für Startseite](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md).
 1. (Optional) Schalten Sie **Filter stapeln** ein, um mehrere Filteroptionen auszuwählen.
 

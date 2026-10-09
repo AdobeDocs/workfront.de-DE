@@ -26,9 +26,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a761d5287c7eb5194c870e21d8c40c3fc87101f
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '976'
 ht-degree: 4%
 ---
 # Erstellen eines Leserkontos oder einer Verbindung für Snowflake
@@ -74,6 +74,10 @@ Weitere Details zu den Informationen in dieser Tabelle finden Sie unter [Zugriff
 
 Sie müssen ein neues Snowflake-Leserkonto für Ihr Unternehmen erstellen, bevor Sie Verbindungen erstellen können.
 
+Das Leserkonto bietet schreibgeschützten Zugriff auf Ihre Data Connect-Daten, die Sie über Snowflake oder ein Visualisierungs- oder Datenverarbeitungs-Tool eines Drittanbieters abfragen können. Data Connect gibt Ihre Daten nur über Snowflake-Ansichten frei. Datenbanktabellen sind nicht enthalten.
+
+Weitere Informationen finden Sie unter [Erstellen eines Leserkontos](https://docs.snowflake.com/en/user-guide/data-sharing-reader-create) in der Dokumentation zu Snowflake.
+
 >[!IMPORTANT]
 >
 >Dieser Vorgang darf pro Organisation nur einmal abgeschlossen werden. Wenn die **Reader-Konto erstellen** an dem unten beschriebenen Speicherort nicht vorhanden ist, wurde Ihr Leserkonto bereits erstellt.
@@ -88,7 +92,7 @@ So erstellen Sie ein Leserkonto:
 
 1. Nach Abschluss des Vorgangs wird ein Dialogfeld angezeigt, in dem erklärt wird, dass Ihr Leserkonto jetzt aktiv ist. Aktualisieren Sie die Browser-Seite, um auf die Schaltfläche **Neue Verbindung erstellen** zuzugreifen.
 
-Dialogfeld für das Erstellen des Reader-Kontos![&#128279;](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-reader-account-created.png)
+Dialogfeld für das Erstellen des Reader-Kontos](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-reader-account-created.png)![
 
 ## Verbindung erstellen
 
