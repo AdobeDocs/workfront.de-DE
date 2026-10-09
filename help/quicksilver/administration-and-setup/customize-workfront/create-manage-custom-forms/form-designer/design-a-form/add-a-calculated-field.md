@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 76c6943ccbf51ec7860bdb4707bc3ed7c2374128
+source-git-commit: 671c643d520235c3a5bef628cdb793ca2fffe78f
 workflow-type: tm+mt
-source-wordcount: '2735'
+source-wordcount: '2755'
 ht-degree: 9%
 ---
 # Hinzufügen berechneter Felder zu einem Formular
@@ -356,7 +356,7 @@ So verwenden Sie ein vorhandenes berechnetes benutzerdefiniertes Feld wieder:
     <tbody> 
      <tr> 
       <td role="rowheader">Logik hinzufügen</td> 
-      <td>Sie können eine Anzeigelogik hinzufügen, um zu bestimmen, ob das berechnete Feld angezeigt wird, basierend auf mindestens einer Auswahl, die ein Benutzer in einem vorangehenden Feld mit Mehrfachauswahl (Dropdown, Kontrollkästchen oder Optionsfelder) beim Ausfüllen des Formulars vornimmt. Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md">Hinzufügen von Logikregeln zu benutzerdefinierten Formularen und Feldern</a>. <p>Dies ist nur verfügbar, wenn dem berechneten benutzerdefinierten Feld im Formular mindestens ein Kontrollkästchen, ein Optionsfeld oder ein Dropdown-Feld vorangeht. </p> <p>Logik überspringen und andere Logiktypen sind für berechnete benutzerdefinierte Felder nicht verfügbar.</p> </td> 
+      <td>Sie können eine Anzeigelogik hinzufügen, um zu bestimmen, ob das berechnete Feld angezeigt wird, basierend auf mindestens einer Auswahl, die ein Benutzer in einem vorangehenden Feld mit Mehrfachauswahl (Dropdown, Kontrollkästchen oder Optionsfelder) beim Ausfüllen des Formulars vornimmt. Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md">Hinzufügen von Logikregeln zu benutzerdefinierten Formularen und Feldern</a>. <p>Dies ist nur verfügbar, wenn dem berechneten benutzerdefinierten Feld im Formular mindestens ein Kontrollkästchen, ein Optionsfeld oder ein Dropdown-Feld vorangeht. </p> <p>Logik überspringen und andere Logiktypen sind für berechnete benutzerdefinierte Felder nicht verfügbar.</p> <p><b>Hinweis:</b> Benutzerdefinierte Felder, die durch die Anzeigelogik ausgeblendet werden, behalten ihre Werte bei und sind weiterhin in Ausdrücken wie CONCAT enthalten.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Vorherige Berechnungen aktualisieren</td> 

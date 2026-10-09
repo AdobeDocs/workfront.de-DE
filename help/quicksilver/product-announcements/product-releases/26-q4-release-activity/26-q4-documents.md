@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: c1c304ec49cb1b93e15358bee4a39e67abdec6d6
+source-git-commit: 9a6798d8c5d0ec621c9b0c3da9026973c9e0e701
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1721'
 ht-degree: 2%
 ---
 # Verbesserungen bei Dokumenten für das vierte Quartal 2026
@@ -48,6 +48,25 @@ Weitere Informationen finden Sie unter:
 * [Übersicht über Adobe Creative Cloud-Projekte](/help/quicksilver/documents/adobe-creative-cloud-projects/adobe-creative-cloud-projects-overview.md)
 * [Verwenden von Workfront-Dokumenten in Creative Cloud-Apps](/help/quicksilver/documents/adobe-creative-cloud-projects/use-wf-documents-in-cc-apps.md)
 
+<!--
+
+## Delegate unified document approvals
+
+>[!NOTE]
+>
+>Preview: October 8, 2026
+>Production fast release: October 14, 2026
+>Production for everyone: October 15, 2026
+>[!BADGE Off schedule]{type=Neutral}
+
+You can now delegate your unified document approvals to another user, who can approve, reject, or mark reviews complete on your behalf during the delegation period. Delegated decisions show both names in the approval workflow, so it's clear who made each decision.
+
+Legacy document and proof approvals remain unsupported.
+
+For more information, see [Delegate approval request](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+
+-->
+
 ## Mehrere Dokumente in einem einzigen Genehmigungs-Workflow gruppieren
 
 >[!NOTE]
@@ -64,21 +83,18 @@ Gruppierte Validierungen sind nur im Bereich Neue Dokumente verfügbar, der ange
 
 Weitere Informationen finden Sie unter [Erstellen einer gruppierten Genehmigung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-grouped-approval.md).
 
-<!--
-
-## Add a web link as a document
+## Weblink als Dokument hinzufügen
 
 >[!NOTE]
 >
-> Preview: This feature isn't available in preview because Frame.io doesn't currently offer a preview environment.
-> Production fast release: October 14, 2026
-> Production for everyone: October 15, 2026
+>Vorschau: Diese Funktion ist in der Sandbox-Vorschau-Umgebung nicht verfügbar, da die Integration von Frame.io dort nicht verfügbar ist.
+>Produktions-Schnellveröffentlichung: 14. Oktober 2026
+>Produktion für alle: 15. Oktober 2026
+>[!BADGE Außerplanmäßig]{type=Neutral}
 
-You can now add a website to Adobe Workfront as a web link in the new Documents area. After you add it, you can request approval on the live web page the same way you request approval on an uploaded file.
+Sie können jetzt eine Website zu Adobe Workfront als Weblink im Bereich Neue Dokumente hinzufügen. Nachdem Sie sie hinzugefügt haben, können Sie auf der Live-Web-Seite eine Genehmigung anfordern, genauso wie Sie die Genehmigung für eine hochgeladene Datei anfordern.
 
-For more information, see [Add a web link as a document](/help/quicksilver/documents/adding-documents-to-workfront/add-live-url.md) and [Create a document approval workflow](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
-
--->
+Weitere Informationen finden Sie unter <!-- [Add a web link as a document](/help/quicksilver/documents/adding-documents-to-workfront/add-live-url.md) and  -->[Erstellen eines Dokumentgenehmigungs-Workflows](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 ## Kontrollieren, wer Validierungsvorlagen sehen und verwenden kann
 

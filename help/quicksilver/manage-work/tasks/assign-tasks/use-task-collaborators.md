@@ -1,7 +1,7 @@
 ---
 title: Verwenden von Arbeitsagenten
 content-type: reference
-description: Erfahren Sie, wie Sie Arbeitsagenten und KI-Mitarbeiter verwenden, die Workfront-Aufgaben zugewiesen werden können.
+description: Erfahren Sie, wie Sie Arbeitsagenten und KI-Mitwirkende verwenden, die Workfront-Aufgaben, -Problemen und -Anfragen zugewiesen werden können.
 author: Becky
 feature: Work Management, Tasks
 product_v2:
@@ -16,16 +16,16 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: a4dfe29c0cf85f6029fd5f4398942c60bd3d6b5a
+source-git-commit: 0f99c6d23daa91bfd3080ead402f60abf8b18c42
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1085'
 ht-degree: 2%
 ---
 # Verwenden von Arbeitsagenten
 
 {{preview-fast-release-general}}
 
-Arbeitsagenten sind KI-Mitwirkende, die Workfront-Aufgaben und -Problemen direkt zugewiesen werden können. Wie andere KI-Mitwirkende werden Arbeitsagenten im Bereich „Setup“ konfiguriert und Aufgaben wie Benutzenden zugewiesen.
+Arbeitsagenten sind KI-Mitwirkende, die direkt Workfront-Aufgaben, -Problemen und -Anfragen zugewiesen werden können. Wie andere KI-Mitwirkende werden Arbeitsagenten im Bereich „Setup“ konfiguriert und Arbeitselementen wie Benutzenden zugewiesen.
 
 Arbeitsagenten stellen eine Verbindung zu Agenten her, die Sie in Copilot Studio, Claude, Writer, <span class="preview">OpenAI oder IBM konfiguriert haben. </span>
 
@@ -125,13 +125,13 @@ Die folgenden Situationen führen nicht dazu, dass der Arbeitsagent mit der Arbe
 * Ein Arbeitsagent wird einer Aufgabe zugewiesen, der bereits ein Arbeitsagent zugewiesen ist. In diesem Fall hat der erste zugewiesene Arbeitsagent bereits mit der Arbeit begonnen, und der zweite Arbeitsagent unternimmt nichts.
 * Ein Arbeitsagent ist einer Aufgabe zugewiesen, die noch nicht startbereit ist. (Wenn die Aufgabe beispielsweise Vorgänger hat, sind die Vorgänger noch nicht abgeschlossen.)
 
-## Zuweisen eines Arbeitsagenten zu einer Aufgabe (<span class="preview"> Problem</span>
+## Zuweisen eines Arbeitsagenten zu einer Aufgabe, einem Problem oder einer Anfrage
 
-Arbeitsagenten werden Aufgaben (<span class="preview"> Problemen) auf </span> Weise zugewiesen.
+Arbeitsagenten werden Aufgaben, Problemen oder Anfragen auf die gleiche Weise zugewiesen wie Benutzern.
 
 Wenn Sie in der Liste der verfügbaren Bevollmächtigten nach einem Arbeitsagenten suchen, ist der Name des Arbeitsagenten nur ein Vorname.
 
-Anweisungen finden Sie unter [Aufgaben zuweisen](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md).
+Anweisungen finden Sie unter [Aufgaben zuweisen](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md) und [Arbeiten und Teamanfragen verwalten](/help/quicksilver/people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
 >[!NOTE]
 >

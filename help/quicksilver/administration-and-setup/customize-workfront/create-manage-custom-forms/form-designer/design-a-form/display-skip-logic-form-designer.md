@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 671c643d520235c3a5bef628cdb793ca2fffe78f
 workflow-type: tm+mt
-source-wordcount: '3693'
-ht-degree: 2%
+source-wordcount: '3711'
+ht-degree: 1%
 ---
 # Hinzufügen von Logikregeln zu benutzerdefinierten Formularen und Feldern
 
@@ -120,6 +120,7 @@ Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten 
   * Benutzerdefinierte Felder, die nicht in einer Display-Logikanweisung enthalten sind, werden standardmäßig in einem benutzerdefinierten Formular angezeigt.
   * Sie können Logikanweisungen mit mehreren Feldern erstellen.
   * Wenn auf alle Felder unter einem Abschnittsumbruch eine Anzeigelogik angewendet wurde und sie infolge der Logik alle ausgeblendet sind, wird der gesamte Abschnitt im benutzerdefinierten Formular ausgeblendet.
+  * Felder, die durch die Anzeigelogik ausgeblendet werden, behalten ihre Werte bei und sind weiterhin in Ausdrücken wie CONCAT enthalten.
 
 ## Hinzufügen einer Anzeigelogik zu einem benutzerdefinierten Formular
 

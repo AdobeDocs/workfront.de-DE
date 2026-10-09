@@ -12,26 +12,34 @@ git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
 TQID: https://experienceleague.adobe.com/u2Ifl47l4tOd-g-WC-8Io96xmV8ut4RLvwzxyFBwmeA
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: a0dacc9f-0e23-495b-8e9f-a77c2e60b40c
+    internal-label: Work management
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
 subfeature_v2:
   - id: b04e3dc0-3a59-45b1-aa02-b0b6d5f87eff
+    internal-label: Approvals
   - id: d3382524-5489-431b-bde9-271ab257bc37
+    internal-label: Workfront Scenario Planner
   - id: d87de1f9-8e24-4c4d-aa4c-a403075091a1
+    internal-label: Custom forms
   - id: f0dd7b45-76b5-49d4-afe3-39f436b6fbd3
+    internal-label: Projects
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 8f3c773d75c6765b540ecbb71372a16611dcdd02
 workflow-type: tm+mt
-source-wordcount: 755
+source-wordcount: '755'
 ht-degree: 12%
-
 ---
-
 # Kopieren eines Projekts
 
 <!--
@@ -162,76 +170,76 @@ Kopieren eines Projekts:
 
 
    <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
       <td role="rowheader">Alle auswählen</td> 
       <td> <p>Wählt alle Optionen aus und löscht alle Felder und Objekte aus dem neuen Projekt. </p>
 
    <p> Wenn Sie diese Option deaktivieren, werden alle Elemente deaktiviert. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Arbeitsaufträge</td> 
-      <td>Entfernt alle Projekt- und Aufgabenzuweisungen.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Fortschritt</td> 
-      <td>Entfernt den Fortschritt bei allen Aufgaben und zeigt sie als Neu an. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Benutzerdefinierte Daten</td> 
-      <td> <p>Entfernt die Informationen aus dem benutzerdefinierten Formular für das Projekt sowie die Informationen zu den benutzerdefinierten Formularen, die den folgenden Elementen zugeordnet sind:</p> 
-       <ul> 
-        <li>Aufgaben</li> 
-        <li>Ausgaben</li> 
-        <li> Dokumente</li> 
-       </ul> 
-      <p>Die benutzerdefinierten Formulare bleiben an die Aufgaben, Ausgaben, Dokumente und das Projekt angehängt, aber die Informationen in den benutzerdefinierten Feldern des Formulars werden nicht in das neue Projekt kopiert. </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Dokumente</td> 
-      <td> <p>Entfernt alle Elemente auf der Registerkarte „Dokumente“, einschließlich Dokumentversionen, verknüpfter Dokumente und Ordner.</p> <p>Standardmäßig können Korrekturabzüge und Genehmigungen nicht in ein anderes Projekt kopiert werden. </p> </td> 
-     </tr> 
-     <tr> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Arbeitsaufträge</td> 
+        <td>Entfernt alle Projekt- und Aufgabenzuweisungen.</td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Fortschritt</td> 
+        <td>Entfernt den Fortschritt bei allen Aufgaben und zeigt sie als Neu an. </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Benutzerdefinierte Daten</td> 
+        <td> <p>Entfernt die Informationen aus dem benutzerdefinierten Formular für das Projekt sowie die Informationen zu den benutzerdefinierten Formularen, die den folgenden Elementen zugeordnet sind:</p> 
+        <ul> 
+          <li>Aufgaben</li> 
+          <li>Ausgaben</li> 
+          <li> Dokumente</li> 
+        </ul> 
+        <p>Die benutzerdefinierten Formulare bleiben an die Aufgaben, Ausgaben, Dokumente und das Projekt angehängt, aber die Informationen in den benutzerdefinierten Feldern des Formulars werden nicht in das neue Projekt kopiert. </p> </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Dokumente</td> 
+        <td> <p>Entfernt alle Elemente auf der Registerkarte „Dokumente“, einschließlich Dokumentversionen, verknüpfter Dokumente und Ordner.</p> <p>Standardmäßig können Korrekturabzüge und Genehmigungen nicht in ein anderes Projekt kopiert werden. </p> </td> 
+      </tr> 
+      <tr> 
       <td role="rowheader">Alle Vorgänger</td> 
       <td> <p>Entfernt alle Vorgängerbeziehungen zwischen den Aufgaben im Projekt. </p> <p>
 
    Projektübergreifende Vorgänger werden niemals in das neue Projekt übertragen, unabhängig davon, ob dies ausgewählt ist oder nicht. </p> </td>
    </tr>
 
-<tr> 
-      <td role="rowheader">Veranschlagte Stunden</td> 
-      <td> <p>Entfernt die budgetierten Stunden im Bereich Ressourcenplanung des Business Case des Projekts aus dem kopierten Projekt.</p> 
-    <p>
-   Mit dem Szenario-Planer budgetierte Stunden werden niemals in das neue Projekt kopiert, da das neue Projekt nicht mit einer Initiative im Szenario-Planer verknüpft ist. Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budgetressourcen im Business Case mit dem Szenario-Planer</a></p>
-   </tr></td>
-    <tr> 
-      <td role="rowheader">Finanzinformationen</td> 
-      <td> <p>Entfernt die Informationen in den folgenden Bereichen: </p> 
-       <ul> 
-        <li>Unterregisterkarte „Finanzen“ des Projekts</li> 
-        <li> Geplanter Vorteil im Business Case</li> 
-        <li>Finanzinformationen aus allen Aufgaben<br></li> 
-       </ul> <p>Weitere Informationen zur Unterregisterkarte Projektfinanzierung finden Sie unter <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Verwalten von Informationen im Bereich Projektfinanzierung</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Genehmigungsprozess</td> 
-      <td>Entfernt alle Genehmigungen, die mit den Aufgaben oder dem Projekt verbunden sind. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Erinnerungsnachrichten</td> 
-      <td> Entfernt die mit den Aufgaben oder dem Projekt verknüpften Erinnerungsnachrichten. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Ausgaben</td> 
-      <td>Entfernt Ausgaben im Zusammenhang mit den Aufgaben oder dem Projekt. </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Berechtigungen</td> 
-      <td> Entfernt Berechtigungen für alle Benutzer, die Aufgaben oder das Projekt ausführen.</td> 
-     </tr> 
-    </tbody> 
-   </table>
+   <tr> 
+        <td role="rowheader">Veranschlagte Stunden</td> 
+        <td> <p>Entfernt die budgetierten Stunden im Bereich Ressourcenplanung des Business Case des Projekts aus dem kopierten Projekt.</p> 
+      <p>
+    Mit dem Szenario-Planer budgetierte Stunden werden niemals in das neue Projekt kopiert, da das neue Projekt nicht mit einer Initiative im Szenario-Planer verknüpft ist. Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md">Budgetressourcen im Business Case mit dem Szenario-Planer</a></p>
+    </tr></td>
+      <tr> 
+        <td role="rowheader">Finanzinformationen</td> 
+        <td> <p>Entfernt die Informationen in den folgenden Bereichen: </p> 
+        <ul> 
+          <li>Unterregisterkarte „Finanzen“ des Projekts</li> 
+          <li> Geplanter Vorteil im Business Case</li> 
+          <li>Finanzinformationen aus allen Aufgaben<br></li> 
+        </ul> <p>Weitere Informationen zur Unterregisterkarte Projektfinanzierung finden Sie unter <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Verwalten von Informationen im Bereich Projektfinanzierung</a>.</p> </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Genehmigungsprozess</td> 
+        <td>Entfernt alle Genehmigungen, die mit den Aufgaben oder dem Projekt verbunden sind. </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Erinnerungsnachrichten</td> 
+        <td> Entfernt die mit den Aufgaben oder dem Projekt verknüpften Erinnerungsnachrichten. </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Ausgaben</td> 
+        <td>Entfernt Ausgaben im Zusammenhang mit den Aufgaben oder dem Projekt. </td> 
+      </tr> 
+      <tr> 
+        <td role="rowheader">Berechtigungen</td> 
+        <td> Entfernt Berechtigungen für alle Benutzer, die Aufgaben oder das Projekt ausführen.</td> 
+      </tr> 
+      </tbody> 
+    </table>
 
 1. Klicken Sie **Projekt kopieren**. Das kopierte Projekt wird erstellt.

@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: 9a6798d8c5d0ec621c9b0c3da9026973c9e0e701
 workflow-type: tm+mt
-source-wordcount: '3475'
+source-wordcount: '3601'
 ht-degree: 7%
 ---
 # Versionsübersicht für das vierte Quartal 2026
@@ -65,8 +65,26 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
         </tr>
         <tr>
             <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Anzeigen des Beschäftigungshistoriums eines Benutzers</a>
+                <p>Workfront-Admins können jetzt Änderungen am Aufgabengebiet, an der Agentur, an der Kostenstelle und an den Abrechnungssätzen einer Benutzenden im Laufe der Zeit in einer einzigen, filterbaren Ansicht „Beschäftigungshistorie“ verfolgen.</p>
+            </td>
+            <td><p>1. Oktober 2026</p></td>
+            <td><p>14. Oktober 2026</p></td>
+            <td><p>15. Oktober 2026</p></td>
+        </tr>
+        <tr>
+            <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Verwenden von KI zur Erstellung benutzerdefinierter Lokalisierungen</a>
                 <p>Workfront-Administratoren können jetzt KI verwenden, um Übersetzungen für benutzerdefinierten Lokalisierungstext zu generieren und die Ergebnisse vor dem Speichern zu überprüfen oder anzupassen.</p>
+            </td>
+            <td><p>1. Oktober 2026</p></td>
+            <td><p>14. Oktober 2026</p></td>
+            <td><p>15. Oktober 2026</p></td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Verbesserungen an Layout-Vorlagen</a>
+                <p>An Layout-Vorlagen wurden verschiedene Verbesserungen vorgenommen, darunter das Ausblenden oder Anzeigen von Elementen im Hauptmenü, die Positionierung benutzerdefinierter Anwendungen im Hauptmenü und das Ausblenden von Details im linken Navigationsbereich.</p>
             </td>
             <td><p>1. Oktober 2026</p></td>
             <td><p>14. Oktober 2026</p></td>
@@ -134,16 +152,6 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Benutzerdefinierte Wochen zusätzlich zu benutzerdefinierten Quartalen für Workfront Planning-Kunden</a>
                 <p>Wenn Ihr Unternehmen über ein Planungspaket verfügt, können Sie jetzt benutzerdefinierte Wochen auf dieselbe Weise konfigurieren wie benutzerdefinierte Quartale.</p>
-            </td>
-            <td><p>3. September 2026</p></td>
-            <td><p>17. September 2026</p></td>
-            <td><p>15. Oktober 2026</p></td>
-        </tr>
-        <tr>
-            <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Benutzerdefinierte Anwendungen im Hauptmenü neu anordnen</a>
-                <p><strong>HINWEIS:</strong> Diese Funktion wurde am 14. September 2026 vorübergehend aus der Vorschau-Umgebung entfernt.</p>
-                <p>Sie können jetzt benutzerdefinierte Anwendungen im Hauptmenü einer Layout-Vorlage neu positionieren, anstatt sie immer als letzte erscheinen zu lassen.</p>
             </td>
             <td><p>3. September 2026</p></td>
             <td><p>17. September 2026</p></td>
@@ -361,6 +369,17 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             <td><p>1. Oktober 2026</p></td>
             <td><p>1. Oktober 2026</p></td>
         </tr>
+<!--
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Delegate unified document approvals</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+                <p>You can now delegate your unified document approvals to another user, who can approve, reject, or mark reviews complete on your behalf during the delegation period.</p>
+            </td>
+            <td><p>October 8, 2026</p></td>
+            <td><p>October 14, 2026</p></td>
+            <td><p>October 15, 2026</p></td>
+        </tr>
+-->        
          <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Gruppieren mehrerer Dokumente in einem einzigen Genehmigungs-Workflow</a><p>[!BADGE Außerplanmäßig]{type=Neutral}</p>
@@ -370,27 +389,24 @@ Für jede vierteljährliche Version werden Live-Webinare abgehalten. Diese heben
             <td><p>14. Oktober 2026</p></td>
             <td><p>15. Oktober 2026</p></td>
         </tr>
-        <!--
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Add a web link as a document</a>
-                <p>You can now add a website to Adobe Workfront as a web link in the new Documents area and request approval on the live web page.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Weblink als Dokument hinzufügen</a><p>[!BADGE Außerplanmäßig]{type=Neutral}</p>
+                <p>Sie können jetzt eine Website als Weblink im Bereich Neue Dokumente zu Adobe Workfront hinzufügen und auf der Live-Webseite die Genehmigung anfordern.</p>
             </td>
-            <td><p>N/A</p></td>
-            <td><p>October 14, 2026</p></td>
-            <td><p>October 15, 2026</p></td>
+            <td><p>Diese Funktion ist in der Sandbox-Vorschau-Umgebung nicht verfügbar, da die Frame.io-Integration dort nicht verfügbar ist.</p></td>
+            <td><p>14. Oktober 2026</p></td>
+            <td><p>15. Oktober 2026</p></td>
         </tr>
-        <tr>
         <tr>
             <td>
-                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Access Workfront projects in Adobe Creative Cloud apps</a>
-                <p>You can now access your Workfront projects directly from Adobe Photoshop, Illustrator, and InDesign using the Projects panel.</p>
+                <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Zugriff auf Workfront-Projekte in Adobe Creative Cloud-Programmen</a>
+                <p>Sie können jetzt über das Bedienfeld „Projekte“ direkt aus Adobe Photoshop, Illustrator und InDesign auf Ihre Workfront-Projekte zugreifen.</p>
             </td>
-            <td><p>N/A</p></td>
-            <td><p>[DATE]</p></td>
-            <td><p>[DATE]</p></td>
+            <td><p>K. A.</p></td>
+            <td><p>[DATUM]</p></td>
+            <td><p>[DATUM]</p></td>
         </tr>
-        -->
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/26-q4-release-activity/26-q4-documents.md" class="MCXref xref" xrefformat="{para}">Systemadministratoren haben vollen Zugriff auf Genehmigungsvorlagen</a><p>[!BADGE Außerplanmäßig]{type=Neutral}</p>

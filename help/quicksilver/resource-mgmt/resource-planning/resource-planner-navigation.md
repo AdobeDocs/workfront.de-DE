@@ -7,25 +7,29 @@ description: Mithilfe des Adobe Workfront-Ressourcenplaners können Sie die Verf
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-TQID: https://experienceleague.adobe.com/aDlEs3QYjcq5ycrGOI5X-T0GGvBngLiw1b-7i-WSeU4
+TQID: 'https://experienceleague.adobe.com/aDlEs3QYjcq5ycrGOI5X-T0GGvBngLiw1b-7i-WSeU4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2411
+source-wordcount: '2442'
 ht-degree: 2%
-
 ---
-
 # Übersicht über die Navigation im Ressourcenplaner
 
 <!-- Audited: 5/2025 -->
@@ -106,7 +110,7 @@ Um genaue Informationen im Ressourcenplaner anzuzeigen, müssen Sie eine Reihe v
 Um die Ansicht im Ressourcenplaner zu ändern, wählen Sie im Dropdown-Menü Ansicht nach eine der folgenden Ansichten aus:
 
 * [Nach Projekt anzeigen](#view-by-project)
-* [Nach Funktion anzeigen](#view-by-role)
+* [Nach Rolle anzeigen](#view-by-role)
 * [Nach Benutzer/Benutzerin anzeigen](#view-by-user)
 
 ### Nach Projekt anzeigen {#view-by-project}
@@ -131,15 +135,15 @@ Beachten Sie bei der Auswahl der Projektansicht im Ressourcenplaner Folgendes:
 
 * Sie können die folgenden Stunden-, FTE- oder Kosteninformationen in der Projektansicht anzeigen:
 
-   * Verfügbar
-   * Geplant
-   * Budgetiert
-   * Variance
-   * Netto
+  * Verfügbar
+  * Geplant
+  * Budgetiert
+  * Variance
+  * Netto
 
-     Weitere Informationen finden Sie unter [Budgetressourcen im Ressourcenplaner mithilfe der Projekt- und Rollenansichten](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+    Weitere Informationen finden Sie unter [Budgetressourcen im Ressourcenplaner mithilfe der Projekt- und Rollenansichten](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
-### Nach Funktion anzeigen {#view-by-role}
+### Nach Rolle anzeigen {#view-by-role}
 
 Beachten Sie bei der Auswahl der Rollenansicht im Ressourcenplaner Folgendes:
 
@@ -152,13 +156,13 @@ Beachten Sie bei der Auswahl der Rollenansicht im Ressourcenplaner Folgendes:
 * Wenn diese Ansicht angewendet wird, summieren sich die Projektstunden, FTE oder Kosten zu den Funktionsstunden, FTE oder Kosten.
 * Sie können die folgenden Stunden-, FTE- oder Kosteninformationen in der Rollenansicht anzeigen:
 
-   * Verfügbar
-   * Geplant
-   * Budgetiert
-   * Variance
-   * Netto
+  * Verfügbar
+  * Geplant
+  * Budgetiert
+  * Variance
+  * Netto
 
-     Weitere Informationen finden Sie unter [Budgetressourcen im Ressourcenplaner mithilfe der Projekt- und Rollenansichten](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+    Weitere Informationen finden Sie unter [Budgetressourcen im Ressourcenplaner mithilfe der Projekt- und Rollenansichten](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 ### Nach Benutzer/Benutzerin anzeigen {#view-by-user}
 
@@ -191,23 +195,23 @@ Beachten Sie bei der Auswahl der Benutzeransicht im Ressourcenplaner Folgendes:
 
   Die folgenden Szenarien sind vorhanden:
 
-   * Wenn Sie nicht über die erforderlichen Berechtigungen zum Anzeigen von Projekten und Aufgaben oder Problemen verfügen, die den Benutzern im Ressourcenplaner zugewiesen sind, werden diese Elemente unter den Abschnitten Nicht zugängliche Elemente aufgeführt. In diesem Fall ersetzen diese Abschnitte die Projekt- oder Aufgabenabschnitte.
+  * Wenn Sie nicht über die erforderlichen Berechtigungen zum Anzeigen von Projekten und Aufgaben oder Problemen verfügen, die den Benutzern im Ressourcenplaner zugewiesen sind, werden diese Elemente unter den Abschnitten Nicht zugängliche Elemente aufgeführt. In diesem Fall ersetzen diese Abschnitte die Projekt- oder Aufgabenabschnitte.
 
-   * Wenn Sie nicht über die erforderlichen Berechtigungen zum Anzeigen der Projekte verfügen, aber Zugriff haben, um die Aufgaben oder Probleme in den Projekten anzuzeigen, werden die Projekte, Aufgaben und Probleme unter den Namen der ihnen zugewiesenen Benutzer aufgeführt.
-   * Wenn Sie berechtigt sind, die Projekte anzuzeigen, aber keine Aufgaben oder Probleme in den Projekten, wird der Projektname angezeigt und die Aufgaben und Probleme werden im Abschnitt Nicht zugängliche Elemente aufgeführt.
+  * Wenn Sie nicht über die erforderlichen Berechtigungen zum Anzeigen der Projekte verfügen, aber Zugriff haben, um die Aufgaben oder Probleme in den Projekten anzuzeigen, werden die Projekte, Aufgaben und Probleme unter den Namen der ihnen zugewiesenen Benutzer aufgeführt.
+  * Wenn Sie berechtigt sind, die Projekte anzuzeigen, aber keine Aufgaben oder Probleme in den Projekten, wird der Projektname angezeigt und die Aufgaben und Probleme werden im Abschnitt Nicht zugängliche Elemente aufgeführt.
 
-     Weitere Informationen finden Sie unter [Überblick über Freigabeberechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+    Weitere Informationen finden Sie unter [Überblick über Freigabeberechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 
 * Sie können die folgenden Stunden- und FTE-Informationen in der Benutzeransicht anzeigen:
 
-   * Verfügbar
-   * Geplant
-   * Tatsächlich
-   * Unterschied zwischen geplant und tatsächlich
-   * Prozentsatz der geplanten Zuteilung
+  * Verfügbar
+  * Geplant
+  * Tatsächlich
+  * Unterschied zwischen geplant und tatsächlich
+  * Prozentsatz der geplanten Zuteilung
 
-     Weitere Informationen finden Sie unter [Verfügbare, geplante und tatsächliche Stunden oder VZÄ im Ressourcenplaner anzeigen, wenn Sie die Benutzeransicht verwenden](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)
+    Weitere Informationen finden Sie unter [Verfügbare, geplante und tatsächliche Stunden oder VZÄ im Ressourcenplaner anzeigen, wenn Sie die Benutzeransicht verwenden](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)
 
 ## Projektname
 
@@ -259,9 +263,9 @@ In den Projekt- und Rollenansichten könnten Benutzer unter den folgenden Arten 
 * Ihr primäres Aufgabengebiet
 * Ihr sekundäres Aufgabengebiet in den folgenden Szenarien:
 
-   * Wenn das sekundäre Aufgabengebiet eine gültige Zahl für den Prozentsatz der FTE-Verfügbarkeit in seinem Benutzerprofil hat.
-   * Wenn der/die Benutzende Aufgaben in diesen Rollen zugewiesen ist
-Weitere Informationen zum Prozentsatz der FTE-Verfügbarkeit für ein Aufgabengebiet finden Sie unter [Bearbeiten des Benutzerprofils](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) .
+  * Wenn das sekundäre Aufgabengebiet eine gültige Zahl für den Prozentsatz der FTE-Verfügbarkeit in seinem Benutzerprofil hat.
+  * Wenn der/die Benutzende Aufgaben in diesen Rollen zugewiesen ist
+    Weitere Informationen zum Prozentsatz der FTE-Verfügbarkeit für ein Aufgabengebiet finden Sie unter [Bearbeiten des Benutzerprofils](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) .
 
 ## Keine Rolle und keine Benutzerabschnitte
 
@@ -300,12 +304,12 @@ Von hier aus können Sie eine oder beide der folgenden Einstellungen aktivieren:
 
   Beachten Sie beim Aktivieren dieser Einstellung Folgendes:
 
-   * Der Name des Benutzers, der den Problemen zugewiesen wurde, wird unter dem Aufgabengebiet angezeigt, das ihnen im Problem zugeordnet ist. In den Projekt- und Aufgabenansichten können Sie budgetierte Stunden für den Benutzer und das Aufgabengebiet angeben.
-   * Die Probleme, denen die Benutzer zugewiesen sind, werden in der Benutzeransicht unter den Namen der Aufgabengebiete aufgeführt.
+  * Der Name des Benutzers, der den Problemen zugewiesen wurde, wird unter dem Aufgabengebiet angezeigt, das ihnen im Problem zugeordnet ist. In den Projekt- und Aufgabenansichten können Sie budgetierte Stunden für den Benutzer und das Aufgabengebiet angeben.
+  * Die Probleme, denen die Benutzer zugewiesen sind, werden in der Benutzeransicht unter den Namen der Aufgabengebiete aufgeführt.
 
-     >[!IMPORTANT]
-     >
-     >Wenn das geplante Start- und Abschlussdatum der Anfrage außerhalb der Zeitleiste des Projekts liegt, werden die geplanten Stunden für die Anfrage entsprechend den Datumsangaben der Anfrage angezeigt. Wenn beispielsweise die Projektzeitleiste zwischen Januar und März liegt, die Zeitleiste der Probleme jedoch im August, werden die geplanten Stunden für die Probleme im August angezeigt.
+    >[!IMPORTANT]
+    >
+    >Wenn das geplante Start- und Abschlussdatum der Anfrage außerhalb der Zeitleiste des Projekts liegt, werden die geplanten Stunden für die Anfrage entsprechend den Datumsangaben der Anfrage angezeigt. Wenn beispielsweise die Projektzeitleiste zwischen Januar und März liegt, die Zeitleiste der Probleme jedoch im August, werden die geplanten Stunden für die Probleme im August angezeigt.
 
 
 * **Portfolio-Prioritäten anzeigen**: Zeigt die Projektprioritäten entsprechend der Portfolio an, der sie zugewiesen sind.

@@ -6,25 +6,29 @@ description: Sie können Ihre Ressourcen im Adobe Workfront-Ressourcenplaner bud
 author: Lisa
 feature: Resource Management
 exl-id: 2f3ca8c2-51b3-4282-af8b-7f433365d386
-TQID: https://experienceleague.adobe.com/k8gK4CEKv7EatW5tFiS0ebNDQXfryINmjGi-hZVP2d4
+TQID: 'https://experienceleague.adobe.com/k8gK4CEKv7EatW5tFiS0ebNDQXfryINmjGi-hZVP2d4'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 1416
+source-wordcount: '1416'
 ht-degree: 3%
-
 ---
-
 # Berechnen von Kosten im Ressourcenplaner
 
 <!--
@@ -145,10 +149,10 @@ Obwohl Sie keine Aufgabeninformationen im Ressourcenplaner anzeigen können, wer
 * Der Typ der Zuweisung für die Aufgabe.\
   Sie können die Zuweisung einer Aufgabe aufheben oder die folgenden Entitäten einer Aufgabe zuweisen:
 
-   * Ein Benutzer (mit oder ohne Aufgabengebiet)
-   * Eine Rolle
-   * Ein Team\
-     Eine einem Team zugewiesene Aufgabe gilt aus Sicht des Ressourcenplaners als nicht zugewiesen.
+  * Ein Benutzer (mit oder ohne Aufgabengebiet)
+  * Eine Rolle
+  * Ein Team\
+    Eine einem Team zugewiesene Aufgabe gilt aus Sicht des Ressourcenplaners als nicht zugewiesen.
 
 * Der **Kostentyp** der Aufgaben im Projekt.\
   Weitere Informationen zum Kostentyp einer Aufgabe finden Sie unter [Kosten nachverfolgen](../../manage-work/projects/project-finances/track-costs.md).
@@ -165,99 +169,99 @@ Bei der Berechnung der geplanten Kosten für Benutzer, Funktionen und das Projek
 
 * Wenn der **Kostentyp** &quot;**pro Stunde“** und **keine Zuweisung** auf der Aufgabe vorhanden ist:
 
-   * **Geplante Kosten für Funktion und Benutzer**:
+  * **Geplante Kosten für Funktion und Benutzer**:
 
-     Die geplanten Kosten für Rolle und Benutzer betragen 0,00 $.
+    Die geplanten Kosten für Rolle und Benutzer betragen 0,00 $.
 
-   * **Geplante Projektkosten**:
+  * **Geplante Projektkosten**:
 
-     Die geplanten Projektkosten betragen 0,00 $.
+    Die geplanten Projektkosten betragen 0,00 $.
 
 * Wenn der **Kostentyp** &quot;**pro**&quot; lautet und eine **Benutzerzuweisung** auf der Aufgabe vorhanden ist:
 
-   * **Geplante Kosten für Funktion und Benutzer**:
+  * **Geplante Kosten für Funktion und Benutzer**:
 
-     Die geplanten Kosten für den Benutzer werden anhand der folgenden Formel berechnet:
+    Die geplanten Kosten für den Benutzer werden anhand der folgenden Formel berechnet:
 
-     `User Planned Cost Rate = User Planned Hours * User Cost per Hour Rate`
+    `User Planned Cost Rate = User Planned Hours * User Cost per Hour Rate`
 
-     Wenn ein(e) Benutzende(r) einen Kostensatz in seinem Profil hat, wird dieser Satz zur Berechnung der geplanten Kosten verwendet. Andernfalls wird der Kostensatz pro Stunde auf Systemebene für die Primäre Funktion verwendet.
+    Wenn ein(e) Benutzende(r) einen Kostensatz in seinem Profil hat, wird dieser Satz zur Berechnung der geplanten Kosten verwendet. Andernfalls wird der Kostensatz pro Stunde auf Systemebene für die Primäre Funktion verwendet.
 
-     >[!NOTE]
-     >
-     >Der Benutzer kann der Aufgabe mit einem seiner sekundären Aufgabengebiete zugewiesen werden, hier wird jedoch stattdessen die Rate des primären Aufgabengebiets verwendet.
+    >[!NOTE]
+    >
+    >Der Benutzer kann der Aufgabe mit einem seiner sekundären Aufgabengebiete zugewiesen werden, hier wird jedoch stattdessen die Rate des primären Aufgabengebiets verwendet.
 
-     Die geplanten Kosten für die Funktion werden anhand der folgenden Formel berechnet:
+    Die geplanten Kosten für die Funktion werden anhand der folgenden Formel berechnet:
 
-     `Role Planned Cost = SUM(User Planned Cost)`
+    `Role Planned Cost = SUM(User Planned Cost)`
 
-   * **Geplante Projektkosten**:
+  * **Geplante Projektkosten**:
 
-     Die geplanten Projektkosten betragen 0,00 $.
+    Die geplanten Projektkosten betragen 0,00 $.
 
 * Wenn der **Kostentyp** &quot;**pro**&quot; lautet und eine **Aufgabenrollenzuweisung** auf der Aufgabe vorhanden ist:
 
-   * **Geplante Kosten für Funktion und Benutzer**:
+  * **Geplante Kosten für Funktion und Benutzer**:
 
-     Die geplanten Kosten für den Benutzer betragen 0,00 $.
+    Die geplanten Kosten für den Benutzer betragen 0,00 $.
 
-     Die geplanten Kosten für die Funktion werden anhand der folgenden Formel berechnet:
+    Die geplanten Kosten für die Funktion werden anhand der folgenden Formel berechnet:
 
-     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
+    `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
-     Die Kosten pro Stunde auf Systemebene des Aufgabengebiets, das der Aufgabe zugewiesen wurde, wird zur Berechnung der geplanten Kosten verwendet.
+    Die Kosten pro Stunde auf Systemebene des Aufgabengebiets, das der Aufgabe zugewiesen wurde, wird zur Berechnung der geplanten Kosten verwendet.
 
-   * **Geplante Projektkosten**:
+  * **Geplante Projektkosten**:
 
-     Die geplanten Projektkosten betragen 0,00 $.
+    Die geplanten Projektkosten betragen 0,00 $.
 
 * Wenn der **Kostentyp** „Funktion **/Stündlich** lautet und **keine Zuweisung** auf der Aufgabe vorhanden ist:
 
-   * **Geplante Kosten für Funktion und Benutzer**:
+  * **Geplante Kosten für Funktion und Benutzer**:
 
-     Die geplanten Kosten für Rolle und Benutzer betragen 0,00 $.
+    Die geplanten Kosten für Rolle und Benutzer betragen 0,00 $.
 
-   * **Geplante Projektkosten**:
+  * **Geplante Projektkosten**:
 
-     Die geplanten Projektkosten betragen 0,00 $.
+    Die geplanten Projektkosten betragen 0,00 $.
 
 * Wenn der **Kostentyp** &quot;**pro Stunde“** und eine **Benutzerzuweisung** für die Aufgabe vorhanden ist:
 
-   * **Geplante Kosten für Funktion und Benutzer**:
+  * **Geplante Kosten für Funktion und Benutzer**:
 
-     Die geplanten Kosten für den Benutzer betragen 0,00 $.
+    Die geplanten Kosten für den Benutzer betragen 0,00 $.
 
-     Die geplanten Kosten für die Funktion werden nach folgender Formel berechnet:
+    Die geplanten Kosten für die Funktion werden nach folgender Formel berechnet:
 
-     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
+    `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
-     Workfront ermittelt anhand des Aufgabengebiets, das der Benutzer für die Aufgabe erfüllt, die geplanten Kosten für die Funktion.
+    Workfront ermittelt anhand des Aufgabengebiets, das der Benutzer für die Aufgabe erfüllt, die geplanten Kosten für die Funktion.
 
-     Wenn der/die Benutzende mit keiner Funktion in der Aufgabe verknüpft ist, betragen die geplanten Kosten 0,00 $.
+    Wenn der/die Benutzende mit keiner Funktion in der Aufgabe verknüpft ist, betragen die geplanten Kosten 0,00 $.
 
-   * **Geplante Projektkosten**:
+  * **Geplante Projektkosten**:
 
-     Die geplanten Projektkosten werden nach folgender Formel berechnet:
+    Die geplanten Projektkosten werden nach folgender Formel berechnet:
 
-     `Project Planned Cost = SUM(Role Planned Costs)`
+    `Project Planned Cost = SUM(Role Planned Costs)`
 
 * Wenn der **Kostentyp** „Funktion **/Stündlich** lautet und eine **Aufgabenrollenzuweisung** auf der Aufgabe vorhanden ist:
 
-   * **Geplante Kosten für Funktion und Benutzer**:
+  * **Geplante Kosten für Funktion und Benutzer**:
 
-     Die geplanten Kosten für den Benutzer betragen 0,00 $.
+    Die geplanten Kosten für den Benutzer betragen 0,00 $.
 
-     Die geplanten Kosten für die Funktion werden nach folgender Formel berechnet:
+    Die geplanten Kosten für die Funktion werden nach folgender Formel berechnet:
 
-     `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
+    `Role Planned Cost = Role Planned Hours * Role Cost per Hours`
 
-     Workfront ermittelt anhand des Aufgabengebiets, das der Benutzer für die Aufgabe erfüllt, die geplanten Kosten für die Funktion.
+    Workfront ermittelt anhand des Aufgabengebiets, das der Benutzer für die Aufgabe erfüllt, die geplanten Kosten für die Funktion.
 
-   * **Geplante Projektkosten**:
+  * **Geplante Projektkosten**:
 
-     Die geplanten Projektkosten werden nach folgender Formel berechnet:
+    Die geplanten Projektkosten werden nach folgender Formel berechnet:
 
-     `Project Planned Cost = SUM(Role Planned Costs)`
+    `Project Planned Cost = SUM(Role Planned Costs)`
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(table below ideal but drafted because it does not display correctly in Markdown)</p>

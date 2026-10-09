@@ -6,26 +6,31 @@ description: Adobe Workfront kann eine eindeutige URL für die Benutzeransicht d
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-TQID: https://experienceleague.adobe.com/C6VONkwVFolewhXNwvuYv4WWMx6Ee5v6w9vEgFPgUow
+TQID: 'https://experienceleague.adobe.com/C6VONkwVFolewhXNwvuYv4WWMx6Ee5v6w9vEgFPgUow'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 649
+source-wordcount: '649'
 ht-degree: 7%
-
 ---
-
 # Freigeben der Benutzeransicht des Ressourcenplaners mit einem Link
 
 Adobe Workfront kann eine eindeutige URL für die Benutzeransicht des Ressourcenplaners generieren, die Sie als externe Seite in ein Dashboard einbetten oder separat in einer neuen Browser-Registerkarte öffnen können. Dies ist hilfreich, wenn Sie Informationen zum Ressourcenplaner für Benutzende freigeben, die möglicherweise nicht direkten Zugriff auf den Bereich Ressourcen haben.
@@ -72,9 +77,9 @@ Beachten Sie beim Generieren der eindeutigen URL für die Benutzeransicht des Re
   Sie müssen Zugriff haben, um andere Benutzer anzeigen zu können, damit sie die Informationen im Ressourcenplaner über die URL anzeigen können, die Sie für sie freigegeben haben.
 * Die folgenden Informationen werden gespeichert, wenn Sie die URL für andere Benutzer freigeben:
 
-   * Der Typ der Zeiträume (Woche, Monat, Quartal).
-   * Die Filter, die Sie anwenden.
-   * Der Anzeigetyp (Stunden oder FTE).
+  * Der Typ der Zeiträume (Woche, Monat, Quartal).
+  * Die Filter, die Sie anwenden.
+  * Der Anzeigetyp (Stunden oder FTE).
 
 So rufen Sie eine eindeutige URL in der Benutzeransicht des Ressourcenplaners ab und geben sie für andere Benutzer frei:
 
@@ -112,11 +117,11 @@ So rufen Sie eine eindeutige URL in der Benutzeransicht des Ressourcenplaners ab
      </MadCap:conditionalText>   
      -->
 
-      1. Navigieren Sie **Reporting**>**Dashboards**>**Neues Dashboard**>**Externe Seite hinzufügen.**
+     1. Navigieren Sie **Reporting**>**Dashboards**>**Neues Dashboard**>**Externe Seite hinzufügen.**
 
-      1. Fügen Sie den kopierten Link in die Zwischenablage in das Feld **URL** ein.
-      1. Klicken Sie **Speichern** und dann **Speichern + Schließen**.\
-         Dadurch wird die URL in das Dashboard eingebettet und die Benutzeransicht des Ressourcenplaners wird in einem separaten Dashboard angezeigt.
+     1. Fügen Sie den kopierten Link in die Zwischenablage in das Feld **URL** ein.
+     1. Klicken Sie **Speichern** und dann **Speichern + Schließen**.\
+        Dadurch wird die URL in das Dashboard eingebettet und die Benutzeransicht des Ressourcenplaners wird in einem separaten Dashboard angezeigt.
 
 1. (Optional) Wenn Sie die URL in ein Dashboard eingebettet haben, sollten Sie sie zu einer Layout-Vorlage hinzufügen oder für andere Benutzer freigeben, die möglicherweise keinen Zugriff auf den Bereich „Ressourcenverwaltung“ haben.\
    Informationen zum Hinzufügen von Dashboards zu einer Layout-Vorlage finden Sie unter [Erstellen und Verwalten von Layout-Vorlagen](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) .\

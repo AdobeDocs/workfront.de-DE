@@ -8,25 +8,30 @@ feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
 last-update: 2026-04-01T18:03:50.000Z
 git-commit-file: b03dbe8e217593e0f3a6fcd522148dcd8b7670b8
-TQID: https://experienceleague.adobe.com/5fqDtEMgNA2MD8W7VGBvmbxjCsKkVzkVWhxXsmOlHKM
+TQID: 'https://experienceleague.adobe.com/5fqDtEMgNA2MD8W7VGBvmbxjCsKkVzkVWhxXsmOlHKM'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 6542
+source-wordcount: '7183'
 ht-degree: 1%
-
 ---
-
 # Anzeigen von Informationen zur Ressourcennutzung {#view-resource-utilization-information}
 
 >[!CONTEXTUALHELP]
@@ -151,7 +156,7 @@ Beim Verfolgen von Stunden sind im Auslastungsbericht die folgenden Informatione
    <td scope="col"><strong>Budgetierte Stunden</strong> </td> 
    <td scope="col"> <p>Die insgesamt budgetierten Stunden für die eingeschlossenen Projekte. Sie können die budgetierten Gesamtstunden für die Gesamtlebensdauer der eingeschlossenen Projekte anzeigen oder die budgetierten Gesamtstunden nur für den angegebenen Datumsbereich anzeigen (Sie können eine einzelne Woche oder einen einzelnen Monat angeben). </p> <p>Budgetierte Stunden werden aus Informationen ausgefüllt, die im Bereich Ressourcenbudgetierung des Business Case oder des Ressourcenplaners verfügbar sind<em>.</em></p> <p>Budgetierte Stunden werden im Auslastungsbericht in einer der folgenden Zeilen angezeigt:</p> 
     <ul> 
-     <li> Budgetierte Stunden werden nach Aufgabengebiet und nach einzelnen Benutzern im Auslastungsbericht wie folgt zusammengefasst:<br><strong>Einzelner Benutzer:</strong> Budgetierte Stunden werden für jeden Benutzer im Auslastungsbericht zusammengefasst. Diese budgetierten Stunden sind mit den Aufgaben und Problemen verknüpft, denen der Benutzer in den eingeschlossenen Projekten zugewiesen ist. (Sie können die Zeile des entsprechenden Aufgabengebiets erweitern, um eine Liste der Benutzer mit diesem Aufgabengebiet anzuzeigen.)<br><strong>Aufgabengebiet:</strong> Budgetierte Stunden werden nach Aufgabengebiet im Auslastungsbericht zusammengefasst.<br>Budgetierte Stunden werden in einem bestimmten Aufgabengebiet als Ergebnis eines der folgenden Szenarien angezeigt:
+     <li> Budgetierte Stunden werden nach Aufgabengebiet und nach einzelnen Benutzern im Auslastungsbericht wie folgt zusammengefasst:<br><strong>Einzelner Benutzer:</strong> Budgetierte Stunden werden für jeden Benutzer im Auslastungsbericht zusammengefasst. Diese budgetierten Stunden sind mit den Aufgaben und Problemen verknüpft, denen der Benutzer in den eingeschlossenen Projekten zugewiesen ist. (Sie können die Zeile des entsprechenden Aufgabengebiets erweitern, um eine Liste der Benutzer mit diesem Aufgabengebiet anzuzeigen.)<br><strong>Aufgabengebiet: </strong> Budgetierte Stunden werden nach Aufgabengebiet im Auslastungsbericht zusammengefasst.<br>Budgetierte Stunden werden in einem bestimmten Aufgabengebiet als Ergebnis eines der folgenden Szenarien angezeigt:
      <ul>
      <li>Das Aufgabengebiet wird als primäres Aufgabengebiet des Benutzers definiert, der der Aufgabe oder dem Problem zugewiesen ist, mit der bzw. dem die budgetierten Stunden verknüpft sind. </li> 
        <li>Wenn Sie Nutzungsinformationen für ein einzelnes Projekt anzeigen, wird das Aufgabengebiet des Benutzers verwendet, dem die Stunden zugewiesen wurden, unabhängig davon, ob für die Aufgabe oder das Problem keine Zuweisung vorhanden ist, ein anderer Benutzer ohne Zuweisung eines Aufgabengebiets zugewiesen wurde, ein anderer Benutzer mit einem anderen Aufgabengebiet zugewiesen wurde oder ein anderes Team zugewiesen wurde.</li> 
@@ -196,7 +201,7 @@ Informationen zum Ändern der Zuweisungen für Benutzer finden Sie unter <a href
 
 <li><strong>Einzelner Benutzer</strong>: Die geplanten Stunden werden für jeden Benutzer im Auslastungsbericht zusammengefasst. Diese geplanten Stunden sind mit den Aufgaben und Problemen verknüpft, denen der/die Benutzende in den eingeschlossenen Projekten zugewiesen ist. (Sie können die Zeile des entsprechenden Aufgabengebiets erweitern, um eine Liste von Benutzern mit diesem Aufgabengebiet anzuzeigen.)
 
-<li><strong>Aufgabengebiet</strong>: Geplante Stunden werden nach Aufgabengebiet im Auslastungsbericht eines einzelnen Projekts zusammengefasst.<br>Geplante Stunden werden in einem bestimmten Aufgabengebiet als Ergebnis eines der folgenden Szenarien angezeigt:  
+<li><strong>Aufgabengebiet</strong>: Die geplanten Stunden werden nach Aufgabengebiet im Auslastungsbericht eines einzelnen Projekts zusammengefasst.<br>Geplante Stunden werden in einem bestimmten Aufgabengebiet als Ergebnis eines der folgenden Szenarien angezeigt:  
 <ul>
 
 <li>Das Aufgabengebiet wird als primäres Aufgabengebiet des Benutzers definiert, der der Aufgabe oder dem Problem zugewiesen ist, mit der bzw. dem die geplanten Stunden verknüpft sind.
@@ -230,7 +235,7 @@ Informationen zum Ändern der Zuweisungen für Benutzer finden Sie unter <a href
    <td><strong>Tatsächliche Stunden</strong> </td> 
    <td> <p> Die Gesamtstunden, die für die Aufgaben, Probleme <span> das Projekt für </span> eingeschlossenen Projekte protokolliert wurden. Sie können die tatsächlichen Gesamtstunden für die Gesamtlebensdauer der eingeschlossenen Projekte anzeigen oder die tatsächlichen Gesamtstunden nur für den angegebenen Datumsbereich anzeigen (Sie können eine einzelne Woche oder einen einzelnen Monat angeben). </p> <p><strong>Warnung</strong> Der Auslastungsbericht enthält Stunden, die für das Projekt protokolliert wurden, untergeordnete Aufgaben, Probleme und übergeordnete Aufgaben mit mindestens einer Zuweisung. Sie enthält keine Stunden, die ohne Zuweisungen bei übergeordneten Aufgaben protokolliert wurden. Es wird empfohlen, keine übergeordneten Aufgaben als Arbeitsaufgaben zu verwenden und Ihren Ressourcen nur untergeordnete Aufgaben zuzuweisen. </p> <p>Tatsächliche Stunden werden im Auslastungsbericht in einer der folgenden Zeilen angezeigt:</p> 
     <ul> 
-     <li> Die tatsächlichen Stunden werden nach Aufgabengebiet und nach einzelnen Benutzenden im Auslastungsbericht eines Projekts wie folgt zusammengefasst:<br><strong>Einzelner Benutzer:</strong> Die tatsächlichen Stunden werden im Auslastungsbericht in der Zeile des Benutzers angezeigt, der die Stunden protokolliert hat. (Sie können die Zeile des entsprechenden Aufgabengebiets erweitern, um eine Liste der Benutzer mit diesem Aufgabengebiet anzuzeigen, die Stunden protokolliert haben.)<br><strong>Aufgabengebiet:</strong> Die tatsächlichen Stunden, die von den mit diesen Funktionen verknüpften Benutzern protokolliert wurden, werden im Auslastungsbericht in der Zeile des entsprechenden Aufgabengebiets zusammengefasst.<br>Tatsächliche Stunden werden in einem bestimmten Aufgabengebiet als Ergebnis eines der folgenden Szenarien angezeigt: 
+     <li> Die tatsächlichen Stunden werden nach Aufgabengebiet und nach einzelnen Benutzenden im Auslastungsbericht eines Projekts wie folgt zusammengefasst:<br><strong>Einzelner Benutzer:</strong> Die tatsächlichen Stunden werden im Auslastungsbericht in der Zeile des Benutzers angezeigt, der die Stunden protokolliert hat. (Sie können die Zeile des entsprechenden Aufgabengebiets erweitern, um eine Liste der Benutzer mit diesem Aufgabengebiet anzuzeigen, die Stunden protokolliert haben.)<br><strong>Aufgabengebiet: </strong> Die tatsächlichen Stunden, die von den mit diesen Funktionen verknüpften Benutzern protokolliert wurden, werden im Auslastungsbericht in der Zeile des entsprechenden Aufgabengebiets zusammengefasst.<br>Tatsächliche Stunden werden in einem bestimmten Aufgabengebiet als Ergebnis eines der folgenden Szenarien angezeigt: 
       <ul> 
        <li>Das Aufgabengebiet wird als primäres Aufgabengebiet des Benutzers definiert, der die Stunden protokolliert hat</li> 
        <li>Für die Aufgabe oder das Problem ist keine Zuweisung vorhanden</li> 
@@ -459,37 +464,37 @@ So verfolgen Sie den Fortschritt oder die Kosten eines oder mehrerer Projekte mi
 
    * So zeigen Sie Nutzungsinformationen für ein einzelnes Projekt an:
 
-      1. Gehen Sie zu einem Projekt, für das Sie Nutzungsinformationen anzeigen möchten, und klicken Sie dann im linken Bereich **Nutzung**.
-      1. Nutzungsinformationen werden beim Anzeigen eines einzelnen Projekts automatisch angezeigt und das Anwenden eines Filters ist nicht erforderlich.\
-         Wenn Sie den Auslastungsbericht filtern möchten, können Sie einen Filter anwenden und dann auf &quot;**&quot;**.\
-         Informationen zum Filtern des Auslastungsberichts finden Sie unter [Filtern von &#x200B;](#filter-utilization-information)) in diesem Artikel.\
-         Nutzungsinformationen werden für einzelne Benutzer und Rollen angezeigt (Benutzer werden innerhalb ihrer zugehörigen Rolle gruppiert).
+     1. Gehen Sie zu einem Projekt, für das Sie Nutzungsinformationen anzeigen möchten, und klicken Sie dann im linken Bereich **Nutzung**.
+     1. Nutzungsinformationen werden beim Anzeigen eines einzelnen Projekts automatisch angezeigt und das Anwenden eines Filters ist nicht erforderlich.\
+        Wenn Sie den Auslastungsbericht filtern möchten, können Sie einen Filter anwenden und dann auf &quot;**&quot;**.\
+        Informationen zum Filtern des Auslastungsberichts finden Sie unter [Filtern von &#x200B;](#filter-utilization-information)) in diesem Artikel.\
+        Nutzungsinformationen werden für einzelne Benutzer und Rollen angezeigt (Benutzer werden innerhalb ihrer zugehörigen Rolle gruppiert).
 
    * So zeigen Sie Nutzungsinformationen für mehrere Projekte an:
 
      {{step1-to-utilization-report}}
 
-      1. Wenden Sie einen Filter auf den Nutzungsbericht an und klicken Sie dann auf **Ausführen**.
-Sie müssen ein oder mehrere Projekte im Filter angeben, bevor Sie den Auslastungsbericht ausführen. Informationen zum Filtern des Auslastungsberichts finden Sie unter [Filtern von &#x200B;](#filter-utilization-information)) in diesem Artikel.\
-         Nutzungsinformationen werden für einzelne Rollen und Projekte angezeigt (Rollen sind in ihrem zugehörigen Projekt gruppiert).
+     1. Wenden Sie einen Filter auf den Nutzungsbericht an und klicken Sie dann auf **Ausführen**.
+        Sie müssen ein oder mehrere Projekte im Filter angeben, bevor Sie den Auslastungsbericht ausführen. Informationen zum Filtern des Auslastungsberichts finden Sie unter [Filtern von &#x200B;](#filter-utilization-information)) in diesem Artikel.\
+        Nutzungsinformationen werden für einzelne Rollen und Projekte angezeigt (Rollen sind in ihrem zugehörigen Projekt gruppiert).
 
    * So zeigen Sie Nutzungsinformationen für ein Programm an:
 
      {{step1-to-utilization-report}}
 
-      1. Klicken Sie **Anzeigen** > **Programme**.
-      1. Wenden Sie einen Filter auf den Nutzungsbericht an und klicken Sie dann auf **Ausführen**.\
-         Sie müssen ein oder mehrere Programme im Filter angeben, bevor Sie den Auslastungsbericht ausführen. Informationen zum Filtern des Auslastungsberichts finden Sie unter [Filtern von &#x200B;](#filter-utilization-information)) in diesem Artikel.\
-         Auslastungsinformationen werden für einzelne Projekte und Programme angezeigt (Projekte werden innerhalb ihres zugehörigen Programms gruppiert).
+     1. Klicken Sie **Anzeigen** > **Programme**.
+     1. Wenden Sie einen Filter auf den Nutzungsbericht an und klicken Sie dann auf **Ausführen**.\
+        Sie müssen ein oder mehrere Programme im Filter angeben, bevor Sie den Auslastungsbericht ausführen. Informationen zum Filtern des Auslastungsberichts finden Sie unter [Filtern von &#x200B;](#filter-utilization-information)) in diesem Artikel.\
+        Auslastungsinformationen werden für einzelne Projekte und Programme angezeigt (Projekte werden innerhalb ihres zugehörigen Programms gruppiert).
 
    * So zeigen Sie Nutzungsinformationen für ein Portfolio an:
 
      {{step1-to-utilization-report}}
 
-      1. Klicken Sie **Anzeigen** > **Portfolios**.
-      1. Wenden Sie einen Filter auf den Nutzungsbericht an und klicken Sie dann auf **Ausführen**.\
-         Sie müssen ein oder mehrere Portfolios im Filter angeben, bevor Sie den Auslastungsbericht ausführen. Informationen zum Filtern des Auslastungsberichts finden Sie unter [Filtern von &#x200B;](#filter-utilization-information)) in diesem Artikel.\
-         Nutzungsinformationen werden für einzelne Projekte, Programme und Portfolios angezeigt (Projekte werden innerhalb ihres zugehörigen Programms gruppiert, Programme innerhalb ihres zugehörigen Portfolios).
+     1. Klicken Sie **Anzeigen** > **Portfolios**.
+     1. Wenden Sie einen Filter auf den Nutzungsbericht an und klicken Sie dann auf **Ausführen**.\
+        Sie müssen ein oder mehrere Portfolios im Filter angeben, bevor Sie den Auslastungsbericht ausführen. Informationen zum Filtern des Auslastungsberichts finden Sie unter [Filtern von &#x200B;](#filter-utilization-information)) in diesem Artikel.\
+        Nutzungsinformationen werden für einzelne Projekte, Programme und Portfolios angezeigt (Projekte werden innerhalb ihres zugehörigen Programms gruppiert, Programme innerhalb ihres zugehörigen Portfolios).
 
 1. Klicken Sie oben rechts im Auslastungsbericht auf **Anzeigen** und wählen Sie dann im Menü Folgendes aus:
 
@@ -553,7 +558,7 @@ So erstellen oder ändern Sie einen Filter:
      Kosteninformationen für Probleme sind nicht immer im Auslastungsbericht enthalten. Weitere Informationen dazu, wann Kosteninformationen für Probleme im Auslastungsbericht enthalten sind, finden Sie unter [Verfolgen von Fortschritt, Kosten und Umsatz mit dem Auslastungsbericht](#track-progress-cost-and-revenue-with-the-utilization-report) in diesem Artikel.
 
    * **Rollen:** Sie den Namen der Rolle ein, die Sie im Auslastungsbericht darstellen möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird. Wiederholen Sie diesen Vorgang, um weitere Rollen einzuschließen.
-Der Auslastungsbericht enthält nur Informationen zu den von Ihnen angegebenen Rollen. Eine Aufgabe enthält beispielsweise zehn tatsächliche Stunden. Sechs dieser Stunden stammen aus einer Designer-Rolle und vier aus einer Entwicklerrolle. Wenn Sie den Auslastungsbericht nach Rolle für Designer filtern, werden die vier Stunden aus der Entwicklerrolle aus dem Bericht ausgeschlossen.
+     Der Auslastungsbericht enthält nur Informationen zu den von Ihnen angegebenen Rollen. Eine Aufgabe enthält beispielsweise zehn tatsächliche Stunden. Sechs dieser Stunden stammen aus einer Designer-Rolle und vier aus einer Entwicklerrolle. Wenn Sie den Auslastungsbericht nach Rolle für Designer filtern, werden die vier Stunden aus der Entwicklerrolle aus dem Bericht ausgeschlossen.
 
    * **Filterregel hinzufügen:** Klicken Sie auf **Filterregel hinzufügen** klicken Sie in das Textfeld und geben Sie den Feldnamen ein, nach dem Sie filtern möchten. Wenn das Feld verfügbar ist, wird es für jedes Objekt ausgefüllt, mit dem es verknüpft werden kann. Klicken Sie auf den Namen des Felds, um es dem Filter hinzuzufügen.
 
@@ -567,8 +572,8 @@ Der Auslastungsbericht enthält nur Informationen zu den von Ihnen angegebenen R
 1. Um einen neuen Filter zu erstellen, klicken Sie auf **Filter speichern**.\
    ODER\
    Um einen vorhandenen Filter zu ändern, klicken Sie auf den Pfeil neben der Schaltfläche **Filter speichern** und anschließend auf **Neuen Filter speichern**.
-Geben **im Feld** einen Namen für den Filter ein und klicken Sie auf **Speichern**.
-Der Bereich Nutzung wird mit den Informationen gefiltert, die Sie im Filter enthalten haben.
+   Geben **im Feld** einen Namen für den Filter ein und klicken Sie auf **Speichern**.
+   Der Bereich Nutzung wird mit den Informationen gefiltert, die Sie im Filter enthalten haben.
 
 ### Anwenden eines gespeicherten Filters {#apply-a-saved-filter}
 
@@ -658,13 +663,13 @@ Siehe [Verfolgen von Fortschritt, Kosten und Umsatz mit dem Auslastungsbericht](
 
    * **PDF:** Exportiert den Bericht im PDF-Format. Dies ist das empfohlene Format, wenn Sie den Bericht drucken möchten.\
      Wählen Sie entweder **Brief - Hochformat**, **Brief - Querformat** oder **Andere Größen** (bietet Optionen für den Export in Legal (8,5“ x 14„), Ledger (11“ x 17„) und A4).
-Je nach verwendetem Betriebssystem haben Sie möglicherweise die Möglichkeit, die Datei zu öffnen oder zu speichern. Entweder öffnen Sie die Datei mit der zugehörigen Anwendung oder speichern Sie sie auf Ihrem Computer.
+     Je nach verwendetem Betriebssystem haben Sie möglicherweise die Möglichkeit, die Datei zu öffnen oder zu speichern. Entweder öffnen Sie die Datei mit der zugehörigen Anwendung oder speichern Sie sie auf Ihrem Computer.
 
    * **Excel:** Exportiert den Bericht im XLSX-Format. Dies ist das empfohlene Format, wenn Sie die Daten in Excel weiter analysieren möchten.
-Je nach verwendetem Betriebssystem haben Sie möglicherweise die Möglichkeit, die Datei zu öffnen oder zu speichern. Entweder öffnen Sie die Datei mit der zugehörigen Anwendung oder speichern Sie sie auf Ihrem Computer.
+     Je nach verwendetem Betriebssystem haben Sie möglicherweise die Möglichkeit, die Datei zu öffnen oder zu speichern. Entweder öffnen Sie die Datei mit der zugehörigen Anwendung oder speichern Sie sie auf Ihrem Computer.
 
    * **Durch Tabulatoren getrennt:** Exportiert den Bericht im TSV-Format. Dies ist das empfohlene Format, wenn Sie planen, die Daten zur weiteren Analyse in Software von Drittanbietern zu importieren.
-Je nach verwendetem Betriebssystem haben Sie möglicherweise die Möglichkeit, die Datei zu öffnen oder zu speichern. Entweder öffnen Sie die Datei mit der zugehörigen Anwendung oder speichern Sie sie auf Ihrem Computer.
+     Je nach verwendetem Betriebssystem haben Sie möglicherweise die Möglichkeit, die Datei zu öffnen oder zu speichern. Entweder öffnen Sie die Datei mit der zugehörigen Anwendung oder speichern Sie sie auf Ihrem Computer.
 
 1. Lesen Sie die Informationen im Artikel [Exportieren von Daten](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md), um zu verstehen, wie die exportierte Datei verwendet wird.
 

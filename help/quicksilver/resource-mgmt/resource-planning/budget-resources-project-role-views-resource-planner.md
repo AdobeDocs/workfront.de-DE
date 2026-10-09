@@ -6,26 +6,31 @@ description: Sie können Ressourcen im Adobe Workfront-Ressourcenplaner mithilfe
 author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-TQID: https://experienceleague.adobe.com/BiosJgXO3-6wZ9peIZwoj8rSKpgSSqN3hnVi8btFt88
+TQID: 'https://experienceleague.adobe.com/BiosJgXO3-6wZ9peIZwoj8rSKpgSSqN3hnVi8btFt88'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 2087
+source-wordcount: '2121'
 ht-degree: 3%
-
 ---
-
 # Budgetieren von Ressourcen im Ressourcenplaner mithilfe der Ansichten „Projekt“ und „Rolle“
 
 <!--
@@ -130,9 +135,9 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
    * Geben **in der Spalte** BDG) manuell die Anzahl der budgetierten Stunden, VZÄ oder Kosten für das Projekt an. Dadurch wird die Anzahl der vom Projekt budgetierten Stunden auf die einzelnen Funktionen unter dem Projekt verteilt. Die folgenden Szenarien sind vorhanden:
 
-      * Wenn die von Ihnen angegebene Anzahl von budgetierten Stunden des Projekts den geplanten Stunden des Projekts entspricht, entsprechen die budgetierten Stunden des Aufgabengebiets den geplanten Stunden des Aufgabengebiets.
-      * Wenn die von Ihnen angegebene Anzahl von budgetierten Projektstunden nicht mit den geplanten Projektstunden übereinstimmt, werden die budgetierten Stunden der Funktion entsprechend dem Prozentsatz der für jede Funktion erforderlichen geplanten Stunden verteilt.\
-        Beispiel: Wenn ein Projekt 20 geplante Stunden hat und diese auf zwei Aufgabengebiete aufgeteilt sind (Berater benötigt 12 geplante Stunden und Ingenieur benötigt 8 geplante Stunden) und Sie für das Projekt 30 Stunden budgetieren, werden die Stunden wie folgt aufgeteilt: Die Funktion Berater erhält 18 budgetierte Stunden und die Funktion Ingenieur erhält 12 budgetierte Stunden.
+     * Wenn die von Ihnen angegebene Anzahl von budgetierten Stunden des Projekts den geplanten Stunden des Projekts entspricht, entsprechen die budgetierten Stunden des Aufgabengebiets den geplanten Stunden des Aufgabengebiets.
+     * Wenn die von Ihnen angegebene Anzahl von budgetierten Projektstunden nicht mit den geplanten Projektstunden übereinstimmt, werden die budgetierten Stunden der Funktion entsprechend dem Prozentsatz der für jede Funktion erforderlichen geplanten Stunden verteilt.\
+       Beispiel: Wenn ein Projekt 20 geplante Stunden hat und diese auf zwei Aufgabengebiete aufgeteilt sind (Berater benötigt 12 geplante Stunden und Ingenieur benötigt 8 geplante Stunden) und Sie für das Projekt 30 Stunden budgetieren, werden die Stunden wie folgt aufgeteilt: Die Funktion Berater erhält 18 budgetierte Stunden und die Funktion Ingenieur erhält 12 budgetierte Stunden.
 
 1. Führen Sie einen der folgenden Schritte aus, um die Budgetzuweisung für das Projekt vorzunehmen:
 
@@ -225,7 +230,7 @@ So budgetieren Sie Zuteilungen im Ressourcenplaner in der **&#x200B;**:
 
 1. Klicken Sie auf **Speichern**.\
    Nachdem Sie die Ressourcen im Ressourcenplaner budgetiert haben, werden die budgetierten Stunden für die Ressourcen und die damit verbundenen Kosten im Business Case jedes Projekts aufgeführt.
-Weitere Informationen zum Thema Ressourcenbudgetierung im Business Case finden Sie im Artikel [Budgetressourcen im Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+   Weitere Informationen zum Thema Ressourcenbudgetierung im Business Case finden Sie im Artikel [Budgetressourcen im Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
 1. (Optional) Wählen Sie die Ansicht **Nach Benutzer anzeigen**, um Benutzerüberallokationen oder eine unzureichende Auslastung zwischen den verfügbaren und den geplanten Stunden für jeden Benutzer zu bemerken. Budgetierte Stunden werden in der Ansicht Nach Benutzer anzeigen nicht angezeigt.
 

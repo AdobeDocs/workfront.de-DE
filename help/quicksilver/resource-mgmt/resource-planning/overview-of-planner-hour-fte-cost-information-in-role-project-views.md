@@ -7,27 +7,33 @@ description: Überblick über Stunden, FTE und Kosteninformationen in den Projek
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-TQID: https://experienceleague.adobe.com/xi553ymGC9ZqiMp5wueog3-wIqu072uVXeuXpsQbvIo
+TQID: 'https://experienceleague.adobe.com/xi553ymGC9ZqiMp5wueog3-wIqu072uVXeuXpsQbvIo'
 product_v2:
   - id: c4a86a5d-6562-4fc6-aa00-bfa25833aed9
+    internal-label: Workfront
 feature_v2:
   - id: d968a1bc-9a90-4926-a531-bcf272c32aad
+    internal-label: Administration
   - id: e14a7f57-c82c-4874-a495-5d036cbbdc3d
+    internal-label: Resource management
 subfeature_v2:
   - id: d1573eb8-a2e8-4a06-9526-9c3410bf4914
+    internal-label: Resource Planner
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 55a9d9feae8cc1128e3427a8874414ba734dd467
+    internal-label: Administration
+source-git-commit: 02a97fd6bb32c285e1bef5d614ea4ca713c83a40
 workflow-type: tm+mt
-source-wordcount: 3089
+source-wordcount: '3089'
 ht-degree: 2%
-
 ---
-
 # Überblick über Stunden, FTE und Kosteninformationen in den Projekt- und Rollenansichten des Ressourcenplaners
 
 <!--
@@ -67,11 +73,11 @@ Beachten Sie bei der Budgetierung von Ressourcen mit dem Ressourcenplaner Folgen
 
 * Die Budgetierung von Zuweisungen für Ihre Ressourcen im Ressourcenplaner erfolgt wie folgt:
 
-   * Manuell
+  * Manuell
 
-     ODER
+    ODER
 
-   * Automatisch durch Verwendung der Projekt- und Rollenoptionen in den Ansichten **Nach Projekt anzeigen** und **Nach Rolle anzeigen**.
+  * Automatisch durch Verwendung der Projekt- und Rollenoptionen in den Ansichten **Nach Projekt anzeigen** und **Nach Rolle anzeigen**.
 
   Weitere Informationen finden Sie unter [Budgetressourcen im Ressourcenplaner mithilfe der Projekt- und Rollenansichten](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
@@ -190,16 +196,16 @@ Beachten Sie beim Anzeigen der geplanten Stunden Folgendes:
   Wochenendtage, Zeitplanausnahmen und Urlaubstage sind von dieser Verteilung ausgeschlossen.
 * Die folgenden Aufgabenkategorien sind in der Berechnung der geplanten Stunden für jede Ressource enthalten:
 
-   * Aufgaben, die Benutzern in Ressourcenpools, Aufgabengebieten oder Teams im Projekt zugewiesen sind\
-     Wenn Teams Aufgaben zugewiesen werden, wird ihre Zuordnung in den Abschnitten **Keine**&quot; und **Kein Benutzer** angezeigt. Sie können die geplanten Stunden sehen, die mit Teams verknüpft sind, Sie können die Stunden jedoch nicht budgetieren, da den Aufgaben weder Rollen noch Benutzer zugeordnet sind.
+  * Aufgaben, die Benutzern in Ressourcenpools, Aufgabengebieten oder Teams im Projekt zugewiesen sind\
+    Wenn Teams Aufgaben zugewiesen werden, wird ihre Zuordnung in den Abschnitten **Keine**&quot; und **Kein Benutzer** angezeigt. Sie können die geplanten Stunden sehen, die mit Teams verknüpft sind, Sie können die Stunden jedoch nicht budgetieren, da den Aufgaben weder Rollen noch Benutzer zugeordnet sind.
 
-   * Nicht zugewiesene Aufgaben
+  * Nicht zugewiesene Aufgaben
 
 * Geplante Stunden im Ressourcenplaner enthalten keine geplanten Stunden, die mit Folgendem verknüpft sind:
 
-   * Übergeordnete Aufgaben
-   * Aufgaben, die Benutzern ohne Ressourcenpools zugewiesen sind
-   * Probleme, wenn die Einstellung **Stunden aus Problemen einbeziehen** deaktiviert ist.
+  * Übergeordnete Aufgaben
+  * Aufgaben, die Benutzern ohne Ressourcenpools zugewiesen sind
+  * Probleme, wenn die Einstellung **Stunden aus Problemen einbeziehen** deaktiviert ist.
 
 * Geplante Stunden werden nicht im Ressourcenplaner angezeigt, wenn die Aufgabendauer null ist.
 * Mit deaktivierten Benutzern verknüpfte geplante Stunden werden nicht angezeigt.
