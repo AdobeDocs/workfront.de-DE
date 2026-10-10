@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 5a761d5287c7eb5194c870e21d8c40c3fc87101f
 workflow-type: tm+mt
-source-wordcount: '1015'
-ht-degree: 7%
+source-wordcount: '1048'
+ht-degree: 6%
 ---
 # Elemente in der [!UICONTROL Arbeitsliste] im Bereich [!UICONTROL Startseite] anzeigen
 
@@ -120,7 +120,8 @@ Sie können Elemente in der (Arbeitsliste[!UICONTROL &#x200B; eines Widgets filt
 
 >[!NOTE]
 >
->Die Filteroptionen werden im Browser gespeichert. Wenn Sie denselben Browser auf demselben Computer verwenden (und die Site-Daten nicht löschen), ändern sich die ausgewählten Filter nicht. Wenn Sie Browser oder Computer wechseln, werden die Filter auf die Standardoption zurückgesetzt, bei der alle Filter deaktiviert sind.
+>Die Filteroptionen für die meisten Widgets werden im Browser gespeichert. Wenn Sie denselben Browser auf demselben Computer verwenden (und die Site-Daten nicht löschen), ändern sich die ausgewählten Filter nicht. Wenn Sie Browser oder Computer wechseln, werden die Filter auf die Standardoption zurückgesetzt, bei der alle Filter deaktiviert sind. <br>
+>Das Widget Meine Genehmigungen speichert keine Filteroptionen im Browser. Das Widget Meine Genehmigungen ist standardmäßig immer auf die Filteroption Meine Genehmigungen festgelegt, die die Ihnen zugewiesenen Genehmigungen anzeigt.
 
 So filtern Sie Ihre Arbeit:
 
