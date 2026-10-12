@@ -25,9 +25,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 77be87f54c8745b1cdab219d9d0c5f4ea48d86e4
 workflow-type: tm+mt
-source-wordcount: '789'
+source-wordcount: '831'
 ht-degree: 6%
 ---
 # Gewähren von Zugriff auf Finanzdaten
@@ -78,7 +78,7 @@ Beachten Sie Folgendes, wenn Sie Benutzern Zugriff auf Finanzdaten in Workfront 
 
 ## Konfigurieren des Benutzerzugriffs auf Finanzdaten mithilfe einer benutzerdefinierten Zugriffsebene
 
-1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ &#x200B;](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Klicken Sie auf das Zahnradsymbol ![](assets/gear-icon-settings.png) der Schaltfläche **Anzeigen** oder **Bearbeiten** rechts neben Finanzdaten und wählen Sie dann die Funktionen aus, die Sie unter **Einstellungen optimieren** gewähren möchten.
 
    ![Optimieren des Zugriffs auf Finanzdaten](assets/financial-data-access-fine-tune.png)
@@ -121,10 +121,12 @@ If you make changes here, make them also in the "Grant access to" articles where
 * issue
 -->
 
-Wenn Sie ein Objekt für einen anderen Benutzer freigeben, werden die Rechte des Empfängers durch eine Kombination zweier Dinge bestimmt:
+Wenn Sie ein Objekt für einen anderen Benutzer freigeben, werden die Rechte des Empfängers, Finanzdaten zu diesem Objekt anzuzeigen oder zu bearbeiten, durch eine Kombination zweier Dinge bestimmt:
 
-* Die Berechtigungen, die Sie Ihrem Empfänger für das Objekt erteilen
-* Die Zugriffsebenen-Einstellungen des Empfängers für den Objekttyp
+* Die Berechtigungen, die Sie Ihrem Empfänger für das spezifische Objekt erteilen
+* Die Zugriffsebenen-Einstellungen des Empfängers für den Objekttyp und für Finanzdaten
+
+Der Zugriff auf benutzerdefinierte Finanzfelder kann auch auf der Grundlage der Berechtigungen und Zugriffsebenen des Benutzers eingeschränkt werden. Weitere Informationen finden Sie unter [Einschränken des Zugriffs auf Finanzdaten in benutzerdefinierten Feldern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/restrict-access-to-financial-data.md).
 
 ## Zugriff auf Finanzinformationen nach Lizenztyp
 

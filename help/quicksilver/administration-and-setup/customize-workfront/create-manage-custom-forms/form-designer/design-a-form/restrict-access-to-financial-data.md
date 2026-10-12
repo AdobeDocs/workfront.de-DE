@@ -22,10 +22,10 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 77be87f54c8745b1cdab219d9d0c5f4ea48d86e4
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 10%
+source-wordcount: '755'
+ht-degree: 8%
 ---
 # Beschränken des Zugriffs auf Finanzdaten in benutzerdefinierten Feldern
 
@@ -33,7 +33,7 @@ Wenn Sie ein benutzerdefiniertes Feld erstellen, können Sie optionale Einstellu
 
 Informationen zum Erstellen eines benutzerdefinierten Felds finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-Informationen zu Zugriffsebenen finden Sie unter [Zugriffsebenen - Übersicht](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md). Informationen zu Freigabe und Berechtigungen finden Sie unter [Übersicht über Freigabeberechtigungen für Objekte](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Informationen zur Definition des Zugriffs auf Finanzdaten über Zugriffsebenen und -berechtigungen finden Sie unter [Zugriff auf Finanzdaten gewähren](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) und [Finanzberechtigungen für ein Objekt freigeben](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
 ## Zugriffsanforderungen
 
@@ -89,16 +89,27 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
    >
    >Für berechnete Felder ist jedes Format zulässig. Alle anderen Feldtypen müssen das **Währung**-Format verwenden, da sonst das Feld **Finanzberechtigungstyp** nicht verfügbar ist.
 
-1. (Optional) Aktivieren Sie nur für berechnete Felder die Option **Automatische Berechtigung**, damit die Finanzberechtigungen automatisch aus den Feldern in der Formel stammen.
+1. (Optional) Aktivieren Sie nur für berechnete Felder die Option **Automatische Berechtigung**, damit die Finanzberechtigungen automatisch aus den Feldern in der Formel erstellt werden können.
 
 1. Wählen Sie eine Option für den **Finanzberechtigungstyp**.
 
-   Benutzer müssen über diesen Finanzberechtigungstyp verfügen, bevor sie dieses benutzerdefinierte Feld im Formular anzeigen oder bearbeiten können.
+   Diese Einstellung definiert den Zugriffstyp und die Berechtigungen, die Benutzer haben müssen, bevor sie dieses benutzerdefinierte Feld im Formular anzeigen oder bearbeiten können.
 
-   * **Keine Berechtigungen erforderlich:** Alle Benutzer können dieses Feld sehen
-   * **Allgemein:** Benutzer müssen über Berechtigungen zum Bearbeiten oder Anzeigen von General Finance verfügen
-   * **Rechnung:** Benutzer müssen über die Berechtigung zum Bearbeiten oder Anzeigen von Abrechnungssätzen verfügen
-   * **Kosten:** Benutzer müssen berechtigt sein, Kostensätze zu bearbeiten oder anzuzeigen
+   * **Keine Berechtigungen erforderlich:** Alle Benutzer können das Feld sehen, unabhängig von ihrer Zugriffsebene und den Objektberechtigungen.
+   * **Allgemein:** Benutzer müssen über eine dieser Optionen verfügen, um das Feld sehen zu können:
+
+     * Ihre Zugriffsebene umfasst die Anzeige oder Bearbeitung des Zugriffs auf Finanzdaten mit aktiviertem Zugriff für General Finance.
+     * Ihre Berechtigungen für das Objekt, an das das benutzerdefinierte Formular angehängt ist, umfassen das Anzeigen oder Bearbeiten von General Finance.
+
+   * **Bill:** Benutzer müssen eine dieser Optionen haben, um das Feld sehen zu können:
+
+     * Ihre Zugriffsebene umfasst den Zugriff auf „Anzeigen“ oder „Bearbeiten“ von Finanzdaten, wobei der Zugriff für Abrechnungssätze aktiviert ist.
+     * Zu den Berechtigungen für das Objekt, an das das benutzerdefinierte Formular angehängt ist, gehört das Anzeigen oder Bearbeiten von Abrechnungssätzen.
+
+   * **Kosten:** Benutzer müssen über eine dieser Optionen verfügen, um das Feld sehen zu können:
+
+     * Ihre Zugriffsebene umfasst den Zugriff auf „Anzeigen“ oder „Bearbeiten“ von Finanzdaten, wobei der Zugriff für Kostensätze aktiviert ist.
+     * Zu den Berechtigungen für das Objekt, an das das benutzerdefinierte Formular angehängt ist, gehören das Anzeigen oder Bearbeiten von Kostensätzen.
 
    Für berechnete Felder:
 

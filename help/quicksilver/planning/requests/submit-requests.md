@@ -32,9 +32,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 8f3c773d75c6765b540ecbb71372a16611dcdd02
+source-git-commit: e8682aad0e752979afe524f6d218730f1b00559c
 workflow-type: tm+mt
-source-wordcount: '3110'
+source-wordcount: '3249'
 ht-degree: 1%
 ---
 # Senden von Anfragen zum Erstellen von Einträgen in Adobe Workfront-Planung
@@ -191,7 +191,7 @@ Not sure how to change the request status, but dev also said: Changing the names
 
 {{step1-to-requests}}
 
-1. Aktivieren Sie **Einstellung**&#x200B;Neues Erlebnis verwenden“ in der rechten oberen Ecke des Bildschirms.
+1. Aktivieren Sie **Einstellung**Neues Erlebnis verwenden“ in der rechten oberen Ecke des Bildschirms.
 Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformulare im Bereich **Anfragen** von Workfront verfügbar.
 
    >[!TIP]
@@ -223,10 +223,19 @@ Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformula
 
    >[!TIP]
    >
-   ><span class="preview">Die Werte für abhängige verbundene Datensatzfelder werden durch die Abhängigkeitsregeln zwischen den Datensätzen beschränkt. Weitere Informationen finden Sie unter [Abhängige Verbindungen &#x200B;](/help/quicksilver/planning/architecture/manage-dependent-connections.md). </span>
+   ><span class="preview">Die Werte für abhängige verbundene Datensatzfelder werden durch die Abhängigkeitsregeln zwischen den Datensätzen beschränkt. Weitere Informationen finden Sie unter [Abhängige Verbindungen ](/help/quicksilver/planning/architecture/manage-dependent-connections.md). </span>
+
+1. (Optional und bedingt) Klicken Sie auf **Formular ausfüllen**, damit KI das Formular für Sie ausfüllt. Workfront füllt die Formularfelder basierend auf Informationen aus früheren Anfragen aus.
+
+   >[!TIP]
+   >
+   >Ihr Unternehmen muss **KI-Formularausfüllen** im Bereich Systemeinstellungen zulassen, um die Funktion „Formular ausfüllen“ verwenden zu können.
+   >
+   >Anweisungen finden Sie unter [Verwenden von Formularausfüllen mit KI zum Ausfüllen einer Anfrage mithilfe von Eingabeaufforderungen oder Dokumenten](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
 
 
-1. (Bedingt) Wenn Ihr Unternehmen das Ausfüllen **Formulare** KI zulässt, können Sie Dokumente bei Bedarf hochladen. KI verwendet diese Dokumente, um das Formular auszufüllen, und Sie können die KI-Vorschläge akzeptieren oder ablehnen, bevor Sie die Anfrage senden.
+
+1. (Bedingt) Wenn Ihr Unternehmen das Ausfüllen **KI-Formulars** zulässt, können Sie Dokumente bei Aufforderung hochladen. KI verwendet diese Dokumente, um das Formular auszufüllen, und Sie können die KI-Vorschläge akzeptieren oder ablehnen, bevor Sie die Anfrage senden.
 
 
    Anweisungen finden Sie unter [Verwenden von Formularausfüllen mit KI zum Ausfüllen einer Anfrage mithilfe von Eingabeaufforderungen oder Dokumenten](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
@@ -277,7 +286,7 @@ Durch Aktivieren dieser Einstellung werden die Workfront Planning-Anfrageformula
    ![Seite mit Kommentar anfordern](assets/new-request-page-with-comment.png)
 
 1. (Optional) Geben Sie einen Kommentar im Bereich **Kommentare** ein.
-1. (Optional und bedingt) Wenn die Anfrage darauf wartet, genehmigt zu werden, und Sie die Anfrage geöffnet haben, klicken Sie entweder auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/more-menu.png) rechts neben dem Anfragenamen und dann auf **Bearbeiten** oder doppelklicken Sie auf Felder in der Anfrage, um sie zu bearbeiten.
+1. (Optional und bedingt) Wenn die Anfrage darauf wartet, genehmigt zu werden, und Sie die Anfrage geöffnet haben, klicken Sie entweder auf das **Mehr**-Symbol ![Mehr ](assets/more-menu.png) rechts neben dem Anfragenamen und dann auf **Bearbeiten** oder doppelklicken Sie auf Felder in der Anfrage, um sie zu bearbeiten.
 
    >[!NOTE]
    >
@@ -345,7 +354,15 @@ Sie können eine Anfrage senden, wenn Sie neue Datensätze von einer Datensatzty
    Das Anfrageformular wird geöffnet.
 1. Eingabe aller Informationen in alle verfügbaren Felder starten
 
-   Oder klicken Sie **Formular ausfüllen**, damit KI das Formular für Sie ausfüllt.
+   Oder klicken Sie **Formular ausfüllen**, damit KI das Formular für Sie ausfüllt. Workfront füllt die Formularfelder basierend auf Informationen aus früheren Anfragen aus.
+
+   >[!TIP]
+   >
+   >Wenn Ihr Unternehmen das Ausfüllen **KI-Formulars** Bereich „Systemvoreinstellungen“ zulässt, können Sie Dokumente als Eingabeaufforderungen hochladen. KI verwendet diese Dokumente, um das Formular auszufüllen, und Sie können die KI-Vorschläge akzeptieren oder ablehnen, bevor Sie die Anfrage senden.
+   >
+   >Anweisungen finden Sie unter [Verwenden von Formularausfüllen mit KI zum Ausfüllen einer Anfrage mithilfe von Eingabeaufforderungen oder Dokumenten](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md).
+
+
 1. Klicken Sie **Senden-Anfrage**.
 
    Die Anfrage wird gesendet.
@@ -458,7 +475,7 @@ Weitere Informationen finden Sie [Löschen einer gesendeten Anfrage oder eines A
 So löschen Sie eine Planungsanfrage nach dem Öffnen der Anfrage:
 
 1. Öffnen Sie eine Planungsanfrage, indem Sie in der Anfragenliste auf den entsprechenden Namen klicken.
-1. Klicken Sie auf das **Mehr**-Symbol ![Mehr &#x200B;](assets/more-menu.png) rechts neben dem Anfragenamen und klicken Sie dann auf **Löschen**.
+1. Klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/more-menu.png) rechts neben dem Anfragenamen und klicken Sie dann auf **Löschen**.
 1. Klicken Sie **Löschen** im Feld **Dauerhaft löschen** zur Bestätigung.
 
    Die Anfrage wurde gelöscht und kann nicht wiederhergestellt werden.
