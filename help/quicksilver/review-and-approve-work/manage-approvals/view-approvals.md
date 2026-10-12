@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: b449628309a82d7880612ea60dd5ee7de7f37e03
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '772'
 ht-degree: 5%
 ---
 # Anzeigen von Genehmigungen
@@ -89,7 +89,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 ## Suchen von Validierungen in Adobe Workfront
 
-Sie können Validierungen aus verschiedenen Bereichen von Workfront anzeigen oder verwalten. Informationen zum Verwalten von Validierungen in verschiedenen Bereichen finden Sie unter [Genehmigen von &#x200B;](../../review-and-approve-work/manage-approvals/approving-work.md).
+Sie können Validierungen aus verschiedenen Bereichen von Workfront anzeigen oder verwalten. Informationen zum Verwalten von Validierungen in verschiedenen Bereichen finden Sie unter [Genehmigen von ](../../review-and-approve-work/manage-approvals/approving-work.md).
 
 Sie können Validierungen aus den folgenden Bereichen anzeigen oder verwalten:
 
@@ -97,7 +97,8 @@ Sie können Validierungen aus den folgenden Bereichen anzeigen oder verwalten:
 
   * Alle Projekte, Aufgaben, Probleme, Arbeitszeittabellen, Dokumente, Zugriffsanfragen und <span class="preview">Workfront-</span>, die auf Ihre Genehmigung warten, werden im Widget Meine Genehmigungen im Bereich Startseite angezeigt.
   * Genehmigungen, die Sie selbst gesendet haben, werden auch im Widget Meine Genehmigungen im Bereich Startseite angezeigt, wenn Sie die Filteroption Von mir gesendete Genehmigungen auswählen. Weitere Informationen finden Sie im Abschnitt [Prüfungsarbeit, die Sie im Bereich Startseite zur Genehmigung einreichen](#review-work-you-submit-for-approval-in-the-home-area) dieses Artikels.
-  * Genehmigungen werden aus dem Widget Meine Genehmigungen im Bereich Startseite entfernt, wenn das zugehörige Projekt, die zugehörige Aufgabe oder das zugehörige Problem als „Gelöst“, „Gesperrt“, „Geschlossen“ oder „Abgebrochen“ gekennzeichnet ist.
+  * Arbeitsgenehmigungen werden aus dem Widget Meine Genehmigungen entfernt, wenn das Projekt, die Aufgabe oder das Problem als „Gelöst“, „Gesperrt“, „Geschlossen“ oder „Abgebrochen“ markiert ist.
+  * Einheitliche Dokument- und Korrekturabzugs-Genehmigungen werden aus dem Widget Meine Genehmigungen entfernt, wenn der Dokument- oder Korrekturabzugs-Workflow abgeschlossen oder gelöscht ist.
 
   Informationen zur Verwendung der Startseite finden Sie unter [Erste Schritte mit der Startseite](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 

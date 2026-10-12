@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 88ab250a262e9ca4a311fb1c88988a3747e6baeb
+source-git-commit: 2c62a1bacd6b2826f08e11a84f55e174cdd313c3
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 15%
+source-wordcount: '523'
+ht-degree: 14%
 ---
 # Verwalten Ihrer Genehmigungen mit dem Widget „Meine Genehmigungen“
 
@@ -99,7 +99,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 1. (Bedingt) Klicken Sie auf das **Sortieren** Dropdown-Menü und wählen Sie dann **Neueste zuerst**, um die zuletzt hinzugefügten Genehmigungen anzuzeigen.
 
 
-1. (Optional) Klicken Sie auf das Vollbildsymbol ![Vollbildsymbol), &#x200B;](assets/full-screen.png) das Widget Meine Genehmigungen im Vollbildmodus zu öffnen.
+1. (Optional) Klicken Sie auf das Vollbildsymbol ![Vollbildsymbol), ](assets/full-screen.png) das Widget Meine Genehmigungen im Vollbildmodus zu öffnen.
 
 1. Wählen Sie das Element aus, für das Sie eine Genehmigungsentscheidung treffen möchten.
 
@@ -162,3 +162,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
    </table>
 
 Nachdem Sie eine Entscheidung getroffen haben, wird die Genehmigung aus dem Widget Meine Genehmigung entfernt.
+
+>[!NOTE]
+>
+>Arbeitsgenehmigungen können auch aus dem Widget Meine Genehmigungen entfernt werden, wenn das Projekt, die Aufgabe oder das Problem als „Gelöst“, „Gesperrt“, „Geschlossen“ oder „Abgebrochen“ gekennzeichnet ist.
