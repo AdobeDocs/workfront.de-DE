@@ -17,9 +17,9 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: cf3b7277ff6e6f41a8c388358dfa3f26d1498b4c
+source-git-commit: d476486418e1fc550b019bf8e42a94b5add98a7f
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1406'
 ht-degree: 1%
 ---
 
@@ -79,7 +79,7 @@ Nach der Konfiguration hat jeder Datensatztyp, der auf beide Felder verweist (z.
    <ul><li><p>Eine Adobe Experience Manager Assets-Lizenz und eine Integration zwischen AEM Assets und Workfront, um AEM-Assets mit Planungs-Datensatztypen zu verbinden.</p>
    <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront für Experience Manager Assets und Assets Essentials: Artikelindex</a>. </p></li>
    <li><p> Eine Adobe GenStudio for Performance Marketing-Lizenz zum Verbinden von Datensatztypen mit GenStudio-Objekten und -Marken</p>
-   <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/de/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
+   <p>Weitere Informationen finden Sie <a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started">Erste Schritte mit Adobe GenStudio for Performance Marketing</a>.</p></li></ul>
    </td> 
   </tr> 
   <tr> 
@@ -172,7 +172,7 @@ Sent a slack message to Norayr, Predator, Snowstorm, Armine for info for this se
      ![Tooltip des abhängigen Symbols in der Spaltenüberschrift](assets/dependent-icon-tooltip-in-column-header.png)
 1. (Optional) Klicken Sie auf **Filterregeln für Datensätze** und wählen Sie Felder aus dem Datensatztyp aus, mit dem Sie eine Verbindung herstellen, um die Optionen für die Werte dieses Felds zu beschränken. Klicken Sie dann auf **Fertig**.
 
-   Wenn die beiden Felder in einem dritten Datensatztyp vorhanden sind, werden die Optionen für den verbundenen Felddatensatztyp durch den hier ausgewählten Filter eingeschränkt.
+   Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 1. (Optional und empfohlen) Wechseln Sie zu einem dritten Datensatztyp und fügen Sie sowohl den ersten als auch den zweiten Datensatztyp als verbundene Datensatzfelder hinzu.
 
    ![Abhängige Anzeige für verbundene Felder eines dritten Datensatztyps](assets/dependent-connected-field-indicator-on-a-third-record-type.png)
