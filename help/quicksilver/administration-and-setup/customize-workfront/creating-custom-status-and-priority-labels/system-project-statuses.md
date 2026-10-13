@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 8560eeda3684b849383dca0c1c4b729ad5b9db4d
 workflow-type: tm+mt
-source-wordcount: '1615'
+source-wordcount: '1635'
 ht-degree: 1%
 ---
 # Überblick über die Systemprojektstatus
@@ -64,7 +64,7 @@ Workfront stellt die folgenden Projektstatus für Ihre Adobe Workfront-Instanz b
   <tr> 
    <td>Planung (erforderlicher Status)</td> 
    <td> <p>Der Projektleiter plant den Zeitplan des Projekts, die Zuweisung der Aufgaben und die Validierungen. Der Projekt-Manager legt diesen Status für ein Projekt manuell fest.</p> <p><b>TIPP</p> <p> Es wird empfohlen, den Standardstatus für neue Projekte in Workfront auf Planning festzulegen. Als Workfront-Administrator können Sie den Standardstatus für alle Ihre neuen Projekte im Bereich „Projekte“ der Projektvoreinstellungen ändern.</p> <p>Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md">Systemweite Projektvoreinstellungen konfigurieren</a>.</p></td> 
-   <td> <p>Benutzer des Projektteams können das Projekt standardmäßig in ihren Projektlisten (ohne benutzerdefinierten Filter) im Bereich Projekte von Workfront sehen. Die Aufgaben und Probleme, die ihnen im Projekt zugewiesen sind, werden nicht in ihrer Arbeitsliste aufgeführt. In der Startseiten-Arbeitsliste werden nur Genehmigungen und akzeptierte Arbeitselemente angezeigt.</p> <p>Während ein Projekt diesen Status aufweist, werden keine Benachrichtigungen gesendet.</p> <p>Es wird empfohlen, alle Änderungen vorzunehmen, durch die eine Aktualisierung der Zeitleiste des Projekts oder Änderungen an Aufgaben und Problemzuweisungen vorgenommen werden können, während sich das Projekt im Planungsstatus befindet. Dies minimiert die Anzahl der Benachrichtigungen, die Benutzer erhalten.</p> <p>Die Zeitleiste des Projekts wird nicht automatisch vom System berechnet.</p> </td> 
+   <td> <p>Benutzer des Projektteams können das Projekt standardmäßig in ihren Projektlisten (ohne benutzerdefinierten Filter) im Bereich Projekte von Workfront sehen. Die Aufgaben und Probleme, die ihnen im Projekt zugewiesen sind, werden nicht in ihrer Arbeitsliste aufgeführt. In der Startseiten-Arbeitsliste werden nur Genehmigungen und akzeptierte Arbeitselemente angezeigt.</p> <p>Wenn sich ein Projekt im Planungsstatus befindet, werden einige Benachrichtigungen zu Zuweisungen, Genehmigungen und Problemaktivitäten an die Benutzenden des Projekt-Teams gesendet, viele zeitleistenbezogene Benachrichtigungen jedoch nicht.</p> <p>Es wird empfohlen, alle Änderungen vorzunehmen, durch die eine Aktualisierung der Zeitleiste des Projekts oder Änderungen an Aufgaben und Problemzuweisungen vorgenommen werden können, während sich das Projekt im Planungsstatus befindet. Dies minimiert die Anzahl der Benachrichtigungen, die Benutzer erhalten.</p> <p>Die Zeitleiste des Projekts wird nicht automatisch vom System berechnet.</p> </td> 
   </tr> 
   <tr> 
    <td>Aktuell (erforderlicher Status)</td> 
