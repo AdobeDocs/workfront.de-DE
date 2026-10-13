@@ -27,7 +27,7 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 0f99c6d23daa91bfd3080ead402f60abf8b18c42
+source-git-commit: c1d154d2d6ce0cedbd61c2b311ad95ddf86c48f8
 workflow-type: tm+mt
 source-wordcount: '1380'
 ht-degree: 4%
@@ -48,13 +48,13 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 </div>
 -->
 
-Sie können Benutzern, Rollen, Teams oder Arbeitsagenten Probleme zuweisen, um anzugeben, wer für die Behebung der Probleme verantwortlich ist. Allgemeine Informationen zum Zuweisen von Problemen finden Sie unter [Übersicht über das Ändern von Problemzuweisungen](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+Sie können Benutzern, Rollen, Teams <span class="preview">oder Arbeitsagenten Probleme zuweisen, </span> anzugeben, wer für die Behebung der Probleme verantwortlich ist. Allgemeine Informationen zum Zuweisen von Problemen finden Sie unter [Übersicht über das Ändern von Problemzuweisungen](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!TIP]
 >
->Sie können mehrere Benutzer, Aufgabengebiete, Teams oder Arbeitsagenten zuweisen. Sie können nur aktive Benutzer, Aufgabengebiete, Teams und Arbeitsagenten zuweisen.
+>Sie können mehrere Benutzer, Aufgabengebiete, Teams <span class="preview">oder Arbeitsagenten) </span>. Sie können nur aktive Benutzer, Aufgabengebiete, Teams <span class="preview">und Arbeitsagenten) </span>.
 >
->Wenn ein(e) Benutzende(r), ein Aufgabengebiet, ein Team oder ein Arbeitsagent zugewiesen wurde, bevor er/sie deaktiviert wurde, bleiben sie dem Arbeitselement zugewiesen. In diesem Fall empfehlen wir Folgendes:
+>Wenn ein(e) Benutzende(r), ein Aufgabengebiet<span class="preview"> ein Team oder ein </span> vor der Deaktivierung zugewiesen wurde, bleiben diese dem Arbeitselement zugewiesen. In diesem Fall empfehlen wir Folgendes:
 >
 >* Weisen Sie das Arbeitselement den aktiven Ressourcen neu zu.
 >* Verknüpfen Sie die Benutzer in einem deaktivierten Team mit einem aktiven Team und weisen Sie das Arbeitselement dem aktiven Team zu.
@@ -149,7 +149,7 @@ Beachten Sie Folgendes, wenn Sie einem Arbeitselement mehrere Ressourcen zuweise
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Beginnen Sie mit der Eingabe des Namens eines Benutzers, einer Rolle, eines Teams oder eines Arbeitsagenten, den bzw. den Sie zuweisen möchten, und klicken Sie dann darauf, wenn er/sie in der Liste angezeigt wird.
+   * Beginnen Sie mit der Eingabe des Namens eines Benutzers, einer Rolle, eines Teams <span class="preview">oder eines Arbeitsagenten</span> den Sie zuweisen möchten, und klicken Sie dann auf ihn, wenn er in der Liste angezeigt wird.
 
      ![Zuweisungssuche](assets/smart-assignments-issue-header.png)
 
@@ -198,7 +198,7 @@ So weisen Sie Probleme in einer Liste zu:
 
      ![Feld „Zugewiesen an“](assets/assigned-to-field-task-list-nwe.png)
 
-   * Klicken Sie in das **Arbeitsaufträge** und geben Sie den Namen eines aktiven Benutzers, eines Aufgabengebiets, Teams oder eines Arbeitsagenten ein, den Sie dem Problem zuweisen möchten. Klicken Sie dann auf den Namen, wenn er in der Liste angezeigt wird.
+   * Klicken Sie in das **Arbeitsaufträge** und geben Sie den Namen eines aktiven Benutzers, eines Aufgabengebiets, Teams <span class="preview">/oder </span> ein, den Sie dem Problem zuweisen möchten. Klicken Sie dann auf den Namen, wenn er in der Liste angezeigt wird.
 
      ![Zuweisungsfeld](assets/assignments-field-0825.png)
 

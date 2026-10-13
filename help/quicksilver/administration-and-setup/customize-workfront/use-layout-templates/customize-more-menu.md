@@ -18,9 +18,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: 4e0576ab13efb4bbf127722be9b71c8abb8950c9
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '376'
 ht-degree: 9%
 ---
 # Anpassen des Menüs Mehr mithilfe einer Layout-Vorlage
@@ -75,5 +75,9 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
    * Klicken Sie auf **Anzeigen** ![Symbol anzeigen](assets/add-secondary-nav-item.png) oder **Ausblenden** ![Symbol ausblenden](assets/delete-secondary-nav-item.png), um Abschnitte im linken Bereich ein- oder auszublenden. Sie können keine Elemente ausblenden, die kein Symbol **Anzeigen** oder **Ausblenden** aufweisen.
 
    * Ziehen Sie Elemente ![Symbol Verschieben](assets/move-icon---dots.png), um ihre Reihenfolge im linken Bedienfeld zu ändern.
+
+   >[!NOTE]
+   >
+   >Wenn Sie die Option **Freigeben** im Menü Mehr für Projekte, Aufgaben oder Probleme ausblenden, wird die Schaltfläche Freigeben in der Kopfzeile des Objekts ausgeblendet.
 
 1. Klicken Sie auf **Fertig**.
