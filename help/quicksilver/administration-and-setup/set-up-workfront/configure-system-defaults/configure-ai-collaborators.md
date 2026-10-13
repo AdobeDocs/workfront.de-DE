@@ -17,9 +17,9 @@ feature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 3cf7495f827156fabac1214b38a104ed826d558c
+source-git-commit: 4a27006cc4989fb1fed0eed5d7a4cef3a69af1d4
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1347'
 ht-degree: 2%
 ---
 # KI-Mitwirkende konfigurieren
@@ -36,7 +36,7 @@ Zu den verfügbaren KI-Typen für Mitwirkende gehören:
 
   Weitere Informationen finden Sie unter [Erste Schritte mit dem Workfront AI Reviewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md).
 
-* Arbeitsagent : Erstellen Sie einen Mitarbeiter mit einer standardmäßigen KI-Plattform wie Claude, OpenAI, Copilot oder Writer und weisen Sie den Mitarbeiter dann einer Aufgabe oder einem Problem zu, um Arbeitselemente abzuschließen.
+* Arbeitsagent : Erstellen Sie einen Mitarbeiter mit einer standardmäßigen KI-Plattform wie Claude, OpenAI oder Copilot und weisen Sie dann den Mitarbeiter einer Aufgabe oder einem Problem zu, um Arbeitselemente abzuschließen.
 
   Weitere Informationen finden Sie unter [Verwenden von Arbeitsagenten](/help/quicksilver/manage-work/tasks/assign-tasks/use-task-collaborators.md).
 
@@ -93,7 +93,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen](/help/quicksilver
 
 ### Für Arbeitsagenten
 
-Sie müssen einen Agenten in Claude, Copilot Studio, Writer, OpenAI oder IBM konfigurieren, bevor Sie ihn als Arbeitsagenten verwenden können.
+Sie müssen einen Agenten in Claude, Copilot Studio, OpenAI oder IBM konfigurieren, bevor Sie ihn als Arbeitsagenten verwenden können.
 
 >[!NOTE]
 >
@@ -121,7 +121,7 @@ KI-Reviewer können so konfiguriert werden, dass sie Workfront-Marken oder Adobe
 
 Arbeitsagenten sind Agenten, die Sie in Workfront Aufgaben oder Problemen zuweisen können. Sie konfigurieren den Arbeitsagenten mit einem Namen, einer Zugriffsebene und anderen Details und weisen ihn einer Aufgabe zu, wie Sie es bei der Zuweisung von Benutzenden tun würden.
 
-Da Arbeitsagenten Agenten sind, werden ihre Aktionen und Fähigkeiten dort konfiguriert, wo Sie Ihre Agenten konfigurieren. Derzeit können als Arbeitsagenten verwendete Agenten in Copilot Studio, Claude oder Writer, OpenAI und IBM erstellt werden.
+Da Arbeitsagenten Agenten sind, werden ihre Aktionen und Fähigkeiten dort konfiguriert, wo Sie Ihre Agenten konfigurieren. Derzeit können als Arbeitsagenten verwendete Agenten in Copilot Studio, Claude, OpenAI und IBM erstellt werden.
 
 Arbeitsagenten können Aufgaben oder Problemen zugewiesen werden.
 
@@ -146,14 +146,13 @@ Eine Liste der Best Practices beim Erstellen eines Agenten für die Arbeit als A
    >
    ><span class="preview">Wenn Sie Gruppenadministrator sind, werden in diesem Feld nur Gruppen angezeigt, für die Sie Administrator sind. Gruppenadministratoren müssen mindestens eine Gruppe auswählen.</span>
 
-1. Wählen **im Bereich „Agent-Herkunft auswählen** aus, ob Sie einen Agenten verbinden möchten, der in einer gemeinsamen Plattform wie Copilot oder Writer erstellt wurde, oder einen benutzerdefinierten Agenten verwenden möchten.
+1. Wählen **im Bereich „Ursprung des Agenten**&quot; aus, ob Sie einen in einer gemeinsamen Plattform wie Copilot erstellten Agenten verbinden oder einen benutzerdefinierten Agenten verwenden möchten.
 1. (Bedingt) Wenn Sie einen Agenten von einer gemeinsamen Plattform verwenden, geben Sie Authentifizierungsdetails für die Plattform des Agenten ein:
 
    | Plattform | Erforderliche Authentifizierung |
    |---|---|
    | CoPilot Studio | Geheimnis für Web-Kanal |
    | Claude Managed Agents | Anthropische API-Schlüssel<br>Agent-ID<br>Umgebungs-ID |
-   | Agent des Verfassers | API-Schlüssel<br>Anwendungs-ID |
    | <span class="preview">OpenAI-Agenten</span> | <span class="preview">API-Schlüssel <br>Agent-ID</span> |
    | <span class="preview">IBM watsonx Orchestrate</span> | <span class="preview">Service-URL<br>API-Schlüssel<br> Agent-ID</span> |
 
@@ -209,25 +208,38 @@ Die folgenden Best Practices sind möglicherweise hilfreich, wenn Sie einen Agen
 -->
 +++ Verfasser bzw. Verfasserin
 
+
+
+>[!IMPORTANT]
+>
+>Writer hat die Verwendung von Agenten abgelehnt. Mit Writer-Agenten konfigurierte Arbeitsagenten funktionieren nach dem 9. Oktober nicht mehr. 2026.
+>
+>Weitere Informationen zur Einstellung finden Sie unter [Migration und Einstellung von Agentenbibliotheken](https://support.writer.com/articles/8335689949-migrating-no-code-agents) in der Writer-Dokumentation.
+
+
+<!--
+
 >[!NOTE]
 >
-> Sie können einen Writer-Agenten als Arbeitsagenten verwenden, aber Writer-Playbooks können nicht als Arbeitsagenten verwendet werden.
+> You can use a Writer agent as a Work Agent, but Writer playbooks cannot be used as Work Agents.
 
-Beim Erstellen eines Agenten für die Verwendung als Arbeitsagent in Writer empfehlen wir den folgenden Workflow.
+When creating an agent for use as a Work Agent in Writer, we recommend the following workflow.
 
-Ausführlichere Informationen zum Erstellen von Agenten finden Sie in der [Writer-Dokumentation](https://dev.writer.com/no-code/introduction).
+More detailed information about creating agents can be found in the [Writer documentation](https://dev.writer.com/no-code/introduction).
 
-1. Erstellen Sie eine Nicht-Code-App in Writer AI Studio.
-1. Ein einzelnes Texteingabefeld hinzufügen. Sie können den Standardnamen „Texteingabe“ verwenden.
-1. `@TextInput` zu Ihrer Eingabeaufforderung hinzufügen. Stellen Sie im Abschnitt Eingabeaufforderungen Ihrer App-Konfiguration sicher, dass Ihre Eingabeaufforderungsvorlage auf die Eingabevariable verweist. Ohne dies sieht das Modell die Aufgabendaten nie.
-1. Passen Sie Ihre Eingabeaufforderung an, um die Ausgabe sofort zu generieren. Entfernen Sie alle Anweisungen, die den Benutzer um Klarstellung oder zusätzlichen Kontext bitten, bevor Sie antworten. Beispiel: „Wenn Sie eine Eingabe erhalten, behandeln Sie sie als Anfrage zur Inhaltserstellung und erstellen Sie die Ausgabe sofort. Bitten Sie nicht um Klarstellung.“
-1. Kopieren Sie Ihren API-Schlüssel und die Anwendungs-ID. Sie benötigen sie, um den Arbeitsagenten in Workfront zu konfigurieren.
+1. Create a no-code app in Writer AI Studio. 
+1. Add a single Text input field. You can use the default name "Text input."
+1. Add `@TextInput` to your Prompt. In the Prompts section of your app configuration, make sure your prompt template references the input variable. Without this, the model never sees the task data.
+1. Adjust your Prompt to generate output immediately. Remove any instructions that ask the user for clarification or additional context before responding. For example: "When you receive input, treat it as a content generation request and produce the output immediately. Do not ask for clarification."
+1. Copy your API key and Application ID. You will need them to configure the Work Agent in Workfront.
 
-   * Anweisungen zum Einrichten eines API-Schlüssels in Writer finden Sie unter [Quickstart](https://dev.writer.com/home/quickstart) in der Writer-Dokumentation.
-   * Anweisungen zum Einrichten einer Anwendungs-ID in Writer finden Sie unter [Aufrufen von Nicht-Code-Agenten über die API](https://dev.writer.com/home/applications) in der Writer-Dokumentation.
+   * For instructions on setting up an API key in Writer, see [Quickstart](https://dev.writer.com/home/quickstart) in the Writer documentation.
+   * For instructions on setting up an application ID in Writer, see [Invoke no-code agents via the API](https://dev.writer.com/home/applications) in the Writer documentation.
+ 
+1. Configure the Work Agent in Workfront. As part of the configuration, enter your API key and Application ID, then click **Test connection** to verify.
+1. Assign the Work Agent to a Workfront task. The Work Agent begins work when all of the task's predecessor tasks are complete.
 
-1. Konfigurieren Sie den Arbeitsagenten in Workfront. Geben Sie im Rahmen der Konfiguration Ihren API-Schlüssel und Ihre Anwendungs-ID ein und klicken Sie dann auf **Verbindung testen**, um sie zu überprüfen.
-1. Weisen Sie den Arbeitsagenten einer Workfront-Aufgabe zu. Der Arbeitsagent beginnt zu arbeiten, wenn alle Vorgängeraufgaben der Aufgabe abgeschlossen sind.
+-->
 
 +++
 
