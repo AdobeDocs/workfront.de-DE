@@ -19,9 +19,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1090'
 ht-degree: 3%
 ---
 
@@ -107,7 +107,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 * Worker müssen für Ihre Organisation aktiviert sein, damit sie für Benutzer in Ihrer Firma verfügbar ist.
 
-  Weitere Informationen finden Sie unter [Übersicht über CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+  Weitere Informationen finden Sie unter [Übersicht über CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 * Nachdem Workfront den Agenten für Ihre Workfront-Instanz aktiviert hat, ist er für den Workfront-Hauptadministrator verfügbar und er kann ihn für Ihr Unternehmen aktivieren. Weitere Informationen finden Sie [Konfigurieren von Systemvoreinstellungen](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
@@ -128,7 +128,7 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 ## Derzeit für Kollegen verfügbare Funktion
 
-Derzeit ist Coworker im Planungsbereich von Workfront verfügbar und verwendet eine Reihe von Kenntnissen, um auf Informationen für Planning-Objekte zuzugreifen und diese zu bearbeiten. Weitere Informationen finden Sie unter [CX Enterprise Coworker-Kenntnisse](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
+Derzeit ist Coworker im Planungsbereich von Workfront verfügbar und verwendet eine Reihe von Kenntnissen, um auf Informationen für Planning-Objekte zuzugreifen und diese zu bearbeiten. Weitere Informationen finden Sie unter [Workfront-Kenntnisse in CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-skills.md).
 
 Sie können Coworker verwenden, um die folgenden Aktionen auszuführen:
 
@@ -152,7 +152,7 @@ Sie können Coworker in den folgenden Bereichen von Workfront Planning platziere
 
 ## Zugriff auf Mitarbeiter im Planungsbereich
 
-1. Melden Sie sich bei Workfront an und klicken Sie dann oben links auf **&#x200B;**-Symbol ![Hauptmenü „Zeilen](assets/lines-main-menu.png) und dann auf **Planung**.
+1. Melden Sie sich bei Workfront an und klicken Sie dann oben links auf ****-Symbol ![Hauptmenü „Zeilen](assets/lines-main-menu.png) und dann auf **Planung**.
 
    Der Bereich Planung wird geöffnet.
 

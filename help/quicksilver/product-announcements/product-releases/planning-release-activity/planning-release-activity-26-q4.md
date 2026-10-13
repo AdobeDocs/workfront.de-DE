@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
 workflow-type: tm+mt
-source-wordcount: '3151'
+source-wordcount: '3154'
 ht-degree: 0%
 ---
 # Versionsaktivität für Adobe Workfront Planning im vierten Quartal 2026
@@ -137,7 +137,7 @@ Sie können jetzt im neuen Anfrageerlebnis im Bereich Anfragen eine Planungsanfr
 
 Sie können anderen Benutzern eine der folgenden Berechtigungen für die Anfrage erteilen: Anzeigen, Mitwirken oder Verwalten.
 
-Weitere Informationen finden Sie unter [Freigeben von &#x200B;](/help/quicksilver/planning/requests/share-requests.md)).
+Weitere Informationen finden Sie unter [Freigeben von ](/help/quicksilver/planning/requests/share-requests.md)).
 
 ## Mehrstufige Validierungen für Planungsanfragen einrichten
 
@@ -210,7 +210,7 @@ Coworker ersetzt den aktuellen KI-Assistenten als eine leistungsfähigere Mögli
 >
 >CX Enterprise Coworker ist derzeit nicht für Organisationen im Gesundheits- und Finanzwesen oder in einigen anderen Branchen mit sensiblen Daten verfügbar. Der KI-Assistent steht diesen Organisationen weiterhin zur Verfügung.
 
-Weitere Informationen finden Sie unter [Übersicht über CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+Weitere Informationen finden Sie unter [Übersicht über CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 ## Das Symbol KI-Assistent wurde zur Vorbereitung des CX Enterprise Coworker-Launches aus der Vorschau für Datensatzdetails entfernt
 

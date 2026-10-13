@@ -25,16 +25,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2b2e58c17bdcb7c28b11bf460bad24bc1e1eb642
+source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 94%
+source-wordcount: '890'
+ht-degree: 93%
 ---
 # KI-Assistent in Workfront
 
 >[!IMPORTANT]
 >
->Ab September 2026 wechselt der KI-Assistent zu CX Enterprise Coworker, einer Gesprächsoberfläche zur Erledigung von Aufgaben. Informationen zu Coworker finden Sie in der [Übersicht über CX Enterprise Coworker](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
+>Ab September 2026 wechselt der KI-Assistent zu CX Enterprise Coworker, einer Gesprächsoberfläche zur Erledigung von Aufgaben. Informationen zu Coworker finden Sie unter [Übersicht über CX Enterprise Coworker in Workfront](/help/quicksilver/workfront-basics/coworker-in-workfront/coworker-overview.md).
 
 Der KI-Assistent von Workfront hilft Ihnen bei der Durchführung Ihrer Arbeit, indem er In-App-Informationen und -Vorschläge in einer Unterhaltung in natürlicher Sprache bereitstellt. Der KI-Assistent kann Ihnen ein reibungsloseres Arbeitserlebnis bieten, indem er Folgendes für Sie übernimmt
 
