@@ -68,7 +68,7 @@ Weitere Informationen finden Sie unter [Datensatztypen erstellen](/help/quicksil
 
 Wenn Sie jetzt in Workfront Planning ein Team zu einem Datensatzkommentar hinzufügen, erhalten alle Team-Mitglieder sowohl eine In-App- als auch eine E-Mail-Benachrichtigung zum Kommentar. Vor dieser Verbesserung wurden nur Benutzer benachrichtigt, die einzeln zu Kommentaren hinzugefügt wurden.
 
-Weitere Informationen finden Sie unter Verwalten von Datensatzkommentaren [Verwalten von ](/help/quicksilver/planning/records/manage-record-comments.md)).
+Weitere Informationen finden Sie unter Verwalten von Datensatzkommentaren [Verwalten von &#x200B;](/help/quicksilver/planning/records/manage-record-comments.md)).
 
 ## Felder basierend auf angewendeten Gruppierungen automatisch ausfüllen
 
