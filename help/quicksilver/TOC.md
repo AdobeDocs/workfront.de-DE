@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: a05d8d51a3a2595d0c2a75aa9f992e4f14b091fe
+source-git-commit: c61cdd05b9b7470a45b8706035992b12c5d34711
 workflow-type: tm+mt
-source-wordcount: '14642'
+source-wordcount: '14646'
 ht-degree: 91%
 ---
 # Handbuch für Workfront {#using}
@@ -547,6 +547,7 @@ ht-degree: 91%
       * [Anzeigen und Exportieren von Auditprotokollen](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
       * [Änderungsverlauf anzeigen und verwalten](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/view-and-manage-change-history.md)
       * [Felder konfigurieren, die im Änderungsverlauf verfolgt werden sollen](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/configure-fields-in-change-history.md)
+      * [Beschäftigungshistorie der Benutzer anzeigen](administration-and-setup/add-users/create-and-manage-users/view-employment-history.md)
       * [Anzeigen von Benutzeranmeldeinformationen](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
       * [Verwalten von Benutzenden in der Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
       * [Übersicht über Geschäftsprofile](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/business-profiles.md)
