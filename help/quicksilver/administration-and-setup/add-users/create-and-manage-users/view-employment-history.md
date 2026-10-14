@@ -7,7 +7,7 @@ description: Sie können den Beschäftigungshistorie eines Benutzers anzeigen, e
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: f0560dc380160725c12d3f222e3fe7f3d8d32d63
+source-git-commit: 4674a75b106a663b68320088c7bed22938dc2ab3
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
@@ -59,13 +59,14 @@ Sie können den Beschäftigungsverlauf aus der Benutzerliste anzeigen oder den G
 {{step-1-to-users}}
 
 1. Klicken Sie auf den Namen des Benutzers, für den Sie den Beschäftigungsverlauf anzeigen möchten.
-1. Klicken Sie auf der Seite „Benutzer“ im linken Navigationsbereich auf ![Beschäftigungsverlauf (Beschäftigungsverlauf im linken &#x200B;](assets/employment-history-left-nav.png)).
+1. Klicken Sie auf der Seite „Benutzer“ im linken Navigationsbereich auf ![Beschäftigungsverlauf (Beschäftigungsverlauf im linken ](assets/employment-history-left-nav.png)).
 1. Um einen ausgewählten Datumsbereich anzuzeigen, klicken Sie auf die Datumsauswahl und passen Sie die Daten an.
 
    Wenn Sie den Beschäftigungsverlauf eines Benutzers auf seiner Seite anzeigen, können Sie den gesamten Beschäftigungsverlauf des Benutzers anzeigen.
 1. Um die Ergebnisse zu filtern, klicken Sie **Filtern** und geben Sie das Feld, den Operator und den Wert ein, nach dem Sie filtern möchten. Die Ergebnisse werden automatisch gefiltert.
 1. Um Spalten hinzuzufügen oder zu entfernen, klicken Sie auf das Symbol Hinzufügen ![Symbol Hinzufügen](assets/add-column.png) rechts in der Tabelle und klicken Sie auf das Pluszeichen neben jeder Spalte, die Sie hinzufügen möchten, oder klicken Sie auf das Minuszeichen neben jeder Spalte, die Sie aus der Ansicht entfernen möchten.
 1. Um den Beschäftigungsverlauf zu exportieren, klicken Sie auf **Exportieren**. Sie können den Beschäftigungsverlauf als CSV- oder XLSX-Datei exportieren.
+
 
 
 
