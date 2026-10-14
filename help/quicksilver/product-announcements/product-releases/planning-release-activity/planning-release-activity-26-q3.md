@@ -18,9 +18,9 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '3226'
+source-wordcount: '3286'
 ht-degree: 5%
 ---
 # Versionsaktivität für Adobe Workfront Planning im dritten Quartal 2026
@@ -283,7 +283,7 @@ Version 1 bleibt verfügbar, obwohl wir empfehlen, zur Verwendung von Version 2 
 
 Weitere Informationen finden Sie unter [Grundlagen zur Adobe Workfront Planning-API](/help/quicksilver/planning/general/planning-api-basics.md).
 
-Informationen zu den Spezifikationen der Workfront Planning-API finden Sie in der Entwicklerdokumentation zur [Workfront &#x200B;](https://developer.adobe.com/wf-planning/)-API.
+Informationen zu den Spezifikationen der Workfront Planning-API finden Sie in der Entwicklerdokumentation zur [Workfront ](https://developer.adobe.com/wf-planning/)-API.
 
 ## Berechtigungen für Datensätze erteilen
 
@@ -384,6 +384,17 @@ Mit dieser Version sind wichtige Metadaten auf beiden Plattformen konsistent und
 
 Weitere Informationen finden Sie unter [Verwalten des GenStudio-Arbeitsbereichs in Adobe Workfront Planning](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md).
 
+## Auf dem Workfront MCP-Server verfügbare Planungsfunktionen
+
+>[!NOTE]
+>
+>* Vorschau: 28. Mai 2026
+>* Produktions-Schnellveröffentlichung: 11. Juni 2026
+>* Produktion für alle: 16. Juli 2026
+
+Workfront Planning-Funktionen sind jetzt über den Workfront MCP-Server verfügbar, sodass Teams auf den Planungskontext verweisen und mit den neuen MCP Connector-Tools Setup und Genehmigungen ausführen können.
+
+Weitere Informationen finden Sie unter [Adobe Workfront MCP-Server-Tools](/help/quicksilver/workfront-basics/workfront-mcp-server/workfront-mcp-server-tools.md).
 
 ## Aktualisierungen der Listenansicht
 

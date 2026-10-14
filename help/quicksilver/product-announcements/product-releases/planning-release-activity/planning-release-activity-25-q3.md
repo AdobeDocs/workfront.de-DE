@@ -27,7 +27,7 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
 source-wordcount: '2416'
 ht-degree: 3%
@@ -68,7 +68,7 @@ Weitere Informationen finden Sie unter [Datensatztypen erstellen](/help/quicksil
 
 Wenn Sie jetzt in Workfront Planning ein Team zu einem Datensatzkommentar hinzufügen, erhalten alle Team-Mitglieder sowohl eine In-App- als auch eine E-Mail-Benachrichtigung zum Kommentar. Vor dieser Verbesserung wurden nur Benutzer benachrichtigt, die einzeln zu Kommentaren hinzugefügt wurden.
 
-Weitere Informationen finden Sie unter Verwalten von Datensatzkommentaren [Verwalten von &#x200B;](/help/quicksilver/planning/records/manage-record-comments.md)).
+Weitere Informationen finden Sie unter Verwalten von Datensatzkommentaren [Verwalten von ](/help/quicksilver/planning/records/manage-record-comments.md)).
 
 ## Felder basierend auf angewendeten Gruppierungen automatisch ausfüllen
 
@@ -115,6 +115,7 @@ To make the approval process more flexible, we've added the ability to add teams
 Previously, only individual users could be assigned as approvers. 
 
 For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+
 -->
 
 ## Aktualisiertes Erlebnis bei der Freigabe eines Anfrageformulars
@@ -140,7 +141,7 @@ Um die Sicherheit und Einfachheit bei der Freigabe eines Anfrageformulars in Wor
 * Wir haben Optionen zum Verwalten und Beitragen für Benutzer entfernt, für die Sie das Anfrageformular freigeben. Jetzt können hinzugefügte Benutzer nur noch das Formular senden.
 * Auf der Registerkarte Öffentliche Freigabe werden jetzt das Feld Link und Ablaufdatum angezeigt, nachdem die Option Öffentlichen Link erstellen aktiviert wurde.
 
-Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](https://experienceleague.adobe.com/de/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
+Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form).
 
 ## Alle Gruppierungen in der Tabellenansicht erweitern und reduzieren
 
@@ -195,7 +196,7 @@ Sie können bis zu 100 benutzerdefinierte Quartale einrichten. Vor diesem Update
 
 Für Kunden, die Workfront Planning nicht erworben haben, ändert sich das benutzerdefinierte Quartalserlebnis nicht.
 
-Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale für Projekte &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale und Wochen aktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
 ## Gleichzeitige Berechnung aller abhängigen Formeln
 

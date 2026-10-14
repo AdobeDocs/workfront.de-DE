@@ -3,9 +3,9 @@ user-guide-title: Handbuch für Workfront
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: c61cdd05b9b7470a45b8706035992b12c5d34711
+source-git-commit: 6264202c41efa103b143ecbfd8a6acba29020fc0
 workflow-type: tm+mt
-source-wordcount: '14646'
+source-wordcount: '14648'
 ht-degree: 91%
 ---
 # Handbuch für Workfront {#using}
@@ -484,7 +484,7 @@ ht-degree: 91%
       * [Erstellen von Ausgabentypen](administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)
       * [Erstellen von Scorecards](administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
       * [Neuberechnungen der Projekt-Timeline](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
-      * [Aktivieren von benutzerdefinierten Quartalen](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
+      * [Benutzerdefinierte Quartale und Wochen aktivieren](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
       * [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
       * [Aktivieren des Adobe-Cloud-Speichers für Ihr Unternehmen](administration-and-setup/set-up-workfront/configure-system-defaults/enable-esm.md)
       * [Alte Portfolios in Adobe Cloud-Speicher konvertieren](administration-and-setup/set-up-workfront/configure-system-defaults/convert-portfolios-to-acs.md)

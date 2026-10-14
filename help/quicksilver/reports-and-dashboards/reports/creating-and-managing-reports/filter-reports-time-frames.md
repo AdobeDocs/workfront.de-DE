@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Customer experience
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '956'
 ht-degree: 10%
 ---
 # Filtern von Berichten nach Zeitraum
@@ -201,7 +201,7 @@ Wenn Sie beispielsweise einen Stundenbericht erstellen und Stunden anzeigen möc
   </tr> 
   <tr> 
    <td role="rowheader">Letztes Quartal</td> 
-   <td> <p>Zeigt Stunden an, bei denen das Eingabedatum ein Datum in dem Quartal ist, das dem aktuellen Quartal vorausgeht, in dem oben Quartale definiert sind.</p> <p><b>NOTIZ</b></p>  Wenn Ihr Workfront-Administrator benutzerdefinierte Quartale für Ihr System aktiviert und definiert hat, werden die integrierten Filter für Quartale durch Ihre benutzerdefinierten Quartalsinformationen ersetzt. Weitere Informationen zur Aktivierung benutzerdefinierter Quartale finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Benutzerdefinierte Quartale aktivieren</a>.</p> </td> 
+   <td> <p>Zeigt Stunden an, bei denen das Eingabedatum ein Datum in dem Quartal ist, das dem aktuellen Quartal vorausgeht, in dem oben Quartale definiert sind.</p> <p><b>NOTIZ</b></p>  Wenn Ihr Workfront-Administrator benutzerdefinierte Quartale für Ihr System aktiviert und definiert hat, werden die integrierten Filter für Quartale durch Ihre benutzerdefinierten Quartalsinformationen ersetzt. Weitere Informationen zur Aktivierung benutzerdefinierter Quartale finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Benutzerdefinierte Quartale und Wochen aktivieren</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Dieses Jahr</td> 

@@ -15,9 +15,9 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '2203'
+source-wordcount: '2453'
 ht-degree: 0%
 ---
 # Übersicht über das Dokumentenmanagement für Projekte und zugehörige Objekte
@@ -138,6 +138,7 @@ In den folgenden Abschnitten wird beschrieben, wie der Dokumentspeicher für Wor
 Beachten Sie beim Arbeiten mit Projekten Folgendes:
 
 * Wenn Sie ein Adobe-Cloud-Speicher-Projekt erstellen, erstellt Workfront einen Ordner im Abschnitt Dokumente des Projekts, in dem Dokumente gespeichert werden. Der Ordnername entspricht dem Namen des Projekts. Sie können den Ordner nicht löschen oder manuell umbenennen. Der Ordner wird umbenannt, wenn Sie den Projektnamen so ändern, dass er zum neuen Projektnamen passt.
+* Wenn Sie ein Projekt mit Adobe Cloud Storage umbenennen, wird der Dokumentordner automatisch umbenannt. Wenn jedoch ein Problem auftritt und der Speicher zu diesem Zeitpunkt nicht erreicht werden kann, wird der neue Name sowohl für das Projekt als auch für den Ordner abgelehnt und die alten Namen bleiben unverändert. Sie können nach einer Weile erneut versuchen, umzubenennen. <!--checking with Hui on issue 29532225 about which name is flipping back - the project or the folder or both-->
 * Wenn Sie ein Adobe-Cloud-Speicherprojekt erstellen oder in ein veraltetes Workfront-Speicherportfolio oder -programm verschieben, wird das Portfolio oder Programm automatisch in ein Adobe-Cloud-Speicherobjekt konvertiert, wenn dem Portfolio oder Programm keine Dokumente beigefügt sind, bevor das Projekt hinzugefügt wird.
 * Sie können kein Legacy-Workfront-Speicherprojekt für ein Adobe-Cloud-Speicherportfolio oder -Programm erstellen.
 * Wenn Sie ein Projekt aus MS Project importieren, erstellt Workfront ein veraltetes Workfront-Speicherprojekt, auch wenn Ihr Workfront-Administrator den Adobe-Cloud-Speicher als Standard für Ihr System festgelegt hat.
@@ -150,6 +151,7 @@ Weitere Informationen finden Sie auch im Abschnitt [Dokumentverwaltung für Proj
 Beachten Sie beim Arbeiten mit Portfolios Folgendes:
 
 * Wenn Sie ein Adobe Cloud-Speicherportfolio erstellen, erstellt Workfront im Abschnitt Dokumente des Portfolios, in dem Dokumente gespeichert werden. Der Ordnername ist derselbe Name wie das Portfolio. Sie können den Ordner nicht löschen oder manuell umbenennen. Der Ordner wird umbenannt, wenn Sie den Namen des Portfolios so ändern, dass er mit dem neuen Namen des Portfolios übereinstimmt.
+* Wenn Sie ein Portfolio mit Adobe Cloud Storage umbenennen, wird der Dokumentenordner automatisch umbenannt. Wenn jedoch ein Problem auftritt und der Speicher zu diesem Zeitpunkt nicht erreicht werden kann, wird der neue Name sowohl für das Portfolio als auch für den Ordner abgelehnt und die alten Namen bleiben unverändert. Sie können nach einer Weile erneut versuchen, umzubenennen. <!--checking with Hui on issue 29532225 about which name is flipping back - the project or the folder or both-->
 
 <!--
 This is not possible anymore: 
@@ -159,7 +161,7 @@ This is not possible anymore:
 * Sie können kein Adobe-Cloud-Speicherprojekt zu einem alten Speicherportfolio oder ein älteres Speicherprojekt zu einem Adobe-Speicherportfolio hinzufügen.
 * Ihr Administrator kann im Bereich „Systemeinstellungen“ von „Setup“ ein Legacy-Speicherportfolio in Adobe Cloud-Speicher konvertieren. Alle untergeordneten Objekte (Programme, Projekte und Dokumente) verbleiben im alten Speicher. Für neue Projekte wird der Adobe-Cloud-Speicher verwendet. Neue Dokumente, die zum Portfolio hinzugefügt werden, werden weiterhin im alten Speicher gespeichert.
 Weitere Informationen finden Sie [Konfigurieren von Systemvoreinstellungen](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
-* &#x200B;<!-- this point also repeats for programs below-->Wenn ein Portfolio von einem alten in einen Adobe-Cloud-Speicher konvertiert wird und das Programm über Legacy-Speicher verfügt, verwendet ein Projekt im Programm auch Legacy-Speicher.
+* <!-- this point also repeats for programs below-->Wenn ein Portfolio von einem alten in einen Adobe-Cloud-Speicher konvertiert wird und das Programm über Legacy-Speicher verfügt, verwendet ein Projekt im Programm auch Legacy-Speicher.
 
   Sie können diesem Portfolio keine vorhandenen Legacy-Speicherprojekte mehr hinzufügen.
 
@@ -172,13 +174,14 @@ Weitere Informationen finden Sie [Konfigurieren von Systemvoreinstellungen](/hel
 Beachten Sie beim Arbeiten mit Programmen Folgendes:
 
 * Wenn Sie ein Cloud-Speicherprogramm für Adobe erstellen, erstellt Workfront im Abschnitt Dokumente des Programms einen Ordner, in dem Dokumente gespeichert werden. Der Ordnername entspricht dem Namen des Programms. Sie können den Ordner nicht löschen oder manuell umbenennen. Wenn Sie den Programmnamen ändern, wird der Ordner umbenannt, damit er zum neuen Programmnamen passt.
+* Wenn Sie ein Programm mit Adobe Cloud Storage umbenennen, wird der Dokumentordner automatisch umbenannt. Wenn jedoch ein Problem auftritt und der Speicher zu diesem Zeitpunkt nicht erreicht werden kann, wird der neue Name sowohl für das Programm als auch für den Ordner abgelehnt und die alten Namen bleiben unverändert. Sie können nach einer Weile erneut versuchen, umzubenennen. <!--checking with Hui on issue 29532225 about which name is flipping back - the project or the folder or both-->
 
 * Sie können kein Legacy-Workfront-Speicherprojekt zu einem Adobe-Cloud-Speicherprogramm hinzufügen.
 
 * Sie können kein Adobe-Cloud-Speicherprogramm zu einem alten Speicherportfolio hinzufügen oder ein älteres Programm zu einem Adobe-Cloud-Speicherportfolio hinzufügen.
 * Sie können kein Projekt aus einer Adobe-Cloud-Speichervorlage in einem Legacy-Speicherprogramm erstellen.
 * Sie können ein Projekt aus einer Legacy-Speichervorlage in einem Adobe Cloud-Speicherprogramm erstellen, die Dokumente und Ordner in der Vorlage werden jedoch nicht zum neuen Projekt hinzugefügt. Das Projekt erhält Adobe Cloud-Speicher.
-* &#x200B;<!-- this point also repeats for portfolios above-->Wenn ein Portfolio von einem alten in einen Adobe-Cloud-Speicher konvertiert wird und das Programm über Legacy-Speicher verfügt, verwendet ein Projekt im Programm auch Legacy-Speicher.
+* <!-- this point also repeats for portfolios above-->Wenn ein Portfolio von einem alten in einen Adobe-Cloud-Speicher konvertiert wird und das Programm über Legacy-Speicher verfügt, verwendet ein Projekt im Programm auch Legacy-Speicher.
 
   Sie können diesem Portfolio keine vorhandenen Legacy-Speicherprojekte mehr hinzufügen.
 
@@ -191,7 +194,8 @@ Beachten Sie beim Arbeiten mit Aufgaben Folgendes:
 
 * Aufgaben übernehmen den Speichertyp aus Projekten.
 * Wenn Sie ein Dokument zu einer Aufgabe in einem Adobe-Cloud-Speicher-Projekt hochladen, erstellt Workfront automatisch einen Ordner im Abschnitt Dokumente der Aufgabe. Der Ordnername entspricht dem Namen der Aufgabe.
-* Sie können den Dokumentordner umbenennen und aus der Adobe-Cloud-Speicheraufgabe löschen, wodurch auch die Dokumente im Ordner gelöscht werden. Nachdem Sie der Aufgabe neue Dokumente hinzugefügt haben, wird der Ordner automatisch neu erstellt. Gelöschte Dokumente werden nicht wieder im Ordner abgelegt.
+* Beim Umbenennen der Aufgabe wird nicht in den Dokumentenordner umbenannt.
+* Sie können den Dokumentordner aus der Adobe Cloud-Speicheraufgabe löschen, wodurch auch die Dokumente im Ordner gelöscht werden. Nachdem Sie der Aufgabe neue Dokumente hinzugefügt haben, wird der Ordner automatisch neu erstellt. Gelöschte Dokumente werden nicht wieder im Ordner abgelegt.
 * Bei Adobe Cloud-Speicherprojekten wird der Dokumentordner auf einer Aufgabe als Unterordner im automatisch für das Projekt erstellten Dokumentenordner angezeigt.
 * Es ist nicht möglich, eine Aufgabe aus einem alten Workfront-Speicherprojekt in ein Adobe-Cloud-Speicherprojekt zu kopieren oder zu verschieben. Auch das Gegenteil ist nicht möglich.
 * Beim Konvertieren einer Aufgabe in ein Projekt treten die folgenden Szenarien auf: <!--this info also duplicated in Convert tasks to projects-->
@@ -207,7 +211,8 @@ Beachten Sie beim Arbeiten mit Problemen Folgendes:
 
 * Probleme übernehmen den Speichertyp aus Projekten.
 * Wenn Sie ein Dokument zu einem Problem in einem Adobe-Cloud-Speicher-Projekt hochladen, erstellt Workfront automatisch einen Ordner im Dokumentbereich des Problems. Der Ordnername entspricht dem Problem.
-* Sie können den Dokumentordner umbenennen und aus dem Adobe-Cloud-Speicher löschen, wodurch auch die Dokumente im Ordner gelöscht werden. Nachdem Sie dem Problem neue Dokumente hinzugefügt haben, wird der Ordner automatisch neu erstellt. Gelöschte Dokumente werden nicht wieder im Ordner abgelegt.
+* Beim Umbenennen eines Problems wird der Dokumentordner nicht umbenannt.
+* Sie können den Dokumentordner aus dem Adobe Cloud-Speicherproblem löschen, wodurch auch die Dokumente im Ordner gelöscht werden. Nachdem Sie dem Problem neue Dokumente hinzugefügt haben, wird der Ordner automatisch neu erstellt. Gelöschte Dokumente werden nicht wieder im Ordner abgelegt.
 * Bei Adobe-Cloud-Speicherprojekten wird der Dokumentordner in einem Problem als Unterordner in dem automatisch für das Projekt erstellten Dokumentenordner angezeigt.
 * Sie können ein Problem nicht aus einem alten Workfront-Speicherprojekt kopieren oder in ein Adobe-Cloud-Speicherprojekt verschieben. Auch das Gegenteil ist nicht möglich.
 * Beim Konvertieren eines Problems in ein Projekt treten die folgenden Szenarien auf: <!--this info also duplicated in Convert an issue to a project-->
@@ -227,6 +232,7 @@ Beachten Sie beim Arbeiten mit Problemen Folgendes:
 Beachten Sie beim Arbeiten mit Vorlagen Folgendes:
 
 * Wenn Sie eine Adobe-Cloud-Speichervorlage erstellen, erstellt Workfront im Dokumentbereich der Vorlage einen Ordner, in dem Dokumente gespeichert werden. Der Ordnername ist mit dem Programmnamen identisch. Sie können den Ordner nicht löschen oder manuell umbenennen. Der Ordner wird umbenannt, wenn Sie den Namen der Vorlage ändern, sodass er zum neuen Namen der Vorlage passt.
+* Wenn Sie eine Vorlage mit Adobe Cloud Storage umbenennen, wird der Dokumentordner automatisch umbenannt. Wenn jedoch ein Problem auftritt und der Speicher zu diesem Zeitpunkt nicht erreicht werden kann, wird der neue Name sowohl für die Vorlage als auch für den Ordner abgelehnt und die alten Namen bleiben unverändert. Sie können nach einer Weile erneut versuchen, umzubenennen. <!--checking with Hui on issue 29532225 about which name is flipping back - the project or the folder or both-->
 * Sie können eine ältere Workfront-Speichervorlage verwenden, um ältere Workfront-Speicherprojekte zu erstellen. Sie können eine Adobe-Cloud-Speichervorlage verwenden, um ein Adobe-Cloud-Speicherprojekt zu erstellen.
 
 * Beim Erstellen von Projekten mit Vorlagen aus einem Portfolio oder Programm gibt es die folgenden Szenarien:
@@ -244,7 +250,8 @@ Beachten Sie beim Arbeiten mit Vorlagenaufgaben Folgendes:
 
 * Vorlagenaufgaben übernehmen den Speichertyp aus Vorlagen.
 * Wenn Sie ein Dokument zu einer Vorlagenaufgabe auf einer Adobe Cloud-Speichervorlage hochladen, erstellt Workfront automatisch einen Ordner im Abschnitt Dokumente der Vorlagenaufgabe. Der Ordnername entspricht dem der Vorlagenaufgabe.
-* Sie können den Dokumentordner umbenennen und aus der Vorlagenaufgabe für die Adobe-Cloud-Datenspeicherung löschen, wodurch auch die Dokumente im Ordner gelöscht werden. Nachdem Sie der Vorlagenaufgabe neue Dokumente hinzugefügt haben, wird der Ordner automatisch neu erstellt. Gelöschte Dokumente werden nicht wieder im Ordner abgelegt.
+* Beim Umbenennen der Vorlagenaufgabe wird der Dokumentordner nicht umbenannt.
+* Sie können den Dokumentordner aus der Vorlagenaufgabe für die Adobe-Cloud-Datenspeicherung löschen, wodurch auch die Dokumente im Ordner gelöscht werden. Nachdem Sie der Vorlagenaufgabe neue Dokumente hinzugefügt haben, wird der Ordner automatisch neu erstellt. Gelöschte Dokumente werden nicht wieder im Ordner abgelegt.
 * Bei Adobe Cloud-Speichervorlagen wird der Dokumentordner auf einer Vorlagenaufgabe als Unterordner im Ordner Dokumente angezeigt, der automatisch für die Vorlage erstellt wird.
 * Sie können eine Vorlagenaufgabe nicht von einer alten Workfront-Speichervorlage kopieren oder in eine Adobe-Cloud-Speichervorlage verschieben. Auch das Gegenteil ist nicht möglich.
 

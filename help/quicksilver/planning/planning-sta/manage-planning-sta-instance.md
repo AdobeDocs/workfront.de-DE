@@ -18,9 +18,9 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 4c642a8ef31f3b9a03288f2d74e704be6ee86c55
+source-git-commit: ccfa144db57972aa6a43f169964ea3c792d782bc
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '499'
 ht-degree: 3%
 ---
 
@@ -99,7 +99,7 @@ Sie können bis zu 100 Quartale für Ihre Workfront Planning-Instanz konfigurier
 
 Die Konfiguration benutzerdefinierter Quartale in Workfront Planning ähnelt der Konfiguration benutzerdefinierter Quartale in Workfront.
 
-Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale aktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
+Weitere Informationen finden Sie unter [Benutzerdefinierte Quartale und Wochen aktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md).
 
 ## Konfigurieren von Kundeninformationen
 
