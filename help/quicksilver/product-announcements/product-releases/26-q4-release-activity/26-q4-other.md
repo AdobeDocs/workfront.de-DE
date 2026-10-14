@@ -13,9 +13,9 @@ feature_v2:
 subfeature_v2:
   - id: a29813d3-f0cc-4b60-9396-13b558370803
     internal-label: Product announcements
-source-git-commit: d25795f93d0ba333d79e3850fc25c7f046cc2ab1
+source-git-commit: c459d95f58469fe3fe406963645bb7c58c8b1546
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1137'
 ht-degree: 2%
 ---
 # Weitere Verbesserungen im Zeitrahmen der Version vom vierten Quartal 2026
@@ -54,7 +54,7 @@ Weitere Informationen finden Sie unter [Verwenden erweiterter Listen](/help/quic
 
 Die folgenden Workfront-Listen verwenden jetzt das erweiterte Listenformat:
 
-* Setup > E-Mail > Benachrichtigungen > Ereignisbenachrichtigungen und Seite „Gruppendetails“ > Ereignisbenachrichtigungen
+* Seite Setup > E-Mail > Benachrichtigungen > Ereignisbenachrichtigungen und Gruppendetailseite > Ereignisbenachrichtigungen (Dieses Update wurde am 14. Oktober aus der Vorschau-Umgebung entfernt und wird nicht Teil der vierteljährlichen Version sein. Diese Listen werden zu einem späteren Zeitpunkt aktualisiert.)
 * Setup > Dokumente > Experience Manager Assets
 * Projekt oder Vorlage > Warteschlangenthemen
 * Projekt oder Vorlage > Themengruppen
